@@ -80,7 +80,8 @@ export class DataHarnessPlatformIacmDefaultPipeline extends cdktf.TerraformDataS
       terraformResourceType: 'harness_platform_iacm_default_pipeline',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.0'
+        providerVersion: '0.39.0',
+        providerVersionConstraint: '0.39.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -79,7 +79,8 @@ export class OctopusdeployProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'octopusdeploy',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.4.0'
+        providerVersion: '1.4.0',
+        providerVersionConstraint: '1.4.0'
       },
       terraformProviderSource: 'OctopusDeploy/octopusdeploy'
     });

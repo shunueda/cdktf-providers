@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/resources/gcp_service_account
+// https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/gcp_service_account
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,34 +8,27 @@ import * as cdktf from 'cdktf';
 
 export interface GcpServiceAccountConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Path to GCP service account key file.
+  * Base64 encoded GCP service account private key or path to GCP service account key file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/resources/gcp_service_account#credentials GcpServiceAccount#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/gcp_service_account#credentials GcpServiceAccount#credentials}
   */
   readonly credentials: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/resources/gcp_service_account#id GcpServiceAccount#id}
+  * Service account name in RSC. Defaults to `service-account-<timestamp>`.
   *
-  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
-  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
-  */
-  readonly id?: string;
-  /**
-  * Service account name in Polaris. If not given the name of the service account key file is used.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/resources/gcp_service_account#name GcpServiceAccount#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/gcp_service_account#name GcpServiceAccount#name}
   */
   readonly name?: string;
   /**
-  * Signals that the permissions has been updated.
+  * Signals that the permissions has been updated. **Deprecated:** use the `permissions` field of the `feature` block of the `polaris_gcp_project` resource instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/resources/gcp_service_account#permissions_hash GcpServiceAccount#permissions_hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/gcp_service_account#permissions_hash GcpServiceAccount#permissions_hash}
   */
   readonly permissionsHash?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/resources/gcp_service_account polaris_gcp_service_account}
+* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/gcp_service_account polaris_gcp_service_account}
 */
 export class GcpServiceAccount extends cdktf.TerraformResource {
 
@@ -51,7 +44,7 @@ export class GcpServiceAccount extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GcpServiceAccount resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GcpServiceAccount to import
-  * @param importFromId The id of the existing GcpServiceAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/resources/gcp_service_account#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GcpServiceAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/gcp_service_account#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GcpServiceAccount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +56,7 @@ export class GcpServiceAccount extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/resources/gcp_service_account polaris_gcp_service_account} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/gcp_service_account polaris_gcp_service_account} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,7 +67,8 @@ export class GcpServiceAccount extends cdktf.TerraformResource {
       terraformResourceType: 'polaris_gcp_service_account',
       terraformGeneratorMetadata: {
         providerName: 'polaris',
-        providerVersion: '1.2.1'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -85,7 +79,6 @@ export class GcpServiceAccount extends cdktf.TerraformResource {
       forEach: config.forEach
     });
     this._credentials = config.credentials;
-    this._id = config.id;
     this._name = config.name;
     this._permissionsHash = config.permissionsHash;
   }
@@ -107,20 +100,9 @@ export class GcpServiceAccount extends cdktf.TerraformResource {
     return this._credentials;
   }
 
-  // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  // id - computed: true, optional: false, required: false
   public get id() {
     return this.getStringAttribute('id');
-  }
-  public set id(value: string) {
-    this._id = value;
-  }
-  public resetId() {
-    this._id = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get idInput() {
-    return this._id;
   }
 
   // name - computed: true, optional: true, required: false
@@ -162,7 +144,6 @@ export class GcpServiceAccount extends cdktf.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       credentials: cdktf.stringToTerraform(this._credentials),
-      id: cdktf.stringToTerraform(this._id),
       name: cdktf.stringToTerraform(this._name),
       permissions_hash: cdktf.stringToTerraform(this._permissionsHash),
     };
@@ -172,12 +153,6 @@ export class GcpServiceAccount extends cdktf.TerraformResource {
     const attrs = {
       credentials: {
         value: cdktf.stringToHclTerraform(this._credentials),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
-      id: {
-        value: cdktf.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

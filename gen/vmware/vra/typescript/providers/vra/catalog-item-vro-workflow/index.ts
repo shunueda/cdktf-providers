@@ -92,7 +92,8 @@ export class CatalogItemVroWorkflow extends cdktf.TerraformResource {
       terraformResourceType: 'vra_catalog_item_vro_workflow',
       terraformGeneratorMetadata: {
         providerName: 'vra',
-        providerVersion: '0.15.0'
+        providerVersion: '0.15.0',
+        providerVersionConstraint: '0.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

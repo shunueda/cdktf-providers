@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/valkey_cluster_users_v2
+// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/valkey_cluster_users_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,40 +10,40 @@ export interface DataInstaclustrValkeyClusterUsersV2Config extends cdktf.Terrafo
   /**
   * ID of the valkey cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/valkey_cluster_users_v2#cluster_id DataInstaclustrValkeyClusterUsersV2#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/valkey_cluster_users_v2#cluster_id DataInstaclustrValkeyClusterUsersV2#cluster_id}
   */
   readonly clusterId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/valkey_cluster_users_v2#id DataInstaclustrValkeyClusterUsersV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/valkey_cluster_users_v2#id DataInstaclustrValkeyClusterUsersV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/valkey_cluster_users_v2#valkey_cluster_id DataInstaclustrValkeyClusterUsersV2#valkey_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/valkey_cluster_users_v2#valkey_cluster_id DataInstaclustrValkeyClusterUsersV2#valkey_cluster_id}
   */
   readonly valkeyClusterId: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/valkey_cluster_users_v2#filter DataInstaclustrValkeyClusterUsersV2#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/valkey_cluster_users_v2#filter DataInstaclustrValkeyClusterUsersV2#filter}
   */
   readonly filter?: DataInstaclustrValkeyClusterUsersV2Filter[] | cdktf.IResolvable;
   /**
   * valkey_users block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/valkey_cluster_users_v2#valkey_users DataInstaclustrValkeyClusterUsersV2#valkey_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/valkey_cluster_users_v2#valkey_users DataInstaclustrValkeyClusterUsersV2#valkey_users}
   */
   readonly valkeyUsers?: DataInstaclustrValkeyClusterUsersV2ValkeyUsers[] | cdktf.IResolvable;
 }
 export interface DataInstaclustrValkeyClusterUsersV2Filter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/valkey_cluster_users_v2#name DataInstaclustrValkeyClusterUsersV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/valkey_cluster_users_v2#name DataInstaclustrValkeyClusterUsersV2#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/valkey_cluster_users_v2#values DataInstaclustrValkeyClusterUsersV2#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/valkey_cluster_users_v2#values DataInstaclustrValkeyClusterUsersV2#values}
   */
   readonly values: string[];
 }
@@ -184,13 +184,13 @@ export interface DataInstaclustrValkeyClusterUsersV2ValkeyUsers {
   /**
   * ID of the Valkey cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/valkey_cluster_users_v2#cluster_id DataInstaclustrValkeyClusterUsersV2#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/valkey_cluster_users_v2#cluster_id DataInstaclustrValkeyClusterUsersV2#cluster_id}
   */
   readonly clusterId?: string;
   /**
   * Instaclustr identifier for the Valkey user. The value of this property has the form: [cluster-id]_[valkey-username]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/valkey_cluster_users_v2#id DataInstaclustrValkeyClusterUsersV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/valkey_cluster_users_v2#id DataInstaclustrValkeyClusterUsersV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -199,7 +199,7 @@ export interface DataInstaclustrValkeyClusterUsersV2ValkeyUsers {
   /**
   * Username of the Valkey user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/valkey_cluster_users_v2#username DataInstaclustrValkeyClusterUsersV2#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/valkey_cluster_users_v2#username DataInstaclustrValkeyClusterUsersV2#username}
   */
   readonly username?: string;
 }
@@ -373,7 +373,7 @@ export class DataInstaclustrValkeyClusterUsersV2ValkeyUsersList extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/valkey_cluster_users_v2 instaclustr_valkey_cluster_users_v2}
+* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/valkey_cluster_users_v2 instaclustr_valkey_cluster_users_v2}
 */
 export class DataInstaclustrValkeyClusterUsersV2 extends cdktf.TerraformDataSource {
 
@@ -389,7 +389,7 @@ export class DataInstaclustrValkeyClusterUsersV2 extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataInstaclustrValkeyClusterUsersV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataInstaclustrValkeyClusterUsersV2 to import
-  * @param importFromId The id of the existing DataInstaclustrValkeyClusterUsersV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/valkey_cluster_users_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataInstaclustrValkeyClusterUsersV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/valkey_cluster_users_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataInstaclustrValkeyClusterUsersV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -401,7 +401,7 @@ export class DataInstaclustrValkeyClusterUsersV2 extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/valkey_cluster_users_v2 instaclustr_valkey_cluster_users_v2} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/valkey_cluster_users_v2 instaclustr_valkey_cluster_users_v2} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -412,7 +412,8 @@ export class DataInstaclustrValkeyClusterUsersV2 extends cdktf.TerraformDataSour
       terraformResourceType: 'instaclustr_valkey_cluster_users_v2',
       terraformGeneratorMetadata: {
         providerName: 'instaclustr',
-        providerVersion: '2.1.25'
+        providerVersion: '2.1.26',
+        providerVersionConstraint: '2.1.26'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

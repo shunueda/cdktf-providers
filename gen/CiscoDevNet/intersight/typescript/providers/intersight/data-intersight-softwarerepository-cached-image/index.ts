@@ -4774,7 +4774,8 @@ export class DataIntersightSoftwarerepositoryCachedImage extends cdktf.Terraform
       terraformResourceType: 'intersight_softwarerepository_cached_image',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

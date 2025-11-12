@@ -1,3 +1,3 @@
 # `openstack_sharedfilesystem_securityservice_v2`
 
-Refer to the Terraform Registry for docs: [`openstack_sharedfilesystem_securityservice_v2`](https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/sharedfilesystem_securityservice_v2).
+Refer to the Terraform Registry for docs: [`openstack_sharedfilesystem_securityservice_v2`](https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/sharedfilesystem_securityservice_v2).

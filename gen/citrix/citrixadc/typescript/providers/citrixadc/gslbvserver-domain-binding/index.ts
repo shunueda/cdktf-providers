@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbvserver_domain_binding
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbvserver_domain_binding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,52 +8,52 @@ import * as cdktf from 'cdktf';
 
 export interface GslbvserverDomainBindingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbvserver_domain_binding#backupip GslbvserverDomainBinding#backupip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbvserver_domain_binding#backupip GslbvserverDomainBinding#backupip}
   */
   readonly backupip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbvserver_domain_binding#backupipflag GslbvserverDomainBinding#backupipflag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbvserver_domain_binding#backupipflag GslbvserverDomainBinding#backupipflag}
   */
   readonly backupipflag?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbvserver_domain_binding#cookiedomain GslbvserverDomainBinding#cookiedomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbvserver_domain_binding#cookiedomain GslbvserverDomainBinding#cookiedomain}
   */
   readonly cookiedomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbvserver_domain_binding#cookiedomainflag GslbvserverDomainBinding#cookiedomainflag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbvserver_domain_binding#cookiedomainflag GslbvserverDomainBinding#cookiedomainflag}
   */
   readonly cookiedomainflag?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbvserver_domain_binding#cookietimeout GslbvserverDomainBinding#cookietimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbvserver_domain_binding#cookietimeout GslbvserverDomainBinding#cookietimeout}
   */
   readonly cookietimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbvserver_domain_binding#domainname GslbvserverDomainBinding#domainname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbvserver_domain_binding#domainname GslbvserverDomainBinding#domainname}
   */
   readonly domainname: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbvserver_domain_binding#id GslbvserverDomainBinding#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbvserver_domain_binding#id GslbvserverDomainBinding#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbvserver_domain_binding#name GslbvserverDomainBinding#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbvserver_domain_binding#name GslbvserverDomainBinding#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbvserver_domain_binding#sitedomainttl GslbvserverDomainBinding#sitedomainttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbvserver_domain_binding#sitedomainttl GslbvserverDomainBinding#sitedomainttl}
   */
   readonly sitedomainttl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbvserver_domain_binding#ttl GslbvserverDomainBinding#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbvserver_domain_binding#ttl GslbvserverDomainBinding#ttl}
   */
   readonly ttl?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbvserver_domain_binding citrixadc_gslbvserver_domain_binding}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbvserver_domain_binding citrixadc_gslbvserver_domain_binding}
 */
 export class GslbvserverDomainBinding extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class GslbvserverDomainBinding extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GslbvserverDomainBinding resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GslbvserverDomainBinding to import
-  * @param importFromId The id of the existing GslbvserverDomainBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbvserver_domain_binding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GslbvserverDomainBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbvserver_domain_binding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GslbvserverDomainBinding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class GslbvserverDomainBinding extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbvserver_domain_binding citrixadc_gslbvserver_domain_binding} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbvserver_domain_binding citrixadc_gslbvserver_domain_binding} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,7 +92,8 @@ export class GslbvserverDomainBinding extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_gslbvserver_domain_binding',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

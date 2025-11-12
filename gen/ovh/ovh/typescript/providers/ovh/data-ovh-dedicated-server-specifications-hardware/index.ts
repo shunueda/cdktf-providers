@@ -563,7 +563,8 @@ export class DataOvhDedicatedServerSpecificationsHardware extends cdktf.Terrafor
       terraformResourceType: 'ovh_dedicated_server_specifications_hardware',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0'
+        providerVersion: '2.9.0',
+        providerVersionConstraint: '2.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

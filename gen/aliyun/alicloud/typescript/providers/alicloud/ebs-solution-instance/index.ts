@@ -387,7 +387,8 @@ export class EbsSolutionInstance extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_ebs_solution_instance',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

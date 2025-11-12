@@ -180,7 +180,8 @@ export class DataAlicloudArmsPrometheusMonitorings extends cdktf.TerraformDataSo
       terraformResourceType: 'alicloud_arms_prometheus_monitorings',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

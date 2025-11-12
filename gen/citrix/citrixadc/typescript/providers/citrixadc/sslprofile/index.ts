@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslprofile
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,290 +8,314 @@ import * as cdktf from 'cdktf';
 
 export interface SslprofileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslprofile#alpnprotocol Sslprofile#alpnprotocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile#allowextendedmastersecret Sslprofile#allowextendedmastersecret}
+  */
+  readonly allowextendedmastersecret?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile#allowunknownsni Sslprofile#allowunknownsni}
+  */
+  readonly allowunknownsni?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile#alpnprotocol Sslprofile#alpnprotocol}
   */
   readonly alpnprotocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslprofile#ciphername Sslprofile#ciphername}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile#ciphername Sslprofile#ciphername}
   */
   readonly ciphername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslprofile#cipherpriority Sslprofile#cipherpriority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile#cipherpriority Sslprofile#cipherpriority}
   */
   readonly cipherpriority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslprofile#cipherredirect Sslprofile#cipherredirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile#cipherredirect Sslprofile#cipherredirect}
   */
   readonly cipherredirect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslprofile#cipherurl Sslprofile#cipherurl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile#cipherurl Sslprofile#cipherurl}
   */
   readonly cipherurl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslprofile#cleartextport Sslprofile#cleartextport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile#cleartextport Sslprofile#cleartextport}
   */
   readonly cleartextport?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslprofile#clientauth Sslprofile#clientauth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile#clientauth Sslprofile#clientauth}
   */
   readonly clientauth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslprofile#clientauthuseboundcachain Sslprofile#clientauthuseboundcachain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile#clientauthuseboundcachain Sslprofile#clientauthuseboundcachain}
   */
   readonly clientauthuseboundcachain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslprofile#clientcert Sslprofile#clientcert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile#clientcert Sslprofile#clientcert}
   */
   readonly clientcert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslprofile#commonname Sslprofile#commonname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile#commonname Sslprofile#commonname}
   */
   readonly commonname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslprofile#denysslreneg Sslprofile#denysslreneg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile#defaultsni Sslprofile#defaultsni}
+  */
+  readonly defaultsni?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile#denysslreneg Sslprofile#denysslreneg}
   */
   readonly denysslreneg?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslprofile#dh Sslprofile#dh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile#dh Sslprofile#dh}
   */
   readonly dh?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslprofile#dhcount Sslprofile#dhcount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile#dhcount Sslprofile#dhcount}
   */
   readonly dhcount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslprofile#dhekeyexchangewithpsk Sslprofile#dhekeyexchangewithpsk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile#dhekeyexchangewithpsk Sslprofile#dhekeyexchangewithpsk}
   */
   readonly dhekeyexchangewithpsk?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslprofile#dhfile Sslprofile#dhfile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile#dhfile Sslprofile#dhfile}
   */
   readonly dhfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslprofile#dhkeyexpsizelimit Sslprofile#dhkeyexpsizelimit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile#dhkeyexpsizelimit Sslprofile#dhkeyexpsizelimit}
   */
   readonly dhkeyexpsizelimit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslprofile#dropreqwithnohostheader Sslprofile#dropreqwithnohostheader}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile#dropreqwithnohostheader Sslprofile#dropreqwithnohostheader}
   */
   readonly dropreqwithnohostheader?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslprofile#ecccurvebindings Sslprofile#ecccurvebindings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile#ecccurvebindings Sslprofile#ecccurvebindings}
   */
   readonly ecccurvebindings?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslprofile#encrypttriggerpktcount Sslprofile#encrypttriggerpktcount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile#encryptedclienthello Sslprofile#encryptedclienthello}
+  */
+  readonly encryptedclienthello?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile#encrypttriggerpktcount Sslprofile#encrypttriggerpktcount}
   */
   readonly encrypttriggerpktcount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslprofile#ersa Sslprofile#ersa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile#ersa Sslprofile#ersa}
   */
   readonly ersa?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslprofile#ersacount Sslprofile#ersacount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile#ersacount Sslprofile#ersacount}
   */
   readonly ersacount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslprofile#hsts Sslprofile#hsts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile#hsts Sslprofile#hsts}
   */
   readonly hsts?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslprofile#id Sslprofile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile#id Sslprofile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslprofile#includesubdomains Sslprofile#includesubdomains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile#includesubdomains Sslprofile#includesubdomains}
   */
   readonly includesubdomains?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslprofile#insertionencoding Sslprofile#insertionencoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile#insertionencoding Sslprofile#insertionencoding}
   */
   readonly insertionencoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslprofile#maxage Sslprofile#maxage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile#maxage Sslprofile#maxage}
   */
   readonly maxage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslprofile#name Sslprofile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile#maxrenegrate Sslprofile#maxrenegrate}
+  */
+  readonly maxrenegrate?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile#name Sslprofile#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslprofile#nodefaultbindings Sslprofile#nodefaultbindings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile#nodefaultbindings Sslprofile#nodefaultbindings}
   */
   readonly nodefaultbindings?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslprofile#nodefaultcipherbindings Sslprofile#nodefaultcipherbindings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile#nodefaultcipherbindings Sslprofile#nodefaultcipherbindings}
   */
   readonly nodefaultcipherbindings?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslprofile#nodefaultecccurvebindings Sslprofile#nodefaultecccurvebindings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile#nodefaultecccurvebindings Sslprofile#nodefaultecccurvebindings}
   */
   readonly nodefaultecccurvebindings?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslprofile#ocspstapling Sslprofile#ocspstapling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile#ocspstapling Sslprofile#ocspstapling}
   */
   readonly ocspstapling?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslprofile#preload Sslprofile#preload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile#preload Sslprofile#preload}
   */
   readonly preload?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslprofile#prevsessionkeylifetime Sslprofile#prevsessionkeylifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile#prevsessionkeylifetime Sslprofile#prevsessionkeylifetime}
   */
   readonly prevsessionkeylifetime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslprofile#pushenctrigger Sslprofile#pushenctrigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile#pushenctrigger Sslprofile#pushenctrigger}
   */
   readonly pushenctrigger?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslprofile#pushenctriggertimeout Sslprofile#pushenctriggertimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile#pushenctriggertimeout Sslprofile#pushenctriggertimeout}
   */
   readonly pushenctriggertimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslprofile#pushflag Sslprofile#pushflag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile#pushflag Sslprofile#pushflag}
   */
   readonly pushflag?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslprofile#quantumsize Sslprofile#quantumsize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile#quantumsize Sslprofile#quantumsize}
   */
   readonly quantumsize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslprofile#redirectportrewrite Sslprofile#redirectportrewrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile#redirectportrewrite Sslprofile#redirectportrewrite}
   */
   readonly redirectportrewrite?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslprofile#sendclosenotify Sslprofile#sendclosenotify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile#sendclosenotify Sslprofile#sendclosenotify}
   */
   readonly sendclosenotify?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslprofile#serverauth Sslprofile#serverauth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile#serverauth Sslprofile#serverauth}
   */
   readonly serverauth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslprofile#sessionkeylifetime Sslprofile#sessionkeylifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile#sessionkeylifetime Sslprofile#sessionkeylifetime}
   */
   readonly sessionkeylifetime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslprofile#sessionticket Sslprofile#sessionticket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile#sessionticket Sslprofile#sessionticket}
   */
   readonly sessionticket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslprofile#sessionticketkeydata Sslprofile#sessionticketkeydata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile#sessionticketkeydata Sslprofile#sessionticketkeydata}
   */
   readonly sessionticketkeydata?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslprofile#sessionticketkeyrefresh Sslprofile#sessionticketkeyrefresh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile#sessionticketkeyrefresh Sslprofile#sessionticketkeyrefresh}
   */
   readonly sessionticketkeyrefresh?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslprofile#sessionticketlifetime Sslprofile#sessionticketlifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile#sessionticketlifetime Sslprofile#sessionticketlifetime}
   */
   readonly sessionticketlifetime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslprofile#sessreuse Sslprofile#sessreuse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile#sessreuse Sslprofile#sessreuse}
   */
   readonly sessreuse?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslprofile#sesstimeout Sslprofile#sesstimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile#sesstimeout Sslprofile#sesstimeout}
   */
   readonly sesstimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslprofile#skipclientcertpolicycheck Sslprofile#skipclientcertpolicycheck}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile#skipclientcertpolicycheck Sslprofile#skipclientcertpolicycheck}
   */
   readonly skipclientcertpolicycheck?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslprofile#snienable Sslprofile#snienable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile#snienable Sslprofile#snienable}
   */
   readonly snienable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslprofile#snihttphostmatch Sslprofile#snihttphostmatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile#snihttphostmatch Sslprofile#snihttphostmatch}
   */
   readonly snihttphostmatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslprofile#ssl3 Sslprofile#ssl3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile#ssl3 Sslprofile#ssl3}
   */
   readonly ssl3?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslprofile#sslimaxsessperserver Sslprofile#sslimaxsessperserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile#sslclientlogs Sslprofile#sslclientlogs}
+  */
+  readonly sslclientlogs?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile#sslimaxsessperserver Sslprofile#sslimaxsessperserver}
   */
   readonly sslimaxsessperserver?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslprofile#sslinterception Sslprofile#sslinterception}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile#sslinterception Sslprofile#sslinterception}
   */
   readonly sslinterception?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslprofile#ssliocspcheck Sslprofile#ssliocspcheck}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile#ssliocspcheck Sslprofile#ssliocspcheck}
   */
   readonly ssliocspcheck?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslprofile#sslireneg Sslprofile#sslireneg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile#sslireneg Sslprofile#sslireneg}
   */
   readonly sslireneg?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslprofile#ssllogprofile Sslprofile#ssllogprofile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile#ssllogprofile Sslprofile#ssllogprofile}
   */
   readonly ssllogprofile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslprofile#sslprofiletype Sslprofile#sslprofiletype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile#sslprofiletype Sslprofile#sslprofiletype}
   */
   readonly sslprofiletype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslprofile#sslredirect Sslprofile#sslredirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile#sslredirect Sslprofile#sslredirect}
   */
   readonly sslredirect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslprofile#ssltriggertimeout Sslprofile#ssltriggertimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile#ssltriggertimeout Sslprofile#ssltriggertimeout}
   */
   readonly ssltriggertimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslprofile#strictcachecks Sslprofile#strictcachecks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile#strictcachecks Sslprofile#strictcachecks}
   */
   readonly strictcachecks?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslprofile#strictsigdigestcheck Sslprofile#strictsigdigestcheck}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile#strictsigdigestcheck Sslprofile#strictsigdigestcheck}
   */
   readonly strictsigdigestcheck?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslprofile#tls1 Sslprofile#tls1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile#tls1 Sslprofile#tls1}
   */
   readonly tls1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslprofile#tls11 Sslprofile#tls11}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile#tls11 Sslprofile#tls11}
   */
   readonly tls11?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslprofile#tls12 Sslprofile#tls12}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile#tls12 Sslprofile#tls12}
   */
   readonly tls12?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslprofile#tls13 Sslprofile#tls13}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile#tls13 Sslprofile#tls13}
   */
   readonly tls13?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslprofile#tls13sessionticketsperauthcontext Sslprofile#tls13sessionticketsperauthcontext}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile#tls13sessionticketsperauthcontext Sslprofile#tls13sessionticketsperauthcontext}
   */
   readonly tls13Sessionticketsperauthcontext?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslprofile#zerorttearlydata Sslprofile#zerorttearlydata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile#zerorttearlydata Sslprofile#zerorttearlydata}
   */
   readonly zerorttearlydata?: string;
   /**
   * cipherbindings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslprofile#cipherbindings Sslprofile#cipherbindings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile#cipherbindings Sslprofile#cipherbindings}
   */
   readonly cipherbindings?: SslprofileCipherbindings[] | cdktf.IResolvable;
 }
 export interface SslprofileCipherbindings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslprofile#ciphername Sslprofile#ciphername}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile#ciphername Sslprofile#ciphername}
   */
   readonly ciphername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslprofile#cipherpriority Sslprofile#cipherpriority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile#cipherpriority Sslprofile#cipherpriority}
   */
   readonly cipherpriority?: number;
 }
@@ -436,7 +460,7 @@ export class SslprofileCipherbindingsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslprofile citrixadc_sslprofile}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile citrixadc_sslprofile}
 */
 export class Sslprofile extends cdktf.TerraformResource {
 
@@ -452,7 +476,7 @@ export class Sslprofile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Sslprofile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Sslprofile to import
-  * @param importFromId The id of the existing Sslprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslprofile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Sslprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Sslprofile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -464,7 +488,7 @@ export class Sslprofile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslprofile citrixadc_sslprofile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslprofile citrixadc_sslprofile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -475,7 +499,8 @@ export class Sslprofile extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_sslprofile',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -485,6 +510,8 @@ export class Sslprofile extends cdktf.TerraformResource {
       connection: config.connection,
       forEach: config.forEach
     });
+    this._allowextendedmastersecret = config.allowextendedmastersecret;
+    this._allowunknownsni = config.allowunknownsni;
     this._alpnprotocol = config.alpnprotocol;
     this._ciphername = config.ciphername;
     this._cipherpriority = config.cipherpriority;
@@ -495,6 +522,7 @@ export class Sslprofile extends cdktf.TerraformResource {
     this._clientauthuseboundcachain = config.clientauthuseboundcachain;
     this._clientcert = config.clientcert;
     this._commonname = config.commonname;
+    this._defaultsni = config.defaultsni;
     this._denysslreneg = config.denysslreneg;
     this._dh = config.dh;
     this._dhcount = config.dhcount;
@@ -503,6 +531,7 @@ export class Sslprofile extends cdktf.TerraformResource {
     this._dhkeyexpsizelimit = config.dhkeyexpsizelimit;
     this._dropreqwithnohostheader = config.dropreqwithnohostheader;
     this._ecccurvebindings = config.ecccurvebindings;
+    this._encryptedclienthello = config.encryptedclienthello;
     this._encrypttriggerpktcount = config.encrypttriggerpktcount;
     this._ersa = config.ersa;
     this._ersacount = config.ersacount;
@@ -511,6 +540,7 @@ export class Sslprofile extends cdktf.TerraformResource {
     this._includesubdomains = config.includesubdomains;
     this._insertionencoding = config.insertionencoding;
     this._maxage = config.maxage;
+    this._maxrenegrate = config.maxrenegrate;
     this._name = config.name;
     this._nodefaultbindings = config.nodefaultbindings;
     this._nodefaultcipherbindings = config.nodefaultcipherbindings;
@@ -536,6 +566,7 @@ export class Sslprofile extends cdktf.TerraformResource {
     this._snienable = config.snienable;
     this._snihttphostmatch = config.snihttphostmatch;
     this._ssl3 = config.ssl3;
+    this._sslclientlogs = config.sslclientlogs;
     this._sslimaxsessperserver = config.sslimaxsessperserver;
     this._sslinterception = config.sslinterception;
     this._ssliocspcheck = config.ssliocspcheck;
@@ -558,6 +589,38 @@ export class Sslprofile extends cdktf.TerraformResource {
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // allowextendedmastersecret - computed: true, optional: true, required: false
+  private _allowextendedmastersecret?: string; 
+  public get allowextendedmastersecret() {
+    return this.getStringAttribute('allowextendedmastersecret');
+  }
+  public set allowextendedmastersecret(value: string) {
+    this._allowextendedmastersecret = value;
+  }
+  public resetAllowextendedmastersecret() {
+    this._allowextendedmastersecret = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get allowextendedmastersecretInput() {
+    return this._allowextendedmastersecret;
+  }
+
+  // allowunknownsni - computed: true, optional: true, required: false
+  private _allowunknownsni?: string; 
+  public get allowunknownsni() {
+    return this.getStringAttribute('allowunknownsni');
+  }
+  public set allowunknownsni(value: string) {
+    this._allowunknownsni = value;
+  }
+  public resetAllowunknownsni() {
+    this._allowunknownsni = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get allowunknownsniInput() {
+    return this._allowunknownsni;
+  }
 
   // alpnprotocol - computed: true, optional: true, required: false
   private _alpnprotocol?: string; 
@@ -719,6 +782,22 @@ export class Sslprofile extends cdktf.TerraformResource {
     return this._commonname;
   }
 
+  // defaultsni - computed: true, optional: true, required: false
+  private _defaultsni?: string; 
+  public get defaultsni() {
+    return this.getStringAttribute('defaultsni');
+  }
+  public set defaultsni(value: string) {
+    this._defaultsni = value;
+  }
+  public resetDefaultsni() {
+    this._defaultsni = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get defaultsniInput() {
+    return this._defaultsni;
+  }
+
   // denysslreneg - computed: true, optional: true, required: false
   private _denysslreneg?: string; 
   public get denysslreneg() {
@@ -847,6 +926,22 @@ export class Sslprofile extends cdktf.TerraformResource {
     return this._ecccurvebindings;
   }
 
+  // encryptedclienthello - computed: true, optional: true, required: false
+  private _encryptedclienthello?: string; 
+  public get encryptedclienthello() {
+    return this.getStringAttribute('encryptedclienthello');
+  }
+  public set encryptedclienthello(value: string) {
+    this._encryptedclienthello = value;
+  }
+  public resetEncryptedclienthello() {
+    this._encryptedclienthello = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get encryptedclienthelloInput() {
+    return this._encryptedclienthello;
+  }
+
   // encrypttriggerpktcount - computed: true, optional: true, required: false
   private _encrypttriggerpktcount?: number; 
   public get encrypttriggerpktcount() {
@@ -973,6 +1068,22 @@ export class Sslprofile extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get maxageInput() {
     return this._maxage;
+  }
+
+  // maxrenegrate - computed: true, optional: true, required: false
+  private _maxrenegrate?: number; 
+  public get maxrenegrate() {
+    return this.getNumberAttribute('maxrenegrate');
+  }
+  public set maxrenegrate(value: number) {
+    this._maxrenegrate = value;
+  }
+  public resetMaxrenegrate() {
+    this._maxrenegrate = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxrenegrateInput() {
+    return this._maxrenegrate;
   }
 
   // name - computed: false, optional: false, required: true
@@ -1372,6 +1483,22 @@ export class Sslprofile extends cdktf.TerraformResource {
     return this._ssl3;
   }
 
+  // sslclientlogs - computed: true, optional: true, required: false
+  private _sslclientlogs?: string; 
+  public get sslclientlogs() {
+    return this.getStringAttribute('sslclientlogs');
+  }
+  public set sslclientlogs(value: string) {
+    this._sslclientlogs = value;
+  }
+  public resetSslclientlogs() {
+    this._sslclientlogs = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sslclientlogsInput() {
+    return this._sslclientlogs;
+  }
+
   // sslimaxsessperserver - computed: true, optional: true, required: false
   private _sslimaxsessperserver?: number; 
   public get sslimaxsessperserver() {
@@ -1650,6 +1777,8 @@ export class Sslprofile extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      allowextendedmastersecret: cdktf.stringToTerraform(this._allowextendedmastersecret),
+      allowunknownsni: cdktf.stringToTerraform(this._allowunknownsni),
       alpnprotocol: cdktf.stringToTerraform(this._alpnprotocol),
       ciphername: cdktf.stringToTerraform(this._ciphername),
       cipherpriority: cdktf.numberToTerraform(this._cipherpriority),
@@ -1660,6 +1789,7 @@ export class Sslprofile extends cdktf.TerraformResource {
       clientauthuseboundcachain: cdktf.stringToTerraform(this._clientauthuseboundcachain),
       clientcert: cdktf.stringToTerraform(this._clientcert),
       commonname: cdktf.stringToTerraform(this._commonname),
+      defaultsni: cdktf.stringToTerraform(this._defaultsni),
       denysslreneg: cdktf.stringToTerraform(this._denysslreneg),
       dh: cdktf.stringToTerraform(this._dh),
       dhcount: cdktf.numberToTerraform(this._dhcount),
@@ -1668,6 +1798,7 @@ export class Sslprofile extends cdktf.TerraformResource {
       dhkeyexpsizelimit: cdktf.stringToTerraform(this._dhkeyexpsizelimit),
       dropreqwithnohostheader: cdktf.stringToTerraform(this._dropreqwithnohostheader),
       ecccurvebindings: cdktf.listMapper(cdktf.stringToTerraform, false)(this._ecccurvebindings),
+      encryptedclienthello: cdktf.stringToTerraform(this._encryptedclienthello),
       encrypttriggerpktcount: cdktf.numberToTerraform(this._encrypttriggerpktcount),
       ersa: cdktf.stringToTerraform(this._ersa),
       ersacount: cdktf.numberToTerraform(this._ersacount),
@@ -1676,6 +1807,7 @@ export class Sslprofile extends cdktf.TerraformResource {
       includesubdomains: cdktf.stringToTerraform(this._includesubdomains),
       insertionencoding: cdktf.stringToTerraform(this._insertionencoding),
       maxage: cdktf.numberToTerraform(this._maxage),
+      maxrenegrate: cdktf.numberToTerraform(this._maxrenegrate),
       name: cdktf.stringToTerraform(this._name),
       nodefaultbindings: cdktf.stringToTerraform(this._nodefaultbindings),
       nodefaultcipherbindings: cdktf.booleanToTerraform(this._nodefaultcipherbindings),
@@ -1701,6 +1833,7 @@ export class Sslprofile extends cdktf.TerraformResource {
       snienable: cdktf.stringToTerraform(this._snienable),
       snihttphostmatch: cdktf.stringToTerraform(this._snihttphostmatch),
       ssl3: cdktf.stringToTerraform(this._ssl3),
+      sslclientlogs: cdktf.stringToTerraform(this._sslclientlogs),
       sslimaxsessperserver: cdktf.numberToTerraform(this._sslimaxsessperserver),
       sslinterception: cdktf.stringToTerraform(this._sslinterception),
       ssliocspcheck: cdktf.stringToTerraform(this._ssliocspcheck),
@@ -1723,6 +1856,18 @@ export class Sslprofile extends cdktf.TerraformResource {
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
+      allowextendedmastersecret: {
+        value: cdktf.stringToHclTerraform(this._allowextendedmastersecret),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      allowunknownsni: {
+        value: cdktf.stringToHclTerraform(this._allowunknownsni),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       alpnprotocol: {
         value: cdktf.stringToHclTerraform(this._alpnprotocol),
         isBlock: false,
@@ -1783,6 +1928,12 @@ export class Sslprofile extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      defaultsni: {
+        value: cdktf.stringToHclTerraform(this._defaultsni),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       denysslreneg: {
         value: cdktf.stringToHclTerraform(this._denysslreneg),
         isBlock: false,
@@ -1831,6 +1982,12 @@ export class Sslprofile extends cdktf.TerraformResource {
         type: "set",
         storageClassType: "stringList",
       },
+      encryptedclienthello: {
+        value: cdktf.stringToHclTerraform(this._encryptedclienthello),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       encrypttriggerpktcount: {
         value: cdktf.numberToHclTerraform(this._encrypttriggerpktcount),
         isBlock: false,
@@ -1875,6 +2032,12 @@ export class Sslprofile extends cdktf.TerraformResource {
       },
       maxage: {
         value: cdktf.numberToHclTerraform(this._maxage),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      maxrenegrate: {
+        value: cdktf.numberToHclTerraform(this._maxrenegrate),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
@@ -2025,6 +2188,12 @@ export class Sslprofile extends cdktf.TerraformResource {
       },
       ssl3: {
         value: cdktf.stringToHclTerraform(this._ssl3),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      sslclientlogs: {
+        value: cdktf.stringToHclTerraform(this._sslclientlogs),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

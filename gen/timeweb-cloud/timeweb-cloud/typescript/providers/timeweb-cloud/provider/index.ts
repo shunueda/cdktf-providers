@@ -61,7 +61,8 @@ export class TimewebCloudProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'timeweb-cloud',
       terraformGeneratorMetadata: {
         providerName: 'timeweb-cloud',
-        providerVersion: '1.6.6'
+        providerVersion: '1.6.6',
+        providerVersionConstraint: '1.6.6'
       },
       terraformProviderSource: 'timeweb-cloud/timeweb-cloud'
     });

@@ -1,4 +1,6 @@
 {
   "cdktf": "0.21.0",
-  "providers": {}
+  "providers": {
+    "alz": "0.20.0"
+  }
 }

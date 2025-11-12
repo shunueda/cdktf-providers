@@ -67,7 +67,8 @@ export class Organization extends cdktf.TerraformResource {
       terraformResourceType: 'snyk_organization',
       terraformGeneratorMetadata: {
         providerName: 'snyk',
-        providerVersion: '0.0.5'
+        providerVersion: '0.0.5',
+        providerVersionConstraint: '0.0.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

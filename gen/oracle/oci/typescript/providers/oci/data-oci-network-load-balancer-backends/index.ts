@@ -447,7 +447,8 @@ export class DataOciNetworkLoadBalancerBackends extends cdktf.TerraformDataSourc
       terraformResourceType: 'oci_network_load_balancer_backends',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

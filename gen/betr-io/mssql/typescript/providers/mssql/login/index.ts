@@ -854,7 +854,8 @@ export class Login extends cdktf.TerraformResource {
       terraformResourceType: 'mssql_login',
       terraformGeneratorMetadata: {
         providerName: 'mssql',
-        providerVersion: '0.3.1'
+        providerVersion: '0.3.1',
+        providerVersionConstraint: '0.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

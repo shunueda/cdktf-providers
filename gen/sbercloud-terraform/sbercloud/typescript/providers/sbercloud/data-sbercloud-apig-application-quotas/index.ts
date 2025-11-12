@@ -190,7 +190,8 @@ export class DataSbercloudApigApplicationQuotas extends cdktf.TerraformDataSourc
       terraformResourceType: 'sbercloud_apig_application_quotas',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14'
+        providerVersion: '1.12.14',
+        providerVersionConstraint: '1.12.14'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

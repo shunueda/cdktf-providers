@@ -147,7 +147,8 @@ export class DataKafkaTopics extends cdktf.TerraformDataSource {
       terraformResourceType: 'kafka_topics',
       terraformGeneratorMetadata: {
         providerName: 'kafka',
-        providerVersion: '0.13.1'
+        providerVersion: '0.13.1',
+        providerVersionConstraint: '0.13.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1284,7 +1284,8 @@ export class TeamRoutingRule extends cdktf.TerraformResource {
       terraformResourceType: 'opsgenie_team_routing_rule',
       terraformGeneratorMetadata: {
         providerName: 'opsgenie',
-        providerVersion: '0.6.40'
+        providerVersion: '0.6.40',
+        providerVersionConstraint: '0.6.40'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

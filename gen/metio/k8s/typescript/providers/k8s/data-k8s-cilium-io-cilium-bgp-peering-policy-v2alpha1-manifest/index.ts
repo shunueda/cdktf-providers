@@ -3014,7 +3014,8 @@ export class DataK8SCiliumIoCiliumBgpPeeringPolicyV2Alpha1Manifest extends cdktf
       terraformResourceType: 'k8s_cilium_io_cilium_bgp_peering_policy_v2alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

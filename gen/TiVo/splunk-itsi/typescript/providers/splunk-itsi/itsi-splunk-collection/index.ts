@@ -284,7 +284,8 @@ export class ItsiSplunkCollection extends cdktf.TerraformResource {
       terraformResourceType: 'itsi_splunk_collection',
       terraformGeneratorMetadata: {
         providerName: 'splunk-itsi',
-        providerVersion: '2.2.4'
+        providerVersion: '2.2.4',
+        providerVersionConstraint: '2.2.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -153,7 +153,8 @@ export class KeycloakProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'keycloak',
       terraformGeneratorMetadata: {
         providerName: 'keycloak',
-        providerVersion: '5.5.0'
+        providerVersion: '5.5.0',
+        providerVersionConstraint: '5.5.0'
       },
       terraformProviderSource: 'keycloak/keycloak'
     });

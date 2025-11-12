@@ -2787,7 +2787,8 @@ export class VmQemu extends cdktf.TerraformResource {
       terraformResourceType: 'proxmox_vm_qemu',
       terraformGeneratorMetadata: {
         providerName: 'proxmox',
-        providerVersion: '2.9.14'
+        providerVersion: '2.9.14',
+        providerVersionConstraint: '2.9.14'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

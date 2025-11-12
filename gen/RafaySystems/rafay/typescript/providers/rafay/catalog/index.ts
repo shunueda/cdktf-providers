@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/catalog
+// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/catalog
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface CatalogConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/catalog#id Catalog#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/catalog#id Catalog#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface CatalogConfig extends cdktf.TerraformMetaArguments {
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/catalog#metadata Catalog#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/catalog#metadata Catalog#metadata}
   */
   readonly metadata?: CatalogMetadata;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/catalog#spec Catalog#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/catalog#spec Catalog#spec}
   */
   readonly spec?: CatalogSpec;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/catalog#timeouts Catalog#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/catalog#timeouts Catalog#timeouts}
   */
   readonly timeouts?: CatalogTimeouts;
 }
@@ -37,7 +37,7 @@ export interface CatalogMetadataCreatedBy {
   /**
   * Id of the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/catalog#id Catalog#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/catalog#id Catalog#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -46,13 +46,13 @@ export interface CatalogMetadataCreatedBy {
   /**
   * Whether person is logged in using sso
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/catalog#is_sso_user Catalog#is_sso_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/catalog#is_sso_user Catalog#is_sso_user}
   */
   readonly isSsoUser?: boolean | cdktf.IResolvable;
   /**
   * Username fo the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/catalog#username Catalog#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/catalog#username Catalog#username}
   */
   readonly username?: string;
 }
@@ -196,7 +196,7 @@ export interface CatalogMetadataModifiedBy {
   /**
   * Id of the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/catalog#id Catalog#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/catalog#id Catalog#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -205,13 +205,13 @@ export interface CatalogMetadataModifiedBy {
   /**
   * Whether person is logged in using sso
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/catalog#is_sso_user Catalog#is_sso_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/catalog#is_sso_user Catalog#is_sso_user}
   */
   readonly isSsoUser?: boolean | cdktf.IResolvable;
   /**
   * Username fo the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/catalog#username Catalog#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/catalog#username Catalog#username}
   */
   readonly username?: string;
 }
@@ -355,49 +355,49 @@ export interface CatalogMetadata {
   /**
   * annotations of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/catalog#annotations Catalog#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/catalog#annotations Catalog#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * description of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/catalog#description Catalog#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/catalog#description Catalog#description}
   */
   readonly description?: string;
   /**
   * Display Name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/catalog#display_name Catalog#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/catalog#display_name Catalog#display_name}
   */
   readonly displayName?: string;
   /**
   * labels of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/catalog#labels Catalog#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/catalog#labels Catalog#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/catalog#name Catalog#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/catalog#name Catalog#name}
   */
   readonly name?: string;
   /**
   * Project of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/catalog#project Catalog#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/catalog#project Catalog#project}
   */
   readonly project?: string;
   /**
   * created_by block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/catalog#created_by Catalog#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/catalog#created_by Catalog#created_by}
   */
   readonly createdBy?: CatalogMetadataCreatedBy;
   /**
   * modified_by block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/catalog#modified_by Catalog#modified_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/catalog#modified_by Catalog#modified_by}
   */
   readonly modifiedBy?: CatalogMetadataModifiedBy;
 }
@@ -686,7 +686,7 @@ export interface CatalogSpecHelmOptions {
   /**
   * List of charts to include in the catalog
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/catalog#included_charts Catalog#included_charts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/catalog#included_charts Catalog#included_charts}
   */
   readonly includedCharts?: string[];
 }
@@ -772,7 +772,7 @@ export interface CatalogSpecSharingProjects {
   /**
   * name of the project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/catalog#name Catalog#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/catalog#name Catalog#name}
   */
   readonly name?: string;
 }
@@ -890,13 +890,13 @@ export interface CatalogSpecSharing {
   /**
   * flag to specify if sharing is enabled for resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/catalog#enabled Catalog#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/catalog#enabled Catalog#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * projects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/catalog#projects Catalog#projects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/catalog#projects Catalog#projects}
   */
   readonly projects?: CatalogSpecSharingProjects[] | cdktf.IResolvable;
 }
@@ -1011,37 +1011,37 @@ export interface CatalogSpec {
   /**
   * flag to indicate if the catalog is synced periodically
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/catalog#auto_sync Catalog#auto_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/catalog#auto_sync Catalog#auto_sync}
   */
   readonly autoSync?: boolean | cdktf.IResolvable;
   /**
   * icon url of catalog
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/catalog#icon_url Catalog#icon_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/catalog#icon_url Catalog#icon_url}
   */
   readonly iconUrl?: string;
   /**
   * catalog helm repository name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/catalog#repository Catalog#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/catalog#repository Catalog#repository}
   */
   readonly repository?: string;
   /**
   * type of catalog
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/catalog#type Catalog#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/catalog#type Catalog#type}
   */
   readonly type?: string;
   /**
   * helm_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/catalog#helm_options Catalog#helm_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/catalog#helm_options Catalog#helm_options}
   */
   readonly helmOptions?: CatalogSpecHelmOptions;
   /**
   * sharing block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/catalog#sharing Catalog#sharing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/catalog#sharing Catalog#sharing}
   */
   readonly sharing?: CatalogSpecSharing;
 }
@@ -1270,15 +1270,15 @@ export class CatalogSpecOutputReference extends cdktf.ComplexObject {
 }
 export interface CatalogTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/catalog#create Catalog#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/catalog#create Catalog#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/catalog#delete Catalog#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/catalog#delete Catalog#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/catalog#update Catalog#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/catalog#update Catalog#update}
   */
   readonly update?: string;
 }
@@ -1430,7 +1430,7 @@ export class CatalogTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/catalog rafay_catalog}
+* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/catalog rafay_catalog}
 */
 export class Catalog extends cdktf.TerraformResource {
 
@@ -1446,7 +1446,7 @@ export class Catalog extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Catalog resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Catalog to import
-  * @param importFromId The id of the existing Catalog that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/catalog#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Catalog that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/catalog#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Catalog to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1458,7 +1458,7 @@ export class Catalog extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/catalog rafay_catalog} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/catalog rafay_catalog} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1469,7 +1469,8 @@ export class Catalog extends cdktf.TerraformResource {
       terraformResourceType: 'rafay_catalog',
       terraformGeneratorMetadata: {
         providerName: 'rafay',
-        providerVersion: '1.1.52'
+        providerVersion: '1.1.53',
+        providerVersionConstraint: '1.1.53'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

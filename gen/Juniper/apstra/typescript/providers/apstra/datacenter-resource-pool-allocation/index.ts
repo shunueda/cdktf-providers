@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_resource_pool_allocation
+// https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_resource_pool_allocation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DatacenterResourcePoolAllocationConfig extends cdktf.TerraformM
   /**
   * Apstra ID of the Blueprint to which the Resource Pool should be allocated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_resource_pool_allocation#blueprint_id DatacenterResourcePoolAllocation#blueprint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_resource_pool_allocation#blueprint_id DatacenterResourcePoolAllocation#blueprint_id}
   */
   readonly blueprintId: string;
   /**
   * Apstra IDs of the Resource Pools to be allocated to the given Blueprint role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_resource_pool_allocation#pool_ids DatacenterResourcePoolAllocation#pool_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_resource_pool_allocation#pool_ids DatacenterResourcePoolAllocation#pool_ids}
   */
   readonly poolIds: string[];
   /**
@@ -54,19 +54,19 @@ export interface DatacenterResourcePoolAllocationConfig extends cdktf.TerraformM
   *   - vtep_ips
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_resource_pool_allocation#role DatacenterResourcePoolAllocation#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_resource_pool_allocation#role DatacenterResourcePoolAllocation#role}
   */
   readonly role: string;
   /**
   * Used to allocate a Resource Pool to a `role` associated with specific Routing Zone within a Blueprint, rather than to a fabric-wide `role`. `leaf_loopback_ips` and `virtual_network_svi_subnets` are examples of roles which can be allocaated to a specific Routing Zone. When omitted, the specified Resource Pools are allocated to a fabric-wide `role`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_resource_pool_allocation#routing_zone_id DatacenterResourcePoolAllocation#routing_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_resource_pool_allocation#routing_zone_id DatacenterResourcePoolAllocation#routing_zone_id}
   */
   readonly routingZoneId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_resource_pool_allocation apstra_datacenter_resource_pool_allocation}
+* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_resource_pool_allocation apstra_datacenter_resource_pool_allocation}
 */
 export class DatacenterResourcePoolAllocation extends cdktf.TerraformResource {
 
@@ -82,7 +82,7 @@ export class DatacenterResourcePoolAllocation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DatacenterResourcePoolAllocation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatacenterResourcePoolAllocation to import
-  * @param importFromId The id of the existing DatacenterResourcePoolAllocation that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_resource_pool_allocation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatacenterResourcePoolAllocation that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_resource_pool_allocation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatacenterResourcePoolAllocation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -94,7 +94,7 @@ export class DatacenterResourcePoolAllocation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_resource_pool_allocation apstra_datacenter_resource_pool_allocation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_resource_pool_allocation apstra_datacenter_resource_pool_allocation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -105,7 +105,8 @@ export class DatacenterResourcePoolAllocation extends cdktf.TerraformResource {
       terraformResourceType: 'apstra_datacenter_resource_pool_allocation',
       terraformGeneratorMetadata: {
         providerName: 'apstra',
-        providerVersion: '0.95.0'
+        providerVersion: '0.95.1',
+        providerVersionConstraint: '0.95.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -76,7 +76,8 @@ export class WirelesscontrollerIntercontrollerIntercontrollerpeer extends cdktf.
       terraformResourceType: 'fmgdevice_wirelesscontroller_intercontroller_intercontrollerpeer',
       terraformGeneratorMetadata: {
         providerName: 'fmgdevice',
-        providerVersion: '1.2.1'
+        providerVersion: '1.2.1',
+        providerVersionConstraint: '1.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

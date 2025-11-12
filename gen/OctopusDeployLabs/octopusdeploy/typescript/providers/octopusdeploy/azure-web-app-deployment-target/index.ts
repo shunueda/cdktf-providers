@@ -2836,7 +2836,8 @@ export class AzureWebAppDeploymentTarget extends cdktf.TerraformResource {
       terraformResourceType: 'octopusdeploy_azure_web_app_deployment_target',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '0.43.2'
+        providerVersion: '0.43.2',
+        providerVersionConstraint: '0.43.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

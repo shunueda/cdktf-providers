@@ -76,7 +76,8 @@ export class RoleMapping extends cdktf.TerraformResource {
       terraformResourceType: 'elasticsearch_role_mapping',
       terraformGeneratorMetadata: {
         providerName: 'elasticsearch',
-        providerVersion: '8.4.0'
+        providerVersion: '8.4.0',
+        providerVersionConstraint: '8.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

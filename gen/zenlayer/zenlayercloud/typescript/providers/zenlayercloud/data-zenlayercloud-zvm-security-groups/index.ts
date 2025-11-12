@@ -270,7 +270,8 @@ export class DataZenlayercloudZvmSecurityGroups extends cdktf.TerraformDataSourc
       terraformResourceType: 'zenlayercloud_zvm_security_groups',
       terraformGeneratorMetadata: {
         providerName: 'zenlayercloud',
-        providerVersion: '0.2.8'
+        providerVersion: '0.2.8',
+        providerVersionConstraint: '0.2.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

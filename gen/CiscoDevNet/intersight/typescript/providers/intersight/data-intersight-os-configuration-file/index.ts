@@ -4821,7 +4821,8 @@ export class DataIntersightOsConfigurationFile extends cdktf.TerraformDataSource
       terraformResourceType: 'intersight_os_configuration_file',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

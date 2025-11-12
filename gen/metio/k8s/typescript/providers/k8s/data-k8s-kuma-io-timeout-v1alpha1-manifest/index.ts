@@ -230,7 +230,8 @@ export class DataK8SKumaIoTimeoutV1Alpha1Manifest extends cdktf.TerraformDataSou
       terraformResourceType: 'k8s_kuma_io_timeout_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

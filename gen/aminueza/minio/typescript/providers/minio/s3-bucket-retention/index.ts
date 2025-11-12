@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs/resources/s3_bucket_retention
+// https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/s3_bucket_retention
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface S3BucketRetentionConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the bucket to configure object locking. The bucket must be created with object locking enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs/resources/s3_bucket_retention#bucket S3BucketRetention#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/s3_bucket_retention#bucket S3BucketRetention#bucket}
   */
   readonly bucket: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs/resources/s3_bucket_retention#id S3BucketRetention#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/s3_bucket_retention#id S3BucketRetention#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,25 +25,25 @@ export interface S3BucketRetentionConfig extends cdktf.TerraformMetaArguments {
   *                 - GOVERNANCE: Prevents object modification by non-privileged users. Users with s3:BypassGovernanceRetention permission can modify objects.
   *                 - COMPLIANCE: Prevents any object modification by all users, including the root user, until retention period expires.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs/resources/s3_bucket_retention#mode S3BucketRetention#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/s3_bucket_retention#mode S3BucketRetention#mode}
   */
   readonly mode: string;
   /**
   * Time unit for the validity period. Valid values are DAYS or YEARS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs/resources/s3_bucket_retention#unit S3BucketRetention#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/s3_bucket_retention#unit S3BucketRetention#unit}
   */
   readonly unit: string;
   /**
   * Duration for which objects should be retained under WORM lock, in the specified unit. Must be a positive integer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs/resources/s3_bucket_retention#validity_period S3BucketRetention#validity_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/s3_bucket_retention#validity_period S3BucketRetention#validity_period}
   */
   readonly validityPeriod: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs/resources/s3_bucket_retention minio_s3_bucket_retention}
+* Represents a {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/s3_bucket_retention minio_s3_bucket_retention}
 */
 export class S3BucketRetention extends cdktf.TerraformResource {
 
@@ -59,7 +59,7 @@ export class S3BucketRetention extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a S3BucketRetention resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the S3BucketRetention to import
-  * @param importFromId The id of the existing S3BucketRetention that should be imported. Refer to the {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs/resources/s3_bucket_retention#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing S3BucketRetention that should be imported. Refer to the {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/s3_bucket_retention#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the S3BucketRetention to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -71,7 +71,7 @@ export class S3BucketRetention extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs/resources/s3_bucket_retention minio_s3_bucket_retention} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/s3_bucket_retention minio_s3_bucket_retention} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -82,7 +82,8 @@ export class S3BucketRetention extends cdktf.TerraformResource {
       terraformResourceType: 'minio_s3_bucket_retention',
       terraformGeneratorMetadata: {
         providerName: 'minio',
-        providerVersion: '3.11.3'
+        providerVersion: '3.11.4',
+        providerVersionConstraint: '3.11.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

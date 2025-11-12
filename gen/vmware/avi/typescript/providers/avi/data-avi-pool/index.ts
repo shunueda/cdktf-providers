@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/pool
+// https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,112 +8,32 @@ import * as cdktf from 'cdktf';
 
 export interface DataAviPoolConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/pool#cloud_ref DataAviPool#cloud_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/pool#cloud_ref DataAviPool#cloud_ref}
   */
   readonly cloudRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/pool#id DataAviPool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/pool#id DataAviPool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/pool#ignore_servers DataAviPool#ignore_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/pool#ignore_servers DataAviPool#ignore_servers}
   */
   readonly ignoreServers?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/pool#name DataAviPool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/pool#name DataAviPool#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/pool#tenant_ref DataAviPool#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/pool#tenant_ref DataAviPool#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/pool#uuid DataAviPool#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/pool#uuid DataAviPool#uuid}
   */
   readonly uuid?: string;
-}
-export interface DataAviPoolAnalyticsPolicyMetricsRealtimeUpdate {
-}
-
-export function dataAviPoolAnalyticsPolicyMetricsRealtimeUpdateToTerraform(struct?: DataAviPoolAnalyticsPolicyMetricsRealtimeUpdate): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function dataAviPoolAnalyticsPolicyMetricsRealtimeUpdateToHclTerraform(struct?: DataAviPoolAnalyticsPolicyMetricsRealtimeUpdate): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class DataAviPoolAnalyticsPolicyMetricsRealtimeUpdateOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): DataAviPoolAnalyticsPolicyMetricsRealtimeUpdate | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataAviPoolAnalyticsPolicyMetricsRealtimeUpdate | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // duration - computed: true, optional: false, required: false
-  public get duration() {
-    return this.getStringAttribute('duration');
-  }
-
-  // enabled - computed: true, optional: false, required: false
-  public get enabled() {
-    return this.getStringAttribute('enabled');
-  }
-}
-
-export class DataAviPoolAnalyticsPolicyMetricsRealtimeUpdateList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DataAviPoolAnalyticsPolicyMetricsRealtimeUpdateOutputReference {
-    return new DataAviPoolAnalyticsPolicyMetricsRealtimeUpdateOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
 }
 export interface DataAviPoolAnalyticsPolicy {
 }
@@ -166,10 +86,9 @@ export class DataAviPoolAnalyticsPolicyOutputReference extends cdktf.ComplexObje
     }
   }
 
-  // metrics_realtime_update - computed: true, optional: false, required: false
-  private _metricsRealtimeUpdate = new DataAviPoolAnalyticsPolicyMetricsRealtimeUpdateList(this, "metrics_realtime_update", true);
-  public get metricsRealtimeUpdate() {
-    return this._metricsRealtimeUpdate;
+  // enable_realtime_metrics - computed: true, optional: false, required: false
+  public get enableRealtimeMetrics() {
+    return this.getStringAttribute('enable_realtime_metrics');
   }
 }
 
@@ -2925,91 +2844,6 @@ export class DataAviPoolServersLocationList extends cdktf.ComplexList {
     return new DataAviPoolServersLocationOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
-export interface DataAviPoolServersSrvRdata {
-}
-
-export function dataAviPoolServersSrvRdataToTerraform(struct?: DataAviPoolServersSrvRdata): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function dataAviPoolServersSrvRdataToHclTerraform(struct?: DataAviPoolServersSrvRdata): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class DataAviPoolServersSrvRdataOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): DataAviPoolServersSrvRdata | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataAviPoolServersSrvRdata | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // port - computed: true, optional: false, required: false
-  public get port() {
-    return this.getStringAttribute('port');
-  }
-
-  // priority - computed: true, optional: false, required: false
-  public get priority() {
-    return this.getStringAttribute('priority');
-  }
-
-  // weight - computed: true, optional: false, required: false
-  public get weight() {
-    return this.getStringAttribute('weight');
-  }
-}
-
-export class DataAviPoolServersSrvRdataList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DataAviPoolServersSrvRdataOutputReference {
-    return new DataAviPoolServersSrvRdataOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
 export interface DataAviPoolServers {
 }
 
@@ -3097,11 +2931,6 @@ export class DataAviPoolServersOutputReference extends cdktf.ComplexObject {
     return this.getStringAttribute('external_uuid');
   }
 
-  // health_monitor_refs - computed: true, optional: false, required: false
-  public get healthMonitorRefs() {
-    return this.getListAttribute('health_monitor_refs');
-  }
-
   // hostname - computed: true, optional: false, required: false
   public get hostname() {
     return this.getStringAttribute('hostname');
@@ -3162,12 +2991,6 @@ export class DataAviPoolServersOutputReference extends cdktf.ComplexObject {
   // server_node - computed: true, optional: false, required: false
   public get serverNode() {
     return this.getStringAttribute('server_node');
-  }
-
-  // srv_rdata - computed: true, optional: false, required: false
-  private _srvRdata = new DataAviPoolServersSrvRdataList(this, "srv_rdata", true);
-  public get srvRdata() {
-    return this._srvRdata;
   }
 
   // static - computed: true, optional: false, required: false
@@ -3286,7 +3109,7 @@ export class DataAviPoolSpGsInfoList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/pool avi_pool}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/pool avi_pool}
 */
 export class DataAviPool extends cdktf.TerraformDataSource {
 
@@ -3302,7 +3125,7 @@ export class DataAviPool extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAviPool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAviPool to import
-  * @param importFromId The id of the existing DataAviPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAviPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAviPool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3314,7 +3137,7 @@ export class DataAviPool extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/pool avi_pool} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/pool avi_pool} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3325,7 +3148,8 @@ export class DataAviPool extends cdktf.TerraformDataSource {
       terraformResourceType: 'avi_pool',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '31.1.1'
+        providerVersion: '30.2.5',
+        providerVersionConstraint: '30.2.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

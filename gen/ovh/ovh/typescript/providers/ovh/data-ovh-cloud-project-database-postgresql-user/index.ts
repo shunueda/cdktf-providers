@@ -72,7 +72,8 @@ export class DataOvhCloudProjectDatabasePostgresqlUser extends cdktf.TerraformDa
       terraformResourceType: 'ovh_cloud_project_database_postgresql_user',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0'
+        providerVersion: '2.9.0',
+        providerVersionConstraint: '2.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

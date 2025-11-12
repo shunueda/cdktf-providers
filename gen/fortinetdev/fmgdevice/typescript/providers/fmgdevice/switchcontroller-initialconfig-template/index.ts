@@ -88,7 +88,8 @@ export class SwitchcontrollerInitialconfigTemplate extends cdktf.TerraformResour
       terraformResourceType: 'fmgdevice_switchcontroller_initialconfig_template',
       terraformGeneratorMetadata: {
         providerName: 'fmgdevice',
-        providerVersion: '1.2.1'
+        providerVersion: '1.2.1',
+        providerVersionConstraint: '1.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

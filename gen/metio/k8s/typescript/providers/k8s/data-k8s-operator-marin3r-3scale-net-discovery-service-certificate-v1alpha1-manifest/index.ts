@@ -1164,7 +1164,8 @@ export class DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceCertificateV1Alpha1M
       terraformResourceType: 'k8s_operator_marin3r_3scale_net_discovery_service_certificate_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

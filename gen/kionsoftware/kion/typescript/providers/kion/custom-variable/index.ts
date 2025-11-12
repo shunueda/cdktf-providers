@@ -108,7 +108,8 @@ export class CustomVariable extends cdktf.TerraformResource {
       terraformResourceType: 'kion_custom_variable',
       terraformGeneratorMetadata: {
         providerName: 'kion',
-        providerVersion: '0.3.29'
+        providerVersion: '0.3.29',
+        providerVersionConstraint: '0.3.29'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

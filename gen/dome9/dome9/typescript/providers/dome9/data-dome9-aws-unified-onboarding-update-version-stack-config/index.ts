@@ -60,7 +60,8 @@ export class DataDome9AwsUnifiedOnboardingUpdateVersionStackConfig extends cdktf
       terraformResourceType: 'dome9_aws_unified_onboarding_update_version_stack_config',
       terraformGeneratorMetadata: {
         providerName: 'dome9',
-        providerVersion: '1.40.4'
+        providerVersion: '1.40.4',
+        providerVersionConstraint: '1.40.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -155,7 +155,8 @@ export class DataDcloudLicenses extends cdktf.TerraformDataSource {
       terraformResourceType: 'dcloud_licenses',
       terraformGeneratorMetadata: {
         providerName: 'dcloud',
-        providerVersion: '0.1.29'
+        providerVersion: '0.1.29',
+        providerVersionConstraint: '0.1.29'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

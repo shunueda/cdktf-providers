@@ -541,7 +541,8 @@ export class IdentityProviderConversion extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_identity_provider_conversion',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14'
+        providerVersion: '1.12.14',
+        providerVersionConstraint: '1.12.14'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

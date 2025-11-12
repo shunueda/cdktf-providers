@@ -310,7 +310,8 @@ export class DataZpaInspectionAllPredefinedControls extends cdktf.TerraformDataS
       terraformResourceType: 'zpa_inspection_all_predefined_controls',
       terraformGeneratorMetadata: {
         providerName: 'zpa',
-        providerVersion: '4.3.2'
+        providerVersion: '4.3.2',
+        providerVersionConstraint: '4.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

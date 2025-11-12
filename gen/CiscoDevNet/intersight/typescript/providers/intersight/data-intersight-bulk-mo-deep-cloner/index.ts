@@ -8829,7 +8829,8 @@ export class DataIntersightBulkMoDeepCloner extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_bulk_mo_deep_cloner',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -487,7 +487,8 @@ export class CmWafPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'bigipnext_cm_waf_policy',
       terraformGeneratorMetadata: {
         providerName: 'bigipnext',
-        providerVersion: '1.4.0'
+        providerVersion: '1.4.0',
+        providerVersionConstraint: '1.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -152,7 +152,8 @@ export class DataPagerdutyTeamMembers extends cdktf.TerraformDataSource {
       terraformResourceType: 'pagerduty_team_members',
       terraformGeneratorMetadata: {
         providerName: 'pagerduty',
-        providerVersion: '4.1.2'
+        providerVersion: '4.1.2',
+        providerVersionConstraint: '4.1.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -61,7 +61,8 @@ export class DataOciGenericArtifactsContentArtifactByPath extends cdktf.Terrafor
       terraformResourceType: 'oci_generic_artifacts_content_artifact_by_path',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

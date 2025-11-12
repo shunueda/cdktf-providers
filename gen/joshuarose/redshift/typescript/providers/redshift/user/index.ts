@@ -88,7 +88,8 @@ export class User extends cdktf.TerraformResource {
       terraformResourceType: 'redshift_user',
       terraformGeneratorMetadata: {
         providerName: 'redshift',
-        providerVersion: '0.0.4'
+        providerVersion: '0.0.4',
+        providerVersionConstraint: '0.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1096,7 +1096,8 @@ export class IgnoreRule extends cdktf.TerraformResource {
       terraformResourceType: 'xray_ignore_rule',
       terraformGeneratorMetadata: {
         providerName: 'xray',
-        providerVersion: '3.1.2'
+        providerVersion: '3.1.2',
+        providerVersionConstraint: '3.1.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

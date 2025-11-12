@@ -1022,7 +1022,8 @@ export class GcsCollection extends cdktf.TerraformResource {
       terraformResourceType: 'rockset_gcs_collection',
       terraformGeneratorMetadata: {
         providerName: 'rockset',
-        providerVersion: '0.9.8'
+        providerVersion: '0.9.8',
+        providerVersionConstraint: '0.9.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

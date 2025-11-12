@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/anti_spyware_signature_list
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/anti_spyware_signature_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface DataScmAntiSpywareSignatureListConfig extends cdktf.TerraformMe
   /**
   * The device of the item.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/anti_spyware_signature_list#device DataScmAntiSpywareSignatureList#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/anti_spyware_signature_list#device DataScmAntiSpywareSignatureList#device}
   */
   readonly device?: string;
   /**
   * The folder of the item. Default: Shared.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/anti_spyware_signature_list#folder DataScmAntiSpywareSignatureList#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/anti_spyware_signature_list#folder DataScmAntiSpywareSignatureList#folder}
   */
   readonly folder?: string;
   /**
   * The max number of items to return. Default: 200.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/anti_spyware_signature_list#limit DataScmAntiSpywareSignatureList#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/anti_spyware_signature_list#limit DataScmAntiSpywareSignatureList#limit}
   */
   readonly limit?: number;
   /**
   * The name of the item.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/anti_spyware_signature_list#name DataScmAntiSpywareSignatureList#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/anti_spyware_signature_list#name DataScmAntiSpywareSignatureList#name}
   */
   readonly name?: string;
   /**
   * The offset of the first item to return.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/anti_spyware_signature_list#offset DataScmAntiSpywareSignatureList#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/anti_spyware_signature_list#offset DataScmAntiSpywareSignatureList#offset}
   */
   readonly offset?: number;
   /**
   * The snippet of the item.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/anti_spyware_signature_list#snippet DataScmAntiSpywareSignatureList#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/anti_spyware_signature_list#snippet DataScmAntiSpywareSignatureList#snippet}
   */
   readonly snippet?: string;
 }
@@ -1765,7 +1765,7 @@ export interface DataScmAntiSpywareSignatureListData {
   /**
   * UUID of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/anti_spyware_signature_list#id DataScmAntiSpywareSignatureList#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/anti_spyware_signature_list#id DataScmAntiSpywareSignatureList#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1948,7 +1948,7 @@ export class DataScmAntiSpywareSignatureListDataList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/anti_spyware_signature_list scm_anti_spyware_signature_list}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/anti_spyware_signature_list scm_anti_spyware_signature_list}
 */
 export class DataScmAntiSpywareSignatureList extends cdktf.TerraformDataSource {
 
@@ -1964,7 +1964,7 @@ export class DataScmAntiSpywareSignatureList extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataScmAntiSpywareSignatureList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataScmAntiSpywareSignatureList to import
-  * @param importFromId The id of the existing DataScmAntiSpywareSignatureList that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/anti_spyware_signature_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataScmAntiSpywareSignatureList that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/anti_spyware_signature_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataScmAntiSpywareSignatureList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1976,7 +1976,7 @@ export class DataScmAntiSpywareSignatureList extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/anti_spyware_signature_list scm_anti_spyware_signature_list} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/anti_spyware_signature_list scm_anti_spyware_signature_list} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1987,7 +1987,8 @@ export class DataScmAntiSpywareSignatureList extends cdktf.TerraformDataSource {
       terraformResourceType: 'scm_anti_spyware_signature_list',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.3'
+        providerVersion: '1.0.4',
+        providerVersionConstraint: '1.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

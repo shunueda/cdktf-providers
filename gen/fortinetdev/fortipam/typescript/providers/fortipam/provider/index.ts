@@ -73,7 +73,8 @@ export class FortipamProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'fortipam',
       terraformGeneratorMetadata: {
         providerName: 'fortipam',
-        providerVersion: '1.0.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       terraformProviderSource: 'fortinetdev/fortipam'
     });

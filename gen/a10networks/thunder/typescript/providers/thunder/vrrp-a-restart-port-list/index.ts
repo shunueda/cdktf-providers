@@ -600,7 +600,8 @@ export class VrrpARestartPortList extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_vrrp_a_restart_port_list',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

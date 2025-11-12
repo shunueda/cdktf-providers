@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_delete_repository_package
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_delete_repository_package
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ManagementDeleteRepositoryPackageConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_delete_repository_package#id ManagementDeleteRepositoryPackage#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_delete_repository_package#id ManagementDeleteRepositoryPackage#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface ManagementDeleteRepositoryPackageConfig extends cdktf.Terraform
   /**
   * The name of the software package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_delete_repository_package#name ManagementDeleteRepositoryPackage#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_delete_repository_package#name ManagementDeleteRepositoryPackage#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_delete_repository_package checkpoint_management_delete_repository_package}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_delete_repository_package checkpoint_management_delete_repository_package}
 */
 export class ManagementDeleteRepositoryPackage extends cdktf.TerraformResource {
 
@@ -39,7 +39,7 @@ export class ManagementDeleteRepositoryPackage extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementDeleteRepositoryPackage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementDeleteRepositoryPackage to import
-  * @param importFromId The id of the existing ManagementDeleteRepositoryPackage that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_delete_repository_package#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementDeleteRepositoryPackage that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_delete_repository_package#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementDeleteRepositoryPackage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -51,7 +51,7 @@ export class ManagementDeleteRepositoryPackage extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_delete_repository_package checkpoint_management_delete_repository_package} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_delete_repository_package checkpoint_management_delete_repository_package} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -62,7 +62,8 @@ export class ManagementDeleteRepositoryPackage extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_delete_repository_package',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -241,7 +241,8 @@ export class DataAlicloudEcsImagePipelines extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_ecs_image_pipelines',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

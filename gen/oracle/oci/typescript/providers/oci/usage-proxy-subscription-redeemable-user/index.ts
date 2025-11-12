@@ -419,7 +419,8 @@ export class UsageProxySubscriptionRedeemableUser extends cdktf.TerraformResourc
       terraformResourceType: 'oci_usage_proxy_subscription_redeemable_user',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

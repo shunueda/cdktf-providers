@@ -7294,7 +7294,8 @@ export class DataIntersightEquipmentFanModule extends cdktf.TerraformDataSource 
       terraformResourceType: 'intersight_equipment_fan_module',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -206,7 +206,8 @@ export class DeviceAdminPolicySetUpdateRanks extends cdktf.TerraformResource {
       terraformResourceType: 'ise_device_admin_policy_set_update_ranks',
       terraformGeneratorMetadata: {
         providerName: 'ise',
-        providerVersion: '0.2.12'
+        providerVersion: '0.2.12',
+        providerVersionConstraint: '0.2.12'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

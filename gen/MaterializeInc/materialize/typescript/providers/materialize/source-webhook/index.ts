@@ -963,7 +963,8 @@ export class SourceWebhook extends cdktf.TerraformResource {
       terraformResourceType: 'materialize_source_webhook',
       terraformGeneratorMetadata: {
         providerName: 'materialize',
-        providerVersion: '0.9.2'
+        providerVersion: '0.9.2',
+        providerVersionConstraint: '0.9.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

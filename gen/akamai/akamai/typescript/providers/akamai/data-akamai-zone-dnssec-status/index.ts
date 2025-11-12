@@ -193,7 +193,8 @@ export class DataAkamaiZoneDnssecStatus extends cdktf.TerraformDataSource {
       terraformResourceType: 'akamai_zone_dnssec_status',
       terraformGeneratorMetadata: {
         providerName: 'akamai',
-        providerVersion: '9.1.0'
+        providerVersion: '9.1.0',
+        providerVersionConstraint: '9.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

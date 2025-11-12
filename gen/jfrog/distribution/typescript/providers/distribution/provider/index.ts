@@ -79,7 +79,8 @@ export class DistributionProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'distribution',
       terraformGeneratorMetadata: {
         providerName: 'distribution',
-        providerVersion: '1.3.0'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       terraformProviderSource: 'jfrog/distribution'
     });

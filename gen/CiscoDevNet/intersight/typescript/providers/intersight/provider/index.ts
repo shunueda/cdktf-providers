@@ -73,7 +73,8 @@ export class IntersightProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'intersight',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       terraformProviderSource: 'CiscoDevNet/intersight'
     });

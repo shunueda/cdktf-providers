@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/data-sources/images
+// https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/data-sources/images
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,30 +8,30 @@ import * as cdktf from 'cdktf';
 
 export interface DataHcloudImagesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/data-sources/images#id DataHcloudImages#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/data-sources/images#id DataHcloudImages#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/data-sources/images#include_deprecated DataHcloudImages#include_deprecated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/data-sources/images#include_deprecated DataHcloudImages#include_deprecated}
   */
   readonly includeDeprecated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/data-sources/images#most_recent DataHcloudImages#most_recent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/data-sources/images#most_recent DataHcloudImages#most_recent}
   */
   readonly mostRecent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/data-sources/images#with_architecture DataHcloudImages#with_architecture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/data-sources/images#with_architecture DataHcloudImages#with_architecture}
   */
   readonly withArchitecture?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/data-sources/images#with_selector DataHcloudImages#with_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/data-sources/images#with_selector DataHcloudImages#with_selector}
   */
   readonly withSelector?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/data-sources/images#with_status DataHcloudImages#with_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/data-sources/images#with_status DataHcloudImages#with_status}
   */
   readonly withStatus?: string[];
 }
@@ -168,7 +168,7 @@ export class DataHcloudImagesImagesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/data-sources/images hcloud_images}
+* Represents a {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/data-sources/images hcloud_images}
 */
 export class DataHcloudImages extends cdktf.TerraformDataSource {
 
@@ -184,7 +184,7 @@ export class DataHcloudImages extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataHcloudImages resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHcloudImages to import
-  * @param importFromId The id of the existing DataHcloudImages that should be imported. Refer to the {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/data-sources/images#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHcloudImages that should be imported. Refer to the {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/data-sources/images#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHcloudImages to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -196,7 +196,7 @@ export class DataHcloudImages extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/data-sources/images hcloud_images} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/data-sources/images hcloud_images} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -207,7 +207,8 @@ export class DataHcloudImages extends cdktf.TerraformDataSource {
       terraformResourceType: 'hcloud_images',
       terraformGeneratorMetadata: {
         providerName: 'hcloud',
-        providerVersion: '1.55.0'
+        providerVersion: '1.56.0',
+        providerVersionConstraint: '1.56.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

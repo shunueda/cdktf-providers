@@ -72,7 +72,8 @@ export class Ec2TrafficMirrorTarget extends cdktf.TerraformResource {
       terraformResourceType: 'aws_ec2_traffic_mirror_target',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '3.29.6'
+        providerVersion: '3.29.6',
+        providerVersionConstraint: '3.29.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -68,7 +68,8 @@ export class DataCommvaultKubernetesLabels extends cdktf.TerraformDataSource {
       terraformResourceType: 'commvault_kubernetes_labels',
       terraformGeneratorMetadata: {
         providerName: 'commvault',
-        providerVersion: '1.2.10'
+        providerVersion: '1.2.10',
+        providerVersionConstraint: '1.2.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

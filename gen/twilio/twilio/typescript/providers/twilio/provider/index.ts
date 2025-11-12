@@ -85,7 +85,8 @@ export class TwilioProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'twilio',
       terraformGeneratorMetadata: {
         providerName: 'twilio',
-        providerVersion: '0.18.46'
+        providerVersion: '0.18.46',
+        providerVersionConstraint: '0.18.46'
       },
       terraformProviderSource: 'twilio/twilio'
     });

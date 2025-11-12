@@ -109,7 +109,8 @@ export class Credential extends cdktf.TerraformResource {
       terraformResourceType: 'venafi-token_credential',
       terraformGeneratorMetadata: {
         providerName: 'venafi-token',
-        providerVersion: '0.2.1'
+        providerVersion: '0.2.1',
+        providerVersionConstraint: '0.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

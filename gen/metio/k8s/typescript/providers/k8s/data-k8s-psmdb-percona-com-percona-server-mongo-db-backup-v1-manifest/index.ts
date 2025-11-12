@@ -513,7 +513,8 @@ export class DataK8SPsmdbPerconaComPerconaServerMongoDbBackupV1Manifest extends 
       terraformResourceType: 'k8s_psmdb_percona_com_percona_server_mongo_db_backup_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

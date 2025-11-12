@@ -116,7 +116,8 @@ export class DataRestapiObject extends cdktf.TerraformDataSource {
       terraformResourceType: 'restapi_object',
       terraformGeneratorMetadata: {
         providerName: 'restapi',
-        providerVersion: '2.0.1'
+        providerVersion: '2.0.1',
+        providerVersionConstraint: '2.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -2447,7 +2447,8 @@ export class K8SCluster extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_k8s_cluster',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.44'
+        providerVersion: '0.11.44',
+        providerVersionConstraint: '0.11.44'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

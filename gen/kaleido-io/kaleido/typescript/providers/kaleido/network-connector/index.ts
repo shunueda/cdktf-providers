@@ -418,7 +418,8 @@ export class NetworkConnector extends cdktf.TerraformResource {
       terraformResourceType: 'kaleido_network_connector',
       terraformGeneratorMetadata: {
         providerName: 'kaleido',
-        providerVersion: '1.1.2'
+        providerVersion: '1.1.2',
+        providerVersionConstraint: '1.1.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

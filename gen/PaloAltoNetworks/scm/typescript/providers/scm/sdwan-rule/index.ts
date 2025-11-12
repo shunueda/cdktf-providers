@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/sdwan_rule
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/sdwan_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,127 +10,127 @@ export interface SdwanRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/sdwan_rule#action SdwanRule#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/sdwan_rule#action SdwanRule#action}
   */
   readonly action: SdwanRuleAction;
   /**
   * List of applications
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/sdwan_rule#application SdwanRule#application}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/sdwan_rule#application SdwanRule#application}
   */
   readonly application: string[];
   /**
   * Rule description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/sdwan_rule#description SdwanRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/sdwan_rule#description SdwanRule#description}
   */
   readonly description?: string;
   /**
   * List of destination addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/sdwan_rule#destination SdwanRule#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/sdwan_rule#destination SdwanRule#destination}
   */
   readonly destination: string[];
   /**
   * The device in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/sdwan_rule#device SdwanRule#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/sdwan_rule#device SdwanRule#device}
   */
   readonly device?: string;
   /**
   * Disable rule?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/sdwan_rule#disabled SdwanRule#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/sdwan_rule#disabled SdwanRule#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Error correction profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/sdwan_rule#error_correction_profile SdwanRule#error_correction_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/sdwan_rule#error_correction_profile SdwanRule#error_correction_profile}
   */
   readonly errorCorrectionProfile?: string;
   /**
   * The folder in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/sdwan_rule#folder SdwanRule#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/sdwan_rule#folder SdwanRule#folder}
   */
   readonly folder?: string;
   /**
   * List of source zones
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/sdwan_rule#from SdwanRule#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/sdwan_rule#from SdwanRule#from}
   */
   readonly from: string[];
   /**
   * Rule name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/sdwan_rule#name SdwanRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/sdwan_rule#name SdwanRule#name}
   */
   readonly name: string;
   /**
   * Negate destination address(es)?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/sdwan_rule#negate_destination SdwanRule#negate_destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/sdwan_rule#negate_destination SdwanRule#negate_destination}
   */
   readonly negateDestination?: boolean | cdktf.IResolvable;
   /**
   * Negate source address(es)?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/sdwan_rule#negate_source SdwanRule#negate_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/sdwan_rule#negate_source SdwanRule#negate_source}
   */
   readonly negateSource?: boolean | cdktf.IResolvable;
   /**
   * Path quality profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/sdwan_rule#path_quality_profile SdwanRule#path_quality_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/sdwan_rule#path_quality_profile SdwanRule#path_quality_profile}
   */
   readonly pathQualityProfile: string;
   /**
   * Rule postion relative to device rules
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/sdwan_rule#position SdwanRule#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/sdwan_rule#position SdwanRule#position}
   */
   readonly position: string;
   /**
   * SaaS quality profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/sdwan_rule#saas_quality_profile SdwanRule#saas_quality_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/sdwan_rule#saas_quality_profile SdwanRule#saas_quality_profile}
   */
   readonly saasQualityProfile?: string;
   /**
   * List of services
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/sdwan_rule#service SdwanRule#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/sdwan_rule#service SdwanRule#service}
   */
   readonly service: string[];
   /**
   * The snippet in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/sdwan_rule#snippet SdwanRule#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/sdwan_rule#snippet SdwanRule#snippet}
   */
   readonly snippet?: string;
   /**
   * List of source addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/sdwan_rule#source SdwanRule#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/sdwan_rule#source SdwanRule#source}
   */
   readonly source: string[];
   /**
   * List of source users
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/sdwan_rule#source_user SdwanRule#source_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/sdwan_rule#source_user SdwanRule#source_user}
   */
   readonly sourceUser: string[];
   /**
   * List of tags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/sdwan_rule#tag SdwanRule#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/sdwan_rule#tag SdwanRule#tag}
   */
   readonly tag?: string[];
   /**
   * List of destination zones
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/sdwan_rule#to SdwanRule#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/sdwan_rule#to SdwanRule#to}
   */
   readonly to: string[];
 }
@@ -138,7 +138,7 @@ export interface SdwanRuleAction {
   /**
   * Traffic dstribution profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/sdwan_rule#traffic_distribution_profile SdwanRule#traffic_distribution_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/sdwan_rule#traffic_distribution_profile SdwanRule#traffic_distribution_profile}
   */
   readonly trafficDistributionProfile: string;
 }
@@ -229,7 +229,7 @@ export class SdwanRuleActionOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/sdwan_rule scm_sdwan_rule}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/sdwan_rule scm_sdwan_rule}
 */
 export class SdwanRule extends cdktf.TerraformResource {
 
@@ -245,7 +245,7 @@ export class SdwanRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SdwanRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SdwanRule to import
-  * @param importFromId The id of the existing SdwanRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/sdwan_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SdwanRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/sdwan_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SdwanRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -257,7 +257,7 @@ export class SdwanRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/sdwan_rule scm_sdwan_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/sdwan_rule scm_sdwan_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -268,7 +268,8 @@ export class SdwanRule extends cdktf.TerraformResource {
       terraformResourceType: 'scm_sdwan_rule',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.3'
+        providerVersion: '1.0.4',
+        providerVersionConstraint: '1.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

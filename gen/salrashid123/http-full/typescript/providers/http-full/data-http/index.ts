@@ -96,7 +96,8 @@ export class DataHttp extends cdktf.TerraformDataSource {
       terraformResourceType: 'http',
       terraformGeneratorMetadata: {
         providerName: 'http-full',
-        providerVersion: '1.3.1'
+        providerVersion: '1.3.1',
+        providerVersionConstraint: '1.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

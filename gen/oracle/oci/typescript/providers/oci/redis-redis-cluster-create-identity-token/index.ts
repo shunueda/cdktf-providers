@@ -242,7 +242,8 @@ export class RedisRedisClusterCreateIdentityToken extends cdktf.TerraformResourc
       terraformResourceType: 'oci_redis_redis_cluster_create_identity_token',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

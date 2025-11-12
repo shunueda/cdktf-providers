@@ -466,7 +466,8 @@ export class ObjectSwitchcontrollerQosQueuepolicy extends cdktf.TerraformResourc
       terraformResourceType: 'fortimanager_object_switchcontroller_qos_queuepolicy',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0'
+        providerVersion: '1.14.0',
+        providerVersionConstraint: '1.14.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

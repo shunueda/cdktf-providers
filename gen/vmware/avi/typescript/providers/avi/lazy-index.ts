@@ -41,11 +41,8 @@ Object.defineProperty(exports, 'fileobject', { get: function () { return require
 Object.defineProperty(exports, 'fileservice', { get: function () { return require('./fileservice'); } });
 Object.defineProperty(exports, 'geodb', { get: function () { return require('./geodb'); } });
 Object.defineProperty(exports, 'gslb', { get: function () { return require('./gslb'); } });
-Object.defineProperty(exports, 'gslbcrmruntime', { get: function () { return require('./gslbcrmruntime'); } });
 Object.defineProperty(exports, 'gslbgeodbprofile', { get: function () { return require('./gslbgeodbprofile'); } });
-Object.defineProperty(exports, 'gslbhsmruntime', { get: function () { return require('./gslbhsmruntime'); } });
 Object.defineProperty(exports, 'gslbservice', { get: function () { return require('./gslbservice'); } });
-Object.defineProperty(exports, 'gslbsmruntime', { get: function () { return require('./gslbsmruntime'); } });
 Object.defineProperty(exports, 'hardwaresecuritymodulegroup', { get: function () { return require('./hardwaresecuritymodulegroup'); } });
 Object.defineProperty(exports, 'healthmonitor', { get: function () { return require('./healthmonitor'); } });
 Object.defineProperty(exports, 'httppolicyset', { get: function () { return require('./httppolicyset'); } });
@@ -60,7 +57,6 @@ Object.defineProperty(exports, 'l4Policyset', { get: function () { return requir
 Object.defineProperty(exports, 'labelgroup', { get: function () { return require('./labelgroup'); } });
 Object.defineProperty(exports, 'licenseledgerdetails', { get: function () { return require('./licenseledgerdetails'); } });
 Object.defineProperty(exports, 'licensestatus', { get: function () { return require('./licensestatus'); } });
-Object.defineProperty(exports, 'localworkerfdsversion', { get: function () { return require('./localworkerfdsversion'); } });
 Object.defineProperty(exports, 'memorybalancerrequest', { get: function () { return require('./memorybalancerrequest'); } });
 Object.defineProperty(exports, 'microservicegroup', { get: function () { return require('./microservicegroup'); } });
 Object.defineProperty(exports, 'natpolicy', { get: function () { return require('./natpolicy'); } });
@@ -75,7 +71,6 @@ Object.defineProperty(exports, 'poolgroup', { get: function () { return require(
 Object.defineProperty(exports, 'poolgroupdeploymentpolicy', { get: function () { return require('./poolgroupdeploymentpolicy'); } });
 Object.defineProperty(exports, 'prioritylabels', { get: function () { return require('./prioritylabels'); } });
 Object.defineProperty(exports, 'protocolparser', { get: function () { return require('./protocolparser'); } });
-Object.defineProperty(exports, 'retentionpolicy', { get: function () { return require('./retentionpolicy'); } });
 Object.defineProperty(exports, 'rmcloudopsproto', { get: function () { return require('./rmcloudopsproto'); } });
 Object.defineProperty(exports, 'role', { get: function () { return require('./role'); } });
 Object.defineProperty(exports, 'scheduler', { get: function () { return require('./scheduler'); } });
@@ -105,8 +100,6 @@ Object.defineProperty(exports, 'testsedatastorelevel1', { get: function () { ret
 Object.defineProperty(exports, 'testsedatastorelevel2', { get: function () { return require('./testsedatastorelevel2'); } });
 Object.defineProperty(exports, 'testsedatastorelevel3', { get: function () { return require('./testsedatastorelevel3'); } });
 Object.defineProperty(exports, 'trafficcloneprofile', { get: function () { return require('./trafficcloneprofile'); } });
-Object.defineProperty(exports, 'trustedhostprofile', { get: function () { return require('./trustedhostprofile'); } });
-Object.defineProperty(exports, 'upgradeprofile', { get: function () { return require('./upgradeprofile'); } });
 Object.defineProperty(exports, 'upgradestatusinfo', { get: function () { return require('./upgradestatusinfo'); } });
 Object.defineProperty(exports, 'upgradestatussummary', { get: function () { return require('./upgradestatussummary'); } });
 Object.defineProperty(exports, 'user', { get: function () { return require('./user'); } });
@@ -167,11 +160,8 @@ Object.defineProperty(exports, 'dataAviFileobject', { get: function () { return 
 Object.defineProperty(exports, 'dataAviFileservice', { get: function () { return require('./data-avi-fileservice'); } });
 Object.defineProperty(exports, 'dataAviGeodb', { get: function () { return require('./data-avi-geodb'); } });
 Object.defineProperty(exports, 'dataAviGslb', { get: function () { return require('./data-avi-gslb'); } });
-Object.defineProperty(exports, 'dataAviGslbcrmruntime', { get: function () { return require('./data-avi-gslbcrmruntime'); } });
 Object.defineProperty(exports, 'dataAviGslbgeodbprofile', { get: function () { return require('./data-avi-gslbgeodbprofile'); } });
-Object.defineProperty(exports, 'dataAviGslbhsmruntime', { get: function () { return require('./data-avi-gslbhsmruntime'); } });
 Object.defineProperty(exports, 'dataAviGslbservice', { get: function () { return require('./data-avi-gslbservice'); } });
-Object.defineProperty(exports, 'dataAviGslbsmruntime', { get: function () { return require('./data-avi-gslbsmruntime'); } });
 Object.defineProperty(exports, 'dataAviHardwaresecuritymodulegroup', { get: function () { return require('./data-avi-hardwaresecuritymodulegroup'); } });
 Object.defineProperty(exports, 'dataAviHealthmonitor', { get: function () { return require('./data-avi-healthmonitor'); } });
 Object.defineProperty(exports, 'dataAviHttppolicyset', { get: function () { return require('./data-avi-httppolicyset'); } });
@@ -186,7 +176,6 @@ Object.defineProperty(exports, 'dataAviL4Policyset', { get: function () { return
 Object.defineProperty(exports, 'dataAviLabelgroup', { get: function () { return require('./data-avi-labelgroup'); } });
 Object.defineProperty(exports, 'dataAviLicenseledgerdetails', { get: function () { return require('./data-avi-licenseledgerdetails'); } });
 Object.defineProperty(exports, 'dataAviLicensestatus', { get: function () { return require('./data-avi-licensestatus'); } });
-Object.defineProperty(exports, 'dataAviLocalworkerfdsversion', { get: function () { return require('./data-avi-localworkerfdsversion'); } });
 Object.defineProperty(exports, 'dataAviMemorybalancerrequest', { get: function () { return require('./data-avi-memorybalancerrequest'); } });
 Object.defineProperty(exports, 'dataAviMicroservicegroup', { get: function () { return require('./data-avi-microservicegroup'); } });
 Object.defineProperty(exports, 'dataAviNatpolicy', { get: function () { return require('./data-avi-natpolicy'); } });
@@ -201,7 +190,6 @@ Object.defineProperty(exports, 'dataAviPoolgroup', { get: function () { return r
 Object.defineProperty(exports, 'dataAviPoolgroupdeploymentpolicy', { get: function () { return require('./data-avi-poolgroupdeploymentpolicy'); } });
 Object.defineProperty(exports, 'dataAviPrioritylabels', { get: function () { return require('./data-avi-prioritylabels'); } });
 Object.defineProperty(exports, 'dataAviProtocolparser', { get: function () { return require('./data-avi-protocolparser'); } });
-Object.defineProperty(exports, 'dataAviRetentionpolicy', { get: function () { return require('./data-avi-retentionpolicy'); } });
 Object.defineProperty(exports, 'dataAviRmcloudopsproto', { get: function () { return require('./data-avi-rmcloudopsproto'); } });
 Object.defineProperty(exports, 'dataAviRole', { get: function () { return require('./data-avi-role'); } });
 Object.defineProperty(exports, 'dataAviScheduler', { get: function () { return require('./data-avi-scheduler'); } });
@@ -231,8 +219,6 @@ Object.defineProperty(exports, 'dataAviTestsedatastorelevel1', { get: function (
 Object.defineProperty(exports, 'dataAviTestsedatastorelevel2', { get: function () { return require('./data-avi-testsedatastorelevel2'); } });
 Object.defineProperty(exports, 'dataAviTestsedatastorelevel3', { get: function () { return require('./data-avi-testsedatastorelevel3'); } });
 Object.defineProperty(exports, 'dataAviTrafficcloneprofile', { get: function () { return require('./data-avi-trafficcloneprofile'); } });
-Object.defineProperty(exports, 'dataAviTrustedhostprofile', { get: function () { return require('./data-avi-trustedhostprofile'); } });
-Object.defineProperty(exports, 'dataAviUpgradeprofile', { get: function () { return require('./data-avi-upgradeprofile'); } });
 Object.defineProperty(exports, 'dataAviUpgradestatusinfo', { get: function () { return require('./data-avi-upgradestatusinfo'); } });
 Object.defineProperty(exports, 'dataAviUpgradestatussummary', { get: function () { return require('./data-avi-upgradestatussummary'); } });
 Object.defineProperty(exports, 'dataAviUser', { get: function () { return require('./data-avi-user'); } });

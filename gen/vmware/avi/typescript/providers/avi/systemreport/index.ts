@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport
+// https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,2592 +8,98 @@ import * as cdktf from 'cdktf';
 
 export interface SystemreportConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#archive_ref Systemreport#archive_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#archive_ref Systemreport#archive_ref}
   */
   readonly archiveRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#controller_patch_image_ref Systemreport#controller_patch_image_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#controller_patch_image_ref Systemreport#controller_patch_image_ref}
   */
   readonly controllerPatchImageRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#downloadable Systemreport#downloadable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#downloadable Systemreport#downloadable}
   */
   readonly downloadable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#id Systemreport#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#id Systemreport#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#image_ref Systemreport#image_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#image_ref Systemreport#image_ref}
   */
   readonly imageRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#name Systemreport#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#name Systemreport#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#operation Systemreport#operation}
-  */
-  readonly operation?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#se_patch_image_ref Systemreport#se_patch_image_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#se_patch_image_ref Systemreport#se_patch_image_ref}
   */
   readonly sePatchImageRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#tenant_ref Systemreport#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#tenant_ref Systemreport#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#type Systemreport#type}
-  */
-  readonly type?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#uuid Systemreport#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#uuid Systemreport#uuid}
   */
   readonly uuid?: string;
   /**
-  * dryrun_info block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#dryrun_info Systemreport#dryrun_info}
-  */
-  readonly dryrunInfo?: SystemreportDryrunInfo[] | cdktf.IResolvable;
-  /**
   * events block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#events Systemreport#events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#events Systemreport#events}
   */
   readonly events?: SystemreportEvents[] | cdktf.IResolvable;
   /**
   * readiness_reports block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#readiness_reports Systemreport#readiness_reports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#readiness_reports Systemreport#readiness_reports}
   */
   readonly readinessReports?: SystemreportReadinessReports[] | cdktf.IResolvable;
   /**
   * state block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#state Systemreport#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#state Systemreport#state}
   */
   readonly state?: SystemreportState[] | cdktf.IResolvable;
   /**
   * summary block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#summary Systemreport#summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#summary Systemreport#summary}
   */
   readonly summary?: SystemreportSummary[] | cdktf.IResolvable;
   /**
   * tasks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#tasks Systemreport#tasks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#tasks Systemreport#tasks}
   */
   readonly tasks?: SystemreportTasks[] | cdktf.IResolvable;
 }
-export interface SystemreportDryrunInfoParamsSeGroupOptions {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#action_on_error Systemreport#action_on_error}
-  */
-  readonly actionOnError?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#disruptive Systemreport#disruptive}
-  */
-  readonly disruptive?: string;
-}
-
-export function systemreportDryrunInfoParamsSeGroupOptionsToTerraform(struct?: SystemreportDryrunInfoParamsSeGroupOptions | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    action_on_error: cdktf.stringToTerraform(struct!.actionOnError),
-    disruptive: cdktf.stringToTerraform(struct!.disruptive),
-  }
-}
-
-
-export function systemreportDryrunInfoParamsSeGroupOptionsToHclTerraform(struct?: SystemreportDryrunInfoParamsSeGroupOptions | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    action_on_error: {
-      value: cdktf.stringToHclTerraform(struct!.actionOnError),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    disruptive: {
-      value: cdktf.stringToHclTerraform(struct!.disruptive),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class SystemreportDryrunInfoParamsSeGroupOptionsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): SystemreportDryrunInfoParamsSeGroupOptions | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._actionOnError !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.actionOnError = this._actionOnError;
-    }
-    if (this._disruptive !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.disruptive = this._disruptive;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SystemreportDryrunInfoParamsSeGroupOptions | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._actionOnError = undefined;
-      this._disruptive = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._actionOnError = value.actionOnError;
-      this._disruptive = value.disruptive;
-    }
-  }
-
-  // action_on_error - computed: false, optional: true, required: false
-  private _actionOnError?: string; 
-  public get actionOnError() {
-    return this.getStringAttribute('action_on_error');
-  }
-  public set actionOnError(value: string) {
-    this._actionOnError = value;
-  }
-  public resetActionOnError() {
-    this._actionOnError = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get actionOnErrorInput() {
-    return this._actionOnError;
-  }
-
-  // disruptive - computed: false, optional: true, required: false
-  private _disruptive?: string; 
-  public get disruptive() {
-    return this.getStringAttribute('disruptive');
-  }
-  public set disruptive(value: string) {
-    this._disruptive = value;
-  }
-  public resetDisruptive() {
-    this._disruptive = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get disruptiveInput() {
-    return this._disruptive;
-  }
-}
-
-export class SystemreportDryrunInfoParamsSeGroupOptionsList extends cdktf.ComplexList {
-  public internalValue? : SystemreportDryrunInfoParamsSeGroupOptions[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): SystemreportDryrunInfoParamsSeGroupOptionsOutputReference {
-    return new SystemreportDryrunInfoParamsSeGroupOptionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface SystemreportDryrunInfoParams {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#controller_patch_ref Systemreport#controller_patch_ref}
-  */
-  readonly controllerPatchRef?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#dryrun Systemreport#dryrun}
-  */
-  readonly dryrun?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#image_ref Systemreport#image_ref}
-  */
-  readonly imageRef?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#prechecks_only Systemreport#prechecks_only}
-  */
-  readonly prechecksOnly?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#se_group_refs Systemreport#se_group_refs}
-  */
-  readonly seGroupRefs?: string[];
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#se_patch_ref Systemreport#se_patch_ref}
-  */
-  readonly sePatchRef?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#skip_warnings Systemreport#skip_warnings}
-  */
-  readonly skipWarnings?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#system Systemreport#system}
-  */
-  readonly systemAttribute?: string;
-  /**
-  * se_group_options block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#se_group_options Systemreport#se_group_options}
-  */
-  readonly seGroupOptions?: SystemreportDryrunInfoParamsSeGroupOptions[] | cdktf.IResolvable;
-}
-
-export function systemreportDryrunInfoParamsToTerraform(struct?: SystemreportDryrunInfoParams | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    controller_patch_ref: cdktf.stringToTerraform(struct!.controllerPatchRef),
-    dryrun: cdktf.stringToTerraform(struct!.dryrun),
-    image_ref: cdktf.stringToTerraform(struct!.imageRef),
-    prechecks_only: cdktf.stringToTerraform(struct!.prechecksOnly),
-    se_group_refs: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.seGroupRefs),
-    se_patch_ref: cdktf.stringToTerraform(struct!.sePatchRef),
-    skip_warnings: cdktf.stringToTerraform(struct!.skipWarnings),
-    system: cdktf.stringToTerraform(struct!.systemAttribute),
-    se_group_options: cdktf.listMapper(systemreportDryrunInfoParamsSeGroupOptionsToTerraform, true)(struct!.seGroupOptions),
-  }
-}
-
-
-export function systemreportDryrunInfoParamsToHclTerraform(struct?: SystemreportDryrunInfoParams | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    controller_patch_ref: {
-      value: cdktf.stringToHclTerraform(struct!.controllerPatchRef),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    dryrun: {
-      value: cdktf.stringToHclTerraform(struct!.dryrun),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    image_ref: {
-      value: cdktf.stringToHclTerraform(struct!.imageRef),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    prechecks_only: {
-      value: cdktf.stringToHclTerraform(struct!.prechecksOnly),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    se_group_refs: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.seGroupRefs),
-      isBlock: false,
-      type: "list",
-      storageClassType: "stringList",
-    },
-    se_patch_ref: {
-      value: cdktf.stringToHclTerraform(struct!.sePatchRef),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    skip_warnings: {
-      value: cdktf.stringToHclTerraform(struct!.skipWarnings),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    system: {
-      value: cdktf.stringToHclTerraform(struct!.systemAttribute),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    se_group_options: {
-      value: cdktf.listMapperHcl(systemreportDryrunInfoParamsSeGroupOptionsToHclTerraform, true)(struct!.seGroupOptions),
-      isBlock: true,
-      type: "set",
-      storageClassType: "SystemreportDryrunInfoParamsSeGroupOptionsList",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class SystemreportDryrunInfoParamsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): SystemreportDryrunInfoParams | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._controllerPatchRef !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.controllerPatchRef = this._controllerPatchRef;
-    }
-    if (this._dryrun !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.dryrun = this._dryrun;
-    }
-    if (this._imageRef !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.imageRef = this._imageRef;
-    }
-    if (this._prechecksOnly !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.prechecksOnly = this._prechecksOnly;
-    }
-    if (this._seGroupRefs !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.seGroupRefs = this._seGroupRefs;
-    }
-    if (this._sePatchRef !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.sePatchRef = this._sePatchRef;
-    }
-    if (this._skipWarnings !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.skipWarnings = this._skipWarnings;
-    }
-    if (this._system !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.systemAttribute = this._system;
-    }
-    if (this._seGroupOptions?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.seGroupOptions = this._seGroupOptions?.internalValue;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SystemreportDryrunInfoParams | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._controllerPatchRef = undefined;
-      this._dryrun = undefined;
-      this._imageRef = undefined;
-      this._prechecksOnly = undefined;
-      this._seGroupRefs = undefined;
-      this._sePatchRef = undefined;
-      this._skipWarnings = undefined;
-      this._system = undefined;
-      this._seGroupOptions.internalValue = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._controllerPatchRef = value.controllerPatchRef;
-      this._dryrun = value.dryrun;
-      this._imageRef = value.imageRef;
-      this._prechecksOnly = value.prechecksOnly;
-      this._seGroupRefs = value.seGroupRefs;
-      this._sePatchRef = value.sePatchRef;
-      this._skipWarnings = value.skipWarnings;
-      this._system = value.systemAttribute;
-      this._seGroupOptions.internalValue = value.seGroupOptions;
-    }
-  }
-
-  // controller_patch_ref - computed: true, optional: true, required: false
-  private _controllerPatchRef?: string; 
-  public get controllerPatchRef() {
-    return this.getStringAttribute('controller_patch_ref');
-  }
-  public set controllerPatchRef(value: string) {
-    this._controllerPatchRef = value;
-  }
-  public resetControllerPatchRef() {
-    this._controllerPatchRef = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get controllerPatchRefInput() {
-    return this._controllerPatchRef;
-  }
-
-  // dryrun - computed: true, optional: true, required: false
-  private _dryrun?: string; 
-  public get dryrun() {
-    return this.getStringAttribute('dryrun');
-  }
-  public set dryrun(value: string) {
-    this._dryrun = value;
-  }
-  public resetDryrun() {
-    this._dryrun = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get dryrunInput() {
-    return this._dryrun;
-  }
-
-  // image_ref - computed: true, optional: true, required: false
-  private _imageRef?: string; 
-  public get imageRef() {
-    return this.getStringAttribute('image_ref');
-  }
-  public set imageRef(value: string) {
-    this._imageRef = value;
-  }
-  public resetImageRef() {
-    this._imageRef = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get imageRefInput() {
-    return this._imageRef;
-  }
-
-  // prechecks_only - computed: true, optional: true, required: false
-  private _prechecksOnly?: string; 
-  public get prechecksOnly() {
-    return this.getStringAttribute('prechecks_only');
-  }
-  public set prechecksOnly(value: string) {
-    this._prechecksOnly = value;
-  }
-  public resetPrechecksOnly() {
-    this._prechecksOnly = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get prechecksOnlyInput() {
-    return this._prechecksOnly;
-  }
-
-  // se_group_refs - computed: false, optional: true, required: false
-  private _seGroupRefs?: string[]; 
-  public get seGroupRefs() {
-    return this.getListAttribute('se_group_refs');
-  }
-  public set seGroupRefs(value: string[]) {
-    this._seGroupRefs = value;
-  }
-  public resetSeGroupRefs() {
-    this._seGroupRefs = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get seGroupRefsInput() {
-    return this._seGroupRefs;
-  }
-
-  // se_patch_ref - computed: true, optional: true, required: false
-  private _sePatchRef?: string; 
-  public get sePatchRef() {
-    return this.getStringAttribute('se_patch_ref');
-  }
-  public set sePatchRef(value: string) {
-    this._sePatchRef = value;
-  }
-  public resetSePatchRef() {
-    this._sePatchRef = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get sePatchRefInput() {
-    return this._sePatchRef;
-  }
-
-  // skip_warnings - computed: true, optional: true, required: false
-  private _skipWarnings?: string; 
-  public get skipWarnings() {
-    return this.getStringAttribute('skip_warnings');
-  }
-  public set skipWarnings(value: string) {
-    this._skipWarnings = value;
-  }
-  public resetSkipWarnings() {
-    this._skipWarnings = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get skipWarningsInput() {
-    return this._skipWarnings;
-  }
-
-  // system - computed: true, optional: true, required: false
-  private _system?: string; 
-  public get systemAttribute() {
-    return this.getStringAttribute('system');
-  }
-  public set systemAttribute(value: string) {
-    this._system = value;
-  }
-  public resetSystemAttribute() {
-    this._system = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get systemAttributeInput() {
-    return this._system;
-  }
-
-  // se_group_options - computed: false, optional: true, required: false
-  private _seGroupOptions = new SystemreportDryrunInfoParamsSeGroupOptionsList(this, "se_group_options", true);
-  public get seGroupOptions() {
-    return this._seGroupOptions;
-  }
-  public putSeGroupOptions(value: SystemreportDryrunInfoParamsSeGroupOptions[] | cdktf.IResolvable) {
-    this._seGroupOptions.internalValue = value;
-  }
-  public resetSeGroupOptions() {
-    this._seGroupOptions.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get seGroupOptionsInput() {
-    return this._seGroupOptions.internalValue;
-  }
-}
-
-export class SystemreportDryrunInfoParamsList extends cdktf.ComplexList {
-  public internalValue? : SystemreportDryrunInfoParams[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): SystemreportDryrunInfoParamsOutputReference {
-    return new SystemreportDryrunInfoParamsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface SystemreportDryrunInfoStateLastChangedTime {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#secs Systemreport#secs}
-  */
-  readonly secs: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#usecs Systemreport#usecs}
-  */
-  readonly usecs: string;
-}
-
-export function systemreportDryrunInfoStateLastChangedTimeToTerraform(struct?: SystemreportDryrunInfoStateLastChangedTime | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    secs: cdktf.stringToTerraform(struct!.secs),
-    usecs: cdktf.stringToTerraform(struct!.usecs),
-  }
-}
-
-
-export function systemreportDryrunInfoStateLastChangedTimeToHclTerraform(struct?: SystemreportDryrunInfoStateLastChangedTime | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    secs: {
-      value: cdktf.stringToHclTerraform(struct!.secs),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    usecs: {
-      value: cdktf.stringToHclTerraform(struct!.usecs),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class SystemreportDryrunInfoStateLastChangedTimeOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): SystemreportDryrunInfoStateLastChangedTime | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._secs !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.secs = this._secs;
-    }
-    if (this._usecs !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.usecs = this._usecs;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SystemreportDryrunInfoStateLastChangedTime | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._secs = undefined;
-      this._usecs = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._secs = value.secs;
-      this._usecs = value.usecs;
-    }
-  }
-
-  // secs - computed: false, optional: false, required: true
-  private _secs?: string; 
-  public get secs() {
-    return this.getStringAttribute('secs');
-  }
-  public set secs(value: string) {
-    this._secs = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get secsInput() {
-    return this._secs;
-  }
-
-  // usecs - computed: false, optional: false, required: true
-  private _usecs?: string; 
-  public get usecs() {
-    return this.getStringAttribute('usecs');
-  }
-  public set usecs(value: string) {
-    this._usecs = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get usecsInput() {
-    return this._usecs;
-  }
-}
-
-export class SystemreportDryrunInfoStateLastChangedTimeList extends cdktf.ComplexList {
-  public internalValue? : SystemreportDryrunInfoStateLastChangedTime[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): SystemreportDryrunInfoStateLastChangedTimeOutputReference {
-    return new SystemreportDryrunInfoStateLastChangedTimeOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface SystemreportDryrunInfoState {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#reason Systemreport#reason}
-  */
-  readonly reason?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#rebooted Systemreport#rebooted}
-  */
-  readonly rebooted?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#state Systemreport#state}
-  */
-  readonly state?: string;
-  /**
-  * last_changed_time block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#last_changed_time Systemreport#last_changed_time}
-  */
-  readonly lastChangedTime?: SystemreportDryrunInfoStateLastChangedTime[] | cdktf.IResolvable;
-}
-
-export function systemreportDryrunInfoStateToTerraform(struct?: SystemreportDryrunInfoState | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    reason: cdktf.stringToTerraform(struct!.reason),
-    rebooted: cdktf.stringToTerraform(struct!.rebooted),
-    state: cdktf.stringToTerraform(struct!.state),
-    last_changed_time: cdktf.listMapper(systemreportDryrunInfoStateLastChangedTimeToTerraform, true)(struct!.lastChangedTime),
-  }
-}
-
-
-export function systemreportDryrunInfoStateToHclTerraform(struct?: SystemreportDryrunInfoState | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    reason: {
-      value: cdktf.stringToHclTerraform(struct!.reason),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    rebooted: {
-      value: cdktf.stringToHclTerraform(struct!.rebooted),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    state: {
-      value: cdktf.stringToHclTerraform(struct!.state),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    last_changed_time: {
-      value: cdktf.listMapperHcl(systemreportDryrunInfoStateLastChangedTimeToHclTerraform, true)(struct!.lastChangedTime),
-      isBlock: true,
-      type: "set",
-      storageClassType: "SystemreportDryrunInfoStateLastChangedTimeList",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class SystemreportDryrunInfoStateOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): SystemreportDryrunInfoState | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._reason !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.reason = this._reason;
-    }
-    if (this._rebooted !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.rebooted = this._rebooted;
-    }
-    if (this._state !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.state = this._state;
-    }
-    if (this._lastChangedTime?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.lastChangedTime = this._lastChangedTime?.internalValue;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SystemreportDryrunInfoState | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._reason = undefined;
-      this._rebooted = undefined;
-      this._state = undefined;
-      this._lastChangedTime.internalValue = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._reason = value.reason;
-      this._rebooted = value.rebooted;
-      this._state = value.state;
-      this._lastChangedTime.internalValue = value.lastChangedTime;
-    }
-  }
-
-  // reason - computed: true, optional: true, required: false
-  private _reason?: string; 
-  public get reason() {
-    return this.getStringAttribute('reason');
-  }
-  public set reason(value: string) {
-    this._reason = value;
-  }
-  public resetReason() {
-    this._reason = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get reasonInput() {
-    return this._reason;
-  }
-
-  // rebooted - computed: true, optional: true, required: false
-  private _rebooted?: string; 
-  public get rebooted() {
-    return this.getStringAttribute('rebooted');
-  }
-  public set rebooted(value: string) {
-    this._rebooted = value;
-  }
-  public resetRebooted() {
-    this._rebooted = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get rebootedInput() {
-    return this._rebooted;
-  }
-
-  // state - computed: true, optional: true, required: false
-  private _state?: string; 
-  public get state() {
-    return this.getStringAttribute('state');
-  }
-  public set state(value: string) {
-    this._state = value;
-  }
-  public resetState() {
-    this._state = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get stateInput() {
-    return this._state;
-  }
-
-  // last_changed_time - computed: false, optional: true, required: false
-  private _lastChangedTime = new SystemreportDryrunInfoStateLastChangedTimeList(this, "last_changed_time", true);
-  public get lastChangedTime() {
-    return this._lastChangedTime;
-  }
-  public putLastChangedTime(value: SystemreportDryrunInfoStateLastChangedTime[] | cdktf.IResolvable) {
-    this._lastChangedTime.internalValue = value;
-  }
-  public resetLastChangedTime() {
-    this._lastChangedTime.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get lastChangedTimeInput() {
-    return this._lastChangedTime.internalValue;
-  }
-}
-
-export class SystemreportDryrunInfoStateList extends cdktf.ComplexList {
-  public internalValue? : SystemreportDryrunInfoState[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): SystemreportDryrunInfoStateOutputReference {
-    return new SystemreportDryrunInfoStateOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface SystemreportDryrunInfoUpgradeEventsNodesEventsIp {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#addr Systemreport#addr}
-  */
-  readonly addr: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#type Systemreport#type}
-  */
-  readonly type: string;
-}
-
-export function systemreportDryrunInfoUpgradeEventsNodesEventsIpToTerraform(struct?: SystemreportDryrunInfoUpgradeEventsNodesEventsIp | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    addr: cdktf.stringToTerraform(struct!.addr),
-    type: cdktf.stringToTerraform(struct!.type),
-  }
-}
-
-
-export function systemreportDryrunInfoUpgradeEventsNodesEventsIpToHclTerraform(struct?: SystemreportDryrunInfoUpgradeEventsNodesEventsIp | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    addr: {
-      value: cdktf.stringToHclTerraform(struct!.addr),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    type: {
-      value: cdktf.stringToHclTerraform(struct!.type),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class SystemreportDryrunInfoUpgradeEventsNodesEventsIpOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): SystemreportDryrunInfoUpgradeEventsNodesEventsIp | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._addr !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.addr = this._addr;
-    }
-    if (this._type !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.type = this._type;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SystemreportDryrunInfoUpgradeEventsNodesEventsIp | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._addr = undefined;
-      this._type = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._addr = value.addr;
-      this._type = value.type;
-    }
-  }
-
-  // addr - computed: false, optional: false, required: true
-  private _addr?: string; 
-  public get addr() {
-    return this.getStringAttribute('addr');
-  }
-  public set addr(value: string) {
-    this._addr = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get addrInput() {
-    return this._addr;
-  }
-
-  // type - computed: false, optional: false, required: true
-  private _type?: string; 
-  public get type() {
-    return this.getStringAttribute('type');
-  }
-  public set type(value: string) {
-    this._type = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get typeInput() {
-    return this._type;
-  }
-}
-
-export class SystemreportDryrunInfoUpgradeEventsNodesEventsIpList extends cdktf.ComplexList {
-  public internalValue? : SystemreportDryrunInfoUpgradeEventsNodesEventsIp[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): SystemreportDryrunInfoUpgradeEventsNodesEventsIpOutputReference {
-    return new SystemreportDryrunInfoUpgradeEventsNodesEventsIpOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface SystemreportDryrunInfoUpgradeEventsNodesEvents {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#duration Systemreport#duration}
-  */
-  readonly duration?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#end_time Systemreport#end_time}
-  */
-  readonly endTime?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#message Systemreport#message}
-  */
-  readonly message?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#start_time Systemreport#start_time}
-  */
-  readonly startTime?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#status Systemreport#status}
-  */
-  readonly status?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#sub_tasks Systemreport#sub_tasks}
-  */
-  readonly subTasks?: string[];
-  /**
-  * ip block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#ip Systemreport#ip}
-  */
-  readonly ip?: SystemreportDryrunInfoUpgradeEventsNodesEventsIp[] | cdktf.IResolvable;
-}
-
-export function systemreportDryrunInfoUpgradeEventsNodesEventsToTerraform(struct?: SystemreportDryrunInfoUpgradeEventsNodesEvents | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    duration: cdktf.stringToTerraform(struct!.duration),
-    end_time: cdktf.stringToTerraform(struct!.endTime),
-    message: cdktf.stringToTerraform(struct!.message),
-    start_time: cdktf.stringToTerraform(struct!.startTime),
-    status: cdktf.stringToTerraform(struct!.status),
-    sub_tasks: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.subTasks),
-    ip: cdktf.listMapper(systemreportDryrunInfoUpgradeEventsNodesEventsIpToTerraform, true)(struct!.ip),
-  }
-}
-
-
-export function systemreportDryrunInfoUpgradeEventsNodesEventsToHclTerraform(struct?: SystemreportDryrunInfoUpgradeEventsNodesEvents | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    duration: {
-      value: cdktf.stringToHclTerraform(struct!.duration),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    end_time: {
-      value: cdktf.stringToHclTerraform(struct!.endTime),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    message: {
-      value: cdktf.stringToHclTerraform(struct!.message),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    start_time: {
-      value: cdktf.stringToHclTerraform(struct!.startTime),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    status: {
-      value: cdktf.stringToHclTerraform(struct!.status),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    sub_tasks: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.subTasks),
-      isBlock: false,
-      type: "list",
-      storageClassType: "stringList",
-    },
-    ip: {
-      value: cdktf.listMapperHcl(systemreportDryrunInfoUpgradeEventsNodesEventsIpToHclTerraform, true)(struct!.ip),
-      isBlock: true,
-      type: "set",
-      storageClassType: "SystemreportDryrunInfoUpgradeEventsNodesEventsIpList",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class SystemreportDryrunInfoUpgradeEventsNodesEventsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): SystemreportDryrunInfoUpgradeEventsNodesEvents | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._duration !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.duration = this._duration;
-    }
-    if (this._endTime !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.endTime = this._endTime;
-    }
-    if (this._message !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.message = this._message;
-    }
-    if (this._startTime !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.startTime = this._startTime;
-    }
-    if (this._status !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.status = this._status;
-    }
-    if (this._subTasks !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.subTasks = this._subTasks;
-    }
-    if (this._ip?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ip = this._ip?.internalValue;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SystemreportDryrunInfoUpgradeEventsNodesEvents | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._duration = undefined;
-      this._endTime = undefined;
-      this._message = undefined;
-      this._startTime = undefined;
-      this._status = undefined;
-      this._subTasks = undefined;
-      this._ip.internalValue = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._duration = value.duration;
-      this._endTime = value.endTime;
-      this._message = value.message;
-      this._startTime = value.startTime;
-      this._status = value.status;
-      this._subTasks = value.subTasks;
-      this._ip.internalValue = value.ip;
-    }
-  }
-
-  // duration - computed: true, optional: true, required: false
-  private _duration?: string; 
-  public get duration() {
-    return this.getStringAttribute('duration');
-  }
-  public set duration(value: string) {
-    this._duration = value;
-  }
-  public resetDuration() {
-    this._duration = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get durationInput() {
-    return this._duration;
-  }
-
-  // end_time - computed: true, optional: true, required: false
-  private _endTime?: string; 
-  public get endTime() {
-    return this.getStringAttribute('end_time');
-  }
-  public set endTime(value: string) {
-    this._endTime = value;
-  }
-  public resetEndTime() {
-    this._endTime = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get endTimeInput() {
-    return this._endTime;
-  }
-
-  // message - computed: true, optional: true, required: false
-  private _message?: string; 
-  public get message() {
-    return this.getStringAttribute('message');
-  }
-  public set message(value: string) {
-    this._message = value;
-  }
-  public resetMessage() {
-    this._message = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get messageInput() {
-    return this._message;
-  }
-
-  // start_time - computed: true, optional: true, required: false
-  private _startTime?: string; 
-  public get startTime() {
-    return this.getStringAttribute('start_time');
-  }
-  public set startTime(value: string) {
-    this._startTime = value;
-  }
-  public resetStartTime() {
-    this._startTime = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get startTimeInput() {
-    return this._startTime;
-  }
-
-  // status - computed: false, optional: true, required: false
-  private _status?: string; 
-  public get status() {
-    return this.getStringAttribute('status');
-  }
-  public set status(value: string) {
-    this._status = value;
-  }
-  public resetStatus() {
-    this._status = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get statusInput() {
-    return this._status;
-  }
-
-  // sub_tasks - computed: false, optional: true, required: false
-  private _subTasks?: string[]; 
-  public get subTasks() {
-    return this.getListAttribute('sub_tasks');
-  }
-  public set subTasks(value: string[]) {
-    this._subTasks = value;
-  }
-  public resetSubTasks() {
-    this._subTasks = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get subTasksInput() {
-    return this._subTasks;
-  }
-
-  // ip - computed: false, optional: true, required: false
-  private _ip = new SystemreportDryrunInfoUpgradeEventsNodesEventsIpList(this, "ip", true);
-  public get ip() {
-    return this._ip;
-  }
-  public putIp(value: SystemreportDryrunInfoUpgradeEventsNodesEventsIp[] | cdktf.IResolvable) {
-    this._ip.internalValue = value;
-  }
-  public resetIp() {
-    this._ip.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ipInput() {
-    return this._ip.internalValue;
-  }
-}
-
-export class SystemreportDryrunInfoUpgradeEventsNodesEventsList extends cdktf.ComplexList {
-  public internalValue? : SystemreportDryrunInfoUpgradeEventsNodesEvents[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): SystemreportDryrunInfoUpgradeEventsNodesEventsOutputReference {
-    return new SystemreportDryrunInfoUpgradeEventsNodesEventsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface SystemreportDryrunInfoUpgradeEventsSubEventsIp {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#addr Systemreport#addr}
-  */
-  readonly addr: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#type Systemreport#type}
-  */
-  readonly type: string;
-}
-
-export function systemreportDryrunInfoUpgradeEventsSubEventsIpToTerraform(struct?: SystemreportDryrunInfoUpgradeEventsSubEventsIp | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    addr: cdktf.stringToTerraform(struct!.addr),
-    type: cdktf.stringToTerraform(struct!.type),
-  }
-}
-
-
-export function systemreportDryrunInfoUpgradeEventsSubEventsIpToHclTerraform(struct?: SystemreportDryrunInfoUpgradeEventsSubEventsIp | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    addr: {
-      value: cdktf.stringToHclTerraform(struct!.addr),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    type: {
-      value: cdktf.stringToHclTerraform(struct!.type),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class SystemreportDryrunInfoUpgradeEventsSubEventsIpOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): SystemreportDryrunInfoUpgradeEventsSubEventsIp | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._addr !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.addr = this._addr;
-    }
-    if (this._type !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.type = this._type;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SystemreportDryrunInfoUpgradeEventsSubEventsIp | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._addr = undefined;
-      this._type = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._addr = value.addr;
-      this._type = value.type;
-    }
-  }
-
-  // addr - computed: false, optional: false, required: true
-  private _addr?: string; 
-  public get addr() {
-    return this.getStringAttribute('addr');
-  }
-  public set addr(value: string) {
-    this._addr = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get addrInput() {
-    return this._addr;
-  }
-
-  // type - computed: false, optional: false, required: true
-  private _type?: string; 
-  public get type() {
-    return this.getStringAttribute('type');
-  }
-  public set type(value: string) {
-    this._type = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get typeInput() {
-    return this._type;
-  }
-}
-
-export class SystemreportDryrunInfoUpgradeEventsSubEventsIpList extends cdktf.ComplexList {
-  public internalValue? : SystemreportDryrunInfoUpgradeEventsSubEventsIp[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): SystemreportDryrunInfoUpgradeEventsSubEventsIpOutputReference {
-    return new SystemreportDryrunInfoUpgradeEventsSubEventsIpOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface SystemreportDryrunInfoUpgradeEventsSubEvents {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#duration Systemreport#duration}
-  */
-  readonly duration?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#end_time Systemreport#end_time}
-  */
-  readonly endTime?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#message Systemreport#message}
-  */
-  readonly message?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#start_time Systemreport#start_time}
-  */
-  readonly startTime?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#status Systemreport#status}
-  */
-  readonly status?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#sub_tasks Systemreport#sub_tasks}
-  */
-  readonly subTasks?: string[];
-  /**
-  * ip block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#ip Systemreport#ip}
-  */
-  readonly ip?: SystemreportDryrunInfoUpgradeEventsSubEventsIp[] | cdktf.IResolvable;
-}
-
-export function systemreportDryrunInfoUpgradeEventsSubEventsToTerraform(struct?: SystemreportDryrunInfoUpgradeEventsSubEvents | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    duration: cdktf.stringToTerraform(struct!.duration),
-    end_time: cdktf.stringToTerraform(struct!.endTime),
-    message: cdktf.stringToTerraform(struct!.message),
-    start_time: cdktf.stringToTerraform(struct!.startTime),
-    status: cdktf.stringToTerraform(struct!.status),
-    sub_tasks: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.subTasks),
-    ip: cdktf.listMapper(systemreportDryrunInfoUpgradeEventsSubEventsIpToTerraform, true)(struct!.ip),
-  }
-}
-
-
-export function systemreportDryrunInfoUpgradeEventsSubEventsToHclTerraform(struct?: SystemreportDryrunInfoUpgradeEventsSubEvents | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    duration: {
-      value: cdktf.stringToHclTerraform(struct!.duration),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    end_time: {
-      value: cdktf.stringToHclTerraform(struct!.endTime),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    message: {
-      value: cdktf.stringToHclTerraform(struct!.message),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    start_time: {
-      value: cdktf.stringToHclTerraform(struct!.startTime),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    status: {
-      value: cdktf.stringToHclTerraform(struct!.status),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    sub_tasks: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.subTasks),
-      isBlock: false,
-      type: "list",
-      storageClassType: "stringList",
-    },
-    ip: {
-      value: cdktf.listMapperHcl(systemreportDryrunInfoUpgradeEventsSubEventsIpToHclTerraform, true)(struct!.ip),
-      isBlock: true,
-      type: "set",
-      storageClassType: "SystemreportDryrunInfoUpgradeEventsSubEventsIpList",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class SystemreportDryrunInfoUpgradeEventsSubEventsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): SystemreportDryrunInfoUpgradeEventsSubEvents | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._duration !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.duration = this._duration;
-    }
-    if (this._endTime !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.endTime = this._endTime;
-    }
-    if (this._message !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.message = this._message;
-    }
-    if (this._startTime !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.startTime = this._startTime;
-    }
-    if (this._status !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.status = this._status;
-    }
-    if (this._subTasks !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.subTasks = this._subTasks;
-    }
-    if (this._ip?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ip = this._ip?.internalValue;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SystemreportDryrunInfoUpgradeEventsSubEvents | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._duration = undefined;
-      this._endTime = undefined;
-      this._message = undefined;
-      this._startTime = undefined;
-      this._status = undefined;
-      this._subTasks = undefined;
-      this._ip.internalValue = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._duration = value.duration;
-      this._endTime = value.endTime;
-      this._message = value.message;
-      this._startTime = value.startTime;
-      this._status = value.status;
-      this._subTasks = value.subTasks;
-      this._ip.internalValue = value.ip;
-    }
-  }
-
-  // duration - computed: true, optional: true, required: false
-  private _duration?: string; 
-  public get duration() {
-    return this.getStringAttribute('duration');
-  }
-  public set duration(value: string) {
-    this._duration = value;
-  }
-  public resetDuration() {
-    this._duration = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get durationInput() {
-    return this._duration;
-  }
-
-  // end_time - computed: true, optional: true, required: false
-  private _endTime?: string; 
-  public get endTime() {
-    return this.getStringAttribute('end_time');
-  }
-  public set endTime(value: string) {
-    this._endTime = value;
-  }
-  public resetEndTime() {
-    this._endTime = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get endTimeInput() {
-    return this._endTime;
-  }
-
-  // message - computed: true, optional: true, required: false
-  private _message?: string; 
-  public get message() {
-    return this.getStringAttribute('message');
-  }
-  public set message(value: string) {
-    this._message = value;
-  }
-  public resetMessage() {
-    this._message = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get messageInput() {
-    return this._message;
-  }
-
-  // start_time - computed: true, optional: true, required: false
-  private _startTime?: string; 
-  public get startTime() {
-    return this.getStringAttribute('start_time');
-  }
-  public set startTime(value: string) {
-    this._startTime = value;
-  }
-  public resetStartTime() {
-    this._startTime = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get startTimeInput() {
-    return this._startTime;
-  }
-
-  // status - computed: false, optional: true, required: false
-  private _status?: string; 
-  public get status() {
-    return this.getStringAttribute('status');
-  }
-  public set status(value: string) {
-    this._status = value;
-  }
-  public resetStatus() {
-    this._status = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get statusInput() {
-    return this._status;
-  }
-
-  // sub_tasks - computed: false, optional: true, required: false
-  private _subTasks?: string[]; 
-  public get subTasks() {
-    return this.getListAttribute('sub_tasks');
-  }
-  public set subTasks(value: string[]) {
-    this._subTasks = value;
-  }
-  public resetSubTasks() {
-    this._subTasks = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get subTasksInput() {
-    return this._subTasks;
-  }
-
-  // ip - computed: false, optional: true, required: false
-  private _ip = new SystemreportDryrunInfoUpgradeEventsSubEventsIpList(this, "ip", true);
-  public get ip() {
-    return this._ip;
-  }
-  public putIp(value: SystemreportDryrunInfoUpgradeEventsSubEventsIp[] | cdktf.IResolvable) {
-    this._ip.internalValue = value;
-  }
-  public resetIp() {
-    this._ip.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ipInput() {
-    return this._ip.internalValue;
-  }
-}
-
-export class SystemreportDryrunInfoUpgradeEventsSubEventsList extends cdktf.ComplexList {
-  public internalValue? : SystemreportDryrunInfoUpgradeEventsSubEvents[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): SystemreportDryrunInfoUpgradeEventsSubEventsOutputReference {
-    return new SystemreportDryrunInfoUpgradeEventsSubEventsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface SystemreportDryrunInfoUpgradeEvents {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#task Systemreport#task}
-  */
-  readonly task?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#task_name Systemreport#task_name}
-  */
-  readonly taskName?: string;
-  /**
-  * nodes_events block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#nodes_events Systemreport#nodes_events}
-  */
-  readonly nodesEvents?: SystemreportDryrunInfoUpgradeEventsNodesEvents[] | cdktf.IResolvable;
-  /**
-  * sub_events block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#sub_events Systemreport#sub_events}
-  */
-  readonly subEvents?: SystemreportDryrunInfoUpgradeEventsSubEvents[] | cdktf.IResolvable;
-}
-
-export function systemreportDryrunInfoUpgradeEventsToTerraform(struct?: SystemreportDryrunInfoUpgradeEvents | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    task: cdktf.stringToTerraform(struct!.task),
-    task_name: cdktf.stringToTerraform(struct!.taskName),
-    nodes_events: cdktf.listMapper(systemreportDryrunInfoUpgradeEventsNodesEventsToTerraform, true)(struct!.nodesEvents),
-    sub_events: cdktf.listMapper(systemreportDryrunInfoUpgradeEventsSubEventsToTerraform, true)(struct!.subEvents),
-  }
-}
-
-
-export function systemreportDryrunInfoUpgradeEventsToHclTerraform(struct?: SystemreportDryrunInfoUpgradeEvents | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    task: {
-      value: cdktf.stringToHclTerraform(struct!.task),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    task_name: {
-      value: cdktf.stringToHclTerraform(struct!.taskName),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    nodes_events: {
-      value: cdktf.listMapperHcl(systemreportDryrunInfoUpgradeEventsNodesEventsToHclTerraform, true)(struct!.nodesEvents),
-      isBlock: true,
-      type: "list",
-      storageClassType: "SystemreportDryrunInfoUpgradeEventsNodesEventsList",
-    },
-    sub_events: {
-      value: cdktf.listMapperHcl(systemreportDryrunInfoUpgradeEventsSubEventsToHclTerraform, true)(struct!.subEvents),
-      isBlock: true,
-      type: "list",
-      storageClassType: "SystemreportDryrunInfoUpgradeEventsSubEventsList",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class SystemreportDryrunInfoUpgradeEventsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): SystemreportDryrunInfoUpgradeEvents | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._task !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.task = this._task;
-    }
-    if (this._taskName !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.taskName = this._taskName;
-    }
-    if (this._nodesEvents?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.nodesEvents = this._nodesEvents?.internalValue;
-    }
-    if (this._subEvents?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.subEvents = this._subEvents?.internalValue;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SystemreportDryrunInfoUpgradeEvents | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._task = undefined;
-      this._taskName = undefined;
-      this._nodesEvents.internalValue = undefined;
-      this._subEvents.internalValue = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._task = value.task;
-      this._taskName = value.taskName;
-      this._nodesEvents.internalValue = value.nodesEvents;
-      this._subEvents.internalValue = value.subEvents;
-    }
-  }
-
-  // task - computed: true, optional: true, required: false
-  private _task?: string; 
-  public get task() {
-    return this.getStringAttribute('task');
-  }
-  public set task(value: string) {
-    this._task = value;
-  }
-  public resetTask() {
-    this._task = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get taskInput() {
-    return this._task;
-  }
-
-  // task_name - computed: true, optional: true, required: false
-  private _taskName?: string; 
-  public get taskName() {
-    return this.getStringAttribute('task_name');
-  }
-  public set taskName(value: string) {
-    this._taskName = value;
-  }
-  public resetTaskName() {
-    this._taskName = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get taskNameInput() {
-    return this._taskName;
-  }
-
-  // nodes_events - computed: false, optional: true, required: false
-  private _nodesEvents = new SystemreportDryrunInfoUpgradeEventsNodesEventsList(this, "nodes_events", false);
-  public get nodesEvents() {
-    return this._nodesEvents;
-  }
-  public putNodesEvents(value: SystemreportDryrunInfoUpgradeEventsNodesEvents[] | cdktf.IResolvable) {
-    this._nodesEvents.internalValue = value;
-  }
-  public resetNodesEvents() {
-    this._nodesEvents.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nodesEventsInput() {
-    return this._nodesEvents.internalValue;
-  }
-
-  // sub_events - computed: false, optional: true, required: false
-  private _subEvents = new SystemreportDryrunInfoUpgradeEventsSubEventsList(this, "sub_events", false);
-  public get subEvents() {
-    return this._subEvents;
-  }
-  public putSubEvents(value: SystemreportDryrunInfoUpgradeEventsSubEvents[] | cdktf.IResolvable) {
-    this._subEvents.internalValue = value;
-  }
-  public resetSubEvents() {
-    this._subEvents.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get subEventsInput() {
-    return this._subEvents.internalValue;
-  }
-}
-
-export class SystemreportDryrunInfoUpgradeEventsList extends cdktf.ComplexList {
-  public internalValue? : SystemreportDryrunInfoUpgradeEvents[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): SystemreportDryrunInfoUpgradeEventsOutputReference {
-    return new SystemreportDryrunInfoUpgradeEventsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface SystemreportDryrunInfo {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#duration Systemreport#duration}
-  */
-  readonly duration?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#end_time Systemreport#end_time}
-  */
-  readonly endTime?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#operation Systemreport#operation}
-  */
-  readonly operation?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#progress Systemreport#progress}
-  */
-  readonly progress?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#start_time Systemreport#start_time}
-  */
-  readonly startTime?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#tasks_completed Systemreport#tasks_completed}
-  */
-  readonly tasksCompleted?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#total_tasks Systemreport#total_tasks}
-  */
-  readonly totalTasks?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#worker Systemreport#worker}
-  */
-  readonly worker?: string;
-  /**
-  * params block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#params Systemreport#params}
-  */
-  readonly params?: SystemreportDryrunInfoParams[] | cdktf.IResolvable;
-  /**
-  * state block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#state Systemreport#state}
-  */
-  readonly state?: SystemreportDryrunInfoState[] | cdktf.IResolvable;
-  /**
-  * upgrade_events block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#upgrade_events Systemreport#upgrade_events}
-  */
-  readonly upgradeEvents?: SystemreportDryrunInfoUpgradeEvents[] | cdktf.IResolvable;
-}
-
-export function systemreportDryrunInfoToTerraform(struct?: SystemreportDryrunInfo | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    duration: cdktf.stringToTerraform(struct!.duration),
-    end_time: cdktf.stringToTerraform(struct!.endTime),
-    operation: cdktf.stringToTerraform(struct!.operation),
-    progress: cdktf.stringToTerraform(struct!.progress),
-    start_time: cdktf.stringToTerraform(struct!.startTime),
-    tasks_completed: cdktf.stringToTerraform(struct!.tasksCompleted),
-    total_tasks: cdktf.stringToTerraform(struct!.totalTasks),
-    worker: cdktf.stringToTerraform(struct!.worker),
-    params: cdktf.listMapper(systemreportDryrunInfoParamsToTerraform, true)(struct!.params),
-    state: cdktf.listMapper(systemreportDryrunInfoStateToTerraform, true)(struct!.state),
-    upgrade_events: cdktf.listMapper(systemreportDryrunInfoUpgradeEventsToTerraform, true)(struct!.upgradeEvents),
-  }
-}
-
-
-export function systemreportDryrunInfoToHclTerraform(struct?: SystemreportDryrunInfo | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    duration: {
-      value: cdktf.stringToHclTerraform(struct!.duration),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    end_time: {
-      value: cdktf.stringToHclTerraform(struct!.endTime),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    operation: {
-      value: cdktf.stringToHclTerraform(struct!.operation),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    progress: {
-      value: cdktf.stringToHclTerraform(struct!.progress),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    start_time: {
-      value: cdktf.stringToHclTerraform(struct!.startTime),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    tasks_completed: {
-      value: cdktf.stringToHclTerraform(struct!.tasksCompleted),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    total_tasks: {
-      value: cdktf.stringToHclTerraform(struct!.totalTasks),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    worker: {
-      value: cdktf.stringToHclTerraform(struct!.worker),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    params: {
-      value: cdktf.listMapperHcl(systemreportDryrunInfoParamsToHclTerraform, true)(struct!.params),
-      isBlock: true,
-      type: "set",
-      storageClassType: "SystemreportDryrunInfoParamsList",
-    },
-    state: {
-      value: cdktf.listMapperHcl(systemreportDryrunInfoStateToHclTerraform, true)(struct!.state),
-      isBlock: true,
-      type: "set",
-      storageClassType: "SystemreportDryrunInfoStateList",
-    },
-    upgrade_events: {
-      value: cdktf.listMapperHcl(systemreportDryrunInfoUpgradeEventsToHclTerraform, true)(struct!.upgradeEvents),
-      isBlock: true,
-      type: "list",
-      storageClassType: "SystemreportDryrunInfoUpgradeEventsList",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class SystemreportDryrunInfoOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): SystemreportDryrunInfo | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._duration !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.duration = this._duration;
-    }
-    if (this._endTime !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.endTime = this._endTime;
-    }
-    if (this._operation !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.operation = this._operation;
-    }
-    if (this._progress !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.progress = this._progress;
-    }
-    if (this._startTime !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.startTime = this._startTime;
-    }
-    if (this._tasksCompleted !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.tasksCompleted = this._tasksCompleted;
-    }
-    if (this._totalTasks !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.totalTasks = this._totalTasks;
-    }
-    if (this._worker !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.worker = this._worker;
-    }
-    if (this._params?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.params = this._params?.internalValue;
-    }
-    if (this._state?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.state = this._state?.internalValue;
-    }
-    if (this._upgradeEvents?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.upgradeEvents = this._upgradeEvents?.internalValue;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SystemreportDryrunInfo | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._duration = undefined;
-      this._endTime = undefined;
-      this._operation = undefined;
-      this._progress = undefined;
-      this._startTime = undefined;
-      this._tasksCompleted = undefined;
-      this._totalTasks = undefined;
-      this._worker = undefined;
-      this._params.internalValue = undefined;
-      this._state.internalValue = undefined;
-      this._upgradeEvents.internalValue = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._duration = value.duration;
-      this._endTime = value.endTime;
-      this._operation = value.operation;
-      this._progress = value.progress;
-      this._startTime = value.startTime;
-      this._tasksCompleted = value.tasksCompleted;
-      this._totalTasks = value.totalTasks;
-      this._worker = value.worker;
-      this._params.internalValue = value.params;
-      this._state.internalValue = value.state;
-      this._upgradeEvents.internalValue = value.upgradeEvents;
-    }
-  }
-
-  // duration - computed: true, optional: true, required: false
-  private _duration?: string; 
-  public get duration() {
-    return this.getStringAttribute('duration');
-  }
-  public set duration(value: string) {
-    this._duration = value;
-  }
-  public resetDuration() {
-    this._duration = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get durationInput() {
-    return this._duration;
-  }
-
-  // end_time - computed: true, optional: true, required: false
-  private _endTime?: string; 
-  public get endTime() {
-    return this.getStringAttribute('end_time');
-  }
-  public set endTime(value: string) {
-    this._endTime = value;
-  }
-  public resetEndTime() {
-    this._endTime = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get endTimeInput() {
-    return this._endTime;
-  }
-
-  // operation - computed: true, optional: true, required: false
-  private _operation?: string; 
-  public get operation() {
-    return this.getStringAttribute('operation');
-  }
-  public set operation(value: string) {
-    this._operation = value;
-  }
-  public resetOperation() {
-    this._operation = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get operationInput() {
-    return this._operation;
-  }
-
-  // progress - computed: false, optional: true, required: false
-  private _progress?: string; 
-  public get progress() {
-    return this.getStringAttribute('progress');
-  }
-  public set progress(value: string) {
-    this._progress = value;
-  }
-  public resetProgress() {
-    this._progress = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get progressInput() {
-    return this._progress;
-  }
-
-  // start_time - computed: true, optional: true, required: false
-  private _startTime?: string; 
-  public get startTime() {
-    return this.getStringAttribute('start_time');
-  }
-  public set startTime(value: string) {
-    this._startTime = value;
-  }
-  public resetStartTime() {
-    this._startTime = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get startTimeInput() {
-    return this._startTime;
-  }
-
-  // tasks_completed - computed: true, optional: true, required: false
-  private _tasksCompleted?: string; 
-  public get tasksCompleted() {
-    return this.getStringAttribute('tasks_completed');
-  }
-  public set tasksCompleted(value: string) {
-    this._tasksCompleted = value;
-  }
-  public resetTasksCompleted() {
-    this._tasksCompleted = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get tasksCompletedInput() {
-    return this._tasksCompleted;
-  }
-
-  // total_tasks - computed: true, optional: true, required: false
-  private _totalTasks?: string; 
-  public get totalTasks() {
-    return this.getStringAttribute('total_tasks');
-  }
-  public set totalTasks(value: string) {
-    this._totalTasks = value;
-  }
-  public resetTotalTasks() {
-    this._totalTasks = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get totalTasksInput() {
-    return this._totalTasks;
-  }
-
-  // worker - computed: true, optional: true, required: false
-  private _worker?: string; 
-  public get worker() {
-    return this.getStringAttribute('worker');
-  }
-  public set worker(value: string) {
-    this._worker = value;
-  }
-  public resetWorker() {
-    this._worker = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get workerInput() {
-    return this._worker;
-  }
-
-  // params - computed: false, optional: true, required: false
-  private _params = new SystemreportDryrunInfoParamsList(this, "params", true);
-  public get params() {
-    return this._params;
-  }
-  public putParams(value: SystemreportDryrunInfoParams[] | cdktf.IResolvable) {
-    this._params.internalValue = value;
-  }
-  public resetParams() {
-    this._params.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get paramsInput() {
-    return this._params.internalValue;
-  }
-
-  // state - computed: false, optional: true, required: false
-  private _state = new SystemreportDryrunInfoStateList(this, "state", true);
-  public get state() {
-    return this._state;
-  }
-  public putState(value: SystemreportDryrunInfoState[] | cdktf.IResolvable) {
-    this._state.internalValue = value;
-  }
-  public resetState() {
-    this._state.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get stateInput() {
-    return this._state.internalValue;
-  }
-
-  // upgrade_events - computed: false, optional: true, required: false
-  private _upgradeEvents = new SystemreportDryrunInfoUpgradeEventsList(this, "upgrade_events", false);
-  public get upgradeEvents() {
-    return this._upgradeEvents;
-  }
-  public putUpgradeEvents(value: SystemreportDryrunInfoUpgradeEvents[] | cdktf.IResolvable) {
-    this._upgradeEvents.internalValue = value;
-  }
-  public resetUpgradeEvents() {
-    this._upgradeEvents.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get upgradeEventsInput() {
-    return this._upgradeEvents.internalValue;
-  }
-}
-
-export class SystemreportDryrunInfoList extends cdktf.ComplexList {
-  public internalValue? : SystemreportDryrunInfo[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): SystemreportDryrunInfoOutputReference {
-    return new SystemreportDryrunInfoOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
 export interface SystemreportEvents {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#duration Systemreport#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#duration Systemreport#duration}
   */
   readonly duration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#end_time Systemreport#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#end_time Systemreport#end_time}
   */
   readonly endTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#event_name Systemreport#event_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#event_name Systemreport#event_name}
   */
   readonly eventName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#messages Systemreport#messages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#messages Systemreport#messages}
   */
   readonly messages?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#start_time Systemreport#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#start_time Systemreport#start_time}
   */
   readonly startTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#status Systemreport#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#status Systemreport#status}
   */
   readonly status?: string;
 }
@@ -2854,35 +360,35 @@ export class SystemreportEventsList extends cdktf.ComplexList {
 }
 export interface SystemreportReadinessReportsSystemReadinessChecks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#check_code Systemreport#check_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#check_code Systemreport#check_code}
   */
   readonly checkCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#description Systemreport#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#description Systemreport#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#details Systemreport#details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#details Systemreport#details}
   */
   readonly details?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#duration Systemreport#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#duration Systemreport#duration}
   */
   readonly duration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#end_time Systemreport#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#end_time Systemreport#end_time}
   */
   readonly endTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#error_details Systemreport#error_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#error_details Systemreport#error_details}
   */
   readonly errorDetails?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#start_time Systemreport#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#start_time Systemreport#start_time}
   */
   readonly startTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#state Systemreport#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#state Systemreport#state}
   */
   readonly state?: string;
 }
@@ -3201,11 +707,11 @@ export class SystemreportReadinessReportsSystemReadinessChecksList extends cdktf
 }
 export interface SystemreportReadinessReportsSystemReadinessStateLastChangedTime {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#secs Systemreport#secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#secs Systemreport#secs}
   */
   readonly secs: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#usecs Systemreport#usecs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#usecs Systemreport#usecs}
   */
   readonly usecs: string;
 }
@@ -3344,21 +850,21 @@ export class SystemreportReadinessReportsSystemReadinessStateLastChangedTimeList
 }
 export interface SystemreportReadinessReportsSystemReadinessState {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#reason Systemreport#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#reason Systemreport#reason}
   */
   readonly reason?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#rebooted Systemreport#rebooted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#rebooted Systemreport#rebooted}
   */
   readonly rebooted?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#state Systemreport#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#state Systemreport#state}
   */
   readonly state?: string;
   /**
   * last_changed_time block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#last_changed_time Systemreport#last_changed_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#last_changed_time Systemreport#last_changed_time}
   */
   readonly lastChangedTime?: SystemreportReadinessReportsSystemReadinessStateLastChangedTime[] | cdktf.IResolvable;
 }
@@ -3561,51 +1067,47 @@ export class SystemreportReadinessReportsSystemReadinessStateList extends cdktf.
 }
 export interface SystemreportReadinessReportsSystemReadiness {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#checks_completed Systemreport#checks_completed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#checks_completed Systemreport#checks_completed}
   */
   readonly checksCompleted?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#duration Systemreport#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#duration Systemreport#duration}
   */
   readonly duration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#end_time Systemreport#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#end_time Systemreport#end_time}
   */
   readonly endTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#image_ref Systemreport#image_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#image_ref Systemreport#image_ref}
   */
   readonly imageRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#patch_image_ref Systemreport#patch_image_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#patch_image_ref Systemreport#patch_image_ref}
   */
   readonly patchImageRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#progress Systemreport#progress}
-  */
-  readonly progress?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#start_time Systemreport#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#start_time Systemreport#start_time}
   */
   readonly startTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#total_checks Systemreport#total_checks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#total_checks Systemreport#total_checks}
   */
   readonly totalChecks?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#upgrade_ops Systemreport#upgrade_ops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#upgrade_ops Systemreport#upgrade_ops}
   */
   readonly upgradeOps?: string;
   /**
   * checks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#checks Systemreport#checks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#checks Systemreport#checks}
   */
   readonly checks?: SystemreportReadinessReportsSystemReadinessChecks[] | cdktf.IResolvable;
   /**
   * state block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#state Systemreport#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#state Systemreport#state}
   */
   readonly state?: SystemreportReadinessReportsSystemReadinessState[] | cdktf.IResolvable;
 }
@@ -3621,7 +1123,6 @@ export function systemreportReadinessReportsSystemReadinessToTerraform(struct?: 
     end_time: cdktf.stringToTerraform(struct!.endTime),
     image_ref: cdktf.stringToTerraform(struct!.imageRef),
     patch_image_ref: cdktf.stringToTerraform(struct!.patchImageRef),
-    progress: cdktf.stringToTerraform(struct!.progress),
     start_time: cdktf.stringToTerraform(struct!.startTime),
     total_checks: cdktf.stringToTerraform(struct!.totalChecks),
     upgrade_ops: cdktf.stringToTerraform(struct!.upgradeOps),
@@ -3663,12 +1164,6 @@ export function systemreportReadinessReportsSystemReadinessToHclTerraform(struct
     },
     patch_image_ref: {
       value: cdktf.stringToHclTerraform(struct!.patchImageRef),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    progress: {
-      value: cdktf.stringToHclTerraform(struct!.progress),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -3749,10 +1244,6 @@ export class SystemreportReadinessReportsSystemReadinessOutputReference extends 
       hasAnyValues = true;
       internalValueResult.patchImageRef = this._patchImageRef;
     }
-    if (this._progress !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.progress = this._progress;
-    }
     if (this._startTime !== undefined) {
       hasAnyValues = true;
       internalValueResult.startTime = this._startTime;
@@ -3785,7 +1276,6 @@ export class SystemreportReadinessReportsSystemReadinessOutputReference extends 
       this._endTime = undefined;
       this._imageRef = undefined;
       this._patchImageRef = undefined;
-      this._progress = undefined;
       this._startTime = undefined;
       this._totalChecks = undefined;
       this._upgradeOps = undefined;
@@ -3804,7 +1294,6 @@ export class SystemreportReadinessReportsSystemReadinessOutputReference extends 
       this._endTime = value.endTime;
       this._imageRef = value.imageRef;
       this._patchImageRef = value.patchImageRef;
-      this._progress = value.progress;
       this._startTime = value.startTime;
       this._totalChecks = value.totalChecks;
       this._upgradeOps = value.upgradeOps;
@@ -3891,22 +1380,6 @@ export class SystemreportReadinessReportsSystemReadinessOutputReference extends 
   // Temporarily expose input value. Use with caution.
   public get patchImageRefInput() {
     return this._patchImageRef;
-  }
-
-  // progress - computed: false, optional: true, required: false
-  private _progress?: string; 
-  public get progress() {
-    return this.getStringAttribute('progress');
-  }
-  public set progress(value: string) {
-    this._progress = value;
-  }
-  public resetProgress() {
-    this._progress = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get progressInput() {
-    return this._progress;
   }
 
   // start_time - computed: true, optional: true, required: false
@@ -4011,25 +1484,25 @@ export class SystemreportReadinessReportsSystemReadinessList extends cdktf.Compl
 }
 export interface SystemreportReadinessReports {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#name Systemreport#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#name Systemreport#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#node_ref Systemreport#node_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#node_ref Systemreport#node_ref}
   */
   readonly nodeRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#node_type Systemreport#node_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#node_type Systemreport#node_type}
   */
   readonly nodeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#obj_cloud_ref Systemreport#obj_cloud_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#obj_cloud_ref Systemreport#obj_cloud_ref}
   */
   readonly objCloudRef?: string;
   /**
   * system_readiness block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#system_readiness Systemreport#system_readiness}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#system_readiness Systemreport#system_readiness}
   */
   readonly systemReadiness?: SystemreportReadinessReportsSystemReadiness[] | cdktf.IResolvable;
 }
@@ -4261,11 +1734,11 @@ export class SystemreportReadinessReportsList extends cdktf.ComplexList {
 }
 export interface SystemreportStateLastChangedTime {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#secs Systemreport#secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#secs Systemreport#secs}
   */
   readonly secs: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#usecs Systemreport#usecs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#usecs Systemreport#usecs}
   */
   readonly usecs: string;
 }
@@ -4404,17 +1877,17 @@ export class SystemreportStateLastChangedTimeList extends cdktf.ComplexList {
 }
 export interface SystemreportState {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#reason Systemreport#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#reason Systemreport#reason}
   */
   readonly reason?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#state Systemreport#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#state Systemreport#state}
   */
   readonly state?: string;
   /**
   * last_changed_time block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#last_changed_time Systemreport#last_changed_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#last_changed_time Systemreport#last_changed_time}
   */
   readonly lastChangedTime?: SystemreportStateLastChangedTime[] | cdktf.IResolvable;
 }
@@ -4588,15 +2061,15 @@ export class SystemreportStateList extends cdktf.ComplexList {
 }
 export interface SystemreportSummary {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#description Systemreport#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#description Systemreport#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#previews Systemreport#previews}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#previews Systemreport#previews}
   */
   readonly previews?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#title Systemreport#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#title Systemreport#title}
   */
   readonly title?: string;
 }
@@ -4770,35 +2243,35 @@ export class SystemreportSummaryList extends cdktf.ComplexList {
 }
 export interface SystemreportTasksSummary {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#description Systemreport#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#description Systemreport#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#duration Systemreport#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#duration Systemreport#duration}
   */
   readonly duration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#end_time Systemreport#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#end_time Systemreport#end_time}
   */
   readonly endTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#error_count Systemreport#error_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#error_count Systemreport#error_count}
   */
   readonly errorCount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#reason Systemreport#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#reason Systemreport#reason}
   */
   readonly reason?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#start_time Systemreport#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#start_time Systemreport#start_time}
   */
   readonly startTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#status Systemreport#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#status Systemreport#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#type Systemreport#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#type Systemreport#type}
   */
   readonly type: string;
 }
@@ -5114,21 +2587,21 @@ export class SystemreportTasksSummaryList extends cdktf.ComplexList {
 }
 export interface SystemreportTasks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#name Systemreport#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#name Systemreport#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#reason Systemreport#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#reason Systemreport#reason}
   */
   readonly reason?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#task_journal_ref Systemreport#task_journal_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#task_journal_ref Systemreport#task_journal_ref}
   */
   readonly taskJournalRef?: string;
   /**
   * summary block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#summary Systemreport#summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#summary Systemreport#summary}
   */
   readonly summary?: SystemreportTasksSummary[] | cdktf.IResolvable;
 }
@@ -5328,7 +2801,7 @@ export class SystemreportTasksList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport avi_systemreport}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport avi_systemreport}
 */
 export class Systemreport extends cdktf.TerraformResource {
 
@@ -5344,7 +2817,7 @@ export class Systemreport extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Systemreport resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Systemreport to import
-  * @param importFromId The id of the existing Systemreport that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Systemreport that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Systemreport to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5356,7 +2829,7 @@ export class Systemreport extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/systemreport avi_systemreport} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport avi_systemreport} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5367,7 +2840,8 @@ export class Systemreport extends cdktf.TerraformResource {
       terraformResourceType: 'avi_systemreport',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '31.1.1'
+        providerVersion: '30.2.5',
+        providerVersionConstraint: '30.2.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -5383,12 +2857,9 @@ export class Systemreport extends cdktf.TerraformResource {
     this._id = config.id;
     this._imageRef = config.imageRef;
     this._name = config.name;
-    this._operation = config.operation;
     this._sePatchImageRef = config.sePatchImageRef;
     this._tenantRef = config.tenantRef;
-    this._type = config.type;
     this._uuid = config.uuid;
-    this._dryrunInfo.internalValue = config.dryrunInfo;
     this._events.internalValue = config.events;
     this._readinessReports.internalValue = config.readinessReports;
     this._state.internalValue = config.state;
@@ -5496,22 +2967,6 @@ export class Systemreport extends cdktf.TerraformResource {
     return this._name;
   }
 
-  // operation - computed: true, optional: true, required: false
-  private _operation?: string; 
-  public get operation() {
-    return this.getStringAttribute('operation');
-  }
-  public set operation(value: string) {
-    this._operation = value;
-  }
-  public resetOperation() {
-    this._operation = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get operationInput() {
-    return this._operation;
-  }
-
   // se_patch_image_ref - computed: true, optional: true, required: false
   private _sePatchImageRef?: string; 
   public get sePatchImageRef() {
@@ -5544,22 +2999,6 @@ export class Systemreport extends cdktf.TerraformResource {
     return this._tenantRef;
   }
 
-  // type - computed: true, optional: true, required: false
-  private _type?: string; 
-  public get type() {
-    return this.getStringAttribute('type');
-  }
-  public set type(value: string) {
-    this._type = value;
-  }
-  public resetType() {
-    this._type = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get typeInput() {
-    return this._type;
-  }
-
   // uuid - computed: true, optional: true, required: false
   private _uuid?: string; 
   public get uuid() {
@@ -5574,22 +3013,6 @@ export class Systemreport extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get uuidInput() {
     return this._uuid;
-  }
-
-  // dryrun_info - computed: false, optional: true, required: false
-  private _dryrunInfo = new SystemreportDryrunInfoList(this, "dryrun_info", true);
-  public get dryrunInfo() {
-    return this._dryrunInfo;
-  }
-  public putDryrunInfo(value: SystemreportDryrunInfo[] | cdktf.IResolvable) {
-    this._dryrunInfo.internalValue = value;
-  }
-  public resetDryrunInfo() {
-    this._dryrunInfo.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get dryrunInfoInput() {
-    return this._dryrunInfo.internalValue;
   }
 
   // events - computed: false, optional: true, required: false
@@ -5684,12 +3107,9 @@ export class Systemreport extends cdktf.TerraformResource {
       id: cdktf.stringToTerraform(this._id),
       image_ref: cdktf.stringToTerraform(this._imageRef),
       name: cdktf.stringToTerraform(this._name),
-      operation: cdktf.stringToTerraform(this._operation),
       se_patch_image_ref: cdktf.stringToTerraform(this._sePatchImageRef),
       tenant_ref: cdktf.stringToTerraform(this._tenantRef),
-      type: cdktf.stringToTerraform(this._type),
       uuid: cdktf.stringToTerraform(this._uuid),
-      dryrun_info: cdktf.listMapper(systemreportDryrunInfoToTerraform, true)(this._dryrunInfo.internalValue),
       events: cdktf.listMapper(systemreportEventsToTerraform, true)(this._events.internalValue),
       readiness_reports: cdktf.listMapper(systemreportReadinessReportsToTerraform, true)(this._readinessReports.internalValue),
       state: cdktf.listMapper(systemreportStateToTerraform, true)(this._state.internalValue),
@@ -5736,12 +3156,6 @@ export class Systemreport extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
-      operation: {
-        value: cdktf.stringToHclTerraform(this._operation),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
       se_patch_image_ref: {
         value: cdktf.stringToHclTerraform(this._sePatchImageRef),
         isBlock: false,
@@ -5754,23 +3168,11 @@ export class Systemreport extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
-      type: {
-        value: cdktf.stringToHclTerraform(this._type),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
       uuid: {
         value: cdktf.stringToHclTerraform(this._uuid),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
-      },
-      dryrun_info: {
-        value: cdktf.listMapperHcl(systemreportDryrunInfoToHclTerraform, true)(this._dryrunInfo.internalValue),
-        isBlock: true,
-        type: "set",
-        storageClassType: "SystemreportDryrunInfoList",
       },
       events: {
         value: cdktf.listMapperHcl(systemreportEventsToHclTerraform, true)(this._events.internalValue),

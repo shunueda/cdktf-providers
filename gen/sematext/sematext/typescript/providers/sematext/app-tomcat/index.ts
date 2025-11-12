@@ -193,7 +193,8 @@ export class AppTomcat extends cdktf.TerraformResource {
       terraformResourceType: 'sematext_app_tomcat',
       terraformGeneratorMetadata: {
         providerName: 'sematext',
-        providerVersion: '0.6.3'
+        providerVersion: '0.6.3',
+        providerVersionConstraint: '0.6.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

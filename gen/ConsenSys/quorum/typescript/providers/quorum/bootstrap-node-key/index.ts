@@ -56,7 +56,8 @@ export class BootstrapNodeKey extends cdktf.TerraformResource {
       terraformResourceType: 'quorum_bootstrap_node_key',
       terraformGeneratorMetadata: {
         providerName: 'quorum',
-        providerVersion: '0.3.0'
+        providerVersion: '0.3.0',
+        providerVersionConstraint: '0.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

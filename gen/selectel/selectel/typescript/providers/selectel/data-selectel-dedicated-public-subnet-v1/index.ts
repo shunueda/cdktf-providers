@@ -321,7 +321,8 @@ export class DataSelectelDedicatedPublicSubnetV1 extends cdktf.TerraformDataSour
       terraformResourceType: 'selectel_dedicated_public_subnet_v1',
       terraformGeneratorMetadata: {
         providerName: 'selectel',
-        providerVersion: '7.1.0'
+        providerVersion: '7.1.0',
+        providerVersionConstraint: '7.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

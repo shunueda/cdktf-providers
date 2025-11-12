@@ -258,7 +258,8 @@ export class NhncloudProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'nhncloud',
       terraformGeneratorMetadata: {
         providerName: 'nhncloud',
-        providerVersion: '1.0.6'
+        providerVersion: '1.0.6',
+        providerVersionConstraint: '1.0.6'
       },
       terraformProviderSource: 'nhn-cloud/nhncloud'
     });

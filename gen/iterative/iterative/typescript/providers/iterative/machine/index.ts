@@ -253,7 +253,8 @@ export class Machine extends cdktf.TerraformResource {
       terraformResourceType: 'iterative_machine',
       terraformGeneratorMetadata: {
         providerName: 'iterative',
-        providerVersion: '0.11.20'
+        providerVersion: '0.11.20',
+        providerVersionConstraint: '0.11.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

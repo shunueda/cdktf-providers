@@ -68,7 +68,8 @@ export class DataOktapamProjectGroup extends cdktf.TerraformDataSource {
       terraformResourceType: 'oktapam_project_group',
       terraformGeneratorMetadata: {
         providerName: 'oktapam',
-        providerVersion: '0.6.2'
+        providerVersion: '0.6.2',
+        providerVersionConstraint: '0.6.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

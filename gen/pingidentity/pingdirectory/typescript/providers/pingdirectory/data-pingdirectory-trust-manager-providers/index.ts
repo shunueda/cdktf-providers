@@ -135,7 +135,8 @@ export class DataPingdirectoryTrustManagerProviders extends cdktf.TerraformDataS
       terraformResourceType: 'pingdirectory_trust_manager_providers',
       terraformGeneratorMetadata: {
         providerName: 'pingdirectory',
-        providerVersion: '1.5.0'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

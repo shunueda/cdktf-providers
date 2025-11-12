@@ -147,7 +147,8 @@ export class S3BucketOwnershipControls extends cdktf.TerraformResource {
       terraformResourceType: 'aws_s3_bucket_ownership_controls',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '3.29.6'
+        providerVersion: '3.29.6',
+        providerVersionConstraint: '3.29.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

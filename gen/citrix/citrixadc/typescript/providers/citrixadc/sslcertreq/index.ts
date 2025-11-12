@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslcertreq
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertreq
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,80 +8,80 @@ import * as cdktf from 'cdktf';
 
 export interface SslcertreqConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslcertreq#challengepassword Sslcertreq#challengepassword}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertreq#challengepassword Sslcertreq#challengepassword}
   */
   readonly challengepassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslcertreq#commonname Sslcertreq#commonname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertreq#commonname Sslcertreq#commonname}
   */
   readonly commonname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslcertreq#companyname Sslcertreq#companyname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertreq#companyname Sslcertreq#companyname}
   */
   readonly companyname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslcertreq#countryname Sslcertreq#countryname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertreq#countryname Sslcertreq#countryname}
   */
   readonly countryname: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslcertreq#digestmethod Sslcertreq#digestmethod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertreq#digestmethod Sslcertreq#digestmethod}
   */
   readonly digestmethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslcertreq#emailaddress Sslcertreq#emailaddress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertreq#emailaddress Sslcertreq#emailaddress}
   */
   readonly emailaddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslcertreq#fipskeyname Sslcertreq#fipskeyname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertreq#fipskeyname Sslcertreq#fipskeyname}
   */
   readonly fipskeyname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslcertreq#id Sslcertreq#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertreq#id Sslcertreq#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslcertreq#keyfile Sslcertreq#keyfile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertreq#keyfile Sslcertreq#keyfile}
   */
   readonly keyfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslcertreq#keyform Sslcertreq#keyform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertreq#keyform Sslcertreq#keyform}
   */
   readonly keyform?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslcertreq#localityname Sslcertreq#localityname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertreq#localityname Sslcertreq#localityname}
   */
   readonly localityname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslcertreq#organizationname Sslcertreq#organizationname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertreq#organizationname Sslcertreq#organizationname}
   */
   readonly organizationname: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslcertreq#organizationunitname Sslcertreq#organizationunitname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertreq#organizationunitname Sslcertreq#organizationunitname}
   */
   readonly organizationunitname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslcertreq#pempassphrase Sslcertreq#pempassphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertreq#pempassphrase Sslcertreq#pempassphrase}
   */
   readonly pempassphrase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslcertreq#reqfile Sslcertreq#reqfile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertreq#reqfile Sslcertreq#reqfile}
   */
   readonly reqfile: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslcertreq#statename Sslcertreq#statename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertreq#statename Sslcertreq#statename}
   */
   readonly statename: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslcertreq#subjectaltname Sslcertreq#subjectaltname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertreq#subjectaltname Sslcertreq#subjectaltname}
   */
   readonly subjectaltname?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslcertreq citrixadc_sslcertreq}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertreq citrixadc_sslcertreq}
 */
 export class Sslcertreq extends cdktf.TerraformResource {
 
@@ -97,7 +97,7 @@ export class Sslcertreq extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Sslcertreq resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Sslcertreq to import
-  * @param importFromId The id of the existing Sslcertreq that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslcertreq#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Sslcertreq that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertreq#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Sslcertreq to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -109,7 +109,7 @@ export class Sslcertreq extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslcertreq citrixadc_sslcertreq} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertreq citrixadc_sslcertreq} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -120,7 +120,8 @@ export class Sslcertreq extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_sslcertreq',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

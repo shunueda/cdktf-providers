@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/data-sources/load_balancer
+// https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/data-sources/load_balancer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,18 +8,18 @@ import * as cdktf from 'cdktf';
 
 export interface DataHcloudLoadBalancerConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/data-sources/load_balancer#id DataHcloudLoadBalancer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/data-sources/load_balancer#id DataHcloudLoadBalancer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/data-sources/load_balancer#name DataHcloudLoadBalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/data-sources/load_balancer#name DataHcloudLoadBalancer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/data-sources/load_balancer#with_selector DataHcloudLoadBalancer#with_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/data-sources/load_balancer#with_selector DataHcloudLoadBalancer#with_selector}
   */
   readonly withSelector?: string;
 }
@@ -578,7 +578,7 @@ export class DataHcloudLoadBalancerTargetList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/data-sources/load_balancer hcloud_load_balancer}
+* Represents a {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/data-sources/load_balancer hcloud_load_balancer}
 */
 export class DataHcloudLoadBalancer extends cdktf.TerraformDataSource {
 
@@ -594,7 +594,7 @@ export class DataHcloudLoadBalancer extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataHcloudLoadBalancer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHcloudLoadBalancer to import
-  * @param importFromId The id of the existing DataHcloudLoadBalancer that should be imported. Refer to the {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/data-sources/load_balancer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHcloudLoadBalancer that should be imported. Refer to the {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/data-sources/load_balancer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHcloudLoadBalancer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -606,7 +606,7 @@ export class DataHcloudLoadBalancer extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/data-sources/load_balancer hcloud_load_balancer} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/data-sources/load_balancer hcloud_load_balancer} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -617,7 +617,8 @@ export class DataHcloudLoadBalancer extends cdktf.TerraformDataSource {
       terraformResourceType: 'hcloud_load_balancer',
       terraformGeneratorMetadata: {
         providerName: 'hcloud',
-        providerVersion: '1.55.0'
+        providerVersion: '1.56.0',
+        providerVersionConstraint: '1.56.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

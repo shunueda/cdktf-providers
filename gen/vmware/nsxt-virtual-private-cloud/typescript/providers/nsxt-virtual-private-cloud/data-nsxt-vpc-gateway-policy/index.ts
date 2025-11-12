@@ -192,7 +192,8 @@ export class DataNsxtVpcGatewayPolicy extends cdktf.TerraformDataSource {
       terraformResourceType: 'nsxt_vpc_gateway_policy',
       terraformGeneratorMetadata: {
         providerName: 'nsxt-virtual-private-cloud',
-        providerVersion: '1.0.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

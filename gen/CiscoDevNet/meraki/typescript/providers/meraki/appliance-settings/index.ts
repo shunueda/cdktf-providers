@@ -81,7 +81,8 @@ export class ApplianceSettings extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_appliance_settings',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1'
+        providerVersion: '1.7.1',
+        providerVersionConstraint: '1.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

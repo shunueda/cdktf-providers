@@ -59,7 +59,8 @@ export class SshkeyProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'sshkey',
       terraformGeneratorMetadata: {
         providerName: 'sshkey',
-        providerVersion: '0.2.1'
+        providerVersion: '0.2.1',
+        providerVersionConstraint: '0.2.1'
       },
       terraformProviderSource: 'daveadams/sshkey'
     });

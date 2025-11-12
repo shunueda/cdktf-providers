@@ -4094,7 +4094,8 @@ export class DataIntersightNiatelemetryFault extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_niatelemetry_fault',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

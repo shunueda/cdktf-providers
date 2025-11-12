@@ -74,7 +74,8 @@ export class DataAkamaiAppsecCustomRuleActions extends cdktf.TerraformDataSource
       terraformResourceType: 'akamai_appsec_custom_rule_actions',
       terraformGeneratorMetadata: {
         providerName: 'akamai',
-        providerVersion: '9.1.0'
+        providerVersion: '9.1.0',
+        providerVersionConstraint: '9.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

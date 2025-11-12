@@ -99,7 +99,8 @@ export class ApigeeProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'apigee',
       terraformGeneratorMetadata: {
         providerName: 'apigee',
-        providerVersion: '0.1.53'
+        providerVersion: '0.1.53',
+        providerVersionConstraint: '0.1.53'
       },
       terraformProviderSource: 'scastria/apigee'
     });

@@ -300,7 +300,8 @@ export class Integration extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_integration',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.70.0'
+        providerVersion: '1.70.0',
+        providerVersionConstraint: '1.70.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

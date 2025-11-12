@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_type_keywords
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_type_keywords
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface ManagementDataTypeKeywordsConfig extends cdktf.TerraformMetaArg
   /**
   * Color of the object. Should be one of existing colors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_type_keywords#color ManagementDataTypeKeywords#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_type_keywords#color ManagementDataTypeKeywords#color}
   */
   readonly color?: string;
   /**
   * Comments string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_type_keywords#comments ManagementDataTypeKeywords#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_type_keywords#comments ManagementDataTypeKeywords#comments}
   */
   readonly comments?: string;
   /**
   * If set to all-keywords - the data will be matched to the rule only if all the words in the list appear in the data contents. When set to min-keywords any number of the words may appear according to configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_type_keywords#data_match_threshold ManagementDataTypeKeywords#data_match_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_type_keywords#data_match_threshold ManagementDataTypeKeywords#data_match_threshold}
   */
   readonly dataMatchThreshold?: string;
   /**
   * For built-in data types, the description explains the purpose of this type of data representation. For custom-made data types, you can use this field to provide more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_type_keywords#description ManagementDataTypeKeywords#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_type_keywords#description ManagementDataTypeKeywords#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_type_keywords#id ManagementDataTypeKeywords#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_type_keywords#id ManagementDataTypeKeywords#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,43 +41,43 @@ export interface ManagementDataTypeKeywordsConfig extends cdktf.TerraformMetaArg
   /**
   * Apply changes ignoring errors. You won't be able to publish such a changes. If ignore-warnings flag was omitted - warnings will also be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_type_keywords#ignore_errors ManagementDataTypeKeywords#ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_type_keywords#ignore_errors ManagementDataTypeKeywords#ignore_errors}
   */
   readonly ignoreErrors?: boolean | cdktf.IResolvable;
   /**
   * Apply changes ignoring warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_type_keywords#ignore_warnings ManagementDataTypeKeywords#ignore_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_type_keywords#ignore_warnings ManagementDataTypeKeywords#ignore_warnings}
   */
   readonly ignoreWarnings?: boolean | cdktf.IResolvable;
   /**
   * Specify keywords or phrases to search for. cannot be empty
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_type_keywords#keywords ManagementDataTypeKeywords#keywords}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_type_keywords#keywords ManagementDataTypeKeywords#keywords}
   */
   readonly keywords?: string[];
   /**
   * Define how many of the words in the list must appear in the contents of the data to match the rule. min value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_type_keywords#min_number_of_keywords ManagementDataTypeKeywords#min_number_of_keywords}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_type_keywords#min_number_of_keywords ManagementDataTypeKeywords#min_number_of_keywords}
   */
   readonly minNumberOfKeywords?: number;
   /**
   * Object name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_type_keywords#name ManagementDataTypeKeywords#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_type_keywords#name ManagementDataTypeKeywords#name}
   */
   readonly name: string;
   /**
   * Collection of tag identifiers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_type_keywords#tags ManagementDataTypeKeywords#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_type_keywords#tags ManagementDataTypeKeywords#tags}
   */
   readonly tags?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_type_keywords checkpoint_management_data_type_keywords}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_type_keywords checkpoint_management_data_type_keywords}
 */
 export class ManagementDataTypeKeywords extends cdktf.TerraformResource {
 
@@ -93,7 +93,7 @@ export class ManagementDataTypeKeywords extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementDataTypeKeywords resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementDataTypeKeywords to import
-  * @param importFromId The id of the existing ManagementDataTypeKeywords that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_type_keywords#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementDataTypeKeywords that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_type_keywords#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementDataTypeKeywords to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -105,7 +105,7 @@ export class ManagementDataTypeKeywords extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_type_keywords checkpoint_management_data_type_keywords} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_type_keywords checkpoint_management_data_type_keywords} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -116,7 +116,8 @@ export class ManagementDataTypeKeywords extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_data_type_keywords',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

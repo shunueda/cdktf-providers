@@ -76,7 +76,8 @@ export class DataNsxtManagerClusterNode extends cdktf.TerraformDataSource {
       terraformResourceType: 'nsxt_manager_cluster_node',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0'
+        providerVersion: '3.10.0',
+        providerVersionConstraint: '3.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

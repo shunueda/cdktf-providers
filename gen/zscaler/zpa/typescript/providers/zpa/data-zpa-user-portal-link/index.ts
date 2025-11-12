@@ -149,7 +149,8 @@ export class DataZpaUserPortalLink extends cdktf.TerraformDataSource {
       terraformResourceType: 'zpa_user_portal_link',
       terraformGeneratorMetadata: {
         providerName: 'zpa',
-        providerVersion: '4.3.2'
+        providerVersion: '4.3.2',
+        providerVersionConstraint: '4.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

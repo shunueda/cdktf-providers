@@ -68,7 +68,8 @@ export class DataKubectlKustomizeDocuments extends cdktf.TerraformDataSource {
       terraformResourceType: 'kubectl_kustomize_documents',
       terraformGeneratorMetadata: {
         providerName: 'kubectl',
-        providerVersion: '1.19.0'
+        providerVersion: '1.19.0',
+        providerVersionConstraint: '1.19.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

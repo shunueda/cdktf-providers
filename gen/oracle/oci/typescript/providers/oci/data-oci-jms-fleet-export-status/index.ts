@@ -60,7 +60,8 @@ export class DataOciJmsFleetExportStatus extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_jms_fleet_export_status',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

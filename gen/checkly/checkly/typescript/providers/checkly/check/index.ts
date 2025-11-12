@@ -2858,7 +2858,8 @@ export class Check extends cdktf.TerraformResource {
       terraformResourceType: 'checkly_check',
       terraformGeneratorMetadata: {
         providerName: 'checkly',
-        providerVersion: '1.16.0'
+        providerVersion: '1.16.0',
+        providerVersionConstraint: '1.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

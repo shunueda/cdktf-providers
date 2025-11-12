@@ -160,7 +160,8 @@ export class DataKeycloakClientDescriptionConverter extends cdktf.TerraformDataS
       terraformResourceType: 'keycloak_client_description_converter',
       terraformGeneratorMetadata: {
         providerName: 'keycloak',
-        providerVersion: '5.5.0'
+        providerVersion: '5.5.0',
+        providerVersionConstraint: '5.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

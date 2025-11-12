@@ -71,7 +71,8 @@ export class CiscoasaProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'ciscoasa',
       terraformGeneratorMetadata: {
         providerName: 'ciscoasa',
-        providerVersion: '1.3.0'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       terraformProviderSource: 'CiscoDevNet/ciscoasa'
     });

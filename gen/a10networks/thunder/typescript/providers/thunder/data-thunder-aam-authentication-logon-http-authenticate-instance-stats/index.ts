@@ -224,7 +224,8 @@ export class DataThunderAamAuthenticationLogonHttpAuthenticateInstanceStats exte
       terraformResourceType: 'thunder_aam_authentication_logon_http_authenticate_instance_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

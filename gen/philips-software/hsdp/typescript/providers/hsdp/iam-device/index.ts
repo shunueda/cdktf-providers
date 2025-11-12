@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_device
+// https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_device
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface IamDeviceConfig extends cdktf.TerraformMetaArguments {
   /**
   * The application ID (GUID) this device should be attached to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_device#application_id IamDevice#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_device#application_id IamDevice#application_id}
   */
   readonly applicationId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_device#debug_until IamDevice#debug_until}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_device#debug_until IamDevice#debug_until}
   */
   readonly debugUntil?: string;
   /**
   * When set to true this device is marked as a test device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_device#for_test IamDevice#for_test}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_device#for_test IamDevice#for_test}
   */
   readonly forTest?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_device#global_reference_id IamDevice#global_reference_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_device#global_reference_id IamDevice#global_reference_id}
   */
   readonly globalReferenceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_device#id IamDevice#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_device#id IamDevice#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -37,45 +37,45 @@ export interface IamDeviceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Controls if this device is active or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_device#is_active IamDevice#is_active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_device#is_active IamDevice#is_active}
   */
   readonly isActive?: boolean | cdktf.IResolvable;
   /**
   * The login id of the device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_device#login_id IamDevice#login_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_device#login_id IamDevice#login_id}
   */
   readonly loginId: string;
   /**
   * The organization ID (GUID) this device should be attached to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_device#organization_id IamDevice#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_device#organization_id IamDevice#organization_id}
   */
   readonly organizationId: string;
   /**
   * The password of the device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_device#password IamDevice#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_device#password IamDevice#password}
   */
   readonly password: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_device#type IamDevice#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_device#type IamDevice#type}
   */
   readonly type: string;
   /**
   * external_identifier block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_device#external_identifier IamDevice#external_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_device#external_identifier IamDevice#external_identifier}
   */
   readonly externalIdentifier?: IamDeviceExternalIdentifier;
 }
 export interface IamDeviceExternalIdentifierType {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_device#code IamDevice#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_device#code IamDevice#code}
   */
   readonly code: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_device#text IamDevice#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_device#text IamDevice#text}
   */
   readonly text?: string;
 }
@@ -185,17 +185,17 @@ export class IamDeviceExternalIdentifierTypeOutputReference extends cdktf.Comple
 }
 export interface IamDeviceExternalIdentifier {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_device#system IamDevice#system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_device#system IamDevice#system}
   */
   readonly systemAttribute: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_device#value IamDevice#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_device#value IamDevice#value}
   */
   readonly value: string;
   /**
   * type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_device#type IamDevice#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_device#type IamDevice#type}
   */
   readonly type?: IamDeviceExternalIdentifierType;
 }
@@ -331,7 +331,7 @@ export class IamDeviceExternalIdentifierOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_device hsdp_iam_device}
+* Represents a {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_device hsdp_iam_device}
 */
 export class IamDevice extends cdktf.TerraformResource {
 
@@ -347,7 +347,7 @@ export class IamDevice extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IamDevice resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IamDevice to import
-  * @param importFromId The id of the existing IamDevice that should be imported. Refer to the {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_device#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IamDevice that should be imported. Refer to the {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_device#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IamDevice to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -359,7 +359,7 @@ export class IamDevice extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_device hsdp_iam_device} Resource
+  * Create a new {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_device hsdp_iam_device} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -370,7 +370,8 @@ export class IamDevice extends cdktf.TerraformResource {
       terraformResourceType: 'hsdp_iam_device',
       terraformGeneratorMetadata: {
         providerName: 'hsdp',
-        providerVersion: '0.70.0'
+        providerVersion: '0.71.0',
+        providerVersionConstraint: '0.71.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

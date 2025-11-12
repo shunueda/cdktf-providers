@@ -61,7 +61,8 @@ export class CloudscaleProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'cloudscale',
       terraformGeneratorMetadata: {
         providerName: 'cloudscale',
-        providerVersion: '5.0.0'
+        providerVersion: '5.0.0',
+        providerVersionConstraint: '5.0.0'
       },
       terraformProviderSource: 'cloudscale-ch/cloudscale'
     });

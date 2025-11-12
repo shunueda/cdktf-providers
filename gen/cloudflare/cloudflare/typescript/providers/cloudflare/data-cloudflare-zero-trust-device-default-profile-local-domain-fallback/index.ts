@@ -53,7 +53,8 @@ export class DataCloudflareZeroTrustDeviceDefaultProfileLocalDomainFallback exte
       terraformResourceType: 'cloudflare_zero_trust_device_default_profile_local_domain_fallback',
       terraformGeneratorMetadata: {
         providerName: 'cloudflare',
-        providerVersion: '5.12.0'
+        providerVersion: '5.12.0',
+        providerVersionConstraint: '5.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -97,7 +97,8 @@ export class DcnmProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'dcnm',
       terraformGeneratorMetadata: {
         providerName: 'dcnm',
-        providerVersion: '1.2.7'
+        providerVersion: '1.2.7',
+        providerVersionConstraint: '1.2.7'
       },
       terraformProviderSource: 'CiscoDevNet/dcnm'
     });

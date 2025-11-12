@@ -3272,7 +3272,8 @@ export class MysqlMysqlDbSystem extends cdktf.TerraformResource {
       terraformResourceType: 'oci_mysql_mysql_db_system',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

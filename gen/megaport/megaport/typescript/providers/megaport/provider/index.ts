@@ -89,7 +89,8 @@ export class MegaportProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'megaport',
       terraformGeneratorMetadata: {
         providerName: 'megaport',
-        providerVersion: '1.4.6'
+        providerVersion: '1.4.6',
+        providerVersionConstraint: '1.4.6'
       },
       terraformProviderSource: 'megaport/megaport'
     });

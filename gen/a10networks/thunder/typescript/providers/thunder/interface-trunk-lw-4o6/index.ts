@@ -80,7 +80,8 @@ export class InterfaceTrunkLw4O6A extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_interface_trunk_lw_4o6',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

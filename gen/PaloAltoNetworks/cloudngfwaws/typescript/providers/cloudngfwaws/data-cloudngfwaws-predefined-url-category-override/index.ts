@@ -74,7 +74,8 @@ export class DataCloudngfwawsPredefinedUrlCategoryOverride extends cdktf.Terrafo
       terraformResourceType: 'cloudngfwaws_predefined_url_category_override',
       terraformGeneratorMetadata: {
         providerName: 'cloudngfwaws',
-        providerVersion: '3.0.4'
+        providerVersion: '3.0.4',
+        providerVersionConstraint: '3.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -439,7 +439,8 @@ export class SslCheck extends cdktf.TerraformResource {
       terraformResourceType: 'statuscake_ssl_check',
       terraformGeneratorMetadata: {
         providerName: 'statuscake',
-        providerVersion: '2.2.2'
+        providerVersion: '2.2.2',
+        providerVersionConstraint: '2.2.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

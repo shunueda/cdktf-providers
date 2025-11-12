@@ -480,7 +480,8 @@ export class KubernetesNodePool extends cdktf.TerraformResource {
       terraformResourceType: 'multy_kubernetes_node_pool',
       terraformGeneratorMetadata: {
         providerName: 'multy',
-        providerVersion: '0.0.16'
+        providerVersion: '0.0.16',
+        providerVersionConstraint: '0.0.16'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

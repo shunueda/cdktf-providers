@@ -86,7 +86,8 @@ export class FabricL2VirtualNetwork extends cdktf.TerraformResource {
       terraformResourceType: 'catalystcenter_fabric_l2_virtual_network',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.2'
+        providerVersion: '0.4.2',
+        providerVersionConstraint: '0.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

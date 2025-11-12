@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/clusternode
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/clusternode
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,52 +8,56 @@ import * as cdktf from 'cdktf';
 
 export interface ClusternodeConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/clusternode#backplane Clusternode#backplane}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/clusternode#backplane Clusternode#backplane}
   */
   readonly backplane?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/clusternode#clearnodegroupconfig Clusternode#clearnodegroupconfig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/clusternode#clearnodegroupconfig Clusternode#clearnodegroupconfig}
   */
   readonly clearnodegroupconfig?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/clusternode#delay Clusternode#delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/clusternode#delay Clusternode#delay}
   */
   readonly delay?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/clusternode#id Clusternode#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/clusternode#force Clusternode#force}
+  */
+  readonly force?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/clusternode#id Clusternode#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/clusternode#ipaddress Clusternode#ipaddress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/clusternode#ipaddress Clusternode#ipaddress}
   */
   readonly ipaddress: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/clusternode#nodegroup Clusternode#nodegroup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/clusternode#nodegroup Clusternode#nodegroup}
   */
   readonly nodegroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/clusternode#nodeid Clusternode#nodeid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/clusternode#nodeid Clusternode#nodeid}
   */
   readonly nodeid: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/clusternode#priority Clusternode#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/clusternode#priority Clusternode#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/clusternode#state Clusternode#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/clusternode#state Clusternode#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/clusternode#tunnelmode Clusternode#tunnelmode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/clusternode#tunnelmode Clusternode#tunnelmode}
   */
   readonly tunnelmode?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/clusternode citrixadc_clusternode}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/clusternode citrixadc_clusternode}
 */
 export class Clusternode extends cdktf.TerraformResource {
 
@@ -69,7 +73,7 @@ export class Clusternode extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Clusternode resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Clusternode to import
-  * @param importFromId The id of the existing Clusternode that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/clusternode#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Clusternode that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/clusternode#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Clusternode to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +85,7 @@ export class Clusternode extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/clusternode citrixadc_clusternode} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/clusternode citrixadc_clusternode} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,7 +96,8 @@ export class Clusternode extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_clusternode',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -105,6 +110,7 @@ export class Clusternode extends cdktf.TerraformResource {
     this._backplane = config.backplane;
     this._clearnodegroupconfig = config.clearnodegroupconfig;
     this._delay = config.delay;
+    this._force = config.force;
     this._id = config.id;
     this._ipaddress = config.ipaddress;
     this._nodegroup = config.nodegroup;
@@ -164,6 +170,22 @@ export class Clusternode extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get delayInput() {
     return this._delay;
+  }
+
+  // force - computed: true, optional: true, required: false
+  private _force?: boolean | cdktf.IResolvable; 
+  public get force() {
+    return this.getBooleanAttribute('force');
+  }
+  public set force(value: boolean | cdktf.IResolvable) {
+    this._force = value;
+  }
+  public resetForce() {
+    this._force = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get forceInput() {
+    return this._force;
   }
 
   // id - computed: true, optional: true, required: false
@@ -281,6 +303,7 @@ export class Clusternode extends cdktf.TerraformResource {
       backplane: cdktf.stringToTerraform(this._backplane),
       clearnodegroupconfig: cdktf.stringToTerraform(this._clearnodegroupconfig),
       delay: cdktf.numberToTerraform(this._delay),
+      force: cdktf.booleanToTerraform(this._force),
       id: cdktf.stringToTerraform(this._id),
       ipaddress: cdktf.stringToTerraform(this._ipaddress),
       nodegroup: cdktf.stringToTerraform(this._nodegroup),
@@ -310,6 +333,12 @@ export class Clusternode extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "number",
+      },
+      force: {
+        value: cdktf.booleanToHclTerraform(this._force),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
       },
       id: {
         value: cdktf.stringToHclTerraform(this._id),

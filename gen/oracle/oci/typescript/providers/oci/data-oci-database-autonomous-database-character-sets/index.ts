@@ -325,7 +325,8 @@ export class DataOciDatabaseAutonomousDatabaseCharacterSets extends cdktf.Terraf
       terraformResourceType: 'oci_database_autonomous_database_character_sets',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

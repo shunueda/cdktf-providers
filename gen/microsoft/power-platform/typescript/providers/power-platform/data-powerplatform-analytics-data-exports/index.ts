@@ -335,7 +335,8 @@ export class DataPowerplatformAnalyticsDataExports extends cdktf.TerraformDataSo
       terraformResourceType: 'powerplatform_analytics_data_exports',
       terraformGeneratorMetadata: {
         providerName: 'power-platform',
-        providerVersion: '3.9.1'
+        providerVersion: '3.9.1',
+        providerVersionConstraint: '3.9.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

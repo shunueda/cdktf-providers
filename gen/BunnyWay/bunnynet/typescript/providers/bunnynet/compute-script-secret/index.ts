@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/resources/compute_script_secret
+// https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_script_secret
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface ComputeScriptSecretConfig extends cdktf.TerraformMetaArguments 
   /**
   * The name of the secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/resources/compute_script_secret#name ComputeScriptSecret#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_script_secret#name ComputeScriptSecret#name}
   */
   readonly name: string;
   /**
   * The ID of the associated compute script.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/resources/compute_script_secret#script ComputeScriptSecret#script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_script_secret#script ComputeScriptSecret#script}
   */
   readonly script: number;
   /**
   * The value of the secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/resources/compute_script_secret#value ComputeScriptSecret#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_script_secret#value ComputeScriptSecret#value}
   */
   readonly value: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/resources/compute_script_secret bunnynet_compute_script_secret}
+* Represents a {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_script_secret bunnynet_compute_script_secret}
 */
 export class ComputeScriptSecret extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class ComputeScriptSecret extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ComputeScriptSecret resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ComputeScriptSecret to import
-  * @param importFromId The id of the existing ComputeScriptSecret that should be imported. Refer to the {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/resources/compute_script_secret#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ComputeScriptSecret that should be imported. Refer to the {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_script_secret#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ComputeScriptSecret to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class ComputeScriptSecret extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/resources/compute_script_secret bunnynet_compute_script_secret} Resource
+  * Create a new {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/compute_script_secret bunnynet_compute_script_secret} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,7 +67,8 @@ export class ComputeScriptSecret extends cdktf.TerraformResource {
       terraformResourceType: 'bunnynet_compute_script_secret',
       terraformGeneratorMetadata: {
         providerName: 'bunnynet',
-        providerVersion: '0.11.0'
+        providerVersion: '0.11.1',
+        providerVersionConstraint: '0.11.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

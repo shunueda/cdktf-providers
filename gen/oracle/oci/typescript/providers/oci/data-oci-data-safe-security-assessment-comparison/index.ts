@@ -4414,7 +4414,8 @@ export class DataOciDataSafeSecurityAssessmentComparison extends cdktf.Terraform
       terraformResourceType: 'oci_data_safe_security_assessment_comparison',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

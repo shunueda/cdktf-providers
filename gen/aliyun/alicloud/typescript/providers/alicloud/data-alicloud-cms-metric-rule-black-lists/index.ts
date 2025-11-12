@@ -313,7 +313,8 @@ export class DataAlicloudCmsMetricRuleBlackLists extends cdktf.TerraformDataSour
       terraformResourceType: 'alicloud_cms_metric_rule_black_lists',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

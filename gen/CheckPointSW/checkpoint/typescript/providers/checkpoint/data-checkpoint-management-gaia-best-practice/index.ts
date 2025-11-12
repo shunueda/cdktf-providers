@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_gaia_best_practice
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_gaia_best_practice
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataCheckpointManagementGaiaBestPracticeConfig extends cdktf.Te
   /**
   * Best Practice ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_gaia_best_practice#best_practice_id DataCheckpointManagementGaiaBestPractice#best_practice_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_gaia_best_practice#best_practice_id DataCheckpointManagementGaiaBestPractice#best_practice_id}
   */
   readonly bestPracticeId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_gaia_best_practice#id DataCheckpointManagementGaiaBestPractice#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_gaia_best_practice#id DataCheckpointManagementGaiaBestPractice#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface DataCheckpointManagementGaiaBestPracticeConfig extends cdktf.Te
   /**
   * Best Practice Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_gaia_best_practice#name DataCheckpointManagementGaiaBestPractice#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_gaia_best_practice#name DataCheckpointManagementGaiaBestPractice#name}
   */
   readonly name?: string;
   /**
   * Best Practice UID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_gaia_best_practice#uid DataCheckpointManagementGaiaBestPractice#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_gaia_best_practice#uid DataCheckpointManagementGaiaBestPractice#uid}
   */
   readonly uid?: string;
 }
@@ -215,7 +215,7 @@ export class DataCheckpointManagementGaiaBestPracticeRelevantObjectsList extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_gaia_best_practice checkpoint_management_gaia_best_practice}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_gaia_best_practice checkpoint_management_gaia_best_practice}
 */
 export class DataCheckpointManagementGaiaBestPractice extends cdktf.TerraformDataSource {
 
@@ -231,7 +231,7 @@ export class DataCheckpointManagementGaiaBestPractice extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataCheckpointManagementGaiaBestPractice resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCheckpointManagementGaiaBestPractice to import
-  * @param importFromId The id of the existing DataCheckpointManagementGaiaBestPractice that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_gaia_best_practice#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCheckpointManagementGaiaBestPractice that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_gaia_best_practice#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCheckpointManagementGaiaBestPractice to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -243,7 +243,7 @@ export class DataCheckpointManagementGaiaBestPractice extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_gaia_best_practice checkpoint_management_gaia_best_practice} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_gaia_best_practice checkpoint_management_gaia_best_practice} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -254,7 +254,8 @@ export class DataCheckpointManagementGaiaBestPractice extends cdktf.TerraformDat
       terraformResourceType: 'checkpoint_management_gaia_best_practice',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

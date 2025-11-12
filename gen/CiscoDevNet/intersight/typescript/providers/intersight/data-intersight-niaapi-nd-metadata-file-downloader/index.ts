@@ -3666,7 +3666,8 @@ export class DataIntersightNiaapiNdMetadataFileDownloader extends cdktf.Terrafor
       terraformResourceType: 'intersight_niaapi_nd_metadata_file_downloader',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

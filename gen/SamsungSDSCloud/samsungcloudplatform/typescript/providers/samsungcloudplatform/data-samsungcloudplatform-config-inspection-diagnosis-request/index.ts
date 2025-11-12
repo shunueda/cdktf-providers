@@ -92,7 +92,8 @@ export class DataSamsungcloudplatformConfigInspectionDiagnosisRequest extends cd
       terraformResourceType: 'samsungcloudplatform_config_inspection_diagnosis_request',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0'
+        providerVersion: '3.15.0',
+        providerVersionConstraint: '3.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

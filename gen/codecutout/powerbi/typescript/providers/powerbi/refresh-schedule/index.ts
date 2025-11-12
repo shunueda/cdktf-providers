@@ -98,7 +98,8 @@ export class RefreshSchedule extends cdktf.TerraformResource {
       terraformResourceType: 'powerbi_refresh_schedule',
       terraformGeneratorMetadata: {
         providerName: 'powerbi',
-        providerVersion: '1.4.1'
+        providerVersion: '1.4.1',
+        providerVersionConstraint: '1.4.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

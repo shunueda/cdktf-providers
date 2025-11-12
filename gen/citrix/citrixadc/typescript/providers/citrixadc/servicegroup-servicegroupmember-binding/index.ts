@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/servicegroup_servicegroupmember_binding
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/servicegroup_servicegroupmember_binding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,64 +8,68 @@ import * as cdktf from 'cdktf';
 
 export interface ServicegroupServicegroupmemberBindingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/servicegroup_servicegroupmember_binding#customserverid ServicegroupServicegroupmemberBinding#customserverid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/servicegroup_servicegroupmember_binding#customserverid ServicegroupServicegroupmemberBinding#customserverid}
   */
   readonly customserverid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/servicegroup_servicegroupmember_binding#dbsttl ServicegroupServicegroupmemberBinding#dbsttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/servicegroup_servicegroupmember_binding#dbsttl ServicegroupServicegroupmemberBinding#dbsttl}
   */
   readonly dbsttl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/servicegroup_servicegroupmember_binding#disable_read ServicegroupServicegroupmemberBinding#disable_read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/servicegroup_servicegroupmember_binding#disable_read ServicegroupServicegroupmemberBinding#disable_read}
   */
   readonly disableRead?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/servicegroup_servicegroupmember_binding#hashid ServicegroupServicegroupmemberBinding#hashid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/servicegroup_servicegroupmember_binding#hashid ServicegroupServicegroupmemberBinding#hashid}
   */
   readonly hashid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/servicegroup_servicegroupmember_binding#id ServicegroupServicegroupmemberBinding#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/servicegroup_servicegroupmember_binding#id ServicegroupServicegroupmemberBinding#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/servicegroup_servicegroupmember_binding#ip ServicegroupServicegroupmemberBinding#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/servicegroup_servicegroupmember_binding#ip ServicegroupServicegroupmemberBinding#ip}
   */
   readonly ip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/servicegroup_servicegroupmember_binding#nameserver ServicegroupServicegroupmemberBinding#nameserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/servicegroup_servicegroupmember_binding#nameserver ServicegroupServicegroupmemberBinding#nameserver}
   */
   readonly nameserver?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/servicegroup_servicegroupmember_binding#port ServicegroupServicegroupmemberBinding#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/servicegroup_servicegroupmember_binding#order ServicegroupServicegroupmemberBinding#order}
+  */
+  readonly order?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/servicegroup_servicegroupmember_binding#port ServicegroupServicegroupmemberBinding#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/servicegroup_servicegroupmember_binding#serverid ServicegroupServicegroupmemberBinding#serverid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/servicegroup_servicegroupmember_binding#serverid ServicegroupServicegroupmemberBinding#serverid}
   */
   readonly serverid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/servicegroup_servicegroupmember_binding#servername ServicegroupServicegroupmemberBinding#servername}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/servicegroup_servicegroupmember_binding#servername ServicegroupServicegroupmemberBinding#servername}
   */
   readonly servername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/servicegroup_servicegroupmember_binding#servicegroupname ServicegroupServicegroupmemberBinding#servicegroupname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/servicegroup_servicegroupmember_binding#servicegroupname ServicegroupServicegroupmemberBinding#servicegroupname}
   */
   readonly servicegroupname: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/servicegroup_servicegroupmember_binding#state ServicegroupServicegroupmemberBinding#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/servicegroup_servicegroupmember_binding#state ServicegroupServicegroupmemberBinding#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/servicegroup_servicegroupmember_binding#weight ServicegroupServicegroupmemberBinding#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/servicegroup_servicegroupmember_binding#weight ServicegroupServicegroupmemberBinding#weight}
   */
   readonly weight?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/servicegroup_servicegroupmember_binding citrixadc_servicegroup_servicegroupmember_binding}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/servicegroup_servicegroupmember_binding citrixadc_servicegroup_servicegroupmember_binding}
 */
 export class ServicegroupServicegroupmemberBinding extends cdktf.TerraformResource {
 
@@ -81,7 +85,7 @@ export class ServicegroupServicegroupmemberBinding extends cdktf.TerraformResour
   * Generates CDKTF code for importing a ServicegroupServicegroupmemberBinding resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServicegroupServicegroupmemberBinding to import
-  * @param importFromId The id of the existing ServicegroupServicegroupmemberBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/servicegroup_servicegroupmember_binding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServicegroupServicegroupmemberBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/servicegroup_servicegroupmember_binding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServicegroupServicegroupmemberBinding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +97,7 @@ export class ServicegroupServicegroupmemberBinding extends cdktf.TerraformResour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/servicegroup_servicegroupmember_binding citrixadc_servicegroup_servicegroupmember_binding} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/servicegroup_servicegroupmember_binding citrixadc_servicegroup_servicegroupmember_binding} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,7 +108,8 @@ export class ServicegroupServicegroupmemberBinding extends cdktf.TerraformResour
       terraformResourceType: 'citrixadc_servicegroup_servicegroupmember_binding',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -121,6 +126,7 @@ export class ServicegroupServicegroupmemberBinding extends cdktf.TerraformResour
     this._id = config.id;
     this._ip = config.ip;
     this._nameserver = config.nameserver;
+    this._order = config.order;
     this._port = config.port;
     this._serverid = config.serverid;
     this._servername = config.servername;
@@ -245,6 +251,22 @@ export class ServicegroupServicegroupmemberBinding extends cdktf.TerraformResour
     return this._nameserver;
   }
 
+  // order - computed: true, optional: true, required: false
+  private _order?: number; 
+  public get order() {
+    return this.getNumberAttribute('order');
+  }
+  public set order(value: number) {
+    this._order = value;
+  }
+  public resetOrder() {
+    this._order = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get orderInput() {
+    return this._order;
+  }
+
   // port - computed: true, optional: true, required: false
   private _port?: number; 
   public get port() {
@@ -351,6 +373,7 @@ export class ServicegroupServicegroupmemberBinding extends cdktf.TerraformResour
       id: cdktf.stringToTerraform(this._id),
       ip: cdktf.stringToTerraform(this._ip),
       nameserver: cdktf.stringToTerraform(this._nameserver),
+      order: cdktf.numberToTerraform(this._order),
       port: cdktf.numberToTerraform(this._port),
       serverid: cdktf.numberToTerraform(this._serverid),
       servername: cdktf.stringToTerraform(this._servername),
@@ -403,6 +426,12 @@ export class ServicegroupServicegroupmemberBinding extends cdktf.TerraformResour
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      order: {
+        value: cdktf.numberToHclTerraform(this._order),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
       },
       port: {
         value: cdktf.numberToHclTerraform(this._port),

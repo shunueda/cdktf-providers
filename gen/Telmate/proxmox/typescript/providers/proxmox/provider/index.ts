@@ -149,7 +149,8 @@ export class ProxmoxProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'proxmox',
       terraformGeneratorMetadata: {
         providerName: 'proxmox',
-        providerVersion: '2.9.14'
+        providerVersion: '2.9.14',
+        providerVersionConstraint: '2.9.14'
       },
       terraformProviderSource: 'Telmate/proxmox'
     });

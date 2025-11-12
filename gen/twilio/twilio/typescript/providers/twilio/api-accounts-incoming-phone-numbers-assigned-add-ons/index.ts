@@ -68,7 +68,8 @@ export class ApiAccountsIncomingPhoneNumbersAssignedAddOns extends cdktf.Terrafo
       terraformResourceType: 'twilio_api_accounts_incoming_phone_numbers_assigned_add_ons',
       terraformGeneratorMetadata: {
         providerName: 'twilio',
-        providerVersion: '0.18.46'
+        providerVersion: '0.18.46',
+        providerVersionConstraint: '0.18.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

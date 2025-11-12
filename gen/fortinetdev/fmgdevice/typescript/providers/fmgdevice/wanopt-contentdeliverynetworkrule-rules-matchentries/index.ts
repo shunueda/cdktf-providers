@@ -80,7 +80,8 @@ export class WanoptContentdeliverynetworkruleRulesMatchentries extends cdktf.Ter
       terraformResourceType: 'fmgdevice_wanopt_contentdeliverynetworkrule_rules_matchentries',
       terraformGeneratorMetadata: {
         providerName: 'fmgdevice',
-        providerVersion: '1.2.1'
+        providerVersion: '1.2.1',
+        providerVersionConstraint: '1.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

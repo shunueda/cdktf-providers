@@ -272,7 +272,8 @@ export class DataSolacebrokerMsgVpnQueue extends cdktf.TerraformDataSource {
       terraformResourceType: 'solacebroker_msg_vpn_queue',
       terraformGeneratorMetadata: {
         providerName: 'solacebrokerappliance',
-        providerVersion: '1.2.0'
+        providerVersion: '1.2.0',
+        providerVersionConstraint: '1.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

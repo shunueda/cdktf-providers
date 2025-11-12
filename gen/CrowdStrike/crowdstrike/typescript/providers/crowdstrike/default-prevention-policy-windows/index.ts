@@ -1270,7 +1270,8 @@ export class DefaultPreventionPolicyWindows extends cdktf.TerraformResource {
       terraformResourceType: 'crowdstrike_default_prevention_policy_windows',
       terraformGeneratorMetadata: {
         providerName: 'crowdstrike',
-        providerVersion: '0.0.43'
+        providerVersion: '0.0.43',
+        providerVersionConstraint: '0.0.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

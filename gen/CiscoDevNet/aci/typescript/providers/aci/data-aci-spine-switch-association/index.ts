@@ -80,7 +80,8 @@ export class DataAciSpineSwitchAssociation extends cdktf.TerraformDataSource {
       terraformResourceType: 'aci_spine_switch_association',
       terraformGeneratorMetadata: {
         providerName: 'aci',
-        providerVersion: '2.18.0'
+        providerVersion: '2.18.0',
+        providerVersionConstraint: '2.18.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -55,7 +55,8 @@ export class DataMerakiCameraDeviceWirelessProfiles extends cdktf.TerraformDataS
       terraformResourceType: 'meraki_camera_device_wireless_profiles',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1'
+        providerVersion: '1.7.1',
+        providerVersionConstraint: '1.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

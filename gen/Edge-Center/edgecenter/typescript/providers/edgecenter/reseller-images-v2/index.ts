@@ -234,7 +234,8 @@ export class ResellerImagesV2 extends cdktf.TerraformResource {
       terraformResourceType: 'edgecenter_reseller_imagesV2',
       terraformGeneratorMetadata: {
         providerName: 'edgecenter',
-        providerVersion: '0.10.4'
+        providerVersion: '0.10.4',
+        providerVersionConstraint: '0.10.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -197,7 +197,8 @@ export class ApiKey extends cdktf.TerraformResource {
       terraformResourceType: 'honeycombio_api_key',
       terraformGeneratorMetadata: {
         providerName: 'honeycombio',
-        providerVersion: '0.42.0'
+        providerVersion: '0.42.0',
+        providerVersionConstraint: '0.42.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

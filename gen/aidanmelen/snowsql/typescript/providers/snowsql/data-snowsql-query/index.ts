@@ -74,7 +74,8 @@ export class DataSnowsqlQuery extends cdktf.TerraformDataSource {
       terraformResourceType: 'snowsql_query',
       terraformGeneratorMetadata: {
         providerName: 'snowsql',
-        providerVersion: '1.3.3'
+        providerVersion: '1.3.3',
+        providerVersionConstraint: '1.3.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

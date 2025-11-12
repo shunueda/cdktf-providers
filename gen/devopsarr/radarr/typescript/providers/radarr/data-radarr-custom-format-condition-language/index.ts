@@ -73,7 +73,8 @@ export class DataRadarrCustomFormatConditionLanguage extends cdktf.TerraformData
       terraformResourceType: 'radarr_custom_format_condition_language',
       terraformGeneratorMetadata: {
         providerName: 'radarr',
-        providerVersion: '2.3.3'
+        providerVersion: '2.3.3',
+        providerVersionConstraint: '2.3.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

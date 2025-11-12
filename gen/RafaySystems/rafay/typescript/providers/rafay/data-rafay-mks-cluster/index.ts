@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/mks_cluster
+// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/mks_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataRafayMksClusterConfig extends cdktf.TerraformMetaArguments 
   /**
   * metadata of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/mks_cluster#metadata DataRafayMksCluster#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/mks_cluster#metadata DataRafayMksCluster#metadata}
   */
   readonly metadata: DataRafayMksClusterMetadata;
 }
@@ -18,13 +18,13 @@ export interface DataRafayMksClusterMetadata {
   /**
   * name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/mks_cluster#name DataRafayMksCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/mks_cluster#name DataRafayMksCluster#name}
   */
   readonly name: string;
   /**
   * Project of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/mks_cluster#project DataRafayMksCluster#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/mks_cluster#project DataRafayMksCluster#project}
   */
   readonly project: string;
 }
@@ -1604,7 +1604,7 @@ export class DataRafayMksClusterSpecOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/mks_cluster rafay_mks_cluster}
+* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/mks_cluster rafay_mks_cluster}
 */
 export class DataRafayMksCluster extends cdktf.TerraformDataSource {
 
@@ -1620,7 +1620,7 @@ export class DataRafayMksCluster extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataRafayMksCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataRafayMksCluster to import
-  * @param importFromId The id of the existing DataRafayMksCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/mks_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataRafayMksCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/mks_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataRafayMksCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1632,7 +1632,7 @@ export class DataRafayMksCluster extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/mks_cluster rafay_mks_cluster} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/mks_cluster rafay_mks_cluster} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1643,7 +1643,8 @@ export class DataRafayMksCluster extends cdktf.TerraformDataSource {
       terraformResourceType: 'rafay_mks_cluster',
       terraformGeneratorMetadata: {
         providerName: 'rafay',
-        providerVersion: '1.1.52'
+        providerVersion: '1.1.53',
+        providerVersionConstraint: '1.1.53'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

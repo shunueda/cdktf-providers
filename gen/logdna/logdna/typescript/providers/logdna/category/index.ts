@@ -64,7 +64,8 @@ export class Category extends cdktf.TerraformResource {
       terraformResourceType: 'logdna_category',
       terraformGeneratorMetadata: {
         providerName: 'logdna',
-        providerVersion: '1.17.2'
+        providerVersion: '1.17.2',
+        providerVersionConstraint: '1.17.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

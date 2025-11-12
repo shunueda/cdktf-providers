@@ -68,7 +68,8 @@ export class Key extends cdktf.TerraformResource {
       terraformResourceType: 'pgp_key',
       terraformGeneratorMetadata: {
         providerName: 'pgp',
-        providerVersion: '0.2.4'
+        providerVersion: '0.2.4',
+        providerVersionConstraint: '0.2.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

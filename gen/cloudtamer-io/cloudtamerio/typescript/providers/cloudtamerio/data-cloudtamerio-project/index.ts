@@ -343,7 +343,8 @@ export class DataCloudtamerioProject extends cdktf.TerraformDataSource {
       terraformResourceType: 'cloudtamerio_project',
       terraformGeneratorMetadata: {
         providerName: 'cloudtamerio',
-        providerVersion: '0.2.0'
+        providerVersion: '0.2.0',
+        providerVersionConstraint: '0.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -66,7 +66,8 @@ export class DataK8SChaosMeshOrgWorkflowNodeV1Alpha1Manifest extends cdktf.Terra
       terraformResourceType: 'k8s_chaos_mesh_org_workflow_node_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

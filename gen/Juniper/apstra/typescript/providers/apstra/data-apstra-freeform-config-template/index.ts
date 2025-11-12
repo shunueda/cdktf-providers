@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/freeform_config_template
+// https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/freeform_config_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataApstraFreeformConfigTemplateConfig extends cdktf.TerraformM
   /**
   * Apstra Blueprint ID. Used to identify the Blueprint where the Config Template lives.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/freeform_config_template#blueprint_id DataApstraFreeformConfigTemplate#blueprint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/freeform_config_template#blueprint_id DataApstraFreeformConfigTemplate#blueprint_id}
   */
   readonly blueprintId: string;
   /**
   * Populate this field to look up the Config Template by ID. Required when `name` is omitted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/freeform_config_template#id DataApstraFreeformConfigTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/freeform_config_template#id DataApstraFreeformConfigTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,13 +25,13 @@ export interface DataApstraFreeformConfigTemplateConfig extends cdktf.TerraformM
   /**
   * Populate this field to look up an imported Config Template by Name. Required when `id` is omitted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/freeform_config_template#name DataApstraFreeformConfigTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/freeform_config_template#name DataApstraFreeformConfigTemplate#name}
   */
   readonly name?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/freeform_config_template apstra_freeform_config_template}
+* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/freeform_config_template apstra_freeform_config_template}
 */
 export class DataApstraFreeformConfigTemplate extends cdktf.TerraformDataSource {
 
@@ -47,7 +47,7 @@ export class DataApstraFreeformConfigTemplate extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataApstraFreeformConfigTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataApstraFreeformConfigTemplate to import
-  * @param importFromId The id of the existing DataApstraFreeformConfigTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/freeform_config_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataApstraFreeformConfigTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/freeform_config_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataApstraFreeformConfigTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -59,7 +59,7 @@ export class DataApstraFreeformConfigTemplate extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/freeform_config_template apstra_freeform_config_template} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/freeform_config_template apstra_freeform_config_template} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -70,7 +70,8 @@ export class DataApstraFreeformConfigTemplate extends cdktf.TerraformDataSource 
       terraformResourceType: 'apstra_freeform_config_template',
       terraformGeneratorMetadata: {
         providerName: 'apstra',
-        providerVersion: '0.95.0'
+        providerVersion: '0.95.1',
+        providerVersionConstraint: '0.95.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

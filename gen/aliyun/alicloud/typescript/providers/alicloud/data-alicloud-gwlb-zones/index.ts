@@ -153,7 +153,8 @@ export class DataAlicloudGwlbZones extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_gwlb_zones',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

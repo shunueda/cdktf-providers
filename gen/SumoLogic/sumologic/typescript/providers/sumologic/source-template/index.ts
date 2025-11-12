@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/source_template
+// https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/source_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface SourceTemplateConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/source_template#id SourceTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/source_template#id SourceTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,29 +17,29 @@ export interface SourceTemplateConfig extends cdktf.TerraformMetaArguments {
   /**
   * inputJson of source template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/source_template#input_json SourceTemplate#input_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/source_template#input_json SourceTemplate#input_json}
   */
   readonly inputJson: string;
   /**
   * schema_ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/source_template#schema_ref SourceTemplate#schema_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/source_template#schema_ref SourceTemplate#schema_ref}
   */
   readonly schemaRef: SourceTemplateSchemaRef;
   /**
   * selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/source_template#selector SourceTemplate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/source_template#selector SourceTemplate#selector}
   */
   readonly selector?: SourceTemplateSelector[] | cdktf.IResolvable;
 }
 export interface SourceTemplateSchemaRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/source_template#type SourceTemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/source_template#type SourceTemplate#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/source_template#version SourceTemplate#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/source_template#version SourceTemplate#version}
   */
   readonly version?: string;
 }
@@ -154,11 +154,11 @@ export class SourceTemplateSchemaRefOutputReference extends cdktf.ComplexObject 
 }
 export interface SourceTemplateSelectorTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/source_template#key SourceTemplate#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/source_template#key SourceTemplate#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/source_template#values SourceTemplate#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/source_template#values SourceTemplate#values}
   */
   readonly values?: string[];
 }
@@ -325,13 +325,13 @@ export interface SourceTemplateSelector {
   /**
   * names to select custom agents
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/source_template#names SourceTemplate#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/source_template#names SourceTemplate#names}
   */
   readonly names?: string[];
   /**
   * tags filter for agents
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/source_template#tags SourceTemplate#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/source_template#tags SourceTemplate#tags}
   */
   readonly tags?: SourceTemplateSelectorTagsList[] | cdktf.IResolvable;
 }
@@ -476,7 +476,7 @@ export class SourceTemplateSelectorList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/source_template sumologic_source_template}
+* Represents a {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/source_template sumologic_source_template}
 */
 export class SourceTemplate extends cdktf.TerraformResource {
 
@@ -492,7 +492,7 @@ export class SourceTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SourceTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SourceTemplate to import
-  * @param importFromId The id of the existing SourceTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/source_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SourceTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/source_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SourceTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -504,7 +504,7 @@ export class SourceTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/source_template sumologic_source_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/source_template sumologic_source_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -515,7 +515,8 @@ export class SourceTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'sumologic_source_template',
       terraformGeneratorMetadata: {
         providerName: 'sumologic',
-        providerVersion: '3.1.7'
+        providerVersion: '3.1.8',
+        providerVersionConstraint: '3.1.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -135,7 +135,8 @@ export class DataPingdirectoryRequestCriteriaList extends cdktf.TerraformDataSou
       terraformResourceType: 'pingdirectory_request_criteria_list',
       terraformGeneratorMetadata: {
         providerName: 'pingdirectory',
-        providerVersion: '1.5.0'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

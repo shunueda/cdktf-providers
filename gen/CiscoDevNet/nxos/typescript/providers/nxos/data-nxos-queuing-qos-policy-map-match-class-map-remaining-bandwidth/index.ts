@@ -67,7 +67,8 @@ export class DataNxosQueuingQosPolicyMapMatchClassMapRemainingBandwidth extends 
       terraformResourceType: 'nxos_queuing_qos_policy_map_match_class_map_remaining_bandwidth',
       terraformGeneratorMetadata: {
         providerName: 'nxos',
-        providerVersion: '0.5.10'
+        providerVersion: '0.5.10',
+        providerVersionConstraint: '0.5.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

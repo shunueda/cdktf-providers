@@ -613,7 +613,8 @@ export class DataDome9User extends cdktf.TerraformDataSource {
       terraformResourceType: 'dome9_user',
       terraformGeneratorMetadata: {
         providerName: 'dome9',
-        providerVersion: '1.40.4'
+        providerVersion: '1.40.4',
+        providerVersionConstraint: '1.40.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

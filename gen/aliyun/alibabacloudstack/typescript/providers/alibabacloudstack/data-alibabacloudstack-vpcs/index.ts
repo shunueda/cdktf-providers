@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/vpcs
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/vpcs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,148 +8,68 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlibabacloudstackVpcsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/vpcs#cidr_block DataAlibabacloudstackVpcs#cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/vpcs#cidr_block DataAlibabacloudstackVpcs#cidr_block}
   */
   readonly cidrBlock?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/vpcs#dhcp_options_set_id DataAlibabacloudstackVpcs#dhcp_options_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/vpcs#dhcp_options_set_id DataAlibabacloudstackVpcs#dhcp_options_set_id}
   */
   readonly dhcpOptionsSetId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/vpcs#dry_run DataAlibabacloudstackVpcs#dry_run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/vpcs#dry_run DataAlibabacloudstackVpcs#dry_run}
   */
   readonly dryRun?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/vpcs#enable_details DataAlibabacloudstackVpcs#enable_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/vpcs#enable_details DataAlibabacloudstackVpcs#enable_details}
   */
   readonly enableDetails?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/vpcs#id DataAlibabacloudstackVpcs#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/vpcs#id DataAlibabacloudstackVpcs#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/vpcs#ids DataAlibabacloudstackVpcs#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/vpcs#ids DataAlibabacloudstackVpcs#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/vpcs#is_default DataAlibabacloudstackVpcs#is_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/vpcs#is_default DataAlibabacloudstackVpcs#is_default}
   */
   readonly isDefault?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/vpcs#name_regex DataAlibabacloudstackVpcs#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/vpcs#name_regex DataAlibabacloudstackVpcs#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/vpcs#output_file DataAlibabacloudstackVpcs#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/vpcs#output_file DataAlibabacloudstackVpcs#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/vpcs#resource_group_id DataAlibabacloudstackVpcs#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/vpcs#resource_group_id DataAlibabacloudstackVpcs#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/vpcs#status DataAlibabacloudstackVpcs#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/vpcs#status DataAlibabacloudstackVpcs#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/vpcs#tags DataAlibabacloudstackVpcs#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/vpcs#tags DataAlibabacloudstackVpcs#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/vpcs#vpc_name DataAlibabacloudstackVpcs#vpc_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/vpcs#vpc_name DataAlibabacloudstackVpcs#vpc_name}
   */
   readonly vpcName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/vpcs#vpc_owner_id DataAlibabacloudstackVpcs#vpc_owner_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/vpcs#vpc_owner_id DataAlibabacloudstackVpcs#vpc_owner_id}
   */
   readonly vpcOwnerId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/vpcs#vswitch_id DataAlibabacloudstackVpcs#vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/vpcs#vswitch_id DataAlibabacloudstackVpcs#vswitch_id}
   */
   readonly vswitchId?: string;
-}
-export interface DataAlibabacloudstackVpcsVpcsIpv6CidrBlocks {
-}
-
-export function dataAlibabacloudstackVpcsVpcsIpv6CidrBlocksToTerraform(struct?: DataAlibabacloudstackVpcsVpcsIpv6CidrBlocks): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function dataAlibabacloudstackVpcsVpcsIpv6CidrBlocksToHclTerraform(struct?: DataAlibabacloudstackVpcsVpcsIpv6CidrBlocks): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class DataAlibabacloudstackVpcsVpcsIpv6CidrBlocksOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): DataAlibabacloudstackVpcsVpcsIpv6CidrBlocks | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataAlibabacloudstackVpcsVpcsIpv6CidrBlocks | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // ipv6_cidr_block - computed: true, optional: false, required: false
-  public get ipv6CidrBlock() {
-    return this.getStringAttribute('ipv6_cidr_block');
-  }
-
-  // ipv6_isp - computed: true, optional: false, required: false
-  public get ipv6Isp() {
-    return this.getStringAttribute('ipv6_isp');
-  }
-}
-
-export class DataAlibabacloudstackVpcsVpcsIpv6CidrBlocksList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DataAlibabacloudstackVpcsVpcsIpv6CidrBlocksOutputReference {
-    return new DataAlibabacloudstackVpcsVpcsIpv6CidrBlocksOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
 }
 export interface DataAlibabacloudstackVpcsVpcs {
 }
@@ -225,12 +145,6 @@ export class DataAlibabacloudstackVpcsVpcsOutputReference extends cdktf.ComplexO
   // ipv6_cidr_block - computed: true, optional: false, required: false
   public get ipv6CidrBlock() {
     return this.getStringAttribute('ipv6_cidr_block');
-  }
-
-  // ipv6_cidr_blocks - computed: true, optional: false, required: false
-  private _ipv6CidrBlocks = new DataAlibabacloudstackVpcsVpcsIpv6CidrBlocksList(this, "ipv6_cidr_blocks", true);
-  public get ipv6CidrBlocks() {
-    return this._ipv6CidrBlocks;
   }
 
   // is_default - computed: true, optional: false, required: false
@@ -320,7 +234,7 @@ export class DataAlibabacloudstackVpcsVpcsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/vpcs alibabacloudstack_vpcs}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/vpcs alibabacloudstack_vpcs}
 */
 export class DataAlibabacloudstackVpcs extends cdktf.TerraformDataSource {
 
@@ -336,7 +250,7 @@ export class DataAlibabacloudstackVpcs extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAlibabacloudstackVpcs resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlibabacloudstackVpcs to import
-  * @param importFromId The id of the existing DataAlibabacloudstackVpcs that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/vpcs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlibabacloudstackVpcs that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/vpcs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlibabacloudstackVpcs to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -348,7 +262,7 @@ export class DataAlibabacloudstackVpcs extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/vpcs alibabacloudstack_vpcs} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/vpcs alibabacloudstack_vpcs} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -359,7 +273,8 @@ export class DataAlibabacloudstackVpcs extends cdktf.TerraformDataSource {
       terraformResourceType: 'alibabacloudstack_vpcs',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.19'
+        providerVersion: '3.16.21',
+        providerVersionConstraint: '3.16.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

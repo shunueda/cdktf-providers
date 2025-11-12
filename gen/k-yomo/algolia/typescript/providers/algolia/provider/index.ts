@@ -67,7 +67,8 @@ export class AlgoliaProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'algolia',
       terraformGeneratorMetadata: {
         providerName: 'algolia',
-        providerVersion: '0.6.2'
+        providerVersion: '0.6.2',
+        providerVersionConstraint: '0.6.2'
       },
       terraformProviderSource: 'k-yomo/algolia'
     });

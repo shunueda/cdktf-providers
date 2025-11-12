@@ -87,7 +87,8 @@ export class RabbitmqProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'rabbitmq',
       terraformGeneratorMetadata: {
         providerName: 'rabbitmq',
-        providerVersion: '1.10.1'
+        providerVersion: '1.10.1',
+        providerVersionConstraint: '1.10.1'
       },
       terraformProviderSource: 'cyrilgdn/rabbitmq'
     });

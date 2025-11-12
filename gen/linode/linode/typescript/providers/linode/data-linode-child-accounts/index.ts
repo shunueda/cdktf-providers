@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/child_accounts
+// https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/child_accounts
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataLinodeChildAccountsConfig extends cdktf.TerraformMetaArgume
   /**
   * child_accounts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/child_accounts#child_accounts DataLinodeChildAccounts#child_accounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/child_accounts#child_accounts DataLinodeChildAccounts#child_accounts}
   */
   readonly childAccounts?: DataLinodeChildAccountsChildAccounts[] | cdktf.IResolvable;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/child_accounts#filter DataLinodeChildAccounts#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/child_accounts#filter DataLinodeChildAccounts#filter}
   */
   readonly filter?: DataLinodeChildAccountsFilter[] | cdktf.IResolvable;
 }
@@ -185,19 +185,19 @@ export interface DataLinodeChildAccountsFilter {
   /**
   * The type of comparison to use for this filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/child_accounts#match_by DataLinodeChildAccounts#match_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/child_accounts#match_by DataLinodeChildAccounts#match_by}
   */
   readonly matchBy?: string;
   /**
   * The name of the attribute to filter on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/child_accounts#name DataLinodeChildAccounts#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/child_accounts#name DataLinodeChildAccounts#name}
   */
   readonly name: string;
   /**
   * The value(s) to be used in the filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/child_accounts#values DataLinodeChildAccounts#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/child_accounts#values DataLinodeChildAccounts#values}
   */
   readonly values: string[];
 }
@@ -365,7 +365,7 @@ export class DataLinodeChildAccountsFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/child_accounts linode_child_accounts}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/child_accounts linode_child_accounts}
 */
 export class DataLinodeChildAccounts extends cdktf.TerraformDataSource {
 
@@ -381,7 +381,7 @@ export class DataLinodeChildAccounts extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataLinodeChildAccounts resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataLinodeChildAccounts to import
-  * @param importFromId The id of the existing DataLinodeChildAccounts that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/child_accounts#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataLinodeChildAccounts that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/child_accounts#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataLinodeChildAccounts to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -393,7 +393,7 @@ export class DataLinodeChildAccounts extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/child_accounts linode_child_accounts} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/child_accounts linode_child_accounts} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -404,7 +404,8 @@ export class DataLinodeChildAccounts extends cdktf.TerraformDataSource {
       terraformResourceType: 'linode_child_accounts',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.5.0'
+        providerVersion: '3.5.1',
+        providerVersionConstraint: '3.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

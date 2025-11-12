@@ -195,7 +195,8 @@ export class NsxtProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'nsxt',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0'
+        providerVersion: '3.10.0',
+        providerVersionConstraint: '3.10.0'
       },
       terraformProviderSource: 'vmware/nsxt'
     });

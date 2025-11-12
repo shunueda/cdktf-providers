@@ -68,7 +68,8 @@ export class DataAivenKafkaSchemaConfiguration extends cdktf.TerraformDataSource
       terraformResourceType: 'aiven_kafka_schema_configuration',
       terraformGeneratorMetadata: {
         providerName: 'aiven',
-        providerVersion: '4.46.1'
+        providerVersion: '4.46.1',
+        providerVersionConstraint: '4.46.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -310,7 +310,8 @@ export class DataZiaForwardingControlZpaGateway extends cdktf.TerraformDataSourc
       terraformResourceType: 'zia_forwarding_control_zpa_gateway',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.5.3'
+        providerVersion: '4.5.3',
+        providerVersionConstraint: '4.5.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -776,7 +776,8 @@ export class GrantOwnership extends cdktf.TerraformResource {
       terraformResourceType: 'snowflake_grant_ownership',
       terraformGeneratorMetadata: {
         providerName: 'snowflake',
-        providerVersion: '2.10.1'
+        providerVersion: '2.10.1',
+        providerVersionConstraint: '2.10.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

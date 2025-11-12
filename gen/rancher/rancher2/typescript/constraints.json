@@ -1,4 +1,6 @@
 {
   "cdktf": "0.21.0",
-  "providers": {}
+  "providers": {
+    "rancher2": "8.3.1"
+  }
 }

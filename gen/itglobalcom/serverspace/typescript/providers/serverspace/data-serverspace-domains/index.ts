@@ -503,7 +503,8 @@ export class DataServerspaceDomains extends cdktf.TerraformDataSource {
       terraformResourceType: 'serverspace_domains',
       terraformGeneratorMetadata: {
         providerName: 'serverspace',
-        providerVersion: '0.3.2'
+        providerVersion: '0.3.2',
+        providerVersionConstraint: '0.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -67,7 +67,8 @@ export class DataAkamaiApidefinitionsOpenapi extends cdktf.TerraformDataSource {
       terraformResourceType: 'akamai_apidefinitions_openapi',
       terraformGeneratorMetadata: {
         providerName: 'akamai',
-        providerVersion: '9.1.0'
+        providerVersion: '9.1.0',
+        providerVersionConstraint: '9.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

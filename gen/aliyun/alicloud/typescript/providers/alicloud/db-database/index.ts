@@ -72,7 +72,8 @@ export class DbDatabase extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_db_database',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -62,7 +62,8 @@ export class ResponsemanagementLibrary extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_responsemanagement_library',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.70.0'
+        providerVersion: '1.70.0',
+        providerVersionConstraint: '1.70.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

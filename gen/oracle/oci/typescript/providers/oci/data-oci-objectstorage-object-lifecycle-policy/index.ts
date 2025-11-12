@@ -248,7 +248,8 @@ export class DataOciObjectstorageObjectLifecyclePolicy extends cdktf.TerraformDa
       terraformResourceType: 'oci_objectstorage_object_lifecycle_policy',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

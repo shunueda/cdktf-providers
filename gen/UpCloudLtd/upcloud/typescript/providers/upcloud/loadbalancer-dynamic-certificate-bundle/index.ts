@@ -67,7 +67,8 @@ export class LoadbalancerDynamicCertificateBundle extends cdktf.TerraformResourc
       terraformResourceType: 'upcloud_loadbalancer_dynamic_certificate_bundle',
       terraformGeneratorMetadata: {
         providerName: 'upcloud',
-        providerVersion: '5.31.0'
+        providerVersion: '5.31.0',
+        providerVersionConstraint: '5.31.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

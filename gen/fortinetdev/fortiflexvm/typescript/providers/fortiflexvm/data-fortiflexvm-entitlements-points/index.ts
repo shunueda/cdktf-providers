@@ -157,7 +157,8 @@ export class DataFortiflexvmEntitlementsPoints extends cdktf.TerraformDataSource
       terraformResourceType: 'fortiflexvm_entitlements_points',
       terraformGeneratorMetadata: {
         providerName: 'fortiflexvm',
-        providerVersion: '2.4.3'
+        providerVersion: '2.4.3',
+        providerVersionConstraint: '2.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

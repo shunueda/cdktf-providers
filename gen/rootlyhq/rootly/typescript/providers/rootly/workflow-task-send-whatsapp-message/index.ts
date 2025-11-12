@@ -270,7 +270,8 @@ export class WorkflowTaskSendWhatsappMessage extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_workflow_task_send_whatsapp_message',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.7'
+        providerVersion: '4.3.7',
+        providerVersionConstraint: '4.3.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

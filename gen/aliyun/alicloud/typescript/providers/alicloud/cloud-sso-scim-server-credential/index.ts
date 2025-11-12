@@ -68,7 +68,8 @@ export class CloudSsoScimServerCredential extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_cloud_sso_scim_server_credential',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

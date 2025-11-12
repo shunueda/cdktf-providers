@@ -80,7 +80,8 @@ export class VpnSslWebUserbookmarkBookmarksFormdata extends cdktf.TerraformResou
       terraformResourceType: 'fmgdevice_vpn_ssl_web_userbookmark_bookmarks_formdata',
       terraformGeneratorMetadata: {
         providerName: 'fmgdevice',
-        providerVersion: '1.2.1'
+        providerVersion: '1.2.1',
+        providerVersionConstraint: '1.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

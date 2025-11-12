@@ -68,7 +68,8 @@ export class ReservedIpv6 extends cdktf.TerraformResource {
       terraformResourceType: 'digitalocean_reserved_ipv6',
       terraformGeneratorMetadata: {
         providerName: 'digitalocean',
-        providerVersion: '2.68.0'
+        providerVersion: '2.68.0',
+        providerVersionConstraint: '2.68.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

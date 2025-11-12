@@ -147,7 +147,8 @@ export class OciProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'oci',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       terraformProviderSource: 'oracle/oci'
     });

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/object_storage_key
+// https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/object_storage_key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface ObjectStorageKeyConfig extends cdktf.TerraformMetaArguments {
   /**
   * The label given to this key. For display purposes only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/object_storage_key#label ObjectStorageKey#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/object_storage_key#label ObjectStorageKey#label}
   */
   readonly label: string;
   /**
   * A set of regions where the key will grant access to create buckets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/object_storage_key#regions ObjectStorageKey#regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/object_storage_key#regions ObjectStorageKey#regions}
   */
   readonly regions?: string[];
   /**
   * bucket_access block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/object_storage_key#bucket_access ObjectStorageKey#bucket_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/object_storage_key#bucket_access ObjectStorageKey#bucket_access}
   */
   readonly bucketAccess?: ObjectStorageKeyBucketAccess[] | cdktf.IResolvable;
 }
@@ -115,25 +115,25 @@ export interface ObjectStorageKeyBucketAccess {
   /**
   * The unique label of the bucket to which the key will grant limited access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/object_storage_key#bucket_name ObjectStorageKey#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/object_storage_key#bucket_name ObjectStorageKey#bucket_name}
   */
   readonly bucketName: string;
   /**
   * The Object Storage cluster where the bucket resides. Deprecated in favor of `region`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/object_storage_key#cluster ObjectStorageKey#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/object_storage_key#cluster ObjectStorageKey#cluster}
   */
   readonly cluster?: string;
   /**
   * This Limited Access Key's permissions for the selected bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/object_storage_key#permissions ObjectStorageKey#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/object_storage_key#permissions ObjectStorageKey#permissions}
   */
   readonly permissions: string;
   /**
   * The region where the bucket resides.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/object_storage_key#region ObjectStorageKey#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/object_storage_key#region ObjectStorageKey#region}
   */
   readonly region?: string;
 }
@@ -330,7 +330,7 @@ export class ObjectStorageKeyBucketAccessList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/object_storage_key linode_object_storage_key}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/object_storage_key linode_object_storage_key}
 */
 export class ObjectStorageKey extends cdktf.TerraformResource {
 
@@ -346,7 +346,7 @@ export class ObjectStorageKey extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectStorageKey resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectStorageKey to import
-  * @param importFromId The id of the existing ObjectStorageKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/object_storage_key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectStorageKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/object_storage_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectStorageKey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -358,7 +358,7 @@ export class ObjectStorageKey extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/object_storage_key linode_object_storage_key} Resource
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/object_storage_key linode_object_storage_key} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -369,7 +369,8 @@ export class ObjectStorageKey extends cdktf.TerraformResource {
       terraformResourceType: 'linode_object_storage_key',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.5.0'
+        providerVersion: '3.5.1',
+        providerVersionConstraint: '3.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

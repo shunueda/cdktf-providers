@@ -80,7 +80,8 @@ export class ObjectFirewallAddress6TemplateSubnetsegmentValuesA extends cdktf.Te
       terraformResourceType: 'fortimanager_object_firewall_address6template_subnetsegment_values',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0'
+        providerVersion: '1.14.0',
+        providerVersionConstraint: '1.14.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

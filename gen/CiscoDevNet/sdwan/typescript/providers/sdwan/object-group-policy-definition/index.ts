@@ -139,7 +139,8 @@ export class ObjectGroupPolicyDefinition extends cdktf.TerraformResource {
       terraformResourceType: 'sdwan_object_group_policy_definition',
       terraformGeneratorMetadata: {
         providerName: 'sdwan',
-        providerVersion: '0.8.1'
+        providerVersion: '0.8.1',
+        providerVersionConstraint: '0.8.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

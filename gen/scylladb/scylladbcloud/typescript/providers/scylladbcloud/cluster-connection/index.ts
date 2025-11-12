@@ -257,7 +257,8 @@ export class ClusterConnection extends cdktf.TerraformResource {
       terraformResourceType: 'scylladbcloud_cluster_connection',
       terraformGeneratorMetadata: {
         providerName: 'scylladbcloud',
-        providerVersion: '1.8.1'
+        providerVersion: '1.8.1',
+        providerVersionConstraint: '1.8.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

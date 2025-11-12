@@ -53,7 +53,8 @@ export class DataRabbitmqVhost extends cdktf.TerraformDataSource {
       terraformResourceType: 'rabbitmq_vhost',
       terraformGeneratorMetadata: {
         providerName: 'rabbitmq',
-        providerVersion: '1.10.1'
+        providerVersion: '1.10.1',
+        providerVersionConstraint: '1.10.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

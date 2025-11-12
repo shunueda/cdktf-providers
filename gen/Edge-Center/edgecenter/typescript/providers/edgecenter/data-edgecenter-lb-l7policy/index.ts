@@ -88,7 +88,8 @@ export class DataEdgecenterLbL7Policy extends cdktf.TerraformDataSource {
       terraformResourceType: 'edgecenter_lb_l7policy',
       terraformGeneratorMetadata: {
         providerName: 'edgecenter',
-        providerVersion: '0.10.4'
+        providerVersion: '0.10.4',
+        providerVersionConstraint: '0.10.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_https_rulebase
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_https_rulebase
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -14,23 +14,23 @@ export interface DataCheckpointManagementHttpsRulebaseConfig extends cdktf.Terra
   * 
   * Note: Requesting to show rules as ranges is limited up to 20 rules per request, otherwise an error is returned. If you wish to request more rules, use the offset and limit parameters to limit your request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_https_rulebase#dereference_group_members DataCheckpointManagementHttpsRulebase#dereference_group_members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_https_rulebase#dereference_group_members DataCheckpointManagementHttpsRulebase#dereference_group_members}
   */
   readonly dereferenceGroupMembers?: boolean | cdktf.IResolvable;
   /**
   * Search expression to filter the rulebase. The provided text should be exactly the same as it would be given in Smart Console. The logical operators in the expression ('AND', 'OR') should be provided in capital letters. If an operator is not used, the default OR operator applies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_https_rulebase#filter DataCheckpointManagementHttpsRulebase#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_https_rulebase#filter DataCheckpointManagementHttpsRulebase#filter}
   */
   readonly filter?: string;
   /**
   * Sets filter preferences.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_https_rulebase#filter_settings DataCheckpointManagementHttpsRulebase#filter_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_https_rulebase#filter_settings DataCheckpointManagementHttpsRulebase#filter_settings}
   */
   readonly filterSettings?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_https_rulebase#id DataCheckpointManagementHttpsRulebase#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_https_rulebase#id DataCheckpointManagementHttpsRulebase#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -39,43 +39,43 @@ export interface DataCheckpointManagementHttpsRulebaseConfig extends cdktf.Terra
   /**
   * The maximal number of returned results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_https_rulebase#limit DataCheckpointManagementHttpsRulebase#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_https_rulebase#limit DataCheckpointManagementHttpsRulebase#limit}
   */
   readonly limit?: number;
   /**
   * Object name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_https_rulebase#name DataCheckpointManagementHttpsRulebase#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_https_rulebase#name DataCheckpointManagementHttpsRulebase#name}
   */
   readonly name: string;
   /**
   * Number of the results to initially skip.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_https_rulebase#offset DataCheckpointManagementHttpsRulebase#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_https_rulebase#offset DataCheckpointManagementHttpsRulebase#offset}
   */
   readonly offset?: number;
   /**
   * Name of the package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_https_rulebase#package DataCheckpointManagementHttpsRulebase#package}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_https_rulebase#package DataCheckpointManagementHttpsRulebase#package}
   */
   readonly package?: string;
   /**
   * N/A
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_https_rulebase#show_membership DataCheckpointManagementHttpsRulebase#show_membership}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_https_rulebase#show_membership DataCheckpointManagementHttpsRulebase#show_membership}
   */
   readonly showMembership?: boolean | cdktf.IResolvable;
   /**
   * Object unique identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_https_rulebase#uid DataCheckpointManagementHttpsRulebase#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_https_rulebase#uid DataCheckpointManagementHttpsRulebase#uid}
   */
   readonly uid?: string;
   /**
   * order block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_https_rulebase#order DataCheckpointManagementHttpsRulebase#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_https_rulebase#order DataCheckpointManagementHttpsRulebase#order}
   */
   readonly order?: DataCheckpointManagementHttpsRulebaseOrder[] | cdktf.IResolvable;
 }
@@ -621,13 +621,13 @@ export interface DataCheckpointManagementHttpsRulebaseOrder {
   /**
   * Sorts results by the given field in ascending order.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_https_rulebase#asc DataCheckpointManagementHttpsRulebase#asc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_https_rulebase#asc DataCheckpointManagementHttpsRulebase#asc}
   */
   readonly asc?: string;
   /**
   * Sorts results by the given field in descending order.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_https_rulebase#desc DataCheckpointManagementHttpsRulebase#desc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_https_rulebase#desc DataCheckpointManagementHttpsRulebase#desc}
   */
   readonly desc?: string;
 }
@@ -772,7 +772,7 @@ export class DataCheckpointManagementHttpsRulebaseOrderList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_https_rulebase checkpoint_management_https_rulebase}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_https_rulebase checkpoint_management_https_rulebase}
 */
 export class DataCheckpointManagementHttpsRulebase extends cdktf.TerraformDataSource {
 
@@ -788,7 +788,7 @@ export class DataCheckpointManagementHttpsRulebase extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataCheckpointManagementHttpsRulebase resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCheckpointManagementHttpsRulebase to import
-  * @param importFromId The id of the existing DataCheckpointManagementHttpsRulebase that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_https_rulebase#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCheckpointManagementHttpsRulebase that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_https_rulebase#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCheckpointManagementHttpsRulebase to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -800,7 +800,7 @@ export class DataCheckpointManagementHttpsRulebase extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_https_rulebase checkpoint_management_https_rulebase} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_https_rulebase checkpoint_management_https_rulebase} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -811,7 +811,8 @@ export class DataCheckpointManagementHttpsRulebase extends cdktf.TerraformDataSo
       terraformResourceType: 'checkpoint_management_https_rulebase',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

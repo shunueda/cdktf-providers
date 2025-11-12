@@ -379,7 +379,8 @@ export class AnnouncementsServiceAnnouncementSubscriptionsFilterGroup extends cd
       terraformResourceType: 'oci_announcements_service_announcement_subscriptions_filter_group',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

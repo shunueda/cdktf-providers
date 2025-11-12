@@ -262,7 +262,8 @@ export class AutomationRunV1 extends cdktf.TerraformResource {
       terraformResourceType: 'sci_automation_run_v1',
       terraformGeneratorMetadata: {
         providerName: 'sci',
-        providerVersion: '2.2.1'
+        providerVersion: '2.2.1',
+        providerVersionConstraint: '2.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

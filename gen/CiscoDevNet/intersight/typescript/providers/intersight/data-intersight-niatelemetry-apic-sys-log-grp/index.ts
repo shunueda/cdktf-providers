@@ -4039,7 +4039,8 @@ export class DataIntersightNiatelemetryApicSysLogGrp extends cdktf.TerraformData
       terraformResourceType: 'intersight_niatelemetry_apic_sys_log_grp',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

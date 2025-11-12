@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/ospf_auth_profile
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/ospf_auth_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface OspfAuthProfileConfig extends cdktf.TerraformMetaArguments {
   /**
   * The device in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/ospf_auth_profile#device OspfAuthProfile#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/ospf_auth_profile#device OspfAuthProfile#device}
   */
   readonly device?: string;
   /**
   * The folder in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/ospf_auth_profile#folder OspfAuthProfile#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/ospf_auth_profile#folder OspfAuthProfile#folder}
   */
   readonly folder?: string;
   /**
   * MD5s
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/ospf_auth_profile#md5 OspfAuthProfile#md5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/ospf_auth_profile#md5 OspfAuthProfile#md5}
   */
   readonly md5?: OspfAuthProfileMd5[] | cdktf.IResolvable;
   /**
   * Profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/ospf_auth_profile#name OspfAuthProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/ospf_auth_profile#name OspfAuthProfile#name}
   */
   readonly name: string;
   /**
   * Password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/ospf_auth_profile#password OspfAuthProfile#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/ospf_auth_profile#password OspfAuthProfile#password}
   */
   readonly password?: string;
   /**
   * The snippet in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/ospf_auth_profile#snippet OspfAuthProfile#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/ospf_auth_profile#snippet OspfAuthProfile#snippet}
   */
   readonly snippet?: string;
 }
@@ -48,19 +48,19 @@ export interface OspfAuthProfileMd5 {
   /**
   * MD5 hash
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/ospf_auth_profile#key OspfAuthProfile#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/ospf_auth_profile#key OspfAuthProfile#key}
   */
   readonly key?: string;
   /**
   * Key ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/ospf_auth_profile#name OspfAuthProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/ospf_auth_profile#name OspfAuthProfile#name}
   */
   readonly name?: number;
   /**
   * Preferred?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/ospf_auth_profile#preferred OspfAuthProfile#preferred}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/ospf_auth_profile#preferred OspfAuthProfile#preferred}
   */
   readonly preferred?: boolean | cdktf.IResolvable;
 }
@@ -234,7 +234,7 @@ export class OspfAuthProfileMd5List extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/ospf_auth_profile scm_ospf_auth_profile}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/ospf_auth_profile scm_ospf_auth_profile}
 */
 export class OspfAuthProfile extends cdktf.TerraformResource {
 
@@ -250,7 +250,7 @@ export class OspfAuthProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OspfAuthProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OspfAuthProfile to import
-  * @param importFromId The id of the existing OspfAuthProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/ospf_auth_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OspfAuthProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/ospf_auth_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OspfAuthProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -262,7 +262,7 @@ export class OspfAuthProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/ospf_auth_profile scm_ospf_auth_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/ospf_auth_profile scm_ospf_auth_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -273,7 +273,8 @@ export class OspfAuthProfile extends cdktf.TerraformResource {
       terraformResourceType: 'scm_ospf_auth_profile',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.3'
+        providerVersion: '1.0.4',
+        providerVersionConstraint: '1.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

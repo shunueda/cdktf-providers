@@ -64,7 +64,8 @@ export class DataSdwanPolicyObjectUnifiedAdvancedInspectionProfile extends cdktf
       terraformResourceType: 'sdwan_policy_object_unified_advanced_inspection_profile',
       terraformGeneratorMetadata: {
         providerName: 'sdwan',
-        providerVersion: '0.8.1'
+        providerVersion: '0.8.1',
+        providerVersionConstraint: '0.8.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

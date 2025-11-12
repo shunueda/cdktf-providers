@@ -68,7 +68,8 @@ export class AdminSamlGroups extends cdktf.TerraformResource {
       terraformResourceType: 'splunk_admin_saml_groups',
       terraformGeneratorMetadata: {
         providerName: 'splunk',
-        providerVersion: '1.4.32'
+        providerVersion: '1.4.32',
+        providerVersionConstraint: '1.4.32'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -940,7 +940,8 @@ export class Shovel extends cdktf.TerraformResource {
       terraformResourceType: 'rabbitmq_shovel',
       terraformGeneratorMetadata: {
         providerName: 'rabbitmq',
-        providerVersion: '1.10.1'
+        providerVersion: '1.10.1',
+        providerVersionConstraint: '1.10.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

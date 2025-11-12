@@ -431,7 +431,8 @@ export class VappNatRules extends cdktf.TerraformResource {
       terraformResourceType: 'vcd_vapp_nat_rules',
       terraformGeneratorMetadata: {
         providerName: 'vcd',
-        providerVersion: '3.14.1'
+        providerVersion: '3.14.1',
+        providerVersionConstraint: '3.14.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

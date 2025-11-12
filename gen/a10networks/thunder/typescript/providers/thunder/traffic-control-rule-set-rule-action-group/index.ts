@@ -74,7 +74,8 @@ export class TrafficControlRuleSetRuleActionGroupA extends cdktf.TerraformResour
       terraformResourceType: 'thunder_traffic_control_rule_set_rule_action_group',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

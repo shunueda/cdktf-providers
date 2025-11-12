@@ -309,7 +309,8 @@ export class ConfluentProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'confluent',
       terraformGeneratorMetadata: {
         providerName: 'confluent',
-        providerVersion: '2.51.0'
+        providerVersion: '2.51.0',
+        providerVersionConstraint: '2.51.0'
       },
       terraformProviderSource: 'confluentinc/confluent'
     });

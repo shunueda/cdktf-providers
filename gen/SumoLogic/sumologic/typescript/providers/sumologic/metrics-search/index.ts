@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/metrics_search
+// https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/metrics_search
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,52 +8,52 @@ import * as cdktf from 'cdktf';
 
 export interface MetricsSearchConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/metrics_search#description MetricsSearch#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/metrics_search#description MetricsSearch#description}
   */
   readonly description: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/metrics_search#desired_quantization_in_secs MetricsSearch#desired_quantization_in_secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/metrics_search#desired_quantization_in_secs MetricsSearch#desired_quantization_in_secs}
   */
   readonly desiredQuantizationInSecs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/metrics_search#id MetricsSearch#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/metrics_search#id MetricsSearch#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/metrics_search#log_query MetricsSearch#log_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/metrics_search#log_query MetricsSearch#log_query}
   */
   readonly logQuery?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/metrics_search#parent_id MetricsSearch#parent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/metrics_search#parent_id MetricsSearch#parent_id}
   */
   readonly parentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/metrics_search#title MetricsSearch#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/metrics_search#title MetricsSearch#title}
   */
   readonly title: string;
   /**
   * metrics_queries block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/metrics_search#metrics_queries MetricsSearch#metrics_queries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/metrics_search#metrics_queries MetricsSearch#metrics_queries}
   */
   readonly metricsQueries: MetricsSearchMetricsQueries[] | cdktf.IResolvable;
   /**
   * time_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/metrics_search#time_range MetricsSearch#time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/metrics_search#time_range MetricsSearch#time_range}
   */
   readonly timeRange: MetricsSearchTimeRange;
 }
 export interface MetricsSearchMetricsQueries {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/metrics_search#query MetricsSearch#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/metrics_search#query MetricsSearch#query}
   */
   readonly query: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/metrics_search#row_id MetricsSearch#row_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/metrics_search#row_id MetricsSearch#row_id}
   */
   readonly rowId: string;
 }
@@ -192,7 +192,7 @@ export class MetricsSearchMetricsQueriesList extends cdktf.ComplexList {
 }
 export interface MetricsSearchTimeRangeBeginBoundedTimeRangeFromEpochTimeRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/metrics_search#epoch_millis MetricsSearch#epoch_millis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/metrics_search#epoch_millis MetricsSearch#epoch_millis}
   */
   readonly epochMillis: number;
 }
@@ -273,7 +273,7 @@ export class MetricsSearchTimeRangeBeginBoundedTimeRangeFromEpochTimeRangeOutput
 }
 export interface MetricsSearchTimeRangeBeginBoundedTimeRangeFromIso8601TimeRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/metrics_search#iso8601_time MetricsSearch#iso8601_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/metrics_search#iso8601_time MetricsSearch#iso8601_time}
   */
   readonly iso8601Time: string;
 }
@@ -354,7 +354,7 @@ export class MetricsSearchTimeRangeBeginBoundedTimeRangeFromIso8601TimeRangeOutp
 }
 export interface MetricsSearchTimeRangeBeginBoundedTimeRangeFromLiteralTimeRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/metrics_search#range_name MetricsSearch#range_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/metrics_search#range_name MetricsSearch#range_name}
   */
   readonly rangeName: string;
 }
@@ -435,7 +435,7 @@ export class MetricsSearchTimeRangeBeginBoundedTimeRangeFromLiteralTimeRangeOutp
 }
 export interface MetricsSearchTimeRangeBeginBoundedTimeRangeFromRelativeTimeRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/metrics_search#relative_time MetricsSearch#relative_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/metrics_search#relative_time MetricsSearch#relative_time}
   */
   readonly relativeTime: string;
 }
@@ -518,25 +518,25 @@ export interface MetricsSearchTimeRangeBeginBoundedTimeRangeFrom {
   /**
   * epoch_time_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/metrics_search#epoch_time_range MetricsSearch#epoch_time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/metrics_search#epoch_time_range MetricsSearch#epoch_time_range}
   */
   readonly epochTimeRange?: MetricsSearchTimeRangeBeginBoundedTimeRangeFromEpochTimeRange;
   /**
   * iso8601_time_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/metrics_search#iso8601_time_range MetricsSearch#iso8601_time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/metrics_search#iso8601_time_range MetricsSearch#iso8601_time_range}
   */
   readonly iso8601TimeRange?: MetricsSearchTimeRangeBeginBoundedTimeRangeFromIso8601TimeRange;
   /**
   * literal_time_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/metrics_search#literal_time_range MetricsSearch#literal_time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/metrics_search#literal_time_range MetricsSearch#literal_time_range}
   */
   readonly literalTimeRange?: MetricsSearchTimeRangeBeginBoundedTimeRangeFromLiteralTimeRange;
   /**
   * relative_time_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/metrics_search#relative_time_range MetricsSearch#relative_time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/metrics_search#relative_time_range MetricsSearch#relative_time_range}
   */
   readonly relativeTimeRange?: MetricsSearchTimeRangeBeginBoundedTimeRangeFromRelativeTimeRange;
 }
@@ -707,7 +707,7 @@ export class MetricsSearchTimeRangeBeginBoundedTimeRangeFromOutputReference exte
 }
 export interface MetricsSearchTimeRangeBeginBoundedTimeRangeToEpochTimeRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/metrics_search#epoch_millis MetricsSearch#epoch_millis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/metrics_search#epoch_millis MetricsSearch#epoch_millis}
   */
   readonly epochMillis: number;
 }
@@ -788,7 +788,7 @@ export class MetricsSearchTimeRangeBeginBoundedTimeRangeToEpochTimeRangeOutputRe
 }
 export interface MetricsSearchTimeRangeBeginBoundedTimeRangeToIso8601TimeRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/metrics_search#iso8601_time MetricsSearch#iso8601_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/metrics_search#iso8601_time MetricsSearch#iso8601_time}
   */
   readonly iso8601Time: string;
 }
@@ -869,7 +869,7 @@ export class MetricsSearchTimeRangeBeginBoundedTimeRangeToIso8601TimeRangeOutput
 }
 export interface MetricsSearchTimeRangeBeginBoundedTimeRangeToLiteralTimeRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/metrics_search#range_name MetricsSearch#range_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/metrics_search#range_name MetricsSearch#range_name}
   */
   readonly rangeName: string;
 }
@@ -950,7 +950,7 @@ export class MetricsSearchTimeRangeBeginBoundedTimeRangeToLiteralTimeRangeOutput
 }
 export interface MetricsSearchTimeRangeBeginBoundedTimeRangeToRelativeTimeRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/metrics_search#relative_time MetricsSearch#relative_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/metrics_search#relative_time MetricsSearch#relative_time}
   */
   readonly relativeTime: string;
 }
@@ -1033,25 +1033,25 @@ export interface MetricsSearchTimeRangeBeginBoundedTimeRangeTo {
   /**
   * epoch_time_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/metrics_search#epoch_time_range MetricsSearch#epoch_time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/metrics_search#epoch_time_range MetricsSearch#epoch_time_range}
   */
   readonly epochTimeRange?: MetricsSearchTimeRangeBeginBoundedTimeRangeToEpochTimeRange;
   /**
   * iso8601_time_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/metrics_search#iso8601_time_range MetricsSearch#iso8601_time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/metrics_search#iso8601_time_range MetricsSearch#iso8601_time_range}
   */
   readonly iso8601TimeRange?: MetricsSearchTimeRangeBeginBoundedTimeRangeToIso8601TimeRange;
   /**
   * literal_time_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/metrics_search#literal_time_range MetricsSearch#literal_time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/metrics_search#literal_time_range MetricsSearch#literal_time_range}
   */
   readonly literalTimeRange?: MetricsSearchTimeRangeBeginBoundedTimeRangeToLiteralTimeRange;
   /**
   * relative_time_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/metrics_search#relative_time_range MetricsSearch#relative_time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/metrics_search#relative_time_range MetricsSearch#relative_time_range}
   */
   readonly relativeTimeRange?: MetricsSearchTimeRangeBeginBoundedTimeRangeToRelativeTimeRange;
 }
@@ -1224,13 +1224,13 @@ export interface MetricsSearchTimeRangeBeginBoundedTimeRange {
   /**
   * from block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/metrics_search#from MetricsSearch#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/metrics_search#from MetricsSearch#from}
   */
   readonly from: MetricsSearchTimeRangeBeginBoundedTimeRangeFrom;
   /**
   * to block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/metrics_search#to MetricsSearch#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/metrics_search#to MetricsSearch#to}
   */
   readonly to?: MetricsSearchTimeRangeBeginBoundedTimeRangeTo;
 }
@@ -1340,7 +1340,7 @@ export class MetricsSearchTimeRangeBeginBoundedTimeRangeOutputReference extends 
 }
 export interface MetricsSearchTimeRangeCompleteLiteralTimeRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/metrics_search#range_name MetricsSearch#range_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/metrics_search#range_name MetricsSearch#range_name}
   */
   readonly rangeName: string;
 }
@@ -1423,13 +1423,13 @@ export interface MetricsSearchTimeRange {
   /**
   * begin_bounded_time_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/metrics_search#begin_bounded_time_range MetricsSearch#begin_bounded_time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/metrics_search#begin_bounded_time_range MetricsSearch#begin_bounded_time_range}
   */
   readonly beginBoundedTimeRange?: MetricsSearchTimeRangeBeginBoundedTimeRange;
   /**
   * complete_literal_time_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/metrics_search#complete_literal_time_range MetricsSearch#complete_literal_time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/metrics_search#complete_literal_time_range MetricsSearch#complete_literal_time_range}
   */
   readonly completeLiteralTimeRange?: MetricsSearchTimeRangeCompleteLiteralTimeRange;
 }
@@ -1542,7 +1542,7 @@ export class MetricsSearchTimeRangeOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/metrics_search sumologic_metrics_search}
+* Represents a {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/metrics_search sumologic_metrics_search}
 */
 export class MetricsSearch extends cdktf.TerraformResource {
 
@@ -1558,7 +1558,7 @@ export class MetricsSearch extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MetricsSearch resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MetricsSearch to import
-  * @param importFromId The id of the existing MetricsSearch that should be imported. Refer to the {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/metrics_search#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MetricsSearch that should be imported. Refer to the {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/metrics_search#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MetricsSearch to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1570,7 +1570,7 @@ export class MetricsSearch extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/metrics_search sumologic_metrics_search} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/metrics_search sumologic_metrics_search} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1581,7 +1581,8 @@ export class MetricsSearch extends cdktf.TerraformResource {
       terraformResourceType: 'sumologic_metrics_search',
       terraformGeneratorMetadata: {
         providerName: 'sumologic',
-        providerVersion: '3.1.7'
+        providerVersion: '3.1.8',
+        providerVersionConstraint: '3.1.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -86,7 +86,8 @@ export class RotatedSecretTwilio extends cdktf.TerraformResource {
       terraformResourceType: 'doppler_rotated_secret_twilio',
       terraformGeneratorMetadata: {
         providerName: 'doppler',
-        providerVersion: '1.21.0'
+        providerVersion: '1.21.0',
+        providerVersionConstraint: '1.21.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

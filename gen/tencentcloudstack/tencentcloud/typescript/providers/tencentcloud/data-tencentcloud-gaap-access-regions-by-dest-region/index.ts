@@ -190,7 +190,8 @@ export class DataTencentcloudGaapAccessRegionsByDestRegion extends cdktf.Terrafo
       terraformResourceType: 'tencentcloud_gaap_access_regions_by_dest_region',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -61,7 +61,8 @@ export class DataPingdirectoryPrometheusMonitorAttributeMetrics extends cdktf.Te
       terraformResourceType: 'pingdirectory_prometheus_monitor_attribute_metrics',
       terraformGeneratorMetadata: {
         providerName: 'pingdirectory',
-        providerVersion: '1.5.0'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

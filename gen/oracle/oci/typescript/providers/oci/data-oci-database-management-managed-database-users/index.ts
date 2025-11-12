@@ -516,7 +516,8 @@ export class DataOciDatabaseManagementManagedDatabaseUsers extends cdktf.Terrafo
       terraformResourceType: 'oci_database_management_managed_database_users',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

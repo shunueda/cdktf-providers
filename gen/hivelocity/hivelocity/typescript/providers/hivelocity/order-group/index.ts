@@ -910,7 +910,8 @@ export class OrderGroup extends cdktf.TerraformResource {
       terraformResourceType: 'hivelocity_order_group',
       terraformGeneratorMetadata: {
         providerName: 'hivelocity',
-        providerVersion: '0.7.9'
+        providerVersion: '0.7.9',
+        providerVersionConstraint: '0.7.9'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

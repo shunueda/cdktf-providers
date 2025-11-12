@@ -88,7 +88,8 @@ export class L3DomainProfile extends cdktf.TerraformResource {
       terraformResourceType: 'aci_l3_domain_profile',
       terraformGeneratorMetadata: {
         providerName: 'aci',
-        providerVersion: '2.18.0'
+        providerVersion: '2.18.0',
+        providerVersionConstraint: '2.18.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

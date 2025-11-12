@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_center_query
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_center_query
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface ManagementDataCenterQueryConfig extends cdktf.TerraformMetaArgu
   /**
   * Color of the object. Should be one of existing colors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_center_query#color ManagementDataCenterQuery#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_center_query#color ManagementDataCenterQuery#color}
   */
   readonly color?: string;
   /**
   * Comments string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_center_query#comments ManagementDataCenterQuery#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_center_query#comments ManagementDataCenterQuery#comments}
   */
   readonly comments?: string;
   /**
   * Collection of Data Center servers identified by the name or UID. Use "All" to select all data centers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_center_query#data_centers ManagementDataCenterQuery#data_centers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_center_query#data_centers ManagementDataCenterQuery#data_centers}
   */
   readonly dataCenters?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_center_query#id ManagementDataCenterQuery#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_center_query#id ManagementDataCenterQuery#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,31 +35,31 @@ export interface ManagementDataCenterQueryConfig extends cdktf.TerraformMetaArgu
   /**
   * Apply changes ignoring errors. You won't be able to publish such a changes. If ignore-warnings flag was omitted - warnings will also be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_center_query#ignore_errors ManagementDataCenterQuery#ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_center_query#ignore_errors ManagementDataCenterQuery#ignore_errors}
   */
   readonly ignoreErrors?: boolean | cdktf.IResolvable;
   /**
   * Apply changes ignoring warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_center_query#ignore_warnings ManagementDataCenterQuery#ignore_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_center_query#ignore_warnings ManagementDataCenterQuery#ignore_warnings}
   */
   readonly ignoreWarnings?: boolean | cdktf.IResolvable;
   /**
   * Object name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_center_query#name ManagementDataCenterQuery#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_center_query#name ManagementDataCenterQuery#name}
   */
   readonly name: string;
   /**
   * Collection of tag identifiers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_center_query#tags ManagementDataCenterQuery#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_center_query#tags ManagementDataCenterQuery#tags}
   */
   readonly tags?: string[];
   /**
   * query_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_center_query#query_rules ManagementDataCenterQuery#query_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_center_query#query_rules ManagementDataCenterQuery#query_rules}
   */
   readonly queryRules?: ManagementDataCenterQueryQueryRules[] | cdktf.IResolvable;
 }
@@ -67,19 +67,19 @@ export interface ManagementDataCenterQueryQueryRules {
   /**
   * Defines in which Data Center property to query.<br>For key-type "predefined", use these keys: type-in-data-center, name-in-data-center, and ip-address.<br>For key-type "tag", use the Data Center tag key to query.<br>Keys are case-insensitive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_center_query#key ManagementDataCenterQuery#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_center_query#key ManagementDataCenterQuery#key}
   */
   readonly key?: string;
   /**
   * The type of the "key" parameter.<br>Use "predefined" for these keys: type-in-data-center, name-in-data-center, and ip-address.<br>Use "tag" to query the Data Center tag�s property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_center_query#key_type ManagementDataCenterQuery#key_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_center_query#key_type ManagementDataCenterQuery#key_type}
   */
   readonly keyType?: string;
   /**
   * The value(s) of the Data Center property to match the Query Rule.<br>Values are case-insensitive.<br>There is an 'OR' operation between multiple values.<br>For key-type "predefined" and key 'ip-address', the values must be an IPv4 or IPv6 address.<br>For key-type "tag", the values must be the Data Center tag values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_center_query#values ManagementDataCenterQuery#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_center_query#values ManagementDataCenterQuery#values}
   */
   readonly values?: string[];
 }
@@ -253,7 +253,7 @@ export class ManagementDataCenterQueryQueryRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_center_query checkpoint_management_data_center_query}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_center_query checkpoint_management_data_center_query}
 */
 export class ManagementDataCenterQuery extends cdktf.TerraformResource {
 
@@ -269,7 +269,7 @@ export class ManagementDataCenterQuery extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementDataCenterQuery resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementDataCenterQuery to import
-  * @param importFromId The id of the existing ManagementDataCenterQuery that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_center_query#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementDataCenterQuery that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_center_query#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementDataCenterQuery to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -281,7 +281,7 @@ export class ManagementDataCenterQuery extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_center_query checkpoint_management_data_center_query} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_center_query checkpoint_management_data_center_query} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -292,7 +292,8 @@ export class ManagementDataCenterQuery extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_data_center_query',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

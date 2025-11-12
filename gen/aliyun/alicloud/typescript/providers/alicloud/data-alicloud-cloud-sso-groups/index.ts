@@ -181,7 +181,8 @@ export class DataAlicloudCloudSsoGroups extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_cloud_sso_groups',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

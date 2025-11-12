@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/azure_private_link_service_subscription_v2
+// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/azure_private_link_service_subscription_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface AzurePrivateLinkServiceSubscriptionV2Config extends cdktf.Terra
   /**
   * Resource Id in Azure for subscription for associated access to the private link service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/azure_private_link_service_subscription_v2#azure_subscription_id AzurePrivateLinkServiceSubscriptionV2#azure_subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/azure_private_link_service_subscription_v2#azure_subscription_id AzurePrivateLinkServiceSubscriptionV2#azure_subscription_id}
   */
   readonly azureSubscriptionId: string;
   /**
   * ID of the cluster data centre
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/azure_private_link_service_subscription_v2#cluster_data_centre_id AzurePrivateLinkServiceSubscriptionV2#cluster_data_centre_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/azure_private_link_service_subscription_v2#cluster_data_centre_id AzurePrivateLinkServiceSubscriptionV2#cluster_data_centre_id}
   */
   readonly clusterDataCentreId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/azure_private_link_service_subscription_v2#id AzurePrivateLinkServiceSubscriptionV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/azure_private_link_service_subscription_v2#id AzurePrivateLinkServiceSubscriptionV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,29 +29,29 @@ export interface AzurePrivateLinkServiceSubscriptionV2Config extends cdktf.Terra
   /**
   * Message to provide additional details of status
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/azure_private_link_service_subscription_v2#reason AzurePrivateLinkServiceSubscriptionV2#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/azure_private_link_service_subscription_v2#reason AzurePrivateLinkServiceSubscriptionV2#reason}
   */
   readonly reason?: string;
   /**
   * The status of subscription for the cluster data centre
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/azure_private_link_service_subscription_v2#status AzurePrivateLinkServiceSubscriptionV2#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/azure_private_link_service_subscription_v2#status AzurePrivateLinkServiceSubscriptionV2#status}
   */
   readonly status?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/azure_private_link_service_subscription_v2#timeouts AzurePrivateLinkServiceSubscriptionV2#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/azure_private_link_service_subscription_v2#timeouts AzurePrivateLinkServiceSubscriptionV2#timeouts}
   */
   readonly timeouts?: AzurePrivateLinkServiceSubscriptionV2Timeouts;
 }
 export interface AzurePrivateLinkServiceSubscriptionV2Timeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/azure_private_link_service_subscription_v2#create AzurePrivateLinkServiceSubscriptionV2#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/azure_private_link_service_subscription_v2#create AzurePrivateLinkServiceSubscriptionV2#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/azure_private_link_service_subscription_v2#default AzurePrivateLinkServiceSubscriptionV2#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/azure_private_link_service_subscription_v2#default AzurePrivateLinkServiceSubscriptionV2#default}
   */
   readonly default?: string;
 }
@@ -174,7 +174,7 @@ export class AzurePrivateLinkServiceSubscriptionV2TimeoutsOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/azure_private_link_service_subscription_v2 instaclustr_azure_private_link_service_subscription_v2}
+* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/azure_private_link_service_subscription_v2 instaclustr_azure_private_link_service_subscription_v2}
 */
 export class AzurePrivateLinkServiceSubscriptionV2 extends cdktf.TerraformResource {
 
@@ -190,7 +190,7 @@ export class AzurePrivateLinkServiceSubscriptionV2 extends cdktf.TerraformResour
   * Generates CDKTF code for importing a AzurePrivateLinkServiceSubscriptionV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AzurePrivateLinkServiceSubscriptionV2 to import
-  * @param importFromId The id of the existing AzurePrivateLinkServiceSubscriptionV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/azure_private_link_service_subscription_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AzurePrivateLinkServiceSubscriptionV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/azure_private_link_service_subscription_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AzurePrivateLinkServiceSubscriptionV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -202,7 +202,7 @@ export class AzurePrivateLinkServiceSubscriptionV2 extends cdktf.TerraformResour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/azure_private_link_service_subscription_v2 instaclustr_azure_private_link_service_subscription_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/azure_private_link_service_subscription_v2 instaclustr_azure_private_link_service_subscription_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -213,7 +213,8 @@ export class AzurePrivateLinkServiceSubscriptionV2 extends cdktf.TerraformResour
       terraformResourceType: 'instaclustr_azure_private_link_service_subscription_v2',
       terraformGeneratorMetadata: {
         providerName: 'instaclustr',
-        providerVersion: '2.1.25'
+        providerVersion: '2.1.26',
+        providerVersionConstraint: '2.1.26'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

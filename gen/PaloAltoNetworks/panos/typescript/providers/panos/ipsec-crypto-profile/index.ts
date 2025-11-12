@@ -1298,7 +1298,8 @@ export class IpsecCryptoProfile extends cdktf.TerraformResource {
       terraformResourceType: 'panos_ipsec_crypto_profile',
       terraformGeneratorMetadata: {
         providerName: 'panos',
-        providerVersion: '2.0.5'
+        providerVersion: '2.0.5',
+        providerVersionConstraint: '2.0.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

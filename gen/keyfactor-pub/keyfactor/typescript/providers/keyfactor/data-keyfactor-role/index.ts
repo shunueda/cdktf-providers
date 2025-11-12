@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/data-sources/role
+// https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/data-sources/role
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataKeyfactorRoleConfig extends cdktf.TerraformMetaArguments {
   /**
   * An string associated with a Keyfactor security role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/data-sources/role#name DataKeyfactorRole#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/data-sources/role#name DataKeyfactorRole#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/data-sources/role keyfactor_role}
+* Represents a {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/data-sources/role keyfactor_role}
 */
 export class DataKeyfactorRole extends cdktf.TerraformDataSource {
 
@@ -32,7 +32,7 @@ export class DataKeyfactorRole extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataKeyfactorRole resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataKeyfactorRole to import
-  * @param importFromId The id of the existing DataKeyfactorRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/data-sources/role#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataKeyfactorRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/data-sources/role#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataKeyfactorRole to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class DataKeyfactorRole extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/data-sources/role keyfactor_role} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/data-sources/role keyfactor_role} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,7 +55,8 @@ export class DataKeyfactorRole extends cdktf.TerraformDataSource {
       terraformResourceType: 'keyfactor_role',
       terraformGeneratorMetadata: {
         providerName: 'keyfactor',
-        providerVersion: '2.6.0'
+        providerVersion: '2.7.0',
+        providerVersionConstraint: '2.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

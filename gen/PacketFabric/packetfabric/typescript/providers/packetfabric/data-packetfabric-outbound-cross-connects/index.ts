@@ -221,7 +221,8 @@ export class DataPacketfabricOutboundCrossConnects extends cdktf.TerraformDataSo
       terraformResourceType: 'packetfabric_outbound_cross_connects',
       terraformGeneratorMetadata: {
         providerName: 'packetfabric',
-        providerVersion: '1.9.3'
+        providerVersion: '1.9.3',
+        providerVersionConstraint: '1.9.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

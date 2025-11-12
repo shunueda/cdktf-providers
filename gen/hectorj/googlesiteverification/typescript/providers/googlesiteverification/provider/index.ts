@@ -61,7 +61,8 @@ export class GooglesiteverificationProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'googlesiteverification',
       terraformGeneratorMetadata: {
         providerName: 'googlesiteverification',
-        providerVersion: '0.4.5'
+        providerVersion: '0.4.5',
+        providerVersionConstraint: '0.4.5'
       },
       terraformProviderSource: 'hectorj/googlesiteverification'
     });

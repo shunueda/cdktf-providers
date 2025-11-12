@@ -266,7 +266,8 @@ export class DataSdmRemoteIdentity extends cdktf.TerraformDataSource {
       terraformResourceType: 'sdm_remote_identity',
       terraformGeneratorMetadata: {
         providerName: 'sdm',
-        providerVersion: '15.27.0'
+        providerVersion: '15.27.0',
+        providerVersionConstraint: '15.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -528,7 +528,8 @@ export class DataThunderGslbGeolocRdtOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_gslb_geoloc_rdt_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

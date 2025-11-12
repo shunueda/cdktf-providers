@@ -1,4 +1,6 @@
 {
   "cdktf": "0.21.0",
-  "providers": {}
+  "providers": {
+    "tailscale": "0.24.0"
+  }
 }

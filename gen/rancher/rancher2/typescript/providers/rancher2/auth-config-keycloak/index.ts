@@ -116,7 +116,8 @@ export class AuthConfigKeycloak extends cdktf.TerraformResource {
       terraformResourceType: 'rancher2_auth_config_keycloak',
       terraformGeneratorMetadata: {
         providerName: 'rancher2',
-        providerVersion: '8.3.1'
+        providerVersion: '8.3.1',
+        providerVersionConstraint: '8.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

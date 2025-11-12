@@ -63,7 +63,8 @@ export class ConfluentcloudProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'confluentcloud',
       terraformGeneratorMetadata: {
         providerName: 'confluentcloud',
-        providerVersion: '0.0.15'
+        providerVersion: '0.0.15',
+        providerVersionConstraint: '0.0.15'
       },
       terraformProviderSource: 'Mongey/confluentcloud'
     });

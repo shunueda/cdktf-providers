@@ -559,7 +559,8 @@ export class DataK8SCertificatesK8SIoCertificateSigningRequestV1Manifest extends
       terraformResourceType: 'k8s_certificates_k8s_io_certificate_signing_request_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

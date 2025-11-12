@@ -318,7 +318,8 @@ export class KafkaSchemaRegistryAcl extends cdktf.TerraformResource {
       terraformResourceType: 'aiven_kafka_schema_registry_acl',
       terraformGeneratorMetadata: {
         providerName: 'aiven',
-        providerVersion: '4.46.1'
+        providerVersion: '4.46.1',
+        providerVersionConstraint: '4.46.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

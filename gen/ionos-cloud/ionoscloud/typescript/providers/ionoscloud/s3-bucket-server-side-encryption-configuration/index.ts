@@ -269,7 +269,8 @@ export class S3BucketServerSideEncryptionConfiguration extends cdktf.TerraformRe
       terraformResourceType: 'ionoscloud_s3_bucket_server_side_encryption_configuration',
       terraformGeneratorMetadata: {
         providerName: 'ionoscloud',
-        providerVersion: '6.7.20'
+        providerVersion: '6.7.20',
+        providerVersionConstraint: '6.7.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -295,7 +295,8 @@ export class NgwafWorkspace extends cdktf.TerraformResource {
       terraformResourceType: 'fastly_ngwaf_workspace',
       terraformGeneratorMetadata: {
         providerName: 'fastly',
-        providerVersion: '8.4.0'
+        providerVersion: '8.4.0',
+        providerVersionConstraint: '8.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

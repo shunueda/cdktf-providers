@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/dbaas_pg_database
+// https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/dbaas_pg_database
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface DbaasPgDatabaseConfig extends cdktf.TerraformMetaArguments {
   /**
   * ❗ The name of the database for this service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/dbaas_pg_database#database_name DbaasPgDatabase#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/dbaas_pg_database#database_name DbaasPgDatabase#database_name}
   */
   readonly databaseName: string;
   /**
   * Default string sort order (LC_COLLATE) for PostgreSQL database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/dbaas_pg_database#lc_collate DbaasPgDatabase#lc_collate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/dbaas_pg_database#lc_collate DbaasPgDatabase#lc_collate}
   */
   readonly lcCollate?: string;
   /**
   * Default character classification (LC_CTYPE) for PostgreSQL database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/dbaas_pg_database#lc_ctype DbaasPgDatabase#lc_ctype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/dbaas_pg_database#lc_ctype DbaasPgDatabase#lc_ctype}
   */
   readonly lcCtype?: string;
   /**
   * ❗ The name of the database service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/dbaas_pg_database#service DbaasPgDatabase#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/dbaas_pg_database#service DbaasPgDatabase#service}
   */
   readonly service: string;
   /**
   * ❗ The Exoscale [Zone](https://www.exoscale.com/datacenters/) name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/dbaas_pg_database#zone DbaasPgDatabase#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/dbaas_pg_database#zone DbaasPgDatabase#zone}
   */
   readonly zone: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/dbaas_pg_database#timeouts DbaasPgDatabase#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/dbaas_pg_database#timeouts DbaasPgDatabase#timeouts}
   */
   readonly timeouts?: DbaasPgDatabaseTimeouts;
 }
@@ -48,25 +48,25 @@ export interface DbaasPgDatabaseTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/dbaas_pg_database#create DbaasPgDatabase#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/dbaas_pg_database#create DbaasPgDatabase#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/dbaas_pg_database#delete DbaasPgDatabase#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/dbaas_pg_database#delete DbaasPgDatabase#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/dbaas_pg_database#read DbaasPgDatabase#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/dbaas_pg_database#read DbaasPgDatabase#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/dbaas_pg_database#update DbaasPgDatabase#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/dbaas_pg_database#update DbaasPgDatabase#update}
   */
   readonly update?: string;
 }
@@ -247,7 +247,7 @@ export class DbaasPgDatabaseTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/dbaas_pg_database exoscale_dbaas_pg_database}
+* Represents a {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/dbaas_pg_database exoscale_dbaas_pg_database}
 */
 export class DbaasPgDatabase extends cdktf.TerraformResource {
 
@@ -263,7 +263,7 @@ export class DbaasPgDatabase extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DbaasPgDatabase resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DbaasPgDatabase to import
-  * @param importFromId The id of the existing DbaasPgDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/dbaas_pg_database#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DbaasPgDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/dbaas_pg_database#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DbaasPgDatabase to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -275,7 +275,7 @@ export class DbaasPgDatabase extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/dbaas_pg_database exoscale_dbaas_pg_database} Resource
+  * Create a new {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/dbaas_pg_database exoscale_dbaas_pg_database} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -286,7 +286,8 @@ export class DbaasPgDatabase extends cdktf.TerraformResource {
       terraformResourceType: 'exoscale_dbaas_pg_database',
       terraformGeneratorMetadata: {
         providerName: 'exoscale',
-        providerVersion: '0.66.0'
+        providerVersion: '0.67.0',
+        providerVersionConstraint: '0.67.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

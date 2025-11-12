@@ -125,7 +125,8 @@ export class AquasecProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'aquasec',
       terraformGeneratorMetadata: {
         providerName: 'aquasec',
-        providerVersion: '0.11.0'
+        providerVersion: '0.11.0',
+        providerVersionConstraint: '0.11.0'
       },
       terraformProviderSource: 'aquasecurity/aquasec'
     });

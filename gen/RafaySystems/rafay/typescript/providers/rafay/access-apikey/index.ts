@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/access_apikey
+// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/access_apikey
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface AccessApikeyConfig extends cdktf.TerraformMetaArguments {
   /**
   * The API secret that allow to interact with the system
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/access_apikey#api_secret AccessApikey#api_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/access_apikey#api_secret AccessApikey#api_secret}
   */
   readonly apiSecret?: string;
   /**
   * The API Keys that allow to interact with the system
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/access_apikey#apikey AccessApikey#apikey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/access_apikey#apikey AccessApikey#apikey}
   */
   readonly apikey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/access_apikey#id AccessApikey#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/access_apikey#id AccessApikey#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,27 +29,27 @@ export interface AccessApikeyConfig extends cdktf.TerraformMetaArguments {
   /**
   * User name for the API Keys that allow to interact with the system via the RESTful API exposed by the platform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/access_apikey#user_name AccessApikey#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/access_apikey#user_name AccessApikey#user_name}
   */
   readonly userName: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/access_apikey#timeouts AccessApikey#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/access_apikey#timeouts AccessApikey#timeouts}
   */
   readonly timeouts?: AccessApikeyTimeouts;
 }
 export interface AccessApikeyTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/access_apikey#create AccessApikey#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/access_apikey#create AccessApikey#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/access_apikey#delete AccessApikey#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/access_apikey#delete AccessApikey#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/access_apikey#update AccessApikey#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/access_apikey#update AccessApikey#update}
   */
   readonly update?: string;
 }
@@ -201,7 +201,7 @@ export class AccessApikeyTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/access_apikey rafay_access_apikey}
+* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/access_apikey rafay_access_apikey}
 */
 export class AccessApikey extends cdktf.TerraformResource {
 
@@ -217,7 +217,7 @@ export class AccessApikey extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AccessApikey resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AccessApikey to import
-  * @param importFromId The id of the existing AccessApikey that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/access_apikey#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AccessApikey that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/access_apikey#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AccessApikey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -229,7 +229,7 @@ export class AccessApikey extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/access_apikey rafay_access_apikey} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/access_apikey rafay_access_apikey} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -240,7 +240,8 @@ export class AccessApikey extends cdktf.TerraformResource {
       terraformResourceType: 'rafay_access_apikey',
       terraformGeneratorMetadata: {
         providerName: 'rafay',
-        providerVersion: '1.1.52'
+        providerVersion: '1.1.53',
+        providerVersionConstraint: '1.1.53'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

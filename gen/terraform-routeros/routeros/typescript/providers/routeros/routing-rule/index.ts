@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/routing_rule
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/routing_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface RoutingRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/routing_rule#___path___ RoutingRule#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/routing_rule#___path___ RoutingRule#___path___}
   */
   readonly path?: string;
   /**
@@ -20,25 +20,25 @@ export interface RoutingRuleConfig extends cdktf.TerraformMetaArguments {
   *   * lookup-only-in-table - perform lookup only in the specified routing table (see table parameter).
   *   * unreachable - generate ICMP unreachable message and send it back to the source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/routing_rule#action RoutingRule#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/routing_rule#action RoutingRule#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/routing_rule#comment RoutingRule#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/routing_rule#comment RoutingRule#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/routing_rule#disabled RoutingRule#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/routing_rule#disabled RoutingRule#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * The destination address of the packet to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/routing_rule#dst_address RoutingRule#dst_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/routing_rule#dst_address RoutingRule#dst_address}
   */
   readonly dstAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/routing_rule#id RoutingRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/routing_rule#id RoutingRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,37 +47,37 @@ export interface RoutingRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Incoming interface to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/routing_rule#interface RoutingRule#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/routing_rule#interface RoutingRule#interface}
   */
   readonly interface?: string;
   /**
   * Equivalent to Linux IP rule `suppress_prefixlength`. For example to suppress the default route in the routing decision set the value to 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/routing_rule#min_prefix RoutingRule#min_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/routing_rule#min_prefix RoutingRule#min_prefix}
   */
   readonly minPrefix?: number;
   /**
   * Match specific routing mark.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/routing_rule#routing_mark RoutingRule#routing_mark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/routing_rule#routing_mark RoutingRule#routing_mark}
   */
   readonly routingMark?: string;
   /**
   * The source address of the packet to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/routing_rule#src_address RoutingRule#src_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/routing_rule#src_address RoutingRule#src_address}
   */
   readonly srcAddress?: string;
   /**
   * Name of the routing table to use for lookup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/routing_rule#table RoutingRule#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/routing_rule#table RoutingRule#table}
   */
   readonly table?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/routing_rule routeros_routing_rule}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/routing_rule routeros_routing_rule}
 */
 export class RoutingRule extends cdktf.TerraformResource {
 
@@ -93,7 +93,7 @@ export class RoutingRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RoutingRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RoutingRule to import
-  * @param importFromId The id of the existing RoutingRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/routing_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RoutingRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/routing_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RoutingRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -105,7 +105,7 @@ export class RoutingRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/routing_rule routeros_routing_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/routing_rule routeros_routing_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -116,7 +116,8 @@ export class RoutingRule extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_routing_rule',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.90.0'
+        providerVersion: '1.91.0',
+        providerVersionConstraint: '1.91.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

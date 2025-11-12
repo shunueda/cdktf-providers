@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsacls
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacls
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,122 +8,142 @@ import * as cdktf from 'cdktf';
 
 export interface NsaclsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsacls#acls_apply_trigger Nsacls#acls_apply_trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacls#acls_apply_trigger Nsacls#acls_apply_trigger}
   */
   readonly aclsApplyTrigger?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsacls#aclsname Nsacls#aclsname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacls#aclsname Nsacls#aclsname}
   */
   readonly aclsname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsacls#id Nsacls#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacls#id Nsacls#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacls#type Nsacls#type}
+  */
+  readonly type?: string;
+  /**
   * acl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsacls#acl Nsacls#acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacls#acl Nsacls#acl}
   */
   readonly acl?: NsaclsAcl[] | cdktf.IResolvable;
 }
 export interface NsaclsAcl {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsacls#aclaction Nsacls#aclaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacls#aclaction Nsacls#aclaction}
   */
   readonly aclaction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsacls#aclname Nsacls#aclname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacls#aclname Nsacls#aclname}
   */
   readonly aclname: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsacls#destipop Nsacls#destipop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacls#destipdataset Nsacls#destipdataset}
+  */
+  readonly destipdataset?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacls#destipop Nsacls#destipop}
   */
   readonly destipop?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsacls#destipval Nsacls#destipval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacls#destipval Nsacls#destipval}
   */
   readonly destipval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsacls#destportop Nsacls#destportop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacls#destportdataset Nsacls#destportdataset}
+  */
+  readonly destportdataset?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacls#destportop Nsacls#destportop}
   */
   readonly destportop?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsacls#destportval Nsacls#destportval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacls#destportval Nsacls#destportval}
   */
   readonly destportval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsacls#established Nsacls#established}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacls#established Nsacls#established}
   */
   readonly established?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsacls#icmpcode Nsacls#icmpcode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacls#icmpcode Nsacls#icmpcode}
   */
   readonly icmpcode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsacls#icmptype Nsacls#icmptype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacls#icmptype Nsacls#icmptype}
   */
   readonly icmptype?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsacls#interface Nsacls#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacls#interface Nsacls#interface}
   */
   readonly interface?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsacls#logstate Nsacls#logstate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacls#logstate Nsacls#logstate}
   */
   readonly logstate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsacls#priority Nsacls#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacls#priority Nsacls#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsacls#protocol Nsacls#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacls#protocol Nsacls#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsacls#protocolnumber Nsacls#protocolnumber}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacls#protocolnumber Nsacls#protocolnumber}
   */
   readonly protocolnumber?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsacls#ratelimit Nsacls#ratelimit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacls#ratelimit Nsacls#ratelimit}
   */
   readonly ratelimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsacls#srcipop Nsacls#srcipop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacls#srcipdataset Nsacls#srcipdataset}
+  */
+  readonly srcipdataset?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacls#srcipop Nsacls#srcipop}
   */
   readonly srcipop?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsacls#srcipval Nsacls#srcipval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacls#srcipval Nsacls#srcipval}
   */
   readonly srcipval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsacls#srcmac Nsacls#srcmac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacls#srcmac Nsacls#srcmac}
   */
   readonly srcmac?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsacls#srcportop Nsacls#srcportop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacls#srcportdataset Nsacls#srcportdataset}
+  */
+  readonly srcportdataset?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacls#srcportop Nsacls#srcportop}
   */
   readonly srcportop?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsacls#srcportval Nsacls#srcportval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacls#srcportval Nsacls#srcportval}
   */
   readonly srcportval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsacls#state Nsacls#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacls#state Nsacls#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsacls#td Nsacls#td}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacls#td Nsacls#td}
   */
   readonly td?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsacls#ttl Nsacls#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacls#ttl Nsacls#ttl}
   */
   readonly ttl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsacls#vlan Nsacls#vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacls#vlan Nsacls#vlan}
   */
   readonly vlan?: number;
 }
@@ -136,8 +156,10 @@ export function nsaclsAclToTerraform(struct?: NsaclsAcl | cdktf.IResolvable): an
   return {
     aclaction: cdktf.stringToTerraform(struct!.aclaction),
     aclname: cdktf.stringToTerraform(struct!.aclname),
+    destipdataset: cdktf.stringToTerraform(struct!.destipdataset),
     destipop: cdktf.stringToTerraform(struct!.destipop),
     destipval: cdktf.stringToTerraform(struct!.destipval),
+    destportdataset: cdktf.stringToTerraform(struct!.destportdataset),
     destportop: cdktf.stringToTerraform(struct!.destportop),
     destportval: cdktf.stringToTerraform(struct!.destportval),
     established: cdktf.booleanToTerraform(struct!.established),
@@ -149,9 +171,11 @@ export function nsaclsAclToTerraform(struct?: NsaclsAcl | cdktf.IResolvable): an
     protocol: cdktf.stringToTerraform(struct!.protocol),
     protocolnumber: cdktf.numberToTerraform(struct!.protocolnumber),
     ratelimit: cdktf.numberToTerraform(struct!.ratelimit),
+    srcipdataset: cdktf.stringToTerraform(struct!.srcipdataset),
     srcipop: cdktf.stringToTerraform(struct!.srcipop),
     srcipval: cdktf.stringToTerraform(struct!.srcipval),
     srcmac: cdktf.stringToTerraform(struct!.srcmac),
+    srcportdataset: cdktf.stringToTerraform(struct!.srcportdataset),
     srcportop: cdktf.stringToTerraform(struct!.srcportop),
     srcportval: cdktf.stringToTerraform(struct!.srcportval),
     state: cdktf.stringToTerraform(struct!.state),
@@ -180,6 +204,12 @@ export function nsaclsAclToHclTerraform(struct?: NsaclsAcl | cdktf.IResolvable):
       type: "simple",
       storageClassType: "string",
     },
+    destipdataset: {
+      value: cdktf.stringToHclTerraform(struct!.destipdataset),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     destipop: {
       value: cdktf.stringToHclTerraform(struct!.destipop),
       isBlock: false,
@@ -188,6 +218,12 @@ export function nsaclsAclToHclTerraform(struct?: NsaclsAcl | cdktf.IResolvable):
     },
     destipval: {
       value: cdktf.stringToHclTerraform(struct!.destipval),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    destportdataset: {
+      value: cdktf.stringToHclTerraform(struct!.destportdataset),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -258,6 +294,12 @@ export function nsaclsAclToHclTerraform(struct?: NsaclsAcl | cdktf.IResolvable):
       type: "simple",
       storageClassType: "number",
     },
+    srcipdataset: {
+      value: cdktf.stringToHclTerraform(struct!.srcipdataset),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     srcipop: {
       value: cdktf.stringToHclTerraform(struct!.srcipop),
       isBlock: false,
@@ -272,6 +314,12 @@ export function nsaclsAclToHclTerraform(struct?: NsaclsAcl | cdktf.IResolvable):
     },
     srcmac: {
       value: cdktf.stringToHclTerraform(struct!.srcmac),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    srcportdataset: {
+      value: cdktf.stringToHclTerraform(struct!.srcportdataset),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -346,6 +394,10 @@ export class NsaclsAclOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.aclname = this._aclname;
     }
+    if (this._destipdataset !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.destipdataset = this._destipdataset;
+    }
     if (this._destipop !== undefined) {
       hasAnyValues = true;
       internalValueResult.destipop = this._destipop;
@@ -353,6 +405,10 @@ export class NsaclsAclOutputReference extends cdktf.ComplexObject {
     if (this._destipval !== undefined) {
       hasAnyValues = true;
       internalValueResult.destipval = this._destipval;
+    }
+    if (this._destportdataset !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.destportdataset = this._destportdataset;
     }
     if (this._destportop !== undefined) {
       hasAnyValues = true;
@@ -398,6 +454,10 @@ export class NsaclsAclOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.ratelimit = this._ratelimit;
     }
+    if (this._srcipdataset !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.srcipdataset = this._srcipdataset;
+    }
     if (this._srcipop !== undefined) {
       hasAnyValues = true;
       internalValueResult.srcipop = this._srcipop;
@@ -409,6 +469,10 @@ export class NsaclsAclOutputReference extends cdktf.ComplexObject {
     if (this._srcmac !== undefined) {
       hasAnyValues = true;
       internalValueResult.srcmac = this._srcmac;
+    }
+    if (this._srcportdataset !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.srcportdataset = this._srcportdataset;
     }
     if (this._srcportop !== undefined) {
       hasAnyValues = true;
@@ -443,8 +507,10 @@ export class NsaclsAclOutputReference extends cdktf.ComplexObject {
       this.resolvableValue = undefined;
       this._aclaction = undefined;
       this._aclname = undefined;
+      this._destipdataset = undefined;
       this._destipop = undefined;
       this._destipval = undefined;
+      this._destportdataset = undefined;
       this._destportop = undefined;
       this._destportval = undefined;
       this._established = undefined;
@@ -456,9 +522,11 @@ export class NsaclsAclOutputReference extends cdktf.ComplexObject {
       this._protocol = undefined;
       this._protocolnumber = undefined;
       this._ratelimit = undefined;
+      this._srcipdataset = undefined;
       this._srcipop = undefined;
       this._srcipval = undefined;
       this._srcmac = undefined;
+      this._srcportdataset = undefined;
       this._srcportop = undefined;
       this._srcportval = undefined;
       this._state = undefined;
@@ -475,8 +543,10 @@ export class NsaclsAclOutputReference extends cdktf.ComplexObject {
       this.resolvableValue = undefined;
       this._aclaction = value.aclaction;
       this._aclname = value.aclname;
+      this._destipdataset = value.destipdataset;
       this._destipop = value.destipop;
       this._destipval = value.destipval;
+      this._destportdataset = value.destportdataset;
       this._destportop = value.destportop;
       this._destportval = value.destportval;
       this._established = value.established;
@@ -488,9 +558,11 @@ export class NsaclsAclOutputReference extends cdktf.ComplexObject {
       this._protocol = value.protocol;
       this._protocolnumber = value.protocolnumber;
       this._ratelimit = value.ratelimit;
+      this._srcipdataset = value.srcipdataset;
       this._srcipop = value.srcipop;
       this._srcipval = value.srcipval;
       this._srcmac = value.srcmac;
+      this._srcportdataset = value.srcportdataset;
       this._srcportop = value.srcportop;
       this._srcportval = value.srcportval;
       this._state = value.state;
@@ -529,6 +601,22 @@ export class NsaclsAclOutputReference extends cdktf.ComplexObject {
     return this._aclname;
   }
 
+  // destipdataset - computed: true, optional: true, required: false
+  private _destipdataset?: string; 
+  public get destipdataset() {
+    return this.getStringAttribute('destipdataset');
+  }
+  public set destipdataset(value: string) {
+    this._destipdataset = value;
+  }
+  public resetDestipdataset() {
+    this._destipdataset = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get destipdatasetInput() {
+    return this._destipdataset;
+  }
+
   // destipop - computed: true, optional: true, required: false
   private _destipop?: string; 
   public get destipop() {
@@ -559,6 +647,22 @@ export class NsaclsAclOutputReference extends cdktf.ComplexObject {
   // Temporarily expose input value. Use with caution.
   public get destipvalInput() {
     return this._destipval;
+  }
+
+  // destportdataset - computed: true, optional: true, required: false
+  private _destportdataset?: string; 
+  public get destportdataset() {
+    return this.getStringAttribute('destportdataset');
+  }
+  public set destportdataset(value: string) {
+    this._destportdataset = value;
+  }
+  public resetDestportdataset() {
+    this._destportdataset = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get destportdatasetInput() {
+    return this._destportdataset;
   }
 
   // destportop - computed: true, optional: true, required: false
@@ -737,6 +841,22 @@ export class NsaclsAclOutputReference extends cdktf.ComplexObject {
     return this._ratelimit;
   }
 
+  // srcipdataset - computed: true, optional: true, required: false
+  private _srcipdataset?: string; 
+  public get srcipdataset() {
+    return this.getStringAttribute('srcipdataset');
+  }
+  public set srcipdataset(value: string) {
+    this._srcipdataset = value;
+  }
+  public resetSrcipdataset() {
+    this._srcipdataset = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get srcipdatasetInput() {
+    return this._srcipdataset;
+  }
+
   // srcipop - computed: true, optional: true, required: false
   private _srcipop?: string; 
   public get srcipop() {
@@ -783,6 +903,22 @@ export class NsaclsAclOutputReference extends cdktf.ComplexObject {
   // Temporarily expose input value. Use with caution.
   public get srcmacInput() {
     return this._srcmac;
+  }
+
+  // srcportdataset - computed: true, optional: true, required: false
+  private _srcportdataset?: string; 
+  public get srcportdataset() {
+    return this.getStringAttribute('srcportdataset');
+  }
+  public set srcportdataset(value: string) {
+    this._srcportdataset = value;
+  }
+  public resetSrcportdataset() {
+    this._srcportdataset = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get srcportdatasetInput() {
+    return this._srcportdataset;
   }
 
   // srcportop - computed: true, optional: true, required: false
@@ -903,7 +1039,7 @@ export class NsaclsAclList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsacls citrixadc_nsacls}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacls citrixadc_nsacls}
 */
 export class Nsacls extends cdktf.TerraformResource {
 
@@ -919,7 +1055,7 @@ export class Nsacls extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Nsacls resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Nsacls to import
-  * @param importFromId The id of the existing Nsacls that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsacls#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Nsacls that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacls#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Nsacls to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -931,7 +1067,7 @@ export class Nsacls extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsacls citrixadc_nsacls} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacls citrixadc_nsacls} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -942,7 +1078,8 @@ export class Nsacls extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_nsacls',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -955,6 +1092,7 @@ export class Nsacls extends cdktf.TerraformResource {
     this._aclsApplyTrigger = config.aclsApplyTrigger;
     this._aclsname = config.aclsname;
     this._id = config.id;
+    this._type = config.type;
     this._acl.internalValue = config.acl;
   }
 
@@ -1010,6 +1148,22 @@ export class Nsacls extends cdktf.TerraformResource {
     return this._id;
   }
 
+  // type - computed: true, optional: true, required: false
+  private _type?: string; 
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+  public set type(value: string) {
+    this._type = value;
+  }
+  public resetType() {
+    this._type = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeInput() {
+    return this._type;
+  }
+
   // acl - computed: false, optional: true, required: false
   private _acl = new NsaclsAclList(this, "acl", true);
   public get acl() {
@@ -1035,6 +1189,7 @@ export class Nsacls extends cdktf.TerraformResource {
       acls_apply_trigger: cdktf.stringToTerraform(this._aclsApplyTrigger),
       aclsname: cdktf.stringToTerraform(this._aclsname),
       id: cdktf.stringToTerraform(this._id),
+      type: cdktf.stringToTerraform(this._type),
       acl: cdktf.listMapper(nsaclsAclToTerraform, true)(this._acl.internalValue),
     };
   }
@@ -1055,6 +1210,12 @@ export class Nsacls extends cdktf.TerraformResource {
       },
       id: {
         value: cdktf.stringToHclTerraform(this._id),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      type: {
+        value: cdktf.stringToHclTerraform(this._type),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

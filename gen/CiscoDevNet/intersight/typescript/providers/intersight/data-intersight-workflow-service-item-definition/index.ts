@@ -6629,7 +6629,8 @@ export class DataIntersightWorkflowServiceItemDefinition extends cdktf.Terraform
       terraformResourceType: 'intersight_workflow_service_item_definition',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

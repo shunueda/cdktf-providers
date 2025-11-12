@@ -76,7 +76,8 @@ export class Ec2TransitGatewayPeeringAttachment extends cdktf.TerraformResource 
       terraformResourceType: 'aws_ec2_transit_gateway_peering_attachment',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '3.29.6'
+        providerVersion: '3.29.6',
+        providerVersionConstraint: '3.29.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

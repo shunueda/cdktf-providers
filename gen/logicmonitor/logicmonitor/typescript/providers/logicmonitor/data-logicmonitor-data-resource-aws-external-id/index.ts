@@ -64,7 +64,8 @@ export class DataLogicmonitorDataResourceAwsExternalId extends cdktf.TerraformDa
       terraformResourceType: 'logicmonitor_data_resource_aws_external_id',
       terraformGeneratorMetadata: {
         providerName: 'logicmonitor',
-        providerVersion: '2.0.25'
+        providerVersion: '2.0.25',
+        providerVersionConstraint: '2.0.25'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

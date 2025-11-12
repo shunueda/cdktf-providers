@@ -61,7 +61,8 @@ export class DataBuddyTarget extends cdktf.TerraformDataSource {
       terraformResourceType: 'buddy_target',
       terraformGeneratorMetadata: {
         providerName: 'buddy',
-        providerVersion: '1.37.1'
+        providerVersion: '1.37.1',
+        providerVersionConstraint: '1.37.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

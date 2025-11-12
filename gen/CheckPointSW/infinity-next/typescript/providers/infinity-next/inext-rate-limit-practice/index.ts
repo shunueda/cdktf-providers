@@ -319,7 +319,8 @@ export class InextRateLimitPractice extends cdktf.TerraformResource {
       terraformResourceType: 'inext_rate_limit_practice',
       terraformGeneratorMetadata: {
         providerName: 'infinity-next',
-        providerVersion: '1.2.0'
+        providerVersion: '1.2.0',
+        providerVersionConstraint: '1.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

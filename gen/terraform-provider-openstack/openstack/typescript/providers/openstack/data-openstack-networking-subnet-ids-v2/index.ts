@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/networking_subnet_ids_v2
+// https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/networking_subnet_ids_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,88 +8,88 @@ import * as cdktf from 'cdktf';
 
 export interface DataOpenstackNetworkingSubnetIdsV2Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/networking_subnet_ids_v2#cidr DataOpenstackNetworkingSubnetIdsV2#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/networking_subnet_ids_v2#cidr DataOpenstackNetworkingSubnetIdsV2#cidr}
   */
   readonly cidr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/networking_subnet_ids_v2#description DataOpenstackNetworkingSubnetIdsV2#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/networking_subnet_ids_v2#description DataOpenstackNetworkingSubnetIdsV2#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/networking_subnet_ids_v2#dhcp_enabled DataOpenstackNetworkingSubnetIdsV2#dhcp_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/networking_subnet_ids_v2#dhcp_enabled DataOpenstackNetworkingSubnetIdsV2#dhcp_enabled}
   */
   readonly dhcpEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/networking_subnet_ids_v2#dns_publish_fixed_ip DataOpenstackNetworkingSubnetIdsV2#dns_publish_fixed_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/networking_subnet_ids_v2#dns_publish_fixed_ip DataOpenstackNetworkingSubnetIdsV2#dns_publish_fixed_ip}
   */
   readonly dnsPublishFixedIp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/networking_subnet_ids_v2#gateway_ip DataOpenstackNetworkingSubnetIdsV2#gateway_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/networking_subnet_ids_v2#gateway_ip DataOpenstackNetworkingSubnetIdsV2#gateway_ip}
   */
   readonly gatewayIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/networking_subnet_ids_v2#id DataOpenstackNetworkingSubnetIdsV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/networking_subnet_ids_v2#id DataOpenstackNetworkingSubnetIdsV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/networking_subnet_ids_v2#ip_version DataOpenstackNetworkingSubnetIdsV2#ip_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/networking_subnet_ids_v2#ip_version DataOpenstackNetworkingSubnetIdsV2#ip_version}
   */
   readonly ipVersion?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/networking_subnet_ids_v2#ipv6_address_mode DataOpenstackNetworkingSubnetIdsV2#ipv6_address_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/networking_subnet_ids_v2#ipv6_address_mode DataOpenstackNetworkingSubnetIdsV2#ipv6_address_mode}
   */
   readonly ipv6AddressMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/networking_subnet_ids_v2#ipv6_ra_mode DataOpenstackNetworkingSubnetIdsV2#ipv6_ra_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/networking_subnet_ids_v2#ipv6_ra_mode DataOpenstackNetworkingSubnetIdsV2#ipv6_ra_mode}
   */
   readonly ipv6RaMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/networking_subnet_ids_v2#name DataOpenstackNetworkingSubnetIdsV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/networking_subnet_ids_v2#name DataOpenstackNetworkingSubnetIdsV2#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/networking_subnet_ids_v2#name_regex DataOpenstackNetworkingSubnetIdsV2#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/networking_subnet_ids_v2#name_regex DataOpenstackNetworkingSubnetIdsV2#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/networking_subnet_ids_v2#network_id DataOpenstackNetworkingSubnetIdsV2#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/networking_subnet_ids_v2#network_id DataOpenstackNetworkingSubnetIdsV2#network_id}
   */
   readonly networkId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/networking_subnet_ids_v2#region DataOpenstackNetworkingSubnetIdsV2#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/networking_subnet_ids_v2#region DataOpenstackNetworkingSubnetIdsV2#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/networking_subnet_ids_v2#segment_id DataOpenstackNetworkingSubnetIdsV2#segment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/networking_subnet_ids_v2#segment_id DataOpenstackNetworkingSubnetIdsV2#segment_id}
   */
   readonly segmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/networking_subnet_ids_v2#sort_direction DataOpenstackNetworkingSubnetIdsV2#sort_direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/networking_subnet_ids_v2#sort_direction DataOpenstackNetworkingSubnetIdsV2#sort_direction}
   */
   readonly sortDirection?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/networking_subnet_ids_v2#sort_key DataOpenstackNetworkingSubnetIdsV2#sort_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/networking_subnet_ids_v2#sort_key DataOpenstackNetworkingSubnetIdsV2#sort_key}
   */
   readonly sortKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/networking_subnet_ids_v2#subnetpool_id DataOpenstackNetworkingSubnetIdsV2#subnetpool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/networking_subnet_ids_v2#subnetpool_id DataOpenstackNetworkingSubnetIdsV2#subnetpool_id}
   */
   readonly subnetpoolId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/networking_subnet_ids_v2#tags DataOpenstackNetworkingSubnetIdsV2#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/networking_subnet_ids_v2#tags DataOpenstackNetworkingSubnetIdsV2#tags}
   */
   readonly tags?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/networking_subnet_ids_v2#tenant_id DataOpenstackNetworkingSubnetIdsV2#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/networking_subnet_ids_v2#tenant_id DataOpenstackNetworkingSubnetIdsV2#tenant_id}
   */
   readonly tenantId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/networking_subnet_ids_v2 openstack_networking_subnet_ids_v2}
+* Represents a {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/networking_subnet_ids_v2 openstack_networking_subnet_ids_v2}
 */
 export class DataOpenstackNetworkingSubnetIdsV2 extends cdktf.TerraformDataSource {
 
@@ -105,7 +105,7 @@ export class DataOpenstackNetworkingSubnetIdsV2 extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataOpenstackNetworkingSubnetIdsV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOpenstackNetworkingSubnetIdsV2 to import
-  * @param importFromId The id of the existing DataOpenstackNetworkingSubnetIdsV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/networking_subnet_ids_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOpenstackNetworkingSubnetIdsV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/networking_subnet_ids_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOpenstackNetworkingSubnetIdsV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -117,7 +117,7 @@ export class DataOpenstackNetworkingSubnetIdsV2 extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/networking_subnet_ids_v2 openstack_networking_subnet_ids_v2} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/networking_subnet_ids_v2 openstack_networking_subnet_ids_v2} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -128,7 +128,8 @@ export class DataOpenstackNetworkingSubnetIdsV2 extends cdktf.TerraformDataSourc
       terraformResourceType: 'openstack_networking_subnet_ids_v2',
       terraformGeneratorMetadata: {
         providerName: 'openstack',
-        providerVersion: '3.3.2'
+        providerVersion: '3.4.0',
+        providerVersionConstraint: '3.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -79,7 +79,8 @@ export class PlatformKmsKey extends cdktf.TerraformResource {
       terraformResourceType: 'kaleido_platform_kms_key',
       terraformGeneratorMetadata: {
         providerName: 'kaleido',
-        providerVersion: '1.1.2'
+        providerVersion: '1.1.2',
+        providerVersionConstraint: '1.1.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

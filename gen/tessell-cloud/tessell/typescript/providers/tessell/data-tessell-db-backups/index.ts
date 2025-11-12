@@ -1034,7 +1034,8 @@ export class DataTessellDbBackups extends cdktf.TerraformDataSource {
       terraformResourceType: 'tessell_db_backups',
       terraformGeneratorMetadata: {
         providerName: 'tessell',
-        providerVersion: '0.0.27'
+        providerVersion: '0.0.27',
+        providerVersionConstraint: '0.0.27'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

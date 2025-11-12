@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_routing_zone_constraint
+// https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_routing_zone_constraint
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DatacenterRoutingZoneConstraintConfig extends cdktf.TerraformMe
   /**
   * Apstra Blueprint ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_routing_zone_constraint#blueprint_id DatacenterRoutingZoneConstraint#blueprint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_routing_zone_constraint#blueprint_id DatacenterRoutingZoneConstraint#blueprint_id}
   */
   readonly blueprintId: string;
   /**
   * When `allow` instance constraint mode is chosen, only VNs from selected Routing Zones are allowed to have endpoints on the interface(s) the policy is applied to. The permitted Routing Zones may be specified directly or indirectly (via Routing Zone Groups)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_routing_zone_constraint#constraints DatacenterRoutingZoneConstraint#constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_routing_zone_constraint#constraints DatacenterRoutingZoneConstraint#constraints}
   */
   readonly constraints?: string[];
   /**
   * The maximum number of Routing Zones that the Application Point can be part of.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_routing_zone_constraint#max_count_constraint DatacenterRoutingZoneConstraint#max_count_constraint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_routing_zone_constraint#max_count_constraint DatacenterRoutingZoneConstraint#max_count_constraint}
   */
   readonly maxCountConstraint?: number;
   /**
   * Name displayed in the Apstra web UI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_routing_zone_constraint#name DatacenterRoutingZoneConstraint#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_routing_zone_constraint#name DatacenterRoutingZoneConstraint#name}
   */
   readonly name: string;
   /**
@@ -37,13 +37,13 @@ export interface DatacenterRoutingZoneConstraintConfig extends cdktf.TerraformMe
   * - `deny` - denies allocation of specified routing zones (add specific routing zones to deny)
   * - `none` - no additional constraints on routing zones (any routing zones)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_routing_zone_constraint#routing_zones_list_constraint DatacenterRoutingZoneConstraint#routing_zones_list_constraint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_routing_zone_constraint#routing_zones_list_constraint DatacenterRoutingZoneConstraint#routing_zones_list_constraint}
   */
   readonly routingZonesListConstraint: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_routing_zone_constraint apstra_datacenter_routing_zone_constraint}
+* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_routing_zone_constraint apstra_datacenter_routing_zone_constraint}
 */
 export class DatacenterRoutingZoneConstraint extends cdktf.TerraformResource {
 
@@ -59,7 +59,7 @@ export class DatacenterRoutingZoneConstraint extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DatacenterRoutingZoneConstraint resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatacenterRoutingZoneConstraint to import
-  * @param importFromId The id of the existing DatacenterRoutingZoneConstraint that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_routing_zone_constraint#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatacenterRoutingZoneConstraint that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_routing_zone_constraint#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatacenterRoutingZoneConstraint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -71,7 +71,7 @@ export class DatacenterRoutingZoneConstraint extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_routing_zone_constraint apstra_datacenter_routing_zone_constraint} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_routing_zone_constraint apstra_datacenter_routing_zone_constraint} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -82,7 +82,8 @@ export class DatacenterRoutingZoneConstraint extends cdktf.TerraformResource {
       terraformResourceType: 'apstra_datacenter_routing_zone_constraint',
       terraformGeneratorMetadata: {
         providerName: 'apstra',
-        providerVersion: '0.95.0'
+        providerVersion: '0.95.1',
+        providerVersionConstraint: '0.95.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

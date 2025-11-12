@@ -215,7 +215,8 @@ export class DeviceAdminAuthorizationRuleUpdateRanks extends cdktf.TerraformReso
       terraformResourceType: 'ise_device_admin_authorization_rule_update_ranks',
       terraformGeneratorMetadata: {
         providerName: 'ise',
-        providerVersion: '0.2.12'
+        providerVersion: '0.2.12',
+        providerVersionConstraint: '0.2.12'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

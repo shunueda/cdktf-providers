@@ -68,7 +68,8 @@ export class Cgnv6SixrdFragmentationInbound extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_cgnv6_sixrd_fragmentation_inbound',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

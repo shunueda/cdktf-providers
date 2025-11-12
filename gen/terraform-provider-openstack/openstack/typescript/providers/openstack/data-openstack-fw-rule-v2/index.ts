@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/fw_rule_v2
+// https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/fw_rule_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,80 +8,80 @@ import * as cdktf from 'cdktf';
 
 export interface DataOpenstackFwRuleV2Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/fw_rule_v2#action DataOpenstackFwRuleV2#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/fw_rule_v2#action DataOpenstackFwRuleV2#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/fw_rule_v2#description DataOpenstackFwRuleV2#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/fw_rule_v2#description DataOpenstackFwRuleV2#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/fw_rule_v2#destination_ip_address DataOpenstackFwRuleV2#destination_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/fw_rule_v2#destination_ip_address DataOpenstackFwRuleV2#destination_ip_address}
   */
   readonly destinationIpAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/fw_rule_v2#destination_port DataOpenstackFwRuleV2#destination_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/fw_rule_v2#destination_port DataOpenstackFwRuleV2#destination_port}
   */
   readonly destinationPort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/fw_rule_v2#enabled DataOpenstackFwRuleV2#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/fw_rule_v2#enabled DataOpenstackFwRuleV2#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/fw_rule_v2#firewall_policy_id DataOpenstackFwRuleV2#firewall_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/fw_rule_v2#firewall_policy_id DataOpenstackFwRuleV2#firewall_policy_id}
   */
   readonly firewallPolicyId?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/fw_rule_v2#id DataOpenstackFwRuleV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/fw_rule_v2#id DataOpenstackFwRuleV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/fw_rule_v2#ip_version DataOpenstackFwRuleV2#ip_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/fw_rule_v2#ip_version DataOpenstackFwRuleV2#ip_version}
   */
   readonly ipVersion?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/fw_rule_v2#name DataOpenstackFwRuleV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/fw_rule_v2#name DataOpenstackFwRuleV2#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/fw_rule_v2#project_id DataOpenstackFwRuleV2#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/fw_rule_v2#project_id DataOpenstackFwRuleV2#project_id}
   */
   readonly projectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/fw_rule_v2#protocol DataOpenstackFwRuleV2#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/fw_rule_v2#protocol DataOpenstackFwRuleV2#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/fw_rule_v2#region DataOpenstackFwRuleV2#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/fw_rule_v2#region DataOpenstackFwRuleV2#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/fw_rule_v2#rule_id DataOpenstackFwRuleV2#rule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/fw_rule_v2#rule_id DataOpenstackFwRuleV2#rule_id}
   */
   readonly ruleId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/fw_rule_v2#shared DataOpenstackFwRuleV2#shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/fw_rule_v2#shared DataOpenstackFwRuleV2#shared}
   */
   readonly shared?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/fw_rule_v2#source_ip_address DataOpenstackFwRuleV2#source_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/fw_rule_v2#source_ip_address DataOpenstackFwRuleV2#source_ip_address}
   */
   readonly sourceIpAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/fw_rule_v2#source_port DataOpenstackFwRuleV2#source_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/fw_rule_v2#source_port DataOpenstackFwRuleV2#source_port}
   */
   readonly sourcePort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/fw_rule_v2#tenant_id DataOpenstackFwRuleV2#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/fw_rule_v2#tenant_id DataOpenstackFwRuleV2#tenant_id}
   */
   readonly tenantId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/fw_rule_v2 openstack_fw_rule_v2}
+* Represents a {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/fw_rule_v2 openstack_fw_rule_v2}
 */
 export class DataOpenstackFwRuleV2 extends cdktf.TerraformDataSource {
 
@@ -97,7 +97,7 @@ export class DataOpenstackFwRuleV2 extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOpenstackFwRuleV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOpenstackFwRuleV2 to import
-  * @param importFromId The id of the existing DataOpenstackFwRuleV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/fw_rule_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOpenstackFwRuleV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/fw_rule_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOpenstackFwRuleV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -109,7 +109,7 @@ export class DataOpenstackFwRuleV2 extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/fw_rule_v2 openstack_fw_rule_v2} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/fw_rule_v2 openstack_fw_rule_v2} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -120,7 +120,8 @@ export class DataOpenstackFwRuleV2 extends cdktf.TerraformDataSource {
       terraformResourceType: 'openstack_fw_rule_v2',
       terraformGeneratorMetadata: {
         providerName: 'openstack',
-        providerVersion: '3.3.2'
+        providerVersion: '3.4.0',
+        providerVersionConstraint: '3.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/data-sources/fabric_metros
+// https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/fabric_metros
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataEquinixFabricMetrosConfig extends cdktf.TerraformMetaArgume
   /**
   * Pagination details for the returned metro list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/data-sources/fabric_metros#pagination DataEquinixFabricMetros#pagination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/fabric_metros#pagination DataEquinixFabricMetros#pagination}
   */
   readonly pagination: DataEquinixFabricMetrosPagination;
   /**
   * User On Boarded Metros based on Fabric resource availability
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/data-sources/fabric_metros#presence DataEquinixFabricMetros#presence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/fabric_metros#presence DataEquinixFabricMetros#presence}
   */
   readonly presence?: string;
 }
@@ -295,13 +295,13 @@ export interface DataEquinixFabricMetrosPagination {
   /**
   * Maximum number of search results returned per page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/data-sources/fabric_metros#limit DataEquinixFabricMetros#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/fabric_metros#limit DataEquinixFabricMetros#limit}
   */
   readonly limit?: number;
   /**
   * Index of the first item returned in the response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/data-sources/fabric_metros#offset DataEquinixFabricMetros#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/fabric_metros#offset DataEquinixFabricMetros#offset}
   */
   readonly offset?: number;
 }
@@ -439,7 +439,7 @@ export class DataEquinixFabricMetrosPaginationOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/data-sources/fabric_metros equinix_fabric_metros}
+* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/fabric_metros equinix_fabric_metros}
 */
 export class DataEquinixFabricMetros extends cdktf.TerraformDataSource {
 
@@ -455,7 +455,7 @@ export class DataEquinixFabricMetros extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataEquinixFabricMetros resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataEquinixFabricMetros to import
-  * @param importFromId The id of the existing DataEquinixFabricMetros that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/data-sources/fabric_metros#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataEquinixFabricMetros that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/fabric_metros#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataEquinixFabricMetros to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -467,7 +467,7 @@ export class DataEquinixFabricMetros extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/data-sources/fabric_metros equinix_fabric_metros} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/fabric_metros equinix_fabric_metros} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -478,7 +478,8 @@ export class DataEquinixFabricMetros extends cdktf.TerraformDataSource {
       terraformResourceType: 'equinix_fabric_metros',
       terraformGeneratorMetadata: {
         providerName: 'equinix',
-        providerVersion: '4.8.0'
+        providerVersion: '4.10.0',
+        providerVersionConstraint: '4.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

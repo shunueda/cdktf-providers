@@ -151,7 +151,8 @@ export class KubernetesApp extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_kubernetes_app',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1'
+        providerVersion: '1.87.1',
+        providerVersionConstraint: '1.87.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/agent_profiles
+// https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/agent_profiles
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataApstraAgentProfilesConfig extends cdktf.TerraformMetaArgume
   /**
   * Filter to select only Agent Profiles configured with (or without) Username and Password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/agent_profiles#has_credentials DataApstraAgentProfiles#has_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/agent_profiles#has_credentials DataApstraAgentProfiles#has_credentials}
   */
   readonly hasCredentials?: boolean | cdktf.IResolvable;
   /**
   * Filter to select only Agent Profiles for the specified platform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/agent_profiles#platform DataApstraAgentProfiles#platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/agent_profiles#platform DataApstraAgentProfiles#platform}
   */
   readonly platform?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/agent_profiles apstra_agent_profiles}
+* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/agent_profiles apstra_agent_profiles}
 */
 export class DataApstraAgentProfiles extends cdktf.TerraformDataSource {
 
@@ -38,7 +38,7 @@ export class DataApstraAgentProfiles extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataApstraAgentProfiles resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataApstraAgentProfiles to import
-  * @param importFromId The id of the existing DataApstraAgentProfiles that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/agent_profiles#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataApstraAgentProfiles that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/agent_profiles#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataApstraAgentProfiles to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class DataApstraAgentProfiles extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/agent_profiles apstra_agent_profiles} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/agent_profiles apstra_agent_profiles} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,7 +61,8 @@ export class DataApstraAgentProfiles extends cdktf.TerraformDataSource {
       terraformResourceType: 'apstra_agent_profiles',
       terraformGeneratorMetadata: {
         providerName: 'apstra',
-        providerVersion: '0.95.0'
+        providerVersion: '0.95.1',
+        providerVersionConstraint: '0.95.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

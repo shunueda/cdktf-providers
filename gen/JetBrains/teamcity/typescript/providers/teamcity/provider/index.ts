@@ -77,7 +77,8 @@ export class TeamcityProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'teamcity',
       terraformGeneratorMetadata: {
         providerName: 'teamcity',
-        providerVersion: '0.0.85'
+        providerVersion: '0.0.85',
+        providerVersionConstraint: '0.0.85'
       },
       terraformProviderSource: 'JetBrains/teamcity'
     });

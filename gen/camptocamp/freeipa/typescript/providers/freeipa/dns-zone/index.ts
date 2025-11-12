@@ -188,7 +188,8 @@ export class DnsZone extends cdktf.TerraformResource {
       terraformResourceType: 'freeipa_dns_zone',
       terraformGeneratorMetadata: {
         providerName: 'freeipa',
-        providerVersion: '1.0.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

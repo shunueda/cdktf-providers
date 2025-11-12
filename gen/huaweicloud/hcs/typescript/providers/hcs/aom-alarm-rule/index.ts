@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/aom_alarm_rule
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/aom_alarm_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,96 +8,96 @@ import * as cdktf from 'cdktf';
 
 export interface AomAlarmRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/aom_alarm_rule#alarm_action_enabled AomAlarmRule#alarm_action_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/aom_alarm_rule#alarm_action_enabled AomAlarmRule#alarm_action_enabled}
   */
   readonly alarmActionEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/aom_alarm_rule#alarm_actions AomAlarmRule#alarm_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/aom_alarm_rule#alarm_actions AomAlarmRule#alarm_actions}
   */
   readonly alarmActions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/aom_alarm_rule#alarm_level AomAlarmRule#alarm_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/aom_alarm_rule#alarm_level AomAlarmRule#alarm_level}
   */
   readonly alarmLevel?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/aom_alarm_rule#comparison_operator AomAlarmRule#comparison_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/aom_alarm_rule#comparison_operator AomAlarmRule#comparison_operator}
   */
   readonly comparisonOperator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/aom_alarm_rule#description AomAlarmRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/aom_alarm_rule#description AomAlarmRule#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/aom_alarm_rule#evaluation_periods AomAlarmRule#evaluation_periods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/aom_alarm_rule#evaluation_periods AomAlarmRule#evaluation_periods}
   */
   readonly evaluationPeriods: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/aom_alarm_rule#id AomAlarmRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/aom_alarm_rule#id AomAlarmRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/aom_alarm_rule#insufficient_data_actions AomAlarmRule#insufficient_data_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/aom_alarm_rule#insufficient_data_actions AomAlarmRule#insufficient_data_actions}
   */
   readonly insufficientDataActions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/aom_alarm_rule#metric_name AomAlarmRule#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/aom_alarm_rule#metric_name AomAlarmRule#metric_name}
   */
   readonly metricName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/aom_alarm_rule#name AomAlarmRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/aom_alarm_rule#name AomAlarmRule#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/aom_alarm_rule#namespace AomAlarmRule#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/aom_alarm_rule#namespace AomAlarmRule#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/aom_alarm_rule#ok_actions AomAlarmRule#ok_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/aom_alarm_rule#ok_actions AomAlarmRule#ok_actions}
   */
   readonly okActions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/aom_alarm_rule#period AomAlarmRule#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/aom_alarm_rule#period AomAlarmRule#period}
   */
   readonly period: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/aom_alarm_rule#region AomAlarmRule#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/aom_alarm_rule#region AomAlarmRule#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/aom_alarm_rule#statistic AomAlarmRule#statistic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/aom_alarm_rule#statistic AomAlarmRule#statistic}
   */
   readonly statistic: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/aom_alarm_rule#threshold AomAlarmRule#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/aom_alarm_rule#threshold AomAlarmRule#threshold}
   */
   readonly threshold: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/aom_alarm_rule#unit AomAlarmRule#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/aom_alarm_rule#unit AomAlarmRule#unit}
   */
   readonly unit: string;
   /**
   * dimensions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/aom_alarm_rule#dimensions AomAlarmRule#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/aom_alarm_rule#dimensions AomAlarmRule#dimensions}
   */
   readonly dimensions: AomAlarmRuleDimensions[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/aom_alarm_rule#timeouts AomAlarmRule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/aom_alarm_rule#timeouts AomAlarmRule#timeouts}
   */
   readonly timeouts?: AomAlarmRuleTimeouts;
 }
 export interface AomAlarmRuleDimensions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/aom_alarm_rule#name AomAlarmRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/aom_alarm_rule#name AomAlarmRule#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/aom_alarm_rule#value AomAlarmRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/aom_alarm_rule#value AomAlarmRule#value}
   */
   readonly value: string;
 }
@@ -236,15 +236,15 @@ export class AomAlarmRuleDimensionsList extends cdktf.ComplexList {
 }
 export interface AomAlarmRuleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/aom_alarm_rule#create AomAlarmRule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/aom_alarm_rule#create AomAlarmRule#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/aom_alarm_rule#delete AomAlarmRule#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/aom_alarm_rule#delete AomAlarmRule#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/aom_alarm_rule#update AomAlarmRule#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/aom_alarm_rule#update AomAlarmRule#update}
   */
   readonly update?: string;
 }
@@ -396,7 +396,7 @@ export class AomAlarmRuleTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/aom_alarm_rule hcs_aom_alarm_rule}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/aom_alarm_rule hcs_aom_alarm_rule}
 */
 export class AomAlarmRule extends cdktf.TerraformResource {
 
@@ -412,7 +412,7 @@ export class AomAlarmRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AomAlarmRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AomAlarmRule to import
-  * @param importFromId The id of the existing AomAlarmRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/aom_alarm_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AomAlarmRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/aom_alarm_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AomAlarmRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -424,7 +424,7 @@ export class AomAlarmRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/aom_alarm_rule hcs_aom_alarm_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/aom_alarm_rule hcs_aom_alarm_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -435,7 +435,8 @@ export class AomAlarmRule extends cdktf.TerraformResource {
       terraformResourceType: 'hcs_aom_alarm_rule',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.19'
+        providerVersion: '2.4.20',
+        providerVersionConstraint: '2.4.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

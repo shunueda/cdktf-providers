@@ -135,7 +135,8 @@ export class DataPingdirectoryRestResourceTypes extends cdktf.TerraformDataSourc
       terraformResourceType: 'pingdirectory_rest_resource_types',
       terraformGeneratorMetadata: {
         providerName: 'pingdirectory',
-        providerVersion: '1.5.0'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

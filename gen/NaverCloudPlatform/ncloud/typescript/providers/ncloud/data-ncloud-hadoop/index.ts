@@ -195,7 +195,8 @@ export class DataNcloudHadoop extends cdktf.TerraformDataSource {
       terraformResourceType: 'ncloud_hadoop',
       terraformGeneratorMetadata: {
         providerName: 'ncloud',
-        providerVersion: '4.0.4'
+        providerVersion: '4.0.4',
+        providerVersionConstraint: '4.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

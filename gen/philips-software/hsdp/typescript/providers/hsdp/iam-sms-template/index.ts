@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_sms_template
+// https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_sms_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,36 +8,36 @@ import * as cdktf from 'cdktf';
 
 export interface IamSmsTemplateConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_sms_template#external_id IamSmsTemplate#external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_sms_template#external_id IamSmsTemplate#external_id}
   */
   readonly externalId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_sms_template#id IamSmsTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_sms_template#id IamSmsTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_sms_template#locale IamSmsTemplate#locale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_sms_template#locale IamSmsTemplate#locale}
   */
   readonly locale?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_sms_template#message IamSmsTemplate#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_sms_template#message IamSmsTemplate#message}
   */
   readonly message: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_sms_template#organization_id IamSmsTemplate#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_sms_template#organization_id IamSmsTemplate#organization_id}
   */
   readonly organizationId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_sms_template#type IamSmsTemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_sms_template#type IamSmsTemplate#type}
   */
   readonly type: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_sms_template hsdp_iam_sms_template}
+* Represents a {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_sms_template hsdp_iam_sms_template}
 */
 export class IamSmsTemplate extends cdktf.TerraformResource {
 
@@ -53,7 +53,7 @@ export class IamSmsTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IamSmsTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IamSmsTemplate to import
-  * @param importFromId The id of the existing IamSmsTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_sms_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IamSmsTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_sms_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IamSmsTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -65,7 +65,7 @@ export class IamSmsTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_sms_template hsdp_iam_sms_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_sms_template hsdp_iam_sms_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -76,7 +76,8 @@ export class IamSmsTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'hsdp_iam_sms_template',
       terraformGeneratorMetadata: {
         providerName: 'hsdp',
-        providerVersion: '0.70.0'
+        providerVersion: '0.71.0',
+        providerVersionConstraint: '0.71.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -147,7 +147,8 @@ export class VmGraphicsConsoles extends cdktf.TerraformResource {
       terraformResourceType: 'ovirt_vm_graphics_consoles',
       terraformGeneratorMetadata: {
         providerName: 'ovirt',
-        providerVersion: '2.1.5'
+        providerVersion: '2.1.5',
+        providerVersionConstraint: '2.1.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

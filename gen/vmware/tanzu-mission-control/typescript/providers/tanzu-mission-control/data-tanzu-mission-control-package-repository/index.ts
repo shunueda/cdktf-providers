@@ -726,7 +726,8 @@ export class DataTanzuMissionControlPackageRepository extends cdktf.TerraformDat
       terraformResourceType: 'tanzu-mission-control_package_repository',
       terraformGeneratorMetadata: {
         providerName: 'tanzu-mission-control',
-        providerVersion: '1.4.9'
+        providerVersion: '1.4.9',
+        providerVersionConstraint: '1.4.9'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

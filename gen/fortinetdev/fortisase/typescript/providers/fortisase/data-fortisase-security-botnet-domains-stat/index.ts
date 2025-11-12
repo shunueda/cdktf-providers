@@ -53,7 +53,8 @@ export class DataFortisaseSecurityBotnetDomainsStat extends cdktf.TerraformDataS
       terraformResourceType: 'fortisase_security_botnet_domains_stat',
       terraformGeneratorMetadata: {
         providerName: 'fortisase',
-        providerVersion: '1.0.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

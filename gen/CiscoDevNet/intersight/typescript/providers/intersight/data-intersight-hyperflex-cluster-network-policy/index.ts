@@ -6600,7 +6600,8 @@ export class DataIntersightHyperflexClusterNetworkPolicy extends cdktf.Terraform
       terraformResourceType: 'intersight_hyperflex_cluster_network_policy',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

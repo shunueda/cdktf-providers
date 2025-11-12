@@ -689,7 +689,8 @@ export class DataAivenM3Aggregator extends cdktf.TerraformDataSource {
       terraformResourceType: 'aiven_m3aggregator',
       terraformGeneratorMetadata: {
         providerName: 'aiven',
-        providerVersion: '4.46.1'
+        providerVersion: '4.46.1',
+        providerVersionConstraint: '4.46.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

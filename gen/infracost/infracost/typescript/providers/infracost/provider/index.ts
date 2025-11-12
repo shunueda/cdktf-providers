@@ -55,7 +55,8 @@ export class InfracostProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'infracost',
       terraformGeneratorMetadata: {
         providerName: 'infracost',
-        providerVersion: '0.0.9'
+        providerVersion: '0.0.9',
+        providerVersionConstraint: '0.0.9'
       },
       terraformProviderSource: 'infracost/infracost'
     });

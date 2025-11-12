@@ -91,7 +91,8 @@ export class MerakiProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'meraki',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1'
+        providerVersion: '1.7.1',
+        providerVersionConstraint: '1.7.1'
       },
       terraformProviderSource: 'CiscoDevNet/meraki'
     });

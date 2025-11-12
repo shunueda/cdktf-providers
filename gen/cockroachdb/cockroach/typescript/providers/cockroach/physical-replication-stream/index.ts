@@ -73,7 +73,8 @@ export class PhysicalReplicationStream extends cdktf.TerraformResource {
       terraformResourceType: 'cockroach_physical_replication_stream',
       terraformGeneratorMetadata: {
         providerName: 'cockroach',
-        providerVersion: '1.16.0'
+        providerVersion: '1.16.0',
+        providerVersionConstraint: '1.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

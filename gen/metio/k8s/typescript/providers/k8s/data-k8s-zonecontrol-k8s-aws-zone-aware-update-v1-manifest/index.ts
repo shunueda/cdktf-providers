@@ -527,7 +527,8 @@ export class DataK8SZonecontrolK8SAwsZoneAwareUpdateV1Manifest extends cdktf.Ter
       terraformResourceType: 'k8s_zonecontrol_k8s_aws_zone_aware_update_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

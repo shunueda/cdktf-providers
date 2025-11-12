@@ -53,7 +53,8 @@ export class DataIntelcloudKubeconfig extends cdktf.TerraformDataSource {
       terraformResourceType: 'intelcloud_kubeconfig',
       terraformGeneratorMetadata: {
         providerName: 'intelcloud',
-        providerVersion: '0.0.20'
+        providerVersion: '0.0.20',
+        providerVersionConstraint: '0.0.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -599,7 +599,8 @@ export class DataTencentcloudWedataDataSourceList extends cdktf.TerraformDataSou
       terraformResourceType: 'tencentcloud_wedata_data_source_list',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

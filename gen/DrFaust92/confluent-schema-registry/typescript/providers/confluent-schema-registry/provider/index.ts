@@ -67,7 +67,8 @@ export class ConfluentSchemaRegistryProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'confluent-schema-registry',
       terraformGeneratorMetadata: {
         providerName: 'confluent-schema-registry',
-        providerVersion: '0.6.1'
+        providerVersion: '0.6.1',
+        providerVersionConstraint: '0.6.1'
       },
       terraformProviderSource: 'DrFaust92/confluent-schema-registry'
     });

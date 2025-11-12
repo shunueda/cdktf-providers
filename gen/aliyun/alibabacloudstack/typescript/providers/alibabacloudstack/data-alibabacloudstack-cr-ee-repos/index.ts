@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/cr_ee_repos
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/cr_ee_repos
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,34 +8,34 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlibabacloudstackCrEeReposConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/cr_ee_repos#enable_details DataAlibabacloudstackCrEeRepos#enable_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/cr_ee_repos#enable_details DataAlibabacloudstackCrEeRepos#enable_details}
   */
   readonly enableDetails?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/cr_ee_repos#id DataAlibabacloudstackCrEeRepos#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/cr_ee_repos#id DataAlibabacloudstackCrEeRepos#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/cr_ee_repos#ids DataAlibabacloudstackCrEeRepos#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/cr_ee_repos#ids DataAlibabacloudstackCrEeRepos#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/cr_ee_repos#instance_id DataAlibabacloudstackCrEeRepos#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/cr_ee_repos#instance_id DataAlibabacloudstackCrEeRepos#instance_id}
   */
   readonly instanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/cr_ee_repos#name_regex DataAlibabacloudstackCrEeRepos#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/cr_ee_repos#name_regex DataAlibabacloudstackCrEeRepos#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/cr_ee_repos#namespace DataAlibabacloudstackCrEeRepos#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/cr_ee_repos#namespace DataAlibabacloudstackCrEeRepos#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/cr_ee_repos#output_file DataAlibabacloudstackCrEeRepos#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/cr_ee_repos#output_file DataAlibabacloudstackCrEeRepos#output_file}
   */
   readonly outputFile?: string;
 }
@@ -252,7 +252,7 @@ export class DataAlibabacloudstackCrEeReposReposList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/cr_ee_repos alibabacloudstack_cr_ee_repos}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/cr_ee_repos alibabacloudstack_cr_ee_repos}
 */
 export class DataAlibabacloudstackCrEeRepos extends cdktf.TerraformDataSource {
 
@@ -268,7 +268,7 @@ export class DataAlibabacloudstackCrEeRepos extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAlibabacloudstackCrEeRepos resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlibabacloudstackCrEeRepos to import
-  * @param importFromId The id of the existing DataAlibabacloudstackCrEeRepos that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/cr_ee_repos#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlibabacloudstackCrEeRepos that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/cr_ee_repos#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlibabacloudstackCrEeRepos to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -280,7 +280,7 @@ export class DataAlibabacloudstackCrEeRepos extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/cr_ee_repos alibabacloudstack_cr_ee_repos} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/cr_ee_repos alibabacloudstack_cr_ee_repos} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -291,7 +291,8 @@ export class DataAlibabacloudstackCrEeRepos extends cdktf.TerraformDataSource {
       terraformResourceType: 'alibabacloudstack_cr_ee_repos',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.19'
+        providerVersion: '3.16.21',
+        providerVersionConstraint: '3.16.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -61,7 +61,8 @@ export class WorkersForPlatformsDispatchNamespace extends cdktf.TerraformResourc
       terraformResourceType: 'cloudflare_workers_for_platforms_dispatch_namespace',
       terraformGeneratorMetadata: {
         providerName: 'cloudflare',
-        providerVersion: '5.12.0'
+        providerVersion: '5.12.0',
+        providerVersionConstraint: '5.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

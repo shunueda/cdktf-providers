@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/bgp
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bgp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,45 +8,64 @@ import * as cdktf from 'cdktf';
 
 export interface BgpConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/bgp#asn Bgp#asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bgp#asn Bgp#asn}
   */
   readonly asn: string;
   /**
+  * Graceful restart capability parameters
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bgp#bgp_graceful_restart Bgp#bgp_graceful_restart}
+  */
+  readonly bgpGracefulRestart?: boolean | cdktf.IResolvable;
+  /**
+  * Set the max initial delay for sending update
+  *   - Range: `1`-`3600`
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bgp#bgp_update_delay Bgp#bgp_update_delay}
+  */
+  readonly bgpUpdateDelay?: number;
+  /**
   * Activate ipv4-unicast for a peer by default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/bgp#default_ipv4_unicast Bgp#default_ipv4_unicast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bgp#default_ipv4_unicast Bgp#default_ipv4_unicast}
   */
   readonly defaultIpv4Unicast?: boolean | cdktf.IResolvable;
   /**
   * Configure behavior when deleting/destroying the resource. Either delete the entire object (YANG container) being managed, or only delete the individual resource attributes configured explicitly and leave everything else as-is. Default value is `all`.
   *   - Choices: `all`, `attributes`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/bgp#delete_mode Bgp#delete_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bgp#delete_mode Bgp#delete_mode}
   */
   readonly deleteMode?: string;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/bgp#device Bgp#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bgp#device Bgp#device}
   */
   readonly device?: string;
   /**
   * Log neighbor up/down and reset reason
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/bgp#log_neighbor_changes Bgp#log_neighbor_changes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bgp#log_neighbor_changes Bgp#log_neighbor_changes}
   */
   readonly logNeighborChanges?: boolean | cdktf.IResolvable;
+  /**
+  * Manually configured router identifier
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bgp#router_id_ip Bgp#router_id_ip}
+  */
+  readonly routerIdIp?: string;
   /**
   * Loopback interface
   *   - Range: `0`-`2147483647`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/bgp#router_id_loopback Bgp#router_id_loopback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bgp#router_id_loopback Bgp#router_id_loopback}
   */
   readonly routerIdLoopback?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/bgp iosxe_bgp}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bgp iosxe_bgp}
 */
 export class Bgp extends cdktf.TerraformResource {
 
@@ -62,7 +81,7 @@ export class Bgp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Bgp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Bgp to import
-  * @param importFromId The id of the existing Bgp that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/bgp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Bgp that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bgp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Bgp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +93,7 @@ export class Bgp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/bgp iosxe_bgp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bgp iosxe_bgp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,7 +104,8 @@ export class Bgp extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_bgp',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.9.3'
+        providerVersion: '0.10.0',
+        providerVersionConstraint: '0.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -96,10 +116,13 @@ export class Bgp extends cdktf.TerraformResource {
       forEach: config.forEach
     });
     this._asn = config.asn;
+    this._bgpGracefulRestart = config.bgpGracefulRestart;
+    this._bgpUpdateDelay = config.bgpUpdateDelay;
     this._defaultIpv4Unicast = config.defaultIpv4Unicast;
     this._deleteMode = config.deleteMode;
     this._device = config.device;
     this._logNeighborChanges = config.logNeighborChanges;
+    this._routerIdIp = config.routerIdIp;
     this._routerIdLoopback = config.routerIdLoopback;
   }
 
@@ -118,6 +141,38 @@ export class Bgp extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get asnInput() {
     return this._asn;
+  }
+
+  // bgp_graceful_restart - computed: false, optional: true, required: false
+  private _bgpGracefulRestart?: boolean | cdktf.IResolvable; 
+  public get bgpGracefulRestart() {
+    return this.getBooleanAttribute('bgp_graceful_restart');
+  }
+  public set bgpGracefulRestart(value: boolean | cdktf.IResolvable) {
+    this._bgpGracefulRestart = value;
+  }
+  public resetBgpGracefulRestart() {
+    this._bgpGracefulRestart = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bgpGracefulRestartInput() {
+    return this._bgpGracefulRestart;
+  }
+
+  // bgp_update_delay - computed: false, optional: true, required: false
+  private _bgpUpdateDelay?: number; 
+  public get bgpUpdateDelay() {
+    return this.getNumberAttribute('bgp_update_delay');
+  }
+  public set bgpUpdateDelay(value: number) {
+    this._bgpUpdateDelay = value;
+  }
+  public resetBgpUpdateDelay() {
+    this._bgpUpdateDelay = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bgpUpdateDelayInput() {
+    return this._bgpUpdateDelay;
   }
 
   // default_ipv4_unicast - computed: false, optional: true, required: false
@@ -189,6 +244,22 @@ export class Bgp extends cdktf.TerraformResource {
     return this._logNeighborChanges;
   }
 
+  // router_id_ip - computed: false, optional: true, required: false
+  private _routerIdIp?: string; 
+  public get routerIdIp() {
+    return this.getStringAttribute('router_id_ip');
+  }
+  public set routerIdIp(value: string) {
+    this._routerIdIp = value;
+  }
+  public resetRouterIdIp() {
+    this._routerIdIp = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get routerIdIpInput() {
+    return this._routerIdIp;
+  }
+
   // router_id_loopback - computed: false, optional: true, required: false
   private _routerIdLoopback?: number; 
   public get routerIdLoopback() {
@@ -212,10 +283,13 @@ export class Bgp extends cdktf.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       asn: cdktf.stringToTerraform(this._asn),
+      bgp_graceful_restart: cdktf.booleanToTerraform(this._bgpGracefulRestart),
+      bgp_update_delay: cdktf.numberToTerraform(this._bgpUpdateDelay),
       default_ipv4_unicast: cdktf.booleanToTerraform(this._defaultIpv4Unicast),
       delete_mode: cdktf.stringToTerraform(this._deleteMode),
       device: cdktf.stringToTerraform(this._device),
       log_neighbor_changes: cdktf.booleanToTerraform(this._logNeighborChanges),
+      router_id_ip: cdktf.stringToTerraform(this._routerIdIp),
       router_id_loopback: cdktf.numberToTerraform(this._routerIdLoopback),
     };
   }
@@ -227,6 +301,18 @@ export class Bgp extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      bgp_graceful_restart: {
+        value: cdktf.booleanToHclTerraform(this._bgpGracefulRestart),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      bgp_update_delay: {
+        value: cdktf.numberToHclTerraform(this._bgpUpdateDelay),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
       },
       default_ipv4_unicast: {
         value: cdktf.booleanToHclTerraform(this._defaultIpv4Unicast),
@@ -251,6 +337,12 @@ export class Bgp extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
+      },
+      router_id_ip: {
+        value: cdktf.stringToHclTerraform(this._routerIdIp),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
       router_id_loopback: {
         value: cdktf.numberToHclTerraform(this._routerIdLoopback),

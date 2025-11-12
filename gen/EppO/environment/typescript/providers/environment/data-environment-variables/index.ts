@@ -64,7 +64,8 @@ export class DataEnvironmentVariables extends cdktf.TerraformDataSource {
       terraformResourceType: 'environment_variables',
       terraformGeneratorMetadata: {
         providerName: 'environment',
-        providerVersion: '1.3.8'
+        providerVersion: '1.3.8',
+        providerVersionConstraint: '1.3.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

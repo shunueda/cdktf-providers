@@ -256,7 +256,8 @@ export class DataK8SHelmSigstoreDevRekorV1Alpha1Manifest extends cdktf.Terraform
       terraformResourceType: 'k8s_helm_sigstore_dev_rekor_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

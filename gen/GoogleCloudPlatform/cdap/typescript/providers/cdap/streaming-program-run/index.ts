@@ -219,7 +219,8 @@ export class StreamingProgramRun extends cdktf.TerraformResource {
       terraformResourceType: 'cdap_streaming_program_run',
       terraformGeneratorMetadata: {
         providerName: 'cdap',
-        providerVersion: '0.11.0'
+        providerVersion: '0.11.0',
+        providerVersionConstraint: '0.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

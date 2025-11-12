@@ -549,7 +549,8 @@ export class NotificationChannel extends cdktf.TerraformResource {
       terraformResourceType: 'astro_notification_channel',
       terraformGeneratorMetadata: {
         providerName: 'astro',
-        providerVersion: '1.0.8'
+        providerVersion: '1.0.8',
+        providerVersionConstraint: '1.0.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

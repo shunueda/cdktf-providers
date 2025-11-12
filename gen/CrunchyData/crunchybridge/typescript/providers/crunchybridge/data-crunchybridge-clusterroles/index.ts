@@ -148,7 +148,8 @@ export class DataCrunchybridgeClusterroles extends cdktf.TerraformDataSource {
       terraformResourceType: 'crunchybridge_clusterroles',
       terraformGeneratorMetadata: {
         providerName: 'crunchybridge',
-        providerVersion: '0.3.0'
+        providerVersion: '0.3.0',
+        providerVersionConstraint: '0.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

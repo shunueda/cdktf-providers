@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_ct_ip_link
+// https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_ct_ip_link
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface DataApstraDatacenterCtIpLinkConfig extends cdktf.TerraformMetaA
   /**
   * Set of JSON strings describing Connectivity Template Primitives which are children of this Connectivity Template Primitive. Use the `primitive` attribute of other Connectivity Template Primitives data sources here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_ct_ip_link#child_primitives DataApstraDatacenterCtIpLink#child_primitives}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_ct_ip_link#child_primitives DataApstraDatacenterCtIpLink#child_primitives}
   */
   readonly childPrimitives?: string[];
   /**
   * One of `numbered`, `none` (or omit)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_ct_ip_link#ipv4_addressing_type DataApstraDatacenterCtIpLink#ipv4_addressing_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_ct_ip_link#ipv4_addressing_type DataApstraDatacenterCtIpLink#ipv4_addressing_type}
   */
   readonly ipv4AddressingType?: string;
   /**
   * One of `link_local`, `numbered`, `none` (or omit)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_ct_ip_link#ipv6_addressing_type DataApstraDatacenterCtIpLink#ipv6_addressing_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_ct_ip_link#ipv6_addressing_type DataApstraDatacenterCtIpLink#ipv6_addressing_type}
   */
   readonly ipv6AddressingType?: string;
   /**
   * L3 MTU for sub-interfaces on leaf (spine/superspine) side and generic side. Configuration is applicable only when Fabric MTU is enabled. Value must be even number rom 1280 to 9216, if not specified - Default IP Links to Generic Systems MTU from Virtual Network Policy s used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_ct_ip_link#l3_mtu DataApstraDatacenterCtIpLink#l3_mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_ct_ip_link#l3_mtu DataApstraDatacenterCtIpLink#l3_mtu}
   */
   readonly l3Mtu?: number;
   /**
   * Primitive name displayed in the web UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_ct_ip_link#name DataApstraDatacenterCtIpLink#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_ct_ip_link#name DataApstraDatacenterCtIpLink#name}
   */
   readonly name?: string;
   /**
   * Apstra Object ID of the Routing Zone to which this IP Link belongs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_ct_ip_link#routing_zone_id DataApstraDatacenterCtIpLink#routing_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_ct_ip_link#routing_zone_id DataApstraDatacenterCtIpLink#routing_zone_id}
   */
   readonly routingZoneId: string;
   /**
   * When set, selects the 802.1Q VLAN ID to use for the link's traffic. Omit for an untagged link.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_ct_ip_link#vlan_id DataApstraDatacenterCtIpLink#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_ct_ip_link#vlan_id DataApstraDatacenterCtIpLink#vlan_id}
   */
   readonly vlanId?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_ct_ip_link apstra_datacenter_ct_ip_link}
+* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_ct_ip_link apstra_datacenter_ct_ip_link}
 */
 export class DataApstraDatacenterCtIpLink extends cdktf.TerraformDataSource {
 
@@ -68,7 +68,7 @@ export class DataApstraDatacenterCtIpLink extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataApstraDatacenterCtIpLink resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataApstraDatacenterCtIpLink to import
-  * @param importFromId The id of the existing DataApstraDatacenterCtIpLink that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_ct_ip_link#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataApstraDatacenterCtIpLink that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_ct_ip_link#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataApstraDatacenterCtIpLink to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +80,7 @@ export class DataApstraDatacenterCtIpLink extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_ct_ip_link apstra_datacenter_ct_ip_link} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_ct_ip_link apstra_datacenter_ct_ip_link} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,7 +91,8 @@ export class DataApstraDatacenterCtIpLink extends cdktf.TerraformDataSource {
       terraformResourceType: 'apstra_datacenter_ct_ip_link',
       terraformGeneratorMetadata: {
         providerName: 'apstra',
-        providerVersion: '0.95.0'
+        providerVersion: '0.95.1',
+        providerVersionConstraint: '0.95.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

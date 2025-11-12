@@ -278,7 +278,8 @@ export class CertificateSelfSign extends cdktf.TerraformResource {
       terraformResourceType: 'samsungcloudplatform_certificate_self_sign',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0'
+        providerVersion: '3.15.0',
+        providerVersionConstraint: '3.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

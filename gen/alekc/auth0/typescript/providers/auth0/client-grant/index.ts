@@ -68,7 +68,8 @@ export class ClientGrant extends cdktf.TerraformResource {
       terraformResourceType: 'auth0_client_grant',
       terraformGeneratorMetadata: {
         providerName: 'auth0',
-        providerVersion: '1.1.3'
+        providerVersion: '1.1.3',
+        providerVersionConstraint: '1.1.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/firewall_settings
+// https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/firewall_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -79,7 +79,7 @@ export class DataLinodeFirewallSettingsDefaultFirewallIdsOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/firewall_settings linode_firewall_settings}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/firewall_settings linode_firewall_settings}
 */
 export class DataLinodeFirewallSettings extends cdktf.TerraformDataSource {
 
@@ -95,7 +95,7 @@ export class DataLinodeFirewallSettings extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataLinodeFirewallSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataLinodeFirewallSettings to import
-  * @param importFromId The id of the existing DataLinodeFirewallSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/firewall_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataLinodeFirewallSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/firewall_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataLinodeFirewallSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -107,7 +107,7 @@ export class DataLinodeFirewallSettings extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/firewall_settings linode_firewall_settings} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/firewall_settings linode_firewall_settings} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -118,7 +118,8 @@ export class DataLinodeFirewallSettings extends cdktf.TerraformDataSource {
       terraformResourceType: 'linode_firewall_settings',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.5.0'
+        providerVersion: '3.5.1',
+        providerVersionConstraint: '3.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

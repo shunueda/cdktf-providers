@@ -234,7 +234,8 @@ export class CloudFirewallThreatIntelligenceSwitch extends cdktf.TerraformResour
       terraformResourceType: 'alicloud_cloud_firewall_threat_intelligence_switch',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

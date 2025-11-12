@@ -67,7 +67,8 @@ export class DataOauthToken extends cdktf.TerraformDataSource {
       terraformResourceType: 'oauth_token',
       terraformGeneratorMetadata: {
         providerName: 'oauth',
-        providerVersion: '1.6.7'
+        providerVersion: '1.6.7',
+        providerVersionConstraint: '1.6.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -67,7 +67,8 @@ export class CertificatesRevocationOcspCertificate extends cdktf.TerraformResour
       terraformResourceType: 'pingfederate_certificates_revocation_ocsp_certificate',
       terraformGeneratorMetadata: {
         providerName: 'pingfederate',
-        providerVersion: '1.6.2'
+        providerVersion: '1.6.2',
+        providerVersionConstraint: '1.6.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

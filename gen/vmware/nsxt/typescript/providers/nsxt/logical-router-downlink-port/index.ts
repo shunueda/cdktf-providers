@@ -416,7 +416,8 @@ export class LogicalRouterDownlinkPort extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_logical_router_downlink_port',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0'
+        providerVersion: '3.10.0',
+        providerVersionConstraint: '3.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

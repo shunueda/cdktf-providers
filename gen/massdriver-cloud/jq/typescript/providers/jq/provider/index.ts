@@ -55,7 +55,8 @@ export class JqProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'jq',
       terraformGeneratorMetadata: {
         providerName: 'jq',
-        providerVersion: '0.2.1'
+        providerVersion: '0.2.1',
+        providerVersionConstraint: '0.2.1'
       },
       terraformProviderSource: 'massdriver-cloud/jq'
     });

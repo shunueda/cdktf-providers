@@ -289,7 +289,8 @@ export class RestapiProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'restapi',
       terraformGeneratorMetadata: {
         providerName: 'restapi',
-        providerVersion: '1.18.2'
+        providerVersion: '1.18.2',
+        providerVersionConstraint: '1.18.2'
       },
       terraformProviderSource: 'KirillMeleshko/restapi'
     });

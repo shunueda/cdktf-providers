@@ -356,7 +356,8 @@ export class DataPowerscaleSynciqPeerCertificate extends cdktf.TerraformDataSour
       terraformResourceType: 'powerscale_synciq_peer_certificate',
       terraformGeneratorMetadata: {
         providerName: 'powerscale',
-        providerVersion: '1.8.0'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

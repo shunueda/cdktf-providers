@@ -237,7 +237,8 @@ export class DataAlicloudPrivatelinkVpcEndpoints extends cdktf.TerraformDataSour
       terraformResourceType: 'alicloud_privatelink_vpc_endpoints',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

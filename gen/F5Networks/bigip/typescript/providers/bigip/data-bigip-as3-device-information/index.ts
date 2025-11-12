@@ -68,7 +68,8 @@ export class DataBigipAs3DeviceInformation extends cdktf.TerraformDataSource {
       terraformResourceType: 'bigip_as3_device_information',
       terraformGeneratorMetadata: {
         providerName: 'bigip',
-        providerVersion: '1.24.1'
+        providerVersion: '1.24.1',
+        providerVersionConstraint: '1.24.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

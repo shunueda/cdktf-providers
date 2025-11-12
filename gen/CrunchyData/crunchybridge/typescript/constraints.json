@@ -1,4 +1,6 @@
 {
   "cdktf": "0.21.0",
-  "providers": {}
+  "providers": {
+    "crunchybridge": "0.3.0"
+  }
 }

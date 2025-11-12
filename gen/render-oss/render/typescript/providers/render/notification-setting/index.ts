@@ -67,7 +67,8 @@ export class NotificationSetting extends cdktf.TerraformResource {
       terraformResourceType: 'render_notification_setting',
       terraformGeneratorMetadata: {
         providerName: 'render',
-        providerVersion: '1.7.5'
+        providerVersion: '1.7.5',
+        providerVersionConstraint: '1.7.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

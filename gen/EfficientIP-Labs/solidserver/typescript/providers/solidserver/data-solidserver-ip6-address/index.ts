@@ -68,7 +68,8 @@ export class DataSolidserverIp6Address extends cdktf.TerraformDataSource {
       terraformResourceType: 'solidserver_ip6_address',
       terraformGeneratorMetadata: {
         providerName: 'solidserver',
-        providerVersion: '1.1.25'
+        providerVersion: '1.1.25',
+        providerVersionConstraint: '1.1.25'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

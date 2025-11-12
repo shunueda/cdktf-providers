@@ -73,7 +73,8 @@ export class VmStart extends cdktf.TerraformResource {
       terraformResourceType: 'ovirt_vm_start',
       terraformGeneratorMetadata: {
         providerName: 'ovirt',
-        providerVersion: '2.1.5'
+        providerVersion: '2.1.5',
+        providerVersionConstraint: '2.1.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

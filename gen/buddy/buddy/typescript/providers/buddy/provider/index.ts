@@ -79,7 +79,8 @@ export class BuddyProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'buddy',
       terraformGeneratorMetadata: {
         providerName: 'buddy',
-        providerVersion: '1.37.1'
+        providerVersion: '1.37.1',
+        providerVersionConstraint: '1.37.1'
       },
       terraformProviderSource: 'buddy/buddy'
     });

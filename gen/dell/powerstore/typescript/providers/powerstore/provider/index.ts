@@ -85,7 +85,8 @@ export class PowerstoreProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'powerstore',
       terraformGeneratorMetadata: {
         providerName: 'powerstore',
-        providerVersion: '1.2.1'
+        providerVersion: '1.2.1',
+        providerVersionConstraint: '1.2.1'
       },
       terraformProviderSource: 'dell/powerstore'
     });

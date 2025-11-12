@@ -397,7 +397,8 @@ export class ServerSettingsWsTrustStsSettings extends cdktf.TerraformResource {
       terraformResourceType: 'pingfederate_server_settings_ws_trust_sts_settings',
       terraformGeneratorMetadata: {
         providerName: 'pingfederate',
-        providerVersion: '1.6.2'
+        providerVersion: '1.6.2',
+        providerVersionConstraint: '1.6.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

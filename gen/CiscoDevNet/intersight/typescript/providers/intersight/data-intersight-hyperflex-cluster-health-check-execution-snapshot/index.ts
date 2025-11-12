@@ -4689,7 +4689,8 @@ export class DataIntersightHyperflexClusterHealthCheckExecutionSnapshot extends 
       terraformResourceType: 'intersight_hyperflex_cluster_health_check_execution_snapshot',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

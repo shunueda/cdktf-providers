@@ -118,7 +118,8 @@ export class IdentityProviderKeycloak extends cdktf.TerraformResource {
       terraformResourceType: 'mailcow_identity_provider_keycloak',
       terraformGeneratorMetadata: {
         providerName: 'mailcow',
-        providerVersion: '0.10.2'
+        providerVersion: '0.10.2',
+        providerVersionConstraint: '0.10.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

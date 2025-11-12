@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/botmapping
+// https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/botmapping
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,38 +8,38 @@ import * as cdktf from 'cdktf';
 
 export interface BotmappingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/botmapping#id Botmapping#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/botmapping#id Botmapping#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/botmapping#name Botmapping#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/botmapping#name Botmapping#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/botmapping#tenant_ref Botmapping#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/botmapping#tenant_ref Botmapping#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/botmapping#uuid Botmapping#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/botmapping#uuid Botmapping#uuid}
   */
   readonly uuid?: string;
   /**
   * mapping_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/botmapping#mapping_rules Botmapping#mapping_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/botmapping#mapping_rules Botmapping#mapping_rules}
   */
   readonly mappingRules?: BotmappingMappingRules[] | cdktf.IResolvable;
 }
 export interface BotmappingMappingRulesClassification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/botmapping#type Botmapping#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/botmapping#type Botmapping#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/botmapping#user_defined_type Botmapping#user_defined_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/botmapping#user_defined_type Botmapping#user_defined_type}
   */
   readonly userDefinedType?: string;
 }
@@ -181,11 +181,11 @@ export class BotmappingMappingRulesClassificationList extends cdktf.ComplexList 
 }
 export interface BotmappingMappingRulesMatchClassMatcher {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/botmapping#client_classes Botmapping#client_classes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/botmapping#client_classes Botmapping#client_classes}
   */
   readonly clientClasses: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/botmapping#op Botmapping#op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/botmapping#op Botmapping#op}
   */
   readonly op?: string;
 }
@@ -327,11 +327,11 @@ export class BotmappingMappingRulesMatchClassMatcherList extends cdktf.ComplexLi
 }
 export interface BotmappingMappingRulesMatchClientIpAddrs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/botmapping#addr Botmapping#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/botmapping#addr Botmapping#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/botmapping#type Botmapping#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/botmapping#type Botmapping#type}
   */
   readonly type: string;
 }
@@ -470,11 +470,11 @@ export class BotmappingMappingRulesMatchClientIpAddrsList extends cdktf.ComplexL
 }
 export interface BotmappingMappingRulesMatchClientIpPrefixesIpAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/botmapping#addr Botmapping#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/botmapping#addr Botmapping#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/botmapping#type Botmapping#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/botmapping#type Botmapping#type}
   */
   readonly type: string;
 }
@@ -613,13 +613,13 @@ export class BotmappingMappingRulesMatchClientIpPrefixesIpAddrList extends cdktf
 }
 export interface BotmappingMappingRulesMatchClientIpPrefixes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/botmapping#mask Botmapping#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/botmapping#mask Botmapping#mask}
   */
   readonly mask: string;
   /**
   * ip_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/botmapping#ip_addr Botmapping#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/botmapping#ip_addr Botmapping#ip_addr}
   */
   readonly ipAddr: BotmappingMappingRulesMatchClientIpPrefixesIpAddr[] | cdktf.IResolvable;
 }
@@ -758,11 +758,11 @@ export class BotmappingMappingRulesMatchClientIpPrefixesList extends cdktf.Compl
 }
 export interface BotmappingMappingRulesMatchClientIpRangesBegin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/botmapping#addr Botmapping#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/botmapping#addr Botmapping#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/botmapping#type Botmapping#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/botmapping#type Botmapping#type}
   */
   readonly type: string;
 }
@@ -901,11 +901,11 @@ export class BotmappingMappingRulesMatchClientIpRangesBeginList extends cdktf.Co
 }
 export interface BotmappingMappingRulesMatchClientIpRangesEnd {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/botmapping#addr Botmapping#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/botmapping#addr Botmapping#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/botmapping#type Botmapping#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/botmapping#type Botmapping#type}
   */
   readonly type: string;
 }
@@ -1046,13 +1046,13 @@ export interface BotmappingMappingRulesMatchClientIpRanges {
   /**
   * begin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/botmapping#begin Botmapping#begin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/botmapping#begin Botmapping#begin}
   */
   readonly begin: BotmappingMappingRulesMatchClientIpRangesBegin[] | cdktf.IResolvable;
   /**
   * end block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/botmapping#end Botmapping#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/botmapping#end Botmapping#end}
   */
   readonly end: BotmappingMappingRulesMatchClientIpRangesEnd[] | cdktf.IResolvable;
 }
@@ -1191,29 +1191,29 @@ export class BotmappingMappingRulesMatchClientIpRangesList extends cdktf.Complex
 }
 export interface BotmappingMappingRulesMatchClientIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/botmapping#group_refs Botmapping#group_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/botmapping#group_refs Botmapping#group_refs}
   */
   readonly groupRefs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/botmapping#match_criteria Botmapping#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/botmapping#match_criteria Botmapping#match_criteria}
   */
   readonly matchCriteria: string;
   /**
   * addrs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/botmapping#addrs Botmapping#addrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/botmapping#addrs Botmapping#addrs}
   */
   readonly addrs?: BotmappingMappingRulesMatchClientIpAddrs[] | cdktf.IResolvable;
   /**
   * prefixes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/botmapping#prefixes Botmapping#prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/botmapping#prefixes Botmapping#prefixes}
   */
   readonly prefixes?: BotmappingMappingRulesMatchClientIpPrefixes[] | cdktf.IResolvable;
   /**
   * ranges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/botmapping#ranges Botmapping#ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/botmapping#ranges Botmapping#ranges}
   */
   readonly ranges?: BotmappingMappingRulesMatchClientIpRanges[] | cdktf.IResolvable;
 }
@@ -1442,23 +1442,19 @@ export class BotmappingMappingRulesMatchClientIpList extends cdktf.ComplexList {
 }
 export interface BotmappingMappingRulesMatchHdrs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/botmapping#hdr Botmapping#hdr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/botmapping#hdr Botmapping#hdr}
   */
   readonly hdr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/botmapping#match_case Botmapping#match_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/botmapping#match_case Botmapping#match_case}
   */
   readonly matchCase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/botmapping#match_criteria Botmapping#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/botmapping#match_criteria Botmapping#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/botmapping#string_group_refs Botmapping#string_group_refs}
-  */
-  readonly stringGroupRefs?: string[];
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/botmapping#value Botmapping#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/botmapping#value Botmapping#value}
   */
   readonly value?: string[];
 }
@@ -1472,7 +1468,6 @@ export function botmappingMappingRulesMatchHdrsToTerraform(struct?: BotmappingMa
     hdr: cdktf.stringToTerraform(struct!.hdr),
     match_case: cdktf.stringToTerraform(struct!.matchCase),
     match_criteria: cdktf.stringToTerraform(struct!.matchCriteria),
-    string_group_refs: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.stringGroupRefs),
     value: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.value),
   }
 }
@@ -1501,12 +1496,6 @@ export function botmappingMappingRulesMatchHdrsToHclTerraform(struct?: Botmappin
       isBlock: false,
       type: "simple",
       storageClassType: "string",
-    },
-    string_group_refs: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.stringGroupRefs),
-      isBlock: false,
-      type: "list",
-      storageClassType: "stringList",
     },
     value: {
       value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.value),
@@ -1552,10 +1541,6 @@ export class BotmappingMappingRulesMatchHdrsOutputReference extends cdktf.Comple
       hasAnyValues = true;
       internalValueResult.matchCriteria = this._matchCriteria;
     }
-    if (this._stringGroupRefs !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.stringGroupRefs = this._stringGroupRefs;
-    }
     if (this._value !== undefined) {
       hasAnyValues = true;
       internalValueResult.value = this._value;
@@ -1570,7 +1555,6 @@ export class BotmappingMappingRulesMatchHdrsOutputReference extends cdktf.Comple
       this._hdr = undefined;
       this._matchCase = undefined;
       this._matchCriteria = undefined;
-      this._stringGroupRefs = undefined;
       this._value = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
@@ -1583,7 +1567,6 @@ export class BotmappingMappingRulesMatchHdrsOutputReference extends cdktf.Comple
       this._hdr = value.hdr;
       this._matchCase = value.matchCase;
       this._matchCriteria = value.matchCriteria;
-      this._stringGroupRefs = value.stringGroupRefs;
       this._value = value.value;
     }
   }
@@ -1630,22 +1613,6 @@ export class BotmappingMappingRulesMatchHdrsOutputReference extends cdktf.Comple
     return this._matchCriteria;
   }
 
-  // string_group_refs - computed: false, optional: true, required: false
-  private _stringGroupRefs?: string[]; 
-  public get stringGroupRefs() {
-    return this.getListAttribute('string_group_refs');
-  }
-  public set stringGroupRefs(value: string[]) {
-    this._stringGroupRefs = value;
-  }
-  public resetStringGroupRefs() {
-    this._stringGroupRefs = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get stringGroupRefsInput() {
-    return this._stringGroupRefs;
-  }
-
   // value - computed: false, optional: true, required: false
   private _value?: string[]; 
   public get value() {
@@ -1684,15 +1651,15 @@ export class BotmappingMappingRulesMatchHdrsList extends cdktf.ComplexList {
 }
 export interface BotmappingMappingRulesMatchHostHdr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/botmapping#match_case Botmapping#match_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/botmapping#match_case Botmapping#match_case}
   */
   readonly matchCase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/botmapping#match_criteria Botmapping#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/botmapping#match_criteria Botmapping#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/botmapping#value Botmapping#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/botmapping#value Botmapping#value}
   */
   readonly value?: string[];
 }
@@ -1863,15 +1830,15 @@ export class BotmappingMappingRulesMatchHostHdrList extends cdktf.ComplexList {
 }
 export interface BotmappingMappingRulesMatchIdentifierMatcher {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/botmapping#match_criteria Botmapping#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/botmapping#match_criteria Botmapping#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/botmapping#match_str Botmapping#match_str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/botmapping#match_str Botmapping#match_str}
   */
   readonly matchStr?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/botmapping#string_group_refs Botmapping#string_group_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/botmapping#string_group_refs Botmapping#string_group_refs}
   */
   readonly stringGroupRefs?: string[];
 }
@@ -2042,11 +2009,11 @@ export class BotmappingMappingRulesMatchIdentifierMatcherList extends cdktf.Comp
 }
 export interface BotmappingMappingRulesMatchMethod {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/botmapping#match_criteria Botmapping#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/botmapping#match_criteria Botmapping#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/botmapping#methods Botmapping#methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/botmapping#methods Botmapping#methods}
   */
   readonly methods: string[];
 }
@@ -2185,23 +2152,23 @@ export class BotmappingMappingRulesMatchMethodList extends cdktf.ComplexList {
 }
 export interface BotmappingMappingRulesMatchPath {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/botmapping#match_case Botmapping#match_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/botmapping#match_case Botmapping#match_case}
   */
   readonly matchCase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/botmapping#match_criteria Botmapping#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/botmapping#match_criteria Botmapping#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/botmapping#match_decoded_string Botmapping#match_decoded_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/botmapping#match_decoded_string Botmapping#match_decoded_string}
   */
   readonly matchDecodedString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/botmapping#match_str Botmapping#match_str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/botmapping#match_str Botmapping#match_str}
   */
   readonly matchStr?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/botmapping#string_group_refs Botmapping#string_group_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/botmapping#string_group_refs Botmapping#string_group_refs}
   */
   readonly stringGroupRefs?: string[];
 }
@@ -2430,11 +2397,11 @@ export class BotmappingMappingRulesMatchPathList extends cdktf.ComplexList {
 }
 export interface BotmappingMappingRulesMatchTypeMatcher {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/botmapping#client_types Botmapping#client_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/botmapping#client_types Botmapping#client_types}
   */
   readonly clientTypes: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/botmapping#op Botmapping#op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/botmapping#op Botmapping#op}
   */
   readonly op?: string;
 }
@@ -2576,55 +2543,55 @@ export class BotmappingMappingRulesMatchTypeMatcherList extends cdktf.ComplexLis
 }
 export interface BotmappingMappingRulesMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/botmapping#component_matcher Botmapping#component_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/botmapping#component_matcher Botmapping#component_matcher}
   */
   readonly componentMatcher?: string;
   /**
   * class_matcher block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/botmapping#class_matcher Botmapping#class_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/botmapping#class_matcher Botmapping#class_matcher}
   */
   readonly classMatcher?: BotmappingMappingRulesMatchClassMatcher[] | cdktf.IResolvable;
   /**
   * client_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/botmapping#client_ip Botmapping#client_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/botmapping#client_ip Botmapping#client_ip}
   */
   readonly clientIp?: BotmappingMappingRulesMatchClientIp[] | cdktf.IResolvable;
   /**
   * hdrs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/botmapping#hdrs Botmapping#hdrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/botmapping#hdrs Botmapping#hdrs}
   */
   readonly hdrs?: BotmappingMappingRulesMatchHdrs[] | cdktf.IResolvable;
   /**
   * host_hdr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/botmapping#host_hdr Botmapping#host_hdr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/botmapping#host_hdr Botmapping#host_hdr}
   */
   readonly hostHdr?: BotmappingMappingRulesMatchHostHdr[] | cdktf.IResolvable;
   /**
   * identifier_matcher block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/botmapping#identifier_matcher Botmapping#identifier_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/botmapping#identifier_matcher Botmapping#identifier_matcher}
   */
   readonly identifierMatcher?: BotmappingMappingRulesMatchIdentifierMatcher[] | cdktf.IResolvable;
   /**
   * method block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/botmapping#method Botmapping#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/botmapping#method Botmapping#method}
   */
   readonly method?: BotmappingMappingRulesMatchMethod[] | cdktf.IResolvable;
   /**
   * path block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/botmapping#path Botmapping#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/botmapping#path Botmapping#path}
   */
   readonly path?: BotmappingMappingRulesMatchPath[] | cdktf.IResolvable;
   /**
   * type_matcher block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/botmapping#type_matcher Botmapping#type_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/botmapping#type_matcher Botmapping#type_matcher}
   */
   readonly typeMatcher?: BotmappingMappingRulesMatchTypeMatcher[] | cdktf.IResolvable;
 }
@@ -2972,23 +2939,23 @@ export class BotmappingMappingRulesMatchList extends cdktf.ComplexList {
 }
 export interface BotmappingMappingRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/botmapping#index Botmapping#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/botmapping#index Botmapping#index}
   */
   readonly index: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/botmapping#name Botmapping#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/botmapping#name Botmapping#name}
   */
   readonly name: string;
   /**
   * classification block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/botmapping#classification Botmapping#classification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/botmapping#classification Botmapping#classification}
   */
   readonly classification: BotmappingMappingRulesClassification[] | cdktf.IResolvable;
   /**
   * match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/botmapping#match Botmapping#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/botmapping#match Botmapping#match}
   */
   readonly match: BotmappingMappingRulesMatch[] | cdktf.IResolvable;
 }
@@ -3179,7 +3146,7 @@ export class BotmappingMappingRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/botmapping avi_botmapping}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/botmapping avi_botmapping}
 */
 export class Botmapping extends cdktf.TerraformResource {
 
@@ -3195,7 +3162,7 @@ export class Botmapping extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Botmapping resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Botmapping to import
-  * @param importFromId The id of the existing Botmapping that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/botmapping#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Botmapping that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/botmapping#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Botmapping to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3207,7 +3174,7 @@ export class Botmapping extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/botmapping avi_botmapping} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/botmapping avi_botmapping} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3218,7 +3185,8 @@ export class Botmapping extends cdktf.TerraformResource {
       terraformResourceType: 'avi_botmapping',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '31.1.1'
+        providerVersion: '30.2.5',
+        providerVersionConstraint: '30.2.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

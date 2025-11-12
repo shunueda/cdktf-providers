@@ -64,7 +64,8 @@ export class DataFortiadcLoadBalanceVirtualServerlist extends cdktf.TerraformDat
       terraformResourceType: 'fortiadc_load_balance_virtual_serverlist',
       terraformGeneratorMetadata: {
         providerName: 'fortiadc',
-        providerVersion: '1.3.1'
+        providerVersion: '1.3.1',
+        providerVersionConstraint: '1.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

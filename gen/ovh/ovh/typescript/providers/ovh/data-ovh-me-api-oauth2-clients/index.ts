@@ -56,7 +56,8 @@ export class DataOvhMeApiOauth2Clients extends cdktf.TerraformDataSource {
       terraformResourceType: 'ovh_me_api_oauth2_clients',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0'
+        providerVersion: '2.9.0',
+        providerVersionConstraint: '2.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

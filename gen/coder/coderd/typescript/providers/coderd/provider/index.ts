@@ -73,7 +73,8 @@ export class CoderdProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'coderd',
       terraformGeneratorMetadata: {
         providerName: 'coderd',
-        providerVersion: '0.0.12'
+        providerVersion: '0.0.12',
+        providerVersionConstraint: '0.0.12'
       },
       terraformProviderSource: 'coder/coderd'
     });

@@ -4507,7 +4507,8 @@ export class DataIntersightMonitoringHealthStatus extends cdktf.TerraformDataSou
       terraformResourceType: 'intersight_monitoring_health_status',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

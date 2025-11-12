@@ -209,7 +209,8 @@ export class Mk8S extends cdktf.TerraformResource {
       terraformResourceType: 'cpln_mk8s',
       terraformGeneratorMetadata: {
         providerName: 'cpln',
-        providerVersion: '1.2.14'
+        providerVersion: '1.2.14',
+        providerVersionConstraint: '1.2.14'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

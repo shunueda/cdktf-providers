@@ -68,7 +68,8 @@ export class DataFortiadcRouterAccessList6ChildRulelist extends cdktf.TerraformD
       terraformResourceType: 'fortiadc_router_access_list6_child_rulelist',
       terraformGeneratorMetadata: {
         providerName: 'fortiadc',
-        providerVersion: '1.3.1'
+        providerVersion: '1.3.1',
+        providerVersionConstraint: '1.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

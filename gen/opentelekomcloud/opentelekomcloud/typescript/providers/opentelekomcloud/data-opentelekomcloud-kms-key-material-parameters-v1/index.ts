@@ -68,7 +68,8 @@ export class DataOpentelekomcloudKmsKeyMaterialParametersV1 extends cdktf.Terraf
       terraformResourceType: 'opentelekomcloud_kms_key_material_parameters_v1',
       terraformGeneratorMetadata: {
         providerName: 'opentelekomcloud',
-        providerVersion: '1.36.52'
+        providerVersion: '1.36.52',
+        providerVersionConstraint: '1.36.52'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

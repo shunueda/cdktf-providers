@@ -710,7 +710,8 @@ export class Probe extends cdktf.TerraformResource {
       terraformResourceType: 'zentral_probe',
       terraformGeneratorMetadata: {
         providerName: 'zentral',
-        providerVersion: '0.1.64'
+        providerVersion: '0.1.64',
+        providerVersionConstraint: '0.1.64'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

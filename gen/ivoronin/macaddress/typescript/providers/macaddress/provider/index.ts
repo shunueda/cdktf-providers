@@ -55,7 +55,8 @@ export class MacaddressProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'macaddress',
       terraformGeneratorMetadata: {
         providerName: 'macaddress',
-        providerVersion: '0.3.2'
+        providerVersion: '0.3.2',
+        providerVersionConstraint: '0.3.2'
       },
       terraformProviderSource: 'ivoronin/macaddress'
     });

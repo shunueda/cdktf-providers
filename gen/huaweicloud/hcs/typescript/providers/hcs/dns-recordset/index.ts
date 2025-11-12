@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dns_recordset
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dns_recordset
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DnsRecordsetConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specifies the description of the record set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dns_recordset#description DnsRecordset#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dns_recordset#description DnsRecordset#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dns_recordset#id DnsRecordset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dns_recordset#id DnsRecordset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -24,65 +24,65 @@ export interface DnsRecordsetConfig extends cdktf.TerraformMetaArguments {
   * Specifies the name of the record set. The name suffixed with a zone name, which is a
   * complete host name ended with a dot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dns_recordset#name DnsRecordset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dns_recordset#name DnsRecordset#name}
   */
   readonly name: string;
   /**
   * Specifies an array of DNS records. The value rules vary depending on the record set type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dns_recordset#records DnsRecordset#records}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dns_recordset#records DnsRecordset#records}
   */
   readonly records: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dns_recordset#region DnsRecordset#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dns_recordset#region DnsRecordset#region}
   */
   readonly region?: string;
   /**
   * Specifies the status of the record set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dns_recordset#status DnsRecordset#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dns_recordset#status DnsRecordset#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dns_recordset#tags DnsRecordset#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dns_recordset#tags DnsRecordset#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * Specifies the time to live (TTL) of the record set (in seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dns_recordset#ttl DnsRecordset#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dns_recordset#ttl DnsRecordset#ttl}
   */
   readonly ttl?: number;
   /**
   * Specifies the type of the record set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dns_recordset#type DnsRecordset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dns_recordset#type DnsRecordset#type}
   */
   readonly type: string;
   /**
   * Specifies the zone ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dns_recordset#zone_id DnsRecordset#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dns_recordset#zone_id DnsRecordset#zone_id}
   */
   readonly zoneId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dns_recordset#timeouts DnsRecordset#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dns_recordset#timeouts DnsRecordset#timeouts}
   */
   readonly timeouts?: DnsRecordsetTimeouts;
 }
 export interface DnsRecordsetTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dns_recordset#create DnsRecordset#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dns_recordset#create DnsRecordset#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dns_recordset#delete DnsRecordset#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dns_recordset#delete DnsRecordset#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dns_recordset#update DnsRecordset#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dns_recordset#update DnsRecordset#update}
   */
   readonly update?: string;
 }
@@ -234,7 +234,7 @@ export class DnsRecordsetTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dns_recordset hcs_dns_recordset}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dns_recordset hcs_dns_recordset}
 */
 export class DnsRecordset extends cdktf.TerraformResource {
 
@@ -250,7 +250,7 @@ export class DnsRecordset extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DnsRecordset resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DnsRecordset to import
-  * @param importFromId The id of the existing DnsRecordset that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dns_recordset#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DnsRecordset that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dns_recordset#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DnsRecordset to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -262,7 +262,7 @@ export class DnsRecordset extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dns_recordset hcs_dns_recordset} Resource
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dns_recordset hcs_dns_recordset} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -273,7 +273,8 @@ export class DnsRecordset extends cdktf.TerraformResource {
       terraformResourceType: 'hcs_dns_recordset',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.19'
+        providerVersion: '2.4.20',
+        providerVersionConstraint: '2.4.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -390,7 +391,7 @@ export class DnsRecordset extends cdktf.TerraformResource {
     return this._status;
   }
 
-  // tags - computed: true, optional: true, required: false
+  // tags - computed: false, optional: true, required: false
   private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');

@@ -112,7 +112,8 @@ export class SolacebrokerMsgVpnDistributedCache extends cdktf.TerraformResource 
       terraformResourceType: 'solacebroker_msg_vpn_distributed_cache',
       terraformGeneratorMetadata: {
         providerName: 'solacebrokerappliance',
-        providerVersion: '1.2.0'
+        providerVersion: '1.2.0',
+        providerVersionConstraint: '1.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

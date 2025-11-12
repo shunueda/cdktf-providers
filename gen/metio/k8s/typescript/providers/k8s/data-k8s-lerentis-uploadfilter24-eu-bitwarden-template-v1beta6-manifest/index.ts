@@ -501,7 +501,8 @@ export class DataK8SLerentisUploadfilter24EuBitwardenTemplateV1Beta6Manifest ext
       terraformResourceType: 'k8s_lerentis_uploadfilter24_eu_bitwarden_template_v1beta6_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -256,7 +256,8 @@ export class Team extends cdktf.TerraformResource {
       terraformResourceType: 'firehydrant_team',
       terraformGeneratorMetadata: {
         providerName: 'firehydrant',
-        providerVersion: '0.14.9'
+        providerVersion: '0.14.9',
+        providerVersionConstraint: '0.14.9'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -277,7 +277,8 @@ export class AlertChannelGcpPubSub extends cdktf.TerraformResource {
       terraformResourceType: 'lacework_alert_channel_gcp_pub_sub',
       terraformGeneratorMetadata: {
         providerName: 'lacework',
-        providerVersion: '2.0.10'
+        providerVersion: '2.0.10',
+        providerVersionConstraint: '2.0.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

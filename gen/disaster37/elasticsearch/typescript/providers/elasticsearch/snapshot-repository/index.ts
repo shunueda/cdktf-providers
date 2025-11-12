@@ -68,7 +68,8 @@ export class SnapshotRepository extends cdktf.TerraformResource {
       terraformResourceType: 'elasticsearch_snapshot_repository',
       terraformGeneratorMetadata: {
         providerName: 'elasticsearch',
-        providerVersion: '8.4.0'
+        providerVersion: '8.4.0',
+        providerVersionConstraint: '8.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

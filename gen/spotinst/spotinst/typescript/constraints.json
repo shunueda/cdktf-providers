@@ -1,4 +1,6 @@
 {
   "cdktf": "0.21.0",
-  "providers": {}
+  "providers": {
+    "spotinst": "1.230.0"
+  }
 }

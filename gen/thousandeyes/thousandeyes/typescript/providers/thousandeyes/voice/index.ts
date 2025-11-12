@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/voice
+// https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/voice
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,59 +10,59 @@ export interface VoiceConfig extends cdktf.TerraformMetaArguments {
   /**
   * The list of ThousandEyes agent IDs to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/voice#agents Voice#agents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/voice#agents Voice#agents}
   */
   readonly agents: string[];
   /**
   * List of alert rules IDs to apply to the test (get `ruleId` from `/alerts/rules` endpoint. If `alertsEnabled` is set to `true` and `alertRules` is not included on test creation or update, applicable user default alert rules will be used)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/voice#alert_rules Voice#alert_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/voice#alert_rules Voice#alert_rules}
   */
   readonly alertRules?: string[];
   /**
   * Set to 'true' to enable alerts, or 'false' to disable alerts. The default value is 'true'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/voice#alerts_enabled Voice#alerts_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/voice#alerts_enabled Voice#alerts_enabled}
   */
   readonly alertsEnabled?: boolean | cdktf.IResolvable;
   /**
   * Enable BGP measurements. Set to true for enabled, false for disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/voice#bgp_measurements Voice#bgp_measurements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/voice#bgp_measurements Voice#bgp_measurements}
   */
   readonly bgpMeasurements?: boolean | cdktf.IResolvable;
   /**
   * The unique ID of the codec to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/voice#codec_id Voice#codec_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/voice#codec_id Voice#codec_id}
   */
   readonly codecId?: string;
   /**
   * A description of the alert rule. Defaults to an empty string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/voice#description Voice#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/voice#description Voice#description}
   */
   readonly description?: string;
   /**
   * The DSCP ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/voice#dscp_id Voice#dscp_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/voice#dscp_id Voice#dscp_id}
   */
   readonly dscpId?: string;
   /**
   * The duration of the test, in seconds (5 to 30).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/voice#duration Voice#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/voice#duration Voice#duration}
   */
   readonly duration?: number;
   /**
   * Enables or disables the test.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/voice#enabled Voice#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/voice#enabled Voice#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/voice#id Voice#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/voice#id Voice#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,61 +71,61 @@ export interface VoiceConfig extends cdktf.TerraformMetaArguments {
   /**
   * The interval to run the test on, in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/voice#interval Voice#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/voice#interval Voice#interval}
   */
   readonly interval: number;
   /**
   * The de-jitter buffer size, in seconds (0 to 150).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/voice#jitter_buffer Voice#jitter_buffer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/voice#jitter_buffer Voice#jitter_buffer}
   */
   readonly jitterBuffer?: number;
   /**
   * Contains list of BGP monitor IDs (get `monitorId` from `/monitors` endpoint)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/voice#monitors Voice#monitors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/voice#monitors Voice#monitors}
   */
   readonly monitors?: string[];
   /**
   * The number of path traces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/voice#num_path_traces Voice#num_path_traces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/voice#num_path_traces Voice#num_path_traces}
   */
   readonly numPathTraces?: number;
   /**
   * Indicates whether agents should randomize the start time in each test round.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/voice#randomized_start_time Voice#randomized_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/voice#randomized_start_time Voice#randomized_start_time}
   */
   readonly randomizedStartTime?: boolean | cdktf.IResolvable;
   /**
   * List of accounts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/voice#shared_with_accounts Voice#shared_with_accounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/voice#shared_with_accounts Voice#shared_with_accounts}
   */
   readonly sharedWithAccounts?: string[];
   /**
   * The target agent's unique ID. Pulled from the /agents endpoint. Both the 'agents': [] and the targetAgentID cannot be Cloud Agents. Can be Enterprise Agent -> Cloud, Cloud -> Enterprise Agent, or Enterprise Agent -> Enterprise Agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/voice#target_agent_id Voice#target_agent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/voice#target_agent_id Voice#target_agent_id}
   */
   readonly targetAgentId: string;
   /**
   * The name of the test.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/voice#test_name Voice#test_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/voice#test_name Voice#test_name}
   */
   readonly testName?: string;
   /**
   * Enable to automatically add all available Public BGP Monitors to the test.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/voice#use_public_bgp Voice#use_public_bgp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/voice#use_public_bgp Voice#use_public_bgp}
   */
   readonly usePublicBgp?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/voice thousandeyes_voice}
+* Represents a {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/voice thousandeyes_voice}
 */
 export class Voice extends cdktf.TerraformResource {
 
@@ -141,7 +141,7 @@ export class Voice extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Voice resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Voice to import
-  * @param importFromId The id of the existing Voice that should be imported. Refer to the {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/voice#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Voice that should be imported. Refer to the {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/voice#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Voice to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -153,7 +153,7 @@ export class Voice extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/voice thousandeyes_voice} Resource
+  * Create a new {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/voice thousandeyes_voice} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -164,7 +164,8 @@ export class Voice extends cdktf.TerraformResource {
       terraformResourceType: 'thousandeyes_voice',
       terraformGeneratorMetadata: {
         providerName: 'thousandeyes',
-        providerVersion: '3.1.2'
+        providerVersion: '3.1.3',
+        providerVersionConstraint: '3.1.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

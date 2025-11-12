@@ -220,7 +220,8 @@ export class EscalationPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'victorops_escalation_policy',
       terraformGeneratorMetadata: {
         providerName: 'victorops',
-        providerVersion: '0.1.4'
+        providerVersion: '0.1.4',
+        providerVersionConstraint: '0.1.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

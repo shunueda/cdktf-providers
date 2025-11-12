@@ -138,7 +138,8 @@ export class DataOciStackMonitoringMonitoringTemplate extends cdktf.TerraformDat
       terraformResourceType: 'oci_stack_monitoring_monitoring_template',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

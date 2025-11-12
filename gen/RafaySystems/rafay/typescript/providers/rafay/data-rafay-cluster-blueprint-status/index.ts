@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/cluster_blueprint_status
+// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/cluster_blueprint_status
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataRafayClusterBlueprintStatusConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/cluster_blueprint_status#id DataRafayClusterBlueprintStatus#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/cluster_blueprint_status#id DataRafayClusterBlueprintStatus#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface DataRafayClusterBlueprintStatusConfig extends cdktf.TerraformMe
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/cluster_blueprint_status#metadata DataRafayClusterBlueprintStatus#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/cluster_blueprint_status#metadata DataRafayClusterBlueprintStatus#metadata}
   */
   readonly metadata?: DataRafayClusterBlueprintStatusMetadata;
   /**
   * status block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/cluster_blueprint_status#status DataRafayClusterBlueprintStatus#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/cluster_blueprint_status#status DataRafayClusterBlueprintStatus#status}
   */
   readonly status?: DataRafayClusterBlueprintStatusStatus[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/cluster_blueprint_status#timeouts DataRafayClusterBlueprintStatus#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/cluster_blueprint_status#timeouts DataRafayClusterBlueprintStatus#timeouts}
   */
   readonly timeouts?: DataRafayClusterBlueprintStatusTimeouts;
 }
@@ -37,7 +37,7 @@ export interface DataRafayClusterBlueprintStatusMetadataCreatedBy {
   /**
   * Id of the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/cluster_blueprint_status#id DataRafayClusterBlueprintStatus#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/cluster_blueprint_status#id DataRafayClusterBlueprintStatus#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -46,13 +46,13 @@ export interface DataRafayClusterBlueprintStatusMetadataCreatedBy {
   /**
   * Whether person is logged in using sso
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/cluster_blueprint_status#is_sso_user DataRafayClusterBlueprintStatus#is_sso_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/cluster_blueprint_status#is_sso_user DataRafayClusterBlueprintStatus#is_sso_user}
   */
   readonly isSsoUser?: boolean | cdktf.IResolvable;
   /**
   * Username fo the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/cluster_blueprint_status#username DataRafayClusterBlueprintStatus#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/cluster_blueprint_status#username DataRafayClusterBlueprintStatus#username}
   */
   readonly username?: string;
 }
@@ -196,7 +196,7 @@ export interface DataRafayClusterBlueprintStatusMetadataModifiedBy {
   /**
   * Id of the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/cluster_blueprint_status#id DataRafayClusterBlueprintStatus#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/cluster_blueprint_status#id DataRafayClusterBlueprintStatus#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -205,13 +205,13 @@ export interface DataRafayClusterBlueprintStatusMetadataModifiedBy {
   /**
   * Whether person is logged in using sso
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/cluster_blueprint_status#is_sso_user DataRafayClusterBlueprintStatus#is_sso_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/cluster_blueprint_status#is_sso_user DataRafayClusterBlueprintStatus#is_sso_user}
   */
   readonly isSsoUser?: boolean | cdktf.IResolvable;
   /**
   * Username fo the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/cluster_blueprint_status#username DataRafayClusterBlueprintStatus#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/cluster_blueprint_status#username DataRafayClusterBlueprintStatus#username}
   */
   readonly username?: string;
 }
@@ -355,49 +355,49 @@ export interface DataRafayClusterBlueprintStatusMetadata {
   /**
   * annotations of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/cluster_blueprint_status#annotations DataRafayClusterBlueprintStatus#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/cluster_blueprint_status#annotations DataRafayClusterBlueprintStatus#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * description of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/cluster_blueprint_status#description DataRafayClusterBlueprintStatus#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/cluster_blueprint_status#description DataRafayClusterBlueprintStatus#description}
   */
   readonly description?: string;
   /**
   * Display Name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/cluster_blueprint_status#display_name DataRafayClusterBlueprintStatus#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/cluster_blueprint_status#display_name DataRafayClusterBlueprintStatus#display_name}
   */
   readonly displayName?: string;
   /**
   * labels of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/cluster_blueprint_status#labels DataRafayClusterBlueprintStatus#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/cluster_blueprint_status#labels DataRafayClusterBlueprintStatus#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/cluster_blueprint_status#name DataRafayClusterBlueprintStatus#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/cluster_blueprint_status#name DataRafayClusterBlueprintStatus#name}
   */
   readonly name?: string;
   /**
   * Project of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/cluster_blueprint_status#project DataRafayClusterBlueprintStatus#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/cluster_blueprint_status#project DataRafayClusterBlueprintStatus#project}
   */
   readonly project?: string;
   /**
   * created_by block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/cluster_blueprint_status#created_by DataRafayClusterBlueprintStatus#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/cluster_blueprint_status#created_by DataRafayClusterBlueprintStatus#created_by}
   */
   readonly createdBy?: DataRafayClusterBlueprintStatusMetadataCreatedBy;
   /**
   * modified_by block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/cluster_blueprint_status#modified_by DataRafayClusterBlueprintStatus#modified_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/cluster_blueprint_status#modified_by DataRafayClusterBlueprintStatus#modified_by}
   */
   readonly modifiedBy?: DataRafayClusterBlueprintStatusMetadataModifiedBy;
 }
@@ -686,25 +686,25 @@ export interface DataRafayClusterBlueprintStatusStatusAddonStatusListConditionsC
   /**
   * component failure message of the blueprint addon
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/cluster_blueprint_status#message DataRafayClusterBlueprintStatus#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/cluster_blueprint_status#message DataRafayClusterBlueprintStatus#message}
   */
   readonly message?: string;
   /**
   * component name blueprint addon publish
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/cluster_blueprint_status#name DataRafayClusterBlueprintStatus#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/cluster_blueprint_status#name DataRafayClusterBlueprintStatus#name}
   */
   readonly name?: string;
   /**
   * component failure reason the blueprint addon publish
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/cluster_blueprint_status#reason DataRafayClusterBlueprintStatus#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/cluster_blueprint_status#reason DataRafayClusterBlueprintStatus#reason}
   */
   readonly reason?: string;
   /**
   * component failure timestamp of the blueprint addon publish
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/cluster_blueprint_status#timestamp DataRafayClusterBlueprintStatus#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/cluster_blueprint_status#timestamp DataRafayClusterBlueprintStatus#timestamp}
   */
   readonly timestamp?: string;
 }
@@ -909,19 +909,19 @@ export interface DataRafayClusterBlueprintStatusStatusAddonStatusListConditionsC
   /**
   * component name of the blueprint addon
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/cluster_blueprint_status#name DataRafayClusterBlueprintStatus#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/cluster_blueprint_status#name DataRafayClusterBlueprintStatus#name}
   */
   readonly name?: string;
   /**
   * component failure reason of the blueprint addon publish
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/cluster_blueprint_status#reason DataRafayClusterBlueprintStatus#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/cluster_blueprint_status#reason DataRafayClusterBlueprintStatus#reason}
   */
   readonly reason?: string;
   /**
   * failures block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/cluster_blueprint_status#failures DataRafayClusterBlueprintStatus#failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/cluster_blueprint_status#failures DataRafayClusterBlueprintStatus#failures}
   */
   readonly failures?: DataRafayClusterBlueprintStatusStatusAddonStatusListConditionsComponentsFailures[] | cdktf.IResolvable;
 }
@@ -1097,43 +1097,43 @@ export interface DataRafayClusterBlueprintStatusStatusAddonStatusListConditions 
   /**
   * condition updated time of the blueprint addon
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/cluster_blueprint_status#last_updated DataRafayClusterBlueprintStatus#last_updated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/cluster_blueprint_status#last_updated DataRafayClusterBlueprintStatus#last_updated}
   */
   readonly lastUpdated?: string;
   /**
   * maxium retry count of blueprint addon publish
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/cluster_blueprint_status#max_retrycount DataRafayClusterBlueprintStatus#max_retrycount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/cluster_blueprint_status#max_retrycount DataRafayClusterBlueprintStatus#max_retrycount}
   */
   readonly maxRetrycount?: number;
   /**
   * condition reason of the blueprint addon publish
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/cluster_blueprint_status#reason DataRafayClusterBlueprintStatus#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/cluster_blueprint_status#reason DataRafayClusterBlueprintStatus#reason}
   */
   readonly reason?: string;
   /**
   * retry count of blueprint addon publish
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/cluster_blueprint_status#retrycount DataRafayClusterBlueprintStatus#retrycount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/cluster_blueprint_status#retrycount DataRafayClusterBlueprintStatus#retrycount}
   */
   readonly retrycount?: number;
   /**
   * condition status of the blueprint addon
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/cluster_blueprint_status#status DataRafayClusterBlueprintStatus#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/cluster_blueprint_status#status DataRafayClusterBlueprintStatus#status}
   */
   readonly status?: string;
   /**
   * condition type of the blueprint addon
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/cluster_blueprint_status#type DataRafayClusterBlueprintStatus#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/cluster_blueprint_status#type DataRafayClusterBlueprintStatus#type}
   */
   readonly type?: string;
   /**
   * components block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/cluster_blueprint_status#components DataRafayClusterBlueprintStatus#components}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/cluster_blueprint_status#components DataRafayClusterBlueprintStatus#components}
   */
   readonly components?: DataRafayClusterBlueprintStatusStatusAddonStatusListConditionsComponents[] | cdktf.IResolvable;
 }
@@ -1425,31 +1425,31 @@ export interface DataRafayClusterBlueprintStatusStatusAddonStatusListStruct {
   /**
   * name of the blueprint addon
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/cluster_blueprint_status#addon_name DataRafayClusterBlueprintStatus#addon_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/cluster_blueprint_status#addon_name DataRafayClusterBlueprintStatus#addon_name}
   */
   readonly addonName?: string;
   /**
   * namespce of the blueprint addon
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/cluster_blueprint_status#namespace DataRafayClusterBlueprintStatus#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/cluster_blueprint_status#namespace DataRafayClusterBlueprintStatus#namespace}
   */
   readonly namespace?: string;
   /**
   * status of the blueprint addon
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/cluster_blueprint_status#publish_status DataRafayClusterBlueprintStatus#publish_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/cluster_blueprint_status#publish_status DataRafayClusterBlueprintStatus#publish_status}
   */
   readonly publishStatus?: string;
   /**
   * time of the blueprint addon publish
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/cluster_blueprint_status#publish_time DataRafayClusterBlueprintStatus#publish_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/cluster_blueprint_status#publish_time DataRafayClusterBlueprintStatus#publish_time}
   */
   readonly publishTime?: string;
   /**
   * conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/cluster_blueprint_status#conditions DataRafayClusterBlueprintStatus#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/cluster_blueprint_status#conditions DataRafayClusterBlueprintStatus#conditions}
   */
   readonly conditions?: DataRafayClusterBlueprintStatusStatusAddonStatusListConditions[] | cdktf.IResolvable;
 }
@@ -1683,7 +1683,7 @@ export interface DataRafayClusterBlueprintStatusStatus {
   /**
   * addon_status_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/cluster_blueprint_status#addon_status_list DataRafayClusterBlueprintStatus#addon_status_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/cluster_blueprint_status#addon_status_list DataRafayClusterBlueprintStatus#addon_status_list}
   */
   readonly addonStatusList?: DataRafayClusterBlueprintStatusStatusAddonStatusListStruct[] | cdktf.IResolvable;
 }
@@ -1799,7 +1799,7 @@ export class DataRafayClusterBlueprintStatusStatusList extends cdktf.ComplexList
 }
 export interface DataRafayClusterBlueprintStatusTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/cluster_blueprint_status#read DataRafayClusterBlueprintStatus#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/cluster_blueprint_status#read DataRafayClusterBlueprintStatus#read}
   */
   readonly read?: string;
 }
@@ -1893,7 +1893,7 @@ export class DataRafayClusterBlueprintStatusTimeoutsOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/cluster_blueprint_status rafay_cluster_blueprint_status}
+* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/cluster_blueprint_status rafay_cluster_blueprint_status}
 */
 export class DataRafayClusterBlueprintStatus extends cdktf.TerraformDataSource {
 
@@ -1909,7 +1909,7 @@ export class DataRafayClusterBlueprintStatus extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataRafayClusterBlueprintStatus resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataRafayClusterBlueprintStatus to import
-  * @param importFromId The id of the existing DataRafayClusterBlueprintStatus that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/cluster_blueprint_status#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataRafayClusterBlueprintStatus that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/cluster_blueprint_status#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataRafayClusterBlueprintStatus to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1921,7 +1921,7 @@ export class DataRafayClusterBlueprintStatus extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/cluster_blueprint_status rafay_cluster_blueprint_status} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/cluster_blueprint_status rafay_cluster_blueprint_status} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1932,7 +1932,8 @@ export class DataRafayClusterBlueprintStatus extends cdktf.TerraformDataSource {
       terraformResourceType: 'rafay_cluster_blueprint_status',
       terraformGeneratorMetadata: {
         providerName: 'rafay',
-        providerVersion: '1.1.52'
+        providerVersion: '1.1.53',
+        providerVersionConstraint: '1.1.53'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

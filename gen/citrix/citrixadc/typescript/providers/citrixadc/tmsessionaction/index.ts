@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/tmsessionaction
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/tmsessionaction
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,60 +8,60 @@ import * as cdktf from 'cdktf';
 
 export interface TmsessionactionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/tmsessionaction#defaultauthorizationaction Tmsessionaction#defaultauthorizationaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/tmsessionaction#defaultauthorizationaction Tmsessionaction#defaultauthorizationaction}
   */
   readonly defaultauthorizationaction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/tmsessionaction#homepage Tmsessionaction#homepage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/tmsessionaction#homepage Tmsessionaction#homepage}
   */
   readonly homepage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/tmsessionaction#httponlycookie Tmsessionaction#httponlycookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/tmsessionaction#httponlycookie Tmsessionaction#httponlycookie}
   */
   readonly httponlycookie?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/tmsessionaction#id Tmsessionaction#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/tmsessionaction#id Tmsessionaction#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/tmsessionaction#kcdaccount Tmsessionaction#kcdaccount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/tmsessionaction#kcdaccount Tmsessionaction#kcdaccount}
   */
   readonly kcdaccount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/tmsessionaction#name Tmsessionaction#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/tmsessionaction#name Tmsessionaction#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/tmsessionaction#persistentcookie Tmsessionaction#persistentcookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/tmsessionaction#persistentcookie Tmsessionaction#persistentcookie}
   */
   readonly persistentcookie?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/tmsessionaction#persistentcookievalidity Tmsessionaction#persistentcookievalidity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/tmsessionaction#persistentcookievalidity Tmsessionaction#persistentcookievalidity}
   */
   readonly persistentcookievalidity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/tmsessionaction#sesstimeout Tmsessionaction#sesstimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/tmsessionaction#sesstimeout Tmsessionaction#sesstimeout}
   */
   readonly sesstimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/tmsessionaction#sso Tmsessionaction#sso}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/tmsessionaction#sso Tmsessionaction#sso}
   */
   readonly sso?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/tmsessionaction#ssocredential Tmsessionaction#ssocredential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/tmsessionaction#ssocredential Tmsessionaction#ssocredential}
   */
   readonly ssocredential?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/tmsessionaction#ssodomain Tmsessionaction#ssodomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/tmsessionaction#ssodomain Tmsessionaction#ssodomain}
   */
   readonly ssodomain?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/tmsessionaction citrixadc_tmsessionaction}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/tmsessionaction citrixadc_tmsessionaction}
 */
 export class Tmsessionaction extends cdktf.TerraformResource {
 
@@ -77,7 +77,7 @@ export class Tmsessionaction extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Tmsessionaction resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Tmsessionaction to import
-  * @param importFromId The id of the existing Tmsessionaction that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/tmsessionaction#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Tmsessionaction that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/tmsessionaction#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Tmsessionaction to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -89,7 +89,7 @@ export class Tmsessionaction extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/tmsessionaction citrixadc_tmsessionaction} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/tmsessionaction citrixadc_tmsessionaction} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -100,7 +100,8 @@ export class Tmsessionaction extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_tmsessionaction',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -12566,7 +12566,8 @@ export class DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest exte
       terraformResourceType: 'k8s_operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

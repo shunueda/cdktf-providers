@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsassignment
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsassignment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,52 +8,48 @@ import * as cdktf from 'cdktf';
 
 export interface NsassignmentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsassignment#add Nsassignment#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsassignment#add Nsassignment#add}
   */
   readonly add?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsassignment#append Nsassignment#append}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsassignment#append Nsassignment#append}
   */
   readonly append?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsassignment#clear Nsassignment#clear}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsassignment#clear Nsassignment#clear}
   */
   readonly clear?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsassignment#comment Nsassignment#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsassignment#comment Nsassignment#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsassignment#id Nsassignment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsassignment#id Nsassignment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsassignment#name Nsassignment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsassignment#name Nsassignment#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsassignment#newname Nsassignment#newname}
-  */
-  readonly newname?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsassignment#set Nsassignment#set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsassignment#set Nsassignment#set}
   */
   readonly set?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsassignment#sub Nsassignment#sub}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsassignment#sub Nsassignment#sub}
   */
   readonly sub?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsassignment#variable Nsassignment#variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsassignment#variable Nsassignment#variable}
   */
   readonly variable: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsassignment citrixadc_nsassignment}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsassignment citrixadc_nsassignment}
 */
 export class Nsassignment extends cdktf.TerraformResource {
 
@@ -69,7 +65,7 @@ export class Nsassignment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Nsassignment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Nsassignment to import
-  * @param importFromId The id of the existing Nsassignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsassignment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Nsassignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsassignment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Nsassignment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +77,7 @@ export class Nsassignment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsassignment citrixadc_nsassignment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsassignment citrixadc_nsassignment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,7 +88,8 @@ export class Nsassignment extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_nsassignment',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -108,7 +105,6 @@ export class Nsassignment extends cdktf.TerraformResource {
     this._comment = config.comment;
     this._id = config.id;
     this._name = config.name;
-    this._newname = config.newname;
     this._set = config.set;
     this._sub = config.sub;
     this._variable = config.variable;
@@ -211,22 +207,6 @@ export class Nsassignment extends cdktf.TerraformResource {
     return this._name;
   }
 
-  // newname - computed: true, optional: true, required: false
-  private _newname?: string; 
-  public get newname() {
-    return this.getStringAttribute('newname');
-  }
-  public set newname(value: string) {
-    this._newname = value;
-  }
-  public resetNewname() {
-    this._newname = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get newnameInput() {
-    return this._newname;
-  }
-
   // set - computed: true, optional: true, required: false
   private _set?: string; 
   public get set() {
@@ -284,7 +264,6 @@ export class Nsassignment extends cdktf.TerraformResource {
       comment: cdktf.stringToTerraform(this._comment),
       id: cdktf.stringToTerraform(this._id),
       name: cdktf.stringToTerraform(this._name),
-      newname: cdktf.stringToTerraform(this._newname),
       set: cdktf.stringToTerraform(this._set),
       sub: cdktf.stringToTerraform(this._sub),
       variable: cdktf.stringToTerraform(this._variable),
@@ -325,12 +304,6 @@ export class Nsassignment extends cdktf.TerraformResource {
       },
       name: {
         value: cdktf.stringToHclTerraform(this._name),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
-      newname: {
-        value: cdktf.stringToHclTerraform(this._newname),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

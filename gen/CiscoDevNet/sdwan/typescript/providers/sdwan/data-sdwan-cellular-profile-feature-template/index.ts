@@ -64,7 +64,8 @@ export class DataSdwanCellularProfileFeatureTemplate extends cdktf.TerraformData
       terraformResourceType: 'sdwan_cellular_profile_feature_template',
       terraformGeneratorMetadata: {
         providerName: 'sdwan',
-        providerVersion: '0.8.1'
+        providerVersion: '0.8.1',
+        providerVersionConstraint: '0.8.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

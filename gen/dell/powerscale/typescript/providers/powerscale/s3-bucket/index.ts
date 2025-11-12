@@ -364,7 +364,8 @@ export class S3Bucket extends cdktf.TerraformResource {
       terraformResourceType: 'powerscale_s3_bucket',
       terraformGeneratorMetadata: {
         providerName: 'powerscale',
-        providerVersion: '1.8.0'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

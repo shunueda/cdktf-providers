@@ -60,7 +60,8 @@ export class DataAlicloudThreatDetectionLogShipper extends cdktf.TerraformDataSo
       terraformResourceType: 'alicloud_threat_detection_log_shipper',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

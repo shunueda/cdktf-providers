@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/service_account
+// https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/service_account
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ServiceAccountConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of the service account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/service_account#description ServiceAccount#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/service_account#description ServiceAccount#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/service_account#id ServiceAccount#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/service_account#id ServiceAccount#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface ServiceAccountConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the service account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/service_account#name ServiceAccount#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/service_account#name ServiceAccount#name}
   */
   readonly name: string;
   /**
   * ID of the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/service_account#organization_id ServiceAccount#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/service_account#organization_id ServiceAccount#organization_id}
   */
   readonly organizationId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/service_account#timeouts ServiceAccount#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/service_account#timeouts ServiceAccount#timeouts}
   */
   readonly timeouts?: ServiceAccountTimeouts;
 }
@@ -126,19 +126,19 @@ export class ServiceAccountAuthorList extends cdktf.ComplexList {
 }
 export interface ServiceAccountTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/service_account#create ServiceAccount#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/service_account#create ServiceAccount#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/service_account#delete ServiceAccount#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/service_account#delete ServiceAccount#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/service_account#read ServiceAccount#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/service_account#read ServiceAccount#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/service_account#update ServiceAccount#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/service_account#update ServiceAccount#update}
   */
   readonly update?: string;
 }
@@ -319,7 +319,7 @@ export class ServiceAccountTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/service_account castai_service_account}
+* Represents a {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/service_account castai_service_account}
 */
 export class ServiceAccount extends cdktf.TerraformResource {
 
@@ -335,7 +335,7 @@ export class ServiceAccount extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServiceAccount resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServiceAccount to import
-  * @param importFromId The id of the existing ServiceAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/service_account#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServiceAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/service_account#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServiceAccount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -347,7 +347,7 @@ export class ServiceAccount extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/service_account castai_service_account} Resource
+  * Create a new {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/service_account castai_service_account} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -358,7 +358,8 @@ export class ServiceAccount extends cdktf.TerraformResource {
       terraformResourceType: 'castai_service_account',
       terraformGeneratorMetadata: {
         providerName: 'castai',
-        providerVersion: '7.73.1'
+        providerVersion: '8.1.0',
+        providerVersionConstraint: '8.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -74,7 +74,8 @@ export class Connector extends cdktf.TerraformResource {
       terraformResourceType: 'kafka-connect_connector',
       terraformGeneratorMetadata: {
         providerName: 'kafka-connect',
-        providerVersion: '0.4.3'
+        providerVersion: '0.4.3',
+        providerVersionConstraint: '0.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

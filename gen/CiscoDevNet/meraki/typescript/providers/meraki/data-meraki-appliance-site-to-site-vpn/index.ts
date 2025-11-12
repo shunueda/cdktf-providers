@@ -225,7 +225,8 @@ export class DataMerakiApplianceSiteToSiteVpn extends cdktf.TerraformDataSource 
       terraformResourceType: 'meraki_appliance_site_to_site_vpn',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1'
+        providerVersion: '1.7.1',
+        providerVersionConstraint: '1.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

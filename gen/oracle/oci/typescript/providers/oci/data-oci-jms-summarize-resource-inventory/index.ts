@@ -68,7 +68,8 @@ export class DataOciJmsSummarizeResourceInventory extends cdktf.TerraformDataSou
       terraformResourceType: 'oci_jms_summarize_resource_inventory',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

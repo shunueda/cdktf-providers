@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dms_kafka_consumer_group
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dms_kafka_consumer_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DmsKafkaConsumerGroupConfig extends cdktf.TerraformMetaArgument
   /**
   * Specifies the description of the consumer group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dms_kafka_consumer_group#description DmsKafkaConsumerGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dms_kafka_consumer_group#description DmsKafkaConsumerGroup#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dms_kafka_consumer_group#id DmsKafkaConsumerGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dms_kafka_consumer_group#id DmsKafkaConsumerGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,23 +23,23 @@ export interface DmsKafkaConsumerGroupConfig extends cdktf.TerraformMetaArgument
   /**
   * Specifies the ID of the Kafka instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dms_kafka_consumer_group#instance_id DmsKafkaConsumerGroup#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dms_kafka_consumer_group#instance_id DmsKafkaConsumerGroup#instance_id}
   */
   readonly instanceId: string;
   /**
   * Specifies the name of the consumer group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dms_kafka_consumer_group#name DmsKafkaConsumerGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dms_kafka_consumer_group#name DmsKafkaConsumerGroup#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dms_kafka_consumer_group#region DmsKafkaConsumerGroup#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dms_kafka_consumer_group#region DmsKafkaConsumerGroup#region}
   */
   readonly region?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dms_kafka_consumer_group hcs_dms_kafka_consumer_group}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dms_kafka_consumer_group hcs_dms_kafka_consumer_group}
 */
 export class DmsKafkaConsumerGroup extends cdktf.TerraformResource {
 
@@ -55,7 +55,7 @@ export class DmsKafkaConsumerGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DmsKafkaConsumerGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DmsKafkaConsumerGroup to import
-  * @param importFromId The id of the existing DmsKafkaConsumerGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dms_kafka_consumer_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DmsKafkaConsumerGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dms_kafka_consumer_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DmsKafkaConsumerGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -67,7 +67,7 @@ export class DmsKafkaConsumerGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dms_kafka_consumer_group hcs_dms_kafka_consumer_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dms_kafka_consumer_group hcs_dms_kafka_consumer_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -78,7 +78,8 @@ export class DmsKafkaConsumerGroup extends cdktf.TerraformResource {
       terraformResourceType: 'hcs_dms_kafka_consumer_group',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.19'
+        providerVersion: '2.4.20',
+        providerVersionConstraint: '2.4.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

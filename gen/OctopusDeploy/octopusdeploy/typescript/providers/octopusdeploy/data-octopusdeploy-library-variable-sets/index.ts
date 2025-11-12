@@ -293,7 +293,8 @@ export class DataOctopusdeployLibraryVariableSets extends cdktf.TerraformDataSou
       terraformResourceType: 'octopusdeploy_library_variable_sets',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.4.0'
+        providerVersion: '1.4.0',
+        providerVersionConstraint: '1.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

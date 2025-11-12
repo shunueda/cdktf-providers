@@ -61,7 +61,8 @@ export class DataCloudflarePageRule extends cdktf.TerraformDataSource {
       terraformResourceType: 'cloudflare_page_rule',
       terraformGeneratorMetadata: {
         providerName: 'cloudflare',
-        providerVersion: '5.12.0'
+        providerVersion: '5.12.0',
+        providerVersionConstraint: '5.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

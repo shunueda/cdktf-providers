@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_config_template
+// https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_config_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface FreeformConfigTemplateConfig extends cdktf.TerraformMetaArgumen
   /**
   * Set of System IDs to which the ConfigTemplate is assigned
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_config_template#assigned_to FreeformConfigTemplate#assigned_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_config_template#assigned_to FreeformConfigTemplate#assigned_to}
   */
   readonly assignedTo?: string[];
   /**
   * Apstra Blueprint ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_config_template#blueprint_id FreeformConfigTemplate#blueprint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_config_template#blueprint_id FreeformConfigTemplate#blueprint_id}
   */
   readonly blueprintId: string;
   /**
   * Config Template name as shown in the Web UI. Must end with `.jinja`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_config_template#name FreeformConfigTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_config_template#name FreeformConfigTemplate#name}
   */
   readonly name: string;
   /**
   * Set of Tag labels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_config_template#tags FreeformConfigTemplate#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_config_template#tags FreeformConfigTemplate#tags}
   */
   readonly tags?: string[];
   /**
   * Configuration Jinja2 template text
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_config_template#text FreeformConfigTemplate#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_config_template#text FreeformConfigTemplate#text}
   */
   readonly text: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_config_template apstra_freeform_config_template}
+* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_config_template apstra_freeform_config_template}
 */
 export class FreeformConfigTemplate extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class FreeformConfigTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FreeformConfigTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FreeformConfigTemplate to import
-  * @param importFromId The id of the existing FreeformConfigTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_config_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FreeformConfigTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_config_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FreeformConfigTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class FreeformConfigTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_config_template apstra_freeform_config_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_config_template apstra_freeform_config_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,7 +79,8 @@ export class FreeformConfigTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'apstra_freeform_config_template',
       terraformGeneratorMetadata: {
         providerName: 'apstra',
-        providerVersion: '0.95.0'
+        providerVersion: '0.95.1',
+        providerVersionConstraint: '0.95.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

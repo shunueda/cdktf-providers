@@ -424,7 +424,8 @@ export class TenancyTenant extends cdktf.TerraformResource {
       terraformResourceType: 'netbox_tenancy_tenant',
       terraformGeneratorMetadata: {
         providerName: 'netbox',
-        providerVersion: '8.0.2'
+        providerVersion: '8.0.2',
+        providerVersionConstraint: '8.0.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

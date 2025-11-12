@@ -164,7 +164,8 @@ export class EventForwarderServiceNow extends cdktf.TerraformResource {
       terraformResourceType: 'akeyless_event_forwarder_service_now',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1'
+        providerVersion: '1.11.1',
+        providerVersionConstraint: '1.11.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

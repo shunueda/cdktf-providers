@@ -762,7 +762,8 @@ export class ChangeRequestPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'doppler_change_request_policy',
       terraformGeneratorMetadata: {
         providerName: 'doppler',
-        providerVersion: '1.21.0'
+        providerVersion: '1.21.0',
+        providerVersionConstraint: '1.21.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

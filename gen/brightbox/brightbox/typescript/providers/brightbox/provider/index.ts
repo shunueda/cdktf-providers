@@ -97,7 +97,8 @@ export class BrightboxProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'brightbox',
       terraformGeneratorMetadata: {
         providerName: 'brightbox',
-        providerVersion: '3.4.3'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       terraformProviderSource: 'brightbox/brightbox'
     });

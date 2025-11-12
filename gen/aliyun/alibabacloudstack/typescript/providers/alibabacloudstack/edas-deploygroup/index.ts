@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/edas_deploygroup
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/edas_deploygroup
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,15 +8,15 @@ import * as cdktf from 'cdktf';
 
 export interface EdasDeploygroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/edas_deploygroup#app_id EdasDeploygroup#app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/edas_deploygroup#app_id EdasDeploygroup#app_id}
   */
   readonly appId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/edas_deploygroup#group_name EdasDeploygroup#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/edas_deploygroup#group_name EdasDeploygroup#group_name}
   */
   readonly groupName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/edas_deploygroup#id EdasDeploygroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/edas_deploygroup#id EdasDeploygroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,7 +25,7 @@ export interface EdasDeploygroupConfig extends cdktf.TerraformMetaArguments {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/edas_deploygroup alibabacloudstack_edas_deploygroup}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/edas_deploygroup alibabacloudstack_edas_deploygroup}
 */
 export class EdasDeploygroup extends cdktf.TerraformResource {
 
@@ -41,7 +41,7 @@ export class EdasDeploygroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EdasDeploygroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EdasDeploygroup to import
-  * @param importFromId The id of the existing EdasDeploygroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/edas_deploygroup#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EdasDeploygroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/edas_deploygroup#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EdasDeploygroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -53,7 +53,7 @@ export class EdasDeploygroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/edas_deploygroup alibabacloudstack_edas_deploygroup} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/edas_deploygroup alibabacloudstack_edas_deploygroup} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -64,7 +64,8 @@ export class EdasDeploygroup extends cdktf.TerraformResource {
       terraformResourceType: 'alibabacloudstack_edas_deploygroup',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.19'
+        providerVersion: '3.16.21',
+        providerVersionConstraint: '3.16.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

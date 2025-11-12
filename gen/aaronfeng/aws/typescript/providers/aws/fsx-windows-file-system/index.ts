@@ -525,7 +525,8 @@ export class FsxWindowsFileSystem extends cdktf.TerraformResource {
       terraformResourceType: 'aws_fsx_windows_file_system',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '3.29.6'
+        providerVersion: '3.29.6',
+        providerVersionConstraint: '3.29.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

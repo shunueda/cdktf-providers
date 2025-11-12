@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/data-sources/certificate_template
+// https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/data-sources/certificate_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataKeyfactorCertificateTemplateConfig extends cdktf.TerraformM
   /**
   * An array containing the list of Keyfactor Command security templates—as strings—that have been granted enroll permission on the template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/data-sources/certificate_template#allowed_requesters DataKeyfactorCertificateTemplate#allowed_requesters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/data-sources/certificate_template#allowed_requesters DataKeyfactorCertificateTemplate#allowed_requesters}
   */
   readonly allowedRequesters?: string[];
   /**
   * A string containing the common name (short name) of the template. This name typically does not contain spaces. For a template created using a Microsoft management tool, this will be the Microsoft template name. This field is populated from Active Directory and is not configurable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/data-sources/certificate_template#short_name DataKeyfactorCertificateTemplate#short_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/data-sources/certificate_template#short_name DataKeyfactorCertificateTemplate#short_name}
   */
   readonly shortName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/data-sources/certificate_template keyfactor_certificate_template}
+* Represents a {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/data-sources/certificate_template keyfactor_certificate_template}
 */
 export class DataKeyfactorCertificateTemplate extends cdktf.TerraformDataSource {
 
@@ -38,7 +38,7 @@ export class DataKeyfactorCertificateTemplate extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataKeyfactorCertificateTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataKeyfactorCertificateTemplate to import
-  * @param importFromId The id of the existing DataKeyfactorCertificateTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/data-sources/certificate_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataKeyfactorCertificateTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/data-sources/certificate_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataKeyfactorCertificateTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class DataKeyfactorCertificateTemplate extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/data-sources/certificate_template keyfactor_certificate_template} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/data-sources/certificate_template keyfactor_certificate_template} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,7 +61,8 @@ export class DataKeyfactorCertificateTemplate extends cdktf.TerraformDataSource 
       terraformResourceType: 'keyfactor_certificate_template',
       terraformGeneratorMetadata: {
         providerName: 'keyfactor',
-        providerVersion: '2.6.0'
+        providerVersion: '2.7.0',
+        providerVersionConstraint: '2.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

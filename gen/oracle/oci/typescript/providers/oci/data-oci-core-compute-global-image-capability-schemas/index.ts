@@ -353,7 +353,8 @@ export class DataOciCoreComputeGlobalImageCapabilitySchemas extends cdktf.Terraf
       terraformResourceType: 'oci_core_compute_global_image_capability_schemas',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -70,7 +70,8 @@ export class DataMetalReservedIpBlock extends cdktf.TerraformDataSource {
       terraformResourceType: 'metal_reserved_ip_block',
       terraformGeneratorMetadata: {
         providerName: 'metal',
-        providerVersion: '3.3.0'
+        providerVersion: '3.3.0',
+        providerVersionConstraint: '3.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

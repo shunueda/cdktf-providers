@@ -419,7 +419,8 @@ export class ServicesFlowmonitoringVipfixTemplate extends cdktf.TerraformResourc
       terraformResourceType: 'junos_services_flowmonitoring_vipfix_template',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0'
+        providerVersion: '2.15.0',
+        providerVersionConstraint: '2.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

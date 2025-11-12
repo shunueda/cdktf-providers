@@ -84,7 +84,8 @@ export class InfraprotectFirewallRuleGroup extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_infraprotect_firewall_rule_group',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.44'
+        providerVersion: '0.11.44',
+        providerVersionConstraint: '0.11.44'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

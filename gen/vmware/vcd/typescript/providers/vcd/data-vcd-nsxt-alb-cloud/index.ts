@@ -62,7 +62,8 @@ export class DataVcdNsxtAlbCloud extends cdktf.TerraformDataSource {
       terraformResourceType: 'vcd_nsxt_alb_cloud',
       terraformGeneratorMetadata: {
         providerName: 'vcd',
-        providerVersion: '3.14.1'
+        providerVersion: '3.14.1',
+        providerVersionConstraint: '3.14.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

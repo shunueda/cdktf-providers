@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user
+// https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,145 +10,145 @@ export interface UserConfig extends cdktf.TerraformMetaArguments {
   /**
   * Free form text field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#additional_info User#additional_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#additional_info User#additional_info}
   */
   readonly additionalInfo?: string;
   /**
   * Optional description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#description User#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#description User#description}
   */
   readonly description?: string;
   /**
   * Maximum download bandwidth as KB/s. Not set means unlimited. This is the default if no per-source limit match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#download_bandwidth User#download_bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#download_bandwidth User#download_bandwidth}
   */
   readonly downloadBandwidth?: number;
   /**
   * Maximum data transfer allowed for downloads as MB. Not set means no limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#download_data_transfer User#download_data_transfer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#download_data_transfer User#download_data_transfer}
   */
   readonly downloadDataTransfer?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#email User#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#email User#email}
   */
   readonly email?: string;
   /**
   * Account expiration date as unix timestamp in milliseconds. An expired account cannot login.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#expiration_date User#expiration_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#expiration_date User#expiration_date}
   */
   readonly expirationDate?: number;
   /**
   * Filesystem configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#filesystem User#filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#filesystem User#filesystem}
   */
   readonly filesystem: UserFilesystem;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#filters User#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#filters User#filters}
   */
   readonly filters?: UserFilters;
   /**
   * If SFTPGo runs as root system user then the created files and directories will be assigned to this system GID. Default not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#gid User#gid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#gid User#gid}
   */
   readonly gid?: number;
   /**
   * Groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#groups User#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#groups User#groups}
   */
   readonly groups?: UserGroups[] | cdktf.IResolvable;
   /**
   * The user cannot upload or download files outside this directory. Must be an absolute path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#home_dir User#home_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#home_dir User#home_dir}
   */
   readonly homeDir: string;
   /**
   * Maximum concurrent sessions. Not set means no limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#max_sessions User#max_sessions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#max_sessions User#max_sessions}
   */
   readonly maxSessions?: number;
   /**
   * Plain text password or hash format supported by SFTPGo. Set to empty to remove the password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#password User#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#password User#password}
   */
   readonly password?: string;
   /**
   * Comma separated, per-directory, permissions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#permissions User#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#permissions User#permissions}
   */
   readonly permissions: { [key: string]: string };
   /**
   * List of public keys in OpenSSH format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#public_keys User#public_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#public_keys User#public_keys}
   */
   readonly publicKeys?: string[];
   /**
   * Maximum number of files allowed. Not set means no limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#quota_files User#quota_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#quota_files User#quota_files}
   */
   readonly quotaFiles?: number;
   /**
   * Maximum size allowed as bytes. Not set means no limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#quota_size User#quota_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#quota_size User#quota_size}
   */
   readonly quotaSize?: number;
   /**
   * Role name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#role User#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#role User#role}
   */
   readonly role?: string;
   /**
   * 1 enabled, 0 disabled (login is not allowed).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#status User#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#status User#status}
   */
   readonly status: number;
   /**
   * Maximum total data transfer as MB. Not set means unlimited. You can set a total data transfer instead of the individual values for uploads and downloads.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#total_data_transfer User#total_data_transfer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#total_data_transfer User#total_data_transfer}
   */
   readonly totalDataTransfer?: number;
   /**
   * If SFTPGo runs as root system user then the created files and directories will be assigned to this system UID. Default not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#uid User#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#uid User#uid}
   */
   readonly uid?: number;
   /**
   * Maximum upload bandwidth as KB/s. Not set means unlimited. This is the default if no per-source limit match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#upload_bandwidth User#upload_bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#upload_bandwidth User#upload_bandwidth}
   */
   readonly uploadBandwidth?: number;
   /**
   * Maximum data transfer allowed for uploads as MB. Not set means no limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#upload_data_transfer User#upload_data_transfer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#upload_data_transfer User#upload_data_transfer}
   */
   readonly uploadDataTransfer?: number;
   /**
   * Unique username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#username User#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#username User#username}
   */
   readonly username: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#virtual_folders User#virtual_folders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#virtual_folders User#virtual_folders}
   */
   readonly virtualFolders?: UserVirtualFolders[] | cdktf.IResolvable;
 }
@@ -156,67 +156,67 @@ export interface UserFilesystemAzblobconfig {
   /**
   * Blob Access Tier. Not set means the container default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#access_tier User#access_tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#access_tier User#access_tier}
   */
   readonly accessTier?: string;
   /**
   * Plain text account key. If you set a string in SFTPGo secret format, SFTPGo will keep the current secret on updates while the Terraform plan will save your value. Don't do this unless you are sure the values match (e.g because you imported an existing resource).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#account_key User#account_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#account_key User#account_key}
   */
   readonly accountKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#account_name User#account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#account_name User#account_name}
   */
   readonly accountName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#container User#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#container User#container}
   */
   readonly container?: string;
   /**
   * How many parts are downloaded in parallel. Default: 5.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#download_concurrency User#download_concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#download_concurrency User#download_concurrency}
   */
   readonly downloadConcurrency?: number;
   /**
   * The buffer size (in MB) to use for multipart downloads. If this value is not set, the default value (5MB) will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#download_part_size User#download_part_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#download_part_size User#download_part_size}
   */
   readonly downloadPartSize?: number;
   /**
   * Optional endpoint. Default is "blob.core.windows.net". If you use the emulator the endpoint must include the protocol, for example "http://127.0.0.1:10000".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#endpoint User#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#endpoint User#endpoint}
   */
   readonly endpoint?: string;
   /**
   * If specified then the SFTPGo user will be restricted to objects starting with the specified prefix. The prefix must not start with "/" and must end with "/"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#key_prefix User#key_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#key_prefix User#key_prefix}
   */
   readonly keyPrefix?: string;
   /**
   * Plain text SAS URL. If you set a string in SFTPGo secret format, SFTPGo will keep the current secret on updates while the Terraform plan will save your value. Don't do this unless you are sure the values match (e.g because you imported an existing resource).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#sas_url User#sas_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#sas_url User#sas_url}
   */
   readonly sasUrl?: string;
   /**
   * How many parts are uploaded in parallel. Default: 5.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#upload_concurrency User#upload_concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#upload_concurrency User#upload_concurrency}
   */
   readonly uploadConcurrency?: number;
   /**
   * The buffer size (in MB) to use for multipart uploads. If this value is not set, the default value (5MB) will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#upload_part_size User#upload_part_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#upload_part_size User#upload_part_size}
   */
   readonly uploadPartSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#use_emulator User#use_emulator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#use_emulator User#use_emulator}
   */
   readonly useEmulator?: boolean | cdktf.IResolvable;
 }
@@ -631,19 +631,19 @@ export interface UserFilesystemCryptconfig {
   /**
   * Plain text passphrase. If you set a string in SFTPGo secret format, SFTPGo will keep the current secret on updates while the Terraform plan will save your value. Don't do this unless you are sure the values match (e.g because you imported an existing resource).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#passphrase User#passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#passphrase User#passphrase}
   */
   readonly passphrase?: string;
   /**
   * Optional read buffer size, as MB, to use for downloads. Omit to disable buffering, that's fine in most use cases.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#read_buffer_size User#read_buffer_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#read_buffer_size User#read_buffer_size}
   */
   readonly readBufferSize?: number;
   /**
   * Optional write buffer size, as MB, to use for uploads. Omit to disable buffering, that's fine in most use cases.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#write_buffer_size User#write_buffer_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#write_buffer_size User#write_buffer_size}
   */
   readonly writeBufferSize?: number;
 }
@@ -793,55 +793,281 @@ export class UserFilesystemCryptconfigOutputReference extends cdktf.ComplexObjec
     return this._writeBufferSize;
   }
 }
+export interface UserFilesystemFtpconfig {
+  /**
+  * FTP endpoint as host:port.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#endpoint User#endpoint}
+  */
+  readonly endpoint: string;
+  /**
+  * Plain text password. If you set a string in SFTPGo secret format, SFTPGo will keep the current secret on updates while the Terraform plan will save your value. Don't do this unless you are sure the values match (e.g because you imported an existing resource).
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#password User#password}
+  */
+  readonly password?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#skip_tls_verify User#skip_tls_verify}
+  */
+  readonly skipTlsVerify?: boolean | cdktf.IResolvable;
+  /**
+  * 0 disabled, 1 Explicit, 2 Implicit.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#tls_mode User#tls_mode}
+  */
+  readonly tlsMode?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#username User#username}
+  */
+  readonly username: string;
+}
+
+export function userFilesystemFtpconfigToTerraform(struct?: UserFilesystemFtpconfig | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    endpoint: cdktf.stringToTerraform(struct!.endpoint),
+    password: cdktf.stringToTerraform(struct!.password),
+    skip_tls_verify: cdktf.booleanToTerraform(struct!.skipTlsVerify),
+    tls_mode: cdktf.numberToTerraform(struct!.tlsMode),
+    username: cdktf.stringToTerraform(struct!.username),
+  }
+}
+
+
+export function userFilesystemFtpconfigToHclTerraform(struct?: UserFilesystemFtpconfig | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    endpoint: {
+      value: cdktf.stringToHclTerraform(struct!.endpoint),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    password: {
+      value: cdktf.stringToHclTerraform(struct!.password),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    skip_tls_verify: {
+      value: cdktf.booleanToHclTerraform(struct!.skipTlsVerify),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    tls_mode: {
+      value: cdktf.numberToHclTerraform(struct!.tlsMode),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    username: {
+      value: cdktf.stringToHclTerraform(struct!.username),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class UserFilesystemFtpconfigOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): UserFilesystemFtpconfig | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._endpoint !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.endpoint = this._endpoint;
+    }
+    if (this._password !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.password = this._password;
+    }
+    if (this._skipTlsVerify !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.skipTlsVerify = this._skipTlsVerify;
+    }
+    if (this._tlsMode !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tlsMode = this._tlsMode;
+    }
+    if (this._username !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.username = this._username;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: UserFilesystemFtpconfig | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._endpoint = undefined;
+      this._password = undefined;
+      this._skipTlsVerify = undefined;
+      this._tlsMode = undefined;
+      this._username = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._endpoint = value.endpoint;
+      this._password = value.password;
+      this._skipTlsVerify = value.skipTlsVerify;
+      this._tlsMode = value.tlsMode;
+      this._username = value.username;
+    }
+  }
+
+  // endpoint - computed: false, optional: false, required: true
+  private _endpoint?: string; 
+  public get endpoint() {
+    return this.getStringAttribute('endpoint');
+  }
+  public set endpoint(value: string) {
+    this._endpoint = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get endpointInput() {
+    return this._endpoint;
+  }
+
+  // password - computed: false, optional: true, required: false
+  private _password?: string; 
+  public get password() {
+    return this.getStringAttribute('password');
+  }
+  public set password(value: string) {
+    this._password = value;
+  }
+  public resetPassword() {
+    this._password = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get passwordInput() {
+    return this._password;
+  }
+
+  // skip_tls_verify - computed: false, optional: true, required: false
+  private _skipTlsVerify?: boolean | cdktf.IResolvable; 
+  public get skipTlsVerify() {
+    return this.getBooleanAttribute('skip_tls_verify');
+  }
+  public set skipTlsVerify(value: boolean | cdktf.IResolvable) {
+    this._skipTlsVerify = value;
+  }
+  public resetSkipTlsVerify() {
+    this._skipTlsVerify = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get skipTlsVerifyInput() {
+    return this._skipTlsVerify;
+  }
+
+  // tls_mode - computed: false, optional: true, required: false
+  private _tlsMode?: number; 
+  public get tlsMode() {
+    return this.getNumberAttribute('tls_mode');
+  }
+  public set tlsMode(value: number) {
+    this._tlsMode = value;
+  }
+  public resetTlsMode() {
+    this._tlsMode = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tlsModeInput() {
+    return this._tlsMode;
+  }
+
+  // username - computed: false, optional: false, required: true
+  private _username?: string; 
+  public get username() {
+    return this.getStringAttribute('username');
+  }
+  public set username(value: string) {
+    this._username = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get usernameInput() {
+    return this._username;
+  }
+}
 export interface UserFilesystemGcsconfig {
   /**
   * The ACL to apply to uploaded objects. Not set means the bucket default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#acl User#acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#acl User#acl}
   */
   readonly acl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#automatic_credentials User#automatic_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#automatic_credentials User#automatic_credentials}
   */
   readonly automaticCredentials?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#bucket User#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#bucket User#bucket}
   */
   readonly bucket: string;
   /**
   * Plain text credentials. If you set a string in SFTPGo secret format, SFTPGo will keep the current secret on updates while the Terraform plan will save your value. Don't do this unless you are sure the values match (e.g because you imported an existing resource).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#credentials User#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#credentials User#credentials}
   */
   readonly credentials?: string;
   /**
   * Set to 1 if Hierarchical namespace is enabled for the bucket. Available in the Enterprise edition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#hns User#hns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#hns User#hns}
   */
   readonly hns?: number;
   /**
   * If specified then the SFTPGo user will be restricted to objects starting with the specified prefix. The prefix must not start with "/" and must end with "/"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#key_prefix User#key_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#key_prefix User#key_prefix}
   */
   readonly keyPrefix?: string;
   /**
   * The storage class to use when storing objects. Leave not set for default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#storage_class User#storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#storage_class User#storage_class}
   */
   readonly storageClass?: string;
   /**
   * The maximum time allowed, in seconds, to upload a single chunk. The default value is 32. Not set means use the default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#upload_part_max_time User#upload_part_max_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#upload_part_max_time User#upload_part_max_time}
   */
   readonly uploadPartMaxTime?: number;
   /**
   * The buffer size (in MB) to use for multipart uploads. The default value is 16MB. Not set means use the default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#upload_part_size User#upload_part_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#upload_part_size User#upload_part_size}
   */
   readonly uploadPartSize?: number;
 }
@@ -1166,29 +1392,29 @@ export interface UserFilesystemHttpconfig {
   /**
   * Plain text API key. If you set a string in SFTPGo secret format, SFTPGo will keep the current secret on updates while the Terraform plan will save your value. Don't do this unless you are sure the values match (e.g because you imported an existing resource).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#api_key User#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#api_key User#api_key}
   */
   readonly apiKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#endpoint User#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#endpoint User#endpoint}
   */
   readonly endpoint: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#equality_check_mode User#equality_check_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#equality_check_mode User#equality_check_mode}
   */
   readonly equalityCheckMode?: number;
   /**
   * Plain text password. If you set a string in SFTPGo secret format, SFTPGo will keep the current secret on updates while the Terraform plan will save your value. Don't do this unless you are sure the values match (e.g because you imported an existing resource).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#password User#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#password User#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#skip_tls_verify User#skip_tls_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#skip_tls_verify User#skip_tls_verify}
   */
   readonly skipTlsVerify?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#username User#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#username User#username}
   */
   readonly username?: string;
 }
@@ -1426,13 +1652,13 @@ export interface UserFilesystemOsconfig {
   /**
   * Optional read buffer size, as MB, to use for downloads. Omit to disable buffering, that's fine in most use cases.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#read_buffer_size User#read_buffer_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#read_buffer_size User#read_buffer_size}
   */
   readonly readBufferSize?: number;
   /**
   * Optional write buffer size, as MB, to use for uploads. Omit to disable no buffering, that's fine in most use cases.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#write_buffer_size User#write_buffer_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#write_buffer_size User#write_buffer_size}
   */
   readonly writeBufferSize?: number;
 }
@@ -1555,111 +1781,111 @@ export class UserFilesystemOsconfigOutputReference extends cdktf.ComplexObject {
 }
 export interface UserFilesystemS3Config {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#access_key User#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#access_key User#access_key}
   */
   readonly accessKey?: string;
   /**
   * Plain text access secret. If you set a string in SFTPGo secret format, SFTPGo will keep the current secret on updates while the Terraform plan will save your value. Don't do this unless you are sure the values match (e.g because you imported an existing resource).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#access_secret User#access_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#access_secret User#access_secret}
   */
   readonly accessSecret?: string;
   /**
   * The canned ACL to apply to uploaded objects. Not set means the bucket default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#acl User#acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#acl User#acl}
   */
   readonly acl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#bucket User#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#bucket User#bucket}
   */
   readonly bucket: string;
   /**
   * How many parts are downloaded in parallel. Not set means the default (5). Ignored for partial downloads.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#download_concurrency User#download_concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#download_concurrency User#download_concurrency}
   */
   readonly downloadConcurrency?: number;
   /**
   * The maximum time allowed, in seconds, to download a single chunk. Not set means no timeout. Ignored for partial downloads.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#download_part_max_time User#download_part_max_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#download_part_max_time User#download_part_max_time}
   */
   readonly downloadPartMaxTime?: number;
   /**
   * The buffer size (in MB) to use for multipart downloads. If this value is not set, the default value (5MB) will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#download_part_size User#download_part_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#download_part_size User#download_part_size}
   */
   readonly downloadPartSize?: number;
   /**
   * The endpoint is generally required for S3 compatible backends. For AWS S3, leave not set to use the default endpoint for the specified region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#endpoint User#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#endpoint User#endpoint}
   */
   readonly endpoint?: string;
   /**
   * If set path-style addressing is used, i.e. http://s3.amazonaws.com/BUCKET/KEY
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#force_path_style User#force_path_style}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#force_path_style User#force_path_style}
   */
   readonly forcePathStyle?: boolean | cdktf.IResolvable;
   /**
   * If specified then the SFTPGo user will be restricted to objects starting with the specified prefix. The prefix must not start with "/" and must end with "/"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#key_prefix User#key_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#key_prefix User#key_prefix}
   */
   readonly keyPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#region User#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#region User#region}
   */
   readonly region?: string;
   /**
   * Optional IAM Role ARN to assume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#role_arn User#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#role_arn User#role_arn}
   */
   readonly roleArn?: string;
   /**
   * Optional Session token that is a part of temporary security credentials provisioned by AWS STS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#session_token User#session_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#session_token User#session_token}
   */
   readonly sessionToken?: string;
   /**
   * If set the S3 client accepts any TLS certificate presented by the server and any host name in that certificate. In this mode, TLS is susceptible to man-in-the-middle attacks. This should be used only for testing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#skip_tls_verify User#skip_tls_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#skip_tls_verify User#skip_tls_verify}
   */
   readonly skipTlsVerify?: boolean | cdktf.IResolvable;
   /**
   * Plain text Server-Side encryption key. If you set a string in SFTPGo secret format, SFTPGo will keep the current secret on updates while the Terraform plan will save your value. Don't do this unless you are sure the values match (e.g because you imported an existing resource).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#sse_customer_key User#sse_customer_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#sse_customer_key User#sse_customer_key}
   */
   readonly sseCustomerKey?: string;
   /**
   * The storage class to use when storing objects. Leave not set for default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#storage_class User#storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#storage_class User#storage_class}
   */
   readonly storageClass?: string;
   /**
   * How many parts are uploaded in parallel. Not set means the default (5).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#upload_concurrency User#upload_concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#upload_concurrency User#upload_concurrency}
   */
   readonly uploadConcurrency?: number;
   /**
   * The maximum time allowed, in seconds, to upload a single chunk. Not set means no timeout.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#upload_part_max_time User#upload_part_max_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#upload_part_max_time User#upload_part_max_time}
   */
   readonly uploadPartMaxTime?: number;
   /**
   * The buffer size (in MB) to use for multipart uploads. If this value is not set, the default value (5MB) will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#upload_part_size User#upload_part_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#upload_part_size User#upload_part_size}
   */
   readonly uploadPartSize?: number;
 }
@@ -2274,77 +2500,77 @@ export interface UserFilesystemSftpconfig {
   /**
   * The buffer size (in MB) to use for uploads/downloads. Buffering could improve performance for high latency networks. With buffering enabled upload resume is not supported and a file cannot be opened for both reading and writing at the same time. Not set means disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#buffer_size User#buffer_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#buffer_size User#buffer_size}
   */
   readonly bufferSize?: number;
   /**
   * Concurrent reads are safe to use and disabling them will degrade performance so they are enabled by default. Some servers automatically delete files once they are downloaded. Using concurrent reads is problematic with such servers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#disable_concurrent_reads User#disable_concurrent_reads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#disable_concurrent_reads User#disable_concurrent_reads}
   */
   readonly disableConcurrentReads?: boolean | cdktf.IResolvable;
   /**
   * SFTP endpoint as host:port. Port is always required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#endpoint User#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#endpoint User#endpoint}
   */
   readonly endpoint: string;
   /**
   * Defines how to check if this config points to the same server as another config. By default both the endpoint and the username must match. 1 means that only the endpoint must match. If different configs point to the same server the renaming between the fs configs is allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#equality_check_mode User#equality_check_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#equality_check_mode User#equality_check_mode}
   */
   readonly equalityCheckMode?: number;
   /**
   * SHA256 fingerprints to validate when connecting to the external SFTP server. If not set any host key will be accepted: this is a security risk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#fingerprints User#fingerprints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#fingerprints User#fingerprints}
   */
   readonly fingerprints?: string[];
   /**
   * Plain text passphrase for the private key. If you set a string in SFTPGo secret format, SFTPGo will keep the current secret on updates while the Terraform plan will save your value. Don't do this unless you are sure the values match (e.g because you imported an existing resource).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#key_passphrase User#key_passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#key_passphrase User#key_passphrase}
   */
   readonly keyPassphrase?: string;
   /**
   * Plain text password. If you set a string in SFTPGo secret format, SFTPGo will keep the current secret on updates while the Terraform plan will save your value. Don't do this unless you are sure the values match (e.g because you imported an existing resource).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#password User#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#password User#password}
   */
   readonly password?: string;
   /**
   * Similar to a chroot for local filesystem. Example: "/somedir/subdir".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#prefix User#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#prefix User#prefix}
   */
   readonly prefix: string;
   /**
   * Plain text private key. If you set a string in SFTPGo secret format, SFTPGo will keep the current secret on updates while the Terraform plan will save your value. Don't do this unless you are sure the values match (e.g because you imported an existing resource).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#private_key User#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#private_key User#private_key}
   */
   readonly privateKey?: string;
   /**
   * Plain text SOCKS password. If you set a string in SFTPGo secret format, SFTPGo will keep the current secret on updates while the Terraform plan will save your value. Don't do this unless you are sure the values match (e.g because you imported an existing resource). Available in the Enterprise edition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#socks_password User#socks_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#socks_password User#socks_password}
   */
   readonly socksPassword?: string;
   /**
   * The address of the SOCKS proxy server, including schema, host, and port. Examples: socks5://127.0.0.1:1080, socks4://127.0.0.1:1080, socks4a://127.0.0.1:1080. Available in the Enterprise edition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#socks_proxy User#socks_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#socks_proxy User#socks_proxy}
   */
   readonly socksProxy?: string;
   /**
   * The optional SOCKS username. Available in the Enterprise edition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#socks_username User#socks_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#socks_username User#socks_username}
   */
   readonly socksUsername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#username User#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#username User#username}
   */
   readonly username: string;
 }
@@ -2777,37 +3003,43 @@ export class UserFilesystemSftpconfigOutputReference extends cdktf.ComplexObject
 }
 export interface UserFilesystem {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#azblobconfig User#azblobconfig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#azblobconfig User#azblobconfig}
   */
   readonly azblobconfig?: UserFilesystemAzblobconfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#cryptconfig User#cryptconfig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#cryptconfig User#cryptconfig}
   */
   readonly cryptconfig?: UserFilesystemCryptconfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#gcsconfig User#gcsconfig}
+  * Available in the Enterprise edition
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#ftpconfig User#ftpconfig}
+  */
+  readonly ftpconfig?: UserFilesystemFtpconfig;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#gcsconfig User#gcsconfig}
   */
   readonly gcsconfig?: UserFilesystemGcsconfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#httpconfig User#httpconfig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#httpconfig User#httpconfig}
   */
   readonly httpconfig?: UserFilesystemHttpconfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#osconfig User#osconfig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#osconfig User#osconfig}
   */
   readonly osconfig?: UserFilesystemOsconfig;
   /**
-  * Provider. 0 = local filesystem, 1 = S3 Compatible, 2 = Google Cloud, 3 = Azure Blob, 4 = Local encrypted, 5 = SFTP, 6 = HTTP
+  * Provider. 0 = local filesystem, 1 = S3 Compatible, 2 = Google Cloud, 3 = Azure Blob, 4 = Local encrypted, 5 = SFTP, 6 = HTTP, 7 = FTP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#provider User#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#provider User#provider}
   */
   readonly provider: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#s3config User#s3config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#s3config User#s3config}
   */
   readonly s3Config?: UserFilesystemS3Config;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#sftpconfig User#sftpconfig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#sftpconfig User#sftpconfig}
   */
   readonly sftpconfig?: UserFilesystemSftpconfig;
 }
@@ -2820,6 +3052,7 @@ export function userFilesystemToTerraform(struct?: UserFilesystem | cdktf.IResol
   return {
     azblobconfig: userFilesystemAzblobconfigToTerraform(struct!.azblobconfig),
     cryptconfig: userFilesystemCryptconfigToTerraform(struct!.cryptconfig),
+    ftpconfig: userFilesystemFtpconfigToTerraform(struct!.ftpconfig),
     gcsconfig: userFilesystemGcsconfigToTerraform(struct!.gcsconfig),
     httpconfig: userFilesystemHttpconfigToTerraform(struct!.httpconfig),
     osconfig: userFilesystemOsconfigToTerraform(struct!.osconfig),
@@ -2847,6 +3080,12 @@ export function userFilesystemToHclTerraform(struct?: UserFilesystem | cdktf.IRe
       isBlock: true,
       type: "struct",
       storageClassType: "UserFilesystemCryptconfig",
+    },
+    ftpconfig: {
+      value: userFilesystemFtpconfigToHclTerraform(struct!.ftpconfig),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "UserFilesystemFtpconfig",
     },
     gcsconfig: {
       value: userFilesystemGcsconfigToHclTerraform(struct!.gcsconfig),
@@ -2916,6 +3155,10 @@ export class UserFilesystemOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.cryptconfig = this._cryptconfig?.internalValue;
     }
+    if (this._ftpconfig?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ftpconfig = this._ftpconfig?.internalValue;
+    }
     if (this._gcsconfig?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.gcsconfig = this._gcsconfig?.internalValue;
@@ -2949,6 +3192,7 @@ export class UserFilesystemOutputReference extends cdktf.ComplexObject {
       this.resolvableValue = undefined;
       this._azblobconfig.internalValue = undefined;
       this._cryptconfig.internalValue = undefined;
+      this._ftpconfig.internalValue = undefined;
       this._gcsconfig.internalValue = undefined;
       this._httpconfig.internalValue = undefined;
       this._osconfig.internalValue = undefined;
@@ -2965,6 +3209,7 @@ export class UserFilesystemOutputReference extends cdktf.ComplexObject {
       this.resolvableValue = undefined;
       this._azblobconfig.internalValue = value.azblobconfig;
       this._cryptconfig.internalValue = value.cryptconfig;
+      this._ftpconfig.internalValue = value.ftpconfig;
       this._gcsconfig.internalValue = value.gcsconfig;
       this._httpconfig.internalValue = value.httpconfig;
       this._osconfig.internalValue = value.osconfig;
@@ -3004,6 +3249,22 @@ export class UserFilesystemOutputReference extends cdktf.ComplexObject {
   // Temporarily expose input value. Use with caution.
   public get cryptconfigInput() {
     return this._cryptconfig.internalValue;
+  }
+
+  // ftpconfig - computed: false, optional: true, required: false
+  private _ftpconfig = new UserFilesystemFtpconfigOutputReference(this, "ftpconfig");
+  public get ftpconfig() {
+    return this._ftpconfig;
+  }
+  public putFtpconfig(value: UserFilesystemFtpconfig) {
+    this._ftpconfig.internalValue = value;
+  }
+  public resetFtpconfig() {
+    this._ftpconfig.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ftpconfigInput() {
+    return this._ftpconfig.internalValue;
   }
 
   // gcsconfig - computed: false, optional: true, required: false
@@ -3103,19 +3364,19 @@ export interface UserFiltersAccessTime {
   /**
   * Day of week, 0 Sunday, 6 Saturday
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#day_of_week User#day_of_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#day_of_week User#day_of_week}
   */
   readonly dayOfWeek: number;
   /**
   * Start time in HH:MM format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#from User#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#from User#from}
   */
   readonly from: string;
   /**
   * End time in HH:MM format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#to User#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#to User#to}
   */
   readonly to: string;
 }
@@ -3282,19 +3543,19 @@ export interface UserFiltersBandwidthLimits {
   /**
   * Maximum download bandwidth as KB/s.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#download_bandwidth User#download_bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#download_bandwidth User#download_bandwidth}
   */
   readonly downloadBandwidth?: number;
   /**
   * Source networks in CIDR notation as defined in RFC 4632 and RFC 4291 for example "192.0.2.0/24" or "2001:db8::/32". The limit applies if the defined networks contain the client IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#sources User#sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#sources User#sources}
   */
   readonly sources: string[];
   /**
   * Maximum upload bandwidth as KB/s.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#upload_bandwidth User#upload_bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#upload_bandwidth User#upload_bandwidth}
   */
   readonly uploadBandwidth?: number;
 }
@@ -3467,25 +3728,25 @@ export interface UserFiltersFilePatterns {
   /**
   * Files/directories with these, case insensitive, patterns are allowed. Allowed file patterns are evaluated before the denied ones.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#allowed_patterns User#allowed_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#allowed_patterns User#allowed_patterns}
   */
   readonly allowedPatterns?: string[];
   /**
   * Files/directories with these, case insensitive, patterns are not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#denied_patterns User#denied_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#denied_patterns User#denied_patterns}
   */
   readonly deniedPatterns?: string[];
   /**
   * Set to 1 to hide denied files/directories in directory listing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#deny_policy User#deny_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#deny_policy User#deny_policy}
   */
   readonly denyPolicy?: number;
   /**
   * Virtual path, if no other specific filter is defined, the filter applies for sub directories too.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#path User#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#path User#path}
   */
   readonly path: string;
 }
@@ -3683,181 +3944,413 @@ export class UserFiltersFilePatternsList extends cdktf.ComplexList {
     return new UserFiltersFilePatternsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface UserFiltersPasswordPolicy {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#digits User#digits}
+  */
+  readonly digits?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#length User#length}
+  */
+  readonly length?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#lowers User#lowers}
+  */
+  readonly lowers?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#specials User#specials}
+  */
+  readonly specials?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#uppers User#uppers}
+  */
+  readonly uppers?: number;
+}
+
+export function userFiltersPasswordPolicyToTerraform(struct?: UserFiltersPasswordPolicy | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    digits: cdktf.numberToTerraform(struct!.digits),
+    length: cdktf.numberToTerraform(struct!.length),
+    lowers: cdktf.numberToTerraform(struct!.lowers),
+    specials: cdktf.numberToTerraform(struct!.specials),
+    uppers: cdktf.numberToTerraform(struct!.uppers),
+  }
+}
+
+
+export function userFiltersPasswordPolicyToHclTerraform(struct?: UserFiltersPasswordPolicy | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    digits: {
+      value: cdktf.numberToHclTerraform(struct!.digits),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    length: {
+      value: cdktf.numberToHclTerraform(struct!.length),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    lowers: {
+      value: cdktf.numberToHclTerraform(struct!.lowers),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    specials: {
+      value: cdktf.numberToHclTerraform(struct!.specials),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    uppers: {
+      value: cdktf.numberToHclTerraform(struct!.uppers),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class UserFiltersPasswordPolicyOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): UserFiltersPasswordPolicy | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._digits !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.digits = this._digits;
+    }
+    if (this._length !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.length = this._length;
+    }
+    if (this._lowers !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.lowers = this._lowers;
+    }
+    if (this._specials !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.specials = this._specials;
+    }
+    if (this._uppers !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uppers = this._uppers;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: UserFiltersPasswordPolicy | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._digits = undefined;
+      this._length = undefined;
+      this._lowers = undefined;
+      this._specials = undefined;
+      this._uppers = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._digits = value.digits;
+      this._length = value.length;
+      this._lowers = value.lowers;
+      this._specials = value.specials;
+      this._uppers = value.uppers;
+    }
+  }
+
+  // digits - computed: true, optional: true, required: false
+  private _digits?: number; 
+  public get digits() {
+    return this.getNumberAttribute('digits');
+  }
+  public set digits(value: number) {
+    this._digits = value;
+  }
+  public resetDigits() {
+    this._digits = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get digitsInput() {
+    return this._digits;
+  }
+
+  // length - computed: true, optional: true, required: false
+  private _length?: number; 
+  public get length() {
+    return this.getNumberAttribute('length');
+  }
+  public set length(value: number) {
+    this._length = value;
+  }
+  public resetLength() {
+    this._length = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get lengthInput() {
+    return this._length;
+  }
+
+  // lowers - computed: true, optional: true, required: false
+  private _lowers?: number; 
+  public get lowers() {
+    return this.getNumberAttribute('lowers');
+  }
+  public set lowers(value: number) {
+    this._lowers = value;
+  }
+  public resetLowers() {
+    this._lowers = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get lowersInput() {
+    return this._lowers;
+  }
+
+  // specials - computed: true, optional: true, required: false
+  private _specials?: number; 
+  public get specials() {
+    return this.getNumberAttribute('specials');
+  }
+  public set specials(value: number) {
+    this._specials = value;
+  }
+  public resetSpecials() {
+    this._specials = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get specialsInput() {
+    return this._specials;
+  }
+
+  // uppers - computed: true, optional: true, required: false
+  private _uppers?: number; 
+  public get uppers() {
+    return this.getNumberAttribute('uppers');
+  }
+  public set uppers(value: number) {
+    this._uppers = value;
+  }
+  public resetUppers() {
+    this._uppers = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uppersInput() {
+    return this._uppers;
+  }
+}
 export interface UserFilters {
   /**
   * Time periods in which access is allowed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#access_time User#access_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#access_time User#access_time}
   */
   readonly accessTime?: UserFiltersAccessTime[] | cdktf.IResolvable;
   /**
   * Additional email addresses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#additional_emails User#additional_emails}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#additional_emails User#additional_emails}
   */
   readonly additionalEmails?: string[];
   /**
   * If set, API Key authentication is allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#allow_api_key_auth User#allow_api_key_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#allow_api_key_auth User#allow_api_key_auth}
   */
   readonly allowApiKeyAuth?: boolean | cdktf.IResolvable;
   /**
   * Only connections from these IP/Mask are allowed. IP/Mask must be in CIDR notation as defined in RFC 4632 and RFC 4291 for example "192.0.2.0/24" or "2001:db8::/32"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#allowed_ip User#allowed_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#allowed_ip User#allowed_ip}
   */
   readonly allowedIp?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#bandwidth_limits User#bandwidth_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#bandwidth_limits User#bandwidth_limits}
   */
   readonly bandwidthLimits?: UserFiltersBandwidthLimits[] | cdktf.IResolvable;
   /**
   * If set, check password hook will not be executed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#check_password_disabled User#check_password_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#check_password_disabled User#check_password_disabled}
   */
   readonly checkPasswordDisabled?: boolean | cdktf.IResolvable;
   /**
   * An extra placeholder value available for use in group configurations. It can be referenced as %custom1%. Available in the Enterprise edition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#custom1 User#custom1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#custom1 User#custom1}
   */
   readonly custom1?: string;
   /**
   * Default expiration for newly created shares as number of days. Not set means no default expiration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#default_shares_expiration User#default_shares_expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#default_shares_expiration User#default_shares_expiration}
   */
   readonly defaultSharesExpiration?: number;
   /**
   * Connections from these IP/Mask are allowed. Denied rules will be evaluated before allowed ones.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#denied_ip User#denied_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#denied_ip User#denied_ip}
   */
   readonly deniedIp?: string[];
   /**
   * Disabled login methods. Valid values: "publickey", "password", "password-over-SSH", "keyboard-interactive", "publickey+password", "publickey+keyboard-interactive", "TLSCertificate", "TLSCertificate+password"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#denied_login_methods User#denied_login_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#denied_login_methods User#denied_login_methods}
   */
   readonly deniedLoginMethods?: string[];
   /**
   * Disabled protocols. Valid values: SSH, FTP, DAV, HTTP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#denied_protocols User#denied_protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#denied_protocols User#denied_protocols}
   */
   readonly deniedProtocols?: string[];
   /**
   * Disable checks for existence and automatic creation of home directory and virtual folders after user login.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#disable_fs_checks User#disable_fs_checks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#disable_fs_checks User#disable_fs_checks}
   */
   readonly disableFsChecks?: boolean | cdktf.IResolvable;
   /**
   * If enabled, only secure algorithms are allowed. This setting is currently enforced for SSH/SFTP. Available in the Enterprise edition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#enforce_secure_algorithms User#enforce_secure_algorithms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#enforce_secure_algorithms User#enforce_secure_algorithms}
   */
   readonly enforceSecureAlgorithms?: boolean | cdktf.IResolvable;
   /**
   * Defines the cache time, in seconds, for users authenticated using an external auth hook. Not set means no cache.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#external_auth_cache_time User#external_auth_cache_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#external_auth_cache_time User#external_auth_cache_time}
   */
   readonly externalAuthCacheTime?: number;
   /**
   * If set, external auth hook will not be executed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#external_auth_disabled User#external_auth_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#external_auth_disabled User#external_auth_disabled}
   */
   readonly externalAuthDisabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#file_patterns User#file_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#file_patterns User#file_patterns}
   */
   readonly filePatterns?: UserFiltersFilePatterns[] | cdktf.IResolvable;
   /**
   * FTP security mode. Set to 1 to require TLS for both data and control connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#ftp_security User#ftp_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#ftp_security User#ftp_security}
   */
   readonly ftpSecurity?: number;
   /**
   * If enabled the user can login with any password or no password at all. Anonymous users are supported for FTP and WebDAV protocols and permissions will be automatically set to "list" and "download" (read only)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#is_anonymous User#is_anonymous}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#is_anonymous User#is_anonymous}
   */
   readonly isAnonymous?: boolean | cdktf.IResolvable;
   /**
   * Maximum allowed expiration, as a number of days, when a user creates or updates a share. Not set means that non-expiring shares are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#max_shares_expiration User#max_shares_expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#max_shares_expiration User#max_shares_expiration}
   */
   readonly maxSharesExpiration?: number;
   /**
   * Max size allowed for a single upload. Unset means no limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#max_upload_file_size User#max_upload_file_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#max_upload_file_size User#max_upload_file_size}
   */
   readonly maxUploadFileSize?: number;
   /**
   * The password expires after the defined number of days. Not set means no expiration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#password_expiration User#password_expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#password_expiration User#password_expiration}
   */
   readonly passwordExpiration?: number;
   /**
+  * Static password complexity requirements. Whenever possible, prefer using the entropy-based approach provided by password_strength. Available in the Enterprise edition
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#password_policy User#password_policy}
+  */
+  readonly passwordPolicy?: UserFiltersPasswordPolicy;
+  /**
   * Minimum password strength. Not set means disabled, any password will be accepted. Values in the 50-70 range are suggested for common use cases.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#password_strength User#password_strength}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#password_strength User#password_strength}
   */
   readonly passwordStrength?: number;
   /**
   * If set, external pre-login hook will not be executed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#pre_login_disabled User#pre_login_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#pre_login_disabled User#pre_login_disabled}
   */
   readonly preLoginDisabled?: boolean | cdktf.IResolvable;
   /**
   * If set, user must change their password from WebClient/REST API at next login.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#require_password_change User#require_password_change}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#require_password_change User#require_password_change}
   */
   readonly requirePasswordChange?: boolean | cdktf.IResolvable;
   /**
   * Alternate starting directory. If not set, the default is "/". This option is supported for SFTP/SCP, FTP and HTTP (WebClient/REST API) protocols. Relative paths will use this directory as base.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#start_directory User#start_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#start_directory User#start_directory}
   */
   readonly startDirectory?: string;
   /**
   * TLS certificates for mutual authentication. If provided will be checked before TLS username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#tls_certs User#tls_certs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#tls_certs User#tls_certs}
   */
   readonly tlsCerts?: string[];
   /**
   * TLS certificate attribute to use as username. For FTP clients it must match the name provided using the "USER" command. For WebDAV, if no username is provided, the CN will be used as username. For WebDAV clients it must match the implicit or provided username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#tls_username User#tls_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#tls_username User#tls_username}
   */
   readonly tlsUsername?: string;
   /**
   * Defines protocols that require two factor authentication. Valid values: SSH, FTP, HTTP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#two_factor_protocols User#two_factor_protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#two_factor_protocols User#two_factor_protocols}
   */
   readonly twoFactorProtocols?: string[];
   /**
   * Hint for authentication plugins. Valid values: LDAPUser, OSUser
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#user_type User#user_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#user_type User#user_type}
   */
   readonly userType?: string;
   /**
   * Web Client/user REST API restrictions. Valid values: write-disabled, password-change-disabled, password-reset-disabled, publickey-change-disabled, tls-cert-change-disabled, mfa-disabled, api-key-auth-change-disabled, info-change-disabled, shares-disabled, shares-without-password-disabled, shares-require-email-auth, wopi-disabled, rest-api-disabled. Only available in the Enterprise version: shares-require-email-auth, wopi-disabled, rest-api-disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#web_client User#web_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#web_client User#web_client}
   */
   readonly webClient?: string[];
 }
@@ -3889,6 +4382,7 @@ export function userFiltersToTerraform(struct?: UserFilters | cdktf.IResolvable)
     max_shares_expiration: cdktf.numberToTerraform(struct!.maxSharesExpiration),
     max_upload_file_size: cdktf.numberToTerraform(struct!.maxUploadFileSize),
     password_expiration: cdktf.numberToTerraform(struct!.passwordExpiration),
+    password_policy: userFiltersPasswordPolicyToTerraform(struct!.passwordPolicy),
     password_strength: cdktf.numberToTerraform(struct!.passwordStrength),
     pre_login_disabled: cdktf.booleanToTerraform(struct!.preLoginDisabled),
     require_password_change: cdktf.booleanToTerraform(struct!.requirePasswordChange),
@@ -4033,6 +4527,12 @@ export function userFiltersToHclTerraform(struct?: UserFilters | cdktf.IResolvab
       isBlock: false,
       type: "simple",
       storageClassType: "number",
+    },
+    password_policy: {
+      value: userFiltersPasswordPolicyToHclTerraform(struct!.passwordPolicy),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "UserFiltersPasswordPolicy",
     },
     password_strength: {
       value: cdktf.numberToHclTerraform(struct!.passwordStrength),
@@ -4196,6 +4696,10 @@ export class UserFiltersOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.passwordExpiration = this._passwordExpiration;
     }
+    if (this._passwordPolicy?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.passwordPolicy = this._passwordPolicy?.internalValue;
+    }
     if (this._passwordStrength !== undefined) {
       hasAnyValues = true;
       internalValueResult.passwordStrength = this._passwordStrength;
@@ -4260,6 +4764,7 @@ export class UserFiltersOutputReference extends cdktf.ComplexObject {
       this._maxSharesExpiration = undefined;
       this._maxUploadFileSize = undefined;
       this._passwordExpiration = undefined;
+      this._passwordPolicy.internalValue = undefined;
       this._passwordStrength = undefined;
       this._preLoginDisabled = undefined;
       this._requirePasswordChange = undefined;
@@ -4298,6 +4803,7 @@ export class UserFiltersOutputReference extends cdktf.ComplexObject {
       this._maxSharesExpiration = value.maxSharesExpiration;
       this._maxUploadFileSize = value.maxUploadFileSize;
       this._passwordExpiration = value.passwordExpiration;
+      this._passwordPolicy.internalValue = value.passwordPolicy;
       this._passwordStrength = value.passwordStrength;
       this._preLoginDisabled = value.preLoginDisabled;
       this._requirePasswordChange = value.requirePasswordChange;
@@ -4646,6 +5152,22 @@ export class UserFiltersOutputReference extends cdktf.ComplexObject {
     return this._passwordExpiration;
   }
 
+  // password_policy - computed: true, optional: true, required: false
+  private _passwordPolicy = new UserFiltersPasswordPolicyOutputReference(this, "password_policy");
+  public get passwordPolicy() {
+    return this._passwordPolicy;
+  }
+  public putPasswordPolicy(value: UserFiltersPasswordPolicy) {
+    this._passwordPolicy.internalValue = value;
+  }
+  public resetPasswordPolicy() {
+    this._passwordPolicy.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get passwordPolicyInput() {
+    return this._passwordPolicy.internalValue;
+  }
+
   // password_strength - computed: true, optional: true, required: false
   private _passwordStrength?: number; 
   public get passwordStrength() {
@@ -4794,13 +5316,13 @@ export interface UserGroups {
   /**
   * Group name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#name User#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#name User#name}
   */
   readonly name: string;
   /**
   * Group type. 1 = Primary, 2 = Secondary, 3 = Membership only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#type User#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#type User#type}
   */
   readonly type: number;
 }
@@ -5108,6 +5630,80 @@ export class UserVirtualFoldersFilesystemCryptconfigOutputReference extends cdkt
   // write_buffer_size - computed: true, optional: false, required: false
   public get writeBufferSize() {
     return this.getNumberAttribute('write_buffer_size');
+  }
+}
+export interface UserVirtualFoldersFilesystemFtpconfig {
+}
+
+export function userVirtualFoldersFilesystemFtpconfigToTerraform(struct?: UserVirtualFoldersFilesystemFtpconfig): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function userVirtualFoldersFilesystemFtpconfigToHclTerraform(struct?: UserVirtualFoldersFilesystemFtpconfig): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class UserVirtualFoldersFilesystemFtpconfigOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): UserVirtualFoldersFilesystemFtpconfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: UserVirtualFoldersFilesystemFtpconfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // endpoint - computed: true, optional: false, required: false
+  public get endpoint() {
+    return this.getStringAttribute('endpoint');
+  }
+
+  // password - computed: true, optional: false, required: false
+  public get password() {
+    return this.getStringAttribute('password');
+  }
+
+  // skip_tls_verify - computed: true, optional: false, required: false
+  public get skipTlsVerify() {
+    return this.getBooleanAttribute('skip_tls_verify');
+  }
+
+  // tls_mode - computed: true, optional: false, required: false
+  public get tlsMode() {
+    return this.getNumberAttribute('tls_mode');
+  }
+
+  // username - computed: true, optional: false, required: false
+  public get username() {
+    return this.getStringAttribute('username');
   }
 }
 export interface UserVirtualFoldersFilesystemGcsconfig {
@@ -5661,6 +6257,12 @@ export class UserVirtualFoldersFilesystemOutputReference extends cdktf.ComplexOb
     return this._cryptconfig;
   }
 
+  // ftpconfig - computed: true, optional: false, required: false
+  private _ftpconfig = new UserVirtualFoldersFilesystemFtpconfigOutputReference(this, "ftpconfig");
+  public get ftpconfig() {
+    return this._ftpconfig;
+  }
+
   // gcsconfig - computed: true, optional: false, required: false
   private _gcsconfig = new UserVirtualFoldersFilesystemGcsconfigOutputReference(this, "gcsconfig");
   public get gcsconfig() {
@@ -5700,55 +6302,55 @@ export interface UserVirtualFolders {
   /**
   * Optional description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#description User#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#description User#description}
   */
   readonly description?: string;
   /**
   * Last quota update as unix timestamp in milliseconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#last_quota_update User#last_quota_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#last_quota_update User#last_quota_update}
   */
   readonly lastQuotaUpdate?: number;
   /**
   * Absolute path to a local directory. This is the folder root path for local storage provider. For non-local filesystems it will store temporary files.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#mapped_path User#mapped_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#mapped_path User#mapped_path}
   */
   readonly mappedPath?: string;
   /**
   * Unique folder name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#name User#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#name User#name}
   */
   readonly name: string;
   /**
   * Maximum number of files allowed. Not set means unlimited, -1 included in user quota
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#quota_files User#quota_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#quota_files User#quota_files}
   */
   readonly quotaFiles: number;
   /**
   * Maximum size allowed as bytes. Not set means unlimited, -1 included in user quota
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#quota_size User#quota_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#quota_size User#quota_size}
   */
   readonly quotaSize: number;
   /**
   * Used quota as number of files.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#used_quota_files User#used_quota_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#used_quota_files User#used_quota_files}
   */
   readonly usedQuotaFiles?: number;
   /**
   * Used quota as bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#used_quota_size User#used_quota_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#used_quota_size User#used_quota_size}
   */
   readonly usedQuotaSize?: number;
   /**
   * The folder will be available on this path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#virtual_path User#virtual_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#virtual_path User#virtual_path}
   */
   readonly virtualPath: string;
 }
@@ -6090,7 +6692,7 @@ export class UserVirtualFoldersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user sftpgo_user}
+* Represents a {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user sftpgo_user}
 */
 export class User extends cdktf.TerraformResource {
 
@@ -6106,7 +6708,7 @@ export class User extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a User resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the User to import
-  * @param importFromId The id of the existing User that should be imported. Refer to the {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing User that should be imported. Refer to the {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the User to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6118,7 +6720,7 @@ export class User extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/user sftpgo_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/user sftpgo_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6129,7 +6731,8 @@ export class User extends cdktf.TerraformResource {
       terraformResourceType: 'sftpgo_user',
       terraformGeneratorMetadata: {
         providerName: 'sftpgo',
-        providerVersion: '0.0.18'
+        providerVersion: '0.0.19',
+        providerVersionConstraint: '0.0.19'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

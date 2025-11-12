@@ -884,7 +884,8 @@ export class Migration extends cdktf.TerraformResource {
       terraformResourceType: 'atlas_migration',
       terraformGeneratorMetadata: {
         providerName: 'atlas',
-        providerVersion: '0.10.0'
+        providerVersion: '0.10.0',
+        providerVersionConstraint: '0.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -68,7 +68,8 @@ export class DebugDnsRrl extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_debug_dns_rrl',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

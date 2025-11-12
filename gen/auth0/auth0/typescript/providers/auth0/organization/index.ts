@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/organization
+// https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/organization
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface OrganizationConfig extends cdktf.TerraformMetaArguments {
   /**
   * Friendly name of this organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/organization#display_name Organization#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/organization#display_name Organization#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/organization#id Organization#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/organization#id Organization#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface OrganizationConfig extends cdktf.TerraformMetaArguments {
   /**
   * Metadata associated with the organization. Maximum of 10 metadata properties allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/organization#metadata Organization#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/organization#metadata Organization#metadata}
   */
   readonly metadata?: { [key: string]: string };
   /**
   * The name of this organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/organization#name Organization#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/organization#name Organization#name}
   */
   readonly name: string;
   /**
   * branding block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/organization#branding Organization#branding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/organization#branding Organization#branding}
   */
   readonly branding?: OrganizationBranding;
   /**
   * token_quota block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/organization#token_quota Organization#token_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/organization#token_quota Organization#token_quota}
   */
   readonly tokenQuota?: OrganizationTokenQuota;
 }
@@ -49,13 +49,13 @@ export interface OrganizationBranding {
   /**
   * Color scheme used to customize the login pages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/organization#colors Organization#colors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/organization#colors Organization#colors}
   */
   readonly colors?: { [key: string]: string };
   /**
   * URL of logo to display on login page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/organization#logo_url Organization#logo_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/organization#logo_url Organization#logo_url}
   */
   readonly logoUrl?: string;
 }
@@ -170,19 +170,19 @@ export interface OrganizationTokenQuotaClientCredentials {
   /**
   * If enabled, the quota will be enforced and requests in excess of the quota will fail. If disabled, the quota will not be enforced, but notifications for requests exceeding the quota will be available in logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/organization#enforce Organization#enforce}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/organization#enforce Organization#enforce}
   */
   readonly enforce?: boolean | cdktf.IResolvable;
   /**
   * Maximum number of issued tokens per day
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/organization#per_day Organization#per_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/organization#per_day Organization#per_day}
   */
   readonly perDay?: number;
   /**
   * Maximum number of issued tokens per hour
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/organization#per_hour Organization#per_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/organization#per_hour Organization#per_hour}
   */
   readonly perHour?: number;
 }
@@ -326,7 +326,7 @@ export interface OrganizationTokenQuota {
   /**
   * client_credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/organization#client_credentials Organization#client_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/organization#client_credentials Organization#client_credentials}
   */
   readonly clientCredentials: OrganizationTokenQuotaClientCredentials;
 }
@@ -407,7 +407,7 @@ export class OrganizationTokenQuotaOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/organization auth0_organization}
+* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/organization auth0_organization}
 */
 export class Organization extends cdktf.TerraformResource {
 
@@ -423,7 +423,7 @@ export class Organization extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Organization resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Organization to import
-  * @param importFromId The id of the existing Organization that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/organization#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Organization that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/organization#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Organization to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -435,7 +435,7 @@ export class Organization extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/organization auth0_organization} Resource
+  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/organization auth0_organization} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -446,7 +446,8 @@ export class Organization extends cdktf.TerraformResource {
       terraformResourceType: 'auth0_organization',
       terraformGeneratorMetadata: {
         providerName: 'auth0',
-        providerVersion: '1.33.0'
+        providerVersion: '1.34.0',
+        providerVersionConstraint: '1.34.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

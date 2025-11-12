@@ -85,7 +85,8 @@ export class DoublecloudProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'doublecloud',
       terraformGeneratorMetadata: {
         providerName: 'doublecloud',
-        providerVersion: '0.1.26'
+        providerVersion: '0.1.26',
+        providerVersionConstraint: '0.1.26'
       },
       terraformProviderSource: 'doublecloud/doublecloud'
     });

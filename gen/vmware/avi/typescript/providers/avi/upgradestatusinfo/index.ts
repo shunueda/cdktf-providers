@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo
+// https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,2770 +8,284 @@ import * as cdktf from 'cdktf';
 
 export interface UpgradestatusinfoConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#after_reboot_rollback_fnc Upgradestatusinfo#after_reboot_rollback_fnc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#after_reboot_rollback_fnc Upgradestatusinfo#after_reboot_rollback_fnc}
   */
   readonly afterRebootRollbackFnc?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#after_reboot_task_name Upgradestatusinfo#after_reboot_task_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#after_reboot_task_name Upgradestatusinfo#after_reboot_task_name}
   */
   readonly afterRebootTaskName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#clean Upgradestatusinfo#clean}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#clean Upgradestatusinfo#clean}
   */
   readonly clean?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#duration Upgradestatusinfo#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#duration Upgradestatusinfo#duration}
   */
   readonly duration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#enable_patch_rollback Upgradestatusinfo#enable_patch_rollback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#enable_patch_rollback Upgradestatusinfo#enable_patch_rollback}
   */
   readonly enablePatchRollback?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#enable_rollback Upgradestatusinfo#enable_rollback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#enable_rollback Upgradestatusinfo#enable_rollback}
   */
   readonly enableRollback?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#end_time Upgradestatusinfo#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#end_time Upgradestatusinfo#end_time}
   */
   readonly endTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#enqueue_time Upgradestatusinfo#enqueue_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#enqueue_time Upgradestatusinfo#enqueue_time}
   */
   readonly enqueueTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#fips_mode Upgradestatusinfo#fips_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#fips_mode Upgradestatusinfo#fips_mode}
   */
   readonly fipsMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#id Upgradestatusinfo#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#id Upgradestatusinfo#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#image_path Upgradestatusinfo#image_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#image_path Upgradestatusinfo#image_path}
   */
   readonly imagePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#image_ref Upgradestatusinfo#image_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#image_ref Upgradestatusinfo#image_ref}
   */
   readonly imageRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#name Upgradestatusinfo#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#name Upgradestatusinfo#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#node_type Upgradestatusinfo#node_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#node_type Upgradestatusinfo#node_type}
   */
   readonly nodeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#obj_cloud_ref Upgradestatusinfo#obj_cloud_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#obj_cloud_ref Upgradestatusinfo#obj_cloud_ref}
   */
   readonly objCloudRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#patch_image_path Upgradestatusinfo#patch_image_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#patch_image_path Upgradestatusinfo#patch_image_path}
   */
   readonly patchImagePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#patch_image_ref Upgradestatusinfo#patch_image_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#patch_image_ref Upgradestatusinfo#patch_image_ref}
   */
   readonly patchImageRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#patch_reboot Upgradestatusinfo#patch_reboot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#patch_reboot Upgradestatusinfo#patch_reboot}
   */
   readonly patchReboot?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#patch_version Upgradestatusinfo#patch_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#patch_version Upgradestatusinfo#patch_version}
   */
   readonly patchVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#prev_image_path Upgradestatusinfo#prev_image_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#prev_image_path Upgradestatusinfo#prev_image_path}
   */
   readonly prevImagePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#prev_patch_image_path Upgradestatusinfo#prev_patch_image_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#prev_patch_image_path Upgradestatusinfo#prev_patch_image_path}
   */
   readonly prevPatchImagePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#prev_remote_image_ref Upgradestatusinfo#prev_remote_image_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#prev_remote_image_ref Upgradestatusinfo#prev_remote_image_ref}
   */
   readonly prevRemoteImageRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#previous_image_ref Upgradestatusinfo#previous_image_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#previous_image_ref Upgradestatusinfo#previous_image_ref}
   */
   readonly previousImageRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#previous_patch_image_ref Upgradestatusinfo#previous_patch_image_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#previous_patch_image_ref Upgradestatusinfo#previous_patch_image_ref}
   */
   readonly previousPatchImageRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#previous_patch_version Upgradestatusinfo#previous_patch_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#previous_patch_version Upgradestatusinfo#previous_patch_version}
   */
   readonly previousPatchVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#previous_version Upgradestatusinfo#previous_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#previous_version Upgradestatusinfo#previous_version}
   */
   readonly previousVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#progress Upgradestatusinfo#progress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#progress Upgradestatusinfo#progress}
   */
   readonly progress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#reason Upgradestatusinfo#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#reason Upgradestatusinfo#reason}
   */
   readonly reason?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#remote_image_ref Upgradestatusinfo#remote_image_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#remote_image_ref Upgradestatusinfo#remote_image_ref}
   */
   readonly remoteImageRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#se_patch_image_path Upgradestatusinfo#se_patch_image_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_patch_image_path Upgradestatusinfo#se_patch_image_path}
   */
   readonly sePatchImagePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#se_patch_image_ref Upgradestatusinfo#se_patch_image_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_patch_image_ref Upgradestatusinfo#se_patch_image_ref}
   */
   readonly sePatchImageRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#start_time Upgradestatusinfo#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#start_time Upgradestatusinfo#start_time}
   */
   readonly startTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#statediff_ref Upgradestatusinfo#statediff_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#statediff_ref Upgradestatusinfo#statediff_ref}
   */
   readonly statediffRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#system Upgradestatusinfo#system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#system Upgradestatusinfo#system}
   */
   readonly systemAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#system_report_refs Upgradestatusinfo#system_report_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#system_report_refs Upgradestatusinfo#system_report_refs}
   */
   readonly systemReportRefs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#tasks_completed Upgradestatusinfo#tasks_completed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#tasks_completed Upgradestatusinfo#tasks_completed}
   */
   readonly tasksCompleted?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#tenant_ref Upgradestatusinfo#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#tenant_ref Upgradestatusinfo#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#total_tasks Upgradestatusinfo#total_tasks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#total_tasks Upgradestatusinfo#total_tasks}
   */
   readonly totalTasks?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#upgrade_ops Upgradestatusinfo#upgrade_ops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#upgrade_ops Upgradestatusinfo#upgrade_ops}
   */
   readonly upgradeOps?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#uuid Upgradestatusinfo#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#uuid Upgradestatusinfo#uuid}
   */
   readonly uuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#version Upgradestatusinfo#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#version Upgradestatusinfo#version}
   */
   readonly version?: string;
   /**
-  * dryrun_info block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#dryrun_info Upgradestatusinfo#dryrun_info}
-  */
-  readonly dryrunInfo?: UpgradestatusinfoDryrunInfo[] | cdktf.IResolvable;
-  /**
   * history block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#history Upgradestatusinfo#history}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#history Upgradestatusinfo#history}
   */
   readonly history?: UpgradestatusinfoHistory[] | cdktf.IResolvable;
   /**
   * params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#params Upgradestatusinfo#params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#params Upgradestatusinfo#params}
   */
   readonly params?: UpgradestatusinfoParams[] | cdktf.IResolvable;
   /**
   * patch_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#patch_list Upgradestatusinfo#patch_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#patch_list Upgradestatusinfo#patch_list}
   */
   readonly patchList?: UpgradestatusinfoPatchListStruct[] | cdktf.IResolvable;
   /**
   * previous_patch_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#previous_patch_list Upgradestatusinfo#previous_patch_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#previous_patch_list Upgradestatusinfo#previous_patch_list}
   */
   readonly previousPatchList?: UpgradestatusinfoPreviousPatchListStruct[] | cdktf.IResolvable;
   /**
   * se_upgrade_events block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#se_upgrade_events Upgradestatusinfo#se_upgrade_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_upgrade_events Upgradestatusinfo#se_upgrade_events}
   */
   readonly seUpgradeEvents?: UpgradestatusinfoSeUpgradeEvents[] | cdktf.IResolvable;
   /**
   * seg_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#seg_params Upgradestatusinfo#seg_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#seg_params Upgradestatusinfo#seg_params}
   */
   readonly segParams?: UpgradestatusinfoSegParams[] | cdktf.IResolvable;
   /**
   * seg_status block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#seg_status Upgradestatusinfo#seg_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#seg_status Upgradestatusinfo#seg_status}
   */
   readonly segStatus?: UpgradestatusinfoSegStatus[] | cdktf.IResolvable;
   /**
   * state block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#state Upgradestatusinfo#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#state Upgradestatusinfo#state}
   */
   readonly state?: UpgradestatusinfoState[] | cdktf.IResolvable;
   /**
   * upgrade_events block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#upgrade_events Upgradestatusinfo#upgrade_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#upgrade_events Upgradestatusinfo#upgrade_events}
   */
   readonly upgradeEvents?: UpgradestatusinfoUpgradeEvents[] | cdktf.IResolvable;
   /**
   * upgrade_readiness block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#upgrade_readiness Upgradestatusinfo#upgrade_readiness}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#upgrade_readiness Upgradestatusinfo#upgrade_readiness}
   */
   readonly upgradeReadiness?: UpgradestatusinfoUpgradeReadiness[] | cdktf.IResolvable;
 }
-export interface UpgradestatusinfoDryrunInfoParamsSeGroupOptions {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#action_on_error Upgradestatusinfo#action_on_error}
-  */
-  readonly actionOnError?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#disruptive Upgradestatusinfo#disruptive}
-  */
-  readonly disruptive?: string;
-}
-
-export function upgradestatusinfoDryrunInfoParamsSeGroupOptionsToTerraform(struct?: UpgradestatusinfoDryrunInfoParamsSeGroupOptions | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    action_on_error: cdktf.stringToTerraform(struct!.actionOnError),
-    disruptive: cdktf.stringToTerraform(struct!.disruptive),
-  }
-}
-
-
-export function upgradestatusinfoDryrunInfoParamsSeGroupOptionsToHclTerraform(struct?: UpgradestatusinfoDryrunInfoParamsSeGroupOptions | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    action_on_error: {
-      value: cdktf.stringToHclTerraform(struct!.actionOnError),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    disruptive: {
-      value: cdktf.stringToHclTerraform(struct!.disruptive),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class UpgradestatusinfoDryrunInfoParamsSeGroupOptionsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): UpgradestatusinfoDryrunInfoParamsSeGroupOptions | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._actionOnError !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.actionOnError = this._actionOnError;
-    }
-    if (this._disruptive !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.disruptive = this._disruptive;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: UpgradestatusinfoDryrunInfoParamsSeGroupOptions | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._actionOnError = undefined;
-      this._disruptive = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._actionOnError = value.actionOnError;
-      this._disruptive = value.disruptive;
-    }
-  }
-
-  // action_on_error - computed: false, optional: true, required: false
-  private _actionOnError?: string; 
-  public get actionOnError() {
-    return this.getStringAttribute('action_on_error');
-  }
-  public set actionOnError(value: string) {
-    this._actionOnError = value;
-  }
-  public resetActionOnError() {
-    this._actionOnError = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get actionOnErrorInput() {
-    return this._actionOnError;
-  }
-
-  // disruptive - computed: false, optional: true, required: false
-  private _disruptive?: string; 
-  public get disruptive() {
-    return this.getStringAttribute('disruptive');
-  }
-  public set disruptive(value: string) {
-    this._disruptive = value;
-  }
-  public resetDisruptive() {
-    this._disruptive = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get disruptiveInput() {
-    return this._disruptive;
-  }
-}
-
-export class UpgradestatusinfoDryrunInfoParamsSeGroupOptionsList extends cdktf.ComplexList {
-  public internalValue? : UpgradestatusinfoDryrunInfoParamsSeGroupOptions[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): UpgradestatusinfoDryrunInfoParamsSeGroupOptionsOutputReference {
-    return new UpgradestatusinfoDryrunInfoParamsSeGroupOptionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface UpgradestatusinfoDryrunInfoParams {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#controller_patch_ref Upgradestatusinfo#controller_patch_ref}
-  */
-  readonly controllerPatchRef?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#dryrun Upgradestatusinfo#dryrun}
-  */
-  readonly dryrun?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#image_ref Upgradestatusinfo#image_ref}
-  */
-  readonly imageRef?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#prechecks_only Upgradestatusinfo#prechecks_only}
-  */
-  readonly prechecksOnly?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#se_group_refs Upgradestatusinfo#se_group_refs}
-  */
-  readonly seGroupRefs?: string[];
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#se_patch_ref Upgradestatusinfo#se_patch_ref}
-  */
-  readonly sePatchRef?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#skip_warnings Upgradestatusinfo#skip_warnings}
-  */
-  readonly skipWarnings?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#system Upgradestatusinfo#system}
-  */
-  readonly systemAttribute?: string;
-  /**
-  * se_group_options block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#se_group_options Upgradestatusinfo#se_group_options}
-  */
-  readonly seGroupOptions?: UpgradestatusinfoDryrunInfoParamsSeGroupOptions[] | cdktf.IResolvable;
-}
-
-export function upgradestatusinfoDryrunInfoParamsToTerraform(struct?: UpgradestatusinfoDryrunInfoParams | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    controller_patch_ref: cdktf.stringToTerraform(struct!.controllerPatchRef),
-    dryrun: cdktf.stringToTerraform(struct!.dryrun),
-    image_ref: cdktf.stringToTerraform(struct!.imageRef),
-    prechecks_only: cdktf.stringToTerraform(struct!.prechecksOnly),
-    se_group_refs: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.seGroupRefs),
-    se_patch_ref: cdktf.stringToTerraform(struct!.sePatchRef),
-    skip_warnings: cdktf.stringToTerraform(struct!.skipWarnings),
-    system: cdktf.stringToTerraform(struct!.systemAttribute),
-    se_group_options: cdktf.listMapper(upgradestatusinfoDryrunInfoParamsSeGroupOptionsToTerraform, true)(struct!.seGroupOptions),
-  }
-}
-
-
-export function upgradestatusinfoDryrunInfoParamsToHclTerraform(struct?: UpgradestatusinfoDryrunInfoParams | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    controller_patch_ref: {
-      value: cdktf.stringToHclTerraform(struct!.controllerPatchRef),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    dryrun: {
-      value: cdktf.stringToHclTerraform(struct!.dryrun),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    image_ref: {
-      value: cdktf.stringToHclTerraform(struct!.imageRef),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    prechecks_only: {
-      value: cdktf.stringToHclTerraform(struct!.prechecksOnly),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    se_group_refs: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.seGroupRefs),
-      isBlock: false,
-      type: "list",
-      storageClassType: "stringList",
-    },
-    se_patch_ref: {
-      value: cdktf.stringToHclTerraform(struct!.sePatchRef),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    skip_warnings: {
-      value: cdktf.stringToHclTerraform(struct!.skipWarnings),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    system: {
-      value: cdktf.stringToHclTerraform(struct!.systemAttribute),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    se_group_options: {
-      value: cdktf.listMapperHcl(upgradestatusinfoDryrunInfoParamsSeGroupOptionsToHclTerraform, true)(struct!.seGroupOptions),
-      isBlock: true,
-      type: "set",
-      storageClassType: "UpgradestatusinfoDryrunInfoParamsSeGroupOptionsList",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class UpgradestatusinfoDryrunInfoParamsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): UpgradestatusinfoDryrunInfoParams | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._controllerPatchRef !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.controllerPatchRef = this._controllerPatchRef;
-    }
-    if (this._dryrun !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.dryrun = this._dryrun;
-    }
-    if (this._imageRef !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.imageRef = this._imageRef;
-    }
-    if (this._prechecksOnly !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.prechecksOnly = this._prechecksOnly;
-    }
-    if (this._seGroupRefs !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.seGroupRefs = this._seGroupRefs;
-    }
-    if (this._sePatchRef !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.sePatchRef = this._sePatchRef;
-    }
-    if (this._skipWarnings !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.skipWarnings = this._skipWarnings;
-    }
-    if (this._system !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.systemAttribute = this._system;
-    }
-    if (this._seGroupOptions?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.seGroupOptions = this._seGroupOptions?.internalValue;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: UpgradestatusinfoDryrunInfoParams | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._controllerPatchRef = undefined;
-      this._dryrun = undefined;
-      this._imageRef = undefined;
-      this._prechecksOnly = undefined;
-      this._seGroupRefs = undefined;
-      this._sePatchRef = undefined;
-      this._skipWarnings = undefined;
-      this._system = undefined;
-      this._seGroupOptions.internalValue = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._controllerPatchRef = value.controllerPatchRef;
-      this._dryrun = value.dryrun;
-      this._imageRef = value.imageRef;
-      this._prechecksOnly = value.prechecksOnly;
-      this._seGroupRefs = value.seGroupRefs;
-      this._sePatchRef = value.sePatchRef;
-      this._skipWarnings = value.skipWarnings;
-      this._system = value.systemAttribute;
-      this._seGroupOptions.internalValue = value.seGroupOptions;
-    }
-  }
-
-  // controller_patch_ref - computed: true, optional: true, required: false
-  private _controllerPatchRef?: string; 
-  public get controllerPatchRef() {
-    return this.getStringAttribute('controller_patch_ref');
-  }
-  public set controllerPatchRef(value: string) {
-    this._controllerPatchRef = value;
-  }
-  public resetControllerPatchRef() {
-    this._controllerPatchRef = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get controllerPatchRefInput() {
-    return this._controllerPatchRef;
-  }
-
-  // dryrun - computed: true, optional: true, required: false
-  private _dryrun?: string; 
-  public get dryrun() {
-    return this.getStringAttribute('dryrun');
-  }
-  public set dryrun(value: string) {
-    this._dryrun = value;
-  }
-  public resetDryrun() {
-    this._dryrun = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get dryrunInput() {
-    return this._dryrun;
-  }
-
-  // image_ref - computed: true, optional: true, required: false
-  private _imageRef?: string; 
-  public get imageRef() {
-    return this.getStringAttribute('image_ref');
-  }
-  public set imageRef(value: string) {
-    this._imageRef = value;
-  }
-  public resetImageRef() {
-    this._imageRef = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get imageRefInput() {
-    return this._imageRef;
-  }
-
-  // prechecks_only - computed: true, optional: true, required: false
-  private _prechecksOnly?: string; 
-  public get prechecksOnly() {
-    return this.getStringAttribute('prechecks_only');
-  }
-  public set prechecksOnly(value: string) {
-    this._prechecksOnly = value;
-  }
-  public resetPrechecksOnly() {
-    this._prechecksOnly = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get prechecksOnlyInput() {
-    return this._prechecksOnly;
-  }
-
-  // se_group_refs - computed: false, optional: true, required: false
-  private _seGroupRefs?: string[]; 
-  public get seGroupRefs() {
-    return this.getListAttribute('se_group_refs');
-  }
-  public set seGroupRefs(value: string[]) {
-    this._seGroupRefs = value;
-  }
-  public resetSeGroupRefs() {
-    this._seGroupRefs = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get seGroupRefsInput() {
-    return this._seGroupRefs;
-  }
-
-  // se_patch_ref - computed: true, optional: true, required: false
-  private _sePatchRef?: string; 
-  public get sePatchRef() {
-    return this.getStringAttribute('se_patch_ref');
-  }
-  public set sePatchRef(value: string) {
-    this._sePatchRef = value;
-  }
-  public resetSePatchRef() {
-    this._sePatchRef = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get sePatchRefInput() {
-    return this._sePatchRef;
-  }
-
-  // skip_warnings - computed: true, optional: true, required: false
-  private _skipWarnings?: string; 
-  public get skipWarnings() {
-    return this.getStringAttribute('skip_warnings');
-  }
-  public set skipWarnings(value: string) {
-    this._skipWarnings = value;
-  }
-  public resetSkipWarnings() {
-    this._skipWarnings = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get skipWarningsInput() {
-    return this._skipWarnings;
-  }
-
-  // system - computed: true, optional: true, required: false
-  private _system?: string; 
-  public get systemAttribute() {
-    return this.getStringAttribute('system');
-  }
-  public set systemAttribute(value: string) {
-    this._system = value;
-  }
-  public resetSystemAttribute() {
-    this._system = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get systemAttributeInput() {
-    return this._system;
-  }
-
-  // se_group_options - computed: false, optional: true, required: false
-  private _seGroupOptions = new UpgradestatusinfoDryrunInfoParamsSeGroupOptionsList(this, "se_group_options", true);
-  public get seGroupOptions() {
-    return this._seGroupOptions;
-  }
-  public putSeGroupOptions(value: UpgradestatusinfoDryrunInfoParamsSeGroupOptions[] | cdktf.IResolvable) {
-    this._seGroupOptions.internalValue = value;
-  }
-  public resetSeGroupOptions() {
-    this._seGroupOptions.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get seGroupOptionsInput() {
-    return this._seGroupOptions.internalValue;
-  }
-}
-
-export class UpgradestatusinfoDryrunInfoParamsList extends cdktf.ComplexList {
-  public internalValue? : UpgradestatusinfoDryrunInfoParams[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): UpgradestatusinfoDryrunInfoParamsOutputReference {
-    return new UpgradestatusinfoDryrunInfoParamsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface UpgradestatusinfoDryrunInfoStateLastChangedTime {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#secs Upgradestatusinfo#secs}
-  */
-  readonly secs: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#usecs Upgradestatusinfo#usecs}
-  */
-  readonly usecs: string;
-}
-
-export function upgradestatusinfoDryrunInfoStateLastChangedTimeToTerraform(struct?: UpgradestatusinfoDryrunInfoStateLastChangedTime | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    secs: cdktf.stringToTerraform(struct!.secs),
-    usecs: cdktf.stringToTerraform(struct!.usecs),
-  }
-}
-
-
-export function upgradestatusinfoDryrunInfoStateLastChangedTimeToHclTerraform(struct?: UpgradestatusinfoDryrunInfoStateLastChangedTime | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    secs: {
-      value: cdktf.stringToHclTerraform(struct!.secs),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    usecs: {
-      value: cdktf.stringToHclTerraform(struct!.usecs),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class UpgradestatusinfoDryrunInfoStateLastChangedTimeOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): UpgradestatusinfoDryrunInfoStateLastChangedTime | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._secs !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.secs = this._secs;
-    }
-    if (this._usecs !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.usecs = this._usecs;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: UpgradestatusinfoDryrunInfoStateLastChangedTime | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._secs = undefined;
-      this._usecs = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._secs = value.secs;
-      this._usecs = value.usecs;
-    }
-  }
-
-  // secs - computed: false, optional: false, required: true
-  private _secs?: string; 
-  public get secs() {
-    return this.getStringAttribute('secs');
-  }
-  public set secs(value: string) {
-    this._secs = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get secsInput() {
-    return this._secs;
-  }
-
-  // usecs - computed: false, optional: false, required: true
-  private _usecs?: string; 
-  public get usecs() {
-    return this.getStringAttribute('usecs');
-  }
-  public set usecs(value: string) {
-    this._usecs = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get usecsInput() {
-    return this._usecs;
-  }
-}
-
-export class UpgradestatusinfoDryrunInfoStateLastChangedTimeList extends cdktf.ComplexList {
-  public internalValue? : UpgradestatusinfoDryrunInfoStateLastChangedTime[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): UpgradestatusinfoDryrunInfoStateLastChangedTimeOutputReference {
-    return new UpgradestatusinfoDryrunInfoStateLastChangedTimeOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface UpgradestatusinfoDryrunInfoState {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#reason Upgradestatusinfo#reason}
-  */
-  readonly reason?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#rebooted Upgradestatusinfo#rebooted}
-  */
-  readonly rebooted?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#state Upgradestatusinfo#state}
-  */
-  readonly state?: string;
-  /**
-  * last_changed_time block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#last_changed_time Upgradestatusinfo#last_changed_time}
-  */
-  readonly lastChangedTime?: UpgradestatusinfoDryrunInfoStateLastChangedTime[] | cdktf.IResolvable;
-}
-
-export function upgradestatusinfoDryrunInfoStateToTerraform(struct?: UpgradestatusinfoDryrunInfoState | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    reason: cdktf.stringToTerraform(struct!.reason),
-    rebooted: cdktf.stringToTerraform(struct!.rebooted),
-    state: cdktf.stringToTerraform(struct!.state),
-    last_changed_time: cdktf.listMapper(upgradestatusinfoDryrunInfoStateLastChangedTimeToTerraform, true)(struct!.lastChangedTime),
-  }
-}
-
-
-export function upgradestatusinfoDryrunInfoStateToHclTerraform(struct?: UpgradestatusinfoDryrunInfoState | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    reason: {
-      value: cdktf.stringToHclTerraform(struct!.reason),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    rebooted: {
-      value: cdktf.stringToHclTerraform(struct!.rebooted),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    state: {
-      value: cdktf.stringToHclTerraform(struct!.state),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    last_changed_time: {
-      value: cdktf.listMapperHcl(upgradestatusinfoDryrunInfoStateLastChangedTimeToHclTerraform, true)(struct!.lastChangedTime),
-      isBlock: true,
-      type: "set",
-      storageClassType: "UpgradestatusinfoDryrunInfoStateLastChangedTimeList",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class UpgradestatusinfoDryrunInfoStateOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): UpgradestatusinfoDryrunInfoState | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._reason !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.reason = this._reason;
-    }
-    if (this._rebooted !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.rebooted = this._rebooted;
-    }
-    if (this._state !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.state = this._state;
-    }
-    if (this._lastChangedTime?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.lastChangedTime = this._lastChangedTime?.internalValue;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: UpgradestatusinfoDryrunInfoState | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._reason = undefined;
-      this._rebooted = undefined;
-      this._state = undefined;
-      this._lastChangedTime.internalValue = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._reason = value.reason;
-      this._rebooted = value.rebooted;
-      this._state = value.state;
-      this._lastChangedTime.internalValue = value.lastChangedTime;
-    }
-  }
-
-  // reason - computed: true, optional: true, required: false
-  private _reason?: string; 
-  public get reason() {
-    return this.getStringAttribute('reason');
-  }
-  public set reason(value: string) {
-    this._reason = value;
-  }
-  public resetReason() {
-    this._reason = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get reasonInput() {
-    return this._reason;
-  }
-
-  // rebooted - computed: true, optional: true, required: false
-  private _rebooted?: string; 
-  public get rebooted() {
-    return this.getStringAttribute('rebooted');
-  }
-  public set rebooted(value: string) {
-    this._rebooted = value;
-  }
-  public resetRebooted() {
-    this._rebooted = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get rebootedInput() {
-    return this._rebooted;
-  }
-
-  // state - computed: true, optional: true, required: false
-  private _state?: string; 
-  public get state() {
-    return this.getStringAttribute('state');
-  }
-  public set state(value: string) {
-    this._state = value;
-  }
-  public resetState() {
-    this._state = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get stateInput() {
-    return this._state;
-  }
-
-  // last_changed_time - computed: false, optional: true, required: false
-  private _lastChangedTime = new UpgradestatusinfoDryrunInfoStateLastChangedTimeList(this, "last_changed_time", true);
-  public get lastChangedTime() {
-    return this._lastChangedTime;
-  }
-  public putLastChangedTime(value: UpgradestatusinfoDryrunInfoStateLastChangedTime[] | cdktf.IResolvable) {
-    this._lastChangedTime.internalValue = value;
-  }
-  public resetLastChangedTime() {
-    this._lastChangedTime.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get lastChangedTimeInput() {
-    return this._lastChangedTime.internalValue;
-  }
-}
-
-export class UpgradestatusinfoDryrunInfoStateList extends cdktf.ComplexList {
-  public internalValue? : UpgradestatusinfoDryrunInfoState[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): UpgradestatusinfoDryrunInfoStateOutputReference {
-    return new UpgradestatusinfoDryrunInfoStateOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface UpgradestatusinfoDryrunInfoUpgradeEventsNodesEventsIp {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#addr Upgradestatusinfo#addr}
-  */
-  readonly addr: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#type Upgradestatusinfo#type}
-  */
-  readonly type: string;
-}
-
-export function upgradestatusinfoDryrunInfoUpgradeEventsNodesEventsIpToTerraform(struct?: UpgradestatusinfoDryrunInfoUpgradeEventsNodesEventsIp | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    addr: cdktf.stringToTerraform(struct!.addr),
-    type: cdktf.stringToTerraform(struct!.type),
-  }
-}
-
-
-export function upgradestatusinfoDryrunInfoUpgradeEventsNodesEventsIpToHclTerraform(struct?: UpgradestatusinfoDryrunInfoUpgradeEventsNodesEventsIp | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    addr: {
-      value: cdktf.stringToHclTerraform(struct!.addr),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    type: {
-      value: cdktf.stringToHclTerraform(struct!.type),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class UpgradestatusinfoDryrunInfoUpgradeEventsNodesEventsIpOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): UpgradestatusinfoDryrunInfoUpgradeEventsNodesEventsIp | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._addr !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.addr = this._addr;
-    }
-    if (this._type !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.type = this._type;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: UpgradestatusinfoDryrunInfoUpgradeEventsNodesEventsIp | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._addr = undefined;
-      this._type = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._addr = value.addr;
-      this._type = value.type;
-    }
-  }
-
-  // addr - computed: false, optional: false, required: true
-  private _addr?: string; 
-  public get addr() {
-    return this.getStringAttribute('addr');
-  }
-  public set addr(value: string) {
-    this._addr = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get addrInput() {
-    return this._addr;
-  }
-
-  // type - computed: false, optional: false, required: true
-  private _type?: string; 
-  public get type() {
-    return this.getStringAttribute('type');
-  }
-  public set type(value: string) {
-    this._type = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get typeInput() {
-    return this._type;
-  }
-}
-
-export class UpgradestatusinfoDryrunInfoUpgradeEventsNodesEventsIpList extends cdktf.ComplexList {
-  public internalValue? : UpgradestatusinfoDryrunInfoUpgradeEventsNodesEventsIp[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): UpgradestatusinfoDryrunInfoUpgradeEventsNodesEventsIpOutputReference {
-    return new UpgradestatusinfoDryrunInfoUpgradeEventsNodesEventsIpOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface UpgradestatusinfoDryrunInfoUpgradeEventsNodesEvents {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#duration Upgradestatusinfo#duration}
-  */
-  readonly duration?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#end_time Upgradestatusinfo#end_time}
-  */
-  readonly endTime?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#message Upgradestatusinfo#message}
-  */
-  readonly message?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#start_time Upgradestatusinfo#start_time}
-  */
-  readonly startTime?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#status Upgradestatusinfo#status}
-  */
-  readonly status?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#sub_tasks Upgradestatusinfo#sub_tasks}
-  */
-  readonly subTasks?: string[];
-  /**
-  * ip block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#ip Upgradestatusinfo#ip}
-  */
-  readonly ip?: UpgradestatusinfoDryrunInfoUpgradeEventsNodesEventsIp[] | cdktf.IResolvable;
-}
-
-export function upgradestatusinfoDryrunInfoUpgradeEventsNodesEventsToTerraform(struct?: UpgradestatusinfoDryrunInfoUpgradeEventsNodesEvents | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    duration: cdktf.stringToTerraform(struct!.duration),
-    end_time: cdktf.stringToTerraform(struct!.endTime),
-    message: cdktf.stringToTerraform(struct!.message),
-    start_time: cdktf.stringToTerraform(struct!.startTime),
-    status: cdktf.stringToTerraform(struct!.status),
-    sub_tasks: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.subTasks),
-    ip: cdktf.listMapper(upgradestatusinfoDryrunInfoUpgradeEventsNodesEventsIpToTerraform, true)(struct!.ip),
-  }
-}
-
-
-export function upgradestatusinfoDryrunInfoUpgradeEventsNodesEventsToHclTerraform(struct?: UpgradestatusinfoDryrunInfoUpgradeEventsNodesEvents | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    duration: {
-      value: cdktf.stringToHclTerraform(struct!.duration),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    end_time: {
-      value: cdktf.stringToHclTerraform(struct!.endTime),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    message: {
-      value: cdktf.stringToHclTerraform(struct!.message),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    start_time: {
-      value: cdktf.stringToHclTerraform(struct!.startTime),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    status: {
-      value: cdktf.stringToHclTerraform(struct!.status),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    sub_tasks: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.subTasks),
-      isBlock: false,
-      type: "list",
-      storageClassType: "stringList",
-    },
-    ip: {
-      value: cdktf.listMapperHcl(upgradestatusinfoDryrunInfoUpgradeEventsNodesEventsIpToHclTerraform, true)(struct!.ip),
-      isBlock: true,
-      type: "set",
-      storageClassType: "UpgradestatusinfoDryrunInfoUpgradeEventsNodesEventsIpList",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class UpgradestatusinfoDryrunInfoUpgradeEventsNodesEventsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): UpgradestatusinfoDryrunInfoUpgradeEventsNodesEvents | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._duration !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.duration = this._duration;
-    }
-    if (this._endTime !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.endTime = this._endTime;
-    }
-    if (this._message !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.message = this._message;
-    }
-    if (this._startTime !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.startTime = this._startTime;
-    }
-    if (this._status !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.status = this._status;
-    }
-    if (this._subTasks !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.subTasks = this._subTasks;
-    }
-    if (this._ip?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ip = this._ip?.internalValue;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: UpgradestatusinfoDryrunInfoUpgradeEventsNodesEvents | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._duration = undefined;
-      this._endTime = undefined;
-      this._message = undefined;
-      this._startTime = undefined;
-      this._status = undefined;
-      this._subTasks = undefined;
-      this._ip.internalValue = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._duration = value.duration;
-      this._endTime = value.endTime;
-      this._message = value.message;
-      this._startTime = value.startTime;
-      this._status = value.status;
-      this._subTasks = value.subTasks;
-      this._ip.internalValue = value.ip;
-    }
-  }
-
-  // duration - computed: true, optional: true, required: false
-  private _duration?: string; 
-  public get duration() {
-    return this.getStringAttribute('duration');
-  }
-  public set duration(value: string) {
-    this._duration = value;
-  }
-  public resetDuration() {
-    this._duration = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get durationInput() {
-    return this._duration;
-  }
-
-  // end_time - computed: true, optional: true, required: false
-  private _endTime?: string; 
-  public get endTime() {
-    return this.getStringAttribute('end_time');
-  }
-  public set endTime(value: string) {
-    this._endTime = value;
-  }
-  public resetEndTime() {
-    this._endTime = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get endTimeInput() {
-    return this._endTime;
-  }
-
-  // message - computed: true, optional: true, required: false
-  private _message?: string; 
-  public get message() {
-    return this.getStringAttribute('message');
-  }
-  public set message(value: string) {
-    this._message = value;
-  }
-  public resetMessage() {
-    this._message = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get messageInput() {
-    return this._message;
-  }
-
-  // start_time - computed: true, optional: true, required: false
-  private _startTime?: string; 
-  public get startTime() {
-    return this.getStringAttribute('start_time');
-  }
-  public set startTime(value: string) {
-    this._startTime = value;
-  }
-  public resetStartTime() {
-    this._startTime = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get startTimeInput() {
-    return this._startTime;
-  }
-
-  // status - computed: false, optional: true, required: false
-  private _status?: string; 
-  public get status() {
-    return this.getStringAttribute('status');
-  }
-  public set status(value: string) {
-    this._status = value;
-  }
-  public resetStatus() {
-    this._status = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get statusInput() {
-    return this._status;
-  }
-
-  // sub_tasks - computed: false, optional: true, required: false
-  private _subTasks?: string[]; 
-  public get subTasks() {
-    return this.getListAttribute('sub_tasks');
-  }
-  public set subTasks(value: string[]) {
-    this._subTasks = value;
-  }
-  public resetSubTasks() {
-    this._subTasks = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get subTasksInput() {
-    return this._subTasks;
-  }
-
-  // ip - computed: false, optional: true, required: false
-  private _ip = new UpgradestatusinfoDryrunInfoUpgradeEventsNodesEventsIpList(this, "ip", true);
-  public get ip() {
-    return this._ip;
-  }
-  public putIp(value: UpgradestatusinfoDryrunInfoUpgradeEventsNodesEventsIp[] | cdktf.IResolvable) {
-    this._ip.internalValue = value;
-  }
-  public resetIp() {
-    this._ip.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ipInput() {
-    return this._ip.internalValue;
-  }
-}
-
-export class UpgradestatusinfoDryrunInfoUpgradeEventsNodesEventsList extends cdktf.ComplexList {
-  public internalValue? : UpgradestatusinfoDryrunInfoUpgradeEventsNodesEvents[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): UpgradestatusinfoDryrunInfoUpgradeEventsNodesEventsOutputReference {
-    return new UpgradestatusinfoDryrunInfoUpgradeEventsNodesEventsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface UpgradestatusinfoDryrunInfoUpgradeEventsSubEventsIp {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#addr Upgradestatusinfo#addr}
-  */
-  readonly addr: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#type Upgradestatusinfo#type}
-  */
-  readonly type: string;
-}
-
-export function upgradestatusinfoDryrunInfoUpgradeEventsSubEventsIpToTerraform(struct?: UpgradestatusinfoDryrunInfoUpgradeEventsSubEventsIp | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    addr: cdktf.stringToTerraform(struct!.addr),
-    type: cdktf.stringToTerraform(struct!.type),
-  }
-}
-
-
-export function upgradestatusinfoDryrunInfoUpgradeEventsSubEventsIpToHclTerraform(struct?: UpgradestatusinfoDryrunInfoUpgradeEventsSubEventsIp | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    addr: {
-      value: cdktf.stringToHclTerraform(struct!.addr),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    type: {
-      value: cdktf.stringToHclTerraform(struct!.type),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class UpgradestatusinfoDryrunInfoUpgradeEventsSubEventsIpOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): UpgradestatusinfoDryrunInfoUpgradeEventsSubEventsIp | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._addr !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.addr = this._addr;
-    }
-    if (this._type !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.type = this._type;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: UpgradestatusinfoDryrunInfoUpgradeEventsSubEventsIp | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._addr = undefined;
-      this._type = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._addr = value.addr;
-      this._type = value.type;
-    }
-  }
-
-  // addr - computed: false, optional: false, required: true
-  private _addr?: string; 
-  public get addr() {
-    return this.getStringAttribute('addr');
-  }
-  public set addr(value: string) {
-    this._addr = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get addrInput() {
-    return this._addr;
-  }
-
-  // type - computed: false, optional: false, required: true
-  private _type?: string; 
-  public get type() {
-    return this.getStringAttribute('type');
-  }
-  public set type(value: string) {
-    this._type = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get typeInput() {
-    return this._type;
-  }
-}
-
-export class UpgradestatusinfoDryrunInfoUpgradeEventsSubEventsIpList extends cdktf.ComplexList {
-  public internalValue? : UpgradestatusinfoDryrunInfoUpgradeEventsSubEventsIp[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): UpgradestatusinfoDryrunInfoUpgradeEventsSubEventsIpOutputReference {
-    return new UpgradestatusinfoDryrunInfoUpgradeEventsSubEventsIpOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface UpgradestatusinfoDryrunInfoUpgradeEventsSubEvents {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#duration Upgradestatusinfo#duration}
-  */
-  readonly duration?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#end_time Upgradestatusinfo#end_time}
-  */
-  readonly endTime?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#message Upgradestatusinfo#message}
-  */
-  readonly message?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#start_time Upgradestatusinfo#start_time}
-  */
-  readonly startTime?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#status Upgradestatusinfo#status}
-  */
-  readonly status?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#sub_tasks Upgradestatusinfo#sub_tasks}
-  */
-  readonly subTasks?: string[];
-  /**
-  * ip block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#ip Upgradestatusinfo#ip}
-  */
-  readonly ip?: UpgradestatusinfoDryrunInfoUpgradeEventsSubEventsIp[] | cdktf.IResolvable;
-}
-
-export function upgradestatusinfoDryrunInfoUpgradeEventsSubEventsToTerraform(struct?: UpgradestatusinfoDryrunInfoUpgradeEventsSubEvents | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    duration: cdktf.stringToTerraform(struct!.duration),
-    end_time: cdktf.stringToTerraform(struct!.endTime),
-    message: cdktf.stringToTerraform(struct!.message),
-    start_time: cdktf.stringToTerraform(struct!.startTime),
-    status: cdktf.stringToTerraform(struct!.status),
-    sub_tasks: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.subTasks),
-    ip: cdktf.listMapper(upgradestatusinfoDryrunInfoUpgradeEventsSubEventsIpToTerraform, true)(struct!.ip),
-  }
-}
-
-
-export function upgradestatusinfoDryrunInfoUpgradeEventsSubEventsToHclTerraform(struct?: UpgradestatusinfoDryrunInfoUpgradeEventsSubEvents | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    duration: {
-      value: cdktf.stringToHclTerraform(struct!.duration),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    end_time: {
-      value: cdktf.stringToHclTerraform(struct!.endTime),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    message: {
-      value: cdktf.stringToHclTerraform(struct!.message),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    start_time: {
-      value: cdktf.stringToHclTerraform(struct!.startTime),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    status: {
-      value: cdktf.stringToHclTerraform(struct!.status),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    sub_tasks: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.subTasks),
-      isBlock: false,
-      type: "list",
-      storageClassType: "stringList",
-    },
-    ip: {
-      value: cdktf.listMapperHcl(upgradestatusinfoDryrunInfoUpgradeEventsSubEventsIpToHclTerraform, true)(struct!.ip),
-      isBlock: true,
-      type: "set",
-      storageClassType: "UpgradestatusinfoDryrunInfoUpgradeEventsSubEventsIpList",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class UpgradestatusinfoDryrunInfoUpgradeEventsSubEventsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): UpgradestatusinfoDryrunInfoUpgradeEventsSubEvents | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._duration !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.duration = this._duration;
-    }
-    if (this._endTime !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.endTime = this._endTime;
-    }
-    if (this._message !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.message = this._message;
-    }
-    if (this._startTime !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.startTime = this._startTime;
-    }
-    if (this._status !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.status = this._status;
-    }
-    if (this._subTasks !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.subTasks = this._subTasks;
-    }
-    if (this._ip?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ip = this._ip?.internalValue;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: UpgradestatusinfoDryrunInfoUpgradeEventsSubEvents | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._duration = undefined;
-      this._endTime = undefined;
-      this._message = undefined;
-      this._startTime = undefined;
-      this._status = undefined;
-      this._subTasks = undefined;
-      this._ip.internalValue = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._duration = value.duration;
-      this._endTime = value.endTime;
-      this._message = value.message;
-      this._startTime = value.startTime;
-      this._status = value.status;
-      this._subTasks = value.subTasks;
-      this._ip.internalValue = value.ip;
-    }
-  }
-
-  // duration - computed: true, optional: true, required: false
-  private _duration?: string; 
-  public get duration() {
-    return this.getStringAttribute('duration');
-  }
-  public set duration(value: string) {
-    this._duration = value;
-  }
-  public resetDuration() {
-    this._duration = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get durationInput() {
-    return this._duration;
-  }
-
-  // end_time - computed: true, optional: true, required: false
-  private _endTime?: string; 
-  public get endTime() {
-    return this.getStringAttribute('end_time');
-  }
-  public set endTime(value: string) {
-    this._endTime = value;
-  }
-  public resetEndTime() {
-    this._endTime = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get endTimeInput() {
-    return this._endTime;
-  }
-
-  // message - computed: true, optional: true, required: false
-  private _message?: string; 
-  public get message() {
-    return this.getStringAttribute('message');
-  }
-  public set message(value: string) {
-    this._message = value;
-  }
-  public resetMessage() {
-    this._message = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get messageInput() {
-    return this._message;
-  }
-
-  // start_time - computed: true, optional: true, required: false
-  private _startTime?: string; 
-  public get startTime() {
-    return this.getStringAttribute('start_time');
-  }
-  public set startTime(value: string) {
-    this._startTime = value;
-  }
-  public resetStartTime() {
-    this._startTime = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get startTimeInput() {
-    return this._startTime;
-  }
-
-  // status - computed: false, optional: true, required: false
-  private _status?: string; 
-  public get status() {
-    return this.getStringAttribute('status');
-  }
-  public set status(value: string) {
-    this._status = value;
-  }
-  public resetStatus() {
-    this._status = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get statusInput() {
-    return this._status;
-  }
-
-  // sub_tasks - computed: false, optional: true, required: false
-  private _subTasks?: string[]; 
-  public get subTasks() {
-    return this.getListAttribute('sub_tasks');
-  }
-  public set subTasks(value: string[]) {
-    this._subTasks = value;
-  }
-  public resetSubTasks() {
-    this._subTasks = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get subTasksInput() {
-    return this._subTasks;
-  }
-
-  // ip - computed: false, optional: true, required: false
-  private _ip = new UpgradestatusinfoDryrunInfoUpgradeEventsSubEventsIpList(this, "ip", true);
-  public get ip() {
-    return this._ip;
-  }
-  public putIp(value: UpgradestatusinfoDryrunInfoUpgradeEventsSubEventsIp[] | cdktf.IResolvable) {
-    this._ip.internalValue = value;
-  }
-  public resetIp() {
-    this._ip.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ipInput() {
-    return this._ip.internalValue;
-  }
-}
-
-export class UpgradestatusinfoDryrunInfoUpgradeEventsSubEventsList extends cdktf.ComplexList {
-  public internalValue? : UpgradestatusinfoDryrunInfoUpgradeEventsSubEvents[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): UpgradestatusinfoDryrunInfoUpgradeEventsSubEventsOutputReference {
-    return new UpgradestatusinfoDryrunInfoUpgradeEventsSubEventsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface UpgradestatusinfoDryrunInfoUpgradeEvents {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#task Upgradestatusinfo#task}
-  */
-  readonly task?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#task_name Upgradestatusinfo#task_name}
-  */
-  readonly taskName?: string;
-  /**
-  * nodes_events block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#nodes_events Upgradestatusinfo#nodes_events}
-  */
-  readonly nodesEvents?: UpgradestatusinfoDryrunInfoUpgradeEventsNodesEvents[] | cdktf.IResolvable;
-  /**
-  * sub_events block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#sub_events Upgradestatusinfo#sub_events}
-  */
-  readonly subEvents?: UpgradestatusinfoDryrunInfoUpgradeEventsSubEvents[] | cdktf.IResolvable;
-}
-
-export function upgradestatusinfoDryrunInfoUpgradeEventsToTerraform(struct?: UpgradestatusinfoDryrunInfoUpgradeEvents | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    task: cdktf.stringToTerraform(struct!.task),
-    task_name: cdktf.stringToTerraform(struct!.taskName),
-    nodes_events: cdktf.listMapper(upgradestatusinfoDryrunInfoUpgradeEventsNodesEventsToTerraform, true)(struct!.nodesEvents),
-    sub_events: cdktf.listMapper(upgradestatusinfoDryrunInfoUpgradeEventsSubEventsToTerraform, true)(struct!.subEvents),
-  }
-}
-
-
-export function upgradestatusinfoDryrunInfoUpgradeEventsToHclTerraform(struct?: UpgradestatusinfoDryrunInfoUpgradeEvents | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    task: {
-      value: cdktf.stringToHclTerraform(struct!.task),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    task_name: {
-      value: cdktf.stringToHclTerraform(struct!.taskName),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    nodes_events: {
-      value: cdktf.listMapperHcl(upgradestatusinfoDryrunInfoUpgradeEventsNodesEventsToHclTerraform, true)(struct!.nodesEvents),
-      isBlock: true,
-      type: "list",
-      storageClassType: "UpgradestatusinfoDryrunInfoUpgradeEventsNodesEventsList",
-    },
-    sub_events: {
-      value: cdktf.listMapperHcl(upgradestatusinfoDryrunInfoUpgradeEventsSubEventsToHclTerraform, true)(struct!.subEvents),
-      isBlock: true,
-      type: "list",
-      storageClassType: "UpgradestatusinfoDryrunInfoUpgradeEventsSubEventsList",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class UpgradestatusinfoDryrunInfoUpgradeEventsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): UpgradestatusinfoDryrunInfoUpgradeEvents | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._task !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.task = this._task;
-    }
-    if (this._taskName !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.taskName = this._taskName;
-    }
-    if (this._nodesEvents?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.nodesEvents = this._nodesEvents?.internalValue;
-    }
-    if (this._subEvents?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.subEvents = this._subEvents?.internalValue;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: UpgradestatusinfoDryrunInfoUpgradeEvents | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._task = undefined;
-      this._taskName = undefined;
-      this._nodesEvents.internalValue = undefined;
-      this._subEvents.internalValue = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._task = value.task;
-      this._taskName = value.taskName;
-      this._nodesEvents.internalValue = value.nodesEvents;
-      this._subEvents.internalValue = value.subEvents;
-    }
-  }
-
-  // task - computed: true, optional: true, required: false
-  private _task?: string; 
-  public get task() {
-    return this.getStringAttribute('task');
-  }
-  public set task(value: string) {
-    this._task = value;
-  }
-  public resetTask() {
-    this._task = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get taskInput() {
-    return this._task;
-  }
-
-  // task_name - computed: true, optional: true, required: false
-  private _taskName?: string; 
-  public get taskName() {
-    return this.getStringAttribute('task_name');
-  }
-  public set taskName(value: string) {
-    this._taskName = value;
-  }
-  public resetTaskName() {
-    this._taskName = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get taskNameInput() {
-    return this._taskName;
-  }
-
-  // nodes_events - computed: false, optional: true, required: false
-  private _nodesEvents = new UpgradestatusinfoDryrunInfoUpgradeEventsNodesEventsList(this, "nodes_events", false);
-  public get nodesEvents() {
-    return this._nodesEvents;
-  }
-  public putNodesEvents(value: UpgradestatusinfoDryrunInfoUpgradeEventsNodesEvents[] | cdktf.IResolvable) {
-    this._nodesEvents.internalValue = value;
-  }
-  public resetNodesEvents() {
-    this._nodesEvents.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nodesEventsInput() {
-    return this._nodesEvents.internalValue;
-  }
-
-  // sub_events - computed: false, optional: true, required: false
-  private _subEvents = new UpgradestatusinfoDryrunInfoUpgradeEventsSubEventsList(this, "sub_events", false);
-  public get subEvents() {
-    return this._subEvents;
-  }
-  public putSubEvents(value: UpgradestatusinfoDryrunInfoUpgradeEventsSubEvents[] | cdktf.IResolvable) {
-    this._subEvents.internalValue = value;
-  }
-  public resetSubEvents() {
-    this._subEvents.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get subEventsInput() {
-    return this._subEvents.internalValue;
-  }
-}
-
-export class UpgradestatusinfoDryrunInfoUpgradeEventsList extends cdktf.ComplexList {
-  public internalValue? : UpgradestatusinfoDryrunInfoUpgradeEvents[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): UpgradestatusinfoDryrunInfoUpgradeEventsOutputReference {
-    return new UpgradestatusinfoDryrunInfoUpgradeEventsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface UpgradestatusinfoDryrunInfo {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#duration Upgradestatusinfo#duration}
-  */
-  readonly duration?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#end_time Upgradestatusinfo#end_time}
-  */
-  readonly endTime?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#operation Upgradestatusinfo#operation}
-  */
-  readonly operation?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#progress Upgradestatusinfo#progress}
-  */
-  readonly progress?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#start_time Upgradestatusinfo#start_time}
-  */
-  readonly startTime?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#tasks_completed Upgradestatusinfo#tasks_completed}
-  */
-  readonly tasksCompleted?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#total_tasks Upgradestatusinfo#total_tasks}
-  */
-  readonly totalTasks?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#worker Upgradestatusinfo#worker}
-  */
-  readonly worker?: string;
-  /**
-  * params block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#params Upgradestatusinfo#params}
-  */
-  readonly params?: UpgradestatusinfoDryrunInfoParams[] | cdktf.IResolvable;
-  /**
-  * state block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#state Upgradestatusinfo#state}
-  */
-  readonly state?: UpgradestatusinfoDryrunInfoState[] | cdktf.IResolvable;
-  /**
-  * upgrade_events block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#upgrade_events Upgradestatusinfo#upgrade_events}
-  */
-  readonly upgradeEvents?: UpgradestatusinfoDryrunInfoUpgradeEvents[] | cdktf.IResolvable;
-}
-
-export function upgradestatusinfoDryrunInfoToTerraform(struct?: UpgradestatusinfoDryrunInfo | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    duration: cdktf.stringToTerraform(struct!.duration),
-    end_time: cdktf.stringToTerraform(struct!.endTime),
-    operation: cdktf.stringToTerraform(struct!.operation),
-    progress: cdktf.stringToTerraform(struct!.progress),
-    start_time: cdktf.stringToTerraform(struct!.startTime),
-    tasks_completed: cdktf.stringToTerraform(struct!.tasksCompleted),
-    total_tasks: cdktf.stringToTerraform(struct!.totalTasks),
-    worker: cdktf.stringToTerraform(struct!.worker),
-    params: cdktf.listMapper(upgradestatusinfoDryrunInfoParamsToTerraform, true)(struct!.params),
-    state: cdktf.listMapper(upgradestatusinfoDryrunInfoStateToTerraform, true)(struct!.state),
-    upgrade_events: cdktf.listMapper(upgradestatusinfoDryrunInfoUpgradeEventsToTerraform, true)(struct!.upgradeEvents),
-  }
-}
-
-
-export function upgradestatusinfoDryrunInfoToHclTerraform(struct?: UpgradestatusinfoDryrunInfo | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    duration: {
-      value: cdktf.stringToHclTerraform(struct!.duration),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    end_time: {
-      value: cdktf.stringToHclTerraform(struct!.endTime),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    operation: {
-      value: cdktf.stringToHclTerraform(struct!.operation),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    progress: {
-      value: cdktf.stringToHclTerraform(struct!.progress),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    start_time: {
-      value: cdktf.stringToHclTerraform(struct!.startTime),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    tasks_completed: {
-      value: cdktf.stringToHclTerraform(struct!.tasksCompleted),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    total_tasks: {
-      value: cdktf.stringToHclTerraform(struct!.totalTasks),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    worker: {
-      value: cdktf.stringToHclTerraform(struct!.worker),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    params: {
-      value: cdktf.listMapperHcl(upgradestatusinfoDryrunInfoParamsToHclTerraform, true)(struct!.params),
-      isBlock: true,
-      type: "set",
-      storageClassType: "UpgradestatusinfoDryrunInfoParamsList",
-    },
-    state: {
-      value: cdktf.listMapperHcl(upgradestatusinfoDryrunInfoStateToHclTerraform, true)(struct!.state),
-      isBlock: true,
-      type: "set",
-      storageClassType: "UpgradestatusinfoDryrunInfoStateList",
-    },
-    upgrade_events: {
-      value: cdktf.listMapperHcl(upgradestatusinfoDryrunInfoUpgradeEventsToHclTerraform, true)(struct!.upgradeEvents),
-      isBlock: true,
-      type: "list",
-      storageClassType: "UpgradestatusinfoDryrunInfoUpgradeEventsList",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class UpgradestatusinfoDryrunInfoOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): UpgradestatusinfoDryrunInfo | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._duration !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.duration = this._duration;
-    }
-    if (this._endTime !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.endTime = this._endTime;
-    }
-    if (this._operation !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.operation = this._operation;
-    }
-    if (this._progress !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.progress = this._progress;
-    }
-    if (this._startTime !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.startTime = this._startTime;
-    }
-    if (this._tasksCompleted !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.tasksCompleted = this._tasksCompleted;
-    }
-    if (this._totalTasks !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.totalTasks = this._totalTasks;
-    }
-    if (this._worker !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.worker = this._worker;
-    }
-    if (this._params?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.params = this._params?.internalValue;
-    }
-    if (this._state?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.state = this._state?.internalValue;
-    }
-    if (this._upgradeEvents?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.upgradeEvents = this._upgradeEvents?.internalValue;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: UpgradestatusinfoDryrunInfo | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._duration = undefined;
-      this._endTime = undefined;
-      this._operation = undefined;
-      this._progress = undefined;
-      this._startTime = undefined;
-      this._tasksCompleted = undefined;
-      this._totalTasks = undefined;
-      this._worker = undefined;
-      this._params.internalValue = undefined;
-      this._state.internalValue = undefined;
-      this._upgradeEvents.internalValue = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._duration = value.duration;
-      this._endTime = value.endTime;
-      this._operation = value.operation;
-      this._progress = value.progress;
-      this._startTime = value.startTime;
-      this._tasksCompleted = value.tasksCompleted;
-      this._totalTasks = value.totalTasks;
-      this._worker = value.worker;
-      this._params.internalValue = value.params;
-      this._state.internalValue = value.state;
-      this._upgradeEvents.internalValue = value.upgradeEvents;
-    }
-  }
-
-  // duration - computed: true, optional: true, required: false
-  private _duration?: string; 
-  public get duration() {
-    return this.getStringAttribute('duration');
-  }
-  public set duration(value: string) {
-    this._duration = value;
-  }
-  public resetDuration() {
-    this._duration = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get durationInput() {
-    return this._duration;
-  }
-
-  // end_time - computed: true, optional: true, required: false
-  private _endTime?: string; 
-  public get endTime() {
-    return this.getStringAttribute('end_time');
-  }
-  public set endTime(value: string) {
-    this._endTime = value;
-  }
-  public resetEndTime() {
-    this._endTime = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get endTimeInput() {
-    return this._endTime;
-  }
-
-  // operation - computed: true, optional: true, required: false
-  private _operation?: string; 
-  public get operation() {
-    return this.getStringAttribute('operation');
-  }
-  public set operation(value: string) {
-    this._operation = value;
-  }
-  public resetOperation() {
-    this._operation = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get operationInput() {
-    return this._operation;
-  }
-
-  // progress - computed: false, optional: true, required: false
-  private _progress?: string; 
-  public get progress() {
-    return this.getStringAttribute('progress');
-  }
-  public set progress(value: string) {
-    this._progress = value;
-  }
-  public resetProgress() {
-    this._progress = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get progressInput() {
-    return this._progress;
-  }
-
-  // start_time - computed: true, optional: true, required: false
-  private _startTime?: string; 
-  public get startTime() {
-    return this.getStringAttribute('start_time');
-  }
-  public set startTime(value: string) {
-    this._startTime = value;
-  }
-  public resetStartTime() {
-    this._startTime = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get startTimeInput() {
-    return this._startTime;
-  }
-
-  // tasks_completed - computed: true, optional: true, required: false
-  private _tasksCompleted?: string; 
-  public get tasksCompleted() {
-    return this.getStringAttribute('tasks_completed');
-  }
-  public set tasksCompleted(value: string) {
-    this._tasksCompleted = value;
-  }
-  public resetTasksCompleted() {
-    this._tasksCompleted = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get tasksCompletedInput() {
-    return this._tasksCompleted;
-  }
-
-  // total_tasks - computed: true, optional: true, required: false
-  private _totalTasks?: string; 
-  public get totalTasks() {
-    return this.getStringAttribute('total_tasks');
-  }
-  public set totalTasks(value: string) {
-    this._totalTasks = value;
-  }
-  public resetTotalTasks() {
-    this._totalTasks = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get totalTasksInput() {
-    return this._totalTasks;
-  }
-
-  // worker - computed: true, optional: true, required: false
-  private _worker?: string; 
-  public get worker() {
-    return this.getStringAttribute('worker');
-  }
-  public set worker(value: string) {
-    this._worker = value;
-  }
-  public resetWorker() {
-    this._worker = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get workerInput() {
-    return this._worker;
-  }
-
-  // params - computed: false, optional: true, required: false
-  private _params = new UpgradestatusinfoDryrunInfoParamsList(this, "params", true);
-  public get params() {
-    return this._params;
-  }
-  public putParams(value: UpgradestatusinfoDryrunInfoParams[] | cdktf.IResolvable) {
-    this._params.internalValue = value;
-  }
-  public resetParams() {
-    this._params.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get paramsInput() {
-    return this._params.internalValue;
-  }
-
-  // state - computed: false, optional: true, required: false
-  private _state = new UpgradestatusinfoDryrunInfoStateList(this, "state", true);
-  public get state() {
-    return this._state;
-  }
-  public putState(value: UpgradestatusinfoDryrunInfoState[] | cdktf.IResolvable) {
-    this._state.internalValue = value;
-  }
-  public resetState() {
-    this._state.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get stateInput() {
-    return this._state.internalValue;
-  }
-
-  // upgrade_events - computed: false, optional: true, required: false
-  private _upgradeEvents = new UpgradestatusinfoDryrunInfoUpgradeEventsList(this, "upgrade_events", false);
-  public get upgradeEvents() {
-    return this._upgradeEvents;
-  }
-  public putUpgradeEvents(value: UpgradestatusinfoDryrunInfoUpgradeEvents[] | cdktf.IResolvable) {
-    this._upgradeEvents.internalValue = value;
-  }
-  public resetUpgradeEvents() {
-    this._upgradeEvents.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get upgradeEventsInput() {
-    return this._upgradeEvents.internalValue;
-  }
-}
-
-export class UpgradestatusinfoDryrunInfoList extends cdktf.ComplexList {
-  public internalValue? : UpgradestatusinfoDryrunInfo[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): UpgradestatusinfoDryrunInfoOutputReference {
-    return new UpgradestatusinfoDryrunInfoOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
 export interface UpgradestatusinfoHistorySeUpgradeEvents {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#from_se_ref Upgradestatusinfo#from_se_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#from_se_ref Upgradestatusinfo#from_se_ref}
   */
   readonly fromSeRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#num_se Upgradestatusinfo#num_se}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#num_se Upgradestatusinfo#num_se}
   */
   readonly numSe?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#num_se_group Upgradestatusinfo#num_se_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#num_se_group Upgradestatusinfo#num_se_group}
   */
   readonly numSeGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#num_vs Upgradestatusinfo#num_vs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#num_vs Upgradestatusinfo#num_vs}
   */
   readonly numVs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#reason Upgradestatusinfo#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#reason Upgradestatusinfo#reason}
   */
   readonly reason?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#se_group_ha_mode Upgradestatusinfo#se_group_ha_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_group_ha_mode Upgradestatusinfo#se_group_ha_mode}
   */
   readonly seGroupHaMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#se_group_ref Upgradestatusinfo#se_group_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_group_ref Upgradestatusinfo#se_group_ref}
   */
   readonly seGroupRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#se_ref Upgradestatusinfo#se_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_ref Upgradestatusinfo#se_ref}
   */
   readonly seRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#sub_tasks Upgradestatusinfo#sub_tasks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#sub_tasks Upgradestatusinfo#sub_tasks}
   */
   readonly subTasks?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#task Upgradestatusinfo#task}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#task Upgradestatusinfo#task}
   */
   readonly task?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#to_se_ref Upgradestatusinfo#to_se_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#to_se_ref Upgradestatusinfo#to_se_ref}
   */
   readonly toSeRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#traffic_status Upgradestatusinfo#traffic_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#traffic_status Upgradestatusinfo#traffic_status}
   */
   readonly trafficStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#vs_ref Upgradestatusinfo#vs_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#vs_ref Upgradestatusinfo#vs_ref}
   */
   readonly vsRef?: string;
 }
@@ -3235,55 +749,55 @@ export class UpgradestatusinfoHistorySeUpgradeEventsList extends cdktf.ComplexLi
 }
 export interface UpgradestatusinfoHistorySegStatusSeUpgradeErrors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#from_se_ref Upgradestatusinfo#from_se_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#from_se_ref Upgradestatusinfo#from_se_ref}
   */
   readonly fromSeRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#num_se Upgradestatusinfo#num_se}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#num_se Upgradestatusinfo#num_se}
   */
   readonly numSe?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#num_se_group Upgradestatusinfo#num_se_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#num_se_group Upgradestatusinfo#num_se_group}
   */
   readonly numSeGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#num_vs Upgradestatusinfo#num_vs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#num_vs Upgradestatusinfo#num_vs}
   */
   readonly numVs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#reason Upgradestatusinfo#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#reason Upgradestatusinfo#reason}
   */
   readonly reason?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#se_group_ha_mode Upgradestatusinfo#se_group_ha_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_group_ha_mode Upgradestatusinfo#se_group_ha_mode}
   */
   readonly seGroupHaMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#se_group_ref Upgradestatusinfo#se_group_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_group_ref Upgradestatusinfo#se_group_ref}
   */
   readonly seGroupRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#se_ref Upgradestatusinfo#se_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_ref Upgradestatusinfo#se_ref}
   */
   readonly seRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#sub_tasks Upgradestatusinfo#sub_tasks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#sub_tasks Upgradestatusinfo#sub_tasks}
   */
   readonly subTasks?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#task Upgradestatusinfo#task}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#task Upgradestatusinfo#task}
   */
   readonly task?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#to_se_ref Upgradestatusinfo#to_se_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#to_se_ref Upgradestatusinfo#to_se_ref}
   */
   readonly toSeRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#traffic_status Upgradestatusinfo#traffic_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#traffic_status Upgradestatusinfo#traffic_status}
   */
   readonly trafficStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#vs_ref Upgradestatusinfo#vs_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#vs_ref Upgradestatusinfo#vs_ref}
   */
   readonly vsRef?: string;
 }
@@ -3747,11 +1261,11 @@ export class UpgradestatusinfoHistorySegStatusSeUpgradeErrorsList extends cdktf.
 }
 export interface UpgradestatusinfoHistorySegStatusVsErrorsEventTimestamp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#secs Upgradestatusinfo#secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#secs Upgradestatusinfo#secs}
   */
   readonly secs: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#usecs Upgradestatusinfo#usecs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#usecs Upgradestatusinfo#usecs}
   */
   readonly usecs: string;
 }
@@ -3890,41 +1404,41 @@ export class UpgradestatusinfoHistorySegStatusVsErrorsEventTimestampList extends
 }
 export interface UpgradestatusinfoHistorySegStatusVsErrors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#reason Upgradestatusinfo#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#reason Upgradestatusinfo#reason}
   */
   readonly reason?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#se_group_ha_mode Upgradestatusinfo#se_group_ha_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_group_ha_mode Upgradestatusinfo#se_group_ha_mode}
   */
   readonly seGroupHaMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#se_group_ref Upgradestatusinfo#se_group_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_group_ref Upgradestatusinfo#se_group_ref}
   */
   readonly seGroupRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#se_ref Upgradestatusinfo#se_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_ref Upgradestatusinfo#se_ref}
   */
   readonly seRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#tenant_ref Upgradestatusinfo#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#tenant_ref Upgradestatusinfo#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#traffic_status Upgradestatusinfo#traffic_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#traffic_status Upgradestatusinfo#traffic_status}
   */
   readonly trafficStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#vip_id Upgradestatusinfo#vip_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#vip_id Upgradestatusinfo#vip_id}
   */
   readonly vipId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#vs_ref Upgradestatusinfo#vs_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#vs_ref Upgradestatusinfo#vs_ref}
   */
   readonly vsRef?: string;
   /**
   * event_timestamp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#event_timestamp Upgradestatusinfo#event_timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#event_timestamp Upgradestatusinfo#event_timestamp}
   */
   readonly eventTimestamp?: UpgradestatusinfoHistorySegStatusVsErrorsEventTimestamp[] | cdktf.IResolvable;
 }
@@ -4272,183 +1786,183 @@ export class UpgradestatusinfoHistorySegStatusVsErrorsList extends cdktf.Complex
 }
 export interface UpgradestatusinfoHistorySegStatus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#controller_version Upgradestatusinfo#controller_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#controller_version Upgradestatusinfo#controller_version}
   */
   readonly controllerVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#disrupted_vs_ref Upgradestatusinfo#disrupted_vs_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#disrupted_vs_ref Upgradestatusinfo#disrupted_vs_ref}
   */
   readonly disruptedVsRef?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#duration Upgradestatusinfo#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#duration Upgradestatusinfo#duration}
   */
   readonly duration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#end_time Upgradestatusinfo#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#end_time Upgradestatusinfo#end_time}
   */
   readonly endTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#enqueue_time Upgradestatusinfo#enqueue_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#enqueue_time Upgradestatusinfo#enqueue_time}
   */
   readonly enqueueTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#ha_mode Upgradestatusinfo#ha_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#ha_mode Upgradestatusinfo#ha_mode}
   */
   readonly haMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#in_progress Upgradestatusinfo#in_progress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#in_progress Upgradestatusinfo#in_progress}
   */
   readonly inProgress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#notes Upgradestatusinfo#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#notes Upgradestatusinfo#notes}
   */
   readonly notes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#num_se Upgradestatusinfo#num_se}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#num_se Upgradestatusinfo#num_se}
   */
   readonly numSe?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#num_se_with_no_vs Upgradestatusinfo#num_se_with_no_vs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#num_se_with_no_vs Upgradestatusinfo#num_se_with_no_vs}
   */
   readonly numSeWithNoVs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#num_se_with_vs_not_scaledout Upgradestatusinfo#num_se_with_vs_not_scaledout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#num_se_with_vs_not_scaledout Upgradestatusinfo#num_se_with_vs_not_scaledout}
   */
   readonly numSeWithVsNotScaledout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#num_se_with_vs_scaledout Upgradestatusinfo#num_se_with_vs_scaledout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#num_se_with_vs_scaledout Upgradestatusinfo#num_se_with_vs_scaledout}
   */
   readonly numSeWithVsScaledout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#num_vs Upgradestatusinfo#num_vs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#num_vs Upgradestatusinfo#num_vs}
   */
   readonly numVs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#num_vs_disrupted Upgradestatusinfo#num_vs_disrupted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#num_vs_disrupted Upgradestatusinfo#num_vs_disrupted}
   */
   readonly numVsDisrupted?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#progress Upgradestatusinfo#progress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#progress Upgradestatusinfo#progress}
   */
   readonly progress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#reason Upgradestatusinfo#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#reason Upgradestatusinfo#reason}
   */
   readonly reason?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#request_time Upgradestatusinfo#request_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#request_time Upgradestatusinfo#request_time}
   */
   readonly requestTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#se_already_upgraded_at_start Upgradestatusinfo#se_already_upgraded_at_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_already_upgraded_at_start Upgradestatusinfo#se_already_upgraded_at_start}
   */
   readonly seAlreadyUpgradedAtStart?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#se_disconnected_at_start Upgradestatusinfo#se_disconnected_at_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_disconnected_at_start Upgradestatusinfo#se_disconnected_at_start}
   */
   readonly seDisconnectedAtStart?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#se_group_name Upgradestatusinfo#se_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_group_name Upgradestatusinfo#se_group_name}
   */
   readonly seGroupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#se_group_uuid Upgradestatusinfo#se_group_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_group_uuid Upgradestatusinfo#se_group_uuid}
   */
   readonly seGroupUuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#se_ip_missing_at_start Upgradestatusinfo#se_ip_missing_at_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_ip_missing_at_start Upgradestatusinfo#se_ip_missing_at_start}
   */
   readonly seIpMissingAtStart?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#se_poweredoff_at_start Upgradestatusinfo#se_poweredoff_at_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_poweredoff_at_start Upgradestatusinfo#se_poweredoff_at_start}
   */
   readonly sePoweredoffAtStart?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#se_reboot_in_progress_ref Upgradestatusinfo#se_reboot_in_progress_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_reboot_in_progress_ref Upgradestatusinfo#se_reboot_in_progress_ref}
   */
   readonly seRebootInProgressRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#se_upgrade_completed Upgradestatusinfo#se_upgrade_completed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_upgrade_completed Upgradestatusinfo#se_upgrade_completed}
   */
   readonly seUpgradeCompleted?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#se_upgrade_failed Upgradestatusinfo#se_upgrade_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_upgrade_failed Upgradestatusinfo#se_upgrade_failed}
   */
   readonly seUpgradeFailed?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#se_upgrade_in_progress Upgradestatusinfo#se_upgrade_in_progress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_upgrade_in_progress Upgradestatusinfo#se_upgrade_in_progress}
   */
   readonly seUpgradeInProgress?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#se_upgrade_not_started Upgradestatusinfo#se_upgrade_not_started}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_upgrade_not_started Upgradestatusinfo#se_upgrade_not_started}
   */
   readonly seUpgradeNotStarted?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#se_upgrade_skip_suspended Upgradestatusinfo#se_upgrade_skip_suspended}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_upgrade_skip_suspended Upgradestatusinfo#se_upgrade_skip_suspended}
   */
   readonly seUpgradeSkipSuspended?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#se_upgrade_suspended Upgradestatusinfo#se_upgrade_suspended}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_upgrade_suspended Upgradestatusinfo#se_upgrade_suspended}
   */
   readonly seUpgradeSuspended?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#se_with_no_vs Upgradestatusinfo#se_with_no_vs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_with_no_vs Upgradestatusinfo#se_with_no_vs}
   */
   readonly seWithNoVs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#se_with_vs_not_scaledout Upgradestatusinfo#se_with_vs_not_scaledout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_with_vs_not_scaledout Upgradestatusinfo#se_with_vs_not_scaledout}
   */
   readonly seWithVsNotScaledout?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#se_with_vs_scaledout Upgradestatusinfo#se_with_vs_scaledout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_with_vs_scaledout Upgradestatusinfo#se_with_vs_scaledout}
   */
   readonly seWithVsScaledout?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#start_time Upgradestatusinfo#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#start_time Upgradestatusinfo#start_time}
   */
   readonly startTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#state Upgradestatusinfo#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#state Upgradestatusinfo#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#tenant_ref Upgradestatusinfo#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#tenant_ref Upgradestatusinfo#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#thread Upgradestatusinfo#thread}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#thread Upgradestatusinfo#thread}
   */
   readonly thread?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#traffic_status Upgradestatusinfo#traffic_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#traffic_status Upgradestatusinfo#traffic_status}
   */
   readonly trafficStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#vs_migrate_in_progress_ref Upgradestatusinfo#vs_migrate_in_progress_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#vs_migrate_in_progress_ref Upgradestatusinfo#vs_migrate_in_progress_ref}
   */
   readonly vsMigrateInProgressRef?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#vs_scalein_in_progress_ref Upgradestatusinfo#vs_scalein_in_progress_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#vs_scalein_in_progress_ref Upgradestatusinfo#vs_scalein_in_progress_ref}
   */
   readonly vsScaleinInProgressRef?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#vs_scaleout_in_progress_ref Upgradestatusinfo#vs_scaleout_in_progress_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#vs_scaleout_in_progress_ref Upgradestatusinfo#vs_scaleout_in_progress_ref}
   */
   readonly vsScaleoutInProgressRef?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#worker Upgradestatusinfo#worker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#worker Upgradestatusinfo#worker}
   */
   readonly worker?: string;
   /**
   * se_upgrade_errors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#se_upgrade_errors Upgradestatusinfo#se_upgrade_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_upgrade_errors Upgradestatusinfo#se_upgrade_errors}
   */
   readonly seUpgradeErrors?: UpgradestatusinfoHistorySegStatusSeUpgradeErrors[] | cdktf.IResolvable;
   /**
   * vs_errors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#vs_errors Upgradestatusinfo#vs_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#vs_errors Upgradestatusinfo#vs_errors}
   */
   readonly vsErrors?: UpgradestatusinfoHistorySegStatusVsErrors[] | cdktf.IResolvable;
 }
@@ -5811,11 +3325,11 @@ export class UpgradestatusinfoHistorySegStatusList extends cdktf.ComplexList {
 }
 export interface UpgradestatusinfoHistoryStateLastChangedTime {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#secs Upgradestatusinfo#secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#secs Upgradestatusinfo#secs}
   */
   readonly secs: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#usecs Upgradestatusinfo#usecs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#usecs Upgradestatusinfo#usecs}
   */
   readonly usecs: string;
 }
@@ -5954,21 +3468,21 @@ export class UpgradestatusinfoHistoryStateLastChangedTimeList extends cdktf.Comp
 }
 export interface UpgradestatusinfoHistoryState {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#reason Upgradestatusinfo#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#reason Upgradestatusinfo#reason}
   */
   readonly reason?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#rebooted Upgradestatusinfo#rebooted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#rebooted Upgradestatusinfo#rebooted}
   */
   readonly rebooted?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#state Upgradestatusinfo#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#state Upgradestatusinfo#state}
   */
   readonly state?: string;
   /**
   * last_changed_time block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#last_changed_time Upgradestatusinfo#last_changed_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#last_changed_time Upgradestatusinfo#last_changed_time}
   */
   readonly lastChangedTime?: UpgradestatusinfoHistoryStateLastChangedTime[] | cdktf.IResolvable;
 }
@@ -6171,11 +3685,11 @@ export class UpgradestatusinfoHistoryStateList extends cdktf.ComplexList {
 }
 export interface UpgradestatusinfoHistoryUpgradeEventsNodesEventsIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#addr Upgradestatusinfo#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#addr Upgradestatusinfo#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#type Upgradestatusinfo#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#type Upgradestatusinfo#type}
   */
   readonly type: string;
 }
@@ -6314,33 +3828,33 @@ export class UpgradestatusinfoHistoryUpgradeEventsNodesEventsIpList extends cdkt
 }
 export interface UpgradestatusinfoHistoryUpgradeEventsNodesEvents {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#duration Upgradestatusinfo#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#duration Upgradestatusinfo#duration}
   */
   readonly duration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#end_time Upgradestatusinfo#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#end_time Upgradestatusinfo#end_time}
   */
   readonly endTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#message Upgradestatusinfo#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#message Upgradestatusinfo#message}
   */
   readonly message?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#start_time Upgradestatusinfo#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#start_time Upgradestatusinfo#start_time}
   */
   readonly startTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#status Upgradestatusinfo#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#status Upgradestatusinfo#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#sub_tasks Upgradestatusinfo#sub_tasks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#sub_tasks Upgradestatusinfo#sub_tasks}
   */
   readonly subTasks?: string[];
   /**
   * ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#ip Upgradestatusinfo#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#ip Upgradestatusinfo#ip}
   */
   readonly ip?: UpgradestatusinfoHistoryUpgradeEventsNodesEventsIp[] | cdktf.IResolvable;
 }
@@ -6630,11 +4144,11 @@ export class UpgradestatusinfoHistoryUpgradeEventsNodesEventsList extends cdktf.
 }
 export interface UpgradestatusinfoHistoryUpgradeEventsSubEventsIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#addr Upgradestatusinfo#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#addr Upgradestatusinfo#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#type Upgradestatusinfo#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#type Upgradestatusinfo#type}
   */
   readonly type: string;
 }
@@ -6773,33 +4287,33 @@ export class UpgradestatusinfoHistoryUpgradeEventsSubEventsIpList extends cdktf.
 }
 export interface UpgradestatusinfoHistoryUpgradeEventsSubEvents {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#duration Upgradestatusinfo#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#duration Upgradestatusinfo#duration}
   */
   readonly duration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#end_time Upgradestatusinfo#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#end_time Upgradestatusinfo#end_time}
   */
   readonly endTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#message Upgradestatusinfo#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#message Upgradestatusinfo#message}
   */
   readonly message?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#start_time Upgradestatusinfo#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#start_time Upgradestatusinfo#start_time}
   */
   readonly startTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#status Upgradestatusinfo#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#status Upgradestatusinfo#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#sub_tasks Upgradestatusinfo#sub_tasks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#sub_tasks Upgradestatusinfo#sub_tasks}
   */
   readonly subTasks?: string[];
   /**
   * ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#ip Upgradestatusinfo#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#ip Upgradestatusinfo#ip}
   */
   readonly ip?: UpgradestatusinfoHistoryUpgradeEventsSubEventsIp[] | cdktf.IResolvable;
 }
@@ -7089,23 +4603,23 @@ export class UpgradestatusinfoHistoryUpgradeEventsSubEventsList extends cdktf.Co
 }
 export interface UpgradestatusinfoHistoryUpgradeEvents {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#task Upgradestatusinfo#task}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#task Upgradestatusinfo#task}
   */
   readonly task?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#task_name Upgradestatusinfo#task_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#task_name Upgradestatusinfo#task_name}
   */
   readonly taskName?: string;
   /**
   * nodes_events block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#nodes_events Upgradestatusinfo#nodes_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#nodes_events Upgradestatusinfo#nodes_events}
   */
   readonly nodesEvents?: UpgradestatusinfoHistoryUpgradeEventsNodesEvents[] | cdktf.IResolvable;
   /**
   * sub_events block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#sub_events Upgradestatusinfo#sub_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#sub_events Upgradestatusinfo#sub_events}
   */
   readonly subEvents?: UpgradestatusinfoHistoryUpgradeEventsSubEvents[] | cdktf.IResolvable;
 }
@@ -7308,55 +4822,55 @@ export class UpgradestatusinfoHistoryUpgradeEventsList extends cdktf.ComplexList
 }
 export interface UpgradestatusinfoHistory {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#duration Upgradestatusinfo#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#duration Upgradestatusinfo#duration}
   */
   readonly duration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#end_time Upgradestatusinfo#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#end_time Upgradestatusinfo#end_time}
   */
   readonly endTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#ops Upgradestatusinfo#ops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#ops Upgradestatusinfo#ops}
   */
   readonly ops?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#patch_version Upgradestatusinfo#patch_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#patch_version Upgradestatusinfo#patch_version}
   */
   readonly patchVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#start_time Upgradestatusinfo#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#start_time Upgradestatusinfo#start_time}
   */
   readonly startTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#statediff_ref Upgradestatusinfo#statediff_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#statediff_ref Upgradestatusinfo#statediff_ref}
   */
   readonly statediffRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#version Upgradestatusinfo#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#version Upgradestatusinfo#version}
   */
   readonly version?: string;
   /**
   * se_upgrade_events block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#se_upgrade_events Upgradestatusinfo#se_upgrade_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_upgrade_events Upgradestatusinfo#se_upgrade_events}
   */
   readonly seUpgradeEvents?: UpgradestatusinfoHistorySeUpgradeEvents[] | cdktf.IResolvable;
   /**
   * seg_status block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#seg_status Upgradestatusinfo#seg_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#seg_status Upgradestatusinfo#seg_status}
   */
   readonly segStatus?: UpgradestatusinfoHistorySegStatus[] | cdktf.IResolvable;
   /**
   * state block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#state Upgradestatusinfo#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#state Upgradestatusinfo#state}
   */
   readonly state?: UpgradestatusinfoHistoryState[] | cdktf.IResolvable;
   /**
   * upgrade_events block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#upgrade_events Upgradestatusinfo#upgrade_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#upgrade_events Upgradestatusinfo#upgrade_events}
   */
   readonly upgradeEvents?: UpgradestatusinfoHistoryUpgradeEvents[] | cdktf.IResolvable;
 }
@@ -7760,129 +5274,13 @@ export class UpgradestatusinfoHistoryList extends cdktf.ComplexList {
     return new UpgradestatusinfoHistoryOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
-export interface UpgradestatusinfoParamsController {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#task_base_timeout Upgradestatusinfo#task_base_timeout}
-  */
-  readonly taskBaseTimeout?: string;
-}
-
-export function upgradestatusinfoParamsControllerToTerraform(struct?: UpgradestatusinfoParamsController | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    task_base_timeout: cdktf.stringToTerraform(struct!.taskBaseTimeout),
-  }
-}
-
-
-export function upgradestatusinfoParamsControllerToHclTerraform(struct?: UpgradestatusinfoParamsController | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    task_base_timeout: {
-      value: cdktf.stringToHclTerraform(struct!.taskBaseTimeout),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class UpgradestatusinfoParamsControllerOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): UpgradestatusinfoParamsController | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._taskBaseTimeout !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.taskBaseTimeout = this._taskBaseTimeout;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: UpgradestatusinfoParamsController | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._taskBaseTimeout = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._taskBaseTimeout = value.taskBaseTimeout;
-    }
-  }
-
-  // task_base_timeout - computed: false, optional: true, required: false
-  private _taskBaseTimeout?: string; 
-  public get taskBaseTimeout() {
-    return this.getStringAttribute('task_base_timeout');
-  }
-  public set taskBaseTimeout(value: string) {
-    this._taskBaseTimeout = value;
-  }
-  public resetTaskBaseTimeout() {
-    this._taskBaseTimeout = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get taskBaseTimeoutInput() {
-    return this._taskBaseTimeout;
-  }
-}
-
-export class UpgradestatusinfoParamsControllerList extends cdktf.ComplexList {
-  public internalValue? : UpgradestatusinfoParamsController[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): UpgradestatusinfoParamsControllerOutputReference {
-    return new UpgradestatusinfoParamsControllerOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
 export interface UpgradestatusinfoParamsSeGroupOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#action_on_error Upgradestatusinfo#action_on_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#action_on_error Upgradestatusinfo#action_on_error}
   */
   readonly actionOnError?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#disruptive Upgradestatusinfo#disruptive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#disruptive Upgradestatusinfo#disruptive}
   */
   readonly disruptive?: string;
 }
@@ -8027,15 +5425,15 @@ export class UpgradestatusinfoParamsSeGroupOptionsList extends cdktf.ComplexList
 }
 export interface UpgradestatusinfoParamsSeGroupResumeOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#action_on_error Upgradestatusinfo#action_on_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#action_on_error Upgradestatusinfo#action_on_error}
   */
   readonly actionOnError?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#disruptive Upgradestatusinfo#disruptive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#disruptive Upgradestatusinfo#disruptive}
   */
   readonly disruptive?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#skip_suspended Upgradestatusinfo#skip_suspended}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#skip_suspended Upgradestatusinfo#skip_suspended}
   */
   readonly skipSuspended?: string;
 }
@@ -8207,320 +5605,27 @@ export class UpgradestatusinfoParamsSeGroupResumeOptionsList extends cdktf.Compl
     return new UpgradestatusinfoParamsSeGroupResumeOptionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
-export interface UpgradestatusinfoParamsServiceEngine {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#concurrent_segroup_upgrades Upgradestatusinfo#concurrent_segroup_upgrades}
-  */
-  readonly concurrentSegroupUpgrades?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#image_data_transfer_size Upgradestatusinfo#image_data_transfer_size}
-  */
-  readonly imageDataTransferSize?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#large_se_connect_timeout Upgradestatusinfo#large_se_connect_timeout}
-  */
-  readonly largeSeConnectTimeout?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#se_connect_timeout Upgradestatusinfo#se_connect_timeout}
-  */
-  readonly seConnectTimeout?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#simultaneous_image_downloads Upgradestatusinfo#simultaneous_image_downloads}
-  */
-  readonly simultaneousImageDownloads?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#task_base_timeout Upgradestatusinfo#task_base_timeout}
-  */
-  readonly taskBaseTimeout?: string;
-}
-
-export function upgradestatusinfoParamsServiceEngineToTerraform(struct?: UpgradestatusinfoParamsServiceEngine | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    concurrent_segroup_upgrades: cdktf.stringToTerraform(struct!.concurrentSegroupUpgrades),
-    image_data_transfer_size: cdktf.stringToTerraform(struct!.imageDataTransferSize),
-    large_se_connect_timeout: cdktf.stringToTerraform(struct!.largeSeConnectTimeout),
-    se_connect_timeout: cdktf.stringToTerraform(struct!.seConnectTimeout),
-    simultaneous_image_downloads: cdktf.stringToTerraform(struct!.simultaneousImageDownloads),
-    task_base_timeout: cdktf.stringToTerraform(struct!.taskBaseTimeout),
-  }
-}
-
-
-export function upgradestatusinfoParamsServiceEngineToHclTerraform(struct?: UpgradestatusinfoParamsServiceEngine | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    concurrent_segroup_upgrades: {
-      value: cdktf.stringToHclTerraform(struct!.concurrentSegroupUpgrades),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    image_data_transfer_size: {
-      value: cdktf.stringToHclTerraform(struct!.imageDataTransferSize),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    large_se_connect_timeout: {
-      value: cdktf.stringToHclTerraform(struct!.largeSeConnectTimeout),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    se_connect_timeout: {
-      value: cdktf.stringToHclTerraform(struct!.seConnectTimeout),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    simultaneous_image_downloads: {
-      value: cdktf.stringToHclTerraform(struct!.simultaneousImageDownloads),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    task_base_timeout: {
-      value: cdktf.stringToHclTerraform(struct!.taskBaseTimeout),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class UpgradestatusinfoParamsServiceEngineOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): UpgradestatusinfoParamsServiceEngine | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._concurrentSegroupUpgrades !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.concurrentSegroupUpgrades = this._concurrentSegroupUpgrades;
-    }
-    if (this._imageDataTransferSize !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.imageDataTransferSize = this._imageDataTransferSize;
-    }
-    if (this._largeSeConnectTimeout !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.largeSeConnectTimeout = this._largeSeConnectTimeout;
-    }
-    if (this._seConnectTimeout !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.seConnectTimeout = this._seConnectTimeout;
-    }
-    if (this._simultaneousImageDownloads !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.simultaneousImageDownloads = this._simultaneousImageDownloads;
-    }
-    if (this._taskBaseTimeout !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.taskBaseTimeout = this._taskBaseTimeout;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: UpgradestatusinfoParamsServiceEngine | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._concurrentSegroupUpgrades = undefined;
-      this._imageDataTransferSize = undefined;
-      this._largeSeConnectTimeout = undefined;
-      this._seConnectTimeout = undefined;
-      this._simultaneousImageDownloads = undefined;
-      this._taskBaseTimeout = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._concurrentSegroupUpgrades = value.concurrentSegroupUpgrades;
-      this._imageDataTransferSize = value.imageDataTransferSize;
-      this._largeSeConnectTimeout = value.largeSeConnectTimeout;
-      this._seConnectTimeout = value.seConnectTimeout;
-      this._simultaneousImageDownloads = value.simultaneousImageDownloads;
-      this._taskBaseTimeout = value.taskBaseTimeout;
-    }
-  }
-
-  // concurrent_segroup_upgrades - computed: false, optional: true, required: false
-  private _concurrentSegroupUpgrades?: string; 
-  public get concurrentSegroupUpgrades() {
-    return this.getStringAttribute('concurrent_segroup_upgrades');
-  }
-  public set concurrentSegroupUpgrades(value: string) {
-    this._concurrentSegroupUpgrades = value;
-  }
-  public resetConcurrentSegroupUpgrades() {
-    this._concurrentSegroupUpgrades = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get concurrentSegroupUpgradesInput() {
-    return this._concurrentSegroupUpgrades;
-  }
-
-  // image_data_transfer_size - computed: false, optional: true, required: false
-  private _imageDataTransferSize?: string; 
-  public get imageDataTransferSize() {
-    return this.getStringAttribute('image_data_transfer_size');
-  }
-  public set imageDataTransferSize(value: string) {
-    this._imageDataTransferSize = value;
-  }
-  public resetImageDataTransferSize() {
-    this._imageDataTransferSize = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get imageDataTransferSizeInput() {
-    return this._imageDataTransferSize;
-  }
-
-  // large_se_connect_timeout - computed: false, optional: true, required: false
-  private _largeSeConnectTimeout?: string; 
-  public get largeSeConnectTimeout() {
-    return this.getStringAttribute('large_se_connect_timeout');
-  }
-  public set largeSeConnectTimeout(value: string) {
-    this._largeSeConnectTimeout = value;
-  }
-  public resetLargeSeConnectTimeout() {
-    this._largeSeConnectTimeout = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get largeSeConnectTimeoutInput() {
-    return this._largeSeConnectTimeout;
-  }
-
-  // se_connect_timeout - computed: false, optional: true, required: false
-  private _seConnectTimeout?: string; 
-  public get seConnectTimeout() {
-    return this.getStringAttribute('se_connect_timeout');
-  }
-  public set seConnectTimeout(value: string) {
-    this._seConnectTimeout = value;
-  }
-  public resetSeConnectTimeout() {
-    this._seConnectTimeout = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get seConnectTimeoutInput() {
-    return this._seConnectTimeout;
-  }
-
-  // simultaneous_image_downloads - computed: false, optional: true, required: false
-  private _simultaneousImageDownloads?: string; 
-  public get simultaneousImageDownloads() {
-    return this.getStringAttribute('simultaneous_image_downloads');
-  }
-  public set simultaneousImageDownloads(value: string) {
-    this._simultaneousImageDownloads = value;
-  }
-  public resetSimultaneousImageDownloads() {
-    this._simultaneousImageDownloads = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get simultaneousImageDownloadsInput() {
-    return this._simultaneousImageDownloads;
-  }
-
-  // task_base_timeout - computed: false, optional: true, required: false
-  private _taskBaseTimeout?: string; 
-  public get taskBaseTimeout() {
-    return this.getStringAttribute('task_base_timeout');
-  }
-  public set taskBaseTimeout(value: string) {
-    this._taskBaseTimeout = value;
-  }
-  public resetTaskBaseTimeout() {
-    this._taskBaseTimeout = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get taskBaseTimeoutInput() {
-    return this._taskBaseTimeout;
-  }
-}
-
-export class UpgradestatusinfoParamsServiceEngineList extends cdktf.ComplexList {
-  public internalValue? : UpgradestatusinfoParamsServiceEngine[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): UpgradestatusinfoParamsServiceEngineOutputReference {
-    return new UpgradestatusinfoParamsServiceEngineOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
 export interface UpgradestatusinfoParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#image_ref Upgradestatusinfo#image_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#image_ref Upgradestatusinfo#image_ref}
   */
   readonly imageRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#patch_ref Upgradestatusinfo#patch_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#patch_ref Upgradestatusinfo#patch_ref}
   */
   readonly patchRef?: string;
   /**
-  * controller block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#controller Upgradestatusinfo#controller}
-  */
-  readonly controller?: UpgradestatusinfoParamsController[] | cdktf.IResolvable;
-  /**
   * se_group_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#se_group_options Upgradestatusinfo#se_group_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_group_options Upgradestatusinfo#se_group_options}
   */
   readonly seGroupOptions?: UpgradestatusinfoParamsSeGroupOptions[] | cdktf.IResolvable;
   /**
   * se_group_resume_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#se_group_resume_options Upgradestatusinfo#se_group_resume_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_group_resume_options Upgradestatusinfo#se_group_resume_options}
   */
   readonly seGroupResumeOptions?: UpgradestatusinfoParamsSeGroupResumeOptions[] | cdktf.IResolvable;
-  /**
-  * service_engine block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#service_engine Upgradestatusinfo#service_engine}
-  */
-  readonly serviceEngine?: UpgradestatusinfoParamsServiceEngine[] | cdktf.IResolvable;
 }
 
 export function upgradestatusinfoParamsToTerraform(struct?: UpgradestatusinfoParams | cdktf.IResolvable): any {
@@ -8531,10 +5636,8 @@ export function upgradestatusinfoParamsToTerraform(struct?: UpgradestatusinfoPar
   return {
     image_ref: cdktf.stringToTerraform(struct!.imageRef),
     patch_ref: cdktf.stringToTerraform(struct!.patchRef),
-    controller: cdktf.listMapper(upgradestatusinfoParamsControllerToTerraform, true)(struct!.controller),
     se_group_options: cdktf.listMapper(upgradestatusinfoParamsSeGroupOptionsToTerraform, true)(struct!.seGroupOptions),
     se_group_resume_options: cdktf.listMapper(upgradestatusinfoParamsSeGroupResumeOptionsToTerraform, true)(struct!.seGroupResumeOptions),
-    service_engine: cdktf.listMapper(upgradestatusinfoParamsServiceEngineToTerraform, true)(struct!.serviceEngine),
   }
 }
 
@@ -8557,12 +5660,6 @@ export function upgradestatusinfoParamsToHclTerraform(struct?: Upgradestatusinfo
       type: "simple",
       storageClassType: "string",
     },
-    controller: {
-      value: cdktf.listMapperHcl(upgradestatusinfoParamsControllerToHclTerraform, true)(struct!.controller),
-      isBlock: true,
-      type: "set",
-      storageClassType: "UpgradestatusinfoParamsControllerList",
-    },
     se_group_options: {
       value: cdktf.listMapperHcl(upgradestatusinfoParamsSeGroupOptionsToHclTerraform, true)(struct!.seGroupOptions),
       isBlock: true,
@@ -8574,12 +5671,6 @@ export function upgradestatusinfoParamsToHclTerraform(struct?: Upgradestatusinfo
       isBlock: true,
       type: "set",
       storageClassType: "UpgradestatusinfoParamsSeGroupResumeOptionsList",
-    },
-    service_engine: {
-      value: cdktf.listMapperHcl(upgradestatusinfoParamsServiceEngineToHclTerraform, true)(struct!.serviceEngine),
-      isBlock: true,
-      type: "set",
-      storageClassType: "UpgradestatusinfoParamsServiceEngineList",
     },
   };
 
@@ -8615,10 +5706,6 @@ export class UpgradestatusinfoParamsOutputReference extends cdktf.ComplexObject 
       hasAnyValues = true;
       internalValueResult.patchRef = this._patchRef;
     }
-    if (this._controller?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.controller = this._controller?.internalValue;
-    }
     if (this._seGroupOptions?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.seGroupOptions = this._seGroupOptions?.internalValue;
@@ -8626,10 +5713,6 @@ export class UpgradestatusinfoParamsOutputReference extends cdktf.ComplexObject 
     if (this._seGroupResumeOptions?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.seGroupResumeOptions = this._seGroupResumeOptions?.internalValue;
-    }
-    if (this._serviceEngine?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.serviceEngine = this._serviceEngine?.internalValue;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -8640,10 +5723,8 @@ export class UpgradestatusinfoParamsOutputReference extends cdktf.ComplexObject 
       this.resolvableValue = undefined;
       this._imageRef = undefined;
       this._patchRef = undefined;
-      this._controller.internalValue = undefined;
       this._seGroupOptions.internalValue = undefined;
       this._seGroupResumeOptions.internalValue = undefined;
-      this._serviceEngine.internalValue = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -8654,10 +5735,8 @@ export class UpgradestatusinfoParamsOutputReference extends cdktf.ComplexObject 
       this.resolvableValue = undefined;
       this._imageRef = value.imageRef;
       this._patchRef = value.patchRef;
-      this._controller.internalValue = value.controller;
       this._seGroupOptions.internalValue = value.seGroupOptions;
       this._seGroupResumeOptions.internalValue = value.seGroupResumeOptions;
-      this._serviceEngine.internalValue = value.serviceEngine;
     }
   }
 
@@ -8693,22 +5772,6 @@ export class UpgradestatusinfoParamsOutputReference extends cdktf.ComplexObject 
     return this._patchRef;
   }
 
-  // controller - computed: false, optional: true, required: false
-  private _controller = new UpgradestatusinfoParamsControllerList(this, "controller", true);
-  public get controller() {
-    return this._controller;
-  }
-  public putController(value: UpgradestatusinfoParamsController[] | cdktf.IResolvable) {
-    this._controller.internalValue = value;
-  }
-  public resetController() {
-    this._controller.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get controllerInput() {
-    return this._controller.internalValue;
-  }
-
   // se_group_options - computed: false, optional: true, required: false
   private _seGroupOptions = new UpgradestatusinfoParamsSeGroupOptionsList(this, "se_group_options", true);
   public get seGroupOptions() {
@@ -8740,22 +5803,6 @@ export class UpgradestatusinfoParamsOutputReference extends cdktf.ComplexObject 
   public get seGroupResumeOptionsInput() {
     return this._seGroupResumeOptions.internalValue;
   }
-
-  // service_engine - computed: false, optional: true, required: false
-  private _serviceEngine = new UpgradestatusinfoParamsServiceEngineList(this, "service_engine", true);
-  public get serviceEngine() {
-    return this._serviceEngine;
-  }
-  public putServiceEngine(value: UpgradestatusinfoParamsServiceEngine[] | cdktf.IResolvable) {
-    this._serviceEngine.internalValue = value;
-  }
-  public resetServiceEngine() {
-    this._serviceEngine.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get serviceEngineInput() {
-    return this._serviceEngine.internalValue;
-  }
 }
 
 export class UpgradestatusinfoParamsList extends cdktf.ComplexList {
@@ -8779,15 +5826,15 @@ export class UpgradestatusinfoParamsList extends cdktf.ComplexList {
 }
 export interface UpgradestatusinfoPatchListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#patch_image_path Upgradestatusinfo#patch_image_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#patch_image_path Upgradestatusinfo#patch_image_path}
   */
   readonly patchImagePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#patch_image_ref Upgradestatusinfo#patch_image_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#patch_image_ref Upgradestatusinfo#patch_image_ref}
   */
   readonly patchImageRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#patch_version Upgradestatusinfo#patch_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#patch_version Upgradestatusinfo#patch_version}
   */
   readonly patchVersion?: string;
 }
@@ -8961,15 +6008,15 @@ export class UpgradestatusinfoPatchListStructList extends cdktf.ComplexList {
 }
 export interface UpgradestatusinfoPreviousPatchListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#patch_image_path Upgradestatusinfo#patch_image_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#patch_image_path Upgradestatusinfo#patch_image_path}
   */
   readonly patchImagePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#patch_image_ref Upgradestatusinfo#patch_image_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#patch_image_ref Upgradestatusinfo#patch_image_ref}
   */
   readonly patchImageRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#patch_version Upgradestatusinfo#patch_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#patch_version Upgradestatusinfo#patch_version}
   */
   readonly patchVersion?: string;
 }
@@ -9143,55 +6190,55 @@ export class UpgradestatusinfoPreviousPatchListStructList extends cdktf.ComplexL
 }
 export interface UpgradestatusinfoSeUpgradeEvents {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#from_se_ref Upgradestatusinfo#from_se_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#from_se_ref Upgradestatusinfo#from_se_ref}
   */
   readonly fromSeRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#num_se Upgradestatusinfo#num_se}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#num_se Upgradestatusinfo#num_se}
   */
   readonly numSe?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#num_se_group Upgradestatusinfo#num_se_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#num_se_group Upgradestatusinfo#num_se_group}
   */
   readonly numSeGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#num_vs Upgradestatusinfo#num_vs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#num_vs Upgradestatusinfo#num_vs}
   */
   readonly numVs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#reason Upgradestatusinfo#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#reason Upgradestatusinfo#reason}
   */
   readonly reason?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#se_group_ha_mode Upgradestatusinfo#se_group_ha_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_group_ha_mode Upgradestatusinfo#se_group_ha_mode}
   */
   readonly seGroupHaMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#se_group_ref Upgradestatusinfo#se_group_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_group_ref Upgradestatusinfo#se_group_ref}
   */
   readonly seGroupRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#se_ref Upgradestatusinfo#se_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_ref Upgradestatusinfo#se_ref}
   */
   readonly seRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#sub_tasks Upgradestatusinfo#sub_tasks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#sub_tasks Upgradestatusinfo#sub_tasks}
   */
   readonly subTasks?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#task Upgradestatusinfo#task}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#task Upgradestatusinfo#task}
   */
   readonly task?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#to_se_ref Upgradestatusinfo#to_se_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#to_se_ref Upgradestatusinfo#to_se_ref}
   */
   readonly toSeRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#traffic_status Upgradestatusinfo#traffic_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#traffic_status Upgradestatusinfo#traffic_status}
   */
   readonly trafficStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#vs_ref Upgradestatusinfo#vs_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#vs_ref Upgradestatusinfo#vs_ref}
   */
   readonly vsRef?: string;
 }
@@ -9653,129 +6700,13 @@ export class UpgradestatusinfoSeUpgradeEventsList extends cdktf.ComplexList {
     return new UpgradestatusinfoSeUpgradeEventsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
-export interface UpgradestatusinfoSegParamsController {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#task_base_timeout Upgradestatusinfo#task_base_timeout}
-  */
-  readonly taskBaseTimeout?: string;
-}
-
-export function upgradestatusinfoSegParamsControllerToTerraform(struct?: UpgradestatusinfoSegParamsController | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    task_base_timeout: cdktf.stringToTerraform(struct!.taskBaseTimeout),
-  }
-}
-
-
-export function upgradestatusinfoSegParamsControllerToHclTerraform(struct?: UpgradestatusinfoSegParamsController | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    task_base_timeout: {
-      value: cdktf.stringToHclTerraform(struct!.taskBaseTimeout),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class UpgradestatusinfoSegParamsControllerOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): UpgradestatusinfoSegParamsController | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._taskBaseTimeout !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.taskBaseTimeout = this._taskBaseTimeout;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: UpgradestatusinfoSegParamsController | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._taskBaseTimeout = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._taskBaseTimeout = value.taskBaseTimeout;
-    }
-  }
-
-  // task_base_timeout - computed: false, optional: true, required: false
-  private _taskBaseTimeout?: string; 
-  public get taskBaseTimeout() {
-    return this.getStringAttribute('task_base_timeout');
-  }
-  public set taskBaseTimeout(value: string) {
-    this._taskBaseTimeout = value;
-  }
-  public resetTaskBaseTimeout() {
-    this._taskBaseTimeout = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get taskBaseTimeoutInput() {
-    return this._taskBaseTimeout;
-  }
-}
-
-export class UpgradestatusinfoSegParamsControllerList extends cdktf.ComplexList {
-  public internalValue? : UpgradestatusinfoSegParamsController[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): UpgradestatusinfoSegParamsControllerOutputReference {
-    return new UpgradestatusinfoSegParamsControllerOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
 export interface UpgradestatusinfoSegParamsSeGroupOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#action_on_error Upgradestatusinfo#action_on_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#action_on_error Upgradestatusinfo#action_on_error}
   */
   readonly actionOnError?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#disruptive Upgradestatusinfo#disruptive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#disruptive Upgradestatusinfo#disruptive}
   */
   readonly disruptive?: string;
 }
@@ -9920,15 +6851,15 @@ export class UpgradestatusinfoSegParamsSeGroupOptionsList extends cdktf.ComplexL
 }
 export interface UpgradestatusinfoSegParamsSeGroupResumeOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#action_on_error Upgradestatusinfo#action_on_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#action_on_error Upgradestatusinfo#action_on_error}
   */
   readonly actionOnError?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#disruptive Upgradestatusinfo#disruptive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#disruptive Upgradestatusinfo#disruptive}
   */
   readonly disruptive?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#skip_suspended Upgradestatusinfo#skip_suspended}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#skip_suspended Upgradestatusinfo#skip_suspended}
   */
   readonly skipSuspended?: string;
 }
@@ -10100,320 +7031,27 @@ export class UpgradestatusinfoSegParamsSeGroupResumeOptionsList extends cdktf.Co
     return new UpgradestatusinfoSegParamsSeGroupResumeOptionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
-export interface UpgradestatusinfoSegParamsServiceEngine {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#concurrent_segroup_upgrades Upgradestatusinfo#concurrent_segroup_upgrades}
-  */
-  readonly concurrentSegroupUpgrades?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#image_data_transfer_size Upgradestatusinfo#image_data_transfer_size}
-  */
-  readonly imageDataTransferSize?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#large_se_connect_timeout Upgradestatusinfo#large_se_connect_timeout}
-  */
-  readonly largeSeConnectTimeout?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#se_connect_timeout Upgradestatusinfo#se_connect_timeout}
-  */
-  readonly seConnectTimeout?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#simultaneous_image_downloads Upgradestatusinfo#simultaneous_image_downloads}
-  */
-  readonly simultaneousImageDownloads?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#task_base_timeout Upgradestatusinfo#task_base_timeout}
-  */
-  readonly taskBaseTimeout?: string;
-}
-
-export function upgradestatusinfoSegParamsServiceEngineToTerraform(struct?: UpgradestatusinfoSegParamsServiceEngine | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    concurrent_segroup_upgrades: cdktf.stringToTerraform(struct!.concurrentSegroupUpgrades),
-    image_data_transfer_size: cdktf.stringToTerraform(struct!.imageDataTransferSize),
-    large_se_connect_timeout: cdktf.stringToTerraform(struct!.largeSeConnectTimeout),
-    se_connect_timeout: cdktf.stringToTerraform(struct!.seConnectTimeout),
-    simultaneous_image_downloads: cdktf.stringToTerraform(struct!.simultaneousImageDownloads),
-    task_base_timeout: cdktf.stringToTerraform(struct!.taskBaseTimeout),
-  }
-}
-
-
-export function upgradestatusinfoSegParamsServiceEngineToHclTerraform(struct?: UpgradestatusinfoSegParamsServiceEngine | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    concurrent_segroup_upgrades: {
-      value: cdktf.stringToHclTerraform(struct!.concurrentSegroupUpgrades),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    image_data_transfer_size: {
-      value: cdktf.stringToHclTerraform(struct!.imageDataTransferSize),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    large_se_connect_timeout: {
-      value: cdktf.stringToHclTerraform(struct!.largeSeConnectTimeout),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    se_connect_timeout: {
-      value: cdktf.stringToHclTerraform(struct!.seConnectTimeout),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    simultaneous_image_downloads: {
-      value: cdktf.stringToHclTerraform(struct!.simultaneousImageDownloads),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    task_base_timeout: {
-      value: cdktf.stringToHclTerraform(struct!.taskBaseTimeout),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class UpgradestatusinfoSegParamsServiceEngineOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): UpgradestatusinfoSegParamsServiceEngine | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._concurrentSegroupUpgrades !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.concurrentSegroupUpgrades = this._concurrentSegroupUpgrades;
-    }
-    if (this._imageDataTransferSize !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.imageDataTransferSize = this._imageDataTransferSize;
-    }
-    if (this._largeSeConnectTimeout !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.largeSeConnectTimeout = this._largeSeConnectTimeout;
-    }
-    if (this._seConnectTimeout !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.seConnectTimeout = this._seConnectTimeout;
-    }
-    if (this._simultaneousImageDownloads !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.simultaneousImageDownloads = this._simultaneousImageDownloads;
-    }
-    if (this._taskBaseTimeout !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.taskBaseTimeout = this._taskBaseTimeout;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: UpgradestatusinfoSegParamsServiceEngine | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._concurrentSegroupUpgrades = undefined;
-      this._imageDataTransferSize = undefined;
-      this._largeSeConnectTimeout = undefined;
-      this._seConnectTimeout = undefined;
-      this._simultaneousImageDownloads = undefined;
-      this._taskBaseTimeout = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._concurrentSegroupUpgrades = value.concurrentSegroupUpgrades;
-      this._imageDataTransferSize = value.imageDataTransferSize;
-      this._largeSeConnectTimeout = value.largeSeConnectTimeout;
-      this._seConnectTimeout = value.seConnectTimeout;
-      this._simultaneousImageDownloads = value.simultaneousImageDownloads;
-      this._taskBaseTimeout = value.taskBaseTimeout;
-    }
-  }
-
-  // concurrent_segroup_upgrades - computed: false, optional: true, required: false
-  private _concurrentSegroupUpgrades?: string; 
-  public get concurrentSegroupUpgrades() {
-    return this.getStringAttribute('concurrent_segroup_upgrades');
-  }
-  public set concurrentSegroupUpgrades(value: string) {
-    this._concurrentSegroupUpgrades = value;
-  }
-  public resetConcurrentSegroupUpgrades() {
-    this._concurrentSegroupUpgrades = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get concurrentSegroupUpgradesInput() {
-    return this._concurrentSegroupUpgrades;
-  }
-
-  // image_data_transfer_size - computed: false, optional: true, required: false
-  private _imageDataTransferSize?: string; 
-  public get imageDataTransferSize() {
-    return this.getStringAttribute('image_data_transfer_size');
-  }
-  public set imageDataTransferSize(value: string) {
-    this._imageDataTransferSize = value;
-  }
-  public resetImageDataTransferSize() {
-    this._imageDataTransferSize = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get imageDataTransferSizeInput() {
-    return this._imageDataTransferSize;
-  }
-
-  // large_se_connect_timeout - computed: false, optional: true, required: false
-  private _largeSeConnectTimeout?: string; 
-  public get largeSeConnectTimeout() {
-    return this.getStringAttribute('large_se_connect_timeout');
-  }
-  public set largeSeConnectTimeout(value: string) {
-    this._largeSeConnectTimeout = value;
-  }
-  public resetLargeSeConnectTimeout() {
-    this._largeSeConnectTimeout = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get largeSeConnectTimeoutInput() {
-    return this._largeSeConnectTimeout;
-  }
-
-  // se_connect_timeout - computed: false, optional: true, required: false
-  private _seConnectTimeout?: string; 
-  public get seConnectTimeout() {
-    return this.getStringAttribute('se_connect_timeout');
-  }
-  public set seConnectTimeout(value: string) {
-    this._seConnectTimeout = value;
-  }
-  public resetSeConnectTimeout() {
-    this._seConnectTimeout = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get seConnectTimeoutInput() {
-    return this._seConnectTimeout;
-  }
-
-  // simultaneous_image_downloads - computed: false, optional: true, required: false
-  private _simultaneousImageDownloads?: string; 
-  public get simultaneousImageDownloads() {
-    return this.getStringAttribute('simultaneous_image_downloads');
-  }
-  public set simultaneousImageDownloads(value: string) {
-    this._simultaneousImageDownloads = value;
-  }
-  public resetSimultaneousImageDownloads() {
-    this._simultaneousImageDownloads = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get simultaneousImageDownloadsInput() {
-    return this._simultaneousImageDownloads;
-  }
-
-  // task_base_timeout - computed: false, optional: true, required: false
-  private _taskBaseTimeout?: string; 
-  public get taskBaseTimeout() {
-    return this.getStringAttribute('task_base_timeout');
-  }
-  public set taskBaseTimeout(value: string) {
-    this._taskBaseTimeout = value;
-  }
-  public resetTaskBaseTimeout() {
-    this._taskBaseTimeout = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get taskBaseTimeoutInput() {
-    return this._taskBaseTimeout;
-  }
-}
-
-export class UpgradestatusinfoSegParamsServiceEngineList extends cdktf.ComplexList {
-  public internalValue? : UpgradestatusinfoSegParamsServiceEngine[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): UpgradestatusinfoSegParamsServiceEngineOutputReference {
-    return new UpgradestatusinfoSegParamsServiceEngineOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
 export interface UpgradestatusinfoSegParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#image_ref Upgradestatusinfo#image_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#image_ref Upgradestatusinfo#image_ref}
   */
   readonly imageRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#patch_ref Upgradestatusinfo#patch_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#patch_ref Upgradestatusinfo#patch_ref}
   */
   readonly patchRef?: string;
   /**
-  * controller block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#controller Upgradestatusinfo#controller}
-  */
-  readonly controller?: UpgradestatusinfoSegParamsController[] | cdktf.IResolvable;
-  /**
   * se_group_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#se_group_options Upgradestatusinfo#se_group_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_group_options Upgradestatusinfo#se_group_options}
   */
   readonly seGroupOptions?: UpgradestatusinfoSegParamsSeGroupOptions[] | cdktf.IResolvable;
   /**
   * se_group_resume_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#se_group_resume_options Upgradestatusinfo#se_group_resume_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_group_resume_options Upgradestatusinfo#se_group_resume_options}
   */
   readonly seGroupResumeOptions?: UpgradestatusinfoSegParamsSeGroupResumeOptions[] | cdktf.IResolvable;
-  /**
-  * service_engine block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#service_engine Upgradestatusinfo#service_engine}
-  */
-  readonly serviceEngine?: UpgradestatusinfoSegParamsServiceEngine[] | cdktf.IResolvable;
 }
 
 export function upgradestatusinfoSegParamsToTerraform(struct?: UpgradestatusinfoSegParams | cdktf.IResolvable): any {
@@ -10424,10 +7062,8 @@ export function upgradestatusinfoSegParamsToTerraform(struct?: Upgradestatusinfo
   return {
     image_ref: cdktf.stringToTerraform(struct!.imageRef),
     patch_ref: cdktf.stringToTerraform(struct!.patchRef),
-    controller: cdktf.listMapper(upgradestatusinfoSegParamsControllerToTerraform, true)(struct!.controller),
     se_group_options: cdktf.listMapper(upgradestatusinfoSegParamsSeGroupOptionsToTerraform, true)(struct!.seGroupOptions),
     se_group_resume_options: cdktf.listMapper(upgradestatusinfoSegParamsSeGroupResumeOptionsToTerraform, true)(struct!.seGroupResumeOptions),
-    service_engine: cdktf.listMapper(upgradestatusinfoSegParamsServiceEngineToTerraform, true)(struct!.serviceEngine),
   }
 }
 
@@ -10450,12 +7086,6 @@ export function upgradestatusinfoSegParamsToHclTerraform(struct?: Upgradestatusi
       type: "simple",
       storageClassType: "string",
     },
-    controller: {
-      value: cdktf.listMapperHcl(upgradestatusinfoSegParamsControllerToHclTerraform, true)(struct!.controller),
-      isBlock: true,
-      type: "set",
-      storageClassType: "UpgradestatusinfoSegParamsControllerList",
-    },
     se_group_options: {
       value: cdktf.listMapperHcl(upgradestatusinfoSegParamsSeGroupOptionsToHclTerraform, true)(struct!.seGroupOptions),
       isBlock: true,
@@ -10467,12 +7097,6 @@ export function upgradestatusinfoSegParamsToHclTerraform(struct?: Upgradestatusi
       isBlock: true,
       type: "set",
       storageClassType: "UpgradestatusinfoSegParamsSeGroupResumeOptionsList",
-    },
-    service_engine: {
-      value: cdktf.listMapperHcl(upgradestatusinfoSegParamsServiceEngineToHclTerraform, true)(struct!.serviceEngine),
-      isBlock: true,
-      type: "set",
-      storageClassType: "UpgradestatusinfoSegParamsServiceEngineList",
     },
   };
 
@@ -10508,10 +7132,6 @@ export class UpgradestatusinfoSegParamsOutputReference extends cdktf.ComplexObje
       hasAnyValues = true;
       internalValueResult.patchRef = this._patchRef;
     }
-    if (this._controller?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.controller = this._controller?.internalValue;
-    }
     if (this._seGroupOptions?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.seGroupOptions = this._seGroupOptions?.internalValue;
@@ -10519,10 +7139,6 @@ export class UpgradestatusinfoSegParamsOutputReference extends cdktf.ComplexObje
     if (this._seGroupResumeOptions?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.seGroupResumeOptions = this._seGroupResumeOptions?.internalValue;
-    }
-    if (this._serviceEngine?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.serviceEngine = this._serviceEngine?.internalValue;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -10533,10 +7149,8 @@ export class UpgradestatusinfoSegParamsOutputReference extends cdktf.ComplexObje
       this.resolvableValue = undefined;
       this._imageRef = undefined;
       this._patchRef = undefined;
-      this._controller.internalValue = undefined;
       this._seGroupOptions.internalValue = undefined;
       this._seGroupResumeOptions.internalValue = undefined;
-      this._serviceEngine.internalValue = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -10547,10 +7161,8 @@ export class UpgradestatusinfoSegParamsOutputReference extends cdktf.ComplexObje
       this.resolvableValue = undefined;
       this._imageRef = value.imageRef;
       this._patchRef = value.patchRef;
-      this._controller.internalValue = value.controller;
       this._seGroupOptions.internalValue = value.seGroupOptions;
       this._seGroupResumeOptions.internalValue = value.seGroupResumeOptions;
-      this._serviceEngine.internalValue = value.serviceEngine;
     }
   }
 
@@ -10586,22 +7198,6 @@ export class UpgradestatusinfoSegParamsOutputReference extends cdktf.ComplexObje
     return this._patchRef;
   }
 
-  // controller - computed: false, optional: true, required: false
-  private _controller = new UpgradestatusinfoSegParamsControllerList(this, "controller", true);
-  public get controller() {
-    return this._controller;
-  }
-  public putController(value: UpgradestatusinfoSegParamsController[] | cdktf.IResolvable) {
-    this._controller.internalValue = value;
-  }
-  public resetController() {
-    this._controller.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get controllerInput() {
-    return this._controller.internalValue;
-  }
-
   // se_group_options - computed: false, optional: true, required: false
   private _seGroupOptions = new UpgradestatusinfoSegParamsSeGroupOptionsList(this, "se_group_options", true);
   public get seGroupOptions() {
@@ -10633,22 +7229,6 @@ export class UpgradestatusinfoSegParamsOutputReference extends cdktf.ComplexObje
   public get seGroupResumeOptionsInput() {
     return this._seGroupResumeOptions.internalValue;
   }
-
-  // service_engine - computed: false, optional: true, required: false
-  private _serviceEngine = new UpgradestatusinfoSegParamsServiceEngineList(this, "service_engine", true);
-  public get serviceEngine() {
-    return this._serviceEngine;
-  }
-  public putServiceEngine(value: UpgradestatusinfoSegParamsServiceEngine[] | cdktf.IResolvable) {
-    this._serviceEngine.internalValue = value;
-  }
-  public resetServiceEngine() {
-    this._serviceEngine.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get serviceEngineInput() {
-    return this._serviceEngine.internalValue;
-  }
 }
 
 export class UpgradestatusinfoSegParamsList extends cdktf.ComplexList {
@@ -10672,55 +7252,55 @@ export class UpgradestatusinfoSegParamsList extends cdktf.ComplexList {
 }
 export interface UpgradestatusinfoSegStatusSeUpgradeErrors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#from_se_ref Upgradestatusinfo#from_se_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#from_se_ref Upgradestatusinfo#from_se_ref}
   */
   readonly fromSeRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#num_se Upgradestatusinfo#num_se}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#num_se Upgradestatusinfo#num_se}
   */
   readonly numSe?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#num_se_group Upgradestatusinfo#num_se_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#num_se_group Upgradestatusinfo#num_se_group}
   */
   readonly numSeGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#num_vs Upgradestatusinfo#num_vs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#num_vs Upgradestatusinfo#num_vs}
   */
   readonly numVs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#reason Upgradestatusinfo#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#reason Upgradestatusinfo#reason}
   */
   readonly reason?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#se_group_ha_mode Upgradestatusinfo#se_group_ha_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_group_ha_mode Upgradestatusinfo#se_group_ha_mode}
   */
   readonly seGroupHaMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#se_group_ref Upgradestatusinfo#se_group_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_group_ref Upgradestatusinfo#se_group_ref}
   */
   readonly seGroupRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#se_ref Upgradestatusinfo#se_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_ref Upgradestatusinfo#se_ref}
   */
   readonly seRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#sub_tasks Upgradestatusinfo#sub_tasks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#sub_tasks Upgradestatusinfo#sub_tasks}
   */
   readonly subTasks?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#task Upgradestatusinfo#task}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#task Upgradestatusinfo#task}
   */
   readonly task?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#to_se_ref Upgradestatusinfo#to_se_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#to_se_ref Upgradestatusinfo#to_se_ref}
   */
   readonly toSeRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#traffic_status Upgradestatusinfo#traffic_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#traffic_status Upgradestatusinfo#traffic_status}
   */
   readonly trafficStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#vs_ref Upgradestatusinfo#vs_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#vs_ref Upgradestatusinfo#vs_ref}
   */
   readonly vsRef?: string;
 }
@@ -11184,11 +7764,11 @@ export class UpgradestatusinfoSegStatusSeUpgradeErrorsList extends cdktf.Complex
 }
 export interface UpgradestatusinfoSegStatusVsErrorsEventTimestamp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#secs Upgradestatusinfo#secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#secs Upgradestatusinfo#secs}
   */
   readonly secs: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#usecs Upgradestatusinfo#usecs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#usecs Upgradestatusinfo#usecs}
   */
   readonly usecs: string;
 }
@@ -11327,41 +7907,41 @@ export class UpgradestatusinfoSegStatusVsErrorsEventTimestampList extends cdktf.
 }
 export interface UpgradestatusinfoSegStatusVsErrors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#reason Upgradestatusinfo#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#reason Upgradestatusinfo#reason}
   */
   readonly reason?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#se_group_ha_mode Upgradestatusinfo#se_group_ha_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_group_ha_mode Upgradestatusinfo#se_group_ha_mode}
   */
   readonly seGroupHaMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#se_group_ref Upgradestatusinfo#se_group_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_group_ref Upgradestatusinfo#se_group_ref}
   */
   readonly seGroupRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#se_ref Upgradestatusinfo#se_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_ref Upgradestatusinfo#se_ref}
   */
   readonly seRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#tenant_ref Upgradestatusinfo#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#tenant_ref Upgradestatusinfo#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#traffic_status Upgradestatusinfo#traffic_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#traffic_status Upgradestatusinfo#traffic_status}
   */
   readonly trafficStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#vip_id Upgradestatusinfo#vip_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#vip_id Upgradestatusinfo#vip_id}
   */
   readonly vipId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#vs_ref Upgradestatusinfo#vs_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#vs_ref Upgradestatusinfo#vs_ref}
   */
   readonly vsRef?: string;
   /**
   * event_timestamp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#event_timestamp Upgradestatusinfo#event_timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#event_timestamp Upgradestatusinfo#event_timestamp}
   */
   readonly eventTimestamp?: UpgradestatusinfoSegStatusVsErrorsEventTimestamp[] | cdktf.IResolvable;
 }
@@ -11709,183 +8289,183 @@ export class UpgradestatusinfoSegStatusVsErrorsList extends cdktf.ComplexList {
 }
 export interface UpgradestatusinfoSegStatus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#controller_version Upgradestatusinfo#controller_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#controller_version Upgradestatusinfo#controller_version}
   */
   readonly controllerVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#disrupted_vs_ref Upgradestatusinfo#disrupted_vs_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#disrupted_vs_ref Upgradestatusinfo#disrupted_vs_ref}
   */
   readonly disruptedVsRef?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#duration Upgradestatusinfo#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#duration Upgradestatusinfo#duration}
   */
   readonly duration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#end_time Upgradestatusinfo#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#end_time Upgradestatusinfo#end_time}
   */
   readonly endTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#enqueue_time Upgradestatusinfo#enqueue_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#enqueue_time Upgradestatusinfo#enqueue_time}
   */
   readonly enqueueTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#ha_mode Upgradestatusinfo#ha_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#ha_mode Upgradestatusinfo#ha_mode}
   */
   readonly haMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#in_progress Upgradestatusinfo#in_progress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#in_progress Upgradestatusinfo#in_progress}
   */
   readonly inProgress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#notes Upgradestatusinfo#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#notes Upgradestatusinfo#notes}
   */
   readonly notes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#num_se Upgradestatusinfo#num_se}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#num_se Upgradestatusinfo#num_se}
   */
   readonly numSe?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#num_se_with_no_vs Upgradestatusinfo#num_se_with_no_vs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#num_se_with_no_vs Upgradestatusinfo#num_se_with_no_vs}
   */
   readonly numSeWithNoVs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#num_se_with_vs_not_scaledout Upgradestatusinfo#num_se_with_vs_not_scaledout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#num_se_with_vs_not_scaledout Upgradestatusinfo#num_se_with_vs_not_scaledout}
   */
   readonly numSeWithVsNotScaledout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#num_se_with_vs_scaledout Upgradestatusinfo#num_se_with_vs_scaledout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#num_se_with_vs_scaledout Upgradestatusinfo#num_se_with_vs_scaledout}
   */
   readonly numSeWithVsScaledout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#num_vs Upgradestatusinfo#num_vs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#num_vs Upgradestatusinfo#num_vs}
   */
   readonly numVs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#num_vs_disrupted Upgradestatusinfo#num_vs_disrupted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#num_vs_disrupted Upgradestatusinfo#num_vs_disrupted}
   */
   readonly numVsDisrupted?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#progress Upgradestatusinfo#progress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#progress Upgradestatusinfo#progress}
   */
   readonly progress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#reason Upgradestatusinfo#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#reason Upgradestatusinfo#reason}
   */
   readonly reason?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#request_time Upgradestatusinfo#request_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#request_time Upgradestatusinfo#request_time}
   */
   readonly requestTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#se_already_upgraded_at_start Upgradestatusinfo#se_already_upgraded_at_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_already_upgraded_at_start Upgradestatusinfo#se_already_upgraded_at_start}
   */
   readonly seAlreadyUpgradedAtStart?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#se_disconnected_at_start Upgradestatusinfo#se_disconnected_at_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_disconnected_at_start Upgradestatusinfo#se_disconnected_at_start}
   */
   readonly seDisconnectedAtStart?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#se_group_name Upgradestatusinfo#se_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_group_name Upgradestatusinfo#se_group_name}
   */
   readonly seGroupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#se_group_uuid Upgradestatusinfo#se_group_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_group_uuid Upgradestatusinfo#se_group_uuid}
   */
   readonly seGroupUuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#se_ip_missing_at_start Upgradestatusinfo#se_ip_missing_at_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_ip_missing_at_start Upgradestatusinfo#se_ip_missing_at_start}
   */
   readonly seIpMissingAtStart?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#se_poweredoff_at_start Upgradestatusinfo#se_poweredoff_at_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_poweredoff_at_start Upgradestatusinfo#se_poweredoff_at_start}
   */
   readonly sePoweredoffAtStart?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#se_reboot_in_progress_ref Upgradestatusinfo#se_reboot_in_progress_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_reboot_in_progress_ref Upgradestatusinfo#se_reboot_in_progress_ref}
   */
   readonly seRebootInProgressRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#se_upgrade_completed Upgradestatusinfo#se_upgrade_completed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_upgrade_completed Upgradestatusinfo#se_upgrade_completed}
   */
   readonly seUpgradeCompleted?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#se_upgrade_failed Upgradestatusinfo#se_upgrade_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_upgrade_failed Upgradestatusinfo#se_upgrade_failed}
   */
   readonly seUpgradeFailed?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#se_upgrade_in_progress Upgradestatusinfo#se_upgrade_in_progress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_upgrade_in_progress Upgradestatusinfo#se_upgrade_in_progress}
   */
   readonly seUpgradeInProgress?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#se_upgrade_not_started Upgradestatusinfo#se_upgrade_not_started}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_upgrade_not_started Upgradestatusinfo#se_upgrade_not_started}
   */
   readonly seUpgradeNotStarted?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#se_upgrade_skip_suspended Upgradestatusinfo#se_upgrade_skip_suspended}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_upgrade_skip_suspended Upgradestatusinfo#se_upgrade_skip_suspended}
   */
   readonly seUpgradeSkipSuspended?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#se_upgrade_suspended Upgradestatusinfo#se_upgrade_suspended}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_upgrade_suspended Upgradestatusinfo#se_upgrade_suspended}
   */
   readonly seUpgradeSuspended?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#se_with_no_vs Upgradestatusinfo#se_with_no_vs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_with_no_vs Upgradestatusinfo#se_with_no_vs}
   */
   readonly seWithNoVs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#se_with_vs_not_scaledout Upgradestatusinfo#se_with_vs_not_scaledout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_with_vs_not_scaledout Upgradestatusinfo#se_with_vs_not_scaledout}
   */
   readonly seWithVsNotScaledout?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#se_with_vs_scaledout Upgradestatusinfo#se_with_vs_scaledout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_with_vs_scaledout Upgradestatusinfo#se_with_vs_scaledout}
   */
   readonly seWithVsScaledout?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#start_time Upgradestatusinfo#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#start_time Upgradestatusinfo#start_time}
   */
   readonly startTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#state Upgradestatusinfo#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#state Upgradestatusinfo#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#tenant_ref Upgradestatusinfo#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#tenant_ref Upgradestatusinfo#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#thread Upgradestatusinfo#thread}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#thread Upgradestatusinfo#thread}
   */
   readonly thread?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#traffic_status Upgradestatusinfo#traffic_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#traffic_status Upgradestatusinfo#traffic_status}
   */
   readonly trafficStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#vs_migrate_in_progress_ref Upgradestatusinfo#vs_migrate_in_progress_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#vs_migrate_in_progress_ref Upgradestatusinfo#vs_migrate_in_progress_ref}
   */
   readonly vsMigrateInProgressRef?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#vs_scalein_in_progress_ref Upgradestatusinfo#vs_scalein_in_progress_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#vs_scalein_in_progress_ref Upgradestatusinfo#vs_scalein_in_progress_ref}
   */
   readonly vsScaleinInProgressRef?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#vs_scaleout_in_progress_ref Upgradestatusinfo#vs_scaleout_in_progress_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#vs_scaleout_in_progress_ref Upgradestatusinfo#vs_scaleout_in_progress_ref}
   */
   readonly vsScaleoutInProgressRef?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#worker Upgradestatusinfo#worker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#worker Upgradestatusinfo#worker}
   */
   readonly worker?: string;
   /**
   * se_upgrade_errors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#se_upgrade_errors Upgradestatusinfo#se_upgrade_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_upgrade_errors Upgradestatusinfo#se_upgrade_errors}
   */
   readonly seUpgradeErrors?: UpgradestatusinfoSegStatusSeUpgradeErrors[] | cdktf.IResolvable;
   /**
   * vs_errors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#vs_errors Upgradestatusinfo#vs_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#vs_errors Upgradestatusinfo#vs_errors}
   */
   readonly vsErrors?: UpgradestatusinfoSegStatusVsErrors[] | cdktf.IResolvable;
 }
@@ -13248,11 +9828,11 @@ export class UpgradestatusinfoSegStatusList extends cdktf.ComplexList {
 }
 export interface UpgradestatusinfoStateLastChangedTime {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#secs Upgradestatusinfo#secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#secs Upgradestatusinfo#secs}
   */
   readonly secs: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#usecs Upgradestatusinfo#usecs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#usecs Upgradestatusinfo#usecs}
   */
   readonly usecs: string;
 }
@@ -13391,21 +9971,21 @@ export class UpgradestatusinfoStateLastChangedTimeList extends cdktf.ComplexList
 }
 export interface UpgradestatusinfoState {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#reason Upgradestatusinfo#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#reason Upgradestatusinfo#reason}
   */
   readonly reason?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#rebooted Upgradestatusinfo#rebooted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#rebooted Upgradestatusinfo#rebooted}
   */
   readonly rebooted?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#state Upgradestatusinfo#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#state Upgradestatusinfo#state}
   */
   readonly state?: string;
   /**
   * last_changed_time block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#last_changed_time Upgradestatusinfo#last_changed_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#last_changed_time Upgradestatusinfo#last_changed_time}
   */
   readonly lastChangedTime?: UpgradestatusinfoStateLastChangedTime[] | cdktf.IResolvable;
 }
@@ -13608,11 +10188,11 @@ export class UpgradestatusinfoStateList extends cdktf.ComplexList {
 }
 export interface UpgradestatusinfoUpgradeEventsNodesEventsIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#addr Upgradestatusinfo#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#addr Upgradestatusinfo#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#type Upgradestatusinfo#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#type Upgradestatusinfo#type}
   */
   readonly type: string;
 }
@@ -13751,33 +10331,33 @@ export class UpgradestatusinfoUpgradeEventsNodesEventsIpList extends cdktf.Compl
 }
 export interface UpgradestatusinfoUpgradeEventsNodesEvents {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#duration Upgradestatusinfo#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#duration Upgradestatusinfo#duration}
   */
   readonly duration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#end_time Upgradestatusinfo#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#end_time Upgradestatusinfo#end_time}
   */
   readonly endTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#message Upgradestatusinfo#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#message Upgradestatusinfo#message}
   */
   readonly message?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#start_time Upgradestatusinfo#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#start_time Upgradestatusinfo#start_time}
   */
   readonly startTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#status Upgradestatusinfo#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#status Upgradestatusinfo#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#sub_tasks Upgradestatusinfo#sub_tasks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#sub_tasks Upgradestatusinfo#sub_tasks}
   */
   readonly subTasks?: string[];
   /**
   * ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#ip Upgradestatusinfo#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#ip Upgradestatusinfo#ip}
   */
   readonly ip?: UpgradestatusinfoUpgradeEventsNodesEventsIp[] | cdktf.IResolvable;
 }
@@ -14067,11 +10647,11 @@ export class UpgradestatusinfoUpgradeEventsNodesEventsList extends cdktf.Complex
 }
 export interface UpgradestatusinfoUpgradeEventsSubEventsIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#addr Upgradestatusinfo#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#addr Upgradestatusinfo#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#type Upgradestatusinfo#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#type Upgradestatusinfo#type}
   */
   readonly type: string;
 }
@@ -14210,33 +10790,33 @@ export class UpgradestatusinfoUpgradeEventsSubEventsIpList extends cdktf.Complex
 }
 export interface UpgradestatusinfoUpgradeEventsSubEvents {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#duration Upgradestatusinfo#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#duration Upgradestatusinfo#duration}
   */
   readonly duration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#end_time Upgradestatusinfo#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#end_time Upgradestatusinfo#end_time}
   */
   readonly endTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#message Upgradestatusinfo#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#message Upgradestatusinfo#message}
   */
   readonly message?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#start_time Upgradestatusinfo#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#start_time Upgradestatusinfo#start_time}
   */
   readonly startTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#status Upgradestatusinfo#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#status Upgradestatusinfo#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#sub_tasks Upgradestatusinfo#sub_tasks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#sub_tasks Upgradestatusinfo#sub_tasks}
   */
   readonly subTasks?: string[];
   /**
   * ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#ip Upgradestatusinfo#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#ip Upgradestatusinfo#ip}
   */
   readonly ip?: UpgradestatusinfoUpgradeEventsSubEventsIp[] | cdktf.IResolvable;
 }
@@ -14526,23 +11106,23 @@ export class UpgradestatusinfoUpgradeEventsSubEventsList extends cdktf.ComplexLi
 }
 export interface UpgradestatusinfoUpgradeEvents {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#task Upgradestatusinfo#task}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#task Upgradestatusinfo#task}
   */
   readonly task?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#task_name Upgradestatusinfo#task_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#task_name Upgradestatusinfo#task_name}
   */
   readonly taskName?: string;
   /**
   * nodes_events block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#nodes_events Upgradestatusinfo#nodes_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#nodes_events Upgradestatusinfo#nodes_events}
   */
   readonly nodesEvents?: UpgradestatusinfoUpgradeEventsNodesEvents[] | cdktf.IResolvable;
   /**
   * sub_events block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#sub_events Upgradestatusinfo#sub_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#sub_events Upgradestatusinfo#sub_events}
   */
   readonly subEvents?: UpgradestatusinfoUpgradeEventsSubEvents[] | cdktf.IResolvable;
 }
@@ -14745,35 +11325,35 @@ export class UpgradestatusinfoUpgradeEventsList extends cdktf.ComplexList {
 }
 export interface UpgradestatusinfoUpgradeReadinessChecks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#check_code Upgradestatusinfo#check_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#check_code Upgradestatusinfo#check_code}
   */
   readonly checkCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#description Upgradestatusinfo#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#description Upgradestatusinfo#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#details Upgradestatusinfo#details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#details Upgradestatusinfo#details}
   */
   readonly details?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#duration Upgradestatusinfo#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#duration Upgradestatusinfo#duration}
   */
   readonly duration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#end_time Upgradestatusinfo#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#end_time Upgradestatusinfo#end_time}
   */
   readonly endTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#error_details Upgradestatusinfo#error_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#error_details Upgradestatusinfo#error_details}
   */
   readonly errorDetails?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#start_time Upgradestatusinfo#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#start_time Upgradestatusinfo#start_time}
   */
   readonly startTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#state Upgradestatusinfo#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#state Upgradestatusinfo#state}
   */
   readonly state?: string;
 }
@@ -15092,11 +11672,11 @@ export class UpgradestatusinfoUpgradeReadinessChecksList extends cdktf.ComplexLi
 }
 export interface UpgradestatusinfoUpgradeReadinessStateLastChangedTime {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#secs Upgradestatusinfo#secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#secs Upgradestatusinfo#secs}
   */
   readonly secs: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#usecs Upgradestatusinfo#usecs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#usecs Upgradestatusinfo#usecs}
   */
   readonly usecs: string;
 }
@@ -15235,21 +11815,21 @@ export class UpgradestatusinfoUpgradeReadinessStateLastChangedTimeList extends c
 }
 export interface UpgradestatusinfoUpgradeReadinessState {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#reason Upgradestatusinfo#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#reason Upgradestatusinfo#reason}
   */
   readonly reason?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#rebooted Upgradestatusinfo#rebooted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#rebooted Upgradestatusinfo#rebooted}
   */
   readonly rebooted?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#state Upgradestatusinfo#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#state Upgradestatusinfo#state}
   */
   readonly state?: string;
   /**
   * last_changed_time block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#last_changed_time Upgradestatusinfo#last_changed_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#last_changed_time Upgradestatusinfo#last_changed_time}
   */
   readonly lastChangedTime?: UpgradestatusinfoUpgradeReadinessStateLastChangedTime[] | cdktf.IResolvable;
 }
@@ -15452,51 +12032,47 @@ export class UpgradestatusinfoUpgradeReadinessStateList extends cdktf.ComplexLis
 }
 export interface UpgradestatusinfoUpgradeReadiness {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#checks_completed Upgradestatusinfo#checks_completed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#checks_completed Upgradestatusinfo#checks_completed}
   */
   readonly checksCompleted?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#duration Upgradestatusinfo#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#duration Upgradestatusinfo#duration}
   */
   readonly duration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#end_time Upgradestatusinfo#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#end_time Upgradestatusinfo#end_time}
   */
   readonly endTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#image_ref Upgradestatusinfo#image_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#image_ref Upgradestatusinfo#image_ref}
   */
   readonly imageRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#patch_image_ref Upgradestatusinfo#patch_image_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#patch_image_ref Upgradestatusinfo#patch_image_ref}
   */
   readonly patchImageRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#progress Upgradestatusinfo#progress}
-  */
-  readonly progress?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#start_time Upgradestatusinfo#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#start_time Upgradestatusinfo#start_time}
   */
   readonly startTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#total_checks Upgradestatusinfo#total_checks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#total_checks Upgradestatusinfo#total_checks}
   */
   readonly totalChecks?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#upgrade_ops Upgradestatusinfo#upgrade_ops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#upgrade_ops Upgradestatusinfo#upgrade_ops}
   */
   readonly upgradeOps?: string;
   /**
   * checks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#checks Upgradestatusinfo#checks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#checks Upgradestatusinfo#checks}
   */
   readonly checks?: UpgradestatusinfoUpgradeReadinessChecks[] | cdktf.IResolvable;
   /**
   * state block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#state Upgradestatusinfo#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#state Upgradestatusinfo#state}
   */
   readonly state?: UpgradestatusinfoUpgradeReadinessState[] | cdktf.IResolvable;
 }
@@ -15512,7 +12088,6 @@ export function upgradestatusinfoUpgradeReadinessToTerraform(struct?: Upgradesta
     end_time: cdktf.stringToTerraform(struct!.endTime),
     image_ref: cdktf.stringToTerraform(struct!.imageRef),
     patch_image_ref: cdktf.stringToTerraform(struct!.patchImageRef),
-    progress: cdktf.stringToTerraform(struct!.progress),
     start_time: cdktf.stringToTerraform(struct!.startTime),
     total_checks: cdktf.stringToTerraform(struct!.totalChecks),
     upgrade_ops: cdktf.stringToTerraform(struct!.upgradeOps),
@@ -15554,12 +12129,6 @@ export function upgradestatusinfoUpgradeReadinessToHclTerraform(struct?: Upgrade
     },
     patch_image_ref: {
       value: cdktf.stringToHclTerraform(struct!.patchImageRef),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    progress: {
-      value: cdktf.stringToHclTerraform(struct!.progress),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -15640,10 +12209,6 @@ export class UpgradestatusinfoUpgradeReadinessOutputReference extends cdktf.Comp
       hasAnyValues = true;
       internalValueResult.patchImageRef = this._patchImageRef;
     }
-    if (this._progress !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.progress = this._progress;
-    }
     if (this._startTime !== undefined) {
       hasAnyValues = true;
       internalValueResult.startTime = this._startTime;
@@ -15676,7 +12241,6 @@ export class UpgradestatusinfoUpgradeReadinessOutputReference extends cdktf.Comp
       this._endTime = undefined;
       this._imageRef = undefined;
       this._patchImageRef = undefined;
-      this._progress = undefined;
       this._startTime = undefined;
       this._totalChecks = undefined;
       this._upgradeOps = undefined;
@@ -15695,7 +12259,6 @@ export class UpgradestatusinfoUpgradeReadinessOutputReference extends cdktf.Comp
       this._endTime = value.endTime;
       this._imageRef = value.imageRef;
       this._patchImageRef = value.patchImageRef;
-      this._progress = value.progress;
       this._startTime = value.startTime;
       this._totalChecks = value.totalChecks;
       this._upgradeOps = value.upgradeOps;
@@ -15782,22 +12345,6 @@ export class UpgradestatusinfoUpgradeReadinessOutputReference extends cdktf.Comp
   // Temporarily expose input value. Use with caution.
   public get patchImageRefInput() {
     return this._patchImageRef;
-  }
-
-  // progress - computed: false, optional: true, required: false
-  private _progress?: string; 
-  public get progress() {
-    return this.getStringAttribute('progress');
-  }
-  public set progress(value: string) {
-    this._progress = value;
-  }
-  public resetProgress() {
-    this._progress = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get progressInput() {
-    return this._progress;
   }
 
   // start_time - computed: true, optional: true, required: false
@@ -15902,7 +12449,7 @@ export class UpgradestatusinfoUpgradeReadinessList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo avi_upgradestatusinfo}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo avi_upgradestatusinfo}
 */
 export class Upgradestatusinfo extends cdktf.TerraformResource {
 
@@ -15918,7 +12465,7 @@ export class Upgradestatusinfo extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Upgradestatusinfo resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Upgradestatusinfo to import
-  * @param importFromId The id of the existing Upgradestatusinfo that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Upgradestatusinfo that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Upgradestatusinfo to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -15930,7 +12477,7 @@ export class Upgradestatusinfo extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatusinfo avi_upgradestatusinfo} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo avi_upgradestatusinfo} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -15941,7 +12488,8 @@ export class Upgradestatusinfo extends cdktf.TerraformResource {
       terraformResourceType: 'avi_upgradestatusinfo',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '31.1.1'
+        providerVersion: '30.2.5',
+        providerVersionConstraint: '30.2.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -15992,7 +12540,6 @@ export class Upgradestatusinfo extends cdktf.TerraformResource {
     this._upgradeOps = config.upgradeOps;
     this._uuid = config.uuid;
     this._version = config.version;
-    this._dryrunInfo.internalValue = config.dryrunInfo;
     this._history.internalValue = config.history;
     this._params.internalValue = config.params;
     this._patchList.internalValue = config.patchList;
@@ -16665,22 +13212,6 @@ export class Upgradestatusinfo extends cdktf.TerraformResource {
     return this._version;
   }
 
-  // dryrun_info - computed: false, optional: true, required: false
-  private _dryrunInfo = new UpgradestatusinfoDryrunInfoList(this, "dryrun_info", true);
-  public get dryrunInfo() {
-    return this._dryrunInfo;
-  }
-  public putDryrunInfo(value: UpgradestatusinfoDryrunInfo[] | cdktf.IResolvable) {
-    this._dryrunInfo.internalValue = value;
-  }
-  public resetDryrunInfo() {
-    this._dryrunInfo.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get dryrunInfoInput() {
-    return this._dryrunInfo.internalValue;
-  }
-
   // history - computed: false, optional: true, required: false
   private _history = new UpgradestatusinfoHistoryList(this, "history", false);
   public get history() {
@@ -16888,7 +13419,6 @@ export class Upgradestatusinfo extends cdktf.TerraformResource {
       upgrade_ops: cdktf.stringToTerraform(this._upgradeOps),
       uuid: cdktf.stringToTerraform(this._uuid),
       version: cdktf.stringToTerraform(this._version),
-      dryrun_info: cdktf.listMapper(upgradestatusinfoDryrunInfoToTerraform, true)(this._dryrunInfo.internalValue),
       history: cdktf.listMapper(upgradestatusinfoHistoryToTerraform, true)(this._history.internalValue),
       params: cdktf.listMapper(upgradestatusinfoParamsToTerraform, true)(this._params.internalValue),
       patch_list: cdktf.listMapper(upgradestatusinfoPatchListStructToTerraform, true)(this._patchList.internalValue),
@@ -17149,12 +13679,6 @@ export class Upgradestatusinfo extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
-      },
-      dryrun_info: {
-        value: cdktf.listMapperHcl(upgradestatusinfoDryrunInfoToHclTerraform, true)(this._dryrunInfo.internalValue),
-        isBlock: true,
-        type: "set",
-        storageClassType: "UpgradestatusinfoDryrunInfoList",
       },
       history: {
         value: cdktf.listMapperHcl(upgradestatusinfoHistoryToHclTerraform, true)(this._history.internalValue),

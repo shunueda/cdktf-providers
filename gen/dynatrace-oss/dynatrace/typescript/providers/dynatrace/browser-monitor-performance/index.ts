@@ -304,7 +304,8 @@ export class BrowserMonitorPerformance extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_browser_monitor_performance',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1'
+        providerVersion: '1.87.1',
+        providerVersionConstraint: '1.87.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

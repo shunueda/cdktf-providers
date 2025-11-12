@@ -85,7 +85,8 @@ export class AutomemberaddCondition extends cdktf.TerraformResource {
       terraformResourceType: 'freeipa_automemberadd_condition',
       terraformGeneratorMetadata: {
         providerName: 'freeipa',
-        providerVersion: '5.1.3'
+        providerVersion: '5.1.3',
+        providerVersionConstraint: '5.1.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

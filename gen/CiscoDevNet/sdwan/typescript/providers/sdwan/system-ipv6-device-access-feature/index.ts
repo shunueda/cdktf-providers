@@ -551,7 +551,8 @@ export class SystemIpv6DeviceAccessFeature extends cdktf.TerraformResource {
       terraformResourceType: 'sdwan_system_ipv6_device_access_feature',
       terraformGeneratorMetadata: {
         providerName: 'sdwan',
-        providerVersion: '0.8.1'
+        providerVersion: '0.8.1',
+        providerVersionConstraint: '0.8.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

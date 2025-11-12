@@ -72,7 +72,8 @@ export class SystemCertificateIntermediateCaGroupChildGroupMember extends cdktf.
       terraformResourceType: 'fortiadc_system_certificate_intermediate_ca_group_child_group_member',
       terraformGeneratorMetadata: {
         providerName: 'fortiadc',
-        providerVersion: '1.3.1'
+        providerVersion: '1.3.1',
+        providerVersionConstraint: '1.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -55,7 +55,8 @@ export class DataEvengTopology extends cdktf.TerraformDataSource {
       terraformResourceType: 'eveng_topology',
       terraformGeneratorMetadata: {
         providerName: 'eveng',
-        providerVersion: '0.1.7'
+        providerVersion: '0.1.7',
+        providerVersionConstraint: '0.1.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

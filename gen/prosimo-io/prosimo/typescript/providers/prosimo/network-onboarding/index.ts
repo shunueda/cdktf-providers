@@ -1567,7 +1567,8 @@ export class NetworkOnboarding extends cdktf.TerraformResource {
       terraformResourceType: 'prosimo_network_onboarding',
       terraformGeneratorMetadata: {
         providerName: 'prosimo',
-        providerVersion: '4.5.3'
+        providerVersion: '4.5.3',
+        providerVersionConstraint: '4.5.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -61,7 +61,8 @@ export class ApplicationPriorityFeatureProfile extends cdktf.TerraformResource {
       terraformResourceType: 'sdwan_application_priority_feature_profile',
       terraformGeneratorMetadata: {
         providerName: 'sdwan',
-        providerVersion: '0.8.1'
+        providerVersion: '0.8.1',
+        providerVersionConstraint: '0.8.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

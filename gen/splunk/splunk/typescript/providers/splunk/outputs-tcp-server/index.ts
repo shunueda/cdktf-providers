@@ -558,7 +558,8 @@ export class OutputsTcpServer extends cdktf.TerraformResource {
       terraformResourceType: 'splunk_outputs_tcp_server',
       terraformGeneratorMetadata: {
         providerName: 'splunk',
-        providerVersion: '1.4.32'
+        providerVersion: '1.4.32',
+        providerVersionConstraint: '1.4.32'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

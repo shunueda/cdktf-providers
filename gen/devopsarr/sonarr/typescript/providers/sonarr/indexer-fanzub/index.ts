@@ -103,7 +103,8 @@ export class IndexerFanzub extends cdktf.TerraformResource {
       terraformResourceType: 'sonarr_indexer_fanzub',
       terraformGeneratorMetadata: {
         providerName: 'sonarr',
-        providerVersion: '3.4.0'
+        providerVersion: '3.4.0',
+        providerVersionConstraint: '3.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

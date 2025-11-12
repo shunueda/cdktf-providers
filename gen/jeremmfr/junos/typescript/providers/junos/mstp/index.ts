@@ -298,7 +298,8 @@ export class Mstp extends cdktf.TerraformResource {
       terraformResourceType: 'junos_mstp',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0'
+        providerVersion: '2.15.0',
+        providerVersionConstraint: '2.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

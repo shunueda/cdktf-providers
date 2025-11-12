@@ -97,7 +97,8 @@ export class PowerdnsProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'powerdns',
       terraformGeneratorMetadata: {
         providerName: 'powerdns',
-        providerVersion: '1.5.0'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       terraformProviderSource: 'pan-net/powerdns'
     });

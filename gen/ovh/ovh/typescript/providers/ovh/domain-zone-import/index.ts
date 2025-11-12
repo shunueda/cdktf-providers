@@ -61,7 +61,8 @@ export class DomainZoneImport extends cdktf.TerraformResource {
       terraformResourceType: 'ovh_domain_zone_import',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0'
+        providerVersion: '2.9.0',
+        providerVersionConstraint: '2.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -230,7 +230,8 @@ export class NetworkLldpManagementAddressIpv4Addr extends cdktf.TerraformResourc
       terraformResourceType: 'thunder_network_lldp_management_address_ipv4_addr',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

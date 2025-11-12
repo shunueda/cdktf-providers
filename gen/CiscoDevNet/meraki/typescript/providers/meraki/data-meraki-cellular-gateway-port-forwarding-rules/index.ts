@@ -160,7 +160,8 @@ export class DataMerakiCellularGatewayPortForwardingRules extends cdktf.Terrafor
       terraformResourceType: 'meraki_cellular_gateway_port_forwarding_rules',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1'
+        providerVersion: '1.7.1',
+        providerVersionConstraint: '1.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

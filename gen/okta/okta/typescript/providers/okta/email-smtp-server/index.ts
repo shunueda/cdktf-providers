@@ -92,7 +92,8 @@ export class EmailSmtpServer extends cdktf.TerraformResource {
       terraformResourceType: 'okta_email_smtp_server',
       terraformGeneratorMetadata: {
         providerName: 'okta',
-        providerVersion: '6.4.0'
+        providerVersion: '6.4.0',
+        providerVersionConstraint: '6.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -127,7 +127,8 @@ export class AciProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'aci',
       terraformGeneratorMetadata: {
         providerName: 'aci',
-        providerVersion: '2.18.0'
+        providerVersion: '2.18.0',
+        providerVersionConstraint: '2.18.0'
       },
       terraformProviderSource: 'CiscoDevNet/aci'
     });

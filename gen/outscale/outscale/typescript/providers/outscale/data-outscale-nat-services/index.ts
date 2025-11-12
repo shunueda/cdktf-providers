@@ -471,7 +471,8 @@ export class DataOutscaleNatServices extends cdktf.TerraformDataSource {
       terraformResourceType: 'outscale_nat_services',
       terraformGeneratorMetadata: {
         providerName: 'outscale',
-        providerVersion: '1.2.1'
+        providerVersion: '1.2.1',
+        providerVersionConstraint: '1.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

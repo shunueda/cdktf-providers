@@ -74,7 +74,8 @@ export class SudoRuleDenycmdMembership extends cdktf.TerraformResource {
       terraformResourceType: 'freeipa_sudo_rule_denycmd_membership',
       terraformGeneratorMetadata: {
         providerName: 'freeipa',
-        providerVersion: '1.0.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

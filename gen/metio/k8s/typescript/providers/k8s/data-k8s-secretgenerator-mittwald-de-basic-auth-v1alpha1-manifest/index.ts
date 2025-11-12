@@ -479,7 +479,8 @@ export class DataK8SSecretgeneratorMittwaldDeBasicAuthV1Alpha1Manifest extends c
       terraformResourceType: 'k8s_secretgenerator_mittwald_de_basic_auth_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

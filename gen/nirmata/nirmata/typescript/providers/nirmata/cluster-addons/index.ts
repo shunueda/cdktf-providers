@@ -88,7 +88,8 @@ export class ClusterAddons extends cdktf.TerraformResource {
       terraformResourceType: 'nirmata_cluster_addons',
       terraformGeneratorMetadata: {
         providerName: 'nirmata',
-        providerVersion: '1.1.13'
+        providerVersion: '1.1.13',
+        providerVersionConstraint: '1.1.13'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

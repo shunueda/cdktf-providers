@@ -151,7 +151,8 @@ export class OrasProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'oras',
       terraformGeneratorMetadata: {
         providerName: 'oras',
-        providerVersion: '0.1.0'
+        providerVersion: '0.1.0',
+        providerVersionConstraint: '0.1.0'
       },
       terraformProviderSource: 'jsiebens/oras'
     });

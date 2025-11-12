@@ -98,7 +98,8 @@ export class Entry extends cdktf.TerraformResource {
       terraformResourceType: 'ldap_entry',
       terraformGeneratorMetadata: {
         providerName: 'ldap',
-        providerVersion: '0.11.1'
+        providerVersion: '0.11.1',
+        providerVersionConstraint: '0.11.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

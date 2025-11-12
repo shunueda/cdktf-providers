@@ -73,7 +73,8 @@ export class DataRadarrCustomFormatConditionReleaseTitle extends cdktf.Terraform
       terraformResourceType: 'radarr_custom_format_condition_release_title',
       terraformGeneratorMetadata: {
         providerName: 'radarr',
-        providerVersion: '2.3.3'
+        providerVersion: '2.3.3',
+        providerVersionConstraint: '2.3.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

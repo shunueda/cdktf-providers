@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/certificate
+// https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/certificate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface CertificateConfig extends cdktf.TerraformMetaArguments {
   /**
   * Certificate of the CA issuing the replacement certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/certificate#ca_id Certificate#ca_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/certificate#ca_id Certificate#ca_id}
   */
   readonly caId: string;
   /**
   * The ID of the CSR generated for a resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/certificate#csr_id Certificate#csr_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/certificate#csr_id Certificate#csr_id}
   */
   readonly csrId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/certificate#id Certificate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/certificate#id Certificate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,7 +29,7 @@ export interface CertificateConfig extends cdktf.TerraformMetaArguments {
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/certificate#timeouts Certificate#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/certificate#timeouts Certificate#timeouts}
   */
   readonly timeouts?: CertificateTimeouts;
 }
@@ -230,19 +230,19 @@ export class CertificateCertificateList extends cdktf.ComplexList {
 }
 export interface CertificateTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/certificate#create Certificate#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/certificate#create Certificate#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/certificate#delete Certificate#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/certificate#delete Certificate#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/certificate#read Certificate#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/certificate#read Certificate#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/certificate#update Certificate#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/certificate#update Certificate#update}
   */
   readonly update?: string;
 }
@@ -423,7 +423,7 @@ export class CertificateTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/certificate vcf_certificate}
+* Represents a {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/certificate vcf_certificate}
 */
 export class Certificate extends cdktf.TerraformResource {
 
@@ -439,7 +439,7 @@ export class Certificate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Certificate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Certificate to import
-  * @param importFromId The id of the existing Certificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/certificate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Certificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/certificate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Certificate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -451,7 +451,7 @@ export class Certificate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/certificate vcf_certificate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/certificate vcf_certificate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -462,7 +462,8 @@ export class Certificate extends cdktf.TerraformResource {
       terraformResourceType: 'vcf_certificate',
       terraformGeneratorMetadata: {
         providerName: 'vcf',
-        providerVersion: '0.17.1'
+        providerVersion: '0.16.2',
+        providerVersionConstraint: '0.16.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

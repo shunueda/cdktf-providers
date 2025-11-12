@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_ct_dynamic_bgp_peering
+// https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_ct_dynamic_bgp_peering
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,77 +10,77 @@ export interface DataApstraDatacenterCtDynamicBgpPeeringConfig extends cdktf.Ter
   /**
   * Enable BFD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_ct_dynamic_bgp_peering#bfd_enabled DataApstraDatacenterCtDynamicBgpPeering#bfd_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_ct_dynamic_bgp_peering#bfd_enabled DataApstraDatacenterCtDynamicBgpPeering#bfd_enabled}
   */
   readonly bfdEnabled?: boolean | cdktf.IResolvable;
   /**
   * Set of JSON strings describing Connectivity Template Primitives which are children of this Connectivity Template Primitive. Use the `primitive` attribute of other Connectivity Template Primitives data sources here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_ct_dynamic_bgp_peering#child_primitives DataApstraDatacenterCtDynamicBgpPeering#child_primitives}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_ct_dynamic_bgp_peering#child_primitives DataApstraDatacenterCtDynamicBgpPeering#child_primitives}
   */
   readonly childPrimitives?: string[];
   /**
   * BGP hold time (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_ct_dynamic_bgp_peering#hold_time DataApstraDatacenterCtDynamicBgpPeering#hold_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_ct_dynamic_bgp_peering#hold_time DataApstraDatacenterCtDynamicBgpPeering#hold_time}
   */
   readonly holdTime?: number;
   /**
   * Enable to allow IPv4 peers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_ct_dynamic_bgp_peering#ipv4_enabled DataApstraDatacenterCtDynamicBgpPeering#ipv4_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_ct_dynamic_bgp_peering#ipv4_enabled DataApstraDatacenterCtDynamicBgpPeering#ipv4_enabled}
   */
   readonly ipv4Enabled?: boolean | cdktf.IResolvable;
   /**
   * Omit to derive prefix from the application point.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_ct_dynamic_bgp_peering#ipv4_peer_prefix DataApstraDatacenterCtDynamicBgpPeering#ipv4_peer_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_ct_dynamic_bgp_peering#ipv4_peer_prefix DataApstraDatacenterCtDynamicBgpPeering#ipv4_peer_prefix}
   */
   readonly ipv4PeerPrefix?: string;
   /**
   * Enable to allow IPv6 peers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_ct_dynamic_bgp_peering#ipv6_enabled DataApstraDatacenterCtDynamicBgpPeering#ipv6_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_ct_dynamic_bgp_peering#ipv6_enabled DataApstraDatacenterCtDynamicBgpPeering#ipv6_enabled}
   */
   readonly ipv6Enabled?: boolean | cdktf.IResolvable;
   /**
   * Omit to derive prefix from the application point.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_ct_dynamic_bgp_peering#ipv6_peer_prefix DataApstraDatacenterCtDynamicBgpPeering#ipv6_peer_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_ct_dynamic_bgp_peering#ipv6_peer_prefix DataApstraDatacenterCtDynamicBgpPeering#ipv6_peer_prefix}
   */
   readonly ipv6PeerPrefix?: string;
   /**
   * BGP keepalive time (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_ct_dynamic_bgp_peering#keepalive_time DataApstraDatacenterCtDynamicBgpPeering#keepalive_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_ct_dynamic_bgp_peering#keepalive_time DataApstraDatacenterCtDynamicBgpPeering#keepalive_time}
   */
   readonly keepaliveTime?: number;
   /**
   * This feature is configured on a per-peer basis. It allows a router to appear to be a member of a second autonomous system (AS) by prepending a local-as AS number, in addition to its real AS number, announced to its eBGP peer, resulting in an AS path length of two.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_ct_dynamic_bgp_peering#local_asn DataApstraDatacenterCtDynamicBgpPeering#local_asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_ct_dynamic_bgp_peering#local_asn DataApstraDatacenterCtDynamicBgpPeering#local_asn}
   */
   readonly localAsn?: number;
   /**
   * Primitive name displayed in the web UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_ct_dynamic_bgp_peering#name DataApstraDatacenterCtDynamicBgpPeering#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_ct_dynamic_bgp_peering#name DataApstraDatacenterCtDynamicBgpPeering#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_ct_dynamic_bgp_peering#password DataApstraDatacenterCtDynamicBgpPeering#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_ct_dynamic_bgp_peering#password DataApstraDatacenterCtDynamicBgpPeering#password}
   */
   readonly password?: string;
   /**
   * BGP Time To Live. Omit to use device defaults.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_ct_dynamic_bgp_peering#ttl DataApstraDatacenterCtDynamicBgpPeering#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_ct_dynamic_bgp_peering#ttl DataApstraDatacenterCtDynamicBgpPeering#ttl}
   */
   readonly ttl?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_ct_dynamic_bgp_peering apstra_datacenter_ct_dynamic_bgp_peering}
+* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_ct_dynamic_bgp_peering apstra_datacenter_ct_dynamic_bgp_peering}
 */
 export class DataApstraDatacenterCtDynamicBgpPeering extends cdktf.TerraformDataSource {
 
@@ -96,7 +96,7 @@ export class DataApstraDatacenterCtDynamicBgpPeering extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataApstraDatacenterCtDynamicBgpPeering resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataApstraDatacenterCtDynamicBgpPeering to import
-  * @param importFromId The id of the existing DataApstraDatacenterCtDynamicBgpPeering that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_ct_dynamic_bgp_peering#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataApstraDatacenterCtDynamicBgpPeering that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_ct_dynamic_bgp_peering#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataApstraDatacenterCtDynamicBgpPeering to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -108,7 +108,7 @@ export class DataApstraDatacenterCtDynamicBgpPeering extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_ct_dynamic_bgp_peering apstra_datacenter_ct_dynamic_bgp_peering} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_ct_dynamic_bgp_peering apstra_datacenter_ct_dynamic_bgp_peering} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -119,7 +119,8 @@ export class DataApstraDatacenterCtDynamicBgpPeering extends cdktf.TerraformData
       terraformResourceType: 'apstra_datacenter_ct_dynamic_bgp_peering',
       terraformGeneratorMetadata: {
         providerName: 'apstra',
-        providerVersion: '0.95.0'
+        providerVersion: '0.95.1',
+        providerVersionConstraint: '0.95.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

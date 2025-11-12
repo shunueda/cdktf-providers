@@ -58,7 +58,8 @@ export class DataCatalystcenterIpPool extends cdktf.TerraformDataSource {
       terraformResourceType: 'catalystcenter_ip_pool',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.2'
+        providerVersion: '0.4.2',
+        providerVersionConstraint: '0.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

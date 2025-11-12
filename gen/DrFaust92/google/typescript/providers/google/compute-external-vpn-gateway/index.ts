@@ -386,7 +386,8 @@ export class ComputeExternalVpnGateway extends cdktf.TerraformResource {
       terraformResourceType: 'google_compute_external_vpn_gateway',
       terraformGeneratorMetadata: {
         providerName: 'google',
-        providerVersion: '4.16.4'
+        providerVersion: '4.16.4',
+        providerVersionConstraint: '4.16.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

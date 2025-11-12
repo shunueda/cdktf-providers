@@ -389,7 +389,8 @@ export class SdaVirtualNetworkV2 extends cdktf.TerraformResource {
       terraformResourceType: 'dnacenter_sda_virtual_network_v2',
       terraformGeneratorMetadata: {
         providerName: 'dnacenter',
-        providerVersion: '1.1.21'
+        providerVersion: '1.1.21',
+        providerVersionConstraint: '1.1.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

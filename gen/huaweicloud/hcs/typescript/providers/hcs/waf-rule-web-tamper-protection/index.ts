@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/waf_rule_web_tamper_protection
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_web_tamper_protection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,44 +8,44 @@ import * as cdktf from 'cdktf';
 
 export interface WafRuleWebTamperProtectionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/waf_rule_web_tamper_protection#description WafRuleWebTamperProtection#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_web_tamper_protection#description WafRuleWebTamperProtection#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/waf_rule_web_tamper_protection#domain WafRuleWebTamperProtection#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_web_tamper_protection#domain WafRuleWebTamperProtection#domain}
   */
   readonly domain: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/waf_rule_web_tamper_protection#enterprise_project_id WafRuleWebTamperProtection#enterprise_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_web_tamper_protection#enterprise_project_id WafRuleWebTamperProtection#enterprise_project_id}
   */
   readonly enterpriseProjectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/waf_rule_web_tamper_protection#id WafRuleWebTamperProtection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_web_tamper_protection#id WafRuleWebTamperProtection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/waf_rule_web_tamper_protection#path WafRuleWebTamperProtection#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_web_tamper_protection#path WafRuleWebTamperProtection#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/waf_rule_web_tamper_protection#policy_id WafRuleWebTamperProtection#policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_web_tamper_protection#policy_id WafRuleWebTamperProtection#policy_id}
   */
   readonly policyId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/waf_rule_web_tamper_protection#region WafRuleWebTamperProtection#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_web_tamper_protection#region WafRuleWebTamperProtection#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/waf_rule_web_tamper_protection#status WafRuleWebTamperProtection#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_web_tamper_protection#status WafRuleWebTamperProtection#status}
   */
   readonly status?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/waf_rule_web_tamper_protection hcs_waf_rule_web_tamper_protection}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_web_tamper_protection hcs_waf_rule_web_tamper_protection}
 */
 export class WafRuleWebTamperProtection extends cdktf.TerraformResource {
 
@@ -61,7 +61,7 @@ export class WafRuleWebTamperProtection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WafRuleWebTamperProtection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WafRuleWebTamperProtection to import
-  * @param importFromId The id of the existing WafRuleWebTamperProtection that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/waf_rule_web_tamper_protection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WafRuleWebTamperProtection that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_web_tamper_protection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WafRuleWebTamperProtection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -73,7 +73,7 @@ export class WafRuleWebTamperProtection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/waf_rule_web_tamper_protection hcs_waf_rule_web_tamper_protection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_web_tamper_protection hcs_waf_rule_web_tamper_protection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -84,7 +84,8 @@ export class WafRuleWebTamperProtection extends cdktf.TerraformResource {
       terraformResourceType: 'hcs_waf_rule_web_tamper_protection',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.19'
+        providerVersion: '2.4.20',
+        providerVersionConstraint: '2.4.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

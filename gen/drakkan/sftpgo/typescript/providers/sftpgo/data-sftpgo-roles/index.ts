@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/data-sources/roles
+// https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/data-sources/roles
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -105,7 +105,7 @@ export class DataSftpgoRolesRolesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/data-sources/roles sftpgo_roles}
+* Represents a {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/data-sources/roles sftpgo_roles}
 */
 export class DataSftpgoRoles extends cdktf.TerraformDataSource {
 
@@ -121,7 +121,7 @@ export class DataSftpgoRoles extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSftpgoRoles resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSftpgoRoles to import
-  * @param importFromId The id of the existing DataSftpgoRoles that should be imported. Refer to the {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/data-sources/roles#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSftpgoRoles that should be imported. Refer to the {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/data-sources/roles#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSftpgoRoles to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -133,7 +133,7 @@ export class DataSftpgoRoles extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/data-sources/roles sftpgo_roles} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/data-sources/roles sftpgo_roles} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -144,7 +144,8 @@ export class DataSftpgoRoles extends cdktf.TerraformDataSource {
       terraformResourceType: 'sftpgo_roles',
       terraformGeneratorMetadata: {
         providerName: 'sftpgo',
-        providerVersion: '0.0.18'
+        providerVersion: '0.0.19',
+        providerVersionConstraint: '0.0.19'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

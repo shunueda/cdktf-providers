@@ -61,7 +61,8 @@ export class MyjfrogProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'myjfrog',
       terraformGeneratorMetadata: {
         providerName: 'myjfrog',
-        providerVersion: '1.0.2'
+        providerVersion: '1.0.2',
+        providerVersionConstraint: '1.0.2'
       },
       terraformProviderSource: 'jfrog/myjfrog'
     });

@@ -64,7 +64,8 @@ export class DataConcoursePipeline extends cdktf.TerraformDataSource {
       terraformResourceType: 'concourse_pipeline',
       terraformGeneratorMetadata: {
         providerName: 'concourse',
-        providerVersion: '8.0.1'
+        providerVersion: '8.0.1',
+        providerVersionConstraint: '8.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

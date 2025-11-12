@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/subscriberprofile
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/subscriberprofile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface SubscriberprofileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/subscriberprofile#id Subscriberprofile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/subscriberprofile#id Subscriberprofile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/subscriberprofile#ip Subscriberprofile#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/subscriberprofile#ip Subscriberprofile#ip}
   */
   readonly ip: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/subscriberprofile#servicepath Subscriberprofile#servicepath}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/subscriberprofile#servicepath Subscriberprofile#servicepath}
   */
   readonly servicepath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/subscriberprofile#subscriberrules Subscriberprofile#subscriberrules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/subscriberprofile#subscriberrules Subscriberprofile#subscriberrules}
   */
   readonly subscriberrules?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/subscriberprofile#subscriptionidtype Subscriberprofile#subscriptionidtype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/subscriberprofile#subscriptionidtype Subscriberprofile#subscriptionidtype}
   */
   readonly subscriptionidtype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/subscriberprofile#subscriptionidvalue Subscriberprofile#subscriptionidvalue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/subscriberprofile#subscriptionidvalue Subscriberprofile#subscriptionidvalue}
   */
   readonly subscriptionidvalue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/subscriberprofile#vlan Subscriberprofile#vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/subscriberprofile#vlan Subscriberprofile#vlan}
   */
   readonly vlan?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/subscriberprofile citrixadc_subscriberprofile}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/subscriberprofile citrixadc_subscriberprofile}
 */
 export class Subscriberprofile extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class Subscriberprofile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Subscriberprofile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Subscriberprofile to import
-  * @param importFromId The id of the existing Subscriberprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/subscriberprofile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Subscriberprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/subscriberprofile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Subscriberprofile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class Subscriberprofile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/subscriberprofile citrixadc_subscriberprofile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/subscriberprofile citrixadc_subscriberprofile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,7 +80,8 @@ export class Subscriberprofile extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_subscriberprofile',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

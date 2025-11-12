@@ -802,7 +802,8 @@ export class DataCatalogEntry extends cdktf.TerraformResource {
       terraformResourceType: 'google_data_catalog_entry',
       terraformGeneratorMetadata: {
         providerName: 'google',
-        providerVersion: '4.16.4'
+        providerVersion: '4.16.4',
+        providerVersionConstraint: '4.16.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

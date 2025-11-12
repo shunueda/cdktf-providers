@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secretsealer
+// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secretsealer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface SecretsealerConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secretsealer#id Secretsealer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secretsealer#id Secretsealer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface SecretsealerConfig extends cdktf.TerraformMetaArguments {
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secretsealer#metadata Secretsealer#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secretsealer#metadata Secretsealer#metadata}
   */
   readonly metadata?: SecretsealerMetadata;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secretsealer#spec Secretsealer#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secretsealer#spec Secretsealer#spec}
   */
   readonly spec?: SecretsealerSpec;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secretsealer#timeouts Secretsealer#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secretsealer#timeouts Secretsealer#timeouts}
   */
   readonly timeouts?: SecretsealerTimeouts;
 }
@@ -37,7 +37,7 @@ export interface SecretsealerMetadataCreatedBy {
   /**
   * Id of the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secretsealer#id Secretsealer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secretsealer#id Secretsealer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -46,13 +46,13 @@ export interface SecretsealerMetadataCreatedBy {
   /**
   * Whether person is logged in using sso
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secretsealer#is_sso_user Secretsealer#is_sso_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secretsealer#is_sso_user Secretsealer#is_sso_user}
   */
   readonly isSsoUser?: boolean | cdktf.IResolvable;
   /**
   * Username fo the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secretsealer#username Secretsealer#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secretsealer#username Secretsealer#username}
   */
   readonly username?: string;
 }
@@ -196,7 +196,7 @@ export interface SecretsealerMetadataModifiedBy {
   /**
   * Id of the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secretsealer#id Secretsealer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secretsealer#id Secretsealer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -205,13 +205,13 @@ export interface SecretsealerMetadataModifiedBy {
   /**
   * Whether person is logged in using sso
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secretsealer#is_sso_user Secretsealer#is_sso_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secretsealer#is_sso_user Secretsealer#is_sso_user}
   */
   readonly isSsoUser?: boolean | cdktf.IResolvable;
   /**
   * Username fo the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secretsealer#username Secretsealer#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secretsealer#username Secretsealer#username}
   */
   readonly username?: string;
 }
@@ -355,49 +355,49 @@ export interface SecretsealerMetadata {
   /**
   * annotations of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secretsealer#annotations Secretsealer#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secretsealer#annotations Secretsealer#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * description of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secretsealer#description Secretsealer#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secretsealer#description Secretsealer#description}
   */
   readonly description?: string;
   /**
   * Display Name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secretsealer#display_name Secretsealer#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secretsealer#display_name Secretsealer#display_name}
   */
   readonly displayName?: string;
   /**
   * labels of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secretsealer#labels Secretsealer#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secretsealer#labels Secretsealer#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secretsealer#name Secretsealer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secretsealer#name Secretsealer#name}
   */
   readonly name?: string;
   /**
   * Project of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secretsealer#project Secretsealer#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secretsealer#project Secretsealer#project}
   */
   readonly project?: string;
   /**
   * created_by block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secretsealer#created_by Secretsealer#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secretsealer#created_by Secretsealer#created_by}
   */
   readonly createdBy?: SecretsealerMetadataCreatedBy;
   /**
   * modified_by block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secretsealer#modified_by Secretsealer#modified_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secretsealer#modified_by Secretsealer#modified_by}
   */
   readonly modifiedBy?: SecretsealerMetadataModifiedBy;
 }
@@ -686,7 +686,7 @@ export interface SecretsealerSpecSharingProjects {
   /**
   * name of the project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secretsealer#name Secretsealer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secretsealer#name Secretsealer#name}
   */
   readonly name?: string;
 }
@@ -804,13 +804,13 @@ export interface SecretsealerSpecSharing {
   /**
   * flag to specify if sharing is enabled for resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secretsealer#enabled Secretsealer#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secretsealer#enabled Secretsealer#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * projects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secretsealer#projects Secretsealer#projects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secretsealer#projects Secretsealer#projects}
   */
   readonly projects?: SecretsealerSpecSharingProjects[] | cdktf.IResolvable;
 }
@@ -925,19 +925,19 @@ export interface SecretsealerSpec {
   /**
   * secret sealer type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secretsealer#type Secretsealer#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secretsealer#type Secretsealer#type}
   */
   readonly type?: string;
   /**
   * secret sealer sharing configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secretsealer#version Secretsealer#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secretsealer#version Secretsealer#version}
   */
   readonly version?: string;
   /**
   * sharing block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secretsealer#sharing Secretsealer#sharing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secretsealer#sharing Secretsealer#sharing}
   */
   readonly sharing?: SecretsealerSpecSharing;
 }
@@ -1079,15 +1079,15 @@ export class SecretsealerSpecOutputReference extends cdktf.ComplexObject {
 }
 export interface SecretsealerTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secretsealer#create Secretsealer#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secretsealer#create Secretsealer#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secretsealer#delete Secretsealer#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secretsealer#delete Secretsealer#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secretsealer#update Secretsealer#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secretsealer#update Secretsealer#update}
   */
   readonly update?: string;
 }
@@ -1239,7 +1239,7 @@ export class SecretsealerTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secretsealer rafay_secretsealer}
+* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secretsealer rafay_secretsealer}
 */
 export class Secretsealer extends cdktf.TerraformResource {
 
@@ -1255,7 +1255,7 @@ export class Secretsealer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Secretsealer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Secretsealer to import
-  * @param importFromId The id of the existing Secretsealer that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secretsealer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Secretsealer that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secretsealer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Secretsealer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1267,7 +1267,7 @@ export class Secretsealer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secretsealer rafay_secretsealer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secretsealer rafay_secretsealer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1278,7 +1278,8 @@ export class Secretsealer extends cdktf.TerraformResource {
       terraformResourceType: 'rafay_secretsealer',
       terraformGeneratorMetadata: {
         providerName: 'rafay',
-        providerVersion: '1.1.52'
+        providerVersion: '1.1.53',
+        providerVersionConstraint: '1.1.53'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

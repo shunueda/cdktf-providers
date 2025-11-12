@@ -55,7 +55,8 @@ export class Pkcs12Provider extends cdktf.TerraformProvider {
       terraformResourceType: 'pkcs12',
       terraformGeneratorMetadata: {
         providerName: 'pkcs12',
-        providerVersion: '0.2.5'
+        providerVersion: '0.2.5',
+        providerVersionConstraint: '0.2.5'
       },
       terraformProviderSource: 'chilicat/pkcs12'
     });

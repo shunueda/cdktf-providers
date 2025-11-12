@@ -55,7 +55,8 @@ export class ErrorcheckProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'errorcheck',
       terraformGeneratorMetadata: {
         providerName: 'errorcheck',
-        providerVersion: '3.0.0'
+        providerVersion: '3.0.0',
+        providerVersionConstraint: '3.0.0'
       },
       terraformProviderSource: 'rhythmictech/errorcheck'
     });

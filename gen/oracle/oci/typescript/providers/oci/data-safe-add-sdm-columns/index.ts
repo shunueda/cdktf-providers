@@ -226,7 +226,8 @@ export class DataSafeAddSdmColumns extends cdktf.TerraformResource {
       terraformResourceType: 'oci_data_safe_add_sdm_columns',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

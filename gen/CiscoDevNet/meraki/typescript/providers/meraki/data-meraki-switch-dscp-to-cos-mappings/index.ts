@@ -140,7 +140,8 @@ export class DataMerakiSwitchDscpToCosMappings extends cdktf.TerraformDataSource
       terraformResourceType: 'meraki_switch_dscp_to_cos_mappings',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1'
+        providerVersion: '1.7.1',
+        providerVersionConstraint: '1.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

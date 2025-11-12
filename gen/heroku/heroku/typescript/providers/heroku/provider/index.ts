@@ -230,7 +230,8 @@ export class HerokuProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'heroku',
       terraformGeneratorMetadata: {
         providerName: 'heroku',
-        providerVersion: '5.3.2'
+        providerVersion: '5.3.2',
+        providerVersionConstraint: '5.3.2'
       },
       terraformProviderSource: 'heroku/heroku'
     });

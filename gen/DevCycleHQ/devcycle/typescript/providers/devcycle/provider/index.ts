@@ -73,7 +73,8 @@ export class DevcycleProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'devcycle',
       terraformGeneratorMetadata: {
         providerName: 'devcycle',
-        providerVersion: '1.0.2'
+        providerVersion: '1.0.2',
+        providerVersionConstraint: '1.0.2'
       },
       terraformProviderSource: 'DevCycleHQ/devcycle'
     });

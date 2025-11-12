@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslcertkey_sslocspresponder_binding
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertkey_sslocspresponder_binding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,32 @@ import * as cdktf from 'cdktf';
 
 export interface SslcertkeySslocspresponderBindingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslcertkey_sslocspresponder_binding#certkey SslcertkeySslocspresponderBinding#certkey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertkey_sslocspresponder_binding#ca SslcertkeySslocspresponderBinding#ca}
+  */
+  readonly ca?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertkey_sslocspresponder_binding#certkey SslcertkeySslocspresponderBinding#certkey}
   */
   readonly certkey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslcertkey_sslocspresponder_binding#id SslcertkeySslocspresponderBinding#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertkey_sslocspresponder_binding#id SslcertkeySslocspresponderBinding#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslcertkey_sslocspresponder_binding#ocspresponder SslcertkeySslocspresponderBinding#ocspresponder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertkey_sslocspresponder_binding#ocspresponder SslcertkeySslocspresponderBinding#ocspresponder}
   */
   readonly ocspresponder: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslcertkey_sslocspresponder_binding#priority SslcertkeySslocspresponderBinding#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertkey_sslocspresponder_binding#priority SslcertkeySslocspresponderBinding#priority}
   */
   readonly priority?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslcertkey_sslocspresponder_binding citrixadc_sslcertkey_sslocspresponder_binding}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertkey_sslocspresponder_binding citrixadc_sslcertkey_sslocspresponder_binding}
 */
 export class SslcertkeySslocspresponderBinding extends cdktf.TerraformResource {
 
@@ -45,7 +49,7 @@ export class SslcertkeySslocspresponderBinding extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SslcertkeySslocspresponderBinding resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SslcertkeySslocspresponderBinding to import
-  * @param importFromId The id of the existing SslcertkeySslocspresponderBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslcertkey_sslocspresponder_binding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SslcertkeySslocspresponderBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertkey_sslocspresponder_binding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SslcertkeySslocspresponderBinding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +61,7 @@ export class SslcertkeySslocspresponderBinding extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslcertkey_sslocspresponder_binding citrixadc_sslcertkey_sslocspresponder_binding} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertkey_sslocspresponder_binding citrixadc_sslcertkey_sslocspresponder_binding} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,7 +72,8 @@ export class SslcertkeySslocspresponderBinding extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_sslcertkey_sslocspresponder_binding',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -78,6 +83,7 @@ export class SslcertkeySslocspresponderBinding extends cdktf.TerraformResource {
       connection: config.connection,
       forEach: config.forEach
     });
+    this._ca = config.ca;
     this._certkey = config.certkey;
     this._id = config.id;
     this._ocspresponder = config.ocspresponder;
@@ -87,6 +93,22 @@ export class SslcertkeySslocspresponderBinding extends cdktf.TerraformResource {
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // ca - computed: true, optional: true, required: false
+  private _ca?: boolean | cdktf.IResolvable; 
+  public get ca() {
+    return this.getBooleanAttribute('ca');
+  }
+  public set ca(value: boolean | cdktf.IResolvable) {
+    this._ca = value;
+  }
+  public resetCa() {
+    this._ca = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get caInput() {
+    return this._ca;
+  }
 
   // certkey - computed: false, optional: false, required: true
   private _certkey?: string; 
@@ -152,6 +174,7 @@ export class SslcertkeySslocspresponderBinding extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      ca: cdktf.booleanToTerraform(this._ca),
       certkey: cdktf.stringToTerraform(this._certkey),
       id: cdktf.stringToTerraform(this._id),
       ocspresponder: cdktf.stringToTerraform(this._ocspresponder),
@@ -161,6 +184,12 @@ export class SslcertkeySslocspresponderBinding extends cdktf.TerraformResource {
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
+      ca: {
+        value: cdktf.booleanToHclTerraform(this._ca),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
       certkey: {
         value: cdktf.stringToHclTerraform(this._certkey),
         isBlock: false,

@@ -358,7 +358,8 @@ export class RouterPrefixlist6 extends cdktf.TerraformResource {
       terraformResourceType: 'fortiswitch_router_prefixlist6',
       terraformGeneratorMetadata: {
         providerName: 'fortiswitch',
-        providerVersion: '1.1.6'
+        providerVersion: '1.1.6',
+        providerVersionConstraint: '1.1.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

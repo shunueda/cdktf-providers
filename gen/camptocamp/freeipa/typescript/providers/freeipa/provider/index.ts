@@ -79,7 +79,8 @@ export class FreeipaProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'freeipa',
       terraformGeneratorMetadata: {
         providerName: 'freeipa',
-        providerVersion: '1.0.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       terraformProviderSource: 'camptocamp/freeipa'
     });

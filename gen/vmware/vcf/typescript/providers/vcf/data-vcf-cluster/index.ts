@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/data-sources/cluster
+// https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/data-sources/cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataVcfClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the Cluster to be used as data source
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/data-sources/cluster#cluster_id DataVcfCluster#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/data-sources/cluster#cluster_id DataVcfCluster#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/data-sources/cluster#id DataVcfCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/data-sources/cluster#id DataVcfCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,7 +23,7 @@ export interface DataVcfClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/data-sources/cluster#timeouts DataVcfCluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/data-sources/cluster#timeouts DataVcfCluster#timeouts}
   */
   readonly timeouts?: DataVcfClusterTimeouts;
 }
@@ -181,6 +181,11 @@ export class DataVcfClusterHostOutputReference extends cdktf.ComplexObject {
   // ip_address - computed: true, optional: false, required: false
   public get ipAddress() {
     return this.getStringAttribute('ip_address');
+  }
+
+  // license_key - computed: true, optional: false, required: false
+  public get licenseKey() {
+    return this.getStringAttribute('license_key');
   }
 
   // password - computed: true, optional: false, required: false
@@ -502,7 +507,7 @@ export class DataVcfClusterVdsList extends cdktf.ComplexList {
 }
 export interface DataVcfClusterTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/data-sources/cluster#read DataVcfCluster#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/data-sources/cluster#read DataVcfCluster#read}
   */
   readonly read?: string;
 }
@@ -596,7 +601,7 @@ export class DataVcfClusterTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/data-sources/cluster vcf_cluster}
+* Represents a {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/data-sources/cluster vcf_cluster}
 */
 export class DataVcfCluster extends cdktf.TerraformDataSource {
 
@@ -612,7 +617,7 @@ export class DataVcfCluster extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataVcfCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataVcfCluster to import
-  * @param importFromId The id of the existing DataVcfCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/data-sources/cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataVcfCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/data-sources/cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataVcfCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -624,7 +629,7 @@ export class DataVcfCluster extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/data-sources/cluster vcf_cluster} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/data-sources/cluster vcf_cluster} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -635,7 +640,8 @@ export class DataVcfCluster extends cdktf.TerraformDataSource {
       terraformResourceType: 'vcf_cluster',
       terraformGeneratorMetadata: {
         providerName: 'vcf',
-        providerVersion: '0.17.1'
+        providerVersion: '0.16.2',
+        providerVersionConstraint: '0.16.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -670,11 +676,6 @@ export class DataVcfCluster extends cdktf.TerraformDataSource {
   // domain_id - computed: true, optional: false, required: false
   public get domainId() {
     return this.getStringAttribute('domain_id');
-  }
-
-  // domain_name - computed: true, optional: false, required: false
-  public get domainName() {
-    return this.getStringAttribute('domain_name');
   }
 
   // host - computed: true, optional: false, required: false

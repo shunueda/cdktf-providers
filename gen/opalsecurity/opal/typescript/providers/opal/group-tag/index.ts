@@ -61,7 +61,8 @@ export class GroupTag extends cdktf.TerraformResource {
       terraformResourceType: 'opal_group_tag',
       terraformGeneratorMetadata: {
         providerName: 'opal',
-        providerVersion: '3.3.3'
+        providerVersion: '3.3.3',
+        providerVersionConstraint: '3.3.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -73,7 +73,8 @@ export class CloudsmithProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'cloudsmith',
       terraformGeneratorMetadata: {
         providerName: 'cloudsmith',
-        providerVersion: '0.0.66'
+        providerVersion: '0.0.66',
+        providerVersionConstraint: '0.0.66'
       },
       terraformProviderSource: 'cloudsmith-io/cloudsmith'
     });

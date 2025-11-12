@@ -67,7 +67,8 @@ export class ServerSettingsWsTrustStsSettingsIssuerCertificate extends cdktf.Ter
       terraformResourceType: 'pingfederate_server_settings_ws_trust_sts_settings_issuer_certificate',
       terraformGeneratorMetadata: {
         providerName: 'pingfederate',
-        providerVersion: '1.6.2'
+        providerVersion: '1.6.2',
+        providerVersionConstraint: '1.6.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -68,7 +68,8 @@ export class DataKeycloakSamlClientInstallationProvider extends cdktf.TerraformD
       terraformResourceType: 'keycloak_saml_client_installation_provider',
       terraformGeneratorMetadata: {
         providerName: 'keycloak',
-        providerVersion: '5.5.0'
+        providerVersion: '5.5.0',
+        providerVersionConstraint: '5.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

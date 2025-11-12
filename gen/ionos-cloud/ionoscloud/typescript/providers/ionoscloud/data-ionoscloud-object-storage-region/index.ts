@@ -117,7 +117,8 @@ export class DataIonoscloudObjectStorageRegion extends cdktf.TerraformDataSource
       terraformResourceType: 'ionoscloud_object_storage_region',
       terraformGeneratorMetadata: {
         providerName: 'ionoscloud',
-        providerVersion: '6.7.20'
+        providerVersion: '6.7.20',
+        providerVersionConstraint: '6.7.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

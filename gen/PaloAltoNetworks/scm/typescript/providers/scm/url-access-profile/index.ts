@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/url_access_profile
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/url_access_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,115 +10,115 @@ export interface UrlAccessProfileConfig extends cdktf.TerraformMetaArguments {
   /**
   * Alert
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/url_access_profile#alert UrlAccessProfile#alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/url_access_profile#alert UrlAccessProfile#alert}
   */
   readonly alert?: string[];
   /**
   * Allow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/url_access_profile#allow UrlAccessProfile#allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/url_access_profile#allow UrlAccessProfile#allow}
   */
   readonly allow?: string[];
   /**
   * Block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/url_access_profile#block UrlAccessProfile#block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/url_access_profile#block UrlAccessProfile#block}
   */
   readonly block?: string[];
   /**
   * Cloud inline cat
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/url_access_profile#cloud_inline_cat UrlAccessProfile#cloud_inline_cat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/url_access_profile#cloud_inline_cat UrlAccessProfile#cloud_inline_cat}
   */
   readonly cloudInlineCat?: boolean | cdktf.IResolvable;
   /**
   * Continue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/url_access_profile#continue UrlAccessProfile#continue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/url_access_profile#continue UrlAccessProfile#continue}
   */
   readonly continue?: string[];
   /**
   * Credential enforcement
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/url_access_profile#credential_enforcement UrlAccessProfile#credential_enforcement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/url_access_profile#credential_enforcement UrlAccessProfile#credential_enforcement}
   */
   readonly credentialEnforcement?: UrlAccessProfileCredentialEnforcement;
   /**
   * Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/url_access_profile#description UrlAccessProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/url_access_profile#description UrlAccessProfile#description}
   */
   readonly description?: string;
   /**
   * The device in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/url_access_profile#device UrlAccessProfile#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/url_access_profile#device UrlAccessProfile#device}
   */
   readonly device?: string;
   /**
   * The folder in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/url_access_profile#folder UrlAccessProfile#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/url_access_profile#folder UrlAccessProfile#folder}
   */
   readonly folder?: string;
   /**
   * Local inline cat
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/url_access_profile#local_inline_cat UrlAccessProfile#local_inline_cat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/url_access_profile#local_inline_cat UrlAccessProfile#local_inline_cat}
   */
   readonly localInlineCat?: boolean | cdktf.IResolvable;
   /**
   * Log container page only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/url_access_profile#log_container_page_only UrlAccessProfile#log_container_page_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/url_access_profile#log_container_page_only UrlAccessProfile#log_container_page_only}
   */
   readonly logContainerPageOnly?: boolean | cdktf.IResolvable;
   /**
   * Log http hdr referer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/url_access_profile#log_http_hdr_referer UrlAccessProfile#log_http_hdr_referer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/url_access_profile#log_http_hdr_referer UrlAccessProfile#log_http_hdr_referer}
   */
   readonly logHttpHdrReferer?: boolean | cdktf.IResolvable;
   /**
   * Log http hdr user agent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/url_access_profile#log_http_hdr_user_agent UrlAccessProfile#log_http_hdr_user_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/url_access_profile#log_http_hdr_user_agent UrlAccessProfile#log_http_hdr_user_agent}
   */
   readonly logHttpHdrUserAgent?: boolean | cdktf.IResolvable;
   /**
   * Log http hdr xff
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/url_access_profile#log_http_hdr_xff UrlAccessProfile#log_http_hdr_xff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/url_access_profile#log_http_hdr_xff UrlAccessProfile#log_http_hdr_xff}
   */
   readonly logHttpHdrXff?: boolean | cdktf.IResolvable;
   /**
   * Mlav category exception
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/url_access_profile#mlav_category_exception UrlAccessProfile#mlav_category_exception}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/url_access_profile#mlav_category_exception UrlAccessProfile#mlav_category_exception}
   */
   readonly mlavCategoryException?: string[];
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/url_access_profile#name UrlAccessProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/url_access_profile#name UrlAccessProfile#name}
   */
   readonly name: string;
   /**
   * Redirect
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/url_access_profile#redirect UrlAccessProfile#redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/url_access_profile#redirect UrlAccessProfile#redirect}
   */
   readonly redirect?: string[];
   /**
   * Safe search enforcement
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/url_access_profile#safe_search_enforcement UrlAccessProfile#safe_search_enforcement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/url_access_profile#safe_search_enforcement UrlAccessProfile#safe_search_enforcement}
   */
   readonly safeSearchEnforcement?: boolean | cdktf.IResolvable;
   /**
   * The snippet in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/url_access_profile#snippet UrlAccessProfile#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/url_access_profile#snippet UrlAccessProfile#snippet}
   */
   readonly snippet?: string;
 }
@@ -303,25 +303,25 @@ export interface UrlAccessProfileCredentialEnforcementMode {
   /**
   * Disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/url_access_profile#disabled UrlAccessProfile#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/url_access_profile#disabled UrlAccessProfile#disabled}
   */
   readonly disabled?: UrlAccessProfileCredentialEnforcementModeDisabled;
   /**
   * Domain credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/url_access_profile#domain_credentials UrlAccessProfile#domain_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/url_access_profile#domain_credentials UrlAccessProfile#domain_credentials}
   */
   readonly domainCredentials?: UrlAccessProfileCredentialEnforcementModeDomainCredentials;
   /**
   * Group mapping
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/url_access_profile#group_mapping UrlAccessProfile#group_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/url_access_profile#group_mapping UrlAccessProfile#group_mapping}
   */
   readonly groupMapping?: string;
   /**
   * Ip user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/url_access_profile#ip_user UrlAccessProfile#ip_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/url_access_profile#ip_user UrlAccessProfile#ip_user}
   */
   readonly ipUser?: UrlAccessProfileCredentialEnforcementModeIpUser;
 }
@@ -504,37 +504,37 @@ export interface UrlAccessProfileCredentialEnforcement {
   /**
   * Alert
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/url_access_profile#alert UrlAccessProfile#alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/url_access_profile#alert UrlAccessProfile#alert}
   */
   readonly alert?: string[];
   /**
   * Allow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/url_access_profile#allow UrlAccessProfile#allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/url_access_profile#allow UrlAccessProfile#allow}
   */
   readonly allow?: string[];
   /**
   * Block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/url_access_profile#block UrlAccessProfile#block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/url_access_profile#block UrlAccessProfile#block}
   */
   readonly block?: string[];
   /**
   * Continue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/url_access_profile#continue UrlAccessProfile#continue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/url_access_profile#continue UrlAccessProfile#continue}
   */
   readonly continue?: string[];
   /**
   * Log severity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/url_access_profile#log_severity UrlAccessProfile#log_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/url_access_profile#log_severity UrlAccessProfile#log_severity}
   */
   readonly logSeverity?: string;
   /**
   * Mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/url_access_profile#mode UrlAccessProfile#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/url_access_profile#mode UrlAccessProfile#mode}
   */
   readonly mode?: UrlAccessProfileCredentialEnforcementMode;
 }
@@ -773,7 +773,7 @@ export class UrlAccessProfileCredentialEnforcementOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/url_access_profile scm_url_access_profile}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/url_access_profile scm_url_access_profile}
 */
 export class UrlAccessProfile extends cdktf.TerraformResource {
 
@@ -789,7 +789,7 @@ export class UrlAccessProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a UrlAccessProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the UrlAccessProfile to import
-  * @param importFromId The id of the existing UrlAccessProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/url_access_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing UrlAccessProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/url_access_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the UrlAccessProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -801,7 +801,7 @@ export class UrlAccessProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/url_access_profile scm_url_access_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/url_access_profile scm_url_access_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -812,7 +812,8 @@ export class UrlAccessProfile extends cdktf.TerraformResource {
       terraformResourceType: 'scm_url_access_profile',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.3'
+        providerVersion: '1.0.4',
+        providerVersionConstraint: '1.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

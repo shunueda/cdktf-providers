@@ -73,7 +73,8 @@ export class ImageMirror extends cdktf.TerraformResource {
       terraformResourceType: 'rhcs_image_mirror',
       terraformGeneratorMetadata: {
         providerName: 'rhcs',
-        providerVersion: '1.7.2'
+        providerVersion: '1.7.2',
+        providerVersionConstraint: '1.7.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

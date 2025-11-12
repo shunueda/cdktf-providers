@@ -287,7 +287,8 @@ export class AlksProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'alks',
       terraformGeneratorMetadata: {
         providerName: 'alks',
-        providerVersion: '2.8.2'
+        providerVersion: '2.8.2',
+        providerVersionConstraint: '2.8.2'
       },
       terraformProviderSource: 'Cox-Automotive/alks'
     });

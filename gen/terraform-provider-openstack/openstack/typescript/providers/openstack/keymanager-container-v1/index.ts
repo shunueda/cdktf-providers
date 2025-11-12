@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/keymanager_container_v1
+// https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/keymanager_container_v1
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface KeymanagerContainerV1Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/keymanager_container_v1#id KeymanagerContainerV1#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/keymanager_container_v1#id KeymanagerContainerV1#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/keymanager_container_v1#name KeymanagerContainerV1#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/keymanager_container_v1#name KeymanagerContainerV1#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/keymanager_container_v1#region KeymanagerContainerV1#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/keymanager_container_v1#region KeymanagerContainerV1#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/keymanager_container_v1#type KeymanagerContainerV1#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/keymanager_container_v1#type KeymanagerContainerV1#type}
   */
   readonly type: string;
   /**
   * acl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/keymanager_container_v1#acl KeymanagerContainerV1#acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/keymanager_container_v1#acl KeymanagerContainerV1#acl}
   */
   readonly acl?: KeymanagerContainerV1Acl;
   /**
   * secret_refs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/keymanager_container_v1#secret_refs KeymanagerContainerV1#secret_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/keymanager_container_v1#secret_refs KeymanagerContainerV1#secret_refs}
   */
   readonly secretRefs?: KeymanagerContainerV1SecretRefs[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/keymanager_container_v1#timeouts KeymanagerContainerV1#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/keymanager_container_v1#timeouts KeymanagerContainerV1#timeouts}
   */
   readonly timeouts?: KeymanagerContainerV1Timeouts;
 }
@@ -127,11 +127,11 @@ export class KeymanagerContainerV1ConsumersList extends cdktf.ComplexList {
 }
 export interface KeymanagerContainerV1AclRead {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/keymanager_container_v1#project_access KeymanagerContainerV1#project_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/keymanager_container_v1#project_access KeymanagerContainerV1#project_access}
   */
   readonly projectAccess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/keymanager_container_v1#users KeymanagerContainerV1#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/keymanager_container_v1#users KeymanagerContainerV1#users}
   */
   readonly users?: string[];
 }
@@ -256,7 +256,7 @@ export interface KeymanagerContainerV1Acl {
   /**
   * read block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/keymanager_container_v1#read KeymanagerContainerV1#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/keymanager_container_v1#read KeymanagerContainerV1#read}
   */
   readonly read?: KeymanagerContainerV1AclRead;
 }
@@ -340,11 +340,11 @@ export class KeymanagerContainerV1AclOutputReference extends cdktf.ComplexObject
 }
 export interface KeymanagerContainerV1SecretRefs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/keymanager_container_v1#name KeymanagerContainerV1#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/keymanager_container_v1#name KeymanagerContainerV1#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/keymanager_container_v1#secret_ref KeymanagerContainerV1#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/keymanager_container_v1#secret_ref KeymanagerContainerV1#secret_ref}
   */
   readonly secretRef: string;
 }
@@ -486,15 +486,15 @@ export class KeymanagerContainerV1SecretRefsList extends cdktf.ComplexList {
 }
 export interface KeymanagerContainerV1Timeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/keymanager_container_v1#create KeymanagerContainerV1#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/keymanager_container_v1#create KeymanagerContainerV1#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/keymanager_container_v1#delete KeymanagerContainerV1#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/keymanager_container_v1#delete KeymanagerContainerV1#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/keymanager_container_v1#update KeymanagerContainerV1#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/keymanager_container_v1#update KeymanagerContainerV1#update}
   */
   readonly update?: string;
 }
@@ -646,7 +646,7 @@ export class KeymanagerContainerV1TimeoutsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/keymanager_container_v1 openstack_keymanager_container_v1}
+* Represents a {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/keymanager_container_v1 openstack_keymanager_container_v1}
 */
 export class KeymanagerContainerV1 extends cdktf.TerraformResource {
 
@@ -662,7 +662,7 @@ export class KeymanagerContainerV1 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KeymanagerContainerV1 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KeymanagerContainerV1 to import
-  * @param importFromId The id of the existing KeymanagerContainerV1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/keymanager_container_v1#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KeymanagerContainerV1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/keymanager_container_v1#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KeymanagerContainerV1 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -674,7 +674,7 @@ export class KeymanagerContainerV1 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/keymanager_container_v1 openstack_keymanager_container_v1} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/keymanager_container_v1 openstack_keymanager_container_v1} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -685,7 +685,8 @@ export class KeymanagerContainerV1 extends cdktf.TerraformResource {
       terraformResourceType: 'openstack_keymanager_container_v1',
       terraformGeneratorMetadata: {
         providerName: 'openstack',
-        providerVersion: '3.3.2'
+        providerVersion: '3.4.0',
+        providerVersionConstraint: '3.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

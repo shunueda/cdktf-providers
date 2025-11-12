@@ -282,7 +282,8 @@ export class DataCouchbaseCapellaSampleBuckets extends cdktf.TerraformDataSource
       terraformResourceType: 'couchbase-capella_sample_buckets',
       terraformGeneratorMetadata: {
         providerName: 'couchbase-capella',
-        providerVersion: '1.5.3'
+        providerVersion: '1.5.3',
+        providerVersionConstraint: '1.5.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

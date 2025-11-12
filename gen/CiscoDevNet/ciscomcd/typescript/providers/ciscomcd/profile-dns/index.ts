@@ -72,7 +72,8 @@ export class ProfileDns extends cdktf.TerraformResource {
       terraformResourceType: 'ciscomcd_profile_dns',
       terraformGeneratorMetadata: {
         providerName: 'ciscomcd',
-        providerVersion: '25.9.2'
+        providerVersion: '25.9.2',
+        providerVersionConstraint: '25.9.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

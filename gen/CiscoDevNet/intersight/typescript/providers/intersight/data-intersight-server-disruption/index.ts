@@ -4033,7 +4033,8 @@ export class DataIntersightServerDisruption extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_server_disruption',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

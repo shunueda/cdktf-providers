@@ -55,7 +55,8 @@ export class DataNxosIcmpv4Instance extends cdktf.TerraformDataSource {
       terraformResourceType: 'nxos_icmpv4_instance',
       terraformGeneratorMetadata: {
         providerName: 'nxos',
-        providerVersion: '0.5.10'
+        providerVersion: '0.5.10',
+        providerVersionConstraint: '0.5.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

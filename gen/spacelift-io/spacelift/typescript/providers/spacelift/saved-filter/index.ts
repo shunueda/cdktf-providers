@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/saved_filter
+// https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/saved_filter
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface SavedFilterConfig extends cdktf.TerraformMetaArguments {
   /**
   * Data is the JSON representation of the filter data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/saved_filter#data SavedFilter#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/saved_filter#data SavedFilter#data}
   */
   readonly data: string;
   /**
   * Toggle whether the filter is public or not. If set to true, everyone can use it in the account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/saved_filter#is_public SavedFilter#is_public}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/saved_filter#is_public SavedFilter#is_public}
   */
   readonly isPublic: boolean | cdktf.IResolvable;
   /**
   * Name of the saved filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/saved_filter#name SavedFilter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/saved_filter#name SavedFilter#name}
   */
   readonly name: string;
   /**
   * Type describes the type of the filter. It is used to determine which view the filter is for. Possible values are `stacks`, `modules`, `auditTrailEntries`, `vcsIntegrations`, `blueprints`, `contexts`, `workerPools`, `webhooks`, `notifications`, `resources`, `policies`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/saved_filter#type SavedFilter#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/saved_filter#type SavedFilter#type}
   */
   readonly type: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/saved_filter spacelift_saved_filter}
+* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/saved_filter spacelift_saved_filter}
 */
 export class SavedFilter extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class SavedFilter extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SavedFilter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SavedFilter to import
-  * @param importFromId The id of the existing SavedFilter that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/saved_filter#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SavedFilter that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/saved_filter#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SavedFilter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class SavedFilter extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/saved_filter spacelift_saved_filter} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/saved_filter spacelift_saved_filter} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,7 +73,8 @@ export class SavedFilter extends cdktf.TerraformResource {
       terraformResourceType: 'spacelift_saved_filter',
       terraformGeneratorMetadata: {
         providerName: 'spacelift',
-        providerVersion: '1.36.0'
+        providerVersion: '1.37.0',
+        providerVersionConstraint: '1.37.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

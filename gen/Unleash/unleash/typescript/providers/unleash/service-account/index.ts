@@ -67,7 +67,8 @@ export class ServiceAccount extends cdktf.TerraformResource {
       terraformResourceType: 'unleash_service_account',
       terraformGeneratorMetadata: {
         providerName: 'unleash',
-        providerVersion: '3.1.11'
+        providerVersion: '3.1.11',
+        providerVersionConstraint: '3.1.11'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

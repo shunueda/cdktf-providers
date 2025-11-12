@@ -317,7 +317,8 @@ export class LeafAccessBundlePolicyGroup extends cdktf.TerraformResource {
       terraformResourceType: 'aci_leaf_access_bundle_policy_group',
       terraformGeneratorMetadata: {
         providerName: 'aci',
-        providerVersion: '2.18.0'
+        providerVersion: '2.18.0',
+        providerVersionConstraint: '2.18.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

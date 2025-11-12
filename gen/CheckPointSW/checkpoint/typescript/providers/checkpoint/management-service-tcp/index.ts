@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_tcp
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_tcp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface ManagementServiceTcpConfig extends cdktf.TerraformMetaArguments
   /**
   * Sets short (aggressive) timeouts for idle connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_tcp#aggressive_aging ManagementServiceTcp#aggressive_aging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_tcp#aggressive_aging ManagementServiceTcp#aggressive_aging}
   */
   readonly aggressiveAging?: { [key: string]: string };
   /**
   * Color of the object. Should be one of existing colors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_tcp#color ManagementServiceTcp#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_tcp#color ManagementServiceTcp#color}
   */
   readonly color?: string;
   /**
   * Comments string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_tcp#comments ManagementServiceTcp#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_tcp#comments ManagementServiceTcp#comments}
   */
   readonly comments?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_tcp#id ManagementServiceTcp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_tcp#id ManagementServiceTcp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,91 +35,91 @@ export interface ManagementServiceTcpConfig extends cdktf.TerraformMetaArguments
   /**
   * Apply changes ignoring errors. You won't be able to publish such a changes. If ignore-warnings flag was omitted - warnings will also be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_tcp#ignore_errors ManagementServiceTcp#ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_tcp#ignore_errors ManagementServiceTcp#ignore_errors}
   */
   readonly ignoreErrors?: boolean | cdktf.IResolvable;
   /**
   * Apply changes ignoring warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_tcp#ignore_warnings ManagementServiceTcp#ignore_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_tcp#ignore_warnings ManagementServiceTcp#ignore_warnings}
   */
   readonly ignoreWarnings?: boolean | cdktf.IResolvable;
   /**
   * Keep connections open after policy has been installed even if they are not allowed under the new policy. This overrides the settings in the Connection Persistence page. If you change this property, the change will not affect open connections, but only future connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_tcp#keep_connections_open_after_policy_installation ManagementServiceTcp#keep_connections_open_after_policy_installation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_tcp#keep_connections_open_after_policy_installation ManagementServiceTcp#keep_connections_open_after_policy_installation}
   */
   readonly keepConnectionsOpenAfterPolicyInstallation?: boolean | cdktf.IResolvable;
   /**
   * A value of true enables matching by the selected protocol's signature - the signature identifies the protocol as genuine. Select this option to limit the port to the specified protocol. If the selected protocol does not support matching by signature, this field cannot be set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_tcp#match_by_protocol_signature ManagementServiceTcp#match_by_protocol_signature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_tcp#match_by_protocol_signature ManagementServiceTcp#match_by_protocol_signature}
   */
   readonly matchByProtocolSignature?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether this service is used when 'Any' is set as the rule's service and there are several service objects with the same source port and protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_tcp#match_for_any ManagementServiceTcp#match_for_any}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_tcp#match_for_any ManagementServiceTcp#match_for_any}
   */
   readonly matchForAny?: boolean | cdktf.IResolvable;
   /**
   * Object name. Should be unique in the domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_tcp#name ManagementServiceTcp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_tcp#name ManagementServiceTcp#name}
   */
   readonly name: string;
   /**
   * Indicates whether this service is a Data Domain service which has been overridden.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_tcp#override_default_settings ManagementServiceTcp#override_default_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_tcp#override_default_settings ManagementServiceTcp#override_default_settings}
   */
   readonly overrideDefaultSettings?: boolean | cdktf.IResolvable;
   /**
   * The number of the port used to provide this service. To specify a port range, place a hyphen between the lowest and highest port numbers, for example 44-55.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_tcp#port ManagementServiceTcp#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_tcp#port ManagementServiceTcp#port}
   */
   readonly port?: string;
   /**
   * Select the protocol type associated with the service, and by implication, the management server (if any) that enforces Content Security and Authentication for the service. Selecting a Protocol Type invokes the specific protocol handlers for each protocol type, thus enabling higher level of security by parsing the protocol, and higher level of connectivity by tracking dynamic actions (such as opening of ports).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_tcp#protocol ManagementServiceTcp#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_tcp#protocol ManagementServiceTcp#protocol}
   */
   readonly protocol?: string;
   /**
   * Time (in seconds) before the session times out.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_tcp#session_timeout ManagementServiceTcp#session_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_tcp#session_timeout ManagementServiceTcp#session_timeout}
   */
   readonly sessionTimeout?: number;
   /**
   * Port number for the client side service. If specified, only those Source port Numbers will be Accepted, Dropped, or Rejected during packet inspection. Otherwise, the source port is not inspected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_tcp#source_port ManagementServiceTcp#source_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_tcp#source_port ManagementServiceTcp#source_port}
   */
   readonly sourcePort?: string;
   /**
   * Enables state-synchronized High Availability or Load Sharing on a ClusterXL or OPSEC-certified cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_tcp#sync_connections_on_cluster ManagementServiceTcp#sync_connections_on_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_tcp#sync_connections_on_cluster ManagementServiceTcp#sync_connections_on_cluster}
   */
   readonly syncConnectionsOnCluster?: boolean | cdktf.IResolvable;
   /**
   * Collection of tag identifiers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_tcp#tags ManagementServiceTcp#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_tcp#tags ManagementServiceTcp#tags}
   */
   readonly tags?: string[];
   /**
   * Use default virtual session timeout.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_tcp#use_default_session_timeout ManagementServiceTcp#use_default_session_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_tcp#use_default_session_timeout ManagementServiceTcp#use_default_session_timeout}
   */
   readonly useDefaultSessionTimeout?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_tcp checkpoint_management_service_tcp}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_tcp checkpoint_management_service_tcp}
 */
 export class ManagementServiceTcp extends cdktf.TerraformResource {
 
@@ -135,7 +135,7 @@ export class ManagementServiceTcp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementServiceTcp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementServiceTcp to import
-  * @param importFromId The id of the existing ManagementServiceTcp that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_tcp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementServiceTcp that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_tcp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementServiceTcp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -147,7 +147,7 @@ export class ManagementServiceTcp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_tcp checkpoint_management_service_tcp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_tcp checkpoint_management_service_tcp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -158,7 +158,8 @@ export class ManagementServiceTcp extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_service_tcp',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

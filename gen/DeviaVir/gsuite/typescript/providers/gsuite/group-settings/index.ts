@@ -272,7 +272,8 @@ export class GroupSettings extends cdktf.TerraformResource {
       terraformResourceType: 'gsuite_group_settings',
       terraformGeneratorMetadata: {
         providerName: 'gsuite',
-        providerVersion: '0.1.62'
+        providerVersion: '0.1.62',
+        providerVersionConstraint: '0.1.62'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

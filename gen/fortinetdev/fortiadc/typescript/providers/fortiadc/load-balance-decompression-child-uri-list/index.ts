@@ -72,7 +72,8 @@ export class LoadBalanceDecompressionChildUriList extends cdktf.TerraformResourc
       terraformResourceType: 'fortiadc_load_balance_decompression_child_uri_list',
       terraformGeneratorMetadata: {
         providerName: 'fortiadc',
-        providerVersion: '1.3.1'
+        providerVersion: '1.3.1',
+        providerVersionConstraint: '1.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

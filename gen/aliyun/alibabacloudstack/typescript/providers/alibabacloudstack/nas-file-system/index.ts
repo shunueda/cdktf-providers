@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/nas_file_system
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/nas_file_system
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,52 +8,48 @@ import * as cdktf from 'cdktf';
 
 export interface NasFileSystemConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/nas_file_system#capacity NasFileSystem#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/nas_file_system#capacity NasFileSystem#capacity}
   */
   readonly capacity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/nas_file_system#cluster_id NasFileSystem#cluster_id}
-  */
-  readonly clusterId: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/nas_file_system#description NasFileSystem#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/nas_file_system#description NasFileSystem#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/nas_file_system#encrypt_type NasFileSystem#encrypt_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/nas_file_system#encrypt_type NasFileSystem#encrypt_type}
   */
   readonly encryptType?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/nas_file_system#file_system_type NasFileSystem#file_system_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/nas_file_system#file_system_type NasFileSystem#file_system_type}
   */
   readonly fileSystemType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/nas_file_system#id NasFileSystem#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/nas_file_system#id NasFileSystem#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/nas_file_system#kms_key_id NasFileSystem#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/nas_file_system#kms_key_id NasFileSystem#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/nas_file_system#protocol_type NasFileSystem#protocol_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/nas_file_system#protocol_type NasFileSystem#protocol_type}
   */
   readonly protocolType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/nas_file_system#storage_type NasFileSystem#storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/nas_file_system#storage_type NasFileSystem#storage_type}
   */
   readonly storageType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/nas_file_system#zone_id NasFileSystem#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/nas_file_system#zone_id NasFileSystem#zone_id}
   */
-  readonly zoneId: string;
+  readonly zoneId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/nas_file_system alibabacloudstack_nas_file_system}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/nas_file_system alibabacloudstack_nas_file_system}
 */
 export class NasFileSystem extends cdktf.TerraformResource {
 
@@ -69,7 +65,7 @@ export class NasFileSystem extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NasFileSystem resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NasFileSystem to import
-  * @param importFromId The id of the existing NasFileSystem that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/nas_file_system#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NasFileSystem that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/nas_file_system#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NasFileSystem to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +77,7 @@ export class NasFileSystem extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/nas_file_system alibabacloudstack_nas_file_system} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/nas_file_system alibabacloudstack_nas_file_system} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,7 +88,8 @@ export class NasFileSystem extends cdktf.TerraformResource {
       terraformResourceType: 'alibabacloudstack_nas_file_system',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.19'
+        providerVersion: '3.16.21',
+        providerVersionConstraint: '3.16.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -103,7 +100,6 @@ export class NasFileSystem extends cdktf.TerraformResource {
       forEach: config.forEach
     });
     this._capacity = config.capacity;
-    this._clusterId = config.clusterId;
     this._description = config.description;
     this._encryptType = config.encryptType;
     this._fileSystemType = config.fileSystemType;
@@ -132,19 +128,6 @@ export class NasFileSystem extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get capacityInput() {
     return this._capacity;
-  }
-
-  // cluster_id - computed: false, optional: false, required: true
-  private _clusterId?: string; 
-  public get clusterId() {
-    return this.getStringAttribute('cluster_id');
-  }
-  public set clusterId(value: string) {
-    this._clusterId = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get clusterIdInput() {
-    return this._clusterId;
   }
 
   // description - computed: false, optional: true, required: false
@@ -253,13 +236,16 @@ export class NasFileSystem extends cdktf.TerraformResource {
     return this._storageType;
   }
 
-  // zone_id - computed: false, optional: false, required: true
+  // zone_id - computed: true, optional: true, required: false
   private _zoneId?: string; 
   public get zoneId() {
     return this.getStringAttribute('zone_id');
   }
   public set zoneId(value: string) {
     this._zoneId = value;
+  }
+  public resetZoneId() {
+    this._zoneId = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get zoneIdInput() {
@@ -273,7 +259,6 @@ export class NasFileSystem extends cdktf.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       capacity: cdktf.numberToTerraform(this._capacity),
-      cluster_id: cdktf.stringToTerraform(this._clusterId),
       description: cdktf.stringToTerraform(this._description),
       encrypt_type: cdktf.numberToTerraform(this._encryptType),
       file_system_type: cdktf.stringToTerraform(this._fileSystemType),
@@ -292,12 +277,6 @@ export class NasFileSystem extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "number",
-      },
-      cluster_id: {
-        value: cdktf.stringToHclTerraform(this._clusterId),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
       },
       description: {
         value: cdktf.stringToHclTerraform(this._description),

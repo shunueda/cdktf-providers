@@ -746,7 +746,8 @@ export class DataK8SCheEclipseOrgKubernetesImagePullerV1Alpha1Manifest extends c
       terraformResourceType: 'k8s_che_eclipse_org_kubernetes_image_puller_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

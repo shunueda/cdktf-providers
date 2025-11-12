@@ -212,7 +212,8 @@ export class OidcGoogleIdentityProvider extends cdktf.TerraformResource {
       terraformResourceType: 'keycloak_oidc_google_identity_provider',
       terraformGeneratorMetadata: {
         providerName: 'keycloak',
-        providerVersion: '5.5.0'
+        providerVersion: '5.5.0',
+        providerVersionConstraint: '5.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

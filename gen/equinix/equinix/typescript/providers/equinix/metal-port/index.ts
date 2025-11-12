@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/metal_port
+// https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/metal_port
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface MetalPortConfig extends cdktf.TerraformMetaArguments {
   /**
   * Flag indicating whether the port should be bonded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/metal_port#bonded MetalPort#bonded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/metal_port#bonded MetalPort#bonded}
   */
   readonly bonded: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/metal_port#id MetalPort#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/metal_port#id MetalPort#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,57 +23,57 @@ export interface MetalPortConfig extends cdktf.TerraformMetaArguments {
   /**
   * Flag indicating whether the port is in layer2 (or layer3) mode. The `layer2` flag can be set only for bond ports.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/metal_port#layer2 MetalPort#layer2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/metal_port#layer2 MetalPort#layer2}
   */
   readonly layer2?: boolean | cdktf.IResolvable;
   /**
   * UUID of native VLAN of the port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/metal_port#native_vlan_id MetalPort#native_vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/metal_port#native_vlan_id MetalPort#native_vlan_id}
   */
   readonly nativeVlanId?: string;
   /**
   * UUID of the port to lookup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/metal_port#port_id MetalPort#port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/metal_port#port_id MetalPort#port_id}
   */
   readonly portId: string;
   /**
   * Behavioral setting to reset the port to default settings (layer3 bonded mode without any vlan attached) before delete/destroy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/metal_port#reset_on_delete MetalPort#reset_on_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/metal_port#reset_on_delete MetalPort#reset_on_delete}
   */
   readonly resetOnDelete?: boolean | cdktf.IResolvable;
   /**
   * UUIDs VLANs to attach. To avoid jitter, use the UUID and not the VXLAN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/metal_port#vlan_ids MetalPort#vlan_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/metal_port#vlan_ids MetalPort#vlan_ids}
   */
   readonly vlanIds?: string[];
   /**
   * VLAN VXLAN ids to attach (example: [1000])
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/metal_port#vxlan_ids MetalPort#vxlan_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/metal_port#vxlan_ids MetalPort#vxlan_ids}
   */
   readonly vxlanIds?: number[];
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/metal_port#timeouts MetalPort#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/metal_port#timeouts MetalPort#timeouts}
   */
   readonly timeouts?: MetalPortTimeouts;
 }
 export interface MetalPortTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/metal_port#create MetalPort#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/metal_port#create MetalPort#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/metal_port#delete MetalPort#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/metal_port#delete MetalPort#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/metal_port#update MetalPort#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/metal_port#update MetalPort#update}
   */
   readonly update?: string;
 }
@@ -225,7 +225,7 @@ export class MetalPortTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/metal_port equinix_metal_port}
+* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/metal_port equinix_metal_port}
 */
 export class MetalPort extends cdktf.TerraformResource {
 
@@ -241,7 +241,7 @@ export class MetalPort extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MetalPort resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MetalPort to import
-  * @param importFromId The id of the existing MetalPort that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/metal_port#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MetalPort that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/metal_port#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MetalPort to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -253,7 +253,7 @@ export class MetalPort extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/metal_port equinix_metal_port} Resource
+  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/metal_port equinix_metal_port} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -264,7 +264,8 @@ export class MetalPort extends cdktf.TerraformResource {
       terraformResourceType: 'equinix_metal_port',
       terraformGeneratorMetadata: {
         providerName: 'equinix',
-        providerVersion: '4.8.0'
+        providerVersion: '4.10.0',
+        providerVersionConstraint: '4.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

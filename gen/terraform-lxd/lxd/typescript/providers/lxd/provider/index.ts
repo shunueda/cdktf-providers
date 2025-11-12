@@ -208,7 +208,8 @@ export class LxdProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'lxd',
       terraformGeneratorMetadata: {
         providerName: 'lxd',
-        providerVersion: '2.6.0'
+        providerVersion: '2.6.0',
+        providerVersionConstraint: '2.6.0'
       },
       terraformProviderSource: 'terraform-lxd/lxd'
     });

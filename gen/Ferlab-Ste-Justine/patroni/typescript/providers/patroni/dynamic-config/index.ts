@@ -361,7 +361,8 @@ export class DynamicConfig extends cdktf.TerraformResource {
       terraformResourceType: 'patroni_dynamic_config',
       terraformGeneratorMetadata: {
         providerName: 'patroni',
-        providerVersion: '0.1.1'
+        providerVersion: '0.1.1',
+        providerVersionConstraint: '0.1.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

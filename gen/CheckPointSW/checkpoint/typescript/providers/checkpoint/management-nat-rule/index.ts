@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_nat_rule
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_nat_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ManagementNatRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Comments string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_nat_rule#comments ManagementNatRule#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_nat_rule#comments ManagementNatRule#comments}
   */
   readonly comments?: string;
   /**
   * Enable/Disable the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_nat_rule#enabled ManagementNatRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_nat_rule#enabled ManagementNatRule#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_nat_rule#id ManagementNatRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_nat_rule#id ManagementNatRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,85 +29,85 @@ export interface ManagementNatRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Apply changes ignoring errors. You won't be able to publish such a changes. If ignore-warnings flag was omitted - warnings will also be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_nat_rule#ignore_errors ManagementNatRule#ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_nat_rule#ignore_errors ManagementNatRule#ignore_errors}
   */
   readonly ignoreErrors?: boolean | cdktf.IResolvable;
   /**
   * Apply changes ignoring warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_nat_rule#ignore_warnings ManagementNatRule#ignore_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_nat_rule#ignore_warnings ManagementNatRule#ignore_warnings}
   */
   readonly ignoreWarnings?: boolean | cdktf.IResolvable;
   /**
   * Which Gateways identified by the name or UID to install the policy on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_nat_rule#install_on ManagementNatRule#install_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_nat_rule#install_on ManagementNatRule#install_on}
   */
   readonly installOn?: string[];
   /**
   * Nat method.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_nat_rule#method ManagementNatRule#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_nat_rule#method ManagementNatRule#method}
   */
   readonly method?: string;
   /**
   * Rule name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_nat_rule#name ManagementNatRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_nat_rule#name ManagementNatRule#name}
   */
   readonly name?: string;
   /**
   * Original destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_nat_rule#original_destination ManagementNatRule#original_destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_nat_rule#original_destination ManagementNatRule#original_destination}
   */
   readonly originalDestination?: string;
   /**
   * Original service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_nat_rule#original_service ManagementNatRule#original_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_nat_rule#original_service ManagementNatRule#original_service}
   */
   readonly originalService?: string;
   /**
   * Original source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_nat_rule#original_source ManagementNatRule#original_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_nat_rule#original_source ManagementNatRule#original_source}
   */
   readonly originalSource?: string;
   /**
   * Name of the package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_nat_rule#package ManagementNatRule#package}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_nat_rule#package ManagementNatRule#package}
   */
   readonly package: string;
   /**
   * Position in the rulebase.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_nat_rule#position ManagementNatRule#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_nat_rule#position ManagementNatRule#position}
   */
   readonly position: { [key: string]: string };
   /**
   * Translated destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_nat_rule#translated_destination ManagementNatRule#translated_destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_nat_rule#translated_destination ManagementNatRule#translated_destination}
   */
   readonly translatedDestination?: string;
   /**
   * Translated service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_nat_rule#translated_service ManagementNatRule#translated_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_nat_rule#translated_service ManagementNatRule#translated_service}
   */
   readonly translatedService?: string;
   /**
   * Translated source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_nat_rule#translated_source ManagementNatRule#translated_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_nat_rule#translated_source ManagementNatRule#translated_source}
   */
   readonly translatedSource?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_nat_rule checkpoint_management_nat_rule}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_nat_rule checkpoint_management_nat_rule}
 */
 export class ManagementNatRule extends cdktf.TerraformResource {
 
@@ -123,7 +123,7 @@ export class ManagementNatRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementNatRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementNatRule to import
-  * @param importFromId The id of the existing ManagementNatRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_nat_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementNatRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_nat_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementNatRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -135,7 +135,7 @@ export class ManagementNatRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_nat_rule checkpoint_management_nat_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_nat_rule checkpoint_management_nat_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -146,7 +146,8 @@ export class ManagementNatRule extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_nat_rule',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

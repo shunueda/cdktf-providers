@@ -68,7 +68,8 @@ export class DataGenesyscloudKnowledgeKnowledgebase extends cdktf.TerraformDataS
       terraformResourceType: 'genesyscloud_knowledge_knowledgebase',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.70.0'
+        providerVersion: '1.70.0',
+        providerVersionConstraint: '1.70.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

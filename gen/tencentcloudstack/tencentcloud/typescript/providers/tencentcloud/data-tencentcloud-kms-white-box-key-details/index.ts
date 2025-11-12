@@ -198,7 +198,8 @@ export class DataTencentcloudKmsWhiteBoxKeyDetails extends cdktf.TerraformDataSo
       terraformResourceType: 'tencentcloud_kms_white_box_key_details',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

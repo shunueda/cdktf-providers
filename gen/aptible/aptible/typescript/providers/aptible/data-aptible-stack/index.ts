@@ -60,7 +60,8 @@ export class DataAptibleStack extends cdktf.TerraformDataSource {
       terraformResourceType: 'aptible_stack',
       terraformGeneratorMetadata: {
         providerName: 'aptible',
-        providerVersion: '0.9.18'
+        providerVersion: '0.9.18',
+        providerVersionConstraint: '0.9.18'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

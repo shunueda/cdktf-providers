@@ -4357,7 +4357,8 @@ export class DataIntersightApicSubnet extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_apic_subnet',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

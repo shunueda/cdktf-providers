@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_allocation_group
+// https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_allocation_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface FreeformAllocationGroupConfig extends cdktf.TerraformMetaArgume
   /**
   * Apstra Blueprint ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_allocation_group#blueprint_id FreeformAllocationGroup#blueprint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_allocation_group#blueprint_id FreeformAllocationGroup#blueprint_id}
   */
   readonly blueprintId: string;
   /**
   * Freeform Allocation Group name as shown in the Web UI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_allocation_group#name FreeformAllocationGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_allocation_group#name FreeformAllocationGroup#name}
   */
   readonly name: string;
   /**
   * IDs of Resource Pools assigned to the allocation group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_allocation_group#pool_ids FreeformAllocationGroup#pool_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_allocation_group#pool_ids FreeformAllocationGroup#pool_ids}
   */
   readonly poolIds: string[];
   /**
@@ -35,13 +35,13 @@ export interface FreeformAllocationGroupConfig extends cdktf.TerraformMetaArgume
   *   - `vni`
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_allocation_group#type FreeformAllocationGroup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_allocation_group#type FreeformAllocationGroup#type}
   */
   readonly type: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_allocation_group apstra_freeform_allocation_group}
+* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_allocation_group apstra_freeform_allocation_group}
 */
 export class FreeformAllocationGroup extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class FreeformAllocationGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FreeformAllocationGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FreeformAllocationGroup to import
-  * @param importFromId The id of the existing FreeformAllocationGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_allocation_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FreeformAllocationGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_allocation_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FreeformAllocationGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class FreeformAllocationGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_allocation_group apstra_freeform_allocation_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_allocation_group apstra_freeform_allocation_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,7 +80,8 @@ export class FreeformAllocationGroup extends cdktf.TerraformResource {
       terraformResourceType: 'apstra_freeform_allocation_group',
       terraformGeneratorMetadata: {
         providerName: 'apstra',
-        providerVersion: '0.95.0'
+        providerVersion: '0.95.1',
+        providerVersionConstraint: '0.95.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

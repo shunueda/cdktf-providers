@@ -242,7 +242,8 @@ export class DataShipaFrameworks extends cdktf.TerraformDataSource {
       terraformResourceType: 'shipa_frameworks',
       terraformGeneratorMetadata: {
         providerName: 'shipa',
-        providerVersion: '0.0.18'
+        providerVersion: '0.0.18',
+        providerVersionConstraint: '0.0.18'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

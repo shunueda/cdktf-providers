@@ -419,7 +419,8 @@ export class Ruleset extends cdktf.TerraformResource {
       terraformResourceType: 'grafana-adaptive-metrics_ruleset',
       terraformGeneratorMetadata: {
         providerName: 'grafana-adaptive-metrics',
-        providerVersion: '0.3.3'
+        providerVersion: '0.3.3',
+        providerVersionConstraint: '0.3.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

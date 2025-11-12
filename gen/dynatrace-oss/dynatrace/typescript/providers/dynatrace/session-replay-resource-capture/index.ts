@@ -74,7 +74,8 @@ export class SessionReplayResourceCapture extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_session_replay_resource_capture',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1'
+        providerVersion: '1.87.1',
+        providerVersionConstraint: '1.87.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/eks_cluster
+// https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/eks_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface EksClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * ID of AWS account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/eks_cluster#account_id EksCluster#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/eks_cluster#account_id EksCluster#account_id}
   */
   readonly accountId: string;
   /**
   * AWS IAM role ARN that will be assumed by CAST AI user. This role should allow `sts:AssumeRole` action for CAST AI user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/eks_cluster#assume_role_arn EksCluster#assume_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/eks_cluster#assume_role_arn EksCluster#assume_role_arn}
   */
   readonly assumeRoleArn?: string;
   /**
   * Should CAST AI remove nodes managed by CAST AI on disconnect
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/eks_cluster#delete_nodes_on_disconnect EksCluster#delete_nodes_on_disconnect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/eks_cluster#delete_nodes_on_disconnect EksCluster#delete_nodes_on_disconnect}
   */
   readonly deleteNodesOnDisconnect?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/eks_cluster#id EksCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/eks_cluster#id EksCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,33 +35,33 @@ export interface EksClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * name of your EKS cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/eks_cluster#name EksCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/eks_cluster#name EksCluster#name}
   */
   readonly name: string;
   /**
   * AWS region where the cluster is placed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/eks_cluster#region EksCluster#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/eks_cluster#region EksCluster#region}
   */
   readonly region: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/eks_cluster#timeouts EksCluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/eks_cluster#timeouts EksCluster#timeouts}
   */
   readonly timeouts?: EksClusterTimeouts;
 }
 export interface EksClusterTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/eks_cluster#create EksCluster#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/eks_cluster#create EksCluster#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/eks_cluster#delete EksCluster#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/eks_cluster#delete EksCluster#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/eks_cluster#update EksCluster#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/eks_cluster#update EksCluster#update}
   */
   readonly update?: string;
 }
@@ -213,7 +213,7 @@ export class EksClusterTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/eks_cluster castai_eks_cluster}
+* Represents a {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/eks_cluster castai_eks_cluster}
 */
 export class EksCluster extends cdktf.TerraformResource {
 
@@ -229,7 +229,7 @@ export class EksCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EksCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EksCluster to import
-  * @param importFromId The id of the existing EksCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/eks_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EksCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/eks_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EksCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -241,7 +241,7 @@ export class EksCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/eks_cluster castai_eks_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/eks_cluster castai_eks_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -252,7 +252,8 @@ export class EksCluster extends cdktf.TerraformResource {
       terraformResourceType: 'castai_eks_cluster',
       terraformGeneratorMetadata: {
         providerName: 'castai',
-        providerVersion: '7.73.1'
+        providerVersion: '8.1.0',
+        providerVersionConstraint: '8.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -357,6 +358,11 @@ export class EksCluster extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get nameInput() {
     return this._name;
+  }
+
+  // organization_id - computed: true, optional: false, required: false
+  public get organizationId() {
+    return this.getStringAttribute('organization_id');
   }
 
   // region - computed: false, optional: false, required: true

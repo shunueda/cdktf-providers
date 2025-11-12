@@ -122,7 +122,8 @@ export class LdapUserAttributeMapper extends cdktf.TerraformResource {
       terraformResourceType: 'keycloak_ldap_user_attribute_mapper',
       terraformGeneratorMetadata: {
         providerName: 'keycloak',
-        providerVersion: '5.5.0'
+        providerVersion: '5.5.0',
+        providerVersionConstraint: '5.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

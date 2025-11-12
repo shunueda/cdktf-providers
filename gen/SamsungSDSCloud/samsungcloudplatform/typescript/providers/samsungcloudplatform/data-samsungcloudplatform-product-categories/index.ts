@@ -402,7 +402,8 @@ export class DataSamsungcloudplatformProductCategories extends cdktf.TerraformDa
       terraformResourceType: 'samsungcloudplatform_product_categories',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0'
+        providerVersion: '3.15.0',
+        providerVersionConstraint: '3.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

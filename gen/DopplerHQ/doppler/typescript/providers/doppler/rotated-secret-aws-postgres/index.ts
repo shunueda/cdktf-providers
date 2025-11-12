@@ -271,7 +271,8 @@ export class RotatedSecretAwsPostgres extends cdktf.TerraformResource {
       terraformResourceType: 'doppler_rotated_secret_aws_postgres',
       terraformGeneratorMetadata: {
         providerName: 'doppler',
-        providerVersion: '1.21.0'
+        providerVersion: '1.21.0',
+        providerVersionConstraint: '1.21.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

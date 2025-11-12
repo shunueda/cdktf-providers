@@ -68,7 +68,8 @@ export class DataKopsKubeConfig extends cdktf.TerraformDataSource {
       terraformResourceType: 'kops_kube_config',
       terraformGeneratorMetadata: {
         providerName: 'kops',
-        providerVersion: '1.25.4'
+        providerVersion: '1.25.4',
+        providerVersionConstraint: '1.25.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

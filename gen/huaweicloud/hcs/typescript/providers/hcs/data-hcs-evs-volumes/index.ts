@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/evs_volumes
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/evs_volumes
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,42 +8,42 @@ import * as cdktf from 'cdktf';
 
 export interface DataHcsEvsVolumesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/evs_volumes#availability_zone DataHcsEvsVolumes#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/evs_volumes#availability_zone DataHcsEvsVolumes#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/evs_volumes#enterprise_project_id DataHcsEvsVolumes#enterprise_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/evs_volumes#enterprise_project_id DataHcsEvsVolumes#enterprise_project_id}
   */
   readonly enterpriseProjectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/evs_volumes#id DataHcsEvsVolumes#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/evs_volumes#id DataHcsEvsVolumes#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/evs_volumes#metadata DataHcsEvsVolumes#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/evs_volumes#metadata DataHcsEvsVolumes#metadata}
   */
   readonly metadata?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/evs_volumes#multiattach DataHcsEvsVolumes#multiattach}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/evs_volumes#multiattach DataHcsEvsVolumes#multiattach}
   */
   readonly multiattach?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/evs_volumes#name DataHcsEvsVolumes#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/evs_volumes#name DataHcsEvsVolumes#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/evs_volumes#region DataHcsEvsVolumes#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/evs_volumes#region DataHcsEvsVolumes#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/evs_volumes#status DataHcsEvsVolumes#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/evs_volumes#status DataHcsEvsVolumes#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/evs_volumes#tags DataHcsEvsVolumes#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/evs_volumes#tags DataHcsEvsVolumes#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -398,7 +398,7 @@ export class DataHcsEvsVolumesVolumesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/evs_volumes hcs_evs_volumes}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/evs_volumes hcs_evs_volumes}
 */
 export class DataHcsEvsVolumes extends cdktf.TerraformDataSource {
 
@@ -414,7 +414,7 @@ export class DataHcsEvsVolumes extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataHcsEvsVolumes resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHcsEvsVolumes to import
-  * @param importFromId The id of the existing DataHcsEvsVolumes that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/evs_volumes#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHcsEvsVolumes that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/evs_volumes#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHcsEvsVolumes to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -426,7 +426,7 @@ export class DataHcsEvsVolumes extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/evs_volumes hcs_evs_volumes} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/evs_volumes hcs_evs_volumes} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -437,7 +437,8 @@ export class DataHcsEvsVolumes extends cdktf.TerraformDataSource {
       terraformResourceType: 'hcs_evs_volumes',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.19'
+        providerVersion: '2.4.20',
+        providerVersionConstraint: '2.4.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

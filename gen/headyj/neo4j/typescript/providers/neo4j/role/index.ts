@@ -60,7 +60,8 @@ export class Role extends cdktf.TerraformResource {
       terraformResourceType: 'neo4j_role',
       terraformGeneratorMetadata: {
         providerName: 'neo4j',
-        providerVersion: '0.3.2'
+        providerVersion: '0.3.2',
+        providerVersionConstraint: '0.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

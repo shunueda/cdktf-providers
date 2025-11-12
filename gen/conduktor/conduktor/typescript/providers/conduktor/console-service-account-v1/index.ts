@@ -984,7 +984,8 @@ export class ConsoleServiceAccountV1 extends cdktf.TerraformResource {
       terraformResourceType: 'conduktor_console_service_account_v1',
       terraformGeneratorMetadata: {
         providerName: 'conduktor',
-        providerVersion: '1.0.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

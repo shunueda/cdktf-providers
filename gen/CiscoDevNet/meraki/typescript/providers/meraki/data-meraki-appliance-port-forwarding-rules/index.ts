@@ -160,7 +160,8 @@ export class DataMerakiAppliancePortForwardingRules extends cdktf.TerraformDataS
       terraformResourceType: 'meraki_appliance_port_forwarding_rules',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1'
+        providerVersion: '1.7.1',
+        providerVersionConstraint: '1.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

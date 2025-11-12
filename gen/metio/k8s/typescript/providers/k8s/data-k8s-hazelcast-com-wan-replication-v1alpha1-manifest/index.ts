@@ -1096,7 +1096,8 @@ export class DataK8SHazelcastComWanReplicationV1Alpha1Manifest extends cdktf.Ter
       terraformResourceType: 'k8s_hazelcast_com_wan_replication_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -419,7 +419,8 @@ export class DataK8SLonghornIoSnapshotV1Beta2Manifest extends cdktf.TerraformDat
       terraformResourceType: 'k8s_longhorn_io_snapshot_v1beta2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

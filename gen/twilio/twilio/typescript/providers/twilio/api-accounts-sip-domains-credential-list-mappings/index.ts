@@ -68,7 +68,8 @@ export class ApiAccountsSipDomainsCredentialListMappings extends cdktf.Terraform
       terraformResourceType: 'twilio_api_accounts_sip_domains_credential_list_mappings',
       terraformGeneratorMetadata: {
         providerName: 'twilio',
-        providerVersion: '0.18.46'
+        providerVersion: '0.18.46',
+        providerVersionConstraint: '0.18.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

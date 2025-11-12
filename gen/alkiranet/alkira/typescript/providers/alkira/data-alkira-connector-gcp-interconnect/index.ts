@@ -62,7 +62,8 @@ export class DataAlkiraConnectorGcpInterconnect extends cdktf.TerraformDataSourc
       terraformResourceType: 'alkira_connector_gcp_interconnect',
       terraformGeneratorMetadata: {
         providerName: 'alkira',
-        providerVersion: '1.3.2'
+        providerVersion: '1.3.2',
+        providerVersionConstraint: '1.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -124,7 +124,8 @@ export class SonarrProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'sonarr',
       terraformGeneratorMetadata: {
         providerName: 'sonarr',
-        providerVersion: '3.4.0'
+        providerVersion: '3.4.0',
+        providerVersionConstraint: '3.4.0'
       },
       terraformProviderSource: 'devopsarr/sonarr'
     });

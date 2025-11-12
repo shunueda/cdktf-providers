@@ -242,7 +242,8 @@ export class DatabaseAutonomousVmClusterSslCertificateManagement extends cdktf.T
       terraformResourceType: 'oci_database_autonomous_vm_cluster_ssl_certificate_management',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

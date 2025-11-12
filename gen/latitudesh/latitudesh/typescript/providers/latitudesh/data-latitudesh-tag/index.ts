@@ -70,7 +70,8 @@ export class DataLatitudeshTag extends cdktf.TerraformDataSource {
       terraformResourceType: 'latitudesh_tag',
       terraformGeneratorMetadata: {
         providerName: 'latitudesh',
-        providerVersion: '2.8.2'
+        providerVersion: '2.8.2',
+        providerVersionConstraint: '2.8.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

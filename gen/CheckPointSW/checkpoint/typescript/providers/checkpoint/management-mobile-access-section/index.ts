@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_access_section
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_access_section
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ManagementMobileAccessSectionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_access_section#id ManagementMobileAccessSection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_access_section#id ManagementMobileAccessSection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,37 +17,37 @@ export interface ManagementMobileAccessSectionConfig extends cdktf.TerraformMeta
   /**
   * Apply changes ignoring errors. You won't be able to publish such a changes. If ignore-warnings flag was omitted - warnings will also be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_access_section#ignore_errors ManagementMobileAccessSection#ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_access_section#ignore_errors ManagementMobileAccessSection#ignore_errors}
   */
   readonly ignoreErrors?: boolean | cdktf.IResolvable;
   /**
   * Apply changes ignoring warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_access_section#ignore_warnings ManagementMobileAccessSection#ignore_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_access_section#ignore_warnings ManagementMobileAccessSection#ignore_warnings}
   */
   readonly ignoreWarnings?: boolean | cdktf.IResolvable;
   /**
   * Object name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_access_section#name ManagementMobileAccessSection#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_access_section#name ManagementMobileAccessSection#name}
   */
   readonly name: string;
   /**
   * Position in the rulebase.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_access_section#position ManagementMobileAccessSection#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_access_section#position ManagementMobileAccessSection#position}
   */
   readonly position: { [key: string]: string };
   /**
   * Collection of tag identifiers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_access_section#tags ManagementMobileAccessSection#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_access_section#tags ManagementMobileAccessSection#tags}
   */
   readonly tags?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_access_section checkpoint_management_mobile_access_section}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_access_section checkpoint_management_mobile_access_section}
 */
 export class ManagementMobileAccessSection extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class ManagementMobileAccessSection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementMobileAccessSection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementMobileAccessSection to import
-  * @param importFromId The id of the existing ManagementMobileAccessSection that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_access_section#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementMobileAccessSection that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_access_section#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementMobileAccessSection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class ManagementMobileAccessSection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_access_section checkpoint_management_mobile_access_section} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_access_section checkpoint_management_mobile_access_section} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,7 +86,8 @@ export class ManagementMobileAccessSection extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_mobile_access_section',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1281,7 +1281,8 @@ export class DataCriblioInstanceSettings extends cdktf.TerraformDataSource {
       terraformResourceType: 'criblio_instance_settings',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.18.21'
+        providerVersion: '1.18.21',
+        providerVersionConstraint: '1.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

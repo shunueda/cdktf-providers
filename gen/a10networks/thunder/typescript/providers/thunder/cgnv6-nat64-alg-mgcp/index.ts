@@ -68,7 +68,8 @@ export class Cgnv6Nat64AlgMgcp extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_cgnv6_nat64_alg_mgcp',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

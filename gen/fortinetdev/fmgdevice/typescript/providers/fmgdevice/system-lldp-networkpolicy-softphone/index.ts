@@ -88,7 +88,8 @@ export class SystemLldpNetworkpolicySoftphoneA extends cdktf.TerraformResource {
       terraformResourceType: 'fmgdevice_system_lldp_networkpolicy_softphone',
       terraformGeneratorMetadata: {
         providerName: 'fmgdevice',
-        providerVersion: '1.2.1'
+        providerVersion: '1.2.1',
+        providerVersionConstraint: '1.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -168,7 +168,8 @@ export class DataAlicloudAlikafkaConsumerGroups extends cdktf.TerraformDataSourc
       terraformResourceType: 'alicloud_alikafka_consumer_groups',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

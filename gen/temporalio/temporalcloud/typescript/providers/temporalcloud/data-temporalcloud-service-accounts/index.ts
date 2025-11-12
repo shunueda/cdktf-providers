@@ -283,7 +283,8 @@ export class DataTemporalcloudServiceAccounts extends cdktf.TerraformDataSource 
       terraformResourceType: 'temporalcloud_service_accounts',
       terraformGeneratorMetadata: {
         providerName: 'temporalcloud',
-        providerVersion: '1.1.1'
+        providerVersion: '1.1.1',
+        providerVersionConstraint: '1.1.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

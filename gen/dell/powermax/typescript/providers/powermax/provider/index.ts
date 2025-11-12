@@ -91,7 +91,8 @@ export class PowermaxProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'powermax',
       terraformGeneratorMetadata: {
         providerName: 'powermax',
-        providerVersion: '1.0.3'
+        providerVersion: '1.0.3',
+        providerVersionConstraint: '1.0.3'
       },
       terraformProviderSource: 'dell/powermax'
     });

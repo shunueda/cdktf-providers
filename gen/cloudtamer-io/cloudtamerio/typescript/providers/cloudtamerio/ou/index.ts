@@ -326,7 +326,8 @@ export class Ou extends cdktf.TerraformResource {
       terraformResourceType: 'cloudtamerio_ou',
       terraformGeneratorMetadata: {
         providerName: 'cloudtamerio',
-        providerVersion: '0.2.0'
+        providerVersion: '0.2.0',
+        providerVersionConstraint: '0.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -70,7 +70,8 @@ export class DataMimirAlertmanagerConfig extends cdktf.TerraformDataSource {
       terraformResourceType: 'mimir_alertmanager_config',
       terraformGeneratorMetadata: {
         providerName: 'mimir',
-        providerVersion: '1.0.9'
+        providerVersion: '1.0.9',
+        providerVersionConstraint: '1.0.9'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

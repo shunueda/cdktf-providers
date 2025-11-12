@@ -317,7 +317,8 @@ export class DataOktapamDatabasePasswordSettings extends cdktf.TerraformDataSour
       terraformResourceType: 'oktapam_database_password_settings',
       terraformGeneratorMetadata: {
         providerName: 'oktapam',
-        providerVersion: '0.6.2'
+        providerVersion: '0.6.2',
+        providerVersionConstraint: '0.6.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

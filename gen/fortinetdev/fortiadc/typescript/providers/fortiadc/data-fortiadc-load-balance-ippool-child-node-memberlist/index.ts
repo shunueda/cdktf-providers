@@ -68,7 +68,8 @@ export class DataFortiadcLoadBalanceIppoolChildNodeMemberlist extends cdktf.Terr
       terraformResourceType: 'fortiadc_load_balance_ippool_child_node_memberlist',
       terraformGeneratorMetadata: {
         providerName: 'fortiadc',
-        providerVersion: '1.3.1'
+        providerVersion: '1.3.1',
+        providerVersionConstraint: '1.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

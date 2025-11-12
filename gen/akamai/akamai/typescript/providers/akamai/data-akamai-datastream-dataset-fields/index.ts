@@ -157,7 +157,8 @@ export class DataAkamaiDatastreamDatasetFields extends cdktf.TerraformDataSource
       terraformResourceType: 'akamai_datastream_dataset_fields',
       terraformGeneratorMetadata: {
         providerName: 'akamai',
-        providerVersion: '9.1.0'
+        providerVersion: '9.1.0',
+        providerVersionConstraint: '9.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

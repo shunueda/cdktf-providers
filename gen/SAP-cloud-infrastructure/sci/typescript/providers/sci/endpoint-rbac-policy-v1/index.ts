@@ -76,7 +76,8 @@ export class EndpointRbacPolicyV1 extends cdktf.TerraformResource {
       terraformResourceType: 'sci_endpoint_rbac_policy_v1',
       terraformGeneratorMetadata: {
         providerName: 'sci',
-        providerVersion: '2.2.1'
+        providerVersion: '2.2.1',
+        providerVersionConstraint: '2.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -189,7 +189,8 @@ export class DataJupiteroneJ1QlResult extends cdktf.TerraformDataSource {
       terraformResourceType: 'jupiterone_j1ql_result',
       terraformGeneratorMetadata: {
         providerName: 'jupiterone',
-        providerVersion: '1.16.3'
+        providerVersion: '1.16.3',
+        providerVersionConstraint: '1.16.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/edge_cluster
+// https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/edge_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface EdgeClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * Administrator password for the NSX manager
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/edge_cluster#admin_password EdgeCluster#admin_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/edge_cluster#admin_password EdgeCluster#admin_password}
   */
   readonly adminPassword: string;
   /**
   * ASN for the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/edge_cluster#asn EdgeCluster#asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/edge_cluster#asn EdgeCluster#asn}
   */
   readonly asn?: string;
   /**
   * Audit user password for the NSX manager
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/edge_cluster#audit_password EdgeCluster#audit_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/edge_cluster#audit_password EdgeCluster#audit_password}
   */
   readonly auditPassword: string;
   /**
   * One among: XLARGE, LARGE, MEDIUM, SMALL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/edge_cluster#form_factor EdgeCluster#form_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/edge_cluster#form_factor EdgeCluster#form_factor}
   */
   readonly formFactor: string;
   /**
   * One among: ACTIVE_ACTIVE, ACTIVE_STANDBY
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/edge_cluster#high_availability EdgeCluster#high_availability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/edge_cluster#high_availability EdgeCluster#high_availability}
   */
-  readonly highAvailability?: string;
+  readonly highAvailability: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/edge_cluster#id EdgeCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/edge_cluster#id EdgeCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,85 +47,85 @@ export interface EdgeClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * Subnet addresses in CIDR notation that are used to assign addresses to logical links connecting service routers and distributed routers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/edge_cluster#internal_transit_subnets EdgeCluster#internal_transit_subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/edge_cluster#internal_transit_subnets EdgeCluster#internal_transit_subnets}
   */
   readonly internalTransitSubnets?: string[];
   /**
   * Maximum transmission unit size for the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/edge_cluster#mtu EdgeCluster#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/edge_cluster#mtu EdgeCluster#mtu}
   */
   readonly mtu: number;
   /**
   * The name of the edge cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/edge_cluster#name EdgeCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/edge_cluster#name EdgeCluster#name}
   */
   readonly name: string;
   /**
   * One among: DEFAULT, CUSTOM. If set to CUSTOM a 'profile' must be provided
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/edge_cluster#profile_type EdgeCluster#profile_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/edge_cluster#profile_type EdgeCluster#profile_type}
   */
   readonly profileType: string;
   /**
   * Root user password for the NSX manager
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/edge_cluster#root_password EdgeCluster#root_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/edge_cluster#root_password EdgeCluster#root_password}
   */
   readonly rootPassword: string;
   /**
   * One among: EBGP, STATIC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/edge_cluster#routing_type EdgeCluster#routing_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/edge_cluster#routing_type EdgeCluster#routing_type}
   */
   readonly routingType?: string;
   /**
   * Set to true to bypass normal ICMP-based check of Edge TEP / host TEP routability (default is false, meaning do check)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/edge_cluster#skip_tep_routability_check EdgeCluster#skip_tep_routability_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/edge_cluster#skip_tep_routability_check EdgeCluster#skip_tep_routability_check}
   */
   readonly skipTepRoutabilityCheck?: boolean | cdktf.IResolvable;
   /**
   * Name for the Tier-0 gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/edge_cluster#tier0_name EdgeCluster#tier0_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/edge_cluster#tier0_name EdgeCluster#tier0_name}
   */
   readonly tier0Name?: string;
   /**
   * Name for the Tier-1 gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/edge_cluster#tier1_name EdgeCluster#tier1_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/edge_cluster#tier1_name EdgeCluster#tier1_name}
   */
   readonly tier1Name?: string;
   /**
   * Select whether Tier-1 being created per this spec is hosted on the new Edge cluster or not (default value is false, meaning hosted)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/edge_cluster#tier1_unhosted EdgeCluster#tier1_unhosted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/edge_cluster#tier1_unhosted EdgeCluster#tier1_unhosted}
   */
   readonly tier1Unhosted?: boolean | cdktf.IResolvable;
   /**
   * Transit subnet addresses in CIDR notation that are used to assign addresses to logical links connecting Tier-0 and Tier-1s
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/edge_cluster#transit_subnets EdgeCluster#transit_subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/edge_cluster#transit_subnets EdgeCluster#transit_subnets}
   */
   readonly transitSubnets?: string[];
   /**
   * edge_node block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/edge_cluster#edge_node EdgeCluster#edge_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/edge_cluster#edge_node EdgeCluster#edge_node}
   */
   readonly edgeNode: EdgeClusterEdgeNode[] | cdktf.IResolvable;
   /**
   * profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/edge_cluster#profile EdgeCluster#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/edge_cluster#profile EdgeCluster#profile}
   */
   readonly profile?: EdgeClusterProfile;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/edge_cluster#timeouts EdgeCluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/edge_cluster#timeouts EdgeCluster#timeouts}
   */
   readonly timeouts?: EdgeClusterTimeouts;
 }
@@ -133,13 +133,13 @@ export interface EdgeClusterEdgeNodeManagementNetwork {
   /**
   * The name of the portgroup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/edge_cluster#portgroup_name EdgeCluster#portgroup_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/edge_cluster#portgroup_name EdgeCluster#portgroup_name}
   */
   readonly portgroupName: string;
   /**
   * The VLAN ID for the portgroup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/edge_cluster#vlan_id EdgeCluster#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/edge_cluster#vlan_id EdgeCluster#vlan_id}
   */
   readonly vlanId: number;
 }
@@ -248,19 +248,19 @@ export interface EdgeClusterEdgeNodeUplinkBgpPeer {
   /**
   * ASN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/edge_cluster#asn EdgeCluster#asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/edge_cluster#asn EdgeCluster#asn}
   */
   readonly asn: string;
   /**
   * IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/edge_cluster#ip EdgeCluster#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/edge_cluster#ip EdgeCluster#ip}
   */
   readonly ip: string;
   /**
   * Password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/edge_cluster#password EdgeCluster#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/edge_cluster#password EdgeCluster#password}
   */
   readonly password: string;
 }
@@ -427,19 +427,19 @@ export interface EdgeClusterEdgeNodeUplink {
   /**
   * The IP address (CIDR) for the distributed switch uplink
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/edge_cluster#interface_ip EdgeCluster#interface_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/edge_cluster#interface_ip EdgeCluster#interface_ip}
   */
   readonly interfaceIp: string;
   /**
   * The VLAN ID for the distributed switch uplink
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/edge_cluster#vlan EdgeCluster#vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/edge_cluster#vlan EdgeCluster#vlan}
   */
   readonly vlan: number;
   /**
   * bgp_peer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/edge_cluster#bgp_peer EdgeCluster#bgp_peer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/edge_cluster#bgp_peer EdgeCluster#bgp_peer}
   */
   readonly bgpPeer: EdgeClusterEdgeNodeUplinkBgpPeer[] | cdktf.IResolvable;
 }
@@ -606,103 +606,103 @@ export interface EdgeClusterEdgeNode {
   /**
   * The administrator password for the edge node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/edge_cluster#admin_password EdgeCluster#admin_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/edge_cluster#admin_password EdgeCluster#admin_password}
   */
   readonly adminPassword: string;
   /**
   * The audit password for the edge node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/edge_cluster#audit_password EdgeCluster#audit_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/edge_cluster#audit_password EdgeCluster#audit_password}
   */
   readonly auditPassword: string;
   /**
   * The id of the compute cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/edge_cluster#compute_cluster_id EdgeCluster#compute_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/edge_cluster#compute_cluster_id EdgeCluster#compute_cluster_id}
   */
   readonly computeClusterId?: string;
   /**
   * The name of the compute cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/edge_cluster#compute_cluster_name EdgeCluster#compute_cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/edge_cluster#compute_cluster_name EdgeCluster#compute_cluster_name}
   */
   readonly computeClusterName?: string;
   /**
   * The name of the first NSX-enabled VDS uplink
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/edge_cluster#first_nsx_vds_uplink EdgeCluster#first_nsx_vds_uplink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/edge_cluster#first_nsx_vds_uplink EdgeCluster#first_nsx_vds_uplink}
   */
   readonly firstNsxVdsUplink?: string;
   /**
   * Whether or not this is an inter-rack cluster. True for L2 non-uniform and L3, false for L2 uniform
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/edge_cluster#inter_rack_cluster EdgeCluster#inter_rack_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/edge_cluster#inter_rack_cluster EdgeCluster#inter_rack_cluster}
   */
   readonly interRackCluster: boolean | cdktf.IResolvable;
   /**
   * The gateway address for the management network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/edge_cluster#management_gateway EdgeCluster#management_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/edge_cluster#management_gateway EdgeCluster#management_gateway}
   */
   readonly managementGateway: string;
   /**
   * The IP address (CIDR) for the management network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/edge_cluster#management_ip EdgeCluster#management_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/edge_cluster#management_ip EdgeCluster#management_ip}
   */
   readonly managementIp: string;
   /**
   * The name of the edge node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/edge_cluster#name EdgeCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/edge_cluster#name EdgeCluster#name}
   */
   readonly name: string;
   /**
   * The root user password for the edge node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/edge_cluster#root_password EdgeCluster#root_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/edge_cluster#root_password EdgeCluster#root_password}
   */
   readonly rootPassword: string;
   /**
   * The name of the second NSX-enabled VDS uplink
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/edge_cluster#second_nsx_vds_uplink EdgeCluster#second_nsx_vds_uplink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/edge_cluster#second_nsx_vds_uplink EdgeCluster#second_nsx_vds_uplink}
   */
   readonly secondNsxVdsUplink?: string;
   /**
   * The IP address (CIDR) of the first tunnel endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/edge_cluster#tep1_ip EdgeCluster#tep1_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/edge_cluster#tep1_ip EdgeCluster#tep1_ip}
   */
   readonly tep1Ip: string;
   /**
   * The IP address (CIDR) of the second tunnel endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/edge_cluster#tep2_ip EdgeCluster#tep2_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/edge_cluster#tep2_ip EdgeCluster#tep2_ip}
   */
   readonly tep2Ip: string;
   /**
   * The gateway for the tunnel endpoints
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/edge_cluster#tep_gateway EdgeCluster#tep_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/edge_cluster#tep_gateway EdgeCluster#tep_gateway}
   */
   readonly tepGateway: string;
   /**
   * The VLAN ID for the tunnel endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/edge_cluster#tep_vlan EdgeCluster#tep_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/edge_cluster#tep_vlan EdgeCluster#tep_vlan}
   */
   readonly tepVlan: number;
   /**
   * management_network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/edge_cluster#management_network EdgeCluster#management_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/edge_cluster#management_network EdgeCluster#management_network}
   */
   readonly managementNetwork?: EdgeClusterEdgeNodeManagementNetwork;
   /**
   * uplink block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/edge_cluster#uplink EdgeCluster#uplink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/edge_cluster#uplink EdgeCluster#uplink}
   */
   readonly uplink?: EdgeClusterEdgeNodeUplink[] | cdktf.IResolvable;
 }
@@ -1251,31 +1251,31 @@ export interface EdgeClusterProfile {
   /**
   * BFD allowed hop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/edge_cluster#bfd_allowed_hop EdgeCluster#bfd_allowed_hop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/edge_cluster#bfd_allowed_hop EdgeCluster#bfd_allowed_hop}
   */
   readonly bfdAllowedHop: number;
   /**
   * BFD declare dead multiple
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/edge_cluster#bfd_declare_dead_multiple EdgeCluster#bfd_declare_dead_multiple}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/edge_cluster#bfd_declare_dead_multiple EdgeCluster#bfd_declare_dead_multiple}
   */
   readonly bfdDeclareDeadMultiple: number;
   /**
   * BFD probe interval
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/edge_cluster#bfd_probe_interval EdgeCluster#bfd_probe_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/edge_cluster#bfd_probe_interval EdgeCluster#bfd_probe_interval}
   */
   readonly bfdProbeInterval: number;
   /**
   * The name of the profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/edge_cluster#name EdgeCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/edge_cluster#name EdgeCluster#name}
   */
   readonly name: string;
   /**
   * Standby relocation threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/edge_cluster#standby_relocation_threshold EdgeCluster#standby_relocation_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/edge_cluster#standby_relocation_threshold EdgeCluster#standby_relocation_threshold}
   */
   readonly standbyRelocationThreshold: number;
 }
@@ -1460,11 +1460,11 @@ export class EdgeClusterProfileOutputReference extends cdktf.ComplexObject {
 }
 export interface EdgeClusterTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/edge_cluster#create EdgeCluster#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/edge_cluster#create EdgeCluster#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/edge_cluster#update EdgeCluster#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/edge_cluster#update EdgeCluster#update}
   */
   readonly update?: string;
 }
@@ -1587,7 +1587,7 @@ export class EdgeClusterTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/edge_cluster vcf_edge_cluster}
+* Represents a {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/edge_cluster vcf_edge_cluster}
 */
 export class EdgeCluster extends cdktf.TerraformResource {
 
@@ -1603,7 +1603,7 @@ export class EdgeCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EdgeCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EdgeCluster to import
-  * @param importFromId The id of the existing EdgeCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/edge_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EdgeCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/edge_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EdgeCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1615,7 +1615,7 @@ export class EdgeCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/edge_cluster vcf_edge_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/edge_cluster vcf_edge_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1626,7 +1626,8 @@ export class EdgeCluster extends cdktf.TerraformResource {
       terraformResourceType: 'vcf_edge_cluster',
       terraformGeneratorMetadata: {
         providerName: 'vcf',
-        providerVersion: '0.17.1'
+        providerVersion: '0.16.2',
+        providerVersionConstraint: '0.16.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1717,16 +1718,13 @@ export class EdgeCluster extends cdktf.TerraformResource {
     return this._formFactor;
   }
 
-  // high_availability - computed: false, optional: true, required: false
+  // high_availability - computed: false, optional: false, required: true
   private _highAvailability?: string; 
   public get highAvailability() {
     return this.getStringAttribute('high_availability');
   }
   public set highAvailability(value: string) {
     this._highAvailability = value;
-  }
-  public resetHighAvailability() {
-    this._highAvailability = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get highAvailabilityInput() {

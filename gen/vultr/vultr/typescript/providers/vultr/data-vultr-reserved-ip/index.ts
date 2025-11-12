@@ -205,7 +205,8 @@ export class DataVultrReservedIp extends cdktf.TerraformDataSource {
       terraformResourceType: 'vultr_reserved_ip',
       terraformGeneratorMetadata: {
         providerName: 'vultr',
-        providerVersion: '2.27.1'
+        providerVersion: '2.27.1',
+        providerVersionConstraint: '2.27.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

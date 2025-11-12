@@ -67,7 +67,8 @@ export class AbbeyProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'abbey',
       terraformGeneratorMetadata: {
         providerName: 'abbey',
-        providerVersion: '0.2.9'
+        providerVersion: '0.2.9',
+        providerVersionConstraint: '0.2.9'
       },
       terraformProviderSource: 'abbeylabs/abbey'
     });

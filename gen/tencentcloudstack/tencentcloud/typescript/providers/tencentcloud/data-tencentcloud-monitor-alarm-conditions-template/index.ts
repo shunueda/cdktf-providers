@@ -742,7 +742,8 @@ export class DataTencentcloudMonitorAlarmConditionsTemplate extends cdktf.Terraf
       terraformResourceType: 'tencentcloud_monitor_alarm_conditions_template',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

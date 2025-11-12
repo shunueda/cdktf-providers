@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationcaptchaaction
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationcaptchaaction
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,36 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface AuthenticationcaptchaactionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationcaptchaaction#defaultauthenticationgroup Authenticationcaptchaaction#defaultauthenticationgroup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationcaptchaaction#defaultauthenticationgroup Authenticationcaptchaaction#defaultauthenticationgroup}
   */
   readonly defaultauthenticationgroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationcaptchaaction#id Authenticationcaptchaaction#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationcaptchaaction#id Authenticationcaptchaaction#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationcaptchaaction#name Authenticationcaptchaaction#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationcaptchaaction#name Authenticationcaptchaaction#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationcaptchaaction#secretkey Authenticationcaptchaaction#secretkey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationcaptchaaction#scorethreshold Authenticationcaptchaaction#scorethreshold}
+  */
+  readonly scorethreshold?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationcaptchaaction#secretkey Authenticationcaptchaaction#secretkey}
   */
   readonly secretkey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationcaptchaaction#serverurl Authenticationcaptchaaction#serverurl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationcaptchaaction#serverurl Authenticationcaptchaaction#serverurl}
   */
   readonly serverurl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationcaptchaaction#sitekey Authenticationcaptchaaction#sitekey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationcaptchaaction#sitekey Authenticationcaptchaaction#sitekey}
   */
   readonly sitekey: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationcaptchaaction citrixadc_authenticationcaptchaaction}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationcaptchaaction citrixadc_authenticationcaptchaaction}
 */
 export class Authenticationcaptchaaction extends cdktf.TerraformResource {
 
@@ -53,7 +57,7 @@ export class Authenticationcaptchaaction extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Authenticationcaptchaaction resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Authenticationcaptchaaction to import
-  * @param importFromId The id of the existing Authenticationcaptchaaction that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationcaptchaaction#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Authenticationcaptchaaction that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationcaptchaaction#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Authenticationcaptchaaction to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -65,7 +69,7 @@ export class Authenticationcaptchaaction extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationcaptchaaction citrixadc_authenticationcaptchaaction} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationcaptchaaction citrixadc_authenticationcaptchaaction} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -76,7 +80,8 @@ export class Authenticationcaptchaaction extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_authenticationcaptchaaction',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -89,6 +94,7 @@ export class Authenticationcaptchaaction extends cdktf.TerraformResource {
     this._defaultauthenticationgroup = config.defaultauthenticationgroup;
     this._id = config.id;
     this._name = config.name;
+    this._scorethreshold = config.scorethreshold;
     this._secretkey = config.secretkey;
     this._serverurl = config.serverurl;
     this._sitekey = config.sitekey;
@@ -143,6 +149,22 @@ export class Authenticationcaptchaaction extends cdktf.TerraformResource {
     return this._name;
   }
 
+  // scorethreshold - computed: true, optional: true, required: false
+  private _scorethreshold?: number; 
+  public get scorethreshold() {
+    return this.getNumberAttribute('scorethreshold');
+  }
+  public set scorethreshold(value: number) {
+    this._scorethreshold = value;
+  }
+  public resetScorethreshold() {
+    this._scorethreshold = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get scorethresholdInput() {
+    return this._scorethreshold;
+  }
+
   // secretkey - computed: false, optional: false, required: true
   private _secretkey?: string; 
   public get secretkey() {
@@ -194,6 +216,7 @@ export class Authenticationcaptchaaction extends cdktf.TerraformResource {
       defaultauthenticationgroup: cdktf.stringToTerraform(this._defaultauthenticationgroup),
       id: cdktf.stringToTerraform(this._id),
       name: cdktf.stringToTerraform(this._name),
+      scorethreshold: cdktf.numberToTerraform(this._scorethreshold),
       secretkey: cdktf.stringToTerraform(this._secretkey),
       serverurl: cdktf.stringToTerraform(this._serverurl),
       sitekey: cdktf.stringToTerraform(this._sitekey),
@@ -219,6 +242,12 @@ export class Authenticationcaptchaaction extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      scorethreshold: {
+        value: cdktf.numberToHclTerraform(this._scorethreshold),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
       },
       secretkey: {
         value: cdktf.stringToHclTerraform(this._secretkey),

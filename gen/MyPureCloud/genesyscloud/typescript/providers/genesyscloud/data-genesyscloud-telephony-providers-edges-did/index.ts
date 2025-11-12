@@ -62,7 +62,8 @@ export class DataGenesyscloudTelephonyProvidersEdgesDid extends cdktf.TerraformD
       terraformResourceType: 'genesyscloud_telephony_providers_edges_did',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.70.0'
+        providerVersion: '1.70.0',
+        providerVersionConstraint: '1.70.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

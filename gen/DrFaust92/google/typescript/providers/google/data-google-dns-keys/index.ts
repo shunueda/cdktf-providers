@@ -461,7 +461,8 @@ export class DataGoogleDnsKeys extends cdktf.TerraformDataSource {
       terraformResourceType: 'google_dns_keys',
       terraformGeneratorMetadata: {
         providerName: 'google',
-        providerVersion: '4.16.4'
+        providerVersion: '4.16.4',
+        providerVersionConstraint: '4.16.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

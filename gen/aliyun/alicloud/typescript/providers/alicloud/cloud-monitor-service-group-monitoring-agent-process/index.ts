@@ -1010,7 +1010,8 @@ export class CloudMonitorServiceGroupMonitoringAgentProcess extends cdktf.Terraf
       terraformResourceType: 'alicloud_cloud_monitor_service_group_monitoring_agent_process',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

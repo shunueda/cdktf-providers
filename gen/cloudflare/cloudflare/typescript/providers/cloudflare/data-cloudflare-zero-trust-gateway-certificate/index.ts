@@ -59,7 +59,8 @@ export class DataCloudflareZeroTrustGatewayCertificate extends cdktf.TerraformDa
       terraformResourceType: 'cloudflare_zero_trust_gateway_certificate',
       terraformGeneratorMetadata: {
         providerName: 'cloudflare',
-        providerVersion: '5.12.0'
+        providerVersion: '5.12.0',
+        providerVersionConstraint: '5.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

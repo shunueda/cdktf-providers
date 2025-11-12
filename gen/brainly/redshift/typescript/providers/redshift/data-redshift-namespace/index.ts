@@ -56,7 +56,8 @@ export class DataRedshiftNamespace extends cdktf.TerraformDataSource {
       terraformResourceType: 'redshift_namespace',
       terraformGeneratorMetadata: {
         providerName: 'redshift',
-        providerVersion: '1.1.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

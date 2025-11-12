@@ -250,7 +250,8 @@ export class EsaRatePlanInstance extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_esa_rate_plan_instance',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

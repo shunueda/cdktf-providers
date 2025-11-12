@@ -72,7 +72,8 @@ export class SystemLogRatelimitDeviceA extends cdktf.TerraformResource {
       terraformResourceType: 'fortianalyzer_system_log_ratelimit_device',
       terraformGeneratorMetadata: {
         providerName: 'fortianalyzer',
-        providerVersion: '1.5.1'
+        providerVersion: '1.5.1',
+        providerVersionConstraint: '1.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

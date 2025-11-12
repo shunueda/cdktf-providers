@@ -61,7 +61,8 @@ export class Query extends cdktf.TerraformResource {
       terraformResourceType: 'honeycombio_query',
       terraformGeneratorMetadata: {
         providerName: 'honeycombio',
-        providerVersion: '0.42.0'
+        providerVersion: '0.42.0',
+        providerVersionConstraint: '0.42.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

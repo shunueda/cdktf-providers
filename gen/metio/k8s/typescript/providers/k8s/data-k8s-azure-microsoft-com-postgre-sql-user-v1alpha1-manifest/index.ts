@@ -573,7 +573,8 @@ export class DataK8SAzureMicrosoftComPostgreSqlUserV1Alpha1Manifest extends cdkt
       terraformResourceType: 'k8s_azure_microsoft_com_postgre_sql_user_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

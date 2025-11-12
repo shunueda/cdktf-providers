@@ -85,7 +85,8 @@ export class DrpProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'drp',
       terraformGeneratorMetadata: {
         providerName: 'drp',
-        providerVersion: '2.3.2'
+        providerVersion: '2.3.2',
+        providerVersionConstraint: '2.3.2'
       },
       terraformProviderSource: 'rackn/drp'
     });

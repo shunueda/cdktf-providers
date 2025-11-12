@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription_regions
+// https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription_regions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ActiveActiveSubscriptionRegionsConfig extends cdktf.TerraformMe
   /**
   * Delete regions flag has to be set for re-creating and deleting regions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription_regions#delete_regions ActiveActiveSubscriptionRegions#delete_regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription_regions#delete_regions ActiveActiveSubscriptionRegions#delete_regions}
   */
   readonly deleteRegions?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription_regions#id ActiveActiveSubscriptionRegions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription_regions#id ActiveActiveSubscriptionRegions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface ActiveActiveSubscriptionRegionsConfig extends cdktf.TerraformMe
   /**
   * ID of the subscription that the regions belong to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription_regions#subscription_id ActiveActiveSubscriptionRegions#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription_regions#subscription_id ActiveActiveSubscriptionRegions#subscription_id}
   */
   readonly subscriptionId: string;
   /**
   * region block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription_regions#region ActiveActiveSubscriptionRegions#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription_regions#region ActiveActiveSubscriptionRegions#region}
   */
   readonly region: ActiveActiveSubscriptionRegionsRegion[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription_regions#timeouts ActiveActiveSubscriptionRegions#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription_regions#timeouts ActiveActiveSubscriptionRegions#timeouts}
   */
   readonly timeouts?: ActiveActiveSubscriptionRegionsTimeouts;
 }
@@ -43,25 +43,25 @@ export interface ActiveActiveSubscriptionRegionsRegionDatabase {
   /**
   * A numeric id for the database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription_regions#database_id ActiveActiveSubscriptionRegions#database_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription_regions#database_id ActiveActiveSubscriptionRegions#database_id}
   */
   readonly databaseId: number;
   /**
   * A meaningful name to identify the database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription_regions#database_name ActiveActiveSubscriptionRegions#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription_regions#database_name ActiveActiveSubscriptionRegions#database_name}
   */
   readonly databaseName: string;
   /**
   * Write operations per second for creation plan databases
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription_regions#local_read_operations_per_second ActiveActiveSubscriptionRegions#local_read_operations_per_second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription_regions#local_read_operations_per_second ActiveActiveSubscriptionRegions#local_read_operations_per_second}
   */
   readonly localReadOperationsPerSecond: number;
   /**
   * Write operations per second for creation plan databases
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription_regions#local_write_operations_per_second ActiveActiveSubscriptionRegions#local_write_operations_per_second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription_regions#local_write_operations_per_second ActiveActiveSubscriptionRegions#local_write_operations_per_second}
   */
   readonly localWriteOperationsPerSecond: number;
 }
@@ -254,31 +254,31 @@ export interface ActiveActiveSubscriptionRegionsRegion {
   /**
   * The initial RESP version for all databases provisioned under this region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription_regions#local_resp_version ActiveActiveSubscriptionRegions#local_resp_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription_regions#local_resp_version ActiveActiveSubscriptionRegions#local_resp_version}
   */
   readonly localRespVersion?: string;
   /**
   * Deployment CIDR mask
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription_regions#networking_deployment_cidr ActiveActiveSubscriptionRegions#networking_deployment_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription_regions#networking_deployment_cidr ActiveActiveSubscriptionRegions#networking_deployment_cidr}
   */
   readonly networkingDeploymentCidr: string;
   /**
   * Defines whether the regions should be re-created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription_regions#recreate_region ActiveActiveSubscriptionRegions#recreate_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription_regions#recreate_region ActiveActiveSubscriptionRegions#recreate_region}
   */
   readonly recreateRegion?: boolean | cdktf.IResolvable;
   /**
   * Deployment region as defined by cloud provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription_regions#region ActiveActiveSubscriptionRegions#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription_regions#region ActiveActiveSubscriptionRegions#region}
   */
   readonly region: string;
   /**
   * database block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription_regions#database ActiveActiveSubscriptionRegions#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription_regions#database ActiveActiveSubscriptionRegions#database}
   */
   readonly database: ActiveActiveSubscriptionRegionsRegionDatabase[] | cdktf.IResolvable;
 }
@@ -511,19 +511,19 @@ export class ActiveActiveSubscriptionRegionsRegionList extends cdktf.ComplexList
 }
 export interface ActiveActiveSubscriptionRegionsTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription_regions#create ActiveActiveSubscriptionRegions#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription_regions#create ActiveActiveSubscriptionRegions#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription_regions#delete ActiveActiveSubscriptionRegions#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription_regions#delete ActiveActiveSubscriptionRegions#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription_regions#read ActiveActiveSubscriptionRegions#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription_regions#read ActiveActiveSubscriptionRegions#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription_regions#update ActiveActiveSubscriptionRegions#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription_regions#update ActiveActiveSubscriptionRegions#update}
   */
   readonly update?: string;
 }
@@ -704,7 +704,7 @@ export class ActiveActiveSubscriptionRegionsTimeoutsOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription_regions rediscloud_active_active_subscription_regions}
+* Represents a {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription_regions rediscloud_active_active_subscription_regions}
 */
 export class ActiveActiveSubscriptionRegions extends cdktf.TerraformResource {
 
@@ -720,7 +720,7 @@ export class ActiveActiveSubscriptionRegions extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ActiveActiveSubscriptionRegions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ActiveActiveSubscriptionRegions to import
-  * @param importFromId The id of the existing ActiveActiveSubscriptionRegions that should be imported. Refer to the {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription_regions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ActiveActiveSubscriptionRegions that should be imported. Refer to the {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription_regions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ActiveActiveSubscriptionRegions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -732,7 +732,7 @@ export class ActiveActiveSubscriptionRegions extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription_regions rediscloud_active_active_subscription_regions} Resource
+  * Create a new {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription_regions rediscloud_active_active_subscription_regions} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -743,7 +743,8 @@ export class ActiveActiveSubscriptionRegions extends cdktf.TerraformResource {
       terraformResourceType: 'rediscloud_active_active_subscription_regions',
       terraformGeneratorMetadata: {
         providerName: 'rediscloud',
-        providerVersion: '2.7.3'
+        providerVersion: '2.8.0',
+        providerVersionConstraint: '2.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

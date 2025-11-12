@@ -7058,7 +7058,8 @@ export class DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta1Manifest extends cdktf.
       terraformResourceType: 'k8s_helm_toolkit_fluxcd_io_helm_release_v2beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

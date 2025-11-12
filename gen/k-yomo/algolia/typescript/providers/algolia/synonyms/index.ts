@@ -425,7 +425,8 @@ export class Synonyms extends cdktf.TerraformResource {
       terraformResourceType: 'algolia_synonyms',
       terraformGeneratorMetadata: {
         providerName: 'algolia',
-        providerVersion: '0.6.2'
+        providerVersion: '0.6.2',
+        providerVersionConstraint: '0.6.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

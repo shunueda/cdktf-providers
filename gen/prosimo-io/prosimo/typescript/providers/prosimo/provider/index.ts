@@ -73,7 +73,8 @@ export class ProsimoProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'prosimo',
       terraformGeneratorMetadata: {
         providerName: 'prosimo',
-        providerVersion: '4.5.3'
+        providerVersion: '4.5.3',
+        providerVersionConstraint: '4.5.3'
       },
       terraformProviderSource: 'prosimo-io/prosimo'
     });

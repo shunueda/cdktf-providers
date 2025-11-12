@@ -220,7 +220,8 @@ export class EjbcaProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'ejbca',
       terraformGeneratorMetadata: {
         providerName: 'ejbca',
-        providerVersion: '1.1.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       terraformProviderSource: 'keyfactor-pub/ejbca'
     });

@@ -580,7 +580,8 @@ export class DataOciLogAnalyticsNamespaceTemplates extends cdktf.TerraformDataSo
       terraformResourceType: 'oci_log_analytics_namespace_templates',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

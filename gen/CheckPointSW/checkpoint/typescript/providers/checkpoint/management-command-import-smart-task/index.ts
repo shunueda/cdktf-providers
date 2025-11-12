@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_import_smart_task
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_import_smart_task
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ManagementCommandImportSmartTaskConfig extends cdktf.TerraformM
   /**
   * Path to the SmartTask file to be imported. <br>Should be the full file path (example, "/home/admin/exported-smart-task.txt").
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_import_smart_task#file_path ManagementCommandImportSmartTask#file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_import_smart_task#file_path ManagementCommandImportSmartTask#file_path}
   */
   readonly filePath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_import_smart_task#id ManagementCommandImportSmartTask#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_import_smart_task#id ManagementCommandImportSmartTask#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,7 +23,7 @@ export interface ManagementCommandImportSmartTaskConfig extends cdktf.TerraformM
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_import_smart_task checkpoint_management_command_import_smart_task}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_import_smart_task checkpoint_management_command_import_smart_task}
 */
 export class ManagementCommandImportSmartTask extends cdktf.TerraformResource {
 
@@ -39,7 +39,7 @@ export class ManagementCommandImportSmartTask extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementCommandImportSmartTask resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementCommandImportSmartTask to import
-  * @param importFromId The id of the existing ManagementCommandImportSmartTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_import_smart_task#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementCommandImportSmartTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_import_smart_task#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementCommandImportSmartTask to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -51,7 +51,7 @@ export class ManagementCommandImportSmartTask extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_import_smart_task checkpoint_management_command_import_smart_task} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_import_smart_task checkpoint_management_command_import_smart_task} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -62,7 +62,8 @@ export class ManagementCommandImportSmartTask extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_command_import_smart_task',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

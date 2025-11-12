@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/data-sources/clients
+// https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/data-sources/clients
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataAuth0ClientsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Filter clients by application types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/data-sources/clients#app_types DataAuth0Clients#app_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/data-sources/clients#app_types DataAuth0Clients#app_types}
   */
   readonly appTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/data-sources/clients#id DataAuth0Clients#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/data-sources/clients#id DataAuth0Clients#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface DataAuth0ClientsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Filter clients by first party status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/data-sources/clients#is_first_party DataAuth0Clients#is_first_party}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/data-sources/clients#is_first_party DataAuth0Clients#is_first_party}
   */
   readonly isFirstParty?: boolean | cdktf.IResolvable;
   /**
   * Filter clients by name (partial matches supported).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/data-sources/clients#name_filter DataAuth0Clients#name_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/data-sources/clients#name_filter DataAuth0Clients#name_filter}
   */
   readonly nameFilter?: string;
 }
@@ -601,6 +601,11 @@ export class DataAuth0ClientsClientsOutputReference extends cdktf.ComplexObject 
     return this.getStringAttribute('app_type');
   }
 
+  // async_approval_notification_channels - computed: true, optional: false, required: false
+  public get asyncApprovalNotificationChannels() {
+    return this.getListAttribute('async_approval_notification_channels');
+  }
+
   // callbacks - computed: true, optional: false, required: false
   public get callbacks() {
     return this.getListAttribute('callbacks');
@@ -712,7 +717,7 @@ export class DataAuth0ClientsClientsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/data-sources/clients auth0_clients}
+* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/data-sources/clients auth0_clients}
 */
 export class DataAuth0Clients extends cdktf.TerraformDataSource {
 
@@ -728,7 +733,7 @@ export class DataAuth0Clients extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAuth0Clients resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAuth0Clients to import
-  * @param importFromId The id of the existing DataAuth0Clients that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/data-sources/clients#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAuth0Clients that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/data-sources/clients#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAuth0Clients to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -740,7 +745,7 @@ export class DataAuth0Clients extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/data-sources/clients auth0_clients} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/data-sources/clients auth0_clients} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -751,7 +756,8 @@ export class DataAuth0Clients extends cdktf.TerraformDataSource {
       terraformResourceType: 'auth0_clients',
       terraformGeneratorMetadata: {
         providerName: 'auth0',
-        providerVersion: '1.33.0'
+        providerVersion: '1.34.0',
+        providerVersionConstraint: '1.34.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

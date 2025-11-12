@@ -197,7 +197,8 @@ export class DataAlicloudServiceCatalogPortfolios extends cdktf.TerraformDataSou
       terraformResourceType: 'alicloud_service_catalog_portfolios',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

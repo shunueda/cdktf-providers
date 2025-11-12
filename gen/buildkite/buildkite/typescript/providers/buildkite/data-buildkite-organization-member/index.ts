@@ -55,7 +55,8 @@ export class DataBuildkiteOrganizationMember extends cdktf.TerraformDataSource {
       terraformResourceType: 'buildkite_organization_member',
       terraformGeneratorMetadata: {
         providerName: 'buildkite',
-        providerVersion: '1.26.0'
+        providerVersion: '1.26.0',
+        providerVersionConstraint: '1.26.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

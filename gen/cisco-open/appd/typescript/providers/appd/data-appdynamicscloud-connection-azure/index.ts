@@ -667,7 +667,8 @@ export class DataAppdynamicscloudConnectionAzure extends cdktf.TerraformDataSour
       terraformResourceType: 'appdynamicscloud_connection_azure',
       terraformGeneratorMetadata: {
         providerName: 'appd',
-        providerVersion: '0.0.1'
+        providerVersion: '0.0.1',
+        providerVersionConstraint: '0.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

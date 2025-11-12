@@ -62,7 +62,8 @@ export class DataIncapsulaAccountRoles extends cdktf.TerraformDataSource {
       terraformResourceType: 'incapsula_account_roles',
       terraformGeneratorMetadata: {
         providerName: 'incapsula',
-        providerVersion: '3.35.1'
+        providerVersion: '3.35.1',
+        providerVersionConstraint: '3.35.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

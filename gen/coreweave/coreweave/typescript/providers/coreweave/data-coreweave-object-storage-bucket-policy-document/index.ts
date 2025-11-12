@@ -363,7 +363,8 @@ export class DataCoreweaveObjectStorageBucketPolicyDocument extends cdktf.Terraf
       terraformResourceType: 'coreweave_object_storage_bucket_policy_document',
       terraformGeneratorMetadata: {
         providerName: 'coreweave',
-        providerVersion: '0.7.0'
+        providerVersion: '0.7.0',
+        providerVersionConstraint: '0.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

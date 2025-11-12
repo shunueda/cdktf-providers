@@ -229,7 +229,8 @@ export class DataNutanixFoundationCentralListApiKeys extends cdktf.TerraformData
       terraformResourceType: 'nutanix_foundation_central_list_api_keys',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3'
+        providerVersion: '2.3.3',
+        providerVersionConstraint: '2.3.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

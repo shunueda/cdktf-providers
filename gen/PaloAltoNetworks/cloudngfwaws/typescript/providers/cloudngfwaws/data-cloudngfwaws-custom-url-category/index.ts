@@ -80,7 +80,8 @@ export class DataCloudngfwawsCustomUrlCategory extends cdktf.TerraformDataSource
       terraformResourceType: 'cloudngfwaws_custom_url_category',
       terraformGeneratorMetadata: {
         providerName: 'cloudngfwaws',
-        providerVersion: '3.0.4'
+        providerVersion: '3.0.4',
+        providerVersionConstraint: '3.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

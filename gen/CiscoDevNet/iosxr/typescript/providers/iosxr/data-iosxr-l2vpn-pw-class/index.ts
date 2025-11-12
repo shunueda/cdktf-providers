@@ -61,7 +61,8 @@ export class DataIosxrL2VpnPwClass extends cdktf.TerraformDataSource {
       terraformResourceType: 'iosxr_l2vpn_pw_class',
       terraformGeneratorMetadata: {
         providerName: 'iosxr',
-        providerVersion: '0.6.0'
+        providerVersion: '0.6.0',
+        providerVersionConstraint: '0.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

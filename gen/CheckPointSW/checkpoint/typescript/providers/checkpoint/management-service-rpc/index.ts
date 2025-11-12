@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_rpc
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_rpc
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ManagementServiceRpcConfig extends cdktf.TerraformMetaArguments
   /**
   * Color of the object. Should be one of existing colors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_rpc#color ManagementServiceRpc#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_rpc#color ManagementServiceRpc#color}
   */
   readonly color?: string;
   /**
   * Comments string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_rpc#comments ManagementServiceRpc#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_rpc#comments ManagementServiceRpc#comments}
   */
   readonly comments?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_rpc#id ManagementServiceRpc#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_rpc#id ManagementServiceRpc#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,43 +29,43 @@ export interface ManagementServiceRpcConfig extends cdktf.TerraformMetaArguments
   /**
   * Apply changes ignoring errors. You won't be able to publish such a changes. If ignore-warnings flag was omitted - warnings will also be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_rpc#ignore_errors ManagementServiceRpc#ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_rpc#ignore_errors ManagementServiceRpc#ignore_errors}
   */
   readonly ignoreErrors?: boolean | cdktf.IResolvable;
   /**
   * Apply changes ignoring warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_rpc#ignore_warnings ManagementServiceRpc#ignore_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_rpc#ignore_warnings ManagementServiceRpc#ignore_warnings}
   */
   readonly ignoreWarnings?: boolean | cdktf.IResolvable;
   /**
   * Keep connections open after policy has been installed even if they are not allowed under the new policy. This overrides the settings in the Connection Persistence page. If you change this property, the change will not affect open connections, but only future connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_rpc#keep_connections_open_after_policy_installation ManagementServiceRpc#keep_connections_open_after_policy_installation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_rpc#keep_connections_open_after_policy_installation ManagementServiceRpc#keep_connections_open_after_policy_installation}
   */
   readonly keepConnectionsOpenAfterPolicyInstallation?: boolean | cdktf.IResolvable;
   /**
   * Object name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_rpc#name ManagementServiceRpc#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_rpc#name ManagementServiceRpc#name}
   */
   readonly name: string;
   /**
   * N/A
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_rpc#program_number ManagementServiceRpc#program_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_rpc#program_number ManagementServiceRpc#program_number}
   */
   readonly programNumber?: number;
   /**
   * Collection of tag identifiers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_rpc#tags ManagementServiceRpc#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_rpc#tags ManagementServiceRpc#tags}
   */
   readonly tags?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_rpc checkpoint_management_service_rpc}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_rpc checkpoint_management_service_rpc}
 */
 export class ManagementServiceRpc extends cdktf.TerraformResource {
 
@@ -81,7 +81,7 @@ export class ManagementServiceRpc extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementServiceRpc resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementServiceRpc to import
-  * @param importFromId The id of the existing ManagementServiceRpc that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_rpc#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementServiceRpc that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_rpc#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementServiceRpc to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +93,7 @@ export class ManagementServiceRpc extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_rpc checkpoint_management_service_rpc} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_rpc checkpoint_management_service_rpc} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,7 +104,8 @@ export class ManagementServiceRpc extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_service_rpc',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

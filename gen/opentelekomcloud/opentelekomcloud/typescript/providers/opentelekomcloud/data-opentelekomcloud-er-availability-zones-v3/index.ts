@@ -56,7 +56,8 @@ export class DataOpentelekomcloudErAvailabilityZonesV3 extends cdktf.TerraformDa
       terraformResourceType: 'opentelekomcloud_er_availability_zones_v3',
       terraformGeneratorMetadata: {
         providerName: 'opentelekomcloud',
-        providerVersion: '1.36.52'
+        providerVersion: '1.36.52',
+        providerVersionConstraint: '1.36.52'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

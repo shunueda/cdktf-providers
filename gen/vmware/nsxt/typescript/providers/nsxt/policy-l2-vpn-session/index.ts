@@ -277,7 +277,8 @@ export class PolicyL2VpnSession extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_policy_l2_vpn_session',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0'
+        providerVersion: '3.10.0',
+        providerVersionConstraint: '3.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

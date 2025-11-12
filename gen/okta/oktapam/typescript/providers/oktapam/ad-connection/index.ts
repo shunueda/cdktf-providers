@@ -97,7 +97,8 @@ export class AdConnection extends cdktf.TerraformResource {
       terraformResourceType: 'oktapam_ad_connection',
       terraformGeneratorMetadata: {
         providerName: 'oktapam',
-        providerVersion: '0.6.2'
+        providerVersion: '0.6.2',
+        providerVersionConstraint: '0.6.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

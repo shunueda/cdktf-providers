@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/dhcp
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/dhcp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,85 +11,85 @@ export interface DhcpConfig extends cdktf.TerraformMetaArguments {
   * 
   *   - Choices: `cisco`, `standard`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/dhcp#compatibility_suboption_link_selection Dhcp#compatibility_suboption_link_selection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/dhcp#compatibility_suboption_link_selection Dhcp#compatibility_suboption_link_selection}
   */
   readonly compatibilitySuboptionLinkSelection?: string;
   /**
   * 
   *   - Choices: `cisco`, `standard`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/dhcp#compatibility_suboption_server_override Dhcp#compatibility_suboption_server_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/dhcp#compatibility_suboption_server_override Dhcp#compatibility_suboption_server_override}
   */
   readonly compatibilitySuboptionServerOverride?: string;
   /**
   * Configure behavior when deleting/destroying the resource. Either delete the entire object (YANG container) being managed, or only delete the individual resource attributes configured explicitly and leave everything else as-is. Default value is `all`.
   *   - Choices: `all`, `attributes`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/dhcp#delete_mode Dhcp#delete_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/dhcp#delete_mode Dhcp#delete_mode}
   */
   readonly deleteMode?: string;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/dhcp#device Dhcp#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/dhcp#device Dhcp#device}
   */
   readonly device?: string;
   /**
   * Default option, no vpn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/dhcp#relay_information_option_default Dhcp#relay_information_option_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/dhcp#relay_information_option_default Dhcp#relay_information_option_default}
   */
   readonly relayInformationOptionDefault?: boolean | cdktf.IResolvable;
   /**
   * Insert VPN sub-options and change the giaddr to the outgoing interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/dhcp#relay_information_option_vpn Dhcp#relay_information_option_vpn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/dhcp#relay_information_option_vpn Dhcp#relay_information_option_vpn}
   */
   readonly relayInformationOptionVpn?: boolean | cdktf.IResolvable;
   /**
   * Received DHCP packets may contain relay info option with zero giaddr
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/dhcp#relay_information_trust_all Dhcp#relay_information_trust_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/dhcp#relay_information_trust_all Dhcp#relay_information_trust_all}
   */
   readonly relayInformationTrustAll?: boolean | cdktf.IResolvable;
   /**
   * DHCP Snooping
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/dhcp#snooping Dhcp#snooping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/dhcp#snooping Dhcp#snooping}
   */
   readonly snooping?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/dhcp#snooping_information_option Dhcp#snooping_information_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/dhcp#snooping_information_option Dhcp#snooping_information_option}
   */
   readonly snoopingInformationOption?: boolean | cdktf.IResolvable;
   /**
   * DHCP Snooping information option allow-untrusted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/dhcp#snooping_information_option_allow_untrusted Dhcp#snooping_information_option_allow_untrusted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/dhcp#snooping_information_option_allow_untrusted Dhcp#snooping_information_option_allow_untrusted}
   */
   readonly snoopingInformationOptionAllowUntrusted?: boolean | cdktf.IResolvable;
   /**
   * Use configured hostname for remote id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/dhcp#snooping_information_option_format_remote_id_hostname Dhcp#snooping_information_option_format_remote_id_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/dhcp#snooping_information_option_format_remote_id_hostname Dhcp#snooping_information_option_format_remote_id_hostname}
   */
   readonly snoopingInformationOptionFormatRemoteIdHostname?: boolean | cdktf.IResolvable;
   /**
   * User defined string for remote id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/dhcp#snooping_information_option_format_remote_id_string Dhcp#snooping_information_option_format_remote_id_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/dhcp#snooping_information_option_format_remote_id_string Dhcp#snooping_information_option_format_remote_id_string}
   */
   readonly snoopingInformationOptionFormatRemoteIdString?: string;
   /**
   * DHCP Snooping vlan list. Use this for versions `17.14` and later.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/dhcp#snooping_vlans Dhcp#snooping_vlans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/dhcp#snooping_vlans Dhcp#snooping_vlans}
   */
   readonly snoopingVlans?: DhcpSnoopingVlans[] | cdktf.IResolvable;
   /**
   * DHCP Snooping vlan list. Use this for versions before `17.14`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/dhcp#snooping_vlans_legacy Dhcp#snooping_vlans_legacy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/dhcp#snooping_vlans_legacy Dhcp#snooping_vlans_legacy}
   */
   readonly snoopingVlansLegacy?: DhcpSnoopingVlansLegacy[] | cdktf.IResolvable;
 }
@@ -98,7 +98,7 @@ export interface DhcpSnoopingVlans {
   * 
   *   - Range: `1`-`4094`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/dhcp#vlan_id Dhcp#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/dhcp#vlan_id Dhcp#vlan_id}
   */
   readonly vlanId: number;
 }
@@ -213,7 +213,7 @@ export interface DhcpSnoopingVlansLegacy {
   /**
   * DHCP Snooping vlan first number or vlan range,example: 1,3-5,7,9-11
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/dhcp#vlan_id Dhcp#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/dhcp#vlan_id Dhcp#vlan_id}
   */
   readonly vlanId: string;
 }
@@ -326,7 +326,7 @@ export class DhcpSnoopingVlansLegacyList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/dhcp iosxe_dhcp}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/dhcp iosxe_dhcp}
 */
 export class Dhcp extends cdktf.TerraformResource {
 
@@ -342,7 +342,7 @@ export class Dhcp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Dhcp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Dhcp to import
-  * @param importFromId The id of the existing Dhcp that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/dhcp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Dhcp that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/dhcp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Dhcp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -354,7 +354,7 @@ export class Dhcp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/dhcp iosxe_dhcp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/dhcp iosxe_dhcp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -365,7 +365,8 @@ export class Dhcp extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_dhcp',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.9.3'
+        providerVersion: '0.10.0',
+        providerVersionConstraint: '0.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -61,7 +61,8 @@ export class DataPingdirectoryMacSecretKeys extends cdktf.TerraformDataSource {
       terraformResourceType: 'pingdirectory_mac_secret_keys',
       terraformGeneratorMetadata: {
         providerName: 'pingdirectory',
-        providerVersion: '1.5.0'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

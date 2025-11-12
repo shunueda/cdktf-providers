@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_routing_policies
+// https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_routing_policies
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataApstraDatacenterRoutingPoliciesConfig extends cdktf.Terrafo
   /**
   * Apstra Blueprint to search.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_routing_policies#blueprint_id DataApstraDatacenterRoutingPolicies#blueprint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_routing_policies#blueprint_id DataApstraDatacenterRoutingPolicies#blueprint_id}
   */
   readonly blueprintId: string;
   /**
   * List of filters used to select only desired node IDs. For a nodeto match a filter, all specified attributes must match (each attribute within a filter is AND-ed together). The returned node IDs represent the nodes matched by all of the filters together (filters are OR-ed together).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_routing_policies#filters DataApstraDatacenterRoutingPolicies#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_routing_policies#filters DataApstraDatacenterRoutingPolicies#filters}
   */
   readonly filters?: DataApstraDatacenterRoutingPoliciesFilters[] | cdktf.IResolvable;
 }
@@ -24,37 +24,37 @@ export interface DataApstraDatacenterRoutingPoliciesFiltersExportPolicy {
   /**
   * Exports all virtual networks (VLANs) that have L3 addresses within a routing zone (VRF).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_routing_policies#export_l2_edge_subnets DataApstraDatacenterRoutingPolicies#export_l2_edge_subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_routing_policies#export_l2_edge_subnets DataApstraDatacenterRoutingPolicies#export_l2_edge_subnets}
   */
   readonly exportL2EdgeSubnets?: boolean | cdktf.IResolvable;
   /**
   * Exports all leaf to L3 server links within a routing zone (VRF). This will be an empty list on a layer2 based blueprint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_routing_policies#export_l3_edge_server_links DataApstraDatacenterRoutingPolicies#export_l3_edge_server_links}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_routing_policies#export_l3_edge_server_links DataApstraDatacenterRoutingPolicies#export_l3_edge_server_links}
   */
   readonly exportL3EdgeServerLinks?: boolean | cdktf.IResolvable;
   /**
   * Exports all loopbacks within a routing zone (VRF) across spine, leaf, and L3 servers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_routing_policies#export_loopbacks DataApstraDatacenterRoutingPolicies#export_loopbacks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_routing_policies#export_loopbacks DataApstraDatacenterRoutingPolicies#export_loopbacks}
   */
   readonly exportLoopbacks?: boolean | cdktf.IResolvable;
   /**
   * Exports all spine-supersine (fabric) links within the default routing zone (VRF)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_routing_policies#export_spine_leaf_links DataApstraDatacenterRoutingPolicies#export_spine_leaf_links}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_routing_policies#export_spine_leaf_links DataApstraDatacenterRoutingPolicies#export_spine_leaf_links}
   */
   readonly exportSpineLeafLinks?: boolean | cdktf.IResolvable;
   /**
   * Exports all spine-leaf (fabric) links within a VRF. EVPN routing zones do not have spine-leaf addressing, so this generated list may be empty. For routing zones of type Virtual L3 Fabric, subinterfaces between spine-leaf will be included.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_routing_policies#export_spine_superspine_links DataApstraDatacenterRoutingPolicies#export_spine_superspine_links}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_routing_policies#export_spine_superspine_links DataApstraDatacenterRoutingPolicies#export_spine_superspine_links}
   */
   readonly exportSpineSuperspineLinks?: boolean | cdktf.IResolvable;
   /**
   * Exports all subnets in a VRF associated with static routes from all fabric systems to external routers associated with this routing policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_routing_policies#export_static_routes DataApstraDatacenterRoutingPolicies#export_static_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_routing_policies#export_static_routes DataApstraDatacenterRoutingPolicies#export_static_routes}
   */
   readonly exportStaticRoutes?: boolean | cdktf.IResolvable;
 }
@@ -295,25 +295,25 @@ export interface DataApstraDatacenterRoutingPoliciesFiltersExtraExports {
   /**
   * If the action is "permit", match the route. If the action is "deny", do not match the route. For composing complex policies, all prefix-list items will be processed in the order specified, top-down. This allows the user to deny a subset of a route that may otherwise be permitted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_routing_policies#action DataApstraDatacenterRoutingPolicies#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_routing_policies#action DataApstraDatacenterRoutingPolicies#action}
   */
   readonly action?: string;
   /**
   * Match less-specific prefixes from a parent prefix, up from `ge_mask` to the prefix length of the route. Range is 0-32 for IPv4, 0-128 for IPv6. If not specified, implies the prefix-list entry should be an exact match. The option can be optionally be used in combination with `le_mask`. `ge_mask` must be longer than the subnet prefix length. If `le_mask` and `ge_mask` are both specified, then `le_mask` must be greater than `ge_mask`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_routing_policies#ge_mask DataApstraDatacenterRoutingPolicies#ge_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_routing_policies#ge_mask DataApstraDatacenterRoutingPolicies#ge_mask}
   */
   readonly geMask?: number;
   /**
   * Match more-specific prefixes from a parent prefix, up until `le_mask` prefix len. Range is 0-32 for IPv4, 0-128 for IPv6. If not specified, implies the prefix-list entry should be an exact match. The option can be optionally be used in combination with `ge_mask`. `le_mask` must be longer than the subnet prefix length. If `le_mask` and `ge_mask` are both specified, then `le_mask` must be greater than `ge_mask`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_routing_policies#le_mask DataApstraDatacenterRoutingPolicies#le_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_routing_policies#le_mask DataApstraDatacenterRoutingPolicies#le_mask}
   */
   readonly leMask?: number;
   /**
   * IPv4 or IPv6 network address specified in the form of network/prefixlen.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_routing_policies#prefix DataApstraDatacenterRoutingPolicies#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_routing_policies#prefix DataApstraDatacenterRoutingPolicies#prefix}
   */
   readonly prefix?: string;
 }
@@ -518,25 +518,25 @@ export interface DataApstraDatacenterRoutingPoliciesFiltersExtraImports {
   /**
   * If the action is "permit", match the route. If the action is "deny", do not match the route. For composing complex policies, all prefix-list items will be processed in the order specified, top-down. This allows the user to deny a subset of a route that may otherwise be permitted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_routing_policies#action DataApstraDatacenterRoutingPolicies#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_routing_policies#action DataApstraDatacenterRoutingPolicies#action}
   */
   readonly action?: string;
   /**
   * Match less-specific prefixes from a parent prefix, up from `ge_mask` to the prefix length of the route. Range is 0-32 for IPv4, 0-128 for IPv6. If not specified, implies the prefix-list entry should be an exact match. The option can be optionally be used in combination with `le_mask`. `ge_mask` must be longer than the subnet prefix length. If `le_mask` and `ge_mask` are both specified, then `le_mask` must be greater than `ge_mask`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_routing_policies#ge_mask DataApstraDatacenterRoutingPolicies#ge_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_routing_policies#ge_mask DataApstraDatacenterRoutingPolicies#ge_mask}
   */
   readonly geMask?: number;
   /**
   * Match more-specific prefixes from a parent prefix, up until `le_mask` prefix len. Range is 0-32 for IPv4, 0-128 for IPv6. If not specified, implies the prefix-list entry should be an exact match. The option can be optionally be used in combination with `ge_mask`. `le_mask` must be longer than the subnet prefix length. If `le_mask` and `ge_mask` are both specified, then `le_mask` must be greater than `ge_mask`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_routing_policies#le_mask DataApstraDatacenterRoutingPolicies#le_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_routing_policies#le_mask DataApstraDatacenterRoutingPolicies#le_mask}
   */
   readonly leMask?: number;
   /**
   * IPv4 or IPv6 network address specified in the form of network/prefixlen.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_routing_policies#prefix DataApstraDatacenterRoutingPolicies#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_routing_policies#prefix DataApstraDatacenterRoutingPolicies#prefix}
   */
   readonly prefix?: string;
 }
@@ -741,49 +741,49 @@ export interface DataApstraDatacenterRoutingPoliciesFilters {
   /**
   * All `aggregate_prefixes` specified here are required for the filter to match, but the list need not be an *exact match*. That is, a policy containting `10.1.0.0/16` and `10.2.0.0/16` will match a filter which specifies only `10.1.0.0/16`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_routing_policies#aggregate_prefixes DataApstraDatacenterRoutingPolicies#aggregate_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_routing_policies#aggregate_prefixes DataApstraDatacenterRoutingPolicies#aggregate_prefixes}
   */
   readonly aggregatePrefixes?: string[];
   /**
   * Web UI 'description' field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_routing_policies#description DataApstraDatacenterRoutingPolicies#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_routing_policies#description DataApstraDatacenterRoutingPolicies#description}
   */
   readonly description?: string;
   /**
   * Default IPv4 route is expected to be imported via protocol session using this policy. Used for rendering route expectations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_routing_policies#expect_default_ipv4 DataApstraDatacenterRoutingPolicies#expect_default_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_routing_policies#expect_default_ipv4 DataApstraDatacenterRoutingPolicies#expect_default_ipv4}
   */
   readonly expectDefaultIpv4?: boolean | cdktf.IResolvable;
   /**
   * Default IPv6 route is expected to be imported via protocol session using this policy. Used for rendering route expectations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_routing_policies#expect_default_ipv6 DataApstraDatacenterRoutingPolicies#expect_default_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_routing_policies#expect_default_ipv6 DataApstraDatacenterRoutingPolicies#expect_default_ipv6}
   */
   readonly expectDefaultIpv6?: boolean | cdktf.IResolvable;
   /**
   * The export policy controls export of various types of fabric prefixes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_routing_policies#export_policy DataApstraDatacenterRoutingPolicies#export_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_routing_policies#export_policy DataApstraDatacenterRoutingPolicies#export_policy}
   */
   readonly exportPolicy?: DataApstraDatacenterRoutingPoliciesFiltersExportPolicy;
   /**
   * All `extra_exports` specified here are required for the filter to match, using the same logic as `aggregate_prefixes`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_routing_policies#extra_exports DataApstraDatacenterRoutingPolicies#extra_exports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_routing_policies#extra_exports DataApstraDatacenterRoutingPolicies#extra_exports}
   */
   readonly extraExports?: DataApstraDatacenterRoutingPoliciesFiltersExtraExports[] | cdktf.IResolvable;
   /**
   * All `extra_imports` specified here are required for the filter to match, using the same logic as `aggregate_prefixes`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_routing_policies#extra_imports DataApstraDatacenterRoutingPolicies#extra_imports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_routing_policies#extra_imports DataApstraDatacenterRoutingPolicies#extra_imports}
   */
   readonly extraImports?: DataApstraDatacenterRoutingPoliciesFiltersExtraImports[] | cdktf.IResolvable;
   /**
   * Apstra graph node ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_routing_policies#id DataApstraDatacenterRoutingPolicies#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_routing_policies#id DataApstraDatacenterRoutingPolicies#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -792,13 +792,13 @@ export interface DataApstraDatacenterRoutingPoliciesFilters {
   /**
   * One of: `extra_only`, `default_only`, `all`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_routing_policies#import_policy DataApstraDatacenterRoutingPolicies#import_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_routing_policies#import_policy DataApstraDatacenterRoutingPolicies#import_policy}
   */
   readonly importPolicy?: string;
   /**
   * Web UI `name` field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_routing_policies#name DataApstraDatacenterRoutingPolicies#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_routing_policies#name DataApstraDatacenterRoutingPolicies#name}
   */
   readonly name?: string;
 }
@@ -1180,7 +1180,7 @@ export class DataApstraDatacenterRoutingPoliciesFiltersList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_routing_policies apstra_datacenter_routing_policies}
+* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_routing_policies apstra_datacenter_routing_policies}
 */
 export class DataApstraDatacenterRoutingPolicies extends cdktf.TerraformDataSource {
 
@@ -1196,7 +1196,7 @@ export class DataApstraDatacenterRoutingPolicies extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataApstraDatacenterRoutingPolicies resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataApstraDatacenterRoutingPolicies to import
-  * @param importFromId The id of the existing DataApstraDatacenterRoutingPolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_routing_policies#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataApstraDatacenterRoutingPolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_routing_policies#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataApstraDatacenterRoutingPolicies to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1208,7 +1208,7 @@ export class DataApstraDatacenterRoutingPolicies extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_routing_policies apstra_datacenter_routing_policies} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_routing_policies apstra_datacenter_routing_policies} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1219,7 +1219,8 @@ export class DataApstraDatacenterRoutingPolicies extends cdktf.TerraformDataSour
       terraformResourceType: 'apstra_datacenter_routing_policies',
       terraformGeneratorMetadata: {
         providerName: 'apstra',
-        providerVersion: '0.95.0'
+        providerVersion: '0.95.1',
+        providerVersionConstraint: '0.95.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

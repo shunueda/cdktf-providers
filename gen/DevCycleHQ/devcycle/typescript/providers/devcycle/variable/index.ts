@@ -85,7 +85,8 @@ export class Variable extends cdktf.TerraformResource {
       terraformResourceType: 'devcycle_variable',
       terraformGeneratorMetadata: {
         providerName: 'devcycle',
-        providerVersion: '1.0.2'
+        providerVersion: '1.0.2',
+        providerVersionConstraint: '1.0.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

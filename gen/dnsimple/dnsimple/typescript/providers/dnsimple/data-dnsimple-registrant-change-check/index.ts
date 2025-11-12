@@ -237,7 +237,8 @@ export class DataDnsimpleRegistrantChangeCheck extends cdktf.TerraformDataSource
       terraformResourceType: 'dnsimple_registrant_change_check',
       terraformGeneratorMetadata: {
         providerName: 'dnsimple',
-        providerVersion: '1.10.0'
+        providerVersion: '1.10.0',
+        providerVersionConstraint: '1.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

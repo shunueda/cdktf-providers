@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/data-sources/outbound_ips
+// https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/data-sources/outbound_ips
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -180,7 +180,7 @@ export class DataAuth0OutboundIpsRegionsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/data-sources/outbound_ips auth0_outbound_ips}
+* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/data-sources/outbound_ips auth0_outbound_ips}
 */
 export class DataAuth0OutboundIps extends cdktf.TerraformDataSource {
 
@@ -196,7 +196,7 @@ export class DataAuth0OutboundIps extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAuth0OutboundIps resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAuth0OutboundIps to import
-  * @param importFromId The id of the existing DataAuth0OutboundIps that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/data-sources/outbound_ips#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAuth0OutboundIps that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/data-sources/outbound_ips#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAuth0OutboundIps to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -208,7 +208,7 @@ export class DataAuth0OutboundIps extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/data-sources/outbound_ips auth0_outbound_ips} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/data-sources/outbound_ips auth0_outbound_ips} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -219,7 +219,8 @@ export class DataAuth0OutboundIps extends cdktf.TerraformDataSource {
       terraformResourceType: 'auth0_outbound_ips',
       terraformGeneratorMetadata: {
         providerName: 'auth0',
-        providerVersion: '1.33.0'
+        providerVersion: '1.34.0',
+        providerVersionConstraint: '1.34.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

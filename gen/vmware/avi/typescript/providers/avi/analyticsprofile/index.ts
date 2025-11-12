@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile
+// https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,392 +8,392 @@ import * as cdktf from 'cdktf';
 
 export interface AnalyticsprofileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#apdex_response_threshold Analyticsprofile#apdex_response_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#apdex_response_threshold Analyticsprofile#apdex_response_threshold}
   */
   readonly apdexResponseThreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#apdex_response_tolerated_factor Analyticsprofile#apdex_response_tolerated_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#apdex_response_tolerated_factor Analyticsprofile#apdex_response_tolerated_factor}
   */
   readonly apdexResponseToleratedFactor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#apdex_rtt_threshold Analyticsprofile#apdex_rtt_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#apdex_rtt_threshold Analyticsprofile#apdex_rtt_threshold}
   */
   readonly apdexRttThreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#apdex_rtt_tolerated_factor Analyticsprofile#apdex_rtt_tolerated_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#apdex_rtt_tolerated_factor Analyticsprofile#apdex_rtt_tolerated_factor}
   */
   readonly apdexRttToleratedFactor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#apdex_rum_threshold Analyticsprofile#apdex_rum_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#apdex_rum_threshold Analyticsprofile#apdex_rum_threshold}
   */
   readonly apdexRumThreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#apdex_rum_tolerated_factor Analyticsprofile#apdex_rum_tolerated_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#apdex_rum_tolerated_factor Analyticsprofile#apdex_rum_tolerated_factor}
   */
   readonly apdexRumToleratedFactor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#apdex_server_response_threshold Analyticsprofile#apdex_server_response_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#apdex_server_response_threshold Analyticsprofile#apdex_server_response_threshold}
   */
   readonly apdexServerResponseThreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#apdex_server_response_tolerated_factor Analyticsprofile#apdex_server_response_tolerated_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#apdex_server_response_tolerated_factor Analyticsprofile#apdex_server_response_tolerated_factor}
   */
   readonly apdexServerResponseToleratedFactor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#apdex_server_rtt_threshold Analyticsprofile#apdex_server_rtt_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#apdex_server_rtt_threshold Analyticsprofile#apdex_server_rtt_threshold}
   */
   readonly apdexServerRttThreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#apdex_server_rtt_tolerated_factor Analyticsprofile#apdex_server_rtt_tolerated_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#apdex_server_rtt_tolerated_factor Analyticsprofile#apdex_server_rtt_tolerated_factor}
   */
   readonly apdexServerRttToleratedFactor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#conn_lossy_ooo_threshold Analyticsprofile#conn_lossy_ooo_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#conn_lossy_ooo_threshold Analyticsprofile#conn_lossy_ooo_threshold}
   */
   readonly connLossyOooThreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#conn_lossy_timeo_rexmt_threshold Analyticsprofile#conn_lossy_timeo_rexmt_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#conn_lossy_timeo_rexmt_threshold Analyticsprofile#conn_lossy_timeo_rexmt_threshold}
   */
   readonly connLossyTimeoRexmtThreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#conn_lossy_total_rexmt_threshold Analyticsprofile#conn_lossy_total_rexmt_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#conn_lossy_total_rexmt_threshold Analyticsprofile#conn_lossy_total_rexmt_threshold}
   */
   readonly connLossyTotalRexmtThreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#conn_lossy_zero_win_size_event_threshold Analyticsprofile#conn_lossy_zero_win_size_event_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#conn_lossy_zero_win_size_event_threshold Analyticsprofile#conn_lossy_zero_win_size_event_threshold}
   */
   readonly connLossyZeroWinSizeEventThreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#conn_server_lossy_ooo_threshold Analyticsprofile#conn_server_lossy_ooo_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#conn_server_lossy_ooo_threshold Analyticsprofile#conn_server_lossy_ooo_threshold}
   */
   readonly connServerLossyOooThreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#conn_server_lossy_timeo_rexmt_threshold Analyticsprofile#conn_server_lossy_timeo_rexmt_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#conn_server_lossy_timeo_rexmt_threshold Analyticsprofile#conn_server_lossy_timeo_rexmt_threshold}
   */
   readonly connServerLossyTimeoRexmtThreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#conn_server_lossy_total_rexmt_threshold Analyticsprofile#conn_server_lossy_total_rexmt_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#conn_server_lossy_total_rexmt_threshold Analyticsprofile#conn_server_lossy_total_rexmt_threshold}
   */
   readonly connServerLossyTotalRexmtThreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#conn_server_lossy_zero_win_size_event_threshold Analyticsprofile#conn_server_lossy_zero_win_size_event_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#conn_server_lossy_zero_win_size_event_threshold Analyticsprofile#conn_server_lossy_zero_win_size_event_threshold}
   */
   readonly connServerLossyZeroWinSizeEventThreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#description Analyticsprofile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#description Analyticsprofile#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#enable_adaptive_config Analyticsprofile#enable_adaptive_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#enable_adaptive_config Analyticsprofile#enable_adaptive_config}
   */
   readonly enableAdaptiveConfig?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#enable_advanced_analytics Analyticsprofile#enable_advanced_analytics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#enable_advanced_analytics Analyticsprofile#enable_advanced_analytics}
   */
   readonly enableAdvancedAnalytics?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#enable_ondemand_metrics Analyticsprofile#enable_ondemand_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#enable_ondemand_metrics Analyticsprofile#enable_ondemand_metrics}
   */
   readonly enableOndemandMetrics?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#enable_se_analytics Analyticsprofile#enable_se_analytics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#enable_se_analytics Analyticsprofile#enable_se_analytics}
   */
   readonly enableSeAnalytics?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#enable_server_analytics Analyticsprofile#enable_server_analytics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#enable_server_analytics Analyticsprofile#enable_server_analytics}
   */
   readonly enableServerAnalytics?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#enable_vs_analytics Analyticsprofile#enable_vs_analytics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#enable_vs_analytics Analyticsprofile#enable_vs_analytics}
   */
   readonly enableVsAnalytics?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#exclude_client_close_before_request_as_error Analyticsprofile#exclude_client_close_before_request_as_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#exclude_client_close_before_request_as_error Analyticsprofile#exclude_client_close_before_request_as_error}
   */
   readonly excludeClientCloseBeforeRequestAsError?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#exclude_dns_policy_drop_as_significant Analyticsprofile#exclude_dns_policy_drop_as_significant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#exclude_dns_policy_drop_as_significant Analyticsprofile#exclude_dns_policy_drop_as_significant}
   */
   readonly excludeDnsPolicyDropAsSignificant?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#exclude_gs_down_as_error Analyticsprofile#exclude_gs_down_as_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#exclude_gs_down_as_error Analyticsprofile#exclude_gs_down_as_error}
   */
   readonly excludeGsDownAsError?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#exclude_http_error_codes Analyticsprofile#exclude_http_error_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#exclude_http_error_codes Analyticsprofile#exclude_http_error_codes}
   */
   readonly excludeHttpErrorCodes?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#exclude_invalid_dns_domain_as_error Analyticsprofile#exclude_invalid_dns_domain_as_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#exclude_invalid_dns_domain_as_error Analyticsprofile#exclude_invalid_dns_domain_as_error}
   */
   readonly excludeInvalidDnsDomainAsError?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#exclude_invalid_dns_query_as_error Analyticsprofile#exclude_invalid_dns_query_as_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#exclude_invalid_dns_query_as_error Analyticsprofile#exclude_invalid_dns_query_as_error}
   */
   readonly excludeInvalidDnsQueryAsError?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#exclude_issuer_revoked_ocsp_responses_as_error Analyticsprofile#exclude_issuer_revoked_ocsp_responses_as_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#exclude_issuer_revoked_ocsp_responses_as_error Analyticsprofile#exclude_issuer_revoked_ocsp_responses_as_error}
   */
   readonly excludeIssuerRevokedOcspResponsesAsError?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#exclude_no_dns_record_as_error Analyticsprofile#exclude_no_dns_record_as_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#exclude_no_dns_record_as_error Analyticsprofile#exclude_no_dns_record_as_error}
   */
   readonly excludeNoDnsRecordAsError?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#exclude_no_valid_gs_member_as_error Analyticsprofile#exclude_no_valid_gs_member_as_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#exclude_no_valid_gs_member_as_error Analyticsprofile#exclude_no_valid_gs_member_as_error}
   */
   readonly excludeNoValidGsMemberAsError?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#exclude_persistence_change_as_error Analyticsprofile#exclude_persistence_change_as_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#exclude_persistence_change_as_error Analyticsprofile#exclude_persistence_change_as_error}
   */
   readonly excludePersistenceChangeAsError?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#exclude_revoked_ocsp_responses_as_error Analyticsprofile#exclude_revoked_ocsp_responses_as_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#exclude_revoked_ocsp_responses_as_error Analyticsprofile#exclude_revoked_ocsp_responses_as_error}
   */
   readonly excludeRevokedOcspResponsesAsError?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#exclude_server_dns_error_as_error Analyticsprofile#exclude_server_dns_error_as_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#exclude_server_dns_error_as_error Analyticsprofile#exclude_server_dns_error_as_error}
   */
   readonly excludeServerDnsErrorAsError?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#exclude_server_tcp_reset_as_error Analyticsprofile#exclude_server_tcp_reset_as_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#exclude_server_tcp_reset_as_error Analyticsprofile#exclude_server_tcp_reset_as_error}
   */
   readonly excludeServerTcpResetAsError?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#exclude_sip_error_codes Analyticsprofile#exclude_sip_error_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#exclude_sip_error_codes Analyticsprofile#exclude_sip_error_codes}
   */
   readonly excludeSipErrorCodes?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#exclude_stale_ocsp_responses_as_error Analyticsprofile#exclude_stale_ocsp_responses_as_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#exclude_stale_ocsp_responses_as_error Analyticsprofile#exclude_stale_ocsp_responses_as_error}
   */
   readonly excludeStaleOcspResponsesAsError?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#exclude_syn_retransmit_as_error Analyticsprofile#exclude_syn_retransmit_as_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#exclude_syn_retransmit_as_error Analyticsprofile#exclude_syn_retransmit_as_error}
   */
   readonly excludeSynRetransmitAsError?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#exclude_tcp_reset_as_error Analyticsprofile#exclude_tcp_reset_as_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#exclude_tcp_reset_as_error Analyticsprofile#exclude_tcp_reset_as_error}
   */
   readonly excludeTcpResetAsError?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#exclude_unavailable_ocsp_responses_as_error Analyticsprofile#exclude_unavailable_ocsp_responses_as_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#exclude_unavailable_ocsp_responses_as_error Analyticsprofile#exclude_unavailable_ocsp_responses_as_error}
   */
   readonly excludeUnavailableOcspResponsesAsError?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#exclude_unsupported_dns_query_as_error Analyticsprofile#exclude_unsupported_dns_query_as_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#exclude_unsupported_dns_query_as_error Analyticsprofile#exclude_unsupported_dns_query_as_error}
   */
   readonly excludeUnsupportedDnsQueryAsError?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#healthscore_max_server_limit Analyticsprofile#healthscore_max_server_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#healthscore_max_server_limit Analyticsprofile#healthscore_max_server_limit}
   */
   readonly healthscoreMaxServerLimit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#hs_event_throttle_window Analyticsprofile#hs_event_throttle_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#hs_event_throttle_window Analyticsprofile#hs_event_throttle_window}
   */
   readonly hsEventThrottleWindow?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#hs_max_anomaly_penalty Analyticsprofile#hs_max_anomaly_penalty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#hs_max_anomaly_penalty Analyticsprofile#hs_max_anomaly_penalty}
   */
   readonly hsMaxAnomalyPenalty?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#hs_max_resources_penalty Analyticsprofile#hs_max_resources_penalty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#hs_max_resources_penalty Analyticsprofile#hs_max_resources_penalty}
   */
   readonly hsMaxResourcesPenalty?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#hs_max_security_penalty Analyticsprofile#hs_max_security_penalty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#hs_max_security_penalty Analyticsprofile#hs_max_security_penalty}
   */
   readonly hsMaxSecurityPenalty?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#hs_min_dos_rate Analyticsprofile#hs_min_dos_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#hs_min_dos_rate Analyticsprofile#hs_min_dos_rate}
   */
   readonly hsMinDosRate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#hs_performance_boost Analyticsprofile#hs_performance_boost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#hs_performance_boost Analyticsprofile#hs_performance_boost}
   */
   readonly hsPerformanceBoost?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#hs_pscore_traffic_threshold_l4_client Analyticsprofile#hs_pscore_traffic_threshold_l4_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#hs_pscore_traffic_threshold_l4_client Analyticsprofile#hs_pscore_traffic_threshold_l4_client}
   */
   readonly hsPscoreTrafficThresholdL4Client?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#hs_pscore_traffic_threshold_l4_server Analyticsprofile#hs_pscore_traffic_threshold_l4_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#hs_pscore_traffic_threshold_l4_server Analyticsprofile#hs_pscore_traffic_threshold_l4_server}
   */
   readonly hsPscoreTrafficThresholdL4Server?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#hs_security_certscore_expired Analyticsprofile#hs_security_certscore_expired}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#hs_security_certscore_expired Analyticsprofile#hs_security_certscore_expired}
   */
   readonly hsSecurityCertscoreExpired?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#hs_security_certscore_gt30d Analyticsprofile#hs_security_certscore_gt30d}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#hs_security_certscore_gt30d Analyticsprofile#hs_security_certscore_gt30d}
   */
   readonly hsSecurityCertscoreGt30D?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#hs_security_certscore_le07d Analyticsprofile#hs_security_certscore_le07d}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#hs_security_certscore_le07d Analyticsprofile#hs_security_certscore_le07d}
   */
   readonly hsSecurityCertscoreLe07D?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#hs_security_certscore_le30d Analyticsprofile#hs_security_certscore_le30d}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#hs_security_certscore_le30d Analyticsprofile#hs_security_certscore_le30d}
   */
   readonly hsSecurityCertscoreLe30D?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#hs_security_chain_invalidity_penalty Analyticsprofile#hs_security_chain_invalidity_penalty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#hs_security_chain_invalidity_penalty Analyticsprofile#hs_security_chain_invalidity_penalty}
   */
   readonly hsSecurityChainInvalidityPenalty?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#hs_security_cipherscore_eq000b Analyticsprofile#hs_security_cipherscore_eq000b}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#hs_security_cipherscore_eq000b Analyticsprofile#hs_security_cipherscore_eq000b}
   */
   readonly hsSecurityCipherscoreEq000B?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#hs_security_cipherscore_ge128b Analyticsprofile#hs_security_cipherscore_ge128b}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#hs_security_cipherscore_ge128b Analyticsprofile#hs_security_cipherscore_ge128b}
   */
   readonly hsSecurityCipherscoreGe128B?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#hs_security_cipherscore_lt128b Analyticsprofile#hs_security_cipherscore_lt128b}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#hs_security_cipherscore_lt128b Analyticsprofile#hs_security_cipherscore_lt128b}
   */
   readonly hsSecurityCipherscoreLt128B?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#hs_security_encalgo_score_none Analyticsprofile#hs_security_encalgo_score_none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#hs_security_encalgo_score_none Analyticsprofile#hs_security_encalgo_score_none}
   */
   readonly hsSecurityEncalgoScoreNone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#hs_security_encalgo_score_rc4 Analyticsprofile#hs_security_encalgo_score_rc4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#hs_security_encalgo_score_rc4 Analyticsprofile#hs_security_encalgo_score_rc4}
   */
   readonly hsSecurityEncalgoScoreRc4?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#hs_security_hsts_penalty Analyticsprofile#hs_security_hsts_penalty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#hs_security_hsts_penalty Analyticsprofile#hs_security_hsts_penalty}
   */
   readonly hsSecurityHstsPenalty?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#hs_security_nonpfs_penalty Analyticsprofile#hs_security_nonpfs_penalty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#hs_security_nonpfs_penalty Analyticsprofile#hs_security_nonpfs_penalty}
   */
   readonly hsSecurityNonpfsPenalty?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#hs_security_ocsp_revoked_score Analyticsprofile#hs_security_ocsp_revoked_score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#hs_security_ocsp_revoked_score Analyticsprofile#hs_security_ocsp_revoked_score}
   */
   readonly hsSecurityOcspRevokedScore?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#hs_security_selfsignedcert_penalty Analyticsprofile#hs_security_selfsignedcert_penalty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#hs_security_selfsignedcert_penalty Analyticsprofile#hs_security_selfsignedcert_penalty}
   */
   readonly hsSecuritySelfsignedcertPenalty?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#hs_security_ssl30_score Analyticsprofile#hs_security_ssl30_score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#hs_security_ssl30_score Analyticsprofile#hs_security_ssl30_score}
   */
   readonly hsSecuritySsl30Score?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#hs_security_tls10_score Analyticsprofile#hs_security_tls10_score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#hs_security_tls10_score Analyticsprofile#hs_security_tls10_score}
   */
   readonly hsSecurityTls10Score?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#hs_security_tls11_score Analyticsprofile#hs_security_tls11_score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#hs_security_tls11_score Analyticsprofile#hs_security_tls11_score}
   */
   readonly hsSecurityTls11Score?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#hs_security_tls12_score Analyticsprofile#hs_security_tls12_score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#hs_security_tls12_score Analyticsprofile#hs_security_tls12_score}
   */
   readonly hsSecurityTls12Score?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#hs_security_tls13_score Analyticsprofile#hs_security_tls13_score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#hs_security_tls13_score Analyticsprofile#hs_security_tls13_score}
   */
   readonly hsSecurityTls13Score?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#hs_security_weak_signature_algo_penalty Analyticsprofile#hs_security_weak_signature_algo_penalty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#hs_security_weak_signature_algo_penalty Analyticsprofile#hs_security_weak_signature_algo_penalty}
   */
   readonly hsSecurityWeakSignatureAlgoPenalty?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#id Analyticsprofile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#id Analyticsprofile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#name Analyticsprofile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#name Analyticsprofile#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#ondemand_metrics_idle_timeout Analyticsprofile#ondemand_metrics_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#ondemand_metrics_idle_timeout Analyticsprofile#ondemand_metrics_idle_timeout}
   */
   readonly ondemandMetricsIdleTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#resp_code_block Analyticsprofile#resp_code_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#resp_code_block Analyticsprofile#resp_code_block}
   */
   readonly respCodeBlock?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#sip_log_depth Analyticsprofile#sip_log_depth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#sip_log_depth Analyticsprofile#sip_log_depth}
   */
   readonly sipLogDepth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#tenant_ref Analyticsprofile#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#tenant_ref Analyticsprofile#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#uuid Analyticsprofile#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#uuid Analyticsprofile#uuid}
   */
   readonly uuid?: string;
   /**
   * client_log_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#client_log_config Analyticsprofile#client_log_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#client_log_config Analyticsprofile#client_log_config}
   */
   readonly clientLogConfig?: AnalyticsprofileClientLogConfig[] | cdktf.IResolvable;
   /**
   * client_log_streaming_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#client_log_streaming_config Analyticsprofile#client_log_streaming_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#client_log_streaming_config Analyticsprofile#client_log_streaming_config}
   */
   readonly clientLogStreamingConfig?: AnalyticsprofileClientLogStreamingConfig[] | cdktf.IResolvable;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#configpb_attributes Analyticsprofile#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#configpb_attributes Analyticsprofile#configpb_attributes}
   */
   readonly configpbAttributes?: AnalyticsprofileConfigpbAttributes[] | cdktf.IResolvable;
   /**
   * latency_audit_props block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#latency_audit_props Analyticsprofile#latency_audit_props}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#latency_audit_props Analyticsprofile#latency_audit_props}
   */
   readonly latencyAuditProps?: AnalyticsprofileLatencyAuditProps[] | cdktf.IResolvable;
   /**
   * markers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#markers Analyticsprofile#markers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#markers Analyticsprofile#markers}
   */
   readonly markers?: AnalyticsprofileMarkers[] | cdktf.IResolvable;
   /**
   * ranges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#ranges Analyticsprofile#ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#ranges Analyticsprofile#ranges}
   */
   readonly ranges?: AnalyticsprofileRanges[] | cdktf.IResolvable;
   /**
   * sensitive_log_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#sensitive_log_profile Analyticsprofile#sensitive_log_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#sensitive_log_profile Analyticsprofile#sensitive_log_profile}
   */
   readonly sensitiveLogProfile?: AnalyticsprofileSensitiveLogProfile[] | cdktf.IResolvable;
   /**
   * time_tracker_props block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#time_tracker_props Analyticsprofile#time_tracker_props}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#time_tracker_props Analyticsprofile#time_tracker_props}
   */
   readonly timeTrackerProps?: AnalyticsprofileTimeTrackerProps[] | cdktf.IResolvable;
 }
 export interface AnalyticsprofileClientLogConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#enable_significant_log_collection Analyticsprofile#enable_significant_log_collection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#enable_significant_log_collection Analyticsprofile#enable_significant_log_collection}
   */
   readonly enableSignificantLogCollection?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#filtered_log_processing Analyticsprofile#filtered_log_processing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#filtered_log_processing Analyticsprofile#filtered_log_processing}
   */
   readonly filteredLogProcessing?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#non_significant_log_processing Analyticsprofile#non_significant_log_processing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#non_significant_log_processing Analyticsprofile#non_significant_log_processing}
   */
   readonly nonSignificantLogProcessing?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#significant_log_processing Analyticsprofile#significant_log_processing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#significant_log_processing Analyticsprofile#significant_log_processing}
   */
   readonly significantLogProcessing?: string;
 }
@@ -596,11 +596,11 @@ export class AnalyticsprofileClientLogConfigList extends cdktf.ComplexList {
 }
 export interface AnalyticsprofileClientLogStreamingConfigFormatConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#format Analyticsprofile#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#format Analyticsprofile#format}
   */
   readonly format: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#included_fields Analyticsprofile#included_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#included_fields Analyticsprofile#included_fields}
   */
   readonly includedFields?: string[];
 }
@@ -742,11 +742,11 @@ export class AnalyticsprofileClientLogStreamingConfigFormatConfigList extends cd
 }
 export interface AnalyticsprofileClientLogStreamingConfigMarkerKeys {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#key Analyticsprofile#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#key Analyticsprofile#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#values Analyticsprofile#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#values Analyticsprofile#values}
   */
   readonly values?: string[];
 }
@@ -888,31 +888,31 @@ export class AnalyticsprofileClientLogStreamingConfigMarkerKeysList extends cdkt
 }
 export interface AnalyticsprofileClientLogStreamingConfigSyslogConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#facility Analyticsprofile#facility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#facility Analyticsprofile#facility}
   */
   readonly facility?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#filtered_log_severity Analyticsprofile#filtered_log_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#filtered_log_severity Analyticsprofile#filtered_log_severity}
   */
   readonly filteredLogSeverity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#hostname Analyticsprofile#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#hostname Analyticsprofile#hostname}
   */
   readonly hostname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#msg_id Analyticsprofile#msg_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#msg_id Analyticsprofile#msg_id}
   */
   readonly msgId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#non_significant_log_severity Analyticsprofile#non_significant_log_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#non_significant_log_severity Analyticsprofile#non_significant_log_severity}
   */
   readonly nonSignificantLogSeverity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#proc_id Analyticsprofile#proc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#proc_id Analyticsprofile#proc_id}
   */
   readonly procId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#significant_log_severity Analyticsprofile#significant_log_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#significant_log_severity Analyticsprofile#significant_log_severity}
   */
   readonly significantLogSeverity?: string;
 }
@@ -1202,41 +1202,41 @@ export class AnalyticsprofileClientLogStreamingConfigSyslogConfigList extends cd
 }
 export interface AnalyticsprofileClientLogStreamingConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#external_server Analyticsprofile#external_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#external_server Analyticsprofile#external_server}
   */
   readonly externalServer: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#external_server_port Analyticsprofile#external_server_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#external_server_port Analyticsprofile#external_server_port}
   */
   readonly externalServerPort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#log_types_to_send Analyticsprofile#log_types_to_send}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#log_types_to_send Analyticsprofile#log_types_to_send}
   */
   readonly logTypesToSend?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#max_logs_per_second Analyticsprofile#max_logs_per_second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#max_logs_per_second Analyticsprofile#max_logs_per_second}
   */
   readonly maxLogsPerSecond?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#protocol Analyticsprofile#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#protocol Analyticsprofile#protocol}
   */
   readonly protocol?: string;
   /**
   * format_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#format_config Analyticsprofile#format_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#format_config Analyticsprofile#format_config}
   */
   readonly formatConfig?: AnalyticsprofileClientLogStreamingConfigFormatConfig[] | cdktf.IResolvable;
   /**
   * marker_keys block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#marker_keys Analyticsprofile#marker_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#marker_keys Analyticsprofile#marker_keys}
   */
   readonly markerKeys?: AnalyticsprofileClientLogStreamingConfigMarkerKeys[] | cdktf.IResolvable;
   /**
   * syslog_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#syslog_config Analyticsprofile#syslog_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#syslog_config Analyticsprofile#syslog_config}
   */
   readonly syslogConfig?: AnalyticsprofileClientLogStreamingConfigSyslogConfig[] | cdktf.IResolvable;
 }
@@ -1552,7 +1552,7 @@ export class AnalyticsprofileClientLogStreamingConfigList extends cdktf.ComplexL
 }
 export interface AnalyticsprofileConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#version Analyticsprofile#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#version Analyticsprofile#version}
   */
   readonly version?: string;
 }
@@ -1668,19 +1668,19 @@ export class AnalyticsprofileConfigpbAttributesList extends cdktf.ComplexList {
 }
 export interface AnalyticsprofileLatencyAuditProps {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#conn_est_audit_mode Analyticsprofile#conn_est_audit_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#conn_est_audit_mode Analyticsprofile#conn_est_audit_mode}
   */
   readonly connEstAuditMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#conn_est_threshold Analyticsprofile#conn_est_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#conn_est_threshold Analyticsprofile#conn_est_threshold}
   */
   readonly connEstThreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#latency_audit_mode Analyticsprofile#latency_audit_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#latency_audit_mode Analyticsprofile#latency_audit_mode}
   */
   readonly latencyAuditMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#latency_threshold Analyticsprofile#latency_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#latency_threshold Analyticsprofile#latency_threshold}
   */
   readonly latencyThreshold?: string;
 }
@@ -1883,11 +1883,11 @@ export class AnalyticsprofileLatencyAuditPropsList extends cdktf.ComplexList {
 }
 export interface AnalyticsprofileMarkers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#key Analyticsprofile#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#key Analyticsprofile#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#values Analyticsprofile#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#values Analyticsprofile#values}
   */
   readonly values?: string[];
 }
@@ -2029,11 +2029,11 @@ export class AnalyticsprofileMarkersList extends cdktf.ComplexList {
 }
 export interface AnalyticsprofileRanges {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#begin Analyticsprofile#begin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#begin Analyticsprofile#begin}
   */
   readonly begin: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#end Analyticsprofile#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#end Analyticsprofile#end}
   */
   readonly end: string;
 }
@@ -2172,15 +2172,15 @@ export class AnalyticsprofileRangesList extends cdktf.ComplexList {
 }
 export interface AnalyticsprofileSensitiveLogProfileHeaderFieldRulesMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#match_criteria Analyticsprofile#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#match_criteria Analyticsprofile#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#match_str Analyticsprofile#match_str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#match_str Analyticsprofile#match_str}
   */
   readonly matchStr?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#string_group_refs Analyticsprofile#string_group_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#string_group_refs Analyticsprofile#string_group_refs}
   */
   readonly stringGroupRefs?: string[];
 }
@@ -2351,25 +2351,25 @@ export class AnalyticsprofileSensitiveLogProfileHeaderFieldRulesMatchList extend
 }
 export interface AnalyticsprofileSensitiveLogProfileHeaderFieldRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#action Analyticsprofile#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#action Analyticsprofile#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#enabled Analyticsprofile#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#enabled Analyticsprofile#enabled}
   */
   readonly enabled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#index Analyticsprofile#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#index Analyticsprofile#index}
   */
   readonly index?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#name Analyticsprofile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#name Analyticsprofile#name}
   */
   readonly name?: string;
   /**
   * match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#match Analyticsprofile#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#match Analyticsprofile#match}
   */
   readonly match?: AnalyticsprofileSensitiveLogProfileHeaderFieldRulesMatch[] | cdktf.IResolvable;
 }
@@ -2601,15 +2601,15 @@ export class AnalyticsprofileSensitiveLogProfileHeaderFieldRulesList extends cdk
 }
 export interface AnalyticsprofileSensitiveLogProfileUriQueryFieldRulesMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#match_criteria Analyticsprofile#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#match_criteria Analyticsprofile#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#match_str Analyticsprofile#match_str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#match_str Analyticsprofile#match_str}
   */
   readonly matchStr?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#string_group_refs Analyticsprofile#string_group_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#string_group_refs Analyticsprofile#string_group_refs}
   */
   readonly stringGroupRefs?: string[];
 }
@@ -2780,25 +2780,25 @@ export class AnalyticsprofileSensitiveLogProfileUriQueryFieldRulesMatchList exte
 }
 export interface AnalyticsprofileSensitiveLogProfileUriQueryFieldRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#action Analyticsprofile#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#action Analyticsprofile#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#enabled Analyticsprofile#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#enabled Analyticsprofile#enabled}
   */
   readonly enabled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#index Analyticsprofile#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#index Analyticsprofile#index}
   */
   readonly index?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#name Analyticsprofile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#name Analyticsprofile#name}
   */
   readonly name?: string;
   /**
   * match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#match Analyticsprofile#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#match Analyticsprofile#match}
   */
   readonly match?: AnalyticsprofileSensitiveLogProfileUriQueryFieldRulesMatch[] | cdktf.IResolvable;
 }
@@ -3030,15 +3030,15 @@ export class AnalyticsprofileSensitiveLogProfileUriQueryFieldRulesList extends c
 }
 export interface AnalyticsprofileSensitiveLogProfileWafFieldRulesMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#match_criteria Analyticsprofile#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#match_criteria Analyticsprofile#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#match_str Analyticsprofile#match_str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#match_str Analyticsprofile#match_str}
   */
   readonly matchStr?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#string_group_refs Analyticsprofile#string_group_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#string_group_refs Analyticsprofile#string_group_refs}
   */
   readonly stringGroupRefs?: string[];
 }
@@ -3209,25 +3209,25 @@ export class AnalyticsprofileSensitiveLogProfileWafFieldRulesMatchList extends c
 }
 export interface AnalyticsprofileSensitiveLogProfileWafFieldRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#action Analyticsprofile#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#action Analyticsprofile#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#enabled Analyticsprofile#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#enabled Analyticsprofile#enabled}
   */
   readonly enabled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#index Analyticsprofile#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#index Analyticsprofile#index}
   */
   readonly index?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#name Analyticsprofile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#name Analyticsprofile#name}
   */
   readonly name?: string;
   /**
   * match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#match Analyticsprofile#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#match Analyticsprofile#match}
   */
   readonly match?: AnalyticsprofileSensitiveLogProfileWafFieldRulesMatch[] | cdktf.IResolvable;
 }
@@ -3461,19 +3461,19 @@ export interface AnalyticsprofileSensitiveLogProfile {
   /**
   * header_field_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#header_field_rules Analyticsprofile#header_field_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#header_field_rules Analyticsprofile#header_field_rules}
   */
   readonly headerFieldRules?: AnalyticsprofileSensitiveLogProfileHeaderFieldRules[] | cdktf.IResolvable;
   /**
   * uri_query_field_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#uri_query_field_rules Analyticsprofile#uri_query_field_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#uri_query_field_rules Analyticsprofile#uri_query_field_rules}
   */
   readonly uriQueryFieldRules?: AnalyticsprofileSensitiveLogProfileUriQueryFieldRules[] | cdktf.IResolvable;
   /**
   * waf_field_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#waf_field_rules Analyticsprofile#waf_field_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#waf_field_rules Analyticsprofile#waf_field_rules}
   */
   readonly wafFieldRules?: AnalyticsprofileSensitiveLogProfileWafFieldRules[] | cdktf.IResolvable;
 }
@@ -3647,23 +3647,23 @@ export class AnalyticsprofileSensitiveLogProfileList extends cdktf.ComplexList {
 }
 export interface AnalyticsprofileTimeTrackerProps {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#be_conn_est_audit_mode Analyticsprofile#be_conn_est_audit_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#be_conn_est_audit_mode Analyticsprofile#be_conn_est_audit_mode}
   */
   readonly beConnEstAuditMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#be_conn_est_threshold Analyticsprofile#be_conn_est_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#be_conn_est_threshold Analyticsprofile#be_conn_est_threshold}
   */
   readonly beConnEstThreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#fe_conn_est_audit_mode Analyticsprofile#fe_conn_est_audit_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#fe_conn_est_audit_mode Analyticsprofile#fe_conn_est_audit_mode}
   */
   readonly feConnEstAuditMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#fe_conn_est_threshold Analyticsprofile#fe_conn_est_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#fe_conn_est_threshold Analyticsprofile#fe_conn_est_threshold}
   */
   readonly feConnEstThreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#ingress_sig_log Analyticsprofile#ingress_sig_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#ingress_sig_log Analyticsprofile#ingress_sig_log}
   */
   readonly ingressSigLog?: string;
 }
@@ -3895,7 +3895,7 @@ export class AnalyticsprofileTimeTrackerPropsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile avi_analyticsprofile}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile avi_analyticsprofile}
 */
 export class Analyticsprofile extends cdktf.TerraformResource {
 
@@ -3911,7 +3911,7 @@ export class Analyticsprofile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Analyticsprofile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Analyticsprofile to import
-  * @param importFromId The id of the existing Analyticsprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Analyticsprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Analyticsprofile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3923,7 +3923,7 @@ export class Analyticsprofile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/analyticsprofile avi_analyticsprofile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/analyticsprofile avi_analyticsprofile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3934,7 +3934,8 @@ export class Analyticsprofile extends cdktf.TerraformResource {
       terraformResourceType: 'avi_analyticsprofile',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '31.1.1'
+        providerVersion: '30.2.5',
+        providerVersionConstraint: '30.2.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

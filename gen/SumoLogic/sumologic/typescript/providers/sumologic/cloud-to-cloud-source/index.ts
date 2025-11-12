@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloud_to_cloud_source
+// https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloud_to_cloud_source
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,28 @@ import * as cdktf from 'cdktf';
 
 export interface CloudToCloudSourceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloud_to_cloud_source#collector_id CloudToCloudSource#collector_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloud_to_cloud_source#collector_id CloudToCloudSource#collector_id}
   */
   readonly collectorId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloud_to_cloud_source#config CloudToCloudSource#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloud_to_cloud_source#config CloudToCloudSource#config}
   */
   readonly config: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloud_to_cloud_source#id CloudToCloudSource#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloud_to_cloud_source#id CloudToCloudSource#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloud_to_cloud_source#schema_ref CloudToCloudSource#schema_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloud_to_cloud_source#schema_ref CloudToCloudSource#schema_ref}
   */
   readonly schemaRef: { [key: string]: string };
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloud_to_cloud_source sumologic_cloud_to_cloud_source}
+* Represents a {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloud_to_cloud_source sumologic_cloud_to_cloud_source}
 */
 export class CloudToCloudSource extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class CloudToCloudSource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudToCloudSource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudToCloudSource to import
-  * @param importFromId The id of the existing CloudToCloudSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloud_to_cloud_source#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudToCloudSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloud_to_cloud_source#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudToCloudSource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class CloudToCloudSource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloud_to_cloud_source sumologic_cloud_to_cloud_source} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloud_to_cloud_source sumologic_cloud_to_cloud_source} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,7 +68,8 @@ export class CloudToCloudSource extends cdktf.TerraformResource {
       terraformResourceType: 'sumologic_cloud_to_cloud_source',
       terraformGeneratorMetadata: {
         providerName: 'sumologic',
-        providerVersion: '3.1.7'
+        providerVersion: '3.1.8',
+        providerVersionConstraint: '3.1.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

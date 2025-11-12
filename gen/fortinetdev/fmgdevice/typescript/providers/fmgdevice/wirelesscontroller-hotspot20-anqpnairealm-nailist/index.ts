@@ -459,7 +459,8 @@ export class WirelesscontrollerHotspot20AnqpnairealmNailist extends cdktf.Terraf
       terraformResourceType: 'fmgdevice_wirelesscontroller_hotspot20_anqpnairealm_nailist',
       terraformGeneratorMetadata: {
         providerName: 'fmgdevice',
-        providerVersion: '1.2.1'
+        providerVersion: '1.2.1',
+        providerVersionConstraint: '1.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

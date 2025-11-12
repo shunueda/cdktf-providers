@@ -104,7 +104,8 @@ export class Mutation extends cdktf.TerraformResource {
       terraformResourceType: 'graphql_mutation',
       terraformGeneratorMetadata: {
         providerName: 'graphql',
-        providerVersion: '2.6.1'
+        providerVersion: '2.6.1',
+        providerVersionConstraint: '2.6.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

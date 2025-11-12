@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/vpc_flow_log
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/vpc_flow_log
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataHcsVpcFlowLogConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specifies the VPC flow log ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/vpc_flow_log#flow_log_id DataHcsVpcFlowLog#flow_log_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/vpc_flow_log#flow_log_id DataHcsVpcFlowLog#flow_log_id}
   */
   readonly flowLogId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/vpc_flow_log#id DataHcsVpcFlowLog#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/vpc_flow_log#id DataHcsVpcFlowLog#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,49 +23,49 @@ export interface DataHcsVpcFlowLogConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specifies the LTS log group ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/vpc_flow_log#log_group_id DataHcsVpcFlowLog#log_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/vpc_flow_log#log_group_id DataHcsVpcFlowLog#log_group_id}
   */
   readonly logGroupId?: string;
   /**
   * Specifies the LTS log stream ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/vpc_flow_log#log_stream_id DataHcsVpcFlowLog#log_stream_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/vpc_flow_log#log_stream_id DataHcsVpcFlowLog#log_stream_id}
   */
   readonly logStreamId?: string;
   /**
   * Specifies the VPC flow log name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/vpc_flow_log#name DataHcsVpcFlowLog#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/vpc_flow_log#name DataHcsVpcFlowLog#name}
   */
   readonly name?: string;
   /**
   * Specifies the region in which to query the resource. If omitted, the provider-level region will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/vpc_flow_log#region DataHcsVpcFlowLog#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/vpc_flow_log#region DataHcsVpcFlowLog#region}
   */
   readonly region?: string;
   /**
   * Specifies the resource ID for which that the logs to be collected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/vpc_flow_log#resource_id DataHcsVpcFlowLog#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/vpc_flow_log#resource_id DataHcsVpcFlowLog#resource_id}
   */
   readonly resourceId?: string;
   /**
   * Specifies the resource type for which that the logs to be collected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/vpc_flow_log#resource_type DataHcsVpcFlowLog#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/vpc_flow_log#resource_type DataHcsVpcFlowLog#resource_type}
   */
   readonly resourceType?: string;
   /**
   * Specifies the status of the flow log.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/vpc_flow_log#status DataHcsVpcFlowLog#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/vpc_flow_log#status DataHcsVpcFlowLog#status}
   */
   readonly status?: string;
   /**
   * Specifies the type of traffic to log.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/vpc_flow_log#traffic_type DataHcsVpcFlowLog#traffic_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/vpc_flow_log#traffic_type DataHcsVpcFlowLog#traffic_type}
   */
   readonly trafficType?: string;
 }
@@ -201,7 +201,7 @@ export class DataHcsVpcFlowLogFlowLogsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/vpc_flow_log hcs_vpc_flow_log}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/vpc_flow_log hcs_vpc_flow_log}
 */
 export class DataHcsVpcFlowLog extends cdktf.TerraformDataSource {
 
@@ -217,7 +217,7 @@ export class DataHcsVpcFlowLog extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataHcsVpcFlowLog resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHcsVpcFlowLog to import
-  * @param importFromId The id of the existing DataHcsVpcFlowLog that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/vpc_flow_log#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHcsVpcFlowLog that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/vpc_flow_log#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHcsVpcFlowLog to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -229,7 +229,7 @@ export class DataHcsVpcFlowLog extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/vpc_flow_log hcs_vpc_flow_log} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/vpc_flow_log hcs_vpc_flow_log} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -240,7 +240,8 @@ export class DataHcsVpcFlowLog extends cdktf.TerraformDataSource {
       terraformResourceType: 'hcs_vpc_flow_log',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.19'
+        providerVersion: '2.4.20',
+        providerVersionConstraint: '2.4.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

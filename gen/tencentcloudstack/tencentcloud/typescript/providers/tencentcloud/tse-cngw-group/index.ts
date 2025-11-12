@@ -544,7 +544,8 @@ export class TseCngwGroup extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_tse_cngw_group',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -208,7 +208,8 @@ export class LtmVirtualServer extends cdktf.TerraformResource {
       terraformResourceType: 'bigip_ltm_virtual_server',
       terraformGeneratorMetadata: {
         providerName: 'bigip',
-        providerVersion: '1.24.1'
+        providerVersion: '1.24.1',
+        providerVersionConstraint: '1.24.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_exception_group
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_exception_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface ManagementExceptionGroupConfig extends cdktf.TerraformMetaArgum
   /**
   * The threat profile to apply this group to in the case of apply-on threat-rules-with-specific-profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_exception_group#applied_profile ManagementExceptionGroup#applied_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_exception_group#applied_profile ManagementExceptionGroup#applied_profile}
   */
   readonly appliedProfile?: string;
   /**
   * An exception group can be set to apply on all threat rules, all threat rules which have a specific profile, or those rules manually chosen by the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_exception_group#apply_on ManagementExceptionGroup#apply_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_exception_group#apply_on ManagementExceptionGroup#apply_on}
   */
   readonly applyOn?: string;
   /**
   * Color of the object. Should be one of existing colors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_exception_group#color ManagementExceptionGroup#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_exception_group#color ManagementExceptionGroup#color}
   */
   readonly color?: string;
   /**
   * Comments string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_exception_group#comments ManagementExceptionGroup#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_exception_group#comments ManagementExceptionGroup#comments}
   */
   readonly comments?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_exception_group#id ManagementExceptionGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_exception_group#id ManagementExceptionGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,31 +41,31 @@ export interface ManagementExceptionGroupConfig extends cdktf.TerraformMetaArgum
   /**
   * Apply changes ignoring errors. You won't be able to publish such a changes. If ignore-warnings flag was omitted - warnings will also be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_exception_group#ignore_errors ManagementExceptionGroup#ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_exception_group#ignore_errors ManagementExceptionGroup#ignore_errors}
   */
   readonly ignoreErrors?: boolean | cdktf.IResolvable;
   /**
   * Apply changes ignoring warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_exception_group#ignore_warnings ManagementExceptionGroup#ignore_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_exception_group#ignore_warnings ManagementExceptionGroup#ignore_warnings}
   */
   readonly ignoreWarnings?: boolean | cdktf.IResolvable;
   /**
   * Object name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_exception_group#name ManagementExceptionGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_exception_group#name ManagementExceptionGroup#name}
   */
   readonly name: string;
   /**
   * Collection of tag identifiers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_exception_group#tags ManagementExceptionGroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_exception_group#tags ManagementExceptionGroup#tags}
   */
   readonly tags?: string[];
   /**
   * applied_threat_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_exception_group#applied_threat_rules ManagementExceptionGroup#applied_threat_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_exception_group#applied_threat_rules ManagementExceptionGroup#applied_threat_rules}
   */
   readonly appliedThreatRules?: ManagementExceptionGroupAppliedThreatRules[] | cdktf.IResolvable;
 }
@@ -73,19 +73,19 @@ export interface ManagementExceptionGroupAppliedThreatRules {
   /**
   * The layer of the threat rule to which the group is to be attached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_exception_group#layer ManagementExceptionGroup#layer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_exception_group#layer ManagementExceptionGroup#layer}
   */
   readonly layer?: string;
   /**
   * The name of the threat rule to which the group is to be attached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_exception_group#name ManagementExceptionGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_exception_group#name ManagementExceptionGroup#name}
   */
   readonly name?: string;
   /**
   * Position in the rulebase.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_exception_group#position ManagementExceptionGroup#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_exception_group#position ManagementExceptionGroup#position}
   */
   readonly position: { [key: string]: string };
 }
@@ -256,7 +256,7 @@ export class ManagementExceptionGroupAppliedThreatRulesList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_exception_group checkpoint_management_exception_group}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_exception_group checkpoint_management_exception_group}
 */
 export class ManagementExceptionGroup extends cdktf.TerraformResource {
 
@@ -272,7 +272,7 @@ export class ManagementExceptionGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementExceptionGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementExceptionGroup to import
-  * @param importFromId The id of the existing ManagementExceptionGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_exception_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementExceptionGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_exception_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementExceptionGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -284,7 +284,7 @@ export class ManagementExceptionGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_exception_group checkpoint_management_exception_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_exception_group checkpoint_management_exception_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -295,7 +295,8 @@ export class ManagementExceptionGroup extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_exception_group',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

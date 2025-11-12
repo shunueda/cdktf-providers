@@ -732,7 +732,8 @@ export class DataWizUsers extends cdktf.TerraformDataSource {
       terraformResourceType: 'wiz_users',
       terraformGeneratorMetadata: {
         providerName: 'wiz',
-        providerVersion: '1.2.5'
+        providerVersion: '1.2.5',
+        providerVersionConstraint: '1.2.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

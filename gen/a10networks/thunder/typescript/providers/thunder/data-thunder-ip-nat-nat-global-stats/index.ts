@@ -111,7 +111,8 @@ export class DataThunderIpNatNatGlobalStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_ip_nat_nat_global_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

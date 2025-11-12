@@ -318,7 +318,8 @@ export class CloudAccountNsxv extends cdktf.TerraformResource {
       terraformResourceType: 'vra_cloud_account_nsxv',
       terraformGeneratorMetadata: {
         providerName: 'vra',
-        providerVersion: '0.15.0'
+        providerVersion: '0.15.0',
+        providerVersionConstraint: '0.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

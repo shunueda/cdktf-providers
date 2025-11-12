@@ -309,7 +309,8 @@ export class RepositoryNpmGroup extends cdktf.TerraformResource {
       terraformResourceType: 'nexus_repository_npm_group',
       terraformGeneratorMetadata: {
         providerName: 'nexus',
-        providerVersion: '2.6.0'
+        providerVersion: '2.6.0',
+        providerVersionConstraint: '2.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

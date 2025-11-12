@@ -985,7 +985,8 @@ export class Clone extends cdktf.TerraformResource {
       terraformResourceType: 'git_clone',
       terraformGeneratorMetadata: {
         providerName: 'git',
-        providerVersion: '2025.10.31'
+        providerVersion: '2025.10.31',
+        providerVersionConstraint: '2025.10.31'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

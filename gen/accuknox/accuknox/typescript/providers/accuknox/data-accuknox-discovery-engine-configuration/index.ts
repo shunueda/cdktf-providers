@@ -64,7 +64,8 @@ export class DataAccuknoxDiscoveryEngineConfiguration extends cdktf.TerraformDat
       terraformResourceType: 'accuknox_discovery_engine_configuration',
       terraformGeneratorMetadata: {
         providerName: 'accuknox',
-        providerVersion: '1.0.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

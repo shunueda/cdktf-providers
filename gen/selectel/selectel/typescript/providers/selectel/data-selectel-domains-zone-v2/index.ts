@@ -64,7 +64,8 @@ export class DataSelectelDomainsZoneV2 extends cdktf.TerraformDataSource {
       terraformResourceType: 'selectel_domains_zone_v2',
       terraformGeneratorMetadata: {
         providerName: 'selectel',
-        providerVersion: '7.1.0'
+        providerVersion: '7.1.0',
+        providerVersionConstraint: '7.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

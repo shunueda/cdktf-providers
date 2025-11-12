@@ -1278,7 +1278,8 @@ export class CsipRiskCenter extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_csip_risk_center',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

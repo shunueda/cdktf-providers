@@ -68,7 +68,8 @@ export class EipAssociation extends cdktf.TerraformResource {
       terraformResourceType: 'ucloud_eip_association',
       terraformGeneratorMetadata: {
         providerName: 'ucloud',
-        providerVersion: '1.39.1'
+        providerVersion: '1.39.1',
+        providerVersionConstraint: '1.39.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

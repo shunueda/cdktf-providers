@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/elastic_ip
+// https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/elastic_ip
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ElasticIpConfig extends cdktf.TerraformMetaArguments {
   /**
   * ❗ The Elastic IP (EIP) address family (`inet4` or `inet6`; default: `inet4`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/elastic_ip#address_family ElasticIp#address_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/elastic_ip#address_family ElasticIp#address_family}
   */
   readonly addressFamily?: string;
   /**
   * A free-form text describing the Elastic IP (EIP).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/elastic_ip#description ElasticIp#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/elastic_ip#description ElasticIp#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/elastic_ip#id ElasticIp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/elastic_ip#id ElasticIp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,31 +29,31 @@ export interface ElasticIpConfig extends cdktf.TerraformMetaArguments {
   /**
   * A map of key/value labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/elastic_ip#labels ElasticIp#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/elastic_ip#labels ElasticIp#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Domain name for reverse DNS record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/elastic_ip#reverse_dns ElasticIp#reverse_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/elastic_ip#reverse_dns ElasticIp#reverse_dns}
   */
   readonly reverseDns?: string;
   /**
   * ❗ The Exoscale [Zone](https://www.exoscale.com/datacenters/) name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/elastic_ip#zone ElasticIp#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/elastic_ip#zone ElasticIp#zone}
   */
   readonly zone: string;
   /**
   * healthcheck block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/elastic_ip#healthcheck ElasticIp#healthcheck}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/elastic_ip#healthcheck ElasticIp#healthcheck}
   */
   readonly healthcheck?: ElasticIpHealthcheck;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/elastic_ip#timeouts ElasticIp#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/elastic_ip#timeouts ElasticIp#timeouts}
   */
   readonly timeouts?: ElasticIpTimeouts;
 }
@@ -61,55 +61,55 @@ export interface ElasticIpHealthcheck {
   /**
   * The healthcheck interval (seconds; must be between `5` and `300`; default: `10`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/elastic_ip#interval ElasticIp#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/elastic_ip#interval ElasticIp#interval}
   */
   readonly interval?: number;
   /**
   * The healthcheck mode (`tcp`, `http` or `https`; may only be set at creation time).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/elastic_ip#mode ElasticIp#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/elastic_ip#mode ElasticIp#mode}
   */
   readonly mode: string;
   /**
   * The healthcheck target port (must be between `1` and `65535`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/elastic_ip#port ElasticIp#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/elastic_ip#port ElasticIp#port}
   */
   readonly port: number;
   /**
   * The number of failed healthcheck attempts before considering the target unhealthy (must be between `1` and `20`; default: `2`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/elastic_ip#strikes_fail ElasticIp#strikes_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/elastic_ip#strikes_fail ElasticIp#strikes_fail}
   */
   readonly strikesFail?: number;
   /**
   * The number of successful healthcheck attempts before considering the target healthy (must be between `1` and `20`; default: `3`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/elastic_ip#strikes_ok ElasticIp#strikes_ok}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/elastic_ip#strikes_ok ElasticIp#strikes_ok}
   */
   readonly strikesOk?: number;
   /**
   * The time before considering a healthcheck probing failed (seconds; must be between `2` and `60`; default: `3`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/elastic_ip#timeout ElasticIp#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/elastic_ip#timeout ElasticIp#timeout}
   */
   readonly timeout?: number;
   /**
   * Disable TLS certificate verification for healthcheck in `https` mode (boolean; default: `false`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/elastic_ip#tls_skip_verify ElasticIp#tls_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/elastic_ip#tls_skip_verify ElasticIp#tls_skip_verify}
   */
   readonly tlsSkipVerify?: boolean | cdktf.IResolvable;
   /**
   * The healthcheck server name to present with SNI in `https` mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/elastic_ip#tls_sni ElasticIp#tls_sni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/elastic_ip#tls_sni ElasticIp#tls_sni}
   */
   readonly tlsSni?: string;
   /**
   * The healthcheck target URI (required in `http(s)` modes).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/elastic_ip#uri ElasticIp#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/elastic_ip#uri ElasticIp#uri}
   */
   readonly uri?: string;
 }
@@ -419,19 +419,19 @@ export class ElasticIpHealthcheckOutputReference extends cdktf.ComplexObject {
 }
 export interface ElasticIpTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/elastic_ip#create ElasticIp#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/elastic_ip#create ElasticIp#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/elastic_ip#delete ElasticIp#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/elastic_ip#delete ElasticIp#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/elastic_ip#read ElasticIp#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/elastic_ip#read ElasticIp#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/elastic_ip#update ElasticIp#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/elastic_ip#update ElasticIp#update}
   */
   readonly update?: string;
 }
@@ -612,7 +612,7 @@ export class ElasticIpTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/elastic_ip exoscale_elastic_ip}
+* Represents a {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/elastic_ip exoscale_elastic_ip}
 */
 export class ElasticIp extends cdktf.TerraformResource {
 
@@ -628,7 +628,7 @@ export class ElasticIp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ElasticIp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ElasticIp to import
-  * @param importFromId The id of the existing ElasticIp that should be imported. Refer to the {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/elastic_ip#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ElasticIp that should be imported. Refer to the {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/elastic_ip#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ElasticIp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -640,7 +640,7 @@ export class ElasticIp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/elastic_ip exoscale_elastic_ip} Resource
+  * Create a new {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/elastic_ip exoscale_elastic_ip} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -651,7 +651,8 @@ export class ElasticIp extends cdktf.TerraformResource {
       terraformResourceType: 'exoscale_elastic_ip',
       terraformGeneratorMetadata: {
         providerName: 'exoscale',
-        providerVersion: '0.66.0'
+        providerVersion: '0.67.0',
+        providerVersionConstraint: '0.67.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

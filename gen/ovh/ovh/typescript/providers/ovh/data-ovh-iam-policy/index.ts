@@ -76,7 +76,8 @@ export class DataOvhIamPolicy extends cdktf.TerraformDataSource {
       terraformResourceType: 'ovh_iam_policy',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0'
+        providerVersion: '2.9.0',
+        providerVersionConstraint: '2.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

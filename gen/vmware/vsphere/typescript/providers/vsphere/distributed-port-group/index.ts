@@ -479,7 +479,8 @@ export class DistributedPortGroup extends cdktf.TerraformResource {
       terraformResourceType: 'vsphere_distributed_port_group',
       terraformGeneratorMetadata: {
         providerName: 'vsphere',
-        providerVersion: '2.15.0'
+        providerVersion: '2.15.0',
+        providerVersionConstraint: '2.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

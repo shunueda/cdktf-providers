@@ -103,7 +103,8 @@ export class ApplicationAttributeMapping extends cdktf.TerraformResource {
       terraformResourceType: 'pingone_application_attribute_mapping',
       terraformGeneratorMetadata: {
         providerName: 'pingone',
-        providerVersion: '1.14.0'
+        providerVersion: '1.14.0',
+        providerVersionConstraint: '1.14.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

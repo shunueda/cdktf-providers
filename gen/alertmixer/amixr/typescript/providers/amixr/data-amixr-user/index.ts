@@ -60,7 +60,8 @@ export class DataAmixrUser extends cdktf.TerraformDataSource {
       terraformResourceType: 'amixr_user',
       terraformGeneratorMetadata: {
         providerName: 'amixr',
-        providerVersion: '0.2.3'
+        providerVersion: '0.2.3',
+        providerVersionConstraint: '0.2.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

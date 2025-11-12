@@ -97,7 +97,7 @@ export interface ItemHttpConfig extends cdktf.TerraformMetaArguments {
   */
   readonly proxy?: string;
   /**
-  * HTTP request method, one of: get, post, put, head
+  * HTTP request method, one of: put, head, get, post
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tpretz/zabbix/0.17.0/docs/resources/item_http#request_method ItemHttp#request_method}
   */
@@ -581,7 +581,8 @@ export class ItemHttp extends cdktf.TerraformResource {
       terraformResourceType: 'zabbix_item_http',
       terraformGeneratorMetadata: {
         providerName: 'zabbix',
-        providerVersion: '0.17.0'
+        providerVersion: '0.17.0',
+        providerVersionConstraint: '0.17.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

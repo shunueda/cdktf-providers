@@ -79,7 +79,8 @@ export class JiraProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'jira',
       terraformGeneratorMetadata: {
         providerName: 'jira',
-        providerVersion: '0.1.20'
+        providerVersion: '0.1.20',
+        providerVersionConstraint: '0.1.20'
       },
       terraformProviderSource: 'fourplusone/jira'
     });

@@ -73,7 +73,8 @@ export class KoProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'ko',
       terraformGeneratorMetadata: {
         providerName: 'ko',
-        providerVersion: '0.0.17'
+        providerVersion: '0.0.17',
+        providerVersionConstraint: '0.0.17'
       },
       terraformProviderSource: 'ko-build/ko'
     });

@@ -112,7 +112,8 @@ export class Service extends cdktf.TerraformResource {
       terraformResourceType: 'kong_service',
       terraformGeneratorMetadata: {
         providerName: 'kong',
-        providerVersion: '6.5.1'
+        providerVersion: '6.5.1',
+        providerVersionConstraint: '6.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -204,7 +204,8 @@ export class CreatePushCertificateRequestStatus extends cdktf.TerraformResource 
       terraformResourceType: 'appviewx_create_push_certificate_request_status',
       terraformGeneratorMetadata: {
         providerName: 'appviewx',
-        providerVersion: '1.0.8'
+        providerVersion: '1.0.8',
+        providerVersionConstraint: '1.0.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

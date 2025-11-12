@@ -122,7 +122,8 @@ export class ManagedBackup extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_managed_backup',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1'
+        providerVersion: '1.87.1',
+        providerVersionConstraint: '1.87.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

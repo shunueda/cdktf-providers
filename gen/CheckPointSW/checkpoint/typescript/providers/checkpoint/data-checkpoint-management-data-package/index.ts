@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_data_package
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_data_package
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataCheckpointManagementDataPackageConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_data_package#id DataCheckpointManagementDataPackage#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_data_package#id DataCheckpointManagementDataPackage#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,25 @@ export interface DataCheckpointManagementDataPackageConfig extends cdktf.Terrafo
   /**
   * Object name. Should be unique in the domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_data_package#name DataCheckpointManagementDataPackage#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_data_package#name DataCheckpointManagementDataPackage#name}
   */
   readonly name?: string;
   /**
+  * Indicates whether to calculate and show "installation-targets" field in reply.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_data_package#show_installation_targets DataCheckpointManagementDataPackage#show_installation_targets}
+  */
+  readonly showInstallationTargets?: boolean | cdktf.IResolvable;
+  /**
   * Object unique identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_data_package#uid DataCheckpointManagementDataPackage#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_data_package#uid DataCheckpointManagementDataPackage#uid}
   */
   readonly uid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_data_package checkpoint_management_data_package}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_data_package checkpoint_management_data_package}
 */
 export class DataCheckpointManagementDataPackage extends cdktf.TerraformDataSource {
 
@@ -45,7 +51,7 @@ export class DataCheckpointManagementDataPackage extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataCheckpointManagementDataPackage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCheckpointManagementDataPackage to import
-  * @param importFromId The id of the existing DataCheckpointManagementDataPackage that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_data_package#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCheckpointManagementDataPackage that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_data_package#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCheckpointManagementDataPackage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +63,7 @@ export class DataCheckpointManagementDataPackage extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_data_package checkpoint_management_data_package} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_data_package checkpoint_management_data_package} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,7 +74,8 @@ export class DataCheckpointManagementDataPackage extends cdktf.TerraformDataSour
       terraformResourceType: 'checkpoint_management_data_package',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -80,6 +87,7 @@ export class DataCheckpointManagementDataPackage extends cdktf.TerraformDataSour
     });
     this._id = config.id;
     this._name = config.name;
+    this._showInstallationTargets = config.showInstallationTargets;
     this._uid = config.uid;
   }
 
@@ -154,6 +162,22 @@ export class DataCheckpointManagementDataPackage extends cdktf.TerraformDataSour
     return this.getStringAttribute('qos_policy_type');
   }
 
+  // show_installation_targets - computed: false, optional: true, required: false
+  private _showInstallationTargets?: boolean | cdktf.IResolvable; 
+  public get showInstallationTargets() {
+    return this.getBooleanAttribute('show_installation_targets');
+  }
+  public set showInstallationTargets(value: boolean | cdktf.IResolvable) {
+    this._showInstallationTargets = value;
+  }
+  public resetShowInstallationTargets() {
+    this._showInstallationTargets = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get showInstallationTargetsInput() {
+    return this._showInstallationTargets;
+  }
+
   // tags - computed: true, optional: false, required: false
   public get tags() {
     return cdktf.Fn.tolist(this.getListAttribute('tags'));
@@ -193,6 +217,7 @@ export class DataCheckpointManagementDataPackage extends cdktf.TerraformDataSour
     return {
       id: cdktf.stringToTerraform(this._id),
       name: cdktf.stringToTerraform(this._name),
+      show_installation_targets: cdktf.booleanToTerraform(this._showInstallationTargets),
       uid: cdktf.stringToTerraform(this._uid),
     };
   }
@@ -210,6 +235,12 @@ export class DataCheckpointManagementDataPackage extends cdktf.TerraformDataSour
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      show_installation_targets: {
+        value: cdktf.booleanToHclTerraform(this._showInstallationTargets),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
       },
       uid: {
         value: cdktf.stringToHclTerraform(this._uid),

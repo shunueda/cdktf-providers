@@ -230,7 +230,8 @@ export class DatabaseManagementExternalMySqlDatabase extends cdktf.TerraformReso
       terraformResourceType: 'oci_database_management_external_my_sql_database',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

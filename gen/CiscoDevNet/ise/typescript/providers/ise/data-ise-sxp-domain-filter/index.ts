@@ -64,7 +64,8 @@ export class DataIseSxpDomainFilter extends cdktf.TerraformDataSource {
       terraformResourceType: 'ise_sxp_domain_filter',
       terraformGeneratorMetadata: {
         providerName: 'ise',
-        providerVersion: '0.2.12'
+        providerVersion: '0.2.12',
+        providerVersionConstraint: '0.2.12'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

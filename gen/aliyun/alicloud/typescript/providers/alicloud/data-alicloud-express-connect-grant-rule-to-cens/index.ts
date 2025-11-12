@@ -166,7 +166,8 @@ export class DataAlicloudExpressConnectGrantRuleToCens extends cdktf.TerraformDa
       terraformResourceType: 'alicloud_express_connect_grant_rule_to_cens',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

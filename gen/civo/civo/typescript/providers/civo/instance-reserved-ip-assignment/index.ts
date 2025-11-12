@@ -174,7 +174,8 @@ export class InstanceReservedIpAssignment extends cdktf.TerraformResource {
       terraformResourceType: 'civo_instance_reserved_ip_assignment',
       terraformGeneratorMetadata: {
         providerName: 'civo',
-        providerVersion: '1.1.7'
+        providerVersion: '1.1.7',
+        providerVersionConstraint: '1.1.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

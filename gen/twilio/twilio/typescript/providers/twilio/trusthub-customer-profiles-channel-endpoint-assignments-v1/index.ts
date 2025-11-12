@@ -68,7 +68,8 @@ export class TrusthubCustomerProfilesChannelEndpointAssignmentsV1 extends cdktf.
       terraformResourceType: 'twilio_trusthub_customer_profiles_channel_endpoint_assignments_v1',
       terraformGeneratorMetadata: {
         providerName: 'twilio',
-        providerVersion: '0.18.46'
+        providerVersion: '0.18.46',
+        providerVersionConstraint: '0.18.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

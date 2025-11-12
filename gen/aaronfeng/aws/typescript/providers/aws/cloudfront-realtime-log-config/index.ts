@@ -298,7 +298,8 @@ export class CloudfrontRealtimeLogConfig extends cdktf.TerraformResource {
       terraformResourceType: 'aws_cloudfront_realtime_log_config',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '3.29.6'
+        providerVersion: '3.29.6',
+        providerVersionConstraint: '3.29.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

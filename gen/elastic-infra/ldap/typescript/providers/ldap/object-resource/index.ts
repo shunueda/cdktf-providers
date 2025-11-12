@@ -74,7 +74,8 @@ export class ObjectResource extends cdktf.TerraformResource {
       terraformResourceType: 'ldap_object',
       terraformGeneratorMetadata: {
         providerName: 'ldap',
-        providerVersion: '2.0.1'
+        providerVersion: '2.0.1',
+        providerVersionConstraint: '2.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

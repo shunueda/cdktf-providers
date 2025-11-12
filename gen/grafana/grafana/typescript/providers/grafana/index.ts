@@ -5,12 +5,15 @@ export * as appsDashboardDashboardV1Beta1 from './apps-dashboard-dashboard-v1bet
 export * as appsPlaylistPlaylistV0Alpha1 from './apps-playlist-playlist-v0alpha1';
 export * as appsProductactivationAppo11YconfigV1Alpha1 from './apps-productactivation-appo11yconfig-v1alpha1';
 export * as appsProductactivationK8So11YconfigV1Alpha1 from './apps-productactivation-k8so11yconfig-v1alpha1';
+export * as appsRulesAlertruleV0Alpha1 from './apps-rules-alertrule-v0alpha1';
+export * as appsRulesRecordingruleV0Alpha1 from './apps-rules-recordingrule-v0alpha1';
 export * as assertsCustomModelRules from './asserts-custom-model-rules';
 export * as assertsLogConfig from './asserts-log-config';
 export * as assertsNotificationAlertsConfig from './asserts-notification-alerts-config';
 export * as assertsSuppressedAssertionsConfig from './asserts-suppressed-assertions-config';
 export * as assertsThresholds from './asserts-thresholds';
 export * as cloudAccessPolicy from './cloud-access-policy';
+export * as cloudAccessPolicyRotatingToken from './cloud-access-policy-rotating-token';
 export * as cloudAccessPolicyToken from './cloud-access-policy-token';
 export * as cloudOrgMember from './cloud-org-member';
 export * as cloudPluginInstallation from './cloud-plugin-installation';

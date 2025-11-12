@@ -110,7 +110,8 @@ export class CallHomeProfile extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_call_home_profile',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

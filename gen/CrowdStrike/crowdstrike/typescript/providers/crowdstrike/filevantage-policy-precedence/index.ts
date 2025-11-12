@@ -67,7 +67,8 @@ export class FilevantagePolicyPrecedence extends cdktf.TerraformResource {
       terraformResourceType: 'crowdstrike_filevantage_policy_precedence',
       terraformGeneratorMetadata: {
         providerName: 'crowdstrike',
-        providerVersion: '0.0.43'
+        providerVersion: '0.0.43',
+        providerVersionConstraint: '0.0.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

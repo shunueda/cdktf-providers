@@ -3504,7 +3504,8 @@ export class ApplicationPriorityTrafficPolicyPolicy extends cdktf.TerraformResou
       terraformResourceType: 'sdwan_application_priority_traffic_policy_policy',
       terraformGeneratorMetadata: {
         providerName: 'sdwan',
-        providerVersion: '0.8.1'
+        providerVersion: '0.8.1',
+        providerVersionConstraint: '0.8.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

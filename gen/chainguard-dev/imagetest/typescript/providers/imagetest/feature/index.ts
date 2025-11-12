@@ -1589,7 +1589,8 @@ export class Feature extends cdktf.TerraformResource {
       terraformResourceType: 'imagetest_feature',
       terraformGeneratorMetadata: {
         providerName: 'imagetest',
-        providerVersion: '0.0.102'
+        providerVersion: '0.0.102',
+        providerVersionConstraint: '0.0.102'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

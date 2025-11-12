@@ -374,7 +374,8 @@ export class Mysql80 extends cdktf.TerraformResource {
       terraformResourceType: 'gridscale_mysql8_0',
       terraformGeneratorMetadata: {
         providerName: 'gridscale',
-        providerVersion: '2.2.3'
+        providerVersion: '2.2.3',
+        providerVersionConstraint: '2.2.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -227,7 +227,8 @@ export class IpExtcommunityListExpandedNum extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_ip_extcommunity_list_expanded_num',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

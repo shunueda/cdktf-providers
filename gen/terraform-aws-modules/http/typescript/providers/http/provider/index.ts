@@ -55,7 +55,8 @@ export class HttpProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'http',
       terraformGeneratorMetadata: {
         providerName: 'http',
-        providerVersion: '2.4.1'
+        providerVersion: '2.4.1',
+        providerVersionConstraint: '2.4.1'
       },
       terraformProviderSource: 'terraform-aws-modules/http'
     });

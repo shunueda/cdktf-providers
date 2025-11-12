@@ -68,7 +68,8 @@ export class Password extends cdktf.TerraformResource {
       terraformResourceType: 'rundeck_password',
       terraformGeneratorMetadata: {
         providerName: 'rundeck',
-        providerVersion: '0.5.2'
+        providerVersion: '0.5.2',
+        providerVersionConstraint: '0.5.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

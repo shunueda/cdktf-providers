@@ -64,7 +64,8 @@ export class StatusUpdateTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'firehydrant_status_update_template',
       terraformGeneratorMetadata: {
         providerName: 'firehydrant',
-        providerVersion: '0.14.9'
+        providerVersion: '0.14.9',
+        providerVersionConstraint: '0.14.9'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

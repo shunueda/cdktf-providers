@@ -282,7 +282,8 @@ export class DmsReplicationInstance extends cdktf.TerraformResource {
       terraformResourceType: 'aws_dms_replication_instance',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '3.29.6'
+        providerVersion: '3.29.6',
+        providerVersionConstraint: '3.29.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

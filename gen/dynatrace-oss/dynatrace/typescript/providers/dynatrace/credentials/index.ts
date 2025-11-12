@@ -1038,7 +1038,8 @@ export class Credentials extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_credentials',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1'
+        providerVersion: '1.87.1',
+        providerVersionConstraint: '1.87.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

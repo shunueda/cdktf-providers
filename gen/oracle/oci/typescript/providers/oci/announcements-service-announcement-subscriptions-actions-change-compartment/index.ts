@@ -230,7 +230,8 @@ export class AnnouncementsServiceAnnouncementSubscriptionsActionsChangeCompartme
       terraformResourceType: 'oci_announcements_service_announcement_subscriptions_actions_change_compartment',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

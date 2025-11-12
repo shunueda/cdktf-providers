@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs
+// https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface VcfProviderConfig {
   /**
   * Allow unverified TLS certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs#allow_unverified_tls VcfProvider#allow_unverified_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs#allow_unverified_tls VcfProvider#allow_unverified_tls}
   */
   readonly allowUnverifiedTls?: boolean | cdktf.IResolvable;
   /**
-  * The fully qualified domain name or IP address of the installer.
+  * The fully qualified domain name or IP address of the Cloud Builder instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs#installer_host VcfProvider#installer_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs#cloud_builder_host VcfProvider#cloud_builder_host}
   */
-  readonly installerHost?: string;
+  readonly cloudBuilderHost?: string;
   /**
-  * The password to authenticate to the installer.
+  * The password to authenticate to the Cloud Builder instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs#installer_password VcfProvider#installer_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs#cloud_builder_password VcfProvider#cloud_builder_password}
   */
-  readonly installerPassword?: string;
+  readonly cloudBuilderPassword?: string;
   /**
-  * The username to authenticate to the installer.
+  * The username to authenticate to the Cloud Builder instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs#installer_username VcfProvider#installer_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs#cloud_builder_username VcfProvider#cloud_builder_username}
   */
-  readonly installerUsername?: string;
+  readonly cloudBuilderUsername?: string;
   /**
   * The fully qualified domain name or IP address of the SDDC Manager instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs#sddc_manager_host VcfProvider#sddc_manager_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs#sddc_manager_host VcfProvider#sddc_manager_host}
   */
   readonly sddcManagerHost?: string;
   /**
   * The password to authenticate to the SDDC Manager instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs#sddc_manager_password VcfProvider#sddc_manager_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs#sddc_manager_password VcfProvider#sddc_manager_password}
   */
   readonly sddcManagerPassword?: string;
   /**
   * The username to authenticate to the SDDC Manager instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs#sddc_manager_username VcfProvider#sddc_manager_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs#sddc_manager_username VcfProvider#sddc_manager_username}
   */
   readonly sddcManagerUsername?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs#alias VcfProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs#alias VcfProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs vcf}
+* Represents a {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs vcf}
 */
 export class VcfProvider extends cdktf.TerraformProvider {
 
@@ -74,7 +74,7 @@ export class VcfProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a VcfProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VcfProvider to import
-  * @param importFromId The id of the existing VcfProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VcfProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VcfProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -86,7 +86,7 @@ export class VcfProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs vcf} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs vcf} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -97,14 +97,15 @@ export class VcfProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'vcf',
       terraformGeneratorMetadata: {
         providerName: 'vcf',
-        providerVersion: '0.17.1'
+        providerVersion: '0.16.2',
+        providerVersionConstraint: '0.16.2'
       },
       terraformProviderSource: 'vmware/vcf'
     });
     this._allowUnverifiedTls = config.allowUnverifiedTls;
-    this._installerHost = config.installerHost;
-    this._installerPassword = config.installerPassword;
-    this._installerUsername = config.installerUsername;
+    this._cloudBuilderHost = config.cloudBuilderHost;
+    this._cloudBuilderPassword = config.cloudBuilderPassword;
+    this._cloudBuilderUsername = config.cloudBuilderUsername;
     this._sddcManagerHost = config.sddcManagerHost;
     this._sddcManagerPassword = config.sddcManagerPassword;
     this._sddcManagerUsername = config.sddcManagerUsername;
@@ -131,52 +132,52 @@ export class VcfProvider extends cdktf.TerraformProvider {
     return this._allowUnverifiedTls;
   }
 
-  // installer_host - computed: false, optional: true, required: false
-  private _installerHost?: string; 
-  public get installerHost() {
-    return this._installerHost;
+  // cloud_builder_host - computed: false, optional: true, required: false
+  private _cloudBuilderHost?: string; 
+  public get cloudBuilderHost() {
+    return this._cloudBuilderHost;
   }
-  public set installerHost(value: string | undefined) {
-    this._installerHost = value;
+  public set cloudBuilderHost(value: string | undefined) {
+    this._cloudBuilderHost = value;
   }
-  public resetInstallerHost() {
-    this._installerHost = undefined;
+  public resetCloudBuilderHost() {
+    this._cloudBuilderHost = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get installerHostInput() {
-    return this._installerHost;
+  public get cloudBuilderHostInput() {
+    return this._cloudBuilderHost;
   }
 
-  // installer_password - computed: false, optional: true, required: false
-  private _installerPassword?: string; 
-  public get installerPassword() {
-    return this._installerPassword;
+  // cloud_builder_password - computed: false, optional: true, required: false
+  private _cloudBuilderPassword?: string; 
+  public get cloudBuilderPassword() {
+    return this._cloudBuilderPassword;
   }
-  public set installerPassword(value: string | undefined) {
-    this._installerPassword = value;
+  public set cloudBuilderPassword(value: string | undefined) {
+    this._cloudBuilderPassword = value;
   }
-  public resetInstallerPassword() {
-    this._installerPassword = undefined;
+  public resetCloudBuilderPassword() {
+    this._cloudBuilderPassword = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get installerPasswordInput() {
-    return this._installerPassword;
+  public get cloudBuilderPasswordInput() {
+    return this._cloudBuilderPassword;
   }
 
-  // installer_username - computed: false, optional: true, required: false
-  private _installerUsername?: string; 
-  public get installerUsername() {
-    return this._installerUsername;
+  // cloud_builder_username - computed: false, optional: true, required: false
+  private _cloudBuilderUsername?: string; 
+  public get cloudBuilderUsername() {
+    return this._cloudBuilderUsername;
   }
-  public set installerUsername(value: string | undefined) {
-    this._installerUsername = value;
+  public set cloudBuilderUsername(value: string | undefined) {
+    this._cloudBuilderUsername = value;
   }
-  public resetInstallerUsername() {
-    this._installerUsername = undefined;
+  public resetCloudBuilderUsername() {
+    this._cloudBuilderUsername = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get installerUsernameInput() {
-    return this._installerUsername;
+  public get cloudBuilderUsernameInput() {
+    return this._cloudBuilderUsername;
   }
 
   // sddc_manager_host - computed: false, optional: true, required: false
@@ -250,9 +251,9 @@ export class VcfProvider extends cdktf.TerraformProvider {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       allow_unverified_tls: cdktf.booleanToTerraform(this._allowUnverifiedTls),
-      installer_host: cdktf.stringToTerraform(this._installerHost),
-      installer_password: cdktf.stringToTerraform(this._installerPassword),
-      installer_username: cdktf.stringToTerraform(this._installerUsername),
+      cloud_builder_host: cdktf.stringToTerraform(this._cloudBuilderHost),
+      cloud_builder_password: cdktf.stringToTerraform(this._cloudBuilderPassword),
+      cloud_builder_username: cdktf.stringToTerraform(this._cloudBuilderUsername),
       sddc_manager_host: cdktf.stringToTerraform(this._sddcManagerHost),
       sddc_manager_password: cdktf.stringToTerraform(this._sddcManagerPassword),
       sddc_manager_username: cdktf.stringToTerraform(this._sddcManagerUsername),
@@ -268,20 +269,20 @@ export class VcfProvider extends cdktf.TerraformProvider {
         type: "simple",
         storageClassType: "boolean",
       },
-      installer_host: {
-        value: cdktf.stringToHclTerraform(this._installerHost),
+      cloud_builder_host: {
+        value: cdktf.stringToHclTerraform(this._cloudBuilderHost),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
-      installer_password: {
-        value: cdktf.stringToHclTerraform(this._installerPassword),
+      cloud_builder_password: {
+        value: cdktf.stringToHclTerraform(this._cloudBuilderPassword),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
-      installer_username: {
-        value: cdktf.stringToHclTerraform(this._installerUsername),
+      cloud_builder_username: {
+        value: cdktf.stringToHclTerraform(this._cloudBuilderUsername),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

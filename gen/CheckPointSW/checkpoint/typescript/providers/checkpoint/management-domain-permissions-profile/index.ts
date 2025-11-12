@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_domain_permissions_profile
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_domain_permissions_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface ManagementDomainPermissionsProfileConfig extends cdktf.Terrafor
   /**
   * Color of the object. Should be one of existing colors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_domain_permissions_profile#color ManagementDomainPermissionsProfile#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_domain_permissions_profile#color ManagementDomainPermissionsProfile#color}
   */
   readonly color?: string;
   /**
   * Comments string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_domain_permissions_profile#comments ManagementDomainPermissionsProfile#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_domain_permissions_profile#comments ManagementDomainPermissionsProfile#comments}
   */
   readonly comments?: string;
   /**
   * Define and manage objects in the Check Point database: Network Objects, Services, Custom Application Site, VPN Community, Users, Servers, Resources, Time, UserCheck, and Limit.<br>Only a 'Customized' permission-type profile can edit this permission.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_domain_permissions_profile#edit_common_objects ManagementDomainPermissionsProfile#edit_common_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_domain_permissions_profile#edit_common_objects ManagementDomainPermissionsProfile#edit_common_objects}
   */
   readonly editCommonObjects?: boolean | cdktf.IResolvable;
   /**
   * Endpoint permissions. Not supported for Multi-Domain Servers.<br>Only a 'Customized' permission-type profile can edit these permissions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_domain_permissions_profile#endpoint ManagementDomainPermissionsProfile#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_domain_permissions_profile#endpoint ManagementDomainPermissionsProfile#endpoint}
   */
   readonly endpoint?: { [key: string]: string };
   /**
   * Events and Reports permissions.<br>Only a 'Customized' permission-type profile can edit these permissions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_domain_permissions_profile#events_and_reports ManagementDomainPermissionsProfile#events_and_reports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_domain_permissions_profile#events_and_reports ManagementDomainPermissionsProfile#events_and_reports}
   */
   readonly eventsAndReports?: { [key: string]: string };
   /**
   * Gateways permissions. <br>Only a 'Customized' permission-type profile can edit these permissions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_domain_permissions_profile#gateways ManagementDomainPermissionsProfile#gateways}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_domain_permissions_profile#gateways ManagementDomainPermissionsProfile#gateways}
   */
   readonly gateways?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_domain_permissions_profile#id ManagementDomainPermissionsProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_domain_permissions_profile#id ManagementDomainPermissionsProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,61 +53,61 @@ export interface ManagementDomainPermissionsProfileConfig extends cdktf.Terrafor
   /**
   * Apply changes ignoring errors. You won't be able to publish such a changes. If ignore-warnings flag was omitted - warnings will also be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_domain_permissions_profile#ignore_errors ManagementDomainPermissionsProfile#ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_domain_permissions_profile#ignore_errors ManagementDomainPermissionsProfile#ignore_errors}
   */
   readonly ignoreErrors?: boolean | cdktf.IResolvable;
   /**
   * Apply changes ignoring warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_domain_permissions_profile#ignore_warnings ManagementDomainPermissionsProfile#ignore_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_domain_permissions_profile#ignore_warnings ManagementDomainPermissionsProfile#ignore_warnings}
   */
   readonly ignoreWarnings?: boolean | cdktf.IResolvable;
   /**
   * Management permissions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_domain_permissions_profile#management ManagementDomainPermissionsProfile#management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_domain_permissions_profile#management ManagementDomainPermissionsProfile#management}
   */
   readonly management?: { [key: string]: string };
   /**
   * Monitoring and Logging permissions.<br>'Customized' permission-type profile can edit all these permissions. "Read Write All" permission-type can edit only dlp-logs-including-confidential-fields and manage-dlp-messages permissions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_domain_permissions_profile#monitoring_and_logging ManagementDomainPermissionsProfile#monitoring_and_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_domain_permissions_profile#monitoring_and_logging ManagementDomainPermissionsProfile#monitoring_and_logging}
   */
   readonly monitoringAndLogging?: { [key: string]: string };
   /**
   * Object name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_domain_permissions_profile#name ManagementDomainPermissionsProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_domain_permissions_profile#name ManagementDomainPermissionsProfile#name}
   */
   readonly name: string;
   /**
   * Additional permissions.<br>Only a 'Customized' permission-type profile can edit these permissions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_domain_permissions_profile#others ManagementDomainPermissionsProfile#others}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_domain_permissions_profile#others ManagementDomainPermissionsProfile#others}
   */
   readonly others?: { [key: string]: string };
   /**
   * The type of the Permissions Profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_domain_permissions_profile#permission_type ManagementDomainPermissionsProfile#permission_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_domain_permissions_profile#permission_type ManagementDomainPermissionsProfile#permission_type}
   */
   readonly permissionType?: string;
   /**
   * Collection of tag identifiers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_domain_permissions_profile#tags ManagementDomainPermissionsProfile#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_domain_permissions_profile#tags ManagementDomainPermissionsProfile#tags}
   */
   readonly tags?: string[];
   /**
   * Threat Prevention permissions.<br>Only a 'Customized' permission-type profile can edit these permissions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_domain_permissions_profile#threat_prevention ManagementDomainPermissionsProfile#threat_prevention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_domain_permissions_profile#threat_prevention ManagementDomainPermissionsProfile#threat_prevention}
   */
   readonly threatPrevention?: { [key: string]: string };
   /**
   * access_control block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_domain_permissions_profile#access_control ManagementDomainPermissionsProfile#access_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_domain_permissions_profile#access_control ManagementDomainPermissionsProfile#access_control}
   */
   readonly accessControl?: ManagementDomainPermissionsProfileAccessControl;
 }
@@ -115,31 +115,31 @@ export interface ManagementDomainPermissionsProfileAccessControlPolicyLayers {
   /**
   * Use Application and URL Filtering in Access Control rules.<br>Available only if edit-layers is set to "By Software Blades".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_domain_permissions_profile#app_control_and_url_filtering ManagementDomainPermissionsProfile#app_control_and_url_filtering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_domain_permissions_profile#app_control_and_url_filtering ManagementDomainPermissionsProfile#app_control_and_url_filtering}
   */
   readonly appControlAndUrlFiltering?: boolean | cdktf.IResolvable;
   /**
   * Use specified data types in Access Control rules.<br>Available only if edit-layers is set to "By Software Blades".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_domain_permissions_profile#content_awareness ManagementDomainPermissionsProfile#content_awareness}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_domain_permissions_profile#content_awareness ManagementDomainPermissionsProfile#content_awareness}
   */
   readonly contentAwareness?: boolean | cdktf.IResolvable;
   /**
   * "By Software Blades" - Edit Access Control layers that contain the blades enabled in the Permissions Profile.<br>"By Selected Profile In A Layer Editor" - Administrators can only edit the layer if the Access Control layer editor gives editing permission to their profiles.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_domain_permissions_profile#edit_layers ManagementDomainPermissionsProfile#edit_layers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_domain_permissions_profile#edit_layers ManagementDomainPermissionsProfile#edit_layers}
   */
   readonly editLayers?: string;
   /**
   * Work with Access Control and other Software Blades that do not have their own Policies.<br>Available only if edit-layers is set to "By Software Blades".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_domain_permissions_profile#firewall ManagementDomainPermissionsProfile#firewall}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_domain_permissions_profile#firewall ManagementDomainPermissionsProfile#firewall}
   */
   readonly firewall?: boolean | cdktf.IResolvable;
   /**
   * Work with Mobile Access rules.<br>Available only if edit-layers is set to "By Software Blades".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_domain_permissions_profile#mobile_access ManagementDomainPermissionsProfile#mobile_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_domain_permissions_profile#mobile_access ManagementDomainPermissionsProfile#mobile_access}
   */
   readonly mobileAccess?: boolean | cdktf.IResolvable;
 }
@@ -341,55 +341,55 @@ export interface ManagementDomainPermissionsProfileAccessControl {
   /**
   * Allow editing of the following objet types: VPN Community, Access Role, Custom application group,Custom application, Custom category, Limit, Application - Match Settings, Application Category - Match Settings,Override Categorization, Application and URL filtering blade - Advanced Settings, Content Awareness blade - Advanced Settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_domain_permissions_profile#access_control_objects_and_settings ManagementDomainPermissionsProfile#access_control_objects_and_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_domain_permissions_profile#access_control_objects_and_settings ManagementDomainPermissionsProfile#access_control_objects_and_settings}
   */
   readonly accessControlObjectsAndSettings?: string;
   /**
   * Install Application and URL Filtering updates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_domain_permissions_profile#app_control_and_url_filtering_update ManagementDomainPermissionsProfile#app_control_and_url_filtering_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_domain_permissions_profile#app_control_and_url_filtering_update ManagementDomainPermissionsProfile#app_control_and_url_filtering_update}
   */
   readonly appControlAndUrlFilteringUpdate?: boolean | cdktf.IResolvable;
   /**
   * Configure DLP rules and Policies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_domain_permissions_profile#dlp_policy ManagementDomainPermissionsProfile#dlp_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_domain_permissions_profile#dlp_policy ManagementDomainPermissionsProfile#dlp_policy}
   */
   readonly dlpPolicy?: string;
   /**
   * Work with Access Control rules that control traffic to and from specified countries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_domain_permissions_profile#geo_control_policy ManagementDomainPermissionsProfile#geo_control_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_domain_permissions_profile#geo_control_policy ManagementDomainPermissionsProfile#geo_control_policy}
   */
   readonly geoControlPolicy?: string;
   /**
   * Install Access Control Policies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_domain_permissions_profile#install_policy ManagementDomainPermissionsProfile#install_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_domain_permissions_profile#install_policy ManagementDomainPermissionsProfile#install_policy}
   */
   readonly installPolicy?: boolean | cdktf.IResolvable;
   /**
   * Work with NAT in Access Control rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_domain_permissions_profile#nat_policy ManagementDomainPermissionsProfile#nat_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_domain_permissions_profile#nat_policy ManagementDomainPermissionsProfile#nat_policy}
   */
   readonly natPolicy?: string;
   /**
   * Work with QoS Policies and rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_domain_permissions_profile#qos_policy ManagementDomainPermissionsProfile#qos_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_domain_permissions_profile#qos_policy ManagementDomainPermissionsProfile#qos_policy}
   */
   readonly qosPolicy?: string;
   /**
   * Select to let administrators work with Access Control rules and NAT rules. If not selected, administrators cannot see these rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_domain_permissions_profile#show_policy ManagementDomainPermissionsProfile#show_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_domain_permissions_profile#show_policy ManagementDomainPermissionsProfile#show_policy}
   */
   readonly showPolicy?: boolean | cdktf.IResolvable;
   /**
   * policy_layers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_domain_permissions_profile#policy_layers ManagementDomainPermissionsProfile#policy_layers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_domain_permissions_profile#policy_layers ManagementDomainPermissionsProfile#policy_layers}
   */
   readonly policyLayers?: ManagementDomainPermissionsProfileAccessControlPolicyLayers;
 }
@@ -705,7 +705,7 @@ export class ManagementDomainPermissionsProfileAccessControlOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_domain_permissions_profile checkpoint_management_domain_permissions_profile}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_domain_permissions_profile checkpoint_management_domain_permissions_profile}
 */
 export class ManagementDomainPermissionsProfile extends cdktf.TerraformResource {
 
@@ -721,7 +721,7 @@ export class ManagementDomainPermissionsProfile extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a ManagementDomainPermissionsProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementDomainPermissionsProfile to import
-  * @param importFromId The id of the existing ManagementDomainPermissionsProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_domain_permissions_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementDomainPermissionsProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_domain_permissions_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementDomainPermissionsProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -733,7 +733,7 @@ export class ManagementDomainPermissionsProfile extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_domain_permissions_profile checkpoint_management_domain_permissions_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_domain_permissions_profile checkpoint_management_domain_permissions_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -744,7 +744,8 @@ export class ManagementDomainPermissionsProfile extends cdktf.TerraformResource 
       terraformResourceType: 'checkpoint_management_domain_permissions_profile',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

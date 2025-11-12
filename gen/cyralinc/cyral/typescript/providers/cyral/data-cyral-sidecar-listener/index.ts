@@ -588,7 +588,8 @@ export class DataCyralSidecarListener extends cdktf.TerraformDataSource {
       terraformResourceType: 'cyral_sidecar_listener',
       terraformGeneratorMetadata: {
         providerName: 'cyral',
-        providerVersion: '4.16.3'
+        providerVersion: '4.16.3',
+        providerVersionConstraint: '4.16.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -151,7 +151,8 @@ export class DataCloudamqpAccount extends cdktf.TerraformDataSource {
       terraformResourceType: 'cloudamqp_account',
       terraformGeneratorMetadata: {
         providerName: 'cloudamqp',
-        providerVersion: '1.38.1'
+        providerVersion: '1.38.1',
+        providerVersionConstraint: '1.38.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

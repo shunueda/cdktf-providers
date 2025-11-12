@@ -97,7 +97,8 @@ export class RuleWaiver extends cdktf.TerraformResource {
       terraformResourceType: 'fugue_rule_waiver',
       terraformGeneratorMetadata: {
         providerName: 'fugue',
-        providerVersion: '0.0.11'
+        providerVersion: '0.0.11',
+        providerVersionConstraint: '0.0.11'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

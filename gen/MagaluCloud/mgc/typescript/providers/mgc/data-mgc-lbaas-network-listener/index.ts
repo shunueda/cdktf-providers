@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/magalucloud/mgc/0.39.0/docs/data-sources/lbaas_network_listener
+// https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/data-sources/lbaas_network_listener
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataMgcLbaasNetworkListenerConfig extends cdktf.TerraformMetaAr
   /**
   * The Listener ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.39.0/docs/data-sources/lbaas_network_listener#id DataMgcLbaasNetworkListener#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/data-sources/lbaas_network_listener#id DataMgcLbaasNetworkListener#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,13 +19,13 @@ export interface DataMgcLbaasNetworkListenerConfig extends cdktf.TerraformMetaAr
   /**
   * The Network Load Balancer ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.39.0/docs/data-sources/lbaas_network_listener#lb_id DataMgcLbaasNetworkListener#lb_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/data-sources/lbaas_network_listener#lb_id DataMgcLbaasNetworkListener#lb_id}
   */
   readonly lbId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.39.0/docs/data-sources/lbaas_network_listener mgc_lbaas_network_listener}
+* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/data-sources/lbaas_network_listener mgc_lbaas_network_listener}
 */
 export class DataMgcLbaasNetworkListener extends cdktf.TerraformDataSource {
 
@@ -41,7 +41,7 @@ export class DataMgcLbaasNetworkListener extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataMgcLbaasNetworkListener resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMgcLbaasNetworkListener to import
-  * @param importFromId The id of the existing DataMgcLbaasNetworkListener that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.39.0/docs/data-sources/lbaas_network_listener#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMgcLbaasNetworkListener that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/data-sources/lbaas_network_listener#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMgcLbaasNetworkListener to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -53,7 +53,7 @@ export class DataMgcLbaasNetworkListener extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.39.0/docs/data-sources/lbaas_network_listener mgc_lbaas_network_listener} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/data-sources/lbaas_network_listener mgc_lbaas_network_listener} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -64,7 +64,8 @@ export class DataMgcLbaasNetworkListener extends cdktf.TerraformDataSource {
       terraformResourceType: 'mgc_lbaas_network_listener',
       terraformGeneratorMetadata: {
         providerName: 'mgc',
-        providerVersion: '0.39.0'
+        providerVersion: '0.40.0',
+        providerVersionConstraint: '0.40.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

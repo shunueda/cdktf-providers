@@ -242,7 +242,8 @@ export class DatascienceModelDefinedMetadataArtifact extends cdktf.TerraformReso
       terraformResourceType: 'oci_datascience_model_defined_metadata_artifact',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

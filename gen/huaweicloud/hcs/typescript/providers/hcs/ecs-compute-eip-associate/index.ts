@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/ecs_compute_eip_associate
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_eip_associate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,42 +8,42 @@ import * as cdktf from 'cdktf';
 
 export interface EcsComputeEipAssociateConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/ecs_compute_eip_associate#bandwidth_id EcsComputeEipAssociate#bandwidth_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_eip_associate#bandwidth_id EcsComputeEipAssociate#bandwidth_id}
   */
   readonly bandwidthId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/ecs_compute_eip_associate#fixed_ip EcsComputeEipAssociate#fixed_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_eip_associate#fixed_ip EcsComputeEipAssociate#fixed_ip}
   */
   readonly fixedIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/ecs_compute_eip_associate#id EcsComputeEipAssociate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_eip_associate#id EcsComputeEipAssociate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/ecs_compute_eip_associate#instance_id EcsComputeEipAssociate#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_eip_associate#instance_id EcsComputeEipAssociate#instance_id}
   */
   readonly instanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/ecs_compute_eip_associate#public_ip EcsComputeEipAssociate#public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_eip_associate#public_ip EcsComputeEipAssociate#public_ip}
   */
   readonly publicIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/ecs_compute_eip_associate#region EcsComputeEipAssociate#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_eip_associate#region EcsComputeEipAssociate#region}
   */
   readonly region?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/ecs_compute_eip_associate#timeouts EcsComputeEipAssociate#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_eip_associate#timeouts EcsComputeEipAssociate#timeouts}
   */
   readonly timeouts?: EcsComputeEipAssociateTimeouts;
 }
 export interface EcsComputeEipAssociateTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/ecs_compute_eip_associate#create EcsComputeEipAssociate#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_eip_associate#create EcsComputeEipAssociate#create}
   */
   readonly create?: string;
 }
@@ -137,7 +137,7 @@ export class EcsComputeEipAssociateTimeoutsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/ecs_compute_eip_associate hcs_ecs_compute_eip_associate}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_eip_associate hcs_ecs_compute_eip_associate}
 */
 export class EcsComputeEipAssociate extends cdktf.TerraformResource {
 
@@ -153,7 +153,7 @@ export class EcsComputeEipAssociate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EcsComputeEipAssociate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EcsComputeEipAssociate to import
-  * @param importFromId The id of the existing EcsComputeEipAssociate that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/ecs_compute_eip_associate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EcsComputeEipAssociate that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_eip_associate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EcsComputeEipAssociate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -165,7 +165,7 @@ export class EcsComputeEipAssociate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/ecs_compute_eip_associate hcs_ecs_compute_eip_associate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_eip_associate hcs_ecs_compute_eip_associate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -176,7 +176,8 @@ export class EcsComputeEipAssociate extends cdktf.TerraformResource {
       terraformResourceType: 'hcs_ecs_compute_eip_associate',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.19'
+        providerVersion: '2.4.20',
+        providerVersionConstraint: '2.4.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

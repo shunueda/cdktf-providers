@@ -98,7 +98,8 @@ export class Node extends cdktf.TerraformResource {
       terraformResourceType: 'pipeline_node',
       terraformGeneratorMetadata: {
         providerName: 'pipeline',
-        providerVersion: '1.2.4'
+        providerVersion: '1.2.4',
+        providerVersionConstraint: '1.2.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

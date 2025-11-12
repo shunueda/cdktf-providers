@@ -856,7 +856,8 @@ export class EksNodeGroup extends cdktf.TerraformResource {
       terraformResourceType: 'aws_eks_node_group',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '3.29.6'
+        providerVersion: '3.29.6',
+        providerVersionConstraint: '3.29.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

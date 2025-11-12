@@ -91,7 +91,8 @@ export class Stream extends cdktf.TerraformResource {
       terraformResourceType: 'nginxproxymanager_stream',
       terraformGeneratorMetadata: {
         providerName: 'nginxproxymanager',
-        providerVersion: '1.2.2'
+        providerVersion: '1.2.2',
+        providerVersionConstraint: '1.2.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

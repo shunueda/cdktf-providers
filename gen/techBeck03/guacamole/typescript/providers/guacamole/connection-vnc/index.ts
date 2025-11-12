@@ -1751,7 +1751,8 @@ export class ConnectionVnc extends cdktf.TerraformResource {
       terraformResourceType: 'guacamole_connection_vnc',
       terraformGeneratorMetadata: {
         providerName: 'guacamole',
-        providerVersion: '1.4.1'
+        providerVersion: '1.4.1',
+        providerVersionConstraint: '1.4.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

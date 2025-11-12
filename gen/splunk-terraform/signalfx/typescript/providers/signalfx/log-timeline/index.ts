@@ -104,7 +104,8 @@ export class LogTimeline extends cdktf.TerraformResource {
       terraformResourceType: 'signalfx_log_timeline',
       terraformGeneratorMetadata: {
         providerName: 'signalfx',
-        providerVersion: '9.22.3'
+        providerVersion: '9.22.3',
+        providerVersionConstraint: '9.22.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

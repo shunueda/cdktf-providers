@@ -496,7 +496,8 @@ export class EscalationPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'pagerduty_escalation_policy',
       terraformGeneratorMetadata: {
         providerName: 'pagerduty',
-        providerVersion: '4.1.2'
+        providerVersion: '4.1.2',
+        providerVersionConstraint: '4.1.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

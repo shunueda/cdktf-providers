@@ -7788,7 +7788,8 @@ export class InstanceGroup extends cdktf.TerraformResource {
       terraformResourceType: 'kops_instance_group',
       terraformGeneratorMetadata: {
         providerName: 'kops',
-        providerVersion: '1.25.4'
+        providerVersion: '1.25.4',
+        providerVersionConstraint: '1.25.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

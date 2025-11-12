@@ -318,7 +318,8 @@ export class SdbSqlDatabase extends cdktf.TerraformResource {
       terraformResourceType: 'scaleway_sdb_sql_database',
       terraformGeneratorMetadata: {
         providerName: 'scaleway',
-        providerVersion: '2.62.0'
+        providerVersion: '2.62.0',
+        providerVersionConstraint: '2.62.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

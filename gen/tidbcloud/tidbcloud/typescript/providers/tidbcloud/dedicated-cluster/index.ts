@@ -1294,7 +1294,8 @@ export class DedicatedCluster extends cdktf.TerraformResource {
       terraformResourceType: 'tidbcloud_dedicated_cluster',
       terraformGeneratorMetadata: {
         providerName: 'tidbcloud',
-        providerVersion: '0.4.5'
+        providerVersion: '0.4.5',
+        providerVersionConstraint: '0.4.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

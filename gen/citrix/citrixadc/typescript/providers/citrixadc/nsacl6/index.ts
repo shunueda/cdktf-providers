@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsacl6
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacl6
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,160 +8,160 @@ import * as cdktf from 'cdktf';
 
 export interface Nsacl6Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsacl6#acl6action Nsacl6#acl6action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacl6#acl6action Nsacl6#acl6action}
   */
   readonly acl6Action: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsacl6#acl6name Nsacl6#acl6name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacl6#acl6name Nsacl6#acl6name}
   */
   readonly acl6Name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsacl6#aclaction Nsacl6#aclaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacl6#aclaction Nsacl6#aclaction}
   */
   readonly aclaction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsacl6#destipop Nsacl6#destipop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacl6#destipop Nsacl6#destipop}
   */
   readonly destipop?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsacl6#destipv6 Nsacl6#destipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacl6#destipv6 Nsacl6#destipv6}
   */
   readonly destipv6?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsacl6#destipv6val Nsacl6#destipv6val}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacl6#destipv6val Nsacl6#destipv6val}
   */
   readonly destipv6Val?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsacl6#destport Nsacl6#destport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacl6#destport Nsacl6#destport}
   */
   readonly destport?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsacl6#destportop Nsacl6#destportop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacl6#destportop Nsacl6#destportop}
   */
   readonly destportop?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsacl6#destportval Nsacl6#destportval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacl6#destportval Nsacl6#destportval}
   */
   readonly destportval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsacl6#dfdhash Nsacl6#dfdhash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacl6#dfdhash Nsacl6#dfdhash}
   */
   readonly dfdhash?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsacl6#dfdprefix Nsacl6#dfdprefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacl6#dfdprefix Nsacl6#dfdprefix}
   */
   readonly dfdprefix?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsacl6#established Nsacl6#established}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacl6#established Nsacl6#established}
   */
   readonly established?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsacl6#icmpcode Nsacl6#icmpcode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacl6#icmpcode Nsacl6#icmpcode}
   */
   readonly icmpcode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsacl6#icmptype Nsacl6#icmptype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacl6#icmptype Nsacl6#icmptype}
   */
   readonly icmptype?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsacl6#id Nsacl6#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacl6#id Nsacl6#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsacl6#interface Nsacl6#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacl6#interface Nsacl6#interface}
   */
   readonly interface?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsacl6#logstate Nsacl6#logstate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacl6#logstate Nsacl6#logstate}
   */
   readonly logstate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsacl6#newname Nsacl6#newname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacl6#nodeid Nsacl6#nodeid}
   */
-  readonly newname?: string;
+  readonly nodeid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsacl6#priority Nsacl6#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacl6#priority Nsacl6#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsacl6#protocol Nsacl6#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacl6#protocol Nsacl6#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsacl6#protocolnumber Nsacl6#protocolnumber}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacl6#protocolnumber Nsacl6#protocolnumber}
   */
   readonly protocolnumber?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsacl6#ratelimit Nsacl6#ratelimit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacl6#ratelimit Nsacl6#ratelimit}
   */
   readonly ratelimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsacl6#srcipop Nsacl6#srcipop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacl6#srcipop Nsacl6#srcipop}
   */
   readonly srcipop?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsacl6#srcipv6 Nsacl6#srcipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacl6#srcipv6 Nsacl6#srcipv6}
   */
   readonly srcipv6?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsacl6#srcipv6val Nsacl6#srcipv6val}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacl6#srcipv6val Nsacl6#srcipv6val}
   */
   readonly srcipv6Val?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsacl6#srcmac Nsacl6#srcmac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacl6#srcmac Nsacl6#srcmac}
   */
   readonly srcmac?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsacl6#srcmacmask Nsacl6#srcmacmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacl6#srcmacmask Nsacl6#srcmacmask}
   */
   readonly srcmacmask?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsacl6#srcport Nsacl6#srcport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacl6#srcport Nsacl6#srcport}
   */
   readonly srcport?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsacl6#srcportop Nsacl6#srcportop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacl6#srcportop Nsacl6#srcportop}
   */
   readonly srcportop?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsacl6#srcportval Nsacl6#srcportval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacl6#srcportval Nsacl6#srcportval}
   */
   readonly srcportval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsacl6#state Nsacl6#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacl6#state Nsacl6#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsacl6#stateful Nsacl6#stateful}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacl6#stateful Nsacl6#stateful}
   */
   readonly stateful?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsacl6#td Nsacl6#td}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacl6#td Nsacl6#td}
   */
   readonly td?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsacl6#ttl Nsacl6#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacl6#ttl Nsacl6#ttl}
   */
   readonly ttl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsacl6#type Nsacl6#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacl6#type Nsacl6#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsacl6#vlan Nsacl6#vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacl6#vlan Nsacl6#vlan}
   */
   readonly vlan?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsacl6#vxlan Nsacl6#vxlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacl6#vxlan Nsacl6#vxlan}
   */
   readonly vxlan?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsacl6 citrixadc_nsacl6}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacl6 citrixadc_nsacl6}
 */
 export class Nsacl6 extends cdktf.TerraformResource {
 
@@ -177,7 +177,7 @@ export class Nsacl6 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Nsacl6 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Nsacl6 to import
-  * @param importFromId The id of the existing Nsacl6 that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsacl6#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Nsacl6 that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacl6#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Nsacl6 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -189,7 +189,7 @@ export class Nsacl6 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsacl6 citrixadc_nsacl6} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsacl6 citrixadc_nsacl6} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -200,7 +200,8 @@ export class Nsacl6 extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_nsacl6',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -227,7 +228,7 @@ export class Nsacl6 extends cdktf.TerraformResource {
     this._id = config.id;
     this._interface = config.interface;
     this._logstate = config.logstate;
-    this._newname = config.newname;
+    this._nodeid = config.nodeid;
     this._priority = config.priority;
     this._protocol = config.protocol;
     this._protocolnumber = config.protocolnumber;
@@ -519,20 +520,20 @@ export class Nsacl6 extends cdktf.TerraformResource {
     return this._logstate;
   }
 
-  // newname - computed: true, optional: true, required: false
-  private _newname?: string; 
-  public get newname() {
-    return this.getStringAttribute('newname');
+  // nodeid - computed: true, optional: true, required: false
+  private _nodeid?: number; 
+  public get nodeid() {
+    return this.getNumberAttribute('nodeid');
   }
-  public set newname(value: string) {
-    this._newname = value;
+  public set nodeid(value: number) {
+    this._nodeid = value;
   }
-  public resetNewname() {
-    this._newname = undefined;
+  public resetNodeid() {
+    this._nodeid = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get newnameInput() {
-    return this._newname;
+  public get nodeidInput() {
+    return this._nodeid;
   }
 
   // priority - computed: true, optional: true, required: false
@@ -862,7 +863,7 @@ export class Nsacl6 extends cdktf.TerraformResource {
       id: cdktf.stringToTerraform(this._id),
       interface: cdktf.stringToTerraform(this._interface),
       logstate: cdktf.stringToTerraform(this._logstate),
-      newname: cdktf.stringToTerraform(this._newname),
+      nodeid: cdktf.numberToTerraform(this._nodeid),
       priority: cdktf.numberToTerraform(this._priority),
       protocol: cdktf.stringToTerraform(this._protocol),
       protocolnumber: cdktf.numberToTerraform(this._protocolnumber),
@@ -989,11 +990,11 @@ export class Nsacl6 extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
-      newname: {
-        value: cdktf.stringToHclTerraform(this._newname),
+      nodeid: {
+        value: cdktf.numberToHclTerraform(this._nodeid),
         isBlock: false,
         type: "simple",
-        storageClassType: "string",
+        storageClassType: "number",
       },
       priority: {
         value: cdktf.numberToHclTerraform(this._priority),

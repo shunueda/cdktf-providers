@@ -468,7 +468,8 @@ export class GenesyscloudProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'genesyscloud',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.70.0'
+        providerVersion: '1.70.0',
+        providerVersionConstraint: '1.70.0'
       },
       terraformProviderSource: 'MyPureCloud/genesyscloud'
     });

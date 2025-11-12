@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/ess_scheduled_tasks
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/ess_scheduled_tasks
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,30 +8,30 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlibabacloudstackEssScheduledTasksConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/ess_scheduled_tasks#id DataAlibabacloudstackEssScheduledTasks#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/ess_scheduled_tasks#id DataAlibabacloudstackEssScheduledTasks#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/ess_scheduled_tasks#ids DataAlibabacloudstackEssScheduledTasks#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/ess_scheduled_tasks#ids DataAlibabacloudstackEssScheduledTasks#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/ess_scheduled_tasks#name_regex DataAlibabacloudstackEssScheduledTasks#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/ess_scheduled_tasks#name_regex DataAlibabacloudstackEssScheduledTasks#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/ess_scheduled_tasks#output_file DataAlibabacloudstackEssScheduledTasks#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/ess_scheduled_tasks#output_file DataAlibabacloudstackEssScheduledTasks#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/ess_scheduled_tasks#scheduled_action DataAlibabacloudstackEssScheduledTasks#scheduled_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/ess_scheduled_tasks#scheduled_action DataAlibabacloudstackEssScheduledTasks#scheduled_action}
   */
   readonly scheduledAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/ess_scheduled_tasks#scheduled_task_id DataAlibabacloudstackEssScheduledTasks#scheduled_task_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/ess_scheduled_tasks#scheduled_task_id DataAlibabacloudstackEssScheduledTasks#scheduled_task_id}
   */
   readonly scheduledTaskId?: string;
 }
@@ -136,11 +136,6 @@ export class DataAlibabacloudstackEssScheduledTasksTasksOutputReference extends 
     return this.getStringAttribute('recurrence_value');
   }
 
-  // scaling_group_id - computed: true, optional: false, required: false
-  public get scalingGroupId() {
-    return this.getStringAttribute('scaling_group_id');
-  }
-
   // scheduled_action - computed: true, optional: false, required: false
   public get scheduledAction() {
     return this.getStringAttribute('scheduled_action');
@@ -172,7 +167,7 @@ export class DataAlibabacloudstackEssScheduledTasksTasksList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/ess_scheduled_tasks alibabacloudstack_ess_scheduled_tasks}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/ess_scheduled_tasks alibabacloudstack_ess_scheduled_tasks}
 */
 export class DataAlibabacloudstackEssScheduledTasks extends cdktf.TerraformDataSource {
 
@@ -188,7 +183,7 @@ export class DataAlibabacloudstackEssScheduledTasks extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataAlibabacloudstackEssScheduledTasks resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlibabacloudstackEssScheduledTasks to import
-  * @param importFromId The id of the existing DataAlibabacloudstackEssScheduledTasks that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/ess_scheduled_tasks#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlibabacloudstackEssScheduledTasks that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/ess_scheduled_tasks#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlibabacloudstackEssScheduledTasks to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -200,7 +195,7 @@ export class DataAlibabacloudstackEssScheduledTasks extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/ess_scheduled_tasks alibabacloudstack_ess_scheduled_tasks} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/ess_scheduled_tasks alibabacloudstack_ess_scheduled_tasks} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -211,7 +206,8 @@ export class DataAlibabacloudstackEssScheduledTasks extends cdktf.TerraformDataS
       terraformResourceType: 'alibabacloudstack_ess_scheduled_tasks',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.19'
+        providerVersion: '3.16.21',
+        providerVersionConstraint: '3.16.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

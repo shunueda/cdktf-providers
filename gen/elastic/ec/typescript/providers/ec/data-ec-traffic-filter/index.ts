@@ -256,7 +256,8 @@ export class DataEcTrafficFilter extends cdktf.TerraformDataSource {
       terraformResourceType: 'ec_traffic_filter',
       terraformGeneratorMetadata: {
         providerName: 'ec',
-        providerVersion: '0.12.2'
+        providerVersion: '0.12.2',
+        providerVersionConstraint: '0.12.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

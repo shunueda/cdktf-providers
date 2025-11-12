@@ -636,7 +636,8 @@ export class GrafanaNotificationPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'logzio_grafana_notification_policy',
       terraformGeneratorMetadata: {
         providerName: 'logzio',
-        providerVersion: '1.26.0'
+        providerVersion: '1.26.0',
+        providerVersionConstraint: '1.26.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

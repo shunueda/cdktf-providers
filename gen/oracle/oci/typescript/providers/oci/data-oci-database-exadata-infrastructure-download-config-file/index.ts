@@ -64,7 +64,8 @@ export class DataOciDatabaseExadataInfrastructureDownloadConfigFile extends cdkt
       terraformResourceType: 'oci_database_exadata_infrastructure_download_config_file',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

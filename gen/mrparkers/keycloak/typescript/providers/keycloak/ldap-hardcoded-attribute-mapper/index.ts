@@ -86,7 +86,8 @@ export class LdapHardcodedAttributeMapper extends cdktf.TerraformResource {
       terraformResourceType: 'keycloak_ldap_hardcoded_attribute_mapper',
       terraformGeneratorMetadata: {
         providerName: 'keycloak',
-        providerVersion: '4.4.0'
+        providerVersion: '4.4.0',
+        providerVersionConstraint: '4.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

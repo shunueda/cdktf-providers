@@ -70,7 +70,8 @@ export class DataSdwanServiceLanVpnFeatureAssociateMulticastFeature extends cdkt
       terraformResourceType: 'sdwan_service_lan_vpn_feature_associate_multicast_feature',
       terraformGeneratorMetadata: {
         providerName: 'sdwan',
-        providerVersion: '0.8.1'
+        providerVersion: '0.8.1',
+        providerVersionConstraint: '0.8.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

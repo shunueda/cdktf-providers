@@ -73,7 +73,8 @@ export class HelmProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'helm',
       terraformGeneratorMetadata: {
         providerName: 'helm',
-        providerVersion: '0.0.8'
+        providerVersion: '0.0.8',
+        providerVersionConstraint: '0.0.8'
       },
       terraformProviderSource: 'chainguard-dev/helm'
     });

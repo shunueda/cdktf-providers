@@ -85,7 +85,8 @@ export class UnifiProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'unifi',
       terraformGeneratorMetadata: {
         providerName: 'unifi',
-        providerVersion: '0.41.0'
+        providerVersion: '0.41.0',
+        providerVersionConstraint: '0.41.0'
       },
       terraformProviderSource: 'paultyng/unifi'
     });

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/gpg_key
+// https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/gpg_key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface GpgKeyConfig extends cdktf.TerraformMetaArguments {
   /**
   * the gpg public key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/gpg_key#content GpgKey#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/gpg_key#content GpgKey#content}
   */
   readonly content: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/gpg_key#id GpgKey#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/gpg_key#id GpgKey#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface GpgKeyConfig extends cdktf.TerraformMetaArguments {
   /**
   * the gpg key id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/gpg_key#key_id GpgKey#key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/gpg_key#key_id GpgKey#key_id}
   */
   readonly keyId: string;
   /**
   * the gpg key name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/gpg_key#name GpgKey#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/gpg_key#name GpgKey#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/gpg_key env0_gpg_key}
+* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/gpg_key env0_gpg_key}
 */
 export class GpgKey extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class GpgKey extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GpgKey resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GpgKey to import
-  * @param importFromId The id of the existing GpgKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/gpg_key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GpgKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/gpg_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GpgKey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class GpgKey extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/gpg_key env0_gpg_key} Resource
+  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/gpg_key env0_gpg_key} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,7 +74,8 @@ export class GpgKey extends cdktf.TerraformResource {
       terraformResourceType: 'env0_gpg_key',
       terraformGeneratorMetadata: {
         providerName: 'env0',
-        providerVersion: '1.29.4'
+        providerVersion: '1.29.6',
+        providerVersionConstraint: '1.29.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

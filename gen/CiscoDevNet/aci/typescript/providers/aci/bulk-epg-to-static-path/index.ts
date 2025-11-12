@@ -341,7 +341,8 @@ export class BulkEpgToStaticPath extends cdktf.TerraformResource {
       terraformResourceType: 'aci_bulk_epg_to_static_path',
       terraformGeneratorMetadata: {
         providerName: 'aci',
-        providerVersion: '2.18.0'
+        providerVersion: '2.18.0',
+        providerVersionConstraint: '2.18.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

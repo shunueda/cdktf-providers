@@ -227,7 +227,8 @@ export class PolicyV2 extends cdktf.TerraformResource {
       terraformResourceType: 'cyral_policy_v2',
       terraformGeneratorMetadata: {
         providerName: 'cyral',
-        providerVersion: '4.16.3'
+        providerVersion: '4.16.3',
+        providerVersionConstraint: '4.16.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

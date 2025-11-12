@@ -67,7 +67,8 @@ export class FortitokencloudProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'fortitokencloud',
       terraformGeneratorMetadata: {
         providerName: 'fortitokencloud',
-        providerVersion: '1.0.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       terraformProviderSource: 'fortinetdev/fortitokencloud'
     });

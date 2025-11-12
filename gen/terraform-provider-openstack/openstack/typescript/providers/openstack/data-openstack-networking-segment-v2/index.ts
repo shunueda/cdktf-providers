@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/networking_segment_v2
+// https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/networking_segment_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,52 +8,52 @@ import * as cdktf from 'cdktf';
 
 export interface DataOpenstackNetworkingSegmentV2Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/networking_segment_v2#description DataOpenstackNetworkingSegmentV2#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/networking_segment_v2#description DataOpenstackNetworkingSegmentV2#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/networking_segment_v2#id DataOpenstackNetworkingSegmentV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/networking_segment_v2#id DataOpenstackNetworkingSegmentV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/networking_segment_v2#name DataOpenstackNetworkingSegmentV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/networking_segment_v2#name DataOpenstackNetworkingSegmentV2#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/networking_segment_v2#network_id DataOpenstackNetworkingSegmentV2#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/networking_segment_v2#network_id DataOpenstackNetworkingSegmentV2#network_id}
   */
   readonly networkId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/networking_segment_v2#network_type DataOpenstackNetworkingSegmentV2#network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/networking_segment_v2#network_type DataOpenstackNetworkingSegmentV2#network_type}
   */
   readonly networkType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/networking_segment_v2#physical_network DataOpenstackNetworkingSegmentV2#physical_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/networking_segment_v2#physical_network DataOpenstackNetworkingSegmentV2#physical_network}
   */
   readonly physicalNetwork?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/networking_segment_v2#region DataOpenstackNetworkingSegmentV2#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/networking_segment_v2#region DataOpenstackNetworkingSegmentV2#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/networking_segment_v2#revision_number DataOpenstackNetworkingSegmentV2#revision_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/networking_segment_v2#revision_number DataOpenstackNetworkingSegmentV2#revision_number}
   */
   readonly revisionNumber?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/networking_segment_v2#segment_id DataOpenstackNetworkingSegmentV2#segment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/networking_segment_v2#segment_id DataOpenstackNetworkingSegmentV2#segment_id}
   */
   readonly segmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/networking_segment_v2#segmentation_id DataOpenstackNetworkingSegmentV2#segmentation_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/networking_segment_v2#segmentation_id DataOpenstackNetworkingSegmentV2#segmentation_id}
   */
   readonly segmentationId?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/networking_segment_v2 openstack_networking_segment_v2}
+* Represents a {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/networking_segment_v2 openstack_networking_segment_v2}
 */
 export class DataOpenstackNetworkingSegmentV2 extends cdktf.TerraformDataSource {
 
@@ -69,7 +69,7 @@ export class DataOpenstackNetworkingSegmentV2 extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataOpenstackNetworkingSegmentV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOpenstackNetworkingSegmentV2 to import
-  * @param importFromId The id of the existing DataOpenstackNetworkingSegmentV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/networking_segment_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOpenstackNetworkingSegmentV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/networking_segment_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOpenstackNetworkingSegmentV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class DataOpenstackNetworkingSegmentV2 extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/networking_segment_v2 openstack_networking_segment_v2} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/networking_segment_v2 openstack_networking_segment_v2} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,7 +92,8 @@ export class DataOpenstackNetworkingSegmentV2 extends cdktf.TerraformDataSource 
       terraformResourceType: 'openstack_networking_segment_v2',
       terraformGeneratorMetadata: {
         providerName: 'openstack',
-        providerVersion: '3.3.2'
+        providerVersion: '3.4.0',
+        providerVersionConstraint: '3.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

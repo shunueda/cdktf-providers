@@ -73,7 +73,8 @@ export class CodefreshProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'codefresh',
       terraformGeneratorMetadata: {
         providerName: 'codefresh',
-        providerVersion: '1.1.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       terraformProviderSource: 'codefresh-io/codefresh'
     });

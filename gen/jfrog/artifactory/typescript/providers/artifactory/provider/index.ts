@@ -85,7 +85,8 @@ export class ArtifactoryProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'artifactory',
       terraformGeneratorMetadata: {
         providerName: 'artifactory',
-        providerVersion: '12.10.1'
+        providerVersion: '12.10.1',
+        providerVersionConstraint: '12.10.1'
       },
       terraformProviderSource: 'jfrog/artifactory'
     });

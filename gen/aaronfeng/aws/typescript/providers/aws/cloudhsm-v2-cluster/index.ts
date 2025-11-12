@@ -333,7 +333,8 @@ export class CloudhsmV2Cluster extends cdktf.TerraformResource {
       terraformResourceType: 'aws_cloudhsm_v2_cluster',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '3.29.6'
+        providerVersion: '3.29.6',
+        providerVersionConstraint: '3.29.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

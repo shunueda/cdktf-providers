@@ -60,7 +60,8 @@ export class DataZiaFirewallFilteringNetworkApplication extends cdktf.TerraformD
       terraformResourceType: 'zia_firewall_filtering_network_application',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.5.3'
+        providerVersion: '4.5.3',
+        providerVersionConstraint: '4.5.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

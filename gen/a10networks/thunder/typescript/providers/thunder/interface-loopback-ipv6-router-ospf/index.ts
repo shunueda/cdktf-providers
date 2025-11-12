@@ -297,7 +297,8 @@ export class InterfaceLoopbackIpv6RouterOspfA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_interface_loopback_ipv6_router_ospf',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

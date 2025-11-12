@@ -213,7 +213,8 @@ export class DataHivelocityDevicePort extends cdktf.TerraformDataSource {
       terraformResourceType: 'hivelocity_device_port',
       terraformGeneratorMetadata: {
         providerName: 'hivelocity',
-        providerVersion: '0.7.9'
+        providerVersion: '0.7.9',
+        providerVersionConstraint: '0.7.9'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

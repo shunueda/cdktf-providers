@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/account_group
+// https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/account_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface AccountGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the account group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/account_group#account_group_name AccountGroup#account_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/account_group#account_group_name AccountGroup#account_group_name}
   */
   readonly accountGroupName: string;
   /**
   * To grant access to enterprise agents, specify the agent list. Note that this is not an additive list - the full list must be specified if changing access to agents.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/account_group#agents AccountGroup#agents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/account_group#agents AccountGroup#agents}
   */
   readonly agents?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/account_group#id AccountGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/account_group#id AccountGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,7 +29,7 @@ export interface AccountGroupConfig extends cdktf.TerraformMetaArguments {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/account_group thousandeyes_account_group}
+* Represents a {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/account_group thousandeyes_account_group}
 */
 export class AccountGroup extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class AccountGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AccountGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AccountGroup to import
-  * @param importFromId The id of the existing AccountGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/account_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AccountGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/account_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AccountGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class AccountGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/account_group thousandeyes_account_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/account_group thousandeyes_account_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,7 +68,8 @@ export class AccountGroup extends cdktf.TerraformResource {
       terraformResourceType: 'thousandeyes_account_group',
       terraformGeneratorMetadata: {
         providerName: 'thousandeyes',
-        providerVersion: '3.1.2'
+        providerVersion: '3.1.3',
+        providerVersionConstraint: '3.1.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

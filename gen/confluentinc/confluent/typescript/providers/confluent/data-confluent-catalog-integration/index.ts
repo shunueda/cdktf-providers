@@ -519,7 +519,8 @@ export class DataConfluentCatalogIntegration extends cdktf.TerraformDataSource {
       terraformResourceType: 'confluent_catalog_integration',
       terraformGeneratorMetadata: {
         providerName: 'confluent',
-        providerVersion: '2.51.0'
+        providerVersion: '2.51.0',
+        providerVersionConstraint: '2.51.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

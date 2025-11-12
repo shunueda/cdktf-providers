@@ -7727,7 +7727,8 @@ export class DataK8SMonitoringCoreosComServiceMonitorV1Manifest extends cdktf.Te
       terraformResourceType: 'k8s_monitoring_coreos_com_service_monitor_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

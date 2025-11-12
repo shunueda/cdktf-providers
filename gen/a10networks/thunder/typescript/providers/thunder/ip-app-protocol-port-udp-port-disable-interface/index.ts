@@ -392,7 +392,8 @@ export class IpAppProtocolPortUdpPortDisableInterfaceA extends cdktf.TerraformRe
       terraformResourceType: 'thunder_ip_app_protocol_port_udp_port_disable_interface',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -285,7 +285,8 @@ export class DataAlicloudGaCustomRoutingPortMappings extends cdktf.TerraformData
       terraformResourceType: 'alicloud_ga_custom_routing_port_mappings',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

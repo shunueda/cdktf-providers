@@ -417,7 +417,8 @@ export class DataSamsungcloudplatformProjectProductResources extends cdktf.Terra
       terraformResourceType: 'samsungcloudplatform_project_product_resources',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0'
+        providerVersion: '3.15.0',
+        providerVersionConstraint: '3.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -135,7 +135,8 @@ export class DataStackitCdnCustomDomain extends cdktf.TerraformDataSource {
       terraformResourceType: 'stackit_cdn_custom_domain',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.69.0'
+        providerVersion: '0.69.0',
+        providerVersionConstraint: '0.69.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

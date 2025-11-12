@@ -206,7 +206,8 @@ export class DataAlicloudGaCustomRoutingEndpointGroupDestinations extends cdktf.
       terraformResourceType: 'alicloud_ga_custom_routing_endpoint_group_destinations',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -84,7 +84,8 @@ export class DataFlexibleengineDnsZoneV2 extends cdktf.TerraformDataSource {
       terraformResourceType: 'flexibleengine_dns_zone_v2',
       terraformGeneratorMetadata: {
         providerName: 'flexibleengine',
-        providerVersion: '1.46.0'
+        providerVersion: '1.46.0',
+        providerVersionConstraint: '1.46.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

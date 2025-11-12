@@ -156,7 +156,8 @@ export class DataGoogleMonitoringIstioCanonicalService extends cdktf.TerraformDa
       terraformResourceType: 'google_monitoring_istio_canonical_service',
       terraformGeneratorMetadata: {
         providerName: 'google',
-        providerVersion: '4.16.4'
+        providerVersion: '4.16.4',
+        providerVersionConstraint: '4.16.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

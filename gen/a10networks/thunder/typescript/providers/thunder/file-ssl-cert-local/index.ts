@@ -104,7 +104,8 @@ export class FileSslCertLocal extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_file_ssl_cert_local',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -149,7 +149,8 @@ export class DataOpslevelPropertyDefinitions extends cdktf.TerraformDataSource {
       terraformResourceType: 'opslevel_property_definitions',
       terraformGeneratorMetadata: {
         providerName: 'opslevel',
-        providerVersion: '1.6.3'
+        providerVersion: '1.6.3',
+        providerVersionConstraint: '1.6.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

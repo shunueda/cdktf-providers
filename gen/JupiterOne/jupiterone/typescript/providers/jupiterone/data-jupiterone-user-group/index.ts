@@ -55,7 +55,8 @@ export class DataJupiteroneUserGroup extends cdktf.TerraformDataSource {
       terraformResourceType: 'jupiterone_user_group',
       terraformGeneratorMetadata: {
         providerName: 'jupiterone',
-        providerVersion: '1.16.3'
+        providerVersion: '1.16.3',
+        providerVersionConstraint: '1.16.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

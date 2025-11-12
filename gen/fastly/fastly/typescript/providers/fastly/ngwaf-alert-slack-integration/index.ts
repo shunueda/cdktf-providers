@@ -74,7 +74,8 @@ export class NgwafAlertSlackIntegration extends cdktf.TerraformResource {
       terraformResourceType: 'fastly_ngwaf_alert_slack_integration',
       terraformGeneratorMetadata: {
         providerName: 'fastly',
-        providerVersion: '8.4.0'
+        providerVersion: '8.4.0',
+        providerVersionConstraint: '8.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

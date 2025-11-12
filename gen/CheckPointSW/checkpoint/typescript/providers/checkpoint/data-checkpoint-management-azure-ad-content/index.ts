@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_azure_ad_content
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_azure_ad_content
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataCheckpointManagementAzureAdContentConfig extends cdktf.Terr
   /**
   * Name of the Azure AD Server where to search for objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_azure_ad_content#azure_ad_name DataCheckpointManagementAzureAdContent#azure_ad_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_azure_ad_content#azure_ad_name DataCheckpointManagementAzureAdContent#azure_ad_name}
   */
   readonly azureAdName?: string;
   /**
   * Unique identifier of the Azure AD Server where to search for objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_azure_ad_content#azure_ad_uid DataCheckpointManagementAzureAdContent#azure_ad_uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_azure_ad_content#azure_ad_uid DataCheckpointManagementAzureAdContent#azure_ad_uid}
   */
   readonly azureAdUid?: string;
   /**
   * Return results matching the specified filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_azure_ad_content#filter DataCheckpointManagementAzureAdContent#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_azure_ad_content#filter DataCheckpointManagementAzureAdContent#filter}
   */
   readonly filter?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_azure_ad_content#id DataCheckpointManagementAzureAdContent#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_azure_ad_content#id DataCheckpointManagementAzureAdContent#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,25 +35,25 @@ export interface DataCheckpointManagementAzureAdContentConfig extends cdktf.Terr
   /**
   * The maximal number of returned results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_azure_ad_content#limit DataCheckpointManagementAzureAdContent#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_azure_ad_content#limit DataCheckpointManagementAzureAdContent#limit}
   */
   readonly limit?: number;
   /**
   * Number of the results to initially skip.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_azure_ad_content#offset DataCheckpointManagementAzureAdContent#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_azure_ad_content#offset DataCheckpointManagementAzureAdContent#offset}
   */
   readonly offset?: number;
   /**
   * Return result matching the unique identifier of the object on the Azure AD Server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_azure_ad_content#uid_in_azure_ad DataCheckpointManagementAzureAdContent#uid_in_azure_ad}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_azure_ad_content#uid_in_azure_ad DataCheckpointManagementAzureAdContent#uid_in_azure_ad}
   */
   readonly uidInAzureAd?: string;
   /**
   * order block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_azure_ad_content#order DataCheckpointManagementAzureAdContent#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_azure_ad_content#order DataCheckpointManagementAzureAdContent#order}
   */
   readonly order?: DataCheckpointManagementAzureAdContentOrder[] | cdktf.IResolvable;
 }
@@ -242,13 +242,13 @@ export interface DataCheckpointManagementAzureAdContentOrder {
   /**
   * Sorts results by the given field in ascending order.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_azure_ad_content#asc DataCheckpointManagementAzureAdContent#asc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_azure_ad_content#asc DataCheckpointManagementAzureAdContent#asc}
   */
   readonly asc?: string;
   /**
   * Sorts results by the given field in descending order.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_azure_ad_content#desc DataCheckpointManagementAzureAdContent#desc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_azure_ad_content#desc DataCheckpointManagementAzureAdContent#desc}
   */
   readonly desc?: string;
 }
@@ -393,7 +393,7 @@ export class DataCheckpointManagementAzureAdContentOrderList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_azure_ad_content checkpoint_management_azure_ad_content}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_azure_ad_content checkpoint_management_azure_ad_content}
 */
 export class DataCheckpointManagementAzureAdContent extends cdktf.TerraformDataSource {
 
@@ -409,7 +409,7 @@ export class DataCheckpointManagementAzureAdContent extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataCheckpointManagementAzureAdContent resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCheckpointManagementAzureAdContent to import
-  * @param importFromId The id of the existing DataCheckpointManagementAzureAdContent that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_azure_ad_content#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCheckpointManagementAzureAdContent that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_azure_ad_content#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCheckpointManagementAzureAdContent to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -421,7 +421,7 @@ export class DataCheckpointManagementAzureAdContent extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_azure_ad_content checkpoint_management_azure_ad_content} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_azure_ad_content checkpoint_management_azure_ad_content} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -432,7 +432,8 @@ export class DataCheckpointManagementAzureAdContent extends cdktf.TerraformDataS
       terraformResourceType: 'checkpoint_management_azure_ad_content',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

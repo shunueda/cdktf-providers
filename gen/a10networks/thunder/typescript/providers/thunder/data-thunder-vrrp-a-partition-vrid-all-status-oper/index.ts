@@ -528,7 +528,8 @@ export class DataThunderVrrpAPartitionVridAllStatusOper extends cdktf.TerraformD
       terraformResourceType: 'thunder_vrrp_a_partition_vrid_all_status_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

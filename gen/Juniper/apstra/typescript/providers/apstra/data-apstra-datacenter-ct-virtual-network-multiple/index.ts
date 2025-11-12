@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_ct_virtual_network_multiple
+// https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_ct_virtual_network_multiple
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataApstraDatacenterCtVirtualNetworkMultipleConfig extends cdkt
   /**
   * Primitive name displayed in the web UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_ct_virtual_network_multiple#name DataApstraDatacenterCtVirtualNetworkMultiple#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_ct_virtual_network_multiple#name DataApstraDatacenterCtVirtualNetworkMultiple#name}
   */
   readonly name?: string;
   /**
   * Set of Virtual Network IDs which should be presented with VLAN tags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_ct_virtual_network_multiple#tagged_vn_ids DataApstraDatacenterCtVirtualNetworkMultiple#tagged_vn_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_ct_virtual_network_multiple#tagged_vn_ids DataApstraDatacenterCtVirtualNetworkMultiple#tagged_vn_ids}
   */
   readonly taggedVnIds?: string[];
   /**
   * Virtual Network ID which should be presented without VLAN tags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_ct_virtual_network_multiple#untagged_vn_id DataApstraDatacenterCtVirtualNetworkMultiple#untagged_vn_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_ct_virtual_network_multiple#untagged_vn_id DataApstraDatacenterCtVirtualNetworkMultiple#untagged_vn_id}
   */
   readonly untaggedVnId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_ct_virtual_network_multiple apstra_datacenter_ct_virtual_network_multiple}
+* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_ct_virtual_network_multiple apstra_datacenter_ct_virtual_network_multiple}
 */
 export class DataApstraDatacenterCtVirtualNetworkMultiple extends cdktf.TerraformDataSource {
 
@@ -44,7 +44,7 @@ export class DataApstraDatacenterCtVirtualNetworkMultiple extends cdktf.Terrafor
   * Generates CDKTF code for importing a DataApstraDatacenterCtVirtualNetworkMultiple resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataApstraDatacenterCtVirtualNetworkMultiple to import
-  * @param importFromId The id of the existing DataApstraDatacenterCtVirtualNetworkMultiple that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_ct_virtual_network_multiple#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataApstraDatacenterCtVirtualNetworkMultiple that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_ct_virtual_network_multiple#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataApstraDatacenterCtVirtualNetworkMultiple to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class DataApstraDatacenterCtVirtualNetworkMultiple extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_ct_virtual_network_multiple apstra_datacenter_ct_virtual_network_multiple} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_ct_virtual_network_multiple apstra_datacenter_ct_virtual_network_multiple} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,7 +67,8 @@ export class DataApstraDatacenterCtVirtualNetworkMultiple extends cdktf.Terrafor
       terraformResourceType: 'apstra_datacenter_ct_virtual_network_multiple',
       terraformGeneratorMetadata: {
         providerName: 'apstra',
-        providerVersion: '0.95.0'
+        providerVersion: '0.95.1',
+        providerVersionConstraint: '0.95.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -97,7 +97,8 @@ export class SigsciProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'sigsci',
       terraformGeneratorMetadata: {
         providerName: 'sigsci',
-        providerVersion: '3.7.1'
+        providerVersion: '3.7.1',
+        providerVersionConstraint: '3.7.1'
       },
       terraformProviderSource: 'signalsciences/sigsci'
     });

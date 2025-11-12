@@ -55,7 +55,8 @@ export class DataProwlarrIndexerProxy extends cdktf.TerraformDataSource {
       terraformResourceType: 'prowlarr_indexer_proxy',
       terraformGeneratorMetadata: {
         providerName: 'prowlarr',
-        providerVersion: '3.0.2'
+        providerVersion: '3.0.2',
+        providerVersionConstraint: '3.0.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

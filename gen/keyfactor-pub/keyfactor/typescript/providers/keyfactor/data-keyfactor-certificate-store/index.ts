@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/data-sources/certificate_store
+// https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/data-sources/certificate_store
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface DataKeyfactorCertificateStoreConfig extends cdktf.TerraformMeta
   /**
   * Bool indicating if there is an orchestrator assigned to the new certificate store.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/data-sources/certificate_store#agent_assigned DataKeyfactorCertificateStore#agent_assigned}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/data-sources/certificate_store#agent_assigned DataKeyfactorCertificateStore#agent_assigned}
   */
   readonly agentAssigned?: boolean | cdktf.IResolvable;
   /**
   * Bool that indicates the approval status of store created. Default is true, omit if unsure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/data-sources/certificate_store#approved DataKeyfactorCertificateStore#approved}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/data-sources/certificate_store#approved DataKeyfactorCertificateStore#approved}
   */
   readonly approved?: boolean | cdktf.IResolvable;
   /**
   * Client machine name; value depends on certificate store type. See API reference guide
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/data-sources/certificate_store#client_machine DataKeyfactorCertificateStore#client_machine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/data-sources/certificate_store#client_machine DataKeyfactorCertificateStore#client_machine}
   */
   readonly clientMachine: string;
   /**
   * Name of certificate store's associated container, if applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/data-sources/certificate_store#container_name DataKeyfactorCertificateStore#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/data-sources/certificate_store#container_name DataKeyfactorCertificateStore#container_name}
   */
   readonly containerName?: string;
   /**
   * Bool that indicates if the store should be created with information provided. Valid only for JKS type, omit if unsure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/data-sources/certificate_store#create_if_missing DataKeyfactorCertificateStore#create_if_missing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/data-sources/certificate_store#create_if_missing DataKeyfactorCertificateStore#create_if_missing}
   */
   readonly createIfMissing?: boolean | cdktf.IResolvable;
   /**
   * Inventory schedule for new certificate store.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/data-sources/certificate_store#inventory_schedule DataKeyfactorCertificateStore#inventory_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/data-sources/certificate_store#inventory_schedule DataKeyfactorCertificateStore#inventory_schedule}
   */
   readonly inventorySchedule?: string;
   /**
   * Properties specific to certificate store type configured as key-value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/data-sources/certificate_store#properties DataKeyfactorCertificateStore#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/data-sources/certificate_store#properties DataKeyfactorCertificateStore#properties}
   */
   readonly properties?: { [key: string]: string };
   /**
   * Indicates whether the store password can be changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/data-sources/certificate_store#set_new_password_allowed DataKeyfactorCertificateStore#set_new_password_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/data-sources/certificate_store#set_new_password_allowed DataKeyfactorCertificateStore#set_new_password_allowed}
   */
   readonly setNewPasswordAllowed?: boolean | cdktf.IResolvable;
   /**
   * Path to the new certificate store on a target. Format varies depending on type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/data-sources/certificate_store#store_path DataKeyfactorCertificateStore#store_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/data-sources/certificate_store#store_path DataKeyfactorCertificateStore#store_path}
   */
   readonly storePath: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/data-sources/certificate_store keyfactor_certificate_store}
+* Represents a {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/data-sources/certificate_store keyfactor_certificate_store}
 */
 export class DataKeyfactorCertificateStore extends cdktf.TerraformDataSource {
 
@@ -80,7 +80,7 @@ export class DataKeyfactorCertificateStore extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataKeyfactorCertificateStore resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataKeyfactorCertificateStore to import
-  * @param importFromId The id of the existing DataKeyfactorCertificateStore that should be imported. Refer to the {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/data-sources/certificate_store#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataKeyfactorCertificateStore that should be imported. Refer to the {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/data-sources/certificate_store#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataKeyfactorCertificateStore to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -92,7 +92,7 @@ export class DataKeyfactorCertificateStore extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/data-sources/certificate_store keyfactor_certificate_store} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/data-sources/certificate_store keyfactor_certificate_store} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -103,7 +103,8 @@ export class DataKeyfactorCertificateStore extends cdktf.TerraformDataSource {
       terraformResourceType: 'keyfactor_certificate_store',
       terraformGeneratorMetadata: {
         providerName: 'keyfactor',
-        providerVersion: '2.6.0'
+        providerVersion: '2.7.0',
+        providerVersionConstraint: '2.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

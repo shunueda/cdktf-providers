@@ -181,7 +181,8 @@ export class DataDatabricksOnlineStores extends cdktf.TerraformDataSource {
       terraformResourceType: 'databricks_online_stores',
       terraformGeneratorMetadata: {
         providerName: 'databricks',
-        providerVersion: '1.97.0'
+        providerVersion: '1.97.0',
+        providerVersionConstraint: '1.97.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

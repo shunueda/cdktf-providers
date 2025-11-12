@@ -213,7 +213,8 @@ export class ApplianceDnsLocalProfileAssignments extends cdktf.TerraformResource
       terraformResourceType: 'meraki_appliance_dns_local_profile_assignments',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1'
+        providerVersion: '1.7.1',
+        providerVersionConstraint: '1.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

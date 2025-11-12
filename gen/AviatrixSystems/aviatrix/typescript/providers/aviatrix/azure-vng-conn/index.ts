@@ -68,7 +68,8 @@ export class AzureVngConn extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_azure_vng_conn',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10'
+        providerVersion: '8.1.10',
+        providerVersionConstraint: '8.1.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

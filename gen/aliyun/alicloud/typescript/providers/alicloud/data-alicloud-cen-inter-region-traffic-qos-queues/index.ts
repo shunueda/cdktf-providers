@@ -182,7 +182,8 @@ export class DataAlicloudCenInterRegionTrafficQosQueues extends cdktf.TerraformD
       terraformResourceType: 'alicloud_cen_inter_region_traffic_qos_queues',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

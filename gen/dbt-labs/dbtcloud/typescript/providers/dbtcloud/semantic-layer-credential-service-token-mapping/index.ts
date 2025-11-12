@@ -67,7 +67,8 @@ export class SemanticLayerCredentialServiceTokenMapping extends cdktf.TerraformR
       terraformResourceType: 'dbtcloud_semantic_layer_credential_service_token_mapping',
       terraformGeneratorMetadata: {
         providerName: 'dbtcloud',
-        providerVersion: '1.3.0'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

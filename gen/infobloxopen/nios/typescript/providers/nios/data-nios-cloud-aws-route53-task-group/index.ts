@@ -1034,7 +1034,8 @@ export class DataNiosCloudAwsRoute53TaskGroup extends cdktf.TerraformDataSource 
       terraformResourceType: 'nios_cloud_aws_route53_task_group',
       terraformGeneratorMetadata: {
         providerName: 'nios',
-        providerVersion: '1.0.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

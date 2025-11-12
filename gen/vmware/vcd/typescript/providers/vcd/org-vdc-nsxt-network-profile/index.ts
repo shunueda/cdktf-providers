@@ -86,7 +86,8 @@ export class OrgVdcNsxtNetworkProfile extends cdktf.TerraformResource {
       terraformResourceType: 'vcd_org_vdc_nsxt_network_profile',
       terraformGeneratorMetadata: {
         providerName: 'vcd',
-        providerVersion: '3.14.1'
+        providerVersion: '3.14.1',
+        providerVersionConstraint: '3.14.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

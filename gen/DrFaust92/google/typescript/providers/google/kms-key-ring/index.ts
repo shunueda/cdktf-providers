@@ -206,7 +206,8 @@ export class KmsKeyRing extends cdktf.TerraformResource {
       terraformResourceType: 'google_kms_key_ring',
       terraformGeneratorMetadata: {
         providerName: 'google',
-        providerVersion: '4.16.4'
+        providerVersion: '4.16.4',
+        providerVersionConstraint: '4.16.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

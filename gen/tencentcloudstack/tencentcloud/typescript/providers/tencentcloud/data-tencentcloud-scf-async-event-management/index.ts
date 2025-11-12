@@ -210,7 +210,8 @@ export class DataTencentcloudScfAsyncEventManagement extends cdktf.TerraformData
       terraformResourceType: 'tencentcloud_scf_async_event_management',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

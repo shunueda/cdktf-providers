@@ -288,7 +288,8 @@ export class DataThunderCgnv6StatefulFirewallAlgPptpStats extends cdktf.Terrafor
       terraformResourceType: 'thunder_cgnv6_stateful_firewall_alg_pptp_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

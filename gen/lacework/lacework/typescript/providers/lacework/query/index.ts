@@ -68,7 +68,8 @@ export class Query extends cdktf.TerraformResource {
       terraformResourceType: 'lacework_query',
       terraformGeneratorMetadata: {
         providerName: 'lacework',
-        providerVersion: '2.0.10'
+        providerVersion: '2.0.10',
+        providerVersionConstraint: '2.0.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

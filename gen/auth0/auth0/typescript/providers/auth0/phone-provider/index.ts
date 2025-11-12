@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/phone_provider
+// https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/phone_provider
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface PhoneProviderConfig extends cdktf.TerraformMetaArguments {
   /**
   * Indicates whether the phone provider is enabled (false) or disabled (true).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/phone_provider#disabled PhoneProvider#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/phone_provider#disabled PhoneProvider#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/phone_provider#id PhoneProvider#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/phone_provider#id PhoneProvider#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface PhoneProviderConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the phone provider. Options include `twilio`, `custom`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/phone_provider#name PhoneProvider#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/phone_provider#name PhoneProvider#name}
   */
   readonly name: string;
   /**
   * configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/phone_provider#configuration PhoneProvider#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/phone_provider#configuration PhoneProvider#configuration}
   */
   readonly configuration: PhoneProviderConfiguration;
   /**
   * credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/phone_provider#credentials PhoneProvider#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/phone_provider#credentials PhoneProvider#credentials}
   */
   readonly credentials: PhoneProviderCredentials;
 }
@@ -43,25 +43,25 @@ export interface PhoneProviderConfiguration {
   /**
   * Default sender subject as "from" when no other value is specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/phone_provider#default_from PhoneProvider#default_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/phone_provider#default_from PhoneProvider#default_from}
   */
   readonly defaultFrom?: string;
   /**
   * Media set supported by a given provider to deliver a notification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/phone_provider#delivery_methods PhoneProvider#delivery_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/phone_provider#delivery_methods PhoneProvider#delivery_methods}
   */
   readonly deliveryMethods: string[];
   /**
   * Twilio Messaging Service SID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/phone_provider#mssid PhoneProvider#mssid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/phone_provider#mssid PhoneProvider#mssid}
   */
   readonly mssid?: string;
   /**
   * Twilio Account SID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/phone_provider#sid PhoneProvider#sid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/phone_provider#sid PhoneProvider#sid}
   */
   readonly sid?: string;
 }
@@ -231,7 +231,7 @@ export interface PhoneProviderCredentials {
   /**
   * The Auth Token for the phone provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/phone_provider#auth_token PhoneProvider#auth_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/phone_provider#auth_token PhoneProvider#auth_token}
   */
   readonly authToken?: string;
 }
@@ -315,7 +315,7 @@ export class PhoneProviderCredentialsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/phone_provider auth0_phone_provider}
+* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/phone_provider auth0_phone_provider}
 */
 export class PhoneProvider extends cdktf.TerraformResource {
 
@@ -331,7 +331,7 @@ export class PhoneProvider extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PhoneProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PhoneProvider to import
-  * @param importFromId The id of the existing PhoneProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/phone_provider#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PhoneProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/phone_provider#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PhoneProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -343,7 +343,7 @@ export class PhoneProvider extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/phone_provider auth0_phone_provider} Resource
+  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/phone_provider auth0_phone_provider} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -354,7 +354,8 @@ export class PhoneProvider extends cdktf.TerraformResource {
       terraformResourceType: 'auth0_phone_provider',
       terraformGeneratorMetadata: {
         providerName: 'auth0',
-        providerVersion: '1.33.0'
+        providerVersion: '1.34.0',
+        providerVersionConstraint: '1.34.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

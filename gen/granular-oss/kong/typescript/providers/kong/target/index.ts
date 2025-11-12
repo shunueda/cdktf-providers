@@ -65,7 +65,8 @@ export class Target extends cdktf.TerraformResource {
       terraformResourceType: 'kong_target',
       terraformGeneratorMetadata: {
         providerName: 'kong',
-        providerVersion: '8.1.0'
+        providerVersion: '8.1.0',
+        providerVersionConstraint: '8.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

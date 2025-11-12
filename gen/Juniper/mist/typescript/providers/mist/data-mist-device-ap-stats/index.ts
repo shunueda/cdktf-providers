@@ -3003,7 +3003,8 @@ export class DataMistDeviceApStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'mist_device_ap_stats',
       terraformGeneratorMetadata: {
         providerName: 'mist',
-        providerVersion: '0.6.0'
+        providerVersion: '0.6.0',
+        providerVersionConstraint: '0.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

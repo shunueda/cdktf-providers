@@ -139,7 +139,8 @@ export class DataVolterraVirtualHostDnsInfo extends cdktf.TerraformDataSource {
       terraformResourceType: 'volterra_virtual_host_dns_info',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.44'
+        providerVersion: '0.11.44',
+        providerVersionConstraint: '0.11.44'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

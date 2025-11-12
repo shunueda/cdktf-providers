@@ -84,7 +84,8 @@ export class BastionhostHostAccount extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_bastionhost_host_account',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

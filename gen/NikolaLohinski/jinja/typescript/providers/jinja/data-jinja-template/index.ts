@@ -762,7 +762,8 @@ export class DataJinjaTemplate extends cdktf.TerraformDataSource {
       terraformResourceType: 'jinja_template',
       terraformGeneratorMetadata: {
         providerName: 'jinja',
-        providerVersion: '2.4.3'
+        providerVersion: '2.4.3',
+        providerVersionConstraint: '2.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

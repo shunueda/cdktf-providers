@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_interface
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_interface
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataCheckpointManagementInterfaceConfig extends cdktf.Terraform
   /**
   * Color of the object. Should be one of existing colors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_interface#color DataCheckpointManagementInterface#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_interface#color DataCheckpointManagementInterface#color}
   */
   readonly color?: string;
   /**
   * Comments string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_interface#comments DataCheckpointManagementInterface#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_interface#comments DataCheckpointManagementInterface#comments}
   */
   readonly comments?: string;
   /**
   * Gateway or cluster object uid that the interface belongs to. <font color="red">Required only if</font> name was specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_interface#gateway_uid DataCheckpointManagementInterface#gateway_uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_interface#gateway_uid DataCheckpointManagementInterface#gateway_uid}
   */
   readonly gatewayUid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_interface#id DataCheckpointManagementInterface#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_interface#id DataCheckpointManagementInterface#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,13 +35,13 @@ export interface DataCheckpointManagementInterfaceConfig extends cdktf.Terraform
   /**
   * Network interface name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_interface#name DataCheckpointManagementInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_interface#name DataCheckpointManagementInterface#name}
   */
   readonly name?: string;
   /**
   * Object unique identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_interface#uid DataCheckpointManagementInterface#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_interface#uid DataCheckpointManagementInterface#uid}
   */
   readonly uid?: string;
 }
@@ -632,7 +632,7 @@ export class DataCheckpointManagementInterfaceTopologySettingsManualList extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_interface checkpoint_management_interface}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_interface checkpoint_management_interface}
 */
 export class DataCheckpointManagementInterface extends cdktf.TerraformDataSource {
 
@@ -648,7 +648,7 @@ export class DataCheckpointManagementInterface extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataCheckpointManagementInterface resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCheckpointManagementInterface to import
-  * @param importFromId The id of the existing DataCheckpointManagementInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_interface#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCheckpointManagementInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_interface#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCheckpointManagementInterface to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -660,7 +660,7 @@ export class DataCheckpointManagementInterface extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_interface checkpoint_management_interface} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_interface checkpoint_management_interface} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -671,7 +671,8 @@ export class DataCheckpointManagementInterface extends cdktf.TerraformDataSource
       terraformResourceType: 'checkpoint_management_interface',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

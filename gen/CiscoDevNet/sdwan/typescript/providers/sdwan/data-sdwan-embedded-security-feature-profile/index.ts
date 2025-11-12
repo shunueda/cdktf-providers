@@ -58,7 +58,8 @@ export class DataSdwanEmbeddedSecurityFeatureProfile extends cdktf.TerraformData
       terraformResourceType: 'sdwan_embedded_security_feature_profile',
       terraformGeneratorMetadata: {
         providerName: 'sdwan',
-        providerVersion: '0.8.1'
+        providerVersion: '0.8.1',
+        providerVersionConstraint: '0.8.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

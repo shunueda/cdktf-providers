@@ -104,7 +104,8 @@ export class SystemAutoBackup extends cdktf.TerraformResource {
       terraformResourceType: 'fortiadc_system_auto_backup',
       terraformGeneratorMetadata: {
         providerName: 'fortiadc',
-        providerVersion: '1.3.1'
+        providerVersion: '1.3.1',
+        providerVersionConstraint: '1.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -605,7 +605,8 @@ export class ComputeRegionPerInstanceConfig extends cdktf.TerraformResource {
       terraformResourceType: 'google_compute_region_per_instance_config',
       terraformGeneratorMetadata: {
         providerName: 'google',
-        providerVersion: '4.16.4'
+        providerVersion: '4.16.4',
+        providerVersionConstraint: '4.16.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

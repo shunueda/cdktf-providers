@@ -55,7 +55,8 @@ export class AzurecafProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'azurecaf',
       terraformGeneratorMetadata: {
         providerName: 'azurecaf',
-        providerVersion: '1.2.31'
+        providerVersion: '1.2.31',
+        providerVersionConstraint: '1.2.31'
       },
       terraformProviderSource: 'aztfmod/azurecaf'
     });

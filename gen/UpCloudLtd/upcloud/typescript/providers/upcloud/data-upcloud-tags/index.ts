@@ -141,7 +141,8 @@ export class DataUpcloudTags extends cdktf.TerraformDataSource {
       terraformResourceType: 'upcloud_tags',
       terraformGeneratorMetadata: {
         providerName: 'upcloud',
-        providerVersion: '5.31.0'
+        providerVersion: '5.31.0',
+        providerVersionConstraint: '5.31.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

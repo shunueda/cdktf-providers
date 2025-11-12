@@ -295,7 +295,8 @@ export class DdosDstZoneIpProtoProtoNameManualMode extends cdktf.TerraformResour
       terraformResourceType: 'thunder_ddos_dst_zone_ip_proto_proto_name_manual_mode',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

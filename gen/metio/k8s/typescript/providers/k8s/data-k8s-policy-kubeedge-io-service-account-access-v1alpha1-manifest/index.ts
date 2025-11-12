@@ -3882,7 +3882,8 @@ export class DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest extends
       terraformResourceType: 'k8s_policy_kubeedge_io_service_account_access_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

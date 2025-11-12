@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/team_organization_assignment
+// https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/team_organization_assignment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface TeamOrganizationAssignmentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/team_organization_assignment#id TeamOrganizationAssignment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/team_organization_assignment#id TeamOrganizationAssignment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface TeamOrganizationAssignmentConfig extends cdktf.TerraformMetaArg
   /**
   * id of the assigned custom role. The following built-in roles can be passed as well: `User`, `Admin`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/team_organization_assignment#role_id TeamOrganizationAssignment#role_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/team_organization_assignment#role_id TeamOrganizationAssignment#role_id}
   */
   readonly roleId: string;
   /**
   * id of the team
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/team_organization_assignment#team_id TeamOrganizationAssignment#team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/team_organization_assignment#team_id TeamOrganizationAssignment#team_id}
   */
   readonly teamId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/team_organization_assignment env0_team_organization_assignment}
+* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/team_organization_assignment env0_team_organization_assignment}
 */
 export class TeamOrganizationAssignment extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class TeamOrganizationAssignment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TeamOrganizationAssignment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TeamOrganizationAssignment to import
-  * @param importFromId The id of the existing TeamOrganizationAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/team_organization_assignment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TeamOrganizationAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/team_organization_assignment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TeamOrganizationAssignment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class TeamOrganizationAssignment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/team_organization_assignment env0_team_organization_assignment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/team_organization_assignment env0_team_organization_assignment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,7 +68,8 @@ export class TeamOrganizationAssignment extends cdktf.TerraformResource {
       terraformResourceType: 'env0_team_organization_assignment',
       terraformGeneratorMetadata: {
         providerName: 'env0',
-        providerVersion: '1.29.4'
+        providerVersion: '1.29.6',
+        providerVersionConstraint: '1.29.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

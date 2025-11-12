@@ -73,7 +73,8 @@ export class Bridge extends cdktf.TerraformResource {
       terraformResourceType: 'mikrotik_bridge',
       terraformGeneratorMetadata: {
         providerName: 'mikrotik',
-        providerVersion: '0.16.1'
+        providerVersion: '0.16.1',
+        providerVersionConstraint: '0.16.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

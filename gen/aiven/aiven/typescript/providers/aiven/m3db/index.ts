@@ -3831,7 +3831,8 @@ export class M3Db extends cdktf.TerraformResource {
       terraformResourceType: 'aiven_m3db',
       terraformGeneratorMetadata: {
         providerName: 'aiven',
-        providerVersion: '4.46.1'
+        providerVersion: '4.46.1',
+        providerVersionConstraint: '4.46.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

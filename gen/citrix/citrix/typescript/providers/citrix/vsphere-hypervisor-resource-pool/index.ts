@@ -713,7 +713,8 @@ export class VsphereHypervisorResourcePool extends cdktf.TerraformResource {
       terraformResourceType: 'citrix_vsphere_hypervisor_resource_pool',
       terraformGeneratorMetadata: {
         providerName: 'citrix',
-        providerVersion: '1.0.30'
+        providerVersion: '1.0.30',
+        providerVersionConstraint: '1.0.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/britive/britive/2.2.3/docs/resources/application
+// https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/application
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ApplicationConfig extends cdktf.TerraformMetaArguments {
   /**
   * Britive application type. Suppotted types 'Snowflake', 'Snowflake Standalone', 'GCP', 'GCP Standalone' and 'Google Workspace'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.3/docs/resources/application#application_type Application#application_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/application#application_type Application#application_type}
   */
   readonly applicationType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.3/docs/resources/application#id Application#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/application#id Application#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface ApplicationConfig extends cdktf.TerraformMetaArguments {
   /**
   * Britive application version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.3/docs/resources/application#version Application#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/application#version Application#version}
   */
   readonly version?: string;
   /**
   * properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.3/docs/resources/application#properties Application#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/application#properties Application#properties}
   */
   readonly properties?: ApplicationProperties[] | cdktf.IResolvable;
   /**
   * sensitive_properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.3/docs/resources/application#sensitive_properties Application#sensitive_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/application#sensitive_properties Application#sensitive_properties}
   */
   readonly sensitiveProperties?: ApplicationSensitiveProperties[] | cdktf.IResolvable;
   /**
   * user_account_mappings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.3/docs/resources/application#user_account_mappings Application#user_account_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/application#user_account_mappings Application#user_account_mappings}
   */
   readonly userAccountMappings?: ApplicationUserAccountMappings;
 }
@@ -49,13 +49,13 @@ export interface ApplicationProperties {
   /**
   * Britive application property name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.3/docs/resources/application#name Application#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/application#name Application#name}
   */
   readonly name: string;
   /**
   * Britive application property value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.3/docs/resources/application#value Application#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/application#value Application#value}
   */
   readonly value: string;
 }
@@ -196,13 +196,13 @@ export interface ApplicationSensitiveProperties {
   /**
   * Britive application property name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.3/docs/resources/application#name Application#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/application#name Application#name}
   */
   readonly name: string;
   /**
   * Britive application property value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.3/docs/resources/application#value Application#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/application#value Application#value}
   */
   readonly value: string;
 }
@@ -343,13 +343,13 @@ export interface ApplicationUserAccountMappings {
   /**
   * Application user account description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.3/docs/resources/application#description Application#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/application#description Application#description}
   */
   readonly description: string;
   /**
   * Application user account name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.3/docs/resources/application#name Application#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/application#name Application#name}
   */
   readonly name: string;
 }
@@ -456,7 +456,7 @@ export class ApplicationUserAccountMappingsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/britive/britive/2.2.3/docs/resources/application britive_application}
+* Represents a {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/application britive_application}
 */
 export class Application extends cdktf.TerraformResource {
 
@@ -472,7 +472,7 @@ export class Application extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Application resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Application to import
-  * @param importFromId The id of the existing Application that should be imported. Refer to the {@link https://registry.terraform.io/providers/britive/britive/2.2.3/docs/resources/application#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Application that should be imported. Refer to the {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/application#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Application to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -484,7 +484,7 @@ export class Application extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/britive/britive/2.2.3/docs/resources/application britive_application} Resource
+  * Create a new {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/application britive_application} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -495,7 +495,8 @@ export class Application extends cdktf.TerraformResource {
       terraformResourceType: 'britive_application',
       terraformGeneratorMetadata: {
         providerName: 'britive',
-        providerVersion: '2.2.3'
+        providerVersion: '2.2.4',
+        providerVersionConstraint: '2.2.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

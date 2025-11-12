@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/microservicegroup
+// https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/microservicegroup
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktf from 'cdktf';
 
 export interface MicroservicegroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/microservicegroup#created_by Microservicegroup#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/microservicegroup#created_by Microservicegroup#created_by}
   */
   readonly createdBy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/microservicegroup#description Microservicegroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/microservicegroup#description Microservicegroup#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/microservicegroup#id Microservicegroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/microservicegroup#id Microservicegroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/microservicegroup#name Microservicegroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/microservicegroup#name Microservicegroup#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/microservicegroup#service_refs Microservicegroup#service_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/microservicegroup#service_refs Microservicegroup#service_refs}
   */
   readonly serviceRefs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/microservicegroup#tenant_ref Microservicegroup#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/microservicegroup#tenant_ref Microservicegroup#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/microservicegroup#uuid Microservicegroup#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/microservicegroup#uuid Microservicegroup#uuid}
   */
   readonly uuid?: string;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/microservicegroup#configpb_attributes Microservicegroup#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/microservicegroup#configpb_attributes Microservicegroup#configpb_attributes}
   */
   readonly configpbAttributes?: MicroservicegroupConfigpbAttributes[] | cdktf.IResolvable;
 }
 export interface MicroservicegroupConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/microservicegroup#version Microservicegroup#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/microservicegroup#version Microservicegroup#version}
   */
   readonly version?: string;
 }
@@ -163,7 +163,7 @@ export class MicroservicegroupConfigpbAttributesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/microservicegroup avi_microservicegroup}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/microservicegroup avi_microservicegroup}
 */
 export class Microservicegroup extends cdktf.TerraformResource {
 
@@ -179,7 +179,7 @@ export class Microservicegroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Microservicegroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Microservicegroup to import
-  * @param importFromId The id of the existing Microservicegroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/microservicegroup#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Microservicegroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/microservicegroup#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Microservicegroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -191,7 +191,7 @@ export class Microservicegroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/microservicegroup avi_microservicegroup} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/microservicegroup avi_microservicegroup} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -202,7 +202,8 @@ export class Microservicegroup extends cdktf.TerraformResource {
       terraformResourceType: 'avi_microservicegroup',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '31.1.1'
+        providerVersion: '30.2.5',
+        providerVersionConstraint: '30.2.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

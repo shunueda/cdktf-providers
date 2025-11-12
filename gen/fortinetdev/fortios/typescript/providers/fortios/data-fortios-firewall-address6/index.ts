@@ -460,7 +460,8 @@ export class DataFortiosFirewallAddress6 extends cdktf.TerraformDataSource {
       terraformResourceType: 'fortios_firewall_address6',
       terraformGeneratorMetadata: {
         providerName: 'fortios',
-        providerVersion: '1.23.0'
+        providerVersion: '1.23.0',
+        providerVersionConstraint: '1.23.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

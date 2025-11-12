@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/ipaddrgroup
+// https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/ipaddrgroup
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,84 +8,84 @@ import * as cdktf from 'cdktf';
 
 export interface IpaddrgroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/ipaddrgroup#country_codes Ipaddrgroup#country_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/ipaddrgroup#country_codes Ipaddrgroup#country_codes}
   */
   readonly countryCodes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/ipaddrgroup#description Ipaddrgroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/ipaddrgroup#description Ipaddrgroup#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/ipaddrgroup#id Ipaddrgroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/ipaddrgroup#id Ipaddrgroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/ipaddrgroup#marathon_app_name Ipaddrgroup#marathon_app_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/ipaddrgroup#marathon_app_name Ipaddrgroup#marathon_app_name}
   */
   readonly marathonAppName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/ipaddrgroup#marathon_service_port Ipaddrgroup#marathon_service_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/ipaddrgroup#marathon_service_port Ipaddrgroup#marathon_service_port}
   */
   readonly marathonServicePort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/ipaddrgroup#name Ipaddrgroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/ipaddrgroup#name Ipaddrgroup#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/ipaddrgroup#tenant_ref Ipaddrgroup#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/ipaddrgroup#tenant_ref Ipaddrgroup#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/ipaddrgroup#uuid Ipaddrgroup#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/ipaddrgroup#uuid Ipaddrgroup#uuid}
   */
   readonly uuid?: string;
   /**
   * addrs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/ipaddrgroup#addrs Ipaddrgroup#addrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/ipaddrgroup#addrs Ipaddrgroup#addrs}
   */
   readonly addrs?: IpaddrgroupAddrs[] | cdktf.IResolvable;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/ipaddrgroup#configpb_attributes Ipaddrgroup#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/ipaddrgroup#configpb_attributes Ipaddrgroup#configpb_attributes}
   */
   readonly configpbAttributes?: IpaddrgroupConfigpbAttributes[] | cdktf.IResolvable;
   /**
   * ip_ports block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/ipaddrgroup#ip_ports Ipaddrgroup#ip_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/ipaddrgroup#ip_ports Ipaddrgroup#ip_ports}
   */
   readonly ipPorts?: IpaddrgroupIpPorts[] | cdktf.IResolvable;
   /**
   * markers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/ipaddrgroup#markers Ipaddrgroup#markers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/ipaddrgroup#markers Ipaddrgroup#markers}
   */
   readonly markers?: IpaddrgroupMarkers[] | cdktf.IResolvable;
   /**
   * prefixes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/ipaddrgroup#prefixes Ipaddrgroup#prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/ipaddrgroup#prefixes Ipaddrgroup#prefixes}
   */
   readonly prefixes?: IpaddrgroupPrefixes[] | cdktf.IResolvable;
   /**
   * ranges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/ipaddrgroup#ranges Ipaddrgroup#ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/ipaddrgroup#ranges Ipaddrgroup#ranges}
   */
   readonly ranges?: IpaddrgroupRanges[] | cdktf.IResolvable;
 }
 export interface IpaddrgroupAddrs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/ipaddrgroup#addr Ipaddrgroup#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/ipaddrgroup#addr Ipaddrgroup#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/ipaddrgroup#type Ipaddrgroup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/ipaddrgroup#type Ipaddrgroup#type}
   */
   readonly type: string;
 }
@@ -224,7 +224,7 @@ export class IpaddrgroupAddrsList extends cdktf.ComplexList {
 }
 export interface IpaddrgroupConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/ipaddrgroup#version Ipaddrgroup#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/ipaddrgroup#version Ipaddrgroup#version}
   */
   readonly version?: string;
 }
@@ -340,11 +340,11 @@ export class IpaddrgroupConfigpbAttributesList extends cdktf.ComplexList {
 }
 export interface IpaddrgroupIpPortsIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/ipaddrgroup#addr Ipaddrgroup#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/ipaddrgroup#addr Ipaddrgroup#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/ipaddrgroup#type Ipaddrgroup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/ipaddrgroup#type Ipaddrgroup#type}
   */
   readonly type: string;
 }
@@ -483,21 +483,21 @@ export class IpaddrgroupIpPortsIpList extends cdktf.ComplexList {
 }
 export interface IpaddrgroupIpPorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/ipaddrgroup#hostname Ipaddrgroup#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/ipaddrgroup#hostname Ipaddrgroup#hostname}
   */
   readonly hostname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/ipaddrgroup#name Ipaddrgroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/ipaddrgroup#name Ipaddrgroup#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/ipaddrgroup#port Ipaddrgroup#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/ipaddrgroup#port Ipaddrgroup#port}
   */
   readonly port: string;
   /**
   * ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/ipaddrgroup#ip Ipaddrgroup#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/ipaddrgroup#ip Ipaddrgroup#ip}
   */
   readonly ip?: IpaddrgroupIpPortsIp[] | cdktf.IResolvable;
 }
@@ -697,11 +697,11 @@ export class IpaddrgroupIpPortsList extends cdktf.ComplexList {
 }
 export interface IpaddrgroupMarkers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/ipaddrgroup#key Ipaddrgroup#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/ipaddrgroup#key Ipaddrgroup#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/ipaddrgroup#values Ipaddrgroup#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/ipaddrgroup#values Ipaddrgroup#values}
   */
   readonly values?: string[];
 }
@@ -843,11 +843,11 @@ export class IpaddrgroupMarkersList extends cdktf.ComplexList {
 }
 export interface IpaddrgroupPrefixesIpAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/ipaddrgroup#addr Ipaddrgroup#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/ipaddrgroup#addr Ipaddrgroup#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/ipaddrgroup#type Ipaddrgroup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/ipaddrgroup#type Ipaddrgroup#type}
   */
   readonly type: string;
 }
@@ -986,13 +986,13 @@ export class IpaddrgroupPrefixesIpAddrList extends cdktf.ComplexList {
 }
 export interface IpaddrgroupPrefixes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/ipaddrgroup#mask Ipaddrgroup#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/ipaddrgroup#mask Ipaddrgroup#mask}
   */
   readonly mask: string;
   /**
   * ip_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/ipaddrgroup#ip_addr Ipaddrgroup#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/ipaddrgroup#ip_addr Ipaddrgroup#ip_addr}
   */
   readonly ipAddr: IpaddrgroupPrefixesIpAddr[] | cdktf.IResolvable;
 }
@@ -1131,11 +1131,11 @@ export class IpaddrgroupPrefixesList extends cdktf.ComplexList {
 }
 export interface IpaddrgroupRangesBegin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/ipaddrgroup#addr Ipaddrgroup#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/ipaddrgroup#addr Ipaddrgroup#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/ipaddrgroup#type Ipaddrgroup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/ipaddrgroup#type Ipaddrgroup#type}
   */
   readonly type: string;
 }
@@ -1274,11 +1274,11 @@ export class IpaddrgroupRangesBeginList extends cdktf.ComplexList {
 }
 export interface IpaddrgroupRangesEnd {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/ipaddrgroup#addr Ipaddrgroup#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/ipaddrgroup#addr Ipaddrgroup#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/ipaddrgroup#type Ipaddrgroup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/ipaddrgroup#type Ipaddrgroup#type}
   */
   readonly type: string;
 }
@@ -1419,13 +1419,13 @@ export interface IpaddrgroupRanges {
   /**
   * begin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/ipaddrgroup#begin Ipaddrgroup#begin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/ipaddrgroup#begin Ipaddrgroup#begin}
   */
   readonly begin: IpaddrgroupRangesBegin[] | cdktf.IResolvable;
   /**
   * end block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/ipaddrgroup#end Ipaddrgroup#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/ipaddrgroup#end Ipaddrgroup#end}
   */
   readonly end: IpaddrgroupRangesEnd[] | cdktf.IResolvable;
 }
@@ -1564,7 +1564,7 @@ export class IpaddrgroupRangesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/ipaddrgroup avi_ipaddrgroup}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/ipaddrgroup avi_ipaddrgroup}
 */
 export class Ipaddrgroup extends cdktf.TerraformResource {
 
@@ -1580,7 +1580,7 @@ export class Ipaddrgroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Ipaddrgroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ipaddrgroup to import
-  * @param importFromId The id of the existing Ipaddrgroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/ipaddrgroup#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ipaddrgroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/ipaddrgroup#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ipaddrgroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1592,7 +1592,7 @@ export class Ipaddrgroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/ipaddrgroup avi_ipaddrgroup} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/ipaddrgroup avi_ipaddrgroup} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1603,7 +1603,8 @@ export class Ipaddrgroup extends cdktf.TerraformResource {
       terraformResourceType: 'avi_ipaddrgroup',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '31.1.1'
+        providerVersion: '30.2.5',
+        providerVersionConstraint: '30.2.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

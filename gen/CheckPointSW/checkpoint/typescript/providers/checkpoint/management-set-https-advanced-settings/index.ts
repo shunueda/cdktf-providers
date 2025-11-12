@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_https_advanced_settings
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_https_advanced_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface ManagementSetHttpsAdvancedSettingsConfig extends cdktf.Terrafor
   /**
   * Controls whether to log and send a notification for dropped traffic.<br><ul style="list-style-type:square"><li>None - Does not record the event.</li><li>Log - Records the event details in SmartView.</li><li>Alert - Logs the event and executes a command.</li><li>Mail - Sends an email to the administrator.</li><li>SNMP Trap - Sends an SNMP alert to the SNMP GU.</li><li>User Defined Alert - Sends customized alerts.</li></ul>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_https_advanced_settings#blocked_certificate_tracking ManagementSetHttpsAdvancedSettings#blocked_certificate_tracking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_https_advanced_settings#blocked_certificate_tracking ManagementSetHttpsAdvancedSettings#blocked_certificate_tracking}
   */
   readonly blockedCertificateTracking?: string;
   /**
   * Whether all requests should be bypassed or blocked-in case of client errors (Client closes the connection due to authentication issues during handshake)<br><ul style="list-style-type:square"><li>true - Fail-open (bypass all requests).</li><li>false - Fail-close (block all requests.</li></ul><br>The default value is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_https_advanced_settings#bypass_on_client_failure ManagementSetHttpsAdvancedSettings#bypass_on_client_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_https_advanced_settings#bypass_on_client_failure ManagementSetHttpsAdvancedSettings#bypass_on_client_failure}
   */
   readonly bypassOnClientFailure?: boolean | cdktf.IResolvable;
   /**
   * Whether all requests should be bypassed or blocked-in case of server errors (for example validation error during GW-Server authentication)<br><ul style="list-style-type:square"><li>true - Fail-open (bypass all requests).</li><li>false - Fail-close (block all requests.</li></ul><br>The default value is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_https_advanced_settings#bypass_on_failure ManagementSetHttpsAdvancedSettings#bypass_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_https_advanced_settings#bypass_on_failure ManagementSetHttpsAdvancedSettings#bypass_on_failure}
   */
   readonly bypassOnFailure?: boolean | cdktf.IResolvable;
   /**
   * Bypass the HTTPS Inspection temporarily to improve connectivity during a heavy load on the Security Gateway. The HTTPS Inspection would resume as soon as the load decreases.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_https_advanced_settings#bypass_under_load ManagementSetHttpsAdvancedSettings#bypass_under_load}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_https_advanced_settings#bypass_under_load ManagementSetHttpsAdvancedSettings#bypass_under_load}
   */
   readonly bypassUnderLoad?: { [key: string]: string };
   /**
   * Configure the value "true" to bypass traffic to well-known software update services.<br>The default value is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_https_advanced_settings#bypass_update_services ManagementSetHttpsAdvancedSettings#bypass_update_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_https_advanced_settings#bypass_update_services ManagementSetHttpsAdvancedSettings#bypass_update_services}
   */
   readonly bypassUpdateServices?: boolean | cdktf.IResolvable;
   /**
   * Configure the value "bypass" to bypass traffic from certificate-pinned applications approved by Check Point.<br>HTTPS Inspection cannot inspect connections initiated by certificate-pinned applications.<br>Configure the value "detect" to send logs for traffic from certificate-pinned applications approved by Check Point.<br>The default value is bypass.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_https_advanced_settings#certificate_pinned_apps_action ManagementSetHttpsAdvancedSettings#certificate_pinned_apps_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_https_advanced_settings#certificate_pinned_apps_action ManagementSetHttpsAdvancedSettings#certificate_pinned_apps_action}
   */
   readonly certificatePinnedAppsAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_https_advanced_settings#id ManagementSetHttpsAdvancedSettings#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_https_advanced_settings#id ManagementSetHttpsAdvancedSettings#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,43 +53,43 @@ export interface ManagementSetHttpsAdvancedSettingsConfig extends cdktf.Terrafor
   /**
   * Apply changes ignoring errors. You won't be able to publish such a changes. If ignore-warnings flag was omitted - warnings will also be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_https_advanced_settings#ignore_errors ManagementSetHttpsAdvancedSettings#ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_https_advanced_settings#ignore_errors ManagementSetHttpsAdvancedSettings#ignore_errors}
   */
   readonly ignoreErrors?: boolean | cdktf.IResolvable;
   /**
   * Apply changes ignoring warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_https_advanced_settings#ignore_warnings ManagementSetHttpsAdvancedSettings#ignore_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_https_advanced_settings#ignore_warnings ManagementSetHttpsAdvancedSettings#ignore_warnings}
   */
   readonly ignoreWarnings?: boolean | cdktf.IResolvable;
   /**
   * The value "true" configures the Security Gateway to send HTTPS Inspection session logs.<br>The default value is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_https_advanced_settings#log_sessions ManagementSetHttpsAdvancedSettings#log_sessions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_https_advanced_settings#log_sessions ManagementSetHttpsAdvancedSettings#log_sessions}
   */
   readonly logSessions?: boolean | cdktf.IResolvable;
   /**
   * Configure the value "true" to use the "Certificate Authority Information Access" extension to retrieve certificates that are missing from the certificate chain.<br>The default value is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_https_advanced_settings#retrieve_intermediate_ca_certificates ManagementSetHttpsAdvancedSettings#retrieve_intermediate_ca_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_https_advanced_settings#retrieve_intermediate_ca_certificates ManagementSetHttpsAdvancedSettings#retrieve_intermediate_ca_certificates}
   */
   readonly retrieveIntermediateCaCertificates?: boolean | cdktf.IResolvable;
   /**
   * When a Security Gateway receives an untrusted certificate from a website server, define when to drop the connection and how to track it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_https_advanced_settings#server_certificate_validation_actions ManagementSetHttpsAdvancedSettings#server_certificate_validation_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_https_advanced_settings#server_certificate_validation_actions ManagementSetHttpsAdvancedSettings#server_certificate_validation_actions}
   */
   readonly serverCertificateValidationActions?: { [key: string]: string };
   /**
   * Whether all requests should be allowed or blocked until categorization is complete.<br><ul style="list-style-type:square"><li>Background - to allow requests until categorization is complete.</li><li>Hold- to block requests until categorization is complete.</li></ul><br>The default value is hold.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_https_advanced_settings#site_categorization_allow_mode ManagementSetHttpsAdvancedSettings#site_categorization_allow_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_https_advanced_settings#site_categorization_allow_mode ManagementSetHttpsAdvancedSettings#site_categorization_allow_mode}
   */
   readonly siteCategorizationAllowMode?: string;
   /**
   * blocked_certificates block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_https_advanced_settings#blocked_certificates ManagementSetHttpsAdvancedSettings#blocked_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_https_advanced_settings#blocked_certificates ManagementSetHttpsAdvancedSettings#blocked_certificates}
   */
   readonly blockedCertificates?: ManagementSetHttpsAdvancedSettingsBlockedCertificates[] | cdktf.IResolvable;
 }
@@ -97,19 +97,19 @@ export interface ManagementSetHttpsAdvancedSettingsBlockedCertificates {
   /**
   * Certificate Serial Number (unique) in hexadecimal format HH:HH.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_https_advanced_settings#cert_serial_number ManagementSetHttpsAdvancedSettings#cert_serial_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_https_advanced_settings#cert_serial_number ManagementSetHttpsAdvancedSettings#cert_serial_number}
   */
   readonly certSerialNumber?: string;
   /**
   * Describes the certificate by default, can be overridden by any text.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_https_advanced_settings#comments ManagementSetHttpsAdvancedSettings#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_https_advanced_settings#comments ManagementSetHttpsAdvancedSettings#comments}
   */
   readonly comments?: string;
   /**
   * Describes the name, cannot be overridden.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_https_advanced_settings#name ManagementSetHttpsAdvancedSettings#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_https_advanced_settings#name ManagementSetHttpsAdvancedSettings#name}
   */
   readonly name?: string;
 }
@@ -283,7 +283,7 @@ export class ManagementSetHttpsAdvancedSettingsBlockedCertificatesList extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_https_advanced_settings checkpoint_management_set_https_advanced_settings}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_https_advanced_settings checkpoint_management_set_https_advanced_settings}
 */
 export class ManagementSetHttpsAdvancedSettings extends cdktf.TerraformResource {
 
@@ -299,7 +299,7 @@ export class ManagementSetHttpsAdvancedSettings extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a ManagementSetHttpsAdvancedSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementSetHttpsAdvancedSettings to import
-  * @param importFromId The id of the existing ManagementSetHttpsAdvancedSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_https_advanced_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementSetHttpsAdvancedSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_https_advanced_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementSetHttpsAdvancedSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -311,7 +311,7 @@ export class ManagementSetHttpsAdvancedSettings extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_https_advanced_settings checkpoint_management_set_https_advanced_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_https_advanced_settings checkpoint_management_set_https_advanced_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -322,7 +322,8 @@ export class ManagementSetHttpsAdvancedSettings extends cdktf.TerraformResource 
       terraformResourceType: 'checkpoint_management_set_https_advanced_settings',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

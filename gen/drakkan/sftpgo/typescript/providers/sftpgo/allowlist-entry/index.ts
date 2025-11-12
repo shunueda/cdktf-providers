@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/allowlist_entry
+// https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/allowlist_entry
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface AllowlistEntryConfig extends cdktf.TerraformMetaArguments {
   /**
   * Optional description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/allowlist_entry#description AllowlistEntry#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/allowlist_entry#description AllowlistEntry#description}
   */
   readonly description?: string;
   /**
   * IP address or network in CIDR format, for example "192.168.1.2/32", "192.168.0.0/24", "2001:db8::/32"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/allowlist_entry#ipornet AllowlistEntry#ipornet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/allowlist_entry#ipornet AllowlistEntry#ipornet}
   */
   readonly ipornet: string;
   /**
   * Defines the protocol the entry applies to. 0 means all the supported protocols, 1 SSH, 2 FTP, 4 WebDAV, 8 HTTP. Protocols can be combined, for example 3 means SSH and FTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/allowlist_entry#protocols AllowlistEntry#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/allowlist_entry#protocols AllowlistEntry#protocols}
   */
   readonly protocols: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/allowlist_entry sftpgo_allowlist_entry}
+* Represents a {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/allowlist_entry sftpgo_allowlist_entry}
 */
 export class AllowlistEntry extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class AllowlistEntry extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AllowlistEntry resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AllowlistEntry to import
-  * @param importFromId The id of the existing AllowlistEntry that should be imported. Refer to the {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/allowlist_entry#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AllowlistEntry that should be imported. Refer to the {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/allowlist_entry#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AllowlistEntry to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class AllowlistEntry extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/allowlist_entry sftpgo_allowlist_entry} Resource
+  * Create a new {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/allowlist_entry sftpgo_allowlist_entry} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,7 +67,8 @@ export class AllowlistEntry extends cdktf.TerraformResource {
       terraformResourceType: 'sftpgo_allowlist_entry',
       terraformGeneratorMetadata: {
         providerName: 'sftpgo',
-        providerVersion: '0.0.18'
+        providerVersion: '0.0.19',
+        providerVersionConstraint: '0.0.19'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

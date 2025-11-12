@@ -68,7 +68,8 @@ export class DataFastlyPackageHash extends cdktf.TerraformDataSource {
       terraformResourceType: 'fastly_package_hash',
       terraformGeneratorMetadata: {
         providerName: 'fastly',
-        providerVersion: '8.4.0'
+        providerVersion: '8.4.0',
+        providerVersionConstraint: '8.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

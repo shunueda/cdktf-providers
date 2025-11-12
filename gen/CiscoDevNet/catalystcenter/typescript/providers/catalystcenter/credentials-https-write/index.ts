@@ -74,7 +74,8 @@ export class CredentialsHttpsWrite extends cdktf.TerraformResource {
       terraformResourceType: 'catalystcenter_credentials_https_write',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.2'
+        providerVersion: '0.4.2',
+        providerVersionConstraint: '0.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

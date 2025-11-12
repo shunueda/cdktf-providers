@@ -219,7 +219,8 @@ export class AwsSnsTopic extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_aws_sns_topic',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.28'
+        providerVersion: '0.11.28',
+        providerVersionConstraint: '0.11.28'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

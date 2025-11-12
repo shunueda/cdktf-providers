@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/dbaas_mysql_database
+// https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/dbaas_mysql_database
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DbaasMysqlDatabaseConfig extends cdktf.TerraformMetaArguments {
   /**
   * ❗ The name of the database for this service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/dbaas_mysql_database#database_name DbaasMysqlDatabase#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/dbaas_mysql_database#database_name DbaasMysqlDatabase#database_name}
   */
   readonly databaseName: string;
   /**
   * ❗ The name of the database service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/dbaas_mysql_database#service DbaasMysqlDatabase#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/dbaas_mysql_database#service DbaasMysqlDatabase#service}
   */
   readonly service: string;
   /**
   * ❗ The Exoscale [Zone](https://www.exoscale.com/datacenters/) name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/dbaas_mysql_database#zone DbaasMysqlDatabase#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/dbaas_mysql_database#zone DbaasMysqlDatabase#zone}
   */
   readonly zone: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/dbaas_mysql_database#timeouts DbaasMysqlDatabase#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/dbaas_mysql_database#timeouts DbaasMysqlDatabase#timeouts}
   */
   readonly timeouts?: DbaasMysqlDatabaseTimeouts;
 }
@@ -36,25 +36,25 @@ export interface DbaasMysqlDatabaseTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/dbaas_mysql_database#create DbaasMysqlDatabase#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/dbaas_mysql_database#create DbaasMysqlDatabase#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/dbaas_mysql_database#delete DbaasMysqlDatabase#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/dbaas_mysql_database#delete DbaasMysqlDatabase#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/dbaas_mysql_database#read DbaasMysqlDatabase#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/dbaas_mysql_database#read DbaasMysqlDatabase#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/dbaas_mysql_database#update DbaasMysqlDatabase#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/dbaas_mysql_database#update DbaasMysqlDatabase#update}
   */
   readonly update?: string;
 }
@@ -235,7 +235,7 @@ export class DbaasMysqlDatabaseTimeoutsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/dbaas_mysql_database exoscale_dbaas_mysql_database}
+* Represents a {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/dbaas_mysql_database exoscale_dbaas_mysql_database}
 */
 export class DbaasMysqlDatabase extends cdktf.TerraformResource {
 
@@ -251,7 +251,7 @@ export class DbaasMysqlDatabase extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DbaasMysqlDatabase resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DbaasMysqlDatabase to import
-  * @param importFromId The id of the existing DbaasMysqlDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/dbaas_mysql_database#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DbaasMysqlDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/dbaas_mysql_database#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DbaasMysqlDatabase to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -263,7 +263,7 @@ export class DbaasMysqlDatabase extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/dbaas_mysql_database exoscale_dbaas_mysql_database} Resource
+  * Create a new {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/dbaas_mysql_database exoscale_dbaas_mysql_database} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -274,7 +274,8 @@ export class DbaasMysqlDatabase extends cdktf.TerraformResource {
       terraformResourceType: 'exoscale_dbaas_mysql_database',
       terraformGeneratorMetadata: {
         providerName: 'exoscale',
-        providerVersion: '0.66.0'
+        providerVersion: '0.67.0',
+        providerVersionConstraint: '0.67.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

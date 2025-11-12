@@ -197,7 +197,8 @@ export class ServiceCatalogProductPortfolioAssociation extends cdktf.TerraformRe
       terraformResourceType: 'alicloud_service_catalog_product_portfolio_association',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

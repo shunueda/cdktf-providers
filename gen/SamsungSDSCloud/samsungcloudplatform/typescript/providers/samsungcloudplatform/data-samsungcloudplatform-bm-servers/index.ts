@@ -208,7 +208,8 @@ export class DataSamsungcloudplatformBmServers extends cdktf.TerraformDataSource
       terraformResourceType: 'samsungcloudplatform_bm_servers',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0'
+        providerVersion: '3.15.0',
+        providerVersionConstraint: '3.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

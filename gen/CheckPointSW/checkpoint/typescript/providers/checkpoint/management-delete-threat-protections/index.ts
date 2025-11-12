@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_delete_threat_protections
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_delete_threat_protections
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ManagementDeleteThreatProtectionsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_delete_threat_protections#id ManagementDeleteThreatProtections#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_delete_threat_protections#id ManagementDeleteThreatProtections#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface ManagementDeleteThreatProtectionsConfig extends cdktf.Terraform
   /**
   * Protections package format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_delete_threat_protections#package_format ManagementDeleteThreatProtections#package_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_delete_threat_protections#package_format ManagementDeleteThreatProtections#package_format}
   */
   readonly packageFormat?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_delete_threat_protections checkpoint_management_delete_threat_protections}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_delete_threat_protections checkpoint_management_delete_threat_protections}
 */
 export class ManagementDeleteThreatProtections extends cdktf.TerraformResource {
 
@@ -39,7 +39,7 @@ export class ManagementDeleteThreatProtections extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementDeleteThreatProtections resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementDeleteThreatProtections to import
-  * @param importFromId The id of the existing ManagementDeleteThreatProtections that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_delete_threat_protections#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementDeleteThreatProtections that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_delete_threat_protections#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementDeleteThreatProtections to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -51,7 +51,7 @@ export class ManagementDeleteThreatProtections extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_delete_threat_protections checkpoint_management_delete_threat_protections} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_delete_threat_protections checkpoint_management_delete_threat_protections} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -62,7 +62,8 @@ export class ManagementDeleteThreatProtections extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_delete_threat_protections',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

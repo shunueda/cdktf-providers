@@ -179,7 +179,8 @@ export class DataTencentcloudApiGatewayUsagePlans extends cdktf.TerraformDataSou
       terraformResourceType: 'tencentcloud_api_gateway_usage_plans',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

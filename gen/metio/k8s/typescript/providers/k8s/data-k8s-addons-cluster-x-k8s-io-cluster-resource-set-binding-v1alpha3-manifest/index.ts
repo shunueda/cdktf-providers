@@ -751,7 +751,8 @@ export class DataK8SAddonsClusterXK8SIoClusterResourceSetBindingV1Alpha3Manifest
       terraformResourceType: 'k8s_addons_cluster_x_k8s_io_cluster_resource_set_binding_v1alpha3_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

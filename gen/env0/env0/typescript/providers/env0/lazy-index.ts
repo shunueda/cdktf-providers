@@ -76,6 +76,7 @@ Object.defineProperty(exports, 'dataEnv0CustomFlow', { get: function () { return
 Object.defineProperty(exports, 'dataEnv0CustomRole', { get: function () { return require('./data-env0-custom-role'); } });
 Object.defineProperty(exports, 'dataEnv0CustomRoles', { get: function () { return require('./data-env0-custom-roles'); } });
 Object.defineProperty(exports, 'dataEnv0Environment', { get: function () { return require('./data-env0-environment'); } });
+Object.defineProperty(exports, 'dataEnv0Environments', { get: function () { return require('./data-env0-environments'); } });
 Object.defineProperty(exports, 'dataEnv0GcpCredentials', { get: function () { return require('./data-env0-gcp-credentials'); } });
 Object.defineProperty(exports, 'dataEnv0GcpGkeCredentials', { get: function () { return require('./data-env0-gcp-gke-credentials'); } });
 Object.defineProperty(exports, 'dataEnv0GcpOidcCredentials', { get: function () { return require('./data-env0-gcp-oidc-credentials'); } });

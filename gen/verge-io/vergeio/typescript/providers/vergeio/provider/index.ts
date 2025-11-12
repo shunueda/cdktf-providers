@@ -79,7 +79,8 @@ export class VergeioProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'vergeio',
       terraformGeneratorMetadata: {
         providerName: 'vergeio',
-        providerVersion: '2.7.1'
+        providerVersion: '2.7.1',
+        providerVersionConstraint: '2.7.1'
       },
       terraformProviderSource: 'verge-io/vergeio'
     });

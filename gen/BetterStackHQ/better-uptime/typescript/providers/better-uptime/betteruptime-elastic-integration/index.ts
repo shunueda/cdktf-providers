@@ -115,7 +115,8 @@ export class BetteruptimeElasticIntegration extends cdktf.TerraformResource {
       terraformResourceType: 'betteruptime_elastic_integration',
       terraformGeneratorMetadata: {
         providerName: 'better-uptime',
-        providerVersion: '0.20.4'
+        providerVersion: '0.20.4',
+        providerVersionConstraint: '0.20.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

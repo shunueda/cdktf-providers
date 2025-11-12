@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbvserver
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbvserver
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,216 +8,228 @@ import * as cdktf from 'cdktf';
 
 export interface GslbvserverConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbvserver#appflowlog Gslbvserver#appflowlog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbvserver#appflowlog Gslbvserver#appflowlog}
   */
   readonly appflowlog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbvserver#backupip Gslbvserver#backupip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbvserver#backupip Gslbvserver#backupip}
   */
   readonly backupip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbvserver#backuplbmethod Gslbvserver#backuplbmethod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbvserver#backuplbmethod Gslbvserver#backuplbmethod}
   */
   readonly backuplbmethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbvserver#backupsessiontimeout Gslbvserver#backupsessiontimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbvserver#backupsessiontimeout Gslbvserver#backupsessiontimeout}
   */
   readonly backupsessiontimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbvserver#backupvserver Gslbvserver#backupvserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbvserver#backupvserver Gslbvserver#backupvserver}
   */
   readonly backupvserver?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbvserver#comment Gslbvserver#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbvserver#comment Gslbvserver#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbvserver#considereffectivestate Gslbvserver#considereffectivestate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbvserver#considereffectivestate Gslbvserver#considereffectivestate}
   */
   readonly considereffectivestate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbvserver#cookiedomain Gslbvserver#cookiedomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbvserver#cookiedomain Gslbvserver#cookiedomain}
   */
   readonly cookiedomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbvserver#cookietimeout Gslbvserver#cookietimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbvserver#cookietimeout Gslbvserver#cookietimeout}
   */
   readonly cookietimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbvserver#disableprimaryondown Gslbvserver#disableprimaryondown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbvserver#disableprimaryondown Gslbvserver#disableprimaryondown}
   */
   readonly disableprimaryondown?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbvserver#dnsrecordtype Gslbvserver#dnsrecordtype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbvserver#dnsrecordtype Gslbvserver#dnsrecordtype}
   */
   readonly dnsrecordtype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbvserver#domainname Gslbvserver#domainname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbvserver#domainname Gslbvserver#domainname}
   */
   readonly domainname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbvserver#dynamicweight Gslbvserver#dynamicweight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbvserver#dynamicweight Gslbvserver#dynamicweight}
   */
   readonly dynamicweight?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbvserver#ecs Gslbvserver#ecs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbvserver#ecs Gslbvserver#ecs}
   */
   readonly ecs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbvserver#ecsaddrvalidation Gslbvserver#ecsaddrvalidation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbvserver#ecsaddrvalidation Gslbvserver#ecsaddrvalidation}
   */
   readonly ecsaddrvalidation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbvserver#edr Gslbvserver#edr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbvserver#edr Gslbvserver#edr}
   */
   readonly edr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbvserver#id Gslbvserver#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbvserver#id Gslbvserver#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbvserver#iptype Gslbvserver#iptype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbvserver#iptype Gslbvserver#iptype}
   */
   readonly iptype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbvserver#lbmethod Gslbvserver#lbmethod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbvserver#lbmethod Gslbvserver#lbmethod}
   */
   readonly lbmethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbvserver#mir Gslbvserver#mir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbvserver#mir Gslbvserver#mir}
   */
   readonly mir?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbvserver#name Gslbvserver#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbvserver#name Gslbvserver#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbvserver#netmask Gslbvserver#netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbvserver#netmask Gslbvserver#netmask}
   */
   readonly netmask?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbvserver#persistenceid Gslbvserver#persistenceid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbvserver#orderthreshold Gslbvserver#orderthreshold}
+  */
+  readonly orderthreshold?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbvserver#persistenceid Gslbvserver#persistenceid}
   */
   readonly persistenceid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbvserver#persistencetype Gslbvserver#persistencetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbvserver#persistencetype Gslbvserver#persistencetype}
   */
   readonly persistencetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbvserver#persistmask Gslbvserver#persistmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbvserver#persistmask Gslbvserver#persistmask}
   */
   readonly persistmask?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbvserver#servicename Gslbvserver#servicename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbvserver#rule Gslbvserver#rule}
+  */
+  readonly rule?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbvserver#servicename Gslbvserver#servicename}
   */
   readonly servicename?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbvserver#servicetype Gslbvserver#servicetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbvserver#servicetype Gslbvserver#servicetype}
   */
   readonly servicetype: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbvserver#sitedomainttl Gslbvserver#sitedomainttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbvserver#sitedomainttl Gslbvserver#sitedomainttl}
   */
   readonly sitedomainttl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbvserver#sobackupaction Gslbvserver#sobackupaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbvserver#sobackupaction Gslbvserver#sobackupaction}
   */
   readonly sobackupaction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbvserver#somethod Gslbvserver#somethod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbvserver#somethod Gslbvserver#somethod}
   */
   readonly somethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbvserver#sopersistence Gslbvserver#sopersistence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbvserver#sopersistence Gslbvserver#sopersistence}
   */
   readonly sopersistence?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbvserver#sopersistencetimeout Gslbvserver#sopersistencetimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbvserver#sopersistencetimeout Gslbvserver#sopersistencetimeout}
   */
   readonly sopersistencetimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbvserver#sothreshold Gslbvserver#sothreshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbvserver#sothreshold Gslbvserver#sothreshold}
   */
   readonly sothreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbvserver#state Gslbvserver#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbvserver#state Gslbvserver#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbvserver#timeout Gslbvserver#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbvserver#timeout Gslbvserver#timeout}
   */
   readonly timeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbvserver#tolerance Gslbvserver#tolerance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbvserver#toggleorder Gslbvserver#toggleorder}
+  */
+  readonly toggleorder?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbvserver#tolerance Gslbvserver#tolerance}
   */
   readonly tolerance?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbvserver#ttl Gslbvserver#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbvserver#ttl Gslbvserver#ttl}
   */
   readonly ttl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbvserver#v6netmasklen Gslbvserver#v6netmasklen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbvserver#v6netmasklen Gslbvserver#v6netmasklen}
   */
   readonly v6Netmasklen?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbvserver#v6persistmasklen Gslbvserver#v6persistmasklen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbvserver#v6persistmasklen Gslbvserver#v6persistmasklen}
   */
   readonly v6Persistmasklen?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbvserver#weight Gslbvserver#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbvserver#weight Gslbvserver#weight}
   */
   readonly weight?: number;
   /**
   * domain block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbvserver#domain Gslbvserver#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbvserver#domain Gslbvserver#domain}
   */
   readonly domain?: GslbvserverDomain[] | cdktf.IResolvable;
   /**
   * service block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbvserver#service Gslbvserver#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbvserver#service Gslbvserver#service}
   */
   readonly service?: GslbvserverService[] | cdktf.IResolvable;
 }
 export interface GslbvserverDomain {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbvserver#backupip Gslbvserver#backupip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbvserver#backupip Gslbvserver#backupip}
   */
   readonly backupip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbvserver#backupipflag Gslbvserver#backupipflag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbvserver#backupipflag Gslbvserver#backupipflag}
   */
   readonly backupipflag?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbvserver#cookiedomain Gslbvserver#cookiedomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbvserver#cookiedomain Gslbvserver#cookiedomain}
   */
   readonly cookiedomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbvserver#cookiedomainflag Gslbvserver#cookiedomainflag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbvserver#cookiedomainflag Gslbvserver#cookiedomainflag}
   */
   readonly cookiedomainflag?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbvserver#cookietimeout Gslbvserver#cookietimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbvserver#cookietimeout Gslbvserver#cookietimeout}
   */
   readonly cookietimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbvserver#domainname Gslbvserver#domainname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbvserver#domainname Gslbvserver#domainname}
   */
   readonly domainname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbvserver#name Gslbvserver#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbvserver#name Gslbvserver#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbvserver#sitedomainttl Gslbvserver#sitedomainttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbvserver#sitedomainttl Gslbvserver#sitedomainttl}
   */
   readonly sitedomainttl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbvserver#ttl Gslbvserver#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbvserver#ttl Gslbvserver#ttl}
   */
   readonly ttl?: number;
 }
@@ -565,15 +577,15 @@ export class GslbvserverDomainList extends cdktf.ComplexList {
 }
 export interface GslbvserverService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbvserver#domainname Gslbvserver#domainname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbvserver#domainname Gslbvserver#domainname}
   */
   readonly domainname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbvserver#servicename Gslbvserver#servicename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbvserver#servicename Gslbvserver#servicename}
   */
   readonly servicename: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbvserver#weight Gslbvserver#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbvserver#weight Gslbvserver#weight}
   */
   readonly weight?: number;
 }
@@ -744,7 +756,7 @@ export class GslbvserverServiceList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbvserver citrixadc_gslbvserver}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbvserver citrixadc_gslbvserver}
 */
 export class Gslbvserver extends cdktf.TerraformResource {
 
@@ -760,7 +772,7 @@ export class Gslbvserver extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Gslbvserver resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Gslbvserver to import
-  * @param importFromId The id of the existing Gslbvserver that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbvserver#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Gslbvserver that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbvserver#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Gslbvserver to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -772,7 +784,7 @@ export class Gslbvserver extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbvserver citrixadc_gslbvserver} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbvserver citrixadc_gslbvserver} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -783,7 +795,8 @@ export class Gslbvserver extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_gslbvserver',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -815,9 +828,11 @@ export class Gslbvserver extends cdktf.TerraformResource {
     this._mir = config.mir;
     this._name = config.name;
     this._netmask = config.netmask;
+    this._orderthreshold = config.orderthreshold;
     this._persistenceid = config.persistenceid;
     this._persistencetype = config.persistencetype;
     this._persistmask = config.persistmask;
+    this._rule = config.rule;
     this._servicename = config.servicename;
     this._servicetype = config.servicetype;
     this._sitedomainttl = config.sitedomainttl;
@@ -828,6 +843,7 @@ export class Gslbvserver extends cdktf.TerraformResource {
     this._sothreshold = config.sothreshold;
     this._state = config.state;
     this._timeout = config.timeout;
+    this._toggleorder = config.toggleorder;
     this._tolerance = config.tolerance;
     this._ttl = config.ttl;
     this._v6Netmasklen = config.v6Netmasklen;
@@ -1190,6 +1206,22 @@ export class Gslbvserver extends cdktf.TerraformResource {
     return this._netmask;
   }
 
+  // orderthreshold - computed: true, optional: true, required: false
+  private _orderthreshold?: number; 
+  public get orderthreshold() {
+    return this.getNumberAttribute('orderthreshold');
+  }
+  public set orderthreshold(value: number) {
+    this._orderthreshold = value;
+  }
+  public resetOrderthreshold() {
+    this._orderthreshold = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get orderthresholdInput() {
+    return this._orderthreshold;
+  }
+
   // persistenceid - computed: true, optional: true, required: false
   private _persistenceid?: number; 
   public get persistenceid() {
@@ -1236,6 +1268,22 @@ export class Gslbvserver extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get persistmaskInput() {
     return this._persistmask;
+  }
+
+  // rule - computed: true, optional: true, required: false
+  private _rule?: string; 
+  public get rule() {
+    return this.getStringAttribute('rule');
+  }
+  public set rule(value: string) {
+    this._rule = value;
+  }
+  public resetRule() {
+    this._rule = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ruleInput() {
+    return this._rule;
   }
 
   // servicename - computed: true, optional: true, required: false
@@ -1395,6 +1443,22 @@ export class Gslbvserver extends cdktf.TerraformResource {
     return this._timeout;
   }
 
+  // toggleorder - computed: true, optional: true, required: false
+  private _toggleorder?: string; 
+  public get toggleorder() {
+    return this.getStringAttribute('toggleorder');
+  }
+  public set toggleorder(value: string) {
+    this._toggleorder = value;
+  }
+  public resetToggleorder() {
+    this._toggleorder = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get toggleorderInput() {
+    return this._toggleorder;
+  }
+
   // tolerance - computed: true, optional: true, required: false
   private _tolerance?: number; 
   public get tolerance() {
@@ -1535,9 +1599,11 @@ export class Gslbvserver extends cdktf.TerraformResource {
       mir: cdktf.stringToTerraform(this._mir),
       name: cdktf.stringToTerraform(this._name),
       netmask: cdktf.stringToTerraform(this._netmask),
+      orderthreshold: cdktf.numberToTerraform(this._orderthreshold),
       persistenceid: cdktf.numberToTerraform(this._persistenceid),
       persistencetype: cdktf.stringToTerraform(this._persistencetype),
       persistmask: cdktf.stringToTerraform(this._persistmask),
+      rule: cdktf.stringToTerraform(this._rule),
       servicename: cdktf.stringToTerraform(this._servicename),
       servicetype: cdktf.stringToTerraform(this._servicetype),
       sitedomainttl: cdktf.numberToTerraform(this._sitedomainttl),
@@ -1548,6 +1614,7 @@ export class Gslbvserver extends cdktf.TerraformResource {
       sothreshold: cdktf.numberToTerraform(this._sothreshold),
       state: cdktf.stringToTerraform(this._state),
       timeout: cdktf.numberToTerraform(this._timeout),
+      toggleorder: cdktf.stringToTerraform(this._toggleorder),
       tolerance: cdktf.numberToTerraform(this._tolerance),
       ttl: cdktf.numberToTerraform(this._ttl),
       v6netmasklen: cdktf.numberToTerraform(this._v6Netmasklen),
@@ -1692,6 +1759,12 @@ export class Gslbvserver extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      orderthreshold: {
+        value: cdktf.numberToHclTerraform(this._orderthreshold),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
       persistenceid: {
         value: cdktf.numberToHclTerraform(this._persistenceid),
         isBlock: false,
@@ -1706,6 +1779,12 @@ export class Gslbvserver extends cdktf.TerraformResource {
       },
       persistmask: {
         value: cdktf.stringToHclTerraform(this._persistmask),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      rule: {
+        value: cdktf.stringToHclTerraform(this._rule),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
@@ -1769,6 +1848,12 @@ export class Gslbvserver extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "number",
+      },
+      toggleorder: {
+        value: cdktf.stringToHclTerraform(this._toggleorder),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
       tolerance: {
         value: cdktf.numberToHclTerraform(this._tolerance),

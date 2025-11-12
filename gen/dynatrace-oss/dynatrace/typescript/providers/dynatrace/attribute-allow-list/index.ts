@@ -68,7 +68,8 @@ export class AttributeAllowList extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_attribute_allow_list',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1'
+        providerVersion: '1.87.1',
+        providerVersionConstraint: '1.87.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

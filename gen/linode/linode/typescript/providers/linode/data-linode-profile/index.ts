@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/profile
+// https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -110,7 +110,7 @@ export class DataLinodeProfileReferralsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/profile linode_profile}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/profile linode_profile}
 */
 export class DataLinodeProfile extends cdktf.TerraformDataSource {
 
@@ -126,7 +126,7 @@ export class DataLinodeProfile extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataLinodeProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataLinodeProfile to import
-  * @param importFromId The id of the existing DataLinodeProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataLinodeProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataLinodeProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -138,7 +138,7 @@ export class DataLinodeProfile extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/profile linode_profile} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/profile linode_profile} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -149,7 +149,8 @@ export class DataLinodeProfile extends cdktf.TerraformDataSource {
       terraformResourceType: 'linode_profile',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.5.0'
+        providerVersion: '3.5.1',
+        providerVersionConstraint: '3.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

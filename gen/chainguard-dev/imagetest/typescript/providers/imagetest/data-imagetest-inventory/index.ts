@@ -49,7 +49,8 @@ export class DataImagetestInventory extends cdktf.TerraformDataSource {
       terraformResourceType: 'imagetest_inventory',
       terraformGeneratorMetadata: {
         providerName: 'imagetest',
-        providerVersion: '0.0.102'
+        providerVersion: '0.0.102',
+        providerVersionConstraint: '0.0.102'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

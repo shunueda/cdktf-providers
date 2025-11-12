@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/tool_sniffer
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_sniffer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,79 +10,79 @@ export interface ToolSnifferConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/tool_sniffer#___path___ ToolSniffer#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_sniffer#___path___ ToolSniffer#___path___}
   */
   readonly path?: string;
   /**
   * <em>A set of transformations for field names. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/tool_sniffer#___skip___ ToolSniffer#___skip___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_sniffer#___skip___ ToolSniffer#___skip___}
   */
   readonly skip?: string;
   /**
   * Start packet capture.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/tool_sniffer#enabled ToolSniffer#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_sniffer#enabled ToolSniffer#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * File size limit. Sniffer will stop when a limit is reached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/tool_sniffer#file_limit ToolSniffer#file_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_sniffer#file_limit ToolSniffer#file_limit}
   */
   readonly fileLimit?: number;
   /**
   * Name of the file where sniffed packets will be saved.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/tool_sniffer#file_name ToolSniffer#file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_sniffer#file_name ToolSniffer#file_name}
   */
   readonly fileName?: string;
   /**
   * CPU core used as a filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/tool_sniffer#filter_cpu ToolSniffer#filter_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_sniffer#filter_cpu ToolSniffer#filter_cpu}
   */
   readonly filterCpu?: string;
   /**
   * Specifies which direction filtering will be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/tool_sniffer#filter_direction ToolSniffer#filter_direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_sniffer#filter_direction ToolSniffer#filter_direction}
   */
   readonly filterDirection?: string;
   /**
   * Up to 16 IP destination addresses used as a filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/tool_sniffer#filter_dst_ip_address ToolSniffer#filter_dst_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_sniffer#filter_dst_ip_address ToolSniffer#filter_dst_ip_address}
   */
   readonly filterDstIpAddress?: string[];
   /**
   * Up to 16 IPv6 destination addresses used as a filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/tool_sniffer#filter_dst_ipv6_address ToolSniffer#filter_dst_ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_sniffer#filter_dst_ipv6_address ToolSniffer#filter_dst_ipv6_address}
   */
   readonly filterDstIpv6Address?: string[];
   /**
   * Up to 16 MAC destination addresses and MAC address masks used as a filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/tool_sniffer#filter_dst_mac_address ToolSniffer#filter_dst_mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_sniffer#filter_dst_mac_address ToolSniffer#filter_dst_mac_address}
   */
   readonly filterDstMacAddress?: string[];
   /**
   * Up to 16 comma-separated destination ports used as a filter. A list of predefined port names is also available, like ssh and telnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/tool_sniffer#filter_dst_port ToolSniffer#filter_dst_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_sniffer#filter_dst_port ToolSniffer#filter_dst_port}
   */
   readonly filterDstPort?: string[];
   /**
   * Interface name on which sniffer will be running. all indicates that the sniffer will sniff packets on all interfaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/tool_sniffer#filter_interface ToolSniffer#filter_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_sniffer#filter_interface ToolSniffer#filter_interface}
   */
   readonly filterInterface?: string[];
   /**
   * Up to 16 IP addresses used as a filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/tool_sniffer#filter_ip_address ToolSniffer#filter_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_sniffer#filter_ip_address ToolSniffer#filter_ip_address}
   */
   readonly filterIpAddress?: string[];
   /**
@@ -115,19 +115,19 @@ export interface ToolSnifferConfig extends cdktf.TerraformMetaArguments {
   *   * xns-idp - xerox xns idp
   *   * xtp - xpress transfer protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/tool_sniffer#filter_ip_protocol ToolSniffer#filter_ip_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_sniffer#filter_ip_protocol ToolSniffer#filter_ip_protocol}
   */
   readonly filterIpProtocol?: string[];
   /**
   * Up to 16 IPv6 addresses used as a filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/tool_sniffer#filter_ipv6_address ToolSniffer#filter_ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_sniffer#filter_ipv6_address ToolSniffer#filter_ipv6_address}
   */
   readonly filterIpv6Address?: string[];
   /**
   * Up to 16 MAC addresses and MAC address masks used as a filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/tool_sniffer#filter_mac_address ToolSniffer#filter_mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_sniffer#filter_mac_address ToolSniffer#filter_mac_address}
   */
   readonly filterMacAddress?: string[];
   /**
@@ -150,108 +150,108 @@ export interface ToolSnifferConfig extends cdktf.TerraformMetaArguments {
   *   * service-vlan - Provider Bridging (IEEE 802.1ad) & Shortest Path Bridging IEEE 802.1aq (0x88A8)
   *   * vlan - VLAN-tagged frame (IEEE 802.1Q) and Shortest Path Bridging IEEE 802.1aq with NNI compatibility (0x8100)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/tool_sniffer#filter_mac_protocol ToolSniffer#filter_mac_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_sniffer#filter_mac_protocol ToolSniffer#filter_mac_protocol}
   */
   readonly filterMacProtocol?: string[];
   /**
   * Changes the logic for filters with multiple entries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/tool_sniffer#filter_operator_between_entries ToolSniffer#filter_operator_between_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_sniffer#filter_operator_between_entries ToolSniffer#filter_operator_between_entries}
   */
   readonly filterOperatorBetweenEntries?: string;
   /**
   * Up to 16 comma-separated ports used as a filter. A list of predefined port names is also available, like ssh and telnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/tool_sniffer#filter_port ToolSniffer#filter_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_sniffer#filter_port ToolSniffer#filter_port}
   */
   readonly filterPort?: string[];
   /**
   * Filters packets of specified size or size range in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/tool_sniffer#filter_size ToolSniffer#filter_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_sniffer#filter_size ToolSniffer#filter_size}
   */
   readonly filterSize?: string;
   /**
   * Up to 16 IP source addresses used as a filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/tool_sniffer#filter_src_ip_address ToolSniffer#filter_src_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_sniffer#filter_src_ip_address ToolSniffer#filter_src_ip_address}
   */
   readonly filterSrcIpAddress?: string[];
   /**
   * Up to 16 IPv6 source addresses used as a filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/tool_sniffer#filter_src_ipv6_address ToolSniffer#filter_src_ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_sniffer#filter_src_ipv6_address ToolSniffer#filter_src_ipv6_address}
   */
   readonly filterSrcIpv6Address?: string[];
   /**
   * Up to 16 MAC source addresses and MAC address masks used as a filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/tool_sniffer#filter_src_mac_address ToolSniffer#filter_src_mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_sniffer#filter_src_mac_address ToolSniffer#filter_src_mac_address}
   */
   readonly filterSrcMacAddress?: string[];
   /**
   * Up to 16 comma-separated source ports used as a filter. A list of predefined port names is also available, like ssh and telnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/tool_sniffer#filter_src_port ToolSniffer#filter_src_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_sniffer#filter_src_port ToolSniffer#filter_src_port}
   */
   readonly filterSrcPort?: string[];
   /**
   * Sniffed packets that are devised for the sniffer server are ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/tool_sniffer#filter_stream ToolSniffer#filter_stream}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_sniffer#filter_stream ToolSniffer#filter_stream}
   */
   readonly filterStream?: boolean | cdktf.IResolvable;
   /**
   * Up to 16 VLAN IDs used as a filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/tool_sniffer#filter_vlan ToolSniffer#filter_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_sniffer#filter_vlan ToolSniffer#filter_vlan}
   */
   readonly filterVlan?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/tool_sniffer#id ToolSniffer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_sniffer#id ToolSniffer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/tool_sniffer#max_packet_size ToolSniffer#max_packet_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_sniffer#max_packet_size ToolSniffer#max_packet_size}
   */
   readonly maxPacketSize?: number;
   /**
   * Memory amount used to store sniffed data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/tool_sniffer#memory_limit ToolSniffer#memory_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_sniffer#memory_limit ToolSniffer#memory_limit}
   */
   readonly memoryLimit?: number;
   /**
   * Whether to rewrite older sniffed data when the memory limit is reached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/tool_sniffer#memory_scroll ToolSniffer#memory_scroll}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_sniffer#memory_scroll ToolSniffer#memory_scroll}
   */
   readonly memoryScroll?: boolean | cdktf.IResolvable;
   /**
   * Save in the memory only the packet's headers, not the whole packet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/tool_sniffer#only_headers ToolSniffer#only_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_sniffer#only_headers ToolSniffer#only_headers}
   */
   readonly onlyHeaders?: boolean | cdktf.IResolvable;
   /**
   * Defines whether to send sniffed packets to the streaming server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/tool_sniffer#streaming_enabled ToolSniffer#streaming_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_sniffer#streaming_enabled ToolSniffer#streaming_enabled}
   */
   readonly streamingEnabled?: boolean | cdktf.IResolvable;
   /**
   * Tazmen Sniffer Protocol (TZSP) stream receiver.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/tool_sniffer#streaming_server ToolSniffer#streaming_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_sniffer#streaming_server ToolSniffer#streaming_server}
   */
   readonly streamingServer?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/tool_sniffer routeros_tool_sniffer}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_sniffer routeros_tool_sniffer}
 */
 export class ToolSniffer extends cdktf.TerraformResource {
 
@@ -267,7 +267,7 @@ export class ToolSniffer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ToolSniffer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ToolSniffer to import
-  * @param importFromId The id of the existing ToolSniffer that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/tool_sniffer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ToolSniffer that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_sniffer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ToolSniffer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -279,7 +279,7 @@ export class ToolSniffer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/tool_sniffer routeros_tool_sniffer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_sniffer routeros_tool_sniffer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -290,7 +290,8 @@ export class ToolSniffer extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_tool_sniffer',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.90.0'
+        providerVersion: '1.91.0',
+        providerVersionConstraint: '1.91.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

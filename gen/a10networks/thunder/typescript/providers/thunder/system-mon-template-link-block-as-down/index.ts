@@ -66,7 +66,8 @@ export class SystemMonTemplateLinkBlockAsDownA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_system_mon_template_link_block_as_down',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

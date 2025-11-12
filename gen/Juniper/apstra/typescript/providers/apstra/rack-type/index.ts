@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/rack_type
+// https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/rack_type
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface RackTypeConfig extends cdktf.TerraformMetaArguments {
   /**
   * Access Switches are optional, link to Leaf Switches in the same rack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/rack_type#access_switches RackType#access_switches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/rack_type#access_switches RackType#access_switches}
   */
   readonly accessSwitches?: { [key: string]: RackTypeAccessSwitches } | cdktf.IResolvable;
   /**
   * Rack Type description, displayed in the Apstra web UI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/rack_type#description RackType#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/rack_type#description RackType#description}
   */
   readonly description?: string;
   /**
   * Must be one of 'l3clos', 'l3collapsed', 'rail_collapsed'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/rack_type#fabric_connectivity_design RackType#fabric_connectivity_design}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/rack_type#fabric_connectivity_design RackType#fabric_connectivity_design}
   */
   readonly fabricConnectivityDesign: string;
   /**
   * Generic Systems are optional rack elements notmanaged by Apstra: Servers, routers, firewalls, etc...
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/rack_type#generic_systems RackType#generic_systems}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/rack_type#generic_systems RackType#generic_systems}
   */
   readonly genericSystems?: { [key: string]: RackTypeGenericSystems } | cdktf.IResolvable;
   /**
   * Each Rack Type is required to have at least one Leaf Switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/rack_type#leaf_switches RackType#leaf_switches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/rack_type#leaf_switches RackType#leaf_switches}
   */
   readonly leafSwitches: { [key: string]: RackTypeLeafSwitches } | cdktf.IResolvable;
   /**
   * Rack Type name, displayed in the Apstra web UI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/rack_type#name RackType#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/rack_type#name RackType#name}
   */
   readonly name: string;
 }
@@ -48,13 +48,13 @@ export interface RackTypeAccessSwitchesEsiLagInfo {
   /**
   * Count of L3 links between ESI peers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/rack_type#l3_peer_link_count RackType#l3_peer_link_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/rack_type#l3_peer_link_count RackType#l3_peer_link_count}
   */
   readonly l3PeerLinkCount: number;
   /**
   * Speed of L3 links between ESI peers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/rack_type#l3_peer_link_speed RackType#l3_peer_link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/rack_type#l3_peer_link_speed RackType#l3_peer_link_speed}
   */
   readonly l3PeerLinkSpeed: string;
 }
@@ -173,13 +173,13 @@ export interface RackTypeAccessSwitchesLinksTags {
   /**
   * Tag description field as seen in the web UI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/rack_type#description RackType#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/rack_type#description RackType#description}
   */
   readonly description?: string;
   /**
   * Tag name field as seen in the web UI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/rack_type#name RackType#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/rack_type#name RackType#name}
   */
   readonly name: string;
 }
@@ -318,37 +318,37 @@ export interface RackTypeAccessSwitchesLinks {
   /**
   * LAG negotiation mode of the Link.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/rack_type#lag_mode RackType#lag_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/rack_type#lag_mode RackType#lag_mode}
   */
   readonly lagMode?: string;
   /**
   * Number of Links to each switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/rack_type#links_per_switch RackType#links_per_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/rack_type#links_per_switch RackType#links_per_switch}
   */
   readonly linksPerSwitch?: number;
   /**
   * Speed of this Link.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/rack_type#speed RackType#speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/rack_type#speed RackType#speed}
   */
   readonly speed: string;
   /**
   * For non-lAG connections to redundant switch pairs, this field selects the target switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/rack_type#switch_peer RackType#switch_peer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/rack_type#switch_peer RackType#switch_peer}
   */
   readonly switchPeer?: string;
   /**
   * Set of Tag IDs to be applied to this Link
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/rack_type#tag_ids RackType#tag_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/rack_type#tag_ids RackType#tag_ids}
   */
   readonly tagIds?: string[];
   /**
   * The `name` of the switch in this Rack Type to which this Link connects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/rack_type#target_switch_name RackType#target_switch_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/rack_type#target_switch_name RackType#target_switch_name}
   */
   readonly targetSwitchName: string;
 }
@@ -930,31 +930,31 @@ export interface RackTypeAccessSwitches {
   /**
   * Number of Access Switches of this type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/rack_type#count RackType#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/rack_type#count RackType#count}
   */
   readonly count: number;
   /**
   * Including this stanza converts the Access Switch into a redundant pair.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/rack_type#esi_lag_info RackType#esi_lag_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/rack_type#esi_lag_info RackType#esi_lag_info}
   */
   readonly esiLagInfo?: RackTypeAccessSwitchesEsiLagInfo;
   /**
   * Each Access Switch is required to have at least one Link to a Leaf Switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/rack_type#links RackType#links}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/rack_type#links RackType#links}
   */
   readonly links: { [key: string]: RackTypeAccessSwitchesLinks } | cdktf.IResolvable;
   /**
   * Apstra Object ID of the Logical Device used to model this Access Switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/rack_type#logical_device_id RackType#logical_device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/rack_type#logical_device_id RackType#logical_device_id}
   */
   readonly logicalDeviceId: string;
   /**
   * Set of Tag IDs to be applied to this Access Switch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/rack_type#tag_ids RackType#tag_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/rack_type#tag_ids RackType#tag_ids}
   */
   readonly tagIds?: string[];
 }
@@ -1194,13 +1194,13 @@ export interface RackTypeGenericSystemsLinksTags {
   /**
   * Tag description field as seen in the web UI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/rack_type#description RackType#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/rack_type#description RackType#description}
   */
   readonly description?: string;
   /**
   * Tag name field as seen in the web UI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/rack_type#name RackType#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/rack_type#name RackType#name}
   */
   readonly name: string;
 }
@@ -1339,37 +1339,37 @@ export interface RackTypeGenericSystemsLinks {
   /**
   * LAG negotiation mode of the Link.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/rack_type#lag_mode RackType#lag_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/rack_type#lag_mode RackType#lag_mode}
   */
   readonly lagMode?: string;
   /**
   * Number of Links to each switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/rack_type#links_per_switch RackType#links_per_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/rack_type#links_per_switch RackType#links_per_switch}
   */
   readonly linksPerSwitch?: number;
   /**
   * Speed of this Link.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/rack_type#speed RackType#speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/rack_type#speed RackType#speed}
   */
   readonly speed: string;
   /**
   * For non-lAG connections to redundant switch pairs, this field selects the target switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/rack_type#switch_peer RackType#switch_peer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/rack_type#switch_peer RackType#switch_peer}
   */
   readonly switchPeer?: string;
   /**
   * Set of Tag IDs to be applied to this Link
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/rack_type#tag_ids RackType#tag_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/rack_type#tag_ids RackType#tag_ids}
   */
   readonly tagIds?: string[];
   /**
   * The `name` of the switch in this Rack Type to which this Link connects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/rack_type#target_switch_name RackType#target_switch_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/rack_type#target_switch_name RackType#target_switch_name}
   */
   readonly targetSwitchName: string;
 }
@@ -1951,37 +1951,37 @@ export interface RackTypeGenericSystems {
   /**
   * Number of Generic Systems of this type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/rack_type#count RackType#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/rack_type#count RackType#count}
   */
   readonly count: number;
   /**
   * Each Generic System is required to have at least one Link to a Leaf Switch or Access Switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/rack_type#links RackType#links}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/rack_type#links RackType#links}
   */
   readonly links: { [key: string]: RackTypeGenericSystemsLinks } | cdktf.IResolvable;
   /**
   * Apstra Object ID of the Logical Device used to model this Generic System.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/rack_type#logical_device_id RackType#logical_device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/rack_type#logical_device_id RackType#logical_device_id}
   */
   readonly logicalDeviceId: string;
   /**
   * Port channel IDs are used when rendering leaf device port-channel configuration towards generic systems.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/rack_type#port_channel_id_max RackType#port_channel_id_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/rack_type#port_channel_id_max RackType#port_channel_id_max}
   */
   readonly portChannelIdMax?: number;
   /**
   * Port channel IDs are used when rendering leaf device port-channel configuration towards generic systems.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/rack_type#port_channel_id_min RackType#port_channel_id_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/rack_type#port_channel_id_min RackType#port_channel_id_min}
   */
   readonly portChannelIdMin?: number;
   /**
   * Set of Tag IDs to be applied to this Generic System
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/rack_type#tag_ids RackType#tag_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/rack_type#tag_ids RackType#tag_ids}
   */
   readonly tagIds?: string[];
 }
@@ -2481,43 +2481,43 @@ export interface RackTypeLeafSwitchesMlagInfo {
   /**
   * Number of L3 links between MLAG devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/rack_type#l3_peer_link_count RackType#l3_peer_link_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/rack_type#l3_peer_link_count RackType#l3_peer_link_count}
   */
   readonly l3PeerLinkCount?: number;
   /**
   * Port channel number used for L3 Peer Link. Omit to allow Apstra to choose.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/rack_type#l3_peer_link_port_channel_id RackType#l3_peer_link_port_channel_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/rack_type#l3_peer_link_port_channel_id RackType#l3_peer_link_port_channel_id}
   */
   readonly l3PeerLinkPortChannelId?: number;
   /**
   * Speed of l3 links between MLAG devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/rack_type#l3_peer_link_speed RackType#l3_peer_link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/rack_type#l3_peer_link_speed RackType#l3_peer_link_speed}
   */
   readonly l3PeerLinkSpeed?: string;
   /**
   * MLAG keepalive VLAN ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/rack_type#mlag_keepalive_vlan RackType#mlag_keepalive_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/rack_type#mlag_keepalive_vlan RackType#mlag_keepalive_vlan}
   */
   readonly mlagKeepaliveVlan: number;
   /**
   * Number of links between MLAG devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/rack_type#peer_link_count RackType#peer_link_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/rack_type#peer_link_count RackType#peer_link_count}
   */
   readonly peerLinkCount: number;
   /**
   * Port channel number used for L2 Peer Link.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/rack_type#peer_link_port_channel_id RackType#peer_link_port_channel_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/rack_type#peer_link_port_channel_id RackType#peer_link_port_channel_id}
   */
   readonly peerLinkPortChannelId: number;
   /**
   * Speed of links between MLAG devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/rack_type#peer_link_speed RackType#peer_link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/rack_type#peer_link_speed RackType#peer_link_speed}
   */
   readonly peerLinkSpeed: string;
 }
@@ -2860,37 +2860,37 @@ export interface RackTypeLeafSwitches {
   /**
   * Apstra Object ID of the Logical Device used to model this Leaf Switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/rack_type#logical_device_id RackType#logical_device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/rack_type#logical_device_id RackType#logical_device_id}
   */
   readonly logicalDeviceId: string;
   /**
   * Required when `redundancy_protocol` set to `mlag`, defines the connectivity between MLAG peers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/rack_type#mlag_info RackType#mlag_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/rack_type#mlag_info RackType#mlag_info}
   */
   readonly mlagInfo?: RackTypeLeafSwitchesMlagInfo;
   /**
   * Enabling a redundancy protocol converts a single Leaf Switch into a LAG-capable switch pair. Must be one of 'esi', 'mlag'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/rack_type#redundancy_protocol RackType#redundancy_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/rack_type#redundancy_protocol RackType#redundancy_protocol}
   */
   readonly redundancyProtocol?: string;
   /**
   * Links per Spine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/rack_type#spine_link_count RackType#spine_link_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/rack_type#spine_link_count RackType#spine_link_count}
   */
   readonly spineLinkCount?: number;
   /**
   * Speed of Spine-facing links, something like '10G'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/rack_type#spine_link_speed RackType#spine_link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/rack_type#spine_link_speed RackType#spine_link_speed}
   */
   readonly spineLinkSpeed?: string;
   /**
   * Set of Tag IDs to be applied to this Leaf Switch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/rack_type#tag_ids RackType#tag_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/rack_type#tag_ids RackType#tag_ids}
   */
   readonly tagIds?: string[];
 }
@@ -3158,7 +3158,7 @@ export class RackTypeLeafSwitchesMap extends cdktf.ComplexMap {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/rack_type apstra_rack_type}
+* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/rack_type apstra_rack_type}
 */
 export class RackType extends cdktf.TerraformResource {
 
@@ -3174,7 +3174,7 @@ export class RackType extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RackType resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RackType to import
-  * @param importFromId The id of the existing RackType that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/rack_type#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RackType that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/rack_type#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RackType to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3186,7 +3186,7 @@ export class RackType extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/rack_type apstra_rack_type} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/rack_type apstra_rack_type} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3197,7 +3197,8 @@ export class RackType extends cdktf.TerraformResource {
       terraformResourceType: 'apstra_rack_type',
       terraformGeneratorMetadata: {
         providerName: 'apstra',
-        providerVersion: '0.95.0'
+        providerVersion: '0.95.1',
+        providerVersionConstraint: '0.95.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

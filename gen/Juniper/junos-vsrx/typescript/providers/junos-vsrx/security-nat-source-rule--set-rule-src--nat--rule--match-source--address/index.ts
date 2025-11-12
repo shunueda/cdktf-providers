@@ -78,7 +78,8 @@ export class SecurityNatSourceRuleSetRuleSrcNatRuleMatchSourceAddress extends cd
       terraformResourceType: 'junos-vsrx_SecurityNatSourceRule__SetRuleSrc__Nat__Rule__MatchSource__Address',
       terraformGeneratorMetadata: {
         providerName: 'junos-vsrx',
-        providerVersion: '20.32.106'
+        providerVersion: '20.32.106',
+        providerVersionConstraint: '20.32.106'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

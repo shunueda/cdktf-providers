@@ -444,7 +444,8 @@ export class DataIonoscloudMariadbBackups extends cdktf.TerraformDataSource {
       terraformResourceType: 'ionoscloud_mariadb_backups',
       terraformGeneratorMetadata: {
         providerName: 'ionoscloud',
-        providerVersion: '6.7.20'
+        providerVersion: '6.7.20',
+        providerVersionConstraint: '6.7.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

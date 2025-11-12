@@ -72,7 +72,8 @@ export class GrafanaDashboard extends cdktf.TerraformResource {
       terraformResourceType: 'logzio_grafana_dashboard',
       terraformGeneratorMetadata: {
         providerName: 'logzio',
-        providerVersion: '1.26.0'
+        providerVersion: '1.26.0',
+        providerVersionConstraint: '1.26.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

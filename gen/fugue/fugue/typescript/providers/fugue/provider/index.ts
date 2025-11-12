@@ -67,7 +67,8 @@ export class FugueProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'fugue',
       terraformGeneratorMetadata: {
         providerName: 'fugue',
-        providerVersion: '0.0.11'
+        providerVersion: '0.0.11',
+        providerVersionConstraint: '0.0.11'
       },
       terraformProviderSource: 'fugue/fugue'
     });

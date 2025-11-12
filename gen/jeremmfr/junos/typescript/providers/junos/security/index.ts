@@ -6910,7 +6910,8 @@ export class Security extends cdktf.TerraformResource {
       terraformResourceType: 'junos_security',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0'
+        providerVersion: '2.15.0',
+        providerVersionConstraint: '2.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

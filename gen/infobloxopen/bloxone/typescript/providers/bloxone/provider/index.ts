@@ -73,7 +73,8 @@ export class BloxoneProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'bloxone',
       terraformGeneratorMetadata: {
         providerName: 'bloxone',
-        providerVersion: '1.5.3'
+        providerVersion: '1.5.3',
+        providerVersionConstraint: '1.5.3'
       },
       terraformProviderSource: 'infobloxopen/bloxone'
     });

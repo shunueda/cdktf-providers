@@ -56,7 +56,8 @@ export class DataAccuknoxKubearmorStableVersion extends cdktf.TerraformDataSourc
       terraformResourceType: 'accuknox_kubearmor_stable_version',
       terraformGeneratorMetadata: {
         providerName: 'accuknox',
-        providerVersion: '1.0.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

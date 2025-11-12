@@ -409,7 +409,8 @@ export class AamAuthenticationServerRadiusInstance extends cdktf.TerraformResour
       terraformResourceType: 'thunder_aam_authentication_server_radius_instance',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

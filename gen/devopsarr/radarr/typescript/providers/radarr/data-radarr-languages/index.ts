@@ -134,7 +134,8 @@ export class DataRadarrLanguages extends cdktf.TerraformDataSource {
       terraformResourceType: 'radarr_languages',
       terraformGeneratorMetadata: {
         providerName: 'radarr',
-        providerVersion: '2.3.3'
+        providerVersion: '2.3.3',
+        providerVersionConstraint: '2.3.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

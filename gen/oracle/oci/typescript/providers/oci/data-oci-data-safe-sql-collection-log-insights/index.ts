@@ -511,7 +511,8 @@ export class DataOciDataSafeSqlCollectionLogInsights extends cdktf.TerraformData
       terraformResourceType: 'oci_data_safe_sql_collection_log_insights',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

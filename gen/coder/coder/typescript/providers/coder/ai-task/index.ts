@@ -147,7 +147,8 @@ export class AiTask extends cdktf.TerraformResource {
       terraformResourceType: 'coder_ai_task',
       terraformGeneratorMetadata: {
         providerName: 'coder',
-        providerVersion: '2.13.1'
+        providerVersion: '2.13.1',
+        providerVersionConstraint: '2.13.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

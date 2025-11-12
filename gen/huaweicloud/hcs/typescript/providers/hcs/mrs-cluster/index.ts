@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,200 +8,200 @@ import * as cdktf from 'cdktf';
 
 export interface MrsClusterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#availability_zone MrsCluster#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#availability_zone MrsCluster#availability_zone}
   */
   readonly availabilityZone: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#component_list MrsCluster#component_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#component_list MrsCluster#component_list}
   */
   readonly componentList: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#eip_id MrsCluster#eip_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#eip_id MrsCluster#eip_id}
   */
   readonly eipId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#enterprise_project_id MrsCluster#enterprise_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#enterprise_project_id MrsCluster#enterprise_project_id}
   */
   readonly enterpriseProjectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#id MrsCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#id MrsCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#log_collection MrsCluster#log_collection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#log_collection MrsCluster#log_collection}
   */
   readonly logCollection?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#manager_admin_pass MrsCluster#manager_admin_pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#manager_admin_pass MrsCluster#manager_admin_pass}
   */
   readonly managerAdminPass: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#multi_az_deployment MrsCluster#multi_az_deployment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#multi_az_deployment MrsCluster#multi_az_deployment}
   */
   readonly multiAzDeployment?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#name MrsCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#name MrsCluster#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#node_admin_pass MrsCluster#node_admin_pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#node_admin_pass MrsCluster#node_admin_pass}
   */
   readonly nodeAdminPass?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#node_domain_prefix MrsCluster#node_domain_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#node_domain_prefix MrsCluster#node_domain_prefix}
   */
   readonly nodeDomainPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#node_key_pair MrsCluster#node_key_pair}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#node_key_pair MrsCluster#node_key_pair}
   */
   readonly nodeKeyPair?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#omm_password MrsCluster#omm_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#omm_password MrsCluster#omm_password}
   */
   readonly ommPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#public_ip MrsCluster#public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#public_ip MrsCluster#public_ip}
   */
   readonly publicIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#region MrsCluster#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#region MrsCluster#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#safe_mode MrsCluster#safe_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#safe_mode MrsCluster#safe_mode}
   */
   readonly safeMode?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#security_group_ids MrsCluster#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#security_group_ids MrsCluster#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#subnet_id MrsCluster#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#subnet_id MrsCluster#subnet_id}
   */
   readonly subnetId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#tags MrsCluster#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#tags MrsCluster#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#template_id MrsCluster#template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#template_id MrsCluster#template_id}
   */
   readonly templateId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#type MrsCluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#type MrsCluster#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#version MrsCluster#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#version MrsCluster#version}
   */
   readonly version: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#vpc_id MrsCluster#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#vpc_id MrsCluster#vpc_id}
   */
   readonly vpcId: string;
   /**
   * analysis_core_nodes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#analysis_core_nodes MrsCluster#analysis_core_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#analysis_core_nodes MrsCluster#analysis_core_nodes}
   */
   readonly analysisCoreNodes?: MrsClusterAnalysisCoreNodes;
   /**
   * analysis_task_nodes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#analysis_task_nodes MrsCluster#analysis_task_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#analysis_task_nodes MrsCluster#analysis_task_nodes}
   */
   readonly analysisTaskNodes?: MrsClusterAnalysisTaskNodes;
   /**
   * bootstrap_scripts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#bootstrap_scripts MrsCluster#bootstrap_scripts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#bootstrap_scripts MrsCluster#bootstrap_scripts}
   */
   readonly bootstrapScripts?: MrsClusterBootstrapScripts[] | cdktf.IResolvable;
   /**
   * component_configs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#component_configs MrsCluster#component_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#component_configs MrsCluster#component_configs}
   */
   readonly componentConfigs?: MrsClusterComponentConfigs[] | cdktf.IResolvable;
   /**
   * custom_nodes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#custom_nodes MrsCluster#custom_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#custom_nodes MrsCluster#custom_nodes}
   */
   readonly customNodes?: MrsClusterCustomNodes[] | cdktf.IResolvable;
   /**
   * external_datasources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#external_datasources MrsCluster#external_datasources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#external_datasources MrsCluster#external_datasources}
   */
   readonly externalDatasources?: MrsClusterExternalDatasources[] | cdktf.IResolvable;
   /**
   * master_nodes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#master_nodes MrsCluster#master_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#master_nodes MrsCluster#master_nodes}
   */
   readonly masterNodes: MrsClusterMasterNodes;
   /**
   * streaming_core_nodes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#streaming_core_nodes MrsCluster#streaming_core_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#streaming_core_nodes MrsCluster#streaming_core_nodes}
   */
   readonly streamingCoreNodes?: MrsClusterStreamingCoreNodes;
   /**
   * streaming_task_nodes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#streaming_task_nodes MrsCluster#streaming_task_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#streaming_task_nodes MrsCluster#streaming_task_nodes}
   */
   readonly streamingTaskNodes?: MrsClusterStreamingTaskNodes;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#timeouts MrsCluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#timeouts MrsCluster#timeouts}
   */
   readonly timeouts?: MrsClusterTimeouts;
 }
 export interface MrsClusterAnalysisCoreNodes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#assigned_roles MrsCluster#assigned_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#assigned_roles MrsCluster#assigned_roles}
   */
   readonly assignedRoles?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#az_placement_expression MrsCluster#az_placement_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#az_placement_expression MrsCluster#az_placement_expression}
   */
   readonly azPlacementExpression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#data_volume_count MrsCluster#data_volume_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#data_volume_count MrsCluster#data_volume_count}
   */
   readonly dataVolumeCount: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#data_volume_size MrsCluster#data_volume_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#data_volume_size MrsCluster#data_volume_size}
   */
   readonly dataVolumeSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#data_volume_type MrsCluster#data_volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#data_volume_type MrsCluster#data_volume_type}
   */
   readonly dataVolumeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#flavor MrsCluster#flavor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#flavor MrsCluster#flavor}
   */
   readonly flavor: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#node_number MrsCluster#node_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#node_number MrsCluster#node_number}
   */
   readonly nodeNumber: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#node_type MrsCluster#node_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#node_type MrsCluster#node_type}
   */
   readonly nodeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#root_volume_size MrsCluster#root_volume_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#root_volume_size MrsCluster#root_volume_size}
   */
   readonly rootVolumeSize: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#root_volume_type MrsCluster#root_volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#root_volume_type MrsCluster#root_volume_type}
   */
   readonly rootVolumeType: string;
 }
@@ -536,43 +536,43 @@ export class MrsClusterAnalysisCoreNodesOutputReference extends cdktf.ComplexObj
 }
 export interface MrsClusterAnalysisTaskNodes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#assigned_roles MrsCluster#assigned_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#assigned_roles MrsCluster#assigned_roles}
   */
   readonly assignedRoles?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#az_placement_expression MrsCluster#az_placement_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#az_placement_expression MrsCluster#az_placement_expression}
   */
   readonly azPlacementExpression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#data_volume_count MrsCluster#data_volume_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#data_volume_count MrsCluster#data_volume_count}
   */
   readonly dataVolumeCount: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#data_volume_size MrsCluster#data_volume_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#data_volume_size MrsCluster#data_volume_size}
   */
   readonly dataVolumeSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#data_volume_type MrsCluster#data_volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#data_volume_type MrsCluster#data_volume_type}
   */
   readonly dataVolumeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#flavor MrsCluster#flavor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#flavor MrsCluster#flavor}
   */
   readonly flavor: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#node_number MrsCluster#node_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#node_number MrsCluster#node_number}
   */
   readonly nodeNumber: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#node_type MrsCluster#node_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#node_type MrsCluster#node_type}
   */
   readonly nodeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#root_volume_size MrsCluster#root_volume_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#root_volume_size MrsCluster#root_volume_size}
   */
   readonly rootVolumeSize: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#root_volume_type MrsCluster#root_volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#root_volume_type MrsCluster#root_volume_type}
   */
   readonly rootVolumeType: string;
 }
@@ -909,49 +909,49 @@ export interface MrsClusterBootstrapScripts {
   /**
   * Whether the bootstrap action script runs only on active master nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#active_master MrsCluster#active_master}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#active_master MrsCluster#active_master}
   */
   readonly activeMaster?: boolean | cdktf.IResolvable;
   /**
   * Whether the bootstrap action script is executed before component start.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#before_component_start MrsCluster#before_component_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#before_component_start MrsCluster#before_component_start}
   */
   readonly beforeComponentStart?: boolean | cdktf.IResolvable;
   /**
   * Whether the bootstrap action script involves root user operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#execute_need_sudo_root MrsCluster#execute_need_sudo_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#execute_need_sudo_root MrsCluster#execute_need_sudo_root}
   */
   readonly executeNeedSudoRoot?: boolean | cdktf.IResolvable;
   /**
   * The action after the bootstrap action script fails to be executed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#fail_action MrsCluster#fail_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#fail_action MrsCluster#fail_action}
   */
   readonly failAction: string;
   /**
   * Name of a bootstrap action script.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#name MrsCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#name MrsCluster#name}
   */
   readonly name: string;
   /**
   * Name of the node group where the bootstrap action script is executed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#nodes MrsCluster#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#nodes MrsCluster#nodes}
   */
   readonly nodes: string[];
   /**
   * Bootstrap action script parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#parameters MrsCluster#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#parameters MrsCluster#parameters}
   */
   readonly parameters?: string;
   /**
   * Path of a bootstrap action script. Set this parameter to an OBS bucket path or a local VM path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#uri MrsCluster#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#uri MrsCluster#uri}
   */
   readonly uri: string;
 }
@@ -1268,15 +1268,15 @@ export class MrsClusterBootstrapScriptsList extends cdktf.ComplexList {
 }
 export interface MrsClusterComponentConfigsConfigs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#config_file_name MrsCluster#config_file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#config_file_name MrsCluster#config_file_name}
   */
   readonly configFileName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#key MrsCluster#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#key MrsCluster#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#value MrsCluster#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#value MrsCluster#value}
   */
   readonly value: string;
 }
@@ -1441,13 +1441,13 @@ export class MrsClusterComponentConfigsConfigsList extends cdktf.ComplexList {
 }
 export interface MrsClusterComponentConfigs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#name MrsCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#name MrsCluster#name}
   */
   readonly name: string;
   /**
   * configs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#configs MrsCluster#configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#configs MrsCluster#configs}
   */
   readonly configs: MrsClusterComponentConfigsConfigs[] | cdktf.IResolvable;
 }
@@ -1586,47 +1586,47 @@ export class MrsClusterComponentConfigsList extends cdktf.ComplexList {
 }
 export interface MrsClusterCustomNodes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#assigned_roles MrsCluster#assigned_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#assigned_roles MrsCluster#assigned_roles}
   */
   readonly assignedRoles?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#az_placement_expression MrsCluster#az_placement_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#az_placement_expression MrsCluster#az_placement_expression}
   */
   readonly azPlacementExpression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#data_volume_count MrsCluster#data_volume_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#data_volume_count MrsCluster#data_volume_count}
   */
   readonly dataVolumeCount: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#data_volume_size MrsCluster#data_volume_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#data_volume_size MrsCluster#data_volume_size}
   */
   readonly dataVolumeSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#data_volume_type MrsCluster#data_volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#data_volume_type MrsCluster#data_volume_type}
   */
   readonly dataVolumeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#flavor MrsCluster#flavor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#flavor MrsCluster#flavor}
   */
   readonly flavor: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#group_name MrsCluster#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#group_name MrsCluster#group_name}
   */
   readonly groupName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#node_number MrsCluster#node_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#node_number MrsCluster#node_number}
   */
   readonly nodeNumber: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#node_type MrsCluster#node_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#node_type MrsCluster#node_type}
   */
   readonly nodeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#root_volume_size MrsCluster#root_volume_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#root_volume_size MrsCluster#root_volume_size}
   */
   readonly rootVolumeSize: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#root_volume_type MrsCluster#root_volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#root_volume_type MrsCluster#root_volume_type}
   */
   readonly rootVolumeType: string;
 }
@@ -2019,19 +2019,19 @@ export class MrsClusterCustomNodesList extends cdktf.ComplexList {
 }
 export interface MrsClusterExternalDatasources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#component_name MrsCluster#component_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#component_name MrsCluster#component_name}
   */
   readonly componentName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#data_connection_id MrsCluster#data_connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#data_connection_id MrsCluster#data_connection_id}
   */
   readonly dataConnectionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#role_type MrsCluster#role_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#role_type MrsCluster#role_type}
   */
   readonly roleType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#source_type MrsCluster#source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#source_type MrsCluster#source_type}
   */
   readonly sourceType: string;
 }
@@ -2225,43 +2225,43 @@ export class MrsClusterExternalDatasourcesList extends cdktf.ComplexList {
 }
 export interface MrsClusterMasterNodes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#assigned_roles MrsCluster#assigned_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#assigned_roles MrsCluster#assigned_roles}
   */
   readonly assignedRoles?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#az_placement_expression MrsCluster#az_placement_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#az_placement_expression MrsCluster#az_placement_expression}
   */
   readonly azPlacementExpression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#data_volume_count MrsCluster#data_volume_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#data_volume_count MrsCluster#data_volume_count}
   */
   readonly dataVolumeCount: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#data_volume_size MrsCluster#data_volume_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#data_volume_size MrsCluster#data_volume_size}
   */
   readonly dataVolumeSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#data_volume_type MrsCluster#data_volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#data_volume_type MrsCluster#data_volume_type}
   */
   readonly dataVolumeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#flavor MrsCluster#flavor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#flavor MrsCluster#flavor}
   */
   readonly flavor: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#node_number MrsCluster#node_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#node_number MrsCluster#node_number}
   */
   readonly nodeNumber: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#node_type MrsCluster#node_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#node_type MrsCluster#node_type}
   */
   readonly nodeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#root_volume_size MrsCluster#root_volume_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#root_volume_size MrsCluster#root_volume_size}
   */
   readonly rootVolumeSize: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#root_volume_type MrsCluster#root_volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#root_volume_type MrsCluster#root_volume_type}
   */
   readonly rootVolumeType: string;
 }
@@ -2596,43 +2596,43 @@ export class MrsClusterMasterNodesOutputReference extends cdktf.ComplexObject {
 }
 export interface MrsClusterStreamingCoreNodes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#assigned_roles MrsCluster#assigned_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#assigned_roles MrsCluster#assigned_roles}
   */
   readonly assignedRoles?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#az_placement_expression MrsCluster#az_placement_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#az_placement_expression MrsCluster#az_placement_expression}
   */
   readonly azPlacementExpression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#data_volume_count MrsCluster#data_volume_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#data_volume_count MrsCluster#data_volume_count}
   */
   readonly dataVolumeCount: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#data_volume_size MrsCluster#data_volume_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#data_volume_size MrsCluster#data_volume_size}
   */
   readonly dataVolumeSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#data_volume_type MrsCluster#data_volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#data_volume_type MrsCluster#data_volume_type}
   */
   readonly dataVolumeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#flavor MrsCluster#flavor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#flavor MrsCluster#flavor}
   */
   readonly flavor: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#node_number MrsCluster#node_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#node_number MrsCluster#node_number}
   */
   readonly nodeNumber: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#node_type MrsCluster#node_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#node_type MrsCluster#node_type}
   */
   readonly nodeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#root_volume_size MrsCluster#root_volume_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#root_volume_size MrsCluster#root_volume_size}
   */
   readonly rootVolumeSize: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#root_volume_type MrsCluster#root_volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#root_volume_type MrsCluster#root_volume_type}
   */
   readonly rootVolumeType: string;
 }
@@ -2967,43 +2967,43 @@ export class MrsClusterStreamingCoreNodesOutputReference extends cdktf.ComplexOb
 }
 export interface MrsClusterStreamingTaskNodes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#assigned_roles MrsCluster#assigned_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#assigned_roles MrsCluster#assigned_roles}
   */
   readonly assignedRoles?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#az_placement_expression MrsCluster#az_placement_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#az_placement_expression MrsCluster#az_placement_expression}
   */
   readonly azPlacementExpression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#data_volume_count MrsCluster#data_volume_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#data_volume_count MrsCluster#data_volume_count}
   */
   readonly dataVolumeCount: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#data_volume_size MrsCluster#data_volume_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#data_volume_size MrsCluster#data_volume_size}
   */
   readonly dataVolumeSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#data_volume_type MrsCluster#data_volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#data_volume_type MrsCluster#data_volume_type}
   */
   readonly dataVolumeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#flavor MrsCluster#flavor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#flavor MrsCluster#flavor}
   */
   readonly flavor: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#node_number MrsCluster#node_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#node_number MrsCluster#node_number}
   */
   readonly nodeNumber: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#node_type MrsCluster#node_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#node_type MrsCluster#node_type}
   */
   readonly nodeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#root_volume_size MrsCluster#root_volume_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#root_volume_size MrsCluster#root_volume_size}
   */
   readonly rootVolumeSize: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#root_volume_type MrsCluster#root_volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#root_volume_type MrsCluster#root_volume_type}
   */
   readonly rootVolumeType: string;
 }
@@ -3338,15 +3338,15 @@ export class MrsClusterStreamingTaskNodesOutputReference extends cdktf.ComplexOb
 }
 export interface MrsClusterTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#create MrsCluster#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#create MrsCluster#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#delete MrsCluster#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#delete MrsCluster#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#update MrsCluster#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#update MrsCluster#update}
   */
   readonly update?: string;
 }
@@ -3498,7 +3498,7 @@ export class MrsClusterTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster hcs_mrs_cluster}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster hcs_mrs_cluster}
 */
 export class MrsCluster extends cdktf.TerraformResource {
 
@@ -3514,7 +3514,7 @@ export class MrsCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MrsCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MrsCluster to import
-  * @param importFromId The id of the existing MrsCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MrsCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MrsCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3526,7 +3526,7 @@ export class MrsCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/mrs_cluster hcs_mrs_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/mrs_cluster hcs_mrs_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3537,7 +3537,8 @@ export class MrsCluster extends cdktf.TerraformResource {
       terraformResourceType: 'hcs_mrs_cluster',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.19'
+        providerVersion: '2.4.20',
+        providerVersionConstraint: '2.4.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

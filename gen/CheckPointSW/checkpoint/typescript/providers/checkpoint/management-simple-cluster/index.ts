@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,95 +10,95 @@ export interface ManagementSimpleClusterConfig extends cdktf.TerraformMetaArgume
   /**
   * Anti-Bot blade enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#anti_bot ManagementSimpleCluster#anti_bot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#anti_bot ManagementSimpleCluster#anti_bot}
   */
   readonly antiBot?: boolean | cdktf.IResolvable;
   /**
   * Anti-Virus blade enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#anti_virus ManagementSimpleCluster#anti_virus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#anti_virus ManagementSimpleCluster#anti_virus}
   */
   readonly antiVirus?: boolean | cdktf.IResolvable;
   /**
   * Application Control blade enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#application_control ManagementSimpleCluster#application_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#application_control ManagementSimpleCluster#application_control}
   */
   readonly applicationControl?: boolean | cdktf.IResolvable;
   /**
   * Cluster mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#cluster_mode ManagementSimpleCluster#cluster_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#cluster_mode ManagementSimpleCluster#cluster_mode}
   */
   readonly clusterMode?: string;
   /**
   * Color of the object. Should be one of existing colors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#color ManagementSimpleCluster#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#color ManagementSimpleCluster#color}
   */
   readonly color?: string;
   /**
   * Comments string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#comments ManagementSimpleCluster#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#comments ManagementSimpleCluster#comments}
   */
   readonly comments?: string;
   /**
   * Content Awareness blade enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#content_awareness ManagementSimpleCluster#content_awareness}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#content_awareness ManagementSimpleCluster#content_awareness}
   */
   readonly contentAwareness?: boolean | cdktf.IResolvable;
   /**
   * Data Awareness blade enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#data_awareness ManagementSimpleCluster#data_awareness}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#data_awareness ManagementSimpleCluster#data_awareness}
   */
   readonly dataAwareness?: boolean | cdktf.IResolvable;
   /**
   * Enable HTTPS Inspection after defining an outbound inspection certificate. <br>To define the outbound certificate use outbound inspection certificate API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#enable_https_inspection ManagementSimpleCluster#enable_https_inspection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#enable_https_inspection ManagementSimpleCluster#enable_https_inspection}
   */
   readonly enableHttpsInspection?: boolean | cdktf.IResolvable;
   /**
   * Security management server(s) to fetch the policy from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#fetch_policy ManagementSimpleCluster#fetch_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#fetch_policy ManagementSimpleCluster#fetch_policy}
   */
   readonly fetchPolicy?: string[];
   /**
   * Firewall blade enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#firewall ManagementSimpleCluster#firewall}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#firewall ManagementSimpleCluster#firewall}
   */
   readonly firewall?: boolean | cdktf.IResolvable;
   /**
   * Firewall settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#firewall_settings ManagementSimpleCluster#firewall_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#firewall_settings ManagementSimpleCluster#firewall_settings}
   */
   readonly firewallSettings?: { [key: string]: string };
   /**
   * Cluster High Availability Geo mode. This setting applies only to a cluster deployed in a cloud. Available when the cluster mode equals "cluster-xl-ha".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#geo_mode ManagementSimpleCluster#geo_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#geo_mode ManagementSimpleCluster#geo_mode}
   */
   readonly geoMode?: boolean | cdktf.IResolvable;
   /**
   * Cluster platform hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#hardware ManagementSimpleCluster#hardware}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#hardware ManagementSimpleCluster#hardware}
   */
   readonly hardware?: string;
   /**
   * Hit count tracks the number of connections each rule matches.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#hit_count ManagementSimpleCluster#hit_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#hit_count ManagementSimpleCluster#hit_count}
   */
   readonly hitCount?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#id ManagementSimpleCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#id ManagementSimpleCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -107,193 +107,199 @@ export interface ManagementSimpleClusterConfig extends cdktf.TerraformMetaArgume
   /**
   * Identity awareness blade enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#identity_awareness ManagementSimpleCluster#identity_awareness}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#identity_awareness ManagementSimpleCluster#identity_awareness}
   */
   readonly identityAwareness?: boolean | cdktf.IResolvable;
   /**
   * Apply changes ignoring errors. You won't be able to publish such a changes. If ignore-warnings flag was omitted - warnings will also be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#ignore_errors ManagementSimpleCluster#ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#ignore_errors ManagementSimpleCluster#ignore_errors}
   */
   readonly ignoreErrors?: boolean | cdktf.IResolvable;
   /**
   * Apply changes ignoring warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#ignore_warnings ManagementSimpleCluster#ignore_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#ignore_warnings ManagementSimpleCluster#ignore_warnings}
   */
   readonly ignoreWarnings?: boolean | cdktf.IResolvable;
   /**
   * Intrusion Prevention System blade enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#ips ManagementSimpleCluster#ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#ips ManagementSimpleCluster#ips}
   */
   readonly ips?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the IPS will be downloaded from the Management or directly to the Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#ips_update_policy ManagementSimpleCluster#ips_update_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#ips_update_policy ManagementSimpleCluster#ips_update_policy}
   */
   readonly ipsUpdatePolicy?: string;
   /**
   * IPv4 address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#ipv4_address ManagementSimpleCluster#ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#ipv4_address ManagementSimpleCluster#ipv4_address}
   */
   readonly ipv4Address?: string;
   /**
   * IPv6 address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#ipv6_address ManagementSimpleCluster#ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#ipv6_address ManagementSimpleCluster#ipv6_address}
   */
   readonly ipv6Address?: string;
   /**
   * Object name. Should be unique in the domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#name ManagementSimpleCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#name ManagementSimpleCluster#name}
   */
   readonly name: string;
   /**
   * Hide internal networks behind the Gateway's external IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#nat_hide_internal_interfaces ManagementSimpleCluster#nat_hide_internal_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#nat_hide_internal_interfaces ManagementSimpleCluster#nat_hide_internal_interfaces}
   */
   readonly natHideInternalInterfaces?: boolean | cdktf.IResolvable;
   /**
   * NAT settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#nat_settings ManagementSimpleCluster#nat_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#nat_settings ManagementSimpleCluster#nat_settings}
   */
   readonly natSettings?: { [key: string]: string };
   /**
   * OS name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#os_name ManagementSimpleCluster#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#os_name ManagementSimpleCluster#os_name}
   */
   readonly osName?: string;
   /**
   * Proxy Server for Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#proxy_settings ManagementSimpleCluster#proxy_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#proxy_settings ManagementSimpleCluster#proxy_settings}
   */
   readonly proxySettings?: { [key: string]: string };
   /**
   * QoS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#qos ManagementSimpleCluster#qos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#qos ManagementSimpleCluster#qos}
   */
   readonly qos?: boolean | cdktf.IResolvable;
   /**
   * Save logs locally.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#save_logs_locally ManagementSimpleCluster#save_logs_locally}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#save_logs_locally ManagementSimpleCluster#save_logs_locally}
   */
   readonly saveLogsLocally?: boolean | cdktf.IResolvable;
   /**
   * Server(s) to send alerts to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#send_alerts_to_server ManagementSimpleCluster#send_alerts_to_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#send_alerts_to_server ManagementSimpleCluster#send_alerts_to_server}
   */
   readonly sendAlertsToServer?: string[];
   /**
   * Backup server(s) to send logs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#send_logs_to_backup_server ManagementSimpleCluster#send_logs_to_backup_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#send_logs_to_backup_server ManagementSimpleCluster#send_logs_to_backup_server}
   */
   readonly sendLogsToBackupServer?: string[];
   /**
   * Server(s) to send logs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#send_logs_to_server ManagementSimpleCluster#send_logs_to_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#send_logs_to_server ManagementSimpleCluster#send_logs_to_server}
   */
   readonly sendLogsToServer?: string[];
   /**
   * Collection of tag identifiers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#tags ManagementSimpleCluster#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#tags ManagementSimpleCluster#tags}
   */
   readonly tags?: string[];
   /**
   * Threat Emulation blade enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#threat_emulation ManagementSimpleCluster#threat_emulation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#threat_emulation ManagementSimpleCluster#threat_emulation}
   */
   readonly threatEmulation?: boolean | cdktf.IResolvable;
   /**
   * URL Filtering blade enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#url_filtering ManagementSimpleCluster#url_filtering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#url_filtering ManagementSimpleCluster#url_filtering}
   */
   readonly urlFiltering?: boolean | cdktf.IResolvable;
   /**
   * Cluster platform version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#version ManagementSimpleCluster#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#version ManagementSimpleCluster#version}
   */
   readonly version?: string;
   /**
   * VPN blade enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#vpn ManagementSimpleCluster#vpn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#vpn ManagementSimpleCluster#vpn}
   */
   readonly vpn?: boolean | cdktf.IResolvable;
   /**
   * Gateway VPN settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#vpn_settings ManagementSimpleCluster#vpn_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#vpn_settings ManagementSimpleCluster#vpn_settings}
   */
   readonly vpnSettings?: { [key: string]: string };
   /**
   * Zero Phishing blade enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#zero_phishing ManagementSimpleCluster#zero_phishing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#zero_phishing ManagementSimpleCluster#zero_phishing}
   */
   readonly zeroPhishing?: boolean | cdktf.IResolvable;
   /**
   * Zero Phishing gateway FQDN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#zero_phishing_fqdn ManagementSimpleCluster#zero_phishing_fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#zero_phishing_fqdn ManagementSimpleCluster#zero_phishing_fqdn}
   */
   readonly zeroPhishingFqdn?: string;
   /**
   * advanced_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#advanced_settings ManagementSimpleCluster#advanced_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#advanced_settings ManagementSimpleCluster#advanced_settings}
   */
   readonly advancedSettings?: ManagementSimpleClusterAdvancedSettings;
   /**
   * https_inspection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#https_inspection ManagementSimpleCluster#https_inspection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#https_inspection ManagementSimpleCluster#https_inspection}
   */
   readonly httpsInspection?: ManagementSimpleClusterHttpsInspection;
   /**
   * identity_awareness_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#identity_awareness_settings ManagementSimpleCluster#identity_awareness_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#identity_awareness_settings ManagementSimpleCluster#identity_awareness_settings}
   */
   readonly identityAwarenessSettings?: ManagementSimpleClusterIdentityAwarenessSettings;
   /**
   * interfaces block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#interfaces ManagementSimpleCluster#interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#interfaces ManagementSimpleCluster#interfaces}
   */
   readonly interfaces?: ManagementSimpleClusterInterfaces[] | cdktf.IResolvable;
   /**
+  * ips_settings block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#ips_settings ManagementSimpleCluster#ips_settings}
+  */
+  readonly ipsSettings?: ManagementSimpleClusterIpsSettings;
+  /**
   * members block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#members ManagementSimpleCluster#members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#members ManagementSimpleCluster#members}
   */
   readonly members?: ManagementSimpleClusterMembers[] | cdktf.IResolvable;
   /**
   * platform_portal_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#platform_portal_settings ManagementSimpleCluster#platform_portal_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#platform_portal_settings ManagementSimpleCluster#platform_portal_settings}
   */
   readonly platformPortalSettings?: ManagementSimpleClusterPlatformPortalSettings;
   /**
   * usercheck_portal_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#usercheck_portal_settings ManagementSimpleCluster#usercheck_portal_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#usercheck_portal_settings ManagementSimpleCluster#usercheck_portal_settings}
   */
   readonly usercheckPortalSettings?: ManagementSimpleClusterUsercheckPortalSettings;
 }
@@ -301,13 +307,13 @@ export interface ManagementSimpleClusterAdvancedSettingsSamPurgeSamFile {
   /**
   * Purge SAM File.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#enabled ManagementSimpleCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#enabled ManagementSimpleCluster#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Purge SAM File When it Reaches to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#purge_when_size_reaches_to ManagementSimpleCluster#purge_when_size_reaches_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#purge_when_size_reaches_to ManagementSimpleCluster#purge_when_size_reaches_to}
   */
   readonly purgeWhenSizeReachesTo?: number;
 }
@@ -422,13 +428,13 @@ export interface ManagementSimpleClusterAdvancedSettingsSamUseEarlyVersions {
   /**
   * Early versions compatibility mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#compatibility_mode ManagementSimpleCluster#compatibility_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#compatibility_mode ManagementSimpleCluster#compatibility_mode}
   */
   readonly compatibilityMode?: string;
   /**
   * Use early versions compatibility mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#enabled ManagementSimpleCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#enabled ManagementSimpleCluster#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -543,19 +549,19 @@ export interface ManagementSimpleClusterAdvancedSettingsSam {
   /**
   * Forward SAM clients' requests to other SAM servers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#forward_to_other_sam_servers ManagementSimpleCluster#forward_to_other_sam_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#forward_to_other_sam_servers ManagementSimpleCluster#forward_to_other_sam_servers}
   */
   readonly forwardToOtherSamServers?: boolean | cdktf.IResolvable;
   /**
   * purge_sam_file block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#purge_sam_file ManagementSimpleCluster#purge_sam_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#purge_sam_file ManagementSimpleCluster#purge_sam_file}
   */
   readonly purgeSamFile?: ManagementSimpleClusterAdvancedSettingsSamPurgeSamFile;
   /**
   * use_early_versions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#use_early_versions ManagementSimpleCluster#use_early_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#use_early_versions ManagementSimpleCluster#use_early_versions}
   */
   readonly useEarlyVersions?: ManagementSimpleClusterAdvancedSettingsSamUseEarlyVersions;
 }
@@ -699,13 +705,13 @@ export interface ManagementSimpleClusterAdvancedSettings {
   /**
   * Handling established connections when installing a new policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#connection_persistence ManagementSimpleCluster#connection_persistence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#connection_persistence ManagementSimpleCluster#connection_persistence}
   */
   readonly connectionPersistence?: string;
   /**
   * sam block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#sam ManagementSimpleCluster#sam}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#sam ManagementSimpleCluster#sam}
   */
   readonly sam?: ManagementSimpleClusterAdvancedSettingsSam;
 }
@@ -820,13 +826,13 @@ export interface ManagementSimpleClusterHttpsInspectionBypassOnFailure {
   /**
   * Override profile of global configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#override_profile ManagementSimpleCluster#override_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#override_profile ManagementSimpleCluster#override_profile}
   */
   readonly overrideProfile?: boolean | cdktf.IResolvable;
   /**
   * Override value.<br><font color="red">Required only for</font> 'override-profile' is True.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#value ManagementSimpleCluster#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#value ManagementSimpleCluster#value}
   */
   readonly value?: boolean | cdktf.IResolvable;
 }
@@ -941,13 +947,13 @@ export interface ManagementSimpleClusterHttpsInspectionDenyExpiredServerCert {
   /**
   * Override profile of global configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#override_profile ManagementSimpleCluster#override_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#override_profile ManagementSimpleCluster#override_profile}
   */
   readonly overrideProfile?: boolean | cdktf.IResolvable;
   /**
   * Override value.<br><font color="red">Required only for</font> 'override-profile' is True.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#value ManagementSimpleCluster#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#value ManagementSimpleCluster#value}
   */
   readonly value?: boolean | cdktf.IResolvable;
 }
@@ -1062,13 +1068,13 @@ export interface ManagementSimpleClusterHttpsInspectionDenyRevokedServerCert {
   /**
   * Override profile of global configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#override_profile ManagementSimpleCluster#override_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#override_profile ManagementSimpleCluster#override_profile}
   */
   readonly overrideProfile?: boolean | cdktf.IResolvable;
   /**
   * Override value.<br><font color="red">Required only for</font> 'override-profile' is True.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#value ManagementSimpleCluster#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#value ManagementSimpleCluster#value}
   */
   readonly value?: boolean | cdktf.IResolvable;
 }
@@ -1183,13 +1189,13 @@ export interface ManagementSimpleClusterHttpsInspectionDenyUntrustedServerCert {
   /**
   * Override profile of global configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#override_profile ManagementSimpleCluster#override_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#override_profile ManagementSimpleCluster#override_profile}
   */
   readonly overrideProfile?: boolean | cdktf.IResolvable;
   /**
   * Override value.<br><font color="red">Required only for</font> 'override-profile' is True.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#value ManagementSimpleCluster#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#value ManagementSimpleCluster#value}
   */
   readonly value?: boolean | cdktf.IResolvable;
 }
@@ -1304,13 +1310,13 @@ export interface ManagementSimpleClusterHttpsInspectionSiteCategorizationAllowMo
   /**
   * Override profile of global configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#override_profile ManagementSimpleCluster#override_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#override_profile ManagementSimpleCluster#override_profile}
   */
   readonly overrideProfile?: boolean | cdktf.IResolvable;
   /**
   * Override value.<br><font color="red">Required only for</font> 'override-profile' is True.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#value ManagementSimpleCluster#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#value ManagementSimpleCluster#value}
   */
   readonly value?: string;
 }
@@ -1425,31 +1431,31 @@ export interface ManagementSimpleClusterHttpsInspection {
   /**
   * bypass_on_failure block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#bypass_on_failure ManagementSimpleCluster#bypass_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#bypass_on_failure ManagementSimpleCluster#bypass_on_failure}
   */
   readonly bypassOnFailure?: ManagementSimpleClusterHttpsInspectionBypassOnFailure;
   /**
   * deny_expired_server_cert block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#deny_expired_server_cert ManagementSimpleCluster#deny_expired_server_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#deny_expired_server_cert ManagementSimpleCluster#deny_expired_server_cert}
   */
   readonly denyExpiredServerCert?: ManagementSimpleClusterHttpsInspectionDenyExpiredServerCert;
   /**
   * deny_revoked_server_cert block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#deny_revoked_server_cert ManagementSimpleCluster#deny_revoked_server_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#deny_revoked_server_cert ManagementSimpleCluster#deny_revoked_server_cert}
   */
   readonly denyRevokedServerCert?: ManagementSimpleClusterHttpsInspectionDenyRevokedServerCert;
   /**
   * deny_untrusted_server_cert block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#deny_untrusted_server_cert ManagementSimpleCluster#deny_untrusted_server_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#deny_untrusted_server_cert ManagementSimpleCluster#deny_untrusted_server_cert}
   */
   readonly denyUntrustedServerCert?: ManagementSimpleClusterHttpsInspectionDenyUntrustedServerCert;
   /**
   * site_categorization_allow_mode block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#site_categorization_allow_mode ManagementSimpleCluster#site_categorization_allow_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#site_categorization_allow_mode ManagementSimpleCluster#site_categorization_allow_mode}
   */
   readonly siteCategorizationAllowMode?: ManagementSimpleClusterHttpsInspectionSiteCategorizationAllowMode;
 }
@@ -1651,25 +1657,25 @@ export interface ManagementSimpleClusterIdentityAwarenessSettingsBrowserBasedAut
   /**
   * External user profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#external_user_profile ManagementSimpleCluster#external_user_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#external_user_profile ManagementSimpleCluster#external_user_profile}
   */
   readonly externalUserProfile?: boolean | cdktf.IResolvable;
   /**
   * Internal users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#internal_users ManagementSimpleCluster#internal_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#internal_users ManagementSimpleCluster#internal_users}
   */
   readonly internalUsers?: boolean | cdktf.IResolvable;
   /**
   * LDAP AU objects identified by the name or UID. Must be set when "users-from-external-directories" was selected to be "specific".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#specific ManagementSimpleCluster#specific}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#specific ManagementSimpleCluster#specific}
   */
   readonly specific?: string[];
   /**
   * Users from external directories.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#users_from_external_directories ManagementSimpleCluster#users_from_external_directories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#users_from_external_directories ManagementSimpleCluster#users_from_external_directories}
   */
   readonly usersFromExternalDirectories?: string;
 }
@@ -1842,25 +1848,25 @@ export interface ManagementSimpleClusterIdentityAwarenessSettingsBrowserBasedAut
   /**
   * Authentication method.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#authentication_method ManagementSimpleCluster#authentication_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#authentication_method ManagementSimpleCluster#authentication_method}
   */
   readonly authenticationMethod?: string;
   /**
   * Identity provider object identified by the name or UID. Must be set when "authentication-method" was selected to be "identity provider".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#identity_provider ManagementSimpleCluster#identity_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#identity_provider ManagementSimpleCluster#identity_provider}
   */
   readonly identityProvider?: string[];
   /**
   * Radius server object identified by the name or UID. Must be set when "authentication-method" was selected to be "radius".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#radius ManagementSimpleCluster#radius}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#radius ManagementSimpleCluster#radius}
   */
   readonly radius?: string;
   /**
   * users_directories block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#users_directories ManagementSimpleCluster#users_directories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#users_directories ManagementSimpleCluster#users_directories}
   */
   readonly usersDirectories?: ManagementSimpleClusterIdentityAwarenessSettingsBrowserBasedAuthenticationSettingsAuthenticationSettingsUsersDirectories;
 }
@@ -2033,19 +2039,19 @@ export interface ManagementSimpleClusterIdentityAwarenessSettingsBrowserBasedAut
   /**
   * Controls portal access settings for internal interfaces, whose topology is set to 'DMZ'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#dmz ManagementSimpleCluster#dmz}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#dmz ManagementSimpleCluster#dmz}
   */
   readonly dmz?: boolean | cdktf.IResolvable;
   /**
   * Controls portal access settings for internal interfaces, whose topology is set to 'Undefined'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#undefined ManagementSimpleCluster#undefined}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#undefined ManagementSimpleCluster#undefined}
   */
   readonly undefined?: boolean | cdktf.IResolvable;
   /**
   * Controls portal access settings for interfaces that are part of a VPN Encryption Domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#vpn ManagementSimpleCluster#vpn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#vpn ManagementSimpleCluster#vpn}
   */
   readonly vpn?: boolean | cdktf.IResolvable;
 }
@@ -2189,13 +2195,13 @@ export interface ManagementSimpleClusterIdentityAwarenessSettingsBrowserBasedAut
   /**
   * Allowed access to the web portal (based on interfaces, or security policy).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#allow_access_from ManagementSimpleCluster#allow_access_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#allow_access_from ManagementSimpleCluster#allow_access_from}
   */
   readonly allowAccessFrom?: string;
   /**
   * internal_access_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#internal_access_settings ManagementSimpleCluster#internal_access_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#internal_access_settings ManagementSimpleCluster#internal_access_settings}
   */
   readonly internalAccessSettings?: ManagementSimpleClusterIdentityAwarenessSettingsBrowserBasedAuthenticationSettingsBrowserBasedAuthenticationPortalSettingsAccessibilityInternalAccessSettings;
 }
@@ -2310,13 +2316,13 @@ export interface ManagementSimpleClusterIdentityAwarenessSettingsBrowserBasedAut
   /**
   * The certificate file encoded in Base64 with padding.  This file must be in the *.p12 format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#base64_certificate ManagementSimpleCluster#base64_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#base64_certificate ManagementSimpleCluster#base64_certificate}
   */
   readonly base64Certificate?: string;
   /**
   * Password (encoded in Base64 with padding) for the certificate file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#base64_password ManagementSimpleCluster#base64_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#base64_password ManagementSimpleCluster#base64_password}
   */
   readonly base64Password?: string;
 }
@@ -2431,13 +2437,13 @@ export interface ManagementSimpleClusterIdentityAwarenessSettingsBrowserBasedAut
   /**
   * List of URL aliases that are redirected to the main portal URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#aliases ManagementSimpleCluster#aliases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#aliases ManagementSimpleCluster#aliases}
   */
   readonly aliases?: string[];
   /**
   * The main URL for the web portal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#main_url ManagementSimpleCluster#main_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#main_url ManagementSimpleCluster#main_url}
   */
   readonly mainUrl?: string;
 }
@@ -2552,19 +2558,19 @@ export interface ManagementSimpleClusterIdentityAwarenessSettingsBrowserBasedAut
   /**
   * accessibility block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#accessibility ManagementSimpleCluster#accessibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#accessibility ManagementSimpleCluster#accessibility}
   */
   readonly accessibility?: ManagementSimpleClusterIdentityAwarenessSettingsBrowserBasedAuthenticationSettingsBrowserBasedAuthenticationPortalSettingsAccessibility;
   /**
   * certificate_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#certificate_settings ManagementSimpleCluster#certificate_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#certificate_settings ManagementSimpleCluster#certificate_settings}
   */
   readonly certificateSettings?: ManagementSimpleClusterIdentityAwarenessSettingsBrowserBasedAuthenticationSettingsBrowserBasedAuthenticationPortalSettingsCertificateSettings;
   /**
   * portal_web_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#portal_web_settings ManagementSimpleCluster#portal_web_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#portal_web_settings ManagementSimpleCluster#portal_web_settings}
   */
   readonly portalWebSettings?: ManagementSimpleClusterIdentityAwarenessSettingsBrowserBasedAuthenticationSettingsBrowserBasedAuthenticationPortalSettingsPortalWebSettings;
 }
@@ -2708,13 +2714,13 @@ export interface ManagementSimpleClusterIdentityAwarenessSettingsBrowserBasedAut
   /**
   * authentication_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#authentication_settings ManagementSimpleCluster#authentication_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#authentication_settings ManagementSimpleCluster#authentication_settings}
   */
   readonly authenticationSettings?: ManagementSimpleClusterIdentityAwarenessSettingsBrowserBasedAuthenticationSettingsAuthenticationSettings;
   /**
   * browser_based_authentication_portal_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#browser_based_authentication_portal_settings ManagementSimpleCluster#browser_based_authentication_portal_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#browser_based_authentication_portal_settings ManagementSimpleCluster#browser_based_authentication_portal_settings}
   */
   readonly browserBasedAuthenticationPortalSettings?: ManagementSimpleClusterIdentityAwarenessSettingsBrowserBasedAuthenticationSettingsBrowserBasedAuthenticationPortalSettings;
 }
@@ -2829,25 +2835,25 @@ export interface ManagementSimpleClusterIdentityAwarenessSettingsIdentityAgentSe
   /**
   * External user profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#external_user_profile ManagementSimpleCluster#external_user_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#external_user_profile ManagementSimpleCluster#external_user_profile}
   */
   readonly externalUserProfile?: boolean | cdktf.IResolvable;
   /**
   * Internal users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#internal_users ManagementSimpleCluster#internal_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#internal_users ManagementSimpleCluster#internal_users}
   */
   readonly internalUsers?: boolean | cdktf.IResolvable;
   /**
   * LDAP AU objects identified by the name or UID. Must be set when "users-from-external-directories" was selected to be "specific".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#specific ManagementSimpleCluster#specific}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#specific ManagementSimpleCluster#specific}
   */
   readonly specific?: string[];
   /**
   * Users from external directories.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#users_from_external_directories ManagementSimpleCluster#users_from_external_directories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#users_from_external_directories ManagementSimpleCluster#users_from_external_directories}
   */
   readonly usersFromExternalDirectories?: string;
 }
@@ -3020,19 +3026,19 @@ export interface ManagementSimpleClusterIdentityAwarenessSettingsIdentityAgentSe
   /**
   * Authentication method.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#authentication_method ManagementSimpleCluster#authentication_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#authentication_method ManagementSimpleCluster#authentication_method}
   */
   readonly authenticationMethod?: string;
   /**
   * Radius server object identified by the name or UID. Must be set when "authentication-method" was selected to be "radius".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#radius ManagementSimpleCluster#radius}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#radius ManagementSimpleCluster#radius}
   */
   readonly radius?: string;
   /**
   * users_directories block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#users_directories ManagementSimpleCluster#users_directories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#users_directories ManagementSimpleCluster#users_directories}
   */
   readonly usersDirectories?: ManagementSimpleClusterIdentityAwarenessSettingsIdentityAgentSettingsAuthenticationSettingsUsersDirectories;
 }
@@ -3176,19 +3182,19 @@ export interface ManagementSimpleClusterIdentityAwarenessSettingsIdentityAgentSe
   /**
   * Controls portal access settings for internal interfaces, whose topology is set to 'DMZ'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#dmz ManagementSimpleCluster#dmz}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#dmz ManagementSimpleCluster#dmz}
   */
   readonly dmz?: boolean | cdktf.IResolvable;
   /**
   * Controls portal access settings for internal interfaces, whose topology is set to 'Undefined'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#undefined ManagementSimpleCluster#undefined}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#undefined ManagementSimpleCluster#undefined}
   */
   readonly undefined?: boolean | cdktf.IResolvable;
   /**
   * Controls portal access settings for interfaces that are part of a VPN Encryption Domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#vpn ManagementSimpleCluster#vpn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#vpn ManagementSimpleCluster#vpn}
   */
   readonly vpn?: boolean | cdktf.IResolvable;
 }
@@ -3332,13 +3338,13 @@ export interface ManagementSimpleClusterIdentityAwarenessSettingsIdentityAgentSe
   /**
   * Allowed access to the web portal (based on interfaces, or security policy).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#allow_access_from ManagementSimpleCluster#allow_access_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#allow_access_from ManagementSimpleCluster#allow_access_from}
   */
   readonly allowAccessFrom?: string;
   /**
   * internal_access_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#internal_access_settings ManagementSimpleCluster#internal_access_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#internal_access_settings ManagementSimpleCluster#internal_access_settings}
   */
   readonly internalAccessSettings?: ManagementSimpleClusterIdentityAwarenessSettingsIdentityAgentSettingsIdentityAgentPortalSettingsAccessibilityInternalAccessSettings;
 }
@@ -3453,7 +3459,7 @@ export interface ManagementSimpleClusterIdentityAwarenessSettingsIdentityAgentSe
   /**
   * accessibility block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#accessibility ManagementSimpleCluster#accessibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#accessibility ManagementSimpleCluster#accessibility}
   */
   readonly accessibility?: ManagementSimpleClusterIdentityAwarenessSettingsIdentityAgentSettingsIdentityAgentPortalSettingsAccessibility;
 }
@@ -3539,25 +3545,25 @@ export interface ManagementSimpleClusterIdentityAwarenessSettingsIdentityAgentSe
   /**
   * Agents send keepalive period (minutes).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#agents_interval_keepalive ManagementSimpleCluster#agents_interval_keepalive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#agents_interval_keepalive ManagementSimpleCluster#agents_interval_keepalive}
   */
   readonly agentsIntervalKeepalive?: number;
   /**
   * Agent reauthenticate time interval (minutes).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#user_reauthenticate_interval ManagementSimpleCluster#user_reauthenticate_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#user_reauthenticate_interval ManagementSimpleCluster#user_reauthenticate_interval}
   */
   readonly userReauthenticateInterval?: number;
   /**
   * authentication_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#authentication_settings ManagementSimpleCluster#authentication_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#authentication_settings ManagementSimpleCluster#authentication_settings}
   */
   readonly authenticationSettings?: ManagementSimpleClusterIdentityAwarenessSettingsIdentityAgentSettingsAuthenticationSettings;
   /**
   * identity_agent_portal_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#identity_agent_portal_settings ManagementSimpleCluster#identity_agent_portal_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#identity_agent_portal_settings ManagementSimpleCluster#identity_agent_portal_settings}
   */
   readonly identityAgentPortalSettings?: ManagementSimpleClusterIdentityAwarenessSettingsIdentityAgentSettingsIdentityAgentPortalSettings;
 }
@@ -3730,25 +3736,25 @@ export interface ManagementSimpleClusterIdentityAwarenessSettingsIdentityCollect
   /**
   * External user profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#external_user_profile ManagementSimpleCluster#external_user_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#external_user_profile ManagementSimpleCluster#external_user_profile}
   */
   readonly externalUserProfile?: boolean | cdktf.IResolvable;
   /**
   * Internal users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#internal_users ManagementSimpleCluster#internal_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#internal_users ManagementSimpleCluster#internal_users}
   */
   readonly internalUsers?: boolean | cdktf.IResolvable;
   /**
   * LDAP AU objects identified by the name or UID. Must be set when "users-from-external-directories" was selected to be "specific".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#specific ManagementSimpleCluster#specific}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#specific ManagementSimpleCluster#specific}
   */
   readonly specific?: string[];
   /**
   * Users from external directories.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#users_from_external_directories ManagementSimpleCluster#users_from_external_directories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#users_from_external_directories ManagementSimpleCluster#users_from_external_directories}
   */
   readonly usersFromExternalDirectories?: string;
 }
@@ -3921,7 +3927,7 @@ export interface ManagementSimpleClusterIdentityAwarenessSettingsIdentityCollect
   /**
   * users_directories block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#users_directories ManagementSimpleCluster#users_directories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#users_directories ManagementSimpleCluster#users_directories}
   */
   readonly usersDirectories?: ManagementSimpleClusterIdentityAwarenessSettingsIdentityCollectorSettingsAuthenticationSettingsUsersDirectories;
 }
@@ -4007,13 +4013,13 @@ export interface ManagementSimpleClusterIdentityAwarenessSettingsIdentityCollect
   /**
   * Host / Network Group Name or UID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#client ManagementSimpleCluster#client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#client ManagementSimpleCluster#client}
   */
   readonly client?: string;
   /**
   * Client Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#client_secret ManagementSimpleCluster#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#client_secret ManagementSimpleCluster#client_secret}
   */
   readonly clientSecret?: string;
 }
@@ -4160,19 +4166,19 @@ export interface ManagementSimpleClusterIdentityAwarenessSettingsIdentityCollect
   /**
   * Controls portal access settings for internal interfaces, whose topology is set to 'DMZ'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#dmz ManagementSimpleCluster#dmz}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#dmz ManagementSimpleCluster#dmz}
   */
   readonly dmz?: boolean | cdktf.IResolvable;
   /**
   * Controls portal access settings for internal interfaces, whose topology is set to 'Undefined'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#undefined ManagementSimpleCluster#undefined}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#undefined ManagementSimpleCluster#undefined}
   */
   readonly undefined?: boolean | cdktf.IResolvable;
   /**
   * Controls portal access settings for interfaces that are part of a VPN Encryption Domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#vpn ManagementSimpleCluster#vpn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#vpn ManagementSimpleCluster#vpn}
   */
   readonly vpn?: boolean | cdktf.IResolvable;
 }
@@ -4316,13 +4322,13 @@ export interface ManagementSimpleClusterIdentityAwarenessSettingsIdentityCollect
   /**
   * Allowed access to the web portal (based on interfaces, or security policy).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#allow_access_from ManagementSimpleCluster#allow_access_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#allow_access_from ManagementSimpleCluster#allow_access_from}
   */
   readonly allowAccessFrom?: string;
   /**
   * internal_access_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#internal_access_settings ManagementSimpleCluster#internal_access_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#internal_access_settings ManagementSimpleCluster#internal_access_settings}
   */
   readonly internalAccessSettings?: ManagementSimpleClusterIdentityAwarenessSettingsIdentityCollectorSettingsClientAccessPermissionsAccessibilityInternalAccessSettings;
 }
@@ -4437,7 +4443,7 @@ export interface ManagementSimpleClusterIdentityAwarenessSettingsIdentityCollect
   /**
   * accessibility block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#accessibility ManagementSimpleCluster#accessibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#accessibility ManagementSimpleCluster#accessibility}
   */
   readonly accessibility?: ManagementSimpleClusterIdentityAwarenessSettingsIdentityCollectorSettingsClientAccessPermissionsAccessibility;
 }
@@ -4523,19 +4529,19 @@ export interface ManagementSimpleClusterIdentityAwarenessSettingsIdentityCollect
   /**
   * authentication_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#authentication_settings ManagementSimpleCluster#authentication_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#authentication_settings ManagementSimpleCluster#authentication_settings}
   */
   readonly authenticationSettings?: ManagementSimpleClusterIdentityAwarenessSettingsIdentityCollectorSettingsAuthenticationSettings;
   /**
   * authorized_clients block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#authorized_clients ManagementSimpleCluster#authorized_clients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#authorized_clients ManagementSimpleCluster#authorized_clients}
   */
   readonly authorizedClients: ManagementSimpleClusterIdentityAwarenessSettingsIdentityCollectorSettingsAuthorizedClients[] | cdktf.IResolvable;
   /**
   * client_access_permissions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#client_access_permissions ManagementSimpleCluster#client_access_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#client_access_permissions ManagementSimpleCluster#client_access_permissions}
   */
   readonly clientAccessPermissions?: ManagementSimpleClusterIdentityAwarenessSettingsIdentityCollectorSettingsClientAccessPermissions;
 }
@@ -4676,19 +4682,19 @@ export interface ManagementSimpleClusterIdentityAwarenessSettingsIdentitySharing
   /**
   * Gateway(s) to receive identity from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#receive_from ManagementSimpleCluster#receive_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#receive_from ManagementSimpleCluster#receive_from}
   */
   readonly receiveFrom?: string[];
   /**
   * Enable receiving identity from other gateways.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#receive_from_other_gateways ManagementSimpleCluster#receive_from_other_gateways}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#receive_from_other_gateways ManagementSimpleCluster#receive_from_other_gateways}
   */
   readonly receiveFromOtherGateways?: boolean | cdktf.IResolvable;
   /**
   * Enable identity sharing with other gateways.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#share_with_other_gateways ManagementSimpleCluster#share_with_other_gateways}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#share_with_other_gateways ManagementSimpleCluster#share_with_other_gateways}
   */
   readonly shareWithOtherGateways?: boolean | cdktf.IResolvable;
 }
@@ -4832,7 +4838,7 @@ export interface ManagementSimpleClusterIdentityAwarenessSettingsProxySettings {
   /**
   * Whether to use X-Forward-For HTTP header, which is added by the proxy server to keep track of the original source IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#detect_using_x_forward_for ManagementSimpleCluster#detect_using_x_forward_for}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#detect_using_x_forward_for ManagementSimpleCluster#detect_using_x_forward_for}
   */
   readonly detectUsingXForwardFor?: boolean | cdktf.IResolvable;
 }
@@ -4918,55 +4924,55 @@ export interface ManagementSimpleClusterIdentityAwarenessSettings {
   /**
   * Enable Browser Based Authentication source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#browser_based_authentication ManagementSimpleCluster#browser_based_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#browser_based_authentication ManagementSimpleCluster#browser_based_authentication}
   */
   readonly browserBasedAuthentication?: boolean | cdktf.IResolvable;
   /**
   * Enable Identity Agent source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#identity_agent ManagementSimpleCluster#identity_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#identity_agent ManagementSimpleCluster#identity_agent}
   */
   readonly identityAgent?: boolean | cdktf.IResolvable;
   /**
   * Enable Identity Collector source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#identity_collector ManagementSimpleCluster#identity_collector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#identity_collector ManagementSimpleCluster#identity_collector}
   */
   readonly identityCollector?: boolean | cdktf.IResolvable;
   /**
   * Enable Remote Access Identity source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#remote_access ManagementSimpleCluster#remote_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#remote_access ManagementSimpleCluster#remote_access}
   */
   readonly remoteAccess?: boolean | cdktf.IResolvable;
   /**
   * browser_based_authentication_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#browser_based_authentication_settings ManagementSimpleCluster#browser_based_authentication_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#browser_based_authentication_settings ManagementSimpleCluster#browser_based_authentication_settings}
   */
   readonly browserBasedAuthenticationSettings?: ManagementSimpleClusterIdentityAwarenessSettingsBrowserBasedAuthenticationSettings;
   /**
   * identity_agent_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#identity_agent_settings ManagementSimpleCluster#identity_agent_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#identity_agent_settings ManagementSimpleCluster#identity_agent_settings}
   */
   readonly identityAgentSettings?: ManagementSimpleClusterIdentityAwarenessSettingsIdentityAgentSettings;
   /**
   * identity_collector_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#identity_collector_settings ManagementSimpleCluster#identity_collector_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#identity_collector_settings ManagementSimpleCluster#identity_collector_settings}
   */
   readonly identityCollectorSettings?: ManagementSimpleClusterIdentityAwarenessSettingsIdentityCollectorSettings;
   /**
   * identity_sharing_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#identity_sharing_settings ManagementSimpleCluster#identity_sharing_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#identity_sharing_settings ManagementSimpleCluster#identity_sharing_settings}
   */
   readonly identitySharingSettings?: ManagementSimpleClusterIdentityAwarenessSettingsIdentitySharingSettings;
   /**
   * proxy_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#proxy_settings ManagementSimpleCluster#proxy_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#proxy_settings ManagementSimpleCluster#proxy_settings}
   */
   readonly proxySettings?: ManagementSimpleClusterIdentityAwarenessSettingsProxySettings;
 }
@@ -5284,109 +5290,109 @@ export interface ManagementSimpleClusterInterfaces {
   /**
   * Anti spoofing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#anti_spoofing ManagementSimpleCluster#anti_spoofing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#anti_spoofing ManagementSimpleCluster#anti_spoofing}
   */
   readonly antiSpoofing?: boolean | cdktf.IResolvable;
   /**
   * Anti spoofing settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#anti_spoofing_settings ManagementSimpleCluster#anti_spoofing_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#anti_spoofing_settings ManagementSimpleCluster#anti_spoofing_settings}
   */
   readonly antiSpoofingSettings?: { [key: string]: string };
   /**
   * Color of the object. Should be one of existing colors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#color ManagementSimpleCluster#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#color ManagementSimpleCluster#color}
   */
   readonly color?: string;
   /**
   * Comments string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#comments ManagementSimpleCluster#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#comments ManagementSimpleCluster#comments}
   */
   readonly comments?: string;
   /**
   * Cluster interface type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#interface_type ManagementSimpleCluster#interface_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#interface_type ManagementSimpleCluster#interface_type}
   */
   readonly interfaceType: string;
   /**
   * IPv4 address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#ipv4_address ManagementSimpleCluster#ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#ipv4_address ManagementSimpleCluster#ipv4_address}
   */
   readonly ipv4Address?: string;
   /**
   * IPv4 network mask length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#ipv4_mask_length ManagementSimpleCluster#ipv4_mask_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#ipv4_mask_length ManagementSimpleCluster#ipv4_mask_length}
   */
   readonly ipv4MaskLength?: string;
   /**
   * IPv4 network address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#ipv4_network_mask ManagementSimpleCluster#ipv4_network_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#ipv4_network_mask ManagementSimpleCluster#ipv4_network_mask}
   */
   readonly ipv4NetworkMask?: string;
   /**
   * IPv6 address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#ipv6_address ManagementSimpleCluster#ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#ipv6_address ManagementSimpleCluster#ipv6_address}
   */
   readonly ipv6Address?: string;
   /**
   * IPv6 network mask length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#ipv6_mask_length ManagementSimpleCluster#ipv6_mask_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#ipv6_mask_length ManagementSimpleCluster#ipv6_mask_length}
   */
   readonly ipv6MaskLength?: string;
   /**
   * IPv6 network address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#ipv6_network_mask ManagementSimpleCluster#ipv6_network_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#ipv6_network_mask ManagementSimpleCluster#ipv6_network_mask}
   */
   readonly ipv6NetworkMask?: string;
   /**
   * Multicast IP Address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#multicast_address ManagementSimpleCluster#multicast_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#multicast_address ManagementSimpleCluster#multicast_address}
   */
   readonly multicastAddress?: string;
   /**
   * Multicast Address Type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#multicast_address_type ManagementSimpleCluster#multicast_address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#multicast_address_type ManagementSimpleCluster#multicast_address_type}
   */
   readonly multicastAddressType?: string;
   /**
   * Object name. Should be unique in the domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#name ManagementSimpleCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#name ManagementSimpleCluster#name}
   */
   readonly name: string;
   /**
   * Security zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#security_zone ManagementSimpleCluster#security_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#security_zone ManagementSimpleCluster#security_zone}
   */
   readonly securityZone?: boolean | cdktf.IResolvable;
   /**
   * Security zone settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#security_zone_settings ManagementSimpleCluster#security_zone_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#security_zone_settings ManagementSimpleCluster#security_zone_settings}
   */
   readonly securityZoneSettings?: { [key: string]: string };
   /**
   * Topology.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#topology ManagementSimpleCluster#topology}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#topology ManagementSimpleCluster#topology}
   */
   readonly topology?: string;
   /**
   * Topology settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#topology_settings ManagementSimpleCluster#topology_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#topology_settings ManagementSimpleCluster#topology_settings}
   */
   readonly topologySettings?: { [key: string]: string };
 }
@@ -5992,47 +5998,569 @@ export class ManagementSimpleClusterInterfacesList extends cdktf.ComplexList {
     return new ManagementSimpleClusterInterfacesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface ManagementSimpleClusterIpsSettingsTopCpuConsumingProtections {
+  /**
+  * Duration (in hours) for disabling the protections.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#disable_period ManagementSimpleCluster#disable_period}
+  */
+  readonly disablePeriod?: number;
+  /**
+  * Temporarily disable/enable top CPU consuming IPS protections.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#disable_under_load ManagementSimpleCluster#disable_under_load}
+  */
+  readonly disableUnderLoad?: boolean | cdktf.IResolvable;
+}
+
+export function managementSimpleClusterIpsSettingsTopCpuConsumingProtectionsToTerraform(struct?: ManagementSimpleClusterIpsSettingsTopCpuConsumingProtectionsOutputReference | ManagementSimpleClusterIpsSettingsTopCpuConsumingProtections): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    disable_period: cdktf.numberToTerraform(struct!.disablePeriod),
+    disable_under_load: cdktf.booleanToTerraform(struct!.disableUnderLoad),
+  }
+}
+
+
+export function managementSimpleClusterIpsSettingsTopCpuConsumingProtectionsToHclTerraform(struct?: ManagementSimpleClusterIpsSettingsTopCpuConsumingProtectionsOutputReference | ManagementSimpleClusterIpsSettingsTopCpuConsumingProtections): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    disable_period: {
+      value: cdktf.numberToHclTerraform(struct!.disablePeriod),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    disable_under_load: {
+      value: cdktf.booleanToHclTerraform(struct!.disableUnderLoad),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ManagementSimpleClusterIpsSettingsTopCpuConsumingProtectionsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): ManagementSimpleClusterIpsSettingsTopCpuConsumingProtections | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._disablePeriod !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.disablePeriod = this._disablePeriod;
+    }
+    if (this._disableUnderLoad !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.disableUnderLoad = this._disableUnderLoad;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ManagementSimpleClusterIpsSettingsTopCpuConsumingProtections | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._disablePeriod = undefined;
+      this._disableUnderLoad = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._disablePeriod = value.disablePeriod;
+      this._disableUnderLoad = value.disableUnderLoad;
+    }
+  }
+
+  // disable_period - computed: false, optional: true, required: false
+  private _disablePeriod?: number; 
+  public get disablePeriod() {
+    return this.getNumberAttribute('disable_period');
+  }
+  public set disablePeriod(value: number) {
+    this._disablePeriod = value;
+  }
+  public resetDisablePeriod() {
+    this._disablePeriod = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get disablePeriodInput() {
+    return this._disablePeriod;
+  }
+
+  // disable_under_load - computed: false, optional: true, required: false
+  private _disableUnderLoad?: boolean | cdktf.IResolvable; 
+  public get disableUnderLoad() {
+    return this.getBooleanAttribute('disable_under_load');
+  }
+  public set disableUnderLoad(value: boolean | cdktf.IResolvable) {
+    this._disableUnderLoad = value;
+  }
+  public resetDisableUnderLoad() {
+    this._disableUnderLoad = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get disableUnderLoadInput() {
+    return this._disableUnderLoad;
+  }
+}
+export interface ManagementSimpleClusterIpsSettings {
+  /**
+  * Defines whether the IPS blade operates in Detect Only mode or enforces the configured IPS Policy.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#activation_mode ManagementSimpleCluster#activation_mode}
+  */
+  readonly activationMode?: string;
+  /**
+  * Disable/enable all IPS protections until CPU and memory levels are back to normal.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#bypass_all_under_load ManagementSimpleCluster#bypass_all_under_load}
+  */
+  readonly bypassAllUnderLoad?: boolean | cdktf.IResolvable;
+  /**
+  * Track options when all IPS protections are disabled until CPU/memory levels are back to normal.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#bypass_track_method ManagementSimpleCluster#bypass_track_method}
+  */
+  readonly bypassTrackMethod?: string;
+  /**
+  * CPU usage high threshold percentage (1-99).
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#cpu_usage_high_threshold ManagementSimpleCluster#cpu_usage_high_threshold}
+  */
+  readonly cpuUsageHighThreshold?: number;
+  /**
+  * CPU usage low threshold percentage (1-99).
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#cpu_usage_low_threshold ManagementSimpleCluster#cpu_usage_low_threshold}
+  */
+  readonly cpuUsageLowThreshold?: number;
+  /**
+  * Memory usage high threshold percentage (1-99).
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#memory_usage_high_threshold ManagementSimpleCluster#memory_usage_high_threshold}
+  */
+  readonly memoryUsageHighThreshold?: number;
+  /**
+  * Memory usage low threshold percentage (1-99).
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#memory_usage_low_threshold ManagementSimpleCluster#memory_usage_low_threshold}
+  */
+  readonly memoryUsageLowThreshold?: number;
+  /**
+  * Define the IPS connections during fail over reject packets or accept packets.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#reject_on_cluster_fail_over ManagementSimpleCluster#reject_on_cluster_fail_over}
+  */
+  readonly rejectOnClusterFailOver?: boolean | cdktf.IResolvable;
+  /**
+  * Help improve Check Point Threat Prevention product by sending anonymous information.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#send_threat_cloud_info ManagementSimpleCluster#send_threat_cloud_info}
+  */
+  readonly sendThreatCloudInfo?: boolean | cdktf.IResolvable;
+  /**
+  * top_cpu_consuming_protections block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#top_cpu_consuming_protections ManagementSimpleCluster#top_cpu_consuming_protections}
+  */
+  readonly topCpuConsumingProtections?: ManagementSimpleClusterIpsSettingsTopCpuConsumingProtections;
+}
+
+export function managementSimpleClusterIpsSettingsToTerraform(struct?: ManagementSimpleClusterIpsSettingsOutputReference | ManagementSimpleClusterIpsSettings): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    activation_mode: cdktf.stringToTerraform(struct!.activationMode),
+    bypass_all_under_load: cdktf.booleanToTerraform(struct!.bypassAllUnderLoad),
+    bypass_track_method: cdktf.stringToTerraform(struct!.bypassTrackMethod),
+    cpu_usage_high_threshold: cdktf.numberToTerraform(struct!.cpuUsageHighThreshold),
+    cpu_usage_low_threshold: cdktf.numberToTerraform(struct!.cpuUsageLowThreshold),
+    memory_usage_high_threshold: cdktf.numberToTerraform(struct!.memoryUsageHighThreshold),
+    memory_usage_low_threshold: cdktf.numberToTerraform(struct!.memoryUsageLowThreshold),
+    reject_on_cluster_fail_over: cdktf.booleanToTerraform(struct!.rejectOnClusterFailOver),
+    send_threat_cloud_info: cdktf.booleanToTerraform(struct!.sendThreatCloudInfo),
+    top_cpu_consuming_protections: managementSimpleClusterIpsSettingsTopCpuConsumingProtectionsToTerraform(struct!.topCpuConsumingProtections),
+  }
+}
+
+
+export function managementSimpleClusterIpsSettingsToHclTerraform(struct?: ManagementSimpleClusterIpsSettingsOutputReference | ManagementSimpleClusterIpsSettings): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    activation_mode: {
+      value: cdktf.stringToHclTerraform(struct!.activationMode),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    bypass_all_under_load: {
+      value: cdktf.booleanToHclTerraform(struct!.bypassAllUnderLoad),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    bypass_track_method: {
+      value: cdktf.stringToHclTerraform(struct!.bypassTrackMethod),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    cpu_usage_high_threshold: {
+      value: cdktf.numberToHclTerraform(struct!.cpuUsageHighThreshold),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    cpu_usage_low_threshold: {
+      value: cdktf.numberToHclTerraform(struct!.cpuUsageLowThreshold),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    memory_usage_high_threshold: {
+      value: cdktf.numberToHclTerraform(struct!.memoryUsageHighThreshold),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    memory_usage_low_threshold: {
+      value: cdktf.numberToHclTerraform(struct!.memoryUsageLowThreshold),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    reject_on_cluster_fail_over: {
+      value: cdktf.booleanToHclTerraform(struct!.rejectOnClusterFailOver),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    send_threat_cloud_info: {
+      value: cdktf.booleanToHclTerraform(struct!.sendThreatCloudInfo),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    top_cpu_consuming_protections: {
+      value: managementSimpleClusterIpsSettingsTopCpuConsumingProtectionsToHclTerraform(struct!.topCpuConsumingProtections),
+      isBlock: true,
+      type: "list",
+      storageClassType: "ManagementSimpleClusterIpsSettingsTopCpuConsumingProtectionsList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ManagementSimpleClusterIpsSettingsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): ManagementSimpleClusterIpsSettings | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._activationMode !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.activationMode = this._activationMode;
+    }
+    if (this._bypassAllUnderLoad !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.bypassAllUnderLoad = this._bypassAllUnderLoad;
+    }
+    if (this._bypassTrackMethod !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.bypassTrackMethod = this._bypassTrackMethod;
+    }
+    if (this._cpuUsageHighThreshold !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.cpuUsageHighThreshold = this._cpuUsageHighThreshold;
+    }
+    if (this._cpuUsageLowThreshold !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.cpuUsageLowThreshold = this._cpuUsageLowThreshold;
+    }
+    if (this._memoryUsageHighThreshold !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.memoryUsageHighThreshold = this._memoryUsageHighThreshold;
+    }
+    if (this._memoryUsageLowThreshold !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.memoryUsageLowThreshold = this._memoryUsageLowThreshold;
+    }
+    if (this._rejectOnClusterFailOver !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.rejectOnClusterFailOver = this._rejectOnClusterFailOver;
+    }
+    if (this._sendThreatCloudInfo !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sendThreatCloudInfo = this._sendThreatCloudInfo;
+    }
+    if (this._topCpuConsumingProtections?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.topCpuConsumingProtections = this._topCpuConsumingProtections?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ManagementSimpleClusterIpsSettings | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._activationMode = undefined;
+      this._bypassAllUnderLoad = undefined;
+      this._bypassTrackMethod = undefined;
+      this._cpuUsageHighThreshold = undefined;
+      this._cpuUsageLowThreshold = undefined;
+      this._memoryUsageHighThreshold = undefined;
+      this._memoryUsageLowThreshold = undefined;
+      this._rejectOnClusterFailOver = undefined;
+      this._sendThreatCloudInfo = undefined;
+      this._topCpuConsumingProtections.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._activationMode = value.activationMode;
+      this._bypassAllUnderLoad = value.bypassAllUnderLoad;
+      this._bypassTrackMethod = value.bypassTrackMethod;
+      this._cpuUsageHighThreshold = value.cpuUsageHighThreshold;
+      this._cpuUsageLowThreshold = value.cpuUsageLowThreshold;
+      this._memoryUsageHighThreshold = value.memoryUsageHighThreshold;
+      this._memoryUsageLowThreshold = value.memoryUsageLowThreshold;
+      this._rejectOnClusterFailOver = value.rejectOnClusterFailOver;
+      this._sendThreatCloudInfo = value.sendThreatCloudInfo;
+      this._topCpuConsumingProtections.internalValue = value.topCpuConsumingProtections;
+    }
+  }
+
+  // activation_mode - computed: false, optional: true, required: false
+  private _activationMode?: string; 
+  public get activationMode() {
+    return this.getStringAttribute('activation_mode');
+  }
+  public set activationMode(value: string) {
+    this._activationMode = value;
+  }
+  public resetActivationMode() {
+    this._activationMode = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get activationModeInput() {
+    return this._activationMode;
+  }
+
+  // bypass_all_under_load - computed: false, optional: true, required: false
+  private _bypassAllUnderLoad?: boolean | cdktf.IResolvable; 
+  public get bypassAllUnderLoad() {
+    return this.getBooleanAttribute('bypass_all_under_load');
+  }
+  public set bypassAllUnderLoad(value: boolean | cdktf.IResolvable) {
+    this._bypassAllUnderLoad = value;
+  }
+  public resetBypassAllUnderLoad() {
+    this._bypassAllUnderLoad = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bypassAllUnderLoadInput() {
+    return this._bypassAllUnderLoad;
+  }
+
+  // bypass_track_method - computed: false, optional: true, required: false
+  private _bypassTrackMethod?: string; 
+  public get bypassTrackMethod() {
+    return this.getStringAttribute('bypass_track_method');
+  }
+  public set bypassTrackMethod(value: string) {
+    this._bypassTrackMethod = value;
+  }
+  public resetBypassTrackMethod() {
+    this._bypassTrackMethod = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bypassTrackMethodInput() {
+    return this._bypassTrackMethod;
+  }
+
+  // cpu_usage_high_threshold - computed: false, optional: true, required: false
+  private _cpuUsageHighThreshold?: number; 
+  public get cpuUsageHighThreshold() {
+    return this.getNumberAttribute('cpu_usage_high_threshold');
+  }
+  public set cpuUsageHighThreshold(value: number) {
+    this._cpuUsageHighThreshold = value;
+  }
+  public resetCpuUsageHighThreshold() {
+    this._cpuUsageHighThreshold = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cpuUsageHighThresholdInput() {
+    return this._cpuUsageHighThreshold;
+  }
+
+  // cpu_usage_low_threshold - computed: false, optional: true, required: false
+  private _cpuUsageLowThreshold?: number; 
+  public get cpuUsageLowThreshold() {
+    return this.getNumberAttribute('cpu_usage_low_threshold');
+  }
+  public set cpuUsageLowThreshold(value: number) {
+    this._cpuUsageLowThreshold = value;
+  }
+  public resetCpuUsageLowThreshold() {
+    this._cpuUsageLowThreshold = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cpuUsageLowThresholdInput() {
+    return this._cpuUsageLowThreshold;
+  }
+
+  // memory_usage_high_threshold - computed: false, optional: true, required: false
+  private _memoryUsageHighThreshold?: number; 
+  public get memoryUsageHighThreshold() {
+    return this.getNumberAttribute('memory_usage_high_threshold');
+  }
+  public set memoryUsageHighThreshold(value: number) {
+    this._memoryUsageHighThreshold = value;
+  }
+  public resetMemoryUsageHighThreshold() {
+    this._memoryUsageHighThreshold = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get memoryUsageHighThresholdInput() {
+    return this._memoryUsageHighThreshold;
+  }
+
+  // memory_usage_low_threshold - computed: false, optional: true, required: false
+  private _memoryUsageLowThreshold?: number; 
+  public get memoryUsageLowThreshold() {
+    return this.getNumberAttribute('memory_usage_low_threshold');
+  }
+  public set memoryUsageLowThreshold(value: number) {
+    this._memoryUsageLowThreshold = value;
+  }
+  public resetMemoryUsageLowThreshold() {
+    this._memoryUsageLowThreshold = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get memoryUsageLowThresholdInput() {
+    return this._memoryUsageLowThreshold;
+  }
+
+  // reject_on_cluster_fail_over - computed: false, optional: true, required: false
+  private _rejectOnClusterFailOver?: boolean | cdktf.IResolvable; 
+  public get rejectOnClusterFailOver() {
+    return this.getBooleanAttribute('reject_on_cluster_fail_over');
+  }
+  public set rejectOnClusterFailOver(value: boolean | cdktf.IResolvable) {
+    this._rejectOnClusterFailOver = value;
+  }
+  public resetRejectOnClusterFailOver() {
+    this._rejectOnClusterFailOver = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get rejectOnClusterFailOverInput() {
+    return this._rejectOnClusterFailOver;
+  }
+
+  // send_threat_cloud_info - computed: false, optional: true, required: false
+  private _sendThreatCloudInfo?: boolean | cdktf.IResolvable; 
+  public get sendThreatCloudInfo() {
+    return this.getBooleanAttribute('send_threat_cloud_info');
+  }
+  public set sendThreatCloudInfo(value: boolean | cdktf.IResolvable) {
+    this._sendThreatCloudInfo = value;
+  }
+  public resetSendThreatCloudInfo() {
+    this._sendThreatCloudInfo = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sendThreatCloudInfoInput() {
+    return this._sendThreatCloudInfo;
+  }
+
+  // top_cpu_consuming_protections - computed: false, optional: true, required: false
+  private _topCpuConsumingProtections = new ManagementSimpleClusterIpsSettingsTopCpuConsumingProtectionsOutputReference(this, "top_cpu_consuming_protections");
+  public get topCpuConsumingProtections() {
+    return this._topCpuConsumingProtections;
+  }
+  public putTopCpuConsumingProtections(value: ManagementSimpleClusterIpsSettingsTopCpuConsumingProtections) {
+    this._topCpuConsumingProtections.internalValue = value;
+  }
+  public resetTopCpuConsumingProtections() {
+    this._topCpuConsumingProtections.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get topCpuConsumingProtectionsInput() {
+    return this._topCpuConsumingProtections.internalValue;
+  }
+}
 export interface ManagementSimpleClusterMembersInterfaces {
   /**
   * IPv4 address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#ipv4_address ManagementSimpleCluster#ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#ipv4_address ManagementSimpleCluster#ipv4_address}
   */
   readonly ipv4Address?: string;
   /**
   * IPv4 network mask length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#ipv4_mask_length ManagementSimpleCluster#ipv4_mask_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#ipv4_mask_length ManagementSimpleCluster#ipv4_mask_length}
   */
   readonly ipv4MaskLength?: string;
   /**
   * IPv4 network address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#ipv4_network_mask ManagementSimpleCluster#ipv4_network_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#ipv4_network_mask ManagementSimpleCluster#ipv4_network_mask}
   */
   readonly ipv4NetworkMask?: string;
   /**
   * IPv6 address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#ipv6_address ManagementSimpleCluster#ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#ipv6_address ManagementSimpleCluster#ipv6_address}
   */
   readonly ipv6Address?: string;
   /**
   * IPv6 network mask length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#ipv6_mask_length ManagementSimpleCluster#ipv6_mask_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#ipv6_mask_length ManagementSimpleCluster#ipv6_mask_length}
   */
   readonly ipv6MaskLength?: string;
   /**
   * IPv6 network address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#ipv6_network_mask ManagementSimpleCluster#ipv6_network_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#ipv6_network_mask ManagementSimpleCluster#ipv6_network_mask}
   */
   readonly ipv6NetworkMask?: string;
   /**
   * Object name. Should be unique in the domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#name ManagementSimpleCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#name ManagementSimpleCluster#name}
   */
   readonly name: string;
 }
@@ -6321,25 +6849,25 @@ export interface ManagementSimpleClusterMembers {
   /**
   * IPv4 or IPv6 address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#ip_address ManagementSimpleCluster#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#ip_address ManagementSimpleCluster#ip_address}
   */
   readonly ipAddress?: string;
   /**
   * Object name. Should be unique in the domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#name ManagementSimpleCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#name ManagementSimpleCluster#name}
   */
   readonly name: string;
   /**
   * SIC one time password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#one_time_password ManagementSimpleCluster#one_time_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#one_time_password ManagementSimpleCluster#one_time_password}
   */
   readonly oneTimePassword?: string;
   /**
   * interfaces block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#interfaces ManagementSimpleCluster#interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#interfaces ManagementSimpleCluster#interfaces}
   */
   readonly interfaces?: ManagementSimpleClusterMembersInterfaces[] | cdktf.IResolvable;
 }
@@ -6556,19 +7084,19 @@ export interface ManagementSimpleClusterPlatformPortalSettingsAccessibilityInter
   /**
   * Controls portal access settings for internal interfaces, whose topology is set to 'DMZ'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#dmz ManagementSimpleCluster#dmz}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#dmz ManagementSimpleCluster#dmz}
   */
   readonly dmz?: boolean | cdktf.IResolvable;
   /**
   * Controls portal access settings for internal interfaces, whose topology is set to 'Undefined'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#undefined ManagementSimpleCluster#undefined}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#undefined ManagementSimpleCluster#undefined}
   */
   readonly undefined?: boolean | cdktf.IResolvable;
   /**
   * Controls portal access settings for interfaces that are part of a VPN Encryption Domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#vpn ManagementSimpleCluster#vpn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#vpn ManagementSimpleCluster#vpn}
   */
   readonly vpn?: boolean | cdktf.IResolvable;
 }
@@ -6712,13 +7240,13 @@ export interface ManagementSimpleClusterPlatformPortalSettingsAccessibility {
   /**
   * Allowed access to the web portal (based on interfaces, or security policy).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#allow_access_from ManagementSimpleCluster#allow_access_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#allow_access_from ManagementSimpleCluster#allow_access_from}
   */
   readonly allowAccessFrom?: string;
   /**
   * internal_access_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#internal_access_settings ManagementSimpleCluster#internal_access_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#internal_access_settings ManagementSimpleCluster#internal_access_settings}
   */
   readonly internalAccessSettings?: ManagementSimpleClusterPlatformPortalSettingsAccessibilityInternalAccessSettings;
 }
@@ -6833,13 +7361,13 @@ export interface ManagementSimpleClusterPlatformPortalSettingsCertificateSetting
   /**
   * The certificate file encoded in Base64 with padding.  This file must be in the *.p12 format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#base64_certificate ManagementSimpleCluster#base64_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#base64_certificate ManagementSimpleCluster#base64_certificate}
   */
   readonly base64Certificate?: string;
   /**
   * Password (encoded in Base64 with padding) for the certificate file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#base64_password ManagementSimpleCluster#base64_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#base64_password ManagementSimpleCluster#base64_password}
   */
   readonly base64Password?: string;
 }
@@ -6954,13 +7482,13 @@ export interface ManagementSimpleClusterPlatformPortalSettingsPortalWebSettings 
   /**
   * List of URL aliases that are redirected to the main portal URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#aliases ManagementSimpleCluster#aliases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#aliases ManagementSimpleCluster#aliases}
   */
   readonly aliases?: string[];
   /**
   * The main URL for the web portal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#main_url ManagementSimpleCluster#main_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#main_url ManagementSimpleCluster#main_url}
   */
   readonly mainUrl?: string;
 }
@@ -7075,19 +7603,19 @@ export interface ManagementSimpleClusterPlatformPortalSettings {
   /**
   * accessibility block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#accessibility ManagementSimpleCluster#accessibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#accessibility ManagementSimpleCluster#accessibility}
   */
   readonly accessibility?: ManagementSimpleClusterPlatformPortalSettingsAccessibility;
   /**
   * certificate_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#certificate_settings ManagementSimpleCluster#certificate_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#certificate_settings ManagementSimpleCluster#certificate_settings}
   */
   readonly certificateSettings?: ManagementSimpleClusterPlatformPortalSettingsCertificateSettings;
   /**
   * portal_web_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#portal_web_settings ManagementSimpleCluster#portal_web_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#portal_web_settings ManagementSimpleCluster#portal_web_settings}
   */
   readonly portalWebSettings?: ManagementSimpleClusterPlatformPortalSettingsPortalWebSettings;
 }
@@ -7231,19 +7759,19 @@ export interface ManagementSimpleClusterUsercheckPortalSettingsAccessibilityInte
   /**
   * Controls portal access settings for internal interfaces, whose topology is set to 'DMZ'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#dmz ManagementSimpleCluster#dmz}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#dmz ManagementSimpleCluster#dmz}
   */
   readonly dmz?: boolean | cdktf.IResolvable;
   /**
   * Controls portal access settings for internal interfaces, whose topology is set to 'Undefined'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#undefined ManagementSimpleCluster#undefined}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#undefined ManagementSimpleCluster#undefined}
   */
   readonly undefined?: boolean | cdktf.IResolvable;
   /**
   * Controls portal access settings for interfaces that are part of a VPN Encryption Domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#vpn ManagementSimpleCluster#vpn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#vpn ManagementSimpleCluster#vpn}
   */
   readonly vpn?: boolean | cdktf.IResolvable;
 }
@@ -7387,13 +7915,13 @@ export interface ManagementSimpleClusterUsercheckPortalSettingsAccessibility {
   /**
   * Allowed access to the web portal (based on interfaces, or security policy).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#allow_access_from ManagementSimpleCluster#allow_access_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#allow_access_from ManagementSimpleCluster#allow_access_from}
   */
   readonly allowAccessFrom?: string;
   /**
   * internal_access_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#internal_access_settings ManagementSimpleCluster#internal_access_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#internal_access_settings ManagementSimpleCluster#internal_access_settings}
   */
   readonly internalAccessSettings?: ManagementSimpleClusterUsercheckPortalSettingsAccessibilityInternalAccessSettings;
 }
@@ -7508,13 +8036,13 @@ export interface ManagementSimpleClusterUsercheckPortalSettingsCertificateSettin
   /**
   * The certificate file encoded in Base64 with padding.  This file must be in the *.p12 format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#base64_certificate ManagementSimpleCluster#base64_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#base64_certificate ManagementSimpleCluster#base64_certificate}
   */
   readonly base64Certificate?: string;
   /**
   * Password (encoded in Base64 with padding) for the certificate file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#base64_password ManagementSimpleCluster#base64_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#base64_password ManagementSimpleCluster#base64_password}
   */
   readonly base64Password?: string;
 }
@@ -7629,13 +8157,13 @@ export interface ManagementSimpleClusterUsercheckPortalSettingsPortalWebSettings
   /**
   * List of URL aliases that are redirected to the main portal URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#aliases ManagementSimpleCluster#aliases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#aliases ManagementSimpleCluster#aliases}
   */
   readonly aliases?: string[];
   /**
   * The main URL for the web portal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#main_url ManagementSimpleCluster#main_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#main_url ManagementSimpleCluster#main_url}
   */
   readonly mainUrl?: string;
 }
@@ -7750,25 +8278,25 @@ export interface ManagementSimpleClusterUsercheckPortalSettings {
   /**
   * State of the web portal (enabled or disabled). The supported blades are: {'Application Control', 'URL Filtering', 'Data Loss Prevention', 'Anti Virus', 'Anti Bot', 'Threat Emulation', 'Threat Extraction', 'Data Awareness'}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#enabled ManagementSimpleCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#enabled ManagementSimpleCluster#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * accessibility block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#accessibility ManagementSimpleCluster#accessibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#accessibility ManagementSimpleCluster#accessibility}
   */
   readonly accessibility?: ManagementSimpleClusterUsercheckPortalSettingsAccessibility;
   /**
   * certificate_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#certificate_settings ManagementSimpleCluster#certificate_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#certificate_settings ManagementSimpleCluster#certificate_settings}
   */
   readonly certificateSettings?: ManagementSimpleClusterUsercheckPortalSettingsCertificateSettings;
   /**
   * portal_web_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#portal_web_settings ManagementSimpleCluster#portal_web_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#portal_web_settings ManagementSimpleCluster#portal_web_settings}
   */
   readonly portalWebSettings?: ManagementSimpleClusterUsercheckPortalSettingsPortalWebSettings;
 }
@@ -7939,7 +8467,7 @@ export class ManagementSimpleClusterUsercheckPortalSettingsOutputReference exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster checkpoint_management_simple_cluster}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster checkpoint_management_simple_cluster}
 */
 export class ManagementSimpleCluster extends cdktf.TerraformResource {
 
@@ -7955,7 +8483,7 @@ export class ManagementSimpleCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementSimpleCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementSimpleCluster to import
-  * @param importFromId The id of the existing ManagementSimpleCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementSimpleCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementSimpleCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -7967,7 +8495,7 @@ export class ManagementSimpleCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_simple_cluster checkpoint_management_simple_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_simple_cluster checkpoint_management_simple_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -7978,7 +8506,8 @@ export class ManagementSimpleCluster extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_simple_cluster',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -8033,6 +8562,7 @@ export class ManagementSimpleCluster extends cdktf.TerraformResource {
     this._httpsInspection.internalValue = config.httpsInspection;
     this._identityAwarenessSettings.internalValue = config.identityAwarenessSettings;
     this._interfaces.internalValue = config.interfaces;
+    this._ipsSettings.internalValue = config.ipsSettings;
     this._members.internalValue = config.members;
     this._platformPortalSettings.internalValue = config.platformPortalSettings;
     this._usercheckPortalSettings.internalValue = config.usercheckPortalSettings;
@@ -8774,6 +9304,22 @@ export class ManagementSimpleCluster extends cdktf.TerraformResource {
     return this._interfaces.internalValue;
   }
 
+  // ips_settings - computed: false, optional: true, required: false
+  private _ipsSettings = new ManagementSimpleClusterIpsSettingsOutputReference(this, "ips_settings");
+  public get ipsSettings() {
+    return this._ipsSettings;
+  }
+  public putIpsSettings(value: ManagementSimpleClusterIpsSettings) {
+    this._ipsSettings.internalValue = value;
+  }
+  public resetIpsSettings() {
+    this._ipsSettings.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipsSettingsInput() {
+    return this._ipsSettings.internalValue;
+  }
+
   // members - computed: false, optional: true, required: false
   private _members = new ManagementSimpleClusterMembersList(this, "members", false);
   public get members() {
@@ -8873,6 +9419,7 @@ export class ManagementSimpleCluster extends cdktf.TerraformResource {
       https_inspection: managementSimpleClusterHttpsInspectionToTerraform(this._httpsInspection.internalValue),
       identity_awareness_settings: managementSimpleClusterIdentityAwarenessSettingsToTerraform(this._identityAwarenessSettings.internalValue),
       interfaces: cdktf.listMapper(managementSimpleClusterInterfacesToTerraform, true)(this._interfaces.internalValue),
+      ips_settings: managementSimpleClusterIpsSettingsToTerraform(this._ipsSettings.internalValue),
       members: cdktf.listMapper(managementSimpleClusterMembersToTerraform, true)(this._members.internalValue),
       platform_portal_settings: managementSimpleClusterPlatformPortalSettingsToTerraform(this._platformPortalSettings.internalValue),
       usercheck_portal_settings: managementSimpleClusterUsercheckPortalSettingsToTerraform(this._usercheckPortalSettings.internalValue),
@@ -9150,6 +9697,12 @@ export class ManagementSimpleCluster extends cdktf.TerraformResource {
         isBlock: true,
         type: "list",
         storageClassType: "ManagementSimpleClusterInterfacesList",
+      },
+      ips_settings: {
+        value: managementSimpleClusterIpsSettingsToHclTerraform(this._ipsSettings.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "ManagementSimpleClusterIpsSettingsList",
       },
       members: {
         value: cdktf.listMapperHcl(managementSimpleClusterMembersToHclTerraform, true)(this._members.internalValue),

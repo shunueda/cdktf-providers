@@ -343,7 +343,8 @@ export class Webhook extends cdktf.TerraformResource {
       terraformResourceType: 'pact_webhook',
       terraformGeneratorMetadata: {
         providerName: 'pact',
-        providerVersion: '0.10.0'
+        providerVersion: '0.10.0',
+        providerVersionConstraint: '0.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

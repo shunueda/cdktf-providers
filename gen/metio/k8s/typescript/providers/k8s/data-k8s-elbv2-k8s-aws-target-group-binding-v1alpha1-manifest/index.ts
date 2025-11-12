@@ -1311,7 +1311,8 @@ export class DataK8SElbv2K8SAwsTargetGroupBindingV1Alpha1Manifest extends cdktf.
       terraformResourceType: 'k8s_elbv2_k8s_aws_target_group_binding_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

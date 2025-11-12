@@ -2593,7 +2593,8 @@ export class CapabilityAdapterDeprecatedDef extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_capability_adapter_deprecated_def',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

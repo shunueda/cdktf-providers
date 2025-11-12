@@ -1454,7 +1454,8 @@ export class Lifecycle extends cdktf.TerraformResource {
       terraformResourceType: 'cml2_lifecycle',
       terraformGeneratorMetadata: {
         providerName: 'cml2',
-        providerVersion: '0.8.5'
+        providerVersion: '0.8.5',
+        providerVersionConstraint: '0.8.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

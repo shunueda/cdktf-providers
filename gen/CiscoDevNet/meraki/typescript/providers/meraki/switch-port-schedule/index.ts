@@ -187,7 +187,8 @@ export class SwitchPortSchedule extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_switch_port_schedule',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1'
+        providerVersion: '1.7.1',
+        providerVersionConstraint: '1.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

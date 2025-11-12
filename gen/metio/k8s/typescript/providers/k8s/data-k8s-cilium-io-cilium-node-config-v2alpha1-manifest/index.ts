@@ -694,7 +694,8 @@ export class DataK8SCiliumIoCiliumNodeConfigV2Alpha1Manifest extends cdktf.Terra
       terraformResourceType: 'k8s_cilium_io_cilium_node_config_v2alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

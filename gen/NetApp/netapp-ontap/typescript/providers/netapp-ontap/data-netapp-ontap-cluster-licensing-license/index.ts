@@ -216,7 +216,8 @@ export class DataNetappOntapClusterLicensingLicense extends cdktf.TerraformDataS
       terraformResourceType: 'netapp-ontap_cluster_licensing_license',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0'
+        providerVersion: '2.3.0',
+        providerVersionConstraint: '2.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

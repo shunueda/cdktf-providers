@@ -941,7 +941,8 @@ export class DataIgnitionLuks extends cdktf.TerraformDataSource {
       terraformResourceType: 'ignition_luks',
       terraformGeneratorMetadata: {
         providerName: 'ignition',
-        providerVersion: '2.5.1'
+        providerVersion: '2.5.1',
+        providerVersionConstraint: '2.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

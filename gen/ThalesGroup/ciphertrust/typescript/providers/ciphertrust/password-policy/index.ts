@@ -122,7 +122,8 @@ export class PasswordPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'ciphertrust_password_policy',
       terraformGeneratorMetadata: {
         providerName: 'ciphertrust',
-        providerVersion: '0.11.3'
+        providerVersion: '0.11.3',
+        providerVersionConstraint: '0.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

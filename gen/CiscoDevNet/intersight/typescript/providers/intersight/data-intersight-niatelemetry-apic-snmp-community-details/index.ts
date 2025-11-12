@@ -4039,7 +4039,8 @@ export class DataIntersightNiatelemetryApicSnmpCommunityDetails extends cdktf.Te
       terraformResourceType: 'intersight_niatelemetry_apic_snmp_community_details',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

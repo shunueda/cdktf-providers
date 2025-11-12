@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance
+// https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,57 +10,57 @@ export interface InstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * A list of SSH public keys to deploy for the root user on the newly created Linode. Only accepted if 'image' is provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#authorized_keys Instance#authorized_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#authorized_keys Instance#authorized_keys}
   */
   readonly authorizedKeys?: string[];
   /**
   * A list of Linode usernames. If the usernames have associated SSH keys, the keys will be appended to the `root` user's `~/.ssh/authorized_keys` file automatically. Only accepted if 'image' is provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#authorized_users Instance#authorized_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#authorized_users Instance#authorized_users}
   */
   readonly authorizedUsers?: string[];
   /**
   * A Backup ID from another Linode's available backups. Your User must have read_write access to that Linode, the Backup must have a status of successful, and the Linode must be deployed to the same region as the Backup. See /linode/instances/{linodeId}/backups for a Linode's available backups. This field and the image field are mutually exclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#backup_id Instance#backup_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#backup_id Instance#backup_id}
   */
   readonly backupId?: number;
   /**
   * If this field is set to true, the created Linode will automatically be enrolled in the Linode Backup service. This will incur an additional charge. The cost for the Backup service is dependent on the Type of Linode deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#backups_enabled Instance#backups_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#backups_enabled Instance#backups_enabled}
   */
   readonly backupsEnabled?: boolean | cdktf.IResolvable;
   /**
   * The Label of the Instance Config that should be used to boot the Linode instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#boot_config_label Instance#boot_config_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#boot_config_label Instance#boot_config_label}
   */
   readonly bootConfigLabel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#booted Instance#booted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#booted Instance#booted}
   */
   readonly booted?: boolean | cdktf.IResolvable;
   /**
   * The disk encryption policy for this Instance. NOTE: Disk encryption may not currently be available to all users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#disk_encryption Instance#disk_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#disk_encryption Instance#disk_encryption}
   */
   readonly diskEncryption?: string;
   /**
   * The ID of the firewall applied to the Linode instance during creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#firewall_id Instance#firewall_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#firewall_id Instance#firewall_id}
   */
   readonly firewallId?: number;
   /**
   * The display group of the Linode instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#group Instance#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#group Instance#group}
   */
   readonly group?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#id Instance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#id Instance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -69,157 +69,157 @@ export interface InstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * An Image ID to deploy the Disk from. Official Linode Images start with linode/, while your Images start with private/. See /images for more information on the Images available for you to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#image Instance#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#image Instance#image}
   */
   readonly image?: string;
   /**
   * Specifies the interface type for the Linode. The default value is determined by the interfaces_for_new_linodes setting in the account settings. If the interface_generation option is set to linode, legacy configuration interfaces can no longer be used on the Linode. NOTE: Linode Interfaces may not currently be available to all users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#interface_generation Instance#interface_generation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#interface_generation Instance#interface_generation}
   */
   readonly interfaceGeneration?: string;
   /**
   * This Linode's IPv4 Addresses. Each Linode is assigned a single public IPv4 address upon creation, and may get a single private IPv4 address if needed. You could pass a reserved IPv4 address here to create a linode with a particular reserved IP address. You may need to open a support ticket to get additional IPv4 addresses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#ipv4 Instance#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#ipv4 Instance#ipv4}
   */
   readonly ipv4?: string[];
   /**
   * The Linode's label is for display purposes only. If no label is provided for a Linode, a default will be assigned
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#label Instance#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#label Instance#label}
   */
   readonly label?: string;
   /**
   * This is the maintenance type of the Linode instance. If not provided, the default policy of the account will be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#maintenance_policy Instance#maintenance_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#maintenance_policy Instance#maintenance_policy}
   */
   readonly maintenancePolicy?: string;
   /**
   * The type of migration to use for resize and migration operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#migration_type Instance#migration_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#migration_type Instance#migration_type}
   */
   readonly migrationType?: string;
   /**
   * Whether Network Helper should be enabled for this instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#network_helper Instance#network_helper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#network_helper Instance#network_helper}
   */
   readonly networkHelper?: boolean | cdktf.IResolvable;
   /**
   * If true, this placement group's assignment is externally managed and will NOT be updated by this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#placement_group_externally_managed Instance#placement_group_externally_managed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#placement_group_externally_managed Instance#placement_group_externally_managed}
   */
   readonly placementGroupExternallyManaged?: boolean | cdktf.IResolvable;
   /**
   * If true, the created Linode will have private networking enabled, allowing use of the 192.168.128.0/17 network within the Linode's region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#private_ip Instance#private_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#private_ip Instance#private_ip}
   */
   readonly privateIp?: boolean | cdktf.IResolvable;
   /**
   * This is the location where the Linode was deployed. This cannot be changed without opening a support ticket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#region Instance#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#region Instance#region}
   */
   readonly region: string;
   /**
   * If true, changes in Linode type will attempt to upsize or downsize implicitly created disks. This must be false if explicit disks are defined. This is an irreversible action as Linode disks cannot be automatically downsized.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#resize_disk Instance#resize_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#resize_disk Instance#resize_disk}
   */
   readonly resizeDisk?: boolean | cdktf.IResolvable;
   /**
   * The password that will be initially assigned to the 'root' user account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#root_pass Instance#root_pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#root_pass Instance#root_pass}
   */
   readonly rootPass?: string;
   /**
   * A set of IPv4 addresses to share with this Linode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#shared_ipv4 Instance#shared_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#shared_ipv4 Instance#shared_ipv4}
   */
   readonly sharedIpv4?: string[];
   /**
   * An object containing responses to any User Defined Fields present in the StackScript being deployed to this Linode. Only accepted if 'stackscript_id' is given. The required values depend on the StackScript being deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#stackscript_data Instance#stackscript_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#stackscript_data Instance#stackscript_data}
   */
   readonly stackscriptData?: { [key: string]: string };
   /**
   * The StackScript to deploy to the newly created Linode. If provided, 'image' must also be provided, and must be an Image that is compatible with this StackScript.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#stackscript_id Instance#stackscript_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#stackscript_id Instance#stackscript_id}
   */
   readonly stackscriptId?: number;
   /**
   * When deploying from an Image, this field is optional with a Linode API default of 512mb, otherwise it is ignored. This is used to set the swap disk size for the newly-created Linode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#swap_size Instance#swap_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#swap_size Instance#swap_size}
   */
   readonly swapSize?: number;
   /**
   * An array of tags applied to this object. Tags are for organizational purposes only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#tags Instance#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#tags Instance#tags}
   */
   readonly tags?: string[];
   /**
   * The type of instance to be deployed, determining the price and size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#type Instance#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#type Instance#type}
   */
   readonly type?: string;
   /**
   * The watchdog, named Lassie, is a Shutdown Watchdog that monitors your Linode and will reboot it if it powers off unexpectedly. It works by issuing a boot job when your Linode powers off without a shutdown job being responsible. To prevent a loop, Lassie will give up if there have been more than 5 boot jobs issued within 15 minutes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#watchdog_enabled Instance#watchdog_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#watchdog_enabled Instance#watchdog_enabled}
   */
   readonly watchdogEnabled?: boolean | cdktf.IResolvable;
   /**
   * alerts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#alerts Instance#alerts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#alerts Instance#alerts}
   */
   readonly alerts?: InstanceAlerts;
   /**
   * config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#config Instance#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#config Instance#config}
   */
   readonly config?: InstanceConfigA[] | cdktf.IResolvable;
   /**
   * disk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#disk Instance#disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#disk Instance#disk}
   */
   readonly disk?: InstanceDisk[] | cdktf.IResolvable;
   /**
   * interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#interface Instance#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#interface Instance#interface}
   */
   readonly interface?: InstanceInterface[] | cdktf.IResolvable;
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#metadata Instance#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#metadata Instance#metadata}
   */
   readonly metadata?: InstanceMetadata[] | cdktf.IResolvable;
   /**
   * placement_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#placement_group Instance#placement_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#placement_group Instance#placement_group}
   */
   readonly placementGroup?: InstancePlacementGroup;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#timeouts Instance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#timeouts Instance#timeouts}
   */
   readonly timeouts?: InstanceTimeouts;
 }
@@ -493,31 +493,31 @@ export interface InstanceAlerts {
   /**
   * The percentage of CPU usage required to trigger an alert. If the average CPU usage over two hours exceeds this value, we'll send you an alert. If this is set to 0, the alert is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#cpu Instance#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#cpu Instance#cpu}
   */
   readonly cpu?: number;
   /**
   * The amount of disk IO operation per second required to trigger an alert. If the average disk IO over two hours exceeds this value, we'll send you an alert. If set to 0, this alert is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#io Instance#io}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#io Instance#io}
   */
   readonly io?: number;
   /**
   * The amount of incoming traffic, in Mbit/s, required to trigger an alert. If the average incoming traffic over two hours exceeds this value, we'll send you an alert. If this is set to 0 (zero), the alert is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#network_in Instance#network_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#network_in Instance#network_in}
   */
   readonly networkIn?: number;
   /**
   * The amount of outbound traffic, in Mbit/s, required to trigger an alert. If the average outbound traffic over two hours exceeds this value, we'll send you an alert. If this is set to 0 (zero), the alert is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#network_out Instance#network_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#network_out Instance#network_out}
   */
   readonly networkOut?: number;
   /**
   * The percentage of network transfer that may be used before an alert is triggered. When this value is exceeded, we'll alert you. If this is set to 0 (zero), the alert is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#transfer_quota Instance#transfer_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#transfer_quota Instance#transfer_quota}
   */
   readonly transferQuota?: number;
 }
@@ -719,19 +719,19 @@ export interface InstanceConfigDevicesSda {
   /**
   * The Disk ID to map to this disk slot
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#disk_id Instance#disk_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#disk_id Instance#disk_id}
   */
   readonly diskId?: number;
   /**
   * The `label` of the `disk` to map to this `device` slot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#disk_label Instance#disk_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#disk_label Instance#disk_label}
   */
   readonly diskLabel?: string;
   /**
   * The Block Storage volume ID to map to this disk slot
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#volume_id Instance#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#volume_id Instance#volume_id}
   */
   readonly volumeId?: number;
 }
@@ -875,19 +875,19 @@ export interface InstanceConfigDevicesSdb {
   /**
   * The Disk ID to map to this disk slot
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#disk_id Instance#disk_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#disk_id Instance#disk_id}
   */
   readonly diskId?: number;
   /**
   * The `label` of the `disk` to map to this `device` slot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#disk_label Instance#disk_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#disk_label Instance#disk_label}
   */
   readonly diskLabel?: string;
   /**
   * The Block Storage volume ID to map to this disk slot
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#volume_id Instance#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#volume_id Instance#volume_id}
   */
   readonly volumeId?: number;
 }
@@ -1031,19 +1031,19 @@ export interface InstanceConfigDevicesSdc {
   /**
   * The Disk ID to map to this disk slot
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#disk_id Instance#disk_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#disk_id Instance#disk_id}
   */
   readonly diskId?: number;
   /**
   * The `label` of the `disk` to map to this `device` slot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#disk_label Instance#disk_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#disk_label Instance#disk_label}
   */
   readonly diskLabel?: string;
   /**
   * The Block Storage volume ID to map to this disk slot
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#volume_id Instance#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#volume_id Instance#volume_id}
   */
   readonly volumeId?: number;
 }
@@ -1187,19 +1187,19 @@ export interface InstanceConfigDevicesSdd {
   /**
   * The Disk ID to map to this disk slot
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#disk_id Instance#disk_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#disk_id Instance#disk_id}
   */
   readonly diskId?: number;
   /**
   * The `label` of the `disk` to map to this `device` slot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#disk_label Instance#disk_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#disk_label Instance#disk_label}
   */
   readonly diskLabel?: string;
   /**
   * The Block Storage volume ID to map to this disk slot
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#volume_id Instance#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#volume_id Instance#volume_id}
   */
   readonly volumeId?: number;
 }
@@ -1343,19 +1343,19 @@ export interface InstanceConfigDevicesSde {
   /**
   * The Disk ID to map to this disk slot
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#disk_id Instance#disk_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#disk_id Instance#disk_id}
   */
   readonly diskId?: number;
   /**
   * The `label` of the `disk` to map to this `device` slot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#disk_label Instance#disk_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#disk_label Instance#disk_label}
   */
   readonly diskLabel?: string;
   /**
   * The Block Storage volume ID to map to this disk slot
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#volume_id Instance#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#volume_id Instance#volume_id}
   */
   readonly volumeId?: number;
 }
@@ -1499,19 +1499,19 @@ export interface InstanceConfigDevicesSdf {
   /**
   * The Disk ID to map to this disk slot
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#disk_id Instance#disk_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#disk_id Instance#disk_id}
   */
   readonly diskId?: number;
   /**
   * The `label` of the `disk` to map to this `device` slot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#disk_label Instance#disk_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#disk_label Instance#disk_label}
   */
   readonly diskLabel?: string;
   /**
   * The Block Storage volume ID to map to this disk slot
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#volume_id Instance#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#volume_id Instance#volume_id}
   */
   readonly volumeId?: number;
 }
@@ -1655,19 +1655,19 @@ export interface InstanceConfigDevicesSdg {
   /**
   * The Disk ID to map to this disk slot
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#disk_id Instance#disk_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#disk_id Instance#disk_id}
   */
   readonly diskId?: number;
   /**
   * The `label` of the `disk` to map to this `device` slot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#disk_label Instance#disk_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#disk_label Instance#disk_label}
   */
   readonly diskLabel?: string;
   /**
   * The Block Storage volume ID to map to this disk slot
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#volume_id Instance#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#volume_id Instance#volume_id}
   */
   readonly volumeId?: number;
 }
@@ -1811,19 +1811,19 @@ export interface InstanceConfigDevicesSdh {
   /**
   * The Disk ID to map to this disk slot
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#disk_id Instance#disk_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#disk_id Instance#disk_id}
   */
   readonly diskId?: number;
   /**
   * The `label` of the `disk` to map to this `device` slot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#disk_label Instance#disk_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#disk_label Instance#disk_label}
   */
   readonly diskLabel?: string;
   /**
   * The Block Storage volume ID to map to this disk slot
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#volume_id Instance#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#volume_id Instance#volume_id}
   */
   readonly volumeId?: number;
 }
@@ -1967,49 +1967,49 @@ export interface InstanceConfigDevices {
   /**
   * sda block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#sda Instance#sda}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#sda Instance#sda}
   */
   readonly sda?: InstanceConfigDevicesSda;
   /**
   * sdb block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#sdb Instance#sdb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#sdb Instance#sdb}
   */
   readonly sdb?: InstanceConfigDevicesSdb;
   /**
   * sdc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#sdc Instance#sdc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#sdc Instance#sdc}
   */
   readonly sdc?: InstanceConfigDevicesSdc;
   /**
   * sdd block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#sdd Instance#sdd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#sdd Instance#sdd}
   */
   readonly sdd?: InstanceConfigDevicesSdd;
   /**
   * sde block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#sde Instance#sde}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#sde Instance#sde}
   */
   readonly sde?: InstanceConfigDevicesSde;
   /**
   * sdf block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#sdf Instance#sdf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#sdf Instance#sdf}
   */
   readonly sdf?: InstanceConfigDevicesSdf;
   /**
   * sdg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#sdg Instance#sdg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#sdg Instance#sdg}
   */
   readonly sdg?: InstanceConfigDevicesSdg;
   /**
   * sdh block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#sdh Instance#sdh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#sdh Instance#sdh}
   */
   readonly sdh?: InstanceConfigDevicesSdh;
 }
@@ -2298,31 +2298,31 @@ export interface InstanceConfigHelpers {
   /**
   * Populates the /dev directory early during boot without udev. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#devtmpfs_automount Instance#devtmpfs_automount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#devtmpfs_automount Instance#devtmpfs_automount}
   */
   readonly devtmpfsAutomount?: boolean | cdktf.IResolvable;
   /**
   * Controls the behavior of the Linode Config's Distribution Helper setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#distro Instance#distro}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#distro Instance#distro}
   */
   readonly distro?: boolean | cdktf.IResolvable;
   /**
   * Creates a modules dependency file for the Kernel you run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#modules_dep Instance#modules_dep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#modules_dep Instance#modules_dep}
   */
   readonly modulesDep?: boolean | cdktf.IResolvable;
   /**
   * Controls the behavior of the Linode Config's Network Helper setting, used to automatically configure additional IP addresses assigned to this instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#network Instance#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#network Instance#network}
   */
   readonly network?: boolean | cdktf.IResolvable;
   /**
   * Disables updatedb cron job to avoid disk thrashing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#updatedb_disabled Instance#updatedb_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#updatedb_disabled Instance#updatedb_disabled}
   */
   readonly updatedbDisabled?: boolean | cdktf.IResolvable;
 }
@@ -2524,13 +2524,13 @@ export interface InstanceConfigInterfaceIpv4 {
   /**
   * The public IP that will be used for the one-to-one NAT purpose.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#nat_1_1 Instance#nat_1_1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#nat_1_1 Instance#nat_1_1}
   */
   readonly nat11?: string;
   /**
   * The IP from the VPC subnet to use for this interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#vpc Instance#vpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#vpc Instance#vpc}
   */
   readonly vpc?: string;
 }
@@ -2645,7 +2645,7 @@ export interface InstanceConfigInterfaceIpv6Range {
   /**
   * A prefix to add to this interface, or `auto` for a new IPv6 prefix to be automatically allocated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#range Instance#range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#range Instance#range}
   */
   readonly range?: string;
 }
@@ -2768,7 +2768,7 @@ export interface InstanceConfigInterfaceIpv6Slaac {
   /**
   * A SLAAC prefix to add to this interface, or `auto` for a new IPv6 prefix to be automatically allocated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#range Instance#range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#range Instance#range}
   */
   readonly range?: string;
 }
@@ -2896,19 +2896,19 @@ export interface InstanceConfigInterfaceIpv6 {
   /**
   * If true, connections from the interface to IPv6 addresses outside the VPC, and connections from IPv6 addresses outside the VPC to the interface will be permitted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#is_public Instance#is_public}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#is_public Instance#is_public}
   */
   readonly isPublic?: boolean | cdktf.IResolvable;
   /**
   * range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#range Instance#range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#range Instance#range}
   */
   readonly range?: InstanceConfigInterfaceIpv6Range[] | cdktf.IResolvable;
   /**
   * slaac block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#slaac Instance#slaac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#slaac Instance#slaac}
   */
   readonly slaac?: InstanceConfigInterfaceIpv6Slaac[] | cdktf.IResolvable;
 }
@@ -3052,49 +3052,49 @@ export interface InstanceConfigInterface {
   /**
   * List of VPC IPs or IP ranges inside the VPC subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#ip_ranges Instance#ip_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#ip_ranges Instance#ip_ranges}
   */
   readonly ipRanges?: string[];
   /**
   * This Network Interface's private IP address in Classless Inter-Domain Routing (CIDR) notation.This attribute is only allowed for VLAN interfaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#ipam_address Instance#ipam_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#ipam_address Instance#ipam_address}
   */
   readonly ipamAddress?: string;
   /**
   * The name of the VALN. This attribute is required for VLAN interfaces. This attribute is only allowed for VLAN interfaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#label Instance#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#label Instance#label}
   */
   readonly label?: string;
   /**
   * Whether the interface is the primary interface that should have the default route for this Linode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#primary Instance#primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#primary Instance#primary}
   */
   readonly primary?: boolean | cdktf.IResolvable;
   /**
   * The type of interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#purpose Instance#purpose}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#purpose Instance#purpose}
   */
   readonly purpose: string;
   /**
   * The ID of the subnet which the VPC interface is connected to.This attribute is required for VPC interfaces.This attribute is only allowed for VPC interfaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#subnet_id Instance#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#subnet_id Instance#subnet_id}
   */
   readonly subnetId?: number;
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#ipv4 Instance#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#ipv4 Instance#ipv4}
   */
   readonly ipv4?: InstanceConfigInterfaceIpv4;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#ipv6 Instance#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#ipv6 Instance#ipv6}
   */
   readonly ipv6?: InstanceConfigInterfaceIpv6;
 }
@@ -3427,61 +3427,61 @@ export interface InstanceConfigA {
   /**
   * Optional field for arbitrary User comments on this Config.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#comments Instance#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#comments Instance#comments}
   */
   readonly comments?: string;
   /**
   * A Kernel ID to boot a Linode with. Default is based on image choice. (examples: linode/latest-64bit, linode/grub2, linode/direct-disk)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#kernel Instance#kernel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#kernel Instance#kernel}
   */
   readonly kernel?: string;
   /**
   * The Config's label for display purposes.  Also used by `boot_config_label`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#label Instance#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#label Instance#label}
   */
   readonly label: string;
   /**
   * Defaults to the total RAM of the Linode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#memory_limit Instance#memory_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#memory_limit Instance#memory_limit}
   */
   readonly memoryLimit?: number;
   /**
   * The root device to boot. The corresponding disk must be attached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#root_device Instance#root_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#root_device Instance#root_device}
   */
   readonly rootDevice?: string;
   /**
   * Defines the state of your Linode after booting. Defaults to default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#run_level Instance#run_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#run_level Instance#run_level}
   */
   readonly runLevel?: string;
   /**
   * Controls the virtualization mode. Defaults to paravirt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#virt_mode Instance#virt_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#virt_mode Instance#virt_mode}
   */
   readonly virtMode?: string;
   /**
   * devices block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#devices Instance#devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#devices Instance#devices}
   */
   readonly devices?: InstanceConfigDevices;
   /**
   * helpers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#helpers Instance#helpers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#helpers Instance#helpers}
   */
   readonly helpers?: InstanceConfigHelpers;
   /**
   * interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#interface Instance#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#interface Instance#interface}
   */
   readonly interface?: InstanceConfigInterface[] | cdktf.IResolvable;
 }
@@ -3862,61 +3862,61 @@ export interface InstanceDisk {
   /**
   * A list of SSH public keys to deploy for the root user on the newly created Linode. Only accepted if 'image' is provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#authorized_keys Instance#authorized_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#authorized_keys Instance#authorized_keys}
   */
   readonly authorizedKeys?: string[];
   /**
   * A list of Linode usernames. If the usernames have associated SSH keys, the keys will be appended to the `root` user's `~/.ssh/authorized_keys` file automatically. Only accepted if 'image' is provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#authorized_users Instance#authorized_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#authorized_users Instance#authorized_users}
   */
   readonly authorizedUsers?: string[];
   /**
   * The Disk filesystem can be one of: raw, swap, ext3, ext4, initrd (max 32mb)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#filesystem Instance#filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#filesystem Instance#filesystem}
   */
   readonly filesystem?: string;
   /**
   * An Image ID to deploy the Disk from. Official Linode Images start with linode/, while your Images start with private/.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#image Instance#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#image Instance#image}
   */
   readonly image?: string;
   /**
   * The disks label, which acts as an identifier in Terraform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#label Instance#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#label Instance#label}
   */
   readonly label: string;
   /**
   * If true, this Disk is read-only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#read_only Instance#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#read_only Instance#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * The password that will be initialially assigned to the 'root' user account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#root_pass Instance#root_pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#root_pass Instance#root_pass}
   */
   readonly rootPass?: string;
   /**
   * The size of the Disk in MB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#size Instance#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#size Instance#size}
   */
   readonly size: number;
   /**
   * An object containing responses to any User Defined Fields present in the StackScript being deployed to this Linode. Only accepted if 'stackscript_id' is given. The required values depend on the StackScript being deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#stackscript_data Instance#stackscript_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#stackscript_data Instance#stackscript_data}
   */
   readonly stackscriptData?: { [key: string]: string };
   /**
   * The StackScript to deploy to the newly created Linode. If provided, 'image' must also be provided, and must be an Image that is compatible with this StackScript.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#stackscript_id Instance#stackscript_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#stackscript_id Instance#stackscript_id}
   */
   readonly stackscriptId?: number;
 }
@@ -4294,13 +4294,13 @@ export interface InstanceInterfaceIpv4 {
   /**
   * The public IP that will be used for the one-to-one NAT purpose.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#nat_1_1 Instance#nat_1_1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#nat_1_1 Instance#nat_1_1}
   */
   readonly nat11?: string;
   /**
   * The IP from the VPC subnet to use for this interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#vpc Instance#vpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#vpc Instance#vpc}
   */
   readonly vpc?: string;
 }
@@ -4415,7 +4415,7 @@ export interface InstanceInterfaceIpv6Range {
   /**
   * A prefix to add to this interface, or `auto` for a new IPv6 prefix to be automatically allocated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#range Instance#range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#range Instance#range}
   */
   readonly range?: string;
 }
@@ -4538,7 +4538,7 @@ export interface InstanceInterfaceIpv6Slaac {
   /**
   * A SLAAC prefix to add to this interface, or `auto` for a new IPv6 prefix to be automatically allocated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#range Instance#range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#range Instance#range}
   */
   readonly range?: string;
 }
@@ -4666,19 +4666,19 @@ export interface InstanceInterfaceIpv6 {
   /**
   * If true, connections from the interface to IPv6 addresses outside the VPC, and connections from IPv6 addresses outside the VPC to the interface will be permitted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#is_public Instance#is_public}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#is_public Instance#is_public}
   */
   readonly isPublic?: boolean | cdktf.IResolvable;
   /**
   * range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#range Instance#range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#range Instance#range}
   */
   readonly range?: InstanceInterfaceIpv6Range[] | cdktf.IResolvable;
   /**
   * slaac block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#slaac Instance#slaac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#slaac Instance#slaac}
   */
   readonly slaac?: InstanceInterfaceIpv6Slaac[] | cdktf.IResolvable;
 }
@@ -4822,49 +4822,49 @@ export interface InstanceInterface {
   /**
   * List of VPC IPs or IP ranges inside the VPC subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#ip_ranges Instance#ip_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#ip_ranges Instance#ip_ranges}
   */
   readonly ipRanges?: string[];
   /**
   * This Network Interface's private IP address in Classless Inter-Domain Routing (CIDR) notation.This attribute is only allowed for VLAN interfaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#ipam_address Instance#ipam_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#ipam_address Instance#ipam_address}
   */
   readonly ipamAddress?: string;
   /**
   * The name of the VALN. This attribute is required for VLAN interfaces. This attribute is only allowed for VLAN interfaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#label Instance#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#label Instance#label}
   */
   readonly label?: string;
   /**
   * Whether the interface is the primary interface that should have the default route for this Linode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#primary Instance#primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#primary Instance#primary}
   */
   readonly primary?: boolean | cdktf.IResolvable;
   /**
   * The type of interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#purpose Instance#purpose}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#purpose Instance#purpose}
   */
   readonly purpose: string;
   /**
   * The ID of the subnet which the VPC interface is connected to.This attribute is required for VPC interfaces.This attribute is only allowed for VPC interfaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#subnet_id Instance#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#subnet_id Instance#subnet_id}
   */
   readonly subnetId?: number;
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#ipv4 Instance#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#ipv4 Instance#ipv4}
   */
   readonly ipv4?: InstanceInterfaceIpv4;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#ipv6 Instance#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#ipv6 Instance#ipv6}
   */
   readonly ipv6?: InstanceInterfaceIpv6;
 }
@@ -5197,7 +5197,7 @@ export interface InstanceMetadata {
   /**
   * The base64-encoded user-defined data exposed to this instance through the Linode Metadata service. Refer to the base64encode(...) function for information on encoding content for this field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#user_data Instance#user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#user_data Instance#user_data}
   */
   readonly userData?: string;
 }
@@ -5313,13 +5313,13 @@ export class InstanceMetadataList extends cdktf.ComplexList {
 }
 export interface InstancePlacementGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#compliant_only Instance#compliant_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#compliant_only Instance#compliant_only}
   */
   readonly compliantOnly?: boolean | cdktf.IResolvable;
   /**
   * The ID of the Placement Group to assign this Linode to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#id Instance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#id Instance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -5328,7 +5328,7 @@ export interface InstancePlacementGroup {
   /**
   * Whether compliance is strictly enforced by this Placement Group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#placement_group_policy Instance#placement_group_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#placement_group_policy Instance#placement_group_policy}
   */
   readonly placementGroupPolicy?: string;
 }
@@ -5477,15 +5477,15 @@ export class InstancePlacementGroupOutputReference extends cdktf.ComplexObject {
 }
 export interface InstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#create Instance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#create Instance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#delete Instance#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#delete Instance#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#update Instance#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#update Instance#update}
   */
   readonly update?: string;
 }
@@ -5637,7 +5637,7 @@ export class InstanceTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance linode_instance}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance linode_instance}
 */
 export class Instance extends cdktf.TerraformResource {
 
@@ -5653,7 +5653,7 @@ export class Instance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Instance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Instance to import
-  * @param importFromId The id of the existing Instance that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Instance that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Instance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5665,7 +5665,7 @@ export class Instance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance linode_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance linode_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5676,7 +5676,8 @@ export class Instance extends cdktf.TerraformResource {
       terraformResourceType: 'linode_instance',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.5.0'
+        providerVersion: '3.5.1',
+        providerVersionConstraint: '3.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

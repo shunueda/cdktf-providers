@@ -79,7 +79,8 @@ export class CircleciProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'circleci',
       terraformGeneratorMetadata: {
         providerName: 'circleci',
-        providerVersion: '0.6.1'
+        providerVersion: '0.6.1',
+        providerVersionConstraint: '0.6.1'
       },
       terraformProviderSource: 'mrolla/circleci'
     });

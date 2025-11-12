@@ -1210,7 +1210,8 @@ export class MaintenanceWindow extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_maintenance_window',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1'
+        providerVersion: '1.87.1',
+        providerVersionConstraint: '1.87.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

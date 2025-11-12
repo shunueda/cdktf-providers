@@ -141,7 +141,8 @@ export class DataCloudflareContentScanningExpressions extends cdktf.TerraformDat
       terraformResourceType: 'cloudflare_content_scanning_expressions',
       terraformGeneratorMetadata: {
         providerName: 'cloudflare',
-        providerVersion: '5.12.0'
+        providerVersion: '5.12.0',
+        providerVersionConstraint: '5.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

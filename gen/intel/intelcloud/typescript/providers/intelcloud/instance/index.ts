@@ -680,7 +680,8 @@ export class Instance extends cdktf.TerraformResource {
       terraformResourceType: 'intelcloud_instance',
       terraformGeneratorMetadata: {
         providerName: 'intelcloud',
-        providerVersion: '0.0.20'
+        providerVersion: '0.0.20',
+        providerVersionConstraint: '0.0.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

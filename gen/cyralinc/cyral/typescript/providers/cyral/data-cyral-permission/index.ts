@@ -134,7 +134,8 @@ export class DataCyralPermission extends cdktf.TerraformDataSource {
       terraformResourceType: 'cyral_permission',
       terraformGeneratorMetadata: {
         providerName: 'cyral',
-        providerVersion: '4.16.3'
+        providerVersion: '4.16.3',
+        providerVersionConstraint: '4.16.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -193,7 +193,8 @@ export class AppHadoopmrv1 extends cdktf.TerraformResource {
       terraformResourceType: 'sematext_app_hadoopmrv1',
       terraformGeneratorMetadata: {
         providerName: 'sematext',
-        providerVersion: '0.6.3'
+        providerVersion: '0.6.3',
+        providerVersionConstraint: '0.6.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

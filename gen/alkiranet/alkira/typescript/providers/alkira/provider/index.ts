@@ -85,7 +85,8 @@ export class AlkiraProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'alkira',
       terraformGeneratorMetadata: {
         providerName: 'alkira',
-        providerVersion: '1.3.2'
+        providerVersion: '1.3.2',
+        providerVersionConstraint: '1.3.2'
       },
       terraformProviderSource: 'alkiranet/alkira'
     });

@@ -300,7 +300,8 @@ export class SynciqGlobalSettings extends cdktf.TerraformResource {
       terraformResourceType: 'powerscale_synciq_global_settings',
       terraformGeneratorMetadata: {
         providerName: 'powerscale',
-        providerVersion: '1.8.0'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

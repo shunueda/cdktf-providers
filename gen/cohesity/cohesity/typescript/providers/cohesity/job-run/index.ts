@@ -87,7 +87,8 @@ export class JobRun extends cdktf.TerraformResource {
       terraformResourceType: 'cohesity_job_run',
       terraformGeneratorMetadata: {
         providerName: 'cohesity',
-        providerVersion: '2.1.3'
+        providerVersion: '2.1.3',
+        providerVersionConstraint: '2.1.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

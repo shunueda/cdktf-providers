@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_csrftag_binding
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_csrftag_binding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,52 +8,52 @@ import * as cdktf from 'cdktf';
 
 export interface AppfwprofileCsrftagBindingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_csrftag_binding#alertonly AppfwprofileCsrftagBinding#alertonly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_csrftag_binding#alertonly AppfwprofileCsrftagBinding#alertonly}
   */
   readonly alertonly?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_csrftag_binding#comment AppfwprofileCsrftagBinding#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_csrftag_binding#comment AppfwprofileCsrftagBinding#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_csrftag_binding#csrfformactionurl AppfwprofileCsrftagBinding#csrfformactionurl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_csrftag_binding#csrfformactionurl AppfwprofileCsrftagBinding#csrfformactionurl}
   */
   readonly csrfformactionurl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_csrftag_binding#csrftag AppfwprofileCsrftagBinding#csrftag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_csrftag_binding#csrftag AppfwprofileCsrftagBinding#csrftag}
   */
   readonly csrftag: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_csrftag_binding#id AppfwprofileCsrftagBinding#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_csrftag_binding#id AppfwprofileCsrftagBinding#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_csrftag_binding#isautodeployed AppfwprofileCsrftagBinding#isautodeployed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_csrftag_binding#isautodeployed AppfwprofileCsrftagBinding#isautodeployed}
   */
   readonly isautodeployed?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_csrftag_binding#name AppfwprofileCsrftagBinding#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_csrftag_binding#name AppfwprofileCsrftagBinding#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_csrftag_binding#resourceid AppfwprofileCsrftagBinding#resourceid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_csrftag_binding#resourceid AppfwprofileCsrftagBinding#resourceid}
   */
   readonly resourceid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_csrftag_binding#ruletype AppfwprofileCsrftagBinding#ruletype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_csrftag_binding#ruletype AppfwprofileCsrftagBinding#ruletype}
   */
   readonly ruletype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_csrftag_binding#state AppfwprofileCsrftagBinding#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_csrftag_binding#state AppfwprofileCsrftagBinding#state}
   */
   readonly state?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_csrftag_binding citrixadc_appfwprofile_csrftag_binding}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_csrftag_binding citrixadc_appfwprofile_csrftag_binding}
 */
 export class AppfwprofileCsrftagBinding extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class AppfwprofileCsrftagBinding extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AppfwprofileCsrftagBinding resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppfwprofileCsrftagBinding to import
-  * @param importFromId The id of the existing AppfwprofileCsrftagBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_csrftag_binding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppfwprofileCsrftagBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_csrftag_binding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppfwprofileCsrftagBinding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class AppfwprofileCsrftagBinding extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_csrftag_binding citrixadc_appfwprofile_csrftag_binding} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_csrftag_binding citrixadc_appfwprofile_csrftag_binding} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,7 +92,8 @@ export class AppfwprofileCsrftagBinding extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_appfwprofile_csrftag_binding',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

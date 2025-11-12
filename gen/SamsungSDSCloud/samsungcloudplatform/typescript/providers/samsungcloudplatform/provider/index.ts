@@ -103,7 +103,8 @@ export class SamsungcloudplatformProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'samsungcloudplatform',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0'
+        providerVersion: '3.15.0',
+        providerVersionConstraint: '3.15.0'
       },
       terraformProviderSource: 'SamsungSDSCloud/samsungcloudplatform'
     });

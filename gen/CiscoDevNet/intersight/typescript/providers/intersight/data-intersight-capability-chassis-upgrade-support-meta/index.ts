@@ -3715,7 +3715,8 @@ export class DataIntersightCapabilityChassisUpgradeSupportMeta extends cdktf.Ter
       terraformResourceType: 'intersight_capability_chassis_upgrade_support_meta',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

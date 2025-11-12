@@ -49,7 +49,8 @@ export class DataCloudsigmaProfile extends cdktf.TerraformDataSource {
       terraformResourceType: 'cloudsigma_profile',
       terraformGeneratorMetadata: {
         providerName: 'cloudsigma',
-        providerVersion: '2.9.0'
+        providerVersion: '2.9.0',
+        providerVersionConstraint: '2.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

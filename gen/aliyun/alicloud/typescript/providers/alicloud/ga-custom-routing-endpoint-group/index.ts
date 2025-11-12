@@ -242,7 +242,8 @@ export class GaCustomRoutingEndpointGroup extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_ga_custom_routing_endpoint_group',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

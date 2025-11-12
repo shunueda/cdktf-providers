@@ -147,7 +147,8 @@ export class DataFastlyNgwafRedactions extends cdktf.TerraformDataSource {
       terraformResourceType: 'fastly_ngwaf_redactions',
       terraformGeneratorMetadata: {
         providerName: 'fastly',
-        providerVersion: '8.4.0'
+        providerVersion: '8.4.0',
+        providerVersionConstraint: '8.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

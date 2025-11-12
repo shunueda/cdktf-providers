@@ -481,7 +481,8 @@ export class WirelesscontrollerHotspot20Qosmap extends cdktf.TerraformResource {
       terraformResourceType: 'fmgdevice_wirelesscontroller_hotspot20_qosmap',
       terraformGeneratorMetadata: {
         providerName: 'fmgdevice',
-        providerVersion: '1.2.1'
+        providerVersion: '1.2.1',
+        providerVersionConstraint: '1.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

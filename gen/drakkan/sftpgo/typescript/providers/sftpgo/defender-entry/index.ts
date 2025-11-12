@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/defender_entry
+// https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/defender_entry
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface DefenderEntryConfig extends cdktf.TerraformMetaArguments {
   /**
   * Optional description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/defender_entry#description DefenderEntry#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/defender_entry#description DefenderEntry#description}
   */
   readonly description?: string;
   /**
   * IP address or network in CIDR format, for example "192.168.1.2/32", "192.168.0.0/24", "2001:db8::/32"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/defender_entry#ipornet DefenderEntry#ipornet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/defender_entry#ipornet DefenderEntry#ipornet}
   */
   readonly ipornet: string;
   /**
   * 1 = allow, 2 = deny.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/defender_entry#mode DefenderEntry#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/defender_entry#mode DefenderEntry#mode}
   */
   readonly mode: number;
   /**
   * Defines the protocol the entry applies to. 0 means all the supported protocols, 1 SSH, 2 FTP, 4 WebDAV, 8 HTTP. Protocols can be combined, for example 3 means SSH and FTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/defender_entry#protocols DefenderEntry#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/defender_entry#protocols DefenderEntry#protocols}
   */
   readonly protocols: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/defender_entry sftpgo_defender_entry}
+* Represents a {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/defender_entry sftpgo_defender_entry}
 */
 export class DefenderEntry extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class DefenderEntry extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DefenderEntry resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DefenderEntry to import
-  * @param importFromId The id of the existing DefenderEntry that should be imported. Refer to the {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/defender_entry#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DefenderEntry that should be imported. Refer to the {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/defender_entry#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DefenderEntry to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class DefenderEntry extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/defender_entry sftpgo_defender_entry} Resource
+  * Create a new {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/defender_entry sftpgo_defender_entry} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,7 +73,8 @@ export class DefenderEntry extends cdktf.TerraformResource {
       terraformResourceType: 'sftpgo_defender_entry',
       terraformGeneratorMetadata: {
         providerName: 'sftpgo',
-        providerVersion: '0.0.18'
+        providerVersion: '0.0.19',
+        providerVersionConstraint: '0.0.19'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

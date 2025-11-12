@@ -63,7 +63,8 @@ export class DataFortisaseUsageSecurityDomainThreatFeeds extends cdktf.Terraform
       terraformResourceType: 'fortisase_usage_security_domain_threat_feeds',
       terraformGeneratorMetadata: {
         providerName: 'fortisase',
-        providerVersion: '1.0.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

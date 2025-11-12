@@ -235,7 +235,8 @@ export class GcoreLbmember extends cdktf.TerraformResource {
       terraformResourceType: 'gcore_lbmember',
       terraformGeneratorMetadata: {
         providerName: 'gcorelabs',
-        providerVersion: '0.3.63'
+        providerVersion: '0.3.63',
+        providerVersionConstraint: '0.3.63'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

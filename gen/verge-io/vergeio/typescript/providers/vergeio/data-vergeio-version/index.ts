@@ -49,7 +49,8 @@ export class DataVergeioVersion extends cdktf.TerraformDataSource {
       terraformResourceType: 'vergeio_version',
       terraformGeneratorMetadata: {
         providerName: 'vergeio',
-        providerVersion: '2.7.1'
+        providerVersion: '2.7.1',
+        providerVersionConstraint: '2.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

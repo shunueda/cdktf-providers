@@ -298,7 +298,8 @@ export class DataSdmManagedSecret extends cdktf.TerraformDataSource {
       terraformResourceType: 'sdm_managed_secret',
       terraformGeneratorMetadata: {
         providerName: 'sdm',
-        providerVersion: '15.27.0'
+        providerVersion: '15.27.0',
+        providerVersionConstraint: '15.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_pod_based
+// https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_pod_based
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface TemplatePodBasedConfig extends cdktf.TerraformMetaArguments {
   /**
   * Apstra name of the Pod Based Template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_pod_based#name TemplatePodBased#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_pod_based#name TemplatePodBased#name}
   */
   readonly name: string;
   /**
   * Map of Pod Type info (count + details) keyed by Pod Based Template ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_pod_based#pod_infos TemplatePodBased#pod_infos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_pod_based#pod_infos TemplatePodBased#pod_infos}
   */
   readonly podInfos: { [key: string]: TemplatePodBasedPodInfos } | cdktf.IResolvable;
   /**
   * SuperSpine layer details
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_pod_based#super_spine TemplatePodBased#super_spine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_pod_based#super_spine TemplatePodBased#super_spine}
   */
   readonly superSpine: TemplatePodBasedSuperSpine;
 }
@@ -30,13 +30,13 @@ export interface TemplatePodBasedPodInfosPodTypeRackInfosRackTypeAccessSwitchesE
   /**
   * Count of L3 links between ESI peers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_pod_based#l3_peer_link_count TemplatePodBased#l3_peer_link_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_pod_based#l3_peer_link_count TemplatePodBased#l3_peer_link_count}
   */
   readonly l3PeerLinkCount: number;
   /**
   * Speed of L3 links between ESI peers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_pod_based#l3_peer_link_speed TemplatePodBased#l3_peer_link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_pod_based#l3_peer_link_speed TemplatePodBased#l3_peer_link_speed}
   */
   readonly l3PeerLinkSpeed: string;
 }
@@ -145,13 +145,13 @@ export interface TemplatePodBasedPodInfosPodTypeRackInfosRackTypeAccessSwitchesL
   /**
   * Tag description field as seen in the web UI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_pod_based#description TemplatePodBased#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_pod_based#description TemplatePodBased#description}
   */
   readonly description?: string;
   /**
   * Tag name field as seen in the web UI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_pod_based#name TemplatePodBased#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_pod_based#name TemplatePodBased#name}
   */
   readonly name: string;
 }
@@ -827,13 +827,13 @@ export interface TemplatePodBasedPodInfosPodTypeRackInfosRackTypeGenericSystemsL
   /**
   * Tag description field as seen in the web UI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_pod_based#description TemplatePodBased#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_pod_based#description TemplatePodBased#description}
   */
   readonly description?: string;
   /**
   * Tag name field as seen in the web UI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_pod_based#name TemplatePodBased#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_pod_based#name TemplatePodBased#name}
   */
   readonly name: string;
 }
@@ -1744,43 +1744,43 @@ export interface TemplatePodBasedPodInfosPodTypeRackInfosRackTypeLeafSwitchesMla
   /**
   * Number of L3 links between MLAG devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_pod_based#l3_peer_link_count TemplatePodBased#l3_peer_link_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_pod_based#l3_peer_link_count TemplatePodBased#l3_peer_link_count}
   */
   readonly l3PeerLinkCount?: number;
   /**
   * Port channel number used for L3 Peer Link. Omit to allow Apstra to choose.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_pod_based#l3_peer_link_port_channel_id TemplatePodBased#l3_peer_link_port_channel_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_pod_based#l3_peer_link_port_channel_id TemplatePodBased#l3_peer_link_port_channel_id}
   */
   readonly l3PeerLinkPortChannelId?: number;
   /**
   * Speed of l3 links between MLAG devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_pod_based#l3_peer_link_speed TemplatePodBased#l3_peer_link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_pod_based#l3_peer_link_speed TemplatePodBased#l3_peer_link_speed}
   */
   readonly l3PeerLinkSpeed?: string;
   /**
   * MLAG keepalive VLAN ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_pod_based#mlag_keepalive_vlan TemplatePodBased#mlag_keepalive_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_pod_based#mlag_keepalive_vlan TemplatePodBased#mlag_keepalive_vlan}
   */
   readonly mlagKeepaliveVlan: number;
   /**
   * Number of links between MLAG devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_pod_based#peer_link_count TemplatePodBased#peer_link_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_pod_based#peer_link_count TemplatePodBased#peer_link_count}
   */
   readonly peerLinkCount: number;
   /**
   * Port channel number used for L2 Peer Link.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_pod_based#peer_link_port_channel_id TemplatePodBased#peer_link_port_channel_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_pod_based#peer_link_port_channel_id TemplatePodBased#peer_link_port_channel_id}
   */
   readonly peerLinkPortChannelId: number;
   /**
   * Speed of links between MLAG devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_pod_based#peer_link_speed TemplatePodBased#peer_link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_pod_based#peer_link_speed TemplatePodBased#peer_link_speed}
   */
   readonly peerLinkSpeed: string;
 }
@@ -2311,7 +2311,7 @@ export interface TemplatePodBasedPodInfosPodTypeRackInfos {
   /**
   * Number of instances of this Rack Type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_pod_based#count TemplatePodBased#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_pod_based#count TemplatePodBased#count}
   */
   readonly count: number;
 }
@@ -2741,31 +2741,31 @@ export interface TemplatePodBasedPodInfosPodTypeSpine {
   /**
   * Number of Spine Switches.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_pod_based#count TemplatePodBased#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_pod_based#count TemplatePodBased#count}
   */
   readonly count: number;
   /**
   * Apstra Object ID of the Logical Device used to model this Spine Switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_pod_based#logical_device_id TemplatePodBased#logical_device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_pod_based#logical_device_id TemplatePodBased#logical_device_id}
   */
   readonly logicalDeviceId: string;
   /**
   * Count of links to each super Spine switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_pod_based#super_spine_link_count TemplatePodBased#super_spine_link_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_pod_based#super_spine_link_count TemplatePodBased#super_spine_link_count}
   */
   readonly superSpineLinkCount?: number;
   /**
   * Speed of links to super Spine switches.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_pod_based#super_spine_link_speed TemplatePodBased#super_spine_link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_pod_based#super_spine_link_speed TemplatePodBased#super_spine_link_speed}
   */
   readonly superSpineLinkSpeed?: string;
   /**
   * Set of Tag IDs to be applied to Spine Switches
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_pod_based#tag_ids TemplatePodBased#tag_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_pod_based#tag_ids TemplatePodBased#tag_ids}
   */
   readonly tagIds?: string[];
 }
@@ -3054,7 +3054,7 @@ export interface TemplatePodBasedPodInfos {
   /**
   * Number of instances of this Pod Type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_pod_based#count TemplatePodBased#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_pod_based#count TemplatePodBased#count}
   */
   readonly count: number;
 }
@@ -3494,25 +3494,25 @@ export interface TemplatePodBasedSuperSpine {
   /**
   * Apstra Object ID of the Logical Device used to model this Spine Switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_pod_based#logical_device_id TemplatePodBased#logical_device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_pod_based#logical_device_id TemplatePodBased#logical_device_id}
   */
   readonly logicalDeviceId: string;
   /**
   * Number of Super Spine switches per plane.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_pod_based#per_plane_count TemplatePodBased#per_plane_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_pod_based#per_plane_count TemplatePodBased#per_plane_count}
   */
   readonly perPlaneCount: number;
   /**
   * Permits creation of multi-planar 5-stage topologies. Default: 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_pod_based#plane_count TemplatePodBased#plane_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_pod_based#plane_count TemplatePodBased#plane_count}
   */
   readonly planeCount?: number;
   /**
   * Set of Tag IDs to be applied to SuperSpine Switches
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_pod_based#tag_ids TemplatePodBased#tag_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_pod_based#tag_ids TemplatePodBased#tag_ids}
   */
   readonly tagIds?: string[];
 }
@@ -3699,7 +3699,7 @@ export class TemplatePodBasedSuperSpineOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_pod_based apstra_template_pod_based}
+* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_pod_based apstra_template_pod_based}
 */
 export class TemplatePodBased extends cdktf.TerraformResource {
 
@@ -3715,7 +3715,7 @@ export class TemplatePodBased extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TemplatePodBased resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TemplatePodBased to import
-  * @param importFromId The id of the existing TemplatePodBased that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_pod_based#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TemplatePodBased that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_pod_based#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TemplatePodBased to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3727,7 +3727,7 @@ export class TemplatePodBased extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_pod_based apstra_template_pod_based} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_pod_based apstra_template_pod_based} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3738,7 +3738,8 @@ export class TemplatePodBased extends cdktf.TerraformResource {
       terraformResourceType: 'apstra_template_pod_based',
       terraformGeneratorMetadata: {
         providerName: 'apstra',
-        providerVersion: '0.95.0'
+        providerVersion: '0.95.1',
+        providerVersionConstraint: '0.95.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsip6
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsip6
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,144 +8,152 @@ import * as cdktf from 'cdktf';
 
 export interface Nsip6Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsip6#advertiseondefaultpartition Nsip6#advertiseondefaultpartition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsip6#advertiseondefaultpartition Nsip6#advertiseondefaultpartition}
   */
   readonly advertiseondefaultpartition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsip6#decrementhoplimit Nsip6#decrementhoplimit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsip6#decrementhoplimit Nsip6#decrementhoplimit}
   */
   readonly decrementhoplimit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsip6#dynamicrouting Nsip6#dynamicrouting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsip6#dynamicrouting Nsip6#dynamicrouting}
   */
   readonly dynamicrouting?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsip6#ftp Nsip6#ftp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsip6#ftp Nsip6#ftp}
   */
   readonly ftp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsip6#gui Nsip6#gui}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsip6#gui Nsip6#gui}
   */
   readonly gui?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsip6#hostroute Nsip6#hostroute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsip6#hostroute Nsip6#hostroute}
   */
   readonly hostroute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsip6#icmp Nsip6#icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsip6#icmp Nsip6#icmp}
   */
   readonly icmp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsip6#id Nsip6#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsip6#icmpresponse Nsip6#icmpresponse}
+  */
+  readonly icmpresponse?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsip6#id Nsip6#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsip6#ip6hostrtgw Nsip6#ip6hostrtgw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsip6#ip6hostrtgw Nsip6#ip6hostrtgw}
   */
   readonly ip6Hostrtgw?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsip6#ipv6address Nsip6#ipv6address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsip6#ipv6address Nsip6#ipv6address}
   */
   readonly ipv6Address: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsip6#map Nsip6#map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsip6#map Nsip6#map}
   */
   readonly map?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsip6#metric Nsip6#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsip6#metric Nsip6#metric}
   */
   readonly metric?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsip6#mgmtaccess Nsip6#mgmtaccess}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsip6#mgmtaccess Nsip6#mgmtaccess}
   */
   readonly mgmtaccess?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsip6#mptcpadvertise Nsip6#mptcpadvertise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsip6#mptcpadvertise Nsip6#mptcpadvertise}
   */
   readonly mptcpadvertise?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsip6#nd Nsip6#nd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsip6#nd Nsip6#nd}
   */
   readonly nd?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsip6#networkroute Nsip6#networkroute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsip6#ndowner Nsip6#ndowner}
+  */
+  readonly ndowner?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsip6#networkroute Nsip6#networkroute}
   */
   readonly networkroute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsip6#ospf6lsatype Nsip6#ospf6lsatype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsip6#ospf6lsatype Nsip6#ospf6lsatype}
   */
   readonly ospf6Lsatype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsip6#ospfarea Nsip6#ospfarea}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsip6#ospfarea Nsip6#ospfarea}
   */
   readonly ospfarea?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsip6#ownerdownresponse Nsip6#ownerdownresponse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsip6#ownerdownresponse Nsip6#ownerdownresponse}
   */
   readonly ownerdownresponse?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsip6#ownernode Nsip6#ownernode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsip6#ownernode Nsip6#ownernode}
   */
   readonly ownernode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsip6#restrictaccess Nsip6#restrictaccess}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsip6#restrictaccess Nsip6#restrictaccess}
   */
   readonly restrictaccess?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsip6#scope Nsip6#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsip6#scope Nsip6#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsip6#snmp Nsip6#snmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsip6#snmp Nsip6#snmp}
   */
   readonly snmp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsip6#ssh Nsip6#ssh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsip6#ssh Nsip6#ssh}
   */
   readonly ssh?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsip6#state Nsip6#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsip6#state Nsip6#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsip6#tag Nsip6#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsip6#tag Nsip6#tag}
   */
   readonly tag?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsip6#td Nsip6#td}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsip6#td Nsip6#td}
   */
   readonly td?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsip6#telnet Nsip6#telnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsip6#telnet Nsip6#telnet}
   */
   readonly telnet?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsip6#type Nsip6#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsip6#type Nsip6#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsip6#vlan Nsip6#vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsip6#vlan Nsip6#vlan}
   */
   readonly vlan?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsip6#vrid6 Nsip6#vrid6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsip6#vrid6 Nsip6#vrid6}
   */
   readonly vrid6?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsip6#vserver Nsip6#vserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsip6#vserver Nsip6#vserver}
   */
   readonly vserver?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsip6#vserverrhilevel Nsip6#vserverrhilevel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsip6#vserverrhilevel Nsip6#vserverrhilevel}
   */
   readonly vserverrhilevel?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsip6 citrixadc_nsip6}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsip6 citrixadc_nsip6}
 */
 export class Nsip6 extends cdktf.TerraformResource {
 
@@ -161,7 +169,7 @@ export class Nsip6 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Nsip6 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Nsip6 to import
-  * @param importFromId The id of the existing Nsip6 that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsip6#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Nsip6 that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsip6#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Nsip6 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -173,7 +181,7 @@ export class Nsip6 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsip6 citrixadc_nsip6} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsip6 citrixadc_nsip6} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -184,7 +192,8 @@ export class Nsip6 extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_nsip6',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -201,6 +210,7 @@ export class Nsip6 extends cdktf.TerraformResource {
     this._gui = config.gui;
     this._hostroute = config.hostroute;
     this._icmp = config.icmp;
+    this._icmpresponse = config.icmpresponse;
     this._id = config.id;
     this._ip6Hostrtgw = config.ip6Hostrtgw;
     this._ipv6Address = config.ipv6Address;
@@ -209,6 +219,7 @@ export class Nsip6 extends cdktf.TerraformResource {
     this._mgmtaccess = config.mgmtaccess;
     this._mptcpadvertise = config.mptcpadvertise;
     this._nd = config.nd;
+    this._ndowner = config.ndowner;
     this._networkroute = config.networkroute;
     this._ospf6Lsatype = config.ospf6Lsatype;
     this._ospfarea = config.ospfarea;
@@ -345,6 +356,22 @@ export class Nsip6 extends cdktf.TerraformResource {
     return this._icmp;
   }
 
+  // icmpresponse - computed: true, optional: true, required: false
+  private _icmpresponse?: string; 
+  public get icmpresponse() {
+    return this.getStringAttribute('icmpresponse');
+  }
+  public set icmpresponse(value: string) {
+    this._icmpresponse = value;
+  }
+  public resetIcmpresponse() {
+    this._icmpresponse = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get icmpresponseInput() {
+    return this._icmpresponse;
+  }
+
   // id - computed: true, optional: true, required: false
   private _id?: string; 
   public get id() {
@@ -468,6 +495,22 @@ export class Nsip6 extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get ndInput() {
     return this._nd;
+  }
+
+  // ndowner - computed: true, optional: true, required: false
+  private _ndowner?: number; 
+  public get ndowner() {
+    return this.getNumberAttribute('ndowner');
+  }
+  public set ndowner(value: number) {
+    this._ndowner = value;
+  }
+  public resetNdowner() {
+    this._ndowner = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ndownerInput() {
+    return this._ndowner;
   }
 
   // networkroute - computed: true, optional: true, required: false
@@ -771,6 +814,7 @@ export class Nsip6 extends cdktf.TerraformResource {
       gui: cdktf.stringToTerraform(this._gui),
       hostroute: cdktf.stringToTerraform(this._hostroute),
       icmp: cdktf.stringToTerraform(this._icmp),
+      icmpresponse: cdktf.stringToTerraform(this._icmpresponse),
       id: cdktf.stringToTerraform(this._id),
       ip6hostrtgw: cdktf.stringToTerraform(this._ip6Hostrtgw),
       ipv6address: cdktf.stringToTerraform(this._ipv6Address),
@@ -779,6 +823,7 @@ export class Nsip6 extends cdktf.TerraformResource {
       mgmtaccess: cdktf.stringToTerraform(this._mgmtaccess),
       mptcpadvertise: cdktf.stringToTerraform(this._mptcpadvertise),
       nd: cdktf.stringToTerraform(this._nd),
+      ndowner: cdktf.numberToTerraform(this._ndowner),
       networkroute: cdktf.stringToTerraform(this._networkroute),
       ospf6lsatype: cdktf.stringToTerraform(this._ospf6Lsatype),
       ospfarea: cdktf.numberToTerraform(this._ospfarea),
@@ -844,6 +889,12 @@ export class Nsip6 extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      icmpresponse: {
+        value: cdktf.stringToHclTerraform(this._icmpresponse),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       id: {
         value: cdktf.stringToHclTerraform(this._id),
         isBlock: false,
@@ -891,6 +942,12 @@ export class Nsip6 extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      ndowner: {
+        value: cdktf.numberToHclTerraform(this._ndowner),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
       },
       networkroute: {
         value: cdktf.stringToHclTerraform(this._networkroute),

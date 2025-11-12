@@ -538,7 +538,8 @@ export class PaAgent extends cdktf.TerraformResource {
       terraformResourceType: 'prismasase-vmware_pa_agent',
       terraformGeneratorMetadata: {
         providerName: 'prismasase-vmware',
-        providerVersion: '1.0.7'
+        providerVersion: '1.0.7',
+        providerVersionConstraint: '1.0.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

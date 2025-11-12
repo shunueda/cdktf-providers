@@ -60,7 +60,8 @@ export class DataAwsTransferServer extends cdktf.TerraformDataSource {
       terraformResourceType: 'aws_transfer_server',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '3.29.6'
+        providerVersion: '3.29.6',
+        providerVersionConstraint: '3.29.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

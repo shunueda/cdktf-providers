@@ -110,7 +110,8 @@ export class VisibilityReportingTemplateNotificationTemplateNameAuthenticationA 
       terraformResourceType: 'thunder_visibility_reporting_template_notification_template_name_authentication',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1669,7 +1669,8 @@ export class DataK8SCiliumIoCiliumEgressGatewayPolicyV2Manifest extends cdktf.Te
       terraformResourceType: 'k8s_cilium_io_cilium_egress_gateway_policy_v2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

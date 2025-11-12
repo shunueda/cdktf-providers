@@ -61,7 +61,8 @@ export class GocacheProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'gocache',
       terraformGeneratorMetadata: {
         providerName: 'gocache',
-        providerVersion: '0.3.2'
+        providerVersion: '0.3.2',
+        providerVersionConstraint: '0.3.2'
       },
       terraformProviderSource: 'gocachebr/gocache'
     });

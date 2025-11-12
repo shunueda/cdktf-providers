@@ -64,7 +64,8 @@ export class DataZiaVirtualServiceEdgeNode extends cdktf.TerraformDataSource {
       terraformResourceType: 'zia_virtual_service_edge_node',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.5.3'
+        providerVersion: '4.5.3',
+        providerVersionConstraint: '4.5.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

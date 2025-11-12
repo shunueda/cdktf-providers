@@ -676,7 +676,8 @@ export class StreamLiveInput extends cdktf.TerraformResource {
       terraformResourceType: 'cloudflare_stream_live_input',
       terraformGeneratorMetadata: {
         providerName: 'cloudflare',
-        providerVersion: '5.12.0'
+        providerVersion: '5.12.0',
+        providerVersionConstraint: '5.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

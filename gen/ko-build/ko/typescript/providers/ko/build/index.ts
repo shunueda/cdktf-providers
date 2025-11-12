@@ -110,7 +110,8 @@ export class Build extends cdktf.TerraformResource {
       terraformResourceType: 'ko_build',
       terraformGeneratorMetadata: {
         providerName: 'ko',
-        providerVersion: '0.0.17'
+        providerVersion: '0.0.17',
+        providerVersionConstraint: '0.0.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

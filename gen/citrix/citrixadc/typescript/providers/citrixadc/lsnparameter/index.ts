@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lsnparameter
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lsnparameter
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,24 +8,28 @@ import * as cdktf from 'cdktf';
 
 export interface LsnparameterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lsnparameter#id Lsnparameter#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lsnparameter#id Lsnparameter#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lsnparameter#sessionsync Lsnparameter#sessionsync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lsnparameter#memlimit Lsnparameter#memlimit}
+  */
+  readonly memlimit?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lsnparameter#sessionsync Lsnparameter#sessionsync}
   */
   readonly sessionsync?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lsnparameter#subscrsessionremoval Lsnparameter#subscrsessionremoval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lsnparameter#subscrsessionremoval Lsnparameter#subscrsessionremoval}
   */
   readonly subscrsessionremoval?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lsnparameter citrixadc_lsnparameter}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lsnparameter citrixadc_lsnparameter}
 */
 export class Lsnparameter extends cdktf.TerraformResource {
 
@@ -41,7 +45,7 @@ export class Lsnparameter extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Lsnparameter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Lsnparameter to import
-  * @param importFromId The id of the existing Lsnparameter that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lsnparameter#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Lsnparameter that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lsnparameter#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Lsnparameter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -53,7 +57,7 @@ export class Lsnparameter extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lsnparameter citrixadc_lsnparameter} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lsnparameter citrixadc_lsnparameter} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -64,7 +68,8 @@ export class Lsnparameter extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_lsnparameter',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -75,6 +80,7 @@ export class Lsnparameter extends cdktf.TerraformResource {
       forEach: config.forEach
     });
     this._id = config.id;
+    this._memlimit = config.memlimit;
     this._sessionsync = config.sessionsync;
     this._subscrsessionremoval = config.subscrsessionremoval;
   }
@@ -97,6 +103,22 @@ export class Lsnparameter extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get idInput() {
     return this._id;
+  }
+
+  // memlimit - computed: true, optional: true, required: false
+  private _memlimit?: number; 
+  public get memlimit() {
+    return this.getNumberAttribute('memlimit');
+  }
+  public set memlimit(value: number) {
+    this._memlimit = value;
+  }
+  public resetMemlimit() {
+    this._memlimit = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get memlimitInput() {
+    return this._memlimit;
   }
 
   // sessionsync - computed: true, optional: true, required: false
@@ -138,6 +160,7 @@ export class Lsnparameter extends cdktf.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       id: cdktf.stringToTerraform(this._id),
+      memlimit: cdktf.numberToTerraform(this._memlimit),
       sessionsync: cdktf.stringToTerraform(this._sessionsync),
       subscrsessionremoval: cdktf.stringToTerraform(this._subscrsessionremoval),
     };
@@ -150,6 +173,12 @@ export class Lsnparameter extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      memlimit: {
+        value: cdktf.numberToHclTerraform(this._memlimit),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
       },
       sessionsync: {
         value: cdktf.stringToHclTerraform(this._sessionsync),

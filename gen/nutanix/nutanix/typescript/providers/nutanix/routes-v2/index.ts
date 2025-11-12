@@ -1508,7 +1508,8 @@ export class RoutesV2 extends cdktf.TerraformResource {
       terraformResourceType: 'nutanix_routes_v2',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3'
+        providerVersion: '2.3.3',
+        providerVersionConstraint: '2.3.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

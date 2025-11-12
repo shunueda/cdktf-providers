@@ -109,7 +109,8 @@ export class PostProcessKms extends cdktf.TerraformResource {
       terraformResourceType: 'clumio_post_process_kms',
       terraformGeneratorMetadata: {
         providerName: 'clumio',
-        providerVersion: '0.16.1'
+        providerVersion: '0.16.1',
+        providerVersionConstraint: '0.16.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

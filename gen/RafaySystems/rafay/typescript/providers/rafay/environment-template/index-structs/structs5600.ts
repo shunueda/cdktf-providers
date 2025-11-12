@@ -83,25 +83,25 @@ export interface EnvironmentTemplateSpecSchedulesWorkflowsTasksWorkflowHandlerDa
   /**
   * Key of the environment variable to be set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#key EnvironmentTemplate#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#key EnvironmentTemplate#key}
   */
   readonly key?: string;
   /**
   * Deprecated: use options.sensitive. Determines whether the value is sensitive or not, accordingly applies encryption on it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#sensitive EnvironmentTemplate#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#sensitive EnvironmentTemplate#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * Value of the environment variable to be set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#value EnvironmentTemplate#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#value EnvironmentTemplate#value}
   */
   readonly value?: string;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#options EnvironmentTemplate#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#options EnvironmentTemplate#options}
   */
   readonly options?: EnvironmentTemplateSpecSchedulesWorkflowsTasksWorkflowHandlerDataInputsDataEnvsOptions;
 }
@@ -306,7 +306,7 @@ export interface EnvironmentTemplateSpecSchedulesWorkflowsTasksWorkflowHandlerDa
   /**
   * Specify the type of override this file supports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#type EnvironmentTemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#type EnvironmentTemplate#type}
   */
   readonly type?: string;
 }
@@ -392,13 +392,13 @@ export interface EnvironmentTemplateSpecSchedulesWorkflowsTasksWorkflowHandlerDa
   /**
   * JSONSchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#jsonschema EnvironmentTemplate#jsonschema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#jsonschema EnvironmentTemplate#jsonschema}
   */
   readonly jsonschema?: string;
   /**
   * UISchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#uischema EnvironmentTemplate#uischema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#uischema EnvironmentTemplate#uischema}
   */
   readonly uischema?: string;
 }
@@ -513,37 +513,37 @@ export interface EnvironmentTemplateSpecSchedulesWorkflowsTasksWorkflowHandlerDa
   /**
   * Description of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#description EnvironmentTemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#description EnvironmentTemplate#description}
   */
   readonly description?: string;
   /**
   * Display metadata to render file on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#display_metadata EnvironmentTemplate#display_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#display_metadata EnvironmentTemplate#display_metadata}
   */
   readonly displayMetadata?: string;
   /**
   * Determines whether the file is required / mandatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#required EnvironmentTemplate#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#required EnvironmentTemplate#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#sensitive EnvironmentTemplate#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#sensitive EnvironmentTemplate#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#override EnvironmentTemplate#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#override EnvironmentTemplate#override}
   */
   readonly override?: EnvironmentTemplateSpecSchedulesWorkflowsTasksWorkflowHandlerDataInputsDataFilesOptionsOverride;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#schema EnvironmentTemplate#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#schema EnvironmentTemplate#schema}
   */
   readonly schema?: EnvironmentTemplateSpecSchedulesWorkflowsTasksWorkflowHandlerDataInputsDataFilesOptionsSchema;
 }
@@ -774,31 +774,31 @@ export interface EnvironmentTemplateSpecSchedulesWorkflowsTasksWorkflowHandlerDa
   /**
   * data is the base64 encoded contents of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#data EnvironmentTemplate#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#data EnvironmentTemplate#data}
   */
   readonly data?: string;
   /**
   * specify mount path of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#mount_path EnvironmentTemplate#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#mount_path EnvironmentTemplate#mount_path}
   */
   readonly mountPath?: string;
   /**
   * Name or relative path of a artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#name EnvironmentTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#name EnvironmentTemplate#name}
   */
   readonly name?: string;
   /**
   * Deprected: use options.sensitive. data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#sensitive EnvironmentTemplate#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#sensitive EnvironmentTemplate#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#options EnvironmentTemplate#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#options EnvironmentTemplate#options}
   */
   readonly options?: EnvironmentTemplateSpecSchedulesWorkflowsTasksWorkflowHandlerDataInputsDataFilesOptions;
 }
@@ -1032,31 +1032,31 @@ export interface EnvironmentTemplateSpecSchedulesWorkflowsTasksWorkflowHandlerDa
   /**
   * Display overridden values on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#display_overridden EnvironmentTemplate#display_overridden}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#display_overridden EnvironmentTemplate#display_overridden}
   */
   readonly displayOverridden?: boolean | cdktf.IResolvable;
   /**
   * If the override type is restricted_key_values, values it is restricted to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#restricted_key_values EnvironmentTemplate#restricted_key_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#restricted_key_values EnvironmentTemplate#restricted_key_values}
   */
   readonly restrictedKeyValues?: { [key: string]: string };
   /**
   * If the override type is restricted, values it is restricted to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#restricted_values EnvironmentTemplate#restricted_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#restricted_values EnvironmentTemplate#restricted_values}
   */
   readonly restrictedValues?: string[];
   /**
   * Used to alias a variable and restrict the override scope
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#selectors EnvironmentTemplate#selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#selectors EnvironmentTemplate#selectors}
   */
   readonly selectors?: string[];
   /**
   * Specify the type of ovverride this variable supports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#type EnvironmentTemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#type EnvironmentTemplate#type}
   */
   readonly type?: string;
 }
@@ -1258,13 +1258,13 @@ export interface EnvironmentTemplateSpecSchedulesWorkflowsTasksWorkflowHandlerDa
   /**
   * JSONSchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#jsonschema EnvironmentTemplate#jsonschema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#jsonschema EnvironmentTemplate#jsonschema}
   */
   readonly jsonschema?: string;
   /**
   * UISchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#uischema EnvironmentTemplate#uischema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#uischema EnvironmentTemplate#uischema}
   */
   readonly uischema?: string;
 }
@@ -1379,43 +1379,43 @@ export interface EnvironmentTemplateSpecSchedulesWorkflowsTasksWorkflowHandlerDa
   /**
   * Description of the variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#description EnvironmentTemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#description EnvironmentTemplate#description}
   */
   readonly description?: string;
   /**
   * Display metadata to render variable on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#display_metadata EnvironmentTemplate#display_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#display_metadata EnvironmentTemplate#display_metadata}
   */
   readonly displayMetadata?: string;
   /**
   * Determines whether the variable is immutable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#immutable EnvironmentTemplate#immutable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#immutable EnvironmentTemplate#immutable}
   */
   readonly immutable?: boolean | cdktf.IResolvable;
   /**
   * Specify whether this variable is required or optional, by default it is optional
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#required EnvironmentTemplate#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#required EnvironmentTemplate#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * Determines whether the value is sensitive or not, accordingly applies encryption on it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#sensitive EnvironmentTemplate#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#sensitive EnvironmentTemplate#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#override EnvironmentTemplate#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#override EnvironmentTemplate#override}
   */
   readonly override?: EnvironmentTemplateSpecSchedulesWorkflowsTasksWorkflowHandlerDataInputsDataVariablesOptionsOverride;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#schema EnvironmentTemplate#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#schema EnvironmentTemplate#schema}
   */
   readonly schema?: EnvironmentTemplateSpecSchedulesWorkflowsTasksWorkflowHandlerDataInputsDataVariablesOptionsSchema;
 }
@@ -1675,25 +1675,25 @@ export interface EnvironmentTemplateSpecSchedulesWorkflowsTasksWorkflowHandlerDa
   /**
   * Name of the variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#name EnvironmentTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#name EnvironmentTemplate#name}
   */
   readonly name: string;
   /**
   * Value of the variable in the specified format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#value EnvironmentTemplate#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#value EnvironmentTemplate#value}
   */
   readonly value?: string;
   /**
   * Specify the variable value type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#value_type EnvironmentTemplate#value_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#value_type EnvironmentTemplate#value_type}
   */
   readonly valueType: string;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#options EnvironmentTemplate#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#options EnvironmentTemplate#options}
   */
   readonly options?: EnvironmentTemplateSpecSchedulesWorkflowsTasksWorkflowHandlerDataInputsDataVariablesOptions;
 }
@@ -1892,19 +1892,19 @@ export interface EnvironmentTemplateSpecSchedulesWorkflowsTasksWorkflowHandlerDa
   /**
   * envs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#envs EnvironmentTemplate#envs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#envs EnvironmentTemplate#envs}
   */
   readonly envs?: EnvironmentTemplateSpecSchedulesWorkflowsTasksWorkflowHandlerDataInputsDataEnvs[] | cdktf.IResolvable;
   /**
   * files block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#files EnvironmentTemplate#files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#files EnvironmentTemplate#files}
   */
   readonly files?: EnvironmentTemplateSpecSchedulesWorkflowsTasksWorkflowHandlerDataInputsDataFiles[] | cdktf.IResolvable;
   /**
   * variables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#variables EnvironmentTemplate#variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#variables EnvironmentTemplate#variables}
   */
   readonly variables?: EnvironmentTemplateSpecSchedulesWorkflowsTasksWorkflowHandlerDataInputsDataVariables[] | cdktf.IResolvable;
 }
@@ -2048,13 +2048,13 @@ export interface EnvironmentTemplateSpecSchedulesWorkflowsTasksWorkflowHandlerDa
   /**
   * Name of the config context
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#name EnvironmentTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#name EnvironmentTemplate#name}
   */
   readonly name?: string;
   /**
   * data block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#data EnvironmentTemplate#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#data EnvironmentTemplate#data}
   */
   readonly data?: EnvironmentTemplateSpecSchedulesWorkflowsTasksWorkflowHandlerDataInputsData;
 }
@@ -2201,19 +2201,19 @@ export interface EnvironmentTemplateSpecSchedulesWorkflowsTasksWorkflowHandlerDa
   /**
   * Specify the output data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#outputs EnvironmentTemplate#outputs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#outputs EnvironmentTemplate#outputs}
   */
   readonly outputs?: string;
   /**
   * config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#config EnvironmentTemplate#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#config EnvironmentTemplate#config}
   */
   readonly config?: EnvironmentTemplateSpecSchedulesWorkflowsTasksWorkflowHandlerDataConfig;
   /**
   * inputs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#inputs EnvironmentTemplate#inputs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#inputs EnvironmentTemplate#inputs}
   */
   readonly inputs?: EnvironmentTemplateSpecSchedulesWorkflowsTasksWorkflowHandlerDataInputs[] | cdktf.IResolvable;
 }
@@ -2357,13 +2357,13 @@ export interface EnvironmentTemplateSpecSchedulesWorkflowsTasksWorkflowHandler {
   /**
   * Name of the workflow handler
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#name EnvironmentTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#name EnvironmentTemplate#name}
   */
   readonly name?: string;
   /**
   * data block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#data EnvironmentTemplate#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#data EnvironmentTemplate#data}
   */
   readonly data?: EnvironmentTemplateSpecSchedulesWorkflowsTasksWorkflowHandlerData;
 }
@@ -2478,79 +2478,79 @@ export interface EnvironmentTemplateSpecSchedulesWorkflowsTasks {
   /**
   * specify hook dependencies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#depends_on EnvironmentTemplate#depends_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#depends_on EnvironmentTemplate#depends_on}
   */
   readonly dependsOn?: string[];
   /**
   * description of hook
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#description EnvironmentTemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#description EnvironmentTemplate#description}
   */
   readonly description?: string;
   /**
   * Hook are executed only once for all runs combined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#execute_once EnvironmentTemplate#execute_once}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#execute_once EnvironmentTemplate#execute_once}
   */
   readonly executeOnce?: boolean | cdktf.IResolvable;
   /**
   * name of the hook
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#name EnvironmentTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#name EnvironmentTemplate#name}
   */
   readonly name?: string;
   /**
   * Specify the on failure action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#on_failure EnvironmentTemplate#on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#on_failure EnvironmentTemplate#on_failure}
   */
   readonly onFailure?: string;
   /**
   * Specify the timeout in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#timeout_seconds EnvironmentTemplate#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#timeout_seconds EnvironmentTemplate#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
   /**
   * Specify the type of hook
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#type EnvironmentTemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#type EnvironmentTemplate#type}
   */
   readonly type?: string;
   /**
   * agent_pools block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#agent_pools EnvironmentTemplate#agent_pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#agent_pools EnvironmentTemplate#agent_pools}
   */
   readonly agentPools?: EnvironmentTemplateSpecSchedulesWorkflowsTasksAgentPools[] | cdktf.IResolvable;
   /**
   * agents block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#agents EnvironmentTemplate#agents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#agents EnvironmentTemplate#agents}
   */
   readonly agents?: EnvironmentTemplateSpecSchedulesWorkflowsTasksAgents[] | cdktf.IResolvable;
   /**
   * driver block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#driver EnvironmentTemplate#driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#driver EnvironmentTemplate#driver}
   */
   readonly driver?: EnvironmentTemplateSpecSchedulesWorkflowsTasksDriver;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#options EnvironmentTemplate#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#options EnvironmentTemplate#options}
   */
   readonly options?: EnvironmentTemplateSpecSchedulesWorkflowsTasksOptions;
   /**
   * skip_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#skip_config EnvironmentTemplate#skip_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#skip_config EnvironmentTemplate#skip_config}
   */
   readonly skipConfig?: EnvironmentTemplateSpecSchedulesWorkflowsTasksSkipConfig;
   /**
   * workflow_handler block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#workflow_handler EnvironmentTemplate#workflow_handler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#workflow_handler EnvironmentTemplate#workflow_handler}
   */
   readonly workflowHandler?: EnvironmentTemplateSpecSchedulesWorkflowsTasksWorkflowHandler;
 }
@@ -3016,13 +3016,13 @@ export interface EnvironmentTemplateSpecSchedulesWorkflows {
   /**
   * If true, reverses the execution order of tasks for the destroy workflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#reverse_on_destroy EnvironmentTemplate#reverse_on_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#reverse_on_destroy EnvironmentTemplate#reverse_on_destroy}
   */
   readonly reverseOnDestroy?: boolean | cdktf.IResolvable;
   /**
   * tasks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#tasks EnvironmentTemplate#tasks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#tasks EnvironmentTemplate#tasks}
   */
   readonly tasks?: EnvironmentTemplateSpecSchedulesWorkflowsTasks[] | cdktf.IResolvable;
 }
@@ -3137,43 +3137,43 @@ export interface EnvironmentTemplateSpecSchedules {
   /**
   * description of schedule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#description EnvironmentTemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#description EnvironmentTemplate#description}
   */
   readonly description?: string;
   /**
   * Name of the action, recommended to use unique names so that they don't collide with any other actions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#name EnvironmentTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#name EnvironmentTemplate#name}
   */
   readonly name?: string;
   /**
   * Specify the type of action schedule job should perform
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#type EnvironmentTemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#type EnvironmentTemplate#type}
   */
   readonly type?: string;
   /**
   * cadence block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#cadence EnvironmentTemplate#cadence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#cadence EnvironmentTemplate#cadence}
   */
   readonly cadence?: EnvironmentTemplateSpecSchedulesCadence;
   /**
   * context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#context EnvironmentTemplate#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#context EnvironmentTemplate#context}
   */
   readonly context?: EnvironmentTemplateSpecSchedulesContext;
   /**
   * opt_out_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#opt_out_options EnvironmentTemplate#opt_out_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#opt_out_options EnvironmentTemplate#opt_out_options}
   */
   readonly optOutOptions?: EnvironmentTemplateSpecSchedulesOptOutOptions;
   /**
   * workflows block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#workflows EnvironmentTemplate#workflows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#workflows EnvironmentTemplate#workflows}
   */
   readonly workflows?: EnvironmentTemplateSpecSchedulesWorkflows;
 }
@@ -3465,7 +3465,7 @@ export interface EnvironmentTemplateSpecSecretOptionsOverride {
   /**
   * Specify the type of override this file supports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#type EnvironmentTemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#type EnvironmentTemplate#type}
   */
   readonly type?: string;
 }
@@ -3551,13 +3551,13 @@ export interface EnvironmentTemplateSpecSecretOptionsSchema {
   /**
   * JSONSchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#jsonschema EnvironmentTemplate#jsonschema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#jsonschema EnvironmentTemplate#jsonschema}
   */
   readonly jsonschema?: string;
   /**
   * UISchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#uischema EnvironmentTemplate#uischema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#uischema EnvironmentTemplate#uischema}
   */
   readonly uischema?: string;
 }
@@ -3672,37 +3672,37 @@ export interface EnvironmentTemplateSpecSecretOptions {
   /**
   * Description of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#description EnvironmentTemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#description EnvironmentTemplate#description}
   */
   readonly description?: string;
   /**
   * Display metadata to render file on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#display_metadata EnvironmentTemplate#display_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#display_metadata EnvironmentTemplate#display_metadata}
   */
   readonly displayMetadata?: string;
   /**
   * Determines whether the file is required / mandatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#required EnvironmentTemplate#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#required EnvironmentTemplate#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#sensitive EnvironmentTemplate#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#sensitive EnvironmentTemplate#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#override EnvironmentTemplate#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#override EnvironmentTemplate#override}
   */
   readonly override?: EnvironmentTemplateSpecSecretOptionsOverride;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#schema EnvironmentTemplate#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#schema EnvironmentTemplate#schema}
   */
   readonly schema?: EnvironmentTemplateSpecSecretOptionsSchema;
 }
@@ -3933,31 +3933,31 @@ export interface EnvironmentTemplateSpecSecret {
   /**
   * data is the base64 encoded contents of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#data EnvironmentTemplate#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#data EnvironmentTemplate#data}
   */
   readonly data?: string;
   /**
   * specify mount path of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#mount_path EnvironmentTemplate#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#mount_path EnvironmentTemplate#mount_path}
   */
   readonly mountPath?: string;
   /**
   * Name or relative path of a artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#name EnvironmentTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#name EnvironmentTemplate#name}
   */
   readonly name?: string;
   /**
   * Deprected: use options.sensitive. data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#sensitive EnvironmentTemplate#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#sensitive EnvironmentTemplate#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#options EnvironmentTemplate#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#options EnvironmentTemplate#options}
   */
   readonly options?: EnvironmentTemplateSpecSecretOptions;
 }
@@ -4159,7 +4159,7 @@ export interface EnvironmentTemplateSpecSharingProjects {
   /**
   * name of the project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#name EnvironmentTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#name EnvironmentTemplate#name}
   */
   readonly name?: string;
 }
@@ -4277,13 +4277,13 @@ export interface EnvironmentTemplateSpecSharing {
   /**
   * flag to specify if sharing is enabled for resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#enabled EnvironmentTemplate#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#enabled EnvironmentTemplate#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * projects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#projects EnvironmentTemplate#projects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#projects EnvironmentTemplate#projects}
   */
   readonly projects?: EnvironmentTemplateSpecSharingProjects[] | cdktf.IResolvable;
 }
@@ -4396,7 +4396,7 @@ export class EnvironmentTemplateSpecSharingOutputReference extends cdktf.Complex
 }
 export interface EnvironmentTemplateSpecTriggerOnChange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#value EnvironmentTemplate#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#value EnvironmentTemplate#value}
   */
   readonly value?: boolean | cdktf.IResolvable;
 }
@@ -4482,31 +4482,31 @@ export interface EnvironmentTemplateSpecVariablesOptionsOverride {
   /**
   * Display overridden values on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#display_overridden EnvironmentTemplate#display_overridden}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#display_overridden EnvironmentTemplate#display_overridden}
   */
   readonly displayOverridden?: boolean | cdktf.IResolvable;
   /**
   * If the override type is restricted_key_values, values it is restricted to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#restricted_key_values EnvironmentTemplate#restricted_key_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#restricted_key_values EnvironmentTemplate#restricted_key_values}
   */
   readonly restrictedKeyValues?: { [key: string]: string };
   /**
   * If the override type is restricted, values it is restricted to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#restricted_values EnvironmentTemplate#restricted_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#restricted_values EnvironmentTemplate#restricted_values}
   */
   readonly restrictedValues?: string[];
   /**
   * Used to alias a variable and restrict the override scope
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#selectors EnvironmentTemplate#selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#selectors EnvironmentTemplate#selectors}
   */
   readonly selectors?: string[];
   /**
   * Specify the type of ovverride this variable supports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#type EnvironmentTemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#type EnvironmentTemplate#type}
   */
   readonly type?: string;
 }
@@ -4708,13 +4708,13 @@ export interface EnvironmentTemplateSpecVariablesOptionsSchema {
   /**
   * JSONSchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#jsonschema EnvironmentTemplate#jsonschema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#jsonschema EnvironmentTemplate#jsonschema}
   */
   readonly jsonschema?: string;
   /**
   * UISchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#uischema EnvironmentTemplate#uischema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#uischema EnvironmentTemplate#uischema}
   */
   readonly uischema?: string;
 }
@@ -4829,43 +4829,43 @@ export interface EnvironmentTemplateSpecVariablesOptions {
   /**
   * Description of the variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#description EnvironmentTemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#description EnvironmentTemplate#description}
   */
   readonly description?: string;
   /**
   * Display metadata to render variable on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#display_metadata EnvironmentTemplate#display_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#display_metadata EnvironmentTemplate#display_metadata}
   */
   readonly displayMetadata?: string;
   /**
   * Determines whether the variable is immutable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#immutable EnvironmentTemplate#immutable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#immutable EnvironmentTemplate#immutable}
   */
   readonly immutable?: boolean | cdktf.IResolvable;
   /**
   * Specify whether this variable is required or optional, by default it is optional
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#required EnvironmentTemplate#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#required EnvironmentTemplate#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * Determines whether the value is sensitive or not, accordingly applies encryption on it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#sensitive EnvironmentTemplate#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#sensitive EnvironmentTemplate#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#override EnvironmentTemplate#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#override EnvironmentTemplate#override}
   */
   readonly override?: EnvironmentTemplateSpecVariablesOptionsOverride;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#schema EnvironmentTemplate#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#schema EnvironmentTemplate#schema}
   */
   readonly schema?: EnvironmentTemplateSpecVariablesOptionsSchema;
 }
@@ -5125,25 +5125,25 @@ export interface EnvironmentTemplateSpecVariables {
   /**
   * Name of the variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#name EnvironmentTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#name EnvironmentTemplate#name}
   */
   readonly name: string;
   /**
   * Value of the variable in the specified format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#value EnvironmentTemplate#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#value EnvironmentTemplate#value}
   */
   readonly value?: string;
   /**
   * Specify the variable value type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#value_type EnvironmentTemplate#value_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#value_type EnvironmentTemplate#value_type}
   */
   readonly valueType: string;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#options EnvironmentTemplate#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#options EnvironmentTemplate#options}
   */
   readonly options?: EnvironmentTemplateSpecVariablesOptions;
 }
@@ -5342,115 +5342,115 @@ export interface EnvironmentTemplateSpec {
   /**
   * Icon URL for the template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#icon_url EnvironmentTemplate#icon_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#icon_url EnvironmentTemplate#icon_url}
   */
   readonly iconUrl?: string;
   /**
   * Readme for the template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#readme EnvironmentTemplate#readme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#readme EnvironmentTemplate#readme}
   */
   readonly readme?: string;
   /**
   * Environment template version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#version EnvironmentTemplate#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#version EnvironmentTemplate#version}
   */
   readonly version?: string;
   /**
   * Represents the current state of template version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#version_state EnvironmentTemplate#version_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#version_state EnvironmentTemplate#version_state}
   */
   readonly versionState?: string;
   /**
   * actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#actions EnvironmentTemplate#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#actions EnvironmentTemplate#actions}
   */
   readonly actions?: EnvironmentTemplateSpecActions[] | cdktf.IResolvable;
   /**
   * agent_override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#agent_override EnvironmentTemplate#agent_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#agent_override EnvironmentTemplate#agent_override}
   */
   readonly agentOverride?: EnvironmentTemplateSpecAgentOverride;
   /**
   * agent_pool_override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#agent_pool_override EnvironmentTemplate#agent_pool_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#agent_pool_override EnvironmentTemplate#agent_pool_override}
   */
   readonly agentPoolOverride?: EnvironmentTemplateSpecAgentPoolOverride;
   /**
   * agent_pools block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#agent_pools EnvironmentTemplate#agent_pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#agent_pools EnvironmentTemplate#agent_pools}
   */
   readonly agentPools?: EnvironmentTemplateSpecAgentPools[] | cdktf.IResolvable;
   /**
   * agents block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#agents EnvironmentTemplate#agents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#agents EnvironmentTemplate#agents}
   */
   readonly agents?: EnvironmentTemplateSpecAgents[] | cdktf.IResolvable;
   /**
   * allow_new_inputs_during_publish block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#allow_new_inputs_during_publish EnvironmentTemplate#allow_new_inputs_during_publish}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#allow_new_inputs_during_publish EnvironmentTemplate#allow_new_inputs_during_publish}
   */
   readonly allowNewInputsDuringPublish?: EnvironmentTemplateSpecAllowNewInputsDuringPublish;
   /**
   * contexts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#contexts EnvironmentTemplate#contexts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#contexts EnvironmentTemplate#contexts}
   */
   readonly contexts?: EnvironmentTemplateSpecContexts[] | cdktf.IResolvable;
   /**
   * hooks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#hooks EnvironmentTemplate#hooks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#hooks EnvironmentTemplate#hooks}
   */
   readonly hooks?: EnvironmentTemplateSpecHooks;
   /**
   * resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#resources EnvironmentTemplate#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#resources EnvironmentTemplate#resources}
   */
   readonly resources?: EnvironmentTemplateSpecResources[] | cdktf.IResolvable;
   /**
   * run_as_user block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#run_as_user EnvironmentTemplate#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#run_as_user EnvironmentTemplate#run_as_user}
   */
   readonly runAsUser?: EnvironmentTemplateSpecRunAsUser;
   /**
   * schedules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#schedules EnvironmentTemplate#schedules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#schedules EnvironmentTemplate#schedules}
   */
   readonly schedules?: EnvironmentTemplateSpecSchedules[] | cdktf.IResolvable;
   /**
   * secret block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#secret EnvironmentTemplate#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#secret EnvironmentTemplate#secret}
   */
   readonly secret?: EnvironmentTemplateSpecSecret;
   /**
   * sharing block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#sharing EnvironmentTemplate#sharing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#sharing EnvironmentTemplate#sharing}
   */
   readonly sharing?: EnvironmentTemplateSpecSharing;
   /**
   * trigger_on_change block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#trigger_on_change EnvironmentTemplate#trigger_on_change}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#trigger_on_change EnvironmentTemplate#trigger_on_change}
   */
   readonly triggerOnChange?: EnvironmentTemplateSpecTriggerOnChange;
   /**
   * variables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#variables EnvironmentTemplate#variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#variables EnvironmentTemplate#variables}
   */
   readonly variables?: EnvironmentTemplateSpecVariables[] | cdktf.IResolvable;
 }
@@ -6056,15 +6056,15 @@ export class EnvironmentTemplateSpecOutputReference extends cdktf.ComplexObject 
 }
 export interface EnvironmentTemplateTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#create EnvironmentTemplate#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#create EnvironmentTemplate#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#delete EnvironmentTemplate#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#delete EnvironmentTemplate#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment_template#update EnvironmentTemplate#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment_template#update EnvironmentTemplate#update}
   */
   readonly update?: string;
 }

@@ -339,7 +339,8 @@ export class DataOciOptimizerRecommendationStrategy extends cdktf.TerraformDataS
       terraformResourceType: 'oci_optimizer_recommendation_strategy',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

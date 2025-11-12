@@ -15181,7 +15181,8 @@ export class DataK8SServicemeshCiscoComIstioMeshV1Alpha1Manifest extends cdktf.T
       terraformResourceType: 'k8s_servicemesh_cisco_com_istio_mesh_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

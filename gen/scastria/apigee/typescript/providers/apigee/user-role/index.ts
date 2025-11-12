@@ -64,7 +64,8 @@ export class UserRole extends cdktf.TerraformResource {
       terraformResourceType: 'apigee_user_role',
       terraformGeneratorMetadata: {
         providerName: 'apigee',
-        providerVersion: '0.1.53'
+        providerVersion: '0.1.53',
+        providerVersionConstraint: '0.1.53'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -140,7 +140,8 @@ export class DataDcloudInventoryHwScripts extends cdktf.TerraformDataSource {
       terraformResourceType: 'dcloud_inventory_hw_scripts',
       terraformGeneratorMetadata: {
         providerName: 'dcloud',
-        providerVersion: '0.1.29'
+        providerVersion: '0.1.29',
+        providerVersionConstraint: '0.1.29'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

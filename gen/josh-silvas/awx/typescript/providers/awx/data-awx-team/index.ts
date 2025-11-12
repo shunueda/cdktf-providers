@@ -64,7 +64,8 @@ export class DataAwxTeam extends cdktf.TerraformDataSource {
       terraformResourceType: 'awx_team',
       terraformGeneratorMetadata: {
         providerName: 'awx',
-        providerVersion: '1.7.5'
+        providerVersion: '1.7.5',
+        providerVersionConstraint: '1.7.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

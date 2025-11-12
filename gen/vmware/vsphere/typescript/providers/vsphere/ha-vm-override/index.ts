@@ -146,7 +146,8 @@ export class HaVmOverride extends cdktf.TerraformResource {
       terraformResourceType: 'vsphere_ha_vm_override',
       terraformGeneratorMetadata: {
         providerName: 'vsphere',
-        providerVersion: '2.15.0'
+        providerVersion: '2.15.0',
+        providerVersionConstraint: '2.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

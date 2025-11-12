@@ -148,7 +148,8 @@ export class DataGithubRepositoryDeploymentBranchPolicies extends cdktf.Terrafor
       terraformResourceType: 'github_repository_deployment_branch_policies',
       terraformGeneratorMetadata: {
         providerName: 'github',
-        providerVersion: '6.7.5'
+        providerVersion: '6.7.5',
+        providerVersionConstraint: '6.7.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

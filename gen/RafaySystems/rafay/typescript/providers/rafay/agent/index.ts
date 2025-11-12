@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent
+// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface AgentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#id Agent#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#id Agent#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface AgentConfig extends cdktf.TerraformMetaArguments {
   /**
   * impersonate user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#impersonate Agent#impersonate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#impersonate Agent#impersonate}
   */
   readonly impersonate?: string;
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#metadata Agent#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#metadata Agent#metadata}
   */
   readonly metadata?: AgentMetadata;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#spec Agent#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#spec Agent#spec}
   */
   readonly spec?: AgentSpec;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#timeouts Agent#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#timeouts Agent#timeouts}
   */
   readonly timeouts?: AgentTimeouts;
 }
@@ -43,7 +43,7 @@ export interface AgentMetadataCreatedBy {
   /**
   * Id of the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#id Agent#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#id Agent#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -52,13 +52,13 @@ export interface AgentMetadataCreatedBy {
   /**
   * Whether person is logged in using sso
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#is_sso_user Agent#is_sso_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#is_sso_user Agent#is_sso_user}
   */
   readonly isSsoUser?: boolean | cdktf.IResolvable;
   /**
   * Username fo the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#username Agent#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#username Agent#username}
   */
   readonly username?: string;
 }
@@ -202,7 +202,7 @@ export interface AgentMetadataModifiedBy {
   /**
   * Id of the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#id Agent#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#id Agent#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -211,13 +211,13 @@ export interface AgentMetadataModifiedBy {
   /**
   * Whether person is logged in using sso
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#is_sso_user Agent#is_sso_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#is_sso_user Agent#is_sso_user}
   */
   readonly isSsoUser?: boolean | cdktf.IResolvable;
   /**
   * Username fo the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#username Agent#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#username Agent#username}
   */
   readonly username?: string;
 }
@@ -361,49 +361,49 @@ export interface AgentMetadata {
   /**
   * annotations of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#annotations Agent#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#annotations Agent#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * description of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#description Agent#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#description Agent#description}
   */
   readonly description?: string;
   /**
   * Display Name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#display_name Agent#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#display_name Agent#display_name}
   */
   readonly displayName?: string;
   /**
   * labels of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#labels Agent#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#labels Agent#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#name Agent#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#name Agent#name}
   */
   readonly name?: string;
   /**
   * Project of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#project Agent#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#project Agent#project}
   */
   readonly project?: string;
   /**
   * created_by block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#created_by Agent#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#created_by Agent#created_by}
   */
   readonly createdBy?: AgentMetadataCreatedBy;
   /**
   * modified_by block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#modified_by Agent#modified_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#modified_by Agent#modified_by}
   */
   readonly modifiedBy?: AgentMetadataModifiedBy;
 }
@@ -692,7 +692,7 @@ export interface AgentSpecCluster {
   /**
   * name of the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#name Agent#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#name Agent#name}
   */
   readonly name?: string;
 }
@@ -778,13 +778,13 @@ export interface AgentSpecConfigDockerLimits {
   /**
   * CPU limit for the cd agent pod running inside Docker container. Has to be a valid Kubernetes CPU limit format, e.g., '500m' for 0.5 CPU cores. Must be greater than or equal to 250m.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#cpu Agent#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#cpu Agent#cpu}
   */
   readonly cpu?: string;
   /**
   * Memory limit for the cd agent pod running inside Docker container. Has to be a valid Kubernetes memory limit format, e.g., '512Mi' for 512 MiB. Must be greater than or equal to 1Gi.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#memory Agent#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#memory Agent#memory}
   */
   readonly memory?: string;
 }
@@ -899,7 +899,7 @@ export interface AgentSpecConfigDocker {
   /**
   * limits block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#limits Agent#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#limits Agent#limits}
   */
   readonly limits?: AgentSpecConfigDockerLimits;
 }
@@ -985,7 +985,7 @@ export interface AgentSpecConfigEnvironment {
   /**
   * Maximum number of workers that the agent can spawn in parallel to handle activities during environment run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#num_workers Agent#num_workers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#num_workers Agent#num_workers}
   */
   readonly numWorkers?: number;
 }
@@ -1069,15 +1069,15 @@ export class AgentSpecConfigEnvironmentOutputReference extends cdktf.ComplexObje
 }
 export interface AgentSpecConfigKubernetesAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#key Agent#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#key Agent#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#operator Agent#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#operator Agent#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#values Agent#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#values Agent#values}
   */
   readonly values?: string[];
 }
@@ -1251,15 +1251,15 @@ export class AgentSpecConfigKubernetesAffinityNodeAffinityPreferredDuringSchedul
 }
 export interface AgentSpecConfigKubernetesAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#key Agent#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#key Agent#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#operator Agent#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#operator Agent#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#values Agent#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#values Agent#values}
   */
   readonly values?: string[];
 }
@@ -1435,13 +1435,13 @@ export interface AgentSpecConfigKubernetesAffinityNodeAffinityPreferredDuringSch
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#match_expressions Agent#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#match_expressions Agent#match_expressions}
   */
   readonly matchExpressions?: AgentSpecConfigKubernetesAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
   * match_fields block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#match_fields Agent#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#match_fields Agent#match_fields}
   */
   readonly matchFields?: AgentSpecConfigKubernetesAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -1554,13 +1554,13 @@ export class AgentSpecConfigKubernetesAffinityNodeAffinityPreferredDuringSchedul
 }
 export interface AgentSpecConfigKubernetesAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#weight Agent#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#weight Agent#weight}
   */
   readonly weight?: number;
   /**
   * preference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#preference Agent#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#preference Agent#preference}
   */
   readonly preference?: AgentSpecConfigKubernetesAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
 }
@@ -1705,15 +1705,15 @@ export class AgentSpecConfigKubernetesAffinityNodeAffinityPreferredDuringSchedul
 }
 export interface AgentSpecConfigKubernetesAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#key Agent#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#key Agent#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#operator Agent#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#operator Agent#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#values Agent#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#values Agent#values}
   */
   readonly values?: string[];
 }
@@ -1887,15 +1887,15 @@ export class AgentSpecConfigKubernetesAffinityNodeAffinityRequiredDuringScheduli
 }
 export interface AgentSpecConfigKubernetesAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#key Agent#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#key Agent#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#operator Agent#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#operator Agent#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#values Agent#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#values Agent#values}
   */
   readonly values?: string[];
 }
@@ -2071,13 +2071,13 @@ export interface AgentSpecConfigKubernetesAffinityNodeAffinityRequiredDuringSche
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#match_expressions Agent#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#match_expressions Agent#match_expressions}
   */
   readonly matchExpressions?: AgentSpecConfigKubernetesAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
   * match_fields block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#match_fields Agent#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#match_fields Agent#match_fields}
   */
   readonly matchFields?: AgentSpecConfigKubernetesAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -2224,7 +2224,7 @@ export interface AgentSpecConfigKubernetesAffinityNodeAffinityRequiredDuringSche
   /**
   * node_selector_terms block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#node_selector_terms Agent#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#node_selector_terms Agent#node_selector_terms}
   */
   readonly nodeSelectorTerms?: AgentSpecConfigKubernetesAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -2310,13 +2310,13 @@ export interface AgentSpecConfigKubernetesAffinityNodeAffinity {
   /**
   * preferred_during_scheduling_ignored_during_execution block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#preferred_during_scheduling_ignored_during_execution Agent#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#preferred_during_scheduling_ignored_during_execution Agent#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: AgentSpecConfigKubernetesAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * required_during_scheduling_ignored_during_execution block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#required_during_scheduling_ignored_during_execution Agent#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#required_during_scheduling_ignored_during_execution Agent#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: AgentSpecConfigKubernetesAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -2429,15 +2429,15 @@ export class AgentSpecConfigKubernetesAffinityNodeAffinityOutputReference extend
 }
 export interface AgentSpecConfigKubernetesAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#key Agent#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#key Agent#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#operator Agent#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#operator Agent#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#values Agent#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#values Agent#values}
   */
   readonly values?: string[];
 }
@@ -2611,13 +2611,13 @@ export class AgentSpecConfigKubernetesAffinityPodAffinityPreferredDuringScheduli
 }
 export interface AgentSpecConfigKubernetesAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#match_labels Agent#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#match_labels Agent#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#match_expressions Agent#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#match_expressions Agent#match_expressions}
   */
   readonly matchExpressions?: AgentSpecConfigKubernetesAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -2730,15 +2730,15 @@ export class AgentSpecConfigKubernetesAffinityPodAffinityPreferredDuringScheduli
 }
 export interface AgentSpecConfigKubernetesAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#key Agent#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#key Agent#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#operator Agent#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#operator Agent#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#values Agent#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#values Agent#values}
   */
   readonly values?: string[];
 }
@@ -2912,13 +2912,13 @@ export class AgentSpecConfigKubernetesAffinityPodAffinityPreferredDuringScheduli
 }
 export interface AgentSpecConfigKubernetesAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#match_labels Agent#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#match_labels Agent#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#match_expressions Agent#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#match_expressions Agent#match_expressions}
   */
   readonly matchExpressions?: AgentSpecConfigKubernetesAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -3031,23 +3031,23 @@ export class AgentSpecConfigKubernetesAffinityPodAffinityPreferredDuringScheduli
 }
 export interface AgentSpecConfigKubernetesAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#namespaces Agent#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#namespaces Agent#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#topology_key Agent#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#topology_key Agent#topology_key}
   */
   readonly topologyKey?: string;
   /**
   * label_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#label_selector Agent#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#label_selector Agent#label_selector}
   */
   readonly labelSelector?: AgentSpecConfigKubernetesAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * namespace_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#namespace_selector Agent#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#namespace_selector Agent#namespace_selector}
   */
   readonly namespaceSelector?: AgentSpecConfigKubernetesAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
 }
@@ -3218,13 +3218,13 @@ export class AgentSpecConfigKubernetesAffinityPodAffinityPreferredDuringScheduli
 }
 export interface AgentSpecConfigKubernetesAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#weight Agent#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#weight Agent#weight}
   */
   readonly weight?: number;
   /**
   * pod_affinity_term block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#pod_affinity_term Agent#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#pod_affinity_term Agent#pod_affinity_term}
   */
   readonly podAffinityTerm?: AgentSpecConfigKubernetesAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
 }
@@ -3369,15 +3369,15 @@ export class AgentSpecConfigKubernetesAffinityPodAffinityPreferredDuringScheduli
 }
 export interface AgentSpecConfigKubernetesAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#key Agent#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#key Agent#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#operator Agent#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#operator Agent#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#values Agent#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#values Agent#values}
   */
   readonly values?: string[];
 }
@@ -3551,13 +3551,13 @@ export class AgentSpecConfigKubernetesAffinityPodAffinityRequiredDuringSchedulin
 }
 export interface AgentSpecConfigKubernetesAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#match_labels Agent#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#match_labels Agent#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#match_expressions Agent#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#match_expressions Agent#match_expressions}
   */
   readonly matchExpressions?: AgentSpecConfigKubernetesAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -3670,15 +3670,15 @@ export class AgentSpecConfigKubernetesAffinityPodAffinityRequiredDuringSchedulin
 }
 export interface AgentSpecConfigKubernetesAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#key Agent#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#key Agent#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#operator Agent#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#operator Agent#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#values Agent#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#values Agent#values}
   */
   readonly values?: string[];
 }
@@ -3852,13 +3852,13 @@ export class AgentSpecConfigKubernetesAffinityPodAffinityRequiredDuringSchedulin
 }
 export interface AgentSpecConfigKubernetesAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#match_labels Agent#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#match_labels Agent#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#match_expressions Agent#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#match_expressions Agent#match_expressions}
   */
   readonly matchExpressions?: AgentSpecConfigKubernetesAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -3971,23 +3971,23 @@ export class AgentSpecConfigKubernetesAffinityPodAffinityRequiredDuringSchedulin
 }
 export interface AgentSpecConfigKubernetesAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#namespaces Agent#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#namespaces Agent#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#topology_key Agent#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#topology_key Agent#topology_key}
   */
   readonly topologyKey?: string;
   /**
   * label_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#label_selector Agent#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#label_selector Agent#label_selector}
   */
   readonly labelSelector?: AgentSpecConfigKubernetesAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * namespace_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#namespace_selector Agent#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#namespace_selector Agent#namespace_selector}
   */
   readonly namespaceSelector?: AgentSpecConfigKubernetesAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
 }
@@ -4192,13 +4192,13 @@ export interface AgentSpecConfigKubernetesAffinityPodAffinity {
   /**
   * preferred_during_scheduling_ignored_during_execution block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#preferred_during_scheduling_ignored_during_execution Agent#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#preferred_during_scheduling_ignored_during_execution Agent#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: AgentSpecConfigKubernetesAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * required_during_scheduling_ignored_during_execution block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#required_during_scheduling_ignored_during_execution Agent#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#required_during_scheduling_ignored_during_execution Agent#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: AgentSpecConfigKubernetesAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -4311,15 +4311,15 @@ export class AgentSpecConfigKubernetesAffinityPodAffinityOutputReference extends
 }
 export interface AgentSpecConfigKubernetesAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#key Agent#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#key Agent#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#operator Agent#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#operator Agent#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#values Agent#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#values Agent#values}
   */
   readonly values?: string[];
 }
@@ -4493,13 +4493,13 @@ export class AgentSpecConfigKubernetesAffinityPodAntiAffinityPreferredDuringSche
 }
 export interface AgentSpecConfigKubernetesAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#match_labels Agent#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#match_labels Agent#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#match_expressions Agent#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#match_expressions Agent#match_expressions}
   */
   readonly matchExpressions?: AgentSpecConfigKubernetesAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -4612,15 +4612,15 @@ export class AgentSpecConfigKubernetesAffinityPodAntiAffinityPreferredDuringSche
 }
 export interface AgentSpecConfigKubernetesAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#key Agent#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#key Agent#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#operator Agent#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#operator Agent#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#values Agent#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#values Agent#values}
   */
   readonly values?: string[];
 }
@@ -4794,13 +4794,13 @@ export class AgentSpecConfigKubernetesAffinityPodAntiAffinityPreferredDuringSche
 }
 export interface AgentSpecConfigKubernetesAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#match_labels Agent#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#match_labels Agent#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#match_expressions Agent#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#match_expressions Agent#match_expressions}
   */
   readonly matchExpressions?: AgentSpecConfigKubernetesAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -4913,23 +4913,23 @@ export class AgentSpecConfigKubernetesAffinityPodAntiAffinityPreferredDuringSche
 }
 export interface AgentSpecConfigKubernetesAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#namespaces Agent#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#namespaces Agent#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#topology_key Agent#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#topology_key Agent#topology_key}
   */
   readonly topologyKey?: string;
   /**
   * label_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#label_selector Agent#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#label_selector Agent#label_selector}
   */
   readonly labelSelector?: AgentSpecConfigKubernetesAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * namespace_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#namespace_selector Agent#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#namespace_selector Agent#namespace_selector}
   */
   readonly namespaceSelector?: AgentSpecConfigKubernetesAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
 }
@@ -5100,13 +5100,13 @@ export class AgentSpecConfigKubernetesAffinityPodAntiAffinityPreferredDuringSche
 }
 export interface AgentSpecConfigKubernetesAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#weight Agent#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#weight Agent#weight}
   */
   readonly weight?: number;
   /**
   * pod_affinity_term block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#pod_affinity_term Agent#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#pod_affinity_term Agent#pod_affinity_term}
   */
   readonly podAffinityTerm?: AgentSpecConfigKubernetesAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
 }
@@ -5251,15 +5251,15 @@ export class AgentSpecConfigKubernetesAffinityPodAntiAffinityPreferredDuringSche
 }
 export interface AgentSpecConfigKubernetesAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#key Agent#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#key Agent#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#operator Agent#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#operator Agent#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#values Agent#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#values Agent#values}
   */
   readonly values?: string[];
 }
@@ -5433,13 +5433,13 @@ export class AgentSpecConfigKubernetesAffinityPodAntiAffinityRequiredDuringSched
 }
 export interface AgentSpecConfigKubernetesAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#match_labels Agent#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#match_labels Agent#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#match_expressions Agent#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#match_expressions Agent#match_expressions}
   */
   readonly matchExpressions?: AgentSpecConfigKubernetesAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -5552,15 +5552,15 @@ export class AgentSpecConfigKubernetesAffinityPodAntiAffinityRequiredDuringSched
 }
 export interface AgentSpecConfigKubernetesAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#key Agent#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#key Agent#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#operator Agent#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#operator Agent#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#values Agent#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#values Agent#values}
   */
   readonly values?: string[];
 }
@@ -5734,13 +5734,13 @@ export class AgentSpecConfigKubernetesAffinityPodAntiAffinityRequiredDuringSched
 }
 export interface AgentSpecConfigKubernetesAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#match_labels Agent#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#match_labels Agent#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#match_expressions Agent#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#match_expressions Agent#match_expressions}
   */
   readonly matchExpressions?: AgentSpecConfigKubernetesAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -5853,23 +5853,23 @@ export class AgentSpecConfigKubernetesAffinityPodAntiAffinityRequiredDuringSched
 }
 export interface AgentSpecConfigKubernetesAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#namespaces Agent#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#namespaces Agent#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#topology_key Agent#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#topology_key Agent#topology_key}
   */
   readonly topologyKey?: string;
   /**
   * label_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#label_selector Agent#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#label_selector Agent#label_selector}
   */
   readonly labelSelector?: AgentSpecConfigKubernetesAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * namespace_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#namespace_selector Agent#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#namespace_selector Agent#namespace_selector}
   */
   readonly namespaceSelector?: AgentSpecConfigKubernetesAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
 }
@@ -6074,13 +6074,13 @@ export interface AgentSpecConfigKubernetesAffinityPodAntiAffinity {
   /**
   * preferred_during_scheduling_ignored_during_execution block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#preferred_during_scheduling_ignored_during_execution Agent#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#preferred_during_scheduling_ignored_during_execution Agent#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: AgentSpecConfigKubernetesAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * required_during_scheduling_ignored_during_execution block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#required_during_scheduling_ignored_during_execution Agent#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#required_during_scheduling_ignored_during_execution Agent#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: AgentSpecConfigKubernetesAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -6195,19 +6195,19 @@ export interface AgentSpecConfigKubernetesAffinity {
   /**
   * node_affinity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#node_affinity Agent#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#node_affinity Agent#node_affinity}
   */
   readonly nodeAffinity?: AgentSpecConfigKubernetesAffinityNodeAffinity;
   /**
   * pod_affinity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#pod_affinity Agent#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#pod_affinity Agent#pod_affinity}
   */
   readonly podAffinity?: AgentSpecConfigKubernetesAffinityPodAffinity;
   /**
   * pod_anti_affinity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#pod_anti_affinity Agent#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#pod_anti_affinity Agent#pod_anti_affinity}
   */
   readonly podAntiAffinity?: AgentSpecConfigKubernetesAffinityPodAntiAffinity;
 }
@@ -6351,13 +6351,13 @@ export interface AgentSpecConfigKubernetesLimits {
   /**
   * CPU limit for the Kubernetes agent. Has to be a valid Kubernetes CPU limit format, e.g., '500m' for 0.5 CPU cores. Must be greater than or equal to 250m.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#cpu Agent#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#cpu Agent#cpu}
   */
   readonly cpu?: string;
   /**
   * Memory limit for the Kubernetes agent. Has to be a valid Kubernetes memory limit format, e.g., '512Mi' for 512 MiB. Must be greater than or equal to 1Gi.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#memory Agent#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#memory Agent#memory}
   */
   readonly memory?: string;
 }
@@ -6470,23 +6470,23 @@ export class AgentSpecConfigKubernetesLimitsOutputReference extends cdktf.Comple
 }
 export interface AgentSpecConfigKubernetesTolerations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#effect Agent#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#effect Agent#effect}
   */
   readonly effect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#key Agent#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#key Agent#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#operator Agent#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#operator Agent#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#toleration_seconds Agent#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#toleration_seconds Agent#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#value Agent#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#value Agent#value}
   */
   readonly value?: string;
 }
@@ -6720,25 +6720,25 @@ export interface AgentSpecConfigKubernetes {
   /**
   * Node selector for the Kubernetes agent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#node_selector Agent#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#node_selector Agent#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * affinity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#affinity Agent#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#affinity Agent#affinity}
   */
   readonly affinity?: AgentSpecConfigKubernetesAffinity;
   /**
   * limits block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#limits Agent#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#limits Agent#limits}
   */
   readonly limits?: AgentSpecConfigKubernetesLimits;
   /**
   * tolerations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#tolerations Agent#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#tolerations Agent#tolerations}
   */
   readonly tolerations?: AgentSpecConfigKubernetesTolerations[] | cdktf.IResolvable;
 }
@@ -6911,25 +6911,25 @@ export interface AgentSpecConfig {
   /**
   * Number of concurrent API calls that the agent can handle. This is application for repository operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#concurrency Agent#concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#concurrency Agent#concurrency}
   */
   readonly concurrency?: number;
   /**
   * docker block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#docker Agent#docker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#docker Agent#docker}
   */
   readonly docker?: AgentSpecConfigDocker;
   /**
   * environment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#environment Agent#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#environment Agent#environment}
   */
   readonly environment?: AgentSpecConfigEnvironment;
   /**
   * kubernetes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#kubernetes Agent#kubernetes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#kubernetes Agent#kubernetes}
   */
   readonly kubernetes?: AgentSpecConfigKubernetes;
 }
@@ -7102,7 +7102,7 @@ export interface AgentSpecSharingProjects {
   /**
   * name of the project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#name Agent#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#name Agent#name}
   */
   readonly name?: string;
 }
@@ -7220,13 +7220,13 @@ export interface AgentSpecSharing {
   /**
   * flag to specify if sharing is enabled for resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#enabled Agent#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#enabled Agent#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * projects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#projects Agent#projects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#projects Agent#projects}
   */
   readonly projects?: AgentSpecSharingProjects[] | cdktf.IResolvable;
 }
@@ -7341,37 +7341,37 @@ export interface AgentSpec {
   /**
   * flag to indicate if the agent is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#active Agent#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#active Agent#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
   /**
   * type of agent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#type Agent#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#type Agent#type}
   */
   readonly type?: string;
   /**
   * version of agent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#version Agent#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#version Agent#version}
   */
   readonly version?: string;
   /**
   * cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#cluster Agent#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#cluster Agent#cluster}
   */
   readonly cluster?: AgentSpecCluster;
   /**
   * config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#config Agent#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#config Agent#config}
   */
   readonly config?: AgentSpecConfig;
   /**
   * sharing block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#sharing Agent#sharing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#sharing Agent#sharing}
   */
   readonly sharing?: AgentSpecSharing;
 }
@@ -7600,15 +7600,15 @@ export class AgentSpecOutputReference extends cdktf.ComplexObject {
 }
 export interface AgentTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#create Agent#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#create Agent#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#delete Agent#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#delete Agent#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#update Agent#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#update Agent#update}
   */
   readonly update?: string;
 }
@@ -7760,7 +7760,7 @@ export class AgentTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent rafay_agent}
+* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent rafay_agent}
 */
 export class Agent extends cdktf.TerraformResource {
 
@@ -7776,7 +7776,7 @@ export class Agent extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Agent resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Agent to import
-  * @param importFromId The id of the existing Agent that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Agent that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Agent to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -7788,7 +7788,7 @@ export class Agent extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/agent rafay_agent} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/agent rafay_agent} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -7799,7 +7799,8 @@ export class Agent extends cdktf.TerraformResource {
       terraformResourceType: 'rafay_agent',
       terraformGeneratorMetadata: {
         providerName: 'rafay',
-        providerVersion: '1.1.52'
+        providerVersion: '1.1.53',
+        providerVersionConstraint: '1.1.53'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

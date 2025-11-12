@@ -80,7 +80,8 @@ export class DataCloudscaleFloatingIp extends cdktf.TerraformDataSource {
       terraformResourceType: 'cloudscale_floating_ip',
       terraformGeneratorMetadata: {
         providerName: 'cloudscale',
-        providerVersion: '5.0.0'
+        providerVersion: '5.0.0',
+        providerVersionConstraint: '5.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

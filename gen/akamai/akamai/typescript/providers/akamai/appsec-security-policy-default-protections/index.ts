@@ -74,7 +74,8 @@ export class AppsecSecurityPolicyDefaultProtections extends cdktf.TerraformResou
       terraformResourceType: 'akamai_appsec_security_policy_default_protections',
       terraformGeneratorMetadata: {
         providerName: 'akamai',
-        providerVersion: '9.1.0'
+        providerVersion: '9.1.0',
+        providerVersionConstraint: '9.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

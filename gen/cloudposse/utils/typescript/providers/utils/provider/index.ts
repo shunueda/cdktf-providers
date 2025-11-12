@@ -55,7 +55,8 @@ export class UtilsProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'utils',
       terraformGeneratorMetadata: {
         providerName: 'utils',
-        providerVersion: '1.31.0'
+        providerVersion: '1.31.0',
+        providerVersionConstraint: '1.31.0'
       },
       terraformProviderSource: 'cloudposse/utils'
     });

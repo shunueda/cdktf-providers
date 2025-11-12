@@ -196,7 +196,8 @@ export class MongodbShardingNetworkPrivateAddress extends cdktf.TerraformResourc
       terraformResourceType: 'alicloud_mongodb_sharding_network_private_address',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

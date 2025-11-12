@@ -513,7 +513,8 @@ export class DataCloudflareAccountToken extends cdktf.TerraformDataSource {
       terraformResourceType: 'cloudflare_account_token',
       terraformGeneratorMetadata: {
         providerName: 'cloudflare',
-        providerVersion: '5.12.0'
+        providerVersion: '5.12.0',
+        providerVersionConstraint: '5.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

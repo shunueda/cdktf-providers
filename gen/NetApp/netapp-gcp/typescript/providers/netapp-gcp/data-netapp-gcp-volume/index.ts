@@ -1026,7 +1026,8 @@ export class DataNetappGcpVolume extends cdktf.TerraformDataSource {
       terraformResourceType: 'netapp-gcp_volume',
       terraformGeneratorMetadata: {
         providerName: 'netapp-gcp',
-        providerVersion: '24.6.0'
+        providerVersion: '24.6.0',
+        providerVersionConstraint: '24.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

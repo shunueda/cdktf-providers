@@ -92,7 +92,8 @@ export class AamAuthenticationSamlIdentityProvider extends cdktf.TerraformResour
       terraformResourceType: 'thunder_aam_authentication_saml_identity_provider',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

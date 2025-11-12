@@ -4050,7 +4050,8 @@ export class DataIntersightNiatelemetryApicSnmpTrapFwdServerDetails extends cdkt
       terraformResourceType: 'intersight_niatelemetry_apic_snmp_trap_fwd_server_details',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/instance_backups
+// https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/instance_backups
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataLinodeInstanceBackupsConfig extends cdktf.TerraformMetaArgu
   /**
   * The ID of the Linode to get backups for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/instance_backups#linode_id DataLinodeInstanceBackups#linode_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/instance_backups#linode_id DataLinodeInstanceBackups#linode_id}
   */
   readonly linodeId: number;
 }
@@ -634,7 +634,7 @@ export class DataLinodeInstanceBackupsInProgressList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/instance_backups linode_instance_backups}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/instance_backups linode_instance_backups}
 */
 export class DataLinodeInstanceBackups extends cdktf.TerraformDataSource {
 
@@ -650,7 +650,7 @@ export class DataLinodeInstanceBackups extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataLinodeInstanceBackups resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataLinodeInstanceBackups to import
-  * @param importFromId The id of the existing DataLinodeInstanceBackups that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/instance_backups#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataLinodeInstanceBackups that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/instance_backups#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataLinodeInstanceBackups to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -662,7 +662,7 @@ export class DataLinodeInstanceBackups extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/instance_backups linode_instance_backups} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/instance_backups linode_instance_backups} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -673,7 +673,8 @@ export class DataLinodeInstanceBackups extends cdktf.TerraformDataSource {
       terraformResourceType: 'linode_instance_backups',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.5.0'
+        providerVersion: '3.5.1',
+        providerVersionConstraint: '3.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

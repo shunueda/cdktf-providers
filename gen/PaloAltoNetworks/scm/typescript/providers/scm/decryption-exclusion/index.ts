@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/decryption_exclusion
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_exclusion
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface DecryptionExclusionConfig extends cdktf.TerraformMetaArguments 
   /**
   * Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/decryption_exclusion#description DecryptionExclusion#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_exclusion#description DecryptionExclusion#description}
   */
   readonly description?: string;
   /**
   * The device in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/decryption_exclusion#device DecryptionExclusion#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_exclusion#device DecryptionExclusion#device}
   */
   readonly device?: string;
   /**
   * The folder in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/decryption_exclusion#folder DecryptionExclusion#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_exclusion#folder DecryptionExclusion#folder}
   */
   readonly folder?: string;
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/decryption_exclusion#name DecryptionExclusion#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_exclusion#name DecryptionExclusion#name}
   */
   readonly name: string;
   /**
   * The snippet in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/decryption_exclusion#snippet DecryptionExclusion#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_exclusion#snippet DecryptionExclusion#snippet}
   */
   readonly snippet?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/decryption_exclusion scm_decryption_exclusion}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_exclusion scm_decryption_exclusion}
 */
 export class DecryptionExclusion extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class DecryptionExclusion extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DecryptionExclusion resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DecryptionExclusion to import
-  * @param importFromId The id of the existing DecryptionExclusion that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/decryption_exclusion#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DecryptionExclusion that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_exclusion#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DecryptionExclusion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class DecryptionExclusion extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/decryption_exclusion scm_decryption_exclusion} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_exclusion scm_decryption_exclusion} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,7 +79,8 @@ export class DecryptionExclusion extends cdktf.TerraformResource {
       terraformResourceType: 'scm_decryption_exclusion',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.3'
+        providerVersion: '1.0.4',
+        providerVersionConstraint: '1.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

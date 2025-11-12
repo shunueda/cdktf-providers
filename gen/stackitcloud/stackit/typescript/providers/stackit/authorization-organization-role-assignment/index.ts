@@ -67,7 +67,8 @@ export class AuthorizationOrganizationRoleAssignment extends cdktf.TerraformReso
       terraformResourceType: 'stackit_authorization_organization_role_assignment',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.69.0'
+        providerVersion: '0.69.0',
+        providerVersionConstraint: '0.69.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

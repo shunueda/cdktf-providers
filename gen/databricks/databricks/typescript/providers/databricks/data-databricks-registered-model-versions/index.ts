@@ -1905,7 +1905,8 @@ export class DataDatabricksRegisteredModelVersions extends cdktf.TerraformDataSo
       terraformResourceType: 'databricks_registered_model_versions',
       terraformGeneratorMetadata: {
         providerName: 'databricks',
-        providerVersion: '1.97.0'
+        providerVersion: '1.97.0',
+        providerVersionConstraint: '1.97.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

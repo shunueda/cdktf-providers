@@ -88,7 +88,8 @@ export class DataRancher2CatalogV2 extends cdktf.TerraformDataSource {
       terraformResourceType: 'rancher2_catalog_v2',
       terraformGeneratorMetadata: {
         providerName: 'rancher2',
-        providerVersion: '8.3.1'
+        providerVersion: '8.3.1',
+        providerVersionConstraint: '8.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

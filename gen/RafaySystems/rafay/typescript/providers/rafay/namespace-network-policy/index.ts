@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/namespace_network_policy
+// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface NamespaceNetworkPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/namespace_network_policy#id NamespaceNetworkPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy#id NamespaceNetworkPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface NamespaceNetworkPolicyConfig extends cdktf.TerraformMetaArgumen
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/namespace_network_policy#metadata NamespaceNetworkPolicy#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy#metadata NamespaceNetworkPolicy#metadata}
   */
   readonly metadata?: NamespaceNetworkPolicyMetadata;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/namespace_network_policy#spec NamespaceNetworkPolicy#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy#spec NamespaceNetworkPolicy#spec}
   */
   readonly spec?: NamespaceNetworkPolicySpec;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/namespace_network_policy#timeouts NamespaceNetworkPolicy#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy#timeouts NamespaceNetworkPolicy#timeouts}
   */
   readonly timeouts?: NamespaceNetworkPolicyTimeouts;
 }
@@ -37,7 +37,7 @@ export interface NamespaceNetworkPolicyMetadataCreatedBy {
   /**
   * Id of the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/namespace_network_policy#id NamespaceNetworkPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy#id NamespaceNetworkPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -46,13 +46,13 @@ export interface NamespaceNetworkPolicyMetadataCreatedBy {
   /**
   * Whether person is logged in using sso
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/namespace_network_policy#is_sso_user NamespaceNetworkPolicy#is_sso_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy#is_sso_user NamespaceNetworkPolicy#is_sso_user}
   */
   readonly isSsoUser?: boolean | cdktf.IResolvable;
   /**
   * Username fo the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/namespace_network_policy#username NamespaceNetworkPolicy#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy#username NamespaceNetworkPolicy#username}
   */
   readonly username?: string;
 }
@@ -196,7 +196,7 @@ export interface NamespaceNetworkPolicyMetadataModifiedBy {
   /**
   * Id of the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/namespace_network_policy#id NamespaceNetworkPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy#id NamespaceNetworkPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -205,13 +205,13 @@ export interface NamespaceNetworkPolicyMetadataModifiedBy {
   /**
   * Whether person is logged in using sso
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/namespace_network_policy#is_sso_user NamespaceNetworkPolicy#is_sso_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy#is_sso_user NamespaceNetworkPolicy#is_sso_user}
   */
   readonly isSsoUser?: boolean | cdktf.IResolvable;
   /**
   * Username fo the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/namespace_network_policy#username NamespaceNetworkPolicy#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy#username NamespaceNetworkPolicy#username}
   */
   readonly username?: string;
 }
@@ -355,49 +355,49 @@ export interface NamespaceNetworkPolicyMetadata {
   /**
   * annotations of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/namespace_network_policy#annotations NamespaceNetworkPolicy#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy#annotations NamespaceNetworkPolicy#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * description of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/namespace_network_policy#description NamespaceNetworkPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy#description NamespaceNetworkPolicy#description}
   */
   readonly description?: string;
   /**
   * Display Name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/namespace_network_policy#display_name NamespaceNetworkPolicy#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy#display_name NamespaceNetworkPolicy#display_name}
   */
   readonly displayName?: string;
   /**
   * labels of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/namespace_network_policy#labels NamespaceNetworkPolicy#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy#labels NamespaceNetworkPolicy#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/namespace_network_policy#name NamespaceNetworkPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy#name NamespaceNetworkPolicy#name}
   */
   readonly name?: string;
   /**
   * Project of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/namespace_network_policy#project NamespaceNetworkPolicy#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy#project NamespaceNetworkPolicy#project}
   */
   readonly project?: string;
   /**
   * created_by block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/namespace_network_policy#created_by NamespaceNetworkPolicy#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy#created_by NamespaceNetworkPolicy#created_by}
   */
   readonly createdBy?: NamespaceNetworkPolicyMetadataCreatedBy;
   /**
   * modified_by block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/namespace_network_policy#modified_by NamespaceNetworkPolicy#modified_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy#modified_by NamespaceNetworkPolicy#modified_by}
   */
   readonly modifiedBy?: NamespaceNetworkPolicyMetadataModifiedBy;
 }
@@ -686,25 +686,25 @@ export interface NamespaceNetworkPolicySpecRules {
   /**
   * name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/namespace_network_policy#name NamespaceNetworkPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy#name NamespaceNetworkPolicy#name}
   */
   readonly name?: string;
   /**
   * Indicates if a resource is from system catalog
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/namespace_network_policy#system_catalog NamespaceNetworkPolicy#system_catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy#system_catalog NamespaceNetworkPolicy#system_catalog}
   */
   readonly systemCatalog?: boolean | cdktf.IResolvable;
   /**
   * version of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/namespace_network_policy#version NamespaceNetworkPolicy#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy#version NamespaceNetworkPolicy#version}
   */
   readonly version?: string;
   /**
   * state of the resource version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/namespace_network_policy#version_state NamespaceNetworkPolicy#version_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy#version_state NamespaceNetworkPolicy#version_state}
   */
   readonly versionState?: string;
 }
@@ -909,7 +909,7 @@ export interface NamespaceNetworkPolicySpecSharingProjects {
   /**
   * name of the project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/namespace_network_policy#name NamespaceNetworkPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy#name NamespaceNetworkPolicy#name}
   */
   readonly name?: string;
 }
@@ -1027,13 +1027,13 @@ export interface NamespaceNetworkPolicySpecSharing {
   /**
   * flag to specify if sharing is enabled for resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/namespace_network_policy#enabled NamespaceNetworkPolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy#enabled NamespaceNetworkPolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * projects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/namespace_network_policy#projects NamespaceNetworkPolicy#projects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy#projects NamespaceNetworkPolicy#projects}
   */
   readonly projects?: NamespaceNetworkPolicySpecSharingProjects[] | cdktf.IResolvable;
 }
@@ -1148,19 +1148,19 @@ export interface NamespaceNetworkPolicySpec {
   /**
   * version of the namespace policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/namespace_network_policy#version NamespaceNetworkPolicy#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy#version NamespaceNetworkPolicy#version}
   */
   readonly version?: string;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/namespace_network_policy#rules NamespaceNetworkPolicy#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy#rules NamespaceNetworkPolicy#rules}
   */
   readonly rules?: NamespaceNetworkPolicySpecRules[] | cdktf.IResolvable;
   /**
   * sharing block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/namespace_network_policy#sharing NamespaceNetworkPolicy#sharing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy#sharing NamespaceNetworkPolicy#sharing}
   */
   readonly sharing?: NamespaceNetworkPolicySpecSharing;
 }
@@ -1302,15 +1302,15 @@ export class NamespaceNetworkPolicySpecOutputReference extends cdktf.ComplexObje
 }
 export interface NamespaceNetworkPolicyTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/namespace_network_policy#create NamespaceNetworkPolicy#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy#create NamespaceNetworkPolicy#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/namespace_network_policy#delete NamespaceNetworkPolicy#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy#delete NamespaceNetworkPolicy#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/namespace_network_policy#update NamespaceNetworkPolicy#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy#update NamespaceNetworkPolicy#update}
   */
   readonly update?: string;
 }
@@ -1462,7 +1462,7 @@ export class NamespaceNetworkPolicyTimeoutsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/namespace_network_policy rafay_namespace_network_policy}
+* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy rafay_namespace_network_policy}
 */
 export class NamespaceNetworkPolicy extends cdktf.TerraformResource {
 
@@ -1478,7 +1478,7 @@ export class NamespaceNetworkPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NamespaceNetworkPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NamespaceNetworkPolicy to import
-  * @param importFromId The id of the existing NamespaceNetworkPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/namespace_network_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NamespaceNetworkPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NamespaceNetworkPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1490,7 +1490,7 @@ export class NamespaceNetworkPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/namespace_network_policy rafay_namespace_network_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/namespace_network_policy rafay_namespace_network_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1501,7 +1501,8 @@ export class NamespaceNetworkPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'rafay_namespace_network_policy',
       terraformGeneratorMetadata: {
         providerName: 'rafay',
-        providerVersion: '1.1.52'
+        providerVersion: '1.1.53',
+        providerVersionConstraint: '1.1.53'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

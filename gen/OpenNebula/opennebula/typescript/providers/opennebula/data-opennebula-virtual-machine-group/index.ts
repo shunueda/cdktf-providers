@@ -70,7 +70,8 @@ export class DataOpennebulaVirtualMachineGroup extends cdktf.TerraformDataSource
       terraformResourceType: 'opennebula_virtual_machine_group',
       terraformGeneratorMetadata: {
         providerName: 'opennebula',
-        providerVersion: '1.5.0'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

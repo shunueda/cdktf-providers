@@ -211,7 +211,8 @@ export class DataTencentcloudCssXp2PDetailInfoList extends cdktf.TerraformDataSo
       terraformResourceType: 'tencentcloud_css_xp2p_detail_info_list',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

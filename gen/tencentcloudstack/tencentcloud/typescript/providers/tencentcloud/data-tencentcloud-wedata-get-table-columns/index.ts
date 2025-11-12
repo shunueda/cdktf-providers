@@ -168,7 +168,8 @@ export class DataTencentcloudWedataGetTableColumns extends cdktf.TerraformDataSo
       terraformResourceType: 'tencentcloud_wedata_get_table_columns',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

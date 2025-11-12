@@ -527,7 +527,8 @@ export class SecurityNetworkBasedWafSingleV3 extends cdktf.TerraformResource {
       terraformResourceType: 'ecl_security_network_based_waf_single_v3',
       terraformGeneratorMetadata: {
         providerName: 'ecl',
-        providerVersion: '2.12.1'
+        providerVersion: '2.12.1',
+        providerVersionConstraint: '2.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

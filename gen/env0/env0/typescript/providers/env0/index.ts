@@ -76,6 +76,7 @@ export * as dataEnv0CustomFlow from './data-env0-custom-flow';
 export * as dataEnv0CustomRole from './data-env0-custom-role';
 export * as dataEnv0CustomRoles from './data-env0-custom-roles';
 export * as dataEnv0Environment from './data-env0-environment';
+export * as dataEnv0Environments from './data-env0-environments';
 export * as dataEnv0GcpCredentials from './data-env0-gcp-credentials';
 export * as dataEnv0GcpGkeCredentials from './data-env0-gcp-gke-credentials';
 export * as dataEnv0GcpOidcCredentials from './data-env0-gcp-oidc-credentials';

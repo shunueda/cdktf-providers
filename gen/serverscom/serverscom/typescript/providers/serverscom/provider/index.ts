@@ -63,7 +63,8 @@ export class ServerscomProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'serverscom',
       terraformGeneratorMetadata: {
         providerName: 'serverscom',
-        providerVersion: '0.5.2'
+        providerVersion: '0.5.2',
+        providerVersionConstraint: '0.5.2'
       },
       terraformProviderSource: 'serverscom/serverscom'
     });

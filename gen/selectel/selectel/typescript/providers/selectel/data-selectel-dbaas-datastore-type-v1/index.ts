@@ -304,7 +304,8 @@ export class DataSelectelDbaasDatastoreTypeV1 extends cdktf.TerraformDataSource 
       terraformResourceType: 'selectel_dbaas_datastore_type_v1',
       terraformGeneratorMetadata: {
         providerName: 'selectel',
-        providerVersion: '7.1.0'
+        providerVersion: '7.1.0',
+        providerVersionConstraint: '7.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

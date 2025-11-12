@@ -53,7 +53,8 @@ export class DataAirbyteDeclarativeSourceDefinition extends cdktf.TerraformDataS
       terraformResourceType: 'airbyte_declarative_source_definition',
       terraformGeneratorMetadata: {
         providerName: 'airbyte',
-        providerVersion: '0.13.0'
+        providerVersion: '0.13.0',
+        providerVersionConstraint: '0.13.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

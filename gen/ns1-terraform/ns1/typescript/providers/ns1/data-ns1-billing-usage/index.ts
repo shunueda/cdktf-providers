@@ -259,7 +259,8 @@ export class DataNs1BillingUsage extends cdktf.TerraformDataSource {
       terraformResourceType: 'ns1_billing_usage',
       terraformGeneratorMetadata: {
         providerName: 'ns1',
-        providerVersion: '2.7.2'
+        providerVersion: '2.7.2',
+        providerVersionConstraint: '2.7.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

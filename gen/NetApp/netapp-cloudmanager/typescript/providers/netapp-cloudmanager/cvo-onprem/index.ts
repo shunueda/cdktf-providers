@@ -84,7 +84,8 @@ export class CvoOnprem extends cdktf.TerraformResource {
       terraformResourceType: 'netapp-cloudmanager_cvo_onprem',
       terraformGeneratorMetadata: {
         providerName: 'netapp-cloudmanager',
-        providerVersion: '26.0.0'
+        providerVersion: '26.0.0',
+        providerVersionConstraint: '26.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

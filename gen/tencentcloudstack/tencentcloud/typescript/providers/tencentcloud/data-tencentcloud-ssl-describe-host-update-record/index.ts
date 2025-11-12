@@ -184,7 +184,8 @@ export class DataTencentcloudSslDescribeHostUpdateRecord extends cdktf.Terraform
       terraformResourceType: 'tencentcloud_ssl_describe_host_update_record',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.25.3/docs/resources/team_role_mapping
+// https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.26.0/docs/resources/team_role_mapping
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface TeamRoleMappingConfig extends cdktf.TerraformMetaArguments {
   /**
   * A set of custom role keys to assign to the team.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.25.3/docs/resources/team_role_mapping#custom_role_keys TeamRoleMapping#custom_role_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.26.0/docs/resources/team_role_mapping#custom_role_keys TeamRoleMapping#custom_role_keys}
   */
   readonly customRoleKeys: string[];
   /**
   * The LaunchDarkly team key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.25.3/docs/resources/team_role_mapping#team_key TeamRoleMapping#team_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.26.0/docs/resources/team_role_mapping#team_key TeamRoleMapping#team_key}
   */
   readonly teamKey: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.25.3/docs/resources/team_role_mapping launchdarkly_team_role_mapping}
+* Represents a {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.26.0/docs/resources/team_role_mapping launchdarkly_team_role_mapping}
 */
 export class TeamRoleMapping extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class TeamRoleMapping extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TeamRoleMapping resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TeamRoleMapping to import
-  * @param importFromId The id of the existing TeamRoleMapping that should be imported. Refer to the {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.25.3/docs/resources/team_role_mapping#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TeamRoleMapping that should be imported. Refer to the {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.26.0/docs/resources/team_role_mapping#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TeamRoleMapping to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class TeamRoleMapping extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.25.3/docs/resources/team_role_mapping launchdarkly_team_role_mapping} Resource
+  * Create a new {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.26.0/docs/resources/team_role_mapping launchdarkly_team_role_mapping} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,7 +61,8 @@ export class TeamRoleMapping extends cdktf.TerraformResource {
       terraformResourceType: 'launchdarkly_team_role_mapping',
       terraformGeneratorMetadata: {
         providerName: 'launchdarkly',
-        providerVersion: '2.25.3'
+        providerVersion: '2.26.0',
+        providerVersionConstraint: '2.26.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

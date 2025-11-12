@@ -66,7 +66,8 @@ export class DataK8SCassandraDatastaxComCassandraDatacenterV1Beta1Manifest exten
       terraformResourceType: 'k8s_cassandra_datastax_com_cassandra_datacenter_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

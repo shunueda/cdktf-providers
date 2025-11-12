@@ -1590,7 +1590,8 @@ export class Monitor extends cdktf.TerraformResource {
       terraformResourceType: 'chronosphere_monitor',
       terraformGeneratorMetadata: {
         providerName: 'chronosphere',
-        providerVersion: '1.17.0'
+        providerVersion: '1.17.0',
+        providerVersionConstraint: '1.17.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -517,7 +517,8 @@ export class DataOciDataSafeUserAssessmentProfiles extends cdktf.TerraformDataSo
       terraformResourceType: 'oci_data_safe_user_assessment_profiles',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

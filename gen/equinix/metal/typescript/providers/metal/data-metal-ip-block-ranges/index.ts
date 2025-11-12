@@ -74,7 +74,8 @@ export class DataMetalIpBlockRanges extends cdktf.TerraformDataSource {
       terraformResourceType: 'metal_ip_block_ranges',
       terraformGeneratorMetadata: {
         providerName: 'metal',
-        providerVersion: '3.3.0'
+        providerVersion: '3.3.0',
+        providerVersionConstraint: '3.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

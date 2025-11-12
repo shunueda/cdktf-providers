@@ -825,7 +825,8 @@ export class DataCoralogixWebhook extends cdktf.TerraformDataSource {
       terraformResourceType: 'coralogix_webhook',
       terraformGeneratorMetadata: {
         providerName: 'coralogix',
-        providerVersion: '2.2.3'
+        providerVersion: '2.2.3',
+        providerVersionConstraint: '2.2.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

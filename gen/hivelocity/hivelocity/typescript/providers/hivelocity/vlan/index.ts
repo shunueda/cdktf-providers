@@ -174,7 +174,8 @@ export class Vlan extends cdktf.TerraformResource {
       terraformResourceType: 'hivelocity_vlan',
       terraformGeneratorMetadata: {
         providerName: 'hivelocity',
-        providerVersion: '0.7.9'
+        providerVersion: '0.7.9',
+        providerVersionConstraint: '0.7.9'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

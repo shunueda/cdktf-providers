@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/ospf
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,188 +10,283 @@ export interface OspfConfig extends cdktf.TerraformMetaArguments {
   /**
   * OSPF area parameters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/ospf#areas Ospf#areas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#areas Ospf#areas}
   */
   readonly areas?: OspfAreas[] | cdktf.IResolvable;
   /**
   * Use reference bandwidth method to assign OSPF cost
   *   - Range: `1`-`4294967`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/ospf#auto_cost_reference_bandwidth Ospf#auto_cost_reference_bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#auto_cost_reference_bandwidth Ospf#auto_cost_reference_bandwidth}
   */
   readonly autoCostReferenceBandwidth?: number;
   /**
   * Enable BFD on all interfaces
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/ospf#bfd_all_interfaces Ospf#bfd_all_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#bfd_all_interfaces Ospf#bfd_all_interfaces}
   */
   readonly bfdAllInterfaces?: boolean | cdktf.IResolvable;
   /**
   * Distribute a default route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/ospf#default_information_originate Ospf#default_information_originate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#default_information_originate Ospf#default_information_originate}
   */
   readonly defaultInformationOriginate?: boolean | cdktf.IResolvable;
   /**
   * Always advertise default route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/ospf#default_information_originate_always Ospf#default_information_originate_always}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#default_information_originate_always Ospf#default_information_originate_always}
   */
   readonly defaultInformationOriginateAlways?: boolean | cdktf.IResolvable;
   /**
   * Set metric of redistributed routes
   *   - Range: `1`-`16777214`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/ospf#default_metric Ospf#default_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#default_metric Ospf#default_metric}
   */
   readonly defaultMetric?: number;
   /**
   * Configure behavior when deleting/destroying the resource. Either delete the entire object (YANG container) being managed, or only delete the individual resource attributes configured explicitly and leave everything else as-is. Default value is `all`.
   *   - Choices: `all`, `attributes`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/ospf#delete_mode Ospf#delete_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#delete_mode Ospf#delete_mode}
   */
   readonly deleteMode?: string;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/ospf#device Ospf#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#device Ospf#device}
   */
   readonly device?: string;
   /**
   * Administrative distance
   *   - Range: `1`-`255`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/ospf#distance Ospf#distance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#distance Ospf#distance}
   */
   readonly distance?: number;
   /**
   * OSPF domain-tag
   *   - Range: `1`-`4294967295`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/ospf#domain_tag Ospf#domain_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#domain_tag Ospf#domain_tag}
   */
   readonly domainTag?: number;
   /**
+  * Priority of prefixes to be protected
+  *   - Choices: `high`, `low`
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#fast_reroute_per_prefix_enable_prefix_priority Ospf#fast_reroute_per_prefix_enable_prefix_priority}
+  */
+  readonly fastReroutePerPrefixEnablePrefixPriority?: string;
+  /**
+  * Log changes in adjacency state
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#log_adjacency_changes Ospf#log_adjacency_changes}
+  */
+  readonly logAdjacencyChanges?: boolean | cdktf.IResolvable;
+  /**
+  * Log all state changes
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#log_adjacency_changes_detail Ospf#log_adjacency_changes_detail}
+  */
+  readonly logAdjacencyChangesDetail?: boolean | cdktf.IResolvable;
+  /**
+  * Maximum metric in self-originated router-LSAs
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#max_metric_router_lsa Ospf#max_metric_router_lsa}
+  */
+  readonly maxMetricRouterLsa?: boolean | cdktf.IResolvable;
+  /**
+  * 
+  *   - Range: `1`-`16777214`
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#max_metric_router_lsa_external_lsa_metric Ospf#max_metric_router_lsa_external_lsa_metric}
+  */
+  readonly maxMetricRouterLsaExternalLsaMetric?: number;
+  /**
+  * Set maximum metric for stub links in router-LSAs
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#max_metric_router_lsa_include_stub Ospf#max_metric_router_lsa_include_stub}
+  */
+  readonly maxMetricRouterLsaIncludeStub?: boolean | cdktf.IResolvable;
+  /**
+  * 
+  *   - Range: `5`-`86400`
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#max_metric_router_lsa_on_startup_time Ospf#max_metric_router_lsa_on_startup_time}
+  */
+  readonly maxMetricRouterLsaOnStartupTime?: number;
+  /**
+  * Let BGP decide when to originate router-LSA with normal metric
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#max_metric_router_lsa_on_startup_wait_for_bgp Ospf#max_metric_router_lsa_on_startup_wait_for_bgp}
+  */
+  readonly maxMetricRouterLsaOnStartupWaitForBgp?: boolean | cdktf.IResolvable;
+  /**
+  * 
+  *   - Range: `1`-`16777214`
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#max_metric_router_lsa_summary_lsa_metric Ospf#max_metric_router_lsa_summary_lsa_metric}
+  */
+  readonly maxMetricRouterLsaSummaryLsaMetric?: number;
+  /**
   * Configure LDP automatic configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/ospf#mpls_ldp_autoconfig Ospf#mpls_ldp_autoconfig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#mpls_ldp_autoconfig Ospf#mpls_ldp_autoconfig}
   */
   readonly mplsLdpAutoconfig?: boolean | cdktf.IResolvable;
   /**
   * Configure LDP-IGP Synchronization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/ospf#mpls_ldp_sync Ospf#mpls_ldp_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#mpls_ldp_sync Ospf#mpls_ldp_sync}
   */
   readonly mplsLdpSync?: boolean | cdktf.IResolvable;
   /**
   * Specify a neighbor router
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/ospf#neighbors Ospf#neighbors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#neighbors Ospf#neighbors}
   */
   readonly neighbors?: OspfNeighbors[] | cdktf.IResolvable;
   /**
   * Enable routing on an IP network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/ospf#networks Ospf#networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#networks Ospf#networks}
   */
   readonly networks?: OspfNetworks[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/ospf#passive_interface Ospf#passive_interface}
+  * Cisco Non-stop forwarding
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#nsf_cisco Ospf#nsf_cisco}
+  */
+  readonly nsfCisco?: boolean | cdktf.IResolvable;
+  /**
+  * For the whole OSPF process
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#nsf_cisco_enforce_global Ospf#nsf_cisco_enforce_global}
+  */
+  readonly nsfCiscoEnforceGlobal?: boolean | cdktf.IResolvable;
+  /**
+  * IETF graceful restart
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#nsf_ietf Ospf#nsf_ietf}
+  */
+  readonly nsfIetf?: boolean | cdktf.IResolvable;
+  /**
+  * Graceful restart interval
+  *   - Range: `1`-`1800`
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#nsf_ietf_restart_interval Ospf#nsf_ietf_restart_interval}
+  */
+  readonly nsfIetfRestartInterval?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#passive_interface Ospf#passive_interface}
   */
   readonly passiveInterface?: string[];
   /**
   * Suppress routing updates on all interfaces
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/ospf#passive_interface_default Ospf#passive_interface_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#passive_interface_default Ospf#passive_interface_default}
   */
   readonly passiveInterfaceDefault?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/ospf#passive_interface_disable_five_gigabit_ethernets Ospf#passive_interface_disable_five_gigabit_ethernets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#passive_interface_disable_five_gigabit_ethernets Ospf#passive_interface_disable_five_gigabit_ethernets}
   */
   readonly passiveInterfaceDisableFiveGigabitEthernets?: OspfPassiveInterfaceDisableFiveGigabitEthernets[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/ospf#passive_interface_disable_forty_gigabit_ethernets Ospf#passive_interface_disable_forty_gigabit_ethernets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#passive_interface_disable_forty_gigabit_ethernets Ospf#passive_interface_disable_forty_gigabit_ethernets}
   */
   readonly passiveInterfaceDisableFortyGigabitEthernets?: OspfPassiveInterfaceDisableFortyGigabitEthernets[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/ospf#passive_interface_disable_four_hundred_gigabit_ethernets Ospf#passive_interface_disable_four_hundred_gigabit_ethernets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#passive_interface_disable_four_hundred_gigabit_ethernets Ospf#passive_interface_disable_four_hundred_gigabit_ethernets}
   */
   readonly passiveInterfaceDisableFourHundredGigabitEthernets?: OspfPassiveInterfaceDisableFourHundredGigabitEthernets[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/ospf#passive_interface_disable_gigabit_ethernets Ospf#passive_interface_disable_gigabit_ethernets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#passive_interface_disable_gigabit_ethernets Ospf#passive_interface_disable_gigabit_ethernets}
   */
   readonly passiveInterfaceDisableGigabitEthernets?: OspfPassiveInterfaceDisableGigabitEthernets[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/ospf#passive_interface_disable_hundred_gigabit_ethernets Ospf#passive_interface_disable_hundred_gigabit_ethernets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#passive_interface_disable_hundred_gigabit_ethernets Ospf#passive_interface_disable_hundred_gigabit_ethernets}
   */
   readonly passiveInterfaceDisableHundredGigabitEthernets?: OspfPassiveInterfaceDisableHundredGigabitEthernets[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/ospf#passive_interface_disable_loopbacks Ospf#passive_interface_disable_loopbacks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#passive_interface_disable_loopbacks Ospf#passive_interface_disable_loopbacks}
   */
   readonly passiveInterfaceDisableLoopbacks?: OspfPassiveInterfaceDisableLoopbacks[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/ospf#passive_interface_disable_port_channel_subinterfaces Ospf#passive_interface_disable_port_channel_subinterfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#passive_interface_disable_port_channel_subinterfaces Ospf#passive_interface_disable_port_channel_subinterfaces}
   */
   readonly passiveInterfaceDisablePortChannelSubinterfaces?: OspfPassiveInterfaceDisablePortChannelSubinterfaces[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/ospf#passive_interface_disable_port_channels Ospf#passive_interface_disable_port_channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#passive_interface_disable_port_channels Ospf#passive_interface_disable_port_channels}
   */
   readonly passiveInterfaceDisablePortChannels?: OspfPassiveInterfaceDisablePortChannels[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/ospf#passive_interface_disable_ten_gigabit_ethernets Ospf#passive_interface_disable_ten_gigabit_ethernets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#passive_interface_disable_ten_gigabit_ethernets Ospf#passive_interface_disable_ten_gigabit_ethernets}
   */
   readonly passiveInterfaceDisableTenGigabitEthernets?: OspfPassiveInterfaceDisableTenGigabitEthernets[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/ospf#passive_interface_disable_tunnels Ospf#passive_interface_disable_tunnels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#passive_interface_disable_tunnels Ospf#passive_interface_disable_tunnels}
   */
   readonly passiveInterfaceDisableTunnels?: OspfPassiveInterfaceDisableTunnels[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/ospf#passive_interface_disable_twenty_five_gigabit_ethernets Ospf#passive_interface_disable_twenty_five_gigabit_ethernets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#passive_interface_disable_twenty_five_gigabit_ethernets Ospf#passive_interface_disable_twenty_five_gigabit_ethernets}
   */
   readonly passiveInterfaceDisableTwentyFiveGigabitEthernets?: OspfPassiveInterfaceDisableTwentyFiveGigabitEthernets[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/ospf#passive_interface_disable_two_gigabit_ethernets Ospf#passive_interface_disable_two_gigabit_ethernets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#passive_interface_disable_two_gigabit_ethernets Ospf#passive_interface_disable_two_gigabit_ethernets}
   */
   readonly passiveInterfaceDisableTwoGigabitEthernets?: OspfPassiveInterfaceDisableTwoGigabitEthernets[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/ospf#passive_interface_disable_two_hundred_gigabit_ethernets Ospf#passive_interface_disable_two_hundred_gigabit_ethernets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#passive_interface_disable_two_hundred_gigabit_ethernets Ospf#passive_interface_disable_two_hundred_gigabit_ethernets}
   */
   readonly passiveInterfaceDisableTwoHundredGigabitEthernets?: OspfPassiveInterfaceDisableTwoHundredGigabitEthernets[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/ospf#passive_interface_disable_vlans Ospf#passive_interface_disable_vlans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#passive_interface_disable_vlans Ospf#passive_interface_disable_vlans}
   */
   readonly passiveInterfaceDisableVlans?: OspfPassiveInterfaceDisableVlans[] | cdktf.IResolvable;
   /**
   * OSPF topology priority
   *   - Range: `0`-`127`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/ospf#priority Ospf#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#priority Ospf#priority}
   */
   readonly priority?: number;
   /**
   * Process ID
   *   - Range: `1`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/ospf#process_id Ospf#process_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#process_id Ospf#process_id}
   */
   readonly processId: number;
   /**
+  * Consider subnets for redistribution into OSPF (Will be removed in the future)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#redistribute_connected_subnets Ospf#redistribute_connected_subnets}
+  */
+  readonly redistributeConnectedSubnets?: boolean | cdktf.IResolvable;
+  /**
+  * Consider subnets for redistribution into OSPF (Will be removed in the future)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#redistribute_static_subnets Ospf#redistribute_static_subnets}
+  */
+  readonly redistributeStaticSubnets?: boolean | cdktf.IResolvable;
+  /**
   * Configure router identifier. New router-id will take effect immediately (peers will reset)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/ospf#router_id Ospf#router_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#router_id Ospf#router_id}
   */
   readonly routerId?: string;
   /**
   * Shutdown the OSPF protocol under the current instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/ospf#shutdown Ospf#shutdown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#shutdown Ospf#shutdown}
   */
   readonly shutdown?: boolean | cdktf.IResolvable;
   /**
   * Configure IP address summaries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/ospf#summary_addresses Ospf#summary_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#summary_addresses Ospf#summary_addresses}
   */
   readonly summaryAddresses?: OspfSummaryAddresses[] | cdktf.IResolvable;
 }
@@ -199,51 +294,51 @@ export interface OspfAreas {
   /**
   * OSPF area ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/ospf#area_id Ospf#area_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#area_id Ospf#area_id}
   */
   readonly areaId: string;
   /**
   * Use message-digest authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/ospf#authentication_message_digest Ospf#authentication_message_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#authentication_message_digest Ospf#authentication_message_digest}
   */
   readonly authenticationMessageDigest?: boolean | cdktf.IResolvable;
   /**
   * Specify a NSSA area
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/ospf#nssa Ospf#nssa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#nssa Ospf#nssa}
   */
   readonly nssa?: boolean | cdktf.IResolvable;
   /**
   * Originate Type 7 default into NSSA area
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/ospf#nssa_default_information_originate Ospf#nssa_default_information_originate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#nssa_default_information_originate Ospf#nssa_default_information_originate}
   */
   readonly nssaDefaultInformationOriginate?: boolean | cdktf.IResolvable;
   /**
   * OSPF default metric
   *   - Range: `0`-`16777214`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/ospf#nssa_default_information_originate_metric Ospf#nssa_default_information_originate_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#nssa_default_information_originate_metric Ospf#nssa_default_information_originate_metric}
   */
   readonly nssaDefaultInformationOriginateMetric?: number;
   /**
   * OSPF metric type for default routes
   *   - Range: `1`-`2`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/ospf#nssa_default_information_originate_metric_type Ospf#nssa_default_information_originate_metric_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#nssa_default_information_originate_metric_type Ospf#nssa_default_information_originate_metric_type}
   */
   readonly nssaDefaultInformationOriginateMetricType?: number;
   /**
   * No redistribution into this NSSA area
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/ospf#nssa_no_redistribution Ospf#nssa_no_redistribution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#nssa_no_redistribution Ospf#nssa_no_redistribution}
   */
   readonly nssaNoRedistribution?: boolean | cdktf.IResolvable;
   /**
   * Do not send summary LSA into NSSA
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/ospf#nssa_no_summary Ospf#nssa_no_summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#nssa_no_summary Ospf#nssa_no_summary}
   */
   readonly nssaNoSummary?: boolean | cdktf.IResolvable;
 }
@@ -562,20 +657,20 @@ export interface OspfNeighbors {
   * OSPF cost for point-to-multipoint neighbor
   *   - Range: `1`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/ospf#cost Ospf#cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#cost Ospf#cost}
   */
   readonly cost?: number;
   /**
   * Neighbor address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/ospf#ip Ospf#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#ip Ospf#ip}
   */
   readonly ip: string;
   /**
   * OSPF priority of non-broadcast neighbor
   *   - Range: `0`-`255`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/ospf#priority Ospf#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#priority Ospf#priority}
   */
   readonly priority?: number;
 }
@@ -748,21 +843,21 @@ export interface OspfNetworks {
   /**
   * Set the OSPF area ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/ospf#area Ospf#area}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#area Ospf#area}
   */
   readonly area?: string;
   /**
   * Network number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/ospf#ip Ospf#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#ip Ospf#ip}
   */
   readonly ip: string;
   /**
   * OSPF wild card bits
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/ospf#wildcard Ospf#wildcard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#wildcard Ospf#wildcard}
   */
-  readonly wildcard?: string;
+  readonly wildcard: string;
 }
 
 export function ospfNetworksToTerraform(struct?: OspfNetworks | cdktf.IResolvable): any {
@@ -893,16 +988,13 @@ export class OspfNetworksOutputReference extends cdktf.ComplexObject {
     return this._ip;
   }
 
-  // wildcard - computed: false, optional: true, required: false
+  // wildcard - computed: false, optional: false, required: true
   private _wildcard?: string; 
   public get wildcard() {
     return this.getStringAttribute('wildcard');
   }
   public set wildcard(value: string) {
     this._wildcard = value;
-  }
-  public resetWildcard() {
-    this._wildcard = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get wildcardInput() {
@@ -931,7 +1023,7 @@ export class OspfNetworksList extends cdktf.ComplexList {
 }
 export interface OspfPassiveInterfaceDisableFiveGigabitEthernets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/ospf#name Ospf#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#name Ospf#name}
   */
   readonly name: string;
 }
@@ -1044,7 +1136,7 @@ export class OspfPassiveInterfaceDisableFiveGigabitEthernetsList extends cdktf.C
 }
 export interface OspfPassiveInterfaceDisableFortyGigabitEthernets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/ospf#name Ospf#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#name Ospf#name}
   */
   readonly name: string;
 }
@@ -1157,7 +1249,7 @@ export class OspfPassiveInterfaceDisableFortyGigabitEthernetsList extends cdktf.
 }
 export interface OspfPassiveInterfaceDisableFourHundredGigabitEthernets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/ospf#name Ospf#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#name Ospf#name}
   */
   readonly name: string;
 }
@@ -1270,7 +1362,7 @@ export class OspfPassiveInterfaceDisableFourHundredGigabitEthernetsList extends 
 }
 export interface OspfPassiveInterfaceDisableGigabitEthernets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/ospf#name Ospf#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#name Ospf#name}
   */
   readonly name: string;
 }
@@ -1383,7 +1475,7 @@ export class OspfPassiveInterfaceDisableGigabitEthernetsList extends cdktf.Compl
 }
 export interface OspfPassiveInterfaceDisableHundredGigabitEthernets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/ospf#name Ospf#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#name Ospf#name}
   */
   readonly name: string;
 }
@@ -1496,7 +1588,7 @@ export class OspfPassiveInterfaceDisableHundredGigabitEthernetsList extends cdkt
 }
 export interface OspfPassiveInterfaceDisableLoopbacks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/ospf#name Ospf#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#name Ospf#name}
   */
   readonly name: string;
 }
@@ -1609,7 +1701,7 @@ export class OspfPassiveInterfaceDisableLoopbacksList extends cdktf.ComplexList 
 }
 export interface OspfPassiveInterfaceDisablePortChannelSubinterfaces {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/ospf#name Ospf#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#name Ospf#name}
   */
   readonly name: string;
 }
@@ -1722,7 +1814,7 @@ export class OspfPassiveInterfaceDisablePortChannelSubinterfacesList extends cdk
 }
 export interface OspfPassiveInterfaceDisablePortChannels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/ospf#name Ospf#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#name Ospf#name}
   */
   readonly name: string;
 }
@@ -1835,7 +1927,7 @@ export class OspfPassiveInterfaceDisablePortChannelsList extends cdktf.ComplexLi
 }
 export interface OspfPassiveInterfaceDisableTenGigabitEthernets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/ospf#name Ospf#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#name Ospf#name}
   */
   readonly name: string;
 }
@@ -1948,7 +2040,7 @@ export class OspfPassiveInterfaceDisableTenGigabitEthernetsList extends cdktf.Co
 }
 export interface OspfPassiveInterfaceDisableTunnels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/ospf#name Ospf#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#name Ospf#name}
   */
   readonly name: string;
 }
@@ -2061,7 +2153,7 @@ export class OspfPassiveInterfaceDisableTunnelsList extends cdktf.ComplexList {
 }
 export interface OspfPassiveInterfaceDisableTwentyFiveGigabitEthernets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/ospf#name Ospf#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#name Ospf#name}
   */
   readonly name: string;
 }
@@ -2174,7 +2266,7 @@ export class OspfPassiveInterfaceDisableTwentyFiveGigabitEthernetsList extends c
 }
 export interface OspfPassiveInterfaceDisableTwoGigabitEthernets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/ospf#name Ospf#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#name Ospf#name}
   */
   readonly name: string;
 }
@@ -2287,7 +2379,7 @@ export class OspfPassiveInterfaceDisableTwoGigabitEthernetsList extends cdktf.Co
 }
 export interface OspfPassiveInterfaceDisableTwoHundredGigabitEthernets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/ospf#name Ospf#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#name Ospf#name}
   */
   readonly name: string;
 }
@@ -2400,7 +2492,7 @@ export class OspfPassiveInterfaceDisableTwoHundredGigabitEthernetsList extends c
 }
 export interface OspfPassiveInterfaceDisableVlans {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/ospf#name Ospf#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#name Ospf#name}
   */
   readonly name: string;
 }
@@ -2515,15 +2607,15 @@ export interface OspfSummaryAddresses {
   /**
   * IP summary address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/ospf#ip Ospf#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#ip Ospf#ip}
   */
   readonly ip: string;
   /**
   * Summary mask
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/ospf#mask Ospf#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#mask Ospf#mask}
   */
-  readonly mask?: string;
+  readonly mask: string;
 }
 
 export function ospfSummaryAddressesToTerraform(struct?: OspfSummaryAddresses | cdktf.IResolvable): any {
@@ -2625,16 +2717,13 @@ export class OspfSummaryAddressesOutputReference extends cdktf.ComplexObject {
     return this._ip;
   }
 
-  // mask - computed: false, optional: true, required: false
+  // mask - computed: false, optional: false, required: true
   private _mask?: string; 
   public get mask() {
     return this.getStringAttribute('mask');
   }
   public set mask(value: string) {
     this._mask = value;
-  }
-  public resetMask() {
-    this._mask = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get maskInput() {
@@ -2663,7 +2752,7 @@ export class OspfSummaryAddressesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/ospf iosxe_ospf}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf iosxe_ospf}
 */
 export class Ospf extends cdktf.TerraformResource {
 
@@ -2679,7 +2768,7 @@ export class Ospf extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Ospf resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ospf to import
-  * @param importFromId The id of the existing Ospf that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/ospf#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ospf that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ospf to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2691,7 +2780,7 @@ export class Ospf extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/ospf iosxe_ospf} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf iosxe_ospf} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2702,7 +2791,8 @@ export class Ospf extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_ospf',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.9.3'
+        providerVersion: '0.10.0',
+        providerVersionConstraint: '0.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -2722,10 +2812,23 @@ export class Ospf extends cdktf.TerraformResource {
     this._device = config.device;
     this._distance = config.distance;
     this._domainTag = config.domainTag;
+    this._fastReroutePerPrefixEnablePrefixPriority = config.fastReroutePerPrefixEnablePrefixPriority;
+    this._logAdjacencyChanges = config.logAdjacencyChanges;
+    this._logAdjacencyChangesDetail = config.logAdjacencyChangesDetail;
+    this._maxMetricRouterLsa = config.maxMetricRouterLsa;
+    this._maxMetricRouterLsaExternalLsaMetric = config.maxMetricRouterLsaExternalLsaMetric;
+    this._maxMetricRouterLsaIncludeStub = config.maxMetricRouterLsaIncludeStub;
+    this._maxMetricRouterLsaOnStartupTime = config.maxMetricRouterLsaOnStartupTime;
+    this._maxMetricRouterLsaOnStartupWaitForBgp = config.maxMetricRouterLsaOnStartupWaitForBgp;
+    this._maxMetricRouterLsaSummaryLsaMetric = config.maxMetricRouterLsaSummaryLsaMetric;
     this._mplsLdpAutoconfig = config.mplsLdpAutoconfig;
     this._mplsLdpSync = config.mplsLdpSync;
     this._neighbors.internalValue = config.neighbors;
     this._networks.internalValue = config.networks;
+    this._nsfCisco = config.nsfCisco;
+    this._nsfCiscoEnforceGlobal = config.nsfCiscoEnforceGlobal;
+    this._nsfIetf = config.nsfIetf;
+    this._nsfIetfRestartInterval = config.nsfIetfRestartInterval;
     this._passiveInterface = config.passiveInterface;
     this._passiveInterfaceDefault = config.passiveInterfaceDefault;
     this._passiveInterfaceDisableFiveGigabitEthernets.internalValue = config.passiveInterfaceDisableFiveGigabitEthernets;
@@ -2744,6 +2847,8 @@ export class Ospf extends cdktf.TerraformResource {
     this._passiveInterfaceDisableVlans.internalValue = config.passiveInterfaceDisableVlans;
     this._priority = config.priority;
     this._processId = config.processId;
+    this._redistributeConnectedSubnets = config.redistributeConnectedSubnets;
+    this._redistributeStaticSubnets = config.redistributeStaticSubnets;
     this._routerId = config.routerId;
     this._shutdown = config.shutdown;
     this._summaryAddresses.internalValue = config.summaryAddresses;
@@ -2913,9 +3018,153 @@ export class Ospf extends cdktf.TerraformResource {
     return this._domainTag;
   }
 
+  // fast_reroute_per_prefix_enable_prefix_priority - computed: false, optional: true, required: false
+  private _fastReroutePerPrefixEnablePrefixPriority?: string; 
+  public get fastReroutePerPrefixEnablePrefixPriority() {
+    return this.getStringAttribute('fast_reroute_per_prefix_enable_prefix_priority');
+  }
+  public set fastReroutePerPrefixEnablePrefixPriority(value: string) {
+    this._fastReroutePerPrefixEnablePrefixPriority = value;
+  }
+  public resetFastReroutePerPrefixEnablePrefixPriority() {
+    this._fastReroutePerPrefixEnablePrefixPriority = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fastReroutePerPrefixEnablePrefixPriorityInput() {
+    return this._fastReroutePerPrefixEnablePrefixPriority;
+  }
+
   // id - computed: true, optional: false, required: false
   public get id() {
     return this.getStringAttribute('id');
+  }
+
+  // log_adjacency_changes - computed: false, optional: true, required: false
+  private _logAdjacencyChanges?: boolean | cdktf.IResolvable; 
+  public get logAdjacencyChanges() {
+    return this.getBooleanAttribute('log_adjacency_changes');
+  }
+  public set logAdjacencyChanges(value: boolean | cdktf.IResolvable) {
+    this._logAdjacencyChanges = value;
+  }
+  public resetLogAdjacencyChanges() {
+    this._logAdjacencyChanges = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get logAdjacencyChangesInput() {
+    return this._logAdjacencyChanges;
+  }
+
+  // log_adjacency_changes_detail - computed: false, optional: true, required: false
+  private _logAdjacencyChangesDetail?: boolean | cdktf.IResolvable; 
+  public get logAdjacencyChangesDetail() {
+    return this.getBooleanAttribute('log_adjacency_changes_detail');
+  }
+  public set logAdjacencyChangesDetail(value: boolean | cdktf.IResolvable) {
+    this._logAdjacencyChangesDetail = value;
+  }
+  public resetLogAdjacencyChangesDetail() {
+    this._logAdjacencyChangesDetail = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get logAdjacencyChangesDetailInput() {
+    return this._logAdjacencyChangesDetail;
+  }
+
+  // max_metric_router_lsa - computed: false, optional: true, required: false
+  private _maxMetricRouterLsa?: boolean | cdktf.IResolvable; 
+  public get maxMetricRouterLsa() {
+    return this.getBooleanAttribute('max_metric_router_lsa');
+  }
+  public set maxMetricRouterLsa(value: boolean | cdktf.IResolvable) {
+    this._maxMetricRouterLsa = value;
+  }
+  public resetMaxMetricRouterLsa() {
+    this._maxMetricRouterLsa = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxMetricRouterLsaInput() {
+    return this._maxMetricRouterLsa;
+  }
+
+  // max_metric_router_lsa_external_lsa_metric - computed: false, optional: true, required: false
+  private _maxMetricRouterLsaExternalLsaMetric?: number; 
+  public get maxMetricRouterLsaExternalLsaMetric() {
+    return this.getNumberAttribute('max_metric_router_lsa_external_lsa_metric');
+  }
+  public set maxMetricRouterLsaExternalLsaMetric(value: number) {
+    this._maxMetricRouterLsaExternalLsaMetric = value;
+  }
+  public resetMaxMetricRouterLsaExternalLsaMetric() {
+    this._maxMetricRouterLsaExternalLsaMetric = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxMetricRouterLsaExternalLsaMetricInput() {
+    return this._maxMetricRouterLsaExternalLsaMetric;
+  }
+
+  // max_metric_router_lsa_include_stub - computed: false, optional: true, required: false
+  private _maxMetricRouterLsaIncludeStub?: boolean | cdktf.IResolvable; 
+  public get maxMetricRouterLsaIncludeStub() {
+    return this.getBooleanAttribute('max_metric_router_lsa_include_stub');
+  }
+  public set maxMetricRouterLsaIncludeStub(value: boolean | cdktf.IResolvable) {
+    this._maxMetricRouterLsaIncludeStub = value;
+  }
+  public resetMaxMetricRouterLsaIncludeStub() {
+    this._maxMetricRouterLsaIncludeStub = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxMetricRouterLsaIncludeStubInput() {
+    return this._maxMetricRouterLsaIncludeStub;
+  }
+
+  // max_metric_router_lsa_on_startup_time - computed: false, optional: true, required: false
+  private _maxMetricRouterLsaOnStartupTime?: number; 
+  public get maxMetricRouterLsaOnStartupTime() {
+    return this.getNumberAttribute('max_metric_router_lsa_on_startup_time');
+  }
+  public set maxMetricRouterLsaOnStartupTime(value: number) {
+    this._maxMetricRouterLsaOnStartupTime = value;
+  }
+  public resetMaxMetricRouterLsaOnStartupTime() {
+    this._maxMetricRouterLsaOnStartupTime = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxMetricRouterLsaOnStartupTimeInput() {
+    return this._maxMetricRouterLsaOnStartupTime;
+  }
+
+  // max_metric_router_lsa_on_startup_wait_for_bgp - computed: false, optional: true, required: false
+  private _maxMetricRouterLsaOnStartupWaitForBgp?: boolean | cdktf.IResolvable; 
+  public get maxMetricRouterLsaOnStartupWaitForBgp() {
+    return this.getBooleanAttribute('max_metric_router_lsa_on_startup_wait_for_bgp');
+  }
+  public set maxMetricRouterLsaOnStartupWaitForBgp(value: boolean | cdktf.IResolvable) {
+    this._maxMetricRouterLsaOnStartupWaitForBgp = value;
+  }
+  public resetMaxMetricRouterLsaOnStartupWaitForBgp() {
+    this._maxMetricRouterLsaOnStartupWaitForBgp = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxMetricRouterLsaOnStartupWaitForBgpInput() {
+    return this._maxMetricRouterLsaOnStartupWaitForBgp;
+  }
+
+  // max_metric_router_lsa_summary_lsa_metric - computed: false, optional: true, required: false
+  private _maxMetricRouterLsaSummaryLsaMetric?: number; 
+  public get maxMetricRouterLsaSummaryLsaMetric() {
+    return this.getNumberAttribute('max_metric_router_lsa_summary_lsa_metric');
+  }
+  public set maxMetricRouterLsaSummaryLsaMetric(value: number) {
+    this._maxMetricRouterLsaSummaryLsaMetric = value;
+  }
+  public resetMaxMetricRouterLsaSummaryLsaMetric() {
+    this._maxMetricRouterLsaSummaryLsaMetric = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxMetricRouterLsaSummaryLsaMetricInput() {
+    return this._maxMetricRouterLsaSummaryLsaMetric;
   }
 
   // mpls_ldp_autoconfig - computed: false, optional: true, required: false
@@ -2980,6 +3229,70 @@ export class Ospf extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get networksInput() {
     return this._networks.internalValue;
+  }
+
+  // nsf_cisco - computed: false, optional: true, required: false
+  private _nsfCisco?: boolean | cdktf.IResolvable; 
+  public get nsfCisco() {
+    return this.getBooleanAttribute('nsf_cisco');
+  }
+  public set nsfCisco(value: boolean | cdktf.IResolvable) {
+    this._nsfCisco = value;
+  }
+  public resetNsfCisco() {
+    this._nsfCisco = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nsfCiscoInput() {
+    return this._nsfCisco;
+  }
+
+  // nsf_cisco_enforce_global - computed: false, optional: true, required: false
+  private _nsfCiscoEnforceGlobal?: boolean | cdktf.IResolvable; 
+  public get nsfCiscoEnforceGlobal() {
+    return this.getBooleanAttribute('nsf_cisco_enforce_global');
+  }
+  public set nsfCiscoEnforceGlobal(value: boolean | cdktf.IResolvable) {
+    this._nsfCiscoEnforceGlobal = value;
+  }
+  public resetNsfCiscoEnforceGlobal() {
+    this._nsfCiscoEnforceGlobal = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nsfCiscoEnforceGlobalInput() {
+    return this._nsfCiscoEnforceGlobal;
+  }
+
+  // nsf_ietf - computed: false, optional: true, required: false
+  private _nsfIetf?: boolean | cdktf.IResolvable; 
+  public get nsfIetf() {
+    return this.getBooleanAttribute('nsf_ietf');
+  }
+  public set nsfIetf(value: boolean | cdktf.IResolvable) {
+    this._nsfIetf = value;
+  }
+  public resetNsfIetf() {
+    this._nsfIetf = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nsfIetfInput() {
+    return this._nsfIetf;
+  }
+
+  // nsf_ietf_restart_interval - computed: false, optional: true, required: false
+  private _nsfIetfRestartInterval?: number; 
+  public get nsfIetfRestartInterval() {
+    return this.getNumberAttribute('nsf_ietf_restart_interval');
+  }
+  public set nsfIetfRestartInterval(value: number) {
+    this._nsfIetfRestartInterval = value;
+  }
+  public resetNsfIetfRestartInterval() {
+    this._nsfIetfRestartInterval = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nsfIetfRestartIntervalInput() {
+    return this._nsfIetfRestartInterval;
   }
 
   // passive_interface - computed: false, optional: true, required: false
@@ -3267,6 +3580,38 @@ export class Ospf extends cdktf.TerraformResource {
     return this._processId;
   }
 
+  // redistribute_connected_subnets - computed: false, optional: true, required: false
+  private _redistributeConnectedSubnets?: boolean | cdktf.IResolvable; 
+  public get redistributeConnectedSubnets() {
+    return this.getBooleanAttribute('redistribute_connected_subnets');
+  }
+  public set redistributeConnectedSubnets(value: boolean | cdktf.IResolvable) {
+    this._redistributeConnectedSubnets = value;
+  }
+  public resetRedistributeConnectedSubnets() {
+    this._redistributeConnectedSubnets = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get redistributeConnectedSubnetsInput() {
+    return this._redistributeConnectedSubnets;
+  }
+
+  // redistribute_static_subnets - computed: false, optional: true, required: false
+  private _redistributeStaticSubnets?: boolean | cdktf.IResolvable; 
+  public get redistributeStaticSubnets() {
+    return this.getBooleanAttribute('redistribute_static_subnets');
+  }
+  public set redistributeStaticSubnets(value: boolean | cdktf.IResolvable) {
+    this._redistributeStaticSubnets = value;
+  }
+  public resetRedistributeStaticSubnets() {
+    this._redistributeStaticSubnets = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get redistributeStaticSubnetsInput() {
+    return this._redistributeStaticSubnets;
+  }
+
   // router_id - computed: false, optional: true, required: false
   private _routerId?: string; 
   public get routerId() {
@@ -3331,10 +3676,23 @@ export class Ospf extends cdktf.TerraformResource {
       device: cdktf.stringToTerraform(this._device),
       distance: cdktf.numberToTerraform(this._distance),
       domain_tag: cdktf.numberToTerraform(this._domainTag),
+      fast_reroute_per_prefix_enable_prefix_priority: cdktf.stringToTerraform(this._fastReroutePerPrefixEnablePrefixPriority),
+      log_adjacency_changes: cdktf.booleanToTerraform(this._logAdjacencyChanges),
+      log_adjacency_changes_detail: cdktf.booleanToTerraform(this._logAdjacencyChangesDetail),
+      max_metric_router_lsa: cdktf.booleanToTerraform(this._maxMetricRouterLsa),
+      max_metric_router_lsa_external_lsa_metric: cdktf.numberToTerraform(this._maxMetricRouterLsaExternalLsaMetric),
+      max_metric_router_lsa_include_stub: cdktf.booleanToTerraform(this._maxMetricRouterLsaIncludeStub),
+      max_metric_router_lsa_on_startup_time: cdktf.numberToTerraform(this._maxMetricRouterLsaOnStartupTime),
+      max_metric_router_lsa_on_startup_wait_for_bgp: cdktf.booleanToTerraform(this._maxMetricRouterLsaOnStartupWaitForBgp),
+      max_metric_router_lsa_summary_lsa_metric: cdktf.numberToTerraform(this._maxMetricRouterLsaSummaryLsaMetric),
       mpls_ldp_autoconfig: cdktf.booleanToTerraform(this._mplsLdpAutoconfig),
       mpls_ldp_sync: cdktf.booleanToTerraform(this._mplsLdpSync),
       neighbors: cdktf.listMapper(ospfNeighborsToTerraform, false)(this._neighbors.internalValue),
       networks: cdktf.listMapper(ospfNetworksToTerraform, false)(this._networks.internalValue),
+      nsf_cisco: cdktf.booleanToTerraform(this._nsfCisco),
+      nsf_cisco_enforce_global: cdktf.booleanToTerraform(this._nsfCiscoEnforceGlobal),
+      nsf_ietf: cdktf.booleanToTerraform(this._nsfIetf),
+      nsf_ietf_restart_interval: cdktf.numberToTerraform(this._nsfIetfRestartInterval),
       passive_interface: cdktf.listMapper(cdktf.stringToTerraform, false)(this._passiveInterface),
       passive_interface_default: cdktf.booleanToTerraform(this._passiveInterfaceDefault),
       passive_interface_disable_five_gigabit_ethernets: cdktf.listMapper(ospfPassiveInterfaceDisableFiveGigabitEthernetsToTerraform, false)(this._passiveInterfaceDisableFiveGigabitEthernets.internalValue),
@@ -3353,6 +3711,8 @@ export class Ospf extends cdktf.TerraformResource {
       passive_interface_disable_vlans: cdktf.listMapper(ospfPassiveInterfaceDisableVlansToTerraform, false)(this._passiveInterfaceDisableVlans.internalValue),
       priority: cdktf.numberToTerraform(this._priority),
       process_id: cdktf.numberToTerraform(this._processId),
+      redistribute_connected_subnets: cdktf.booleanToTerraform(this._redistributeConnectedSubnets),
+      redistribute_static_subnets: cdktf.booleanToTerraform(this._redistributeStaticSubnets),
       router_id: cdktf.stringToTerraform(this._routerId),
       shutdown: cdktf.booleanToTerraform(this._shutdown),
       summary_addresses: cdktf.listMapper(ospfSummaryAddressesToTerraform, false)(this._summaryAddresses.internalValue),
@@ -3421,6 +3781,60 @@ export class Ospf extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "number",
       },
+      fast_reroute_per_prefix_enable_prefix_priority: {
+        value: cdktf.stringToHclTerraform(this._fastReroutePerPrefixEnablePrefixPriority),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      log_adjacency_changes: {
+        value: cdktf.booleanToHclTerraform(this._logAdjacencyChanges),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      log_adjacency_changes_detail: {
+        value: cdktf.booleanToHclTerraform(this._logAdjacencyChangesDetail),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      max_metric_router_lsa: {
+        value: cdktf.booleanToHclTerraform(this._maxMetricRouterLsa),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      max_metric_router_lsa_external_lsa_metric: {
+        value: cdktf.numberToHclTerraform(this._maxMetricRouterLsaExternalLsaMetric),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      max_metric_router_lsa_include_stub: {
+        value: cdktf.booleanToHclTerraform(this._maxMetricRouterLsaIncludeStub),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      max_metric_router_lsa_on_startup_time: {
+        value: cdktf.numberToHclTerraform(this._maxMetricRouterLsaOnStartupTime),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      max_metric_router_lsa_on_startup_wait_for_bgp: {
+        value: cdktf.booleanToHclTerraform(this._maxMetricRouterLsaOnStartupWaitForBgp),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      max_metric_router_lsa_summary_lsa_metric: {
+        value: cdktf.numberToHclTerraform(this._maxMetricRouterLsaSummaryLsaMetric),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
       mpls_ldp_autoconfig: {
         value: cdktf.booleanToHclTerraform(this._mplsLdpAutoconfig),
         isBlock: false,
@@ -3444,6 +3858,30 @@ export class Ospf extends cdktf.TerraformResource {
         isBlock: true,
         type: "list",
         storageClassType: "OspfNetworksList",
+      },
+      nsf_cisco: {
+        value: cdktf.booleanToHclTerraform(this._nsfCisco),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      nsf_cisco_enforce_global: {
+        value: cdktf.booleanToHclTerraform(this._nsfCiscoEnforceGlobal),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      nsf_ietf: {
+        value: cdktf.booleanToHclTerraform(this._nsfIetf),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      nsf_ietf_restart_interval: {
+        value: cdktf.numberToHclTerraform(this._nsfIetfRestartInterval),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
       },
       passive_interface: {
         value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._passiveInterface),
@@ -3552,6 +3990,18 @@ export class Ospf extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "number",
+      },
+      redistribute_connected_subnets: {
+        value: cdktf.booleanToHclTerraform(this._redistributeConnectedSubnets),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      redistribute_static_subnets: {
+        value: cdktf.booleanToHclTerraform(this._redistributeStaticSubnets),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
       },
       router_id: {
         value: cdktf.stringToHclTerraform(this._routerId),

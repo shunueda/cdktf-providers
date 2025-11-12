@@ -56,7 +56,8 @@ export class DataDuplocloudAdminAwsCredentials extends cdktf.TerraformDataSource
       terraformResourceType: 'duplocloud_admin_aws_credentials',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.28'
+        providerVersion: '0.11.28',
+        providerVersionConstraint: '0.11.28'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

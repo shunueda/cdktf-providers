@@ -68,7 +68,8 @@ export class AwsCodebuildTrigger extends cdktf.TerraformResource {
       terraformResourceType: 'mcaf_aws_codebuild_trigger',
       terraformGeneratorMetadata: {
         providerName: 'mcaf',
-        providerVersion: '0.4.3'
+        providerVersion: '0.4.3',
+        providerVersionConstraint: '0.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

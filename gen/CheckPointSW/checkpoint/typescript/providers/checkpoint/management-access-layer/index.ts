@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_layer
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_layer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface ManagementAccessLayerConfig extends cdktf.TerraformMetaArgument
   /**
   * Indicates whether to include a cleanup rule in the new layer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_layer#add_default_rule ManagementAccessLayer#add_default_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_layer#add_default_rule ManagementAccessLayer#add_default_rule}
   */
   readonly addDefaultRule?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable Applications & URL Filtering blade on the layer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_layer#applications_and_url_filtering ManagementAccessLayer#applications_and_url_filtering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_layer#applications_and_url_filtering ManagementAccessLayer#applications_and_url_filtering}
   */
   readonly applicationsAndUrlFiltering?: boolean | cdktf.IResolvable;
   /**
   * Color of the object. Should be one of existing colors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_layer#color ManagementAccessLayer#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_layer#color ManagementAccessLayer#color}
   */
   readonly color?: string;
   /**
   * Comments string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_layer#comments ManagementAccessLayer#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_layer#comments ManagementAccessLayer#comments}
   */
   readonly comments?: string;
   /**
   * Whether to enable Content Awareness blade on the layer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_layer#content_awareness ManagementAccessLayer#content_awareness}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_layer#content_awareness ManagementAccessLayer#content_awareness}
   */
   readonly contentAwareness?: boolean | cdktf.IResolvable;
   /**
   * Whether to use X-Forward-For HTTP header, which is added by the  proxy server to keep track of the original source IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_layer#detect_using_x_forward_for ManagementAccessLayer#detect_using_x_forward_for}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_layer#detect_using_x_forward_for ManagementAccessLayer#detect_using_x_forward_for}
   */
   readonly detectUsingXForwardFor?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable Firewall blade on the layer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_layer#firewall ManagementAccessLayer#firewall}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_layer#firewall ManagementAccessLayer#firewall}
   */
   readonly firewall?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_layer#id ManagementAccessLayer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_layer#id ManagementAccessLayer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,49 +59,49 @@ export interface ManagementAccessLayerConfig extends cdktf.TerraformMetaArgument
   /**
   * Apply changes ignoring errors. You won't be able to publish such a changes. If ignore-warnings flag was omitted - warnings will also be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_layer#ignore_errors ManagementAccessLayer#ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_layer#ignore_errors ManagementAccessLayer#ignore_errors}
   */
   readonly ignoreErrors?: boolean | cdktf.IResolvable;
   /**
   * Apply changes ignoring warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_layer#ignore_warnings ManagementAccessLayer#ignore_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_layer#ignore_warnings ManagementAccessLayer#ignore_warnings}
   */
   readonly ignoreWarnings?: boolean | cdktf.IResolvable;
   /**
   * The default "catch-all" action for traffic that does not match any explicit or implied rules in the layer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_layer#implicit_cleanup_action ManagementAccessLayer#implicit_cleanup_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_layer#implicit_cleanup_action ManagementAccessLayer#implicit_cleanup_action}
   */
   readonly implicitCleanupAction?: string;
   /**
   * Whether to enable Mobile Access blade on the layer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_layer#mobile_access ManagementAccessLayer#mobile_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_layer#mobile_access ManagementAccessLayer#mobile_access}
   */
   readonly mobileAccess?: boolean | cdktf.IResolvable;
   /**
   * Object name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_layer#name ManagementAccessLayer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_layer#name ManagementAccessLayer#name}
   */
   readonly name: string;
   /**
   * Whether this layer is shared.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_layer#shared ManagementAccessLayer#shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_layer#shared ManagementAccessLayer#shared}
   */
   readonly shared?: boolean | cdktf.IResolvable;
   /**
   * Collection of tag identifiers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_layer#tags ManagementAccessLayer#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_layer#tags ManagementAccessLayer#tags}
   */
   readonly tags?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_layer checkpoint_management_access_layer}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_layer checkpoint_management_access_layer}
 */
 export class ManagementAccessLayer extends cdktf.TerraformResource {
 
@@ -117,7 +117,7 @@ export class ManagementAccessLayer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementAccessLayer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementAccessLayer to import
-  * @param importFromId The id of the existing ManagementAccessLayer that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_layer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementAccessLayer that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_layer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementAccessLayer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -129,7 +129,7 @@ export class ManagementAccessLayer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_layer checkpoint_management_access_layer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_layer checkpoint_management_access_layer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -140,7 +140,8 @@ export class ManagementAccessLayer extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_access_layer',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

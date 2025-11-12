@@ -136,7 +136,8 @@ export class SignedCertificate extends cdktf.TerraformResource {
       terraformResourceType: 'barracudawaf_signed_certificate',
       terraformGeneratorMetadata: {
         providerName: 'barracudawaf',
-        providerVersion: '1.0.10'
+        providerVersion: '1.0.10',
+        providerVersionConstraint: '1.0.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

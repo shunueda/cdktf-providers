@@ -227,7 +227,8 @@ export class DataAciRelationFromBridgeDomainToNetflowMonitorPolicy extends cdktf
       terraformResourceType: 'aci_relation_from_bridge_domain_to_netflow_monitor_policy',
       terraformGeneratorMetadata: {
         providerName: 'aci',
-        providerVersion: '2.18.0'
+        providerVersion: '2.18.0',
+        providerVersionConstraint: '2.18.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

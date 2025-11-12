@@ -201,7 +201,8 @@ export class ThreatDetectionAssetSelectionConfig extends cdktf.TerraformResource
       terraformResourceType: 'alicloud_threat_detection_asset_selection_config',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

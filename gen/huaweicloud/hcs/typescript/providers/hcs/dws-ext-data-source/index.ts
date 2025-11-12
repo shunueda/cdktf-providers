@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dws_ext_data_source
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_ext_data_source
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,29 +8,29 @@ import * as cdktf from 'cdktf';
 
 export interface DwsExtDataSourceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dws_ext_data_source#cluster_id DwsExtDataSource#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_ext_data_source#cluster_id DwsExtDataSource#cluster_id}
   */
   readonly clusterId: string;
   /**
   * The connection information of the external data source. It is mandatory when **type** is **OBS**.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dws_ext_data_source#connect_info DwsExtDataSource#connect_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_ext_data_source#connect_info DwsExtDataSource#connect_info}
   */
   readonly connectInfo?: string;
   /**
   * ID of the external data source. It is mandatory when **type** is **MRS**.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dws_ext_data_source#data_source_id DwsExtDataSource#data_source_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_ext_data_source#data_source_id DwsExtDataSource#data_source_id}
   */
   readonly dataSourceId?: string;
   /**
   * The description of the external data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dws_ext_data_source#description DwsExtDataSource#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_ext_data_source#description DwsExtDataSource#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dws_ext_data_source#id DwsExtDataSource#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_ext_data_source#id DwsExtDataSource#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -39,55 +39,55 @@ export interface DwsExtDataSourceConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the external data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dws_ext_data_source#name DwsExtDataSource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_ext_data_source#name DwsExtDataSource#name}
   */
   readonly name: string;
   /**
   * Whether to reboot the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dws_ext_data_source#reboot DwsExtDataSource#reboot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_ext_data_source#reboot DwsExtDataSource#reboot}
   */
   readonly reboot?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dws_ext_data_source#region DwsExtDataSource#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_ext_data_source#region DwsExtDataSource#region}
   */
   readonly region?: string;
   /**
   * The type of the external data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dws_ext_data_source#type DwsExtDataSource#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_ext_data_source#type DwsExtDataSource#type}
   */
   readonly type: string;
   /**
   * The user name of the external data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dws_ext_data_source#user_name DwsExtDataSource#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_ext_data_source#user_name DwsExtDataSource#user_name}
   */
   readonly userName: string;
   /**
   * The password of the external data source. It is mandatory when **type** is **MRS**.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dws_ext_data_source#user_pwd DwsExtDataSource#user_pwd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_ext_data_source#user_pwd DwsExtDataSource#user_pwd}
   */
   readonly userPwd?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dws_ext_data_source#timeouts DwsExtDataSource#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_ext_data_source#timeouts DwsExtDataSource#timeouts}
   */
   readonly timeouts?: DwsExtDataSourceTimeouts;
 }
 export interface DwsExtDataSourceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dws_ext_data_source#create DwsExtDataSource#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_ext_data_source#create DwsExtDataSource#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dws_ext_data_source#delete DwsExtDataSource#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_ext_data_source#delete DwsExtDataSource#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dws_ext_data_source#update DwsExtDataSource#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_ext_data_source#update DwsExtDataSource#update}
   */
   readonly update?: string;
 }
@@ -239,7 +239,7 @@ export class DwsExtDataSourceTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dws_ext_data_source hcs_dws_ext_data_source}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_ext_data_source hcs_dws_ext_data_source}
 */
 export class DwsExtDataSource extends cdktf.TerraformResource {
 
@@ -255,7 +255,7 @@ export class DwsExtDataSource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DwsExtDataSource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DwsExtDataSource to import
-  * @param importFromId The id of the existing DwsExtDataSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dws_ext_data_source#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DwsExtDataSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_ext_data_source#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DwsExtDataSource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -267,7 +267,7 @@ export class DwsExtDataSource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dws_ext_data_source hcs_dws_ext_data_source} Resource
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_ext_data_source hcs_dws_ext_data_source} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -278,7 +278,8 @@ export class DwsExtDataSource extends cdktf.TerraformResource {
       terraformResourceType: 'hcs_dws_ext_data_source',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.19'
+        providerVersion: '2.4.20',
+        providerVersionConstraint: '2.4.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

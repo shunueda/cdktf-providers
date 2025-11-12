@@ -426,7 +426,8 @@ export class DataOciAdmRemediationRunApplicationDependencyRecommendations extend
       terraformResourceType: 'oci_adm_remediation_run_application_dependency_recommendations',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

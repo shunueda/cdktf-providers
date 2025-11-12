@@ -122,7 +122,8 @@ export class UrlAction extends cdktf.TerraformResource {
       terraformResourceType: 'site24x7_url_action',
       terraformGeneratorMetadata: {
         providerName: 'site24x7',
-        providerVersion: '2.0.3'
+        providerVersion: '2.0.3',
+        providerVersionConstraint: '2.0.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

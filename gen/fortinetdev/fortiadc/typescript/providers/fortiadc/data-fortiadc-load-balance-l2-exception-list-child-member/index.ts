@@ -68,7 +68,8 @@ export class DataFortiadcLoadBalanceL2ExceptionListChildMember extends cdktf.Ter
       terraformResourceType: 'fortiadc_load_balance_l2_exception_list_child_member',
       terraformGeneratorMetadata: {
         providerName: 'fortiadc',
-        providerVersion: '1.3.1'
+        providerVersion: '1.3.1',
+        providerVersionConstraint: '1.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

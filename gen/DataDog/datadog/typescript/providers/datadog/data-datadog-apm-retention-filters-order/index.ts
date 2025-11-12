@@ -49,7 +49,8 @@ export class DataDatadogApmRetentionFiltersOrder extends cdktf.TerraformDataSour
       terraformResourceType: 'datadog_apm_retention_filters_order',
       terraformGeneratorMetadata: {
         providerName: 'datadog',
-        providerVersion: '3.79.0'
+        providerVersion: '3.79.0',
+        providerVersionConstraint: '3.79.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

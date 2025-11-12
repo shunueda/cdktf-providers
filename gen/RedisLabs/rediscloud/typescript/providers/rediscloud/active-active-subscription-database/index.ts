@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription_database
+// https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription_database
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,83 +8,79 @@ import * as cdktf from 'cdktf';
 
 export interface ActiveActiveSubscriptionDatabaseConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription_database#auto_minor_version_upgrade ActiveActiveSubscriptionDatabase#auto_minor_version_upgrade}
-  */
-  readonly autoMinorVersionUpgrade?: boolean | cdktf.IResolvable;
-  /**
   * SSL certificate to authenticate user connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription_database#client_ssl_certificate ActiveActiveSubscriptionDatabase#client_ssl_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription_database#client_ssl_certificate ActiveActiveSubscriptionDatabase#client_ssl_certificate}
   */
   readonly clientSslCertificate?: string;
   /**
   * TLS certificates to authenticate user connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription_database#client_tls_certificates ActiveActiveSubscriptionDatabase#client_tls_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription_database#client_tls_certificates ActiveActiveSubscriptionDatabase#client_tls_certificates}
   */
   readonly clientTlsCertificates?: string[];
   /**
   * Data eviction items policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription_database#data_eviction ActiveActiveSubscriptionDatabase#data_eviction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription_database#data_eviction ActiveActiveSubscriptionDatabase#data_eviction}
   */
   readonly dataEviction?: string;
   /**
   * Maximum amount of data in the dataset for this specific database in GB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription_database#dataset_size_in_gb ActiveActiveSubscriptionDatabase#dataset_size_in_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription_database#dataset_size_in_gb ActiveActiveSubscriptionDatabase#dataset_size_in_gb}
   */
   readonly datasetSizeInGb?: number;
   /**
   * Use TLS for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription_database#enable_tls ActiveActiveSubscriptionDatabase#enable_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription_database#enable_tls ActiveActiveSubscriptionDatabase#enable_tls}
   */
   readonly enableTls?: boolean | cdktf.IResolvable;
   /**
   * Should use the external endpoint for open-source (OSS) Cluster API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription_database#external_endpoint_for_oss_cluster_api ActiveActiveSubscriptionDatabase#external_endpoint_for_oss_cluster_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription_database#external_endpoint_for_oss_cluster_api ActiveActiveSubscriptionDatabase#external_endpoint_for_oss_cluster_api}
   */
   readonly externalEndpointForOssClusterApi?: boolean | cdktf.IResolvable;
   /**
   * Rate of database data persistence (in persistent storage)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription_database#global_data_persistence ActiveActiveSubscriptionDatabase#global_data_persistence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription_database#global_data_persistence ActiveActiveSubscriptionDatabase#global_data_persistence}
   */
   readonly globalDataPersistence?: string;
   /**
   * When 'true', enables connecting to the database with the 'default' user across all regions. Default: 'true'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription_database#global_enable_default_user ActiveActiveSubscriptionDatabase#global_enable_default_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription_database#global_enable_default_user ActiveActiveSubscriptionDatabase#global_enable_default_user}
   */
   readonly globalEnableDefaultUser?: boolean | cdktf.IResolvable;
   /**
   * List of modules to enable on the database. This information is only used when creating a new database and any changes will be ignored after this.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription_database#global_modules ActiveActiveSubscriptionDatabase#global_modules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription_database#global_modules ActiveActiveSubscriptionDatabase#global_modules}
   */
   readonly globalModules?: string[];
   /**
   * Password used to access the database. If left empty, the password will be generated automatically
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription_database#global_password ActiveActiveSubscriptionDatabase#global_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription_database#global_password ActiveActiveSubscriptionDatabase#global_password}
   */
   readonly globalPassword?: string;
   /**
   * The initial RESP version for all databases provisioned under this AA database. This information is only used when creating a new database and any changes will be ignored after this.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription_database#global_resp_version ActiveActiveSubscriptionDatabase#global_resp_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription_database#global_resp_version ActiveActiveSubscriptionDatabase#global_resp_version}
   */
   readonly globalRespVersion?: string;
   /**
   * Set of CIDR addresses to allow access to the database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription_database#global_source_ips ActiveActiveSubscriptionDatabase#global_source_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription_database#global_source_ips ActiveActiveSubscriptionDatabase#global_source_ips}
   */
   readonly globalSourceIps?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription_database#id ActiveActiveSubscriptionDatabase#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription_database#id ActiveActiveSubscriptionDatabase#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -93,61 +89,61 @@ export interface ActiveActiveSubscriptionDatabaseConfig extends cdktf.TerraformM
   /**
   * (Deprecated) Maximum memory usage for this specific database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription_database#memory_limit_in_gb ActiveActiveSubscriptionDatabase#memory_limit_in_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription_database#memory_limit_in_gb ActiveActiveSubscriptionDatabase#memory_limit_in_gb}
   */
   readonly memoryLimitInGb?: number;
   /**
   * A meaningful name to identify the database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription_database#name ActiveActiveSubscriptionDatabase#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription_database#name ActiveActiveSubscriptionDatabase#name}
   */
   readonly name: string;
   /**
   * TCP port on which the database is available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription_database#port ActiveActiveSubscriptionDatabase#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription_database#port ActiveActiveSubscriptionDatabase#port}
   */
   readonly port?: number;
   /**
   * Defines the Redis database version. If omitted, the Redis version will be set to the default version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription_database#redis_version ActiveActiveSubscriptionDatabase#redis_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription_database#redis_version ActiveActiveSubscriptionDatabase#redis_version}
   */
   readonly redisVersion?: string;
   /**
   * Identifier of the subscription
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription_database#subscription_id ActiveActiveSubscriptionDatabase#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription_database#subscription_id ActiveActiveSubscriptionDatabase#subscription_id}
   */
   readonly subscriptionId: number;
   /**
   * Support Redis open-source (OSS) Cluster API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription_database#support_oss_cluster_api ActiveActiveSubscriptionDatabase#support_oss_cluster_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription_database#support_oss_cluster_api ActiveActiveSubscriptionDatabase#support_oss_cluster_api}
   */
   readonly supportOssClusterApi?: boolean | cdktf.IResolvable;
   /**
   * Tags for database management
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription_database#tags ActiveActiveSubscriptionDatabase#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription_database#tags ActiveActiveSubscriptionDatabase#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * global_alert block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription_database#global_alert ActiveActiveSubscriptionDatabase#global_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription_database#global_alert ActiveActiveSubscriptionDatabase#global_alert}
   */
   readonly globalAlert?: ActiveActiveSubscriptionDatabaseGlobalAlert[] | cdktf.IResolvable;
   /**
   * override_region block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription_database#override_region ActiveActiveSubscriptionDatabase#override_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription_database#override_region ActiveActiveSubscriptionDatabase#override_region}
   */
   readonly overrideRegion?: ActiveActiveSubscriptionDatabaseOverrideRegion[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription_database#timeouts ActiveActiveSubscriptionDatabase#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription_database#timeouts ActiveActiveSubscriptionDatabase#timeouts}
   */
   readonly timeouts?: ActiveActiveSubscriptionDatabaseTimeouts;
 }
@@ -155,13 +151,13 @@ export interface ActiveActiveSubscriptionDatabaseGlobalAlert {
   /**
   * Alert name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription_database#name ActiveActiveSubscriptionDatabase#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription_database#name ActiveActiveSubscriptionDatabase#name}
   */
   readonly name: string;
   /**
   * Alert value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription_database#value ActiveActiveSubscriptionDatabase#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription_database#value ActiveActiveSubscriptionDatabase#value}
   */
   readonly value: number;
 }
@@ -302,13 +298,13 @@ export interface ActiveActiveSubscriptionDatabaseOverrideRegionOverrideGlobalAle
   /**
   * Alert name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription_database#name ActiveActiveSubscriptionDatabase#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription_database#name ActiveActiveSubscriptionDatabase#name}
   */
   readonly name: string;
   /**
   * Alert value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription_database#value ActiveActiveSubscriptionDatabase#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription_database#value ActiveActiveSubscriptionDatabase#value}
   */
   readonly value: number;
 }
@@ -449,25 +445,25 @@ export interface ActiveActiveSubscriptionDatabaseOverrideRegionRemoteBackup {
   /**
   * Defines the frequency of the automatic backup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription_database#interval ActiveActiveSubscriptionDatabase#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription_database#interval ActiveActiveSubscriptionDatabase#interval}
   */
   readonly interval: string;
   /**
   * Defines a URI representing the backup storage location
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription_database#storage_path ActiveActiveSubscriptionDatabase#storage_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription_database#storage_path ActiveActiveSubscriptionDatabase#storage_path}
   */
   readonly storagePath: string;
   /**
   * Defines the provider of the storage location
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription_database#storage_type ActiveActiveSubscriptionDatabase#storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription_database#storage_type ActiveActiveSubscriptionDatabase#storage_type}
   */
   readonly storageType: string;
   /**
   * Defines the hour automatic backups are made - only applicable when interval is `every-12-hours` or `every-24-hours`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription_database#time_utc ActiveActiveSubscriptionDatabase#time_utc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription_database#time_utc ActiveActiveSubscriptionDatabase#time_utc}
   */
   readonly timeUtc?: string;
 }
@@ -629,45 +625,45 @@ export class ActiveActiveSubscriptionDatabaseOverrideRegionRemoteBackupOutputRef
 }
 export interface ActiveActiveSubscriptionDatabaseOverrideRegion {
   /**
-  * When 'true', enables connecting to the database with the 'default' user. If not set, the global setting will be used.
+  * When 'true', enables connecting to the database with the 'default' user. Default: 'true'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription_database#enable_default_user ActiveActiveSubscriptionDatabase#enable_default_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription_database#enable_default_user ActiveActiveSubscriptionDatabase#enable_default_user}
   */
   readonly enableDefaultUser?: boolean | cdktf.IResolvable;
   /**
   * Region name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription_database#name ActiveActiveSubscriptionDatabase#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription_database#name ActiveActiveSubscriptionDatabase#name}
   */
   readonly name: string;
   /**
   * Rate of database data persistence (in persistent storage)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription_database#override_global_data_persistence ActiveActiveSubscriptionDatabase#override_global_data_persistence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription_database#override_global_data_persistence ActiveActiveSubscriptionDatabase#override_global_data_persistence}
   */
   readonly overrideGlobalDataPersistence?: string;
   /**
   * Password used to access the database. If left empty, the password will be generated automatically
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription_database#override_global_password ActiveActiveSubscriptionDatabase#override_global_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription_database#override_global_password ActiveActiveSubscriptionDatabase#override_global_password}
   */
   readonly overrideGlobalPassword?: string;
   /**
   * Set of CIDR addresses to allow access to the database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription_database#override_global_source_ips ActiveActiveSubscriptionDatabase#override_global_source_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription_database#override_global_source_ips ActiveActiveSubscriptionDatabase#override_global_source_ips}
   */
   readonly overrideGlobalSourceIps?: string[];
   /**
   * override_global_alert block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription_database#override_global_alert ActiveActiveSubscriptionDatabase#override_global_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription_database#override_global_alert ActiveActiveSubscriptionDatabase#override_global_alert}
   */
   readonly overrideGlobalAlert?: ActiveActiveSubscriptionDatabaseOverrideRegionOverrideGlobalAlert[] | cdktf.IResolvable;
   /**
   * remote_backup block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription_database#remote_backup ActiveActiveSubscriptionDatabase#remote_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription_database#remote_backup ActiveActiveSubscriptionDatabase#remote_backup}
   */
   readonly remoteBackup?: ActiveActiveSubscriptionDatabaseOverrideRegionRemoteBackup;
 }
@@ -954,19 +950,19 @@ export class ActiveActiveSubscriptionDatabaseOverrideRegionList extends cdktf.Co
 }
 export interface ActiveActiveSubscriptionDatabaseTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription_database#create ActiveActiveSubscriptionDatabase#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription_database#create ActiveActiveSubscriptionDatabase#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription_database#delete ActiveActiveSubscriptionDatabase#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription_database#delete ActiveActiveSubscriptionDatabase#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription_database#read ActiveActiveSubscriptionDatabase#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription_database#read ActiveActiveSubscriptionDatabase#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription_database#update ActiveActiveSubscriptionDatabase#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription_database#update ActiveActiveSubscriptionDatabase#update}
   */
   readonly update?: string;
 }
@@ -1147,7 +1143,7 @@ export class ActiveActiveSubscriptionDatabaseTimeoutsOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription_database rediscloud_active_active_subscription_database}
+* Represents a {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription_database rediscloud_active_active_subscription_database}
 */
 export class ActiveActiveSubscriptionDatabase extends cdktf.TerraformResource {
 
@@ -1163,7 +1159,7 @@ export class ActiveActiveSubscriptionDatabase extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ActiveActiveSubscriptionDatabase resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ActiveActiveSubscriptionDatabase to import
-  * @param importFromId The id of the existing ActiveActiveSubscriptionDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription_database#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ActiveActiveSubscriptionDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription_database#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ActiveActiveSubscriptionDatabase to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1175,7 +1171,7 @@ export class ActiveActiveSubscriptionDatabase extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription_database rediscloud_active_active_subscription_database} Resource
+  * Create a new {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription_database rediscloud_active_active_subscription_database} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1186,7 +1182,8 @@ export class ActiveActiveSubscriptionDatabase extends cdktf.TerraformResource {
       terraformResourceType: 'rediscloud_active_active_subscription_database',
       terraformGeneratorMetadata: {
         providerName: 'rediscloud',
-        providerVersion: '2.7.3'
+        providerVersion: '2.8.0',
+        providerVersionConstraint: '2.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1196,7 +1193,6 @@ export class ActiveActiveSubscriptionDatabase extends cdktf.TerraformResource {
       connection: config.connection,
       forEach: config.forEach
     });
-    this._autoMinorVersionUpgrade = config.autoMinorVersionUpgrade;
     this._clientSslCertificate = config.clientSslCertificate;
     this._clientTlsCertificates = config.clientTlsCertificates;
     this._dataEviction = config.dataEviction;
@@ -1225,22 +1221,6 @@ export class ActiveActiveSubscriptionDatabase extends cdktf.TerraformResource {
   // ==========
   // ATTRIBUTES
   // ==========
-
-  // auto_minor_version_upgrade - computed: false, optional: true, required: false
-  private _autoMinorVersionUpgrade?: boolean | cdktf.IResolvable; 
-  public get autoMinorVersionUpgrade() {
-    return this.getBooleanAttribute('auto_minor_version_upgrade');
-  }
-  public set autoMinorVersionUpgrade(value: boolean | cdktf.IResolvable) {
-    this._autoMinorVersionUpgrade = value;
-  }
-  public resetAutoMinorVersionUpgrade() {
-    this._autoMinorVersionUpgrade = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get autoMinorVersionUpgradeInput() {
-    return this._autoMinorVersionUpgrade;
-  }
 
   // client_ssl_certificate - computed: false, optional: true, required: false
   private _clientSslCertificate?: string; 
@@ -1627,7 +1607,6 @@ export class ActiveActiveSubscriptionDatabase extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      auto_minor_version_upgrade: cdktf.booleanToTerraform(this._autoMinorVersionUpgrade),
       client_ssl_certificate: cdktf.stringToTerraform(this._clientSslCertificate),
       client_tls_certificates: cdktf.listMapper(cdktf.stringToTerraform, false)(this._clientTlsCertificates),
       data_eviction: cdktf.stringToTerraform(this._dataEviction),
@@ -1656,12 +1635,6 @@ export class ActiveActiveSubscriptionDatabase extends cdktf.TerraformResource {
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
-      auto_minor_version_upgrade: {
-        value: cdktf.booleanToHclTerraform(this._autoMinorVersionUpgrade),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "boolean",
-      },
       client_ssl_certificate: {
         value: cdktf.stringToHclTerraform(this._clientSslCertificate),
         isBlock: false,

@@ -140,7 +140,8 @@ export class DataMerakiCellularGatewayConnectivityMonitoringDestinations extends
       terraformResourceType: 'meraki_cellular_gateway_connectivity_monitoring_destinations',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1'
+        providerVersion: '1.7.1',
+        providerVersionConstraint: '1.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

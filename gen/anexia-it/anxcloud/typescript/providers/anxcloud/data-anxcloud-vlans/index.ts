@@ -147,7 +147,8 @@ export class DataAnxcloudVlans extends cdktf.TerraformDataSource {
       terraformResourceType: 'anxcloud_vlans',
       terraformGeneratorMetadata: {
         providerName: 'anxcloud',
-        providerVersion: '0.7.4'
+        providerVersion: '0.7.4',
+        providerVersionConstraint: '0.7.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

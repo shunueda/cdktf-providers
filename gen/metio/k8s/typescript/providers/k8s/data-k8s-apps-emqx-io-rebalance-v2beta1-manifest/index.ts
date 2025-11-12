@@ -727,7 +727,8 @@ export class DataK8SAppsEmqxIoRebalanceV2Beta1Manifest extends cdktf.TerraformDa
       terraformResourceType: 'k8s_apps_emqx_io_rebalance_v2beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

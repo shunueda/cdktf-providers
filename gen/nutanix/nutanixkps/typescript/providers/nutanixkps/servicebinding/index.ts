@@ -194,7 +194,8 @@ export class Servicebinding extends cdktf.TerraformResource {
       terraformResourceType: 'nutanixkps_servicebinding',
       terraformGeneratorMetadata: {
         providerName: 'nutanixkps',
-        providerVersion: '1.1.9'
+        providerVersion: '1.1.9',
+        providerVersionConstraint: '1.1.9'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

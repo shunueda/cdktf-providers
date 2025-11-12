@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/spanning_tree
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/spanning_tree
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,53 +10,65 @@ export interface SpanningTreeConfig extends cdktf.TerraformMetaArguments {
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/spanning_tree#device SpanningTree#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/spanning_tree#device SpanningTree#device}
   */
   readonly device?: string;
   /**
   * Extend system-id into priority portion of the bridge id (PVST & Rapid PVST only)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/spanning_tree#extend_system_id SpanningTree#extend_system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/spanning_tree#extend_system_id SpanningTree#extend_system_id}
   */
   readonly extendSystemId?: boolean | cdktf.IResolvable;
   /**
+  * Enable Spanning tree logging
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/spanning_tree#logging SpanningTree#logging}
+  */
+  readonly logging?: boolean | cdktf.IResolvable;
+  /**
   * Enable loopguard by default on all ports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/spanning_tree#loopguard_default SpanningTree#loopguard_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/spanning_tree#loopguard_default SpanningTree#loopguard_default}
   */
   readonly loopguardDefault?: boolean | cdktf.IResolvable;
   /**
   * Spanning tree operating mode
   *   - Choices: `mst`, `pvst`, `rapid-pvst`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/spanning_tree#mode SpanningTree#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/spanning_tree#mode SpanningTree#mode}
   */
   readonly mode?: string;
   /**
   * Map vlans to an MST instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/spanning_tree#mst_instances SpanningTree#mst_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/spanning_tree#mst_instances SpanningTree#mst_instances}
   */
   readonly mstInstances?: SpanningTreeMstInstances[] | cdktf.IResolvable;
   /**
   * Enable bpdu guard by default on all portfast edge ports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/spanning_tree#portfast_bpduguard_default SpanningTree#portfast_bpduguard_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/spanning_tree#portfast_bpduguard_default SpanningTree#portfast_bpduguard_default}
   */
   readonly portfastBpduguardDefault?: boolean | cdktf.IResolvable;
   /**
   * Enable portfast by default on all access ports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/spanning_tree#portfast_default SpanningTree#portfast_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/spanning_tree#portfast_default SpanningTree#portfast_default}
   */
   readonly portfastDefault?: boolean | cdktf.IResolvable;
+  /**
+  * VLAN Switch Spanning Tree
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/spanning_tree#vlans SpanningTree#vlans}
+  */
+  readonly vlans?: SpanningTreeVlans[] | cdktf.IResolvable;
 }
 export interface SpanningTreeMstInstances {
   /**
   * 
   *   - Range: `0`-`4094`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/spanning_tree#id SpanningTree#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/spanning_tree#id SpanningTree#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,7 +77,7 @@ export interface SpanningTreeMstInstances {
   /**
   * Range of vlans to add to the instance mapping
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/spanning_tree#vlan_ids SpanningTree#vlan_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/spanning_tree#vlan_ids SpanningTree#vlan_ids}
   */
   readonly vlanIds?: number[];
 }
@@ -205,9 +217,161 @@ export class SpanningTreeMstInstancesList extends cdktf.ComplexList {
     return new SpanningTreeMstInstancesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface SpanningTreeVlans {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/spanning_tree#id SpanningTree#id}
+  *
+  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+  */
+  readonly id: string;
+  /**
+  * Set the bridge priority for the spanning tree
+  *   - Range: `0`-`61440`
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/spanning_tree#priority SpanningTree#priority}
+  */
+  readonly priority?: number;
+}
+
+export function spanningTreeVlansToTerraform(struct?: SpanningTreeVlans | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    id: cdktf.stringToTerraform(struct!.id),
+    priority: cdktf.numberToTerraform(struct!.priority),
+  }
+}
+
+
+export function spanningTreeVlansToHclTerraform(struct?: SpanningTreeVlans | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    id: {
+      value: cdktf.stringToHclTerraform(struct!.id),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    priority: {
+      value: cdktf.numberToHclTerraform(struct!.priority),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SpanningTreeVlansOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): SpanningTreeVlans | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._id !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.id = this._id;
+    }
+    if (this._priority !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.priority = this._priority;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SpanningTreeVlans | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._id = undefined;
+      this._priority = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._id = value.id;
+      this._priority = value.priority;
+    }
+  }
+
+  // id - computed: false, optional: false, required: true
+  private _id?: string; 
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+  public set id(value: string) {
+    this._id = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idInput() {
+    return this._id;
+  }
+
+  // priority - computed: false, optional: true, required: false
+  private _priority?: number; 
+  public get priority() {
+    return this.getNumberAttribute('priority');
+  }
+  public set priority(value: number) {
+    this._priority = value;
+  }
+  public resetPriority() {
+    this._priority = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get priorityInput() {
+    return this._priority;
+  }
+}
+
+export class SpanningTreeVlansList extends cdktf.ComplexList {
+  public internalValue? : SpanningTreeVlans[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): SpanningTreeVlansOutputReference {
+    return new SpanningTreeVlansOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/spanning_tree iosxe_spanning_tree}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/spanning_tree iosxe_spanning_tree}
 */
 export class SpanningTree extends cdktf.TerraformResource {
 
@@ -223,7 +387,7 @@ export class SpanningTree extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SpanningTree resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SpanningTree to import
-  * @param importFromId The id of the existing SpanningTree that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/spanning_tree#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SpanningTree that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/spanning_tree#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SpanningTree to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -235,7 +399,7 @@ export class SpanningTree extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/spanning_tree iosxe_spanning_tree} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/spanning_tree iosxe_spanning_tree} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -246,7 +410,8 @@ export class SpanningTree extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_spanning_tree',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.9.3'
+        providerVersion: '0.10.0',
+        providerVersionConstraint: '0.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -258,11 +423,13 @@ export class SpanningTree extends cdktf.TerraformResource {
     });
     this._device = config.device;
     this._extendSystemId = config.extendSystemId;
+    this._logging = config.logging;
     this._loopguardDefault = config.loopguardDefault;
     this._mode = config.mode;
     this._mstInstances.internalValue = config.mstInstances;
     this._portfastBpduguardDefault = config.portfastBpduguardDefault;
     this._portfastDefault = config.portfastDefault;
+    this._vlans.internalValue = config.vlans;
   }
 
   // ==========
@@ -304,6 +471,22 @@ export class SpanningTree extends cdktf.TerraformResource {
   // id - computed: true, optional: false, required: false
   public get id() {
     return this.getStringAttribute('id');
+  }
+
+  // logging - computed: false, optional: true, required: false
+  private _logging?: boolean | cdktf.IResolvable; 
+  public get logging() {
+    return this.getBooleanAttribute('logging');
+  }
+  public set logging(value: boolean | cdktf.IResolvable) {
+    this._logging = value;
+  }
+  public resetLogging() {
+    this._logging = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get loggingInput() {
+    return this._logging;
   }
 
   // loopguard_default - computed: false, optional: true, required: false
@@ -386,6 +569,22 @@ export class SpanningTree extends cdktf.TerraformResource {
     return this._portfastDefault;
   }
 
+  // vlans - computed: false, optional: true, required: false
+  private _vlans = new SpanningTreeVlansList(this, "vlans", false);
+  public get vlans() {
+    return this._vlans;
+  }
+  public putVlans(value: SpanningTreeVlans[] | cdktf.IResolvable) {
+    this._vlans.internalValue = value;
+  }
+  public resetVlans() {
+    this._vlans.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vlansInput() {
+    return this._vlans.internalValue;
+  }
+
   // =========
   // SYNTHESIS
   // =========
@@ -394,11 +593,13 @@ export class SpanningTree extends cdktf.TerraformResource {
     return {
       device: cdktf.stringToTerraform(this._device),
       extend_system_id: cdktf.booleanToTerraform(this._extendSystemId),
+      logging: cdktf.booleanToTerraform(this._logging),
       loopguard_default: cdktf.booleanToTerraform(this._loopguardDefault),
       mode: cdktf.stringToTerraform(this._mode),
       mst_instances: cdktf.listMapper(spanningTreeMstInstancesToTerraform, false)(this._mstInstances.internalValue),
       portfast_bpduguard_default: cdktf.booleanToTerraform(this._portfastBpduguardDefault),
       portfast_default: cdktf.booleanToTerraform(this._portfastDefault),
+      vlans: cdktf.listMapper(spanningTreeVlansToTerraform, false)(this._vlans.internalValue),
     };
   }
 
@@ -412,6 +613,12 @@ export class SpanningTree extends cdktf.TerraformResource {
       },
       extend_system_id: {
         value: cdktf.booleanToHclTerraform(this._extendSystemId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      logging: {
+        value: cdktf.booleanToHclTerraform(this._logging),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
@@ -445,6 +652,12 @@ export class SpanningTree extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
+      },
+      vlans: {
+        value: cdktf.listMapperHcl(spanningTreeVlansToHclTerraform, false)(this._vlans.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "SpanningTreeVlansList",
       },
     };
 

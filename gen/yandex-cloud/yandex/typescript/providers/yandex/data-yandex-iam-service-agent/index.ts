@@ -74,7 +74,8 @@ export class DataYandexIamServiceAgent extends cdktf.TerraformDataSource {
       terraformResourceType: 'yandex_iam_service_agent',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.169.0'
+        providerVersion: '0.169.0',
+        providerVersionConstraint: '0.169.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

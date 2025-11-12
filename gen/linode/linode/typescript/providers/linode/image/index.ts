@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/image
+// https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/image
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,73 +10,73 @@ export interface ImageConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether this image supports cloud-init.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/image#cloud_init Image#cloud_init}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/image#cloud_init Image#cloud_init}
   */
   readonly cloudInit?: boolean | cdktf.IResolvable;
   /**
   * A detailed description of this Image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/image#description Image#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/image#description Image#description}
   */
   readonly description?: string;
   /**
   * The ID of the Linode Disk that this Image will be created from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/image#disk_id Image#disk_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/image#disk_id Image#disk_id}
   */
   readonly diskId?: number;
   /**
   * The MD5 hash of the image file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/image#file_hash Image#file_hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/image#file_hash Image#file_hash}
   */
   readonly fileHash?: string;
   /**
   * The name of the file to upload to this image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/image#file_path Image#file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/image#file_path Image#file_path}
   */
   readonly filePath?: string;
   /**
   * A short description of the Image. Labels cannot contain special characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/image#label Image#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/image#label Image#label}
   */
   readonly label: string;
   /**
   * The ID of the Linode that this Image will be created from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/image#linode_id Image#linode_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/image#linode_id Image#linode_id}
   */
   readonly linodeId?: number;
   /**
   * The region to upload to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/image#region Image#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/image#region Image#region}
   */
   readonly region?: string;
   /**
   * A list of regions that customer wants to replicate this image in. At least one available region is required and only core regions allowed. Existing images in the regions not passed will be removed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/image#replica_regions Image#replica_regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/image#replica_regions Image#replica_regions}
   */
   readonly replicaRegions?: string[];
   /**
   * The customized tags for the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/image#tags Image#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/image#tags Image#tags}
   */
   readonly tags?: string[];
   /**
   * Whether to wait for all image replications become `available`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/image#wait_for_replications Image#wait_for_replications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/image#wait_for_replications Image#wait_for_replications}
   */
   readonly waitForReplications?: boolean | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/image#timeouts Image#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/image#timeouts Image#timeouts}
   */
   readonly timeouts?: ImageTimeouts;
 }
@@ -164,7 +164,7 @@ export interface ImageTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/image#create Image#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/image#create Image#create}
   */
   readonly create?: string;
 }
@@ -258,7 +258,7 @@ export class ImageTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/image linode_image}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/image linode_image}
 */
 export class Image extends cdktf.TerraformResource {
 
@@ -274,7 +274,7 @@ export class Image extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Image resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Image to import
-  * @param importFromId The id of the existing Image that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/image#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Image that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/image#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Image to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -286,7 +286,7 @@ export class Image extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/image linode_image} Resource
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/image linode_image} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -297,7 +297,8 @@ export class Image extends cdktf.TerraformResource {
       terraformResourceType: 'linode_image',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.5.0'
+        providerVersion: '3.5.1',
+        providerVersionConstraint: '3.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

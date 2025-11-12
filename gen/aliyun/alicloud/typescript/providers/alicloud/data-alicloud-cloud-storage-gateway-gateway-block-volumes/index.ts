@@ -276,7 +276,8 @@ export class DataAlicloudCloudStorageGatewayGatewayBlockVolumes extends cdktf.Te
       terraformResourceType: 'alicloud_cloud_storage_gateway_gateway_block_volumes',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

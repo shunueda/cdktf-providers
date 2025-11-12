@@ -151,7 +151,8 @@ export class DataBridgecrewApitokensCustomer extends cdktf.TerraformDataSource {
       terraformResourceType: 'bridgecrew_apitokens_customer',
       terraformGeneratorMetadata: {
         providerName: 'bridgecrew',
-        providerVersion: '0.3.7'
+        providerVersion: '0.3.7',
+        providerVersionConstraint: '0.3.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -460,7 +460,8 @@ export class DataK8SCrdProjectcalicoOrgClusterInformationV1Manifest extends cdkt
       terraformResourceType: 'k8s_crd_projectcalico_org_cluster_information_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

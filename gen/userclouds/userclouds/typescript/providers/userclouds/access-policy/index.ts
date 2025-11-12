@@ -512,7 +512,8 @@ export class AccessPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'userclouds_access_policy',
       terraformGeneratorMetadata: {
         providerName: 'userclouds',
-        providerVersion: '0.1.8'
+        providerVersion: '0.1.8',
+        providerVersionConstraint: '0.1.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

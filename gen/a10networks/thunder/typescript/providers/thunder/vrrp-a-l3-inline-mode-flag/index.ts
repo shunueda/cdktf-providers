@@ -68,7 +68,8 @@ export class VrrpAL3InlineModeFlag extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_vrrp_a_l3_inline_mode_flag',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -550,7 +550,8 @@ export class SamlApps extends cdktf.TerraformResource {
       terraformResourceType: 'onelogin_saml_apps',
       terraformGeneratorMetadata: {
         providerName: 'onelogin',
-        providerVersion: '0.11.2'
+        providerVersion: '0.11.2',
+        providerVersionConstraint: '0.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

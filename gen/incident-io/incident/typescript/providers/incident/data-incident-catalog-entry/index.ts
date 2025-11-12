@@ -146,7 +146,8 @@ export class DataIncidentCatalogEntry extends cdktf.TerraformDataSource {
       terraformResourceType: 'incident_catalog_entry',
       terraformGeneratorMetadata: {
         providerName: 'incident',
-        providerVersion: '5.18.0'
+        providerVersion: '5.18.0',
+        providerVersionConstraint: '5.18.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

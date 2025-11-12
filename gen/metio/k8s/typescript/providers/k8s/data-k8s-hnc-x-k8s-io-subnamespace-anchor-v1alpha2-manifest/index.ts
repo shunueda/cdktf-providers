@@ -679,7 +679,8 @@ export class DataK8SHncXK8SIoSubnamespaceAnchorV1Alpha2Manifest extends cdktf.Te
       terraformResourceType: 'k8s_hnc_x_k8s_io_subnamespace_anchor_v1alpha2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -67,7 +67,8 @@ export class FivetranProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'fivetran',
       terraformGeneratorMetadata: {
         providerName: 'fivetran',
-        providerVersion: '1.9.13'
+        providerVersion: '1.9.13',
+        providerVersionConstraint: '1.9.13'
       },
       terraformProviderSource: 'fivetran/fivetran'
     });

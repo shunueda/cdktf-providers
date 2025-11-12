@@ -69,7 +69,8 @@ export class SsoCertificate extends cdktf.TerraformResource {
       terraformResourceType: 'sendgrid_sso_certificate',
       terraformGeneratorMetadata: {
         providerName: 'sendgrid',
-        providerVersion: '1.1.2'
+        providerVersion: '1.1.2',
+        providerVersionConstraint: '1.1.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

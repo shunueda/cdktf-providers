@@ -55,7 +55,8 @@ export class DataFmcDevices extends cdktf.TerraformDataSource {
       terraformResourceType: 'fmc_devices',
       terraformGeneratorMetadata: {
         providerName: 'fmc',
-        providerVersion: '1.5.2'
+        providerVersion: '1.5.2',
+        providerVersionConstraint: '1.5.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

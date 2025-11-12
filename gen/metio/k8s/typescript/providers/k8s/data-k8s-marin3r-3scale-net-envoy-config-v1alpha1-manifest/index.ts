@@ -3074,7 +3074,8 @@ export class DataK8SMarin3R3ScaleNetEnvoyConfigV1Alpha1Manifest extends cdktf.Te
       terraformResourceType: 'k8s_marin3r_3scale_net_envoy_config_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

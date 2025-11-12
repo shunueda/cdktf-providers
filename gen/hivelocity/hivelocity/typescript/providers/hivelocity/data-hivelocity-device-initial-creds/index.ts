@@ -60,7 +60,8 @@ export class DataHivelocityDeviceInitialCreds extends cdktf.TerraformDataSource 
       terraformResourceType: 'hivelocity_device_initial_creds',
       terraformGeneratorMetadata: {
         providerName: 'hivelocity',
-        providerVersion: '0.7.9'
+        providerVersion: '0.7.9',
+        providerVersionConstraint: '0.7.9'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

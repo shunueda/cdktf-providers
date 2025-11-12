@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/dnssec
+// https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/dnssec
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface DnssecConfig extends cdktf.TerraformMetaArguments {
   /**
   * The list of ThousandEyes agent IDs to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/dnssec#agents Dnssec#agents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/dnssec#agents Dnssec#agents}
   */
   readonly agents: string[];
   /**
   * List of alert rules IDs to apply to the test (get `ruleId` from `/alerts/rules` endpoint. If `alertsEnabled` is set to `true` and `alertRules` is not included on test creation or update, applicable user default alert rules will be used)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/dnssec#alert_rules Dnssec#alert_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/dnssec#alert_rules Dnssec#alert_rules}
   */
   readonly alertRules?: string[];
   /**
   * Set to 'true' to enable alerts, or 'false' to disable alerts. The default value is 'true'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/dnssec#alerts_enabled Dnssec#alerts_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/dnssec#alerts_enabled Dnssec#alerts_enabled}
   */
   readonly alertsEnabled?: boolean | cdktf.IResolvable;
   /**
   * A description of the alert rule. Defaults to an empty string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/dnssec#description Dnssec#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/dnssec#description Dnssec#description}
   */
   readonly description?: string;
   /**
   * Domain class used by this test. 'in' stands for Internet, while 'ch' stands for Chaos.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/dnssec#dns_query_class Dnssec#dns_query_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/dnssec#dns_query_class Dnssec#dns_query_class}
   */
   readonly dnsQueryClass?: string;
   /**
   * See notes	target record for test, suffixed by record type (ie, www.thousandeyes.com CNAME). If no record type is specified, the test will default to an ANY record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/dnssec#domain Dnssec#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/dnssec#domain Dnssec#domain}
   */
   readonly domain: string;
   /**
   * Enables or disables the test.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/dnssec#enabled Dnssec#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/dnssec#enabled Dnssec#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/dnssec#id Dnssec#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/dnssec#id Dnssec#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,31 +59,31 @@ export interface DnssecConfig extends cdktf.TerraformMetaArguments {
   /**
   * The interval to run the test on, in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/dnssec#interval Dnssec#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/dnssec#interval Dnssec#interval}
   */
   readonly interval: number;
   /**
   * Indicates whether agents should randomize the start time in each test round.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/dnssec#randomized_start_time Dnssec#randomized_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/dnssec#randomized_start_time Dnssec#randomized_start_time}
   */
   readonly randomizedStartTime?: boolean | cdktf.IResolvable;
   /**
   * List of accounts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/dnssec#shared_with_accounts Dnssec#shared_with_accounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/dnssec#shared_with_accounts Dnssec#shared_with_accounts}
   */
   readonly sharedWithAccounts?: string[];
   /**
   * The name of the test.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/dnssec#test_name Dnssec#test_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/dnssec#test_name Dnssec#test_name}
   */
   readonly testName?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/dnssec thousandeyes_dnssec}
+* Represents a {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/dnssec thousandeyes_dnssec}
 */
 export class Dnssec extends cdktf.TerraformResource {
 
@@ -99,7 +99,7 @@ export class Dnssec extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Dnssec resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Dnssec to import
-  * @param importFromId The id of the existing Dnssec that should be imported. Refer to the {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/dnssec#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Dnssec that should be imported. Refer to the {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/dnssec#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Dnssec to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -111,7 +111,7 @@ export class Dnssec extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/dnssec thousandeyes_dnssec} Resource
+  * Create a new {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/dnssec thousandeyes_dnssec} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -122,7 +122,8 @@ export class Dnssec extends cdktf.TerraformResource {
       terraformResourceType: 'thousandeyes_dnssec',
       terraformGeneratorMetadata: {
         providerName: 'thousandeyes',
-        providerVersion: '3.1.2'
+        providerVersion: '3.1.3',
+        providerVersionConstraint: '3.1.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

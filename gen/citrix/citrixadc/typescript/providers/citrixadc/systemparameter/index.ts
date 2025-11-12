@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/systemparameter
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemparameter
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,92 +8,116 @@ import * as cdktf from 'cdktf';
 
 export interface SystemparameterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/systemparameter#basicauth Systemparameter#basicauth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemparameter#basicauth Systemparameter#basicauth}
   */
   readonly basicauth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/systemparameter#cliloglevel Systemparameter#cliloglevel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemparameter#cliloglevel Systemparameter#cliloglevel}
   */
   readonly cliloglevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/systemparameter#doppler Systemparameter#doppler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemparameter#daystoexpire Systemparameter#daystoexpire}
+  */
+  readonly daystoexpire?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemparameter#doppler Systemparameter#doppler}
   */
   readonly doppler?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/systemparameter#fipsusermode Systemparameter#fipsusermode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemparameter#fipsusermode Systemparameter#fipsusermode}
   */
   readonly fipsusermode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/systemparameter#forcepasswordchange Systemparameter#forcepasswordchange}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemparameter#forcepasswordchange Systemparameter#forcepasswordchange}
   */
   readonly forcepasswordchange?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/systemparameter#googleanalytics Systemparameter#googleanalytics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemparameter#googleanalytics Systemparameter#googleanalytics}
   */
   readonly googleanalytics?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/systemparameter#id Systemparameter#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemparameter#id Systemparameter#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/systemparameter#localauth Systemparameter#localauth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemparameter#localauth Systemparameter#localauth}
   */
   readonly localauth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/systemparameter#maxclient Systemparameter#maxclient}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemparameter#maxclient Systemparameter#maxclient}
   */
   readonly maxclient?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/systemparameter#minpasswordlen Systemparameter#minpasswordlen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemparameter#maxsessionperuser Systemparameter#maxsessionperuser}
+  */
+  readonly maxsessionperuser?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemparameter#minpasswordlen Systemparameter#minpasswordlen}
   */
   readonly minpasswordlen?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/systemparameter#natpcbforceflushlimit Systemparameter#natpcbforceflushlimit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemparameter#natpcbforceflushlimit Systemparameter#natpcbforceflushlimit}
   */
   readonly natpcbforceflushlimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/systemparameter#natpcbrstontimeout Systemparameter#natpcbrstontimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemparameter#natpcbrstontimeout Systemparameter#natpcbrstontimeout}
   */
   readonly natpcbrstontimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/systemparameter#promptstring Systemparameter#promptstring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemparameter#passwordhistorycontrol Systemparameter#passwordhistorycontrol}
+  */
+  readonly passwordhistorycontrol?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemparameter#promptstring Systemparameter#promptstring}
   */
   readonly promptstring?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/systemparameter#rbaonresponse Systemparameter#rbaonresponse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemparameter#pwdhistorycount Systemparameter#pwdhistorycount}
+  */
+  readonly pwdhistorycount?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemparameter#rbaonresponse Systemparameter#rbaonresponse}
   */
   readonly rbaonresponse?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/systemparameter#reauthonauthparamchange Systemparameter#reauthonauthparamchange}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemparameter#reauthonauthparamchange Systemparameter#reauthonauthparamchange}
   */
   readonly reauthonauthparamchange?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/systemparameter#removesensitivefiles Systemparameter#removesensitivefiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemparameter#removesensitivefiles Systemparameter#removesensitivefiles}
   */
   readonly removesensitivefiles?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/systemparameter#restrictedtimeout Systemparameter#restrictedtimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemparameter#restrictedtimeout Systemparameter#restrictedtimeout}
   */
   readonly restrictedtimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/systemparameter#strongpassword Systemparameter#strongpassword}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemparameter#strongpassword Systemparameter#strongpassword}
   */
   readonly strongpassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/systemparameter#timeout Systemparameter#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemparameter#timeout Systemparameter#timeout}
   */
   readonly timeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/systemparameter#totalauthtimeout Systemparameter#totalauthtimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemparameter#totalauthtimeout Systemparameter#totalauthtimeout}
   */
   readonly totalauthtimeout?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemparameter#wafprotection Systemparameter#wafprotection}
+  */
+  readonly wafprotection?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemparameter#warnpriorndays Systemparameter#warnpriorndays}
+  */
+  readonly warnpriorndays?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/systemparameter citrixadc_systemparameter}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemparameter citrixadc_systemparameter}
 */
 export class Systemparameter extends cdktf.TerraformResource {
 
@@ -109,7 +133,7 @@ export class Systemparameter extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Systemparameter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Systemparameter to import
-  * @param importFromId The id of the existing Systemparameter that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/systemparameter#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Systemparameter that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemparameter#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Systemparameter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -121,7 +145,7 @@ export class Systemparameter extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/systemparameter citrixadc_systemparameter} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemparameter citrixadc_systemparameter} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -132,7 +156,8 @@ export class Systemparameter extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_systemparameter',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -144,6 +169,7 @@ export class Systemparameter extends cdktf.TerraformResource {
     });
     this._basicauth = config.basicauth;
     this._cliloglevel = config.cliloglevel;
+    this._daystoexpire = config.daystoexpire;
     this._doppler = config.doppler;
     this._fipsusermode = config.fipsusermode;
     this._forcepasswordchange = config.forcepasswordchange;
@@ -151,10 +177,13 @@ export class Systemparameter extends cdktf.TerraformResource {
     this._id = config.id;
     this._localauth = config.localauth;
     this._maxclient = config.maxclient;
+    this._maxsessionperuser = config.maxsessionperuser;
     this._minpasswordlen = config.minpasswordlen;
     this._natpcbforceflushlimit = config.natpcbforceflushlimit;
     this._natpcbrstontimeout = config.natpcbrstontimeout;
+    this._passwordhistorycontrol = config.passwordhistorycontrol;
     this._promptstring = config.promptstring;
+    this._pwdhistorycount = config.pwdhistorycount;
     this._rbaonresponse = config.rbaonresponse;
     this._reauthonauthparamchange = config.reauthonauthparamchange;
     this._removesensitivefiles = config.removesensitivefiles;
@@ -162,6 +191,8 @@ export class Systemparameter extends cdktf.TerraformResource {
     this._strongpassword = config.strongpassword;
     this._timeout = config.timeout;
     this._totalauthtimeout = config.totalauthtimeout;
+    this._wafprotection = config.wafprotection;
+    this._warnpriorndays = config.warnpriorndays;
   }
 
   // ==========
@@ -198,6 +229,22 @@ export class Systemparameter extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get cliloglevelInput() {
     return this._cliloglevel;
+  }
+
+  // daystoexpire - computed: true, optional: true, required: false
+  private _daystoexpire?: number; 
+  public get daystoexpire() {
+    return this.getNumberAttribute('daystoexpire');
+  }
+  public set daystoexpire(value: number) {
+    this._daystoexpire = value;
+  }
+  public resetDaystoexpire() {
+    this._daystoexpire = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get daystoexpireInput() {
+    return this._daystoexpire;
   }
 
   // doppler - computed: true, optional: true, required: false
@@ -312,6 +359,22 @@ export class Systemparameter extends cdktf.TerraformResource {
     return this._maxclient;
   }
 
+  // maxsessionperuser - computed: true, optional: true, required: false
+  private _maxsessionperuser?: number; 
+  public get maxsessionperuser() {
+    return this.getNumberAttribute('maxsessionperuser');
+  }
+  public set maxsessionperuser(value: number) {
+    this._maxsessionperuser = value;
+  }
+  public resetMaxsessionperuser() {
+    this._maxsessionperuser = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxsessionperuserInput() {
+    return this._maxsessionperuser;
+  }
+
   // minpasswordlen - computed: true, optional: true, required: false
   private _minpasswordlen?: number; 
   public get minpasswordlen() {
@@ -360,6 +423,22 @@ export class Systemparameter extends cdktf.TerraformResource {
     return this._natpcbrstontimeout;
   }
 
+  // passwordhistorycontrol - computed: true, optional: true, required: false
+  private _passwordhistorycontrol?: string; 
+  public get passwordhistorycontrol() {
+    return this.getStringAttribute('passwordhistorycontrol');
+  }
+  public set passwordhistorycontrol(value: string) {
+    this._passwordhistorycontrol = value;
+  }
+  public resetPasswordhistorycontrol() {
+    this._passwordhistorycontrol = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get passwordhistorycontrolInput() {
+    return this._passwordhistorycontrol;
+  }
+
   // promptstring - computed: true, optional: true, required: false
   private _promptstring?: string; 
   public get promptstring() {
@@ -374,6 +453,22 @@ export class Systemparameter extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get promptstringInput() {
     return this._promptstring;
+  }
+
+  // pwdhistorycount - computed: true, optional: true, required: false
+  private _pwdhistorycount?: number; 
+  public get pwdhistorycount() {
+    return this.getNumberAttribute('pwdhistorycount');
+  }
+  public set pwdhistorycount(value: number) {
+    this._pwdhistorycount = value;
+  }
+  public resetPwdhistorycount() {
+    this._pwdhistorycount = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get pwdhistorycountInput() {
+    return this._pwdhistorycount;
   }
 
   // rbaonresponse - computed: true, optional: true, required: false
@@ -488,6 +583,38 @@ export class Systemparameter extends cdktf.TerraformResource {
     return this._totalauthtimeout;
   }
 
+  // wafprotection - computed: true, optional: true, required: false
+  private _wafprotection?: string[]; 
+  public get wafprotection() {
+    return this.getListAttribute('wafprotection');
+  }
+  public set wafprotection(value: string[]) {
+    this._wafprotection = value;
+  }
+  public resetWafprotection() {
+    this._wafprotection = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get wafprotectionInput() {
+    return this._wafprotection;
+  }
+
+  // warnpriorndays - computed: true, optional: true, required: false
+  private _warnpriorndays?: number; 
+  public get warnpriorndays() {
+    return this.getNumberAttribute('warnpriorndays');
+  }
+  public set warnpriorndays(value: number) {
+    this._warnpriorndays = value;
+  }
+  public resetWarnpriorndays() {
+    this._warnpriorndays = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get warnpriorndaysInput() {
+    return this._warnpriorndays;
+  }
+
   // =========
   // SYNTHESIS
   // =========
@@ -496,6 +623,7 @@ export class Systemparameter extends cdktf.TerraformResource {
     return {
       basicauth: cdktf.stringToTerraform(this._basicauth),
       cliloglevel: cdktf.stringToTerraform(this._cliloglevel),
+      daystoexpire: cdktf.numberToTerraform(this._daystoexpire),
       doppler: cdktf.stringToTerraform(this._doppler),
       fipsusermode: cdktf.stringToTerraform(this._fipsusermode),
       forcepasswordchange: cdktf.stringToTerraform(this._forcepasswordchange),
@@ -503,10 +631,13 @@ export class Systemparameter extends cdktf.TerraformResource {
       id: cdktf.stringToTerraform(this._id),
       localauth: cdktf.stringToTerraform(this._localauth),
       maxclient: cdktf.stringToTerraform(this._maxclient),
+      maxsessionperuser: cdktf.numberToTerraform(this._maxsessionperuser),
       minpasswordlen: cdktf.numberToTerraform(this._minpasswordlen),
       natpcbforceflushlimit: cdktf.numberToTerraform(this._natpcbforceflushlimit),
       natpcbrstontimeout: cdktf.stringToTerraform(this._natpcbrstontimeout),
+      passwordhistorycontrol: cdktf.stringToTerraform(this._passwordhistorycontrol),
       promptstring: cdktf.stringToTerraform(this._promptstring),
+      pwdhistorycount: cdktf.numberToTerraform(this._pwdhistorycount),
       rbaonresponse: cdktf.stringToTerraform(this._rbaonresponse),
       reauthonauthparamchange: cdktf.stringToTerraform(this._reauthonauthparamchange),
       removesensitivefiles: cdktf.stringToTerraform(this._removesensitivefiles),
@@ -514,6 +645,8 @@ export class Systemparameter extends cdktf.TerraformResource {
       strongpassword: cdktf.stringToTerraform(this._strongpassword),
       timeout: cdktf.numberToTerraform(this._timeout),
       totalauthtimeout: cdktf.numberToTerraform(this._totalauthtimeout),
+      wafprotection: cdktf.listMapper(cdktf.stringToTerraform, false)(this._wafprotection),
+      warnpriorndays: cdktf.numberToTerraform(this._warnpriorndays),
     };
   }
 
@@ -530,6 +663,12 @@ export class Systemparameter extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      daystoexpire: {
+        value: cdktf.numberToHclTerraform(this._daystoexpire),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
       },
       doppler: {
         value: cdktf.stringToHclTerraform(this._doppler),
@@ -573,6 +712,12 @@ export class Systemparameter extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      maxsessionperuser: {
+        value: cdktf.numberToHclTerraform(this._maxsessionperuser),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
       minpasswordlen: {
         value: cdktf.numberToHclTerraform(this._minpasswordlen),
         isBlock: false,
@@ -591,11 +736,23 @@ export class Systemparameter extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      passwordhistorycontrol: {
+        value: cdktf.stringToHclTerraform(this._passwordhistorycontrol),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       promptstring: {
         value: cdktf.stringToHclTerraform(this._promptstring),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      pwdhistorycount: {
+        value: cdktf.numberToHclTerraform(this._pwdhistorycount),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
       },
       rbaonresponse: {
         value: cdktf.stringToHclTerraform(this._rbaonresponse),
@@ -635,6 +792,18 @@ export class Systemparameter extends cdktf.TerraformResource {
       },
       totalauthtimeout: {
         value: cdktf.numberToHclTerraform(this._totalauthtimeout),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      wafprotection: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._wafprotection),
+        isBlock: false,
+        type: "list",
+        storageClassType: "stringList",
+      },
+      warnpriorndays: {
+        value: cdktf.numberToHclTerraform(this._warnpriorndays),
         isBlock: false,
         type: "simple",
         storageClassType: "number",

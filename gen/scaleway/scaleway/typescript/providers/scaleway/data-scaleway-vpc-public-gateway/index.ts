@@ -80,7 +80,8 @@ export class DataScalewayVpcPublicGateway extends cdktf.TerraformDataSource {
       terraformResourceType: 'scaleway_vpc_public_gateway',
       terraformGeneratorMetadata: {
         providerName: 'scaleway',
-        providerVersion: '2.62.0'
+        providerVersion: '2.62.0',
+        providerVersionConstraint: '2.62.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -292,7 +292,8 @@ export class NetworkPeering extends cdktf.TerraformResource {
       terraformResourceType: 'mongodbatlas_network_peering',
       terraformGeneratorMetadata: {
         providerName: 'mongodbatlas',
-        providerVersion: '2.1.0'
+        providerVersion: '2.1.0',
+        providerVersionConstraint: '2.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

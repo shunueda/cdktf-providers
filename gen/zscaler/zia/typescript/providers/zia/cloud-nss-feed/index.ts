@@ -2334,7 +2334,8 @@ export class CloudNssFeed extends cdktf.TerraformResource {
       terraformResourceType: 'zia_cloud_nss_feed',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.5.3'
+        providerVersion: '4.5.3',
+        providerVersionConstraint: '4.5.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

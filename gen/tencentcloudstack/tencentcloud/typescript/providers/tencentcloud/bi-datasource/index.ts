@@ -152,7 +152,8 @@ export class BiDatasource extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_bi_datasource',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/portainer/portainer/1.16.0/docs/resources/custom_template
+// https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/custom_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,90 +8,90 @@ import * as cdktf from 'cdktf';
 
 export interface CustomTemplateConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.0/docs/resources/custom_template#compose_file_path CustomTemplate#compose_file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/custom_template#compose_file_path CustomTemplate#compose_file_path}
   */
   readonly composeFilePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.0/docs/resources/custom_template#description CustomTemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/custom_template#description CustomTemplate#description}
   */
   readonly description: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.0/docs/resources/custom_template#edge_template CustomTemplate#edge_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/custom_template#edge_template CustomTemplate#edge_template}
   */
   readonly edgeTemplate?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.0/docs/resources/custom_template#file_content CustomTemplate#file_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/custom_template#file_content CustomTemplate#file_content}
   */
   readonly fileContent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.0/docs/resources/custom_template#file_path CustomTemplate#file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/custom_template#file_path CustomTemplate#file_path}
   */
   readonly filePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.0/docs/resources/custom_template#id CustomTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/custom_template#id CustomTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.0/docs/resources/custom_template#is_compose_format CustomTemplate#is_compose_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/custom_template#is_compose_format CustomTemplate#is_compose_format}
   */
   readonly isComposeFormat?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.0/docs/resources/custom_template#logo CustomTemplate#logo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/custom_template#logo CustomTemplate#logo}
   */
   readonly logo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.0/docs/resources/custom_template#note CustomTemplate#note}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/custom_template#note CustomTemplate#note}
   */
   readonly note: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.0/docs/resources/custom_template#platform CustomTemplate#platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/custom_template#platform CustomTemplate#platform}
   */
   readonly platform: number;
   /**
   * Enable authentication for the Git repository (default: false).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.0/docs/resources/custom_template#repository_authentication CustomTemplate#repository_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/custom_template#repository_authentication CustomTemplate#repository_authentication}
   */
   readonly repositoryAuthentication?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.0/docs/resources/custom_template#repository_password CustomTemplate#repository_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/custom_template#repository_password CustomTemplate#repository_password}
   */
   readonly repositoryPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.0/docs/resources/custom_template#repository_reference CustomTemplate#repository_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/custom_template#repository_reference CustomTemplate#repository_reference}
   */
   readonly repositoryReference?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.0/docs/resources/custom_template#repository_url CustomTemplate#repository_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/custom_template#repository_url CustomTemplate#repository_url}
   */
   readonly repositoryUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.0/docs/resources/custom_template#repository_username CustomTemplate#repository_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/custom_template#repository_username CustomTemplate#repository_username}
   */
   readonly repositoryUsername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.0/docs/resources/custom_template#title CustomTemplate#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/custom_template#title CustomTemplate#title}
   */
   readonly title: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.0/docs/resources/custom_template#tlsskip_verify CustomTemplate#tlsskip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/custom_template#tlsskip_verify CustomTemplate#tlsskip_verify}
   */
   readonly tlsskipVerify?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.0/docs/resources/custom_template#type CustomTemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/custom_template#type CustomTemplate#type}
   */
   readonly type: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.0/docs/resources/custom_template#variables CustomTemplate#variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/custom_template#variables CustomTemplate#variables}
   */
   readonly variables?: { [key: string]: string }[] | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/portainer/portainer/1.16.0/docs/resources/custom_template portainer_custom_template}
+* Represents a {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/custom_template portainer_custom_template}
 */
 export class CustomTemplate extends cdktf.TerraformResource {
 
@@ -107,7 +107,7 @@ export class CustomTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CustomTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CustomTemplate to import
-  * @param importFromId The id of the existing CustomTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/portainer/portainer/1.16.0/docs/resources/custom_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CustomTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/custom_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CustomTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -119,7 +119,7 @@ export class CustomTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/portainer/portainer/1.16.0/docs/resources/custom_template portainer_custom_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/custom_template portainer_custom_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -130,7 +130,8 @@ export class CustomTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'portainer_custom_template',
       terraformGeneratorMetadata: {
         providerName: 'portainer',
-        providerVersion: '1.16.0'
+        providerVersion: '1.16.1',
+        providerVersionConstraint: '1.16.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

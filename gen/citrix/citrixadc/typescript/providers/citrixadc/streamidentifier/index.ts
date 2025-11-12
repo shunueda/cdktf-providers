@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/streamidentifier
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/streamidentifier
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,68 +8,80 @@ import * as cdktf from 'cdktf';
 
 export interface StreamidentifierConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/streamidentifier#acceptancethreshold Streamidentifier#acceptancethreshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/streamidentifier#acceptancethreshold Streamidentifier#acceptancethreshold}
   */
   readonly acceptancethreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/streamidentifier#appflowlog Streamidentifier#appflowlog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/streamidentifier#appflowlog Streamidentifier#appflowlog}
   */
   readonly appflowlog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/streamidentifier#breachthreshold Streamidentifier#breachthreshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/streamidentifier#breachthreshold Streamidentifier#breachthreshold}
   */
   readonly breachthreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/streamidentifier#id Streamidentifier#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/streamidentifier#id Streamidentifier#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/streamidentifier#interval Streamidentifier#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/streamidentifier#interval Streamidentifier#interval}
   */
   readonly interval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/streamidentifier#maxtransactionthreshold Streamidentifier#maxtransactionthreshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/streamidentifier#log Streamidentifier#log}
+  */
+  readonly log?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/streamidentifier#loginterval Streamidentifier#loginterval}
+  */
+  readonly loginterval?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/streamidentifier#loglimit Streamidentifier#loglimit}
+  */
+  readonly loglimit?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/streamidentifier#maxtransactionthreshold Streamidentifier#maxtransactionthreshold}
   */
   readonly maxtransactionthreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/streamidentifier#mintransactionthreshold Streamidentifier#mintransactionthreshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/streamidentifier#mintransactionthreshold Streamidentifier#mintransactionthreshold}
   */
   readonly mintransactionthreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/streamidentifier#name Streamidentifier#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/streamidentifier#name Streamidentifier#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/streamidentifier#samplecount Streamidentifier#samplecount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/streamidentifier#samplecount Streamidentifier#samplecount}
   */
   readonly samplecount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/streamidentifier#selectorname Streamidentifier#selectorname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/streamidentifier#selectorname Streamidentifier#selectorname}
   */
   readonly selectorname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/streamidentifier#snmptrap Streamidentifier#snmptrap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/streamidentifier#snmptrap Streamidentifier#snmptrap}
   */
   readonly snmptrap?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/streamidentifier#sort Streamidentifier#sort}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/streamidentifier#sort Streamidentifier#sort}
   */
   readonly sort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/streamidentifier#trackackonlypackets Streamidentifier#trackackonlypackets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/streamidentifier#trackackonlypackets Streamidentifier#trackackonlypackets}
   */
   readonly trackackonlypackets?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/streamidentifier#tracktransactions Streamidentifier#tracktransactions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/streamidentifier#tracktransactions Streamidentifier#tracktransactions}
   */
   readonly tracktransactions?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/streamidentifier citrixadc_streamidentifier}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/streamidentifier citrixadc_streamidentifier}
 */
 export class Streamidentifier extends cdktf.TerraformResource {
 
@@ -85,7 +97,7 @@ export class Streamidentifier extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Streamidentifier resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Streamidentifier to import
-  * @param importFromId The id of the existing Streamidentifier that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/streamidentifier#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Streamidentifier that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/streamidentifier#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Streamidentifier to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -97,7 +109,7 @@ export class Streamidentifier extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/streamidentifier citrixadc_streamidentifier} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/streamidentifier citrixadc_streamidentifier} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -108,7 +120,8 @@ export class Streamidentifier extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_streamidentifier',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -123,6 +136,9 @@ export class Streamidentifier extends cdktf.TerraformResource {
     this._breachthreshold = config.breachthreshold;
     this._id = config.id;
     this._interval = config.interval;
+    this._log = config.log;
+    this._loginterval = config.loginterval;
+    this._loglimit = config.loglimit;
     this._maxtransactionthreshold = config.maxtransactionthreshold;
     this._mintransactionthreshold = config.mintransactionthreshold;
     this._name = config.name;
@@ -216,6 +232,54 @@ export class Streamidentifier extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get intervalInput() {
     return this._interval;
+  }
+
+  // log - computed: true, optional: true, required: false
+  private _log?: string; 
+  public get log() {
+    return this.getStringAttribute('log');
+  }
+  public set log(value: string) {
+    this._log = value;
+  }
+  public resetLog() {
+    this._log = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get logInput() {
+    return this._log;
+  }
+
+  // loginterval - computed: true, optional: true, required: false
+  private _loginterval?: number; 
+  public get loginterval() {
+    return this.getNumberAttribute('loginterval');
+  }
+  public set loginterval(value: number) {
+    this._loginterval = value;
+  }
+  public resetLoginterval() {
+    this._loginterval = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get logintervalInput() {
+    return this._loginterval;
+  }
+
+  // loglimit - computed: true, optional: true, required: false
+  private _loglimit?: number; 
+  public get loglimit() {
+    return this.getNumberAttribute('loglimit');
+  }
+  public set loglimit(value: number) {
+    this._loglimit = value;
+  }
+  public resetLoglimit() {
+    this._loglimit = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get loglimitInput() {
+    return this._loglimit;
   }
 
   // maxtransactionthreshold - computed: true, optional: true, required: false
@@ -370,6 +434,9 @@ export class Streamidentifier extends cdktf.TerraformResource {
       breachthreshold: cdktf.numberToTerraform(this._breachthreshold),
       id: cdktf.stringToTerraform(this._id),
       interval: cdktf.numberToTerraform(this._interval),
+      log: cdktf.stringToTerraform(this._log),
+      loginterval: cdktf.numberToTerraform(this._loginterval),
+      loglimit: cdktf.numberToTerraform(this._loglimit),
       maxtransactionthreshold: cdktf.numberToTerraform(this._maxtransactionthreshold),
       mintransactionthreshold: cdktf.numberToTerraform(this._mintransactionthreshold),
       name: cdktf.stringToTerraform(this._name),
@@ -410,6 +477,24 @@ export class Streamidentifier extends cdktf.TerraformResource {
       },
       interval: {
         value: cdktf.numberToHclTerraform(this._interval),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      log: {
+        value: cdktf.stringToHclTerraform(this._log),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      loginterval: {
+        value: cdktf.numberToHclTerraform(this._loginterval),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      loglimit: {
+        value: cdktf.numberToHclTerraform(this._loglimit),
         isBlock: false,
         type: "simple",
         storageClassType: "number",

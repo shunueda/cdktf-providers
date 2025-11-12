@@ -73,7 +73,8 @@ export class Group extends cdktf.TerraformResource {
       terraformResourceType: 'orcasecurity_group',
       terraformGeneratorMetadata: {
         providerName: 'orcasecurity',
-        providerVersion: '0.0.23'
+        providerVersion: '0.0.23',
+        providerVersionConstraint: '0.0.23'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

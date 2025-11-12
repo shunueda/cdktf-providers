@@ -182,7 +182,8 @@ export class DelegatedAdminCorrelatedRestResource extends cdktf.TerraformResourc
       terraformResourceType: 'pingdirectory_delegated_admin_correlated_rest_resource',
       terraformGeneratorMetadata: {
         providerName: 'pingdirectory',
-        providerVersion: '1.5.0'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

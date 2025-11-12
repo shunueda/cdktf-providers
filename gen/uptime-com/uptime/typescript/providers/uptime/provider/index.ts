@@ -79,7 +79,8 @@ export class UptimeProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'uptime',
       terraformGeneratorMetadata: {
         providerName: 'uptime',
-        providerVersion: '2.16.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       terraformProviderSource: 'uptime-com/uptime'
     });

@@ -634,7 +634,8 @@ export class Router extends cdktf.TerraformResource {
       terraformResourceType: 'edgecenter_router',
       terraformGeneratorMetadata: {
         providerName: 'edgecenter',
-        providerVersion: '0.10.4'
+        providerVersion: '0.10.4',
+        providerVersionConstraint: '0.10.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

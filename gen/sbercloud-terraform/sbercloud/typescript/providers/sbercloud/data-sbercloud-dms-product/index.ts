@@ -104,7 +104,8 @@ export class DataSbercloudDmsProduct extends cdktf.TerraformDataSource {
       terraformResourceType: 'sbercloud_dms_product',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14'
+        providerVersion: '1.12.14',
+        providerVersionConstraint: '1.12.14'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

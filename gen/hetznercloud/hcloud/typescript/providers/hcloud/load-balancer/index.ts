@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/resources/load_balancer
+// https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/load_balancer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,52 +8,52 @@ import * as cdktf from 'cdktf';
 
 export interface LoadBalancerConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/resources/load_balancer#delete_protection LoadBalancer#delete_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/load_balancer#delete_protection LoadBalancer#delete_protection}
   */
   readonly deleteProtection?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/resources/load_balancer#id LoadBalancer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/load_balancer#id LoadBalancer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/resources/load_balancer#labels LoadBalancer#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/load_balancer#labels LoadBalancer#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/resources/load_balancer#load_balancer_type LoadBalancer#load_balancer_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/load_balancer#load_balancer_type LoadBalancer#load_balancer_type}
   */
   readonly loadBalancerType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/resources/load_balancer#location LoadBalancer#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/load_balancer#location LoadBalancer#location}
   */
   readonly location?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/resources/load_balancer#name LoadBalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/load_balancer#name LoadBalancer#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/resources/load_balancer#network_zone LoadBalancer#network_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/load_balancer#network_zone LoadBalancer#network_zone}
   */
   readonly networkZone?: string;
   /**
   * algorithm block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/resources/load_balancer#algorithm LoadBalancer#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/load_balancer#algorithm LoadBalancer#algorithm}
   */
   readonly algorithm?: LoadBalancerAlgorithm;
   /**
   * target block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/resources/load_balancer#target LoadBalancer#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/load_balancer#target LoadBalancer#target}
   */
   readonly target?: LoadBalancerTarget[] | cdktf.IResolvable;
 }
 export interface LoadBalancerAlgorithm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/resources/load_balancer#type LoadBalancer#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/load_balancer#type LoadBalancer#type}
   */
   readonly type?: string;
 }
@@ -137,15 +137,15 @@ export class LoadBalancerAlgorithmOutputReference extends cdktf.ComplexObject {
 }
 export interface LoadBalancerTarget {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/resources/load_balancer#server_id LoadBalancer#server_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/load_balancer#server_id LoadBalancer#server_id}
   */
   readonly serverId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/resources/load_balancer#type LoadBalancer#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/load_balancer#type LoadBalancer#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/resources/load_balancer#use_private_ip LoadBalancer#use_private_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/load_balancer#use_private_ip LoadBalancer#use_private_ip}
   */
   readonly usePrivateIp?: boolean | cdktf.IResolvable;
 }
@@ -316,7 +316,7 @@ export class LoadBalancerTargetList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/resources/load_balancer hcloud_load_balancer}
+* Represents a {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/load_balancer hcloud_load_balancer}
 */
 export class LoadBalancer extends cdktf.TerraformResource {
 
@@ -332,7 +332,7 @@ export class LoadBalancer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LoadBalancer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LoadBalancer to import
-  * @param importFromId The id of the existing LoadBalancer that should be imported. Refer to the {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/resources/load_balancer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LoadBalancer that should be imported. Refer to the {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/load_balancer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LoadBalancer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -344,7 +344,7 @@ export class LoadBalancer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/resources/load_balancer hcloud_load_balancer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/load_balancer hcloud_load_balancer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -355,7 +355,8 @@ export class LoadBalancer extends cdktf.TerraformResource {
       terraformResourceType: 'hcloud_load_balancer',
       terraformGeneratorMetadata: {
         providerName: 'hcloud',
-        providerVersion: '1.55.0'
+        providerVersion: '1.56.0',
+        providerVersionConstraint: '1.56.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

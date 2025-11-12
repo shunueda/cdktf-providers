@@ -152,7 +152,8 @@ export class TcmqQueue extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_tcmq_queue',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

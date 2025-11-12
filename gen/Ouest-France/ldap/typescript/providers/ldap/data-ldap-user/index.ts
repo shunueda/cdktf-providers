@@ -73,7 +73,8 @@ export class DataLdapUser extends cdktf.TerraformDataSource {
       terraformResourceType: 'ldap_user',
       terraformGeneratorMetadata: {
         providerName: 'ldap',
-        providerVersion: '0.8.12'
+        providerVersion: '0.8.12',
+        providerVersionConstraint: '0.8.12'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

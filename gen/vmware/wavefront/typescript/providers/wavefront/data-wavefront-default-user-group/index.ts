@@ -56,7 +56,8 @@ export class DataWavefrontDefaultUserGroup extends cdktf.TerraformDataSource {
       terraformResourceType: 'wavefront_default_user_group',
       terraformGeneratorMetadata: {
         providerName: 'wavefront',
-        providerVersion: '5.1.0'
+        providerVersion: '5.1.0',
+        providerVersionConstraint: '5.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

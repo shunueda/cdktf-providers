@@ -326,7 +326,8 @@ export class DataNcloudSourcebuildProjectOsRuntimeVersions extends cdktf.Terrafo
       terraformResourceType: 'ncloud_sourcebuild_project_os_runtime_versions',
       terraformGeneratorMetadata: {
         providerName: 'ncloud',
-        providerVersion: '4.0.4'
+        providerVersion: '4.0.4',
+        providerVersionConstraint: '4.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -79,7 +79,8 @@ export class Framework extends cdktf.TerraformResource {
       terraformResourceType: 'jupiterone_framework',
       terraformGeneratorMetadata: {
         providerName: 'jupiterone',
-        providerVersion: '1.16.3'
+        providerVersion: '1.16.3',
+        providerVersionConstraint: '1.16.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

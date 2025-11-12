@@ -88,7 +88,8 @@ export class SwitchcontrollerAclIngressClassifierA extends cdktf.TerraformResour
       terraformResourceType: 'fmgdevice_switchcontroller_acl_ingress_classifier',
       terraformGeneratorMetadata: {
         providerName: 'fmgdevice',
-        providerVersion: '1.2.1'
+        providerVersion: '1.2.1',
+        providerVersionConstraint: '1.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

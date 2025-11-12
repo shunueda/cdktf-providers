@@ -59,7 +59,8 @@ export class UptimerobotProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'uptimerobot',
       terraformGeneratorMetadata: {
         providerName: 'uptimerobot',
-        providerVersion: '0.8.2'
+        providerVersion: '0.8.2',
+        providerVersionConstraint: '0.8.2'
       },
       terraformProviderSource: 'vexxhost/uptimerobot'
     });

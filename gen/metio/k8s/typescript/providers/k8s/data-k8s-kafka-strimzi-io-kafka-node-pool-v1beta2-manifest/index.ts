@@ -17544,7 +17544,8 @@ export class DataK8SKafkaStrimziIoKafkaNodePoolV1Beta2Manifest extends cdktf.Ter
       terraformResourceType: 'k8s_kafka_strimzi_io_kafka_node_pool_v1beta2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

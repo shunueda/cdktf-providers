@@ -234,7 +234,8 @@ export class LogAnalyticsNamespaceIngestTimeRulesManagement extends cdktf.Terraf
       terraformResourceType: 'oci_log_analytics_namespace_ingest_time_rules_management',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

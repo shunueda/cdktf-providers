@@ -79,7 +79,8 @@ export class EventoptionsGenerateEvent extends cdktf.TerraformResource {
       terraformResourceType: 'junos_eventoptions_generate_event',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0'
+        providerVersion: '2.15.0',
+        providerVersionConstraint: '2.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

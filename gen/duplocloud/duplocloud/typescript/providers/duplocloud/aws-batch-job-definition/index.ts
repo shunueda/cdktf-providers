@@ -670,7 +670,8 @@ export class AwsBatchJobDefinition extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_aws_batch_job_definition',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.28'
+        providerVersion: '0.11.28',
+        providerVersionConstraint: '0.11.28'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -67,7 +67,8 @@ export class WirelessZigbeeDoorLock extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_wireless_zigbee_door_lock',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1'
+        providerVersion: '1.7.1',
+        providerVersionConstraint: '1.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

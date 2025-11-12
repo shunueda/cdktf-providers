@@ -104,7 +104,8 @@ export class TcpCheck extends cdktf.TerraformResource {
       terraformResourceType: 'constellix_tcp_check',
       terraformGeneratorMetadata: {
         providerName: 'constellix',
-        providerVersion: '0.4.6'
+        providerVersion: '0.4.6',
+        providerVersionConstraint: '0.4.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

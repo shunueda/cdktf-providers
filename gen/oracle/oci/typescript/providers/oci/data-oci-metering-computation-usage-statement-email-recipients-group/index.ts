@@ -151,7 +151,8 @@ export class DataOciMeteringComputationUsageStatementEmailRecipientsGroup extend
       terraformResourceType: 'oci_metering_computation_usage_statement_email_recipients_group',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

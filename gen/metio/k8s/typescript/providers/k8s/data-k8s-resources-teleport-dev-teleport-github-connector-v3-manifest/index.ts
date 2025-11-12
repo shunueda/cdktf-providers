@@ -916,7 +916,8 @@ export class DataK8SResourcesTeleportDevTeleportGithubConnectorV3Manifest extend
       terraformResourceType: 'k8s_resources_teleport_dev_teleport_github_connector_v3_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

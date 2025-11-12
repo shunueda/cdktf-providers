@@ -74,7 +74,8 @@ export class InterfaceLifIpv6RouterIsisA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_interface_lif_ipv6_router_isis',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

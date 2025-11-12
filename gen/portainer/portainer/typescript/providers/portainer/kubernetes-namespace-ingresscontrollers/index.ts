@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/portainer/portainer/1.16.0/docs/resources/kubernetes_namespace_ingresscontrollers
+// https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/kubernetes_namespace_ingresscontrollers
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface KubernetesNamespaceIngresscontrollersConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.0/docs/resources/kubernetes_namespace_ingresscontrollers#environment_id KubernetesNamespaceIngresscontrollers#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/kubernetes_namespace_ingresscontrollers#environment_id KubernetesNamespaceIngresscontrollers#environment_id}
   */
   readonly environmentId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.0/docs/resources/kubernetes_namespace_ingresscontrollers#id KubernetesNamespaceIngresscontrollers#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/kubernetes_namespace_ingresscontrollers#id KubernetesNamespaceIngresscontrollers#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.0/docs/resources/kubernetes_namespace_ingresscontrollers#namespace KubernetesNamespaceIngresscontrollers#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/kubernetes_namespace_ingresscontrollers#namespace KubernetesNamespaceIngresscontrollers#namespace}
   */
   readonly namespace: string;
   /**
   * controllers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.0/docs/resources/kubernetes_namespace_ingresscontrollers#controllers KubernetesNamespaceIngresscontrollers#controllers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/kubernetes_namespace_ingresscontrollers#controllers KubernetesNamespaceIngresscontrollers#controllers}
   */
   readonly controllers: KubernetesNamespaceIngresscontrollersControllers[] | cdktf.IResolvable;
 }
 export interface KubernetesNamespaceIngresscontrollersControllers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.0/docs/resources/kubernetes_namespace_ingresscontrollers#availability KubernetesNamespaceIngresscontrollers#availability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/kubernetes_namespace_ingresscontrollers#availability KubernetesNamespaceIngresscontrollers#availability}
   */
   readonly availability: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.0/docs/resources/kubernetes_namespace_ingresscontrollers#class_name KubernetesNamespaceIngresscontrollers#class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/kubernetes_namespace_ingresscontrollers#class_name KubernetesNamespaceIngresscontrollers#class_name}
   */
   readonly className: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.0/docs/resources/kubernetes_namespace_ingresscontrollers#name KubernetesNamespaceIngresscontrollers#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/kubernetes_namespace_ingresscontrollers#name KubernetesNamespaceIngresscontrollers#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.0/docs/resources/kubernetes_namespace_ingresscontrollers#new KubernetesNamespaceIngresscontrollers#new}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/kubernetes_namespace_ingresscontrollers#new KubernetesNamespaceIngresscontrollers#new}
   */
   readonly new: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.0/docs/resources/kubernetes_namespace_ingresscontrollers#type KubernetesNamespaceIngresscontrollers#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/kubernetes_namespace_ingresscontrollers#type KubernetesNamespaceIngresscontrollers#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.0/docs/resources/kubernetes_namespace_ingresscontrollers#used KubernetesNamespaceIngresscontrollers#used}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/kubernetes_namespace_ingresscontrollers#used KubernetesNamespaceIngresscontrollers#used}
   */
   readonly used: boolean | cdktf.IResolvable;
 }
@@ -294,7 +294,7 @@ export class KubernetesNamespaceIngresscontrollersControllersList extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/portainer/portainer/1.16.0/docs/resources/kubernetes_namespace_ingresscontrollers portainer_kubernetes_namespace_ingresscontrollers}
+* Represents a {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/kubernetes_namespace_ingresscontrollers portainer_kubernetes_namespace_ingresscontrollers}
 */
 export class KubernetesNamespaceIngresscontrollers extends cdktf.TerraformResource {
 
@@ -310,7 +310,7 @@ export class KubernetesNamespaceIngresscontrollers extends cdktf.TerraformResour
   * Generates CDKTF code for importing a KubernetesNamespaceIngresscontrollers resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KubernetesNamespaceIngresscontrollers to import
-  * @param importFromId The id of the existing KubernetesNamespaceIngresscontrollers that should be imported. Refer to the {@link https://registry.terraform.io/providers/portainer/portainer/1.16.0/docs/resources/kubernetes_namespace_ingresscontrollers#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KubernetesNamespaceIngresscontrollers that should be imported. Refer to the {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/kubernetes_namespace_ingresscontrollers#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KubernetesNamespaceIngresscontrollers to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -322,7 +322,7 @@ export class KubernetesNamespaceIngresscontrollers extends cdktf.TerraformResour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/portainer/portainer/1.16.0/docs/resources/kubernetes_namespace_ingresscontrollers portainer_kubernetes_namespace_ingresscontrollers} Resource
+  * Create a new {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/kubernetes_namespace_ingresscontrollers portainer_kubernetes_namespace_ingresscontrollers} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -333,7 +333,8 @@ export class KubernetesNamespaceIngresscontrollers extends cdktf.TerraformResour
       terraformResourceType: 'portainer_kubernetes_namespace_ingresscontrollers',
       terraformGeneratorMetadata: {
         providerName: 'portainer',
-        providerVersion: '1.16.0'
+        providerVersion: '1.16.1',
+        providerVersionConstraint: '1.16.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

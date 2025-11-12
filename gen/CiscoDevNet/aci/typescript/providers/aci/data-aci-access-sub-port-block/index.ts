@@ -100,7 +100,8 @@ export class DataAciAccessSubPortBlock extends cdktf.TerraformDataSource {
       terraformResourceType: 'aci_access_sub_port_block',
       terraformGeneratorMetadata: {
         providerName: 'aci',
-        providerVersion: '2.18.0'
+        providerVersion: '2.18.0',
+        providerVersionConstraint: '2.18.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

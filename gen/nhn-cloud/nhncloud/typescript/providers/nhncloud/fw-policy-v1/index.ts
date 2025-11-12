@@ -221,7 +221,8 @@ export class FwPolicyV1 extends cdktf.TerraformResource {
       terraformResourceType: 'nhncloud_fw_policy_v1',
       terraformGeneratorMetadata: {
         providerName: 'nhncloud',
-        providerVersion: '1.0.6'
+        providerVersion: '1.0.6',
+        providerVersionConstraint: '1.0.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

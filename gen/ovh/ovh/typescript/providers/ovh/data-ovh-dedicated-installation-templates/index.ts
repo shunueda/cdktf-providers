@@ -56,7 +56,8 @@ export class DataOvhDedicatedInstallationTemplates extends cdktf.TerraformDataSo
       terraformResourceType: 'ovh_dedicated_installation_templates',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0'
+        providerVersion: '2.9.0',
+        providerVersionConstraint: '2.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

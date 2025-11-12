@@ -55,7 +55,8 @@ export class DataPingonePhoneDeliverySettingsList extends cdktf.TerraformDataSou
       terraformResourceType: 'pingone_phone_delivery_settings_list',
       terraformGeneratorMetadata: {
         providerName: 'pingone',
-        providerVersion: '1.14.0'
+        providerVersion: '1.14.0',
+        providerVersionConstraint: '1.14.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/user
+// https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface UserConfig extends cdktf.TerraformMetaArguments {
   /**
   * The email of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/user#email User#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/user#email User#email}
   */
   readonly email: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/user#id User#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/user#id User#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,73 +23,73 @@ export interface UserConfig extends cdktf.TerraformMetaArguments {
   /**
   * If true, the user must be explicitly granted access to platform actions and entities.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/user#restricted User#restricted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/user#restricted User#restricted}
   */
   readonly restricted?: boolean | cdktf.IResolvable;
   /**
   * The username of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/user#username User#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/user#username User#username}
   */
   readonly username: string;
   /**
   * domain_grant block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/user#domain_grant User#domain_grant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/user#domain_grant User#domain_grant}
   */
   readonly domainGrant?: UserDomainGrant[] | cdktf.IResolvable;
   /**
   * firewall_grant block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/user#firewall_grant User#firewall_grant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/user#firewall_grant User#firewall_grant}
   */
   readonly firewallGrant?: UserFirewallGrant[] | cdktf.IResolvable;
   /**
   * global_grants block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/user#global_grants User#global_grants}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/user#global_grants User#global_grants}
   */
   readonly globalGrants?: UserGlobalGrants;
   /**
   * image_grant block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/user#image_grant User#image_grant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/user#image_grant User#image_grant}
   */
   readonly imageGrant?: UserImageGrant[] | cdktf.IResolvable;
   /**
   * linode_grant block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/user#linode_grant User#linode_grant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/user#linode_grant User#linode_grant}
   */
   readonly linodeGrant?: UserLinodeGrant[] | cdktf.IResolvable;
   /**
   * longview_grant block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/user#longview_grant User#longview_grant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/user#longview_grant User#longview_grant}
   */
   readonly longviewGrant?: UserLongviewGrant[] | cdktf.IResolvable;
   /**
   * nodebalancer_grant block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/user#nodebalancer_grant User#nodebalancer_grant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/user#nodebalancer_grant User#nodebalancer_grant}
   */
   readonly nodebalancerGrant?: UserNodebalancerGrant[] | cdktf.IResolvable;
   /**
   * stackscript_grant block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/user#stackscript_grant User#stackscript_grant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/user#stackscript_grant User#stackscript_grant}
   */
   readonly stackscriptGrant?: UserStackscriptGrant[] | cdktf.IResolvable;
   /**
   * volume_grant block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/user#volume_grant User#volume_grant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/user#volume_grant User#volume_grant}
   */
   readonly volumeGrant?: UserVolumeGrant[] | cdktf.IResolvable;
   /**
   * vpc_grant block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/user#vpc_grant User#vpc_grant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/user#vpc_grant User#vpc_grant}
   */
   readonly vpcGrant?: UserVpcGrant[] | cdktf.IResolvable;
 }
@@ -97,7 +97,7 @@ export interface UserDomainGrant {
   /**
   * The ID of the entity this grant applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/user#id User#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/user#id User#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -106,7 +106,7 @@ export interface UserDomainGrant {
   /**
   * The level of access this User has to this entity. If null, this User has no access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/user#permissions User#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/user#permissions User#permissions}
   */
   readonly permissions: string;
 }
@@ -247,7 +247,7 @@ export interface UserFirewallGrant {
   /**
   * The ID of the entity this grant applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/user#id User#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/user#id User#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -256,7 +256,7 @@ export interface UserFirewallGrant {
   /**
   * The level of access this User has to this entity. If null, this User has no access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/user#permissions User#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/user#permissions User#permissions}
   */
   readonly permissions: string;
 }
@@ -397,79 +397,79 @@ export interface UserGlobalGrants {
   /**
   * The level of access this User has to Account-level actions, like billing information. A restricted User will never be able to manage users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/user#account_access User#account_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/user#account_access User#account_access}
   */
   readonly accountAccess?: string;
   /**
   * If true, this User may add Databases.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/user#add_databases User#add_databases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/user#add_databases User#add_databases}
   */
   readonly addDatabases?: boolean | cdktf.IResolvable;
   /**
   * If true, this User may add Domains.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/user#add_domains User#add_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/user#add_domains User#add_domains}
   */
   readonly addDomains?: boolean | cdktf.IResolvable;
   /**
   * If true, this User may add Firewalls.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/user#add_firewalls User#add_firewalls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/user#add_firewalls User#add_firewalls}
   */
   readonly addFirewalls?: boolean | cdktf.IResolvable;
   /**
   * If true, this User may add Images.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/user#add_images User#add_images}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/user#add_images User#add_images}
   */
   readonly addImages?: boolean | cdktf.IResolvable;
   /**
   * If true, this User may create Linodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/user#add_linodes User#add_linodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/user#add_linodes User#add_linodes}
   */
   readonly addLinodes?: boolean | cdktf.IResolvable;
   /**
   * If true, this User may create Longview clients and view the current plan.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/user#add_longview User#add_longview}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/user#add_longview User#add_longview}
   */
   readonly addLongview?: boolean | cdktf.IResolvable;
   /**
   * If true, this User may add NodeBalancers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/user#add_nodebalancers User#add_nodebalancers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/user#add_nodebalancers User#add_nodebalancers}
   */
   readonly addNodebalancers?: boolean | cdktf.IResolvable;
   /**
   * If true, this User may add StackScripts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/user#add_stackscripts User#add_stackscripts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/user#add_stackscripts User#add_stackscripts}
   */
   readonly addStackscripts?: boolean | cdktf.IResolvable;
   /**
   * If true, this User may add Volumes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/user#add_volumes User#add_volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/user#add_volumes User#add_volumes}
   */
   readonly addVolumes?: boolean | cdktf.IResolvable;
   /**
   * If true, this User may add Virtual Private Clouds (VPCs).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/user#add_vpcs User#add_vpcs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/user#add_vpcs User#add_vpcs}
   */
   readonly addVpcs?: boolean | cdktf.IResolvable;
   /**
   * If true, this User may cancel the entire Account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/user#cancel_account User#cancel_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/user#cancel_account User#cancel_account}
   */
   readonly cancelAccount?: boolean | cdktf.IResolvable;
   /**
   * If true, this User may manage the Account’s Longview subscription.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/user#longview_subscription User#longview_subscription}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/user#longview_subscription User#longview_subscription}
   */
   readonly longviewSubscription?: boolean | cdktf.IResolvable;
 }
@@ -903,7 +903,7 @@ export interface UserImageGrant {
   /**
   * The ID of the entity this grant applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/user#id User#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/user#id User#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -912,7 +912,7 @@ export interface UserImageGrant {
   /**
   * The level of access this User has to this entity. If null, this User has no access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/user#permissions User#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/user#permissions User#permissions}
   */
   readonly permissions: string;
 }
@@ -1053,7 +1053,7 @@ export interface UserLinodeGrant {
   /**
   * The ID of the entity this grant applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/user#id User#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/user#id User#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1062,7 +1062,7 @@ export interface UserLinodeGrant {
   /**
   * The level of access this User has to this entity. If null, this User has no access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/user#permissions User#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/user#permissions User#permissions}
   */
   readonly permissions: string;
 }
@@ -1203,7 +1203,7 @@ export interface UserLongviewGrant {
   /**
   * The ID of the entity this grant applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/user#id User#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/user#id User#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1212,7 +1212,7 @@ export interface UserLongviewGrant {
   /**
   * The level of access this User has to this entity. If null, this User has no access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/user#permissions User#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/user#permissions User#permissions}
   */
   readonly permissions: string;
 }
@@ -1353,7 +1353,7 @@ export interface UserNodebalancerGrant {
   /**
   * The ID of the entity this grant applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/user#id User#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/user#id User#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1362,7 +1362,7 @@ export interface UserNodebalancerGrant {
   /**
   * The level of access this User has to this entity. If null, this User has no access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/user#permissions User#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/user#permissions User#permissions}
   */
   readonly permissions: string;
 }
@@ -1503,7 +1503,7 @@ export interface UserStackscriptGrant {
   /**
   * The ID of the entity this grant applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/user#id User#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/user#id User#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1512,7 +1512,7 @@ export interface UserStackscriptGrant {
   /**
   * The level of access this User has to this entity. If null, this User has no access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/user#permissions User#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/user#permissions User#permissions}
   */
   readonly permissions: string;
 }
@@ -1653,7 +1653,7 @@ export interface UserVolumeGrant {
   /**
   * The ID of the entity this grant applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/user#id User#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/user#id User#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1662,7 +1662,7 @@ export interface UserVolumeGrant {
   /**
   * The level of access this User has to this entity. If null, this User has no access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/user#permissions User#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/user#permissions User#permissions}
   */
   readonly permissions: string;
 }
@@ -1803,7 +1803,7 @@ export interface UserVpcGrant {
   /**
   * The ID of the entity this grant applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/user#id User#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/user#id User#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1812,7 +1812,7 @@ export interface UserVpcGrant {
   /**
   * The level of access this User has to this entity. If null, this User has no access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/user#permissions User#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/user#permissions User#permissions}
   */
   readonly permissions: string;
 }
@@ -1951,7 +1951,7 @@ export class UserVpcGrantList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/user linode_user}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/user linode_user}
 */
 export class User extends cdktf.TerraformResource {
 
@@ -1967,7 +1967,7 @@ export class User extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a User resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the User to import
-  * @param importFromId The id of the existing User that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing User that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the User to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1979,7 +1979,7 @@ export class User extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/user linode_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/user linode_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1990,7 +1990,8 @@ export class User extends cdktf.TerraformResource {
       terraformResourceType: 'linode_user',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.5.0'
+        providerVersion: '3.5.1',
+        providerVersionConstraint: '3.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

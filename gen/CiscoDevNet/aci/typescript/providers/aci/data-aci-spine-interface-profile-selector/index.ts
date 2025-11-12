@@ -68,7 +68,8 @@ export class DataAciSpineInterfaceProfileSelector extends cdktf.TerraformDataSou
       terraformResourceType: 'aci_spine_interface_profile_selector',
       terraformGeneratorMetadata: {
         providerName: 'aci',
-        providerVersion: '2.18.0'
+        providerVersion: '2.18.0',
+        providerVersionConstraint: '2.18.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -97,7 +97,8 @@ export class DownloadClientUsenetBlackhole extends cdktf.TerraformResource {
       terraformResourceType: 'radarr_download_client_usenet_blackhole',
       terraformGeneratorMetadata: {
         providerName: 'radarr',
-        providerVersion: '2.3.3'
+        providerVersion: '2.3.3',
+        providerVersionConstraint: '2.3.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

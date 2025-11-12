@@ -66,7 +66,8 @@ export class DefaultRoles extends cdktf.TerraformResource {
       terraformResourceType: 'keycloak_default_roles',
       terraformGeneratorMetadata: {
         providerName: 'keycloak',
-        providerVersion: '5.5.0'
+        providerVersion: '5.5.0',
+        providerVersionConstraint: '5.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

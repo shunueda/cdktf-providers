@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_accounts_azure
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_accounts_azure
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface ManagementCmeAccountsAzureConfig extends cdktf.TerraformMetaArg
   /**
   * The application ID with which the service principal is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_accounts_azure#application_id ManagementCmeAccountsAzure#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_accounts_azure#application_id ManagementCmeAccountsAzure#application_id}
   */
   readonly applicationId: string;
   /**
   * The service principal's client secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_accounts_azure#client_secret ManagementCmeAccountsAzure#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_accounts_azure#client_secret ManagementCmeAccountsAzure#client_secret}
   */
   readonly clientSecret: string;
   /**
   * The number of CME cycles to wait when the cloud provider does not return a GW until its deletion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_accounts_azure#deletion_tolerance ManagementCmeAccountsAzure#deletion_tolerance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_accounts_azure#deletion_tolerance ManagementCmeAccountsAzure#deletion_tolerance}
   */
   readonly deletionTolerance?: number;
   /**
   * Azure Active Directory tenant ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_accounts_azure#directory_id ManagementCmeAccountsAzure#directory_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_accounts_azure#directory_id ManagementCmeAccountsAzure#directory_id}
   */
   readonly directoryId: string;
   /**
   * The account's domain name in MDS environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_accounts_azure#domain ManagementCmeAccountsAzure#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_accounts_azure#domain ManagementCmeAccountsAzure#domain}
   */
   readonly domain?: string;
   /**
   * The Azure account environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_accounts_azure#environment ManagementCmeAccountsAzure#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_accounts_azure#environment ManagementCmeAccountsAzure#environment}
   */
   readonly environment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_accounts_azure#id ManagementCmeAccountsAzure#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_accounts_azure#id ManagementCmeAccountsAzure#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,19 +53,19 @@ export interface ManagementCmeAccountsAzureConfig extends cdktf.TerraformMetaArg
   /**
   * Unique account name for identification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_accounts_azure#name ManagementCmeAccountsAzure#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_accounts_azure#name ManagementCmeAccountsAzure#name}
   */
   readonly name: string;
   /**
   * Azure subscription ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_accounts_azure#subscription ManagementCmeAccountsAzure#subscription}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_accounts_azure#subscription ManagementCmeAccountsAzure#subscription}
   */
   readonly subscription: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_accounts_azure checkpoint_management_cme_accounts_azure}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_accounts_azure checkpoint_management_cme_accounts_azure}
 */
 export class ManagementCmeAccountsAzure extends cdktf.TerraformResource {
 
@@ -81,7 +81,7 @@ export class ManagementCmeAccountsAzure extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementCmeAccountsAzure resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementCmeAccountsAzure to import
-  * @param importFromId The id of the existing ManagementCmeAccountsAzure that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_accounts_azure#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementCmeAccountsAzure that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_accounts_azure#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementCmeAccountsAzure to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +93,7 @@ export class ManagementCmeAccountsAzure extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_accounts_azure checkpoint_management_cme_accounts_azure} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_accounts_azure checkpoint_management_cme_accounts_azure} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,7 +104,8 @@ export class ManagementCmeAccountsAzure extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_cme_accounts_azure',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

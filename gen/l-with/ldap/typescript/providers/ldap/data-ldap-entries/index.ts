@@ -184,7 +184,8 @@ export class DataLdapEntries extends cdktf.TerraformDataSource {
       terraformResourceType: 'ldap_entries',
       terraformGeneratorMetadata: {
         providerName: 'ldap',
-        providerVersion: '0.11.1'
+        providerVersion: '0.11.1',
+        providerVersionConstraint: '0.11.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,3 +1,3 @@
 # `scm_mfa_server`
 
-Refer to the Terraform Registry for docs: [`scm_mfa_server`](https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/mfa_server).
+Refer to the Terraform Registry for docs: [`scm_mfa_server`](https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/mfa_server).

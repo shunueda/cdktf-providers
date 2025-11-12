@@ -100,7 +100,8 @@ export class Issue extends cdktf.TerraformResource {
       terraformResourceType: 'jira_issue',
       terraformGeneratorMetadata: {
         providerName: 'jira',
-        providerVersion: '0.1.20'
+        providerVersion: '0.1.20',
+        providerVersionConstraint: '0.1.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -534,7 +534,8 @@ export class OspGatewayAddressActionVerification extends cdktf.TerraformResource
       terraformResourceType: 'oci_osp_gateway_address_action_verification',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

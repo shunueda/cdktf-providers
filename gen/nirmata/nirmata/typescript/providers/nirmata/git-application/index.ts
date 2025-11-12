@@ -100,7 +100,8 @@ export class GitApplication extends cdktf.TerraformResource {
       terraformResourceType: 'nirmata_git_application',
       terraformGeneratorMetadata: {
         providerName: 'nirmata',
-        providerVersion: '1.1.13'
+        providerVersion: '1.1.13',
+        providerVersionConstraint: '1.1.13'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

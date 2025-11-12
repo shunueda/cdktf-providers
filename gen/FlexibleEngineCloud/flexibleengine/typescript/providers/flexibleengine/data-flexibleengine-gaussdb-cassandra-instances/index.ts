@@ -511,7 +511,8 @@ export class DataFlexibleengineGaussdbCassandraInstances extends cdktf.Terraform
       terraformResourceType: 'flexibleengine_gaussdb_cassandra_instances',
       terraformGeneratorMetadata: {
         providerName: 'flexibleengine',
-        providerVersion: '1.46.0'
+        providerVersion: '1.46.0',
+        providerVersionConstraint: '1.46.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

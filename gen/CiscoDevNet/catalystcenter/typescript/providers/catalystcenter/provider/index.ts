@@ -97,7 +97,8 @@ export class CatalystcenterProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'catalystcenter',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.2'
+        providerVersion: '0.4.2',
+        providerVersionConstraint: '0.4.2'
       },
       terraformProviderSource: 'CiscoDevNet/catalystcenter'
     });

@@ -151,7 +151,8 @@ export class NetworkClientSplashAuthorizationStatus extends cdktf.TerraformResou
       terraformResourceType: 'meraki_network_client_splash_authorization_status',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1'
+        providerVersion: '1.7.1',
+        providerVersionConstraint: '1.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

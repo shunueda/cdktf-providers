@@ -116,7 +116,8 @@ export class ApiKey extends cdktf.TerraformResource {
       terraformResourceType: 'algolia_api_key',
       terraformGeneratorMetadata: {
         providerName: 'algolia',
-        providerVersion: '0.6.2'
+        providerVersion: '0.6.2',
+        providerVersionConstraint: '0.6.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

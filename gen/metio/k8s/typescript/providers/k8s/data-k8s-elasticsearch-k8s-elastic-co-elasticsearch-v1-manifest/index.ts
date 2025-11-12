@@ -66,7 +66,8 @@ export class DataK8SElasticsearchK8SElasticCoElasticsearchV1Manifest extends cdk
       terraformResourceType: 'k8s_elasticsearch_k8s_elastic_co_elasticsearch_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

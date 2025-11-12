@@ -80,7 +80,8 @@ export class AlertChannelMicrosoftTeams extends cdktf.TerraformResource {
       terraformResourceType: 'lacework_alert_channel_microsoft_teams',
       terraformGeneratorMetadata: {
         providerName: 'lacework',
-        providerVersion: '2.0.10'
+        providerVersion: '2.0.10',
+        providerVersionConstraint: '2.0.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

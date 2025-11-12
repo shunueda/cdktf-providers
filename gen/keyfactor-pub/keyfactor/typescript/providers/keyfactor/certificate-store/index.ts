@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/resources/certificate_store
+// https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/resources/certificate_store
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface CertificateStoreConfig extends cdktf.TerraformMetaArguments {
   /**
   * Can be either ClientMachine or the Keyfactor Command GUID of the orchestrator to use for managing the certificate store. The agent must support the certificate store type and be approved.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/resources/certificate_store#agent_identifier CertificateStore#agent_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/resources/certificate_store#agent_identifier CertificateStore#agent_identifier}
   */
   readonly agentIdentifier: string;
   /**
   * Client machine name; value depends on certificate store type. See API reference guide and/or store type documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/resources/certificate_store#client_machine CertificateStore#client_machine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/resources/certificate_store#client_machine CertificateStore#client_machine}
   */
   readonly clientMachine: string;
   /**
   * Name of the container you want to associate the certificate store with. NOTE: The container must already exist and be of the same certificate store type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/resources/certificate_store#container_name CertificateStore#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/resources/certificate_store#container_name CertificateStore#container_name}
   */
   readonly containerName?: string;
   /**
   * Determines whether the store create job will be scheduled. WARNING: If set to TRUE, each apply will trigger a store create job, if the store type support Create. This may cause issues if the store already exists but will depend on the store type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/resources/certificate_store#create_if_missing CertificateStore#create_if_missing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/resources/certificate_store#create_if_missing CertificateStore#create_if_missing}
   */
   readonly createIfMissing?: boolean | cdktf.IResolvable;
   /**
@@ -39,55 +39,55 @@ export interface CertificateStoreConfig extends cdktf.TerraformMetaArguments {
   * 					"30m" - schedules a job every 30 minutes
   * 				
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/resources/certificate_store#inventory_schedule CertificateStore#inventory_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/resources/certificate_store#inventory_schedule CertificateStore#inventory_schedule}
   */
   readonly inventorySchedule?: string;
   /**
   * Certificate properties specific to certificate store type configured as key-value pairs. NOTE: Special properties 'ServerUsername' and 'ServerPassword' are required for some store types and should not be declared in this attribute and have their own dedicated values. See store type documentation for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/resources/certificate_store#properties CertificateStore#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/resources/certificate_store#properties CertificateStore#properties}
   */
   readonly properties?: { [key: string]: string };
   /**
   * The password to access the host of the certificate store. In Keyfactor Command this is the 'ServerUsername' field found in the store type 'Properties'. Whether this is required and what format will vary based on store type definitions, please review the store type documentation for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/resources/certificate_store#server_password CertificateStore#server_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/resources/certificate_store#server_password CertificateStore#server_password}
   */
   readonly serverPassword?: string;
   /**
   * Indicates whether the certificate store host requires SSL. In Keyfactor Command this is the 'ServerUseSsl' field found in the store type 'Properties'. Whether this is required and what format will vary based on store type definitions, please review the store type documentation for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/resources/certificate_store#server_use_ssl CertificateStore#server_use_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/resources/certificate_store#server_use_ssl CertificateStore#server_use_ssl}
   */
   readonly serverUseSsl?: boolean | cdktf.IResolvable;
   /**
   * The username to access the host of the certificate store. In Keyfactor Command this is the 'ServerUsername' field found in the store type 'Properties'. Whether this is required and what format will vary based on store type definitions, please review the store type documentation for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/resources/certificate_store#server_username CertificateStore#server_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/resources/certificate_store#server_username CertificateStore#server_username}
   */
   readonly serverUsername?: string;
   /**
   * The password to access the contents of the certificate store. In Keyfactor Command this is the 'StorePassword' field. field found in the store type 'Properties'. Whether this is required and what format will vary based on store type definitions, please review the store type documentation for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/resources/certificate_store#store_password CertificateStore#store_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/resources/certificate_store#store_password CertificateStore#store_password}
   */
   readonly storePassword?: string;
   /**
   * Path to the new certificate store on a target. Format varies depending on store type see the store type documentation for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/resources/certificate_store#store_path CertificateStore#store_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/resources/certificate_store#store_path CertificateStore#store_path}
   */
   readonly storePath: string;
   /**
   * Short name of certificate store type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/resources/certificate_store#store_type CertificateStore#store_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/resources/certificate_store#store_type CertificateStore#store_type}
   */
   readonly storeType: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/resources/certificate_store keyfactor_certificate_store}
+* Represents a {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/resources/certificate_store keyfactor_certificate_store}
 */
 export class CertificateStore extends cdktf.TerraformResource {
 
@@ -103,7 +103,7 @@ export class CertificateStore extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CertificateStore resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CertificateStore to import
-  * @param importFromId The id of the existing CertificateStore that should be imported. Refer to the {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/resources/certificate_store#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CertificateStore that should be imported. Refer to the {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/resources/certificate_store#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CertificateStore to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -115,7 +115,7 @@ export class CertificateStore extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/resources/certificate_store keyfactor_certificate_store} Resource
+  * Create a new {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/resources/certificate_store keyfactor_certificate_store} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -126,7 +126,8 @@ export class CertificateStore extends cdktf.TerraformResource {
       terraformResourceType: 'keyfactor_certificate_store',
       terraformGeneratorMetadata: {
         providerName: 'keyfactor',
-        providerVersion: '2.6.0'
+        providerVersion: '2.7.0',
+        providerVersionConstraint: '2.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

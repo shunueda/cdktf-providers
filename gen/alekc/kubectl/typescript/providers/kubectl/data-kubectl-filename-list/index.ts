@@ -60,7 +60,8 @@ export class DataKubectlFilenameList extends cdktf.TerraformDataSource {
       terraformResourceType: 'kubectl_filename_list',
       terraformGeneratorMetadata: {
         providerName: 'kubectl',
-        providerVersion: '2.1.3'
+        providerVersion: '2.1.3',
+        providerVersionConstraint: '2.1.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

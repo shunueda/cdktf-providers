@@ -250,7 +250,8 @@ export class AnalyticsAnalyticsInstanceVanityUrl extends cdktf.TerraformResource
       terraformResourceType: 'oci_analytics_analytics_instance_vanity_url',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

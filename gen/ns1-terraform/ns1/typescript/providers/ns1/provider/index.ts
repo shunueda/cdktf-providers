@@ -91,7 +91,8 @@ export class Ns1Provider extends cdktf.TerraformProvider {
       terraformResourceType: 'ns1',
       terraformGeneratorMetadata: {
         providerName: 'ns1',
-        providerVersion: '2.7.2'
+        providerVersion: '2.7.2',
+        providerVersionConstraint: '2.7.2'
       },
       terraformProviderSource: 'ns1-terraform/ns1'
     });

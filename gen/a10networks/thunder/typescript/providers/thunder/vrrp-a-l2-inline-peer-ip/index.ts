@@ -68,7 +68,8 @@ export class VrrpAL2InlinePeerIp extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_vrrp_a_l2_inline_peer_ip',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

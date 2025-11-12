@@ -91,7 +91,8 @@ export class CloudflareProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'cloudflare',
       terraformGeneratorMetadata: {
         providerName: 'cloudflare',
-        providerVersion: '5.12.0'
+        providerVersion: '5.12.0',
+        providerVersionConstraint: '5.12.0'
       },
       terraformProviderSource: 'cloudflare/cloudflare'
     });

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/address_group
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/address_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface AddressGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/address_group#description AddressGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/address_group#description AddressGroup#description}
   */
   readonly description?: string;
   /**
   * The device in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/address_group#device AddressGroup#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/address_group#device AddressGroup#device}
   */
   readonly device?: string;
   /**
   * Dynamic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/address_group#dynamic AddressGroup#dynamic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/address_group#dynamic AddressGroup#dynamic}
   */
   readonly dynamic?: AddressGroupDynamic;
   /**
   * The folder in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/address_group#folder AddressGroup#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/address_group#folder AddressGroup#folder}
   */
   readonly folder?: string;
   /**
   * The name of the address group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/address_group#name AddressGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/address_group#name AddressGroup#name}
   */
   readonly name: string;
   /**
   * The snippet in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/address_group#snippet AddressGroup#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/address_group#snippet AddressGroup#snippet}
   */
   readonly snippet?: string;
   /**
   * Static
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/address_group#static AddressGroup#static}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/address_group#static AddressGroup#static}
   */
   readonly static?: string[];
   /**
   * Tags for address group object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/address_group#tag AddressGroup#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/address_group#tag AddressGroup#tag}
   */
   readonly tag?: string[];
 }
@@ -60,7 +60,7 @@ export interface AddressGroupDynamic {
   /**
   * Tag based filter defining group membership
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/address_group#filter AddressGroup#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/address_group#filter AddressGroup#filter}
   */
   readonly filter: string;
 }
@@ -151,7 +151,7 @@ export class AddressGroupDynamicOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/address_group scm_address_group}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/address_group scm_address_group}
 */
 export class AddressGroup extends cdktf.TerraformResource {
 
@@ -167,7 +167,7 @@ export class AddressGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AddressGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AddressGroup to import
-  * @param importFromId The id of the existing AddressGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/address_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AddressGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/address_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AddressGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -179,7 +179,7 @@ export class AddressGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/address_group scm_address_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/address_group scm_address_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -190,7 +190,8 @@ export class AddressGroup extends cdktf.TerraformResource {
       terraformResourceType: 'scm_address_group',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.3'
+        providerVersion: '1.0.4',
+        providerVersionConstraint: '1.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

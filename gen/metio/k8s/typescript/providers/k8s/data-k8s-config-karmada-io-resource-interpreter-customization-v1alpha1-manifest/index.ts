@@ -1431,7 +1431,8 @@ export class DataK8SConfigKarmadaIoResourceInterpreterCustomizationV1Alpha1Manif
       terraformResourceType: 'k8s_config_karmada_io_resource_interpreter_customization_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_gsn_handover_group
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_gsn_handover_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface ManagementGsnHandoverGroupConfig extends cdktf.TerraformMetaArg
   /**
   * Color of the object. Should be one of existing colors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_gsn_handover_group#color ManagementGsnHandoverGroup#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_gsn_handover_group#color ManagementGsnHandoverGroup#color}
   */
   readonly color?: string;
   /**
   * Comments string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_gsn_handover_group#comments ManagementGsnHandoverGroup#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_gsn_handover_group#comments ManagementGsnHandoverGroup#comments}
   */
   readonly comments?: string;
   /**
   * Enable enforce GTP signal packet rate limit from this group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_gsn_handover_group#enforce_gtp ManagementGsnHandoverGroup#enforce_gtp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_gsn_handover_group#enforce_gtp ManagementGsnHandoverGroup#enforce_gtp}
   */
   readonly enforceGtp?: boolean | cdktf.IResolvable;
   /**
   * Limit of the GTP rate in PDU/sec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_gsn_handover_group#gtp_rate ManagementGsnHandoverGroup#gtp_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_gsn_handover_group#gtp_rate ManagementGsnHandoverGroup#gtp_rate}
   */
   readonly gtpRate?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_gsn_handover_group#id ManagementGsnHandoverGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_gsn_handover_group#id ManagementGsnHandoverGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,37 +41,37 @@ export interface ManagementGsnHandoverGroupConfig extends cdktf.TerraformMetaArg
   /**
   * Apply changes ignoring errors. You won't be able to publish such a changes. If ignore-warnings flag was omitted - warnings will also be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_gsn_handover_group#ignore_errors ManagementGsnHandoverGroup#ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_gsn_handover_group#ignore_errors ManagementGsnHandoverGroup#ignore_errors}
   */
   readonly ignoreErrors?: boolean | cdktf.IResolvable;
   /**
   * Apply changes ignoring warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_gsn_handover_group#ignore_warnings ManagementGsnHandoverGroup#ignore_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_gsn_handover_group#ignore_warnings ManagementGsnHandoverGroup#ignore_warnings}
   */
   readonly ignoreWarnings?: boolean | cdktf.IResolvable;
   /**
   * Collection of GSN handover group members identified by the name or UID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_gsn_handover_group#members ManagementGsnHandoverGroup#members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_gsn_handover_group#members ManagementGsnHandoverGroup#members}
   */
   readonly members?: string[];
   /**
   * Object name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_gsn_handover_group#name ManagementGsnHandoverGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_gsn_handover_group#name ManagementGsnHandoverGroup#name}
   */
   readonly name: string;
   /**
   * Collection of tag identifiers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_gsn_handover_group#tags ManagementGsnHandoverGroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_gsn_handover_group#tags ManagementGsnHandoverGroup#tags}
   */
   readonly tags?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_gsn_handover_group checkpoint_management_gsn_handover_group}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_gsn_handover_group checkpoint_management_gsn_handover_group}
 */
 export class ManagementGsnHandoverGroup extends cdktf.TerraformResource {
 
@@ -87,7 +87,7 @@ export class ManagementGsnHandoverGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementGsnHandoverGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementGsnHandoverGroup to import
-  * @param importFromId The id of the existing ManagementGsnHandoverGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_gsn_handover_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementGsnHandoverGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_gsn_handover_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementGsnHandoverGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -99,7 +99,7 @@ export class ManagementGsnHandoverGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_gsn_handover_group checkpoint_management_gsn_handover_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_gsn_handover_group checkpoint_management_gsn_handover_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -110,7 +110,8 @@ export class ManagementGsnHandoverGroup extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_gsn_handover_group',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

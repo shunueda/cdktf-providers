@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_ioc_feed
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_ioc_feed
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,89 +10,89 @@ export interface ManagementThreatIocFeedConfig extends cdktf.TerraformMetaArgume
   /**
   * The feed indicator's action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_ioc_feed#action ManagementThreatIocFeed#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_ioc_feed#action ManagementThreatIocFeed#action}
   */
   readonly action?: string;
   /**
   * Certificate SHA-1 fingerprint to access the feed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_ioc_feed#certificate_id ManagementThreatIocFeed#certificate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_ioc_feed#certificate_id ManagementThreatIocFeed#certificate_id}
   */
   readonly certificateId?: string;
   /**
   * Color of the object. Should be one of existing colors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_ioc_feed#color ManagementThreatIocFeed#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_ioc_feed#color ManagementThreatIocFeed#color}
   */
   readonly color?: string;
   /**
   * Comments string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_ioc_feed#comments ManagementThreatIocFeed#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_ioc_feed#comments ManagementThreatIocFeed#comments}
   */
   readonly comments?: string;
   /**
   * Custom IOC feed - the column number of comment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_ioc_feed#custom_comment ManagementThreatIocFeed#custom_comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_ioc_feed#custom_comment ManagementThreatIocFeed#custom_comment}
   */
   readonly customComment?: number;
   /**
   * Custom IOC feed - the column number of confidence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_ioc_feed#custom_confidence ManagementThreatIocFeed#custom_confidence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_ioc_feed#custom_confidence ManagementThreatIocFeed#custom_confidence}
   */
   readonly customConfidence?: number;
   /**
   * Custom IOC feed - the column number of name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_ioc_feed#custom_name ManagementThreatIocFeed#custom_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_ioc_feed#custom_name ManagementThreatIocFeed#custom_name}
   */
   readonly customName?: number;
   /**
   * Custom IOC feed - the column number of severity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_ioc_feed#custom_severity ManagementThreatIocFeed#custom_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_ioc_feed#custom_severity ManagementThreatIocFeed#custom_severity}
   */
   readonly customSeverity?: number;
   /**
   * Custom IOC feed - the column number of type in case a specific type is not chosen.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_ioc_feed#custom_type ManagementThreatIocFeed#custom_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_ioc_feed#custom_type ManagementThreatIocFeed#custom_type}
   */
   readonly customType?: number;
   /**
   * Custom IOC feed - the column number of value in case a specific type is chosen.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_ioc_feed#custom_value ManagementThreatIocFeed#custom_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_ioc_feed#custom_value ManagementThreatIocFeed#custom_value}
   */
   readonly customValue?: number;
   /**
   * Sets whether this indicator feed is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_ioc_feed#enabled ManagementThreatIocFeed#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_ioc_feed#enabled ManagementThreatIocFeed#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Feed type to be enforced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_ioc_feed#feed_type ManagementThreatIocFeed#feed_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_ioc_feed#feed_type ManagementThreatIocFeed#feed_type}
   */
   readonly feedType?: string;
   /**
   * URL of the feed. URL should be written as http or https.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_ioc_feed#feed_url ManagementThreatIocFeed#feed_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_ioc_feed#feed_url ManagementThreatIocFeed#feed_url}
   */
   readonly feedUrl?: string;
   /**
   * The delimiter that separates between the columns in the feed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_ioc_feed#fields_delimiter ManagementThreatIocFeed#fields_delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_ioc_feed#fields_delimiter ManagementThreatIocFeed#fields_delimiter}
   */
   readonly fieldsDelimiter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_ioc_feed#id ManagementThreatIocFeed#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_ioc_feed#id ManagementThreatIocFeed#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -101,61 +101,61 @@ export interface ManagementThreatIocFeedConfig extends cdktf.TerraformMetaArgume
   /**
   * Apply changes ignoring errors. You won't be able to publish such a changes. If ignore-warnings flag was omitted - warnings will also be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_ioc_feed#ignore_errors ManagementThreatIocFeed#ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_ioc_feed#ignore_errors ManagementThreatIocFeed#ignore_errors}
   */
   readonly ignoreErrors?: boolean | cdktf.IResolvable;
   /**
   * A prefix that will determine which lines to ignore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_ioc_feed#ignore_lines_that_start_with ManagementThreatIocFeed#ignore_lines_that_start_with}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_ioc_feed#ignore_lines_that_start_with ManagementThreatIocFeed#ignore_lines_that_start_with}
   */
   readonly ignoreLinesThatStartWith?: string;
   /**
   * Apply changes ignoring warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_ioc_feed#ignore_warnings ManagementThreatIocFeed#ignore_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_ioc_feed#ignore_warnings ManagementThreatIocFeed#ignore_warnings}
   */
   readonly ignoreWarnings?: boolean | cdktf.IResolvable;
   /**
   * Object name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_ioc_feed#name ManagementThreatIocFeed#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_ioc_feed#name ManagementThreatIocFeed#name}
   */
   readonly name: string;
   /**
   * password for authenticating with the URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_ioc_feed#password ManagementThreatIocFeed#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_ioc_feed#password ManagementThreatIocFeed#password}
   */
   readonly password?: string;
   /**
   * Collection of tag identifiers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_ioc_feed#tags ManagementThreatIocFeed#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_ioc_feed#tags ManagementThreatIocFeed#tags}
   */
   readonly tags?: string[];
   /**
   * Set in order to configure a custom indicator feed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_ioc_feed#use_custom_feed_settings ManagementThreatIocFeed#use_custom_feed_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_ioc_feed#use_custom_feed_settings ManagementThreatIocFeed#use_custom_feed_settings}
   */
   readonly useCustomFeedSettings?: boolean | cdktf.IResolvable;
   /**
   * Use the gateway's proxy for retrieving the feed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_ioc_feed#use_gateway_proxy ManagementThreatIocFeed#use_gateway_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_ioc_feed#use_gateway_proxy ManagementThreatIocFeed#use_gateway_proxy}
   */
   readonly useGatewayProxy?: boolean | cdktf.IResolvable;
   /**
   * username for authenticating with the URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_ioc_feed#username ManagementThreatIocFeed#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_ioc_feed#username ManagementThreatIocFeed#username}
   */
   readonly username?: string;
   /**
   * custom_header block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_ioc_feed#custom_header ManagementThreatIocFeed#custom_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_ioc_feed#custom_header ManagementThreatIocFeed#custom_header}
   */
   readonly customHeader?: ManagementThreatIocFeedCustomHeader[] | cdktf.IResolvable;
 }
@@ -163,13 +163,13 @@ export interface ManagementThreatIocFeedCustomHeader {
   /**
   * The name of the HTTP header we wish to add.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_ioc_feed#header_name ManagementThreatIocFeed#header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_ioc_feed#header_name ManagementThreatIocFeed#header_name}
   */
   readonly headerName?: string;
   /**
   * The name of the HTTP value we wish to add.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_ioc_feed#header_value ManagementThreatIocFeed#header_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_ioc_feed#header_value ManagementThreatIocFeed#header_value}
   */
   readonly headerValue?: string;
 }
@@ -314,7 +314,7 @@ export class ManagementThreatIocFeedCustomHeaderList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_ioc_feed checkpoint_management_threat_ioc_feed}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_ioc_feed checkpoint_management_threat_ioc_feed}
 */
 export class ManagementThreatIocFeed extends cdktf.TerraformResource {
 
@@ -330,7 +330,7 @@ export class ManagementThreatIocFeed extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementThreatIocFeed resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementThreatIocFeed to import
-  * @param importFromId The id of the existing ManagementThreatIocFeed that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_ioc_feed#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementThreatIocFeed that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_ioc_feed#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementThreatIocFeed to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -342,7 +342,7 @@ export class ManagementThreatIocFeed extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_ioc_feed checkpoint_management_threat_ioc_feed} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_ioc_feed checkpoint_management_threat_ioc_feed} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -353,7 +353,8 @@ export class ManagementThreatIocFeed extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_threat_ioc_feed',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

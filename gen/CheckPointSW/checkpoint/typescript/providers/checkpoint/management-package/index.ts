@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_package
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_package
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface ManagementPackageConfig extends cdktf.TerraformMetaArguments {
   /**
   * True - enables, False - disables access & NAT policies, empty - nothing is changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_package#access ManagementPackage#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_package#access ManagementPackage#access}
   */
   readonly access?: boolean | cdktf.IResolvable;
   /**
   * Color of the object. Should be one of existing colors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_package#color ManagementPackage#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_package#color ManagementPackage#color}
   */
   readonly color?: string;
   /**
   * Comments string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_package#comments ManagementPackage#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_package#comments ManagementPackage#comments}
   */
   readonly comments?: string;
   /**
   * True - enables, False - disables Desktop security policy, empty - nothing is changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_package#desktop_security ManagementPackage#desktop_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_package#desktop_security ManagementPackage#desktop_security}
   */
   readonly desktopSecurity?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_package#id ManagementPackage#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_package#id ManagementPackage#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,61 +41,61 @@ export interface ManagementPackageConfig extends cdktf.TerraformMetaArguments {
   /**
   * Apply changes ignoring errors. You won't be able to publish such a changes. If ignore-warnings flag was omitted - warnings will also be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_package#ignore_errors ManagementPackage#ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_package#ignore_errors ManagementPackage#ignore_errors}
   */
   readonly ignoreErrors?: boolean | cdktf.IResolvable;
   /**
   * Apply changes ignoring warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_package#ignore_warnings ManagementPackage#ignore_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_package#ignore_warnings ManagementPackage#ignore_warnings}
   */
   readonly ignoreWarnings?: boolean | cdktf.IResolvable;
   /**
   * Which Gateways identified by the name or UID to install the policy on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_package#installation_targets ManagementPackage#installation_targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_package#installation_targets ManagementPackage#installation_targets}
   */
   readonly installationTargets?: string[];
   /**
   * Object name. Should be unique in the domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_package#name ManagementPackage#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_package#name ManagementPackage#name}
   */
   readonly name: string;
   /**
   * True - enables, False - disables QoS policy, empty - nothing is changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_package#qos ManagementPackage#qos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_package#qos ManagementPackage#qos}
   */
   readonly qos?: boolean | cdktf.IResolvable;
   /**
   * QoS policy type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_package#qos_policy_type ManagementPackage#qos_policy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_package#qos_policy_type ManagementPackage#qos_policy_type}
   */
   readonly qosPolicyType?: string;
   /**
   * Collection of tag identifiers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_package#tags ManagementPackage#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_package#tags ManagementPackage#tags}
   */
   readonly tags?: string[];
   /**
   * True - enables, False - disables Threat policy, empty - nothing is changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_package#threat_prevention ManagementPackage#threat_prevention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_package#threat_prevention ManagementPackage#threat_prevention}
   */
   readonly threatPrevention?: boolean | cdktf.IResolvable;
   /**
   * True - enables, False - disables VPN traditional mode, empty - nothing is changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_package#vpn_traditional_mode ManagementPackage#vpn_traditional_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_package#vpn_traditional_mode ManagementPackage#vpn_traditional_mode}
   */
   readonly vpnTraditionalMode?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_package checkpoint_management_package}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_package checkpoint_management_package}
 */
 export class ManagementPackage extends cdktf.TerraformResource {
 
@@ -111,7 +111,7 @@ export class ManagementPackage extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementPackage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementPackage to import
-  * @param importFromId The id of the existing ManagementPackage that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_package#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementPackage that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_package#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementPackage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -123,7 +123,7 @@ export class ManagementPackage extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_package checkpoint_management_package} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_package checkpoint_management_package} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -134,7 +134,8 @@ export class ManagementPackage extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_package',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

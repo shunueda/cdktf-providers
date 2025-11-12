@@ -244,7 +244,8 @@ export class SciProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'sci',
       terraformGeneratorMetadata: {
         providerName: 'sci',
-        providerVersion: '2.2.1'
+        providerVersion: '2.2.1',
+        providerVersionConstraint: '2.2.1'
       },
       terraformProviderSource: 'SAP-cloud-infrastructure/sci'
     });

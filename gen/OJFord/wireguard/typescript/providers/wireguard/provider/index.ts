@@ -55,7 +55,8 @@ export class WireguardProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'wireguard',
       terraformGeneratorMetadata: {
         providerName: 'wireguard',
-        providerVersion: '0.4.0'
+        providerVersion: '0.4.0',
+        providerVersionConstraint: '0.4.0'
       },
       terraformProviderSource: 'OJFord/wireguard'
     });

@@ -71,7 +71,8 @@ export class DataAuthentikCertificateKeyPair extends cdktf.TerraformDataSource {
       terraformResourceType: 'authentik_certificate_key_pair',
       terraformGeneratorMetadata: {
         providerName: 'authentik',
-        providerVersion: '2025.10.0'
+        providerVersion: '2025.10.0',
+        providerVersionConstraint: '2025.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

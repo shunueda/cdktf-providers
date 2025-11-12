@@ -68,7 +68,8 @@ export class DataJqQuery extends cdktf.TerraformDataSource {
       terraformResourceType: 'jq_query',
       terraformGeneratorMetadata: {
         providerName: 'jq',
-        providerVersion: '0.2.1'
+        providerVersion: '0.2.1',
+        providerVersionConstraint: '0.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

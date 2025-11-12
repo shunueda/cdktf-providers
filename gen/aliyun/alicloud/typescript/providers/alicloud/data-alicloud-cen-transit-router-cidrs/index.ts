@@ -186,7 +186,8 @@ export class DataAlicloudCenTransitRouterCidrs extends cdktf.TerraformDataSource
       terraformResourceType: 'alicloud_cen_transit_router_cidrs',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -68,7 +68,8 @@ export class DataAwsSecretsmanagerSecretVersion extends cdktf.TerraformDataSourc
       terraformResourceType: 'aws_secretsmanager_secret_version',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '3.29.6'
+        providerVersion: '3.29.6',
+        providerVersionConstraint: '3.29.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

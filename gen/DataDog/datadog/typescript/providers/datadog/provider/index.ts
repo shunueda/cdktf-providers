@@ -189,7 +189,8 @@ export class DatadogProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'datadog',
       terraformGeneratorMetadata: {
         providerName: 'datadog',
-        providerVersion: '3.79.0'
+        providerVersion: '3.79.0',
+        providerVersionConstraint: '3.79.0'
       },
       terraformProviderSource: 'DataDog/datadog'
     });

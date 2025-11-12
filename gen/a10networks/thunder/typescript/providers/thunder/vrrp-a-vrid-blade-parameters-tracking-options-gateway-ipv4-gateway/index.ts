@@ -80,7 +80,8 @@ export class VrrpAVridBladeParametersTrackingOptionsGatewayIpv4Gateway extends c
       terraformResourceType: 'thunder_vrrp_a_vrid_blade_parameters_tracking_options_gateway_ipv4_gateway',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

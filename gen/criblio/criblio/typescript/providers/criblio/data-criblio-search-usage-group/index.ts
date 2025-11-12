@@ -149,7 +149,8 @@ export class DataCriblioSearchUsageGroup extends cdktf.TerraformDataSource {
       terraformResourceType: 'criblio_search_usage_group',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.18.21'
+        providerVersion: '1.18.21',
+        providerVersionConstraint: '1.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

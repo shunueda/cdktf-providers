@@ -279,7 +279,8 @@ export class DataWizKubernetesClusters extends cdktf.TerraformDataSource {
       terraformResourceType: 'wiz_kubernetes_clusters',
       terraformGeneratorMetadata: {
         providerName: 'wiz',
-        providerVersion: '1.2.5'
+        providerVersion: '1.2.5',
+        providerVersionConstraint: '1.2.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

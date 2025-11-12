@@ -441,7 +441,8 @@ export class System5GmodemModem1 extends cdktf.TerraformResource {
       terraformResourceType: 'fmgdevice_system_5gmodem_modem1',
       terraformGeneratorMetadata: {
         providerName: 'fmgdevice',
-        providerVersion: '1.2.1'
+        providerVersion: '1.2.1',
+        providerVersionConstraint: '1.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

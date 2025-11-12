@@ -278,7 +278,8 @@ export class NetworkStaticRouteV2 extends cdktf.TerraformResource {
       terraformResourceType: 'ecl_network_static_route_v2',
       terraformGeneratorMetadata: {
         providerName: 'ecl',
-        providerVersion: '2.12.1'
+        providerVersion: '2.12.1',
+        providerVersionConstraint: '2.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -64,7 +64,8 @@ export class BotmanCustomDenyAction extends cdktf.TerraformResource {
       terraformResourceType: 'akamai_botman_custom_deny_action',
       terraformGeneratorMetadata: {
         providerName: 'akamai',
-        providerVersion: '9.1.0'
+        providerVersion: '9.1.0',
+        providerVersionConstraint: '9.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

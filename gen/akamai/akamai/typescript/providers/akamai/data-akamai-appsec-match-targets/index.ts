@@ -68,7 +68,8 @@ export class DataAkamaiAppsecMatchTargets extends cdktf.TerraformDataSource {
       terraformResourceType: 'akamai_appsec_match_targets',
       terraformGeneratorMetadata: {
         providerName: 'akamai',
-        providerVersion: '9.1.0'
+        providerVersion: '9.1.0',
+        providerVersionConstraint: '9.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

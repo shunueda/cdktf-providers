@@ -414,7 +414,8 @@ export class DataAlicloudServiceCatalogLaunchOptions extends cdktf.TerraformData
       terraformResourceType: 'alicloud_service_catalog_launch_options',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

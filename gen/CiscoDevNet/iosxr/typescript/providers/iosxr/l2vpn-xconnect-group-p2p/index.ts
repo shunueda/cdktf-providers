@@ -1182,7 +1182,8 @@ export class L2VpnXconnectGroupP2P extends cdktf.TerraformResource {
       terraformResourceType: 'iosxr_l2vpn_xconnect_group_p2p',
       terraformGeneratorMetadata: {
         providerName: 'iosxr',
-        providerVersion: '0.6.0'
+        providerVersion: '0.6.0',
+        providerVersionConstraint: '0.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

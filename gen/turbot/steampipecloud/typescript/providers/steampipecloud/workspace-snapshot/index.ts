@@ -116,7 +116,8 @@ export class WorkspaceSnapshot extends cdktf.TerraformResource {
       terraformResourceType: 'steampipecloud_workspace_snapshot',
       terraformGeneratorMetadata: {
         providerName: 'steampipecloud',
-        providerVersion: '0.11.0'
+        providerVersion: '0.11.0',
+        providerVersionConstraint: '0.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

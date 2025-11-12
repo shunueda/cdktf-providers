@@ -154,7 +154,8 @@ export class VisibilityMonitoredEntityDetailA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_visibility_monitored_entity_detail',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

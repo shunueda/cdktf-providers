@@ -296,7 +296,8 @@ export class DataIseDeviceAdminAuthenticationRule extends cdktf.TerraformDataSou
       terraformResourceType: 'ise_device_admin_authentication_rule',
       terraformGeneratorMetadata: {
         providerName: 'ise',
-        providerVersion: '0.2.12'
+        providerVersion: '0.2.12',
+        providerVersionConstraint: '0.2.12'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

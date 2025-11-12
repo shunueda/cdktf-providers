@@ -176,7 +176,8 @@ export class DataSciNetworkingRouterV2 extends cdktf.TerraformDataSource {
       terraformResourceType: 'sci_networking_router_v2',
       terraformGeneratorMetadata: {
         providerName: 'sci',
-        providerVersion: '2.2.1'
+        providerVersion: '2.2.1',
+        providerVersionConstraint: '2.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

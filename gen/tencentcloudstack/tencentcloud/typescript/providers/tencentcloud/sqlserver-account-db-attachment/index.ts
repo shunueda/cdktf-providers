@@ -80,7 +80,8 @@ export class SqlserverAccountDbAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_sqlserver_account_db_attachment',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

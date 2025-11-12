@@ -934,7 +934,8 @@ export class ImagetestProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'imagetest',
       terraformGeneratorMetadata: {
         providerName: 'imagetest',
-        providerVersion: '0.0.102'
+        providerVersion: '0.0.102',
+        providerVersionConstraint: '0.0.102'
       },
       terraformProviderSource: 'chainguard-dev/imagetest'
     });

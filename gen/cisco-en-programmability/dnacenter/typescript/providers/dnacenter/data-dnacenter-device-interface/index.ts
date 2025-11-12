@@ -525,7 +525,8 @@ export class DataDnacenterDeviceInterface extends cdktf.TerraformDataSource {
       terraformResourceType: 'dnacenter_device_interface',
       terraformGeneratorMetadata: {
         providerName: 'dnacenter',
-        providerVersion: '1.1.21'
+        providerVersion: '1.1.21',
+        providerVersionConstraint: '1.1.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

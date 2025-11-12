@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/log_stream
+// https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/log_stream
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface LogStreamConfig extends cdktf.TerraformMetaArguments {
   /**
   * Only logs events matching these filters will be delivered by the stream. If omitted or empty, all events will be delivered. Filters available: `auth.ancillary.fail`, `auth.ancillary.success`, `auth.login.fail`, `auth.login.notification`, `auth.login.success`, `auth.logout.fail`, `auth.logout.success`, `auth.signup.fail`, `auth.signup.success`, `auth.silent_auth.fail`, `auth.silent_auth.success`, `auth.token_exchange.fail`, `auth.token_exchange.success`, `management.fail`, `management.success`, `system.notification`, `user.fail`, `user.notification`, `user.success`, `other`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/log_stream#filters LogStream#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/log_stream#filters LogStream#filters}
   */
   readonly filters?: { [key: string]: string }[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/log_stream#id LogStream#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/log_stream#id LogStream#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,43 +23,43 @@ export interface LogStreamConfig extends cdktf.TerraformMetaArguments {
   /**
   * Set True for priority log streams, False for non-priority
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/log_stream#is_priority LogStream#is_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/log_stream#is_priority LogStream#is_priority}
   */
   readonly isPriority?: boolean | cdktf.IResolvable;
   /**
   * Name of the log stream.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/log_stream#name LogStream#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/log_stream#name LogStream#name}
   */
   readonly name: string;
   /**
   * The optional datetime (ISO 8601) to start streaming logs from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/log_stream#start_from LogStream#start_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/log_stream#start_from LogStream#start_from}
   */
   readonly startFrom?: string;
   /**
   * The current status of the log stream. Options are "active", "paused", "suspended".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/log_stream#status LogStream#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/log_stream#status LogStream#status}
   */
   readonly status?: string;
   /**
   * Type of the log stream, which indicates the sink provider. Options include: `eventbridge`, `eventgrid`, `http`, `datadog`, `splunk`, `sumo`, `mixpanel`, `segment`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/log_stream#type LogStream#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/log_stream#type LogStream#type}
   */
   readonly type: string;
   /**
   * pii_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/log_stream#pii_config LogStream#pii_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/log_stream#pii_config LogStream#pii_config}
   */
   readonly piiConfig?: LogStreamPiiConfig;
   /**
   * sink block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/log_stream#sink LogStream#sink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/log_stream#sink LogStream#sink}
   */
   readonly sink: LogStreamSink;
 }
@@ -67,17 +67,17 @@ export interface LogStreamPiiConfig {
   /**
   * The algorithm to use for PII handling. Currently, only `xxhash` is supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/log_stream#algorithm LogStream#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/log_stream#algorithm LogStream#algorithm}
   */
   readonly algorithm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/log_stream#log_fields LogStream#log_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/log_stream#log_fields LogStream#log_fields}
   */
   readonly logFields: string[];
   /**
   * The method to use for PII handling. Options are `hash` or `mask`. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/log_stream#method LogStream#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/log_stream#method LogStream#method}
   */
   readonly method?: string;
 }
@@ -218,145 +218,145 @@ export interface LogStreamSink {
   /**
   * The AWS Account ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/log_stream#aws_account_id LogStream#aws_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/log_stream#aws_account_id LogStream#aws_account_id}
   */
   readonly awsAccountId?: string;
   /**
   * Name of the Partner Event Source to be used with AWS. Generally generated by Auth0 and passed to AWS, so this should be an output attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/log_stream#aws_partner_event_source LogStream#aws_partner_event_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/log_stream#aws_partner_event_source LogStream#aws_partner_event_source}
   */
   readonly awsPartnerEventSource?: string;
   /**
   * The region in which the EventBridge event source will be created. Possible values: `ap-east-1`, `ap-northeast-1`, `ap-northeast-2`, `ap-northeast-3`, `ap-south-1`, `ap-southeast-1`, `ap-southeast-2`, `ca-central-1`, `cn-north-1`, `cn-northwest-1`, `eu-central-1`, `eu-north-1`, `eu-west-1`, `eu-west-2`, `eu-west-3`, `me-south-1`, `sa-east-1`, `us-gov-east-1`, `us-gov-west-1`, `us-east-1`, `us-east-2`, `us-west-1`, `us-west-2`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/log_stream#aws_region LogStream#aws_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/log_stream#aws_region LogStream#aws_region}
   */
   readonly awsRegion?: string;
   /**
   * Name of the Partner Topic to be used with Azure. Generally should not be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/log_stream#azure_partner_topic LogStream#azure_partner_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/log_stream#azure_partner_topic LogStream#azure_partner_topic}
   */
   readonly azurePartnerTopic?: string;
   /**
   * The Azure region code. Possible values: `australiacentral`, `australiaeast`, `australiasoutheast`, `brazilsouth`, `canadacentral`, `canadaeast`, `centralindia`, `centralus`, `eastasia`, `eastus`, `eastus2`, `francecentral`, `germanywestcentral`, `japaneast`, `japanwest`, `koreacentral`, `koreasouth`, `northcentralus`, `northeurope`, `norwayeast`, `southafricanorth`, `southcentralus`, `southeastasia`, `southindia`, `switzerlandnorth`, `uaenorth`, `uksouth`, `ukwest`, `westcentralus`, `westeurope`, `westindia`, `westus`, `westus2`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/log_stream#azure_region LogStream#azure_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/log_stream#azure_region LogStream#azure_region}
   */
   readonly azureRegion?: string;
   /**
   * The Azure EventGrid resource group which allows you to manage all Azure assets within one subscription.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/log_stream#azure_resource_group LogStream#azure_resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/log_stream#azure_resource_group LogStream#azure_resource_group}
   */
   readonly azureResourceGroup?: string;
   /**
   * The unique alphanumeric string that identifies your Azure subscription.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/log_stream#azure_subscription_id LogStream#azure_subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/log_stream#azure_subscription_id LogStream#azure_subscription_id}
   */
   readonly azureSubscriptionId?: string;
   /**
   * The Datadog API key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/log_stream#datadog_api_key LogStream#datadog_api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/log_stream#datadog_api_key LogStream#datadog_api_key}
   */
   readonly datadogApiKey?: string;
   /**
   * The Datadog region. Possible values: `us`, `eu`, `us3`, `us5`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/log_stream#datadog_region LogStream#datadog_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/log_stream#datadog_region LogStream#datadog_region}
   */
   readonly datadogRegion?: string;
   /**
   * Sent in the HTTP "Authorization" header with each request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/log_stream#http_authorization LogStream#http_authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/log_stream#http_authorization LogStream#http_authorization}
   */
   readonly httpAuthorization?: string;
   /**
   * The format of data sent over HTTP. Options are "JSONLINES", "JSONARRAY" or "JSONOBJECT"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/log_stream#http_content_format LogStream#http_content_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/log_stream#http_content_format LogStream#http_content_format}
   */
   readonly httpContentFormat?: string;
   /**
   * The "Content-Type" header to send over HTTP. Common value is "application/json".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/log_stream#http_content_type LogStream#http_content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/log_stream#http_content_type LogStream#http_content_type}
   */
   readonly httpContentType?: string;
   /**
   * Additional HTTP headers to be included as part of the HTTP request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/log_stream#http_custom_headers LogStream#http_custom_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/log_stream#http_custom_headers LogStream#http_custom_headers}
   */
   readonly httpCustomHeaders?: { [key: string]: string }[] | cdktf.IResolvable;
   /**
   * The HTTP endpoint to send streaming logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/log_stream#http_endpoint LogStream#http_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/log_stream#http_endpoint LogStream#http_endpoint}
   */
   readonly httpEndpoint?: string;
   /**
   * The Mixpanel project ID, found on the Project Settings page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/log_stream#mixpanel_project_id LogStream#mixpanel_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/log_stream#mixpanel_project_id LogStream#mixpanel_project_id}
   */
   readonly mixpanelProjectId?: string;
   /**
   * The Mixpanel region. Options are ["us", "eu"]. EU is required for customers with EU data residency requirements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/log_stream#mixpanel_region LogStream#mixpanel_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/log_stream#mixpanel_region LogStream#mixpanel_region}
   */
   readonly mixpanelRegion?: string;
   /**
   * The Mixpanel Service Account password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/log_stream#mixpanel_service_account_password LogStream#mixpanel_service_account_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/log_stream#mixpanel_service_account_password LogStream#mixpanel_service_account_password}
   */
   readonly mixpanelServiceAccountPassword?: string;
   /**
   * The Mixpanel Service Account username. Services Accounts can be created in the Project Settings page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/log_stream#mixpanel_service_account_username LogStream#mixpanel_service_account_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/log_stream#mixpanel_service_account_username LogStream#mixpanel_service_account_username}
   */
   readonly mixpanelServiceAccountUsername?: string;
   /**
   * The [Segment Write Key](https://segment.com/docs/connections/find-writekey/).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/log_stream#segment_write_key LogStream#segment_write_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/log_stream#segment_write_key LogStream#segment_write_key}
   */
   readonly segmentWriteKey?: string;
   /**
   * The Splunk domain name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/log_stream#splunk_domain LogStream#splunk_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/log_stream#splunk_domain LogStream#splunk_domain}
   */
   readonly splunkDomain?: string;
   /**
   * The Splunk port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/log_stream#splunk_port LogStream#splunk_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/log_stream#splunk_port LogStream#splunk_port}
   */
   readonly splunkPort?: string;
   /**
   * This toggle should be turned off when using self-signed certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/log_stream#splunk_secure LogStream#splunk_secure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/log_stream#splunk_secure LogStream#splunk_secure}
   */
   readonly splunkSecure?: boolean | cdktf.IResolvable;
   /**
   * The Splunk access token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/log_stream#splunk_token LogStream#splunk_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/log_stream#splunk_token LogStream#splunk_token}
   */
   readonly splunkToken?: string;
   /**
   * Generated URL for your defined HTTP source in Sumo Logic for collecting streaming data from Auth0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/log_stream#sumo_source_address LogStream#sumo_source_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/log_stream#sumo_source_address LogStream#sumo_source_address}
   */
   readonly sumoSourceAddress?: string;
 }
@@ -1107,7 +1107,7 @@ export class LogStreamSinkOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/log_stream auth0_log_stream}
+* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/log_stream auth0_log_stream}
 */
 export class LogStream extends cdktf.TerraformResource {
 
@@ -1123,7 +1123,7 @@ export class LogStream extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LogStream resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LogStream to import
-  * @param importFromId The id of the existing LogStream that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/log_stream#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LogStream that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/log_stream#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LogStream to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1135,7 +1135,7 @@ export class LogStream extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/log_stream auth0_log_stream} Resource
+  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/log_stream auth0_log_stream} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1146,7 +1146,8 @@ export class LogStream extends cdktf.TerraformResource {
       terraformResourceType: 'auth0_log_stream',
       terraformGeneratorMetadata: {
         providerName: 'auth0',
-        providerVersion: '1.33.0'
+        providerVersion: '1.34.0',
+        providerVersionConstraint: '1.34.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

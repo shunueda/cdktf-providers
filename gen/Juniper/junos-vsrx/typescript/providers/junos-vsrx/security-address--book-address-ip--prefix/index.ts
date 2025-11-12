@@ -78,7 +78,8 @@ export class SecurityAddressBookAddressIpPrefix extends cdktf.TerraformResource 
       terraformResourceType: 'junos-vsrx_SecurityAddress__BookAddressIp__Prefix',
       terraformGeneratorMetadata: {
         providerName: 'junos-vsrx',
-        providerVersion: '20.32.106'
+        providerVersion: '20.32.106',
+        providerVersionConstraint: '20.32.106'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

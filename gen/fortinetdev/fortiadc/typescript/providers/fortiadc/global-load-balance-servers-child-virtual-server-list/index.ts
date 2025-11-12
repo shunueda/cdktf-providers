@@ -92,7 +92,8 @@ export class GlobalLoadBalanceServersChildVirtualServerList extends cdktf.Terraf
       terraformResourceType: 'fortiadc_global_load_balance_servers_child_virtual_server_list',
       terraformGeneratorMetadata: {
         providerName: 'fortiadc',
-        providerVersion: '1.3.1'
+        providerVersion: '1.3.1',
+        providerVersionConstraint: '1.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

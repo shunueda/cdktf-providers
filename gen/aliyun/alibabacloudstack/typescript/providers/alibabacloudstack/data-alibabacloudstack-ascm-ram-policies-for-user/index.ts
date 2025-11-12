@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/ascm_ram_policies_for_user
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/ascm_ram_policies_for_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,22 +8,22 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlibabacloudstackAscmRamPoliciesForUserConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/ascm_ram_policies_for_user#id DataAlibabacloudstackAscmRamPoliciesForUser#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/ascm_ram_policies_for_user#id DataAlibabacloudstackAscmRamPoliciesForUser#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/ascm_ram_policies_for_user#ids DataAlibabacloudstackAscmRamPoliciesForUser#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/ascm_ram_policies_for_user#ids DataAlibabacloudstackAscmRamPoliciesForUser#ids}
   */
   readonly ids?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/ascm_ram_policies_for_user#login_name DataAlibabacloudstackAscmRamPoliciesForUser#login_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/ascm_ram_policies_for_user#login_name DataAlibabacloudstackAscmRamPoliciesForUser#login_name}
   */
   readonly loginName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/ascm_ram_policies_for_user#output_file DataAlibabacloudstackAscmRamPoliciesForUser#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/ascm_ram_policies_for_user#output_file DataAlibabacloudstackAscmRamPoliciesForUser#output_file}
   */
   readonly outputFile?: string;
 }
@@ -129,7 +129,7 @@ export class DataAlibabacloudstackAscmRamPoliciesForUserPoliciesList extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/ascm_ram_policies_for_user alibabacloudstack_ascm_ram_policies_for_user}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/ascm_ram_policies_for_user alibabacloudstack_ascm_ram_policies_for_user}
 */
 export class DataAlibabacloudstackAscmRamPoliciesForUser extends cdktf.TerraformDataSource {
 
@@ -145,7 +145,7 @@ export class DataAlibabacloudstackAscmRamPoliciesForUser extends cdktf.Terraform
   * Generates CDKTF code for importing a DataAlibabacloudstackAscmRamPoliciesForUser resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlibabacloudstackAscmRamPoliciesForUser to import
-  * @param importFromId The id of the existing DataAlibabacloudstackAscmRamPoliciesForUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/ascm_ram_policies_for_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlibabacloudstackAscmRamPoliciesForUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/ascm_ram_policies_for_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlibabacloudstackAscmRamPoliciesForUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -157,7 +157,7 @@ export class DataAlibabacloudstackAscmRamPoliciesForUser extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/ascm_ram_policies_for_user alibabacloudstack_ascm_ram_policies_for_user} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/ascm_ram_policies_for_user alibabacloudstack_ascm_ram_policies_for_user} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -168,7 +168,8 @@ export class DataAlibabacloudstackAscmRamPoliciesForUser extends cdktf.Terraform
       terraformResourceType: 'alibabacloudstack_ascm_ram_policies_for_user',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.19'
+        providerVersion: '3.16.21',
+        providerVersionConstraint: '3.16.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

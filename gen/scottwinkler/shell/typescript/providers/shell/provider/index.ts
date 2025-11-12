@@ -71,7 +71,8 @@ export class ShellProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'shell',
       terraformGeneratorMetadata: {
         providerName: 'shell',
-        providerVersion: '1.7.10'
+        providerVersion: '1.7.10',
+        providerVersionConstraint: '1.7.10'
       },
       terraformProviderSource: 'scottwinkler/shell'
     });

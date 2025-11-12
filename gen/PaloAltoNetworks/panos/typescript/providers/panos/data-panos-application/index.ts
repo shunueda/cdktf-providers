@@ -2960,7 +2960,8 @@ export class DataPanosApplication extends cdktf.TerraformDataSource {
       terraformResourceType: 'panos_application',
       terraformGeneratorMetadata: {
         providerName: 'panos',
-        providerVersion: '2.0.5'
+        providerVersion: '2.0.5',
+        providerVersionConstraint: '2.0.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

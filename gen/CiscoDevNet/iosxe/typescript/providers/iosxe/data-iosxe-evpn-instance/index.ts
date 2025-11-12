@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/data-sources/evpn_instance
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/data-sources/evpn_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataIosxeEvpnInstanceConfig extends cdktf.TerraformMetaArgument
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/data-sources/evpn_instance#device DataIosxeEvpnInstance#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/data-sources/evpn_instance#device DataIosxeEvpnInstance#device}
   */
   readonly device?: string;
   /**
   * evpn instance number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/data-sources/evpn_instance#evpn_instance_num DataIosxeEvpnInstance#evpn_instance_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/data-sources/evpn_instance#evpn_instance_num DataIosxeEvpnInstance#evpn_instance_num}
   */
   readonly evpnInstanceNum: number;
 }
@@ -172,7 +172,7 @@ export class DataIosxeEvpnInstanceVlanBasedRouteTargetImportsList extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/data-sources/evpn_instance iosxe_evpn_instance}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/data-sources/evpn_instance iosxe_evpn_instance}
 */
 export class DataIosxeEvpnInstance extends cdktf.TerraformDataSource {
 
@@ -188,7 +188,7 @@ export class DataIosxeEvpnInstance extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIosxeEvpnInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIosxeEvpnInstance to import
-  * @param importFromId The id of the existing DataIosxeEvpnInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/data-sources/evpn_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIosxeEvpnInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/data-sources/evpn_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIosxeEvpnInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -200,7 +200,7 @@ export class DataIosxeEvpnInstance extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/data-sources/evpn_instance iosxe_evpn_instance} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/data-sources/evpn_instance iosxe_evpn_instance} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -211,7 +211,8 @@ export class DataIosxeEvpnInstance extends cdktf.TerraformDataSource {
       terraformResourceType: 'iosxe_evpn_instance',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.9.3'
+        providerVersion: '0.10.0',
+        providerVersionConstraint: '0.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

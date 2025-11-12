@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/partition
+// https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/partition
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktf from 'cdktf';
 
 export interface PartitionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/partition#analytics_tier Partition#analytics_tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/partition#analytics_tier Partition#analytics_tier}
   */
   readonly analyticsTier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/partition#id Partition#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/partition#id Partition#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/partition#is_compliant Partition#is_compliant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/partition#is_compliant Partition#is_compliant}
   */
   readonly isCompliant?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether the partition is included in the default search scope. Configuring this property is exclusively permitted for flex partitions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/partition#is_included_in_default_search Partition#is_included_in_default_search}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/partition#is_included_in_default_search Partition#is_included_in_default_search}
   */
   readonly isIncludedInDefaultSearch?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/partition#name Partition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/partition#name Partition#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/partition#reduce_retention_period_immediately Partition#reduce_retention_period_immediately}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/partition#reduce_retention_period_immediately Partition#reduce_retention_period_immediately}
   */
   readonly reduceRetentionPeriodImmediately?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/partition#retention_period Partition#retention_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/partition#retention_period Partition#retention_period}
   */
   readonly retentionPeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/partition#routing_expression Partition#routing_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/partition#routing_expression Partition#routing_expression}
   */
   readonly routingExpression?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/partition sumologic_partition}
+* Represents a {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/partition sumologic_partition}
 */
 export class Partition extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class Partition extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Partition resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Partition to import
-  * @param importFromId The id of the existing Partition that should be imported. Refer to the {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/partition#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Partition that should be imported. Refer to the {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/partition#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Partition to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class Partition extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/partition sumologic_partition} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/partition sumologic_partition} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,7 +86,8 @@ export class Partition extends cdktf.TerraformResource {
       terraformResourceType: 'sumologic_partition',
       terraformGeneratorMetadata: {
         providerName: 'sumologic',
-        providerVersion: '3.1.7'
+        providerVersion: '3.1.8',
+        providerVersionConstraint: '3.1.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

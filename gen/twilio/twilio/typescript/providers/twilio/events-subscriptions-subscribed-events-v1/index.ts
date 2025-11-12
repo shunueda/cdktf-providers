@@ -68,7 +68,8 @@ export class EventsSubscriptionsSubscribedEventsV1 extends cdktf.TerraformResour
       terraformResourceType: 'twilio_events_subscriptions_subscribed_events_v1',
       terraformGeneratorMetadata: {
         providerName: 'twilio',
-        providerVersion: '0.18.46'
+        providerVersion: '0.18.46',
+        providerVersionConstraint: '0.18.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

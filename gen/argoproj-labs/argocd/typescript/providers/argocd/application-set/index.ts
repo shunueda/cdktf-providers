@@ -73,7 +73,8 @@ export class ApplicationSet extends cdktf.TerraformResource {
       terraformResourceType: 'argocd_application_set',
       terraformGeneratorMetadata: {
         providerName: 'argocd',
-        providerVersion: '7.11.2'
+        providerVersion: '7.11.2',
+        providerVersionConstraint: '7.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

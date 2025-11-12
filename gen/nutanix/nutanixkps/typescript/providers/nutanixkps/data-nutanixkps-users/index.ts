@@ -141,7 +141,8 @@ export class DataNutanixkpsUsers extends cdktf.TerraformDataSource {
       terraformResourceType: 'nutanixkps_users',
       terraformGeneratorMetadata: {
         providerName: 'nutanixkps',
-        providerVersion: '1.1.9'
+        providerVersion: '1.1.9',
+        providerVersionConstraint: '1.1.9'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster
+// https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,64 +8,64 @@ import * as cdktf from 'cdktf';
 
 export interface ClusterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster#id Cluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster#id Cluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster#name Cluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster#name Cluster#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster#rejoin_nodes_automatically Cluster#rejoin_nodes_automatically}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster#rejoin_nodes_automatically Cluster#rejoin_nodes_automatically}
   */
   readonly rejoinNodesAutomatically?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster#tenant_ref Cluster#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster#tenant_ref Cluster#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster#uuid Cluster#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster#uuid Cluster#uuid}
   */
   readonly uuid?: string;
   /**
   * cluster_state block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster#cluster_state Cluster#cluster_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster#cluster_state Cluster#cluster_state}
   */
   readonly clusterState?: ClusterClusterState[] | cdktf.IResolvable;
   /**
   * nodes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster#nodes Cluster#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster#nodes Cluster#nodes}
   */
   readonly nodes: ClusterNodes[] | cdktf.IResolvable;
   /**
   * virtual_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster#virtual_ip Cluster#virtual_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster#virtual_ip Cluster#virtual_ip}
   */
   readonly virtualIp?: ClusterVirtualIp[] | cdktf.IResolvable;
   /**
   * virtual_ip6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster#virtual_ip6 Cluster#virtual_ip6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster#virtual_ip6 Cluster#virtual_ip6}
   */
   readonly virtualIp6?: ClusterVirtualIp6[] | cdktf.IResolvable;
 }
 export interface ClusterClusterState {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster#progress Cluster#progress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster#progress Cluster#progress}
   */
   readonly progress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster#state Cluster#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster#state Cluster#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster#up_since Cluster#up_since}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster#up_since Cluster#up_since}
   */
   readonly upSince?: string;
 }
@@ -239,11 +239,11 @@ export class ClusterClusterStateList extends cdktf.ComplexList {
 }
 export interface ClusterNodesInterfacesGateway {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster#addr Cluster#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster#addr Cluster#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster#type Cluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster#type Cluster#type}
   */
   readonly type: string;
 }
@@ -382,11 +382,11 @@ export class ClusterNodesInterfacesGatewayList extends cdktf.ComplexList {
 }
 export interface ClusterNodesInterfacesGateway6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster#addr Cluster#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster#addr Cluster#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster#type Cluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster#type Cluster#type}
   */
   readonly type: string;
 }
@@ -525,11 +525,11 @@ export class ClusterNodesInterfacesGateway6List extends cdktf.ComplexList {
 }
 export interface ClusterNodesInterfacesIpIpAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster#addr Cluster#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster#addr Cluster#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster#type Cluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster#type Cluster#type}
   */
   readonly type: string;
 }
@@ -668,13 +668,13 @@ export class ClusterNodesInterfacesIpIpAddrList extends cdktf.ComplexList {
 }
 export interface ClusterNodesInterfacesIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster#mask Cluster#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster#mask Cluster#mask}
   */
   readonly mask: string;
   /**
   * ip_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster#ip_addr Cluster#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster#ip_addr Cluster#ip_addr}
   */
   readonly ipAddr: ClusterNodesInterfacesIpIpAddr[] | cdktf.IResolvable;
 }
@@ -813,11 +813,11 @@ export class ClusterNodesInterfacesIpList extends cdktf.ComplexList {
 }
 export interface ClusterNodesInterfacesIp6IpAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster#addr Cluster#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster#addr Cluster#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster#type Cluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster#type Cluster#type}
   */
   readonly type: string;
 }
@@ -956,13 +956,13 @@ export class ClusterNodesInterfacesIp6IpAddrList extends cdktf.ComplexList {
 }
 export interface ClusterNodesInterfacesIp6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster#mask Cluster#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster#mask Cluster#mask}
   */
   readonly mask: string;
   /**
   * ip_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster#ip_addr Cluster#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster#ip_addr Cluster#ip_addr}
   */
   readonly ipAddr: ClusterNodesInterfacesIp6IpAddr[] | cdktf.IResolvable;
 }
@@ -1101,11 +1101,11 @@ export class ClusterNodesInterfacesIp6List extends cdktf.ComplexList {
 }
 export interface ClusterNodesInterfacesPublicIpOrName {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster#addr Cluster#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster#addr Cluster#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster#type Cluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster#type Cluster#type}
   */
   readonly type: string;
 }
@@ -1244,61 +1244,61 @@ export class ClusterNodesInterfacesPublicIpOrNameList extends cdktf.ComplexList 
 }
 export interface ClusterNodesInterfaces {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster#if_name Cluster#if_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster#if_name Cluster#if_name}
   */
   readonly ifName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster#labels Cluster#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster#labels Cluster#labels}
   */
   readonly labels?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster#mac_address Cluster#mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster#mac_address Cluster#mac_address}
   */
   readonly macAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster#mode Cluster#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster#mode Cluster#mode}
   */
   readonly mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster#mode6 Cluster#mode6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster#mode6 Cluster#mode6}
   */
   readonly mode6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster#v4_enabled Cluster#v4_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster#v4_enabled Cluster#v4_enabled}
   */
   readonly v4Enabled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster#v6_enabled Cluster#v6_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster#v6_enabled Cluster#v6_enabled}
   */
   readonly v6Enabled?: string;
   /**
   * gateway block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster#gateway Cluster#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster#gateway Cluster#gateway}
   */
   readonly gateway?: ClusterNodesInterfacesGateway[] | cdktf.IResolvable;
   /**
   * gateway6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster#gateway6 Cluster#gateway6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster#gateway6 Cluster#gateway6}
   */
   readonly gateway6?: ClusterNodesInterfacesGateway6[] | cdktf.IResolvable;
   /**
   * ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster#ip Cluster#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster#ip Cluster#ip}
   */
   readonly ip?: ClusterNodesInterfacesIp[] | cdktf.IResolvable;
   /**
   * ip6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster#ip6 Cluster#ip6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster#ip6 Cluster#ip6}
   */
   readonly ip6?: ClusterNodesInterfacesIp6[] | cdktf.IResolvable;
   /**
   * public_ip_or_name block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster#public_ip_or_name Cluster#public_ip_or_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster#public_ip_or_name Cluster#public_ip_or_name}
   */
   readonly publicIpOrName?: ClusterNodesInterfacesPublicIpOrName[] | cdktf.IResolvable;
 }
@@ -1733,11 +1733,11 @@ export class ClusterNodesInterfacesList extends cdktf.ComplexList {
 }
 export interface ClusterNodesIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster#addr Cluster#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster#addr Cluster#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster#type Cluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster#type Cluster#type}
   */
   readonly type: string;
 }
@@ -1876,11 +1876,11 @@ export class ClusterNodesIpList extends cdktf.ComplexList {
 }
 export interface ClusterNodesIp6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster#addr Cluster#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster#addr Cluster#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster#type Cluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster#type Cluster#type}
   */
   readonly type: string;
 }
@@ -2019,11 +2019,11 @@ export class ClusterNodesIp6List extends cdktf.ComplexList {
 }
 export interface ClusterNodesPublicIpOrName {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster#addr Cluster#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster#addr Cluster#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster#type Cluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster#type Cluster#type}
   */
   readonly type: string;
 }
@@ -2162,11 +2162,11 @@ export class ClusterNodesPublicIpOrNameList extends cdktf.ComplexList {
 }
 export interface ClusterNodesStaticRoutesLabels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster#key Cluster#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster#key Cluster#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster#value Cluster#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster#value Cluster#value}
   */
   readonly value?: string;
 }
@@ -2308,11 +2308,11 @@ export class ClusterNodesStaticRoutesLabelsList extends cdktf.ComplexList {
 }
 export interface ClusterNodesStaticRoutesNextHop {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster#addr Cluster#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster#addr Cluster#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster#type Cluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster#type Cluster#type}
   */
   readonly type: string;
 }
@@ -2451,11 +2451,11 @@ export class ClusterNodesStaticRoutesNextHopList extends cdktf.ComplexList {
 }
 export interface ClusterNodesStaticRoutesPrefixIpAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster#addr Cluster#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster#addr Cluster#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster#type Cluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster#type Cluster#type}
   */
   readonly type: string;
 }
@@ -2594,13 +2594,13 @@ export class ClusterNodesStaticRoutesPrefixIpAddrList extends cdktf.ComplexList 
 }
 export interface ClusterNodesStaticRoutesPrefix {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster#mask Cluster#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster#mask Cluster#mask}
   */
   readonly mask: string;
   /**
   * ip_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster#ip_addr Cluster#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster#ip_addr Cluster#ip_addr}
   */
   readonly ipAddr: ClusterNodesStaticRoutesPrefixIpAddr[] | cdktf.IResolvable;
 }
@@ -2739,33 +2739,33 @@ export class ClusterNodesStaticRoutesPrefixList extends cdktf.ComplexList {
 }
 export interface ClusterNodesStaticRoutes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster#disable_gateway_monitor Cluster#disable_gateway_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster#disable_gateway_monitor Cluster#disable_gateway_monitor}
   */
   readonly disableGatewayMonitor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster#if_name Cluster#if_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster#if_name Cluster#if_name}
   */
   readonly ifName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster#route_id Cluster#route_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster#route_id Cluster#route_id}
   */
   readonly routeId: string;
   /**
   * labels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster#labels Cluster#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster#labels Cluster#labels}
   */
   readonly labels?: ClusterNodesStaticRoutesLabels[] | cdktf.IResolvable;
   /**
   * next_hop block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster#next_hop Cluster#next_hop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster#next_hop Cluster#next_hop}
   */
   readonly nextHop: ClusterNodesStaticRoutesNextHop[] | cdktf.IResolvable;
   /**
   * prefix block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster#prefix Cluster#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster#prefix Cluster#prefix}
   */
   readonly prefix: ClusterNodesStaticRoutesPrefix[] | cdktf.IResolvable;
 }
@@ -3017,61 +3017,61 @@ export class ClusterNodesStaticRoutesList extends cdktf.ComplexList {
 }
 export interface ClusterNodes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster#categories Cluster#categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster#categories Cluster#categories}
   */
   readonly categories?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster#name Cluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster#name Cluster#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster#password Cluster#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster#password Cluster#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster#vm_hostname Cluster#vm_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster#vm_hostname Cluster#vm_hostname}
   */
   readonly vmHostname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster#vm_mor Cluster#vm_mor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster#vm_mor Cluster#vm_mor}
   */
   readonly vmMor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster#vm_name Cluster#vm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster#vm_name Cluster#vm_name}
   */
   readonly vmName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster#vm_uuid Cluster#vm_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster#vm_uuid Cluster#vm_uuid}
   */
   readonly vmUuid?: string;
   /**
   * interfaces block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster#interfaces Cluster#interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster#interfaces Cluster#interfaces}
   */
   readonly interfaces?: ClusterNodesInterfaces[] | cdktf.IResolvable;
   /**
   * ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster#ip Cluster#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster#ip Cluster#ip}
   */
   readonly ip?: ClusterNodesIp[] | cdktf.IResolvable;
   /**
   * ip6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster#ip6 Cluster#ip6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster#ip6 Cluster#ip6}
   */
   readonly ip6?: ClusterNodesIp6[] | cdktf.IResolvable;
   /**
   * public_ip_or_name block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster#public_ip_or_name Cluster#public_ip_or_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster#public_ip_or_name Cluster#public_ip_or_name}
   */
   readonly publicIpOrName?: ClusterNodesPublicIpOrName[] | cdktf.IResolvable;
   /**
   * static_routes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster#static_routes Cluster#static_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster#static_routes Cluster#static_routes}
   */
   readonly staticRoutes?: ClusterNodesStaticRoutes[] | cdktf.IResolvable;
 }
@@ -3506,11 +3506,11 @@ export class ClusterNodesList extends cdktf.ComplexList {
 }
 export interface ClusterVirtualIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster#addr Cluster#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster#addr Cluster#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster#type Cluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster#type Cluster#type}
   */
   readonly type: string;
 }
@@ -3649,11 +3649,11 @@ export class ClusterVirtualIpList extends cdktf.ComplexList {
 }
 export interface ClusterVirtualIp6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster#addr Cluster#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster#addr Cluster#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster#type Cluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster#type Cluster#type}
   */
   readonly type: string;
 }
@@ -3792,7 +3792,7 @@ export class ClusterVirtualIp6List extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster avi_cluster}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster avi_cluster}
 */
 export class Cluster extends cdktf.TerraformResource {
 
@@ -3808,7 +3808,7 @@ export class Cluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Cluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cluster to import
-  * @param importFromId The id of the existing Cluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3820,7 +3820,7 @@ export class Cluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cluster avi_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cluster avi_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3831,7 +3831,8 @@ export class Cluster extends cdktf.TerraformResource {
       terraformResourceType: 'avi_cluster',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '31.1.1'
+        providerVersion: '30.2.5',
+        providerVersionConstraint: '30.2.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -85,7 +85,8 @@ export class AirbyteProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'airbyte',
       terraformGeneratorMetadata: {
         providerName: 'airbyte',
-        providerVersion: '0.13.0'
+        providerVersion: '0.13.0',
+        providerVersionConstraint: '0.13.0'
       },
       terraformProviderSource: 'airbytehq/airbyte'
     });

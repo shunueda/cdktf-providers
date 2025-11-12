@@ -122,7 +122,8 @@ export class Coupon extends cdktf.TerraformResource {
       terraformResourceType: 'stripe_coupon',
       terraformGeneratorMetadata: {
         providerName: 'stripe',
-        providerVersion: '3.4.0'
+        providerVersion: '3.4.0',
+        providerVersionConstraint: '3.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

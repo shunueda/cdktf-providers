@@ -786,7 +786,8 @@ export class K8S extends cdktf.TerraformResource {
       terraformResourceType: 'gridscale_k8s',
       terraformGeneratorMetadata: {
         providerName: 'gridscale',
-        providerVersion: '2.2.3'
+        providerVersion: '2.2.3',
+        providerVersionConstraint: '2.2.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -149,7 +149,8 @@ export class KentikCloudexportProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'kentik-cloudexport',
       terraformGeneratorMetadata: {
         providerName: 'kentik-cloudexport',
-        providerVersion: '0.4.1'
+        providerVersion: '0.4.1',
+        providerVersionConstraint: '0.4.1'
       },
       terraformProviderSource: 'kentik/kentik-cloudexport'
     });

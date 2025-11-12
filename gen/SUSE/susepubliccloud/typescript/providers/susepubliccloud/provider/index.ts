@@ -55,7 +55,8 @@ export class SusepubliccloudProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'susepubliccloud',
       terraformGeneratorMetadata: {
         providerName: 'susepubliccloud',
-        providerVersion: '0.6.1'
+        providerVersion: '0.6.1',
+        providerVersionConstraint: '0.6.1'
       },
       terraformProviderSource: 'SUSE/susepubliccloud'
     });

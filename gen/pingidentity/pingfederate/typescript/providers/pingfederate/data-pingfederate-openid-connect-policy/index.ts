@@ -2106,7 +2106,8 @@ export class DataPingfederateOpenidConnectPolicy extends cdktf.TerraformDataSour
       terraformResourceType: 'pingfederate_openid_connect_policy',
       terraformGeneratorMetadata: {
         providerName: 'pingfederate',
-        providerVersion: '1.6.2'
+        providerVersion: '1.6.2',
+        providerVersionConstraint: '1.6.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

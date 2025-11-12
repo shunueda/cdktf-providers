@@ -354,7 +354,8 @@ export class ObjectGroup extends cdktf.TerraformResource {
       terraformResourceType: 'chaossearch_object_group',
       terraformGeneratorMetadata: {
         providerName: 'chaossearch',
-        providerVersion: '0.12.4'
+        providerVersion: '0.12.4',
+        providerVersionConstraint: '0.12.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

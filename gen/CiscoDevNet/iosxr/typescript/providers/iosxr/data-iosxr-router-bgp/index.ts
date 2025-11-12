@@ -251,7 +251,8 @@ export class DataIosxrRouterBgp extends cdktf.TerraformDataSource {
       terraformResourceType: 'iosxr_router_bgp',
       terraformGeneratorMetadata: {
         providerName: 'iosxr',
-        providerVersion: '0.6.0'
+        providerVersion: '0.6.0',
+        providerVersionConstraint: '0.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

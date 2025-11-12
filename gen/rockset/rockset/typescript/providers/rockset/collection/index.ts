@@ -210,7 +210,8 @@ export class Collection extends cdktf.TerraformResource {
       terraformResourceType: 'rockset_collection',
       terraformGeneratorMetadata: {
         providerName: 'rockset',
-        providerVersion: '0.9.8'
+        providerVersion: '0.9.8',
+        providerVersionConstraint: '0.9.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

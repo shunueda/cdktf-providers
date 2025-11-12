@@ -1443,7 +1443,8 @@ export class User extends cdktf.TerraformResource {
       terraformResourceType: 'gsuite_user',
       terraformGeneratorMetadata: {
         providerName: 'gsuite',
-        providerVersion: '0.1.62'
+        providerVersion: '0.1.62',
+        providerVersionConstraint: '0.1.62'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/autoscaling_notifications
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/autoscaling_notifications
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,22 +8,22 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlibabacloudstackAutoscalingNotificationsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/autoscaling_notifications#id DataAlibabacloudstackAutoscalingNotifications#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/autoscaling_notifications#id DataAlibabacloudstackAutoscalingNotifications#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/autoscaling_notifications#ids DataAlibabacloudstackAutoscalingNotifications#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/autoscaling_notifications#ids DataAlibabacloudstackAutoscalingNotifications#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/autoscaling_notifications#output_file DataAlibabacloudstackAutoscalingNotifications#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/autoscaling_notifications#output_file DataAlibabacloudstackAutoscalingNotifications#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/autoscaling_notifications#scaling_group_id DataAlibabacloudstackAutoscalingNotifications#scaling_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/autoscaling_notifications#scaling_group_id DataAlibabacloudstackAutoscalingNotifications#scaling_group_id}
   */
   readonly scalingGroupId: string;
 }
@@ -119,7 +119,7 @@ export class DataAlibabacloudstackAutoscalingNotificationsNotificationsList exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/autoscaling_notifications alibabacloudstack_autoscaling_notifications}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/autoscaling_notifications alibabacloudstack_autoscaling_notifications}
 */
 export class DataAlibabacloudstackAutoscalingNotifications extends cdktf.TerraformDataSource {
 
@@ -135,7 +135,7 @@ export class DataAlibabacloudstackAutoscalingNotifications extends cdktf.Terrafo
   * Generates CDKTF code for importing a DataAlibabacloudstackAutoscalingNotifications resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlibabacloudstackAutoscalingNotifications to import
-  * @param importFromId The id of the existing DataAlibabacloudstackAutoscalingNotifications that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/autoscaling_notifications#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlibabacloudstackAutoscalingNotifications that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/autoscaling_notifications#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlibabacloudstackAutoscalingNotifications to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -147,7 +147,7 @@ export class DataAlibabacloudstackAutoscalingNotifications extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/autoscaling_notifications alibabacloudstack_autoscaling_notifications} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/autoscaling_notifications alibabacloudstack_autoscaling_notifications} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -158,7 +158,8 @@ export class DataAlibabacloudstackAutoscalingNotifications extends cdktf.Terrafo
       terraformResourceType: 'alibabacloudstack_autoscaling_notifications',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.19'
+        providerVersion: '3.16.21',
+        providerVersionConstraint: '3.16.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

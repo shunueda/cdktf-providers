@@ -67,7 +67,8 @@ export class Ntpsettings extends cdktf.TerraformResource {
       terraformResourceType: 'powerscale_ntpsettings',
       terraformGeneratorMetadata: {
         providerName: 'powerscale',
-        providerVersion: '1.8.0'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -76,7 +76,8 @@ export class IdentityRoleAssignmentV3 extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_identity_role_assignment_v3',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14'
+        providerVersion: '1.12.14',
+        providerVersionConstraint: '1.12.14'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

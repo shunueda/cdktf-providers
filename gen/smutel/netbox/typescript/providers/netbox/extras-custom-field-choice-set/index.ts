@@ -233,7 +233,8 @@ export class ExtrasCustomFieldChoiceSet extends cdktf.TerraformResource {
       terraformResourceType: 'netbox_extras_custom_field_choice_set',
       terraformGeneratorMetadata: {
         providerName: 'netbox',
-        providerVersion: '8.0.2'
+        providerVersion: '8.0.2',
+        providerVersionConstraint: '8.0.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

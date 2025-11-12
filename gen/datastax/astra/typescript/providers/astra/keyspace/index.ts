@@ -68,7 +68,8 @@ export class Keyspace extends cdktf.TerraformResource {
       terraformResourceType: 'astra_keyspace',
       terraformGeneratorMetadata: {
         providerName: 'astra',
-        providerVersion: '2.3.18'
+        providerVersion: '2.3.18',
+        providerVersionConstraint: '2.3.18'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

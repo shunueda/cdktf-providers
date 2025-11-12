@@ -282,7 +282,8 @@ export class DataServerscomBandwidthOrderOptions extends cdktf.TerraformDataSour
       terraformResourceType: 'serverscom_bandwidth_order_options',
       terraformGeneratorMetadata: {
         providerName: 'serverscom',
-        providerVersion: '0.5.2'
+        providerVersion: '0.5.2',
+        providerVersionConstraint: '0.5.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

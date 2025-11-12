@@ -86,7 +86,8 @@ export class DataBrightboxDatabaseSnapshot extends cdktf.TerraformDataSource {
       terraformResourceType: 'brightbox_database_snapshot',
       terraformGeneratorMetadata: {
         providerName: 'brightbox',
-        providerVersion: '3.4.3'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

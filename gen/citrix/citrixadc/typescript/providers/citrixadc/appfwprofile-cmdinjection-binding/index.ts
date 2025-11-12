@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_cmdinjection_binding
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_cmdinjection_binding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,72 +8,72 @@ import * as cdktf from 'cdktf';
 
 export interface AppfwprofileCmdinjectionBindingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_cmdinjection_binding#alertonly AppfwprofileCmdinjectionBinding#alertonly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_cmdinjection_binding#alertonly AppfwprofileCmdinjectionBinding#alertonly}
   */
   readonly alertonly?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_cmdinjection_binding#as_scan_location_cmd AppfwprofileCmdinjectionBinding#as_scan_location_cmd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_cmdinjection_binding#as_scan_location_cmd AppfwprofileCmdinjectionBinding#as_scan_location_cmd}
   */
   readonly asScanLocationCmd?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_cmdinjection_binding#as_value_expr_cmd AppfwprofileCmdinjectionBinding#as_value_expr_cmd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_cmdinjection_binding#as_value_expr_cmd AppfwprofileCmdinjectionBinding#as_value_expr_cmd}
   */
   readonly asValueExprCmd?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_cmdinjection_binding#as_value_type_cmd AppfwprofileCmdinjectionBinding#as_value_type_cmd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_cmdinjection_binding#as_value_type_cmd AppfwprofileCmdinjectionBinding#as_value_type_cmd}
   */
   readonly asValueTypeCmd?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_cmdinjection_binding#cmdinjection AppfwprofileCmdinjectionBinding#cmdinjection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_cmdinjection_binding#cmdinjection AppfwprofileCmdinjectionBinding#cmdinjection}
   */
   readonly cmdinjection: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_cmdinjection_binding#comment AppfwprofileCmdinjectionBinding#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_cmdinjection_binding#comment AppfwprofileCmdinjectionBinding#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_cmdinjection_binding#formactionurl_cmd AppfwprofileCmdinjectionBinding#formactionurl_cmd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_cmdinjection_binding#formactionurl_cmd AppfwprofileCmdinjectionBinding#formactionurl_cmd}
   */
   readonly formactionurlCmd: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_cmdinjection_binding#id AppfwprofileCmdinjectionBinding#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_cmdinjection_binding#id AppfwprofileCmdinjectionBinding#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_cmdinjection_binding#isautodeployed AppfwprofileCmdinjectionBinding#isautodeployed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_cmdinjection_binding#isautodeployed AppfwprofileCmdinjectionBinding#isautodeployed}
   */
   readonly isautodeployed?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_cmdinjection_binding#isregex_cmd AppfwprofileCmdinjectionBinding#isregex_cmd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_cmdinjection_binding#isregex_cmd AppfwprofileCmdinjectionBinding#isregex_cmd}
   */
   readonly isregexCmd?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_cmdinjection_binding#isvalueregex_cmd AppfwprofileCmdinjectionBinding#isvalueregex_cmd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_cmdinjection_binding#isvalueregex_cmd AppfwprofileCmdinjectionBinding#isvalueregex_cmd}
   */
   readonly isvalueregexCmd?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_cmdinjection_binding#name AppfwprofileCmdinjectionBinding#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_cmdinjection_binding#name AppfwprofileCmdinjectionBinding#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_cmdinjection_binding#resourceid AppfwprofileCmdinjectionBinding#resourceid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_cmdinjection_binding#resourceid AppfwprofileCmdinjectionBinding#resourceid}
   */
   readonly resourceid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_cmdinjection_binding#ruletype AppfwprofileCmdinjectionBinding#ruletype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_cmdinjection_binding#ruletype AppfwprofileCmdinjectionBinding#ruletype}
   */
   readonly ruletype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_cmdinjection_binding#state AppfwprofileCmdinjectionBinding#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_cmdinjection_binding#state AppfwprofileCmdinjectionBinding#state}
   */
   readonly state?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_cmdinjection_binding citrixadc_appfwprofile_cmdinjection_binding}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_cmdinjection_binding citrixadc_appfwprofile_cmdinjection_binding}
 */
 export class AppfwprofileCmdinjectionBinding extends cdktf.TerraformResource {
 
@@ -89,7 +89,7 @@ export class AppfwprofileCmdinjectionBinding extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AppfwprofileCmdinjectionBinding resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppfwprofileCmdinjectionBinding to import
-  * @param importFromId The id of the existing AppfwprofileCmdinjectionBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_cmdinjection_binding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppfwprofileCmdinjectionBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_cmdinjection_binding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppfwprofileCmdinjectionBinding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -101,7 +101,7 @@ export class AppfwprofileCmdinjectionBinding extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_cmdinjection_binding citrixadc_appfwprofile_cmdinjection_binding} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_cmdinjection_binding citrixadc_appfwprofile_cmdinjection_binding} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -112,7 +112,8 @@ export class AppfwprofileCmdinjectionBinding extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_appfwprofile_cmdinjection_binding',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

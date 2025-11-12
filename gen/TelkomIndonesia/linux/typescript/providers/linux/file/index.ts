@@ -816,7 +816,8 @@ export class File extends cdktf.TerraformResource {
       terraformResourceType: 'linux_file',
       terraformGeneratorMetadata: {
         providerName: 'linux',
-        providerVersion: '0.7.1'
+        providerVersion: '0.7.1',
+        providerVersionConstraint: '0.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

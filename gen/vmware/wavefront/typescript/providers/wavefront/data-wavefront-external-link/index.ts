@@ -56,7 +56,8 @@ export class DataWavefrontExternalLink extends cdktf.TerraformDataSource {
       terraformResourceType: 'wavefront_external_link',
       terraformGeneratorMetadata: {
         providerName: 'wavefront',
-        providerVersion: '5.1.0'
+        providerVersion: '5.1.0',
+        providerVersionConstraint: '5.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

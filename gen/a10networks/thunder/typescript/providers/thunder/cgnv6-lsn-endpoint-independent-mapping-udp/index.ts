@@ -221,7 +221,8 @@ export class Cgnv6LsnEndpointIndependentMappingUdp extends cdktf.TerraformResour
       terraformResourceType: 'thunder_cgnv6_lsn_endpoint_independent_mapping_udp',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

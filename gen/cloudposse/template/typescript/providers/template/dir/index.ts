@@ -74,7 +74,8 @@ export class Dir extends cdktf.TerraformResource {
       terraformResourceType: 'template_dir',
       terraformGeneratorMetadata: {
         providerName: 'template',
-        providerVersion: '2.2.0'
+        providerVersion: '2.2.0',
+        providerVersionConstraint: '2.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -85,7 +85,8 @@ export class OnepasswordProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'onepassword',
       terraformGeneratorMetadata: {
         providerName: 'onepassword',
-        providerVersion: '2.2.0'
+        providerVersion: '2.2.0',
+        providerVersionConstraint: '2.2.0'
       },
       terraformProviderSource: '1Password/onepassword'
     });

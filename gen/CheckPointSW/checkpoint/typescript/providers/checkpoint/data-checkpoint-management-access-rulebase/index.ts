@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_access_rulebase
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_access_rulebase
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -14,29 +14,29 @@ export interface DataCheckpointManagementAccessRulebaseConfig extends cdktf.Terr
   * 
   * Note: Requesting to show rules as ranges is limited up to 20 rules per request, otherwise an error is returned. If you wish to request more rules, use the offset and limit parameters to limit your request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_access_rulebase#dereference_group_members DataCheckpointManagementAccessRulebase#dereference_group_members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_access_rulebase#dereference_group_members DataCheckpointManagementAccessRulebase#dereference_group_members}
   */
   readonly dereferenceGroupMembers?: boolean | cdktf.IResolvable;
   /**
   * Search expression to filter the rulebase. The provided text should be exactly the same as it would be given in Smart Console. The logical operators in the expression ('AND', 'OR') should be provided in capital letters. If an operator is not used, the default OR operator applies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_access_rulebase#filter DataCheckpointManagementAccessRulebase#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_access_rulebase#filter DataCheckpointManagementAccessRulebase#filter}
   */
   readonly filter?: string;
   /**
   * Sets filter preferences.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_access_rulebase#filter_settings DataCheckpointManagementAccessRulebase#filter_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_access_rulebase#filter_settings DataCheckpointManagementAccessRulebase#filter_settings}
   */
   readonly filterSettings?: { [key: string]: string };
   /**
   * N/A
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_access_rulebase#hits_settings DataCheckpointManagementAccessRulebase#hits_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_access_rulebase#hits_settings DataCheckpointManagementAccessRulebase#hits_settings}
   */
   readonly hitsSettings?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_access_rulebase#id DataCheckpointManagementAccessRulebase#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_access_rulebase#id DataCheckpointManagementAccessRulebase#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -45,25 +45,25 @@ export interface DataCheckpointManagementAccessRulebaseConfig extends cdktf.Terr
   /**
   * The maximal number of returned results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_access_rulebase#limit DataCheckpointManagementAccessRulebase#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_access_rulebase#limit DataCheckpointManagementAccessRulebase#limit}
   */
   readonly limit?: number;
   /**
   * Object name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_access_rulebase#name DataCheckpointManagementAccessRulebase#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_access_rulebase#name DataCheckpointManagementAccessRulebase#name}
   */
   readonly name?: string;
   /**
   * Number of the results to initially skip.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_access_rulebase#offset DataCheckpointManagementAccessRulebase#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_access_rulebase#offset DataCheckpointManagementAccessRulebase#offset}
   */
   readonly offset?: number;
   /**
   * Name of the package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_access_rulebase#package DataCheckpointManagementAccessRulebase#package}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_access_rulebase#package DataCheckpointManagementAccessRulebase#package}
   */
   readonly package?: string;
   /**
@@ -73,31 +73,31 @@ export interface DataCheckpointManagementAccessRulebaseConfig extends cdktf.Terr
   * 
   * Note: Requesting to show rules as ranges is limited up to 20 rules per request, otherwise an error is returned. If you wish to request more rules, use the offset and limit parameters to limit your request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_access_rulebase#show_as_ranges DataCheckpointManagementAccessRulebase#show_as_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_access_rulebase#show_as_ranges DataCheckpointManagementAccessRulebase#show_as_ranges}
   */
   readonly showAsRanges?: boolean | cdktf.IResolvable;
   /**
   * N/A
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_access_rulebase#show_hits DataCheckpointManagementAccessRulebase#show_hits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_access_rulebase#show_hits DataCheckpointManagementAccessRulebase#show_hits}
   */
   readonly showHits?: boolean | cdktf.IResolvable;
   /**
   * N/A
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_access_rulebase#show_membership DataCheckpointManagementAccessRulebase#show_membership}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_access_rulebase#show_membership DataCheckpointManagementAccessRulebase#show_membership}
   */
   readonly showMembership?: boolean | cdktf.IResolvable;
   /**
   * Object unique identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_access_rulebase#uid DataCheckpointManagementAccessRulebase#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_access_rulebase#uid DataCheckpointManagementAccessRulebase#uid}
   */
   readonly uid?: string;
   /**
   * order block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_access_rulebase#order DataCheckpointManagementAccessRulebase#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_access_rulebase#order DataCheckpointManagementAccessRulebase#order}
   */
   readonly order?: DataCheckpointManagementAccessRulebaseOrder[] | cdktf.IResolvable;
 }
@@ -689,13 +689,13 @@ export interface DataCheckpointManagementAccessRulebaseOrder {
   /**
   * Sorts results by the given field in ascending order.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_access_rulebase#asc DataCheckpointManagementAccessRulebase#asc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_access_rulebase#asc DataCheckpointManagementAccessRulebase#asc}
   */
   readonly asc?: string;
   /**
   * Sorts results by the given field in descending order.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_access_rulebase#desc DataCheckpointManagementAccessRulebase#desc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_access_rulebase#desc DataCheckpointManagementAccessRulebase#desc}
   */
   readonly desc?: string;
 }
@@ -840,7 +840,7 @@ export class DataCheckpointManagementAccessRulebaseOrderList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_access_rulebase checkpoint_management_access_rulebase}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_access_rulebase checkpoint_management_access_rulebase}
 */
 export class DataCheckpointManagementAccessRulebase extends cdktf.TerraformDataSource {
 
@@ -856,7 +856,7 @@ export class DataCheckpointManagementAccessRulebase extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataCheckpointManagementAccessRulebase resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCheckpointManagementAccessRulebase to import
-  * @param importFromId The id of the existing DataCheckpointManagementAccessRulebase that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_access_rulebase#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCheckpointManagementAccessRulebase that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_access_rulebase#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCheckpointManagementAccessRulebase to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -868,7 +868,7 @@ export class DataCheckpointManagementAccessRulebase extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_access_rulebase checkpoint_management_access_rulebase} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_access_rulebase checkpoint_management_access_rulebase} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -879,7 +879,8 @@ export class DataCheckpointManagementAccessRulebase extends cdktf.TerraformDataS
       terraformResourceType: 'checkpoint_management_access_rulebase',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

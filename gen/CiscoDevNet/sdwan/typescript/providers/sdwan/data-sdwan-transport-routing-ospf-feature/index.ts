@@ -641,7 +641,8 @@ export class DataSdwanTransportRoutingOspfFeature extends cdktf.TerraformDataSou
       terraformResourceType: 'sdwan_transport_routing_ospf_feature',
       terraformGeneratorMetadata: {
         providerName: 'sdwan',
-        providerVersion: '0.8.1'
+        providerVersion: '0.8.1',
+        providerVersionConstraint: '0.8.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

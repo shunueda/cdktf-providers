@@ -91,7 +91,8 @@ export class XenorchestraProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'xenorchestra',
       terraformGeneratorMetadata: {
         providerName: 'xenorchestra',
-        providerVersion: '0.26.1'
+        providerVersion: '0.26.1',
+        providerVersionConstraint: '0.26.1'
       },
       terraformProviderSource: 'terra-farm/xenorchestra'
     });

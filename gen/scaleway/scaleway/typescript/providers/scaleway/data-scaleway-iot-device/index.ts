@@ -402,7 +402,8 @@ export class DataScalewayIotDevice extends cdktf.TerraformDataSource {
       terraformResourceType: 'scaleway_iot_device',
       terraformGeneratorMetadata: {
         providerName: 'scaleway',
-        providerVersion: '2.62.0'
+        providerVersion: '2.62.0',
+        providerVersionConstraint: '2.62.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

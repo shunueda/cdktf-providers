@@ -75,7 +75,8 @@ export class PnapProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'pnap',
       terraformGeneratorMetadata: {
         providerName: 'pnap',
-        providerVersion: '0.30.0'
+        providerVersion: '0.30.0',
+        providerVersionConstraint: '0.30.0'
       },
       terraformProviderSource: 'phoenixnap/pnap'
     });

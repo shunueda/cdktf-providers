@@ -349,7 +349,8 @@ export class Network extends cdktf.TerraformResource {
       terraformResourceType: 'unifi_network',
       terraformGeneratorMetadata: {
         providerName: 'unifi',
-        providerVersion: '0.41.0'
+        providerVersion: '0.41.0',
+        providerVersionConstraint: '0.41.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/resources/sla_domain_assignment
+// https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/sla_domain_assignment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface SlaDomainAssignmentConfig extends cdktf.TerraformMetaArguments 
   /**
   * Object IDs (UUID).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/resources/sla_domain_assignment#object_ids SlaDomainAssignment#object_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/sla_domain_assignment#object_ids SlaDomainAssignment#object_ids}
   */
   readonly objectIds: string[];
   /**
   * SLA domain ID (UUID).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/resources/sla_domain_assignment#sla_domain_id SlaDomainAssignment#sla_domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/sla_domain_assignment#sla_domain_id SlaDomainAssignment#sla_domain_id}
   */
   readonly slaDomainId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/resources/sla_domain_assignment polaris_sla_domain_assignment}
+* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/sla_domain_assignment polaris_sla_domain_assignment}
 */
 export class SlaDomainAssignment extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class SlaDomainAssignment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlaDomainAssignment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlaDomainAssignment to import
-  * @param importFromId The id of the existing SlaDomainAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/resources/sla_domain_assignment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlaDomainAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/sla_domain_assignment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlaDomainAssignment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class SlaDomainAssignment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/resources/sla_domain_assignment polaris_sla_domain_assignment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/sla_domain_assignment polaris_sla_domain_assignment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,7 +61,8 @@ export class SlaDomainAssignment extends cdktf.TerraformResource {
       terraformResourceType: 'polaris_sla_domain_assignment',
       terraformGeneratorMetadata: {
         providerName: 'polaris',
-        providerVersion: '1.2.1'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

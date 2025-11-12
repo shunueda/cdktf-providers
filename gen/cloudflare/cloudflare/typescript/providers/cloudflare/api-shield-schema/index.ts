@@ -304,7 +304,8 @@ export class ApiShieldSchema extends cdktf.TerraformResource {
       terraformResourceType: 'cloudflare_api_shield_schema',
       terraformGeneratorMetadata: {
         providerName: 'cloudflare',
-        providerVersion: '5.12.0'
+        providerVersion: '5.12.0',
+        providerVersionConstraint: '5.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

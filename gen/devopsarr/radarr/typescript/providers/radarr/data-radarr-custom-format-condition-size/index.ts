@@ -79,7 +79,8 @@ export class DataRadarrCustomFormatConditionSize extends cdktf.TerraformDataSour
       terraformResourceType: 'radarr_custom_format_condition_size',
       terraformGeneratorMetadata: {
         providerName: 'radarr',
-        providerVersion: '2.3.3'
+        providerVersion: '2.3.3',
+        providerVersionConstraint: '2.3.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

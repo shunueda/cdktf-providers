@@ -70,7 +70,8 @@ export class DataAwxWorkflowJobTemplateRole extends cdktf.TerraformDataSource {
       terraformResourceType: 'awx_workflow_job_template_role',
       terraformGeneratorMetadata: {
         providerName: 'awx',
-        providerVersion: '1.7.5'
+        providerVersion: '1.7.5',
+        providerVersionConstraint: '1.7.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

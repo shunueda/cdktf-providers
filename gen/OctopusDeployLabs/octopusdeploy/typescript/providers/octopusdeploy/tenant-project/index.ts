@@ -73,7 +73,8 @@ export class TenantProject extends cdktf.TerraformResource {
       terraformResourceType: 'octopusdeploy_tenant_project',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '0.43.2'
+        providerVersion: '0.43.2',
+        providerVersionConstraint: '0.43.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

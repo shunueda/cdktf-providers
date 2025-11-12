@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface InterfaceEthernetConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet#___path___ InterfaceEthernet#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet#___path___ InterfaceEthernet#___path___}
   */
   readonly path?: string;
   /**
   * <em>A set of transformations for field names. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet#___skip___ InterfaceEthernet#___skip___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet#___skip___ InterfaceEthernet#___skip___}
   */
   readonly skip?: string;
   /**
@@ -25,7 +25,7 @@ export interface InterfaceEthernetConfig extends cdktf.TerraformMetaArguments {
   * 				only applies when auto-negotiation is enabled. Advertising higher speeds than 
   * 				the actual interface supported speed will have no effect, multiple options are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet#advertise InterfaceEthernet#advertise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet#advertise InterfaceEthernet#advertise}
   */
   readonly advertise?: string;
   /**
@@ -36,13 +36,13 @@ export interface InterfaceEthernetConfig extends cdktf.TerraformMetaArguments {
   *   * proxy-arp - the router performs proxy ARP on the interface and sends replies to other interfaces
   *   * reply-only - the interface will only reply to requests originated from matching IP address/MAC address combinations which are entered as static entries in the ARP table. No dynamic entries will be automatically stored in the ARP table. Therefore for communications to be successful, a valid static entry must already exist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet#arp InterfaceEthernet#arp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet#arp InterfaceEthernet#arp}
   */
   readonly arp?: string;
   /**
   * ARP timeout is time how long ARP record is kept in ARP table after no packets are received from IP. Value auto equals to the value of arp-timeout in IP/Settings, default is 30s. Can use postfix `ms`, `s`, `m`, `h`, `d` for milliseconds, seconds, minutes, hours or days. If no postfix is set then seconds (s) is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet#arp_timeout InterfaceEthernet#arp_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet#arp_timeout InterfaceEthernet#arp_timeout}
   */
   readonly arpTimeout?: string;
   /**
@@ -50,20 +50,20 @@ export interface InterfaceEthernetConfig extends cdktf.TerraformMetaArguments {
   * 					Note1: Auto-negotiation should not be disabled on one end only, otherwise Ethernet Interfaces may not work properly.
   * 					Note2: Gigabit Ethernet and NBASE-T Ethernet links cannot work with auto-negotiation disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet#auto_negotiation InterfaceEthernet#auto_negotiation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet#auto_negotiation InterfaceEthernet#auto_negotiation}
   */
   readonly autoNegotiation?: boolean | cdktf.IResolvable;
   /**
   * Sets max rx/tx bandwidth in kbps that will be handled by an interface. TX limit is supported on all Atheros switch-chip ports. 
   * 				RX limit is supported only on Atheros8327/QCA8337 switch-chip ports.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet#bandwidth InterfaceEthernet#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet#bandwidth InterfaceEthernet#bandwidth}
   */
   readonly bandwidth?: string;
   /**
   * Changes the cable length setting (only applicable to NS DP83815/6 cards)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet#cable_settings InterfaceEthernet#cable_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet#cable_settings InterfaceEthernet#cable_settings}
   */
   readonly cableSettings?: string;
   /**
@@ -71,44 +71,44 @@ export interface InterfaceEthernetConfig extends cdktf.TerraformMetaArguments {
   * 				the priority will be the SFP/SFP+ port. When sfp mode is selected, the interface will only work through SFP/SFP+ cage.
   * 				When copper mode is selected, the interface will only work through RJ45 Ethernet port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet#combo_mode InterfaceEthernet#combo_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet#combo_mode InterfaceEthernet#combo_mode}
   */
   readonly comboMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet#comment InterfaceEthernet#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet#comment InterfaceEthernet#comment}
   */
   readonly comment?: string;
   /**
   * Disable running check. If this value is set to 'no', the router automatically detects whether the NIC is connected with a device in the network or not.
   * 			Default value is 'yes' because older NICs do not support it. (only applicable to x86)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet#disable_running_check InterfaceEthernet#disable_running_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet#disable_running_check InterfaceEthernet#disable_running_check}
   */
   readonly disableRunningCheck?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet#disabled InterfaceEthernet#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet#disabled InterfaceEthernet#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * The factory name of the identifier, serves as resource identifier. Determines which interface will be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet#factory_name InterfaceEthernet#factory_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet#factory_name InterfaceEthernet#factory_name}
   */
   readonly factoryName: string;
   /**
   * Changes Forward Error Correction (FEC) mode for SFP28, QSFP+ and QSFP28 interfaces. Same mode should be used on both link ends, otherwise FEC mismatch could result in non-working link or even false link-ups. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet#fec_mode InterfaceEthernet#fec_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet#fec_mode InterfaceEthernet#fec_mode}
   */
   readonly fecMode?: string;
   /**
   * Defines whether the transmission of data appears in two directions simultaneously, only applies when auto-negotiation is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet#full_duplex InterfaceEthernet#full_duplex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet#full_duplex InterfaceEthernet#full_duplex}
   */
   readonly fullDuplex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet#id InterfaceEthernet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet#id InterfaceEthernet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -117,122 +117,122 @@ export interface InterfaceEthernetConfig extends cdktf.TerraformMetaArguments {
   /**
   * Layer2 Maximum transmission unit. [See](https://wiki.mikrotik.com/wiki/Maximum_Transmission_Unit_on_RouterBoards).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet#l2mtu InterfaceEthernet#l2mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet#l2mtu InterfaceEthernet#l2mtu}
   */
   readonly l2Mtu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet#loop_protect InterfaceEthernet#loop_protect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet#loop_protect InterfaceEthernet#loop_protect}
   */
   readonly loopProtect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet#loop_protect_disable_time InterfaceEthernet#loop_protect_disable_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet#loop_protect_disable_time InterfaceEthernet#loop_protect_disable_time}
   */
   readonly loopProtectDisableTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet#loop_protect_send_interval InterfaceEthernet#loop_protect_send_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet#loop_protect_send_interval InterfaceEthernet#loop_protect_send_interval}
   */
   readonly loopProtectSendInterval?: string;
   /**
   * Media Access Control number of an interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet#mac_address InterfaceEthernet#mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet#mac_address InterfaceEthernet#mac_address}
   */
   readonly macAddress?: string;
   /**
   * Whether the MDI/X auto cross over cable correction feature is enabled for the port (Hardware specific, e.g. ether1 on RB500 can be set to yes/no. Fixed to 'yes' on other hardware.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet#mdix_enable InterfaceEthernet#mdix_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet#mdix_enable InterfaceEthernet#mdix_enable}
   */
   readonly mdixEnable?: boolean | cdktf.IResolvable;
   /**
   * Layer3 Maximum transmission unit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet#mtu InterfaceEthernet#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet#mtu InterfaceEthernet#mtu}
   */
   readonly mtu?: number;
   /**
   * Name of the ethernet interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet#name InterfaceEthernet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet#name InterfaceEthernet#name}
   */
   readonly name: string;
   /**
   * An option that enables LLDP for managing devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet#poe_lldp_enabled InterfaceEthernet#poe_lldp_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet#poe_lldp_enabled InterfaceEthernet#poe_lldp_enabled}
   */
   readonly poeLldpEnabled?: boolean | cdktf.IResolvable;
   /**
   * PoE settings: (https://wiki.mikrotik.com/wiki/Manual:PoE-Out)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet#poe_out InterfaceEthernet#poe_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet#poe_out InterfaceEthernet#poe_out}
   */
   readonly poeOut?: string;
   /**
   * PoE settings: (https://wiki.mikrotik.com/wiki/Manual:PoE-Out)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet#poe_priority InterfaceEthernet#poe_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet#poe_priority InterfaceEthernet#poe_priority}
   */
   readonly poePriority?: number;
   /**
   * An option that allows us to manually control the voltage outputs on the PoE port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet#poe_voltage InterfaceEthernet#poe_voltage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet#poe_voltage InterfaceEthernet#poe_voltage}
   */
   readonly poeVoltage?: string;
   /**
   * An options that disables PoE-Out power for 5s between the specified intervals.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet#power_cycle_interval InterfaceEthernet#power_cycle_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet#power_cycle_interval InterfaceEthernet#power_cycle_interval}
   */
   readonly powerCycleInterval?: string;
   /**
   * An address to monitor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet#power_cycle_ping_address InterfaceEthernet#power_cycle_ping_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet#power_cycle_ping_address InterfaceEthernet#power_cycle_ping_address}
   */
   readonly powerCyclePingAddress?: string;
   /**
   * An option that enables ping watchdog of power cycles on the port if a host does not respond to ICMP or MAC-Telnet packets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet#power_cycle_ping_enabled InterfaceEthernet#power_cycle_ping_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet#power_cycle_ping_enabled InterfaceEthernet#power_cycle_ping_enabled}
   */
   readonly powerCyclePingEnabled?: boolean | cdktf.IResolvable;
   /**
   * If the host does not respond over the specified period, the PoE-Out port is switched off for 5s.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet#power_cycle_ping_timeout InterfaceEthernet#power_cycle_ping_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet#power_cycle_ping_timeout InterfaceEthernet#power_cycle_ping_timeout}
   */
   readonly powerCyclePingTimeout?: string;
   /**
   * When set to on, the port will process received pause frames and suspend transmission if required.
   * 					auto is the same as on except when auto-negotiation=yes flow control status is resolved by taking into account what other end advertises.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet#rx_flow_control InterfaceEthernet#rx_flow_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet#rx_flow_control InterfaceEthernet#rx_flow_control}
   */
   readonly rxFlowControl?: string;
   /**
   * An option to ignore RX LOS (Loss of Signal) status of the SFP module.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet#sfp_ignore_rx_los InterfaceEthernet#sfp_ignore_rx_los}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet#sfp_ignore_rx_los InterfaceEthernet#sfp_ignore_rx_los}
   */
   readonly sfpIgnoreRxLos?: boolean | cdktf.IResolvable;
   /**
   * Allows to control rate select pin for SFP ports. Values: high | low
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet#sfp_rate_select InterfaceEthernet#sfp_rate_select}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet#sfp_rate_select InterfaceEthernet#sfp_rate_select}
   */
   readonly sfpRateSelect?: string;
   /**
   * The temperature in Celsius at which the interface will be temporarily turned off due to too high detected SFP module temperature (introduced v6.48).The default value for SFP/SFP+/SFP28 interfaces is 95, and for QSFP+/QSFP28 interfaces 80 (introduced v7.6).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet#sfp_shutdown_temperature InterfaceEthernet#sfp_shutdown_temperature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet#sfp_shutdown_temperature InterfaceEthernet#sfp_shutdown_temperature}
   */
   readonly sfpShutdownTemperature?: number;
   /**
   * Sets interface data transmission speed which takes effect only when ```auto_negotiation``` is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet#speed InterfaceEthernet#speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet#speed InterfaceEthernet#speed}
   */
   readonly speed?: string;
   /**
@@ -240,13 +240,13 @@ export interface InterfaceEthernetConfig extends cdktf.TerraformMetaArguments {
   * 					Pause frames are only generated when some routers output interface is congested and packets cannot be transmitted anymore. 
   * 					Auto is the same as on except when auto-negotiation=yes flow control status is resolved by taking into account what other end advertises.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet#tx_flow_control InterfaceEthernet#tx_flow_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet#tx_flow_control InterfaceEthernet#tx_flow_control}
   */
   readonly txFlowControl?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet routeros_interface_ethernet}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet routeros_interface_ethernet}
 */
 export class InterfaceEthernet extends cdktf.TerraformResource {
 
@@ -262,7 +262,7 @@ export class InterfaceEthernet extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InterfaceEthernet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InterfaceEthernet to import
-  * @param importFromId The id of the existing InterfaceEthernet that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InterfaceEthernet that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InterfaceEthernet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -274,7 +274,7 @@ export class InterfaceEthernet extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet routeros_interface_ethernet} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet routeros_interface_ethernet} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -285,7 +285,8 @@ export class InterfaceEthernet extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_interface_ethernet',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.90.0'
+        providerVersion: '1.91.0',
+        providerVersionConstraint: '1.91.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

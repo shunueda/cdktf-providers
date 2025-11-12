@@ -146,7 +146,8 @@ export class DataMcafAwsAllOrganizationalUnits extends cdktf.TerraformDataSource
       terraformResourceType: 'mcaf_aws_all_organizational_units',
       terraformGeneratorMetadata: {
         providerName: 'mcaf',
-        providerVersion: '0.4.3'
+        providerVersion: '0.4.3',
+        providerVersionConstraint: '0.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

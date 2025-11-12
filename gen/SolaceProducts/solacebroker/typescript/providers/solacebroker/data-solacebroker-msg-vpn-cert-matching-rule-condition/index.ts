@@ -90,7 +90,8 @@ export class DataSolacebrokerMsgVpnCertMatchingRuleCondition extends cdktf.Terra
       terraformResourceType: 'solacebroker_msg_vpn_cert_matching_rule_condition',
       terraformGeneratorMetadata: {
         providerName: 'solacebroker',
-        providerVersion: '1.2.0'
+        providerVersion: '1.2.0',
+        providerVersionConstraint: '1.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

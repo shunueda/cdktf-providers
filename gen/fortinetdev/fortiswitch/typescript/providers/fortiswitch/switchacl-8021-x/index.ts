@@ -732,7 +732,8 @@ export class Switchacl8021X extends cdktf.TerraformResource {
       terraformResourceType: 'fortiswitch_switchacl_8021X',
       terraformGeneratorMetadata: {
         providerName: 'fortiswitch',
-        providerVersion: '1.1.6'
+        providerVersion: '1.1.6',
+        providerVersionConstraint: '1.1.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

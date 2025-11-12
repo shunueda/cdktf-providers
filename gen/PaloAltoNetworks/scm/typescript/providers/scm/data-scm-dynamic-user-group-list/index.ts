@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/dynamic_user_group_list
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/dynamic_user_group_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface DataScmDynamicUserGroupListConfig extends cdktf.TerraformMetaAr
   /**
   * The device of the item.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/dynamic_user_group_list#device DataScmDynamicUserGroupList#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/dynamic_user_group_list#device DataScmDynamicUserGroupList#device}
   */
   readonly device?: string;
   /**
   * The folder of the item. Default: Shared.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/dynamic_user_group_list#folder DataScmDynamicUserGroupList#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/dynamic_user_group_list#folder DataScmDynamicUserGroupList#folder}
   */
   readonly folder?: string;
   /**
   * The max number of items to return. Default: 200.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/dynamic_user_group_list#limit DataScmDynamicUserGroupList#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/dynamic_user_group_list#limit DataScmDynamicUserGroupList#limit}
   */
   readonly limit?: number;
   /**
   * The name of the item.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/dynamic_user_group_list#name DataScmDynamicUserGroupList#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/dynamic_user_group_list#name DataScmDynamicUserGroupList#name}
   */
   readonly name?: string;
   /**
   * The offset of the first item to return.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/dynamic_user_group_list#offset DataScmDynamicUserGroupList#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/dynamic_user_group_list#offset DataScmDynamicUserGroupList#offset}
   */
   readonly offset?: number;
   /**
   * The snippet of the item.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/dynamic_user_group_list#snippet DataScmDynamicUserGroupList#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/dynamic_user_group_list#snippet DataScmDynamicUserGroupList#snippet}
   */
   readonly snippet?: string;
 }
@@ -48,7 +48,7 @@ export interface DataScmDynamicUserGroupListData {
   /**
   * The UUID of the dynamic user group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/dynamic_user_group_list#id DataScmDynamicUserGroupList#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/dynamic_user_group_list#id DataScmDynamicUserGroupList#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -57,7 +57,7 @@ export interface DataScmDynamicUserGroupListData {
   /**
   * The name of the dynamic address group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/dynamic_user_group_list#name DataScmDynamicUserGroupList#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/dynamic_user_group_list#name DataScmDynamicUserGroupList#name}
   */
   readonly name?: string;
 }
@@ -224,7 +224,7 @@ export class DataScmDynamicUserGroupListDataList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/dynamic_user_group_list scm_dynamic_user_group_list}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/dynamic_user_group_list scm_dynamic_user_group_list}
 */
 export class DataScmDynamicUserGroupList extends cdktf.TerraformDataSource {
 
@@ -240,7 +240,7 @@ export class DataScmDynamicUserGroupList extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataScmDynamicUserGroupList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataScmDynamicUserGroupList to import
-  * @param importFromId The id of the existing DataScmDynamicUserGroupList that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/dynamic_user_group_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataScmDynamicUserGroupList that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/dynamic_user_group_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataScmDynamicUserGroupList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -252,7 +252,7 @@ export class DataScmDynamicUserGroupList extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/dynamic_user_group_list scm_dynamic_user_group_list} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/dynamic_user_group_list scm_dynamic_user_group_list} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -263,7 +263,8 @@ export class DataScmDynamicUserGroupList extends cdktf.TerraformDataSource {
       terraformResourceType: 'scm_dynamic_user_group_list',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.3'
+        providerVersion: '1.0.4',
+        providerVersionConstraint: '1.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

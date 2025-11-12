@@ -318,7 +318,8 @@ export class DataNcloudSourcebuildProjectDockerEngines extends cdktf.TerraformDa
       terraformResourceType: 'ncloud_sourcebuild_project_docker_engines',
       terraformGeneratorMetadata: {
         providerName: 'ncloud',
-        providerVersion: '4.0.4'
+        providerVersion: '4.0.4',
+        providerVersionConstraint: '4.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

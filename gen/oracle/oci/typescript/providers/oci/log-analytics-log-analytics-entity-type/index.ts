@@ -386,7 +386,8 @@ export class LogAnalyticsLogAnalyticsEntityType extends cdktf.TerraformResource 
       terraformResourceType: 'oci_log_analytics_log_analytics_entity_type',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

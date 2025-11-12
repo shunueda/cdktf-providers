@@ -266,7 +266,8 @@ export class DataOciMediaServicesMediaAssetDistributionChannelAttachment extends
       terraformResourceType: 'oci_media_services_media_asset_distribution_channel_attachment',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

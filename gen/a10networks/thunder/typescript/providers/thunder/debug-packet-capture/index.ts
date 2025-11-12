@@ -74,7 +74,8 @@ export class DebugPacketCapture extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_debug_packet_capture',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

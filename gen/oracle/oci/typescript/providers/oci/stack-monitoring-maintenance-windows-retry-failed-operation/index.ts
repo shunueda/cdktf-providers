@@ -226,7 +226,8 @@ export class StackMonitoringMaintenanceWindowsRetryFailedOperation extends cdktf
       terraformResourceType: 'oci_stack_monitoring_maintenance_windows_retry_failed_operation',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

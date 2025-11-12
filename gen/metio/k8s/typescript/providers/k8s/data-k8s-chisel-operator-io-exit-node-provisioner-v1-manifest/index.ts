@@ -969,7 +969,8 @@ export class DataK8SChiselOperatorIoExitNodeProvisionerV1Manifest extends cdktf.
       terraformResourceType: 'k8s_chisel_operator_io_exit_node_provisioner_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

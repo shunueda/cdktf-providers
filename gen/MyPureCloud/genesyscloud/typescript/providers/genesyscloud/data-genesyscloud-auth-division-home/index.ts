@@ -68,7 +68,8 @@ export class DataGenesyscloudAuthDivisionHome extends cdktf.TerraformDataSource 
       terraformResourceType: 'genesyscloud_auth_division_home',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.70.0'
+        providerVersion: '1.70.0',
+        providerVersionConstraint: '1.70.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -68,7 +68,8 @@ export class DisableManagementServiceHttps extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_disable_management_service_https',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

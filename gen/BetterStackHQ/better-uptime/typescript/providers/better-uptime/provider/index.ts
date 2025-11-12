@@ -97,7 +97,8 @@ export class BetterUptimeProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'better-uptime',
       terraformGeneratorMetadata: {
         providerName: 'better-uptime',
-        providerVersion: '0.20.4'
+        providerVersion: '0.20.4',
+        providerVersionConstraint: '0.20.4'
       },
       terraformProviderSource: 'BetterStackHQ/better-uptime'
     });

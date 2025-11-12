@@ -80,7 +80,8 @@ export class DataAciSpanSourcedestinationGroupMatchLabel extends cdktf.Terraform
       terraformResourceType: 'aci_span_sourcedestination_group_match_label',
       terraformGeneratorMetadata: {
         providerName: 'aci',
-        providerVersion: '2.18.0'
+        providerVersion: '2.18.0',
+        providerVersionConstraint: '2.18.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

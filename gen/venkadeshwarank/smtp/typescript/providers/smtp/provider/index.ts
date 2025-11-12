@@ -85,7 +85,8 @@ export class SmtpProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'smtp',
       terraformGeneratorMetadata: {
         providerName: 'smtp',
-        providerVersion: '0.3.1'
+        providerVersion: '0.3.1',
+        providerVersionConstraint: '0.3.1'
       },
       terraformProviderSource: 'venkadeshwarank/smtp'
     });

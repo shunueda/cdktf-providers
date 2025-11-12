@@ -103,7 +103,8 @@ export class SelectelProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'selectel',
       terraformGeneratorMetadata: {
         providerName: 'selectel',
-        providerVersion: '7.1.0'
+        providerVersion: '7.1.0',
+        providerVersionConstraint: '7.1.0'
       },
       terraformProviderSource: 'selectel/selectel'
     });

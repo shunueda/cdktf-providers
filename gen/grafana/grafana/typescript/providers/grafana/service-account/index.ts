@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/grafana/grafana/4.12.2/docs/resources/service_account
+// https://registry.terraform.io/providers/grafana/grafana/4.14.0/docs/resources/service_account
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ServiceAccountConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.12.2/docs/resources/service_account#id ServiceAccount#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.14.0/docs/resources/service_account#id ServiceAccount#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface ServiceAccountConfig extends cdktf.TerraformMetaArguments {
   /**
   * The disabled status for the service account. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.12.2/docs/resources/service_account#is_disabled ServiceAccount#is_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.14.0/docs/resources/service_account#is_disabled ServiceAccount#is_disabled}
   */
   readonly isDisabled?: boolean | cdktf.IResolvable;
   /**
   * The name of the service account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.12.2/docs/resources/service_account#name ServiceAccount#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.14.0/docs/resources/service_account#name ServiceAccount#name}
   */
   readonly name: string;
   /**
   * The Organization ID. If not set, the Org ID defined in the provider block will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.12.2/docs/resources/service_account#org_id ServiceAccount#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.14.0/docs/resources/service_account#org_id ServiceAccount#org_id}
   */
   readonly orgId?: string;
   /**
   * The basic role of the service account in the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.12.2/docs/resources/service_account#role ServiceAccount#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/grafana/grafana/4.14.0/docs/resources/service_account#role ServiceAccount#role}
   */
   readonly role: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/grafana/grafana/4.12.2/docs/resources/service_account grafana_service_account}
+* Represents a {@link https://registry.terraform.io/providers/grafana/grafana/4.14.0/docs/resources/service_account grafana_service_account}
 */
 export class ServiceAccount extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class ServiceAccount extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServiceAccount resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServiceAccount to import
-  * @param importFromId The id of the existing ServiceAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/grafana/grafana/4.12.2/docs/resources/service_account#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServiceAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/grafana/grafana/4.14.0/docs/resources/service_account#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServiceAccount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class ServiceAccount extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/grafana/grafana/4.12.2/docs/resources/service_account grafana_service_account} Resource
+  * Create a new {@link https://registry.terraform.io/providers/grafana/grafana/4.14.0/docs/resources/service_account grafana_service_account} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,7 +80,8 @@ export class ServiceAccount extends cdktf.TerraformResource {
       terraformResourceType: 'grafana_service_account',
       terraformGeneratorMetadata: {
         providerName: 'grafana',
-        providerVersion: '4.12.2'
+        providerVersion: '4.14.0',
+        providerVersionConstraint: '4.14.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

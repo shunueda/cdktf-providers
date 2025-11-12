@@ -178,7 +178,8 @@ export class DataAlicloudCloudStorageGatewayExpressSyncs extends cdktf.Terraform
       terraformResourceType: 'alicloud_cloud_storage_gateway_express_syncs',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

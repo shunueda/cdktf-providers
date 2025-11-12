@@ -23580,7 +23580,8 @@ export class DataK8SOperatorAquasecComAquaEnforcerV1Alpha1Manifest extends cdktf
       terraformResourceType: 'k8s_operator_aquasec_com_aqua_enforcer_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

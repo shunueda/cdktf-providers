@@ -64,7 +64,8 @@ export class DataAwsBatchComputeEnvironment extends cdktf.TerraformDataSource {
       terraformResourceType: 'aws_batch_compute_environment',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '3.29.6'
+        providerVersion: '3.29.6',
+        providerVersionConstraint: '3.29.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

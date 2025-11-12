@@ -84,7 +84,8 @@ export class WirelesscontrollerWtpprofilePlatformA extends cdktf.TerraformResour
       terraformResourceType: 'fmgdevice_wirelesscontroller_wtpprofile_platform',
       terraformGeneratorMetadata: {
         providerName: 'fmgdevice',
-        providerVersion: '1.2.1'
+        providerVersion: '1.2.1',
+        providerVersionConstraint: '1.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

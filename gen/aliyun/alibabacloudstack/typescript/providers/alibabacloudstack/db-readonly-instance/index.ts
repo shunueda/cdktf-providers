@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/db_readonly_instance
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/db_readonly_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,84 +8,84 @@ import * as cdktf from 'cdktf';
 
 export interface DbReadonlyInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/db_readonly_instance#db_instance_class DbReadonlyInstance#db_instance_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/db_readonly_instance#db_instance_class DbReadonlyInstance#db_instance_class}
   */
   readonly dbInstanceClass?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/db_readonly_instance#db_instance_description DbReadonlyInstance#db_instance_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/db_readonly_instance#db_instance_description DbReadonlyInstance#db_instance_description}
   */
   readonly dbInstanceDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/db_readonly_instance#db_instance_storage DbReadonlyInstance#db_instance_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/db_readonly_instance#db_instance_storage DbReadonlyInstance#db_instance_storage}
   */
   readonly dbInstanceStorage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/db_readonly_instance#db_instance_storage_type DbReadonlyInstance#db_instance_storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/db_readonly_instance#db_instance_storage_type DbReadonlyInstance#db_instance_storage_type}
   */
   readonly dbInstanceStorageType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/db_readonly_instance#engine_version DbReadonlyInstance#engine_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/db_readonly_instance#engine_version DbReadonlyInstance#engine_version}
   */
   readonly engineVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/db_readonly_instance#id DbReadonlyInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/db_readonly_instance#id DbReadonlyInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/db_readonly_instance#instance_name DbReadonlyInstance#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/db_readonly_instance#instance_name DbReadonlyInstance#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/db_readonly_instance#instance_storage DbReadonlyInstance#instance_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/db_readonly_instance#instance_storage DbReadonlyInstance#instance_storage}
   */
   readonly instanceStorage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/db_readonly_instance#instance_type DbReadonlyInstance#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/db_readonly_instance#instance_type DbReadonlyInstance#instance_type}
   */
   readonly instanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/db_readonly_instance#master_db_instance_id DbReadonlyInstance#master_db_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/db_readonly_instance#master_db_instance_id DbReadonlyInstance#master_db_instance_id}
   */
   readonly masterDbInstanceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/db_readonly_instance#master_instance_id DbReadonlyInstance#master_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/db_readonly_instance#master_instance_id DbReadonlyInstance#master_instance_id}
   */
   readonly masterInstanceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/db_readonly_instance#tags DbReadonlyInstance#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/db_readonly_instance#tags DbReadonlyInstance#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/db_readonly_instance#vswitch_id DbReadonlyInstance#vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/db_readonly_instance#vswitch_id DbReadonlyInstance#vswitch_id}
   */
   readonly vswitchId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/db_readonly_instance#zone_id DbReadonlyInstance#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/db_readonly_instance#zone_id DbReadonlyInstance#zone_id}
   */
   readonly zoneId?: string;
   /**
   * parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/db_readonly_instance#parameters DbReadonlyInstance#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/db_readonly_instance#parameters DbReadonlyInstance#parameters}
   */
   readonly parameters?: DbReadonlyInstanceParameters[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/db_readonly_instance#timeouts DbReadonlyInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/db_readonly_instance#timeouts DbReadonlyInstance#timeouts}
   */
   readonly timeouts?: DbReadonlyInstanceTimeouts;
 }
 export interface DbReadonlyInstanceParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/db_readonly_instance#name DbReadonlyInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/db_readonly_instance#name DbReadonlyInstance#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/db_readonly_instance#value DbReadonlyInstance#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/db_readonly_instance#value DbReadonlyInstance#value}
   */
   readonly value: string;
 }
@@ -224,15 +224,15 @@ export class DbReadonlyInstanceParametersList extends cdktf.ComplexList {
 }
 export interface DbReadonlyInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/db_readonly_instance#create DbReadonlyInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/db_readonly_instance#create DbReadonlyInstance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/db_readonly_instance#delete DbReadonlyInstance#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/db_readonly_instance#delete DbReadonlyInstance#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/db_readonly_instance#update DbReadonlyInstance#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/db_readonly_instance#update DbReadonlyInstance#update}
   */
   readonly update?: string;
 }
@@ -384,7 +384,7 @@ export class DbReadonlyInstanceTimeoutsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/db_readonly_instance alibabacloudstack_db_readonly_instance}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/db_readonly_instance alibabacloudstack_db_readonly_instance}
 */
 export class DbReadonlyInstance extends cdktf.TerraformResource {
 
@@ -400,7 +400,7 @@ export class DbReadonlyInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DbReadonlyInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DbReadonlyInstance to import
-  * @param importFromId The id of the existing DbReadonlyInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/db_readonly_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DbReadonlyInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/db_readonly_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DbReadonlyInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -412,7 +412,7 @@ export class DbReadonlyInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/db_readonly_instance alibabacloudstack_db_readonly_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/db_readonly_instance alibabacloudstack_db_readonly_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -423,7 +423,8 @@ export class DbReadonlyInstance extends cdktf.TerraformResource {
       terraformResourceType: 'alibabacloudstack_db_readonly_instance',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.19'
+        providerVersion: '3.16.21',
+        providerVersionConstraint: '3.16.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

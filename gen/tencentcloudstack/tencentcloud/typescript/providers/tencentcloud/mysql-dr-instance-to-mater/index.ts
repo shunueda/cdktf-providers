@@ -62,7 +62,8 @@ export class MysqlDrInstanceToMater extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_mysql_dr_instance_to_mater',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

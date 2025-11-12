@@ -62,7 +62,8 @@ export class FeatureOspfv3 extends cdktf.TerraformResource {
       terraformResourceType: 'nxos_feature_ospfv3',
       terraformGeneratorMetadata: {
         providerName: 'nxos',
-        providerVersion: '0.5.10'
+        providerVersion: '0.5.10',
+        providerVersionConstraint: '0.5.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

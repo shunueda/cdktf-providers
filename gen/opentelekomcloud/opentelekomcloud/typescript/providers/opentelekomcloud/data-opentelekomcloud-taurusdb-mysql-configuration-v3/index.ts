@@ -60,7 +60,8 @@ export class DataOpentelekomcloudTaurusdbMysqlConfigurationV3 extends cdktf.Terr
       terraformResourceType: 'opentelekomcloud_taurusdb_mysql_configuration_v3',
       terraformGeneratorMetadata: {
         providerName: 'opentelekomcloud',
-        providerVersion: '1.36.52'
+        providerVersion: '1.36.52',
+        providerVersionConstraint: '1.36.52'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

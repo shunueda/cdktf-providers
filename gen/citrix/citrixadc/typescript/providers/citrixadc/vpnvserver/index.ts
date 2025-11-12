@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnvserver
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,184 +8,200 @@ import * as cdktf from 'cdktf';
 
 export interface VpnvserverConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnvserver#advancedepa Vpnvserver#advancedepa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver#accessrestrictedpageredirect Vpnvserver#accessrestrictedpageredirect}
+  */
+  readonly accessrestrictedpageredirect?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver#advancedepa Vpnvserver#advancedepa}
   */
   readonly advancedepa?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnvserver#appflowlog Vpnvserver#appflowlog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver#appflowlog Vpnvserver#appflowlog}
   */
   readonly appflowlog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnvserver#authentication Vpnvserver#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver#authentication Vpnvserver#authentication}
   */
   readonly authentication?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnvserver#authnprofile Vpnvserver#authnprofile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver#authnprofile Vpnvserver#authnprofile}
   */
   readonly authnprofile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnvserver#certkeynames Vpnvserver#certkeynames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver#certkeynames Vpnvserver#certkeynames}
   */
   readonly certkeynames?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnvserver#cginfrahomepageredirect Vpnvserver#cginfrahomepageredirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver#cginfrahomepageredirect Vpnvserver#cginfrahomepageredirect}
   */
   readonly cginfrahomepageredirect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnvserver#comment Vpnvserver#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver#comment Vpnvserver#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnvserver#deploymenttype Vpnvserver#deploymenttype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver#deploymenttype Vpnvserver#deploymenttype}
   */
   readonly deploymenttype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnvserver#devicecert Vpnvserver#devicecert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver#devicecert Vpnvserver#devicecert}
   */
   readonly devicecert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnvserver#doublehop Vpnvserver#doublehop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver#deviceposture Vpnvserver#deviceposture}
+  */
+  readonly deviceposture?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver#doublehop Vpnvserver#doublehop}
   */
   readonly doublehop?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnvserver#downstateflush Vpnvserver#downstateflush}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver#downstateflush Vpnvserver#downstateflush}
   */
   readonly downstateflush?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnvserver#dtls Vpnvserver#dtls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver#dtls Vpnvserver#dtls}
   */
   readonly dtls?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnvserver#failedlogintimeout Vpnvserver#failedlogintimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver#failedlogintimeout Vpnvserver#failedlogintimeout}
   */
   readonly failedlogintimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnvserver#httpprofilename Vpnvserver#httpprofilename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver#httpprofilename Vpnvserver#httpprofilename}
   */
   readonly httpprofilename?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnvserver#icaonly Vpnvserver#icaonly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver#icaonly Vpnvserver#icaonly}
   */
   readonly icaonly?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnvserver#icaproxysessionmigration Vpnvserver#icaproxysessionmigration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver#icaproxysessionmigration Vpnvserver#icaproxysessionmigration}
   */
   readonly icaproxysessionmigration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnvserver#icmpvsrresponse Vpnvserver#icmpvsrresponse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver#icmpvsrresponse Vpnvserver#icmpvsrresponse}
   */
   readonly icmpvsrresponse?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnvserver#id Vpnvserver#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver#id Vpnvserver#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnvserver#ipset Vpnvserver#ipset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver#ipset Vpnvserver#ipset}
   */
   readonly ipset?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnvserver#ipv46 Vpnvserver#ipv46}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver#ipv46 Vpnvserver#ipv46}
   */
   readonly ipv46?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnvserver#l2conn Vpnvserver#l2conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver#l2conn Vpnvserver#l2conn}
   */
   readonly l2Conn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnvserver#linuxepapluginupgrade Vpnvserver#linuxepapluginupgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver#linuxepapluginupgrade Vpnvserver#linuxepapluginupgrade}
   */
   readonly linuxepapluginupgrade?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnvserver#listenpolicy Vpnvserver#listenpolicy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver#listenpolicy Vpnvserver#listenpolicy}
   */
   readonly listenpolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnvserver#listenpriority Vpnvserver#listenpriority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver#listenpriority Vpnvserver#listenpriority}
   */
   readonly listenpriority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnvserver#loginonce Vpnvserver#loginonce}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver#loginonce Vpnvserver#loginonce}
   */
   readonly loginonce?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnvserver#logoutonsmartcardremoval Vpnvserver#logoutonsmartcardremoval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver#logoutonsmartcardremoval Vpnvserver#logoutonsmartcardremoval}
   */
   readonly logoutonsmartcardremoval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnvserver#macepapluginupgrade Vpnvserver#macepapluginupgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver#macepapluginupgrade Vpnvserver#macepapluginupgrade}
   */
   readonly macepapluginupgrade?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnvserver#maxaaausers Vpnvserver#maxaaausers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver#maxaaausers Vpnvserver#maxaaausers}
   */
   readonly maxaaausers?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnvserver#maxloginattempts Vpnvserver#maxloginattempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver#maxloginattempts Vpnvserver#maxloginattempts}
   */
   readonly maxloginattempts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnvserver#name Vpnvserver#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver#name Vpnvserver#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnvserver#netprofile Vpnvserver#netprofile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver#netprofile Vpnvserver#netprofile}
   */
   readonly netprofile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnvserver#pcoipvserverprofilename Vpnvserver#pcoipvserverprofilename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver#pcoipvserverprofilename Vpnvserver#pcoipvserverprofilename}
   */
   readonly pcoipvserverprofilename?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnvserver#port Vpnvserver#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver#port Vpnvserver#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnvserver#range Vpnvserver#range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver#quicprofilename Vpnvserver#quicprofilename}
+  */
+  readonly quicprofilename?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver#range Vpnvserver#range}
   */
   readonly range?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnvserver#rdpserverprofilename Vpnvserver#rdpserverprofilename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver#rdpserverprofilename Vpnvserver#rdpserverprofilename}
   */
   readonly rdpserverprofilename?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnvserver#rhistate Vpnvserver#rhistate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver#rhistate Vpnvserver#rhistate}
   */
   readonly rhistate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnvserver#samesite Vpnvserver#samesite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver#samesite Vpnvserver#samesite}
   */
   readonly samesite?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnvserver#servicetype Vpnvserver#servicetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver#secureprivateaccess Vpnvserver#secureprivateaccess}
+  */
+  readonly secureprivateaccess?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver#servicetype Vpnvserver#servicetype}
   */
   readonly servicetype: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnvserver#state Vpnvserver#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver#state Vpnvserver#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnvserver#tcpprofilename Vpnvserver#tcpprofilename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver#tcpprofilename Vpnvserver#tcpprofilename}
   */
   readonly tcpprofilename?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnvserver#userdomains Vpnvserver#userdomains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver#userdomains Vpnvserver#userdomains}
   */
   readonly userdomains?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnvserver#vserverfqdn Vpnvserver#vserverfqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver#vserverfqdn Vpnvserver#vserverfqdn}
   */
   readonly vserverfqdn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnvserver#windowsepapluginupgrade Vpnvserver#windowsepapluginupgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver#windowsepapluginupgrade Vpnvserver#windowsepapluginupgrade}
   */
   readonly windowsepapluginupgrade?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnvserver citrixadc_vpnvserver}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver citrixadc_vpnvserver}
 */
 export class Vpnvserver extends cdktf.TerraformResource {
 
@@ -201,7 +217,7 @@ export class Vpnvserver extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Vpnvserver resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Vpnvserver to import
-  * @param importFromId The id of the existing Vpnvserver that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnvserver#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Vpnvserver that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Vpnvserver to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -213,7 +229,7 @@ export class Vpnvserver extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnvserver citrixadc_vpnvserver} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver citrixadc_vpnvserver} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -224,7 +240,8 @@ export class Vpnvserver extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_vpnvserver',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -234,6 +251,7 @@ export class Vpnvserver extends cdktf.TerraformResource {
       connection: config.connection,
       forEach: config.forEach
     });
+    this._accessrestrictedpageredirect = config.accessrestrictedpageredirect;
     this._advancedepa = config.advancedepa;
     this._appflowlog = config.appflowlog;
     this._authentication = config.authentication;
@@ -243,6 +261,7 @@ export class Vpnvserver extends cdktf.TerraformResource {
     this._comment = config.comment;
     this._deploymenttype = config.deploymenttype;
     this._devicecert = config.devicecert;
+    this._deviceposture = config.deviceposture;
     this._doublehop = config.doublehop;
     this._downstateflush = config.downstateflush;
     this._dtls = config.dtls;
@@ -267,10 +286,12 @@ export class Vpnvserver extends cdktf.TerraformResource {
     this._netprofile = config.netprofile;
     this._pcoipvserverprofilename = config.pcoipvserverprofilename;
     this._port = config.port;
+    this._quicprofilename = config.quicprofilename;
     this._range = config.range;
     this._rdpserverprofilename = config.rdpserverprofilename;
     this._rhistate = config.rhistate;
     this._samesite = config.samesite;
+    this._secureprivateaccess = config.secureprivateaccess;
     this._servicetype = config.servicetype;
     this._state = config.state;
     this._tcpprofilename = config.tcpprofilename;
@@ -282,6 +303,22 @@ export class Vpnvserver extends cdktf.TerraformResource {
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // accessrestrictedpageredirect - computed: true, optional: true, required: false
+  private _accessrestrictedpageredirect?: string; 
+  public get accessrestrictedpageredirect() {
+    return this.getStringAttribute('accessrestrictedpageredirect');
+  }
+  public set accessrestrictedpageredirect(value: string) {
+    this._accessrestrictedpageredirect = value;
+  }
+  public resetAccessrestrictedpageredirect() {
+    this._accessrestrictedpageredirect = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get accessrestrictedpageredirectInput() {
+    return this._accessrestrictedpageredirect;
+  }
 
   // advancedepa - computed: true, optional: true, required: false
   private _advancedepa?: string; 
@@ -425,6 +462,22 @@ export class Vpnvserver extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get devicecertInput() {
     return this._devicecert;
+  }
+
+  // deviceposture - computed: true, optional: true, required: false
+  private _deviceposture?: string; 
+  public get deviceposture() {
+    return this.getStringAttribute('deviceposture');
+  }
+  public set deviceposture(value: string) {
+    this._deviceposture = value;
+  }
+  public resetDeviceposture() {
+    this._deviceposture = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get devicepostureInput() {
+    return this._deviceposture;
   }
 
   // doublehop - computed: true, optional: true, required: false
@@ -808,6 +861,22 @@ export class Vpnvserver extends cdktf.TerraformResource {
     return this._port;
   }
 
+  // quicprofilename - computed: true, optional: true, required: false
+  private _quicprofilename?: string; 
+  public get quicprofilename() {
+    return this.getStringAttribute('quicprofilename');
+  }
+  public set quicprofilename(value: string) {
+    this._quicprofilename = value;
+  }
+  public resetQuicprofilename() {
+    this._quicprofilename = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get quicprofilenameInput() {
+    return this._quicprofilename;
+  }
+
   // range - computed: true, optional: true, required: false
   private _range?: number; 
   public get range() {
@@ -870,6 +939,22 @@ export class Vpnvserver extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get samesiteInput() {
     return this._samesite;
+  }
+
+  // secureprivateaccess - computed: true, optional: true, required: false
+  private _secureprivateaccess?: string; 
+  public get secureprivateaccess() {
+    return this.getStringAttribute('secureprivateaccess');
+  }
+  public set secureprivateaccess(value: string) {
+    this._secureprivateaccess = value;
+  }
+  public resetSecureprivateaccess() {
+    this._secureprivateaccess = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secureprivateaccessInput() {
+    return this._secureprivateaccess;
   }
 
   // servicetype - computed: false, optional: false, required: true
@@ -971,6 +1056,7 @@ export class Vpnvserver extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      accessrestrictedpageredirect: cdktf.stringToTerraform(this._accessrestrictedpageredirect),
       advancedepa: cdktf.stringToTerraform(this._advancedepa),
       appflowlog: cdktf.stringToTerraform(this._appflowlog),
       authentication: cdktf.stringToTerraform(this._authentication),
@@ -980,6 +1066,7 @@ export class Vpnvserver extends cdktf.TerraformResource {
       comment: cdktf.stringToTerraform(this._comment),
       deploymenttype: cdktf.stringToTerraform(this._deploymenttype),
       devicecert: cdktf.stringToTerraform(this._devicecert),
+      deviceposture: cdktf.stringToTerraform(this._deviceposture),
       doublehop: cdktf.stringToTerraform(this._doublehop),
       downstateflush: cdktf.stringToTerraform(this._downstateflush),
       dtls: cdktf.stringToTerraform(this._dtls),
@@ -1004,10 +1091,12 @@ export class Vpnvserver extends cdktf.TerraformResource {
       netprofile: cdktf.stringToTerraform(this._netprofile),
       pcoipvserverprofilename: cdktf.stringToTerraform(this._pcoipvserverprofilename),
       port: cdktf.numberToTerraform(this._port),
+      quicprofilename: cdktf.stringToTerraform(this._quicprofilename),
       range: cdktf.numberToTerraform(this._range),
       rdpserverprofilename: cdktf.stringToTerraform(this._rdpserverprofilename),
       rhistate: cdktf.stringToTerraform(this._rhistate),
       samesite: cdktf.stringToTerraform(this._samesite),
+      secureprivateaccess: cdktf.stringToTerraform(this._secureprivateaccess),
       servicetype: cdktf.stringToTerraform(this._servicetype),
       state: cdktf.stringToTerraform(this._state),
       tcpprofilename: cdktf.stringToTerraform(this._tcpprofilename),
@@ -1019,6 +1108,12 @@ export class Vpnvserver extends cdktf.TerraformResource {
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
+      accessrestrictedpageredirect: {
+        value: cdktf.stringToHclTerraform(this._accessrestrictedpageredirect),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       advancedepa: {
         value: cdktf.stringToHclTerraform(this._advancedepa),
         isBlock: false,
@@ -1069,6 +1164,12 @@ export class Vpnvserver extends cdktf.TerraformResource {
       },
       devicecert: {
         value: cdktf.stringToHclTerraform(this._devicecert),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      deviceposture: {
+        value: cdktf.stringToHclTerraform(this._deviceposture),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
@@ -1217,6 +1318,12 @@ export class Vpnvserver extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "number",
       },
+      quicprofilename: {
+        value: cdktf.stringToHclTerraform(this._quicprofilename),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       range: {
         value: cdktf.numberToHclTerraform(this._range),
         isBlock: false,
@@ -1237,6 +1344,12 @@ export class Vpnvserver extends cdktf.TerraformResource {
       },
       samesite: {
         value: cdktf.stringToHclTerraform(this._samesite),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      secureprivateaccess: {
+        value: cdktf.stringToHclTerraform(this._secureprivateaccess),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

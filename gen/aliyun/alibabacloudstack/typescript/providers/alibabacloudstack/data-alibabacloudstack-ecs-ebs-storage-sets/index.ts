@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/ecs_ebs_storage_sets
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/ecs_ebs_storage_sets
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,30 +8,26 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlibabacloudstackEcsEbsStorageSetsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/ecs_ebs_storage_sets#id DataAlibabacloudstackEcsEbsStorageSets#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/ecs_ebs_storage_sets#id DataAlibabacloudstackEcsEbsStorageSets#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/ecs_ebs_storage_sets#maxpartition_number DataAlibabacloudstackEcsEbsStorageSets#maxpartition_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/ecs_ebs_storage_sets#maxpartition_number DataAlibabacloudstackEcsEbsStorageSets#maxpartition_number}
   */
   readonly maxpartitionNumber?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/ecs_ebs_storage_sets#output_file DataAlibabacloudstackEcsEbsStorageSets#output_file}
-  */
-  readonly outputFile?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/ecs_ebs_storage_sets#storage_set_id DataAlibabacloudstackEcsEbsStorageSets#storage_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/ecs_ebs_storage_sets#storage_set_id DataAlibabacloudstackEcsEbsStorageSets#storage_set_id}
   */
   readonly storageSetId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/ecs_ebs_storage_sets#storage_set_name DataAlibabacloudstackEcsEbsStorageSets#storage_set_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/ecs_ebs_storage_sets#storage_set_name DataAlibabacloudstackEcsEbsStorageSets#storage_set_name}
   */
   readonly storageSetName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/ecs_ebs_storage_sets#zone_id DataAlibabacloudstackEcsEbsStorageSets#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/ecs_ebs_storage_sets#zone_id DataAlibabacloudstackEcsEbsStorageSets#zone_id}
   */
   readonly zoneId?: string;
 }
@@ -122,7 +118,7 @@ export class DataAlibabacloudstackEcsEbsStorageSetsStoragesList extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/ecs_ebs_storage_sets alibabacloudstack_ecs_ebs_storage_sets}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/ecs_ebs_storage_sets alibabacloudstack_ecs_ebs_storage_sets}
 */
 export class DataAlibabacloudstackEcsEbsStorageSets extends cdktf.TerraformDataSource {
 
@@ -138,7 +134,7 @@ export class DataAlibabacloudstackEcsEbsStorageSets extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataAlibabacloudstackEcsEbsStorageSets resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlibabacloudstackEcsEbsStorageSets to import
-  * @param importFromId The id of the existing DataAlibabacloudstackEcsEbsStorageSets that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/ecs_ebs_storage_sets#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlibabacloudstackEcsEbsStorageSets that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/ecs_ebs_storage_sets#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlibabacloudstackEcsEbsStorageSets to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -150,7 +146,7 @@ export class DataAlibabacloudstackEcsEbsStorageSets extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/ecs_ebs_storage_sets alibabacloudstack_ecs_ebs_storage_sets} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/ecs_ebs_storage_sets alibabacloudstack_ecs_ebs_storage_sets} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -161,7 +157,8 @@ export class DataAlibabacloudstackEcsEbsStorageSets extends cdktf.TerraformDataS
       terraformResourceType: 'alibabacloudstack_ecs_ebs_storage_sets',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.19'
+        providerVersion: '3.16.21',
+        providerVersionConstraint: '3.16.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -173,7 +170,6 @@ export class DataAlibabacloudstackEcsEbsStorageSets extends cdktf.TerraformDataS
     });
     this._id = config.id;
     this._maxpartitionNumber = config.maxpartitionNumber;
-    this._outputFile = config.outputFile;
     this._storageSetId = config.storageSetId;
     this._storageSetName = config.storageSetName;
     this._zoneId = config.zoneId;
@@ -223,22 +219,6 @@ export class DataAlibabacloudstackEcsEbsStorageSets extends cdktf.TerraformDataS
   // names - computed: true, optional: false, required: false
   public get names() {
     return this.getListAttribute('names');
-  }
-
-  // output_file - computed: false, optional: true, required: false
-  private _outputFile?: string; 
-  public get outputFile() {
-    return this.getStringAttribute('output_file');
-  }
-  public set outputFile(value: string) {
-    this._outputFile = value;
-  }
-  public resetOutputFile() {
-    this._outputFile = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get outputFileInput() {
-    return this._outputFile;
   }
 
   // storage_set_id - computed: false, optional: true, required: false
@@ -303,7 +283,6 @@ export class DataAlibabacloudstackEcsEbsStorageSets extends cdktf.TerraformDataS
     return {
       id: cdktf.stringToTerraform(this._id),
       maxpartition_number: cdktf.stringToTerraform(this._maxpartitionNumber),
-      output_file: cdktf.stringToTerraform(this._outputFile),
       storage_set_id: cdktf.stringToTerraform(this._storageSetId),
       storage_set_name: cdktf.stringToTerraform(this._storageSetName),
       zone_id: cdktf.stringToTerraform(this._zoneId),
@@ -320,12 +299,6 @@ export class DataAlibabacloudstackEcsEbsStorageSets extends cdktf.TerraformDataS
       },
       maxpartition_number: {
         value: cdktf.stringToHclTerraform(this._maxpartitionNumber),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
-      output_file: {
-        value: cdktf.stringToHclTerraform(this._outputFile),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

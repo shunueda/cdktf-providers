@@ -68,7 +68,8 @@ export class ObjectstorageCredential extends cdktf.TerraformResource {
       terraformResourceType: 'glesys_objectstorage_credential',
       terraformGeneratorMetadata: {
         providerName: 'glesys',
-        providerVersion: '0.15.0'
+        providerVersion: '0.15.0',
+        providerVersionConstraint: '0.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

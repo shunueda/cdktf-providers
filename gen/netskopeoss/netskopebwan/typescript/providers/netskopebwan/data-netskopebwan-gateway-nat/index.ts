@@ -88,7 +88,8 @@ export class DataNetskopebwanGatewayNat extends cdktf.TerraformDataSource {
       terraformResourceType: 'netskopebwan_gateway_nat',
       terraformGeneratorMetadata: {
         providerName: 'netskopebwan',
-        providerVersion: '0.0.2'
+        providerVersion: '0.0.2',
+        providerVersionConstraint: '0.0.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

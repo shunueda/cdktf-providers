@@ -64,7 +64,8 @@ export class DataOpentelekomcloudIdentityAgencyV3 extends cdktf.TerraformDataSou
       terraformResourceType: 'opentelekomcloud_identity_agency_v3',
       terraformGeneratorMetadata: {
         providerName: 'opentelekomcloud',
-        providerVersion: '1.36.52'
+        providerVersion: '1.36.52',
+        providerVersionConstraint: '1.36.52'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

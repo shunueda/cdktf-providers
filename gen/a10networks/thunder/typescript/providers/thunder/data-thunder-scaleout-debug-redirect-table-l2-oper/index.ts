@@ -594,7 +594,8 @@ export class DataThunderScaleoutDebugRedirectTableL2Oper extends cdktf.Terraform
       terraformResourceType: 'thunder_scaleout_debug_redirect_table_l2_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

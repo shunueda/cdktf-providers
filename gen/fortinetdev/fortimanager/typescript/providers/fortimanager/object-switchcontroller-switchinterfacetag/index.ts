@@ -68,7 +68,8 @@ export class ObjectSwitchcontrollerSwitchinterfacetag extends cdktf.TerraformRes
       terraformResourceType: 'fortimanager_object_switchcontroller_switchinterfacetag',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0'
+        providerVersion: '1.14.0',
+        providerVersionConstraint: '1.14.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

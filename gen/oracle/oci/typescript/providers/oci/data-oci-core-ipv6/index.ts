@@ -53,7 +53,8 @@ export class DataOciCoreIpv6 extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_core_ipv6',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

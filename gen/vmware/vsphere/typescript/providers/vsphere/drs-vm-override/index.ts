@@ -80,7 +80,8 @@ export class DrsVmOverride extends cdktf.TerraformResource {
       terraformResourceType: 'vsphere_drs_vm_override',
       terraformGeneratorMetadata: {
         providerName: 'vsphere',
-        providerVersion: '2.15.0'
+        providerVersion: '2.15.0',
+        providerVersionConstraint: '2.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

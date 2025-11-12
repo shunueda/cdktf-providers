@@ -67,7 +67,8 @@ export class NirmataProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'nirmata',
       terraformGeneratorMetadata: {
         providerName: 'nirmata',
-        providerVersion: '1.1.13'
+        providerVersion: '1.1.13',
+        providerVersionConstraint: '1.1.13'
       },
       terraformProviderSource: 'nirmata/nirmata'
     });

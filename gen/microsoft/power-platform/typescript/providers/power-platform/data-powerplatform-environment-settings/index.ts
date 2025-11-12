@@ -1849,7 +1849,8 @@ export class DataPowerplatformEnvironmentSettings extends cdktf.TerraformDataSou
       terraformResourceType: 'powerplatform_environment_settings',
       terraformGeneratorMetadata: {
         providerName: 'power-platform',
-        providerVersion: '3.9.1'
+        providerVersion: '3.9.1',
+        providerVersionConstraint: '3.9.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -168,7 +168,8 @@ export class DatabaseMysqlConfig extends cdktf.TerraformResource {
       terraformResourceType: 'digitalocean_database_mysql_config',
       terraformGeneratorMetadata: {
         providerName: 'digitalocean',
-        providerVersion: '2.68.0'
+        providerVersion: '2.68.0',
+        providerVersionConstraint: '2.68.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

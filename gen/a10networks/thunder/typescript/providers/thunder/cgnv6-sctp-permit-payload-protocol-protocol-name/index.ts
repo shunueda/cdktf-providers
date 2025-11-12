@@ -68,7 +68,8 @@ export class Cgnv6SctpPermitPayloadProtocolProtocolName extends cdktf.TerraformR
       terraformResourceType: 'thunder_cgnv6_sctp_permit_payload_protocol_protocol_name',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/backupconfiguration
+// https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/backupconfiguration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,98 +8,94 @@ import * as cdktf from 'cdktf';
 
 export interface BackupconfigurationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/backupconfiguration#aws_access_key Backupconfiguration#aws_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/backupconfiguration#aws_access_key Backupconfiguration#aws_access_key}
   */
   readonly awsAccessKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/backupconfiguration#aws_bucket_id Backupconfiguration#aws_bucket_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/backupconfiguration#aws_bucket_id Backupconfiguration#aws_bucket_id}
   */
   readonly awsBucketId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/backupconfiguration#aws_bucket_region Backupconfiguration#aws_bucket_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/backupconfiguration#aws_bucket_region Backupconfiguration#aws_bucket_region}
   */
   readonly awsBucketRegion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/backupconfiguration#aws_secret_access Backupconfiguration#aws_secret_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/backupconfiguration#aws_secret_access Backupconfiguration#aws_secret_access}
   */
   readonly awsSecretAccess?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/backupconfiguration#backup_file_prefix Backupconfiguration#backup_file_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/backupconfiguration#backup_file_prefix Backupconfiguration#backup_file_prefix}
   */
   readonly backupFilePrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/backupconfiguration#backup_passphrase Backupconfiguration#backup_passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/backupconfiguration#backup_passphrase Backupconfiguration#backup_passphrase}
   */
   readonly backupPassphrase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/backupconfiguration#bundle_mode Backupconfiguration#bundle_mode}
-  */
-  readonly bundleMode?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/backupconfiguration#id Backupconfiguration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/backupconfiguration#id Backupconfiguration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/backupconfiguration#maximum_backups_stored Backupconfiguration#maximum_backups_stored}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/backupconfiguration#maximum_backups_stored Backupconfiguration#maximum_backups_stored}
   */
   readonly maximumBackupsStored?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/backupconfiguration#name Backupconfiguration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/backupconfiguration#name Backupconfiguration#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/backupconfiguration#remote_directory Backupconfiguration#remote_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/backupconfiguration#remote_directory Backupconfiguration#remote_directory}
   */
   readonly remoteDirectory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/backupconfiguration#remote_file_transfer_protocol Backupconfiguration#remote_file_transfer_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/backupconfiguration#remote_file_transfer_protocol Backupconfiguration#remote_file_transfer_protocol}
   */
   readonly remoteFileTransferProtocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/backupconfiguration#remote_hostname Backupconfiguration#remote_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/backupconfiguration#remote_hostname Backupconfiguration#remote_hostname}
   */
   readonly remoteHostname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/backupconfiguration#s3_bucket_folder Backupconfiguration#s3_bucket_folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/backupconfiguration#s3_bucket_folder Backupconfiguration#s3_bucket_folder}
   */
   readonly s3BucketFolder?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/backupconfiguration#save_local Backupconfiguration#save_local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/backupconfiguration#save_local Backupconfiguration#save_local}
   */
   readonly saveLocal?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/backupconfiguration#ssh_user_ref Backupconfiguration#ssh_user_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/backupconfiguration#ssh_user_ref Backupconfiguration#ssh_user_ref}
   */
   readonly sshUserRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/backupconfiguration#tenant_ref Backupconfiguration#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/backupconfiguration#tenant_ref Backupconfiguration#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/backupconfiguration#upload_to_remote_host Backupconfiguration#upload_to_remote_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/backupconfiguration#upload_to_remote_host Backupconfiguration#upload_to_remote_host}
   */
   readonly uploadToRemoteHost?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/backupconfiguration#upload_to_s3 Backupconfiguration#upload_to_s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/backupconfiguration#upload_to_s3 Backupconfiguration#upload_to_s3}
   */
   readonly uploadToS3?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/backupconfiguration#uuid Backupconfiguration#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/backupconfiguration#uuid Backupconfiguration#uuid}
   */
   readonly uuid?: string;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/backupconfiguration#configpb_attributes Backupconfiguration#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/backupconfiguration#configpb_attributes Backupconfiguration#configpb_attributes}
   */
   readonly configpbAttributes?: BackupconfigurationConfigpbAttributes[] | cdktf.IResolvable;
 }
 export interface BackupconfigurationConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/backupconfiguration#version Backupconfiguration#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/backupconfiguration#version Backupconfiguration#version}
   */
   readonly version?: string;
 }
@@ -215,7 +211,7 @@ export class BackupconfigurationConfigpbAttributesList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/backupconfiguration avi_backupconfiguration}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/backupconfiguration avi_backupconfiguration}
 */
 export class Backupconfiguration extends cdktf.TerraformResource {
 
@@ -231,7 +227,7 @@ export class Backupconfiguration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Backupconfiguration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Backupconfiguration to import
-  * @param importFromId The id of the existing Backupconfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/backupconfiguration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Backupconfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/backupconfiguration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Backupconfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -243,7 +239,7 @@ export class Backupconfiguration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/backupconfiguration avi_backupconfiguration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/backupconfiguration avi_backupconfiguration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -254,7 +250,8 @@ export class Backupconfiguration extends cdktf.TerraformResource {
       terraformResourceType: 'avi_backupconfiguration',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '31.1.1'
+        providerVersion: '30.2.5',
+        providerVersionConstraint: '30.2.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -270,7 +267,6 @@ export class Backupconfiguration extends cdktf.TerraformResource {
     this._awsSecretAccess = config.awsSecretAccess;
     this._backupFilePrefix = config.backupFilePrefix;
     this._backupPassphrase = config.backupPassphrase;
-    this._bundleMode = config.bundleMode;
     this._id = config.id;
     this._maximumBackupsStored = config.maximumBackupsStored;
     this._name = config.name;
@@ -385,22 +381,6 @@ export class Backupconfiguration extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get backupPassphraseInput() {
     return this._backupPassphrase;
-  }
-
-  // bundle_mode - computed: false, optional: true, required: false
-  private _bundleMode?: string; 
-  public get bundleMode() {
-    return this.getStringAttribute('bundle_mode');
-  }
-  public set bundleMode(value: string) {
-    this._bundleMode = value;
-  }
-  public resetBundleMode() {
-    this._bundleMode = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get bundleModeInput() {
-    return this._bundleMode;
   }
 
   // id - computed: true, optional: true, required: false
@@ -636,7 +616,6 @@ export class Backupconfiguration extends cdktf.TerraformResource {
       aws_secret_access: cdktf.stringToTerraform(this._awsSecretAccess),
       backup_file_prefix: cdktf.stringToTerraform(this._backupFilePrefix),
       backup_passphrase: cdktf.stringToTerraform(this._backupPassphrase),
-      bundle_mode: cdktf.stringToTerraform(this._bundleMode),
       id: cdktf.stringToTerraform(this._id),
       maximum_backups_stored: cdktf.stringToTerraform(this._maximumBackupsStored),
       name: cdktf.stringToTerraform(this._name),
@@ -688,12 +667,6 @@ export class Backupconfiguration extends cdktf.TerraformResource {
       },
       backup_passphrase: {
         value: cdktf.stringToHclTerraform(this._backupPassphrase),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
-      bundle_mode: {
-        value: cdktf.stringToHclTerraform(this._bundleMode),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

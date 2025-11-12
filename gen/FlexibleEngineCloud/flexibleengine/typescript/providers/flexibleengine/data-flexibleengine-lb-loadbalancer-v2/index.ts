@@ -76,7 +76,8 @@ export class DataFlexibleengineLbLoadbalancerV2 extends cdktf.TerraformDataSourc
       terraformResourceType: 'flexibleengine_lb_loadbalancer_v2',
       terraformGeneratorMetadata: {
         providerName: 'flexibleengine',
-        providerVersion: '1.46.0'
+        providerVersion: '1.46.0',
+        providerVersionConstraint: '1.46.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

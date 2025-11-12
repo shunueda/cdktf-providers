@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/agent_profile
+// https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/agent_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface AgentProfileConfig extends cdktf.TerraformMetaArguments {
   /**
   * Apstra name of the Agent Profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/agent_profile#name AgentProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/agent_profile#name AgentProfile#name}
   */
   readonly name: string;
   /**
   * Passes configured parameters to offbox agents. For example, to use HTTPS as the API connection from offbox agents to devices, use the key-value pair: proto-https - port-443.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/agent_profile#open_options AgentProfile#open_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/agent_profile#open_options AgentProfile#open_options}
   */
   readonly openOptions?: { [key: string]: string };
   /**
   * List of [packages](https://www.juniper.net/documentation/us/en/software/apstra4.1/apstra-user-guide/topics/topic-map/packages.html) to be included with agents deployed using this profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/agent_profile#packages AgentProfile#packages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/agent_profile#packages AgentProfile#packages}
   */
   readonly packages?: { [key: string]: string };
   /**
   * Specifies the platform supported by the Agent Profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/agent_profile#platform AgentProfile#platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/agent_profile#platform AgentProfile#platform}
   */
   readonly platform?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/agent_profile apstra_agent_profile}
+* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/agent_profile apstra_agent_profile}
 */
 export class AgentProfile extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class AgentProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AgentProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AgentProfile to import
-  * @param importFromId The id of the existing AgentProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/agent_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AgentProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/agent_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AgentProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class AgentProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/agent_profile apstra_agent_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/agent_profile apstra_agent_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,7 +73,8 @@ export class AgentProfile extends cdktf.TerraformResource {
       terraformResourceType: 'apstra_agent_profile',
       terraformGeneratorMetadata: {
         providerName: 'apstra',
-        providerVersion: '0.95.0'
+        providerVersion: '0.95.1',
+        providerVersionConstraint: '0.95.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

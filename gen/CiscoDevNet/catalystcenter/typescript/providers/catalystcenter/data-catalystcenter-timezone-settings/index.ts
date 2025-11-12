@@ -55,7 +55,8 @@ export class DataCatalystcenterTimezoneSettings extends cdktf.TerraformDataSourc
       terraformResourceType: 'catalystcenter_timezone_settings',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.2'
+        providerVersion: '0.4.2',
+        providerVersionConstraint: '0.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

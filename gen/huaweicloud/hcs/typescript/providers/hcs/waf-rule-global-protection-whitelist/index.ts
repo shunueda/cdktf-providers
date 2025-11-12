@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/waf_rule_global_protection_whitelist
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_global_protection_whitelist
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface WafRuleGlobalProtectionWhitelistConfig extends cdktf.TerraformM
   /**
   * Specifies the advanced content.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/waf_rule_global_protection_whitelist#advanced_content WafRuleGlobalProtectionWhitelist#advanced_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_global_protection_whitelist#advanced_content WafRuleGlobalProtectionWhitelist#advanced_content}
   */
   readonly advancedContent?: string;
   /**
   * Specifies the advanced field. The following fields are supported:
   * **params**, **cookie**, **header**, **body** and **multipart**.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/waf_rule_global_protection_whitelist#advanced_field WafRuleGlobalProtectionWhitelist#advanced_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_global_protection_whitelist#advanced_field WafRuleGlobalProtectionWhitelist#advanced_field}
   */
   readonly advancedField?: string;
   /**
   * Specifies the description of WAF global protection whitelist rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/waf_rule_global_protection_whitelist#description WafRuleGlobalProtectionWhitelist#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_global_protection_whitelist#description WafRuleGlobalProtectionWhitelist#description}
   */
   readonly description?: string;
   /**
   * Specifies the protected domain name bound with the policy or manually enter a single
   * domain name corresponding to the wildcard domain name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/waf_rule_global_protection_whitelist#domains WafRuleGlobalProtectionWhitelist#domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_global_protection_whitelist#domains WafRuleGlobalProtectionWhitelist#domains}
   */
   readonly domains: string[];
   /**
   * Specifies the enterprise project ID of WAF global protection whitelist rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/waf_rule_global_protection_whitelist#enterprise_project_id WafRuleGlobalProtectionWhitelist#enterprise_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_global_protection_whitelist#enterprise_project_id WafRuleGlobalProtectionWhitelist#enterprise_project_id}
   */
   readonly enterpriseProjectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/waf_rule_global_protection_whitelist#id WafRuleGlobalProtectionWhitelist#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_global_protection_whitelist#id WafRuleGlobalProtectionWhitelist#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -49,29 +49,29 @@ export interface WafRuleGlobalProtectionWhitelistConfig extends cdktf.TerraformM
   /**
   * Specifies the ignore waf protection rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/waf_rule_global_protection_whitelist#ignore_waf_protection WafRuleGlobalProtectionWhitelist#ignore_waf_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_global_protection_whitelist#ignore_waf_protection WafRuleGlobalProtectionWhitelist#ignore_waf_protection}
   */
   readonly ignoreWafProtection: string;
   /**
   * Specifies the policy ID of WAF global protection whitelist rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/waf_rule_global_protection_whitelist#policy_id WafRuleGlobalProtectionWhitelist#policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_global_protection_whitelist#policy_id WafRuleGlobalProtectionWhitelist#policy_id}
   */
   readonly policyId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/waf_rule_global_protection_whitelist#region WafRuleGlobalProtectionWhitelist#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_global_protection_whitelist#region WafRuleGlobalProtectionWhitelist#region}
   */
   readonly region?: string;
   /**
   * Specifies the status of WAF global protection whitelist rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/waf_rule_global_protection_whitelist#status WafRuleGlobalProtectionWhitelist#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_global_protection_whitelist#status WafRuleGlobalProtectionWhitelist#status}
   */
   readonly status?: number;
   /**
   * conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/waf_rule_global_protection_whitelist#conditions WafRuleGlobalProtectionWhitelist#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_global_protection_whitelist#conditions WafRuleGlobalProtectionWhitelist#conditions}
   */
   readonly conditions: WafRuleGlobalProtectionWhitelistConditions[] | cdktf.IResolvable;
 }
@@ -79,26 +79,26 @@ export interface WafRuleGlobalProtectionWhitelistConditions {
   /**
   * Specifies the content of the match condition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/waf_rule_global_protection_whitelist#content WafRuleGlobalProtectionWhitelist#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_global_protection_whitelist#content WafRuleGlobalProtectionWhitelist#content}
   */
   readonly content: string;
   /**
   * Specifies the field type. The value can be **ip**, **url**, **params**, **cookie** 
   * or **header**.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/waf_rule_global_protection_whitelist#field WafRuleGlobalProtectionWhitelist#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_global_protection_whitelist#field WafRuleGlobalProtectionWhitelist#field}
   */
   readonly field: string;
   /**
   * Specifies the condition matching logic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/waf_rule_global_protection_whitelist#logic WafRuleGlobalProtectionWhitelist#logic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_global_protection_whitelist#logic WafRuleGlobalProtectionWhitelist#logic}
   */
   readonly logic: string;
   /**
   * Specifies the subfield of the condition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/waf_rule_global_protection_whitelist#subfield WafRuleGlobalProtectionWhitelist#subfield}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_global_protection_whitelist#subfield WafRuleGlobalProtectionWhitelist#subfield}
   */
   readonly subfield?: string;
 }
@@ -292,7 +292,7 @@ export class WafRuleGlobalProtectionWhitelistConditionsList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/waf_rule_global_protection_whitelist hcs_waf_rule_global_protection_whitelist}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_global_protection_whitelist hcs_waf_rule_global_protection_whitelist}
 */
 export class WafRuleGlobalProtectionWhitelist extends cdktf.TerraformResource {
 
@@ -308,7 +308,7 @@ export class WafRuleGlobalProtectionWhitelist extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WafRuleGlobalProtectionWhitelist resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WafRuleGlobalProtectionWhitelist to import
-  * @param importFromId The id of the existing WafRuleGlobalProtectionWhitelist that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/waf_rule_global_protection_whitelist#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WafRuleGlobalProtectionWhitelist that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_global_protection_whitelist#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WafRuleGlobalProtectionWhitelist to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -320,7 +320,7 @@ export class WafRuleGlobalProtectionWhitelist extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/waf_rule_global_protection_whitelist hcs_waf_rule_global_protection_whitelist} Resource
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_global_protection_whitelist hcs_waf_rule_global_protection_whitelist} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -331,7 +331,8 @@ export class WafRuleGlobalProtectionWhitelist extends cdktf.TerraformResource {
       terraformResourceType: 'hcs_waf_rule_global_protection_whitelist',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.19'
+        providerVersion: '2.4.20',
+        providerVersionConstraint: '2.4.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

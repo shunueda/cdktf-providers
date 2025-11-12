@@ -175,7 +175,8 @@ export class CloudngfwawsProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'cloudngfwaws',
       terraformGeneratorMetadata: {
         providerName: 'cloudngfwaws',
-        providerVersion: '3.0.4'
+        providerVersion: '3.0.4',
+        providerVersionConstraint: '3.0.4'
       },
       terraformProviderSource: 'PaloAltoNetworks/cloudngfwaws'
     });

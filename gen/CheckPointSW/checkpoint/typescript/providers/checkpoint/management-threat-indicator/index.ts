@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_indicator
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_indicator
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface ManagementThreatIndicatorConfig extends cdktf.TerraformMetaArgu
   /**
   * The indicator's action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_indicator#action ManagementThreatIndicator#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_indicator#action ManagementThreatIndicator#action}
   */
   readonly action?: string;
   /**
   * Color of the object. Should be one of existing colors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_indicator#color ManagementThreatIndicator#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_indicator#color ManagementThreatIndicator#color}
   */
   readonly color?: string;
   /**
   * Comments string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_indicator#comments ManagementThreatIndicator#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_indicator#comments ManagementThreatIndicator#comments}
   */
   readonly comments?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_indicator#id ManagementThreatIndicator#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_indicator#id ManagementThreatIndicator#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,37 +35,37 @@ export interface ManagementThreatIndicatorConfig extends cdktf.TerraformMetaArgu
   /**
   * Apply changes ignoring errors. You won't be able to publish such a changes. If ignore-warnings flag was omitted - warnings will also be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_indicator#ignore_errors ManagementThreatIndicator#ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_indicator#ignore_errors ManagementThreatIndicator#ignore_errors}
   */
   readonly ignoreErrors?: boolean | cdktf.IResolvable;
   /**
   * Apply changes ignoring warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_indicator#ignore_warnings ManagementThreatIndicator#ignore_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_indicator#ignore_warnings ManagementThreatIndicator#ignore_warnings}
   */
   readonly ignoreWarnings?: boolean | cdktf.IResolvable;
   /**
   * Object name. Should be unique in the domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_indicator#name ManagementThreatIndicator#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_indicator#name ManagementThreatIndicator#name}
   */
   readonly name: string;
   /**
   * Collection of tag identifiers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_indicator#tags ManagementThreatIndicator#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_indicator#tags ManagementThreatIndicator#tags}
   */
   readonly tags?: string[];
   /**
   * observables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_indicator#observables ManagementThreatIndicator#observables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_indicator#observables ManagementThreatIndicator#observables}
   */
   readonly observables?: ManagementThreatIndicatorObservables[] | cdktf.IResolvable;
   /**
   * profile_overrides block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_indicator#profile_overrides ManagementThreatIndicator#profile_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_indicator#profile_overrides ManagementThreatIndicator#profile_overrides}
   */
   readonly profileOverrides?: ManagementThreatIndicatorProfileOverrides[] | cdktf.IResolvable;
 }
@@ -73,91 +73,91 @@ export interface ManagementThreatIndicatorObservables {
   /**
   * The confidence level the indicator has that a real threat has been uncovered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_indicator#confidence ManagementThreatIndicator#confidence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_indicator#confidence ManagementThreatIndicator#confidence}
   */
   readonly confidence?: string;
   /**
   * The name of a domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_indicator#domain ManagementThreatIndicator#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_indicator#domain ManagementThreatIndicator#domain}
   */
   readonly domain?: string;
   /**
   * A valid IP-Address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_indicator#ip_address ManagementThreatIndicator#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_indicator#ip_address ManagementThreatIndicator#ip_address}
   */
   readonly ipAddress?: string;
   /**
   * A valid IP-Address, the beginning of the range. If you configure this parameter with a value, you must also configure the value of the 'ip-address-last' parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_indicator#ip_address_first ManagementThreatIndicator#ip_address_first}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_indicator#ip_address_first ManagementThreatIndicator#ip_address_first}
   */
   readonly ipAddressFirst?: string;
   /**
   * A valid IP-Address, the end of the range. If you configure this parameter with a value, you must also configure the value of the 'ip-address-first' parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_indicator#ip_address_last ManagementThreatIndicator#ip_address_last}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_indicator#ip_address_last ManagementThreatIndicator#ip_address_last}
   */
   readonly ipAddressLast?: string;
   /**
   * A valid E-Mail address, cc field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_indicator#mail_cc ManagementThreatIndicator#mail_cc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_indicator#mail_cc ManagementThreatIndicator#mail_cc}
   */
   readonly mailCc?: string;
   /**
   * A valid E-Mail address, sender field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_indicator#mail_from ManagementThreatIndicator#mail_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_indicator#mail_from ManagementThreatIndicator#mail_from}
   */
   readonly mailFrom?: string;
   /**
   * A valid E-Mail address, reply-to field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_indicator#mail_reply_to ManagementThreatIndicator#mail_reply_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_indicator#mail_reply_to ManagementThreatIndicator#mail_reply_to}
   */
   readonly mailReplyTo?: string;
   /**
   * Subject of E-Mail.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_indicator#mail_subject ManagementThreatIndicator#mail_subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_indicator#mail_subject ManagementThreatIndicator#mail_subject}
   */
   readonly mailSubject?: string;
   /**
   * A valid E-Mail address, recipient filed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_indicator#mail_to ManagementThreatIndicator#mail_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_indicator#mail_to ManagementThreatIndicator#mail_to}
   */
   readonly mailTo?: string;
   /**
   * A valid MD5 sequence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_indicator#md5 ManagementThreatIndicator#md5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_indicator#md5 ManagementThreatIndicator#md5}
   */
   readonly md5?: string;
   /**
   * Object name. Should be unique in the domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_indicator#name ManagementThreatIndicator#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_indicator#name ManagementThreatIndicator#name}
   */
   readonly name: string;
   /**
   * The software blade that processes the observable: AV - AntiVirus, AB - AntiBot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_indicator#product ManagementThreatIndicator#product}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_indicator#product ManagementThreatIndicator#product}
   */
   readonly product?: string;
   /**
   * The severity level of the threat.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_indicator#severity ManagementThreatIndicator#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_indicator#severity ManagementThreatIndicator#severity}
   */
   readonly severity?: string;
   /**
   * A valid URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_indicator#url ManagementThreatIndicator#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_indicator#url ManagementThreatIndicator#url}
   */
   readonly url?: string;
 }
@@ -678,13 +678,13 @@ export interface ManagementThreatIndicatorProfileOverrides {
   /**
   * The indicator's action in this profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_indicator#action ManagementThreatIndicator#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_indicator#action ManagementThreatIndicator#action}
   */
   readonly action?: string;
   /**
   * The profile in which to override the indicator's action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_indicator#profile ManagementThreatIndicator#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_indicator#profile ManagementThreatIndicator#profile}
   */
   readonly profile?: string;
 }
@@ -829,7 +829,7 @@ export class ManagementThreatIndicatorProfileOverridesList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_indicator checkpoint_management_threat_indicator}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_indicator checkpoint_management_threat_indicator}
 */
 export class ManagementThreatIndicator extends cdktf.TerraformResource {
 
@@ -845,7 +845,7 @@ export class ManagementThreatIndicator extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementThreatIndicator resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementThreatIndicator to import
-  * @param importFromId The id of the existing ManagementThreatIndicator that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_indicator#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementThreatIndicator that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_indicator#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementThreatIndicator to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -857,7 +857,7 @@ export class ManagementThreatIndicator extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_indicator checkpoint_management_threat_indicator} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_indicator checkpoint_management_threat_indicator} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -868,7 +868,8 @@ export class ManagementThreatIndicator extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_threat_indicator',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

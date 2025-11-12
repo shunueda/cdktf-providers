@@ -243,7 +243,8 @@ export class WorkflowTaskChangeSlackChannelPrivacy extends cdktf.TerraformResour
       terraformResourceType: 'rootly_workflow_task_change_slack_channel_privacy',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.7'
+        providerVersion: '4.3.7',
+        providerVersionConstraint: '4.3.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

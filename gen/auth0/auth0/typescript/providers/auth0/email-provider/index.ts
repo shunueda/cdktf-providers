@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/email_provider
+// https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/email_provider
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface EmailProviderConfig extends cdktf.TerraformMetaArguments {
   /**
   * Email address to use as the sender when no other "from" address is specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/email_provider#default_from_address EmailProvider#default_from_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/email_provider#default_from_address EmailProvider#default_from_address}
   */
   readonly defaultFromAddress: string;
   /**
   * Indicates whether the email provider is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/email_provider#enabled EmailProvider#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/email_provider#enabled EmailProvider#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/email_provider#id EmailProvider#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/email_provider#id EmailProvider#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface EmailProviderConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the email provider. Options include `azure_cs`, `custom`, `mailgun`, `mandrill`, `ms365`, `sendgrid`, `ses`, `smtp` and `sparkpost`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/email_provider#name EmailProvider#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/email_provider#name EmailProvider#name}
   */
   readonly name: string;
   /**
   * credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/email_provider#credentials EmailProvider#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/email_provider#credentials EmailProvider#credentials}
   */
   readonly credentials: EmailProviderCredentials;
   /**
   * settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/email_provider#settings EmailProvider#settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/email_provider#settings EmailProvider#settings}
   */
   readonly settings?: EmailProviderSettings;
 }
@@ -49,79 +49,79 @@ export interface EmailProviderCredentials {
   /**
   * AWS Access Key ID. Used only for AWS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/email_provider#access_key_id EmailProvider#access_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/email_provider#access_key_id EmailProvider#access_key_id}
   */
   readonly accessKeyId?: string;
   /**
   * API Key for your email service. Will always be encrypted in our database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/email_provider#api_key EmailProvider#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/email_provider#api_key EmailProvider#api_key}
   */
   readonly apiKey?: string;
   /**
   * Azure Communication Services Connection String.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/email_provider#azure_cs_connection_string EmailProvider#azure_cs_connection_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/email_provider#azure_cs_connection_string EmailProvider#azure_cs_connection_string}
   */
   readonly azureCsConnectionString?: string;
   /**
   * Domain name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/email_provider#domain EmailProvider#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/email_provider#domain EmailProvider#domain}
   */
   readonly domain?: string;
   /**
   * Microsoft 365 Client ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/email_provider#ms365_client_id EmailProvider#ms365_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/email_provider#ms365_client_id EmailProvider#ms365_client_id}
   */
   readonly ms365ClientId?: string;
   /**
   * Microsoft 365 Client Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/email_provider#ms365_client_secret EmailProvider#ms365_client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/email_provider#ms365_client_secret EmailProvider#ms365_client_secret}
   */
   readonly ms365ClientSecret?: string;
   /**
   * Microsoft 365 Tenant ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/email_provider#ms365_tenant_id EmailProvider#ms365_tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/email_provider#ms365_tenant_id EmailProvider#ms365_tenant_id}
   */
   readonly ms365TenantId?: string;
   /**
   * Default region. Used only for AWS, Mailgun, and SparkPost.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/email_provider#region EmailProvider#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/email_provider#region EmailProvider#region}
   */
   readonly region?: string;
   /**
   * AWS Secret Key. Will always be encrypted in our database. Used only for AWS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/email_provider#secret_access_key EmailProvider#secret_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/email_provider#secret_access_key EmailProvider#secret_access_key}
   */
   readonly secretAccessKey?: string;
   /**
   * Hostname or IP address of your SMTP server. Used only for SMTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/email_provider#smtp_host EmailProvider#smtp_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/email_provider#smtp_host EmailProvider#smtp_host}
   */
   readonly smtpHost?: string;
   /**
   * SMTP password. Used only for SMTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/email_provider#smtp_pass EmailProvider#smtp_pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/email_provider#smtp_pass EmailProvider#smtp_pass}
   */
   readonly smtpPass?: string;
   /**
   * Port used by your SMTP server. Please avoid using port 25 if possible because many providers have limitations on this port. Used only for SMTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/email_provider#smtp_port EmailProvider#smtp_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/email_provider#smtp_port EmailProvider#smtp_port}
   */
   readonly smtpPort?: number;
   /**
   * SMTP username. Used only for SMTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/email_provider#smtp_user EmailProvider#smtp_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/email_provider#smtp_user EmailProvider#smtp_user}
   */
   readonly smtpUser?: string;
 }
@@ -555,13 +555,13 @@ export interface EmailProviderSettingsHeaders {
   /**
   * Disable or enable the default View Content Link for sensitive emails.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/email_provider#x_mc_view_content_link EmailProvider#x_mc_view_content_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/email_provider#x_mc_view_content_link EmailProvider#x_mc_view_content_link}
   */
   readonly xMcViewContentLink?: string;
   /**
   * SES Configuration set to include when sending emails.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/email_provider#x_ses_configuration_set EmailProvider#x_ses_configuration_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/email_provider#x_ses_configuration_set EmailProvider#x_ses_configuration_set}
   */
   readonly xSesConfigurationSet?: string;
 }
@@ -676,13 +676,13 @@ export interface EmailProviderSettingsMessage {
   /**
   * Setting for the `ses` email provider. The name of the configuration set to apply to the sent emails.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/email_provider#configuration_set_name EmailProvider#configuration_set_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/email_provider#configuration_set_name EmailProvider#configuration_set_name}
   */
   readonly configurationSetName?: string;
   /**
   * Setting for the `mandrill` email provider. Set to `true` to see the content of individual emails sent to users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/email_provider#view_content_link EmailProvider#view_content_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/email_provider#view_content_link EmailProvider#view_content_link}
   */
   readonly viewContentLink?: boolean | cdktf.IResolvable;
 }
@@ -797,13 +797,13 @@ export interface EmailProviderSettings {
   /**
   * headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/email_provider#headers EmailProvider#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/email_provider#headers EmailProvider#headers}
   */
   readonly headers?: EmailProviderSettingsHeaders;
   /**
   * message block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/email_provider#message EmailProvider#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/email_provider#message EmailProvider#message}
   */
   readonly message?: EmailProviderSettingsMessage;
 }
@@ -916,7 +916,7 @@ export class EmailProviderSettingsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/email_provider auth0_email_provider}
+* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/email_provider auth0_email_provider}
 */
 export class EmailProvider extends cdktf.TerraformResource {
 
@@ -932,7 +932,7 @@ export class EmailProvider extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EmailProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EmailProvider to import
-  * @param importFromId The id of the existing EmailProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/email_provider#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EmailProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/email_provider#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EmailProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -944,7 +944,7 @@ export class EmailProvider extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/email_provider auth0_email_provider} Resource
+  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/email_provider auth0_email_provider} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -955,7 +955,8 @@ export class EmailProvider extends cdktf.TerraformResource {
       terraformResourceType: 'auth0_email_provider',
       terraformGeneratorMetadata: {
         providerName: 'auth0',
-        providerVersion: '1.33.0'
+        providerVersion: '1.34.0',
+        providerVersionConstraint: '1.34.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

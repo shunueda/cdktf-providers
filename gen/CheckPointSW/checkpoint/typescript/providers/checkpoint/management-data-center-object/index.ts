@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_center_object
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_center_object
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface ManagementDataCenterObjectConfig extends cdktf.TerraformMetaArg
   /**
   * Color of the object. Should be one of existing colors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_center_object#color ManagementDataCenterObject#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_center_object#color ManagementDataCenterObject#color}
   */
   readonly color?: string;
   /**
   * Comments string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_center_object#comments ManagementDataCenterObject#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_center_object#comments ManagementDataCenterObject#comments}
   */
   readonly comments?: string;
   /**
   * Name of the Data Center Server the object is in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_center_object#data_center_name ManagementDataCenterObject#data_center_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_center_object#data_center_name ManagementDataCenterObject#data_center_name}
   */
   readonly dataCenterName?: string;
   /**
   * Unique identifier of the Data Center Server the object is in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_center_object#data_center_uid ManagementDataCenterObject#data_center_uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_center_object#data_center_uid ManagementDataCenterObject#data_center_uid}
   */
   readonly dataCenterUid?: string;
   /**
   * Collection of group identifiers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_center_object#groups ManagementDataCenterObject#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_center_object#groups ManagementDataCenterObject#groups}
   */
   readonly groups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_center_object#id ManagementDataCenterObject#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_center_object#id ManagementDataCenterObject#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,43 +47,43 @@ export interface ManagementDataCenterObjectConfig extends cdktf.TerraformMetaArg
   /**
   * Apply changes ignoring errors. You won't be able to publish such a changes. If ignore-warnings flag was omitted - warnings will also be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_center_object#ignore_errors ManagementDataCenterObject#ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_center_object#ignore_errors ManagementDataCenterObject#ignore_errors}
   */
   readonly ignoreErrors?: boolean | cdktf.IResolvable;
   /**
   * Apply changes ignoring warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_center_object#ignore_warnings ManagementDataCenterObject#ignore_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_center_object#ignore_warnings ManagementDataCenterObject#ignore_warnings}
   */
   readonly ignoreWarnings?: boolean | cdktf.IResolvable;
   /**
   * Override default name on data-center.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_center_object#name ManagementDataCenterObject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_center_object#name ManagementDataCenterObject#name}
   */
   readonly name?: string;
   /**
   * Collection of tag identifiers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_center_object#tags ManagementDataCenterObject#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_center_object#tags ManagementDataCenterObject#tags}
   */
   readonly tags?: string[];
   /**
   * Unique identifier of the object in the Data Center Server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_center_object#uid_in_data_center ManagementDataCenterObject#uid_in_data_center}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_center_object#uid_in_data_center ManagementDataCenterObject#uid_in_data_center}
   */
   readonly uidInDataCenter?: string;
   /**
   * URI of the object in the Data Center Server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_center_object#uri ManagementDataCenterObject#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_center_object#uri ManagementDataCenterObject#uri}
   */
   readonly uri?: string;
   /**
   * When set to true, the provider will wait for object sync with the management server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_center_object#wait_for_object_sync ManagementDataCenterObject#wait_for_object_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_center_object#wait_for_object_sync ManagementDataCenterObject#wait_for_object_sync}
   */
   readonly waitForObjectSync?: boolean | cdktf.IResolvable;
 }
@@ -345,7 +345,7 @@ export class ManagementDataCenterObjectDataCenterList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_center_object checkpoint_management_data_center_object}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_center_object checkpoint_management_data_center_object}
 */
 export class ManagementDataCenterObject extends cdktf.TerraformResource {
 
@@ -361,7 +361,7 @@ export class ManagementDataCenterObject extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementDataCenterObject resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementDataCenterObject to import
-  * @param importFromId The id of the existing ManagementDataCenterObject that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_center_object#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementDataCenterObject that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_center_object#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementDataCenterObject to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -373,7 +373,7 @@ export class ManagementDataCenterObject extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_center_object checkpoint_management_data_center_object} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_center_object checkpoint_management_data_center_object} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -384,7 +384,8 @@ export class ManagementDataCenterObject extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_data_center_object',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

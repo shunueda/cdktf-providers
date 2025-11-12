@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_azure_data_center_server
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_azure_data_center_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,14 +11,14 @@ export interface ManagementAzureDataCenterServerConfig extends cdktf.TerraformMe
   * The Application ID of the Service Principal, in UUID format.
   * Required for authentication-method: service-principal-authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_azure_data_center_server#application_id ManagementAzureDataCenterServer#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_azure_data_center_server#application_id ManagementAzureDataCenterServer#application_id}
   */
   readonly applicationId?: string;
   /**
   * The key created for the Service Principal.
   * Required for authentication-method: service-principal-authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_azure_data_center_server#application_key ManagementAzureDataCenterServer#application_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_azure_data_center_server#application_key ManagementAzureDataCenterServer#application_key}
   */
   readonly applicationKey?: string;
   /**
@@ -27,36 +27,36 @@ export interface ManagementAzureDataCenterServerConfig extends cdktf.TerraformMe
   * service-principal-authentication
   * Uses the Service Principal to authenticate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_azure_data_center_server#authentication_method ManagementAzureDataCenterServer#authentication_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_azure_data_center_server#authentication_method ManagementAzureDataCenterServer#authentication_method}
   */
   readonly authenticationMethod: string;
   /**
   * Color of the object. Should be one of existing colors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_azure_data_center_server#color ManagementAzureDataCenterServer#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_azure_data_center_server#color ManagementAzureDataCenterServer#color}
   */
   readonly color?: string;
   /**
   * Comments string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_azure_data_center_server#comments ManagementAzureDataCenterServer#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_azure_data_center_server#comments ManagementAzureDataCenterServer#comments}
   */
   readonly comments?: string;
   /**
   * The Directory ID of the Azure AD, in UUID format.
   * Required for authentication-method: service-principal-authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_azure_data_center_server#directory_id ManagementAzureDataCenterServer#directory_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_azure_data_center_server#directory_id ManagementAzureDataCenterServer#directory_id}
   */
   readonly directoryId?: string;
   /**
   * Select the Azure Cloud Environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_azure_data_center_server#environment ManagementAzureDataCenterServer#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_azure_data_center_server#environment ManagementAzureDataCenterServer#environment}
   */
   readonly environment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_azure_data_center_server#id ManagementAzureDataCenterServer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_azure_data_center_server#id ManagementAzureDataCenterServer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,52 +65,52 @@ export interface ManagementAzureDataCenterServerConfig extends cdktf.TerraformMe
   /**
   * Apply changes ignoring errors. You won't be able to publish such a changes. If ignore-warnings flag was omitted - warnings will also be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_azure_data_center_server#ignore_errors ManagementAzureDataCenterServer#ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_azure_data_center_server#ignore_errors ManagementAzureDataCenterServer#ignore_errors}
   */
   readonly ignoreErrors?: boolean | cdktf.IResolvable;
   /**
   * Apply changes ignoring warnings. By Setting this parameter to 'true' test connection failure will be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_azure_data_center_server#ignore_warnings ManagementAzureDataCenterServer#ignore_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_azure_data_center_server#ignore_warnings ManagementAzureDataCenterServer#ignore_warnings}
   */
   readonly ignoreWarnings?: boolean | cdktf.IResolvable;
   /**
   * Object name. Must be unique in the domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_azure_data_center_server#name ManagementAzureDataCenterServer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_azure_data_center_server#name ManagementAzureDataCenterServer#name}
   */
   readonly name: string;
   /**
   * Password of the Azure account.
   * Required for authentication-method: user-authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_azure_data_center_server#password ManagementAzureDataCenterServer#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_azure_data_center_server#password ManagementAzureDataCenterServer#password}
   */
   readonly password?: string;
   /**
   * Password of the Azure account encoded in Base64.
   * Required for authentication-method: user-authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_azure_data_center_server#password_base64 ManagementAzureDataCenterServer#password_base64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_azure_data_center_server#password_base64 ManagementAzureDataCenterServer#password_base64}
   */
   readonly passwordBase64?: string;
   /**
   * Collection of tag identifiers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_azure_data_center_server#tags ManagementAzureDataCenterServer#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_azure_data_center_server#tags ManagementAzureDataCenterServer#tags}
   */
   readonly tags?: string[];
   /**
   * An Azure Active Directory user Format <username>@<domain>.
   * Required for authentication-method: user-authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_azure_data_center_server#username ManagementAzureDataCenterServer#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_azure_data_center_server#username ManagementAzureDataCenterServer#username}
   */
   readonly username?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_azure_data_center_server checkpoint_management_azure_data_center_server}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_azure_data_center_server checkpoint_management_azure_data_center_server}
 */
 export class ManagementAzureDataCenterServer extends cdktf.TerraformResource {
 
@@ -126,7 +126,7 @@ export class ManagementAzureDataCenterServer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementAzureDataCenterServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementAzureDataCenterServer to import
-  * @param importFromId The id of the existing ManagementAzureDataCenterServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_azure_data_center_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementAzureDataCenterServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_azure_data_center_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementAzureDataCenterServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -138,7 +138,7 @@ export class ManagementAzureDataCenterServer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_azure_data_center_server checkpoint_management_azure_data_center_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_azure_data_center_server checkpoint_management_azure_data_center_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -149,7 +149,8 @@ export class ManagementAzureDataCenterServer extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_azure_data_center_server',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

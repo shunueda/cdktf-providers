@@ -60,7 +60,8 @@ export class DataOciPsqlDbSystemPrimaryDbInstance extends cdktf.TerraformDataSou
       terraformResourceType: 'oci_psql_db_system_primary_db_instance',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

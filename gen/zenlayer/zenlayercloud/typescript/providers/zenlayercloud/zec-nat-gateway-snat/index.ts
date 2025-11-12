@@ -86,7 +86,8 @@ export class ZecNatGatewaySnat extends cdktf.TerraformResource {
       terraformResourceType: 'zenlayercloud_zec_nat_gateway_snat',
       terraformGeneratorMetadata: {
         providerName: 'zenlayercloud',
-        providerVersion: '0.2.8'
+        providerVersion: '0.2.8',
+        providerVersionConstraint: '0.2.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

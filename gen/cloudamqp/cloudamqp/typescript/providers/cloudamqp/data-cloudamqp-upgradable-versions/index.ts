@@ -62,7 +62,8 @@ export class DataCloudamqpUpgradableVersions extends cdktf.TerraformDataSource {
       terraformResourceType: 'cloudamqp_upgradable_versions',
       terraformGeneratorMetadata: {
         providerName: 'cloudamqp',
-        providerVersion: '1.38.1'
+        providerVersion: '1.38.1',
+        providerVersionConstraint: '1.38.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -708,7 +708,8 @@ export class RouterBgpNeighborgroup extends cdktf.TerraformResource {
       terraformResourceType: 'fmgdevice_router_bgp_neighborgroup',
       terraformGeneratorMetadata: {
         providerName: 'fmgdevice',
-        providerVersion: '1.2.1'
+        providerVersion: '1.2.1',
+        providerVersionConstraint: '1.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -250,7 +250,8 @@ export class DataFortiosFirewallInternetservicedefinition extends cdktf.Terrafor
       terraformResourceType: 'fortios_firewall_internetservicedefinition',
       terraformGeneratorMetadata: {
         providerName: 'fortios',
-        providerVersion: '1.23.0'
+        providerVersion: '1.23.0',
+        providerVersionConstraint: '1.23.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

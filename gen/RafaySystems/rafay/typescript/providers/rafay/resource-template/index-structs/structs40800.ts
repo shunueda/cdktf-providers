@@ -29,13 +29,13 @@ resourceTemplateSpecHooksProviderTerraformDeployApplyAfterDriverDataConfigContai
 ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterDriverDataConfigContainerOutputReference } from './structs40400'
 export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterDriverDataConfigFunctionKubeOptionsAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#match_labels ResourceTemplate#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#match_labels ResourceTemplate#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#match_expressions ResourceTemplate#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#match_expressions ResourceTemplate#match_expressions}
   */
   readonly matchExpressions?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterDriverDataConfigFunctionKubeOptionsAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -148,23 +148,23 @@ export class ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterDriverDat
 }
 export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterDriverDataConfigFunctionKubeOptionsAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#namespaces ResourceTemplate#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#namespaces ResourceTemplate#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#topology_key ResourceTemplate#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#topology_key ResourceTemplate#topology_key}
   */
   readonly topologyKey?: string;
   /**
   * label_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#label_selector ResourceTemplate#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#label_selector ResourceTemplate#label_selector}
   */
   readonly labelSelector?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterDriverDataConfigFunctionKubeOptionsAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * namespace_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#namespace_selector ResourceTemplate#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#namespace_selector ResourceTemplate#namespace_selector}
   */
   readonly namespaceSelector?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterDriverDataConfigFunctionKubeOptionsAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
 }
@@ -369,13 +369,13 @@ export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterDrive
   /**
   * preferred_during_scheduling_ignored_during_execution block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#preferred_during_scheduling_ignored_during_execution ResourceTemplate#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#preferred_during_scheduling_ignored_during_execution ResourceTemplate#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterDriverDataConfigFunctionKubeOptionsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * required_during_scheduling_ignored_during_execution block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#required_during_scheduling_ignored_during_execution ResourceTemplate#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#required_during_scheduling_ignored_during_execution ResourceTemplate#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterDriverDataConfigFunctionKubeOptionsAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -490,19 +490,19 @@ export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterDrive
   /**
   * node_affinity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#node_affinity ResourceTemplate#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#node_affinity ResourceTemplate#node_affinity}
   */
   readonly nodeAffinity?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterDriverDataConfigFunctionKubeOptionsAffinityNodeAffinity;
   /**
   * pod_affinity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#pod_affinity ResourceTemplate#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#pod_affinity ResourceTemplate#pod_affinity}
   */
   readonly podAffinity?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterDriverDataConfigFunctionKubeOptionsAffinityPodAffinity;
   /**
   * pod_anti_affinity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#pod_anti_affinity ResourceTemplate#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#pod_anti_affinity ResourceTemplate#pod_anti_affinity}
   */
   readonly podAntiAffinity?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterDriverDataConfigFunctionKubeOptionsAffinityPodAntiAffinity;
 }
@@ -644,7 +644,7 @@ export class ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterDriverDat
 }
 export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterDriverDataConfigFunctionKubeOptionsSecurityContextPrivileged {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#value ResourceTemplate#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#value ResourceTemplate#value}
   */
   readonly value?: boolean | cdktf.IResolvable;
 }
@@ -728,7 +728,7 @@ export class ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterDriverDat
 }
 export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterDriverDataConfigFunctionKubeOptionsSecurityContextReadOnlyRootFileSystem {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#value ResourceTemplate#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#value ResourceTemplate#value}
   */
   readonly value?: boolean | cdktf.IResolvable;
 }
@@ -814,13 +814,13 @@ export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterDrive
   /**
   * privileged block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#privileged ResourceTemplate#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#privileged ResourceTemplate#privileged}
   */
   readonly privileged?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterDriverDataConfigFunctionKubeOptionsSecurityContextPrivileged;
   /**
   * read_only_root_file_system block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#read_only_root_file_system ResourceTemplate#read_only_root_file_system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#read_only_root_file_system ResourceTemplate#read_only_root_file_system}
   */
   readonly readOnlyRootFileSystem?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterDriverDataConfigFunctionKubeOptionsSecurityContextReadOnlyRootFileSystem;
 }
@@ -933,23 +933,23 @@ export class ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterDriverDat
 }
 export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterDriverDataConfigFunctionKubeOptionsTolerations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#effect ResourceTemplate#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#effect ResourceTemplate#effect}
   */
   readonly effect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#key ResourceTemplate#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#key ResourceTemplate#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#operator ResourceTemplate#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#operator ResourceTemplate#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#toleration_seconds ResourceTemplate#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#toleration_seconds ResourceTemplate#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#value ResourceTemplate#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#value ResourceTemplate#value}
   */
   readonly value?: string;
 }
@@ -1183,49 +1183,49 @@ export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterDrive
   /**
   * Specify the labels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#labels ResourceTemplate#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#labels ResourceTemplate#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Specify the namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#namespace ResourceTemplate#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#namespace ResourceTemplate#namespace}
   */
   readonly namespace?: string;
   /**
   * Specify the node selectors
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#node_selector ResourceTemplate#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#node_selector ResourceTemplate#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * Specify the resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#resources ResourceTemplate#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#resources ResourceTemplate#resources}
   */
   readonly resources?: string[];
   /**
   * Specify the service account name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#service_account_name ResourceTemplate#service_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#service_account_name ResourceTemplate#service_account_name}
   */
   readonly serviceAccountName?: string;
   /**
   * affinity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#affinity ResourceTemplate#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#affinity ResourceTemplate#affinity}
   */
   readonly affinity?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterDriverDataConfigFunctionKubeOptionsAffinity;
   /**
   * security_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#security_context ResourceTemplate#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#security_context ResourceTemplate#security_context}
   */
   readonly securityContext?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterDriverDataConfigFunctionKubeOptionsSecurityContext;
   /**
   * tolerations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#tolerations ResourceTemplate#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#tolerations ResourceTemplate#tolerations}
   */
   readonly tolerations?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterDriverDataConfigFunctionKubeOptionsTolerations[] | cdktf.IResolvable;
 }
@@ -1512,7 +1512,7 @@ export class ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterDriverDat
 }
 export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterDriverDataConfigFunctionSkipBuild {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#value ResourceTemplate#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#value ResourceTemplate#value}
   */
   readonly value?: boolean | cdktf.IResolvable;
 }
@@ -1598,97 +1598,97 @@ export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterDrive
   /**
   * Configure the CPU Limits as the maximum amount of a resource to be used by a function
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#cpu_limit_milli ResourceTemplate#cpu_limit_milli}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#cpu_limit_milli ResourceTemplate#cpu_limit_milli}
   */
   readonly cpuLimitMilli?: string;
   /**
   * Specify the function dependencies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#function_dependencies ResourceTemplate#function_dependencies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#function_dependencies ResourceTemplate#function_dependencies}
   */
   readonly functionDependencies?: string[];
   /**
   * Image of the function
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#image ResourceTemplate#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#image ResourceTemplate#image}
   */
   readonly image?: string;
   /**
   * Configure the inactivity timeout in seconds. After this time, the function will be terminated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#inactivity_timeout_seconds ResourceTemplate#inactivity_timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#inactivity_timeout_seconds ResourceTemplate#inactivity_timeout_seconds}
   */
   readonly inactivityTimeoutSeconds?: number;
   /**
   * Specify the language of the function
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#language ResourceTemplate#language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#language ResourceTemplate#language}
   */
   readonly language?: string;
   /**
   * Specify the language version for the function
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#language_version ResourceTemplate#language_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#language_version ResourceTemplate#language_version}
   */
   readonly languageVersion?: string;
   /**
   * Specify the maximum number of concurrent requests that can be handled by the function
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#max_concurrency ResourceTemplate#max_concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#max_concurrency ResourceTemplate#max_concurrency}
   */
   readonly maxConcurrency?: number;
   /**
   * Configure the Memory Limits as the maximum amount of a resource to be used by a function
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#memory_limit_mb ResourceTemplate#memory_limit_mb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#memory_limit_mb ResourceTemplate#memory_limit_mb}
   */
   readonly memoryLimitMb?: string;
   /**
   * Specify the name of the function
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#name ResourceTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#name ResourceTemplate#name}
   */
   readonly name?: string;
   /**
   * Specify the number of replicas for the function
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#num_replicas ResourceTemplate#num_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#num_replicas ResourceTemplate#num_replicas}
   */
   readonly numReplicas?: number;
   /**
   * Specify the source of the function
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#source ResourceTemplate#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#source ResourceTemplate#source}
   */
   readonly source?: string;
   /**
   * Specify the system packages for the function
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#system_packages ResourceTemplate#system_packages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#system_packages ResourceTemplate#system_packages}
   */
   readonly systemPackages?: string[];
   /**
   * Specify the target platforms for the function
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#target_platforms ResourceTemplate#target_platforms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#target_platforms ResourceTemplate#target_platforms}
   */
   readonly targetPlatforms?: string[];
   /**
   * image_pull_credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#image_pull_credentials ResourceTemplate#image_pull_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#image_pull_credentials ResourceTemplate#image_pull_credentials}
   */
   readonly imagePullCredentials?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterDriverDataConfigFunctionImagePullCredentials;
   /**
   * kube_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#kube_options ResourceTemplate#kube_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#kube_options ResourceTemplate#kube_options}
   */
   readonly kubeOptions?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterDriverDataConfigFunctionKubeOptions;
   /**
   * skip_build block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#skip_build ResourceTemplate#skip_build}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#skip_build ResourceTemplate#skip_build}
   */
   readonly skipBuild?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterDriverDataConfigFunctionSkipBuild;
 }
@@ -2209,37 +2209,37 @@ export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterDrive
   /**
   * Specify the request body
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#body ResourceTemplate#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#body ResourceTemplate#body}
   */
   readonly body?: string;
   /**
   * Provide ca cert for the http request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#ca_cert ResourceTemplate#ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#ca_cert ResourceTemplate#ca_cert}
   */
   readonly caCert?: string;
   /**
   * Specify the http endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#endpoint ResourceTemplate#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#endpoint ResourceTemplate#endpoint}
   */
   readonly endpoint?: string;
   /**
   * Specify the http headers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#headers ResourceTemplate#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#headers ResourceTemplate#headers}
   */
   readonly headers?: { [key: string]: string };
   /**
   * Provide skip TLS verify for the http request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#insecure ResourceTemplate#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#insecure ResourceTemplate#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
   * Specify the http method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#method ResourceTemplate#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#method ResourceTemplate#method}
   */
   readonly method?: string;
 }
@@ -2470,13 +2470,13 @@ export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterDrive
   /**
   * Specify the repeat
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#repeat ResourceTemplate#repeat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#repeat ResourceTemplate#repeat}
   */
   readonly repeat?: string;
   /**
   * Specify the until
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#until ResourceTemplate#until}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#until ResourceTemplate#until}
   */
   readonly until?: string;
 }
@@ -2591,49 +2591,49 @@ export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterDrive
   /**
   * Specify the max retry count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#max_retry_count ResourceTemplate#max_retry_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#max_retry_count ResourceTemplate#max_retry_count}
   */
   readonly maxRetryCount?: number;
   /**
   * Specify the success condition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#success_condition ResourceTemplate#success_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#success_condition ResourceTemplate#success_condition}
   */
   readonly successCondition?: string;
   /**
   * Specify the timeout in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#timeout_seconds ResourceTemplate#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#timeout_seconds ResourceTemplate#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
   /**
   * Specify the type of workflow handler
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#type ResourceTemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#type ResourceTemplate#type}
   */
   readonly type?: string;
   /**
   * container block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#container ResourceTemplate#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#container ResourceTemplate#container}
   */
   readonly container?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterDriverDataConfigContainer;
   /**
   * function block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#function ResourceTemplate#function}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#function ResourceTemplate#function}
   */
   readonly function?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterDriverDataConfigFunction;
   /**
   * http block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#http ResourceTemplate#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#http ResourceTemplate#http}
   */
   readonly http?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterDriverDataConfigHttp;
   /**
   * polling_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#polling_config ResourceTemplate#polling_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#polling_config ResourceTemplate#polling_config}
   */
   readonly pollingConfig?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterDriverDataConfigPollingConfig;
 }
@@ -2922,31 +2922,31 @@ export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterDrive
   /**
   * Display overridden values on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#display_overridden ResourceTemplate#display_overridden}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#display_overridden ResourceTemplate#display_overridden}
   */
   readonly displayOverridden?: boolean | cdktf.IResolvable;
   /**
   * If the override type is restricted_key_values, values it is restricted to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#restricted_key_values ResourceTemplate#restricted_key_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#restricted_key_values ResourceTemplate#restricted_key_values}
   */
   readonly restrictedKeyValues?: { [key: string]: string };
   /**
   * If the override type is restricted, values it is restricted to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#restricted_values ResourceTemplate#restricted_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#restricted_values ResourceTemplate#restricted_values}
   */
   readonly restrictedValues?: string[];
   /**
   * Used to alias a variable and restrict the override scope
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#selectors ResourceTemplate#selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#selectors ResourceTemplate#selectors}
   */
   readonly selectors?: string[];
   /**
   * Specify the type of ovverride this variable supports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#type ResourceTemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#type ResourceTemplate#type}
   */
   readonly type?: string;
 }
@@ -3148,13 +3148,13 @@ export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterDrive
   /**
   * JSONSchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#jsonschema ResourceTemplate#jsonschema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#jsonschema ResourceTemplate#jsonschema}
   */
   readonly jsonschema?: string;
   /**
   * UISchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#uischema ResourceTemplate#uischema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#uischema ResourceTemplate#uischema}
   */
   readonly uischema?: string;
 }
@@ -3267,41 +3267,41 @@ export class ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterDriverDat
 }
 export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterDriverDataInputsDataEnvsOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#description ResourceTemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#description ResourceTemplate#description}
   */
   readonly description?: string;
   /**
   * Display metadata to render environment variable on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#display_metadata ResourceTemplate#display_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#display_metadata ResourceTemplate#display_metadata}
   */
   readonly displayMetadata?: string;
   /**
   * Determines whether the environment variable is immutable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#immutable ResourceTemplate#immutable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#immutable ResourceTemplate#immutable}
   */
   readonly immutable?: boolean | cdktf.IResolvable;
   /**
   * Determines whether the variable is required / mandatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#required ResourceTemplate#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#required ResourceTemplate#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#sensitive ResourceTemplate#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#sensitive ResourceTemplate#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#override ResourceTemplate#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#override ResourceTemplate#override}
   */
   readonly override?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterDriverDataInputsDataEnvsOptionsOverride;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#schema ResourceTemplate#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#schema ResourceTemplate#schema}
   */
   readonly schema?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterDriverDataInputsDataEnvsOptionsSchema;
 }
@@ -3561,25 +3561,25 @@ export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterDrive
   /**
   * Key of the environment variable to be set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#key ResourceTemplate#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#key ResourceTemplate#key}
   */
   readonly key?: string;
   /**
   * Deprecated: use options.sensitive. Determines whether the value is sensitive or not, accordingly applies encryption on it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#sensitive ResourceTemplate#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#sensitive ResourceTemplate#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * Value of the environment variable to be set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#value ResourceTemplate#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#value ResourceTemplate#value}
   */
   readonly value?: string;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#options ResourceTemplate#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#options ResourceTemplate#options}
   */
   readonly options?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterDriverDataInputsDataEnvsOptions;
 }
@@ -3784,7 +3784,7 @@ export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterDrive
   /**
   * Specify the type of override this file supports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#type ResourceTemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#type ResourceTemplate#type}
   */
   readonly type?: string;
 }
@@ -3870,13 +3870,13 @@ export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterDrive
   /**
   * JSONSchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#jsonschema ResourceTemplate#jsonschema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#jsonschema ResourceTemplate#jsonschema}
   */
   readonly jsonschema?: string;
   /**
   * UISchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#uischema ResourceTemplate#uischema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#uischema ResourceTemplate#uischema}
   */
   readonly uischema?: string;
 }
@@ -3991,37 +3991,37 @@ export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterDrive
   /**
   * Description of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#description ResourceTemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#description ResourceTemplate#description}
   */
   readonly description?: string;
   /**
   * Display metadata to render file on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#display_metadata ResourceTemplate#display_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#display_metadata ResourceTemplate#display_metadata}
   */
   readonly displayMetadata?: string;
   /**
   * Determines whether the file is required / mandatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#required ResourceTemplate#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#required ResourceTemplate#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#sensitive ResourceTemplate#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#sensitive ResourceTemplate#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#override ResourceTemplate#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#override ResourceTemplate#override}
   */
   readonly override?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterDriverDataInputsDataFilesOptionsOverride;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#schema ResourceTemplate#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#schema ResourceTemplate#schema}
   */
   readonly schema?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterDriverDataInputsDataFilesOptionsSchema;
 }
@@ -4252,31 +4252,31 @@ export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterDrive
   /**
   * data is the base64 encoded contents of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#data ResourceTemplate#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#data ResourceTemplate#data}
   */
   readonly data?: string;
   /**
   * specify mount path of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#mount_path ResourceTemplate#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#mount_path ResourceTemplate#mount_path}
   */
   readonly mountPath?: string;
   /**
   * Name or relative path of a artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#name ResourceTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#name ResourceTemplate#name}
   */
   readonly name?: string;
   /**
   * Deprected: use options.sensitive. data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#sensitive ResourceTemplate#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#sensitive ResourceTemplate#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#options ResourceTemplate#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#options ResourceTemplate#options}
   */
   readonly options?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterDriverDataInputsDataFilesOptions;
 }
@@ -4510,31 +4510,31 @@ export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterDrive
   /**
   * Display overridden values on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#display_overridden ResourceTemplate#display_overridden}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#display_overridden ResourceTemplate#display_overridden}
   */
   readonly displayOverridden?: boolean | cdktf.IResolvable;
   /**
   * If the override type is restricted_key_values, values it is restricted to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#restricted_key_values ResourceTemplate#restricted_key_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#restricted_key_values ResourceTemplate#restricted_key_values}
   */
   readonly restrictedKeyValues?: { [key: string]: string };
   /**
   * If the override type is restricted, values it is restricted to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#restricted_values ResourceTemplate#restricted_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#restricted_values ResourceTemplate#restricted_values}
   */
   readonly restrictedValues?: string[];
   /**
   * Used to alias a variable and restrict the override scope
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#selectors ResourceTemplate#selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#selectors ResourceTemplate#selectors}
   */
   readonly selectors?: string[];
   /**
   * Specify the type of ovverride this variable supports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#type ResourceTemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#type ResourceTemplate#type}
   */
   readonly type?: string;
 }
@@ -4736,13 +4736,13 @@ export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterDrive
   /**
   * JSONSchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#jsonschema ResourceTemplate#jsonschema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#jsonschema ResourceTemplate#jsonschema}
   */
   readonly jsonschema?: string;
   /**
   * UISchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#uischema ResourceTemplate#uischema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#uischema ResourceTemplate#uischema}
   */
   readonly uischema?: string;
 }
@@ -4857,43 +4857,43 @@ export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterDrive
   /**
   * Description of the variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#description ResourceTemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#description ResourceTemplate#description}
   */
   readonly description?: string;
   /**
   * Display metadata to render variable on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#display_metadata ResourceTemplate#display_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#display_metadata ResourceTemplate#display_metadata}
   */
   readonly displayMetadata?: string;
   /**
   * Determines whether the variable is immutable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#immutable ResourceTemplate#immutable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#immutable ResourceTemplate#immutable}
   */
   readonly immutable?: boolean | cdktf.IResolvable;
   /**
   * Specify whether this variable is required or optional, by default it is optional
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#required ResourceTemplate#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#required ResourceTemplate#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * Determines whether the value is sensitive or not, accordingly applies encryption on it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#sensitive ResourceTemplate#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#sensitive ResourceTemplate#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#override ResourceTemplate#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#override ResourceTemplate#override}
   */
   readonly override?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterDriverDataInputsDataVariablesOptionsOverride;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#schema ResourceTemplate#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#schema ResourceTemplate#schema}
   */
   readonly schema?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterDriverDataInputsDataVariablesOptionsSchema;
 }
@@ -5153,25 +5153,25 @@ export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterDrive
   /**
   * Name of the variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#name ResourceTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#name ResourceTemplate#name}
   */
   readonly name: string;
   /**
   * Value of the variable in the specified format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#value ResourceTemplate#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#value ResourceTemplate#value}
   */
   readonly value?: string;
   /**
   * Specify the variable value type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#value_type ResourceTemplate#value_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#value_type ResourceTemplate#value_type}
   */
   readonly valueType: string;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#options ResourceTemplate#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#options ResourceTemplate#options}
   */
   readonly options?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterDriverDataInputsDataVariablesOptions;
 }
@@ -5370,19 +5370,19 @@ export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterDrive
   /**
   * envs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#envs ResourceTemplate#envs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#envs ResourceTemplate#envs}
   */
   readonly envs?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterDriverDataInputsDataEnvs[] | cdktf.IResolvable;
   /**
   * files block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#files ResourceTemplate#files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#files ResourceTemplate#files}
   */
   readonly files?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterDriverDataInputsDataFiles[] | cdktf.IResolvable;
   /**
   * variables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#variables ResourceTemplate#variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#variables ResourceTemplate#variables}
   */
   readonly variables?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterDriverDataInputsDataVariables[] | cdktf.IResolvable;
 }
@@ -5526,13 +5526,13 @@ export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterDrive
   /**
   * Name of the config context
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#name ResourceTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#name ResourceTemplate#name}
   */
   readonly name?: string;
   /**
   * data block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#data ResourceTemplate#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#data ResourceTemplate#data}
   */
   readonly data?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterDriverDataInputsData;
 }
@@ -5679,19 +5679,19 @@ export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterDrive
   /**
   * Specify the output data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#outputs ResourceTemplate#outputs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#outputs ResourceTemplate#outputs}
   */
   readonly outputs?: string;
   /**
   * config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#config ResourceTemplate#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#config ResourceTemplate#config}
   */
   readonly config?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterDriverDataConfig;
   /**
   * inputs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#inputs ResourceTemplate#inputs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#inputs ResourceTemplate#inputs}
   */
   readonly inputs?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterDriverDataInputs[] | cdktf.IResolvable;
 }
@@ -5835,13 +5835,13 @@ export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterDrive
   /**
   * Name of the workflow handler
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#name ResourceTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#name ResourceTemplate#name}
   */
   readonly name?: string;
   /**
   * data block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#data ResourceTemplate#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#data ResourceTemplate#data}
   */
   readonly data?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterDriverData;
 }
@@ -6052,7 +6052,7 @@ export class ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterOptionsAp
 }
 export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterOptionsApprovalInternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#emails ResourceTemplate#emails}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#emails ResourceTemplate#emails}
   */
   readonly emails?: string[];
 }
@@ -6187,31 +6187,31 @@ export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterOptio
   /**
   * Specify the approval options
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#type ResourceTemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#type ResourceTemplate#type}
   */
   readonly type?: string;
   /**
   * email block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#email ResourceTemplate#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#email ResourceTemplate#email}
   */
   readonly email?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterOptionsApprovalEmail;
   /**
   * github_pull_request block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#github_pull_request ResourceTemplate#github_pull_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#github_pull_request ResourceTemplate#github_pull_request}
   */
   readonly githubPullRequest?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterOptionsApprovalGithubPullRequest;
   /**
   * internal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#internal ResourceTemplate#internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#internal ResourceTemplate#internal}
   */
   readonly internal?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterOptionsApprovalInternal;
   /**
   * jira block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#jira ResourceTemplate#jira}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#jira ResourceTemplate#jira}
   */
   readonly jira?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterOptionsApprovalJira;
 }
@@ -6413,49 +6413,49 @@ export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterOptio
   /**
   * Specify the set of arguments to be passed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#arguments ResourceTemplate#arguments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#arguments ResourceTemplate#arguments}
   */
   readonly arguments?: string[];
   /**
   * Specify the set of commands to be executed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#commands ResourceTemplate#commands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#commands ResourceTemplate#commands}
   */
   readonly commands?: string[];
   /**
   * Specify the cpu limit in milli
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#cpu_limit_milli ResourceTemplate#cpu_limit_milli}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#cpu_limit_milli ResourceTemplate#cpu_limit_milli}
   */
   readonly cpuLimitMilli?: string;
   /**
   * Specify the environment variables to be set in key,value pair
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#envvars ResourceTemplate#envvars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#envvars ResourceTemplate#envvars}
   */
   readonly envvars?: { [key: string]: string };
   /**
   * Specify the container image to be used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#image ResourceTemplate#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#image ResourceTemplate#image}
   */
   readonly image?: string;
   /**
   * Specify the memory limit to be allocated in MB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#memory_limit_mb ResourceTemplate#memory_limit_mb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#memory_limit_mb ResourceTemplate#memory_limit_mb}
   */
   readonly memoryLimitMb?: string;
   /**
   * Specify the success condition of the container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#success_condition ResourceTemplate#success_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#success_condition ResourceTemplate#success_condition}
   */
   readonly successCondition?: string;
   /**
   * Specify the working directory path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#working_dir_path ResourceTemplate#working_dir_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#working_dir_path ResourceTemplate#working_dir_path}
   */
   readonly workingDirPath?: string;
 }
@@ -6744,43 +6744,43 @@ export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterOptio
   /**
   * Specify the body of http request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#body ResourceTemplate#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#body ResourceTemplate#body}
   */
   readonly body?: string;
   /**
   * Provide ca cert for the http request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#ca_cert ResourceTemplate#ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#ca_cert ResourceTemplate#ca_cert}
   */
   readonly caCert?: string;
   /**
   * Specify the endpoint to be invoked
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#endpoint ResourceTemplate#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#endpoint ResourceTemplate#endpoint}
   */
   readonly endpoint?: string;
   /**
   * Specify the http headers in key,value pair
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#headers ResourceTemplate#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#headers ResourceTemplate#headers}
   */
   readonly headers?: { [key: string]: string };
   /**
   * Provide skip TLS verify for the http request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#insecure ResourceTemplate#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#insecure ResourceTemplate#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
   * Specify the http method to be used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#method ResourceTemplate#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#method ResourceTemplate#method}
   */
   readonly method?: string;
   /**
   * Specify the success condition of the request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#success_condition ResourceTemplate#success_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#success_condition ResourceTemplate#success_condition}
   */
   readonly successCondition?: string;
 }
@@ -7089,31 +7089,31 @@ export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterOptio
   /**
   * Specify the cpu limit in milli
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#cpu_limit_milli ResourceTemplate#cpu_limit_milli}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#cpu_limit_milli ResourceTemplate#cpu_limit_milli}
   */
   readonly cpuLimitMilli?: string;
   /**
   * Specify the environment variables to be set in key,value pair
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#envvars ResourceTemplate#envvars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#envvars ResourceTemplate#envvars}
   */
   readonly envvars?: { [key: string]: string };
   /**
   * Specify the memory limit to be allocated in MB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#memory_limit_mb ResourceTemplate#memory_limit_mb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#memory_limit_mb ResourceTemplate#memory_limit_mb}
   */
   readonly memoryLimitMb?: string;
   /**
   * Specify the script to be executed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#script ResourceTemplate#script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#script ResourceTemplate#script}
   */
   readonly script?: string;
   /**
   * Specify the success condition of the script
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#success_condition ResourceTemplate#success_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#success_condition ResourceTemplate#success_condition}
   */
   readonly successCondition?: string;
 }
@@ -7315,31 +7315,31 @@ export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterOptio
   /**
   * approval block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#approval ResourceTemplate#approval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#approval ResourceTemplate#approval}
   */
   readonly approval?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterOptionsApproval;
   /**
   * container block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#container ResourceTemplate#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#container ResourceTemplate#container}
   */
   readonly container?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterOptionsContainer;
   /**
   * http block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#http ResourceTemplate#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#http ResourceTemplate#http}
   */
   readonly http?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterOptionsHttp;
   /**
   * notification block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#notification ResourceTemplate#notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#notification ResourceTemplate#notification}
   */
   readonly notification?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterOptionsNotification;
   /**
   * script block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#script ResourceTemplate#script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#script ResourceTemplate#script}
   */
   readonly script?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterOptionsScript;
 }
@@ -7541,13 +7541,13 @@ export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterSkipC
   /**
   * Specify the condition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#condition ResourceTemplate#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#condition ResourceTemplate#condition}
   */
   readonly condition?: string;
   /**
   * Skip this hook/task on destroy action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#skip_on_destroy ResourceTemplate#skip_on_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#skip_on_destroy ResourceTemplate#skip_on_destroy}
   */
   readonly skipOnDestroy?: boolean | cdktf.IResolvable;
 }
@@ -7662,19 +7662,19 @@ export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkf
   /**
   * Specify the registry password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#password ResourceTemplate#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#password ResourceTemplate#password}
   */
   readonly password?: string;
   /**
   * Specify the container image registry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#registry ResourceTemplate#registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#registry ResourceTemplate#registry}
   */
   readonly registry?: string;
   /**
   * Specify the registry username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#username ResourceTemplate#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#username ResourceTemplate#username}
   */
   readonly username?: string;
 }
@@ -7818,13 +7818,13 @@ export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkf
   /**
   * Specify the kube config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#kube_config ResourceTemplate#kube_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#kube_config ResourceTemplate#kube_config}
   */
   readonly kubeConfig?: string;
   /**
   * Specify if out of cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#out_of_cluster ResourceTemplate#out_of_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#out_of_cluster ResourceTemplate#out_of_cluster}
   */
   readonly outOfCluster?: boolean | cdktf.IResolvable;
 }
@@ -7937,15 +7937,15 @@ export class ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowH
 }
 export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigContainerKubeOptionsAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#key ResourceTemplate#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#key ResourceTemplate#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#operator ResourceTemplate#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#operator ResourceTemplate#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#values ResourceTemplate#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#values ResourceTemplate#values}
   */
   readonly values?: string[];
 }
@@ -8119,15 +8119,15 @@ export class ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowH
 }
 export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigContainerKubeOptionsAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#key ResourceTemplate#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#key ResourceTemplate#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#operator ResourceTemplate#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#operator ResourceTemplate#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#values ResourceTemplate#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#values ResourceTemplate#values}
   */
   readonly values?: string[];
 }
@@ -8303,13 +8303,13 @@ export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkf
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#match_expressions ResourceTemplate#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#match_expressions ResourceTemplate#match_expressions}
   */
   readonly matchExpressions?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigContainerKubeOptionsAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
   * match_fields block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#match_fields ResourceTemplate#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#match_fields ResourceTemplate#match_fields}
   */
   readonly matchFields?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigContainerKubeOptionsAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -8422,13 +8422,13 @@ export class ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowH
 }
 export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigContainerKubeOptionsAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#weight ResourceTemplate#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#weight ResourceTemplate#weight}
   */
   readonly weight?: number;
   /**
   * preference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#preference ResourceTemplate#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#preference ResourceTemplate#preference}
   */
   readonly preference?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigContainerKubeOptionsAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
 }
@@ -8573,15 +8573,15 @@ export class ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowH
 }
 export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigContainerKubeOptionsAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#key ResourceTemplate#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#key ResourceTemplate#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#operator ResourceTemplate#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#operator ResourceTemplate#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#values ResourceTemplate#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#values ResourceTemplate#values}
   */
   readonly values?: string[];
 }
@@ -8755,15 +8755,15 @@ export class ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowH
 }
 export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigContainerKubeOptionsAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#key ResourceTemplate#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#key ResourceTemplate#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#operator ResourceTemplate#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#operator ResourceTemplate#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#values ResourceTemplate#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#values ResourceTemplate#values}
   */
   readonly values?: string[];
 }
@@ -8939,13 +8939,13 @@ export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkf
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#match_expressions ResourceTemplate#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#match_expressions ResourceTemplate#match_expressions}
   */
   readonly matchExpressions?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigContainerKubeOptionsAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
   * match_fields block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#match_fields ResourceTemplate#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#match_fields ResourceTemplate#match_fields}
   */
   readonly matchFields?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigContainerKubeOptionsAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -9092,7 +9092,7 @@ export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkf
   /**
   * node_selector_terms block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#node_selector_terms ResourceTemplate#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#node_selector_terms ResourceTemplate#node_selector_terms}
   */
   readonly nodeSelectorTerms?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigContainerKubeOptionsAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -9178,13 +9178,13 @@ export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkf
   /**
   * preferred_during_scheduling_ignored_during_execution block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#preferred_during_scheduling_ignored_during_execution ResourceTemplate#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#preferred_during_scheduling_ignored_during_execution ResourceTemplate#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigContainerKubeOptionsAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * required_during_scheduling_ignored_during_execution block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#required_during_scheduling_ignored_during_execution ResourceTemplate#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#required_during_scheduling_ignored_during_execution ResourceTemplate#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigContainerKubeOptionsAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -9297,15 +9297,15 @@ export class ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowH
 }
 export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigContainerKubeOptionsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#key ResourceTemplate#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#key ResourceTemplate#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#operator ResourceTemplate#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#operator ResourceTemplate#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#values ResourceTemplate#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#values ResourceTemplate#values}
   */
   readonly values?: string[];
 }
@@ -9479,13 +9479,13 @@ export class ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowH
 }
 export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigContainerKubeOptionsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#match_labels ResourceTemplate#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#match_labels ResourceTemplate#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#match_expressions ResourceTemplate#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#match_expressions ResourceTemplate#match_expressions}
   */
   readonly matchExpressions?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigContainerKubeOptionsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -9598,15 +9598,15 @@ export class ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowH
 }
 export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigContainerKubeOptionsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#key ResourceTemplate#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#key ResourceTemplate#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#operator ResourceTemplate#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#operator ResourceTemplate#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#values ResourceTemplate#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#values ResourceTemplate#values}
   */
   readonly values?: string[];
 }
@@ -9780,13 +9780,13 @@ export class ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowH
 }
 export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigContainerKubeOptionsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#match_labels ResourceTemplate#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#match_labels ResourceTemplate#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#match_expressions ResourceTemplate#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#match_expressions ResourceTemplate#match_expressions}
   */
   readonly matchExpressions?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigContainerKubeOptionsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -9899,23 +9899,23 @@ export class ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowH
 }
 export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigContainerKubeOptionsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#namespaces ResourceTemplate#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#namespaces ResourceTemplate#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#topology_key ResourceTemplate#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#topology_key ResourceTemplate#topology_key}
   */
   readonly topologyKey?: string;
   /**
   * label_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#label_selector ResourceTemplate#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#label_selector ResourceTemplate#label_selector}
   */
   readonly labelSelector?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigContainerKubeOptionsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * namespace_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#namespace_selector ResourceTemplate#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#namespace_selector ResourceTemplate#namespace_selector}
   */
   readonly namespaceSelector?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigContainerKubeOptionsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
 }
@@ -10086,13 +10086,13 @@ export class ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowH
 }
 export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigContainerKubeOptionsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#weight ResourceTemplate#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#weight ResourceTemplate#weight}
   */
   readonly weight?: number;
   /**
   * pod_affinity_term block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#pod_affinity_term ResourceTemplate#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#pod_affinity_term ResourceTemplate#pod_affinity_term}
   */
   readonly podAffinityTerm?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigContainerKubeOptionsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
 }
@@ -10237,15 +10237,15 @@ export class ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowH
 }
 export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigContainerKubeOptionsAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#key ResourceTemplate#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#key ResourceTemplate#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#operator ResourceTemplate#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#operator ResourceTemplate#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#values ResourceTemplate#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#values ResourceTemplate#values}
   */
   readonly values?: string[];
 }
@@ -10419,13 +10419,13 @@ export class ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowH
 }
 export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigContainerKubeOptionsAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#match_labels ResourceTemplate#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#match_labels ResourceTemplate#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#match_expressions ResourceTemplate#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#match_expressions ResourceTemplate#match_expressions}
   */
   readonly matchExpressions?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigContainerKubeOptionsAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -10538,15 +10538,15 @@ export class ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowH
 }
 export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigContainerKubeOptionsAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#key ResourceTemplate#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#key ResourceTemplate#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#operator ResourceTemplate#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#operator ResourceTemplate#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#values ResourceTemplate#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#values ResourceTemplate#values}
   */
   readonly values?: string[];
 }
@@ -10720,13 +10720,13 @@ export class ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowH
 }
 export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigContainerKubeOptionsAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#match_labels ResourceTemplate#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#match_labels ResourceTemplate#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#match_expressions ResourceTemplate#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#match_expressions ResourceTemplate#match_expressions}
   */
   readonly matchExpressions?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigContainerKubeOptionsAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -10839,23 +10839,23 @@ export class ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowH
 }
 export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigContainerKubeOptionsAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#namespaces ResourceTemplate#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#namespaces ResourceTemplate#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#topology_key ResourceTemplate#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#topology_key ResourceTemplate#topology_key}
   */
   readonly topologyKey?: string;
   /**
   * label_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#label_selector ResourceTemplate#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#label_selector ResourceTemplate#label_selector}
   */
   readonly labelSelector?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigContainerKubeOptionsAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * namespace_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#namespace_selector ResourceTemplate#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#namespace_selector ResourceTemplate#namespace_selector}
   */
   readonly namespaceSelector?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigContainerKubeOptionsAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
 }
@@ -11060,13 +11060,13 @@ export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkf
   /**
   * preferred_during_scheduling_ignored_during_execution block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#preferred_during_scheduling_ignored_during_execution ResourceTemplate#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#preferred_during_scheduling_ignored_during_execution ResourceTemplate#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigContainerKubeOptionsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * required_during_scheduling_ignored_during_execution block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#required_during_scheduling_ignored_during_execution ResourceTemplate#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#required_during_scheduling_ignored_during_execution ResourceTemplate#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigContainerKubeOptionsAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -11179,15 +11179,15 @@ export class ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowH
 }
 export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigContainerKubeOptionsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#key ResourceTemplate#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#key ResourceTemplate#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#operator ResourceTemplate#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#operator ResourceTemplate#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#values ResourceTemplate#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#values ResourceTemplate#values}
   */
   readonly values?: string[];
 }
@@ -11361,13 +11361,13 @@ export class ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowH
 }
 export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigContainerKubeOptionsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#match_labels ResourceTemplate#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#match_labels ResourceTemplate#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#match_expressions ResourceTemplate#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#match_expressions ResourceTemplate#match_expressions}
   */
   readonly matchExpressions?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigContainerKubeOptionsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -11480,15 +11480,15 @@ export class ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowH
 }
 export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigContainerKubeOptionsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#key ResourceTemplate#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#key ResourceTemplate#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#operator ResourceTemplate#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#operator ResourceTemplate#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#values ResourceTemplate#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#values ResourceTemplate#values}
   */
   readonly values?: string[];
 }
@@ -11662,13 +11662,13 @@ export class ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowH
 }
 export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigContainerKubeOptionsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#match_labels ResourceTemplate#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#match_labels ResourceTemplate#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#match_expressions ResourceTemplate#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#match_expressions ResourceTemplate#match_expressions}
   */
   readonly matchExpressions?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigContainerKubeOptionsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -11781,23 +11781,23 @@ export class ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowH
 }
 export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigContainerKubeOptionsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#namespaces ResourceTemplate#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#namespaces ResourceTemplate#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#topology_key ResourceTemplate#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#topology_key ResourceTemplate#topology_key}
   */
   readonly topologyKey?: string;
   /**
   * label_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#label_selector ResourceTemplate#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#label_selector ResourceTemplate#label_selector}
   */
   readonly labelSelector?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigContainerKubeOptionsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * namespace_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#namespace_selector ResourceTemplate#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#namespace_selector ResourceTemplate#namespace_selector}
   */
   readonly namespaceSelector?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigContainerKubeOptionsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
 }
@@ -11968,13 +11968,13 @@ export class ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowH
 }
 export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigContainerKubeOptionsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#weight ResourceTemplate#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#weight ResourceTemplate#weight}
   */
   readonly weight?: number;
   /**
   * pod_affinity_term block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#pod_affinity_term ResourceTemplate#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#pod_affinity_term ResourceTemplate#pod_affinity_term}
   */
   readonly podAffinityTerm?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigContainerKubeOptionsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
 }
@@ -12119,15 +12119,15 @@ export class ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowH
 }
 export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigContainerKubeOptionsAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#key ResourceTemplate#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#key ResourceTemplate#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#operator ResourceTemplate#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#operator ResourceTemplate#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#values ResourceTemplate#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#values ResourceTemplate#values}
   */
   readonly values?: string[];
 }
@@ -12301,13 +12301,13 @@ export class ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowH
 }
 export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigContainerKubeOptionsAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#match_labels ResourceTemplate#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#match_labels ResourceTemplate#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#match_expressions ResourceTemplate#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#match_expressions ResourceTemplate#match_expressions}
   */
   readonly matchExpressions?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigContainerKubeOptionsAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -12420,15 +12420,15 @@ export class ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowH
 }
 export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigContainerKubeOptionsAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#key ResourceTemplate#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#key ResourceTemplate#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#operator ResourceTemplate#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#operator ResourceTemplate#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#values ResourceTemplate#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#values ResourceTemplate#values}
   */
   readonly values?: string[];
 }
@@ -12602,13 +12602,13 @@ export class ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowH
 }
 export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigContainerKubeOptionsAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#match_labels ResourceTemplate#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#match_labels ResourceTemplate#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#match_expressions ResourceTemplate#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#match_expressions ResourceTemplate#match_expressions}
   */
   readonly matchExpressions?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigContainerKubeOptionsAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -12721,23 +12721,23 @@ export class ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowH
 }
 export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigContainerKubeOptionsAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#namespaces ResourceTemplate#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#namespaces ResourceTemplate#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#topology_key ResourceTemplate#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#topology_key ResourceTemplate#topology_key}
   */
   readonly topologyKey?: string;
   /**
   * label_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#label_selector ResourceTemplate#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#label_selector ResourceTemplate#label_selector}
   */
   readonly labelSelector?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigContainerKubeOptionsAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * namespace_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#namespace_selector ResourceTemplate#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#namespace_selector ResourceTemplate#namespace_selector}
   */
   readonly namespaceSelector?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigContainerKubeOptionsAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
 }
@@ -12942,13 +12942,13 @@ export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkf
   /**
   * preferred_during_scheduling_ignored_during_execution block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#preferred_during_scheduling_ignored_during_execution ResourceTemplate#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#preferred_during_scheduling_ignored_during_execution ResourceTemplate#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigContainerKubeOptionsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * required_during_scheduling_ignored_during_execution block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#required_during_scheduling_ignored_during_execution ResourceTemplate#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#required_during_scheduling_ignored_during_execution ResourceTemplate#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigContainerKubeOptionsAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -13063,19 +13063,19 @@ export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkf
   /**
   * node_affinity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#node_affinity ResourceTemplate#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#node_affinity ResourceTemplate#node_affinity}
   */
   readonly nodeAffinity?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigContainerKubeOptionsAffinityNodeAffinity;
   /**
   * pod_affinity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#pod_affinity ResourceTemplate#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#pod_affinity ResourceTemplate#pod_affinity}
   */
   readonly podAffinity?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigContainerKubeOptionsAffinityPodAffinity;
   /**
   * pod_anti_affinity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#pod_anti_affinity ResourceTemplate#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#pod_anti_affinity ResourceTemplate#pod_anti_affinity}
   */
   readonly podAntiAffinity?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigContainerKubeOptionsAffinityPodAntiAffinity;
 }
@@ -13217,7 +13217,7 @@ export class ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowH
 }
 export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigContainerKubeOptionsSecurityContextPrivileged {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#value ResourceTemplate#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#value ResourceTemplate#value}
   */
   readonly value?: boolean | cdktf.IResolvable;
 }
@@ -13301,7 +13301,7 @@ export class ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowH
 }
 export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigContainerKubeOptionsSecurityContextReadOnlyRootFileSystem {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#value ResourceTemplate#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#value ResourceTemplate#value}
   */
   readonly value?: boolean | cdktf.IResolvable;
 }
@@ -13387,13 +13387,13 @@ export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkf
   /**
   * privileged block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#privileged ResourceTemplate#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#privileged ResourceTemplate#privileged}
   */
   readonly privileged?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigContainerKubeOptionsSecurityContextPrivileged;
   /**
   * read_only_root_file_system block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#read_only_root_file_system ResourceTemplate#read_only_root_file_system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#read_only_root_file_system ResourceTemplate#read_only_root_file_system}
   */
   readonly readOnlyRootFileSystem?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigContainerKubeOptionsSecurityContextReadOnlyRootFileSystem;
 }
@@ -13506,23 +13506,23 @@ export class ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowH
 }
 export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigContainerKubeOptionsTolerations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#effect ResourceTemplate#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#effect ResourceTemplate#effect}
   */
   readonly effect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#key ResourceTemplate#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#key ResourceTemplate#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#operator ResourceTemplate#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#operator ResourceTemplate#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#toleration_seconds ResourceTemplate#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#toleration_seconds ResourceTemplate#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#value ResourceTemplate#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#value ResourceTemplate#value}
   */
   readonly value?: string;
 }
@@ -13756,49 +13756,49 @@ export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkf
   /**
   * Specify the labels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#labels ResourceTemplate#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#labels ResourceTemplate#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Specify the namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#namespace ResourceTemplate#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#namespace ResourceTemplate#namespace}
   */
   readonly namespace?: string;
   /**
   * Specify the node selectors
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#node_selector ResourceTemplate#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#node_selector ResourceTemplate#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * Specify the resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#resources ResourceTemplate#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#resources ResourceTemplate#resources}
   */
   readonly resources?: string[];
   /**
   * Specify the service account name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#service_account_name ResourceTemplate#service_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#service_account_name ResourceTemplate#service_account_name}
   */
   readonly serviceAccountName?: string;
   /**
   * affinity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#affinity ResourceTemplate#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#affinity ResourceTemplate#affinity}
   */
   readonly affinity?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigContainerKubeOptionsAffinity;
   /**
   * security_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#security_context ResourceTemplate#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#security_context ResourceTemplate#security_context}
   */
   readonly securityContext?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigContainerKubeOptionsSecurityContext;
   /**
   * tolerations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#tolerations ResourceTemplate#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#tolerations ResourceTemplate#tolerations}
   */
   readonly tolerations?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigContainerKubeOptionsTolerations[] | cdktf.IResolvable;
 }
@@ -14085,7 +14085,7 @@ export class ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowH
 }
 export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigContainerVolumeOptionsUsePvc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#value ResourceTemplate#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#value ResourceTemplate#value}
   */
   readonly value?: boolean | cdktf.IResolvable;
 }
@@ -14171,31 +14171,31 @@ export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkf
   /**
   * If enabled, contents of the volume will be backed up after the job completes and restored before the next job starts across multiple runs of the environment. Scope of backup and restore is limited to the environment and resource template where this driver is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#enable_backup_and_restore ResourceTemplate#enable_backup_and_restore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#enable_backup_and_restore ResourceTemplate#enable_backup_and_restore}
   */
   readonly enableBackupAndRestore?: boolean | cdktf.IResolvable;
   /**
   * Specify the container mount path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#mount_path ResourceTemplate#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#mount_path ResourceTemplate#mount_path}
   */
   readonly mountPath?: string;
   /**
   * Specify the persistent volume claim size in GB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#pvc_size_gb ResourceTemplate#pvc_size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#pvc_size_gb ResourceTemplate#pvc_size_gb}
   */
   readonly pvcSizeGb?: string;
   /**
   * Specify the persistent volume claim storage class
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#pvc_storage_class ResourceTemplate#pvc_storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#pvc_storage_class ResourceTemplate#pvc_storage_class}
   */
   readonly pvcStorageClass?: string;
   /**
   * use_pvc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#use_pvc ResourceTemplate#use_pvc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#use_pvc ResourceTemplate#use_pvc}
   */
   readonly usePvc?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigContainerVolumeOptionsUsePvc;
 }
@@ -14395,7 +14395,7 @@ export class ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowH
 }
 export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigContainerVolumesUsePvc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#value ResourceTemplate#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#value ResourceTemplate#value}
   */
   readonly value?: boolean | cdktf.IResolvable;
 }
@@ -14481,31 +14481,31 @@ export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkf
   /**
   * If enabled, contents of the volume will be backed up after the job completes and restored before the next job starts across multiple runs of the environment. Scope of backup and restore is limited to the environment and resource template where this driver is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#enable_backup_and_restore ResourceTemplate#enable_backup_and_restore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#enable_backup_and_restore ResourceTemplate#enable_backup_and_restore}
   */
   readonly enableBackupAndRestore?: boolean | cdktf.IResolvable;
   /**
   * Specify the container mount path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#mount_path ResourceTemplate#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#mount_path ResourceTemplate#mount_path}
   */
   readonly mountPath?: string;
   /**
   * Specify the persistent volume claim size in GB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#pvc_size_gb ResourceTemplate#pvc_size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#pvc_size_gb ResourceTemplate#pvc_size_gb}
   */
   readonly pvcSizeGb?: string;
   /**
   * Specify the persistent volume claim storage class
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#pvc_storage_class ResourceTemplate#pvc_storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#pvc_storage_class ResourceTemplate#pvc_storage_class}
   */
   readonly pvcStorageClass?: string;
   /**
   * use_pvc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#use_pvc ResourceTemplate#use_pvc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#use_pvc ResourceTemplate#use_pvc}
   */
   readonly usePvc?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigContainerVolumesUsePvc;
 }
@@ -14739,79 +14739,79 @@ export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkf
   /**
   * Specify the set of arguments to be passed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#arguments ResourceTemplate#arguments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#arguments ResourceTemplate#arguments}
   */
   readonly arguments?: string[];
   /**
   * Specify the set of commands to be executed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#commands ResourceTemplate#commands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#commands ResourceTemplate#commands}
   */
   readonly commands?: string[];
   /**
   * Specify the cpu limit in milli
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#cpu_limit_milli ResourceTemplate#cpu_limit_milli}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#cpu_limit_milli ResourceTemplate#cpu_limit_milli}
   */
   readonly cpuLimitMilli?: string;
   /**
   * Specify the environment variables to be set in key,value pair
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#env_vars ResourceTemplate#env_vars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#env_vars ResourceTemplate#env_vars}
   */
   readonly envVars?: { [key: string]: string };
   /**
   * Specify the file data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#files ResourceTemplate#files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#files ResourceTemplate#files}
   */
   readonly files?: { [key: string]: string };
   /**
   * Specify the container image for the driver
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#image ResourceTemplate#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#image ResourceTemplate#image}
   */
   readonly image?: string;
   /**
   * Specify the memory limit to be allocated in MB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#memory_limit_mb ResourceTemplate#memory_limit_mb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#memory_limit_mb ResourceTemplate#memory_limit_mb}
   */
   readonly memoryLimitMb?: string;
   /**
   * Specify the working directory path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#working_dir_path ResourceTemplate#working_dir_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#working_dir_path ResourceTemplate#working_dir_path}
   */
   readonly workingDirPath?: string;
   /**
   * image_pull_credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#image_pull_credentials ResourceTemplate#image_pull_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#image_pull_credentials ResourceTemplate#image_pull_credentials}
   */
   readonly imagePullCredentials?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigContainerImagePullCredentials;
   /**
   * kube_config_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#kube_config_options ResourceTemplate#kube_config_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#kube_config_options ResourceTemplate#kube_config_options}
   */
   readonly kubeConfigOptions?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigContainerKubeConfigOptions;
   /**
   * kube_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#kube_options ResourceTemplate#kube_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#kube_options ResourceTemplate#kube_options}
   */
   readonly kubeOptions?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigContainerKubeOptions;
   /**
   * volume_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#volume_options ResourceTemplate#volume_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#volume_options ResourceTemplate#volume_options}
   */
   readonly volumeOptions?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigContainerVolumeOptions;
   /**
   * volumes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#volumes ResourceTemplate#volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#volumes ResourceTemplate#volumes}
   */
   readonly volumes?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigContainerVolumes[] | cdktf.IResolvable;
 }
@@ -15245,19 +15245,19 @@ export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkf
   /**
   * Specify the registry password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#password ResourceTemplate#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#password ResourceTemplate#password}
   */
   readonly password?: string;
   /**
   * Specify the container image registry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#registry ResourceTemplate#registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#registry ResourceTemplate#registry}
   */
   readonly registry?: string;
   /**
   * Specify the registry username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#username ResourceTemplate#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#username ResourceTemplate#username}
   */
   readonly username?: string;
 }
@@ -15399,15 +15399,15 @@ export class ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowH
 }
 export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigFunctionKubeOptionsAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#key ResourceTemplate#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#key ResourceTemplate#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#operator ResourceTemplate#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#operator ResourceTemplate#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#values ResourceTemplate#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#values ResourceTemplate#values}
   */
   readonly values?: string[];
 }
@@ -15581,15 +15581,15 @@ export class ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowH
 }
 export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigFunctionKubeOptionsAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#key ResourceTemplate#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#key ResourceTemplate#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#operator ResourceTemplate#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#operator ResourceTemplate#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#values ResourceTemplate#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#values ResourceTemplate#values}
   */
   readonly values?: string[];
 }
@@ -15765,13 +15765,13 @@ export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkf
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#match_expressions ResourceTemplate#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#match_expressions ResourceTemplate#match_expressions}
   */
   readonly matchExpressions?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigFunctionKubeOptionsAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
   * match_fields block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#match_fields ResourceTemplate#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#match_fields ResourceTemplate#match_fields}
   */
   readonly matchFields?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigFunctionKubeOptionsAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -15884,13 +15884,13 @@ export class ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowH
 }
 export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigFunctionKubeOptionsAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#weight ResourceTemplate#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#weight ResourceTemplate#weight}
   */
   readonly weight?: number;
   /**
   * preference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#preference ResourceTemplate#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#preference ResourceTemplate#preference}
   */
   readonly preference?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigFunctionKubeOptionsAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
 }
@@ -16035,15 +16035,15 @@ export class ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowH
 }
 export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigFunctionKubeOptionsAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#key ResourceTemplate#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#key ResourceTemplate#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#operator ResourceTemplate#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#operator ResourceTemplate#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#values ResourceTemplate#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#values ResourceTemplate#values}
   */
   readonly values?: string[];
 }
@@ -16217,15 +16217,15 @@ export class ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowH
 }
 export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigFunctionKubeOptionsAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#key ResourceTemplate#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#key ResourceTemplate#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#operator ResourceTemplate#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#operator ResourceTemplate#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#values ResourceTemplate#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#values ResourceTemplate#values}
   */
   readonly values?: string[];
 }
@@ -16401,13 +16401,13 @@ export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkf
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#match_expressions ResourceTemplate#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#match_expressions ResourceTemplate#match_expressions}
   */
   readonly matchExpressions?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigFunctionKubeOptionsAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
   * match_fields block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#match_fields ResourceTemplate#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#match_fields ResourceTemplate#match_fields}
   */
   readonly matchFields?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigFunctionKubeOptionsAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -16554,7 +16554,7 @@ export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkf
   /**
   * node_selector_terms block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#node_selector_terms ResourceTemplate#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#node_selector_terms ResourceTemplate#node_selector_terms}
   */
   readonly nodeSelectorTerms?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigFunctionKubeOptionsAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -16640,13 +16640,13 @@ export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkf
   /**
   * preferred_during_scheduling_ignored_during_execution block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#preferred_during_scheduling_ignored_during_execution ResourceTemplate#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#preferred_during_scheduling_ignored_during_execution ResourceTemplate#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigFunctionKubeOptionsAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * required_during_scheduling_ignored_during_execution block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#required_during_scheduling_ignored_during_execution ResourceTemplate#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#required_during_scheduling_ignored_during_execution ResourceTemplate#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigFunctionKubeOptionsAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -16759,15 +16759,15 @@ export class ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowH
 }
 export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigFunctionKubeOptionsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#key ResourceTemplate#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#key ResourceTemplate#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#operator ResourceTemplate#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#operator ResourceTemplate#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#values ResourceTemplate#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#values ResourceTemplate#values}
   */
   readonly values?: string[];
 }
@@ -16941,13 +16941,13 @@ export class ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowH
 }
 export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigFunctionKubeOptionsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#match_labels ResourceTemplate#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#match_labels ResourceTemplate#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#match_expressions ResourceTemplate#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#match_expressions ResourceTemplate#match_expressions}
   */
   readonly matchExpressions?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigFunctionKubeOptionsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -17060,15 +17060,15 @@ export class ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowH
 }
 export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigFunctionKubeOptionsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#key ResourceTemplate#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#key ResourceTemplate#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#operator ResourceTemplate#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#operator ResourceTemplate#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#values ResourceTemplate#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#values ResourceTemplate#values}
   */
   readonly values?: string[];
 }
@@ -17242,13 +17242,13 @@ export class ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowH
 }
 export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigFunctionKubeOptionsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#match_labels ResourceTemplate#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#match_labels ResourceTemplate#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#match_expressions ResourceTemplate#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#match_expressions ResourceTemplate#match_expressions}
   */
   readonly matchExpressions?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigFunctionKubeOptionsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -17361,23 +17361,23 @@ export class ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowH
 }
 export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigFunctionKubeOptionsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#namespaces ResourceTemplate#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#namespaces ResourceTemplate#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#topology_key ResourceTemplate#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#topology_key ResourceTemplate#topology_key}
   */
   readonly topologyKey?: string;
   /**
   * label_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#label_selector ResourceTemplate#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#label_selector ResourceTemplate#label_selector}
   */
   readonly labelSelector?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigFunctionKubeOptionsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * namespace_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#namespace_selector ResourceTemplate#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#namespace_selector ResourceTemplate#namespace_selector}
   */
   readonly namespaceSelector?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigFunctionKubeOptionsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
 }
@@ -17548,13 +17548,13 @@ export class ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowH
 }
 export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigFunctionKubeOptionsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#weight ResourceTemplate#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#weight ResourceTemplate#weight}
   */
   readonly weight?: number;
   /**
   * pod_affinity_term block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#pod_affinity_term ResourceTemplate#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#pod_affinity_term ResourceTemplate#pod_affinity_term}
   */
   readonly podAffinityTerm?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigFunctionKubeOptionsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
 }
@@ -17699,15 +17699,15 @@ export class ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowH
 }
 export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigFunctionKubeOptionsAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#key ResourceTemplate#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#key ResourceTemplate#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#operator ResourceTemplate#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#operator ResourceTemplate#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#values ResourceTemplate#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#values ResourceTemplate#values}
   */
   readonly values?: string[];
 }
@@ -17881,13 +17881,13 @@ export class ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowH
 }
 export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigFunctionKubeOptionsAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#match_labels ResourceTemplate#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#match_labels ResourceTemplate#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#match_expressions ResourceTemplate#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#match_expressions ResourceTemplate#match_expressions}
   */
   readonly matchExpressions?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigFunctionKubeOptionsAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -18000,15 +18000,15 @@ export class ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowH
 }
 export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigFunctionKubeOptionsAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#key ResourceTemplate#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#key ResourceTemplate#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#operator ResourceTemplate#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#operator ResourceTemplate#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#values ResourceTemplate#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#values ResourceTemplate#values}
   */
   readonly values?: string[];
 }
@@ -18182,13 +18182,13 @@ export class ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowH
 }
 export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigFunctionKubeOptionsAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#match_labels ResourceTemplate#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#match_labels ResourceTemplate#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#match_expressions ResourceTemplate#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#match_expressions ResourceTemplate#match_expressions}
   */
   readonly matchExpressions?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigFunctionKubeOptionsAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -18301,23 +18301,23 @@ export class ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowH
 }
 export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigFunctionKubeOptionsAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#namespaces ResourceTemplate#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#namespaces ResourceTemplate#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#topology_key ResourceTemplate#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#topology_key ResourceTemplate#topology_key}
   */
   readonly topologyKey?: string;
   /**
   * label_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#label_selector ResourceTemplate#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#label_selector ResourceTemplate#label_selector}
   */
   readonly labelSelector?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigFunctionKubeOptionsAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * namespace_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#namespace_selector ResourceTemplate#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#namespace_selector ResourceTemplate#namespace_selector}
   */
   readonly namespaceSelector?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigFunctionKubeOptionsAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
 }
@@ -18522,13 +18522,13 @@ export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkf
   /**
   * preferred_during_scheduling_ignored_during_execution block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#preferred_during_scheduling_ignored_during_execution ResourceTemplate#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#preferred_during_scheduling_ignored_during_execution ResourceTemplate#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigFunctionKubeOptionsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * required_during_scheduling_ignored_during_execution block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#required_during_scheduling_ignored_during_execution ResourceTemplate#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#required_during_scheduling_ignored_during_execution ResourceTemplate#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigFunctionKubeOptionsAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -18641,15 +18641,15 @@ export class ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowH
 }
 export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigFunctionKubeOptionsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#key ResourceTemplate#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#key ResourceTemplate#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#operator ResourceTemplate#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#operator ResourceTemplate#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#values ResourceTemplate#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#values ResourceTemplate#values}
   */
   readonly values?: string[];
 }
@@ -18823,13 +18823,13 @@ export class ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowH
 }
 export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigFunctionKubeOptionsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#match_labels ResourceTemplate#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#match_labels ResourceTemplate#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#match_expressions ResourceTemplate#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#match_expressions ResourceTemplate#match_expressions}
   */
   readonly matchExpressions?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigFunctionKubeOptionsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -18942,15 +18942,15 @@ export class ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowH
 }
 export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigFunctionKubeOptionsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#key ResourceTemplate#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#key ResourceTemplate#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#operator ResourceTemplate#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#operator ResourceTemplate#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#values ResourceTemplate#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#values ResourceTemplate#values}
   */
   readonly values?: string[];
 }
@@ -19124,13 +19124,13 @@ export class ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowH
 }
 export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigFunctionKubeOptionsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#match_labels ResourceTemplate#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#match_labels ResourceTemplate#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#match_expressions ResourceTemplate#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#match_expressions ResourceTemplate#match_expressions}
   */
   readonly matchExpressions?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigFunctionKubeOptionsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -19243,23 +19243,23 @@ export class ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowH
 }
 export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigFunctionKubeOptionsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#namespaces ResourceTemplate#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#namespaces ResourceTemplate#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#topology_key ResourceTemplate#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#topology_key ResourceTemplate#topology_key}
   */
   readonly topologyKey?: string;
   /**
   * label_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#label_selector ResourceTemplate#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#label_selector ResourceTemplate#label_selector}
   */
   readonly labelSelector?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigFunctionKubeOptionsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * namespace_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#namespace_selector ResourceTemplate#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#namespace_selector ResourceTemplate#namespace_selector}
   */
   readonly namespaceSelector?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigFunctionKubeOptionsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
 }
@@ -19430,13 +19430,13 @@ export class ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowH
 }
 export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigFunctionKubeOptionsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#weight ResourceTemplate#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#weight ResourceTemplate#weight}
   */
   readonly weight?: number;
   /**
   * pod_affinity_term block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#pod_affinity_term ResourceTemplate#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#pod_affinity_term ResourceTemplate#pod_affinity_term}
   */
   readonly podAffinityTerm?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigFunctionKubeOptionsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
 }
@@ -19581,15 +19581,15 @@ export class ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowH
 }
 export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigFunctionKubeOptionsAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#key ResourceTemplate#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#key ResourceTemplate#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#operator ResourceTemplate#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#operator ResourceTemplate#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#values ResourceTemplate#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#values ResourceTemplate#values}
   */
   readonly values?: string[];
 }
@@ -19763,13 +19763,13 @@ export class ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowH
 }
 export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigFunctionKubeOptionsAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#match_labels ResourceTemplate#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#match_labels ResourceTemplate#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#match_expressions ResourceTemplate#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#match_expressions ResourceTemplate#match_expressions}
   */
   readonly matchExpressions?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigFunctionKubeOptionsAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -19882,15 +19882,15 @@ export class ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowH
 }
 export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigFunctionKubeOptionsAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#key ResourceTemplate#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#key ResourceTemplate#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#operator ResourceTemplate#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#operator ResourceTemplate#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#values ResourceTemplate#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#values ResourceTemplate#values}
   */
   readonly values?: string[];
 }
@@ -20064,13 +20064,13 @@ export class ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowH
 }
 export interface ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigFunctionKubeOptionsAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#match_labels ResourceTemplate#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#match_labels ResourceTemplate#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/resource_template#match_expressions ResourceTemplate#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/resource_template#match_expressions ResourceTemplate#match_expressions}
   */
   readonly matchExpressions?: ResourceTemplateSpecHooksProviderTerraformDeployApplyAfterWorkflowHandlerDataConfigFunctionKubeOptionsAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
 }

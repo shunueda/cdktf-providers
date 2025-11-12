@@ -98,7 +98,8 @@ export class InterfaceEthernetIpStatefulFirewallA extends cdktf.TerraformResourc
       terraformResourceType: 'thunder_interface_ethernet_ip_stateful_firewall',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

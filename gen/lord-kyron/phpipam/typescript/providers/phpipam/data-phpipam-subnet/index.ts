@@ -84,7 +84,8 @@ export class DataPhpipamSubnet extends cdktf.TerraformDataSource {
       terraformResourceType: 'phpipam_subnet',
       terraformGeneratorMetadata: {
         providerName: 'phpipam',
-        providerVersion: '1.6.2'
+        providerVersion: '1.6.2',
+        providerVersionConstraint: '1.6.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -63,7 +63,8 @@ export class DataFortisaseUsageSecurityInternalReversePolicies extends cdktf.Ter
       terraformResourceType: 'fortisase_usage_security_internal_reverse_policies',
       terraformGeneratorMetadata: {
         providerName: 'fortisase',
-        providerVersion: '1.0.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

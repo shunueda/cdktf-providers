@@ -53,7 +53,8 @@ export class DataTeamcityPool extends cdktf.TerraformDataSource {
       terraformResourceType: 'teamcity_pool',
       terraformGeneratorMetadata: {
         providerName: 'teamcity',
-        providerVersion: '0.0.85'
+        providerVersion: '0.0.85',
+        providerVersionConstraint: '0.0.85'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

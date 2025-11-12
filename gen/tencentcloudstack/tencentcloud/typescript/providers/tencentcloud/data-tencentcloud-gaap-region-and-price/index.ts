@@ -340,7 +340,8 @@ export class DataTencentcloudGaapRegionAndPrice extends cdktf.TerraformDataSourc
       terraformResourceType: 'tencentcloud_gaap_region_and_price',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

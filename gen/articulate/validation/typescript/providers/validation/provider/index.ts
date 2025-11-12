@@ -55,7 +55,8 @@ export class ValidationProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'validation',
       terraformGeneratorMetadata: {
         providerName: 'validation',
-        providerVersion: '0.0.4'
+        providerVersion: '0.0.4',
+        providerVersionConstraint: '0.0.4'
       },
       terraformProviderSource: 'articulate/validation'
     });

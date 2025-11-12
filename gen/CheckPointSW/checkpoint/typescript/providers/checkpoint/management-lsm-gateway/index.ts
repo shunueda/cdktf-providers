@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsm_gateway
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsm_gateway
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface ManagementLsmGatewayConfig extends cdktf.TerraformMetaArguments
   /**
   * Color of the object. Should be one of existing colors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsm_gateway#color ManagementLsmGateway#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsm_gateway#color ManagementLsmGateway#color}
   */
   readonly color?: string;
   /**
   * Comments string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsm_gateway#comments ManagementLsmGateway#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsm_gateway#comments ManagementLsmGateway#comments}
   */
   readonly comments?: string;
   /**
   * Device ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsm_gateway#device_id ManagementLsmGateway#device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsm_gateway#device_id ManagementLsmGateway#device_id}
   */
   readonly deviceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsm_gateway#id ManagementLsmGateway#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsm_gateway#id ManagementLsmGateway#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,67 +35,67 @@ export interface ManagementLsmGatewayConfig extends cdktf.TerraformMetaArguments
   /**
   * Apply changes ignoring errors. You won't be able to publish such a changes. If ignore-warnings flag was omitted - warnings will also be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsm_gateway#ignore_errors ManagementLsmGateway#ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsm_gateway#ignore_errors ManagementLsmGateway#ignore_errors}
   */
   readonly ignoreErrors?: boolean | cdktf.IResolvable;
   /**
   * Apply changes ignoring warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsm_gateway#ignore_warnings ManagementLsmGateway#ignore_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsm_gateway#ignore_warnings ManagementLsmGateway#ignore_warnings}
   */
   readonly ignoreWarnings?: boolean | cdktf.IResolvable;
   /**
   * Object name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsm_gateway#name ManagementLsmGateway#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsm_gateway#name ManagementLsmGateway#name}
   */
   readonly name: string;
   /**
   * Provisioning settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsm_gateway#provisioning_settings ManagementLsmGateway#provisioning_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsm_gateway#provisioning_settings ManagementLsmGateway#provisioning_settings}
   */
   readonly provisioningSettings?: { [key: string]: string };
   /**
   * Provisioning state. By default the state is 'manual'- enable provisioning but not attach to profile. If 'using-profile' state is provided a provisioning profile must be provided in provisioning-settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsm_gateway#provisioning_state ManagementLsmGateway#provisioning_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsm_gateway#provisioning_state ManagementLsmGateway#provisioning_state}
   */
   readonly provisioningState?: string;
   /**
   * LSM profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsm_gateway#security_profile ManagementLsmGateway#security_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsm_gateway#security_profile ManagementLsmGateway#security_profile}
   */
   readonly securityProfile: string;
   /**
   * Secure Internal Communication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsm_gateway#sic ManagementLsmGateway#sic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsm_gateway#sic ManagementLsmGateway#sic}
   */
   readonly sic?: { [key: string]: string };
   /**
   * Collection of tag identifiers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsm_gateway#tags ManagementLsmGateway#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsm_gateway#tags ManagementLsmGateway#tags}
   */
   readonly tags?: string[];
   /**
   * Device platform version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsm_gateway#version ManagementLsmGateway#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsm_gateway#version ManagementLsmGateway#version}
   */
   readonly version?: string;
   /**
   * dynamic_objects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsm_gateway#dynamic_objects ManagementLsmGateway#dynamic_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsm_gateway#dynamic_objects ManagementLsmGateway#dynamic_objects}
   */
   readonly dynamicObjects?: ManagementLsmGatewayDynamicObjects[] | cdktf.IResolvable;
   /**
   * topology block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsm_gateway#topology ManagementLsmGateway#topology}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsm_gateway#topology ManagementLsmGateway#topology}
   */
   readonly topology?: ManagementLsmGatewayTopology;
 }
@@ -103,13 +103,13 @@ export interface ManagementLsmGatewayDynamicObjectsResolvedIpAddressesIpv4Addres
   /**
   * First IPv4 address of the IP address range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsm_gateway#from_ipv4_address ManagementLsmGateway#from_ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsm_gateway#from_ipv4_address ManagementLsmGateway#from_ipv4_address}
   */
   readonly fromIpv4Address?: string;
   /**
   * Last IPv4 address of the IP address range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsm_gateway#to_ipv4_address ManagementLsmGateway#to_ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsm_gateway#to_ipv4_address ManagementLsmGateway#to_ipv4_address}
   */
   readonly toIpv4Address?: string;
 }
@@ -224,13 +224,13 @@ export interface ManagementLsmGatewayDynamicObjectsResolvedIpAddresses {
   /**
   * IPv4 Address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsm_gateway#ipv4_address ManagementLsmGateway#ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsm_gateway#ipv4_address ManagementLsmGateway#ipv4_address}
   */
   readonly ipv4Address?: string;
   /**
   * ipv4_address_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsm_gateway#ipv4_address_range ManagementLsmGateway#ipv4_address_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsm_gateway#ipv4_address_range ManagementLsmGateway#ipv4_address_range}
   */
   readonly ipv4AddressRange?: ManagementLsmGatewayDynamicObjectsResolvedIpAddressesIpv4AddressRange;
 }
@@ -377,13 +377,13 @@ export interface ManagementLsmGatewayDynamicObjects {
   /**
   * Object name. Must be unique in the domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsm_gateway#name ManagementLsmGateway#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsm_gateway#name ManagementLsmGateway#name}
   */
   readonly name: string;
   /**
   * resolved_ip_addresses block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsm_gateway#resolved_ip_addresses ManagementLsmGateway#resolved_ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsm_gateway#resolved_ip_addresses ManagementLsmGateway#resolved_ip_addresses}
   */
   readonly resolvedIpAddresses?: ManagementLsmGatewayDynamicObjectsResolvedIpAddresses[] | cdktf.IResolvable;
 }
@@ -537,19 +537,19 @@ export interface ManagementLsmGatewayTopologyManualVpnDomain {
   /**
   * Comments string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsm_gateway#comments ManagementLsmGateway#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsm_gateway#comments ManagementLsmGateway#comments}
   */
   readonly comments?: string;
   /**
   * First IPv4 address of the IP address range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsm_gateway#from_ipv4_address ManagementLsmGateway#from_ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsm_gateway#from_ipv4_address ManagementLsmGateway#from_ipv4_address}
   */
   readonly fromIpv4Address?: string;
   /**
   * Last IPv4 address of the IP address range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsm_gateway#to_ipv4_address ManagementLsmGateway#to_ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsm_gateway#to_ipv4_address ManagementLsmGateway#to_ipv4_address}
   */
   readonly toIpv4Address?: string;
 }
@@ -725,13 +725,13 @@ export interface ManagementLsmGatewayTopology {
   /**
   * VPN Domain type.  'external-interfaces-only' is relevnt only for Gaia devices. 'hide-behind-gateway-external-ip-address' is relevant only for SMB devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsm_gateway#vpn_domain ManagementLsmGateway#vpn_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsm_gateway#vpn_domain ManagementLsmGateway#vpn_domain}
   */
   readonly vpnDomain?: string;
   /**
   * manual_vpn_domain block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsm_gateway#manual_vpn_domain ManagementLsmGateway#manual_vpn_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsm_gateway#manual_vpn_domain ManagementLsmGateway#manual_vpn_domain}
   */
   readonly manualVpnDomain?: ManagementLsmGatewayTopologyManualVpnDomain[] | cdktf.IResolvable;
 }
@@ -844,7 +844,7 @@ export class ManagementLsmGatewayTopologyOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsm_gateway checkpoint_management_lsm_gateway}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsm_gateway checkpoint_management_lsm_gateway}
 */
 export class ManagementLsmGateway extends cdktf.TerraformResource {
 
@@ -860,7 +860,7 @@ export class ManagementLsmGateway extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementLsmGateway resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementLsmGateway to import
-  * @param importFromId The id of the existing ManagementLsmGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsm_gateway#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementLsmGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsm_gateway#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementLsmGateway to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -872,7 +872,7 @@ export class ManagementLsmGateway extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsm_gateway checkpoint_management_lsm_gateway} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsm_gateway checkpoint_management_lsm_gateway} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -883,7 +883,8 @@ export class ManagementLsmGateway extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_lsm_gateway',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

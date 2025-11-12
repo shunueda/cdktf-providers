@@ -86,7 +86,8 @@ export class BoundaryInit extends cdktf.TerraformResource {
       terraformResourceType: 'enos_boundary_init',
       terraformGeneratorMetadata: {
         providerName: 'enos',
-        providerVersion: '0.6.2'
+        providerVersion: '0.6.2',
+        providerVersionConstraint: '0.6.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

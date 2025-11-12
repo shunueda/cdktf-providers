@@ -68,7 +68,8 @@ export class IssueLinkType extends cdktf.TerraformResource {
       terraformResourceType: 'jira_issue_link_type',
       terraformGeneratorMetadata: {
         providerName: 'jira',
-        providerVersion: '0.1.20'
+        providerVersion: '0.1.20',
+        providerVersionConstraint: '0.1.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

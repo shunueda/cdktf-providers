@@ -286,7 +286,8 @@ export class SwitchcontrollerManagedswitchSnmpcommunity extends cdktf.TerraformR
       terraformResourceType: 'fmgdevice_switchcontroller_managedswitch_snmpcommunity',
       terraformGeneratorMetadata: {
         providerName: 'fmgdevice',
-        providerVersion: '1.2.1'
+        providerVersion: '1.2.1',
+        providerVersionConstraint: '1.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

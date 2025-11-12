@@ -149,7 +149,8 @@ export class KentikSyntheticsProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'kentik-synthetics',
       terraformGeneratorMetadata: {
         providerName: 'kentik-synthetics',
-        providerVersion: '0.2.1'
+        providerVersion: '0.2.1',
+        providerVersionConstraint: '0.2.1'
       },
       terraformProviderSource: 'kentik/kentik-synthetics'
     });

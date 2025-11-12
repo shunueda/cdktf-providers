@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,454 +8,482 @@ import * as cdktf from 'cdktf';
 
 export interface LbvserverConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#appflowlog Lbvserver#appflowlog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#adfsproxyprofile Lbvserver#adfsproxyprofile}
+  */
+  readonly adfsproxyprofile?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#apiprofile Lbvserver#apiprofile}
+  */
+  readonly apiprofile?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#appflowlog Lbvserver#appflowlog}
   */
   readonly appflowlog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#authentication Lbvserver#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#authentication Lbvserver#authentication}
   */
   readonly authentication?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#authenticationhost Lbvserver#authenticationhost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#authenticationhost Lbvserver#authenticationhost}
   */
   readonly authenticationhost?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#authn401 Lbvserver#authn401}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#authn401 Lbvserver#authn401}
   */
   readonly authn401?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#authnprofile Lbvserver#authnprofile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#authnprofile Lbvserver#authnprofile}
   */
   readonly authnprofile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#authnvsname Lbvserver#authnvsname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#authnvsname Lbvserver#authnvsname}
   */
   readonly authnvsname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#backuplbmethod Lbvserver#backuplbmethod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#backuplbmethod Lbvserver#backuplbmethod}
   */
   readonly backuplbmethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#backuppersistencetimeout Lbvserver#backuppersistencetimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#backuppersistencetimeout Lbvserver#backuppersistencetimeout}
   */
   readonly backuppersistencetimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#backupvserver Lbvserver#backupvserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#backupvserver Lbvserver#backupvserver}
   */
   readonly backupvserver?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#bypassaaaa Lbvserver#bypassaaaa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#bypassaaaa Lbvserver#bypassaaaa}
   */
   readonly bypassaaaa?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#cacheable Lbvserver#cacheable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#cacheable Lbvserver#cacheable}
   */
   readonly cacheable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#ciphers Lbvserver#ciphers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#ciphers Lbvserver#ciphers}
   */
   readonly ciphers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#ciphersuites Lbvserver#ciphersuites}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#ciphersuites Lbvserver#ciphersuites}
   */
   readonly ciphersuites?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#clttimeout Lbvserver#clttimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#clttimeout Lbvserver#clttimeout}
   */
   readonly clttimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#comment Lbvserver#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#comment Lbvserver#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#connfailover Lbvserver#connfailover}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#connfailover Lbvserver#connfailover}
   */
   readonly connfailover?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#cookiename Lbvserver#cookiename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#cookiename Lbvserver#cookiename}
   */
   readonly cookiename?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#datalength Lbvserver#datalength}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#datalength Lbvserver#datalength}
   */
   readonly datalength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#dataoffset Lbvserver#dataoffset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#dataoffset Lbvserver#dataoffset}
   */
   readonly dataoffset?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#dbprofilename Lbvserver#dbprofilename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#dbprofilename Lbvserver#dbprofilename}
   */
   readonly dbprofilename?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#dbslb Lbvserver#dbslb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#dbslb Lbvserver#dbslb}
   */
   readonly dbslb?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#disableprimaryondown Lbvserver#disableprimaryondown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#disableprimaryondown Lbvserver#disableprimaryondown}
   */
   readonly disableprimaryondown?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#dns64 Lbvserver#dns64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#dns64 Lbvserver#dns64}
   */
   readonly dns64?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#dnsprofilename Lbvserver#dnsprofilename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#dnsoverhttps Lbvserver#dnsoverhttps}
+  */
+  readonly dnsoverhttps?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#dnsprofilename Lbvserver#dnsprofilename}
   */
   readonly dnsprofilename?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#downstateflush Lbvserver#downstateflush}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#downstateflush Lbvserver#downstateflush}
   */
   readonly downstateflush?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#hashlength Lbvserver#hashlength}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#hashlength Lbvserver#hashlength}
   */
   readonly hashlength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#healththreshold Lbvserver#healththreshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#healththreshold Lbvserver#healththreshold}
   */
   readonly healththreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#httpprofilename Lbvserver#httpprofilename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#httpprofilename Lbvserver#httpprofilename}
   */
   readonly httpprofilename?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#httpsredirecturl Lbvserver#httpsredirecturl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#httpsredirecturl Lbvserver#httpsredirecturl}
   */
   readonly httpsredirecturl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#icmpvsrresponse Lbvserver#icmpvsrresponse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#icmpvsrresponse Lbvserver#icmpvsrresponse}
   */
   readonly icmpvsrresponse?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#id Lbvserver#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#id Lbvserver#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#insertvserveripport Lbvserver#insertvserveripport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#insertvserveripport Lbvserver#insertvserveripport}
   */
   readonly insertvserveripport?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#ipmask Lbvserver#ipmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#ipmask Lbvserver#ipmask}
   */
   readonly ipmask?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#ippattern Lbvserver#ippattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#ippattern Lbvserver#ippattern}
   */
   readonly ippattern?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#ipset Lbvserver#ipset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#ipset Lbvserver#ipset}
   */
   readonly ipset?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#ipv46 Lbvserver#ipv46}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#ipv46 Lbvserver#ipv46}
   */
   readonly ipv46?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#l2conn Lbvserver#l2conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#l2conn Lbvserver#l2conn}
   */
   readonly l2Conn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#lbmethod Lbvserver#lbmethod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#lbmethod Lbvserver#lbmethod}
   */
   readonly lbmethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#lbprofilename Lbvserver#lbprofilename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#lbprofilename Lbvserver#lbprofilename}
   */
   readonly lbprofilename?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#listenpolicy Lbvserver#listenpolicy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#listenpolicy Lbvserver#listenpolicy}
   */
   readonly listenpolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#listenpriority Lbvserver#listenpriority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#listenpriority Lbvserver#listenpriority}
   */
   readonly listenpriority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#m Lbvserver#m}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#m Lbvserver#m}
   */
   readonly m?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#macmoderetainvlan Lbvserver#macmoderetainvlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#macmoderetainvlan Lbvserver#macmoderetainvlan}
   */
   readonly macmoderetainvlan?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#maxautoscalemembers Lbvserver#maxautoscalemembers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#maxautoscalemembers Lbvserver#maxautoscalemembers}
   */
   readonly maxautoscalemembers?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#minautoscalemembers Lbvserver#minautoscalemembers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#minautoscalemembers Lbvserver#minautoscalemembers}
   */
   readonly minautoscalemembers?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#mssqlserverversion Lbvserver#mssqlserverversion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#mssqlserverversion Lbvserver#mssqlserverversion}
   */
   readonly mssqlserverversion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#mysqlcharacterset Lbvserver#mysqlcharacterset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#mysqlcharacterset Lbvserver#mysqlcharacterset}
   */
   readonly mysqlcharacterset?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#mysqlprotocolversion Lbvserver#mysqlprotocolversion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#mysqlprotocolversion Lbvserver#mysqlprotocolversion}
   */
   readonly mysqlprotocolversion?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#mysqlservercapabilities Lbvserver#mysqlservercapabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#mysqlservercapabilities Lbvserver#mysqlservercapabilities}
   */
   readonly mysqlservercapabilities?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#mysqlserverversion Lbvserver#mysqlserverversion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#mysqlserverversion Lbvserver#mysqlserverversion}
   */
   readonly mysqlserverversion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#name Lbvserver#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#name Lbvserver#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#netmask Lbvserver#netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#netmask Lbvserver#netmask}
   */
   readonly netmask?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#netprofile Lbvserver#netprofile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#netprofile Lbvserver#netprofile}
   */
   readonly netprofile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#newname Lbvserver#newname}
-  */
-  readonly newname?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#newservicerequest Lbvserver#newservicerequest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#newservicerequest Lbvserver#newservicerequest}
   */
   readonly newservicerequest?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#newservicerequestincrementinterval Lbvserver#newservicerequestincrementinterval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#newservicerequestincrementinterval Lbvserver#newservicerequestincrementinterval}
   */
   readonly newservicerequestincrementinterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#newservicerequestunit Lbvserver#newservicerequestunit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#newservicerequestunit Lbvserver#newservicerequestunit}
   */
   readonly newservicerequestunit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#oracleserverversion Lbvserver#oracleserverversion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#oracleserverversion Lbvserver#oracleserverversion}
   */
   readonly oracleserverversion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#persistencebackup Lbvserver#persistencebackup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#orderthreshold Lbvserver#orderthreshold}
+  */
+  readonly orderthreshold?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#persistavpno Lbvserver#persistavpno}
+  */
+  readonly persistavpno?: number[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#persistencebackup Lbvserver#persistencebackup}
   */
   readonly persistencebackup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#persistencetype Lbvserver#persistencetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#persistencetype Lbvserver#persistencetype}
   */
   readonly persistencetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#persistmask Lbvserver#persistmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#persistmask Lbvserver#persistmask}
   */
   readonly persistmask?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#port Lbvserver#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#port Lbvserver#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#probeport Lbvserver#probeport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#probeport Lbvserver#probeport}
   */
   readonly probeport?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#probeprotocol Lbvserver#probeprotocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#probeprotocol Lbvserver#probeprotocol}
   */
   readonly probeprotocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#processlocal Lbvserver#processlocal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#probesuccessresponsecode Lbvserver#probesuccessresponsecode}
+  */
+  readonly probesuccessresponsecode?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#processlocal Lbvserver#processlocal}
   */
   readonly processlocal?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#push Lbvserver#push}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#push Lbvserver#push}
   */
   readonly push?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#pushlabel Lbvserver#pushlabel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#pushlabel Lbvserver#pushlabel}
   */
   readonly pushlabel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#pushmulticlients Lbvserver#pushmulticlients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#pushmulticlients Lbvserver#pushmulticlients}
   */
   readonly pushmulticlients?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#pushvserver Lbvserver#pushvserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#pushvserver Lbvserver#pushvserver}
   */
   readonly pushvserver?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#quicbridgeprofilename Lbvserver#quicbridgeprofilename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#quicbridgeprofilename Lbvserver#quicbridgeprofilename}
   */
   readonly quicbridgeprofilename?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#range Lbvserver#range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#quicprofilename Lbvserver#quicprofilename}
+  */
+  readonly quicprofilename?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#range Lbvserver#range}
   */
   readonly range?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#recursionavailable Lbvserver#recursionavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#recursionavailable Lbvserver#recursionavailable}
   */
   readonly recursionavailable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#redirectfromport Lbvserver#redirectfromport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#redirectfromport Lbvserver#redirectfromport}
   */
   readonly redirectfromport?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#redirectportrewrite Lbvserver#redirectportrewrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#redirectportrewrite Lbvserver#redirectportrewrite}
   */
   readonly redirectportrewrite?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#redirurl Lbvserver#redirurl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#redirurl Lbvserver#redirurl}
   */
   readonly redirurl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#redirurlflags Lbvserver#redirurlflags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#redirurlflags Lbvserver#redirurlflags}
   */
   readonly redirurlflags?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#resrule Lbvserver#resrule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#resrule Lbvserver#resrule}
   */
   readonly resrule?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#retainconnectionsoncluster Lbvserver#retainconnectionsoncluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#retainconnectionsoncluster Lbvserver#retainconnectionsoncluster}
   */
   readonly retainconnectionsoncluster?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#rhistate Lbvserver#rhistate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#rhistate Lbvserver#rhistate}
   */
   readonly rhistate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#rtspnat Lbvserver#rtspnat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#rtspnat Lbvserver#rtspnat}
   */
   readonly rtspnat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#rule Lbvserver#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#rule Lbvserver#rule}
   */
   readonly rule?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#servicename Lbvserver#servicename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#servicename Lbvserver#servicename}
   */
   readonly servicename?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#servicetype Lbvserver#servicetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#servicetype Lbvserver#servicetype}
   */
   readonly servicetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#sessionless Lbvserver#sessionless}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#sessionless Lbvserver#sessionless}
   */
   readonly sessionless?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#skippersistency Lbvserver#skippersistency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#skippersistency Lbvserver#skippersistency}
   */
   readonly skippersistency?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#snisslcertkeys Lbvserver#snisslcertkeys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#snisslcertkeys Lbvserver#snisslcertkeys}
   */
   readonly snisslcertkeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#sobackupaction Lbvserver#sobackupaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#sobackupaction Lbvserver#sobackupaction}
   */
   readonly sobackupaction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#somethod Lbvserver#somethod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#somethod Lbvserver#somethod}
   */
   readonly somethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#sopersistence Lbvserver#sopersistence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#sopersistence Lbvserver#sopersistence}
   */
   readonly sopersistence?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#sopersistencetimeout Lbvserver#sopersistencetimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#sopersistencetimeout Lbvserver#sopersistencetimeout}
   */
   readonly sopersistencetimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#sothreshold Lbvserver#sothreshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#sothreshold Lbvserver#sothreshold}
   */
   readonly sothreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#sslcertkey Lbvserver#sslcertkey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#sslcertkey Lbvserver#sslcertkey}
   */
   readonly sslcertkey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#sslprofile Lbvserver#sslprofile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#sslprofile Lbvserver#sslprofile}
   */
   readonly sslprofile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#state Lbvserver#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#state Lbvserver#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#tcpprofilename Lbvserver#tcpprofilename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#tcpprofilename Lbvserver#tcpprofilename}
   */
   readonly tcpprofilename?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#td Lbvserver#td}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#td Lbvserver#td}
   */
   readonly td?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#timeout Lbvserver#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#timeout Lbvserver#timeout}
   */
   readonly timeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#tosid Lbvserver#tosid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#toggleorder Lbvserver#toggleorder}
+  */
+  readonly toggleorder?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#tosid Lbvserver#tosid}
   */
   readonly tosid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#trofspersistence Lbvserver#trofspersistence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#trofspersistence Lbvserver#trofspersistence}
   */
   readonly trofspersistence?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#v6netmasklen Lbvserver#v6netmasklen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#v6netmasklen Lbvserver#v6netmasklen}
   */
   readonly v6Netmasklen?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#v6persistmasklen Lbvserver#v6persistmasklen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#v6persistmasklen Lbvserver#v6persistmasklen}
   */
   readonly v6Persistmasklen?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#vipheader Lbvserver#vipheader}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#vipheader Lbvserver#vipheader}
   */
   readonly vipheader?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#weight Lbvserver#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#weight Lbvserver#weight}
   */
   readonly weight?: number;
   /**
   * sslpolicybinding block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#sslpolicybinding Lbvserver#sslpolicybinding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#sslpolicybinding Lbvserver#sslpolicybinding}
   */
   readonly sslpolicybinding?: LbvserverSslpolicybinding[] | cdktf.IResolvable;
 }
 export interface LbvserverSslpolicybinding {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#gotopriorityexpression Lbvserver#gotopriorityexpression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#gotopriorityexpression Lbvserver#gotopriorityexpression}
   */
   readonly gotopriorityexpression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#invoke Lbvserver#invoke}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#invoke Lbvserver#invoke}
   */
   readonly invoke?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#labelname Lbvserver#labelname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#labelname Lbvserver#labelname}
   */
   readonly labelname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#labeltype Lbvserver#labeltype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#labeltype Lbvserver#labeltype}
   */
   readonly labeltype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#policyname Lbvserver#policyname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#policyname Lbvserver#policyname}
   */
   readonly policyname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#priority Lbvserver#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#priority Lbvserver#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#type Lbvserver#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#type Lbvserver#type}
   */
   readonly type?: string;
 }
@@ -745,7 +773,7 @@ export class LbvserverSslpolicybindingList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver citrixadc_lbvserver}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver citrixadc_lbvserver}
 */
 export class Lbvserver extends cdktf.TerraformResource {
 
@@ -761,7 +789,7 @@ export class Lbvserver extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Lbvserver resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Lbvserver to import
-  * @param importFromId The id of the existing Lbvserver that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Lbvserver that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Lbvserver to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -773,7 +801,7 @@ export class Lbvserver extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver citrixadc_lbvserver} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver citrixadc_lbvserver} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -784,7 +812,8 @@ export class Lbvserver extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_lbvserver',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -794,6 +823,8 @@ export class Lbvserver extends cdktf.TerraformResource {
       connection: config.connection,
       forEach: config.forEach
     });
+    this._adfsproxyprofile = config.adfsproxyprofile;
+    this._apiprofile = config.apiprofile;
     this._appflowlog = config.appflowlog;
     this._authentication = config.authentication;
     this._authenticationhost = config.authenticationhost;
@@ -817,6 +848,7 @@ export class Lbvserver extends cdktf.TerraformResource {
     this._dbslb = config.dbslb;
     this._disableprimaryondown = config.disableprimaryondown;
     this._dns64 = config.dns64;
+    this._dnsoverhttps = config.dnsoverhttps;
     this._dnsprofilename = config.dnsprofilename;
     this._downstateflush = config.downstateflush;
     this._hashlength = config.hashlength;
@@ -847,23 +879,26 @@ export class Lbvserver extends cdktf.TerraformResource {
     this._name = config.name;
     this._netmask = config.netmask;
     this._netprofile = config.netprofile;
-    this._newname = config.newname;
     this._newservicerequest = config.newservicerequest;
     this._newservicerequestincrementinterval = config.newservicerequestincrementinterval;
     this._newservicerequestunit = config.newservicerequestunit;
     this._oracleserverversion = config.oracleserverversion;
+    this._orderthreshold = config.orderthreshold;
+    this._persistavpno = config.persistavpno;
     this._persistencebackup = config.persistencebackup;
     this._persistencetype = config.persistencetype;
     this._persistmask = config.persistmask;
     this._port = config.port;
     this._probeport = config.probeport;
     this._probeprotocol = config.probeprotocol;
+    this._probesuccessresponsecode = config.probesuccessresponsecode;
     this._processlocal = config.processlocal;
     this._push = config.push;
     this._pushlabel = config.pushlabel;
     this._pushmulticlients = config.pushmulticlients;
     this._pushvserver = config.pushvserver;
     this._quicbridgeprofilename = config.quicbridgeprofilename;
+    this._quicprofilename = config.quicprofilename;
     this._range = config.range;
     this._recursionavailable = config.recursionavailable;
     this._redirectfromport = config.redirectfromport;
@@ -891,6 +926,7 @@ export class Lbvserver extends cdktf.TerraformResource {
     this._tcpprofilename = config.tcpprofilename;
     this._td = config.td;
     this._timeout = config.timeout;
+    this._toggleorder = config.toggleorder;
     this._tosid = config.tosid;
     this._trofspersistence = config.trofspersistence;
     this._v6Netmasklen = config.v6Netmasklen;
@@ -903,6 +939,38 @@ export class Lbvserver extends cdktf.TerraformResource {
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // adfsproxyprofile - computed: true, optional: true, required: false
+  private _adfsproxyprofile?: string; 
+  public get adfsproxyprofile() {
+    return this.getStringAttribute('adfsproxyprofile');
+  }
+  public set adfsproxyprofile(value: string) {
+    this._adfsproxyprofile = value;
+  }
+  public resetAdfsproxyprofile() {
+    this._adfsproxyprofile = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get adfsproxyprofileInput() {
+    return this._adfsproxyprofile;
+  }
+
+  // apiprofile - computed: true, optional: true, required: false
+  private _apiprofile?: string; 
+  public get apiprofile() {
+    return this.getStringAttribute('apiprofile');
+  }
+  public set apiprofile(value: string) {
+    this._apiprofile = value;
+  }
+  public resetApiprofile() {
+    this._apiprofile = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get apiprofileInput() {
+    return this._apiprofile;
+  }
 
   // appflowlog - computed: true, optional: true, required: false
   private _appflowlog?: string; 
@@ -1270,6 +1338,22 @@ export class Lbvserver extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get dns64Input() {
     return this._dns64;
+  }
+
+  // dnsoverhttps - computed: true, optional: true, required: false
+  private _dnsoverhttps?: string; 
+  public get dnsoverhttps() {
+    return this.getStringAttribute('dnsoverhttps');
+  }
+  public set dnsoverhttps(value: string) {
+    this._dnsoverhttps = value;
+  }
+  public resetDnsoverhttps() {
+    this._dnsoverhttps = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dnsoverhttpsInput() {
+    return this._dnsoverhttps;
   }
 
   // dnsprofilename - computed: true, optional: true, required: false
@@ -1752,22 +1836,6 @@ export class Lbvserver extends cdktf.TerraformResource {
     return this._netprofile;
   }
 
-  // newname - computed: true, optional: true, required: false
-  private _newname?: string; 
-  public get newname() {
-    return this.getStringAttribute('newname');
-  }
-  public set newname(value: string) {
-    this._newname = value;
-  }
-  public resetNewname() {
-    this._newname = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get newnameInput() {
-    return this._newname;
-  }
-
   // newservicerequest - computed: true, optional: true, required: false
   private _newservicerequest?: number; 
   public get newservicerequest() {
@@ -1830,6 +1898,38 @@ export class Lbvserver extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get oracleserverversionInput() {
     return this._oracleserverversion;
+  }
+
+  // orderthreshold - computed: true, optional: true, required: false
+  private _orderthreshold?: number; 
+  public get orderthreshold() {
+    return this.getNumberAttribute('orderthreshold');
+  }
+  public set orderthreshold(value: number) {
+    this._orderthreshold = value;
+  }
+  public resetOrderthreshold() {
+    this._orderthreshold = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get orderthresholdInput() {
+    return this._orderthreshold;
+  }
+
+  // persistavpno - computed: true, optional: true, required: false
+  private _persistavpno?: number[]; 
+  public get persistavpno() {
+    return this.getNumberListAttribute('persistavpno');
+  }
+  public set persistavpno(value: number[]) {
+    this._persistavpno = value;
+  }
+  public resetPersistavpno() {
+    this._persistavpno = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get persistavpnoInput() {
+    return this._persistavpno;
   }
 
   // persistencebackup - computed: true, optional: true, required: false
@@ -1928,6 +2028,22 @@ export class Lbvserver extends cdktf.TerraformResource {
     return this._probeprotocol;
   }
 
+  // probesuccessresponsecode - computed: true, optional: true, required: false
+  private _probesuccessresponsecode?: string; 
+  public get probesuccessresponsecode() {
+    return this.getStringAttribute('probesuccessresponsecode');
+  }
+  public set probesuccessresponsecode(value: string) {
+    this._probesuccessresponsecode = value;
+  }
+  public resetProbesuccessresponsecode() {
+    this._probesuccessresponsecode = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get probesuccessresponsecodeInput() {
+    return this._probesuccessresponsecode;
+  }
+
   // processlocal - computed: true, optional: true, required: false
   private _processlocal?: string; 
   public get processlocal() {
@@ -2022,6 +2138,22 @@ export class Lbvserver extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get quicbridgeprofilenameInput() {
     return this._quicbridgeprofilename;
+  }
+
+  // quicprofilename - computed: true, optional: true, required: false
+  private _quicprofilename?: string; 
+  public get quicprofilename() {
+    return this.getStringAttribute('quicprofilename');
+  }
+  public set quicprofilename(value: string) {
+    this._quicprofilename = value;
+  }
+  public resetQuicprofilename() {
+    this._quicprofilename = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get quicprofilenameInput() {
+    return this._quicprofilename;
   }
 
   // range - computed: true, optional: true, required: false
@@ -2456,6 +2588,22 @@ export class Lbvserver extends cdktf.TerraformResource {
     return this._timeout;
   }
 
+  // toggleorder - computed: true, optional: true, required: false
+  private _toggleorder?: string; 
+  public get toggleorder() {
+    return this.getStringAttribute('toggleorder');
+  }
+  public set toggleorder(value: string) {
+    this._toggleorder = value;
+  }
+  public resetToggleorder() {
+    this._toggleorder = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get toggleorderInput() {
+    return this._toggleorder;
+  }
+
   // tosid - computed: true, optional: true, required: false
   private _tosid?: number; 
   public get tosid() {
@@ -2574,6 +2722,8 @@ export class Lbvserver extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      adfsproxyprofile: cdktf.stringToTerraform(this._adfsproxyprofile),
+      apiprofile: cdktf.stringToTerraform(this._apiprofile),
       appflowlog: cdktf.stringToTerraform(this._appflowlog),
       authentication: cdktf.stringToTerraform(this._authentication),
       authenticationhost: cdktf.stringToTerraform(this._authenticationhost),
@@ -2597,6 +2747,7 @@ export class Lbvserver extends cdktf.TerraformResource {
       dbslb: cdktf.stringToTerraform(this._dbslb),
       disableprimaryondown: cdktf.stringToTerraform(this._disableprimaryondown),
       dns64: cdktf.stringToTerraform(this._dns64),
+      dnsoverhttps: cdktf.stringToTerraform(this._dnsoverhttps),
       dnsprofilename: cdktf.stringToTerraform(this._dnsprofilename),
       downstateflush: cdktf.stringToTerraform(this._downstateflush),
       hashlength: cdktf.numberToTerraform(this._hashlength),
@@ -2627,23 +2778,26 @@ export class Lbvserver extends cdktf.TerraformResource {
       name: cdktf.stringToTerraform(this._name),
       netmask: cdktf.stringToTerraform(this._netmask),
       netprofile: cdktf.stringToTerraform(this._netprofile),
-      newname: cdktf.stringToTerraform(this._newname),
       newservicerequest: cdktf.numberToTerraform(this._newservicerequest),
       newservicerequestincrementinterval: cdktf.numberToTerraform(this._newservicerequestincrementinterval),
       newservicerequestunit: cdktf.stringToTerraform(this._newservicerequestunit),
       oracleserverversion: cdktf.stringToTerraform(this._oracleserverversion),
+      orderthreshold: cdktf.numberToTerraform(this._orderthreshold),
+      persistavpno: cdktf.listMapper(cdktf.numberToTerraform, false)(this._persistavpno),
       persistencebackup: cdktf.stringToTerraform(this._persistencebackup),
       persistencetype: cdktf.stringToTerraform(this._persistencetype),
       persistmask: cdktf.stringToTerraform(this._persistmask),
       port: cdktf.numberToTerraform(this._port),
       probeport: cdktf.numberToTerraform(this._probeport),
       probeprotocol: cdktf.stringToTerraform(this._probeprotocol),
+      probesuccessresponsecode: cdktf.stringToTerraform(this._probesuccessresponsecode),
       processlocal: cdktf.stringToTerraform(this._processlocal),
       push: cdktf.stringToTerraform(this._push),
       pushlabel: cdktf.stringToTerraform(this._pushlabel),
       pushmulticlients: cdktf.stringToTerraform(this._pushmulticlients),
       pushvserver: cdktf.stringToTerraform(this._pushvserver),
       quicbridgeprofilename: cdktf.stringToTerraform(this._quicbridgeprofilename),
+      quicprofilename: cdktf.stringToTerraform(this._quicprofilename),
       range: cdktf.numberToTerraform(this._range),
       recursionavailable: cdktf.stringToTerraform(this._recursionavailable),
       redirectfromport: cdktf.numberToTerraform(this._redirectfromport),
@@ -2671,6 +2825,7 @@ export class Lbvserver extends cdktf.TerraformResource {
       tcpprofilename: cdktf.stringToTerraform(this._tcpprofilename),
       td: cdktf.numberToTerraform(this._td),
       timeout: cdktf.numberToTerraform(this._timeout),
+      toggleorder: cdktf.stringToTerraform(this._toggleorder),
       tosid: cdktf.numberToTerraform(this._tosid),
       trofspersistence: cdktf.stringToTerraform(this._trofspersistence),
       v6netmasklen: cdktf.numberToTerraform(this._v6Netmasklen),
@@ -2683,6 +2838,18 @@ export class Lbvserver extends cdktf.TerraformResource {
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
+      adfsproxyprofile: {
+        value: cdktf.stringToHclTerraform(this._adfsproxyprofile),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      apiprofile: {
+        value: cdktf.stringToHclTerraform(this._apiprofile),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       appflowlog: {
         value: cdktf.stringToHclTerraform(this._appflowlog),
         isBlock: false,
@@ -2817,6 +2984,12 @@ export class Lbvserver extends cdktf.TerraformResource {
       },
       dns64: {
         value: cdktf.stringToHclTerraform(this._dns64),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      dnsoverhttps: {
+        value: cdktf.stringToHclTerraform(this._dnsoverhttps),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
@@ -3001,12 +3174,6 @@ export class Lbvserver extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
-      newname: {
-        value: cdktf.stringToHclTerraform(this._newname),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
       newservicerequest: {
         value: cdktf.numberToHclTerraform(this._newservicerequest),
         isBlock: false,
@@ -3030,6 +3197,18 @@ export class Lbvserver extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      orderthreshold: {
+        value: cdktf.numberToHclTerraform(this._orderthreshold),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      persistavpno: {
+        value: cdktf.listMapperHcl(cdktf.numberToHclTerraform, false)(this._persistavpno),
+        isBlock: false,
+        type: "list",
+        storageClassType: "numberList",
       },
       persistencebackup: {
         value: cdktf.stringToHclTerraform(this._persistencebackup),
@@ -3067,6 +3246,12 @@ export class Lbvserver extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      probesuccessresponsecode: {
+        value: cdktf.stringToHclTerraform(this._probesuccessresponsecode),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       processlocal: {
         value: cdktf.stringToHclTerraform(this._processlocal),
         isBlock: false,
@@ -3099,6 +3284,12 @@ export class Lbvserver extends cdktf.TerraformResource {
       },
       quicbridgeprofilename: {
         value: cdktf.stringToHclTerraform(this._quicbridgeprofilename),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      quicprofilename: {
+        value: cdktf.stringToHclTerraform(this._quicprofilename),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
@@ -3264,6 +3455,12 @@ export class Lbvserver extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "number",
+      },
+      toggleorder: {
+        value: cdktf.stringToHclTerraform(this._toggleorder),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
       tosid: {
         value: cdktf.numberToHclTerraform(this._tosid),

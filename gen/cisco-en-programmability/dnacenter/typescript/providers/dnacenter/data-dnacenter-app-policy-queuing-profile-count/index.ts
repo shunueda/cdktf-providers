@@ -136,7 +136,8 @@ export class DataDnacenterAppPolicyQueuingProfileCount extends cdktf.TerraformDa
       terraformResourceType: 'dnacenter_app_policy_queuing_profile_count',
       terraformGeneratorMetadata: {
         providerName: 'dnacenter',
-        providerVersion: '1.1.21'
+        providerVersion: '1.1.21',
+        providerVersionConstraint: '1.1.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

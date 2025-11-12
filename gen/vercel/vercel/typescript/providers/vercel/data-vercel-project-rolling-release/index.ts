@@ -141,7 +141,8 @@ export class DataVercelProjectRollingRelease extends cdktf.TerraformDataSource {
       terraformResourceType: 'vercel_project_rolling_release',
       terraformGeneratorMetadata: {
         providerName: 'vercel',
-        providerVersion: '4.0.0'
+        providerVersion: '4.0.0',
+        providerVersionConstraint: '4.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

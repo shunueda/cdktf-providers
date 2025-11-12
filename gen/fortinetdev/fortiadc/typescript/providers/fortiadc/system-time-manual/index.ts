@@ -100,7 +100,8 @@ export class SystemTimeManual extends cdktf.TerraformResource {
       terraformResourceType: 'fortiadc_system_time_manual',
       terraformGeneratorMetadata: {
         providerName: 'fortiadc',
-        providerVersion: '1.3.1'
+        providerVersion: '1.3.1',
+        providerVersionConstraint: '1.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

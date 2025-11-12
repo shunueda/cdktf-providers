@@ -3,7 +3,7 @@ export interface EnvironmentMetadataCreatedBy {
   /**
   * Id of the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#id Environment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#id Environment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -12,13 +12,13 @@ export interface EnvironmentMetadataCreatedBy {
   /**
   * Whether person is logged in using sso
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#is_sso_user Environment#is_sso_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#is_sso_user Environment#is_sso_user}
   */
   readonly isSsoUser?: boolean | cdktf.IResolvable;
   /**
   * Username fo the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#username Environment#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#username Environment#username}
   */
   readonly username?: string;
 }
@@ -162,7 +162,7 @@ export interface EnvironmentMetadataModifiedBy {
   /**
   * Id of the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#id Environment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#id Environment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -171,13 +171,13 @@ export interface EnvironmentMetadataModifiedBy {
   /**
   * Whether person is logged in using sso
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#is_sso_user Environment#is_sso_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#is_sso_user Environment#is_sso_user}
   */
   readonly isSsoUser?: boolean | cdktf.IResolvable;
   /**
   * Username fo the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#username Environment#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#username Environment#username}
   */
   readonly username?: string;
 }
@@ -321,49 +321,49 @@ export interface EnvironmentMetadata {
   /**
   * annotations of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#annotations Environment#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#annotations Environment#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * description of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#description Environment#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#description Environment#description}
   */
   readonly description?: string;
   /**
   * Display Name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#display_name Environment#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#display_name Environment#display_name}
   */
   readonly displayName?: string;
   /**
   * labels of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#labels Environment#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#labels Environment#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#name Environment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#name Environment#name}
   */
   readonly name?: string;
   /**
   * Project of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#project Environment#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#project Environment#project}
   */
   readonly project?: string;
   /**
   * created_by block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#created_by Environment#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#created_by Environment#created_by}
   */
   readonly createdBy?: EnvironmentMetadataCreatedBy;
   /**
   * modified_by block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#modified_by Environment#modified_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#modified_by Environment#modified_by}
   */
   readonly modifiedBy?: EnvironmentMetadataModifiedBy;
 }
@@ -652,25 +652,25 @@ export interface EnvironmentSpecAgentPools {
   /**
   * name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#name Environment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#name Environment#name}
   */
   readonly name?: string;
   /**
   * Indicates if a resource is from system catalog
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#system_catalog Environment#system_catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#system_catalog Environment#system_catalog}
   */
   readonly systemCatalog?: boolean | cdktf.IResolvable;
   /**
   * version of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#version Environment#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#version Environment#version}
   */
   readonly version?: string;
   /**
   * state of the resource version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#version_state Environment#version_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#version_state Environment#version_state}
   */
   readonly versionState?: string;
 }
@@ -875,25 +875,25 @@ export interface EnvironmentSpecAgents {
   /**
   * name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#name Environment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#name Environment#name}
   */
   readonly name?: string;
   /**
   * Indicates if a resource is from system catalog
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#system_catalog Environment#system_catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#system_catalog Environment#system_catalog}
   */
   readonly systemCatalog?: boolean | cdktf.IResolvable;
   /**
   * version of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#version Environment#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#version Environment#version}
   */
   readonly version?: string;
   /**
   * state of the resource version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#version_state Environment#version_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#version_state Environment#version_state}
   */
   readonly versionState?: string;
 }
@@ -1098,31 +1098,31 @@ export interface EnvironmentSpecEnvVarsOptionsOverride {
   /**
   * Display overridden values on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#display_overridden Environment#display_overridden}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#display_overridden Environment#display_overridden}
   */
   readonly displayOverridden?: boolean | cdktf.IResolvable;
   /**
   * If the override type is restricted_key_values, values it is restricted to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#restricted_key_values Environment#restricted_key_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#restricted_key_values Environment#restricted_key_values}
   */
   readonly restrictedKeyValues?: { [key: string]: string };
   /**
   * If the override type is restricted, values it is restricted to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#restricted_values Environment#restricted_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#restricted_values Environment#restricted_values}
   */
   readonly restrictedValues?: string[];
   /**
   * Used to alias a variable and restrict the override scope
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#selectors Environment#selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#selectors Environment#selectors}
   */
   readonly selectors?: string[];
   /**
   * Specify the type of ovverride this variable supports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#type Environment#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#type Environment#type}
   */
   readonly type?: string;
 }
@@ -1324,13 +1324,13 @@ export interface EnvironmentSpecEnvVarsOptionsSchema {
   /**
   * JSONSchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#jsonschema Environment#jsonschema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#jsonschema Environment#jsonschema}
   */
   readonly jsonschema?: string;
   /**
   * UISchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#uischema Environment#uischema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#uischema Environment#uischema}
   */
   readonly uischema?: string;
 }
@@ -1443,41 +1443,41 @@ export class EnvironmentSpecEnvVarsOptionsSchemaOutputReference extends cdktf.Co
 }
 export interface EnvironmentSpecEnvVarsOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#description Environment#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#description Environment#description}
   */
   readonly description?: string;
   /**
   * Display metadata to render environment variable on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#display_metadata Environment#display_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#display_metadata Environment#display_metadata}
   */
   readonly displayMetadata?: string;
   /**
   * Determines whether the environment variable is immutable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#immutable Environment#immutable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#immutable Environment#immutable}
   */
   readonly immutable?: boolean | cdktf.IResolvable;
   /**
   * Determines whether the variable is required / mandatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#required Environment#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#required Environment#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#sensitive Environment#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#sensitive Environment#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#override Environment#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#override Environment#override}
   */
   readonly override?: EnvironmentSpecEnvVarsOptionsOverride;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#schema Environment#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#schema Environment#schema}
   */
   readonly schema?: EnvironmentSpecEnvVarsOptionsSchema;
 }
@@ -1737,25 +1737,25 @@ export interface EnvironmentSpecEnvVars {
   /**
   * Key of the environment variable to be set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#key Environment#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#key Environment#key}
   */
   readonly key?: string;
   /**
   * Deprecated: use options.sensitive. Determines whether the value is sensitive or not, accordingly applies encryption on it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#sensitive Environment#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#sensitive Environment#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * Value of the environment variable to be set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#value Environment#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#value Environment#value}
   */
   readonly value?: string;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#options Environment#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#options Environment#options}
   */
   readonly options?: EnvironmentSpecEnvVarsOptions;
 }
@@ -1960,7 +1960,7 @@ export interface EnvironmentSpecFilesOptionsOverride {
   /**
   * Specify the type of override this file supports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#type Environment#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#type Environment#type}
   */
   readonly type?: string;
 }
@@ -2046,13 +2046,13 @@ export interface EnvironmentSpecFilesOptionsSchema {
   /**
   * JSONSchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#jsonschema Environment#jsonschema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#jsonschema Environment#jsonschema}
   */
   readonly jsonschema?: string;
   /**
   * UISchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#uischema Environment#uischema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#uischema Environment#uischema}
   */
   readonly uischema?: string;
 }
@@ -2167,37 +2167,37 @@ export interface EnvironmentSpecFilesOptions {
   /**
   * Description of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#description Environment#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#description Environment#description}
   */
   readonly description?: string;
   /**
   * Display metadata to render file on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#display_metadata Environment#display_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#display_metadata Environment#display_metadata}
   */
   readonly displayMetadata?: string;
   /**
   * Determines whether the file is required / mandatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#required Environment#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#required Environment#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#sensitive Environment#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#sensitive Environment#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#override Environment#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#override Environment#override}
   */
   readonly override?: EnvironmentSpecFilesOptionsOverride;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#schema Environment#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#schema Environment#schema}
   */
   readonly schema?: EnvironmentSpecFilesOptionsSchema;
 }
@@ -2428,31 +2428,31 @@ export interface EnvironmentSpecFiles {
   /**
   * data is the base64 encoded contents of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#data Environment#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#data Environment#data}
   */
   readonly data?: string;
   /**
   * specify mount path of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#mount_path Environment#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#mount_path Environment#mount_path}
   */
   readonly mountPath?: string;
   /**
   * Name or relative path of a artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#name Environment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#name Environment#name}
   */
   readonly name?: string;
   /**
   * Deprected: use options.sensitive. data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#sensitive Environment#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#sensitive Environment#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#options Environment#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#options Environment#options}
   */
   readonly options?: EnvironmentSpecFilesOptions;
 }
@@ -2686,25 +2686,25 @@ export interface EnvironmentSpecReconcileResources {
   /**
   * name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#name Environment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#name Environment#name}
   */
   readonly name?: string;
   /**
   * Indicates if a resource is from system catalog
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#system_catalog Environment#system_catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#system_catalog Environment#system_catalog}
   */
   readonly systemCatalog?: boolean | cdktf.IResolvable;
   /**
   * version of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#version Environment#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#version Environment#version}
   */
   readonly version?: string;
   /**
   * state of the resource version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#version_state Environment#version_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#version_state Environment#version_state}
   */
   readonly versionState?: string;
 }
@@ -2907,13 +2907,13 @@ export class EnvironmentSpecReconcileResourcesList extends cdktf.ComplexList {
 }
 export interface EnvironmentSpecRunAsUserOptionsOverride {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#restricted_values Environment#restricted_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#restricted_values Environment#restricted_values}
   */
   readonly restrictedValues?: string[];
   /**
   * Specify the type of ovverride this variable supports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#type Environment#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#type Environment#type}
   */
   readonly type?: string;
 }
@@ -3026,17 +3026,17 @@ export class EnvironmentSpecRunAsUserOptionsOverrideOutputReference extends cdkt
 }
 export interface EnvironmentSpecRunAsUserOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#description Environment#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#description Environment#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#required Environment#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#required Environment#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#override Environment#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#override Environment#override}
   */
   readonly override?: EnvironmentSpecRunAsUserOptionsOverride;
 }
@@ -3180,19 +3180,19 @@ export interface EnvironmentSpecRunAsUser {
   /**
   * Whether person is logged in using sso
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#is_sso_user Environment#is_sso_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#is_sso_user Environment#is_sso_user}
   */
   readonly isSsoUser?: boolean | cdktf.IResolvable;
   /**
   * Username fo the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#username Environment#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#username Environment#username}
   */
   readonly username?: string;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#options Environment#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#options Environment#options}
   */
   readonly options?: EnvironmentSpecRunAsUserOptions;
 }
@@ -3336,13 +3336,13 @@ export interface EnvironmentSpecScheduleOptouts {
   /**
   * Requested opt out duration, time units are 'm', 'h', 'd' e.g. 8h, 2d
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#duration Environment#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#duration Environment#duration}
   */
   readonly duration?: string;
   /**
   * Name of the schedule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#name Environment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#name Environment#name}
   */
   readonly name?: string;
 }
@@ -3487,7 +3487,7 @@ export class EnvironmentSpecScheduleOptoutsList extends cdktf.ComplexList {
 }
 export interface EnvironmentSpecSchedulesCadenceStaggeredEnabled {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#value Environment#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#value Environment#value}
   */
   readonly value?: boolean | cdktf.IResolvable;
 }
@@ -3573,13 +3573,13 @@ export interface EnvironmentSpecSchedulesCadenceStaggered {
   /**
   * Introduces random delay on schedules with permissible max interval, applicable only if enabled is set to true, time units are 's', 'm' e.g. 300s, 30m
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#max_interval Environment#max_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#max_interval Environment#max_interval}
   */
   readonly maxInterval?: string;
   /**
   * enabled block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#enabled Environment#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#enabled Environment#enabled}
   */
   readonly enabled?: EnvironmentSpecSchedulesCadenceStaggeredEnabled;
 }
@@ -3694,25 +3694,25 @@ export interface EnvironmentSpecSchedulesCadence {
   /**
   * Cron expression used to configure scheduling jobs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#cron_expression Environment#cron_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#cron_expression Environment#cron_expression}
   */
   readonly cronExpression?: string;
   /**
   * Specify the timezone of cron expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#cron_timezone Environment#cron_timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#cron_timezone Environment#cron_timezone}
   */
   readonly cronTimezone?: string;
   /**
   * Specify the maximum time to live duration of an environment, time units are 'h', 'd' e.g. 8h, 2d
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#time_to_live Environment#time_to_live}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#time_to_live Environment#time_to_live}
   */
   readonly timeToLive?: string;
   /**
   * staggered block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#staggered Environment#staggered}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#staggered Environment#staggered}
   */
   readonly staggered?: EnvironmentSpecSchedulesCadenceStaggered;
 }
@@ -3885,31 +3885,31 @@ export interface EnvironmentSpecSchedulesContextDataEnvsOptionsOverride {
   /**
   * Display overridden values on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#display_overridden Environment#display_overridden}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#display_overridden Environment#display_overridden}
   */
   readonly displayOverridden?: boolean | cdktf.IResolvable;
   /**
   * If the override type is restricted_key_values, values it is restricted to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#restricted_key_values Environment#restricted_key_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#restricted_key_values Environment#restricted_key_values}
   */
   readonly restrictedKeyValues?: { [key: string]: string };
   /**
   * If the override type is restricted, values it is restricted to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#restricted_values Environment#restricted_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#restricted_values Environment#restricted_values}
   */
   readonly restrictedValues?: string[];
   /**
   * Used to alias a variable and restrict the override scope
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#selectors Environment#selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#selectors Environment#selectors}
   */
   readonly selectors?: string[];
   /**
   * Specify the type of ovverride this variable supports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#type Environment#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#type Environment#type}
   */
   readonly type?: string;
 }
@@ -4111,13 +4111,13 @@ export interface EnvironmentSpecSchedulesContextDataEnvsOptionsSchema {
   /**
   * JSONSchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#jsonschema Environment#jsonschema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#jsonschema Environment#jsonschema}
   */
   readonly jsonschema?: string;
   /**
   * UISchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#uischema Environment#uischema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#uischema Environment#uischema}
   */
   readonly uischema?: string;
 }
@@ -4230,41 +4230,41 @@ export class EnvironmentSpecSchedulesContextDataEnvsOptionsSchemaOutputReference
 }
 export interface EnvironmentSpecSchedulesContextDataEnvsOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#description Environment#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#description Environment#description}
   */
   readonly description?: string;
   /**
   * Display metadata to render environment variable on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#display_metadata Environment#display_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#display_metadata Environment#display_metadata}
   */
   readonly displayMetadata?: string;
   /**
   * Determines whether the environment variable is immutable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#immutable Environment#immutable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#immutable Environment#immutable}
   */
   readonly immutable?: boolean | cdktf.IResolvable;
   /**
   * Determines whether the variable is required / mandatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#required Environment#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#required Environment#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#sensitive Environment#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#sensitive Environment#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#override Environment#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#override Environment#override}
   */
   readonly override?: EnvironmentSpecSchedulesContextDataEnvsOptionsOverride;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#schema Environment#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#schema Environment#schema}
   */
   readonly schema?: EnvironmentSpecSchedulesContextDataEnvsOptionsSchema;
 }
@@ -4524,25 +4524,25 @@ export interface EnvironmentSpecSchedulesContextDataEnvs {
   /**
   * Key of the environment variable to be set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#key Environment#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#key Environment#key}
   */
   readonly key?: string;
   /**
   * Deprecated: use options.sensitive. Determines whether the value is sensitive or not, accordingly applies encryption on it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#sensitive Environment#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#sensitive Environment#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * Value of the environment variable to be set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#value Environment#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#value Environment#value}
   */
   readonly value?: string;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#options Environment#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#options Environment#options}
   */
   readonly options?: EnvironmentSpecSchedulesContextDataEnvsOptions;
 }
@@ -4747,7 +4747,7 @@ export interface EnvironmentSpecSchedulesContextDataFilesOptionsOverride {
   /**
   * Specify the type of override this file supports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#type Environment#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#type Environment#type}
   */
   readonly type?: string;
 }
@@ -4833,13 +4833,13 @@ export interface EnvironmentSpecSchedulesContextDataFilesOptionsSchema {
   /**
   * JSONSchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#jsonschema Environment#jsonschema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#jsonschema Environment#jsonschema}
   */
   readonly jsonschema?: string;
   /**
   * UISchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#uischema Environment#uischema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#uischema Environment#uischema}
   */
   readonly uischema?: string;
 }
@@ -4954,37 +4954,37 @@ export interface EnvironmentSpecSchedulesContextDataFilesOptions {
   /**
   * Description of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#description Environment#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#description Environment#description}
   */
   readonly description?: string;
   /**
   * Display metadata to render file on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#display_metadata Environment#display_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#display_metadata Environment#display_metadata}
   */
   readonly displayMetadata?: string;
   /**
   * Determines whether the file is required / mandatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#required Environment#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#required Environment#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#sensitive Environment#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#sensitive Environment#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#override Environment#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#override Environment#override}
   */
   readonly override?: EnvironmentSpecSchedulesContextDataFilesOptionsOverride;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#schema Environment#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#schema Environment#schema}
   */
   readonly schema?: EnvironmentSpecSchedulesContextDataFilesOptionsSchema;
 }
@@ -5215,31 +5215,31 @@ export interface EnvironmentSpecSchedulesContextDataFiles {
   /**
   * data is the base64 encoded contents of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#data Environment#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#data Environment#data}
   */
   readonly data?: string;
   /**
   * specify mount path of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#mount_path Environment#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#mount_path Environment#mount_path}
   */
   readonly mountPath?: string;
   /**
   * Name or relative path of a artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#name Environment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#name Environment#name}
   */
   readonly name?: string;
   /**
   * Deprected: use options.sensitive. data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#sensitive Environment#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#sensitive Environment#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#options Environment#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#options Environment#options}
   */
   readonly options?: EnvironmentSpecSchedulesContextDataFilesOptions;
 }
@@ -5473,31 +5473,31 @@ export interface EnvironmentSpecSchedulesContextDataVariablesOptionsOverride {
   /**
   * Display overridden values on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#display_overridden Environment#display_overridden}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#display_overridden Environment#display_overridden}
   */
   readonly displayOverridden?: boolean | cdktf.IResolvable;
   /**
   * If the override type is restricted_key_values, values it is restricted to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#restricted_key_values Environment#restricted_key_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#restricted_key_values Environment#restricted_key_values}
   */
   readonly restrictedKeyValues?: { [key: string]: string };
   /**
   * If the override type is restricted, values it is restricted to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#restricted_values Environment#restricted_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#restricted_values Environment#restricted_values}
   */
   readonly restrictedValues?: string[];
   /**
   * Used to alias a variable and restrict the override scope
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#selectors Environment#selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#selectors Environment#selectors}
   */
   readonly selectors?: string[];
   /**
   * Specify the type of ovverride this variable supports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#type Environment#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#type Environment#type}
   */
   readonly type?: string;
 }
@@ -5699,13 +5699,13 @@ export interface EnvironmentSpecSchedulesContextDataVariablesOptionsSchema {
   /**
   * JSONSchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#jsonschema Environment#jsonschema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#jsonschema Environment#jsonschema}
   */
   readonly jsonschema?: string;
   /**
   * UISchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#uischema Environment#uischema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#uischema Environment#uischema}
   */
   readonly uischema?: string;
 }
@@ -5820,43 +5820,43 @@ export interface EnvironmentSpecSchedulesContextDataVariablesOptions {
   /**
   * Description of the variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#description Environment#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#description Environment#description}
   */
   readonly description?: string;
   /**
   * Display metadata to render variable on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#display_metadata Environment#display_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#display_metadata Environment#display_metadata}
   */
   readonly displayMetadata?: string;
   /**
   * Determines whether the variable is immutable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#immutable Environment#immutable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#immutable Environment#immutable}
   */
   readonly immutable?: boolean | cdktf.IResolvable;
   /**
   * Specify whether this variable is required or optional, by default it is optional
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#required Environment#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#required Environment#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * Determines whether the value is sensitive or not, accordingly applies encryption on it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#sensitive Environment#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#sensitive Environment#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#override Environment#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#override Environment#override}
   */
   readonly override?: EnvironmentSpecSchedulesContextDataVariablesOptionsOverride;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#schema Environment#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#schema Environment#schema}
   */
   readonly schema?: EnvironmentSpecSchedulesContextDataVariablesOptionsSchema;
 }
@@ -6116,25 +6116,25 @@ export interface EnvironmentSpecSchedulesContextDataVariables {
   /**
   * Name of the variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#name Environment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#name Environment#name}
   */
   readonly name: string;
   /**
   * Value of the variable in the specified format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#value Environment#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#value Environment#value}
   */
   readonly value?: string;
   /**
   * Specify the variable value type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#value_type Environment#value_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#value_type Environment#value_type}
   */
   readonly valueType: string;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#options Environment#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#options Environment#options}
   */
   readonly options?: EnvironmentSpecSchedulesContextDataVariablesOptions;
 }
@@ -6333,19 +6333,19 @@ export interface EnvironmentSpecSchedulesContextData {
   /**
   * envs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#envs Environment#envs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#envs Environment#envs}
   */
   readonly envs?: EnvironmentSpecSchedulesContextDataEnvs[] | cdktf.IResolvable;
   /**
   * files block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#files Environment#files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#files Environment#files}
   */
   readonly files?: EnvironmentSpecSchedulesContextDataFiles[] | cdktf.IResolvable;
   /**
   * variables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#variables Environment#variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#variables Environment#variables}
   */
   readonly variables?: EnvironmentSpecSchedulesContextDataVariables[] | cdktf.IResolvable;
 }
@@ -6489,13 +6489,13 @@ export interface EnvironmentSpecSchedulesContext {
   /**
   * Name of the config context
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#name Environment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#name Environment#name}
   */
   readonly name?: string;
   /**
   * data block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#data Environment#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#data Environment#data}
   */
   readonly data?: EnvironmentSpecSchedulesContextData;
 }
@@ -6608,7 +6608,7 @@ export class EnvironmentSpecSchedulesContextOutputReference extends cdktf.Comple
 }
 export interface EnvironmentSpecSchedulesOptOutOptionsAllowOptOut {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#value Environment#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#value Environment#value}
   */
   readonly value?: boolean | cdktf.IResolvable;
 }
@@ -6694,25 +6694,25 @@ export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksAgentPools {
   /**
   * name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#name Environment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#name Environment#name}
   */
   readonly name?: string;
   /**
   * Indicates if a resource is from system catalog
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#system_catalog Environment#system_catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#system_catalog Environment#system_catalog}
   */
   readonly systemCatalog?: boolean | cdktf.IResolvable;
   /**
   * version of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#version Environment#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#version Environment#version}
   */
   readonly version?: string;
   /**
   * state of the resource version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#version_state Environment#version_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#version_state Environment#version_state}
   */
   readonly versionState?: string;
 }
@@ -6917,25 +6917,25 @@ export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksAgents {
   /**
   * name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#name Environment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#name Environment#name}
   */
   readonly name?: string;
   /**
   * Indicates if a resource is from system catalog
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#system_catalog Environment#system_catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#system_catalog Environment#system_catalog}
   */
   readonly systemCatalog?: boolean | cdktf.IResolvable;
   /**
   * version of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#version Environment#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#version Environment#version}
   */
   readonly version?: string;
   /**
   * state of the resource version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#version_state Environment#version_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#version_state Environment#version_state}
   */
   readonly versionState?: string;
 }
@@ -7140,19 +7140,19 @@ export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataCon
   /**
   * Specify the registry password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#password Environment#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#password Environment#password}
   */
   readonly password?: string;
   /**
   * Specify the container image registry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#registry Environment#registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#registry Environment#registry}
   */
   readonly registry?: string;
   /**
   * Specify the registry username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#username Environment#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#username Environment#username}
   */
   readonly username?: string;
 }
@@ -7296,13 +7296,13 @@ export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataCon
   /**
   * Specify the kube config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#kube_config Environment#kube_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#kube_config Environment#kube_config}
   */
   readonly kubeConfig?: string;
   /**
   * Specify if out of cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#out_of_cluster Environment#out_of_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#out_of_cluster Environment#out_of_cluster}
   */
   readonly outOfCluster?: boolean | cdktf.IResolvable;
 }
@@ -7415,15 +7415,15 @@ export class EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigC
 }
 export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigContainerKubeOptionsAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#key Environment#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#key Environment#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#operator Environment#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#operator Environment#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#values Environment#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#values Environment#values}
   */
   readonly values?: string[];
 }
@@ -7597,15 +7597,15 @@ export class EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigC
 }
 export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigContainerKubeOptionsAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#key Environment#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#key Environment#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#operator Environment#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#operator Environment#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#values Environment#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#values Environment#values}
   */
   readonly values?: string[];
 }
@@ -7781,13 +7781,13 @@ export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataCon
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#match_expressions Environment#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#match_expressions Environment#match_expressions}
   */
   readonly matchExpressions?: EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigContainerKubeOptionsAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
   * match_fields block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#match_fields Environment#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#match_fields Environment#match_fields}
   */
   readonly matchFields?: EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigContainerKubeOptionsAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -7900,13 +7900,13 @@ export class EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigC
 }
 export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigContainerKubeOptionsAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#weight Environment#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#weight Environment#weight}
   */
   readonly weight?: number;
   /**
   * preference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#preference Environment#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#preference Environment#preference}
   */
   readonly preference?: EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigContainerKubeOptionsAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
 }
@@ -8051,15 +8051,15 @@ export class EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigC
 }
 export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigContainerKubeOptionsAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#key Environment#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#key Environment#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#operator Environment#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#operator Environment#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#values Environment#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#values Environment#values}
   */
   readonly values?: string[];
 }
@@ -8233,15 +8233,15 @@ export class EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigC
 }
 export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigContainerKubeOptionsAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#key Environment#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#key Environment#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#operator Environment#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#operator Environment#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#values Environment#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#values Environment#values}
   */
   readonly values?: string[];
 }
@@ -8417,13 +8417,13 @@ export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataCon
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#match_expressions Environment#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#match_expressions Environment#match_expressions}
   */
   readonly matchExpressions?: EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigContainerKubeOptionsAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
   * match_fields block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#match_fields Environment#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#match_fields Environment#match_fields}
   */
   readonly matchFields?: EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigContainerKubeOptionsAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -8570,7 +8570,7 @@ export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataCon
   /**
   * node_selector_terms block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#node_selector_terms Environment#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#node_selector_terms Environment#node_selector_terms}
   */
   readonly nodeSelectorTerms?: EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigContainerKubeOptionsAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -8656,13 +8656,13 @@ export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataCon
   /**
   * preferred_during_scheduling_ignored_during_execution block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#preferred_during_scheduling_ignored_during_execution Environment#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#preferred_during_scheduling_ignored_during_execution Environment#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigContainerKubeOptionsAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * required_during_scheduling_ignored_during_execution block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#required_during_scheduling_ignored_during_execution Environment#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#required_during_scheduling_ignored_during_execution Environment#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigContainerKubeOptionsAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -8775,15 +8775,15 @@ export class EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigC
 }
 export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigContainerKubeOptionsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#key Environment#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#key Environment#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#operator Environment#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#operator Environment#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#values Environment#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#values Environment#values}
   */
   readonly values?: string[];
 }
@@ -8957,13 +8957,13 @@ export class EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigC
 }
 export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigContainerKubeOptionsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#match_labels Environment#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#match_labels Environment#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#match_expressions Environment#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#match_expressions Environment#match_expressions}
   */
   readonly matchExpressions?: EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigContainerKubeOptionsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -9076,15 +9076,15 @@ export class EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigC
 }
 export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigContainerKubeOptionsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#key Environment#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#key Environment#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#operator Environment#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#operator Environment#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#values Environment#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#values Environment#values}
   */
   readonly values?: string[];
 }
@@ -9258,13 +9258,13 @@ export class EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigC
 }
 export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigContainerKubeOptionsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#match_labels Environment#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#match_labels Environment#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#match_expressions Environment#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#match_expressions Environment#match_expressions}
   */
   readonly matchExpressions?: EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigContainerKubeOptionsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -9377,23 +9377,23 @@ export class EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigC
 }
 export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigContainerKubeOptionsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#namespaces Environment#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#namespaces Environment#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#topology_key Environment#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#topology_key Environment#topology_key}
   */
   readonly topologyKey?: string;
   /**
   * label_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#label_selector Environment#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#label_selector Environment#label_selector}
   */
   readonly labelSelector?: EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigContainerKubeOptionsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * namespace_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#namespace_selector Environment#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#namespace_selector Environment#namespace_selector}
   */
   readonly namespaceSelector?: EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigContainerKubeOptionsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
 }
@@ -9564,13 +9564,13 @@ export class EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigC
 }
 export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigContainerKubeOptionsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#weight Environment#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#weight Environment#weight}
   */
   readonly weight?: number;
   /**
   * pod_affinity_term block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#pod_affinity_term Environment#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#pod_affinity_term Environment#pod_affinity_term}
   */
   readonly podAffinityTerm?: EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigContainerKubeOptionsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
 }
@@ -9715,15 +9715,15 @@ export class EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigC
 }
 export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigContainerKubeOptionsAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#key Environment#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#key Environment#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#operator Environment#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#operator Environment#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#values Environment#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#values Environment#values}
   */
   readonly values?: string[];
 }
@@ -9897,13 +9897,13 @@ export class EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigC
 }
 export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigContainerKubeOptionsAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#match_labels Environment#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#match_labels Environment#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#match_expressions Environment#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#match_expressions Environment#match_expressions}
   */
   readonly matchExpressions?: EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigContainerKubeOptionsAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -10016,15 +10016,15 @@ export class EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigC
 }
 export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigContainerKubeOptionsAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#key Environment#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#key Environment#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#operator Environment#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#operator Environment#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#values Environment#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#values Environment#values}
   */
   readonly values?: string[];
 }
@@ -10198,13 +10198,13 @@ export class EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigC
 }
 export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigContainerKubeOptionsAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#match_labels Environment#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#match_labels Environment#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#match_expressions Environment#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#match_expressions Environment#match_expressions}
   */
   readonly matchExpressions?: EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigContainerKubeOptionsAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -10317,23 +10317,23 @@ export class EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigC
 }
 export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigContainerKubeOptionsAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#namespaces Environment#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#namespaces Environment#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#topology_key Environment#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#topology_key Environment#topology_key}
   */
   readonly topologyKey?: string;
   /**
   * label_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#label_selector Environment#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#label_selector Environment#label_selector}
   */
   readonly labelSelector?: EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigContainerKubeOptionsAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * namespace_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#namespace_selector Environment#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#namespace_selector Environment#namespace_selector}
   */
   readonly namespaceSelector?: EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigContainerKubeOptionsAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
 }
@@ -10538,13 +10538,13 @@ export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataCon
   /**
   * preferred_during_scheduling_ignored_during_execution block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#preferred_during_scheduling_ignored_during_execution Environment#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#preferred_during_scheduling_ignored_during_execution Environment#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigContainerKubeOptionsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * required_during_scheduling_ignored_during_execution block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#required_during_scheduling_ignored_during_execution Environment#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#required_during_scheduling_ignored_during_execution Environment#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigContainerKubeOptionsAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -10657,15 +10657,15 @@ export class EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigC
 }
 export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigContainerKubeOptionsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#key Environment#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#key Environment#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#operator Environment#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#operator Environment#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#values Environment#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#values Environment#values}
   */
   readonly values?: string[];
 }
@@ -10839,13 +10839,13 @@ export class EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigC
 }
 export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigContainerKubeOptionsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#match_labels Environment#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#match_labels Environment#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#match_expressions Environment#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#match_expressions Environment#match_expressions}
   */
   readonly matchExpressions?: EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigContainerKubeOptionsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -10958,15 +10958,15 @@ export class EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigC
 }
 export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigContainerKubeOptionsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#key Environment#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#key Environment#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#operator Environment#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#operator Environment#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#values Environment#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#values Environment#values}
   */
   readonly values?: string[];
 }
@@ -11140,13 +11140,13 @@ export class EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigC
 }
 export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigContainerKubeOptionsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#match_labels Environment#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#match_labels Environment#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#match_expressions Environment#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#match_expressions Environment#match_expressions}
   */
   readonly matchExpressions?: EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigContainerKubeOptionsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -11259,23 +11259,23 @@ export class EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigC
 }
 export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigContainerKubeOptionsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#namespaces Environment#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#namespaces Environment#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#topology_key Environment#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#topology_key Environment#topology_key}
   */
   readonly topologyKey?: string;
   /**
   * label_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#label_selector Environment#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#label_selector Environment#label_selector}
   */
   readonly labelSelector?: EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigContainerKubeOptionsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * namespace_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#namespace_selector Environment#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#namespace_selector Environment#namespace_selector}
   */
   readonly namespaceSelector?: EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigContainerKubeOptionsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
 }
@@ -11446,13 +11446,13 @@ export class EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigC
 }
 export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigContainerKubeOptionsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#weight Environment#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#weight Environment#weight}
   */
   readonly weight?: number;
   /**
   * pod_affinity_term block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#pod_affinity_term Environment#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#pod_affinity_term Environment#pod_affinity_term}
   */
   readonly podAffinityTerm?: EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigContainerKubeOptionsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
 }
@@ -11597,15 +11597,15 @@ export class EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigC
 }
 export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigContainerKubeOptionsAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#key Environment#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#key Environment#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#operator Environment#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#operator Environment#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#values Environment#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#values Environment#values}
   */
   readonly values?: string[];
 }
@@ -11779,13 +11779,13 @@ export class EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigC
 }
 export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigContainerKubeOptionsAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#match_labels Environment#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#match_labels Environment#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#match_expressions Environment#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#match_expressions Environment#match_expressions}
   */
   readonly matchExpressions?: EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigContainerKubeOptionsAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -11898,15 +11898,15 @@ export class EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigC
 }
 export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigContainerKubeOptionsAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#key Environment#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#key Environment#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#operator Environment#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#operator Environment#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#values Environment#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#values Environment#values}
   */
   readonly values?: string[];
 }
@@ -12080,13 +12080,13 @@ export class EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigC
 }
 export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigContainerKubeOptionsAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#match_labels Environment#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#match_labels Environment#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#match_expressions Environment#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#match_expressions Environment#match_expressions}
   */
   readonly matchExpressions?: EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigContainerKubeOptionsAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -12199,23 +12199,23 @@ export class EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigC
 }
 export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigContainerKubeOptionsAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#namespaces Environment#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#namespaces Environment#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#topology_key Environment#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#topology_key Environment#topology_key}
   */
   readonly topologyKey?: string;
   /**
   * label_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#label_selector Environment#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#label_selector Environment#label_selector}
   */
   readonly labelSelector?: EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigContainerKubeOptionsAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * namespace_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#namespace_selector Environment#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#namespace_selector Environment#namespace_selector}
   */
   readonly namespaceSelector?: EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigContainerKubeOptionsAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
 }
@@ -12420,13 +12420,13 @@ export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataCon
   /**
   * preferred_during_scheduling_ignored_during_execution block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#preferred_during_scheduling_ignored_during_execution Environment#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#preferred_during_scheduling_ignored_during_execution Environment#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigContainerKubeOptionsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * required_during_scheduling_ignored_during_execution block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#required_during_scheduling_ignored_during_execution Environment#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#required_during_scheduling_ignored_during_execution Environment#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigContainerKubeOptionsAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -12541,19 +12541,19 @@ export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataCon
   /**
   * node_affinity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#node_affinity Environment#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#node_affinity Environment#node_affinity}
   */
   readonly nodeAffinity?: EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigContainerKubeOptionsAffinityNodeAffinity;
   /**
   * pod_affinity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#pod_affinity Environment#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#pod_affinity Environment#pod_affinity}
   */
   readonly podAffinity?: EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigContainerKubeOptionsAffinityPodAffinity;
   /**
   * pod_anti_affinity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#pod_anti_affinity Environment#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#pod_anti_affinity Environment#pod_anti_affinity}
   */
   readonly podAntiAffinity?: EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigContainerKubeOptionsAffinityPodAntiAffinity;
 }
@@ -12695,7 +12695,7 @@ export class EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigC
 }
 export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigContainerKubeOptionsSecurityContextPrivileged {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#value Environment#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#value Environment#value}
   */
   readonly value?: boolean | cdktf.IResolvable;
 }
@@ -12779,7 +12779,7 @@ export class EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigC
 }
 export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigContainerKubeOptionsSecurityContextReadOnlyRootFileSystem {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#value Environment#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#value Environment#value}
   */
   readonly value?: boolean | cdktf.IResolvable;
 }
@@ -12865,13 +12865,13 @@ export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataCon
   /**
   * privileged block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#privileged Environment#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#privileged Environment#privileged}
   */
   readonly privileged?: EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigContainerKubeOptionsSecurityContextPrivileged;
   /**
   * read_only_root_file_system block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#read_only_root_file_system Environment#read_only_root_file_system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#read_only_root_file_system Environment#read_only_root_file_system}
   */
   readonly readOnlyRootFileSystem?: EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigContainerKubeOptionsSecurityContextReadOnlyRootFileSystem;
 }
@@ -12984,23 +12984,23 @@ export class EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigC
 }
 export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigContainerKubeOptionsTolerations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#effect Environment#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#effect Environment#effect}
   */
   readonly effect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#key Environment#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#key Environment#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#operator Environment#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#operator Environment#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#toleration_seconds Environment#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#toleration_seconds Environment#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#value Environment#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#value Environment#value}
   */
   readonly value?: string;
 }
@@ -13234,49 +13234,49 @@ export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataCon
   /**
   * Specify the labels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#labels Environment#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#labels Environment#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Specify the namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#namespace Environment#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#namespace Environment#namespace}
   */
   readonly namespace?: string;
   /**
   * Specify the node selectors
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#node_selector Environment#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#node_selector Environment#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * Specify the resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#resources Environment#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#resources Environment#resources}
   */
   readonly resources?: string[];
   /**
   * Specify the service account name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#service_account_name Environment#service_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#service_account_name Environment#service_account_name}
   */
   readonly serviceAccountName?: string;
   /**
   * affinity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#affinity Environment#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#affinity Environment#affinity}
   */
   readonly affinity?: EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigContainerKubeOptionsAffinity;
   /**
   * security_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#security_context Environment#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#security_context Environment#security_context}
   */
   readonly securityContext?: EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigContainerKubeOptionsSecurityContext;
   /**
   * tolerations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#tolerations Environment#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#tolerations Environment#tolerations}
   */
   readonly tolerations?: EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigContainerKubeOptionsTolerations[] | cdktf.IResolvable;
 }
@@ -13563,7 +13563,7 @@ export class EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigC
 }
 export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigContainerVolumeOptionsUsePvc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#value Environment#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#value Environment#value}
   */
   readonly value?: boolean | cdktf.IResolvable;
 }
@@ -13649,31 +13649,31 @@ export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataCon
   /**
   * If enabled, contents of the volume will be backed up after the job completes and restored before the next job starts across multiple runs of the environment. Scope of backup and restore is limited to the environment and resource template where this driver is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#enable_backup_and_restore Environment#enable_backup_and_restore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#enable_backup_and_restore Environment#enable_backup_and_restore}
   */
   readonly enableBackupAndRestore?: boolean | cdktf.IResolvable;
   /**
   * Specify the container mount path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#mount_path Environment#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#mount_path Environment#mount_path}
   */
   readonly mountPath?: string;
   /**
   * Specify the persistent volume claim size in GB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#pvc_size_gb Environment#pvc_size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#pvc_size_gb Environment#pvc_size_gb}
   */
   readonly pvcSizeGb?: string;
   /**
   * Specify the persistent volume claim storage class
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#pvc_storage_class Environment#pvc_storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#pvc_storage_class Environment#pvc_storage_class}
   */
   readonly pvcStorageClass?: string;
   /**
   * use_pvc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#use_pvc Environment#use_pvc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#use_pvc Environment#use_pvc}
   */
   readonly usePvc?: EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigContainerVolumeOptionsUsePvc;
 }
@@ -13873,7 +13873,7 @@ export class EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigC
 }
 export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigContainerVolumesUsePvc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#value Environment#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#value Environment#value}
   */
   readonly value?: boolean | cdktf.IResolvable;
 }
@@ -13959,31 +13959,31 @@ export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataCon
   /**
   * If enabled, contents of the volume will be backed up after the job completes and restored before the next job starts across multiple runs of the environment. Scope of backup and restore is limited to the environment and resource template where this driver is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#enable_backup_and_restore Environment#enable_backup_and_restore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#enable_backup_and_restore Environment#enable_backup_and_restore}
   */
   readonly enableBackupAndRestore?: boolean | cdktf.IResolvable;
   /**
   * Specify the container mount path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#mount_path Environment#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#mount_path Environment#mount_path}
   */
   readonly mountPath?: string;
   /**
   * Specify the persistent volume claim size in GB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#pvc_size_gb Environment#pvc_size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#pvc_size_gb Environment#pvc_size_gb}
   */
   readonly pvcSizeGb?: string;
   /**
   * Specify the persistent volume claim storage class
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#pvc_storage_class Environment#pvc_storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#pvc_storage_class Environment#pvc_storage_class}
   */
   readonly pvcStorageClass?: string;
   /**
   * use_pvc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#use_pvc Environment#use_pvc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#use_pvc Environment#use_pvc}
   */
   readonly usePvc?: EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigContainerVolumesUsePvc;
 }
@@ -14217,79 +14217,79 @@ export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataCon
   /**
   * Specify the set of arguments to be passed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#arguments Environment#arguments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#arguments Environment#arguments}
   */
   readonly arguments?: string[];
   /**
   * Specify the set of commands to be executed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#commands Environment#commands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#commands Environment#commands}
   */
   readonly commands?: string[];
   /**
   * Specify the cpu limit in milli
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#cpu_limit_milli Environment#cpu_limit_milli}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#cpu_limit_milli Environment#cpu_limit_milli}
   */
   readonly cpuLimitMilli?: string;
   /**
   * Specify the environment variables to be set in key,value pair
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#env_vars Environment#env_vars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#env_vars Environment#env_vars}
   */
   readonly envVars?: { [key: string]: string };
   /**
   * Specify the file data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#files Environment#files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#files Environment#files}
   */
   readonly files?: { [key: string]: string };
   /**
   * Specify the container image for the driver
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#image Environment#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#image Environment#image}
   */
   readonly image?: string;
   /**
   * Specify the memory limit to be allocated in MB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#memory_limit_mb Environment#memory_limit_mb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#memory_limit_mb Environment#memory_limit_mb}
   */
   readonly memoryLimitMb?: string;
   /**
   * Specify the working directory path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#working_dir_path Environment#working_dir_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#working_dir_path Environment#working_dir_path}
   */
   readonly workingDirPath?: string;
   /**
   * image_pull_credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#image_pull_credentials Environment#image_pull_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#image_pull_credentials Environment#image_pull_credentials}
   */
   readonly imagePullCredentials?: EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigContainerImagePullCredentials;
   /**
   * kube_config_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#kube_config_options Environment#kube_config_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#kube_config_options Environment#kube_config_options}
   */
   readonly kubeConfigOptions?: EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigContainerKubeConfigOptions;
   /**
   * kube_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#kube_options Environment#kube_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#kube_options Environment#kube_options}
   */
   readonly kubeOptions?: EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigContainerKubeOptions;
   /**
   * volume_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#volume_options Environment#volume_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#volume_options Environment#volume_options}
   */
   readonly volumeOptions?: EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigContainerVolumeOptions;
   /**
   * volumes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#volumes Environment#volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#volumes Environment#volumes}
   */
   readonly volumes?: EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigContainerVolumes[] | cdktf.IResolvable;
 }
@@ -14723,19 +14723,19 @@ export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataCon
   /**
   * Specify the registry password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#password Environment#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#password Environment#password}
   */
   readonly password?: string;
   /**
   * Specify the container image registry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#registry Environment#registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#registry Environment#registry}
   */
   readonly registry?: string;
   /**
   * Specify the registry username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#username Environment#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#username Environment#username}
   */
   readonly username?: string;
 }
@@ -14877,15 +14877,15 @@ export class EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigF
 }
 export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigFunctionKubeOptionsAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#key Environment#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#key Environment#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#operator Environment#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#operator Environment#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#values Environment#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#values Environment#values}
   */
   readonly values?: string[];
 }
@@ -15059,15 +15059,15 @@ export class EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigF
 }
 export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigFunctionKubeOptionsAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#key Environment#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#key Environment#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#operator Environment#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#operator Environment#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#values Environment#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#values Environment#values}
   */
   readonly values?: string[];
 }
@@ -15243,13 +15243,13 @@ export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataCon
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#match_expressions Environment#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#match_expressions Environment#match_expressions}
   */
   readonly matchExpressions?: EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigFunctionKubeOptionsAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
   * match_fields block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#match_fields Environment#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#match_fields Environment#match_fields}
   */
   readonly matchFields?: EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigFunctionKubeOptionsAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -15362,13 +15362,13 @@ export class EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigF
 }
 export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigFunctionKubeOptionsAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#weight Environment#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#weight Environment#weight}
   */
   readonly weight?: number;
   /**
   * preference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#preference Environment#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#preference Environment#preference}
   */
   readonly preference?: EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigFunctionKubeOptionsAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
 }
@@ -15513,15 +15513,15 @@ export class EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigF
 }
 export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigFunctionKubeOptionsAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#key Environment#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#key Environment#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#operator Environment#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#operator Environment#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#values Environment#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#values Environment#values}
   */
   readonly values?: string[];
 }
@@ -15695,15 +15695,15 @@ export class EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigF
 }
 export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigFunctionKubeOptionsAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#key Environment#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#key Environment#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#operator Environment#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#operator Environment#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#values Environment#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#values Environment#values}
   */
   readonly values?: string[];
 }
@@ -15879,13 +15879,13 @@ export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataCon
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#match_expressions Environment#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#match_expressions Environment#match_expressions}
   */
   readonly matchExpressions?: EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigFunctionKubeOptionsAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
   * match_fields block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#match_fields Environment#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#match_fields Environment#match_fields}
   */
   readonly matchFields?: EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigFunctionKubeOptionsAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -16032,7 +16032,7 @@ export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataCon
   /**
   * node_selector_terms block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#node_selector_terms Environment#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#node_selector_terms Environment#node_selector_terms}
   */
   readonly nodeSelectorTerms?: EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigFunctionKubeOptionsAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -16118,13 +16118,13 @@ export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataCon
   /**
   * preferred_during_scheduling_ignored_during_execution block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#preferred_during_scheduling_ignored_during_execution Environment#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#preferred_during_scheduling_ignored_during_execution Environment#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigFunctionKubeOptionsAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * required_during_scheduling_ignored_during_execution block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#required_during_scheduling_ignored_during_execution Environment#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#required_during_scheduling_ignored_during_execution Environment#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigFunctionKubeOptionsAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -16237,15 +16237,15 @@ export class EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigF
 }
 export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigFunctionKubeOptionsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#key Environment#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#key Environment#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#operator Environment#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#operator Environment#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#values Environment#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#values Environment#values}
   */
   readonly values?: string[];
 }
@@ -16419,13 +16419,13 @@ export class EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigF
 }
 export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigFunctionKubeOptionsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#match_labels Environment#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#match_labels Environment#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#match_expressions Environment#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#match_expressions Environment#match_expressions}
   */
   readonly matchExpressions?: EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigFunctionKubeOptionsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -16538,15 +16538,15 @@ export class EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigF
 }
 export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigFunctionKubeOptionsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#key Environment#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#key Environment#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#operator Environment#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#operator Environment#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#values Environment#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#values Environment#values}
   */
   readonly values?: string[];
 }
@@ -16720,13 +16720,13 @@ export class EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigF
 }
 export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigFunctionKubeOptionsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#match_labels Environment#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#match_labels Environment#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#match_expressions Environment#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#match_expressions Environment#match_expressions}
   */
   readonly matchExpressions?: EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigFunctionKubeOptionsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -16839,23 +16839,23 @@ export class EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigF
 }
 export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigFunctionKubeOptionsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#namespaces Environment#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#namespaces Environment#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#topology_key Environment#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#topology_key Environment#topology_key}
   */
   readonly topologyKey?: string;
   /**
   * label_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#label_selector Environment#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#label_selector Environment#label_selector}
   */
   readonly labelSelector?: EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigFunctionKubeOptionsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * namespace_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#namespace_selector Environment#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#namespace_selector Environment#namespace_selector}
   */
   readonly namespaceSelector?: EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigFunctionKubeOptionsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
 }
@@ -17026,13 +17026,13 @@ export class EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigF
 }
 export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigFunctionKubeOptionsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#weight Environment#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#weight Environment#weight}
   */
   readonly weight?: number;
   /**
   * pod_affinity_term block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#pod_affinity_term Environment#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#pod_affinity_term Environment#pod_affinity_term}
   */
   readonly podAffinityTerm?: EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigFunctionKubeOptionsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
 }
@@ -17177,15 +17177,15 @@ export class EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigF
 }
 export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigFunctionKubeOptionsAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#key Environment#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#key Environment#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#operator Environment#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#operator Environment#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#values Environment#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#values Environment#values}
   */
   readonly values?: string[];
 }
@@ -17359,13 +17359,13 @@ export class EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigF
 }
 export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigFunctionKubeOptionsAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#match_labels Environment#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#match_labels Environment#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#match_expressions Environment#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#match_expressions Environment#match_expressions}
   */
   readonly matchExpressions?: EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigFunctionKubeOptionsAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -17478,15 +17478,15 @@ export class EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigF
 }
 export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigFunctionKubeOptionsAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#key Environment#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#key Environment#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#operator Environment#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#operator Environment#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#values Environment#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#values Environment#values}
   */
   readonly values?: string[];
 }
@@ -17660,13 +17660,13 @@ export class EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigF
 }
 export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigFunctionKubeOptionsAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#match_labels Environment#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#match_labels Environment#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#match_expressions Environment#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#match_expressions Environment#match_expressions}
   */
   readonly matchExpressions?: EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigFunctionKubeOptionsAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -17779,23 +17779,23 @@ export class EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigF
 }
 export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigFunctionKubeOptionsAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#namespaces Environment#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#namespaces Environment#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#topology_key Environment#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#topology_key Environment#topology_key}
   */
   readonly topologyKey?: string;
   /**
   * label_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#label_selector Environment#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#label_selector Environment#label_selector}
   */
   readonly labelSelector?: EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigFunctionKubeOptionsAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * namespace_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#namespace_selector Environment#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#namespace_selector Environment#namespace_selector}
   */
   readonly namespaceSelector?: EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigFunctionKubeOptionsAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
 }
@@ -18000,13 +18000,13 @@ export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataCon
   /**
   * preferred_during_scheduling_ignored_during_execution block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#preferred_during_scheduling_ignored_during_execution Environment#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#preferred_during_scheduling_ignored_during_execution Environment#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigFunctionKubeOptionsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * required_during_scheduling_ignored_during_execution block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#required_during_scheduling_ignored_during_execution Environment#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#required_during_scheduling_ignored_during_execution Environment#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigFunctionKubeOptionsAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -18119,15 +18119,15 @@ export class EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigF
 }
 export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigFunctionKubeOptionsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#key Environment#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#key Environment#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#operator Environment#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#operator Environment#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#values Environment#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#values Environment#values}
   */
   readonly values?: string[];
 }
@@ -18301,13 +18301,13 @@ export class EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigF
 }
 export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigFunctionKubeOptionsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#match_labels Environment#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#match_labels Environment#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#match_expressions Environment#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#match_expressions Environment#match_expressions}
   */
   readonly matchExpressions?: EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigFunctionKubeOptionsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -18420,15 +18420,15 @@ export class EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigF
 }
 export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigFunctionKubeOptionsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#key Environment#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#key Environment#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#operator Environment#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#operator Environment#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#values Environment#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#values Environment#values}
   */
   readonly values?: string[];
 }
@@ -18602,13 +18602,13 @@ export class EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigF
 }
 export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigFunctionKubeOptionsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#match_labels Environment#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#match_labels Environment#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#match_expressions Environment#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#match_expressions Environment#match_expressions}
   */
   readonly matchExpressions?: EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigFunctionKubeOptionsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -18721,23 +18721,23 @@ export class EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigF
 }
 export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigFunctionKubeOptionsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#namespaces Environment#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#namespaces Environment#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#topology_key Environment#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#topology_key Environment#topology_key}
   */
   readonly topologyKey?: string;
   /**
   * label_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#label_selector Environment#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#label_selector Environment#label_selector}
   */
   readonly labelSelector?: EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigFunctionKubeOptionsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * namespace_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#namespace_selector Environment#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#namespace_selector Environment#namespace_selector}
   */
   readonly namespaceSelector?: EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigFunctionKubeOptionsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
 }
@@ -18908,13 +18908,13 @@ export class EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigF
 }
 export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigFunctionKubeOptionsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#weight Environment#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#weight Environment#weight}
   */
   readonly weight?: number;
   /**
   * pod_affinity_term block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#pod_affinity_term Environment#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#pod_affinity_term Environment#pod_affinity_term}
   */
   readonly podAffinityTerm?: EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigFunctionKubeOptionsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
 }
@@ -19059,15 +19059,15 @@ export class EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigF
 }
 export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigFunctionKubeOptionsAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#key Environment#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#key Environment#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#operator Environment#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#operator Environment#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#values Environment#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#values Environment#values}
   */
   readonly values?: string[];
 }
@@ -19241,13 +19241,13 @@ export class EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigF
 }
 export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigFunctionKubeOptionsAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#match_labels Environment#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#match_labels Environment#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#match_expressions Environment#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#match_expressions Environment#match_expressions}
   */
   readonly matchExpressions?: EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigFunctionKubeOptionsAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -19360,15 +19360,15 @@ export class EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigF
 }
 export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigFunctionKubeOptionsAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#key Environment#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#key Environment#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#operator Environment#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#operator Environment#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#values Environment#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#values Environment#values}
   */
   readonly values?: string[];
 }
@@ -19542,13 +19542,13 @@ export class EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigF
 }
 export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigFunctionKubeOptionsAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#match_labels Environment#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#match_labels Environment#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#match_expressions Environment#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#match_expressions Environment#match_expressions}
   */
   readonly matchExpressions?: EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigFunctionKubeOptionsAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -19661,23 +19661,23 @@ export class EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigF
 }
 export interface EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigFunctionKubeOptionsAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#namespaces Environment#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#namespaces Environment#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#topology_key Environment#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#topology_key Environment#topology_key}
   */
   readonly topologyKey?: string;
   /**
   * label_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#label_selector Environment#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#label_selector Environment#label_selector}
   */
   readonly labelSelector?: EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigFunctionKubeOptionsAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * namespace_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/environment#namespace_selector Environment#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/environment#namespace_selector Environment#namespace_selector}
   */
   readonly namespaceSelector?: EnvironmentSpecSchedulesOptOutOptionsApprovalTasksDriverDataConfigFunctionKubeOptionsAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
 }

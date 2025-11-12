@@ -236,7 +236,8 @@ export class CopyObject extends cdktf.TerraformResource {
       terraformResourceType: 'kibana_copy_object',
       terraformGeneratorMetadata: {
         providerName: 'kibana',
-        providerVersion: '8.5.3'
+        providerVersion: '8.5.3',
+        providerVersionConstraint: '8.5.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

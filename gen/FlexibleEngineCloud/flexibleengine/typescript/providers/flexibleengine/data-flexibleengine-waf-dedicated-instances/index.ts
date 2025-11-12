@@ -208,7 +208,8 @@ export class DataFlexibleengineWafDedicatedInstances extends cdktf.TerraformData
       terraformResourceType: 'flexibleengine_waf_dedicated_instances',
       terraformGeneratorMetadata: {
         providerName: 'flexibleengine',
-        providerVersion: '1.46.0'
+        providerVersion: '1.46.0',
+        providerVersionConstraint: '1.46.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -724,7 +724,8 @@ export class SimplePolicy extends cdktf.TerraformResource {
       terraformResourceType: 'bridgecrew_simple_policy',
       terraformGeneratorMetadata: {
         providerName: 'bridgecrew',
-        providerVersion: '0.3.7'
+        providerVersion: '0.3.7',
+        providerVersionConstraint: '0.3.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

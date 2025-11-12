@@ -61,7 +61,8 @@ export class SecretsmanagerProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'secretsmanager',
       terraformGeneratorMetadata: {
         providerName: 'secretsmanager',
-        providerVersion: '1.1.7'
+        providerVersion: '1.1.7',
+        providerVersionConstraint: '1.1.7'
       },
       terraformProviderSource: 'Keeper-Security/secretsmanager'
     });

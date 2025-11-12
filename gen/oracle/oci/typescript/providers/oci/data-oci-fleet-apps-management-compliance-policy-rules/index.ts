@@ -659,7 +659,8 @@ export class DataOciFleetAppsManagementCompliancePolicyRules extends cdktf.Terra
       terraformResourceType: 'oci_fleet_apps_management_compliance_policy_rules',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

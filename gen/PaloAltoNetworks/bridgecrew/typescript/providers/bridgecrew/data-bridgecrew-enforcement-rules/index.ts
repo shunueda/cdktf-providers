@@ -841,7 +841,8 @@ export class DataBridgecrewEnforcementRules extends cdktf.TerraformDataSource {
       terraformResourceType: 'bridgecrew_enforcement_rules',
       terraformGeneratorMetadata: {
         providerName: 'bridgecrew',
-        providerVersion: '0.3.7'
+        providerVersion: '0.3.7',
+        providerVersionConstraint: '0.3.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

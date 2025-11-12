@@ -379,7 +379,8 @@ export class DataOctopusdeployChannels extends cdktf.TerraformDataSource {
       terraformResourceType: 'octopusdeploy_channels',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '0.43.2'
+        providerVersion: '0.43.2',
+        providerVersionConstraint: '0.43.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

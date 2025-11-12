@@ -2360,7 +2360,8 @@ export class OauthClient extends cdktf.TerraformResource {
       terraformResourceType: 'pingfederate_oauth_client',
       terraformGeneratorMetadata: {
         providerName: 'pingfederate',
-        providerVersion: '1.6.2'
+        providerVersion: '1.6.2',
+        providerVersionConstraint: '1.6.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

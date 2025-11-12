@@ -61,7 +61,8 @@ export class DataChecklyStaticIps extends cdktf.TerraformDataSource {
       terraformResourceType: 'checkly_static_ips',
       terraformGeneratorMetadata: {
         providerName: 'checkly',
-        providerVersion: '1.16.0'
+        providerVersion: '1.16.0',
+        providerVersionConstraint: '1.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

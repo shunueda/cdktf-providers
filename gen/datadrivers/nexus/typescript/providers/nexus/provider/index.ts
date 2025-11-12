@@ -103,7 +103,8 @@ export class NexusProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'nexus',
       terraformGeneratorMetadata: {
         providerName: 'nexus',
-        providerVersion: '2.6.0'
+        providerVersion: '2.6.0',
+        providerVersionConstraint: '2.6.0'
       },
       terraformProviderSource: 'datadrivers/nexus'
     });

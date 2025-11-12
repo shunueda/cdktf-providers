@@ -337,7 +337,8 @@ export class EventTrigger extends cdktf.TerraformResource {
       terraformResourceType: 'mongodbatlas_event_trigger',
       terraformGeneratorMetadata: {
         providerName: 'mongodbatlas',
-        providerVersion: '2.1.0'
+        providerVersion: '2.1.0',
+        providerVersionConstraint: '2.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

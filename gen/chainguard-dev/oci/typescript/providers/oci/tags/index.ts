@@ -61,7 +61,8 @@ export class Tags extends cdktf.TerraformResource {
       terraformResourceType: 'oci_tags',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '0.0.25'
+        providerVersion: '0.0.25',
+        providerVersionConstraint: '0.0.25'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -100,7 +100,8 @@ export class VpnL2Tp extends cdktf.TerraformResource {
       terraformResourceType: 'fmgdevice_vpn_l2tp',
       terraformGeneratorMetadata: {
         providerName: 'fmgdevice',
-        providerVersion: '1.2.1'
+        providerVersion: '1.2.1',
+        providerVersionConstraint: '1.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

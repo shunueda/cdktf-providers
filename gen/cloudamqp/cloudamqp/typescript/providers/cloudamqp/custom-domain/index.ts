@@ -68,7 +68,8 @@ export class CustomDomain extends cdktf.TerraformResource {
       terraformResourceType: 'cloudamqp_custom_domain',
       terraformGeneratorMetadata: {
         providerName: 'cloudamqp',
-        providerVersion: '1.38.1'
+        providerVersion: '1.38.1',
+        providerVersionConstraint: '1.38.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

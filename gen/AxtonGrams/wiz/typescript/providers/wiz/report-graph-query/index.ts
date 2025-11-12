@@ -87,7 +87,8 @@ export class ReportGraphQuery extends cdktf.TerraformResource {
       terraformResourceType: 'wiz_report_graph_query',
       terraformGeneratorMetadata: {
         providerName: 'wiz',
-        providerVersion: '1.2.5'
+        providerVersion: '1.2.5',
+        providerVersionConstraint: '1.2.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

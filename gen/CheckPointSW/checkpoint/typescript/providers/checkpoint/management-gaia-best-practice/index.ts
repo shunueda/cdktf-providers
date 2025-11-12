@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_gaia_best_practice
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_gaia_best_practice
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface ManagementGaiaBestPracticeConfig extends cdktf.TerraformMetaArg
   /**
   * To comply with Best Practice, do this action item.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_gaia_best_practice#action_item ManagementGaiaBestPractice#action_item}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_gaia_best_practice#action_item ManagementGaiaBestPractice#action_item}
   */
   readonly actionItem: string;
   /**
   * Best Practice ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_gaia_best_practice#best_practice_id ManagementGaiaBestPractice#best_practice_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_gaia_best_practice#best_practice_id ManagementGaiaBestPractice#best_practice_id}
   */
   readonly bestPracticeId?: string;
   /**
   * Description of the Best Practice.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_gaia_best_practice#description ManagementGaiaBestPractice#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_gaia_best_practice#description ManagementGaiaBestPractice#description}
   */
   readonly description: string;
   /**
   * The expected output of the script as Base64.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_gaia_best_practice#expected_output_base64 ManagementGaiaBestPractice#expected_output_base64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_gaia_best_practice#expected_output_base64 ManagementGaiaBestPractice#expected_output_base64}
   */
   readonly expectedOutputBase64?: string;
   /**
   * The expected output of the script as plain text.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_gaia_best_practice#expected_output_text ManagementGaiaBestPractice#expected_output_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_gaia_best_practice#expected_output_text ManagementGaiaBestPractice#expected_output_text}
   */
   readonly expectedOutputText?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_gaia_best_practice#id ManagementGaiaBestPractice#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_gaia_best_practice#id ManagementGaiaBestPractice#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,31 +47,31 @@ export interface ManagementGaiaBestPracticeConfig extends cdktf.TerraformMetaArg
   /**
   * Apply changes ignoring errors. You won't be able to publish such a changes. If ignore-warnings flag was omitted - warnings will also be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_gaia_best_practice#ignore_errors ManagementGaiaBestPractice#ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_gaia_best_practice#ignore_errors ManagementGaiaBestPractice#ignore_errors}
   */
   readonly ignoreErrors?: boolean | cdktf.IResolvable;
   /**
   * Apply changes ignoring warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_gaia_best_practice#ignore_warnings ManagementGaiaBestPractice#ignore_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_gaia_best_practice#ignore_warnings ManagementGaiaBestPractice#ignore_warnings}
   */
   readonly ignoreWarnings?: boolean | cdktf.IResolvable;
   /**
   * Best Practice Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_gaia_best_practice#name ManagementGaiaBestPractice#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_gaia_best_practice#name ManagementGaiaBestPractice#name}
   */
   readonly name: string;
   /**
   * The entire content of the script encoded in Base64 to run on Gaia Security Gateways during the Compliance scans.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_gaia_best_practice#practice_script_base64 ManagementGaiaBestPractice#practice_script_base64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_gaia_best_practice#practice_script_base64 ManagementGaiaBestPractice#practice_script_base64}
   */
   readonly practiceScriptBase64?: string;
   /**
   * The absolute path of the script on the Management Server to run on Gaia Security Gateways during the Compliance scans.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_gaia_best_practice#practice_script_path ManagementGaiaBestPractice#practice_script_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_gaia_best_practice#practice_script_path ManagementGaiaBestPractice#practice_script_path}
   */
   readonly practiceScriptPath?: string;
 }
@@ -257,7 +257,7 @@ export class ManagementGaiaBestPracticeRelevantObjectsList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_gaia_best_practice checkpoint_management_gaia_best_practice}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_gaia_best_practice checkpoint_management_gaia_best_practice}
 */
 export class ManagementGaiaBestPractice extends cdktf.TerraformResource {
 
@@ -273,7 +273,7 @@ export class ManagementGaiaBestPractice extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementGaiaBestPractice resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementGaiaBestPractice to import
-  * @param importFromId The id of the existing ManagementGaiaBestPractice that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_gaia_best_practice#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementGaiaBestPractice that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_gaia_best_practice#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementGaiaBestPractice to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -285,7 +285,7 @@ export class ManagementGaiaBestPractice extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_gaia_best_practice checkpoint_management_gaia_best_practice} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_gaia_best_practice checkpoint_management_gaia_best_practice} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -296,7 +296,8 @@ export class ManagementGaiaBestPractice extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_gaia_best_practice',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

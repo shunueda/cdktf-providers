@@ -260,7 +260,8 @@ export class DataOciOperatorAccessControlAccessRequest extends cdktf.TerraformDa
       terraformResourceType: 'oci_operator_access_control_access_request',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

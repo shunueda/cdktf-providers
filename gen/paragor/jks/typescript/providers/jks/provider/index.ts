@@ -55,7 +55,8 @@ export class JksProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'jks',
       terraformGeneratorMetadata: {
         providerName: 'jks',
-        providerVersion: '0.9.0'
+        providerVersion: '0.9.0',
+        providerVersionConstraint: '0.9.0'
       },
       terraformProviderSource: 'paragor/jks'
     });

@@ -61,7 +61,8 @@ export class DataObservabilityType extends cdktf.TerraformDataSource {
       terraformResourceType: 'observability_type',
       terraformGeneratorMetadata: {
         providerName: 'observability',
-        providerVersion: '0.0.2'
+        providerVersion: '0.0.2',
+        providerVersionConstraint: '0.0.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

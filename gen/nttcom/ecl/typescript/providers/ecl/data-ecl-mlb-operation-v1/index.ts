@@ -96,7 +96,8 @@ export class DataEclMlbOperationV1 extends cdktf.TerraformDataSource {
       terraformResourceType: 'ecl_mlb_operation_v1',
       terraformGeneratorMetadata: {
         providerName: 'ecl',
-        providerVersion: '2.12.1'
+        providerVersion: '2.12.1',
+        providerVersionConstraint: '2.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

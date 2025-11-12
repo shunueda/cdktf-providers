@@ -1152,7 +1152,8 @@ export class DataK8SGatewayNetworkingK8SIoTlsRouteV1Alpha2Manifest extends cdktf
       terraformResourceType: 'k8s_gateway_networking_k8s_io_tls_route_v1alpha2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

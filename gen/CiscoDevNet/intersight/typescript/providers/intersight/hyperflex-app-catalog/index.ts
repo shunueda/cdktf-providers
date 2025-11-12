@@ -4617,7 +4617,8 @@ export class HyperflexAppCatalog extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_hyperflex_app_catalog',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

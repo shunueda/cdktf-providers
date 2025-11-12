@@ -115,7 +115,8 @@ export class NotificationSendgrid extends cdktf.TerraformResource {
       terraformResourceType: 'prowlarr_notification_sendgrid',
       terraformGeneratorMetadata: {
         providerName: 'prowlarr',
-        providerVersion: '3.0.2'
+        providerVersion: '3.0.2',
+        providerVersionConstraint: '3.0.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

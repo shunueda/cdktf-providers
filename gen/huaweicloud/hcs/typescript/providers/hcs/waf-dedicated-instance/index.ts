@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/waf_dedicated_instance
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_dedicated_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,76 +8,76 @@ import * as cdktf from 'cdktf';
 
 export interface WafDedicatedInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/waf_dedicated_instance#available_zone WafDedicatedInstance#available_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_dedicated_instance#available_zone WafDedicatedInstance#available_zone}
   */
   readonly availableZone: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/waf_dedicated_instance#cpu_architecture WafDedicatedInstance#cpu_architecture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_dedicated_instance#cpu_architecture WafDedicatedInstance#cpu_architecture}
   */
   readonly cpuArchitecture?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/waf_dedicated_instance#ecs_flavor WafDedicatedInstance#ecs_flavor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_dedicated_instance#ecs_flavor WafDedicatedInstance#ecs_flavor}
   */
   readonly ecsFlavor: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/waf_dedicated_instance#enterprise_project_id WafDedicatedInstance#enterprise_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_dedicated_instance#enterprise_project_id WafDedicatedInstance#enterprise_project_id}
   */
   readonly enterpriseProjectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/waf_dedicated_instance#group_id WafDedicatedInstance#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_dedicated_instance#group_id WafDedicatedInstance#group_id}
   */
   readonly groupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/waf_dedicated_instance#id WafDedicatedInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_dedicated_instance#id WafDedicatedInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/waf_dedicated_instance#name WafDedicatedInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_dedicated_instance#name WafDedicatedInstance#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/waf_dedicated_instance#region WafDedicatedInstance#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_dedicated_instance#region WafDedicatedInstance#region}
   */
   readonly region?: string;
   /**
   * schema: Internal; Specifies whether this is resource tenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/waf_dedicated_instance#res_tenant WafDedicatedInstance#res_tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_dedicated_instance#res_tenant WafDedicatedInstance#res_tenant}
   */
   readonly resTenant?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/waf_dedicated_instance#security_group WafDedicatedInstance#security_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_dedicated_instance#security_group WafDedicatedInstance#security_group}
   */
   readonly securityGroup: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/waf_dedicated_instance#specification_code WafDedicatedInstance#specification_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_dedicated_instance#specification_code WafDedicatedInstance#specification_code}
   */
   readonly specificationCode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/waf_dedicated_instance#subnet_id WafDedicatedInstance#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_dedicated_instance#subnet_id WafDedicatedInstance#subnet_id}
   */
   readonly subnetId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/waf_dedicated_instance#vpc_id WafDedicatedInstance#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_dedicated_instance#vpc_id WafDedicatedInstance#vpc_id}
   */
   readonly vpcId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/waf_dedicated_instance#timeouts WafDedicatedInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_dedicated_instance#timeouts WafDedicatedInstance#timeouts}
   */
   readonly timeouts?: WafDedicatedInstanceTimeouts;
 }
 export interface WafDedicatedInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/waf_dedicated_instance#create WafDedicatedInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_dedicated_instance#create WafDedicatedInstance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/waf_dedicated_instance#delete WafDedicatedInstance#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_dedicated_instance#delete WafDedicatedInstance#delete}
   */
   readonly delete?: string;
 }
@@ -200,7 +200,7 @@ export class WafDedicatedInstanceTimeoutsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/waf_dedicated_instance hcs_waf_dedicated_instance}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_dedicated_instance hcs_waf_dedicated_instance}
 */
 export class WafDedicatedInstance extends cdktf.TerraformResource {
 
@@ -216,7 +216,7 @@ export class WafDedicatedInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WafDedicatedInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WafDedicatedInstance to import
-  * @param importFromId The id of the existing WafDedicatedInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/waf_dedicated_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WafDedicatedInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_dedicated_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WafDedicatedInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -228,7 +228,7 @@ export class WafDedicatedInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/waf_dedicated_instance hcs_waf_dedicated_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_dedicated_instance hcs_waf_dedicated_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -239,7 +239,8 @@ export class WafDedicatedInstance extends cdktf.TerraformResource {
       terraformResourceType: 'hcs_waf_dedicated_instance',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.19'
+        providerVersion: '2.4.20',
+        providerVersionConstraint: '2.4.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

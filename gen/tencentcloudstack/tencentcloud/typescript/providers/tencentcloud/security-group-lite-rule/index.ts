@@ -74,7 +74,8 @@ export class SecurityGroupLiteRule extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_security_group_lite_rule',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

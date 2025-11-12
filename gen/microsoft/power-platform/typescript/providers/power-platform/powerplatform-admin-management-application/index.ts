@@ -228,7 +228,8 @@ export class PowerplatformAdminManagementApplication extends cdktf.TerraformReso
       terraformResourceType: 'powerplatform_admin_management_application',
       terraformGeneratorMetadata: {
         providerName: 'power-platform',
-        providerVersion: '3.9.1'
+        providerVersion: '3.9.1',
+        providerVersionConstraint: '3.9.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

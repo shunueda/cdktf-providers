@@ -60,7 +60,8 @@ export class DataVolterraParseAwsCgwConfiguration extends cdktf.TerraformDataSou
       terraformResourceType: 'volterra_parse_aws_cgw_configuration',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.44'
+        providerVersion: '0.11.44',
+        providerVersionConstraint: '0.11.44'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

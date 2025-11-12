@@ -322,7 +322,8 @@ export class DataDnacenterNetworkDeviceInventoryInsightLinkMismatch extends cdkt
       terraformResourceType: 'dnacenter_network_device_inventory_insight_link_mismatch',
       terraformGeneratorMetadata: {
         providerName: 'dnacenter',
-        providerVersion: '1.1.21'
+        providerVersion: '1.1.21',
+        providerVersionConstraint: '1.1.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

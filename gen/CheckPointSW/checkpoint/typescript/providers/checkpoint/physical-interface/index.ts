@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/physical_interface
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/physical_interface
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,88 +10,88 @@ export interface PhysicalInterfaceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Activating auto_negotiation will skip the speed and duplex configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/physical_interface#auto_negotiation PhysicalInterface#auto_negotiation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/physical_interface#auto_negotiation PhysicalInterface#auto_negotiation}
   */
   readonly autoNegotiation?: string;
   /**
   * comments
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/physical_interface#comments PhysicalInterface#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/physical_interface#comments PhysicalInterface#comments}
   */
   readonly comments?: string;
   /**
   * Duplex is not relevant when 'auto_negotiation' is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/physical_interface#duplex PhysicalInterface#duplex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/physical_interface#duplex PhysicalInterface#duplex}
   */
   readonly duplex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/physical_interface#enabled PhysicalInterface#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/physical_interface#enabled PhysicalInterface#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/physical_interface#id PhysicalInterface#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/physical_interface#id PhysicalInterface#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/physical_interface#ipv4_address PhysicalInterface#ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/physical_interface#ipv4_address PhysicalInterface#ipv4_address}
   */
   readonly ipv4Address?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/physical_interface#ipv4_mask_length PhysicalInterface#ipv4_mask_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/physical_interface#ipv4_mask_length PhysicalInterface#ipv4_mask_length}
   */
   readonly ipv4MaskLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/physical_interface#ipv6_address PhysicalInterface#ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/physical_interface#ipv6_address PhysicalInterface#ipv6_address}
   */
   readonly ipv6Address?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/physical_interface#ipv6_autoconfig PhysicalInterface#ipv6_autoconfig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/physical_interface#ipv6_autoconfig PhysicalInterface#ipv6_autoconfig}
   */
   readonly ipv6Autoconfig?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/physical_interface#ipv6_mask_length PhysicalInterface#ipv6_mask_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/physical_interface#ipv6_mask_length PhysicalInterface#ipv6_mask_length}
   */
   readonly ipv6MaskLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/physical_interface#mac_addr PhysicalInterface#mac_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/physical_interface#mac_addr PhysicalInterface#mac_addr}
   */
   readonly macAddr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/physical_interface#monitor_mode PhysicalInterface#monitor_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/physical_interface#monitor_mode PhysicalInterface#monitor_mode}
   */
   readonly monitorMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/physical_interface#mtu PhysicalInterface#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/physical_interface#mtu PhysicalInterface#mtu}
   */
   readonly mtu?: number;
   /**
   * interface name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/physical_interface#name PhysicalInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/physical_interface#name PhysicalInterface#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/physical_interface#rx_ringsize PhysicalInterface#rx_ringsize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/physical_interface#rx_ringsize PhysicalInterface#rx_ringsize}
   */
   readonly rxRingsize?: string;
   /**
   * Speed is not relevant when 'auto_negotiation' is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/physical_interface#speed PhysicalInterface#speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/physical_interface#speed PhysicalInterface#speed}
   */
   readonly speed?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/physical_interface#tx_ringsize PhysicalInterface#tx_ringsize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/physical_interface#tx_ringsize PhysicalInterface#tx_ringsize}
   */
   readonly txRingsize?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/physical_interface checkpoint_physical_interface}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/physical_interface checkpoint_physical_interface}
 */
 export class PhysicalInterface extends cdktf.TerraformResource {
 
@@ -107,7 +107,7 @@ export class PhysicalInterface extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PhysicalInterface resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PhysicalInterface to import
-  * @param importFromId The id of the existing PhysicalInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/physical_interface#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PhysicalInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/physical_interface#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PhysicalInterface to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -119,7 +119,7 @@ export class PhysicalInterface extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/physical_interface checkpoint_physical_interface} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/physical_interface checkpoint_physical_interface} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -130,7 +130,8 @@ export class PhysicalInterface extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_physical_interface',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

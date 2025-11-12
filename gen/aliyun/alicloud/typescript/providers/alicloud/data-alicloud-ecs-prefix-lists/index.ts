@@ -272,7 +272,8 @@ export class DataAlicloudEcsPrefixLists extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_ecs_prefix_lists',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

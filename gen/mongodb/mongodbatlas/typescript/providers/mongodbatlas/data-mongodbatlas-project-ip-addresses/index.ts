@@ -205,7 +205,8 @@ export class DataMongodbatlasProjectIpAddressesA extends cdktf.TerraformDataSour
       terraformResourceType: 'mongodbatlas_project_ip_addresses',
       terraformGeneratorMetadata: {
         providerName: 'mongodbatlas',
-        providerVersion: '2.1.0'
+        providerVersion: '2.1.0',
+        providerVersionConstraint: '2.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

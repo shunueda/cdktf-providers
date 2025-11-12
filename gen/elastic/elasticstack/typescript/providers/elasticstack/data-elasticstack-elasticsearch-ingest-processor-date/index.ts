@@ -115,7 +115,8 @@ export class DataElasticstackElasticsearchIngestProcessorDate extends cdktf.Terr
       terraformResourceType: 'elasticstack_elasticsearch_ingest_processor_date',
       terraformGeneratorMetadata: {
         providerName: 'elasticstack',
-        providerVersion: '0.12.1'
+        providerVersion: '0.12.1',
+        providerVersionConstraint: '0.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

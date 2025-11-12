@@ -80,7 +80,8 @@ export class IamRole extends cdktf.TerraformResource {
       terraformResourceType: 'akamai_iam_role',
       terraformGeneratorMetadata: {
         providerName: 'akamai',
-        providerVersion: '9.1.0'
+        providerVersion: '9.1.0',
+        providerVersionConstraint: '9.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

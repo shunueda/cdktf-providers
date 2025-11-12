@@ -64,7 +64,8 @@ export class BotmanTransactionalEndpointProtection extends cdktf.TerraformResour
       terraformResourceType: 'akamai_botman_transactional_endpoint_protection',
       terraformGeneratorMetadata: {
         providerName: 'akamai',
-        providerVersion: '9.1.0'
+        providerVersion: '9.1.0',
+        providerVersionConstraint: '9.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

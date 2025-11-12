@@ -80,7 +80,8 @@ export class DnssecKey extends cdktf.TerraformResource {
       terraformResourceType: 'gandi_dnssec_key',
       terraformGeneratorMetadata: {
         providerName: 'gandi',
-        providerVersion: '2.3.0'
+        providerVersion: '2.3.0',
+        providerVersionConstraint: '2.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

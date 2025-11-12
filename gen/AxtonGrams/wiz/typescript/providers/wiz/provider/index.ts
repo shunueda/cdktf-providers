@@ -130,7 +130,8 @@ export class WizProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'wiz',
       terraformGeneratorMetadata: {
         providerName: 'wiz',
-        providerVersion: '1.2.5'
+        providerVersion: '1.2.5',
+        providerVersionConstraint: '1.2.5'
       },
       terraformProviderSource: 'AxtonGrams/wiz'
     });

@@ -55,7 +55,8 @@ export class SchemasProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'schemas',
       terraformGeneratorMetadata: {
         providerName: 'schemas',
-        providerVersion: '0.2.0'
+        providerVersion: '0.2.0',
+        providerVersionConstraint: '0.2.0'
       },
       terraformProviderSource: 'grafana/schemas'
     });

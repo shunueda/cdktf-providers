@@ -3686,7 +3686,8 @@ export class DataIntersightCapabilityFexSupportMeta extends cdktf.TerraformDataS
       terraformResourceType: 'intersight_capability_fex_support_meta',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

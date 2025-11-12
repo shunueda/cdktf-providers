@@ -1344,7 +1344,8 @@ export class DatahubAwsCluster extends cdktf.TerraformResource {
       terraformResourceType: 'cdp_datahub_aws_cluster',
       terraformGeneratorMetadata: {
         providerName: 'cdp',
-        providerVersion: '0.10.8'
+        providerVersion: '0.10.8',
+        providerVersionConstraint: '0.10.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

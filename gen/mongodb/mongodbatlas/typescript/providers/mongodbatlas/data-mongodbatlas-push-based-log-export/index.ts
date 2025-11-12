@@ -57,7 +57,8 @@ export class DataMongodbatlasPushBasedLogExport extends cdktf.TerraformDataSourc
       terraformResourceType: 'mongodbatlas_push_based_log_export',
       terraformGeneratorMetadata: {
         providerName: 'mongodbatlas',
-        providerVersion: '2.1.0'
+        providerVersion: '2.1.0',
+        providerVersionConstraint: '2.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

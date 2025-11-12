@@ -129,7 +129,8 @@ export class DataZillizcloudCloudProviders extends cdktf.TerraformDataSource {
       terraformResourceType: 'zillizcloud_cloud_providers',
       terraformGeneratorMetadata: {
         providerName: 'zillizcloud',
-        providerVersion: '0.6.23'
+        providerVersion: '0.6.23',
+        providerVersionConstraint: '0.6.23'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

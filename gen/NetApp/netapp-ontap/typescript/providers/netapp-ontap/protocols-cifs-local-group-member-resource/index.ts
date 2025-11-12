@@ -73,7 +73,8 @@ export class ProtocolsCifsLocalGroupMemberResource extends cdktf.TerraformResour
       terraformResourceType: 'netapp-ontap_protocols_cifs_local_group_member_resource',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0'
+        providerVersion: '2.3.0',
+        providerVersionConstraint: '2.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

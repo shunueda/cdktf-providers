@@ -236,7 +236,8 @@ export class DataZenlayercloudZlbListeners extends cdktf.TerraformDataSource {
       terraformResourceType: 'zenlayercloud_zlb_listeners',
       terraformGeneratorMetadata: {
         providerName: 'zenlayercloud',
-        providerVersion: '0.2.8'
+        providerVersion: '0.2.8',
+        providerVersionConstraint: '0.2.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

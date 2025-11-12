@@ -68,7 +68,8 @@ export class DataCloudsmithRepository extends cdktf.TerraformDataSource {
       terraformResourceType: 'cloudsmith_repository',
       terraformGeneratorMetadata: {
         providerName: 'cloudsmith',
-        providerVersion: '0.0.66'
+        providerVersion: '0.0.66',
+        providerVersionConstraint: '0.0.66'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

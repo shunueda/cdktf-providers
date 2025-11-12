@@ -156,7 +156,8 @@ export class DataGoogleMonitoringMeshIstioService extends cdktf.TerraformDataSou
       terraformResourceType: 'google_monitoring_mesh_istio_service',
       terraformGeneratorMetadata: {
         providerName: 'google',
-        providerVersion: '4.16.4'
+        providerVersion: '4.16.4',
+        providerVersionConstraint: '4.16.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

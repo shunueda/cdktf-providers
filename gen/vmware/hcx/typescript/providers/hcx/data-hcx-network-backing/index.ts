@@ -68,7 +68,8 @@ export class DataHcxNetworkBacking extends cdktf.TerraformDataSource {
       terraformResourceType: 'hcx_network_backing',
       terraformGeneratorMetadata: {
         providerName: 'hcx',
-        providerVersion: '0.5.1'
+        providerVersion: '0.5.1',
+        providerVersionConstraint: '0.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

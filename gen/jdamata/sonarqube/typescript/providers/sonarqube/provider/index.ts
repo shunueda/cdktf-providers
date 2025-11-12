@@ -95,7 +95,8 @@ export class SonarqubeProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'sonarqube',
       terraformGeneratorMetadata: {
         providerName: 'sonarqube',
-        providerVersion: '0.16.17'
+        providerVersion: '0.16.17',
+        providerVersionConstraint: '0.16.17'
       },
       terraformProviderSource: 'jdamata/sonarqube'
     });

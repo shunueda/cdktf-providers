@@ -86,7 +86,8 @@ export class ClassicElasticPublicIpv6 extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_classic_elastic_public_ipv6',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

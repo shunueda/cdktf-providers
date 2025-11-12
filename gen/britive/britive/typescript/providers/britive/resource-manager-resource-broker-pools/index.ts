@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/britive/britive/2.2.3/docs/resources/resource_manager_resource_broker_pools
+// https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/resource_manager_resource_broker_pools
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ResourceManagerResourceBrokerPoolsConfig extends cdktf.Terrafor
   /**
   * The broker pool names to be associated to the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.3/docs/resources/resource_manager_resource_broker_pools#broker_pools ResourceManagerResourceBrokerPools#broker_pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/resource_manager_resource_broker_pools#broker_pools ResourceManagerResourceBrokerPools#broker_pools}
   */
   readonly brokerPools: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.3/docs/resources/resource_manager_resource_broker_pools#id ResourceManagerResourceBrokerPools#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/resource_manager_resource_broker_pools#id ResourceManagerResourceBrokerPools#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface ResourceManagerResourceBrokerPoolsConfig extends cdktf.Terrafor
   /**
   * The id of server access resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.3/docs/resources/resource_manager_resource_broker_pools#resource_id ResourceManagerResourceBrokerPools#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/resource_manager_resource_broker_pools#resource_id ResourceManagerResourceBrokerPools#resource_id}
   */
   readonly resourceId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/britive/britive/2.2.3/docs/resources/resource_manager_resource_broker_pools britive_resource_manager_resource_broker_pools}
+* Represents a {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/resource_manager_resource_broker_pools britive_resource_manager_resource_broker_pools}
 */
 export class ResourceManagerResourceBrokerPools extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class ResourceManagerResourceBrokerPools extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a ResourceManagerResourceBrokerPools resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ResourceManagerResourceBrokerPools to import
-  * @param importFromId The id of the existing ResourceManagerResourceBrokerPools that should be imported. Refer to the {@link https://registry.terraform.io/providers/britive/britive/2.2.3/docs/resources/resource_manager_resource_broker_pools#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ResourceManagerResourceBrokerPools that should be imported. Refer to the {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/resource_manager_resource_broker_pools#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ResourceManagerResourceBrokerPools to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class ResourceManagerResourceBrokerPools extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/britive/britive/2.2.3/docs/resources/resource_manager_resource_broker_pools britive_resource_manager_resource_broker_pools} Resource
+  * Create a new {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/resource_manager_resource_broker_pools britive_resource_manager_resource_broker_pools} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,7 +68,8 @@ export class ResourceManagerResourceBrokerPools extends cdktf.TerraformResource 
       terraformResourceType: 'britive_resource_manager_resource_broker_pools',
       terraformGeneratorMetadata: {
         providerName: 'britive',
-        providerVersion: '2.2.3'
+        providerVersion: '2.2.4',
+        providerVersionConstraint: '2.2.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

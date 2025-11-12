@@ -78,7 +78,8 @@ export class SecurityNatSourceRuleSetRuleThenSourceNatPoolPoolName extends cdktf
       terraformResourceType: 'junos-vsrx_SecurityNatSourceRule__SetRuleThenSource__NatPoolPool__Name',
       terraformGeneratorMetadata: {
         providerName: 'junos-vsrx',
-        providerVersion: '20.32.106'
+        providerVersion: '20.32.106',
+        providerVersionConstraint: '20.32.106'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

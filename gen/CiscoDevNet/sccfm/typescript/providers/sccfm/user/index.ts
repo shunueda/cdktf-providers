@@ -79,7 +79,8 @@ export class User extends cdktf.TerraformResource {
       terraformResourceType: 'sccfm_user',
       terraformGeneratorMetadata: {
         providerName: 'sccfm',
-        providerVersion: '0.2.5'
+        providerVersion: '0.2.5',
+        providerVersionConstraint: '0.2.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

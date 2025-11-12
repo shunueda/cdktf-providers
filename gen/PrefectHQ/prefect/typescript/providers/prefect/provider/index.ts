@@ -103,7 +103,8 @@ export class PrefectProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'prefect',
       terraformGeneratorMetadata: {
         providerName: 'prefect',
-        providerVersion: '2.90.0'
+        providerVersion: '2.90.0',
+        providerVersionConstraint: '2.90.0'
       },
       terraformProviderSource: 'PrefectHQ/prefect'
     });

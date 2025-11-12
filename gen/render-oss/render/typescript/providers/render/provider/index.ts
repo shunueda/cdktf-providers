@@ -79,7 +79,8 @@ export class RenderProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'render',
       terraformGeneratorMetadata: {
         providerName: 'render',
-        providerVersion: '1.7.5'
+        providerVersion: '1.7.5',
+        providerVersionConstraint: '1.7.5'
       },
       terraformProviderSource: 'render-oss/render'
     });

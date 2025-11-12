@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/external_certificate
+// https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/external_certificate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface ExternalCertificateConfig extends cdktf.TerraformMetaArguments 
   /**
   * Certificate of the CA issuing the replacement certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/external_certificate#ca_certificate ExternalCertificate#ca_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/external_certificate#ca_certificate ExternalCertificate#ca_certificate}
   */
   readonly caCertificate?: string;
   /**
   * Certificate Chain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/external_certificate#certificate_chain ExternalCertificate#certificate_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/external_certificate#certificate_chain ExternalCertificate#certificate_chain}
   */
   readonly certificateChain?: string;
   /**
   * The ID of the CSR generated for a resource. A generated CSR is required for certificate replacement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/external_certificate#csr_id ExternalCertificate#csr_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/external_certificate#csr_id ExternalCertificate#csr_id}
   */
   readonly csrId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/external_certificate#id ExternalCertificate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/external_certificate#id ExternalCertificate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,13 +35,13 @@ export interface ExternalCertificateConfig extends cdktf.TerraformMetaArguments 
   /**
   * Resource Certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/external_certificate#resource_certificate ExternalCertificate#resource_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/external_certificate#resource_certificate ExternalCertificate#resource_certificate}
   */
   readonly resourceCertificate?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/external_certificate#timeouts ExternalCertificate#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/external_certificate#timeouts ExternalCertificate#timeouts}
   */
   readonly timeouts?: ExternalCertificateTimeouts;
 }
@@ -242,19 +242,19 @@ export class ExternalCertificateCertificateList extends cdktf.ComplexList {
 }
 export interface ExternalCertificateTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/external_certificate#create ExternalCertificate#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/external_certificate#create ExternalCertificate#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/external_certificate#delete ExternalCertificate#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/external_certificate#delete ExternalCertificate#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/external_certificate#read ExternalCertificate#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/external_certificate#read ExternalCertificate#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/external_certificate#update ExternalCertificate#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/external_certificate#update ExternalCertificate#update}
   */
   readonly update?: string;
 }
@@ -435,7 +435,7 @@ export class ExternalCertificateTimeoutsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/external_certificate vcf_external_certificate}
+* Represents a {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/external_certificate vcf_external_certificate}
 */
 export class ExternalCertificate extends cdktf.TerraformResource {
 
@@ -451,7 +451,7 @@ export class ExternalCertificate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ExternalCertificate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ExternalCertificate to import
-  * @param importFromId The id of the existing ExternalCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/external_certificate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ExternalCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/external_certificate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ExternalCertificate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -463,7 +463,7 @@ export class ExternalCertificate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/external_certificate vcf_external_certificate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/external_certificate vcf_external_certificate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -474,7 +474,8 @@ export class ExternalCertificate extends cdktf.TerraformResource {
       terraformResourceType: 'vcf_external_certificate',
       terraformGeneratorMetadata: {
         providerName: 'vcf',
-        providerVersion: '0.17.1'
+        providerVersion: '0.16.2',
+        providerVersionConstraint: '0.16.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

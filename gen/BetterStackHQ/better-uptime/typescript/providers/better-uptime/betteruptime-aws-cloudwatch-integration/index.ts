@@ -115,7 +115,8 @@ export class BetteruptimeAwsCloudwatchIntegration extends cdktf.TerraformResourc
       terraformResourceType: 'betteruptime_aws_cloudwatch_integration',
       terraformGeneratorMetadata: {
         providerName: 'better-uptime',
-        providerVersion: '0.20.4'
+        providerVersion: '0.20.4',
+        providerVersionConstraint: '0.20.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

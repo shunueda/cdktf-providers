@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/data-sources/ospf
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/data-sources/ospf
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataIosxeOspfConfig extends cdktf.TerraformMetaArguments {
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/data-sources/ospf#device DataIosxeOspf#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/data-sources/ospf#device DataIosxeOspf#device}
   */
   readonly device?: string;
   /**
   * Process ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/data-sources/ospf#process_id DataIosxeOspf#process_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/data-sources/ospf#process_id DataIosxeOspf#process_id}
   */
   readonly processId: number;
 }
@@ -1432,7 +1432,7 @@ export class DataIosxeOspfSummaryAddressesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/data-sources/ospf iosxe_ospf}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/data-sources/ospf iosxe_ospf}
 */
 export class DataIosxeOspf extends cdktf.TerraformDataSource {
 
@@ -1448,7 +1448,7 @@ export class DataIosxeOspf extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIosxeOspf resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIosxeOspf to import
-  * @param importFromId The id of the existing DataIosxeOspf that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/data-sources/ospf#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIosxeOspf that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/data-sources/ospf#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIosxeOspf to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1460,7 +1460,7 @@ export class DataIosxeOspf extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/data-sources/ospf iosxe_ospf} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/data-sources/ospf iosxe_ospf} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1471,7 +1471,8 @@ export class DataIosxeOspf extends cdktf.TerraformDataSource {
       terraformResourceType: 'iosxe_ospf',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.9.3'
+        providerVersion: '0.10.0',
+        providerVersionConstraint: '0.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1546,9 +1547,54 @@ export class DataIosxeOspf extends cdktf.TerraformDataSource {
     return this.getNumberAttribute('domain_tag');
   }
 
+  // fast_reroute_per_prefix_enable_prefix_priority - computed: true, optional: false, required: false
+  public get fastReroutePerPrefixEnablePrefixPriority() {
+    return this.getStringAttribute('fast_reroute_per_prefix_enable_prefix_priority');
+  }
+
   // id - computed: true, optional: false, required: false
   public get id() {
     return this.getStringAttribute('id');
+  }
+
+  // log_adjacency_changes - computed: true, optional: false, required: false
+  public get logAdjacencyChanges() {
+    return this.getBooleanAttribute('log_adjacency_changes');
+  }
+
+  // log_adjacency_changes_detail - computed: true, optional: false, required: false
+  public get logAdjacencyChangesDetail() {
+    return this.getBooleanAttribute('log_adjacency_changes_detail');
+  }
+
+  // max_metric_router_lsa - computed: true, optional: false, required: false
+  public get maxMetricRouterLsa() {
+    return this.getBooleanAttribute('max_metric_router_lsa');
+  }
+
+  // max_metric_router_lsa_external_lsa_metric - computed: true, optional: false, required: false
+  public get maxMetricRouterLsaExternalLsaMetric() {
+    return this.getNumberAttribute('max_metric_router_lsa_external_lsa_metric');
+  }
+
+  // max_metric_router_lsa_include_stub - computed: true, optional: false, required: false
+  public get maxMetricRouterLsaIncludeStub() {
+    return this.getBooleanAttribute('max_metric_router_lsa_include_stub');
+  }
+
+  // max_metric_router_lsa_on_startup_time - computed: true, optional: false, required: false
+  public get maxMetricRouterLsaOnStartupTime() {
+    return this.getNumberAttribute('max_metric_router_lsa_on_startup_time');
+  }
+
+  // max_metric_router_lsa_on_startup_wait_for_bgp - computed: true, optional: false, required: false
+  public get maxMetricRouterLsaOnStartupWaitForBgp() {
+    return this.getBooleanAttribute('max_metric_router_lsa_on_startup_wait_for_bgp');
+  }
+
+  // max_metric_router_lsa_summary_lsa_metric - computed: true, optional: false, required: false
+  public get maxMetricRouterLsaSummaryLsaMetric() {
+    return this.getNumberAttribute('max_metric_router_lsa_summary_lsa_metric');
   }
 
   // mpls_ldp_autoconfig - computed: true, optional: false, required: false
@@ -1571,6 +1617,26 @@ export class DataIosxeOspf extends cdktf.TerraformDataSource {
   private _networks = new DataIosxeOspfNetworksList(this, "networks", false);
   public get networks() {
     return this._networks;
+  }
+
+  // nsf_cisco - computed: true, optional: false, required: false
+  public get nsfCisco() {
+    return this.getBooleanAttribute('nsf_cisco');
+  }
+
+  // nsf_cisco_enforce_global - computed: true, optional: false, required: false
+  public get nsfCiscoEnforceGlobal() {
+    return this.getBooleanAttribute('nsf_cisco_enforce_global');
+  }
+
+  // nsf_ietf - computed: true, optional: false, required: false
+  public get nsfIetf() {
+    return this.getBooleanAttribute('nsf_ietf');
+  }
+
+  // nsf_ietf_restart_interval - computed: true, optional: false, required: false
+  public get nsfIetfRestartInterval() {
+    return this.getNumberAttribute('nsf_ietf_restart_interval');
   }
 
   // passive_interface - computed: true, optional: false, required: false
@@ -1683,6 +1749,16 @@ export class DataIosxeOspf extends cdktf.TerraformDataSource {
   // Temporarily expose input value. Use with caution.
   public get processIdInput() {
     return this._processId;
+  }
+
+  // redistribute_connected_subnets - computed: true, optional: false, required: false
+  public get redistributeConnectedSubnets() {
+    return this.getBooleanAttribute('redistribute_connected_subnets');
+  }
+
+  // redistribute_static_subnets - computed: true, optional: false, required: false
+  public get redistributeStaticSubnets() {
+    return this.getBooleanAttribute('redistribute_static_subnets');
   }
 
   // router_id - computed: true, optional: false, required: false

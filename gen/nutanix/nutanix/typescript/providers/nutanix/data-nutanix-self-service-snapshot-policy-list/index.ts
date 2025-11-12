@@ -167,7 +167,8 @@ export class DataNutanixSelfServiceSnapshotPolicyList extends cdktf.TerraformDat
       terraformResourceType: 'nutanix_self_service_snapshot_policy_list',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3'
+        providerVersion: '2.3.3',
+        providerVersionConstraint: '2.3.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

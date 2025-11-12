@@ -77,7 +77,8 @@ export class LogicmonitorProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'logicmonitor',
       terraformGeneratorMetadata: {
         providerName: 'logicmonitor',
-        providerVersion: '2.0.25'
+        providerVersion: '2.0.25',
+        providerVersionConstraint: '2.0.25'
       },
       terraformProviderSource: 'logicmonitor/logicmonitor'
     });

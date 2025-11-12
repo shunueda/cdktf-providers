@@ -74,7 +74,8 @@ export class DataVcdaServiceCert extends cdktf.TerraformDataSource {
       terraformResourceType: 'vcda_service_cert',
       terraformGeneratorMetadata: {
         providerName: 'vcda',
-        providerVersion: '2.1.0'
+        providerVersion: '2.1.0',
+        providerVersionConstraint: '2.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -139,7 +139,8 @@ export class DataSdwanPolicyObjectExtendedCommunityList extends cdktf.TerraformD
       terraformResourceType: 'sdwan_policy_object_extended_community_list',
       terraformGeneratorMetadata: {
         providerName: 'sdwan',
-        providerVersion: '0.8.1'
+        providerVersion: '0.8.1',
+        providerVersionConstraint: '0.8.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

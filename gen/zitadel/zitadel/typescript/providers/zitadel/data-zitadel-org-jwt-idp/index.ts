@@ -68,7 +68,8 @@ export class DataZitadelOrgJwtIdp extends cdktf.TerraformDataSource {
       terraformResourceType: 'zitadel_org_jwt_idp',
       terraformGeneratorMetadata: {
         providerName: 'zitadel',
-        providerVersion: '2.3.0'
+        providerVersion: '2.3.0',
+        providerVersionConstraint: '2.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

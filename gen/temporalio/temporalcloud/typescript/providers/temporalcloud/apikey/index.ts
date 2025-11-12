@@ -222,7 +222,8 @@ export class Apikey extends cdktf.TerraformResource {
       terraformResourceType: 'temporalcloud_apikey',
       terraformGeneratorMetadata: {
         providerName: 'temporalcloud',
-        providerVersion: '1.1.1'
+        providerVersion: '1.1.1',
+        providerVersionConstraint: '1.1.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

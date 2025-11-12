@@ -102,7 +102,8 @@ export class RetrospectiveStep extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_retrospective_step',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.7'
+        providerVersion: '4.3.7',
+        providerVersionConstraint: '4.3.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -505,7 +505,8 @@ export class DataK8SHncXK8SIoHncConfigurationV1Alpha2Manifest extends cdktf.Terr
       terraformResourceType: 'k8s_hnc_x_k8s_io_hnc_configuration_v1alpha2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

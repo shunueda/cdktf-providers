@@ -72,7 +72,8 @@ export class DataOciContainerengineClusterKubeConfig extends cdktf.TerraformData
       terraformResourceType: 'oci_containerengine_cluster_kube_config',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -815,7 +815,8 @@ export class CmCertificate extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_cm_certificate',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.169.0'
+        providerVersion: '0.169.0',
+        providerVersionConstraint: '0.169.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

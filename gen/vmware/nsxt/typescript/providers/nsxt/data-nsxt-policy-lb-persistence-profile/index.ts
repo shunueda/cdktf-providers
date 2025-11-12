@@ -76,7 +76,8 @@ export class DataNsxtPolicyLbPersistenceProfile extends cdktf.TerraformDataSourc
       terraformResourceType: 'nsxt_policy_lb_persistence_profile',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0'
+        providerVersion: '3.10.0',
+        providerVersionConstraint: '3.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -249,7 +249,8 @@ export class StoragePool extends cdktf.TerraformResource {
       terraformResourceType: 'netapp-gcp_storage_pool',
       terraformGeneratorMetadata: {
         providerName: 'netapp-gcp',
-        providerVersion: '24.6.0'
+        providerVersion: '24.6.0',
+        providerVersionConstraint: '24.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

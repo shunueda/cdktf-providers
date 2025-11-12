@@ -72,7 +72,8 @@ export class BastionhostHostGroupAccountUserAttachment extends cdktf.TerraformRe
       terraformResourceType: 'alicloud_bastionhost_host_group_account_user_attachment',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

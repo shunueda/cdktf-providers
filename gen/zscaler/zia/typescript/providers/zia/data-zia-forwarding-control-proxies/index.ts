@@ -246,7 +246,8 @@ export class DataZiaForwardingControlProxies extends cdktf.TerraformDataSource {
       terraformResourceType: 'zia_forwarding_control_proxies',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.5.3'
+        providerVersion: '4.5.3',
+        providerVersionConstraint: '4.5.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

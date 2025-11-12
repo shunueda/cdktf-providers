@@ -49,7 +49,8 @@ export class DataRenderMetricsStream extends cdktf.TerraformDataSource {
       terraformResourceType: 'render_metrics_stream',
       terraformGeneratorMetadata: {
         providerName: 'render',
-        providerVersion: '1.7.5'
+        providerVersion: '1.7.5',
+        providerVersionConstraint: '1.7.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/serviceengine
+// https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/serviceengine
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,26 +8,26 @@ import * as cdktf from 'cdktf';
 
 export interface DataAviServiceengineConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/serviceengine#cloud_ref DataAviServiceengine#cloud_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/serviceengine#cloud_ref DataAviServiceengine#cloud_ref}
   */
   readonly cloudRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/serviceengine#id DataAviServiceengine#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/serviceengine#id DataAviServiceengine#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/serviceengine#name DataAviServiceengine#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/serviceengine#name DataAviServiceengine#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/serviceengine#tenant_ref DataAviServiceengine#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/serviceengine#tenant_ref DataAviServiceengine#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/serviceengine#uuid DataAviServiceengine#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/serviceengine#uuid DataAviServiceengine#uuid}
   */
   readonly uuid?: string;
 }
@@ -1963,11 +1963,6 @@ export class DataAviServiceengineResourcesOutputReference extends cdktf.ComplexO
     return this.getStringAttribute('num_vcpus');
   }
 
-  // qat_mode - computed: true, optional: false, required: false
-  public get qatMode() {
-    return this.getStringAttribute('qat_mode');
-  }
-
   // sockets - computed: true, optional: false, required: false
   public get sockets() {
     return this.getStringAttribute('sockets');
@@ -1994,7 +1989,7 @@ export class DataAviServiceengineResourcesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/serviceengine avi_serviceengine}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/serviceengine avi_serviceengine}
 */
 export class DataAviServiceengine extends cdktf.TerraformDataSource {
 
@@ -2010,7 +2005,7 @@ export class DataAviServiceengine extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAviServiceengine resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAviServiceengine to import
-  * @param importFromId The id of the existing DataAviServiceengine that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/serviceengine#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAviServiceengine that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/serviceengine#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAviServiceengine to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2022,7 +2017,7 @@ export class DataAviServiceengine extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/serviceengine avi_serviceengine} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/serviceengine avi_serviceengine} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2033,7 +2028,8 @@ export class DataAviServiceengine extends cdktf.TerraformDataSource {
       terraformResourceType: 'avi_serviceengine',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '31.1.1'
+        providerVersion: '30.2.5',
+        providerVersionConstraint: '30.2.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

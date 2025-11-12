@@ -547,7 +547,8 @@ export class OrgToken extends cdktf.TerraformResource {
       terraformResourceType: 'signalfx_org_token',
       terraformGeneratorMetadata: {
         providerName: 'signalfx',
-        providerVersion: '9.22.3'
+        providerVersion: '9.22.3',
+        providerVersionConstraint: '9.22.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

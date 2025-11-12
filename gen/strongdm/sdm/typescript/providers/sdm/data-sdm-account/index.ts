@@ -630,7 +630,8 @@ export class DataSdmAccount extends cdktf.TerraformDataSource {
       terraformResourceType: 'sdm_account',
       terraformGeneratorMetadata: {
         providerName: 'sdm',
-        providerVersion: '15.27.0'
+        providerVersion: '15.27.0',
+        providerVersionConstraint: '15.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

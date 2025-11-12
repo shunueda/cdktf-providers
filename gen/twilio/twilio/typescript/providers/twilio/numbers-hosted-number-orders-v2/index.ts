@@ -120,7 +120,8 @@ export class NumbersHostedNumberOrdersV2 extends cdktf.TerraformResource {
       terraformResourceType: 'twilio_numbers_hosted_number_orders_v2',
       terraformGeneratorMetadata: {
         providerName: 'twilio',
-        providerVersion: '0.18.46'
+        providerVersion: '0.18.46',
+        providerVersionConstraint: '0.18.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

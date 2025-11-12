@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/network_pool
+// https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/network_pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface NetworkPoolConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the network pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/network_pool#name NetworkPool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/network_pool#name NetworkPool#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/network_pool#timeouts NetworkPool#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/network_pool#timeouts NetworkPool#timeouts}
   */
   readonly timeouts?: NetworkPoolTimeouts;
   /**
   * network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/network_pool#network NetworkPool#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/network_pool#network NetworkPool#network}
   */
   readonly network?: NetworkPoolNetwork[] | cdktf.IResolvable;
 }
@@ -28,7 +28,7 @@ export interface NetworkPoolTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/network_pool#create NetworkPool#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/network_pool#create NetworkPool#create}
   */
   readonly create?: string;
 }
@@ -124,13 +124,13 @@ export interface NetworkPoolNetworkIpPools {
   /**
   * End IP address of the IP pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/network_pool#end NetworkPool#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/network_pool#end NetworkPool#end}
   */
   readonly end?: string;
   /**
   * Start IP address of the IP pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/network_pool#start NetworkPool#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/network_pool#start NetworkPool#start}
   */
   readonly start?: string;
 }
@@ -277,43 +277,43 @@ export interface NetworkPoolNetwork {
   /**
   * Gateway for the network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/network_pool#gateway NetworkPool#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/network_pool#gateway NetworkPool#gateway}
   */
   readonly gateway?: string;
   /**
   * Subnet mask for the subnet of the network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/network_pool#mask NetworkPool#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/network_pool#mask NetworkPool#mask}
   */
   readonly mask?: string;
   /**
   * Gateway for the network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/network_pool#mtu NetworkPool#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/network_pool#mtu NetworkPool#mtu}
   */
   readonly mtu?: number;
   /**
   * Subnet associated with the network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/network_pool#subnet NetworkPool#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/network_pool#subnet NetworkPool#subnet}
   */
   readonly subnet?: string;
   /**
   * Network Type of the network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/network_pool#type NetworkPool#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/network_pool#type NetworkPool#type}
   */
   readonly type?: string;
   /**
   * VLAN ID associated with the network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/network_pool#vlan_id NetworkPool#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/network_pool#vlan_id NetworkPool#vlan_id}
   */
   readonly vlanId: number;
   /**
   * ip_pools block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/network_pool#ip_pools NetworkPool#ip_pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/network_pool#ip_pools NetworkPool#ip_pools}
   */
   readonly ipPools?: NetworkPoolNetworkIpPools[] | cdktf.IResolvable;
 }
@@ -600,7 +600,7 @@ export class NetworkPoolNetworkList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/network_pool vcf_network_pool}
+* Represents a {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/network_pool vcf_network_pool}
 */
 export class NetworkPool extends cdktf.TerraformResource {
 
@@ -616,7 +616,7 @@ export class NetworkPool extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkPool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkPool to import
-  * @param importFromId The id of the existing NetworkPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/network_pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/network_pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkPool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -628,7 +628,7 @@ export class NetworkPool extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/network_pool vcf_network_pool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/network_pool vcf_network_pool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -639,7 +639,8 @@ export class NetworkPool extends cdktf.TerraformResource {
       terraformResourceType: 'vcf_network_pool',
       terraformGeneratorMetadata: {
         providerName: 'vcf',
-        providerVersion: '0.17.1'
+        providerVersion: '0.16.2',
+        providerVersionConstraint: '0.16.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

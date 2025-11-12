@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/britive/britive/2.2.3/docs/resources/role
+// https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/role
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface RoleConfig extends cdktf.TerraformMetaArguments {
   /**
   * The description of the Britive role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.3/docs/resources/role#description Role#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/role#description Role#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.3/docs/resources/role#id Role#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/role#id Role#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface RoleConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of Britive role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.3/docs/resources/role#name Role#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/role#name Role#name}
   */
   readonly name: string;
   /**
   * Permissions of the role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.3/docs/resources/role#permissions Role#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/role#permissions Role#permissions}
   */
   readonly permissions: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/britive/britive/2.2.3/docs/resources/role britive_role}
+* Represents a {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/role britive_role}
 */
 export class Role extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class Role extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Role resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Role to import
-  * @param importFromId The id of the existing Role that should be imported. Refer to the {@link https://registry.terraform.io/providers/britive/britive/2.2.3/docs/resources/role#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Role that should be imported. Refer to the {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/role#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Role to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class Role extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/britive/britive/2.2.3/docs/resources/role britive_role} Resource
+  * Create a new {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/role britive_role} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,7 +74,8 @@ export class Role extends cdktf.TerraformResource {
       terraformResourceType: 'britive_role',
       terraformGeneratorMetadata: {
         providerName: 'britive',
-        providerVersion: '2.2.3'
+        providerVersion: '2.2.4',
+        providerVersionConstraint: '2.2.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

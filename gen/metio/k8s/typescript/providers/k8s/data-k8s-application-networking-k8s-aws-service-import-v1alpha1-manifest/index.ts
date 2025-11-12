@@ -896,7 +896,8 @@ export class DataK8SApplicationNetworkingK8SAwsServiceImportV1Alpha1Manifest ext
       terraformResourceType: 'k8s_application_networking_k8s_aws_service_import_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

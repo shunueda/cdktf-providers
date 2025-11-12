@@ -80,7 +80,8 @@ export class IdentityCenterRoleConfigurationPermissionPolicyAttachment extends c
       terraformResourceType: 'tencentcloud_identity_center_role_configuration_permission_policy_attachment',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -60,7 +60,8 @@ export class DataAwxJobTemplate extends cdktf.TerraformDataSource {
       terraformResourceType: 'awx_job_template',
       terraformGeneratorMetadata: {
         providerName: 'awx',
-        providerVersion: '0.29.1'
+        providerVersion: '0.29.1',
+        providerVersionConstraint: '0.29.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

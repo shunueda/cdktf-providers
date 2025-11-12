@@ -800,7 +800,8 @@ export class DataIosxrRouterStaticIpv6Unicast extends cdktf.TerraformDataSource 
       terraformResourceType: 'iosxr_router_static_ipv6_unicast',
       terraformGeneratorMetadata: {
         providerName: 'iosxr',
-        providerVersion: '0.6.0'
+        providerVersion: '0.6.0',
+        providerVersionConstraint: '0.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

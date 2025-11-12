@@ -3263,7 +3263,8 @@ export class TrafficDataPolicyDefinition extends cdktf.TerraformResource {
       terraformResourceType: 'sdwan_traffic_data_policy_definition',
       terraformGeneratorMetadata: {
         providerName: 'sdwan',
-        providerVersion: '0.8.1'
+        providerVersion: '0.8.1',
+        providerVersionConstraint: '0.8.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

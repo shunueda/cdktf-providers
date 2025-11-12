@@ -75,7 +75,8 @@ export class OpsgenieProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'opsgenie',
       terraformGeneratorMetadata: {
         providerName: 'opsgenie',
-        providerVersion: '0.6.40'
+        providerVersion: '0.6.40',
+        providerVersionConstraint: '0.6.40'
       },
       terraformProviderSource: 'opsgenie/opsgenie'
     });

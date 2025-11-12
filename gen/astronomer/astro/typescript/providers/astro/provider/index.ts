@@ -73,7 +73,8 @@ export class AstroProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'astro',
       terraformGeneratorMetadata: {
         providerName: 'astro',
-        providerVersion: '1.0.8'
+        providerVersion: '1.0.8',
+        providerVersionConstraint: '1.0.8'
       },
       terraformProviderSource: 'astronomer/astro'
     });

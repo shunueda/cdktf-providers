@@ -494,7 +494,8 @@ export class DataFortisaseSecurityCertLocalCerts extends cdktf.TerraformDataSour
       terraformResourceType: 'fortisase_security_cert_local_certs',
       terraformGeneratorMetadata: {
         providerName: 'fortisase',
-        providerVersion: '1.0.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -91,7 +91,8 @@ export class MaasProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'maas',
       terraformGeneratorMetadata: {
         providerName: 'maas',
-        providerVersion: '2.6.0'
+        providerVersion: '2.6.0',
+        providerVersionConstraint: '2.6.0'
       },
       terraformProviderSource: 'canonical/maas'
     });

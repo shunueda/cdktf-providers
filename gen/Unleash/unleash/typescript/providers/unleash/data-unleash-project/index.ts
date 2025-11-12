@@ -70,7 +70,8 @@ export class DataUnleashProject extends cdktf.TerraformDataSource {
       terraformResourceType: 'unleash_project',
       terraformGeneratorMetadata: {
         providerName: 'unleash',
-        providerVersion: '3.1.11'
+        providerVersion: '3.1.11',
+        providerVersionConstraint: '3.1.11'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

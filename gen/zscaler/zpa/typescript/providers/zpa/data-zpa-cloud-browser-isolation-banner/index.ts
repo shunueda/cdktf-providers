@@ -60,7 +60,8 @@ export class DataZpaCloudBrowserIsolationBanner extends cdktf.TerraformDataSourc
       terraformResourceType: 'zpa_cloud_browser_isolation_banner',
       terraformGeneratorMetadata: {
         providerName: 'zpa',
-        providerVersion: '4.3.2'
+        providerVersion: '4.3.2',
+        providerVersionConstraint: '4.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

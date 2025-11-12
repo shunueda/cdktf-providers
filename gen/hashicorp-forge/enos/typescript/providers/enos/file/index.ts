@@ -109,7 +109,8 @@ export class File extends cdktf.TerraformResource {
       terraformResourceType: 'enos_file',
       terraformGeneratorMetadata: {
         providerName: 'enos',
-        providerVersion: '0.6.2'
+        providerVersion: '0.6.2',
+        providerVersionConstraint: '0.6.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -74,7 +74,8 @@ export class SnmpServerEnableTrapsSystemAppsGlobalA extends cdktf.TerraformResou
       terraformResourceType: 'thunder_snmp_server_enable_traps_system_apps_global',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

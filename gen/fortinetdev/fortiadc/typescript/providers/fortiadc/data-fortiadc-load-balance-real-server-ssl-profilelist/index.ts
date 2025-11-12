@@ -64,7 +64,8 @@ export class DataFortiadcLoadBalanceRealServerSslProfilelist extends cdktf.Terra
       terraformResourceType: 'fortiadc_load_balance_real_server_ssl_profilelist',
       terraformGeneratorMetadata: {
         providerName: 'fortiadc',
-        providerVersion: '1.3.1'
+        providerVersion: '1.3.1',
+        providerVersionConstraint: '1.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

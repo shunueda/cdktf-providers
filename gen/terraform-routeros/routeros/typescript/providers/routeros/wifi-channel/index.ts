@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/wifi_channel
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/wifi_channel
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface WifiChannelConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/wifi_channel#___path___ WifiChannel#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/wifi_channel#___path___ WifiChannel#___path___}
   */
   readonly path?: string;
   /**
   * Frequency band and wireless standard that will be used by the AP. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/wifi_channel#band WifiChannel#band}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/wifi_channel#band WifiChannel#band}
   */
   readonly band?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/wifi_channel#comment WifiChannel#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/wifi_channel#comment WifiChannel#comment}
   */
   readonly comment?: string;
   /**
   * Whether to assign lower priority to channels with a control frequency of 5720 or 5825-5885 MHz. These channels are unsupported by some client devices, making their automatic selection undesirable. Defaults to `yes` in ETSI regulatory domains, elsewhere to `no`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/wifi_channel#deprioritize_unii_3_4 WifiChannel#deprioritize_unii_3_4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/wifi_channel#deprioritize_unii_3_4 WifiChannel#deprioritize_unii_3_4}
   */
   readonly deprioritizeUnii34?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/wifi_channel#disabled WifiChannel#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/wifi_channel#disabled WifiChannel#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Channel frequency value or range in MHz on which AP or station will operate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/wifi_channel#frequency WifiChannel#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/wifi_channel#frequency WifiChannel#frequency}
   */
   readonly frequency?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/wifi_channel#id WifiChannel#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/wifi_channel#id WifiChannel#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -49,13 +49,13 @@ export interface WifiChannelConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/wifi_channel#name WifiChannel#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/wifi_channel#name WifiChannel#name}
   */
   readonly name: string;
   /**
   * An option that specifies when the interface should rescan channel availability and select the most appropriate one to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/wifi_channel#reselect_interval WifiChannel#reselect_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/wifi_channel#reselect_interval WifiChannel#reselect_interval}
   */
   readonly reselectInterval?: string;
   /**
@@ -66,31 +66,31 @@ export interface WifiChannelConfig extends cdktf.TerraformMetaArguments {
   *     - 01:00..01:30 → Would set the rescan of channels to run every night, once, randomly, between 01:00 AM to 01:30 AM, system clock time.
   *     - 14:00..14:30 → Would set the rescan of channels to run every day (after midday), once, randomly between 14:00:00 to 14:30:00 (or 2 PM to 2:30 PM), system clock time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/wifi_channel#reselect_time WifiChannel#reselect_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/wifi_channel#reselect_time WifiChannel#reselect_time}
   */
   readonly reselectTime?: string;
   /**
   * Specifies the second frequency that will be used for 80+80MHz configuration. Set it to `disabled` in order to disable 80+80MHz capability.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/wifi_channel#secondary_frequency WifiChannel#secondary_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/wifi_channel#secondary_frequency WifiChannel#secondary_frequency}
   */
   readonly secondaryFrequency?: string[];
   /**
   * An option to avoid using channels on which channel availability check (listening for the presence of radar signals) is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/wifi_channel#skip_dfs_channels WifiChannel#skip_dfs_channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/wifi_channel#skip_dfs_channels WifiChannel#skip_dfs_channels}
   */
   readonly skipDfsChannels?: string;
   /**
   * Channel width.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/wifi_channel#width WifiChannel#width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/wifi_channel#width WifiChannel#width}
   */
   readonly width?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/wifi_channel routeros_wifi_channel}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/wifi_channel routeros_wifi_channel}
 */
 export class WifiChannel extends cdktf.TerraformResource {
 
@@ -106,7 +106,7 @@ export class WifiChannel extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WifiChannel resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WifiChannel to import
-  * @param importFromId The id of the existing WifiChannel that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/wifi_channel#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WifiChannel that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/wifi_channel#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WifiChannel to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -118,7 +118,7 @@ export class WifiChannel extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/wifi_channel routeros_wifi_channel} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/wifi_channel routeros_wifi_channel} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -129,7 +129,8 @@ export class WifiChannel extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_wifi_channel',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.90.0'
+        providerVersion: '1.91.0',
+        providerVersionConstraint: '1.91.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -74,7 +74,8 @@ export class AwsGuardDuty extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_aws_guard_duty',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10'
+        providerVersion: '8.1.10',
+        providerVersionConstraint: '8.1.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

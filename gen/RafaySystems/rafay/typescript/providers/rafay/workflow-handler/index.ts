@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler
+// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface WorkflowHandlerConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#id WorkflowHandler#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#id WorkflowHandler#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface WorkflowHandlerConfig extends cdktf.TerraformMetaArguments {
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#metadata WorkflowHandler#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#metadata WorkflowHandler#metadata}
   */
   readonly metadata?: WorkflowHandlerMetadata;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#spec WorkflowHandler#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#spec WorkflowHandler#spec}
   */
   readonly spec?: WorkflowHandlerSpec;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#timeouts WorkflowHandler#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#timeouts WorkflowHandler#timeouts}
   */
   readonly timeouts?: WorkflowHandlerTimeouts;
 }
@@ -37,7 +37,7 @@ export interface WorkflowHandlerMetadataCreatedBy {
   /**
   * Id of the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#id WorkflowHandler#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#id WorkflowHandler#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -46,13 +46,13 @@ export interface WorkflowHandlerMetadataCreatedBy {
   /**
   * Whether person is logged in using sso
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#is_sso_user WorkflowHandler#is_sso_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#is_sso_user WorkflowHandler#is_sso_user}
   */
   readonly isSsoUser?: boolean | cdktf.IResolvable;
   /**
   * Username fo the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#username WorkflowHandler#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#username WorkflowHandler#username}
   */
   readonly username?: string;
 }
@@ -196,7 +196,7 @@ export interface WorkflowHandlerMetadataModifiedBy {
   /**
   * Id of the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#id WorkflowHandler#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#id WorkflowHandler#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -205,13 +205,13 @@ export interface WorkflowHandlerMetadataModifiedBy {
   /**
   * Whether person is logged in using sso
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#is_sso_user WorkflowHandler#is_sso_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#is_sso_user WorkflowHandler#is_sso_user}
   */
   readonly isSsoUser?: boolean | cdktf.IResolvable;
   /**
   * Username fo the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#username WorkflowHandler#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#username WorkflowHandler#username}
   */
   readonly username?: string;
 }
@@ -355,49 +355,49 @@ export interface WorkflowHandlerMetadata {
   /**
   * annotations of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#annotations WorkflowHandler#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#annotations WorkflowHandler#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * description of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#description WorkflowHandler#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#description WorkflowHandler#description}
   */
   readonly description?: string;
   /**
   * Display Name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#display_name WorkflowHandler#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#display_name WorkflowHandler#display_name}
   */
   readonly displayName?: string;
   /**
   * labels of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#labels WorkflowHandler#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#labels WorkflowHandler#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#name WorkflowHandler#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#name WorkflowHandler#name}
   */
   readonly name?: string;
   /**
   * Project of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#project WorkflowHandler#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#project WorkflowHandler#project}
   */
   readonly project?: string;
   /**
   * created_by block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#created_by WorkflowHandler#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#created_by WorkflowHandler#created_by}
   */
   readonly createdBy?: WorkflowHandlerMetadataCreatedBy;
   /**
   * modified_by block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#modified_by WorkflowHandler#modified_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#modified_by WorkflowHandler#modified_by}
   */
   readonly modifiedBy?: WorkflowHandlerMetadataModifiedBy;
 }
@@ -686,19 +686,19 @@ export interface WorkflowHandlerSpecConfigContainerImagePullCredentials {
   /**
   * Specify the registry password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#password WorkflowHandler#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#password WorkflowHandler#password}
   */
   readonly password?: string;
   /**
   * Specify the container image registry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#registry WorkflowHandler#registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#registry WorkflowHandler#registry}
   */
   readonly registry?: string;
   /**
   * Specify the registry username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#username WorkflowHandler#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#username WorkflowHandler#username}
   */
   readonly username?: string;
 }
@@ -842,13 +842,13 @@ export interface WorkflowHandlerSpecConfigContainerKubeConfigOptions {
   /**
   * Specify the kube config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#kube_config WorkflowHandler#kube_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#kube_config WorkflowHandler#kube_config}
   */
   readonly kubeConfig?: string;
   /**
   * Specify if out of cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#out_of_cluster WorkflowHandler#out_of_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#out_of_cluster WorkflowHandler#out_of_cluster}
   */
   readonly outOfCluster?: boolean | cdktf.IResolvable;
 }
@@ -961,15 +961,15 @@ export class WorkflowHandlerSpecConfigContainerKubeConfigOptionsOutputReference 
 }
 export interface WorkflowHandlerSpecConfigContainerKubeOptionsAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#key WorkflowHandler#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#key WorkflowHandler#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#operator WorkflowHandler#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#operator WorkflowHandler#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#values WorkflowHandler#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#values WorkflowHandler#values}
   */
   readonly values?: string[];
 }
@@ -1143,15 +1143,15 @@ export class WorkflowHandlerSpecConfigContainerKubeOptionsAffinityNodeAffinityPr
 }
 export interface WorkflowHandlerSpecConfigContainerKubeOptionsAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#key WorkflowHandler#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#key WorkflowHandler#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#operator WorkflowHandler#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#operator WorkflowHandler#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#values WorkflowHandler#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#values WorkflowHandler#values}
   */
   readonly values?: string[];
 }
@@ -1327,13 +1327,13 @@ export interface WorkflowHandlerSpecConfigContainerKubeOptionsAffinityNodeAffini
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#match_expressions WorkflowHandler#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#match_expressions WorkflowHandler#match_expressions}
   */
   readonly matchExpressions?: WorkflowHandlerSpecConfigContainerKubeOptionsAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
   * match_fields block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#match_fields WorkflowHandler#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#match_fields WorkflowHandler#match_fields}
   */
   readonly matchFields?: WorkflowHandlerSpecConfigContainerKubeOptionsAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -1446,13 +1446,13 @@ export class WorkflowHandlerSpecConfigContainerKubeOptionsAffinityNodeAffinityPr
 }
 export interface WorkflowHandlerSpecConfigContainerKubeOptionsAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#weight WorkflowHandler#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#weight WorkflowHandler#weight}
   */
   readonly weight?: number;
   /**
   * preference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#preference WorkflowHandler#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#preference WorkflowHandler#preference}
   */
   readonly preference?: WorkflowHandlerSpecConfigContainerKubeOptionsAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
 }
@@ -1597,15 +1597,15 @@ export class WorkflowHandlerSpecConfigContainerKubeOptionsAffinityNodeAffinityPr
 }
 export interface WorkflowHandlerSpecConfigContainerKubeOptionsAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#key WorkflowHandler#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#key WorkflowHandler#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#operator WorkflowHandler#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#operator WorkflowHandler#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#values WorkflowHandler#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#values WorkflowHandler#values}
   */
   readonly values?: string[];
 }
@@ -1779,15 +1779,15 @@ export class WorkflowHandlerSpecConfigContainerKubeOptionsAffinityNodeAffinityRe
 }
 export interface WorkflowHandlerSpecConfigContainerKubeOptionsAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#key WorkflowHandler#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#key WorkflowHandler#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#operator WorkflowHandler#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#operator WorkflowHandler#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#values WorkflowHandler#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#values WorkflowHandler#values}
   */
   readonly values?: string[];
 }
@@ -1963,13 +1963,13 @@ export interface WorkflowHandlerSpecConfigContainerKubeOptionsAffinityNodeAffini
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#match_expressions WorkflowHandler#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#match_expressions WorkflowHandler#match_expressions}
   */
   readonly matchExpressions?: WorkflowHandlerSpecConfigContainerKubeOptionsAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
   * match_fields block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#match_fields WorkflowHandler#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#match_fields WorkflowHandler#match_fields}
   */
   readonly matchFields?: WorkflowHandlerSpecConfigContainerKubeOptionsAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -2116,7 +2116,7 @@ export interface WorkflowHandlerSpecConfigContainerKubeOptionsAffinityNodeAffini
   /**
   * node_selector_terms block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#node_selector_terms WorkflowHandler#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#node_selector_terms WorkflowHandler#node_selector_terms}
   */
   readonly nodeSelectorTerms?: WorkflowHandlerSpecConfigContainerKubeOptionsAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -2202,13 +2202,13 @@ export interface WorkflowHandlerSpecConfigContainerKubeOptionsAffinityNodeAffini
   /**
   * preferred_during_scheduling_ignored_during_execution block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#preferred_during_scheduling_ignored_during_execution WorkflowHandler#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#preferred_during_scheduling_ignored_during_execution WorkflowHandler#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: WorkflowHandlerSpecConfigContainerKubeOptionsAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * required_during_scheduling_ignored_during_execution block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#required_during_scheduling_ignored_during_execution WorkflowHandler#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#required_during_scheduling_ignored_during_execution WorkflowHandler#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: WorkflowHandlerSpecConfigContainerKubeOptionsAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -2321,15 +2321,15 @@ export class WorkflowHandlerSpecConfigContainerKubeOptionsAffinityNodeAffinityOu
 }
 export interface WorkflowHandlerSpecConfigContainerKubeOptionsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#key WorkflowHandler#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#key WorkflowHandler#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#operator WorkflowHandler#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#operator WorkflowHandler#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#values WorkflowHandler#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#values WorkflowHandler#values}
   */
   readonly values?: string[];
 }
@@ -2503,13 +2503,13 @@ export class WorkflowHandlerSpecConfigContainerKubeOptionsAffinityPodAffinityPre
 }
 export interface WorkflowHandlerSpecConfigContainerKubeOptionsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#match_labels WorkflowHandler#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#match_labels WorkflowHandler#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#match_expressions WorkflowHandler#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#match_expressions WorkflowHandler#match_expressions}
   */
   readonly matchExpressions?: WorkflowHandlerSpecConfigContainerKubeOptionsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -2622,15 +2622,15 @@ export class WorkflowHandlerSpecConfigContainerKubeOptionsAffinityPodAffinityPre
 }
 export interface WorkflowHandlerSpecConfigContainerKubeOptionsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#key WorkflowHandler#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#key WorkflowHandler#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#operator WorkflowHandler#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#operator WorkflowHandler#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#values WorkflowHandler#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#values WorkflowHandler#values}
   */
   readonly values?: string[];
 }
@@ -2804,13 +2804,13 @@ export class WorkflowHandlerSpecConfigContainerKubeOptionsAffinityPodAffinityPre
 }
 export interface WorkflowHandlerSpecConfigContainerKubeOptionsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#match_labels WorkflowHandler#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#match_labels WorkflowHandler#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#match_expressions WorkflowHandler#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#match_expressions WorkflowHandler#match_expressions}
   */
   readonly matchExpressions?: WorkflowHandlerSpecConfigContainerKubeOptionsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -2923,23 +2923,23 @@ export class WorkflowHandlerSpecConfigContainerKubeOptionsAffinityPodAffinityPre
 }
 export interface WorkflowHandlerSpecConfigContainerKubeOptionsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#namespaces WorkflowHandler#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#namespaces WorkflowHandler#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#topology_key WorkflowHandler#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#topology_key WorkflowHandler#topology_key}
   */
   readonly topologyKey?: string;
   /**
   * label_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#label_selector WorkflowHandler#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#label_selector WorkflowHandler#label_selector}
   */
   readonly labelSelector?: WorkflowHandlerSpecConfigContainerKubeOptionsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * namespace_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#namespace_selector WorkflowHandler#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#namespace_selector WorkflowHandler#namespace_selector}
   */
   readonly namespaceSelector?: WorkflowHandlerSpecConfigContainerKubeOptionsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
 }
@@ -3110,13 +3110,13 @@ export class WorkflowHandlerSpecConfigContainerKubeOptionsAffinityPodAffinityPre
 }
 export interface WorkflowHandlerSpecConfigContainerKubeOptionsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#weight WorkflowHandler#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#weight WorkflowHandler#weight}
   */
   readonly weight?: number;
   /**
   * pod_affinity_term block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#pod_affinity_term WorkflowHandler#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#pod_affinity_term WorkflowHandler#pod_affinity_term}
   */
   readonly podAffinityTerm?: WorkflowHandlerSpecConfigContainerKubeOptionsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
 }
@@ -3261,15 +3261,15 @@ export class WorkflowHandlerSpecConfigContainerKubeOptionsAffinityPodAffinityPre
 }
 export interface WorkflowHandlerSpecConfigContainerKubeOptionsAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#key WorkflowHandler#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#key WorkflowHandler#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#operator WorkflowHandler#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#operator WorkflowHandler#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#values WorkflowHandler#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#values WorkflowHandler#values}
   */
   readonly values?: string[];
 }
@@ -3443,13 +3443,13 @@ export class WorkflowHandlerSpecConfigContainerKubeOptionsAffinityPodAffinityReq
 }
 export interface WorkflowHandlerSpecConfigContainerKubeOptionsAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#match_labels WorkflowHandler#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#match_labels WorkflowHandler#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#match_expressions WorkflowHandler#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#match_expressions WorkflowHandler#match_expressions}
   */
   readonly matchExpressions?: WorkflowHandlerSpecConfigContainerKubeOptionsAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -3562,15 +3562,15 @@ export class WorkflowHandlerSpecConfigContainerKubeOptionsAffinityPodAffinityReq
 }
 export interface WorkflowHandlerSpecConfigContainerKubeOptionsAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#key WorkflowHandler#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#key WorkflowHandler#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#operator WorkflowHandler#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#operator WorkflowHandler#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#values WorkflowHandler#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#values WorkflowHandler#values}
   */
   readonly values?: string[];
 }
@@ -3744,13 +3744,13 @@ export class WorkflowHandlerSpecConfigContainerKubeOptionsAffinityPodAffinityReq
 }
 export interface WorkflowHandlerSpecConfigContainerKubeOptionsAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#match_labels WorkflowHandler#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#match_labels WorkflowHandler#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#match_expressions WorkflowHandler#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#match_expressions WorkflowHandler#match_expressions}
   */
   readonly matchExpressions?: WorkflowHandlerSpecConfigContainerKubeOptionsAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -3863,23 +3863,23 @@ export class WorkflowHandlerSpecConfigContainerKubeOptionsAffinityPodAffinityReq
 }
 export interface WorkflowHandlerSpecConfigContainerKubeOptionsAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#namespaces WorkflowHandler#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#namespaces WorkflowHandler#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#topology_key WorkflowHandler#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#topology_key WorkflowHandler#topology_key}
   */
   readonly topologyKey?: string;
   /**
   * label_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#label_selector WorkflowHandler#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#label_selector WorkflowHandler#label_selector}
   */
   readonly labelSelector?: WorkflowHandlerSpecConfigContainerKubeOptionsAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * namespace_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#namespace_selector WorkflowHandler#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#namespace_selector WorkflowHandler#namespace_selector}
   */
   readonly namespaceSelector?: WorkflowHandlerSpecConfigContainerKubeOptionsAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
 }
@@ -4084,13 +4084,13 @@ export interface WorkflowHandlerSpecConfigContainerKubeOptionsAffinityPodAffinit
   /**
   * preferred_during_scheduling_ignored_during_execution block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#preferred_during_scheduling_ignored_during_execution WorkflowHandler#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#preferred_during_scheduling_ignored_during_execution WorkflowHandler#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: WorkflowHandlerSpecConfigContainerKubeOptionsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * required_during_scheduling_ignored_during_execution block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#required_during_scheduling_ignored_during_execution WorkflowHandler#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#required_during_scheduling_ignored_during_execution WorkflowHandler#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: WorkflowHandlerSpecConfigContainerKubeOptionsAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -4203,15 +4203,15 @@ export class WorkflowHandlerSpecConfigContainerKubeOptionsAffinityPodAffinityOut
 }
 export interface WorkflowHandlerSpecConfigContainerKubeOptionsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#key WorkflowHandler#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#key WorkflowHandler#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#operator WorkflowHandler#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#operator WorkflowHandler#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#values WorkflowHandler#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#values WorkflowHandler#values}
   */
   readonly values?: string[];
 }
@@ -4385,13 +4385,13 @@ export class WorkflowHandlerSpecConfigContainerKubeOptionsAffinityPodAntiAffinit
 }
 export interface WorkflowHandlerSpecConfigContainerKubeOptionsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#match_labels WorkflowHandler#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#match_labels WorkflowHandler#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#match_expressions WorkflowHandler#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#match_expressions WorkflowHandler#match_expressions}
   */
   readonly matchExpressions?: WorkflowHandlerSpecConfigContainerKubeOptionsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -4504,15 +4504,15 @@ export class WorkflowHandlerSpecConfigContainerKubeOptionsAffinityPodAntiAffinit
 }
 export interface WorkflowHandlerSpecConfigContainerKubeOptionsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#key WorkflowHandler#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#key WorkflowHandler#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#operator WorkflowHandler#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#operator WorkflowHandler#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#values WorkflowHandler#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#values WorkflowHandler#values}
   */
   readonly values?: string[];
 }
@@ -4686,13 +4686,13 @@ export class WorkflowHandlerSpecConfigContainerKubeOptionsAffinityPodAntiAffinit
 }
 export interface WorkflowHandlerSpecConfigContainerKubeOptionsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#match_labels WorkflowHandler#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#match_labels WorkflowHandler#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#match_expressions WorkflowHandler#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#match_expressions WorkflowHandler#match_expressions}
   */
   readonly matchExpressions?: WorkflowHandlerSpecConfigContainerKubeOptionsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -4805,23 +4805,23 @@ export class WorkflowHandlerSpecConfigContainerKubeOptionsAffinityPodAntiAffinit
 }
 export interface WorkflowHandlerSpecConfigContainerKubeOptionsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#namespaces WorkflowHandler#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#namespaces WorkflowHandler#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#topology_key WorkflowHandler#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#topology_key WorkflowHandler#topology_key}
   */
   readonly topologyKey?: string;
   /**
   * label_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#label_selector WorkflowHandler#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#label_selector WorkflowHandler#label_selector}
   */
   readonly labelSelector?: WorkflowHandlerSpecConfigContainerKubeOptionsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * namespace_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#namespace_selector WorkflowHandler#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#namespace_selector WorkflowHandler#namespace_selector}
   */
   readonly namespaceSelector?: WorkflowHandlerSpecConfigContainerKubeOptionsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
 }
@@ -4992,13 +4992,13 @@ export class WorkflowHandlerSpecConfigContainerKubeOptionsAffinityPodAntiAffinit
 }
 export interface WorkflowHandlerSpecConfigContainerKubeOptionsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#weight WorkflowHandler#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#weight WorkflowHandler#weight}
   */
   readonly weight?: number;
   /**
   * pod_affinity_term block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#pod_affinity_term WorkflowHandler#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#pod_affinity_term WorkflowHandler#pod_affinity_term}
   */
   readonly podAffinityTerm?: WorkflowHandlerSpecConfigContainerKubeOptionsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
 }
@@ -5143,15 +5143,15 @@ export class WorkflowHandlerSpecConfigContainerKubeOptionsAffinityPodAntiAffinit
 }
 export interface WorkflowHandlerSpecConfigContainerKubeOptionsAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#key WorkflowHandler#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#key WorkflowHandler#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#operator WorkflowHandler#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#operator WorkflowHandler#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#values WorkflowHandler#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#values WorkflowHandler#values}
   */
   readonly values?: string[];
 }
@@ -5325,13 +5325,13 @@ export class WorkflowHandlerSpecConfigContainerKubeOptionsAffinityPodAntiAffinit
 }
 export interface WorkflowHandlerSpecConfigContainerKubeOptionsAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#match_labels WorkflowHandler#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#match_labels WorkflowHandler#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#match_expressions WorkflowHandler#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#match_expressions WorkflowHandler#match_expressions}
   */
   readonly matchExpressions?: WorkflowHandlerSpecConfigContainerKubeOptionsAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -5444,15 +5444,15 @@ export class WorkflowHandlerSpecConfigContainerKubeOptionsAffinityPodAntiAffinit
 }
 export interface WorkflowHandlerSpecConfigContainerKubeOptionsAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#key WorkflowHandler#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#key WorkflowHandler#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#operator WorkflowHandler#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#operator WorkflowHandler#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#values WorkflowHandler#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#values WorkflowHandler#values}
   */
   readonly values?: string[];
 }
@@ -5626,13 +5626,13 @@ export class WorkflowHandlerSpecConfigContainerKubeOptionsAffinityPodAntiAffinit
 }
 export interface WorkflowHandlerSpecConfigContainerKubeOptionsAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#match_labels WorkflowHandler#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#match_labels WorkflowHandler#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#match_expressions WorkflowHandler#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#match_expressions WorkflowHandler#match_expressions}
   */
   readonly matchExpressions?: WorkflowHandlerSpecConfigContainerKubeOptionsAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -5745,23 +5745,23 @@ export class WorkflowHandlerSpecConfigContainerKubeOptionsAffinityPodAntiAffinit
 }
 export interface WorkflowHandlerSpecConfigContainerKubeOptionsAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#namespaces WorkflowHandler#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#namespaces WorkflowHandler#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#topology_key WorkflowHandler#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#topology_key WorkflowHandler#topology_key}
   */
   readonly topologyKey?: string;
   /**
   * label_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#label_selector WorkflowHandler#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#label_selector WorkflowHandler#label_selector}
   */
   readonly labelSelector?: WorkflowHandlerSpecConfigContainerKubeOptionsAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * namespace_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#namespace_selector WorkflowHandler#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#namespace_selector WorkflowHandler#namespace_selector}
   */
   readonly namespaceSelector?: WorkflowHandlerSpecConfigContainerKubeOptionsAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
 }
@@ -5966,13 +5966,13 @@ export interface WorkflowHandlerSpecConfigContainerKubeOptionsAffinityPodAntiAff
   /**
   * preferred_during_scheduling_ignored_during_execution block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#preferred_during_scheduling_ignored_during_execution WorkflowHandler#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#preferred_during_scheduling_ignored_during_execution WorkflowHandler#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: WorkflowHandlerSpecConfigContainerKubeOptionsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * required_during_scheduling_ignored_during_execution block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#required_during_scheduling_ignored_during_execution WorkflowHandler#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#required_during_scheduling_ignored_during_execution WorkflowHandler#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: WorkflowHandlerSpecConfigContainerKubeOptionsAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -6087,19 +6087,19 @@ export interface WorkflowHandlerSpecConfigContainerKubeOptionsAffinity {
   /**
   * node_affinity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#node_affinity WorkflowHandler#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#node_affinity WorkflowHandler#node_affinity}
   */
   readonly nodeAffinity?: WorkflowHandlerSpecConfigContainerKubeOptionsAffinityNodeAffinity;
   /**
   * pod_affinity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#pod_affinity WorkflowHandler#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#pod_affinity WorkflowHandler#pod_affinity}
   */
   readonly podAffinity?: WorkflowHandlerSpecConfigContainerKubeOptionsAffinityPodAffinity;
   /**
   * pod_anti_affinity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#pod_anti_affinity WorkflowHandler#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#pod_anti_affinity WorkflowHandler#pod_anti_affinity}
   */
   readonly podAntiAffinity?: WorkflowHandlerSpecConfigContainerKubeOptionsAffinityPodAntiAffinity;
 }
@@ -6241,7 +6241,7 @@ export class WorkflowHandlerSpecConfigContainerKubeOptionsAffinityOutputReferenc
 }
 export interface WorkflowHandlerSpecConfigContainerKubeOptionsSecurityContextPrivileged {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#value WorkflowHandler#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#value WorkflowHandler#value}
   */
   readonly value?: boolean | cdktf.IResolvable;
 }
@@ -6325,7 +6325,7 @@ export class WorkflowHandlerSpecConfigContainerKubeOptionsSecurityContextPrivile
 }
 export interface WorkflowHandlerSpecConfigContainerKubeOptionsSecurityContextReadOnlyRootFileSystem {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#value WorkflowHandler#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#value WorkflowHandler#value}
   */
   readonly value?: boolean | cdktf.IResolvable;
 }
@@ -6411,13 +6411,13 @@ export interface WorkflowHandlerSpecConfigContainerKubeOptionsSecurityContext {
   /**
   * privileged block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#privileged WorkflowHandler#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#privileged WorkflowHandler#privileged}
   */
   readonly privileged?: WorkflowHandlerSpecConfigContainerKubeOptionsSecurityContextPrivileged;
   /**
   * read_only_root_file_system block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#read_only_root_file_system WorkflowHandler#read_only_root_file_system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#read_only_root_file_system WorkflowHandler#read_only_root_file_system}
   */
   readonly readOnlyRootFileSystem?: WorkflowHandlerSpecConfigContainerKubeOptionsSecurityContextReadOnlyRootFileSystem;
 }
@@ -6530,23 +6530,23 @@ export class WorkflowHandlerSpecConfigContainerKubeOptionsSecurityContextOutputR
 }
 export interface WorkflowHandlerSpecConfigContainerKubeOptionsTolerations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#effect WorkflowHandler#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#effect WorkflowHandler#effect}
   */
   readonly effect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#key WorkflowHandler#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#key WorkflowHandler#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#operator WorkflowHandler#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#operator WorkflowHandler#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#toleration_seconds WorkflowHandler#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#toleration_seconds WorkflowHandler#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#value WorkflowHandler#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#value WorkflowHandler#value}
   */
   readonly value?: string;
 }
@@ -6780,49 +6780,49 @@ export interface WorkflowHandlerSpecConfigContainerKubeOptions {
   /**
   * Specify the labels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#labels WorkflowHandler#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#labels WorkflowHandler#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Specify the namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#namespace WorkflowHandler#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#namespace WorkflowHandler#namespace}
   */
   readonly namespace?: string;
   /**
   * Specify the node selectors
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#node_selector WorkflowHandler#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#node_selector WorkflowHandler#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * Specify the resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#resources WorkflowHandler#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#resources WorkflowHandler#resources}
   */
   readonly resources?: string[];
   /**
   * Specify the service account name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#service_account_name WorkflowHandler#service_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#service_account_name WorkflowHandler#service_account_name}
   */
   readonly serviceAccountName?: string;
   /**
   * affinity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#affinity WorkflowHandler#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#affinity WorkflowHandler#affinity}
   */
   readonly affinity?: WorkflowHandlerSpecConfigContainerKubeOptionsAffinity;
   /**
   * security_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#security_context WorkflowHandler#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#security_context WorkflowHandler#security_context}
   */
   readonly securityContext?: WorkflowHandlerSpecConfigContainerKubeOptionsSecurityContext;
   /**
   * tolerations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#tolerations WorkflowHandler#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#tolerations WorkflowHandler#tolerations}
   */
   readonly tolerations?: WorkflowHandlerSpecConfigContainerKubeOptionsTolerations[] | cdktf.IResolvable;
 }
@@ -7109,7 +7109,7 @@ export class WorkflowHandlerSpecConfigContainerKubeOptionsOutputReference extend
 }
 export interface WorkflowHandlerSpecConfigContainerVolumeOptionsUsePvc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#value WorkflowHandler#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#value WorkflowHandler#value}
   */
   readonly value?: boolean | cdktf.IResolvable;
 }
@@ -7195,31 +7195,31 @@ export interface WorkflowHandlerSpecConfigContainerVolumeOptions {
   /**
   * If enabled, contents of the volume will be backed up after the job completes and restored before the next job starts across multiple runs of the environment. Scope of backup and restore is limited to the environment and resource template where this driver is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#enable_backup_and_restore WorkflowHandler#enable_backup_and_restore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#enable_backup_and_restore WorkflowHandler#enable_backup_and_restore}
   */
   readonly enableBackupAndRestore?: boolean | cdktf.IResolvable;
   /**
   * Specify the container mount path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#mount_path WorkflowHandler#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#mount_path WorkflowHandler#mount_path}
   */
   readonly mountPath?: string;
   /**
   * Specify the persistent volume claim size in GB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#pvc_size_gb WorkflowHandler#pvc_size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#pvc_size_gb WorkflowHandler#pvc_size_gb}
   */
   readonly pvcSizeGb?: string;
   /**
   * Specify the persistent volume claim storage class
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#pvc_storage_class WorkflowHandler#pvc_storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#pvc_storage_class WorkflowHandler#pvc_storage_class}
   */
   readonly pvcStorageClass?: string;
   /**
   * use_pvc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#use_pvc WorkflowHandler#use_pvc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#use_pvc WorkflowHandler#use_pvc}
   */
   readonly usePvc?: WorkflowHandlerSpecConfigContainerVolumeOptionsUsePvc;
 }
@@ -7419,7 +7419,7 @@ export class WorkflowHandlerSpecConfigContainerVolumeOptionsOutputReference exte
 }
 export interface WorkflowHandlerSpecConfigContainerVolumesUsePvc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#value WorkflowHandler#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#value WorkflowHandler#value}
   */
   readonly value?: boolean | cdktf.IResolvable;
 }
@@ -7505,31 +7505,31 @@ export interface WorkflowHandlerSpecConfigContainerVolumes {
   /**
   * If enabled, contents of the volume will be backed up after the job completes and restored before the next job starts across multiple runs of the environment. Scope of backup and restore is limited to the environment and resource template where this driver is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#enable_backup_and_restore WorkflowHandler#enable_backup_and_restore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#enable_backup_and_restore WorkflowHandler#enable_backup_and_restore}
   */
   readonly enableBackupAndRestore?: boolean | cdktf.IResolvable;
   /**
   * Specify the container mount path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#mount_path WorkflowHandler#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#mount_path WorkflowHandler#mount_path}
   */
   readonly mountPath?: string;
   /**
   * Specify the persistent volume claim size in GB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#pvc_size_gb WorkflowHandler#pvc_size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#pvc_size_gb WorkflowHandler#pvc_size_gb}
   */
   readonly pvcSizeGb?: string;
   /**
   * Specify the persistent volume claim storage class
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#pvc_storage_class WorkflowHandler#pvc_storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#pvc_storage_class WorkflowHandler#pvc_storage_class}
   */
   readonly pvcStorageClass?: string;
   /**
   * use_pvc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#use_pvc WorkflowHandler#use_pvc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#use_pvc WorkflowHandler#use_pvc}
   */
   readonly usePvc?: WorkflowHandlerSpecConfigContainerVolumesUsePvc;
 }
@@ -7763,79 +7763,79 @@ export interface WorkflowHandlerSpecConfigContainer {
   /**
   * Specify the set of arguments to be passed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#arguments WorkflowHandler#arguments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#arguments WorkflowHandler#arguments}
   */
   readonly arguments?: string[];
   /**
   * Specify the set of commands to be executed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#commands WorkflowHandler#commands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#commands WorkflowHandler#commands}
   */
   readonly commands?: string[];
   /**
   * Specify the cpu limit in milli
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#cpu_limit_milli WorkflowHandler#cpu_limit_milli}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#cpu_limit_milli WorkflowHandler#cpu_limit_milli}
   */
   readonly cpuLimitMilli?: string;
   /**
   * Specify the environment variables to be set in key,value pair
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#env_vars WorkflowHandler#env_vars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#env_vars WorkflowHandler#env_vars}
   */
   readonly envVars?: { [key: string]: string };
   /**
   * Specify the file data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#files WorkflowHandler#files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#files WorkflowHandler#files}
   */
   readonly files?: { [key: string]: string };
   /**
   * Specify the container image for the driver
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#image WorkflowHandler#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#image WorkflowHandler#image}
   */
   readonly image?: string;
   /**
   * Specify the memory limit to be allocated in MB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#memory_limit_mb WorkflowHandler#memory_limit_mb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#memory_limit_mb WorkflowHandler#memory_limit_mb}
   */
   readonly memoryLimitMb?: string;
   /**
   * Specify the working directory path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#working_dir_path WorkflowHandler#working_dir_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#working_dir_path WorkflowHandler#working_dir_path}
   */
   readonly workingDirPath?: string;
   /**
   * image_pull_credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#image_pull_credentials WorkflowHandler#image_pull_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#image_pull_credentials WorkflowHandler#image_pull_credentials}
   */
   readonly imagePullCredentials?: WorkflowHandlerSpecConfigContainerImagePullCredentials;
   /**
   * kube_config_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#kube_config_options WorkflowHandler#kube_config_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#kube_config_options WorkflowHandler#kube_config_options}
   */
   readonly kubeConfigOptions?: WorkflowHandlerSpecConfigContainerKubeConfigOptions;
   /**
   * kube_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#kube_options WorkflowHandler#kube_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#kube_options WorkflowHandler#kube_options}
   */
   readonly kubeOptions?: WorkflowHandlerSpecConfigContainerKubeOptions;
   /**
   * volume_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#volume_options WorkflowHandler#volume_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#volume_options WorkflowHandler#volume_options}
   */
   readonly volumeOptions?: WorkflowHandlerSpecConfigContainerVolumeOptions;
   /**
   * volumes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#volumes WorkflowHandler#volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#volumes WorkflowHandler#volumes}
   */
   readonly volumes?: WorkflowHandlerSpecConfigContainerVolumes[] | cdktf.IResolvable;
 }
@@ -8269,19 +8269,19 @@ export interface WorkflowHandlerSpecConfigFunctionImagePullCredentials {
   /**
   * Specify the registry password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#password WorkflowHandler#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#password WorkflowHandler#password}
   */
   readonly password?: string;
   /**
   * Specify the container image registry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#registry WorkflowHandler#registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#registry WorkflowHandler#registry}
   */
   readonly registry?: string;
   /**
   * Specify the registry username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#username WorkflowHandler#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#username WorkflowHandler#username}
   */
   readonly username?: string;
 }
@@ -8423,15 +8423,15 @@ export class WorkflowHandlerSpecConfigFunctionImagePullCredentialsOutputReferenc
 }
 export interface WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#key WorkflowHandler#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#key WorkflowHandler#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#operator WorkflowHandler#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#operator WorkflowHandler#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#values WorkflowHandler#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#values WorkflowHandler#values}
   */
   readonly values?: string[];
 }
@@ -8605,15 +8605,15 @@ export class WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityNodeAffinityPre
 }
 export interface WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#key WorkflowHandler#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#key WorkflowHandler#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#operator WorkflowHandler#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#operator WorkflowHandler#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#values WorkflowHandler#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#values WorkflowHandler#values}
   */
   readonly values?: string[];
 }
@@ -8789,13 +8789,13 @@ export interface WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityNodeAffinit
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#match_expressions WorkflowHandler#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#match_expressions WorkflowHandler#match_expressions}
   */
   readonly matchExpressions?: WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
   * match_fields block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#match_fields WorkflowHandler#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#match_fields WorkflowHandler#match_fields}
   */
   readonly matchFields?: WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -8908,13 +8908,13 @@ export class WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityNodeAffinityPre
 }
 export interface WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#weight WorkflowHandler#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#weight WorkflowHandler#weight}
   */
   readonly weight?: number;
   /**
   * preference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#preference WorkflowHandler#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#preference WorkflowHandler#preference}
   */
   readonly preference?: WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
 }
@@ -9059,15 +9059,15 @@ export class WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityNodeAffinityPre
 }
 export interface WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#key WorkflowHandler#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#key WorkflowHandler#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#operator WorkflowHandler#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#operator WorkflowHandler#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#values WorkflowHandler#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#values WorkflowHandler#values}
   */
   readonly values?: string[];
 }
@@ -9241,15 +9241,15 @@ export class WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityNodeAffinityReq
 }
 export interface WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#key WorkflowHandler#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#key WorkflowHandler#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#operator WorkflowHandler#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#operator WorkflowHandler#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#values WorkflowHandler#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#values WorkflowHandler#values}
   */
   readonly values?: string[];
 }
@@ -9425,13 +9425,13 @@ export interface WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityNodeAffinit
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#match_expressions WorkflowHandler#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#match_expressions WorkflowHandler#match_expressions}
   */
   readonly matchExpressions?: WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
   * match_fields block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#match_fields WorkflowHandler#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#match_fields WorkflowHandler#match_fields}
   */
   readonly matchFields?: WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -9578,7 +9578,7 @@ export interface WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityNodeAffinit
   /**
   * node_selector_terms block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#node_selector_terms WorkflowHandler#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#node_selector_terms WorkflowHandler#node_selector_terms}
   */
   readonly nodeSelectorTerms?: WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -9664,13 +9664,13 @@ export interface WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityNodeAffinit
   /**
   * preferred_during_scheduling_ignored_during_execution block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#preferred_during_scheduling_ignored_during_execution WorkflowHandler#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#preferred_during_scheduling_ignored_during_execution WorkflowHandler#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * required_during_scheduling_ignored_during_execution block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#required_during_scheduling_ignored_during_execution WorkflowHandler#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#required_during_scheduling_ignored_during_execution WorkflowHandler#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -9783,15 +9783,15 @@ export class WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityNodeAffinityOut
 }
 export interface WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#key WorkflowHandler#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#key WorkflowHandler#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#operator WorkflowHandler#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#operator WorkflowHandler#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#values WorkflowHandler#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#values WorkflowHandler#values}
   */
   readonly values?: string[];
 }
@@ -9965,13 +9965,13 @@ export class WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityPodAffinityPref
 }
 export interface WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#match_labels WorkflowHandler#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#match_labels WorkflowHandler#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#match_expressions WorkflowHandler#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#match_expressions WorkflowHandler#match_expressions}
   */
   readonly matchExpressions?: WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -10084,15 +10084,15 @@ export class WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityPodAffinityPref
 }
 export interface WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#key WorkflowHandler#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#key WorkflowHandler#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#operator WorkflowHandler#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#operator WorkflowHandler#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#values WorkflowHandler#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#values WorkflowHandler#values}
   */
   readonly values?: string[];
 }
@@ -10266,13 +10266,13 @@ export class WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityPodAffinityPref
 }
 export interface WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#match_labels WorkflowHandler#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#match_labels WorkflowHandler#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#match_expressions WorkflowHandler#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#match_expressions WorkflowHandler#match_expressions}
   */
   readonly matchExpressions?: WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -10385,23 +10385,23 @@ export class WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityPodAffinityPref
 }
 export interface WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#namespaces WorkflowHandler#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#namespaces WorkflowHandler#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#topology_key WorkflowHandler#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#topology_key WorkflowHandler#topology_key}
   */
   readonly topologyKey?: string;
   /**
   * label_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#label_selector WorkflowHandler#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#label_selector WorkflowHandler#label_selector}
   */
   readonly labelSelector?: WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * namespace_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#namespace_selector WorkflowHandler#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#namespace_selector WorkflowHandler#namespace_selector}
   */
   readonly namespaceSelector?: WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
 }
@@ -10572,13 +10572,13 @@ export class WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityPodAffinityPref
 }
 export interface WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#weight WorkflowHandler#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#weight WorkflowHandler#weight}
   */
   readonly weight?: number;
   /**
   * pod_affinity_term block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#pod_affinity_term WorkflowHandler#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#pod_affinity_term WorkflowHandler#pod_affinity_term}
   */
   readonly podAffinityTerm?: WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
 }
@@ -10723,15 +10723,15 @@ export class WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityPodAffinityPref
 }
 export interface WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#key WorkflowHandler#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#key WorkflowHandler#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#operator WorkflowHandler#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#operator WorkflowHandler#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#values WorkflowHandler#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#values WorkflowHandler#values}
   */
   readonly values?: string[];
 }
@@ -10905,13 +10905,13 @@ export class WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityPodAffinityRequ
 }
 export interface WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#match_labels WorkflowHandler#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#match_labels WorkflowHandler#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#match_expressions WorkflowHandler#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#match_expressions WorkflowHandler#match_expressions}
   */
   readonly matchExpressions?: WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -11024,15 +11024,15 @@ export class WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityPodAffinityRequ
 }
 export interface WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#key WorkflowHandler#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#key WorkflowHandler#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#operator WorkflowHandler#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#operator WorkflowHandler#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#values WorkflowHandler#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#values WorkflowHandler#values}
   */
   readonly values?: string[];
 }
@@ -11206,13 +11206,13 @@ export class WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityPodAffinityRequ
 }
 export interface WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#match_labels WorkflowHandler#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#match_labels WorkflowHandler#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#match_expressions WorkflowHandler#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#match_expressions WorkflowHandler#match_expressions}
   */
   readonly matchExpressions?: WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -11325,23 +11325,23 @@ export class WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityPodAffinityRequ
 }
 export interface WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#namespaces WorkflowHandler#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#namespaces WorkflowHandler#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#topology_key WorkflowHandler#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#topology_key WorkflowHandler#topology_key}
   */
   readonly topologyKey?: string;
   /**
   * label_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#label_selector WorkflowHandler#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#label_selector WorkflowHandler#label_selector}
   */
   readonly labelSelector?: WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * namespace_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#namespace_selector WorkflowHandler#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#namespace_selector WorkflowHandler#namespace_selector}
   */
   readonly namespaceSelector?: WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
 }
@@ -11546,13 +11546,13 @@ export interface WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityPodAffinity
   /**
   * preferred_during_scheduling_ignored_during_execution block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#preferred_during_scheduling_ignored_during_execution WorkflowHandler#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#preferred_during_scheduling_ignored_during_execution WorkflowHandler#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * required_during_scheduling_ignored_during_execution block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#required_during_scheduling_ignored_during_execution WorkflowHandler#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#required_during_scheduling_ignored_during_execution WorkflowHandler#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -11665,15 +11665,15 @@ export class WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityPodAffinityOutp
 }
 export interface WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#key WorkflowHandler#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#key WorkflowHandler#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#operator WorkflowHandler#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#operator WorkflowHandler#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#values WorkflowHandler#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#values WorkflowHandler#values}
   */
   readonly values?: string[];
 }
@@ -11847,13 +11847,13 @@ export class WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityPodAntiAffinity
 }
 export interface WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#match_labels WorkflowHandler#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#match_labels WorkflowHandler#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#match_expressions WorkflowHandler#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#match_expressions WorkflowHandler#match_expressions}
   */
   readonly matchExpressions?: WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -11966,15 +11966,15 @@ export class WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityPodAntiAffinity
 }
 export interface WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#key WorkflowHandler#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#key WorkflowHandler#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#operator WorkflowHandler#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#operator WorkflowHandler#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#values WorkflowHandler#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#values WorkflowHandler#values}
   */
   readonly values?: string[];
 }
@@ -12148,13 +12148,13 @@ export class WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityPodAntiAffinity
 }
 export interface WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#match_labels WorkflowHandler#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#match_labels WorkflowHandler#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#match_expressions WorkflowHandler#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#match_expressions WorkflowHandler#match_expressions}
   */
   readonly matchExpressions?: WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -12267,23 +12267,23 @@ export class WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityPodAntiAffinity
 }
 export interface WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#namespaces WorkflowHandler#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#namespaces WorkflowHandler#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#topology_key WorkflowHandler#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#topology_key WorkflowHandler#topology_key}
   */
   readonly topologyKey?: string;
   /**
   * label_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#label_selector WorkflowHandler#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#label_selector WorkflowHandler#label_selector}
   */
   readonly labelSelector?: WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * namespace_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#namespace_selector WorkflowHandler#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#namespace_selector WorkflowHandler#namespace_selector}
   */
   readonly namespaceSelector?: WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
 }
@@ -12454,13 +12454,13 @@ export class WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityPodAntiAffinity
 }
 export interface WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#weight WorkflowHandler#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#weight WorkflowHandler#weight}
   */
   readonly weight?: number;
   /**
   * pod_affinity_term block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#pod_affinity_term WorkflowHandler#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#pod_affinity_term WorkflowHandler#pod_affinity_term}
   */
   readonly podAffinityTerm?: WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
 }
@@ -12605,15 +12605,15 @@ export class WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityPodAntiAffinity
 }
 export interface WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#key WorkflowHandler#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#key WorkflowHandler#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#operator WorkflowHandler#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#operator WorkflowHandler#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#values WorkflowHandler#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#values WorkflowHandler#values}
   */
   readonly values?: string[];
 }
@@ -12787,13 +12787,13 @@ export class WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityPodAntiAffinity
 }
 export interface WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#match_labels WorkflowHandler#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#match_labels WorkflowHandler#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#match_expressions WorkflowHandler#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#match_expressions WorkflowHandler#match_expressions}
   */
   readonly matchExpressions?: WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -12906,15 +12906,15 @@ export class WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityPodAntiAffinity
 }
 export interface WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#key WorkflowHandler#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#key WorkflowHandler#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#operator WorkflowHandler#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#operator WorkflowHandler#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#values WorkflowHandler#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#values WorkflowHandler#values}
   */
   readonly values?: string[];
 }
@@ -13088,13 +13088,13 @@ export class WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityPodAntiAffinity
 }
 export interface WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#match_labels WorkflowHandler#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#match_labels WorkflowHandler#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#match_expressions WorkflowHandler#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#match_expressions WorkflowHandler#match_expressions}
   */
   readonly matchExpressions?: WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -13207,23 +13207,23 @@ export class WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityPodAntiAffinity
 }
 export interface WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#namespaces WorkflowHandler#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#namespaces WorkflowHandler#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#topology_key WorkflowHandler#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#topology_key WorkflowHandler#topology_key}
   */
   readonly topologyKey?: string;
   /**
   * label_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#label_selector WorkflowHandler#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#label_selector WorkflowHandler#label_selector}
   */
   readonly labelSelector?: WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * namespace_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#namespace_selector WorkflowHandler#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#namespace_selector WorkflowHandler#namespace_selector}
   */
   readonly namespaceSelector?: WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
 }
@@ -13428,13 +13428,13 @@ export interface WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityPodAntiAffi
   /**
   * preferred_during_scheduling_ignored_during_execution block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#preferred_during_scheduling_ignored_during_execution WorkflowHandler#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#preferred_during_scheduling_ignored_during_execution WorkflowHandler#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * required_during_scheduling_ignored_during_execution block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#required_during_scheduling_ignored_during_execution WorkflowHandler#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#required_during_scheduling_ignored_during_execution WorkflowHandler#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -13549,19 +13549,19 @@ export interface WorkflowHandlerSpecConfigFunctionKubeOptionsAffinity {
   /**
   * node_affinity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#node_affinity WorkflowHandler#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#node_affinity WorkflowHandler#node_affinity}
   */
   readonly nodeAffinity?: WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityNodeAffinity;
   /**
   * pod_affinity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#pod_affinity WorkflowHandler#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#pod_affinity WorkflowHandler#pod_affinity}
   */
   readonly podAffinity?: WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityPodAffinity;
   /**
   * pod_anti_affinity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#pod_anti_affinity WorkflowHandler#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#pod_anti_affinity WorkflowHandler#pod_anti_affinity}
   */
   readonly podAntiAffinity?: WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityPodAntiAffinity;
 }
@@ -13703,7 +13703,7 @@ export class WorkflowHandlerSpecConfigFunctionKubeOptionsAffinityOutputReference
 }
 export interface WorkflowHandlerSpecConfigFunctionKubeOptionsSecurityContextPrivileged {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#value WorkflowHandler#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#value WorkflowHandler#value}
   */
   readonly value?: boolean | cdktf.IResolvable;
 }
@@ -13787,7 +13787,7 @@ export class WorkflowHandlerSpecConfigFunctionKubeOptionsSecurityContextPrivileg
 }
 export interface WorkflowHandlerSpecConfigFunctionKubeOptionsSecurityContextReadOnlyRootFileSystem {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#value WorkflowHandler#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#value WorkflowHandler#value}
   */
   readonly value?: boolean | cdktf.IResolvable;
 }
@@ -13873,13 +13873,13 @@ export interface WorkflowHandlerSpecConfigFunctionKubeOptionsSecurityContext {
   /**
   * privileged block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#privileged WorkflowHandler#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#privileged WorkflowHandler#privileged}
   */
   readonly privileged?: WorkflowHandlerSpecConfigFunctionKubeOptionsSecurityContextPrivileged;
   /**
   * read_only_root_file_system block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#read_only_root_file_system WorkflowHandler#read_only_root_file_system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#read_only_root_file_system WorkflowHandler#read_only_root_file_system}
   */
   readonly readOnlyRootFileSystem?: WorkflowHandlerSpecConfigFunctionKubeOptionsSecurityContextReadOnlyRootFileSystem;
 }
@@ -13992,23 +13992,23 @@ export class WorkflowHandlerSpecConfigFunctionKubeOptionsSecurityContextOutputRe
 }
 export interface WorkflowHandlerSpecConfigFunctionKubeOptionsTolerations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#effect WorkflowHandler#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#effect WorkflowHandler#effect}
   */
   readonly effect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#key WorkflowHandler#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#key WorkflowHandler#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#operator WorkflowHandler#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#operator WorkflowHandler#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#toleration_seconds WorkflowHandler#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#toleration_seconds WorkflowHandler#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#value WorkflowHandler#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#value WorkflowHandler#value}
   */
   readonly value?: string;
 }
@@ -14242,49 +14242,49 @@ export interface WorkflowHandlerSpecConfigFunctionKubeOptions {
   /**
   * Specify the labels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#labels WorkflowHandler#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#labels WorkflowHandler#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Specify the namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#namespace WorkflowHandler#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#namespace WorkflowHandler#namespace}
   */
   readonly namespace?: string;
   /**
   * Specify the node selectors
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#node_selector WorkflowHandler#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#node_selector WorkflowHandler#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * Specify the resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#resources WorkflowHandler#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#resources WorkflowHandler#resources}
   */
   readonly resources?: string[];
   /**
   * Specify the service account name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#service_account_name WorkflowHandler#service_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#service_account_name WorkflowHandler#service_account_name}
   */
   readonly serviceAccountName?: string;
   /**
   * affinity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#affinity WorkflowHandler#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#affinity WorkflowHandler#affinity}
   */
   readonly affinity?: WorkflowHandlerSpecConfigFunctionKubeOptionsAffinity;
   /**
   * security_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#security_context WorkflowHandler#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#security_context WorkflowHandler#security_context}
   */
   readonly securityContext?: WorkflowHandlerSpecConfigFunctionKubeOptionsSecurityContext;
   /**
   * tolerations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#tolerations WorkflowHandler#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#tolerations WorkflowHandler#tolerations}
   */
   readonly tolerations?: WorkflowHandlerSpecConfigFunctionKubeOptionsTolerations[] | cdktf.IResolvable;
 }
@@ -14571,7 +14571,7 @@ export class WorkflowHandlerSpecConfigFunctionKubeOptionsOutputReference extends
 }
 export interface WorkflowHandlerSpecConfigFunctionSkipBuild {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#value WorkflowHandler#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#value WorkflowHandler#value}
   */
   readonly value?: boolean | cdktf.IResolvable;
 }
@@ -14657,97 +14657,97 @@ export interface WorkflowHandlerSpecConfigFunction {
   /**
   * Configure the CPU Limits as the maximum amount of a resource to be used by a function
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#cpu_limit_milli WorkflowHandler#cpu_limit_milli}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#cpu_limit_milli WorkflowHandler#cpu_limit_milli}
   */
   readonly cpuLimitMilli?: string;
   /**
   * Specify the function dependencies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#function_dependencies WorkflowHandler#function_dependencies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#function_dependencies WorkflowHandler#function_dependencies}
   */
   readonly functionDependencies?: string[];
   /**
   * Image of the function
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#image WorkflowHandler#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#image WorkflowHandler#image}
   */
   readonly image?: string;
   /**
   * Configure the inactivity timeout in seconds. After this time, the function will be terminated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#inactivity_timeout_seconds WorkflowHandler#inactivity_timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#inactivity_timeout_seconds WorkflowHandler#inactivity_timeout_seconds}
   */
   readonly inactivityTimeoutSeconds?: number;
   /**
   * Specify the language of the function
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#language WorkflowHandler#language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#language WorkflowHandler#language}
   */
   readonly language?: string;
   /**
   * Specify the language version for the function
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#language_version WorkflowHandler#language_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#language_version WorkflowHandler#language_version}
   */
   readonly languageVersion?: string;
   /**
   * Specify the maximum number of concurrent requests that can be handled by the function
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#max_concurrency WorkflowHandler#max_concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#max_concurrency WorkflowHandler#max_concurrency}
   */
   readonly maxConcurrency?: number;
   /**
   * Configure the Memory Limits as the maximum amount of a resource to be used by a function
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#memory_limit_mb WorkflowHandler#memory_limit_mb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#memory_limit_mb WorkflowHandler#memory_limit_mb}
   */
   readonly memoryLimitMb?: string;
   /**
   * Specify the name of the function
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#name WorkflowHandler#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#name WorkflowHandler#name}
   */
   readonly name?: string;
   /**
   * Specify the number of replicas for the function
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#num_replicas WorkflowHandler#num_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#num_replicas WorkflowHandler#num_replicas}
   */
   readonly numReplicas?: number;
   /**
   * Specify the source of the function
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#source WorkflowHandler#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#source WorkflowHandler#source}
   */
   readonly source?: string;
   /**
   * Specify the system packages for the function
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#system_packages WorkflowHandler#system_packages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#system_packages WorkflowHandler#system_packages}
   */
   readonly systemPackages?: string[];
   /**
   * Specify the target platforms for the function
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#target_platforms WorkflowHandler#target_platforms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#target_platforms WorkflowHandler#target_platforms}
   */
   readonly targetPlatforms?: string[];
   /**
   * image_pull_credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#image_pull_credentials WorkflowHandler#image_pull_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#image_pull_credentials WorkflowHandler#image_pull_credentials}
   */
   readonly imagePullCredentials?: WorkflowHandlerSpecConfigFunctionImagePullCredentials;
   /**
   * kube_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#kube_options WorkflowHandler#kube_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#kube_options WorkflowHandler#kube_options}
   */
   readonly kubeOptions?: WorkflowHandlerSpecConfigFunctionKubeOptions;
   /**
   * skip_build block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#skip_build WorkflowHandler#skip_build}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#skip_build WorkflowHandler#skip_build}
   */
   readonly skipBuild?: WorkflowHandlerSpecConfigFunctionSkipBuild;
 }
@@ -15268,37 +15268,37 @@ export interface WorkflowHandlerSpecConfigHttp {
   /**
   * Specify the request body
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#body WorkflowHandler#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#body WorkflowHandler#body}
   */
   readonly body?: string;
   /**
   * Provide ca cert for the http request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#ca_cert WorkflowHandler#ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#ca_cert WorkflowHandler#ca_cert}
   */
   readonly caCert?: string;
   /**
   * Specify the http endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#endpoint WorkflowHandler#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#endpoint WorkflowHandler#endpoint}
   */
   readonly endpoint?: string;
   /**
   * Specify the http headers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#headers WorkflowHandler#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#headers WorkflowHandler#headers}
   */
   readonly headers?: { [key: string]: string };
   /**
   * Provide skip TLS verify for the http request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#insecure WorkflowHandler#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#insecure WorkflowHandler#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
   * Specify the http method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#method WorkflowHandler#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#method WorkflowHandler#method}
   */
   readonly method?: string;
 }
@@ -15529,13 +15529,13 @@ export interface WorkflowHandlerSpecConfigPollingConfig {
   /**
   * Specify the repeat
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#repeat WorkflowHandler#repeat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#repeat WorkflowHandler#repeat}
   */
   readonly repeat?: string;
   /**
   * Specify the until
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#until WorkflowHandler#until}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#until WorkflowHandler#until}
   */
   readonly until?: string;
 }
@@ -15650,49 +15650,49 @@ export interface WorkflowHandlerSpecConfig {
   /**
   * Specify the max retry count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#max_retry_count WorkflowHandler#max_retry_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#max_retry_count WorkflowHandler#max_retry_count}
   */
   readonly maxRetryCount?: number;
   /**
   * Specify the success condition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#success_condition WorkflowHandler#success_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#success_condition WorkflowHandler#success_condition}
   */
   readonly successCondition?: string;
   /**
   * Specify the timeout in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#timeout_seconds WorkflowHandler#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#timeout_seconds WorkflowHandler#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
   /**
   * Specify the type of workflow handler
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#type WorkflowHandler#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#type WorkflowHandler#type}
   */
   readonly type?: string;
   /**
   * container block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#container WorkflowHandler#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#container WorkflowHandler#container}
   */
   readonly container?: WorkflowHandlerSpecConfigContainer;
   /**
   * function block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#function WorkflowHandler#function}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#function WorkflowHandler#function}
   */
   readonly function?: WorkflowHandlerSpecConfigFunction;
   /**
   * http block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#http WorkflowHandler#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#http WorkflowHandler#http}
   */
   readonly http?: WorkflowHandlerSpecConfigHttp;
   /**
   * polling_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#polling_config WorkflowHandler#polling_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#polling_config WorkflowHandler#polling_config}
   */
   readonly pollingConfig?: WorkflowHandlerSpecConfigPollingConfig;
 }
@@ -15981,31 +15981,31 @@ export interface WorkflowHandlerSpecInputsDataEnvsOptionsOverride {
   /**
   * Display overridden values on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#display_overridden WorkflowHandler#display_overridden}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#display_overridden WorkflowHandler#display_overridden}
   */
   readonly displayOverridden?: boolean | cdktf.IResolvable;
   /**
   * If the override type is restricted_key_values, values it is restricted to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#restricted_key_values WorkflowHandler#restricted_key_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#restricted_key_values WorkflowHandler#restricted_key_values}
   */
   readonly restrictedKeyValues?: { [key: string]: string };
   /**
   * If the override type is restricted, values it is restricted to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#restricted_values WorkflowHandler#restricted_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#restricted_values WorkflowHandler#restricted_values}
   */
   readonly restrictedValues?: string[];
   /**
   * Used to alias a variable and restrict the override scope
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#selectors WorkflowHandler#selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#selectors WorkflowHandler#selectors}
   */
   readonly selectors?: string[];
   /**
   * Specify the type of ovverride this variable supports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#type WorkflowHandler#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#type WorkflowHandler#type}
   */
   readonly type?: string;
 }
@@ -16207,13 +16207,13 @@ export interface WorkflowHandlerSpecInputsDataEnvsOptionsSchema {
   /**
   * JSONSchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#jsonschema WorkflowHandler#jsonschema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#jsonschema WorkflowHandler#jsonschema}
   */
   readonly jsonschema?: string;
   /**
   * UISchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#uischema WorkflowHandler#uischema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#uischema WorkflowHandler#uischema}
   */
   readonly uischema?: string;
 }
@@ -16326,41 +16326,41 @@ export class WorkflowHandlerSpecInputsDataEnvsOptionsSchemaOutputReference exten
 }
 export interface WorkflowHandlerSpecInputsDataEnvsOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#description WorkflowHandler#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#description WorkflowHandler#description}
   */
   readonly description?: string;
   /**
   * Display metadata to render environment variable on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#display_metadata WorkflowHandler#display_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#display_metadata WorkflowHandler#display_metadata}
   */
   readonly displayMetadata?: string;
   /**
   * Determines whether the environment variable is immutable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#immutable WorkflowHandler#immutable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#immutable WorkflowHandler#immutable}
   */
   readonly immutable?: boolean | cdktf.IResolvable;
   /**
   * Determines whether the variable is required / mandatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#required WorkflowHandler#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#required WorkflowHandler#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#sensitive WorkflowHandler#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#sensitive WorkflowHandler#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#override WorkflowHandler#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#override WorkflowHandler#override}
   */
   readonly override?: WorkflowHandlerSpecInputsDataEnvsOptionsOverride;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#schema WorkflowHandler#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#schema WorkflowHandler#schema}
   */
   readonly schema?: WorkflowHandlerSpecInputsDataEnvsOptionsSchema;
 }
@@ -16620,25 +16620,25 @@ export interface WorkflowHandlerSpecInputsDataEnvs {
   /**
   * Key of the environment variable to be set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#key WorkflowHandler#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#key WorkflowHandler#key}
   */
   readonly key?: string;
   /**
   * Deprecated: use options.sensitive. Determines whether the value is sensitive or not, accordingly applies encryption on it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#sensitive WorkflowHandler#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#sensitive WorkflowHandler#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * Value of the environment variable to be set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#value WorkflowHandler#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#value WorkflowHandler#value}
   */
   readonly value?: string;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#options WorkflowHandler#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#options WorkflowHandler#options}
   */
   readonly options?: WorkflowHandlerSpecInputsDataEnvsOptions;
 }
@@ -16843,7 +16843,7 @@ export interface WorkflowHandlerSpecInputsDataFilesOptionsOverride {
   /**
   * Specify the type of override this file supports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#type WorkflowHandler#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#type WorkflowHandler#type}
   */
   readonly type?: string;
 }
@@ -16929,13 +16929,13 @@ export interface WorkflowHandlerSpecInputsDataFilesOptionsSchema {
   /**
   * JSONSchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#jsonschema WorkflowHandler#jsonschema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#jsonschema WorkflowHandler#jsonschema}
   */
   readonly jsonschema?: string;
   /**
   * UISchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#uischema WorkflowHandler#uischema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#uischema WorkflowHandler#uischema}
   */
   readonly uischema?: string;
 }
@@ -17050,37 +17050,37 @@ export interface WorkflowHandlerSpecInputsDataFilesOptions {
   /**
   * Description of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#description WorkflowHandler#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#description WorkflowHandler#description}
   */
   readonly description?: string;
   /**
   * Display metadata to render file on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#display_metadata WorkflowHandler#display_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#display_metadata WorkflowHandler#display_metadata}
   */
   readonly displayMetadata?: string;
   /**
   * Determines whether the file is required / mandatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#required WorkflowHandler#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#required WorkflowHandler#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#sensitive WorkflowHandler#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#sensitive WorkflowHandler#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#override WorkflowHandler#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#override WorkflowHandler#override}
   */
   readonly override?: WorkflowHandlerSpecInputsDataFilesOptionsOverride;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#schema WorkflowHandler#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#schema WorkflowHandler#schema}
   */
   readonly schema?: WorkflowHandlerSpecInputsDataFilesOptionsSchema;
 }
@@ -17311,31 +17311,31 @@ export interface WorkflowHandlerSpecInputsDataFiles {
   /**
   * data is the base64 encoded contents of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#data WorkflowHandler#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#data WorkflowHandler#data}
   */
   readonly data?: string;
   /**
   * specify mount path of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#mount_path WorkflowHandler#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#mount_path WorkflowHandler#mount_path}
   */
   readonly mountPath?: string;
   /**
   * Name or relative path of a artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#name WorkflowHandler#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#name WorkflowHandler#name}
   */
   readonly name?: string;
   /**
   * Deprected: use options.sensitive. data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#sensitive WorkflowHandler#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#sensitive WorkflowHandler#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#options WorkflowHandler#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#options WorkflowHandler#options}
   */
   readonly options?: WorkflowHandlerSpecInputsDataFilesOptions;
 }
@@ -17569,31 +17569,31 @@ export interface WorkflowHandlerSpecInputsDataVariablesOptionsOverride {
   /**
   * Display overridden values on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#display_overridden WorkflowHandler#display_overridden}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#display_overridden WorkflowHandler#display_overridden}
   */
   readonly displayOverridden?: boolean | cdktf.IResolvable;
   /**
   * If the override type is restricted_key_values, values it is restricted to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#restricted_key_values WorkflowHandler#restricted_key_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#restricted_key_values WorkflowHandler#restricted_key_values}
   */
   readonly restrictedKeyValues?: { [key: string]: string };
   /**
   * If the override type is restricted, values it is restricted to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#restricted_values WorkflowHandler#restricted_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#restricted_values WorkflowHandler#restricted_values}
   */
   readonly restrictedValues?: string[];
   /**
   * Used to alias a variable and restrict the override scope
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#selectors WorkflowHandler#selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#selectors WorkflowHandler#selectors}
   */
   readonly selectors?: string[];
   /**
   * Specify the type of ovverride this variable supports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#type WorkflowHandler#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#type WorkflowHandler#type}
   */
   readonly type?: string;
 }
@@ -17795,13 +17795,13 @@ export interface WorkflowHandlerSpecInputsDataVariablesOptionsSchema {
   /**
   * JSONSchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#jsonschema WorkflowHandler#jsonschema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#jsonschema WorkflowHandler#jsonschema}
   */
   readonly jsonschema?: string;
   /**
   * UISchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#uischema WorkflowHandler#uischema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#uischema WorkflowHandler#uischema}
   */
   readonly uischema?: string;
 }
@@ -17916,43 +17916,43 @@ export interface WorkflowHandlerSpecInputsDataVariablesOptions {
   /**
   * Description of the variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#description WorkflowHandler#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#description WorkflowHandler#description}
   */
   readonly description?: string;
   /**
   * Display metadata to render variable on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#display_metadata WorkflowHandler#display_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#display_metadata WorkflowHandler#display_metadata}
   */
   readonly displayMetadata?: string;
   /**
   * Determines whether the variable is immutable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#immutable WorkflowHandler#immutable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#immutable WorkflowHandler#immutable}
   */
   readonly immutable?: boolean | cdktf.IResolvable;
   /**
   * Specify whether this variable is required or optional, by default it is optional
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#required WorkflowHandler#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#required WorkflowHandler#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * Determines whether the value is sensitive or not, accordingly applies encryption on it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#sensitive WorkflowHandler#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#sensitive WorkflowHandler#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#override WorkflowHandler#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#override WorkflowHandler#override}
   */
   readonly override?: WorkflowHandlerSpecInputsDataVariablesOptionsOverride;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#schema WorkflowHandler#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#schema WorkflowHandler#schema}
   */
   readonly schema?: WorkflowHandlerSpecInputsDataVariablesOptionsSchema;
 }
@@ -18212,25 +18212,25 @@ export interface WorkflowHandlerSpecInputsDataVariables {
   /**
   * Name of the variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#name WorkflowHandler#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#name WorkflowHandler#name}
   */
   readonly name: string;
   /**
   * Value of the variable in the specified format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#value WorkflowHandler#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#value WorkflowHandler#value}
   */
   readonly value?: string;
   /**
   * Specify the variable value type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#value_type WorkflowHandler#value_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#value_type WorkflowHandler#value_type}
   */
   readonly valueType: string;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#options WorkflowHandler#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#options WorkflowHandler#options}
   */
   readonly options?: WorkflowHandlerSpecInputsDataVariablesOptions;
 }
@@ -18429,19 +18429,19 @@ export interface WorkflowHandlerSpecInputsData {
   /**
   * envs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#envs WorkflowHandler#envs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#envs WorkflowHandler#envs}
   */
   readonly envs?: WorkflowHandlerSpecInputsDataEnvs[] | cdktf.IResolvable;
   /**
   * files block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#files WorkflowHandler#files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#files WorkflowHandler#files}
   */
   readonly files?: WorkflowHandlerSpecInputsDataFiles[] | cdktf.IResolvable;
   /**
   * variables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#variables WorkflowHandler#variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#variables WorkflowHandler#variables}
   */
   readonly variables?: WorkflowHandlerSpecInputsDataVariables[] | cdktf.IResolvable;
 }
@@ -18585,13 +18585,13 @@ export interface WorkflowHandlerSpecInputs {
   /**
   * Name of the config context
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#name WorkflowHandler#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#name WorkflowHandler#name}
   */
   readonly name?: string;
   /**
   * data block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#data WorkflowHandler#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#data WorkflowHandler#data}
   */
   readonly data?: WorkflowHandlerSpecInputsData;
 }
@@ -18738,7 +18738,7 @@ export interface WorkflowHandlerSpecSecretOptionsOverride {
   /**
   * Specify the type of override this file supports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#type WorkflowHandler#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#type WorkflowHandler#type}
   */
   readonly type?: string;
 }
@@ -18824,13 +18824,13 @@ export interface WorkflowHandlerSpecSecretOptionsSchema {
   /**
   * JSONSchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#jsonschema WorkflowHandler#jsonschema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#jsonschema WorkflowHandler#jsonschema}
   */
   readonly jsonschema?: string;
   /**
   * UISchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#uischema WorkflowHandler#uischema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#uischema WorkflowHandler#uischema}
   */
   readonly uischema?: string;
 }
@@ -18945,37 +18945,37 @@ export interface WorkflowHandlerSpecSecretOptions {
   /**
   * Description of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#description WorkflowHandler#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#description WorkflowHandler#description}
   */
   readonly description?: string;
   /**
   * Display metadata to render file on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#display_metadata WorkflowHandler#display_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#display_metadata WorkflowHandler#display_metadata}
   */
   readonly displayMetadata?: string;
   /**
   * Determines whether the file is required / mandatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#required WorkflowHandler#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#required WorkflowHandler#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#sensitive WorkflowHandler#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#sensitive WorkflowHandler#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#override WorkflowHandler#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#override WorkflowHandler#override}
   */
   readonly override?: WorkflowHandlerSpecSecretOptionsOverride;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#schema WorkflowHandler#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#schema WorkflowHandler#schema}
   */
   readonly schema?: WorkflowHandlerSpecSecretOptionsSchema;
 }
@@ -19206,31 +19206,31 @@ export interface WorkflowHandlerSpecSecret {
   /**
   * data is the base64 encoded contents of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#data WorkflowHandler#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#data WorkflowHandler#data}
   */
   readonly data?: string;
   /**
   * specify mount path of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#mount_path WorkflowHandler#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#mount_path WorkflowHandler#mount_path}
   */
   readonly mountPath?: string;
   /**
   * Name or relative path of a artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#name WorkflowHandler#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#name WorkflowHandler#name}
   */
   readonly name?: string;
   /**
   * Deprected: use options.sensitive. data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#sensitive WorkflowHandler#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#sensitive WorkflowHandler#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#options WorkflowHandler#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#options WorkflowHandler#options}
   */
   readonly options?: WorkflowHandlerSpecSecretOptions;
 }
@@ -19432,7 +19432,7 @@ export interface WorkflowHandlerSpecSharingProjects {
   /**
   * name of the project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#name WorkflowHandler#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#name WorkflowHandler#name}
   */
   readonly name?: string;
 }
@@ -19550,13 +19550,13 @@ export interface WorkflowHandlerSpecSharing {
   /**
   * flag to specify if sharing is enabled for resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#enabled WorkflowHandler#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#enabled WorkflowHandler#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * projects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#projects WorkflowHandler#projects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#projects WorkflowHandler#projects}
   */
   readonly projects?: WorkflowHandlerSpecSharingProjects[] | cdktf.IResolvable;
 }
@@ -19671,43 +19671,43 @@ export interface WorkflowHandlerSpec {
   /**
   * URL of the icon to be used for the WorkflowHandler
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#icon_url WorkflowHandler#icon_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#icon_url WorkflowHandler#icon_url}
   */
   readonly iconUrl?: string;
   /**
   * Specify the output data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#outputs WorkflowHandler#outputs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#outputs WorkflowHandler#outputs}
   */
   readonly outputs?: string;
   /**
   * Readme for using the WorkflowHandler
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#readme WorkflowHandler#readme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#readme WorkflowHandler#readme}
   */
   readonly readme?: string;
   /**
   * config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#config WorkflowHandler#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#config WorkflowHandler#config}
   */
   readonly config?: WorkflowHandlerSpecConfig;
   /**
   * inputs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#inputs WorkflowHandler#inputs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#inputs WorkflowHandler#inputs}
   */
   readonly inputs?: WorkflowHandlerSpecInputs[] | cdktf.IResolvable;
   /**
   * secret block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#secret WorkflowHandler#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#secret WorkflowHandler#secret}
   */
   readonly secret?: WorkflowHandlerSpecSecret;
   /**
   * sharing block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#sharing WorkflowHandler#sharing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#sharing WorkflowHandler#sharing}
   */
   readonly sharing?: WorkflowHandlerSpecSharing;
 }
@@ -19965,15 +19965,15 @@ export class WorkflowHandlerSpecOutputReference extends cdktf.ComplexObject {
 }
 export interface WorkflowHandlerTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#create WorkflowHandler#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#create WorkflowHandler#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#delete WorkflowHandler#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#delete WorkflowHandler#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#update WorkflowHandler#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#update WorkflowHandler#update}
   */
   readonly update?: string;
 }
@@ -20125,7 +20125,7 @@ export class WorkflowHandlerTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler rafay_workflow_handler}
+* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler rafay_workflow_handler}
 */
 export class WorkflowHandler extends cdktf.TerraformResource {
 
@@ -20141,7 +20141,7 @@ export class WorkflowHandler extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WorkflowHandler resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkflowHandler to import
-  * @param importFromId The id of the existing WorkflowHandler that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkflowHandler that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkflowHandler to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -20153,7 +20153,7 @@ export class WorkflowHandler extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workflow_handler rafay_workflow_handler} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workflow_handler rafay_workflow_handler} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -20164,7 +20164,8 @@ export class WorkflowHandler extends cdktf.TerraformResource {
       terraformResourceType: 'rafay_workflow_handler',
       terraformGeneratorMetadata: {
         providerName: 'rafay',
-        providerVersion: '1.1.52'
+        providerVersion: '1.1.53',
+        providerVersionConstraint: '1.1.53'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

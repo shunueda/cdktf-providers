@@ -230,7 +230,8 @@ export class EsaOriginProtection extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_esa_origin_protection',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

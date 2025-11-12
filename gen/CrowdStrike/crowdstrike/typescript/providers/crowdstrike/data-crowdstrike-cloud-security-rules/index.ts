@@ -322,7 +322,8 @@ export class DataCrowdstrikeCloudSecurityRules extends cdktf.TerraformDataSource
       terraformResourceType: 'crowdstrike_cloud_security_rules',
       terraformGeneratorMetadata: {
         providerName: 'crowdstrike',
-        providerVersion: '0.0.43'
+        providerVersion: '0.0.43',
+        providerVersionConstraint: '0.0.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

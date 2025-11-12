@@ -806,7 +806,8 @@ export class DataNetappOntapStorageFlexcachesDataSource extends cdktf.TerraformD
       terraformResourceType: 'netapp-ontap_storage_flexcaches_data_source',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0'
+        providerVersion: '2.3.0',
+        providerVersionConstraint: '2.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -53,7 +53,8 @@ export class DataDatabricksDatabaseDatabaseCatalog extends cdktf.TerraformDataSo
       terraformResourceType: 'databricks_database_database_catalog',
       terraformGeneratorMetadata: {
         providerName: 'databricks',
-        providerVersion: '1.97.0'
+        providerVersion: '1.97.0',
+        providerVersionConstraint: '1.97.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

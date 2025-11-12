@@ -1529,7 +1529,8 @@ export class DataCrowdstrikeSensorUpdatePolicyBuilds extends cdktf.TerraformData
       terraformResourceType: 'crowdstrike_sensor_update_policy_builds',
       terraformGeneratorMetadata: {
         providerName: 'crowdstrike',
-        providerVersion: '0.0.43'
+        providerVersion: '0.0.43',
+        providerVersionConstraint: '0.0.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

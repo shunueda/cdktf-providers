@@ -72,7 +72,8 @@ export class AppRelease extends cdktf.TerraformResource {
       terraformResourceType: 'heroku_app_release',
       terraformGeneratorMetadata: {
         providerName: 'heroku',
-        providerVersion: '5.3.2'
+        providerVersion: '5.3.2',
+        providerVersionConstraint: '5.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

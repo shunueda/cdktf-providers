@@ -90,7 +90,8 @@ export class Team extends cdktf.TerraformResource {
       terraformResourceType: 'codefresh_team',
       terraformGeneratorMetadata: {
         providerName: 'codefresh',
-        providerVersion: '1.1.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -49,7 +49,8 @@ export class DataAembitGlobalPolicyComplianceData extends cdktf.TerraformDataSou
       terraformResourceType: 'aembit_global_policy_compliance_data',
       terraformGeneratorMetadata: {
         providerName: 'aembit',
-        providerVersion: '1.25.1'
+        providerVersion: '1.25.1',
+        providerVersionConstraint: '1.25.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

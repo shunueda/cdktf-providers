@@ -68,7 +68,8 @@ export class FlowLoglevel extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_flow_loglevel',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.70.0'
+        providerVersion: '1.70.0',
+        providerVersionConstraint: '1.70.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

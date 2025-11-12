@@ -174,7 +174,8 @@ export class DataOctopusdeployProjectGroups extends cdktf.TerraformDataSource {
       terraformResourceType: 'octopusdeploy_project_groups',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.4.0'
+        providerVersion: '1.4.0',
+        providerVersionConstraint: '1.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

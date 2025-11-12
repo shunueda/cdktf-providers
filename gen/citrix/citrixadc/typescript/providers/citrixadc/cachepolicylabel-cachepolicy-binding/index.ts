@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/cachepolicylabel_cachepolicy_binding
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cachepolicylabel_cachepolicy_binding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,44 +8,44 @@ import * as cdktf from 'cdktf';
 
 export interface CachepolicylabelCachepolicyBindingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/cachepolicylabel_cachepolicy_binding#gotopriorityexpression CachepolicylabelCachepolicyBinding#gotopriorityexpression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cachepolicylabel_cachepolicy_binding#gotopriorityexpression CachepolicylabelCachepolicyBinding#gotopriorityexpression}
   */
   readonly gotopriorityexpression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/cachepolicylabel_cachepolicy_binding#id CachepolicylabelCachepolicyBinding#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cachepolicylabel_cachepolicy_binding#id CachepolicylabelCachepolicyBinding#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/cachepolicylabel_cachepolicy_binding#invoke CachepolicylabelCachepolicyBinding#invoke}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cachepolicylabel_cachepolicy_binding#invoke CachepolicylabelCachepolicyBinding#invoke}
   */
   readonly invoke?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/cachepolicylabel_cachepolicy_binding#invokelabelname CachepolicylabelCachepolicyBinding#invokelabelname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cachepolicylabel_cachepolicy_binding#invokelabelname CachepolicylabelCachepolicyBinding#invokelabelname}
   */
   readonly invokelabelname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/cachepolicylabel_cachepolicy_binding#labelname CachepolicylabelCachepolicyBinding#labelname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cachepolicylabel_cachepolicy_binding#labelname CachepolicylabelCachepolicyBinding#labelname}
   */
   readonly labelname: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/cachepolicylabel_cachepolicy_binding#labeltype CachepolicylabelCachepolicyBinding#labeltype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cachepolicylabel_cachepolicy_binding#labeltype CachepolicylabelCachepolicyBinding#labeltype}
   */
   readonly labeltype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/cachepolicylabel_cachepolicy_binding#policyname CachepolicylabelCachepolicyBinding#policyname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cachepolicylabel_cachepolicy_binding#policyname CachepolicylabelCachepolicyBinding#policyname}
   */
   readonly policyname: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/cachepolicylabel_cachepolicy_binding#priority CachepolicylabelCachepolicyBinding#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cachepolicylabel_cachepolicy_binding#priority CachepolicylabelCachepolicyBinding#priority}
   */
   readonly priority: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/cachepolicylabel_cachepolicy_binding citrixadc_cachepolicylabel_cachepolicy_binding}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cachepolicylabel_cachepolicy_binding citrixadc_cachepolicylabel_cachepolicy_binding}
 */
 export class CachepolicylabelCachepolicyBinding extends cdktf.TerraformResource {
 
@@ -61,7 +61,7 @@ export class CachepolicylabelCachepolicyBinding extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a CachepolicylabelCachepolicyBinding resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CachepolicylabelCachepolicyBinding to import
-  * @param importFromId The id of the existing CachepolicylabelCachepolicyBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/cachepolicylabel_cachepolicy_binding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CachepolicylabelCachepolicyBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cachepolicylabel_cachepolicy_binding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CachepolicylabelCachepolicyBinding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -73,7 +73,7 @@ export class CachepolicylabelCachepolicyBinding extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/cachepolicylabel_cachepolicy_binding citrixadc_cachepolicylabel_cachepolicy_binding} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cachepolicylabel_cachepolicy_binding citrixadc_cachepolicylabel_cachepolicy_binding} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -84,7 +84,8 @@ export class CachepolicylabelCachepolicyBinding extends cdktf.TerraformResource 
       terraformResourceType: 'citrixadc_cachepolicylabel_cachepolicy_binding',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

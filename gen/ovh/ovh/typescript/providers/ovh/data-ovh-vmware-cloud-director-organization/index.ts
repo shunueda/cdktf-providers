@@ -363,7 +363,8 @@ export class DataOvhVmwareCloudDirectorOrganization extends cdktf.TerraformDataS
       terraformResourceType: 'ovh_vmware_cloud_director_organization',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0'
+        providerVersion: '2.9.0',
+        providerVersionConstraint: '2.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

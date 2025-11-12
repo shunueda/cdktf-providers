@@ -1056,7 +1056,8 @@ export class ApigatewayUsagePlan extends cdktf.TerraformResource {
       terraformResourceType: 'oci_apigateway_usage_plan',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -68,7 +68,8 @@ export class DmsCertificate extends cdktf.TerraformResource {
       terraformResourceType: 'aws_dms_certificate',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '3.29.6'
+        providerVersion: '3.29.6',
+        providerVersionConstraint: '3.29.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

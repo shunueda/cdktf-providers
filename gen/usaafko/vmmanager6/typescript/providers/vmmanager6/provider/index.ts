@@ -125,7 +125,8 @@ export class Vmmanager6Provider extends cdktf.TerraformProvider {
       terraformResourceType: 'vmmanager6',
       terraformGeneratorMetadata: {
         providerName: 'vmmanager6',
-        providerVersion: '0.0.34'
+        providerVersion: '0.0.34',
+        providerVersionConstraint: '0.0.34'
       },
       terraformProviderSource: 'usaafko/vmmanager6'
     });

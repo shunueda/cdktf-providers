@@ -24,6 +24,7 @@ Object.defineProperty(exports, 'managementAwsDataCenterServer', { get: function 
 Object.defineProperty(exports, 'managementAzureAd', { get: function () { return require('./management-azure-ad'); } });
 Object.defineProperty(exports, 'managementAzureDataCenterServer', { get: function () { return require('./management-azure-data-center-server'); } });
 Object.defineProperty(exports, 'managementBackupDomain', { get: function () { return require('./management-backup-domain'); } });
+Object.defineProperty(exports, 'managementChangePasswordOnNextLogin', { get: function () { return require('./management-change-password-on-next-login'); } });
 Object.defineProperty(exports, 'managementCheckNetworkFeed', { get: function () { return require('./management-check-network-feed'); } });
 Object.defineProperty(exports, 'managementCheckThreatIocFeed', { get: function () { return require('./management-check-threat-ioc-feed'); } });
 Object.defineProperty(exports, 'managementCheckpointHost', { get: function () { return require('./management-checkpoint-host'); } });
@@ -51,6 +52,7 @@ Object.defineProperty(exports, 'managementCommandSetPolicySettings', { get: func
 Object.defineProperty(exports, 'managementCommandSetThreatAdvancedSettings', { get: function () { return require('./management-command-set-threat-advanced-settings'); } });
 Object.defineProperty(exports, 'managementCommandSetTrustedCaSettings', { get: function () { return require('./management-command-set-trusted-ca-settings'); } });
 Object.defineProperty(exports, 'managementCommandUnlockObject', { get: function () { return require('./management-command-unlock-object'); } });
+Object.defineProperty(exports, 'managementComplianceScan', { get: function () { return require('./management-compliance-scan'); } });
 Object.defineProperty(exports, 'managementConnectCloudServices', { get: function () { return require('./management-connect-cloud-services'); } });
 Object.defineProperty(exports, 'managementContentAwarenessAdvancedSettings', { get: function () { return require('./management-content-awareness-advanced-settings'); } });
 Object.defineProperty(exports, 'managementDataCenterObject', { get: function () { return require('./management-data-center-object'); } });
@@ -112,6 +114,7 @@ Object.defineProperty(exports, 'managementKubernetesDataCenterServer', { get: fu
 Object.defineProperty(exports, 'managementLdapGroup', { get: function () { return require('./management-ldap-group'); } });
 Object.defineProperty(exports, 'managementLimit', { get: function () { return require('./management-limit'); } });
 Object.defineProperty(exports, 'managementLogExporter', { get: function () { return require('./management-log-exporter'); } });
+Object.defineProperty(exports, 'managementLogicalServer', { get: function () { return require('./management-logical-server'); } });
 Object.defineProperty(exports, 'managementLogin', { get: function () { return require('./management-login'); } });
 Object.defineProperty(exports, 'managementLogout', { get: function () { return require('./management-logout'); } });
 Object.defineProperty(exports, 'managementLsmCluster', { get: function () { return require('./management-lsm-cluster'); } });
@@ -148,6 +151,7 @@ Object.defineProperty(exports, 'managementPublish', { get: function () { return 
 Object.defineProperty(exports, 'managementPutFile', { get: function () { return require('./management-put-file'); } });
 Object.defineProperty(exports, 'managementRadiusGroup', { get: function () { return require('./management-radius-group'); } });
 Object.defineProperty(exports, 'managementRadiusServer', { get: function () { return require('./management-radius-server'); } });
+Object.defineProperty(exports, 'managementRenewScaledSharingServerCertificate', { get: function () { return require('./management-renew-scaled-sharing-server-certificate'); } });
 Object.defineProperty(exports, 'managementRepositoryScript', { get: function () { return require('./management-repository-script'); } });
 Object.defineProperty(exports, 'managementResetSic', { get: function () { return require('./management-reset-sic'); } });
 Object.defineProperty(exports, 'managementResourceCifs', { get: function () { return require('./management-resource-cifs'); } });
@@ -184,6 +188,8 @@ Object.defineProperty(exports, 'managementSetAntiMalwareUpdateSchedule', { get: 
 Object.defineProperty(exports, 'managementSetApiSettings', { get: function () { return require('./management-set-api-settings'); } });
 Object.defineProperty(exports, 'managementSetAppControlUpdateSchedule', { get: function () { return require('./management-set-app-control-update-schedule'); } });
 Object.defineProperty(exports, 'managementSetAutomaticPurge', { get: function () { return require('./management-set-automatic-purge'); } });
+Object.defineProperty(exports, 'managementSetCpPasswordRequirements', { get: function () { return require('./management-set-cp-password-requirements'); } });
+Object.defineProperty(exports, 'managementSetDefaultAdministratorSettings', { get: function () { return require('./management-set-default-administrator-settings'); } });
 Object.defineProperty(exports, 'managementSetGatewayGlobalUse', { get: function () { return require('./management-set-gateway-global-use'); } });
 Object.defineProperty(exports, 'managementSetGlobalDomain', { get: function () { return require('./management-set-global-domain'); } });
 Object.defineProperty(exports, 'managementSetHaState', { get: function () { return require('./management-set-ha-state'); } });
@@ -192,17 +198,22 @@ Object.defineProperty(exports, 'managementSetIdpDefaultAssignment', { get: funct
 Object.defineProperty(exports, 'managementSetIdpToDomainAssignment', { get: function () { return require('./management-set-idp-to-domain-assignment'); } });
 Object.defineProperty(exports, 'managementSetIpsUpdateSchedule', { get: function () { return require('./management-set-ips-update-schedule'); } });
 Object.defineProperty(exports, 'managementSetLoginMessage', { get: function () { return require('./management-set-login-message'); } });
+Object.defineProperty(exports, 'managementSetLoginRestrictions', { get: function () { return require('./management-set-login-restrictions'); } });
+Object.defineProperty(exports, 'managementSetSmartConsoleIdleTimeout', { get: function () { return require('./management-set-smart-console-idle-timeout'); } });
 Object.defineProperty(exports, 'managementSetSyncWithUserCenter', { get: function () { return require('./management-set-sync-with-user-center'); } });
 Object.defineProperty(exports, 'managementSetThreatProtection', { get: function () { return require('./management-set-threat-protection'); } });
+Object.defineProperty(exports, 'managementSetTrust', { get: function () { return require('./management-set-trust'); } });
 Object.defineProperty(exports, 'managementSimpleCluster', { get: function () { return require('./management-simple-cluster'); } });
 Object.defineProperty(exports, 'managementSimpleGateway', { get: function () { return require('./management-simple-gateway'); } });
 Object.defineProperty(exports, 'managementSmartTask', { get: function () { return require('./management-smart-task'); } });
 Object.defineProperty(exports, 'managementSmtpServer', { get: function () { return require('./management-smtp-server'); } });
+Object.defineProperty(exports, 'managementSubordinateCa', { get: function () { return require('./management-subordinate-ca'); } });
 Object.defineProperty(exports, 'managementSyslogServer', { get: function () { return require('./management-syslog-server'); } });
 Object.defineProperty(exports, 'managementTacacsGroup', { get: function () { return require('./management-tacacs-group'); } });
 Object.defineProperty(exports, 'managementTacacsServer', { get: function () { return require('./management-tacacs-server'); } });
 Object.defineProperty(exports, 'managementTag', { get: function () { return require('./management-tag'); } });
 Object.defineProperty(exports, 'managementTestSicStatus', { get: function () { return require('./management-test-sic-status'); } });
+Object.defineProperty(exports, 'managementTestTrust', { get: function () { return require('./management-test-trust'); } });
 Object.defineProperty(exports, 'managementThreatException', { get: function () { return require('./management-threat-exception'); } });
 Object.defineProperty(exports, 'managementThreatIndicator', { get: function () { return require('./management-threat-indicator'); } });
 Object.defineProperty(exports, 'managementThreatIocFeed', { get: function () { return require('./management-threat-ioc-feed'); } });
@@ -223,6 +234,11 @@ Object.defineProperty(exports, 'managementVerifyPolicy', { get: function () { re
 Object.defineProperty(exports, 'managementVerifyRevert', { get: function () { return require('./management-verify-revert'); } });
 Object.defineProperty(exports, 'managementVerifySoftwarePackage', { get: function () { return require('./management-verify-software-package'); } });
 Object.defineProperty(exports, 'managementVmwareDataCenterServer', { get: function () { return require('./management-vmware-data-center-server'); } });
+Object.defineProperty(exports, 'managementVoipDomainH323Gatekeeper', { get: function () { return require('./management-voip-domain-h323-gatekeeper'); } });
+Object.defineProperty(exports, 'managementVoipDomainH323Gateway', { get: function () { return require('./management-voip-domain-h323-gateway'); } });
+Object.defineProperty(exports, 'managementVoipDomainMgcpCallAgent', { get: function () { return require('./management-voip-domain-mgcp-call-agent'); } });
+Object.defineProperty(exports, 'managementVoipDomainSccpCallManager', { get: function () { return require('./management-voip-domain-sccp-call-manager'); } });
+Object.defineProperty(exports, 'managementVoipDomainSipProxy', { get: function () { return require('./management-voip-domain-sip-proxy'); } });
 Object.defineProperty(exports, 'managementVpnCommunityMeshed', { get: function () { return require('./management-vpn-community-meshed'); } });
 Object.defineProperty(exports, 'managementVpnCommunityRemoteAccess', { get: function () { return require('./management-vpn-community-remote-access'); } });
 Object.defineProperty(exports, 'managementVpnCommunityStar', { get: function () { return require('./management-vpn-community-star'); } });
@@ -245,6 +261,7 @@ Object.defineProperty(exports, 'dataCheckpointManagementAwsDataCenterServer', { 
 Object.defineProperty(exports, 'dataCheckpointManagementAzureAd', { get: function () { return require('./data-checkpoint-management-azure-ad'); } });
 Object.defineProperty(exports, 'dataCheckpointManagementAzureAdContent', { get: function () { return require('./data-checkpoint-management-azure-ad-content'); } });
 Object.defineProperty(exports, 'dataCheckpointManagementAzureDataCenterServer', { get: function () { return require('./data-checkpoint-management-azure-data-center-server'); } });
+Object.defineProperty(exports, 'dataCheckpointManagementBestPractice', { get: function () { return require('./data-checkpoint-management-best-practice'); } });
 Object.defineProperty(exports, 'dataCheckpointManagementCheckpointHost', { get: function () { return require('./data-checkpoint-management-checkpoint-host'); } });
 Object.defineProperty(exports, 'dataCheckpointManagementCloudServices', { get: function () { return require('./data-checkpoint-management-cloud-services'); } });
 Object.defineProperty(exports, 'dataCheckpointManagementClusterMember', { get: function () { return require('./data-checkpoint-management-cluster-member'); } });
@@ -261,6 +278,7 @@ Object.defineProperty(exports, 'dataCheckpointManagementCmeGwConfigurationsGcp',
 Object.defineProperty(exports, 'dataCheckpointManagementCmeManagement', { get: function () { return require('./data-checkpoint-management-cme-management'); } });
 Object.defineProperty(exports, 'dataCheckpointManagementCmeVersion', { get: function () { return require('./data-checkpoint-management-cme-version'); } });
 Object.defineProperty(exports, 'dataCheckpointManagementContentAwarenessAdvancedSettings', { get: function () { return require('./data-checkpoint-management-content-awareness-advanced-settings'); } });
+Object.defineProperty(exports, 'dataCheckpointManagementCpPasswordRequirements', { get: function () { return require('./data-checkpoint-management-cp-password-requirements'); } });
 Object.defineProperty(exports, 'dataCheckpointManagementCpTrustedCaCertificate', { get: function () { return require('./data-checkpoint-management-cp-trusted-ca-certificate'); } });
 Object.defineProperty(exports, 'dataCheckpointManagementCustomTrustedCaCertificate', { get: function () { return require('./data-checkpoint-management-custom-trusted-ca-certificate'); } });
 Object.defineProperty(exports, 'dataCheckpointManagementDataAccessLayer', { get: function () { return require('./data-checkpoint-management-data-access-layer'); } });
@@ -309,6 +327,7 @@ Object.defineProperty(exports, 'dataCheckpointManagementDataTypeWeightedKeywords
 Object.defineProperty(exports, 'dataCheckpointManagementDataVpnCommunityMeshed', { get: function () { return require('./data-checkpoint-management-data-vpn-community-meshed'); } });
 Object.defineProperty(exports, 'dataCheckpointManagementDataVpnCommunityStar', { get: function () { return require('./data-checkpoint-management-data-vpn-community-star'); } });
 Object.defineProperty(exports, 'dataCheckpointManagementDataWildcard', { get: function () { return require('./data-checkpoint-management-data-wildcard'); } });
+Object.defineProperty(exports, 'dataCheckpointManagementDefaultAdministratorSettings', { get: function () { return require('./data-checkpoint-management-default-administrator-settings'); } });
 Object.defineProperty(exports, 'dataCheckpointManagementDomain', { get: function () { return require('./data-checkpoint-management-domain'); } });
 Object.defineProperty(exports, 'dataCheckpointManagementDomainPermissionsProfile', { get: function () { return require('./data-checkpoint-management-domain-permissions-profile'); } });
 Object.defineProperty(exports, 'dataCheckpointManagementDynamicGlobalNetworkObject', { get: function () { return require('./data-checkpoint-management-dynamic-global-network-object'); } });
@@ -342,7 +361,9 @@ Object.defineProperty(exports, 'dataCheckpointManagementKubernetesDataCenterServ
 Object.defineProperty(exports, 'dataCheckpointManagementLdapGroup', { get: function () { return require('./data-checkpoint-management-ldap-group'); } });
 Object.defineProperty(exports, 'dataCheckpointManagementLimit', { get: function () { return require('./data-checkpoint-management-limit'); } });
 Object.defineProperty(exports, 'dataCheckpointManagementLogExporter', { get: function () { return require('./data-checkpoint-management-log-exporter'); } });
+Object.defineProperty(exports, 'dataCheckpointManagementLogicalServer', { get: function () { return require('./data-checkpoint-management-logical-server'); } });
 Object.defineProperty(exports, 'dataCheckpointManagementLoginMessage', { get: function () { return require('./data-checkpoint-management-login-message'); } });
+Object.defineProperty(exports, 'dataCheckpointManagementLoginRestrictions', { get: function () { return require('./data-checkpoint-management-login-restrictions'); } });
 Object.defineProperty(exports, 'dataCheckpointManagementLsmCluster', { get: function () { return require('./data-checkpoint-management-lsm-cluster'); } });
 Object.defineProperty(exports, 'dataCheckpointManagementLsmClusterProfile', { get: function () { return require('./data-checkpoint-management-lsm-cluster-profile'); } });
 Object.defineProperty(exports, 'dataCheckpointManagementLsmGateway', { get: function () { return require('./data-checkpoint-management-lsm-gateway'); } });
@@ -396,9 +417,11 @@ Object.defineProperty(exports, 'dataCheckpointManagementShowObjects', { get: fun
 Object.defineProperty(exports, 'dataCheckpointManagementShowUpdatableObjectsRepositoryContent', { get: function () { return require('./data-checkpoint-management-show-updatable-objects-repository-content'); } });
 Object.defineProperty(exports, 'dataCheckpointManagementSimpleCluster', { get: function () { return require('./data-checkpoint-management-simple-cluster'); } });
 Object.defineProperty(exports, 'dataCheckpointManagementSimpleGateway', { get: function () { return require('./data-checkpoint-management-simple-gateway'); } });
+Object.defineProperty(exports, 'dataCheckpointManagementSmartConsoleIdleTimeout', { get: function () { return require('./data-checkpoint-management-smart-console-idle-timeout'); } });
 Object.defineProperty(exports, 'dataCheckpointManagementSmartTask', { get: function () { return require('./data-checkpoint-management-smart-task'); } });
 Object.defineProperty(exports, 'dataCheckpointManagementSmartTaskTrigger', { get: function () { return require('./data-checkpoint-management-smart-task-trigger'); } });
 Object.defineProperty(exports, 'dataCheckpointManagementSmtpServer', { get: function () { return require('./data-checkpoint-management-smtp-server'); } });
+Object.defineProperty(exports, 'dataCheckpointManagementSubordinateCa', { get: function () { return require('./data-checkpoint-management-subordinate-ca'); } });
 Object.defineProperty(exports, 'dataCheckpointManagementSyncWithUserCenter', { get: function () { return require('./data-checkpoint-management-sync-with-user-center'); } });
 Object.defineProperty(exports, 'dataCheckpointManagementSyslogServer', { get: function () { return require('./data-checkpoint-management-syslog-server'); } });
 Object.defineProperty(exports, 'dataCheckpointManagementTacacsGroup', { get: function () { return require('./data-checkpoint-management-tacacs-group'); } });
@@ -421,6 +444,11 @@ Object.defineProperty(exports, 'dataCheckpointManagementUser', { get: function (
 Object.defineProperty(exports, 'dataCheckpointManagementUserGroup', { get: function () { return require('./data-checkpoint-management-user-group'); } });
 Object.defineProperty(exports, 'dataCheckpointManagementUserTemplate', { get: function () { return require('./data-checkpoint-management-user-template'); } });
 Object.defineProperty(exports, 'dataCheckpointManagementVmwareDataCenterServer', { get: function () { return require('./data-checkpoint-management-vmware-data-center-server'); } });
+Object.defineProperty(exports, 'dataCheckpointManagementVoipDomainH323Gatekeeper', { get: function () { return require('./data-checkpoint-management-voip-domain-h323-gatekeeper'); } });
+Object.defineProperty(exports, 'dataCheckpointManagementVoipDomainH323Gateway', { get: function () { return require('./data-checkpoint-management-voip-domain-h323-gateway'); } });
+Object.defineProperty(exports, 'dataCheckpointManagementVoipDomainMgcpCallAgent', { get: function () { return require('./data-checkpoint-management-voip-domain-mgcp-call-agent'); } });
+Object.defineProperty(exports, 'dataCheckpointManagementVoipDomainSccpCallManager', { get: function () { return require('./data-checkpoint-management-voip-domain-sccp-call-manager'); } });
+Object.defineProperty(exports, 'dataCheckpointManagementVoipDomainSipProxy', { get: function () { return require('./data-checkpoint-management-voip-domain-sip-proxy'); } });
 Object.defineProperty(exports, 'dataCheckpointManagementVpnCommunityRemoteAccess', { get: function () { return require('./data-checkpoint-management-vpn-community-remote-access'); } });
 Object.defineProperty(exports, 'provider', { get: function () { return require('./provider'); } });
 

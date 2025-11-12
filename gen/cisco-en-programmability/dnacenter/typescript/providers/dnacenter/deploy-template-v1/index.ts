@@ -873,7 +873,8 @@ export class DeployTemplateV1 extends cdktf.TerraformResource {
       terraformResourceType: 'dnacenter_deploy_template_v1',
       terraformGeneratorMetadata: {
         providerName: 'dnacenter',
-        providerVersion: '1.1.21'
+        providerVersion: '1.1.21',
+        providerVersionConstraint: '1.1.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -176,7 +176,8 @@ export class MsgVpnBridgeRemoteMsgVpn extends cdktf.TerraformResource {
       terraformResourceType: 'solacebroker_msg_vpn_bridge_remote_msg_vpn',
       terraformGeneratorMetadata: {
         providerName: 'solacebroker',
-        providerVersion: '1.2.0'
+        providerVersion: '1.2.0',
+        providerVersionConstraint: '1.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

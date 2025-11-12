@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/blueprint_anomalies
+// https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/blueprint_anomalies
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataApstraBlueprintAnomaliesConfig extends cdktf.TerraformMetaA
   /**
   * Apstra Blueprint ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/blueprint_anomalies#blueprint_id DataApstraBlueprintAnomalies#blueprint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/blueprint_anomalies#blueprint_id DataApstraBlueprintAnomalies#blueprint_id}
   */
   readonly blueprintId: string;
 }
@@ -381,7 +381,7 @@ export class DataApstraBlueprintAnomaliesSummaryByServiceList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/blueprint_anomalies apstra_blueprint_anomalies}
+* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/blueprint_anomalies apstra_blueprint_anomalies}
 */
 export class DataApstraBlueprintAnomalies extends cdktf.TerraformDataSource {
 
@@ -397,7 +397,7 @@ export class DataApstraBlueprintAnomalies extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataApstraBlueprintAnomalies resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataApstraBlueprintAnomalies to import
-  * @param importFromId The id of the existing DataApstraBlueprintAnomalies that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/blueprint_anomalies#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataApstraBlueprintAnomalies that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/blueprint_anomalies#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataApstraBlueprintAnomalies to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -409,7 +409,7 @@ export class DataApstraBlueprintAnomalies extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/blueprint_anomalies apstra_blueprint_anomalies} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/blueprint_anomalies apstra_blueprint_anomalies} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -420,7 +420,8 @@ export class DataApstraBlueprintAnomalies extends cdktf.TerraformDataSource {
       terraformResourceType: 'apstra_blueprint_anomalies',
       terraformGeneratorMetadata: {
         providerName: 'apstra',
-        providerVersion: '0.95.0'
+        providerVersion: '0.95.1',
+        providerVersionConstraint: '0.95.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

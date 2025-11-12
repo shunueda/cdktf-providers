@@ -347,7 +347,8 @@ export class DataSamsungcloudplatformDirectConnectRoutingRoutes extends cdktf.Te
       terraformResourceType: 'samsungcloudplatform_direct_connect_routing_routes',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0'
+        providerVersion: '3.15.0',
+        providerVersionConstraint: '3.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

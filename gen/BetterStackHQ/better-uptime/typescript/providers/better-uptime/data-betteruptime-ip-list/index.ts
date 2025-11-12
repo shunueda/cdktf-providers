@@ -55,7 +55,8 @@ export class DataBetteruptimeIpList extends cdktf.TerraformDataSource {
       terraformResourceType: 'betteruptime_ip_list',
       terraformGeneratorMetadata: {
         providerName: 'better-uptime',
-        providerVersion: '0.20.4'
+        providerVersion: '0.20.4',
+        providerVersionConstraint: '0.20.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

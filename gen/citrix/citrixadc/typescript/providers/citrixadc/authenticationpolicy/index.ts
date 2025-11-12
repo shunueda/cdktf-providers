@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationpolicy
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationpolicy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,44 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface AuthenticationpolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationpolicy#action Authenticationpolicy#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationpolicy#action Authenticationpolicy#action}
   */
   readonly action: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationpolicy#comment Authenticationpolicy#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationpolicy#comment Authenticationpolicy#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationpolicy#id Authenticationpolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationpolicy#id Authenticationpolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationpolicy#logaction Authenticationpolicy#logaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationpolicy#logaction Authenticationpolicy#logaction}
   */
   readonly logaction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationpolicy#name Authenticationpolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationpolicy#name Authenticationpolicy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationpolicy#newname Authenticationpolicy#newname}
-  */
-  readonly newname?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationpolicy#rule Authenticationpolicy#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationpolicy#rule Authenticationpolicy#rule}
   */
   readonly rule: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationpolicy#undefaction Authenticationpolicy#undefaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationpolicy#undefaction Authenticationpolicy#undefaction}
   */
   readonly undefaction?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationpolicy citrixadc_authenticationpolicy}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationpolicy citrixadc_authenticationpolicy}
 */
 export class Authenticationpolicy extends cdktf.TerraformResource {
 
@@ -61,7 +57,7 @@ export class Authenticationpolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Authenticationpolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Authenticationpolicy to import
-  * @param importFromId The id of the existing Authenticationpolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationpolicy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Authenticationpolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationpolicy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Authenticationpolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -73,7 +69,7 @@ export class Authenticationpolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationpolicy citrixadc_authenticationpolicy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationpolicy citrixadc_authenticationpolicy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -84,7 +80,8 @@ export class Authenticationpolicy extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_authenticationpolicy',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -99,7 +96,6 @@ export class Authenticationpolicy extends cdktf.TerraformResource {
     this._id = config.id;
     this._logaction = config.logaction;
     this._name = config.name;
-    this._newname = config.newname;
     this._rule = config.rule;
     this._undefaction = config.undefaction;
   }
@@ -182,22 +178,6 @@ export class Authenticationpolicy extends cdktf.TerraformResource {
     return this._name;
   }
 
-  // newname - computed: true, optional: true, required: false
-  private _newname?: string; 
-  public get newname() {
-    return this.getStringAttribute('newname');
-  }
-  public set newname(value: string) {
-    this._newname = value;
-  }
-  public resetNewname() {
-    this._newname = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get newnameInput() {
-    return this._newname;
-  }
-
   // rule - computed: false, optional: false, required: true
   private _rule?: string; 
   public get rule() {
@@ -238,7 +218,6 @@ export class Authenticationpolicy extends cdktf.TerraformResource {
       id: cdktf.stringToTerraform(this._id),
       logaction: cdktf.stringToTerraform(this._logaction),
       name: cdktf.stringToTerraform(this._name),
-      newname: cdktf.stringToTerraform(this._newname),
       rule: cdktf.stringToTerraform(this._rule),
       undefaction: cdktf.stringToTerraform(this._undefaction),
     };
@@ -272,12 +251,6 @@ export class Authenticationpolicy extends cdktf.TerraformResource {
       },
       name: {
         value: cdktf.stringToHclTerraform(this._name),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
-      newname: {
-        value: cdktf.stringToHclTerraform(this._newname),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

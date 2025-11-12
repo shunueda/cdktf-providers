@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/blockstorage_availability_zones_v3
+// https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/blockstorage_availability_zones_v3
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,24 +8,24 @@ import * as cdktf from 'cdktf';
 
 export interface DataOpenstackBlockstorageAvailabilityZonesV3Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/blockstorage_availability_zones_v3#id DataOpenstackBlockstorageAvailabilityZonesV3#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/blockstorage_availability_zones_v3#id DataOpenstackBlockstorageAvailabilityZonesV3#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/blockstorage_availability_zones_v3#region DataOpenstackBlockstorageAvailabilityZonesV3#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/blockstorage_availability_zones_v3#region DataOpenstackBlockstorageAvailabilityZonesV3#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/blockstorage_availability_zones_v3#state DataOpenstackBlockstorageAvailabilityZonesV3#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/blockstorage_availability_zones_v3#state DataOpenstackBlockstorageAvailabilityZonesV3#state}
   */
   readonly state?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/blockstorage_availability_zones_v3 openstack_blockstorage_availability_zones_v3}
+* Represents a {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/blockstorage_availability_zones_v3 openstack_blockstorage_availability_zones_v3}
 */
 export class DataOpenstackBlockstorageAvailabilityZonesV3 extends cdktf.TerraformDataSource {
 
@@ -41,7 +41,7 @@ export class DataOpenstackBlockstorageAvailabilityZonesV3 extends cdktf.Terrafor
   * Generates CDKTF code for importing a DataOpenstackBlockstorageAvailabilityZonesV3 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOpenstackBlockstorageAvailabilityZonesV3 to import
-  * @param importFromId The id of the existing DataOpenstackBlockstorageAvailabilityZonesV3 that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/blockstorage_availability_zones_v3#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOpenstackBlockstorageAvailabilityZonesV3 that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/blockstorage_availability_zones_v3#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOpenstackBlockstorageAvailabilityZonesV3 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -53,7 +53,7 @@ export class DataOpenstackBlockstorageAvailabilityZonesV3 extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/blockstorage_availability_zones_v3 openstack_blockstorage_availability_zones_v3} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/blockstorage_availability_zones_v3 openstack_blockstorage_availability_zones_v3} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -64,7 +64,8 @@ export class DataOpenstackBlockstorageAvailabilityZonesV3 extends cdktf.Terrafor
       terraformResourceType: 'openstack_blockstorage_availability_zones_v3',
       terraformGeneratorMetadata: {
         providerName: 'openstack',
-        providerVersion: '3.3.2'
+        providerVersion: '3.4.0',
+        providerVersionConstraint: '3.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

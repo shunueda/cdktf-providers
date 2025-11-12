@@ -73,7 +73,8 @@ export class PineconeProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'pinecone',
       terraformGeneratorMetadata: {
         providerName: 'pinecone',
-        providerVersion: '2.0.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       terraformProviderSource: 'pinecone-io/pinecone'
     });

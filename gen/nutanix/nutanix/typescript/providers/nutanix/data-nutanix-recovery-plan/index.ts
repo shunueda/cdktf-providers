@@ -2927,7 +2927,8 @@ export class DataNutanixRecoveryPlan extends cdktf.TerraformDataSource {
       terraformResourceType: 'nutanix_recovery_plan',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3'
+        providerVersion: '2.3.3',
+        providerVersionConstraint: '2.3.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

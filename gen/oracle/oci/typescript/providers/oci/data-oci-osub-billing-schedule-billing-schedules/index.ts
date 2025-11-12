@@ -465,7 +465,8 @@ export class DataOciOsubBillingScheduleBillingSchedules extends cdktf.TerraformD
       terraformResourceType: 'oci_osub_billing_schedule_billing_schedules',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

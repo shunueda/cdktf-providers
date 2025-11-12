@@ -66,7 +66,8 @@ export class DataK8SAppTerraformIoAgentPoolV1Alpha2Manifest extends cdktf.Terraf
       terraformResourceType: 'k8s_app_terraform_io_agent_pool_v1alpha2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

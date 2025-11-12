@@ -323,7 +323,8 @@ export class DataNcloudSourcebuildProjectComputes extends cdktf.TerraformDataSou
       terraformResourceType: 'ncloud_sourcebuild_project_computes',
       terraformGeneratorMetadata: {
         providerName: 'ncloud',
-        providerVersion: '4.0.4'
+        providerVersion: '4.0.4',
+        providerVersionConstraint: '4.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

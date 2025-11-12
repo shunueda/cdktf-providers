@@ -199,7 +199,8 @@ export class DataCloudflareEmailSecurityBlockSenders extends cdktf.TerraformData
       terraformResourceType: 'cloudflare_email_security_block_senders',
       terraformGeneratorMetadata: {
         providerName: 'cloudflare',
-        providerVersion: '5.12.0'
+        providerVersion: '5.12.0',
+        providerVersionConstraint: '5.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

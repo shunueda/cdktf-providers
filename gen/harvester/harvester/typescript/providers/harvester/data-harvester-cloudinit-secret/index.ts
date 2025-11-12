@@ -66,7 +66,8 @@ export class DataHarvesterCloudinitSecret extends cdktf.TerraformDataSource {
       terraformResourceType: 'harvester_cloudinit_secret',
       terraformGeneratorMetadata: {
         providerName: 'harvester',
-        providerVersion: '1.6.0'
+        providerVersion: '1.6.0',
+        providerVersionConstraint: '1.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

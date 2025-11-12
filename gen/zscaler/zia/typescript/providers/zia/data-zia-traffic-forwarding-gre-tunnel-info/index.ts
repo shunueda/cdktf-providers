@@ -64,7 +64,8 @@ export class DataZiaTrafficForwardingGreTunnelInfo extends cdktf.TerraformDataSo
       terraformResourceType: 'zia_traffic_forwarding_gre_tunnel_info',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.5.3'
+        providerVersion: '4.5.3',
+        providerVersionConstraint: '4.5.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

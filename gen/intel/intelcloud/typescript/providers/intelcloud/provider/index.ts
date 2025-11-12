@@ -126,7 +126,8 @@ export class IntelcloudProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'intelcloud',
       terraformGeneratorMetadata: {
         providerName: 'intelcloud',
-        providerVersion: '0.0.20'
+        providerVersion: '0.0.20',
+        providerVersionConstraint: '0.0.20'
       },
       terraformProviderSource: 'intel/intelcloud'
     });

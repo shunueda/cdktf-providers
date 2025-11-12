@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_set_threat_advanced_settings
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_set_threat_advanced_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ManagementCommandSetThreatAdvancedSettingsConfig extends cdktf.
   /**
   * Feed retrieving intervals of External Feed, in the form of HH:MM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_set_threat_advanced_settings#feed_retrieving_interval ManagementCommandSetThreatAdvancedSettings#feed_retrieving_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_set_threat_advanced_settings#feed_retrieving_interval ManagementCommandSetThreatAdvancedSettings#feed_retrieving_interval}
   */
   readonly feedRetrievingInterval?: string;
   /**
   * Enable HTTP Inspection on non standard ports for Threat Prevention blades.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_set_threat_advanced_settings#httpi_non_standard_ports ManagementCommandSetThreatAdvancedSettings#httpi_non_standard_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_set_threat_advanced_settings#httpi_non_standard_ports ManagementCommandSetThreatAdvancedSettings#httpi_non_standard_ports}
   */
   readonly httpiNonStandardPorts?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_set_threat_advanced_settings#id ManagementCommandSetThreatAdvancedSettings#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_set_threat_advanced_settings#id ManagementCommandSetThreatAdvancedSettings#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,31 +29,31 @@ export interface ManagementCommandSetThreatAdvancedSettingsConfig extends cdktf.
   /**
   * Apply changes ignoring errors. You won't be able to publish such a changes. If ignore-warnings flag was omitted - warnings will also be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_set_threat_advanced_settings#ignore_errors ManagementCommandSetThreatAdvancedSettings#ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_set_threat_advanced_settings#ignore_errors ManagementCommandSetThreatAdvancedSettings#ignore_errors}
   */
   readonly ignoreErrors?: boolean | cdktf.IResolvable;
   /**
   * Apply changes ignoring warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_set_threat_advanced_settings#ignore_warnings ManagementCommandSetThreatAdvancedSettings#ignore_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_set_threat_advanced_settings#ignore_warnings ManagementCommandSetThreatAdvancedSettings#ignore_warnings}
   */
   readonly ignoreWarnings?: boolean | cdktf.IResolvable;
   /**
   * In case of internal system error, allow or block all connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_set_threat_advanced_settings#internal_error_fail_mode ManagementCommandSetThreatAdvancedSettings#internal_error_fail_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_set_threat_advanced_settings#internal_error_fail_mode ManagementCommandSetThreatAdvancedSettings#internal_error_fail_mode}
   */
   readonly internalErrorFailMode?: string;
   /**
   * Session unification timeout for logs (minutes).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_set_threat_advanced_settings#log_unification_timeout ManagementCommandSetThreatAdvancedSettings#log_unification_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_set_threat_advanced_settings#log_unification_timeout ManagementCommandSetThreatAdvancedSettings#log_unification_timeout}
   */
   readonly logUnificationTimeout?: number;
   /**
   * resource_classification block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_set_threat_advanced_settings#resource_classification ManagementCommandSetThreatAdvancedSettings#resource_classification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_set_threat_advanced_settings#resource_classification ManagementCommandSetThreatAdvancedSettings#resource_classification}
   */
   readonly resourceClassification?: ManagementCommandSetThreatAdvancedSettingsResourceClassification;
 }
@@ -61,19 +61,19 @@ export interface ManagementCommandSetThreatAdvancedSettingsResourceClassificatio
   /**
   * Custom Settings for Anti Bot Blade.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_set_threat_advanced_settings#anti_bot ManagementCommandSetThreatAdvancedSettings#anti_bot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_set_threat_advanced_settings#anti_bot ManagementCommandSetThreatAdvancedSettings#anti_bot}
   */
   readonly antiBot?: string;
   /**
   * Custom Settings for Anti Virus Blade.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_set_threat_advanced_settings#anti_virus ManagementCommandSetThreatAdvancedSettings#anti_virus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_set_threat_advanced_settings#anti_virus ManagementCommandSetThreatAdvancedSettings#anti_virus}
   */
   readonly antiVirus?: string;
   /**
   * Custom Settings for Zero Phishing Blade.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_set_threat_advanced_settings#zero_phishing ManagementCommandSetThreatAdvancedSettings#zero_phishing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_set_threat_advanced_settings#zero_phishing ManagementCommandSetThreatAdvancedSettings#zero_phishing}
   */
   readonly zeroPhishing?: string;
 }
@@ -217,19 +217,19 @@ export interface ManagementCommandSetThreatAdvancedSettingsResourceClassificatio
   /**
   * Set all services to the same mode or choose a custom mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_set_threat_advanced_settings#mode ManagementCommandSetThreatAdvancedSettings#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_set_threat_advanced_settings#mode ManagementCommandSetThreatAdvancedSettings#mode}
   */
   readonly mode?: string;
   /**
   * Block connections when the web service is unavailable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_set_threat_advanced_settings#web_service_fail_mode ManagementCommandSetThreatAdvancedSettings#web_service_fail_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_set_threat_advanced_settings#web_service_fail_mode ManagementCommandSetThreatAdvancedSettings#web_service_fail_mode}
   */
   readonly webServiceFailMode?: string;
   /**
   * custom_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_set_threat_advanced_settings#custom_settings ManagementCommandSetThreatAdvancedSettings#custom_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_set_threat_advanced_settings#custom_settings ManagementCommandSetThreatAdvancedSettings#custom_settings}
   */
   readonly customSettings?: ManagementCommandSetThreatAdvancedSettingsResourceClassificationCustomSettings;
 }
@@ -371,7 +371,7 @@ export class ManagementCommandSetThreatAdvancedSettingsResourceClassificationOut
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_set_threat_advanced_settings checkpoint_management_command_set_threat_advanced_settings}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_set_threat_advanced_settings checkpoint_management_command_set_threat_advanced_settings}
 */
 export class ManagementCommandSetThreatAdvancedSettings extends cdktf.TerraformResource {
 
@@ -387,7 +387,7 @@ export class ManagementCommandSetThreatAdvancedSettings extends cdktf.TerraformR
   * Generates CDKTF code for importing a ManagementCommandSetThreatAdvancedSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementCommandSetThreatAdvancedSettings to import
-  * @param importFromId The id of the existing ManagementCommandSetThreatAdvancedSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_set_threat_advanced_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementCommandSetThreatAdvancedSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_set_threat_advanced_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementCommandSetThreatAdvancedSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -399,7 +399,7 @@ export class ManagementCommandSetThreatAdvancedSettings extends cdktf.TerraformR
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_set_threat_advanced_settings checkpoint_management_command_set_threat_advanced_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_set_threat_advanced_settings checkpoint_management_command_set_threat_advanced_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -410,7 +410,8 @@ export class ManagementCommandSetThreatAdvancedSettings extends cdktf.TerraformR
       terraformResourceType: 'checkpoint_management_command_set_threat_advanced_settings',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

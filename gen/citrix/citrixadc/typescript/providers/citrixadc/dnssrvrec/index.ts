@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/dnssrvrec
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnssrvrec
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,52 +8,48 @@ import * as cdktf from 'cdktf';
 
 export interface DnssrvrecConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/dnssrvrec#domain Dnssrvrec#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnssrvrec#domain Dnssrvrec#domain}
   */
   readonly domain: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/dnssrvrec#ecssubnet Dnssrvrec#ecssubnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnssrvrec#ecssubnet Dnssrvrec#ecssubnet}
   */
   readonly ecssubnet?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/dnssrvrec#id Dnssrvrec#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnssrvrec#id Dnssrvrec#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/dnssrvrec#nodeid Dnssrvrec#nodeid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnssrvrec#nodeid Dnssrvrec#nodeid}
   */
   readonly nodeid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/dnssrvrec#port Dnssrvrec#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnssrvrec#port Dnssrvrec#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/dnssrvrec#priority Dnssrvrec#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnssrvrec#priority Dnssrvrec#priority}
   */
   readonly priority: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/dnssrvrec#target Dnssrvrec#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnssrvrec#target Dnssrvrec#target}
   */
   readonly target: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/dnssrvrec#ttl Dnssrvrec#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnssrvrec#ttl Dnssrvrec#ttl}
   */
   readonly ttl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/dnssrvrec#type Dnssrvrec#type}
-  */
-  readonly type?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/dnssrvrec#weight Dnssrvrec#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnssrvrec#weight Dnssrvrec#weight}
   */
   readonly weight?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/dnssrvrec citrixadc_dnssrvrec}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnssrvrec citrixadc_dnssrvrec}
 */
 export class Dnssrvrec extends cdktf.TerraformResource {
 
@@ -69,7 +65,7 @@ export class Dnssrvrec extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Dnssrvrec resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Dnssrvrec to import
-  * @param importFromId The id of the existing Dnssrvrec that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/dnssrvrec#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Dnssrvrec that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnssrvrec#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Dnssrvrec to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +77,7 @@ export class Dnssrvrec extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/dnssrvrec citrixadc_dnssrvrec} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnssrvrec citrixadc_dnssrvrec} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,7 +88,8 @@ export class Dnssrvrec extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_dnssrvrec',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -110,7 +107,6 @@ export class Dnssrvrec extends cdktf.TerraformResource {
     this._priority = config.priority;
     this._target = config.target;
     this._ttl = config.ttl;
-    this._type = config.type;
     this._weight = config.weight;
   }
 
@@ -234,22 +230,6 @@ export class Dnssrvrec extends cdktf.TerraformResource {
     return this._ttl;
   }
 
-  // type - computed: true, optional: true, required: false
-  private _type?: string; 
-  public get type() {
-    return this.getStringAttribute('type');
-  }
-  public set type(value: string) {
-    this._type = value;
-  }
-  public resetType() {
-    this._type = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get typeInput() {
-    return this._type;
-  }
-
   // weight - computed: true, optional: true, required: false
   private _weight?: number; 
   public get weight() {
@@ -280,7 +260,6 @@ export class Dnssrvrec extends cdktf.TerraformResource {
       priority: cdktf.numberToTerraform(this._priority),
       target: cdktf.stringToTerraform(this._target),
       ttl: cdktf.numberToTerraform(this._ttl),
-      type: cdktf.stringToTerraform(this._type),
       weight: cdktf.numberToTerraform(this._weight),
     };
   }
@@ -334,12 +313,6 @@ export class Dnssrvrec extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "number",
-      },
-      type: {
-        value: cdktf.stringToHclTerraform(this._type),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
       },
       weight: {
         value: cdktf.numberToHclTerraform(this._weight),

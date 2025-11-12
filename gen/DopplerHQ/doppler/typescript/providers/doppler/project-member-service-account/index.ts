@@ -80,7 +80,8 @@ export class ProjectMemberServiceAccount extends cdktf.TerraformResource {
       terraformResourceType: 'doppler_project_member_service_account',
       terraformGeneratorMetadata: {
         providerName: 'doppler',
-        providerVersion: '1.21.0'
+        providerVersion: '1.21.0',
+        providerVersionConstraint: '1.21.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

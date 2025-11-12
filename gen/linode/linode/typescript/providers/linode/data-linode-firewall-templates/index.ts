@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/firewall_templates
+// https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/firewall_templates
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataLinodeFirewallTemplatesConfig extends cdktf.TerraformMetaAr
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/firewall_templates#filter DataLinodeFirewallTemplates#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/firewall_templates#filter DataLinodeFirewallTemplates#filter}
   */
   readonly filter?: DataLinodeFirewallTemplatesFilter[] | cdktf.IResolvable;
   /**
   * firewall_templates block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/firewall_templates#firewall_templates DataLinodeFirewallTemplates#firewall_templates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/firewall_templates#firewall_templates DataLinodeFirewallTemplates#firewall_templates}
   */
   readonly firewallTemplates?: DataLinodeFirewallTemplatesFirewallTemplates[] | cdktf.IResolvable;
 }
@@ -24,19 +24,19 @@ export interface DataLinodeFirewallTemplatesFilter {
   /**
   * The type of comparison to use for this filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/firewall_templates#match_by DataLinodeFirewallTemplates#match_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/firewall_templates#match_by DataLinodeFirewallTemplates#match_by}
   */
   readonly matchBy?: string;
   /**
   * The name of the attribute to filter on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/firewall_templates#name DataLinodeFirewallTemplates#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/firewall_templates#name DataLinodeFirewallTemplates#name}
   */
   readonly name: string;
   /**
   * The value(s) to be used in the filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/firewall_templates#values DataLinodeFirewallTemplates#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/firewall_templates#values DataLinodeFirewallTemplates#values}
   */
   readonly values: string[];
 }
@@ -522,7 +522,7 @@ export class DataLinodeFirewallTemplatesFirewallTemplatesList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/firewall_templates linode_firewall_templates}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/firewall_templates linode_firewall_templates}
 */
 export class DataLinodeFirewallTemplates extends cdktf.TerraformDataSource {
 
@@ -538,7 +538,7 @@ export class DataLinodeFirewallTemplates extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataLinodeFirewallTemplates resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataLinodeFirewallTemplates to import
-  * @param importFromId The id of the existing DataLinodeFirewallTemplates that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/firewall_templates#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataLinodeFirewallTemplates that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/firewall_templates#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataLinodeFirewallTemplates to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -550,7 +550,7 @@ export class DataLinodeFirewallTemplates extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/firewall_templates linode_firewall_templates} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/firewall_templates linode_firewall_templates} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -561,7 +561,8 @@ export class DataLinodeFirewallTemplates extends cdktf.TerraformDataSource {
       terraformResourceType: 'linode_firewall_templates',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.5.0'
+        providerVersion: '3.5.1',
+        providerVersionConstraint: '3.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

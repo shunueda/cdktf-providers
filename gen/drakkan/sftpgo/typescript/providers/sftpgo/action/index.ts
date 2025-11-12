@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action
+// https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface ActionConfig extends cdktf.TerraformMetaArguments {
   /**
   * Optional description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#description Action#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#description Action#description}
   */
   readonly description?: string;
   /**
   * Unique name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#name Action#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#name Action#name}
   */
   readonly name: string;
   /**
   * Configuration options specific for the action type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#options Action#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#options Action#options}
   */
   readonly options?: ActionOptions;
   /**
   * Action type. 1 = HTTP, 2 = Command, 3 = Email, 4 = Backup, 5 = User quota reset, 6 = Folder quota reset, 7 = Transfer quota reset, 8 = Data retention check, 9 = Filesystem, 11 = Password expiration check, 12 = User expiration check, 13 = Identity Provider account check, 14 = User inactivity check, 15 = Rotate log file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#type Action#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#type Action#type}
   */
   readonly type: number;
 }
 export interface ActionOptionsCmdConfigEnvVars {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#key Action#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#key Action#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#value Action#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#value Action#value}
   */
   readonly value: string;
 }
@@ -179,25 +179,25 @@ export interface ActionOptionsCmdConfig {
   /**
   * Command line arguments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#args Action#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#args Action#args}
   */
   readonly args?: string[];
   /**
   * Absolute path to the command to execute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#cmd Action#cmd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#cmd Action#cmd}
   */
   readonly cmd: string;
   /**
   * Environment variables to set for the external command.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#env_vars Action#env_vars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#env_vars Action#env_vars}
   */
   readonly envVars?: ActionOptionsCmdConfigEnvVars[] | cdktf.IResolvable;
   /**
   * Time limit for the command in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#timeout Action#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#timeout Action#timeout}
   */
   readonly timeout: number;
 }
@@ -374,29 +374,29 @@ export interface ActionOptionsEmailConfig {
   /**
   * Paths to attach. The total size is limited to 10 MB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#attachments Action#attachments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#attachments Action#attachments}
   */
   readonly attachments?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#bcc Action#bcc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#bcc Action#bcc}
   */
   readonly bcc?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#body Action#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#body Action#body}
   */
   readonly body: string;
   /**
   * Optional content type. 0 means text/plain, 1 means text/html. If omitted, text/plain is assumed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#content_type Action#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#content_type Action#content_type}
   */
   readonly contentType?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#recipients Action#recipients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#recipients Action#recipients}
   */
   readonly recipients: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#subject Action#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#subject Action#subject}
   */
   readonly subject: string;
 }
@@ -628,13 +628,13 @@ export interface ActionOptionsFsConfigCompress {
   /**
   * Full path to the zip file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#name Action#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#name Action#name}
   */
   readonly name: string;
   /**
   * Paths to include in the compressed archive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#paths Action#paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#paths Action#paths}
   */
   readonly paths: string[];
 }
@@ -751,11 +751,11 @@ export class ActionOptionsFsConfigCompressOutputReference extends cdktf.ComplexO
 }
 export interface ActionOptionsFsConfigCopy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#key Action#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#key Action#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#value Action#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#value Action#value}
   */
   readonly value: string;
 }
@@ -892,13 +892,138 @@ export class ActionOptionsFsConfigCopyList extends cdktf.ComplexList {
     return new ActionOptionsFsConfigCopyOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface ActionOptionsFsConfigDecompress {
+  /**
+  * Directory to extract the archive into.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#extract_dir Action#extract_dir}
+  */
+  readonly extractDir: string;
+  /**
+  * Full path to the zip file.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#name Action#name}
+  */
+  readonly name: string;
+}
+
+export function actionOptionsFsConfigDecompressToTerraform(struct?: ActionOptionsFsConfigDecompress | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    extract_dir: cdktf.stringToTerraform(struct!.extractDir),
+    name: cdktf.stringToTerraform(struct!.name),
+  }
+}
+
+
+export function actionOptionsFsConfigDecompressToHclTerraform(struct?: ActionOptionsFsConfigDecompress | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    extract_dir: {
+      value: cdktf.stringToHclTerraform(struct!.extractDir),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ActionOptionsFsConfigDecompressOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): ActionOptionsFsConfigDecompress | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._extractDir !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.extractDir = this._extractDir;
+    }
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ActionOptionsFsConfigDecompress | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._extractDir = undefined;
+      this._name = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._extractDir = value.extractDir;
+      this._name = value.name;
+    }
+  }
+
+  // extract_dir - computed: true, optional: false, required: true
+  private _extractDir?: string; 
+  public get extractDir() {
+    return this.getStringAttribute('extract_dir');
+  }
+  public set extractDir(value: string) {
+    this._extractDir = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get extractDirInput() {
+    return this._extractDir;
+  }
+
+  // name - computed: true, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+}
 export interface ActionOptionsFsConfigMetadataCheckMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#key Action#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#key Action#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#value Action#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#value Action#value}
   */
   readonly value?: string;
 }
@@ -1008,15 +1133,15 @@ export class ActionOptionsFsConfigMetadataCheckMetadataOutputReference extends c
 }
 export interface ActionOptionsFsConfigMetadataCheck {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#metadata Action#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#metadata Action#metadata}
   */
   readonly metadata: ActionOptionsFsConfigMetadataCheckMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#path Action#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#path Action#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#timeout Action#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#timeout Action#timeout}
   */
   readonly timeout?: number;
 }
@@ -1162,11 +1287,11 @@ export class ActionOptionsFsConfigMetadataCheckOutputReference extends cdktf.Com
 }
 export interface ActionOptionsFsConfigPgpPaths {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#key Action#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#key Action#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#value Action#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#value Action#value}
   */
   readonly value: string;
 }
@@ -1297,41 +1422,41 @@ export interface ActionOptionsFsConfigPgp {
   /**
   * 1 = Encrypt, 2 = Decrypt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#mode Action#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#mode Action#mode}
   */
   readonly mode: number;
   /**
   * SFTPGo secret formatted as string: "$<status>$<key>$<additional data length>$<additional data><payload>".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#passphrase Action#passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#passphrase Action#passphrase}
   */
   readonly passphrase?: string;
   /**
   * SFTPGo secret formatted as string: "$<status>$<key>$<additional data length>$<additional data><payload>".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#password Action#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#password Action#password}
   */
   readonly password?: string;
   /**
   * Paths to encrypt or decrypt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#paths Action#paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#paths Action#paths}
   */
   readonly paths: ActionOptionsFsConfigPgpPaths[] | cdktf.IResolvable;
   /**
   * SFTPGo secret formatted as string: "$<status>$<key>$<additional data length>$<additional data><payload>".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#private_key Action#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#private_key Action#private_key}
   */
   readonly privateKey?: string;
   /**
   * Algorithms to use. 0 = Default (widely implemented algorithms), 1 = RFC 4880, 2 = RFC 9580. Don't set to use the default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#profile Action#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#profile Action#profile}
   */
   readonly profile?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#public_key Action#public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#public_key Action#public_key}
   */
   readonly publicKey?: string;
 }
@@ -1593,17 +1718,17 @@ export class ActionOptionsFsConfigPgpOutputReference extends cdktf.ComplexObject
 }
 export interface ActionOptionsFsConfigRenames {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#key Action#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#key Action#key}
   */
   readonly key: string;
   /**
   * Update modification time. This setting is not recursive and only applies to storage providers that support changing modification times.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#update_modtime Action#update_modtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#update_modtime Action#update_modtime}
   */
   readonly updateModtime?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#value Action#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#value Action#value}
   */
   readonly value: string;
 }
@@ -1773,67 +1898,73 @@ export interface ActionOptionsFsConfig {
   /**
   * Configuration for paths to compress as zip.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#compress Action#compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#compress Action#compress}
   */
   readonly compress?: ActionOptionsFsConfigCompress;
   /**
   * Paths to copy. The key is the source path, the value is the target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#copy Action#copy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#copy Action#copy}
   */
   readonly copy?: ActionOptionsFsConfigCopy[] | cdktf.IResolvable;
   /**
+  * Configuration for archive to extract. Available in the Enterprise edition
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#decompress Action#decompress}
+  */
+  readonly decompress?: ActionOptionsFsConfigDecompress;
+  /**
   * Paths to delete.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#deletes Action#deletes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#deletes Action#deletes}
   */
   readonly deletes?: string[];
   /**
   * Paths to check for existence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#exist Action#exist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#exist Action#exist}
   */
   readonly exist?: string[];
   /**
   * Actions triggered by filesystem events, such as uploads or downloads, use the filesystem associated with the user. By specifying a folder, you can control which filesystem is used. This is especially useful for events that aren't tied to a user, such as scheduled tasks and advanced workflows. Available in the Enterprise edition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#folder Action#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#folder Action#folder}
   */
   readonly folder?: string;
   /**
   * This action verifies whether the metadata key matches the configured value or is absent for the specified path. Optionally, it can retry periodically until the specified timeout (in seconds) is reached. Available in the Enterprise edition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#metadata_check Action#metadata_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#metadata_check Action#metadata_check}
   */
   readonly metadataCheck?: ActionOptionsFsConfigMetadataCheck;
   /**
   * Directories paths to create.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#mkdirs Action#mkdirs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#mkdirs Action#mkdirs}
   */
   readonly mkdirs?: string[];
   /**
   * Configuration for PGP actions. Either a password or a key pair is required. For encryption, the public key is required, and the private, if provided, will be used for signing. For decryption, the private key is required, and the public key, if provided, will be used for signature verification. Available in the Enterprise edition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#pgp Action#pgp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#pgp Action#pgp}
   */
   readonly pgp?: ActionOptionsFsConfigPgp;
   /**
   * Paths to rename. The key is the source path, the value is the target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#renames Action#renames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#renames Action#renames}
   */
   readonly renames?: ActionOptionsFsConfigRenames[] | cdktf.IResolvable;
   /**
   * By specifying a target folder, you can use a different filesystem for target paths than the one associated with the user who triggered the action. This is useful for moving files to another storage backend, such as a different S3 bucket or an external SFTP server, accessing restricted areas of the same storage backend, supporting scheduled actions, or enabling more advanced workflows. Available in the Enterprise edition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#target_folder Action#target_folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#target_folder Action#target_folder}
   */
   readonly targetFolder?: string;
   /**
-  * 1 = Rename, 2 = Delete, 3 = Mkdir, 4 = Exist, 5 = Compress, 6 = Copy, 7 = PGP (Available in the Enterprise edition), 8 Metadata Check (Available in the Enterprise edition).
+  * 1 = Rename, 2 = Delete, 3 = Mkdir, 4 = Exist, 5 = Compress, 6 = Copy, 7 = PGP (Available in the Enterprise edition), 8 Metadata Check (Available in the Enterprise edition), 9 Decompress (Available in the Enterprise edition).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#type Action#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#type Action#type}
   */
   readonly type: number;
 }
@@ -1846,6 +1977,7 @@ export function actionOptionsFsConfigToTerraform(struct?: ActionOptionsFsConfig 
   return {
     compress: actionOptionsFsConfigCompressToTerraform(struct!.compress),
     copy: cdktf.listMapper(actionOptionsFsConfigCopyToTerraform, false)(struct!.copy),
+    decompress: actionOptionsFsConfigDecompressToTerraform(struct!.decompress),
     deletes: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.deletes),
     exist: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.exist),
     folder: cdktf.stringToTerraform(struct!.folder),
@@ -1876,6 +2008,12 @@ export function actionOptionsFsConfigToHclTerraform(struct?: ActionOptionsFsConf
       isBlock: true,
       type: "list",
       storageClassType: "ActionOptionsFsConfigCopyList",
+    },
+    decompress: {
+      value: actionOptionsFsConfigDecompressToHclTerraform(struct!.decompress),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "ActionOptionsFsConfigDecompress",
     },
     deletes: {
       value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.deletes),
@@ -1963,6 +2101,10 @@ export class ActionOptionsFsConfigOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.copy = this._copy?.internalValue;
     }
+    if (this._decompress?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.decompress = this._decompress?.internalValue;
+    }
     if (this._deletes !== undefined) {
       hasAnyValues = true;
       internalValueResult.deletes = this._deletes;
@@ -2008,6 +2150,7 @@ export class ActionOptionsFsConfigOutputReference extends cdktf.ComplexObject {
       this.resolvableValue = undefined;
       this._compress.internalValue = undefined;
       this._copy.internalValue = undefined;
+      this._decompress.internalValue = undefined;
       this._deletes = undefined;
       this._exist = undefined;
       this._folder = undefined;
@@ -2027,6 +2170,7 @@ export class ActionOptionsFsConfigOutputReference extends cdktf.ComplexObject {
       this.resolvableValue = undefined;
       this._compress.internalValue = value.compress;
       this._copy.internalValue = value.copy;
+      this._decompress.internalValue = value.decompress;
       this._deletes = value.deletes;
       this._exist = value.exist;
       this._folder = value.folder;
@@ -2069,6 +2213,22 @@ export class ActionOptionsFsConfigOutputReference extends cdktf.ComplexObject {
   // Temporarily expose input value. Use with caution.
   public get copyInput() {
     return this._copy.internalValue;
+  }
+
+  // decompress - computed: true, optional: true, required: false
+  private _decompress = new ActionOptionsFsConfigDecompressOutputReference(this, "decompress");
+  public get decompress() {
+    return this._decompress;
+  }
+  public putDecompress(value: ActionOptionsFsConfigDecompress) {
+    this._decompress.internalValue = value;
+  }
+  public resetDecompress() {
+    this._decompress.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get decompressInput() {
+    return this._decompress.internalValue;
   }
 
   // deletes - computed: true, optional: true, required: false
@@ -2214,11 +2374,11 @@ export class ActionOptionsFsConfigOutputReference extends cdktf.ComplexObject {
 }
 export interface ActionOptionsHttpConfigHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#key Action#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#key Action#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#value Action#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#value Action#value}
   */
   readonly value: string;
 }
@@ -2357,11 +2517,11 @@ export class ActionOptionsHttpConfigHeadersList extends cdktf.ComplexList {
 }
 export interface ActionOptionsHttpConfigPartsHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#key Action#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#key Action#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#value Action#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#value Action#value}
   */
   readonly value: string;
 }
@@ -2500,21 +2660,21 @@ export class ActionOptionsHttpConfigPartsHeadersList extends cdktf.ComplexList {
 }
 export interface ActionOptionsHttpConfigParts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#body Action#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#body Action#body}
   */
   readonly body?: string;
   /**
   * Path to the file to be sent as an attachment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#filepath Action#filepath}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#filepath Action#filepath}
   */
   readonly filepath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#headers Action#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#headers Action#headers}
   */
   readonly headers?: ActionOptionsHttpConfigPartsHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#name Action#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#name Action#name}
   */
   readonly name: string;
 }
@@ -2714,11 +2874,11 @@ export class ActionOptionsHttpConfigPartsList extends cdktf.ComplexList {
 }
 export interface ActionOptionsHttpConfigQueryParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#key Action#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#key Action#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#value Action#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#value Action#value}
   */
   readonly value: string;
 }
@@ -2859,59 +3019,59 @@ export interface ActionOptionsHttpConfig {
   /**
   * Request body for POST/PUT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#body Action#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#body Action#body}
   */
   readonly body?: string;
   /**
   * HTTP endpoint to invoke.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#endpoint Action#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#endpoint Action#endpoint}
   */
   readonly endpoint: string;
   /**
   * Headers to add to the HTTP request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#headers Action#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#headers Action#headers}
   */
   readonly headers?: ActionOptionsHttpConfigHeaders[] | cdktf.IResolvable;
   /**
   * HTTP method.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#method Action#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#method Action#method}
   */
   readonly method: string;
   /**
   * Multipart requests allow to combine one or more sets of data into a single body. For each part, you can set a file path or a body as text. Placeholders are supported in file path, body, header values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#parts Action#parts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#parts Action#parts}
   */
   readonly parts?: ActionOptionsHttpConfigParts[] | cdktf.IResolvable;
   /**
   * SFTPGo secret formatted as string: "$<status>$<key>$<additional data length>$<additional data><payload>".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#password Action#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#password Action#password}
   */
   readonly password?: string;
   /**
   * Query parameters to add to the HTTP request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#query_parameters Action#query_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#query_parameters Action#query_parameters}
   */
   readonly queryParameters?: ActionOptionsHttpConfigQueryParameters[] | cdktf.IResolvable;
   /**
   * If enabled any certificate presented by the server and any host name in that certificate are accepted. In this mode, TLS is susceptible to machine-in-the-middle attacks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#skip_tls_verify Action#skip_tls_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#skip_tls_verify Action#skip_tls_verify}
   */
   readonly skipTlsVerify?: boolean | cdktf.IResolvable;
   /**
   * Time limit for the request in seconds. Ignored for multipart requests with files as attachments. For non multipart requests is required Ignored for multipart requests with files as attachments otherwise required and must be between 1 and 120
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#timeout Action#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#timeout Action#timeout}
   */
   readonly timeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#username Action#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#username Action#username}
   */
   readonly username?: string;
 }
@@ -3262,19 +3422,19 @@ export interface ActionOptionsIdpConfig {
   /**
   * 0 means create or update the account, 1 means create the account if it doesn't exist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#mode Action#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#mode Action#mode}
   */
   readonly mode: number;
   /**
   * SFTPGo admin template in JSON format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#template_admin Action#template_admin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#template_admin Action#template_admin}
   */
   readonly templateAdmin?: string;
   /**
   * SFTPGo user template in JSON format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#template_user Action#template_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#template_user Action#template_user}
   */
   readonly templateUser?: string;
 }
@@ -3425,7 +3585,7 @@ export interface ActionOptionsPwdExpirationConfig {
   /**
   * An email notification will be generated for users whose password expires in a number of days less than or equal to this threshold.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#threshold Action#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#threshold Action#threshold}
   */
   readonly threshold: number;
 }
@@ -3518,19 +3678,19 @@ export interface ActionOptionsRetentionConfigFolders {
   /**
   * If enabled, empty directories will be deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#delete_empty_dirs Action#delete_empty_dirs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#delete_empty_dirs Action#delete_empty_dirs}
   */
   readonly deleteEmptyDirs?: boolean | cdktf.IResolvable;
   /**
   * Path for which to apply the retention rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#path Action#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#path Action#path}
   */
   readonly path: string;
   /**
   * Retention as hours. 0 as retention means excluding the specified path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#retention Action#retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#retention Action#retention}
   */
   readonly retention: number;
 }
@@ -3700,19 +3860,19 @@ export interface ActionOptionsRetentionConfig {
   /**
   * Virtual folder name. If set, files will be moved there instead of being deleted. Available in the Enterprise edition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#archive_folder Action#archive_folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#archive_folder Action#archive_folder}
   */
   readonly archiveFolder?: string;
   /**
   * The base path where archived files will be stored. Placeholders are supported. Available in the Enterprise edition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#archive_path Action#archive_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#archive_path Action#archive_path}
   */
   readonly archivePath?: string;
   /**
   * Folders to apply data retention rules to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#folders Action#folders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#folders Action#folders}
   */
   readonly folders?: ActionOptionsRetentionConfigFolders[] | cdktf.IResolvable;
 }
@@ -3866,13 +4026,13 @@ export interface ActionOptionsUserInactivityConfig {
   /**
   * Inactivity in days, since the last login before deleting the account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#delete_threshold Action#delete_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#delete_threshold Action#delete_threshold}
   */
   readonly deleteThreshold?: number;
   /**
   * Inactivity in days, since the last login before disabling the account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#disable_threshold Action#disable_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#disable_threshold Action#disable_threshold}
   */
   readonly disableThreshold?: number;
 }
@@ -3997,49 +4157,49 @@ export interface ActionOptions {
   /**
   * External command action configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#cmd_config Action#cmd_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#cmd_config Action#cmd_config}
   */
   readonly cmdConfig?: ActionOptionsCmdConfig;
   /**
   * Email action configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#email_config Action#email_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#email_config Action#email_config}
   */
   readonly emailConfig?: ActionOptionsEmailConfig;
   /**
   * Filesystem action configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#fs_config Action#fs_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#fs_config Action#fs_config}
   */
   readonly fsConfig?: ActionOptionsFsConfig;
   /**
   * HTTP action configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#http_config Action#http_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#http_config Action#http_config}
   */
   readonly httpConfig?: ActionOptionsHttpConfig;
   /**
   * Identity Provider account check action configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#idp_config Action#idp_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#idp_config Action#idp_config}
   */
   readonly idpConfig?: ActionOptionsIdpConfig;
   /**
   * Password expiration action configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#pwd_expiration_config Action#pwd_expiration_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#pwd_expiration_config Action#pwd_expiration_config}
   */
   readonly pwdExpirationConfig?: ActionOptionsPwdExpirationConfig;
   /**
   * Data retention action configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#retention_config Action#retention_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#retention_config Action#retention_config}
   */
   readonly retentionConfig?: ActionOptionsRetentionConfig;
   /**
   * User inactivity check configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#user_inactivity_config Action#user_inactivity_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#user_inactivity_config Action#user_inactivity_config}
   */
   readonly userInactivityConfig?: ActionOptionsUserInactivityConfig;
 }
@@ -4336,7 +4496,7 @@ export class ActionOptionsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action sftpgo_action}
+* Represents a {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action sftpgo_action}
 */
 export class Action extends cdktf.TerraformResource {
 
@@ -4352,7 +4512,7 @@ export class Action extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Action resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Action to import
-  * @param importFromId The id of the existing Action that should be imported. Refer to the {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Action that should be imported. Refer to the {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Action to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4364,7 +4524,7 @@ export class Action extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/action sftpgo_action} Resource
+  * Create a new {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/action sftpgo_action} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4375,7 +4535,8 @@ export class Action extends cdktf.TerraformResource {
       terraformResourceType: 'sftpgo_action',
       terraformGeneratorMetadata: {
         providerName: 'sftpgo',
-        providerVersion: '0.0.18'
+        providerVersion: '0.0.19',
+        providerVersionConstraint: '0.0.19'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

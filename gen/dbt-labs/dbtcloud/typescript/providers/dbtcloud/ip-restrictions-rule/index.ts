@@ -212,7 +212,8 @@ export class IpRestrictionsRule extends cdktf.TerraformResource {
       terraformResourceType: 'dbtcloud_ip_restrictions_rule',
       terraformGeneratorMetadata: {
         providerName: 'dbtcloud',
-        providerVersion: '1.3.0'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

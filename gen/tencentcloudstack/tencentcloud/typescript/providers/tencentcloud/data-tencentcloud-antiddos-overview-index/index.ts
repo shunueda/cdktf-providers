@@ -74,7 +74,8 @@ export class DataTencentcloudAntiddosOverviewIndex extends cdktf.TerraformDataSo
       terraformResourceType: 'tencentcloud_antiddos_overview_index',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

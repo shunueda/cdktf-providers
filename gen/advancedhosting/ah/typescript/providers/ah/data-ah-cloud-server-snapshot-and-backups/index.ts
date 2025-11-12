@@ -472,7 +472,8 @@ export class DataAhCloudServerSnapshotAndBackups extends cdktf.TerraformDataSour
       terraformResourceType: 'ah_cloud_server_snapshot_and_backups',
       terraformGeneratorMetadata: {
         providerName: 'ah',
-        providerVersion: '0.3.6'
+        providerVersion: '0.3.6',
+        providerVersionConstraint: '0.3.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

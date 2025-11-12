@@ -92,7 +92,8 @@ export class DataCcloudAutomationV1 extends cdktf.TerraformDataSource {
       terraformResourceType: 'ccloud_automation_v1',
       terraformGeneratorMetadata: {
         providerName: 'sci',
-        providerVersion: '2.2.1'
+        providerVersion: '2.2.1',
+        providerVersionConstraint: '2.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

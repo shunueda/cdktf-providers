@@ -55,7 +55,8 @@ export class GpgProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'gpg',
       terraformGeneratorMetadata: {
         providerName: 'gpg',
-        providerVersion: '0.2.1'
+        providerVersion: '0.2.1',
+        providerVersionConstraint: '0.2.1'
       },
       terraformProviderSource: 'Olivr/gpg'
     });

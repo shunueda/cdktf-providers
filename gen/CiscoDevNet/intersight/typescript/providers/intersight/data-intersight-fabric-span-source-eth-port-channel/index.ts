@@ -4366,7 +4366,8 @@ export class DataIntersightFabricSpanSourceEthPortChannel extends cdktf.Terrafor
       terraformResourceType: 'intersight_fabric_span_source_eth_port_channel',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

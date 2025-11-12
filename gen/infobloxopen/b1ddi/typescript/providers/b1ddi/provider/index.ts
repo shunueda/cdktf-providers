@@ -73,7 +73,8 @@ export class B1DdiProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'b1ddi',
       terraformGeneratorMetadata: {
         providerName: 'b1ddi',
-        providerVersion: '0.1.5'
+        providerVersion: '0.1.5',
+        providerVersionConstraint: '0.1.5'
       },
       terraformProviderSource: 'infobloxopen/b1ddi'
     });

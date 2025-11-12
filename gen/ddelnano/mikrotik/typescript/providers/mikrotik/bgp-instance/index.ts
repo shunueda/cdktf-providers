@@ -151,7 +151,8 @@ export class BgpInstance extends cdktf.TerraformResource {
       terraformResourceType: 'mikrotik_bgp_instance',
       terraformGeneratorMetadata: {
         providerName: 'mikrotik',
-        providerVersion: '0.16.1'
+        providerVersion: '0.16.1',
+        providerVersionConstraint: '0.16.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -462,7 +462,8 @@ export class DataThunderCgnv6FixedNatDisabledConfigOper extends cdktf.TerraformD
       terraformResourceType: 'thunder_cgnv6_fixed_nat_disabled_config_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

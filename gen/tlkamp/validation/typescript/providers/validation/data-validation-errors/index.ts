@@ -244,7 +244,8 @@ export class DataValidationErrors extends cdktf.TerraformDataSource {
       terraformResourceType: 'validation_errors',
       terraformGeneratorMetadata: {
         providerName: 'validation',
-        providerVersion: '1.1.3'
+        providerVersion: '1.1.3',
+        providerVersionConstraint: '1.1.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -68,7 +68,8 @@ export class DataVcfaOrgRegionalNetworking extends cdktf.TerraformDataSource {
       terraformResourceType: 'vcfa_org_regional_networking',
       terraformGeneratorMetadata: {
         providerName: 'vcfa',
-        providerVersion: '1.0.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

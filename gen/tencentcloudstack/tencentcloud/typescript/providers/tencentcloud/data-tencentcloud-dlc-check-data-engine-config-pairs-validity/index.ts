@@ -227,7 +227,8 @@ export class DataTencentcloudDlcCheckDataEngineConfigPairsValidity extends cdktf
       terraformResourceType: 'tencentcloud_dlc_check_data_engine_config_pairs_validity',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

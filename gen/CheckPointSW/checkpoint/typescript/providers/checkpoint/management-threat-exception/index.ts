@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_exception
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_exception
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface ManagementThreatExceptionConfig extends cdktf.TerraformMetaArgu
   /**
   * Action-the enforced profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_exception#action ManagementThreatException#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_exception#action ManagementThreatException#action}
   */
   readonly action?: string;
   /**
   * Comments string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_exception#comments ManagementThreatException#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_exception#comments ManagementThreatException#comments}
   */
   readonly comments?: string;
   /**
   * Collection of Network objects identified by the name or UID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_exception#destination ManagementThreatException#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_exception#destination ManagementThreatException#destination}
   */
   readonly destination?: string[];
   /**
   * True if negate is set for destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_exception#destination_negate ManagementThreatException#destination_negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_exception#destination_negate ManagementThreatException#destination_negate}
   */
   readonly destinationNegate?: boolean | cdktf.IResolvable;
   /**
   * Enable/Disable the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_exception#enabled ManagementThreatException#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_exception#enabled ManagementThreatException#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The name of the exception-group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_exception#exception_group_name ManagementThreatException#exception_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_exception#exception_group_name ManagementThreatException#exception_group_name}
   */
   readonly exceptionGroupName?: string;
   /**
   * The UID of the exception-group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_exception#exception_group_uid ManagementThreatException#exception_group_uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_exception#exception_group_uid ManagementThreatException#exception_group_uid}
   */
   readonly exceptionGroupUid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_exception#id ManagementThreatException#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_exception#id ManagementThreatException#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,103 +59,103 @@ export interface ManagementThreatExceptionConfig extends cdktf.TerraformMetaArgu
   /**
   * Apply changes ignoring errors. You won't be able to publish such a changes. If ignore-warnings flag was omitted - warnings will also be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_exception#ignore_errors ManagementThreatException#ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_exception#ignore_errors ManagementThreatException#ignore_errors}
   */
   readonly ignoreErrors?: boolean | cdktf.IResolvable;
   /**
   * Apply changes ignoring warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_exception#ignore_warnings ManagementThreatException#ignore_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_exception#ignore_warnings ManagementThreatException#ignore_warnings}
   */
   readonly ignoreWarnings?: boolean | cdktf.IResolvable;
   /**
   * Which Gateways identified by the name or UID to install the policy on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_exception#install_on ManagementThreatException#install_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_exception#install_on ManagementThreatException#install_on}
   */
   readonly installOn?: string[];
   /**
   * Layer that the rule belongs to identified by the name or UID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_exception#layer ManagementThreatException#layer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_exception#layer ManagementThreatException#layer}
   */
   readonly layer?: string;
   /**
   * Rule name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_exception#name ManagementThreatException#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_exception#name ManagementThreatException#name}
   */
   readonly name: string;
   /**
   * Position in the rulebase.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_exception#position ManagementThreatException#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_exception#position ManagementThreatException#position}
   */
   readonly position: { [key: string]: string };
   /**
   * Collection of objects defining Protected Scope identified by the name or UID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_exception#protected_scope ManagementThreatException#protected_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_exception#protected_scope ManagementThreatException#protected_scope}
   */
   readonly protectedScope?: string[];
   /**
   * True if negate is set for Protected Scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_exception#protected_scope_negate ManagementThreatException#protected_scope_negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_exception#protected_scope_negate ManagementThreatException#protected_scope_negate}
   */
   readonly protectedScopeNegate?: boolean | cdktf.IResolvable;
   /**
   * Name of the protection or site.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_exception#protection_or_site ManagementThreatException#protection_or_site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_exception#protection_or_site ManagementThreatException#protection_or_site}
   */
   readonly protectionOrSite?: string[];
   /**
   * The name of the parent rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_exception#rule_name ManagementThreatException#rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_exception#rule_name ManagementThreatException#rule_name}
   */
   readonly ruleName?: string;
   /**
   * The UID of the parent rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_exception#rule_uid ManagementThreatException#rule_uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_exception#rule_uid ManagementThreatException#rule_uid}
   */
   readonly ruleUid?: string;
   /**
   * Collection of Network objects identified by the name or UID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_exception#service ManagementThreatException#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_exception#service ManagementThreatException#service}
   */
   readonly service?: string[];
   /**
   * True if negate is set for service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_exception#service_negate ManagementThreatException#service_negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_exception#service_negate ManagementThreatException#service_negate}
   */
   readonly serviceNegate?: boolean | cdktf.IResolvable;
   /**
   * Collection of Network objects identified by the name or UID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_exception#source ManagementThreatException#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_exception#source ManagementThreatException#source}
   */
   readonly source?: string[];
   /**
   * True if negate is set for source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_exception#source_negate ManagementThreatException#source_negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_exception#source_negate ManagementThreatException#source_negate}
   */
   readonly sourceNegate?: boolean | cdktf.IResolvable;
   /**
   * Packet tracking.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_exception#track ManagementThreatException#track}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_exception#track ManagementThreatException#track}
   */
   readonly track?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_exception checkpoint_management_threat_exception}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_exception checkpoint_management_threat_exception}
 */
 export class ManagementThreatException extends cdktf.TerraformResource {
 
@@ -171,7 +171,7 @@ export class ManagementThreatException extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementThreatException resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementThreatException to import
-  * @param importFromId The id of the existing ManagementThreatException that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_exception#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementThreatException that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_exception#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementThreatException to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -183,7 +183,7 @@ export class ManagementThreatException extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_exception checkpoint_management_threat_exception} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_exception checkpoint_management_threat_exception} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -194,7 +194,8 @@ export class ManagementThreatException extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_threat_exception',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

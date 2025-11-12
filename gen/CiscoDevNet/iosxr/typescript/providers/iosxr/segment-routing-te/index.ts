@@ -1276,7 +1276,8 @@ export class SegmentRoutingTe extends cdktf.TerraformResource {
       terraformResourceType: 'iosxr_segment_routing_te',
       terraformGeneratorMetadata: {
         providerName: 'iosxr',
-        providerVersion: '0.6.0'
+        providerVersion: '0.6.0',
+        providerVersionConstraint: '0.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

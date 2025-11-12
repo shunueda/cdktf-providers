@@ -2906,7 +2906,8 @@ export class SecurityPolicyV2 extends cdktf.TerraformResource {
       terraformResourceType: 'oktapam_security_policy_v2',
       terraformGeneratorMetadata: {
         providerName: 'oktapam',
-        providerVersion: '0.6.2'
+        providerVersion: '0.6.2',
+        providerVersionConstraint: '0.6.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

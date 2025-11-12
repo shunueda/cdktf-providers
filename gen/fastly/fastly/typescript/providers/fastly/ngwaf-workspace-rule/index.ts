@@ -1703,7 +1703,8 @@ export class NgwafWorkspaceRule extends cdktf.TerraformResource {
       terraformResourceType: 'fastly_ngwaf_workspace_rule',
       terraformGeneratorMetadata: {
         providerName: 'fastly',
-        providerVersion: '8.4.0'
+        providerVersion: '8.4.0',
+        providerVersionConstraint: '8.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

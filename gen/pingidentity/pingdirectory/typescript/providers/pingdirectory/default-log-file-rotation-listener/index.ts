@@ -224,7 +224,8 @@ export class DefaultLogFileRotationListener extends cdktf.TerraformResource {
       terraformResourceType: 'pingdirectory_default_log_file_rotation_listener',
       terraformGeneratorMetadata: {
         providerName: 'pingdirectory',
-        providerVersion: '1.5.0'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

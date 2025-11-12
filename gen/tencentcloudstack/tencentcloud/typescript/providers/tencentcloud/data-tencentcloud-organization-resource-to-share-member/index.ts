@@ -191,7 +191,8 @@ export class DataTencentcloudOrganizationResourceToShareMember extends cdktf.Ter
       terraformResourceType: 'tencentcloud_organization_resource_to_share_member',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

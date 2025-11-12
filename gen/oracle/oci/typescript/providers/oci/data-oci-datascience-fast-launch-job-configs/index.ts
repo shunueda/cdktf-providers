@@ -342,7 +342,8 @@ export class DataOciDatascienceFastLaunchJobConfigs extends cdktf.TerraformDataS
       terraformResourceType: 'oci_datascience_fast_launch_job_configs',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

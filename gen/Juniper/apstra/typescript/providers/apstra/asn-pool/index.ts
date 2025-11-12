@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/asn_pool
+// https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/asn_pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface AsnPoolConfig extends cdktf.TerraformMetaArguments {
   /**
   * Pool name displayed in the Apstra web UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/asn_pool#name AsnPool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/asn_pool#name AsnPool#name}
   */
   readonly name: string;
   /**
   * Ranges mark the begin/end AS numbers available from the pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/asn_pool#ranges AsnPool#ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/asn_pool#ranges AsnPool#ranges}
   */
   readonly ranges: AsnPoolRanges[] | cdktf.IResolvable;
 }
 export interface AsnPoolRanges {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/asn_pool#first AsnPool#first}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/asn_pool#first AsnPool#first}
   */
   readonly first: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/asn_pool#last AsnPool#last}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/asn_pool#last AsnPool#last}
   */
   readonly last: number;
 }
@@ -185,7 +185,7 @@ export class AsnPoolRangesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/asn_pool apstra_asn_pool}
+* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/asn_pool apstra_asn_pool}
 */
 export class AsnPool extends cdktf.TerraformResource {
 
@@ -201,7 +201,7 @@ export class AsnPool extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AsnPool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AsnPool to import
-  * @param importFromId The id of the existing AsnPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/asn_pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AsnPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/asn_pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AsnPool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -213,7 +213,7 @@ export class AsnPool extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/asn_pool apstra_asn_pool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/asn_pool apstra_asn_pool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -224,7 +224,8 @@ export class AsnPool extends cdktf.TerraformResource {
       terraformResourceType: 'apstra_asn_pool',
       terraformGeneratorMetadata: {
         providerName: 'apstra',
-        providerVersion: '0.95.0'
+        providerVersion: '0.95.1',
+        providerVersionConstraint: '0.95.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

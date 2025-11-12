@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_automatic_purge
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_automatic_purge
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ManagementSetAutomaticPurgeConfig extends cdktf.TerraformMetaAr
   /**
   * Turn on/off the automatic-purge feature.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_automatic_purge#enabled ManagementSetAutomaticPurge#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_automatic_purge#enabled ManagementSetAutomaticPurge#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_automatic_purge#id ManagementSetAutomaticPurge#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_automatic_purge#id ManagementSetAutomaticPurge#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface ManagementSetAutomaticPurgeConfig extends cdktf.TerraformMetaAr
   /**
   * Whether or not to keep the latest N sessions. Note: when the automatic purge feature is enabled, this field and/or the "keep-sessions-by-date" field must be set to 'true'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_automatic_purge#keep_sessions_by_count ManagementSetAutomaticPurge#keep_sessions_by_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_automatic_purge#keep_sessions_by_count ManagementSetAutomaticPurge#keep_sessions_by_count}
   */
   readonly keepSessionsByCount?: boolean | cdktf.IResolvable;
   /**
   * Whether or not to keep the sessions for D days. Note: when the automatic purge feature is enabled, this field and/or the "keep-sessions-by-count" field must be set to 'true'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_automatic_purge#keep_sessions_by_days ManagementSetAutomaticPurge#keep_sessions_by_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_automatic_purge#keep_sessions_by_days ManagementSetAutomaticPurge#keep_sessions_by_days}
   */
   readonly keepSessionsByDays?: boolean | cdktf.IResolvable;
   /**
   * When "keep-sessions-by-days = true" this sets the number of days to keep the sessions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_automatic_purge#number_of_days_to_keep ManagementSetAutomaticPurge#number_of_days_to_keep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_automatic_purge#number_of_days_to_keep ManagementSetAutomaticPurge#number_of_days_to_keep}
   */
   readonly numberOfDaysToKeep?: number;
   /**
   * When "keep-sessions-by-count = true" this sets the number of newest sessions to preserve, by the sessions's publish date.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_automatic_purge#number_of_sessions_to_keep ManagementSetAutomaticPurge#number_of_sessions_to_keep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_automatic_purge#number_of_sessions_to_keep ManagementSetAutomaticPurge#number_of_sessions_to_keep}
   */
   readonly numberOfSessionsToKeep?: number;
   /**
   * When to purge sessions that do not meet the "keep" criteria. Note: when the automatic purge feature is enabled, this field must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_automatic_purge#scheduling ManagementSetAutomaticPurge#scheduling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_automatic_purge#scheduling ManagementSetAutomaticPurge#scheduling}
   */
   readonly scheduling?: { [key: string]: string };
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_automatic_purge checkpoint_management_set_automatic_purge}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_automatic_purge checkpoint_management_set_automatic_purge}
 */
 export class ManagementSetAutomaticPurge extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class ManagementSetAutomaticPurge extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementSetAutomaticPurge resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementSetAutomaticPurge to import
-  * @param importFromId The id of the existing ManagementSetAutomaticPurge that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_automatic_purge#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementSetAutomaticPurge that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_automatic_purge#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementSetAutomaticPurge to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class ManagementSetAutomaticPurge extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_automatic_purge checkpoint_management_set_automatic_purge} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_automatic_purge checkpoint_management_set_automatic_purge} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,7 +92,8 @@ export class ManagementSetAutomaticPurge extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_set_automatic_purge',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

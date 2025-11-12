@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/autoscaling_lifecyclehook
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/autoscaling_lifecyclehook
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,48 +8,48 @@ import * as cdktf from 'cdktf';
 
 export interface AutoscalingLifecyclehookConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/autoscaling_lifecyclehook#default_result AutoscalingLifecyclehook#default_result}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/autoscaling_lifecyclehook#default_result AutoscalingLifecyclehook#default_result}
   */
   readonly defaultResult?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/autoscaling_lifecyclehook#heartbeat_timeout AutoscalingLifecyclehook#heartbeat_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/autoscaling_lifecyclehook#heartbeat_timeout AutoscalingLifecyclehook#heartbeat_timeout}
   */
   readonly heartbeatTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/autoscaling_lifecyclehook#id AutoscalingLifecyclehook#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/autoscaling_lifecyclehook#id AutoscalingLifecyclehook#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/autoscaling_lifecyclehook#lifecycle_hook_name AutoscalingLifecyclehook#lifecycle_hook_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/autoscaling_lifecyclehook#lifecycle_hook_name AutoscalingLifecyclehook#lifecycle_hook_name}
   */
   readonly lifecycleHookName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/autoscaling_lifecyclehook#lifecycle_transition AutoscalingLifecyclehook#lifecycle_transition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/autoscaling_lifecyclehook#lifecycle_transition AutoscalingLifecyclehook#lifecycle_transition}
   */
   readonly lifecycleTransition: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/autoscaling_lifecyclehook#name AutoscalingLifecyclehook#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/autoscaling_lifecyclehook#name AutoscalingLifecyclehook#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/autoscaling_lifecyclehook#notification_arn AutoscalingLifecyclehook#notification_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/autoscaling_lifecyclehook#notification_arn AutoscalingLifecyclehook#notification_arn}
   */
   readonly notificationArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/autoscaling_lifecyclehook#notification_metadata AutoscalingLifecyclehook#notification_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/autoscaling_lifecyclehook#notification_metadata AutoscalingLifecyclehook#notification_metadata}
   */
   readonly notificationMetadata?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/autoscaling_lifecyclehook#scaling_group_id AutoscalingLifecyclehook#scaling_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/autoscaling_lifecyclehook#scaling_group_id AutoscalingLifecyclehook#scaling_group_id}
   */
   readonly scalingGroupId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/autoscaling_lifecyclehook alibabacloudstack_autoscaling_lifecyclehook}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/autoscaling_lifecyclehook alibabacloudstack_autoscaling_lifecyclehook}
 */
 export class AutoscalingLifecyclehook extends cdktf.TerraformResource {
 
@@ -65,7 +65,7 @@ export class AutoscalingLifecyclehook extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AutoscalingLifecyclehook resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AutoscalingLifecyclehook to import
-  * @param importFromId The id of the existing AutoscalingLifecyclehook that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/autoscaling_lifecyclehook#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AutoscalingLifecyclehook that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/autoscaling_lifecyclehook#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AutoscalingLifecyclehook to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -77,7 +77,7 @@ export class AutoscalingLifecyclehook extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/autoscaling_lifecyclehook alibabacloudstack_autoscaling_lifecyclehook} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/autoscaling_lifecyclehook alibabacloudstack_autoscaling_lifecyclehook} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -88,7 +88,8 @@ export class AutoscalingLifecyclehook extends cdktf.TerraformResource {
       terraformResourceType: 'alibabacloudstack_autoscaling_lifecyclehook',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.19'
+        providerVersion: '3.16.21',
+        providerVersionConstraint: '3.16.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -80,7 +80,8 @@ export class ContextEnvironmentVariable extends cdktf.TerraformResource {
       terraformResourceType: 'circleci_context_environment_variable',
       terraformGeneratorMetadata: {
         providerName: 'circleci',
-        providerVersion: '0.6.1'
+        providerVersion: '0.6.1',
+        providerVersionConstraint: '0.6.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

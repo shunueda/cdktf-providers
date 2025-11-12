@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbsite
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbsite
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,76 +8,72 @@ import * as cdktf from 'cdktf';
 
 export interface GslbsiteConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbsite#backupparentlist Gslbsite#backupparentlist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbsite#backupparentlist Gslbsite#backupparentlist}
   */
   readonly backupparentlist?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbsite#clip Gslbsite#clip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbsite#clip Gslbsite#clip}
   */
   readonly clip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbsite#id Gslbsite#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbsite#id Gslbsite#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbsite#metricexchange Gslbsite#metricexchange}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbsite#metricexchange Gslbsite#metricexchange}
   */
   readonly metricexchange?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbsite#naptrreplacementsuffix Gslbsite#naptrreplacementsuffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbsite#naptrreplacementsuffix Gslbsite#naptrreplacementsuffix}
   */
   readonly naptrreplacementsuffix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbsite#newname Gslbsite#newname}
-  */
-  readonly newname?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbsite#nwmetricexchange Gslbsite#nwmetricexchange}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbsite#nwmetricexchange Gslbsite#nwmetricexchange}
   */
   readonly nwmetricexchange?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbsite#parentsite Gslbsite#parentsite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbsite#parentsite Gslbsite#parentsite}
   */
   readonly parentsite?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbsite#publicclip Gslbsite#publicclip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbsite#publicclip Gslbsite#publicclip}
   */
   readonly publicclip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbsite#publicip Gslbsite#publicip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbsite#publicip Gslbsite#publicip}
   */
   readonly publicip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbsite#sessionexchange Gslbsite#sessionexchange}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbsite#sessionexchange Gslbsite#sessionexchange}
   */
   readonly sessionexchange?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbsite#siteipaddress Gslbsite#siteipaddress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbsite#siteipaddress Gslbsite#siteipaddress}
   */
   readonly siteipaddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbsite#sitename Gslbsite#sitename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbsite#sitename Gslbsite#sitename}
   */
   readonly sitename?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbsite#sitepassword Gslbsite#sitepassword}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbsite#sitepassword Gslbsite#sitepassword}
   */
   readonly sitepassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbsite#sitetype Gslbsite#sitetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbsite#sitetype Gslbsite#sitetype}
   */
   readonly sitetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbsite#triggermonitor Gslbsite#triggermonitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbsite#triggermonitor Gslbsite#triggermonitor}
   */
   readonly triggermonitor?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbsite citrixadc_gslbsite}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbsite citrixadc_gslbsite}
 */
 export class Gslbsite extends cdktf.TerraformResource {
 
@@ -93,7 +89,7 @@ export class Gslbsite extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Gslbsite resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Gslbsite to import
-  * @param importFromId The id of the existing Gslbsite that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbsite#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Gslbsite that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbsite#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Gslbsite to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -105,7 +101,7 @@ export class Gslbsite extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/gslbsite citrixadc_gslbsite} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbsite citrixadc_gslbsite} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -116,7 +112,8 @@ export class Gslbsite extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_gslbsite',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -131,7 +128,6 @@ export class Gslbsite extends cdktf.TerraformResource {
     this._id = config.id;
     this._metricexchange = config.metricexchange;
     this._naptrreplacementsuffix = config.naptrreplacementsuffix;
-    this._newname = config.newname;
     this._nwmetricexchange = config.nwmetricexchange;
     this._parentsite = config.parentsite;
     this._publicclip = config.publicclip;
@@ -178,6 +174,11 @@ export class Gslbsite extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get clipInput() {
     return this._clip;
+  }
+
+  // curbackupparentip - computed: true, optional: false, required: false
+  public get curbackupparentip() {
+    return this.getStringAttribute('curbackupparentip');
   }
 
   // id - computed: true, optional: true, required: false
@@ -228,22 +229,6 @@ export class Gslbsite extends cdktf.TerraformResource {
     return this._naptrreplacementsuffix;
   }
 
-  // newname - computed: false, optional: true, required: false
-  private _newname?: string; 
-  public get newname() {
-    return this.getStringAttribute('newname');
-  }
-  public set newname(value: string) {
-    this._newname = value;
-  }
-  public resetNewname() {
-    this._newname = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get newnameInput() {
-    return this._newname;
-  }
-
   // nwmetricexchange - computed: true, optional: true, required: false
   private _nwmetricexchange?: string; 
   public get nwmetricexchange() {
@@ -260,6 +245,11 @@ export class Gslbsite extends cdktf.TerraformResource {
     return this._nwmetricexchange;
   }
 
+  // oldname - computed: true, optional: false, required: false
+  public get oldname() {
+    return this.getStringAttribute('oldname');
+  }
+
   // parentsite - computed: true, optional: true, required: false
   private _parentsite?: string; 
   public get parentsite() {
@@ -274,6 +264,11 @@ export class Gslbsite extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get parentsiteInput() {
     return this._parentsite;
+  }
+
+  // persistencemepstatus - computed: true, optional: false, required: false
+  public get persistencemepstatus() {
+    return this.getStringAttribute('persistencemepstatus');
   }
 
   // publicclip - computed: true, optional: true, required: false
@@ -372,6 +367,11 @@ export class Gslbsite extends cdktf.TerraformResource {
     return this._sitepassword;
   }
 
+  // sitestate - computed: true, optional: false, required: false
+  public get sitestate() {
+    return this.getStringAttribute('sitestate');
+  }
+
   // sitetype - computed: true, optional: true, required: false
   private _sitetype?: string; 
   public get sitetype() {
@@ -386,6 +386,11 @@ export class Gslbsite extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get sitetypeInput() {
     return this._sitetype;
+  }
+
+  // status - computed: true, optional: false, required: false
+  public get status() {
+    return this.getStringAttribute('status');
   }
 
   // triggermonitor - computed: true, optional: true, required: false
@@ -404,6 +409,11 @@ export class Gslbsite extends cdktf.TerraformResource {
     return this._triggermonitor;
   }
 
+  // version - computed: true, optional: false, required: false
+  public get version() {
+    return this.getStringAttribute('version');
+  }
+
   // =========
   // SYNTHESIS
   // =========
@@ -415,7 +425,6 @@ export class Gslbsite extends cdktf.TerraformResource {
       id: cdktf.stringToTerraform(this._id),
       metricexchange: cdktf.stringToTerraform(this._metricexchange),
       naptrreplacementsuffix: cdktf.stringToTerraform(this._naptrreplacementsuffix),
-      newname: cdktf.stringToTerraform(this._newname),
       nwmetricexchange: cdktf.stringToTerraform(this._nwmetricexchange),
       parentsite: cdktf.stringToTerraform(this._parentsite),
       publicclip: cdktf.stringToTerraform(this._publicclip),
@@ -457,12 +466,6 @@ export class Gslbsite extends cdktf.TerraformResource {
       },
       naptrreplacementsuffix: {
         value: cdktf.stringToHclTerraform(this._naptrreplacementsuffix),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
-      newname: {
-        value: cdktf.stringToHclTerraform(this._newname),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

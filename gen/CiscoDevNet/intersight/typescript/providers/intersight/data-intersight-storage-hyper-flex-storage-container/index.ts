@@ -4915,7 +4915,8 @@ export class DataIntersightStorageHyperFlexStorageContainer extends cdktf.Terraf
       terraformResourceType: 'intersight_storage_hyper_flex_storage_container',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

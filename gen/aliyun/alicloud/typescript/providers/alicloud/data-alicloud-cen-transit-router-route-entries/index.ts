@@ -203,7 +203,8 @@ export class DataAlicloudCenTransitRouterRouteEntries extends cdktf.TerraformDat
       terraformResourceType: 'alicloud_cen_transit_router_route_entries',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

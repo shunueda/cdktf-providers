@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/controllerportalregistration
+// https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/controllerportalregistration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface ControllerportalregistrationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/controllerportalregistration#id Controllerportalregistration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/controllerportalregistration#id Controllerportalregistration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/controllerportalregistration#name Controllerportalregistration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/controllerportalregistration#name Controllerportalregistration#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/controllerportalregistration#tenant_ref Controllerportalregistration#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/controllerportalregistration#tenant_ref Controllerportalregistration#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/controllerportalregistration#uuid Controllerportalregistration#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/controllerportalregistration#uuid Controllerportalregistration#uuid}
   */
   readonly uuid?: string;
   /**
   * asset block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/controllerportalregistration#asset Controllerportalregistration#asset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/controllerportalregistration#asset Controllerportalregistration#asset}
   */
   readonly asset?: ControllerportalregistrationAsset[] | cdktf.IResolvable;
   /**
   * portal_auth block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/controllerportalregistration#portal_auth Controllerportalregistration#portal_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/controllerportalregistration#portal_auth Controllerportalregistration#portal_auth}
   */
   readonly portalAuth?: ControllerportalregistrationPortalAuth[] | cdktf.IResolvable;
 }
 export interface ControllerportalregistrationAsset {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/controllerportalregistration#asset_id Controllerportalregistration#asset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/controllerportalregistration#asset_id Controllerportalregistration#asset_id}
   */
   readonly assetId?: string;
 }
@@ -157,23 +157,23 @@ export class ControllerportalregistrationAssetList extends cdktf.ComplexList {
 }
 export interface ControllerportalregistrationPortalAuth {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/controllerportalregistration#access_token Controllerportalregistration#access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/controllerportalregistration#access_token Controllerportalregistration#access_token}
   */
   readonly accessToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/controllerportalregistration#grant_type Controllerportalregistration#grant_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/controllerportalregistration#grant_type Controllerportalregistration#grant_type}
   */
   readonly grantType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/controllerportalregistration#instance_url Controllerportalregistration#instance_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/controllerportalregistration#instance_url Controllerportalregistration#instance_url}
   */
   readonly instanceUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/controllerportalregistration#jwt_token Controllerportalregistration#jwt_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/controllerportalregistration#jwt_token Controllerportalregistration#jwt_token}
   */
   readonly jwtToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/controllerportalregistration#tenant Controllerportalregistration#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/controllerportalregistration#tenant Controllerportalregistration#tenant}
   */
   readonly tenant?: string;
 }
@@ -405,7 +405,7 @@ export class ControllerportalregistrationPortalAuthList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/controllerportalregistration avi_controllerportalregistration}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/controllerportalregistration avi_controllerportalregistration}
 */
 export class Controllerportalregistration extends cdktf.TerraformResource {
 
@@ -421,7 +421,7 @@ export class Controllerportalregistration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Controllerportalregistration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Controllerportalregistration to import
-  * @param importFromId The id of the existing Controllerportalregistration that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/controllerportalregistration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Controllerportalregistration that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/controllerportalregistration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Controllerportalregistration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -433,7 +433,7 @@ export class Controllerportalregistration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/controllerportalregistration avi_controllerportalregistration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/controllerportalregistration avi_controllerportalregistration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -444,7 +444,8 @@ export class Controllerportalregistration extends cdktf.TerraformResource {
       terraformResourceType: 'avi_controllerportalregistration',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '31.1.1'
+        providerVersion: '30.2.5',
+        providerVersionConstraint: '30.2.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

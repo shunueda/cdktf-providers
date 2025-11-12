@@ -246,7 +246,8 @@ export class DataSbercloudCfwCaptureTaskResults extends cdktf.TerraformDataSourc
       terraformResourceType: 'sbercloud_cfw_capture_task_results',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14'
+        providerVersion: '1.12.14',
+        providerVersionConstraint: '1.12.14'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

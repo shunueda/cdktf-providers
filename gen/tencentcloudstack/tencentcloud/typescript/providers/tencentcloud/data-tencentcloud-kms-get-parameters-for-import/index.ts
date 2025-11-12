@@ -80,7 +80,8 @@ export class DataTencentcloudKmsGetParametersForImport extends cdktf.TerraformDa
       terraformResourceType: 'tencentcloud_kms_get_parameters_for_import',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

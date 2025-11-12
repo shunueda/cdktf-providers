@@ -84,7 +84,8 @@ export class RouterOspf6AreaVirtuallinkIpseckeys extends cdktf.TerraformResource
       terraformResourceType: 'fmgdevice_router_ospf6_area_virtuallink_ipseckeys',
       terraformGeneratorMetadata: {
         providerName: 'fmgdevice',
-        providerVersion: '1.2.1'
+        providerVersion: '1.2.1',
+        providerVersionConstraint: '1.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

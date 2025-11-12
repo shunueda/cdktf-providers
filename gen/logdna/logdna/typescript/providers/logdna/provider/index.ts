@@ -71,7 +71,8 @@ export class LogdnaProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'logdna',
       terraformGeneratorMetadata: {
         providerName: 'logdna',
-        providerVersion: '1.17.2'
+        providerVersion: '1.17.2',
+        providerVersionConstraint: '1.17.2'
       },
       terraformProviderSource: 'logdna/logdna'
     });

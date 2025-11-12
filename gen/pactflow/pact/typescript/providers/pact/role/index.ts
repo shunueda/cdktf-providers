@@ -68,7 +68,8 @@ export class Role extends cdktf.TerraformResource {
       terraformResourceType: 'pact_role',
       terraformGeneratorMetadata: {
         providerName: 'pact',
-        providerVersion: '0.10.0'
+        providerVersion: '0.10.0',
+        providerVersionConstraint: '0.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

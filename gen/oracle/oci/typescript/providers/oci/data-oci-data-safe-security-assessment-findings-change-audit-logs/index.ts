@@ -489,7 +489,8 @@ export class DataOciDataSafeSecurityAssessmentFindingsChangeAuditLogs extends cd
       terraformResourceType: 'oci_data_safe_security_assessment_findings_change_audit_logs',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

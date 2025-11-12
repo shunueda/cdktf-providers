@@ -450,7 +450,8 @@ export class WorkflowTaskCreateZendeskTicket extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_workflow_task_create_zendesk_ticket',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.7'
+        providerVersion: '4.3.7',
+        providerVersionConstraint: '4.3.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

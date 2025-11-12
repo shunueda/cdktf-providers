@@ -85,7 +85,8 @@ export class InfraProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'infra',
       terraformGeneratorMetadata: {
         providerName: 'infra',
-        providerVersion: '0.3.0'
+        providerVersion: '0.3.0',
+        providerVersionConstraint: '0.3.0'
       },
       terraformProviderSource: 'infrahq/infra'
     });

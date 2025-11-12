@@ -13811,7 +13811,8 @@ export class DataK8SAppsM88IIoNexusV1Alpha1Manifest extends cdktf.TerraformDataS
       terraformResourceType: 'k8s_apps_m88i_io_nexus_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -49,7 +49,8 @@ export class DataSonatypeiqConfigSaml extends cdktf.TerraformDataSource {
       terraformResourceType: 'sonatypeiq_config_saml',
       terraformGeneratorMetadata: {
         providerName: 'sonatypeiq',
-        providerVersion: '0.12.1'
+        providerVersion: '0.12.1',
+        providerVersionConstraint: '0.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

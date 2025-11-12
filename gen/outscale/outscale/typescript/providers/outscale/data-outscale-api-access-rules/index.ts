@@ -300,7 +300,8 @@ export class DataOutscaleApiAccessRules extends cdktf.TerraformDataSource {
       terraformResourceType: 'outscale_api_access_rules',
       terraformGeneratorMetadata: {
         providerName: 'outscale',
-        providerVersion: '1.2.1'
+        providerVersion: '1.2.1',
+        providerVersionConstraint: '1.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

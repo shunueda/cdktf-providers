@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/disc/pritunl/0.6.1/docs
+// https://registry.terraform.io/providers/disc/pritunl/0.6.2/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,35 +8,35 @@ import * as cdktf from 'cdktf';
 
 export interface PritunlProviderConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/disc/pritunl/0.6.1/docs#connection_check PritunlProvider#connection_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/disc/pritunl/0.6.2/docs#connection_check PritunlProvider#connection_check}
   */
   readonly connectionCheck?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/disc/pritunl/0.6.1/docs#insecure PritunlProvider#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/disc/pritunl/0.6.2/docs#insecure PritunlProvider#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/disc/pritunl/0.6.1/docs#secret PritunlProvider#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/disc/pritunl/0.6.2/docs#secret PritunlProvider#secret}
   */
   readonly secret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/disc/pritunl/0.6.1/docs#token PritunlProvider#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/disc/pritunl/0.6.2/docs#token PritunlProvider#token}
   */
   readonly token?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/disc/pritunl/0.6.1/docs#url PritunlProvider#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/disc/pritunl/0.6.2/docs#url PritunlProvider#url}
   */
   readonly url?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/disc/pritunl/0.6.1/docs#alias PritunlProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/disc/pritunl/0.6.2/docs#alias PritunlProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/disc/pritunl/0.6.1/docs pritunl}
+* Represents a {@link https://registry.terraform.io/providers/disc/pritunl/0.6.2/docs pritunl}
 */
 export class PritunlProvider extends cdktf.TerraformProvider {
 
@@ -52,7 +52,7 @@ export class PritunlProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a PritunlProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PritunlProvider to import
-  * @param importFromId The id of the existing PritunlProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/disc/pritunl/0.6.1/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PritunlProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/disc/pritunl/0.6.2/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PritunlProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -64,7 +64,7 @@ export class PritunlProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/disc/pritunl/0.6.1/docs pritunl} Resource
+  * Create a new {@link https://registry.terraform.io/providers/disc/pritunl/0.6.2/docs pritunl} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -75,7 +75,8 @@ export class PritunlProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'pritunl',
       terraformGeneratorMetadata: {
         providerName: 'pritunl',
-        providerVersion: '0.6.1'
+        providerVersion: '0.6.2',
+        providerVersionConstraint: '0.6.2'
       },
       terraformProviderSource: 'disc/pritunl'
     });

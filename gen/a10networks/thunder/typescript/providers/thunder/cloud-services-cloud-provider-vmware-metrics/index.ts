@@ -170,7 +170,8 @@ export class CloudServicesCloudProviderVmwareMetrics extends cdktf.TerraformReso
       terraformResourceType: 'thunder_cloud_services_cloud_provider_vmware_metrics',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

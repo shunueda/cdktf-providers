@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection
+// https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface FabricConnectionConfig extends cdktf.TerraformMetaArguments {
   /**
   * Connection additional information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#additional_info FabricConnection#additional_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#additional_info FabricConnection#additional_info}
   */
   readonly additionalInfo?: { [key: string]: string }[] | cdktf.IResolvable;
   /**
   * Connection bandwidth in Mbps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#bandwidth FabricConnection#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#bandwidth FabricConnection#bandwidth}
   */
   readonly bandwidth: number;
   /**
   * Customer-provided connection description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#description FabricConnection#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#description FabricConnection#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#id FabricConnection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#id FabricConnection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,55 +35,55 @@ export interface FabricConnectionConfig extends cdktf.TerraformMetaArguments {
   /**
   * Connection name. An alpha-numeric 24 characters string which can include only hyphens and underscores
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#name FabricConnection#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#name FabricConnection#name}
   */
   readonly name: string;
   /**
   * Defines the connection type like EVPL_VC, EPL_VC, IPWAN_VC, IP_VC, ACCESS_EPL_VC, EVPLAN_VC, EPLAN_VC, EIA_VC, IA_VC, EC_VC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#type FabricConnection#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#type FabricConnection#type}
   */
   readonly type: string;
   /**
   * a_side block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#a_side FabricConnection#a_side}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#a_side FabricConnection#a_side}
   */
   readonly aSide: FabricConnectionASide;
   /**
   * notifications block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#notifications FabricConnection#notifications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#notifications FabricConnection#notifications}
   */
   readonly notifications: FabricConnectionNotifications[] | cdktf.IResolvable;
   /**
   * order block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#order FabricConnection#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#order FabricConnection#order}
   */
   readonly order?: FabricConnectionOrder;
   /**
   * project block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#project FabricConnection#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#project FabricConnection#project}
   */
   readonly project?: FabricConnectionProject;
   /**
   * redundancy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#redundancy FabricConnection#redundancy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#redundancy FabricConnection#redundancy}
   */
   readonly redundancy?: FabricConnectionRedundancy;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#timeouts FabricConnection#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#timeouts FabricConnection#timeouts}
   */
   readonly timeouts?: FabricConnectionTimeouts;
   /**
   * z_side block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#z_side FabricConnection#z_side}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#z_side FabricConnection#z_side}
   */
   readonly zSide: FabricConnectionZSide;
 }
@@ -719,7 +719,7 @@ export interface FabricConnectionASideAccessPointGateway {
   /**
   * Equinix-assigned virtual gateway identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#uuid FabricConnection#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#uuid FabricConnection#uuid}
   */
   readonly uuid?: string;
 }
@@ -810,7 +810,7 @@ export interface FabricConnectionASideAccessPointInterface {
   /**
   * id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#id FabricConnection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#id FabricConnection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -819,13 +819,13 @@ export interface FabricConnectionASideAccessPointInterface {
   /**
   * Interface type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#type FabricConnection#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#type FabricConnection#type}
   */
   readonly type?: string;
   /**
   * Equinix-assigned interface identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#uuid FabricConnection#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#uuid FabricConnection#uuid}
   */
   readonly uuid?: string;
 }
@@ -969,25 +969,25 @@ export interface FabricConnectionASideAccessPointLinkProtocol {
   /**
   * Type of the link protocol - UNTAGGED, DOT1Q, QINQ, EVPN_VXLAN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#type FabricConnection#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#type FabricConnection#type}
   */
   readonly type?: string;
   /**
   * Vlan Customer Tag information, vlanCTag value specified for QINQ connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#vlan_c_tag FabricConnection#vlan_c_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#vlan_c_tag FabricConnection#vlan_c_tag}
   */
   readonly vlanCTag?: number;
   /**
   * Vlan Provider Tag information, vlanSTag value specified for QINQ connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#vlan_s_tag FabricConnection#vlan_s_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#vlan_s_tag FabricConnection#vlan_s_tag}
   */
   readonly vlanSTag?: number;
   /**
   * Vlan Tag information, vlanTag value specified for DOT1Q connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#vlan_tag FabricConnection#vlan_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#vlan_tag FabricConnection#vlan_tag}
   */
   readonly vlanTag?: number;
 }
@@ -1160,25 +1160,25 @@ export interface FabricConnectionASideAccessPointLocation {
   /**
   * IBX Code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#ibx FabricConnection#ibx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#ibx FabricConnection#ibx}
   */
   readonly ibx?: string;
   /**
   * Access point metro code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#metro_code FabricConnection#metro_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#metro_code FabricConnection#metro_code}
   */
   readonly metroCode?: string;
   /**
   * Access point metro name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#metro_name FabricConnection#metro_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#metro_name FabricConnection#metro_name}
   */
   readonly metroName?: string;
   /**
   * Access point region
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#region FabricConnection#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#region FabricConnection#region}
   */
   readonly region?: string;
 }
@@ -1351,7 +1351,7 @@ export interface FabricConnectionASideAccessPointNetwork {
   /**
   * Equinix-assigned Network identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#uuid FabricConnection#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#uuid FabricConnection#uuid}
   */
   readonly uuid: string;
 }
@@ -1524,7 +1524,7 @@ export interface FabricConnectionASideAccessPointPort {
   /**
   * Equinix-assigned Port identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#uuid FabricConnection#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#uuid FabricConnection#uuid}
   */
   readonly uuid?: string;
 }
@@ -1706,13 +1706,13 @@ export interface FabricConnectionASideAccessPointProfile {
   /**
   * Service profile type - L2_PROFILE, L3_PROFILE, ECIA_PROFILE, ECMC_PROFILE, IA_PROFILE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#type FabricConnection#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#type FabricConnection#type}
   */
   readonly type: string;
   /**
   * Equinix assigned service profile identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#uuid FabricConnection#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#uuid FabricConnection#uuid}
   */
   readonly uuid: string;
 }
@@ -1842,7 +1842,7 @@ export interface FabricConnectionASideAccessPointRouter {
   /**
   * Equinix-assigned virtual gateway identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#uuid FabricConnection#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#uuid FabricConnection#uuid}
   */
   readonly uuid?: string;
 }
@@ -1933,19 +1933,19 @@ export interface FabricConnectionASideAccessPointVirtualDevice {
   /**
   * Customer-assigned Virtual Device Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#name FabricConnection#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#name FabricConnection#name}
   */
   readonly name?: string;
   /**
   * Virtual Device type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#type FabricConnection#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#type FabricConnection#type}
   */
   readonly type?: string;
   /**
   * Equinix-assigned Virtual Device identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#uuid FabricConnection#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#uuid FabricConnection#uuid}
   */
   readonly uuid: string;
 }
@@ -2091,91 +2091,91 @@ export interface FabricConnectionASideAccessPoint {
   /**
   * Authentication key for provider based connections or Metal-Fabric Integration connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#authentication_key FabricConnection#authentication_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#authentication_key FabricConnection#authentication_key}
   */
   readonly authenticationKey?: string;
   /**
   * Peering Type- PRIVATE,MICROSOFT,PUBLIC, MANUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#peering_type FabricConnection#peering_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#peering_type FabricConnection#peering_type}
   */
   readonly peeringType?: string;
   /**
   * Network role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#role FabricConnection#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#role FabricConnection#role}
   */
   readonly role?: string;
   /**
   * Access point seller region
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#seller_region FabricConnection#seller_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#seller_region FabricConnection#seller_region}
   */
   readonly sellerRegion?: string;
   /**
   * Access point type - COLO, VD, VG, SP, IGW, SUBNET, CLOUD_ROUTER, NETWORK, METAL_NETWORK
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#type FabricConnection#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#type FabricConnection#type}
   */
   readonly type?: string;
   /**
   * account block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#account FabricConnection#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#account FabricConnection#account}
   */
   readonly account?: FabricConnectionASideAccessPointAccount[] | cdktf.IResolvable;
   /**
   * gateway block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#gateway FabricConnection#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#gateway FabricConnection#gateway}
   */
   readonly gateway?: FabricConnectionASideAccessPointGateway;
   /**
   * interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#interface FabricConnection#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#interface FabricConnection#interface}
   */
   readonly interface?: FabricConnectionASideAccessPointInterface;
   /**
   * link_protocol block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#link_protocol FabricConnection#link_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#link_protocol FabricConnection#link_protocol}
   */
   readonly linkProtocol?: FabricConnectionASideAccessPointLinkProtocol;
   /**
   * location block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#location FabricConnection#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#location FabricConnection#location}
   */
   readonly location?: FabricConnectionASideAccessPointLocation;
   /**
   * network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#network FabricConnection#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#network FabricConnection#network}
   */
   readonly network?: FabricConnectionASideAccessPointNetwork;
   /**
   * port block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#port FabricConnection#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#port FabricConnection#port}
   */
   readonly port?: FabricConnectionASideAccessPointPort;
   /**
   * profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#profile FabricConnection#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#profile FabricConnection#profile}
   */
   readonly profile?: FabricConnectionASideAccessPointProfile;
   /**
   * router block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#router FabricConnection#router}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#router FabricConnection#router}
   */
   readonly router?: FabricConnectionASideAccessPointRouter;
   /**
   * virtual_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#virtual_device FabricConnection#virtual_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#virtual_device FabricConnection#virtual_device}
   */
   readonly virtualDevice?: FabricConnectionASideAccessPointVirtualDevice;
 }
@@ -2672,13 +2672,13 @@ export interface FabricConnectionASideAdditionalInfo {
   /**
   * Additional information key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#key FabricConnection#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#key FabricConnection#key}
   */
   readonly key?: string;
   /**
   * Additional information value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#value FabricConnection#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#value FabricConnection#value}
   */
   readonly value?: string;
 }
@@ -2825,13 +2825,13 @@ export interface FabricConnectionASideServiceToken {
   /**
   * Token type - VC_TOKEN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#type FabricConnection#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#type FabricConnection#type}
   */
   readonly type?: string;
   /**
   * Equinix-assigned service token identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#uuid FabricConnection#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#uuid FabricConnection#uuid}
   */
   readonly uuid?: string;
 }
@@ -2956,19 +2956,19 @@ export interface FabricConnectionASide {
   /**
   * access_point block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#access_point FabricConnection#access_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#access_point FabricConnection#access_point}
   */
   readonly accessPoint?: FabricConnectionASideAccessPoint;
   /**
   * additional_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#additional_info FabricConnection#additional_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#additional_info FabricConnection#additional_info}
   */
   readonly additionalInfo?: FabricConnectionASideAdditionalInfo[] | cdktf.IResolvable;
   /**
   * service_token block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#service_token FabricConnection#service_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#service_token FabricConnection#service_token}
   */
   readonly serviceToken?: FabricConnectionASideServiceToken;
 }
@@ -3112,19 +3112,19 @@ export interface FabricConnectionNotifications {
   /**
   * Array of contact emails
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#emails FabricConnection#emails}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#emails FabricConnection#emails}
   */
   readonly emails: string[];
   /**
   * Send interval
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#send_interval FabricConnection#send_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#send_interval FabricConnection#send_interval}
   */
   readonly sendInterval?: string;
   /**
   * Notification Type - ALL,CONNECTION_APPROVAL,SALES_REP_NOTIFICATIONS, NOTIFICATIONS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#type FabricConnection#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#type FabricConnection#type}
   */
   readonly type: string;
 }
@@ -3294,31 +3294,31 @@ export interface FabricConnectionOrder {
   /**
   * Billing tier for connection bandwidth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#billing_tier FabricConnection#billing_tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#billing_tier FabricConnection#billing_tier}
   */
   readonly billingTier?: string;
   /**
   * Order Identification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#order_id FabricConnection#order_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#order_id FabricConnection#order_id}
   */
   readonly orderId?: string;
   /**
   * Order Reference Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#order_number FabricConnection#order_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#order_number FabricConnection#order_number}
   */
   readonly orderNumber?: string;
   /**
   * Purchase order number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#purchase_order_number FabricConnection#purchase_order_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#purchase_order_number FabricConnection#purchase_order_number}
   */
   readonly purchaseOrderNumber?: string;
   /**
   * Term length in months; valid values are 1, 12, 24, 36 where 1 is the default value (for on-demand case)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#term_length FabricConnection#term_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#term_length FabricConnection#term_length}
   */
   readonly termLength?: number;
 }
@@ -3520,7 +3520,7 @@ export interface FabricConnectionProject {
   /**
   * Project Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#project_id FabricConnection#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#project_id FabricConnection#project_id}
   */
   readonly projectId?: string;
 }
@@ -3611,13 +3611,13 @@ export interface FabricConnectionRedundancy {
   /**
   * Redundancy group identifier (Use the redundancy.0.group UUID of primary connection; e.g. one(equinix_fabric_connection.primary_port_connection.redundancy).group or equinix_fabric_connection.primary_port_connection.redundancy.0.group)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#group FabricConnection#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#group FabricConnection#group}
   */
   readonly group?: string;
   /**
   * Connection priority in redundancy group - PRIMARY, SECONDARY
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#priority FabricConnection#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#priority FabricConnection#priority}
   */
   readonly priority?: string;
 }
@@ -3730,19 +3730,19 @@ export class FabricConnectionRedundancyOutputReference extends cdktf.ComplexObje
 }
 export interface FabricConnectionTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#create FabricConnection#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#create FabricConnection#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#delete FabricConnection#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#delete FabricConnection#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#read FabricConnection#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#read FabricConnection#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#update FabricConnection#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#update FabricConnection#update}
   */
   readonly update?: string;
 }
@@ -4046,7 +4046,7 @@ export interface FabricConnectionZSideAccessPointGateway {
   /**
   * Equinix-assigned virtual gateway identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#uuid FabricConnection#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#uuid FabricConnection#uuid}
   */
   readonly uuid?: string;
 }
@@ -4137,7 +4137,7 @@ export interface FabricConnectionZSideAccessPointInterface {
   /**
   * id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#id FabricConnection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#id FabricConnection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -4146,13 +4146,13 @@ export interface FabricConnectionZSideAccessPointInterface {
   /**
   * Interface type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#type FabricConnection#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#type FabricConnection#type}
   */
   readonly type?: string;
   /**
   * Equinix-assigned interface identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#uuid FabricConnection#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#uuid FabricConnection#uuid}
   */
   readonly uuid?: string;
 }
@@ -4296,25 +4296,25 @@ export interface FabricConnectionZSideAccessPointLinkProtocol {
   /**
   * Type of the link protocol - UNTAGGED, DOT1Q, QINQ, EVPN_VXLAN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#type FabricConnection#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#type FabricConnection#type}
   */
   readonly type?: string;
   /**
   * Vlan Customer Tag information, vlanCTag value specified for QINQ connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#vlan_c_tag FabricConnection#vlan_c_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#vlan_c_tag FabricConnection#vlan_c_tag}
   */
   readonly vlanCTag?: number;
   /**
   * Vlan Provider Tag information, vlanSTag value specified for QINQ connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#vlan_s_tag FabricConnection#vlan_s_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#vlan_s_tag FabricConnection#vlan_s_tag}
   */
   readonly vlanSTag?: number;
   /**
   * Vlan Tag information, vlanTag value specified for DOT1Q connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#vlan_tag FabricConnection#vlan_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#vlan_tag FabricConnection#vlan_tag}
   */
   readonly vlanTag?: number;
 }
@@ -4487,25 +4487,25 @@ export interface FabricConnectionZSideAccessPointLocation {
   /**
   * IBX Code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#ibx FabricConnection#ibx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#ibx FabricConnection#ibx}
   */
   readonly ibx?: string;
   /**
   * Access point metro code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#metro_code FabricConnection#metro_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#metro_code FabricConnection#metro_code}
   */
   readonly metroCode?: string;
   /**
   * Access point metro name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#metro_name FabricConnection#metro_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#metro_name FabricConnection#metro_name}
   */
   readonly metroName?: string;
   /**
   * Access point region
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#region FabricConnection#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#region FabricConnection#region}
   */
   readonly region?: string;
 }
@@ -4678,7 +4678,7 @@ export interface FabricConnectionZSideAccessPointNetwork {
   /**
   * Equinix-assigned Network identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#uuid FabricConnection#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#uuid FabricConnection#uuid}
   */
   readonly uuid: string;
 }
@@ -4851,7 +4851,7 @@ export interface FabricConnectionZSideAccessPointPort {
   /**
   * Equinix-assigned Port identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#uuid FabricConnection#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#uuid FabricConnection#uuid}
   */
   readonly uuid?: string;
 }
@@ -5033,13 +5033,13 @@ export interface FabricConnectionZSideAccessPointProfile {
   /**
   * Service profile type - L2_PROFILE, L3_PROFILE, ECIA_PROFILE, ECMC_PROFILE, IA_PROFILE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#type FabricConnection#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#type FabricConnection#type}
   */
   readonly type: string;
   /**
   * Equinix assigned service profile identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#uuid FabricConnection#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#uuid FabricConnection#uuid}
   */
   readonly uuid: string;
 }
@@ -5169,7 +5169,7 @@ export interface FabricConnectionZSideAccessPointRouter {
   /**
   * Equinix-assigned virtual gateway identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#uuid FabricConnection#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#uuid FabricConnection#uuid}
   */
   readonly uuid?: string;
 }
@@ -5260,19 +5260,19 @@ export interface FabricConnectionZSideAccessPointVirtualDevice {
   /**
   * Customer-assigned Virtual Device Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#name FabricConnection#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#name FabricConnection#name}
   */
   readonly name?: string;
   /**
   * Virtual Device type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#type FabricConnection#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#type FabricConnection#type}
   */
   readonly type?: string;
   /**
   * Equinix-assigned Virtual Device identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#uuid FabricConnection#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#uuid FabricConnection#uuid}
   */
   readonly uuid: string;
 }
@@ -5418,91 +5418,91 @@ export interface FabricConnectionZSideAccessPoint {
   /**
   * Authentication key for provider based connections or Metal-Fabric Integration connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#authentication_key FabricConnection#authentication_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#authentication_key FabricConnection#authentication_key}
   */
   readonly authenticationKey?: string;
   /**
   * Peering Type- PRIVATE,MICROSOFT,PUBLIC, MANUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#peering_type FabricConnection#peering_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#peering_type FabricConnection#peering_type}
   */
   readonly peeringType?: string;
   /**
   * Network role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#role FabricConnection#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#role FabricConnection#role}
   */
   readonly role?: string;
   /**
   * Access point seller region
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#seller_region FabricConnection#seller_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#seller_region FabricConnection#seller_region}
   */
   readonly sellerRegion?: string;
   /**
   * Access point type - COLO, VD, VG, SP, IGW, SUBNET, CLOUD_ROUTER, NETWORK, METAL_NETWORK
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#type FabricConnection#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#type FabricConnection#type}
   */
   readonly type?: string;
   /**
   * account block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#account FabricConnection#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#account FabricConnection#account}
   */
   readonly account?: FabricConnectionZSideAccessPointAccount[] | cdktf.IResolvable;
   /**
   * gateway block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#gateway FabricConnection#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#gateway FabricConnection#gateway}
   */
   readonly gateway?: FabricConnectionZSideAccessPointGateway;
   /**
   * interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#interface FabricConnection#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#interface FabricConnection#interface}
   */
   readonly interface?: FabricConnectionZSideAccessPointInterface;
   /**
   * link_protocol block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#link_protocol FabricConnection#link_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#link_protocol FabricConnection#link_protocol}
   */
   readonly linkProtocol?: FabricConnectionZSideAccessPointLinkProtocol;
   /**
   * location block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#location FabricConnection#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#location FabricConnection#location}
   */
   readonly location?: FabricConnectionZSideAccessPointLocation;
   /**
   * network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#network FabricConnection#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#network FabricConnection#network}
   */
   readonly network?: FabricConnectionZSideAccessPointNetwork;
   /**
   * port block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#port FabricConnection#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#port FabricConnection#port}
   */
   readonly port?: FabricConnectionZSideAccessPointPort;
   /**
   * profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#profile FabricConnection#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#profile FabricConnection#profile}
   */
   readonly profile?: FabricConnectionZSideAccessPointProfile;
   /**
   * router block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#router FabricConnection#router}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#router FabricConnection#router}
   */
   readonly router?: FabricConnectionZSideAccessPointRouter;
   /**
   * virtual_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#virtual_device FabricConnection#virtual_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#virtual_device FabricConnection#virtual_device}
   */
   readonly virtualDevice?: FabricConnectionZSideAccessPointVirtualDevice;
 }
@@ -5999,13 +5999,13 @@ export interface FabricConnectionZSideAdditionalInfo {
   /**
   * Additional information key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#key FabricConnection#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#key FabricConnection#key}
   */
   readonly key?: string;
   /**
   * Additional information value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#value FabricConnection#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#value FabricConnection#value}
   */
   readonly value?: string;
 }
@@ -6152,13 +6152,13 @@ export interface FabricConnectionZSideServiceToken {
   /**
   * Token type - VC_TOKEN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#type FabricConnection#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#type FabricConnection#type}
   */
   readonly type?: string;
   /**
   * Equinix-assigned service token identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#uuid FabricConnection#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#uuid FabricConnection#uuid}
   */
   readonly uuid?: string;
 }
@@ -6283,19 +6283,19 @@ export interface FabricConnectionZSide {
   /**
   * access_point block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#access_point FabricConnection#access_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#access_point FabricConnection#access_point}
   */
   readonly accessPoint?: FabricConnectionZSideAccessPoint;
   /**
   * additional_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#additional_info FabricConnection#additional_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#additional_info FabricConnection#additional_info}
   */
   readonly additionalInfo?: FabricConnectionZSideAdditionalInfo[] | cdktf.IResolvable;
   /**
   * service_token block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#service_token FabricConnection#service_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#service_token FabricConnection#service_token}
   */
   readonly serviceToken?: FabricConnectionZSideServiceToken;
 }
@@ -6437,7 +6437,7 @@ export class FabricConnectionZSideOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection equinix_fabric_connection}
+* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection equinix_fabric_connection}
 */
 export class FabricConnection extends cdktf.TerraformResource {
 
@@ -6453,7 +6453,7 @@ export class FabricConnection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FabricConnection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FabricConnection to import
-  * @param importFromId The id of the existing FabricConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FabricConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FabricConnection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6465,7 +6465,7 @@ export class FabricConnection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_connection equinix_fabric_connection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_connection equinix_fabric_connection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6476,7 +6476,8 @@ export class FabricConnection extends cdktf.TerraformResource {
       terraformResourceType: 'equinix_fabric_connection',
       terraformGeneratorMetadata: {
         providerName: 'equinix',
-        providerVersion: '4.8.0'
+        providerVersion: '4.10.0',
+        providerVersionConstraint: '4.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

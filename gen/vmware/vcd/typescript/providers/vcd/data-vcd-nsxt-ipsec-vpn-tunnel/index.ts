@@ -210,7 +210,8 @@ export class DataVcdNsxtIpsecVpnTunnel extends cdktf.TerraformDataSource {
       terraformResourceType: 'vcd_nsxt_ipsec_vpn_tunnel',
       terraformGeneratorMetadata: {
         providerName: 'vcd',
-        providerVersion: '3.14.1'
+        providerVersion: '3.14.1',
+        providerVersionConstraint: '3.14.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -3803,7 +3803,8 @@ export class Theme extends cdktf.TerraformResource {
       terraformResourceType: 'authsignal_theme',
       terraformGeneratorMetadata: {
         providerName: 'authsignal',
-        providerVersion: '1.6.0'
+        providerVersion: '1.6.0',
+        providerVersionConstraint: '1.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

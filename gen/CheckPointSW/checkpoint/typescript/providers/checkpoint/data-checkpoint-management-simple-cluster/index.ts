@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_simple_cluster
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_simple_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataCheckpointManagementSimpleClusterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_simple_cluster#id DataCheckpointManagementSimpleCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_simple_cluster#id DataCheckpointManagementSimpleCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataCheckpointManagementSimpleClusterConfig extends cdktf.Terra
   /**
   * Object name. Should be unique in the domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_simple_cluster#name DataCheckpointManagementSimpleCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_simple_cluster#name DataCheckpointManagementSimpleCluster#name}
   */
   readonly name?: string;
   /**
   * Object unique identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_simple_cluster#uid DataCheckpointManagementSimpleCluster#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_simple_cluster#uid DataCheckpointManagementSimpleCluster#uid}
   */
   readonly uid?: string;
 }
@@ -3066,6 +3066,207 @@ export class DataCheckpointManagementSimpleClusterInterfacesList extends cdktf.C
     return new DataCheckpointManagementSimpleClusterInterfacesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface DataCheckpointManagementSimpleClusterIpsSettingsTopCpuConsumingProtections {
+}
+
+export function dataCheckpointManagementSimpleClusterIpsSettingsTopCpuConsumingProtectionsToTerraform(struct?: DataCheckpointManagementSimpleClusterIpsSettingsTopCpuConsumingProtections): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataCheckpointManagementSimpleClusterIpsSettingsTopCpuConsumingProtectionsToHclTerraform(struct?: DataCheckpointManagementSimpleClusterIpsSettingsTopCpuConsumingProtections): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataCheckpointManagementSimpleClusterIpsSettingsTopCpuConsumingProtectionsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataCheckpointManagementSimpleClusterIpsSettingsTopCpuConsumingProtections | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataCheckpointManagementSimpleClusterIpsSettingsTopCpuConsumingProtections | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // disable_period - computed: true, optional: false, required: false
+  public get disablePeriod() {
+    return this.getNumberAttribute('disable_period');
+  }
+
+  // disable_under_load - computed: true, optional: false, required: false
+  public get disableUnderLoad() {
+    return this.getBooleanAttribute('disable_under_load');
+  }
+}
+
+export class DataCheckpointManagementSimpleClusterIpsSettingsTopCpuConsumingProtectionsList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataCheckpointManagementSimpleClusterIpsSettingsTopCpuConsumingProtectionsOutputReference {
+    return new DataCheckpointManagementSimpleClusterIpsSettingsTopCpuConsumingProtectionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataCheckpointManagementSimpleClusterIpsSettings {
+}
+
+export function dataCheckpointManagementSimpleClusterIpsSettingsToTerraform(struct?: DataCheckpointManagementSimpleClusterIpsSettings): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataCheckpointManagementSimpleClusterIpsSettingsToHclTerraform(struct?: DataCheckpointManagementSimpleClusterIpsSettings): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataCheckpointManagementSimpleClusterIpsSettingsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataCheckpointManagementSimpleClusterIpsSettings | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataCheckpointManagementSimpleClusterIpsSettings | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // activation_mode - computed: true, optional: false, required: false
+  public get activationMode() {
+    return this.getStringAttribute('activation_mode');
+  }
+
+  // bypass_all_under_load - computed: true, optional: false, required: false
+  public get bypassAllUnderLoad() {
+    return this.getBooleanAttribute('bypass_all_under_load');
+  }
+
+  // bypass_track_method - computed: true, optional: false, required: false
+  public get bypassTrackMethod() {
+    return this.getStringAttribute('bypass_track_method');
+  }
+
+  // cpu_usage_high_threshold - computed: true, optional: false, required: false
+  public get cpuUsageHighThreshold() {
+    return this.getNumberAttribute('cpu_usage_high_threshold');
+  }
+
+  // cpu_usage_low_threshold - computed: true, optional: false, required: false
+  public get cpuUsageLowThreshold() {
+    return this.getNumberAttribute('cpu_usage_low_threshold');
+  }
+
+  // memory_usage_high_threshold - computed: true, optional: false, required: false
+  public get memoryUsageHighThreshold() {
+    return this.getNumberAttribute('memory_usage_high_threshold');
+  }
+
+  // memory_usage_low_threshold - computed: true, optional: false, required: false
+  public get memoryUsageLowThreshold() {
+    return this.getNumberAttribute('memory_usage_low_threshold');
+  }
+
+  // reject_on_cluster_fail_over - computed: true, optional: false, required: false
+  public get rejectOnClusterFailOver() {
+    return this.getBooleanAttribute('reject_on_cluster_fail_over');
+  }
+
+  // send_threat_cloud_info - computed: true, optional: false, required: false
+  public get sendThreatCloudInfo() {
+    return this.getBooleanAttribute('send_threat_cloud_info');
+  }
+
+  // top_cpu_consuming_protections - computed: true, optional: false, required: false
+  private _topCpuConsumingProtections = new DataCheckpointManagementSimpleClusterIpsSettingsTopCpuConsumingProtectionsList(this, "top_cpu_consuming_protections", false);
+  public get topCpuConsumingProtections() {
+    return this._topCpuConsumingProtections;
+  }
+}
+
+export class DataCheckpointManagementSimpleClusterIpsSettingsList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataCheckpointManagementSimpleClusterIpsSettingsOutputReference {
+    return new DataCheckpointManagementSimpleClusterIpsSettingsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface DataCheckpointManagementSimpleClusterMembersInterfaces {
 }
 
@@ -4102,7 +4303,7 @@ export class DataCheckpointManagementSimpleClusterUsercheckPortalSettingsList ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_simple_cluster checkpoint_management_simple_cluster}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_simple_cluster checkpoint_management_simple_cluster}
 */
 export class DataCheckpointManagementSimpleCluster extends cdktf.TerraformDataSource {
 
@@ -4118,7 +4319,7 @@ export class DataCheckpointManagementSimpleCluster extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataCheckpointManagementSimpleCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCheckpointManagementSimpleCluster to import
-  * @param importFromId The id of the existing DataCheckpointManagementSimpleCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_simple_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCheckpointManagementSimpleCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_simple_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCheckpointManagementSimpleCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4130,7 +4331,7 @@ export class DataCheckpointManagementSimpleCluster extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_simple_cluster checkpoint_management_simple_cluster} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_simple_cluster checkpoint_management_simple_cluster} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4141,7 +4342,8 @@ export class DataCheckpointManagementSimpleCluster extends cdktf.TerraformDataSo
       terraformResourceType: 'checkpoint_management_simple_cluster',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -4289,6 +4491,12 @@ export class DataCheckpointManagementSimpleCluster extends cdktf.TerraformDataSo
   // ips - computed: true, optional: false, required: false
   public get ips() {
     return this.getBooleanAttribute('ips');
+  }
+
+  // ips_settings - computed: true, optional: false, required: false
+  private _ipsSettings = new DataCheckpointManagementSimpleClusterIpsSettingsList(this, "ips_settings", false);
+  public get ipsSettings() {
+    return this._ipsSettings;
   }
 
   // ips_update_policy - computed: true, optional: false, required: false

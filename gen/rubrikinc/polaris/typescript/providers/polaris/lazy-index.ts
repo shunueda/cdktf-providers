@@ -10,6 +10,7 @@ Object.defineProperty(exports, 'awsExocompute', { get: function () { return requ
 Object.defineProperty(exports, 'awsExocomputeClusterAttachment', { get: function () { return require('./aws-exocompute-cluster-attachment'); } });
 Object.defineProperty(exports, 'awsPrivateContainerRegistry', { get: function () { return require('./aws-private-container-registry'); } });
 Object.defineProperty(exports, 'azureArchivalLocation', { get: function () { return require('./azure-archival-location'); } });
+Object.defineProperty(exports, 'azureCloudCluster', { get: function () { return require('./azure-cloud-cluster'); } });
 Object.defineProperty(exports, 'azureCustomTags', { get: function () { return require('./azure-custom-tags'); } });
 Object.defineProperty(exports, 'azureExocompute', { get: function () { return require('./azure-exocompute'); } });
 Object.defineProperty(exports, 'azureExocomputeClusterAttachment', { get: function () { return require('./azure-exocompute-cluster-attachment'); } });
@@ -24,6 +25,8 @@ Object.defineProperty(exports, 'customRole', { get: function () { return require
 Object.defineProperty(exports, 'dataCenterArchivalLocationAmazonS3', { get: function () { return require('./data-center-archival-location-amazon-s3'); } });
 Object.defineProperty(exports, 'dataCenterAwsAccount', { get: function () { return require('./data-center-aws-account'); } });
 Object.defineProperty(exports, 'dataCenterAzureSubscription', { get: function () { return require('./data-center-azure-subscription'); } });
+Object.defineProperty(exports, 'gcpArchivalLocation', { get: function () { return require('./gcp-archival-location'); } });
+Object.defineProperty(exports, 'gcpCustomLabels', { get: function () { return require('./gcp-custom-labels'); } });
 Object.defineProperty(exports, 'gcpProject', { get: function () { return require('./gcp-project'); } });
 Object.defineProperty(exports, 'gcpServiceAccount', { get: function () { return require('./gcp-service-account'); } });
 Object.defineProperty(exports, 'roleAssignment', { get: function () { return require('./role-assignment'); } });
@@ -42,7 +45,9 @@ Object.defineProperty(exports, 'dataPolarisDataCenterAwsAccount', { get: functio
 Object.defineProperty(exports, 'dataPolarisDataCenterAzureSubscription', { get: function () { return require('./data-polaris-data-center-azure-subscription'); } });
 Object.defineProperty(exports, 'dataPolarisDeployment', { get: function () { return require('./data-polaris-deployment'); } });
 Object.defineProperty(exports, 'dataPolarisFeatures', { get: function () { return require('./data-polaris-features'); } });
+Object.defineProperty(exports, 'dataPolarisGcpArchivalLocation', { get: function () { return require('./data-polaris-gcp-archival-location'); } });
 Object.defineProperty(exports, 'dataPolarisGcpPermissions', { get: function () { return require('./data-polaris-gcp-permissions'); } });
+Object.defineProperty(exports, 'dataPolarisGcpProject', { get: function () { return require('./data-polaris-gcp-project'); } });
 Object.defineProperty(exports, 'dataPolarisRole', { get: function () { return require('./data-polaris-role'); } });
 Object.defineProperty(exports, 'dataPolarisRoleTemplate', { get: function () { return require('./data-polaris-role-template'); } });
 Object.defineProperty(exports, 'dataPolarisSlaDomain', { get: function () { return require('./data-polaris-sla-domain'); } });

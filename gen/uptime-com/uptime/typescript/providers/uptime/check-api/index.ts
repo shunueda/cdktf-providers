@@ -256,7 +256,8 @@ export class CheckApi extends cdktf.TerraformResource {
       terraformResourceType: 'uptime_check_api',
       terraformGeneratorMetadata: {
         providerName: 'uptime',
-        providerVersion: '2.16.0'
+        providerVersion: '2.16.0',
+        providerVersionConstraint: '2.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

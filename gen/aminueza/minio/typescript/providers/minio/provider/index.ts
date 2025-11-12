@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs
+// https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,91 +10,91 @@ export interface MinioProviderConfig {
   /**
   * MinIO access key (deprecated: use minio_user instead)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs#minio_access_key MinioProvider#minio_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs#minio_access_key MinioProvider#minio_access_key}
   */
   readonly minioAccessKey?: string;
   /**
   * MinIO API Version (v2 or v4)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs#minio_api_version MinioProvider#minio_api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs#minio_api_version MinioProvider#minio_api_version}
   */
   readonly minioApiVersion?: string;
   /**
   * Path to CA certificate file for SSL verification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs#minio_cacert_file MinioProvider#minio_cacert_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs#minio_cacert_file MinioProvider#minio_cacert_file}
   */
   readonly minioCacertFile?: string;
   /**
   * Path to client certificate file for SSL authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs#minio_cert_file MinioProvider#minio_cert_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs#minio_cert_file MinioProvider#minio_cert_file}
   */
   readonly minioCertFile?: string;
   /**
   * Skip SSL certificate verification (not recommended for production)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs#minio_insecure MinioProvider#minio_insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs#minio_insecure MinioProvider#minio_insecure}
   */
   readonly minioInsecure?: boolean | cdktf.IResolvable;
   /**
   * Path to client private key file for SSL authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs#minio_key_file MinioProvider#minio_key_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs#minio_key_file MinioProvider#minio_key_file}
   */
   readonly minioKeyFile?: string;
   /**
   * MinIO password (or secret key) for authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs#minio_password MinioProvider#minio_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs#minio_password MinioProvider#minio_password}
   */
   readonly minioPassword?: string;
   /**
   * MinIO server region (default: us-east-1)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs#minio_region MinioProvider#minio_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs#minio_region MinioProvider#minio_region}
   */
   readonly minioRegion?: string;
   /**
   * MinIO secret key (deprecated: use minio_password instead)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs#minio_secret_key MinioProvider#minio_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs#minio_secret_key MinioProvider#minio_secret_key}
   */
   readonly minioSecretKey?: string;
   /**
   * MinIO server endpoint in the format host:port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs#minio_server MinioProvider#minio_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs#minio_server MinioProvider#minio_server}
   */
   readonly minioServer: string;
   /**
   * MinIO session token for temporary credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs#minio_session_token MinioProvider#minio_session_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs#minio_session_token MinioProvider#minio_session_token}
   */
   readonly minioSessionToken?: string;
   /**
   * Enable SSL/TLS for MinIO connection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs#minio_ssl MinioProvider#minio_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs#minio_ssl MinioProvider#minio_ssl}
   */
   readonly minioSsl?: boolean | cdktf.IResolvable;
   /**
   * MinIO user (or access key) for authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs#minio_user MinioProvider#minio_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs#minio_user MinioProvider#minio_user}
   */
   readonly minioUser?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs#alias MinioProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs#alias MinioProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs minio}
+* Represents a {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs minio}
 */
 export class MinioProvider extends cdktf.TerraformProvider {
 
@@ -110,7 +110,7 @@ export class MinioProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a MinioProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MinioProvider to import
-  * @param importFromId The id of the existing MinioProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MinioProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MinioProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -122,7 +122,7 @@ export class MinioProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs minio} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs minio} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -133,7 +133,8 @@ export class MinioProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'minio',
       terraformGeneratorMetadata: {
         providerName: 'minio',
-        providerVersion: '3.11.3'
+        providerVersion: '3.11.4',
+        providerVersionConstraint: '3.11.4'
       },
       terraformProviderSource: 'aminueza/minio'
     });

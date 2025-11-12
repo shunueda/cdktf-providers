@@ -322,7 +322,8 @@ export class StorageProfileAws extends cdktf.TerraformResource {
       terraformResourceType: 'vra_storage_profile_aws',
       terraformGeneratorMetadata: {
         providerName: 'vra',
-        providerVersion: '0.15.0'
+        providerVersion: '0.15.0',
+        providerVersionConstraint: '0.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

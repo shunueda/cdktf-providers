@@ -25149,7 +25149,8 @@ export class DataK8SScyllaScylladbComScyllaClusterV1Manifest extends cdktf.Terra
       terraformResourceType: 'k8s_scylla_scylladb_com_scylla_cluster_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

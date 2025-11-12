@@ -1130,7 +1130,8 @@ export class Index extends cdktf.TerraformResource {
       terraformResourceType: 'pinecone_index',
       terraformGeneratorMetadata: {
         providerName: 'pinecone',
-        providerVersion: '2.0.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

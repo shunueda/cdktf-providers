@@ -165,7 +165,8 @@ export class DataHarnessPlatformConnectorArtifactory extends cdktf.TerraformData
       terraformResourceType: 'harness_platform_connector_artifactory',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.0'
+        providerVersion: '0.39.0',
+        providerVersionConstraint: '0.39.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

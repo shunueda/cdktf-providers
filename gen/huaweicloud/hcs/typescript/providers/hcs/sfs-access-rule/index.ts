@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/sfs_access_rule
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/sfs_access_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktf from 'cdktf';
 
 export interface SfsAccessRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/sfs_access_rule#access_level SfsAccessRule#access_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/sfs_access_rule#access_level SfsAccessRule#access_level}
   */
   readonly accessLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/sfs_access_rule#access_to SfsAccessRule#access_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/sfs_access_rule#access_to SfsAccessRule#access_to}
   */
   readonly accessTo: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/sfs_access_rule#access_type SfsAccessRule#access_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/sfs_access_rule#access_type SfsAccessRule#access_type}
   */
   readonly accessType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/sfs_access_rule#id SfsAccessRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/sfs_access_rule#id SfsAccessRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/sfs_access_rule#region SfsAccessRule#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/sfs_access_rule#region SfsAccessRule#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/sfs_access_rule#sfs_id SfsAccessRule#sfs_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/sfs_access_rule#sfs_id SfsAccessRule#sfs_id}
   */
   readonly sfsId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/sfs_access_rule#timeouts SfsAccessRule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/sfs_access_rule#timeouts SfsAccessRule#timeouts}
   */
   readonly timeouts?: SfsAccessRuleTimeouts;
 }
 export interface SfsAccessRuleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/sfs_access_rule#create SfsAccessRule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/sfs_access_rule#create SfsAccessRule#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/sfs_access_rule#delete SfsAccessRule#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/sfs_access_rule#delete SfsAccessRule#delete}
   */
   readonly delete?: string;
 }
@@ -170,7 +170,7 @@ export class SfsAccessRuleTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/sfs_access_rule hcs_sfs_access_rule}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/sfs_access_rule hcs_sfs_access_rule}
 */
 export class SfsAccessRule extends cdktf.TerraformResource {
 
@@ -186,7 +186,7 @@ export class SfsAccessRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SfsAccessRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SfsAccessRule to import
-  * @param importFromId The id of the existing SfsAccessRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/sfs_access_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SfsAccessRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/sfs_access_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SfsAccessRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -198,7 +198,7 @@ export class SfsAccessRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/sfs_access_rule hcs_sfs_access_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/sfs_access_rule hcs_sfs_access_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -209,7 +209,8 @@ export class SfsAccessRule extends cdktf.TerraformResource {
       terraformResourceType: 'hcs_sfs_access_rule',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.19'
+        providerVersion: '2.4.20',
+        providerVersionConstraint: '2.4.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

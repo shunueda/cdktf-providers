@@ -735,7 +735,8 @@ export class MdmAcmeIssuer extends cdktf.TerraformResource {
       terraformResourceType: 'zentral_mdm_acme_issuer',
       terraformGeneratorMetadata: {
         providerName: 'zentral',
-        providerVersion: '0.1.64'
+        providerVersion: '0.1.64',
+        providerVersionConstraint: '0.1.64'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

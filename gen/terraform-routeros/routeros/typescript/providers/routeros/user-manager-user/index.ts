@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/user_manager_user
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/user_manager_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface UserManagerUserConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/user_manager_user#___path___ UserManagerUser#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/user_manager_user#___path___ UserManagerUser#___path___}
   */
   readonly path?: string;
   /**
   * A custom set of colon-separated attributes with their values will be added to `Access-Accept` messages for users in this group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/user_manager_user#attributes UserManagerUser#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/user_manager_user#attributes UserManagerUser#attributes}
   */
   readonly attributes?: string[];
   /**
   * Allow user's authentication with a specific Calling-Station-Id value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/user_manager_user#caller_id UserManagerUser#caller_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/user_manager_user#caller_id UserManagerUser#caller_id}
   */
   readonly callerId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/user_manager_user#comment UserManagerUser#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/user_manager_user#comment UserManagerUser#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/user_manager_user#disabled UserManagerUser#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/user_manager_user#disabled UserManagerUser#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Name of the group the user is associated with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/user_manager_user#group UserManagerUser#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/user_manager_user#group UserManagerUser#group}
   */
   readonly group?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/user_manager_user#id UserManagerUser#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/user_manager_user#id UserManagerUser#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -49,31 +49,31 @@ export interface UserManagerUserConfig extends cdktf.TerraformMetaArguments {
   /**
   * Username for session authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/user_manager_user#name UserManagerUser#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/user_manager_user#name UserManagerUser#name}
   */
   readonly name: string;
   /**
   * A token of a one-time code that will be attached to the password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/user_manager_user#otp_secret UserManagerUser#otp_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/user_manager_user#otp_secret UserManagerUser#otp_secret}
   */
   readonly otpSecret?: string;
   /**
   * The password of the user for session authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/user_manager_user#password UserManagerUser#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/user_manager_user#password UserManagerUser#password}
   */
   readonly password?: string;
   /**
   * The total amount of sessions the user can simultaneously establish.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/user_manager_user#shared_users UserManagerUser#shared_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/user_manager_user#shared_users UserManagerUser#shared_users}
   */
   readonly sharedUsers?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/user_manager_user routeros_user_manager_user}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/user_manager_user routeros_user_manager_user}
 */
 export class UserManagerUser extends cdktf.TerraformResource {
 
@@ -89,7 +89,7 @@ export class UserManagerUser extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a UserManagerUser resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the UserManagerUser to import
-  * @param importFromId The id of the existing UserManagerUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/user_manager_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing UserManagerUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/user_manager_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the UserManagerUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -101,7 +101,7 @@ export class UserManagerUser extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/user_manager_user routeros_user_manager_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/user_manager_user routeros_user_manager_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -112,7 +112,8 @@ export class UserManagerUser extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_user_manager_user',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.90.0'
+        providerVersion: '1.91.0',
+        providerVersionConstraint: '1.91.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

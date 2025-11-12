@@ -63,7 +63,8 @@ export class RkeProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'rke',
       terraformGeneratorMetadata: {
         providerName: 'rke',
-        providerVersion: '1.7.5'
+        providerVersion: '1.7.5',
+        providerVersionConstraint: '1.7.5'
       },
       terraformProviderSource: 'rancher/rke'
     });

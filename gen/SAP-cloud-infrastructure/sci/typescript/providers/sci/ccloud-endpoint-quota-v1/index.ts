@@ -80,7 +80,8 @@ export class CcloudEndpointQuotaV1 extends cdktf.TerraformResource {
       terraformResourceType: 'ccloud_endpoint_quota_v1',
       terraformGeneratorMetadata: {
         providerName: 'sci',
-        providerVersion: '2.2.1'
+        providerVersion: '2.2.1',
+        providerVersionConstraint: '2.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

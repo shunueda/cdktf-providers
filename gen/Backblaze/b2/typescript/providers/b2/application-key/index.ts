@@ -80,7 +80,8 @@ export class ApplicationKey extends cdktf.TerraformResource {
       terraformResourceType: 'b2_application_key',
       terraformGeneratorMetadata: {
         providerName: 'b2',
-        providerVersion: '0.10.0'
+        providerVersion: '0.10.0',
+        providerVersionConstraint: '0.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/data-sources/network_device_software
+// https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/network_device_software
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataEquinixNetworkDeviceSoftwareConfig extends cdktf.TerraformM
   /**
   * Code of a device type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/data-sources/network_device_software#device_type DataEquinixNetworkDeviceSoftware#device_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/network_device_software#device_type DataEquinixNetworkDeviceSoftware#device_type}
   */
   readonly deviceType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/data-sources/network_device_software#id DataEquinixNetworkDeviceSoftware#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/network_device_software#id DataEquinixNetworkDeviceSoftware#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface DataEquinixNetworkDeviceSoftwareConfig extends cdktf.TerraformM
   /**
   * Boolean value to indicate that most recent version should be used, in case when more than one result is returned
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/data-sources/network_device_software#most_recent DataEquinixNetworkDeviceSoftware#most_recent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/network_device_software#most_recent DataEquinixNetworkDeviceSoftware#most_recent}
   */
   readonly mostRecent?: boolean | cdktf.IResolvable;
   /**
   * Limits returned versions to those that are supported by given software package codes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/data-sources/network_device_software#packages DataEquinixNetworkDeviceSoftware#packages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/network_device_software#packages DataEquinixNetworkDeviceSoftware#packages}
   */
   readonly packages?: string[];
   /**
   * Boolean value to limit query results to stable versions only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/data-sources/network_device_software#stable DataEquinixNetworkDeviceSoftware#stable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/network_device_software#stable DataEquinixNetworkDeviceSoftware#stable}
   */
   readonly stable?: boolean | cdktf.IResolvable;
   /**
   * A regex string to apply on returned versions and filter search results
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/data-sources/network_device_software#version_regex DataEquinixNetworkDeviceSoftware#version_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/network_device_software#version_regex DataEquinixNetworkDeviceSoftware#version_regex}
   */
   readonly versionRegex?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/data-sources/network_device_software equinix_network_device_software}
+* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/network_device_software equinix_network_device_software}
 */
 export class DataEquinixNetworkDeviceSoftware extends cdktf.TerraformDataSource {
 
@@ -63,7 +63,7 @@ export class DataEquinixNetworkDeviceSoftware extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataEquinixNetworkDeviceSoftware resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataEquinixNetworkDeviceSoftware to import
-  * @param importFromId The id of the existing DataEquinixNetworkDeviceSoftware that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/data-sources/network_device_software#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataEquinixNetworkDeviceSoftware that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/network_device_software#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataEquinixNetworkDeviceSoftware to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class DataEquinixNetworkDeviceSoftware extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/data-sources/network_device_software equinix_network_device_software} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/network_device_software equinix_network_device_software} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,7 +86,8 @@ export class DataEquinixNetworkDeviceSoftware extends cdktf.TerraformDataSource 
       terraformResourceType: 'equinix_network_device_software',
       terraformGeneratorMetadata: {
         providerName: 'equinix',
-        providerVersion: '4.8.0'
+        providerVersion: '4.10.0',
+        providerVersionConstraint: '4.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

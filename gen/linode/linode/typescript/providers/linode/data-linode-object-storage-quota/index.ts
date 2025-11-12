@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/object_storage_quota
+// https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/object_storage_quota
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataLinodeObjectStorageQuotaConfig extends cdktf.TerraformMetaA
   /**
   * The ID of the Object Storage quota.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/object_storage_quota#quota_id DataLinodeObjectStorageQuota#quota_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/object_storage_quota#quota_id DataLinodeObjectStorageQuota#quota_id}
   */
   readonly quotaId: string;
 }
@@ -75,7 +75,7 @@ export class DataLinodeObjectStorageQuotaQuotaUsageOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/object_storage_quota linode_object_storage_quota}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/object_storage_quota linode_object_storage_quota}
 */
 export class DataLinodeObjectStorageQuota extends cdktf.TerraformDataSource {
 
@@ -91,7 +91,7 @@ export class DataLinodeObjectStorageQuota extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataLinodeObjectStorageQuota resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataLinodeObjectStorageQuota to import
-  * @param importFromId The id of the existing DataLinodeObjectStorageQuota that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/object_storage_quota#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataLinodeObjectStorageQuota that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/object_storage_quota#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataLinodeObjectStorageQuota to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -103,7 +103,7 @@ export class DataLinodeObjectStorageQuota extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/object_storage_quota linode_object_storage_quota} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/object_storage_quota linode_object_storage_quota} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -114,7 +114,8 @@ export class DataLinodeObjectStorageQuota extends cdktf.TerraformDataSource {
       terraformResourceType: 'linode_object_storage_quota',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.5.0'
+        providerVersion: '3.5.1',
+        providerVersionConstraint: '3.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

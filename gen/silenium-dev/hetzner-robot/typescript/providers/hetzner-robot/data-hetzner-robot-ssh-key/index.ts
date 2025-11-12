@@ -62,7 +62,8 @@ export class DataHetznerRobotSshKey extends cdktf.TerraformDataSource {
       terraformResourceType: 'hetzner-robot_ssh_key',
       terraformGeneratorMetadata: {
         providerName: 'hetzner-robot',
-        providerVersion: '3.5.5'
+        providerVersion: '3.5.5',
+        providerVersionConstraint: '3.5.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

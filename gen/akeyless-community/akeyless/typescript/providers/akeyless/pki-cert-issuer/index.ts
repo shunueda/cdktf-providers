@@ -284,7 +284,8 @@ export class PkiCertIssuer extends cdktf.TerraformResource {
       terraformResourceType: 'akeyless_pki_cert_issuer',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1'
+        providerVersion: '1.11.1',
+        providerVersionConstraint: '1.11.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -293,7 +293,8 @@ export class ExtensionInstance extends cdktf.TerraformResource {
       terraformResourceType: 'metalcloud_extension_instance',
       terraformGeneratorMetadata: {
         providerName: 'metalcloud',
-        providerVersion: '7.0.10'
+        providerVersion: '7.0.10',
+        providerVersionConstraint: '7.0.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -60,7 +60,8 @@ export class DataFortiosSystemautoupdateTunneling extends cdktf.TerraformDataSou
       terraformResourceType: 'fortios_systemautoupdate_tunneling',
       terraformGeneratorMetadata: {
         providerName: 'fortios',
-        providerVersion: '1.23.0'
+        providerVersion: '1.23.0',
+        providerVersionConstraint: '1.23.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

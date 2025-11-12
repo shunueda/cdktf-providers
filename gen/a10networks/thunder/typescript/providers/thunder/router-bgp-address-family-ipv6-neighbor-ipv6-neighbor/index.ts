@@ -812,7 +812,8 @@ export class RouterBgpAddressFamilyIpv6NeighborIpv6Neighbor extends cdktf.Terraf
       terraformResourceType: 'thunder_router_bgp_address_family_ipv6_neighbor_ipv6_neighbor',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

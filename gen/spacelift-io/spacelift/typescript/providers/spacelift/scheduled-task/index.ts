@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/scheduled_task
+// https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/scheduled_task
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface ScheduledTaskConfig extends cdktf.TerraformMetaArguments {
   /**
   * Timestamp (unix timestamp) at which time the scheduled task should happen.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/scheduled_task#at ScheduledTask#at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/scheduled_task#at ScheduledTask#at}
   */
   readonly at?: number;
   /**
   * Command that will be run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/scheduled_task#command ScheduledTask#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/scheduled_task#command ScheduledTask#command}
   */
   readonly command: string;
   /**
   * List of cron schedule expressions based on which the scheduled task should be triggered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/scheduled_task#every ScheduledTask#every}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/scheduled_task#every ScheduledTask#every}
   */
   readonly every?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/scheduled_task#id ScheduledTask#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/scheduled_task#id ScheduledTask#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,25 +35,25 @@ export interface ScheduledTaskConfig extends cdktf.TerraformMetaArguments {
   /**
   * ID of the schedule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/scheduled_task#schedule_id ScheduledTask#schedule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/scheduled_task#schedule_id ScheduledTask#schedule_id}
   */
   readonly scheduleId?: string;
   /**
   * ID of the stack for which to set up the scheduled task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/scheduled_task#stack_id ScheduledTask#stack_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/scheduled_task#stack_id ScheduledTask#stack_id}
   */
   readonly stackId: string;
   /**
   * Timezone in which the schedule is expressed. Defaults to `UTC`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/scheduled_task#timezone ScheduledTask#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/scheduled_task#timezone ScheduledTask#timezone}
   */
   readonly timezone?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/scheduled_task spacelift_scheduled_task}
+* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/scheduled_task spacelift_scheduled_task}
 */
 export class ScheduledTask extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class ScheduledTask extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ScheduledTask resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ScheduledTask to import
-  * @param importFromId The id of the existing ScheduledTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/scheduled_task#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ScheduledTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/scheduled_task#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ScheduledTask to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class ScheduledTask extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/scheduled_task spacelift_scheduled_task} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/scheduled_task spacelift_scheduled_task} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,7 +92,8 @@ export class ScheduledTask extends cdktf.TerraformResource {
       terraformResourceType: 'spacelift_scheduled_task',
       terraformGeneratorMetadata: {
         providerName: 'spacelift',
-        providerVersion: '1.36.0'
+        providerVersion: '1.37.0',
+        providerVersionConstraint: '1.37.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

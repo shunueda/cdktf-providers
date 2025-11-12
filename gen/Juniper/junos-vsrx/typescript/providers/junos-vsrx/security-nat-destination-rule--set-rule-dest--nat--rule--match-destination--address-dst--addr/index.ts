@@ -78,7 +78,8 @@ export class SecurityNatDestinationRuleSetRuleDestNatRuleMatchDestinationAddress
       terraformResourceType: 'junos-vsrx_SecurityNatDestinationRule__SetRuleDest__Nat__Rule__MatchDestination__AddressDst__Addr',
       terraformGeneratorMetadata: {
         providerName: 'junos-vsrx',
-        providerVersion: '20.32.106'
+        providerVersion: '20.32.106',
+        providerVersionConstraint: '20.32.106'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

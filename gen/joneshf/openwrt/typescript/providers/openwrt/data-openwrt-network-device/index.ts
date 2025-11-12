@@ -58,7 +58,8 @@ export class DataOpenwrtNetworkDevice extends cdktf.TerraformDataSource {
       terraformResourceType: 'openwrt_network_device',
       terraformGeneratorMetadata: {
         providerName: 'openwrt',
-        providerVersion: '0.0.20'
+        providerVersion: '0.0.20',
+        providerVersionConstraint: '0.0.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

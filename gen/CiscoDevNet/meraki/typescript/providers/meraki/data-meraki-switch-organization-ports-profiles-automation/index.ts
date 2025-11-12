@@ -327,7 +327,8 @@ export class DataMerakiSwitchOrganizationPortsProfilesAutomation extends cdktf.T
       terraformResourceType: 'meraki_switch_organization_ports_profiles_automation',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1'
+        providerVersion: '1.7.1',
+        providerVersionConstraint: '1.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

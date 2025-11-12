@@ -1049,7 +1049,8 @@ export class DataCloudflareApiShieldOperations extends cdktf.TerraformDataSource
       terraformResourceType: 'cloudflare_api_shield_operations',
       terraformGeneratorMetadata: {
         providerName: 'cloudflare',
-        providerVersion: '5.12.0'
+        providerVersion: '5.12.0',
+        providerVersionConstraint: '5.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

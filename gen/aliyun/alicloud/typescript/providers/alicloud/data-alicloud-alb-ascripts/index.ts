@@ -286,7 +286,8 @@ export class DataAlicloudAlbAscripts extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_alb_ascripts',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

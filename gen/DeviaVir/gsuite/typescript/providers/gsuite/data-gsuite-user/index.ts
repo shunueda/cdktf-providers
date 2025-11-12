@@ -555,7 +555,8 @@ export class DataGsuiteUser extends cdktf.TerraformDataSource {
       terraformResourceType: 'gsuite_user',
       terraformGeneratorMetadata: {
         providerName: 'gsuite',
-        providerVersion: '0.1.62'
+        providerVersion: '0.1.62',
+        providerVersionConstraint: '0.1.62'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

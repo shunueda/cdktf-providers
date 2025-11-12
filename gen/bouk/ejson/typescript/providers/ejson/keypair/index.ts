@@ -56,7 +56,8 @@ export class Keypair extends cdktf.TerraformResource {
       terraformResourceType: 'ejson_keypair',
       terraformGeneratorMetadata: {
         providerName: 'ejson',
-        providerVersion: '1.2.3'
+        providerVersion: '1.2.3',
+        providerVersionConstraint: '1.2.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

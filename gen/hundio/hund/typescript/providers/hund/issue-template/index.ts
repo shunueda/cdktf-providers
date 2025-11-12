@@ -248,7 +248,8 @@ export class IssueTemplateA extends cdktf.TerraformResource {
       terraformResourceType: 'hund_issue_template',
       terraformGeneratorMetadata: {
         providerName: 'hund',
-        providerVersion: '0.1.0'
+        providerVersion: '0.1.0',
+        providerVersionConstraint: '0.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

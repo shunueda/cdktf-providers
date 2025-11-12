@@ -228,7 +228,8 @@ export class ObjectResource extends cdktf.TerraformResource {
       terraformResourceType: 'kibana_object',
       terraformGeneratorMetadata: {
         providerName: 'kibana',
-        providerVersion: '8.5.3'
+        providerVersion: '8.5.3',
+        providerVersionConstraint: '8.5.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

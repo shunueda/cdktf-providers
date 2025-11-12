@@ -60,7 +60,8 @@ export class DataWavefrontUser extends cdktf.TerraformDataSource {
       terraformResourceType: 'wavefront_user',
       terraformGeneratorMetadata: {
         providerName: 'wavefront',
-        providerVersion: '5.1.0'
+        providerVersion: '5.1.0',
+        providerVersionConstraint: '5.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -85,7 +85,8 @@ export class PolicyDeviceAssuranceAndroid extends cdktf.TerraformResource {
       terraformResourceType: 'okta_policy_device_assurance_android',
       terraformGeneratorMetadata: {
         providerName: 'okta',
-        providerVersion: '6.4.0'
+        providerVersion: '6.4.0',
+        providerVersionConstraint: '6.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

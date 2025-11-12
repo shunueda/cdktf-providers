@@ -68,7 +68,8 @@ export class DataAkamaiAppsecPenaltyBoxConditions extends cdktf.TerraformDataSou
       terraformResourceType: 'akamai_appsec_penalty_box_conditions',
       terraformGeneratorMetadata: {
         providerName: 'akamai',
-        providerVersion: '9.1.0'
+        providerVersion: '9.1.0',
+        providerVersionConstraint: '9.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

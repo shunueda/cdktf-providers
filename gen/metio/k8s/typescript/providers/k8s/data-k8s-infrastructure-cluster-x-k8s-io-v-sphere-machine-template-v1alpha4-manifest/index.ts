@@ -2314,7 +2314,8 @@ export class DataK8SInfrastructureClusterXK8SIoVSphereMachineTemplateV1Alpha4Man
       terraformResourceType: 'k8s_infrastructure_cluster_x_k8s_io_v_sphere_machine_template_v1alpha4_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

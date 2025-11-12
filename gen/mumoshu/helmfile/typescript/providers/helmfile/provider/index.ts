@@ -59,7 +59,8 @@ export class HelmfileProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'helmfile',
       terraformGeneratorMetadata: {
         providerName: 'helmfile',
-        providerVersion: '0.14.1'
+        providerVersion: '0.14.1',
+        providerVersionConstraint: '0.14.1'
       },
       terraformProviderSource: 'mumoshu/helmfile'
     });

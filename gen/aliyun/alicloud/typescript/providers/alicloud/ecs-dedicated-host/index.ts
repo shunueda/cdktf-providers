@@ -421,7 +421,8 @@ export class EcsDedicatedHost extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_ecs_dedicated_host',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

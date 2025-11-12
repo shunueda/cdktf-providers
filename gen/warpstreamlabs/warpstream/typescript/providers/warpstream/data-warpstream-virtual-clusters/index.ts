@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.2/docs/data-sources/virtual_clusters
+// https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.3/docs/data-sources/virtual_clusters
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -221,7 +221,7 @@ export class DataWarpstreamVirtualClustersVirtualClustersList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.2/docs/data-sources/virtual_clusters warpstream_virtual_clusters}
+* Represents a {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.3/docs/data-sources/virtual_clusters warpstream_virtual_clusters}
 */
 export class DataWarpstreamVirtualClusters extends cdktf.TerraformDataSource {
 
@@ -237,7 +237,7 @@ export class DataWarpstreamVirtualClusters extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataWarpstreamVirtualClusters resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataWarpstreamVirtualClusters to import
-  * @param importFromId The id of the existing DataWarpstreamVirtualClusters that should be imported. Refer to the {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.2/docs/data-sources/virtual_clusters#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataWarpstreamVirtualClusters that should be imported. Refer to the {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.3/docs/data-sources/virtual_clusters#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataWarpstreamVirtualClusters to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -249,7 +249,7 @@ export class DataWarpstreamVirtualClusters extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.2/docs/data-sources/virtual_clusters warpstream_virtual_clusters} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.3/docs/data-sources/virtual_clusters warpstream_virtual_clusters} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -260,7 +260,8 @@ export class DataWarpstreamVirtualClusters extends cdktf.TerraformDataSource {
       terraformResourceType: 'warpstream_virtual_clusters',
       terraformGeneratorMetadata: {
         providerName: 'warpstream',
-        providerVersion: '2.2.2'
+        providerVersion: '2.2.3',
+        providerVersionConstraint: '2.2.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

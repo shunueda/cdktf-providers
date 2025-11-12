@@ -93,7 +93,8 @@ export class FabricL3HandoffSdaTransit extends cdktf.TerraformResource {
       terraformResourceType: 'catalystcenter_fabric_l3_handoff_sda_transit',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.2'
+        providerVersion: '0.4.2',
+        providerVersionConstraint: '0.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

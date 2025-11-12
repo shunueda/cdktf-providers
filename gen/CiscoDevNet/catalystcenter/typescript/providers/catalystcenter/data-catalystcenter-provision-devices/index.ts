@@ -154,7 +154,8 @@ export class DataCatalystcenterProvisionDevices extends cdktf.TerraformDataSourc
       terraformResourceType: 'catalystcenter_provision_devices',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.2'
+        providerVersion: '0.4.2',
+        providerVersionConstraint: '0.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

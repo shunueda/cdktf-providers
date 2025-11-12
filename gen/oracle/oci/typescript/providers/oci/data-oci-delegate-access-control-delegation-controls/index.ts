@@ -517,7 +517,8 @@ export class DataOciDelegateAccessControlDelegationControls extends cdktf.Terraf
       terraformResourceType: 'oci_delegate_access_control_delegation_controls',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

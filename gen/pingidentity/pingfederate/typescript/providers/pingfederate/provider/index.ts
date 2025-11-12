@@ -133,7 +133,8 @@ export class PingfederateProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'pingfederate',
       terraformGeneratorMetadata: {
         providerName: 'pingfederate',
-        providerVersion: '1.6.2'
+        providerVersion: '1.6.2',
+        providerVersionConstraint: '1.6.2'
       },
       terraformProviderSource: 'pingidentity/pingfederate'
     });

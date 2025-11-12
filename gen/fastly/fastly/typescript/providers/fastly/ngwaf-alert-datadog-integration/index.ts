@@ -80,7 +80,8 @@ export class NgwafAlertDatadogIntegration extends cdktf.TerraformResource {
       terraformResourceType: 'fastly_ngwaf_alert_datadog_integration',
       terraformGeneratorMetadata: {
         providerName: 'fastly',
-        providerVersion: '8.4.0'
+        providerVersion: '8.4.0',
+        providerVersionConstraint: '8.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

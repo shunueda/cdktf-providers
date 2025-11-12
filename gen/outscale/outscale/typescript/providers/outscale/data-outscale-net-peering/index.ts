@@ -535,7 +535,8 @@ export class DataOutscaleNetPeering extends cdktf.TerraformDataSource {
       terraformResourceType: 'outscale_net_peering',
       terraformGeneratorMetadata: {
         providerName: 'outscale',
-        providerVersion: '1.2.1'
+        providerVersion: '1.2.1',
+        providerVersionConstraint: '1.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

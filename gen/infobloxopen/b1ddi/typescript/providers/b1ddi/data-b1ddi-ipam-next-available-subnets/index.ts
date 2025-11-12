@@ -4095,7 +4095,8 @@ export class DataB1DdiIpamNextAvailableSubnets extends cdktf.TerraformDataSource
       terraformResourceType: 'b1ddi_ipam_next_available_subnets',
       terraformGeneratorMetadata: {
         providerName: 'b1ddi',
-        providerVersion: '0.1.5'
+        providerVersion: '0.1.5',
+        providerVersionConstraint: '0.1.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

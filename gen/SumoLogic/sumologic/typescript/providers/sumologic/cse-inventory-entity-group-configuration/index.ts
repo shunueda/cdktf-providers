@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cse_inventory_entity_group_configuration
+// https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_inventory_entity_group_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,64 +8,64 @@ import * as cdktf from 'cdktf';
 
 export interface CseInventoryEntityGroupConfigurationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cse_inventory_entity_group_configuration#criticality CseInventoryEntityGroupConfiguration#criticality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_inventory_entity_group_configuration#criticality CseInventoryEntityGroupConfiguration#criticality}
   */
   readonly criticality?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cse_inventory_entity_group_configuration#description CseInventoryEntityGroupConfiguration#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_inventory_entity_group_configuration#description CseInventoryEntityGroupConfiguration#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cse_inventory_entity_group_configuration#dynamic_tags CseInventoryEntityGroupConfiguration#dynamic_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_inventory_entity_group_configuration#dynamic_tags CseInventoryEntityGroupConfiguration#dynamic_tags}
   */
   readonly dynamicTags?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cse_inventory_entity_group_configuration#group CseInventoryEntityGroupConfiguration#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_inventory_entity_group_configuration#group CseInventoryEntityGroupConfiguration#group}
   */
   readonly group?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cse_inventory_entity_group_configuration#id CseInventoryEntityGroupConfiguration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_inventory_entity_group_configuration#id CseInventoryEntityGroupConfiguration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cse_inventory_entity_group_configuration#inventory_key CseInventoryEntityGroupConfiguration#inventory_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_inventory_entity_group_configuration#inventory_key CseInventoryEntityGroupConfiguration#inventory_key}
   */
   readonly inventoryKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cse_inventory_entity_group_configuration#inventory_source CseInventoryEntityGroupConfiguration#inventory_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_inventory_entity_group_configuration#inventory_source CseInventoryEntityGroupConfiguration#inventory_source}
   */
   readonly inventorySource: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cse_inventory_entity_group_configuration#inventory_type CseInventoryEntityGroupConfiguration#inventory_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_inventory_entity_group_configuration#inventory_type CseInventoryEntityGroupConfiguration#inventory_type}
   */
   readonly inventoryType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cse_inventory_entity_group_configuration#inventory_value CseInventoryEntityGroupConfiguration#inventory_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_inventory_entity_group_configuration#inventory_value CseInventoryEntityGroupConfiguration#inventory_value}
   */
   readonly inventoryValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cse_inventory_entity_group_configuration#name CseInventoryEntityGroupConfiguration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_inventory_entity_group_configuration#name CseInventoryEntityGroupConfiguration#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cse_inventory_entity_group_configuration#suppressed CseInventoryEntityGroupConfiguration#suppressed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_inventory_entity_group_configuration#suppressed CseInventoryEntityGroupConfiguration#suppressed}
   */
   readonly suppressed?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cse_inventory_entity_group_configuration#tag_schema CseInventoryEntityGroupConfiguration#tag_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_inventory_entity_group_configuration#tag_schema CseInventoryEntityGroupConfiguration#tag_schema}
   */
   readonly tagSchema?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cse_inventory_entity_group_configuration#tags CseInventoryEntityGroupConfiguration#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_inventory_entity_group_configuration#tags CseInventoryEntityGroupConfiguration#tags}
   */
   readonly tags?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cse_inventory_entity_group_configuration sumologic_cse_inventory_entity_group_configuration}
+* Represents a {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_inventory_entity_group_configuration sumologic_cse_inventory_entity_group_configuration}
 */
 export class CseInventoryEntityGroupConfiguration extends cdktf.TerraformResource {
 
@@ -81,7 +81,7 @@ export class CseInventoryEntityGroupConfiguration extends cdktf.TerraformResourc
   * Generates CDKTF code for importing a CseInventoryEntityGroupConfiguration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CseInventoryEntityGroupConfiguration to import
-  * @param importFromId The id of the existing CseInventoryEntityGroupConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cse_inventory_entity_group_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CseInventoryEntityGroupConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_inventory_entity_group_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CseInventoryEntityGroupConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +93,7 @@ export class CseInventoryEntityGroupConfiguration extends cdktf.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cse_inventory_entity_group_configuration sumologic_cse_inventory_entity_group_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_inventory_entity_group_configuration sumologic_cse_inventory_entity_group_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,7 +104,8 @@ export class CseInventoryEntityGroupConfiguration extends cdktf.TerraformResourc
       terraformResourceType: 'sumologic_cse_inventory_entity_group_configuration',
       terraformGeneratorMetadata: {
         providerName: 'sumologic',
-        providerVersion: '3.1.7'
+        providerVersion: '3.1.8',
+        providerVersionConstraint: '3.1.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

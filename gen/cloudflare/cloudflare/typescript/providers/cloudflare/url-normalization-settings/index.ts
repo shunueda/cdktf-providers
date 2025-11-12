@@ -69,7 +69,8 @@ export class UrlNormalizationSettings extends cdktf.TerraformResource {
       terraformResourceType: 'cloudflare_url_normalization_settings',
       terraformGeneratorMetadata: {
         providerName: 'cloudflare',
-        providerVersion: '5.12.0'
+        providerVersion: '5.12.0',
+        providerVersionConstraint: '5.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -157,7 +157,8 @@ export class DataFivetranUserConnectorMemberships extends cdktf.TerraformDataSou
       terraformResourceType: 'fivetran_user_connector_memberships',
       terraformGeneratorMetadata: {
         providerName: 'fivetran',
-        providerVersion: '1.9.13'
+        providerVersion: '1.9.13',
+        providerVersionConstraint: '1.9.13'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

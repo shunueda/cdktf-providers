@@ -309,7 +309,8 @@ export class DataInfraGroups extends cdktf.TerraformDataSource {
       terraformResourceType: 'infra_groups',
       terraformGeneratorMetadata: {
         providerName: 'infra',
-        providerVersion: '0.3.0'
+        providerVersion: '0.3.0',
+        providerVersionConstraint: '0.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

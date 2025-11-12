@@ -408,7 +408,8 @@ export class CcloudBgpvpnInterconnectionV2 extends cdktf.TerraformResource {
       terraformResourceType: 'ccloud_bgpvpn_interconnection_v2',
       terraformGeneratorMetadata: {
         providerName: 'sci',
-        providerVersion: '2.2.1'
+        providerVersion: '2.2.1',
+        providerVersionConstraint: '2.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

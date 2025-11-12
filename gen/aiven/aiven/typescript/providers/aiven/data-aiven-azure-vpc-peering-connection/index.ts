@@ -92,7 +92,8 @@ export class DataAivenAzureVpcPeeringConnection extends cdktf.TerraformDataSourc
       terraformResourceType: 'aiven_azure_vpc_peering_connection',
       terraformGeneratorMetadata: {
         providerName: 'aiven',
-        providerVersion: '4.46.1'
+        providerVersion: '4.46.1',
+        providerVersionConstraint: '4.46.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

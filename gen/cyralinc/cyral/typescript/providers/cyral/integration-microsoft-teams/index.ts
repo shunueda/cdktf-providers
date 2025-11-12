@@ -61,7 +61,8 @@ export class IntegrationMicrosoftTeams extends cdktf.TerraformResource {
       terraformResourceType: 'cyral_integration_microsoft_teams',
       terraformGeneratorMetadata: {
         providerName: 'cyral',
-        providerVersion: '4.16.3'
+        providerVersion: '4.16.3',
+        providerVersionConstraint: '4.16.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

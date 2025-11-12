@@ -195,7 +195,8 @@ export class DataTencentcloudDlcDescribeDataEngineImageVersions extends cdktf.Te
       terraformResourceType: 'tencentcloud_dlc_describe_data_engine_image_versions',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

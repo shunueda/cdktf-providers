@@ -301,7 +301,8 @@ export class AccountsImportIncrementalJobResource extends cdktf.TerraformResourc
       terraformResourceType: 'saviynt_accounts_import_incremental_job_resource',
       terraformGeneratorMetadata: {
         providerName: 'saviynt',
-        providerVersion: '0.2.13'
+        providerVersion: '0.2.13',
+        providerVersionConstraint: '0.2.13'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

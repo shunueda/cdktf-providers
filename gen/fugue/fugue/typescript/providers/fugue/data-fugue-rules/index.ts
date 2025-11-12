@@ -209,7 +209,8 @@ export class DataFugueRules extends cdktf.TerraformDataSource {
       terraformResourceType: 'fugue_rules',
       terraformGeneratorMetadata: {
         providerName: 'fugue',
-        providerVersion: '0.0.11'
+        providerVersion: '0.0.11',
+        providerVersionConstraint: '0.0.11'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

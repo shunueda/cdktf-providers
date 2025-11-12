@@ -116,7 +116,8 @@ export class KvBucket extends cdktf.TerraformResource {
       terraformResourceType: 'jetstream_kv_bucket',
       terraformGeneratorMetadata: {
         providerName: 'jetstream',
-        providerVersion: '0.2.1'
+        providerVersion: '0.2.1',
+        providerVersionConstraint: '0.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

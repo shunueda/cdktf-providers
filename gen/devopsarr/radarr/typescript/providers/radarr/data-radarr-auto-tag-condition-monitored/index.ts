@@ -67,7 +67,8 @@ export class DataRadarrAutoTagConditionMonitored extends cdktf.TerraformDataSour
       terraformResourceType: 'radarr_auto_tag_condition_monitored',
       terraformGeneratorMetadata: {
         providerName: 'radarr',
-        providerVersion: '2.3.3'
+        providerVersion: '2.3.3',
+        providerVersionConstraint: '2.3.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/mongodb_instance
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/mongodb_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,599 +8,134 @@ import * as cdktf from 'cdktf';
 
 export interface MongodbInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/mongodb_instance#account_password MongodbInstance#account_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/mongodb_instance#account_password MongodbInstance#account_password}
   */
   readonly accountPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/mongodb_instance#audit_status MongodbInstance#audit_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/mongodb_instance#audit_status MongodbInstance#audit_status}
   */
   readonly auditStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/mongodb_instance#backup_period MongodbInstance#backup_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/mongodb_instance#backup_period MongodbInstance#backup_period}
   */
   readonly backupPeriod?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/mongodb_instance#backup_time MongodbInstance#backup_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/mongodb_instance#backup_time MongodbInstance#backup_time}
   */
   readonly backupTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/mongodb_instance#db_instance_class MongodbInstance#db_instance_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/mongodb_instance#db_instance_class MongodbInstance#db_instance_class}
   */
   readonly dbInstanceClass: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/mongodb_instance#db_instance_description MongodbInstance#db_instance_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/mongodb_instance#db_instance_description MongodbInstance#db_instance_description}
   */
   readonly dbInstanceDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/mongodb_instance#db_instance_storage MongodbInstance#db_instance_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/mongodb_instance#db_instance_storage MongodbInstance#db_instance_storage}
   */
   readonly dbInstanceStorage: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/mongodb_instance#enable_public_connection MongodbInstance#enable_public_connection}
-  */
-  readonly enablePublicConnection?: boolean | cdktf.IResolvable;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/mongodb_instance#engine_version MongodbInstance#engine_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/mongodb_instance#engine_version MongodbInstance#engine_version}
   */
   readonly engineVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/mongodb_instance#id MongodbInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/mongodb_instance#id MongodbInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/mongodb_instance#instance_charge_type MongodbInstance#instance_charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/mongodb_instance#instance_charge_type MongodbInstance#instance_charge_type}
   */
   readonly instanceChargeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/mongodb_instance#kms_encrypted_password MongodbInstance#kms_encrypted_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/mongodb_instance#kms_encrypted_password MongodbInstance#kms_encrypted_password}
   */
   readonly kmsEncryptedPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/mongodb_instance#kms_encryption_context MongodbInstance#kms_encryption_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/mongodb_instance#kms_encryption_context MongodbInstance#kms_encryption_context}
   */
   readonly kmsEncryptionContext?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/mongodb_instance#maintain_end_time MongodbInstance#maintain_end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/mongodb_instance#maintain_end_time MongodbInstance#maintain_end_time}
   */
   readonly maintainEndTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/mongodb_instance#maintain_start_time MongodbInstance#maintain_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/mongodb_instance#maintain_start_time MongodbInstance#maintain_start_time}
   */
   readonly maintainStartTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/mongodb_instance#name MongodbInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/mongodb_instance#name MongodbInstance#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/mongodb_instance#period MongodbInstance#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/mongodb_instance#period MongodbInstance#period}
   */
   readonly period?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/mongodb_instance#preferred_backup_period MongodbInstance#preferred_backup_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/mongodb_instance#preferred_backup_period MongodbInstance#preferred_backup_period}
   */
   readonly preferredBackupPeriod?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/mongodb_instance#preferred_backup_time MongodbInstance#preferred_backup_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/mongodb_instance#preferred_backup_time MongodbInstance#preferred_backup_time}
   */
   readonly preferredBackupTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/mongodb_instance#replication_factor MongodbInstance#replication_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/mongodb_instance#replication_factor MongodbInstance#replication_factor}
   */
   readonly replicationFactor?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/mongodb_instance#security_ip_list MongodbInstance#security_ip_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/mongodb_instance#security_group_id MongodbInstance#security_group_id}
+  */
+  readonly securityGroupId?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/mongodb_instance#security_ip_list MongodbInstance#security_ip_list}
   */
   readonly securityIpList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/mongodb_instance#ssl_action MongodbInstance#ssl_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/mongodb_instance#ssl_action MongodbInstance#ssl_action}
   */
   readonly sslAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/mongodb_instance#storage_engine MongodbInstance#storage_engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/mongodb_instance#storage_engine MongodbInstance#storage_engine}
   */
   readonly storageEngine?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/mongodb_instance#tde_status MongodbInstance#tde_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/mongodb_instance#tags MongodbInstance#tags}
+  */
+  readonly tags?: { [key: string]: string };
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/mongodb_instance#tde_status MongodbInstance#tde_status}
   */
   readonly tdeStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/mongodb_instance#vswitch_id MongodbInstance#vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/mongodb_instance#vswitch_id MongodbInstance#vswitch_id}
   */
   readonly vswitchId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/mongodb_instance#zone_id MongodbInstance#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/mongodb_instance#zone_id MongodbInstance#zone_id}
   */
   readonly zoneId?: string;
   /**
-  * audit_filter block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/mongodb_instance#audit_filter MongodbInstance#audit_filter}
-  */
-  readonly auditFilter?: MongodbInstanceAuditFilter[] | cdktf.IResolvable;
-  /**
-  * private_connections block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/mongodb_instance#private_connections MongodbInstance#private_connections}
-  */
-  readonly privateConnections?: MongodbInstancePrivateConnections[] | cdktf.IResolvable;
-  /**
-  * public_connections block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/mongodb_instance#public_connections MongodbInstance#public_connections}
-  */
-  readonly publicConnections?: MongodbInstancePublicConnections[] | cdktf.IResolvable;
-  /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/mongodb_instance#timeouts MongodbInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/mongodb_instance#timeouts MongodbInstance#timeouts}
   */
   readonly timeouts?: MongodbInstanceTimeouts;
 }
-export interface MongodbInstanceAuditFilter {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/mongodb_instance#filters MongodbInstance#filters}
-  */
-  readonly filters: string[];
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/mongodb_instance#role_type MongodbInstance#role_type}
-  */
-  readonly roleType: string;
-}
-
-export function mongodbInstanceAuditFilterToTerraform(struct?: MongodbInstanceAuditFilter | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    filters: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.filters),
-    role_type: cdktf.stringToTerraform(struct!.roleType),
-  }
-}
-
-
-export function mongodbInstanceAuditFilterToHclTerraform(struct?: MongodbInstanceAuditFilter | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    filters: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.filters),
-      isBlock: false,
-      type: "set",
-      storageClassType: "stringList",
-    },
-    role_type: {
-      value: cdktf.stringToHclTerraform(struct!.roleType),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class MongodbInstanceAuditFilterOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): MongodbInstanceAuditFilter | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._filters !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.filters = this._filters;
-    }
-    if (this._roleType !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.roleType = this._roleType;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: MongodbInstanceAuditFilter | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._filters = undefined;
-      this._roleType = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._filters = value.filters;
-      this._roleType = value.roleType;
-    }
-  }
-
-  // filters - computed: false, optional: false, required: true
-  private _filters?: string[]; 
-  public get filters() {
-    return cdktf.Fn.tolist(this.getListAttribute('filters'));
-  }
-  public set filters(value: string[]) {
-    this._filters = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get filtersInput() {
-    return this._filters;
-  }
-
-  // role_type - computed: false, optional: false, required: true
-  private _roleType?: string; 
-  public get roleType() {
-    return this.getStringAttribute('role_type');
-  }
-  public set roleType(value: string) {
-    this._roleType = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get roleTypeInput() {
-    return this._roleType;
-  }
-}
-
-export class MongodbInstanceAuditFilterList extends cdktf.ComplexList {
-  public internalValue? : MongodbInstanceAuditFilter[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): MongodbInstanceAuditFilterOutputReference {
-    return new MongodbInstanceAuditFilterOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface MongodbInstancePrivateConnections {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/mongodb_instance#connect_port MongodbInstance#connect_port}
-  */
-  readonly connectPort?: number;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/mongodb_instance#connect_string_prefix MongodbInstance#connect_string_prefix}
-  */
-  readonly connectStringPrefix?: string;
-}
-
-export function mongodbInstancePrivateConnectionsToTerraform(struct?: MongodbInstancePrivateConnections | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    connect_port: cdktf.numberToTerraform(struct!.connectPort),
-    connect_string_prefix: cdktf.stringToTerraform(struct!.connectStringPrefix),
-  }
-}
-
-
-export function mongodbInstancePrivateConnectionsToHclTerraform(struct?: MongodbInstancePrivateConnections | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    connect_port: {
-      value: cdktf.numberToHclTerraform(struct!.connectPort),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    connect_string_prefix: {
-      value: cdktf.stringToHclTerraform(struct!.connectStringPrefix),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class MongodbInstancePrivateConnectionsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): MongodbInstancePrivateConnections | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._connectPort !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.connectPort = this._connectPort;
-    }
-    if (this._connectStringPrefix !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.connectStringPrefix = this._connectStringPrefix;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: MongodbInstancePrivateConnections | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._connectPort = undefined;
-      this._connectStringPrefix = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._connectPort = value.connectPort;
-      this._connectStringPrefix = value.connectStringPrefix;
-    }
-  }
-
-  // connect_port - computed: true, optional: true, required: false
-  private _connectPort?: number; 
-  public get connectPort() {
-    return this.getNumberAttribute('connect_port');
-  }
-  public set connectPort(value: number) {
-    this._connectPort = value;
-  }
-  public resetConnectPort() {
-    this._connectPort = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get connectPortInput() {
-    return this._connectPort;
-  }
-
-  // connect_string - computed: true, optional: false, required: false
-  public get connectString() {
-    return this.getStringAttribute('connect_string');
-  }
-
-  // connect_string_prefix - computed: true, optional: true, required: false
-  private _connectStringPrefix?: string; 
-  public get connectStringPrefix() {
-    return this.getStringAttribute('connect_string_prefix');
-  }
-  public set connectStringPrefix(value: string) {
-    this._connectStringPrefix = value;
-  }
-  public resetConnectStringPrefix() {
-    this._connectStringPrefix = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get connectStringPrefixInput() {
-    return this._connectStringPrefix;
-  }
-}
-
-export class MongodbInstancePrivateConnectionsList extends cdktf.ComplexList {
-  public internalValue? : MongodbInstancePrivateConnections[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): MongodbInstancePrivateConnectionsOutputReference {
-    return new MongodbInstancePrivateConnectionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface MongodbInstancePublicConnections {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/mongodb_instance#connect_port MongodbInstance#connect_port}
-  */
-  readonly connectPort?: number;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/mongodb_instance#connect_string_prefix MongodbInstance#connect_string_prefix}
-  */
-  readonly connectStringPrefix?: string;
-}
-
-export function mongodbInstancePublicConnectionsToTerraform(struct?: MongodbInstancePublicConnections | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    connect_port: cdktf.numberToTerraform(struct!.connectPort),
-    connect_string_prefix: cdktf.stringToTerraform(struct!.connectStringPrefix),
-  }
-}
-
-
-export function mongodbInstancePublicConnectionsToHclTerraform(struct?: MongodbInstancePublicConnections | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    connect_port: {
-      value: cdktf.numberToHclTerraform(struct!.connectPort),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    connect_string_prefix: {
-      value: cdktf.stringToHclTerraform(struct!.connectStringPrefix),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class MongodbInstancePublicConnectionsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): MongodbInstancePublicConnections | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._connectPort !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.connectPort = this._connectPort;
-    }
-    if (this._connectStringPrefix !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.connectStringPrefix = this._connectStringPrefix;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: MongodbInstancePublicConnections | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._connectPort = undefined;
-      this._connectStringPrefix = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._connectPort = value.connectPort;
-      this._connectStringPrefix = value.connectStringPrefix;
-    }
-  }
-
-  // connect_port - computed: true, optional: true, required: false
-  private _connectPort?: number; 
-  public get connectPort() {
-    return this.getNumberAttribute('connect_port');
-  }
-  public set connectPort(value: number) {
-    this._connectPort = value;
-  }
-  public resetConnectPort() {
-    this._connectPort = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get connectPortInput() {
-    return this._connectPort;
-  }
-
-  // connect_string - computed: true, optional: false, required: false
-  public get connectString() {
-    return this.getStringAttribute('connect_string');
-  }
-
-  // connect_string_prefix - computed: true, optional: true, required: false
-  private _connectStringPrefix?: string; 
-  public get connectStringPrefix() {
-    return this.getStringAttribute('connect_string_prefix');
-  }
-  public set connectStringPrefix(value: string) {
-    this._connectStringPrefix = value;
-  }
-  public resetConnectStringPrefix() {
-    this._connectStringPrefix = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get connectStringPrefixInput() {
-    return this._connectStringPrefix;
-  }
-}
-
-export class MongodbInstancePublicConnectionsList extends cdktf.ComplexList {
-  public internalValue? : MongodbInstancePublicConnections[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): MongodbInstancePublicConnectionsOutputReference {
-    return new MongodbInstancePublicConnectionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
 export interface MongodbInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/mongodb_instance#create MongodbInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/mongodb_instance#create MongodbInstance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/mongodb_instance#delete MongodbInstance#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/mongodb_instance#delete MongodbInstance#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/mongodb_instance#update MongodbInstance#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/mongodb_instance#update MongodbInstance#update}
   */
   readonly update?: string;
 }
@@ -752,7 +287,7 @@ export class MongodbInstanceTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/mongodb_instance alibabacloudstack_mongodb_instance}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/mongodb_instance alibabacloudstack_mongodb_instance}
 */
 export class MongodbInstance extends cdktf.TerraformResource {
 
@@ -768,7 +303,7 @@ export class MongodbInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MongodbInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MongodbInstance to import
-  * @param importFromId The id of the existing MongodbInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/mongodb_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MongodbInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/mongodb_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MongodbInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -780,7 +315,7 @@ export class MongodbInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/mongodb_instance alibabacloudstack_mongodb_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/mongodb_instance alibabacloudstack_mongodb_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -791,7 +326,8 @@ export class MongodbInstance extends cdktf.TerraformResource {
       terraformResourceType: 'alibabacloudstack_mongodb_instance',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.19'
+        providerVersion: '3.16.21',
+        providerVersionConstraint: '3.16.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -808,7 +344,6 @@ export class MongodbInstance extends cdktf.TerraformResource {
     this._dbInstanceClass = config.dbInstanceClass;
     this._dbInstanceDescription = config.dbInstanceDescription;
     this._dbInstanceStorage = config.dbInstanceStorage;
-    this._enablePublicConnection = config.enablePublicConnection;
     this._engineVersion = config.engineVersion;
     this._id = config.id;
     this._instanceChargeType = config.instanceChargeType;
@@ -821,15 +356,14 @@ export class MongodbInstance extends cdktf.TerraformResource {
     this._preferredBackupPeriod = config.preferredBackupPeriod;
     this._preferredBackupTime = config.preferredBackupTime;
     this._replicationFactor = config.replicationFactor;
+    this._securityGroupId = config.securityGroupId;
     this._securityIpList = config.securityIpList;
     this._sslAction = config.sslAction;
     this._storageEngine = config.storageEngine;
+    this._tags = config.tags;
     this._tdeStatus = config.tdeStatus;
     this._vswitchId = config.vswitchId;
     this._zoneId = config.zoneId;
-    this._auditFilter.internalValue = config.auditFilter;
-    this._privateConnections.internalValue = config.privateConnections;
-    this._publicConnections.internalValue = config.publicConnections;
     this._timeouts.internalValue = config.timeouts;
   }
 
@@ -941,22 +475,6 @@ export class MongodbInstance extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get dbInstanceStorageInput() {
     return this._dbInstanceStorage;
-  }
-
-  // enable_public_connection - computed: false, optional: true, required: false
-  private _enablePublicConnection?: boolean | cdktf.IResolvable; 
-  public get enablePublicConnection() {
-    return this.getBooleanAttribute('enable_public_connection');
-  }
-  public set enablePublicConnection(value: boolean | cdktf.IResolvable) {
-    this._enablePublicConnection = value;
-  }
-  public resetEnablePublicConnection() {
-    this._enablePublicConnection = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get enablePublicConnectionInput() {
-    return this._enablePublicConnection;
   }
 
   // engine_version - computed: false, optional: false, required: true
@@ -1158,6 +676,22 @@ export class MongodbInstance extends cdktf.TerraformResource {
     return this.getNumberAttribute('retention_period');
   }
 
+  // security_group_id - computed: true, optional: true, required: false
+  private _securityGroupId?: string; 
+  public get securityGroupId() {
+    return this.getStringAttribute('security_group_id');
+  }
+  public set securityGroupId(value: string) {
+    this._securityGroupId = value;
+  }
+  public resetSecurityGroupId() {
+    this._securityGroupId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get securityGroupIdInput() {
+    return this._securityGroupId;
+  }
+
   // security_ip_list - computed: true, optional: true, required: false
   private _securityIpList?: string[]; 
   public get securityIpList() {
@@ -1174,7 +708,7 @@ export class MongodbInstance extends cdktf.TerraformResource {
     return this._securityIpList;
   }
 
-  // ssl_action - computed: false, optional: true, required: false
+  // ssl_action - computed: true, optional: true, required: false
   private _sslAction?: string; 
   public get sslAction() {
     return this.getStringAttribute('ssl_action');
@@ -1204,6 +738,22 @@ export class MongodbInstance extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get storageEngineInput() {
     return this._storageEngine;
+  }
+
+  // tags - computed: false, optional: true, required: false
+  private _tags?: { [key: string]: string }; 
+  public get tags() {
+    return this.getStringMapAttribute('tags');
+  }
+  public set tags(value: { [key: string]: string }) {
+    this._tags = value;
+  }
+  public resetTags() {
+    this._tags = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tagsInput() {
+    return this._tags;
   }
 
   // tde_status - computed: false, optional: true, required: false
@@ -1254,54 +804,6 @@ export class MongodbInstance extends cdktf.TerraformResource {
     return this._zoneId;
   }
 
-  // audit_filter - computed: false, optional: true, required: false
-  private _auditFilter = new MongodbInstanceAuditFilterList(this, "audit_filter", true);
-  public get auditFilter() {
-    return this._auditFilter;
-  }
-  public putAuditFilter(value: MongodbInstanceAuditFilter[] | cdktf.IResolvable) {
-    this._auditFilter.internalValue = value;
-  }
-  public resetAuditFilter() {
-    this._auditFilter.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get auditFilterInput() {
-    return this._auditFilter.internalValue;
-  }
-
-  // private_connections - computed: false, optional: true, required: false
-  private _privateConnections = new MongodbInstancePrivateConnectionsList(this, "private_connections", true);
-  public get privateConnections() {
-    return this._privateConnections;
-  }
-  public putPrivateConnections(value: MongodbInstancePrivateConnections[] | cdktf.IResolvable) {
-    this._privateConnections.internalValue = value;
-  }
-  public resetPrivateConnections() {
-    this._privateConnections.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get privateConnectionsInput() {
-    return this._privateConnections.internalValue;
-  }
-
-  // public_connections - computed: false, optional: true, required: false
-  private _publicConnections = new MongodbInstancePublicConnectionsList(this, "public_connections", true);
-  public get publicConnections() {
-    return this._publicConnections;
-  }
-  public putPublicConnections(value: MongodbInstancePublicConnections[] | cdktf.IResolvable) {
-    this._publicConnections.internalValue = value;
-  }
-  public resetPublicConnections() {
-    this._publicConnections.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get publicConnectionsInput() {
-    return this._publicConnections.internalValue;
-  }
-
   // timeouts - computed: false, optional: true, required: false
   private _timeouts = new MongodbInstanceTimeoutsOutputReference(this, "timeouts");
   public get timeouts() {
@@ -1331,7 +833,6 @@ export class MongodbInstance extends cdktf.TerraformResource {
       db_instance_class: cdktf.stringToTerraform(this._dbInstanceClass),
       db_instance_description: cdktf.stringToTerraform(this._dbInstanceDescription),
       db_instance_storage: cdktf.numberToTerraform(this._dbInstanceStorage),
-      enable_public_connection: cdktf.booleanToTerraform(this._enablePublicConnection),
       engine_version: cdktf.stringToTerraform(this._engineVersion),
       id: cdktf.stringToTerraform(this._id),
       instance_charge_type: cdktf.stringToTerraform(this._instanceChargeType),
@@ -1344,15 +845,14 @@ export class MongodbInstance extends cdktf.TerraformResource {
       preferred_backup_period: cdktf.listMapper(cdktf.stringToTerraform, false)(this._preferredBackupPeriod),
       preferred_backup_time: cdktf.stringToTerraform(this._preferredBackupTime),
       replication_factor: cdktf.numberToTerraform(this._replicationFactor),
+      security_group_id: cdktf.stringToTerraform(this._securityGroupId),
       security_ip_list: cdktf.listMapper(cdktf.stringToTerraform, false)(this._securityIpList),
       ssl_action: cdktf.stringToTerraform(this._sslAction),
       storage_engine: cdktf.stringToTerraform(this._storageEngine),
+      tags: cdktf.hashMapper(cdktf.stringToTerraform)(this._tags),
       tde_status: cdktf.stringToTerraform(this._tdeStatus),
       vswitch_id: cdktf.stringToTerraform(this._vswitchId),
       zone_id: cdktf.stringToTerraform(this._zoneId),
-      audit_filter: cdktf.listMapper(mongodbInstanceAuditFilterToTerraform, true)(this._auditFilter.internalValue),
-      private_connections: cdktf.listMapper(mongodbInstancePrivateConnectionsToTerraform, true)(this._privateConnections.internalValue),
-      public_connections: cdktf.listMapper(mongodbInstancePublicConnectionsToTerraform, true)(this._publicConnections.internalValue),
       timeouts: mongodbInstanceTimeoutsToTerraform(this._timeouts.internalValue),
     };
   }
@@ -1400,12 +900,6 @@ export class MongodbInstance extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "number",
-      },
-      enable_public_connection: {
-        value: cdktf.booleanToHclTerraform(this._enablePublicConnection),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "boolean",
       },
       engine_version: {
         value: cdktf.stringToHclTerraform(this._engineVersion),
@@ -1479,6 +973,12 @@ export class MongodbInstance extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "number",
       },
+      security_group_id: {
+        value: cdktf.stringToHclTerraform(this._securityGroupId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       security_ip_list: {
         value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._securityIpList),
         isBlock: false,
@@ -1497,6 +997,12 @@ export class MongodbInstance extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      tags: {
+        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._tags),
+        isBlock: false,
+        type: "map",
+        storageClassType: "stringMap",
+      },
       tde_status: {
         value: cdktf.stringToHclTerraform(this._tdeStatus),
         isBlock: false,
@@ -1514,24 +1020,6 @@ export class MongodbInstance extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
-      },
-      audit_filter: {
-        value: cdktf.listMapperHcl(mongodbInstanceAuditFilterToHclTerraform, true)(this._auditFilter.internalValue),
-        isBlock: true,
-        type: "set",
-        storageClassType: "MongodbInstanceAuditFilterList",
-      },
-      private_connections: {
-        value: cdktf.listMapperHcl(mongodbInstancePrivateConnectionsToHclTerraform, true)(this._privateConnections.internalValue),
-        isBlock: true,
-        type: "set",
-        storageClassType: "MongodbInstancePrivateConnectionsList",
-      },
-      public_connections: {
-        value: cdktf.listMapperHcl(mongodbInstancePublicConnectionsToHclTerraform, true)(this._publicConnections.internalValue),
-        isBlock: true,
-        type: "set",
-        storageClassType: "MongodbInstancePublicConnectionsList",
       },
       timeouts: {
         value: mongodbInstanceTimeoutsToHclTerraform(this._timeouts.internalValue),

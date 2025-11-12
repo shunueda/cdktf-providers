@@ -68,7 +68,8 @@ export class DataVcdDseSolutionPublish extends cdktf.TerraformDataSource {
       terraformResourceType: 'vcd_dse_solution_publish',
       terraformGeneratorMetadata: {
         providerName: 'vcd',
-        providerVersion: '3.14.1'
+        providerVersion: '3.14.1',
+        providerVersionConstraint: '3.14.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

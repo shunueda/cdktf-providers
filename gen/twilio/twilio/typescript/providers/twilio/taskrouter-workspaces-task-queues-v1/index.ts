@@ -84,7 +84,8 @@ export class TaskrouterWorkspacesTaskQueuesV1 extends cdktf.TerraformResource {
       terraformResourceType: 'twilio_taskrouter_workspaces_task_queues_v1',
       terraformGeneratorMetadata: {
         providerName: 'twilio',
-        providerVersion: '0.18.46'
+        providerVersion: '0.18.46',
+        providerVersionConstraint: '0.18.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

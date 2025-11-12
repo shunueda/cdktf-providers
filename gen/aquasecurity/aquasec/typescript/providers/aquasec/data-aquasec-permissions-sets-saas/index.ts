@@ -141,7 +141,8 @@ export class DataAquasecPermissionsSetsSaas extends cdktf.TerraformDataSource {
       terraformResourceType: 'aquasec_permissions_sets_saas',
       terraformGeneratorMetadata: {
         providerName: 'aquasec',
-        providerVersion: '0.11.0'
+        providerVersion: '0.11.0',
+        providerVersionConstraint: '0.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -535,7 +535,8 @@ export class DataAlicloudEssScalingConfigurations extends cdktf.TerraformDataSou
       terraformResourceType: 'alicloud_ess_scaling_configurations',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

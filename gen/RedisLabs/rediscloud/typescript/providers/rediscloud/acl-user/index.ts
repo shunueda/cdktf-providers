@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/acl_user
+// https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/acl_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface AclUserConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/acl_user#id AclUser#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/acl_user#id AclUser#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,43 +17,43 @@ export interface AclUserConfig extends cdktf.TerraformMetaArguments {
   /**
   * A meaningful name to identify the user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/acl_user#name AclUser#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/acl_user#name AclUser#name}
   */
   readonly name: string;
   /**
   * The user's password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/acl_user#password AclUser#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/acl_user#password AclUser#password}
   */
   readonly password: string;
   /**
   * The role which the user has
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/acl_user#role AclUser#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/acl_user#role AclUser#role}
   */
   readonly role: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/acl_user#timeouts AclUser#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/acl_user#timeouts AclUser#timeouts}
   */
   readonly timeouts?: AclUserTimeouts;
 }
 export interface AclUserTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/acl_user#create AclUser#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/acl_user#create AclUser#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/acl_user#delete AclUser#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/acl_user#delete AclUser#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/acl_user#read AclUser#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/acl_user#read AclUser#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/acl_user#update AclUser#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/acl_user#update AclUser#update}
   */
   readonly update?: string;
 }
@@ -234,7 +234,7 @@ export class AclUserTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/acl_user rediscloud_acl_user}
+* Represents a {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/acl_user rediscloud_acl_user}
 */
 export class AclUser extends cdktf.TerraformResource {
 
@@ -250,7 +250,7 @@ export class AclUser extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AclUser resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AclUser to import
-  * @param importFromId The id of the existing AclUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/acl_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AclUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/acl_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AclUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -262,7 +262,7 @@ export class AclUser extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/acl_user rediscloud_acl_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/acl_user rediscloud_acl_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -273,7 +273,8 @@ export class AclUser extends cdktf.TerraformResource {
       terraformResourceType: 'rediscloud_acl_user',
       terraformGeneratorMetadata: {
         providerName: 'rediscloud',
-        providerVersion: '2.7.3'
+        providerVersion: '2.8.0',
+        providerVersionConstraint: '2.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

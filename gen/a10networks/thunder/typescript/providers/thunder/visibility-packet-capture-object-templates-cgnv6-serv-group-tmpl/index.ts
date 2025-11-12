@@ -846,7 +846,8 @@ export class VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmpl extends cd
       terraformResourceType: 'thunder_visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

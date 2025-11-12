@@ -61,7 +61,8 @@ export class DataPingdirectoryDelegatedAdminResourceRights extends cdktf.Terrafo
       terraformResourceType: 'pingdirectory_delegated_admin_resource_rights',
       terraformGeneratorMetadata: {
         providerName: 'pingdirectory',
-        providerVersion: '1.5.0'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

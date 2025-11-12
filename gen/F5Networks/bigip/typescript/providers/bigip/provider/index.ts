@@ -133,7 +133,8 @@ export class BigipProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'bigip',
       terraformGeneratorMetadata: {
         providerName: 'bigip',
-        providerVersion: '1.24.1'
+        providerVersion: '1.24.1',
+        providerVersionConstraint: '1.24.1'
       },
       terraformProviderSource: 'F5Networks/bigip'
     });

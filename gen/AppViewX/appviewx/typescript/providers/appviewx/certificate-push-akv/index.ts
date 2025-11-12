@@ -68,7 +68,8 @@ export class CertificatePushAkv extends cdktf.TerraformResource {
       terraformResourceType: 'appviewx_certificate_push_akv',
       terraformGeneratorMetadata: {
         providerName: 'appviewx',
-        providerVersion: '1.0.8'
+        providerVersion: '1.0.8',
+        providerVersionConstraint: '1.0.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

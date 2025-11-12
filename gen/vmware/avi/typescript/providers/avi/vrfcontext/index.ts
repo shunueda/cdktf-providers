@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext
+// https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,102 +8,102 @@ import * as cdktf from 'cdktf';
 
 export interface VrfcontextConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#cloud_ref Vrfcontext#cloud_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#cloud_ref Vrfcontext#cloud_ref}
   */
   readonly cloudRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#description Vrfcontext#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#description Vrfcontext#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#id Vrfcontext#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#id Vrfcontext#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#lldp_enable Vrfcontext#lldp_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#lldp_enable Vrfcontext#lldp_enable}
   */
   readonly lldpEnable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#name Vrfcontext#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#name Vrfcontext#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#system_default Vrfcontext#system_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#system_default Vrfcontext#system_default}
   */
   readonly systemDefault?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#tenant_ref Vrfcontext#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#tenant_ref Vrfcontext#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#uuid Vrfcontext#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#uuid Vrfcontext#uuid}
   */
   readonly uuid?: string;
   /**
   * attrs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#attrs Vrfcontext#attrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#attrs Vrfcontext#attrs}
   */
   readonly attrs?: VrfcontextAttrs[] | cdktf.IResolvable;
   /**
   * bfd_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#bfd_profile Vrfcontext#bfd_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#bfd_profile Vrfcontext#bfd_profile}
   */
   readonly bfdProfile?: VrfcontextBfdProfile[] | cdktf.IResolvable;
   /**
   * bgp_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#bgp_profile Vrfcontext#bgp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#bgp_profile Vrfcontext#bgp_profile}
   */
   readonly bgpProfile?: VrfcontextBgpProfile[] | cdktf.IResolvable;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#configpb_attributes Vrfcontext#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#configpb_attributes Vrfcontext#configpb_attributes}
   */
   readonly configpbAttributes?: VrfcontextConfigpbAttributes[] | cdktf.IResolvable;
   /**
   * debugvrfcontext block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#debugvrfcontext Vrfcontext#debugvrfcontext}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#debugvrfcontext Vrfcontext#debugvrfcontext}
   */
   readonly debugvrfcontext?: VrfcontextDebugvrfcontext[] | cdktf.IResolvable;
   /**
   * gateway_mon block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#gateway_mon Vrfcontext#gateway_mon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#gateway_mon Vrfcontext#gateway_mon}
   */
   readonly gatewayMon?: VrfcontextGatewayMon[] | cdktf.IResolvable;
   /**
   * internal_gateway_monitor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#internal_gateway_monitor Vrfcontext#internal_gateway_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#internal_gateway_monitor Vrfcontext#internal_gateway_monitor}
   */
   readonly internalGatewayMonitor?: VrfcontextInternalGatewayMonitor[] | cdktf.IResolvable;
   /**
   * markers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#markers Vrfcontext#markers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#markers Vrfcontext#markers}
   */
   readonly markers?: VrfcontextMarkers[] | cdktf.IResolvable;
   /**
   * static_routes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#static_routes Vrfcontext#static_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#static_routes Vrfcontext#static_routes}
   */
   readonly staticRoutes?: VrfcontextStaticRoutes[] | cdktf.IResolvable;
 }
 export interface VrfcontextAttrs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#key Vrfcontext#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#key Vrfcontext#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#value Vrfcontext#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#value Vrfcontext#value}
   */
   readonly value?: string;
 }
@@ -245,15 +245,15 @@ export class VrfcontextAttrsList extends cdktf.ComplexList {
 }
 export interface VrfcontextBfdProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#minrx Vrfcontext#minrx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#minrx Vrfcontext#minrx}
   */
   readonly minrx?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#mintx Vrfcontext#mintx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#mintx Vrfcontext#mintx}
   */
   readonly mintx?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#multi Vrfcontext#multi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#multi Vrfcontext#multi}
   */
   readonly multi?: string;
 }
@@ -427,11 +427,11 @@ export class VrfcontextBfdProfileList extends cdktf.ComplexList {
 }
 export interface VrfcontextBgpProfileIpCommunitiesIpBegin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#addr Vrfcontext#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#addr Vrfcontext#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#type Vrfcontext#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#type Vrfcontext#type}
   */
   readonly type: string;
 }
@@ -570,11 +570,11 @@ export class VrfcontextBgpProfileIpCommunitiesIpBeginList extends cdktf.ComplexL
 }
 export interface VrfcontextBgpProfileIpCommunitiesIpEnd {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#addr Vrfcontext#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#addr Vrfcontext#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#type Vrfcontext#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#type Vrfcontext#type}
   */
   readonly type: string;
 }
@@ -713,19 +713,19 @@ export class VrfcontextBgpProfileIpCommunitiesIpEndList extends cdktf.ComplexLis
 }
 export interface VrfcontextBgpProfileIpCommunities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#community Vrfcontext#community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#community Vrfcontext#community}
   */
   readonly community: string[];
   /**
   * ip_begin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#ip_begin Vrfcontext#ip_begin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#ip_begin Vrfcontext#ip_begin}
   */
   readonly ipBegin: VrfcontextBgpProfileIpCommunitiesIpBegin[] | cdktf.IResolvable;
   /**
   * ip_end block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#ip_end Vrfcontext#ip_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#ip_end Vrfcontext#ip_end}
   */
   readonly ipEnd?: VrfcontextBgpProfileIpCommunitiesIpEnd[] | cdktf.IResolvable;
 }
@@ -893,11 +893,11 @@ export class VrfcontextBgpProfileIpCommunitiesList extends cdktf.ComplexList {
 }
 export interface VrfcontextBgpProfilePeersPeerIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#addr Vrfcontext#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#addr Vrfcontext#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#type Vrfcontext#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#type Vrfcontext#type}
   */
   readonly type: string;
 }
@@ -1036,11 +1036,11 @@ export class VrfcontextBgpProfilePeersPeerIpList extends cdktf.ComplexList {
 }
 export interface VrfcontextBgpProfilePeersPeerIp6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#addr Vrfcontext#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#addr Vrfcontext#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#type Vrfcontext#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#type Vrfcontext#type}
   */
   readonly type: string;
 }
@@ -1179,11 +1179,11 @@ export class VrfcontextBgpProfilePeersPeerIp6List extends cdktf.ComplexList {
 }
 export interface VrfcontextBgpProfilePeersSubnetIpAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#addr Vrfcontext#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#addr Vrfcontext#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#type Vrfcontext#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#type Vrfcontext#type}
   */
   readonly type: string;
 }
@@ -1322,13 +1322,13 @@ export class VrfcontextBgpProfilePeersSubnetIpAddrList extends cdktf.ComplexList
 }
 export interface VrfcontextBgpProfilePeersSubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#mask Vrfcontext#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#mask Vrfcontext#mask}
   */
   readonly mask: string;
   /**
   * ip_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#ip_addr Vrfcontext#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#ip_addr Vrfcontext#ip_addr}
   */
   readonly ipAddr: VrfcontextBgpProfilePeersSubnetIpAddr[] | cdktf.IResolvable;
 }
@@ -1467,11 +1467,11 @@ export class VrfcontextBgpProfilePeersSubnetList extends cdktf.ComplexList {
 }
 export interface VrfcontextBgpProfilePeersSubnet6IpAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#addr Vrfcontext#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#addr Vrfcontext#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#type Vrfcontext#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#type Vrfcontext#type}
   */
   readonly type: string;
 }
@@ -1610,13 +1610,13 @@ export class VrfcontextBgpProfilePeersSubnet6IpAddrList extends cdktf.ComplexLis
 }
 export interface VrfcontextBgpProfilePeersSubnet6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#mask Vrfcontext#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#mask Vrfcontext#mask}
   */
   readonly mask: string;
   /**
   * ip_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#ip_addr Vrfcontext#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#ip_addr Vrfcontext#ip_addr}
   */
   readonly ipAddr: VrfcontextBgpProfilePeersSubnet6IpAddr[] | cdktf.IResolvable;
 }
@@ -1755,87 +1755,87 @@ export class VrfcontextBgpProfilePeersSubnet6List extends cdktf.ComplexList {
 }
 export interface VrfcontextBgpProfilePeers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#advertise_snat_ip Vrfcontext#advertise_snat_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#advertise_snat_ip Vrfcontext#advertise_snat_ip}
   */
   readonly advertiseSnatIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#advertise_vip Vrfcontext#advertise_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#advertise_vip Vrfcontext#advertise_vip}
   */
   readonly advertiseVip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#advertisement_interval Vrfcontext#advertisement_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#advertisement_interval Vrfcontext#advertisement_interval}
   */
   readonly advertisementInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#bfd Vrfcontext#bfd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#bfd Vrfcontext#bfd}
   */
   readonly bfd?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#connect_timer Vrfcontext#connect_timer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#connect_timer Vrfcontext#connect_timer}
   */
   readonly connectTimer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#ebgp_multihop Vrfcontext#ebgp_multihop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#ebgp_multihop Vrfcontext#ebgp_multihop}
   */
   readonly ebgpMultihop?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#hold_time Vrfcontext#hold_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#hold_time Vrfcontext#hold_time}
   */
   readonly holdTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#ibgp_local_as_override Vrfcontext#ibgp_local_as_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#ibgp_local_as_override Vrfcontext#ibgp_local_as_override}
   */
   readonly ibgpLocalAsOverride?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#keepalive_interval Vrfcontext#keepalive_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#keepalive_interval Vrfcontext#keepalive_interval}
   */
   readonly keepaliveInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#label Vrfcontext#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#label Vrfcontext#label}
   */
   readonly label?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#local_as Vrfcontext#local_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#local_as Vrfcontext#local_as}
   */
   readonly localAs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#md5_secret Vrfcontext#md5_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#md5_secret Vrfcontext#md5_secret}
   */
   readonly md5Secret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#network_ref Vrfcontext#network_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#network_ref Vrfcontext#network_ref}
   */
   readonly networkRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#remote_as Vrfcontext#remote_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#remote_as Vrfcontext#remote_as}
   */
   readonly remoteAs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#shutdown Vrfcontext#shutdown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#shutdown Vrfcontext#shutdown}
   */
   readonly shutdown?: string;
   /**
   * peer_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#peer_ip Vrfcontext#peer_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#peer_ip Vrfcontext#peer_ip}
   */
   readonly peerIp?: VrfcontextBgpProfilePeersPeerIp[] | cdktf.IResolvable;
   /**
   * peer_ip6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#peer_ip6 Vrfcontext#peer_ip6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#peer_ip6 Vrfcontext#peer_ip6}
   */
   readonly peerIp6?: VrfcontextBgpProfilePeersPeerIp6[] | cdktf.IResolvable;
   /**
   * subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#subnet Vrfcontext#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#subnet Vrfcontext#subnet}
   */
   readonly subnet?: VrfcontextBgpProfilePeersSubnet[] | cdktf.IResolvable;
   /**
   * subnet6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#subnet6 Vrfcontext#subnet6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#subnet6 Vrfcontext#subnet6}
   */
   readonly subnet6?: VrfcontextBgpProfilePeersSubnet6[] | cdktf.IResolvable;
 }
@@ -2473,27 +2473,27 @@ export class VrfcontextBgpProfilePeersList extends cdktf.ComplexList {
 }
 export interface VrfcontextBgpProfileRoutingOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#advertise_default_route Vrfcontext#advertise_default_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#advertise_default_route Vrfcontext#advertise_default_route}
   */
   readonly advertiseDefaultRoute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#advertise_learned_routes Vrfcontext#advertise_learned_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#advertise_learned_routes Vrfcontext#advertise_learned_routes}
   */
   readonly advertiseLearnedRoutes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#label Vrfcontext#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#label Vrfcontext#label}
   */
   readonly label: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#learn_only_default_route Vrfcontext#learn_only_default_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#learn_only_default_route Vrfcontext#learn_only_default_route}
   */
   readonly learnOnlyDefaultRoute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#learn_routes Vrfcontext#learn_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#learn_routes Vrfcontext#learn_routes}
   */
   readonly learnRoutes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#max_learn_limit Vrfcontext#max_learn_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#max_learn_limit Vrfcontext#max_learn_limit}
   */
   readonly maxLearnLimit?: string;
 }
@@ -2751,57 +2751,57 @@ export class VrfcontextBgpProfileRoutingOptionsList extends cdktf.ComplexList {
 }
 export interface VrfcontextBgpProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#community Vrfcontext#community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#community Vrfcontext#community}
   */
   readonly community?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#hold_time Vrfcontext#hold_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#hold_time Vrfcontext#hold_time}
   */
   readonly holdTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#ibgp Vrfcontext#ibgp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#ibgp Vrfcontext#ibgp}
   */
   readonly ibgp: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#keepalive_interval Vrfcontext#keepalive_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#keepalive_interval Vrfcontext#keepalive_interval}
   */
   readonly keepaliveInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#local_as Vrfcontext#local_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#local_as Vrfcontext#local_as}
   */
   readonly localAs: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#local_preference Vrfcontext#local_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#local_preference Vrfcontext#local_preference}
   */
   readonly localPreference?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#num_as_path_prepend Vrfcontext#num_as_path_prepend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#num_as_path_prepend Vrfcontext#num_as_path_prepend}
   */
   readonly numAsPathPrepend?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#send_community Vrfcontext#send_community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#send_community Vrfcontext#send_community}
   */
   readonly sendCommunity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#shutdown Vrfcontext#shutdown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#shutdown Vrfcontext#shutdown}
   */
   readonly shutdown?: string;
   /**
   * ip_communities block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#ip_communities Vrfcontext#ip_communities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#ip_communities Vrfcontext#ip_communities}
   */
   readonly ipCommunities?: VrfcontextBgpProfileIpCommunities[] | cdktf.IResolvable;
   /**
   * peers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#peers Vrfcontext#peers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#peers Vrfcontext#peers}
   */
   readonly peers?: VrfcontextBgpProfilePeers[] | cdktf.IResolvable;
   /**
   * routing_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#routing_options Vrfcontext#routing_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#routing_options Vrfcontext#routing_options}
   */
   readonly routingOptions?: VrfcontextBgpProfileRoutingOptions[] | cdktf.IResolvable;
 }
@@ -3230,7 +3230,7 @@ export class VrfcontextBgpProfileList extends cdktf.ComplexList {
 }
 export interface VrfcontextConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#version Vrfcontext#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#version Vrfcontext#version}
   */
   readonly version?: string;
 }
@@ -3346,7 +3346,7 @@ export class VrfcontextConfigpbAttributesList extends cdktf.ComplexList {
 }
 export interface VrfcontextDebugvrfcontextFlags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#flag Vrfcontext#flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#flag Vrfcontext#flag}
   */
   readonly flag: string;
 }
@@ -3459,17 +3459,17 @@ export class VrfcontextDebugvrfcontextFlagsList extends cdktf.ComplexList {
 }
 export interface VrfcontextDebugvrfcontext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#command_buffer_interval Vrfcontext#command_buffer_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#command_buffer_interval Vrfcontext#command_buffer_interval}
   */
   readonly commandBufferInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#command_buffer_size Vrfcontext#command_buffer_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#command_buffer_size Vrfcontext#command_buffer_size}
   */
   readonly commandBufferSize?: string;
   /**
   * flags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#flags Vrfcontext#flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#flags Vrfcontext#flags}
   */
   readonly flags?: VrfcontextDebugvrfcontextFlags[] | cdktf.IResolvable;
 }
@@ -3643,11 +3643,11 @@ export class VrfcontextDebugvrfcontextList extends cdktf.ComplexList {
 }
 export interface VrfcontextGatewayMonGatewayIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#addr Vrfcontext#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#addr Vrfcontext#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#type Vrfcontext#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#type Vrfcontext#type}
   */
   readonly type: string;
 }
@@ -3786,11 +3786,11 @@ export class VrfcontextGatewayMonGatewayIpList extends cdktf.ComplexList {
 }
 export interface VrfcontextGatewayMonSubnetIpAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#addr Vrfcontext#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#addr Vrfcontext#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#type Vrfcontext#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#type Vrfcontext#type}
   */
   readonly type: string;
 }
@@ -3929,13 +3929,13 @@ export class VrfcontextGatewayMonSubnetIpAddrList extends cdktf.ComplexList {
 }
 export interface VrfcontextGatewayMonSubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#mask Vrfcontext#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#mask Vrfcontext#mask}
   */
   readonly mask: string;
   /**
   * ip_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#ip_addr Vrfcontext#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#ip_addr Vrfcontext#ip_addr}
   */
   readonly ipAddr: VrfcontextGatewayMonSubnetIpAddr[] | cdktf.IResolvable;
 }
@@ -4074,27 +4074,27 @@ export class VrfcontextGatewayMonSubnetList extends cdktf.ComplexList {
 }
 export interface VrfcontextGatewayMon {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#gateway_monitor_fail_threshold Vrfcontext#gateway_monitor_fail_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#gateway_monitor_fail_threshold Vrfcontext#gateway_monitor_fail_threshold}
   */
   readonly gatewayMonitorFailThreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#gateway_monitor_interval Vrfcontext#gateway_monitor_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#gateway_monitor_interval Vrfcontext#gateway_monitor_interval}
   */
   readonly gatewayMonitorInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#gateway_monitor_success_threshold Vrfcontext#gateway_monitor_success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#gateway_monitor_success_threshold Vrfcontext#gateway_monitor_success_threshold}
   */
   readonly gatewayMonitorSuccessThreshold?: string;
   /**
   * gateway_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#gateway_ip Vrfcontext#gateway_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#gateway_ip Vrfcontext#gateway_ip}
   */
   readonly gatewayIp: VrfcontextGatewayMonGatewayIp[] | cdktf.IResolvable;
   /**
   * subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#subnet Vrfcontext#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#subnet Vrfcontext#subnet}
   */
   readonly subnet?: VrfcontextGatewayMonSubnet[] | cdktf.IResolvable;
 }
@@ -4323,19 +4323,19 @@ export class VrfcontextGatewayMonList extends cdktf.ComplexList {
 }
 export interface VrfcontextInternalGatewayMonitor {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#disable_gateway_monitor Vrfcontext#disable_gateway_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#disable_gateway_monitor Vrfcontext#disable_gateway_monitor}
   */
   readonly disableGatewayMonitor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#gateway_monitor_failure_threshold Vrfcontext#gateway_monitor_failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#gateway_monitor_failure_threshold Vrfcontext#gateway_monitor_failure_threshold}
   */
   readonly gatewayMonitorFailureThreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#gateway_monitor_interval Vrfcontext#gateway_monitor_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#gateway_monitor_interval Vrfcontext#gateway_monitor_interval}
   */
   readonly gatewayMonitorInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#gateway_monitor_success_threshold Vrfcontext#gateway_monitor_success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#gateway_monitor_success_threshold Vrfcontext#gateway_monitor_success_threshold}
   */
   readonly gatewayMonitorSuccessThreshold?: string;
 }
@@ -4538,11 +4538,11 @@ export class VrfcontextInternalGatewayMonitorList extends cdktf.ComplexList {
 }
 export interface VrfcontextMarkers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#key Vrfcontext#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#key Vrfcontext#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#values Vrfcontext#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#values Vrfcontext#values}
   */
   readonly values?: string[];
 }
@@ -4684,11 +4684,11 @@ export class VrfcontextMarkersList extends cdktf.ComplexList {
 }
 export interface VrfcontextStaticRoutesLabels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#key Vrfcontext#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#key Vrfcontext#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#value Vrfcontext#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#value Vrfcontext#value}
   */
   readonly value?: string;
 }
@@ -4830,11 +4830,11 @@ export class VrfcontextStaticRoutesLabelsList extends cdktf.ComplexList {
 }
 export interface VrfcontextStaticRoutesNextHop {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#addr Vrfcontext#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#addr Vrfcontext#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#type Vrfcontext#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#type Vrfcontext#type}
   */
   readonly type: string;
 }
@@ -4973,11 +4973,11 @@ export class VrfcontextStaticRoutesNextHopList extends cdktf.ComplexList {
 }
 export interface VrfcontextStaticRoutesPrefixIpAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#addr Vrfcontext#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#addr Vrfcontext#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#type Vrfcontext#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#type Vrfcontext#type}
   */
   readonly type: string;
 }
@@ -5116,13 +5116,13 @@ export class VrfcontextStaticRoutesPrefixIpAddrList extends cdktf.ComplexList {
 }
 export interface VrfcontextStaticRoutesPrefix {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#mask Vrfcontext#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#mask Vrfcontext#mask}
   */
   readonly mask: string;
   /**
   * ip_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#ip_addr Vrfcontext#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#ip_addr Vrfcontext#ip_addr}
   */
   readonly ipAddr: VrfcontextStaticRoutesPrefixIpAddr[] | cdktf.IResolvable;
 }
@@ -5261,33 +5261,33 @@ export class VrfcontextStaticRoutesPrefixList extends cdktf.ComplexList {
 }
 export interface VrfcontextStaticRoutes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#disable_gateway_monitor Vrfcontext#disable_gateway_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#disable_gateway_monitor Vrfcontext#disable_gateway_monitor}
   */
   readonly disableGatewayMonitor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#if_name Vrfcontext#if_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#if_name Vrfcontext#if_name}
   */
   readonly ifName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#route_id Vrfcontext#route_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#route_id Vrfcontext#route_id}
   */
   readonly routeId: string;
   /**
   * labels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#labels Vrfcontext#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#labels Vrfcontext#labels}
   */
   readonly labels?: VrfcontextStaticRoutesLabels[] | cdktf.IResolvable;
   /**
   * next_hop block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#next_hop Vrfcontext#next_hop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#next_hop Vrfcontext#next_hop}
   */
   readonly nextHop: VrfcontextStaticRoutesNextHop[] | cdktf.IResolvable;
   /**
   * prefix block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#prefix Vrfcontext#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#prefix Vrfcontext#prefix}
   */
   readonly prefix: VrfcontextStaticRoutesPrefix[] | cdktf.IResolvable;
 }
@@ -5539,7 +5539,7 @@ export class VrfcontextStaticRoutesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext avi_vrfcontext}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext avi_vrfcontext}
 */
 export class Vrfcontext extends cdktf.TerraformResource {
 
@@ -5555,7 +5555,7 @@ export class Vrfcontext extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Vrfcontext resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Vrfcontext to import
-  * @param importFromId The id of the existing Vrfcontext that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Vrfcontext that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Vrfcontext to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5567,7 +5567,7 @@ export class Vrfcontext extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vrfcontext avi_vrfcontext} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vrfcontext avi_vrfcontext} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5578,7 +5578,8 @@ export class Vrfcontext extends cdktf.TerraformResource {
       terraformResourceType: 'avi_vrfcontext',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '31.1.1'
+        providerVersion: '30.2.5',
+        providerVersionConstraint: '30.2.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

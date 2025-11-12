@@ -185,7 +185,8 @@ export class FicProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'fic',
       terraformGeneratorMetadata: {
         providerName: 'fic',
-        providerVersion: '0.5.6'
+        providerVersion: '0.5.6',
+        providerVersionConstraint: '0.5.6'
       },
       terraformProviderSource: 'nttcom/fic'
     });

@@ -92,7 +92,8 @@ export class DataSymEnvironment extends cdktf.TerraformDataSource {
       terraformResourceType: 'sym_environment',
       terraformGeneratorMetadata: {
         providerName: 'sym',
-        providerVersion: '3.6.0'
+        providerVersion: '3.6.0',
+        providerVersionConstraint: '3.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

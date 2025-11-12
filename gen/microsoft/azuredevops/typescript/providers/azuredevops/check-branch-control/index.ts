@@ -287,7 +287,8 @@ export class CheckBranchControl extends cdktf.TerraformResource {
       terraformResourceType: 'azuredevops_check_branch_control',
       terraformGeneratorMetadata: {
         providerName: 'azuredevops',
-        providerVersion: '1.11.2'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

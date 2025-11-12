@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbaction
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbaction
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,36 +8,32 @@ import * as cdktf from 'cdktf';
 
 export interface LbactionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbaction#comment Lbaction#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbaction#comment Lbaction#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbaction#id Lbaction#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbaction#id Lbaction#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbaction#name Lbaction#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbaction#name Lbaction#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbaction#newname Lbaction#newname}
-  */
-  readonly newname?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbaction#type Lbaction#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbaction#type Lbaction#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbaction#value Lbaction#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbaction#value Lbaction#value}
   */
   readonly value?: number[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbaction citrixadc_lbaction}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbaction citrixadc_lbaction}
 */
 export class Lbaction extends cdktf.TerraformResource {
 
@@ -53,7 +49,7 @@ export class Lbaction extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Lbaction resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Lbaction to import
-  * @param importFromId The id of the existing Lbaction that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbaction#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Lbaction that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbaction#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Lbaction to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -65,7 +61,7 @@ export class Lbaction extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbaction citrixadc_lbaction} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbaction citrixadc_lbaction} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -76,7 +72,8 @@ export class Lbaction extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_lbaction',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -89,7 +86,6 @@ export class Lbaction extends cdktf.TerraformResource {
     this._comment = config.comment;
     this._id = config.id;
     this._name = config.name;
-    this._newname = config.newname;
     this._type = config.type;
     this._value = config.value;
   }
@@ -143,22 +139,6 @@ export class Lbaction extends cdktf.TerraformResource {
     return this._name;
   }
 
-  // newname - computed: true, optional: true, required: false
-  private _newname?: string; 
-  public get newname() {
-    return this.getStringAttribute('newname');
-  }
-  public set newname(value: string) {
-    this._newname = value;
-  }
-  public resetNewname() {
-    this._newname = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get newnameInput() {
-    return this._newname;
-  }
-
   // type - computed: false, optional: false, required: true
   private _type?: string; 
   public get type() {
@@ -197,7 +177,6 @@ export class Lbaction extends cdktf.TerraformResource {
       comment: cdktf.stringToTerraform(this._comment),
       id: cdktf.stringToTerraform(this._id),
       name: cdktf.stringToTerraform(this._name),
-      newname: cdktf.stringToTerraform(this._newname),
       type: cdktf.stringToTerraform(this._type),
       value: cdktf.listMapper(cdktf.numberToTerraform, false)(this._value),
     };
@@ -219,12 +198,6 @@ export class Lbaction extends cdktf.TerraformResource {
       },
       name: {
         value: cdktf.stringToHclTerraform(this._name),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
-      newname: {
-        value: cdktf.stringToHclTerraform(this._newname),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

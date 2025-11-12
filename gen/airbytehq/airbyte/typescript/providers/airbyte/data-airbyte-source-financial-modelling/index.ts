@@ -353,7 +353,8 @@ export class DataAirbyteSourceFinancialModelling extends cdktf.TerraformDataSour
       terraformResourceType: 'airbyte_source_financial_modelling',
       terraformGeneratorMetadata: {
         providerName: 'airbyte',
-        providerVersion: '0.13.0'
+        providerVersion: '0.13.0',
+        providerVersionConstraint: '0.13.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

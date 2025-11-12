@@ -145,7 +145,8 @@ export class DataMerakiOrganizationConfigTemplates extends cdktf.TerraformDataSo
       terraformResourceType: 'meraki_organization_config_templates',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1'
+        providerVersion: '1.7.1',
+        providerVersionConstraint: '1.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

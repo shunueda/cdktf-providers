@@ -1871,7 +1871,8 @@ export class Endpoint extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_endpoint',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.44'
+        providerVersion: '0.11.44',
+        providerVersionConstraint: '0.11.44'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -68,7 +68,8 @@ export class PipelineCronTrigger extends cdktf.TerraformResource {
       terraformResourceType: 'codefresh_pipeline_cron_trigger',
       terraformGeneratorMetadata: {
         providerName: 'codefresh',
-        providerVersion: '1.1.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

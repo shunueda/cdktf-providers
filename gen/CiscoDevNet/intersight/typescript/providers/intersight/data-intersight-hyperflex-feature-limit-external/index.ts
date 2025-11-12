@@ -4844,7 +4844,8 @@ export class DataIntersightHyperflexFeatureLimitExternal extends cdktf.Terraform
       terraformResourceType: 'intersight_hyperflex_feature_limit_external',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

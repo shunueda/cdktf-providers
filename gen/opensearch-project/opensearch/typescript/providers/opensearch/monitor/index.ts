@@ -62,7 +62,8 @@ export class Monitor extends cdktf.TerraformResource {
       terraformResourceType: 'opensearch_monitor',
       terraformGeneratorMetadata: {
         providerName: 'opensearch',
-        providerVersion: '2.3.2'
+        providerVersion: '2.3.2',
+        providerVersionConstraint: '2.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

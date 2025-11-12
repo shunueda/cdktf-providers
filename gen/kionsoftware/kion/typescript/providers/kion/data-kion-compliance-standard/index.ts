@@ -344,7 +344,8 @@ export class DataKionComplianceStandard extends cdktf.TerraformDataSource {
       terraformResourceType: 'kion_compliance_standard',
       terraformGeneratorMetadata: {
         providerName: 'kion',
-        providerVersion: '0.3.29'
+        providerVersion: '0.3.29',
+        providerVersionConstraint: '0.3.29'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

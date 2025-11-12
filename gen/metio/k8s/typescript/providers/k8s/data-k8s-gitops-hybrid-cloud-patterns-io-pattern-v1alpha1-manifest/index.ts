@@ -1434,7 +1434,8 @@ export class DataK8SGitopsHybridCloudPatternsIoPatternV1Alpha1Manifest extends c
       terraformResourceType: 'k8s_gitops_hybrid_cloud_patterns_io_pattern_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

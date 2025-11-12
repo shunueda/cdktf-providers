@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mercari/spinnaker/0.3.0/docs/resources/canary_config
+// https://registry.terraform.io/providers/mercari/spinnaker/0.0.1/docs/resources/canary_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface CanaryConfigConfig extends cdktf.TerraformMetaArguments {
   /**
   * List of the application which the canary config belongs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.3.0/docs/resources/canary_config#applications CanaryConfig#applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.0.1/docs/resources/canary_config#applications CanaryConfig#applications}
   */
   readonly applications: string[];
   /**
   * Description for the canary config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.3.0/docs/resources/canary_config#description CanaryConfig#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.0.1/docs/resources/canary_config#description CanaryConfig#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.3.0/docs/resources/canary_config#id CanaryConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.0.1/docs/resources/canary_config#id CanaryConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface CanaryConfigConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the canary configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.3.0/docs/resources/canary_config#name CanaryConfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.0.1/docs/resources/canary_config#name CanaryConfig#name}
   */
   readonly name: string;
   /**
   * classifier block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.3.0/docs/resources/canary_config#classifier CanaryConfig#classifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.0.1/docs/resources/canary_config#classifier CanaryConfig#classifier}
   */
   readonly classifier: CanaryConfigClassifier;
   /**
   * metric block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.3.0/docs/resources/canary_config#metric CanaryConfig#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.0.1/docs/resources/canary_config#metric CanaryConfig#metric}
   */
   readonly metric: CanaryConfigMetric[] | cdktf.IResolvable;
 }
@@ -49,7 +49,7 @@ export interface CanaryConfigClassifier {
   /**
   * Weight for each groups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.3.0/docs/resources/canary_config#group_weights CanaryConfig#group_weights}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.0.1/docs/resources/canary_config#group_weights CanaryConfig#group_weights}
   */
   readonly groupWeights: { [key: string]: string };
 }
@@ -132,25 +132,25 @@ export interface CanaryConfigMetricAnalysisConfigurationsCanaryEffectSize {
   /**
   * The multiplier decrease that must be met for the metric to fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.3.0/docs/resources/canary_config#allowed_decrease CanaryConfig#allowed_decrease}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.0.1/docs/resources/canary_config#allowed_decrease CanaryConfig#allowed_decrease}
   */
   readonly allowedDecrease?: number;
   /**
   * The multiplier increase that must be met for the metric to fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.3.0/docs/resources/canary_config#allowed_increase CanaryConfig#allowed_increase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.0.1/docs/resources/canary_config#allowed_increase CanaryConfig#allowed_increase}
   */
   readonly allowedIncrease?: number;
   /**
   * The multiplier decrease that must be met for the metric to be a critical failure and fail the entire analysis with a score of 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.3.0/docs/resources/canary_config#critical_decrease CanaryConfig#critical_decrease}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.0.1/docs/resources/canary_config#critical_decrease CanaryConfig#critical_decrease}
   */
   readonly criticalDecrease?: number;
   /**
   * The multiplier increase that must be met for the metric to be a critical failure and fail the entire analysis with a score of 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.3.0/docs/resources/canary_config#critical_increase CanaryConfig#critical_increase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.0.1/docs/resources/canary_config#critical_increase CanaryConfig#critical_increase}
   */
   readonly criticalIncrease?: number;
 }
@@ -323,13 +323,13 @@ export interface CanaryConfigMetricAnalysisConfigurationsCanaryOutliers {
   /**
   * The degree of significance a data point has to differ from other observations to be considered an outlier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.3.0/docs/resources/canary_config#outlier_factor CanaryConfig#outlier_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.0.1/docs/resources/canary_config#outlier_factor CanaryConfig#outlier_factor}
   */
   readonly outlierFactor?: number;
   /**
   * Remove or keep outliers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.3.0/docs/resources/canary_config#strategy CanaryConfig#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.0.1/docs/resources/canary_config#strategy CanaryConfig#strategy}
   */
   readonly strategy?: string;
 }
@@ -444,37 +444,37 @@ export interface CanaryConfigMetricAnalysisConfigurationsCanary {
   /**
   * Fails on this metrics error or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.3.0/docs/resources/canary_config#critical CanaryConfig#critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.0.1/docs/resources/canary_config#critical CanaryConfig#critical}
   */
   readonly critical?: boolean | cdktf.IResolvable;
   /**
   * Direction on how to judge the failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.3.0/docs/resources/canary_config#direction CanaryConfig#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.0.1/docs/resources/canary_config#direction CanaryConfig#direction}
   */
   readonly direction?: string;
   /**
   * Used to fail a metric if data is missing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.3.0/docs/resources/canary_config#must_have_data CanaryConfig#must_have_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.0.1/docs/resources/canary_config#must_have_data CanaryConfig#must_have_data}
   */
   readonly mustHaveData?: boolean | cdktf.IResolvable;
   /**
   *  How to handle NaN values which can occur if the metric does not return data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.3.0/docs/resources/canary_config#nan_strategy CanaryConfig#nan_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.0.1/docs/resources/canary_config#nan_strategy CanaryConfig#nan_strategy}
   */
   readonly nanStrategy?: string;
   /**
   * effect_size block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.3.0/docs/resources/canary_config#effect_size CanaryConfig#effect_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.0.1/docs/resources/canary_config#effect_size CanaryConfig#effect_size}
   */
   readonly effectSize?: CanaryConfigMetricAnalysisConfigurationsCanaryEffectSize;
   /**
   * outliers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.3.0/docs/resources/canary_config#outliers CanaryConfig#outliers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.0.1/docs/resources/canary_config#outliers CanaryConfig#outliers}
   */
   readonly outliers?: CanaryConfigMetricAnalysisConfigurationsCanaryOutliers;
 }
@@ -705,7 +705,7 @@ export interface CanaryConfigMetricAnalysisConfigurations {
   /**
   * canary block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.3.0/docs/resources/canary_config#canary CanaryConfig#canary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.0.1/docs/resources/canary_config#canary CanaryConfig#canary}
   */
   readonly canary: CanaryConfigMetricAnalysisConfigurationsCanary;
 }
@@ -788,43 +788,43 @@ export interface CanaryConfigMetricQuery {
   /**
   *  Algorithm to group multiple time series together
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.3.0/docs/resources/canary_config#cross_series_reducer CanaryConfig#cross_series_reducer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.0.1/docs/resources/canary_config#cross_series_reducer CanaryConfig#cross_series_reducer}
   */
   readonly crossSeriesReducer?: string;
   /**
   * Group by resource or metric labels to reduce the number of time series
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.3.0/docs/resources/canary_config#group_by_fields CanaryConfig#group_by_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.0.1/docs/resources/canary_config#group_by_fields CanaryConfig#group_by_fields}
   */
   readonly groupByFields?: string[];
   /**
   * Type of the metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.3.0/docs/resources/canary_config#metric_type CanaryConfig#metric_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.0.1/docs/resources/canary_config#metric_type CanaryConfig#metric_type}
   */
   readonly metricType: string;
   /**
   * Algorithm to align individual time series
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.3.0/docs/resources/canary_config#per_series_aligner CanaryConfig#per_series_aligner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.0.1/docs/resources/canary_config#per_series_aligner CanaryConfig#per_series_aligner}
   */
   readonly perSeriesAligner?: string;
   /**
   * Type of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.3.0/docs/resources/canary_config#resource_type CanaryConfig#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.0.1/docs/resources/canary_config#resource_type CanaryConfig#resource_type}
   */
   readonly resourceType: string;
   /**
   * Type of the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.3.0/docs/resources/canary_config#service_type CanaryConfig#service_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.0.1/docs/resources/canary_config#service_type CanaryConfig#service_type}
   */
   readonly serviceType: string;
   /**
   * Type of the metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.3.0/docs/resources/canary_config#type CanaryConfig#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.0.1/docs/resources/canary_config#type CanaryConfig#type}
   */
   readonly type: string;
 }
@@ -1072,25 +1072,25 @@ export interface CanaryConfigMetric {
   /**
   * List of the group which this query belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.3.0/docs/resources/canary_config#groups CanaryConfig#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.0.1/docs/resources/canary_config#groups CanaryConfig#groups}
   */
   readonly groups: string[];
   /**
   * Human readable name of the metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.3.0/docs/resources/canary_config#name CanaryConfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.0.1/docs/resources/canary_config#name CanaryConfig#name}
   */
   readonly name: string;
   /**
   * analysis_configurations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.3.0/docs/resources/canary_config#analysis_configurations CanaryConfig#analysis_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.0.1/docs/resources/canary_config#analysis_configurations CanaryConfig#analysis_configurations}
   */
   readonly analysisConfigurations?: CanaryConfigMetricAnalysisConfigurations;
   /**
   * query block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.3.0/docs/resources/canary_config#query CanaryConfig#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.0.1/docs/resources/canary_config#query CanaryConfig#query}
   */
   readonly query: CanaryConfigMetricQuery;
 }
@@ -1284,7 +1284,7 @@ export class CanaryConfigMetricList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mercari/spinnaker/0.3.0/docs/resources/canary_config spinnaker_canary_config}
+* Represents a {@link https://registry.terraform.io/providers/mercari/spinnaker/0.0.1/docs/resources/canary_config spinnaker_canary_config}
 */
 export class CanaryConfig extends cdktf.TerraformResource {
 
@@ -1300,7 +1300,7 @@ export class CanaryConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CanaryConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CanaryConfig to import
-  * @param importFromId The id of the existing CanaryConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/mercari/spinnaker/0.3.0/docs/resources/canary_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CanaryConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/mercari/spinnaker/0.0.1/docs/resources/canary_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CanaryConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1312,7 +1312,7 @@ export class CanaryConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mercari/spinnaker/0.3.0/docs/resources/canary_config spinnaker_canary_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mercari/spinnaker/0.0.1/docs/resources/canary_config spinnaker_canary_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1323,7 +1323,8 @@ export class CanaryConfig extends cdktf.TerraformResource {
       terraformResourceType: 'spinnaker_canary_config',
       terraformGeneratorMetadata: {
         providerName: 'spinnaker',
-        providerVersion: '0.3.0'
+        providerVersion: '0.0.1',
+        providerVersionConstraint: '0.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

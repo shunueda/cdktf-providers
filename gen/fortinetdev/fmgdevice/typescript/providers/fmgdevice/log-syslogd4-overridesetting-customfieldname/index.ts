@@ -76,7 +76,8 @@ export class LogSyslogd4OverridesettingCustomfieldname extends cdktf.TerraformRe
       terraformResourceType: 'fmgdevice_log_syslogd4_overridesetting_customfieldname',
       terraformGeneratorMetadata: {
         providerName: 'fmgdevice',
-        providerVersion: '1.2.1'
+        providerVersion: '1.2.1',
+        providerVersionConstraint: '1.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

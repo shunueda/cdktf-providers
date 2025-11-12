@@ -203,7 +203,8 @@ export class IntegrationAwsGovcloudCt extends cdktf.TerraformResource {
       terraformResourceType: 'lacework_integration_aws_govcloud_ct',
       terraformGeneratorMetadata: {
         providerName: 'lacework',
-        providerVersion: '2.0.10'
+        providerVersion: '2.0.10',
+        providerVersionConstraint: '2.0.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

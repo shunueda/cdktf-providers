@@ -55,7 +55,8 @@ export class FileProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'file',
       terraformGeneratorMetadata: {
         providerName: 'file',
-        providerVersion: '2.2.2'
+        providerVersion: '2.2.2',
+        providerVersionConstraint: '2.2.2'
       },
       terraformProviderSource: 'rancher/file'
     });

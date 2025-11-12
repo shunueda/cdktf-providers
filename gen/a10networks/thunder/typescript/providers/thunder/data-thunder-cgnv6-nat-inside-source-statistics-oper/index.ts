@@ -429,7 +429,8 @@ export class DataThunderCgnv6NatInsideSourceStatisticsOper extends cdktf.Terrafo
       terraformResourceType: 'thunder_cgnv6_nat_inside_source_statistics_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

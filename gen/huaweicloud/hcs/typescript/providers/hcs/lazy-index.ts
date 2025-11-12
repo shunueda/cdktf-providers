@@ -23,6 +23,7 @@ Object.defineProperty(exports, 'cfwEipProtection', { get: function () { return r
 Object.defineProperty(exports, 'cfwProtectionRule', { get: function () { return require('./cfw-protection-rule'); } });
 Object.defineProperty(exports, 'cfwServiceGroup', { get: function () { return require('./cfw-service-group'); } });
 Object.defineProperty(exports, 'cfwServiceGroupMember', { get: function () { return require('./cfw-service-group-member'); } });
+Object.defineProperty(exports, 'codeartsProject', { get: function () { return require('./codearts-project'); } });
 Object.defineProperty(exports, 'csmsSecret', { get: function () { return require('./csms-secret'); } });
 Object.defineProperty(exports, 'dcsBackup', { get: function () { return require('./dcs-backup'); } });
 Object.defineProperty(exports, 'dcsInstance', { get: function () { return require('./dcs-instance'); } });

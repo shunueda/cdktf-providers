@@ -948,7 +948,8 @@ export class UztnaPolicyTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_uztna_policy_template',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.44'
+        providerVersion: '0.11.44',
+        providerVersionConstraint: '0.11.44'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

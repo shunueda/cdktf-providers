@@ -8096,7 +8096,8 @@ export class DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest extends cdktf.Te
       terraformResourceType: 'k8s_apicodegen_apimatic_io_api_matic_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

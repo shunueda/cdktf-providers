@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_configlet
+// https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_configlet
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataApstraDatacenterConfigletConfig extends cdktf.TerraformMeta
   /**
   * Apstra Blueprint ID. Used to identify the Blueprint that the Configlet belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_configlet#blueprint_id DataApstraDatacenterConfiglet#blueprint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_configlet#blueprint_id DataApstraDatacenterConfiglet#blueprint_id}
   */
   readonly blueprintId: string;
   /**
   * Populate this field to look up a Configlet by ID. Required when `name` is omitted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_configlet#id DataApstraDatacenterConfiglet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_configlet#id DataApstraDatacenterConfiglet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,7 +25,7 @@ export interface DataApstraDatacenterConfigletConfig extends cdktf.TerraformMeta
   /**
   * Populate this field to look up a Configlet by name. Required when `id` is omitted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_configlet#name DataApstraDatacenterConfiglet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_configlet#name DataApstraDatacenterConfiglet#name}
   */
   readonly name?: string;
 }
@@ -131,7 +131,7 @@ export class DataApstraDatacenterConfigletGeneratorsList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_configlet apstra_datacenter_configlet}
+* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_configlet apstra_datacenter_configlet}
 */
 export class DataApstraDatacenterConfiglet extends cdktf.TerraformDataSource {
 
@@ -147,7 +147,7 @@ export class DataApstraDatacenterConfiglet extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataApstraDatacenterConfiglet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataApstraDatacenterConfiglet to import
-  * @param importFromId The id of the existing DataApstraDatacenterConfiglet that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_configlet#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataApstraDatacenterConfiglet that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_configlet#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataApstraDatacenterConfiglet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -159,7 +159,7 @@ export class DataApstraDatacenterConfiglet extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_configlet apstra_datacenter_configlet} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_configlet apstra_datacenter_configlet} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -170,7 +170,8 @@ export class DataApstraDatacenterConfiglet extends cdktf.TerraformDataSource {
       terraformResourceType: 'apstra_datacenter_configlet',
       terraformGeneratorMetadata: {
         providerName: 'apstra',
-        providerVersion: '0.95.0'
+        providerVersion: '0.95.1',
+        providerVersionConstraint: '0.95.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

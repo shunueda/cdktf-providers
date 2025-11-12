@@ -142,7 +142,8 @@ export class AtlasProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'atlas',
       terraformGeneratorMetadata: {
         providerName: 'atlas',
-        providerVersion: '0.10.0'
+        providerVersion: '0.10.0',
+        providerVersionConstraint: '0.10.0'
       },
       terraformProviderSource: 'ariga/atlas'
     });

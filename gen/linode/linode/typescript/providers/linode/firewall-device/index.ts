@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/firewall_device
+// https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/firewall_device
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface FirewallDeviceConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the entity to create a Firewall device for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/firewall_device#entity_id FirewallDevice#entity_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/firewall_device#entity_id FirewallDevice#entity_id}
   */
   readonly entityId: number;
   /**
   * The type of the entity to create a Firewall device for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/firewall_device#entity_type FirewallDevice#entity_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/firewall_device#entity_type FirewallDevice#entity_type}
   */
   readonly entityType?: string;
   /**
   * The ID of the Firewall to access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/firewall_device#firewall_id FirewallDevice#firewall_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/firewall_device#firewall_id FirewallDevice#firewall_id}
   */
   readonly firewallId: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/firewall_device linode_firewall_device}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/firewall_device linode_firewall_device}
 */
 export class FirewallDevice extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class FirewallDevice extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FirewallDevice resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FirewallDevice to import
-  * @param importFromId The id of the existing FirewallDevice that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/firewall_device#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FirewallDevice that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/firewall_device#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FirewallDevice to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class FirewallDevice extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/firewall_device linode_firewall_device} Resource
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/firewall_device linode_firewall_device} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,7 +67,8 @@ export class FirewallDevice extends cdktf.TerraformResource {
       terraformResourceType: 'linode_firewall_device',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.5.0'
+        providerVersion: '3.5.1',
+        providerVersionConstraint: '3.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

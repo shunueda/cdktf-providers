@@ -654,7 +654,8 @@ export class DataAlicloudCmsMetricRuleTemplates extends cdktf.TerraformDataSourc
       terraformResourceType: 'alicloud_cms_metric_rule_templates',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

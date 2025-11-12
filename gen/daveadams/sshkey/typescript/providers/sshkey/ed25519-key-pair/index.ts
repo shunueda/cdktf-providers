@@ -53,7 +53,8 @@ export class Ed25519KeyPair extends cdktf.TerraformResource {
       terraformResourceType: 'sshkey_ed25519_key_pair',
       terraformGeneratorMetadata: {
         providerName: 'sshkey',
-        providerVersion: '0.2.1'
+        providerVersion: '0.2.1',
+        providerVersionConstraint: '0.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

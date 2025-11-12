@@ -157,7 +157,8 @@ export class DataWizOrganizations extends cdktf.TerraformDataSource {
       terraformResourceType: 'wiz_organizations',
       terraformGeneratorMetadata: {
         providerName: 'wiz',
-        providerVersion: '1.2.5'
+        providerVersion: '1.2.5',
+        providerVersionConstraint: '1.2.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

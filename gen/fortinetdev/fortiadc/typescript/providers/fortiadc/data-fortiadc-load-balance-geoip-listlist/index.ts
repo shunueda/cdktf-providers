@@ -64,7 +64,8 @@ export class DataFortiadcLoadBalanceGeoipListlist extends cdktf.TerraformDataSou
       terraformResourceType: 'fortiadc_load_balance_geoip_listlist',
       terraformGeneratorMetadata: {
         providerName: 'fortiadc',
-        providerVersion: '1.3.1'
+        providerVersion: '1.3.1',
+        providerVersionConstraint: '1.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

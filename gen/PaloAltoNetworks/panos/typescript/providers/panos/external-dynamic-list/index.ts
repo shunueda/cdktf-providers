@@ -6633,7 +6633,8 @@ export class ExternalDynamicList extends cdktf.TerraformResource {
       terraformResourceType: 'panos_external_dynamic_list',
       terraformGeneratorMetadata: {
         providerName: 'panos',
-        providerVersion: '2.0.5'
+        providerVersion: '2.0.5',
+        providerVersionConstraint: '2.0.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

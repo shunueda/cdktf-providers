@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/gaussdb_opengauss_parameter_template
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/gaussdb_opengauss_parameter_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataHcsGaussdbOpengaussParameterTemplateConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/gaussdb_opengauss_parameter_template#id DataHcsGaussdbOpengaussParameterTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/gaussdb_opengauss_parameter_template#id DataHcsGaussdbOpengaussParameterTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataHcsGaussdbOpengaussParameterTemplateConfig extends cdktf.Te
   /**
   * The region in which to query the parameter templates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/gaussdb_opengauss_parameter_template#region DataHcsGaussdbOpengaussParameterTemplate#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/gaussdb_opengauss_parameter_template#region DataHcsGaussdbOpengaussParameterTemplate#region}
   */
   readonly region?: string;
   /**
   * The parameter template ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/gaussdb_opengauss_parameter_template#template_id DataHcsGaussdbOpengaussParameterTemplate#template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/gaussdb_opengauss_parameter_template#template_id DataHcsGaussdbOpengaussParameterTemplate#template_id}
   */
   readonly templateId: string;
 }
@@ -144,7 +144,7 @@ export class DataHcsGaussdbOpengaussParameterTemplateParametersList extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/gaussdb_opengauss_parameter_template hcs_gaussdb_opengauss_parameter_template}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/gaussdb_opengauss_parameter_template hcs_gaussdb_opengauss_parameter_template}
 */
 export class DataHcsGaussdbOpengaussParameterTemplate extends cdktf.TerraformDataSource {
 
@@ -160,7 +160,7 @@ export class DataHcsGaussdbOpengaussParameterTemplate extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataHcsGaussdbOpengaussParameterTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHcsGaussdbOpengaussParameterTemplate to import
-  * @param importFromId The id of the existing DataHcsGaussdbOpengaussParameterTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/gaussdb_opengauss_parameter_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHcsGaussdbOpengaussParameterTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/gaussdb_opengauss_parameter_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHcsGaussdbOpengaussParameterTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -172,7 +172,7 @@ export class DataHcsGaussdbOpengaussParameterTemplate extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/gaussdb_opengauss_parameter_template hcs_gaussdb_opengauss_parameter_template} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/gaussdb_opengauss_parameter_template hcs_gaussdb_opengauss_parameter_template} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -183,7 +183,8 @@ export class DataHcsGaussdbOpengaussParameterTemplate extends cdktf.TerraformDat
       terraformResourceType: 'hcs_gaussdb_opengauss_parameter_template',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.19'
+        providerVersion: '2.4.20',
+        providerVersionConstraint: '2.4.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

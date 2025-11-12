@@ -184,7 +184,8 @@ export class DdosDstDynamicEntryOverflowPolicyIpProto extends cdktf.TerraformRes
       terraformResourceType: 'thunder_ddos_dst_dynamic_entry_overflow_policy_ip_proto',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

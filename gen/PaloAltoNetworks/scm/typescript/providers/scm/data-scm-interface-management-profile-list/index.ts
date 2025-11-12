@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/interface_management_profile_list
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/interface_management_profile_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,45 +10,120 @@ export interface DataScmInterfaceManagementProfileListConfig extends cdktf.Terra
   /**
   * The device of the item.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/interface_management_profile_list#device DataScmInterfaceManagementProfileList#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/interface_management_profile_list#device DataScmInterfaceManagementProfileList#device}
   */
   readonly device?: string;
   /**
   * The folder of the item. Default: Shared.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/interface_management_profile_list#folder DataScmInterfaceManagementProfileList#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/interface_management_profile_list#folder DataScmInterfaceManagementProfileList#folder}
   */
   readonly folder?: string;
   /**
   * The max number of items to return. Default: 200.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/interface_management_profile_list#limit DataScmInterfaceManagementProfileList#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/interface_management_profile_list#limit DataScmInterfaceManagementProfileList#limit}
   */
   readonly limit?: number;
   /**
   * The name of the item.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/interface_management_profile_list#name DataScmInterfaceManagementProfileList#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/interface_management_profile_list#name DataScmInterfaceManagementProfileList#name}
   */
   readonly name?: string;
   /**
   * The offset of the first item to return.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/interface_management_profile_list#offset DataScmInterfaceManagementProfileList#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/interface_management_profile_list#offset DataScmInterfaceManagementProfileList#offset}
   */
   readonly offset?: number;
   /**
   * The snippet of the item.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/interface_management_profile_list#snippet DataScmInterfaceManagementProfileList#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/interface_management_profile_list#snippet DataScmInterfaceManagementProfileList#snippet}
   */
   readonly snippet?: string;
+}
+export interface DataScmInterfaceManagementProfileListDataPermittedIp {
+}
+
+export function dataScmInterfaceManagementProfileListDataPermittedIpToTerraform(struct?: DataScmInterfaceManagementProfileListDataPermittedIp): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataScmInterfaceManagementProfileListDataPermittedIpToHclTerraform(struct?: DataScmInterfaceManagementProfileListDataPermittedIp): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataScmInterfaceManagementProfileListDataPermittedIpOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataScmInterfaceManagementProfileListDataPermittedIp | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataScmInterfaceManagementProfileListDataPermittedIp | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // name - computed: true, optional: false, required: false
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+}
+
+export class DataScmInterfaceManagementProfileListDataPermittedIpList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataScmInterfaceManagementProfileListDataPermittedIpOutputReference {
+    return new DataScmInterfaceManagementProfileListDataPermittedIpOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
 }
 export interface DataScmInterfaceManagementProfileListData {
   /**
   * UUID of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/interface_management_profile_list#id DataScmInterfaceManagementProfileList#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/interface_management_profile_list#id DataScmInterfaceManagementProfileList#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -57,7 +132,7 @@ export interface DataScmInterfaceManagementProfileListData {
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/interface_management_profile_list#name DataScmInterfaceManagementProfileList#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/interface_management_profile_list#name DataScmInterfaceManagementProfileList#name}
   */
   readonly name?: string;
 }
@@ -193,8 +268,9 @@ export class DataScmInterfaceManagementProfileListDataOutputReference extends cd
   }
 
   // permitted_ip - computed: true, optional: false, required: false
+  private _permittedIp = new DataScmInterfaceManagementProfileListDataPermittedIpList(this, "permitted_ip", false);
   public get permittedIp() {
-    return this.getListAttribute('permitted_ip');
+    return this._permittedIp;
   }
 
   // ping - computed: true, optional: false, required: false
@@ -204,7 +280,7 @@ export class DataScmInterfaceManagementProfileListDataOutputReference extends cd
 
   // response_pages - computed: true, optional: false, required: false
   public get responsePages() {
-    return this.getStringAttribute('response_pages');
+    return this.getBooleanAttribute('response_pages');
   }
 
   // snippet - computed: true, optional: false, required: false
@@ -264,7 +340,7 @@ export class DataScmInterfaceManagementProfileListDataList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/interface_management_profile_list scm_interface_management_profile_list}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/interface_management_profile_list scm_interface_management_profile_list}
 */
 export class DataScmInterfaceManagementProfileList extends cdktf.TerraformDataSource {
 
@@ -280,7 +356,7 @@ export class DataScmInterfaceManagementProfileList extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataScmInterfaceManagementProfileList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataScmInterfaceManagementProfileList to import
-  * @param importFromId The id of the existing DataScmInterfaceManagementProfileList that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/interface_management_profile_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataScmInterfaceManagementProfileList that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/interface_management_profile_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataScmInterfaceManagementProfileList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -292,7 +368,7 @@ export class DataScmInterfaceManagementProfileList extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/interface_management_profile_list scm_interface_management_profile_list} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/interface_management_profile_list scm_interface_management_profile_list} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -303,7 +379,8 @@ export class DataScmInterfaceManagementProfileList extends cdktf.TerraformDataSo
       terraformResourceType: 'scm_interface_management_profile_list',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.3'
+        providerVersion: '1.0.4',
+        providerVersionConstraint: '1.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

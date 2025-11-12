@@ -157,7 +157,8 @@ export class DataItsiEntityType extends cdktf.TerraformDataSource {
       terraformResourceType: 'itsi_entity_type',
       terraformGeneratorMetadata: {
         providerName: 'splunk-itsi',
-        providerVersion: '2.2.4'
+        providerVersion: '2.2.4',
+        providerVersionConstraint: '2.2.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

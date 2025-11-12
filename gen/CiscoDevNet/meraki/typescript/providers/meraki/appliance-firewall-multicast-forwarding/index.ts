@@ -240,7 +240,8 @@ export class ApplianceFirewallMulticastForwarding extends cdktf.TerraformResourc
       terraformResourceType: 'meraki_appliance_firewall_multicast_forwarding',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1'
+        providerVersion: '1.7.1',
+        providerVersionConstraint: '1.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

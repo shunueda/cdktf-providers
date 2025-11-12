@@ -214,7 +214,8 @@ export class ServicesUserIdentificationDeviceIdentityProfile extends cdktf.Terra
       terraformResourceType: 'junos_services_user_identification_device_identity_profile',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0'
+        providerVersion: '2.15.0',
+        providerVersionConstraint: '2.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -76,7 +76,8 @@ export class DataNsxtPolicyIpsecVpnLocalEndpoint extends cdktf.TerraformDataSour
       terraformResourceType: 'nsxt_policy_ipsec_vpn_local_endpoint',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0'
+        providerVersion: '3.10.0',
+        providerVersionConstraint: '3.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

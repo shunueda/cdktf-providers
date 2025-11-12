@@ -147,7 +147,8 @@ export class DataOvirtDiskAttachments extends cdktf.TerraformDataSource {
       terraformResourceType: 'ovirt_disk_attachments',
       terraformGeneratorMetadata: {
         providerName: 'ovirt',
-        providerVersion: '2.1.5'
+        providerVersion: '2.1.5',
+        providerVersionConstraint: '2.1.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

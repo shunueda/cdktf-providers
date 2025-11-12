@@ -128,7 +128,8 @@ export class DataAciFilterEntry extends cdktf.TerraformDataSource {
       terraformResourceType: 'aci_filter_entry',
       terraformGeneratorMetadata: {
         providerName: 'aci',
-        providerVersion: '2.18.0'
+        providerVersion: '2.18.0',
+        providerVersionConstraint: '2.18.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

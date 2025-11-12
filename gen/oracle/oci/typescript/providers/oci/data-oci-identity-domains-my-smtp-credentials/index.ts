@@ -732,7 +732,8 @@ export class DataOciIdentityDomainsMySmtpCredentials extends cdktf.TerraformData
       terraformResourceType: 'oci_identity_domains_my_smtp_credentials',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -375,7 +375,8 @@ export class DataOciDatabaseDatabasePdbConversionHistoryEntries extends cdktf.Te
       terraformResourceType: 'oci_database_database_pdb_conversion_history_entries',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

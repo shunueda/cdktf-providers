@@ -140,7 +140,8 @@ export class DataSinglestoredbUserRoles extends cdktf.TerraformDataSource {
       terraformResourceType: 'singlestoredb_user_roles',
       terraformGeneratorMetadata: {
         providerName: 'singlestoredb',
-        providerVersion: '0.1.6'
+        providerVersion: '0.1.6',
+        providerVersionConstraint: '0.1.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

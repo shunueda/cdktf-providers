@@ -4481,7 +4481,8 @@ export class DataIntersightConvergedinfraServerComplianceDetails extends cdktf.T
       terraformResourceType: 'intersight_convergedinfra_server_compliance_details',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

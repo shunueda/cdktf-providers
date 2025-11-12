@@ -61,7 +61,8 @@ export class Hash extends cdktf.TerraformResource {
       terraformResourceType: 'bcrypt_hash',
       terraformGeneratorMetadata: {
         providerName: 'bcrypt',
-        providerVersion: '0.1.2'
+        providerVersion: '0.1.2',
+        providerVersionConstraint: '0.1.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

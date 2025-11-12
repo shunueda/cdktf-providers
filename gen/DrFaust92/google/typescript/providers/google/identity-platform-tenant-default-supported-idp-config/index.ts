@@ -276,7 +276,8 @@ export class IdentityPlatformTenantDefaultSupportedIdpConfig extends cdktf.Terra
       terraformResourceType: 'google_identity_platform_tenant_default_supported_idp_config',
       terraformGeneratorMetadata: {
         providerName: 'google',
-        providerVersion: '4.16.4'
+        providerVersion: '4.16.4',
+        providerVersionConstraint: '4.16.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

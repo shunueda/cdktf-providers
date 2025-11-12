@@ -184,7 +184,8 @@ export class DataBridgecrewJustifications extends cdktf.TerraformDataSource {
       terraformResourceType: 'bridgecrew_justifications',
       terraformGeneratorMetadata: {
         providerName: 'bridgecrew',
-        providerVersion: '0.3.7'
+        providerVersion: '0.3.7',
+        providerVersionConstraint: '0.3.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

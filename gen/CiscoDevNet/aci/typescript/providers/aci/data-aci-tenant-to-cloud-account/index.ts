@@ -76,7 +76,8 @@ export class DataAciTenantToCloudAccount extends cdktf.TerraformDataSource {
       terraformResourceType: 'aci_tenant_to_cloud_account',
       terraformGeneratorMetadata: {
         providerName: 'aci',
-        providerVersion: '2.18.0'
+        providerVersion: '2.18.0',
+        providerVersionConstraint: '2.18.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

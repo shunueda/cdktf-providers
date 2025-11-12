@@ -80,7 +80,8 @@ export class User extends cdktf.TerraformResource {
       terraformResourceType: 'mysql_user',
       terraformGeneratorMetadata: {
         providerName: 'mysql',
-        providerVersion: '1.10.4'
+        providerVersion: '1.10.4',
+        providerVersionConstraint: '1.10.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

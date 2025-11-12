@@ -549,7 +549,8 @@ export class EsaTransportLayerApplication extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_esa_transport_layer_application',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

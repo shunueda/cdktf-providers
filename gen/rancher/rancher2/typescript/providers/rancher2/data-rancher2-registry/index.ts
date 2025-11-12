@@ -159,7 +159,8 @@ export class DataRancher2Registry extends cdktf.TerraformDataSource {
       terraformResourceType: 'rancher2_registry',
       terraformGeneratorMetadata: {
         providerName: 'rancher2',
-        providerVersion: '8.3.1'
+        providerVersion: '8.3.1',
+        providerVersionConstraint: '8.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

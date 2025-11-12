@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/applicationpersistenceprofile
+// https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/applicationpersistenceprofile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,94 +8,92 @@ import * as cdktf from 'cdktf';
 
 export interface ApplicationpersistenceprofileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/applicationpersistenceprofile#description Applicationpersistenceprofile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/applicationpersistenceprofile#description Applicationpersistenceprofile#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/applicationpersistenceprofile#id Applicationpersistenceprofile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/applicationpersistenceprofile#id Applicationpersistenceprofile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/applicationpersistenceprofile#is_federated Applicationpersistenceprofile#is_federated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/applicationpersistenceprofile#is_federated Applicationpersistenceprofile#is_federated}
   */
   readonly isFederated?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/applicationpersistenceprofile#name Applicationpersistenceprofile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/applicationpersistenceprofile#name Applicationpersistenceprofile#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/applicationpersistenceprofile#persistence_type Applicationpersistenceprofile#persistence_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/applicationpersistenceprofile#persistence_type Applicationpersistenceprofile#persistence_type}
   */
   readonly persistenceType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/applicationpersistenceprofile#server_hm_down_recovery Applicationpersistenceprofile#server_hm_down_recovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/applicationpersistenceprofile#persistence_update_interval Applicationpersistenceprofile#persistence_update_interval}
+  */
+  readonly persistenceUpdateInterval?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/applicationpersistenceprofile#server_hm_down_recovery Applicationpersistenceprofile#server_hm_down_recovery}
   */
   readonly serverHmDownRecovery?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/applicationpersistenceprofile#tenant_ref Applicationpersistenceprofile#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/applicationpersistenceprofile#tenant_ref Applicationpersistenceprofile#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/applicationpersistenceprofile#uuid Applicationpersistenceprofile#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/applicationpersistenceprofile#uuid Applicationpersistenceprofile#uuid}
   */
   readonly uuid?: string;
   /**
   * app_cookie_persistence_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/applicationpersistenceprofile#app_cookie_persistence_profile Applicationpersistenceprofile#app_cookie_persistence_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/applicationpersistenceprofile#app_cookie_persistence_profile Applicationpersistenceprofile#app_cookie_persistence_profile}
   */
   readonly appCookiePersistenceProfile?: ApplicationpersistenceprofileAppCookiePersistenceProfile[] | cdktf.IResolvable;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/applicationpersistenceprofile#configpb_attributes Applicationpersistenceprofile#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/applicationpersistenceprofile#configpb_attributes Applicationpersistenceprofile#configpb_attributes}
   */
   readonly configpbAttributes?: ApplicationpersistenceprofileConfigpbAttributes[] | cdktf.IResolvable;
   /**
-  * diameter_app_persistence_profile block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/applicationpersistenceprofile#diameter_app_persistence_profile Applicationpersistenceprofile#diameter_app_persistence_profile}
-  */
-  readonly diameterAppPersistenceProfile?: ApplicationpersistenceprofileDiameterAppPersistenceProfile[] | cdktf.IResolvable;
-  /**
   * hdr_persistence_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/applicationpersistenceprofile#hdr_persistence_profile Applicationpersistenceprofile#hdr_persistence_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/applicationpersistenceprofile#hdr_persistence_profile Applicationpersistenceprofile#hdr_persistence_profile}
   */
   readonly hdrPersistenceProfile?: ApplicationpersistenceprofileHdrPersistenceProfile[] | cdktf.IResolvable;
   /**
   * http_cookie_persistence_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/applicationpersistenceprofile#http_cookie_persistence_profile Applicationpersistenceprofile#http_cookie_persistence_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/applicationpersistenceprofile#http_cookie_persistence_profile Applicationpersistenceprofile#http_cookie_persistence_profile}
   */
   readonly httpCookiePersistenceProfile?: ApplicationpersistenceprofileHttpCookiePersistenceProfile[] | cdktf.IResolvable;
   /**
   * ip_persistence_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/applicationpersistenceprofile#ip_persistence_profile Applicationpersistenceprofile#ip_persistence_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/applicationpersistenceprofile#ip_persistence_profile Applicationpersistenceprofile#ip_persistence_profile}
   */
   readonly ipPersistenceProfile?: ApplicationpersistenceprofileIpPersistenceProfile[] | cdktf.IResolvable;
   /**
   * markers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/applicationpersistenceprofile#markers Applicationpersistenceprofile#markers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/applicationpersistenceprofile#markers Applicationpersistenceprofile#markers}
   */
   readonly markers?: ApplicationpersistenceprofileMarkers[] | cdktf.IResolvable;
 }
 export interface ApplicationpersistenceprofileAppCookiePersistenceProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/applicationpersistenceprofile#encryption_key Applicationpersistenceprofile#encryption_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/applicationpersistenceprofile#encryption_key Applicationpersistenceprofile#encryption_key}
   */
   readonly encryptionKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/applicationpersistenceprofile#prst_hdr_name Applicationpersistenceprofile#prst_hdr_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/applicationpersistenceprofile#prst_hdr_name Applicationpersistenceprofile#prst_hdr_name}
   */
   readonly prstHdrName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/applicationpersistenceprofile#timeout Applicationpersistenceprofile#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/applicationpersistenceprofile#timeout Applicationpersistenceprofile#timeout}
   */
   readonly timeout?: string;
 }
@@ -266,7 +264,7 @@ export class ApplicationpersistenceprofileAppCookiePersistenceProfileList extend
 }
 export interface ApplicationpersistenceprofileConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/applicationpersistenceprofile#version Applicationpersistenceprofile#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/applicationpersistenceprofile#version Applicationpersistenceprofile#version}
   */
   readonly version?: string;
 }
@@ -380,158 +378,9 @@ export class ApplicationpersistenceprofileConfigpbAttributesList extends cdktf.C
     return new ApplicationpersistenceprofileConfigpbAttributesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
-export interface ApplicationpersistenceprofileDiameterAppPersistenceProfile {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/applicationpersistenceprofile#avp_key_type Applicationpersistenceprofile#avp_key_type}
-  */
-  readonly avpKeyType?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/applicationpersistenceprofile#timeout Applicationpersistenceprofile#timeout}
-  */
-  readonly timeout?: string;
-}
-
-export function applicationpersistenceprofileDiameterAppPersistenceProfileToTerraform(struct?: ApplicationpersistenceprofileDiameterAppPersistenceProfile | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    avp_key_type: cdktf.stringToTerraform(struct!.avpKeyType),
-    timeout: cdktf.stringToTerraform(struct!.timeout),
-  }
-}
-
-
-export function applicationpersistenceprofileDiameterAppPersistenceProfileToHclTerraform(struct?: ApplicationpersistenceprofileDiameterAppPersistenceProfile | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    avp_key_type: {
-      value: cdktf.stringToHclTerraform(struct!.avpKeyType),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    timeout: {
-      value: cdktf.stringToHclTerraform(struct!.timeout),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class ApplicationpersistenceprofileDiameterAppPersistenceProfileOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): ApplicationpersistenceprofileDiameterAppPersistenceProfile | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._avpKeyType !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.avpKeyType = this._avpKeyType;
-    }
-    if (this._timeout !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.timeout = this._timeout;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: ApplicationpersistenceprofileDiameterAppPersistenceProfile | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._avpKeyType = undefined;
-      this._timeout = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._avpKeyType = value.avpKeyType;
-      this._timeout = value.timeout;
-    }
-  }
-
-  // avp_key_type - computed: false, optional: true, required: false
-  private _avpKeyType?: string; 
-  public get avpKeyType() {
-    return this.getStringAttribute('avp_key_type');
-  }
-  public set avpKeyType(value: string) {
-    this._avpKeyType = value;
-  }
-  public resetAvpKeyType() {
-    this._avpKeyType = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get avpKeyTypeInput() {
-    return this._avpKeyType;
-  }
-
-  // timeout - computed: true, optional: true, required: false
-  private _timeout?: string; 
-  public get timeout() {
-    return this.getStringAttribute('timeout');
-  }
-  public set timeout(value: string) {
-    this._timeout = value;
-  }
-  public resetTimeout() {
-    this._timeout = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get timeoutInput() {
-    return this._timeout;
-  }
-}
-
-export class ApplicationpersistenceprofileDiameterAppPersistenceProfileList extends cdktf.ComplexList {
-  public internalValue? : ApplicationpersistenceprofileDiameterAppPersistenceProfile[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): ApplicationpersistenceprofileDiameterAppPersistenceProfileOutputReference {
-    return new ApplicationpersistenceprofileDiameterAppPersistenceProfileOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
 export interface ApplicationpersistenceprofileHdrPersistenceProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/applicationpersistenceprofile#prst_hdr_name Applicationpersistenceprofile#prst_hdr_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/applicationpersistenceprofile#prst_hdr_name Applicationpersistenceprofile#prst_hdr_name}
   */
   readonly prstHdrName?: string;
 }
@@ -647,15 +496,15 @@ export class ApplicationpersistenceprofileHdrPersistenceProfileList extends cdkt
 }
 export interface ApplicationpersistenceprofileHttpCookiePersistenceProfileKey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/applicationpersistenceprofile#aes_key Applicationpersistenceprofile#aes_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/applicationpersistenceprofile#aes_key Applicationpersistenceprofile#aes_key}
   */
   readonly aesKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/applicationpersistenceprofile#hmac_key Applicationpersistenceprofile#hmac_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/applicationpersistenceprofile#hmac_key Applicationpersistenceprofile#hmac_key}
   */
   readonly hmacKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/applicationpersistenceprofile#name Applicationpersistenceprofile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/applicationpersistenceprofile#name Applicationpersistenceprofile#name}
   */
   readonly name?: string;
 }
@@ -829,33 +678,33 @@ export class ApplicationpersistenceprofileHttpCookiePersistenceProfileKeyList ex
 }
 export interface ApplicationpersistenceprofileHttpCookiePersistenceProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/applicationpersistenceprofile#always_send_cookie Applicationpersistenceprofile#always_send_cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/applicationpersistenceprofile#always_send_cookie Applicationpersistenceprofile#always_send_cookie}
   */
   readonly alwaysSendCookie?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/applicationpersistenceprofile#cookie_name Applicationpersistenceprofile#cookie_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/applicationpersistenceprofile#cookie_name Applicationpersistenceprofile#cookie_name}
   */
   readonly cookieName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/applicationpersistenceprofile#encryption_key Applicationpersistenceprofile#encryption_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/applicationpersistenceprofile#encryption_key Applicationpersistenceprofile#encryption_key}
   */
   readonly encryptionKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/applicationpersistenceprofile#http_only Applicationpersistenceprofile#http_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/applicationpersistenceprofile#http_only Applicationpersistenceprofile#http_only}
   */
   readonly httpOnly?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/applicationpersistenceprofile#is_persistent_cookie Applicationpersistenceprofile#is_persistent_cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/applicationpersistenceprofile#is_persistent_cookie Applicationpersistenceprofile#is_persistent_cookie}
   */
   readonly isPersistentCookie?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/applicationpersistenceprofile#timeout Applicationpersistenceprofile#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/applicationpersistenceprofile#timeout Applicationpersistenceprofile#timeout}
   */
   readonly timeout?: string;
   /**
   * key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/applicationpersistenceprofile#key Applicationpersistenceprofile#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/applicationpersistenceprofile#key Applicationpersistenceprofile#key}
   */
   readonly key?: ApplicationpersistenceprofileHttpCookiePersistenceProfileKey[] | cdktf.IResolvable;
 }
@@ -1145,11 +994,11 @@ export class ApplicationpersistenceprofileHttpCookiePersistenceProfileList exten
 }
 export interface ApplicationpersistenceprofileIpPersistenceProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/applicationpersistenceprofile#ip_mask Applicationpersistenceprofile#ip_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/applicationpersistenceprofile#ip_mask Applicationpersistenceprofile#ip_mask}
   */
   readonly ipMask?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/applicationpersistenceprofile#ip_persistent_timeout Applicationpersistenceprofile#ip_persistent_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/applicationpersistenceprofile#ip_persistent_timeout Applicationpersistenceprofile#ip_persistent_timeout}
   */
   readonly ipPersistentTimeout?: string;
 }
@@ -1294,11 +1143,11 @@ export class ApplicationpersistenceprofileIpPersistenceProfileList extends cdktf
 }
 export interface ApplicationpersistenceprofileMarkers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/applicationpersistenceprofile#key Applicationpersistenceprofile#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/applicationpersistenceprofile#key Applicationpersistenceprofile#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/applicationpersistenceprofile#values Applicationpersistenceprofile#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/applicationpersistenceprofile#values Applicationpersistenceprofile#values}
   */
   readonly values?: string[];
 }
@@ -1440,7 +1289,7 @@ export class ApplicationpersistenceprofileMarkersList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/applicationpersistenceprofile avi_applicationpersistenceprofile}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/applicationpersistenceprofile avi_applicationpersistenceprofile}
 */
 export class Applicationpersistenceprofile extends cdktf.TerraformResource {
 
@@ -1456,7 +1305,7 @@ export class Applicationpersistenceprofile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Applicationpersistenceprofile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Applicationpersistenceprofile to import
-  * @param importFromId The id of the existing Applicationpersistenceprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/applicationpersistenceprofile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Applicationpersistenceprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/applicationpersistenceprofile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Applicationpersistenceprofile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1468,7 +1317,7 @@ export class Applicationpersistenceprofile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/applicationpersistenceprofile avi_applicationpersistenceprofile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/applicationpersistenceprofile avi_applicationpersistenceprofile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1479,7 +1328,8 @@ export class Applicationpersistenceprofile extends cdktf.TerraformResource {
       terraformResourceType: 'avi_applicationpersistenceprofile',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '31.1.1'
+        providerVersion: '30.2.5',
+        providerVersionConstraint: '30.2.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1494,12 +1344,12 @@ export class Applicationpersistenceprofile extends cdktf.TerraformResource {
     this._isFederated = config.isFederated;
     this._name = config.name;
     this._persistenceType = config.persistenceType;
+    this._persistenceUpdateInterval = config.persistenceUpdateInterval;
     this._serverHmDownRecovery = config.serverHmDownRecovery;
     this._tenantRef = config.tenantRef;
     this._uuid = config.uuid;
     this._appCookiePersistenceProfile.internalValue = config.appCookiePersistenceProfile;
     this._configpbAttributes.internalValue = config.configpbAttributes;
-    this._diameterAppPersistenceProfile.internalValue = config.diameterAppPersistenceProfile;
     this._hdrPersistenceProfile.internalValue = config.hdrPersistenceProfile;
     this._httpCookiePersistenceProfile.internalValue = config.httpCookiePersistenceProfile;
     this._ipPersistenceProfile.internalValue = config.ipPersistenceProfile;
@@ -1584,6 +1434,22 @@ export class Applicationpersistenceprofile extends cdktf.TerraformResource {
     return this._persistenceType;
   }
 
+  // persistence_update_interval - computed: true, optional: true, required: false
+  private _persistenceUpdateInterval?: string; 
+  public get persistenceUpdateInterval() {
+    return this.getStringAttribute('persistence_update_interval');
+  }
+  public set persistenceUpdateInterval(value: string) {
+    this._persistenceUpdateInterval = value;
+  }
+  public resetPersistenceUpdateInterval() {
+    this._persistenceUpdateInterval = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get persistenceUpdateIntervalInput() {
+    return this._persistenceUpdateInterval;
+  }
+
   // server_hm_down_recovery - computed: false, optional: true, required: false
   private _serverHmDownRecovery?: string; 
   public get serverHmDownRecovery() {
@@ -1664,22 +1530,6 @@ export class Applicationpersistenceprofile extends cdktf.TerraformResource {
     return this._configpbAttributes.internalValue;
   }
 
-  // diameter_app_persistence_profile - computed: false, optional: true, required: false
-  private _diameterAppPersistenceProfile = new ApplicationpersistenceprofileDiameterAppPersistenceProfileList(this, "diameter_app_persistence_profile", true);
-  public get diameterAppPersistenceProfile() {
-    return this._diameterAppPersistenceProfile;
-  }
-  public putDiameterAppPersistenceProfile(value: ApplicationpersistenceprofileDiameterAppPersistenceProfile[] | cdktf.IResolvable) {
-    this._diameterAppPersistenceProfile.internalValue = value;
-  }
-  public resetDiameterAppPersistenceProfile() {
-    this._diameterAppPersistenceProfile.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get diameterAppPersistenceProfileInput() {
-    return this._diameterAppPersistenceProfile.internalValue;
-  }
-
   // hdr_persistence_profile - computed: false, optional: true, required: false
   private _hdrPersistenceProfile = new ApplicationpersistenceprofileHdrPersistenceProfileList(this, "hdr_persistence_profile", true);
   public get hdrPersistenceProfile() {
@@ -1755,12 +1605,12 @@ export class Applicationpersistenceprofile extends cdktf.TerraformResource {
       is_federated: cdktf.stringToTerraform(this._isFederated),
       name: cdktf.stringToTerraform(this._name),
       persistence_type: cdktf.stringToTerraform(this._persistenceType),
+      persistence_update_interval: cdktf.stringToTerraform(this._persistenceUpdateInterval),
       server_hm_down_recovery: cdktf.stringToTerraform(this._serverHmDownRecovery),
       tenant_ref: cdktf.stringToTerraform(this._tenantRef),
       uuid: cdktf.stringToTerraform(this._uuid),
       app_cookie_persistence_profile: cdktf.listMapper(applicationpersistenceprofileAppCookiePersistenceProfileToTerraform, true)(this._appCookiePersistenceProfile.internalValue),
       configpb_attributes: cdktf.listMapper(applicationpersistenceprofileConfigpbAttributesToTerraform, true)(this._configpbAttributes.internalValue),
-      diameter_app_persistence_profile: cdktf.listMapper(applicationpersistenceprofileDiameterAppPersistenceProfileToTerraform, true)(this._diameterAppPersistenceProfile.internalValue),
       hdr_persistence_profile: cdktf.listMapper(applicationpersistenceprofileHdrPersistenceProfileToTerraform, true)(this._hdrPersistenceProfile.internalValue),
       http_cookie_persistence_profile: cdktf.listMapper(applicationpersistenceprofileHttpCookiePersistenceProfileToTerraform, true)(this._httpCookiePersistenceProfile.internalValue),
       ip_persistence_profile: cdktf.listMapper(applicationpersistenceprofileIpPersistenceProfileToTerraform, true)(this._ipPersistenceProfile.internalValue),
@@ -1800,6 +1650,12 @@ export class Applicationpersistenceprofile extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      persistence_update_interval: {
+        value: cdktf.stringToHclTerraform(this._persistenceUpdateInterval),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       server_hm_down_recovery: {
         value: cdktf.stringToHclTerraform(this._serverHmDownRecovery),
         isBlock: false,
@@ -1829,12 +1685,6 @@ export class Applicationpersistenceprofile extends cdktf.TerraformResource {
         isBlock: true,
         type: "set",
         storageClassType: "ApplicationpersistenceprofileConfigpbAttributesList",
-      },
-      diameter_app_persistence_profile: {
-        value: cdktf.listMapperHcl(applicationpersistenceprofileDiameterAppPersistenceProfileToHclTerraform, true)(this._diameterAppPersistenceProfile.internalValue),
-        isBlock: true,
-        type: "set",
-        storageClassType: "ApplicationpersistenceprofileDiameterAppPersistenceProfileList",
       },
       hdr_persistence_profile: {
         value: cdktf.listMapperHcl(applicationpersistenceprofileHdrPersistenceProfileToHclTerraform, true)(this._hdrPersistenceProfile.internalValue),

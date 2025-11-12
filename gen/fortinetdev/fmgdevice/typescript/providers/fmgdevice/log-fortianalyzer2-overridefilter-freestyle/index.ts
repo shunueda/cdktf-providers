@@ -80,7 +80,8 @@ export class LogFortianalyzer2OverridefilterFreestyle extends cdktf.TerraformRes
       terraformResourceType: 'fmgdevice_log_fortianalyzer2_overridefilter_freestyle',
       terraformGeneratorMetadata: {
         providerName: 'fmgdevice',
-        providerVersion: '1.2.1'
+        providerVersion: '1.2.1',
+        providerVersionConstraint: '1.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

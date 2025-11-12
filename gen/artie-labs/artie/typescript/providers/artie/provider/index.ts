@@ -67,7 +67,8 @@ export class ArtieProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'artie',
       terraformGeneratorMetadata: {
         providerName: 'artie',
-        providerVersion: '2.2.0'
+        providerVersion: '2.2.0',
+        providerVersionConstraint: '2.2.0'
       },
       terraformProviderSource: 'artie-labs/artie'
     });

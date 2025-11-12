@@ -431,7 +431,8 @@ export class DataTencentcloudCcnCrossBorderRegionBandwidthLimits extends cdktf.T
       terraformResourceType: 'tencentcloud_ccn_cross_border_region_bandwidth_limits',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

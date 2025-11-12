@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/resources/aws_archival_location
+// https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_archival_location
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface AwsArchivalLocationConfig extends cdktf.TerraformMetaArguments 
   /**
   * RSC cloud account ID (UUID). Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/resources/aws_archival_location#account_id AwsArchivalLocation#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_archival_location#account_id AwsArchivalLocation#account_id}
   */
   readonly accountId: string;
   /**
   * AWS bucket prefix. The prefix cannot be longer than 19 characters. Note that `rubrik-` will always be prepended to the prefix. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/resources/aws_archival_location#bucket_prefix AwsArchivalLocation#bucket_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_archival_location#bucket_prefix AwsArchivalLocation#bucket_prefix}
   */
   readonly bucketPrefix: string;
   /**
   * AWS bucket tags. Each tag will be added to the bucket created by RSC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/resources/aws_archival_location#bucket_tags AwsArchivalLocation#bucket_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_archival_location#bucket_tags AwsArchivalLocation#bucket_tags}
   */
   readonly bucketTags?: { [key: string]: string };
   /**
   * AWS KMS master key alias/ID. Default value is `aws/s3`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/resources/aws_archival_location#kms_master_key AwsArchivalLocation#kms_master_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_archival_location#kms_master_key AwsArchivalLocation#kms_master_key}
   */
   readonly kmsMasterKey?: string;
   /**
   * Name of the cloud native archival location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/resources/aws_archival_location#name AwsArchivalLocation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_archival_location#name AwsArchivalLocation#name}
   */
   readonly name: string;
   /**
   * AWS region to store the snapshots in. If not specified, the snapshots will be stored in the same region as the workload. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/resources/aws_archival_location#region AwsArchivalLocation#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_archival_location#region AwsArchivalLocation#region}
   */
   readonly region?: string;
   /**
   * AWS bucket storage class. Possible values are `STANDARD`, `STANDARD_IA`, `ONEZONE_IA`, `GLACIER_INSTANT_RETRIEVAL`, `GLACIER_DEEP_ARCHIVE` and `GLACIER_FLEXIBLE_RETRIEVAL`. Default value is `STANDARD_IA`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/resources/aws_archival_location#storage_class AwsArchivalLocation#storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_archival_location#storage_class AwsArchivalLocation#storage_class}
   */
   readonly storageClass?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/resources/aws_archival_location polaris_aws_archival_location}
+* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_archival_location polaris_aws_archival_location}
 */
 export class AwsArchivalLocation extends cdktf.TerraformResource {
 
@@ -68,7 +68,7 @@ export class AwsArchivalLocation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AwsArchivalLocation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AwsArchivalLocation to import
-  * @param importFromId The id of the existing AwsArchivalLocation that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/resources/aws_archival_location#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AwsArchivalLocation that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_archival_location#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AwsArchivalLocation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +80,7 @@ export class AwsArchivalLocation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/resources/aws_archival_location polaris_aws_archival_location} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_archival_location polaris_aws_archival_location} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,7 +91,8 @@ export class AwsArchivalLocation extends cdktf.TerraformResource {
       terraformResourceType: 'polaris_aws_archival_location',
       terraformGeneratorMetadata: {
         providerName: 'polaris',
-        providerVersion: '1.2.1'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

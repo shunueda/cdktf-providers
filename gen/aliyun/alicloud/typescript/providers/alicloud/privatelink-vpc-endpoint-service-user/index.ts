@@ -238,7 +238,8 @@ export class PrivatelinkVpcEndpointServiceUser extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_privatelink_vpc_endpoint_service_user',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -408,7 +408,8 @@ export class DataSamsungcloudplatformIamGroupMembers extends cdktf.TerraformData
       terraformResourceType: 'samsungcloudplatform_iam_group_members',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0'
+        providerVersion: '3.15.0',
+        providerVersionConstraint: '3.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

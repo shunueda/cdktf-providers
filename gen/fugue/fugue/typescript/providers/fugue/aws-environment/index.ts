@@ -97,7 +97,8 @@ export class AwsEnvironment extends cdktf.TerraformResource {
       terraformResourceType: 'fugue_aws_environment',
       terraformGeneratorMetadata: {
         providerName: 'fugue',
-        providerVersion: '0.0.11'
+        providerVersion: '0.0.11',
+        providerVersionConstraint: '0.0.11'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

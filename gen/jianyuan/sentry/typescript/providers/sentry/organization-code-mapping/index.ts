@@ -98,7 +98,8 @@ export class OrganizationCodeMapping extends cdktf.TerraformResource {
       terraformResourceType: 'sentry_organization_code_mapping',
       terraformGeneratorMetadata: {
         providerName: 'sentry',
-        providerVersion: '0.14.6'
+        providerVersion: '0.14.6',
+        providerVersionConstraint: '0.14.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

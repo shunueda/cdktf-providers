@@ -133,7 +133,8 @@ export class DataOciDatabaseExascaleDbStorageVault extends cdktf.TerraformDataSo
       terraformResourceType: 'oci_database_exascale_db_storage_vault',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

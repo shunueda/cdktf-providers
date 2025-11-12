@@ -443,7 +443,8 @@ export class PreventionPolicyLinux extends cdktf.TerraformResource {
       terraformResourceType: 'crowdstrike_prevention_policy_linux',
       terraformGeneratorMetadata: {
         providerName: 'crowdstrike',
-        providerVersion: '0.0.43'
+        providerVersion: '0.0.43',
+        providerVersionConstraint: '0.0.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

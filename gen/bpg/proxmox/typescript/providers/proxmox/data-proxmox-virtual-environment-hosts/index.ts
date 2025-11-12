@@ -142,7 +142,8 @@ export class DataProxmoxVirtualEnvironmentHosts extends cdktf.TerraformDataSourc
       terraformResourceType: 'proxmox_virtual_environment_hosts',
       terraformGeneratorMetadata: {
         providerName: 'proxmox',
-        providerVersion: '0.86.0'
+        providerVersion: '0.86.0',
+        providerVersionConstraint: '0.86.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

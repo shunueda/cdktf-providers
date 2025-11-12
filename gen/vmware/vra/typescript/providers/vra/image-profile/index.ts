@@ -517,7 +517,8 @@ export class ImageProfile extends cdktf.TerraformResource {
       terraformResourceType: 'vra_image_profile',
       terraformGeneratorMetadata: {
         providerName: 'vra',
-        providerVersion: '0.15.0'
+        providerVersion: '0.15.0',
+        providerVersionConstraint: '0.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

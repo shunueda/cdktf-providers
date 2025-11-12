@@ -756,7 +756,8 @@ export class Template extends cdktf.TerraformResource {
       terraformResourceType: 'ome_template',
       terraformGeneratorMetadata: {
         providerName: 'ome',
-        providerVersion: '1.2.3'
+        providerVersion: '1.2.3',
+        providerVersionConstraint: '1.2.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

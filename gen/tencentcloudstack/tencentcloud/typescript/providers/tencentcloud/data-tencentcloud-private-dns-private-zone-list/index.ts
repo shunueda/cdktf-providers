@@ -709,7 +709,8 @@ export class DataTencentcloudPrivateDnsPrivateZoneList extends cdktf.TerraformDa
       terraformResourceType: 'tencentcloud_private_dns_private_zone_list',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

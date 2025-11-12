@@ -67,7 +67,8 @@ export class View extends cdktf.TerraformResource {
       terraformResourceType: 'jenkins_view',
       terraformGeneratorMetadata: {
         providerName: 'jenkins',
-        providerVersion: '0.11.0'
+        providerVersion: '0.11.0',
+        providerVersionConstraint: '0.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

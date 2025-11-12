@@ -72,7 +72,8 @@ export class WorkspaceVariable extends cdktf.TerraformResource {
       terraformResourceType: 'bitbucket_workspace_variable',
       terraformGeneratorMetadata: {
         providerName: 'bitbucket',
-        providerVersion: '2.50.0'
+        providerVersion: '2.50.0',
+        providerVersionConstraint: '2.50.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -55,7 +55,8 @@ export class KindProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'kind',
       terraformGeneratorMetadata: {
         providerName: 'kind',
-        providerVersion: '0.9.0'
+        providerVersion: '0.9.0',
+        providerVersionConstraint: '0.9.0'
       },
       terraformProviderSource: 'tehcyx/kind'
     });

@@ -55,7 +55,8 @@ export class DataPingfederateKeypairsSslServerKey extends cdktf.TerraformDataSou
       terraformResourceType: 'pingfederate_keypairs_ssl_server_key',
       terraformGeneratorMetadata: {
         providerName: 'pingfederate',
-        providerVersion: '1.6.2'
+        providerVersion: '1.6.2',
+        providerVersionConstraint: '1.6.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

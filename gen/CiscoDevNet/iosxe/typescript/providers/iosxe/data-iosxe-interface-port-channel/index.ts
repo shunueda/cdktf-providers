@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/data-sources/interface_port_channel
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/data-sources/interface_port_channel
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIosxeInterfacePortChannelConfig extends cdktf.TerraformMeta
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/data-sources/interface_port_channel#device DataIosxeInterfacePortChannel#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/data-sources/interface_port_channel#device DataIosxeInterfacePortChannel#device}
   */
   readonly device?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/data-sources/interface_port_channel#name DataIosxeInterfacePortChannel#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/data-sources/interface_port_channel#name DataIosxeInterfacePortChannel#name}
   */
   readonly name: number;
 }
@@ -91,6 +91,81 @@ export class DataIosxeInterfacePortChannelDeviceTrackingAttachedPoliciesList ext
   */
   public get(index: number): DataIosxeInterfacePortChannelDeviceTrackingAttachedPoliciesOutputReference {
     return new DataIosxeInterfacePortChannelDeviceTrackingAttachedPoliciesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataIosxeInterfacePortChannelEvpnEthernetSegments {
+}
+
+export function dataIosxeInterfacePortChannelEvpnEthernetSegmentsToTerraform(struct?: DataIosxeInterfacePortChannelEvpnEthernetSegments): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataIosxeInterfacePortChannelEvpnEthernetSegmentsToHclTerraform(struct?: DataIosxeInterfacePortChannelEvpnEthernetSegments): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataIosxeInterfacePortChannelEvpnEthernetSegmentsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataIosxeInterfacePortChannelEvpnEthernetSegments | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataIosxeInterfacePortChannelEvpnEthernetSegments | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // es_value - computed: true, optional: false, required: false
+  public get esValue() {
+    return this.getNumberAttribute('es_value');
+  }
+}
+
+export class DataIosxeInterfacePortChannelEvpnEthernetSegmentsList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataIosxeInterfacePortChannelEvpnEthernetSegmentsOutputReference {
+    return new DataIosxeInterfacePortChannelEvpnEthernetSegmentsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
 export interface DataIosxeInterfacePortChannelHelperAddresses {
@@ -340,7 +415,7 @@ export class DataIosxeInterfacePortChannelIpv6LinkLocalAddressesList extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/data-sources/interface_port_channel iosxe_interface_port_channel}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/data-sources/interface_port_channel iosxe_interface_port_channel}
 */
 export class DataIosxeInterfacePortChannel extends cdktf.TerraformDataSource {
 
@@ -356,7 +431,7 @@ export class DataIosxeInterfacePortChannel extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIosxeInterfacePortChannel resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIosxeInterfacePortChannel to import
-  * @param importFromId The id of the existing DataIosxeInterfacePortChannel that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/data-sources/interface_port_channel#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIosxeInterfacePortChannel that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/data-sources/interface_port_channel#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIosxeInterfacePortChannel to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -368,7 +443,7 @@ export class DataIosxeInterfacePortChannel extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/data-sources/interface_port_channel iosxe_interface_port_channel} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/data-sources/interface_port_channel iosxe_interface_port_channel} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -379,7 +454,8 @@ export class DataIosxeInterfacePortChannel extends cdktf.TerraformDataSource {
       terraformResourceType: 'iosxe_interface_port_channel',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.9.3'
+        providerVersion: '0.10.0',
+        providerVersionConstraint: '0.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -527,6 +603,12 @@ export class DataIosxeInterfacePortChannel extends cdktf.TerraformDataSource {
   private _deviceTrackingAttachedPolicies = new DataIosxeInterfacePortChannelDeviceTrackingAttachedPoliciesList(this, "device_tracking_attached_policies", false);
   public get deviceTrackingAttachedPolicies() {
     return this._deviceTrackingAttachedPolicies;
+  }
+
+  // evpn_ethernet_segments - computed: true, optional: false, required: false
+  private _evpnEthernetSegments = new DataIosxeInterfacePortChannelEvpnEthernetSegmentsList(this, "evpn_ethernet_segments", false);
+  public get evpnEthernetSegments() {
+    return this._evpnEthernetSegments;
   }
 
   // helper_addresses - computed: true, optional: false, required: false

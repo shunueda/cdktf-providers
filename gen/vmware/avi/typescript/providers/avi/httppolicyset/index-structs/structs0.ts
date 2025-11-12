@@ -1,7 +1,7 @@
 import * as cdktf from 'cdktf';
 export interface HttppolicysetConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#version Httppolicyset#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#version Httppolicyset#version}
   */
   readonly version?: string;
 }
@@ -117,11 +117,11 @@ export class HttppolicysetConfigpbAttributesList extends cdktf.ComplexList {
 }
 export interface HttppolicysetHttpRequestPolicyRulesHdrActionCookie {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#name Httppolicyset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#name Httppolicyset#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#value Httppolicyset#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#value Httppolicyset#value}
   */
   readonly value?: string;
 }
@@ -266,15 +266,15 @@ export class HttppolicysetHttpRequestPolicyRulesHdrActionCookieList extends cdkt
 }
 export interface HttppolicysetHttpRequestPolicyRulesHdrActionHdrValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#is_sensitive Httppolicyset#is_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#is_sensitive Httppolicyset#is_sensitive}
   */
   readonly isSensitive?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#val Httppolicyset#val}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#val Httppolicyset#val}
   */
   readonly val?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#var Httppolicyset#var}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#var Httppolicyset#var}
   */
   readonly var?: string;
 }
@@ -448,13 +448,13 @@ export class HttppolicysetHttpRequestPolicyRulesHdrActionHdrValueList extends cd
 }
 export interface HttppolicysetHttpRequestPolicyRulesHdrActionHdr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#name Httppolicyset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#name Httppolicyset#name}
   */
   readonly name?: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#value Httppolicyset#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#value Httppolicyset#value}
   */
   readonly value?: HttppolicysetHttpRequestPolicyRulesHdrActionHdrValue[] | cdktf.IResolvable;
 }
@@ -599,23 +599,23 @@ export class HttppolicysetHttpRequestPolicyRulesHdrActionHdrList extends cdktf.C
 }
 export interface HttppolicysetHttpRequestPolicyRulesHdrAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#action Httppolicyset#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#action Httppolicyset#action}
   */
   readonly action: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#hdr_index Httppolicyset#hdr_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#hdr_index Httppolicyset#hdr_index}
   */
   readonly hdrIndex?: string;
   /**
   * cookie block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#cookie Httppolicyset#cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#cookie Httppolicyset#cookie}
   */
   readonly cookie?: HttppolicysetHttpRequestPolicyRulesHdrActionCookie[] | cdktf.IResolvable;
   /**
   * hdr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#hdr Httppolicyset#hdr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#hdr Httppolicyset#hdr}
   */
   readonly hdr?: HttppolicysetHttpRequestPolicyRulesHdrActionHdr[] | cdktf.IResolvable;
 }
@@ -815,11 +815,11 @@ export class HttppolicysetHttpRequestPolicyRulesHdrActionList extends cdktf.Comp
 }
 export interface HttppolicysetHttpRequestPolicyRulesMatchBotDetectionResultClassifications {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#type Httppolicyset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#type Httppolicyset#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#user_defined_type Httppolicyset#user_defined_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#user_defined_type Httppolicyset#user_defined_type}
   */
   readonly userDefinedType?: string;
 }
@@ -961,13 +961,13 @@ export class HttppolicysetHttpRequestPolicyRulesMatchBotDetectionResultClassific
 }
 export interface HttppolicysetHttpRequestPolicyRulesMatchBotDetectionResult {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#match_operation Httppolicyset#match_operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#match_operation Httppolicyset#match_operation}
   */
   readonly matchOperation: string;
   /**
   * classifications block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#classifications Httppolicyset#classifications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#classifications Httppolicyset#classifications}
   */
   readonly classifications?: HttppolicysetHttpRequestPolicyRulesMatchBotDetectionResultClassifications[] | cdktf.IResolvable;
 }
@@ -1109,11 +1109,11 @@ export class HttppolicysetHttpRequestPolicyRulesMatchBotDetectionResultList exte
 }
 export interface HttppolicysetHttpRequestPolicyRulesMatchClientIpAddrs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#addr Httppolicyset#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#addr Httppolicyset#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#type Httppolicyset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#type Httppolicyset#type}
   */
   readonly type: string;
 }
@@ -1252,11 +1252,11 @@ export class HttppolicysetHttpRequestPolicyRulesMatchClientIpAddrsList extends c
 }
 export interface HttppolicysetHttpRequestPolicyRulesMatchClientIpPrefixesIpAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#addr Httppolicyset#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#addr Httppolicyset#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#type Httppolicyset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#type Httppolicyset#type}
   */
   readonly type: string;
 }
@@ -1395,13 +1395,13 @@ export class HttppolicysetHttpRequestPolicyRulesMatchClientIpPrefixesIpAddrList 
 }
 export interface HttppolicysetHttpRequestPolicyRulesMatchClientIpPrefixes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#mask Httppolicyset#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#mask Httppolicyset#mask}
   */
   readonly mask: string;
   /**
   * ip_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#ip_addr Httppolicyset#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#ip_addr Httppolicyset#ip_addr}
   */
   readonly ipAddr: HttppolicysetHttpRequestPolicyRulesMatchClientIpPrefixesIpAddr[] | cdktf.IResolvable;
 }
@@ -1540,11 +1540,11 @@ export class HttppolicysetHttpRequestPolicyRulesMatchClientIpPrefixesList extend
 }
 export interface HttppolicysetHttpRequestPolicyRulesMatchClientIpRangesBegin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#addr Httppolicyset#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#addr Httppolicyset#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#type Httppolicyset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#type Httppolicyset#type}
   */
   readonly type: string;
 }
@@ -1683,11 +1683,11 @@ export class HttppolicysetHttpRequestPolicyRulesMatchClientIpRangesBeginList ext
 }
 export interface HttppolicysetHttpRequestPolicyRulesMatchClientIpRangesEnd {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#addr Httppolicyset#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#addr Httppolicyset#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#type Httppolicyset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#type Httppolicyset#type}
   */
   readonly type: string;
 }
@@ -1828,13 +1828,13 @@ export interface HttppolicysetHttpRequestPolicyRulesMatchClientIpRanges {
   /**
   * begin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#begin Httppolicyset#begin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#begin Httppolicyset#begin}
   */
   readonly begin: HttppolicysetHttpRequestPolicyRulesMatchClientIpRangesBegin[] | cdktf.IResolvable;
   /**
   * end block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#end Httppolicyset#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#end Httppolicyset#end}
   */
   readonly end: HttppolicysetHttpRequestPolicyRulesMatchClientIpRangesEnd[] | cdktf.IResolvable;
 }
@@ -1973,29 +1973,29 @@ export class HttppolicysetHttpRequestPolicyRulesMatchClientIpRangesList extends 
 }
 export interface HttppolicysetHttpRequestPolicyRulesMatchClientIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#group_refs Httppolicyset#group_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#group_refs Httppolicyset#group_refs}
   */
   readonly groupRefs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#match_criteria Httppolicyset#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#match_criteria Httppolicyset#match_criteria}
   */
   readonly matchCriteria: string;
   /**
   * addrs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#addrs Httppolicyset#addrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#addrs Httppolicyset#addrs}
   */
   readonly addrs?: HttppolicysetHttpRequestPolicyRulesMatchClientIpAddrs[] | cdktf.IResolvable;
   /**
   * prefixes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#prefixes Httppolicyset#prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#prefixes Httppolicyset#prefixes}
   */
   readonly prefixes?: HttppolicysetHttpRequestPolicyRulesMatchClientIpPrefixes[] | cdktf.IResolvable;
   /**
   * ranges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#ranges Httppolicyset#ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#ranges Httppolicyset#ranges}
   */
   readonly ranges?: HttppolicysetHttpRequestPolicyRulesMatchClientIpRanges[] | cdktf.IResolvable;
 }
@@ -2224,19 +2224,19 @@ export class HttppolicysetHttpRequestPolicyRulesMatchClientIpList extends cdktf.
 }
 export interface HttppolicysetHttpRequestPolicyRulesMatchCookie {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#match_case Httppolicyset#match_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#match_case Httppolicyset#match_case}
   */
   readonly matchCase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#match_criteria Httppolicyset#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#match_criteria Httppolicyset#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#name Httppolicyset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#name Httppolicyset#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#value Httppolicyset#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#value Httppolicyset#value}
   */
   readonly value?: string;
 }
@@ -2433,15 +2433,15 @@ export class HttppolicysetHttpRequestPolicyRulesMatchCookieList extends cdktf.Co
 }
 export interface HttppolicysetHttpRequestPolicyRulesMatchGeoMatches {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#attribute Httppolicyset#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#attribute Httppolicyset#attribute}
   */
   readonly attribute: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#match_operation Httppolicyset#match_operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#match_operation Httppolicyset#match_operation}
   */
   readonly matchOperation: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#values Httppolicyset#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#values Httppolicyset#values}
   */
   readonly values: string[];
 }
@@ -2606,23 +2606,19 @@ export class HttppolicysetHttpRequestPolicyRulesMatchGeoMatchesList extends cdkt
 }
 export interface HttppolicysetHttpRequestPolicyRulesMatchHdrs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#hdr Httppolicyset#hdr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#hdr Httppolicyset#hdr}
   */
   readonly hdr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#match_case Httppolicyset#match_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#match_case Httppolicyset#match_case}
   */
   readonly matchCase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#match_criteria Httppolicyset#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#match_criteria Httppolicyset#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#string_group_refs Httppolicyset#string_group_refs}
-  */
-  readonly stringGroupRefs?: string[];
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#value Httppolicyset#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#value Httppolicyset#value}
   */
   readonly value?: string[];
 }
@@ -2636,7 +2632,6 @@ export function httppolicysetHttpRequestPolicyRulesMatchHdrsToTerraform(struct?:
     hdr: cdktf.stringToTerraform(struct!.hdr),
     match_case: cdktf.stringToTerraform(struct!.matchCase),
     match_criteria: cdktf.stringToTerraform(struct!.matchCriteria),
-    string_group_refs: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.stringGroupRefs),
     value: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.value),
   }
 }
@@ -2665,12 +2660,6 @@ export function httppolicysetHttpRequestPolicyRulesMatchHdrsToHclTerraform(struc
       isBlock: false,
       type: "simple",
       storageClassType: "string",
-    },
-    string_group_refs: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.stringGroupRefs),
-      isBlock: false,
-      type: "list",
-      storageClassType: "stringList",
     },
     value: {
       value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.value),
@@ -2716,10 +2705,6 @@ export class HttppolicysetHttpRequestPolicyRulesMatchHdrsOutputReference extends
       hasAnyValues = true;
       internalValueResult.matchCriteria = this._matchCriteria;
     }
-    if (this._stringGroupRefs !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.stringGroupRefs = this._stringGroupRefs;
-    }
     if (this._value !== undefined) {
       hasAnyValues = true;
       internalValueResult.value = this._value;
@@ -2734,7 +2719,6 @@ export class HttppolicysetHttpRequestPolicyRulesMatchHdrsOutputReference extends
       this._hdr = undefined;
       this._matchCase = undefined;
       this._matchCriteria = undefined;
-      this._stringGroupRefs = undefined;
       this._value = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
@@ -2747,7 +2731,6 @@ export class HttppolicysetHttpRequestPolicyRulesMatchHdrsOutputReference extends
       this._hdr = value.hdr;
       this._matchCase = value.matchCase;
       this._matchCriteria = value.matchCriteria;
-      this._stringGroupRefs = value.stringGroupRefs;
       this._value = value.value;
     }
   }
@@ -2794,22 +2777,6 @@ export class HttppolicysetHttpRequestPolicyRulesMatchHdrsOutputReference extends
     return this._matchCriteria;
   }
 
-  // string_group_refs - computed: false, optional: true, required: false
-  private _stringGroupRefs?: string[]; 
-  public get stringGroupRefs() {
-    return this.getListAttribute('string_group_refs');
-  }
-  public set stringGroupRefs(value: string[]) {
-    this._stringGroupRefs = value;
-  }
-  public resetStringGroupRefs() {
-    this._stringGroupRefs = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get stringGroupRefsInput() {
-    return this._stringGroupRefs;
-  }
-
   // value - computed: false, optional: true, required: false
   private _value?: string[]; 
   public get value() {
@@ -2848,15 +2815,15 @@ export class HttppolicysetHttpRequestPolicyRulesMatchHdrsList extends cdktf.Comp
 }
 export interface HttppolicysetHttpRequestPolicyRulesMatchHostHdr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#match_case Httppolicyset#match_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#match_case Httppolicyset#match_case}
   */
   readonly matchCase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#match_criteria Httppolicyset#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#match_criteria Httppolicyset#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#value Httppolicyset#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#value Httppolicyset#value}
   */
   readonly value?: string[];
 }
@@ -3027,11 +2994,11 @@ export class HttppolicysetHttpRequestPolicyRulesMatchHostHdrList extends cdktf.C
 }
 export interface HttppolicysetHttpRequestPolicyRulesMatchIpReputationType {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#match_operation Httppolicyset#match_operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#match_operation Httppolicyset#match_operation}
   */
   readonly matchOperation: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#reputation_types Httppolicyset#reputation_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#reputation_types Httppolicyset#reputation_types}
   */
   readonly reputationTypes: string[];
 }
@@ -3170,11 +3137,11 @@ export class HttppolicysetHttpRequestPolicyRulesMatchIpReputationTypeList extend
 }
 export interface HttppolicysetHttpRequestPolicyRulesMatchMethod {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#match_criteria Httppolicyset#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#match_criteria Httppolicyset#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#methods Httppolicyset#methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#methods Httppolicyset#methods}
   */
   readonly methods: string[];
 }
@@ -3313,23 +3280,23 @@ export class HttppolicysetHttpRequestPolicyRulesMatchMethodList extends cdktf.Co
 }
 export interface HttppolicysetHttpRequestPolicyRulesMatchPath {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#match_case Httppolicyset#match_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#match_case Httppolicyset#match_case}
   */
   readonly matchCase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#match_criteria Httppolicyset#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#match_criteria Httppolicyset#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#match_decoded_string Httppolicyset#match_decoded_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#match_decoded_string Httppolicyset#match_decoded_string}
   */
   readonly matchDecodedString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#match_str Httppolicyset#match_str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#match_str Httppolicyset#match_str}
   */
   readonly matchStr?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#string_group_refs Httppolicyset#string_group_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#string_group_refs Httppolicyset#string_group_refs}
   */
   readonly stringGroupRefs?: string[];
 }
@@ -3558,11 +3525,11 @@ export class HttppolicysetHttpRequestPolicyRulesMatchPathList extends cdktf.Comp
 }
 export interface HttppolicysetHttpRequestPolicyRulesMatchProtocol {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#match_criteria Httppolicyset#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#match_criteria Httppolicyset#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#protocols Httppolicyset#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#protocols Httppolicyset#protocols}
   */
   readonly protocols: string;
 }
@@ -3701,23 +3668,23 @@ export class HttppolicysetHttpRequestPolicyRulesMatchProtocolList extends cdktf.
 }
 export interface HttppolicysetHttpRequestPolicyRulesMatchQuery {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#match_case Httppolicyset#match_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#match_case Httppolicyset#match_case}
   */
   readonly matchCase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#match_criteria Httppolicyset#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#match_criteria Httppolicyset#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#match_decoded_string Httppolicyset#match_decoded_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#match_decoded_string Httppolicyset#match_decoded_string}
   */
   readonly matchDecodedString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#match_str Httppolicyset#match_str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#match_str Httppolicyset#match_str}
   */
   readonly matchStr?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#string_group_refs Httppolicyset#string_group_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#string_group_refs Httppolicyset#string_group_refs}
   */
   readonly stringGroupRefs?: string[];
 }
@@ -3946,11 +3913,11 @@ export class HttppolicysetHttpRequestPolicyRulesMatchQueryList extends cdktf.Com
 }
 export interface HttppolicysetHttpRequestPolicyRulesMatchSourceIpAddrs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#addr Httppolicyset#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#addr Httppolicyset#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#type Httppolicyset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#type Httppolicyset#type}
   */
   readonly type: string;
 }
@@ -4089,11 +4056,11 @@ export class HttppolicysetHttpRequestPolicyRulesMatchSourceIpAddrsList extends c
 }
 export interface HttppolicysetHttpRequestPolicyRulesMatchSourceIpPrefixesIpAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#addr Httppolicyset#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#addr Httppolicyset#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#type Httppolicyset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#type Httppolicyset#type}
   */
   readonly type: string;
 }
@@ -4232,13 +4199,13 @@ export class HttppolicysetHttpRequestPolicyRulesMatchSourceIpPrefixesIpAddrList 
 }
 export interface HttppolicysetHttpRequestPolicyRulesMatchSourceIpPrefixes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#mask Httppolicyset#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#mask Httppolicyset#mask}
   */
   readonly mask: string;
   /**
   * ip_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#ip_addr Httppolicyset#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#ip_addr Httppolicyset#ip_addr}
   */
   readonly ipAddr: HttppolicysetHttpRequestPolicyRulesMatchSourceIpPrefixesIpAddr[] | cdktf.IResolvable;
 }
@@ -4377,11 +4344,11 @@ export class HttppolicysetHttpRequestPolicyRulesMatchSourceIpPrefixesList extend
 }
 export interface HttppolicysetHttpRequestPolicyRulesMatchSourceIpRangesBegin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#addr Httppolicyset#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#addr Httppolicyset#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#type Httppolicyset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#type Httppolicyset#type}
   */
   readonly type: string;
 }
@@ -4520,11 +4487,11 @@ export class HttppolicysetHttpRequestPolicyRulesMatchSourceIpRangesBeginList ext
 }
 export interface HttppolicysetHttpRequestPolicyRulesMatchSourceIpRangesEnd {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#addr Httppolicyset#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#addr Httppolicyset#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#type Httppolicyset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#type Httppolicyset#type}
   */
   readonly type: string;
 }
@@ -4665,13 +4632,13 @@ export interface HttppolicysetHttpRequestPolicyRulesMatchSourceIpRanges {
   /**
   * begin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#begin Httppolicyset#begin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#begin Httppolicyset#begin}
   */
   readonly begin: HttppolicysetHttpRequestPolicyRulesMatchSourceIpRangesBegin[] | cdktf.IResolvable;
   /**
   * end block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#end Httppolicyset#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#end Httppolicyset#end}
   */
   readonly end: HttppolicysetHttpRequestPolicyRulesMatchSourceIpRangesEnd[] | cdktf.IResolvable;
 }
@@ -4810,29 +4777,29 @@ export class HttppolicysetHttpRequestPolicyRulesMatchSourceIpRangesList extends 
 }
 export interface HttppolicysetHttpRequestPolicyRulesMatchSourceIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#group_refs Httppolicyset#group_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#group_refs Httppolicyset#group_refs}
   */
   readonly groupRefs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#match_criteria Httppolicyset#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#match_criteria Httppolicyset#match_criteria}
   */
   readonly matchCriteria: string;
   /**
   * addrs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#addrs Httppolicyset#addrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#addrs Httppolicyset#addrs}
   */
   readonly addrs?: HttppolicysetHttpRequestPolicyRulesMatchSourceIpAddrs[] | cdktf.IResolvable;
   /**
   * prefixes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#prefixes Httppolicyset#prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#prefixes Httppolicyset#prefixes}
   */
   readonly prefixes?: HttppolicysetHttpRequestPolicyRulesMatchSourceIpPrefixes[] | cdktf.IResolvable;
   /**
   * ranges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#ranges Httppolicyset#ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#ranges Httppolicyset#ranges}
   */
   readonly ranges?: HttppolicysetHttpRequestPolicyRulesMatchSourceIpRanges[] | cdktf.IResolvable;
 }
@@ -5061,15 +5028,15 @@ export class HttppolicysetHttpRequestPolicyRulesMatchSourceIpList extends cdktf.
 }
 export interface HttppolicysetHttpRequestPolicyRulesMatchTlsFingerprintMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#fingerprints Httppolicyset#fingerprints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#fingerprints Httppolicyset#fingerprints}
   */
   readonly fingerprints?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#match_operation Httppolicyset#match_operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#match_operation Httppolicyset#match_operation}
   */
   readonly matchOperation: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#string_group_refs Httppolicyset#string_group_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#string_group_refs Httppolicyset#string_group_refs}
   */
   readonly stringGroupRefs?: string[];
 }
@@ -5240,11 +5207,11 @@ export class HttppolicysetHttpRequestPolicyRulesMatchTlsFingerprintMatchList ext
 }
 export interface HttppolicysetHttpRequestPolicyRulesMatchVersion {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#match_criteria Httppolicyset#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#match_criteria Httppolicyset#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#versions Httppolicyset#versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#versions Httppolicyset#versions}
   */
   readonly versions: string[];
 }
@@ -5383,11 +5350,11 @@ export class HttppolicysetHttpRequestPolicyRulesMatchVersionList extends cdktf.C
 }
 export interface HttppolicysetHttpRequestPolicyRulesMatchVsPort {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#match_criteria Httppolicyset#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#match_criteria Httppolicyset#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#ports Httppolicyset#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#ports Httppolicyset#ports}
   */
   readonly ports: number[];
 }
@@ -5528,91 +5495,91 @@ export interface HttppolicysetHttpRequestPolicyRulesMatch {
   /**
   * bot_detection_result block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#bot_detection_result Httppolicyset#bot_detection_result}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#bot_detection_result Httppolicyset#bot_detection_result}
   */
   readonly botDetectionResult?: HttppolicysetHttpRequestPolicyRulesMatchBotDetectionResult[] | cdktf.IResolvable;
   /**
   * client_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#client_ip Httppolicyset#client_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#client_ip Httppolicyset#client_ip}
   */
   readonly clientIp?: HttppolicysetHttpRequestPolicyRulesMatchClientIp[] | cdktf.IResolvable;
   /**
   * cookie block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#cookie Httppolicyset#cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#cookie Httppolicyset#cookie}
   */
   readonly cookie?: HttppolicysetHttpRequestPolicyRulesMatchCookie[] | cdktf.IResolvable;
   /**
   * geo_matches block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#geo_matches Httppolicyset#geo_matches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#geo_matches Httppolicyset#geo_matches}
   */
   readonly geoMatches?: HttppolicysetHttpRequestPolicyRulesMatchGeoMatches[] | cdktf.IResolvable;
   /**
   * hdrs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#hdrs Httppolicyset#hdrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#hdrs Httppolicyset#hdrs}
   */
   readonly hdrs?: HttppolicysetHttpRequestPolicyRulesMatchHdrs[] | cdktf.IResolvable;
   /**
   * host_hdr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#host_hdr Httppolicyset#host_hdr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#host_hdr Httppolicyset#host_hdr}
   */
   readonly hostHdr?: HttppolicysetHttpRequestPolicyRulesMatchHostHdr[] | cdktf.IResolvable;
   /**
   * ip_reputation_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#ip_reputation_type Httppolicyset#ip_reputation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#ip_reputation_type Httppolicyset#ip_reputation_type}
   */
   readonly ipReputationType?: HttppolicysetHttpRequestPolicyRulesMatchIpReputationType[] | cdktf.IResolvable;
   /**
   * method block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#method Httppolicyset#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#method Httppolicyset#method}
   */
   readonly method?: HttppolicysetHttpRequestPolicyRulesMatchMethod[] | cdktf.IResolvable;
   /**
   * path block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#path Httppolicyset#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#path Httppolicyset#path}
   */
   readonly path?: HttppolicysetHttpRequestPolicyRulesMatchPath[] | cdktf.IResolvable;
   /**
   * protocol block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#protocol Httppolicyset#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#protocol Httppolicyset#protocol}
   */
   readonly protocol?: HttppolicysetHttpRequestPolicyRulesMatchProtocol[] | cdktf.IResolvable;
   /**
   * query block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#query Httppolicyset#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#query Httppolicyset#query}
   */
   readonly query?: HttppolicysetHttpRequestPolicyRulesMatchQuery[] | cdktf.IResolvable;
   /**
   * source_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#source_ip Httppolicyset#source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#source_ip Httppolicyset#source_ip}
   */
   readonly sourceIp?: HttppolicysetHttpRequestPolicyRulesMatchSourceIp[] | cdktf.IResolvable;
   /**
   * tls_fingerprint_match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#tls_fingerprint_match Httppolicyset#tls_fingerprint_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#tls_fingerprint_match Httppolicyset#tls_fingerprint_match}
   */
   readonly tlsFingerprintMatch?: HttppolicysetHttpRequestPolicyRulesMatchTlsFingerprintMatch[] | cdktf.IResolvable;
   /**
   * version block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#version Httppolicyset#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#version Httppolicyset#version}
   */
   readonly version?: HttppolicysetHttpRequestPolicyRulesMatchVersion[] | cdktf.IResolvable;
   /**
   * vs_port block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#vs_port Httppolicyset#vs_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#vs_port Httppolicyset#vs_port}
   */
   readonly vsPort?: HttppolicysetHttpRequestPolicyRulesMatchVsPort[] | cdktf.IResolvable;
 }
@@ -6134,19 +6101,19 @@ export class HttppolicysetHttpRequestPolicyRulesMatchList extends cdktf.ComplexL
 }
 export interface HttppolicysetHttpRequestPolicyRulesRedirectActionHostTokens {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#end_index Httppolicyset#end_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#end_index Httppolicyset#end_index}
   */
   readonly endIndex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#start_index Httppolicyset#start_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#start_index Httppolicyset#start_index}
   */
   readonly startIndex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#str_value Httppolicyset#str_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#str_value Httppolicyset#str_value}
   */
   readonly strValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#type Httppolicyset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#type Httppolicyset#type}
   */
   readonly type: string;
 }
@@ -6346,13 +6313,13 @@ export class HttppolicysetHttpRequestPolicyRulesRedirectActionHostTokensList ext
 }
 export interface HttppolicysetHttpRequestPolicyRulesRedirectActionHost {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#type Httppolicyset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#type Httppolicyset#type}
   */
   readonly type: string;
   /**
   * tokens block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#tokens Httppolicyset#tokens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#tokens Httppolicyset#tokens}
   */
   readonly tokens: HttppolicysetHttpRequestPolicyRulesRedirectActionHostTokens[] | cdktf.IResolvable;
 }
@@ -6491,19 +6458,19 @@ export class HttppolicysetHttpRequestPolicyRulesRedirectActionHostList extends c
 }
 export interface HttppolicysetHttpRequestPolicyRulesRedirectActionPathTokens {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#end_index Httppolicyset#end_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#end_index Httppolicyset#end_index}
   */
   readonly endIndex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#start_index Httppolicyset#start_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#start_index Httppolicyset#start_index}
   */
   readonly startIndex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#str_value Httppolicyset#str_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#str_value Httppolicyset#str_value}
   */
   readonly strValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#type Httppolicyset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#type Httppolicyset#type}
   */
   readonly type: string;
 }
@@ -6703,13 +6670,13 @@ export class HttppolicysetHttpRequestPolicyRulesRedirectActionPathTokensList ext
 }
 export interface HttppolicysetHttpRequestPolicyRulesRedirectActionPath {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#type Httppolicyset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#type Httppolicyset#type}
   */
   readonly type: string;
   /**
   * tokens block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#tokens Httppolicyset#tokens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#tokens Httppolicyset#tokens}
   */
   readonly tokens: HttppolicysetHttpRequestPolicyRulesRedirectActionPathTokens[] | cdktf.IResolvable;
 }
@@ -6848,35 +6815,35 @@ export class HttppolicysetHttpRequestPolicyRulesRedirectActionPathList extends c
 }
 export interface HttppolicysetHttpRequestPolicyRulesRedirectAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#add_string Httppolicyset#add_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#add_string Httppolicyset#add_string}
   */
   readonly addString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#keep_query Httppolicyset#keep_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#keep_query Httppolicyset#keep_query}
   */
   readonly keepQuery?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#port Httppolicyset#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#port Httppolicyset#port}
   */
   readonly port?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#protocol Httppolicyset#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#protocol Httppolicyset#protocol}
   */
   readonly protocol: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#status_code Httppolicyset#status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#status_code Httppolicyset#status_code}
   */
   readonly statusCode?: string;
   /**
   * host block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#host Httppolicyset#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#host Httppolicyset#host}
   */
   readonly host?: HttppolicysetHttpRequestPolicyRulesRedirectActionHost[] | cdktf.IResolvable;
   /**
   * path block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#path Httppolicyset#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#path Httppolicyset#path}
   */
   readonly path?: HttppolicysetHttpRequestPolicyRulesRedirectActionPath[] | cdktf.IResolvable;
 }
@@ -7163,19 +7130,19 @@ export class HttppolicysetHttpRequestPolicyRulesRedirectActionList extends cdktf
 }
 export interface HttppolicysetHttpRequestPolicyRulesRewriteUrlActionHostHdrTokens {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#end_index Httppolicyset#end_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#end_index Httppolicyset#end_index}
   */
   readonly endIndex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#start_index Httppolicyset#start_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#start_index Httppolicyset#start_index}
   */
   readonly startIndex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#str_value Httppolicyset#str_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#str_value Httppolicyset#str_value}
   */
   readonly strValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#type Httppolicyset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#type Httppolicyset#type}
   */
   readonly type: string;
 }
@@ -7375,13 +7342,13 @@ export class HttppolicysetHttpRequestPolicyRulesRewriteUrlActionHostHdrTokensLis
 }
 export interface HttppolicysetHttpRequestPolicyRulesRewriteUrlActionHostHdr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#type Httppolicyset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#type Httppolicyset#type}
   */
   readonly type: string;
   /**
   * tokens block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#tokens Httppolicyset#tokens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#tokens Httppolicyset#tokens}
   */
   readonly tokens: HttppolicysetHttpRequestPolicyRulesRewriteUrlActionHostHdrTokens[] | cdktf.IResolvable;
 }
@@ -7520,19 +7487,19 @@ export class HttppolicysetHttpRequestPolicyRulesRewriteUrlActionHostHdrList exte
 }
 export interface HttppolicysetHttpRequestPolicyRulesRewriteUrlActionPathTokens {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#end_index Httppolicyset#end_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#end_index Httppolicyset#end_index}
   */
   readonly endIndex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#start_index Httppolicyset#start_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#start_index Httppolicyset#start_index}
   */
   readonly startIndex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#str_value Httppolicyset#str_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#str_value Httppolicyset#str_value}
   */
   readonly strValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#type Httppolicyset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#type Httppolicyset#type}
   */
   readonly type: string;
 }
@@ -7732,13 +7699,13 @@ export class HttppolicysetHttpRequestPolicyRulesRewriteUrlActionPathTokensList e
 }
 export interface HttppolicysetHttpRequestPolicyRulesRewriteUrlActionPath {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#type Httppolicyset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#type Httppolicyset#type}
   */
   readonly type: string;
   /**
   * tokens block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#tokens Httppolicyset#tokens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#tokens Httppolicyset#tokens}
   */
   readonly tokens: HttppolicysetHttpRequestPolicyRulesRewriteUrlActionPathTokens[] | cdktf.IResolvable;
 }
@@ -7877,11 +7844,11 @@ export class HttppolicysetHttpRequestPolicyRulesRewriteUrlActionPathList extends
 }
 export interface HttppolicysetHttpRequestPolicyRulesRewriteUrlActionQuery {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#add_string Httppolicyset#add_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#add_string Httppolicyset#add_string}
   */
   readonly addString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#keep_query Httppolicyset#keep_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#keep_query Httppolicyset#keep_query}
   */
   readonly keepQuery?: string;
 }
@@ -8028,19 +7995,19 @@ export interface HttppolicysetHttpRequestPolicyRulesRewriteUrlAction {
   /**
   * host_hdr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#host_hdr Httppolicyset#host_hdr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#host_hdr Httppolicyset#host_hdr}
   */
   readonly hostHdr?: HttppolicysetHttpRequestPolicyRulesRewriteUrlActionHostHdr[] | cdktf.IResolvable;
   /**
   * path block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#path Httppolicyset#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#path Httppolicyset#path}
   */
   readonly path?: HttppolicysetHttpRequestPolicyRulesRewriteUrlActionPath[] | cdktf.IResolvable;
   /**
   * query block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#query Httppolicyset#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#query Httppolicyset#query}
   */
   readonly query?: HttppolicysetHttpRequestPolicyRulesRewriteUrlActionQuery[] | cdktf.IResolvable;
 }
@@ -8214,15 +8181,15 @@ export class HttppolicysetHttpRequestPolicyRulesRewriteUrlActionList extends cdk
 }
 export interface HttppolicysetHttpRequestPolicyRulesSwitchingActionFile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#content_type Httppolicyset#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#content_type Httppolicyset#content_type}
   */
   readonly contentType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#file_content Httppolicyset#file_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#file_content Httppolicyset#file_content}
   */
   readonly fileContent: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#file_length Httppolicyset#file_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#file_length Httppolicyset#file_length}
   */
   readonly fileLength?: string;
 }
@@ -8390,11 +8357,11 @@ export class HttppolicysetHttpRequestPolicyRulesSwitchingActionFileList extends 
 }
 export interface HttppolicysetHttpRequestPolicyRulesSwitchingActionServerIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#addr Httppolicyset#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#addr Httppolicyset#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#type Httppolicyset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#type Httppolicyset#type}
   */
   readonly type: string;
 }
@@ -8533,17 +8500,17 @@ export class HttppolicysetHttpRequestPolicyRulesSwitchingActionServerIpList exte
 }
 export interface HttppolicysetHttpRequestPolicyRulesSwitchingActionServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#hostname Httppolicyset#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#hostname Httppolicyset#hostname}
   */
   readonly hostname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#port Httppolicyset#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#port Httppolicyset#port}
   */
   readonly port?: string;
   /**
   * ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#ip Httppolicyset#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#ip Httppolicyset#ip}
   */
   readonly ip: HttppolicysetHttpRequestPolicyRulesSwitchingActionServerIp[] | cdktf.IResolvable;
 }
@@ -8714,35 +8681,35 @@ export class HttppolicysetHttpRequestPolicyRulesSwitchingActionServerList extend
 }
 export interface HttppolicysetHttpRequestPolicyRulesSwitchingAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#action Httppolicyset#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#action Httppolicyset#action}
   */
   readonly action: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#other_status_code Httppolicyset#other_status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#other_status_code Httppolicyset#other_status_code}
   */
   readonly otherStatusCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#pool_group_ref Httppolicyset#pool_group_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#pool_group_ref Httppolicyset#pool_group_ref}
   */
   readonly poolGroupRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#pool_ref Httppolicyset#pool_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#pool_ref Httppolicyset#pool_ref}
   */
   readonly poolRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#status_code Httppolicyset#status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#status_code Httppolicyset#status_code}
   */
   readonly statusCode?: string;
   /**
   * file block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#file Httppolicyset#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#file Httppolicyset#file}
   */
   readonly file?: HttppolicysetHttpRequestPolicyRulesSwitchingActionFile[] | cdktf.IResolvable;
   /**
   * server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#server Httppolicyset#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#server Httppolicyset#server}
   */
   readonly server?: HttppolicysetHttpRequestPolicyRulesSwitchingActionServer[] | cdktf.IResolvable;
 }
@@ -9029,53 +8996,53 @@ export class HttppolicysetHttpRequestPolicyRulesSwitchingActionList extends cdkt
 }
 export interface HttppolicysetHttpRequestPolicyRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#all_headers Httppolicyset#all_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#all_headers Httppolicyset#all_headers}
   */
   readonly allHeaders?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#enable Httppolicyset#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#enable Httppolicyset#enable}
   */
   readonly enable: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#index Httppolicyset#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#index Httppolicyset#index}
   */
   readonly index: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#log Httppolicyset#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#log Httppolicyset#log}
   */
   readonly log?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#name Httppolicyset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#name Httppolicyset#name}
   */
   readonly name: string;
   /**
   * hdr_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#hdr_action Httppolicyset#hdr_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#hdr_action Httppolicyset#hdr_action}
   */
   readonly hdrAction?: HttppolicysetHttpRequestPolicyRulesHdrAction[] | cdktf.IResolvable;
   /**
   * match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#match Httppolicyset#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#match Httppolicyset#match}
   */
   readonly match?: HttppolicysetHttpRequestPolicyRulesMatch[] | cdktf.IResolvable;
   /**
   * redirect_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#redirect_action Httppolicyset#redirect_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#redirect_action Httppolicyset#redirect_action}
   */
   readonly redirectAction?: HttppolicysetHttpRequestPolicyRulesRedirectAction[] | cdktf.IResolvable;
   /**
   * rewrite_url_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#rewrite_url_action Httppolicyset#rewrite_url_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#rewrite_url_action Httppolicyset#rewrite_url_action}
   */
   readonly rewriteUrlAction?: HttppolicysetHttpRequestPolicyRulesRewriteUrlAction[] | cdktf.IResolvable;
   /**
   * switching_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#switching_action Httppolicyset#switching_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#switching_action Httppolicyset#switching_action}
   */
   readonly switchingAction?: HttppolicysetHttpRequestPolicyRulesSwitchingAction[] | cdktf.IResolvable;
 }
@@ -9445,7 +9412,7 @@ export interface HttppolicysetHttpRequestPolicy {
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#rules Httppolicyset#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#rules Httppolicyset#rules}
   */
   readonly rules?: HttppolicysetHttpRequestPolicyRules[] | cdktf.IResolvable;
 }
@@ -9561,11 +9528,11 @@ export class HttppolicysetHttpRequestPolicyList extends cdktf.ComplexList {
 }
 export interface HttppolicysetHttpResponsePolicyRulesHdrActionCookie {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#name Httppolicyset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#name Httppolicyset#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#value Httppolicyset#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#value Httppolicyset#value}
   */
   readonly value?: string;
 }
@@ -9710,15 +9677,15 @@ export class HttppolicysetHttpResponsePolicyRulesHdrActionCookieList extends cdk
 }
 export interface HttppolicysetHttpResponsePolicyRulesHdrActionHdrValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#is_sensitive Httppolicyset#is_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#is_sensitive Httppolicyset#is_sensitive}
   */
   readonly isSensitive?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#val Httppolicyset#val}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#val Httppolicyset#val}
   */
   readonly val?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#var Httppolicyset#var}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#var Httppolicyset#var}
   */
   readonly var?: string;
 }
@@ -9892,13 +9859,13 @@ export class HttppolicysetHttpResponsePolicyRulesHdrActionHdrValueList extends c
 }
 export interface HttppolicysetHttpResponsePolicyRulesHdrActionHdr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#name Httppolicyset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#name Httppolicyset#name}
   */
   readonly name?: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#value Httppolicyset#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#value Httppolicyset#value}
   */
   readonly value?: HttppolicysetHttpResponsePolicyRulesHdrActionHdrValue[] | cdktf.IResolvable;
 }
@@ -10043,23 +10010,23 @@ export class HttppolicysetHttpResponsePolicyRulesHdrActionHdrList extends cdktf.
 }
 export interface HttppolicysetHttpResponsePolicyRulesHdrAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#action Httppolicyset#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#action Httppolicyset#action}
   */
   readonly action: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#hdr_index Httppolicyset#hdr_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#hdr_index Httppolicyset#hdr_index}
   */
   readonly hdrIndex?: string;
   /**
   * cookie block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#cookie Httppolicyset#cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#cookie Httppolicyset#cookie}
   */
   readonly cookie?: HttppolicysetHttpResponsePolicyRulesHdrActionCookie[] | cdktf.IResolvable;
   /**
   * hdr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#hdr Httppolicyset#hdr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#hdr Httppolicyset#hdr}
   */
   readonly hdr?: HttppolicysetHttpResponsePolicyRulesHdrActionHdr[] | cdktf.IResolvable;
 }
@@ -10259,19 +10226,19 @@ export class HttppolicysetHttpResponsePolicyRulesHdrActionList extends cdktf.Com
 }
 export interface HttppolicysetHttpResponsePolicyRulesLocHdrActionHostTokens {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#end_index Httppolicyset#end_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#end_index Httppolicyset#end_index}
   */
   readonly endIndex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#start_index Httppolicyset#start_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#start_index Httppolicyset#start_index}
   */
   readonly startIndex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#str_value Httppolicyset#str_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#str_value Httppolicyset#str_value}
   */
   readonly strValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#type Httppolicyset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#type Httppolicyset#type}
   */
   readonly type: string;
 }
@@ -10471,13 +10438,13 @@ export class HttppolicysetHttpResponsePolicyRulesLocHdrActionHostTokensList exte
 }
 export interface HttppolicysetHttpResponsePolicyRulesLocHdrActionHost {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#type Httppolicyset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#type Httppolicyset#type}
   */
   readonly type: string;
   /**
   * tokens block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#tokens Httppolicyset#tokens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#tokens Httppolicyset#tokens}
   */
   readonly tokens: HttppolicysetHttpResponsePolicyRulesLocHdrActionHostTokens[] | cdktf.IResolvable;
 }
@@ -10616,19 +10583,19 @@ export class HttppolicysetHttpResponsePolicyRulesLocHdrActionHostList extends cd
 }
 export interface HttppolicysetHttpResponsePolicyRulesLocHdrActionPathTokens {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#end_index Httppolicyset#end_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#end_index Httppolicyset#end_index}
   */
   readonly endIndex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#start_index Httppolicyset#start_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#start_index Httppolicyset#start_index}
   */
   readonly startIndex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#str_value Httppolicyset#str_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#str_value Httppolicyset#str_value}
   */
   readonly strValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#type Httppolicyset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#type Httppolicyset#type}
   */
   readonly type: string;
 }
@@ -10828,13 +10795,13 @@ export class HttppolicysetHttpResponsePolicyRulesLocHdrActionPathTokensList exte
 }
 export interface HttppolicysetHttpResponsePolicyRulesLocHdrActionPath {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#type Httppolicyset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#type Httppolicyset#type}
   */
   readonly type: string;
   /**
   * tokens block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#tokens Httppolicyset#tokens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#tokens Httppolicyset#tokens}
   */
   readonly tokens: HttppolicysetHttpResponsePolicyRulesLocHdrActionPathTokens[] | cdktf.IResolvable;
 }
@@ -10973,27 +10940,27 @@ export class HttppolicysetHttpResponsePolicyRulesLocHdrActionPathList extends cd
 }
 export interface HttppolicysetHttpResponsePolicyRulesLocHdrAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#keep_query Httppolicyset#keep_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#keep_query Httppolicyset#keep_query}
   */
   readonly keepQuery?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#port Httppolicyset#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#port Httppolicyset#port}
   */
   readonly port?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#protocol Httppolicyset#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#protocol Httppolicyset#protocol}
   */
   readonly protocol: string;
   /**
   * host block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#host Httppolicyset#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#host Httppolicyset#host}
   */
   readonly host?: HttppolicysetHttpResponsePolicyRulesLocHdrActionHost[] | cdktf.IResolvable;
   /**
   * path block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#path Httppolicyset#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#path Httppolicyset#path}
   */
   readonly path?: HttppolicysetHttpResponsePolicyRulesLocHdrActionPath[] | cdktf.IResolvable;
 }
@@ -11222,11 +11189,11 @@ export class HttppolicysetHttpResponsePolicyRulesLocHdrActionList extends cdktf.
 }
 export interface HttppolicysetHttpResponsePolicyRulesMatchClientIpAddrs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#addr Httppolicyset#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#addr Httppolicyset#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#type Httppolicyset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#type Httppolicyset#type}
   */
   readonly type: string;
 }
@@ -11365,11 +11332,11 @@ export class HttppolicysetHttpResponsePolicyRulesMatchClientIpAddrsList extends 
 }
 export interface HttppolicysetHttpResponsePolicyRulesMatchClientIpPrefixesIpAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#addr Httppolicyset#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#addr Httppolicyset#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#type Httppolicyset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#type Httppolicyset#type}
   */
   readonly type: string;
 }
@@ -11508,13 +11475,13 @@ export class HttppolicysetHttpResponsePolicyRulesMatchClientIpPrefixesIpAddrList
 }
 export interface HttppolicysetHttpResponsePolicyRulesMatchClientIpPrefixes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#mask Httppolicyset#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#mask Httppolicyset#mask}
   */
   readonly mask: string;
   /**
   * ip_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#ip_addr Httppolicyset#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#ip_addr Httppolicyset#ip_addr}
   */
   readonly ipAddr: HttppolicysetHttpResponsePolicyRulesMatchClientIpPrefixesIpAddr[] | cdktf.IResolvable;
 }
@@ -11653,11 +11620,11 @@ export class HttppolicysetHttpResponsePolicyRulesMatchClientIpPrefixesList exten
 }
 export interface HttppolicysetHttpResponsePolicyRulesMatchClientIpRangesBegin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#addr Httppolicyset#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#addr Httppolicyset#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#type Httppolicyset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#type Httppolicyset#type}
   */
   readonly type: string;
 }
@@ -11796,11 +11763,11 @@ export class HttppolicysetHttpResponsePolicyRulesMatchClientIpRangesBeginList ex
 }
 export interface HttppolicysetHttpResponsePolicyRulesMatchClientIpRangesEnd {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#addr Httppolicyset#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#addr Httppolicyset#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#type Httppolicyset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#type Httppolicyset#type}
   */
   readonly type: string;
 }
@@ -11941,13 +11908,13 @@ export interface HttppolicysetHttpResponsePolicyRulesMatchClientIpRanges {
   /**
   * begin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#begin Httppolicyset#begin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#begin Httppolicyset#begin}
   */
   readonly begin: HttppolicysetHttpResponsePolicyRulesMatchClientIpRangesBegin[] | cdktf.IResolvable;
   /**
   * end block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#end Httppolicyset#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#end Httppolicyset#end}
   */
   readonly end: HttppolicysetHttpResponsePolicyRulesMatchClientIpRangesEnd[] | cdktf.IResolvable;
 }
@@ -12086,29 +12053,29 @@ export class HttppolicysetHttpResponsePolicyRulesMatchClientIpRangesList extends
 }
 export interface HttppolicysetHttpResponsePolicyRulesMatchClientIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#group_refs Httppolicyset#group_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#group_refs Httppolicyset#group_refs}
   */
   readonly groupRefs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#match_criteria Httppolicyset#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#match_criteria Httppolicyset#match_criteria}
   */
   readonly matchCriteria: string;
   /**
   * addrs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#addrs Httppolicyset#addrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#addrs Httppolicyset#addrs}
   */
   readonly addrs?: HttppolicysetHttpResponsePolicyRulesMatchClientIpAddrs[] | cdktf.IResolvable;
   /**
   * prefixes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#prefixes Httppolicyset#prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#prefixes Httppolicyset#prefixes}
   */
   readonly prefixes?: HttppolicysetHttpResponsePolicyRulesMatchClientIpPrefixes[] | cdktf.IResolvable;
   /**
   * ranges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#ranges Httppolicyset#ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#ranges Httppolicyset#ranges}
   */
   readonly ranges?: HttppolicysetHttpResponsePolicyRulesMatchClientIpRanges[] | cdktf.IResolvable;
 }
@@ -12337,19 +12304,19 @@ export class HttppolicysetHttpResponsePolicyRulesMatchClientIpList extends cdktf
 }
 export interface HttppolicysetHttpResponsePolicyRulesMatchCookie {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#match_case Httppolicyset#match_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#match_case Httppolicyset#match_case}
   */
   readonly matchCase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#match_criteria Httppolicyset#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#match_criteria Httppolicyset#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#name Httppolicyset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#name Httppolicyset#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#value Httppolicyset#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#value Httppolicyset#value}
   */
   readonly value?: string;
 }
@@ -12546,23 +12513,19 @@ export class HttppolicysetHttpResponsePolicyRulesMatchCookieList extends cdktf.C
 }
 export interface HttppolicysetHttpResponsePolicyRulesMatchHdrs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#hdr Httppolicyset#hdr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#hdr Httppolicyset#hdr}
   */
   readonly hdr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#match_case Httppolicyset#match_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#match_case Httppolicyset#match_case}
   */
   readonly matchCase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#match_criteria Httppolicyset#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#match_criteria Httppolicyset#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#string_group_refs Httppolicyset#string_group_refs}
-  */
-  readonly stringGroupRefs?: string[];
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#value Httppolicyset#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#value Httppolicyset#value}
   */
   readonly value?: string[];
 }
@@ -12576,7 +12539,6 @@ export function httppolicysetHttpResponsePolicyRulesMatchHdrsToTerraform(struct?
     hdr: cdktf.stringToTerraform(struct!.hdr),
     match_case: cdktf.stringToTerraform(struct!.matchCase),
     match_criteria: cdktf.stringToTerraform(struct!.matchCriteria),
-    string_group_refs: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.stringGroupRefs),
     value: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.value),
   }
 }
@@ -12605,12 +12567,6 @@ export function httppolicysetHttpResponsePolicyRulesMatchHdrsToHclTerraform(stru
       isBlock: false,
       type: "simple",
       storageClassType: "string",
-    },
-    string_group_refs: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.stringGroupRefs),
-      isBlock: false,
-      type: "list",
-      storageClassType: "stringList",
     },
     value: {
       value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.value),
@@ -12656,10 +12612,6 @@ export class HttppolicysetHttpResponsePolicyRulesMatchHdrsOutputReference extend
       hasAnyValues = true;
       internalValueResult.matchCriteria = this._matchCriteria;
     }
-    if (this._stringGroupRefs !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.stringGroupRefs = this._stringGroupRefs;
-    }
     if (this._value !== undefined) {
       hasAnyValues = true;
       internalValueResult.value = this._value;
@@ -12674,7 +12626,6 @@ export class HttppolicysetHttpResponsePolicyRulesMatchHdrsOutputReference extend
       this._hdr = undefined;
       this._matchCase = undefined;
       this._matchCriteria = undefined;
-      this._stringGroupRefs = undefined;
       this._value = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
@@ -12687,7 +12638,6 @@ export class HttppolicysetHttpResponsePolicyRulesMatchHdrsOutputReference extend
       this._hdr = value.hdr;
       this._matchCase = value.matchCase;
       this._matchCriteria = value.matchCriteria;
-      this._stringGroupRefs = value.stringGroupRefs;
       this._value = value.value;
     }
   }
@@ -12734,22 +12684,6 @@ export class HttppolicysetHttpResponsePolicyRulesMatchHdrsOutputReference extend
     return this._matchCriteria;
   }
 
-  // string_group_refs - computed: false, optional: true, required: false
-  private _stringGroupRefs?: string[]; 
-  public get stringGroupRefs() {
-    return this.getListAttribute('string_group_refs');
-  }
-  public set stringGroupRefs(value: string[]) {
-    this._stringGroupRefs = value;
-  }
-  public resetStringGroupRefs() {
-    this._stringGroupRefs = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get stringGroupRefsInput() {
-    return this._stringGroupRefs;
-  }
-
   // value - computed: false, optional: true, required: false
   private _value?: string[]; 
   public get value() {
@@ -12788,15 +12722,15 @@ export class HttppolicysetHttpResponsePolicyRulesMatchHdrsList extends cdktf.Com
 }
 export interface HttppolicysetHttpResponsePolicyRulesMatchHostHdr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#match_case Httppolicyset#match_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#match_case Httppolicyset#match_case}
   */
   readonly matchCase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#match_criteria Httppolicyset#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#match_criteria Httppolicyset#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#value Httppolicyset#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#value Httppolicyset#value}
   */
   readonly value?: string[];
 }
@@ -12967,15 +12901,15 @@ export class HttppolicysetHttpResponsePolicyRulesMatchHostHdrList extends cdktf.
 }
 export interface HttppolicysetHttpResponsePolicyRulesMatchLocHdr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#match_case Httppolicyset#match_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#match_case Httppolicyset#match_case}
   */
   readonly matchCase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#match_criteria Httppolicyset#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#match_criteria Httppolicyset#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#value Httppolicyset#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#value Httppolicyset#value}
   */
   readonly value?: string[];
 }
@@ -13146,11 +13080,11 @@ export class HttppolicysetHttpResponsePolicyRulesMatchLocHdrList extends cdktf.C
 }
 export interface HttppolicysetHttpResponsePolicyRulesMatchMethod {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#match_criteria Httppolicyset#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#match_criteria Httppolicyset#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#methods Httppolicyset#methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#methods Httppolicyset#methods}
   */
   readonly methods: string[];
 }
@@ -13289,23 +13223,23 @@ export class HttppolicysetHttpResponsePolicyRulesMatchMethodList extends cdktf.C
 }
 export interface HttppolicysetHttpResponsePolicyRulesMatchPath {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#match_case Httppolicyset#match_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#match_case Httppolicyset#match_case}
   */
   readonly matchCase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#match_criteria Httppolicyset#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#match_criteria Httppolicyset#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#match_decoded_string Httppolicyset#match_decoded_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#match_decoded_string Httppolicyset#match_decoded_string}
   */
   readonly matchDecodedString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#match_str Httppolicyset#match_str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#match_str Httppolicyset#match_str}
   */
   readonly matchStr?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#string_group_refs Httppolicyset#string_group_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#string_group_refs Httppolicyset#string_group_refs}
   */
   readonly stringGroupRefs?: string[];
 }
@@ -13534,11 +13468,11 @@ export class HttppolicysetHttpResponsePolicyRulesMatchPathList extends cdktf.Com
 }
 export interface HttppolicysetHttpResponsePolicyRulesMatchProtocol {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#match_criteria Httppolicyset#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#match_criteria Httppolicyset#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#protocols Httppolicyset#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#protocols Httppolicyset#protocols}
   */
   readonly protocols: string;
 }
@@ -13677,23 +13611,23 @@ export class HttppolicysetHttpResponsePolicyRulesMatchProtocolList extends cdktf
 }
 export interface HttppolicysetHttpResponsePolicyRulesMatchQuery {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#match_case Httppolicyset#match_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#match_case Httppolicyset#match_case}
   */
   readonly matchCase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#match_criteria Httppolicyset#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#match_criteria Httppolicyset#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#match_decoded_string Httppolicyset#match_decoded_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#match_decoded_string Httppolicyset#match_decoded_string}
   */
   readonly matchDecodedString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#match_str Httppolicyset#match_str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#match_str Httppolicyset#match_str}
   */
   readonly matchStr?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#string_group_refs Httppolicyset#string_group_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#string_group_refs Httppolicyset#string_group_refs}
   */
   readonly stringGroupRefs?: string[];
 }
@@ -13922,23 +13856,19 @@ export class HttppolicysetHttpResponsePolicyRulesMatchQueryList extends cdktf.Co
 }
 export interface HttppolicysetHttpResponsePolicyRulesMatchRspHdrs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#hdr Httppolicyset#hdr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#hdr Httppolicyset#hdr}
   */
   readonly hdr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#match_case Httppolicyset#match_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#match_case Httppolicyset#match_case}
   */
   readonly matchCase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#match_criteria Httppolicyset#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#match_criteria Httppolicyset#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#string_group_refs Httppolicyset#string_group_refs}
-  */
-  readonly stringGroupRefs?: string[];
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#value Httppolicyset#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#value Httppolicyset#value}
   */
   readonly value?: string[];
 }
@@ -13952,7 +13882,6 @@ export function httppolicysetHttpResponsePolicyRulesMatchRspHdrsToTerraform(stru
     hdr: cdktf.stringToTerraform(struct!.hdr),
     match_case: cdktf.stringToTerraform(struct!.matchCase),
     match_criteria: cdktf.stringToTerraform(struct!.matchCriteria),
-    string_group_refs: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.stringGroupRefs),
     value: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.value),
   }
 }
@@ -13981,12 +13910,6 @@ export function httppolicysetHttpResponsePolicyRulesMatchRspHdrsToHclTerraform(s
       isBlock: false,
       type: "simple",
       storageClassType: "string",
-    },
-    string_group_refs: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.stringGroupRefs),
-      isBlock: false,
-      type: "list",
-      storageClassType: "stringList",
     },
     value: {
       value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.value),
@@ -14032,10 +13955,6 @@ export class HttppolicysetHttpResponsePolicyRulesMatchRspHdrsOutputReference ext
       hasAnyValues = true;
       internalValueResult.matchCriteria = this._matchCriteria;
     }
-    if (this._stringGroupRefs !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.stringGroupRefs = this._stringGroupRefs;
-    }
     if (this._value !== undefined) {
       hasAnyValues = true;
       internalValueResult.value = this._value;
@@ -14050,7 +13969,6 @@ export class HttppolicysetHttpResponsePolicyRulesMatchRspHdrsOutputReference ext
       this._hdr = undefined;
       this._matchCase = undefined;
       this._matchCriteria = undefined;
-      this._stringGroupRefs = undefined;
       this._value = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
@@ -14063,7 +13981,6 @@ export class HttppolicysetHttpResponsePolicyRulesMatchRspHdrsOutputReference ext
       this._hdr = value.hdr;
       this._matchCase = value.matchCase;
       this._matchCriteria = value.matchCriteria;
-      this._stringGroupRefs = value.stringGroupRefs;
       this._value = value.value;
     }
   }
@@ -14110,22 +14027,6 @@ export class HttppolicysetHttpResponsePolicyRulesMatchRspHdrsOutputReference ext
     return this._matchCriteria;
   }
 
-  // string_group_refs - computed: false, optional: true, required: false
-  private _stringGroupRefs?: string[]; 
-  public get stringGroupRefs() {
-    return this.getListAttribute('string_group_refs');
-  }
-  public set stringGroupRefs(value: string[]) {
-    this._stringGroupRefs = value;
-  }
-  public resetStringGroupRefs() {
-    this._stringGroupRefs = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get stringGroupRefsInput() {
-    return this._stringGroupRefs;
-  }
-
   // value - computed: false, optional: true, required: false
   private _value?: string[]; 
   public get value() {
@@ -14164,11 +14065,11 @@ export class HttppolicysetHttpResponsePolicyRulesMatchRspHdrsList extends cdktf.
 }
 export interface HttppolicysetHttpResponsePolicyRulesMatchSourceIpAddrs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#addr Httppolicyset#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#addr Httppolicyset#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#type Httppolicyset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#type Httppolicyset#type}
   */
   readonly type: string;
 }
@@ -14307,11 +14208,11 @@ export class HttppolicysetHttpResponsePolicyRulesMatchSourceIpAddrsList extends 
 }
 export interface HttppolicysetHttpResponsePolicyRulesMatchSourceIpPrefixesIpAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#addr Httppolicyset#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#addr Httppolicyset#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#type Httppolicyset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#type Httppolicyset#type}
   */
   readonly type: string;
 }
@@ -14450,13 +14351,13 @@ export class HttppolicysetHttpResponsePolicyRulesMatchSourceIpPrefixesIpAddrList
 }
 export interface HttppolicysetHttpResponsePolicyRulesMatchSourceIpPrefixes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#mask Httppolicyset#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#mask Httppolicyset#mask}
   */
   readonly mask: string;
   /**
   * ip_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#ip_addr Httppolicyset#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#ip_addr Httppolicyset#ip_addr}
   */
   readonly ipAddr: HttppolicysetHttpResponsePolicyRulesMatchSourceIpPrefixesIpAddr[] | cdktf.IResolvable;
 }
@@ -14595,11 +14496,11 @@ export class HttppolicysetHttpResponsePolicyRulesMatchSourceIpPrefixesList exten
 }
 export interface HttppolicysetHttpResponsePolicyRulesMatchSourceIpRangesBegin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#addr Httppolicyset#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#addr Httppolicyset#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#type Httppolicyset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#type Httppolicyset#type}
   */
   readonly type: string;
 }
@@ -14738,11 +14639,11 @@ export class HttppolicysetHttpResponsePolicyRulesMatchSourceIpRangesBeginList ex
 }
 export interface HttppolicysetHttpResponsePolicyRulesMatchSourceIpRangesEnd {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#addr Httppolicyset#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#addr Httppolicyset#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#type Httppolicyset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#type Httppolicyset#type}
   */
   readonly type: string;
 }
@@ -14883,13 +14784,13 @@ export interface HttppolicysetHttpResponsePolicyRulesMatchSourceIpRanges {
   /**
   * begin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#begin Httppolicyset#begin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#begin Httppolicyset#begin}
   */
   readonly begin: HttppolicysetHttpResponsePolicyRulesMatchSourceIpRangesBegin[] | cdktf.IResolvable;
   /**
   * end block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#end Httppolicyset#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#end Httppolicyset#end}
   */
   readonly end: HttppolicysetHttpResponsePolicyRulesMatchSourceIpRangesEnd[] | cdktf.IResolvable;
 }
@@ -15028,29 +14929,29 @@ export class HttppolicysetHttpResponsePolicyRulesMatchSourceIpRangesList extends
 }
 export interface HttppolicysetHttpResponsePolicyRulesMatchSourceIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#group_refs Httppolicyset#group_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#group_refs Httppolicyset#group_refs}
   */
   readonly groupRefs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#match_criteria Httppolicyset#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#match_criteria Httppolicyset#match_criteria}
   */
   readonly matchCriteria: string;
   /**
   * addrs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#addrs Httppolicyset#addrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#addrs Httppolicyset#addrs}
   */
   readonly addrs?: HttppolicysetHttpResponsePolicyRulesMatchSourceIpAddrs[] | cdktf.IResolvable;
   /**
   * prefixes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#prefixes Httppolicyset#prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#prefixes Httppolicyset#prefixes}
   */
   readonly prefixes?: HttppolicysetHttpResponsePolicyRulesMatchSourceIpPrefixes[] | cdktf.IResolvable;
   /**
   * ranges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#ranges Httppolicyset#ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#ranges Httppolicyset#ranges}
   */
   readonly ranges?: HttppolicysetHttpResponsePolicyRulesMatchSourceIpRanges[] | cdktf.IResolvable;
 }
@@ -15279,11 +15180,11 @@ export class HttppolicysetHttpResponsePolicyRulesMatchSourceIpList extends cdktf
 }
 export interface HttppolicysetHttpResponsePolicyRulesMatchStatusRanges {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#begin Httppolicyset#begin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#begin Httppolicyset#begin}
   */
   readonly begin: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#end Httppolicyset#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#end Httppolicyset#end}
   */
   readonly end: string;
 }
@@ -15422,17 +15323,17 @@ export class HttppolicysetHttpResponsePolicyRulesMatchStatusRangesList extends c
 }
 export interface HttppolicysetHttpResponsePolicyRulesMatchStatus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#match_criteria Httppolicyset#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#match_criteria Httppolicyset#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#status_codes Httppolicyset#status_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#status_codes Httppolicyset#status_codes}
   */
   readonly statusCodes?: number[];
   /**
   * ranges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#ranges Httppolicyset#ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#ranges Httppolicyset#ranges}
   */
   readonly ranges?: HttppolicysetHttpResponsePolicyRulesMatchStatusRanges[] | cdktf.IResolvable;
 }
@@ -15603,11 +15504,11 @@ export class HttppolicysetHttpResponsePolicyRulesMatchStatusList extends cdktf.C
 }
 export interface HttppolicysetHttpResponsePolicyRulesMatchVersion {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#match_criteria Httppolicyset#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#match_criteria Httppolicyset#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#versions Httppolicyset#versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#versions Httppolicyset#versions}
   */
   readonly versions: string[];
 }
@@ -15746,11 +15647,11 @@ export class HttppolicysetHttpResponsePolicyRulesMatchVersionList extends cdktf.
 }
 export interface HttppolicysetHttpResponsePolicyRulesMatchVsPort {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#match_criteria Httppolicyset#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#match_criteria Httppolicyset#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#ports Httppolicyset#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#ports Httppolicyset#ports}
   */
   readonly ports: number[];
 }
@@ -15891,85 +15792,85 @@ export interface HttppolicysetHttpResponsePolicyRulesMatch {
   /**
   * client_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#client_ip Httppolicyset#client_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#client_ip Httppolicyset#client_ip}
   */
   readonly clientIp?: HttppolicysetHttpResponsePolicyRulesMatchClientIp[] | cdktf.IResolvable;
   /**
   * cookie block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#cookie Httppolicyset#cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#cookie Httppolicyset#cookie}
   */
   readonly cookie?: HttppolicysetHttpResponsePolicyRulesMatchCookie[] | cdktf.IResolvable;
   /**
   * hdrs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#hdrs Httppolicyset#hdrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#hdrs Httppolicyset#hdrs}
   */
   readonly hdrs?: HttppolicysetHttpResponsePolicyRulesMatchHdrs[] | cdktf.IResolvable;
   /**
   * host_hdr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#host_hdr Httppolicyset#host_hdr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#host_hdr Httppolicyset#host_hdr}
   */
   readonly hostHdr?: HttppolicysetHttpResponsePolicyRulesMatchHostHdr[] | cdktf.IResolvable;
   /**
   * loc_hdr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#loc_hdr Httppolicyset#loc_hdr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#loc_hdr Httppolicyset#loc_hdr}
   */
   readonly locHdr?: HttppolicysetHttpResponsePolicyRulesMatchLocHdr[] | cdktf.IResolvable;
   /**
   * method block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#method Httppolicyset#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#method Httppolicyset#method}
   */
   readonly method?: HttppolicysetHttpResponsePolicyRulesMatchMethod[] | cdktf.IResolvable;
   /**
   * path block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#path Httppolicyset#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#path Httppolicyset#path}
   */
   readonly path?: HttppolicysetHttpResponsePolicyRulesMatchPath[] | cdktf.IResolvable;
   /**
   * protocol block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#protocol Httppolicyset#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#protocol Httppolicyset#protocol}
   */
   readonly protocol?: HttppolicysetHttpResponsePolicyRulesMatchProtocol[] | cdktf.IResolvable;
   /**
   * query block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#query Httppolicyset#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#query Httppolicyset#query}
   */
   readonly query?: HttppolicysetHttpResponsePolicyRulesMatchQuery[] | cdktf.IResolvable;
   /**
   * rsp_hdrs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#rsp_hdrs Httppolicyset#rsp_hdrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#rsp_hdrs Httppolicyset#rsp_hdrs}
   */
   readonly rspHdrs?: HttppolicysetHttpResponsePolicyRulesMatchRspHdrs[] | cdktf.IResolvable;
   /**
   * source_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#source_ip Httppolicyset#source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#source_ip Httppolicyset#source_ip}
   */
   readonly sourceIp?: HttppolicysetHttpResponsePolicyRulesMatchSourceIp[] | cdktf.IResolvable;
   /**
   * status block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#status Httppolicyset#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#status Httppolicyset#status}
   */
   readonly status?: HttppolicysetHttpResponsePolicyRulesMatchStatus[] | cdktf.IResolvable;
   /**
   * version block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#version Httppolicyset#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#version Httppolicyset#version}
   */
   readonly version?: HttppolicysetHttpResponsePolicyRulesMatchVersion[] | cdktf.IResolvable;
   /**
   * vs_port block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#vs_port Httppolicyset#vs_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#vs_port Httppolicyset#vs_port}
   */
   readonly vsPort?: HttppolicysetHttpResponsePolicyRulesMatchVsPort[] | cdktf.IResolvable;
 }
@@ -16462,41 +16363,41 @@ export class HttppolicysetHttpResponsePolicyRulesMatchList extends cdktf.Complex
 }
 export interface HttppolicysetHttpResponsePolicyRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#all_headers Httppolicyset#all_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#all_headers Httppolicyset#all_headers}
   */
   readonly allHeaders?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#enable Httppolicyset#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#enable Httppolicyset#enable}
   */
   readonly enable: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#index Httppolicyset#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#index Httppolicyset#index}
   */
   readonly index: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#log Httppolicyset#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#log Httppolicyset#log}
   */
   readonly log?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#name Httppolicyset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#name Httppolicyset#name}
   */
   readonly name: string;
   /**
   * hdr_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#hdr_action Httppolicyset#hdr_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#hdr_action Httppolicyset#hdr_action}
   */
   readonly hdrAction?: HttppolicysetHttpResponsePolicyRulesHdrAction[] | cdktf.IResolvable;
   /**
   * loc_hdr_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#loc_hdr_action Httppolicyset#loc_hdr_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#loc_hdr_action Httppolicyset#loc_hdr_action}
   */
   readonly locHdrAction?: HttppolicysetHttpResponsePolicyRulesLocHdrAction[] | cdktf.IResolvable;
   /**
   * match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#match Httppolicyset#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#match Httppolicyset#match}
   */
   readonly match?: HttppolicysetHttpResponsePolicyRulesMatch[] | cdktf.IResolvable;
 }
@@ -16808,7 +16709,7 @@ export interface HttppolicysetHttpResponsePolicy {
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#rules Httppolicyset#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#rules Httppolicyset#rules}
   */
   readonly rules?: HttppolicysetHttpResponsePolicyRules[] | cdktf.IResolvable;
 }
@@ -16924,15 +16825,15 @@ export class HttppolicysetHttpResponsePolicyList extends cdktf.ComplexList {
 }
 export interface HttppolicysetHttpSecurityPolicyRulesActionFile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#content_type Httppolicyset#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#content_type Httppolicyset#content_type}
   */
   readonly contentType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#file_content Httppolicyset#file_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#file_content Httppolicyset#file_content}
   */
   readonly fileContent: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#file_length Httppolicyset#file_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#file_length Httppolicyset#file_length}
   */
   readonly fileLength?: string;
 }
@@ -17100,15 +17001,15 @@ export class HttppolicysetHttpSecurityPolicyRulesActionFileList extends cdktf.Co
 }
 export interface HttppolicysetHttpSecurityPolicyRulesActionRateProfileActionFile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#content_type Httppolicyset#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#content_type Httppolicyset#content_type}
   */
   readonly contentType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#file_content Httppolicyset#file_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#file_content Httppolicyset#file_content}
   */
   readonly fileContent: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#file_length Httppolicyset#file_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#file_length Httppolicyset#file_length}
   */
   readonly fileLength?: string;
 }
@@ -17276,19 +17177,19 @@ export class HttppolicysetHttpSecurityPolicyRulesActionRateProfileActionFileList
 }
 export interface HttppolicysetHttpSecurityPolicyRulesActionRateProfileActionRedirectHostTokens {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#end_index Httppolicyset#end_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#end_index Httppolicyset#end_index}
   */
   readonly endIndex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#start_index Httppolicyset#start_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#start_index Httppolicyset#start_index}
   */
   readonly startIndex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#str_value Httppolicyset#str_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#str_value Httppolicyset#str_value}
   */
   readonly strValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#type Httppolicyset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#type Httppolicyset#type}
   */
   readonly type: string;
 }
@@ -17488,13 +17389,13 @@ export class HttppolicysetHttpSecurityPolicyRulesActionRateProfileActionRedirect
 }
 export interface HttppolicysetHttpSecurityPolicyRulesActionRateProfileActionRedirectHost {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#type Httppolicyset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#type Httppolicyset#type}
   */
   readonly type: string;
   /**
   * tokens block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#tokens Httppolicyset#tokens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#tokens Httppolicyset#tokens}
   */
   readonly tokens: HttppolicysetHttpSecurityPolicyRulesActionRateProfileActionRedirectHostTokens[] | cdktf.IResolvable;
 }
@@ -17633,19 +17534,19 @@ export class HttppolicysetHttpSecurityPolicyRulesActionRateProfileActionRedirect
 }
 export interface HttppolicysetHttpSecurityPolicyRulesActionRateProfileActionRedirectPathTokens {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#end_index Httppolicyset#end_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#end_index Httppolicyset#end_index}
   */
   readonly endIndex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#start_index Httppolicyset#start_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#start_index Httppolicyset#start_index}
   */
   readonly startIndex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#str_value Httppolicyset#str_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#str_value Httppolicyset#str_value}
   */
   readonly strValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#type Httppolicyset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#type Httppolicyset#type}
   */
   readonly type: string;
 }
@@ -17845,13 +17746,13 @@ export class HttppolicysetHttpSecurityPolicyRulesActionRateProfileActionRedirect
 }
 export interface HttppolicysetHttpSecurityPolicyRulesActionRateProfileActionRedirectPath {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#type Httppolicyset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#type Httppolicyset#type}
   */
   readonly type: string;
   /**
   * tokens block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#tokens Httppolicyset#tokens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#tokens Httppolicyset#tokens}
   */
   readonly tokens: HttppolicysetHttpSecurityPolicyRulesActionRateProfileActionRedirectPathTokens[] | cdktf.IResolvable;
 }
@@ -17990,35 +17891,35 @@ export class HttppolicysetHttpSecurityPolicyRulesActionRateProfileActionRedirect
 }
 export interface HttppolicysetHttpSecurityPolicyRulesActionRateProfileActionRedirect {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#add_string Httppolicyset#add_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#add_string Httppolicyset#add_string}
   */
   readonly addString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#keep_query Httppolicyset#keep_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#keep_query Httppolicyset#keep_query}
   */
   readonly keepQuery?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#port Httppolicyset#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#port Httppolicyset#port}
   */
   readonly port?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#protocol Httppolicyset#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#protocol Httppolicyset#protocol}
   */
   readonly protocol: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#status_code Httppolicyset#status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#status_code Httppolicyset#status_code}
   */
   readonly statusCode?: string;
   /**
   * host block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#host Httppolicyset#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#host Httppolicyset#host}
   */
   readonly host?: HttppolicysetHttpSecurityPolicyRulesActionRateProfileActionRedirectHost[] | cdktf.IResolvable;
   /**
   * path block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#path Httppolicyset#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#path Httppolicyset#path}
   */
   readonly path?: HttppolicysetHttpSecurityPolicyRulesActionRateProfileActionRedirectPath[] | cdktf.IResolvable;
 }
@@ -18305,23 +18206,23 @@ export class HttppolicysetHttpSecurityPolicyRulesActionRateProfileActionRedirect
 }
 export interface HttppolicysetHttpSecurityPolicyRulesActionRateProfileAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#status_code Httppolicyset#status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#status_code Httppolicyset#status_code}
   */
   readonly statusCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#type Httppolicyset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#type Httppolicyset#type}
   */
   readonly type?: string;
   /**
   * file block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#file Httppolicyset#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#file Httppolicyset#file}
   */
   readonly file?: HttppolicysetHttpSecurityPolicyRulesActionRateProfileActionFile[] | cdktf.IResolvable;
   /**
   * redirect block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#redirect Httppolicyset#redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#redirect Httppolicyset#redirect}
   */
   readonly redirect?: HttppolicysetHttpSecurityPolicyRulesActionRateProfileActionRedirect[] | cdktf.IResolvable;
 }
@@ -18524,19 +18425,19 @@ export class HttppolicysetHttpSecurityPolicyRulesActionRateProfileActionList ext
 }
 export interface HttppolicysetHttpSecurityPolicyRulesActionRateProfileRateLimiter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#burst_sz Httppolicyset#burst_sz}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#burst_sz Httppolicyset#burst_sz}
   */
   readonly burstSz?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#count Httppolicyset#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#count Httppolicyset#count}
   */
   readonly count?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#name Httppolicyset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#name Httppolicyset#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#period Httppolicyset#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#period Httppolicyset#period}
   */
   readonly period?: string;
 }
@@ -18739,23 +18640,23 @@ export class HttppolicysetHttpSecurityPolicyRulesActionRateProfileRateLimiterLis
 }
 export interface HttppolicysetHttpSecurityPolicyRulesActionRateProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#per_client_ip Httppolicyset#per_client_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#per_client_ip Httppolicyset#per_client_ip}
   */
   readonly perClientIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#per_uri_path Httppolicyset#per_uri_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#per_uri_path Httppolicyset#per_uri_path}
   */
   readonly perUriPath?: string;
   /**
   * action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#action Httppolicyset#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#action Httppolicyset#action}
   */
   readonly action: HttppolicysetHttpSecurityPolicyRulesActionRateProfileAction[] | cdktf.IResolvable;
   /**
   * rate_limiter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#rate_limiter Httppolicyset#rate_limiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#rate_limiter Httppolicyset#rate_limiter}
   */
   readonly rateLimiter: HttppolicysetHttpSecurityPolicyRulesActionRateProfileRateLimiter[] | cdktf.IResolvable;
 }

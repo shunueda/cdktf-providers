@@ -116,7 +116,8 @@ export class Project extends cdktf.TerraformResource {
       terraformResourceType: 'jira_project',
       terraformGeneratorMetadata: {
         providerName: 'jira',
-        providerVersion: '0.1.20'
+        providerVersion: '0.1.20',
+        providerVersionConstraint: '0.1.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

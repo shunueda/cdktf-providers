@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_other
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_other
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface ManagementServiceOtherConfig extends cdktf.TerraformMetaArgumen
   /**
   * Specifies whether Other Service replies are to be accepted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_other#accept_replies ManagementServiceOther#accept_replies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_other#accept_replies ManagementServiceOther#accept_replies}
   */
   readonly acceptReplies?: boolean | cdktf.IResolvable;
   /**
   * Contains an INSPECT expression that defines the action to take if a rule containing this service is matched. Example: set r_mhandler &open_ssl_handler sets a handler on the connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_other#action ManagementServiceOther#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_other#action ManagementServiceOther#action}
   */
   readonly action?: string;
   /**
   * Sets short (aggressive) timeouts for idle connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_other#aggressive_aging ManagementServiceOther#aggressive_aging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_other#aggressive_aging ManagementServiceOther#aggressive_aging}
   */
   readonly aggressiveAging?: { [key: string]: string };
   /**
   * Color of the object. Should be one of existing colors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_other#color ManagementServiceOther#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_other#color ManagementServiceOther#color}
   */
   readonly color?: string;
   /**
   * Comments string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_other#comments ManagementServiceOther#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_other#comments ManagementServiceOther#comments}
   */
   readonly comments?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_other#id ManagementServiceOther#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_other#id ManagementServiceOther#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,79 +47,79 @@ export interface ManagementServiceOtherConfig extends cdktf.TerraformMetaArgumen
   /**
   * Apply changes ignoring errors. You won't be able to publish such a changes. If ignore-warnings flag was omitted - warnings will also be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_other#ignore_errors ManagementServiceOther#ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_other#ignore_errors ManagementServiceOther#ignore_errors}
   */
   readonly ignoreErrors?: boolean | cdktf.IResolvable;
   /**
   * Apply changes ignoring warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_other#ignore_warnings ManagementServiceOther#ignore_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_other#ignore_warnings ManagementServiceOther#ignore_warnings}
   */
   readonly ignoreWarnings?: boolean | cdktf.IResolvable;
   /**
   * IP protocol number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_other#ip_protocol ManagementServiceOther#ip_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_other#ip_protocol ManagementServiceOther#ip_protocol}
   */
   readonly ipProtocol?: number;
   /**
   * Keep connections open after policy has been installed even if they are not allowed under the new policy. This overrides the settings in the Connection Persistence page. If you change this property, the change will not affect open connections, but only future connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_other#keep_connections_open_after_policy_installation ManagementServiceOther#keep_connections_open_after_policy_installation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_other#keep_connections_open_after_policy_installation ManagementServiceOther#keep_connections_open_after_policy_installation}
   */
   readonly keepConnectionsOpenAfterPolicyInstallation?: boolean | cdktf.IResolvable;
   /**
   * Contains an INSPECT expression that defines the matching criteria. The connection is examined against the expression during the first packet. Example: tcp, dport = 21, direction = 0 matches incoming FTP control connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_other#match ManagementServiceOther#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_other#match ManagementServiceOther#match}
   */
   readonly match?: string;
   /**
   * Indicates whether this service is used when 'Any' is set as the rule's service and there are several service objects with the same source port and protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_other#match_for_any ManagementServiceOther#match_for_any}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_other#match_for_any ManagementServiceOther#match_for_any}
   */
   readonly matchForAny?: boolean | cdktf.IResolvable;
   /**
   * Object name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_other#name ManagementServiceOther#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_other#name ManagementServiceOther#name}
   */
   readonly name: string;
   /**
   * Indicates whether this service is a Data Domain service which has been overridden.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_other#override_default_settings ManagementServiceOther#override_default_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_other#override_default_settings ManagementServiceOther#override_default_settings}
   */
   readonly overrideDefaultSettings?: boolean | cdktf.IResolvable;
   /**
   * Time (in seconds) before the session times out.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_other#session_timeout ManagementServiceOther#session_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_other#session_timeout ManagementServiceOther#session_timeout}
   */
   readonly sessionTimeout?: number;
   /**
   * Enables state-synchronized High Availability or Load Sharing on a ClusterXL or OPSEC-certified cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_other#sync_connections_on_cluster ManagementServiceOther#sync_connections_on_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_other#sync_connections_on_cluster ManagementServiceOther#sync_connections_on_cluster}
   */
   readonly syncConnectionsOnCluster?: boolean | cdktf.IResolvable;
   /**
   * Collection of tag identifiers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_other#tags ManagementServiceOther#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_other#tags ManagementServiceOther#tags}
   */
   readonly tags?: string[];
   /**
   * Use default virtual session timeout.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_other#use_default_session_timeout ManagementServiceOther#use_default_session_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_other#use_default_session_timeout ManagementServiceOther#use_default_session_timeout}
   */
   readonly useDefaultSessionTimeout?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_other checkpoint_management_service_other}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_other checkpoint_management_service_other}
 */
 export class ManagementServiceOther extends cdktf.TerraformResource {
 
@@ -135,7 +135,7 @@ export class ManagementServiceOther extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementServiceOther resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementServiceOther to import
-  * @param importFromId The id of the existing ManagementServiceOther that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_other#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementServiceOther that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_other#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementServiceOther to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -147,7 +147,7 @@ export class ManagementServiceOther extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_other checkpoint_management_service_other} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_other checkpoint_management_service_other} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -158,7 +158,8 @@ export class ManagementServiceOther extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_service_other',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

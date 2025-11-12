@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/licenseledgerdetails
+// https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/licenseledgerdetails
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,54 +8,54 @@ import * as cdktf from 'cdktf';
 
 export interface LicenseledgerdetailsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/licenseledgerdetails#id Licenseledgerdetails#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/licenseledgerdetails#id Licenseledgerdetails#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/licenseledgerdetails#uuid Licenseledgerdetails#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/licenseledgerdetails#uuid Licenseledgerdetails#uuid}
   */
   readonly uuid?: string;
   /**
   * escrow_infos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/licenseledgerdetails#escrow_infos Licenseledgerdetails#escrow_infos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/licenseledgerdetails#escrow_infos Licenseledgerdetails#escrow_infos}
   */
   readonly escrowInfos?: LicenseledgerdetailsEscrowInfos[] | cdktf.IResolvable;
   /**
   * se_infos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/licenseledgerdetails#se_infos Licenseledgerdetails#se_infos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/licenseledgerdetails#se_infos Licenseledgerdetails#se_infos}
   */
   readonly seInfos?: LicenseledgerdetailsSeInfos[] | cdktf.IResolvable;
   /**
   * tier_usages block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/licenseledgerdetails#tier_usages Licenseledgerdetails#tier_usages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/licenseledgerdetails#tier_usages Licenseledgerdetails#tier_usages}
   */
   readonly tierUsages?: LicenseledgerdetailsTierUsages[] | cdktf.IResolvable;
 }
 export interface LicenseledgerdetailsEscrowInfos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/licenseledgerdetails#last_updated Licenseledgerdetails#last_updated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/licenseledgerdetails#last_updated Licenseledgerdetails#last_updated}
   */
   readonly lastUpdated: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/licenseledgerdetails#service_cores Licenseledgerdetails#service_cores}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/licenseledgerdetails#service_cores Licenseledgerdetails#service_cores}
   */
   readonly serviceCores: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/licenseledgerdetails#tenant_uuid Licenseledgerdetails#tenant_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/licenseledgerdetails#tenant_uuid Licenseledgerdetails#tenant_uuid}
   */
   readonly tenantUuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/licenseledgerdetails#tier Licenseledgerdetails#tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/licenseledgerdetails#tier Licenseledgerdetails#tier}
   */
   readonly tier: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/licenseledgerdetails#uuid Licenseledgerdetails#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/licenseledgerdetails#uuid Licenseledgerdetails#uuid}
   */
   readonly uuid?: string;
 }
@@ -278,23 +278,23 @@ export class LicenseledgerdetailsEscrowInfosList extends cdktf.ComplexList {
 }
 export interface LicenseledgerdetailsSeInfos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/licenseledgerdetails#last_updated Licenseledgerdetails#last_updated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/licenseledgerdetails#last_updated Licenseledgerdetails#last_updated}
   */
   readonly lastUpdated: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/licenseledgerdetails#service_cores Licenseledgerdetails#service_cores}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/licenseledgerdetails#service_cores Licenseledgerdetails#service_cores}
   */
   readonly serviceCores: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/licenseledgerdetails#tenant_uuid Licenseledgerdetails#tenant_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/licenseledgerdetails#tenant_uuid Licenseledgerdetails#tenant_uuid}
   */
   readonly tenantUuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/licenseledgerdetails#tier Licenseledgerdetails#tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/licenseledgerdetails#tier Licenseledgerdetails#tier}
   */
   readonly tier: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/licenseledgerdetails#uuid Licenseledgerdetails#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/licenseledgerdetails#uuid Licenseledgerdetails#uuid}
   */
   readonly uuid?: string;
 }
@@ -517,19 +517,19 @@ export class LicenseledgerdetailsSeInfosList extends cdktf.ComplexList {
 }
 export interface LicenseledgerdetailsTierUsagesUsage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/licenseledgerdetails#available Licenseledgerdetails#available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/licenseledgerdetails#available Licenseledgerdetails#available}
   */
   readonly available?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/licenseledgerdetails#consumed Licenseledgerdetails#consumed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/licenseledgerdetails#consumed Licenseledgerdetails#consumed}
   */
   readonly consumed?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/licenseledgerdetails#escrow Licenseledgerdetails#escrow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/licenseledgerdetails#escrow Licenseledgerdetails#escrow}
   */
   readonly escrow?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/licenseledgerdetails#remaining Licenseledgerdetails#remaining}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/licenseledgerdetails#remaining Licenseledgerdetails#remaining}
   */
   readonly remaining?: string;
 }
@@ -732,13 +732,13 @@ export class LicenseledgerdetailsTierUsagesUsageList extends cdktf.ComplexList {
 }
 export interface LicenseledgerdetailsTierUsages {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/licenseledgerdetails#tier Licenseledgerdetails#tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/licenseledgerdetails#tier Licenseledgerdetails#tier}
   */
   readonly tier?: string;
   /**
   * usage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/licenseledgerdetails#usage Licenseledgerdetails#usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/licenseledgerdetails#usage Licenseledgerdetails#usage}
   */
   readonly usage?: LicenseledgerdetailsTierUsagesUsage[] | cdktf.IResolvable;
 }
@@ -883,7 +883,7 @@ export class LicenseledgerdetailsTierUsagesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/licenseledgerdetails avi_licenseledgerdetails}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/licenseledgerdetails avi_licenseledgerdetails}
 */
 export class Licenseledgerdetails extends cdktf.TerraformResource {
 
@@ -899,7 +899,7 @@ export class Licenseledgerdetails extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Licenseledgerdetails resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Licenseledgerdetails to import
-  * @param importFromId The id of the existing Licenseledgerdetails that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/licenseledgerdetails#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Licenseledgerdetails that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/licenseledgerdetails#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Licenseledgerdetails to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -911,7 +911,7 @@ export class Licenseledgerdetails extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/licenseledgerdetails avi_licenseledgerdetails} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/licenseledgerdetails avi_licenseledgerdetails} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -922,7 +922,8 @@ export class Licenseledgerdetails extends cdktf.TerraformResource {
       terraformResourceType: 'avi_licenseledgerdetails',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '31.1.1'
+        providerVersion: '30.2.5',
+        providerVersionConstraint: '30.2.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

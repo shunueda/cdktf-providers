@@ -72,7 +72,8 @@ export class SystemInterfaceDhcpsnoopingserverlist extends cdktf.TerraformResour
       terraformResourceType: 'fmgdevice_system_interface_dhcpsnoopingserverlist',
       terraformGeneratorMetadata: {
         providerName: 'fmgdevice',
-        providerVersion: '1.2.1'
+        providerVersion: '1.2.1',
+        providerVersionConstraint: '1.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

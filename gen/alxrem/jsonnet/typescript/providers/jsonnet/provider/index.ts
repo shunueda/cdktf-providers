@@ -61,7 +61,8 @@ export class JsonnetProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'jsonnet',
       terraformGeneratorMetadata: {
         providerName: 'jsonnet',
-        providerVersion: '2.5.0'
+        providerVersion: '2.5.0',
+        providerVersionConstraint: '2.5.0'
       },
       terraformProviderSource: 'alxrem/jsonnet'
     });

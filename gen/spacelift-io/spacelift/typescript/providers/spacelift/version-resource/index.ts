@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/version
+// https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/version
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface VersionResourceConfig extends cdktf.TerraformMetaArguments {
   /**
   * The commit SHA for which to trigger a version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/version#commit_sha VersionResource#commit_sha}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/version#commit_sha VersionResource#commit_sha}
   */
   readonly commitSha?: string;
   /**
   * Arbitrary map of values that, when changed, will trigger recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/version#keepers VersionResource#keepers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/version#keepers VersionResource#keepers}
   */
   readonly keepers?: { [key: string]: string };
   /**
   * ID of the module on which the version creation is to be triggered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/version#module_id VersionResource#module_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/version#module_id VersionResource#module_id}
   */
   readonly moduleId: string;
   /**
   * A semantic version number to set for the triggered version, example: 0.11.2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/version#version_number VersionResource#version_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/version#version_number VersionResource#version_number}
   */
   readonly versionNumber?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/version spacelift_version}
+* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/version spacelift_version}
 */
 export class VersionResource extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class VersionResource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VersionResource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VersionResource to import
-  * @param importFromId The id of the existing VersionResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/version#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VersionResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/version#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VersionResource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class VersionResource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/version spacelift_version} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/version spacelift_version} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,7 +73,8 @@ export class VersionResource extends cdktf.TerraformResource {
       terraformResourceType: 'spacelift_version',
       terraformGeneratorMetadata: {
         providerName: 'spacelift',
-        providerVersion: '1.36.0'
+        providerVersion: '1.37.0',
+        providerVersionConstraint: '1.37.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

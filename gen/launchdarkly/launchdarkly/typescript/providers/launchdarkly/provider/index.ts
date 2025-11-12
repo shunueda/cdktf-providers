@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.25.3/docs
+// https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.26.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface LaunchdarklyProviderConfig {
   /**
   * The [personal access token](https://docs.launchdarkly.com/home/account-security/api-access-tokens#personal-tokens) or [service token](https://docs.launchdarkly.com/home/account-security/api-access-tokens#service-tokens) used to authenticate with LaunchDarkly. You can also set this with the `LAUNCHDARKLY_ACCESS_TOKEN` environment variable. You must provide either `access_token` or `oauth_token`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.25.3/docs#access_token LaunchdarklyProvider#access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.26.0/docs#access_token LaunchdarklyProvider#access_token}
   */
   readonly accessToken?: string;
   /**
   * The LaunchDarkly host address. If this argument is not specified, the default host address is `https://app.launchdarkly.com`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.25.3/docs#api_host LaunchdarklyProvider#api_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.26.0/docs#api_host LaunchdarklyProvider#api_host}
   */
   readonly apiHost?: string;
   /**
   * The HTTP timeout (in seconds) when making API calls to LaunchDarkly. Defaults to 20 seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.25.3/docs#http_timeout LaunchdarklyProvider#http_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.26.0/docs#http_timeout LaunchdarklyProvider#http_timeout}
   */
   readonly httpTimeout?: number;
   /**
   * An OAuth V2 token you use to authenticate with LaunchDarkly. You can also set this with the `LAUNCHDARKLY_OAUTH_TOKEN` environment variable. You must provide either `access_token` or `oauth_token`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.25.3/docs#oauth_token LaunchdarklyProvider#oauth_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.26.0/docs#oauth_token LaunchdarklyProvider#oauth_token}
   */
   readonly oauthToken?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.25.3/docs#alias LaunchdarklyProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.26.0/docs#alias LaunchdarklyProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.25.3/docs launchdarkly}
+* Represents a {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.26.0/docs launchdarkly}
 */
 export class LaunchdarklyProvider extends cdktf.TerraformProvider {
 
@@ -56,7 +56,7 @@ export class LaunchdarklyProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a LaunchdarklyProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LaunchdarklyProvider to import
-  * @param importFromId The id of the existing LaunchdarklyProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.25.3/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LaunchdarklyProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.26.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LaunchdarklyProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class LaunchdarklyProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.25.3/docs launchdarkly} Resource
+  * Create a new {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.26.0/docs launchdarkly} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,7 +79,8 @@ export class LaunchdarklyProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'launchdarkly',
       terraformGeneratorMetadata: {
         providerName: 'launchdarkly',
-        providerVersion: '2.25.3'
+        providerVersion: '2.26.0',
+        providerVersionConstraint: '2.26.0'
       },
       terraformProviderSource: 'launchdarkly/launchdarkly'
     });

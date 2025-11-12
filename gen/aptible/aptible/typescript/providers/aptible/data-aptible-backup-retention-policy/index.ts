@@ -60,7 +60,8 @@ export class DataAptibleBackupRetentionPolicy extends cdktf.TerraformDataSource 
       terraformResourceType: 'aptible_backup_retention_policy',
       terraformGeneratorMetadata: {
         providerName: 'aptible',
-        providerVersion: '0.9.18'
+        providerVersion: '0.9.18',
+        providerVersionConstraint: '0.9.18'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

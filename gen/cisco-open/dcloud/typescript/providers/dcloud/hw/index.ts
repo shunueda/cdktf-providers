@@ -246,7 +246,8 @@ export class Hw extends cdktf.TerraformResource {
       terraformResourceType: 'dcloud_hw',
       terraformGeneratorMetadata: {
         providerName: 'dcloud',
-        providerVersion: '0.1.29'
+        providerVersion: '0.1.29',
+        providerVersionConstraint: '0.1.29'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

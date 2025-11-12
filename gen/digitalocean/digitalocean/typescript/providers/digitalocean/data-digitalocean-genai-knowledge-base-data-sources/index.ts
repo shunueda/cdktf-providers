@@ -551,7 +551,8 @@ export class DataDigitaloceanGenaiKnowledgeBaseDataSources extends cdktf.Terrafo
       terraformResourceType: 'digitalocean_genai_knowledge_base_data_sources',
       terraformGeneratorMetadata: {
         providerName: 'digitalocean',
-        providerVersion: '2.68.0'
+        providerVersion: '2.68.0',
+        providerVersionConstraint: '2.68.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

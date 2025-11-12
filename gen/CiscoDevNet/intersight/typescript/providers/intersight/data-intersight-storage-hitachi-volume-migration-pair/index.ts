@@ -4390,7 +4390,8 @@ export class DataIntersightStorageHitachiVolumeMigrationPair extends cdktf.Terra
       terraformResourceType: 'intersight_storage_hitachi_volume_migration_pair',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

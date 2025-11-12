@@ -67,7 +67,8 @@ export class VinyldnsProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'vinyldns',
       terraformGeneratorMetadata: {
         providerName: 'vinyldns',
-        providerVersion: '0.10.3'
+        providerVersion: '0.10.3',
+        providerVersionConstraint: '0.10.3'
       },
       terraformProviderSource: 'vinyldns/vinyldns'
     });

@@ -158,7 +158,8 @@ export class DataTencentcloudApiGatewayServiceEnvironmentList extends cdktf.Terr
       terraformResourceType: 'tencentcloud_api_gateway_service_environment_list',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

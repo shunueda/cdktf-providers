@@ -58,7 +58,8 @@ export class DataCitrixBranchRepeaterPolicyFilter extends cdktf.TerraformDataSou
       terraformResourceType: 'citrix_branch_repeater_policy_filter',
       terraformGeneratorMetadata: {
         providerName: 'citrix',
-        providerVersion: '1.0.30'
+        providerVersion: '1.0.30',
+        providerVersionConstraint: '1.0.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

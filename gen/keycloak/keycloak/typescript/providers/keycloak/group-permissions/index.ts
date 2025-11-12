@@ -844,7 +844,8 @@ export class GroupPermissions extends cdktf.TerraformResource {
       terraformResourceType: 'keycloak_group_permissions',
       terraformGeneratorMetadata: {
         providerName: 'keycloak',
-        providerVersion: '5.5.0'
+        providerVersion: '5.5.0',
+        providerVersionConstraint: '5.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

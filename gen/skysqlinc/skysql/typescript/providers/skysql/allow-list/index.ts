@@ -317,7 +317,8 @@ export class AllowList extends cdktf.TerraformResource {
       terraformResourceType: 'skysql_allow_list',
       terraformGeneratorMetadata: {
         providerName: 'skysql',
-        providerVersion: '3.2.0'
+        providerVersion: '3.2.0',
+        providerVersionConstraint: '3.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

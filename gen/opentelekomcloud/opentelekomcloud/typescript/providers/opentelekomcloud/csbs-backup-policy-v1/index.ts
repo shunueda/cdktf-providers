@@ -1040,7 +1040,8 @@ export class CsbsBackupPolicyV1 extends cdktf.TerraformResource {
       terraformResourceType: 'opentelekomcloud_csbs_backup_policy_v1',
       terraformGeneratorMetadata: {
         providerName: 'opentelekomcloud',
-        providerVersion: '1.36.52'
+        providerVersion: '1.36.52',
+        providerVersionConstraint: '1.36.52'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

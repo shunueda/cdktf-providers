@@ -607,7 +607,8 @@ export class ClusterPlacementGroupsClusterPlacementGroup extends cdktf.Terraform
       terraformResourceType: 'oci_cluster_placement_groups_cluster_placement_group',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

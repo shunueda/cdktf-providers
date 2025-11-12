@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nspbr
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nspbr
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,148 +8,152 @@ import * as cdktf from 'cdktf';
 
 export interface NspbrConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nspbr#action Nspbr#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nspbr#action Nspbr#action}
   */
   readonly action: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nspbr#destip Nspbr#destip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nspbr#destip Nspbr#destip}
   */
   readonly destip?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nspbr#destipop Nspbr#destipop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nspbr#destipop Nspbr#destipop}
   */
   readonly destipop?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nspbr#destipval Nspbr#destipval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nspbr#destipval Nspbr#destipval}
   */
   readonly destipval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nspbr#destport Nspbr#destport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nspbr#destport Nspbr#destport}
   */
   readonly destport?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nspbr#destportop Nspbr#destportop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nspbr#destportop Nspbr#destportop}
   */
   readonly destportop?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nspbr#destportval Nspbr#destportval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nspbr#destportval Nspbr#destportval}
   */
   readonly destportval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nspbr#detail Nspbr#detail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nspbr#detail Nspbr#detail}
   */
   readonly detail?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nspbr#id Nspbr#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nspbr#id Nspbr#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nspbr#interface Nspbr#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nspbr#interface Nspbr#interface}
   */
   readonly interface?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nspbr#iptunnel Nspbr#iptunnel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nspbr#iptunnel Nspbr#iptunnel}
   */
   readonly iptunnel?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nspbr#iptunnelname Nspbr#iptunnelname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nspbr#iptunnelname Nspbr#iptunnelname}
   */
   readonly iptunnelname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nspbr#monitor Nspbr#monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nspbr#monitor Nspbr#monitor}
   */
   readonly monitor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nspbr#msr Nspbr#msr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nspbr#msr Nspbr#msr}
   */
   readonly msr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nspbr#name Nspbr#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nspbr#name Nspbr#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nspbr#nexthop Nspbr#nexthop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nspbr#nexthop Nspbr#nexthop}
   */
   readonly nexthop?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nspbr#nexthopval Nspbr#nexthopval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nspbr#nexthopval Nspbr#nexthopval}
   */
   readonly nexthopval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nspbr#ownergroup Nspbr#ownergroup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nspbr#ownergroup Nspbr#ownergroup}
   */
   readonly ownergroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nspbr#priority Nspbr#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nspbr#priority Nspbr#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nspbr#protocol Nspbr#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nspbr#protocol Nspbr#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nspbr#protocolnumber Nspbr#protocolnumber}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nspbr#protocolnumber Nspbr#protocolnumber}
   */
   readonly protocolnumber?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nspbr#srcip Nspbr#srcip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nspbr#srcip Nspbr#srcip}
   */
   readonly srcip?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nspbr#srcipop Nspbr#srcipop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nspbr#srcipop Nspbr#srcipop}
   */
   readonly srcipop?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nspbr#srcipval Nspbr#srcipval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nspbr#srcipval Nspbr#srcipval}
   */
   readonly srcipval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nspbr#srcmac Nspbr#srcmac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nspbr#srcmac Nspbr#srcmac}
   */
   readonly srcmac?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nspbr#srcmacmask Nspbr#srcmacmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nspbr#srcmacmask Nspbr#srcmacmask}
   */
   readonly srcmacmask?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nspbr#srcport Nspbr#srcport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nspbr#srcport Nspbr#srcport}
   */
   readonly srcport?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nspbr#srcportop Nspbr#srcportop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nspbr#srcportop Nspbr#srcportop}
   */
   readonly srcportop?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nspbr#srcportval Nspbr#srcportval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nspbr#srcportval Nspbr#srcportval}
   */
   readonly srcportval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nspbr#state Nspbr#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nspbr#state Nspbr#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nspbr#td Nspbr#td}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nspbr#targettd Nspbr#targettd}
+  */
+  readonly targettd?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nspbr#td Nspbr#td}
   */
   readonly td?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nspbr#vlan Nspbr#vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nspbr#vlan Nspbr#vlan}
   */
   readonly vlan?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nspbr#vxlan Nspbr#vxlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nspbr#vxlan Nspbr#vxlan}
   */
   readonly vxlan?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nspbr#vxlanvlanmap Nspbr#vxlanvlanmap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nspbr#vxlanvlanmap Nspbr#vxlanvlanmap}
   */
   readonly vxlanvlanmap?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nspbr citrixadc_nspbr}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nspbr citrixadc_nspbr}
 */
 export class Nspbr extends cdktf.TerraformResource {
 
@@ -165,7 +169,7 @@ export class Nspbr extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Nspbr resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Nspbr to import
-  * @param importFromId The id of the existing Nspbr that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nspbr#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Nspbr that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nspbr#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Nspbr to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -177,7 +181,7 @@ export class Nspbr extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nspbr citrixadc_nspbr} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nspbr citrixadc_nspbr} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -188,7 +192,8 @@ export class Nspbr extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_nspbr',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -228,6 +233,7 @@ export class Nspbr extends cdktf.TerraformResource {
     this._srcportop = config.srcportop;
     this._srcportval = config.srcportval;
     this._state = config.state;
+    this._targettd = config.targettd;
     this._td = config.td;
     this._vlan = config.vlan;
     this._vxlan = config.vxlan;
@@ -712,6 +718,22 @@ export class Nspbr extends cdktf.TerraformResource {
     return this._state;
   }
 
+  // targettd - computed: true, optional: true, required: false
+  private _targettd?: number; 
+  public get targettd() {
+    return this.getNumberAttribute('targettd');
+  }
+  public set targettd(value: number) {
+    this._targettd = value;
+  }
+  public resetTargettd() {
+    this._targettd = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get targettdInput() {
+    return this._targettd;
+  }
+
   // td - computed: true, optional: true, required: false
   private _td?: number; 
   public get td() {
@@ -812,6 +834,7 @@ export class Nspbr extends cdktf.TerraformResource {
       srcportop: cdktf.stringToTerraform(this._srcportop),
       srcportval: cdktf.stringToTerraform(this._srcportval),
       state: cdktf.stringToTerraform(this._state),
+      targettd: cdktf.numberToTerraform(this._targettd),
       td: cdktf.numberToTerraform(this._td),
       vlan: cdktf.numberToTerraform(this._vlan),
       vxlan: cdktf.numberToTerraform(this._vxlan),
@@ -1000,6 +1023,12 @@ export class Nspbr extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      targettd: {
+        value: cdktf.numberToHclTerraform(this._targettd),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
       },
       td: {
         value: cdktf.numberToHclTerraform(this._td),

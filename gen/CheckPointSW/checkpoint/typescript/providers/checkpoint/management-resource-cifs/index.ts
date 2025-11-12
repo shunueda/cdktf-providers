@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_cifs
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_cifs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface ManagementResourceCifsConfig extends cdktf.TerraformMetaArgumen
   /**
   * Blocks the ability to remotely manipulate a the window's registry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_cifs#block_remote_registry_access ManagementResourceCifs#block_remote_registry_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_cifs#block_remote_registry_access ManagementResourceCifs#block_remote_registry_access}
   */
   readonly blockRemoteRegistryAccess?: boolean | cdktf.IResolvable;
   /**
   * Color of the object. Should be one of existing colors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_cifs#color ManagementResourceCifs#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_cifs#color ManagementResourceCifs#color}
   */
   readonly color?: string;
   /**
   * Comments string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_cifs#comments ManagementResourceCifs#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_cifs#comments ManagementResourceCifs#comments}
   */
   readonly comments?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_cifs#id ManagementResourceCifs#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_cifs#id ManagementResourceCifs#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,43 +35,43 @@ export interface ManagementResourceCifsConfig extends cdktf.TerraformMetaArgumen
   /**
   * Apply changes ignoring errors. You won't be able to publish such a changes. If ignore-warnings flag was omitted - warnings will also be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_cifs#ignore_errors ManagementResourceCifs#ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_cifs#ignore_errors ManagementResourceCifs#ignore_errors}
   */
   readonly ignoreErrors?: boolean | cdktf.IResolvable;
   /**
   * Apply changes ignoring warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_cifs#ignore_warnings ManagementResourceCifs#ignore_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_cifs#ignore_warnings ManagementResourceCifs#ignore_warnings}
   */
   readonly ignoreWarnings?: boolean | cdktf.IResolvable;
   /**
   * Logs any attempt to violate the restrictions imposed by the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_cifs#log_access_violation ManagementResourceCifs#log_access_violation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_cifs#log_access_violation ManagementResourceCifs#log_access_violation}
   */
   readonly logAccessViolation?: boolean | cdktf.IResolvable;
   /**
   * Logs each share map attempt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_cifs#log_mapped_shares ManagementResourceCifs#log_mapped_shares}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_cifs#log_mapped_shares ManagementResourceCifs#log_mapped_shares}
   */
   readonly logMappedShares?: boolean | cdktf.IResolvable;
   /**
   * Object name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_cifs#name ManagementResourceCifs#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_cifs#name ManagementResourceCifs#name}
   */
   readonly name: string;
   /**
   * Collection of tag identifiers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_cifs#tags ManagementResourceCifs#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_cifs#tags ManagementResourceCifs#tags}
   */
   readonly tags?: string[];
   /**
   * allowed_disk_and_print_shares block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_cifs#allowed_disk_and_print_shares ManagementResourceCifs#allowed_disk_and_print_shares}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_cifs#allowed_disk_and_print_shares ManagementResourceCifs#allowed_disk_and_print_shares}
   */
   readonly allowedDiskAndPrintShares: ManagementResourceCifsAllowedDiskAndPrintShares[] | cdktf.IResolvable;
 }
@@ -79,13 +79,13 @@ export interface ManagementResourceCifsAllowedDiskAndPrintShares {
   /**
   * Blocks the ability to remotely manipulate a the window's registry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_cifs#server_name ManagementResourceCifs#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_cifs#server_name ManagementResourceCifs#server_name}
   */
   readonly serverName: string;
   /**
   * Disk shares.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_cifs#share_name ManagementResourceCifs#share_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_cifs#share_name ManagementResourceCifs#share_name}
   */
   readonly shareName: string;
 }
@@ -224,7 +224,7 @@ export class ManagementResourceCifsAllowedDiskAndPrintSharesList extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_cifs checkpoint_management_resource_cifs}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_cifs checkpoint_management_resource_cifs}
 */
 export class ManagementResourceCifs extends cdktf.TerraformResource {
 
@@ -240,7 +240,7 @@ export class ManagementResourceCifs extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementResourceCifs resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementResourceCifs to import
-  * @param importFromId The id of the existing ManagementResourceCifs that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_cifs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementResourceCifs that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_cifs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementResourceCifs to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -252,7 +252,7 @@ export class ManagementResourceCifs extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_cifs checkpoint_management_resource_cifs} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_cifs checkpoint_management_resource_cifs} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -263,7 +263,8 @@ export class ManagementResourceCifs extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_resource_cifs',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

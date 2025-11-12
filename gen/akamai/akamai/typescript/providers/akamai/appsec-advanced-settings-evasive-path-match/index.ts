@@ -74,7 +74,8 @@ export class AppsecAdvancedSettingsEvasivePathMatch extends cdktf.TerraformResou
       terraformResourceType: 'akamai_appsec_advanced_settings_evasive_path_match',
       terraformGeneratorMetadata: {
         providerName: 'akamai',
-        providerVersion: '9.1.0'
+        providerVersion: '9.1.0',
+        providerVersionConstraint: '9.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

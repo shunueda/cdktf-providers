@@ -72,7 +72,8 @@ export class DomainCredential extends cdktf.TerraformResource {
       terraformResourceType: 'mailgun_domain_credential',
       terraformGeneratorMetadata: {
         providerName: 'mailgun',
-        providerVersion: '0.8.1'
+        providerVersion: '0.8.1',
+        providerVersionConstraint: '0.8.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -60,7 +60,8 @@ export class DataValtixProfileLogForwarding extends cdktf.TerraformDataSource {
       terraformResourceType: 'valtix_profile_log_forwarding',
       terraformGeneratorMetadata: {
         providerName: 'valtix',
-        providerVersion: '25.9.2'
+        providerVersion: '25.9.2',
+        providerVersionConstraint: '25.9.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

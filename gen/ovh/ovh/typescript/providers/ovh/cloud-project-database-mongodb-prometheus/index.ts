@@ -238,7 +238,8 @@ export class CloudProjectDatabaseMongodbPrometheus extends cdktf.TerraformResour
       terraformResourceType: 'ovh_cloud_project_database_mongodb_prometheus',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0'
+        providerVersion: '2.9.0',
+        providerVersionConstraint: '2.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

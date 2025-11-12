@@ -155,7 +155,8 @@ export class NxosProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'nxos',
       terraformGeneratorMetadata: {
         providerName: 'nxos',
-        providerVersion: '0.5.10'
+        providerVersion: '0.5.10',
+        providerVersionConstraint: '0.5.10'
       },
       terraformProviderSource: 'CiscoDevNet/nxos'
     });

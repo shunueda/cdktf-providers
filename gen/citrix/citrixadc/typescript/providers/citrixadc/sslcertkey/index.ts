@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslcertkey
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertkey
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,72 +8,80 @@ import * as cdktf from 'cdktf';
 
 export interface SslcertkeyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslcertkey#bundle Sslcertkey#bundle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertkey#bundle Sslcertkey#bundle}
   */
   readonly bundle?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslcertkey#cert Sslcertkey#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertkey#cert Sslcertkey#cert}
   */
   readonly cert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslcertkey#certkey Sslcertkey#certkey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertkey#certkey Sslcertkey#certkey}
   */
   readonly certkey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslcertkey#expirymonitor Sslcertkey#expirymonitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertkey#deletecertkeyfilesonremoval Sslcertkey#deletecertkeyfilesonremoval}
+  */
+  readonly deletecertkeyfilesonremoval?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertkey#deletefromdevice Sslcertkey#deletefromdevice}
+  */
+  readonly deletefromdevice?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertkey#expirymonitor Sslcertkey#expirymonitor}
   */
   readonly expirymonitor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslcertkey#fipskey Sslcertkey#fipskey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertkey#fipskey Sslcertkey#fipskey}
   */
   readonly fipskey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslcertkey#hsmkey Sslcertkey#hsmkey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertkey#hsmkey Sslcertkey#hsmkey}
   */
   readonly hsmkey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslcertkey#id Sslcertkey#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertkey#id Sslcertkey#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslcertkey#inform Sslcertkey#inform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertkey#inform Sslcertkey#inform}
   */
   readonly inform?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslcertkey#key Sslcertkey#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertkey#key Sslcertkey#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslcertkey#linkcertkeyname Sslcertkey#linkcertkeyname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertkey#linkcertkeyname Sslcertkey#linkcertkeyname}
   */
   readonly linkcertkeyname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslcertkey#nodomaincheck Sslcertkey#nodomaincheck}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertkey#nodomaincheck Sslcertkey#nodomaincheck}
   */
   readonly nodomaincheck?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslcertkey#notificationperiod Sslcertkey#notificationperiod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertkey#notificationperiod Sslcertkey#notificationperiod}
   */
   readonly notificationperiod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslcertkey#ocspstaplingcache Sslcertkey#ocspstaplingcache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertkey#ocspstaplingcache Sslcertkey#ocspstaplingcache}
   */
   readonly ocspstaplingcache?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslcertkey#passplain Sslcertkey#passplain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertkey#passplain Sslcertkey#passplain}
   */
   readonly passplain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslcertkey#password Sslcertkey#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertkey#password Sslcertkey#password}
   */
   readonly password?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslcertkey citrixadc_sslcertkey}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertkey citrixadc_sslcertkey}
 */
 export class Sslcertkey extends cdktf.TerraformResource {
 
@@ -89,7 +97,7 @@ export class Sslcertkey extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Sslcertkey resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Sslcertkey to import
-  * @param importFromId The id of the existing Sslcertkey that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslcertkey#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Sslcertkey that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertkey#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Sslcertkey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -101,7 +109,7 @@ export class Sslcertkey extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslcertkey citrixadc_sslcertkey} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertkey citrixadc_sslcertkey} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -112,7 +120,8 @@ export class Sslcertkey extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_sslcertkey',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -125,6 +134,8 @@ export class Sslcertkey extends cdktf.TerraformResource {
     this._bundle = config.bundle;
     this._cert = config.cert;
     this._certkey = config.certkey;
+    this._deletecertkeyfilesonremoval = config.deletecertkeyfilesonremoval;
+    this._deletefromdevice = config.deletefromdevice;
     this._expirymonitor = config.expirymonitor;
     this._fipskey = config.fipskey;
     this._hsmkey = config.hsmkey;
@@ -189,6 +200,38 @@ export class Sslcertkey extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get certkeyInput() {
     return this._certkey;
+  }
+
+  // deletecertkeyfilesonremoval - computed: true, optional: true, required: false
+  private _deletecertkeyfilesonremoval?: string; 
+  public get deletecertkeyfilesonremoval() {
+    return this.getStringAttribute('deletecertkeyfilesonremoval');
+  }
+  public set deletecertkeyfilesonremoval(value: string) {
+    this._deletecertkeyfilesonremoval = value;
+  }
+  public resetDeletecertkeyfilesonremoval() {
+    this._deletecertkeyfilesonremoval = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get deletecertkeyfilesonremovalInput() {
+    return this._deletecertkeyfilesonremoval;
+  }
+
+  // deletefromdevice - computed: true, optional: true, required: false
+  private _deletefromdevice?: boolean | cdktf.IResolvable; 
+  public get deletefromdevice() {
+    return this.getBooleanAttribute('deletefromdevice');
+  }
+  public set deletefromdevice(value: boolean | cdktf.IResolvable) {
+    this._deletefromdevice = value;
+  }
+  public resetDeletefromdevice() {
+    this._deletefromdevice = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get deletefromdeviceInput() {
+    return this._deletefromdevice;
   }
 
   // expirymonitor - computed: true, optional: true, required: false
@@ -392,6 +435,8 @@ export class Sslcertkey extends cdktf.TerraformResource {
       bundle: cdktf.stringToTerraform(this._bundle),
       cert: cdktf.stringToTerraform(this._cert),
       certkey: cdktf.stringToTerraform(this._certkey),
+      deletecertkeyfilesonremoval: cdktf.stringToTerraform(this._deletecertkeyfilesonremoval),
+      deletefromdevice: cdktf.booleanToTerraform(this._deletefromdevice),
       expirymonitor: cdktf.stringToTerraform(this._expirymonitor),
       fipskey: cdktf.stringToTerraform(this._fipskey),
       hsmkey: cdktf.stringToTerraform(this._hsmkey),
@@ -426,6 +471,18 @@ export class Sslcertkey extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      deletecertkeyfilesonremoval: {
+        value: cdktf.stringToHclTerraform(this._deletecertkeyfilesonremoval),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      deletefromdevice: {
+        value: cdktf.booleanToHclTerraform(this._deletefromdevice),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
       },
       expirymonitor: {
         value: cdktf.stringToHclTerraform(this._expirymonitor),

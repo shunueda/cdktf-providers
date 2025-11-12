@@ -62,7 +62,8 @@ export class NsSaveConfig extends cdktf.TerraformResource {
       terraformResourceType: 'netscalersdx_ns_save_config',
       terraformGeneratorMetadata: {
         providerName: 'netscalersdx',
-        providerVersion: '0.7.2'
+        providerVersion: '0.7.2',
+        providerVersionConstraint: '0.7.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

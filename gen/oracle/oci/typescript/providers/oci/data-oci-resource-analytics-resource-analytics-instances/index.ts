@@ -575,7 +575,8 @@ export class DataOciResourceAnalyticsResourceAnalyticsInstances extends cdktf.Te
       terraformResourceType: 'oci_resource_analytics_resource_analytics_instances',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

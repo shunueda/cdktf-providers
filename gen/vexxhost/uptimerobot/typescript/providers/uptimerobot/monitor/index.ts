@@ -300,7 +300,8 @@ export class Monitor extends cdktf.TerraformResource {
       terraformResourceType: 'uptimerobot_monitor',
       terraformGeneratorMetadata: {
         providerName: 'uptimerobot',
-        providerVersion: '0.8.2'
+        providerVersion: '0.8.2',
+        providerVersionConstraint: '0.8.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -76,7 +76,8 @@ export class Content extends cdktf.TerraformResource {
       terraformResourceType: 'confluence_content',
       terraformGeneratorMetadata: {
         providerName: 'confluence',
-        providerVersion: '0.2.1'
+        providerVersion: '0.2.1',
+        providerVersionConstraint: '0.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

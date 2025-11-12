@@ -172,7 +172,8 @@ export class DataAlicloudSslVpnClientCerts extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_ssl_vpn_client_certs',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

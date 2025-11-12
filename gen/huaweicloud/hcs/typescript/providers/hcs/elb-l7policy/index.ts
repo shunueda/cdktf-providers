@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/elb_l7policy
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/elb_l7policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,76 +8,76 @@ import * as cdktf from 'cdktf';
 
 export interface ElbL7PolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/elb_l7policy#action ElbL7Policy#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/elb_l7policy#action ElbL7Policy#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/elb_l7policy#description ElbL7Policy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/elb_l7policy#description ElbL7Policy#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/elb_l7policy#id ElbL7Policy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/elb_l7policy#id ElbL7Policy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/elb_l7policy#listener_id ElbL7Policy#listener_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/elb_l7policy#listener_id ElbL7Policy#listener_id}
   */
   readonly listenerId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/elb_l7policy#name ElbL7Policy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/elb_l7policy#name ElbL7Policy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/elb_l7policy#redirect_listener_id ElbL7Policy#redirect_listener_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/elb_l7policy#redirect_listener_id ElbL7Policy#redirect_listener_id}
   */
   readonly redirectListenerId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/elb_l7policy#redirect_pool_id ElbL7Policy#redirect_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/elb_l7policy#redirect_pool_id ElbL7Policy#redirect_pool_id}
   */
   readonly redirectPoolId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/elb_l7policy#region ElbL7Policy#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/elb_l7policy#region ElbL7Policy#region}
   */
   readonly region?: string;
   /**
   * redirect_url_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/elb_l7policy#redirect_url_config ElbL7Policy#redirect_url_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/elb_l7policy#redirect_url_config ElbL7Policy#redirect_url_config}
   */
   readonly redirectUrlConfig?: ElbL7PolicyRedirectUrlConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/elb_l7policy#timeouts ElbL7Policy#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/elb_l7policy#timeouts ElbL7Policy#timeouts}
   */
   readonly timeouts?: ElbL7PolicyTimeouts;
 }
 export interface ElbL7PolicyRedirectUrlConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/elb_l7policy#host ElbL7Policy#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/elb_l7policy#host ElbL7Policy#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/elb_l7policy#path ElbL7Policy#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/elb_l7policy#path ElbL7Policy#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/elb_l7policy#port ElbL7Policy#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/elb_l7policy#port ElbL7Policy#port}
   */
   readonly port?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/elb_l7policy#protocol ElbL7Policy#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/elb_l7policy#protocol ElbL7Policy#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/elb_l7policy#query ElbL7Policy#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/elb_l7policy#query ElbL7Policy#query}
   */
   readonly query?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/elb_l7policy#status_code ElbL7Policy#status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/elb_l7policy#status_code ElbL7Policy#status_code}
   */
   readonly statusCode: string;
 }
@@ -303,15 +303,15 @@ export class ElbL7PolicyRedirectUrlConfigOutputReference extends cdktf.ComplexOb
 }
 export interface ElbL7PolicyTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/elb_l7policy#create ElbL7Policy#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/elb_l7policy#create ElbL7Policy#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/elb_l7policy#delete ElbL7Policy#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/elb_l7policy#delete ElbL7Policy#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/elb_l7policy#update ElbL7Policy#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/elb_l7policy#update ElbL7Policy#update}
   */
   readonly update?: string;
 }
@@ -463,7 +463,7 @@ export class ElbL7PolicyTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/elb_l7policy hcs_elb_l7policy}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/elb_l7policy hcs_elb_l7policy}
 */
 export class ElbL7Policy extends cdktf.TerraformResource {
 
@@ -479,7 +479,7 @@ export class ElbL7Policy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ElbL7Policy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ElbL7Policy to import
-  * @param importFromId The id of the existing ElbL7Policy that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/elb_l7policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ElbL7Policy that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/elb_l7policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ElbL7Policy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -491,7 +491,7 @@ export class ElbL7Policy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/elb_l7policy hcs_elb_l7policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/elb_l7policy hcs_elb_l7policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -502,7 +502,8 @@ export class ElbL7Policy extends cdktf.TerraformResource {
       terraformResourceType: 'hcs_elb_l7policy',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.19'
+        providerVersion: '2.4.20',
+        providerVersionConstraint: '2.4.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

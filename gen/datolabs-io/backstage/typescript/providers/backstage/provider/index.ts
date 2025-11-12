@@ -85,7 +85,8 @@ export class BackstageProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'backstage',
       terraformGeneratorMetadata: {
         providerName: 'backstage',
-        providerVersion: '3.3.0'
+        providerVersion: '3.3.0',
+        providerVersionConstraint: '3.3.0'
       },
       terraformProviderSource: 'datolabs-io/backstage'
     });

@@ -100,7 +100,8 @@ export class CloudIntegrationAzure extends cdktf.TerraformResource {
       terraformResourceType: 'wavefront_cloud_integration_azure',
       terraformGeneratorMetadata: {
         providerName: 'wavefront',
-        providerVersion: '5.1.0'
+        providerVersion: '5.1.0',
+        providerVersionConstraint: '5.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

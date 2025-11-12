@@ -92,7 +92,8 @@ export class DataTencentcloudAntiddosOverviewAttackTrend extends cdktf.Terraform
       terraformResourceType: 'tencentcloud_antiddos_overview_attack_trend',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

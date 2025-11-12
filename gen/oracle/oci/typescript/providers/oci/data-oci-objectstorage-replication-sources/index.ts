@@ -331,7 +331,8 @@ export class DataOciObjectstorageReplicationSources extends cdktf.TerraformDataS
       terraformResourceType: 'oci_objectstorage_replication_sources',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

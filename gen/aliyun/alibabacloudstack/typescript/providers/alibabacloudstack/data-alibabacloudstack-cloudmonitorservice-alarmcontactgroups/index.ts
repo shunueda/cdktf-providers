@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/cloudmonitorservice_alarmcontactgroups
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/cloudmonitorservice_alarmcontactgroups
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,22 +8,22 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlibabacloudstackCloudmonitorserviceAlarmcontactgroupsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/cloudmonitorservice_alarmcontactgroups#id DataAlibabacloudstackCloudmonitorserviceAlarmcontactgroups#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/cloudmonitorservice_alarmcontactgroups#id DataAlibabacloudstackCloudmonitorserviceAlarmcontactgroups#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/cloudmonitorservice_alarmcontactgroups#ids DataAlibabacloudstackCloudmonitorserviceAlarmcontactgroups#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/cloudmonitorservice_alarmcontactgroups#ids DataAlibabacloudstackCloudmonitorserviceAlarmcontactgroups#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/cloudmonitorservice_alarmcontactgroups#name_regex DataAlibabacloudstackCloudmonitorserviceAlarmcontactgroups#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/cloudmonitorservice_alarmcontactgroups#name_regex DataAlibabacloudstackCloudmonitorserviceAlarmcontactgroups#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/cloudmonitorservice_alarmcontactgroups#output_file DataAlibabacloudstackCloudmonitorserviceAlarmcontactgroups#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/cloudmonitorservice_alarmcontactgroups#output_file DataAlibabacloudstackCloudmonitorserviceAlarmcontactgroups#output_file}
   */
   readonly outputFile?: string;
 }
@@ -124,7 +124,7 @@ export class DataAlibabacloudstackCloudmonitorserviceAlarmcontactgroupsGroupsLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/cloudmonitorservice_alarmcontactgroups alibabacloudstack_cloudmonitorservice_alarmcontactgroups}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/cloudmonitorservice_alarmcontactgroups alibabacloudstack_cloudmonitorservice_alarmcontactgroups}
 */
 export class DataAlibabacloudstackCloudmonitorserviceAlarmcontactgroups extends cdktf.TerraformDataSource {
 
@@ -140,7 +140,7 @@ export class DataAlibabacloudstackCloudmonitorserviceAlarmcontactgroups extends 
   * Generates CDKTF code for importing a DataAlibabacloudstackCloudmonitorserviceAlarmcontactgroups resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlibabacloudstackCloudmonitorserviceAlarmcontactgroups to import
-  * @param importFromId The id of the existing DataAlibabacloudstackCloudmonitorserviceAlarmcontactgroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/cloudmonitorservice_alarmcontactgroups#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlibabacloudstackCloudmonitorserviceAlarmcontactgroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/cloudmonitorservice_alarmcontactgroups#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlibabacloudstackCloudmonitorserviceAlarmcontactgroups to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -152,7 +152,7 @@ export class DataAlibabacloudstackCloudmonitorserviceAlarmcontactgroups extends 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/cloudmonitorservice_alarmcontactgroups alibabacloudstack_cloudmonitorservice_alarmcontactgroups} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/cloudmonitorservice_alarmcontactgroups alibabacloudstack_cloudmonitorservice_alarmcontactgroups} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -163,7 +163,8 @@ export class DataAlibabacloudstackCloudmonitorserviceAlarmcontactgroups extends 
       terraformResourceType: 'alibabacloudstack_cloudmonitorservice_alarmcontactgroups',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.19'
+        providerVersion: '3.16.21',
+        providerVersionConstraint: '3.16.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

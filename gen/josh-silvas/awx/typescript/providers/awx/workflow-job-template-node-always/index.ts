@@ -138,7 +138,8 @@ export class WorkflowJobTemplateNodeAlways extends cdktf.TerraformResource {
       terraformResourceType: 'awx_workflow_job_template_node_always',
       terraformGeneratorMetadata: {
         providerName: 'awx',
-        providerVersion: '1.7.5'
+        providerVersion: '1.7.5',
+        providerVersionConstraint: '1.7.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

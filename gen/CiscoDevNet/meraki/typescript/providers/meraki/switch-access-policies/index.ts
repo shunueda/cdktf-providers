@@ -1739,7 +1739,8 @@ export class SwitchAccessPolicies extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_switch_access_policies',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1'
+        providerVersion: '1.7.1',
+        providerVersionConstraint: '1.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

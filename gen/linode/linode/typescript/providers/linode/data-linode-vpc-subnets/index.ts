@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/vpc_subnets
+// https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/vpc_subnets
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataLinodeVpcSubnetsConfig extends cdktf.TerraformMetaArguments
   /**
   * The id of the parent VPC for the list of VPC subnets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/vpc_subnets#vpc_id DataLinodeVpcSubnets#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/vpc_subnets#vpc_id DataLinodeVpcSubnets#vpc_id}
   */
   readonly vpcId: number;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/vpc_subnets#filter DataLinodeVpcSubnets#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/vpc_subnets#filter DataLinodeVpcSubnets#filter}
   */
   readonly filter?: DataLinodeVpcSubnetsFilter[] | cdktf.IResolvable;
   /**
   * vpc_subnets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/vpc_subnets#vpc_subnets DataLinodeVpcSubnets#vpc_subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/vpc_subnets#vpc_subnets DataLinodeVpcSubnets#vpc_subnets}
   */
   readonly vpcSubnets?: DataLinodeVpcSubnetsVpcSubnets[] | cdktf.IResolvable;
 }
@@ -30,19 +30,19 @@ export interface DataLinodeVpcSubnetsFilter {
   /**
   * The type of comparison to use for this filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/vpc_subnets#match_by DataLinodeVpcSubnets#match_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/vpc_subnets#match_by DataLinodeVpcSubnets#match_by}
   */
   readonly matchBy?: string;
   /**
   * The name of the attribute to filter on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/vpc_subnets#name DataLinodeVpcSubnets#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/vpc_subnets#name DataLinodeVpcSubnets#name}
   */
   readonly name: string;
   /**
   * The value(s) to be used in the filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/vpc_subnets#values DataLinodeVpcSubnets#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/vpc_subnets#values DataLinodeVpcSubnets#values}
   */
   readonly values: string[];
 }
@@ -569,7 +569,7 @@ export class DataLinodeVpcSubnetsVpcSubnetsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/vpc_subnets linode_vpc_subnets}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/vpc_subnets linode_vpc_subnets}
 */
 export class DataLinodeVpcSubnets extends cdktf.TerraformDataSource {
 
@@ -585,7 +585,7 @@ export class DataLinodeVpcSubnets extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataLinodeVpcSubnets resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataLinodeVpcSubnets to import
-  * @param importFromId The id of the existing DataLinodeVpcSubnets that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/vpc_subnets#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataLinodeVpcSubnets that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/vpc_subnets#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataLinodeVpcSubnets to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -597,7 +597,7 @@ export class DataLinodeVpcSubnets extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/vpc_subnets linode_vpc_subnets} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/vpc_subnets linode_vpc_subnets} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -608,7 +608,8 @@ export class DataLinodeVpcSubnets extends cdktf.TerraformDataSource {
       terraformResourceType: 'linode_vpc_subnets',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.5.0'
+        providerVersion: '3.5.1',
+        providerVersionConstraint: '3.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

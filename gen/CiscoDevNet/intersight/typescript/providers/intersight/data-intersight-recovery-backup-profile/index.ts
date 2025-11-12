@@ -7694,7 +7694,8 @@ export class DataIntersightRecoveryBackupProfile extends cdktf.TerraformDataSour
       terraformResourceType: 'intersight_recovery_backup_profile',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/data-sources/enrollment_pattern
+// https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/data-sources/enrollment_pattern
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataKeyfactorEnrollmentPatternConfig extends cdktf.TerraformMet
   /**
   * The name or internal ID (integer) of the enrollment pattern to look up.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/data-sources/enrollment_pattern#identifier DataKeyfactorEnrollmentPattern#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/data-sources/enrollment_pattern#identifier DataKeyfactorEnrollmentPattern#identifier}
   */
   readonly identifier: string;
 }
@@ -926,7 +926,7 @@ export class DataKeyfactorEnrollmentPatternTemplateOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/data-sources/enrollment_pattern keyfactor_enrollment_pattern}
+* Represents a {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/data-sources/enrollment_pattern keyfactor_enrollment_pattern}
 */
 export class DataKeyfactorEnrollmentPattern extends cdktf.TerraformDataSource {
 
@@ -942,7 +942,7 @@ export class DataKeyfactorEnrollmentPattern extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataKeyfactorEnrollmentPattern resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataKeyfactorEnrollmentPattern to import
-  * @param importFromId The id of the existing DataKeyfactorEnrollmentPattern that should be imported. Refer to the {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/data-sources/enrollment_pattern#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataKeyfactorEnrollmentPattern that should be imported. Refer to the {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/data-sources/enrollment_pattern#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataKeyfactorEnrollmentPattern to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -954,7 +954,7 @@ export class DataKeyfactorEnrollmentPattern extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/data-sources/enrollment_pattern keyfactor_enrollment_pattern} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/data-sources/enrollment_pattern keyfactor_enrollment_pattern} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -965,7 +965,8 @@ export class DataKeyfactorEnrollmentPattern extends cdktf.TerraformDataSource {
       terraformResourceType: 'keyfactor_enrollment_pattern',
       terraformGeneratorMetadata: {
         providerName: 'keyfactor',
-        providerVersion: '2.6.0'
+        providerVersion: '2.7.0',
+        providerVersionConstraint: '2.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

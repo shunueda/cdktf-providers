@@ -86,7 +86,8 @@ export class EdgeClusterQos extends cdktf.TerraformResource {
       terraformResourceType: 'vcfa_edge_cluster_qos',
       terraformGeneratorMetadata: {
         providerName: 'vcfa',
-        providerVersion: '1.0.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

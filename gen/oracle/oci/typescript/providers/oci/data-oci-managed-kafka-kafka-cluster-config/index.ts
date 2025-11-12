@@ -144,7 +144,8 @@ export class DataOciManagedKafkaKafkaClusterConfigA extends cdktf.TerraformDataS
       terraformResourceType: 'oci_managed_kafka_kafka_cluster_config',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

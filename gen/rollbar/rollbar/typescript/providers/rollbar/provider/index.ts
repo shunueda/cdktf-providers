@@ -73,7 +73,8 @@ export class RollbarProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'rollbar',
       terraformGeneratorMetadata: {
         providerName: 'rollbar',
-        providerVersion: '1.16.0'
+        providerVersion: '1.16.0',
+        providerVersionConstraint: '1.16.0'
       },
       terraformProviderSource: 'rollbar/rollbar'
     });

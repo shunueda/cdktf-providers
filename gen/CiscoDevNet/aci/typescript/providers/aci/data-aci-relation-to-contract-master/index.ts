@@ -221,7 +221,8 @@ export class DataAciRelationToContractMaster extends cdktf.TerraformDataSource {
       terraformResourceType: 'aci_relation_to_contract_master',
       terraformGeneratorMetadata: {
         providerName: 'aci',
-        providerVersion: '2.18.0'
+        providerVersion: '2.18.0',
+        providerVersionConstraint: '2.18.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

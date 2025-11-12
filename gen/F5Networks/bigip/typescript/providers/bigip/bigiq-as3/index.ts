@@ -110,7 +110,8 @@ export class BigiqAs3 extends cdktf.TerraformResource {
       terraformResourceType: 'bigip_bigiq_as3',
       terraformGeneratorMetadata: {
         providerName: 'bigip',
-        providerVersion: '1.24.1'
+        providerVersion: '1.24.1',
+        providerVersionConstraint: '1.24.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

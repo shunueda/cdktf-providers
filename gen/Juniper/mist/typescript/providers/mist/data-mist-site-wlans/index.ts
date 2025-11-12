@@ -2955,7 +2955,8 @@ export class DataMistSiteWlans extends cdktf.TerraformDataSource {
       terraformResourceType: 'mist_site_wlans',
       terraformGeneratorMetadata: {
         providerName: 'mist',
-        providerVersion: '0.6.0'
+        providerVersion: '0.6.0',
+        providerVersionConstraint: '0.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -73,7 +73,8 @@ export class DataFortisaseNetworkBasicInternetServices extends cdktf.TerraformDa
       terraformResourceType: 'fortisase_network_basic_internet_services',
       terraformGeneratorMetadata: {
         providerName: 'fortisase',
-        providerVersion: '1.0.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

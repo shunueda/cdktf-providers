@@ -243,7 +243,8 @@ export class TopicPermissions extends cdktf.TerraformResource {
       terraformResourceType: 'rabbitmq_topic_permissions',
       terraformGeneratorMetadata: {
         providerName: 'rabbitmq',
-        providerVersion: '1.10.1'
+        providerVersion: '1.10.1',
+        providerVersionConstraint: '1.10.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

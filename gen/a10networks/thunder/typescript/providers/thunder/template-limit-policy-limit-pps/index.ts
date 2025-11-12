@@ -128,7 +128,8 @@ export class TemplateLimitPolicyLimitPpsA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_template_limit_policy_limit_pps',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

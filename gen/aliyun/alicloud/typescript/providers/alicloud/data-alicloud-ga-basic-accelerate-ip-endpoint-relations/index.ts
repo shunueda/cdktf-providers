@@ -210,7 +210,8 @@ export class DataAlicloudGaBasicAccelerateIpEndpointRelations extends cdktf.Terr
       terraformResourceType: 'alicloud_ga_basic_accelerate_ip_endpoint_relations',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

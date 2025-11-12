@@ -200,7 +200,8 @@ export class JetstreamProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'jetstream',
       terraformGeneratorMetadata: {
         providerName: 'jetstream',
-        providerVersion: '0.2.1'
+        providerVersion: '0.2.1',
+        providerVersionConstraint: '0.2.1'
       },
       terraformProviderSource: 'nats-io/jetstream'
     });

@@ -243,7 +243,8 @@ export class DataIllumioCoreContainerClusterServiceBackends extends cdktf.Terraf
       terraformResourceType: 'illumio-core_container_cluster_service_backends',
       terraformGeneratorMetadata: {
         providerName: 'illumio-core',
-        providerVersion: '1.1.6'
+        providerVersion: '1.1.6',
+        providerVersionConstraint: '1.1.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -90,7 +90,8 @@ export class DliTemplateFlink extends cdktf.TerraformResource {
       terraformResourceType: 'flexibleengine_dli_template_flink',
       terraformGeneratorMetadata: {
         providerName: 'flexibleengine',
-        providerVersion: '1.46.0'
+        providerVersion: '1.46.0',
+        providerVersionConstraint: '1.46.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

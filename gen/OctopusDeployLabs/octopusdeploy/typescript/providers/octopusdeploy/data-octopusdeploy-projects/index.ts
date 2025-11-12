@@ -1405,7 +1405,8 @@ export class DataOctopusdeployProjects extends cdktf.TerraformDataSource {
       terraformResourceType: 'octopusdeploy_projects',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '0.43.2'
+        providerVersion: '0.43.2',
+        providerVersionConstraint: '0.43.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -4434,7 +4434,8 @@ export class DataIntersightHyperflexProxySettingPolicy extends cdktf.TerraformDa
       terraformResourceType: 'intersight_hyperflex_proxy_setting_policy',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

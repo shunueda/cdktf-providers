@@ -666,7 +666,8 @@ export class DataK8SApps3ScaleNetApiManagerRestoreV1Alpha1Manifest extends cdktf
       terraformResourceType: 'k8s_apps_3scale_net_api_manager_restore_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

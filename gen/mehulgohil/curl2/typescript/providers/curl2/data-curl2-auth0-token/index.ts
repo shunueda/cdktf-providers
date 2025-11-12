@@ -109,7 +109,8 @@ export class DataCurl2Auth0Token extends cdktf.TerraformDataSource {
       terraformResourceType: 'curl2_auth0_token',
       terraformGeneratorMetadata: {
         providerName: 'curl2',
-        providerVersion: '1.6.1'
+        providerVersion: '1.6.1',
+        providerVersionConstraint: '1.6.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

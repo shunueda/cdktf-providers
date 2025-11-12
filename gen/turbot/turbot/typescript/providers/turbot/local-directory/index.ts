@@ -76,7 +76,8 @@ export class LocalDirectory extends cdktf.TerraformResource {
       terraformResourceType: 'turbot_local_directory',
       terraformGeneratorMetadata: {
         providerName: 'turbot',
-        providerVersion: '1.13.0'
+        providerVersion: '1.13.0',
+        providerVersionConstraint: '1.13.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

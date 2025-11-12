@@ -59,7 +59,8 @@ export class PingdomProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'pingdom',
       terraformGeneratorMetadata: {
         providerName: 'pingdom',
-        providerVersion: '1.21.3'
+        providerVersion: '1.21.3',
+        providerVersionConstraint: '1.21.3'
       },
       terraformProviderSource: 'spring-media/pingdom'
     });

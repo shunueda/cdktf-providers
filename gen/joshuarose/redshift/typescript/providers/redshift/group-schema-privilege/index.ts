@@ -92,7 +92,8 @@ export class GroupSchemaPrivilege extends cdktf.TerraformResource {
       terraformResourceType: 'redshift_group_schema_privilege',
       terraformGeneratorMetadata: {
         providerName: 'redshift',
-        providerVersion: '0.0.4'
+        providerVersion: '0.0.4',
+        providerVersionConstraint: '0.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

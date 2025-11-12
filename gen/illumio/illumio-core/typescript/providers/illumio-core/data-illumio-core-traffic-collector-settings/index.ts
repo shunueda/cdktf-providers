@@ -147,7 +147,8 @@ export class DataIllumioCoreTrafficCollectorSettings extends cdktf.TerraformData
       terraformResourceType: 'illumio-core_traffic_collector_settings',
       terraformGeneratorMetadata: {
         providerName: 'illumio-core',
-        providerVersion: '1.1.6'
+        providerVersion: '1.1.6',
+        providerVersionConstraint: '1.1.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -67,7 +67,8 @@ export class EndpointPoliciesClone extends cdktf.TerraformResource {
       terraformResourceType: 'fortisase_endpoint_policies_clone',
       terraformGeneratorMetadata: {
         providerName: 'fortisase',
-        providerVersion: '1.0.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

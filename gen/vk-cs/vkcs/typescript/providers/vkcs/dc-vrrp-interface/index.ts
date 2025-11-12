@@ -97,7 +97,8 @@ export class DcVrrpInterface extends cdktf.TerraformResource {
       terraformResourceType: 'vkcs_dc_vrrp_interface',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.0'
+        providerVersion: '0.13.0',
+        providerVersionConstraint: '0.13.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

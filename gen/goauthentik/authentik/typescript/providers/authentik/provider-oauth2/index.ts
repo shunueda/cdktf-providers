@@ -190,7 +190,8 @@ export class ProviderOauth2 extends cdktf.TerraformResource {
       terraformResourceType: 'authentik_provider_oauth2',
       terraformGeneratorMetadata: {
         providerName: 'authentik',
-        providerVersion: '2025.10.0'
+        providerVersion: '2025.10.0',
+        providerVersionConstraint: '2025.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

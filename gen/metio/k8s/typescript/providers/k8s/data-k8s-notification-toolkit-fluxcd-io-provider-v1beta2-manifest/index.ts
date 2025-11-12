@@ -850,7 +850,8 @@ export class DataK8SNotificationToolkitFluxcdIoProviderV1Beta2Manifest extends c
       terraformResourceType: 'k8s_notification_toolkit_fluxcd_io_provider_v1beta2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

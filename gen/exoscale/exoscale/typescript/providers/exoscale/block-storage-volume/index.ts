@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/block_storage_volume
+// https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/block_storage_volume
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface BlockStorageVolumeConfig extends cdktf.TerraformMetaArguments {
   /**
   * Resource labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/block_storage_volume#labels BlockStorageVolume#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/block_storage_volume#labels BlockStorageVolume#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Volume name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/block_storage_volume#name BlockStorageVolume#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/block_storage_volume#name BlockStorageVolume#name}
   */
   readonly name: string;
   /**
   * Volume size in GB (default 10). If volume is attached, instance must be stopped to update this value. Volume can only grow, cannot be shrunk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/block_storage_volume#size BlockStorageVolume#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/block_storage_volume#size BlockStorageVolume#size}
   */
   readonly size?: number;
   /**
   * Block storage snapshot to use when creating a volume. Read-only after creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/block_storage_volume#snapshot_target BlockStorageVolume#snapshot_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/block_storage_volume#snapshot_target BlockStorageVolume#snapshot_target}
   */
   readonly snapshotTarget?: BlockStorageVolumeSnapshotTarget;
   /**
   * ❗ The Exoscale [Zone](https://www.exoscale.com/datacenters/) name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/block_storage_volume#zone BlockStorageVolume#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/block_storage_volume#zone BlockStorageVolume#zone}
   */
   readonly zone: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/block_storage_volume#timeouts BlockStorageVolume#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/block_storage_volume#timeouts BlockStorageVolume#timeouts}
   */
   readonly timeouts?: BlockStorageVolumeTimeouts;
 }
@@ -48,7 +48,7 @@ export interface BlockStorageVolumeSnapshotTarget {
   /**
   * Snapshot ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/block_storage_volume#id BlockStorageVolume#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/block_storage_volume#id BlockStorageVolume#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -147,7 +147,7 @@ export interface BlockStorageVolumeTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/block_storage_volume#read BlockStorageVolume#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/block_storage_volume#read BlockStorageVolume#read}
   */
   readonly read?: string;
 }
@@ -241,7 +241,7 @@ export class BlockStorageVolumeTimeoutsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/block_storage_volume exoscale_block_storage_volume}
+* Represents a {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/block_storage_volume exoscale_block_storage_volume}
 */
 export class BlockStorageVolume extends cdktf.TerraformResource {
 
@@ -257,7 +257,7 @@ export class BlockStorageVolume extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BlockStorageVolume resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BlockStorageVolume to import
-  * @param importFromId The id of the existing BlockStorageVolume that should be imported. Refer to the {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/block_storage_volume#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BlockStorageVolume that should be imported. Refer to the {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/block_storage_volume#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BlockStorageVolume to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -269,7 +269,7 @@ export class BlockStorageVolume extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/block_storage_volume exoscale_block_storage_volume} Resource
+  * Create a new {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/block_storage_volume exoscale_block_storage_volume} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -280,7 +280,8 @@ export class BlockStorageVolume extends cdktf.TerraformResource {
       terraformResourceType: 'exoscale_block_storage_volume',
       terraformGeneratorMetadata: {
         providerName: 'exoscale',
-        providerVersion: '0.66.0'
+        providerVersion: '0.67.0',
+        providerVersionConstraint: '0.67.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

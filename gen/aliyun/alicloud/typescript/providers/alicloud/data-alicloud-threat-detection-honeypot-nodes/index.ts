@@ -194,7 +194,8 @@ export class DataAlicloudThreatDetectionHoneypotNodes extends cdktf.TerraformDat
       terraformResourceType: 'alicloud_threat_detection_honeypot_nodes',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

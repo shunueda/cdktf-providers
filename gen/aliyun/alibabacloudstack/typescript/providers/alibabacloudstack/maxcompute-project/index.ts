@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/maxcompute_project
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/maxcompute_project
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,58 +8,27 @@ import * as cdktf from 'cdktf';
 
 export interface MaxcomputeProjectConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/maxcompute_project#account MaxcomputeProject#account}
-  */
-  readonly account: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/maxcompute_project#account_pk MaxcomputeProject#account_pk}
-  */
-  readonly accountPk: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/maxcompute_project#core_arch MaxcomputeProject#core_arch}
-  */
-  readonly coreArch?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/maxcompute_project#cpu_type MaxcomputeProject#cpu_type}
-  */
-  readonly cpuType?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/maxcompute_project#disk MaxcomputeProject#disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/maxcompute_project#disk MaxcomputeProject#disk}
   */
   readonly disk: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/maxcompute_project#external_table MaxcomputeProject#external_table}
-  */
-  readonly externalTable?: boolean | cdktf.IResolvable;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/maxcompute_project#id MaxcomputeProject#id}
-  *
-  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
-  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
-  */
-  readonly id?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/maxcompute_project#name MaxcomputeProject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/maxcompute_project#name MaxcomputeProject#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/maxcompute_project#quota_id MaxcomputeProject#quota_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/maxcompute_project#quota_id MaxcomputeProject#quota_id}
   */
   readonly quotaId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/maxcompute_project#vpc_ids MaxcomputeProject#vpc_ids}
-  */
-  readonly vpcIds?: string[];
-  /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/maxcompute_project#timeouts MaxcomputeProject#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/maxcompute_project#timeouts MaxcomputeProject#timeouts}
   */
   readonly timeouts?: MaxcomputeProjectTimeouts;
 }
 export interface MaxcomputeProjectTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/maxcompute_project#delete MaxcomputeProject#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/maxcompute_project#delete MaxcomputeProject#delete}
   */
   readonly delete?: string;
 }
@@ -153,7 +122,7 @@ export class MaxcomputeProjectTimeoutsOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/maxcompute_project alibabacloudstack_maxcompute_project}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/maxcompute_project alibabacloudstack_maxcompute_project}
 */
 export class MaxcomputeProject extends cdktf.TerraformResource {
 
@@ -169,7 +138,7 @@ export class MaxcomputeProject extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MaxcomputeProject resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MaxcomputeProject to import
-  * @param importFromId The id of the existing MaxcomputeProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/maxcompute_project#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MaxcomputeProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/maxcompute_project#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MaxcomputeProject to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -181,7 +150,7 @@ export class MaxcomputeProject extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/maxcompute_project alibabacloudstack_maxcompute_project} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/maxcompute_project alibabacloudstack_maxcompute_project} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -192,7 +161,8 @@ export class MaxcomputeProject extends cdktf.TerraformResource {
       terraformResourceType: 'alibabacloudstack_maxcompute_project',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.19'
+        providerVersion: '3.16.21',
+        providerVersionConstraint: '3.16.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -202,80 +172,15 @@ export class MaxcomputeProject extends cdktf.TerraformResource {
       connection: config.connection,
       forEach: config.forEach
     });
-    this._account = config.account;
-    this._accountPk = config.accountPk;
-    this._coreArch = config.coreArch;
-    this._cpuType = config.cpuType;
     this._disk = config.disk;
-    this._externalTable = config.externalTable;
-    this._id = config.id;
     this._name = config.name;
     this._quotaId = config.quotaId;
-    this._vpcIds = config.vpcIds;
     this._timeouts.internalValue = config.timeouts;
   }
 
   // ==========
   // ATTRIBUTES
   // ==========
-
-  // account - computed: false, optional: false, required: true
-  private _account?: string; 
-  public get account() {
-    return this.getStringAttribute('account');
-  }
-  public set account(value: string) {
-    this._account = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get accountInput() {
-    return this._account;
-  }
-
-  // account_pk - computed: false, optional: false, required: true
-  private _accountPk?: string; 
-  public get accountPk() {
-    return this.getStringAttribute('account_pk');
-  }
-  public set accountPk(value: string) {
-    this._accountPk = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get accountPkInput() {
-    return this._accountPk;
-  }
-
-  // core_arch - computed: false, optional: true, required: false
-  private _coreArch?: string; 
-  public get coreArch() {
-    return this.getStringAttribute('core_arch');
-  }
-  public set coreArch(value: string) {
-    this._coreArch = value;
-  }
-  public resetCoreArch() {
-    this._coreArch = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get coreArchInput() {
-    return this._coreArch;
-  }
-
-  // cpu_type - computed: false, optional: true, required: false
-  private _cpuType?: string; 
-  public get cpuType() {
-    return this.getStringAttribute('cpu_type');
-  }
-  public set cpuType(value: string) {
-    this._cpuType = value;
-  }
-  public resetCpuType() {
-    this._cpuType = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get cpuTypeInput() {
-    return this._cpuType;
-  }
 
   // disk - computed: false, optional: false, required: true
   private _disk?: number; 
@@ -290,36 +195,9 @@ export class MaxcomputeProject extends cdktf.TerraformResource {
     return this._disk;
   }
 
-  // external_table - computed: false, optional: true, required: false
-  private _externalTable?: boolean | cdktf.IResolvable; 
-  public get externalTable() {
-    return this.getBooleanAttribute('external_table');
-  }
-  public set externalTable(value: boolean | cdktf.IResolvable) {
-    this._externalTable = value;
-  }
-  public resetExternalTable() {
-    this._externalTable = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get externalTableInput() {
-    return this._externalTable;
-  }
-
-  // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  // id - computed: true, optional: false, required: false
   public get id() {
     return this.getStringAttribute('id');
-  }
-  public set id(value: string) {
-    this._id = value;
-  }
-  public resetId() {
-    this._id = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get idInput() {
-    return this._id;
   }
 
   // name - computed: false, optional: false, required: true
@@ -348,22 +226,6 @@ export class MaxcomputeProject extends cdktf.TerraformResource {
     return this._quotaId;
   }
 
-  // vpc_ids - computed: false, optional: true, required: false
-  private _vpcIds?: string[]; 
-  public get vpcIds() {
-    return this.getListAttribute('vpc_ids');
-  }
-  public set vpcIds(value: string[]) {
-    this._vpcIds = value;
-  }
-  public resetVpcIds() {
-    this._vpcIds = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get vpcIdsInput() {
-    return this._vpcIds;
-  }
-
   // timeouts - computed: false, optional: true, required: false
   private _timeouts = new MaxcomputeProjectTimeoutsOutputReference(this, "timeouts");
   public get timeouts() {
@@ -386,63 +248,20 @@ export class MaxcomputeProject extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      account: cdktf.stringToTerraform(this._account),
-      account_pk: cdktf.stringToTerraform(this._accountPk),
-      core_arch: cdktf.stringToTerraform(this._coreArch),
-      cpu_type: cdktf.stringToTerraform(this._cpuType),
       disk: cdktf.numberToTerraform(this._disk),
-      external_table: cdktf.booleanToTerraform(this._externalTable),
-      id: cdktf.stringToTerraform(this._id),
       name: cdktf.stringToTerraform(this._name),
       quota_id: cdktf.stringToTerraform(this._quotaId),
-      vpc_ids: cdktf.listMapper(cdktf.stringToTerraform, false)(this._vpcIds),
       timeouts: maxcomputeProjectTimeoutsToTerraform(this._timeouts.internalValue),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
-      account: {
-        value: cdktf.stringToHclTerraform(this._account),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
-      account_pk: {
-        value: cdktf.stringToHclTerraform(this._accountPk),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
-      core_arch: {
-        value: cdktf.stringToHclTerraform(this._coreArch),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
-      cpu_type: {
-        value: cdktf.stringToHclTerraform(this._cpuType),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
       disk: {
         value: cdktf.numberToHclTerraform(this._disk),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
-      },
-      external_table: {
-        value: cdktf.booleanToHclTerraform(this._externalTable),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "boolean",
-      },
-      id: {
-        value: cdktf.stringToHclTerraform(this._id),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
       },
       name: {
         value: cdktf.stringToHclTerraform(this._name),
@@ -455,12 +274,6 @@ export class MaxcomputeProject extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
-      },
-      vpc_ids: {
-        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._vpcIds),
-        isBlock: false,
-        type: "list",
-        storageClassType: "stringList",
       },
       timeouts: {
         value: maxcomputeProjectTimeoutsToHclTerraform(this._timeouts.internalValue),

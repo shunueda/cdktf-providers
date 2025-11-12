@@ -1834,7 +1834,8 @@ export class DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest extends 
       terraformResourceType: 'k8s_resources_teleport_dev_teleport_saml_connector_v2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

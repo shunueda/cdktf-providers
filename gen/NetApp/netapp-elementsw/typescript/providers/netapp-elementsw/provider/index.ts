@@ -79,7 +79,8 @@ export class NetappElementswProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'netapp-elementsw',
       terraformGeneratorMetadata: {
         providerName: 'netapp-elementsw',
-        providerVersion: '20.11.0'
+        providerVersion: '20.11.0',
+        providerVersionConstraint: '20.11.0'
       },
       terraformProviderSource: 'NetApp/netapp-elementsw'
     });

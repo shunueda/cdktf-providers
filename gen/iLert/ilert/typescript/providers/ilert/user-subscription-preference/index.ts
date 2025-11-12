@@ -439,7 +439,8 @@ export class UserSubscriptionPreference extends cdktf.TerraformResource {
       terraformResourceType: 'ilert_user_subscription_preference',
       terraformGeneratorMetadata: {
         providerName: 'ilert',
-        providerVersion: '2.14.3'
+        providerVersion: '2.14.3',
+        providerVersionConstraint: '2.14.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

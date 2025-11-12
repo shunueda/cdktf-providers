@@ -222,7 +222,8 @@ export class DataOciDataSafeCompatibleFormatsForDataType extends cdktf.Terraform
       terraformResourceType: 'oci_data_safe_compatible_formats_for_data_type',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

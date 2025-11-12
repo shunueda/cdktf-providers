@@ -812,7 +812,8 @@ export class ShippingRate extends cdktf.TerraformResource {
       terraformResourceType: 'stripe_shipping_rate',
       terraformGeneratorMetadata: {
         providerName: 'stripe',
-        providerVersion: '3.4.0'
+        providerVersion: '3.4.0',
+        providerVersionConstraint: '3.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

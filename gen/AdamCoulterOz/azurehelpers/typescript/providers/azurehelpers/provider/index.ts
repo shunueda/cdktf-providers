@@ -55,7 +55,8 @@ export class AzurehelpersProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'azurehelpers',
       terraformGeneratorMetadata: {
         providerName: 'azurehelpers',
-        providerVersion: '0.2.0'
+        providerVersion: '0.2.0',
+        providerVersionConstraint: '0.2.0'
       },
       terraformProviderSource: 'AdamCoulterOz/azurehelpers'
     });

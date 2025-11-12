@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.2/docs
+// https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.3/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface WarpstreamProviderConfig {
   /**
   * Base URL for WarpStream API. May also be provided via WARPSTREAM_API_URL environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.2/docs#base_url WarpstreamProvider#base_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.3/docs#base_url WarpstreamProvider#base_url}
   */
   readonly baseUrl?: string;
   /**
   * Token for WarpStream API. May also be provided via WARPSTREAM_API_KEY environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.2/docs#token WarpstreamProvider#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.3/docs#token WarpstreamProvider#token}
   */
   readonly token?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.2/docs#alias WarpstreamProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.3/docs#alias WarpstreamProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.2/docs warpstream}
+* Represents a {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.3/docs warpstream}
 */
 export class WarpstreamProvider extends cdktf.TerraformProvider {
 
@@ -44,7 +44,7 @@ export class WarpstreamProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a WarpstreamProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WarpstreamProvider to import
-  * @param importFromId The id of the existing WarpstreamProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.2/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WarpstreamProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.3/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WarpstreamProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class WarpstreamProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.2/docs warpstream} Resource
+  * Create a new {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.3/docs warpstream} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,7 +67,8 @@ export class WarpstreamProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'warpstream',
       terraformGeneratorMetadata: {
         providerName: 'warpstream',
-        providerVersion: '2.2.2'
+        providerVersion: '2.2.3',
+        providerVersionConstraint: '2.2.3'
       },
       terraformProviderSource: 'warpstreamlabs/warpstream'
     });

@@ -201,7 +201,8 @@ export class TcrTagRetentionRule extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_tcr_tag_retention_rule',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

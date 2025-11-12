@@ -100,7 +100,8 @@ export class ObjectFspVlanInterfaceIpv6Ip6Delegatedprefixlist extends cdktf.Terr
       terraformResourceType: 'fortimanager_object_fsp_vlan_interface_ipv6_ip6delegatedprefixlist',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0'
+        providerVersion: '1.14.0',
+        providerVersionConstraint: '1.14.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

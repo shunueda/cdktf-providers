@@ -84,7 +84,8 @@ export class ObjectFirewallDecryptedtrafficmirror extends cdktf.TerraformResourc
       terraformResourceType: 'fortimanager_object_firewall_decryptedtrafficmirror',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0'
+        providerVersion: '1.14.0',
+        providerVersionConstraint: '1.14.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

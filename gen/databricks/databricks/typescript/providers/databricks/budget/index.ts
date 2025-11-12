@@ -1059,7 +1059,8 @@ export class Budget extends cdktf.TerraformResource {
       terraformResourceType: 'databricks_budget',
       terraformGeneratorMetadata: {
         providerName: 'databricks',
-        providerVersion: '1.97.0'
+        providerVersion: '1.97.0',
+        providerVersionConstraint: '1.97.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

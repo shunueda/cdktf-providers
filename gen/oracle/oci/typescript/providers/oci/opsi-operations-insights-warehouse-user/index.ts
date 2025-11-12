@@ -258,7 +258,8 @@ export class OpsiOperationsInsightsWarehouseUser extends cdktf.TerraformResource
       terraformResourceType: 'oci_opsi_operations_insights_warehouse_user',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

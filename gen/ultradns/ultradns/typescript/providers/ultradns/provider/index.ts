@@ -73,7 +73,8 @@ export class UltradnsProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'ultradns',
       terraformGeneratorMetadata: {
         providerName: 'ultradns',
-        providerVersion: '1.11.1'
+        providerVersion: '1.11.1',
+        providerVersionConstraint: '1.11.1'
       },
       terraformProviderSource: 'ultradns/ultradns'
     });

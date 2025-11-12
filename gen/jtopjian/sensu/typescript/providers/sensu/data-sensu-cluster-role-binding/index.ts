@@ -60,7 +60,8 @@ export class DataSensuClusterRoleBinding extends cdktf.TerraformDataSource {
       terraformResourceType: 'sensu_cluster_role_binding',
       terraformGeneratorMetadata: {
         providerName: 'sensu',
-        providerVersion: '0.14.0'
+        providerVersion: '0.14.0',
+        providerVersionConstraint: '0.14.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

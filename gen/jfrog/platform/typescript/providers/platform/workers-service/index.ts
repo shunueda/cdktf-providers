@@ -492,7 +492,8 @@ export class WorkersService extends cdktf.TerraformResource {
       terraformResourceType: 'platform_workers_service',
       terraformGeneratorMetadata: {
         providerName: 'platform',
-        providerVersion: '2.2.6'
+        providerVersion: '2.2.6',
+        providerVersionConstraint: '2.2.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

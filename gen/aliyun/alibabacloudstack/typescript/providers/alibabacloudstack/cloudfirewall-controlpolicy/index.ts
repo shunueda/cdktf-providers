@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/cloudfirewall_controlpolicy
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cloudfirewall_controlpolicy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,80 +8,80 @@ import * as cdktf from 'cdktf';
 
 export interface CloudfirewallControlpolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/cloudfirewall_controlpolicy#acl_action CloudfirewallControlpolicy#acl_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cloudfirewall_controlpolicy#acl_action CloudfirewallControlpolicy#acl_action}
   */
   readonly aclAction: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/cloudfirewall_controlpolicy#application_name CloudfirewallControlpolicy#application_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cloudfirewall_controlpolicy#application_name CloudfirewallControlpolicy#application_name}
   */
   readonly applicationName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/cloudfirewall_controlpolicy#description CloudfirewallControlpolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cloudfirewall_controlpolicy#description CloudfirewallControlpolicy#description}
   */
   readonly description: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/cloudfirewall_controlpolicy#dest_port CloudfirewallControlpolicy#dest_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cloudfirewall_controlpolicy#dest_port CloudfirewallControlpolicy#dest_port}
   */
   readonly destPort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/cloudfirewall_controlpolicy#dest_port_group CloudfirewallControlpolicy#dest_port_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cloudfirewall_controlpolicy#dest_port_group CloudfirewallControlpolicy#dest_port_group}
   */
   readonly destPortGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/cloudfirewall_controlpolicy#dest_port_type CloudfirewallControlpolicy#dest_port_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cloudfirewall_controlpolicy#dest_port_type CloudfirewallControlpolicy#dest_port_type}
   */
   readonly destPortType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/cloudfirewall_controlpolicy#destination CloudfirewallControlpolicy#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cloudfirewall_controlpolicy#destination CloudfirewallControlpolicy#destination}
   */
   readonly destination: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/cloudfirewall_controlpolicy#destination_type CloudfirewallControlpolicy#destination_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cloudfirewall_controlpolicy#destination_type CloudfirewallControlpolicy#destination_type}
   */
   readonly destinationType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/cloudfirewall_controlpolicy#direction CloudfirewallControlpolicy#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cloudfirewall_controlpolicy#direction CloudfirewallControlpolicy#direction}
   */
   readonly direction: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/cloudfirewall_controlpolicy#id CloudfirewallControlpolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cloudfirewall_controlpolicy#id CloudfirewallControlpolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/cloudfirewall_controlpolicy#ip_version CloudfirewallControlpolicy#ip_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cloudfirewall_controlpolicy#ip_version CloudfirewallControlpolicy#ip_version}
   */
   readonly ipVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/cloudfirewall_controlpolicy#lang CloudfirewallControlpolicy#lang}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cloudfirewall_controlpolicy#lang CloudfirewallControlpolicy#lang}
   */
   readonly lang?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/cloudfirewall_controlpolicy#proto CloudfirewallControlpolicy#proto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cloudfirewall_controlpolicy#proto CloudfirewallControlpolicy#proto}
   */
   readonly proto: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/cloudfirewall_controlpolicy#release CloudfirewallControlpolicy#release}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cloudfirewall_controlpolicy#release CloudfirewallControlpolicy#release}
   */
   readonly release?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/cloudfirewall_controlpolicy#source CloudfirewallControlpolicy#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cloudfirewall_controlpolicy#source CloudfirewallControlpolicy#source}
   */
   readonly source: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/cloudfirewall_controlpolicy#source_ip CloudfirewallControlpolicy#source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cloudfirewall_controlpolicy#source_ip CloudfirewallControlpolicy#source_ip}
   */
   readonly sourceIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/cloudfirewall_controlpolicy#source_type CloudfirewallControlpolicy#source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cloudfirewall_controlpolicy#source_type CloudfirewallControlpolicy#source_type}
   */
   readonly sourceType: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/cloudfirewall_controlpolicy alibabacloudstack_cloudfirewall_controlpolicy}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cloudfirewall_controlpolicy alibabacloudstack_cloudfirewall_controlpolicy}
 */
 export class CloudfirewallControlpolicy extends cdktf.TerraformResource {
 
@@ -97,7 +97,7 @@ export class CloudfirewallControlpolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudfirewallControlpolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudfirewallControlpolicy to import
-  * @param importFromId The id of the existing CloudfirewallControlpolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/cloudfirewall_controlpolicy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudfirewallControlpolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cloudfirewall_controlpolicy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudfirewallControlpolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -109,7 +109,7 @@ export class CloudfirewallControlpolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/cloudfirewall_controlpolicy alibabacloudstack_cloudfirewall_controlpolicy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cloudfirewall_controlpolicy alibabacloudstack_cloudfirewall_controlpolicy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -120,7 +120,8 @@ export class CloudfirewallControlpolicy extends cdktf.TerraformResource {
       terraformResourceType: 'alibabacloudstack_cloudfirewall_controlpolicy',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.19'
+        providerVersion: '3.16.21',
+        providerVersionConstraint: '3.16.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

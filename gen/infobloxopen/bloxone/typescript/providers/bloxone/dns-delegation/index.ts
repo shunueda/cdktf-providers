@@ -240,7 +240,8 @@ export class DnsDelegation extends cdktf.TerraformResource {
       terraformResourceType: 'bloxone_dns_delegation',
       terraformGeneratorMetadata: {
         providerName: 'bloxone',
-        providerVersion: '1.5.3'
+        providerVersion: '1.5.3',
+        providerVersionConstraint: '1.5.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

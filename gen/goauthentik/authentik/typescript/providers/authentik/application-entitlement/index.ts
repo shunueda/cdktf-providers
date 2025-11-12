@@ -70,7 +70,8 @@ export class ApplicationEntitlement extends cdktf.TerraformResource {
       terraformResourceType: 'authentik_application_entitlement',
       terraformGeneratorMetadata: {
         providerName: 'authentik',
-        providerVersion: '2025.10.0'
+        providerVersion: '2025.10.0',
+        providerVersionConstraint: '2025.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

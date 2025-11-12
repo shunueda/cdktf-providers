@@ -76,7 +76,8 @@ export class DxLag extends cdktf.TerraformResource {
       terraformResourceType: 'aws_dx_lag',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '3.29.6'
+        providerVersion: '3.29.6',
+        providerVersionConstraint: '3.29.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

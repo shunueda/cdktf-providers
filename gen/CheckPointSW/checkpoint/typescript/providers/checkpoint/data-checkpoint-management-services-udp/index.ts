@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_services_udp
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_services_udp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataCheckpointManagementServicesUdpConfig extends cdktf.Terrafo
   /**
   * If true, fetches all results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_services_udp#fetch_all DataCheckpointManagementServicesUdp#fetch_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_services_udp#fetch_all DataCheckpointManagementServicesUdp#fetch_all}
   */
   readonly fetchAll?: boolean | cdktf.IResolvable;
   /**
   * Search expression to filter objects by.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_services_udp#filter DataCheckpointManagementServicesUdp#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_services_udp#filter DataCheckpointManagementServicesUdp#filter}
   */
   readonly filter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_services_udp#id DataCheckpointManagementServicesUdp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_services_udp#id DataCheckpointManagementServicesUdp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface DataCheckpointManagementServicesUdpConfig extends cdktf.Terrafo
   /**
   * The maximal number of returned results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_services_udp#limit DataCheckpointManagementServicesUdp#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_services_udp#limit DataCheckpointManagementServicesUdp#limit}
   */
   readonly limit?: number;
   /**
   * Number of the results to initially skip.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_services_udp#offset DataCheckpointManagementServicesUdp#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_services_udp#offset DataCheckpointManagementServicesUdp#offset}
   */
   readonly offset?: number;
   /**
   * order block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_services_udp#order DataCheckpointManagementServicesUdp#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_services_udp#order DataCheckpointManagementServicesUdp#order}
   */
   readonly order?: DataCheckpointManagementServicesUdpOrder[] | cdktf.IResolvable;
 }
@@ -311,13 +311,13 @@ export interface DataCheckpointManagementServicesUdpOrder {
   /**
   * Sorts results by the given field in ascending order.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_services_udp#asc DataCheckpointManagementServicesUdp#asc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_services_udp#asc DataCheckpointManagementServicesUdp#asc}
   */
   readonly asc?: string;
   /**
   * Sorts results by the given field in descending order.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_services_udp#desc DataCheckpointManagementServicesUdp#desc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_services_udp#desc DataCheckpointManagementServicesUdp#desc}
   */
   readonly desc?: string;
 }
@@ -462,7 +462,7 @@ export class DataCheckpointManagementServicesUdpOrderList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_services_udp checkpoint_management_services_udp}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_services_udp checkpoint_management_services_udp}
 */
 export class DataCheckpointManagementServicesUdp extends cdktf.TerraformDataSource {
 
@@ -478,7 +478,7 @@ export class DataCheckpointManagementServicesUdp extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataCheckpointManagementServicesUdp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCheckpointManagementServicesUdp to import
-  * @param importFromId The id of the existing DataCheckpointManagementServicesUdp that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_services_udp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCheckpointManagementServicesUdp that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_services_udp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCheckpointManagementServicesUdp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -490,7 +490,7 @@ export class DataCheckpointManagementServicesUdp extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_services_udp checkpoint_management_services_udp} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_services_udp checkpoint_management_services_udp} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -501,7 +501,8 @@ export class DataCheckpointManagementServicesUdp extends cdktf.TerraformDataSour
       terraformResourceType: 'checkpoint_management_services_udp',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

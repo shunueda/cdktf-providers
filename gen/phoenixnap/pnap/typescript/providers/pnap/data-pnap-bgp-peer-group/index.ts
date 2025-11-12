@@ -425,7 +425,8 @@ export class DataPnapBgpPeerGroup extends cdktf.TerraformDataSource {
       terraformResourceType: 'pnap_bgp_peer_group',
       terraformGeneratorMetadata: {
         providerName: 'pnap',
-        providerVersion: '0.30.0'
+        providerVersion: '0.30.0',
+        providerVersionConstraint: '0.30.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

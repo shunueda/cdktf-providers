@@ -63,7 +63,8 @@ export class DataFortisaseUsageAuthRadiusServers extends cdktf.TerraformDataSour
       terraformResourceType: 'fortisase_usage_auth_radius_servers',
       terraformGeneratorMetadata: {
         providerName: 'fortisase',
-        providerVersion: '1.0.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -96,7 +96,8 @@ export class Domain extends cdktf.TerraformResource {
       terraformResourceType: 'constellix_domain',
       terraformGeneratorMetadata: {
         providerName: 'constellix',
-        providerVersion: '0.4.6'
+        providerVersion: '0.4.6',
+        providerVersionConstraint: '0.4.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

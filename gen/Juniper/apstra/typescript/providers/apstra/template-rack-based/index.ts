@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_rack_based
+// https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_rack_based
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface TemplateRackBasedConfig extends cdktf.TerraformMetaArguments {
   /**
   * "unique" is for 3-stage designs; "single" is for 5-stage designs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_rack_based#asn_allocation_scheme TemplateRackBased#asn_allocation_scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_rack_based#asn_allocation_scheme TemplateRackBased#asn_allocation_scheme}
   */
   readonly asnAllocationScheme: string;
   /**
   * Apstra name of the Rack Based Template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_rack_based#name TemplateRackBased#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_rack_based#name TemplateRackBased#name}
   */
   readonly name: string;
   /**
   * Defines the inter-rack virtual network overlay protocol in the fabric. ["evpn","static"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_rack_based#overlay_control_protocol TemplateRackBased#overlay_control_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_rack_based#overlay_control_protocol TemplateRackBased#overlay_control_protocol}
   */
   readonly overlayControlProtocol: string;
   /**
   * Map of Rack Type info (count + details) keyed by Rack Type ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_rack_based#rack_infos TemplateRackBased#rack_infos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_rack_based#rack_infos TemplateRackBased#rack_infos}
   */
   readonly rackInfos: { [key: string]: TemplateRackBasedRackInfos } | cdktf.IResolvable;
   /**
   * Spine layer details
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_rack_based#spine TemplateRackBased#spine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_rack_based#spine TemplateRackBased#spine}
   */
   readonly spine: TemplateRackBasedSpine;
 }
@@ -42,13 +42,13 @@ export interface TemplateRackBasedRackInfosRackTypeAccessSwitchesEsiLagInfo {
   /**
   * Count of L3 links between ESI peers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_rack_based#l3_peer_link_count TemplateRackBased#l3_peer_link_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_rack_based#l3_peer_link_count TemplateRackBased#l3_peer_link_count}
   */
   readonly l3PeerLinkCount: number;
   /**
   * Speed of L3 links between ESI peers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_rack_based#l3_peer_link_speed TemplateRackBased#l3_peer_link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_rack_based#l3_peer_link_speed TemplateRackBased#l3_peer_link_speed}
   */
   readonly l3PeerLinkSpeed: string;
 }
@@ -157,13 +157,13 @@ export interface TemplateRackBasedRackInfosRackTypeAccessSwitchesLinksTags {
   /**
   * Tag description field as seen in the web UI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_rack_based#description TemplateRackBased#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_rack_based#description TemplateRackBased#description}
   */
   readonly description?: string;
   /**
   * Tag name field as seen in the web UI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_rack_based#name TemplateRackBased#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_rack_based#name TemplateRackBased#name}
   */
   readonly name: string;
 }
@@ -839,13 +839,13 @@ export interface TemplateRackBasedRackInfosRackTypeGenericSystemsLinksTags {
   /**
   * Tag description field as seen in the web UI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_rack_based#description TemplateRackBased#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_rack_based#description TemplateRackBased#description}
   */
   readonly description?: string;
   /**
   * Tag name field as seen in the web UI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_rack_based#name TemplateRackBased#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_rack_based#name TemplateRackBased#name}
   */
   readonly name: string;
 }
@@ -1756,43 +1756,43 @@ export interface TemplateRackBasedRackInfosRackTypeLeafSwitchesMlagInfo {
   /**
   * Number of L3 links between MLAG devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_rack_based#l3_peer_link_count TemplateRackBased#l3_peer_link_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_rack_based#l3_peer_link_count TemplateRackBased#l3_peer_link_count}
   */
   readonly l3PeerLinkCount?: number;
   /**
   * Port channel number used for L3 Peer Link. Omit to allow Apstra to choose.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_rack_based#l3_peer_link_port_channel_id TemplateRackBased#l3_peer_link_port_channel_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_rack_based#l3_peer_link_port_channel_id TemplateRackBased#l3_peer_link_port_channel_id}
   */
   readonly l3PeerLinkPortChannelId?: number;
   /**
   * Speed of l3 links between MLAG devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_rack_based#l3_peer_link_speed TemplateRackBased#l3_peer_link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_rack_based#l3_peer_link_speed TemplateRackBased#l3_peer_link_speed}
   */
   readonly l3PeerLinkSpeed?: string;
   /**
   * MLAG keepalive VLAN ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_rack_based#mlag_keepalive_vlan TemplateRackBased#mlag_keepalive_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_rack_based#mlag_keepalive_vlan TemplateRackBased#mlag_keepalive_vlan}
   */
   readonly mlagKeepaliveVlan: number;
   /**
   * Number of links between MLAG devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_rack_based#peer_link_count TemplateRackBased#peer_link_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_rack_based#peer_link_count TemplateRackBased#peer_link_count}
   */
   readonly peerLinkCount: number;
   /**
   * Port channel number used for L2 Peer Link.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_rack_based#peer_link_port_channel_id TemplateRackBased#peer_link_port_channel_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_rack_based#peer_link_port_channel_id TemplateRackBased#peer_link_port_channel_id}
   */
   readonly peerLinkPortChannelId: number;
   /**
   * Speed of links between MLAG devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_rack_based#peer_link_speed TemplateRackBased#peer_link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_rack_based#peer_link_speed TemplateRackBased#peer_link_speed}
   */
   readonly peerLinkSpeed: string;
 }
@@ -2323,7 +2323,7 @@ export interface TemplateRackBasedRackInfos {
   /**
   * Number of instances of this Rack Type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_rack_based#count TemplateRackBased#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_rack_based#count TemplateRackBased#count}
   */
   readonly count: number;
 }
@@ -2763,31 +2763,31 @@ export interface TemplateRackBasedSpine {
   /**
   * Number of Spine Switches.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_rack_based#count TemplateRackBased#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_rack_based#count TemplateRackBased#count}
   */
   readonly count: number;
   /**
   * Apstra Object ID of the Logical Device used to model this Spine Switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_rack_based#logical_device_id TemplateRackBased#logical_device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_rack_based#logical_device_id TemplateRackBased#logical_device_id}
   */
   readonly logicalDeviceId: string;
   /**
   * Count of links to each super Spine switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_rack_based#super_spine_link_count TemplateRackBased#super_spine_link_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_rack_based#super_spine_link_count TemplateRackBased#super_spine_link_count}
   */
   readonly superSpineLinkCount?: number;
   /**
   * Speed of links to super Spine switches.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_rack_based#super_spine_link_speed TemplateRackBased#super_spine_link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_rack_based#super_spine_link_speed TemplateRackBased#super_spine_link_speed}
   */
   readonly superSpineLinkSpeed?: string;
   /**
   * Set of Tag IDs to be applied to Spine Switches
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_rack_based#tag_ids TemplateRackBased#tag_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_rack_based#tag_ids TemplateRackBased#tag_ids}
   */
   readonly tagIds?: string[];
 }
@@ -3003,7 +3003,7 @@ export class TemplateRackBasedSpineOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_rack_based apstra_template_rack_based}
+* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_rack_based apstra_template_rack_based}
 */
 export class TemplateRackBased extends cdktf.TerraformResource {
 
@@ -3019,7 +3019,7 @@ export class TemplateRackBased extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TemplateRackBased resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TemplateRackBased to import
-  * @param importFromId The id of the existing TemplateRackBased that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_rack_based#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TemplateRackBased that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_rack_based#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TemplateRackBased to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3031,7 +3031,7 @@ export class TemplateRackBased extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_rack_based apstra_template_rack_based} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_rack_based apstra_template_rack_based} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3042,7 +3042,8 @@ export class TemplateRackBased extends cdktf.TerraformResource {
       terraformResourceType: 'apstra_template_rack_based',
       terraformGeneratorMetadata: {
         providerName: 'apstra',
-        providerVersion: '0.95.0'
+        providerVersion: '0.95.1',
+        providerVersionConstraint: '0.95.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

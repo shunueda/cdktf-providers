@@ -68,7 +68,8 @@ export class CdnAppliedPreset extends cdktf.TerraformResource {
       terraformResourceType: 'gcore_cdn_applied_preset',
       terraformGeneratorMetadata: {
         providerName: 'gcore',
-        providerVersion: '0.31.3'
+        providerVersion: '0.31.3',
+        providerVersionConstraint: '0.31.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

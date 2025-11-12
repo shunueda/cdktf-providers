@@ -76,7 +76,8 @@ export class DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest extends cdk
       terraformResourceType: 'k8s_cilium_io_cilium_clusterwide_network_policy_v2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

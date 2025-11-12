@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationradiusaction
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationradiusaction
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,108 +8,120 @@ import * as cdktf from 'cdktf';
 
 export interface AuthenticationradiusactionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationradiusaction#accounting Authenticationradiusaction#accounting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationradiusaction#accounting Authenticationradiusaction#accounting}
   */
   readonly accounting?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationradiusaction#authentication Authenticationradiusaction#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationradiusaction#authentication Authenticationradiusaction#authentication}
   */
   readonly authentication?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationradiusaction#authservretry Authenticationradiusaction#authservretry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationradiusaction#authservretry Authenticationradiusaction#authservretry}
   */
   readonly authservretry?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationradiusaction#authtimeout Authenticationradiusaction#authtimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationradiusaction#authtimeout Authenticationradiusaction#authtimeout}
   */
   readonly authtimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationradiusaction#callingstationid Authenticationradiusaction#callingstationid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationradiusaction#callingstationid Authenticationradiusaction#callingstationid}
   */
   readonly callingstationid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationradiusaction#defaultauthenticationgroup Authenticationradiusaction#defaultauthenticationgroup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationradiusaction#defaultauthenticationgroup Authenticationradiusaction#defaultauthenticationgroup}
   */
   readonly defaultauthenticationgroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationradiusaction#id Authenticationradiusaction#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationradiusaction#id Authenticationradiusaction#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationradiusaction#ipattributetype Authenticationradiusaction#ipattributetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationradiusaction#ipattributetype Authenticationradiusaction#ipattributetype}
   */
   readonly ipattributetype?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationradiusaction#ipvendorid Authenticationradiusaction#ipvendorid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationradiusaction#ipvendorid Authenticationradiusaction#ipvendorid}
   */
   readonly ipvendorid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationradiusaction#name Authenticationradiusaction#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationradiusaction#messageauthenticator Authenticationradiusaction#messageauthenticator}
+  */
+  readonly messageauthenticator?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationradiusaction#name Authenticationradiusaction#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationradiusaction#passencoding Authenticationradiusaction#passencoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationradiusaction#passencoding Authenticationradiusaction#passencoding}
   */
   readonly passencoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationradiusaction#pwdattributetype Authenticationradiusaction#pwdattributetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationradiusaction#pwdattributetype Authenticationradiusaction#pwdattributetype}
   */
   readonly pwdattributetype?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationradiusaction#pwdvendorid Authenticationradiusaction#pwdvendorid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationradiusaction#pwdvendorid Authenticationradiusaction#pwdvendorid}
   */
   readonly pwdvendorid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationradiusaction#radattributetype Authenticationradiusaction#radattributetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationradiusaction#radattributetype Authenticationradiusaction#radattributetype}
   */
   readonly radattributetype?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationradiusaction#radgroupseparator Authenticationradiusaction#radgroupseparator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationradiusaction#radgroupseparator Authenticationradiusaction#radgroupseparator}
   */
   readonly radgroupseparator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationradiusaction#radgroupsprefix Authenticationradiusaction#radgroupsprefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationradiusaction#radgroupsprefix Authenticationradiusaction#radgroupsprefix}
   */
   readonly radgroupsprefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationradiusaction#radkey Authenticationradiusaction#radkey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationradiusaction#radkey Authenticationradiusaction#radkey}
   */
   readonly radkey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationradiusaction#radnasid Authenticationradiusaction#radnasid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationradiusaction#radnasid Authenticationradiusaction#radnasid}
   */
   readonly radnasid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationradiusaction#radnasip Authenticationradiusaction#radnasip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationradiusaction#radnasip Authenticationradiusaction#radnasip}
   */
   readonly radnasip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationradiusaction#radvendorid Authenticationradiusaction#radvendorid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationradiusaction#radvendorid Authenticationradiusaction#radvendorid}
   */
   readonly radvendorid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationradiusaction#serverip Authenticationradiusaction#serverip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationradiusaction#serverip Authenticationradiusaction#serverip}
   */
   readonly serverip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationradiusaction#servername Authenticationradiusaction#servername}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationradiusaction#servername Authenticationradiusaction#servername}
   */
   readonly servername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationradiusaction#serverport Authenticationradiusaction#serverport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationradiusaction#serverport Authenticationradiusaction#serverport}
   */
   readonly serverport?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationradiusaction#tunnelendpointclientip Authenticationradiusaction#tunnelendpointclientip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationradiusaction#targetlbvserver Authenticationradiusaction#targetlbvserver}
+  */
+  readonly targetlbvserver?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationradiusaction#transport Authenticationradiusaction#transport}
+  */
+  readonly transport?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationradiusaction#tunnelendpointclientip Authenticationradiusaction#tunnelendpointclientip}
   */
   readonly tunnelendpointclientip?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationradiusaction citrixadc_authenticationradiusaction}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationradiusaction citrixadc_authenticationradiusaction}
 */
 export class Authenticationradiusaction extends cdktf.TerraformResource {
 
@@ -125,7 +137,7 @@ export class Authenticationradiusaction extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Authenticationradiusaction resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Authenticationradiusaction to import
-  * @param importFromId The id of the existing Authenticationradiusaction that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationradiusaction#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Authenticationradiusaction that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationradiusaction#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Authenticationradiusaction to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -137,7 +149,7 @@ export class Authenticationradiusaction extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationradiusaction citrixadc_authenticationradiusaction} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationradiusaction citrixadc_authenticationradiusaction} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -148,7 +160,8 @@ export class Authenticationradiusaction extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_authenticationradiusaction',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -167,6 +180,7 @@ export class Authenticationradiusaction extends cdktf.TerraformResource {
     this._id = config.id;
     this._ipattributetype = config.ipattributetype;
     this._ipvendorid = config.ipvendorid;
+    this._messageauthenticator = config.messageauthenticator;
     this._name = config.name;
     this._passencoding = config.passencoding;
     this._pwdattributetype = config.pwdattributetype;
@@ -181,6 +195,8 @@ export class Authenticationradiusaction extends cdktf.TerraformResource {
     this._serverip = config.serverip;
     this._servername = config.servername;
     this._serverport = config.serverport;
+    this._targetlbvserver = config.targetlbvserver;
+    this._transport = config.transport;
     this._tunnelendpointclientip = config.tunnelendpointclientip;
   }
 
@@ -330,6 +346,22 @@ export class Authenticationradiusaction extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get ipvendoridInput() {
     return this._ipvendorid;
+  }
+
+  // messageauthenticator - computed: true, optional: true, required: false
+  private _messageauthenticator?: string; 
+  public get messageauthenticator() {
+    return this.getStringAttribute('messageauthenticator');
+  }
+  public set messageauthenticator(value: string) {
+    this._messageauthenticator = value;
+  }
+  public resetMessageauthenticator() {
+    this._messageauthenticator = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get messageauthenticatorInput() {
+    return this._messageauthenticator;
   }
 
   // name - computed: false, optional: false, required: true
@@ -550,6 +582,38 @@ export class Authenticationradiusaction extends cdktf.TerraformResource {
     return this._serverport;
   }
 
+  // targetlbvserver - computed: true, optional: true, required: false
+  private _targetlbvserver?: string; 
+  public get targetlbvserver() {
+    return this.getStringAttribute('targetlbvserver');
+  }
+  public set targetlbvserver(value: string) {
+    this._targetlbvserver = value;
+  }
+  public resetTargetlbvserver() {
+    this._targetlbvserver = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get targetlbvserverInput() {
+    return this._targetlbvserver;
+  }
+
+  // transport - computed: true, optional: true, required: false
+  private _transport?: string; 
+  public get transport() {
+    return this.getStringAttribute('transport');
+  }
+  public set transport(value: string) {
+    this._transport = value;
+  }
+  public resetTransport() {
+    this._transport = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get transportInput() {
+    return this._transport;
+  }
+
   // tunnelendpointclientip - computed: true, optional: true, required: false
   private _tunnelendpointclientip?: string; 
   public get tunnelendpointclientip() {
@@ -581,6 +645,7 @@ export class Authenticationradiusaction extends cdktf.TerraformResource {
       id: cdktf.stringToTerraform(this._id),
       ipattributetype: cdktf.numberToTerraform(this._ipattributetype),
       ipvendorid: cdktf.numberToTerraform(this._ipvendorid),
+      messageauthenticator: cdktf.stringToTerraform(this._messageauthenticator),
       name: cdktf.stringToTerraform(this._name),
       passencoding: cdktf.stringToTerraform(this._passencoding),
       pwdattributetype: cdktf.numberToTerraform(this._pwdattributetype),
@@ -595,6 +660,8 @@ export class Authenticationradiusaction extends cdktf.TerraformResource {
       serverip: cdktf.stringToTerraform(this._serverip),
       servername: cdktf.stringToTerraform(this._servername),
       serverport: cdktf.numberToTerraform(this._serverport),
+      targetlbvserver: cdktf.stringToTerraform(this._targetlbvserver),
+      transport: cdktf.stringToTerraform(this._transport),
       tunnelendpointclientip: cdktf.stringToTerraform(this._tunnelendpointclientip),
     };
   }
@@ -654,6 +721,12 @@ export class Authenticationradiusaction extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "number",
+      },
+      messageauthenticator: {
+        value: cdktf.stringToHclTerraform(this._messageauthenticator),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
       name: {
         value: cdktf.stringToHclTerraform(this._name),
@@ -738,6 +811,18 @@ export class Authenticationradiusaction extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "number",
+      },
+      targetlbvserver: {
+        value: cdktf.stringToHclTerraform(this._targetlbvserver),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      transport: {
+        value: cdktf.stringToHclTerraform(this._transport),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
       tunnelendpointclientip: {
         value: cdktf.stringToHclTerraform(this._tunnelendpointclientip),

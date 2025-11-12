@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/firewall
+// https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/firewall
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface FirewallConfig extends cdktf.TerraformMetaArguments {
   /**
   * If true, the Firewall is inactive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/firewall#disabled Firewall#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/firewall#disabled Firewall#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * The default behavior for inbound traffic. This setting can be overridden by updating the inbound.action property for an individual Firewall Rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/firewall#inbound_policy Firewall#inbound_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/firewall#inbound_policy Firewall#inbound_policy}
   */
   readonly inboundPolicy: string;
   /**
   * The IDs of Linode interfaces to apply this firewall to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/firewall#interfaces Firewall#interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/firewall#interfaces Firewall#interfaces}
   */
   readonly interfaces?: number[];
   /**
   * The label for the Firewall. For display purposes only. If no label is provided, a default will be assigned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/firewall#label Firewall#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/firewall#label Firewall#label}
   */
   readonly label: string;
   /**
   * The IDs of Linodes to apply this firewall to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/firewall#linodes Firewall#linodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/firewall#linodes Firewall#linodes}
   */
   readonly linodes?: number[];
   /**
   * The IDs of NodeBalancers to apply this firewall to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/firewall#nodebalancers Firewall#nodebalancers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/firewall#nodebalancers Firewall#nodebalancers}
   */
   readonly nodebalancers?: number[];
   /**
   * The default behavior for outbound traffic. This setting can be overridden by updating the outbound.action property for an individual Firewall Rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/firewall#outbound_policy Firewall#outbound_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/firewall#outbound_policy Firewall#outbound_policy}
   */
   readonly outboundPolicy: string;
   /**
   * An array of tags applied to the firewall. Tags are for organizational purposes only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/firewall#tags Firewall#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/firewall#tags Firewall#tags}
   */
   readonly tags?: string[];
   /**
   * inbound block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/firewall#inbound Firewall#inbound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/firewall#inbound Firewall#inbound}
   */
   readonly inbound?: FirewallInbound[] | cdktf.IResolvable;
   /**
   * outbound block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/firewall#outbound Firewall#outbound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/firewall#outbound Firewall#outbound}
   */
   readonly outbound?: FirewallOutbound[] | cdktf.IResolvable;
 }
@@ -167,43 +167,43 @@ export interface FirewallInbound {
   /**
   * Controls whether traffic is accepted or dropped by this rule. Overrides the Firewall's inbound_policy if this is an inbound rule, or the outbound_policy if this is an outbound rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/firewall#action Firewall#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/firewall#action Firewall#action}
   */
   readonly action: string;
   /**
   * Used to describe this rule. For display purposes only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/firewall#description Firewall#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/firewall#description Firewall#description}
   */
   readonly description?: string;
   /**
   * A list of CIDR blocks or 0.0.0.0/0 (to allow all) this rule applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/firewall#ipv4 Firewall#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/firewall#ipv4 Firewall#ipv4}
   */
   readonly ipv4?: string[];
   /**
   * A list of IPv6 addresses or networks this rule applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/firewall#ipv6 Firewall#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/firewall#ipv6 Firewall#ipv6}
   */
   readonly ipv6?: string[];
   /**
   * Used to identify this rule. For display purposes only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/firewall#label Firewall#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/firewall#label Firewall#label}
   */
   readonly label: string;
   /**
   * A string representation of ports and/or port ranges (i.e. "443" or "80-90, 91").
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/firewall#ports Firewall#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/firewall#ports Firewall#ports}
   */
   readonly ports?: string;
   /**
   * The network protocol this rule controls.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/firewall#protocol Firewall#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/firewall#protocol Firewall#protocol}
   */
   readonly protocol: string;
 }
@@ -486,43 +486,43 @@ export interface FirewallOutbound {
   /**
   * Controls whether traffic is accepted or dropped by this rule. Overrides the Firewall's inbound_policy if this is an inbound rule, or the outbound_policy if this is an outbound rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/firewall#action Firewall#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/firewall#action Firewall#action}
   */
   readonly action: string;
   /**
   * Used to describe this rule. For display purposes only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/firewall#description Firewall#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/firewall#description Firewall#description}
   */
   readonly description?: string;
   /**
   * A list of CIDR blocks or 0.0.0.0/0 (to allow all) this rule applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/firewall#ipv4 Firewall#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/firewall#ipv4 Firewall#ipv4}
   */
   readonly ipv4?: string[];
   /**
   * A list of IPv6 addresses or networks this rule applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/firewall#ipv6 Firewall#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/firewall#ipv6 Firewall#ipv6}
   */
   readonly ipv6?: string[];
   /**
   * Used to identify this rule. For display purposes only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/firewall#label Firewall#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/firewall#label Firewall#label}
   */
   readonly label: string;
   /**
   * A string representation of ports and/or port ranges (i.e. "443" or "80-90, 91").
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/firewall#ports Firewall#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/firewall#ports Firewall#ports}
   */
   readonly ports?: string;
   /**
   * The network protocol this rule controls.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/firewall#protocol Firewall#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/firewall#protocol Firewall#protocol}
   */
   readonly protocol: string;
 }
@@ -803,7 +803,7 @@ export class FirewallOutboundList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/firewall linode_firewall}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/firewall linode_firewall}
 */
 export class Firewall extends cdktf.TerraformResource {
 
@@ -819,7 +819,7 @@ export class Firewall extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Firewall resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Firewall to import
-  * @param importFromId The id of the existing Firewall that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/firewall#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Firewall that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/firewall#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Firewall to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -831,7 +831,7 @@ export class Firewall extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/firewall linode_firewall} Resource
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/firewall linode_firewall} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -842,7 +842,8 @@ export class Firewall extends cdktf.TerraformResource {
       terraformResourceType: 'linode_firewall',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.5.0'
+        providerVersion: '3.5.1',
+        providerVersionConstraint: '3.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

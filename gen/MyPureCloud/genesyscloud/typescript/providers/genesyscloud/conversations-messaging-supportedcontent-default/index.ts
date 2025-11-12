@@ -62,7 +62,8 @@ export class ConversationsMessagingSupportedcontentDefault extends cdktf.Terrafo
       terraformResourceType: 'genesyscloud_conversations_messaging_supportedcontent_default',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.70.0'
+        providerVersion: '1.70.0',
+        providerVersionConstraint: '1.70.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -163,7 +163,8 @@ export class DataAlicloudBssOpenApiProducts extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_bss_open_api_products',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

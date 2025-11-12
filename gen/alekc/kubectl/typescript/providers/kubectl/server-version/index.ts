@@ -60,7 +60,8 @@ export class ServerVersion extends cdktf.TerraformResource {
       terraformResourceType: 'kubectl_server_version',
       terraformGeneratorMetadata: {
         providerName: 'kubectl',
-        providerVersion: '2.1.3'
+        providerVersion: '2.1.3',
+        providerVersionConstraint: '2.1.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

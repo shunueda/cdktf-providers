@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint
+// https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,85 +10,85 @@ export interface PortBlueprintConfig extends cdktf.TerraformMetaArguments {
   /**
   * The calculation properties of the blueprint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#calculation_properties PortBlueprint#calculation_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#calculation_properties PortBlueprint#calculation_properties}
   */
   readonly calculationProperties?: { [key: string]: PortBlueprintCalculationProperties } | cdktf.IResolvable;
   /**
   * This flag is only relevant for blueprint creation, by default if not set, a catalog page will be created for the blueprint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#create_catalog_page PortBlueprint#create_catalog_page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#create_catalog_page PortBlueprint#create_catalog_page}
   */
   readonly createCatalogPage?: boolean | cdktf.IResolvable;
   /**
   * The description of the blueprint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#description PortBlueprint#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#description PortBlueprint#description}
   */
   readonly description?: string;
   /**
   * If set to true, the blueprint will be deleted with all its entities, even if they are not managed by Terraform
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#force_delete_entities PortBlueprint#force_delete_entities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#force_delete_entities PortBlueprint#force_delete_entities}
   */
   readonly forceDeleteEntities?: boolean | cdktf.IResolvable;
   /**
   * The icon of the blueprint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#icon PortBlueprint#icon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#icon PortBlueprint#icon}
   */
   readonly icon?: string;
   /**
   * The identifier of the blueprint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#identifier PortBlueprint#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#identifier PortBlueprint#identifier}
   */
   readonly identifier: string;
   /**
   * The changelog destination of the blueprint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#kafka_changelog_destination PortBlueprint#kafka_changelog_destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#kafka_changelog_destination PortBlueprint#kafka_changelog_destination}
   */
   readonly kafkaChangelogDestination?: PortBlueprintKafkaChangelogDestination;
   /**
   * The mirror properties of the blueprint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#mirror_properties PortBlueprint#mirror_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#mirror_properties PortBlueprint#mirror_properties}
   */
   readonly mirrorProperties?: { [key: string]: PortBlueprintMirrorProperties } | cdktf.IResolvable;
   /**
   * Optional ownership field for Blueprint. 'type' can be Inherited or Direct. If 'Inherited', then 'path' is required and must be a valid relation identifiers path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#ownership PortBlueprint#ownership}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#ownership PortBlueprint#ownership}
   */
   readonly ownership?: PortBlueprintOwnership;
   /**
   * The properties of the blueprint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#properties PortBlueprint#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#properties PortBlueprint#properties}
   */
   readonly properties?: PortBlueprintProperties;
   /**
   * The relations of the blueprint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#relations PortBlueprint#relations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#relations PortBlueprint#relations}
   */
   readonly relations?: { [key: string]: PortBlueprintRelations } | cdktf.IResolvable;
   /**
   * The team inheritance of the blueprint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#team_inheritance PortBlueprint#team_inheritance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#team_inheritance PortBlueprint#team_inheritance}
   */
   readonly teamInheritance?: PortBlueprintTeamInheritance;
   /**
   * The display name of the blueprint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#title PortBlueprint#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#title PortBlueprint#title}
   */
   readonly title: string;
   /**
   * The webhook changelog destination of the blueprint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#webhook_changelog_destination PortBlueprint#webhook_changelog_destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#webhook_changelog_destination PortBlueprint#webhook_changelog_destination}
   */
   readonly webhookChangelogDestination?: PortBlueprintWebhookChangelogDestination;
 }
@@ -96,19 +96,19 @@ export interface PortBlueprintCalculationPropertiesSpecAuthentication {
   /**
   * The authorizationUrl of the spec authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#authorization_url PortBlueprint#authorization_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#authorization_url PortBlueprint#authorization_url}
   */
   readonly authorizationUrl: string;
   /**
   * The clientId of the spec authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#client_id PortBlueprint#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#client_id PortBlueprint#client_id}
   */
   readonly clientId: string;
   /**
   * The tokenUrl of the spec authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#token_url PortBlueprint#token_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#token_url PortBlueprint#token_url}
   */
   readonly tokenUrl: string;
 }
@@ -253,61 +253,61 @@ export interface PortBlueprintCalculationProperties {
   /**
   * The calculation of the calculation property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#calculation PortBlueprint#calculation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#calculation PortBlueprint#calculation}
   */
   readonly calculation: string;
   /**
   * The colorized of the calculation property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#colorized PortBlueprint#colorized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#colorized PortBlueprint#colorized}
   */
   readonly colorized?: boolean | cdktf.IResolvable;
   /**
   * The colors of the calculation property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#colors PortBlueprint#colors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#colors PortBlueprint#colors}
   */
   readonly colors?: { [key: string]: string };
   /**
   * The description of the calculation property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#description PortBlueprint#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#description PortBlueprint#description}
   */
   readonly description?: string;
   /**
   * The format of the calculation property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#format PortBlueprint#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#format PortBlueprint#format}
   */
   readonly format?: string;
   /**
   * The icon of the calculation property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#icon PortBlueprint#icon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#icon PortBlueprint#icon}
   */
   readonly icon?: string;
   /**
   * The spec of the calculation property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#spec PortBlueprint#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#spec PortBlueprint#spec}
   */
   readonly spec?: string;
   /**
   * The spec authentication of the calculation property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#spec_authentication PortBlueprint#spec_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#spec_authentication PortBlueprint#spec_authentication}
   */
   readonly specAuthentication?: PortBlueprintCalculationPropertiesSpecAuthentication;
   /**
   * The title of the calculation property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#title PortBlueprint#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#title PortBlueprint#title}
   */
   readonly title?: string;
   /**
   * The type of the calculation property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#type PortBlueprint#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#type PortBlueprint#type}
   */
   readonly type: string;
 }
@@ -737,13 +737,13 @@ export interface PortBlueprintMirrorProperties {
   /**
   * The path of the mirror property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#path PortBlueprint#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#path PortBlueprint#path}
   */
   readonly path: string;
   /**
   * The title of the mirror property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#title PortBlueprint#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#title PortBlueprint#title}
   */
   readonly title?: string;
 }
@@ -885,19 +885,19 @@ export interface PortBlueprintOwnership {
   /**
   * Path for the Inherited ownership type. Required when type is 'Inherited'. Must be a valid relation identifiers path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#path PortBlueprint#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#path PortBlueprint#path}
   */
   readonly path?: string;
   /**
   * Optional title for the owning teams property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#title PortBlueprint#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#title PortBlueprint#title}
   */
   readonly title?: string;
   /**
   * Ownership type: either 'Inherited' or 'Direct'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#type PortBlueprint#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#type PortBlueprint#type}
   */
   readonly type: string;
 }
@@ -1048,7 +1048,7 @@ export interface PortBlueprintPropertiesArrayPropsBooleanItems {
   /**
   * The default of the items
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#default PortBlueprint#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#default PortBlueprint#default}
   */
   readonly default?: Array<boolean | cdktf.IResolvable> | cdktf.IResolvable;
 }
@@ -1144,7 +1144,7 @@ export interface PortBlueprintPropertiesArrayPropsNumberItems {
   /**
   * The default of the items
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#default PortBlueprint#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#default PortBlueprint#default}
   */
   readonly default?: number[];
 }
@@ -1240,7 +1240,7 @@ export interface PortBlueprintPropertiesArrayPropsObjectItems {
   /**
   * The default of the items
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#default PortBlueprint#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#default PortBlueprint#default}
   */
   readonly default?: string[];
 }
@@ -1336,31 +1336,31 @@ export interface PortBlueprintPropertiesArrayPropsStringItems {
   /**
   * The default of the items
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#default PortBlueprint#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#default PortBlueprint#default}
   */
   readonly default?: string[];
   /**
   * The enum of the string array items
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#enum PortBlueprint#enum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#enum PortBlueprint#enum}
   */
   readonly enum?: string[];
   /**
   * The enum colors of the string array items
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#enum_colors PortBlueprint#enum_colors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#enum_colors PortBlueprint#enum_colors}
   */
   readonly enumColors?: { [key: string]: string };
   /**
   * The format of the items
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#format PortBlueprint#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#format PortBlueprint#format}
   */
   readonly format?: string;
   /**
   * The pattern of the string array items
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#pattern PortBlueprint#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#pattern PortBlueprint#pattern}
   */
   readonly pattern?: string;
 }
@@ -1572,61 +1572,61 @@ export interface PortBlueprintPropertiesArrayProps {
   /**
   * The items of the array property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#boolean_items PortBlueprint#boolean_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#boolean_items PortBlueprint#boolean_items}
   */
   readonly booleanItems?: PortBlueprintPropertiesArrayPropsBooleanItems;
   /**
   * The description of the property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#description PortBlueprint#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#description PortBlueprint#description}
   */
   readonly description?: string;
   /**
   * The icon of the property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#icon PortBlueprint#icon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#icon PortBlueprint#icon}
   */
   readonly icon?: string;
   /**
   * The max items of the array property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#max_items PortBlueprint#max_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#max_items PortBlueprint#max_items}
   */
   readonly maxItems?: number;
   /**
   * The min items of the array property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#min_items PortBlueprint#min_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#min_items PortBlueprint#min_items}
   */
   readonly minItems?: number;
   /**
   * The items of the array property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#number_items PortBlueprint#number_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#number_items PortBlueprint#number_items}
   */
   readonly numberItems?: PortBlueprintPropertiesArrayPropsNumberItems;
   /**
   * The items of the array property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#object_items PortBlueprint#object_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#object_items PortBlueprint#object_items}
   */
   readonly objectItems?: PortBlueprintPropertiesArrayPropsObjectItems;
   /**
   * Whether the property is required
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#required PortBlueprint#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#required PortBlueprint#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * The items of the array property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#string_items PortBlueprint#string_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#string_items PortBlueprint#string_items}
   */
   readonly stringItems?: PortBlueprintPropertiesArrayPropsStringItems;
   /**
   * The title of the property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#title PortBlueprint#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#title PortBlueprint#title}
   */
   readonly title?: string;
 }
@@ -2003,31 +2003,31 @@ export interface PortBlueprintPropertiesBooleanProps {
   /**
   * The default of the boolean property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#default PortBlueprint#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#default PortBlueprint#default}
   */
   readonly default?: boolean | cdktf.IResolvable;
   /**
   * The description of the property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#description PortBlueprint#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#description PortBlueprint#description}
   */
   readonly description?: string;
   /**
   * The icon of the property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#icon PortBlueprint#icon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#icon PortBlueprint#icon}
   */
   readonly icon?: string;
   /**
   * Whether the property is required
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#required PortBlueprint#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#required PortBlueprint#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * The title of the property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#title PortBlueprint#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#title PortBlueprint#title}
   */
   readonly title?: string;
 }
@@ -2259,55 +2259,55 @@ export interface PortBlueprintPropertiesNumberProps {
   /**
   * The default of the number property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#default PortBlueprint#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#default PortBlueprint#default}
   */
   readonly default?: number;
   /**
   * The description of the property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#description PortBlueprint#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#description PortBlueprint#description}
   */
   readonly description?: string;
   /**
   * The enum of the number property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#enum PortBlueprint#enum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#enum PortBlueprint#enum}
   */
   readonly enum?: number[];
   /**
   * The enum colors of the number property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#enum_colors PortBlueprint#enum_colors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#enum_colors PortBlueprint#enum_colors}
   */
   readonly enumColors?: { [key: string]: string };
   /**
   * The icon of the property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#icon PortBlueprint#icon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#icon PortBlueprint#icon}
   */
   readonly icon?: string;
   /**
   * The min of the number property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#maximum PortBlueprint#maximum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#maximum PortBlueprint#maximum}
   */
   readonly maximum?: number;
   /**
   * The max of the number property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#minimum PortBlueprint#minimum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#minimum PortBlueprint#minimum}
   */
   readonly minimum?: number;
   /**
   * Whether the property is required
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#required PortBlueprint#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#required PortBlueprint#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * The title of the property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#title PortBlueprint#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#title PortBlueprint#title}
   */
   readonly title?: string;
 }
@@ -2655,37 +2655,37 @@ export interface PortBlueprintPropertiesObjectProps {
   /**
   * The default of the object property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#default PortBlueprint#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#default PortBlueprint#default}
   */
   readonly default?: string;
   /**
   * The description of the property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#description PortBlueprint#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#description PortBlueprint#description}
   */
   readonly description?: string;
   /**
   * The icon of the property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#icon PortBlueprint#icon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#icon PortBlueprint#icon}
   */
   readonly icon?: string;
   /**
   * Whether the property is required
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#required PortBlueprint#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#required PortBlueprint#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * The spec of the object property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#spec PortBlueprint#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#spec PortBlueprint#spec}
   */
   readonly spec?: string;
   /**
   * The title of the property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#title PortBlueprint#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#title PortBlueprint#title}
   */
   readonly title?: string;
 }
@@ -2946,19 +2946,19 @@ export interface PortBlueprintPropertiesStringPropsSpecAuthentication {
   /**
   * The authorizationUrl of the spec authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#authorization_url PortBlueprint#authorization_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#authorization_url PortBlueprint#authorization_url}
   */
   readonly authorizationUrl: string;
   /**
   * The clientId of the spec authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#client_id PortBlueprint#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#client_id PortBlueprint#client_id}
   */
   readonly clientId: string;
   /**
   * The tokenUrl of the spec authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#token_url PortBlueprint#token_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#token_url PortBlueprint#token_url}
   */
   readonly tokenUrl: string;
 }
@@ -3103,79 +3103,79 @@ export interface PortBlueprintPropertiesStringProps {
   /**
   * The default of the string property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#default PortBlueprint#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#default PortBlueprint#default}
   */
   readonly default?: string;
   /**
   * The description of the property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#description PortBlueprint#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#description PortBlueprint#description}
   */
   readonly description?: string;
   /**
   * The enum of the string property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#enum PortBlueprint#enum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#enum PortBlueprint#enum}
   */
   readonly enum?: string[];
   /**
   * The enum colors of the string property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#enum_colors PortBlueprint#enum_colors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#enum_colors PortBlueprint#enum_colors}
   */
   readonly enumColors?: { [key: string]: string };
   /**
   * The format of the string property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#format PortBlueprint#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#format PortBlueprint#format}
   */
   readonly format?: string;
   /**
   * The icon of the property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#icon PortBlueprint#icon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#icon PortBlueprint#icon}
   */
   readonly icon?: string;
   /**
   * The max length of the string property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#max_length PortBlueprint#max_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#max_length PortBlueprint#max_length}
   */
   readonly maxLength?: number;
   /**
   * The min length of the string property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#min_length PortBlueprint#min_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#min_length PortBlueprint#min_length}
   */
   readonly minLength?: number;
   /**
   * The pattern of the string property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#pattern PortBlueprint#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#pattern PortBlueprint#pattern}
   */
   readonly pattern?: string;
   /**
   * Whether the property is required
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#required PortBlueprint#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#required PortBlueprint#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * The spec of the string property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#spec PortBlueprint#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#spec PortBlueprint#spec}
   */
   readonly spec?: string;
   /**
   * The spec authentication of the string property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#spec_authentication PortBlueprint#spec_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#spec_authentication PortBlueprint#spec_authentication}
   */
   readonly specAuthentication?: PortBlueprintPropertiesStringPropsSpecAuthentication;
   /**
   * The title of the property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#title PortBlueprint#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#title PortBlueprint#title}
   */
   readonly title?: string;
 }
@@ -3639,31 +3639,31 @@ export interface PortBlueprintProperties {
   /**
   * The array property of the blueprint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#array_props PortBlueprint#array_props}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#array_props PortBlueprint#array_props}
   */
   readonly arrayProps?: { [key: string]: PortBlueprintPropertiesArrayProps } | cdktf.IResolvable;
   /**
   * The boolean property of the blueprint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#boolean_props PortBlueprint#boolean_props}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#boolean_props PortBlueprint#boolean_props}
   */
   readonly booleanProps?: { [key: string]: PortBlueprintPropertiesBooleanProps } | cdktf.IResolvable;
   /**
   * The number property of the blueprint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#number_props PortBlueprint#number_props}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#number_props PortBlueprint#number_props}
   */
   readonly numberProps?: { [key: string]: PortBlueprintPropertiesNumberProps } | cdktf.IResolvable;
   /**
   * The object property of the blueprint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#object_props PortBlueprint#object_props}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#object_props PortBlueprint#object_props}
   */
   readonly objectProps?: { [key: string]: PortBlueprintPropertiesObjectProps } | cdktf.IResolvable;
   /**
   * The string property of the blueprint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#string_props PortBlueprint#string_props}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#string_props PortBlueprint#string_props}
   */
   readonly stringProps?: { [key: string]: PortBlueprintPropertiesStringProps } | cdktf.IResolvable;
 }
@@ -3875,31 +3875,31 @@ export interface PortBlueprintRelations {
   /**
   * The description of the relation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#description PortBlueprint#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#description PortBlueprint#description}
   */
   readonly description?: string;
   /**
   * The many of the relation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#many PortBlueprint#many}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#many PortBlueprint#many}
   */
   readonly many?: boolean | cdktf.IResolvable;
   /**
   * The required of the relation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#required PortBlueprint#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#required PortBlueprint#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * The target of the relation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#target PortBlueprint#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#target PortBlueprint#target}
   */
   readonly target: string;
   /**
   * The title of the relation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#title PortBlueprint#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#title PortBlueprint#title}
   */
   readonly title?: string;
 }
@@ -4128,7 +4128,7 @@ export interface PortBlueprintTeamInheritance {
   /**
   * The path of the team inheritance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#path PortBlueprint#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#path PortBlueprint#path}
   */
   readonly path: string;
 }
@@ -4221,13 +4221,13 @@ export interface PortBlueprintWebhookChangelogDestination {
   /**
   * The agent of the webhook changelog destination
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#agent PortBlueprint#agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#agent PortBlueprint#agent}
   */
   readonly agent?: boolean | cdktf.IResolvable;
   /**
   * The url of the webhook changelog destination
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#url PortBlueprint#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#url PortBlueprint#url}
   */
   readonly url: string;
 }
@@ -4347,7 +4347,7 @@ export class PortBlueprintWebhookChangelogDestinationOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint port_blueprint}
+* Represents a {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint port_blueprint}
 */
 export class PortBlueprint extends cdktf.TerraformResource {
 
@@ -4363,7 +4363,7 @@ export class PortBlueprint extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PortBlueprint resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PortBlueprint to import
-  * @param importFromId The id of the existing PortBlueprint that should be imported. Refer to the {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PortBlueprint that should be imported. Refer to the {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PortBlueprint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4375,7 +4375,7 @@ export class PortBlueprint extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/port-labs/port-labs/2.14.4/docs/resources/port_blueprint port_blueprint} Resource
+  * Create a new {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/resources/port_blueprint port_blueprint} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4386,7 +4386,8 @@ export class PortBlueprint extends cdktf.TerraformResource {
       terraformResourceType: 'port_blueprint',
       terraformGeneratorMetadata: {
         providerName: 'port-labs',
-        providerVersion: '2.14.4'
+        providerVersion: '2.15.0',
+        providerVersionConstraint: '2.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

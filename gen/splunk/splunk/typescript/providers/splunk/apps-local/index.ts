@@ -570,7 +570,8 @@ export class AppsLocal extends cdktf.TerraformResource {
       terraformResourceType: 'splunk_apps_local',
       terraformGeneratorMetadata: {
         providerName: 'splunk',
-        providerVersion: '1.4.32'
+        providerVersion: '1.4.32',
+        providerVersionConstraint: '1.4.32'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -335,7 +335,8 @@ export class DataBloxoneKeysTsigs extends cdktf.TerraformDataSource {
       terraformResourceType: 'bloxone_keys_tsigs',
       terraformGeneratorMetadata: {
         providerName: 'bloxone',
-        providerVersion: '1.5.3'
+        providerVersion: '1.5.3',
+        providerVersionConstraint: '1.5.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

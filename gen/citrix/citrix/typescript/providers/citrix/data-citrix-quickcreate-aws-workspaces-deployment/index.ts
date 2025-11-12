@@ -70,7 +70,8 @@ export class DataCitrixQuickcreateAwsWorkspacesDeployment extends cdktf.Terrafor
       terraformResourceType: 'citrix_quickcreate_aws_workspaces_deployment',
       terraformGeneratorMetadata: {
         providerName: 'citrix',
-        providerVersion: '1.0.30'
+        providerVersion: '1.0.30',
+        providerVersionConstraint: '1.0.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

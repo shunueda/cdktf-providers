@@ -152,7 +152,8 @@ export class SshCertificate extends cdktf.TerraformResource {
       terraformResourceType: 'venafi_ssh_certificate',
       terraformGeneratorMetadata: {
         providerName: 'venafi',
-        providerVersion: '0.23.1'
+        providerVersion: '0.23.1',
+        providerVersionConstraint: '0.23.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

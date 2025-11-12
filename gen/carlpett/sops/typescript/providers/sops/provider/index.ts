@@ -55,7 +55,8 @@ export class SopsProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'sops',
       terraformGeneratorMetadata: {
         providerName: 'sops',
-        providerVersion: '1.3.0'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       terraformProviderSource: 'carlpett/sops'
     });

@@ -64,7 +64,8 @@ export class DataOctopusdeployServiceAccountOidcIdentity extends cdktf.Terraform
       terraformResourceType: 'octopusdeploy_service_account_oidc_identity',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '0.43.2'
+        providerVersion: '0.43.2',
+        providerVersionConstraint: '0.43.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

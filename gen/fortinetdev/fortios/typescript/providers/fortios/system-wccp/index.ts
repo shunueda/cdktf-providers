@@ -152,7 +152,8 @@ export class SystemWccp extends cdktf.TerraformResource {
       terraformResourceType: 'fortios_system_wccp',
       terraformGeneratorMetadata: {
         providerName: 'fortios',
-        providerVersion: '1.23.0'
+        providerVersion: '1.23.0',
+        providerVersionConstraint: '1.23.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

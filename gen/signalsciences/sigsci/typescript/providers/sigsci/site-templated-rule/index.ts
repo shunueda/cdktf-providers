@@ -687,7 +687,8 @@ export class SiteTemplatedRule extends cdktf.TerraformResource {
       terraformResourceType: 'sigsci_site_templated_rule',
       terraformGeneratorMetadata: {
         providerName: 'sigsci',
-        providerVersion: '3.7.1'
+        providerVersion: '3.7.1',
+        providerVersionConstraint: '3.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -228,7 +228,8 @@ export class DataAstraUsers extends cdktf.TerraformDataSource {
       terraformResourceType: 'astra_users',
       terraformGeneratorMetadata: {
         providerName: 'astra',
-        providerVersion: '2.3.18'
+        providerVersion: '2.3.18',
+        providerVersionConstraint: '2.3.18'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -98,7 +98,8 @@ export class TelephonyProvidersEdgesSiteOutboundRoute extends cdktf.TerraformRes
       terraformResourceType: 'genesyscloud_telephony_providers_edges_site_outbound_route',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.70.0'
+        providerVersion: '1.70.0',
+        providerVersionConstraint: '1.70.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

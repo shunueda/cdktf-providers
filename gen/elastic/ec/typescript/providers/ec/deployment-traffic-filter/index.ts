@@ -313,7 +313,8 @@ export class DeploymentTrafficFilter extends cdktf.TerraformResource {
       terraformResourceType: 'ec_deployment_traffic_filter',
       terraformGeneratorMetadata: {
         providerName: 'ec',
-        providerVersion: '0.12.2'
+        providerVersion: '0.12.2',
+        providerVersionConstraint: '0.12.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

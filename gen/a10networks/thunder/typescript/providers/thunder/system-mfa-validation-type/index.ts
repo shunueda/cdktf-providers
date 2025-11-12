@@ -68,7 +68,8 @@ export class SystemMfaValidationTypeA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_system_mfa_validation_type',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

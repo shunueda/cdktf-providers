@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloudwatch_source
+// https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloudwatch_source
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,180 +8,180 @@ import * as cdktf from 'cdktf';
 
 export interface CloudwatchSourceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloudwatch_source#automatic_date_parsing CloudwatchSource#automatic_date_parsing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloudwatch_source#automatic_date_parsing CloudwatchSource#automatic_date_parsing}
   */
   readonly automaticDateParsing?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloudwatch_source#category CloudwatchSource#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloudwatch_source#category CloudwatchSource#category}
   */
   readonly category?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloudwatch_source#collector_id CloudwatchSource#collector_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloudwatch_source#collector_id CloudwatchSource#collector_id}
   */
   readonly collectorId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloudwatch_source#content_type CloudwatchSource#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloudwatch_source#content_type CloudwatchSource#content_type}
   */
   readonly contentType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloudwatch_source#cutoff_relative_time CloudwatchSource#cutoff_relative_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloudwatch_source#cutoff_relative_time CloudwatchSource#cutoff_relative_time}
   */
   readonly cutoffRelativeTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloudwatch_source#cutoff_timestamp CloudwatchSource#cutoff_timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloudwatch_source#cutoff_timestamp CloudwatchSource#cutoff_timestamp}
   */
   readonly cutoffTimestamp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloudwatch_source#description CloudwatchSource#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloudwatch_source#description CloudwatchSource#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloudwatch_source#fields CloudwatchSource#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloudwatch_source#fields CloudwatchSource#fields}
   */
   readonly fields?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloudwatch_source#force_timezone CloudwatchSource#force_timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloudwatch_source#force_timezone CloudwatchSource#force_timezone}
   */
   readonly forceTimezone?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloudwatch_source#hash_algorithm CloudwatchSource#hash_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloudwatch_source#hash_algorithm CloudwatchSource#hash_algorithm}
   */
   readonly hashAlgorithm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloudwatch_source#host_name CloudwatchSource#host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloudwatch_source#host_name CloudwatchSource#host_name}
   */
   readonly hostName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloudwatch_source#id CloudwatchSource#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloudwatch_source#id CloudwatchSource#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloudwatch_source#manual_prefix_regexp CloudwatchSource#manual_prefix_regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloudwatch_source#manual_prefix_regexp CloudwatchSource#manual_prefix_regexp}
   */
   readonly manualPrefixRegexp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloudwatch_source#multiline_processing_enabled CloudwatchSource#multiline_processing_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloudwatch_source#multiline_processing_enabled CloudwatchSource#multiline_processing_enabled}
   */
   readonly multilineProcessingEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloudwatch_source#name CloudwatchSource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloudwatch_source#name CloudwatchSource#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloudwatch_source#paused CloudwatchSource#paused}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloudwatch_source#paused CloudwatchSource#paused}
   */
   readonly paused?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloudwatch_source#scan_interval CloudwatchSource#scan_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloudwatch_source#scan_interval CloudwatchSource#scan_interval}
   */
   readonly scanInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloudwatch_source#timezone CloudwatchSource#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloudwatch_source#timezone CloudwatchSource#timezone}
   */
   readonly timezone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloudwatch_source#use_autoline_matching CloudwatchSource#use_autoline_matching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloudwatch_source#use_autoline_matching CloudwatchSource#use_autoline_matching}
   */
   readonly useAutolineMatching?: boolean | cdktf.IResolvable;
   /**
   * authentication block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloudwatch_source#authentication CloudwatchSource#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloudwatch_source#authentication CloudwatchSource#authentication}
   */
   readonly authentication: CloudwatchSourceAuthentication;
   /**
   * default_date_formats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloudwatch_source#default_date_formats CloudwatchSource#default_date_formats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloudwatch_source#default_date_formats CloudwatchSource#default_date_formats}
   */
   readonly defaultDateFormats?: CloudwatchSourceDefaultDateFormats[] | cdktf.IResolvable;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloudwatch_source#filters CloudwatchSource#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloudwatch_source#filters CloudwatchSource#filters}
   */
   readonly filters?: CloudwatchSourceFilters[] | cdktf.IResolvable;
   /**
   * path block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloudwatch_source#path CloudwatchSource#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloudwatch_source#path CloudwatchSource#path}
   */
   readonly path: CloudwatchSourcePath;
 }
 export interface CloudwatchSourceAuthentication {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloudwatch_source#access_key CloudwatchSource#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloudwatch_source#access_key CloudwatchSource#access_key}
   */
   readonly accessKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloudwatch_source#auth_provider_x509_cert_url CloudwatchSource#auth_provider_x509_cert_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloudwatch_source#auth_provider_x509_cert_url CloudwatchSource#auth_provider_x509_cert_url}
   */
   readonly authProviderX509CertUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloudwatch_source#auth_uri CloudwatchSource#auth_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloudwatch_source#auth_uri CloudwatchSource#auth_uri}
   */
   readonly authUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloudwatch_source#client_email CloudwatchSource#client_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloudwatch_source#client_email CloudwatchSource#client_email}
   */
   readonly clientEmail?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloudwatch_source#client_id CloudwatchSource#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloudwatch_source#client_id CloudwatchSource#client_id}
   */
   readonly clientId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloudwatch_source#client_secret CloudwatchSource#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloudwatch_source#client_secret CloudwatchSource#client_secret}
   */
   readonly clientSecret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloudwatch_source#client_x509_cert_url CloudwatchSource#client_x509_cert_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloudwatch_source#client_x509_cert_url CloudwatchSource#client_x509_cert_url}
   */
   readonly clientX509CertUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloudwatch_source#private_key CloudwatchSource#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloudwatch_source#private_key CloudwatchSource#private_key}
   */
   readonly privateKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloudwatch_source#private_key_id CloudwatchSource#private_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloudwatch_source#private_key_id CloudwatchSource#private_key_id}
   */
   readonly privateKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloudwatch_source#project_id CloudwatchSource#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloudwatch_source#project_id CloudwatchSource#project_id}
   */
   readonly projectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloudwatch_source#region CloudwatchSource#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloudwatch_source#region CloudwatchSource#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloudwatch_source#role_arn CloudwatchSource#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloudwatch_source#role_arn CloudwatchSource#role_arn}
   */
   readonly roleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloudwatch_source#secret_key CloudwatchSource#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloudwatch_source#secret_key CloudwatchSource#secret_key}
   */
   readonly secretKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloudwatch_source#shared_access_policy_key CloudwatchSource#shared_access_policy_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloudwatch_source#shared_access_policy_key CloudwatchSource#shared_access_policy_key}
   */
   readonly sharedAccessPolicyKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloudwatch_source#shared_access_policy_name CloudwatchSource#shared_access_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloudwatch_source#shared_access_policy_name CloudwatchSource#shared_access_policy_name}
   */
   readonly sharedAccessPolicyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloudwatch_source#tenant_id CloudwatchSource#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloudwatch_source#tenant_id CloudwatchSource#tenant_id}
   */
   readonly tenantId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloudwatch_source#token_uri CloudwatchSource#token_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloudwatch_source#token_uri CloudwatchSource#token_uri}
   */
   readonly tokenUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloudwatch_source#type CloudwatchSource#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloudwatch_source#type CloudwatchSource#type}
   */
   readonly type: string;
 }
@@ -755,11 +755,11 @@ export class CloudwatchSourceAuthenticationOutputReference extends cdktf.Complex
 }
 export interface CloudwatchSourceDefaultDateFormats {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloudwatch_source#format CloudwatchSource#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloudwatch_source#format CloudwatchSource#format}
   */
   readonly format: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloudwatch_source#locator CloudwatchSource#locator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloudwatch_source#locator CloudwatchSource#locator}
   */
   readonly locator?: string;
 }
@@ -901,19 +901,19 @@ export class CloudwatchSourceDefaultDateFormatsList extends cdktf.ComplexList {
 }
 export interface CloudwatchSourceFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloudwatch_source#filter_type CloudwatchSource#filter_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloudwatch_source#filter_type CloudwatchSource#filter_type}
   */
   readonly filterType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloudwatch_source#mask CloudwatchSource#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloudwatch_source#mask CloudwatchSource#mask}
   */
   readonly mask?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloudwatch_source#name CloudwatchSource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloudwatch_source#name CloudwatchSource#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloudwatch_source#regexp CloudwatchSource#regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloudwatch_source#regexp CloudwatchSource#regexp}
   */
   readonly regexp: string;
 }
@@ -1187,11 +1187,11 @@ export class CloudwatchSourcePathSnsTopicOrSubscriptionArnList extends cdktf.Com
 }
 export interface CloudwatchSourcePathAzureTagFiltersTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloudwatch_source#name CloudwatchSource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloudwatch_source#name CloudwatchSource#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloudwatch_source#values CloudwatchSource#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloudwatch_source#values CloudwatchSource#values}
   */
   readonly values?: string[];
 }
@@ -1333,17 +1333,17 @@ export class CloudwatchSourcePathAzureTagFiltersTagsList extends cdktf.ComplexLi
 }
 export interface CloudwatchSourcePathAzureTagFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloudwatch_source#namespace CloudwatchSource#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloudwatch_source#namespace CloudwatchSource#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloudwatch_source#type CloudwatchSource#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloudwatch_source#type CloudwatchSource#type}
   */
   readonly type: string;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloudwatch_source#tags CloudwatchSource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloudwatch_source#tags CloudwatchSource#tags}
   */
   readonly tags?: CloudwatchSourcePathAzureTagFiltersTags[] | cdktf.IResolvable;
 }
@@ -1514,11 +1514,11 @@ export class CloudwatchSourcePathAzureTagFiltersList extends cdktf.ComplexList {
 }
 export interface CloudwatchSourcePathCustomServices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloudwatch_source#prefixes CloudwatchSource#prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloudwatch_source#prefixes CloudwatchSource#prefixes}
   */
   readonly prefixes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloudwatch_source#service_name CloudwatchSource#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloudwatch_source#service_name CloudwatchSource#service_name}
   */
   readonly serviceName?: string;
 }
@@ -1663,15 +1663,15 @@ export class CloudwatchSourcePathCustomServicesList extends cdktf.ComplexList {
 }
 export interface CloudwatchSourcePathTagFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloudwatch_source#namespace CloudwatchSource#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloudwatch_source#namespace CloudwatchSource#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloudwatch_source#tags CloudwatchSource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloudwatch_source#tags CloudwatchSource#tags}
   */
   readonly tags?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloudwatch_source#type CloudwatchSource#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloudwatch_source#type CloudwatchSource#type}
   */
   readonly type?: string;
 }
@@ -1845,69 +1845,69 @@ export class CloudwatchSourcePathTagFiltersList extends cdktf.ComplexList {
 }
 export interface CloudwatchSourcePath {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloudwatch_source#bucket_name CloudwatchSource#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloudwatch_source#bucket_name CloudwatchSource#bucket_name}
   */
   readonly bucketName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloudwatch_source#consumer_group CloudwatchSource#consumer_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloudwatch_source#consumer_group CloudwatchSource#consumer_group}
   */
   readonly consumerGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloudwatch_source#environment CloudwatchSource#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloudwatch_source#environment CloudwatchSource#environment}
   */
   readonly environment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloudwatch_source#event_hub_name CloudwatchSource#event_hub_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloudwatch_source#event_hub_name CloudwatchSource#event_hub_name}
   */
   readonly eventHubName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloudwatch_source#limit_to_namespaces CloudwatchSource#limit_to_namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloudwatch_source#limit_to_namespaces CloudwatchSource#limit_to_namespaces}
   */
   readonly limitToNamespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloudwatch_source#limit_to_regions CloudwatchSource#limit_to_regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloudwatch_source#limit_to_regions CloudwatchSource#limit_to_regions}
   */
   readonly limitToRegions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloudwatch_source#limit_to_services CloudwatchSource#limit_to_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloudwatch_source#limit_to_services CloudwatchSource#limit_to_services}
   */
   readonly limitToServices?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloudwatch_source#namespace CloudwatchSource#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloudwatch_source#namespace CloudwatchSource#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloudwatch_source#path_expression CloudwatchSource#path_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloudwatch_source#path_expression CloudwatchSource#path_expression}
   */
   readonly pathExpression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloudwatch_source#region CloudwatchSource#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloudwatch_source#region CloudwatchSource#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloudwatch_source#type CloudwatchSource#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloudwatch_source#type CloudwatchSource#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloudwatch_source#use_versioned_api CloudwatchSource#use_versioned_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloudwatch_source#use_versioned_api CloudwatchSource#use_versioned_api}
   */
   readonly useVersionedApi?: boolean | cdktf.IResolvable;
   /**
   * azure_tag_filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloudwatch_source#azure_tag_filters CloudwatchSource#azure_tag_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloudwatch_source#azure_tag_filters CloudwatchSource#azure_tag_filters}
   */
   readonly azureTagFilters?: CloudwatchSourcePathAzureTagFilters[] | cdktf.IResolvable;
   /**
   * custom_services block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloudwatch_source#custom_services CloudwatchSource#custom_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloudwatch_source#custom_services CloudwatchSource#custom_services}
   */
   readonly customServices?: CloudwatchSourcePathCustomServices[] | cdktf.IResolvable;
   /**
   * tag_filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloudwatch_source#tag_filters CloudwatchSource#tag_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloudwatch_source#tag_filters CloudwatchSource#tag_filters}
   */
   readonly tagFilters?: CloudwatchSourcePathTagFilters[] | cdktf.IResolvable;
 }
@@ -2400,7 +2400,7 @@ export class CloudwatchSourcePathOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloudwatch_source sumologic_cloudwatch_source}
+* Represents a {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloudwatch_source sumologic_cloudwatch_source}
 */
 export class CloudwatchSource extends cdktf.TerraformResource {
 
@@ -2416,7 +2416,7 @@ export class CloudwatchSource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudwatchSource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudwatchSource to import
-  * @param importFromId The id of the existing CloudwatchSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloudwatch_source#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudwatchSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloudwatch_source#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudwatchSource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2428,7 +2428,7 @@ export class CloudwatchSource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cloudwatch_source sumologic_cloudwatch_source} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cloudwatch_source sumologic_cloudwatch_source} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2439,7 +2439,8 @@ export class CloudwatchSource extends cdktf.TerraformResource {
       terraformResourceType: 'sumologic_cloudwatch_source',
       terraformGeneratorMetadata: {
         providerName: 'sumologic',
-        providerVersion: '3.1.7'
+        providerVersion: '3.1.8',
+        providerVersionConstraint: '3.1.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

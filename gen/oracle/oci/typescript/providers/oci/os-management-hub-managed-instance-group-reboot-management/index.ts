@@ -353,7 +353,8 @@ export class OsManagementHubManagedInstanceGroupRebootManagement extends cdktf.T
       terraformResourceType: 'oci_os_management_hub_managed_instance_group_reboot_management',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

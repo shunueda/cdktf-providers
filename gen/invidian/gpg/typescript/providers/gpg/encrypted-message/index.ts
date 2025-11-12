@@ -64,7 +64,8 @@ export class EncryptedMessage extends cdktf.TerraformResource {
       terraformResourceType: 'gpg_encrypted_message',
       terraformGeneratorMetadata: {
         providerName: 'gpg',
-        providerVersion: '0.3.1'
+        providerVersion: '0.3.1',
+        providerVersionConstraint: '0.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

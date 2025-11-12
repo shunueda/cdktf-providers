@@ -56,7 +56,8 @@ export class DataLimelightIpRanges extends cdktf.TerraformDataSource {
       terraformResourceType: 'limelight_ip_ranges',
       terraformGeneratorMetadata: {
         providerName: 'limelight',
-        providerVersion: '1.0.3'
+        providerVersion: '1.0.3',
+        providerVersionConstraint: '1.0.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

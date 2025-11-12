@@ -830,7 +830,8 @@ export class DataThunderScaleoutDebugIpv6RedirectTableL3Oper extends cdktf.Terra
       terraformResourceType: 'thunder_scaleout_debug_ipv6_redirect_table_l3_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

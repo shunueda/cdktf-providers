@@ -6843,7 +6843,8 @@ export class DataSchemasPanelDashboardList extends cdktf.TerraformDataSource {
       terraformResourceType: 'schemas_panel_dashboard_list',
       terraformGeneratorMetadata: {
         providerName: 'schemas',
-        providerVersion: '0.2.0'
+        providerVersion: '0.2.0',
+        providerVersionConstraint: '0.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

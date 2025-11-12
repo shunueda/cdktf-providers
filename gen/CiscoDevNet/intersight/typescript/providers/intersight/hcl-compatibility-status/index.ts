@@ -4034,7 +4034,8 @@ export class HclCompatibilityStatus extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_hcl_compatibility_status',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

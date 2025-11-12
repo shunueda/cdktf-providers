@@ -159,7 +159,8 @@ export class DataTencentcloudCkafkaTopicProduceConnection extends cdktf.Terrafor
       terraformResourceType: 'tencentcloud_ckafka_topic_produce_connection',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

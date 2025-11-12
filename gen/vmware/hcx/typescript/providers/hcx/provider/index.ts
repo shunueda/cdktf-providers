@@ -79,7 +79,8 @@ export class HcxProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'hcx',
       terraformGeneratorMetadata: {
         providerName: 'hcx',
-        providerVersion: '0.5.1'
+        providerVersion: '0.5.1',
+        providerVersionConstraint: '0.5.1'
       },
       terraformProviderSource: 'vmware/hcx'
     });

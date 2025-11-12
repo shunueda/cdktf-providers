@@ -206,7 +206,8 @@ export class DataSbercloudFgsDependencyVersions extends cdktf.TerraformDataSourc
       terraformResourceType: 'sbercloud_fgs_dependency_versions',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14'
+        providerVersion: '1.12.14',
+        providerVersionConstraint: '1.12.14'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

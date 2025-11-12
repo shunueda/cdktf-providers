@@ -275,7 +275,8 @@ export class WorkflowTaskCreateGoogleGeminiChatCompletion extends cdktf.Terrafor
       terraformResourceType: 'rootly_workflow_task_create_google_gemini_chat_completion',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.7'
+        providerVersion: '4.3.7',
+        providerVersionConstraint: '4.3.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

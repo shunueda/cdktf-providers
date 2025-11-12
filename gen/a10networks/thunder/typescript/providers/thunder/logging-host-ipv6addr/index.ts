@@ -92,7 +92,8 @@ export class LoggingHostIpv6Addr extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_logging_host_ipv6addr',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

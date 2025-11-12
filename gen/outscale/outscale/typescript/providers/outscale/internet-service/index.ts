@@ -408,7 +408,8 @@ export class InternetService extends cdktf.TerraformResource {
       terraformResourceType: 'outscale_internet_service',
       terraformGeneratorMetadata: {
         providerName: 'outscale',
-        providerVersion: '1.2.1'
+        providerVersion: '1.2.1',
+        providerVersionConstraint: '1.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

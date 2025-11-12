@@ -230,7 +230,8 @@ export class ContainerRegistry extends cdktf.TerraformResource {
       terraformResourceType: 'mittwald_container_registry',
       terraformGeneratorMetadata: {
         providerName: 'mittwald',
-        providerVersion: '1.4.5'
+        providerVersion: '1.4.5',
+        providerVersionConstraint: '1.4.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

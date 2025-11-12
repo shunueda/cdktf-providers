@@ -68,7 +68,8 @@ export class IpPoolAllocationIpAddress extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_ip_pool_allocation_ip_address',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0'
+        providerVersion: '3.10.0',
+        providerVersionConstraint: '3.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

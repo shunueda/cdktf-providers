@@ -79,7 +79,8 @@ export class Project extends cdktf.TerraformResource {
       terraformResourceType: 'latitudesh_project',
       terraformGeneratorMetadata: {
         providerName: 'latitudesh',
-        providerVersion: '2.8.2'
+        providerVersion: '2.8.2',
+        providerVersionConstraint: '2.8.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

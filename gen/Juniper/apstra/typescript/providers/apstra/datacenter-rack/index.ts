@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_rack
+// https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_rack
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface DatacenterRackConfig extends cdktf.TerraformMetaArguments {
   /**
   * Apstra ID of the Blueprint where the Rack should be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_rack#blueprint_id DatacenterRack#blueprint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_rack#blueprint_id DatacenterRack#blueprint_id}
   */
   readonly blueprintId: string;
   /**
   * Name of the Rack.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_rack#name DatacenterRack#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_rack#name DatacenterRack#name}
   */
   readonly name: string;
   /**
   * Graph node ID of Pod (3-stage topology) where the new rack should be created. Required only in Pod-Based (5-stage) Blueprints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_rack#pod_id DatacenterRack#pod_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_rack#pod_id DatacenterRack#pod_id}
   */
   readonly podId?: string;
   /**
   * Because this resource only manages the Rack, names of Systems and other embedded elements with names derived from the Rack name are not within this resource's control. When `true` during initial Rack creation, those elements will be renamed to match the `name` attribute. Subsequent changes to the `name` attribute will not affect those elements. It's a create-time operation only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_rack#rack_elements_name_one_shot DatacenterRack#rack_elements_name_one_shot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_rack#rack_elements_name_one_shot DatacenterRack#rack_elements_name_one_shot}
   */
   readonly rackElementsNameOneShot?: boolean | cdktf.IResolvable;
   /**
   * ID of the Global Catalog Rack Type design object to use as a template for this Rack.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_rack#rack_type_id DatacenterRack#rack_type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_rack#rack_type_id DatacenterRack#rack_type_id}
   */
   readonly rackTypeId: string;
   /**
   * Because this resource only manages the Rack, names of Systems defined within the Rack are not within this resource's control. When `system_name_one_shot` is `true` during initial Rack creation, Systems within the Rack will be renamed to match the rack's `name`. Subsequent modifications to the `name` attribute will not affect the names of those systems. It's a create-time one-shot operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_rack#system_name_one_shot DatacenterRack#system_name_one_shot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_rack#system_name_one_shot DatacenterRack#system_name_one_shot}
   */
   readonly systemNameOneShot?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_rack apstra_datacenter_rack}
+* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_rack apstra_datacenter_rack}
 */
 export class DatacenterRack extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class DatacenterRack extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DatacenterRack resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatacenterRack to import
-  * @param importFromId The id of the existing DatacenterRack that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_rack#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatacenterRack that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_rack#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatacenterRack to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class DatacenterRack extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_rack apstra_datacenter_rack} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_rack apstra_datacenter_rack} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,7 +85,8 @@ export class DatacenterRack extends cdktf.TerraformResource {
       terraformResourceType: 'apstra_datacenter_rack',
       terraformGeneratorMetadata: {
         providerName: 'apstra',
-        providerVersion: '0.95.0'
+        providerVersion: '0.95.1',
+        providerVersionConstraint: '0.95.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

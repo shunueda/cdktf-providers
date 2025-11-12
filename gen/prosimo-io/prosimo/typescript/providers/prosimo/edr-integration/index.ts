@@ -568,7 +568,8 @@ export class EdrIntegration extends cdktf.TerraformResource {
       terraformResourceType: 'prosimo_edr_integration',
       terraformGeneratorMetadata: {
         providerName: 'prosimo',
-        providerVersion: '4.5.3'
+        providerVersion: '4.5.3',
+        providerVersionConstraint: '4.5.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

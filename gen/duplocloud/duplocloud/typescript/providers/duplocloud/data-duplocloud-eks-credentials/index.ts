@@ -60,7 +60,8 @@ export class DataDuplocloudEksCredentials extends cdktf.TerraformDataSource {
       terraformResourceType: 'duplocloud_eks_credentials',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.28'
+        providerVersion: '0.11.28',
+        providerVersionConstraint: '0.11.28'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

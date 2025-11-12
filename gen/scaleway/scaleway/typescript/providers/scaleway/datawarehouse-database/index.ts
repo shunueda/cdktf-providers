@@ -74,7 +74,8 @@ export class DatawarehouseDatabase extends cdktf.TerraformResource {
       terraformResourceType: 'scaleway_datawarehouse_database',
       terraformGeneratorMetadata: {
         providerName: 'scaleway',
-        providerVersion: '2.62.0'
+        providerVersion: '2.62.0',
+        providerVersionConstraint: '2.62.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

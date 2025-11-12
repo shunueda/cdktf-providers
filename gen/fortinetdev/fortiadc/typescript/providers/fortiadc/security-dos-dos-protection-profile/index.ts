@@ -84,7 +84,8 @@ export class SecurityDosDosProtectionProfile extends cdktf.TerraformResource {
       terraformResourceType: 'fortiadc_security_dos_dos_protection_profile',
       terraformGeneratorMetadata: {
         providerName: 'fortiadc',
-        providerVersion: '1.3.1'
+        providerVersion: '1.3.1',
+        providerVersionConstraint: '1.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

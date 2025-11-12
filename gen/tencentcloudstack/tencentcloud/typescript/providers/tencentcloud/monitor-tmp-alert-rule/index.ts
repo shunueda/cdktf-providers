@@ -404,7 +404,8 @@ export class MonitorTmpAlertRule extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_monitor_tmp_alert_rule',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

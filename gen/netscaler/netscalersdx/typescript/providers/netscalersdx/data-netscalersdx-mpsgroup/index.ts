@@ -64,7 +64,8 @@ export class DataNetscalersdxMpsgroup extends cdktf.TerraformDataSource {
       terraformResourceType: 'netscalersdx_mpsgroup',
       terraformGeneratorMetadata: {
         providerName: 'netscalersdx',
-        providerVersion: '0.7.2'
+        providerVersion: '0.7.2',
+        providerVersionConstraint: '0.7.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

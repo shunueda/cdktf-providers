@@ -26,6 +26,7 @@ export * as gcpServiceAttachmentsAcceptListV2 from './gcp-service-attachments-ac
 export * as gcpVpcPeerV2 from './gcp-vpc-peer-v2';
 export * as kafkaAclV2 from './kafka-acl-v2';
 export * as kafkaAclV3 from './kafka-acl-v3';
+export * as kafkaClientMetricSubscription from './kafka-client-metric-subscription';
 export * as kafkaClusterV2 from './kafka-cluster-v2';
 export * as kafkaClusterV3 from './kafka-cluster-v3';
 export * as kafkaConnectClusterV2 from './kafka-connect-cluster-v2';
@@ -89,7 +90,9 @@ export * as dataInstaclustrGcpVpcPeerV2Instance from './data-instaclustr-gcp-vpc
 export * as dataInstaclustrGcpVpcPeersV2 from './data-instaclustr-gcp-vpc-peers-v2';
 export * as dataInstaclustrKafkaAclV2Instance from './data-instaclustr-kafka-acl-v2-instance';
 export * as dataInstaclustrKafkaAclV3Instance from './data-instaclustr-kafka-acl-v3-instance';
+export * as dataInstaclustrKafkaClientMetricSubscriptionInstance from './data-instaclustr-kafka-client-metric-subscription-instance';
 export * as dataInstaclustrKafkaClusterAclsV2 from './data-instaclustr-kafka-cluster-acls-v2';
+export * as dataInstaclustrKafkaClusterClientMetricSubscriptions from './data-instaclustr-kafka-cluster-client-metric-subscriptions';
 export * as dataInstaclustrKafkaClusterKafkaTopicsV2 from './data-instaclustr-kafka-cluster-kafka-topics-v2';
 export * as dataInstaclustrKafkaClusterSearchV2 from './data-instaclustr-kafka-cluster-search-v2';
 export * as dataInstaclustrKafkaClusterUsersV2 from './data-instaclustr-kafka-cluster-users-v2';

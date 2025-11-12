@@ -3980,7 +3980,8 @@ export class Connection extends cdktf.TerraformResource {
       terraformResourceType: 'auth0_connection',
       terraformGeneratorMetadata: {
         providerName: 'auth0',
-        providerVersion: '0.26.2'
+        providerVersion: '0.26.2',
+        providerVersionConstraint: '0.26.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -64,7 +64,8 @@ export class MediaStoreContainerPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'aws_media_store_container_policy',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '3.29.6'
+        providerVersion: '3.29.6',
+        providerVersionConstraint: '3.29.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

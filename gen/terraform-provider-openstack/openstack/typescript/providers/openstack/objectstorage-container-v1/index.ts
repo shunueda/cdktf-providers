@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/objectstorage_container_v1
+// https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/objectstorage_container_v1
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,74 +8,74 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectstorageContainerV1Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/objectstorage_container_v1#container_read ObjectstorageContainerV1#container_read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/objectstorage_container_v1#container_read ObjectstorageContainerV1#container_read}
   */
   readonly containerRead?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/objectstorage_container_v1#container_sync_key ObjectstorageContainerV1#container_sync_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/objectstorage_container_v1#container_sync_key ObjectstorageContainerV1#container_sync_key}
   */
   readonly containerSyncKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/objectstorage_container_v1#container_sync_to ObjectstorageContainerV1#container_sync_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/objectstorage_container_v1#container_sync_to ObjectstorageContainerV1#container_sync_to}
   */
   readonly containerSyncTo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/objectstorage_container_v1#container_write ObjectstorageContainerV1#container_write}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/objectstorage_container_v1#container_write ObjectstorageContainerV1#container_write}
   */
   readonly containerWrite?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/objectstorage_container_v1#content_type ObjectstorageContainerV1#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/objectstorage_container_v1#content_type ObjectstorageContainerV1#content_type}
   */
   readonly contentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/objectstorage_container_v1#force_destroy ObjectstorageContainerV1#force_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/objectstorage_container_v1#force_destroy ObjectstorageContainerV1#force_destroy}
   */
   readonly forceDestroy?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/objectstorage_container_v1#id ObjectstorageContainerV1#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/objectstorage_container_v1#id ObjectstorageContainerV1#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/objectstorage_container_v1#metadata ObjectstorageContainerV1#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/objectstorage_container_v1#metadata ObjectstorageContainerV1#metadata}
   */
   readonly metadata?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/objectstorage_container_v1#name ObjectstorageContainerV1#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/objectstorage_container_v1#name ObjectstorageContainerV1#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/objectstorage_container_v1#region ObjectstorageContainerV1#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/objectstorage_container_v1#region ObjectstorageContainerV1#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/objectstorage_container_v1#storage_class ObjectstorageContainerV1#storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/objectstorage_container_v1#storage_class ObjectstorageContainerV1#storage_class}
   */
   readonly storageClass?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/objectstorage_container_v1#storage_policy ObjectstorageContainerV1#storage_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/objectstorage_container_v1#storage_policy ObjectstorageContainerV1#storage_policy}
   */
   readonly storagePolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/objectstorage_container_v1#versioning ObjectstorageContainerV1#versioning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/objectstorage_container_v1#versioning ObjectstorageContainerV1#versioning}
   */
   readonly versioning?: boolean | cdktf.IResolvable;
   /**
   * versioning_legacy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/objectstorage_container_v1#versioning_legacy ObjectstorageContainerV1#versioning_legacy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/objectstorage_container_v1#versioning_legacy ObjectstorageContainerV1#versioning_legacy}
   */
   readonly versioningLegacy?: ObjectstorageContainerV1VersioningLegacy;
 }
 export interface ObjectstorageContainerV1VersioningLegacy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/objectstorage_container_v1#location ObjectstorageContainerV1#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/objectstorage_container_v1#location ObjectstorageContainerV1#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/objectstorage_container_v1#type ObjectstorageContainerV1#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/objectstorage_container_v1#type ObjectstorageContainerV1#type}
   */
   readonly type: string;
 }
@@ -182,7 +182,7 @@ export class ObjectstorageContainerV1VersioningLegacyOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/objectstorage_container_v1 openstack_objectstorage_container_v1}
+* Represents a {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/objectstorage_container_v1 openstack_objectstorage_container_v1}
 */
 export class ObjectstorageContainerV1 extends cdktf.TerraformResource {
 
@@ -198,7 +198,7 @@ export class ObjectstorageContainerV1 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectstorageContainerV1 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectstorageContainerV1 to import
-  * @param importFromId The id of the existing ObjectstorageContainerV1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/objectstorage_container_v1#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectstorageContainerV1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/objectstorage_container_v1#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectstorageContainerV1 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -210,7 +210,7 @@ export class ObjectstorageContainerV1 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/objectstorage_container_v1 openstack_objectstorage_container_v1} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/objectstorage_container_v1 openstack_objectstorage_container_v1} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -221,7 +221,8 @@ export class ObjectstorageContainerV1 extends cdktf.TerraformResource {
       terraformResourceType: 'openstack_objectstorage_container_v1',
       terraformGeneratorMetadata: {
         providerName: 'openstack',
-        providerVersion: '3.3.2'
+        providerVersion: '3.4.0',
+        providerVersionConstraint: '3.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

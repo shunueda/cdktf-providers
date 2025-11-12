@@ -58,7 +58,8 @@ export class DataSdwanOtherFeatureProfile extends cdktf.TerraformDataSource {
       terraformResourceType: 'sdwan_other_feature_profile',
       terraformGeneratorMetadata: {
         providerName: 'sdwan',
-        providerVersion: '0.8.1'
+        providerVersion: '0.8.1',
+        providerVersionConstraint: '0.8.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

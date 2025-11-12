@@ -517,7 +517,8 @@ export class ExternalServer extends cdktf.TerraformResource {
       terraformResourceType: 'pingdirectory_external_server',
       terraformGeneratorMetadata: {
         providerName: 'pingdirectory',
-        providerVersion: '1.5.0'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

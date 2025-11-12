@@ -98,7 +98,8 @@ export class Route extends cdktf.TerraformResource {
       terraformResourceType: 'netris_route',
       terraformGeneratorMetadata: {
         providerName: 'netris',
-        providerVersion: '3.6.6'
+        providerVersion: '3.6.6',
+        providerVersionConstraint: '3.6.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

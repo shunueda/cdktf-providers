@@ -670,7 +670,8 @@ export class DataK8SAzureMicrosoftComAzureSqlUserV1Alpha1Manifest extends cdktf.
       terraformResourceType: 'k8s_azure_microsoft_com_azure_sql_user_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

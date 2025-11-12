@@ -80,7 +80,8 @@ export class ProfileMaliciousSource extends cdktf.TerraformResource {
       terraformResourceType: 'valtix_profile_malicious_source',
       terraformGeneratorMetadata: {
         providerName: 'valtix',
-        providerVersion: '25.9.2'
+        providerVersion: '25.9.2',
+        providerVersionConstraint: '25.9.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

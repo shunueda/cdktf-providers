@@ -334,7 +334,8 @@ export class DmsConsumerGroupV2 extends cdktf.TerraformResource {
       terraformResourceType: 'opentelekomcloud_dms_consumer_group_v2',
       terraformGeneratorMetadata: {
         providerName: 'opentelekomcloud',
-        providerVersion: '1.36.52'
+        providerVersion: '1.36.52',
+        providerVersionConstraint: '1.36.52'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -79,7 +79,8 @@ export class TemporalcloudProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'temporalcloud',
       terraformGeneratorMetadata: {
         providerName: 'temporalcloud',
-        providerVersion: '1.1.1'
+        providerVersion: '1.1.1',
+        providerVersionConstraint: '1.1.1'
       },
       terraformProviderSource: 'temporalio/temporalcloud'
     });

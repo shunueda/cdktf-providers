@@ -64,7 +64,8 @@ export class RouterMd5Ospf extends cdktf.TerraformResource {
       terraformResourceType: 'fortiadc_router_md5_ospf',
       terraformGeneratorMetadata: {
         providerName: 'fortiadc',
-        providerVersion: '1.3.1'
+        providerVersion: '1.3.1',
+        providerVersionConstraint: '1.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

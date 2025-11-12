@@ -158,7 +158,8 @@ export class DataAlicloudSchedulerxNamespaces extends cdktf.TerraformDataSource 
       terraformResourceType: 'alicloud_schedulerx_namespaces',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

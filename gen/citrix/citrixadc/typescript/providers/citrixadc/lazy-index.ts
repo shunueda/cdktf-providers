@@ -256,6 +256,7 @@ Object.defineProperty(exports, 'cspolicy', { get: function () { return require('
 Object.defineProperty(exports, 'cspolicylabel', { get: function () { return require('./cspolicylabel'); } });
 Object.defineProperty(exports, 'csvserver', { get: function () { return require('./csvserver'); } });
 Object.defineProperty(exports, 'csvserverAnalyticsprofileBinding', { get: function () { return require('./csvserver-analyticsprofile-binding'); } });
+Object.defineProperty(exports, 'csvserverAppflowpolicyBinding', { get: function () { return require('./csvserver-appflowpolicy-binding'); } });
 Object.defineProperty(exports, 'csvserverAppfwpolicyBinding', { get: function () { return require('./csvserver-appfwpolicy-binding'); } });
 Object.defineProperty(exports, 'csvserverAppqoepolicyBinding', { get: function () { return require('./csvserver-appqoepolicy-binding'); } });
 Object.defineProperty(exports, 'csvserverAuditnslogpolicyBinding', { get: function () { return require('./csvserver-auditnslogpolicy-binding'); } });

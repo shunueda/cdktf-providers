@@ -77,7 +77,8 @@ export class DnsRecord extends cdktf.TerraformResource {
       terraformResourceType: 'ionosdeveloper_dns_record',
       terraformGeneratorMetadata: {
         providerName: 'ionosdeveloper',
-        providerVersion: '0.0.1'
+        providerVersion: '0.0.1',
+        providerVersionConstraint: '0.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

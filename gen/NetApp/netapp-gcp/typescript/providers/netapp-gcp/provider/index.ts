@@ -79,7 +79,8 @@ export class NetappGcpProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'netapp-gcp',
       terraformGeneratorMetadata: {
         providerName: 'netapp-gcp',
-        providerVersion: '24.6.0'
+        providerVersion: '24.6.0',
+        providerVersionConstraint: '24.6.0'
       },
       terraformProviderSource: 'NetApp/netapp-gcp'
     });

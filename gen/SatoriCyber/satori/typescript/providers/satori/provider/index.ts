@@ -97,7 +97,8 @@ export class SatoriProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'satori',
       terraformGeneratorMetadata: {
         providerName: 'satori',
-        providerVersion: '0.2.8'
+        providerVersion: '0.2.8',
+        providerVersionConstraint: '0.2.8'
       },
       terraformProviderSource: 'SatoriCyber/satori'
     });

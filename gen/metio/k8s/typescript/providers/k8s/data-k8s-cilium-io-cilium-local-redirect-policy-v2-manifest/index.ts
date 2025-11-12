@@ -1851,7 +1851,8 @@ export class DataK8SCiliumIoCiliumLocalRedirectPolicyV2Manifest extends cdktf.Te
       terraformResourceType: 'k8s_cilium_io_cilium_local_redirect_policy_v2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

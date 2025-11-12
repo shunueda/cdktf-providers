@@ -73,7 +73,8 @@ export class EvengProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'eveng',
       terraformGeneratorMetadata: {
         providerName: 'eveng',
-        providerVersion: '0.1.7'
+        providerVersion: '0.1.7',
+        providerVersionConstraint: '0.1.7'
       },
       terraformProviderSource: 'CorentinPtrl/eveng'
     });

@@ -343,7 +343,8 @@ export class DataProfitbricksLan extends cdktf.TerraformDataSource {
       terraformResourceType: 'profitbricks_lan',
       terraformGeneratorMetadata: {
         providerName: 'profitbricks',
-        providerVersion: '1.6.5'
+        providerVersion: '1.6.5',
+        providerVersionConstraint: '1.6.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

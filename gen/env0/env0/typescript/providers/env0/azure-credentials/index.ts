@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/azure_credentials
+// https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/azure_credentials
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface AzureCredentialsConfig extends cdktf.TerraformMetaArguments {
   /**
   * the azure client id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/azure_credentials#client_id AzureCredentials#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/azure_credentials#client_id AzureCredentials#client_id}
   */
   readonly clientId: string;
   /**
   * the azure client secret. In case your organization is self-hosted, please use a secret reference in the shape of ${azure:<secret-name>@<vault-name>}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/azure_credentials#client_secret AzureCredentials#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/azure_credentials#client_secret AzureCredentials#client_secret}
   */
   readonly clientSecret: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/azure_credentials#id AzureCredentials#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/azure_credentials#id AzureCredentials#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,31 +29,31 @@ export interface AzureCredentialsConfig extends cdktf.TerraformMetaArguments {
   /**
   * name for the credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/azure_credentials#name AzureCredentials#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/azure_credentials#name AzureCredentials#name}
   */
   readonly name: string;
   /**
   * the env0 project id to associate the credentials with
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/azure_credentials#project_id AzureCredentials#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/azure_credentials#project_id AzureCredentials#project_id}
   */
   readonly projectId?: string;
   /**
   * the azure subscription id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/azure_credentials#subscription_id AzureCredentials#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/azure_credentials#subscription_id AzureCredentials#subscription_id}
   */
   readonly subscriptionId: string;
   /**
   * the azure tenant id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/azure_credentials#tenant_id AzureCredentials#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/azure_credentials#tenant_id AzureCredentials#tenant_id}
   */
   readonly tenantId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/azure_credentials env0_azure_credentials}
+* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/azure_credentials env0_azure_credentials}
 */
 export class AzureCredentials extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class AzureCredentials extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AzureCredentials resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AzureCredentials to import
-  * @param importFromId The id of the existing AzureCredentials that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/azure_credentials#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AzureCredentials that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/azure_credentials#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AzureCredentials to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class AzureCredentials extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/azure_credentials env0_azure_credentials} Resource
+  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/azure_credentials env0_azure_credentials} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,7 +92,8 @@ export class AzureCredentials extends cdktf.TerraformResource {
       terraformResourceType: 'env0_azure_credentials',
       terraformGeneratorMetadata: {
         providerName: 'env0',
-        providerVersion: '1.29.4'
+        providerVersion: '1.29.6',
+        providerVersionConstraint: '1.29.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

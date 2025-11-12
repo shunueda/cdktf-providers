@@ -263,7 +263,8 @@ export class DataIonoscloudS3Key extends cdktf.TerraformDataSource {
       terraformResourceType: 'ionoscloud_s3_key',
       terraformGeneratorMetadata: {
         providerName: 'ionoscloud',
-        providerVersion: '6.7.20'
+        providerVersion: '6.7.20',
+        providerVersionConstraint: '6.7.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

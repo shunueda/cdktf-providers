@@ -490,7 +490,8 @@ export class EscalationPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'firehydrant_escalation_policy',
       terraformGeneratorMetadata: {
         providerName: 'firehydrant',
-        providerVersion: '0.14.9'
+        providerVersion: '0.14.9',
+        providerVersionConstraint: '0.14.9'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

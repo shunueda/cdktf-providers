@@ -464,7 +464,8 @@ export class IkePhase1Profile extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_ike_phase1_profile',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.44'
+        providerVersion: '0.11.44',
+        providerVersionConstraint: '0.11.44'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

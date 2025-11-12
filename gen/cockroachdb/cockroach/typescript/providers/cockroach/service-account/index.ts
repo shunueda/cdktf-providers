@@ -61,7 +61,8 @@ export class ServiceAccount extends cdktf.TerraformResource {
       terraformResourceType: 'cockroach_service_account',
       terraformGeneratorMetadata: {
         providerName: 'cockroach',
-        providerVersion: '1.16.0'
+        providerVersion: '1.16.0',
+        providerVersionConstraint: '1.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

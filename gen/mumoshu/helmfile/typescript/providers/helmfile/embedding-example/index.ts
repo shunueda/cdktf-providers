@@ -1216,7 +1216,8 @@ export class EmbeddingExample extends cdktf.TerraformResource {
       terraformResourceType: 'helmfile_embedding_example',
       terraformGeneratorMetadata: {
         providerName: 'helmfile',
-        providerVersion: '0.14.1'
+        providerVersion: '0.14.1',
+        providerVersionConstraint: '0.14.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -70,7 +70,8 @@ export class IsolationSegmentEntitlement extends cdktf.TerraformResource {
       terraformResourceType: 'cloudfoundry_isolation_segment_entitlement',
       terraformGeneratorMetadata: {
         providerName: 'cloudfoundry',
-        providerVersion: '0.53.1'
+        providerVersion: '0.53.1',
+        providerVersionConstraint: '0.53.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

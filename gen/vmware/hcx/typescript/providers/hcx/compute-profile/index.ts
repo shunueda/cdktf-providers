@@ -211,7 +211,8 @@ export class ComputeProfile extends cdktf.TerraformResource {
       terraformResourceType: 'hcx_compute_profile',
       terraformGeneratorMetadata: {
         providerName: 'hcx',
-        providerVersion: '0.5.1'
+        providerVersion: '0.5.1',
+        providerVersionConstraint: '0.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

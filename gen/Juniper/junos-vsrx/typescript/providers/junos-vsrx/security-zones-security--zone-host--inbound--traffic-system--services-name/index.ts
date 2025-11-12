@@ -72,7 +72,8 @@ export class SecurityZonesSecurityZoneHostInboundTrafficSystemServicesName exten
       terraformResourceType: 'junos-vsrx_SecurityZonesSecurity__ZoneHost__Inbound__TrafficSystem__ServicesName',
       terraformGeneratorMetadata: {
         providerName: 'junos-vsrx',
-        providerVersion: '20.32.106'
+        providerVersion: '20.32.106',
+        providerVersionConstraint: '20.32.106'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

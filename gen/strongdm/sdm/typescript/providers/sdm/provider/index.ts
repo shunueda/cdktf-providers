@@ -79,7 +79,8 @@ export class SdmProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'sdm',
       terraformGeneratorMetadata: {
         providerName: 'sdm',
-        providerVersion: '15.27.0'
+        providerVersion: '15.27.0',
+        providerVersionConstraint: '15.27.0'
       },
       terraformProviderSource: 'strongdm/sdm'
     });

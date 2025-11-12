@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslaction
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslaction
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,128 +8,128 @@ import * as cdktf from 'cdktf';
 
 export interface SslactionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslaction#cacertgrpname Sslaction#cacertgrpname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslaction#cacertgrpname Sslaction#cacertgrpname}
   */
   readonly cacertgrpname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslaction#certfingerprintdigest Sslaction#certfingerprintdigest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslaction#certfingerprintdigest Sslaction#certfingerprintdigest}
   */
   readonly certfingerprintdigest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslaction#certfingerprintheader Sslaction#certfingerprintheader}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslaction#certfingerprintheader Sslaction#certfingerprintheader}
   */
   readonly certfingerprintheader?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslaction#certhashheader Sslaction#certhashheader}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslaction#certhashheader Sslaction#certhashheader}
   */
   readonly certhashheader?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslaction#certheader Sslaction#certheader}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslaction#certheader Sslaction#certheader}
   */
   readonly certheader?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslaction#certissuerheader Sslaction#certissuerheader}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslaction#certissuerheader Sslaction#certissuerheader}
   */
   readonly certissuerheader?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslaction#certnotafterheader Sslaction#certnotafterheader}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslaction#certnotafterheader Sslaction#certnotafterheader}
   */
   readonly certnotafterheader?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslaction#certnotbeforeheader Sslaction#certnotbeforeheader}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslaction#certnotbeforeheader Sslaction#certnotbeforeheader}
   */
   readonly certnotbeforeheader?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslaction#certserialheader Sslaction#certserialheader}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslaction#certserialheader Sslaction#certserialheader}
   */
   readonly certserialheader?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslaction#certsubjectheader Sslaction#certsubjectheader}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslaction#certsubjectheader Sslaction#certsubjectheader}
   */
   readonly certsubjectheader?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslaction#cipher Sslaction#cipher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslaction#cipher Sslaction#cipher}
   */
   readonly cipher?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslaction#cipherheader Sslaction#cipherheader}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslaction#cipherheader Sslaction#cipherheader}
   */
   readonly cipherheader?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslaction#clientauth Sslaction#clientauth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslaction#clientauth Sslaction#clientauth}
   */
   readonly clientauth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslaction#clientcert Sslaction#clientcert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslaction#clientcert Sslaction#clientcert}
   */
   readonly clientcert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslaction#clientcertfingerprint Sslaction#clientcertfingerprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslaction#clientcertfingerprint Sslaction#clientcertfingerprint}
   */
   readonly clientcertfingerprint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslaction#clientcerthash Sslaction#clientcerthash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslaction#clientcerthash Sslaction#clientcerthash}
   */
   readonly clientcerthash?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslaction#clientcertissuer Sslaction#clientcertissuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslaction#clientcertissuer Sslaction#clientcertissuer}
   */
   readonly clientcertissuer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslaction#clientcertnotafter Sslaction#clientcertnotafter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslaction#clientcertnotafter Sslaction#clientcertnotafter}
   */
   readonly clientcertnotafter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslaction#clientcertnotbefore Sslaction#clientcertnotbefore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslaction#clientcertnotbefore Sslaction#clientcertnotbefore}
   */
   readonly clientcertnotbefore?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslaction#clientcertserialnumber Sslaction#clientcertserialnumber}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslaction#clientcertserialnumber Sslaction#clientcertserialnumber}
   */
   readonly clientcertserialnumber?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslaction#clientcertsubject Sslaction#clientcertsubject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslaction#clientcertsubject Sslaction#clientcertsubject}
   */
   readonly clientcertsubject?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslaction#clientcertverification Sslaction#clientcertverification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslaction#clientcertverification Sslaction#clientcertverification}
   */
   readonly clientcertverification?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslaction#forward Sslaction#forward}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslaction#forward Sslaction#forward}
   */
   readonly forward?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslaction#id Sslaction#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslaction#id Sslaction#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslaction#name Sslaction#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslaction#name Sslaction#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslaction#owasupport Sslaction#owasupport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslaction#owasupport Sslaction#owasupport}
   */
   readonly owasupport?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslaction#sessionid Sslaction#sessionid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslaction#sessionid Sslaction#sessionid}
   */
   readonly sessionid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslaction#sessionidheader Sslaction#sessionidheader}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslaction#sessionidheader Sslaction#sessionidheader}
   */
   readonly sessionidheader?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslaction#ssllogprofile Sslaction#ssllogprofile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslaction#ssllogprofile Sslaction#ssllogprofile}
   */
   readonly ssllogprofile?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslaction citrixadc_sslaction}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslaction citrixadc_sslaction}
 */
 export class Sslaction extends cdktf.TerraformResource {
 
@@ -145,7 +145,7 @@ export class Sslaction extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Sslaction resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Sslaction to import
-  * @param importFromId The id of the existing Sslaction that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslaction#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Sslaction that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslaction#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Sslaction to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -157,7 +157,7 @@ export class Sslaction extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslaction citrixadc_sslaction} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslaction citrixadc_sslaction} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -168,7 +168,8 @@ export class Sslaction extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_sslaction',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

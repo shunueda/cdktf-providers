@@ -55,7 +55,8 @@ export class MergeProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'merge',
       terraformGeneratorMetadata: {
         providerName: 'merge',
-        providerVersion: '0.1.1'
+        providerVersion: '0.1.1',
+        providerVersionConstraint: '0.1.1'
       },
       terraformProviderSource: 'LukeCarrier/merge'
     });

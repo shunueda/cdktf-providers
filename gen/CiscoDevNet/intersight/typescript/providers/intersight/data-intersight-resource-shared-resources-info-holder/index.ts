@@ -5716,7 +5716,8 @@ export class DataIntersightResourceSharedResourcesInfoHolder extends cdktf.Terra
       terraformResourceType: 'intersight_resource_shared_resources_info_holder',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

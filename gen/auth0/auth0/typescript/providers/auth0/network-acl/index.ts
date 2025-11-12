@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/network_acl
+// https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/network_acl
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface NetworkAclConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether the Network ACL is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/network_acl#active NetworkAcl#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/network_acl#active NetworkAcl#active}
   */
   readonly active: boolean | cdktf.IResolvable;
   /**
   * The description of the Network ACL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/network_acl#description NetworkAcl#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/network_acl#description NetworkAcl#description}
   */
   readonly description: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/network_acl#id NetworkAcl#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/network_acl#id NetworkAcl#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,13 +29,13 @@ export interface NetworkAclConfig extends cdktf.TerraformMetaArguments {
   /**
   * The priority of the Network ACL. Must be unique between 1 and 10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/network_acl#priority NetworkAcl#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/network_acl#priority NetworkAcl#priority}
   */
   readonly priority: number;
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/network_acl#rule NetworkAcl#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/network_acl#rule NetworkAcl#rule}
   */
   readonly rule: NetworkAclRule;
 }
@@ -43,31 +43,31 @@ export interface NetworkAclRuleAction {
   /**
   * If true, allows the request. When using allow action, no other properties should be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/network_acl#allow NetworkAcl#allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/network_acl#allow NetworkAcl#allow}
   */
   readonly allow?: boolean | cdktf.IResolvable;
   /**
   * If true, blocks the request. When using block action, no other properties should be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/network_acl#block NetworkAcl#block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/network_acl#block NetworkAcl#block}
   */
   readonly block?: boolean | cdktf.IResolvable;
   /**
   * If true, logs the request. When using log action, no other properties should be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/network_acl#log NetworkAcl#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/network_acl#log NetworkAcl#log}
   */
   readonly log?: boolean | cdktf.IResolvable;
   /**
   * If true, redirects the request. When using redirect action, redirect_uri must also be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/network_acl#redirect NetworkAcl#redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/network_acl#redirect NetworkAcl#redirect}
   */
   readonly redirect?: boolean | cdktf.IResolvable;
   /**
   * The URI to redirect to when redirect is true. Required when redirect is true. Must be between 1 and 2000 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/network_acl#redirect_uri NetworkAcl#redirect_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/network_acl#redirect_uri NetworkAcl#redirect_uri}
   */
   readonly redirectUri?: string;
 }
@@ -269,49 +269,49 @@ export interface NetworkAclRuleMatch {
   /**
   * ASNs. Must contain between 1 and 10 unique items.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/network_acl#asns NetworkAcl#asns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/network_acl#asns NetworkAcl#asns}
   */
   readonly asns?: number[];
   /**
   * Geo Country Codes. Must contain between 1 and 10 unique items.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/network_acl#geo_country_codes NetworkAcl#geo_country_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/network_acl#geo_country_codes NetworkAcl#geo_country_codes}
   */
   readonly geoCountryCodes?: string[];
   /**
   * Geo Subdivision Codes. Must contain between 1 and 10 unique items.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/network_acl#geo_subdivision_codes NetworkAcl#geo_subdivision_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/network_acl#geo_subdivision_codes NetworkAcl#geo_subdivision_codes}
   */
   readonly geoSubdivisionCodes?: string[];
   /**
   * IPv4 CIDRs. Must contain between 1 and 10 unique items. Can be IPv4 addresses or CIDR blocks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/network_acl#ipv4_cidrs NetworkAcl#ipv4_cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/network_acl#ipv4_cidrs NetworkAcl#ipv4_cidrs}
   */
   readonly ipv4Cidrs?: string[];
   /**
   * IPv6 CIDRs. Must contain between 1 and 10 unique items. Can be IPv6 addresses or CIDR blocks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/network_acl#ipv6_cidrs NetworkAcl#ipv6_cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/network_acl#ipv6_cidrs NetworkAcl#ipv6_cidrs}
   */
   readonly ipv6Cidrs?: string[];
   /**
   * JA3 Fingerprints. Must contain between 1 and 10 unique items.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/network_acl#ja3_fingerprints NetworkAcl#ja3_fingerprints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/network_acl#ja3_fingerprints NetworkAcl#ja3_fingerprints}
   */
   readonly ja3Fingerprints?: string[];
   /**
   * JA4 Fingerprints. Must contain between 1 and 10 unique items.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/network_acl#ja4_fingerprints NetworkAcl#ja4_fingerprints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/network_acl#ja4_fingerprints NetworkAcl#ja4_fingerprints}
   */
   readonly ja4Fingerprints?: string[];
   /**
   * User Agents. Must contain between 1 and 10 unique items.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/network_acl#user_agents NetworkAcl#user_agents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/network_acl#user_agents NetworkAcl#user_agents}
   */
   readonly userAgents?: string[];
 }
@@ -600,49 +600,49 @@ export interface NetworkAclRuleNotMatch {
   /**
   * ASNs. Must contain between 1 and 10 unique items.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/network_acl#asns NetworkAcl#asns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/network_acl#asns NetworkAcl#asns}
   */
   readonly asns?: number[];
   /**
   * Geo Country Codes. Must contain between 1 and 10 unique items.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/network_acl#geo_country_codes NetworkAcl#geo_country_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/network_acl#geo_country_codes NetworkAcl#geo_country_codes}
   */
   readonly geoCountryCodes?: string[];
   /**
   * Geo Subdivision Codes. Must contain between 1 and 10 unique items.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/network_acl#geo_subdivision_codes NetworkAcl#geo_subdivision_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/network_acl#geo_subdivision_codes NetworkAcl#geo_subdivision_codes}
   */
   readonly geoSubdivisionCodes?: string[];
   /**
   * IPv4 CIDRs. Must contain between 1 and 10 unique items. Can be IPv4 addresses or CIDR blocks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/network_acl#ipv4_cidrs NetworkAcl#ipv4_cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/network_acl#ipv4_cidrs NetworkAcl#ipv4_cidrs}
   */
   readonly ipv4Cidrs?: string[];
   /**
   * IPv6 CIDRs. Must contain between 1 and 10 unique items. Can be IPv6 addresses or CIDR blocks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/network_acl#ipv6_cidrs NetworkAcl#ipv6_cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/network_acl#ipv6_cidrs NetworkAcl#ipv6_cidrs}
   */
   readonly ipv6Cidrs?: string[];
   /**
   * JA3 Fingerprints. Must contain between 1 and 10 unique items.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/network_acl#ja3_fingerprints NetworkAcl#ja3_fingerprints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/network_acl#ja3_fingerprints NetworkAcl#ja3_fingerprints}
   */
   readonly ja3Fingerprints?: string[];
   /**
   * JA4 Fingerprints. Must contain between 1 and 10 unique items.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/network_acl#ja4_fingerprints NetworkAcl#ja4_fingerprints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/network_acl#ja4_fingerprints NetworkAcl#ja4_fingerprints}
   */
   readonly ja4Fingerprints?: string[];
   /**
   * User Agents. Must contain between 1 and 10 unique items.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/network_acl#user_agents NetworkAcl#user_agents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/network_acl#user_agents NetworkAcl#user_agents}
   */
   readonly userAgents?: string[];
 }
@@ -931,25 +931,25 @@ export interface NetworkAclRule {
   /**
   * The scope of the Network ACL Rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/network_acl#scope NetworkAcl#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/network_acl#scope NetworkAcl#scope}
   */
   readonly scope: string;
   /**
   * action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/network_acl#action NetworkAcl#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/network_acl#action NetworkAcl#action}
   */
   readonly action: NetworkAclRuleAction;
   /**
   * match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/network_acl#match NetworkAcl#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/network_acl#match NetworkAcl#match}
   */
   readonly match?: NetworkAclRuleMatch;
   /**
   * not_match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/network_acl#not_match NetworkAcl#not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/network_acl#not_match NetworkAcl#not_match}
   */
   readonly notMatch?: NetworkAclRuleNotMatch;
 }
@@ -1114,7 +1114,7 @@ export class NetworkAclRuleOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/network_acl auth0_network_acl}
+* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/network_acl auth0_network_acl}
 */
 export class NetworkAcl extends cdktf.TerraformResource {
 
@@ -1130,7 +1130,7 @@ export class NetworkAcl extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkAcl resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkAcl to import
-  * @param importFromId The id of the existing NetworkAcl that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/network_acl#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkAcl that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/network_acl#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkAcl to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1142,7 +1142,7 @@ export class NetworkAcl extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/network_acl auth0_network_acl} Resource
+  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/network_acl auth0_network_acl} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1153,7 +1153,8 @@ export class NetworkAcl extends cdktf.TerraformResource {
       terraformResourceType: 'auth0_network_acl',
       terraformGeneratorMetadata: {
         providerName: 'auth0',
-        providerVersion: '1.33.0'
+        providerVersion: '1.34.0',
+        providerVersionConstraint: '1.34.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

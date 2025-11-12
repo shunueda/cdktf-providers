@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_generic_system
+// https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_generic_system
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DatacenterGenericSystemConfig extends cdktf.TerraformMetaArgume
   /**
   * AS number of the Generic System. Note that in some circumstances Apstra may assign an ASN to the generic system even when none is supplied via this attribute. The automaticallyassigned value will be overwritten by Terraform during a subsequent apply operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_generic_system#asn DatacenterGenericSystem#asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_generic_system#asn DatacenterGenericSystem#asn}
   */
   readonly asn?: number;
   /**
   * Apstra Blueprint ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_generic_system#blueprint_id DatacenterGenericSystem#blueprint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_generic_system#blueprint_id DatacenterGenericSystem#blueprint_id}
   */
   readonly blueprintId: string;
   /**
@@ -26,67 +26,67 @@ export interface DatacenterGenericSystemConfig extends cdktf.TerraformMetaArgume
   *   - Orphaning a LAG interface by reassigning all of its member links to new roles by changing their `group_label` attribute
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_generic_system#clear_cts_on_destroy DatacenterGenericSystem#clear_cts_on_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_generic_system#clear_cts_on_destroy DatacenterGenericSystem#clear_cts_on_destroy}
   */
   readonly clearCtsOnDestroy?: boolean | cdktf.IResolvable;
   /**
   * Set the Apstra Deploy Mode for this Generic System. Default: `deploy`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_generic_system#deploy_mode DatacenterGenericSystem#deploy_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_generic_system#deploy_mode DatacenterGenericSystem#deploy_mode}
   */
   readonly deployMode?: string;
   /**
   * Set `true` to create an External Generic System
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_generic_system#external DatacenterGenericSystem#external}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_generic_system#external DatacenterGenericSystem#external}
   */
   readonly external?: boolean | cdktf.IResolvable;
   /**
   * System hostname.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_generic_system#hostname DatacenterGenericSystem#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_generic_system#hostname DatacenterGenericSystem#hostname}
   */
   readonly hostname?: string;
   /**
   * Generic System link details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_generic_system#links DatacenterGenericSystem#links}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_generic_system#links DatacenterGenericSystem#links}
   */
   readonly links: DatacenterGenericSystemLinks[] | cdktf.IResolvable;
   /**
   * IPv4 address of loopback interface in CIDR notation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_generic_system#loopback_ipv4 DatacenterGenericSystem#loopback_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_generic_system#loopback_ipv4 DatacenterGenericSystem#loopback_ipv4}
   */
   readonly loopbackIpv4?: string;
   /**
   * IPv6 address of loopback interface in CIDR notation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_generic_system#loopback_ipv6 DatacenterGenericSystem#loopback_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_generic_system#loopback_ipv6 DatacenterGenericSystem#loopback_ipv6}
   */
   readonly loopbackIpv6?: string;
   /**
   * Name displayed in the Apstra web UI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_generic_system#name DatacenterGenericSystem#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_generic_system#name DatacenterGenericSystem#name}
   */
   readonly name?: string;
   /**
   * Omit this attribute to allow any available port-channel to be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_generic_system#port_channel_id_max DatacenterGenericSystem#port_channel_id_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_generic_system#port_channel_id_max DatacenterGenericSystem#port_channel_id_max}
   */
   readonly portChannelIdMax?: number;
   /**
   * Omit this attribute to allow any available port-channel to be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_generic_system#port_channel_id_min DatacenterGenericSystem#port_channel_id_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_generic_system#port_channel_id_min DatacenterGenericSystem#port_channel_id_min}
   */
   readonly portChannelIdMin?: number;
   /**
   * Tag labels to be applied to this Generic System. If a Tag doesn't exist in the Blueprint it will be created automatically.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_generic_system#tags DatacenterGenericSystem#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_generic_system#tags DatacenterGenericSystem#tags}
   */
   readonly tags?: string[];
 }
@@ -94,37 +94,37 @@ export interface DatacenterGenericSystemLinks {
   /**
   * This field is used to collect multiple links into aggregation groups. For example, to create two LAG pairs from four physical links, you might use `group_label` value "bond0" on two links and "bond1" on the other two links. Apstra assigns a unique group ID to each link by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_generic_system#group_label DatacenterGenericSystem#group_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_generic_system#group_label DatacenterGenericSystem#group_label}
   */
   readonly groupLabel?: string;
   /**
   * LAG negotiation mode of the Link. All links with the same `group_label` must use the value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_generic_system#lag_mode DatacenterGenericSystem#lag_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_generic_system#lag_mode DatacenterGenericSystem#lag_mode}
   */
   readonly lagMode?: string;
   /**
   * Names of Tag to be applied to this Link. If a Tag doesn't exist in the Blueprint it will be created automatically.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_generic_system#tags DatacenterGenericSystem#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_generic_system#tags DatacenterGenericSystem#tags}
   */
   readonly tags?: string[];
   /**
   * Graph Node ID of the Leaf Switch or Access Switch where the link connects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_generic_system#target_switch_id DatacenterGenericSystem#target_switch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_generic_system#target_switch_id DatacenterGenericSystem#target_switch_id}
   */
   readonly targetSwitchId: string;
   /**
   * Name of the physical interface where the link connects on the Leaf Switch or Access Switch ("ge-0/0/1" or similar).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_generic_system#target_switch_if_name DatacenterGenericSystem#target_switch_if_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_generic_system#target_switch_if_name DatacenterGenericSystem#target_switch_if_name}
   */
   readonly targetSwitchIfName: string;
   /**
   * Transformation ID sets the operational mode of an interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_generic_system#target_switch_if_transform_id DatacenterGenericSystem#target_switch_if_transform_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_generic_system#target_switch_if_transform_id DatacenterGenericSystem#target_switch_if_transform_id}
   */
   readonly targetSwitchIfTransformId: number;
 }
@@ -376,7 +376,7 @@ export class DatacenterGenericSystemLinksList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_generic_system apstra_datacenter_generic_system}
+* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_generic_system apstra_datacenter_generic_system}
 */
 export class DatacenterGenericSystem extends cdktf.TerraformResource {
 
@@ -392,7 +392,7 @@ export class DatacenterGenericSystem extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DatacenterGenericSystem resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatacenterGenericSystem to import
-  * @param importFromId The id of the existing DatacenterGenericSystem that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_generic_system#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatacenterGenericSystem that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_generic_system#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatacenterGenericSystem to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -404,7 +404,7 @@ export class DatacenterGenericSystem extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_generic_system apstra_datacenter_generic_system} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_generic_system apstra_datacenter_generic_system} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -415,7 +415,8 @@ export class DatacenterGenericSystem extends cdktf.TerraformResource {
       terraformResourceType: 'apstra_datacenter_generic_system',
       terraformGeneratorMetadata: {
         providerName: 'apstra',
-        providerVersion: '0.95.0'
+        providerVersion: '0.95.1',
+        providerVersionConstraint: '0.95.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

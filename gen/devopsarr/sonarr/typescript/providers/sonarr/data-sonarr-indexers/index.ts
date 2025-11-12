@@ -264,7 +264,8 @@ export class DataSonarrIndexers extends cdktf.TerraformDataSource {
       terraformResourceType: 'sonarr_indexers',
       terraformGeneratorMetadata: {
         providerName: 'sonarr',
-        providerVersion: '3.4.0'
+        providerVersion: '3.4.0',
+        providerVersionConstraint: '3.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

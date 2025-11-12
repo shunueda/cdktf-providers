@@ -454,7 +454,8 @@ export class MtlskeystoreClientCertificateAkamai extends cdktf.TerraformResource
       terraformResourceType: 'akamai_mtlskeystore_client_certificate_akamai',
       terraformGeneratorMetadata: {
         providerName: 'akamai',
-        providerVersion: '9.1.0'
+        providerVersion: '9.1.0',
+        providerVersionConstraint: '9.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

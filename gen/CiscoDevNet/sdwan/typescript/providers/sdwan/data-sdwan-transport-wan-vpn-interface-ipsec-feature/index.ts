@@ -70,7 +70,8 @@ export class DataSdwanTransportWanVpnInterfaceIpsecFeature extends cdktf.Terrafo
       terraformResourceType: 'sdwan_transport_wan_vpn_interface_ipsec_feature',
       terraformGeneratorMetadata: {
         providerName: 'sdwan',
-        providerVersion: '0.8.1'
+        providerVersion: '0.8.1',
+        providerVersionConstraint: '0.8.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

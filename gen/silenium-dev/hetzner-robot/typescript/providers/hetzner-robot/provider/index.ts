@@ -67,7 +67,8 @@ export class HetznerRobotProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'hetzner-robot',
       terraformGeneratorMetadata: {
         providerName: 'hetzner-robot',
-        providerVersion: '3.5.5'
+        providerVersion: '3.5.5',
+        providerVersionConstraint: '3.5.5'
       },
       terraformProviderSource: 'silenium-dev/hetzner-robot'
     });

@@ -270,7 +270,8 @@ export class PasswordPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'spectrocloud_password_policy',
       terraformGeneratorMetadata: {
         providerName: 'spectrocloud',
-        providerVersion: '0.25.2'
+        providerVersion: '0.25.2',
+        providerVersionConstraint: '0.25.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

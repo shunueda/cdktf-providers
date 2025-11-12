@@ -131,7 +131,8 @@ export class VsphereProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'vsphere',
       terraformGeneratorMetadata: {
         providerName: 'vsphere',
-        providerVersion: '2.15.0'
+        providerVersion: '2.15.0',
+        providerVersionConstraint: '2.15.0'
       },
       terraformProviderSource: 'vmware/vsphere'
     });

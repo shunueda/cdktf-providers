@@ -1193,7 +1193,8 @@ export class DataNutanixFoundationCentralClusterDetails extends cdktf.TerraformD
       terraformResourceType: 'nutanix_foundation_central_cluster_details',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3'
+        providerVersion: '2.3.3',
+        providerVersionConstraint: '2.3.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

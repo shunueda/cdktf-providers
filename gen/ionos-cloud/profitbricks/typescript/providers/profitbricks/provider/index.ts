@@ -83,7 +83,8 @@ export class ProfitbricksProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'profitbricks',
       terraformGeneratorMetadata: {
         providerName: 'profitbricks',
-        providerVersion: '1.6.5'
+        providerVersion: '1.6.5',
+        providerVersionConstraint: '1.6.5'
       },
       terraformProviderSource: 'ionos-cloud/profitbricks'
     });

@@ -71,7 +71,8 @@ export class ShipaProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'shipa',
       terraformGeneratorMetadata: {
         providerName: 'shipa',
-        providerVersion: '0.0.18'
+        providerVersion: '0.0.18',
+        providerVersionConstraint: '0.0.18'
       },
       terraformProviderSource: 'shipa-corp/shipa'
     });

@@ -339,7 +339,8 @@ export class WorkflowTaskTriggerWorkflow extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_workflow_task_trigger_workflow',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.7'
+        providerVersion: '4.3.7',
+        providerVersionConstraint: '4.3.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_override_categorization
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_override_categorization
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface ManagementOverrideCategorizationConfig extends cdktf.TerraformM
   /**
   * Uid or name of the categories to override in the Application and URL Filtering or Threat Prevention.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_override_categorization#additional_categories ManagementOverrideCategorization#additional_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_override_categorization#additional_categories ManagementOverrideCategorization#additional_categories}
   */
   readonly additionalCategories?: string[];
   /**
   * Color of the object. Should be one of existing colors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_override_categorization#color ManagementOverrideCategorization#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_override_categorization#color ManagementOverrideCategorization#color}
   */
   readonly color?: string;
   /**
   * Comments string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_override_categorization#comments ManagementOverrideCategorization#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_override_categorization#comments ManagementOverrideCategorization#comments}
   */
   readonly comments?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_override_categorization#id ManagementOverrideCategorization#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_override_categorization#id ManagementOverrideCategorization#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,49 +35,49 @@ export interface ManagementOverrideCategorizationConfig extends cdktf.TerraformM
   /**
   * Apply changes ignoring errors. You won't be able to publish such a changes. If ignore-warnings flag was omitted - warnings will also be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_override_categorization#ignore_errors ManagementOverrideCategorization#ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_override_categorization#ignore_errors ManagementOverrideCategorization#ignore_errors}
   */
   readonly ignoreErrors?: boolean | cdktf.IResolvable;
   /**
   * Apply changes ignoring warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_override_categorization#ignore_warnings ManagementOverrideCategorization#ignore_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_override_categorization#ignore_warnings ManagementOverrideCategorization#ignore_warnings}
   */
   readonly ignoreWarnings?: boolean | cdktf.IResolvable;
   /**
   * Uid or name of the primary category based on its most defining aspect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_override_categorization#new_primary_category ManagementOverrideCategorization#new_primary_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_override_categorization#new_primary_category ManagementOverrideCategorization#new_primary_category}
   */
   readonly newPrimaryCategory?: string;
   /**
   * States the override categorization risk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_override_categorization#risk ManagementOverrideCategorization#risk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_override_categorization#risk ManagementOverrideCategorization#risk}
   */
   readonly risk?: string;
   /**
   * Collection of tag identifiers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_override_categorization#tags ManagementOverrideCategorization#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_override_categorization#tags ManagementOverrideCategorization#tags}
   */
   readonly tags?: string[];
   /**
   * The URL for which we want to update the category and risk definitions, the URL and the object name are the same for Override Categorization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_override_categorization#url ManagementOverrideCategorization#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_override_categorization#url ManagementOverrideCategorization#url}
   */
   readonly url: string;
   /**
   * States whether the URL is defined as a Regular Expression or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_override_categorization#url_defined_as_regular_expression ManagementOverrideCategorization#url_defined_as_regular_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_override_categorization#url_defined_as_regular_expression ManagementOverrideCategorization#url_defined_as_regular_expression}
   */
   readonly urlDefinedAsRegularExpression?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_override_categorization checkpoint_management_override_categorization}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_override_categorization checkpoint_management_override_categorization}
 */
 export class ManagementOverrideCategorization extends cdktf.TerraformResource {
 
@@ -93,7 +93,7 @@ export class ManagementOverrideCategorization extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementOverrideCategorization resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementOverrideCategorization to import
-  * @param importFromId The id of the existing ManagementOverrideCategorization that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_override_categorization#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementOverrideCategorization that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_override_categorization#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementOverrideCategorization to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -105,7 +105,7 @@ export class ManagementOverrideCategorization extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_override_categorization checkpoint_management_override_categorization} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_override_categorization checkpoint_management_override_categorization} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -116,7 +116,8 @@ export class ManagementOverrideCategorization extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_override_categorization',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

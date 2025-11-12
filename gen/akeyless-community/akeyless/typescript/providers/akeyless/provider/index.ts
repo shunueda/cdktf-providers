@@ -538,7 +538,8 @@ export class AkeylessProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'akeyless',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1'
+        providerVersion: '1.11.1',
+        providerVersionConstraint: '1.11.1'
       },
       terraformProviderSource: 'akeyless-community/akeyless'
     });

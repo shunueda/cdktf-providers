@@ -393,7 +393,8 @@ export class MysqlProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'mysql',
       terraformGeneratorMetadata: {
         providerName: 'mysql',
-        providerVersion: '3.0.84'
+        providerVersion: '3.0.84',
+        providerVersionConstraint: '3.0.84'
       },
       terraformProviderSource: 'petoju/mysql'
     });

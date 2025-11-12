@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_templates_assignment
+// https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_templates_assignment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface DatacenterConnectivityTemplatesAssignmentConfig extends cdktf.T
   /**
   * Apstra node ID of the Interface or System where the Connectivity Templates should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_templates_assignment#application_point_id DatacenterConnectivityTemplatesAssignment#application_point_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_templates_assignment#application_point_id DatacenterConnectivityTemplatesAssignment#application_point_id}
   */
   readonly applicationPointId: string;
   /**
   * Apstra Blueprint ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_templates_assignment#blueprint_id DatacenterConnectivityTemplatesAssignment#blueprint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_templates_assignment#blueprint_id DatacenterConnectivityTemplatesAssignment#blueprint_id}
   */
   readonly blueprintId: string;
   /**
   * Set of Connectivity Template IDs which should be applied to the Application Point.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_templates_assignment#connectivity_template_ids DatacenterConnectivityTemplatesAssignment#connectivity_template_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_templates_assignment#connectivity_template_ids DatacenterConnectivityTemplatesAssignment#connectivity_template_ids}
   */
   readonly connectivityTemplateIds: string[];
   /**
   * When `true`, the read-only `ip_link_ids` attribute will be populated. Default behavior skips retrieving `ip_link_ids` to improve performance in scenarios where this information is not needed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_templates_assignment#fetch_ip_link_ids DatacenterConnectivityTemplatesAssignment#fetch_ip_link_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_templates_assignment#fetch_ip_link_ids DatacenterConnectivityTemplatesAssignment#fetch_ip_link_ids}
   */
   readonly fetchIpLinkIds?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_templates_assignment apstra_datacenter_connectivity_templates_assignment}
+* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_templates_assignment apstra_datacenter_connectivity_templates_assignment}
 */
 export class DatacenterConnectivityTemplatesAssignment extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class DatacenterConnectivityTemplatesAssignment extends cdktf.TerraformRe
   * Generates CDKTF code for importing a DatacenterConnectivityTemplatesAssignment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatacenterConnectivityTemplatesAssignment to import
-  * @param importFromId The id of the existing DatacenterConnectivityTemplatesAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_templates_assignment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatacenterConnectivityTemplatesAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_templates_assignment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatacenterConnectivityTemplatesAssignment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class DatacenterConnectivityTemplatesAssignment extends cdktf.TerraformRe
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_templates_assignment apstra_datacenter_connectivity_templates_assignment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_templates_assignment apstra_datacenter_connectivity_templates_assignment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,7 +73,8 @@ export class DatacenterConnectivityTemplatesAssignment extends cdktf.TerraformRe
       terraformResourceType: 'apstra_datacenter_connectivity_templates_assignment',
       terraformGeneratorMetadata: {
         providerName: 'apstra',
-        providerVersion: '0.95.0'
+        providerVersion: '0.95.1',
+        providerVersionConstraint: '0.95.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

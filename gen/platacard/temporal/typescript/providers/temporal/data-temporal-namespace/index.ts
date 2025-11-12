@@ -67,7 +67,8 @@ export class DataTemporalNamespace extends cdktf.TerraformDataSource {
       terraformResourceType: 'temporal_namespace',
       terraformGeneratorMetadata: {
         providerName: 'temporal',
-        providerVersion: '0.14.0'
+        providerVersion: '0.14.0',
+        providerVersionConstraint: '0.14.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

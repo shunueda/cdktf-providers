@@ -85,7 +85,8 @@ export class BridgecrewProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'bridgecrew',
       terraformGeneratorMetadata: {
         providerName: 'bridgecrew',
-        providerVersion: '0.3.7'
+        providerVersion: '0.3.7',
+        providerVersionConstraint: '0.3.7'
       },
       terraformProviderSource: 'PaloAltoNetworks/bridgecrew'
     });

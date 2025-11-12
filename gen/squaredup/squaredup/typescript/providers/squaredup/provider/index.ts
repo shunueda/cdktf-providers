@@ -67,7 +67,8 @@ export class SquaredupProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'squaredup',
       terraformGeneratorMetadata: {
         providerName: 'squaredup',
-        providerVersion: '1.5.0'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       terraformProviderSource: 'squaredup/squaredup'
     });

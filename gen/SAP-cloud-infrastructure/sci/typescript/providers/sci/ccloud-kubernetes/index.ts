@@ -1239,7 +1239,8 @@ export class CcloudKubernetes extends cdktf.TerraformResource {
       terraformResourceType: 'ccloud_kubernetes',
       terraformGeneratorMetadata: {
         providerName: 'sci',
-        providerVersion: '2.2.1'
+        providerVersion: '2.2.1',
+        providerVersionConstraint: '2.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

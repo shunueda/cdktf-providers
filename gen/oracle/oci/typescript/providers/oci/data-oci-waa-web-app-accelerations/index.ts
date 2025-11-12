@@ -468,7 +468,8 @@ export class DataOciWaaWebAppAccelerations extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_waa_web_app_accelerations',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

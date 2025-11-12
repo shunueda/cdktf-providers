@@ -80,7 +80,8 @@ export class Topic extends cdktf.TerraformResource {
       terraformResourceType: 'kafka_topic',
       terraformGeneratorMetadata: {
         providerName: 'kafka',
-        providerVersion: '0.13.1'
+        providerVersion: '0.13.1',
+        providerVersionConstraint: '0.13.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -202,7 +202,8 @@ export class DataSamsungcloudplatformVpcRoutingTables extends cdktf.TerraformDat
       terraformResourceType: 'samsungcloudplatform_vpc_routing_tables',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0'
+        providerVersion: '3.15.0',
+        providerVersionConstraint: '3.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

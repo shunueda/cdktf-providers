@@ -246,7 +246,8 @@ export class IntegrationOracleManagedCustomEndpoint extends cdktf.TerraformResou
       terraformResourceType: 'oci_integration_oracle_managed_custom_endpoint',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

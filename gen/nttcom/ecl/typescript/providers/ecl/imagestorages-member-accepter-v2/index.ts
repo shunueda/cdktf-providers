@@ -168,7 +168,8 @@ export class ImagestoragesMemberAccepterV2 extends cdktf.TerraformResource {
       terraformResourceType: 'ecl_imagestorages_member_accepter_v2',
       terraformGeneratorMetadata: {
         providerName: 'ecl',
-        providerVersion: '2.12.1'
+        providerVersion: '2.12.1',
+        providerVersionConstraint: '2.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

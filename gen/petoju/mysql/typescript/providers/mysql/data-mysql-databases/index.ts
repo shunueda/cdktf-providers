@@ -60,7 +60,8 @@ export class DataMysqlDatabases extends cdktf.TerraformDataSource {
       terraformResourceType: 'mysql_databases',
       terraformGeneratorMetadata: {
         providerName: 'mysql',
-        providerVersion: '3.0.84'
+        providerVersion: '3.0.84',
+        providerVersionConstraint: '3.0.84'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

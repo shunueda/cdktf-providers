@@ -1537,7 +1537,8 @@ export class DataK8SResourcesTeleportDevTeleportOidcConnectorV3Manifest extends 
       terraformResourceType: 'k8s_resources_teleport_dev_teleport_oidc_connector_v3_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

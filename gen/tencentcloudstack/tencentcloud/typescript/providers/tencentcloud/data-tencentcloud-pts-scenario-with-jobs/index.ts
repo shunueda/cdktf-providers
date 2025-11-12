@@ -4333,7 +4333,8 @@ export class DataTencentcloudPtsScenarioWithJobs extends cdktf.TerraformDataSour
       terraformResourceType: 'tencentcloud_pts_scenario_with_jobs',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

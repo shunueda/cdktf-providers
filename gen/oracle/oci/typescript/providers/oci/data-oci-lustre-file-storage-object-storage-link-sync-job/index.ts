@@ -64,7 +64,8 @@ export class DataOciLustreFileStorageObjectStorageLinkSyncJob extends cdktf.Terr
       terraformResourceType: 'oci_lustre_file_storage_object_storage_link_sync_job',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

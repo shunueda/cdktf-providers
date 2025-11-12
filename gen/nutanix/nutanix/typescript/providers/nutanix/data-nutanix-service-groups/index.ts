@@ -939,7 +939,8 @@ export class DataNutanixServiceGroups extends cdktf.TerraformDataSource {
       terraformResourceType: 'nutanix_service_groups',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3'
+        providerVersion: '2.3.3',
+        providerVersionConstraint: '2.3.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

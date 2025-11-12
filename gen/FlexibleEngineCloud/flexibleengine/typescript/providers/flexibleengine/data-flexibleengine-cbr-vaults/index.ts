@@ -353,7 +353,8 @@ export class DataFlexibleengineCbrVaults extends cdktf.TerraformDataSource {
       terraformResourceType: 'flexibleengine_cbr_vaults',
       terraformGeneratorMetadata: {
         providerName: 'flexibleengine',
-        providerVersion: '1.46.0'
+        providerVersion: '1.46.0',
+        providerVersionConstraint: '1.46.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

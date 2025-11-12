@@ -55,7 +55,8 @@ export class DataCorefuncStrKebab extends cdktf.TerraformDataSource {
       terraformResourceType: 'corefunc_str_kebab',
       terraformGeneratorMetadata: {
         providerName: 'corefunc',
-        providerVersion: '2.1.0'
+        providerVersion: '2.1.0',
+        providerVersionConstraint: '2.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -86,7 +86,8 @@ export class DataHarnessPlatformEnvironmentServiceOverrides extends cdktf.Terraf
       terraformResourceType: 'harness_platform_environment_service_overrides',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.0'
+        providerVersion: '0.39.0',
+        providerVersionConstraint: '0.39.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

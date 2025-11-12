@@ -240,7 +240,8 @@ export class NetappOntapProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'netapp-ontap',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0'
+        providerVersion: '2.3.0',
+        providerVersionConstraint: '2.3.0'
       },
       terraformProviderSource: 'NetApp/netapp-ontap'
     });

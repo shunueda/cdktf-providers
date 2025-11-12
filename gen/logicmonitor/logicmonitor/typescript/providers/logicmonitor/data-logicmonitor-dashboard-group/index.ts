@@ -686,7 +686,8 @@ export class DataLogicmonitorDashboardGroup extends cdktf.TerraformDataSource {
       terraformResourceType: 'logicmonitor_dashboard_group',
       terraformGeneratorMetadata: {
         providerName: 'logicmonitor',
-        providerVersion: '2.0.25'
+        providerVersion: '2.0.25',
+        providerVersionConstraint: '2.0.25'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/function
+// https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/function
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,58 +8,58 @@ import * as cdktf from 'cdktf';
 
 export interface FunctionResourceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/function#command FunctionResource#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/function#command FunctionResource#command}
   */
   readonly command?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/function#docker_credentials FunctionResource#docker_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/function#docker_credentials FunctionResource#docker_credentials}
   */
   readonly dockerCredentials?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/function#docker_image FunctionResource#docker_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/function#docker_image FunctionResource#docker_image}
   */
   readonly dockerImage: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/function#environment FunctionResource#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/function#environment FunctionResource#environment}
   */
   readonly environment?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/function#id FunctionResource#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/function#id FunctionResource#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/function#name FunctionResource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/function#name FunctionResource#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/function#run_every FunctionResource#run_every}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/function#run_every FunctionResource#run_every}
   */
   readonly runEvery?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/function#schedule FunctionResource#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/function#schedule FunctionResource#schedule}
   */
   readonly schedule?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/function#start_at FunctionResource#start_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/function#start_at FunctionResource#start_at}
   */
   readonly startAt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/function#timeout FunctionResource#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/function#timeout FunctionResource#timeout}
   */
   readonly timeout?: number;
   /**
   * backend block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/function#backend FunctionResource#backend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/function#backend FunctionResource#backend}
   */
   readonly backend: FunctionResourceBackend;
 }
 export interface FunctionResourceBackend {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/function#credentials FunctionResource#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/function#credentials FunctionResource#credentials}
   */
   readonly credentials?: { [key: string]: string };
 }
@@ -143,7 +143,7 @@ export class FunctionResourceBackendOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/function hsdp_function}
+* Represents a {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/function hsdp_function}
 */
 export class FunctionResource extends cdktf.TerraformResource {
 
@@ -159,7 +159,7 @@ export class FunctionResource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FunctionResource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FunctionResource to import
-  * @param importFromId The id of the existing FunctionResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/function#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FunctionResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/function#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FunctionResource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -171,7 +171,7 @@ export class FunctionResource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/function hsdp_function} Resource
+  * Create a new {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/function hsdp_function} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -182,7 +182,8 @@ export class FunctionResource extends cdktf.TerraformResource {
       terraformResourceType: 'hsdp_function',
       terraformGeneratorMetadata: {
         providerName: 'hsdp',
-        providerVersion: '0.70.0'
+        providerVersion: '0.71.0',
+        providerVersionConstraint: '0.71.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

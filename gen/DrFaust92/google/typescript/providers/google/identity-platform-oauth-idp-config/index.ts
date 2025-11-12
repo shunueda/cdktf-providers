@@ -262,7 +262,8 @@ export class IdentityPlatformOauthIdpConfig extends cdktf.TerraformResource {
       terraformResourceType: 'google_identity_platform_oauth_idp_config',
       terraformGeneratorMetadata: {
         providerName: 'google',
-        providerVersion: '4.16.4'
+        providerVersion: '4.16.4',
+        providerVersionConstraint: '4.16.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

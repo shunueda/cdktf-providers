@@ -61,7 +61,8 @@ export class EmailForward extends cdktf.TerraformResource {
       terraformResourceType: 'dnsimple_email_forward',
       terraformGeneratorMetadata: {
         providerName: 'dnsimple',
-        providerVersion: '1.10.0'
+        providerVersion: '1.10.0',
+        providerVersionConstraint: '1.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

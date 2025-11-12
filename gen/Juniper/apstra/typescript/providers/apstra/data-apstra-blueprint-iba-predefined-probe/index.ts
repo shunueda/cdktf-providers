@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/blueprint_iba_predefined_probe
+// https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/blueprint_iba_predefined_probe
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataApstraBlueprintIbaPredefinedProbeConfig extends cdktf.Terra
   /**
   * Apstra Blueprint ID. Used to identify the Blueprint that the IBA Predefined Probe belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/blueprint_iba_predefined_probe#blueprint_id DataApstraBlueprintIbaPredefinedProbe#blueprint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/blueprint_iba_predefined_probe#blueprint_id DataApstraBlueprintIbaPredefinedProbe#blueprint_id}
   */
   readonly blueprintId: string;
   /**
   * Populate this field to look up an IBA Predefined Probe.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/blueprint_iba_predefined_probe#name DataApstraBlueprintIbaPredefinedProbe#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/blueprint_iba_predefined_probe#name DataApstraBlueprintIbaPredefinedProbe#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/blueprint_iba_predefined_probe apstra_blueprint_iba_predefined_probe}
+* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/blueprint_iba_predefined_probe apstra_blueprint_iba_predefined_probe}
 */
 export class DataApstraBlueprintIbaPredefinedProbe extends cdktf.TerraformDataSource {
 
@@ -38,7 +38,7 @@ export class DataApstraBlueprintIbaPredefinedProbe extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataApstraBlueprintIbaPredefinedProbe resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataApstraBlueprintIbaPredefinedProbe to import
-  * @param importFromId The id of the existing DataApstraBlueprintIbaPredefinedProbe that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/blueprint_iba_predefined_probe#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataApstraBlueprintIbaPredefinedProbe that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/blueprint_iba_predefined_probe#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataApstraBlueprintIbaPredefinedProbe to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class DataApstraBlueprintIbaPredefinedProbe extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/blueprint_iba_predefined_probe apstra_blueprint_iba_predefined_probe} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/blueprint_iba_predefined_probe apstra_blueprint_iba_predefined_probe} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,7 +61,8 @@ export class DataApstraBlueprintIbaPredefinedProbe extends cdktf.TerraformDataSo
       terraformResourceType: 'apstra_blueprint_iba_predefined_probe',
       terraformGeneratorMetadata: {
         providerName: 'apstra',
-        providerVersion: '0.95.0'
+        providerVersion: '0.95.1',
+        providerVersionConstraint: '0.95.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

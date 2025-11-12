@@ -74,7 +74,8 @@ export class CamPolicyByName extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cam_policy_by_name',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

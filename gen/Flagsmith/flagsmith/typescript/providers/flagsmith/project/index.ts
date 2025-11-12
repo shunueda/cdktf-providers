@@ -97,7 +97,8 @@ export class Project extends cdktf.TerraformResource {
       terraformResourceType: 'flagsmith_project',
       terraformGeneratorMetadata: {
         providerName: 'flagsmith',
-        providerVersion: '0.9.1'
+        providerVersion: '0.9.1',
+        providerVersionConstraint: '0.9.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

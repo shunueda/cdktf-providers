@@ -68,7 +68,8 @@ export class DataOciLogAnalyticsNamespaceStorageRecalledDataSize extends cdktf.T
       terraformResourceType: 'oci_log_analytics_namespace_storage_recalled_data_size',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

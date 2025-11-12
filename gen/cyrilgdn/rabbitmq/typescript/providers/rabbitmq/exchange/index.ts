@@ -250,7 +250,8 @@ export class Exchange extends cdktf.TerraformResource {
       terraformResourceType: 'rabbitmq_exchange',
       terraformGeneratorMetadata: {
         providerName: 'rabbitmq',
-        providerVersion: '1.10.1'
+        providerVersion: '1.10.1',
+        providerVersionConstraint: '1.10.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

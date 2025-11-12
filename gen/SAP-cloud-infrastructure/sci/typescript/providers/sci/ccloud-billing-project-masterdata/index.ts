@@ -575,7 +575,8 @@ export class CcloudBillingProjectMasterdata extends cdktf.TerraformResource {
       terraformResourceType: 'ccloud_billing_project_masterdata',
       terraformGeneratorMetadata: {
         providerName: 'sci',
-        providerVersion: '2.2.1'
+        providerVersion: '2.2.1',
+        providerVersionConstraint: '2.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

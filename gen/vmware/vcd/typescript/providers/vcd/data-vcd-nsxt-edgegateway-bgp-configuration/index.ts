@@ -68,7 +68,8 @@ export class DataVcdNsxtEdgegatewayBgpConfiguration extends cdktf.TerraformDataS
       terraformResourceType: 'vcd_nsxt_edgegateway_bgp_configuration',
       terraformGeneratorMetadata: {
         providerName: 'vcd',
-        providerVersion: '3.14.1'
+        providerVersion: '3.14.1',
+        providerVersionConstraint: '3.14.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -81,7 +81,8 @@ export class EnvironmentsProxyConfiguration extends cdktf.TerraformResource {
       terraformResourceType: 'cdp_environments_proxy_configuration',
       terraformGeneratorMetadata: {
         providerName: 'cdp',
-        providerVersion: '0.10.8'
+        providerVersion: '0.10.8',
+        providerVersionConstraint: '0.10.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

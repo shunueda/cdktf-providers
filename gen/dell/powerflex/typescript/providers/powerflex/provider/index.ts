@@ -85,7 +85,8 @@ export class PowerflexProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'powerflex',
       terraformGeneratorMetadata: {
         providerName: 'powerflex',
-        providerVersion: '1.8.0'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       terraformProviderSource: 'dell/powerflex'
     });

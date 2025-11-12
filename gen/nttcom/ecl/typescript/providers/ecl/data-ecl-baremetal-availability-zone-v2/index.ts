@@ -60,7 +60,8 @@ export class DataEclBaremetalAvailabilityZoneV2 extends cdktf.TerraformDataSourc
       terraformResourceType: 'ecl_baremetal_availability_zone_v2',
       terraformGeneratorMetadata: {
         providerName: 'ecl',
-        providerVersion: '2.12.1'
+        providerVersion: '2.12.1',
+        providerVersionConstraint: '2.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -68,7 +68,8 @@ export class ExternalId extends cdktf.TerraformResource {
       terraformResourceType: 'lacework_external_id',
       terraformGeneratorMetadata: {
         providerName: 'lacework',
-        providerVersion: '2.0.10'
+        providerVersion: '2.0.10',
+        providerVersionConstraint: '2.0.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

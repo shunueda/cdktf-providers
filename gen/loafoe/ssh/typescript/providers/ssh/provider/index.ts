@@ -61,7 +61,8 @@ export class SshProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'ssh',
       terraformGeneratorMetadata: {
         providerName: 'ssh',
-        providerVersion: '2.7.0'
+        providerVersion: '2.7.0',
+        providerVersionConstraint: '2.7.0'
       },
       terraformProviderSource: 'loafoe/ssh'
     });

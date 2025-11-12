@@ -456,7 +456,8 @@ export class DataNdfcVrfs extends cdktf.TerraformDataSource {
       terraformResourceType: 'ndfc_vrfs',
       terraformGeneratorMetadata: {
         providerName: 'ndfc',
-        providerVersion: '0.2.0'
+        providerVersion: '0.2.0',
+        providerVersionConstraint: '0.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

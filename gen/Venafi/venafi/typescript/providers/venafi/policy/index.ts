@@ -68,7 +68,8 @@ export class Policy extends cdktf.TerraformResource {
       terraformResourceType: 'venafi_policy',
       terraformGeneratorMetadata: {
         providerName: 'venafi',
-        providerVersion: '0.23.1'
+        providerVersion: '0.23.1',
+        providerVersionConstraint: '0.23.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

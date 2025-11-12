@@ -60,7 +60,8 @@ export class DataAlicloudDataWorksService extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_data_works_service',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

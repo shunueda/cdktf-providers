@@ -388,7 +388,8 @@ export class DataGenesiscloudImages extends cdktf.TerraformDataSource {
       terraformResourceType: 'genesiscloud_images',
       terraformGeneratorMetadata: {
         providerName: 'genesiscloud',
-        providerVersion: '1.1.14'
+        providerVersion: '1.1.14',
+        providerVersionConstraint: '1.1.14'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

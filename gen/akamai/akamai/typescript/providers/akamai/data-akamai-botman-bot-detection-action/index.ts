@@ -68,7 +68,8 @@ export class DataAkamaiBotmanBotDetectionAction extends cdktf.TerraformDataSourc
       terraformResourceType: 'akamai_botman_bot_detection_action',
       terraformGeneratorMetadata: {
         providerName: 'akamai',
-        providerVersion: '9.1.0'
+        providerVersion: '9.1.0',
+        providerVersionConstraint: '9.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

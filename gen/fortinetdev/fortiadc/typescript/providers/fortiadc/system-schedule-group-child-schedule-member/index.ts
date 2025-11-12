@@ -96,7 +96,8 @@ export class SystemScheduleGroupChildScheduleMember extends cdktf.TerraformResou
       terraformResourceType: 'fortiadc_system_schedule_group_child_schedule_member',
       terraformGeneratorMetadata: {
         providerName: 'fortiadc',
-        providerVersion: '1.3.1'
+        providerVersion: '1.3.1',
+        providerVersionConstraint: '1.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

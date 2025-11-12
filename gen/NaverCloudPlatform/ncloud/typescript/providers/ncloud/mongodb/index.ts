@@ -290,7 +290,8 @@ export class Mongodb extends cdktf.TerraformResource {
       terraformResourceType: 'ncloud_mongodb',
       terraformGeneratorMetadata: {
         providerName: 'ncloud',
-        providerVersion: '4.0.4'
+        providerVersion: '4.0.4',
+        providerVersionConstraint: '4.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -2929,7 +2929,8 @@ export class DataCriblioSearchDatasetProvider extends cdktf.TerraformDataSource 
       terraformResourceType: 'criblio_search_dataset_provider',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.18.21'
+        providerVersion: '1.18.21',
+        providerVersionConstraint: '1.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

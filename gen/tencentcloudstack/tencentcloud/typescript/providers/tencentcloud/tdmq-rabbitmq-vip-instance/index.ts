@@ -218,7 +218,8 @@ export class TdmqRabbitmqVipInstance extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_tdmq_rabbitmq_vip_instance',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

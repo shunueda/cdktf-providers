@@ -262,7 +262,8 @@ export class DataNhncloudKeymanagerSecretV1 extends cdktf.TerraformDataSource {
       terraformResourceType: 'nhncloud_keymanager_secret_v1',
       terraformGeneratorMetadata: {
         providerName: 'nhncloud',
-        providerVersion: '1.0.6'
+        providerVersion: '1.0.6',
+        providerVersionConstraint: '1.0.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -267,7 +267,8 @@ export class DataMetalConnection extends cdktf.TerraformDataSource {
       terraformResourceType: 'metal_connection',
       terraformGeneratorMetadata: {
         providerName: 'metal',
-        providerVersion: '3.3.0'
+        providerVersion: '3.3.0',
+        providerVersionConstraint: '3.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

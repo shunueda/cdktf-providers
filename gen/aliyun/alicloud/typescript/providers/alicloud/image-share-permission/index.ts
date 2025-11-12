@@ -64,7 +64,8 @@ export class ImageSharePermission extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_image_share_permission',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

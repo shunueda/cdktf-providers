@@ -264,7 +264,8 @@ export class DataPowerplatformLocations extends cdktf.TerraformDataSource {
       terraformResourceType: 'powerplatform_locations',
       terraformGeneratorMetadata: {
         providerName: 'power-platform',
-        providerVersion: '3.9.1'
+        providerVersion: '3.9.1',
+        providerVersionConstraint: '3.9.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -215,7 +215,8 @@ export class DataNetboxJsonDcimManufacturersList extends cdktf.TerraformDataSour
       terraformResourceType: 'netbox_json_dcim_manufacturers_list',
       terraformGeneratorMetadata: {
         providerName: 'netbox',
-        providerVersion: '8.0.2'
+        providerVersion: '8.0.2',
+        providerVersionConstraint: '8.0.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

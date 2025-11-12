@@ -103,7 +103,8 @@ export class DomainRecord extends cdktf.TerraformResource {
       terraformResourceType: 'buddy_domain_record',
       terraformGeneratorMetadata: {
         providerName: 'buddy',
-        providerVersion: '1.37.1'
+        providerVersion: '1.37.1',
+        providerVersionConstraint: '1.37.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

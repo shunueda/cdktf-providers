@@ -184,7 +184,8 @@ export class DvmdbAdom extends cdktf.TerraformResource {
       terraformResourceType: 'fortianalyzer_dvmdb_adom',
       terraformGeneratorMetadata: {
         providerName: 'fortianalyzer',
-        providerVersion: '1.5.1'
+        providerVersion: '1.5.1',
+        providerVersionConstraint: '1.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

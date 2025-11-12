@@ -180,7 +180,8 @@ export class DataSbercloudDmsRocketmqConsumerGroups extends cdktf.TerraformDataS
       terraformResourceType: 'sbercloud_dms_rocketmq_consumer_groups',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14'
+        providerVersion: '1.12.14',
+        providerVersionConstraint: '1.12.14'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

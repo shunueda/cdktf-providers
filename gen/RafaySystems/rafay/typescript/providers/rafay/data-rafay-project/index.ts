@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/project
+// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/project
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataRafayProjectConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/project#id DataRafayProject#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/project#id DataRafayProject#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface DataRafayProjectConfig extends cdktf.TerraformMetaArguments {
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/project#metadata DataRafayProject#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/project#metadata DataRafayProject#metadata}
   */
   readonly metadata?: DataRafayProjectMetadata;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/project#spec DataRafayProject#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/project#spec DataRafayProject#spec}
   */
   readonly spec?: DataRafayProjectSpec;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/project#timeouts DataRafayProject#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/project#timeouts DataRafayProject#timeouts}
   */
   readonly timeouts?: DataRafayProjectTimeouts;
 }
@@ -37,7 +37,7 @@ export interface DataRafayProjectMetadataCreatedBy {
   /**
   * Id of the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/project#id DataRafayProject#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/project#id DataRafayProject#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -46,13 +46,13 @@ export interface DataRafayProjectMetadataCreatedBy {
   /**
   * Whether person is logged in using sso
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/project#is_sso_user DataRafayProject#is_sso_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/project#is_sso_user DataRafayProject#is_sso_user}
   */
   readonly isSsoUser?: boolean | cdktf.IResolvable;
   /**
   * Username fo the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/project#username DataRafayProject#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/project#username DataRafayProject#username}
   */
   readonly username?: string;
 }
@@ -196,7 +196,7 @@ export interface DataRafayProjectMetadataModifiedBy {
   /**
   * Id of the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/project#id DataRafayProject#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/project#id DataRafayProject#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -205,13 +205,13 @@ export interface DataRafayProjectMetadataModifiedBy {
   /**
   * Whether person is logged in using sso
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/project#is_sso_user DataRafayProject#is_sso_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/project#is_sso_user DataRafayProject#is_sso_user}
   */
   readonly isSsoUser?: boolean | cdktf.IResolvable;
   /**
   * Username fo the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/project#username DataRafayProject#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/project#username DataRafayProject#username}
   */
   readonly username?: string;
 }
@@ -355,49 +355,49 @@ export interface DataRafayProjectMetadata {
   /**
   * annotations of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/project#annotations DataRafayProject#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/project#annotations DataRafayProject#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * description of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/project#description DataRafayProject#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/project#description DataRafayProject#description}
   */
   readonly description?: string;
   /**
   * Display Name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/project#display_name DataRafayProject#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/project#display_name DataRafayProject#display_name}
   */
   readonly displayName?: string;
   /**
   * labels of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/project#labels DataRafayProject#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/project#labels DataRafayProject#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/project#name DataRafayProject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/project#name DataRafayProject#name}
   */
   readonly name?: string;
   /**
   * Project of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/project#project DataRafayProject#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/project#project DataRafayProject#project}
   */
   readonly project?: string;
   /**
   * created_by block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/project#created_by DataRafayProject#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/project#created_by DataRafayProject#created_by}
   */
   readonly createdBy?: DataRafayProjectMetadataCreatedBy;
   /**
   * modified_by block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/project#modified_by DataRafayProject#modified_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/project#modified_by DataRafayProject#modified_by}
   */
   readonly modifiedBy?: DataRafayProjectMetadataModifiedBy;
 }
@@ -686,103 +686,103 @@ export interface DataRafayProjectSpecClusterResourceQuota {
   /**
   * The maximum number of ConfigMaps that can exist in the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/project#config_maps DataRafayProject#config_maps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/project#config_maps DataRafayProject#config_maps}
   */
   readonly configMaps?: string;
   /**
   * The maximum amount of CPU (in millicores) allocated to the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/project#cpu_limits DataRafayProject#cpu_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/project#cpu_limits DataRafayProject#cpu_limits}
   */
   readonly cpuLimits?: string;
   /**
   * The minimum amount of CPU (in millicores) guaranteed to the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/project#cpu_requests DataRafayProject#cpu_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/project#cpu_requests DataRafayProject#cpu_requests}
   */
   readonly cpuRequests?: string;
   /**
   * The maximum amount of ephemeral storage (in bytes) allocated to the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/project#ephemeral_storage_limits DataRafayProject#ephemeral_storage_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/project#ephemeral_storage_limits DataRafayProject#ephemeral_storage_limits}
   */
   readonly ephemeralStorageLimits?: string;
   /**
   * The minimum amount of ephemeral storage (in bytes) guaranteed to the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/project#ephemeral_storage_requests DataRafayProject#ephemeral_storage_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/project#ephemeral_storage_requests DataRafayProject#ephemeral_storage_requests}
   */
   readonly ephemeralStorageRequests?: string;
   /**
   * The maximum number of GPUs allocated to the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/project#gpu_limits DataRafayProject#gpu_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/project#gpu_limits DataRafayProject#gpu_limits}
   */
   readonly gpuLimits?: string;
   /**
   * The minimum number of GPUs guaranteed to the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/project#gpu_requests DataRafayProject#gpu_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/project#gpu_requests DataRafayProject#gpu_requests}
   */
   readonly gpuRequests?: string;
   /**
   * The maximum amount of memory (in bytes) allocated to the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/project#memory_limits DataRafayProject#memory_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/project#memory_limits DataRafayProject#memory_limits}
   */
   readonly memoryLimits?: string;
   /**
   * The minimum amount of memory (in bytes) guaranteed to the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/project#memory_requests DataRafayProject#memory_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/project#memory_requests DataRafayProject#memory_requests}
   */
   readonly memoryRequests?: string;
   /**
   * The maximum number of persistent volume claims that can exist in the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/project#persistent_volume_claims DataRafayProject#persistent_volume_claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/project#persistent_volume_claims DataRafayProject#persistent_volume_claims}
   */
   readonly persistentVolumeClaims?: string;
   /**
   * The maximum number of pods that can exist in the project/namespace in a non-terminal state(i.e., pods with a state of .status.phase in (Failed, Succeeded) equal to true)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/project#pods DataRafayProject#pods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/project#pods DataRafayProject#pods}
   */
   readonly pods?: string;
   /**
   * The maximum number of replication controllers that can exist in the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/project#replication_controllers DataRafayProject#replication_controllers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/project#replication_controllers DataRafayProject#replication_controllers}
   */
   readonly replicationControllers?: string;
   /**
   * The maximum number of secrets that can exist in the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/project#secrets DataRafayProject#secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/project#secrets DataRafayProject#secrets}
   */
   readonly secrets?: string;
   /**
   * The maximum number of services that can exist in the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/project#services DataRafayProject#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/project#services DataRafayProject#services}
   */
   readonly services?: string;
   /**
   * The maximum number of load balancers services that can exist in the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/project#services_load_balancers DataRafayProject#services_load_balancers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/project#services_load_balancers DataRafayProject#services_load_balancers}
   */
   readonly servicesLoadBalancers?: string;
   /**
   * The maximum number of node port services that can exist in the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/project#services_node_ports DataRafayProject#services_node_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/project#services_node_ports DataRafayProject#services_node_ports}
   */
   readonly servicesNodePorts?: string;
   /**
   * The minimum amount of storage (in gigabytes) guaranteed to the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/project#storage_requests DataRafayProject#storage_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/project#storage_requests DataRafayProject#storage_requests}
   */
   readonly storageRequests?: string;
 }
@@ -1332,103 +1332,103 @@ export interface DataRafayProjectSpecDefaultClusterNamespaceQuota {
   /**
   * The maximum number of ConfigMaps that can exist in the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/project#config_maps DataRafayProject#config_maps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/project#config_maps DataRafayProject#config_maps}
   */
   readonly configMaps?: string;
   /**
   * The maximum amount of CPU (in millicores) allocated to the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/project#cpu_limits DataRafayProject#cpu_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/project#cpu_limits DataRafayProject#cpu_limits}
   */
   readonly cpuLimits?: string;
   /**
   * The minimum amount of CPU (in millicores) guaranteed to the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/project#cpu_requests DataRafayProject#cpu_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/project#cpu_requests DataRafayProject#cpu_requests}
   */
   readonly cpuRequests?: string;
   /**
   * The maximum amount of ephemeral storage (in bytes) allocated to the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/project#ephemeral_storage_limits DataRafayProject#ephemeral_storage_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/project#ephemeral_storage_limits DataRafayProject#ephemeral_storage_limits}
   */
   readonly ephemeralStorageLimits?: string;
   /**
   * The minimum amount of ephemeral storage (in bytes) guaranteed to the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/project#ephemeral_storage_requests DataRafayProject#ephemeral_storage_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/project#ephemeral_storage_requests DataRafayProject#ephemeral_storage_requests}
   */
   readonly ephemeralStorageRequests?: string;
   /**
   * The maximum number of GPUs allocated to the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/project#gpu_limits DataRafayProject#gpu_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/project#gpu_limits DataRafayProject#gpu_limits}
   */
   readonly gpuLimits?: string;
   /**
   * The minimum number of GPUs guaranteed to the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/project#gpu_requests DataRafayProject#gpu_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/project#gpu_requests DataRafayProject#gpu_requests}
   */
   readonly gpuRequests?: string;
   /**
   * The maximum amount of memory (in bytes) allocated to the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/project#memory_limits DataRafayProject#memory_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/project#memory_limits DataRafayProject#memory_limits}
   */
   readonly memoryLimits?: string;
   /**
   * The minimum amount of memory (in bytes) guaranteed to the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/project#memory_requests DataRafayProject#memory_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/project#memory_requests DataRafayProject#memory_requests}
   */
   readonly memoryRequests?: string;
   /**
   * The maximum number of persistent volume claims that can exist in the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/project#persistent_volume_claims DataRafayProject#persistent_volume_claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/project#persistent_volume_claims DataRafayProject#persistent_volume_claims}
   */
   readonly persistentVolumeClaims?: string;
   /**
   * The maximum number of pods that can exist in the project/namespace in a non-terminal state(i.e., pods with a state of .status.phase in (Failed, Succeeded) equal to true)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/project#pods DataRafayProject#pods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/project#pods DataRafayProject#pods}
   */
   readonly pods?: string;
   /**
   * The maximum number of replication controllers that can exist in the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/project#replication_controllers DataRafayProject#replication_controllers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/project#replication_controllers DataRafayProject#replication_controllers}
   */
   readonly replicationControllers?: string;
   /**
   * The maximum number of secrets that can exist in the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/project#secrets DataRafayProject#secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/project#secrets DataRafayProject#secrets}
   */
   readonly secrets?: string;
   /**
   * The maximum number of services that can exist in the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/project#services DataRafayProject#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/project#services DataRafayProject#services}
   */
   readonly services?: string;
   /**
   * The maximum number of load balancers services that can exist in the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/project#services_load_balancers DataRafayProject#services_load_balancers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/project#services_load_balancers DataRafayProject#services_load_balancers}
   */
   readonly servicesLoadBalancers?: string;
   /**
   * The maximum number of node port services that can exist in the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/project#services_node_ports DataRafayProject#services_node_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/project#services_node_ports DataRafayProject#services_node_ports}
   */
   readonly servicesNodePorts?: string;
   /**
   * The minimum amount of storage (in gigabytes) guaranteed to the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/project#storage_requests DataRafayProject#storage_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/project#storage_requests DataRafayProject#storage_requests}
   */
   readonly storageRequests?: string;
 }
@@ -1976,7 +1976,7 @@ export class DataRafayProjectSpecDefaultClusterNamespaceQuotaOutputReference ext
 }
 export interface DataRafayProjectSpecDriftWebhook {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/project#enabled DataRafayProject#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/project#enabled DataRafayProject#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -2062,37 +2062,37 @@ export interface DataRafayProjectSpec {
   /**
   * flag to indicate if this is the default project in the organization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/project#default DataRafayProject#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/project#default DataRafayProject#default}
   */
   readonly default?: boolean | cdktf.IResolvable;
   /**
   * profile quota
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/project#profile_quota DataRafayProject#profile_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/project#profile_quota DataRafayProject#profile_quota}
   */
   readonly profileQuota?: { [key: string]: string };
   /**
   * namespaces excluded from sync
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/project#sync_excluded_namespaces DataRafayProject#sync_excluded_namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/project#sync_excluded_namespaces DataRafayProject#sync_excluded_namespaces}
   */
   readonly syncExcludedNamespaces?: string[];
   /**
   * cluster_resource_quota block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/project#cluster_resource_quota DataRafayProject#cluster_resource_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/project#cluster_resource_quota DataRafayProject#cluster_resource_quota}
   */
   readonly clusterResourceQuota?: DataRafayProjectSpecClusterResourceQuota;
   /**
   * default_cluster_namespace_quota block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/project#default_cluster_namespace_quota DataRafayProject#default_cluster_namespace_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/project#default_cluster_namespace_quota DataRafayProject#default_cluster_namespace_quota}
   */
   readonly defaultClusterNamespaceQuota?: DataRafayProjectSpecDefaultClusterNamespaceQuota;
   /**
   * drift_webhook block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/project#drift_webhook DataRafayProject#drift_webhook}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/project#drift_webhook DataRafayProject#drift_webhook}
   */
   readonly driftWebhook?: DataRafayProjectSpecDriftWebhook;
 }
@@ -2321,7 +2321,7 @@ export class DataRafayProjectSpecOutputReference extends cdktf.ComplexObject {
 }
 export interface DataRafayProjectTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/project#read DataRafayProject#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/project#read DataRafayProject#read}
   */
   readonly read?: string;
 }
@@ -2415,7 +2415,7 @@ export class DataRafayProjectTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/project rafay_project}
+* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/project rafay_project}
 */
 export class DataRafayProject extends cdktf.TerraformDataSource {
 
@@ -2431,7 +2431,7 @@ export class DataRafayProject extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataRafayProject resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataRafayProject to import
-  * @param importFromId The id of the existing DataRafayProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/project#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataRafayProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/project#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataRafayProject to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2443,7 +2443,7 @@ export class DataRafayProject extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/project rafay_project} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/project rafay_project} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2454,7 +2454,8 @@ export class DataRafayProject extends cdktf.TerraformDataSource {
       terraformResourceType: 'rafay_project',
       terraformGeneratorMetadata: {
         providerName: 'rafay',
-        providerVersion: '1.1.52'
+        providerVersion: '1.1.53',
+        providerVersionConstraint: '1.1.53'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

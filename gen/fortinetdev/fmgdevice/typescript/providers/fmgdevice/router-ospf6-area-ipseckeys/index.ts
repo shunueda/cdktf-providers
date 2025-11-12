@@ -80,7 +80,8 @@ export class RouterOspf6AreaIpseckeys extends cdktf.TerraformResource {
       terraformResourceType: 'fmgdevice_router_ospf6_area_ipseckeys',
       terraformGeneratorMetadata: {
         providerName: 'fmgdevice',
-        providerVersion: '1.2.1'
+        providerVersion: '1.2.1',
+        providerVersionConstraint: '1.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

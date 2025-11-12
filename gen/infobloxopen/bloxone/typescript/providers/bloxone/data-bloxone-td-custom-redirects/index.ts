@@ -217,7 +217,8 @@ export class DataBloxoneTdCustomRedirects extends cdktf.TerraformDataSource {
       terraformResourceType: 'bloxone_td_custom_redirects',
       terraformGeneratorMetadata: {
         providerName: 'bloxone',
-        providerVersion: '1.5.3'
+        providerVersion: '1.5.3',
+        providerVersionConstraint: '1.5.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

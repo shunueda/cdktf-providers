@@ -79,7 +79,8 @@ export class Chart extends cdktf.TerraformResource {
       terraformResourceType: 'helm_chart',
       terraformGeneratorMetadata: {
         providerName: 'helm',
-        providerVersion: '0.0.8'
+        providerVersion: '0.0.8',
+        providerVersionConstraint: '0.0.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

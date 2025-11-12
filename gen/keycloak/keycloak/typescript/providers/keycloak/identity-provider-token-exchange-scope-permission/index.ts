@@ -76,7 +76,8 @@ export class IdentityProviderTokenExchangeScopePermission extends cdktf.Terrafor
       terraformResourceType: 'keycloak_identity_provider_token_exchange_scope_permission',
       terraformGeneratorMetadata: {
         providerName: 'keycloak',
-        providerVersion: '5.5.0'
+        providerVersion: '5.5.0',
+        providerVersionConstraint: '5.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

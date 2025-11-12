@@ -710,7 +710,8 @@ export class DataK8SSecurityIstioIoPeerAuthenticationV1Manifest extends cdktf.Te
       terraformResourceType: 'k8s_security_istio_io_peer_authentication_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

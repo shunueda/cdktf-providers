@@ -56,7 +56,8 @@ export class DataEdgecenterUseractionsSubscriptionAmqp extends cdktf.TerraformDa
       terraformResourceType: 'edgecenter_useractions_subscription_amqp',
       terraformGeneratorMetadata: {
         providerName: 'edgecenter',
-        providerVersion: '0.10.4'
+        providerVersion: '0.10.4',
+        providerVersionConstraint: '0.10.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

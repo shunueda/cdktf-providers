@@ -3647,7 +3647,8 @@ export class CapabilityServerPcieConnectivityCatalog extends cdktf.TerraformReso
       terraformResourceType: 'intersight_capability_server_pcie_connectivity_catalog',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

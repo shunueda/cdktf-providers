@@ -91,7 +91,8 @@ export class CommercetoolsProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'commercetools',
       terraformGeneratorMetadata: {
         providerName: 'commercetools',
-        providerVersion: '1.21.1'
+        providerVersion: '1.21.1',
+        providerVersionConstraint: '1.21.1'
       },
       terraformProviderSource: 'labd/commercetools'
     });

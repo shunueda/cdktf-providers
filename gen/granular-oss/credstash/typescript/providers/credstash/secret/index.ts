@@ -280,7 +280,8 @@ export class Secret extends cdktf.TerraformResource {
       terraformResourceType: 'credstash_secret',
       terraformGeneratorMetadata: {
         providerName: 'credstash',
-        providerVersion: '0.7.2'
+        providerVersion: '0.7.2',
+        providerVersionConstraint: '0.7.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

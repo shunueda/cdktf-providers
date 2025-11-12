@@ -60,7 +60,8 @@ export class DataOciObjectstorageNamespaceMetadata extends cdktf.TerraformDataSo
       terraformResourceType: 'oci_objectstorage_namespace_metadata',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

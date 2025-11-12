@@ -49,7 +49,8 @@ export class DataCorefuncRuntimeNumcpus extends cdktf.TerraformDataSource {
       terraformResourceType: 'corefunc_runtime_numcpus',
       terraformGeneratorMetadata: {
         providerName: 'corefunc',
-        providerVersion: '2.1.0'
+        providerVersion: '2.1.0',
+        providerVersionConstraint: '2.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

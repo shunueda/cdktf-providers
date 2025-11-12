@@ -88,7 +88,8 @@ export class S3Object extends cdktf.TerraformResource {
       terraformResourceType: 'minio_s3_object',
       terraformGeneratorMetadata: {
         providerName: 'minio',
-        providerVersion: '0.2.0'
+        providerVersion: '0.2.0',
+        providerVersionConstraint: '0.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

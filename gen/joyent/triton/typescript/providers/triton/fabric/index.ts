@@ -116,7 +116,8 @@ export class Fabric extends cdktf.TerraformResource {
       terraformResourceType: 'triton_fabric',
       terraformGeneratorMetadata: {
         providerName: 'triton',
-        providerVersion: '0.8.2'
+        providerVersion: '0.8.2',
+        providerVersionConstraint: '0.8.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

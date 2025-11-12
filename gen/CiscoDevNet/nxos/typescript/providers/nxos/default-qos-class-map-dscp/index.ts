@@ -68,7 +68,8 @@ export class DefaultQosClassMapDscp extends cdktf.TerraformResource {
       terraformResourceType: 'nxos_default_qos_class_map_dscp',
       terraformGeneratorMetadata: {
         providerName: 'nxos',
-        providerVersion: '0.5.10'
+        providerVersion: '0.5.10',
+        providerVersionConstraint: '0.5.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

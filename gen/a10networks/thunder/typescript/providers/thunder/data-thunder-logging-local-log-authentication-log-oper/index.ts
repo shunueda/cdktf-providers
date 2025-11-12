@@ -660,7 +660,8 @@ export class DataThunderLoggingLocalLogAuthenticationLogOper extends cdktf.Terra
       terraformResourceType: 'thunder_logging_local_log_authentication_log_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

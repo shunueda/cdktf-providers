@@ -72,7 +72,8 @@ export class GroupVar extends cdktf.TerraformResource {
       terraformResourceType: 'ansible_group_var',
       terraformGeneratorMetadata: {
         providerName: 'ansible',
-        providerVersion: '1.0.4'
+        providerVersion: '1.0.4',
+        providerVersionConstraint: '1.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

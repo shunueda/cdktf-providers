@@ -1380,7 +1380,8 @@ export class DataStyraStack extends cdktf.TerraformDataSource {
       terraformResourceType: 'styra_stack',
       terraformGeneratorMetadata: {
         providerName: 'styra',
-        providerVersion: '0.2.3'
+        providerVersion: '0.2.3',
+        providerVersionConstraint: '0.2.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

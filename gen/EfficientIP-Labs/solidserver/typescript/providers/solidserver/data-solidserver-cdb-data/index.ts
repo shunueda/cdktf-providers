@@ -68,7 +68,8 @@ export class DataSolidserverCdbData extends cdktf.TerraformDataSource {
       terraformResourceType: 'solidserver_cdb_data',
       terraformGeneratorMetadata: {
         providerName: 'solidserver',
-        providerVersion: '1.1.25'
+        providerVersion: '1.1.25',
+        providerVersionConstraint: '1.1.25'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -357,7 +357,8 @@ export class VirtualNetwork extends cdktf.TerraformResource {
       terraformResourceType: 'multy_virtual_network',
       terraformGeneratorMetadata: {
         providerName: 'multy',
-        providerVersion: '0.0.16'
+        providerVersion: '0.0.16',
+        providerVersionConstraint: '0.0.16'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

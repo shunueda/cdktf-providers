@@ -64,7 +64,8 @@ export class IamGroupPolicyAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'aws_iam_group_policy_attachment',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '3.29.6'
+        providerVersion: '3.29.6',
+        providerVersionConstraint: '3.29.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

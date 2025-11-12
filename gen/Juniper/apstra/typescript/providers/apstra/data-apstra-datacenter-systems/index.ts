@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_systems
+// https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_systems
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataApstraDatacenterSystemsConfig extends cdktf.TerraformMetaAr
   /**
   * Apstra Blueprint to search.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_systems#blueprint_id DataApstraDatacenterSystems#blueprint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_systems#blueprint_id DataApstraDatacenterSystems#blueprint_id}
   */
   readonly blueprintId: string;
   /**
   * Filter used to select only desired node IDs. All specified attributes must match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_systems#filter DataApstraDatacenterSystems#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_systems#filter DataApstraDatacenterSystems#filter}
   */
   readonly filter?: DataApstraDatacenterSystemsFilter;
   /**
   * List of filters used to select only desired node IDs. For a node to match a filter, all specified attributes must match (each attribute within a filter is AND-ed together). The returned node IDs represent the nodes matched by all of the filters together (filters are OR-ed together).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_systems#filters DataApstraDatacenterSystems#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_systems#filters DataApstraDatacenterSystems#filters}
   */
   readonly filters?: DataApstraDatacenterSystemsFilters[] | cdktf.IResolvable;
 }
@@ -30,13 +30,13 @@ export interface DataApstraDatacenterSystemsFilter {
   /**
   * Apstra Graph DB node `hostname`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_systems#hostname DataApstraDatacenterSystems#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_systems#hostname DataApstraDatacenterSystems#hostname}
   */
   readonly hostname?: string;
   /**
   * Apstra Graph DB node ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_systems#id DataApstraDatacenterSystems#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_systems#id DataApstraDatacenterSystems#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -45,31 +45,31 @@ export interface DataApstraDatacenterSystemsFilter {
   /**
   * Apstra Graph DB node `label`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_systems#label DataApstraDatacenterSystems#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_systems#label DataApstraDatacenterSystems#label}
   */
   readonly label?: string;
   /**
   * Apstra Graph DB node `role`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_systems#role DataApstraDatacenterSystems#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_systems#role DataApstraDatacenterSystems#role}
   */
   readonly role?: string;
   /**
   * Apstra ID of the physical system (not to be confused with its fabric role)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_systems#system_id DataApstraDatacenterSystems#system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_systems#system_id DataApstraDatacenterSystems#system_id}
   */
   readonly systemId?: string;
   /**
   * Apstra Graph DB node `system_type`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_systems#system_type DataApstraDatacenterSystems#system_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_systems#system_type DataApstraDatacenterSystems#system_type}
   */
   readonly systemType?: string;
   /**
   * Set of Tag IDs (labels) - only nodes with all tags will match this filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_systems#tag_ids DataApstraDatacenterSystems#tag_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_systems#tag_ids DataApstraDatacenterSystems#tag_ids}
   */
   readonly tagIds?: string[];
 }
@@ -339,13 +339,13 @@ export interface DataApstraDatacenterSystemsFilters {
   /**
   * Apstra Graph DB node `hostname`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_systems#hostname DataApstraDatacenterSystems#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_systems#hostname DataApstraDatacenterSystems#hostname}
   */
   readonly hostname?: string;
   /**
   * Apstra Graph DB node ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_systems#id DataApstraDatacenterSystems#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_systems#id DataApstraDatacenterSystems#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -354,31 +354,31 @@ export interface DataApstraDatacenterSystemsFilters {
   /**
   * Apstra Graph DB node `label`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_systems#label DataApstraDatacenterSystems#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_systems#label DataApstraDatacenterSystems#label}
   */
   readonly label?: string;
   /**
   * Apstra Graph DB node `role`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_systems#role DataApstraDatacenterSystems#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_systems#role DataApstraDatacenterSystems#role}
   */
   readonly role?: string;
   /**
   * Apstra ID of the physical system (not to be confused with its fabric role)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_systems#system_id DataApstraDatacenterSystems#system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_systems#system_id DataApstraDatacenterSystems#system_id}
   */
   readonly systemId?: string;
   /**
   * Apstra Graph DB node `system_type`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_systems#system_type DataApstraDatacenterSystems#system_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_systems#system_type DataApstraDatacenterSystems#system_type}
   */
   readonly systemType?: string;
   /**
   * Set of Tag IDs (labels) - only nodes with all tags will match this filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_systems#tag_ids DataApstraDatacenterSystems#tag_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_systems#tag_ids DataApstraDatacenterSystems#tag_ids}
   */
   readonly tagIds?: string[];
 }
@@ -668,7 +668,7 @@ export class DataApstraDatacenterSystemsFiltersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_systems apstra_datacenter_systems}
+* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_systems apstra_datacenter_systems}
 */
 export class DataApstraDatacenterSystems extends cdktf.TerraformDataSource {
 
@@ -684,7 +684,7 @@ export class DataApstraDatacenterSystems extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataApstraDatacenterSystems resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataApstraDatacenterSystems to import
-  * @param importFromId The id of the existing DataApstraDatacenterSystems that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_systems#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataApstraDatacenterSystems that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_systems#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataApstraDatacenterSystems to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -696,7 +696,7 @@ export class DataApstraDatacenterSystems extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_systems apstra_datacenter_systems} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_systems apstra_datacenter_systems} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -707,7 +707,8 @@ export class DataApstraDatacenterSystems extends cdktf.TerraformDataSource {
       terraformResourceType: 'apstra_datacenter_systems',
       terraformGeneratorMetadata: {
         providerName: 'apstra',
-        providerVersion: '0.95.0'
+        providerVersion: '0.95.1',
+        providerVersionConstraint: '0.95.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

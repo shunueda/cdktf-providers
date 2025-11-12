@@ -279,7 +279,8 @@ export class DataAlicloudCrRepos extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_cr_repos',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

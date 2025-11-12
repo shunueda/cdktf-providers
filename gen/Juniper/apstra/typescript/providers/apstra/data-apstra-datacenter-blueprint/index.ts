@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_blueprint
+// https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_blueprint
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataApstraDatacenterBlueprintConfig extends cdktf.TerraformMeta
   /**
   * ID of the Blueprint. Required when `name` is omitted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_blueprint#id DataApstraDatacenterBlueprint#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_blueprint#id DataApstraDatacenterBlueprint#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,13 +19,13 @@ export interface DataApstraDatacenterBlueprintConfig extends cdktf.TerraformMeta
   /**
   * Maximum number of routes to accept between MLAG peers. A positive integer value indicates the route limit being rendered into to the device BGP configuration as a maximum limit. A zero indicates that a `0` is being rendered into the same line of configuration, resulting in platform-specific behavior: Eitehr *unlimited routes* are permitted, or *no routes* are permitted, depending on the NOS in use. When `null`, Apstra is rendering no maximum value into the configuration, so NOS default is being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_blueprint#max_mlag_routes_count DataApstraDatacenterBlueprint#max_mlag_routes_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_blueprint#max_mlag_routes_count DataApstraDatacenterBlueprint#max_mlag_routes_count}
   */
   readonly maxMlagRoutesCount?: number;
   /**
   * Name of the Blueprint. Required when `id` is omitted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_blueprint#name DataApstraDatacenterBlueprint#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_blueprint#name DataApstraDatacenterBlueprint#name}
   */
   readonly name?: string;
 }
@@ -100,7 +100,7 @@ export class DataApstraDatacenterBlueprintAntiAffinityPolicyOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_blueprint apstra_datacenter_blueprint}
+* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_blueprint apstra_datacenter_blueprint}
 */
 export class DataApstraDatacenterBlueprint extends cdktf.TerraformDataSource {
 
@@ -116,7 +116,7 @@ export class DataApstraDatacenterBlueprint extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataApstraDatacenterBlueprint resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataApstraDatacenterBlueprint to import
-  * @param importFromId The id of the existing DataApstraDatacenterBlueprint that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_blueprint#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataApstraDatacenterBlueprint that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_blueprint#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataApstraDatacenterBlueprint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -128,7 +128,7 @@ export class DataApstraDatacenterBlueprint extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_blueprint apstra_datacenter_blueprint} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_blueprint apstra_datacenter_blueprint} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -139,7 +139,8 @@ export class DataApstraDatacenterBlueprint extends cdktf.TerraformDataSource {
       terraformResourceType: 'apstra_datacenter_blueprint',
       terraformGeneratorMetadata: {
         providerName: 'apstra',
-        providerVersion: '0.95.0'
+        providerVersion: '0.95.1',
+        providerVersionConstraint: '0.95.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

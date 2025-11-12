@@ -209,7 +209,8 @@ export class VpnGatewayVcoRoute extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_vpn_gateway_vco_route',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

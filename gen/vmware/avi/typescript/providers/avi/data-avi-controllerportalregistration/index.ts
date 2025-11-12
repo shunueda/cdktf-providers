@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/controllerportalregistration
+// https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/controllerportalregistration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,22 +8,22 @@ import * as cdktf from 'cdktf';
 
 export interface DataAviControllerportalregistrationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/controllerportalregistration#id DataAviControllerportalregistration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/controllerportalregistration#id DataAviControllerportalregistration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/controllerportalregistration#name DataAviControllerportalregistration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/controllerportalregistration#name DataAviControllerportalregistration#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/controllerportalregistration#tenant_ref DataAviControllerportalregistration#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/controllerportalregistration#tenant_ref DataAviControllerportalregistration#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/controllerportalregistration#uuid DataAviControllerportalregistration#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/controllerportalregistration#uuid DataAviControllerportalregistration#uuid}
   */
   readonly uuid?: string;
 }
@@ -199,7 +199,7 @@ export class DataAviControllerportalregistrationPortalAuthList extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/controllerportalregistration avi_controllerportalregistration}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/controllerportalregistration avi_controllerportalregistration}
 */
 export class DataAviControllerportalregistration extends cdktf.TerraformDataSource {
 
@@ -215,7 +215,7 @@ export class DataAviControllerportalregistration extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataAviControllerportalregistration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAviControllerportalregistration to import
-  * @param importFromId The id of the existing DataAviControllerportalregistration that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/controllerportalregistration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAviControllerportalregistration that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/controllerportalregistration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAviControllerportalregistration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -227,7 +227,7 @@ export class DataAviControllerportalregistration extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/controllerportalregistration avi_controllerportalregistration} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/controllerportalregistration avi_controllerportalregistration} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -238,7 +238,8 @@ export class DataAviControllerportalregistration extends cdktf.TerraformDataSour
       terraformResourceType: 'avi_controllerportalregistration',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '31.1.1'
+        providerVersion: '30.2.5',
+        providerVersionConstraint: '30.2.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

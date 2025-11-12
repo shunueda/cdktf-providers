@@ -612,7 +612,8 @@ export class UztnaAppVipPool extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_uztna_app_vip_pool',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.44'
+        providerVersion: '0.11.44',
+        providerVersionConstraint: '0.11.44'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

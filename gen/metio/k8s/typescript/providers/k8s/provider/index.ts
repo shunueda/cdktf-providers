@@ -91,7 +91,8 @@ export class K8SProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'k8s',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       terraformProviderSource: 'metio/k8s'
     });

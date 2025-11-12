@@ -1968,7 +1968,8 @@ export class Operation extends cdktf.TerraformResource {
       terraformResourceType: 'restful_operation',
       terraformGeneratorMetadata: {
         providerName: 'restful',
-        providerVersion: '0.23.0'
+        providerVersion: '0.23.0',
+        providerVersionConstraint: '0.23.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

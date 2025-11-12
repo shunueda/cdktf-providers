@@ -248,7 +248,8 @@ export class NetworkMerakiAuthUser extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_network_meraki_auth_user',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1'
+        providerVersion: '1.7.1',
+        providerVersionConstraint: '1.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

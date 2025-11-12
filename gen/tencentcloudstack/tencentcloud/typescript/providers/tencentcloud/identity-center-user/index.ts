@@ -104,7 +104,8 @@ export class IdentityCenterUser extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_identity_center_user',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -225,7 +225,8 @@ export class DataFlexibleengineSfsTurbos extends cdktf.TerraformDataSource {
       terraformResourceType: 'flexibleengine_sfs_turbos',
       terraformGeneratorMetadata: {
         providerName: 'flexibleengine',
-        providerVersion: '1.46.0'
+        providerVersion: '1.46.0',
+        providerVersionConstraint: '1.46.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

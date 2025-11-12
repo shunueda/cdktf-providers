@@ -2318,7 +2318,8 @@ export class OauthIntegrationForCustomClients extends cdktf.TerraformResource {
       terraformResourceType: 'snowflake_oauth_integration_for_custom_clients',
       terraformGeneratorMetadata: {
         providerName: 'snowflake',
-        providerVersion: '2.10.1'
+        providerVersion: '2.10.1',
+        providerVersionConstraint: '2.10.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

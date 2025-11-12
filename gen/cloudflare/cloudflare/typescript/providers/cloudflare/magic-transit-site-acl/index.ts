@@ -563,7 +563,8 @@ export class MagicTransitSiteAcl extends cdktf.TerraformResource {
       terraformResourceType: 'cloudflare_magic_transit_site_acl',
       terraformGeneratorMetadata: {
         providerName: 'cloudflare',
-        providerVersion: '5.12.0'
+        providerVersion: '5.12.0',
+        providerVersionConstraint: '5.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

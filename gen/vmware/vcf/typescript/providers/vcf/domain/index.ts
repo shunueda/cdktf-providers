@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain
+// https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DomainConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#id Domain#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#id Domain#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,43 +17,37 @@ export interface DomainConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the domain (from 3 to 20 characters)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#name Domain#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#name Domain#name}
   */
   readonly name: string;
   /**
   * Organization name of the workload domain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#org_name Domain#org_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#org_name Domain#org_name}
   */
   readonly orgName?: string;
   /**
   * cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#cluster Domain#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#cluster Domain#cluster}
   */
   readonly cluster: DomainCluster[] | cdktf.IResolvable;
   /**
   * nsx_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#nsx_configuration Domain#nsx_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#nsx_configuration Domain#nsx_configuration}
   */
   readonly nsxConfiguration?: DomainNsxConfiguration;
   /**
-  * sso block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#sso Domain#sso}
-  */
-  readonly sso: DomainSso[] | cdktf.IResolvable;
-  /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#timeouts Domain#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#timeouts Domain#timeouts}
   */
   readonly timeouts?: DomainTimeouts;
   /**
   * vcenter_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#vcenter_configuration Domain#vcenter_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#vcenter_configuration Domain#vcenter_configuration}
   */
   readonly vcenterConfiguration: DomainVcenterConfiguration;
 }
@@ -61,7 +55,7 @@ export interface DomainClusterHostVmnic {
   /**
   * ESXI host vmnic ID to be associated with a VDS, once added to cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#id Domain#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#id Domain#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -70,13 +64,13 @@ export interface DomainClusterHostVmnic {
   /**
   * Uplink to be associated with vmnic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#uplink Domain#uplink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#uplink Domain#uplink}
   */
   readonly uplink?: string;
   /**
   * Name of the VDS to associate with the ESXi host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#vds_name Domain#vds_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#vds_name Domain#vds_name}
   */
   readonly vdsName?: string;
 }
@@ -249,19 +243,19 @@ export interface DomainClusterHost {
   /**
   * Availability Zone Name. This is required while performing a stretched cluster expand operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#availability_zone_name Domain#availability_zone_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#availability_zone_name Domain#availability_zone_name}
   */
   readonly availabilityZoneName?: string;
   /**
   * Host name of the ESXi host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#host_name Domain#host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#host_name Domain#host_name}
   */
   readonly hostName?: string;
   /**
   * ID of the ESXi host in the free pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#id Domain#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#id Domain#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -270,37 +264,43 @@ export interface DomainClusterHost {
   /**
   * IPv4 address of the ESXi host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#ip_address Domain#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#ip_address Domain#ip_address}
   */
   readonly ipAddress?: string;
   /**
+  * License key for an ESXi host in the free pool. This is required except in cases where the ESXi host has already been licensed outside of the VMware Cloud Foundation system
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#license_key Domain#license_key}
+  */
+  readonly licenseKey?: string;
+  /**
   * Password to authenticate to the ESXi host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#password Domain#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#password Domain#password}
   */
   readonly password?: string;
   /**
   * Serial number of the ESXi host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#serial_number Domain#serial_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#serial_number Domain#serial_number}
   */
   readonly serialNumber?: string;
   /**
   * SSH thumbprint of the ESXi host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#ssh_thumbprint Domain#ssh_thumbprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#ssh_thumbprint Domain#ssh_thumbprint}
   */
   readonly sshThumbprint?: string;
   /**
   * Username to authenticate to the ESXi host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#username Domain#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#username Domain#username}
   */
   readonly username?: string;
   /**
   * vmnic block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#vmnic Domain#vmnic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#vmnic Domain#vmnic}
   */
   readonly vmnic?: DomainClusterHostVmnic[] | cdktf.IResolvable;
 }
@@ -315,6 +315,7 @@ export function domainClusterHostToTerraform(struct?: DomainClusterHost | cdktf.
     host_name: cdktf.stringToTerraform(struct!.hostName),
     id: cdktf.stringToTerraform(struct!.id),
     ip_address: cdktf.stringToTerraform(struct!.ipAddress),
+    license_key: cdktf.stringToTerraform(struct!.licenseKey),
     password: cdktf.stringToTerraform(struct!.password),
     serial_number: cdktf.stringToTerraform(struct!.serialNumber),
     ssh_thumbprint: cdktf.stringToTerraform(struct!.sshThumbprint),
@@ -350,6 +351,12 @@ export function domainClusterHostToHclTerraform(struct?: DomainClusterHost | cdk
     },
     ip_address: {
       value: cdktf.stringToHclTerraform(struct!.ipAddress),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    license_key: {
+      value: cdktf.stringToHclTerraform(struct!.licenseKey),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -426,6 +433,10 @@ export class DomainClusterHostOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.ipAddress = this._ipAddress;
     }
+    if (this._licenseKey !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.licenseKey = this._licenseKey;
+    }
     if (this._password !== undefined) {
       hasAnyValues = true;
       internalValueResult.password = this._password;
@@ -457,6 +468,7 @@ export class DomainClusterHostOutputReference extends cdktf.ComplexObject {
       this._hostName = undefined;
       this._id = undefined;
       this._ipAddress = undefined;
+      this._licenseKey = undefined;
       this._password = undefined;
       this._serialNumber = undefined;
       this._sshThumbprint = undefined;
@@ -474,6 +486,7 @@ export class DomainClusterHostOutputReference extends cdktf.ComplexObject {
       this._hostName = value.hostName;
       this._id = value.id;
       this._ipAddress = value.ipAddress;
+      this._licenseKey = value.licenseKey;
       this._password = value.password;
       this._serialNumber = value.serialNumber;
       this._sshThumbprint = value.sshThumbprint;
@@ -541,6 +554,22 @@ export class DomainClusterHostOutputReference extends cdktf.ComplexObject {
   // Temporarily expose input value. Use with caution.
   public get ipAddressInput() {
     return this._ipAddress;
+  }
+
+  // license_key - computed: false, optional: true, required: false
+  private _licenseKey?: string; 
+  public get licenseKey() {
+    return this.getStringAttribute('license_key');
+  }
+  public set licenseKey(value: string) {
+    this._licenseKey = value;
+  }
+  public resetLicenseKey() {
+    this._licenseKey = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get licenseKeyInput() {
+    return this._licenseKey;
   }
 
   // password - computed: false, optional: true, required: false
@@ -647,13 +676,13 @@ export interface DomainClusterIpAddressPoolSubnetIpAddressPoolRange {
   /**
   * The last IP Address of the IP Address Range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#end Domain#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#end Domain#end}
   */
   readonly end: string;
   /**
   * The first IP Address of the IP Address Range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#start Domain#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#start Domain#start}
   */
   readonly start: string;
 }
@@ -794,19 +823,19 @@ export interface DomainClusterIpAddressPoolSubnet {
   /**
   * The subnet representation, contains the network address and the prefix length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#cidr Domain#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#cidr Domain#cidr}
   */
   readonly cidr: string;
   /**
   * The default gateway address of the network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#gateway Domain#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#gateway Domain#gateway}
   */
   readonly gateway: string;
   /**
   * ip_address_pool_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#ip_address_pool_range Domain#ip_address_pool_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#ip_address_pool_range Domain#ip_address_pool_range}
   */
   readonly ipAddressPoolRange?: DomainClusterIpAddressPoolSubnetIpAddressPoolRange[] | cdktf.IResolvable;
 }
@@ -976,25 +1005,25 @@ export interface DomainClusterIpAddressPool {
   /**
   * Description of the IP address pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#description Domain#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#description Domain#description}
   */
   readonly description?: string;
   /**
   * Ignore unavailable NSX cluster(s) during IP pool spec validation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#ignore_unavailable_nsx_cluster Domain#ignore_unavailable_nsx_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#ignore_unavailable_nsx_cluster Domain#ignore_unavailable_nsx_cluster}
   */
   readonly ignoreUnavailableNsxCluster?: boolean | cdktf.IResolvable;
   /**
   * Providing only name of existing IP Address Pool reuses it, while providing a new name with subnets creates a new one
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#name Domain#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#name Domain#name}
   */
   readonly name: string;
   /**
   * subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#subnet Domain#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#subnet Domain#subnet}
   */
   readonly subnet?: DomainClusterIpAddressPoolSubnet[] | cdktf.IResolvable;
 }
@@ -1164,31 +1193,31 @@ export interface DomainClusterNfsDatastores {
   /**
   * NFS datastore name used for cluster creation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#datastore_name Domain#datastore_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#datastore_name Domain#datastore_name}
   */
   readonly datastoreName: string;
   /**
   * Shared directory path used for NFS based cluster creation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#path Domain#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#path Domain#path}
   */
   readonly path: string;
   /**
   * Readonly is used to identify whether to mount the directory as readOnly or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#read_only Domain#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#read_only Domain#read_only}
   */
   readonly readOnly: boolean | cdktf.IResolvable;
   /**
   * Fully qualified domain name or IP address of the NFS endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#server_name Domain#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#server_name Domain#server_name}
   */
   readonly serverName: string;
   /**
   * User tag used to annotate NFS share
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#user_tag Domain#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#user_tag Domain#user_tag}
   */
   readonly userTag?: string;
 }
@@ -1410,31 +1439,31 @@ export interface DomainClusterVdsNiocBandwidthAllocations {
   /**
   * The maximum allowed usage for a traffic class belonging to this resource pool per host physical NIC. The utilization of a traffic class will not exceed the specified limit even if there are available network resources. If this value is unset or set to -1 in an update operation, then there is no limit on the network resource usage (only bounded by available resource and shares). Units are in Mbits/sec
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#limit Domain#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#limit Domain#limit}
   */
   readonly limit?: number;
   /**
   * Amount of bandwidth resource that is guaranteed available to the host infrastructure traffic class. If the utilization is less than the reservation, the extra bandwidth is used for other host infrastructure traffic class types. Unit is Mbits/sec
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#reservation Domain#reservation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#reservation Domain#reservation}
   */
   readonly reservation?: number;
   /**
   * The number of shares allocated. Used to determine resource allocation in case of resource contention. This value is only set if level is set to custom. If level is not set to custom, this value is ignored. Therefore, only shares with custom values can be compared. There is no unit for this value. It is a relative measure based on the settings for other resource pools.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#shares Domain#shares}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#shares Domain#shares}
   */
   readonly shares?: number;
   /**
   * The allocation level. The level is a simplified view of shares. Levels map to a pre-determined set of numeric values for shares. If the shares value does not map to a predefined size, then the level is set as custom. One among: low, normal, high, custom
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#shares_level Domain#shares_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#shares_level Domain#shares_level}
   */
   readonly sharesLevel?: string;
   /**
   * Host infrastructure traffic type. Example: management, faultTolerance, vmotion, virtualMachine, iSCSI, nfs, hbr, vsan, vdp etc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#type Domain#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#type Domain#type}
   */
   readonly type: string;
 }
@@ -1665,19 +1694,19 @@ export interface DomainClusterVdsPortgroup {
   /**
   * List of active uplinks associated with portgroup. This is only supported for VxRail.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#active_uplinks Domain#active_uplinks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#active_uplinks Domain#active_uplinks}
   */
   readonly activeUplinks?: string[];
   /**
   * Port group name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#name Domain#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#name Domain#name}
   */
   readonly name: string;
   /**
   * Port group transport type, One among: VSAN, VMOTION, MANAGEMENT, PUBLIC, NFS, VREALIZE, ISCSI, EDGE_INFRA_OVERLAY_UPLINK
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#transport_type Domain#transport_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#transport_type Domain#transport_type}
   */
   readonly transportType: string;
 }
@@ -1847,25 +1876,25 @@ export interface DomainClusterVds {
   /**
   * Identifies if the vSphere distributed switch is used by NSX
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#is_used_by_nsx Domain#is_used_by_nsx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#is_used_by_nsx Domain#is_used_by_nsx}
   */
   readonly isUsedByNsx?: boolean | cdktf.IResolvable;
   /**
   * vSphere Distributed Switch name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#name Domain#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#name Domain#name}
   */
   readonly name: string;
   /**
   * nioc_bandwidth_allocations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#nioc_bandwidth_allocations Domain#nioc_bandwidth_allocations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#nioc_bandwidth_allocations Domain#nioc_bandwidth_allocations}
   */
   readonly niocBandwidthAllocations?: DomainClusterVdsNiocBandwidthAllocations[] | cdktf.IResolvable;
   /**
   * portgroup block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#portgroup Domain#portgroup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#portgroup Domain#portgroup}
   */
   readonly portgroup?: DomainClusterVdsPortgroup[] | cdktf.IResolvable;
 }
@@ -2067,7 +2096,7 @@ export interface DomainClusterVmfsDatastore {
   /**
   * VMFS datastore names used for VMFS on FC for cluster creation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#datastore_names Domain#datastore_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#datastore_names Domain#datastore_names}
   */
   readonly datastoreNames: string[];
 }
@@ -2150,27 +2179,33 @@ export interface DomainClusterVsanDatastore {
   /**
   * vSAN datastore name used for cluster creation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#datastore_name Domain#datastore_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#datastore_name Domain#datastore_name}
   */
   readonly datastoreName: string;
   /**
   * Enable vSAN deduplication and compression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#dedup_and_compression_enabled Domain#dedup_and_compression_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#dedup_and_compression_enabled Domain#dedup_and_compression_enabled}
   */
   readonly dedupAndCompressionEnabled?: boolean | cdktf.IResolvable;
   /**
   * Enable vSAN ESA
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#esa_enabled Domain#esa_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#esa_enabled Domain#esa_enabled}
   */
   readonly esaEnabled?: boolean | cdktf.IResolvable;
   /**
   * Number of ESXi host failures to tolerate in the vSAN cluster. One of 1 or 2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#failures_to_tolerate Domain#failures_to_tolerate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#failures_to_tolerate Domain#failures_to_tolerate}
   */
   readonly failuresToTolerate?: number;
+  /**
+  * vSAN license key to be used
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#license_key Domain#license_key}
+  */
+  readonly licenseKey?: string;
 }
 
 export function domainClusterVsanDatastoreToTerraform(struct?: DomainClusterVsanDatastoreOutputReference | DomainClusterVsanDatastore): any {
@@ -2183,6 +2218,7 @@ export function domainClusterVsanDatastoreToTerraform(struct?: DomainClusterVsan
     dedup_and_compression_enabled: cdktf.booleanToTerraform(struct!.dedupAndCompressionEnabled),
     esa_enabled: cdktf.booleanToTerraform(struct!.esaEnabled),
     failures_to_tolerate: cdktf.numberToTerraform(struct!.failuresToTolerate),
+    license_key: cdktf.stringToTerraform(struct!.licenseKey),
   }
 }
 
@@ -2216,6 +2252,12 @@ export function domainClusterVsanDatastoreToHclTerraform(struct?: DomainClusterV
       isBlock: false,
       type: "simple",
       storageClassType: "number",
+    },
+    license_key: {
+      value: cdktf.stringToHclTerraform(struct!.licenseKey),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
     },
   };
 
@@ -2253,6 +2295,10 @@ export class DomainClusterVsanDatastoreOutputReference extends cdktf.ComplexObje
       hasAnyValues = true;
       internalValueResult.failuresToTolerate = this._failuresToTolerate;
     }
+    if (this._licenseKey !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.licenseKey = this._licenseKey;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -2263,6 +2309,7 @@ export class DomainClusterVsanDatastoreOutputReference extends cdktf.ComplexObje
       this._dedupAndCompressionEnabled = undefined;
       this._esaEnabled = undefined;
       this._failuresToTolerate = undefined;
+      this._licenseKey = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
@@ -2270,6 +2317,7 @@ export class DomainClusterVsanDatastoreOutputReference extends cdktf.ComplexObje
       this._dedupAndCompressionEnabled = value.dedupAndCompressionEnabled;
       this._esaEnabled = value.esaEnabled;
       this._failuresToTolerate = value.failuresToTolerate;
+      this._licenseKey = value.licenseKey;
     }
   }
 
@@ -2333,12 +2381,28 @@ export class DomainClusterVsanDatastoreOutputReference extends cdktf.ComplexObje
   public get failuresToTolerateInput() {
     return this._failuresToTolerate;
   }
+
+  // license_key - computed: false, optional: true, required: false
+  private _licenseKey?: string; 
+  public get licenseKey() {
+    return this.getStringAttribute('license_key');
+  }
+  public set licenseKey(value: string) {
+    this._licenseKey = value;
+  }
+  public resetLicenseKey() {
+    this._licenseKey = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get licenseKeyInput() {
+    return this._licenseKey;
+  }
 }
 export interface DomainClusterVsanRemoteDatastoreCluster {
   /**
   * vSAN HCI Mesh remote datastore UUIDs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#datastore_uuids Domain#datastore_uuids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#datastore_uuids Domain#datastore_uuids}
   */
   readonly datastoreUuids: string[];
 }
@@ -2421,7 +2485,7 @@ export interface DomainClusterVsanStretchConfigurationSecondaryFdHostVmnic {
   /**
   * ESXI host vmnic ID to be associated with a VDS, once added to cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#id Domain#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#id Domain#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2430,13 +2494,13 @@ export interface DomainClusterVsanStretchConfigurationSecondaryFdHostVmnic {
   /**
   * Uplink to be associated with vmnic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#uplink Domain#uplink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#uplink Domain#uplink}
   */
   readonly uplink?: string;
   /**
   * Name of the VDS to associate with the ESXi host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#vds_name Domain#vds_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#vds_name Domain#vds_name}
   */
   readonly vdsName?: string;
 }
@@ -2609,19 +2673,19 @@ export interface DomainClusterVsanStretchConfigurationSecondaryFdHost {
   /**
   * Availability Zone Name. This is required while performing a stretched cluster expand operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#availability_zone_name Domain#availability_zone_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#availability_zone_name Domain#availability_zone_name}
   */
   readonly availabilityZoneName?: string;
   /**
   * Host name of the ESXi host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#host_name Domain#host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#host_name Domain#host_name}
   */
   readonly hostName?: string;
   /**
   * ID of the ESXi host in the free pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#id Domain#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#id Domain#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2630,37 +2694,43 @@ export interface DomainClusterVsanStretchConfigurationSecondaryFdHost {
   /**
   * IPv4 address of the ESXi host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#ip_address Domain#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#ip_address Domain#ip_address}
   */
   readonly ipAddress?: string;
   /**
+  * License key for an ESXi host in the free pool. This is required except in cases where the ESXi host has already been licensed outside of the VMware Cloud Foundation system
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#license_key Domain#license_key}
+  */
+  readonly licenseKey?: string;
+  /**
   * Password to authenticate to the ESXi host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#password Domain#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#password Domain#password}
   */
   readonly password?: string;
   /**
   * Serial number of the ESXi host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#serial_number Domain#serial_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#serial_number Domain#serial_number}
   */
   readonly serialNumber?: string;
   /**
   * SSH thumbprint of the ESXi host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#ssh_thumbprint Domain#ssh_thumbprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#ssh_thumbprint Domain#ssh_thumbprint}
   */
   readonly sshThumbprint?: string;
   /**
   * Username to authenticate to the ESXi host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#username Domain#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#username Domain#username}
   */
   readonly username?: string;
   /**
   * vmnic block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#vmnic Domain#vmnic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#vmnic Domain#vmnic}
   */
   readonly vmnic?: DomainClusterVsanStretchConfigurationSecondaryFdHostVmnic[] | cdktf.IResolvable;
 }
@@ -2675,6 +2745,7 @@ export function domainClusterVsanStretchConfigurationSecondaryFdHostToTerraform(
     host_name: cdktf.stringToTerraform(struct!.hostName),
     id: cdktf.stringToTerraform(struct!.id),
     ip_address: cdktf.stringToTerraform(struct!.ipAddress),
+    license_key: cdktf.stringToTerraform(struct!.licenseKey),
     password: cdktf.stringToTerraform(struct!.password),
     serial_number: cdktf.stringToTerraform(struct!.serialNumber),
     ssh_thumbprint: cdktf.stringToTerraform(struct!.sshThumbprint),
@@ -2710,6 +2781,12 @@ export function domainClusterVsanStretchConfigurationSecondaryFdHostToHclTerrafo
     },
     ip_address: {
       value: cdktf.stringToHclTerraform(struct!.ipAddress),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    license_key: {
+      value: cdktf.stringToHclTerraform(struct!.licenseKey),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -2786,6 +2863,10 @@ export class DomainClusterVsanStretchConfigurationSecondaryFdHostOutputReference
       hasAnyValues = true;
       internalValueResult.ipAddress = this._ipAddress;
     }
+    if (this._licenseKey !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.licenseKey = this._licenseKey;
+    }
     if (this._password !== undefined) {
       hasAnyValues = true;
       internalValueResult.password = this._password;
@@ -2817,6 +2898,7 @@ export class DomainClusterVsanStretchConfigurationSecondaryFdHostOutputReference
       this._hostName = undefined;
       this._id = undefined;
       this._ipAddress = undefined;
+      this._licenseKey = undefined;
       this._password = undefined;
       this._serialNumber = undefined;
       this._sshThumbprint = undefined;
@@ -2834,6 +2916,7 @@ export class DomainClusterVsanStretchConfigurationSecondaryFdHostOutputReference
       this._hostName = value.hostName;
       this._id = value.id;
       this._ipAddress = value.ipAddress;
+      this._licenseKey = value.licenseKey;
       this._password = value.password;
       this._serialNumber = value.serialNumber;
       this._sshThumbprint = value.sshThumbprint;
@@ -2901,6 +2984,22 @@ export class DomainClusterVsanStretchConfigurationSecondaryFdHostOutputReference
   // Temporarily expose input value. Use with caution.
   public get ipAddressInput() {
     return this._ipAddress;
+  }
+
+  // license_key - computed: false, optional: true, required: false
+  private _licenseKey?: string; 
+  public get licenseKey() {
+    return this.getStringAttribute('license_key');
+  }
+  public set licenseKey(value: string) {
+    this._licenseKey = value;
+  }
+  public resetLicenseKey() {
+    this._licenseKey = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get licenseKeyInput() {
+    return this._licenseKey;
   }
 
   // password - computed: false, optional: true, required: false
@@ -3007,19 +3106,19 @@ export interface DomainClusterVsanStretchConfigurationWitnessHost {
   /**
   * Fully qualified domain name of the witness host. It should be routable on the vSAN network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#fqdn Domain#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#fqdn Domain#fqdn}
   */
   readonly fqdn: string;
   /**
   * CIDR address for the witness host on the vSAN network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#vsan_cidr Domain#vsan_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#vsan_cidr Domain#vsan_cidr}
   */
   readonly vsanCidr: string;
   /**
   * IP address for the witness host on the vSAN network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#vsan_ip Domain#vsan_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#vsan_ip Domain#vsan_ip}
   */
   readonly vsanIp: string;
 }
@@ -3154,13 +3253,13 @@ export interface DomainClusterVsanStretchConfiguration {
   /**
   * secondary_fd_host block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#secondary_fd_host Domain#secondary_fd_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#secondary_fd_host Domain#secondary_fd_host}
   */
   readonly secondaryFdHost?: DomainClusterVsanStretchConfigurationSecondaryFdHost[] | cdktf.IResolvable;
   /**
   * witness_host block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#witness_host Domain#witness_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#witness_host Domain#witness_host}
   */
   readonly witnessHost?: DomainClusterVsanStretchConfigurationWitnessHost;
 }
@@ -3275,31 +3374,31 @@ export interface DomainClusterVvolDatastores {
   /**
   * vVol datastore name used for cluster creation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#datastore_name Domain#datastore_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#datastore_name Domain#datastore_name}
   */
   readonly datastoreName: string;
   /**
   * UUID of the VASA storage container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#storage_container_id Domain#storage_container_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#storage_container_id Domain#storage_container_id}
   */
   readonly storageContainerId: string;
   /**
   * Type of the VASA storage protocol. One among: ISCSI, NFS, FC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#storage_protocol_type Domain#storage_protocol_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#storage_protocol_type Domain#storage_protocol_type}
   */
   readonly storageProtocolType: string;
   /**
   * UUID of the VASA storage user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#user_id Domain#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#user_id Domain#user_id}
   */
   readonly userId: string;
   /**
   * UUID of the VASA storage provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#vasa_provider_id Domain#vasa_provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#vasa_provider_id Domain#vasa_provider_id}
   */
   readonly vasaProviderId: string;
 }
@@ -3518,85 +3617,85 @@ export interface DomainCluster {
   /**
   * ID of the cluster image to be used with the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#cluster_image_id Domain#cluster_image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#cluster_image_id Domain#cluster_image_id}
   */
   readonly clusterImageId?: string;
   /**
   * EVC mode for new cluster, if needed. One among: INTEL_MEROM, INTEL_PENRYN, INTEL_NEALEM, INTEL_WESTMERE, INTEL_SANDYBRIDGE, INTEL_IVYBRIDGE, INTEL_HASWELL, INTEL_BROADWELL, INTEL_SKYLAKE, INTEL_CASCADELAKE, AMD_REV_E, AMD_REV_F, AMD_GREYHOUND_NO3DNOW, AMD_GREYHOUND, AMD_BULLDOZER, AMD_PILEDRIVER, AMD_STREAMROLLER, AMD_ZEN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#evc_mode Domain#evc_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#evc_mode Domain#evc_mode}
   */
   readonly evcMode?: string;
   /**
   * VLAN ID use for NSX Geneve in the workload domain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#geneve_vlan_id Domain#geneve_vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#geneve_vlan_id Domain#geneve_vlan_id}
   */
   readonly geneveVlanId?: number;
   /**
   * vSphere High Availability settings for the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#high_availability_enabled Domain#high_availability_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#high_availability_enabled Domain#high_availability_enabled}
   */
   readonly highAvailabilityEnabled?: boolean | cdktf.IResolvable;
   /**
   * Name of the cluster to add to the workload domain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#name Domain#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#name Domain#name}
   */
   readonly name: string;
   /**
   * host block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#host Domain#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#host Domain#host}
   */
   readonly host: DomainClusterHost[] | cdktf.IResolvable;
   /**
   * ip_address_pool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#ip_address_pool Domain#ip_address_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#ip_address_pool Domain#ip_address_pool}
   */
   readonly ipAddressPool?: DomainClusterIpAddressPool;
   /**
   * nfs_datastores block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#nfs_datastores Domain#nfs_datastores}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#nfs_datastores Domain#nfs_datastores}
   */
   readonly nfsDatastores?: DomainClusterNfsDatastores[] | cdktf.IResolvable;
   /**
   * vds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#vds Domain#vds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#vds Domain#vds}
   */
   readonly vds: DomainClusterVds[] | cdktf.IResolvable;
   /**
   * vmfs_datastore block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#vmfs_datastore Domain#vmfs_datastore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#vmfs_datastore Domain#vmfs_datastore}
   */
   readonly vmfsDatastore?: DomainClusterVmfsDatastore;
   /**
   * vsan_datastore block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#vsan_datastore Domain#vsan_datastore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#vsan_datastore Domain#vsan_datastore}
   */
   readonly vsanDatastore?: DomainClusterVsanDatastore;
   /**
   * vsan_remote_datastore_cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#vsan_remote_datastore_cluster Domain#vsan_remote_datastore_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#vsan_remote_datastore_cluster Domain#vsan_remote_datastore_cluster}
   */
   readonly vsanRemoteDatastoreCluster?: DomainClusterVsanRemoteDatastoreCluster;
   /**
   * vsan_stretch_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#vsan_stretch_configuration Domain#vsan_stretch_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#vsan_stretch_configuration Domain#vsan_stretch_configuration}
   */
   readonly vsanStretchConfiguration?: DomainClusterVsanStretchConfiguration;
   /**
   * vvol_datastores block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#vvol_datastores Domain#vvol_datastores}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#vvol_datastores Domain#vvol_datastores}
   */
   readonly vvolDatastores?: DomainClusterVvolDatastores[] | cdktf.IResolvable;
 }
@@ -4107,31 +4206,31 @@ export interface DomainNsxConfigurationNsxManagerNode {
   /**
   * Fully qualified domain name of the NSX Manager appliance, e.g., sfo-w01-nsx01a.sfo.rainpole.io
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#fqdn Domain#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#fqdn Domain#fqdn}
   */
   readonly fqdn: string;
   /**
   * IPv4 gateway the NSX Manager appliance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#gateway Domain#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#gateway Domain#gateway}
   */
   readonly gateway: string;
   /**
   * IPv4 address of the NSX Manager appliance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#ip_address Domain#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#ip_address Domain#ip_address}
   */
   readonly ipAddress: string;
   /**
   * Name of the NSX Manager appliance, e.g., sfo-w01-nsx01 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#name Domain#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#name Domain#name}
   */
   readonly name: string;
   /**
   * IPv4 subnet mask for the NSX Manager appliance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#subnet_mask Domain#subnet_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#subnet_mask Domain#subnet_mask}
   */
   readonly subnetMask: string;
 }
@@ -4350,37 +4449,43 @@ export interface DomainNsxConfiguration {
   /**
   * Form factor for the NSX Manager appliance. One among: large, medium, small
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#form_factor Domain#form_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#form_factor Domain#form_factor}
   */
   readonly formFactor?: string;
   /**
+  * NSX license to be used
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#license_key Domain#license_key}
+  */
+  readonly licenseKey: string;
+  /**
   * NSX Manager admin user password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#nsx_manager_admin_password Domain#nsx_manager_admin_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#nsx_manager_admin_password Domain#nsx_manager_admin_password}
   */
   readonly nsxManagerAdminPassword: string;
   /**
   * NSX Manager audit user password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#nsx_manager_audit_password Domain#nsx_manager_audit_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#nsx_manager_audit_password Domain#nsx_manager_audit_password}
   */
   readonly nsxManagerAuditPassword?: string;
   /**
   * Virtual IP (VIP) for the NSX Manager cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#vip Domain#vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#vip Domain#vip}
   */
   readonly vip: string;
   /**
   * Fully qualified domain name of the NSX Manager cluster VIP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#vip_fqdn Domain#vip_fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#vip_fqdn Domain#vip_fqdn}
   */
   readonly vipFqdn: string;
   /**
   * nsx_manager_node block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#nsx_manager_node Domain#nsx_manager_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#nsx_manager_node Domain#nsx_manager_node}
   */
   readonly nsxManagerNode: DomainNsxConfigurationNsxManagerNode[] | cdktf.IResolvable;
 }
@@ -4392,6 +4497,7 @@ export function domainNsxConfigurationToTerraform(struct?: DomainNsxConfiguratio
   }
   return {
     form_factor: cdktf.stringToTerraform(struct!.formFactor),
+    license_key: cdktf.stringToTerraform(struct!.licenseKey),
     nsx_manager_admin_password: cdktf.stringToTerraform(struct!.nsxManagerAdminPassword),
     nsx_manager_audit_password: cdktf.stringToTerraform(struct!.nsxManagerAuditPassword),
     vip: cdktf.stringToTerraform(struct!.vip),
@@ -4409,6 +4515,12 @@ export function domainNsxConfigurationToHclTerraform(struct?: DomainNsxConfigura
   const attrs = {
     form_factor: {
       value: cdktf.stringToHclTerraform(struct!.formFactor),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    license_key: {
+      value: cdktf.stringToHclTerraform(struct!.licenseKey),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -4467,6 +4579,10 @@ export class DomainNsxConfigurationOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.formFactor = this._formFactor;
     }
+    if (this._licenseKey !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.licenseKey = this._licenseKey;
+    }
     if (this._nsxManagerAdminPassword !== undefined) {
       hasAnyValues = true;
       internalValueResult.nsxManagerAdminPassword = this._nsxManagerAdminPassword;
@@ -4494,6 +4610,7 @@ export class DomainNsxConfigurationOutputReference extends cdktf.ComplexObject {
     if (value === undefined) {
       this.isEmptyObject = false;
       this._formFactor = undefined;
+      this._licenseKey = undefined;
       this._nsxManagerAdminPassword = undefined;
       this._nsxManagerAuditPassword = undefined;
       this._vip = undefined;
@@ -4503,6 +4620,7 @@ export class DomainNsxConfigurationOutputReference extends cdktf.ComplexObject {
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._formFactor = value.formFactor;
+      this._licenseKey = value.licenseKey;
       this._nsxManagerAdminPassword = value.nsxManagerAdminPassword;
       this._nsxManagerAuditPassword = value.nsxManagerAuditPassword;
       this._vip = value.vip;
@@ -4530,6 +4648,19 @@ export class DomainNsxConfigurationOutputReference extends cdktf.ComplexObject {
   // id - computed: true, optional: false, required: false
   public get id() {
     return this.getStringAttribute('id');
+  }
+
+  // license_key - computed: false, optional: false, required: true
+  private _licenseKey?: string; 
+  public get licenseKey() {
+    return this.getStringAttribute('license_key');
+  }
+  public set licenseKey(value: string) {
+    this._licenseKey = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get licenseKeyInput() {
+    return this._licenseKey;
   }
 
   // nsx_manager_admin_password - computed: false, optional: false, required: true
@@ -4600,168 +4731,21 @@ export class DomainNsxConfigurationOutputReference extends cdktf.ComplexObject {
     return this._nsxManagerNode.internalValue;
   }
 }
-export interface DomainSso {
-  /**
-  * Name of the SSO domain
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#domain_name Domain#domain_name}
-  */
-  readonly domainName: string;
-  /**
-  * Password of the SSO domain
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#domain_password Domain#domain_password}
-  */
-  readonly domainPassword: string;
-}
-
-export function domainSsoToTerraform(struct?: DomainSso | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    domain_name: cdktf.stringToTerraform(struct!.domainName),
-    domain_password: cdktf.stringToTerraform(struct!.domainPassword),
-  }
-}
-
-
-export function domainSsoToHclTerraform(struct?: DomainSso | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    domain_name: {
-      value: cdktf.stringToHclTerraform(struct!.domainName),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    domain_password: {
-      value: cdktf.stringToHclTerraform(struct!.domainPassword),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class DomainSsoOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): DomainSso | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._domainName !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.domainName = this._domainName;
-    }
-    if (this._domainPassword !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.domainPassword = this._domainPassword;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DomainSso | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._domainName = undefined;
-      this._domainPassword = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._domainName = value.domainName;
-      this._domainPassword = value.domainPassword;
-    }
-  }
-
-  // domain_name - computed: false, optional: false, required: true
-  private _domainName?: string; 
-  public get domainName() {
-    return this.getStringAttribute('domain_name');
-  }
-  public set domainName(value: string) {
-    this._domainName = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get domainNameInput() {
-    return this._domainName;
-  }
-
-  // domain_password - computed: false, optional: false, required: true
-  private _domainPassword?: string; 
-  public get domainPassword() {
-    return this.getStringAttribute('domain_password');
-  }
-  public set domainPassword(value: string) {
-    this._domainPassword = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get domainPasswordInput() {
-    return this._domainPassword;
-  }
-}
-
-export class DomainSsoList extends cdktf.ComplexList {
-  public internalValue? : DomainSso[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DomainSsoOutputReference {
-    return new DomainSsoOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
 export interface DomainTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#create Domain#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#create Domain#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#delete Domain#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#delete Domain#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#read Domain#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#read Domain#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#update Domain#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#update Domain#update}
   */
   readonly update?: string;
 }
@@ -4944,55 +4928,55 @@ export interface DomainVcenterConfiguration {
   /**
   * vSphere datacenter name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#datacenter_name Domain#datacenter_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#datacenter_name Domain#datacenter_name}
   */
   readonly datacenterName: string;
   /**
   * Fully qualified domain name of the vCenter Server instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#fqdn Domain#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#fqdn Domain#fqdn}
   */
   readonly fqdn: string;
   /**
   * IPv4 gateway of the vCenter Server instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#gateway Domain#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#gateway Domain#gateway}
   */
   readonly gateway: string;
   /**
   * IPv4 address of the vCenter virtual machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#ip_address Domain#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#ip_address Domain#ip_address}
   */
   readonly ipAddress: string;
   /**
   * Name of the vCenter Server Appliance virtual machine to be created for the workload domain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#name Domain#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#name Domain#name}
   */
   readonly name: string;
   /**
   * root password for the vCenter Server Appliance (8-20 characters)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#root_password Domain#root_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#root_password Domain#root_password}
   */
   readonly rootPassword: string;
   /**
   * vCenter Server storage size. One among: lstorage, xlstorage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#storage_size Domain#storage_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#storage_size Domain#storage_size}
   */
   readonly storageSize?: string;
   /**
   * IPv4 subnet mask of the vCenter Server instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#subnet_mask Domain#subnet_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#subnet_mask Domain#subnet_mask}
   */
   readonly subnetMask: string;
   /**
   * vCenter Server instance size. One among: xlarge, large, medium, small, tiny
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#vm_size Domain#vm_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#vm_size Domain#vm_size}
   */
   readonly vmSize?: string;
 }
@@ -5292,7 +5276,7 @@ export class DomainVcenterConfigurationOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain vcf_domain}
+* Represents a {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain vcf_domain}
 */
 export class Domain extends cdktf.TerraformResource {
 
@@ -5308,7 +5292,7 @@ export class Domain extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Domain resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Domain to import
-  * @param importFromId The id of the existing Domain that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Domain that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Domain to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5320,7 +5304,7 @@ export class Domain extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/domain vcf_domain} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/domain vcf_domain} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5331,7 +5315,8 @@ export class Domain extends cdktf.TerraformResource {
       terraformResourceType: 'vcf_domain',
       terraformGeneratorMetadata: {
         providerName: 'vcf',
-        providerVersion: '0.17.1'
+        providerVersion: '0.16.2',
+        providerVersionConstraint: '0.16.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -5346,7 +5331,6 @@ export class Domain extends cdktf.TerraformResource {
     this._orgName = config.orgName;
     this._cluster.internalValue = config.cluster;
     this._nsxConfiguration.internalValue = config.nsxConfiguration;
-    this._sso.internalValue = config.sso;
     this._timeouts.internalValue = config.timeouts;
     this._vcenterConfiguration.internalValue = config.vcenterConfiguration;
   }
@@ -5454,19 +5438,6 @@ export class Domain extends cdktf.TerraformResource {
     return this._nsxConfiguration.internalValue;
   }
 
-  // sso - computed: false, optional: false, required: true
-  private _sso = new DomainSsoList(this, "sso", false);
-  public get sso() {
-    return this._sso;
-  }
-  public putSso(value: DomainSso[] | cdktf.IResolvable) {
-    this._sso.internalValue = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ssoInput() {
-    return this._sso.internalValue;
-  }
-
   // timeouts - computed: false, optional: true, required: false
   private _timeouts = new DomainTimeoutsOutputReference(this, "timeouts");
   public get timeouts() {
@@ -5507,7 +5478,6 @@ export class Domain extends cdktf.TerraformResource {
       org_name: cdktf.stringToTerraform(this._orgName),
       cluster: cdktf.listMapper(domainClusterToTerraform, true)(this._cluster.internalValue),
       nsx_configuration: domainNsxConfigurationToTerraform(this._nsxConfiguration.internalValue),
-      sso: cdktf.listMapper(domainSsoToTerraform, true)(this._sso.internalValue),
       timeouts: domainTimeoutsToTerraform(this._timeouts.internalValue),
       vcenter_configuration: domainVcenterConfigurationToTerraform(this._vcenterConfiguration.internalValue),
     };
@@ -5544,12 +5514,6 @@ export class Domain extends cdktf.TerraformResource {
         isBlock: true,
         type: "list",
         storageClassType: "DomainNsxConfigurationList",
-      },
-      sso: {
-        value: cdktf.listMapperHcl(domainSsoToHclTerraform, true)(this._sso.internalValue),
-        isBlock: true,
-        type: "list",
-        storageClassType: "DomainSsoList",
       },
       timeouts: {
         value: domainTimeoutsToHclTerraform(this._timeouts.internalValue),

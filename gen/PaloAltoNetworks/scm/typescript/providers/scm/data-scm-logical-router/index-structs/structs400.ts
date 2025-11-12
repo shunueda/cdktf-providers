@@ -2807,9 +2807,9 @@ export class DataScmLogicalRouterVrfOspfGracefulRestartOutputReference extends c
     return this.getNumberAttribute('max_neighbor_restart_time');
   }
 
-  // strict__l_s_a_checking - computed: true, optional: false, required: false
-  public get strictLSAChecking() {
-    return this.getBooleanAttribute('strict__l_s_a_checking');
+  // strict_lsa_checking - computed: true, optional: false, required: false
+  public get strictLsaChecking() {
+    return this.getBooleanAttribute('strict_lsa_checking');
   }
 }
 export interface DataScmLogicalRouterVrfOspfVrTimers {
@@ -6713,9 +6713,9 @@ export class DataScmLogicalRouterVrfOspfv3GracefulRestartOutputReference extends
     return this.getNumberAttribute('max_neighbor_restart_time');
   }
 
-  // strict__l_s_a_checking - computed: true, optional: false, required: false
-  public get strictLSAChecking() {
-    return this.getBooleanAttribute('strict__l_s_a_checking');
+  // strict_lsa_checking - computed: true, optional: false, required: false
+  public get strictLsaChecking() {
+    return this.getBooleanAttribute('strict_lsa_checking');
   }
 }
 export interface DataScmLogicalRouterVrfOspfv3VrTimers {
@@ -8236,6 +8236,11 @@ export class DataScmLogicalRouterVrfRoutingTableIpStaticRouteNexthopOutputRefere
   // fqdn - computed: true, optional: false, required: false
   public get fqdn() {
     return this.getStringAttribute('fqdn');
+  }
+
+  // ip_address - computed: true, optional: false, required: false
+  public get ipAddress() {
+    return this.getStringAttribute('ip_address');
   }
 
   // ipv6_address - computed: true, optional: false, required: false

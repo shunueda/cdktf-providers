@@ -67,7 +67,8 @@ export class DroneProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'drone',
       terraformGeneratorMetadata: {
         providerName: 'drone',
-        providerVersion: '0.2.5'
+        providerVersion: '0.2.5',
+        providerVersionConstraint: '0.2.5'
       },
       terraformProviderSource: 'Lucretius/drone'
     });

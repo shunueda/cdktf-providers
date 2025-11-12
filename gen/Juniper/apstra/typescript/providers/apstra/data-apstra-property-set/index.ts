@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/property_set
+// https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/property_set
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataApstraPropertySetConfig extends cdktf.TerraformMetaArgument
   /**
   * Apstra ID of the Property Set. Required when `name` is omitted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/property_set#id DataApstraPropertySet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/property_set#id DataApstraPropertySet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,13 +19,13 @@ export interface DataApstraPropertySetConfig extends cdktf.TerraformMetaArgument
   /**
   * Web UID name of the Property Set. Required when `id` is omitted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/property_set#name DataApstraPropertySet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/property_set#name DataApstraPropertySet#name}
   */
   readonly name?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/property_set apstra_property_set}
+* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/property_set apstra_property_set}
 */
 export class DataApstraPropertySet extends cdktf.TerraformDataSource {
 
@@ -41,7 +41,7 @@ export class DataApstraPropertySet extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataApstraPropertySet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataApstraPropertySet to import
-  * @param importFromId The id of the existing DataApstraPropertySet that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/property_set#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataApstraPropertySet that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/property_set#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataApstraPropertySet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -53,7 +53,7 @@ export class DataApstraPropertySet extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/property_set apstra_property_set} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/property_set apstra_property_set} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -64,7 +64,8 @@ export class DataApstraPropertySet extends cdktf.TerraformDataSource {
       terraformResourceType: 'apstra_property_set',
       terraformGeneratorMetadata: {
         providerName: 'apstra',
-        providerVersion: '0.95.0'
+        providerVersion: '0.95.1',
+        providerVersionConstraint: '0.95.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

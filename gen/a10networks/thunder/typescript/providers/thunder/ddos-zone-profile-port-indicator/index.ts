@@ -416,7 +416,8 @@ export class DdosZoneProfilePortIndicator extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_ddos_zone_profile_port_indicator',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

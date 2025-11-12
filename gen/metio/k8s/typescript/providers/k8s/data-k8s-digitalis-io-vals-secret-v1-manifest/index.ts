@@ -1154,7 +1154,8 @@ export class DataK8SDigitalisIoValsSecretV1Manifest extends cdktf.TerraformDataS
       terraformResourceType: 'k8s_digitalis_io_vals_secret_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

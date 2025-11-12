@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/http_header_profile
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_header_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface HttpHeaderProfileConfig extends cdktf.TerraformMetaArguments {
   /**
   * The description of the HTTP header profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/http_header_profile#description HttpHeaderProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_header_profile#description HttpHeaderProfile#description}
   */
   readonly description?: string;
   /**
   * The device in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/http_header_profile#device HttpHeaderProfile#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_header_profile#device HttpHeaderProfile#device}
   */
   readonly device?: string;
   /**
   * The folder in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/http_header_profile#folder HttpHeaderProfile#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_header_profile#folder HttpHeaderProfile#folder}
   */
   readonly folder?: string;
   /**
   * A list of HTTP header profile rules
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/http_header_profile#http_header_insertion HttpHeaderProfile#http_header_insertion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_header_profile#http_header_insertion HttpHeaderProfile#http_header_insertion}
   */
   readonly httpHeaderInsertion?: HttpHeaderProfileHttpHeaderInsertion[] | cdktf.IResolvable;
   /**
   * The name of the HTTP header profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/http_header_profile#name HttpHeaderProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_header_profile#name HttpHeaderProfile#name}
   */
   readonly name: string;
   /**
   * The snippet in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/http_header_profile#snippet HttpHeaderProfile#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_header_profile#snippet HttpHeaderProfile#snippet}
   */
   readonly snippet?: string;
 }
@@ -48,25 +48,25 @@ export interface HttpHeaderProfileHttpHeaderInsertionTypeHeaders {
   /**
   * The HTTP header string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/http_header_profile#header HttpHeaderProfile#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_header_profile#header HttpHeaderProfile#header}
   */
   readonly header: string;
   /**
   * Log the use of this HTTP header insertion?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/http_header_profile#log HttpHeaderProfile#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_header_profile#log HttpHeaderProfile#log}
   */
   readonly log?: boolean | cdktf.IResolvable;
   /**
   * An auto-generated name (_This should be removed_)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/http_header_profile#name HttpHeaderProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_header_profile#name HttpHeaderProfile#name}
   */
   readonly name: string;
   /**
   * The value associated with the HTTP header
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/http_header_profile#value HttpHeaderProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_header_profile#value HttpHeaderProfile#value}
   */
   readonly value: string;
 }
@@ -262,19 +262,19 @@ export interface HttpHeaderProfileHttpHeaderInsertionType {
   /**
   * A list of DNS domains
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/http_header_profile#domains HttpHeaderProfile#domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_header_profile#domains HttpHeaderProfile#domains}
   */
   readonly domains: string[];
   /**
   * Headers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/http_header_profile#headers HttpHeaderProfile#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_header_profile#headers HttpHeaderProfile#headers}
   */
   readonly headers: HttpHeaderProfileHttpHeaderInsertionTypeHeaders[] | cdktf.IResolvable;
   /**
   * The HTTP header insertion type (_This is a predefined list in the UI_)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/http_header_profile#name HttpHeaderProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_header_profile#name HttpHeaderProfile#name}
   */
   readonly name: string;
 }
@@ -441,13 +441,13 @@ export interface HttpHeaderProfileHttpHeaderInsertion {
   /**
   * The name of the HTTP header insertion rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/http_header_profile#name HttpHeaderProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_header_profile#name HttpHeaderProfile#name}
   */
   readonly name: string;
   /**
   * A list of HTTP header insertion definitions (_This should be an object rather than an array_)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/http_header_profile#type HttpHeaderProfile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_header_profile#type HttpHeaderProfile#type}
   */
   readonly type: HttpHeaderProfileHttpHeaderInsertionType[] | cdktf.IResolvable;
 }
@@ -586,7 +586,7 @@ export class HttpHeaderProfileHttpHeaderInsertionList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/http_header_profile scm_http_header_profile}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_header_profile scm_http_header_profile}
 */
 export class HttpHeaderProfile extends cdktf.TerraformResource {
 
@@ -602,7 +602,7 @@ export class HttpHeaderProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HttpHeaderProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HttpHeaderProfile to import
-  * @param importFromId The id of the existing HttpHeaderProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/http_header_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HttpHeaderProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_header_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HttpHeaderProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -614,7 +614,7 @@ export class HttpHeaderProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/http_header_profile scm_http_header_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/http_header_profile scm_http_header_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -625,7 +625,8 @@ export class HttpHeaderProfile extends cdktf.TerraformResource {
       terraformResourceType: 'scm_http_header_profile',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.3'
+        providerVersion: '1.0.4',
+        providerVersionConstraint: '1.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

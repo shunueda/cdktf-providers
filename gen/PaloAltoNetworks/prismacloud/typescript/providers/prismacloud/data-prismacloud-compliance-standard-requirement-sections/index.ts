@@ -202,7 +202,8 @@ export class DataPrismacloudComplianceStandardRequirementSections extends cdktf.
       terraformResourceType: 'prismacloud_compliance_standard_requirement_sections',
       terraformGeneratorMetadata: {
         providerName: 'prismacloud',
-        providerVersion: '1.7.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

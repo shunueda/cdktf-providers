@@ -108,7 +108,8 @@ export class S3BucketObject extends cdktf.TerraformResource {
       terraformResourceType: 'flexibleengine_s3_bucket_object',
       terraformGeneratorMetadata: {
         providerName: 'flexibleengine',
-        providerVersion: '1.46.0'
+        providerVersion: '1.46.0',
+        providerVersionConstraint: '1.46.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

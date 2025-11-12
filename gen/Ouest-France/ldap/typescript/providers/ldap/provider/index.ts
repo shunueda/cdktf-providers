@@ -97,7 +97,8 @@ export class LdapProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'ldap',
       terraformGeneratorMetadata: {
         providerName: 'ldap',
-        providerVersion: '0.8.12'
+        providerVersion: '0.8.12',
+        providerVersionConstraint: '0.8.12'
       },
       terraformProviderSource: 'Ouest-France/ldap'
     });

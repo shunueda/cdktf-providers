@@ -240,7 +240,8 @@ export class AamAuthenticationRelayKerberosInstance extends cdktf.TerraformResou
       terraformResourceType: 'thunder_aam_authentication_relay_kerberos_instance',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

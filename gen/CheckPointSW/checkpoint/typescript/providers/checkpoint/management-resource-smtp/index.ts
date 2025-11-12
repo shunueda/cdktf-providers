@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_smtp
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_smtp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,53 +10,53 @@ export interface ManagementResourceSmtpConfig extends cdktf.TerraformMetaArgumen
   /**
   * The Rule Base will be rechecked with the new resolved IP address for mail delivery.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_smtp#check_rulebase_with_new_destination ManagementResourceSmtp#check_rulebase_with_new_destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_smtp#check_rulebase_with_new_destination ManagementResourceSmtp#check_rulebase_with_new_destination}
   */
   readonly checkRulebaseWithNewDestination?: boolean | cdktf.IResolvable;
   /**
   * Color of the object. Should be one of existing colors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_smtp#color ManagementResourceSmtp#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_smtp#color ManagementResourceSmtp#color}
   */
   readonly color?: string;
   /**
   * Comments string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_smtp#comments ManagementResourceSmtp#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_smtp#comments ManagementResourceSmtp#comments}
   */
   readonly comments?: string;
   /**
   * MX record resolving is used to set the destination IP address of the connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_smtp#deliver_messages_using_dns_mx_records ManagementResourceSmtp#deliver_messages_using_dns_mx_records}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_smtp#deliver_messages_using_dns_mx_records ManagementResourceSmtp#deliver_messages_using_dns_mx_records}
   */
   readonly deliverMessagesUsingDnsMxRecords?: boolean | cdktf.IResolvable;
   /**
   * The Rule Base will be rechecked with the new resolved IP address for error mail delivery.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_smtp#error_check_rulebase_with_new_destination ManagementResourceSmtp#error_check_rulebase_with_new_destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_smtp#error_check_rulebase_with_new_destination ManagementResourceSmtp#error_check_rulebase_with_new_destination}
   */
   readonly errorCheckRulebaseWithNewDestination?: boolean | cdktf.IResolvable;
   /**
   * MX record resolving will be used to set the source IP address of the connection used to send the error message.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_smtp#error_deliver_messages_using_dns_mx_records ManagementResourceSmtp#error_deliver_messages_using_dns_mx_records}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_smtp#error_deliver_messages_using_dns_mx_records ManagementResourceSmtp#error_deliver_messages_using_dns_mx_records}
   */
   readonly errorDeliverMessagesUsingDnsMxRecords?: boolean | cdktf.IResolvable;
   /**
   * Error mail delivery happens if the SMTP security server is unable to deliver the message within the abandon time, and Notify Sender on Error is checked.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_smtp#error_mail_delivery_server ManagementResourceSmtp#error_mail_delivery_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_smtp#error_mail_delivery_server ManagementResourceSmtp#error_mail_delivery_server}
   */
   readonly errorMailDeliveryServer?: string;
   /**
   * Determines if an action specified in the Action 2 and CVP categories taken as a result of a resource definition is logged.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_smtp#exception_track ManagementResourceSmtp#exception_track}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_smtp#exception_track ManagementResourceSmtp#exception_track}
   */
   readonly exceptionTrack?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_smtp#id ManagementResourceSmtp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_smtp#id ManagementResourceSmtp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,61 +65,61 @@ export interface ManagementResourceSmtpConfig extends cdktf.TerraformMetaArgumen
   /**
   * Apply changes ignoring errors. You won't be able to publish such a changes. If ignore-warnings flag was omitted - warnings will also be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_smtp#ignore_errors ManagementResourceSmtp#ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_smtp#ignore_errors ManagementResourceSmtp#ignore_errors}
   */
   readonly ignoreErrors?: boolean | cdktf.IResolvable;
   /**
   * Apply changes ignoring warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_smtp#ignore_warnings ManagementResourceSmtp#ignore_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_smtp#ignore_warnings ManagementResourceSmtp#ignore_warnings}
   */
   readonly ignoreWarnings?: boolean | cdktf.IResolvable;
   /**
   * Specify the server to which mail is forwarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_smtp#mail_delivery_server ManagementResourceSmtp#mail_delivery_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_smtp#mail_delivery_server ManagementResourceSmtp#mail_delivery_server}
   */
   readonly mailDeliveryServer?: string;
   /**
   * Set the Match properties for the SMTP resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_smtp#match ManagementResourceSmtp#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_smtp#match ManagementResourceSmtp#match}
   */
   readonly match?: { [key: string]: string };
   /**
   * Object name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_smtp#name ManagementResourceSmtp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_smtp#name ManagementResourceSmtp#name}
   */
   readonly name: string;
   /**
   * Enable error mail delivery.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_smtp#notify_sender_on_error ManagementResourceSmtp#notify_sender_on_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_smtp#notify_sender_on_error ManagementResourceSmtp#notify_sender_on_error}
   */
   readonly notifySenderOnError?: boolean | cdktf.IResolvable;
   /**
   * Collection of tag identifiers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_smtp#tags ManagementResourceSmtp#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_smtp#tags ManagementResourceSmtp#tags}
   */
   readonly tags?: string[];
   /**
   * action_1 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_smtp#action_1 ManagementResourceSmtp#action_1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_smtp#action_1 ManagementResourceSmtp#action_1}
   */
   readonly action1?: ManagementResourceSmtpAction1;
   /**
   * action_2 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_smtp#action_2 ManagementResourceSmtp#action_2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_smtp#action_2 ManagementResourceSmtp#action_2}
   */
   readonly action2?: ManagementResourceSmtpAction2;
   /**
   * cvp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_smtp#cvp ManagementResourceSmtp#cvp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_smtp#cvp ManagementResourceSmtp#cvp}
   */
   readonly cvp?: ManagementResourceSmtpCvp;
 }
@@ -127,19 +127,19 @@ export interface ManagementResourceSmtpAction1CustomField {
   /**
   * The name of the header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_smtp#field ManagementResourceSmtp#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_smtp#field ManagementResourceSmtp#field}
   */
   readonly field?: string;
   /**
   * Original field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_smtp#original ManagementResourceSmtp#original}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_smtp#original ManagementResourceSmtp#original}
   */
   readonly original?: string;
   /**
   * Replacement field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_smtp#rewritten ManagementResourceSmtp#rewritten}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_smtp#rewritten ManagementResourceSmtp#rewritten}
   */
   readonly rewritten?: string;
 }
@@ -283,13 +283,13 @@ export interface ManagementResourceSmtpAction1Recipient {
   /**
   * Original field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_smtp#original ManagementResourceSmtp#original}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_smtp#original ManagementResourceSmtp#original}
   */
   readonly original?: string;
   /**
   * Replacement field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_smtp#rewritten ManagementResourceSmtp#rewritten}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_smtp#rewritten ManagementResourceSmtp#rewritten}
   */
   readonly rewritten?: string;
 }
@@ -404,13 +404,13 @@ export interface ManagementResourceSmtpAction1Sender {
   /**
   * Original field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_smtp#original ManagementResourceSmtp#original}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_smtp#original ManagementResourceSmtp#original}
   */
   readonly original?: string;
   /**
   * Replacement field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_smtp#rewritten ManagementResourceSmtp#rewritten}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_smtp#rewritten ManagementResourceSmtp#rewritten}
   */
   readonly rewritten?: string;
 }
@@ -525,19 +525,19 @@ export interface ManagementResourceSmtpAction1 {
   /**
   * custom_field block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_smtp#custom_field ManagementResourceSmtp#custom_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_smtp#custom_field ManagementResourceSmtp#custom_field}
   */
   readonly customField?: ManagementResourceSmtpAction1CustomField;
   /**
   * recipient block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_smtp#recipient ManagementResourceSmtp#recipient}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_smtp#recipient ManagementResourceSmtp#recipient}
   */
   readonly recipient?: ManagementResourceSmtpAction1Recipient;
   /**
   * sender block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_smtp#sender ManagementResourceSmtp#sender}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_smtp#sender ManagementResourceSmtp#sender}
   */
   readonly sender?: ManagementResourceSmtpAction1Sender;
 }
@@ -681,55 +681,55 @@ export interface ManagementResourceSmtpAction2 {
   /**
   * The MIME email headers can consist of 8 or 7 bit characters (7 ASCII and 8 for sending Binary characters) in order to encode mail data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_smtp#allowed_characters ManagementResourceSmtp#allowed_characters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_smtp#allowed_characters ManagementResourceSmtp#allowed_characters}
   */
   readonly allowedCharacters?: string;
   /**
   * Restrict the size (in kb) of incoming email attachments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_smtp#mail_capacity ManagementResourceSmtp#mail_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_smtp#mail_capacity ManagementResourceSmtp#mail_capacity}
   */
   readonly mailCapacity?: number;
   /**
   * Strip activeX tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_smtp#strip_activex_tags ManagementResourceSmtp#strip_activex_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_smtp#strip_activex_tags ManagementResourceSmtp#strip_activex_tags}
   */
   readonly stripActivexTags?: boolean | cdktf.IResolvable;
   /**
   * Strip JAVA applets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_smtp#strip_applet_tags ManagementResourceSmtp#strip_applet_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_smtp#strip_applet_tags ManagementResourceSmtp#strip_applet_tags}
   */
   readonly stripAppletTags?: boolean | cdktf.IResolvable;
   /**
   * Strips file attachments of the specified name from the message.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_smtp#strip_file_by_name ManagementResourceSmtp#strip_file_by_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_smtp#strip_file_by_name ManagementResourceSmtp#strip_file_by_name}
   */
   readonly stripFileByName?: string;
   /**
   * Strip ftp links.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_smtp#strip_ftp_links ManagementResourceSmtp#strip_ftp_links}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_smtp#strip_ftp_links ManagementResourceSmtp#strip_ftp_links}
   */
   readonly stripFtpLinks?: boolean | cdktf.IResolvable;
   /**
   * Specifies the MIME type to strip from the message.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_smtp#strip_mime_of_type ManagementResourceSmtp#strip_mime_of_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_smtp#strip_mime_of_type ManagementResourceSmtp#strip_mime_of_type}
   */
   readonly stripMimeOfType?: string;
   /**
   * Strip ports.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_smtp#strip_port_strings ManagementResourceSmtp#strip_port_strings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_smtp#strip_port_strings ManagementResourceSmtp#strip_port_strings}
   */
   readonly stripPortStrings?: boolean | cdktf.IResolvable;
   /**
   * Strip JAVA scripts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_smtp#strip_script_tags ManagementResourceSmtp#strip_script_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_smtp#strip_script_tags ManagementResourceSmtp#strip_script_tags}
   */
   readonly stripScriptTags?: boolean | cdktf.IResolvable;
 }
@@ -1047,25 +1047,25 @@ export interface ManagementResourceSmtpCvp {
   /**
   * Configures the CVP server to inspect but not modify content.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_smtp#allowed_to_modify_content ManagementResourceSmtp#allowed_to_modify_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_smtp#allowed_to_modify_content ManagementResourceSmtp#allowed_to_modify_content}
   */
   readonly allowedToModifyContent?: boolean | cdktf.IResolvable;
   /**
   * Select to enable the Content Vectoring Protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_smtp#enable_cvp ManagementResourceSmtp#enable_cvp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_smtp#enable_cvp ManagementResourceSmtp#enable_cvp}
   */
   readonly enableCvp?: boolean | cdktf.IResolvable;
   /**
   * Designates when the CVP server returns data to the Security Gateway security server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_smtp#reply_order ManagementResourceSmtp#reply_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_smtp#reply_order ManagementResourceSmtp#reply_order}
   */
   readonly replyOrder?: string;
   /**
   * The UID or Name of the CVP server, make sure the CVP server is already be defined as an OPSEC Application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_smtp#server ManagementResourceSmtp#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_smtp#server ManagementResourceSmtp#server}
   */
   readonly server?: string;
 }
@@ -1236,7 +1236,7 @@ export class ManagementResourceSmtpCvpOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_smtp checkpoint_management_resource_smtp}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_smtp checkpoint_management_resource_smtp}
 */
 export class ManagementResourceSmtp extends cdktf.TerraformResource {
 
@@ -1252,7 +1252,7 @@ export class ManagementResourceSmtp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementResourceSmtp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementResourceSmtp to import
-  * @param importFromId The id of the existing ManagementResourceSmtp that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_smtp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementResourceSmtp that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_smtp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementResourceSmtp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1264,7 +1264,7 @@ export class ManagementResourceSmtp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_smtp checkpoint_management_resource_smtp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_smtp checkpoint_management_resource_smtp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1275,7 +1275,8 @@ export class ManagementResourceSmtp extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_resource_smtp',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

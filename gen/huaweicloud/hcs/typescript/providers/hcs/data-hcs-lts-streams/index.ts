@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/lts_streams
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/lts_streams
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataHcsLtsStreamsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/lts_streams#id DataHcsLtsStreams#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/lts_streams#id DataHcsLtsStreams#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface DataHcsLtsStreamsConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the log group to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/lts_streams#log_group_name DataHcsLtsStreams#log_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/lts_streams#log_group_name DataHcsLtsStreams#log_group_name}
   */
   readonly logGroupName?: string;
   /**
   * The name of the log stream to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/lts_streams#log_stream_name DataHcsLtsStreams#log_stream_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/lts_streams#log_stream_name DataHcsLtsStreams#log_stream_name}
   */
   readonly logStreamName?: string;
   /**
   * The region in which to query the log streams.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/lts_streams#region DataHcsLtsStreams#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/lts_streams#region DataHcsLtsStreams#region}
   */
   readonly region?: string;
 }
@@ -136,7 +136,7 @@ export class DataHcsLtsStreamsLogStreamsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/lts_streams hcs_lts_streams}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/lts_streams hcs_lts_streams}
 */
 export class DataHcsLtsStreams extends cdktf.TerraformDataSource {
 
@@ -152,7 +152,7 @@ export class DataHcsLtsStreams extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataHcsLtsStreams resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHcsLtsStreams to import
-  * @param importFromId The id of the existing DataHcsLtsStreams that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/lts_streams#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHcsLtsStreams that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/lts_streams#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHcsLtsStreams to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -164,7 +164,7 @@ export class DataHcsLtsStreams extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/lts_streams hcs_lts_streams} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/lts_streams hcs_lts_streams} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -175,7 +175,8 @@ export class DataHcsLtsStreams extends cdktf.TerraformDataSource {
       terraformResourceType: 'hcs_lts_streams',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.19'
+        providerVersion: '2.4.20',
+        providerVersionConstraint: '2.4.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -67,7 +67,8 @@ export class SnykProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'snyk',
       terraformGeneratorMetadata: {
         providerName: 'snyk',
-        providerVersion: '0.0.5'
+        providerVersion: '0.0.5',
+        providerVersionConstraint: '0.0.5'
       },
       terraformProviderSource: 'snyk-terraform-assets/snyk'
     });

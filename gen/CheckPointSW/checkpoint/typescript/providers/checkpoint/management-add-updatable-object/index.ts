@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_add_updatable_object
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_add_updatable_object
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ManagementAddUpdatableObjectConfig extends cdktf.TerraformMetaA
   /**
   * Color of the object. Should be one of existing colors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_add_updatable_object#color ManagementAddUpdatableObject#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_add_updatable_object#color ManagementAddUpdatableObject#color}
   */
   readonly color?: string;
   /**
   * Comments string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_add_updatable_object#comments ManagementAddUpdatableObject#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_add_updatable_object#comments ManagementAddUpdatableObject#comments}
   */
   readonly comments?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_add_updatable_object#id ManagementAddUpdatableObject#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_add_updatable_object#id ManagementAddUpdatableObject#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,37 +29,37 @@ export interface ManagementAddUpdatableObjectConfig extends cdktf.TerraformMetaA
   /**
   * Apply changes ignoring errors. You won't be able to publish such a changes. If ignore-warnings flag was omitted - warnings will also be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_add_updatable_object#ignore_errors ManagementAddUpdatableObject#ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_add_updatable_object#ignore_errors ManagementAddUpdatableObject#ignore_errors}
   */
   readonly ignoreErrors?: boolean | cdktf.IResolvable;
   /**
   * Apply changes ignoring warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_add_updatable_object#ignore_warnings ManagementAddUpdatableObject#ignore_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_add_updatable_object#ignore_warnings ManagementAddUpdatableObject#ignore_warnings}
   */
   readonly ignoreWarnings?: boolean | cdktf.IResolvable;
   /**
   * Collection of tag identifiers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_add_updatable_object#tags ManagementAddUpdatableObject#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_add_updatable_object#tags ManagementAddUpdatableObject#tags}
   */
   readonly tags?: string[];
   /**
   * Unique identifier of the updatable object in the Updatable Objects Repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_add_updatable_object#uid_in_updatable_objects_repository ManagementAddUpdatableObject#uid_in_updatable_objects_repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_add_updatable_object#uid_in_updatable_objects_repository ManagementAddUpdatableObject#uid_in_updatable_objects_repository}
   */
   readonly uidInUpdatableObjectsRepository?: string;
   /**
   * URI of the updatable object in the Updatable Objects Repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_add_updatable_object#uri ManagementAddUpdatableObject#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_add_updatable_object#uri ManagementAddUpdatableObject#uri}
   */
   readonly uri?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_add_updatable_object checkpoint_management_add_updatable_object}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_add_updatable_object checkpoint_management_add_updatable_object}
 */
 export class ManagementAddUpdatableObject extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class ManagementAddUpdatableObject extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementAddUpdatableObject resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementAddUpdatableObject to import
-  * @param importFromId The id of the existing ManagementAddUpdatableObject that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_add_updatable_object#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementAddUpdatableObject that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_add_updatable_object#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementAddUpdatableObject to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class ManagementAddUpdatableObject extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_add_updatable_object checkpoint_management_add_updatable_object} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_add_updatable_object checkpoint_management_add_updatable_object} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,7 +98,8 @@ export class ManagementAddUpdatableObject extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_add_updatable_object',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

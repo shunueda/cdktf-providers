@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/arms_prometheusalertrule
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/arms_prometheusalertrule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,64 +8,64 @@ import * as cdktf from 'cdktf';
 
 export interface ArmsPrometheusalertruleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/arms_prometheusalertrule#cluster_id ArmsPrometheusalertrule#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/arms_prometheusalertrule#cluster_id ArmsPrometheusalertrule#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/arms_prometheusalertrule#dispatch_rule_id ArmsPrometheusalertrule#dispatch_rule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/arms_prometheusalertrule#dispatch_rule_id ArmsPrometheusalertrule#dispatch_rule_id}
   */
   readonly dispatchRuleId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/arms_prometheusalertrule#duration ArmsPrometheusalertrule#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/arms_prometheusalertrule#duration ArmsPrometheusalertrule#duration}
   */
   readonly duration: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/arms_prometheusalertrule#expression ArmsPrometheusalertrule#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/arms_prometheusalertrule#expression ArmsPrometheusalertrule#expression}
   */
   readonly expression: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/arms_prometheusalertrule#id ArmsPrometheusalertrule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/arms_prometheusalertrule#id ArmsPrometheusalertrule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/arms_prometheusalertrule#message ArmsPrometheusalertrule#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/arms_prometheusalertrule#message ArmsPrometheusalertrule#message}
   */
   readonly message: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/arms_prometheusalertrule#notify_type ArmsPrometheusalertrule#notify_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/arms_prometheusalertrule#notify_type ArmsPrometheusalertrule#notify_type}
   */
   readonly notifyType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/arms_prometheusalertrule#prometheus_alert_rule_name ArmsPrometheusalertrule#prometheus_alert_rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/arms_prometheusalertrule#prometheus_alert_rule_name ArmsPrometheusalertrule#prometheus_alert_rule_name}
   */
   readonly prometheusAlertRuleName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/arms_prometheusalertrule#type ArmsPrometheusalertrule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/arms_prometheusalertrule#type ArmsPrometheusalertrule#type}
   */
   readonly type?: string;
   /**
   * annotations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/arms_prometheusalertrule#annotations ArmsPrometheusalertrule#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/arms_prometheusalertrule#annotations ArmsPrometheusalertrule#annotations}
   */
   readonly annotations?: ArmsPrometheusalertruleAnnotations[] | cdktf.IResolvable;
   /**
   * labels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/arms_prometheusalertrule#labels ArmsPrometheusalertrule#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/arms_prometheusalertrule#labels ArmsPrometheusalertrule#labels}
   */
   readonly labels?: ArmsPrometheusalertruleLabels[] | cdktf.IResolvable;
 }
 export interface ArmsPrometheusalertruleAnnotations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/arms_prometheusalertrule#name ArmsPrometheusalertrule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/arms_prometheusalertrule#name ArmsPrometheusalertrule#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/arms_prometheusalertrule#value ArmsPrometheusalertrule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/arms_prometheusalertrule#value ArmsPrometheusalertrule#value}
   */
   readonly value?: string;
 }
@@ -210,11 +210,11 @@ export class ArmsPrometheusalertruleAnnotationsList extends cdktf.ComplexList {
 }
 export interface ArmsPrometheusalertruleLabels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/arms_prometheusalertrule#name ArmsPrometheusalertrule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/arms_prometheusalertrule#name ArmsPrometheusalertrule#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/arms_prometheusalertrule#value ArmsPrometheusalertrule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/arms_prometheusalertrule#value ArmsPrometheusalertrule#value}
   */
   readonly value?: string;
 }
@@ -359,7 +359,7 @@ export class ArmsPrometheusalertruleLabelsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/arms_prometheusalertrule alibabacloudstack_arms_prometheusalertrule}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/arms_prometheusalertrule alibabacloudstack_arms_prometheusalertrule}
 */
 export class ArmsPrometheusalertrule extends cdktf.TerraformResource {
 
@@ -375,7 +375,7 @@ export class ArmsPrometheusalertrule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ArmsPrometheusalertrule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ArmsPrometheusalertrule to import
-  * @param importFromId The id of the existing ArmsPrometheusalertrule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/arms_prometheusalertrule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ArmsPrometheusalertrule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/arms_prometheusalertrule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ArmsPrometheusalertrule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -387,7 +387,7 @@ export class ArmsPrometheusalertrule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/arms_prometheusalertrule alibabacloudstack_arms_prometheusalertrule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/arms_prometheusalertrule alibabacloudstack_arms_prometheusalertrule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -398,7 +398,8 @@ export class ArmsPrometheusalertrule extends cdktf.TerraformResource {
       terraformResourceType: 'alibabacloudstack_arms_prometheusalertrule',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.19'
+        providerVersion: '3.16.21',
+        providerVersionConstraint: '3.16.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

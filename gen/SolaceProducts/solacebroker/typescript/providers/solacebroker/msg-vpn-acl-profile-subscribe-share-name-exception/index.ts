@@ -87,7 +87,8 @@ export class MsgVpnAclProfileSubscribeShareNameException extends cdktf.Terraform
       terraformResourceType: 'solacebroker_msg_vpn_acl_profile_subscribe_share_name_exception',
       terraformGeneratorMetadata: {
         providerName: 'solacebroker',
-        providerVersion: '1.2.0'
+        providerVersion: '1.2.0',
+        providerVersionConstraint: '1.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

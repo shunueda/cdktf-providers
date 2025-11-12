@@ -109,7 +109,8 @@ export class AppviewxProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'appviewx',
       terraformGeneratorMetadata: {
         providerName: 'appviewx',
-        providerVersion: '1.0.8'
+        providerVersion: '1.0.8',
+        providerVersionConstraint: '1.0.8'
       },
       terraformProviderSource: 'AppViewX/appviewx'
     });

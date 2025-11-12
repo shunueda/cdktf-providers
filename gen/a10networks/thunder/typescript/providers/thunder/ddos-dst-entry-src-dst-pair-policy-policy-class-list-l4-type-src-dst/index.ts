@@ -336,7 +336,8 @@ export class DdosDstEntrySrcDstPairPolicyPolicyClassListL4TypeSrcDst extends cdk
       terraformResourceType: 'thunder_ddos_dst_entry_src_dst_pair_policy_policy_class_list_l4_type_src_dst',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

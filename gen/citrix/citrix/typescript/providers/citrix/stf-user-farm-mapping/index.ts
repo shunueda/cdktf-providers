@@ -501,7 +501,8 @@ export class StfUserFarmMapping extends cdktf.TerraformResource {
       terraformResourceType: 'citrix_stf_user_farm_mapping',
       terraformGeneratorMetadata: {
         providerName: 'citrix',
-        providerVersion: '1.0.30'
+        providerVersion: '1.0.30',
+        providerVersionConstraint: '1.0.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

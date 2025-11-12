@@ -164,7 +164,8 @@ export class AcmCertificateValidation extends cdktf.TerraformResource {
       terraformResourceType: 'aws_acm_certificate_validation',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '3.29.6'
+        providerVersion: '3.29.6',
+        providerVersionConstraint: '3.29.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

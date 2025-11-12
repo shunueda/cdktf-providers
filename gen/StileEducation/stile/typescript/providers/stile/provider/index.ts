@@ -55,7 +55,8 @@ export class StileProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'stile',
       terraformGeneratorMetadata: {
         providerName: 'stile',
-        providerVersion: '0.0.23'
+        providerVersion: '0.0.23',
+        providerVersionConstraint: '0.0.23'
       },
       terraformProviderSource: 'StileEducation/stile'
     });

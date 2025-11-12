@@ -79,7 +79,8 @@ export class Dashboard extends cdktf.TerraformResource {
       terraformResourceType: 'groundcover_dashboard',
       terraformGeneratorMetadata: {
         providerName: 'groundcover',
-        providerVersion: '1.3.0'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

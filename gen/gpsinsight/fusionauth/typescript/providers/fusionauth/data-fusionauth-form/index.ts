@@ -201,7 +201,8 @@ export class DataFusionauthForm extends cdktf.TerraformDataSource {
       terraformResourceType: 'fusionauth_form',
       terraformGeneratorMetadata: {
         providerName: 'fusionauth',
-        providerVersion: '0.1.100'
+        providerVersion: '0.1.100',
+        providerVersionConstraint: '0.1.100'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -74,7 +74,8 @@ export class DataZitadelProjectRole extends cdktf.TerraformDataSource {
       terraformResourceType: 'zitadel_project_role',
       terraformGeneratorMetadata: {
         providerName: 'zitadel',
-        providerVersion: '2.3.0'
+        providerVersion: '2.3.0',
+        providerVersionConstraint: '2.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

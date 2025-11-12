@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/rule
+// https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface RuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * List of actions to execute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/rule#actions Rule#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/rule#actions Rule#actions}
   */
   readonly actions: RuleActions[] | cdktf.IResolvable;
   /**
   * Defines the conditions that trigger the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/rule#conditions Rule#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/rule#conditions Rule#conditions}
   */
   readonly conditions?: RuleConditions;
   /**
   * Optional description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/rule#description Rule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/rule#description Rule#description}
   */
   readonly description?: string;
   /**
   * Unique name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/rule#name Rule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/rule#name Rule#name}
   */
   readonly name: string;
   /**
   * 1 enabled, 0 disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/rule#status Rule#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/rule#status Rule#status}
   */
   readonly status: number;
   /**
   * Event trigger. 1 = Filesystem event, 2 = Provider event, 3 = Schedule, 4 = IP Blocked, 5 = Certificate renewal, 6 = On demand, 7 = Identity Provider login.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/rule#trigger Rule#trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/rule#trigger Rule#trigger}
   */
   readonly trigger: number;
 }
@@ -48,19 +48,19 @@ export interface RuleActions {
   /**
   * Supported for upload events and required for pre-* events and Identity provider login events if the action checks the account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/rule#execute_sync Rule#execute_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/rule#execute_sync Rule#execute_sync}
   */
   readonly executeSync?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/rule#is_failure_action Rule#is_failure_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/rule#is_failure_action Rule#is_failure_action}
   */
   readonly isFailureAction?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/rule#name Rule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/rule#name Rule#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/rule#stop_on_failure Rule#stop_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/rule#stop_on_failure Rule#stop_on_failure}
   */
   readonly stopOnFailure?: boolean | cdktf.IResolvable;
 }
@@ -260,11 +260,11 @@ export class RuleActionsList extends cdktf.ComplexList {
 }
 export interface RuleConditionsOptionsFsPaths {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/rule#inverse_match Rule#inverse_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/rule#inverse_match Rule#inverse_match}
   */
   readonly inverseMatch?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/rule#pattern Rule#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/rule#pattern Rule#pattern}
   */
   readonly pattern: string;
 }
@@ -406,11 +406,11 @@ export class RuleConditionsOptionsFsPathsList extends cdktf.ComplexList {
 }
 export interface RuleConditionsOptionsGroupNames {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/rule#inverse_match Rule#inverse_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/rule#inverse_match Rule#inverse_match}
   */
   readonly inverseMatch?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/rule#pattern Rule#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/rule#pattern Rule#pattern}
   */
   readonly pattern: string;
 }
@@ -552,11 +552,11 @@ export class RuleConditionsOptionsGroupNamesList extends cdktf.ComplexList {
 }
 export interface RuleConditionsOptionsNames {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/rule#inverse_match Rule#inverse_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/rule#inverse_match Rule#inverse_match}
   */
   readonly inverseMatch?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/rule#pattern Rule#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/rule#pattern Rule#pattern}
   */
   readonly pattern: string;
 }
@@ -698,11 +698,11 @@ export class RuleConditionsOptionsNamesList extends cdktf.ComplexList {
 }
 export interface RuleConditionsOptionsRoleNames {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/rule#inverse_match Rule#inverse_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/rule#inverse_match Rule#inverse_match}
   */
   readonly inverseMatch?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/rule#pattern Rule#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/rule#pattern Rule#pattern}
   */
   readonly pattern: string;
 }
@@ -846,19 +846,19 @@ export interface RuleConditionsOptions {
   /**
   * If enabled, allow to execute scheduled tasks concurrently from multiple SFTPGo instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/rule#concurrent_execution Rule#concurrent_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/rule#concurrent_execution Rule#concurrent_execution}
   */
   readonly concurrentExecution?: boolean | cdktf.IResolvable;
   /**
   * The filesystem event rules will be triggered only for actions with the specified status. Empty means any status. Suported values: 1 (OK), 2 (Failed), 3 (Failed for a quota exceeded error).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/rule#event_statuses Rule#event_statuses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/rule#event_statuses Rule#event_statuses}
   */
   readonly eventStatuses?: number[];
   /**
   * Shell-like pattern filters for filesystem events. For example "/adir/*.txt"" will match paths in the "/adir" directory ending with ".txt". Double asterisk is supported, for example "/** /*.txt" will match any file ending with ".txt". "/mydir/**" will match any entry in "/mydir".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/rule#fs_paths Rule#fs_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/rule#fs_paths Rule#fs_paths}
    *
   * Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
   */
@@ -866,43 +866,43 @@ export interface RuleConditionsOptions {
   /**
   * Shell-like pattern filters for group names. For example "group*"" will match group names starting with "group".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/rule#group_names Rule#group_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/rule#group_names Rule#group_names}
   */
   readonly groupNames?: RuleConditionsOptionsGroupNames[] | cdktf.IResolvable;
   /**
   * Maximum file size as bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/rule#max_size Rule#max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/rule#max_size Rule#max_size}
   */
   readonly maxSize?: number;
   /**
   * Minimum file size as bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/rule#min_size Rule#min_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/rule#min_size Rule#min_size}
   */
   readonly minSize?: number;
   /**
   * Shell-like pattern filters for usernames, folder names. For example "user*"" will match names starting with "user". For provider events, this filter is applied to the username of the admin executing the event.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/rule#names Rule#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/rule#names Rule#names}
   */
   readonly names?: RuleConditionsOptionsNames[] | cdktf.IResolvable;
   /**
   * The filesystem event rule will be triggered only for the specified protocols. Empty means any protocol. Supported values: "SFTP", "SCP", "SSH", "FTP", "DAV", "HTTP", "HTTPShare","OIDC"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/rule#protocols Rule#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/rule#protocols Rule#protocols}
   */
   readonly protocols?: string[];
   /**
   * The provider event rule will be triggered only for the specified provider objects. Empty means any provider object. Supported values: "user", "folder", "group", "admin", "api_key", "share", "event_rule", "event_action".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/rule#provider_objects Rule#provider_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/rule#provider_objects Rule#provider_objects}
   */
   readonly providerObjects?: string[];
   /**
   * Shell-like pattern filters for role names. For example "role*"" will match role names starting with "role".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/rule#role_names Rule#role_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/rule#role_names Rule#role_names}
   */
   readonly roleNames?: RuleConditionsOptionsRoleNames[] | cdktf.IResolvable;
 }
@@ -1257,19 +1257,25 @@ export class RuleConditionsOptionsOutputReference extends cdktf.ComplexObject {
 }
 export interface RuleConditionsSchedules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/rule#day_of_month Rule#day_of_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/rule#day_of_month Rule#day_of_month}
   */
   readonly dayOfMonth: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/rule#day_of_week Rule#day_of_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/rule#day_of_week Rule#day_of_week}
   */
   readonly dayOfWeek: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/rule#hour Rule#hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/rule#hour Rule#hour}
   */
   readonly hour: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/rule#month Rule#month}
+  * Available in the Enterprise edition
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/rule#minute Rule#minute}
+  */
+  readonly minute?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/rule#month Rule#month}
   */
   readonly month: string;
 }
@@ -1283,6 +1289,7 @@ export function ruleConditionsSchedulesToTerraform(struct?: RuleConditionsSchedu
     day_of_month: cdktf.stringToTerraform(struct!.dayOfMonth),
     day_of_week: cdktf.stringToTerraform(struct!.dayOfWeek),
     hour: cdktf.stringToTerraform(struct!.hour),
+    minute: cdktf.stringToTerraform(struct!.minute),
     month: cdktf.stringToTerraform(struct!.month),
   }
 }
@@ -1308,6 +1315,12 @@ export function ruleConditionsSchedulesToHclTerraform(struct?: RuleConditionsSch
     },
     hour: {
       value: cdktf.stringToHclTerraform(struct!.hour),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    minute: {
+      value: cdktf.stringToHclTerraform(struct!.minute),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1356,6 +1369,10 @@ export class RuleConditionsSchedulesOutputReference extends cdktf.ComplexObject 
       hasAnyValues = true;
       internalValueResult.hour = this._hour;
     }
+    if (this._minute !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.minute = this._minute;
+    }
     if (this._month !== undefined) {
       hasAnyValues = true;
       internalValueResult.month = this._month;
@@ -1370,6 +1387,7 @@ export class RuleConditionsSchedulesOutputReference extends cdktf.ComplexObject 
       this._dayOfMonth = undefined;
       this._dayOfWeek = undefined;
       this._hour = undefined;
+      this._minute = undefined;
       this._month = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
@@ -1382,6 +1400,7 @@ export class RuleConditionsSchedulesOutputReference extends cdktf.ComplexObject 
       this._dayOfMonth = value.dayOfMonth;
       this._dayOfWeek = value.dayOfWeek;
       this._hour = value.hour;
+      this._minute = value.minute;
       this._month = value.month;
     }
   }
@@ -1425,6 +1444,22 @@ export class RuleConditionsSchedulesOutputReference extends cdktf.ComplexObject 
     return this._hour;
   }
 
+  // minute - computed: true, optional: true, required: false
+  private _minute?: string; 
+  public get minute() {
+    return this.getStringAttribute('minute');
+  }
+  public set minute(value: string) {
+    this._minute = value;
+  }
+  public resetMinute() {
+    this._minute = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get minuteInput() {
+    return this._minute;
+  }
+
   // month - computed: true, optional: false, required: true
   private _month?: string; 
   public get month() {
@@ -1462,31 +1497,31 @@ export interface RuleConditions {
   /**
   * Filesystem events that trigger the rule. Supported values: "upload", "pre-upload", "first-upload", "download", "pre-download", "first-download", "delete", "pre-delete", "rename", "mkdir", "rmdir", "copy", "ssh_cmd"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/rule#fs_events Rule#fs_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/rule#fs_events Rule#fs_events}
   */
   readonly fsEvents?: string[];
   /**
   * Identity Provider login event that trigger the rule. 0 any, 1 user, 2 admin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/rule#idp_login_event Rule#idp_login_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/rule#idp_login_event Rule#idp_login_event}
   */
   readonly idpLoginEvent?: number;
   /**
   * Options for event conditions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/rule#options Rule#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/rule#options Rule#options}
   */
   readonly options?: RuleConditionsOptions;
   /**
   * Provider events that trigger the rule. Supported values: "add", "update", "delete".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/rule#provider_events Rule#provider_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/rule#provider_events Rule#provider_events}
   */
   readonly providerEvents?: string[];
   /**
   * List of schedules that trigger the rule. Hours: 0-23. Day of week: 0-6 (Sun-Sat). Day of month: 1-31. Month: 1-12. Asterisk (*) indicates a match for all the values of the field. e.g. every day of week, every day of month and so on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/rule#schedules Rule#schedules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/rule#schedules Rule#schedules}
   */
   readonly schedules?: RuleConditionsSchedules[] | cdktf.IResolvable;
 }
@@ -1696,7 +1731,7 @@ export class RuleConditionsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/rule sftpgo_rule}
+* Represents a {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/rule sftpgo_rule}
 */
 export class Rule extends cdktf.TerraformResource {
 
@@ -1712,7 +1747,7 @@ export class Rule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Rule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Rule to import
-  * @param importFromId The id of the existing Rule that should be imported. Refer to the {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Rule that should be imported. Refer to the {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Rule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1724,7 +1759,7 @@ export class Rule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/rule sftpgo_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/rule sftpgo_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1735,7 +1770,8 @@ export class Rule extends cdktf.TerraformResource {
       terraformResourceType: 'sftpgo_rule',
       terraformGeneratorMetadata: {
         providerName: 'sftpgo',
-        providerVersion: '0.0.18'
+        providerVersion: '0.0.19',
+        providerVersionConstraint: '0.0.19'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

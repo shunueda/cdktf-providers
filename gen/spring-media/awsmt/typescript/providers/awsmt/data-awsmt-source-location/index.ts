@@ -365,7 +365,8 @@ export class DataAwsmtSourceLocation extends cdktf.TerraformDataSource {
       terraformResourceType: 'awsmt_source_location',
       terraformGeneratorMetadata: {
         providerName: 'awsmt',
-        providerVersion: '2.5.1'
+        providerVersion: '2.5.1',
+        providerVersionConstraint: '2.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

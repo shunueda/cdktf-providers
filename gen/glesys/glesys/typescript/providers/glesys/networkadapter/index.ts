@@ -86,7 +86,8 @@ export class Networkadapter extends cdktf.TerraformResource {
       terraformResourceType: 'glesys_networkadapter',
       terraformGeneratorMetadata: {
         providerName: 'glesys',
-        providerVersion: '0.15.0'
+        providerVersion: '0.15.0',
+        providerVersionConstraint: '0.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

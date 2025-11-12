@@ -151,7 +151,8 @@ export class DataArtifactoryLocalHuggingfacemlRepository extends cdktf.Terraform
       terraformResourceType: 'artifactory_local_huggingfaceml_repository',
       terraformGeneratorMetadata: {
         providerName: 'artifactory',
-        providerVersion: '12.10.1'
+        providerVersion: '12.10.1',
+        providerVersionConstraint: '12.10.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

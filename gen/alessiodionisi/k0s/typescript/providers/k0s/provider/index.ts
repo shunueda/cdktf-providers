@@ -55,7 +55,8 @@ export class K0SProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'k0s',
       terraformGeneratorMetadata: {
         providerName: 'k0s',
-        providerVersion: '0.2.2'
+        providerVersion: '0.2.2',
+        providerVersionConstraint: '0.2.2'
       },
       terraformProviderSource: 'alessiodionisi/k0s'
     });

@@ -218,7 +218,8 @@ export class IapTunnelIamBinding extends cdktf.TerraformResource {
       terraformResourceType: 'google_iap_tunnel_iam_binding',
       terraformGeneratorMetadata: {
         providerName: 'google',
-        providerVersion: '4.16.4'
+        providerVersion: '4.16.4',
+        providerVersionConstraint: '4.16.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

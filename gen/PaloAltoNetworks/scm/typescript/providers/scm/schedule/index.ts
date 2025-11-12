@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/schedule
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/schedule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface ScheduleConfig extends cdktf.TerraformMetaArguments {
   /**
   * The device in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/schedule#device Schedule#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/schedule#device Schedule#device}
   */
   readonly device?: string;
   /**
   * The folder in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/schedule#folder Schedule#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/schedule#folder Schedule#folder}
   */
   readonly folder?: string;
   /**
   * The name of the schedule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/schedule#name Schedule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/schedule#name Schedule#name}
   */
   readonly name: string;
   /**
   * Schedule type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/schedule#schedule_type Schedule#schedule_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/schedule#schedule_type Schedule#schedule_type}
   */
   readonly scheduleType: ScheduleScheduleType;
   /**
   * The snippet in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/schedule#snippet Schedule#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/schedule#snippet Schedule#snippet}
   */
   readonly snippet?: string;
 }
@@ -42,43 +42,43 @@ export interface ScheduleScheduleTypeRecurringWeekly {
   /**
   * Friday
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/schedule#friday Schedule#friday}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/schedule#friday Schedule#friday}
   */
   readonly friday?: string[];
   /**
   * Monday
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/schedule#monday Schedule#monday}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/schedule#monday Schedule#monday}
   */
   readonly monday?: string[];
   /**
   * Saturday
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/schedule#saturday Schedule#saturday}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/schedule#saturday Schedule#saturday}
   */
   readonly saturday?: string[];
   /**
   * Sunday
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/schedule#sunday Schedule#sunday}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/schedule#sunday Schedule#sunday}
   */
   readonly sunday?: string[];
   /**
   * Thursday
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/schedule#thursday Schedule#thursday}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/schedule#thursday Schedule#thursday}
   */
   readonly thursday?: string[];
   /**
   * Tuesday
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/schedule#tuesday Schedule#tuesday}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/schedule#tuesday Schedule#tuesday}
   */
   readonly tuesday?: string[];
   /**
   * Wednesday
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/schedule#wednesday Schedule#wednesday}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/schedule#wednesday Schedule#wednesday}
   */
   readonly wednesday?: string[];
 }
@@ -348,13 +348,13 @@ export interface ScheduleScheduleTypeRecurring {
   /**
   * Daily
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/schedule#daily Schedule#daily}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/schedule#daily Schedule#daily}
   */
   readonly daily?: string[];
   /**
   * Weekly
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/schedule#weekly Schedule#weekly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/schedule#weekly Schedule#weekly}
   */
   readonly weekly?: ScheduleScheduleTypeRecurringWeekly;
 }
@@ -479,13 +479,13 @@ export interface ScheduleScheduleType {
   /**
   * Non recurring
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/schedule#non_recurring Schedule#non_recurring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/schedule#non_recurring Schedule#non_recurring}
   */
   readonly nonRecurring?: string[];
   /**
   * Recurring
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/schedule#recurring Schedule#recurring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/schedule#recurring Schedule#recurring}
   */
   readonly recurring?: ScheduleScheduleTypeRecurring;
 }
@@ -608,7 +608,7 @@ export class ScheduleScheduleTypeOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/schedule scm_schedule}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/schedule scm_schedule}
 */
 export class Schedule extends cdktf.TerraformResource {
 
@@ -624,7 +624,7 @@ export class Schedule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Schedule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Schedule to import
-  * @param importFromId The id of the existing Schedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/schedule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Schedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/schedule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Schedule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -636,7 +636,7 @@ export class Schedule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/schedule scm_schedule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/schedule scm_schedule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -647,7 +647,8 @@ export class Schedule extends cdktf.TerraformResource {
       terraformResourceType: 'scm_schedule',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.3'
+        providerVersion: '1.0.4',
+        providerVersionConstraint: '1.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

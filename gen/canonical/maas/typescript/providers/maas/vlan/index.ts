@@ -92,7 +92,8 @@ export class Vlan extends cdktf.TerraformResource {
       terraformResourceType: 'maas_vlan',
       terraformGeneratorMetadata: {
         providerName: 'maas',
-        providerVersion: '2.6.0'
+        providerVersion: '2.6.0',
+        providerVersionConstraint: '2.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

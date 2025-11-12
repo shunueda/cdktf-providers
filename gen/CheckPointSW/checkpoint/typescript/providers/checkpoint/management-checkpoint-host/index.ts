@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_checkpoint_host
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_checkpoint_host
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface ManagementCheckpointHostConfig extends cdktf.TerraformMetaArgum
   /**
   * Color of the object. Should be one of existing colors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_checkpoint_host#color ManagementCheckpointHost#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_checkpoint_host#color ManagementCheckpointHost#color}
   */
   readonly color?: string;
   /**
   * Comments string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_checkpoint_host#comments ManagementCheckpointHost#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_checkpoint_host#comments ManagementCheckpointHost#comments}
   */
   readonly comments?: string;
   /**
   * Hardware name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_checkpoint_host#hardware ManagementCheckpointHost#hardware}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_checkpoint_host#hardware ManagementCheckpointHost#hardware}
   */
   readonly hardware?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_checkpoint_host#id ManagementCheckpointHost#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_checkpoint_host#id ManagementCheckpointHost#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,103 +35,103 @@ export interface ManagementCheckpointHostConfig extends cdktf.TerraformMetaArgum
   /**
   * Apply changes ignoring errors. You won't be able to publish such a changes. If ignore-warnings flag was omitted - warnings will also be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_checkpoint_host#ignore_errors ManagementCheckpointHost#ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_checkpoint_host#ignore_errors ManagementCheckpointHost#ignore_errors}
   */
   readonly ignoreErrors?: boolean | cdktf.IResolvable;
   /**
   * Apply changes ignoring warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_checkpoint_host#ignore_warnings ManagementCheckpointHost#ignore_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_checkpoint_host#ignore_warnings ManagementCheckpointHost#ignore_warnings}
   */
   readonly ignoreWarnings?: boolean | cdktf.IResolvable;
   /**
   * IPv4 address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_checkpoint_host#ipv4_address ManagementCheckpointHost#ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_checkpoint_host#ipv4_address ManagementCheckpointHost#ipv4_address}
   */
   readonly ipv4Address?: string;
   /**
   * IPv6 address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_checkpoint_host#ipv6_address ManagementCheckpointHost#ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_checkpoint_host#ipv6_address ManagementCheckpointHost#ipv6_address}
   */
   readonly ipv6Address?: string;
   /**
   * Logs settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_checkpoint_host#logs_settings ManagementCheckpointHost#logs_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_checkpoint_host#logs_settings ManagementCheckpointHost#logs_settings}
   */
   readonly logsSettings?: { [key: string]: string };
   /**
   * Management blades.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_checkpoint_host#management_blades ManagementCheckpointHost#management_blades}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_checkpoint_host#management_blades ManagementCheckpointHost#management_blades}
   */
   readonly managementBlades?: { [key: string]: string };
   /**
   * Object name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_checkpoint_host#name ManagementCheckpointHost#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_checkpoint_host#name ManagementCheckpointHost#name}
   */
   readonly name: string;
   /**
   * NAT settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_checkpoint_host#nat_settings ManagementCheckpointHost#nat_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_checkpoint_host#nat_settings ManagementCheckpointHost#nat_settings}
   */
   readonly natSettings?: { [key: string]: string };
   /**
   * Secure internal connection one time password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_checkpoint_host#one_time_password ManagementCheckpointHost#one_time_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_checkpoint_host#one_time_password ManagementCheckpointHost#one_time_password}
   */
   readonly oneTimePassword?: string;
   /**
   * Operating system name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_checkpoint_host#os ManagementCheckpointHost#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_checkpoint_host#os ManagementCheckpointHost#os}
   */
   readonly os?: string;
   /**
   * Enable save logs locally.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_checkpoint_host#save_logs_locally ManagementCheckpointHost#save_logs_locally}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_checkpoint_host#save_logs_locally ManagementCheckpointHost#save_logs_locally}
   */
   readonly saveLogsLocally?: boolean | cdktf.IResolvable;
   /**
   * Collection of Server(s) to send alerts to identified by the name or UID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_checkpoint_host#send_alerts_to_server ManagementCheckpointHost#send_alerts_to_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_checkpoint_host#send_alerts_to_server ManagementCheckpointHost#send_alerts_to_server}
   */
   readonly sendAlertsToServer?: string[];
   /**
   * Collection of Backup server(s) to send logs to identified by the name or UID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_checkpoint_host#send_logs_to_backup_server ManagementCheckpointHost#send_logs_to_backup_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_checkpoint_host#send_logs_to_backup_server ManagementCheckpointHost#send_logs_to_backup_server}
   */
   readonly sendLogsToBackupServer?: string[];
   /**
   * Collection of Server(s) to send logs to identified by the name or UID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_checkpoint_host#send_logs_to_server ManagementCheckpointHost#send_logs_to_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_checkpoint_host#send_logs_to_server ManagementCheckpointHost#send_logs_to_server}
   */
   readonly sendLogsToServer?: string[];
   /**
   * Collection of tag identifiers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_checkpoint_host#tags ManagementCheckpointHost#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_checkpoint_host#tags ManagementCheckpointHost#tags}
   */
   readonly tags?: string[];
   /**
   * Checkpoint host platform version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_checkpoint_host#version ManagementCheckpointHost#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_checkpoint_host#version ManagementCheckpointHost#version}
   */
   readonly version?: string;
   /**
   * interfaces block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_checkpoint_host#interfaces ManagementCheckpointHost#interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_checkpoint_host#interfaces ManagementCheckpointHost#interfaces}
   */
   readonly interfaces?: ManagementCheckpointHostInterfaces[] | cdktf.IResolvable;
 }
@@ -139,61 +139,61 @@ export interface ManagementCheckpointHostInterfaces {
   /**
   * Color of the object. Should be one of existing colors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_checkpoint_host#color ManagementCheckpointHost#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_checkpoint_host#color ManagementCheckpointHost#color}
   */
   readonly color?: string;
   /**
   * Comments string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_checkpoint_host#comments ManagementCheckpointHost#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_checkpoint_host#comments ManagementCheckpointHost#comments}
   */
   readonly comments?: string;
   /**
   * Apply changes ignoring errors. You won't be able to publish such a changes. If ignore-warnings flag was omitted - warnings will also be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_checkpoint_host#ignore_errors ManagementCheckpointHost#ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_checkpoint_host#ignore_errors ManagementCheckpointHost#ignore_errors}
   */
   readonly ignoreErrors?: boolean | cdktf.IResolvable;
   /**
   * Apply changes ignoring warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_checkpoint_host#ignore_warnings ManagementCheckpointHost#ignore_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_checkpoint_host#ignore_warnings ManagementCheckpointHost#ignore_warnings}
   */
   readonly ignoreWarnings?: boolean | cdktf.IResolvable;
   /**
   * IPv4 network mask length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_checkpoint_host#mask_length4 ManagementCheckpointHost#mask_length4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_checkpoint_host#mask_length4 ManagementCheckpointHost#mask_length4}
   */
   readonly maskLength4?: number;
   /**
   * IPv6 network mask length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_checkpoint_host#mask_length6 ManagementCheckpointHost#mask_length6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_checkpoint_host#mask_length6 ManagementCheckpointHost#mask_length6}
   */
   readonly maskLength6?: number;
   /**
   * Interface name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_checkpoint_host#name ManagementCheckpointHost#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_checkpoint_host#name ManagementCheckpointHost#name}
   */
   readonly name?: string;
   /**
   * IPv4 network address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_checkpoint_host#subnet4 ManagementCheckpointHost#subnet4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_checkpoint_host#subnet4 ManagementCheckpointHost#subnet4}
   */
   readonly subnet4?: string;
   /**
   * IPv6 network address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_checkpoint_host#subnet6 ManagementCheckpointHost#subnet6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_checkpoint_host#subnet6 ManagementCheckpointHost#subnet6}
   */
   readonly subnet6?: string;
   /**
   * IPv4 network mask.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_checkpoint_host#subnet_mask ManagementCheckpointHost#subnet_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_checkpoint_host#subnet_mask ManagementCheckpointHost#subnet_mask}
   */
   readonly subnetMask?: string;
 }
@@ -570,7 +570,7 @@ export class ManagementCheckpointHostInterfacesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_checkpoint_host checkpoint_management_checkpoint_host}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_checkpoint_host checkpoint_management_checkpoint_host}
 */
 export class ManagementCheckpointHost extends cdktf.TerraformResource {
 
@@ -586,7 +586,7 @@ export class ManagementCheckpointHost extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementCheckpointHost resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementCheckpointHost to import
-  * @param importFromId The id of the existing ManagementCheckpointHost that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_checkpoint_host#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementCheckpointHost that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_checkpoint_host#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementCheckpointHost to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -598,7 +598,7 @@ export class ManagementCheckpointHost extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_checkpoint_host checkpoint_management_checkpoint_host} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_checkpoint_host checkpoint_management_checkpoint_host} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -609,7 +609,8 @@ export class ManagementCheckpointHost extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_checkpoint_host',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

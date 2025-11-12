@@ -86,7 +86,8 @@ export class GcsArtifact extends cdktf.TerraformResource {
       terraformResourceType: 'cdap_gcs_artifact',
       terraformGeneratorMetadata: {
         providerName: 'cdap',
-        providerVersion: '0.11.0'
+        providerVersion: '0.11.0',
+        providerVersionConstraint: '0.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

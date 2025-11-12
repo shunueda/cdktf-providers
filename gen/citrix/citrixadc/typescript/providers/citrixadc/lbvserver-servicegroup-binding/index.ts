@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver_servicegroup_binding
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver_servicegroup_binding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,28 @@ import * as cdktf from 'cdktf';
 
 export interface LbvserverServicegroupBindingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver_servicegroup_binding#id LbvserverServicegroupBinding#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver_servicegroup_binding#id LbvserverServicegroupBinding#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver_servicegroup_binding#name LbvserverServicegroupBinding#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver_servicegroup_binding#name LbvserverServicegroupBinding#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver_servicegroup_binding#order LbvserverServicegroupBinding#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver_servicegroup_binding#order LbvserverServicegroupBinding#order}
   */
   readonly order?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver_servicegroup_binding#servicegroupname LbvserverServicegroupBinding#servicegroupname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver_servicegroup_binding#servicegroupname LbvserverServicegroupBinding#servicegroupname}
   */
   readonly servicegroupname: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver_servicegroup_binding citrixadc_lbvserver_servicegroup_binding}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver_servicegroup_binding citrixadc_lbvserver_servicegroup_binding}
 */
 export class LbvserverServicegroupBinding extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class LbvserverServicegroupBinding extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LbvserverServicegroupBinding resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LbvserverServicegroupBinding to import
-  * @param importFromId The id of the existing LbvserverServicegroupBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver_servicegroup_binding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LbvserverServicegroupBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver_servicegroup_binding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LbvserverServicegroupBinding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class LbvserverServicegroupBinding extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbvserver_servicegroup_binding citrixadc_lbvserver_servicegroup_binding} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver_servicegroup_binding citrixadc_lbvserver_servicegroup_binding} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,7 +68,8 @@ export class LbvserverServicegroupBinding extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_lbvserver_servicegroup_binding',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -83,7 +83,8 @@ export class CiscomcdProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'ciscomcd',
       terraformGeneratorMetadata: {
         providerName: 'ciscomcd',
-        providerVersion: '25.9.2'
+        providerVersion: '25.9.2',
+        providerVersionConstraint: '25.9.2'
       },
       terraformProviderSource: 'CiscoDevNet/ciscomcd'
     });

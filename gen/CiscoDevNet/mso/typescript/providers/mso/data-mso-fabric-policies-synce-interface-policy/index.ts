@@ -64,7 +64,8 @@ export class DataMsoFabricPoliciesSynceInterfacePolicy extends cdktf.TerraformDa
       terraformResourceType: 'mso_fabric_policies_synce_interface_policy',
       terraformGeneratorMetadata: {
         providerName: 'mso',
-        providerVersion: '1.6.0'
+        providerVersion: '1.6.0',
+        providerVersionConstraint: '1.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

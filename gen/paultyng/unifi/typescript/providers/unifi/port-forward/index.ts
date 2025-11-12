@@ -109,7 +109,8 @@ export class PortForward extends cdktf.TerraformResource {
       terraformResourceType: 'unifi_port_forward',
       terraformGeneratorMetadata: {
         providerName: 'unifi',
-        providerVersion: '0.41.0'
+        providerVersion: '0.41.0',
+        providerVersionConstraint: '0.41.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

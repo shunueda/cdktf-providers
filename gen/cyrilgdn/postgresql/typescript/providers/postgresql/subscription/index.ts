@@ -92,7 +92,8 @@ export class Subscription extends cdktf.TerraformResource {
       terraformResourceType: 'postgresql_subscription',
       terraformGeneratorMetadata: {
         providerName: 'postgresql',
-        providerVersion: '1.26.0'
+        providerVersion: '1.26.0',
+        providerVersionConstraint: '1.26.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

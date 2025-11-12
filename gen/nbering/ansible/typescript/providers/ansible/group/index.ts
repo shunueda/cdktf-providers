@@ -72,7 +72,8 @@ export class Group extends cdktf.TerraformResource {
       terraformResourceType: 'ansible_group',
       terraformGeneratorMetadata: {
         providerName: 'ansible',
-        providerVersion: '1.0.4'
+        providerVersion: '1.0.4',
+        providerVersionConstraint: '1.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

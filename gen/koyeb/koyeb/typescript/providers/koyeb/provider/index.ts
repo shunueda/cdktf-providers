@@ -55,7 +55,8 @@ export class KoyebProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'koyeb',
       terraformGeneratorMetadata: {
         providerName: 'koyeb',
-        providerVersion: '0.1.11'
+        providerVersion: '0.1.11',
+        providerVersionConstraint: '0.1.11'
       },
       terraformProviderSource: 'koyeb/koyeb'
     });

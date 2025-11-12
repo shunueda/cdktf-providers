@@ -64,7 +64,8 @@ export class DataZiaDlpIcapServers extends cdktf.TerraformDataSource {
       terraformResourceType: 'zia_dlp_icap_servers',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.5.3'
+        providerVersion: '4.5.3',
+        providerVersionConstraint: '4.5.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

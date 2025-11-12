@@ -69,7 +69,8 @@ export class PlatformAmsDmlistener extends cdktf.TerraformResource {
       terraformResourceType: 'kaleido_platform_ams_dmlistener',
       terraformGeneratorMetadata: {
         providerName: 'kaleido',
-        providerVersion: '1.1.2'
+        providerVersion: '1.1.2',
+        providerVersionConstraint: '1.1.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

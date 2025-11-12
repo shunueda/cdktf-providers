@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/magalucloud/mgc/0.39.0/docs/data-sources/object_storage_buckets
+// https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/data-sources/object_storage_buckets
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,89 +8,9 @@ import * as cdktf from 'cdktf';
 
 export interface DataMgcObjectStorageBucketsConfig extends cdktf.TerraformMetaArguments {
 }
-export interface DataMgcObjectStorageBucketsBuckets {
-}
-
-export function dataMgcObjectStorageBucketsBucketsToTerraform(struct?: DataMgcObjectStorageBucketsBuckets): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function dataMgcObjectStorageBucketsBucketsToHclTerraform(struct?: DataMgcObjectStorageBucketsBuckets): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class DataMgcObjectStorageBucketsBucketsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): DataMgcObjectStorageBucketsBuckets | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataMgcObjectStorageBucketsBuckets | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // creation_date - computed: true, optional: false, required: false
-  public get creationDate() {
-    return this.getStringAttribute('creation_date');
-  }
-
-  // name - computed: true, optional: false, required: false
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-}
-
-export class DataMgcObjectStorageBucketsBucketsList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DataMgcObjectStorageBucketsBucketsOutputReference {
-    return new DataMgcObjectStorageBucketsBucketsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.39.0/docs/data-sources/object_storage_buckets mgc_object_storage_buckets}
+* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/data-sources/object_storage_buckets mgc_object_storage_buckets}
 */
 export class DataMgcObjectStorageBuckets extends cdktf.TerraformDataSource {
 
@@ -106,7 +26,7 @@ export class DataMgcObjectStorageBuckets extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataMgcObjectStorageBuckets resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMgcObjectStorageBuckets to import
-  * @param importFromId The id of the existing DataMgcObjectStorageBuckets that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.39.0/docs/data-sources/object_storage_buckets#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMgcObjectStorageBuckets that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/data-sources/object_storage_buckets#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMgcObjectStorageBuckets to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -118,7 +38,7 @@ export class DataMgcObjectStorageBuckets extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.39.0/docs/data-sources/object_storage_buckets mgc_object_storage_buckets} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/data-sources/object_storage_buckets mgc_object_storage_buckets} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -129,7 +49,8 @@ export class DataMgcObjectStorageBuckets extends cdktf.TerraformDataSource {
       terraformResourceType: 'mgc_object_storage_buckets',
       terraformGeneratorMetadata: {
         providerName: 'mgc',
-        providerVersion: '0.39.0'
+        providerVersion: '0.40.0',
+        providerVersionConstraint: '0.40.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -146,9 +67,8 @@ export class DataMgcObjectStorageBuckets extends cdktf.TerraformDataSource {
   // ==========
 
   // buckets - computed: true, optional: false, required: false
-  private _buckets = new DataMgcObjectStorageBucketsBucketsList(this, "buckets", false);
   public get buckets() {
-    return this._buckets;
+    return this.getListAttribute('buckets');
   }
 
   // =========

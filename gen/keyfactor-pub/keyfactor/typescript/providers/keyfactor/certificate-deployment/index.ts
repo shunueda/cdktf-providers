@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/resources/certificate_deployment
+// https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/resources/certificate_deployment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,55 @@ export interface CertificateDeploymentConfig extends cdktf.TerraformMetaArgument
   /**
   * A string providing an alias to be used for the certificate upon entry into the certificate store. The function of the alias varies depending on the certificate store type. Please ensure that the alias is lowercase, or problems can arise in Terraform Plan. If not provided deployment validation will be done by Command certificate ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/resources/certificate_deployment#certificate_alias CertificateDeployment#certificate_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/resources/certificate_deployment#certificate_alias CertificateDeployment#certificate_alias}
   */
   readonly certificateAlias?: string;
   /**
   * Keyfactor certificate ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/resources/certificate_deployment#certificate_id CertificateDeployment#certificate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/resources/certificate_deployment#certificate_id CertificateDeployment#certificate_id}
   */
   readonly certificateId: number;
   /**
   * A string containing the GUID for the certificate store to which the certificate should be added.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/resources/certificate_deployment#certificate_store_id CertificateDeployment#certificate_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/resources/certificate_deployment#certificate_store_id CertificateDeployment#certificate_store_id}
   */
   readonly certificateStoreId: string;
   /**
   * A map of entry parameters to be passed to the deployment job. These will only be used if the orchestrator extension supports them.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/resources/certificate_deployment#job_parameters CertificateDeployment#job_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/resources/certificate_deployment#job_parameters CertificateDeployment#job_parameters}
   */
   readonly jobParameters?: { [key: string]: string };
   /**
   * Password that protects PFX certificate, if the certificate was enrolled using PFX enrollment, or is password protected in general. This value cannot change, and Terraform will throw an error if a change is attempted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/resources/certificate_deployment#key_password CertificateDeployment#key_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/resources/certificate_deployment#key_password CertificateDeployment#key_password}
   */
   readonly keyPassword?: string;
   /**
-  * If true, any existing certificate with the same alias will be overwritten. If false, an error will be returned if a certificate with the same alias already exists. Default value is `true`.
+  * If set to `true`, updating the `certificate_id` to a different certificate will overwrite the existing certificate in the store. If set to `false` or not set, updating the `certificate_id` will cause the resource to be replaced, and the existing certificate will be removed from the store before the new certificate is added.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/resources/certificate_deployment#overwrite CertificateDeployment#overwrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/resources/certificate_deployment#overwrite CertificateDeployment#overwrite}
   */
   readonly overwrite?: boolean | cdktf.IResolvable;
   /**
   * If true, the certificate will be redeployed to the store. If false, the certificate will be deployed only if it is not already deployed to the store.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/resources/certificate_deployment#redeploy CertificateDeployment#redeploy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/resources/certificate_deployment#redeploy CertificateDeployment#redeploy}
   */
   readonly redeploy?: boolean | cdktf.IResolvable;
+  /**
+  * If set to `true`, deleting the resource will not remove the certificate from the store. Defaults to `false`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/resources/certificate_deployment#skip_removal CertificateDeployment#skip_removal}
+  */
+  readonly skipRemoval?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/resources/certificate_deployment keyfactor_certificate_deployment}
+* Represents a {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/resources/certificate_deployment keyfactor_certificate_deployment}
 */
 export class CertificateDeployment extends cdktf.TerraformResource {
 
@@ -68,7 +74,7 @@ export class CertificateDeployment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CertificateDeployment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CertificateDeployment to import
-  * @param importFromId The id of the existing CertificateDeployment that should be imported. Refer to the {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/resources/certificate_deployment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CertificateDeployment that should be imported. Refer to the {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/resources/certificate_deployment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CertificateDeployment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +86,7 @@ export class CertificateDeployment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/resources/certificate_deployment keyfactor_certificate_deployment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/resources/certificate_deployment keyfactor_certificate_deployment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,7 +97,8 @@ export class CertificateDeployment extends cdktf.TerraformResource {
       terraformResourceType: 'keyfactor_certificate_deployment',
       terraformGeneratorMetadata: {
         providerName: 'keyfactor',
-        providerVersion: '2.6.0'
+        providerVersion: '2.7.0',
+        providerVersionConstraint: '2.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -108,6 +115,7 @@ export class CertificateDeployment extends cdktf.TerraformResource {
     this._keyPassword = config.keyPassword;
     this._overwrite = config.overwrite;
     this._redeploy = config.redeploy;
+    this._skipRemoval = config.skipRemoval;
   }
 
   // ==========
@@ -225,6 +233,22 @@ export class CertificateDeployment extends cdktf.TerraformResource {
     return this._redeploy;
   }
 
+  // skip_removal - computed: false, optional: true, required: false
+  private _skipRemoval?: boolean | cdktf.IResolvable; 
+  public get skipRemoval() {
+    return this.getBooleanAttribute('skip_removal');
+  }
+  public set skipRemoval(value: boolean | cdktf.IResolvable) {
+    this._skipRemoval = value;
+  }
+  public resetSkipRemoval() {
+    this._skipRemoval = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get skipRemovalInput() {
+    return this._skipRemoval;
+  }
+
   // =========
   // SYNTHESIS
   // =========
@@ -238,6 +262,7 @@ export class CertificateDeployment extends cdktf.TerraformResource {
       key_password: cdktf.stringToTerraform(this._keyPassword),
       overwrite: cdktf.booleanToTerraform(this._overwrite),
       redeploy: cdktf.booleanToTerraform(this._redeploy),
+      skip_removal: cdktf.booleanToTerraform(this._skipRemoval),
     };
   }
 
@@ -281,6 +306,12 @@ export class CertificateDeployment extends cdktf.TerraformResource {
       },
       redeploy: {
         value: cdktf.booleanToHclTerraform(this._redeploy),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      skip_removal: {
+        value: cdktf.booleanToHclTerraform(this._skipRemoval),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",

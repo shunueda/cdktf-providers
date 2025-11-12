@@ -327,7 +327,8 @@ export class DataOciCoreNetworkSecurityGroupVnics extends cdktf.TerraformDataSou
       terraformResourceType: 'oci_core_network_security_group_vnics',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

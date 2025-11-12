@@ -94,7 +94,8 @@ export class F5OsProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'f5os',
       terraformGeneratorMetadata: {
         providerName: 'f5os',
-        providerVersion: '1.10.0'
+        providerVersion: '1.10.0',
+        providerVersionConstraint: '1.10.0'
       },
       terraformProviderSource: 'F5Networks/f5os'
     });

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/data_works_remind
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/data_works_remind
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,80 +8,80 @@ import * as cdktf from 'cdktf';
 
 export interface DataWorksRemindConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/data_works_remind#alert_interval DataWorksRemind#alert_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/data_works_remind#alert_interval DataWorksRemind#alert_interval}
   */
   readonly alertInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/data_works_remind#alert_methods DataWorksRemind#alert_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/data_works_remind#alert_methods DataWorksRemind#alert_methods}
   */
   readonly alertMethods?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/data_works_remind#alert_targets DataWorksRemind#alert_targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/data_works_remind#alert_targets DataWorksRemind#alert_targets}
   */
   readonly alertTargets?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/data_works_remind#alert_unit DataWorksRemind#alert_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/data_works_remind#alert_unit DataWorksRemind#alert_unit}
   */
   readonly alertUnit: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/data_works_remind#baseline_ids DataWorksRemind#baseline_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/data_works_remind#baseline_ids DataWorksRemind#baseline_ids}
   */
   readonly baselineIds?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/data_works_remind#biz_process_ids DataWorksRemind#biz_process_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/data_works_remind#biz_process_ids DataWorksRemind#biz_process_ids}
   */
   readonly bizProcessIds?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/data_works_remind#detail DataWorksRemind#detail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/data_works_remind#detail DataWorksRemind#detail}
   */
   readonly detail?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/data_works_remind#dnd_end DataWorksRemind#dnd_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/data_works_remind#dnd_end DataWorksRemind#dnd_end}
   */
   readonly dndEnd?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/data_works_remind#id DataWorksRemind#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/data_works_remind#id DataWorksRemind#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/data_works_remind#max_alert_times DataWorksRemind#max_alert_times}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/data_works_remind#max_alert_times DataWorksRemind#max_alert_times}
   */
   readonly maxAlertTimes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/data_works_remind#node_ids DataWorksRemind#node_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/data_works_remind#node_ids DataWorksRemind#node_ids}
   */
   readonly nodeIds?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/data_works_remind#project_id DataWorksRemind#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/data_works_remind#project_id DataWorksRemind#project_id}
   */
   readonly projectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/data_works_remind#remind_name DataWorksRemind#remind_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/data_works_remind#remind_name DataWorksRemind#remind_name}
   */
   readonly remindName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/data_works_remind#remind_type DataWorksRemind#remind_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/data_works_remind#remind_type DataWorksRemind#remind_type}
   */
   readonly remindType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/data_works_remind#remind_unit DataWorksRemind#remind_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/data_works_remind#remind_unit DataWorksRemind#remind_unit}
   */
   readonly remindUnit: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/data_works_remind#robot_urls DataWorksRemind#robot_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/data_works_remind#robot_urls DataWorksRemind#robot_urls}
   */
   readonly robotUrls?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/data_works_remind#use_flag DataWorksRemind#use_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/data_works_remind#use_flag DataWorksRemind#use_flag}
   */
   readonly useFlag?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/data_works_remind alibabacloudstack_data_works_remind}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/data_works_remind alibabacloudstack_data_works_remind}
 */
 export class DataWorksRemind extends cdktf.TerraformResource {
 
@@ -97,7 +97,7 @@ export class DataWorksRemind extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DataWorksRemind resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataWorksRemind to import
-  * @param importFromId The id of the existing DataWorksRemind that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/data_works_remind#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataWorksRemind that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/data_works_remind#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataWorksRemind to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -109,7 +109,7 @@ export class DataWorksRemind extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/data_works_remind alibabacloudstack_data_works_remind} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/data_works_remind alibabacloudstack_data_works_remind} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -120,7 +120,8 @@ export class DataWorksRemind extends cdktf.TerraformResource {
       terraformResourceType: 'alibabacloudstack_data_works_remind',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.19'
+        providerVersion: '3.16.21',
+        providerVersionConstraint: '3.16.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

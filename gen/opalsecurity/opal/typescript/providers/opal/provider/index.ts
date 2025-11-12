@@ -73,7 +73,8 @@ export class OpalProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'opal',
       terraformGeneratorMetadata: {
         providerName: 'opal',
-        providerVersion: '3.3.3'
+        providerVersion: '3.3.3',
+        providerVersionConstraint: '3.3.3'
       },
       terraformProviderSource: 'opalsecurity/opal'
     });

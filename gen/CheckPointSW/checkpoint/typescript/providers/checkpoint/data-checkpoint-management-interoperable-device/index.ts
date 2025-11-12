@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_interoperable_device
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_interoperable_device
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataCheckpointManagementInteroperableDeviceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_interoperable_device#id DataCheckpointManagementInteroperableDevice#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_interoperable_device#id DataCheckpointManagementInteroperableDevice#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataCheckpointManagementInteroperableDeviceConfig extends cdktf
   /**
   * Object name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_interoperable_device#name DataCheckpointManagementInteroperableDevice#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_interoperable_device#name DataCheckpointManagementInteroperableDevice#name}
   */
   readonly name?: string;
   /**
   * Object name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_interoperable_device#uid DataCheckpointManagementInteroperableDevice#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_interoperable_device#uid DataCheckpointManagementInteroperableDevice#uid}
   */
   readonly uid?: string;
 }
@@ -350,7 +350,7 @@ export class DataCheckpointManagementInteroperableDeviceInterfacesList extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_interoperable_device checkpoint_management_interoperable_device}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_interoperable_device checkpoint_management_interoperable_device}
 */
 export class DataCheckpointManagementInteroperableDevice extends cdktf.TerraformDataSource {
 
@@ -366,7 +366,7 @@ export class DataCheckpointManagementInteroperableDevice extends cdktf.Terraform
   * Generates CDKTF code for importing a DataCheckpointManagementInteroperableDevice resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCheckpointManagementInteroperableDevice to import
-  * @param importFromId The id of the existing DataCheckpointManagementInteroperableDevice that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_interoperable_device#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCheckpointManagementInteroperableDevice that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_interoperable_device#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCheckpointManagementInteroperableDevice to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -378,7 +378,7 @@ export class DataCheckpointManagementInteroperableDevice extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_interoperable_device checkpoint_management_interoperable_device} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_interoperable_device checkpoint_management_interoperable_device} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -389,7 +389,8 @@ export class DataCheckpointManagementInteroperableDevice extends cdktf.Terraform
       terraformResourceType: 'checkpoint_management_interoperable_device',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

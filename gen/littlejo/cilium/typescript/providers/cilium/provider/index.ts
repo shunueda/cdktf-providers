@@ -85,7 +85,8 @@ export class CiliumProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'cilium',
       terraformGeneratorMetadata: {
         providerName: 'cilium',
-        providerVersion: '0.3.2'
+        providerVersion: '0.3.2',
+        providerVersionConstraint: '0.3.2'
       },
       terraformProviderSource: 'littlejo/cilium'
     });

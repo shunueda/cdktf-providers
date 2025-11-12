@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/object_storage_bucket
+// https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/object_storage_bucket
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface ObjectStorageBucketConfig extends cdktf.TerraformMetaArguments 
   /**
   * The S3 access key to use for this resource. (Required for lifecycle_rule and versioning). If not specified with the resource, the value will be read from provider-level obj_access_key, or, generated implicitly at apply-time if obj_use_temp_keys in provider configuration is set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/object_storage_bucket#access_key ObjectStorageBucket#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/object_storage_bucket#access_key ObjectStorageBucket#access_key}
   */
   readonly accessKey?: string;
   /**
   * The Access Control Level of the bucket using a canned ACL string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/object_storage_bucket#acl ObjectStorageBucket#acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/object_storage_bucket#acl ObjectStorageBucket#acl}
   */
   readonly acl?: string;
   /**
   * The cluster of the Linode Object Storage Bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/object_storage_bucket#cluster ObjectStorageBucket#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/object_storage_bucket#cluster ObjectStorageBucket#cluster}
   */
   readonly cluster?: string;
   /**
   * If true, the bucket will be created with CORS enabled for all origins.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/object_storage_bucket#cors_enabled ObjectStorageBucket#cors_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/object_storage_bucket#cors_enabled ObjectStorageBucket#cors_enabled}
   */
   readonly corsEnabled?: boolean | cdktf.IResolvable;
   /**
   * The type of the S3 endpoint available in this region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/object_storage_bucket#endpoint_type ObjectStorageBucket#endpoint_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/object_storage_bucket#endpoint_type ObjectStorageBucket#endpoint_type}
   */
   readonly endpointType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/object_storage_bucket#id ObjectStorageBucket#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/object_storage_bucket#id ObjectStorageBucket#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,43 +47,43 @@ export interface ObjectStorageBucketConfig extends cdktf.TerraformMetaArguments 
   /**
   * The label of the Linode Object Storage Bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/object_storage_bucket#label ObjectStorageBucket#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/object_storage_bucket#label ObjectStorageBucket#label}
   */
   readonly label: string;
   /**
   * The region of the Linode Object Storage Bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/object_storage_bucket#region ObjectStorageBucket#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/object_storage_bucket#region ObjectStorageBucket#region}
   */
   readonly region?: string;
   /**
   * The endpoint for the bucket used for s3 connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/object_storage_bucket#s3_endpoint ObjectStorageBucket#s3_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/object_storage_bucket#s3_endpoint ObjectStorageBucket#s3_endpoint}
   */
   readonly s3Endpoint?: string;
   /**
   * The S3 secret key to use for this resource. (Required for lifecycle_rule and versioning). If not specified with the resource, the value will be read from provider-level obj_secret_key, or, generated implicitly at apply-time if obj_use_temp_keys in provider configuration is set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/object_storage_bucket#secret_key ObjectStorageBucket#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/object_storage_bucket#secret_key ObjectStorageBucket#secret_key}
   */
   readonly secretKey?: string;
   /**
   * Whether to enable versioning.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/object_storage_bucket#versioning ObjectStorageBucket#versioning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/object_storage_bucket#versioning ObjectStorageBucket#versioning}
   */
   readonly versioning?: boolean | cdktf.IResolvable;
   /**
   * cert block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/object_storage_bucket#cert ObjectStorageBucket#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/object_storage_bucket#cert ObjectStorageBucket#cert}
   */
   readonly cert?: ObjectStorageBucketCert;
   /**
   * lifecycle_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/object_storage_bucket#lifecycle_rule ObjectStorageBucket#lifecycle_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/object_storage_bucket#lifecycle_rule ObjectStorageBucket#lifecycle_rule}
   */
   readonly lifecycleRule?: ObjectStorageBucketLifecycleRule[] | cdktf.IResolvable;
 }
@@ -91,13 +91,13 @@ export interface ObjectStorageBucketCert {
   /**
   * The Base64 encoded and PEM formatted SSL certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/object_storage_bucket#certificate ObjectStorageBucket#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/object_storage_bucket#certificate ObjectStorageBucket#certificate}
   */
   readonly certificate: string;
   /**
   * The private key associated with the TLS/SSL certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/object_storage_bucket#private_key ObjectStorageBucket#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/object_storage_bucket#private_key ObjectStorageBucket#private_key}
   */
   readonly privateKey: string;
 }
@@ -206,19 +206,19 @@ export interface ObjectStorageBucketLifecycleRuleExpiration {
   /**
   * Specifies the date after which you want the corresponding action to take effect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/object_storage_bucket#date ObjectStorageBucket#date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/object_storage_bucket#date ObjectStorageBucket#date}
   */
   readonly date?: string;
   /**
   * Specifies the number of days after object creation when the specific rule action takes effect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/object_storage_bucket#days ObjectStorageBucket#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/object_storage_bucket#days ObjectStorageBucket#days}
   */
   readonly days?: number;
   /**
   * Directs Linode Object Storage to remove expired deleted markers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/object_storage_bucket#expired_object_delete_marker ObjectStorageBucket#expired_object_delete_marker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/object_storage_bucket#expired_object_delete_marker ObjectStorageBucket#expired_object_delete_marker}
   */
   readonly expiredObjectDeleteMarker?: boolean | cdktf.IResolvable;
 }
@@ -362,7 +362,7 @@ export interface ObjectStorageBucketLifecycleRuleNoncurrentVersionExpiration {
   /**
   * Specifies the number of days non-current object versions expire.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/object_storage_bucket#days ObjectStorageBucket#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/object_storage_bucket#days ObjectStorageBucket#days}
   */
   readonly days: number;
 }
@@ -445,19 +445,19 @@ export interface ObjectStorageBucketLifecycleRule {
   /**
   * Specifies the number of days after initiating a multipart upload when the multipart upload must be completed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/object_storage_bucket#abort_incomplete_multipart_upload_days ObjectStorageBucket#abort_incomplete_multipart_upload_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/object_storage_bucket#abort_incomplete_multipart_upload_days ObjectStorageBucket#abort_incomplete_multipart_upload_days}
   */
   readonly abortIncompleteMultipartUploadDays?: number;
   /**
   * Specifies whether the lifecycle rule is active.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/object_storage_bucket#enabled ObjectStorageBucket#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/object_storage_bucket#enabled ObjectStorageBucket#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * The unique identifier for the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/object_storage_bucket#id ObjectStorageBucket#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/object_storage_bucket#id ObjectStorageBucket#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -466,19 +466,19 @@ export interface ObjectStorageBucketLifecycleRule {
   /**
   * The object key prefix identifying one or more objects to which the rule applies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/object_storage_bucket#prefix ObjectStorageBucket#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/object_storage_bucket#prefix ObjectStorageBucket#prefix}
   */
   readonly prefix?: string;
   /**
   * expiration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/object_storage_bucket#expiration ObjectStorageBucket#expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/object_storage_bucket#expiration ObjectStorageBucket#expiration}
   */
   readonly expiration?: ObjectStorageBucketLifecycleRuleExpiration;
   /**
   * noncurrent_version_expiration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/object_storage_bucket#noncurrent_version_expiration ObjectStorageBucket#noncurrent_version_expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/object_storage_bucket#noncurrent_version_expiration ObjectStorageBucket#noncurrent_version_expiration}
   */
   readonly noncurrentVersionExpiration?: ObjectStorageBucketLifecycleRuleNoncurrentVersionExpiration;
 }
@@ -736,7 +736,7 @@ export class ObjectStorageBucketLifecycleRuleList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/object_storage_bucket linode_object_storage_bucket}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/object_storage_bucket linode_object_storage_bucket}
 */
 export class ObjectStorageBucket extends cdktf.TerraformResource {
 
@@ -752,7 +752,7 @@ export class ObjectStorageBucket extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectStorageBucket resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectStorageBucket to import
-  * @param importFromId The id of the existing ObjectStorageBucket that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/object_storage_bucket#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectStorageBucket that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/object_storage_bucket#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectStorageBucket to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -764,7 +764,7 @@ export class ObjectStorageBucket extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/object_storage_bucket linode_object_storage_bucket} Resource
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/object_storage_bucket linode_object_storage_bucket} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -775,7 +775,8 @@ export class ObjectStorageBucket extends cdktf.TerraformResource {
       terraformResourceType: 'linode_object_storage_bucket',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.5.0'
+        providerVersion: '3.5.1',
+        providerVersionConstraint: '3.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

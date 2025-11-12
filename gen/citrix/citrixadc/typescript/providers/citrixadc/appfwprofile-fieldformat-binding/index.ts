@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_fieldformat_binding
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_fieldformat_binding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,68 +8,68 @@ import * as cdktf from 'cdktf';
 
 export interface AppfwprofileFieldformatBindingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_fieldformat_binding#alertonly AppfwprofileFieldformatBinding#alertonly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_fieldformat_binding#alertonly AppfwprofileFieldformatBinding#alertonly}
   */
   readonly alertonly?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_fieldformat_binding#comment AppfwprofileFieldformatBinding#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_fieldformat_binding#comment AppfwprofileFieldformatBinding#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_fieldformat_binding#fieldformat AppfwprofileFieldformatBinding#fieldformat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_fieldformat_binding#fieldformat AppfwprofileFieldformatBinding#fieldformat}
   */
   readonly fieldformat: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_fieldformat_binding#fieldformatmaxlength AppfwprofileFieldformatBinding#fieldformatmaxlength}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_fieldformat_binding#fieldformatmaxlength AppfwprofileFieldformatBinding#fieldformatmaxlength}
   */
   readonly fieldformatmaxlength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_fieldformat_binding#fieldformatminlength AppfwprofileFieldformatBinding#fieldformatminlength}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_fieldformat_binding#fieldformatminlength AppfwprofileFieldformatBinding#fieldformatminlength}
   */
   readonly fieldformatminlength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_fieldformat_binding#fieldtype AppfwprofileFieldformatBinding#fieldtype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_fieldformat_binding#fieldtype AppfwprofileFieldformatBinding#fieldtype}
   */
   readonly fieldtype: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_fieldformat_binding#formactionurl_ff AppfwprofileFieldformatBinding#formactionurl_ff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_fieldformat_binding#formactionurl_ff AppfwprofileFieldformatBinding#formactionurl_ff}
   */
   readonly formactionurlFf: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_fieldformat_binding#id AppfwprofileFieldformatBinding#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_fieldformat_binding#id AppfwprofileFieldformatBinding#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_fieldformat_binding#isautodeployed AppfwprofileFieldformatBinding#isautodeployed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_fieldformat_binding#isautodeployed AppfwprofileFieldformatBinding#isautodeployed}
   */
   readonly isautodeployed?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_fieldformat_binding#isregexff AppfwprofileFieldformatBinding#isregexff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_fieldformat_binding#isregexff AppfwprofileFieldformatBinding#isregexff}
   */
   readonly isregexff?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_fieldformat_binding#name AppfwprofileFieldformatBinding#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_fieldformat_binding#name AppfwprofileFieldformatBinding#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_fieldformat_binding#resourceid AppfwprofileFieldformatBinding#resourceid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_fieldformat_binding#resourceid AppfwprofileFieldformatBinding#resourceid}
   */
   readonly resourceid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_fieldformat_binding#ruletype AppfwprofileFieldformatBinding#ruletype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_fieldformat_binding#ruletype AppfwprofileFieldformatBinding#ruletype}
   */
   readonly ruletype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_fieldformat_binding#state AppfwprofileFieldformatBinding#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_fieldformat_binding#state AppfwprofileFieldformatBinding#state}
   */
   readonly state?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_fieldformat_binding citrixadc_appfwprofile_fieldformat_binding}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_fieldformat_binding citrixadc_appfwprofile_fieldformat_binding}
 */
 export class AppfwprofileFieldformatBinding extends cdktf.TerraformResource {
 
@@ -85,7 +85,7 @@ export class AppfwprofileFieldformatBinding extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AppfwprofileFieldformatBinding resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppfwprofileFieldformatBinding to import
-  * @param importFromId The id of the existing AppfwprofileFieldformatBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_fieldformat_binding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppfwprofileFieldformatBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_fieldformat_binding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppfwprofileFieldformatBinding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -97,7 +97,7 @@ export class AppfwprofileFieldformatBinding extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_fieldformat_binding citrixadc_appfwprofile_fieldformat_binding} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_fieldformat_binding citrixadc_appfwprofile_fieldformat_binding} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -108,7 +108,8 @@ export class AppfwprofileFieldformatBinding extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_appfwprofile_fieldformat_binding',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

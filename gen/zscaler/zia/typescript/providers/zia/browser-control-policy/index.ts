@@ -441,7 +441,8 @@ export class BrowserControlPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'zia_browser_control_policy',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.5.3'
+        providerVersion: '4.5.3',
+        providerVersionConstraint: '4.5.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

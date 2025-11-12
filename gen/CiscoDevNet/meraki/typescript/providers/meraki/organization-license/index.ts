@@ -67,7 +67,8 @@ export class OrganizationLicense extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_organization_license',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1'
+        providerVersion: '1.7.1',
+        providerVersionConstraint: '1.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

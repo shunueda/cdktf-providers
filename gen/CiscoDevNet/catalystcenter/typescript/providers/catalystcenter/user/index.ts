@@ -85,7 +85,8 @@ export class User extends cdktf.TerraformResource {
       terraformResourceType: 'catalystcenter_user',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.2'
+        providerVersion: '0.4.2',
+        providerVersionConstraint: '0.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

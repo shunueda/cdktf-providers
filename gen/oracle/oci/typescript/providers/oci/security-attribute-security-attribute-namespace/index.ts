@@ -246,7 +246,8 @@ export class SecurityAttributeSecurityAttributeNamespace extends cdktf.Terraform
       terraformResourceType: 'oci_security_attribute_security_attribute_namespace',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

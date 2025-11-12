@@ -96,7 +96,8 @@ export class DataSchemasQueryGrafanaPyroscope extends cdktf.TerraformDataSource 
       terraformResourceType: 'schemas_query_grafana_pyroscope',
       terraformGeneratorMetadata: {
         providerName: 'schemas',
-        providerVersion: '0.2.0'
+        providerVersion: '0.2.0',
+        providerVersionConstraint: '0.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

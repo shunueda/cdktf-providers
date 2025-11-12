@@ -61,7 +61,8 @@ export class ProjectRepository extends cdktf.TerraformResource {
       terraformResourceType: 'dbtcloud_project_repository',
       terraformGeneratorMetadata: {
         providerName: 'dbtcloud',
-        providerVersion: '1.3.0'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -73,7 +73,8 @@ export class IpAddress extends cdktf.TerraformResource {
       terraformResourceType: 'mikrotik_ip_address',
       terraformGeneratorMetadata: {
         providerName: 'mikrotik',
-        providerVersion: '0.16.1'
+        providerVersion: '0.16.1',
+        providerVersionConstraint: '0.16.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -100,7 +100,8 @@ export class PreheatInstance extends cdktf.TerraformResource {
       terraformResourceType: 'harbor_preheat_instance',
       terraformGeneratorMetadata: {
         providerName: 'harbor',
-        providerVersion: '3.11.2'
+        providerVersion: '3.11.2',
+        providerVersionConstraint: '3.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

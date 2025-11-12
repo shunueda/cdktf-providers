@@ -55,7 +55,8 @@ export class Bucket extends cdktf.TerraformResource {
       terraformResourceType: 'objsto_bucket',
       terraformGeneratorMetadata: {
         providerName: 'objsto',
-        providerVersion: '0.2.0'
+        providerVersion: '0.2.0',
+        providerVersionConstraint: '0.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

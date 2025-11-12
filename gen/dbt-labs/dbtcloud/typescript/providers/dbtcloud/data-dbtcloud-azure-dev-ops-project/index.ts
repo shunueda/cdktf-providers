@@ -55,7 +55,8 @@ export class DataDbtcloudAzureDevOpsProject extends cdktf.TerraformDataSource {
       terraformResourceType: 'dbtcloud_azure_dev_ops_project',
       terraformGeneratorMetadata: {
         providerName: 'dbtcloud',
-        providerVersion: '1.3.0'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

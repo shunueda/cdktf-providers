@@ -61,7 +61,8 @@ export class DataPingdirectoryLocalDbVlvIndex extends cdktf.TerraformDataSource 
       terraformResourceType: 'pingdirectory_local_db_vlv_index',
       terraformGeneratorMetadata: {
         providerName: 'pingdirectory',
-        providerVersion: '1.5.0'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

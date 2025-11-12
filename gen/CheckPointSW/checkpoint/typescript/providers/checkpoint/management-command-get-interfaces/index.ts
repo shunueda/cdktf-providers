@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_get_interfaces
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_get_interfaces
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ManagementCommandGetInterfacesConfig extends cdktf.TerraformMet
   /**
   * Specify whether to group the cluster interfaces by a subnet. Otherwise, group the cluster interfaces by their names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_get_interfaces#group_interfaces_by_subnet ManagementCommandGetInterfaces#group_interfaces_by_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_get_interfaces#group_interfaces_by_subnet ManagementCommandGetInterfaces#group_interfaces_by_subnet}
   */
   readonly groupInterfacesBySubnet?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_get_interfaces#id ManagementCommandGetInterfaces#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_get_interfaces#id ManagementCommandGetInterfaces#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface ManagementCommandGetInterfacesConfig extends cdktf.TerraformMet
   /**
   * Target name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_get_interfaces#target_name ManagementCommandGetInterfaces#target_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_get_interfaces#target_name ManagementCommandGetInterfaces#target_name}
   */
   readonly targetName?: string;
   /**
   * Target unique identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_get_interfaces#target_uid ManagementCommandGetInterfaces#target_uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_get_interfaces#target_uid ManagementCommandGetInterfaces#target_uid}
   */
   readonly targetUid?: string;
   /**
   * Specify whether to configure the topology "Defined by Routes" where applicable. Otherwise, configure the topology to "This Network" as default for internal interfaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_get_interfaces#use_defined_by_routes ManagementCommandGetInterfaces#use_defined_by_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_get_interfaces#use_defined_by_routes ManagementCommandGetInterfaces#use_defined_by_routes}
   */
   readonly useDefinedByRoutes?: boolean | cdktf.IResolvable;
   /**
   * Specify whether to fetch the interfaces with their topology. Otherwise, the Management Server fetches the interfaces without their topology.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_get_interfaces#with_topology ManagementCommandGetInterfaces#with_topology}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_get_interfaces#with_topology ManagementCommandGetInterfaces#with_topology}
   */
   readonly withTopology?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_get_interfaces checkpoint_management_command_get_interfaces}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_get_interfaces checkpoint_management_command_get_interfaces}
 */
 export class ManagementCommandGetInterfaces extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class ManagementCommandGetInterfaces extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementCommandGetInterfaces resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementCommandGetInterfaces to import
-  * @param importFromId The id of the existing ManagementCommandGetInterfaces that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_get_interfaces#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementCommandGetInterfaces that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_get_interfaces#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementCommandGetInterfaces to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class ManagementCommandGetInterfaces extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_get_interfaces checkpoint_management_command_get_interfaces} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_get_interfaces checkpoint_management_command_get_interfaces} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,7 +86,8 @@ export class ManagementCommandGetInterfaces extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_command_get_interfaces',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

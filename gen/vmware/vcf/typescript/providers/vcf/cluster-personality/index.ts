@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/cluster_personality
+// https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/cluster_personality
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ClusterPersonalityConfig extends cdktf.TerraformMetaArguments {
   /**
   * The identifier of the source cluster within the vCenter server (e.g. domain-c1)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/cluster_personality#cluster_id ClusterPersonality#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/cluster_personality#cluster_id ClusterPersonality#cluster_id}
   */
   readonly clusterId: string;
   /**
   * The identifier of the domain which contains the vcenter and source cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/cluster_personality#domain_id ClusterPersonality#domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/cluster_personality#domain_id ClusterPersonality#domain_id}
   */
   readonly domainId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/cluster_personality#id ClusterPersonality#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/cluster_personality#id ClusterPersonality#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,27 +29,27 @@ export interface ClusterPersonalityConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name for the personality
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/cluster_personality#name ClusterPersonality#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/cluster_personality#name ClusterPersonality#name}
   */
   readonly name: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/cluster_personality#timeouts ClusterPersonality#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/cluster_personality#timeouts ClusterPersonality#timeouts}
   */
   readonly timeouts?: ClusterPersonalityTimeouts;
 }
 export interface ClusterPersonalityTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/cluster_personality#create ClusterPersonality#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/cluster_personality#create ClusterPersonality#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/cluster_personality#delete ClusterPersonality#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/cluster_personality#delete ClusterPersonality#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/cluster_personality#update ClusterPersonality#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/cluster_personality#update ClusterPersonality#update}
   */
   readonly update?: string;
 }
@@ -201,7 +201,7 @@ export class ClusterPersonalityTimeoutsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/cluster_personality vcf_cluster_personality}
+* Represents a {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/cluster_personality vcf_cluster_personality}
 */
 export class ClusterPersonality extends cdktf.TerraformResource {
 
@@ -217,7 +217,7 @@ export class ClusterPersonality extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ClusterPersonality resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClusterPersonality to import
-  * @param importFromId The id of the existing ClusterPersonality that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/cluster_personality#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClusterPersonality that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/cluster_personality#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClusterPersonality to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -229,7 +229,7 @@ export class ClusterPersonality extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/cluster_personality vcf_cluster_personality} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/cluster_personality vcf_cluster_personality} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -240,7 +240,8 @@ export class ClusterPersonality extends cdktf.TerraformResource {
       terraformResourceType: 'vcf_cluster_personality',
       terraformGeneratorMetadata: {
         providerName: 'vcf',
-        providerVersion: '0.17.1'
+        providerVersion: '0.16.2',
+        providerVersionConstraint: '0.16.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -62,7 +62,8 @@ export class DataAlkiraPolicy extends cdktf.TerraformDataSource {
       terraformResourceType: 'alkira_policy',
       terraformGeneratorMetadata: {
         providerName: 'alkira',
-        providerVersion: '1.3.2'
+        providerVersion: '1.3.2',
+        providerVersionConstraint: '1.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

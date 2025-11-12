@@ -1271,7 +1271,8 @@ export class WorkflowPostMortem extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_workflow_post_mortem',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.7'
+        providerVersion: '4.3.7',
+        providerVersionConstraint: '4.3.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

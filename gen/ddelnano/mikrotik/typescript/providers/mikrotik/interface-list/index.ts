@@ -61,7 +61,8 @@ export class InterfaceList extends cdktf.TerraformResource {
       terraformResourceType: 'mikrotik_interface_list',
       terraformGeneratorMetadata: {
         providerName: 'mikrotik',
-        providerVersion: '0.16.1'
+        providerVersion: '0.16.1',
+        providerVersionConstraint: '0.16.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

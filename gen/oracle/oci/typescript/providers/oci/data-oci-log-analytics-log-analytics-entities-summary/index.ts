@@ -64,7 +64,8 @@ export class DataOciLogAnalyticsLogAnalyticsEntitiesSummary extends cdktf.Terraf
       terraformResourceType: 'oci_log_analytics_log_analytics_entities_summary',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

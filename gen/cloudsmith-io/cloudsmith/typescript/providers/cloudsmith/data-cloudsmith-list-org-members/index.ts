@@ -179,7 +179,8 @@ export class DataCloudsmithListOrgMembers extends cdktf.TerraformDataSource {
       terraformResourceType: 'cloudsmith_list_org_members',
       terraformGeneratorMetadata: {
         providerName: 'cloudsmith',
-        providerVersion: '0.0.66'
+        providerVersion: '0.0.66',
+        providerVersionConstraint: '0.0.66'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

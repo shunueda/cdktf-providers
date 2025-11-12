@@ -230,7 +230,8 @@ export class Resource extends cdktf.TerraformResource {
       terraformResourceType: 'kustomization_resource',
       terraformGeneratorMetadata: {
         providerName: 'kustomization',
-        providerVersion: '0.9.7'
+        providerVersion: '0.9.7',
+        providerVersionConstraint: '0.9.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

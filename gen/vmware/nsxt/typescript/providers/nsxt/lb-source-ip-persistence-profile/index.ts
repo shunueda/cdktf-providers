@@ -247,7 +247,8 @@ export class LbSourceIpPersistenceProfile extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_lb_source_ip_persistence_profile',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0'
+        providerVersion: '3.10.0',
+        providerVersionConstraint: '3.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

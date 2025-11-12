@@ -2146,7 +2146,8 @@ export class DataK8SKyvernoIoClusterAdmissionReportV1Alpha2Manifest extends cdkt
       terraformResourceType: 'k8s_kyverno_io_cluster_admission_report_v1alpha2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

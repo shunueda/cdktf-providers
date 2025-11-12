@@ -2375,7 +2375,8 @@ export class DataK8SKuadrantIoRateLimitPolicyV1Beta3Manifest extends cdktf.Terra
       terraformResourceType: 'k8s_kuadrant_io_rate_limit_policy_v1beta3_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

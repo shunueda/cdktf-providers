@@ -429,7 +429,8 @@ export class ApplicationName extends cdktf.TerraformResource {
       terraformResourceType: 'fortios_application_name',
       terraformGeneratorMetadata: {
         providerName: 'fortios',
-        providerVersion: '1.23.0'
+        providerVersion: '1.23.0',
+        providerVersionConstraint: '1.23.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

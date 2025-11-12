@@ -60,7 +60,8 @@ export class DataLyvecloudS3Bucket extends cdktf.TerraformDataSource {
       terraformResourceType: 'lyvecloud_s3_bucket',
       terraformGeneratorMetadata: {
         providerName: 'lyvecloud',
-        providerVersion: '0.2.2'
+        providerVersion: '0.2.2',
+        providerVersionConstraint: '0.2.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

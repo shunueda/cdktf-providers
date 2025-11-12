@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/internal_dns_server
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/internal_dns_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface InternalDnsServerConfig extends cdktf.TerraformMetaArguments {
   /**
   * The DNS domain name(s)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/internal_dns_server#domain_name InternalDnsServer#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/internal_dns_server#domain_name InternalDnsServer#domain_name}
   */
   readonly domainName: string[];
   /**
   * The name of the internet DNS server resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/internal_dns_server#name InternalDnsServer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/internal_dns_server#name InternalDnsServer#name}
   */
   readonly name: string;
   /**
   * The IP address of the primary DNS server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/internal_dns_server#primary InternalDnsServer#primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/internal_dns_server#primary InternalDnsServer#primary}
   */
   readonly primary: string;
   /**
   * The IP address of the secondary DNS server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/internal_dns_server#secondary InternalDnsServer#secondary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/internal_dns_server#secondary InternalDnsServer#secondary}
   */
   readonly secondary?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/internal_dns_server scm_internal_dns_server}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/internal_dns_server scm_internal_dns_server}
 */
 export class InternalDnsServer extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class InternalDnsServer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InternalDnsServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InternalDnsServer to import
-  * @param importFromId The id of the existing InternalDnsServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/internal_dns_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InternalDnsServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/internal_dns_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InternalDnsServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class InternalDnsServer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/internal_dns_server scm_internal_dns_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/internal_dns_server scm_internal_dns_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,7 +73,8 @@ export class InternalDnsServer extends cdktf.TerraformResource {
       terraformResourceType: 'scm_internal_dns_server',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.3'
+        providerVersion: '1.0.4',
+        providerVersionConstraint: '1.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

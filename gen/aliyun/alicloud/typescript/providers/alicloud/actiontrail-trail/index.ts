@@ -282,7 +282,8 @@ export class ActiontrailTrail extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_actiontrail_trail',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -231,7 +231,8 @@ export class DataZpaInspectionCustomControls extends cdktf.TerraformDataSource {
       terraformResourceType: 'zpa_inspection_custom_controls',
       terraformGeneratorMetadata: {
         providerName: 'zpa',
-        providerVersion: '4.3.2'
+        providerVersion: '4.3.2',
+        providerVersionConstraint: '4.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

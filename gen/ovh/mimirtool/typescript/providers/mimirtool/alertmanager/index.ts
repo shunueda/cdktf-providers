@@ -61,7 +61,8 @@ export class Alertmanager extends cdktf.TerraformResource {
       terraformResourceType: 'mimirtool_alertmanager',
       terraformGeneratorMetadata: {
         providerName: 'mimirtool',
-        providerVersion: '1.0.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

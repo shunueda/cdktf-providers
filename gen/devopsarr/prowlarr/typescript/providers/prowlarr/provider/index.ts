@@ -124,7 +124,8 @@ export class ProwlarrProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'prowlarr',
       terraformGeneratorMetadata: {
         providerName: 'prowlarr',
-        providerVersion: '3.0.2'
+        providerVersion: '3.0.2',
+        providerVersionConstraint: '3.0.2'
       },
       terraformProviderSource: 'devopsarr/prowlarr'
     });

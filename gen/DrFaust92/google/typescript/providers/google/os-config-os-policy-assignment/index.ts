@@ -7305,7 +7305,8 @@ export class OsConfigOsPolicyAssignment extends cdktf.TerraformResource {
       terraformResourceType: 'google_os_config_os_policy_assignment',
       terraformGeneratorMetadata: {
         providerName: 'google',
-        providerVersion: '4.16.4'
+        providerVersion: '4.16.4',
+        providerVersionConstraint: '4.16.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

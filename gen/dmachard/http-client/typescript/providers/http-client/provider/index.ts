@@ -55,7 +55,8 @@ export class HttpClientProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'http-client',
       terraformGeneratorMetadata: {
         providerName: 'http-client',
-        providerVersion: '0.4.0'
+        providerVersion: '0.4.0',
+        providerVersionConstraint: '0.4.0'
       },
       terraformProviderSource: 'dmachard/http-client'
     });

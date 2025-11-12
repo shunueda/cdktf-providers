@@ -55,7 +55,8 @@ export class DataPingdirectorySaslMechanismHandler extends cdktf.TerraformDataSo
       terraformResourceType: 'pingdirectory_sasl_mechanism_handler',
       terraformGeneratorMetadata: {
         providerName: 'pingdirectory',
-        providerVersion: '1.5.0'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

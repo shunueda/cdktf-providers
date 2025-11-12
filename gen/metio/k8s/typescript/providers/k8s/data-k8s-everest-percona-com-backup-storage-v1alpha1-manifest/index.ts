@@ -623,7 +623,8 @@ export class DataK8SEverestPerconaComBackupStorageV1Alpha1Manifest extends cdktf
       terraformResourceType: 'k8s_everest_percona_com_backup_storage_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

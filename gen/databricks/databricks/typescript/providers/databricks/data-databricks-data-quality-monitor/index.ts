@@ -1561,7 +1561,8 @@ export class DataDatabricksDataQualityMonitor extends cdktf.TerraformDataSource 
       terraformResourceType: 'databricks_data_quality_monitor',
       terraformGeneratorMetadata: {
         providerName: 'databricks',
-        providerVersion: '1.97.0'
+        providerVersion: '1.97.0',
+        providerVersionConstraint: '1.97.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

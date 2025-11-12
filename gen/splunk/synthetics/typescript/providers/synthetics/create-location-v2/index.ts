@@ -223,7 +223,8 @@ export class CreateLocationV2 extends cdktf.TerraformResource {
       terraformResourceType: 'synthetics_create_location_v2',
       terraformGeneratorMetadata: {
         providerName: 'synthetics',
-        providerVersion: '2.0.16'
+        providerVersion: '2.0.16',
+        providerVersionConstraint: '2.0.16'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

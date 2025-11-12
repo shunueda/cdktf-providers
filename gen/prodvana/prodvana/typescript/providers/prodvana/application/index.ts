@@ -67,7 +67,8 @@ export class Application extends cdktf.TerraformResource {
       terraformResourceType: 'prodvana_application',
       terraformGeneratorMetadata: {
         providerName: 'prodvana',
-        providerVersion: '0.1.25'
+        providerVersion: '0.1.25',
+        providerVersionConstraint: '0.1.25'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

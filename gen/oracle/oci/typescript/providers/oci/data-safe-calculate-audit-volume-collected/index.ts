@@ -324,7 +324,8 @@ export class DataSafeCalculateAuditVolumeCollected extends cdktf.TerraformResour
       terraformResourceType: 'oci_data_safe_calculate_audit_volume_collected',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

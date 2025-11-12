@@ -85,7 +85,8 @@ export class ObjectResource extends cdktf.TerraformResource {
       terraformResourceType: 'observability_object',
       terraformGeneratorMetadata: {
         providerName: 'observability',
-        providerVersion: '0.0.2'
+        providerVersion: '0.0.2',
+        providerVersionConstraint: '0.0.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

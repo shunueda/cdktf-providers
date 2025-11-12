@@ -80,7 +80,8 @@ export class RepositoryEnvironmentDeploymentPolicy extends cdktf.TerraformResour
       terraformResourceType: 'github_repository_environment_deployment_policy',
       terraformGeneratorMetadata: {
         providerName: 'github',
-        providerVersion: '6.7.5'
+        providerVersion: '6.7.5',
+        providerVersionConstraint: '6.7.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -85,7 +85,8 @@ export class PowerbiProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'powerbi',
       terraformGeneratorMetadata: {
         providerName: 'powerbi',
-        providerVersion: '1.4.1'
+        providerVersion: '1.4.1',
+        providerVersionConstraint: '1.4.1'
       },
       terraformProviderSource: 'codecutout/powerbi'
     });

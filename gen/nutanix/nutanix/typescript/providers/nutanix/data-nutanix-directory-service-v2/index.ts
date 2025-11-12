@@ -397,7 +397,8 @@ export class DataNutanixDirectoryServiceV2 extends cdktf.TerraformDataSource {
       terraformResourceType: 'nutanix_directory_service_v2',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3'
+        providerVersion: '2.3.3',
+        providerVersionConstraint: '2.3.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_data_access_rule
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_data_access_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataCheckpointManagementDataAccessRuleConfig extends cdktf.Terr
   /**
   * List of resource fields that will use object UIDs as object identifiers. Default is object name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_data_access_rule#fields_with_uid_identifier DataCheckpointManagementDataAccessRule#fields_with_uid_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_data_access_rule#fields_with_uid_identifier DataCheckpointManagementDataAccessRule#fields_with_uid_identifier}
   */
   readonly fieldsWithUidIdentifier?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_data_access_rule#id DataCheckpointManagementDataAccessRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_data_access_rule#id DataCheckpointManagementDataAccessRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface DataCheckpointManagementDataAccessRuleConfig extends cdktf.Terr
   /**
   * Layer that the rule belongs to identified by the name or UID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_data_access_rule#layer DataCheckpointManagementDataAccessRule#layer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_data_access_rule#layer DataCheckpointManagementDataAccessRule#layer}
   */
   readonly layer: string;
   /**
   * Object name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_data_access_rule#name DataCheckpointManagementDataAccessRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_data_access_rule#name DataCheckpointManagementDataAccessRule#name}
   */
   readonly name?: string;
   /**
   * Object unique identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_data_access_rule#uid DataCheckpointManagementDataAccessRule#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_data_access_rule#uid DataCheckpointManagementDataAccessRule#uid}
   */
   readonly uid?: string;
 }
@@ -292,7 +292,7 @@ export class DataCheckpointManagementDataAccessRuleVpnDirectionalList extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_data_access_rule checkpoint_management_data_access_rule}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_data_access_rule checkpoint_management_data_access_rule}
 */
 export class DataCheckpointManagementDataAccessRule extends cdktf.TerraformDataSource {
 
@@ -308,7 +308,7 @@ export class DataCheckpointManagementDataAccessRule extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataCheckpointManagementDataAccessRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCheckpointManagementDataAccessRule to import
-  * @param importFromId The id of the existing DataCheckpointManagementDataAccessRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_data_access_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCheckpointManagementDataAccessRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_data_access_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCheckpointManagementDataAccessRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -320,7 +320,7 @@ export class DataCheckpointManagementDataAccessRule extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_data_access_rule checkpoint_management_data_access_rule} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_data_access_rule checkpoint_management_data_access_rule} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -331,7 +331,8 @@ export class DataCheckpointManagementDataAccessRule extends cdktf.TerraformDataS
       terraformResourceType: 'checkpoint_management_data_access_rule',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

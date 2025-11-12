@@ -669,7 +669,8 @@ export class FluxProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'flux',
       terraformGeneratorMetadata: {
         providerName: 'flux',
-        providerVersion: '1.7.4'
+        providerVersion: '1.7.4',
+        providerVersionConstraint: '1.7.4'
       },
       terraformProviderSource: 'fluxcd/flux'
     });

@@ -215,7 +215,8 @@ export class DataAciOutOfBandContract extends cdktf.TerraformDataSource {
       terraformResourceType: 'aci_out_of_band_contract',
       terraformGeneratorMetadata: {
         providerName: 'aci',
-        providerVersion: '2.18.0'
+        providerVersion: '2.18.0',
+        providerVersionConstraint: '2.18.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -4025,7 +4025,8 @@ export class DataIntersightApplianceBackupMonitor extends cdktf.TerraformDataSou
       terraformResourceType: 'intersight_appliance_backup_monitor',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/agents
+// https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/agents
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataApstraAgentsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Agent attributes used as a filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/agents#filter DataApstraAgents#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/agents#filter DataApstraAgents#filter}
   */
   readonly filter?: DataApstraAgentsFilter;
   /**
   * Agent attributes used as a filters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/agents#filters DataApstraAgents#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/agents#filters DataApstraAgents#filters}
   */
   readonly filters?: DataApstraAgentsFilters[] | cdktf.IResolvable;
 }
@@ -24,43 +24,43 @@ export interface DataApstraAgentsFilter {
   /**
   * Apstra ID for the Managed Device Agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/agents#agent_id DataApstraAgents#agent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/agents#agent_id DataApstraAgents#agent_id}
   */
   readonly agentId?: string;
   /**
   * ID of the Agent Profile associated with the Agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/agents#agent_profile_id DataApstraAgents#agent_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/agents#agent_profile_id DataApstraAgents#agent_profile_id}
   */
   readonly agentProfileId?: string;
   /**
   * Key which uniquely identifies a System asset, probably a serial number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/agents#device_key DataApstraAgents#device_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/agents#device_key DataApstraAgents#device_key}
   */
   readonly deviceKey?: string;
   /**
   * Device `location` field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/agents#location DataApstraAgents#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/agents#location DataApstraAgents#location}
   */
   readonly location?: string;
   /**
   * Management IP address of the System.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/agents#management_ip DataApstraAgents#management_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/agents#management_ip DataApstraAgents#management_ip}
   */
   readonly managementIp?: string;
   /**
   * Indicates whether the agent runs on the switch (true) or on an Apstra node (false).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/agents#off_box DataApstraAgents#off_box}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/agents#off_box DataApstraAgents#off_box}
   */
   readonly offBox?: boolean | cdktf.IResolvable;
   /**
   * Apstra ID for the System onboarded by the Managed Device Agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/agents#system_id DataApstraAgents#system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/agents#system_id DataApstraAgents#system_id}
   */
   readonly systemId?: string;
 }
@@ -330,43 +330,43 @@ export interface DataApstraAgentsFilters {
   /**
   * Apstra ID for the Managed Device Agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/agents#agent_id DataApstraAgents#agent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/agents#agent_id DataApstraAgents#agent_id}
   */
   readonly agentId?: string;
   /**
   * ID of the Agent Profile associated with the Agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/agents#agent_profile_id DataApstraAgents#agent_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/agents#agent_profile_id DataApstraAgents#agent_profile_id}
   */
   readonly agentProfileId?: string;
   /**
   * Key which uniquely identifies a System asset, probably a serial number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/agents#device_key DataApstraAgents#device_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/agents#device_key DataApstraAgents#device_key}
   */
   readonly deviceKey?: string;
   /**
   * Device `location` field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/agents#location DataApstraAgents#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/agents#location DataApstraAgents#location}
   */
   readonly location?: string;
   /**
   * Management IP address of the System.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/agents#management_ip DataApstraAgents#management_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/agents#management_ip DataApstraAgents#management_ip}
   */
   readonly managementIp?: string;
   /**
   * Indicates whether the agent runs on the switch (true) or on an Apstra node (false).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/agents#off_box DataApstraAgents#off_box}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/agents#off_box DataApstraAgents#off_box}
   */
   readonly offBox?: boolean | cdktf.IResolvable;
   /**
   * Apstra ID for the System onboarded by the Managed Device Agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/agents#system_id DataApstraAgents#system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/agents#system_id DataApstraAgents#system_id}
   */
   readonly systemId?: string;
 }
@@ -656,7 +656,7 @@ export class DataApstraAgentsFiltersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/agents apstra_agents}
+* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/agents apstra_agents}
 */
 export class DataApstraAgents extends cdktf.TerraformDataSource {
 
@@ -672,7 +672,7 @@ export class DataApstraAgents extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataApstraAgents resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataApstraAgents to import
-  * @param importFromId The id of the existing DataApstraAgents that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/agents#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataApstraAgents that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/agents#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataApstraAgents to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -684,7 +684,7 @@ export class DataApstraAgents extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/agents apstra_agents} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/agents apstra_agents} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -695,7 +695,8 @@ export class DataApstraAgents extends cdktf.TerraformDataSource {
       terraformResourceType: 'apstra_agents',
       terraformGeneratorMetadata: {
         providerName: 'apstra',
-        providerVersion: '0.95.0'
+        providerVersion: '0.95.1',
+        providerVersionConstraint: '0.95.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

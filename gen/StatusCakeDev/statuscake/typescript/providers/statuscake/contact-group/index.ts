@@ -86,7 +86,8 @@ export class ContactGroup extends cdktf.TerraformResource {
       terraformResourceType: 'statuscake_contact_group',
       terraformGeneratorMetadata: {
         providerName: 'statuscake',
-        providerVersion: '2.2.2'
+        providerVersion: '2.2.2',
+        providerVersionConstraint: '2.2.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -168,7 +168,8 @@ export class DataTencentcloudSqlserverInstanceParamRecords extends cdktf.Terrafo
       terraformResourceType: 'tencentcloud_sqlserver_instance_param_records',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

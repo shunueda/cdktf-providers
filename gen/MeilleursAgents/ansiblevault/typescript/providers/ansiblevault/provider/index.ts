@@ -79,7 +79,8 @@ export class AnsiblevaultProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'ansiblevault',
       terraformGeneratorMetadata: {
         providerName: 'ansiblevault',
-        providerVersion: '3.0.1'
+        providerVersion: '3.0.1',
+        providerVersionConstraint: '3.0.1'
       },
       terraformProviderSource: 'MeilleursAgents/ansiblevault'
     });

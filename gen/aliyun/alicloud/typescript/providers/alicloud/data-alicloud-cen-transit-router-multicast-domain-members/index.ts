@@ -172,7 +172,8 @@ export class DataAlicloudCenTransitRouterMulticastDomainMembers extends cdktf.Te
       terraformResourceType: 'alicloud_cen_transit_router_multicast_domain_members',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

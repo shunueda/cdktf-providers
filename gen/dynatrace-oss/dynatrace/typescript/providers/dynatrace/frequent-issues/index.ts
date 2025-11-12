@@ -80,7 +80,8 @@ export class FrequentIssues extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_frequent_issues',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1'
+        providerVersion: '1.87.1',
+        providerVersionConstraint: '1.87.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

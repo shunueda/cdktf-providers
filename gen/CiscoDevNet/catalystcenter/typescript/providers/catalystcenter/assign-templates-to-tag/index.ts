@@ -61,7 +61,8 @@ export class AssignTemplatesToTag extends cdktf.TerraformResource {
       terraformResourceType: 'catalystcenter_assign_templates_to_tag',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.2'
+        providerVersion: '0.4.2',
+        providerVersionConstraint: '0.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

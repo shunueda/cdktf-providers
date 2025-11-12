@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ManagementMobileProfileConfig extends cdktf.TerraformMetaArgume
   /**
   * Color of the object. Should be one of existing colors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile#color ManagementMobileProfile#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile#color ManagementMobileProfile#color}
   */
   readonly color?: string;
   /**
   * Comments string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile#comments ManagementMobileProfile#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile#comments ManagementMobileProfile#comments}
   */
   readonly comments?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile#id ManagementMobileProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile#id ManagementMobileProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,55 +29,55 @@ export interface ManagementMobileProfileConfig extends cdktf.TerraformMetaArgume
   /**
   * Apply changes ignoring errors. You won't be able to publish such a changes. If ignore-warnings flag was omitted - warnings will also be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile#ignore_errors ManagementMobileProfile#ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile#ignore_errors ManagementMobileProfile#ignore_errors}
   */
   readonly ignoreErrors?: boolean | cdktf.IResolvable;
   /**
   * Apply changes ignoring warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile#ignore_warnings ManagementMobileProfile#ignore_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile#ignore_warnings ManagementMobileProfile#ignore_warnings}
   */
   readonly ignoreWarnings?: boolean | cdktf.IResolvable;
   /**
   * Object name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile#name ManagementMobileProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile#name ManagementMobileProfile#name}
   */
   readonly name: string;
   /**
   * Collection of tag identifiers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile#tags ManagementMobileProfile#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile#tags ManagementMobileProfile#tags}
   */
   readonly tags?: string[];
   /**
   * applications block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile#applications ManagementMobileProfile#applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile#applications ManagementMobileProfile#applications}
   */
   readonly applications?: ManagementMobileProfileApplications;
   /**
   * client_customization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile#client_customization ManagementMobileProfile#client_customization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile#client_customization ManagementMobileProfile#client_customization}
   */
   readonly clientCustomization?: ManagementMobileProfileClientCustomization;
   /**
   * data_leak_prevention block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile#data_leak_prevention ManagementMobileProfile#data_leak_prevention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile#data_leak_prevention ManagementMobileProfile#data_leak_prevention}
   */
   readonly dataLeakPrevention?: ManagementMobileProfileDataLeakPrevention;
   /**
   * harmony_mobile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile#harmony_mobile ManagementMobileProfile#harmony_mobile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile#harmony_mobile ManagementMobileProfile#harmony_mobile}
   */
   readonly harmonyMobile?: ManagementMobileProfileHarmonyMobile;
   /**
   * security block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile#security ManagementMobileProfile#security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile#security ManagementMobileProfile#security}
   */
   readonly security?: ManagementMobileProfileSecurity;
 }
@@ -85,97 +85,97 @@ export interface ManagementMobileProfileApplications {
   /**
   * Allow store encrypted document credentials in application secure storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile#allow_caching_docsec_credentials ManagementMobileProfile#allow_caching_docsec_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile#allow_caching_docsec_credentials ManagementMobileProfile#allow_caching_docsec_credentials}
   */
   readonly allowCachingDocsecCredentials?: boolean | cdktf.IResolvable;
   /**
   * Allow store encrypted document keys in application secure storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile#allow_caching_docsec_keys ManagementMobileProfile#allow_caching_docsec_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile#allow_caching_docsec_keys ManagementMobileProfile#allow_caching_docsec_keys}
   */
   readonly allowCachingDocsecKeys?: boolean | cdktf.IResolvable;
   /**
   * Allow synchronization between business calendar to device calendar.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile#allow_calendar_sync ManagementMobileProfile#allow_calendar_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile#allow_calendar_sync ManagementMobileProfile#allow_calendar_sync}
   */
   readonly allowCalendarSync?: boolean | cdktf.IResolvable;
   /**
   * Allow to add additional contacts from Global Address List to the app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile#allow_contacts_from_global_address_list ManagementMobileProfile#allow_contacts_from_global_address_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile#allow_contacts_from_global_address_list ManagementMobileProfile#allow_contacts_from_global_address_list}
   */
   readonly allowContactsFromGlobalAddressList?: boolean | cdktf.IResolvable;
   /**
   * Allow to add additional contacts from local phone to the app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile#allow_contacts_from_local_phone ManagementMobileProfile#allow_contacts_from_local_phone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile#allow_contacts_from_local_phone ManagementMobileProfile#allow_contacts_from_local_phone}
   */
   readonly allowContactsFromLocalPhone?: boolean | cdktf.IResolvable;
   /**
   * Allow to receive push notifications of mails and meetings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile#allow_push_notification ManagementMobileProfile#allow_push_notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile#allow_push_notification ManagementMobileProfile#allow_push_notification}
   */
   readonly allowPushNotification?: boolean | cdktf.IResolvable;
   /**
   * How far back to see your Calendar from the current date - you can choose a unit (day, week, month) in "calendar-from-the-last-unit" field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile#calendar_from_the_last ManagementMobileProfile#calendar_from_the_last}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile#calendar_from_the_last ManagementMobileProfile#calendar_from_the_last}
   */
   readonly calendarFromTheLast?: number;
   /**
   * Unit for "calendar-from-the-last" numeric value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile#calendar_from_the_last_unit ManagementMobileProfile#calendar_from_the_last_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile#calendar_from_the_last_unit ManagementMobileProfile#calendar_from_the_last_unit}
   */
   readonly calendarFromTheLastUnit?: string;
   /**
   * How much ahead to see your Calendar from the current date - you can choose a unit (day, week, month) in "calendar-to-the-following-unit" field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile#calendar_to_the_following ManagementMobileProfile#calendar_to_the_following}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile#calendar_to_the_following ManagementMobileProfile#calendar_to_the_following}
   */
   readonly calendarToTheFollowing?: number;
   /**
   * Unit for "calendar-to-the-following" numeric value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile#calendar_to_the_following_unit ManagementMobileProfile#calendar_to_the_following_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile#calendar_to_the_following_unit ManagementMobileProfile#calendar_to_the_following_unit}
   */
   readonly calendarToTheFollowingUnit?: string;
   /**
   * Allow to print mails.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile#enable_print_mails ManagementMobileProfile#enable_print_mails}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile#enable_print_mails ManagementMobileProfile#enable_print_mails}
   */
   readonly enablePrintMails?: boolean | cdktf.IResolvable;
   /**
   * How far back to see your emails from the current date - choose a unit (day, week, month) in "mail-from-the-last-unit" field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile#mail_from_the_last ManagementMobileProfile#mail_from_the_last}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile#mail_from_the_last ManagementMobileProfile#mail_from_the_last}
   */
   readonly mailFromTheLast?: number;
   /**
   * Unit for "mail-from-the-last" numeric value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile#mail_from_the_last_unit ManagementMobileProfile#mail_from_the_last_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile#mail_from_the_last_unit ManagementMobileProfile#mail_from_the_last_unit}
   */
   readonly mailFromTheLastUnit?: string;
   /**
   * Maximum size of attachments allowed for downloading -  you can choose a unit (gbs, kbs, mbs, bytes) in "max-attachments-unit" field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile#max_attachments_size ManagementMobileProfile#max_attachments_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile#max_attachments_size ManagementMobileProfile#max_attachments_size}
   */
   readonly maxAttachmentsSize?: number;
   /**
   * Configure whether local cache data generated by web browser should be preserved.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile#save_local_web_cache ManagementMobileProfile#save_local_web_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile#save_local_web_cache ManagementMobileProfile#save_local_web_cache}
   */
   readonly saveLocalWebCache?: boolean | cdktf.IResolvable;
   /**
   * Contacts synchronization method - from the mail server to device and the app and vice versa or from the mail server to device and the app or from the mail server to the app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile#synchronize_contacts ManagementMobileProfile#synchronize_contacts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile#synchronize_contacts ManagementMobileProfile#synchronize_contacts}
   */
   readonly synchronizeContacts?: string;
 }
@@ -696,61 +696,61 @@ export interface ManagementMobileProfileClientCustomization {
   /**
   * Allow sync business calendar to device calendar.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile#allow_calendar ManagementMobileProfile#allow_calendar}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile#allow_calendar ManagementMobileProfile#allow_calendar}
   */
   readonly allowCalendar?: boolean | cdktf.IResolvable;
   /**
   * Enable/Disable contacts app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile#allow_contacts ManagementMobileProfile#allow_contacts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile#allow_contacts ManagementMobileProfile#allow_contacts}
   */
   readonly allowContacts?: boolean | cdktf.IResolvable;
   /**
   * Enable/Disable email app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile#allow_mail ManagementMobileProfile#allow_mail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile#allow_mail ManagementMobileProfile#allow_mail}
   */
   readonly allowMail?: boolean | cdktf.IResolvable;
   /**
   * Allow sync business notes to device notes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile#allow_notes_sync ManagementMobileProfile#allow_notes_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile#allow_notes_sync ManagementMobileProfile#allow_notes_sync}
   */
   readonly allowNotesSync?: boolean | cdktf.IResolvable;
   /**
   * Allow the appearance of 'Saved file app' in the app list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile#allow_saved_file_apps ManagementMobileProfile#allow_saved_file_apps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile#allow_saved_file_apps ManagementMobileProfile#allow_saved_file_apps}
   */
   readonly allowSavedFileApps?: boolean | cdktf.IResolvable;
   /**
   * Enable/Disable Messages app (depends on Mail app).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile#allow_secure_chat ManagementMobileProfile#allow_secure_chat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile#allow_secure_chat ManagementMobileProfile#allow_secure_chat}
   */
   readonly allowSecureChat?: boolean | cdktf.IResolvable;
   /**
   * Enable/Disable Tasks app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile#allow_tasks ManagementMobileProfile#allow_tasks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile#allow_tasks ManagementMobileProfile#allow_tasks}
   */
   readonly allowTasks?: boolean | cdktf.IResolvable;
   /**
   * Configure the application display colors in Dark mode. 6 hex digits that define RGB color - relevant for IOS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile#app_theme_color_dark ManagementMobileProfile#app_theme_color_dark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile#app_theme_color_dark ManagementMobileProfile#app_theme_color_dark}
   */
   readonly appThemeColorDark?: string;
   /**
   * Configure the application display colors in light mode. 6 hex digits that define RGB color - relevant for IOS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile#app_theme_color_light ManagementMobileProfile#app_theme_color_light}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile#app_theme_color_light ManagementMobileProfile#app_theme_color_light}
   */
   readonly appThemeColorLight?: string;
   /**
   * message to show users when certificate is expired - for admin to fill - can contain only English characters, digits, comma, spaces and points.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile#certificate_expire_message ManagementMobileProfile#certificate_expire_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile#certificate_expire_message ManagementMobileProfile#certificate_expire_message}
   */
   readonly certificateExpireMessage?: string;
 }
@@ -1097,73 +1097,73 @@ export interface ManagementMobileProfileDataLeakPrevention {
   /**
   * Accept protected files with these extensions from external apps to your app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile#accept_protected_file_extensions ManagementMobileProfile#accept_protected_file_extensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile#accept_protected_file_extensions ManagementMobileProfile#accept_protected_file_extensions}
   */
   readonly acceptProtectedFileExtensions?: string[];
   /**
   * Accept unprotected files with these extensions from external apps to your app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile#accept_unprotected_file_extensions ManagementMobileProfile#accept_unprotected_file_extensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile#accept_unprotected_file_extensions ManagementMobileProfile#accept_unprotected_file_extensions}
   */
   readonly acceptUnprotectedFileExtensions?: string[];
   /**
   * Allow copy paste of mail content.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile#allow_copy_paste ManagementMobileProfile#allow_copy_paste}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile#allow_copy_paste ManagementMobileProfile#allow_copy_paste}
   */
   readonly allowCopyPaste?: boolean | cdktf.IResolvable;
   /**
   * Allow import media from gallery.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile#allow_import_from_gallery ManagementMobileProfile#allow_import_from_gallery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile#allow_import_from_gallery ManagementMobileProfile#allow_import_from_gallery}
   */
   readonly allowImportFromGallery?: boolean | cdktf.IResolvable;
   /**
   * Allow the camera to be used from your app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile#allow_taking_photos_and_videos ManagementMobileProfile#allow_taking_photos_and_videos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile#allow_taking_photos_and_videos ManagementMobileProfile#allow_taking_photos_and_videos}
   */
   readonly allowTakingPhotosAndVideos?: boolean | cdktf.IResolvable;
   /**
   * exclusion of domains which attachments are allowed to be sent, even that shared policy prevents sharing these kinds of attached files - can contain only English characters, digits, comma, spaces and points.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile#allowed_domains_forward_attachment ManagementMobileProfile#allowed_domains_forward_attachment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile#allowed_domains_forward_attachment ManagementMobileProfile#allowed_domains_forward_attachment}
   */
   readonly allowedDomainsForwardAttachment?: string;
   /**
   * Allow share mail attachments with external mails.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile#block_forward_attachments ManagementMobileProfile#block_forward_attachments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile#block_forward_attachments ManagementMobileProfile#block_forward_attachments}
   */
   readonly blockForwardAttachments?: boolean | cdktf.IResolvable;
   /**
   * If true - you can't make a screenshot from your app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile#block_screenshot ManagementMobileProfile#block_screenshot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile#block_screenshot ManagementMobileProfile#block_screenshot}
   */
   readonly blockScreenshot?: boolean | cdktf.IResolvable;
   /**
   * Offer Capsule as a viewer for external protected documents.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile#offer_capsule_as_viewer ManagementMobileProfile#offer_capsule_as_viewer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile#offer_capsule_as_viewer ManagementMobileProfile#offer_capsule_as_viewer}
   */
   readonly offerCapsuleAsViewer?: boolean | cdktf.IResolvable;
   /**
   * Open the following extensions from your app with external apps when they cannot be opened with Capsule viewer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile#open_extension_with_external_app ManagementMobileProfile#open_extension_with_external_app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile#open_extension_with_external_app ManagementMobileProfile#open_extension_with_external_app}
   */
   readonly openExtensionWithExternalApp?: string[];
   /**
   * Share protected files extensions to external apps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile#share_protected_extension ManagementMobileProfile#share_protected_extension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile#share_protected_extension ManagementMobileProfile#share_protected_extension}
   */
   readonly shareProtectedExtension?: string[];
   /**
   * Share unprotected files extensions to external apps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile#share_unprotected_extension ManagementMobileProfile#share_unprotected_extension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile#share_unprotected_extension ManagementMobileProfile#share_unprotected_extension}
   */
   readonly shareUnprotectedExtension?: string[];
 }
@@ -1568,91 +1568,91 @@ export interface ManagementMobileProfileHarmonyMobile {
   /**
   * Device configuration - response to malicious behavior (configuration for Harmony SDK).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile#compromised_behavior ManagementMobileProfile#compromised_behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile#compromised_behavior ManagementMobileProfile#compromised_behavior}
   */
   readonly compromisedBehavior?: string;
   /**
   * Enable/disable Harmony SDK - cannot be enable if Harmony Mobile Application is enable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile#enable_harmony_mobile_sdk ManagementMobileProfile#enable_harmony_mobile_sdk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile#enable_harmony_mobile_sdk ManagementMobileProfile#enable_harmony_mobile_sdk}
   */
   readonly enableHarmonyMobileSdk?: boolean | cdktf.IResolvable;
   /**
   * License for Harmony Mobile Sdk (configuration for Harmony SDK) - can contain only English characters, digits, comma, spaces and point.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile#harmony_mobile_sdk_license ManagementMobileProfile#harmony_mobile_sdk_license}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile#harmony_mobile_sdk_license ManagementMobileProfile#harmony_mobile_sdk_license}
   */
   readonly harmonyMobileSdkLicense?: string;
   /**
   * Behavior when App is identified as malicious (configuration for Harmony SDK).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile#malware_behavior ManagementMobileProfile#malware_behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile#malware_behavior ManagementMobileProfile#malware_behavior}
   */
   readonly malwareBehavior?: string;
   /**
   * Behavior when there is a network man-in-the-middle attack (configuration for Harmony SDK).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile#man_in_the_middle_attack ManagementMobileProfile#man_in_the_middle_attack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile#man_in_the_middle_attack ManagementMobileProfile#man_in_the_middle_attack}
   */
   readonly manInTheMiddleAttack?: string;
   /**
   * Behavior when Device OS is compromised (configuration for Harmony SDK).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile#os_integrity_compromised ManagementMobileProfile#os_integrity_compromised}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile#os_integrity_compromised ManagementMobileProfile#os_integrity_compromised}
   */
   readonly osIntegrityCompromised?: string;
   /**
   * What is the action if there is high risk found by Harmony Mobile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile#protect_high_risk_action ManagementMobileProfile#protect_high_risk_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile#protect_high_risk_action ManagementMobileProfile#protect_high_risk_action}
   */
   readonly protectHighRiskAction?: string;
   /**
   * The message can contain only English characters, digits, comma, spaces and points.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile#protect_high_risk_message ManagementMobileProfile#protect_high_risk_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile#protect_high_risk_message ManagementMobileProfile#protect_high_risk_message}
   */
   readonly protectHighRiskMessage?: string;
   /**
   * What is the action if there is medium risk found by Harmony Mobile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile#protect_medium_risk_action ManagementMobileProfile#protect_medium_risk_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile#protect_medium_risk_action ManagementMobileProfile#protect_medium_risk_action}
   */
   readonly protectMediumRiskAction?: string;
   /**
   * The message can contain only English characters, digits, comma, spaces and points.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile#protect_medium_risk_message ManagementMobileProfile#protect_medium_risk_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile#protect_medium_risk_message ManagementMobileProfile#protect_medium_risk_message}
   */
   readonly protectMediumRiskMessage?: string;
   /**
   * What is the action if there is policy violation (configuration for Harmony Mobile).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile#protect_not_activated_action ManagementMobileProfile#protect_not_activated_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile#protect_not_activated_action ManagementMobileProfile#protect_not_activated_action}
   */
   readonly protectNotActivatedAction?: string;
   /**
   * The message can contain only English characters, digits, comma, spaces and points.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile#protect_not_activated_message ManagementMobileProfile#protect_not_activated_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile#protect_not_activated_message ManagementMobileProfile#protect_not_activated_message}
   */
   readonly protectNotActivatedMessage?: string;
   /**
   * Enable/disable Protect Application- cannot be enable if Harmony SDK is enable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile#protect_policy_enabled ManagementMobileProfile#protect_policy_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile#protect_policy_enabled ManagementMobileProfile#protect_policy_enabled}
   */
   readonly protectPolicyEnabled?: boolean | cdktf.IResolvable;
   /**
   * Behavior when App is suspected as malicious (configuration for Harmony SDK).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile#suspicious_app ManagementMobileProfile#suspicious_app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile#suspicious_app ManagementMobileProfile#suspicious_app}
   */
   readonly suspiciousApp?: string;
   /**
   * Behavior when a certificate profile has been installed allowing the installing of apps on device from unknown source - iOS only (configuration for Harmony SDK).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile#suspicious_enterprise_certificate ManagementMobileProfile#suspicious_enterprise_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile#suspicious_enterprise_certificate ManagementMobileProfile#suspicious_enterprise_certificate}
   */
   readonly suspiciousEnterpriseCertificate?: string;
 }
@@ -2144,55 +2144,55 @@ export interface ManagementMobileProfileSecurity {
   /**
   * Require passcode to the application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile#activate_passcode_lock ManagementMobileProfile#activate_passcode_lock}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile#activate_passcode_lock ManagementMobileProfile#activate_passcode_lock}
   */
   readonly activatePasscodeLock?: boolean | cdktf.IResolvable;
   /**
   * Allow storing the credentials on the device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile#allow_store_credentials ManagementMobileProfile#allow_store_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile#allow_store_credentials ManagementMobileProfile#allow_store_credentials}
   */
   readonly allowStoreCredentials?: boolean | cdktf.IResolvable;
   /**
   * Block 3rd party keyboard.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile#block_3rd_party_keyboard ManagementMobileProfile#block_3rd_party_keyboard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile#block_3rd_party_keyboard ManagementMobileProfile#block_3rd_party_keyboard}
   */
   readonly block3RdPartyKeyboard?: boolean | cdktf.IResolvable;
   /**
   * Action upon detection of jail broken devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile#block_jailbroken ManagementMobileProfile#block_jailbroken}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile#block_jailbroken ManagementMobileProfile#block_jailbroken}
   */
   readonly blockJailbroken?: string;
   /**
   * Hide connect button on critical SSL trust failures.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile#hide_ssl_connect_anyway_button ManagementMobileProfile#hide_ssl_connect_anyway_button}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile#hide_ssl_connect_anyway_button ManagementMobileProfile#hide_ssl_connect_anyway_button}
   */
   readonly hideSslConnectAnywayButton?: boolean | cdktf.IResolvable;
   /**
   * Passcode Policy object identified by the name or UID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile#passcode_profile ManagementMobileProfile#passcode_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile#passcode_profile ManagementMobileProfile#passcode_profile}
   */
   readonly passcodeProfile?: string;
   /**
   * Issue log when device is detected as jail broken.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile#report_jailbroken ManagementMobileProfile#report_jailbroken}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile#report_jailbroken ManagementMobileProfile#report_jailbroken}
   */
   readonly reportJailbroken?: boolean | cdktf.IResolvable;
   /**
   * Session timeout - you can choose a unit (day, week, month) in "session-timeout-unit" field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile#session_timeout ManagementMobileProfile#session_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile#session_timeout ManagementMobileProfile#session_timeout}
   */
   readonly sessionTimeout?: number;
   /**
   * Unit for "session-timeout" numeric value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile#session_timeout_unit ManagementMobileProfile#session_timeout_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile#session_timeout_unit ManagementMobileProfile#session_timeout_unit}
   */
   readonly sessionTimeoutUnit?: string;
 }
@@ -2508,7 +2508,7 @@ export class ManagementMobileProfileSecurityOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile checkpoint_management_mobile_profile}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile checkpoint_management_mobile_profile}
 */
 export class ManagementMobileProfile extends cdktf.TerraformResource {
 
@@ -2524,7 +2524,7 @@ export class ManagementMobileProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementMobileProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementMobileProfile to import
-  * @param importFromId The id of the existing ManagementMobileProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementMobileProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementMobileProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2536,7 +2536,7 @@ export class ManagementMobileProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_profile checkpoint_management_mobile_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_profile checkpoint_management_mobile_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2547,7 +2547,8 @@ export class ManagementMobileProfile extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_mobile_profile',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

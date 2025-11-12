@@ -534,7 +534,8 @@ export class File extends cdktf.TerraformResource {
       terraformResourceType: 'remote_file',
       terraformGeneratorMetadata: {
         providerName: 'remote',
-        providerVersion: '0.2.1'
+        providerVersion: '0.2.1',
+        providerVersionConstraint: '0.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

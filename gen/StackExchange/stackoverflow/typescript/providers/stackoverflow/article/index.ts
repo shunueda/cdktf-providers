@@ -80,7 +80,8 @@ export class Article extends cdktf.TerraformResource {
       terraformResourceType: 'stackoverflow_article',
       terraformGeneratorMetadata: {
         providerName: 'stackoverflow',
-        providerVersion: '1.0.5'
+        providerVersion: '1.0.5',
+        providerVersionConstraint: '1.0.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

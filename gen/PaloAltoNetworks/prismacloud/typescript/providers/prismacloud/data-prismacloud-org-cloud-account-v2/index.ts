@@ -1190,7 +1190,8 @@ export class DataPrismacloudOrgCloudAccountV2 extends cdktf.TerraformDataSource 
       terraformResourceType: 'prismacloud_org_cloud_account_v2',
       terraformGeneratorMetadata: {
         providerName: 'prismacloud',
-        providerVersion: '1.7.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

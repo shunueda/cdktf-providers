@@ -76,7 +76,8 @@ export class DataFlexibleengineRtsStackResourceV1 extends cdktf.TerraformDataSou
       terraformResourceType: 'flexibleengine_rts_stack_resource_v1',
       terraformGeneratorMetadata: {
         providerName: 'flexibleengine',
-        providerVersion: '1.46.0'
+        providerVersion: '1.46.0',
+        providerVersionConstraint: '1.46.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

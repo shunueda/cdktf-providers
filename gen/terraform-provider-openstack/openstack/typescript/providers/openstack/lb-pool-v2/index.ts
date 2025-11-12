@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/lb_pool_v2
+// https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/lb_pool_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,100 +8,100 @@ import * as cdktf from 'cdktf';
 
 export interface LbPoolV2Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/lb_pool_v2#admin_state_up LbPoolV2#admin_state_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/lb_pool_v2#admin_state_up LbPoolV2#admin_state_up}
   */
   readonly adminStateUp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/lb_pool_v2#alpn_protocols LbPoolV2#alpn_protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/lb_pool_v2#alpn_protocols LbPoolV2#alpn_protocols}
   */
   readonly alpnProtocols?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/lb_pool_v2#ca_tls_container_ref LbPoolV2#ca_tls_container_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/lb_pool_v2#ca_tls_container_ref LbPoolV2#ca_tls_container_ref}
   */
   readonly caTlsContainerRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/lb_pool_v2#crl_container_ref LbPoolV2#crl_container_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/lb_pool_v2#crl_container_ref LbPoolV2#crl_container_ref}
   */
   readonly crlContainerRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/lb_pool_v2#description LbPoolV2#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/lb_pool_v2#description LbPoolV2#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/lb_pool_v2#id LbPoolV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/lb_pool_v2#id LbPoolV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/lb_pool_v2#lb_method LbPoolV2#lb_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/lb_pool_v2#lb_method LbPoolV2#lb_method}
   */
   readonly lbMethod: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/lb_pool_v2#listener_id LbPoolV2#listener_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/lb_pool_v2#listener_id LbPoolV2#listener_id}
   */
   readonly listenerId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/lb_pool_v2#loadbalancer_id LbPoolV2#loadbalancer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/lb_pool_v2#loadbalancer_id LbPoolV2#loadbalancer_id}
   */
   readonly loadbalancerId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/lb_pool_v2#name LbPoolV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/lb_pool_v2#name LbPoolV2#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/lb_pool_v2#protocol LbPoolV2#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/lb_pool_v2#protocol LbPoolV2#protocol}
   */
   readonly protocol: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/lb_pool_v2#region LbPoolV2#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/lb_pool_v2#region LbPoolV2#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/lb_pool_v2#tags LbPoolV2#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/lb_pool_v2#tags LbPoolV2#tags}
   */
   readonly tags?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/lb_pool_v2#tenant_id LbPoolV2#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/lb_pool_v2#tenant_id LbPoolV2#tenant_id}
   */
   readonly tenantId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/lb_pool_v2#tls_ciphers LbPoolV2#tls_ciphers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/lb_pool_v2#tls_ciphers LbPoolV2#tls_ciphers}
   */
   readonly tlsCiphers?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/lb_pool_v2#tls_container_ref LbPoolV2#tls_container_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/lb_pool_v2#tls_container_ref LbPoolV2#tls_container_ref}
   */
   readonly tlsContainerRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/lb_pool_v2#tls_enabled LbPoolV2#tls_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/lb_pool_v2#tls_enabled LbPoolV2#tls_enabled}
   */
   readonly tlsEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/lb_pool_v2#tls_versions LbPoolV2#tls_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/lb_pool_v2#tls_versions LbPoolV2#tls_versions}
   */
   readonly tlsVersions?: string[];
   /**
   * persistence block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/lb_pool_v2#persistence LbPoolV2#persistence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/lb_pool_v2#persistence LbPoolV2#persistence}
   */
   readonly persistence?: LbPoolV2Persistence;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/lb_pool_v2#timeouts LbPoolV2#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/lb_pool_v2#timeouts LbPoolV2#timeouts}
   */
   readonly timeouts?: LbPoolV2Timeouts;
 }
 export interface LbPoolV2Persistence {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/lb_pool_v2#cookie_name LbPoolV2#cookie_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/lb_pool_v2#cookie_name LbPoolV2#cookie_name}
   */
   readonly cookieName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/lb_pool_v2#type LbPoolV2#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/lb_pool_v2#type LbPoolV2#type}
   */
   readonly type: string;
 }
@@ -211,15 +211,15 @@ export class LbPoolV2PersistenceOutputReference extends cdktf.ComplexObject {
 }
 export interface LbPoolV2Timeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/lb_pool_v2#create LbPoolV2#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/lb_pool_v2#create LbPoolV2#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/lb_pool_v2#delete LbPoolV2#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/lb_pool_v2#delete LbPoolV2#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/lb_pool_v2#update LbPoolV2#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/lb_pool_v2#update LbPoolV2#update}
   */
   readonly update?: string;
 }
@@ -371,7 +371,7 @@ export class LbPoolV2TimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/lb_pool_v2 openstack_lb_pool_v2}
+* Represents a {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/lb_pool_v2 openstack_lb_pool_v2}
 */
 export class LbPoolV2 extends cdktf.TerraformResource {
 
@@ -387,7 +387,7 @@ export class LbPoolV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LbPoolV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LbPoolV2 to import
-  * @param importFromId The id of the existing LbPoolV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/lb_pool_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LbPoolV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/lb_pool_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LbPoolV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -399,7 +399,7 @@ export class LbPoolV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/lb_pool_v2 openstack_lb_pool_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/lb_pool_v2 openstack_lb_pool_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -410,7 +410,8 @@ export class LbPoolV2 extends cdktf.TerraformResource {
       terraformResourceType: 'openstack_lb_pool_v2',
       terraformGeneratorMetadata: {
         providerName: 'openstack',
-        providerVersion: '3.3.2'
+        providerVersion: '3.4.0',
+        providerVersionConstraint: '3.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

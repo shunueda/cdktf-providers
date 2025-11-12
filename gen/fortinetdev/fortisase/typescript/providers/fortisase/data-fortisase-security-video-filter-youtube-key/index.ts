@@ -57,7 +57,8 @@ export class DataFortisaseSecurityVideoFilterYoutubeKey extends cdktf.TerraformD
       terraformResourceType: 'fortisase_security_video_filter_youtube_key',
       terraformGeneratorMetadata: {
         providerName: 'fortisase',
-        providerVersion: '1.0.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

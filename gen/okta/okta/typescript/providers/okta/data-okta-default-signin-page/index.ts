@@ -293,7 +293,8 @@ export class DataOktaDefaultSigninPage extends cdktf.TerraformDataSource {
       terraformResourceType: 'okta_default_signin_page',
       terraformGeneratorMetadata: {
         providerName: 'okta',
-        providerVersion: '6.4.0'
+        providerVersion: '6.4.0',
+        providerVersionConstraint: '6.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

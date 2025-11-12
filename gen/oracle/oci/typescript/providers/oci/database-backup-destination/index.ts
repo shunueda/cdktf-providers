@@ -600,7 +600,8 @@ export class DatabaseBackupDestination extends cdktf.TerraformResource {
       terraformResourceType: 'oci_database_backup_destination',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

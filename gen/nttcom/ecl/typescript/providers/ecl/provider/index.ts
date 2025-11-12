@@ -187,7 +187,8 @@ export class EclProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'ecl',
       terraformGeneratorMetadata: {
         providerName: 'ecl',
-        providerVersion: '2.12.1'
+        providerVersion: '2.12.1',
+        providerVersionConstraint: '2.12.1'
       },
       terraformProviderSource: 'nttcom/ecl'
     });

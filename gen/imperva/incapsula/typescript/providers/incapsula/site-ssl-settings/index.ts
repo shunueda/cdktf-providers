@@ -586,7 +586,8 @@ export class SiteSslSettings extends cdktf.TerraformResource {
       terraformResourceType: 'incapsula_site_ssl_settings',
       terraformGeneratorMetadata: {
         providerName: 'incapsula',
-        providerVersion: '3.35.1'
+        providerVersion: '3.35.1',
+        providerVersionConstraint: '3.35.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

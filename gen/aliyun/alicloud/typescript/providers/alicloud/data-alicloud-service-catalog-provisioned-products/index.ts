@@ -798,7 +798,8 @@ export class DataAlicloudServiceCatalogProvisionedProducts extends cdktf.Terrafo
       terraformResourceType: 'alicloud_service_catalog_provisioned_products',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

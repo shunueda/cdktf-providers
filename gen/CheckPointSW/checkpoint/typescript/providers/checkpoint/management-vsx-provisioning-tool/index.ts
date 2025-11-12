@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ManagementVsxProvisioningToolConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#id ManagementVsxProvisioningTool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#id ManagementVsxProvisioningTool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,97 +17,97 @@ export interface ManagementVsxProvisioningToolConfig extends cdktf.TerraformMeta
   /**
   * The name of the provisioning operation to run. Each operation has its own specific parameters.<br> The available operations are:<ul><li><i>add-vsx-gateway</i> - Adds a new VSX gateway</li><li><i>add-vsx-cluster</i> - Adds a new VSX cluster*</li><li><i>add-vsx-cluster-member</i> - Adds a new VSX cluster member*</li><li><i>add-vd</i> - Adds a new Virtual Device (VS/VSB/VSW/VR) to a VSX gateway or VSX cluster</li><li><i>add-vd-interface</i> - Adds a new virtual interface to a Virtual Device</li><li><i>add-physical-interface</i> - Adds a physical interface to a VSX gateway or VSX cluster</li><li><i>add-route</i> - Adds a route to a Virtual Device</li><li><i>attach-bridge</i> - Attaches a bridge interface to a Virtual System</li><li><i>remove-vsx</i> - Removes a VSX gateway or VSX cluster</li><li><i>remove-vd</i> - Removes a Virtual Device</li><li><i>remove-vd-interface</i> - Removes an interface from a Virtual Device</li><li><i>remove-physical-interface</i> - Removes a physical interface from a VSX gateway or VSX cluster</li><li><i>remove-route</i> - Removes a route from a Virtual Device</li><li><i>set-vd</i> - Modifies a Virtual Device</li><li><i>set-vd-interface</i> - Modifies an interface on a Virtual Device</li><li><i>set-physical-interface</i> - Modifies a physical interface on a VSX cluster or VSX gateway</li></ul><br> * When adding a VSX Cluster, you must also add at least 2 cluster members<br> * Adding cluster members is only allowed when adding a new VSX cluster<br> * To add members to an existing cluster, use vsx-run-operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#operation ManagementVsxProvisioningTool#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#operation ManagementVsxProvisioningTool#operation}
   */
   readonly operation: string;
   /**
   * add_physical_interface_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#add_physical_interface_params ManagementVsxProvisioningTool#add_physical_interface_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#add_physical_interface_params ManagementVsxProvisioningTool#add_physical_interface_params}
   */
   readonly addPhysicalInterfaceParams?: ManagementVsxProvisioningToolAddPhysicalInterfaceParams;
   /**
   * add_route_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#add_route_params ManagementVsxProvisioningTool#add_route_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#add_route_params ManagementVsxProvisioningTool#add_route_params}
   */
   readonly addRouteParams?: ManagementVsxProvisioningToolAddRouteParams[] | cdktf.IResolvable;
   /**
   * add_vd_interface_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#add_vd_interface_params ManagementVsxProvisioningTool#add_vd_interface_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#add_vd_interface_params ManagementVsxProvisioningTool#add_vd_interface_params}
   */
   readonly addVdInterfaceParams?: ManagementVsxProvisioningToolAddVdInterfaceParams[] | cdktf.IResolvable;
   /**
   * add_vd_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#add_vd_params ManagementVsxProvisioningTool#add_vd_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#add_vd_params ManagementVsxProvisioningTool#add_vd_params}
   */
   readonly addVdParams?: ManagementVsxProvisioningToolAddVdParams;
   /**
   * add_vsx_cluster_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#add_vsx_cluster_params ManagementVsxProvisioningTool#add_vsx_cluster_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#add_vsx_cluster_params ManagementVsxProvisioningTool#add_vsx_cluster_params}
   */
   readonly addVsxClusterParams?: ManagementVsxProvisioningToolAddVsxClusterParams;
   /**
   * add_vsx_gateway_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#add_vsx_gateway_params ManagementVsxProvisioningTool#add_vsx_gateway_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#add_vsx_gateway_params ManagementVsxProvisioningTool#add_vsx_gateway_params}
   */
   readonly addVsxGatewayParams?: ManagementVsxProvisioningToolAddVsxGatewayParams;
   /**
   * attach_bridge_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#attach_bridge_params ManagementVsxProvisioningTool#attach_bridge_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#attach_bridge_params ManagementVsxProvisioningTool#attach_bridge_params}
   */
   readonly attachBridgeParams?: ManagementVsxProvisioningToolAttachBridgeParams;
   /**
   * remove_physical_interface_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#remove_physical_interface_params ManagementVsxProvisioningTool#remove_physical_interface_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#remove_physical_interface_params ManagementVsxProvisioningTool#remove_physical_interface_params}
   */
   readonly removePhysicalInterfaceParams?: ManagementVsxProvisioningToolRemovePhysicalInterfaceParams;
   /**
   * remove_route_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#remove_route_params ManagementVsxProvisioningTool#remove_route_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#remove_route_params ManagementVsxProvisioningTool#remove_route_params}
   */
   readonly removeRouteParams?: ManagementVsxProvisioningToolRemoveRouteParams;
   /**
   * remove_vd_interface_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#remove_vd_interface_params ManagementVsxProvisioningTool#remove_vd_interface_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#remove_vd_interface_params ManagementVsxProvisioningTool#remove_vd_interface_params}
   */
   readonly removeVdInterfaceParams?: ManagementVsxProvisioningToolRemoveVdInterfaceParams;
   /**
   * remove_vd_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#remove_vd_params ManagementVsxProvisioningTool#remove_vd_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#remove_vd_params ManagementVsxProvisioningTool#remove_vd_params}
   */
   readonly removeVdParams?: ManagementVsxProvisioningToolRemoveVdParams;
   /**
   * remove_vsx_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#remove_vsx_params ManagementVsxProvisioningTool#remove_vsx_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#remove_vsx_params ManagementVsxProvisioningTool#remove_vsx_params}
   */
   readonly removeVsxParams?: ManagementVsxProvisioningToolRemoveVsxParams;
   /**
   * set_physical_interface_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#set_physical_interface_params ManagementVsxProvisioningTool#set_physical_interface_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#set_physical_interface_params ManagementVsxProvisioningTool#set_physical_interface_params}
   */
   readonly setPhysicalInterfaceParams?: ManagementVsxProvisioningToolSetPhysicalInterfaceParams;
   /**
   * set_vd_interface_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#set_vd_interface_params ManagementVsxProvisioningTool#set_vd_interface_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#set_vd_interface_params ManagementVsxProvisioningTool#set_vd_interface_params}
   */
   readonly setVdInterfaceParams?: ManagementVsxProvisioningToolSetVdInterfaceParams;
   /**
   * set_vd_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#set_vd_params ManagementVsxProvisioningTool#set_vd_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#set_vd_params ManagementVsxProvisioningTool#set_vd_params}
   */
   readonly setVdParams?: ManagementVsxProvisioningToolSetVdParams;
 }
@@ -115,19 +115,19 @@ export interface ManagementVsxProvisioningToolAddPhysicalInterfaceParams {
   /**
   * Name of the interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#name ManagementVsxProvisioningTool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#name ManagementVsxProvisioningTool#name}
   */
   readonly name?: string;
   /**
   * True if this interface is a VLAN trunk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#vlan_trunk ManagementVsxProvisioningTool#vlan_trunk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#vlan_trunk ManagementVsxProvisioningTool#vlan_trunk}
   */
   readonly vlanTrunk?: boolean | cdktf.IResolvable;
   /**
   * Name of the VSX Gateway or Cluster object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#vsx_name ManagementVsxProvisioningTool#vsx_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#vsx_name ManagementVsxProvisioningTool#vsx_name}
   */
   readonly vsxName?: string;
 }
@@ -271,43 +271,43 @@ export interface ManagementVsxProvisioningToolAddRouteParams {
   /**
   * Route destination. To specify the default route, use 'default' for IPv4 and 'default6' for IPv6.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#destination ManagementVsxProvisioningTool#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#destination ManagementVsxProvisioningTool#destination}
   */
   readonly destination?: string;
   /**
   * Virtual Router for this route<br/>This VD must have an existing connection to the VR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#leads_to ManagementVsxProvisioningTool#leads_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#leads_to ManagementVsxProvisioningTool#leads_to}
   */
   readonly leadsTo?: string;
   /**
   * Subnet mask for this route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#netmask ManagementVsxProvisioningTool#netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#netmask ManagementVsxProvisioningTool#netmask}
   */
   readonly netmask?: string;
   /**
   * Next hop IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#next_hop ManagementVsxProvisioningTool#next_hop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#next_hop ManagementVsxProvisioningTool#next_hop}
   */
   readonly nextHop?: string;
   /**
   * CIDR prefix for this route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#prefix ManagementVsxProvisioningTool#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#prefix ManagementVsxProvisioningTool#prefix}
   */
   readonly prefix?: string;
   /**
   * Propagate this route to adjacent virtual devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#propagate ManagementVsxProvisioningTool#propagate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#propagate ManagementVsxProvisioningTool#propagate}
   */
   readonly propagate?: boolean | cdktf.IResolvable;
   /**
   * Name of the Virtual System, Virtual Switch, or Virtual Router.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#vd ManagementVsxProvisioningTool#vd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#vd ManagementVsxProvisioningTool#vd}
   */
   readonly vd?: string;
 }
@@ -599,25 +599,25 @@ export interface ManagementVsxProvisioningToolAddVdInterfaceParamsVtiSettings {
   /**
   * The IPv4 address of the VPN tunnel on this Virtual System.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#local_ipv4_address ManagementVsxProvisioningTool#local_ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#local_ipv4_address ManagementVsxProvisioningTool#local_ipv4_address}
   */
   readonly localIpv4Address?: string;
   /**
   * The name of the remote peer object as defined in the VPN community.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#peer_name ManagementVsxProvisioningTool#peer_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#peer_name ManagementVsxProvisioningTool#peer_name}
   */
   readonly peerName?: string;
   /**
   * The IPv4 address of the VPN tunnel on the remote VPN peer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#remote_ipv4_address ManagementVsxProvisioningTool#remote_ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#remote_ipv4_address ManagementVsxProvisioningTool#remote_ipv4_address}
   */
   readonly remoteIpv4Address?: string;
   /**
   * Optional unique Tunnel ID.<br/>Automatically assigned by the system if empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#tunnel_id ManagementVsxProvisioningTool#tunnel_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#tunnel_id ManagementVsxProvisioningTool#tunnel_id}
   */
   readonly tunnelId?: string;
 }
@@ -790,103 +790,103 @@ export interface ManagementVsxProvisioningToolAddVdInterfaceParams {
   /**
   * The anti-spoofing enforcement setting of this interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#anti_spoofing ManagementVsxProvisioningTool#anti_spoofing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#anti_spoofing ManagementVsxProvisioningTool#anti_spoofing}
   */
   readonly antiSpoofing?: string;
   /**
   * The anti-spoofing tracking setting of this interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#anti_spoofing_tracking ManagementVsxProvisioningTool#anti_spoofing_tracking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#anti_spoofing_tracking ManagementVsxProvisioningTool#anti_spoofing_tracking}
   */
   readonly antiSpoofingTracking?: string;
   /**
   * IPv4 Address of this interface with optional CIDR prefix.<br/>Required if this interface belongs to a Virtual System or Virtual Router.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#ipv4_address ManagementVsxProvisioningTool#ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#ipv4_address ManagementVsxProvisioningTool#ipv4_address}
   */
   readonly ipv4Address?: string;
   /**
   * IPv4 Subnet mask of this interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#ipv4_netmask ManagementVsxProvisioningTool#ipv4_netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#ipv4_netmask ManagementVsxProvisioningTool#ipv4_netmask}
   */
   readonly ipv4Netmask?: string;
   /**
   * IPv4 CIDR prefix of this interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#ipv4_prefix ManagementVsxProvisioningTool#ipv4_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#ipv4_prefix ManagementVsxProvisioningTool#ipv4_prefix}
   */
   readonly ipv4Prefix?: string;
   /**
   * IPv6 Address of this interface<br/>Required if this interface belongs to a Virtual System or Virtual Router.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#ipv6_address ManagementVsxProvisioningTool#ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#ipv6_address ManagementVsxProvisioningTool#ipv6_address}
   */
   readonly ipv6Address?: string;
   /**
   * IPv6 Subnet mask of this interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#ipv6_netmask ManagementVsxProvisioningTool#ipv6_netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#ipv6_netmask ManagementVsxProvisioningTool#ipv6_netmask}
   */
   readonly ipv6Netmask?: string;
   /**
   * IPv6 CIDR prefix of this interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#ipv6_prefix ManagementVsxProvisioningTool#ipv6_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#ipv6_prefix ManagementVsxProvisioningTool#ipv6_prefix}
   */
   readonly ipv6Prefix?: string;
   /**
   * Virtual Switch or Virtual Router for this interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#leads_to ManagementVsxProvisioningTool#leads_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#leads_to ManagementVsxProvisioningTool#leads_to}
   */
   readonly leadsTo?: string;
   /**
   * MTU of this interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#mtu ManagementVsxProvisioningTool#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#mtu ManagementVsxProvisioningTool#mtu}
   */
   readonly mtu?: number;
   /**
   * Name of the interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#name ManagementVsxProvisioningTool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#name ManagementVsxProvisioningTool#name}
   */
   readonly name?: string;
   /**
   * Propagate IPv4 route to adjacent virtual devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#propagate ManagementVsxProvisioningTool#propagate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#propagate ManagementVsxProvisioningTool#propagate}
   */
   readonly propagate?: boolean | cdktf.IResolvable;
   /**
   * Propagate IPv6 route to adjacent virtual devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#propagate6 ManagementVsxProvisioningTool#propagate6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#propagate6 ManagementVsxProvisioningTool#propagate6}
   */
   readonly propagate6?: boolean | cdktf.IResolvable;
   /**
   * Specific group for interface topology.<br/>Only for use with topology option 'internal_specific'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#specific_group ManagementVsxProvisioningTool#specific_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#specific_group ManagementVsxProvisioningTool#specific_group}
   */
   readonly specificGroup?: string;
   /**
   * Topology of this interface.<br/>Automatic topology calculation based on routes must be disabled for this VS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#topology ManagementVsxProvisioningTool#topology}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#topology ManagementVsxProvisioningTool#topology}
   */
   readonly topology?: string;
   /**
   * Name of the Virtual System, Virtual Switch, or Virtual Router.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#vd ManagementVsxProvisioningTool#vd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#vd ManagementVsxProvisioningTool#vd}
   */
   readonly vd?: string;
   /**
   * vti_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#vti_settings ManagementVsxProvisioningTool#vti_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#vti_settings ManagementVsxProvisioningTool#vti_settings}
   */
   readonly vtiSettings?: ManagementVsxProvisioningToolAddVdInterfaceParamsVtiSettings;
 }
@@ -1468,91 +1468,91 @@ export interface ManagementVsxProvisioningToolAddVdParamsInterfaces {
   /**
   * The anti-spoofing enforcement setting of this interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#anti_spoofing ManagementVsxProvisioningTool#anti_spoofing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#anti_spoofing ManagementVsxProvisioningTool#anti_spoofing}
   */
   readonly antiSpoofing?: string;
   /**
   * The anti-spoofing tracking setting of this interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#anti_spoofing_tracking ManagementVsxProvisioningTool#anti_spoofing_tracking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#anti_spoofing_tracking ManagementVsxProvisioningTool#anti_spoofing_tracking}
   */
   readonly antiSpoofingTracking?: string;
   /**
   * IPv4 Address of this interface with optional CIDR prefix.<br/>Required if this interface belongs to a Virtual System or Virtual Router.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#ipv4_address ManagementVsxProvisioningTool#ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#ipv4_address ManagementVsxProvisioningTool#ipv4_address}
   */
   readonly ipv4Address?: string;
   /**
   * IPv4 Subnet mask of this interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#ipv4_netmask ManagementVsxProvisioningTool#ipv4_netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#ipv4_netmask ManagementVsxProvisioningTool#ipv4_netmask}
   */
   readonly ipv4Netmask?: string;
   /**
   * IPv4 CIDR prefix of this interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#ipv4_prefix ManagementVsxProvisioningTool#ipv4_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#ipv4_prefix ManagementVsxProvisioningTool#ipv4_prefix}
   */
   readonly ipv4Prefix?: string;
   /**
   * IPv6 Address of this interface<br/>Required if this interface belongs to a Virtual System or Virtual Router.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#ipv6_address ManagementVsxProvisioningTool#ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#ipv6_address ManagementVsxProvisioningTool#ipv6_address}
   */
   readonly ipv6Address?: string;
   /**
   * IPv6 Subnet mask of this interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#ipv6_netmask ManagementVsxProvisioningTool#ipv6_netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#ipv6_netmask ManagementVsxProvisioningTool#ipv6_netmask}
   */
   readonly ipv6Netmask?: string;
   /**
   * IPv6 CIDR prefix of this interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#ipv6_prefix ManagementVsxProvisioningTool#ipv6_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#ipv6_prefix ManagementVsxProvisioningTool#ipv6_prefix}
   */
   readonly ipv6Prefix?: string;
   /**
   * Virtual Switch or Virtual Router for this interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#leads_to ManagementVsxProvisioningTool#leads_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#leads_to ManagementVsxProvisioningTool#leads_to}
   */
   readonly leadsTo?: string;
   /**
   * MTU of this interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#mtu ManagementVsxProvisioningTool#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#mtu ManagementVsxProvisioningTool#mtu}
   */
   readonly mtu?: number;
   /**
   * Name of the interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#name ManagementVsxProvisioningTool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#name ManagementVsxProvisioningTool#name}
   */
   readonly name?: string;
   /**
   * Propagate IPv4 route to adjacent virtual devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#propagate ManagementVsxProvisioningTool#propagate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#propagate ManagementVsxProvisioningTool#propagate}
   */
   readonly propagate?: boolean | cdktf.IResolvable;
   /**
   * Propagate IPv6 route to adjacent virtual devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#propagate6 ManagementVsxProvisioningTool#propagate6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#propagate6 ManagementVsxProvisioningTool#propagate6}
   */
   readonly propagate6?: boolean | cdktf.IResolvable;
   /**
   * Specific group for interface topology.<br/>Only for use with topology option 'internal_specific'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#specific_group ManagementVsxProvisioningTool#specific_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#specific_group ManagementVsxProvisioningTool#specific_group}
   */
   readonly specificGroup?: string;
   /**
   * Topology of this interface.<br/>Automatic topology calculation based on routes must be disabled for this VS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#topology ManagementVsxProvisioningTool#topology}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#topology ManagementVsxProvisioningTool#topology}
   */
   readonly topology?: string;
 }
@@ -2076,37 +2076,37 @@ export interface ManagementVsxProvisioningToolAddVdParamsRoutes {
   /**
   * Route destination. To specify the default route, use 'default' for IPv4 and 'default6' for IPv6.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#destination ManagementVsxProvisioningTool#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#destination ManagementVsxProvisioningTool#destination}
   */
   readonly destination?: string;
   /**
   * Virtual Router for this route<br/>This VD must have an existing connection to the VR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#leads_to ManagementVsxProvisioningTool#leads_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#leads_to ManagementVsxProvisioningTool#leads_to}
   */
   readonly leadsTo?: string;
   /**
   * Subnet mask for this route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#netmask ManagementVsxProvisioningTool#netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#netmask ManagementVsxProvisioningTool#netmask}
   */
   readonly netmask?: string;
   /**
   * Next hop IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#next_hop ManagementVsxProvisioningTool#next_hop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#next_hop ManagementVsxProvisioningTool#next_hop}
   */
   readonly nextHop?: string;
   /**
   * CIDR prefix for this route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#prefix ManagementVsxProvisioningTool#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#prefix ManagementVsxProvisioningTool#prefix}
   */
   readonly prefix?: string;
   /**
   * Propagate this route to adjacent virtual devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#propagate ManagementVsxProvisioningTool#propagate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#propagate ManagementVsxProvisioningTool#propagate}
   */
   readonly propagate?: boolean | cdktf.IResolvable;
 }
@@ -2369,67 +2369,67 @@ export interface ManagementVsxProvisioningToolAddVdParams {
   /**
   * Calculate interface topology automatically based on routes.<br/>Relevant only for Virtual Systems.<br/>Do not use for virtual devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#calc_topology_auto ManagementVsxProvisioningTool#calc_topology_auto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#calc_topology_auto ManagementVsxProvisioningTool#calc_topology_auto}
   */
   readonly calcTopologyAuto?: boolean | cdktf.IResolvable;
   /**
   * Main IPv4 Address.<br/>Required if this device is a Virtual System.<br/>Do not use for other virtual devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#ipv4_address ManagementVsxProvisioningTool#ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#ipv4_address ManagementVsxProvisioningTool#ipv4_address}
   */
   readonly ipv4Address?: string;
   /**
   * Number of IPv4 instances for the Virtual System.<br/>Must be greater or equal to 1.<br/>Only relevant for Virtual Systems and Virtual Systems in bridge mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#ipv4_instances ManagementVsxProvisioningTool#ipv4_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#ipv4_instances ManagementVsxProvisioningTool#ipv4_instances}
   */
   readonly ipv4Instances?: number;
   /**
   * Main IPv6 Address.<br/>Required if this device is a Virtual System.<br/>Do not use for other virtual devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#ipv6_address ManagementVsxProvisioningTool#ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#ipv6_address ManagementVsxProvisioningTool#ipv6_address}
   */
   readonly ipv6Address?: string;
   /**
   * Number of IPv6 instances for the Virtual System.<br/>Only relevant for Virtual Systems and Virtual Systems in bridge mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#ipv6_instances ManagementVsxProvisioningTool#ipv6_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#ipv6_instances ManagementVsxProvisioningTool#ipv6_instances}
   */
   readonly ipv6Instances?: number;
   /**
   * Type of the Virtual Device <br><br>vs - Virtual Firewall<br>vr - Virtual Router<br>vsw - Virtual Switch<br>vsbm - Virtual Firewall in bridge mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#type ManagementVsxProvisioningTool#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#type ManagementVsxProvisioningTool#type}
   */
   readonly type?: string;
   /**
   * Name of the Virtual System, Virtual Switch, or Virtual Router.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#vd ManagementVsxProvisioningTool#vd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#vd ManagementVsxProvisioningTool#vd}
   */
   readonly vd?: string;
   /**
   * MTU of the Virtual System.<br/>Only relevant for Virtual Systems in bridge mode.<br/>Do not use for other virtual devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#vs_mtu ManagementVsxProvisioningTool#vs_mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#vs_mtu ManagementVsxProvisioningTool#vs_mtu}
   */
   readonly vsMtu?: number;
   /**
   * Name of the VSX Gateway or Cluster object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#vsx_name ManagementVsxProvisioningTool#vsx_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#vsx_name ManagementVsxProvisioningTool#vsx_name}
   */
   readonly vsxName?: string;
   /**
   * interfaces block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#interfaces ManagementVsxProvisioningTool#interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#interfaces ManagementVsxProvisioningTool#interfaces}
   */
   readonly interfaces: ManagementVsxProvisioningToolAddVdParamsInterfaces[] | cdktf.IResolvable;
   /**
   * routes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#routes ManagementVsxProvisioningTool#routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#routes ManagementVsxProvisioningTool#routes}
   */
   readonly routes?: ManagementVsxProvisioningToolAddVdParamsRoutes[] | cdktf.IResolvable;
 }
@@ -2802,31 +2802,31 @@ export interface ManagementVsxProvisioningToolAddVsxClusterParamsMembers {
   /**
   * Main IPv4 Address of the VSX Cluster member.<br/>Mandatory if the VSX Cluster has an IPv4 Address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#ipv4_address ManagementVsxProvisioningTool#ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#ipv4_address ManagementVsxProvisioningTool#ipv4_address}
   */
   readonly ipv4Address?: string;
   /**
   * Main IPv6 Address of the VSX Cluster member.<br/>Mandatory if the VSX Cluster has an IPv6 Address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#ipv6_address ManagementVsxProvisioningTool#ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#ipv6_address ManagementVsxProvisioningTool#ipv6_address}
   */
   readonly ipv6Address?: string;
   /**
   * Name of the new VSX Cluster member.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#name ManagementVsxProvisioningTool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#name ManagementVsxProvisioningTool#name}
   */
   readonly name?: string;
   /**
   * SIC one-time-password of the VSX Gateway or Cluster member.<br/>Password must be between 4-127 characters in length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#sic_otp ManagementVsxProvisioningTool#sic_otp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#sic_otp ManagementVsxProvisioningTool#sic_otp}
   */
   readonly sicOtp?: string;
   /**
   * Sync IP address for the VSX Cluster member.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#sync_ip ManagementVsxProvisioningTool#sync_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#sync_ip ManagementVsxProvisioningTool#sync_ip}
   */
   readonly syncIp?: string;
 }
@@ -3060,85 +3060,85 @@ export interface ManagementVsxProvisioningToolAddVsxClusterParams {
   /**
   * Cluster type for the VSX Cluster Object.<br/>Starting in R81.10, only VSLS can be configured during cluster creation.<br/>To use High Availability ('ha'), first create the cluster as VSLS and then run vsx_util on the Management.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#cluster_type ManagementVsxProvisioningTool#cluster_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#cluster_type ManagementVsxProvisioningTool#cluster_type}
   */
   readonly clusterType?: string;
   /**
   * Main IPv4 Address of the VSX Gateway or Cluster object.<br/>Optional if main IPv6 Address is defined.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#ipv4_address ManagementVsxProvisioningTool#ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#ipv4_address ManagementVsxProvisioningTool#ipv4_address}
   */
   readonly ipv4Address?: string;
   /**
   * Main IPv6 Address of the VSX Gateway or Cluster object.<br/>Optional if main IPv4 Address is defined.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#ipv6_address ManagementVsxProvisioningTool#ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#ipv6_address ManagementVsxProvisioningTool#ipv6_address}
   */
   readonly ipv6Address?: string;
   /**
   * Add a default drop rule to the VSX Gateway or Cluster initial policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#rule_drop ManagementVsxProvisioningTool#rule_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#rule_drop ManagementVsxProvisioningTool#rule_drop}
   */
   readonly ruleDrop?: string;
   /**
   * Add a rule to allow HTTPS traffic to the VSX Gateway or Cluster initial policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#rule_https ManagementVsxProvisioningTool#rule_https}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#rule_https ManagementVsxProvisioningTool#rule_https}
   */
   readonly ruleHttps?: string;
   /**
   * Add a rule to allow ping traffic to the VSX Gateway or Cluster initial policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#rule_ping ManagementVsxProvisioningTool#rule_ping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#rule_ping ManagementVsxProvisioningTool#rule_ping}
   */
   readonly rulePing?: string;
   /**
   * Add a rule to allow ping6 traffic to the VSX Gateway or Cluster initial policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#rule_ping6 ManagementVsxProvisioningTool#rule_ping6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#rule_ping6 ManagementVsxProvisioningTool#rule_ping6}
   */
   readonly rulePing6?: string;
   /**
   * Add a rule to allow SNMP traffic to the VSX Gateway or Cluster initial policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#rule_snmp ManagementVsxProvisioningTool#rule_snmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#rule_snmp ManagementVsxProvisioningTool#rule_snmp}
   */
   readonly ruleSnmp?: string;
   /**
   * Add a rule to allow SSH traffic to the VSX Gateway or Cluster initial policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#rule_ssh ManagementVsxProvisioningTool#rule_ssh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#rule_ssh ManagementVsxProvisioningTool#rule_ssh}
   */
   readonly ruleSsh?: string;
   /**
   * Sync interface name for the VSX Cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#sync_if_name ManagementVsxProvisioningTool#sync_if_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#sync_if_name ManagementVsxProvisioningTool#sync_if_name}
   */
   readonly syncIfName?: string;
   /**
   * Sync interface netmask for the VSX Cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#sync_netmask ManagementVsxProvisioningTool#sync_netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#sync_netmask ManagementVsxProvisioningTool#sync_netmask}
   */
   readonly syncNetmask?: string;
   /**
   * Version of the VSX Gateway or Cluster object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#version ManagementVsxProvisioningTool#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#version ManagementVsxProvisioningTool#version}
   */
   readonly version?: string;
   /**
   * Name of the VSX Gateway or Cluster object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#vsx_name ManagementVsxProvisioningTool#vsx_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#vsx_name ManagementVsxProvisioningTool#vsx_name}
   */
   readonly vsxName?: string;
   /**
   * members block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#members ManagementVsxProvisioningTool#members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#members ManagementVsxProvisioningTool#members}
   */
   readonly members?: ManagementVsxProvisioningToolAddVsxClusterParamsMembers[] | cdktf.IResolvable;
 }
@@ -3601,67 +3601,67 @@ export interface ManagementVsxProvisioningToolAddVsxGatewayParams {
   /**
   * Main IPv4 Address of the VSX Gateway or Cluster object.<br/>Optional if main IPv6 Address is defined.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#ipv4_address ManagementVsxProvisioningTool#ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#ipv4_address ManagementVsxProvisioningTool#ipv4_address}
   */
   readonly ipv4Address?: string;
   /**
   * Main IPv6 Address of the VSX Gateway or Cluster object.<br/>Optional if main IPv4 Address is defined.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#ipv6_address ManagementVsxProvisioningTool#ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#ipv6_address ManagementVsxProvisioningTool#ipv6_address}
   */
   readonly ipv6Address?: string;
   /**
   * Add a default drop rule to the VSX Gateway or Cluster initial policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#rule_drop ManagementVsxProvisioningTool#rule_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#rule_drop ManagementVsxProvisioningTool#rule_drop}
   */
   readonly ruleDrop?: string;
   /**
   * Add a rule to allow HTTPS traffic to the VSX Gateway or Cluster initial policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#rule_https ManagementVsxProvisioningTool#rule_https}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#rule_https ManagementVsxProvisioningTool#rule_https}
   */
   readonly ruleHttps?: string;
   /**
   * Add a rule to allow ping traffic to the VSX Gateway or Cluster initial policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#rule_ping ManagementVsxProvisioningTool#rule_ping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#rule_ping ManagementVsxProvisioningTool#rule_ping}
   */
   readonly rulePing?: string;
   /**
   * Add a rule to allow ping6 traffic to the VSX Gateway or Cluster initial policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#rule_ping6 ManagementVsxProvisioningTool#rule_ping6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#rule_ping6 ManagementVsxProvisioningTool#rule_ping6}
   */
   readonly rulePing6?: string;
   /**
   * Add a rule to allow SNMP traffic to the VSX Gateway or Cluster initial policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#rule_snmp ManagementVsxProvisioningTool#rule_snmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#rule_snmp ManagementVsxProvisioningTool#rule_snmp}
   */
   readonly ruleSnmp?: string;
   /**
   * Add a rule to allow SSH traffic to the VSX Gateway or Cluster initial policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#rule_ssh ManagementVsxProvisioningTool#rule_ssh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#rule_ssh ManagementVsxProvisioningTool#rule_ssh}
   */
   readonly ruleSsh?: string;
   /**
   * SIC one-time-password of the VSX Gateway or Cluster member.<br/>Password must be between 4-127 characters in length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#sic_otp ManagementVsxProvisioningTool#sic_otp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#sic_otp ManagementVsxProvisioningTool#sic_otp}
   */
   readonly sicOtp?: string;
   /**
   * Version of the VSX Gateway or Cluster object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#version ManagementVsxProvisioningTool#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#version ManagementVsxProvisioningTool#version}
   */
   readonly version?: string;
   /**
   * Name of the VSX Gateway or Cluster object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#vsx_name ManagementVsxProvisioningTool#vsx_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#vsx_name ManagementVsxProvisioningTool#vsx_name}
   */
   readonly vsxName?: string;
 }
@@ -4037,19 +4037,19 @@ export interface ManagementVsxProvisioningToolAttachBridgeParams {
   /**
   * Name of the first interface for the bridge.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#ifs1 ManagementVsxProvisioningTool#ifs1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#ifs1 ManagementVsxProvisioningTool#ifs1}
   */
   readonly ifs1?: string;
   /**
   * Name of the second interface for the bridge.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#ifs2 ManagementVsxProvisioningTool#ifs2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#ifs2 ManagementVsxProvisioningTool#ifs2}
   */
   readonly ifs2?: string;
   /**
   * Name of the Virtual System, Virtual Switch, or Virtual Router.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#vd ManagementVsxProvisioningTool#vd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#vd ManagementVsxProvisioningTool#vd}
   */
   readonly vd?: string;
 }
@@ -4193,13 +4193,13 @@ export interface ManagementVsxProvisioningToolRemovePhysicalInterfaceParams {
   /**
   * Name of the interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#name ManagementVsxProvisioningTool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#name ManagementVsxProvisioningTool#name}
   */
   readonly name?: string;
   /**
   * Name of the VSX Gateway or Cluster object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#vsx_name ManagementVsxProvisioningTool#vsx_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#vsx_name ManagementVsxProvisioningTool#vsx_name}
   */
   readonly vsxName?: string;
 }
@@ -4314,25 +4314,25 @@ export interface ManagementVsxProvisioningToolRemoveRouteParams {
   /**
   * Route destination. To specify the default route, use 'default' for IPv4 and 'default6' for IPv6.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#destination ManagementVsxProvisioningTool#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#destination ManagementVsxProvisioningTool#destination}
   */
   readonly destination?: string;
   /**
   * Subnet mask for this route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#netmask ManagementVsxProvisioningTool#netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#netmask ManagementVsxProvisioningTool#netmask}
   */
   readonly netmask?: string;
   /**
   * CIDR prefix for this route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#prefix ManagementVsxProvisioningTool#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#prefix ManagementVsxProvisioningTool#prefix}
   */
   readonly prefix?: string;
   /**
   * Name of the Virtual System, Virtual Switch, or Virtual Router.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#vd ManagementVsxProvisioningTool#vd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#vd ManagementVsxProvisioningTool#vd}
   */
   readonly vd?: string;
 }
@@ -4505,19 +4505,19 @@ export interface ManagementVsxProvisioningToolRemoveVdInterfaceParams {
   /**
   * Virtual Switch or Virtual Router for this interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#leads_to ManagementVsxProvisioningTool#leads_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#leads_to ManagementVsxProvisioningTool#leads_to}
   */
   readonly leadsTo?: string;
   /**
   * Name of the interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#name ManagementVsxProvisioningTool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#name ManagementVsxProvisioningTool#name}
   */
   readonly name?: string;
   /**
   * Name of the Virtual System, Virtual Switch, or Virtual Router.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#vd ManagementVsxProvisioningTool#vd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#vd ManagementVsxProvisioningTool#vd}
   */
   readonly vd?: string;
 }
@@ -4661,7 +4661,7 @@ export interface ManagementVsxProvisioningToolRemoveVdParams {
   /**
   * Name of the Virtual System, Virtual Switch, or Virtual Router.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#vd ManagementVsxProvisioningTool#vd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#vd ManagementVsxProvisioningTool#vd}
   */
   readonly vd?: string;
 }
@@ -4747,7 +4747,7 @@ export interface ManagementVsxProvisioningToolRemoveVsxParams {
   /**
   * Name of the VSX Gateway or Cluster object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#vsx_name ManagementVsxProvisioningTool#vsx_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#vsx_name ManagementVsxProvisioningTool#vsx_name}
   */
   readonly vsxName?: string;
 }
@@ -4833,19 +4833,19 @@ export interface ManagementVsxProvisioningToolSetPhysicalInterfaceParams {
   /**
   * Name of the interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#name ManagementVsxProvisioningTool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#name ManagementVsxProvisioningTool#name}
   */
   readonly name?: string;
   /**
   * True if this interface is a VLAN trunk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#vlan_trunk ManagementVsxProvisioningTool#vlan_trunk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#vlan_trunk ManagementVsxProvisioningTool#vlan_trunk}
   */
   readonly vlanTrunk?: boolean | cdktf.IResolvable;
   /**
   * Name of the VSX Gateway or Cluster object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#vsx_name ManagementVsxProvisioningTool#vsx_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#vsx_name ManagementVsxProvisioningTool#vsx_name}
   */
   readonly vsxName?: string;
 }
@@ -4989,79 +4989,79 @@ export interface ManagementVsxProvisioningToolSetVdInterfaceParams {
   /**
   * The anti-spoofing enforcement setting of this interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#anti_spoofing ManagementVsxProvisioningTool#anti_spoofing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#anti_spoofing ManagementVsxProvisioningTool#anti_spoofing}
   */
   readonly antiSpoofing?: string;
   /**
   * The anti-spoofing tracking setting of this interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#anti_spoofing_tracking ManagementVsxProvisioningTool#anti_spoofing_tracking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#anti_spoofing_tracking ManagementVsxProvisioningTool#anti_spoofing_tracking}
   */
   readonly antiSpoofingTracking?: string;
   /**
   * IPv4 Address of this interface with optional CIDR prefix.<br/>Required if this interface belongs to a Virtual System or Virtual Router.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#ipv4_address ManagementVsxProvisioningTool#ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#ipv4_address ManagementVsxProvisioningTool#ipv4_address}
   */
   readonly ipv4Address?: string;
   /**
   * IPv6 Address of this interface<br/>Required if this interface belongs to a Virtual System or Virtual Router.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#ipv6_address ManagementVsxProvisioningTool#ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#ipv6_address ManagementVsxProvisioningTool#ipv6_address}
   */
   readonly ipv6Address?: string;
   /**
   * Virtual Switch or Virtual Router for this interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#leads_to ManagementVsxProvisioningTool#leads_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#leads_to ManagementVsxProvisioningTool#leads_to}
   */
   readonly leadsTo?: string;
   /**
   * MTU of this interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#mtu ManagementVsxProvisioningTool#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#mtu ManagementVsxProvisioningTool#mtu}
   */
   readonly mtu?: number;
   /**
   * Name of the interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#name ManagementVsxProvisioningTool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#name ManagementVsxProvisioningTool#name}
   */
   readonly name?: string;
   /**
   * New Virtual Switch or Virtual Router for this interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#new_leads_to ManagementVsxProvisioningTool#new_leads_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#new_leads_to ManagementVsxProvisioningTool#new_leads_to}
   */
   readonly newLeadsTo?: string;
   /**
   * Propagate IPv4 route to adjacent virtual devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#propagate ManagementVsxProvisioningTool#propagate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#propagate ManagementVsxProvisioningTool#propagate}
   */
   readonly propagate?: boolean | cdktf.IResolvable;
   /**
   * Propagate IPv6 route to adjacent virtual devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#propagate6 ManagementVsxProvisioningTool#propagate6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#propagate6 ManagementVsxProvisioningTool#propagate6}
   */
   readonly propagate6?: boolean | cdktf.IResolvable;
   /**
   * Specific group for interface topology.<br/>Only for use with topology option 'internal_specific'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#specific_group ManagementVsxProvisioningTool#specific_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#specific_group ManagementVsxProvisioningTool#specific_group}
   */
   readonly specificGroup?: string;
   /**
   * Topology of this interface.<br/>Automatic topology calculation based on routes must be disabled for this VS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#topology ManagementVsxProvisioningTool#topology}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#topology ManagementVsxProvisioningTool#topology}
   */
   readonly topology?: string;
   /**
   * Name of the Virtual System, Virtual Switch, or Virtual Router.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#vd ManagementVsxProvisioningTool#vd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#vd ManagementVsxProvisioningTool#vd}
   */
   readonly vd?: string;
 }
@@ -5495,43 +5495,43 @@ export interface ManagementVsxProvisioningToolSetVdParams {
   /**
   * Calculate interface topology automatically based on routes.<br/>Relevant only for Virtual Systems.<br/>Do not use for virtual devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#calc_topology_auto ManagementVsxProvisioningTool#calc_topology_auto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#calc_topology_auto ManagementVsxProvisioningTool#calc_topology_auto}
   */
   readonly calcTopologyAuto?: boolean | cdktf.IResolvable;
   /**
   * Main IPv4 Address.<br/>Relevant only if this device is a Virtual System.<br/>Do not use for other virtual devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#ipv4_address ManagementVsxProvisioningTool#ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#ipv4_address ManagementVsxProvisioningTool#ipv4_address}
   */
   readonly ipv4Address?: string;
   /**
   * Number of IPv4 instances for the Virtual System.<br/>Must be greater or equal to 1.<br/>Only relevant for Virtual Systems and Virtual Systems in bridge mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#ipv4_instances ManagementVsxProvisioningTool#ipv4_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#ipv4_instances ManagementVsxProvisioningTool#ipv4_instances}
   */
   readonly ipv4Instances?: number;
   /**
   * Main IPv6 Address.<br/>Relevant only if this device is a Virtual System.<br/>Do not use for other virtual devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#ipv6_address ManagementVsxProvisioningTool#ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#ipv6_address ManagementVsxProvisioningTool#ipv6_address}
   */
   readonly ipv6Address?: string;
   /**
   * Number of IPv6 instances for the Virtual System.<br/>Only relevant for Virtual Systems and Virtual Systems in bridge mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#ipv6_instances ManagementVsxProvisioningTool#ipv6_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#ipv6_instances ManagementVsxProvisioningTool#ipv6_instances}
   */
   readonly ipv6Instances?: number;
   /**
   * Name of the Virtual System, Virtual Switch, or Virtual Router.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#vd ManagementVsxProvisioningTool#vd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#vd ManagementVsxProvisioningTool#vd}
   */
   readonly vd?: string;
   /**
   * MTU of the Virtual System.<br/>Only relevant for Virtual Systems in bridge mode.<br/>Do not use for other virtual devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#vs_mtu ManagementVsxProvisioningTool#vs_mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#vs_mtu ManagementVsxProvisioningTool#vs_mtu}
   */
   readonly vsMtu?: number;
 }
@@ -5789,7 +5789,7 @@ export class ManagementVsxProvisioningToolSetVdParamsOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool checkpoint_management_vsx_provisioning_tool}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool checkpoint_management_vsx_provisioning_tool}
 */
 export class ManagementVsxProvisioningTool extends cdktf.TerraformResource {
 
@@ -5805,7 +5805,7 @@ export class ManagementVsxProvisioningTool extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementVsxProvisioningTool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementVsxProvisioningTool to import
-  * @param importFromId The id of the existing ManagementVsxProvisioningTool that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementVsxProvisioningTool that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementVsxProvisioningTool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5817,7 +5817,7 @@ export class ManagementVsxProvisioningTool extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vsx_provisioning_tool checkpoint_management_vsx_provisioning_tool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vsx_provisioning_tool checkpoint_management_vsx_provisioning_tool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5828,7 +5828,8 @@ export class ManagementVsxProvisioningTool extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_vsx_provisioning_tool',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

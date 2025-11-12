@@ -402,7 +402,8 @@ export class DataBetteruptimePolicy extends cdktf.TerraformDataSource {
       terraformResourceType: 'betteruptime_policy',
       terraformGeneratorMetadata: {
         providerName: 'better-uptime',
-        providerVersion: '0.20.4'
+        providerVersion: '0.20.4',
+        providerVersionConstraint: '0.20.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

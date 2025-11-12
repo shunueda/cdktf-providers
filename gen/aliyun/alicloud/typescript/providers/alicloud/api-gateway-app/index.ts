@@ -68,7 +68,8 @@ export class ApiGatewayApp extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_api_gateway_app',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

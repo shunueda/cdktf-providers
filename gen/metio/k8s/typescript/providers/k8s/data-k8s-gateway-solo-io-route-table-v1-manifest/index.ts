@@ -64,7 +64,8 @@ export class DataK8SGatewaySoloIoRouteTableV1Manifest extends cdktf.TerraformDat
       terraformResourceType: 'k8s_gateway_solo_io_route_table_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -233,7 +233,8 @@ export class ConversationsMessagingIntegrationsWhatsapp extends cdktf.TerraformR
       terraformResourceType: 'genesyscloud_conversations_messaging_integrations_whatsapp',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.70.0'
+        providerVersion: '1.70.0',
+        providerVersionConstraint: '1.70.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -148,7 +148,8 @@ export class DataOvhDbaasLogsOutputGraylogStreamUrl extends cdktf.TerraformDataS
       terraformResourceType: 'ovh_dbaas_logs_output_graylog_stream_url',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0'
+        providerVersion: '2.9.0',
+        providerVersionConstraint: '2.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

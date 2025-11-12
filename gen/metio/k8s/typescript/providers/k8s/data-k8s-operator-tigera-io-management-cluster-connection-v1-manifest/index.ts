@@ -1767,7 +1767,8 @@ export class DataK8SOperatorTigeraIoManagementClusterConnectionV1Manifest extend
       terraformResourceType: 'k8s_operator_tigera_io_management_cluster_connection_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

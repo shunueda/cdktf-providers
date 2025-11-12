@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/traffic_steering_rule
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/traffic_steering_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataScmTrafficSteeringRuleConfig extends cdktf.TerraformMetaArg
   /**
   * The UUID of the traffic steering rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/traffic_steering_rule#id DataScmTrafficSteeringRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/traffic_steering_rule#id DataScmTrafficSteeringRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,9 +19,112 @@ export interface DataScmTrafficSteeringRuleConfig extends cdktf.TerraformMetaArg
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/traffic_steering_rule#name DataScmTrafficSteeringRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/traffic_steering_rule#name DataScmTrafficSteeringRule#name}
   */
   readonly name?: string;
+}
+export interface DataScmTrafficSteeringRuleActionForwardForward {
+}
+
+export function dataScmTrafficSteeringRuleActionForwardForwardToTerraform(struct?: DataScmTrafficSteeringRuleActionForwardForward): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataScmTrafficSteeringRuleActionForwardForwardToHclTerraform(struct?: DataScmTrafficSteeringRuleActionForwardForward): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataScmTrafficSteeringRuleActionForwardForwardOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataScmTrafficSteeringRuleActionForwardForward | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataScmTrafficSteeringRuleActionForwardForward | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // target - computed: true, optional: false, required: false
+  public get target() {
+    return this.getStringAttribute('target');
+  }
+}
+export interface DataScmTrafficSteeringRuleActionForwardNoPbf {
+}
+
+export function dataScmTrafficSteeringRuleActionForwardNoPbfToTerraform(struct?: DataScmTrafficSteeringRuleActionForwardNoPbf): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataScmTrafficSteeringRuleActionForwardNoPbfToHclTerraform(struct?: DataScmTrafficSteeringRuleActionForwardNoPbf): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataScmTrafficSteeringRuleActionForwardNoPbfOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataScmTrafficSteeringRuleActionForwardNoPbf | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataScmTrafficSteeringRuleActionForwardNoPbf | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
 }
 export interface DataScmTrafficSteeringRuleActionForward {
 }
@@ -72,9 +175,16 @@ export class DataScmTrafficSteeringRuleActionForwardOutputReference extends cdkt
     }
   }
 
-  // target - computed: true, optional: false, required: false
-  public get target() {
-    return this.getStringAttribute('target');
+  // forward - computed: true, optional: false, required: false
+  private _forward = new DataScmTrafficSteeringRuleActionForwardForwardOutputReference(this, "forward");
+  public get forward() {
+    return this._forward;
+  }
+
+  // no_pbf - computed: true, optional: false, required: false
+  private _noPbf = new DataScmTrafficSteeringRuleActionForwardNoPbfOutputReference(this, "no_pbf");
+  public get noPbf() {
+    return this._noPbf;
   }
 }
 export interface DataScmTrafficSteeringRuleAction {
@@ -131,15 +241,10 @@ export class DataScmTrafficSteeringRuleActionOutputReference extends cdktf.Compl
   public get forward() {
     return this._forward;
   }
-
-  // no_pbf - computed: true, optional: false, required: false
-  public get noPbf() {
-    return this.getStringAttribute('no_pbf');
-  }
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/traffic_steering_rule scm_traffic_steering_rule}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/traffic_steering_rule scm_traffic_steering_rule}
 */
 export class DataScmTrafficSteeringRule extends cdktf.TerraformDataSource {
 
@@ -155,7 +260,7 @@ export class DataScmTrafficSteeringRule extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataScmTrafficSteeringRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataScmTrafficSteeringRule to import
-  * @param importFromId The id of the existing DataScmTrafficSteeringRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/traffic_steering_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataScmTrafficSteeringRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/traffic_steering_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataScmTrafficSteeringRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -167,7 +272,7 @@ export class DataScmTrafficSteeringRule extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/traffic_steering_rule scm_traffic_steering_rule} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/traffic_steering_rule scm_traffic_steering_rule} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -178,7 +283,8 @@ export class DataScmTrafficSteeringRule extends cdktf.TerraformDataSource {
       terraformResourceType: 'scm_traffic_steering_rule',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.3'
+        providerVersion: '1.0.4',
+        providerVersionConstraint: '1.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

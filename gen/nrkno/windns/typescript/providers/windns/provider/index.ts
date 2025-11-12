@@ -79,7 +79,8 @@ export class WindnsProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'windns',
       terraformGeneratorMetadata: {
         providerName: 'windns',
-        providerVersion: '1.0.5'
+        providerVersion: '1.0.5',
+        providerVersionConstraint: '1.0.5'
       },
       terraformProviderSource: 'nrkno/windns'
     });

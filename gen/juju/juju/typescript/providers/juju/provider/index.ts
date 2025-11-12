@@ -97,7 +97,8 @@ export class JujuProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'juju',
       terraformGeneratorMetadata: {
         providerName: 'juju',
-        providerVersion: '1.0.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       terraformProviderSource: 'juju/juju'
     });

@@ -95,7 +95,8 @@ export class BgpAdvertisedPrefix extends cdktf.TerraformResource {
       terraformResourceType: 'nxos_bgp_advertised_prefix',
       terraformGeneratorMetadata: {
         providerName: 'nxos',
-        providerVersion: '0.5.10'
+        providerVersion: '0.5.10',
+        providerVersionConstraint: '0.5.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

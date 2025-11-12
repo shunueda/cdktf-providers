@@ -1085,7 +1085,8 @@ export class AomServiceDiscoveryRule extends cdktf.TerraformResource {
       terraformResourceType: 'flexibleengine_aom_service_discovery_rule',
       terraformGeneratorMetadata: {
         providerName: 'flexibleengine',
-        providerVersion: '1.46.0'
+        providerVersion: '1.46.0',
+        providerVersionConstraint: '1.46.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

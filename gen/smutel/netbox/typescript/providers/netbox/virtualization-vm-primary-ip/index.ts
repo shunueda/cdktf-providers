@@ -74,7 +74,8 @@ export class VirtualizationVmPrimaryIp extends cdktf.TerraformResource {
       terraformResourceType: 'netbox_virtualization_vm_primary_ip',
       terraformGeneratorMetadata: {
         providerName: 'netbox',
-        providerVersion: '8.0.2'
+        providerVersion: '8.0.2',
+        providerVersionConstraint: '8.0.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

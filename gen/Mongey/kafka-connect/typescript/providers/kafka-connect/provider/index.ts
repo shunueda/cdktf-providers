@@ -87,7 +87,8 @@ export class KafkaConnectProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'kafka-connect',
       terraformGeneratorMetadata: {
         providerName: 'kafka-connect',
-        providerVersion: '0.4.3'
+        providerVersion: '0.4.3',
+        providerVersionConstraint: '0.4.3'
       },
       terraformProviderSource: 'Mongey/kafka-connect'
     });

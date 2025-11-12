@@ -74,7 +74,8 @@ export class DasbBindDeviceResource extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_dasb_bind_device_resource',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

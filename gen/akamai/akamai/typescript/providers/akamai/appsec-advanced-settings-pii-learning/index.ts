@@ -68,7 +68,8 @@ export class AppsecAdvancedSettingsPiiLearning extends cdktf.TerraformResource {
       terraformResourceType: 'akamai_appsec_advanced_settings_pii_learning',
       terraformGeneratorMetadata: {
         providerName: 'akamai',
-        providerVersion: '9.1.0'
+        providerVersion: '9.1.0',
+        providerVersionConstraint: '9.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

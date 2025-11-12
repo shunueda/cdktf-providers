@@ -308,7 +308,8 @@ export class DataCloudsmithRepositoryPrivileges extends cdktf.TerraformDataSourc
       terraformResourceType: 'cloudsmith_repository_privileges',
       terraformGeneratorMetadata: {
         providerName: 'cloudsmith',
-        providerVersion: '0.0.66'
+        providerVersion: '0.0.66',
+        providerVersionConstraint: '0.0.66'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

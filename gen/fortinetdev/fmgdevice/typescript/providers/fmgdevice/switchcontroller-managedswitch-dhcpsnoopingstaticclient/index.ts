@@ -88,7 +88,8 @@ export class SwitchcontrollerManagedswitchDhcpsnoopingstaticclient extends cdktf
       terraformResourceType: 'fmgdevice_switchcontroller_managedswitch_dhcpsnoopingstaticclient',
       terraformGeneratorMetadata: {
         providerName: 'fmgdevice',
-        providerVersion: '1.2.1'
+        providerVersion: '1.2.1',
+        providerVersionConstraint: '1.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

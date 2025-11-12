@@ -891,7 +891,8 @@ export class DataK8SNfdKubernetesIoNodeFeatureDiscoveryV1Manifest extends cdktf.
       terraformResourceType: 'k8s_nfd_kubernetes_io_node_feature_discovery_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -76,7 +76,8 @@ export class EnvironmentKvm extends cdktf.TerraformResource {
       terraformResourceType: 'apigee_environment_kvm',
       terraformGeneratorMetadata: {
         providerName: 'apigee',
-        providerVersion: '0.1.53'
+        providerVersion: '0.1.53',
+        providerVersionConstraint: '0.1.53'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

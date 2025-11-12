@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/ecs_compute_volume_attach
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_volume_attach
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,42 +8,42 @@ import * as cdktf from 'cdktf';
 
 export interface EcsComputeVolumeAttachConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/ecs_compute_volume_attach#device EcsComputeVolumeAttach#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_volume_attach#device EcsComputeVolumeAttach#device}
   */
   readonly device?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/ecs_compute_volume_attach#id EcsComputeVolumeAttach#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_volume_attach#id EcsComputeVolumeAttach#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/ecs_compute_volume_attach#instance_id EcsComputeVolumeAttach#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_volume_attach#instance_id EcsComputeVolumeAttach#instance_id}
   */
   readonly instanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/ecs_compute_volume_attach#region EcsComputeVolumeAttach#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_volume_attach#region EcsComputeVolumeAttach#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/ecs_compute_volume_attach#volume_id EcsComputeVolumeAttach#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_volume_attach#volume_id EcsComputeVolumeAttach#volume_id}
   */
   readonly volumeId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/ecs_compute_volume_attach#timeouts EcsComputeVolumeAttach#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_volume_attach#timeouts EcsComputeVolumeAttach#timeouts}
   */
   readonly timeouts?: EcsComputeVolumeAttachTimeouts;
 }
 export interface EcsComputeVolumeAttachTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/ecs_compute_volume_attach#create EcsComputeVolumeAttach#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_volume_attach#create EcsComputeVolumeAttach#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/ecs_compute_volume_attach#delete EcsComputeVolumeAttach#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_volume_attach#delete EcsComputeVolumeAttach#delete}
   */
   readonly delete?: string;
 }
@@ -166,7 +166,7 @@ export class EcsComputeVolumeAttachTimeoutsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/ecs_compute_volume_attach hcs_ecs_compute_volume_attach}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_volume_attach hcs_ecs_compute_volume_attach}
 */
 export class EcsComputeVolumeAttach extends cdktf.TerraformResource {
 
@@ -182,7 +182,7 @@ export class EcsComputeVolumeAttach extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EcsComputeVolumeAttach resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EcsComputeVolumeAttach to import
-  * @param importFromId The id of the existing EcsComputeVolumeAttach that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/ecs_compute_volume_attach#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EcsComputeVolumeAttach that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_volume_attach#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EcsComputeVolumeAttach to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -194,7 +194,7 @@ export class EcsComputeVolumeAttach extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/ecs_compute_volume_attach hcs_ecs_compute_volume_attach} Resource
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_volume_attach hcs_ecs_compute_volume_attach} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -205,7 +205,8 @@ export class EcsComputeVolumeAttach extends cdktf.TerraformResource {
       terraformResourceType: 'hcs_ecs_compute_volume_attach',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.19'
+        providerVersion: '2.4.20',
+        providerVersionConstraint: '2.4.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -55,7 +55,8 @@ export class Dashboard extends cdktf.TerraformResource {
       terraformResourceType: 'kestra_dashboard',
       terraformGeneratorMetadata: {
         providerName: 'kestra',
-        providerVersion: '1.0.2'
+        providerVersion: '1.0.2',
+        providerVersionConstraint: '1.0.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

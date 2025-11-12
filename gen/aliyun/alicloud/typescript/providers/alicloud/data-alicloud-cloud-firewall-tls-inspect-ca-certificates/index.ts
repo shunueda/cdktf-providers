@@ -156,7 +156,8 @@ export class DataAlicloudCloudFirewallTlsInspectCaCertificates extends cdktf.Ter
       terraformResourceType: 'alicloud_cloud_firewall_tls_inspect_ca_certificates',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

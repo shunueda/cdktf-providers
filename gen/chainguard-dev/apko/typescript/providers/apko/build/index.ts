@@ -3011,7 +3011,8 @@ export class Build extends cdktf.TerraformResource {
       terraformResourceType: 'apko_build',
       terraformGeneratorMetadata: {
         providerName: 'apko',
-        providerVersion: '0.30.20'
+        providerVersion: '0.30.20',
+        providerVersionConstraint: '0.30.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

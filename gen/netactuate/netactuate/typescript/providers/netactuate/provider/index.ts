@@ -63,7 +63,8 @@ export class NetactuateProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'netactuate',
       terraformGeneratorMetadata: {
         providerName: 'netactuate',
-        providerVersion: '0.2.4'
+        providerVersion: '0.2.4',
+        providerVersionConstraint: '0.2.4'
       },
       terraformProviderSource: 'netactuate/netactuate'
     });

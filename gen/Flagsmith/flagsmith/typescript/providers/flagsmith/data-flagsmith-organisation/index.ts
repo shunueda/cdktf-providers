@@ -55,7 +55,8 @@ export class DataFlagsmithOrganisation extends cdktf.TerraformDataSource {
       terraformResourceType: 'flagsmith_organisation',
       terraformGeneratorMetadata: {
         providerName: 'flagsmith',
-        providerVersion: '0.9.1'
+        providerVersion: '0.9.1',
+        providerVersionConstraint: '0.9.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

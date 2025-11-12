@@ -85,7 +85,8 @@ export class ClickhouseProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'clickhouse',
       terraformGeneratorMetadata: {
         providerName: 'clickhouse',
-        providerVersion: '3.5.4'
+        providerVersion: '3.5.4',
+        providerVersionConstraint: '3.5.4'
       },
       terraformProviderSource: 'ClickHouse/clickhouse'
     });

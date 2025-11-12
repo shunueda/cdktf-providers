@@ -714,7 +714,8 @@ export class SecurityRule extends cdktf.TerraformResource {
       terraformResourceType: 'cloudngfwaws_security_rule',
       terraformGeneratorMetadata: {
         providerName: 'cloudngfwaws',
-        providerVersion: '3.0.4'
+        providerVersion: '3.0.4',
+        providerVersionConstraint: '3.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

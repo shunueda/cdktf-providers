@@ -1178,7 +1178,8 @@ export class DataK8SK8SOtterizeComClientIntentsV1Alpha2Manifest extends cdktf.Te
       terraformResourceType: 'k8s_k8s_otterize_com_client_intents_v1alpha2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

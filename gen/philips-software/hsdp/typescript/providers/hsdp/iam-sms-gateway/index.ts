@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_sms_gateway
+// https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_sms_gateway
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface IamSmsGatewayConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_sms_gateway#activation_expiry IamSmsGateway#activation_expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_sms_gateway#activation_expiry IamSmsGateway#activation_expiry}
   */
   readonly activationExpiry?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_sms_gateway#gateway_provider IamSmsGateway#gateway_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_sms_gateway#gateway_provider IamSmsGateway#gateway_provider}
   */
   readonly gatewayProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_sms_gateway#id IamSmsGateway#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_sms_gateway#id IamSmsGateway#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_sms_gateway#organization_id IamSmsGateway#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_sms_gateway#organization_id IamSmsGateway#organization_id}
   */
   readonly organizationId: string;
   /**
   * credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_sms_gateway#credentials IamSmsGateway#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_sms_gateway#credentials IamSmsGateway#credentials}
   */
   readonly credentials: IamSmsGatewayCredentials;
   /**
   * properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_sms_gateway#properties IamSmsGateway#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_sms_gateway#properties IamSmsGateway#properties}
   */
   readonly properties: IamSmsGatewayProperties;
 }
 export interface IamSmsGatewayCredentials {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_sms_gateway#token IamSmsGateway#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_sms_gateway#token IamSmsGateway#token}
   */
   readonly token: string;
 }
@@ -122,15 +122,15 @@ export class IamSmsGatewayCredentialsOutputReference extends cdktf.ComplexObject
 }
 export interface IamSmsGatewayProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_sms_gateway#endpoint IamSmsGateway#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_sms_gateway#endpoint IamSmsGateway#endpoint}
   */
   readonly endpoint: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_sms_gateway#from_number IamSmsGateway#from_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_sms_gateway#from_number IamSmsGateway#from_number}
   */
   readonly fromNumber: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_sms_gateway#sid IamSmsGateway#sid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_sms_gateway#sid IamSmsGateway#sid}
   */
   readonly sid: string;
 }
@@ -263,7 +263,7 @@ export class IamSmsGatewayPropertiesOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_sms_gateway hsdp_iam_sms_gateway}
+* Represents a {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_sms_gateway hsdp_iam_sms_gateway}
 */
 export class IamSmsGateway extends cdktf.TerraformResource {
 
@@ -279,7 +279,7 @@ export class IamSmsGateway extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IamSmsGateway resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IamSmsGateway to import
-  * @param importFromId The id of the existing IamSmsGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_sms_gateway#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IamSmsGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_sms_gateway#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IamSmsGateway to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -291,7 +291,7 @@ export class IamSmsGateway extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_sms_gateway hsdp_iam_sms_gateway} Resource
+  * Create a new {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_sms_gateway hsdp_iam_sms_gateway} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -302,7 +302,8 @@ export class IamSmsGateway extends cdktf.TerraformResource {
       terraformResourceType: 'hsdp_iam_sms_gateway',
       terraformGeneratorMetadata: {
         providerName: 'hsdp',
-        providerVersion: '0.70.0'
+        providerVersion: '0.71.0',
+        providerVersionConstraint: '0.71.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

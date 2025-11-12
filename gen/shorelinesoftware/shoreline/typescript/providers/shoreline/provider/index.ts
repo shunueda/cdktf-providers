@@ -85,7 +85,8 @@ export class ShorelineProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'shoreline',
       terraformGeneratorMetadata: {
         providerName: 'shoreline',
-        providerVersion: '1.15.38'
+        providerVersion: '1.15.38',
+        providerVersionConstraint: '1.15.38'
       },
       terraformProviderSource: 'shorelinesoftware/shoreline'
     });

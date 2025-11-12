@@ -79,7 +79,8 @@ export class Family extends cdktf.TerraformResource {
       terraformResourceType: 'fugue_family',
       terraformGeneratorMetadata: {
         providerName: 'fugue',
-        providerVersion: '0.0.11'
+        providerVersion: '0.0.11',
+        providerVersionConstraint: '0.0.11'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -136,7 +136,8 @@ export class AviatrixProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'aviatrix',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10'
+        providerVersion: '8.1.10',
+        providerVersionConstraint: '8.1.10'
       },
       terraformProviderSource: 'AviatrixSystems/aviatrix'
     });

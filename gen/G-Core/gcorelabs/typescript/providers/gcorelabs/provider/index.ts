@@ -129,7 +129,8 @@ export class GcorelabsProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'gcorelabs',
       terraformGeneratorMetadata: {
         providerName: 'gcorelabs',
-        providerVersion: '0.3.63'
+        providerVersion: '0.3.63',
+        providerVersionConstraint: '0.3.63'
       },
       terraformProviderSource: 'G-Core/gcorelabs'
     });

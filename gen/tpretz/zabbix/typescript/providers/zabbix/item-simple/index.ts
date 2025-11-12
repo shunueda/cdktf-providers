@@ -493,7 +493,8 @@ export class ItemSimple extends cdktf.TerraformResource {
       terraformResourceType: 'zabbix_item_simple',
       terraformGeneratorMetadata: {
         providerName: 'zabbix',
-        providerVersion: '0.17.0'
+        providerVersion: '0.17.0',
+        providerVersionConstraint: '0.17.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

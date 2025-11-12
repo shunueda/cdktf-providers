@@ -73,7 +73,8 @@ export class DataNxosRouteMapRuleEntrySetRegularCommunityItem extends cdktf.Terr
       terraformResourceType: 'nxos_route_map_rule_entry_set_regular_community_item',
       terraformGeneratorMetadata: {
         providerName: 'nxos',
-        providerVersion: '0.5.10'
+        providerVersion: '0.5.10',
+        providerVersionConstraint: '0.5.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

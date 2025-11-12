@@ -55,7 +55,8 @@ export class Group extends cdktf.TerraformResource {
       terraformResourceType: 'confluence_group',
       terraformGeneratorMetadata: {
         providerName: 'confluence',
-        providerVersion: '0.2.16'
+        providerVersion: '0.2.16',
+        providerVersionConstraint: '0.2.16'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

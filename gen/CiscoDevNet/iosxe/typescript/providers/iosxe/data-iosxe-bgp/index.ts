@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/data-sources/bgp
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/data-sources/bgp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,19 +8,19 @@ import * as cdktf from 'cdktf';
 
 export interface DataIosxeBgpConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/data-sources/bgp#asn DataIosxeBgp#asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/data-sources/bgp#asn DataIosxeBgp#asn}
   */
   readonly asn: string;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/data-sources/bgp#device DataIosxeBgp#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/data-sources/bgp#device DataIosxeBgp#device}
   */
   readonly device?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/data-sources/bgp iosxe_bgp}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/data-sources/bgp iosxe_bgp}
 */
 export class DataIosxeBgp extends cdktf.TerraformDataSource {
 
@@ -36,7 +36,7 @@ export class DataIosxeBgp extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIosxeBgp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIosxeBgp to import
-  * @param importFromId The id of the existing DataIosxeBgp that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/data-sources/bgp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIosxeBgp that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/data-sources/bgp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIosxeBgp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -48,7 +48,7 @@ export class DataIosxeBgp extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/data-sources/bgp iosxe_bgp} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/data-sources/bgp iosxe_bgp} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -59,7 +59,8 @@ export class DataIosxeBgp extends cdktf.TerraformDataSource {
       terraformResourceType: 'iosxe_bgp',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.9.3'
+        providerVersion: '0.10.0',
+        providerVersionConstraint: '0.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -88,6 +89,16 @@ export class DataIosxeBgp extends cdktf.TerraformDataSource {
   // Temporarily expose input value. Use with caution.
   public get asnInput() {
     return this._asn;
+  }
+
+  // bgp_graceful_restart - computed: true, optional: false, required: false
+  public get bgpGracefulRestart() {
+    return this.getBooleanAttribute('bgp_graceful_restart');
+  }
+
+  // bgp_update_delay - computed: true, optional: false, required: false
+  public get bgpUpdateDelay() {
+    return this.getNumberAttribute('bgp_update_delay');
   }
 
   // default_ipv4_unicast - computed: true, optional: false, required: false
@@ -119,6 +130,11 @@ export class DataIosxeBgp extends cdktf.TerraformDataSource {
   // log_neighbor_changes - computed: true, optional: false, required: false
   public get logNeighborChanges() {
     return this.getBooleanAttribute('log_neighbor_changes');
+  }
+
+  // router_id_ip - computed: true, optional: false, required: false
+  public get routerIdIp() {
+    return this.getStringAttribute('router_id_ip');
   }
 
   // router_id_loopback - computed: true, optional: false, required: false

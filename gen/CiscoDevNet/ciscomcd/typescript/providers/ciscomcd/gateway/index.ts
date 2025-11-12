@@ -1104,7 +1104,8 @@ export class Gateway extends cdktf.TerraformResource {
       terraformResourceType: 'ciscomcd_gateway',
       terraformGeneratorMetadata: {
         providerName: 'ciscomcd',
-        providerVersion: '25.9.2'
+        providerVersion: '25.9.2',
+        providerVersionConstraint: '25.9.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

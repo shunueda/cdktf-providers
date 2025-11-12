@@ -585,7 +585,8 @@ export class DataK8SNetworkingK8SIoIngressClassV1Manifest extends cdktf.Terrafor
       terraformResourceType: 'k8s_networking_k8s_io_ingress_class_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

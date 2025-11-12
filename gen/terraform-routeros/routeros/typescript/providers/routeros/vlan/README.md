@@ -1,3 +1,3 @@
 # `routeros_vlan`
 
-Refer to the Terraform Registry for docs: [`routeros_vlan`](https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/vlan).
+Refer to the Terraform Registry for docs: [`routeros_vlan`](https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/vlan).

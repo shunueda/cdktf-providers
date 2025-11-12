@@ -55,7 +55,8 @@ export class DataFreeipaSudoRule extends cdktf.TerraformDataSource {
       terraformResourceType: 'freeipa_sudo_rule',
       terraformGeneratorMetadata: {
         providerName: 'freeipa',
-        providerVersion: '5.1.3'
+        providerVersion: '5.1.3',
+        providerVersionConstraint: '5.1.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

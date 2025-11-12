@@ -3092,7 +3092,8 @@ export class VpnInterfaceMultilinkFeatureTemplate extends cdktf.TerraformResourc
       terraformResourceType: 'sdwan_vpn_interface_multilink_feature_template',
       terraformGeneratorMetadata: {
         providerName: 'sdwan',
-        providerVersion: '0.8.1'
+        providerVersion: '0.8.1',
+        providerVersionConstraint: '0.8.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

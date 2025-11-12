@@ -5196,7 +5196,8 @@ export class FirewallAccessproxy6 extends cdktf.TerraformResource {
       terraformResourceType: 'fortios_firewall_accessproxy6',
       terraformGeneratorMetadata: {
         providerName: 'fortios',
-        providerVersion: '1.23.0'
+        providerVersion: '1.23.0',
+        providerVersionConstraint: '1.23.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

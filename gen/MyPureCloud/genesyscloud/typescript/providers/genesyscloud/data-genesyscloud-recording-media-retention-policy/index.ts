@@ -62,7 +62,8 @@ export class DataGenesyscloudRecordingMediaRetentionPolicy extends cdktf.Terrafo
       terraformResourceType: 'genesyscloud_recording_media_retention_policy',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.70.0'
+        providerVersion: '1.70.0',
+        providerVersionConstraint: '1.70.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

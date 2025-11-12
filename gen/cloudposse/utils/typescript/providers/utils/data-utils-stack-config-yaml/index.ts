@@ -86,7 +86,8 @@ export class DataUtilsStackConfigYaml extends cdktf.TerraformDataSource {
       terraformResourceType: 'utils_stack_config_yaml',
       terraformGeneratorMetadata: {
         providerName: 'utils',
-        providerVersion: '1.31.0'
+        providerVersion: '1.31.0',
+        providerVersionConstraint: '1.31.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

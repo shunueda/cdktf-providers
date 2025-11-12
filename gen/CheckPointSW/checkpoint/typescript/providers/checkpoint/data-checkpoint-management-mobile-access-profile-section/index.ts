@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_mobile_access_profile_section
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_mobile_access_profile_section
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataCheckpointManagementMobileAccessProfileSectionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_mobile_access_profile_section#id DataCheckpointManagementMobileAccessProfileSection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_mobile_access_profile_section#id DataCheckpointManagementMobileAccessProfileSection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface DataCheckpointManagementMobileAccessProfileSectionConfig extend
   /**
   * Object name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_mobile_access_profile_section#name DataCheckpointManagementMobileAccessProfileSection#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_mobile_access_profile_section#name DataCheckpointManagementMobileAccessProfileSection#name}
   */
   readonly name?: string;
   /**
   * Object unique identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_mobile_access_profile_section#uid DataCheckpointManagementMobileAccessProfileSection#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_mobile_access_profile_section#uid DataCheckpointManagementMobileAccessProfileSection#uid}
   */
   readonly uid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_mobile_access_profile_section checkpoint_management_mobile_access_profile_section}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_mobile_access_profile_section checkpoint_management_mobile_access_profile_section}
 */
 export class DataCheckpointManagementMobileAccessProfileSection extends cdktf.TerraformDataSource {
 
@@ -45,7 +45,7 @@ export class DataCheckpointManagementMobileAccessProfileSection extends cdktf.Te
   * Generates CDKTF code for importing a DataCheckpointManagementMobileAccessProfileSection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCheckpointManagementMobileAccessProfileSection to import
-  * @param importFromId The id of the existing DataCheckpointManagementMobileAccessProfileSection that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_mobile_access_profile_section#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCheckpointManagementMobileAccessProfileSection that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_mobile_access_profile_section#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCheckpointManagementMobileAccessProfileSection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class DataCheckpointManagementMobileAccessProfileSection extends cdktf.Te
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_mobile_access_profile_section checkpoint_management_mobile_access_profile_section} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_mobile_access_profile_section checkpoint_management_mobile_access_profile_section} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,7 +68,8 @@ export class DataCheckpointManagementMobileAccessProfileSection extends cdktf.Te
       terraformResourceType: 'checkpoint_management_mobile_access_profile_section',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

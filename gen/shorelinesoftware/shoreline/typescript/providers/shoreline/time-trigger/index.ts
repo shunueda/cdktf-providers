@@ -86,7 +86,8 @@ export class TimeTrigger extends cdktf.TerraformResource {
       terraformResourceType: 'shoreline_time_trigger',
       terraformGeneratorMetadata: {
         providerName: 'shoreline',
-        providerVersion: '1.15.38'
+        providerVersion: '1.15.38',
+        providerVersionConstraint: '1.15.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

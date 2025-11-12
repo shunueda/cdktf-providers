@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_configlets
+// https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_configlets
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataApstraDatacenterConfigletsConfig extends cdktf.TerraformMet
   /**
   * Apstra Blueprint ID. Used to identify the Blueprint that the Configlet belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_configlets#blueprint_id DataApstraDatacenterConfiglets#blueprint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_configlets#blueprint_id DataApstraDatacenterConfiglets#blueprint_id}
   */
   readonly blueprintId: string;
   /**
   * Configlets which do not support each of the specified platforms will be filtered out of the results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_configlets#supported_platforms DataApstraDatacenterConfiglets#supported_platforms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_configlets#supported_platforms DataApstraDatacenterConfiglets#supported_platforms}
   */
   readonly supportedPlatforms?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_configlets apstra_datacenter_configlets}
+* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_configlets apstra_datacenter_configlets}
 */
 export class DataApstraDatacenterConfiglets extends cdktf.TerraformDataSource {
 
@@ -38,7 +38,7 @@ export class DataApstraDatacenterConfiglets extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataApstraDatacenterConfiglets resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataApstraDatacenterConfiglets to import
-  * @param importFromId The id of the existing DataApstraDatacenterConfiglets that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_configlets#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataApstraDatacenterConfiglets that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_configlets#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataApstraDatacenterConfiglets to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class DataApstraDatacenterConfiglets extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_configlets apstra_datacenter_configlets} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_configlets apstra_datacenter_configlets} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,7 +61,8 @@ export class DataApstraDatacenterConfiglets extends cdktf.TerraformDataSource {
       terraformResourceType: 'apstra_datacenter_configlets',
       terraformGeneratorMetadata: {
         providerName: 'apstra',
-        providerVersion: '0.95.0'
+        providerVersion: '0.95.1',
+        providerVersionConstraint: '0.95.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

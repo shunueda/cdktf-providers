@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/policypatset_pattern_binding
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/policypatset_pattern_binding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface PolicypatsetPatternBindingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/policypatset_pattern_binding#charset PolicypatsetPatternBinding#charset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/policypatset_pattern_binding#charset PolicypatsetPatternBinding#charset}
   */
   readonly charset?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/policypatset_pattern_binding#comment PolicypatsetPatternBinding#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/policypatset_pattern_binding#comment PolicypatsetPatternBinding#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/policypatset_pattern_binding#feature PolicypatsetPatternBinding#feature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/policypatset_pattern_binding#feature PolicypatsetPatternBinding#feature}
   */
   readonly feature?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/policypatset_pattern_binding#id PolicypatsetPatternBinding#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/policypatset_pattern_binding#id PolicypatsetPatternBinding#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/policypatset_pattern_binding#index PolicypatsetPatternBinding#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/policypatset_pattern_binding#index PolicypatsetPatternBinding#index}
   */
   readonly index?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/policypatset_pattern_binding#name PolicypatsetPatternBinding#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/policypatset_pattern_binding#name PolicypatsetPatternBinding#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/policypatset_pattern_binding#string PolicypatsetPatternBinding#string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/policypatset_pattern_binding#string PolicypatsetPatternBinding#string}
   */
   readonly string: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/policypatset_pattern_binding citrixadc_policypatset_pattern_binding}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/policypatset_pattern_binding citrixadc_policypatset_pattern_binding}
 */
 export class PolicypatsetPatternBinding extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class PolicypatsetPatternBinding extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicypatsetPatternBinding resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicypatsetPatternBinding to import
-  * @param importFromId The id of the existing PolicypatsetPatternBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/policypatset_pattern_binding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicypatsetPatternBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/policypatset_pattern_binding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicypatsetPatternBinding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class PolicypatsetPatternBinding extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/policypatset_pattern_binding citrixadc_policypatset_pattern_binding} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/policypatset_pattern_binding citrixadc_policypatset_pattern_binding} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,7 +80,8 @@ export class PolicypatsetPatternBinding extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_policypatset_pattern_binding',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

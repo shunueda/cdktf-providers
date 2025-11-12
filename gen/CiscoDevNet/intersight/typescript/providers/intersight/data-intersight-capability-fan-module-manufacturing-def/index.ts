@@ -3721,7 +3721,8 @@ export class DataIntersightCapabilityFanModuleManufacturingDef extends cdktf.Ter
       terraformResourceType: 'intersight_capability_fan_module_manufacturing_def',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

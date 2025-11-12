@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/blueprint_iba_probe
+// https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/blueprint_iba_probe
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface BlueprintIbaProbeConfig extends cdktf.TerraformMetaArguments {
   /**
   * Apstra Blueprint ID. Used to identify the Blueprint that the IBA Probe belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/blueprint_iba_probe#blueprint_id BlueprintIbaProbe#blueprint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/blueprint_iba_probe#blueprint_id BlueprintIbaProbe#blueprint_id}
   */
   readonly blueprintId: string;
   /**
   * Id of predefined IBA Probe
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/blueprint_iba_probe#predefined_probe_id BlueprintIbaProbe#predefined_probe_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/blueprint_iba_probe#predefined_probe_id BlueprintIbaProbe#predefined_probe_id}
   */
   readonly predefinedProbeId?: string;
   /**
   * Configuration elements for the IBA Probe
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/blueprint_iba_probe#probe_config BlueprintIbaProbe#probe_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/blueprint_iba_probe#probe_config BlueprintIbaProbe#probe_config}
   */
   readonly probeConfig?: string;
   /**
   * Define the probe as json. If this is present, there can be no predefined probe.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/blueprint_iba_probe#probe_json BlueprintIbaProbe#probe_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/blueprint_iba_probe#probe_json BlueprintIbaProbe#probe_json}
   */
   readonly probeJson?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/blueprint_iba_probe apstra_blueprint_iba_probe}
+* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/blueprint_iba_probe apstra_blueprint_iba_probe}
 */
 export class BlueprintIbaProbe extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class BlueprintIbaProbe extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BlueprintIbaProbe resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BlueprintIbaProbe to import
-  * @param importFromId The id of the existing BlueprintIbaProbe that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/blueprint_iba_probe#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BlueprintIbaProbe that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/blueprint_iba_probe#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BlueprintIbaProbe to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class BlueprintIbaProbe extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/blueprint_iba_probe apstra_blueprint_iba_probe} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/blueprint_iba_probe apstra_blueprint_iba_probe} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,7 +73,8 @@ export class BlueprintIbaProbe extends cdktf.TerraformResource {
       terraformResourceType: 'apstra_blueprint_iba_probe',
       terraformGeneratorMetadata: {
         providerName: 'apstra',
-        providerVersion: '0.95.0'
+        providerVersion: '0.95.1',
+        providerVersionConstraint: '0.95.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

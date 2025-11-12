@@ -384,7 +384,8 @@ export class DataPowermaxSnapshotpolicy extends cdktf.TerraformDataSource {
       terraformResourceType: 'powermax_snapshotpolicy',
       terraformGeneratorMetadata: {
         providerName: 'powermax',
-        providerVersion: '1.0.3'
+        providerVersion: '1.0.3',
+        providerVersionConstraint: '1.0.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

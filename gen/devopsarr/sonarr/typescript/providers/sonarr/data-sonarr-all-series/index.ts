@@ -174,7 +174,8 @@ export class DataSonarrAllSeries extends cdktf.TerraformDataSource {
       terraformResourceType: 'sonarr_all_series',
       terraformGeneratorMetadata: {
         providerName: 'sonarr',
-        providerVersion: '3.4.0'
+        providerVersion: '3.4.0',
+        providerVersionConstraint: '3.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

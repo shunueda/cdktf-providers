@@ -253,7 +253,8 @@ export class DataTencentcloudGaapProxies extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_gaap_proxies',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -6,9 +6,7 @@ Object.defineProperty(exports, 'ignition', { get: function () { return require('
 Object.defineProperty(exports, 'network', { get: function () { return require('./network'); } });
 Object.defineProperty(exports, 'pool', { get: function () { return require('./pool'); } });
 Object.defineProperty(exports, 'volume', { get: function () { return require('./volume'); } });
-Object.defineProperty(exports, 'dataLibvirtNetworkDnsHostTemplate', { get: function () { return require('./data-libvirt-network-dns-host-template'); } });
-Object.defineProperty(exports, 'dataLibvirtNetworkDnsSrvTemplate', { get: function () { return require('./data-libvirt-network-dns-srv-template'); } });
-Object.defineProperty(exports, 'dataLibvirtNetworkDnsmasqOptionsTemplate', { get: function () { return require('./data-libvirt-network-dnsmasq-options-template'); } });
+Object.defineProperty(exports, 'dataLibvirtDomainInterfaceAddresses', { get: function () { return require('./data-libvirt-domain-interface-addresses'); } });
 Object.defineProperty(exports, 'dataLibvirtNodeDeviceInfo', { get: function () { return require('./data-libvirt-node-device-info'); } });
 Object.defineProperty(exports, 'dataLibvirtNodeDevices', { get: function () { return require('./data-libvirt-node-devices'); } });
 Object.defineProperty(exports, 'dataLibvirtNodeInfo', { get: function () { return require('./data-libvirt-node-info'); } });

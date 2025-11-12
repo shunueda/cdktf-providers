@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/api_key
+// https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/api_key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ApiKeyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/api_key#id ApiKey#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/api_key#id ApiKey#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface ApiKeyConfig extends cdktf.TerraformMetaArguments {
   /**
   * the api key name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/api_key#name ApiKey#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/api_key#name ApiKey#name}
   */
   readonly name: string;
   /**
   * if set to 'true' will omit the api_key_secret from the state. This would mean that the api_key_secret cannot be used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/api_key#omit_api_key_secret ApiKey#omit_api_key_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/api_key#omit_api_key_secret ApiKey#omit_api_key_secret}
   */
   readonly omitApiKeySecret?: boolean | cdktf.IResolvable;
   /**
   * the api key type. 'Admin', 'User' or a custom role id. Defaults to 'Admin'. For more details check https://docs.env0.com/docs/api-keys
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/api_key#organization_role ApiKey#organization_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/api_key#organization_role ApiKey#organization_role}
   */
   readonly organizationRole?: string;
   /**
   * project_permissions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/api_key#project_permissions ApiKey#project_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/api_key#project_permissions ApiKey#project_permissions}
   */
   readonly projectPermissions?: ApiKeyProjectPermissions[] | cdktf.IResolvable;
 }
@@ -43,13 +43,13 @@ export interface ApiKeyProjectPermissions {
   /**
   * The project ID to assign permissions to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/api_key#project_id ApiKey#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/api_key#project_id ApiKey#project_id}
   */
   readonly projectId: string;
   /**
   * The role for this project. Must be one of: Planner, Viewer, Deployer, Admin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/api_key#project_role ApiKey#project_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/api_key#project_role ApiKey#project_role}
   */
   readonly projectRole: string;
 }
@@ -188,7 +188,7 @@ export class ApiKeyProjectPermissionsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/api_key env0_api_key}
+* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/api_key env0_api_key}
 */
 export class ApiKey extends cdktf.TerraformResource {
 
@@ -204,7 +204,7 @@ export class ApiKey extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApiKey resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApiKey to import
-  * @param importFromId The id of the existing ApiKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/api_key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApiKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/api_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApiKey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -216,7 +216,7 @@ export class ApiKey extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/api_key env0_api_key} Resource
+  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/api_key env0_api_key} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -227,7 +227,8 @@ export class ApiKey extends cdktf.TerraformResource {
       terraformResourceType: 'env0_api_key',
       terraformGeneratorMetadata: {
         providerName: 'env0',
-        providerVersion: '1.29.4'
+        providerVersion: '1.29.6',
+        providerVersionConstraint: '1.29.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

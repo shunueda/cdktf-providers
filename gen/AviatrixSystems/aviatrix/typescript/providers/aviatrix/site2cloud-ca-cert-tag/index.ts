@@ -208,7 +208,8 @@ export class Site2CloudCaCertTag extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_site2cloud_ca_cert_tag',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10'
+        providerVersion: '8.1.10',
+        providerVersionConstraint: '8.1.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

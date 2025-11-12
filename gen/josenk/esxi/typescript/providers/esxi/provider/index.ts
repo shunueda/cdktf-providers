@@ -85,7 +85,8 @@ export class EsxiProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'esxi',
       terraformGeneratorMetadata: {
         providerName: 'esxi',
-        providerVersion: '1.10.3'
+        providerVersion: '1.10.3',
+        providerVersionConstraint: '1.10.3'
       },
       terraformProviderSource: 'josenk/esxi'
     });

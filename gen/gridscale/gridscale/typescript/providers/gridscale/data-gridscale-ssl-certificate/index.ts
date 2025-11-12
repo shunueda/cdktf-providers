@@ -313,7 +313,8 @@ export class DataGridscaleSslCertificate extends cdktf.TerraformDataSource {
       terraformResourceType: 'gridscale_ssl_certificate',
       terraformGeneratorMetadata: {
         providerName: 'gridscale',
-        providerVersion: '2.2.3'
+        providerVersion: '2.2.3',
+        providerVersionConstraint: '2.2.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

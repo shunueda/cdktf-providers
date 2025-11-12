@@ -185,7 +185,8 @@ export class DatasyncLocationEfs extends cdktf.TerraformResource {
       terraformResourceType: 'aws_datasync_location_efs',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '3.29.6'
+        providerVersion: '3.29.6',
+        providerVersionConstraint: '3.29.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -68,7 +68,8 @@ export class EventRule extends cdktf.TerraformResource {
       terraformResourceType: 'pagerduty_event_rule',
       terraformGeneratorMetadata: {
         providerName: 'pagerduty',
-        providerVersion: '4.1.2'
+        providerVersion: '4.1.2',
+        providerVersionConstraint: '4.1.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

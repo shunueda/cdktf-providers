@@ -252,7 +252,8 @@ export class DataNutanixkpsNodes extends cdktf.TerraformDataSource {
       terraformResourceType: 'nutanixkps_nodes',
       terraformGeneratorMetadata: {
         providerName: 'nutanixkps',
-        providerVersion: '1.1.9'
+        providerVersion: '1.1.9',
+        providerVersionConstraint: '1.1.9'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

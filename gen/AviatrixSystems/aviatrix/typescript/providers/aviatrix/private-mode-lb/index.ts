@@ -239,7 +239,8 @@ export class PrivateModeLb extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_private_mode_lb',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10'
+        providerVersion: '8.1.10',
+        providerVersionConstraint: '8.1.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

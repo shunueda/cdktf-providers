@@ -263,7 +263,8 @@ export class DataUltradnsTcpool extends cdktf.TerraformDataSource {
       terraformResourceType: 'ultradns_tcpool',
       terraformGeneratorMetadata: {
         providerName: 'ultradns',
-        providerVersion: '1.11.1'
+        providerVersion: '1.11.1',
+        providerVersionConstraint: '1.11.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

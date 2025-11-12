@@ -228,7 +228,8 @@ export class DataSamsungcloudplatformSubnetResources extends cdktf.TerraformData
       terraformResourceType: 'samsungcloudplatform_subnet_resources',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0'
+        providerVersion: '3.15.0',
+        providerVersionConstraint: '3.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

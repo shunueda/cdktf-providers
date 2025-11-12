@@ -150,7 +150,8 @@ export class DataInfracostAwsCodebuildProject extends cdktf.TerraformDataSource 
       terraformResourceType: 'infracost_aws_codebuild_project',
       terraformGeneratorMetadata: {
         providerName: 'infracost',
-        providerVersion: '0.0.9'
+        providerVersion: '0.0.9',
+        providerVersionConstraint: '0.0.9'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

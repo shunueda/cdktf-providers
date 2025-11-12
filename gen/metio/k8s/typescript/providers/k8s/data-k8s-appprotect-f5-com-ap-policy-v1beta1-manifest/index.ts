@@ -25954,7 +25954,8 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1Manifest extends cdktf.Terrafo
       terraformResourceType: 'k8s_appprotect_f5_com_ap_policy_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

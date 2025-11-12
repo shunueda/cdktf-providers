@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botprofile_ratelimit_binding
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile_ratelimit_binding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,60 +8,72 @@ import * as cdktf from 'cdktf';
 
 export interface BotprofileRatelimitBindingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botprofile_ratelimit_binding#bot_bind_comment BotprofileRatelimitBinding#bot_bind_comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile_ratelimit_binding#bot_bind_comment BotprofileRatelimitBinding#bot_bind_comment}
   */
   readonly botBindComment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botprofile_ratelimit_binding#bot_rate_limit_action BotprofileRatelimitBinding#bot_rate_limit_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile_ratelimit_binding#bot_rate_limit_action BotprofileRatelimitBinding#bot_rate_limit_action}
   */
   readonly botRateLimitAction?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botprofile_ratelimit_binding#bot_rate_limit_enabled BotprofileRatelimitBinding#bot_rate_limit_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile_ratelimit_binding#bot_rate_limit_enabled BotprofileRatelimitBinding#bot_rate_limit_enabled}
   */
   readonly botRateLimitEnabled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botprofile_ratelimit_binding#bot_rate_limit_type BotprofileRatelimitBinding#bot_rate_limit_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile_ratelimit_binding#bot_rate_limit_type BotprofileRatelimitBinding#bot_rate_limit_type}
   */
   readonly botRateLimitType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botprofile_ratelimit_binding#bot_rate_limit_url BotprofileRatelimitBinding#bot_rate_limit_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile_ratelimit_binding#bot_rate_limit_url BotprofileRatelimitBinding#bot_rate_limit_url}
   */
   readonly botRateLimitUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botprofile_ratelimit_binding#bot_ratelimit BotprofileRatelimitBinding#bot_ratelimit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile_ratelimit_binding#bot_ratelimit BotprofileRatelimitBinding#bot_ratelimit}
   */
   readonly botRatelimit?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botprofile_ratelimit_binding#cookiename BotprofileRatelimitBinding#cookiename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile_ratelimit_binding#condition BotprofileRatelimitBinding#condition}
+  */
+  readonly condition?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile_ratelimit_binding#cookiename BotprofileRatelimitBinding#cookiename}
   */
   readonly cookiename?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botprofile_ratelimit_binding#id BotprofileRatelimitBinding#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile_ratelimit_binding#countrycode BotprofileRatelimitBinding#countrycode}
+  */
+  readonly countrycode?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile_ratelimit_binding#id BotprofileRatelimitBinding#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botprofile_ratelimit_binding#logmessage BotprofileRatelimitBinding#logmessage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile_ratelimit_binding#limittype BotprofileRatelimitBinding#limittype}
+  */
+  readonly limittype?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile_ratelimit_binding#logmessage BotprofileRatelimitBinding#logmessage}
   */
   readonly logmessage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botprofile_ratelimit_binding#name BotprofileRatelimitBinding#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile_ratelimit_binding#name BotprofileRatelimitBinding#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botprofile_ratelimit_binding#rate BotprofileRatelimitBinding#rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile_ratelimit_binding#rate BotprofileRatelimitBinding#rate}
   */
   readonly rate?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botprofile_ratelimit_binding#timeslice BotprofileRatelimitBinding#timeslice}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile_ratelimit_binding#timeslice BotprofileRatelimitBinding#timeslice}
   */
   readonly timeslice?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botprofile_ratelimit_binding citrixadc_botprofile_ratelimit_binding}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile_ratelimit_binding citrixadc_botprofile_ratelimit_binding}
 */
 export class BotprofileRatelimitBinding extends cdktf.TerraformResource {
 
@@ -77,7 +89,7 @@ export class BotprofileRatelimitBinding extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BotprofileRatelimitBinding resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BotprofileRatelimitBinding to import
-  * @param importFromId The id of the existing BotprofileRatelimitBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botprofile_ratelimit_binding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BotprofileRatelimitBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile_ratelimit_binding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BotprofileRatelimitBinding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -89,7 +101,7 @@ export class BotprofileRatelimitBinding extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botprofile_ratelimit_binding citrixadc_botprofile_ratelimit_binding} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile_ratelimit_binding citrixadc_botprofile_ratelimit_binding} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -100,7 +112,8 @@ export class BotprofileRatelimitBinding extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_botprofile_ratelimit_binding',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -116,8 +129,11 @@ export class BotprofileRatelimitBinding extends cdktf.TerraformResource {
     this._botRateLimitType = config.botRateLimitType;
     this._botRateLimitUrl = config.botRateLimitUrl;
     this._botRatelimit = config.botRatelimit;
+    this._condition = config.condition;
     this._cookiename = config.cookiename;
+    this._countrycode = config.countrycode;
     this._id = config.id;
+    this._limittype = config.limittype;
     this._logmessage = config.logmessage;
     this._name = config.name;
     this._rate = config.rate;
@@ -221,6 +237,22 @@ export class BotprofileRatelimitBinding extends cdktf.TerraformResource {
     return this._botRatelimit;
   }
 
+  // condition - computed: true, optional: true, required: false
+  private _condition?: string; 
+  public get condition() {
+    return this.getStringAttribute('condition');
+  }
+  public set condition(value: string) {
+    this._condition = value;
+  }
+  public resetCondition() {
+    this._condition = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get conditionInput() {
+    return this._condition;
+  }
+
   // cookiename - computed: true, optional: true, required: false
   private _cookiename?: string; 
   public get cookiename() {
@@ -237,6 +269,22 @@ export class BotprofileRatelimitBinding extends cdktf.TerraformResource {
     return this._cookiename;
   }
 
+  // countrycode - computed: true, optional: true, required: false
+  private _countrycode?: string; 
+  public get countrycode() {
+    return this.getStringAttribute('countrycode');
+  }
+  public set countrycode(value: string) {
+    this._countrycode = value;
+  }
+  public resetCountrycode() {
+    this._countrycode = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get countrycodeInput() {
+    return this._countrycode;
+  }
+
   // id - computed: true, optional: true, required: false
   private _id?: string; 
   public get id() {
@@ -251,6 +299,22 @@ export class BotprofileRatelimitBinding extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get idInput() {
     return this._id;
+  }
+
+  // limittype - computed: true, optional: true, required: false
+  private _limittype?: string; 
+  public get limittype() {
+    return this.getStringAttribute('limittype');
+  }
+  public set limittype(value: string) {
+    this._limittype = value;
+  }
+  public resetLimittype() {
+    this._limittype = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get limittypeInput() {
+    return this._limittype;
   }
 
   // logmessage - computed: true, optional: true, required: false
@@ -326,8 +390,11 @@ export class BotprofileRatelimitBinding extends cdktf.TerraformResource {
       bot_rate_limit_type: cdktf.stringToTerraform(this._botRateLimitType),
       bot_rate_limit_url: cdktf.stringToTerraform(this._botRateLimitUrl),
       bot_ratelimit: cdktf.booleanToTerraform(this._botRatelimit),
+      condition: cdktf.stringToTerraform(this._condition),
       cookiename: cdktf.stringToTerraform(this._cookiename),
+      countrycode: cdktf.stringToTerraform(this._countrycode),
       id: cdktf.stringToTerraform(this._id),
+      limittype: cdktf.stringToTerraform(this._limittype),
       logmessage: cdktf.stringToTerraform(this._logmessage),
       name: cdktf.stringToTerraform(this._name),
       rate: cdktf.numberToTerraform(this._rate),
@@ -373,14 +440,32 @@ export class BotprofileRatelimitBinding extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "boolean",
       },
+      condition: {
+        value: cdktf.stringToHclTerraform(this._condition),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       cookiename: {
         value: cdktf.stringToHclTerraform(this._cookiename),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
+      countrycode: {
+        value: cdktf.stringToHclTerraform(this._countrycode),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       id: {
         value: cdktf.stringToHclTerraform(this._id),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      limittype: {
+        value: cdktf.stringToHclTerraform(this._limittype),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

@@ -67,7 +67,8 @@ export class DroneProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'drone',
       terraformGeneratorMetadata: {
         providerName: 'drone',
-        providerVersion: '0.4.0'
+        providerVersion: '0.4.0',
+        providerVersionConstraint: '0.4.0'
       },
       terraformProviderSource: 'KazanExpress/drone'
     });

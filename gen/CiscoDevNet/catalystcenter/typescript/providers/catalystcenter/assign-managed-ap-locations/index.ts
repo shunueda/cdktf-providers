@@ -67,7 +67,8 @@ export class AssignManagedApLocations extends cdktf.TerraformResource {
       terraformResourceType: 'catalystcenter_assign_managed_ap_locations',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.2'
+        providerVersion: '0.4.2',
+        providerVersionConstraint: '0.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

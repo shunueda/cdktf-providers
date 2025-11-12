@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_interconnect_domain_gateway
+// https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_interconnect_domain_gateway
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataApstraDatacenterInterconnectDomainGatewayConfig extends cdk
   /**
   * Apstra ID of the Blueprint in which the Interconnect Domain Gateway should be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_interconnect_domain_gateway#blueprint_id DataApstraDatacenterInterconnectDomainGateway#blueprint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_interconnect_domain_gateway#blueprint_id DataApstraDatacenterInterconnectDomainGateway#blueprint_id}
   */
   readonly blueprintId: string;
   /**
   * Apstra Object ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_interconnect_domain_gateway#id DataApstraDatacenterInterconnectDomainGateway#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_interconnect_domain_gateway#id DataApstraDatacenterInterconnectDomainGateway#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,13 +25,13 @@ export interface DataApstraDatacenterInterconnectDomainGatewayConfig extends cdk
   /**
   * Interconnect Domain Gateway name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_interconnect_domain_gateway#name DataApstraDatacenterInterconnectDomainGateway#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_interconnect_domain_gateway#name DataApstraDatacenterInterconnectDomainGateway#name}
   */
   readonly name?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_interconnect_domain_gateway apstra_datacenter_interconnect_domain_gateway}
+* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_interconnect_domain_gateway apstra_datacenter_interconnect_domain_gateway}
 */
 export class DataApstraDatacenterInterconnectDomainGateway extends cdktf.TerraformDataSource {
 
@@ -47,7 +47,7 @@ export class DataApstraDatacenterInterconnectDomainGateway extends cdktf.Terrafo
   * Generates CDKTF code for importing a DataApstraDatacenterInterconnectDomainGateway resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataApstraDatacenterInterconnectDomainGateway to import
-  * @param importFromId The id of the existing DataApstraDatacenterInterconnectDomainGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_interconnect_domain_gateway#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataApstraDatacenterInterconnectDomainGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_interconnect_domain_gateway#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataApstraDatacenterInterconnectDomainGateway to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -59,7 +59,7 @@ export class DataApstraDatacenterInterconnectDomainGateway extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_interconnect_domain_gateway apstra_datacenter_interconnect_domain_gateway} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_interconnect_domain_gateway apstra_datacenter_interconnect_domain_gateway} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -70,7 +70,8 @@ export class DataApstraDatacenterInterconnectDomainGateway extends cdktf.Terrafo
       terraformResourceType: 'apstra_datacenter_interconnect_domain_gateway',
       terraformGeneratorMetadata: {
         providerName: 'apstra',
-        providerVersion: '0.95.0'
+        providerVersion: '0.95.1',
+        providerVersionConstraint: '0.95.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

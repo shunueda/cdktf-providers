@@ -252,7 +252,8 @@ export class CheckServiceProperty extends cdktf.TerraformResource {
       terraformResourceType: 'opslevel_check_service_property',
       terraformGeneratorMetadata: {
         providerName: 'opslevel',
-        providerVersion: '1.6.3'
+        providerVersion: '1.6.3',
+        providerVersionConstraint: '1.6.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

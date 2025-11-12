@@ -55,7 +55,8 @@ export class EnvironmentProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'environment',
       terraformGeneratorMetadata: {
         providerName: 'environment',
-        providerVersion: '1.3.8'
+        providerVersion: '1.3.8',
+        providerVersionConstraint: '1.3.8'
       },
       terraformProviderSource: 'EppO/environment'
     });

@@ -80,7 +80,8 @@ export class SnmpServerEnableTrapsScaleoutInfrastructureClusterA extends cdktf.T
       terraformResourceType: 'thunder_snmp_server_enable_traps_scaleout_infrastructure_cluster',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

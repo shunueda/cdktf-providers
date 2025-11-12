@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/vpc_subnet
+// https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/vpc_subnet
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface VpcSubnetConfig extends cdktf.TerraformMetaArguments {
   /**
   * The IPv4 range of this subnet in CIDR format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/vpc_subnet#ipv4 VpcSubnet#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/vpc_subnet#ipv4 VpcSubnet#ipv4}
   */
   readonly ipv4?: string;
   /**
   * The IPv6 ranges of this subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/vpc_subnet#ipv6 VpcSubnet#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/vpc_subnet#ipv6 VpcSubnet#ipv6}
   */
   readonly ipv6?: VpcSubnetIpv6[] | cdktf.IResolvable;
   /**
   * The label of the VPC subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/vpc_subnet#label VpcSubnet#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/vpc_subnet#label VpcSubnet#label}
   */
   readonly label: string;
   /**
   * The id of the parent VPC for this VPC Subnet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/vpc_subnet#vpc_id VpcSubnet#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/vpc_subnet#vpc_id VpcSubnet#vpc_id}
   */
   readonly vpcId: number;
 }
@@ -36,7 +36,7 @@ export interface VpcSubnetIpv6 {
   /**
   * An existing IPv6 prefix owned by the current account or a forward slash (/) followed by a valid prefix length. If unspecified, a range with the default prefix will be allocated for this VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/vpc_subnet#range VpcSubnet#range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/vpc_subnet#range VpcSubnet#range}
   */
   readonly range?: string;
 }
@@ -323,7 +323,7 @@ export class VpcSubnetLinodesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/vpc_subnet linode_vpc_subnet}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/vpc_subnet linode_vpc_subnet}
 */
 export class VpcSubnet extends cdktf.TerraformResource {
 
@@ -339,7 +339,7 @@ export class VpcSubnet extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VpcSubnet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpcSubnet to import
-  * @param importFromId The id of the existing VpcSubnet that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/vpc_subnet#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpcSubnet that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/vpc_subnet#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpcSubnet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -351,7 +351,7 @@ export class VpcSubnet extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/vpc_subnet linode_vpc_subnet} Resource
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/vpc_subnet linode_vpc_subnet} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -362,7 +362,8 @@ export class VpcSubnet extends cdktf.TerraformResource {
       terraformResourceType: 'linode_vpc_subnet',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.5.0'
+        providerVersion: '3.5.1',
+        providerVersionConstraint: '3.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

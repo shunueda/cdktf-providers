@@ -64,7 +64,8 @@ export class SpotDatafeedSubscription extends cdktf.TerraformResource {
       terraformResourceType: 'aws_spot_datafeed_subscription',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '3.29.6'
+        providerVersion: '3.29.6',
+        providerVersionConstraint: '3.29.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

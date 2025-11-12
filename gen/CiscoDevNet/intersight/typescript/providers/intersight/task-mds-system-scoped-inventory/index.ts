@@ -2858,7 +2858,8 @@ export class TaskMdsSystemScopedInventory extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_task_mds_system_scoped_inventory',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

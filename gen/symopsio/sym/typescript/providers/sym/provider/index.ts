@@ -67,7 +67,8 @@ export class SymProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'sym',
       terraformGeneratorMetadata: {
         providerName: 'sym',
-        providerVersion: '3.6.0'
+        providerVersion: '3.6.0',
+        providerVersionConstraint: '3.6.0'
       },
       terraformProviderSource: 'symopsio/sym'
     });

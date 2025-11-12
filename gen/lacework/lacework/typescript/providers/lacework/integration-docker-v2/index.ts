@@ -247,7 +247,8 @@ export class IntegrationDockerV2 extends cdktf.TerraformResource {
       terraformResourceType: 'lacework_integration_docker_v2',
       terraformGeneratorMetadata: {
         providerName: 'lacework',
-        providerVersion: '2.0.10'
+        providerVersion: '2.0.10',
+        providerVersionConstraint: '2.0.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -152,7 +152,8 @@ export class CommonLicenseManageBigiq extends cdktf.TerraformResource {
       terraformResourceType: 'bigip_common_license_manage_bigiq',
       terraformGeneratorMetadata: {
         providerName: 'bigip',
-        providerVersion: '1.24.1'
+        providerVersion: '1.24.1',
+        providerVersionConstraint: '1.24.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

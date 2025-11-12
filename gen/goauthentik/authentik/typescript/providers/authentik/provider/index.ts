@@ -79,7 +79,8 @@ export class AuthentikProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'authentik',
       terraformGeneratorMetadata: {
         providerName: 'authentik',
-        providerVersion: '2025.10.0'
+        providerVersion: '2025.10.0',
+        providerVersionConstraint: '2025.10.0'
       },
       terraformProviderSource: 'goauthentik/authentik'
     });

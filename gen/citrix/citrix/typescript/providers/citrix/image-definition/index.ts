@@ -394,7 +394,8 @@ export class ImageDefinition extends cdktf.TerraformResource {
       terraformResourceType: 'citrix_image_definition',
       terraformGeneratorMetadata: {
         providerName: 'citrix',
-        providerVersion: '1.0.30'
+        providerVersion: '1.0.30',
+        providerVersionConstraint: '1.0.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

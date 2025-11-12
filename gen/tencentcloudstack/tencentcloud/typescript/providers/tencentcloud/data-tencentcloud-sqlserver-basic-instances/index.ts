@@ -244,7 +244,8 @@ export class DataTencentcloudSqlserverBasicInstances extends cdktf.TerraformData
       terraformResourceType: 'tencentcloud_sqlserver_basic_instances',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -285,7 +285,8 @@ export class AlertProfile extends cdktf.TerraformResource {
       terraformResourceType: 'lacework_alert_profile',
       terraformGeneratorMetadata: {
         providerName: 'lacework',
-        providerVersion: '2.0.10'
+        providerVersion: '2.0.10',
+        providerVersionConstraint: '2.0.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

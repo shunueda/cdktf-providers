@@ -58,7 +58,8 @@ export class DataOktaAppUserAssignments extends cdktf.TerraformDataSource {
       terraformResourceType: 'okta_app_user_assignments',
       terraformGeneratorMetadata: {
         providerName: 'okta',
-        providerVersion: '6.4.0'
+        providerVersion: '6.4.0',
+        providerVersionConstraint: '6.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

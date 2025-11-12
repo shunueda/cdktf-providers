@@ -60,7 +60,8 @@ export class DataAthenzDomain extends cdktf.TerraformDataSource {
       terraformResourceType: 'athenz_domain',
       terraformGeneratorMetadata: {
         providerName: 'athenz',
-        providerVersion: '1.0.49'
+        providerVersion: '1.0.49',
+        providerVersionConstraint: '1.0.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

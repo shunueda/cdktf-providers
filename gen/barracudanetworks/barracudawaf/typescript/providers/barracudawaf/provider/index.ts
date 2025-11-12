@@ -79,7 +79,8 @@ export class BarracudawafProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'barracudawaf',
       terraformGeneratorMetadata: {
         providerName: 'barracudawaf',
-        providerVersion: '1.0.10'
+        providerVersion: '1.0.10',
+        providerVersionConstraint: '1.0.10'
       },
       terraformProviderSource: 'barracudanetworks/barracudawaf'
     });

@@ -63,7 +63,8 @@ export class AblyProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'ably',
       terraformGeneratorMetadata: {
         providerName: 'ably',
-        providerVersion: '0.11.1'
+        providerVersion: '0.11.1',
+        providerVersionConstraint: '0.11.1'
       },
       terraformProviderSource: 'ably/ably'
     });

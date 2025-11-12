@@ -127,7 +127,8 @@ export class CmNextHa extends cdktf.TerraformResource {
       terraformResourceType: 'bigipnext_cm_next_ha',
       terraformGeneratorMetadata: {
         providerName: 'bigipnext',
-        providerVersion: '1.4.0'
+        providerVersion: '1.4.0',
+        providerVersionConstraint: '1.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

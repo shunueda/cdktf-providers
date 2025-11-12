@@ -118,7 +118,8 @@ export class DhcpDhcp extends cdktf.TerraformResource {
       terraformResourceType: 'openwrt_dhcp_dhcp',
       terraformGeneratorMetadata: {
         providerName: 'openwrt',
-        providerVersion: '0.0.20'
+        providerVersion: '0.0.20',
+        providerVersionConstraint: '0.0.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

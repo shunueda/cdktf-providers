@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/servicegroup_lbmonitor_binding
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/servicegroup_lbmonitor_binding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,64 +8,64 @@ import * as cdktf from 'cdktf';
 
 export interface ServicegroupLbmonitorBindingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/servicegroup_lbmonitor_binding#customserverid ServicegroupLbmonitorBinding#customserverid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/servicegroup_lbmonitor_binding#customserverid ServicegroupLbmonitorBinding#customserverid}
   */
   readonly customserverid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/servicegroup_lbmonitor_binding#dbsttl ServicegroupLbmonitorBinding#dbsttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/servicegroup_lbmonitor_binding#dbsttl ServicegroupLbmonitorBinding#dbsttl}
   */
   readonly dbsttl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/servicegroup_lbmonitor_binding#hashid ServicegroupLbmonitorBinding#hashid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/servicegroup_lbmonitor_binding#hashid ServicegroupLbmonitorBinding#hashid}
   */
   readonly hashid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/servicegroup_lbmonitor_binding#id ServicegroupLbmonitorBinding#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/servicegroup_lbmonitor_binding#id ServicegroupLbmonitorBinding#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/servicegroup_lbmonitor_binding#monitorname ServicegroupLbmonitorBinding#monitorname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/servicegroup_lbmonitor_binding#monitorname ServicegroupLbmonitorBinding#monitorname}
   */
   readonly monitorname: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/servicegroup_lbmonitor_binding#monstate ServicegroupLbmonitorBinding#monstate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/servicegroup_lbmonitor_binding#monstate ServicegroupLbmonitorBinding#monstate}
   */
   readonly monstate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/servicegroup_lbmonitor_binding#nameserver ServicegroupLbmonitorBinding#nameserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/servicegroup_lbmonitor_binding#nameserver ServicegroupLbmonitorBinding#nameserver}
   */
   readonly nameserver?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/servicegroup_lbmonitor_binding#passive ServicegroupLbmonitorBinding#passive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/servicegroup_lbmonitor_binding#passive ServicegroupLbmonitorBinding#passive}
   */
   readonly passive?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/servicegroup_lbmonitor_binding#port ServicegroupLbmonitorBinding#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/servicegroup_lbmonitor_binding#port ServicegroupLbmonitorBinding#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/servicegroup_lbmonitor_binding#serverid ServicegroupLbmonitorBinding#serverid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/servicegroup_lbmonitor_binding#serverid ServicegroupLbmonitorBinding#serverid}
   */
   readonly serverid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/servicegroup_lbmonitor_binding#servicegroupname ServicegroupLbmonitorBinding#servicegroupname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/servicegroup_lbmonitor_binding#servicegroupname ServicegroupLbmonitorBinding#servicegroupname}
   */
   readonly servicegroupname: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/servicegroup_lbmonitor_binding#state ServicegroupLbmonitorBinding#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/servicegroup_lbmonitor_binding#state ServicegroupLbmonitorBinding#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/servicegroup_lbmonitor_binding#weight ServicegroupLbmonitorBinding#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/servicegroup_lbmonitor_binding#weight ServicegroupLbmonitorBinding#weight}
   */
   readonly weight?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/servicegroup_lbmonitor_binding citrixadc_servicegroup_lbmonitor_binding}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/servicegroup_lbmonitor_binding citrixadc_servicegroup_lbmonitor_binding}
 */
 export class ServicegroupLbmonitorBinding extends cdktf.TerraformResource {
 
@@ -81,7 +81,7 @@ export class ServicegroupLbmonitorBinding extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServicegroupLbmonitorBinding resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServicegroupLbmonitorBinding to import
-  * @param importFromId The id of the existing ServicegroupLbmonitorBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/servicegroup_lbmonitor_binding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServicegroupLbmonitorBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/servicegroup_lbmonitor_binding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServicegroupLbmonitorBinding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +93,7 @@ export class ServicegroupLbmonitorBinding extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/servicegroup_lbmonitor_binding citrixadc_servicegroup_lbmonitor_binding} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/servicegroup_lbmonitor_binding citrixadc_servicegroup_lbmonitor_binding} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,7 +104,8 @@ export class ServicegroupLbmonitorBinding extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_servicegroup_lbmonitor_binding',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

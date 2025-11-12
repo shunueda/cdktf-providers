@@ -753,7 +753,8 @@ export class EdgeTransportNodeRtep extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_edge_transport_node_rtep',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0'
+        providerVersion: '3.10.0',
+        providerVersionConstraint: '3.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

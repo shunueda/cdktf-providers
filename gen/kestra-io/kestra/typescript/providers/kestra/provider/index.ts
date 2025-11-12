@@ -109,7 +109,8 @@ export class KestraProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'kestra',
       terraformGeneratorMetadata: {
         providerName: 'kestra',
-        providerVersion: '1.0.2'
+        providerVersion: '1.0.2',
+        providerVersionConstraint: '1.0.2'
       },
       terraformProviderSource: 'kestra-io/kestra'
     });

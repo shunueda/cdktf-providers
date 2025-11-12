@@ -68,7 +68,8 @@ export class CamRolePolicyAttachmentByName extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cam_role_policy_attachment_by_name',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

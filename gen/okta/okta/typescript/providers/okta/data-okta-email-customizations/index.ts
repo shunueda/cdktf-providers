@@ -168,7 +168,8 @@ export class DataOktaEmailCustomizations extends cdktf.TerraformDataSource {
       terraformResourceType: 'okta_email_customizations',
       terraformGeneratorMetadata: {
         providerName: 'okta',
-        providerVersion: '6.4.0'
+        providerVersion: '6.4.0',
+        providerVersionConstraint: '6.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

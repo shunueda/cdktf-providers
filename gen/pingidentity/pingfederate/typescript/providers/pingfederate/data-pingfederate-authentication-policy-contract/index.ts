@@ -205,7 +205,8 @@ export class DataPingfederateAuthenticationPolicyContract extends cdktf.Terrafor
       terraformResourceType: 'pingfederate_authentication_policy_contract',
       terraformGeneratorMetadata: {
         providerName: 'pingfederate',
-        providerVersion: '1.6.2'
+        providerVersion: '1.6.2',
+        providerVersionConstraint: '1.6.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -166,7 +166,8 @@ export class DataAlicloudResourceManagerDelegatedAdministrators extends cdktf.Te
       terraformResourceType: 'alicloud_resource_manager_delegated_administrators',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

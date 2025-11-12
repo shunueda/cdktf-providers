@@ -997,7 +997,8 @@ export class DataAlicloudSaeApplicationScalingRules extends cdktf.TerraformDataS
       terraformResourceType: 'alicloud_sae_application_scaling_rules',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

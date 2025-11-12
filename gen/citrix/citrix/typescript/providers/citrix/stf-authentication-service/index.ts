@@ -271,7 +271,8 @@ export class StfAuthenticationService extends cdktf.TerraformResource {
       terraformResourceType: 'citrix_stf_authentication_service',
       terraformGeneratorMetadata: {
         providerName: 'citrix',
-        providerVersion: '1.0.30'
+        providerVersion: '1.0.30',
+        providerVersionConstraint: '1.0.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

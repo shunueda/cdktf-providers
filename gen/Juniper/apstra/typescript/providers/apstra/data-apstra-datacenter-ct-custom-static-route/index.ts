@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_ct_custom_static_route
+// https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_ct_custom_static_route
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface DataApstraDatacenterCtCustomStaticRouteConfig extends cdktf.Ter
   /**
   * Primitive name displayed in the web UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_ct_custom_static_route#name DataApstraDatacenterCtCustomStaticRoute#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_ct_custom_static_route#name DataApstraDatacenterCtCustomStaticRoute#name}
   */
   readonly name?: string;
   /**
   * IPv4 or IPv6 prefix in CIDR notation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_ct_custom_static_route#network DataApstraDatacenterCtCustomStaticRoute#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_ct_custom_static_route#network DataApstraDatacenterCtCustomStaticRoute#network}
   */
   readonly network: string;
   /**
   * IPv4 or IPv6 address of next hop router
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_ct_custom_static_route#next_hop DataApstraDatacenterCtCustomStaticRoute#next_hop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_ct_custom_static_route#next_hop DataApstraDatacenterCtCustomStaticRoute#next_hop}
   */
   readonly nextHop: string;
   /**
   * Apstra ID of Routing Zone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_ct_custom_static_route#routing_zone_id DataApstraDatacenterCtCustomStaticRoute#routing_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_ct_custom_static_route#routing_zone_id DataApstraDatacenterCtCustomStaticRoute#routing_zone_id}
   */
   readonly routingZoneId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_ct_custom_static_route apstra_datacenter_ct_custom_static_route}
+* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_ct_custom_static_route apstra_datacenter_ct_custom_static_route}
 */
 export class DataApstraDatacenterCtCustomStaticRoute extends cdktf.TerraformDataSource {
 
@@ -50,7 +50,7 @@ export class DataApstraDatacenterCtCustomStaticRoute extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataApstraDatacenterCtCustomStaticRoute resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataApstraDatacenterCtCustomStaticRoute to import
-  * @param importFromId The id of the existing DataApstraDatacenterCtCustomStaticRoute that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_ct_custom_static_route#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataApstraDatacenterCtCustomStaticRoute that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_ct_custom_static_route#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataApstraDatacenterCtCustomStaticRoute to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class DataApstraDatacenterCtCustomStaticRoute extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_ct_custom_static_route apstra_datacenter_ct_custom_static_route} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_ct_custom_static_route apstra_datacenter_ct_custom_static_route} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,7 +73,8 @@ export class DataApstraDatacenterCtCustomStaticRoute extends cdktf.TerraformData
       terraformResourceType: 'apstra_datacenter_ct_custom_static_route',
       terraformGeneratorMetadata: {
         providerName: 'apstra',
-        providerVersion: '0.95.0'
+        providerVersion: '0.95.1',
+        providerVersionConstraint: '0.95.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dms_kafka_instance
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dms_kafka_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,154 +8,154 @@ import * as cdktf from 'cdktf';
 
 export interface DmsKafkaInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dms_kafka_instance#access_user DmsKafkaInstance#access_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dms_kafka_instance#access_user DmsKafkaInstance#access_user}
   */
   readonly accessUser?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dms_kafka_instance#arch_type DmsKafkaInstance#arch_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dms_kafka_instance#arch_type DmsKafkaInstance#arch_type}
   */
   readonly archType?: string;
   /**
   * schema: Required
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dms_kafka_instance#availability_zones DmsKafkaInstance#availability_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dms_kafka_instance#availability_zones DmsKafkaInstance#availability_zones}
   */
   readonly availabilityZones?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dms_kafka_instance#available_zones DmsKafkaInstance#available_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dms_kafka_instance#available_zones DmsKafkaInstance#available_zones}
   */
   readonly availableZones?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dms_kafka_instance#bandwidth DmsKafkaInstance#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dms_kafka_instance#bandwidth DmsKafkaInstance#bandwidth}
   */
   readonly bandwidth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dms_kafka_instance#broker_num DmsKafkaInstance#broker_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dms_kafka_instance#broker_num DmsKafkaInstance#broker_num}
   */
   readonly brokerNum?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dms_kafka_instance#description DmsKafkaInstance#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dms_kafka_instance#description DmsKafkaInstance#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dms_kafka_instance#dumping DmsKafkaInstance#dumping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dms_kafka_instance#dumping DmsKafkaInstance#dumping}
   */
   readonly dumping?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dms_kafka_instance#enable_auto_topic DmsKafkaInstance#enable_auto_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dms_kafka_instance#enable_auto_topic DmsKafkaInstance#enable_auto_topic}
   */
   readonly enableAutoTopic?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dms_kafka_instance#enabled_mechanisms DmsKafkaInstance#enabled_mechanisms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dms_kafka_instance#enabled_mechanisms DmsKafkaInstance#enabled_mechanisms}
   */
   readonly enabledMechanisms?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dms_kafka_instance#engine_version DmsKafkaInstance#engine_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dms_kafka_instance#engine_version DmsKafkaInstance#engine_version}
   */
   readonly engineVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dms_kafka_instance#enterprise_project_id DmsKafkaInstance#enterprise_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dms_kafka_instance#enterprise_project_id DmsKafkaInstance#enterprise_project_id}
   */
   readonly enterpriseProjectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dms_kafka_instance#flavor_id DmsKafkaInstance#flavor_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dms_kafka_instance#flavor_id DmsKafkaInstance#flavor_id}
   */
   readonly flavorId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dms_kafka_instance#id DmsKafkaInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dms_kafka_instance#id DmsKafkaInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dms_kafka_instance#maintain_begin DmsKafkaInstance#maintain_begin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dms_kafka_instance#maintain_begin DmsKafkaInstance#maintain_begin}
   */
   readonly maintainBegin?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dms_kafka_instance#maintain_end DmsKafkaInstance#maintain_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dms_kafka_instance#maintain_end DmsKafkaInstance#maintain_end}
   */
   readonly maintainEnd?: string;
   /**
   * Deprecated from HCS 8.5.0 and later version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dms_kafka_instance#manager_password DmsKafkaInstance#manager_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dms_kafka_instance#manager_password DmsKafkaInstance#manager_password}
   */
   readonly managerPassword?: string;
   /**
   * Deprecated from HCS 8.5.0 and later version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dms_kafka_instance#manager_user DmsKafkaInstance#manager_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dms_kafka_instance#manager_user DmsKafkaInstance#manager_user}
   */
   readonly managerUser?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dms_kafka_instance#name DmsKafkaInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dms_kafka_instance#name DmsKafkaInstance#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dms_kafka_instance#network_id DmsKafkaInstance#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dms_kafka_instance#network_id DmsKafkaInstance#network_id}
   */
   readonly networkId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dms_kafka_instance#password DmsKafkaInstance#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dms_kafka_instance#password DmsKafkaInstance#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dms_kafka_instance#product_id DmsKafkaInstance#product_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dms_kafka_instance#product_id DmsKafkaInstance#product_id}
   */
   readonly productId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dms_kafka_instance#public_ip_ids DmsKafkaInstance#public_ip_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dms_kafka_instance#public_ip_ids DmsKafkaInstance#public_ip_ids}
   */
   readonly publicIpIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dms_kafka_instance#region DmsKafkaInstance#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dms_kafka_instance#region DmsKafkaInstance#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dms_kafka_instance#retention_policy DmsKafkaInstance#retention_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dms_kafka_instance#retention_policy DmsKafkaInstance#retention_policy}
   */
   readonly retentionPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dms_kafka_instance#security_group_id DmsKafkaInstance#security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dms_kafka_instance#security_group_id DmsKafkaInstance#security_group_id}
   */
   readonly securityGroupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dms_kafka_instance#security_protocol DmsKafkaInstance#security_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dms_kafka_instance#security_protocol DmsKafkaInstance#security_protocol}
   */
   readonly securityProtocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dms_kafka_instance#storage_space DmsKafkaInstance#storage_space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dms_kafka_instance#storage_space DmsKafkaInstance#storage_space}
   */
   readonly storageSpace?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dms_kafka_instance#storage_spec_code DmsKafkaInstance#storage_spec_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dms_kafka_instance#storage_spec_code DmsKafkaInstance#storage_spec_code}
   */
   readonly storageSpecCode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dms_kafka_instance#tags DmsKafkaInstance#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dms_kafka_instance#tags DmsKafkaInstance#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dms_kafka_instance#vpc_id DmsKafkaInstance#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dms_kafka_instance#vpc_id DmsKafkaInstance#vpc_id}
   */
   readonly vpcId: string;
   /**
   * cross_vpc_accesses block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dms_kafka_instance#cross_vpc_accesses DmsKafkaInstance#cross_vpc_accesses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dms_kafka_instance#cross_vpc_accesses DmsKafkaInstance#cross_vpc_accesses}
   */
   readonly crossVpcAccesses?: DmsKafkaInstanceCrossVpcAccesses[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dms_kafka_instance#timeouts DmsKafkaInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dms_kafka_instance#timeouts DmsKafkaInstance#timeouts}
   */
   readonly timeouts?: DmsKafkaInstanceTimeouts;
 }
 export interface DmsKafkaInstanceCrossVpcAccesses {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dms_kafka_instance#advertised_ip DmsKafkaInstance#advertised_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dms_kafka_instance#advertised_ip DmsKafkaInstance#advertised_ip}
   */
   readonly advertisedIp?: string;
 }
@@ -291,15 +291,15 @@ export class DmsKafkaInstanceCrossVpcAccessesList extends cdktf.ComplexList {
 }
 export interface DmsKafkaInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dms_kafka_instance#create DmsKafkaInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dms_kafka_instance#create DmsKafkaInstance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dms_kafka_instance#delete DmsKafkaInstance#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dms_kafka_instance#delete DmsKafkaInstance#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dms_kafka_instance#update DmsKafkaInstance#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dms_kafka_instance#update DmsKafkaInstance#update}
   */
   readonly update?: string;
 }
@@ -451,7 +451,7 @@ export class DmsKafkaInstanceTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dms_kafka_instance hcs_dms_kafka_instance}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dms_kafka_instance hcs_dms_kafka_instance}
 */
 export class DmsKafkaInstance extends cdktf.TerraformResource {
 
@@ -467,7 +467,7 @@ export class DmsKafkaInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DmsKafkaInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DmsKafkaInstance to import
-  * @param importFromId The id of the existing DmsKafkaInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dms_kafka_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DmsKafkaInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dms_kafka_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DmsKafkaInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -479,7 +479,7 @@ export class DmsKafkaInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dms_kafka_instance hcs_dms_kafka_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dms_kafka_instance hcs_dms_kafka_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -490,7 +490,8 @@ export class DmsKafkaInstance extends cdktf.TerraformResource {
       terraformResourceType: 'hcs_dms_kafka_instance',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.19'
+        providerVersion: '2.4.20',
+        providerVersionConstraint: '2.4.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1043,7 +1044,7 @@ export class DmsKafkaInstance extends cdktf.TerraformResource {
     return this._storageSpecCode;
   }
 
-  // tags - computed: true, optional: true, required: false
+  // tags - computed: false, optional: true, required: false
   private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');

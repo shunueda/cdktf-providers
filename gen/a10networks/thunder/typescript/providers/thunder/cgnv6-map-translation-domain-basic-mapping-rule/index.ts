@@ -388,7 +388,8 @@ export class Cgnv6MapTranslationDomainBasicMappingRuleA extends cdktf.TerraformR
       terraformResourceType: 'thunder_cgnv6_map_translation_domain_basic_mapping_rule',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

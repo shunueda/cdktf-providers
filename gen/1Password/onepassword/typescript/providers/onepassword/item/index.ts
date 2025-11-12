@@ -1027,7 +1027,8 @@ export class Item extends cdktf.TerraformResource {
       terraformResourceType: 'onepassword_item',
       terraformGeneratorMetadata: {
         providerName: 'onepassword',
-        providerVersion: '2.2.0'
+        providerVersion: '2.2.0',
+        providerVersionConstraint: '2.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

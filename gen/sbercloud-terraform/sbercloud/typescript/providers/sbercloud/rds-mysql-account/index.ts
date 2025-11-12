@@ -256,7 +256,8 @@ export class RdsMysqlAccount extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_rds_mysql_account',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14'
+        providerVersion: '1.12.14',
+        providerVersionConstraint: '1.12.14'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

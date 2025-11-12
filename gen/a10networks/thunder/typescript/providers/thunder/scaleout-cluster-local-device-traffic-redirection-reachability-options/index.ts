@@ -74,7 +74,8 @@ export class ScaleoutClusterLocalDeviceTrafficRedirectionReachabilityOptionsA ex
       terraformResourceType: 'thunder_scaleout_cluster_local_device_traffic_redirection_reachability_options',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -193,7 +193,8 @@ export class EbsReplicaGroupDrill extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_ebs_replica_group_drill',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

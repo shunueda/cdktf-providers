@@ -49,7 +49,8 @@ export class DataUpcloudLoadBalancerDnsChallengeDomain extends cdktf.TerraformDa
       terraformResourceType: 'upcloud_load_balancer_dns_challenge_domain',
       terraformGeneratorMetadata: {
         providerName: 'upcloud',
-        providerVersion: '5.31.0'
+        providerVersion: '5.31.0',
+        providerVersionConstraint: '5.31.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

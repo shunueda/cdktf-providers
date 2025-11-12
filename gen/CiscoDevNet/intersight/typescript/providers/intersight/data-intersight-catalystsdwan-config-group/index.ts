@@ -4037,7 +4037,8 @@ export class DataIntersightCatalystsdwanConfigGroup extends cdktf.TerraformDataS
       terraformResourceType: 'intersight_catalystsdwan_config_group',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

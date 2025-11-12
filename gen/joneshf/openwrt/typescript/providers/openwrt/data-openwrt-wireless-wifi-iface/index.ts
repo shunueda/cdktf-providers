@@ -58,7 +58,8 @@ export class DataOpenwrtWirelessWifiIface extends cdktf.TerraformDataSource {
       terraformResourceType: 'openwrt_wireless_wifi_iface',
       terraformGeneratorMetadata: {
         providerName: 'openwrt',
-        providerVersion: '0.0.20'
+        providerVersion: '0.0.20',
+        providerVersionConstraint: '0.0.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

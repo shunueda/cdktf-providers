@@ -91,7 +91,8 @@ export class ApplianceTrafficShapingUplinkBandwidth extends cdktf.TerraformResou
       terraformResourceType: 'meraki_appliance_traffic_shaping_uplink_bandwidth',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1'
+        providerVersion: '1.7.1',
+        providerVersionConstraint: '1.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

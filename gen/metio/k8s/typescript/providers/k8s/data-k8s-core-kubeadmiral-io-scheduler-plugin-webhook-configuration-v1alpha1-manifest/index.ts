@@ -758,7 +758,8 @@ export class DataK8SCoreKubeadmiralIoSchedulerPluginWebhookConfigurationV1Alpha1
       terraformResourceType: 'k8s_core_kubeadmiral_io_scheduler_plugin_webhook_configuration_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -297,7 +297,8 @@ export class DataThunderPartitionAvailableIdOper extends cdktf.TerraformDataSour
       terraformResourceType: 'thunder_partition_available_id_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

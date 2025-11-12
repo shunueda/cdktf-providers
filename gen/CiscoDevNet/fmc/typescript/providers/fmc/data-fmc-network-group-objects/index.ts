@@ -55,7 +55,8 @@ export class DataFmcNetworkGroupObjects extends cdktf.TerraformDataSource {
       terraformResourceType: 'fmc_network_group_objects',
       terraformGeneratorMetadata: {
         providerName: 'fmc',
-        providerVersion: '1.5.2'
+        providerVersion: '1.5.2',
+        providerVersionConstraint: '1.5.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

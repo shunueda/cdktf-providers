@@ -5782,7 +5782,8 @@ export class DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest extends cdktf.Ter
       terraformResourceType: 'k8s_kubevious_io_workload_profile_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

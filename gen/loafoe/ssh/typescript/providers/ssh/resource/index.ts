@@ -428,7 +428,8 @@ export class Resource extends cdktf.TerraformResource {
       terraformResourceType: 'ssh_resource',
       terraformGeneratorMetadata: {
         providerName: 'ssh',
-        providerVersion: '2.7.0'
+        providerVersion: '2.7.0',
+        providerVersionConstraint: '2.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

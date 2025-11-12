@@ -147,7 +147,8 @@ export class DataAviatrixFirewallInstanceImages extends cdktf.TerraformDataSourc
       terraformResourceType: 'aviatrix_firewall_instance_images',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10'
+        providerVersion: '8.1.10',
+        providerVersionConstraint: '8.1.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

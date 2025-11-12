@@ -62,7 +62,8 @@ export class DataNetboxDcimLocation extends cdktf.TerraformDataSource {
       terraformResourceType: 'netbox_dcim_location',
       terraformGeneratorMetadata: {
         providerName: 'netbox',
-        providerVersion: '8.0.2'
+        providerVersion: '8.0.2',
+        providerVersionConstraint: '8.0.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

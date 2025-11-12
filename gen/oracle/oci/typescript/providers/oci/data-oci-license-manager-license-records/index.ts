@@ -481,7 +481,8 @@ export class DataOciLicenseManagerLicenseRecords extends cdktf.TerraformDataSour
       terraformResourceType: 'oci_license_manager_license_records',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

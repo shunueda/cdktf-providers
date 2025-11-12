@@ -61,7 +61,8 @@ export class DeviceTags extends cdktf.TerraformResource {
       terraformResourceType: 'headscale_device_tags',
       terraformGeneratorMetadata: {
         providerName: 'headscale',
-        providerVersion: '0.4.2'
+        providerVersion: '0.4.2',
+        providerVersionConstraint: '0.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

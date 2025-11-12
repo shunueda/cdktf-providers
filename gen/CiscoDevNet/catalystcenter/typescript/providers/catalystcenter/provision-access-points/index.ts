@@ -296,7 +296,8 @@ export class ProvisionAccessPoints extends cdktf.TerraformResource {
       terraformResourceType: 'catalystcenter_provision_access_points',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.2'
+        providerVersion: '0.4.2',
+        providerVersionConstraint: '0.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

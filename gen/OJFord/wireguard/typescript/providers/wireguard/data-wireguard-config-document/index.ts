@@ -418,7 +418,8 @@ export class DataWireguardConfigDocument extends cdktf.TerraformDataSource {
       terraformResourceType: 'wireguard_config_document',
       terraformGeneratorMetadata: {
         providerName: 'wireguard',
-        providerVersion: '0.4.0'
+        providerVersion: '0.4.0',
+        providerVersionConstraint: '0.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

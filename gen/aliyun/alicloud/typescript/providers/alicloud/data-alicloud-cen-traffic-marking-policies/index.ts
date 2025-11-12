@@ -190,7 +190,8 @@ export class DataAlicloudCenTrafficMarkingPolicies extends cdktf.TerraformDataSo
       terraformResourceType: 'alicloud_cen_traffic_marking_policies',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

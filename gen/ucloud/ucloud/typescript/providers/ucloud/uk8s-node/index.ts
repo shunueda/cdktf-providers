@@ -370,7 +370,8 @@ export class Uk8SNode extends cdktf.TerraformResource {
       terraformResourceType: 'ucloud_uk8s_node',
       terraformGeneratorMetadata: {
         providerName: 'ucloud',
-        providerVersion: '1.39.1'
+        providerVersion: '1.39.1',
+        providerVersionConstraint: '1.39.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

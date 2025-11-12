@@ -201,7 +201,8 @@ export class AlbLoadBalancerCommonBandwidthPackageAttachment extends cdktf.Terra
       terraformResourceType: 'alicloud_alb_load_balancer_common_bandwidth_package_attachment',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1525,7 +1525,8 @@ export class DestinationS3DataLake extends cdktf.TerraformResource {
       terraformResourceType: 'airbyte_destination_s3_data_lake',
       terraformGeneratorMetadata: {
         providerName: 'airbyte',
-        providerVersion: '0.13.0'
+        providerVersion: '0.13.0',
+        providerVersionConstraint: '0.13.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

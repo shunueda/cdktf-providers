@@ -246,7 +246,8 @@ export class DatabaseAutonomousDatabaseSoftwareImage extends cdktf.TerraformReso
       terraformResourceType: 'oci_database_autonomous_database_software_image',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

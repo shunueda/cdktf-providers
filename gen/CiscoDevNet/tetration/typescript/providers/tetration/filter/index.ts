@@ -86,7 +86,8 @@ export class Filter extends cdktf.TerraformResource {
       terraformResourceType: 'tetration_filter',
       terraformGeneratorMetadata: {
         providerName: 'tetration',
-        providerVersion: '0.1.1'
+        providerVersion: '0.1.1',
+        providerVersionConstraint: '0.1.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

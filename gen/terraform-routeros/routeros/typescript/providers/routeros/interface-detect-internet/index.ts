@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_detect_internet
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_detect_internet
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface InterfaceDetectInternetConfig extends cdktf.TerraformMetaArgume
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_detect_internet#___path___ InterfaceDetectInternet#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_detect_internet#___path___ InterfaceDetectInternet#___path___}
   */
   readonly path?: string;
   /**
   * All interfaces in the list will be monitored by Detect Internet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_detect_internet#detect_interface_list InterfaceDetectInternet#detect_interface_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_detect_internet#detect_interface_list InterfaceDetectInternet#detect_interface_list}
   */
   readonly detectInterfaceList?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_detect_internet#id InterfaceDetectInternet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_detect_internet#id InterfaceDetectInternet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface InterfaceDetectInternetConfig extends cdktf.TerraformMetaArgume
   /**
   * Interfaces with state Internet will be dynamically added to this list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_detect_internet#internet_interface_list InterfaceDetectInternet#internet_interface_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_detect_internet#internet_interface_list InterfaceDetectInternet#internet_interface_list}
   */
   readonly internetInterfaceList?: string;
   /**
   * Interfaces with state Lan will be dynamically added to this list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_detect_internet#lan_interface_list InterfaceDetectInternet#lan_interface_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_detect_internet#lan_interface_list InterfaceDetectInternet#lan_interface_list}
   */
   readonly lanInterfaceList?: string;
   /**
   * Interfaces with state Wan will be dynamically added to this list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_detect_internet#wan_interface_list InterfaceDetectInternet#wan_interface_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_detect_internet#wan_interface_list InterfaceDetectInternet#wan_interface_list}
   */
   readonly wanInterfaceList?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_detect_internet routeros_interface_detect_internet}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_detect_internet routeros_interface_detect_internet}
 */
 export class InterfaceDetectInternet extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class InterfaceDetectInternet extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InterfaceDetectInternet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InterfaceDetectInternet to import
-  * @param importFromId The id of the existing InterfaceDetectInternet that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_detect_internet#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InterfaceDetectInternet that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_detect_internet#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InterfaceDetectInternet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class InterfaceDetectInternet extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_detect_internet routeros_interface_detect_internet} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_detect_internet routeros_interface_detect_internet} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,7 +86,8 @@ export class InterfaceDetectInternet extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_interface_detect_internet',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.90.0'
+        providerVersion: '1.91.0',
+        providerVersionConstraint: '1.91.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

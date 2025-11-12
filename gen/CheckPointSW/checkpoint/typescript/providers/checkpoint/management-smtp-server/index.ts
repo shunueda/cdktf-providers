@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_smtp_server
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_smtp_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface ManagementSmtpServerConfig extends cdktf.TerraformMetaArguments
   /**
   * Does the mail server requires authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_smtp_server#authentication ManagementSmtpServer#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_smtp_server#authentication ManagementSmtpServer#authentication}
   */
   readonly authentication?: boolean | cdktf.IResolvable;
   /**
   * Color of the object. Should be one of existing colors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_smtp_server#color ManagementSmtpServer#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_smtp_server#color ManagementSmtpServer#color}
   */
   readonly color?: string;
   /**
   * Comments string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_smtp_server#comments ManagementSmtpServer#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_smtp_server#comments ManagementSmtpServer#comments}
   */
   readonly comments?: string;
   /**
   * Indicates which domains to process the commands on. It cannot be used with the details-level full, must be run from the System Domain only and with ignore-warnings true. Valid values are: CURRENT_DOMAIN, ALL_DOMAINS_ON_THIS_SERVER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_smtp_server#domains_to_process ManagementSmtpServer#domains_to_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_smtp_server#domains_to_process ManagementSmtpServer#domains_to_process}
   */
   readonly domainsToProcess?: string[];
   /**
   * Encryption type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_smtp_server#encryption ManagementSmtpServer#encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_smtp_server#encryption ManagementSmtpServer#encryption}
   */
   readonly encryption?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_smtp_server#id ManagementSmtpServer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_smtp_server#id ManagementSmtpServer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,55 +47,55 @@ export interface ManagementSmtpServerConfig extends cdktf.TerraformMetaArguments
   /**
   * Apply changes ignoring errors. You won't be able to publish such a changes. If ignore-warnings flag was omitted - warnings will also be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_smtp_server#ignore_errors ManagementSmtpServer#ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_smtp_server#ignore_errors ManagementSmtpServer#ignore_errors}
   */
   readonly ignoreErrors?: boolean | cdktf.IResolvable;
   /**
   * Apply changes ignoring warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_smtp_server#ignore_warnings ManagementSmtpServer#ignore_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_smtp_server#ignore_warnings ManagementSmtpServer#ignore_warnings}
   */
   readonly ignoreWarnings?: boolean | cdktf.IResolvable;
   /**
   * Object name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_smtp_server#name ManagementSmtpServer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_smtp_server#name ManagementSmtpServer#name}
   */
   readonly name: string;
   /**
   * A password for the SMTP server.<br><font color="red">Required only if</font> authentication is set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_smtp_server#password ManagementSmtpServer#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_smtp_server#password ManagementSmtpServer#password}
   */
   readonly password?: string;
   /**
   * The SMTP port to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_smtp_server#port ManagementSmtpServer#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_smtp_server#port ManagementSmtpServer#port}
   */
   readonly port?: number;
   /**
   * The SMTP server address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_smtp_server#server ManagementSmtpServer#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_smtp_server#server ManagementSmtpServer#server}
   */
   readonly server?: string;
   /**
   * Collection of tag identifiers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_smtp_server#tags ManagementSmtpServer#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_smtp_server#tags ManagementSmtpServer#tags}
   */
   readonly tags?: string[];
   /**
   * A username for the SMTP server.<br><font color="red">Required only if</font> authentication is set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_smtp_server#username ManagementSmtpServer#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_smtp_server#username ManagementSmtpServer#username}
   */
   readonly username?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_smtp_server checkpoint_management_smtp_server}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_smtp_server checkpoint_management_smtp_server}
 */
 export class ManagementSmtpServer extends cdktf.TerraformResource {
 
@@ -111,7 +111,7 @@ export class ManagementSmtpServer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementSmtpServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementSmtpServer to import
-  * @param importFromId The id of the existing ManagementSmtpServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_smtp_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementSmtpServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_smtp_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementSmtpServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -123,7 +123,7 @@ export class ManagementSmtpServer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_smtp_server checkpoint_management_smtp_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_smtp_server checkpoint_management_smtp_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -134,7 +134,8 @@ export class ManagementSmtpServer extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_smtp_server',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

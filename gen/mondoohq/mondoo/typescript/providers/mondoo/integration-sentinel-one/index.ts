@@ -210,7 +210,8 @@ export class IntegrationSentinelOne extends cdktf.TerraformResource {
       terraformResourceType: 'mondoo_integration_sentinel_one',
       terraformGeneratorMetadata: {
         providerName: 'mondoo',
-        providerVersion: '0.34.0'
+        providerVersion: '0.34.0',
+        providerVersionConstraint: '0.34.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

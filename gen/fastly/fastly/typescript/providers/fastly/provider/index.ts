@@ -79,7 +79,8 @@ export class FastlyProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'fastly',
       terraformGeneratorMetadata: {
         providerName: 'fastly',
-        providerVersion: '8.4.0'
+        providerVersion: '8.4.0',
+        providerVersionConstraint: '8.4.0'
       },
       terraformProviderSource: 'fastly/fastly'
     });

@@ -84,7 +84,8 @@ export class UserTemplateImporterIdentityProviderMapper extends cdktf.TerraformR
       terraformResourceType: 'keycloak_user_template_importer_identity_provider_mapper',
       terraformGeneratorMetadata: {
         providerName: 'keycloak',
-        providerVersion: '4.4.0'
+        providerVersion: '4.4.0',
+        providerVersionConstraint: '4.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

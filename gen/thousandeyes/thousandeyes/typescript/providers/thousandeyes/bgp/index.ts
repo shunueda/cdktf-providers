@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/bgp
+// https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/bgp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface BgpConfig extends cdktf.TerraformMetaArguments {
   /**
   * List of alert rules IDs to apply to the test (get `ruleId` from `/alerts/rules` endpoint. If `alertsEnabled` is set to `true` and `alertRules` is not included on test creation or update, applicable user default alert rules will be used)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/bgp#alert_rules Bgp#alert_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/bgp#alert_rules Bgp#alert_rules}
   */
   readonly alertRules?: string[];
   /**
   * Set to 'true' to enable alerts, or 'false' to disable alerts. The default value is 'true'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/bgp#alerts_enabled Bgp#alerts_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/bgp#alerts_enabled Bgp#alerts_enabled}
   */
   readonly alertsEnabled?: boolean | cdktf.IResolvable;
   /**
   * A description of the alert rule. Defaults to an empty string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/bgp#description Bgp#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/bgp#description Bgp#description}
   */
   readonly description?: string;
   /**
   * Enables or disables the test.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/bgp#enabled Bgp#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/bgp#enabled Bgp#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/bgp#id Bgp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/bgp#id Bgp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,43 +41,43 @@ export interface BgpConfig extends cdktf.TerraformMetaArguments {
   /**
   * Include queries for subprefixes detected under this prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/bgp#include_covered_prefixes Bgp#include_covered_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/bgp#include_covered_prefixes Bgp#include_covered_prefixes}
   */
   readonly includeCoveredPrefixes?: boolean | cdktf.IResolvable;
   /**
   * Contains list of BGP monitor IDs (get `monitorId` from `/monitors` endpoint)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/bgp#monitors Bgp#monitors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/bgp#monitors Bgp#monitors}
   */
   readonly monitors?: string[];
   /**
   * The BGP network address prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/bgp#prefix Bgp#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/bgp#prefix Bgp#prefix}
   */
   readonly prefix: string;
   /**
   * List of accounts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/bgp#shared_with_accounts Bgp#shared_with_accounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/bgp#shared_with_accounts Bgp#shared_with_accounts}
   */
   readonly sharedWithAccounts?: string[];
   /**
   * The name of the test.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/bgp#test_name Bgp#test_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/bgp#test_name Bgp#test_name}
   */
   readonly testName?: string;
   /**
   * Enable to automatically add all available Public BGP Monitors to the test.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/bgp#use_public_bgp Bgp#use_public_bgp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/bgp#use_public_bgp Bgp#use_public_bgp}
   */
   readonly usePublicBgp?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/bgp thousandeyes_bgp}
+* Represents a {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/bgp thousandeyes_bgp}
 */
 export class Bgp extends cdktf.TerraformResource {
 
@@ -93,7 +93,7 @@ export class Bgp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Bgp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Bgp to import
-  * @param importFromId The id of the existing Bgp that should be imported. Refer to the {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/bgp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Bgp that should be imported. Refer to the {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/bgp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Bgp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -105,7 +105,7 @@ export class Bgp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/bgp thousandeyes_bgp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/bgp thousandeyes_bgp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -116,7 +116,8 @@ export class Bgp extends cdktf.TerraformResource {
       terraformResourceType: 'thousandeyes_bgp',
       terraformGeneratorMetadata: {
         providerName: 'thousandeyes',
-        providerVersion: '3.1.2'
+        providerVersion: '3.1.3',
+        providerVersionConstraint: '3.1.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

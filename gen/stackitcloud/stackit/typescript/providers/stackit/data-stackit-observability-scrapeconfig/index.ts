@@ -261,7 +261,8 @@ export class DataStackitObservabilityScrapeconfig extends cdktf.TerraformDataSou
       terraformResourceType: 'stackit_observability_scrapeconfig',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.69.0'
+        providerVersion: '0.69.0',
+        providerVersionConstraint: '0.69.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

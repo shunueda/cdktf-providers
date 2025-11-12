@@ -55,7 +55,8 @@ export class DataEcGcpPrivateServiceConnectEndpoint extends cdktf.TerraformDataS
       terraformResourceType: 'ec_gcp_private_service_connect_endpoint',
       terraformGeneratorMetadata: {
         providerName: 'ec',
-        providerVersion: '0.12.2'
+        providerVersion: '0.12.2',
+        providerVersionConstraint: '0.12.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

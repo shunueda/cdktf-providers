@@ -161,7 +161,8 @@ export class DataAlicloudKvstoreInstanceEngines extends cdktf.TerraformDataSourc
       terraformResourceType: 'alicloud_kvstore_instance_engines',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

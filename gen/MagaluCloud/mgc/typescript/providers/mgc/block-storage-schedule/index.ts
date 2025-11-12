@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/magalucloud/mgc/0.39.0/docs/resources/block_storage_schedule
+// https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/resources/block_storage_schedule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface BlockStorageScheduleConfig extends cdktf.TerraformMetaArguments
   /**
   * The description of the snapshot schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.39.0/docs/resources/block_storage_schedule#description BlockStorageSchedule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/resources/block_storage_schedule#description BlockStorageSchedule#description}
   */
   readonly description?: string;
   /**
   * The name of the snapshot schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.39.0/docs/resources/block_storage_schedule#name BlockStorageSchedule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/resources/block_storage_schedule#name BlockStorageSchedule#name}
   */
   readonly name: string;
   /**
   * Start time for daily snapshot creation (HH:MM:SS format).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.39.0/docs/resources/block_storage_schedule#policy_frequency_daily_start_time BlockStorageSchedule#policy_frequency_daily_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/resources/block_storage_schedule#policy_frequency_daily_start_time BlockStorageSchedule#policy_frequency_daily_start_time}
   */
   readonly policyFrequencyDailyStartTime: string;
   /**
   * Number of days to retain snapshots.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.39.0/docs/resources/block_storage_schedule#policy_retention_in_days BlockStorageSchedule#policy_retention_in_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/resources/block_storage_schedule#policy_retention_in_days BlockStorageSchedule#policy_retention_in_days}
   */
   readonly policyRetentionInDays: number;
   /**
   * Type of snapshot to create.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.39.0/docs/resources/block_storage_schedule#snapshot_type BlockStorageSchedule#snapshot_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/resources/block_storage_schedule#snapshot_type BlockStorageSchedule#snapshot_type}
   */
   readonly snapshotType: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.39.0/docs/resources/block_storage_schedule mgc_block_storage_schedule}
+* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/resources/block_storage_schedule mgc_block_storage_schedule}
 */
 export class BlockStorageSchedule extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class BlockStorageSchedule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BlockStorageSchedule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BlockStorageSchedule to import
-  * @param importFromId The id of the existing BlockStorageSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.39.0/docs/resources/block_storage_schedule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BlockStorageSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/resources/block_storage_schedule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BlockStorageSchedule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class BlockStorageSchedule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.39.0/docs/resources/block_storage_schedule mgc_block_storage_schedule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/resources/block_storage_schedule mgc_block_storage_schedule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,7 +79,8 @@ export class BlockStorageSchedule extends cdktf.TerraformResource {
       terraformResourceType: 'mgc_block_storage_schedule',
       terraformGeneratorMetadata: {
         providerName: 'mgc',
-        providerVersion: '0.39.0'
+        providerVersion: '0.40.0',
+        providerVersionConstraint: '0.40.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -179,7 +179,8 @@ export class DataMongodbatlasFederatedQueryLimits extends cdktf.TerraformDataSou
       terraformResourceType: 'mongodbatlas_federated_query_limits',
       terraformGeneratorMetadata: {
         providerName: 'mongodbatlas',
-        providerVersion: '2.1.0'
+        providerVersion: '2.1.0',
+        providerVersionConstraint: '2.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

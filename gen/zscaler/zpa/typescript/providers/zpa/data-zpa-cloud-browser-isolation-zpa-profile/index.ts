@@ -53,7 +53,8 @@ export class DataZpaCloudBrowserIsolationZpaProfile extends cdktf.TerraformDataS
       terraformResourceType: 'zpa_cloud_browser_isolation_zpa_profile',
       terraformGeneratorMetadata: {
         providerName: 'zpa',
-        providerVersion: '4.3.2'
+        providerVersion: '4.3.2',
+        providerVersionConstraint: '4.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

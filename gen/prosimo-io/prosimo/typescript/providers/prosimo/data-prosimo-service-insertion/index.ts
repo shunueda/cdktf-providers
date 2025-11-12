@@ -753,7 +753,8 @@ export class DataProsimoServiceInsertion extends cdktf.TerraformDataSource {
       terraformResourceType: 'prosimo_service_insertion',
       terraformGeneratorMetadata: {
         providerName: 'prosimo',
-        providerVersion: '4.5.3'
+        providerVersion: '4.5.3',
+        providerVersionConstraint: '4.5.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

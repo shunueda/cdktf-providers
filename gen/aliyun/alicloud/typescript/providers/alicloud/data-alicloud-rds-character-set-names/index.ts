@@ -64,7 +64,8 @@ export class DataAlicloudRdsCharacterSetNames extends cdktf.TerraformDataSource 
       terraformResourceType: 'alicloud_rds_character_set_names',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

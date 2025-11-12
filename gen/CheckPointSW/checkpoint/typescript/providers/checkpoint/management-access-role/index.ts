@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_role
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_role
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ManagementAccessRoleConfig extends cdktf.TerraformMetaArguments
   /**
   * Color of the object. Should be one of existing colors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_role#color ManagementAccessRole#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_role#color ManagementAccessRole#color}
   */
   readonly color?: string;
   /**
   * Comments string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_role#comments ManagementAccessRole#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_role#comments ManagementAccessRole#comments}
   */
   readonly comments?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_role#id ManagementAccessRole#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_role#id ManagementAccessRole#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,55 +29,55 @@ export interface ManagementAccessRoleConfig extends cdktf.TerraformMetaArguments
   /**
   * Apply changes ignoring errors. You won't be able to publish such a changes. If ignore-warnings flag was omitted - warnings will also be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_role#ignore_errors ManagementAccessRole#ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_role#ignore_errors ManagementAccessRole#ignore_errors}
   */
   readonly ignoreErrors?: boolean | cdktf.IResolvable;
   /**
   * Apply changes ignoring warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_role#ignore_warnings ManagementAccessRole#ignore_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_role#ignore_warnings ManagementAccessRole#ignore_warnings}
   */
   readonly ignoreWarnings?: boolean | cdktf.IResolvable;
   /**
   * Object name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_role#name ManagementAccessRole#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_role#name ManagementAccessRole#name}
   */
   readonly name: string;
   /**
   * Collection of Network objects identified by the name or UID that can access the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_role#networks ManagementAccessRole#networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_role#networks ManagementAccessRole#networks}
   */
   readonly networks?: string[];
   /**
   * Remote access clients identified by name or UID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_role#remote_access_clients ManagementAccessRole#remote_access_clients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_role#remote_access_clients ManagementAccessRole#remote_access_clients}
   */
   readonly remoteAccessClients?: string;
   /**
   * Collection of tag identifiers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_role#tags ManagementAccessRole#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_role#tags ManagementAccessRole#tags}
   */
   readonly tags?: string[];
   /**
   * machines block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_role#machines ManagementAccessRole#machines}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_role#machines ManagementAccessRole#machines}
   */
   readonly machines?: ManagementAccessRoleMachines[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_role#timeouts ManagementAccessRole#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_role#timeouts ManagementAccessRole#timeouts}
   */
   readonly timeouts?: ManagementAccessRoleTimeouts;
   /**
   * users block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_role#users ManagementAccessRole#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_role#users ManagementAccessRole#users}
   */
   readonly users?: ManagementAccessRoleUsers[] | cdktf.IResolvable;
 }
@@ -85,19 +85,19 @@ export interface ManagementAccessRoleMachines {
   /**
   * When source is "Active Directory" use "base-dn" to refine the query in AD database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_role#base_dn ManagementAccessRole#base_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_role#base_dn ManagementAccessRole#base_dn}
   */
   readonly baseDn?: string;
   /**
   * Name or UID of an object selected from source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_role#selection ManagementAccessRole#selection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_role#selection ManagementAccessRole#selection}
   */
   readonly selection?: string[];
   /**
   * Active Directory name or UID or Identity Tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_role#source ManagementAccessRole#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_role#source ManagementAccessRole#source}
   */
   readonly source?: string;
 }
@@ -271,7 +271,7 @@ export class ManagementAccessRoleMachinesList extends cdktf.ComplexList {
 }
 export interface ManagementAccessRoleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_role#create ManagementAccessRole#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_role#create ManagementAccessRole#create}
   */
   readonly create?: string;
 }
@@ -367,19 +367,19 @@ export interface ManagementAccessRoleUsers {
   /**
   * When source is "Active Directory" use "base-dn" to refine the query in AD database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_role#base_dn ManagementAccessRole#base_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_role#base_dn ManagementAccessRole#base_dn}
   */
   readonly baseDn?: string;
   /**
   * Name or UID of an object selected from source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_role#selection ManagementAccessRole#selection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_role#selection ManagementAccessRole#selection}
   */
   readonly selection?: string[];
   /**
   * Active Directory name or UID or Identity Tag  or Internal User Groups or LDAP groups or Guests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_role#source ManagementAccessRole#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_role#source ManagementAccessRole#source}
   */
   readonly source?: string;
 }
@@ -553,7 +553,7 @@ export class ManagementAccessRoleUsersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_role checkpoint_management_access_role}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_role checkpoint_management_access_role}
 */
 export class ManagementAccessRole extends cdktf.TerraformResource {
 
@@ -569,7 +569,7 @@ export class ManagementAccessRole extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementAccessRole resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementAccessRole to import
-  * @param importFromId The id of the existing ManagementAccessRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_role#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementAccessRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_role#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementAccessRole to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -581,7 +581,7 @@ export class ManagementAccessRole extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_role checkpoint_management_access_role} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_role checkpoint_management_access_role} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -592,7 +592,8 @@ export class ManagementAccessRole extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_access_role',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

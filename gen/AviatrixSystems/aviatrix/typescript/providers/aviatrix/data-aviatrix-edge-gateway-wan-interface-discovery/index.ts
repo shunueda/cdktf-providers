@@ -68,7 +68,8 @@ export class DataAviatrixEdgeGatewayWanInterfaceDiscovery extends cdktf.Terrafor
       terraformResourceType: 'aviatrix_edge_gateway_wan_interface_discovery',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10'
+        providerVersion: '8.1.10',
+        providerVersionConstraint: '8.1.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

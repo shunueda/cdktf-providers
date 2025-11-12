@@ -375,7 +375,8 @@ export class ApplicationCsr extends cdktf.TerraformResource {
       terraformResourceType: 'ome_application_csr',
       terraformGeneratorMetadata: {
         providerName: 'ome',
-        providerVersion: '1.2.3'
+        providerVersion: '1.2.3',
+        providerVersionConstraint: '1.2.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

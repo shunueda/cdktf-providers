@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/telemetry_service_registry_entry
+// https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/telemetry_service_registry_entry
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface TelemetryServiceRegistryEntryConfig extends cdktf.TerraformMeta
   /**
   * Application Schema expressed in JSON
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/telemetry_service_registry_entry#application_schema TelemetryServiceRegistryEntry#application_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/telemetry_service_registry_entry#application_schema TelemetryServiceRegistryEntry#application_schema}
   */
   readonly applicationSchema: string;
   /**
   * Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/telemetry_service_registry_entry#description TelemetryServiceRegistryEntry#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/telemetry_service_registry_entry#description TelemetryServiceRegistryEntry#description}
   */
   readonly description?: string;
   /**
   * Service Name. Used to identify the Service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/telemetry_service_registry_entry#name TelemetryServiceRegistryEntry#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/telemetry_service_registry_entry#name TelemetryServiceRegistryEntry#name}
   */
   readonly name: string;
   /**
@@ -31,13 +31,13 @@ export interface TelemetryServiceRegistryEntryConfig extends cdktf.TerraformMeta
   *   - iba_integer_data
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/telemetry_service_registry_entry#storage_schema_path TelemetryServiceRegistryEntry#storage_schema_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/telemetry_service_registry_entry#storage_schema_path TelemetryServiceRegistryEntry#storage_schema_path}
   */
   readonly storageSchemaPath: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/telemetry_service_registry_entry apstra_telemetry_service_registry_entry}
+* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/telemetry_service_registry_entry apstra_telemetry_service_registry_entry}
 */
 export class TelemetryServiceRegistryEntry extends cdktf.TerraformResource {
 
@@ -53,7 +53,7 @@ export class TelemetryServiceRegistryEntry extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TelemetryServiceRegistryEntry resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TelemetryServiceRegistryEntry to import
-  * @param importFromId The id of the existing TelemetryServiceRegistryEntry that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/telemetry_service_registry_entry#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TelemetryServiceRegistryEntry that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/telemetry_service_registry_entry#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TelemetryServiceRegistryEntry to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -65,7 +65,7 @@ export class TelemetryServiceRegistryEntry extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/telemetry_service_registry_entry apstra_telemetry_service_registry_entry} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/telemetry_service_registry_entry apstra_telemetry_service_registry_entry} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -76,7 +76,8 @@ export class TelemetryServiceRegistryEntry extends cdktf.TerraformResource {
       terraformResourceType: 'apstra_telemetry_service_registry_entry',
       terraformGeneratorMetadata: {
         providerName: 'apstra',
-        providerVersion: '0.95.0'
+        providerVersion: '0.95.1',
+        providerVersionConstraint: '0.95.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

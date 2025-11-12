@@ -62,7 +62,8 @@ export class DataDsmUser extends cdktf.TerraformDataSource {
       terraformResourceType: 'dsm_user',
       terraformGeneratorMetadata: {
         providerName: 'dsm',
-        providerVersion: '0.5.36'
+        providerVersion: '0.5.36',
+        providerVersionConstraint: '0.5.36'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

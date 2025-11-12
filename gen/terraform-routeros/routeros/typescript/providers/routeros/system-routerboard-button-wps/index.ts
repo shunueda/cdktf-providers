@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/system_routerboard_button_wps
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/system_routerboard_button_wps
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface SystemRouterboardButtonWpsConfig extends cdktf.TerraformMetaArg
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/system_routerboard_button_wps#___path___ SystemRouterboardButtonWps#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/system_routerboard_button_wps#___path___ SystemRouterboardButtonWps#___path___}
   */
   readonly path?: string;
   /**
   * An option to enable the operation of the button.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/system_routerboard_button_wps#enabled SystemRouterboardButtonWps#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/system_routerboard_button_wps#enabled SystemRouterboardButtonWps#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * An option to define the period within which the button should be pressed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/system_routerboard_button_wps#hold_time SystemRouterboardButtonWps#hold_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/system_routerboard_button_wps#hold_time SystemRouterboardButtonWps#hold_time}
   */
   readonly holdTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/system_routerboard_button_wps#id SystemRouterboardButtonWps#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/system_routerboard_button_wps#id SystemRouterboardButtonWps#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,13 +35,13 @@ export interface SystemRouterboardButtonWpsConfig extends cdktf.TerraformMetaArg
   /**
   * An option to set the script that will be run upon pressing the button.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/system_routerboard_button_wps#on_event SystemRouterboardButtonWps#on_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/system_routerboard_button_wps#on_event SystemRouterboardButtonWps#on_event}
   */
   readonly onEvent?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/system_routerboard_button_wps routeros_system_routerboard_button_wps}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/system_routerboard_button_wps routeros_system_routerboard_button_wps}
 */
 export class SystemRouterboardButtonWps extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class SystemRouterboardButtonWps extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SystemRouterboardButtonWps resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SystemRouterboardButtonWps to import
-  * @param importFromId The id of the existing SystemRouterboardButtonWps that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/system_routerboard_button_wps#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SystemRouterboardButtonWps that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/system_routerboard_button_wps#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SystemRouterboardButtonWps to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class SystemRouterboardButtonWps extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/system_routerboard_button_wps routeros_system_routerboard_button_wps} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/system_routerboard_button_wps routeros_system_routerboard_button_wps} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,7 +80,8 @@ export class SystemRouterboardButtonWps extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_system_routerboard_button_wps',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.90.0'
+        providerVersion: '1.91.0',
+        providerVersionConstraint: '1.91.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -73,7 +73,8 @@ export class TidbcloudProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'tidbcloud',
       terraformGeneratorMetadata: {
         providerName: 'tidbcloud',
-        providerVersion: '0.4.5'
+        providerVersion: '0.4.5',
+        providerVersionConstraint: '0.4.5'
       },
       terraformProviderSource: 'tidbcloud/tidbcloud'
     });

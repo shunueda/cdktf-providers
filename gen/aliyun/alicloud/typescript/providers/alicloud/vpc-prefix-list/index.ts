@@ -511,7 +511,8 @@ export class VpcPrefixList extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_vpc_prefix_list',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

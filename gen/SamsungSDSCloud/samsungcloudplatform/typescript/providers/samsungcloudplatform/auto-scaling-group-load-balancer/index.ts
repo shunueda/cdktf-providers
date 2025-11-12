@@ -68,7 +68,8 @@ export class AutoScalingGroupLoadBalancer extends cdktf.TerraformResource {
       terraformResourceType: 'samsungcloudplatform_auto_scaling_group_load_balancer',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0'
+        providerVersion: '3.15.0',
+        providerVersionConstraint: '3.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

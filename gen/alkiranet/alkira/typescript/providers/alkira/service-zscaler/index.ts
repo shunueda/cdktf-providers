@@ -581,7 +581,8 @@ export class ServiceZscaler extends cdktf.TerraformResource {
       terraformResourceType: 'alkira_service_zscaler',
       terraformGeneratorMetadata: {
         providerName: 'alkira',
-        providerVersion: '1.3.2'
+        providerVersion: '1.3.2',
+        providerVersionConstraint: '1.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

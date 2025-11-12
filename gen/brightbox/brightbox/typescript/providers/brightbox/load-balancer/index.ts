@@ -806,7 +806,8 @@ export class LoadBalancer extends cdktf.TerraformResource {
       terraformResourceType: 'brightbox_load_balancer',
       terraformGeneratorMetadata: {
         providerName: 'brightbox',
-        providerVersion: '3.4.3'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

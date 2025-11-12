@@ -1146,7 +1146,8 @@ export class DataZiaSandboxReport extends cdktf.TerraformDataSource {
       terraformResourceType: 'zia_sandbox_report',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.5.3'
+        providerVersion: '4.5.3',
+        providerVersionConstraint: '4.5.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

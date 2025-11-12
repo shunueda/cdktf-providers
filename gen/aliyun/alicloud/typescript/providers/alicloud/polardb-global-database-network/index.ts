@@ -230,7 +230,8 @@ export class PolardbGlobalDatabaseNetwork extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_polardb_global_database_network',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

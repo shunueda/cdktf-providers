@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/regions
+// https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/regions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataLinodeRegionsConfig extends cdktf.TerraformMetaArguments {
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/regions#filter DataLinodeRegions#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/regions#filter DataLinodeRegions#filter}
   */
   readonly filter?: DataLinodeRegionsFilter[] | cdktf.IResolvable;
   /**
   * regions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/regions#regions DataLinodeRegions#regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/regions#regions DataLinodeRegions#regions}
   */
   readonly regions?: DataLinodeRegionsRegions[] | cdktf.IResolvable;
 }
@@ -24,19 +24,19 @@ export interface DataLinodeRegionsFilter {
   /**
   * The type of comparison to use for this filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/regions#match_by DataLinodeRegions#match_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/regions#match_by DataLinodeRegions#match_by}
   */
   readonly matchBy?: string;
   /**
   * The name of the attribute to filter on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/regions#name DataLinodeRegions#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/regions#name DataLinodeRegions#name}
   */
   readonly name: string;
   /**
   * The value(s) to be used in the filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/regions#values DataLinodeRegions#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/regions#values DataLinodeRegions#values}
   */
   readonly values: string[];
 }
@@ -377,7 +377,7 @@ export interface DataLinodeRegionsRegions {
   /**
   * The unique ID of this Region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/regions#id DataLinodeRegions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/regions#id DataLinodeRegions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -386,7 +386,7 @@ export interface DataLinodeRegionsRegions {
   /**
   * resolvers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/regions#resolvers DataLinodeRegions#resolvers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/regions#resolvers DataLinodeRegions#resolvers}
   */
   readonly resolvers?: DataLinodeRegionsRegionsResolvers[] | cdktf.IResolvable;
 }
@@ -559,7 +559,7 @@ export class DataLinodeRegionsRegionsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/regions linode_regions}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/regions linode_regions}
 */
 export class DataLinodeRegions extends cdktf.TerraformDataSource {
 
@@ -575,7 +575,7 @@ export class DataLinodeRegions extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataLinodeRegions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataLinodeRegions to import
-  * @param importFromId The id of the existing DataLinodeRegions that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/regions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataLinodeRegions that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/regions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataLinodeRegions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -587,7 +587,7 @@ export class DataLinodeRegions extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/regions linode_regions} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/regions linode_regions} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -598,7 +598,8 @@ export class DataLinodeRegions extends cdktf.TerraformDataSource {
       terraformResourceType: 'linode_regions',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.5.0'
+        providerVersion: '3.5.1',
+        providerVersionConstraint: '3.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

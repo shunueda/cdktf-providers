@@ -86,7 +86,8 @@ export class UiPlugin extends cdktf.TerraformResource {
       terraformResourceType: 'vcd_ui_plugin',
       terraformGeneratorMetadata: {
         providerName: 'vcd',
-        providerVersion: '3.14.1'
+        providerVersion: '3.14.1',
+        providerVersionConstraint: '3.14.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

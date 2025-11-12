@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnformssoaction
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnformssoaction
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,52 +8,52 @@ import * as cdktf from 'cdktf';
 
 export interface VpnformssoactionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnformssoaction#actionurl Vpnformssoaction#actionurl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnformssoaction#actionurl Vpnformssoaction#actionurl}
   */
   readonly actionurl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnformssoaction#id Vpnformssoaction#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnformssoaction#id Vpnformssoaction#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnformssoaction#name Vpnformssoaction#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnformssoaction#name Vpnformssoaction#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnformssoaction#namevaluepair Vpnformssoaction#namevaluepair}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnformssoaction#namevaluepair Vpnformssoaction#namevaluepair}
   */
   readonly namevaluepair?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnformssoaction#nvtype Vpnformssoaction#nvtype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnformssoaction#nvtype Vpnformssoaction#nvtype}
   */
   readonly nvtype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnformssoaction#passwdfield Vpnformssoaction#passwdfield}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnformssoaction#passwdfield Vpnformssoaction#passwdfield}
   */
   readonly passwdfield: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnformssoaction#responsesize Vpnformssoaction#responsesize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnformssoaction#responsesize Vpnformssoaction#responsesize}
   */
   readonly responsesize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnformssoaction#ssosuccessrule Vpnformssoaction#ssosuccessrule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnformssoaction#ssosuccessrule Vpnformssoaction#ssosuccessrule}
   */
   readonly ssosuccessrule: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnformssoaction#submitmethod Vpnformssoaction#submitmethod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnformssoaction#submitmethod Vpnformssoaction#submitmethod}
   */
   readonly submitmethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnformssoaction#userfield Vpnformssoaction#userfield}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnformssoaction#userfield Vpnformssoaction#userfield}
   */
   readonly userfield: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnformssoaction citrixadc_vpnformssoaction}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnformssoaction citrixadc_vpnformssoaction}
 */
 export class Vpnformssoaction extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class Vpnformssoaction extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Vpnformssoaction resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Vpnformssoaction to import
-  * @param importFromId The id of the existing Vpnformssoaction that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnformssoaction#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Vpnformssoaction that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnformssoaction#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Vpnformssoaction to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class Vpnformssoaction extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnformssoaction citrixadc_vpnformssoaction} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnformssoaction citrixadc_vpnformssoaction} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,7 +92,8 @@ export class Vpnformssoaction extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_vpnformssoaction',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

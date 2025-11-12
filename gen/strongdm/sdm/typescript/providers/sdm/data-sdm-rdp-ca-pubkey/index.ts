@@ -164,7 +164,8 @@ export class DataSdmRdpCaPubkey extends cdktf.TerraformDataSource {
       terraformResourceType: 'sdm_rdp_ca_pubkey',
       terraformGeneratorMetadata: {
         providerName: 'sdm',
-        providerVersion: '15.27.0'
+        providerVersion: '15.27.0',
+        providerVersionConstraint: '15.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -67,7 +67,8 @@ export class ChecklyProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'checkly',
       terraformGeneratorMetadata: {
         providerName: 'checkly',
-        providerVersion: '1.16.0'
+        providerVersion: '1.16.0',
+        providerVersionConstraint: '1.16.0'
       },
       terraformProviderSource: 'checkly/checkly'
     });

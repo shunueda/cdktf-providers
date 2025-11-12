@@ -205,7 +205,8 @@ export class DataVultrPlan extends cdktf.TerraformDataSource {
       terraformResourceType: 'vultr_plan',
       terraformGeneratorMetadata: {
         providerName: 'vultr',
-        providerVersion: '2.27.1'
+        providerVersion: '2.27.1',
+        providerVersionConstraint: '2.27.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

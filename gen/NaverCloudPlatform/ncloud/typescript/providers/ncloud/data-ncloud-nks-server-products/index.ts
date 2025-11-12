@@ -573,7 +573,8 @@ export class DataNcloudNksServerProducts extends cdktf.TerraformDataSource {
       terraformResourceType: 'ncloud_nks_server_products',
       terraformGeneratorMetadata: {
         providerName: 'ncloud',
-        providerVersion: '4.0.4'
+        providerVersion: '4.0.4',
+        providerVersionConstraint: '4.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

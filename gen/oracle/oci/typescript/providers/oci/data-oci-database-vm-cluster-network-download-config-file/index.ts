@@ -68,7 +68,8 @@ export class DataOciDatabaseVmClusterNetworkDownloadConfigFile extends cdktf.Ter
       terraformResourceType: 'oci_database_vm_cluster_network_download_config_file',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

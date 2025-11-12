@@ -80,7 +80,8 @@ export class DataNetboxVlanGroup extends cdktf.TerraformDataSource {
       terraformResourceType: 'netbox_vlan_group',
       terraformGeneratorMetadata: {
         providerName: 'netbox',
-        providerVersion: '5.0.0'
+        providerVersion: '5.0.0',
+        providerVersionConstraint: '5.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

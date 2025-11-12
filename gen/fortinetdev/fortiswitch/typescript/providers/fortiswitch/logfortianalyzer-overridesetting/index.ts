@@ -128,7 +128,8 @@ export class LogfortianalyzerOverridesetting extends cdktf.TerraformResource {
       terraformResourceType: 'fortiswitch_logfortianalyzer_overridesetting',
       terraformGeneratorMetadata: {
         providerName: 'fortiswitch',
-        providerVersion: '1.1.6'
+        providerVersion: '1.1.6',
+        providerVersionConstraint: '1.1.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

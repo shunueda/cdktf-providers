@@ -459,7 +459,8 @@ export class ComputeCloudAtCustomerCccUpgradeSchedule extends cdktf.TerraformRes
       terraformResourceType: 'oci_compute_cloud_at_customer_ccc_upgrade_schedule',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

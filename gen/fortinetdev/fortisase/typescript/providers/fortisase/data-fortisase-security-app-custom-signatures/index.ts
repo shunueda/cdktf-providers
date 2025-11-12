@@ -97,7 +97,8 @@ export class DataFortisaseSecurityAppCustomSignatures extends cdktf.TerraformDat
       terraformResourceType: 'fortisase_security_app_custom_signatures',
       terraformGeneratorMetadata: {
         providerName: 'fortisase',
-        providerVersion: '1.0.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

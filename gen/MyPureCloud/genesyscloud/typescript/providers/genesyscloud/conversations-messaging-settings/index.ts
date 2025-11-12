@@ -746,7 +746,8 @@ export class ConversationsMessagingSettings extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_conversations_messaging_settings',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.70.0'
+        providerVersion: '1.70.0',
+        providerVersionConstraint: '1.70.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

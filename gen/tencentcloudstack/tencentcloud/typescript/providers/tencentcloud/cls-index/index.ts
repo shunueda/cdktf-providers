@@ -1419,7 +1419,8 @@ export class ClsIndex extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cls_index',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

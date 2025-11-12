@@ -251,7 +251,8 @@ export class DataThunderIpv6NatPoolStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_ipv6_nat_pool_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

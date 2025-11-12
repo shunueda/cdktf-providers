@@ -689,7 +689,8 @@ export class DataTencentcloudClbListenersByTargets extends cdktf.TerraformDataSo
       terraformResourceType: 'tencentcloud_clb_listeners_by_targets',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

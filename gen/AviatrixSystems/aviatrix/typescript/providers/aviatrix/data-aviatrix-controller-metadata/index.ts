@@ -56,7 +56,8 @@ export class DataAviatrixControllerMetadata extends cdktf.TerraformDataSource {
       terraformResourceType: 'aviatrix_controller_metadata',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10'
+        providerVersion: '8.1.10',
+        providerVersionConstraint: '8.1.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

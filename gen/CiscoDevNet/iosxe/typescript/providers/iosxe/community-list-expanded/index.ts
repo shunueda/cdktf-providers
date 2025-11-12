@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/community_list_expanded
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/community_list_expanded
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface CommunityListExpandedConfig extends cdktf.TerraformMetaArgument
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/community_list_expanded#device CommunityListExpanded#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/community_list_expanded#device CommunityListExpanded#device}
   */
   readonly device?: string;
   /**
   * Specify community list to accept or deny
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/community_list_expanded#entries CommunityListExpanded#entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/community_list_expanded#entries CommunityListExpanded#entries}
   */
   readonly entries?: CommunityListExpandedEntries[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/community_list_expanded#name CommunityListExpanded#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/community_list_expanded#name CommunityListExpanded#name}
   */
   readonly name: string;
 }
@@ -29,11 +29,11 @@ export interface CommunityListExpandedEntries {
   * 
   *   - Choices: `deny`, `permit`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/community_list_expanded#action CommunityListExpanded#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/community_list_expanded#action CommunityListExpanded#action}
   */
   readonly action: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/community_list_expanded#regex CommunityListExpanded#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/community_list_expanded#regex CommunityListExpanded#regex}
   */
   readonly regex: string;
 }
@@ -172,7 +172,7 @@ export class CommunityListExpandedEntriesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/community_list_expanded iosxe_community_list_expanded}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/community_list_expanded iosxe_community_list_expanded}
 */
 export class CommunityListExpanded extends cdktf.TerraformResource {
 
@@ -188,7 +188,7 @@ export class CommunityListExpanded extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CommunityListExpanded resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CommunityListExpanded to import
-  * @param importFromId The id of the existing CommunityListExpanded that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/community_list_expanded#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CommunityListExpanded that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/community_list_expanded#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CommunityListExpanded to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -200,7 +200,7 @@ export class CommunityListExpanded extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/community_list_expanded iosxe_community_list_expanded} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/community_list_expanded iosxe_community_list_expanded} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -211,7 +211,8 @@ export class CommunityListExpanded extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_community_list_expanded',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.9.3'
+        providerVersion: '0.10.0',
+        providerVersionConstraint: '0.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

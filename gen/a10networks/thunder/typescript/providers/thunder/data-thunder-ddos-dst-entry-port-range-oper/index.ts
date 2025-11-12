@@ -5989,7 +5989,8 @@ export class DataThunderDdosDstEntryPortRangeOper extends cdktf.TerraformDataSou
       terraformResourceType: 'thunder_ddos_dst_entry_port_range_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

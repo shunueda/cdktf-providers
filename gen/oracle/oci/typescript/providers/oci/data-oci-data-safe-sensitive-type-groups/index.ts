@@ -474,7 +474,8 @@ export class DataOciDataSafeSensitiveTypeGroups extends cdktf.TerraformDataSourc
       terraformResourceType: 'oci_data_safe_sensitive_type_groups',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -73,7 +73,8 @@ export class SolacebrokerOauthProfileClientRequiredClaim extends cdktf.Terraform
       terraformResourceType: 'solacebroker_oauth_profile_client_required_claim',
       terraformGeneratorMetadata: {
         providerName: 'solacebrokerappliance',
-        providerVersion: '1.2.0'
+        providerVersion: '1.2.0',
+        providerVersionConstraint: '1.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

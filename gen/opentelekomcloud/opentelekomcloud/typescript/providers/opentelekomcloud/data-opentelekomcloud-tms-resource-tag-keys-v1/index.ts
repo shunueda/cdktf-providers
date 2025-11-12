@@ -60,7 +60,8 @@ export class DataOpentelekomcloudTmsResourceTagKeysV1 extends cdktf.TerraformDat
       terraformResourceType: 'opentelekomcloud_tms_resource_tag_keys_v1',
       terraformGeneratorMetadata: {
         providerName: 'opentelekomcloud',
-        providerVersion: '1.36.52'
+        providerVersion: '1.36.52',
+        providerVersionConstraint: '1.36.52'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

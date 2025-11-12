@@ -66,7 +66,8 @@ export class DataK8SLokiGrafanaComLokiStackV1Manifest extends cdktf.TerraformDat
       terraformResourceType: 'k8s_loki_grafana_com_loki_stack_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

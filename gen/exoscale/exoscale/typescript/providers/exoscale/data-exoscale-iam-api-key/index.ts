@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/data-sources/iam_api_key
+// https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/iam_api_key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataExoscaleIamApiKeyConfig extends cdktf.TerraformMetaArgument
   /**
   * The IAM API Key to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/data-sources/iam_api_key#key DataExoscaleIamApiKey#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/iam_api_key#key DataExoscaleIamApiKey#key}
   */
   readonly key: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/data-sources/iam_api_key#timeouts DataExoscaleIamApiKey#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/iam_api_key#timeouts DataExoscaleIamApiKey#timeouts}
   */
   readonly timeouts?: DataExoscaleIamApiKeyTimeouts;
 }
@@ -24,7 +24,7 @@ export interface DataExoscaleIamApiKeyTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/data-sources/iam_api_key#read DataExoscaleIamApiKey#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/iam_api_key#read DataExoscaleIamApiKey#read}
   */
   readonly read?: string;
 }
@@ -118,7 +118,7 @@ export class DataExoscaleIamApiKeyTimeoutsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/data-sources/iam_api_key exoscale_iam_api_key}
+* Represents a {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/iam_api_key exoscale_iam_api_key}
 */
 export class DataExoscaleIamApiKey extends cdktf.TerraformDataSource {
 
@@ -134,7 +134,7 @@ export class DataExoscaleIamApiKey extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataExoscaleIamApiKey resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataExoscaleIamApiKey to import
-  * @param importFromId The id of the existing DataExoscaleIamApiKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/data-sources/iam_api_key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataExoscaleIamApiKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/iam_api_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataExoscaleIamApiKey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -146,7 +146,7 @@ export class DataExoscaleIamApiKey extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/data-sources/iam_api_key exoscale_iam_api_key} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/iam_api_key exoscale_iam_api_key} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -157,7 +157,8 @@ export class DataExoscaleIamApiKey extends cdktf.TerraformDataSource {
       terraformResourceType: 'exoscale_iam_api_key',
       terraformGeneratorMetadata: {
         providerName: 'exoscale',
-        providerVersion: '0.66.0'
+        providerVersion: '0.67.0',
+        providerVersionConstraint: '0.67.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

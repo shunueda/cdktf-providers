@@ -64,7 +64,8 @@ export class DataFortiosSystemAutomationactionlist extends cdktf.TerraformDataSo
       terraformResourceType: 'fortios_system_automationactionlist',
       terraformGeneratorMetadata: {
         providerName: 'fortios',
-        providerVersion: '1.23.0'
+        providerVersion: '1.23.0',
+        providerVersionConstraint: '1.23.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

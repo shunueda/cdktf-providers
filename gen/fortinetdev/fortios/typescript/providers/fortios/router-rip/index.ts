@@ -1949,7 +1949,8 @@ export class RouterRip extends cdktf.TerraformResource {
       terraformResourceType: 'fortios_router_rip',
       terraformGeneratorMetadata: {
         providerName: 'fortios',
-        providerVersion: '1.23.0'
+        providerVersion: '1.23.0',
+        providerVersionConstraint: '1.23.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

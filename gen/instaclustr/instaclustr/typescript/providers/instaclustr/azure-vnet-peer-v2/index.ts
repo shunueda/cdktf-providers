@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/azure_vnet_peer_v2
+// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/azure_vnet_peer_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface AzureVnetPeerV2Config extends cdktf.TerraformMetaArguments {
   /**
   * ID of the Cluster Data Centre.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/azure_vnet_peer_v2#cdc_id AzureVnetPeerV2#cdc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/azure_vnet_peer_v2#cdc_id AzureVnetPeerV2#cdc_id}
   */
   readonly cdcId: string;
   /**
   * Resource Group Name of the Data Centre Virtual Network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/azure_vnet_peer_v2#data_centre_resource_group AzureVnetPeerV2#data_centre_resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/azure_vnet_peer_v2#data_centre_resource_group AzureVnetPeerV2#data_centre_resource_group}
   */
   readonly dataCentreResourceGroup?: string;
   /**
   * Subscription ID of the Data Centre Virtual Network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/azure_vnet_peer_v2#data_centre_subscription_id AzureVnetPeerV2#data_centre_subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/azure_vnet_peer_v2#data_centre_subscription_id AzureVnetPeerV2#data_centre_subscription_id}
   */
   readonly dataCentreSubscriptionId?: string;
   /**
   * The name of the Data Centre Virtual Network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/azure_vnet_peer_v2#data_centre_virtual_network_name AzureVnetPeerV2#data_centre_virtual_network_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/azure_vnet_peer_v2#data_centre_virtual_network_name AzureVnetPeerV2#data_centre_virtual_network_name}
   */
   readonly dataCentreVirtualNetworkName?: string;
   /**
   * Reason for Peering Connection Failure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/azure_vnet_peer_v2#failure_reason AzureVnetPeerV2#failure_reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/azure_vnet_peer_v2#failure_reason AzureVnetPeerV2#failure_reason}
   */
   readonly failureReason?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/azure_vnet_peer_v2#id AzureVnetPeerV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/azure_vnet_peer_v2#id AzureVnetPeerV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,55 +47,55 @@ export interface AzureVnetPeerV2Config extends cdktf.TerraformMetaArguments {
   /**
   * Name of the Vpc Peering Connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/azure_vnet_peer_v2#name AzureVnetPeerV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/azure_vnet_peer_v2#name AzureVnetPeerV2#name}
   */
   readonly name?: string;
   /**
   * ID of the Active Directory Object to give peering permissions to, required for cross subscription peering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/azure_vnet_peer_v2#peer_ad_object_id AzureVnetPeerV2#peer_ad_object_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/azure_vnet_peer_v2#peer_ad_object_id AzureVnetPeerV2#peer_ad_object_id}
   */
   readonly peerAdObjectId?: string;
   /**
   * Resource Group Name of the Virtual Network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/azure_vnet_peer_v2#peer_resource_group AzureVnetPeerV2#peer_resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/azure_vnet_peer_v2#peer_resource_group AzureVnetPeerV2#peer_resource_group}
   */
   readonly peerResourceGroup: string;
   /**
   * The subnets for the peering VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/azure_vnet_peer_v2#peer_subnets AzureVnetPeerV2#peer_subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/azure_vnet_peer_v2#peer_subnets AzureVnetPeerV2#peer_subnets}
   */
   readonly peerSubnets: string[];
   /**
   * Subscription ID of the Virtual Network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/azure_vnet_peer_v2#peer_subscription_id AzureVnetPeerV2#peer_subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/azure_vnet_peer_v2#peer_subscription_id AzureVnetPeerV2#peer_subscription_id}
   */
   readonly peerSubscriptionId: string;
   /**
   * The name of the VPC Network you wish to peer to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/azure_vnet_peer_v2#peer_virtual_network_name AzureVnetPeerV2#peer_virtual_network_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/azure_vnet_peer_v2#peer_virtual_network_name AzureVnetPeerV2#peer_virtual_network_name}
   */
   readonly peerVirtualNetworkName: string;
   /**
   * Status of the VPC Peering Connection. Values can be `GENESIS`, `PROVISIONING`, `FAILED`, `INACTIVE`, `CONNECTED` or `UNKNOWN`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/azure_vnet_peer_v2#status_code AzureVnetPeerV2#status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/azure_vnet_peer_v2#status_code AzureVnetPeerV2#status_code}
   */
   readonly statusCode?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/azure_vnet_peer_v2#timeouts AzureVnetPeerV2#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/azure_vnet_peer_v2#timeouts AzureVnetPeerV2#timeouts}
   */
   readonly timeouts?: AzureVnetPeerV2Timeouts;
 }
 export interface AzureVnetPeerV2Timeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/azure_vnet_peer_v2#default AzureVnetPeerV2#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/azure_vnet_peer_v2#default AzureVnetPeerV2#default}
   */
   readonly default?: string;
 }
@@ -189,7 +189,7 @@ export class AzureVnetPeerV2TimeoutsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/azure_vnet_peer_v2 instaclustr_azure_vnet_peer_v2}
+* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/azure_vnet_peer_v2 instaclustr_azure_vnet_peer_v2}
 */
 export class AzureVnetPeerV2 extends cdktf.TerraformResource {
 
@@ -205,7 +205,7 @@ export class AzureVnetPeerV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AzureVnetPeerV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AzureVnetPeerV2 to import
-  * @param importFromId The id of the existing AzureVnetPeerV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/azure_vnet_peer_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AzureVnetPeerV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/azure_vnet_peer_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AzureVnetPeerV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -217,7 +217,7 @@ export class AzureVnetPeerV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/azure_vnet_peer_v2 instaclustr_azure_vnet_peer_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/azure_vnet_peer_v2 instaclustr_azure_vnet_peer_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -228,7 +228,8 @@ export class AzureVnetPeerV2 extends cdktf.TerraformResource {
       terraformResourceType: 'instaclustr_azure_vnet_peer_v2',
       terraformGeneratorMetadata: {
         providerName: 'instaclustr',
-        providerVersion: '2.1.25'
+        providerVersion: '2.1.26',
+        providerVersionConstraint: '2.1.26'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

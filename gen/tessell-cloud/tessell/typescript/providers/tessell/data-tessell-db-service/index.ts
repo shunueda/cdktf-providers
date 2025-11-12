@@ -7077,7 +7077,8 @@ export class DataTessellDbService extends cdktf.TerraformDataSource {
       terraformResourceType: 'tessell_db_service',
       terraformGeneratorMetadata: {
         providerName: 'tessell',
-        providerVersion: '0.0.27'
+        providerVersion: '0.0.27',
+        providerVersionConstraint: '0.0.27'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

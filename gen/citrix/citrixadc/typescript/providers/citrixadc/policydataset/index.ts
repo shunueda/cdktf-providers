@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/policydataset
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/policydataset
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,36 @@ import * as cdktf from 'cdktf';
 
 export interface PolicydatasetConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/policydataset#comment Policydataset#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/policydataset#comment Policydataset#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/policydataset#id Policydataset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/policydataset#dynamic Policydataset#dynamic}
+  */
+  readonly dynamic?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/policydataset#id Policydataset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/policydataset#name Policydataset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/policydataset#name Policydataset#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/policydataset#type Policydataset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/policydataset#patsetfile Policydataset#patsetfile}
+  */
+  readonly patsetfile?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/policydataset#type Policydataset#type}
   */
   readonly type: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/policydataset citrixadc_policydataset}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/policydataset citrixadc_policydataset}
 */
 export class Policydataset extends cdktf.TerraformResource {
 
@@ -45,7 +53,7 @@ export class Policydataset extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Policydataset resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Policydataset to import
-  * @param importFromId The id of the existing Policydataset that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/policydataset#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Policydataset that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/policydataset#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Policydataset to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +65,7 @@ export class Policydataset extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/policydataset citrixadc_policydataset} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/policydataset citrixadc_policydataset} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,7 +76,8 @@ export class Policydataset extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_policydataset',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -79,8 +88,10 @@ export class Policydataset extends cdktf.TerraformResource {
       forEach: config.forEach
     });
     this._comment = config.comment;
+    this._dynamic = config.dynamic;
     this._id = config.id;
     this._name = config.name;
+    this._patsetfile = config.patsetfile;
     this._type = config.type;
   }
 
@@ -102,6 +113,22 @@ export class Policydataset extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get commentInput() {
     return this._comment;
+  }
+
+  // dynamic - computed: true, optional: true, required: false
+  private _dynamic?: string; 
+  public get dynamic() {
+    return this.getStringAttribute('dynamic');
+  }
+  public set dynamic(value: string) {
+    this._dynamic = value;
+  }
+  public resetDynamic() {
+    this._dynamic = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dynamicInput() {
+    return this._dynamic;
   }
 
   // id - computed: true, optional: true, required: false
@@ -133,6 +160,22 @@ export class Policydataset extends cdktf.TerraformResource {
     return this._name;
   }
 
+  // patsetfile - computed: true, optional: true, required: false
+  private _patsetfile?: string; 
+  public get patsetfile() {
+    return this.getStringAttribute('patsetfile');
+  }
+  public set patsetfile(value: string) {
+    this._patsetfile = value;
+  }
+  public resetPatsetfile() {
+    this._patsetfile = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get patsetfileInput() {
+    return this._patsetfile;
+  }
+
   // type - computed: false, optional: false, required: true
   private _type?: string; 
   public get type() {
@@ -153,8 +196,10 @@ export class Policydataset extends cdktf.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       comment: cdktf.stringToTerraform(this._comment),
+      dynamic: cdktf.stringToTerraform(this._dynamic),
       id: cdktf.stringToTerraform(this._id),
       name: cdktf.stringToTerraform(this._name),
+      patsetfile: cdktf.stringToTerraform(this._patsetfile),
       type: cdktf.stringToTerraform(this._type),
     };
   }
@@ -167,6 +212,12 @@ export class Policydataset extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      dynamic: {
+        value: cdktf.stringToHclTerraform(this._dynamic),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       id: {
         value: cdktf.stringToHclTerraform(this._id),
         isBlock: false,
@@ -175,6 +226,12 @@ export class Policydataset extends cdktf.TerraformResource {
       },
       name: {
         value: cdktf.stringToHclTerraform(this._name),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      patsetfile: {
+        value: cdktf.stringToHclTerraform(this._patsetfile),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

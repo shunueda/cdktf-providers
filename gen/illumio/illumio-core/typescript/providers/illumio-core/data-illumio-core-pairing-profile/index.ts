@@ -137,7 +137,8 @@ export class DataIllumioCorePairingProfile extends cdktf.TerraformDataSource {
       terraformResourceType: 'illumio-core_pairing_profile',
       terraformGeneratorMetadata: {
         providerName: 'illumio-core',
-        providerVersion: '1.1.6'
+        providerVersion: '1.1.6',
+        providerVersionConstraint: '1.1.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

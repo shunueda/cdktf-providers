@@ -91,7 +91,8 @@ export class SdwanProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'sdwan',
       terraformGeneratorMetadata: {
         providerName: 'sdwan',
-        providerVersion: '0.8.1'
+        providerVersion: '0.8.1',
+        providerVersionConstraint: '0.8.1'
       },
       terraformProviderSource: 'CiscoDevNet/sdwan'
     });

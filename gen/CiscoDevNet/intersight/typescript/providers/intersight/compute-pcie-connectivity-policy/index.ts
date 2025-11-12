@@ -3778,7 +3778,8 @@ export class ComputePcieConnectivityPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_compute_pcie_connectivity_policy',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

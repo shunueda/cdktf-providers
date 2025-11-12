@@ -4061,7 +4061,8 @@ export class DataIntersightNiatelemetrySupervisorModuleDetails extends cdktf.Ter
       terraformResourceType: 'intersight_niatelemetry_supervisor_module_details',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -61,7 +61,8 @@ export class MssqlProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'mssql',
       terraformGeneratorMetadata: {
         providerName: 'mssql',
-        providerVersion: '0.3.1'
+        providerVersion: '0.3.1',
+        providerVersionConstraint: '0.3.1'
       },
       terraformProviderSource: 'betr-io/mssql'
     });

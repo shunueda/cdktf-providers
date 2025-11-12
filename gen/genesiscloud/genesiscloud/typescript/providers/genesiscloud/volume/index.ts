@@ -297,7 +297,8 @@ export class Volume extends cdktf.TerraformResource {
       terraformResourceType: 'genesiscloud_volume',
       terraformGeneratorMetadata: {
         providerName: 'genesiscloud',
-        providerVersion: '1.1.14'
+        providerVersion: '1.1.14',
+        providerVersionConstraint: '1.1.14'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

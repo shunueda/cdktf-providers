@@ -607,7 +607,8 @@ export class DataAlicloudRosTemplateScratches extends cdktf.TerraformDataSource 
       terraformResourceType: 'alicloud_ros_template_scratches',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

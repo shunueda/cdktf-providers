@@ -67,7 +67,8 @@ export class S3BucketProperties extends cdktf.TerraformResource {
       terraformResourceType: 'clumio_s3_bucket_properties',
       terraformGeneratorMetadata: {
         providerName: 'clumio',
-        providerVersion: '0.16.1'
+        providerVersion: '0.16.1',
+        providerVersionConstraint: '0.16.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

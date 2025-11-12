@@ -488,7 +488,8 @@ export class RepositoryAccessRules extends cdktf.TerraformResource {
       terraformResourceType: 'cyral_repository_access_rules',
       terraformGeneratorMetadata: {
         providerName: 'cyral',
-        providerVersion: '4.16.3'
+        providerVersion: '4.16.3',
+        providerVersionConstraint: '4.16.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

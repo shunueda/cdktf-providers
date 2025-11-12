@@ -68,7 +68,8 @@ export class AsymmetricKey extends cdktf.TerraformResource {
       terraformResourceType: 'wireguard_asymmetric_key',
       terraformGeneratorMetadata: {
         providerName: 'wireguard',
-        providerVersion: '0.4.0'
+        providerVersion: '0.4.0',
+        providerVersionConstraint: '0.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

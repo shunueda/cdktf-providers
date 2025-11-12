@@ -64,7 +64,8 @@ export class DataVolterraTunnel extends cdktf.TerraformDataSource {
       terraformResourceType: 'volterra_tunnel',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.44'
+        providerVersion: '0.11.44',
+        providerVersionConstraint: '0.11.44'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

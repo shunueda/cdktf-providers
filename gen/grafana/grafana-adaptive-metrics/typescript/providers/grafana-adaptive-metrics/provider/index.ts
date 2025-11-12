@@ -85,7 +85,8 @@ export class GrafanaAdaptiveMetricsProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'grafana-adaptive-metrics',
       terraformGeneratorMetadata: {
         providerName: 'grafana-adaptive-metrics',
-        providerVersion: '0.3.3'
+        providerVersion: '0.3.3',
+        providerVersionConstraint: '0.3.3'
       },
       terraformProviderSource: 'grafana/grafana-adaptive-metrics'
     });

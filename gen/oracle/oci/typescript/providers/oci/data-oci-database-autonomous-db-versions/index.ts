@@ -356,7 +356,8 @@ export class DataOciDatabaseAutonomousDbVersions extends cdktf.TerraformDataSour
       terraformResourceType: 'oci_database_autonomous_db_versions',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

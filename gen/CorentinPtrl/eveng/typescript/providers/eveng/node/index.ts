@@ -186,7 +186,8 @@ export class Node extends cdktf.TerraformResource {
       terraformResourceType: 'eveng_node',
       terraformGeneratorMetadata: {
         providerName: 'eveng',
-        providerVersion: '0.1.7'
+        providerVersion: '0.1.7',
+        providerVersionConstraint: '0.1.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

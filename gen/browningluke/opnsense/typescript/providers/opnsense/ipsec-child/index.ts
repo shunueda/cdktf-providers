@@ -133,7 +133,8 @@ export class IpsecChild extends cdktf.TerraformResource {
       terraformResourceType: 'opnsense_ipsec_child',
       terraformGeneratorMetadata: {
         providerName: 'opnsense',
-        providerVersion: '0.16.0'
+        providerVersion: '0.16.0',
+        providerVersionConstraint: '0.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

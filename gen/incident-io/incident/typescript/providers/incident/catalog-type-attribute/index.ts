@@ -93,7 +93,8 @@ export class CatalogTypeAttribute extends cdktf.TerraformResource {
       terraformResourceType: 'incident_catalog_type_attribute',
       terraformGeneratorMetadata: {
         providerName: 'incident',
-        providerVersion: '5.18.0'
+        providerVersion: '5.18.0',
+        providerVersionConstraint: '5.18.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

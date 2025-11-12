@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/magalucloud/mgc/0.39.0/docs/data-sources/kubernetes_node
+// https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/data-sources/kubernetes_node
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataMgcKubernetesNodeConfig extends cdktf.TerraformMetaArgument
   /**
   * ID of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.39.0/docs/data-sources/kubernetes_node#cluster_id DataMgcKubernetesNode#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/data-sources/kubernetes_node#cluster_id DataMgcKubernetesNode#cluster_id}
   */
   readonly clusterId: string;
   /**
   * ID of the node pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.39.0/docs/data-sources/kubernetes_node#nodepool_id DataMgcKubernetesNode#nodepool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/data-sources/kubernetes_node#nodepool_id DataMgcKubernetesNode#nodepool_id}
   */
   readonly nodepoolId: string;
 }
@@ -409,7 +409,7 @@ export class DataMgcKubernetesNodeNodesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.39.0/docs/data-sources/kubernetes_node mgc_kubernetes_node}
+* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/data-sources/kubernetes_node mgc_kubernetes_node}
 */
 export class DataMgcKubernetesNode extends cdktf.TerraformDataSource {
 
@@ -425,7 +425,7 @@ export class DataMgcKubernetesNode extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataMgcKubernetesNode resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMgcKubernetesNode to import
-  * @param importFromId The id of the existing DataMgcKubernetesNode that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.39.0/docs/data-sources/kubernetes_node#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMgcKubernetesNode that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/data-sources/kubernetes_node#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMgcKubernetesNode to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -437,7 +437,7 @@ export class DataMgcKubernetesNode extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.39.0/docs/data-sources/kubernetes_node mgc_kubernetes_node} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/data-sources/kubernetes_node mgc_kubernetes_node} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -448,7 +448,8 @@ export class DataMgcKubernetesNode extends cdktf.TerraformDataSource {
       terraformResourceType: 'mgc_kubernetes_node',
       terraformGeneratorMetadata: {
         providerName: 'mgc',
-        providerVersion: '0.39.0'
+        providerVersion: '0.40.0',
+        providerVersionConstraint: '0.40.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

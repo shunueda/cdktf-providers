@@ -62,7 +62,8 @@ export class ClassMapPolicyObject extends cdktf.TerraformResource {
       terraformResourceType: 'sdwan_class_map_policy_object',
       terraformGeneratorMetadata: {
         providerName: 'sdwan',
-        providerVersion: '0.8.1'
+        providerVersion: '0.8.1',
+        providerVersionConstraint: '0.8.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

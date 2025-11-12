@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/blueprints
+// https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/blueprints
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataApstraBlueprintsConfig extends cdktf.TerraformMetaArguments
   /**
   * Optional filter to select only Blueprints matching the specified Reference Design.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/blueprints#reference_design DataApstraBlueprints#reference_design}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/blueprints#reference_design DataApstraBlueprints#reference_design}
   */
   readonly referenceDesign?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/blueprints apstra_blueprints}
+* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/blueprints apstra_blueprints}
 */
 export class DataApstraBlueprints extends cdktf.TerraformDataSource {
 
@@ -32,7 +32,7 @@ export class DataApstraBlueprints extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataApstraBlueprints resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataApstraBlueprints to import
-  * @param importFromId The id of the existing DataApstraBlueprints that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/blueprints#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataApstraBlueprints that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/blueprints#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataApstraBlueprints to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class DataApstraBlueprints extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/blueprints apstra_blueprints} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/blueprints apstra_blueprints} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,7 +55,8 @@ export class DataApstraBlueprints extends cdktf.TerraformDataSource {
       terraformResourceType: 'apstra_blueprints',
       terraformGeneratorMetadata: {
         providerName: 'apstra',
-        providerVersion: '0.95.0'
+        providerVersion: '0.95.1',
+        providerVersionConstraint: '0.95.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -294,7 +294,8 @@ export class DataSamsungcloudplatformMigrationImage extends cdktf.TerraformDataS
       terraformResourceType: 'samsungcloudplatform_migration_image',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0'
+        providerVersion: '3.15.0',
+        providerVersionConstraint: '3.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

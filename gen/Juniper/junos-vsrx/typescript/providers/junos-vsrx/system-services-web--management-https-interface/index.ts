@@ -66,7 +66,8 @@ export class SystemServicesWebManagementHttpsInterface extends cdktf.TerraformRe
       terraformResourceType: 'junos-vsrx_SystemServicesWeb__ManagementHttpsInterface',
       terraformGeneratorMetadata: {
         providerName: 'junos-vsrx',
-        providerVersion: '20.32.106'
+        providerVersion: '20.32.106',
+        providerVersionConstraint: '20.32.106'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

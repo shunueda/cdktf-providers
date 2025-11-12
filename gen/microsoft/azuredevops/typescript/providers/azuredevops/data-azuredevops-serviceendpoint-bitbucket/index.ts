@@ -170,7 +170,8 @@ export class DataAzuredevopsServiceendpointBitbucket extends cdktf.TerraformData
       terraformResourceType: 'azuredevops_serviceendpoint_bitbucket',
       terraformGeneratorMetadata: {
         providerName: 'azuredevops',
-        providerVersion: '1.11.2'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

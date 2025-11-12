@@ -290,7 +290,8 @@ export class DataTencentcloudCynosdbClusterDetailDatabases extends cdktf.Terrafo
       terraformResourceType: 'tencentcloud_cynosdb_cluster_detail_databases',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

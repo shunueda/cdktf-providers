@@ -68,7 +68,8 @@ export class TrafficControlActiveRuleSet extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_traffic_control_active_rule_set',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

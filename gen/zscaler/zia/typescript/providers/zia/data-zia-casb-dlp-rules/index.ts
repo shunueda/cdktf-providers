@@ -1858,7 +1858,8 @@ export class DataZiaCasbDlpRules extends cdktf.TerraformDataSource {
       terraformResourceType: 'zia_casb_dlp_rules',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.5.3'
+        providerVersion: '4.5.3',
+        providerVersionConstraint: '4.5.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

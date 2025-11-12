@@ -551,7 +551,8 @@ export class Service extends cdktf.TerraformResource {
       terraformResourceType: 'skysql_service',
       terraformGeneratorMetadata: {
         providerName: 'skysql',
-        providerVersion: '3.2.0'
+        providerVersion: '3.2.0',
+        providerVersionConstraint: '3.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

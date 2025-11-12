@@ -84,7 +84,8 @@ export class RunApplication extends cdktf.TerraformResource {
       terraformResourceType: 'nirmata_run_application',
       terraformGeneratorMetadata: {
         providerName: 'nirmata',
-        providerVersion: '1.1.13'
+        providerVersion: '1.1.13',
+        providerVersionConstraint: '1.1.13'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

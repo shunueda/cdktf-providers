@@ -2077,7 +2077,8 @@ export class TransportRoutingOspfv3Ipv4Feature extends cdktf.TerraformResource {
       terraformResourceType: 'sdwan_transport_routing_ospfv3_ipv4_feature',
       terraformGeneratorMetadata: {
         providerName: 'sdwan',
-        providerVersion: '0.8.1'
+        providerVersion: '0.8.1',
+        providerVersionConstraint: '0.8.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

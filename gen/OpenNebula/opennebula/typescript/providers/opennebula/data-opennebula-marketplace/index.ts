@@ -70,7 +70,8 @@ export class DataOpennebulaMarketplace extends cdktf.TerraformDataSource {
       terraformResourceType: 'opennebula_marketplace',
       terraformGeneratorMetadata: {
         providerName: 'opennebula',
-        providerVersion: '1.5.0'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

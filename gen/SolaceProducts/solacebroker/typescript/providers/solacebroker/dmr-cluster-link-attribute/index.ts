@@ -81,7 +81,8 @@ export class DmrClusterLinkAttribute extends cdktf.TerraformResource {
       terraformResourceType: 'solacebroker_dmr_cluster_link_attribute',
       terraformGeneratorMetadata: {
         providerName: 'solacebroker',
-        providerVersion: '1.2.0'
+        providerVersion: '1.2.0',
+        providerVersionConstraint: '1.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

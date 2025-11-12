@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/ascm_specific_fields
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/ascm_specific_fields
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,36 +8,36 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlibabacloudstackAscmSpecificFieldsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/ascm_specific_fields#group_filed DataAlibabacloudstackAscmSpecificFields#group_filed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/ascm_specific_fields#group_filed DataAlibabacloudstackAscmSpecificFields#group_filed}
   */
   readonly groupFiled: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/ascm_specific_fields#id DataAlibabacloudstackAscmSpecificFields#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/ascm_specific_fields#id DataAlibabacloudstackAscmSpecificFields#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/ascm_specific_fields#ids DataAlibabacloudstackAscmSpecificFields#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/ascm_specific_fields#ids DataAlibabacloudstackAscmSpecificFields#ids}
   */
   readonly ids?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/ascm_specific_fields#label DataAlibabacloudstackAscmSpecificFields#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/ascm_specific_fields#label DataAlibabacloudstackAscmSpecificFields#label}
   */
   readonly label?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/ascm_specific_fields#output_file DataAlibabacloudstackAscmSpecificFields#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/ascm_specific_fields#output_file DataAlibabacloudstackAscmSpecificFields#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/ascm_specific_fields#resource_type DataAlibabacloudstackAscmSpecificFields#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/ascm_specific_fields#resource_type DataAlibabacloudstackAscmSpecificFields#resource_type}
   */
   readonly resourceType: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/ascm_specific_fields alibabacloudstack_ascm_specific_fields}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/ascm_specific_fields alibabacloudstack_ascm_specific_fields}
 */
 export class DataAlibabacloudstackAscmSpecificFields extends cdktf.TerraformDataSource {
 
@@ -53,7 +53,7 @@ export class DataAlibabacloudstackAscmSpecificFields extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataAlibabacloudstackAscmSpecificFields resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlibabacloudstackAscmSpecificFields to import
-  * @param importFromId The id of the existing DataAlibabacloudstackAscmSpecificFields that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/ascm_specific_fields#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlibabacloudstackAscmSpecificFields that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/ascm_specific_fields#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlibabacloudstackAscmSpecificFields to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -65,7 +65,7 @@ export class DataAlibabacloudstackAscmSpecificFields extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/ascm_specific_fields alibabacloudstack_ascm_specific_fields} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/ascm_specific_fields alibabacloudstack_ascm_specific_fields} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -76,7 +76,8 @@ export class DataAlibabacloudstackAscmSpecificFields extends cdktf.TerraformData
       terraformResourceType: 'alibabacloudstack_ascm_specific_fields',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.19'
+        providerVersion: '3.16.21',
+        providerVersionConstraint: '3.16.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

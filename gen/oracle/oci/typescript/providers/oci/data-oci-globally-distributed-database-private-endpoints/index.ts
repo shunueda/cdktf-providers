@@ -489,7 +489,8 @@ export class DataOciGloballyDistributedDatabasePrivateEndpoints extends cdktf.Te
       terraformResourceType: 'oci_globally_distributed_database_private_endpoints',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

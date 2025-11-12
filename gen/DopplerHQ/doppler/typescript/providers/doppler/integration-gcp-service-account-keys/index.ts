@@ -74,7 +74,8 @@ export class IntegrationGcpServiceAccountKeys extends cdktf.TerraformResource {
       terraformResourceType: 'doppler_integration_gcp_service_account_keys',
       terraformGeneratorMetadata: {
         providerName: 'doppler',
-        providerVersion: '1.21.0'
+        providerVersion: '1.21.0',
+        providerVersionConstraint: '1.21.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

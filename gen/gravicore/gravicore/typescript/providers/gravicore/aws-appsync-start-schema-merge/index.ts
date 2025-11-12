@@ -67,7 +67,8 @@ export class AwsAppsyncStartSchemaMerge extends cdktf.TerraformResource {
       terraformResourceType: 'gravicore_aws_appsync_start_schema_merge',
       terraformGeneratorMetadata: {
         providerName: 'gravicore',
-        providerVersion: '1.0.8'
+        providerVersion: '1.0.8',
+        providerVersionConstraint: '1.0.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

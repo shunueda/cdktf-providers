@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/prompt
+// https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/prompt
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface PromptConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/prompt#id Prompt#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/prompt#id Prompt#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface PromptConfig extends cdktf.TerraformMetaArguments {
   /**
   * Indicates whether the identifier first is used when using the new Universal Login experience.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/prompt#identifier_first Prompt#identifier_first}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/prompt#identifier_first Prompt#identifier_first}
   */
   readonly identifierFirst?: boolean | cdktf.IResolvable;
   /**
   * Which login experience to use. Options include `classic` and `new`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/prompt#universal_login_experience Prompt#universal_login_experience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/prompt#universal_login_experience Prompt#universal_login_experience}
   */
   readonly universalLoginExperience?: string;
   /**
   * Determines if the login screen uses identifier and biometrics first. Setting this property to `true`, requires MFA factors enabled for enrollment; use the `auth0_guardian` resource to set one up.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/prompt#webauthn_platform_first_factor Prompt#webauthn_platform_first_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/prompt#webauthn_platform_first_factor Prompt#webauthn_platform_first_factor}
   */
   readonly webauthnPlatformFirstFactor?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/prompt auth0_prompt}
+* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/prompt auth0_prompt}
 */
 export class Prompt extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class Prompt extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Prompt resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Prompt to import
-  * @param importFromId The id of the existing Prompt that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/prompt#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Prompt that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/prompt#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Prompt to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class Prompt extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/prompt auth0_prompt} Resource
+  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/prompt auth0_prompt} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,7 +74,8 @@ export class Prompt extends cdktf.TerraformResource {
       terraformResourceType: 'auth0_prompt',
       terraformGeneratorMetadata: {
         providerName: 'auth0',
-        providerVersion: '1.33.0'
+        providerVersion: '1.34.0',
+        providerVersionConstraint: '1.34.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

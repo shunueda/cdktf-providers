@@ -72,7 +72,8 @@ export class NetworkingRouterRouteV2 extends cdktf.TerraformResource {
       terraformResourceType: 'nhncloud_networking_router_route_v2',
       terraformGeneratorMetadata: {
         providerName: 'nhncloud',
-        providerVersion: '1.0.6'
+        providerVersion: '1.0.6',
+        providerVersionConstraint: '1.0.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

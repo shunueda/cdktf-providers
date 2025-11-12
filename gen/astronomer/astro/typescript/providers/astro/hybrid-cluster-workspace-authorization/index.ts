@@ -61,7 +61,8 @@ export class HybridClusterWorkspaceAuthorization extends cdktf.TerraformResource
       terraformResourceType: 'astro_hybrid_cluster_workspace_authorization',
       terraformGeneratorMetadata: {
         providerName: 'astro',
-        providerVersion: '1.0.8'
+        providerVersion: '1.0.8',
+        providerVersionConstraint: '1.0.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

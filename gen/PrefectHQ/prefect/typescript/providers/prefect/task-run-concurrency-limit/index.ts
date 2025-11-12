@@ -73,7 +73,8 @@ export class TaskRunConcurrencyLimit extends cdktf.TerraformResource {
       terraformResourceType: 'prefect_task_run_concurrency_limit',
       terraformGeneratorMetadata: {
         providerName: 'prefect',
-        providerVersion: '2.90.0'
+        providerVersion: '2.90.0',
+        providerVersionConstraint: '2.90.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

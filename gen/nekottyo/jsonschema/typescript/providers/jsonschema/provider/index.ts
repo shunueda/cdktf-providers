@@ -55,7 +55,8 @@ export class JsonschemaProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'jsonschema',
       terraformGeneratorMetadata: {
         providerName: 'jsonschema',
-        providerVersion: '0.1.1'
+        providerVersion: '0.1.1',
+        providerVersionConstraint: '0.1.1'
       },
       terraformProviderSource: 'nekottyo/jsonschema'
     });

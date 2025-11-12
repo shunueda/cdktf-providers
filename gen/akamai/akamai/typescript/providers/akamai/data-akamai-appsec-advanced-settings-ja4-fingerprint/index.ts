@@ -62,7 +62,8 @@ export class DataAkamaiAppsecAdvancedSettingsJa4Fingerprint extends cdktf.Terraf
       terraformResourceType: 'akamai_appsec_advanced_settings_ja4_fingerprint',
       terraformGeneratorMetadata: {
         providerName: 'akamai',
-        providerVersion: '9.1.0'
+        providerVersion: '9.1.0',
+        providerVersionConstraint: '9.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

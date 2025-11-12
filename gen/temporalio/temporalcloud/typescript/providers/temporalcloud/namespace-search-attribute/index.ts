@@ -67,7 +67,8 @@ export class NamespaceSearchAttribute extends cdktf.TerraformResource {
       terraformResourceType: 'temporalcloud_namespace_search_attribute',
       terraformGeneratorMetadata: {
         providerName: 'temporalcloud',
-        providerVersion: '1.1.1'
+        providerVersion: '1.1.1',
+        providerVersionConstraint: '1.1.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

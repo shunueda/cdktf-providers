@@ -244,7 +244,8 @@ export class DataValidationWarnings extends cdktf.TerraformDataSource {
       terraformResourceType: 'validation_warnings',
       terraformGeneratorMetadata: {
         providerName: 'validation',
-        providerVersion: '1.1.3'
+        providerVersion: '1.1.3',
+        providerVersionConstraint: '1.1.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

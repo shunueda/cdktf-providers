@@ -392,7 +392,8 @@ export class DataTencentcloudVpcNetDetectStates extends cdktf.TerraformDataSourc
       terraformResourceType: 'tencentcloud_vpc_net_detect_states',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

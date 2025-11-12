@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/gslbservice
+// https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/gslbservice
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,22 +8,22 @@ import * as cdktf from 'cdktf';
 
 export interface DataAviGslbserviceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/gslbservice#id DataAviGslbservice#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/gslbservice#id DataAviGslbservice#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/gslbservice#name DataAviGslbservice#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/gslbservice#name DataAviGslbservice#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/gslbservice#tenant_ref DataAviGslbservice#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/gslbservice#tenant_ref DataAviGslbservice#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/gslbservice#uuid DataAviGslbservice#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/gslbservice#uuid DataAviGslbservice#uuid}
   */
   readonly uuid?: string;
 }
@@ -761,91 +761,6 @@ export class DataAviGslbserviceGroupsMembersPublicIpList extends cdktf.ComplexLi
     return new DataAviGslbserviceGroupsMembersPublicIpOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
-export interface DataAviGslbserviceGroupsMembersSrvRdata {
-}
-
-export function dataAviGslbserviceGroupsMembersSrvRdataToTerraform(struct?: DataAviGslbserviceGroupsMembersSrvRdata): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function dataAviGslbserviceGroupsMembersSrvRdataToHclTerraform(struct?: DataAviGslbserviceGroupsMembersSrvRdata): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class DataAviGslbserviceGroupsMembersSrvRdataOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): DataAviGslbserviceGroupsMembersSrvRdata | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataAviGslbserviceGroupsMembersSrvRdata | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // port - computed: true, optional: false, required: false
-  public get port() {
-    return this.getStringAttribute('port');
-  }
-
-  // priority - computed: true, optional: false, required: false
-  public get priority() {
-    return this.getStringAttribute('priority');
-  }
-
-  // weight - computed: true, optional: false, required: false
-  public get weight() {
-    return this.getStringAttribute('weight');
-  }
-}
-
-export class DataAviGslbserviceGroupsMembersSrvRdataList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DataAviGslbserviceGroupsMembersSrvRdataOutputReference {
-    return new DataAviGslbserviceGroupsMembersSrvRdataOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
 export interface DataAviGslbserviceGroupsMembers {
 }
 
@@ -958,12 +873,6 @@ export class DataAviGslbserviceGroupsMembersOutputReference extends cdktf.Comple
   // resolve_fqdn_to_v6 - computed: true, optional: false, required: false
   public get resolveFqdnToV6() {
     return this.getStringAttribute('resolve_fqdn_to_v6');
-  }
-
-  // srv_rdata - computed: true, optional: false, required: false
-  private _srvRdata = new DataAviGslbserviceGroupsMembersSrvRdataList(this, "srv_rdata", true);
-  public get srvRdata() {
-    return this._srvRdata;
   }
 
   // vs_uuid - computed: true, optional: false, required: false
@@ -1198,7 +1107,7 @@ export class DataAviGslbserviceMarkersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/gslbservice avi_gslbservice}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/gslbservice avi_gslbservice}
 */
 export class DataAviGslbservice extends cdktf.TerraformDataSource {
 
@@ -1214,7 +1123,7 @@ export class DataAviGslbservice extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAviGslbservice resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAviGslbservice to import
-  * @param importFromId The id of the existing DataAviGslbservice that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/gslbservice#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAviGslbservice that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/gslbservice#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAviGslbservice to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1226,7 +1135,7 @@ export class DataAviGslbservice extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/gslbservice avi_gslbservice} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/gslbservice avi_gslbservice} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1237,7 +1146,8 @@ export class DataAviGslbservice extends cdktf.TerraformDataSource {
       terraformResourceType: 'avi_gslbservice',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '31.1.1'
+        providerVersion: '30.2.5',
+        providerVersionConstraint: '30.2.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1336,11 +1246,6 @@ export class DataAviGslbservice extends cdktf.TerraformDataSource {
     return this._id;
   }
 
-  // include_additional_records - computed: true, optional: false, required: false
-  public get includeAdditionalRecords() {
-    return this.getStringAttribute('include_additional_records');
-  }
-
   // is_federated - computed: true, optional: false, required: false
   public get isFederated() {
     return this.getStringAttribute('is_federated');
@@ -1386,11 +1291,6 @@ export class DataAviGslbservice extends cdktf.TerraformDataSource {
   // pool_algorithm - computed: true, optional: false, required: false
   public get poolAlgorithm() {
     return this.getStringAttribute('pool_algorithm');
-  }
-
-  // record_type - computed: true, optional: false, required: false
-  public get recordType() {
-    return this.getStringAttribute('record_type');
   }
 
   // resolve_cname - computed: true, optional: false, required: false
@@ -1448,11 +1348,6 @@ export class DataAviGslbservice extends cdktf.TerraformDataSource {
   // Temporarily expose input value. Use with caution.
   public get uuidInput() {
     return this._uuid;
-  }
-
-  // vrf_uuid_for_gs - computed: true, optional: false, required: false
-  public get vrfUuidForGs() {
-    return this.getStringAttribute('vrf_uuid_for_gs');
   }
 
   // wildcard_match - computed: true, optional: false, required: false

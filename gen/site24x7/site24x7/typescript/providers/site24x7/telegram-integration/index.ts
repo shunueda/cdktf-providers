@@ -122,7 +122,8 @@ export class TelegramIntegration extends cdktf.TerraformResource {
       terraformResourceType: 'site24x7_telegram_integration',
       terraformGeneratorMetadata: {
         providerName: 'site24x7',
-        providerVersion: '2.0.3'
+        providerVersion: '2.0.3',
+        providerVersionConstraint: '2.0.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -24997,7 +24997,8 @@ export class DataK8SCertManagerIoClusterIssuerV1Manifest extends cdktf.Terraform
       terraformResourceType: 'k8s_cert_manager_io_cluster_issuer_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

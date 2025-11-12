@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsm_cluster
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsm_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ManagementLsmClusterConfig extends cdktf.TerraformMetaArguments
   /**
   * Color of the object. Should be one of existing colors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsm_cluster#color ManagementLsmCluster#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsm_cluster#color ManagementLsmCluster#color}
   */
   readonly color?: string;
   /**
   * Comments string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsm_cluster#comments ManagementLsmCluster#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsm_cluster#comments ManagementLsmCluster#comments}
   */
   readonly comments?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsm_cluster#id ManagementLsmCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsm_cluster#id ManagementLsmCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,61 +29,61 @@ export interface ManagementLsmClusterConfig extends cdktf.TerraformMetaArguments
   /**
   * Apply changes ignoring errors. You won't be able to publish such a changes. If ignore-warnings flag was omitted - warnings will also be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsm_cluster#ignore_errors ManagementLsmCluster#ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsm_cluster#ignore_errors ManagementLsmCluster#ignore_errors}
   */
   readonly ignoreErrors?: boolean | cdktf.IResolvable;
   /**
   * Apply changes ignoring warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsm_cluster#ignore_warnings ManagementLsmCluster#ignore_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsm_cluster#ignore_warnings ManagementLsmCluster#ignore_warnings}
   */
   readonly ignoreWarnings?: boolean | cdktf.IResolvable;
   /**
   * Main IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsm_cluster#main_ip_address ManagementLsmCluster#main_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsm_cluster#main_ip_address ManagementLsmCluster#main_ip_address}
   */
   readonly mainIpAddress: string;
   /**
   * Object name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsm_cluster#name ManagementLsmCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsm_cluster#name ManagementLsmCluster#name}
   */
   readonly name: string;
   /**
   * LSM profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsm_cluster#security_profile ManagementLsmCluster#security_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsm_cluster#security_profile ManagementLsmCluster#security_profile}
   */
   readonly securityProfile: string;
   /**
   * Collection of tag identifiers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsm_cluster#tags ManagementLsmCluster#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsm_cluster#tags ManagementLsmCluster#tags}
   */
   readonly tags?: string[];
   /**
   * dynamic_objects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsm_cluster#dynamic_objects ManagementLsmCluster#dynamic_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsm_cluster#dynamic_objects ManagementLsmCluster#dynamic_objects}
   */
   readonly dynamicObjects?: ManagementLsmClusterDynamicObjects[] | cdktf.IResolvable;
   /**
   * interfaces block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsm_cluster#interfaces ManagementLsmCluster#interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsm_cluster#interfaces ManagementLsmCluster#interfaces}
   */
   readonly interfaces?: ManagementLsmClusterInterfaces[] | cdktf.IResolvable;
   /**
   * members block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsm_cluster#members ManagementLsmCluster#members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsm_cluster#members ManagementLsmCluster#members}
   */
   readonly members?: ManagementLsmClusterMembers[] | cdktf.IResolvable;
   /**
   * topology block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsm_cluster#topology ManagementLsmCluster#topology}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsm_cluster#topology ManagementLsmCluster#topology}
   */
   readonly topology?: ManagementLsmClusterTopology;
 }
@@ -91,13 +91,13 @@ export interface ManagementLsmClusterDynamicObjectsResolvedIpAddressesIpv4Addres
   /**
   * First IPv4 address of the IP address range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsm_cluster#from_ipv4_address ManagementLsmCluster#from_ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsm_cluster#from_ipv4_address ManagementLsmCluster#from_ipv4_address}
   */
   readonly fromIpv4Address?: string;
   /**
   * Last IPv4 address of the IP address range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsm_cluster#to_ipv4_address ManagementLsmCluster#to_ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsm_cluster#to_ipv4_address ManagementLsmCluster#to_ipv4_address}
   */
   readonly toIpv4Address?: string;
 }
@@ -212,13 +212,13 @@ export interface ManagementLsmClusterDynamicObjectsResolvedIpAddresses {
   /**
   * IPv4 Address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsm_cluster#ipv4_address ManagementLsmCluster#ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsm_cluster#ipv4_address ManagementLsmCluster#ipv4_address}
   */
   readonly ipv4Address?: string;
   /**
   * ipv4_address_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsm_cluster#ipv4_address_range ManagementLsmCluster#ipv4_address_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsm_cluster#ipv4_address_range ManagementLsmCluster#ipv4_address_range}
   */
   readonly ipv4AddressRange?: ManagementLsmClusterDynamicObjectsResolvedIpAddressesIpv4AddressRange;
 }
@@ -365,13 +365,13 @@ export interface ManagementLsmClusterDynamicObjects {
   /**
   * Object name. Must be unique in the domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsm_cluster#name ManagementLsmCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsm_cluster#name ManagementLsmCluster#name}
   */
   readonly name: string;
   /**
   * resolved_ip_addresses block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsm_cluster#resolved_ip_addresses ManagementLsmCluster#resolved_ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsm_cluster#resolved_ip_addresses ManagementLsmCluster#resolved_ip_addresses}
   */
   readonly resolvedIpAddresses?: ManagementLsmClusterDynamicObjectsResolvedIpAddresses[] | cdktf.IResolvable;
 }
@@ -525,25 +525,25 @@ export interface ManagementLsmClusterInterfaces {
   /**
   * IP address override. Net mask is defined by the attached LSM profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsm_cluster#ip_address_override ManagementLsmCluster#ip_address_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsm_cluster#ip_address_override ManagementLsmCluster#ip_address_override}
   */
   readonly ipAddressOverride?: string;
   /**
   * Member network override. Net mask is defined by the attached LSM profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsm_cluster#member_network_override ManagementLsmCluster#member_network_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsm_cluster#member_network_override ManagementLsmCluster#member_network_override}
   */
   readonly memberNetworkOverride?: string;
   /**
   * Interface name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsm_cluster#name ManagementLsmCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsm_cluster#name ManagementLsmCluster#name}
   */
   readonly name?: string;
   /**
   * New name. Overrides the interface name on profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsm_cluster#new_name ManagementLsmCluster#new_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsm_cluster#new_name ManagementLsmCluster#new_name}
   */
   readonly newName?: string;
 }
@@ -828,7 +828,7 @@ export interface ManagementLsmClusterMembersProvisioningSettings {
   /**
   * Provisioning profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsm_cluster#provisioning_profile ManagementLsmCluster#provisioning_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsm_cluster#provisioning_profile ManagementLsmCluster#provisioning_profile}
   */
   readonly provisioningProfile?: string;
 }
@@ -914,13 +914,13 @@ export interface ManagementLsmClusterMembersSic {
   /**
   * IP address. When IP address is provided- initiate trusted communication immediately using this IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsm_cluster#ip_address ManagementLsmCluster#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsm_cluster#ip_address ManagementLsmCluster#ip_address}
   */
   readonly ipAddress?: string;
   /**
   * One-time password. When one-time password is provided without ip-address- trusted communication is automatically initiated  when the gateway connects to the Security Management server for the first time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsm_cluster#one_time_password ManagementLsmCluster#one_time_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsm_cluster#one_time_password ManagementLsmCluster#one_time_password}
   */
   readonly oneTimePassword?: string;
 }
@@ -1035,43 +1035,43 @@ export interface ManagementLsmClusterMembers {
   /**
   * Device ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsm_cluster#device_id ManagementLsmCluster#device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsm_cluster#device_id ManagementLsmCluster#device_id}
   */
   readonly deviceId?: string;
   /**
   * Apply changes ignoring errors. You won't be able to publish such a changes. If ignore-warnings flag was omitted - warnings will also be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsm_cluster#ignore_errors ManagementLsmCluster#ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsm_cluster#ignore_errors ManagementLsmCluster#ignore_errors}
   */
   readonly ignoreErrors?: boolean | cdktf.IResolvable;
   /**
   * Apply changes ignoring warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsm_cluster#ignore_warnings ManagementLsmCluster#ignore_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsm_cluster#ignore_warnings ManagementLsmCluster#ignore_warnings}
   */
   readonly ignoreWarnings?: boolean | cdktf.IResolvable;
   /**
   * Member Name. Consists of the member name in the LSM profile and the name or prefix or suffix of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsm_cluster#name ManagementLsmCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsm_cluster#name ManagementLsmCluster#name}
   */
   readonly name?: string;
   /**
   * Provisioning state. This field is relevant just for SMB clusters. By default the state is 'manual'- enable provisioning but not attach to profile.If 'using-profile' state is provided a provisioning profile must be provided in provisioning-settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsm_cluster#provisioning_state ManagementLsmCluster#provisioning_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsm_cluster#provisioning_state ManagementLsmCluster#provisioning_state}
   */
   readonly provisioningState?: string;
   /**
   * provisioning_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsm_cluster#provisioning_settings ManagementLsmCluster#provisioning_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsm_cluster#provisioning_settings ManagementLsmCluster#provisioning_settings}
   */
   readonly provisioningSettings?: ManagementLsmClusterMembersProvisioningSettings;
   /**
   * sic block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsm_cluster#sic ManagementLsmCluster#sic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsm_cluster#sic ManagementLsmCluster#sic}
   */
   readonly sic?: ManagementLsmClusterMembersSic;
 }
@@ -1389,19 +1389,19 @@ export interface ManagementLsmClusterTopologyManualVpnDomain {
   /**
   * Comments string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsm_cluster#comments ManagementLsmCluster#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsm_cluster#comments ManagementLsmCluster#comments}
   */
   readonly comments?: string;
   /**
   * First IPv4 address of the IP address range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsm_cluster#from_ipv4_address ManagementLsmCluster#from_ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsm_cluster#from_ipv4_address ManagementLsmCluster#from_ipv4_address}
   */
   readonly fromIpv4Address?: string;
   /**
   * Last IPv4 address of the IP address range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsm_cluster#to_ipv4_address ManagementLsmCluster#to_ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsm_cluster#to_ipv4_address ManagementLsmCluster#to_ipv4_address}
   */
   readonly toIpv4Address?: string;
 }
@@ -1577,13 +1577,13 @@ export interface ManagementLsmClusterTopology {
   /**
   * VPN Domain type.  'external-interfaces-only' is relevnt only for Gaia devices. 'hide-behind-gateway-external-ip-address' is relevant only for SMB devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsm_cluster#vpn_domain ManagementLsmCluster#vpn_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsm_cluster#vpn_domain ManagementLsmCluster#vpn_domain}
   */
   readonly vpnDomain?: string;
   /**
   * manual_vpn_domain block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsm_cluster#manual_vpn_domain ManagementLsmCluster#manual_vpn_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsm_cluster#manual_vpn_domain ManagementLsmCluster#manual_vpn_domain}
   */
   readonly manualVpnDomain?: ManagementLsmClusterTopologyManualVpnDomain[] | cdktf.IResolvable;
 }
@@ -1696,7 +1696,7 @@ export class ManagementLsmClusterTopologyOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsm_cluster checkpoint_management_lsm_cluster}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsm_cluster checkpoint_management_lsm_cluster}
 */
 export class ManagementLsmCluster extends cdktf.TerraformResource {
 
@@ -1712,7 +1712,7 @@ export class ManagementLsmCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementLsmCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementLsmCluster to import
-  * @param importFromId The id of the existing ManagementLsmCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsm_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementLsmCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsm_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementLsmCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1724,7 +1724,7 @@ export class ManagementLsmCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsm_cluster checkpoint_management_lsm_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsm_cluster checkpoint_management_lsm_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1735,7 +1735,8 @@ export class ManagementLsmCluster extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_lsm_cluster',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

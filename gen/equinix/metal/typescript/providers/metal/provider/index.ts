@@ -69,7 +69,8 @@ export class MetalProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'metal',
       terraformGeneratorMetadata: {
         providerName: 'metal',
-        providerVersion: '3.3.0'
+        providerVersion: '3.3.0',
+        providerVersionConstraint: '3.3.0'
       },
       terraformProviderSource: 'equinix/metal'
     });

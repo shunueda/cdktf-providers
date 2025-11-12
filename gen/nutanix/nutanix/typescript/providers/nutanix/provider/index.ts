@@ -131,7 +131,8 @@ export class NutanixProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'nutanix',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3'
+        providerVersion: '2.3.3',
+        providerVersionConstraint: '2.3.3'
       },
       terraformProviderSource: 'nutanix/nutanix'
     });

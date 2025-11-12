@@ -2682,7 +2682,8 @@ export class Server extends cdktf.TerraformResource {
       terraformResourceType: 'pnap_server',
       terraformGeneratorMetadata: {
         providerName: 'pnap',
-        providerVersion: '0.30.0'
+        providerVersion: '0.30.0',
+        providerVersionConstraint: '0.30.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

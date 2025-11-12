@@ -437,7 +437,8 @@ export class RobotAccount extends cdktf.TerraformResource {
       terraformResourceType: 'harbor_robot_account',
       terraformGeneratorMetadata: {
         providerName: 'harbor',
-        providerVersion: '3.11.2'
+        providerVersion: '3.11.2',
+        providerVersionConstraint: '3.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

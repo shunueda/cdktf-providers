@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsv_profile
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsv_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface ManagementLsvProfileConfig extends cdktf.TerraformMetaArguments
   /**
   * Collection of network objects identified by name or UID that represent IP addresses allowed in profile's VPN domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsv_profile#allowed_ip_addresses ManagementLsvProfile#allowed_ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsv_profile#allowed_ip_addresses ManagementLsvProfile#allowed_ip_addresses}
   */
   readonly allowedIpAddresses?: string[];
   /**
   * Trusted Certificate authority for establishing trust between VPN peers, identified by name or UID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsv_profile#certificate_authority ManagementLsvProfile#certificate_authority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsv_profile#certificate_authority ManagementLsvProfile#certificate_authority}
   */
   readonly certificateAuthority: string;
   /**
   * Color of the object. Should be one of existing colors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsv_profile#color ManagementLsvProfile#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsv_profile#color ManagementLsvProfile#color}
   */
   readonly color?: string;
   /**
   * Comments string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsv_profile#comments ManagementLsvProfile#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsv_profile#comments ManagementLsvProfile#comments}
   */
   readonly comments?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsv_profile#id ManagementLsvProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsv_profile#id ManagementLsvProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,43 +41,43 @@ export interface ManagementLsvProfileConfig extends cdktf.TerraformMetaArguments
   /**
   * Apply changes ignoring errors. You won't be able to publish such a changes. If ignore-warnings flag was omitted - warnings will also be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsv_profile#ignore_errors ManagementLsvProfile#ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsv_profile#ignore_errors ManagementLsvProfile#ignore_errors}
   */
   readonly ignoreErrors?: boolean | cdktf.IResolvable;
   /**
   * Apply changes ignoring warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsv_profile#ignore_warnings ManagementLsvProfile#ignore_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsv_profile#ignore_warnings ManagementLsvProfile#ignore_warnings}
   */
   readonly ignoreWarnings?: boolean | cdktf.IResolvable;
   /**
   * Object name. Must be unique in the domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsv_profile#name ManagementLsvProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsv_profile#name ManagementLsvProfile#name}
   */
   readonly name: string;
   /**
   * Indicate whether the IP addresses allowed in the VPN Domain will be restricted or not, according to allowed-ip-addresses field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsv_profile#restrict_allowed_addresses ManagementLsvProfile#restrict_allowed_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsv_profile#restrict_allowed_addresses ManagementLsvProfile#restrict_allowed_addresses}
   */
   readonly restrictAllowedAddresses?: boolean | cdktf.IResolvable;
   /**
   * Collection of tag identifiers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsv_profile#tags ManagementLsvProfile#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsv_profile#tags ManagementLsvProfile#tags}
   */
   readonly tags?: string[];
   /**
   * peers' VPN Domain properties.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsv_profile#vpn_domain ManagementLsvProfile#vpn_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsv_profile#vpn_domain ManagementLsvProfile#vpn_domain}
   */
   readonly vpnDomain?: { [key: string]: string };
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsv_profile checkpoint_management_lsv_profile}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsv_profile checkpoint_management_lsv_profile}
 */
 export class ManagementLsvProfile extends cdktf.TerraformResource {
 
@@ -93,7 +93,7 @@ export class ManagementLsvProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementLsvProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementLsvProfile to import
-  * @param importFromId The id of the existing ManagementLsvProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsv_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementLsvProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsv_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementLsvProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -105,7 +105,7 @@ export class ManagementLsvProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_lsv_profile checkpoint_management_lsv_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_lsv_profile checkpoint_management_lsv_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -116,7 +116,8 @@ export class ManagementLsvProfile extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_lsv_profile',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

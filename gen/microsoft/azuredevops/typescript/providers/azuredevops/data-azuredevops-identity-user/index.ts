@@ -164,7 +164,8 @@ export class DataAzuredevopsIdentityUser extends cdktf.TerraformDataSource {
       terraformResourceType: 'azuredevops_identity_user',
       terraformGeneratorMetadata: {
         providerName: 'azuredevops',
-        providerVersion: '1.11.2'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

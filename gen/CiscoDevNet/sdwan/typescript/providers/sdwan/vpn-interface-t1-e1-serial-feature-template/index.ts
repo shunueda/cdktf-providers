@@ -1570,7 +1570,8 @@ export class VpnInterfaceT1E1SerialFeatureTemplate extends cdktf.TerraformResour
       terraformResourceType: 'sdwan_vpn_interface_t1_e1_serial_feature_template',
       terraformGeneratorMetadata: {
         providerName: 'sdwan',
-        providerVersion: '0.8.1'
+        providerVersion: '0.8.1',
+        providerVersionConstraint: '0.8.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -316,7 +316,8 @@ export class DataAlicloudVideoSurveillanceSystemGroups extends cdktf.TerraformDa
       terraformResourceType: 'alicloud_video_surveillance_system_groups',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

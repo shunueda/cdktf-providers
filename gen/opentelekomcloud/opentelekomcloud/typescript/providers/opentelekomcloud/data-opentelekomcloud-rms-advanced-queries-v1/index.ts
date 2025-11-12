@@ -165,7 +165,8 @@ export class DataOpentelekomcloudRmsAdvancedQueriesV1 extends cdktf.TerraformDat
       terraformResourceType: 'opentelekomcloud_rms_advanced_queries_v1',
       terraformGeneratorMetadata: {
         providerName: 'opentelekomcloud',
-        providerVersion: '1.36.52'
+        providerVersion: '1.36.52',
+        providerVersionConstraint: '1.36.52'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

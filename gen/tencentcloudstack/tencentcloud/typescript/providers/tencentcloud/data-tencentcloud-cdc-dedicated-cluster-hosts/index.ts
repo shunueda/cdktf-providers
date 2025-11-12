@@ -193,7 +193,8 @@ export class DataTencentcloudCdcDedicatedClusterHosts extends cdktf.TerraformDat
       terraformResourceType: 'tencentcloud_cdc_dedicated_cluster_hosts',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

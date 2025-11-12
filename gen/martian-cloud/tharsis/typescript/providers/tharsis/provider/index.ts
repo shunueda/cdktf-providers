@@ -79,7 +79,8 @@ export class TharsisProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'tharsis',
       terraformGeneratorMetadata: {
         providerName: 'tharsis',
-        providerVersion: '0.14.1'
+        providerVersion: '0.14.1',
+        providerVersionConstraint: '0.14.1'
       },
       terraformProviderSource: 'martian-cloud/tharsis'
     });

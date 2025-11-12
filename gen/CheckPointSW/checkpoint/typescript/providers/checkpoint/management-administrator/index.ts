@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_administrator
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_administrator
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface ManagementAdministratorConfig extends cdktf.TerraformMetaArgume
   /**
   * Authentication method.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_administrator#authentication_method ManagementAdministrator#authentication_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_administrator#authentication_method ManagementAdministrator#authentication_method}
   */
   readonly authenticationMethod?: string;
   /**
   * Color of the object. Should be one of existing colors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_administrator#color ManagementAdministrator#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_administrator#color ManagementAdministrator#color}
   */
   readonly color?: string;
   /**
   * Comments string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_administrator#comments ManagementAdministrator#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_administrator#comments ManagementAdministrator#comments}
   */
   readonly comments?: string;
   /**
   * Administrator email.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_administrator#email ManagementAdministrator#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_administrator#email ManagementAdministrator#email}
   */
   readonly email?: string;
   /**
   * Format: YYYY-MM-DD, YYYY-mm-ddThh:mm:ss.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_administrator#expiration_date ManagementAdministrator#expiration_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_administrator#expiration_date ManagementAdministrator#expiration_date}
   */
   readonly expirationDate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_administrator#id ManagementAdministrator#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_administrator#id ManagementAdministrator#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,84 +47,84 @@ export interface ManagementAdministratorConfig extends cdktf.TerraformMetaArgume
   /**
   * Apply changes ignoring errors. You won't be able to publish such a changes. If ignore-warnings flag was omitted - warnings will also be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_administrator#ignore_errors ManagementAdministrator#ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_administrator#ignore_errors ManagementAdministrator#ignore_errors}
   */
   readonly ignoreErrors?: boolean | cdktf.IResolvable;
   /**
   * Apply changes ignoring warnings.
   * Apply changes ignoring warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_administrator#ignore_warnings ManagementAdministrator#ignore_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_administrator#ignore_warnings ManagementAdministrator#ignore_warnings}
   */
   readonly ignoreWarnings?: boolean | cdktf.IResolvable;
   /**
   * Administrator multi-domain profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_administrator#multi_domain_profile ManagementAdministrator#multi_domain_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_administrator#multi_domain_profile ManagementAdministrator#multi_domain_profile}
   */
   readonly multiDomainProfile?: string;
   /**
   * True if administrator must change password on the next login.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_administrator#must_change_password ManagementAdministrator#must_change_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_administrator#must_change_password ManagementAdministrator#must_change_password}
   */
   readonly mustChangePassword?: boolean | cdktf.IResolvable;
   /**
   * Object name. Should be unique in the domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_administrator#name ManagementAdministrator#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_administrator#name ManagementAdministrator#name}
   */
   readonly name: string;
   /**
   * Administrator password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_administrator#password ManagementAdministrator#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_administrator#password ManagementAdministrator#password}
   */
   readonly password?: string;
   /**
   * Administrator password hash.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_administrator#password_hash ManagementAdministrator#password_hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_administrator#password_hash ManagementAdministrator#password_hash}
   */
   readonly passwordHash?: string;
   /**
   * Administrator phone number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_administrator#phone_number ManagementAdministrator#phone_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_administrator#phone_number ManagementAdministrator#phone_number}
   */
   readonly phoneNumber?: string;
   /**
   * RADIUS server object identified by the name or UID. Must be set when "authentication-method" was selected to be "RADIUS".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_administrator#radius_server ManagementAdministrator#radius_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_administrator#radius_server ManagementAdministrator#radius_server}
   */
   readonly radiusServer?: string;
   /**
   * TACACS server object identified by the name or UID. Must be set when "authentication-method" was selected to be "TACACS".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_administrator#tacacs_server ManagementAdministrator#tacacs_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_administrator#tacacs_server ManagementAdministrator#tacacs_server}
   */
   readonly tacacsServer?: string;
   /**
   * Collection of tag identifiers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_administrator#tags ManagementAdministrator#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_administrator#tags ManagementAdministrator#tags}
   */
   readonly tags?: string[];
   /**
   * permissions_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_administrator#permissions_profile ManagementAdministrator#permissions_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_administrator#permissions_profile ManagementAdministrator#permissions_profile}
   */
   readonly permissionsProfile?: ManagementAdministratorPermissionsProfile[] | cdktf.IResolvable;
 }
 export interface ManagementAdministratorPermissionsProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_administrator#domain ManagementAdministrator#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_administrator#domain ManagementAdministrator#domain}
   */
   readonly domain: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_administrator#profile ManagementAdministrator#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_administrator#profile ManagementAdministrator#profile}
   */
   readonly profile: string;
 }
@@ -263,7 +263,7 @@ export class ManagementAdministratorPermissionsProfileList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_administrator checkpoint_management_administrator}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_administrator checkpoint_management_administrator}
 */
 export class ManagementAdministrator extends cdktf.TerraformResource {
 
@@ -279,7 +279,7 @@ export class ManagementAdministrator extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementAdministrator resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementAdministrator to import
-  * @param importFromId The id of the existing ManagementAdministrator that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_administrator#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementAdministrator that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_administrator#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementAdministrator to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -291,7 +291,7 @@ export class ManagementAdministrator extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_administrator checkpoint_management_administrator} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_administrator checkpoint_management_administrator} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -302,7 +302,8 @@ export class ManagementAdministrator extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_administrator',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

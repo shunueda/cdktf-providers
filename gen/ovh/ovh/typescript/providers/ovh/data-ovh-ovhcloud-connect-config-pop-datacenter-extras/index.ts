@@ -172,7 +172,8 @@ export class DataOvhOvhcloudConnectConfigPopDatacenterExtras extends cdktf.Terra
       terraformResourceType: 'ovh_ovhcloud_connect_config_pop_datacenter_extras',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0'
+        providerVersion: '2.9.0',
+        providerVersionConstraint: '2.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

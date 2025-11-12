@@ -268,7 +268,8 @@ export class RuleGroupRecording extends cdktf.TerraformResource {
       terraformResourceType: 'loki_rule_group_recording',
       terraformGeneratorMetadata: {
         providerName: 'loki',
-        providerVersion: '1.0.1'
+        providerVersion: '1.0.1',
+        providerVersionConstraint: '1.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

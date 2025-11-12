@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_passcode_profile
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_passcode_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface ManagementPasscodeProfileConfig extends cdktf.TerraformMetaArgu
   /**
   * The passcode length is 4 and only numeric values allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_passcode_profile#allow_simple_passcode ManagementPasscodeProfile#allow_simple_passcode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_passcode_profile#allow_simple_passcode ManagementPasscodeProfile#allow_simple_passcode}
   */
   readonly allowSimplePasscode?: boolean | cdktf.IResolvable;
   /**
   * Color of the object. Should be one of existing colors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_passcode_profile#color ManagementPasscodeProfile#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_passcode_profile#color ManagementPasscodeProfile#color}
   */
   readonly color?: string;
   /**
   * Comments string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_passcode_profile#comments ManagementPasscodeProfile#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_passcode_profile#comments ManagementPasscodeProfile#comments}
   */
   readonly comments?: string;
   /**
   * Lock the device if app is inactive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_passcode_profile#enable_inactivity_time_lock ManagementPasscodeProfile#enable_inactivity_time_lock}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_passcode_profile#enable_inactivity_time_lock ManagementPasscodeProfile#enable_inactivity_time_lock}
   */
   readonly enableInactivityTimeLock?: boolean | cdktf.IResolvable;
   /**
   * Exit after few failures in passcode verification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_passcode_profile#enable_passcode_failed_attempts ManagementPasscodeProfile#enable_passcode_failed_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_passcode_profile#enable_passcode_failed_attempts ManagementPasscodeProfile#enable_passcode_failed_attempts}
   */
   readonly enablePasscodeFailedAttempts?: boolean | cdktf.IResolvable;
   /**
   * Check passcode history for reparations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_passcode_profile#enable_passcode_history ManagementPasscodeProfile#enable_passcode_history}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_passcode_profile#enable_passcode_history ManagementPasscodeProfile#enable_passcode_history}
   */
   readonly enablePasscodeHistory?: boolean | cdktf.IResolvable;
   /**
   * Enable/disable expiration date to the passcode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_passcode_profile#force_passcode_expiration ManagementPasscodeProfile#force_passcode_expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_passcode_profile#force_passcode_expiration ManagementPasscodeProfile#force_passcode_expiration}
   */
   readonly forcePasscodeExpiration?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_passcode_profile#id ManagementPasscodeProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_passcode_profile#id ManagementPasscodeProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,73 +59,73 @@ export interface ManagementPasscodeProfileConfig extends cdktf.TerraformMetaArgu
   /**
   * Apply changes ignoring errors. You won't be able to publish such a changes. If ignore-warnings flag was omitted - warnings will also be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_passcode_profile#ignore_errors ManagementPasscodeProfile#ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_passcode_profile#ignore_errors ManagementPasscodeProfile#ignore_errors}
   */
   readonly ignoreErrors?: boolean | cdktf.IResolvable;
   /**
   * Apply changes ignoring warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_passcode_profile#ignore_warnings ManagementPasscodeProfile#ignore_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_passcode_profile#ignore_warnings ManagementPasscodeProfile#ignore_warnings}
   */
   readonly ignoreWarnings?: boolean | cdktf.IResolvable;
   /**
   * Time without user input before passcode must be re-entered (in minutes).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_passcode_profile#max_inactivity_time_lock ManagementPasscodeProfile#max_inactivity_time_lock}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_passcode_profile#max_inactivity_time_lock ManagementPasscodeProfile#max_inactivity_time_lock}
   */
   readonly maxInactivityTimeLock?: number;
   /**
   * Number of failed attempts allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_passcode_profile#max_passcode_failed_attempts ManagementPasscodeProfile#max_passcode_failed_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_passcode_profile#max_passcode_failed_attempts ManagementPasscodeProfile#max_passcode_failed_attempts}
   */
   readonly maxPasscodeFailedAttempts?: number;
   /**
   * Minimum number of complex characters (if "require-alphanumeric-passcode" is enabled). The number of the complex characters cannot be greater than number of the passcode length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_passcode_profile#min_passcode_complex_characters ManagementPasscodeProfile#min_passcode_complex_characters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_passcode_profile#min_passcode_complex_characters ManagementPasscodeProfile#min_passcode_complex_characters}
   */
   readonly minPasscodeComplexCharacters?: number;
   /**
   * Minimum passcode length - relevant if "allow-simple-passcode" is disable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_passcode_profile#min_passcode_length ManagementPasscodeProfile#min_passcode_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_passcode_profile#min_passcode_length ManagementPasscodeProfile#min_passcode_length}
   */
   readonly minPasscodeLength?: number;
   /**
   * Object name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_passcode_profile#name ManagementPasscodeProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_passcode_profile#name ManagementPasscodeProfile#name}
   */
   readonly name: string;
   /**
   * The period in days after which the passcode will expire.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_passcode_profile#passcode_expiration_period ManagementPasscodeProfile#passcode_expiration_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_passcode_profile#passcode_expiration_period ManagementPasscodeProfile#passcode_expiration_period}
   */
   readonly passcodeExpirationPeriod?: number;
   /**
   * Number of passcodes that will be kept in history.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_passcode_profile#passcode_history ManagementPasscodeProfile#passcode_history}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_passcode_profile#passcode_history ManagementPasscodeProfile#passcode_history}
   */
   readonly passcodeHistory?: number;
   /**
   * Require alphanumeric characters in the passcode - relevant if "allow-simple-passcode" is disable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_passcode_profile#require_alphanumeric_passcode ManagementPasscodeProfile#require_alphanumeric_passcode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_passcode_profile#require_alphanumeric_passcode ManagementPasscodeProfile#require_alphanumeric_passcode}
   */
   readonly requireAlphanumericPasscode?: boolean | cdktf.IResolvable;
   /**
   * Collection of tag identifiers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_passcode_profile#tags ManagementPasscodeProfile#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_passcode_profile#tags ManagementPasscodeProfile#tags}
   */
   readonly tags?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_passcode_profile checkpoint_management_passcode_profile}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_passcode_profile checkpoint_management_passcode_profile}
 */
 export class ManagementPasscodeProfile extends cdktf.TerraformResource {
 
@@ -141,7 +141,7 @@ export class ManagementPasscodeProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementPasscodeProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementPasscodeProfile to import
-  * @param importFromId The id of the existing ManagementPasscodeProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_passcode_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementPasscodeProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_passcode_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementPasscodeProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -153,7 +153,7 @@ export class ManagementPasscodeProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_passcode_profile checkpoint_management_passcode_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_passcode_profile checkpoint_management_passcode_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -164,7 +164,8 @@ export class ManagementPasscodeProfile extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_passcode_profile',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

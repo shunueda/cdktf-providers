@@ -97,7 +97,8 @@ export class ZitadelProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'zitadel',
       terraformGeneratorMetadata: {
         providerName: 'zitadel',
-        providerVersion: '2.3.0'
+        providerVersion: '2.3.0',
+        providerVersionConstraint: '2.3.0'
       },
       terraformProviderSource: 'zitadel/zitadel'
     });

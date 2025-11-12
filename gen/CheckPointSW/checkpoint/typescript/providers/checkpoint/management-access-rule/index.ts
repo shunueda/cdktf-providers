@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_rule
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,71 +10,71 @@ export interface ManagementAccessRuleConfig extends cdktf.TerraformMetaArguments
   /**
   * "Accept", "Drop", "Ask", "Inform", "Reject", "User Auth", "Client Auth", "Apply Layer".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_rule#action ManagementAccessRule#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_rule#action ManagementAccessRule#action}
   */
   readonly action?: string;
   /**
   * Action settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_rule#action_settings ManagementAccessRule#action_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_rule#action_settings ManagementAccessRule#action_settings}
   */
   readonly actionSettings?: { [key: string]: string };
   /**
   * Comments string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_rule#comments ManagementAccessRule#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_rule#comments ManagementAccessRule#comments}
   */
   readonly comments?: string;
   /**
   * List of processed file types that this rule applies on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_rule#content ManagementAccessRule#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_rule#content ManagementAccessRule#content}
   */
   readonly content?: string[];
   /**
   * On which direction the file types processing is applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_rule#content_direction ManagementAccessRule#content_direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_rule#content_direction ManagementAccessRule#content_direction}
   */
   readonly contentDirection?: string;
   /**
   * True if negate is set for data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_rule#content_negate ManagementAccessRule#content_negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_rule#content_negate ManagementAccessRule#content_negate}
   */
   readonly contentNegate?: boolean | cdktf.IResolvable;
   /**
   * Custom fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_rule#custom_fields ManagementAccessRule#custom_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_rule#custom_fields ManagementAccessRule#custom_fields}
   */
   readonly customFields?: { [key: string]: string };
   /**
   * Collection of Network objects identified by the name or UID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_rule#destination ManagementAccessRule#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_rule#destination ManagementAccessRule#destination}
   */
   readonly destination?: string[];
   /**
   * True if negate is set for destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_rule#destination_negate ManagementAccessRule#destination_negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_rule#destination_negate ManagementAccessRule#destination_negate}
   */
   readonly destinationNegate?: boolean | cdktf.IResolvable;
   /**
   * Enable/Disable the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_rule#enabled ManagementAccessRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_rule#enabled ManagementAccessRule#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * List of resource fields that will use object UIDs as object identifiers. Default is object name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_rule#fields_with_uid_identifier ManagementAccessRule#fields_with_uid_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_rule#fields_with_uid_identifier ManagementAccessRule#fields_with_uid_identifier}
   */
   readonly fieldsWithUidIdentifier?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_rule#id ManagementAccessRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_rule#id ManagementAccessRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -83,103 +83,103 @@ export interface ManagementAccessRuleConfig extends cdktf.TerraformMetaArguments
   /**
   * Apply changes ignoring errors. You won't be able to publish such a changes. If ignore-warnings flag was omitted - warnings will also be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_rule#ignore_errors ManagementAccessRule#ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_rule#ignore_errors ManagementAccessRule#ignore_errors}
   */
   readonly ignoreErrors?: boolean | cdktf.IResolvable;
   /**
   * Apply changes ignoring warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_rule#ignore_warnings ManagementAccessRule#ignore_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_rule#ignore_warnings ManagementAccessRule#ignore_warnings}
   */
   readonly ignoreWarnings?: boolean | cdktf.IResolvable;
   /**
   * Inline Layer identified by the name or UID. Relevant only if "Action" was set to "Apply Layer".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_rule#inline_layer ManagementAccessRule#inline_layer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_rule#inline_layer ManagementAccessRule#inline_layer}
   */
   readonly inlineLayer?: string;
   /**
   * Which Gateways identified by the name or UID to install the policy on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_rule#install_on ManagementAccessRule#install_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_rule#install_on ManagementAccessRule#install_on}
   */
   readonly installOn?: string[];
   /**
   * Layer that the rule belongs to identified by the name or UID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_rule#layer ManagementAccessRule#layer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_rule#layer ManagementAccessRule#layer}
   */
   readonly layer: string;
   /**
   * Rule name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_rule#name ManagementAccessRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_rule#name ManagementAccessRule#name}
   */
   readonly name?: string;
   /**
   * Position in the rulebase.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_rule#position ManagementAccessRule#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_rule#position ManagementAccessRule#position}
   */
   readonly position: { [key: string]: string };
   /**
   * Collection of Network objects identified by the name or UID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_rule#service ManagementAccessRule#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_rule#service ManagementAccessRule#service}
   */
   readonly service?: string[];
   /**
   * True if negate is set for service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_rule#service_negate ManagementAccessRule#service_negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_rule#service_negate ManagementAccessRule#service_negate}
   */
   readonly serviceNegate?: boolean | cdktf.IResolvable;
   /**
   * Collection of Network objects identified by the name or UID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_rule#source ManagementAccessRule#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_rule#source ManagementAccessRule#source}
   */
   readonly source?: string[];
   /**
   * True if negate is set for source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_rule#source_negate ManagementAccessRule#source_negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_rule#source_negate ManagementAccessRule#source_negate}
   */
   readonly sourceNegate?: boolean | cdktf.IResolvable;
   /**
   * List of time objects. For example: "Weekend", "Off-Work", "Every-Day".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_rule#time ManagementAccessRule#time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_rule#time ManagementAccessRule#time}
   */
   readonly time?: string[];
   /**
   * Track Settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_rule#track ManagementAccessRule#track}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_rule#track ManagementAccessRule#track}
   */
   readonly track?: { [key: string]: string };
   /**
   * Valid values "Any", "All_GwToGw" or VPN community name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_rule#vpn ManagementAccessRule#vpn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_rule#vpn ManagementAccessRule#vpn}
   */
   readonly vpn?: string;
   /**
   * Collection of VPN communities identified by name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_rule#vpn_communities ManagementAccessRule#vpn_communities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_rule#vpn_communities ManagementAccessRule#vpn_communities}
   */
   readonly vpnCommunities?: string[];
   /**
   * user_check block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_rule#user_check ManagementAccessRule#user_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_rule#user_check ManagementAccessRule#user_check}
   */
   readonly userCheck?: ManagementAccessRuleUserCheck;
   /**
   * vpn_directional block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_rule#vpn_directional ManagementAccessRule#vpn_directional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_rule#vpn_directional ManagementAccessRule#vpn_directional}
   */
   readonly vpnDirectional?: ManagementAccessRuleVpnDirectional[] | cdktf.IResolvable;
 }
@@ -187,13 +187,13 @@ export interface ManagementAccessRuleUserCheckCustomFrequency {
   /**
   * N/A
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_rule#every ManagementAccessRule#every}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_rule#every ManagementAccessRule#every}
   */
   readonly every?: number;
   /**
   * N/A
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_rule#unit ManagementAccessRule#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_rule#unit ManagementAccessRule#unit}
   */
   readonly unit?: string;
 }
@@ -308,25 +308,25 @@ export interface ManagementAccessRuleUserCheck {
   /**
   * N/A
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_rule#confirm ManagementAccessRule#confirm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_rule#confirm ManagementAccessRule#confirm}
   */
   readonly confirm?: string;
   /**
   * N/A
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_rule#frequency ManagementAccessRule#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_rule#frequency ManagementAccessRule#frequency}
   */
   readonly frequency?: string;
   /**
   * N/A
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_rule#interaction ManagementAccessRule#interaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_rule#interaction ManagementAccessRule#interaction}
   */
   readonly interaction?: string;
   /**
   * custom_frequency block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_rule#custom_frequency ManagementAccessRule#custom_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_rule#custom_frequency ManagementAccessRule#custom_frequency}
   */
   readonly customFrequency?: ManagementAccessRuleUserCheckCustomFrequency;
 }
@@ -499,13 +499,13 @@ export interface ManagementAccessRuleVpnDirectional {
   /**
   * From VPN community
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_rule#from ManagementAccessRule#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_rule#from ManagementAccessRule#from}
   */
   readonly from?: string;
   /**
   * To VPN community
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_rule#to ManagementAccessRule#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_rule#to ManagementAccessRule#to}
   */
   readonly to?: string;
 }
@@ -650,7 +650,7 @@ export class ManagementAccessRuleVpnDirectionalList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_rule checkpoint_management_access_rule}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_rule checkpoint_management_access_rule}
 */
 export class ManagementAccessRule extends cdktf.TerraformResource {
 
@@ -666,7 +666,7 @@ export class ManagementAccessRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementAccessRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementAccessRule to import
-  * @param importFromId The id of the existing ManagementAccessRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementAccessRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementAccessRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -678,7 +678,7 @@ export class ManagementAccessRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_access_rule checkpoint_management_access_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_access_rule checkpoint_management_access_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -689,7 +689,8 @@ export class ManagementAccessRule extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_access_rule',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

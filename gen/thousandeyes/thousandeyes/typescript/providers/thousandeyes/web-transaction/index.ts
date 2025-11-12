@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/web_transaction
+// https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/web_transaction
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,173 +10,173 @@ export interface WebTransactionConfig extends cdktf.TerraformMetaArguments {
   /**
   * The list of ThousandEyes agent IDs to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/web_transaction#agents WebTransaction#agents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/web_transaction#agents WebTransaction#agents}
   */
   readonly agents: string[];
   /**
   * List of alert rules IDs to apply to the test (get `ruleId` from `/alerts/rules` endpoint. If `alertsEnabled` is set to `true` and `alertRules` is not included on test creation or update, applicable user default alert rules will be used)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/web_transaction#alert_rules WebTransaction#alert_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/web_transaction#alert_rules WebTransaction#alert_rules}
   */
   readonly alertRules?: string[];
   /**
   * Set to 'true' to enable alerts, or 'false' to disable alerts. The default value is 'true'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/web_transaction#alerts_enabled WebTransaction#alerts_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/web_transaction#alerts_enabled WebTransaction#alerts_enabled}
   */
   readonly alertsEnabled?: boolean | cdktf.IResolvable;
   /**
   * Set true to use the agent's geolocation by the web page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/web_transaction#allow_geolocation WebTransaction#allow_geolocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/web_transaction#allow_geolocation WebTransaction#allow_geolocation}
   */
   readonly allowGeolocation?: boolean | cdktf.IResolvable;
   /**
   * Set true allow the use of a fake mic and camera in the browser.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/web_transaction#allow_mic_and_camera WebTransaction#allow_mic_and_camera}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/web_transaction#allow_mic_and_camera WebTransaction#allow_mic_and_camera}
   */
   readonly allowMicAndCamera?: boolean | cdktf.IResolvable;
   /**
   * Allows TLS renegotiation with servers not supporting RFC 5746. Default Set to true to allow unsafe legacy renegotiation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/web_transaction#allow_unsafe_legacy_renegotiation WebTransaction#allow_unsafe_legacy_renegotiation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/web_transaction#allow_unsafe_legacy_renegotiation WebTransaction#allow_unsafe_legacy_renegotiation}
   */
   readonly allowUnsafeLegacyRenegotiation?: boolean | cdktf.IResolvable;
   /**
   * [none, basic, ntlm, kerberos, oauth] The HTTP authentication type. Defaults to 'none'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/web_transaction#auth_type WebTransaction#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/web_transaction#auth_type WebTransaction#auth_type}
   */
   readonly authType?: string;
   /**
   * Set to `true` to measure bandwidth. This only applies to Enterprise Agents assigned to the test, and requires that networkMeasurements is set. Defaults to 'false'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/web_transaction#bandwidth_measurements WebTransaction#bandwidth_measurements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/web_transaction#bandwidth_measurements WebTransaction#bandwidth_measurements}
   */
   readonly bandwidthMeasurements?: boolean | cdktf.IResolvable;
   /**
   * Enable BGP measurements. Set to true for enabled, false for disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/web_transaction#bgp_measurements WebTransaction#bgp_measurements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/web_transaction#bgp_measurements WebTransaction#bgp_measurements}
   */
   readonly bgpMeasurements?: boolean | cdktf.IResolvable;
   /**
   * Domains or full object URLs to be excluded from metrics and waterfall data for transaction tests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/web_transaction#block_domains WebTransaction#block_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/web_transaction#block_domains WebTransaction#block_domains}
   */
   readonly blockDomains?: string;
   /**
   * Set one of the available browser language that you want to use to configure the browser.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/web_transaction#browser_language WebTransaction#browser_language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/web_transaction#browser_language WebTransaction#browser_language}
   */
   readonly browserLanguage?: string;
   /**
   * String representation (containing newline characters) of client certificate, the private key must be placed first, then the certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/web_transaction#client_certificate WebTransaction#client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/web_transaction#client_certificate WebTransaction#client_certificate}
   */
   readonly clientCertificate?: string;
   /**
   * Indicates whether network data to the proxy should be collected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/web_transaction#collect_proxy_network_data WebTransaction#collect_proxy_network_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/web_transaction#collect_proxy_network_data WebTransaction#collect_proxy_network_data}
   */
   readonly collectProxyNetworkData?: boolean | cdktf.IResolvable;
   /**
   * Verify content using a regular expression. This field does not require escaping.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/web_transaction#content_regex WebTransaction#content_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/web_transaction#content_regex WebTransaction#content_regex}
   */
   readonly contentRegex?: string;
   /**
   * The array of credentialID integers. You can get the credentialId from the /credentials endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/web_transaction#credentials WebTransaction#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/web_transaction#credentials WebTransaction#credentials}
   */
   readonly credentials?: string[];
   /**
   * A description of the alert rule. Defaults to an empty string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/web_transaction#description WebTransaction#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/web_transaction#description WebTransaction#description}
   */
   readonly description?: string;
   /**
   * The valid HTTP response code you’re interested in retrieving.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/web_transaction#desired_status_code WebTransaction#desired_status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/web_transaction#desired_status_code WebTransaction#desired_status_code}
   */
   readonly desiredStatusCode?: string;
   /**
   * Enables or disables screenshots on error. Set true to not capture
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/web_transaction#disable_screenshot WebTransaction#disable_screenshot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/web_transaction#disable_screenshot WebTransaction#disable_screenshot}
   */
   readonly disableScreenshot?: boolean | cdktf.IResolvable;
   /**
   * Adds distributed tracing headers to API requests using B3 and W3C standards.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/web_transaction#distributed_tracing WebTransaction#distributed_tracing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/web_transaction#distributed_tracing WebTransaction#distributed_tracing}
   */
   readonly distributedTracing?: boolean | cdktf.IResolvable;
   /**
   * The IP address to use for DNS override.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/web_transaction#dns_override WebTransaction#dns_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/web_transaction#dns_override WebTransaction#dns_override}
   */
   readonly dnsOverride?: string;
   /**
   * Specify the maximum number of bytes to download from the target object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/web_transaction#download_limit WebTransaction#download_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/web_transaction#download_limit WebTransaction#download_limit}
   */
   readonly downloadLimit?: number;
   /**
   * ID of the emulated device, if one was given when the test was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/web_transaction#emulated_device_id WebTransaction#emulated_device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/web_transaction#emulated_device_id WebTransaction#emulated_device_id}
   */
   readonly emulatedDeviceId?: string;
   /**
   * Enables or disables the test.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/web_transaction#enabled WebTransaction#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/web_transaction#enabled WebTransaction#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Sets packets rate sent to measure the network in packets per second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/web_transaction#fixed_packet_rate WebTransaction#fixed_packet_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/web_transaction#fixed_packet_rate WebTransaction#fixed_packet_rate}
   */
   readonly fixedPacketRate?: number;
   /**
   * Follow HTTP/301 or HTTP/302 redirect directives. Defaults to 'true'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/web_transaction#follow_redirects WebTransaction#follow_redirects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/web_transaction#follow_redirects WebTransaction#follow_redirects}
   */
   readonly followRedirects?: boolean | cdktf.IResolvable;
   /**
   * The target time for HTTP server completion, specified in milliseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/web_transaction#http_target_time WebTransaction#http_target_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/web_transaction#http_target_time WebTransaction#http_target_time}
   */
   readonly httpTargetTime?: number;
   /**
   * The target time for HTTP server limits, specified in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/web_transaction#http_time_limit WebTransaction#http_time_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/web_transaction#http_time_limit WebTransaction#http_time_limit}
   */
   readonly httpTimeLimit?: number;
   /**
   * Set to 2 for the default HTTP version (prefer HTTP/2), or 1 for HTTP/1.1 only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/web_transaction#http_version WebTransaction#http_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/web_transaction#http_version WebTransaction#http_version}
   */
   readonly httpVersion?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/web_transaction#id WebTransaction#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/web_transaction#id WebTransaction#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -185,181 +185,181 @@ export interface WebTransactionConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enables identification of agent traffic using user agent string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/web_transaction#identify_agent_traffic_with_user_agent WebTransaction#identify_agent_traffic_with_user_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/web_transaction#identify_agent_traffic_with_user_agent WebTransaction#identify_agent_traffic_with_user_agent}
   */
   readonly identifyAgentTrafficWithUserAgent?: boolean | cdktf.IResolvable;
   /**
   * Set to 'true' to capture response headers for objects loaded by the test.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/web_transaction#include_headers WebTransaction#include_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/web_transaction#include_headers WebTransaction#include_headers}
   */
   readonly includeHeaders?: boolean | cdktf.IResolvable;
   /**
   * The interval to run the test on, in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/web_transaction#interval WebTransaction#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/web_transaction#interval WebTransaction#interval}
   */
   readonly interval: number;
   /**
   * Contains list of BGP monitor IDs (get `monitorId` from `/monitors` endpoint)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/web_transaction#monitors WebTransaction#monitors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/web_transaction#monitors WebTransaction#monitors}
   */
   readonly monitors?: string[];
   /**
   * Measure MTU sizes on the network from agents to the target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/web_transaction#mtu_measurements WebTransaction#mtu_measurements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/web_transaction#mtu_measurements WebTransaction#mtu_measurements}
   */
   readonly mtuMeasurements?: boolean | cdktf.IResolvable;
   /**
   * Set to 'true' to enable network measurements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/web_transaction#network_measurements WebTransaction#network_measurements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/web_transaction#network_measurements WebTransaction#network_measurements}
   */
   readonly networkMeasurements?: boolean | cdktf.IResolvable;
   /**
   * The number of path traces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/web_transaction#num_path_traces WebTransaction#num_path_traces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/web_transaction#num_path_traces WebTransaction#num_path_traces}
   */
   readonly numPathTraces?: number;
   /**
   * Flag indicating if a proxy other than the default should be used. To override the default proxy for agents, set to `true` and specify a value for `overrideProxyId`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/web_transaction#override_agent_proxy WebTransaction#override_agent_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/web_transaction#override_agent_proxy WebTransaction#override_agent_proxy}
   */
   readonly overrideAgentProxy?: boolean | cdktf.IResolvable;
   /**
   * ID of the proxy to be used if the default proxy is overridden.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/web_transaction#override_proxy_id WebTransaction#override_proxy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/web_transaction#override_proxy_id WebTransaction#override_proxy_id}
   */
   readonly overrideProxyId?: string;
   /**
   * [normal, eager or none] Defines page loading strategy. Defaults to 'none'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/web_transaction#page_loading_strategy WebTransaction#page_loading_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/web_transaction#page_loading_strategy WebTransaction#page_loading_strategy}
   */
   readonly pageLoadingStrategy?: string;
   /**
   * The password to be used to authenticate with the destination server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/web_transaction#password WebTransaction#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/web_transaction#password WebTransaction#password}
   */
   readonly password?: string;
   /**
   * [classic or in-session] Choose 'inSession' to perform the path trace within a TCP session. Default value is 'classic'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/web_transaction#path_trace_mode WebTransaction#path_trace_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/web_transaction#path_trace_mode WebTransaction#path_trace_mode}
   */
   readonly pathTraceMode?: string;
   /**
   * [auto, sack, or syn] The probe mode used by end-to-end network tests. This is only valid if the protocol is set to TCP. The default value is AUTO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/web_transaction#probe_mode WebTransaction#probe_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/web_transaction#probe_mode WebTransaction#probe_mode}
   */
   readonly probeMode?: string;
   /**
   * The protocol used by dependent network tests (end-to-end, path trace, PMTUD). Default value is tcp.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/web_transaction#protocol WebTransaction#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/web_transaction#protocol WebTransaction#protocol}
   */
   readonly protocol?: string;
   /**
   * Indicates whether agents should randomize the start time in each test round.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/web_transaction#randomized_start_time WebTransaction#randomized_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/web_transaction#randomized_start_time WebTransaction#randomized_start_time}
   */
   readonly randomizedStartTime?: boolean | cdktf.IResolvable;
   /**
   * List of accounts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/web_transaction#shared_with_accounts WebTransaction#shared_with_accounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/web_transaction#shared_with_accounts WebTransaction#shared_with_accounts}
   */
   readonly sharedWithAccounts?: string[];
   /**
   * Defines the SSL version. 0 for auto, 3 for SSLv3, 4 for TLS v1.0, 5 for TLS v1.1, 6 for TLS v1.2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/web_transaction#ssl_version_id WebTransaction#ssl_version_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/web_transaction#ssl_version_id WebTransaction#ssl_version_id}
   */
   readonly sslVersionId?: string;
   /**
   * The subinterval for round-robin testing (in seconds). The value must be less than or equal to 'interval'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/web_transaction#subinterval WebTransaction#subinterval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/web_transaction#subinterval WebTransaction#subinterval}
   */
   readonly subinterval?: number;
   /**
   * The target time for completion. The default value is 10, specified in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/web_transaction#target_time WebTransaction#target_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/web_transaction#target_time WebTransaction#target_time}
   */
   readonly targetTime?: number;
   /**
   * The name of the test.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/web_transaction#test_name WebTransaction#test_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/web_transaction#test_name WebTransaction#test_name}
   */
   readonly testName?: string;
   /**
   * The time limit for the transaction. The default value is 30s.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/web_transaction#time_limit WebTransaction#time_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/web_transaction#time_limit WebTransaction#time_limit}
   */
   readonly timeLimit?: number;
   /**
   * The full selenium transaction script.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/web_transaction#transaction_script WebTransaction#transaction_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/web_transaction#transaction_script WebTransaction#transaction_script}
   */
   readonly transactionScript: string;
   /**
   * The target URL for the test.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/web_transaction#url WebTransaction#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/web_transaction#url WebTransaction#url}
   */
   readonly url: string;
   /**
   * Enable to use basic authentication. Only include this field if you are using authentication. Requires the username and password to be set if enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/web_transaction#use_ntlm WebTransaction#use_ntlm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/web_transaction#use_ntlm WebTransaction#use_ntlm}
   */
   readonly useNtlm?: boolean | cdktf.IResolvable;
   /**
   * Enable to automatically add all available Public BGP Monitors to the test.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/web_transaction#use_public_bgp WebTransaction#use_public_bgp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/web_transaction#use_public_bgp WebTransaction#use_public_bgp}
   */
   readonly usePublicBgp?: boolean | cdktf.IResolvable;
   /**
   * The user-agent string to be provided during the test.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/web_transaction#user_agent WebTransaction#user_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/web_transaction#user_agent WebTransaction#user_agent}
   */
   readonly userAgent?: string;
   /**
   * The username to be used to authenticate with the destination server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/web_transaction#username WebTransaction#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/web_transaction#username WebTransaction#username}
   */
   readonly username?: string;
   /**
   * Set whether to ignore certificate errors. Set to 'false' to ignore certificate errors. The default value is 'true'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/web_transaction#verify_certificate WebTransaction#verify_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/web_transaction#verify_certificate WebTransaction#verify_certificate}
   */
   readonly verifyCertificate?: boolean | cdktf.IResolvable;
   /**
   * agent_interfaces block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/web_transaction#agent_interfaces WebTransaction#agent_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/web_transaction#agent_interfaces WebTransaction#agent_interfaces}
   */
   readonly agentInterfaces?: WebTransactionAgentInterfaces[] | cdktf.IResolvable;
   /**
   * custom_headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/web_transaction#custom_headers WebTransaction#custom_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/web_transaction#custom_headers WebTransaction#custom_headers}
   */
   readonly customHeaders?: WebTransactionCustomHeaders[] | cdktf.IResolvable;
 }
@@ -367,13 +367,13 @@ export interface WebTransactionAgentInterfaces {
   /**
   * The agent ID of the enterprise agent for the test.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/web_transaction#agent_id WebTransaction#agent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/web_transaction#agent_id WebTransaction#agent_id}
   */
   readonly agentId?: string;
   /**
   * IP address of the agent interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/web_transaction#ip_address WebTransaction#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/web_transaction#ip_address WebTransaction#ip_address}
   */
   readonly ipAddress?: string;
 }
@@ -520,19 +520,19 @@ export interface WebTransactionCustomHeaders {
   /**
   * Use these HTTP headers for all domains.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/web_transaction#all WebTransaction#all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/web_transaction#all WebTransaction#all}
   */
   readonly all?: { [key: string]: string };
   /**
   * Use these HTTP headers for the specified domains.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/web_transaction#domains WebTransaction#domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/web_transaction#domains WebTransaction#domains}
   */
   readonly domains?: { [key: string]: string };
   /**
   * Use these HTTP headers for root server request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/web_transaction#root WebTransaction#root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/web_transaction#root WebTransaction#root}
   */
   readonly root?: { [key: string]: string };
 }
@@ -706,7 +706,7 @@ export class WebTransactionCustomHeadersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/web_transaction thousandeyes_web_transaction}
+* Represents a {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/web_transaction thousandeyes_web_transaction}
 */
 export class WebTransaction extends cdktf.TerraformResource {
 
@@ -722,7 +722,7 @@ export class WebTransaction extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WebTransaction resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WebTransaction to import
-  * @param importFromId The id of the existing WebTransaction that should be imported. Refer to the {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/web_transaction#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WebTransaction that should be imported. Refer to the {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/web_transaction#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WebTransaction to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -734,7 +734,7 @@ export class WebTransaction extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/web_transaction thousandeyes_web_transaction} Resource
+  * Create a new {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/web_transaction thousandeyes_web_transaction} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -745,7 +745,8 @@ export class WebTransaction extends cdktf.TerraformResource {
       terraformResourceType: 'thousandeyes_web_transaction',
       terraformGeneratorMetadata: {
         providerName: 'thousandeyes',
-        providerVersion: '3.1.2'
+        providerVersion: '3.1.3',
+        providerVersionConstraint: '3.1.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

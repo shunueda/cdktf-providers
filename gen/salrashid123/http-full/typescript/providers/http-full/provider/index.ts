@@ -55,7 +55,8 @@ export class HttpFullProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'http-full',
       terraformGeneratorMetadata: {
         providerName: 'http-full',
-        providerVersion: '1.3.1'
+        providerVersion: '1.3.1',
+        providerVersionConstraint: '1.3.1'
       },
       terraformProviderSource: 'salrashid123/http-full'
     });

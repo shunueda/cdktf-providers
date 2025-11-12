@@ -238,7 +238,8 @@ export class NetworkFirewallNetworkFirewallPolicy extends cdktf.TerraformResourc
       terraformResourceType: 'oci_network_firewall_network_firewall_policy',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

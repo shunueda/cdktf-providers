@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/magalucloud/mgc/0.39.0/docs/resources/kubernetes_nodepool
+// https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/resources/kubernetes_nodepool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface KubernetesNodepoolConfig extends cdktf.TerraformMetaArguments {
   /**
   * List of availability zones where the node pool is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.39.0/docs/resources/kubernetes_nodepool#availability_zones KubernetesNodepool#availability_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/resources/kubernetes_nodepool#availability_zones KubernetesNodepool#availability_zones}
   */
   readonly availabilityZones?: string[];
   /**
   * UUID of the Kubernetes cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.39.0/docs/resources/kubernetes_nodepool#cluster_id KubernetesNodepool#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/resources/kubernetes_nodepool#cluster_id KubernetesNodepool#cluster_id}
   */
   readonly clusterId: string;
   /**
   * Definition of the CPU, RAM, and storage capacity of the nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.39.0/docs/resources/kubernetes_nodepool#flavor_name KubernetesNodepool#flavor_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/resources/kubernetes_nodepool#flavor_name KubernetesNodepool#flavor_name}
   */
   readonly flavorName: string;
   /**
   * Maximum number of pods per node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.39.0/docs/resources/kubernetes_nodepool#max_pods_per_node KubernetesNodepool#max_pods_per_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/resources/kubernetes_nodepool#max_pods_per_node KubernetesNodepool#max_pods_per_node}
   */
   readonly maxPodsPerNode?: number;
   /**
   * Maximum number of replicas for autoscaling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.39.0/docs/resources/kubernetes_nodepool#max_replicas KubernetesNodepool#max_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/resources/kubernetes_nodepool#max_replicas KubernetesNodepool#max_replicas}
   */
   readonly maxReplicas?: number;
   /**
   * Minimum number of replicas for autoscaling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.39.0/docs/resources/kubernetes_nodepool#min_replicas KubernetesNodepool#min_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/resources/kubernetes_nodepool#min_replicas KubernetesNodepool#min_replicas}
   */
   readonly minReplicas?: number;
   /**
   * Name of the node pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.39.0/docs/resources/kubernetes_nodepool#name KubernetesNodepool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/resources/kubernetes_nodepool#name KubernetesNodepool#name}
   */
   readonly name: string;
   /**
   * Number of replicas of the nodes in the node pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.39.0/docs/resources/kubernetes_nodepool#replicas KubernetesNodepool#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/resources/kubernetes_nodepool#replicas KubernetesNodepool#replicas}
   */
   readonly replicas: number;
   /**
   * Property associating a set of nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.39.0/docs/resources/kubernetes_nodepool#taints KubernetesNodepool#taints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/resources/kubernetes_nodepool#taints KubernetesNodepool#taints}
   */
   readonly taints?: KubernetesNodepoolTaints[] | cdktf.IResolvable;
 }
@@ -66,19 +66,19 @@ export interface KubernetesNodepoolTaints {
   /**
   * The effect of the taint on pods that do not tolerate the taint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.39.0/docs/resources/kubernetes_nodepool#effect KubernetesNodepool#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/resources/kubernetes_nodepool#effect KubernetesNodepool#effect}
   */
   readonly effect?: string;
   /**
   * Key of the taint to be applied to the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.39.0/docs/resources/kubernetes_nodepool#key KubernetesNodepool#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/resources/kubernetes_nodepool#key KubernetesNodepool#key}
   */
   readonly key?: string;
   /**
   * Value corresponding to the taint key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.39.0/docs/resources/kubernetes_nodepool#value KubernetesNodepool#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/resources/kubernetes_nodepool#value KubernetesNodepool#value}
   */
   readonly value?: string;
 }
@@ -252,7 +252,7 @@ export class KubernetesNodepoolTaintsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.39.0/docs/resources/kubernetes_nodepool mgc_kubernetes_nodepool}
+* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/resources/kubernetes_nodepool mgc_kubernetes_nodepool}
 */
 export class KubernetesNodepool extends cdktf.TerraformResource {
 
@@ -268,7 +268,7 @@ export class KubernetesNodepool extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KubernetesNodepool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KubernetesNodepool to import
-  * @param importFromId The id of the existing KubernetesNodepool that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.39.0/docs/resources/kubernetes_nodepool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KubernetesNodepool that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/resources/kubernetes_nodepool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KubernetesNodepool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -280,7 +280,7 @@ export class KubernetesNodepool extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.39.0/docs/resources/kubernetes_nodepool mgc_kubernetes_nodepool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/resources/kubernetes_nodepool mgc_kubernetes_nodepool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -291,7 +291,8 @@ export class KubernetesNodepool extends cdktf.TerraformResource {
       terraformResourceType: 'mgc_kubernetes_nodepool',
       terraformGeneratorMetadata: {
         providerName: 'mgc',
-        providerVersion: '0.39.0'
+        providerVersion: '0.40.0',
+        providerVersionConstraint: '0.40.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

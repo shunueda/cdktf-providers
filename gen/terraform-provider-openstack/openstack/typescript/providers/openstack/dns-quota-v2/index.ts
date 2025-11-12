@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/dns_quota_v2
+// https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/dns_quota_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,58 +8,58 @@ import * as cdktf from 'cdktf';
 
 export interface DnsQuotaV2Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/dns_quota_v2#api_export_size DnsQuotaV2#api_export_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/dns_quota_v2#api_export_size DnsQuotaV2#api_export_size}
   */
   readonly apiExportSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/dns_quota_v2#id DnsQuotaV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/dns_quota_v2#id DnsQuotaV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/dns_quota_v2#project_id DnsQuotaV2#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/dns_quota_v2#project_id DnsQuotaV2#project_id}
   */
   readonly projectId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/dns_quota_v2#recordset_records DnsQuotaV2#recordset_records}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/dns_quota_v2#recordset_records DnsQuotaV2#recordset_records}
   */
   readonly recordsetRecords?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/dns_quota_v2#region DnsQuotaV2#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/dns_quota_v2#region DnsQuotaV2#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/dns_quota_v2#zone_records DnsQuotaV2#zone_records}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/dns_quota_v2#zone_records DnsQuotaV2#zone_records}
   */
   readonly zoneRecords?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/dns_quota_v2#zone_recordsets DnsQuotaV2#zone_recordsets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/dns_quota_v2#zone_recordsets DnsQuotaV2#zone_recordsets}
   */
   readonly zoneRecordsets?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/dns_quota_v2#zones DnsQuotaV2#zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/dns_quota_v2#zones DnsQuotaV2#zones}
   */
   readonly zones?: number;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/dns_quota_v2#timeouts DnsQuotaV2#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/dns_quota_v2#timeouts DnsQuotaV2#timeouts}
   */
   readonly timeouts?: DnsQuotaV2Timeouts;
 }
 export interface DnsQuotaV2Timeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/dns_quota_v2#create DnsQuotaV2#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/dns_quota_v2#create DnsQuotaV2#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/dns_quota_v2#delete DnsQuotaV2#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/dns_quota_v2#delete DnsQuotaV2#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/dns_quota_v2#update DnsQuotaV2#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/dns_quota_v2#update DnsQuotaV2#update}
   */
   readonly update?: string;
 }
@@ -211,7 +211,7 @@ export class DnsQuotaV2TimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/dns_quota_v2 openstack_dns_quota_v2}
+* Represents a {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/dns_quota_v2 openstack_dns_quota_v2}
 */
 export class DnsQuotaV2 extends cdktf.TerraformResource {
 
@@ -227,7 +227,7 @@ export class DnsQuotaV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DnsQuotaV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DnsQuotaV2 to import
-  * @param importFromId The id of the existing DnsQuotaV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/dns_quota_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DnsQuotaV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/dns_quota_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DnsQuotaV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -239,7 +239,7 @@ export class DnsQuotaV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/dns_quota_v2 openstack_dns_quota_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/dns_quota_v2 openstack_dns_quota_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -250,7 +250,8 @@ export class DnsQuotaV2 extends cdktf.TerraformResource {
       terraformResourceType: 'openstack_dns_quota_v2',
       terraformGeneratorMetadata: {
         providerName: 'openstack',
-        providerVersion: '3.3.2'
+        providerVersion: '3.4.0',
+        providerVersionConstraint: '3.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

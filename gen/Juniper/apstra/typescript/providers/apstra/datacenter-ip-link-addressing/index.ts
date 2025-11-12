@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_ip_link_addressing
+// https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_ip_link_addressing
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface DatacenterIpLinkAddressingConfig extends cdktf.TerraformMetaArg
   /**
   * Apstra Blueprint ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_ip_link_addressing#blueprint_id DatacenterIpLinkAddressing#blueprint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_ip_link_addressing#blueprint_id DatacenterIpLinkAddressing#blueprint_id}
   */
   readonly blueprintId: string;
   /**
   * IPv4 address in CIDR notation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_ip_link_addressing#generic_ipv4_address DatacenterIpLinkAddressing#generic_ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_ip_link_addressing#generic_ipv4_address DatacenterIpLinkAddressing#generic_ipv4_address}
   */
   readonly genericIpv4Address?: string;
   /**
   * Allowed values: [`none`,`numbered`]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_ip_link_addressing#generic_ipv4_address_type DatacenterIpLinkAddressing#generic_ipv4_address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_ip_link_addressing#generic_ipv4_address_type DatacenterIpLinkAddressing#generic_ipv4_address_type}
   */
   readonly genericIpv4AddressType?: string;
   /**
   * IPv6 address in CIDR notation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_ip_link_addressing#generic_ipv6_address DatacenterIpLinkAddressing#generic_ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_ip_link_addressing#generic_ipv6_address DatacenterIpLinkAddressing#generic_ipv6_address}
   */
   readonly genericIpv6Address?: string;
   /**
   * Allowed values: [`link_local`,`none`,`numbered`]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_ip_link_addressing#generic_ipv6_address_type DatacenterIpLinkAddressing#generic_ipv6_address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_ip_link_addressing#generic_ipv6_address_type DatacenterIpLinkAddressing#generic_ipv6_address_type}
   */
   readonly genericIpv6AddressType?: string;
   /**
   * Apstra graph node ID of the logical Link created by assigning a Connectivity Template with an IP Link primitive to a switch port. Note that CT assignment will create a logical link for each IP Link primitive. This resource is concerned with a single logical link. CTs which include multiple IP Link primitives may require multiple instances of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_ip_link_addressing#link_id DatacenterIpLinkAddressing#link_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_ip_link_addressing#link_id DatacenterIpLinkAddressing#link_id}
   */
   readonly linkId: string;
   /**
   * IPv4 address in CIDR notation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_ip_link_addressing#switch_ipv4_address DatacenterIpLinkAddressing#switch_ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_ip_link_addressing#switch_ipv4_address DatacenterIpLinkAddressing#switch_ipv4_address}
   */
   readonly switchIpv4Address?: string;
   /**
   * Allowed values: [`none`,`numbered`]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_ip_link_addressing#switch_ipv4_address_type DatacenterIpLinkAddressing#switch_ipv4_address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_ip_link_addressing#switch_ipv4_address_type DatacenterIpLinkAddressing#switch_ipv4_address_type}
   */
   readonly switchIpv4AddressType?: string;
   /**
   * IPv6 address in CIDR notation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_ip_link_addressing#switch_ipv6_address DatacenterIpLinkAddressing#switch_ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_ip_link_addressing#switch_ipv6_address DatacenterIpLinkAddressing#switch_ipv6_address}
   */
   readonly switchIpv6Address?: string;
   /**
   * Allowed values: [`link_local`,`none`,`numbered`]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_ip_link_addressing#switch_ipv6_address_type DatacenterIpLinkAddressing#switch_ipv6_address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_ip_link_addressing#switch_ipv6_address_type DatacenterIpLinkAddressing#switch_ipv6_address_type}
   */
   readonly switchIpv6AddressType?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_ip_link_addressing apstra_datacenter_ip_link_addressing}
+* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_ip_link_addressing apstra_datacenter_ip_link_addressing}
 */
 export class DatacenterIpLinkAddressing extends cdktf.TerraformResource {
 
@@ -86,7 +86,7 @@ export class DatacenterIpLinkAddressing extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DatacenterIpLinkAddressing resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatacenterIpLinkAddressing to import
-  * @param importFromId The id of the existing DatacenterIpLinkAddressing that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_ip_link_addressing#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatacenterIpLinkAddressing that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_ip_link_addressing#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatacenterIpLinkAddressing to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -98,7 +98,7 @@ export class DatacenterIpLinkAddressing extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_ip_link_addressing apstra_datacenter_ip_link_addressing} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_ip_link_addressing apstra_datacenter_ip_link_addressing} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -109,7 +109,8 @@ export class DatacenterIpLinkAddressing extends cdktf.TerraformResource {
       terraformResourceType: 'apstra_datacenter_ip_link_addressing',
       terraformGeneratorMetadata: {
         providerName: 'apstra',
-        providerVersion: '0.95.0'
+        providerVersion: '0.95.1',
+        providerVersionConstraint: '0.95.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

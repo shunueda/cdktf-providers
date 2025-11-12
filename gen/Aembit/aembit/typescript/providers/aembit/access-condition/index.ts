@@ -1141,7 +1141,8 @@ export class AccessCondition extends cdktf.TerraformResource {
       terraformResourceType: 'aembit_access_condition',
       terraformGeneratorMetadata: {
         providerName: 'aembit',
-        providerVersion: '1.25.1'
+        providerVersion: '1.25.1',
+        providerVersionConstraint: '1.25.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

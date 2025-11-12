@@ -205,7 +205,8 @@ export class KerberosRealm extends cdktf.TerraformResource {
       terraformResourceType: 'pingfederate_kerberos_realm',
       terraformGeneratorMetadata: {
         providerName: 'pingfederate',
-        providerVersion: '1.6.2'
+        providerVersion: '1.6.2',
+        providerVersionConstraint: '1.6.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

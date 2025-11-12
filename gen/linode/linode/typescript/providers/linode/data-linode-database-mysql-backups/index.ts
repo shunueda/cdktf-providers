@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/database_mysql_backups
+// https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/database_mysql_backups
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataLinodeDatabaseMysqlBackupsConfig extends cdktf.TerraformMet
   /**
   * The ID of the Managed MySQL Database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/database_mysql_backups#database_id DataLinodeDatabaseMysqlBackups#database_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/database_mysql_backups#database_id DataLinodeDatabaseMysqlBackups#database_id}
   */
   readonly databaseId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/database_mysql_backups#id DataLinodeDatabaseMysqlBackups#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/database_mysql_backups#id DataLinodeDatabaseMysqlBackups#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface DataLinodeDatabaseMysqlBackupsConfig extends cdktf.TerraformMet
   /**
   * If true, only the latest backup will be returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/database_mysql_backups#latest DataLinodeDatabaseMysqlBackups#latest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/database_mysql_backups#latest DataLinodeDatabaseMysqlBackups#latest}
   */
   readonly latest?: boolean | cdktf.IResolvable;
   /**
   * The order in which results should be returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/database_mysql_backups#order DataLinodeDatabaseMysqlBackups#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/database_mysql_backups#order DataLinodeDatabaseMysqlBackups#order}
   */
   readonly order?: string;
   /**
   * The attribute to order the results by.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/database_mysql_backups#order_by DataLinodeDatabaseMysqlBackups#order_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/database_mysql_backups#order_by DataLinodeDatabaseMysqlBackups#order_by}
   */
   readonly orderBy?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/database_mysql_backups#filter DataLinodeDatabaseMysqlBackups#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/database_mysql_backups#filter DataLinodeDatabaseMysqlBackups#filter}
   */
   readonly filter?: DataLinodeDatabaseMysqlBackupsFilter[] | cdktf.IResolvable;
 }
@@ -139,19 +139,19 @@ export interface DataLinodeDatabaseMysqlBackupsFilter {
   /**
   * The type of comparison to use for this filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/database_mysql_backups#match_by DataLinodeDatabaseMysqlBackups#match_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/database_mysql_backups#match_by DataLinodeDatabaseMysqlBackups#match_by}
   */
   readonly matchBy?: string;
   /**
   * The name of the attribute to filter on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/database_mysql_backups#name DataLinodeDatabaseMysqlBackups#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/database_mysql_backups#name DataLinodeDatabaseMysqlBackups#name}
   */
   readonly name: string;
   /**
   * The value(s) to be used in the filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/database_mysql_backups#values DataLinodeDatabaseMysqlBackups#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/database_mysql_backups#values DataLinodeDatabaseMysqlBackups#values}
   */
   readonly values: string[];
 }
@@ -319,7 +319,7 @@ export class DataLinodeDatabaseMysqlBackupsFilterList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/database_mysql_backups linode_database_mysql_backups}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/database_mysql_backups linode_database_mysql_backups}
 */
 export class DataLinodeDatabaseMysqlBackups extends cdktf.TerraformDataSource {
 
@@ -335,7 +335,7 @@ export class DataLinodeDatabaseMysqlBackups extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataLinodeDatabaseMysqlBackups resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataLinodeDatabaseMysqlBackups to import
-  * @param importFromId The id of the existing DataLinodeDatabaseMysqlBackups that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/database_mysql_backups#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataLinodeDatabaseMysqlBackups that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/database_mysql_backups#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataLinodeDatabaseMysqlBackups to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -347,7 +347,7 @@ export class DataLinodeDatabaseMysqlBackups extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/database_mysql_backups linode_database_mysql_backups} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/database_mysql_backups linode_database_mysql_backups} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -358,7 +358,8 @@ export class DataLinodeDatabaseMysqlBackups extends cdktf.TerraformDataSource {
       terraformResourceType: 'linode_database_mysql_backups',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.5.0'
+        providerVersion: '3.5.1',
+        providerVersionConstraint: '3.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -416,7 +416,8 @@ export class DataOciDataSafeSecurityPolicyReportRoleGrantPaths extends cdktf.Ter
       terraformResourceType: 'oci_data_safe_security_policy_report_role_grant_paths',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

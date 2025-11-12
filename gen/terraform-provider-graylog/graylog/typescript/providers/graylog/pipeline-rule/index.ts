@@ -64,7 +64,8 @@ export class PipelineRule extends cdktf.TerraformResource {
       terraformResourceType: 'graylog_pipeline_rule',
       terraformGeneratorMetadata: {
         providerName: 'graylog',
-        providerVersion: '1.0.4'
+        providerVersion: '1.0.4',
+        providerVersionConstraint: '1.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

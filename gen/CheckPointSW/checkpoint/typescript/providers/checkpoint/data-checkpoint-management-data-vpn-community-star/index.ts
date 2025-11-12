@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_data_vpn_community_star
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_data_vpn_community_star
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataCheckpointManagementDataVpnCommunityStarConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_data_vpn_community_star#id DataCheckpointManagementDataVpnCommunityStar#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_data_vpn_community_star#id DataCheckpointManagementDataVpnCommunityStar#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,15 +17,175 @@ export interface DataCheckpointManagementDataVpnCommunityStarConfig extends cdkt
   /**
   * Object name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_data_vpn_community_star#name DataCheckpointManagementDataVpnCommunityStar#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_data_vpn_community_star#name DataCheckpointManagementDataVpnCommunityStar#name}
   */
   readonly name?: string;
   /**
   * Object unique identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_data_vpn_community_star#uid DataCheckpointManagementDataVpnCommunityStar#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_data_vpn_community_star#uid DataCheckpointManagementDataVpnCommunityStar#uid}
   */
   readonly uid?: string;
+}
+export interface DataCheckpointManagementDataVpnCommunityStarAdvancedProperties {
+}
+
+export function dataCheckpointManagementDataVpnCommunityStarAdvancedPropertiesToTerraform(struct?: DataCheckpointManagementDataVpnCommunityStarAdvancedProperties): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataCheckpointManagementDataVpnCommunityStarAdvancedPropertiesToHclTerraform(struct?: DataCheckpointManagementDataVpnCommunityStarAdvancedProperties): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataCheckpointManagementDataVpnCommunityStarAdvancedPropertiesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataCheckpointManagementDataVpnCommunityStarAdvancedProperties | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataCheckpointManagementDataVpnCommunityStarAdvancedProperties | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // support_ip_compression - computed: true, optional: false, required: false
+  public get supportIpCompression() {
+    return this.getBooleanAttribute('support_ip_compression');
+  }
+
+  // use_aggressive_mode - computed: true, optional: false, required: false
+  public get useAggressiveMode() {
+    return this.getBooleanAttribute('use_aggressive_mode');
+  }
+}
+
+export class DataCheckpointManagementDataVpnCommunityStarAdvancedPropertiesList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataCheckpointManagementDataVpnCommunityStarAdvancedPropertiesOutputReference {
+    return new DataCheckpointManagementDataVpnCommunityStarAdvancedPropertiesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataCheckpointManagementDataVpnCommunityStarEncryptedTraffic {
+}
+
+export function dataCheckpointManagementDataVpnCommunityStarEncryptedTrafficToTerraform(struct?: DataCheckpointManagementDataVpnCommunityStarEncryptedTraffic): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataCheckpointManagementDataVpnCommunityStarEncryptedTrafficToHclTerraform(struct?: DataCheckpointManagementDataVpnCommunityStarEncryptedTraffic): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataCheckpointManagementDataVpnCommunityStarEncryptedTrafficOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataCheckpointManagementDataVpnCommunityStarEncryptedTraffic | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataCheckpointManagementDataVpnCommunityStarEncryptedTraffic | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // community_members - computed: true, optional: false, required: false
+  public get communityMembers() {
+    return this.getStringAttribute('community_members');
+  }
+
+  // enabled - computed: true, optional: false, required: false
+  public get enabled() {
+    return this.getBooleanAttribute('enabled');
+  }
+}
+
+export class DataCheckpointManagementDataVpnCommunityStarEncryptedTrafficList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataCheckpointManagementDataVpnCommunityStarEncryptedTrafficOutputReference {
+    return new DataCheckpointManagementDataVpnCommunityStarEncryptedTrafficOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
 }
 export interface DataCheckpointManagementDataVpnCommunityStarGranularEncryptions {
 }
@@ -129,6 +289,459 @@ export class DataCheckpointManagementDataVpnCommunityStarGranularEncryptionsList
     return new DataCheckpointManagementDataVpnCommunityStarGranularEncryptionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface DataCheckpointManagementDataVpnCommunityStarMepDefaultPriorityRule {
+}
+
+export function dataCheckpointManagementDataVpnCommunityStarMepDefaultPriorityRuleToTerraform(struct?: DataCheckpointManagementDataVpnCommunityStarMepDefaultPriorityRule): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataCheckpointManagementDataVpnCommunityStarMepDefaultPriorityRuleToHclTerraform(struct?: DataCheckpointManagementDataVpnCommunityStarMepDefaultPriorityRule): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataCheckpointManagementDataVpnCommunityStarMepDefaultPriorityRuleOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataCheckpointManagementDataVpnCommunityStarMepDefaultPriorityRule | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataCheckpointManagementDataVpnCommunityStarMepDefaultPriorityRule | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // first_priority_center_gateways - computed: true, optional: false, required: false
+  public get firstPriorityCenterGateways() {
+    return cdktf.Fn.tolist(this.getListAttribute('first_priority_center_gateways'));
+  }
+
+  // second_priority_center_gateways - computed: true, optional: false, required: false
+  public get secondPriorityCenterGateways() {
+    return cdktf.Fn.tolist(this.getListAttribute('second_priority_center_gateways'));
+  }
+
+  // third_priority_center_gateways - computed: true, optional: false, required: false
+  public get thirdPriorityCenterGateways() {
+    return cdktf.Fn.tolist(this.getListAttribute('third_priority_center_gateways'));
+  }
+}
+
+export class DataCheckpointManagementDataVpnCommunityStarMepDefaultPriorityRuleList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataCheckpointManagementDataVpnCommunityStarMepDefaultPriorityRuleOutputReference {
+    return new DataCheckpointManagementDataVpnCommunityStarMepDefaultPriorityRuleOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataCheckpointManagementDataVpnCommunityStarMepExceptionPriorityRules {
+}
+
+export function dataCheckpointManagementDataVpnCommunityStarMepExceptionPriorityRulesToTerraform(struct?: DataCheckpointManagementDataVpnCommunityStarMepExceptionPriorityRules): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataCheckpointManagementDataVpnCommunityStarMepExceptionPriorityRulesToHclTerraform(struct?: DataCheckpointManagementDataVpnCommunityStarMepExceptionPriorityRules): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataCheckpointManagementDataVpnCommunityStarMepExceptionPriorityRulesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataCheckpointManagementDataVpnCommunityStarMepExceptionPriorityRules | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataCheckpointManagementDataVpnCommunityStarMepExceptionPriorityRules | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // first_priority_center_gateways - computed: true, optional: false, required: false
+  public get firstPriorityCenterGateways() {
+    return cdktf.Fn.tolist(this.getListAttribute('first_priority_center_gateways'));
+  }
+
+  // satellite_gateways - computed: true, optional: false, required: false
+  public get satelliteGateways() {
+    return cdktf.Fn.tolist(this.getListAttribute('satellite_gateways'));
+  }
+
+  // second_priority_center_gateways - computed: true, optional: false, required: false
+  public get secondPriorityCenterGateways() {
+    return cdktf.Fn.tolist(this.getListAttribute('second_priority_center_gateways'));
+  }
+
+  // third_priority_center_gateways - computed: true, optional: false, required: false
+  public get thirdPriorityCenterGateways() {
+    return cdktf.Fn.tolist(this.getListAttribute('third_priority_center_gateways'));
+  }
+}
+
+export class DataCheckpointManagementDataVpnCommunityStarMepExceptionPriorityRulesList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataCheckpointManagementDataVpnCommunityStarMepExceptionPriorityRulesOutputReference {
+    return new DataCheckpointManagementDataVpnCommunityStarMepExceptionPriorityRulesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataCheckpointManagementDataVpnCommunityStarMep {
+}
+
+export function dataCheckpointManagementDataVpnCommunityStarMepToTerraform(struct?: DataCheckpointManagementDataVpnCommunityStarMep): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataCheckpointManagementDataVpnCommunityStarMepToHclTerraform(struct?: DataCheckpointManagementDataVpnCommunityStarMep): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataCheckpointManagementDataVpnCommunityStarMepOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataCheckpointManagementDataVpnCommunityStarMep | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataCheckpointManagementDataVpnCommunityStarMep | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // default_priority_rule - computed: true, optional: false, required: false
+  private _defaultPriorityRule = new DataCheckpointManagementDataVpnCommunityStarMepDefaultPriorityRuleList(this, "default_priority_rule", false);
+  public get defaultPriorityRule() {
+    return this._defaultPriorityRule;
+  }
+
+  // enabled - computed: true, optional: false, required: false
+  public get enabled() {
+    return this.getBooleanAttribute('enabled');
+  }
+
+  // entry_point_final_selection_mechanism - computed: true, optional: false, required: false
+  public get entryPointFinalSelectionMechanism() {
+    return this.getStringAttribute('entry_point_final_selection_mechanism');
+  }
+
+  // entry_point_selection_mechanism - computed: true, optional: false, required: false
+  public get entryPointSelectionMechanism() {
+    return this.getStringAttribute('entry_point_selection_mechanism');
+  }
+
+  // exception_priority_rules - computed: true, optional: false, required: false
+  private _exceptionPriorityRules = new DataCheckpointManagementDataVpnCommunityStarMepExceptionPriorityRulesList(this, "exception_priority_rules", false);
+  public get exceptionPriorityRules() {
+    return this._exceptionPriorityRules;
+  }
+
+  // tracking - computed: true, optional: false, required: false
+  public get tracking() {
+    return this.getStringAttribute('tracking');
+  }
+}
+
+export class DataCheckpointManagementDataVpnCommunityStarMepList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataCheckpointManagementDataVpnCommunityStarMepOutputReference {
+    return new DataCheckpointManagementDataVpnCommunityStarMepOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataCheckpointManagementDataVpnCommunityStarOverrideInterfacesInterfaces {
+}
+
+export function dataCheckpointManagementDataVpnCommunityStarOverrideInterfacesInterfacesToTerraform(struct?: DataCheckpointManagementDataVpnCommunityStarOverrideInterfacesInterfaces): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataCheckpointManagementDataVpnCommunityStarOverrideInterfacesInterfacesToHclTerraform(struct?: DataCheckpointManagementDataVpnCommunityStarOverrideInterfacesInterfaces): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataCheckpointManagementDataVpnCommunityStarOverrideInterfacesInterfacesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataCheckpointManagementDataVpnCommunityStarOverrideInterfacesInterfaces | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataCheckpointManagementDataVpnCommunityStarOverrideInterfacesInterfaces | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // interface_name - computed: true, optional: false, required: false
+  public get interfaceName() {
+    return this.getStringAttribute('interface_name');
+  }
+
+  // next_hop_ip - computed: true, optional: false, required: false
+  public get nextHopIp() {
+    return this.getStringAttribute('next_hop_ip');
+  }
+
+  // priority - computed: true, optional: false, required: false
+  public get priority() {
+    return this.getNumberAttribute('priority');
+  }
+
+  // redundancy_mode - computed: true, optional: false, required: false
+  public get redundancyMode() {
+    return this.getStringAttribute('redundancy_mode');
+  }
+
+  // static_nat_ip - computed: true, optional: false, required: false
+  public get staticNatIp() {
+    return this.getStringAttribute('static_nat_ip');
+  }
+}
+
+export class DataCheckpointManagementDataVpnCommunityStarOverrideInterfacesInterfacesList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataCheckpointManagementDataVpnCommunityStarOverrideInterfacesInterfacesOutputReference {
+    return new DataCheckpointManagementDataVpnCommunityStarOverrideInterfacesInterfacesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataCheckpointManagementDataVpnCommunityStarOverrideInterfaces {
+}
+
+export function dataCheckpointManagementDataVpnCommunityStarOverrideInterfacesToTerraform(struct?: DataCheckpointManagementDataVpnCommunityStarOverrideInterfaces): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataCheckpointManagementDataVpnCommunityStarOverrideInterfacesToHclTerraform(struct?: DataCheckpointManagementDataVpnCommunityStarOverrideInterfaces): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataCheckpointManagementDataVpnCommunityStarOverrideInterfacesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataCheckpointManagementDataVpnCommunityStarOverrideInterfaces | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataCheckpointManagementDataVpnCommunityStarOverrideInterfaces | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // gateway - computed: true, optional: false, required: false
+  public get gateway() {
+    return this.getStringAttribute('gateway');
+  }
+
+  // interfaces - computed: true, optional: false, required: false
+  private _interfaces = new DataCheckpointManagementDataVpnCommunityStarOverrideInterfacesInterfacesList(this, "interfaces", false);
+  public get interfaces() {
+    return this._interfaces;
+  }
+}
+
+export class DataCheckpointManagementDataVpnCommunityStarOverrideInterfacesList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataCheckpointManagementDataVpnCommunityStarOverrideInterfacesOutputReference {
+    return new DataCheckpointManagementDataVpnCommunityStarOverrideInterfacesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface DataCheckpointManagementDataVpnCommunityStarOverrideVpnDomains {
 }
 
@@ -207,6 +820,384 @@ export class DataCheckpointManagementDataVpnCommunityStarOverrideVpnDomainsList 
   */
   public get(index: number): DataCheckpointManagementDataVpnCommunityStarOverrideVpnDomainsOutputReference {
     return new DataCheckpointManagementDataVpnCommunityStarOverrideVpnDomainsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataCheckpointManagementDataVpnCommunityStarPermanentTunnelsGateways {
+}
+
+export function dataCheckpointManagementDataVpnCommunityStarPermanentTunnelsGatewaysToTerraform(struct?: DataCheckpointManagementDataVpnCommunityStarPermanentTunnelsGateways): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataCheckpointManagementDataVpnCommunityStarPermanentTunnelsGatewaysToHclTerraform(struct?: DataCheckpointManagementDataVpnCommunityStarPermanentTunnelsGateways): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataCheckpointManagementDataVpnCommunityStarPermanentTunnelsGatewaysOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataCheckpointManagementDataVpnCommunityStarPermanentTunnelsGateways | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataCheckpointManagementDataVpnCommunityStarPermanentTunnelsGateways | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // gateway - computed: true, optional: false, required: false
+  public get gateway() {
+    return this.getStringAttribute('gateway');
+  }
+
+  // override_tunnel_down_track - computed: true, optional: false, required: false
+  public get overrideTunnelDownTrack() {
+    return this.getStringAttribute('override_tunnel_down_track');
+  }
+
+  // override_tunnel_up_track - computed: true, optional: false, required: false
+  public get overrideTunnelUpTrack() {
+    return this.getStringAttribute('override_tunnel_up_track');
+  }
+
+  // track_options - computed: true, optional: false, required: false
+  public get trackOptions() {
+    return this.getStringAttribute('track_options');
+  }
+}
+
+export class DataCheckpointManagementDataVpnCommunityStarPermanentTunnelsGatewaysList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataCheckpointManagementDataVpnCommunityStarPermanentTunnelsGatewaysOutputReference {
+    return new DataCheckpointManagementDataVpnCommunityStarPermanentTunnelsGatewaysOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataCheckpointManagementDataVpnCommunityStarPermanentTunnelsRim {
+}
+
+export function dataCheckpointManagementDataVpnCommunityStarPermanentTunnelsRimToTerraform(struct?: DataCheckpointManagementDataVpnCommunityStarPermanentTunnelsRim): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataCheckpointManagementDataVpnCommunityStarPermanentTunnelsRimToHclTerraform(struct?: DataCheckpointManagementDataVpnCommunityStarPermanentTunnelsRim): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataCheckpointManagementDataVpnCommunityStarPermanentTunnelsRimOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataCheckpointManagementDataVpnCommunityStarPermanentTunnelsRim | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataCheckpointManagementDataVpnCommunityStarPermanentTunnelsRim | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // enable_on_center_gateways - computed: true, optional: false, required: false
+  public get enableOnCenterGateways() {
+    return this.getBooleanAttribute('enable_on_center_gateways');
+  }
+
+  // enable_on_satellite_gateways - computed: true, optional: false, required: false
+  public get enableOnSatelliteGateways() {
+    return this.getBooleanAttribute('enable_on_satellite_gateways');
+  }
+
+  // enabled - computed: true, optional: false, required: false
+  public get enabled() {
+    return this.getBooleanAttribute('enabled');
+  }
+
+  // route_injection_track - computed: true, optional: false, required: false
+  public get routeInjectionTrack() {
+    return this.getStringAttribute('route_injection_track');
+  }
+}
+
+export class DataCheckpointManagementDataVpnCommunityStarPermanentTunnelsRimList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataCheckpointManagementDataVpnCommunityStarPermanentTunnelsRimOutputReference {
+    return new DataCheckpointManagementDataVpnCommunityStarPermanentTunnelsRimOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataCheckpointManagementDataVpnCommunityStarPermanentTunnelsTunnels {
+}
+
+export function dataCheckpointManagementDataVpnCommunityStarPermanentTunnelsTunnelsToTerraform(struct?: DataCheckpointManagementDataVpnCommunityStarPermanentTunnelsTunnels): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataCheckpointManagementDataVpnCommunityStarPermanentTunnelsTunnelsToHclTerraform(struct?: DataCheckpointManagementDataVpnCommunityStarPermanentTunnelsTunnels): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataCheckpointManagementDataVpnCommunityStarPermanentTunnelsTunnelsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataCheckpointManagementDataVpnCommunityStarPermanentTunnelsTunnels | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataCheckpointManagementDataVpnCommunityStarPermanentTunnelsTunnels | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // first_tunnel_endpoint - computed: true, optional: false, required: false
+  public get firstTunnelEndpoint() {
+    return this.getStringAttribute('first_tunnel_endpoint');
+  }
+
+  // override_tunnel_down_track - computed: true, optional: false, required: false
+  public get overrideTunnelDownTrack() {
+    return this.getStringAttribute('override_tunnel_down_track');
+  }
+
+  // override_tunnel_up_track - computed: true, optional: false, required: false
+  public get overrideTunnelUpTrack() {
+    return this.getStringAttribute('override_tunnel_up_track');
+  }
+
+  // second_tunnel_endpoint - computed: true, optional: false, required: false
+  public get secondTunnelEndpoint() {
+    return this.getStringAttribute('second_tunnel_endpoint');
+  }
+
+  // track_options - computed: true, optional: false, required: false
+  public get trackOptions() {
+    return this.getStringAttribute('track_options');
+  }
+}
+
+export class DataCheckpointManagementDataVpnCommunityStarPermanentTunnelsTunnelsList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataCheckpointManagementDataVpnCommunityStarPermanentTunnelsTunnelsOutputReference {
+    return new DataCheckpointManagementDataVpnCommunityStarPermanentTunnelsTunnelsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataCheckpointManagementDataVpnCommunityStarPermanentTunnels {
+}
+
+export function dataCheckpointManagementDataVpnCommunityStarPermanentTunnelsToTerraform(struct?: DataCheckpointManagementDataVpnCommunityStarPermanentTunnels): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataCheckpointManagementDataVpnCommunityStarPermanentTunnelsToHclTerraform(struct?: DataCheckpointManagementDataVpnCommunityStarPermanentTunnels): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataCheckpointManagementDataVpnCommunityStarPermanentTunnelsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataCheckpointManagementDataVpnCommunityStarPermanentTunnels | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataCheckpointManagementDataVpnCommunityStarPermanentTunnels | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // gateways - computed: true, optional: false, required: false
+  private _gateways = new DataCheckpointManagementDataVpnCommunityStarPermanentTunnelsGatewaysList(this, "gateways", false);
+  public get gateways() {
+    return this._gateways;
+  }
+
+  // rim - computed: true, optional: false, required: false
+  private _rim = new DataCheckpointManagementDataVpnCommunityStarPermanentTunnelsRimList(this, "rim", false);
+  public get rim() {
+    return this._rim;
+  }
+
+  // set_permanent_tunnels - computed: true, optional: false, required: false
+  public get setPermanentTunnels() {
+    return this.getStringAttribute('set_permanent_tunnels');
+  }
+
+  // tunnel_down_track - computed: true, optional: false, required: false
+  public get tunnelDownTrack() {
+    return this.getStringAttribute('tunnel_down_track');
+  }
+
+  // tunnel_up_track - computed: true, optional: false, required: false
+  public get tunnelUpTrack() {
+    return this.getStringAttribute('tunnel_up_track');
+  }
+
+  // tunnels - computed: true, optional: false, required: false
+  private _tunnels = new DataCheckpointManagementDataVpnCommunityStarPermanentTunnelsTunnelsList(this, "tunnels", false);
+  public get tunnels() {
+    return this._tunnels;
+  }
+}
+
+export class DataCheckpointManagementDataVpnCommunityStarPermanentTunnelsList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataCheckpointManagementDataVpnCommunityStarPermanentTunnelsOutputReference {
+    return new DataCheckpointManagementDataVpnCommunityStarPermanentTunnelsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
 export interface DataCheckpointManagementDataVpnCommunityStarSharedSecrets {
@@ -289,9 +1280,89 @@ export class DataCheckpointManagementDataVpnCommunityStarSharedSecretsList exten
     return new DataCheckpointManagementDataVpnCommunityStarSharedSecretsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface DataCheckpointManagementDataVpnCommunityStarWireMode {
+}
+
+export function dataCheckpointManagementDataVpnCommunityStarWireModeToTerraform(struct?: DataCheckpointManagementDataVpnCommunityStarWireMode): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataCheckpointManagementDataVpnCommunityStarWireModeToHclTerraform(struct?: DataCheckpointManagementDataVpnCommunityStarWireMode): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataCheckpointManagementDataVpnCommunityStarWireModeOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataCheckpointManagementDataVpnCommunityStarWireMode | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataCheckpointManagementDataVpnCommunityStarWireMode | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // allow_uninspected_encrypted_routing - computed: true, optional: false, required: false
+  public get allowUninspectedEncryptedRouting() {
+    return this.getBooleanAttribute('allow_uninspected_encrypted_routing');
+  }
+
+  // allow_uninspected_encrypted_traffic - computed: true, optional: false, required: false
+  public get allowUninspectedEncryptedTraffic() {
+    return this.getBooleanAttribute('allow_uninspected_encrypted_traffic');
+  }
+}
+
+export class DataCheckpointManagementDataVpnCommunityStarWireModeList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataCheckpointManagementDataVpnCommunityStarWireModeOutputReference {
+    return new DataCheckpointManagementDataVpnCommunityStarWireModeOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_data_vpn_community_star checkpoint_management_data_vpn_community_star}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_data_vpn_community_star checkpoint_management_data_vpn_community_star}
 */
 export class DataCheckpointManagementDataVpnCommunityStar extends cdktf.TerraformDataSource {
 
@@ -307,7 +1378,7 @@ export class DataCheckpointManagementDataVpnCommunityStar extends cdktf.Terrafor
   * Generates CDKTF code for importing a DataCheckpointManagementDataVpnCommunityStar resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCheckpointManagementDataVpnCommunityStar to import
-  * @param importFromId The id of the existing DataCheckpointManagementDataVpnCommunityStar that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_data_vpn_community_star#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCheckpointManagementDataVpnCommunityStar that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_data_vpn_community_star#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCheckpointManagementDataVpnCommunityStar to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -319,7 +1390,7 @@ export class DataCheckpointManagementDataVpnCommunityStar extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_data_vpn_community_star checkpoint_management_data_vpn_community_star} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_data_vpn_community_star checkpoint_management_data_vpn_community_star} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -330,7 +1401,8 @@ export class DataCheckpointManagementDataVpnCommunityStar extends cdktf.Terrafor
       terraformResourceType: 'checkpoint_management_data_vpn_community_star',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -349,6 +1421,12 @@ export class DataCheckpointManagementDataVpnCommunityStar extends cdktf.Terrafor
   // ATTRIBUTES
   // ==========
 
+  // advanced_properties - computed: true, optional: false, required: false
+  private _advancedProperties = new DataCheckpointManagementDataVpnCommunityStarAdvancedPropertiesList(this, "advanced_properties", false);
+  public get advancedProperties() {
+    return this._advancedProperties;
+  }
+
   // center_gateways - computed: true, optional: false, required: false
   public get centerGateways() {
     return cdktf.Fn.tolist(this.getListAttribute('center_gateways'));
@@ -364,6 +1442,22 @@ export class DataCheckpointManagementDataVpnCommunityStar extends cdktf.Terrafor
     return this.getStringAttribute('comments');
   }
 
+  // disable_nat - computed: true, optional: false, required: false
+  public get disableNat() {
+    return this.getBooleanAttribute('disable_nat');
+  }
+
+  // disable_nat_on - computed: true, optional: false, required: false
+  public get disableNatOn() {
+    return this.getStringAttribute('disable_nat_on');
+  }
+
+  // encrypted_traffic - computed: true, optional: false, required: false
+  private _encryptedTraffic = new DataCheckpointManagementDataVpnCommunityStarEncryptedTrafficList(this, "encrypted_traffic", false);
+  public get encryptedTraffic() {
+    return this._encryptedTraffic;
+  }
+
   // encryption_method - computed: true, optional: false, required: false
   public get encryptionMethod() {
     return this.getStringAttribute('encryption_method');
@@ -372,6 +1466,11 @@ export class DataCheckpointManagementDataVpnCommunityStar extends cdktf.Terrafor
   // encryption_suite - computed: true, optional: false, required: false
   public get encryptionSuite() {
     return this.getStringAttribute('encryption_suite');
+  }
+
+  // excluded_services - computed: true, optional: false, required: false
+  public get excludedServices() {
+    return cdktf.Fn.tolist(this.getListAttribute('excluded_services'));
   }
 
   // granular_encryptions - computed: true, optional: false, required: false
@@ -408,6 +1507,17 @@ export class DataCheckpointManagementDataVpnCommunityStar extends cdktf.Terrafor
     return this._ikePhase2;
   }
 
+  // link_selection_mode - computed: true, optional: false, required: false
+  public get linkSelectionMode() {
+    return this.getStringAttribute('link_selection_mode');
+  }
+
+  // mep - computed: true, optional: false, required: false
+  private _mep = new DataCheckpointManagementDataVpnCommunityStarMepList(this, "mep", false);
+  public get mep() {
+    return this._mep;
+  }
+
   // mesh_center_gateways - computed: true, optional: false, required: false
   public get meshCenterGateways() {
     return this.getBooleanAttribute('mesh_center_gateways');
@@ -429,10 +1539,27 @@ export class DataCheckpointManagementDataVpnCommunityStar extends cdktf.Terrafor
     return this._name;
   }
 
+  // override_interfaces - computed: true, optional: false, required: false
+  private _overrideInterfaces = new DataCheckpointManagementDataVpnCommunityStarOverrideInterfacesList(this, "override_interfaces", false);
+  public get overrideInterfaces() {
+    return this._overrideInterfaces;
+  }
+
   // override_vpn_domains - computed: true, optional: false, required: false
   private _overrideVpnDomains = new DataCheckpointManagementDataVpnCommunityStarOverrideVpnDomainsList(this, "override_vpn_domains", false);
   public get overrideVpnDomains() {
     return this._overrideVpnDomains;
+  }
+
+  // permanent_tunnels - computed: true, optional: false, required: false
+  private _permanentTunnels = new DataCheckpointManagementDataVpnCommunityStarPermanentTunnelsList(this, "permanent_tunnels", false);
+  public get permanentTunnels() {
+    return this._permanentTunnels;
+  }
+
+  // routing_mode - computed: true, optional: false, required: false
+  public get routingMode() {
+    return this.getStringAttribute('routing_mode');
   }
 
   // satellite_gateways - computed: true, optional: false, required: false
@@ -475,6 +1602,17 @@ export class DataCheckpointManagementDataVpnCommunityStar extends cdktf.Terrafor
   // use_shared_secret - computed: true, optional: false, required: false
   public get useSharedSecret() {
     return this.getBooleanAttribute('use_shared_secret');
+  }
+
+  // vpn_routing - computed: true, optional: false, required: false
+  public get vpnRouting() {
+    return this.getStringAttribute('vpn_routing');
+  }
+
+  // wire_mode - computed: true, optional: false, required: false
+  private _wireMode = new DataCheckpointManagementDataVpnCommunityStarWireModeList(this, "wire_mode", false);
+  public get wireMode() {
+    return this._wireMode;
   }
 
   // =========

@@ -98,7 +98,8 @@ export class AdminCloudCred extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_admin_cloud_cred',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/configlet
+// https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/configlet
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface ConfigletConfig extends cdktf.TerraformMetaArguments {
   /**
   * Generators organized by Network OS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/configlet#generators Configlet#generators}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/configlet#generators Configlet#generators}
   */
   readonly generators: ConfigletGenerators[] | cdktf.IResolvable;
   /**
   * Configlet name displayed in the Apstra web UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/configlet#name Configlet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/configlet#name Configlet#name}
   */
   readonly name: string;
 }
@@ -24,19 +24,19 @@ export interface ConfigletGenerators {
   /**
   * Specifies the switch platform, must be one of 'cumulus', 'eos', 'junos', 'nxos', 'sonic'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/configlet#config_style Configlet#config_style}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/configlet#config_style Configlet#config_style}
   */
   readonly configStyle: string;
   /**
   * FileName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/configlet#filename Configlet#filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/configlet#filename Configlet#filename}
   */
   readonly filename?: string;
   /**
   * Negation Template Text
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/configlet#negation_template_text Configlet#negation_template_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/configlet#negation_template_text Configlet#negation_template_text}
   */
   readonly negationTemplateText?: string;
   /**
@@ -51,13 +51,13 @@ export interface ConfigletGenerators {
   *   |sonic|file, frr, ospf, system|
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/configlet#section Configlet#section}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/configlet#section Configlet#section}
   */
   readonly section: string;
   /**
   * Template Text
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/configlet#template_text Configlet#template_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/configlet#template_text Configlet#template_text}
   */
   readonly templateText: string;
 }
@@ -280,7 +280,7 @@ export class ConfigletGeneratorsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/configlet apstra_configlet}
+* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/configlet apstra_configlet}
 */
 export class Configlet extends cdktf.TerraformResource {
 
@@ -296,7 +296,7 @@ export class Configlet extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Configlet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Configlet to import
-  * @param importFromId The id of the existing Configlet that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/configlet#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Configlet that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/configlet#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Configlet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -308,7 +308,7 @@ export class Configlet extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/configlet apstra_configlet} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/configlet apstra_configlet} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -319,7 +319,8 @@ export class Configlet extends cdktf.TerraformResource {
       terraformResourceType: 'apstra_configlet',
       terraformGeneratorMetadata: {
         providerName: 'apstra',
-        providerVersion: '0.95.0'
+        providerVersion: '0.95.1',
+        providerVersionConstraint: '0.95.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -68,7 +68,8 @@ export class DataAkamaiAppsecWafMode extends cdktf.TerraformDataSource {
       terraformResourceType: 'akamai_appsec_waf_mode',
       terraformGeneratorMetadata: {
         providerName: 'akamai',
-        providerVersion: '9.1.0'
+        providerVersion: '9.1.0',
+        providerVersionConstraint: '9.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

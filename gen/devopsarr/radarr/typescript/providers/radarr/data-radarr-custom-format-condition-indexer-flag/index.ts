@@ -73,7 +73,8 @@ export class DataRadarrCustomFormatConditionIndexerFlag extends cdktf.TerraformD
       terraformResourceType: 'radarr_custom_format_condition_indexer_flag',
       terraformGeneratorMetadata: {
         providerName: 'radarr',
-        providerVersion: '2.3.3'
+        providerVersion: '2.3.3',
+        providerVersionConstraint: '2.3.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -225,7 +225,8 @@ export class ProfileDecryption extends cdktf.TerraformResource {
       terraformResourceType: 'valtix_profile_decryption',
       terraformGeneratorMetadata: {
         providerName: 'valtix',
-        providerVersion: '25.9.2'
+        providerVersion: '25.9.2',
+        providerVersionConstraint: '25.9.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

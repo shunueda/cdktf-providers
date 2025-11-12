@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/resources/pullzone_access_list
+// https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/pullzone_access_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface PullzoneAccessListConfig extends cdktf.TerraformMetaArguments {
   /**
   * Options: `Allow`, `Block`, `Challenge`, `Log`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/resources/pullzone_access_list#action PullzoneAccessList#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/pullzone_access_list#action PullzoneAccessList#action}
   */
   readonly action: string;
   /**
   * Indicated whether the Access List is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/resources/pullzone_access_list#enabled PullzoneAccessList#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/pullzone_access_list#enabled PullzoneAccessList#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The Access List entries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/resources/pullzone_access_list#entries PullzoneAccessList#entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/pullzone_access_list#entries PullzoneAccessList#entries}
   */
   readonly entries: string[];
   /**
   * The Access List name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/resources/pullzone_access_list#name PullzoneAccessList#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/pullzone_access_list#name PullzoneAccessList#name}
   */
   readonly name: string;
   /**
   * The ID of the linked pullzone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/resources/pullzone_access_list#pullzone PullzoneAccessList#pullzone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/pullzone_access_list#pullzone PullzoneAccessList#pullzone}
   */
   readonly pullzone: number;
   /**
   * Options: `ASN`, `CIDR`, `Country`, `IP`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/resources/pullzone_access_list#type PullzoneAccessList#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/pullzone_access_list#type PullzoneAccessList#type}
   */
   readonly type: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/resources/pullzone_access_list bunnynet_pullzone_access_list}
+* Represents a {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/pullzone_access_list bunnynet_pullzone_access_list}
 */
 export class PullzoneAccessList extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class PullzoneAccessList extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PullzoneAccessList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PullzoneAccessList to import
-  * @param importFromId The id of the existing PullzoneAccessList that should be imported. Refer to the {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/resources/pullzone_access_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PullzoneAccessList that should be imported. Refer to the {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/pullzone_access_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PullzoneAccessList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class PullzoneAccessList extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/resources/pullzone_access_list bunnynet_pullzone_access_list} Resource
+  * Create a new {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/pullzone_access_list bunnynet_pullzone_access_list} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,7 +85,8 @@ export class PullzoneAccessList extends cdktf.TerraformResource {
       terraformResourceType: 'bunnynet_pullzone_access_list',
       terraformGeneratorMetadata: {
         providerName: 'bunnynet',
-        providerVersion: '0.11.0'
+        providerVersion: '0.11.1',
+        providerVersionConstraint: '0.11.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -461,7 +461,8 @@ export class ThreatDetectionAttackPathSensitiveAssetConfig extends cdktf.Terrafo
       terraformResourceType: 'alicloud_threat_detection_attack_path_sensitive_asset_config',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

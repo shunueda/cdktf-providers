@@ -91,7 +91,8 @@ export class PrismasaseVmwareProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'prismasase-vmware',
       terraformGeneratorMetadata: {
         providerName: 'prismasase-vmware',
-        providerVersion: '1.0.7'
+        providerVersion: '1.0.7',
+        providerVersionConstraint: '1.0.7'
       },
       terraformProviderSource: 'PaloAltoNetworks/prismasase-vmware'
     });

@@ -62,7 +62,8 @@ export class DataAviatrixSpokeGatewayInspectionSubnets extends cdktf.TerraformDa
       terraformResourceType: 'aviatrix_spoke_gateway_inspection_subnets',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10'
+        providerVersion: '8.1.10',
+        providerVersionConstraint: '8.1.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

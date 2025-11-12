@@ -298,7 +298,8 @@ export class DataVraMachine extends cdktf.TerraformDataSource {
       terraformResourceType: 'vra_machine',
       terraformGeneratorMetadata: {
         providerName: 'vra',
-        providerVersion: '0.15.0'
+        providerVersion: '0.15.0',
+        providerVersionConstraint: '0.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

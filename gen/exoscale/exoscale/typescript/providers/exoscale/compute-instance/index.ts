@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/compute_instance
+// https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/compute_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,53 +10,53 @@ export interface ComputeInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * ❗ A list of [exoscale_anti_affinity_group](./anti_affinity_group.md) (IDs) to attach to the instance (may only be set at creation time).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/compute_instance#anti_affinity_group_ids ComputeInstance#anti_affinity_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/compute_instance#anti_affinity_group_ids ComputeInstance#anti_affinity_group_ids}
   */
   readonly antiAffinityGroupIds?: string[];
   /**
   * A list of [exoscale_block_storage_volume](./block_storage_volume.md) (ID) to attach to the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/compute_instance#block_storage_volume_ids ComputeInstance#block_storage_volume_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/compute_instance#block_storage_volume_ids ComputeInstance#block_storage_volume_ids}
   */
   readonly blockStorageVolumeIds?: string[];
   /**
   * ❗ A deploy target ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/compute_instance#deploy_target_id ComputeInstance#deploy_target_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/compute_instance#deploy_target_id ComputeInstance#deploy_target_id}
   */
   readonly deployTargetId?: string;
   /**
   * Mark the instance as protected, the Exoscale API will refuse to delete the instance until the protection is removed (boolean; default: `false`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/compute_instance#destroy_protected ComputeInstance#destroy_protected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/compute_instance#destroy_protected ComputeInstance#destroy_protected}
   */
   readonly destroyProtected?: boolean | cdktf.IResolvable;
   /**
   * The instance disk size (GiB; at least `10`). Can not be decreased after creation. **WARNING**: updating this attribute stops/restarts the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/compute_instance#disk_size ComputeInstance#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/compute_instance#disk_size ComputeInstance#disk_size}
   */
   readonly diskSize: number;
   /**
   * A list of [exoscale_elastic_ip](./elastic_ip.md) (IDs) to attach to the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/compute_instance#elastic_ip_ids ComputeInstance#elastic_ip_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/compute_instance#elastic_ip_ids ComputeInstance#elastic_ip_ids}
   */
   readonly elasticIpIds?: string[];
   /**
   * ❗ Enable secure boot on the instance (boolean; default: `false`). Can not be changed after the creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/compute_instance#enable_secure_boot ComputeInstance#enable_secure_boot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/compute_instance#enable_secure_boot ComputeInstance#enable_secure_boot}
   */
   readonly enableSecureBoot?: boolean | cdktf.IResolvable;
   /**
   * Enable TPM on the instance (boolean; default: `false`). Can not be disabled after the creation. **WARNING**: enabling this attribute stops/restarts the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/compute_instance#enable_tpm ComputeInstance#enable_tpm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/compute_instance#enable_tpm ComputeInstance#enable_tpm}
   */
   readonly enableTpm?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/compute_instance#id ComputeInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/compute_instance#id ComputeInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,91 +65,91 @@ export interface ComputeInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enable IPv6 on the instance (boolean; default: `false`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/compute_instance#ipv6 ComputeInstance#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/compute_instance#ipv6 ComputeInstance#ipv6}
   */
   readonly ipv6?: boolean | cdktf.IResolvable;
   /**
   * A map of key/value labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/compute_instance#labels ComputeInstance#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/compute_instance#labels ComputeInstance#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The compute instance name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/compute_instance#name ComputeInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/compute_instance#name ComputeInstance#name}
   */
   readonly name: string;
   /**
   * Whether the instance is private (no public IP addresses; default: false)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/compute_instance#private ComputeInstance#private}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/compute_instance#private ComputeInstance#private}
   */
   readonly private?: boolean | cdktf.IResolvable;
   /**
   * Domain name for reverse DNS record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/compute_instance#reverse_dns ComputeInstance#reverse_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/compute_instance#reverse_dns ComputeInstance#reverse_dns}
   */
   readonly reverseDns?: string;
   /**
   * A list of [exoscale_security_group](./security_group.md) (IDs) to attach to the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/compute_instance#security_group_ids ComputeInstance#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/compute_instance#security_group_ids ComputeInstance#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
   * ❗ The [exoscale_ssh_key](./ssh_key.md) (name) to authorize in the instance (may only be set at creation time).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/compute_instance#ssh_key ComputeInstance#ssh_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/compute_instance#ssh_key ComputeInstance#ssh_key}
   */
   readonly sshKey?: string;
   /**
   * ❗ The list of [exoscale_ssh_key](./ssh_key.md) (name) to authorize in the instance (may only be set at creation time).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/compute_instance#ssh_keys ComputeInstance#ssh_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/compute_instance#ssh_keys ComputeInstance#ssh_keys}
   */
   readonly sshKeys?: string[];
   /**
   * The instance state (`running` or `stopped`; default: `running`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/compute_instance#state ComputeInstance#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/compute_instance#state ComputeInstance#state}
   */
   readonly state?: string;
   /**
   * ❗ The [exoscale_template](../data-sources/template.md) (ID) to use when creating the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/compute_instance#template_id ComputeInstance#template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/compute_instance#template_id ComputeInstance#template_id}
   */
   readonly templateId: string;
   /**
   * The instance type (`<family>.<size>`, e.g. `standard.medium`; use the [Exoscale CLI](https://github.com/exoscale/cli/) - `exo compute instance-type list` - for the list of available types). **WARNING**: updating this attribute stops/restarts the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/compute_instance#type ComputeInstance#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/compute_instance#type ComputeInstance#type}
   */
   readonly type: string;
   /**
   * [cloud-init](https://cloudinit.readthedocs.io/) configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/compute_instance#user_data ComputeInstance#user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/compute_instance#user_data ComputeInstance#user_data}
   */
   readonly userData?: string;
   /**
   * ❗ The Exoscale [Zone](https://www.exoscale.com/datacenters/) name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/compute_instance#zone ComputeInstance#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/compute_instance#zone ComputeInstance#zone}
   */
   readonly zone: string;
   /**
   * network_interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/compute_instance#network_interface ComputeInstance#network_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/compute_instance#network_interface ComputeInstance#network_interface}
   */
   readonly networkInterface?: ComputeInstanceNetworkInterface[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/compute_instance#timeouts ComputeInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/compute_instance#timeouts ComputeInstance#timeouts}
   */
   readonly timeouts?: ComputeInstanceTimeouts;
 }
@@ -157,13 +157,13 @@ export interface ComputeInstanceNetworkInterface {
   /**
   * The IPv4 address to request as static DHCP lease if the network interface is attached to a *managed* private network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/compute_instance#ip_address ComputeInstance#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/compute_instance#ip_address ComputeInstance#ip_address}
   */
   readonly ipAddress?: string;
   /**
   * The [exoscale_private_network](./private_network.md) (ID) to attach to the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/compute_instance#network_id ComputeInstance#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/compute_instance#network_id ComputeInstance#network_id}
   */
   readonly networkId: string;
 }
@@ -310,19 +310,19 @@ export class ComputeInstanceNetworkInterfaceList extends cdktf.ComplexList {
 }
 export interface ComputeInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/compute_instance#create ComputeInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/compute_instance#create ComputeInstance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/compute_instance#delete ComputeInstance#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/compute_instance#delete ComputeInstance#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/compute_instance#read ComputeInstance#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/compute_instance#read ComputeInstance#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/compute_instance#update ComputeInstance#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/compute_instance#update ComputeInstance#update}
   */
   readonly update?: string;
 }
@@ -503,7 +503,7 @@ export class ComputeInstanceTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/compute_instance exoscale_compute_instance}
+* Represents a {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/compute_instance exoscale_compute_instance}
 */
 export class ComputeInstance extends cdktf.TerraformResource {
 
@@ -519,7 +519,7 @@ export class ComputeInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ComputeInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ComputeInstance to import
-  * @param importFromId The id of the existing ComputeInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/compute_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ComputeInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/compute_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ComputeInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -531,7 +531,7 @@ export class ComputeInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/compute_instance exoscale_compute_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/compute_instance exoscale_compute_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -542,7 +542,8 @@ export class ComputeInstance extends cdktf.TerraformResource {
       terraformResourceType: 'exoscale_compute_instance',
       terraformGeneratorMetadata: {
         providerName: 'exoscale',
-        providerVersion: '0.66.0'
+        providerVersion: '0.67.0',
+        providerVersionConstraint: '0.67.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

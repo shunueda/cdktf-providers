@@ -73,7 +73,8 @@ export class Group extends cdktf.TerraformResource {
       terraformResourceType: 'freeipa_group',
       terraformGeneratorMetadata: {
         providerName: 'freeipa',
-        providerVersion: '1.0.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

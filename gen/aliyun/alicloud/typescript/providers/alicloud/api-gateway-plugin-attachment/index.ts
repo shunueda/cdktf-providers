@@ -72,7 +72,8 @@ export class ApiGatewayPluginAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_api_gateway_plugin_attachment',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -74,7 +74,8 @@ export class ClusterLoadBalancerSecurityGroups extends cdktf.TerraformResource {
       terraformResourceType: 'zillizcloud_cluster_load_balancer_security_groups',
       terraformGeneratorMetadata: {
         providerName: 'zillizcloud',
-        providerVersion: '0.6.23'
+        providerVersion: '0.6.23',
+        providerVersionConstraint: '0.6.23'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

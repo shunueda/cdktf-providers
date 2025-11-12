@@ -142,7 +142,8 @@ export class DataGithubRepositoryCustomProperties extends cdktf.TerraformDataSou
       terraformResourceType: 'github_repository_custom_properties',
       terraformGeneratorMetadata: {
         providerName: 'github',
-        providerVersion: '6.7.5'
+        providerVersion: '6.7.5',
+        providerVersionConstraint: '6.7.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

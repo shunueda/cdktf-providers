@@ -73,7 +73,8 @@ export class Galaxy extends cdktf.TerraformResource {
       terraformResourceType: 'ansible_galaxy',
       terraformGeneratorMetadata: {
         providerName: 'ansible',
-        providerVersion: '2.0.4'
+        providerVersion: '2.0.4',
+        providerVersionConstraint: '2.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

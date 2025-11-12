@@ -300,7 +300,8 @@ export class GitTrigger extends cdktf.TerraformResource {
       terraformResourceType: 'octopusdeploy_git_trigger',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.4.0'
+        providerVersion: '1.4.0',
+        providerVersionConstraint: '1.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -20110,7 +20110,8 @@ export class DataK8SOperatorClusterXK8SIoControlPlaneProviderV1Alpha2Manifest ex
       terraformResourceType: 'k8s_operator_cluster_x_k8s_io_control_plane_provider_v1alpha2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

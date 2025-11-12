@@ -67,7 +67,8 @@ export class DataCouchbaseCapellaPrivateEndpointService extends cdktf.TerraformD
       terraformResourceType: 'couchbase-capella_private_endpoint_service',
       terraformGeneratorMetadata: {
         providerName: 'couchbase-capella',
-        providerVersion: '1.5.3'
+        providerVersion: '1.5.3',
+        providerVersionConstraint: '1.5.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

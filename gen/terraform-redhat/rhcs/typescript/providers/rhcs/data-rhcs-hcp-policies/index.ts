@@ -207,7 +207,8 @@ export class DataRhcsHcpPolicies extends cdktf.TerraformDataSource {
       terraformResourceType: 'rhcs_hcp_policies',
       terraformGeneratorMetadata: {
         providerName: 'rhcs',
-        providerVersion: '1.7.2'
+        providerVersion: '1.7.2',
+        providerVersionConstraint: '1.7.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

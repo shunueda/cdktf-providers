@@ -1,3 +1,3 @@
 # `citrixadc_spilloverpolicy`
 
-Refer to the Terraform Registry for docs: [`citrixadc_spilloverpolicy`](https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/spilloverpolicy).
+Refer to the Terraform Registry for docs: [`citrixadc_spilloverpolicy`](https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/spilloverpolicy).

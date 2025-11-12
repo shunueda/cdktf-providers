@@ -700,7 +700,8 @@ export class DataOciIdentityDomainsOciConsoleSignOnPolicyConsent extends cdktf.T
       terraformResourceType: 'oci_identity_domains_oci_console_sign_on_policy_consent',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

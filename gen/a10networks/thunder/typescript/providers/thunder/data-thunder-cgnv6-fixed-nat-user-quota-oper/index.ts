@@ -627,7 +627,8 @@ export class DataThunderCgnv6FixedNatUserQuotaOper extends cdktf.TerraformDataSo
       terraformResourceType: 'thunder_cgnv6_fixed_nat_user_quota_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

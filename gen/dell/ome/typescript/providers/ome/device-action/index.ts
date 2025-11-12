@@ -85,7 +85,8 @@ export class DeviceAction extends cdktf.TerraformResource {
       terraformResourceType: 'ome_device_action',
       terraformGeneratorMetadata: {
         providerName: 'ome',
-        providerVersion: '1.2.3'
+        providerVersion: '1.2.3',
+        providerVersionConstraint: '1.2.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

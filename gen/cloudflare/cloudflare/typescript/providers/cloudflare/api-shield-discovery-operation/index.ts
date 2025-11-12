@@ -70,7 +70,8 @@ export class ApiShieldDiscoveryOperation extends cdktf.TerraformResource {
       terraformResourceType: 'cloudflare_api_shield_discovery_operation',
       terraformGeneratorMetadata: {
         providerName: 'cloudflare',
-        providerVersion: '5.12.0'
+        providerVersion: '5.12.0',
+        providerVersionConstraint: '5.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

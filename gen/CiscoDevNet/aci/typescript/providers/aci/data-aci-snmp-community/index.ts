@@ -76,7 +76,8 @@ export class DataAciSnmpCommunity extends cdktf.TerraformDataSource {
       terraformResourceType: 'aci_snmp_community',
       terraformGeneratorMetadata: {
         providerName: 'aci',
-        providerVersion: '2.18.0'
+        providerVersion: '2.18.0',
+        providerVersionConstraint: '2.18.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

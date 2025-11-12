@@ -74,7 +74,8 @@ export class DlcRollbackDataEngineImageOperation extends cdktf.TerraformResource
       terraformResourceType: 'tencentcloud_dlc_rollback_data_engine_image_operation',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

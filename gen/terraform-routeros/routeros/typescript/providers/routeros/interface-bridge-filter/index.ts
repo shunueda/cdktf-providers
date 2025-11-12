@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_bridge_filter
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_bridge_filter
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,103 +10,103 @@ export interface InterfaceBridgeFilterConfig extends cdktf.TerraformMetaArgument
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_bridge_filter#___path___ InterfaceBridgeFilter#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_bridge_filter#___path___ InterfaceBridgeFilter#___path___}
   */
   readonly path?: string;
   /**
   * <em>A set of transformations for field names. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_bridge_filter#___skip___ InterfaceBridgeFilter#___skip___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_bridge_filter#___skip___ InterfaceBridgeFilter#___skip___}
   */
   readonly skip?: string;
   /**
   * <em>A set of fields that require setting/unsetting. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_bridge_filter#___unset___ InterfaceBridgeFilter#___unset___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_bridge_filter#___unset___ InterfaceBridgeFilter#___unset___}
   */
   readonly unset?: string;
   /**
   * Action to take if a packet is matched by the rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_bridge_filter#action InterfaceBridgeFilter#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_bridge_filter#action InterfaceBridgeFilter#action}
   */
   readonly action: string;
   /**
   * ARP destination MAC address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_bridge_filter#arp_dst_mac_address InterfaceBridgeFilter#arp_dst_mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_bridge_filter#arp_dst_mac_address InterfaceBridgeFilter#arp_dst_mac_address}
   */
   readonly arpDstMacAddress?: string;
   /**
   * Matches ARP gratuitous packets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_bridge_filter#arp_gratuitous InterfaceBridgeFilter#arp_gratuitous}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_bridge_filter#arp_gratuitous InterfaceBridgeFilter#arp_gratuitous}
   */
   readonly arpGratuitous?: boolean | cdktf.IResolvable;
   /**
   * ARP hardware type. This is normally Ethernet (Type 1).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_bridge_filter#arp_hardware_type InterfaceBridgeFilter#arp_hardware_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_bridge_filter#arp_hardware_type InterfaceBridgeFilter#arp_hardware_type}
   */
   readonly arpHardwareType?: number;
   /**
   * Action to take if a packet is matched by the rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_bridge_filter#arp_opcode InterfaceBridgeFilter#arp_opcode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_bridge_filter#arp_opcode InterfaceBridgeFilter#arp_opcode}
   */
   readonly arpOpcode?: string;
   /**
   * ARP Packet Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_bridge_filter#arp_packet_type InterfaceBridgeFilter#arp_packet_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_bridge_filter#arp_packet_type InterfaceBridgeFilter#arp_packet_type}
   */
   readonly arpPacketType?: number;
   /**
   * ARP source IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_bridge_filter#arp_src_address InterfaceBridgeFilter#arp_src_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_bridge_filter#arp_src_address InterfaceBridgeFilter#arp_src_address}
   */
   readonly arpSrcAddress?: string;
   /**
   * ARP source MAC address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_bridge_filter#arp_src_mac_address InterfaceBridgeFilter#arp_src_mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_bridge_filter#arp_src_mac_address InterfaceBridgeFilter#arp_src_mac_address}
   */
   readonly arpSrcMacAddress?: string;
   /**
   * Specifies to which chain rule will be added. If the input does not match the name of an already defined chain, a new chain will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_bridge_filter#chain InterfaceBridgeFilter#chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_bridge_filter#chain InterfaceBridgeFilter#chain}
   */
   readonly chain: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_bridge_filter#comment InterfaceBridgeFilter#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_bridge_filter#comment InterfaceBridgeFilter#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_bridge_filter#disabled InterfaceBridgeFilter#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_bridge_filter#disabled InterfaceBridgeFilter#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Destination IP address (only if MAC protocol is set to IP).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_bridge_filter#dst_address InterfaceBridgeFilter#dst_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_bridge_filter#dst_address InterfaceBridgeFilter#dst_address}
   */
   readonly dstAddress?: string;
   /**
   * Destination MAC address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_bridge_filter#dst_mac_address InterfaceBridgeFilter#dst_mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_bridge_filter#dst_mac_address InterfaceBridgeFilter#dst_mac_address}
   */
   readonly dstMacAddress?: string;
   /**
   * List of destination port numbers or port number ranges.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_bridge_filter#dst_port InterfaceBridgeFilter#dst_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_bridge_filter#dst_port InterfaceBridgeFilter#dst_port}
   */
   readonly dstPort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_bridge_filter#id InterfaceBridgeFilter#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_bridge_filter#id InterfaceBridgeFilter#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -115,121 +115,121 @@ export interface InterfaceBridgeFilterConfig extends cdktf.TerraformMetaArgument
   /**
   * Bridge interface through which the packet is coming in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_bridge_filter#in_bridge InterfaceBridgeFilter#in_bridge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_bridge_filter#in_bridge InterfaceBridgeFilter#in_bridge}
   */
   readonly inBridge?: string;
   /**
   * Set of bridge interfaces defined in interface list. Works the same as in-bridge.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_bridge_filter#in_bridge_list InterfaceBridgeFilter#in_bridge_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_bridge_filter#in_bridge_list InterfaceBridgeFilter#in_bridge_list}
   */
   readonly inBridgeList?: string;
   /**
   * Physical interface (i.e., bridge port) through which the packet is coming in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_bridge_filter#in_interface InterfaceBridgeFilter#in_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_bridge_filter#in_interface InterfaceBridgeFilter#in_interface}
   */
   readonly inInterface?: string;
   /**
   * Set of interfaces defined in interface list. Works the same as in-interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_bridge_filter#in_interface_list InterfaceBridgeFilter#in_interface_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_bridge_filter#in_interface_list InterfaceBridgeFilter#in_interface_list}
   */
   readonly inInterfaceList?: string;
   /**
   * Integer. Matches the priority of an ingress packet. Priority may be derived from VLAN, WMM, DSCP,or MPLS EXP bit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_bridge_filter#ingress_priority InterfaceBridgeFilter#ingress_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_bridge_filter#ingress_priority InterfaceBridgeFilter#ingress_priority}
   */
   readonly ingressPriority?: number;
   /**
   * IP protocol (only if MAC protocol is set to IPv4)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_bridge_filter#ip_protocol InterfaceBridgeFilter#ip_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_bridge_filter#ip_protocol InterfaceBridgeFilter#ip_protocol}
   */
   readonly ipProtocol?: string;
   /**
   * Name of the target chain to jump to. Applicable only if action=jump.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_bridge_filter#jump_target InterfaceBridgeFilter#jump_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_bridge_filter#jump_target InterfaceBridgeFilter#jump_target}
   */
   readonly jumpTarget?: string;
   /**
   * Matches packets up to a limited rate (packet rate or bit rate). A rule using this matcher will match until this limit is reached. Parameters are written in the following format: rate[/time],burst:mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_bridge_filter#limit InterfaceBridgeFilter#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_bridge_filter#limit InterfaceBridgeFilter#limit}
   */
   readonly limit?: string;
   /**
   * Add a message to the system log.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_bridge_filter#log InterfaceBridgeFilter#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_bridge_filter#log InterfaceBridgeFilter#log}
   */
   readonly log?: boolean | cdktf.IResolvable;
   /**
   * Adds specified text at the beginning of every log message. Applicable if action=log or log=yes configured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_bridge_filter#log_prefix InterfaceBridgeFilter#log_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_bridge_filter#log_prefix InterfaceBridgeFilter#log_prefix}
   */
   readonly logPrefix?: string;
   /**
   * Ethernet payload type (MAC-level protocol). To match protocol type for VLAN encapsulated frames (0x8100 or 0x88a8), a vlan-encap property should be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_bridge_filter#mac_protocol InterfaceBridgeFilter#mac_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_bridge_filter#mac_protocol InterfaceBridgeFilter#mac_protocol}
   */
   readonly macProtocol?: string;
   /**
   * Sets a new packet-mark value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_bridge_filter#new_packet_mark InterfaceBridgeFilter#new_packet_mark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_bridge_filter#new_packet_mark InterfaceBridgeFilter#new_packet_mark}
   */
   readonly newPacketMark?: string;
   /**
   * Sets a new priority for a packet. This can be the VLAN, WMM or MPLS EXP priority
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_bridge_filter#new_priority InterfaceBridgeFilter#new_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_bridge_filter#new_priority InterfaceBridgeFilter#new_priority}
   */
   readonly newPriority?: number;
   /**
   * Bridge interface through which the packet going out.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_bridge_filter#out_bridge InterfaceBridgeFilter#out_bridge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_bridge_filter#out_bridge InterfaceBridgeFilter#out_bridge}
   */
   readonly outBridge?: string;
   /**
   * Set of bridge interfaces defined in interface list. Works the same as out-bridge.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_bridge_filter#out_bridge_list InterfaceBridgeFilter#out_bridge_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_bridge_filter#out_bridge_list InterfaceBridgeFilter#out_bridge_list}
   */
   readonly outBridgeList?: string;
   /**
   * Interface the packet has entered the router.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_bridge_filter#out_interface InterfaceBridgeFilter#out_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_bridge_filter#out_interface InterfaceBridgeFilter#out_interface}
   */
   readonly outInterface?: string;
   /**
   * Set of interfaces defined in interface list. Works the same as out-interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_bridge_filter#out_interface_list InterfaceBridgeFilter#out_interface_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_bridge_filter#out_interface_list InterfaceBridgeFilter#out_interface_list}
   */
   readonly outInterfaceList?: string;
   /**
   * Match packets with a certain packet mark.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_bridge_filter#packet_mark InterfaceBridgeFilter#packet_mark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_bridge_filter#packet_mark InterfaceBridgeFilter#packet_mark}
   */
   readonly packetMark?: string;
   /**
   * Match packets with a certain packet mark.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_bridge_filter#packet_type InterfaceBridgeFilter#packet_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_bridge_filter#packet_type InterfaceBridgeFilter#packet_type}
   */
   readonly packetType?: string;
   /**
   * Whether to let the packet to pass further (like action passthrough) into the filter or not (property only valid some actions).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_bridge_filter#passthrough InterfaceBridgeFilter#passthrough}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_bridge_filter#passthrough InterfaceBridgeFilter#passthrough}
   */
   readonly passthrough?: boolean | cdktf.IResolvable;
   /**
@@ -238,119 +238,119 @@ export interface InterfaceBridgeFilterConfig extends cdktf.TerraformMetaArgument
   * 	> Best way to use in conjunction with a data source. See [example](../data-sources/ip_firewall.md#example-usage).  
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_bridge_filter#place_before InterfaceBridgeFilter#place_before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_bridge_filter#place_before InterfaceBridgeFilter#place_before}
   */
   readonly placeBefore?: string;
   /**
   * Source port number or range (only for TCP or UDP protocols).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_bridge_filter#src_address InterfaceBridgeFilter#src_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_bridge_filter#src_address InterfaceBridgeFilter#src_address}
   */
   readonly srcAddress?: string;
   /**
   * Source MAC address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_bridge_filter#src_mac_address InterfaceBridgeFilter#src_mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_bridge_filter#src_mac_address InterfaceBridgeFilter#src_mac_address}
   */
   readonly srcMacAddress?: string;
   /**
   * List of source port numbers or port number ranges.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_bridge_filter#src_port InterfaceBridgeFilter#src_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_bridge_filter#src_port InterfaceBridgeFilter#src_port}
   */
   readonly srcPort?: string;
   /**
   * Match packets with a certain packet mark.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_bridge_filter#stp_flags InterfaceBridgeFilter#stp_flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_bridge_filter#stp_flags InterfaceBridgeFilter#stp_flags}
   */
   readonly stpFlags?: string;
   /**
   * Forward delay timer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_bridge_filter#stp_forward_delay InterfaceBridgeFilter#stp_forward_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_bridge_filter#stp_forward_delay InterfaceBridgeFilter#stp_forward_delay}
   */
   readonly stpForwardDelay?: number;
   /**
   * STP hello packets time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_bridge_filter#stp_hello_time InterfaceBridgeFilter#stp_hello_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_bridge_filter#stp_hello_time InterfaceBridgeFilter#stp_hello_time}
   */
   readonly stpHelloTime?: number;
   /**
   * Maximal STP message age.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_bridge_filter#stp_max_age InterfaceBridgeFilter#stp_max_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_bridge_filter#stp_max_age InterfaceBridgeFilter#stp_max_age}
   */
   readonly stpMaxAge?: number;
   /**
   * STP port identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_bridge_filter#stp_port InterfaceBridgeFilter#stp_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_bridge_filter#stp_port InterfaceBridgeFilter#stp_port}
   */
   readonly stpPort?: number;
   /**
   * Root bridge MAC address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_bridge_filter#stp_root_address InterfaceBridgeFilter#stp_root_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_bridge_filter#stp_root_address InterfaceBridgeFilter#stp_root_address}
   */
   readonly stpRootAddress?: string;
   /**
   * Root bridge cost.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_bridge_filter#stp_root_cost InterfaceBridgeFilter#stp_root_cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_bridge_filter#stp_root_cost InterfaceBridgeFilter#stp_root_cost}
   */
   readonly stpRootCost?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_bridge_filter#stp_root_priority InterfaceBridgeFilter#stp_root_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_bridge_filter#stp_root_priority InterfaceBridgeFilter#stp_root_priority}
   */
   readonly stpRootPriority?: number;
   /**
   * STP message sender MAC address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_bridge_filter#stp_sender_address InterfaceBridgeFilter#stp_sender_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_bridge_filter#stp_sender_address InterfaceBridgeFilter#stp_sender_address}
   */
   readonly stpSenderAddress?: string;
   /**
   * STP sender priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_bridge_filter#stp_sender_priority InterfaceBridgeFilter#stp_sender_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_bridge_filter#stp_sender_priority InterfaceBridgeFilter#stp_sender_priority}
   */
   readonly stpSenderPriority?: number;
   /**
   * The BPDU type: config - configuration BPDU OR tcn - topology change notification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_bridge_filter#stp_type InterfaceBridgeFilter#stp_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_bridge_filter#stp_type InterfaceBridgeFilter#stp_type}
   */
   readonly stpType?: string;
   /**
   * Allows matching https traffic based on TLS SNI hostname. Accepts GLOB syntax for wildcard matching
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_bridge_filter#tls_host InterfaceBridgeFilter#tls_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_bridge_filter#tls_host InterfaceBridgeFilter#tls_host}
   */
   readonly tlsHost?: string;
   /**
   * Matches the MAC protocol type encapsulated in the VLAN frame.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_bridge_filter#vlan_encap InterfaceBridgeFilter#vlan_encap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_bridge_filter#vlan_encap InterfaceBridgeFilter#vlan_encap}
   */
   readonly vlanEncap?: number;
   /**
   * Matches the VLAN identifier field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_bridge_filter#vlan_id InterfaceBridgeFilter#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_bridge_filter#vlan_id InterfaceBridgeFilter#vlan_id}
   */
   readonly vlanId?: number;
   /**
   * Matches the VLAN identifier field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_bridge_filter#vlan_priority InterfaceBridgeFilter#vlan_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_bridge_filter#vlan_priority InterfaceBridgeFilter#vlan_priority}
   */
   readonly vlanPriority?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_bridge_filter routeros_interface_bridge_filter}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_bridge_filter routeros_interface_bridge_filter}
 */
 export class InterfaceBridgeFilter extends cdktf.TerraformResource {
 
@@ -366,7 +366,7 @@ export class InterfaceBridgeFilter extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InterfaceBridgeFilter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InterfaceBridgeFilter to import
-  * @param importFromId The id of the existing InterfaceBridgeFilter that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_bridge_filter#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InterfaceBridgeFilter that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_bridge_filter#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InterfaceBridgeFilter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -378,7 +378,7 @@ export class InterfaceBridgeFilter extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_bridge_filter routeros_interface_bridge_filter} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_bridge_filter routeros_interface_bridge_filter} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -389,7 +389,8 @@ export class InterfaceBridgeFilter extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_interface_bridge_filter',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.90.0'
+        providerVersion: '1.91.0',
+        providerVersionConstraint: '1.91.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

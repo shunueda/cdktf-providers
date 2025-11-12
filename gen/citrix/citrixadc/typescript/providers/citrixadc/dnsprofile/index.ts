@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/dnsprofile
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnsprofile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,72 +8,72 @@ import * as cdktf from 'cdktf';
 
 export interface DnsprofileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/dnsprofile#cacheecsresponses Dnsprofile#cacheecsresponses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnsprofile#cacheecsresponses Dnsprofile#cacheecsresponses}
   */
   readonly cacheecsresponses?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/dnsprofile#cachenegativeresponses Dnsprofile#cachenegativeresponses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnsprofile#cachenegativeresponses Dnsprofile#cachenegativeresponses}
   */
   readonly cachenegativeresponses?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/dnsprofile#cacherecords Dnsprofile#cacherecords}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnsprofile#cacherecords Dnsprofile#cacherecords}
   */
   readonly cacherecords?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/dnsprofile#dnsanswerseclogging Dnsprofile#dnsanswerseclogging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnsprofile#dnsanswerseclogging Dnsprofile#dnsanswerseclogging}
   */
   readonly dnsanswerseclogging?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/dnsprofile#dnserrorlogging Dnsprofile#dnserrorlogging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnsprofile#dnserrorlogging Dnsprofile#dnserrorlogging}
   */
   readonly dnserrorlogging?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/dnsprofile#dnsextendedlogging Dnsprofile#dnsextendedlogging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnsprofile#dnsextendedlogging Dnsprofile#dnsextendedlogging}
   */
   readonly dnsextendedlogging?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/dnsprofile#dnsprofilename Dnsprofile#dnsprofilename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnsprofile#dnsprofilename Dnsprofile#dnsprofilename}
   */
   readonly dnsprofilename: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/dnsprofile#dnsquerylogging Dnsprofile#dnsquerylogging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnsprofile#dnsquerylogging Dnsprofile#dnsquerylogging}
   */
   readonly dnsquerylogging?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/dnsprofile#dropmultiqueryrequest Dnsprofile#dropmultiqueryrequest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnsprofile#dropmultiqueryrequest Dnsprofile#dropmultiqueryrequest}
   */
   readonly dropmultiqueryrequest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/dnsprofile#id Dnsprofile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnsprofile#id Dnsprofile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/dnsprofile#insertecs Dnsprofile#insertecs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnsprofile#insertecs Dnsprofile#insertecs}
   */
   readonly insertecs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/dnsprofile#maxcacheableecsprefixlength Dnsprofile#maxcacheableecsprefixlength}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnsprofile#maxcacheableecsprefixlength Dnsprofile#maxcacheableecsprefixlength}
   */
   readonly maxcacheableecsprefixlength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/dnsprofile#maxcacheableecsprefixlength6 Dnsprofile#maxcacheableecsprefixlength6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnsprofile#maxcacheableecsprefixlength6 Dnsprofile#maxcacheableecsprefixlength6}
   */
   readonly maxcacheableecsprefixlength6?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/dnsprofile#recursiveresolution Dnsprofile#recursiveresolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnsprofile#recursiveresolution Dnsprofile#recursiveresolution}
   */
   readonly recursiveresolution?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/dnsprofile#replaceecs Dnsprofile#replaceecs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnsprofile#replaceecs Dnsprofile#replaceecs}
   */
   readonly replaceecs?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/dnsprofile citrixadc_dnsprofile}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnsprofile citrixadc_dnsprofile}
 */
 export class Dnsprofile extends cdktf.TerraformResource {
 
@@ -89,7 +89,7 @@ export class Dnsprofile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Dnsprofile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Dnsprofile to import
-  * @param importFromId The id of the existing Dnsprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/dnsprofile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Dnsprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnsprofile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Dnsprofile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -101,7 +101,7 @@ export class Dnsprofile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/dnsprofile citrixadc_dnsprofile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnsprofile citrixadc_dnsprofile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -112,7 +112,8 @@ export class Dnsprofile extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_dnsprofile',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

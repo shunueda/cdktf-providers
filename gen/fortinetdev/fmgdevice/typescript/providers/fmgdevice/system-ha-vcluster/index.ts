@@ -104,7 +104,8 @@ export class SystemHaVclusterA extends cdktf.TerraformResource {
       terraformResourceType: 'fmgdevice_system_ha_vcluster',
       terraformGeneratorMetadata: {
         providerName: 'fmgdevice',
-        providerVersion: '1.2.1'
+        providerVersion: '1.2.1',
+        providerVersionConstraint: '1.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

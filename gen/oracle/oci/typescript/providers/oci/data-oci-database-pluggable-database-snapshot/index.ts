@@ -53,7 +53,8 @@ export class DataOciDatabasePluggableDatabaseSnapshot extends cdktf.TerraformDat
       terraformResourceType: 'oci_database_pluggable_database_snapshot',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

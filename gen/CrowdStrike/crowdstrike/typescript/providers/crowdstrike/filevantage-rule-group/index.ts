@@ -1207,7 +1207,8 @@ export class FilevantageRuleGroup extends cdktf.TerraformResource {
       terraformResourceType: 'crowdstrike_filevantage_rule_group',
       terraformGeneratorMetadata: {
         providerName: 'crowdstrike',
-        providerVersion: '0.0.43'
+        providerVersion: '0.0.43',
+        providerVersionConstraint: '0.0.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

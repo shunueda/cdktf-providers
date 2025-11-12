@@ -73,7 +73,8 @@ export class PipelineProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'pipeline',
       terraformGeneratorMetadata: {
         providerName: 'pipeline',
-        providerVersion: '1.2.4'
+        providerVersion: '1.2.4',
+        providerVersionConstraint: '1.2.4'
       },
       terraformProviderSource: 'jfrog/pipeline'
     });

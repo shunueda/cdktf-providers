@@ -92,7 +92,8 @@ export class ObjectWebproxyWisp extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_webproxy_wisp',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0'
+        providerVersion: '1.14.0',
+        providerVersionConstraint: '1.14.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

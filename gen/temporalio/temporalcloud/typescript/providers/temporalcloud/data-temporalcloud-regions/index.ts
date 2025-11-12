@@ -139,7 +139,8 @@ export class DataTemporalcloudRegions extends cdktf.TerraformDataSource {
       terraformResourceType: 'temporalcloud_regions',
       terraformGeneratorMetadata: {
         providerName: 'temporalcloud',
-        providerVersion: '1.1.1'
+        providerVersion: '1.1.1',
+        providerVersionConstraint: '1.1.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

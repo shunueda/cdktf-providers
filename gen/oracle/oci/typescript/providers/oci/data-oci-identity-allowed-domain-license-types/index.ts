@@ -327,7 +327,8 @@ export class DataOciIdentityAllowedDomainLicenseTypes extends cdktf.TerraformDat
       terraformResourceType: 'oci_identity_allowed_domain_license_types',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

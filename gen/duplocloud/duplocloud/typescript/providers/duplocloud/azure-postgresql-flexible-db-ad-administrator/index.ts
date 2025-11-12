@@ -258,7 +258,8 @@ export class AzurePostgresqlFlexibleDbAdAdministrator extends cdktf.TerraformRes
       terraformResourceType: 'duplocloud_azure_postgresql_flexible_db_ad_administrator',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.28'
+        providerVersion: '0.11.28',
+        providerVersionConstraint: '0.11.28'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

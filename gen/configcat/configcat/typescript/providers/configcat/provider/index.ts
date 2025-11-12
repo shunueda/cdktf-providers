@@ -73,7 +73,8 @@ export class ConfigcatProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'configcat',
       terraformGeneratorMetadata: {
         providerName: 'configcat',
-        providerVersion: '5.6.0'
+        providerVersion: '5.6.0',
+        providerVersionConstraint: '5.6.0'
       },
       terraformProviderSource: 'configcat/configcat'
     });

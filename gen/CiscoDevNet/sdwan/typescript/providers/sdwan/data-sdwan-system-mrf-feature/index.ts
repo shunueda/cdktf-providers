@@ -64,7 +64,8 @@ export class DataSdwanSystemMrfFeature extends cdktf.TerraformDataSource {
       terraformResourceType: 'sdwan_system_mrf_feature',
       terraformGeneratorMetadata: {
         providerName: 'sdwan',
-        providerVersion: '0.8.1'
+        providerVersion: '0.8.1',
+        providerVersionConstraint: '0.8.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

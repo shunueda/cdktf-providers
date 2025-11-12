@@ -60,7 +60,8 @@ export class DataAwsIamPolicy extends cdktf.TerraformDataSource {
       terraformResourceType: 'aws_iam_policy',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '3.29.6'
+        providerVersion: '3.29.6',
+        providerVersionConstraint: '3.29.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

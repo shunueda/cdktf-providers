@@ -72,7 +72,8 @@ export class OpsworksRdsDbInstance extends cdktf.TerraformResource {
       terraformResourceType: 'aws_opsworks_rds_db_instance',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '3.29.6'
+        providerVersion: '3.29.6',
+        providerVersionConstraint: '3.29.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

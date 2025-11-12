@@ -1154,7 +1154,8 @@ export class Transformer extends cdktf.TerraformResource {
       terraformResourceType: 'userclouds_transformer',
       terraformGeneratorMetadata: {
         providerName: 'userclouds',
-        providerVersion: '0.1.8'
+        providerVersion: '0.1.8',
+        providerVersionConstraint: '0.1.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

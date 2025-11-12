@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/mapdomain_mapbmr_binding
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/mapdomain_mapbmr_binding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,24 +8,24 @@ import * as cdktf from 'cdktf';
 
 export interface MapdomainMapbmrBindingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/mapdomain_mapbmr_binding#id MapdomainMapbmrBinding#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/mapdomain_mapbmr_binding#id MapdomainMapbmrBinding#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/mapdomain_mapbmr_binding#mapbmrname MapdomainMapbmrBinding#mapbmrname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/mapdomain_mapbmr_binding#mapbmrname MapdomainMapbmrBinding#mapbmrname}
   */
   readonly mapbmrname: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/mapdomain_mapbmr_binding#name MapdomainMapbmrBinding#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/mapdomain_mapbmr_binding#name MapdomainMapbmrBinding#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/mapdomain_mapbmr_binding citrixadc_mapdomain_mapbmr_binding}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/mapdomain_mapbmr_binding citrixadc_mapdomain_mapbmr_binding}
 */
 export class MapdomainMapbmrBinding extends cdktf.TerraformResource {
 
@@ -41,7 +41,7 @@ export class MapdomainMapbmrBinding extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MapdomainMapbmrBinding resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MapdomainMapbmrBinding to import
-  * @param importFromId The id of the existing MapdomainMapbmrBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/mapdomain_mapbmr_binding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MapdomainMapbmrBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/mapdomain_mapbmr_binding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MapdomainMapbmrBinding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -53,7 +53,7 @@ export class MapdomainMapbmrBinding extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/mapdomain_mapbmr_binding citrixadc_mapdomain_mapbmr_binding} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/mapdomain_mapbmr_binding citrixadc_mapdomain_mapbmr_binding} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -64,7 +64,8 @@ export class MapdomainMapbmrBinding extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_mapdomain_mapbmr_binding',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/nat_rule
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/nat_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,115 +10,115 @@ export interface NatRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Active active device binding
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/nat_rule#active_active_device_binding NatRule#active_active_device_binding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/nat_rule#active_active_device_binding NatRule#active_active_device_binding}
   */
   readonly activeActiveDeviceBinding?: string;
   /**
   * NAT rule description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/nat_rule#description NatRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/nat_rule#description NatRule#description}
   */
   readonly description?: string;
   /**
   * Destination address(es) of the original packet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/nat_rule#destination NatRule#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/nat_rule#destination NatRule#destination}
   */
   readonly destination: string[];
   /**
-  * Destination translation configuration (Static/P-D-N-T).
+  * Destination translation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/nat_rule#destination_translation NatRule#destination_translation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/nat_rule#destination_translation NatRule#destination_translation}
   */
   readonly destinationTranslation?: NatRuleDestinationTranslation;
   /**
   * The device in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/nat_rule#device NatRule#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/nat_rule#device NatRule#device}
   */
   readonly device?: string;
   /**
   * Disable NAT rule?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/nat_rule#disabled NatRule#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/nat_rule#disabled NatRule#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Dynamic destination translation configuration.
+  * Dynamic destination translation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/nat_rule#dynamic_destination_translation NatRule#dynamic_destination_translation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/nat_rule#dynamic_destination_translation NatRule#dynamic_destination_translation}
   */
   readonly dynamicDestinationTranslation?: NatRuleDynamicDestinationTranslation;
   /**
   * The folder in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/nat_rule#folder NatRule#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/nat_rule#folder NatRule#folder}
   */
   readonly folder?: string;
   /**
   * Source zone(s) of the original packet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/nat_rule#from NatRule#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/nat_rule#from NatRule#from}
   */
   readonly from: string[];
   /**
   * NAT rule name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/nat_rule#name NatRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/nat_rule#name NatRule#name}
   */
   readonly name: string;
   /**
   * NAT type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/nat_rule#nat_type NatRule#nat_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/nat_rule#nat_type NatRule#nat_type}
   */
   readonly natType?: string;
   /**
   * The relative position of the rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/nat_rule#position NatRule#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/nat_rule#position NatRule#position}
   */
   readonly position?: string;
   /**
   * The service of the original packet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/nat_rule#service NatRule#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/nat_rule#service NatRule#service}
   */
   readonly service: string;
   /**
   * The snippet in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/nat_rule#snippet NatRule#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/nat_rule#snippet NatRule#snippet}
   */
   readonly snippet?: string;
   /**
   * Source address(es) of the original packet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/nat_rule#source NatRule#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/nat_rule#source NatRule#source}
   */
   readonly source: string[];
   /**
-  * Source translation configuration (Static/P-D-N-T).
+  * Source translation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/nat_rule#source_translation NatRule#source_translation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/nat_rule#source_translation NatRule#source_translation}
   */
   readonly sourceTranslation?: NatRuleSourceTranslation;
   /**
   * NAT rule tags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/nat_rule#tag NatRule#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/nat_rule#tag NatRule#tag}
   */
   readonly tag?: string[];
   /**
   * Destination zone of the original packet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/nat_rule#to NatRule#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/nat_rule#to NatRule#to}
   */
   readonly to: string[];
   /**
   * Destination interface of the original packet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/nat_rule#to_interface NatRule#to_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/nat_rule#to_interface NatRule#to_interface}
   */
   readonly toInterface?: string;
 }
@@ -126,7 +126,7 @@ export interface NatRuleDestinationTranslationDnsRewrite {
   /**
   * Direction
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/nat_rule#direction NatRule#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/nat_rule#direction NatRule#direction}
   */
   readonly direction?: string;
 }
@@ -220,21 +220,21 @@ export class NatRuleDestinationTranslationDnsRewriteOutputReference extends cdkt
 }
 export interface NatRuleDestinationTranslation {
   /**
-  * Dns rewrite
+  * DNS rewrite
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/nat_rule#dns_rewrite NatRule#dns_rewrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/nat_rule#dns_rewrite NatRule#dns_rewrite}
   */
   readonly dnsRewrite?: NatRuleDestinationTranslationDnsRewrite;
   /**
-  * Translated address
+  * Translated destination IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/nat_rule#translated_address NatRule#translated_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/nat_rule#translated_address NatRule#translated_address}
   */
   readonly translatedAddress?: string;
   /**
-  * Translated port
+  * Translated destination port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/nat_rule#translated_port NatRule#translated_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/nat_rule#translated_port NatRule#translated_port}
   */
   readonly translatedPort?: number;
 }
@@ -386,21 +386,21 @@ export class NatRuleDestinationTranslationOutputReference extends cdktf.ComplexO
 }
 export interface NatRuleDynamicDestinationTranslation {
   /**
-  * Distribution
+  * Distribution method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/nat_rule#distribution NatRule#distribution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/nat_rule#distribution NatRule#distribution}
   */
   readonly distribution?: string;
   /**
-  * Translated address
+  * Translated destination IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/nat_rule#translated_address NatRule#translated_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/nat_rule#translated_address NatRule#translated_address}
   */
   readonly translatedAddress?: string;
   /**
-  * Translated port
+  * Translated destination port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/nat_rule#translated_port NatRule#translated_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/nat_rule#translated_port NatRule#translated_port}
   */
   readonly translatedPort?: number;
 }
@@ -550,34 +550,28 @@ export class NatRuleDynamicDestinationTranslationOutputReference extends cdktf.C
     return this._translatedPort;
   }
 }
-export interface NatRuleSourceTranslationDynamicIpFallback {
+export interface NatRuleSourceTranslationDynamicIpFallbackInterfaceAddress {
   /**
   * Floating IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/nat_rule#floating_ip NatRule#floating_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/nat_rule#floating_ip NatRule#floating_ip}
   */
   readonly floatingIp?: string;
   /**
   * Interface name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/nat_rule#interface NatRule#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/nat_rule#interface NatRule#interface}
   */
   readonly interface?: string;
   /**
   * IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/nat_rule#ip NatRule#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/nat_rule#ip NatRule#ip}
   */
   readonly ip?: string;
-  /**
-  * Fallback IP addresses
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/nat_rule#translated_address NatRule#translated_address}
-  */
-  readonly translatedAddress?: string[];
 }
 
-export function natRuleSourceTranslationDynamicIpFallbackToTerraform(struct?: NatRuleSourceTranslationDynamicIpFallback | cdktf.IResolvable): any {
+export function natRuleSourceTranslationDynamicIpFallbackInterfaceAddressToTerraform(struct?: NatRuleSourceTranslationDynamicIpFallbackInterfaceAddress | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -586,12 +580,11 @@ export function natRuleSourceTranslationDynamicIpFallbackToTerraform(struct?: Na
     floating_ip: cdktf.stringToTerraform(struct!.floatingIp),
     interface: cdktf.stringToTerraform(struct!.interface),
     ip: cdktf.stringToTerraform(struct!.ip),
-    translated_address: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.translatedAddress),
   }
 }
 
 
-export function natRuleSourceTranslationDynamicIpFallbackToHclTerraform(struct?: NatRuleSourceTranslationDynamicIpFallback | cdktf.IResolvable): any {
+export function natRuleSourceTranslationDynamicIpFallbackInterfaceAddressToHclTerraform(struct?: NatRuleSourceTranslationDynamicIpFallbackInterfaceAddress | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -615,19 +608,13 @@ export function natRuleSourceTranslationDynamicIpFallbackToHclTerraform(struct?:
       type: "simple",
       storageClassType: "string",
     },
-    translated_address: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.translatedAddress),
-      isBlock: false,
-      type: "list",
-      storageClassType: "stringList",
-    },
   };
 
   // remove undefined attributes
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class NatRuleSourceTranslationDynamicIpFallbackOutputReference extends cdktf.ComplexObject {
+export class NatRuleSourceTranslationDynamicIpFallbackInterfaceAddressOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
   private resolvableValue?: cdktf.IResolvable;
 
@@ -639,7 +626,7 @@ export class NatRuleSourceTranslationDynamicIpFallbackOutputReference extends cd
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): NatRuleSourceTranslationDynamicIpFallback | cdktf.IResolvable | undefined {
+  public get internalValue(): NatRuleSourceTranslationDynamicIpFallbackInterfaceAddress | cdktf.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -657,21 +644,16 @@ export class NatRuleSourceTranslationDynamicIpFallbackOutputReference extends cd
       hasAnyValues = true;
       internalValueResult.ip = this._ip;
     }
-    if (this._translatedAddress !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.translatedAddress = this._translatedAddress;
-    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: NatRuleSourceTranslationDynamicIpFallback | cdktf.IResolvable | undefined) {
+  public set internalValue(value: NatRuleSourceTranslationDynamicIpFallbackInterfaceAddress | cdktf.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._floatingIp = undefined;
       this._interface = undefined;
       this._ip = undefined;
-      this._translatedAddress = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -683,7 +665,6 @@ export class NatRuleSourceTranslationDynamicIpFallbackOutputReference extends cd
       this._floatingIp = value.floatingIp;
       this._interface = value.interface;
       this._ip = value.ip;
-      this._translatedAddress = value.translatedAddress;
     }
   }
 
@@ -734,6 +715,121 @@ export class NatRuleSourceTranslationDynamicIpFallbackOutputReference extends cd
   public get ipInput() {
     return this._ip;
   }
+}
+export interface NatRuleSourceTranslationDynamicIpFallback {
+  /**
+  * Fallback interface
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/nat_rule#interface_address NatRule#interface_address}
+  */
+  readonly interfaceAddress?: NatRuleSourceTranslationDynamicIpFallbackInterfaceAddress;
+  /**
+  * Fallback IP addresses
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/nat_rule#translated_address NatRule#translated_address}
+  */
+  readonly translatedAddress?: string[];
+}
+
+export function natRuleSourceTranslationDynamicIpFallbackToTerraform(struct?: NatRuleSourceTranslationDynamicIpFallback | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    interface_address: natRuleSourceTranslationDynamicIpFallbackInterfaceAddressToTerraform(struct!.interfaceAddress),
+    translated_address: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.translatedAddress),
+  }
+}
+
+
+export function natRuleSourceTranslationDynamicIpFallbackToHclTerraform(struct?: NatRuleSourceTranslationDynamicIpFallback | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    interface_address: {
+      value: natRuleSourceTranslationDynamicIpFallbackInterfaceAddressToHclTerraform(struct!.interfaceAddress),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "NatRuleSourceTranslationDynamicIpFallbackInterfaceAddress",
+    },
+    translated_address: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.translatedAddress),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class NatRuleSourceTranslationDynamicIpFallbackOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): NatRuleSourceTranslationDynamicIpFallback | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._interfaceAddress?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.interfaceAddress = this._interfaceAddress?.internalValue;
+    }
+    if (this._translatedAddress !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.translatedAddress = this._translatedAddress;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: NatRuleSourceTranslationDynamicIpFallback | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._interfaceAddress.internalValue = undefined;
+      this._translatedAddress = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._interfaceAddress.internalValue = value.interfaceAddress;
+      this._translatedAddress = value.translatedAddress;
+    }
+  }
+
+  // interface_address - computed: false, optional: true, required: false
+  private _interfaceAddress = new NatRuleSourceTranslationDynamicIpFallbackInterfaceAddressOutputReference(this, "interface_address");
+  public get interfaceAddress() {
+    return this._interfaceAddress;
+  }
+  public putInterfaceAddress(value: NatRuleSourceTranslationDynamicIpFallbackInterfaceAddress) {
+    this._interfaceAddress.internalValue = value;
+  }
+  public resetInterfaceAddress() {
+    this._interfaceAddress.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get interfaceAddressInput() {
+    return this._interfaceAddress.internalValue;
+  }
 
   // translated_address - computed: false, optional: true, required: false
   private _translatedAddress?: string[]; 
@@ -755,13 +851,13 @@ export interface NatRuleSourceTranslationDynamicIp {
   /**
   * Fallback
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/nat_rule#fallback NatRule#fallback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/nat_rule#fallback NatRule#fallback}
   */
   readonly fallback?: NatRuleSourceTranslationDynamicIpFallback;
   /**
   * Translated IP addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/nat_rule#translated_address NatRule#translated_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/nat_rule#translated_address NatRule#translated_address}
   */
   readonly translatedAddress?: string[];
 }
@@ -882,34 +978,28 @@ export class NatRuleSourceTranslationDynamicIpOutputReference extends cdktf.Comp
     return this._translatedAddress;
   }
 }
-export interface NatRuleSourceTranslationDynamicIpAndPort {
+export interface NatRuleSourceTranslationDynamicIpAndPortInterfaceAddress {
   /**
   * Floating IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/nat_rule#floating_ip NatRule#floating_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/nat_rule#floating_ip NatRule#floating_ip}
   */
   readonly floatingIp?: string;
   /**
   * Interface name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/nat_rule#interface NatRule#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/nat_rule#interface NatRule#interface}
   */
   readonly interface?: string;
   /**
   * Translated source IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/nat_rule#ip NatRule#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/nat_rule#ip NatRule#ip}
   */
   readonly ip?: string;
-  /**
-  * Translated source IP addresses
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/nat_rule#translated_address NatRule#translated_address}
-  */
-  readonly translatedAddress?: string[];
 }
 
-export function natRuleSourceTranslationDynamicIpAndPortToTerraform(struct?: NatRuleSourceTranslationDynamicIpAndPort | cdktf.IResolvable): any {
+export function natRuleSourceTranslationDynamicIpAndPortInterfaceAddressToTerraform(struct?: NatRuleSourceTranslationDynamicIpAndPortInterfaceAddress | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -918,12 +1008,11 @@ export function natRuleSourceTranslationDynamicIpAndPortToTerraform(struct?: Nat
     floating_ip: cdktf.stringToTerraform(struct!.floatingIp),
     interface: cdktf.stringToTerraform(struct!.interface),
     ip: cdktf.stringToTerraform(struct!.ip),
-    translated_address: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.translatedAddress),
   }
 }
 
 
-export function natRuleSourceTranslationDynamicIpAndPortToHclTerraform(struct?: NatRuleSourceTranslationDynamicIpAndPort | cdktf.IResolvable): any {
+export function natRuleSourceTranslationDynamicIpAndPortInterfaceAddressToHclTerraform(struct?: NatRuleSourceTranslationDynamicIpAndPortInterfaceAddress | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -947,19 +1036,13 @@ export function natRuleSourceTranslationDynamicIpAndPortToHclTerraform(struct?: 
       type: "simple",
       storageClassType: "string",
     },
-    translated_address: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.translatedAddress),
-      isBlock: false,
-      type: "list",
-      storageClassType: "stringList",
-    },
   };
 
   // remove undefined attributes
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class NatRuleSourceTranslationDynamicIpAndPortOutputReference extends cdktf.ComplexObject {
+export class NatRuleSourceTranslationDynamicIpAndPortInterfaceAddressOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
   private resolvableValue?: cdktf.IResolvable;
 
@@ -971,7 +1054,7 @@ export class NatRuleSourceTranslationDynamicIpAndPortOutputReference extends cdk
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): NatRuleSourceTranslationDynamicIpAndPort | cdktf.IResolvable | undefined {
+  public get internalValue(): NatRuleSourceTranslationDynamicIpAndPortInterfaceAddress | cdktf.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -989,21 +1072,16 @@ export class NatRuleSourceTranslationDynamicIpAndPortOutputReference extends cdk
       hasAnyValues = true;
       internalValueResult.ip = this._ip;
     }
-    if (this._translatedAddress !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.translatedAddress = this._translatedAddress;
-    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: NatRuleSourceTranslationDynamicIpAndPort | cdktf.IResolvable | undefined) {
+  public set internalValue(value: NatRuleSourceTranslationDynamicIpAndPortInterfaceAddress | cdktf.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._floatingIp = undefined;
       this._interface = undefined;
       this._ip = undefined;
-      this._translatedAddress = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -1015,7 +1093,6 @@ export class NatRuleSourceTranslationDynamicIpAndPortOutputReference extends cdk
       this._floatingIp = value.floatingIp;
       this._interface = value.interface;
       this._ip = value.ip;
-      this._translatedAddress = value.translatedAddress;
     }
   }
 
@@ -1066,6 +1143,121 @@ export class NatRuleSourceTranslationDynamicIpAndPortOutputReference extends cdk
   public get ipInput() {
     return this._ip;
   }
+}
+export interface NatRuleSourceTranslationDynamicIpAndPort {
+  /**
+  * Translated source interface
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/nat_rule#interface_address NatRule#interface_address}
+  */
+  readonly interfaceAddress?: NatRuleSourceTranslationDynamicIpAndPortInterfaceAddress;
+  /**
+  * Translated source IP addresses
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/nat_rule#translated_address NatRule#translated_address}
+  */
+  readonly translatedAddress?: string[];
+}
+
+export function natRuleSourceTranslationDynamicIpAndPortToTerraform(struct?: NatRuleSourceTranslationDynamicIpAndPort | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    interface_address: natRuleSourceTranslationDynamicIpAndPortInterfaceAddressToTerraform(struct!.interfaceAddress),
+    translated_address: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.translatedAddress),
+  }
+}
+
+
+export function natRuleSourceTranslationDynamicIpAndPortToHclTerraform(struct?: NatRuleSourceTranslationDynamicIpAndPort | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    interface_address: {
+      value: natRuleSourceTranslationDynamicIpAndPortInterfaceAddressToHclTerraform(struct!.interfaceAddress),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "NatRuleSourceTranslationDynamicIpAndPortInterfaceAddress",
+    },
+    translated_address: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.translatedAddress),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class NatRuleSourceTranslationDynamicIpAndPortOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): NatRuleSourceTranslationDynamicIpAndPort | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._interfaceAddress?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.interfaceAddress = this._interfaceAddress?.internalValue;
+    }
+    if (this._translatedAddress !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.translatedAddress = this._translatedAddress;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: NatRuleSourceTranslationDynamicIpAndPort | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._interfaceAddress.internalValue = undefined;
+      this._translatedAddress = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._interfaceAddress.internalValue = value.interfaceAddress;
+      this._translatedAddress = value.translatedAddress;
+    }
+  }
+
+  // interface_address - computed: false, optional: true, required: false
+  private _interfaceAddress = new NatRuleSourceTranslationDynamicIpAndPortInterfaceAddressOutputReference(this, "interface_address");
+  public get interfaceAddress() {
+    return this._interfaceAddress;
+  }
+  public putInterfaceAddress(value: NatRuleSourceTranslationDynamicIpAndPortInterfaceAddress) {
+    this._interfaceAddress.internalValue = value;
+  }
+  public resetInterfaceAddress() {
+    this._interfaceAddress.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get interfaceAddressInput() {
+    return this._interfaceAddress.internalValue;
+  }
 
   // translated_address - computed: false, optional: true, required: false
   private _translatedAddress?: string[]; 
@@ -1087,13 +1279,13 @@ export interface NatRuleSourceTranslationStaticIp {
   /**
   * Bi directional
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/nat_rule#bi_directional NatRule#bi_directional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/nat_rule#bi_directional NatRule#bi_directional}
   */
   readonly biDirectional?: string;
   /**
   * Translated IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/nat_rule#translated_address NatRule#translated_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/nat_rule#translated_address NatRule#translated_address}
   */
   readonly translatedAddress?: string;
 }
@@ -1218,19 +1410,19 @@ export interface NatRuleSourceTranslation {
   /**
   * Dynamic IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/nat_rule#dynamic_ip NatRule#dynamic_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/nat_rule#dynamic_ip NatRule#dynamic_ip}
   */
   readonly dynamicIp?: NatRuleSourceTranslationDynamicIp;
   /**
   * Dynamic IP and port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/nat_rule#dynamic_ip_and_port NatRule#dynamic_ip_and_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/nat_rule#dynamic_ip_and_port NatRule#dynamic_ip_and_port}
   */
   readonly dynamicIpAndPort?: NatRuleSourceTranslationDynamicIpAndPort;
   /**
   * Static IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/nat_rule#static_ip NatRule#static_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/nat_rule#static_ip NatRule#static_ip}
   */
   readonly staticIp?: NatRuleSourceTranslationStaticIp;
 }
@@ -1382,7 +1574,7 @@ export class NatRuleSourceTranslationOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/nat_rule scm_nat_rule}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/nat_rule scm_nat_rule}
 */
 export class NatRule extends cdktf.TerraformResource {
 
@@ -1398,7 +1590,7 @@ export class NatRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NatRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NatRule to import
-  * @param importFromId The id of the existing NatRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/nat_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NatRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/nat_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NatRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1410,7 +1602,7 @@ export class NatRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/nat_rule scm_nat_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/nat_rule scm_nat_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1421,7 +1613,8 @@ export class NatRule extends cdktf.TerraformResource {
       terraformResourceType: 'scm_nat_rule',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.3'
+        providerVersion: '1.0.4',
+        providerVersionConstraint: '1.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

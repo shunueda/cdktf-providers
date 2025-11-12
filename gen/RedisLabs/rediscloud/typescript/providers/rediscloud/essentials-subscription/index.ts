@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/essentials_subscription
+// https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/essentials_subscription
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface EssentialsSubscriptionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/essentials_subscription#id EssentialsSubscription#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/essentials_subscription#id EssentialsSubscription#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,49 +17,49 @@ export interface EssentialsSubscriptionConfig extends cdktf.TerraformMetaArgumen
   /**
   * A meaningful name to identify the subscription
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/essentials_subscription#name EssentialsSubscription#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/essentials_subscription#name EssentialsSubscription#name}
   */
   readonly name: string;
   /**
   * Payment method for the requested subscription. If credit-card is specified, the payment method id must be defined. This information is only used when creating a new subscription and any changes will be ignored after this.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/essentials_subscription#payment_method EssentialsSubscription#payment_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/essentials_subscription#payment_method EssentialsSubscription#payment_method}
   */
   readonly paymentMethod?: string;
   /**
   * The identifier of the method which will be charged for this subscription. Not required for free plans
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/essentials_subscription#payment_method_id EssentialsSubscription#payment_method_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/essentials_subscription#payment_method_id EssentialsSubscription#payment_method_id}
   */
   readonly paymentMethodId?: number;
   /**
   * The identifier of the plan to template the subscription
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/essentials_subscription#plan_id EssentialsSubscription#plan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/essentials_subscription#plan_id EssentialsSubscription#plan_id}
   */
   readonly planId: number;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/essentials_subscription#timeouts EssentialsSubscription#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/essentials_subscription#timeouts EssentialsSubscription#timeouts}
   */
   readonly timeouts?: EssentialsSubscriptionTimeouts;
 }
 export interface EssentialsSubscriptionTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/essentials_subscription#create EssentialsSubscription#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/essentials_subscription#create EssentialsSubscription#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/essentials_subscription#delete EssentialsSubscription#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/essentials_subscription#delete EssentialsSubscription#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/essentials_subscription#read EssentialsSubscription#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/essentials_subscription#read EssentialsSubscription#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/essentials_subscription#update EssentialsSubscription#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/essentials_subscription#update EssentialsSubscription#update}
   */
   readonly update?: string;
 }
@@ -240,7 +240,7 @@ export class EssentialsSubscriptionTimeoutsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/essentials_subscription rediscloud_essentials_subscription}
+* Represents a {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/essentials_subscription rediscloud_essentials_subscription}
 */
 export class EssentialsSubscription extends cdktf.TerraformResource {
 
@@ -256,7 +256,7 @@ export class EssentialsSubscription extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EssentialsSubscription resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EssentialsSubscription to import
-  * @param importFromId The id of the existing EssentialsSubscription that should be imported. Refer to the {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/essentials_subscription#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EssentialsSubscription that should be imported. Refer to the {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/essentials_subscription#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EssentialsSubscription to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -268,7 +268,7 @@ export class EssentialsSubscription extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/essentials_subscription rediscloud_essentials_subscription} Resource
+  * Create a new {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/essentials_subscription rediscloud_essentials_subscription} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -279,7 +279,8 @@ export class EssentialsSubscription extends cdktf.TerraformResource {
       terraformResourceType: 'rediscloud_essentials_subscription',
       terraformGeneratorMetadata: {
         providerName: 'rediscloud',
-        providerVersion: '2.7.3'
+        providerVersion: '2.8.0',
+        providerVersionConstraint: '2.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

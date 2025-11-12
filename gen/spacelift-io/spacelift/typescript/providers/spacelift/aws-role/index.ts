@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/aws_role
+// https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/aws_role
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface AwsRoleConfig extends cdktf.TerraformMetaArguments {
   /**
   * AWS IAM role session duration in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/aws_role#duration_seconds AwsRole#duration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/aws_role#duration_seconds AwsRole#duration_seconds}
   */
   readonly durationSeconds?: number;
   /**
   * Custom external ID (works only for private workers).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/aws_role#external_id AwsRole#external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/aws_role#external_id AwsRole#external_id}
   */
   readonly externalId?: string;
   /**
   * Generate AWS credentials in the private worker. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/aws_role#generate_credentials_in_worker AwsRole#generate_credentials_in_worker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/aws_role#generate_credentials_in_worker AwsRole#generate_credentials_in_worker}
   */
   readonly generateCredentialsInWorker?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/aws_role#id AwsRole#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/aws_role#id AwsRole#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,31 +35,31 @@ export interface AwsRoleConfig extends cdktf.TerraformMetaArguments {
   /**
   * ID of the module which assumes the AWS IAM role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/aws_role#module_id AwsRole#module_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/aws_role#module_id AwsRole#module_id}
   */
   readonly moduleId?: string;
   /**
   * AWS region to select a regional AWS STS endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/aws_role#region AwsRole#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/aws_role#region AwsRole#region}
   */
   readonly region?: string;
   /**
   * ARN of the AWS IAM role to attach
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/aws_role#role_arn AwsRole#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/aws_role#role_arn AwsRole#role_arn}
   */
   readonly roleArn: string;
   /**
   * ID of the stack which assumes the AWS IAM role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/aws_role#stack_id AwsRole#stack_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/aws_role#stack_id AwsRole#stack_id}
   */
   readonly stackId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/aws_role spacelift_aws_role}
+* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/aws_role spacelift_aws_role}
 */
 export class AwsRole extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class AwsRole extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AwsRole resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AwsRole to import
-  * @param importFromId The id of the existing AwsRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/aws_role#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AwsRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/aws_role#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AwsRole to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class AwsRole extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/aws_role spacelift_aws_role} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/aws_role spacelift_aws_role} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,7 +98,8 @@ export class AwsRole extends cdktf.TerraformResource {
       terraformResourceType: 'spacelift_aws_role',
       terraformGeneratorMetadata: {
         providerName: 'spacelift',
-        providerVersion: '1.36.0'
+        providerVersion: '1.37.0',
+        providerVersionConstraint: '1.37.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

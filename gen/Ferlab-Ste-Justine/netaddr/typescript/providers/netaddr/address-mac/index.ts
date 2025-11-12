@@ -74,7 +74,8 @@ export class AddressMac extends cdktf.TerraformResource {
       terraformResourceType: 'netaddr_address_mac',
       terraformGeneratorMetadata: {
         providerName: 'netaddr',
-        providerVersion: '0.5.1'
+        providerVersion: '0.5.1',
+        providerVersionConstraint: '0.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

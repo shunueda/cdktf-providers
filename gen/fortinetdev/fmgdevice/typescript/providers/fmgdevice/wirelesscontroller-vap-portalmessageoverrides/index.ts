@@ -84,7 +84,8 @@ export class WirelesscontrollerVapPortalmessageoverrides extends cdktf.Terraform
       terraformResourceType: 'fmgdevice_wirelesscontroller_vap_portalmessageoverrides',
       terraformGeneratorMetadata: {
         providerName: 'fmgdevice',
-        providerVersion: '1.2.1'
+        providerVersion: '1.2.1',
+        providerVersionConstraint: '1.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

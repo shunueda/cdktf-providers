@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/nodebalancer_vpcs
+// https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/nodebalancer_vpcs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataLinodeNodebalancerVpcsAConfig extends cdktf.TerraformMetaAr
   /**
   * The ID of the NodeBalancer to list VPC configurations for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/nodebalancer_vpcs#nodebalancer_id DataLinodeNodebalancerVpcsA#nodebalancer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/nodebalancer_vpcs#nodebalancer_id DataLinodeNodebalancerVpcsA#nodebalancer_id}
   */
   readonly nodebalancerId: number;
   /**
   * The order in which results should be returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/nodebalancer_vpcs#order DataLinodeNodebalancerVpcsA#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/nodebalancer_vpcs#order DataLinodeNodebalancerVpcsA#order}
   */
   readonly order?: string;
   /**
   * The attribute to order the results by.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/nodebalancer_vpcs#order_by DataLinodeNodebalancerVpcsA#order_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/nodebalancer_vpcs#order_by DataLinodeNodebalancerVpcsA#order_by}
   */
   readonly orderBy?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/nodebalancer_vpcs#filter DataLinodeNodebalancerVpcsA#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/nodebalancer_vpcs#filter DataLinodeNodebalancerVpcsA#filter}
   */
   readonly filter?: DataLinodeNodebalancerVpcsFilter[] | cdktf.IResolvable;
 }
@@ -36,7 +36,7 @@ export interface DataLinodeNodebalancerVpcsVpcConfigs {
   /**
   * The ID of the NodeBalancer-VPC configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/nodebalancer_vpcs#id DataLinodeNodebalancerVpcsA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/nodebalancer_vpcs#id DataLinodeNodebalancerVpcsA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -45,7 +45,7 @@ export interface DataLinodeNodebalancerVpcsVpcConfigs {
   /**
   * The ID of the NodeBalancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/nodebalancer_vpcs#nodebalancer_id DataLinodeNodebalancerVpcsA#nodebalancer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/nodebalancer_vpcs#nodebalancer_id DataLinodeNodebalancerVpcsA#nodebalancer_id}
   */
   readonly nodebalancerId: number;
 }
@@ -191,19 +191,19 @@ export interface DataLinodeNodebalancerVpcsFilter {
   /**
   * The type of comparison to use for this filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/nodebalancer_vpcs#match_by DataLinodeNodebalancerVpcsA#match_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/nodebalancer_vpcs#match_by DataLinodeNodebalancerVpcsA#match_by}
   */
   readonly matchBy?: string;
   /**
   * The name of the attribute to filter on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/nodebalancer_vpcs#name DataLinodeNodebalancerVpcsA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/nodebalancer_vpcs#name DataLinodeNodebalancerVpcsA#name}
   */
   readonly name: string;
   /**
   * The value(s) to be used in the filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/nodebalancer_vpcs#values DataLinodeNodebalancerVpcsA#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/nodebalancer_vpcs#values DataLinodeNodebalancerVpcsA#values}
   */
   readonly values: string[];
 }
@@ -371,7 +371,7 @@ export class DataLinodeNodebalancerVpcsFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/nodebalancer_vpcs linode_nodebalancer_vpcs}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/nodebalancer_vpcs linode_nodebalancer_vpcs}
 */
 export class DataLinodeNodebalancerVpcsA extends cdktf.TerraformDataSource {
 
@@ -387,7 +387,7 @@ export class DataLinodeNodebalancerVpcsA extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataLinodeNodebalancerVpcsA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataLinodeNodebalancerVpcsA to import
-  * @param importFromId The id of the existing DataLinodeNodebalancerVpcsA that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/nodebalancer_vpcs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataLinodeNodebalancerVpcsA that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/nodebalancer_vpcs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataLinodeNodebalancerVpcsA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -399,7 +399,7 @@ export class DataLinodeNodebalancerVpcsA extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/nodebalancer_vpcs linode_nodebalancer_vpcs} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/nodebalancer_vpcs linode_nodebalancer_vpcs} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -410,7 +410,8 @@ export class DataLinodeNodebalancerVpcsA extends cdktf.TerraformDataSource {
       terraformResourceType: 'linode_nodebalancer_vpcs',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.5.0'
+        providerVersion: '3.5.1',
+        providerVersionConstraint: '3.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

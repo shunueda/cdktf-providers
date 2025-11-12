@@ -183,7 +183,8 @@ export class VpcIpv6SubnetCidrBlock extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_vpc_ipv6_subnet_cidr_block',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

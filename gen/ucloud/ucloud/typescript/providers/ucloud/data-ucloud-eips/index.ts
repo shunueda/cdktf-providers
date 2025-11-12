@@ -269,7 +269,8 @@ export class DataUcloudEips extends cdktf.TerraformDataSource {
       terraformResourceType: 'ucloud_eips',
       terraformGeneratorMetadata: {
         providerName: 'ucloud',
-        providerVersion: '1.39.1'
+        providerVersion: '1.39.1',
+        providerVersionConstraint: '1.39.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

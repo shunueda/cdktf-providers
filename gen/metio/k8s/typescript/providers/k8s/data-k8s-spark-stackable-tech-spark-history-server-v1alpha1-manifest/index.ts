@@ -6473,7 +6473,8 @@ export class DataK8SSparkStackableTechSparkHistoryServerV1Alpha1Manifest extends
       terraformResourceType: 'k8s_spark_stackable_tech_spark_history_server_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

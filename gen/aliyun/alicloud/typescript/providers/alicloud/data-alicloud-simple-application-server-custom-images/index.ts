@@ -163,7 +163,8 @@ export class DataAlicloudSimpleApplicationServerCustomImages extends cdktf.Terra
       terraformResourceType: 'alicloud_simple_application_server_custom_images',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

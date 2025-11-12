@@ -55,7 +55,8 @@ export class AnsibleProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'ansible',
       terraformGeneratorMetadata: {
         providerName: 'ansible',
-        providerVersion: '2.0.4'
+        providerVersion: '2.0.4',
+        providerVersionConstraint: '2.0.4'
       },
       terraformProviderSource: 'NefixEstrada/ansible'
     });

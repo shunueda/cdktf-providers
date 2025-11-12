@@ -56,7 +56,8 @@ export class DataAkamaiIamSupportedLangs extends cdktf.TerraformDataSource {
       terraformResourceType: 'akamai_iam_supported_langs',
       terraformGeneratorMetadata: {
         providerName: 'akamai',
-        providerVersion: '9.1.0'
+        providerVersion: '9.1.0',
+        providerVersionConstraint: '9.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

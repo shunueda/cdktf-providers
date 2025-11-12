@@ -9162,7 +9162,8 @@ export class DataIntersightHciNode extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_hci_node',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

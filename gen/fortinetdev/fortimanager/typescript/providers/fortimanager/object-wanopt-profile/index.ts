@@ -1817,7 +1817,8 @@ export class ObjectWanoptProfile extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_wanopt_profile',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0'
+        providerVersion: '1.14.0',
+        providerVersionConstraint: '1.14.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

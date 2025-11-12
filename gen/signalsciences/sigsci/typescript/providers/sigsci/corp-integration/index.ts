@@ -74,7 +74,8 @@ export class CorpIntegration extends cdktf.TerraformResource {
       terraformResourceType: 'sigsci_corp_integration',
       terraformGeneratorMetadata: {
         providerName: 'sigsci',
-        providerVersion: '3.7.1'
+        providerVersion: '3.7.1',
+        providerVersionConstraint: '3.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

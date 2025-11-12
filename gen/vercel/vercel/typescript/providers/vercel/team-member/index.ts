@@ -232,7 +232,8 @@ export class TeamMember extends cdktf.TerraformResource {
       terraformResourceType: 'vercel_team_member',
       terraformGeneratorMetadata: {
         providerName: 'vercel',
-        providerVersion: '4.0.0'
+        providerVersion: '4.0.0',
+        providerVersionConstraint: '4.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

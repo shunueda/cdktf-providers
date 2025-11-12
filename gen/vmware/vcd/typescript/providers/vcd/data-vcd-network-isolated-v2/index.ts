@@ -462,7 +462,8 @@ export class DataVcdNetworkIsolatedV2 extends cdktf.TerraformDataSource {
       terraformResourceType: 'vcd_network_isolated_v2',
       terraformGeneratorMetadata: {
         providerName: 'vcd',
-        providerVersion: '3.14.1'
+        providerVersion: '3.14.1',
+        providerVersionConstraint: '3.14.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -355,7 +355,8 @@ export class DataTencentcloudDbbrainTopSpaceTableTimeSeries extends cdktf.Terraf
       terraformResourceType: 'tencentcloud_dbbrain_top_space_table_time_series',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

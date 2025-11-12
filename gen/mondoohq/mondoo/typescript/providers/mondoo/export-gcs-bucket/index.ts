@@ -172,7 +172,8 @@ export class ExportGcsBucket extends cdktf.TerraformResource {
       terraformResourceType: 'mondoo_export_gcs_bucket',
       terraformGeneratorMetadata: {
         providerName: 'mondoo',
-        providerVersion: '0.34.0'
+        providerVersion: '0.34.0',
+        providerVersionConstraint: '0.34.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

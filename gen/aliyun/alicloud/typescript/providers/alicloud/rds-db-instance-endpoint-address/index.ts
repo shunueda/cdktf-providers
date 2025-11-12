@@ -238,7 +238,8 @@ export class RdsDbInstanceEndpointAddress extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_rds_db_instance_endpoint_address',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

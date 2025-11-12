@@ -49,7 +49,8 @@ export class DataCitrixQuickcreateAwsWorkspacesCloudformationTemplate extends cd
       terraformResourceType: 'citrix_quickcreate_aws_workspaces_cloudformation_template',
       terraformGeneratorMetadata: {
         providerName: 'citrix',
-        providerVersion: '1.0.30'
+        providerVersion: '1.0.30',
+        providerVersionConstraint: '1.0.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

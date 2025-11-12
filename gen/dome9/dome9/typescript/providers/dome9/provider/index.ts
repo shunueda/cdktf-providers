@@ -73,7 +73,8 @@ export class Dome9Provider extends cdktf.TerraformProvider {
       terraformResourceType: 'dome9',
       terraformGeneratorMetadata: {
         providerName: 'dome9',
-        providerVersion: '1.40.4'
+        providerVersion: '1.40.4',
+        providerVersionConstraint: '1.40.4'
       },
       terraformProviderSource: 'dome9/dome9'
     });

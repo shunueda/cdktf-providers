@@ -91,7 +91,8 @@ export class ObservabilityProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'observability',
       terraformGeneratorMetadata: {
         providerName: 'observability',
-        providerVersion: '0.0.2'
+        providerVersion: '0.0.2',
+        providerVersionConstraint: '0.0.2'
       },
       terraformProviderSource: 'cisco-open/observability'
     });

@@ -211,7 +211,8 @@ export class DataDome9Iplist extends cdktf.TerraformDataSource {
       terraformResourceType: 'dome9_iplist',
       terraformGeneratorMetadata: {
         providerName: 'dome9',
-        providerVersion: '1.40.4'
+        providerVersion: '1.40.4',
+        providerVersionConstraint: '1.40.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

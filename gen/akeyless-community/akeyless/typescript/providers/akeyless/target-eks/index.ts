@@ -116,7 +116,8 @@ export class TargetEks extends cdktf.TerraformResource {
       terraformResourceType: 'akeyless_target_eks',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1'
+        providerVersion: '1.11.1',
+        providerVersionConstraint: '1.11.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

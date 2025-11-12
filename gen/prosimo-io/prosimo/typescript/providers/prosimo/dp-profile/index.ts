@@ -791,7 +791,8 @@ export class DpProfile extends cdktf.TerraformResource {
       terraformResourceType: 'prosimo_dp_profile',
       terraformGeneratorMetadata: {
         providerName: 'prosimo',
-        providerVersion: '4.5.3'
+        providerVersion: '4.5.3',
+        providerVersionConstraint: '4.5.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

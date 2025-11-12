@@ -8261,7 +8261,8 @@ export class DataK8SWildflyOrgWildFlyServerV1Alpha1Manifest extends cdktf.Terraf
       terraformResourceType: 'k8s_wildfly_org_wild_fly_server_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

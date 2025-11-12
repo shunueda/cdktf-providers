@@ -1010,7 +1010,8 @@ export class DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotContentV1Alpha1M
       terraformResourceType: 'k8s_groupsnapshot_storage_k8s_io_volume_group_snapshot_content_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

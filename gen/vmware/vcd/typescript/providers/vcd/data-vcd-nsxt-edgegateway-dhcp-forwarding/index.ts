@@ -68,7 +68,8 @@ export class DataVcdNsxtEdgegatewayDhcpForwarding extends cdktf.TerraformDataSou
       terraformResourceType: 'vcd_nsxt_edgegateway_dhcp_forwarding',
       terraformGeneratorMetadata: {
         providerName: 'vcd',
-        providerVersion: '3.14.1'
+        providerVersion: '3.14.1',
+        providerVersionConstraint: '3.14.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

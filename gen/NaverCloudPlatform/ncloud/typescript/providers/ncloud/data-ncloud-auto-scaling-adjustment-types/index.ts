@@ -318,7 +318,8 @@ export class DataNcloudAutoScalingAdjustmentTypes extends cdktf.TerraformDataSou
       terraformResourceType: 'ncloud_auto_scaling_adjustment_types',
       terraformGeneratorMetadata: {
         providerName: 'ncloud',
-        providerVersion: '4.0.4'
+        providerVersion: '4.0.4',
+        providerVersionConstraint: '4.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

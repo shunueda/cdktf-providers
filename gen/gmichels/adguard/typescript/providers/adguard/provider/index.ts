@@ -91,7 +91,8 @@ export class AdguardProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'adguard',
       terraformGeneratorMetadata: {
         providerName: 'adguard',
-        providerVersion: '1.6.2'
+        providerVersion: '1.6.2',
+        providerVersionConstraint: '1.6.2'
       },
       terraformProviderSource: 'gmichels/adguard'
     });

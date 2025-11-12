@@ -62,7 +62,8 @@ export class DataGenesyscloudOutboundMessagingcampaign extends cdktf.TerraformDa
       terraformResourceType: 'genesyscloud_outbound_messagingcampaign',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.70.0'
+        providerVersion: '1.70.0',
+        providerVersionConstraint: '1.70.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -63,7 +63,8 @@ export class DataFortisaseUsageSecurityDlpExactDataMatches extends cdktf.Terrafo
       terraformResourceType: 'fortisase_usage_security_dlp_exact_data_matches',
       terraformGeneratorMetadata: {
         providerName: 'fortisase',
-        providerVersion: '1.0.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

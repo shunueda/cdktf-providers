@@ -68,7 +68,8 @@ export class DataOciComputeinstanceagentInstanceAgentPlugin extends cdktf.Terraf
       terraformResourceType: 'oci_computeinstanceagent_instance_agent_plugin',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

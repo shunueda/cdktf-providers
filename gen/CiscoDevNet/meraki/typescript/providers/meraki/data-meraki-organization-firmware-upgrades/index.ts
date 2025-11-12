@@ -220,7 +220,8 @@ export class DataMerakiOrganizationFirmwareUpgrades extends cdktf.TerraformDataS
       terraformResourceType: 'meraki_organization_firmware_upgrades',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1'
+        providerVersion: '1.7.1',
+        providerVersionConstraint: '1.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

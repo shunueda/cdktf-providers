@@ -440,7 +440,8 @@ export class EniIpv4Address extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_eni_ipv4_address',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

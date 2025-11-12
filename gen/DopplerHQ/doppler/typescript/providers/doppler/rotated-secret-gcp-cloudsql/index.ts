@@ -274,7 +274,8 @@ export class RotatedSecretGcpCloudsql extends cdktf.TerraformResource {
       terraformResourceType: 'doppler_rotated_secret_gcp_cloudsql',
       terraformGeneratorMetadata: {
         providerName: 'doppler',
-        providerVersion: '1.21.0'
+        providerVersion: '1.21.0',
+        providerVersionConstraint: '1.21.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

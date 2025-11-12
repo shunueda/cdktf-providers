@@ -683,7 +683,8 @@ export class DataDnacenterLicenseDeviceLicenseDetails extends cdktf.TerraformDat
       terraformResourceType: 'dnacenter_license_device_license_details',
       terraformGeneratorMetadata: {
         providerName: 'dnacenter',
-        providerVersion: '1.1.21'
+        providerVersion: '1.1.21',
+        providerVersionConstraint: '1.1.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

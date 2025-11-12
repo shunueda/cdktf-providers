@@ -73,7 +73,8 @@ export class ApplicationFlowPolicyAssignment extends cdktf.TerraformResource {
       terraformResourceType: 'pingone_application_flow_policy_assignment',
       terraformGeneratorMetadata: {
         providerName: 'pingone',
-        providerVersion: '1.14.0'
+        providerVersion: '1.14.0',
+        providerVersionConstraint: '1.14.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

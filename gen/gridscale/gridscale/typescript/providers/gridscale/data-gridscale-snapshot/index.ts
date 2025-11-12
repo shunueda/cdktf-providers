@@ -68,7 +68,8 @@ export class DataGridscaleSnapshot extends cdktf.TerraformDataSource {
       terraformResourceType: 'gridscale_snapshot',
       terraformGeneratorMetadata: {
         providerName: 'gridscale',
-        providerVersion: '2.2.3'
+        providerVersion: '2.2.3',
+        providerVersionConstraint: '2.2.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

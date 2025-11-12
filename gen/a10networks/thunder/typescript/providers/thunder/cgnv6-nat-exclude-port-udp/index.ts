@@ -221,7 +221,8 @@ export class Cgnv6NatExcludePortUdp extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_cgnv6_nat_exclude_port_udp',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -387,7 +387,8 @@ export class DataTencentcloudTseGatewayRoutes extends cdktf.TerraformDataSource 
       terraformResourceType: 'tencentcloud_tse_gateway_routes',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

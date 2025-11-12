@@ -56,7 +56,8 @@ export class DataEdgecenterUseractionsSubscriptionLog extends cdktf.TerraformDat
       terraformResourceType: 'edgecenter_useractions_subscription_log',
       terraformGeneratorMetadata: {
         providerName: 'edgecenter',
-        providerVersion: '0.10.4'
+        providerVersion: '0.10.4',
+        providerVersionConstraint: '0.10.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

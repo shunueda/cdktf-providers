@@ -298,7 +298,8 @@ export class DataSamsungcloudplatformLbServicesConnectableToAsg extends cdktf.Te
       terraformResourceType: 'samsungcloudplatform_lb_services_connectable_to_asg',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0'
+        providerVersion: '3.15.0',
+        providerVersionConstraint: '3.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

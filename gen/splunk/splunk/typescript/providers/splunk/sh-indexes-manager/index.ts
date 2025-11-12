@@ -523,7 +523,8 @@ export class ShIndexesManager extends cdktf.TerraformResource {
       terraformResourceType: 'splunk_sh_indexes_manager',
       terraformGeneratorMetadata: {
         providerName: 'splunk',
-        providerVersion: '1.4.32'
+        providerVersion: '1.4.32',
+        providerVersionConstraint: '1.4.32'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

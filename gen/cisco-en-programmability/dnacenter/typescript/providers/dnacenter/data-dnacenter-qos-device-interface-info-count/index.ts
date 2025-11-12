@@ -136,7 +136,8 @@ export class DataDnacenterQosDeviceInterfaceInfoCount extends cdktf.TerraformDat
       terraformResourceType: 'dnacenter_qos_device_interface_info_count',
       terraformGeneratorMetadata: {
         providerName: 'dnacenter',
-        providerVersion: '1.1.21'
+        providerVersion: '1.1.21',
+        providerVersionConstraint: '1.1.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

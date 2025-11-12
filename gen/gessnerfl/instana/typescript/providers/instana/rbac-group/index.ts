@@ -520,7 +520,8 @@ export class RbacGroup extends cdktf.TerraformResource {
       terraformResourceType: 'instana_rbac_group',
       terraformGeneratorMetadata: {
         providerName: 'instana',
-        providerVersion: '3.0.0'
+        providerVersion: '3.0.0',
+        providerVersionConstraint: '3.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

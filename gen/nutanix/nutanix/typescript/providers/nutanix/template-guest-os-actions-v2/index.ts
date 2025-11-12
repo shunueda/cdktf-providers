@@ -80,7 +80,8 @@ export class TemplateGuestOsActionsV2 extends cdktf.TerraformResource {
       terraformResourceType: 'nutanix_template_guest_os_actions_v2',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3'
+        providerVersion: '2.3.3',
+        providerVersionConstraint: '2.3.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

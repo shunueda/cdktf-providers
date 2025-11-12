@@ -186,7 +186,8 @@ export class DataAlicloudCenVbrHealthChecks extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_cen_vbr_health_checks',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

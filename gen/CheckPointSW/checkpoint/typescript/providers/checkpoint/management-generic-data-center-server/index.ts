@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_generic_data_center_server
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_generic_data_center_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface ManagementGenericDataCenterServerConfig extends cdktf.Terraform
   /**
   * Color of the object. Should be one of existing colors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_generic_data_center_server#color ManagementGenericDataCenterServer#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_generic_data_center_server#color ManagementGenericDataCenterServer#color}
   */
   readonly color?: string;
   /**
   * Comments string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_generic_data_center_server#comments ManagementGenericDataCenterServer#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_generic_data_center_server#comments ManagementGenericDataCenterServer#comments}
   */
   readonly comments?: string;
   /**
@@ -24,23 +24,23 @@ export interface ManagementGenericDataCenterServerConfig extends cdktf.Terraform
   * 
   * When set to true, The admin is using Key and Value for a Custom Header in order to connect to the feed server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_generic_data_center_server#custom_header ManagementGenericDataCenterServer#custom_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_generic_data_center_server#custom_header ManagementGenericDataCenterServer#custom_header}
   */
   readonly customHeader?: boolean | cdktf.IResolvable;
   /**
   * Key for the Custom Header, relevant and required only when custom_header set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_generic_data_center_server#custom_key ManagementGenericDataCenterServer#custom_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_generic_data_center_server#custom_key ManagementGenericDataCenterServer#custom_key}
   */
   readonly customKey?: string;
   /**
   * Value for the Custom Header, relevant and required only when custom_header set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_generic_data_center_server#custom_value ManagementGenericDataCenterServer#custom_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_generic_data_center_server#custom_value ManagementGenericDataCenterServer#custom_value}
   */
   readonly customValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_generic_data_center_server#id ManagementGenericDataCenterServer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_generic_data_center_server#id ManagementGenericDataCenterServer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -49,43 +49,43 @@ export interface ManagementGenericDataCenterServerConfig extends cdktf.Terraform
   /**
   * Apply changes ignoring errors. You won't be able to publish such a changes. If ignore-warnings flag was omitted - warnings will also be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_generic_data_center_server#ignore_errors ManagementGenericDataCenterServer#ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_generic_data_center_server#ignore_errors ManagementGenericDataCenterServer#ignore_errors}
   */
   readonly ignoreErrors?: boolean | cdktf.IResolvable;
   /**
   * Apply changes ignoring warnings. By Setting this parameter to 'true' test connection failure will be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_generic_data_center_server#ignore_warnings ManagementGenericDataCenterServer#ignore_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_generic_data_center_server#ignore_warnings ManagementGenericDataCenterServer#ignore_warnings}
   */
   readonly ignoreWarnings?: boolean | cdktf.IResolvable;
   /**
   * Update interval of the feed in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_generic_data_center_server#interval ManagementGenericDataCenterServer#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_generic_data_center_server#interval ManagementGenericDataCenterServer#interval}
   */
   readonly interval: string;
   /**
   * Object name. Must be unique in the domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_generic_data_center_server#name ManagementGenericDataCenterServer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_generic_data_center_server#name ManagementGenericDataCenterServer#name}
   */
   readonly name: string;
   /**
   * Collection of tag identifiers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_generic_data_center_server#tags ManagementGenericDataCenterServer#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_generic_data_center_server#tags ManagementGenericDataCenterServer#tags}
   */
   readonly tags?: string[];
   /**
   * URL of the JSON feed (e.g. https://example.com/file.json).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_generic_data_center_server#url ManagementGenericDataCenterServer#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_generic_data_center_server#url ManagementGenericDataCenterServer#url}
   */
   readonly url: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_generic_data_center_server checkpoint_management_generic_data_center_server}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_generic_data_center_server checkpoint_management_generic_data_center_server}
 */
 export class ManagementGenericDataCenterServer extends cdktf.TerraformResource {
 
@@ -101,7 +101,7 @@ export class ManagementGenericDataCenterServer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementGenericDataCenterServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementGenericDataCenterServer to import
-  * @param importFromId The id of the existing ManagementGenericDataCenterServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_generic_data_center_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementGenericDataCenterServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_generic_data_center_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementGenericDataCenterServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -113,7 +113,7 @@ export class ManagementGenericDataCenterServer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_generic_data_center_server checkpoint_management_generic_data_center_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_generic_data_center_server checkpoint_management_generic_data_center_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -124,7 +124,8 @@ export class ManagementGenericDataCenterServer extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_generic_data_center_server',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

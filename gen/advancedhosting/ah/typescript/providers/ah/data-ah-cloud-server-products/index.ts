@@ -56,7 +56,8 @@ export class DataAhCloudServerProducts extends cdktf.TerraformDataSource {
       terraformResourceType: 'ah_cloud_server_products',
       terraformGeneratorMetadata: {
         providerName: 'ah',
-        providerVersion: '0.3.6'
+        providerVersion: '0.3.6',
+        providerVersionConstraint: '0.3.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

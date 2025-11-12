@@ -4180,7 +4180,8 @@ export class DataIntersightStorageNetAppCloudTarget extends cdktf.TerraformDataS
       terraformResourceType: 'intersight_storage_net_app_cloud_target',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -827,7 +827,8 @@ export class LindormInstanceV2 extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_lindorm_instance_v2',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

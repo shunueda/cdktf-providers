@@ -299,7 +299,8 @@ export class GslbSystem extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_gslb_system',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -92,7 +92,8 @@ export class EntityGrant extends cdktf.TerraformResource {
       terraformResourceType: 'fusionauth_entity_grant',
       terraformGeneratorMetadata: {
         providerName: 'fusionauth',
-        providerVersion: '0.1.100'
+        providerVersion: '0.1.100',
+        providerVersionConstraint: '0.1.100'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

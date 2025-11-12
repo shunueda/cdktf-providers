@@ -849,7 +849,8 @@ export class DataOciApmTracesScheduledQueries extends cdktf.TerraformDataSource 
       terraformResourceType: 'oci_apm_traces_scheduled_queries',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

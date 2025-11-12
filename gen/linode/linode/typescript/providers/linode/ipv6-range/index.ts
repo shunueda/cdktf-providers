@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/ipv6_range
+// https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/ipv6_range
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface Ipv6RangeConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the Linode to assign this range to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/ipv6_range#linode_id Ipv6Range#linode_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/ipv6_range#linode_id Ipv6Range#linode_id}
   */
   readonly linodeId?: number;
   /**
   * The prefix length of the IPv6 range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/ipv6_range#prefix_length Ipv6Range#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/ipv6_range#prefix_length Ipv6Range#prefix_length}
   */
   readonly prefixLength: number;
   /**
   * The IPv6 SLAAC address to assign this range to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/ipv6_range#route_target Ipv6Range#route_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/ipv6_range#route_target Ipv6Range#route_target}
   */
   readonly routeTarget?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/ipv6_range linode_ipv6_range}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/ipv6_range linode_ipv6_range}
 */
 export class Ipv6Range extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class Ipv6Range extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Ipv6Range resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ipv6Range to import
-  * @param importFromId The id of the existing Ipv6Range that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/ipv6_range#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ipv6Range that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/ipv6_range#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ipv6Range to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class Ipv6Range extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/ipv6_range linode_ipv6_range} Resource
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/ipv6_range linode_ipv6_range} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,7 +67,8 @@ export class Ipv6Range extends cdktf.TerraformResource {
       terraformResourceType: 'linode_ipv6_range',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.5.0'
+        providerVersion: '3.5.1',
+        providerVersionConstraint: '3.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

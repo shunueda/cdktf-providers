@@ -1442,7 +1442,8 @@ export class DataK8SChartsHelmK8SIoSnykMonitorV1Alpha1Manifest extends cdktf.Ter
       terraformResourceType: 'k8s_charts_helm_k8s_io_snyk_monitor_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

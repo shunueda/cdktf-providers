@@ -84,7 +84,8 @@ export class IamServerCertificate extends cdktf.TerraformResource {
       terraformResourceType: 'aws_iam_server_certificate',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '3.29.6'
+        providerVersion: '3.29.6',
+        providerVersionConstraint: '3.29.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

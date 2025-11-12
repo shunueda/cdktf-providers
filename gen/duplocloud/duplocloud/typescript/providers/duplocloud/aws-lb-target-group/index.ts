@@ -642,7 +642,8 @@ export class AwsLbTargetGroup extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_aws_lb_target_group',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.28'
+        providerVersion: '0.11.28',
+        providerVersionConstraint: '0.11.28'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

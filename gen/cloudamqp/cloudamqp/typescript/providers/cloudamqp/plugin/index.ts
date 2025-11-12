@@ -86,7 +86,8 @@ export class Plugin extends cdktf.TerraformResource {
       terraformResourceType: 'cloudamqp_plugin',
       terraformGeneratorMetadata: {
         providerName: 'cloudamqp',
-        providerVersion: '1.38.1'
+        providerVersion: '1.38.1',
+        providerVersionConstraint: '1.38.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

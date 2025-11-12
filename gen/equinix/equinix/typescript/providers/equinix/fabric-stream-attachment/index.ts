@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_stream_attachment
+// https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_stream_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface FabricStreamAttachmentConfig extends cdktf.TerraformMetaArgumen
   /**
   * Equinix defined asset category. Matches the product name the asset is a part of
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_stream_attachment#asset FabricStreamAttachment#asset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_stream_attachment#asset FabricStreamAttachment#asset}
   */
   readonly asset: string;
   /**
   * Equinix defined UUID of the asset being attached to the stream
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_stream_attachment#asset_id FabricStreamAttachment#asset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_stream_attachment#asset_id FabricStreamAttachment#asset_id}
   */
   readonly assetId: string;
   /**
   * Boolean value indicating enablement of metrics for this asset stream attachment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_stream_attachment#metrics_enabled FabricStreamAttachment#metrics_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_stream_attachment#metrics_enabled FabricStreamAttachment#metrics_enabled}
   */
   readonly metricsEnabled?: boolean | cdktf.IResolvable;
   /**
   * UUID of the stream that is the target of this asset attachment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_stream_attachment#stream_id FabricStreamAttachment#stream_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_stream_attachment#stream_id FabricStreamAttachment#stream_id}
   */
   readonly streamId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_stream_attachment#timeouts FabricStreamAttachment#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_stream_attachment#timeouts FabricStreamAttachment#timeouts}
   */
   readonly timeouts?: FabricStreamAttachmentTimeouts;
 }
@@ -40,25 +40,25 @@ export interface FabricStreamAttachmentTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_stream_attachment#create FabricStreamAttachment#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_stream_attachment#create FabricStreamAttachment#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_stream_attachment#delete FabricStreamAttachment#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_stream_attachment#delete FabricStreamAttachment#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_stream_attachment#read FabricStreamAttachment#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_stream_attachment#read FabricStreamAttachment#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_stream_attachment#update FabricStreamAttachment#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_stream_attachment#update FabricStreamAttachment#update}
   */
   readonly update?: string;
 }
@@ -239,7 +239,7 @@ export class FabricStreamAttachmentTimeoutsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_stream_attachment equinix_fabric_stream_attachment}
+* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_stream_attachment equinix_fabric_stream_attachment}
 */
 export class FabricStreamAttachment extends cdktf.TerraformResource {
 
@@ -255,7 +255,7 @@ export class FabricStreamAttachment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FabricStreamAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FabricStreamAttachment to import
-  * @param importFromId The id of the existing FabricStreamAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_stream_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FabricStreamAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_stream_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FabricStreamAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -267,7 +267,7 @@ export class FabricStreamAttachment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_stream_attachment equinix_fabric_stream_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_stream_attachment equinix_fabric_stream_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -278,7 +278,8 @@ export class FabricStreamAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'equinix_fabric_stream_attachment',
       terraformGeneratorMetadata: {
         providerName: 'equinix',
-        providerVersion: '4.8.0'
+        providerVersion: '4.10.0',
+        providerVersionConstraint: '4.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

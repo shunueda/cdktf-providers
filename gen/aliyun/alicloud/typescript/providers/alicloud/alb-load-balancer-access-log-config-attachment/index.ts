@@ -201,7 +201,8 @@ export class AlbLoadBalancerAccessLogConfigAttachment extends cdktf.TerraformRes
       terraformResourceType: 'alicloud_alb_load_balancer_access_log_config_attachment',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

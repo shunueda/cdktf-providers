@@ -139,7 +139,8 @@ export class PagerdutyProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'pagerduty',
       terraformGeneratorMetadata: {
         providerName: 'pagerduty',
-        providerVersion: '4.1.2'
+        providerVersion: '4.1.2',
+        providerVersionConstraint: '4.1.2'
       },
       terraformProviderSource: 'nordcloud/pagerduty'
     });

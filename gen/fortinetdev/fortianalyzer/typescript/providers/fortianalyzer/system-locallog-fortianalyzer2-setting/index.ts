@@ -84,7 +84,8 @@ export class SystemLocallogFortianalyzer2Setting extends cdktf.TerraformResource
       terraformResourceType: 'fortianalyzer_system_locallog_fortianalyzer2_setting',
       terraformGeneratorMetadata: {
         providerName: 'fortianalyzer',
-        providerVersion: '1.5.1'
+        providerVersion: '1.5.1',
+        providerVersionConstraint: '1.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

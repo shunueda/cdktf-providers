@@ -70,7 +70,8 @@ export class DataIonoscloudMonitoringPipeline extends cdktf.TerraformDataSource 
       terraformResourceType: 'ionoscloud_monitoring_pipeline',
       terraformGeneratorMetadata: {
         providerName: 'ionoscloud',
-        providerVersion: '6.7.20'
+        providerVersion: '6.7.20',
+        providerVersionConstraint: '6.7.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

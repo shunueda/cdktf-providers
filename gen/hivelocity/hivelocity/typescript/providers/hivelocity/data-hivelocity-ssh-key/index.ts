@@ -209,7 +209,8 @@ export class DataHivelocitySshKey extends cdktf.TerraformDataSource {
       terraformResourceType: 'hivelocity_ssh_key',
       terraformGeneratorMetadata: {
         providerName: 'hivelocity',
-        providerVersion: '0.7.9'
+        providerVersion: '0.7.9',
+        providerVersionConstraint: '0.7.9'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

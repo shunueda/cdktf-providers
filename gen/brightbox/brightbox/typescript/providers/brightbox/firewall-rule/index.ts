@@ -237,7 +237,8 @@ export class FirewallRule extends cdktf.TerraformResource {
       terraformResourceType: 'brightbox_firewall_rule',
       terraformGeneratorMetadata: {
         providerName: 'brightbox',
-        providerVersion: '3.4.3'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

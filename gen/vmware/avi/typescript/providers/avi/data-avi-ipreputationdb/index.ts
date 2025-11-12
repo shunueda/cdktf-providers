@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/ipreputationdb
+// https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/ipreputationdb
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,22 +8,22 @@ import * as cdktf from 'cdktf';
 
 export interface DataAviIpreputationdbConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/ipreputationdb#id DataAviIpreputationdb#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/ipreputationdb#id DataAviIpreputationdb#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/ipreputationdb#name DataAviIpreputationdb#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/ipreputationdb#name DataAviIpreputationdb#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/ipreputationdb#tenant_ref DataAviIpreputationdb#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/ipreputationdb#tenant_ref DataAviIpreputationdb#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/ipreputationdb#uuid DataAviIpreputationdb#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/ipreputationdb#uuid DataAviIpreputationdb#uuid}
   */
   readonly uuid?: string;
 }
@@ -345,7 +345,7 @@ export class DataAviIpreputationdbServiceStatusList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/ipreputationdb avi_ipreputationdb}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/ipreputationdb avi_ipreputationdb}
 */
 export class DataAviIpreputationdb extends cdktf.TerraformDataSource {
 
@@ -361,7 +361,7 @@ export class DataAviIpreputationdb extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAviIpreputationdb resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAviIpreputationdb to import
-  * @param importFromId The id of the existing DataAviIpreputationdb that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/ipreputationdb#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAviIpreputationdb that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/ipreputationdb#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAviIpreputationdb to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -373,7 +373,7 @@ export class DataAviIpreputationdb extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/ipreputationdb avi_ipreputationdb} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/ipreputationdb avi_ipreputationdb} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -384,7 +384,8 @@ export class DataAviIpreputationdb extends cdktf.TerraformDataSource {
       terraformResourceType: 'avi_ipreputationdb',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '31.1.1'
+        providerVersion: '30.2.5',
+        providerVersionConstraint: '30.2.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -407,11 +408,6 @@ export class DataAviIpreputationdb extends cdktf.TerraformDataSource {
   // base_file_refs - computed: true, optional: false, required: false
   public get baseFileRefs() {
     return this.getListAttribute('base_file_refs');
-  }
-
-  // base_file_v6_refs - computed: true, optional: false, required: false
-  public get baseFileV6Refs() {
-    return this.getListAttribute('base_file_v6_refs');
   }
 
   // configpb_attributes - computed: true, optional: false, required: false
@@ -444,11 +440,6 @@ export class DataAviIpreputationdb extends cdktf.TerraformDataSource {
   // incremental_file_refs - computed: true, optional: false, required: false
   public get incrementalFileRefs() {
     return this.getListAttribute('incremental_file_refs');
-  }
-
-  // incremental_file_v6_refs - computed: true, optional: false, required: false
-  public get incrementalFileV6Refs() {
-    return this.getListAttribute('incremental_file_v6_refs');
   }
 
   // markers - computed: true, optional: false, required: false
@@ -509,11 +500,6 @@ export class DataAviIpreputationdb extends cdktf.TerraformDataSource {
   // Temporarily expose input value. Use with caution.
   public get uuidInput() {
     return this._uuid;
-  }
-
-  // v6_version - computed: true, optional: false, required: false
-  public get v6Version() {
-    return this.getStringAttribute('v6_version');
   }
 
   // vendor - computed: true, optional: false, required: false

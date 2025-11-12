@@ -73,7 +73,8 @@ export class PortChannelInterfaceMember extends cdktf.TerraformResource {
       terraformResourceType: 'nxos_port_channel_interface_member',
       terraformGeneratorMetadata: {
         providerName: 'nxos',
-        providerVersion: '0.5.10'
+        providerVersion: '0.5.10',
+        providerVersionConstraint: '0.5.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

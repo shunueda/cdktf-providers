@@ -68,7 +68,8 @@ export class MicrovisorDevicesConfigsV1 extends cdktf.TerraformResource {
       terraformResourceType: 'twilio_microvisor_devices_configs_v1',
       terraformGeneratorMetadata: {
         providerName: 'twilio',
-        providerVersion: '0.18.46'
+        providerVersion: '0.18.46',
+        providerVersionConstraint: '0.18.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

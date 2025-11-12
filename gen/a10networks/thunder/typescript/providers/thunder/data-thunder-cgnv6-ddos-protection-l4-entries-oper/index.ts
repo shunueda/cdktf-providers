@@ -660,7 +660,8 @@ export class DataThunderCgnv6DdosProtectionL4EntriesOper extends cdktf.Terraform
       terraformResourceType: 'thunder_cgnv6_ddos_protection_l4_entries_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

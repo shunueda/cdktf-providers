@@ -73,7 +73,8 @@ export class CirconusProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'circonus',
       terraformGeneratorMetadata: {
         providerName: 'circonus',
-        providerVersion: '0.12.15'
+        providerVersion: '0.12.15',
+        providerVersionConstraint: '0.12.15'
       },
       terraformProviderSource: 'circonus-labs/circonus'
     });

@@ -68,7 +68,8 @@ export class AllowSlbCfg extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_allow_slb_cfg',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

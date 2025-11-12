@@ -534,7 +534,8 @@ export class DataK8SHiveOpenshiftIoCheckpointV1Manifest extends cdktf.TerraformD
       terraformResourceType: 'k8s_hive_openshift_io_checkpoint_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

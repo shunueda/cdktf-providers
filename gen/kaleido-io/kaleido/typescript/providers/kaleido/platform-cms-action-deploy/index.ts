@@ -85,7 +85,8 @@ export class PlatformCmsActionDeploy extends cdktf.TerraformResource {
       terraformResourceType: 'kaleido_platform_cms_action_deploy',
       terraformGeneratorMetadata: {
         providerName: 'kaleido',
-        providerVersion: '1.1.2'
+        providerVersion: '1.1.2',
+        providerVersionConstraint: '1.1.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

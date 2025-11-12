@@ -1345,7 +1345,8 @@ export class DataOciFleetSoftwareUpdateFsuCycles extends cdktf.TerraformDataSour
       terraformResourceType: 'oci_fleet_software_update_fsu_cycles',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

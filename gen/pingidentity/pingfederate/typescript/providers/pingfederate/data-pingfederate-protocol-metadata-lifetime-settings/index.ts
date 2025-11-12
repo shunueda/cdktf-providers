@@ -49,7 +49,8 @@ export class DataPingfederateProtocolMetadataLifetimeSettings extends cdktf.Terr
       terraformResourceType: 'pingfederate_protocol_metadata_lifetime_settings',
       terraformGeneratorMetadata: {
         providerName: 'pingfederate',
-        providerVersion: '1.6.2'
+        providerVersion: '1.6.2',
+        providerVersionConstraint: '1.6.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

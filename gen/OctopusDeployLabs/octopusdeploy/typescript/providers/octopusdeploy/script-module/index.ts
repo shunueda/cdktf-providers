@@ -226,7 +226,8 @@ export class ScriptModule extends cdktf.TerraformResource {
       terraformResourceType: 'octopusdeploy_script_module',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '0.43.2'
+        providerVersion: '0.43.2',
+        providerVersionConstraint: '0.43.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -2848,7 +2848,8 @@ export class ApplianceDiagSetting extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_appliance_diag_setting',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

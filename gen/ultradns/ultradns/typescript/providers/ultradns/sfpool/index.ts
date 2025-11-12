@@ -395,7 +395,8 @@ export class Sfpool extends cdktf.TerraformResource {
       terraformResourceType: 'ultradns_sfpool',
       terraformGeneratorMetadata: {
         providerName: 'ultradns',
-        providerVersion: '1.11.1'
+        providerVersion: '1.11.1',
+        providerVersionConstraint: '1.11.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -353,7 +353,8 @@ export class DataAirbyteSourceWebScrapper extends cdktf.TerraformDataSource {
       terraformResourceType: 'airbyte_source_web_scrapper',
       terraformGeneratorMetadata: {
         providerName: 'airbyte',
-        providerVersion: '0.13.0'
+        providerVersion: '0.13.0',
+        providerVersionConstraint: '0.13.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

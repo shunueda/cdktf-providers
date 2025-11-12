@@ -67,7 +67,8 @@ export class SkytapProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'skytap',
       terraformGeneratorMetadata: {
         providerName: 'skytap',
-        providerVersion: '0.15.1'
+        providerVersion: '0.15.1',
+        providerVersionConstraint: '0.15.1'
       },
       terraformProviderSource: 'skytap/skytap'
     });

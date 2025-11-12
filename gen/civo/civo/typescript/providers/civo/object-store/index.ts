@@ -180,7 +180,8 @@ export class ObjectStore extends cdktf.TerraformResource {
       terraformResourceType: 'civo_object_store',
       terraformGeneratorMetadata: {
         providerName: 'civo',
-        providerVersion: '1.1.7'
+        providerVersion: '1.1.7',
+        providerVersionConstraint: '1.1.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

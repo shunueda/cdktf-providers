@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/opoption
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/opoption
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,32 +8,36 @@ import * as cdktf from 'cdktf';
 
 export interface OpoptionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/opoption#id Opoption#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/opoption#id Opoption#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/opoption#partitionnameintrap Opoption#partitionnameintrap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/opoption#partitionnameintrap Opoption#partitionnameintrap}
   */
   readonly partitionnameintrap?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/opoption#snmpset Opoption#snmpset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/opoption#severityinfointrap Opoption#severityinfointrap}
+  */
+  readonly severityinfointrap?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/opoption#snmpset Opoption#snmpset}
   */
   readonly snmpset?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/opoption#snmptraplogging Opoption#snmptraplogging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/opoption#snmptraplogging Opoption#snmptraplogging}
   */
   readonly snmptraplogging?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/opoption#snmptraplogginglevel Opoption#snmptraplogginglevel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/opoption#snmptraplogginglevel Opoption#snmptraplogginglevel}
   */
   readonly snmptraplogginglevel?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/opoption citrixadc_opoption}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/opoption citrixadc_opoption}
 */
 export class Opoption extends cdktf.TerraformResource {
 
@@ -49,7 +53,7 @@ export class Opoption extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Opoption resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Opoption to import
-  * @param importFromId The id of the existing Opoption that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/opoption#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Opoption that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/opoption#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Opoption to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -61,7 +65,7 @@ export class Opoption extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/opoption citrixadc_opoption} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/opoption citrixadc_opoption} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -72,7 +76,8 @@ export class Opoption extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_opoption',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -84,6 +89,7 @@ export class Opoption extends cdktf.TerraformResource {
     });
     this._id = config.id;
     this._partitionnameintrap = config.partitionnameintrap;
+    this._severityinfointrap = config.severityinfointrap;
     this._snmpset = config.snmpset;
     this._snmptraplogging = config.snmptraplogging;
     this._snmptraplogginglevel = config.snmptraplogginglevel;
@@ -123,6 +129,22 @@ export class Opoption extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get partitionnameintrapInput() {
     return this._partitionnameintrap;
+  }
+
+  // severityinfointrap - computed: true, optional: true, required: false
+  private _severityinfointrap?: string; 
+  public get severityinfointrap() {
+    return this.getStringAttribute('severityinfointrap');
+  }
+  public set severityinfointrap(value: string) {
+    this._severityinfointrap = value;
+  }
+  public resetSeverityinfointrap() {
+    this._severityinfointrap = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get severityinfointrapInput() {
+    return this._severityinfointrap;
   }
 
   // snmpset - computed: true, optional: true, required: false
@@ -181,6 +203,7 @@ export class Opoption extends cdktf.TerraformResource {
     return {
       id: cdktf.stringToTerraform(this._id),
       partitionnameintrap: cdktf.stringToTerraform(this._partitionnameintrap),
+      severityinfointrap: cdktf.stringToTerraform(this._severityinfointrap),
       snmpset: cdktf.stringToTerraform(this._snmpset),
       snmptraplogging: cdktf.stringToTerraform(this._snmptraplogging),
       snmptraplogginglevel: cdktf.stringToTerraform(this._snmptraplogginglevel),
@@ -197,6 +220,12 @@ export class Opoption extends cdktf.TerraformResource {
       },
       partitionnameintrap: {
         value: cdktf.stringToHclTerraform(this._partitionnameintrap),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      severityinfointrap: {
+        value: cdktf.stringToHclTerraform(this._severityinfointrap),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

@@ -4813,7 +4813,8 @@ export class DataIntersightTechsupportmanagementEndPoint extends cdktf.Terraform
       terraformResourceType: 'intersight_techsupportmanagement_end_point',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -74,7 +74,8 @@ export class SiteSignalTag extends cdktf.TerraformResource {
       terraformResourceType: 'sigsci_site_signal_tag',
       terraformGeneratorMetadata: {
         providerName: 'sigsci',
-        providerVersion: '3.7.1'
+        providerVersion: '3.7.1',
+        providerVersionConstraint: '3.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

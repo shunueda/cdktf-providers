@@ -605,7 +605,8 @@ export class NodeLink extends cdktf.TerraformResource {
       terraformResourceType: 'eveng_node_link',
       terraformGeneratorMetadata: {
         providerName: 'eveng',
-        providerVersion: '0.1.7'
+        providerVersion: '0.1.7',
+        providerVersionConstraint: '0.1.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

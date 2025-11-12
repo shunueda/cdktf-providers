@@ -80,7 +80,8 @@ export class SchemaTemplateDeployNdo extends cdktf.TerraformResource {
       terraformResourceType: 'mso_schema_template_deploy_ndo',
       terraformGeneratorMetadata: {
         providerName: 'mso',
-        providerVersion: '1.6.0'
+        providerVersion: '1.6.0',
+        providerVersionConstraint: '1.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

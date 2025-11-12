@@ -244,7 +244,8 @@ export class NsxtVpcSubnetIpAddressAllocation extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_vpc_subnet_ip_address_allocation',
       terraformGeneratorMetadata: {
         providerName: 'nsxt-virtual-private-cloud',
-        providerVersion: '1.0.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

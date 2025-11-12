@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule
+// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ZtkaruleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#id Ztkarule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#id Ztkarule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface ZtkaruleConfig extends cdktf.TerraformMetaArguments {
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#metadata Ztkarule#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#metadata Ztkarule#metadata}
   */
   readonly metadata?: ZtkaruleMetadata;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#spec Ztkarule#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#spec Ztkarule#spec}
   */
   readonly spec?: ZtkaruleSpec;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#timeouts Ztkarule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#timeouts Ztkarule#timeouts}
   */
   readonly timeouts?: ZtkaruleTimeouts;
 }
@@ -37,7 +37,7 @@ export interface ZtkaruleMetadataCreatedBy {
   /**
   * Id of the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#id Ztkarule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#id Ztkarule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -46,13 +46,13 @@ export interface ZtkaruleMetadataCreatedBy {
   /**
   * Whether person is logged in using sso
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#is_sso_user Ztkarule#is_sso_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#is_sso_user Ztkarule#is_sso_user}
   */
   readonly isSsoUser?: boolean | cdktf.IResolvable;
   /**
   * Username fo the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#username Ztkarule#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#username Ztkarule#username}
   */
   readonly username?: string;
 }
@@ -196,7 +196,7 @@ export interface ZtkaruleMetadataModifiedBy {
   /**
   * Id of the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#id Ztkarule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#id Ztkarule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -205,13 +205,13 @@ export interface ZtkaruleMetadataModifiedBy {
   /**
   * Whether person is logged in using sso
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#is_sso_user Ztkarule#is_sso_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#is_sso_user Ztkarule#is_sso_user}
   */
   readonly isSsoUser?: boolean | cdktf.IResolvable;
   /**
   * Username fo the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#username Ztkarule#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#username Ztkarule#username}
   */
   readonly username?: string;
 }
@@ -355,49 +355,49 @@ export interface ZtkaruleMetadata {
   /**
   * annotations of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#annotations Ztkarule#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#annotations Ztkarule#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * description of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#description Ztkarule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#description Ztkarule#description}
   */
   readonly description?: string;
   /**
   * Display Name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#display_name Ztkarule#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#display_name Ztkarule#display_name}
   */
   readonly displayName?: string;
   /**
   * labels of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#labels Ztkarule#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#labels Ztkarule#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#name Ztkarule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#name Ztkarule#name}
   */
   readonly name?: string;
   /**
   * Project of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#project Ztkarule#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#project Ztkarule#project}
   */
   readonly project?: string;
   /**
   * created_by block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#created_by Ztkarule#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#created_by Ztkarule#created_by}
   */
   readonly createdBy?: ZtkaruleMetadataCreatedBy;
   /**
   * modified_by block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#modified_by Ztkarule#modified_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#modified_by Ztkarule#modified_by}
   */
   readonly modifiedBy?: ZtkaruleMetadataModifiedBy;
 }
@@ -686,7 +686,7 @@ export interface ZtkaruleSpecArtifactArtifactChartPathOptionsOverride {
   /**
   * Specify the type of override this file supports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#type Ztkarule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#type Ztkarule#type}
   */
   readonly type?: string;
 }
@@ -772,13 +772,13 @@ export interface ZtkaruleSpecArtifactArtifactChartPathOptionsSchema {
   /**
   * JSONSchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#jsonschema Ztkarule#jsonschema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#jsonschema Ztkarule#jsonschema}
   */
   readonly jsonschema?: string;
   /**
   * UISchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#uischema Ztkarule#uischema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#uischema Ztkarule#uischema}
   */
   readonly uischema?: string;
 }
@@ -893,37 +893,37 @@ export interface ZtkaruleSpecArtifactArtifactChartPathOptions {
   /**
   * Description of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#description Ztkarule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#description Ztkarule#description}
   */
   readonly description?: string;
   /**
   * Display metadata to render file on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#display_metadata Ztkarule#display_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#display_metadata Ztkarule#display_metadata}
   */
   readonly displayMetadata?: string;
   /**
   * Determines whether the file is required / mandatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#required Ztkarule#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#required Ztkarule#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#sensitive Ztkarule#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#sensitive Ztkarule#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#override Ztkarule#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#override Ztkarule#override}
   */
   readonly override?: ZtkaruleSpecArtifactArtifactChartPathOptionsOverride;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#schema Ztkarule#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#schema Ztkarule#schema}
   */
   readonly schema?: ZtkaruleSpecArtifactArtifactChartPathOptionsSchema;
 }
@@ -1154,31 +1154,31 @@ export interface ZtkaruleSpecArtifactArtifactChartPath {
   /**
   * data is the base64 encoded contents of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#data Ztkarule#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#data Ztkarule#data}
   */
   readonly data?: string;
   /**
   * specify mount path of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#mount_path Ztkarule#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#mount_path Ztkarule#mount_path}
   */
   readonly mountPath?: string;
   /**
   * Name or relative path of a artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#name Ztkarule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#name Ztkarule#name}
   */
   readonly name?: string;
   /**
   * Deprected: use options.sensitive. data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#sensitive Ztkarule#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#sensitive Ztkarule#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#options Ztkarule#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#options Ztkarule#options}
   */
   readonly options?: ZtkaruleSpecArtifactArtifactChartPathOptions;
 }
@@ -1380,7 +1380,7 @@ export interface ZtkaruleSpecArtifactArtifactConfigmapOptionsOverride {
   /**
   * Specify the type of override this file supports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#type Ztkarule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#type Ztkarule#type}
   */
   readonly type?: string;
 }
@@ -1466,13 +1466,13 @@ export interface ZtkaruleSpecArtifactArtifactConfigmapOptionsSchema {
   /**
   * JSONSchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#jsonschema Ztkarule#jsonschema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#jsonschema Ztkarule#jsonschema}
   */
   readonly jsonschema?: string;
   /**
   * UISchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#uischema Ztkarule#uischema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#uischema Ztkarule#uischema}
   */
   readonly uischema?: string;
 }
@@ -1587,37 +1587,37 @@ export interface ZtkaruleSpecArtifactArtifactConfigmapOptions {
   /**
   * Description of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#description Ztkarule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#description Ztkarule#description}
   */
   readonly description?: string;
   /**
   * Display metadata to render file on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#display_metadata Ztkarule#display_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#display_metadata Ztkarule#display_metadata}
   */
   readonly displayMetadata?: string;
   /**
   * Determines whether the file is required / mandatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#required Ztkarule#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#required Ztkarule#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#sensitive Ztkarule#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#sensitive Ztkarule#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#override Ztkarule#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#override Ztkarule#override}
   */
   readonly override?: ZtkaruleSpecArtifactArtifactConfigmapOptionsOverride;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#schema Ztkarule#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#schema Ztkarule#schema}
   */
   readonly schema?: ZtkaruleSpecArtifactArtifactConfigmapOptionsSchema;
 }
@@ -1848,31 +1848,31 @@ export interface ZtkaruleSpecArtifactArtifactConfigmap {
   /**
   * data is the base64 encoded contents of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#data Ztkarule#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#data Ztkarule#data}
   */
   readonly data?: string;
   /**
   * specify mount path of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#mount_path Ztkarule#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#mount_path Ztkarule#mount_path}
   */
   readonly mountPath?: string;
   /**
   * Name or relative path of a artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#name Ztkarule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#name Ztkarule#name}
   */
   readonly name?: string;
   /**
   * Deprected: use options.sensitive. data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#sensitive Ztkarule#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#sensitive Ztkarule#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#options Ztkarule#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#options Ztkarule#options}
   */
   readonly options?: ZtkaruleSpecArtifactArtifactConfigmapOptions;
 }
@@ -2074,7 +2074,7 @@ export interface ZtkaruleSpecArtifactArtifactConfigurationOptionsOverride {
   /**
   * Specify the type of override this file supports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#type Ztkarule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#type Ztkarule#type}
   */
   readonly type?: string;
 }
@@ -2160,13 +2160,13 @@ export interface ZtkaruleSpecArtifactArtifactConfigurationOptionsSchema {
   /**
   * JSONSchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#jsonschema Ztkarule#jsonschema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#jsonschema Ztkarule#jsonschema}
   */
   readonly jsonschema?: string;
   /**
   * UISchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#uischema Ztkarule#uischema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#uischema Ztkarule#uischema}
   */
   readonly uischema?: string;
 }
@@ -2281,37 +2281,37 @@ export interface ZtkaruleSpecArtifactArtifactConfigurationOptions {
   /**
   * Description of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#description Ztkarule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#description Ztkarule#description}
   */
   readonly description?: string;
   /**
   * Display metadata to render file on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#display_metadata Ztkarule#display_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#display_metadata Ztkarule#display_metadata}
   */
   readonly displayMetadata?: string;
   /**
   * Determines whether the file is required / mandatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#required Ztkarule#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#required Ztkarule#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#sensitive Ztkarule#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#sensitive Ztkarule#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#override Ztkarule#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#override Ztkarule#override}
   */
   readonly override?: ZtkaruleSpecArtifactArtifactConfigurationOptionsOverride;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#schema Ztkarule#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#schema Ztkarule#schema}
   */
   readonly schema?: ZtkaruleSpecArtifactArtifactConfigurationOptionsSchema;
 }
@@ -2542,31 +2542,31 @@ export interface ZtkaruleSpecArtifactArtifactConfiguration {
   /**
   * data is the base64 encoded contents of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#data Ztkarule#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#data Ztkarule#data}
   */
   readonly data?: string;
   /**
   * specify mount path of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#mount_path Ztkarule#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#mount_path Ztkarule#mount_path}
   */
   readonly mountPath?: string;
   /**
   * Name or relative path of a artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#name Ztkarule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#name Ztkarule#name}
   */
   readonly name?: string;
   /**
   * Deprected: use options.sensitive. data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#sensitive Ztkarule#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#sensitive Ztkarule#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#options Ztkarule#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#options Ztkarule#options}
   */
   readonly options?: ZtkaruleSpecArtifactArtifactConfigurationOptions;
 }
@@ -2764,11 +2764,705 @@ export class ZtkaruleSpecArtifactArtifactConfigurationOutputReference extends cd
     return this._options.internalValue;
   }
 }
+export interface ZtkaruleSpecArtifactArtifactFileOptionsOverride {
+  /**
+  * Specify the type of override this file supports
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#type Ztkarule#type}
+  */
+  readonly type?: string;
+}
+
+export function ztkaruleSpecArtifactArtifactFileOptionsOverrideToTerraform(struct?: ZtkaruleSpecArtifactArtifactFileOptionsOverrideOutputReference | ZtkaruleSpecArtifactArtifactFileOptionsOverride): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    type: cdktf.stringToTerraform(struct!.type),
+  }
+}
+
+
+export function ztkaruleSpecArtifactArtifactFileOptionsOverrideToHclTerraform(struct?: ZtkaruleSpecArtifactArtifactFileOptionsOverrideOutputReference | ZtkaruleSpecArtifactArtifactFileOptionsOverride): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    type: {
+      value: cdktf.stringToHclTerraform(struct!.type),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ZtkaruleSpecArtifactArtifactFileOptionsOverrideOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): ZtkaruleSpecArtifactArtifactFileOptionsOverride | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._type !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.type = this._type;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ZtkaruleSpecArtifactArtifactFileOptionsOverride | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._type = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._type = value.type;
+    }
+  }
+
+  // type - computed: false, optional: true, required: false
+  private _type?: string; 
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+  public set type(value: string) {
+    this._type = value;
+  }
+  public resetType() {
+    this._type = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeInput() {
+    return this._type;
+  }
+}
+export interface ZtkaruleSpecArtifactArtifactFileOptionsSchema {
+  /**
+  * JSONSchema definition of given variable that conforms to react-jsonschema-form library norms
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#jsonschema Ztkarule#jsonschema}
+  */
+  readonly jsonschema?: string;
+  /**
+  * UISchema definition of given variable that conforms to react-jsonschema-form library norms
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#uischema Ztkarule#uischema}
+  */
+  readonly uischema?: string;
+}
+
+export function ztkaruleSpecArtifactArtifactFileOptionsSchemaToTerraform(struct?: ZtkaruleSpecArtifactArtifactFileOptionsSchemaOutputReference | ZtkaruleSpecArtifactArtifactFileOptionsSchema): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    jsonschema: cdktf.stringToTerraform(struct!.jsonschema),
+    uischema: cdktf.stringToTerraform(struct!.uischema),
+  }
+}
+
+
+export function ztkaruleSpecArtifactArtifactFileOptionsSchemaToHclTerraform(struct?: ZtkaruleSpecArtifactArtifactFileOptionsSchemaOutputReference | ZtkaruleSpecArtifactArtifactFileOptionsSchema): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    jsonschema: {
+      value: cdktf.stringToHclTerraform(struct!.jsonschema),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    uischema: {
+      value: cdktf.stringToHclTerraform(struct!.uischema),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ZtkaruleSpecArtifactArtifactFileOptionsSchemaOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): ZtkaruleSpecArtifactArtifactFileOptionsSchema | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._jsonschema !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.jsonschema = this._jsonschema;
+    }
+    if (this._uischema !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uischema = this._uischema;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ZtkaruleSpecArtifactArtifactFileOptionsSchema | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._jsonschema = undefined;
+      this._uischema = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._jsonschema = value.jsonschema;
+      this._uischema = value.uischema;
+    }
+  }
+
+  // jsonschema - computed: false, optional: true, required: false
+  private _jsonschema?: string; 
+  public get jsonschema() {
+    return this.getStringAttribute('jsonschema');
+  }
+  public set jsonschema(value: string) {
+    this._jsonschema = value;
+  }
+  public resetJsonschema() {
+    this._jsonschema = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get jsonschemaInput() {
+    return this._jsonschema;
+  }
+
+  // uischema - computed: false, optional: true, required: false
+  private _uischema?: string; 
+  public get uischema() {
+    return this.getStringAttribute('uischema');
+  }
+  public set uischema(value: string) {
+    this._uischema = value;
+  }
+  public resetUischema() {
+    this._uischema = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uischemaInput() {
+    return this._uischema;
+  }
+}
+export interface ZtkaruleSpecArtifactArtifactFileOptions {
+  /**
+  * Description of the file
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#description Ztkarule#description}
+  */
+  readonly description?: string;
+  /**
+  * Display metadata to render file on UI
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#display_metadata Ztkarule#display_metadata}
+  */
+  readonly displayMetadata?: string;
+  /**
+  * Determines whether the file is required / mandatory
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#required Ztkarule#required}
+  */
+  readonly required?: boolean | cdktf.IResolvable;
+  /**
+  * data is encrypted  if sensitive is set to true
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#sensitive Ztkarule#sensitive}
+  */
+  readonly sensitive?: boolean | cdktf.IResolvable;
+  /**
+  * override block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#override Ztkarule#override}
+  */
+  readonly override?: ZtkaruleSpecArtifactArtifactFileOptionsOverride;
+  /**
+  * schema block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#schema Ztkarule#schema}
+  */
+  readonly schema?: ZtkaruleSpecArtifactArtifactFileOptionsSchema;
+}
+
+export function ztkaruleSpecArtifactArtifactFileOptionsToTerraform(struct?: ZtkaruleSpecArtifactArtifactFileOptionsOutputReference | ZtkaruleSpecArtifactArtifactFileOptions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    description: cdktf.stringToTerraform(struct!.description),
+    display_metadata: cdktf.stringToTerraform(struct!.displayMetadata),
+    required: cdktf.booleanToTerraform(struct!.required),
+    sensitive: cdktf.booleanToTerraform(struct!.sensitive),
+    override: ztkaruleSpecArtifactArtifactFileOptionsOverrideToTerraform(struct!.override),
+    schema: ztkaruleSpecArtifactArtifactFileOptionsSchemaToTerraform(struct!.schema),
+  }
+}
+
+
+export function ztkaruleSpecArtifactArtifactFileOptionsToHclTerraform(struct?: ZtkaruleSpecArtifactArtifactFileOptionsOutputReference | ZtkaruleSpecArtifactArtifactFileOptions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    description: {
+      value: cdktf.stringToHclTerraform(struct!.description),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    display_metadata: {
+      value: cdktf.stringToHclTerraform(struct!.displayMetadata),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    required: {
+      value: cdktf.booleanToHclTerraform(struct!.required),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sensitive: {
+      value: cdktf.booleanToHclTerraform(struct!.sensitive),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    override: {
+      value: ztkaruleSpecArtifactArtifactFileOptionsOverrideToHclTerraform(struct!.override),
+      isBlock: true,
+      type: "list",
+      storageClassType: "ZtkaruleSpecArtifactArtifactFileOptionsOverrideList",
+    },
+    schema: {
+      value: ztkaruleSpecArtifactArtifactFileOptionsSchemaToHclTerraform(struct!.schema),
+      isBlock: true,
+      type: "list",
+      storageClassType: "ZtkaruleSpecArtifactArtifactFileOptionsSchemaList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ZtkaruleSpecArtifactArtifactFileOptionsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): ZtkaruleSpecArtifactArtifactFileOptions | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._description !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.description = this._description;
+    }
+    if (this._displayMetadata !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.displayMetadata = this._displayMetadata;
+    }
+    if (this._required !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.required = this._required;
+    }
+    if (this._sensitive !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sensitive = this._sensitive;
+    }
+    if (this._override?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.override = this._override?.internalValue;
+    }
+    if (this._schema?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.schema = this._schema?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ZtkaruleSpecArtifactArtifactFileOptions | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._description = undefined;
+      this._displayMetadata = undefined;
+      this._required = undefined;
+      this._sensitive = undefined;
+      this._override.internalValue = undefined;
+      this._schema.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._description = value.description;
+      this._displayMetadata = value.displayMetadata;
+      this._required = value.required;
+      this._sensitive = value.sensitive;
+      this._override.internalValue = value.override;
+      this._schema.internalValue = value.schema;
+    }
+  }
+
+  // description - computed: false, optional: true, required: false
+  private _description?: string; 
+  public get description() {
+    return this.getStringAttribute('description');
+  }
+  public set description(value: string) {
+    this._description = value;
+  }
+  public resetDescription() {
+    this._description = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get descriptionInput() {
+    return this._description;
+  }
+
+  // display_metadata - computed: true, optional: true, required: false
+  private _displayMetadata?: string; 
+  public get displayMetadata() {
+    return this.getStringAttribute('display_metadata');
+  }
+  public set displayMetadata(value: string) {
+    this._displayMetadata = value;
+  }
+  public resetDisplayMetadata() {
+    this._displayMetadata = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get displayMetadataInput() {
+    return this._displayMetadata;
+  }
+
+  // required - computed: false, optional: true, required: false
+  private _required?: boolean | cdktf.IResolvable; 
+  public get required() {
+    return this.getBooleanAttribute('required');
+  }
+  public set required(value: boolean | cdktf.IResolvable) {
+    this._required = value;
+  }
+  public resetRequired() {
+    this._required = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get requiredInput() {
+    return this._required;
+  }
+
+  // sensitive - computed: false, optional: true, required: false
+  private _sensitive?: boolean | cdktf.IResolvable; 
+  public get sensitive() {
+    return this.getBooleanAttribute('sensitive');
+  }
+  public set sensitive(value: boolean | cdktf.IResolvable) {
+    this._sensitive = value;
+  }
+  public resetSensitive() {
+    this._sensitive = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sensitiveInput() {
+    return this._sensitive;
+  }
+
+  // override - computed: false, optional: true, required: false
+  private _override = new ZtkaruleSpecArtifactArtifactFileOptionsOverrideOutputReference(this, "override");
+  public get override() {
+    return this._override;
+  }
+  public putOverride(value: ZtkaruleSpecArtifactArtifactFileOptionsOverride) {
+    this._override.internalValue = value;
+  }
+  public resetOverride() {
+    this._override.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get overrideInput() {
+    return this._override.internalValue;
+  }
+
+  // schema - computed: false, optional: true, required: false
+  private _schema = new ZtkaruleSpecArtifactArtifactFileOptionsSchemaOutputReference(this, "schema");
+  public get schema() {
+    return this._schema;
+  }
+  public putSchema(value: ZtkaruleSpecArtifactArtifactFileOptionsSchema) {
+    this._schema.internalValue = value;
+  }
+  public resetSchema() {
+    this._schema.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get schemaInput() {
+    return this._schema.internalValue;
+  }
+}
+export interface ZtkaruleSpecArtifactArtifactFile {
+  /**
+  * data is the base64 encoded contents of the file
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#data Ztkarule#data}
+  */
+  readonly data?: string;
+  /**
+  * specify mount path of the file
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#mount_path Ztkarule#mount_path}
+  */
+  readonly mountPath?: string;
+  /**
+  * Name or relative path of a artifact
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#name Ztkarule#name}
+  */
+  readonly name?: string;
+  /**
+  * Deprected: use options.sensitive. data is encrypted  if sensitive is set to true
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#sensitive Ztkarule#sensitive}
+  */
+  readonly sensitive?: boolean | cdktf.IResolvable;
+  /**
+  * options block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#options Ztkarule#options}
+  */
+  readonly options?: ZtkaruleSpecArtifactArtifactFileOptions;
+}
+
+export function ztkaruleSpecArtifactArtifactFileToTerraform(struct?: ZtkaruleSpecArtifactArtifactFileOutputReference | ZtkaruleSpecArtifactArtifactFile): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    data: cdktf.stringToTerraform(struct!.data),
+    mount_path: cdktf.stringToTerraform(struct!.mountPath),
+    name: cdktf.stringToTerraform(struct!.name),
+    sensitive: cdktf.booleanToTerraform(struct!.sensitive),
+    options: ztkaruleSpecArtifactArtifactFileOptionsToTerraform(struct!.options),
+  }
+}
+
+
+export function ztkaruleSpecArtifactArtifactFileToHclTerraform(struct?: ZtkaruleSpecArtifactArtifactFileOutputReference | ZtkaruleSpecArtifactArtifactFile): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    data: {
+      value: cdktf.stringToHclTerraform(struct!.data),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    mount_path: {
+      value: cdktf.stringToHclTerraform(struct!.mountPath),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    sensitive: {
+      value: cdktf.booleanToHclTerraform(struct!.sensitive),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    options: {
+      value: ztkaruleSpecArtifactArtifactFileOptionsToHclTerraform(struct!.options),
+      isBlock: true,
+      type: "list",
+      storageClassType: "ZtkaruleSpecArtifactArtifactFileOptionsList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ZtkaruleSpecArtifactArtifactFileOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): ZtkaruleSpecArtifactArtifactFile | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._data !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.data = this._data;
+    }
+    if (this._mountPath !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.mountPath = this._mountPath;
+    }
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._sensitive !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sensitive = this._sensitive;
+    }
+    if (this._options?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.options = this._options?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ZtkaruleSpecArtifactArtifactFile | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._data = undefined;
+      this._mountPath = undefined;
+      this._name = undefined;
+      this._sensitive = undefined;
+      this._options.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._data = value.data;
+      this._mountPath = value.mountPath;
+      this._name = value.name;
+      this._sensitive = value.sensitive;
+      this._options.internalValue = value.options;
+    }
+  }
+
+  // data - computed: false, optional: true, required: false
+  private _data?: string; 
+  public get data() {
+    return this.getStringAttribute('data');
+  }
+  public set data(value: string) {
+    this._data = value;
+  }
+  public resetData() {
+    this._data = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dataInput() {
+    return this._data;
+  }
+
+  // mount_path - computed: false, optional: true, required: false
+  private _mountPath?: string; 
+  public get mountPath() {
+    return this.getStringAttribute('mount_path');
+  }
+  public set mountPath(value: string) {
+    this._mountPath = value;
+  }
+  public resetMountPath() {
+    this._mountPath = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get mountPathInput() {
+    return this._mountPath;
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // sensitive - computed: false, optional: true, required: false
+  private _sensitive?: boolean | cdktf.IResolvable; 
+  public get sensitive() {
+    return this.getBooleanAttribute('sensitive');
+  }
+  public set sensitive(value: boolean | cdktf.IResolvable) {
+    this._sensitive = value;
+  }
+  public resetSensitive() {
+    this._sensitive = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sensitiveInput() {
+    return this._sensitive;
+  }
+
+  // options - computed: false, optional: true, required: false
+  private _options = new ZtkaruleSpecArtifactArtifactFileOptionsOutputReference(this, "options");
+  public get options() {
+    return this._options;
+  }
+  public putOptions(value: ZtkaruleSpecArtifactArtifactFileOptions) {
+    this._options.internalValue = value;
+  }
+  public resetOptions() {
+    this._options.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get optionsInput() {
+    return this._options.internalValue;
+  }
+}
 export interface ZtkaruleSpecArtifactArtifactPathsOptionsOverride {
   /**
   * Specify the type of override this file supports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#type Ztkarule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#type Ztkarule#type}
   */
   readonly type?: string;
 }
@@ -2854,13 +3548,13 @@ export interface ZtkaruleSpecArtifactArtifactPathsOptionsSchema {
   /**
   * JSONSchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#jsonschema Ztkarule#jsonschema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#jsonschema Ztkarule#jsonschema}
   */
   readonly jsonschema?: string;
   /**
   * UISchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#uischema Ztkarule#uischema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#uischema Ztkarule#uischema}
   */
   readonly uischema?: string;
 }
@@ -2975,37 +3669,37 @@ export interface ZtkaruleSpecArtifactArtifactPathsOptions {
   /**
   * Description of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#description Ztkarule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#description Ztkarule#description}
   */
   readonly description?: string;
   /**
   * Display metadata to render file on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#display_metadata Ztkarule#display_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#display_metadata Ztkarule#display_metadata}
   */
   readonly displayMetadata?: string;
   /**
   * Determines whether the file is required / mandatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#required Ztkarule#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#required Ztkarule#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#sensitive Ztkarule#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#sensitive Ztkarule#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#override Ztkarule#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#override Ztkarule#override}
   */
   readonly override?: ZtkaruleSpecArtifactArtifactPathsOptionsOverride;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#schema Ztkarule#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#schema Ztkarule#schema}
   */
   readonly schema?: ZtkaruleSpecArtifactArtifactPathsOptionsSchema;
 }
@@ -3236,31 +3930,31 @@ export interface ZtkaruleSpecArtifactArtifactPaths {
   /**
   * data is the base64 encoded contents of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#data Ztkarule#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#data Ztkarule#data}
   */
   readonly data?: string;
   /**
   * specify mount path of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#mount_path Ztkarule#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#mount_path Ztkarule#mount_path}
   */
   readonly mountPath?: string;
   /**
   * Name or relative path of a artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#name Ztkarule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#name Ztkarule#name}
   */
   readonly name?: string;
   /**
   * Deprected: use options.sensitive. data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#sensitive Ztkarule#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#sensitive Ztkarule#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#options Ztkarule#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#options Ztkarule#options}
   */
   readonly options?: ZtkaruleSpecArtifactArtifactPathsOptions;
 }
@@ -3494,7 +4188,7 @@ export interface ZtkaruleSpecArtifactArtifactSecretOptionsOverride {
   /**
   * Specify the type of override this file supports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#type Ztkarule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#type Ztkarule#type}
   */
   readonly type?: string;
 }
@@ -3580,13 +4274,13 @@ export interface ZtkaruleSpecArtifactArtifactSecretOptionsSchema {
   /**
   * JSONSchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#jsonschema Ztkarule#jsonschema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#jsonschema Ztkarule#jsonschema}
   */
   readonly jsonschema?: string;
   /**
   * UISchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#uischema Ztkarule#uischema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#uischema Ztkarule#uischema}
   */
   readonly uischema?: string;
 }
@@ -3701,37 +4395,37 @@ export interface ZtkaruleSpecArtifactArtifactSecretOptions {
   /**
   * Description of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#description Ztkarule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#description Ztkarule#description}
   */
   readonly description?: string;
   /**
   * Display metadata to render file on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#display_metadata Ztkarule#display_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#display_metadata Ztkarule#display_metadata}
   */
   readonly displayMetadata?: string;
   /**
   * Determines whether the file is required / mandatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#required Ztkarule#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#required Ztkarule#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#sensitive Ztkarule#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#sensitive Ztkarule#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#override Ztkarule#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#override Ztkarule#override}
   */
   readonly override?: ZtkaruleSpecArtifactArtifactSecretOptionsOverride;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#schema Ztkarule#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#schema Ztkarule#schema}
   */
   readonly schema?: ZtkaruleSpecArtifactArtifactSecretOptionsSchema;
 }
@@ -3962,31 +4656,31 @@ export interface ZtkaruleSpecArtifactArtifactSecret {
   /**
   * data is the base64 encoded contents of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#data Ztkarule#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#data Ztkarule#data}
   */
   readonly data?: string;
   /**
   * specify mount path of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#mount_path Ztkarule#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#mount_path Ztkarule#mount_path}
   */
   readonly mountPath?: string;
   /**
   * Name or relative path of a artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#name Ztkarule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#name Ztkarule#name}
   */
   readonly name?: string;
   /**
   * Deprected: use options.sensitive. data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#sensitive Ztkarule#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#sensitive Ztkarule#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#options Ztkarule#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#options Ztkarule#options}
   */
   readonly options?: ZtkaruleSpecArtifactArtifactSecretOptions;
 }
@@ -4188,7 +4882,7 @@ export interface ZtkaruleSpecArtifactArtifactStatefulsetOptionsOverride {
   /**
   * Specify the type of override this file supports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#type Ztkarule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#type Ztkarule#type}
   */
   readonly type?: string;
 }
@@ -4274,13 +4968,13 @@ export interface ZtkaruleSpecArtifactArtifactStatefulsetOptionsSchema {
   /**
   * JSONSchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#jsonschema Ztkarule#jsonschema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#jsonschema Ztkarule#jsonschema}
   */
   readonly jsonschema?: string;
   /**
   * UISchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#uischema Ztkarule#uischema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#uischema Ztkarule#uischema}
   */
   readonly uischema?: string;
 }
@@ -4395,37 +5089,37 @@ export interface ZtkaruleSpecArtifactArtifactStatefulsetOptions {
   /**
   * Description of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#description Ztkarule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#description Ztkarule#description}
   */
   readonly description?: string;
   /**
   * Display metadata to render file on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#display_metadata Ztkarule#display_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#display_metadata Ztkarule#display_metadata}
   */
   readonly displayMetadata?: string;
   /**
   * Determines whether the file is required / mandatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#required Ztkarule#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#required Ztkarule#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#sensitive Ztkarule#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#sensitive Ztkarule#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#override Ztkarule#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#override Ztkarule#override}
   */
   readonly override?: ZtkaruleSpecArtifactArtifactStatefulsetOptionsOverride;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#schema Ztkarule#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#schema Ztkarule#schema}
   */
   readonly schema?: ZtkaruleSpecArtifactArtifactStatefulsetOptionsSchema;
 }
@@ -4656,31 +5350,31 @@ export interface ZtkaruleSpecArtifactArtifactStatefulset {
   /**
   * data is the base64 encoded contents of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#data Ztkarule#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#data Ztkarule#data}
   */
   readonly data?: string;
   /**
   * specify mount path of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#mount_path Ztkarule#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#mount_path Ztkarule#mount_path}
   */
   readonly mountPath?: string;
   /**
   * Name or relative path of a artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#name Ztkarule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#name Ztkarule#name}
   */
   readonly name?: string;
   /**
   * Deprected: use options.sensitive. data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#sensitive Ztkarule#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#sensitive Ztkarule#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#options Ztkarule#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#options Ztkarule#options}
   */
   readonly options?: ZtkaruleSpecArtifactArtifactStatefulsetOptions;
 }
@@ -4882,7 +5576,7 @@ export interface ZtkaruleSpecArtifactArtifactValuesPathsOptionsOverride {
   /**
   * Specify the type of override this file supports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#type Ztkarule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#type Ztkarule#type}
   */
   readonly type?: string;
 }
@@ -4968,13 +5662,13 @@ export interface ZtkaruleSpecArtifactArtifactValuesPathsOptionsSchema {
   /**
   * JSONSchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#jsonschema Ztkarule#jsonschema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#jsonschema Ztkarule#jsonschema}
   */
   readonly jsonschema?: string;
   /**
   * UISchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#uischema Ztkarule#uischema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#uischema Ztkarule#uischema}
   */
   readonly uischema?: string;
 }
@@ -5089,37 +5783,37 @@ export interface ZtkaruleSpecArtifactArtifactValuesPathsOptions {
   /**
   * Description of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#description Ztkarule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#description Ztkarule#description}
   */
   readonly description?: string;
   /**
   * Display metadata to render file on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#display_metadata Ztkarule#display_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#display_metadata Ztkarule#display_metadata}
   */
   readonly displayMetadata?: string;
   /**
   * Determines whether the file is required / mandatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#required Ztkarule#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#required Ztkarule#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#sensitive Ztkarule#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#sensitive Ztkarule#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#override Ztkarule#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#override Ztkarule#override}
   */
   readonly override?: ZtkaruleSpecArtifactArtifactValuesPathsOptionsOverride;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#schema Ztkarule#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#schema Ztkarule#schema}
   */
   readonly schema?: ZtkaruleSpecArtifactArtifactValuesPathsOptionsSchema;
 }
@@ -5350,31 +6044,31 @@ export interface ZtkaruleSpecArtifactArtifactValuesPaths {
   /**
   * data is the base64 encoded contents of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#data Ztkarule#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#data Ztkarule#data}
   */
   readonly data?: string;
   /**
   * specify mount path of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#mount_path Ztkarule#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#mount_path Ztkarule#mount_path}
   */
   readonly mountPath?: string;
   /**
   * Name or relative path of a artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#name Ztkarule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#name Ztkarule#name}
   */
   readonly name?: string;
   /**
   * Deprected: use options.sensitive. data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#sensitive Ztkarule#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#sensitive Ztkarule#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#options Ztkarule#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#options Ztkarule#options}
   */
   readonly options?: ZtkaruleSpecArtifactArtifactValuesPathsOptions;
 }
@@ -5608,7 +6302,7 @@ export interface ZtkaruleSpecArtifactArtifactValuesRefValuesPathsOptionsOverride
   /**
   * Specify the type of override this file supports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#type Ztkarule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#type Ztkarule#type}
   */
   readonly type?: string;
 }
@@ -5694,13 +6388,13 @@ export interface ZtkaruleSpecArtifactArtifactValuesRefValuesPathsOptionsSchema {
   /**
   * JSONSchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#jsonschema Ztkarule#jsonschema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#jsonschema Ztkarule#jsonschema}
   */
   readonly jsonschema?: string;
   /**
   * UISchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#uischema Ztkarule#uischema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#uischema Ztkarule#uischema}
   */
   readonly uischema?: string;
 }
@@ -5815,37 +6509,37 @@ export interface ZtkaruleSpecArtifactArtifactValuesRefValuesPathsOptions {
   /**
   * Description of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#description Ztkarule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#description Ztkarule#description}
   */
   readonly description?: string;
   /**
   * Display metadata to render file on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#display_metadata Ztkarule#display_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#display_metadata Ztkarule#display_metadata}
   */
   readonly displayMetadata?: string;
   /**
   * Determines whether the file is required / mandatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#required Ztkarule#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#required Ztkarule#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#sensitive Ztkarule#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#sensitive Ztkarule#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#override Ztkarule#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#override Ztkarule#override}
   */
   readonly override?: ZtkaruleSpecArtifactArtifactValuesRefValuesPathsOptionsOverride;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#schema Ztkarule#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#schema Ztkarule#schema}
   */
   readonly schema?: ZtkaruleSpecArtifactArtifactValuesRefValuesPathsOptionsSchema;
 }
@@ -6076,31 +6770,31 @@ export interface ZtkaruleSpecArtifactArtifactValuesRefValuesPaths {
   /**
   * data is the base64 encoded contents of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#data Ztkarule#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#data Ztkarule#data}
   */
   readonly data?: string;
   /**
   * specify mount path of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#mount_path Ztkarule#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#mount_path Ztkarule#mount_path}
   */
   readonly mountPath?: string;
   /**
   * Name or relative path of a artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#name Ztkarule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#name Ztkarule#name}
   */
   readonly name?: string;
   /**
   * Deprected: use options.sensitive. data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#sensitive Ztkarule#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#sensitive Ztkarule#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#options Ztkarule#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#options Ztkarule#options}
   */
   readonly options?: ZtkaruleSpecArtifactArtifactValuesRefValuesPathsOptions;
 }
@@ -6334,19 +7028,19 @@ export interface ZtkaruleSpecArtifactArtifactValuesRef {
   /**
   * name of the git repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#repository Ztkarule#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#repository Ztkarule#repository}
   */
   readonly repository?: string;
   /**
   * branch or tag in the git repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#revision Ztkarule#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#revision Ztkarule#revision}
   */
   readonly revision?: string;
   /**
   * values_paths block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#values_paths Ztkarule#values_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#values_paths Ztkarule#values_paths}
   */
   readonly valuesPaths?: ZtkaruleSpecArtifactArtifactValuesRefValuesPaths[] | cdktf.IResolvable;
 }
@@ -6490,85 +7184,109 @@ export interface ZtkaruleSpecArtifactArtifact {
   /**
   * name of the helm catalog
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#catalog Ztkarule#catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#catalog Ztkarule#catalog}
   */
   readonly catalog?: string;
   /**
   * name of the chart
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#chart_name Ztkarule#chart_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#chart_name Ztkarule#chart_name}
   */
   readonly chartName?: string;
   /**
   * version of the chart
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#chart_version Ztkarule#chart_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#chart_version Ztkarule#chart_version}
   */
   readonly chartVersion?: string;
   /**
+  * relative path from the root to kustomization directory in the git repository
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#directory Ztkarule#directory}
+  */
+  readonly directory?: string;
+  /**
+  * relative path to kustomization directory from the root directory
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#path Ztkarule#path}
+  */
+  readonly path?: string;
+  /**
   * project name of the repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#project Ztkarule#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#project Ztkarule#project}
   */
   readonly project?: string;
   /**
-  * name of the helm repository
+  * name of the git repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#repository Ztkarule#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#repository Ztkarule#repository}
   */
   readonly repository?: string;
   /**
   * branch or tag in the git repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#revision Ztkarule#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#revision Ztkarule#revision}
   */
   readonly revision?: string;
   /**
+  * url of the manifest YAML
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#url Ztkarule#url}
+  */
+  readonly url?: string[];
+  /**
   * chart_path block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#chart_path Ztkarule#chart_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#chart_path Ztkarule#chart_path}
   */
   readonly chartPath?: ZtkaruleSpecArtifactArtifactChartPath;
   /**
   * configmap block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#configmap Ztkarule#configmap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#configmap Ztkarule#configmap}
   */
   readonly configmap?: ZtkaruleSpecArtifactArtifactConfigmap;
   /**
   * configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#configuration Ztkarule#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#configuration Ztkarule#configuration}
   */
   readonly configuration?: ZtkaruleSpecArtifactArtifactConfiguration;
   /**
+  * file block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#file Ztkarule#file}
+  */
+  readonly file?: ZtkaruleSpecArtifactArtifactFile;
+  /**
   * paths block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#paths Ztkarule#paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#paths Ztkarule#paths}
   */
   readonly paths?: ZtkaruleSpecArtifactArtifactPaths[] | cdktf.IResolvable;
   /**
   * secret block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#secret Ztkarule#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#secret Ztkarule#secret}
   */
   readonly secret?: ZtkaruleSpecArtifactArtifactSecret;
   /**
   * statefulset block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#statefulset Ztkarule#statefulset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#statefulset Ztkarule#statefulset}
   */
   readonly statefulset?: ZtkaruleSpecArtifactArtifactStatefulset;
   /**
   * values_paths block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#values_paths Ztkarule#values_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#values_paths Ztkarule#values_paths}
   */
   readonly valuesPaths?: ZtkaruleSpecArtifactArtifactValuesPaths[] | cdktf.IResolvable;
   /**
   * values_ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#values_ref Ztkarule#values_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#values_ref Ztkarule#values_ref}
   */
   readonly valuesRef?: ZtkaruleSpecArtifactArtifactValuesRef;
 }
@@ -6582,12 +7300,16 @@ export function ztkaruleSpecArtifactArtifactToTerraform(struct?: ZtkaruleSpecArt
     catalog: cdktf.stringToTerraform(struct!.catalog),
     chart_name: cdktf.stringToTerraform(struct!.chartName),
     chart_version: cdktf.stringToTerraform(struct!.chartVersion),
+    directory: cdktf.stringToTerraform(struct!.directory),
+    path: cdktf.stringToTerraform(struct!.path),
     project: cdktf.stringToTerraform(struct!.project),
     repository: cdktf.stringToTerraform(struct!.repository),
     revision: cdktf.stringToTerraform(struct!.revision),
+    url: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.url),
     chart_path: ztkaruleSpecArtifactArtifactChartPathToTerraform(struct!.chartPath),
     configmap: ztkaruleSpecArtifactArtifactConfigmapToTerraform(struct!.configmap),
     configuration: ztkaruleSpecArtifactArtifactConfigurationToTerraform(struct!.configuration),
+    file: ztkaruleSpecArtifactArtifactFileToTerraform(struct!.file),
     paths: cdktf.listMapper(ztkaruleSpecArtifactArtifactPathsToTerraform, true)(struct!.paths),
     secret: ztkaruleSpecArtifactArtifactSecretToTerraform(struct!.secret),
     statefulset: ztkaruleSpecArtifactArtifactStatefulsetToTerraform(struct!.statefulset),
@@ -6621,6 +7343,18 @@ export function ztkaruleSpecArtifactArtifactToHclTerraform(struct?: ZtkaruleSpec
       type: "simple",
       storageClassType: "string",
     },
+    directory: {
+      value: cdktf.stringToHclTerraform(struct!.directory),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    path: {
+      value: cdktf.stringToHclTerraform(struct!.path),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     project: {
       value: cdktf.stringToHclTerraform(struct!.project),
       isBlock: false,
@@ -6639,6 +7373,12 @@ export function ztkaruleSpecArtifactArtifactToHclTerraform(struct?: ZtkaruleSpec
       type: "simple",
       storageClassType: "string",
     },
+    url: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.url),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
     chart_path: {
       value: ztkaruleSpecArtifactArtifactChartPathToHclTerraform(struct!.chartPath),
       isBlock: true,
@@ -6656,6 +7396,12 @@ export function ztkaruleSpecArtifactArtifactToHclTerraform(struct?: ZtkaruleSpec
       isBlock: true,
       type: "list",
       storageClassType: "ZtkaruleSpecArtifactArtifactConfigurationList",
+    },
+    file: {
+      value: ztkaruleSpecArtifactArtifactFileToHclTerraform(struct!.file),
+      isBlock: true,
+      type: "list",
+      storageClassType: "ZtkaruleSpecArtifactArtifactFileList",
     },
     paths: {
       value: cdktf.listMapperHcl(ztkaruleSpecArtifactArtifactPathsToHclTerraform, true)(struct!.paths),
@@ -6719,6 +7465,14 @@ export class ZtkaruleSpecArtifactArtifactOutputReference extends cdktf.ComplexOb
       hasAnyValues = true;
       internalValueResult.chartVersion = this._chartVersion;
     }
+    if (this._directory !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.directory = this._directory;
+    }
+    if (this._path !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.path = this._path;
+    }
     if (this._project !== undefined) {
       hasAnyValues = true;
       internalValueResult.project = this._project;
@@ -6731,6 +7485,10 @@ export class ZtkaruleSpecArtifactArtifactOutputReference extends cdktf.ComplexOb
       hasAnyValues = true;
       internalValueResult.revision = this._revision;
     }
+    if (this._url !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.url = this._url;
+    }
     if (this._chartPath?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.chartPath = this._chartPath?.internalValue;
@@ -6742,6 +7500,10 @@ export class ZtkaruleSpecArtifactArtifactOutputReference extends cdktf.ComplexOb
     if (this._configuration?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.configuration = this._configuration?.internalValue;
+    }
+    if (this._file?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.file = this._file?.internalValue;
     }
     if (this._paths?.internalValue !== undefined) {
       hasAnyValues = true;
@@ -6772,12 +7534,16 @@ export class ZtkaruleSpecArtifactArtifactOutputReference extends cdktf.ComplexOb
       this._catalog = undefined;
       this._chartName = undefined;
       this._chartVersion = undefined;
+      this._directory = undefined;
+      this._path = undefined;
       this._project = undefined;
       this._repository = undefined;
       this._revision = undefined;
+      this._url = undefined;
       this._chartPath.internalValue = undefined;
       this._configmap.internalValue = undefined;
       this._configuration.internalValue = undefined;
+      this._file.internalValue = undefined;
       this._paths.internalValue = undefined;
       this._secret.internalValue = undefined;
       this._statefulset.internalValue = undefined;
@@ -6789,12 +7555,16 @@ export class ZtkaruleSpecArtifactArtifactOutputReference extends cdktf.ComplexOb
       this._catalog = value.catalog;
       this._chartName = value.chartName;
       this._chartVersion = value.chartVersion;
+      this._directory = value.directory;
+      this._path = value.path;
       this._project = value.project;
       this._repository = value.repository;
       this._revision = value.revision;
+      this._url = value.url;
       this._chartPath.internalValue = value.chartPath;
       this._configmap.internalValue = value.configmap;
       this._configuration.internalValue = value.configuration;
+      this._file.internalValue = value.file;
       this._paths.internalValue = value.paths;
       this._secret.internalValue = value.secret;
       this._statefulset.internalValue = value.statefulset;
@@ -6851,6 +7621,38 @@ export class ZtkaruleSpecArtifactArtifactOutputReference extends cdktf.ComplexOb
     return this._chartVersion;
   }
 
+  // directory - computed: false, optional: true, required: false
+  private _directory?: string; 
+  public get directory() {
+    return this.getStringAttribute('directory');
+  }
+  public set directory(value: string) {
+    this._directory = value;
+  }
+  public resetDirectory() {
+    this._directory = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get directoryInput() {
+    return this._directory;
+  }
+
+  // path - computed: false, optional: true, required: false
+  private _path?: string; 
+  public get path() {
+    return this.getStringAttribute('path');
+  }
+  public set path(value: string) {
+    this._path = value;
+  }
+  public resetPath() {
+    this._path = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get pathInput() {
+    return this._path;
+  }
+
   // project - computed: false, optional: true, required: false
   private _project?: string; 
   public get project() {
@@ -6899,6 +7701,22 @@ export class ZtkaruleSpecArtifactArtifactOutputReference extends cdktf.ComplexOb
     return this._revision;
   }
 
+  // url - computed: false, optional: true, required: false
+  private _url?: string[]; 
+  public get url() {
+    return this.getListAttribute('url');
+  }
+  public set url(value: string[]) {
+    this._url = value;
+  }
+  public resetUrl() {
+    this._url = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get urlInput() {
+    return this._url;
+  }
+
   // chart_path - computed: false, optional: true, required: false
   private _chartPath = new ZtkaruleSpecArtifactArtifactChartPathOutputReference(this, "chart_path");
   public get chartPath() {
@@ -6945,6 +7763,22 @@ export class ZtkaruleSpecArtifactArtifactOutputReference extends cdktf.ComplexOb
   // Temporarily expose input value. Use with caution.
   public get configurationInput() {
     return this._configuration.internalValue;
+  }
+
+  // file - computed: false, optional: true, required: false
+  private _file = new ZtkaruleSpecArtifactArtifactFileOutputReference(this, "file");
+  public get file() {
+    return this._file;
+  }
+  public putFile(value: ZtkaruleSpecArtifactArtifactFile) {
+    this._file.internalValue = value;
+  }
+  public resetFile() {
+    this._file.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fileInput() {
+    return this._file.internalValue;
   }
 
   // paths - computed: false, optional: true, required: false
@@ -7031,103 +7865,103 @@ export interface ZtkaruleSpecArtifactOptions {
   /**
   * deploy Helm artifact with atomic flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#atomic Ztkarule#atomic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#atomic Ztkarule#atomic}
   */
   readonly atomic?: boolean | cdktf.IResolvable;
   /**
   * cleanup deployed resources when chart fails to deploy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#clean_up_on_fail Ztkarule#clean_up_on_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#clean_up_on_fail Ztkarule#clean_up_on_fail}
   */
   readonly cleanUpOnFail?: boolean | cdktf.IResolvable;
   /**
   * custom description for the release
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#description Ztkarule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#description Ztkarule#description}
   */
   readonly description?: string;
   /**
   * disable OpenAPI validation while deploying the YAML
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#disable_open_api_validation Ztkarule#disable_open_api_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#disable_open_api_validation Ztkarule#disable_open_api_validation}
   */
   readonly disableOpenApiValidation?: boolean | cdktf.IResolvable;
   /**
   * deploy YAML artifact with force flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#force Ztkarule#force}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#force Ztkarule#force}
   */
   readonly force?: boolean | cdktf.IResolvable;
   /**
   * keep release history after uninstalling
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#keep_history Ztkarule#keep_history}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#keep_history Ztkarule#keep_history}
   */
   readonly keepHistory?: boolean | cdktf.IResolvable;
   /**
   * limit Helm artifact history
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#max_history Ztkarule#max_history}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#max_history Ztkarule#max_history}
   */
   readonly maxHistory?: number;
   /**
   * deploy Helm artifact without hooks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#no_hooks Ztkarule#no_hooks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#no_hooks Ztkarule#no_hooks}
   */
   readonly noHooks?: boolean | cdktf.IResolvable;
   /**
   * render sub chart notes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#render_sub_chart_notes Ztkarule#render_sub_chart_notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#render_sub_chart_notes Ztkarule#render_sub_chart_notes}
   */
   readonly renderSubChartNotes?: boolean | cdktf.IResolvable;
   /**
   * reset existing helm values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#reset_values Ztkarule#reset_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#reset_values Ztkarule#reset_values}
   */
   readonly resetValues?: boolean | cdktf.IResolvable;
   /**
   * reuse existing values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#reuse_values Ztkarule#reuse_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#reuse_values Ztkarule#reuse_values}
   */
   readonly reuseValues?: boolean | cdktf.IResolvable;
   /**
   * pass custom helm values as key=value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#set_string Ztkarule#set_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#set_string Ztkarule#set_string}
   */
   readonly setString?: string[];
   /**
   * skip deploying crds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#skip_crd Ztkarule#skip_crd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#skip_crd Ztkarule#skip_crd}
   */
   readonly skipCrd?: boolean | cdktf.IResolvable;
   /**
   * timeout for waiting for the resources to become ready
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#timeout Ztkarule#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#timeout Ztkarule#timeout}
   */
   readonly timeout?: string;
   /**
   * deploy Helm artifact with wait flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#wait Ztkarule#wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#wait Ztkarule#wait}
   */
   readonly wait?: boolean | cdktf.IResolvable;
   /**
   * deploy Helm artifact with --wait-for-jobs flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#wait_for_jobs Ztkarule#wait_for_jobs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#wait_for_jobs Ztkarule#wait_for_jobs}
   */
   readonly waitForJobs?: boolean | cdktf.IResolvable;
   /**
   * uninstall Helm artifact with --wait flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#wait_for_uninstall Ztkarule#wait_for_uninstall}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#wait_for_uninstall Ztkarule#wait_for_uninstall}
   */
   readonly waitForUninstall?: boolean | cdktf.IResolvable;
 }
@@ -7677,19 +8511,19 @@ export interface ZtkaruleSpecArtifact {
   /**
   * type of the artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#type Ztkarule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#type Ztkarule#type}
   */
   readonly type?: string;
   /**
   * artifact block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#artifact Ztkarule#artifact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#artifact Ztkarule#artifact}
   */
   readonly artifact?: ZtkaruleSpecArtifactArtifact;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#options Ztkarule#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#options Ztkarule#options}
   */
   readonly options?: ZtkaruleSpecArtifactOptions;
 }
@@ -7831,15 +8665,15 @@ export class ZtkaruleSpecArtifactOutputReference extends cdktf.ComplexObject {
 }
 export interface ZtkaruleSpecClusterSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#match_labels Ztkarule#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#match_labels Ztkarule#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#match_names Ztkarule#match_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#match_names Ztkarule#match_names}
   */
   readonly matchNames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#select_all Ztkarule#select_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#select_all Ztkarule#select_all}
   */
   readonly selectAll?: boolean | cdktf.IResolvable;
 }
@@ -7981,11 +8815,11 @@ export class ZtkaruleSpecClusterSelectorOutputReference extends cdktf.ComplexObj
 }
 export interface ZtkaruleSpecProjectSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#match_names Ztkarule#match_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#match_names Ztkarule#match_names}
   */
   readonly matchNames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#select_all Ztkarule#select_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#select_all Ztkarule#select_all}
   */
   readonly selectAll?: boolean | cdktf.IResolvable;
 }
@@ -8100,25 +8934,25 @@ export interface ZtkaruleSpec {
   /**
   * version of the ztka rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#version Ztkarule#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#version Ztkarule#version}
   */
   readonly version?: string;
   /**
   * artifact block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#artifact Ztkarule#artifact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#artifact Ztkarule#artifact}
   */
   readonly artifact?: ZtkaruleSpecArtifact;
   /**
   * cluster_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#cluster_selector Ztkarule#cluster_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#cluster_selector Ztkarule#cluster_selector}
   */
   readonly clusterSelector?: ZtkaruleSpecClusterSelector;
   /**
   * project_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#project_selector Ztkarule#project_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#project_selector Ztkarule#project_selector}
   */
   readonly projectSelector?: ZtkaruleSpecProjectSelector;
 }
@@ -8289,15 +9123,15 @@ export class ZtkaruleSpecOutputReference extends cdktf.ComplexObject {
 }
 export interface ZtkaruleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#create Ztkarule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#create Ztkarule#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#delete Ztkarule#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#delete Ztkarule#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#update Ztkarule#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#update Ztkarule#update}
   */
   readonly update?: string;
 }
@@ -8449,7 +9283,7 @@ export class ZtkaruleTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule rafay_ztkarule}
+* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule rafay_ztkarule}
 */
 export class Ztkarule extends cdktf.TerraformResource {
 
@@ -8465,7 +9299,7 @@ export class Ztkarule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Ztkarule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ztkarule to import
-  * @param importFromId The id of the existing Ztkarule that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ztkarule that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ztkarule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -8477,7 +9311,7 @@ export class Ztkarule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/ztkarule rafay_ztkarule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/ztkarule rafay_ztkarule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -8488,7 +9322,8 @@ export class Ztkarule extends cdktf.TerraformResource {
       terraformResourceType: 'rafay_ztkarule',
       terraformGeneratorMetadata: {
         providerName: 'rafay',
-        providerVersion: '1.1.52'
+        providerVersion: '1.1.53',
+        providerVersionConstraint: '1.1.53'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

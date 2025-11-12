@@ -461,7 +461,8 @@ export class EdgeGatewaySelfmanagedHa extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_edge_gateway_selfmanaged_ha',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10'
+        providerVersion: '8.1.10',
+        providerVersionConstraint: '8.1.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

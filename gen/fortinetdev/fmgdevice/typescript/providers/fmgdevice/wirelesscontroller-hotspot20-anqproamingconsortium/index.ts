@@ -260,7 +260,8 @@ export class WirelesscontrollerHotspot20Anqproamingconsortium extends cdktf.Terr
       terraformResourceType: 'fmgdevice_wirelesscontroller_hotspot20_anqproamingconsortium',
       terraformGeneratorMetadata: {
         providerName: 'fmgdevice',
-        providerVersion: '1.2.1'
+        providerVersion: '1.2.1',
+        providerVersionConstraint: '1.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -2478,7 +2478,8 @@ export class StorageTransferJob extends cdktf.TerraformResource {
       terraformResourceType: 'google_storage_transfer_job',
       terraformGeneratorMetadata: {
         providerName: 'google',
-        providerVersion: '4.16.4'
+        providerVersion: '4.16.4',
+        providerVersionConstraint: '4.16.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

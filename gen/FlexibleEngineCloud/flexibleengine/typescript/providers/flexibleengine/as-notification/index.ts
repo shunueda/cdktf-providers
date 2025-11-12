@@ -78,7 +78,8 @@ export class AsNotification extends cdktf.TerraformResource {
       terraformResourceType: 'flexibleengine_as_notification',
       terraformGeneratorMetadata: {
         providerName: 'flexibleengine',
-        providerVersion: '1.46.0'
+        providerVersion: '1.46.0',
+        providerVersionConstraint: '1.46.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

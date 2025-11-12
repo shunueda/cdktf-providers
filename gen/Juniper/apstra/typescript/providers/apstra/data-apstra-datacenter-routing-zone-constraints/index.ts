@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_routing_zone_constraints
+// https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_routing_zone_constraints
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataApstraDatacenterRoutingZoneConstraintsConfig extends cdktf.
   /**
   * Apstra Blueprint ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_routing_zone_constraints#blueprint_id DataApstraDatacenterRoutingZoneConstraints#blueprint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_routing_zone_constraints#blueprint_id DataApstraDatacenterRoutingZoneConstraints#blueprint_id}
   */
   readonly blueprintId: string;
   /**
   * List of filters used to select only desired node IDs. For a node to match a filter, all specified attributes must match (each attribute within a filter is AND-ed together). The returned node IDs represent the nodes matched by all of the filters together (filters are OR-ed together).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_routing_zone_constraints#filters DataApstraDatacenterRoutingZoneConstraints#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_routing_zone_constraints#filters DataApstraDatacenterRoutingZoneConstraints#filters}
   */
   readonly filters?: DataApstraDatacenterRoutingZoneConstraintsFilters[] | cdktf.IResolvable;
 }
@@ -24,25 +24,25 @@ export interface DataApstraDatacenterRoutingZoneConstraintsFilters {
   /**
   * Set of Routing Zone IDs. All Routing Zones supplied here are used to match the Routing Zone Constraint, but a matching Routing Zone Constraintmay have additional Security Zones not enumerated in this set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_routing_zone_constraints#constraints DataApstraDatacenterRoutingZoneConstraints#constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_routing_zone_constraints#constraints DataApstraDatacenterRoutingZoneConstraints#constraints}
   */
   readonly constraints?: string[];
   /**
   * The maximum number of Routing Zones that the Application Point can be part of.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_routing_zone_constraints#max_count_constraint DataApstraDatacenterRoutingZoneConstraints#max_count_constraint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_routing_zone_constraints#max_count_constraint DataApstraDatacenterRoutingZoneConstraints#max_count_constraint}
   */
   readonly maxCountConstraint?: number;
   /**
   * Name displayed in the Apstra web UI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_routing_zone_constraints#name DataApstraDatacenterRoutingZoneConstraints#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_routing_zone_constraints#name DataApstraDatacenterRoutingZoneConstraints#name}
   */
   readonly name?: string;
   /**
   * Routing Zone constraint mode. One of: `allow`, `deny`, `none`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_routing_zone_constraints#routing_zones_list_constraint DataApstraDatacenterRoutingZoneConstraints#routing_zones_list_constraint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_routing_zone_constraints#routing_zones_list_constraint DataApstraDatacenterRoutingZoneConstraints#routing_zones_list_constraint}
   */
   readonly routingZonesListConstraint?: string;
 }
@@ -255,7 +255,7 @@ export class DataApstraDatacenterRoutingZoneConstraintsFiltersList extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_routing_zone_constraints apstra_datacenter_routing_zone_constraints}
+* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_routing_zone_constraints apstra_datacenter_routing_zone_constraints}
 */
 export class DataApstraDatacenterRoutingZoneConstraints extends cdktf.TerraformDataSource {
 
@@ -271,7 +271,7 @@ export class DataApstraDatacenterRoutingZoneConstraints extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataApstraDatacenterRoutingZoneConstraints resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataApstraDatacenterRoutingZoneConstraints to import
-  * @param importFromId The id of the existing DataApstraDatacenterRoutingZoneConstraints that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_routing_zone_constraints#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataApstraDatacenterRoutingZoneConstraints that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_routing_zone_constraints#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataApstraDatacenterRoutingZoneConstraints to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -283,7 +283,7 @@ export class DataApstraDatacenterRoutingZoneConstraints extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_routing_zone_constraints apstra_datacenter_routing_zone_constraints} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_routing_zone_constraints apstra_datacenter_routing_zone_constraints} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -294,7 +294,8 @@ export class DataApstraDatacenterRoutingZoneConstraints extends cdktf.TerraformD
       terraformResourceType: 'apstra_datacenter_routing_zone_constraints',
       terraformGeneratorMetadata: {
         providerName: 'apstra',
-        providerVersion: '0.95.0'
+        providerVersion: '0.95.1',
+        providerVersionConstraint: '0.95.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

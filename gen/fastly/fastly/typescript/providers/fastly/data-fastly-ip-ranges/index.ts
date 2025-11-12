@@ -56,7 +56,8 @@ export class DataFastlyIpRanges extends cdktf.TerraformDataSource {
       terraformResourceType: 'fastly_ip_ranges',
       terraformGeneratorMetadata: {
         providerName: 'fastly',
-        providerVersion: '8.4.0'
+        providerVersion: '8.4.0',
+        providerVersionConstraint: '8.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

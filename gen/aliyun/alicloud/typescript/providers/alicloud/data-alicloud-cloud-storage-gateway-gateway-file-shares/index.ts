@@ -452,7 +452,8 @@ export class DataAlicloudCloudStorageGatewayGatewayFileShares extends cdktf.Terr
       terraformResourceType: 'alicloud_cloud_storage_gateway_gateway_file_shares',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

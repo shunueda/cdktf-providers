@@ -311,7 +311,8 @@ export class DataThunderHarmonyControllerPartitionTenantInfoOper extends cdktf.T
       terraformResourceType: 'thunder_harmony_controller_partition_tenant_info_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -76,7 +76,8 @@ export class JsonGenericApi extends cdktf.TerraformResource {
       terraformResourceType: 'fortiswitch_json_generic_api',
       terraformGeneratorMetadata: {
         providerName: 'fortiswitch',
-        providerVersion: '1.1.6'
+        providerVersion: '1.1.6',
+        providerVersionConstraint: '1.1.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

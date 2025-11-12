@@ -407,7 +407,8 @@ export class Alert extends cdktf.TerraformResource {
       terraformResourceType: 'fastly_alert',
       terraformGeneratorMetadata: {
         providerName: 'fastly',
-        providerVersion: '8.4.0'
+        providerVersion: '8.4.0',
+        providerVersionConstraint: '8.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

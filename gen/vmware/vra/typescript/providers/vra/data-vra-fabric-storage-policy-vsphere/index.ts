@@ -145,7 +145,8 @@ export class DataVraFabricStoragePolicyVsphere extends cdktf.TerraformDataSource
       terraformResourceType: 'vra_fabric_storage_policy_vsphere',
       terraformGeneratorMetadata: {
         providerName: 'vra',
-        providerVersion: '0.15.0'
+        providerVersion: '0.15.0',
+        providerVersionConstraint: '0.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

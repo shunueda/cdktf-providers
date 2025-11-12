@@ -1681,7 +1681,8 @@ export class DataRenderWebService extends cdktf.TerraformDataSource {
       terraformResourceType: 'render_web_service',
       terraformGeneratorMetadata: {
         providerName: 'render',
-        providerVersion: '1.7.5'
+        providerVersion: '1.7.5',
+        providerVersionConstraint: '1.7.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

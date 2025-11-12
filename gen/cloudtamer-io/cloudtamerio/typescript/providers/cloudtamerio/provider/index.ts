@@ -73,7 +73,8 @@ export class CloudtamerioProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'cloudtamerio',
       terraformGeneratorMetadata: {
         providerName: 'cloudtamerio',
-        providerVersion: '0.2.0'
+        providerVersion: '0.2.0',
+        providerVersionConstraint: '0.2.0'
       },
       terraformProviderSource: 'cloudtamer-io/cloudtamerio'
     });

@@ -348,7 +348,8 @@ export class DataK8SNetworkingGkeIoManagedCertificateV1Manifest extends cdktf.Te
       terraformResourceType: 'k8s_networking_gke_io_managed_certificate_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

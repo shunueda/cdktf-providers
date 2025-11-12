@@ -378,7 +378,8 @@ export class Stream extends cdktf.TerraformResource {
       terraformResourceType: 'timeplus_stream',
       terraformGeneratorMetadata: {
         providerName: 'timeplus',
-        providerVersion: '0.1.6'
+        providerVersion: '0.1.6',
+        providerVersionConstraint: '0.1.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

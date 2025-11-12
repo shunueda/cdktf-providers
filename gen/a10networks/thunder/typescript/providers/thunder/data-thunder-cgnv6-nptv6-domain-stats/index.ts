@@ -329,7 +329,8 @@ export class DataThunderCgnv6Nptv6DomainStats extends cdktf.TerraformDataSource 
       terraformResourceType: 'thunder_cgnv6_nptv6_domain_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -103,7 +103,8 @@ export class CriblioProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'criblio',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.18.21'
+        providerVersion: '1.18.21',
+        providerVersionConstraint: '1.18.21'
       },
       terraformProviderSource: 'criblio/criblio'
     });

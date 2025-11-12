@@ -405,7 +405,8 @@ export class EpgUsegIpAttribute extends cdktf.TerraformResource {
       terraformResourceType: 'aci_epg_useg_ip_attribute',
       terraformGeneratorMetadata: {
         providerName: 'aci',
-        providerVersion: '2.18.0'
+        providerVersion: '2.18.0',
+        providerVersionConstraint: '2.18.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

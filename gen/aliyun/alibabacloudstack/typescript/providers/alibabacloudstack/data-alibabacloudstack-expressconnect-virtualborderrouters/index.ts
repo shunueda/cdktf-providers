@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/expressconnect_virtualborderrouters
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/expressconnect_virtualborderrouters
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,32 +8,32 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlibabacloudstackExpressconnectVirtualborderroutersConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/expressconnect_virtualborderrouters#id DataAlibabacloudstackExpressconnectVirtualborderrouters#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/expressconnect_virtualborderrouters#id DataAlibabacloudstackExpressconnectVirtualborderrouters#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/expressconnect_virtualborderrouters#ids DataAlibabacloudstackExpressconnectVirtualborderrouters#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/expressconnect_virtualborderrouters#ids DataAlibabacloudstackExpressconnectVirtualborderrouters#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/expressconnect_virtualborderrouters#name_regex DataAlibabacloudstackExpressconnectVirtualborderrouters#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/expressconnect_virtualborderrouters#name_regex DataAlibabacloudstackExpressconnectVirtualborderrouters#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/expressconnect_virtualborderrouters#output_file DataAlibabacloudstackExpressconnectVirtualborderrouters#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/expressconnect_virtualborderrouters#output_file DataAlibabacloudstackExpressconnectVirtualborderrouters#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/expressconnect_virtualborderrouters#status DataAlibabacloudstackExpressconnectVirtualborderrouters#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/expressconnect_virtualborderrouters#status DataAlibabacloudstackExpressconnectVirtualborderrouters#status}
   */
   readonly status?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/expressconnect_virtualborderrouters#filter DataAlibabacloudstackExpressconnectVirtualborderrouters#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/expressconnect_virtualborderrouters#filter DataAlibabacloudstackExpressconnectVirtualborderrouters#filter}
   */
   readonly filter?: DataAlibabacloudstackExpressconnectVirtualborderroutersFilter[] | cdktf.IResolvable;
 }
@@ -269,11 +269,11 @@ export class DataAlibabacloudstackExpressconnectVirtualborderroutersRoutersList 
 }
 export interface DataAlibabacloudstackExpressconnectVirtualborderroutersFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/expressconnect_virtualborderrouters#key DataAlibabacloudstackExpressconnectVirtualborderrouters#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/expressconnect_virtualborderrouters#key DataAlibabacloudstackExpressconnectVirtualborderrouters#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/expressconnect_virtualborderrouters#values DataAlibabacloudstackExpressconnectVirtualborderrouters#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/expressconnect_virtualborderrouters#values DataAlibabacloudstackExpressconnectVirtualborderrouters#values}
   */
   readonly values?: string[];
 }
@@ -418,7 +418,7 @@ export class DataAlibabacloudstackExpressconnectVirtualborderroutersFilterList e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/expressconnect_virtualborderrouters alibabacloudstack_expressconnect_virtualborderrouters}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/expressconnect_virtualborderrouters alibabacloudstack_expressconnect_virtualborderrouters}
 */
 export class DataAlibabacloudstackExpressconnectVirtualborderrouters extends cdktf.TerraformDataSource {
 
@@ -434,7 +434,7 @@ export class DataAlibabacloudstackExpressconnectVirtualborderrouters extends cdk
   * Generates CDKTF code for importing a DataAlibabacloudstackExpressconnectVirtualborderrouters resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlibabacloudstackExpressconnectVirtualborderrouters to import
-  * @param importFromId The id of the existing DataAlibabacloudstackExpressconnectVirtualborderrouters that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/expressconnect_virtualborderrouters#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlibabacloudstackExpressconnectVirtualborderrouters that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/expressconnect_virtualborderrouters#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlibabacloudstackExpressconnectVirtualborderrouters to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -446,7 +446,7 @@ export class DataAlibabacloudstackExpressconnectVirtualborderrouters extends cdk
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/expressconnect_virtualborderrouters alibabacloudstack_expressconnect_virtualborderrouters} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/expressconnect_virtualborderrouters alibabacloudstack_expressconnect_virtualborderrouters} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -457,7 +457,8 @@ export class DataAlibabacloudstackExpressconnectVirtualborderrouters extends cdk
       terraformResourceType: 'alibabacloudstack_expressconnect_virtualborderrouters',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.19'
+        providerVersion: '3.16.21',
+        providerVersionConstraint: '3.16.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

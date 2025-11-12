@@ -684,7 +684,8 @@ export class DataK8SDexGpuNinjaComDexOAuth2ClientV1Alpha1Manifest extends cdktf.
       terraformResourceType: 'k8s_dex_gpu_ninja_com_dex_o_auth2_client_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

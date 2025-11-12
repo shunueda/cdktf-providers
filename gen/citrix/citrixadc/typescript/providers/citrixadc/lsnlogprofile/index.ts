@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lsnlogprofile
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lsnlogprofile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface LsnlogprofileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lsnlogprofile#analyticsprofile Lsnlogprofile#analyticsprofile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lsnlogprofile#analyticsprofile Lsnlogprofile#analyticsprofile}
   */
   readonly analyticsprofile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lsnlogprofile#id Lsnlogprofile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lsnlogprofile#id Lsnlogprofile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lsnlogprofile#logcompact Lsnlogprofile#logcompact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lsnlogprofile#logcompact Lsnlogprofile#logcompact}
   */
   readonly logcompact?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lsnlogprofile#logipfix Lsnlogprofile#logipfix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lsnlogprofile#logipfix Lsnlogprofile#logipfix}
   */
   readonly logipfix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lsnlogprofile#logprofilename Lsnlogprofile#logprofilename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lsnlogprofile#logprofilename Lsnlogprofile#logprofilename}
   */
   readonly logprofilename: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lsnlogprofile#logsessdeletion Lsnlogprofile#logsessdeletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lsnlogprofile#logsessdeletion Lsnlogprofile#logsessdeletion}
   */
   readonly logsessdeletion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lsnlogprofile#logsubscrinfo Lsnlogprofile#logsubscrinfo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lsnlogprofile#logsubscrinfo Lsnlogprofile#logsubscrinfo}
   */
   readonly logsubscrinfo?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lsnlogprofile citrixadc_lsnlogprofile}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lsnlogprofile citrixadc_lsnlogprofile}
 */
 export class Lsnlogprofile extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class Lsnlogprofile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Lsnlogprofile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Lsnlogprofile to import
-  * @param importFromId The id of the existing Lsnlogprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lsnlogprofile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Lsnlogprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lsnlogprofile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Lsnlogprofile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class Lsnlogprofile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lsnlogprofile citrixadc_lsnlogprofile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lsnlogprofile citrixadc_lsnlogprofile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,7 +80,8 @@ export class Lsnlogprofile extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_lsnlogprofile',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

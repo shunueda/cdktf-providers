@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_virtual_networks
+// https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_virtual_networks
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataApstraDatacenterVirtualNetworksConfig extends cdktf.Terrafo
   /**
   * Apstra Blueprint ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_virtual_networks#blueprint_id DataApstraDatacenterVirtualNetworks#blueprint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_virtual_networks#blueprint_id DataApstraDatacenterVirtualNetworks#blueprint_id}
   */
   readonly blueprintId: string;
   /**
   * Virtual Network attributes used as filter. At least one filter attribute must be included when this attribute is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_virtual_networks#filter DataApstraDatacenterVirtualNetworks#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_virtual_networks#filter DataApstraDatacenterVirtualNetworks#filter}
   */
   readonly filter?: DataApstraDatacenterVirtualNetworksFilter;
   /**
   * List of filters used to select only desired node IDs. For a node to match a filter, all specified attributes must match (each attribute within a filter is AND-ed together). The returned node IDs represent the nodes matched by all of the filters together (filters are OR-ed together).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_virtual_networks#filters DataApstraDatacenterVirtualNetworks#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_virtual_networks#filters DataApstraDatacenterVirtualNetworks#filters}
   */
   readonly filters?: DataApstraDatacenterVirtualNetworksFilters[] | cdktf.IResolvable;
 }
@@ -98,121 +98,121 @@ export interface DataApstraDatacenterVirtualNetworksFilter {
   /**
   * Virtual Network Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_virtual_networks#description DataApstraDatacenterVirtualNetworks#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_virtual_networks#description DataApstraDatacenterVirtualNetworks#description}
   */
   readonly description?: string;
   /**
   * Enables a DHCP relay agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_virtual_networks#dhcp_service_enabled DataApstraDatacenterVirtualNetworks#dhcp_service_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_virtual_networks#dhcp_service_enabled DataApstraDatacenterVirtualNetworks#dhcp_service_enabled}
   */
   readonly dhcpServiceEnabled?: boolean | cdktf.IResolvable;
   /**
   * This is a set of *required* export RTs, not an exact-match list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_virtual_networks#export_route_targets DataApstraDatacenterVirtualNetworks#export_route_targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_virtual_networks#export_route_targets DataApstraDatacenterVirtualNetworks#export_route_targets}
   */
   readonly exportRouteTargets?: string[];
   /**
   * This is a set of *required* import RTs, not an exact-match list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_virtual_networks#import_route_targets DataApstraDatacenterVirtualNetworks#import_route_targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_virtual_networks#import_route_targets DataApstraDatacenterVirtualNetworks#import_route_targets}
   */
   readonly importRouteTargets?: string[];
   /**
   * Enables IPv4 within the Virtual Network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_virtual_networks#ipv4_connectivity_enabled DataApstraDatacenterVirtualNetworks#ipv4_connectivity_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_virtual_networks#ipv4_connectivity_enabled DataApstraDatacenterVirtualNetworks#ipv4_connectivity_enabled}
   */
   readonly ipv4ConnectivityEnabled?: boolean | cdktf.IResolvable;
   /**
   * IPv4 subnet associated with the Virtual Network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_virtual_networks#ipv4_subnet DataApstraDatacenterVirtualNetworks#ipv4_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_virtual_networks#ipv4_subnet DataApstraDatacenterVirtualNetworks#ipv4_subnet}
   */
   readonly ipv4Subnet?: string;
   /**
   * Specifies the IPv4 virtual gateway address within the Virtual Network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_virtual_networks#ipv4_virtual_gateway DataApstraDatacenterVirtualNetworks#ipv4_virtual_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_virtual_networks#ipv4_virtual_gateway DataApstraDatacenterVirtualNetworks#ipv4_virtual_gateway}
   */
   readonly ipv4VirtualGateway?: string;
   /**
   * Controls and indicates whether the IPv4 gateway within the Virtual Network is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_virtual_networks#ipv4_virtual_gateway_enabled DataApstraDatacenterVirtualNetworks#ipv4_virtual_gateway_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_virtual_networks#ipv4_virtual_gateway_enabled DataApstraDatacenterVirtualNetworks#ipv4_virtual_gateway_enabled}
   */
   readonly ipv4VirtualGatewayEnabled?: boolean | cdktf.IResolvable;
   /**
   * Enables IPv6 within the Virtual Network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_virtual_networks#ipv6_connectivity_enabled DataApstraDatacenterVirtualNetworks#ipv6_connectivity_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_virtual_networks#ipv6_connectivity_enabled DataApstraDatacenterVirtualNetworks#ipv6_connectivity_enabled}
   */
   readonly ipv6ConnectivityEnabled?: boolean | cdktf.IResolvable;
   /**
   * IPv6 subnet associated with the Virtual Network. Note that this attribute will not appear in the `graph_query` output because IPv6 zero compression rules are problematic for mechanisms which rely on string matching.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_virtual_networks#ipv6_subnet DataApstraDatacenterVirtualNetworks#ipv6_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_virtual_networks#ipv6_subnet DataApstraDatacenterVirtualNetworks#ipv6_subnet}
   */
   readonly ipv6Subnet?: string;
   /**
   * Specifies the IPv6 virtual gateway address within the Virtual Network. Note that this attribute will not appear in the `graph_query` output because IPv6 zero compression rules are problematic for mechanisms which rely on string matching.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_virtual_networks#ipv6_virtual_gateway DataApstraDatacenterVirtualNetworks#ipv6_virtual_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_virtual_networks#ipv6_virtual_gateway DataApstraDatacenterVirtualNetworks#ipv6_virtual_gateway}
   */
   readonly ipv6VirtualGateway?: string;
   /**
   * Controls and indicates whether the IPv6 gateway within the Virtual Network is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_virtual_networks#ipv6_virtual_gateway_enabled DataApstraDatacenterVirtualNetworks#ipv6_virtual_gateway_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_virtual_networks#ipv6_virtual_gateway_enabled DataApstraDatacenterVirtualNetworks#ipv6_virtual_gateway_enabled}
   */
   readonly ipv6VirtualGatewayEnabled?: boolean | cdktf.IResolvable;
   /**
   * L3 MTU used by the L3 switch interfaces participating in the Virtual Network. Requires Apstra 4.2 or later.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_virtual_networks#l3_mtu DataApstraDatacenterVirtualNetworks#l3_mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_virtual_networks#l3_mtu DataApstraDatacenterVirtualNetworks#l3_mtu}
   */
   readonly l3Mtu?: number;
   /**
   * Virtual Network Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_virtual_networks#name DataApstraDatacenterVirtualNetworks#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_virtual_networks#name DataApstraDatacenterVirtualNetworks#name}
   */
   readonly name?: string;
   /**
   * Selects only virtual networks with the *Reserve across blueprint* box checked.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_virtual_networks#reserve_vlan DataApstraDatacenterVirtualNetworks#reserve_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_virtual_networks#reserve_vlan DataApstraDatacenterVirtualNetworks#reserve_vlan}
   */
   readonly reserveVlan?: boolean | cdktf.IResolvable;
   /**
   * Selects only virtual networks with the *Reserve across blueprint* box checked and this value selected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_virtual_networks#reserved_vlan_id DataApstraDatacenterVirtualNetworks#reserved_vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_virtual_networks#reserved_vlan_id DataApstraDatacenterVirtualNetworks#reserved_vlan_id}
   */
   readonly reservedVlanId?: number;
   /**
   * Routing Zone ID (required when `type == vxlan`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_virtual_networks#routing_zone_id DataApstraDatacenterVirtualNetworks#routing_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_virtual_networks#routing_zone_id DataApstraDatacenterVirtualNetworks#routing_zone_id}
   */
   readonly routingZoneId?: string;
   /**
   * Set of Tags. All tags supplied here are used to match the Virtual Network, but a matching Virtual Network may have additional tags not enumerated in this set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_virtual_networks#tags DataApstraDatacenterVirtualNetworks#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_virtual_networks#tags DataApstraDatacenterVirtualNetworks#tags}
   */
   readonly tags?: string[];
   /**
   * Virtual Network Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_virtual_networks#type DataApstraDatacenterVirtualNetworks#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_virtual_networks#type DataApstraDatacenterVirtualNetworks#type}
   */
   readonly type?: string;
   /**
   * EVPN Virtual Network ID to be associated with this Virtual Network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_virtual_networks#vni DataApstraDatacenterVirtualNetworks#vni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_virtual_networks#vni DataApstraDatacenterVirtualNetworks#vni}
   */
   readonly vni?: number;
 }
@@ -948,121 +948,121 @@ export interface DataApstraDatacenterVirtualNetworksFilters {
   /**
   * Virtual Network Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_virtual_networks#description DataApstraDatacenterVirtualNetworks#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_virtual_networks#description DataApstraDatacenterVirtualNetworks#description}
   */
   readonly description?: string;
   /**
   * Enables a DHCP relay agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_virtual_networks#dhcp_service_enabled DataApstraDatacenterVirtualNetworks#dhcp_service_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_virtual_networks#dhcp_service_enabled DataApstraDatacenterVirtualNetworks#dhcp_service_enabled}
   */
   readonly dhcpServiceEnabled?: boolean | cdktf.IResolvable;
   /**
   * This is a set of *required* export RTs, not an exact-match list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_virtual_networks#export_route_targets DataApstraDatacenterVirtualNetworks#export_route_targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_virtual_networks#export_route_targets DataApstraDatacenterVirtualNetworks#export_route_targets}
   */
   readonly exportRouteTargets?: string[];
   /**
   * This is a set of *required* import RTs, not an exact-match list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_virtual_networks#import_route_targets DataApstraDatacenterVirtualNetworks#import_route_targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_virtual_networks#import_route_targets DataApstraDatacenterVirtualNetworks#import_route_targets}
   */
   readonly importRouteTargets?: string[];
   /**
   * Enables IPv4 within the Virtual Network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_virtual_networks#ipv4_connectivity_enabled DataApstraDatacenterVirtualNetworks#ipv4_connectivity_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_virtual_networks#ipv4_connectivity_enabled DataApstraDatacenterVirtualNetworks#ipv4_connectivity_enabled}
   */
   readonly ipv4ConnectivityEnabled?: boolean | cdktf.IResolvable;
   /**
   * IPv4 subnet associated with the Virtual Network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_virtual_networks#ipv4_subnet DataApstraDatacenterVirtualNetworks#ipv4_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_virtual_networks#ipv4_subnet DataApstraDatacenterVirtualNetworks#ipv4_subnet}
   */
   readonly ipv4Subnet?: string;
   /**
   * Specifies the IPv4 virtual gateway address within the Virtual Network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_virtual_networks#ipv4_virtual_gateway DataApstraDatacenterVirtualNetworks#ipv4_virtual_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_virtual_networks#ipv4_virtual_gateway DataApstraDatacenterVirtualNetworks#ipv4_virtual_gateway}
   */
   readonly ipv4VirtualGateway?: string;
   /**
   * Controls and indicates whether the IPv4 gateway within the Virtual Network is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_virtual_networks#ipv4_virtual_gateway_enabled DataApstraDatacenterVirtualNetworks#ipv4_virtual_gateway_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_virtual_networks#ipv4_virtual_gateway_enabled DataApstraDatacenterVirtualNetworks#ipv4_virtual_gateway_enabled}
   */
   readonly ipv4VirtualGatewayEnabled?: boolean | cdktf.IResolvable;
   /**
   * Enables IPv6 within the Virtual Network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_virtual_networks#ipv6_connectivity_enabled DataApstraDatacenterVirtualNetworks#ipv6_connectivity_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_virtual_networks#ipv6_connectivity_enabled DataApstraDatacenterVirtualNetworks#ipv6_connectivity_enabled}
   */
   readonly ipv6ConnectivityEnabled?: boolean | cdktf.IResolvable;
   /**
   * IPv6 subnet associated with the Virtual Network. Note that this attribute will not appear in the `graph_query` output because IPv6 zero compression rules are problematic for mechanisms which rely on string matching.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_virtual_networks#ipv6_subnet DataApstraDatacenterVirtualNetworks#ipv6_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_virtual_networks#ipv6_subnet DataApstraDatacenterVirtualNetworks#ipv6_subnet}
   */
   readonly ipv6Subnet?: string;
   /**
   * Specifies the IPv6 virtual gateway address within the Virtual Network. Note that this attribute will not appear in the `graph_query` output because IPv6 zero compression rules are problematic for mechanisms which rely on string matching.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_virtual_networks#ipv6_virtual_gateway DataApstraDatacenterVirtualNetworks#ipv6_virtual_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_virtual_networks#ipv6_virtual_gateway DataApstraDatacenterVirtualNetworks#ipv6_virtual_gateway}
   */
   readonly ipv6VirtualGateway?: string;
   /**
   * Controls and indicates whether the IPv6 gateway within the Virtual Network is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_virtual_networks#ipv6_virtual_gateway_enabled DataApstraDatacenterVirtualNetworks#ipv6_virtual_gateway_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_virtual_networks#ipv6_virtual_gateway_enabled DataApstraDatacenterVirtualNetworks#ipv6_virtual_gateway_enabled}
   */
   readonly ipv6VirtualGatewayEnabled?: boolean | cdktf.IResolvable;
   /**
   * L3 MTU used by the L3 switch interfaces participating in the Virtual Network. Requires Apstra 4.2 or later.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_virtual_networks#l3_mtu DataApstraDatacenterVirtualNetworks#l3_mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_virtual_networks#l3_mtu DataApstraDatacenterVirtualNetworks#l3_mtu}
   */
   readonly l3Mtu?: number;
   /**
   * Virtual Network Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_virtual_networks#name DataApstraDatacenterVirtualNetworks#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_virtual_networks#name DataApstraDatacenterVirtualNetworks#name}
   */
   readonly name?: string;
   /**
   * Selects only virtual networks with the *Reserve across blueprint* box checked.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_virtual_networks#reserve_vlan DataApstraDatacenterVirtualNetworks#reserve_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_virtual_networks#reserve_vlan DataApstraDatacenterVirtualNetworks#reserve_vlan}
   */
   readonly reserveVlan?: boolean | cdktf.IResolvable;
   /**
   * Selects only virtual networks with the *Reserve across blueprint* box checked and this value selected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_virtual_networks#reserved_vlan_id DataApstraDatacenterVirtualNetworks#reserved_vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_virtual_networks#reserved_vlan_id DataApstraDatacenterVirtualNetworks#reserved_vlan_id}
   */
   readonly reservedVlanId?: number;
   /**
   * Routing Zone ID (required when `type == vxlan`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_virtual_networks#routing_zone_id DataApstraDatacenterVirtualNetworks#routing_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_virtual_networks#routing_zone_id DataApstraDatacenterVirtualNetworks#routing_zone_id}
   */
   readonly routingZoneId?: string;
   /**
   * Set of Tags. All tags supplied here are used to match the Virtual Network, but a matching Virtual Network may have additional tags not enumerated in this set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_virtual_networks#tags DataApstraDatacenterVirtualNetworks#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_virtual_networks#tags DataApstraDatacenterVirtualNetworks#tags}
   */
   readonly tags?: string[];
   /**
   * Virtual Network Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_virtual_networks#type DataApstraDatacenterVirtualNetworks#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_virtual_networks#type DataApstraDatacenterVirtualNetworks#type}
   */
   readonly type?: string;
   /**
   * EVPN Virtual Network ID to be associated with this Virtual Network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_virtual_networks#vni DataApstraDatacenterVirtualNetworks#vni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_virtual_networks#vni DataApstraDatacenterVirtualNetworks#vni}
   */
   readonly vni?: number;
 }
@@ -1750,7 +1750,7 @@ export class DataApstraDatacenterVirtualNetworksFiltersList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_virtual_networks apstra_datacenter_virtual_networks}
+* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_virtual_networks apstra_datacenter_virtual_networks}
 */
 export class DataApstraDatacenterVirtualNetworks extends cdktf.TerraformDataSource {
 
@@ -1766,7 +1766,7 @@ export class DataApstraDatacenterVirtualNetworks extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataApstraDatacenterVirtualNetworks resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataApstraDatacenterVirtualNetworks to import
-  * @param importFromId The id of the existing DataApstraDatacenterVirtualNetworks that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_virtual_networks#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataApstraDatacenterVirtualNetworks that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_virtual_networks#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataApstraDatacenterVirtualNetworks to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1778,7 +1778,7 @@ export class DataApstraDatacenterVirtualNetworks extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_virtual_networks apstra_datacenter_virtual_networks} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_virtual_networks apstra_datacenter_virtual_networks} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1789,7 +1789,8 @@ export class DataApstraDatacenterVirtualNetworks extends cdktf.TerraformDataSour
       terraformResourceType: 'apstra_datacenter_virtual_networks',
       terraformGeneratorMetadata: {
         providerName: 'apstra',
-        providerVersion: '0.95.0'
+        providerVersion: '0.95.1',
+        providerVersionConstraint: '0.95.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -2718,7 +2718,8 @@ export class DataSaviyntEndpointsDatasource extends cdktf.TerraformDataSource {
       terraformResourceType: 'saviynt_endpoints_datasource',
       terraformGeneratorMetadata: {
         providerName: 'saviynt',
-        providerVersion: '0.2.13'
+        providerVersion: '0.2.13',
+        providerVersionConstraint: '0.2.13'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -98,7 +98,8 @@ export class SwitchQosRule extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_switch_qos_rule',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1'
+        providerVersion: '1.7.1',
+        providerVersionConstraint: '1.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

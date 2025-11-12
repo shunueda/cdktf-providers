@@ -76,7 +76,8 @@ export class ApiAccountsSipIpAccessControlListsIpAddresses extends cdktf.Terrafo
       terraformResourceType: 'twilio_api_accounts_sip_ip_access_control_lists_ip_addresses',
       terraformGeneratorMetadata: {
         providerName: 'twilio',
-        providerVersion: '0.18.46'
+        providerVersion: '0.18.46',
+        providerVersionConstraint: '0.18.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

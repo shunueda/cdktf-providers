@@ -68,7 +68,8 @@ export class DataGridscaleIpv4 extends cdktf.TerraformDataSource {
       terraformResourceType: 'gridscale_ipv4',
       terraformGeneratorMetadata: {
         providerName: 'gridscale',
-        providerVersion: '2.2.3'
+        providerVersion: '2.2.3',
+        providerVersionConstraint: '2.2.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

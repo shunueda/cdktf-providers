@@ -9960,7 +9960,8 @@ export class DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest extends cdktf.Terrafo
       terraformResourceType: 'k8s_mariadb_mmontes_io_sql_job_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

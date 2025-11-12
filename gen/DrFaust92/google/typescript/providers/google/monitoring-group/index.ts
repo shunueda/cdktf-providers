@@ -256,7 +256,8 @@ export class MonitoringGroup extends cdktf.TerraformResource {
       terraformResourceType: 'google_monitoring_group',
       terraformGeneratorMetadata: {
         providerName: 'google',
-        providerVersion: '4.16.4'
+        providerVersion: '4.16.4',
+        providerVersionConstraint: '4.16.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -100,7 +100,8 @@ export class LogFortiguardOverridesetting extends cdktf.TerraformResource {
       terraformResourceType: 'fmgdevice_log_fortiguard_overridesetting',
       terraformGeneratorMetadata: {
         providerName: 'fmgdevice',
-        providerVersion: '1.2.1'
+        providerVersion: '1.2.1',
+        providerVersionConstraint: '1.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -68,7 +68,8 @@ export class SecurityGroup extends cdktf.TerraformResource {
       terraformResourceType: 'zenlayercloud_security_group',
       terraformGeneratorMetadata: {
         providerName: 'zenlayercloud',
-        providerVersion: '0.2.8'
+        providerVersion: '0.2.8',
+        providerVersionConstraint: '0.2.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

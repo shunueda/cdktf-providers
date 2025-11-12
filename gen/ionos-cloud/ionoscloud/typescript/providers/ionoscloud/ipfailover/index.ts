@@ -275,7 +275,8 @@ export class Ipfailover extends cdktf.TerraformResource {
       terraformResourceType: 'ionoscloud_ipfailover',
       terraformGeneratorMetadata: {
         providerName: 'ionoscloud',
-        providerVersion: '6.7.20'
+        providerVersion: '6.7.20',
+        providerVersionConstraint: '6.7.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

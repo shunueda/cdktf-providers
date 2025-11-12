@@ -233,7 +233,8 @@ export class DataMergeMerge extends cdktf.TerraformDataSource {
       terraformResourceType: 'merge_merge',
       terraformGeneratorMetadata: {
         providerName: 'merge',
-        providerVersion: '0.1.1'
+        providerVersion: '0.1.1',
+        providerVersionConstraint: '0.1.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

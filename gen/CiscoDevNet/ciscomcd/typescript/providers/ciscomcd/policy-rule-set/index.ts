@@ -76,7 +76,8 @@ export class PolicyRuleSet extends cdktf.TerraformResource {
       terraformResourceType: 'ciscomcd_policy_rule_set',
       terraformGeneratorMetadata: {
         providerName: 'ciscomcd',
-        providerVersion: '25.9.2'
+        providerVersion: '25.9.2',
+        providerVersionConstraint: '25.9.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

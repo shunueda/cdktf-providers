@@ -197,7 +197,8 @@ export class CenBandwidthPackageAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_cen_bandwidth_package_attachment',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

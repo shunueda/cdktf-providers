@@ -73,7 +73,8 @@ export class DataRadarrAutoTagConditionGenres extends cdktf.TerraformDataSource 
       terraformResourceType: 'radarr_auto_tag_condition_genres',
       terraformGeneratorMetadata: {
         providerName: 'radarr',
-        providerVersion: '2.3.3'
+        providerVersion: '2.3.3',
+        providerVersionConstraint: '2.3.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

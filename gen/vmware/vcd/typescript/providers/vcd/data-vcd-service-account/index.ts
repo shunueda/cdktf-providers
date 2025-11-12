@@ -68,7 +68,8 @@ export class DataVcdServiceAccount extends cdktf.TerraformDataSource {
       terraformResourceType: 'vcd_service_account',
       terraformGeneratorMetadata: {
         providerName: 'vcd',
-        providerVersion: '3.14.1'
+        providerVersion: '3.14.1',
+        providerVersionConstraint: '3.14.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -64,7 +64,8 @@ export class TrusthubTrustProductsEntityAssignmentsV1 extends cdktf.TerraformRes
       terraformResourceType: 'twilio_trusthub_trust_products_entity_assignments_v1',
       terraformGeneratorMetadata: {
         providerName: 'twilio',
-        providerVersion: '0.18.46'
+        providerVersion: '0.18.46',
+        providerVersionConstraint: '0.18.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

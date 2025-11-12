@@ -104,7 +104,8 @@ export class NsxtSegmentProfileTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'vcd_nsxt_segment_profile_template',
       terraformGeneratorMetadata: {
         providerName: 'vcd',
-        providerVersion: '3.14.1'
+        providerVersion: '3.14.1',
+        providerVersionConstraint: '3.14.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

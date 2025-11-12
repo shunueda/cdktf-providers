@@ -68,7 +68,8 @@ export class Ltk extends cdktf.TerraformResource {
       terraformResourceType: 'alks_ltk',
       terraformGeneratorMetadata: {
         providerName: 'alks',
-        providerVersion: '2.8.2'
+        providerVersion: '2.8.2',
+        providerVersionConstraint: '2.8.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

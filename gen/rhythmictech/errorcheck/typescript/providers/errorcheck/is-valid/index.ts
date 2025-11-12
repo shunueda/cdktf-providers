@@ -64,7 +64,8 @@ export class IsValid extends cdktf.TerraformResource {
       terraformResourceType: 'errorcheck_is_valid',
       terraformGeneratorMetadata: {
         providerName: 'errorcheck',
-        providerVersion: '3.0.0'
+        providerVersion: '3.0.0',
+        providerVersionConstraint: '3.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -210,7 +210,8 @@ export class DataTencentcloudSesSendEmailStatus extends cdktf.TerraformDataSourc
       terraformResourceType: 'tencentcloud_ses_send_email_status',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -218,7 +218,8 @@ export class DataAlicloudOosStateConfigurations extends cdktf.TerraformDataSourc
       terraformResourceType: 'alicloud_oos_state_configurations',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

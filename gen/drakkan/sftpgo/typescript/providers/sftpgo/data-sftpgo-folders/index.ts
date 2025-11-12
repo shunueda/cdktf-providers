@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/data-sources/folders
+// https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/data-sources/folders
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -179,6 +179,80 @@ export class DataSftpgoFoldersFoldersFilesystemCryptconfigOutputReference extend
   // write_buffer_size - computed: true, optional: false, required: false
   public get writeBufferSize() {
     return this.getNumberAttribute('write_buffer_size');
+  }
+}
+export interface DataSftpgoFoldersFoldersFilesystemFtpconfig {
+}
+
+export function dataSftpgoFoldersFoldersFilesystemFtpconfigToTerraform(struct?: DataSftpgoFoldersFoldersFilesystemFtpconfig): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataSftpgoFoldersFoldersFilesystemFtpconfigToHclTerraform(struct?: DataSftpgoFoldersFoldersFilesystemFtpconfig): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataSftpgoFoldersFoldersFilesystemFtpconfigOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataSftpgoFoldersFoldersFilesystemFtpconfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataSftpgoFoldersFoldersFilesystemFtpconfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // endpoint - computed: true, optional: false, required: false
+  public get endpoint() {
+    return this.getStringAttribute('endpoint');
+  }
+
+  // password - computed: true, optional: false, required: false
+  public get password() {
+    return this.getStringAttribute('password');
+  }
+
+  // skip_tls_verify - computed: true, optional: false, required: false
+  public get skipTlsVerify() {
+    return this.getBooleanAttribute('skip_tls_verify');
+  }
+
+  // tls_mode - computed: true, optional: false, required: false
+  public get tlsMode() {
+    return this.getNumberAttribute('tls_mode');
+  }
+
+  // username - computed: true, optional: false, required: false
+  public get username() {
+    return this.getStringAttribute('username');
   }
 }
 export interface DataSftpgoFoldersFoldersFilesystemGcsconfig {
@@ -732,6 +806,12 @@ export class DataSftpgoFoldersFoldersFilesystemOutputReference extends cdktf.Com
     return this._cryptconfig;
   }
 
+  // ftpconfig - computed: true, optional: false, required: false
+  private _ftpconfig = new DataSftpgoFoldersFoldersFilesystemFtpconfigOutputReference(this, "ftpconfig");
+  public get ftpconfig() {
+    return this._ftpconfig;
+  }
+
   // gcsconfig - computed: true, optional: false, required: false
   private _gcsconfig = new DataSftpgoFoldersFoldersFilesystemGcsconfigOutputReference(this, "gcsconfig");
   public get gcsconfig() {
@@ -880,7 +960,7 @@ export class DataSftpgoFoldersFoldersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/data-sources/folders sftpgo_folders}
+* Represents a {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/data-sources/folders sftpgo_folders}
 */
 export class DataSftpgoFolders extends cdktf.TerraformDataSource {
 
@@ -896,7 +976,7 @@ export class DataSftpgoFolders extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSftpgoFolders resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSftpgoFolders to import
-  * @param importFromId The id of the existing DataSftpgoFolders that should be imported. Refer to the {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/data-sources/folders#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSftpgoFolders that should be imported. Refer to the {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/data-sources/folders#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSftpgoFolders to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -908,7 +988,7 @@ export class DataSftpgoFolders extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/data-sources/folders sftpgo_folders} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/data-sources/folders sftpgo_folders} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -919,7 +999,8 @@ export class DataSftpgoFolders extends cdktf.TerraformDataSource {
       terraformResourceType: 'sftpgo_folders',
       terraformGeneratorMetadata: {
         providerName: 'sftpgo',
-        providerVersion: '0.0.18'
+        providerVersion: '0.0.19',
+        providerVersionConstraint: '0.0.19'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

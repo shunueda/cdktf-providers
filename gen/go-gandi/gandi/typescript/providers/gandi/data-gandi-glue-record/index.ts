@@ -68,7 +68,8 @@ export class DataGandiGlueRecord extends cdktf.TerraformDataSource {
       terraformResourceType: 'gandi_glue_record',
       terraformGeneratorMetadata: {
         providerName: 'gandi',
-        providerVersion: '2.3.0'
+        providerVersion: '2.3.0',
+        providerVersionConstraint: '2.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

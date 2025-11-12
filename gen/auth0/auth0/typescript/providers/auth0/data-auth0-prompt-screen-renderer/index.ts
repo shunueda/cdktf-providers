@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/data-sources/prompt_screen_renderer
+// https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/data-sources/prompt_screen_renderer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataAuth0PromptScreenRendererConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/data-sources/prompt_screen_renderer#id DataAuth0PromptScreenRenderer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/data-sources/prompt_screen_renderer#id DataAuth0PromptScreenRenderer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataAuth0PromptScreenRendererConfig extends cdktf.TerraformMeta
   /**
   * The type of prompt to customize.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/data-sources/prompt_screen_renderer#prompt_type DataAuth0PromptScreenRenderer#prompt_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/data-sources/prompt_screen_renderer#prompt_type DataAuth0PromptScreenRenderer#prompt_type}
   */
   readonly promptType: string;
   /**
   * The screen name associated with the prompt type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/data-sources/prompt_screen_renderer#screen_name DataAuth0PromptScreenRenderer#screen_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/data-sources/prompt_screen_renderer#screen_name DataAuth0PromptScreenRenderer#screen_name}
   */
   readonly screenName: string;
 }
@@ -119,7 +119,7 @@ export class DataAuth0PromptScreenRendererFiltersList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/data-sources/prompt_screen_renderer auth0_prompt_screen_renderer}
+* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/data-sources/prompt_screen_renderer auth0_prompt_screen_renderer}
 */
 export class DataAuth0PromptScreenRenderer extends cdktf.TerraformDataSource {
 
@@ -135,7 +135,7 @@ export class DataAuth0PromptScreenRenderer extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAuth0PromptScreenRenderer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAuth0PromptScreenRenderer to import
-  * @param importFromId The id of the existing DataAuth0PromptScreenRenderer that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/data-sources/prompt_screen_renderer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAuth0PromptScreenRenderer that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/data-sources/prompt_screen_renderer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAuth0PromptScreenRenderer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -147,7 +147,7 @@ export class DataAuth0PromptScreenRenderer extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/data-sources/prompt_screen_renderer auth0_prompt_screen_renderer} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/data-sources/prompt_screen_renderer auth0_prompt_screen_renderer} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -158,7 +158,8 @@ export class DataAuth0PromptScreenRenderer extends cdktf.TerraformDataSource {
       terraformResourceType: 'auth0_prompt_screen_renderer',
       terraformGeneratorMetadata: {
         providerName: 'auth0',
-        providerVersion: '1.33.0'
+        providerVersion: '1.34.0',
+        providerVersionConstraint: '1.34.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

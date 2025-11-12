@@ -12995,7 +12995,8 @@ export class DataIntersightHciCluster extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_hci_cluster',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

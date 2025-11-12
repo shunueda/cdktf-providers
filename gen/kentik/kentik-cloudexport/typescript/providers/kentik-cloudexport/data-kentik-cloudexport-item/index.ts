@@ -583,7 +583,8 @@ export class DataKentikCloudexportItem extends cdktf.TerraformDataSource {
       terraformResourceType: 'kentik-cloudexport_item',
       terraformGeneratorMetadata: {
         providerName: 'kentik-cloudexport',
-        providerVersion: '0.4.1'
+        providerVersion: '0.4.1',
+        providerVersionConstraint: '0.4.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

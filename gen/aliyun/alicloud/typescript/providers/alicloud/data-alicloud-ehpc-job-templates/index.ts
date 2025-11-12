@@ -229,7 +229,8 @@ export class DataAlicloudEhpcJobTemplates extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_ehpc_job_templates',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -177,7 +177,8 @@ export class DataTencentcloudDbbrainSlowLogUserHostStats extends cdktf.Terraform
       terraformResourceType: 'tencentcloud_dbbrain_slow_log_user_host_stats',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

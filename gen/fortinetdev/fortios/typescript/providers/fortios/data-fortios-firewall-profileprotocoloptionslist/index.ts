@@ -64,7 +64,8 @@ export class DataFortiosFirewallProfileprotocoloptionslist extends cdktf.Terrafo
       terraformResourceType: 'fortios_firewall_profileprotocoloptionslist',
       terraformGeneratorMetadata: {
         providerName: 'fortios',
-        providerVersion: '1.23.0'
+        providerVersion: '1.23.0',
+        providerVersionConstraint: '1.23.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

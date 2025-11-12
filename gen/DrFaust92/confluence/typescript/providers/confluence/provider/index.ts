@@ -97,7 +97,8 @@ export class ConfluenceProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'confluence',
       terraformGeneratorMetadata: {
         providerName: 'confluence',
-        providerVersion: '0.2.1'
+        providerVersion: '0.2.1',
+        providerVersionConstraint: '0.2.1'
       },
       terraformProviderSource: 'DrFaust92/confluence'
     });

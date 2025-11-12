@@ -80,7 +80,8 @@ export class SnapshotLifecyclePolicy extends cdktf.TerraformResource {
       terraformResourceType: 'elasticsearch_snapshot_lifecycle_policy',
       terraformGeneratorMetadata: {
         providerName: 'elasticsearch',
-        providerVersion: '8.4.0'
+        providerVersion: '8.4.0',
+        providerVersionConstraint: '8.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

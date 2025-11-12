@@ -62,7 +62,8 @@ export class DataSignalfxPagerdutyIntegration extends cdktf.TerraformDataSource 
       terraformResourceType: 'signalfx_pagerduty_integration',
       terraformGeneratorMetadata: {
         providerName: 'signalfx',
-        providerVersion: '9.22.3'
+        providerVersion: '9.22.3',
+        providerVersionConstraint: '9.22.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

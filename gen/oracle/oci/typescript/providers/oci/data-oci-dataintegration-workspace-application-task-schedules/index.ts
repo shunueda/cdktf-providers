@@ -2140,7 +2140,8 @@ export class DataOciDataintegrationWorkspaceApplicationTaskSchedules extends cdk
       terraformResourceType: 'oci_dataintegration_workspace_application_task_schedules',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

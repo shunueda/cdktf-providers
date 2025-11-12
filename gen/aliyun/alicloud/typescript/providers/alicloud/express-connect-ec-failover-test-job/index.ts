@@ -250,7 +250,8 @@ export class ExpressConnectEcFailoverTestJob extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_express_connect_ec_failover_test_job',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

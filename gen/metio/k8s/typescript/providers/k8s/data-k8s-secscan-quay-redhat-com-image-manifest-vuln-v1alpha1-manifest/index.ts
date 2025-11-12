@@ -1009,7 +1009,8 @@ export class DataK8SSecscanQuayRedhatComImageManifestVulnV1Alpha1Manifest extend
       terraformResourceType: 'k8s_secscan_quay_redhat_com_image_manifest_vuln_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

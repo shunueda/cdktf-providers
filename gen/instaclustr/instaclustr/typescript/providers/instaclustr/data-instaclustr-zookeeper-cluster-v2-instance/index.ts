@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/zookeeper_cluster_v2_instance
+// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/zookeeper_cluster_v2_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataInstaclustrZookeeperClusterV2InstanceConfig extends cdktf.T
   /**
   * Indicates if the cluster is currently performing any restructuring operation such as being created or resized
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/zookeeper_cluster_v2_instance#current_cluster_operation_status DataInstaclustrZookeeperClusterV2Instance#current_cluster_operation_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/zookeeper_cluster_v2_instance#current_cluster_operation_status DataInstaclustrZookeeperClusterV2Instance#current_cluster_operation_status}
   */
   readonly currentClusterOperationStatus?: string;
   /**
   * A description of the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/zookeeper_cluster_v2_instance#description DataInstaclustrZookeeperClusterV2Instance#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/zookeeper_cluster_v2_instance#description DataInstaclustrZookeeperClusterV2Instance#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/zookeeper_cluster_v2_instance#id DataInstaclustrZookeeperClusterV2Instance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/zookeeper_cluster_v2_instance#id DataInstaclustrZookeeperClusterV2Instance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,43 +29,43 @@ export interface DataInstaclustrZookeeperClusterV2InstanceConfig extends cdktf.T
   /**
   * Name of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/zookeeper_cluster_v2_instance#name DataInstaclustrZookeeperClusterV2Instance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/zookeeper_cluster_v2_instance#name DataInstaclustrZookeeperClusterV2Instance#name}
   */
   readonly name?: string;
   /**
   * Creates the cluster with private network only, see [Private Network Clusters](https://www.instaclustr.com/support/documentation/useful-information/private-network-clusters/).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/zookeeper_cluster_v2_instance#private_network_cluster DataInstaclustrZookeeperClusterV2Instance#private_network_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/zookeeper_cluster_v2_instance#private_network_cluster DataInstaclustrZookeeperClusterV2Instance#private_network_cluster}
   */
   readonly privateNetworkCluster?: boolean | cdktf.IResolvable;
   /**
   * SLA Tier of the cluster. Non-production clusters may receive lower priority support and reduced SLAs. Production tier is not available when using Developer class nodes. See [SLA Tier](https://www.instaclustr.com/support/documentation/useful-information/sla-tier/) for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/zookeeper_cluster_v2_instance#sla_tier DataInstaclustrZookeeperClusterV2Instance#sla_tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/zookeeper_cluster_v2_instance#sla_tier DataInstaclustrZookeeperClusterV2Instance#sla_tier}
   */
   readonly slaTier?: string;
   /**
   * Status of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/zookeeper_cluster_v2_instance#status DataInstaclustrZookeeperClusterV2Instance#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/zookeeper_cluster_v2_instance#status DataInstaclustrZookeeperClusterV2Instance#status}
   */
   readonly status?: string;
   /**
   * Version of Apache Zookeeper to run on the cluster. Available versions: <ul> </ul>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/zookeeper_cluster_v2_instance#zookeeper_version DataInstaclustrZookeeperClusterV2Instance#zookeeper_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/zookeeper_cluster_v2_instance#zookeeper_version DataInstaclustrZookeeperClusterV2Instance#zookeeper_version}
   */
   readonly zookeeperVersion?: string;
   /**
   * data_centre block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/zookeeper_cluster_v2_instance#data_centre DataInstaclustrZookeeperClusterV2Instance#data_centre}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/zookeeper_cluster_v2_instance#data_centre DataInstaclustrZookeeperClusterV2Instance#data_centre}
   */
   readonly dataCentre?: DataInstaclustrZookeeperClusterV2InstanceDataCentre[] | cdktf.IResolvable;
   /**
   * two_factor_delete block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/zookeeper_cluster_v2_instance#two_factor_delete DataInstaclustrZookeeperClusterV2Instance#two_factor_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/zookeeper_cluster_v2_instance#two_factor_delete DataInstaclustrZookeeperClusterV2Instance#two_factor_delete}
   */
   readonly twoFactorDelete?: DataInstaclustrZookeeperClusterV2InstanceTwoFactorDelete[] | cdktf.IResolvable;
 }
@@ -73,13 +73,13 @@ export interface DataInstaclustrZookeeperClusterV2InstanceDataCentreAwsSettings 
   /**
   * VPC ID into which the Data Centre will be provisioned. The Data Centre's network allocation must match the IPv4 CIDR block of the specified VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/zookeeper_cluster_v2_instance#custom_virtual_network_id DataInstaclustrZookeeperClusterV2Instance#custom_virtual_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/zookeeper_cluster_v2_instance#custom_virtual_network_id DataInstaclustrZookeeperClusterV2Instance#custom_virtual_network_id}
   */
   readonly customVirtualNetworkId?: string;
   /**
   * ID of a KMS encryption key to encrypt data on nodes. KMS encryption key must be set in Cluster Resources through the Instaclustr Console before provisioning an encrypted Data Centre.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/zookeeper_cluster_v2_instance#ebs_encryption_key DataInstaclustrZookeeperClusterV2Instance#ebs_encryption_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/zookeeper_cluster_v2_instance#ebs_encryption_key DataInstaclustrZookeeperClusterV2Instance#ebs_encryption_key}
   */
   readonly ebsEncryptionKey?: string;
 }
@@ -226,19 +226,19 @@ export interface DataInstaclustrZookeeperClusterV2InstanceDataCentreAzureSetting
   /**
   * VNet ID into which the Data Centre will be provisioned. The VNet must have an available address space for the Data Centre's network allocation to be appended to the VNet. Currently supported for PostgreSQL clusters only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/zookeeper_cluster_v2_instance#custom_virtual_network_id DataInstaclustrZookeeperClusterV2Instance#custom_virtual_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/zookeeper_cluster_v2_instance#custom_virtual_network_id DataInstaclustrZookeeperClusterV2Instance#custom_virtual_network_id}
   */
   readonly customVirtualNetworkId?: string;
   /**
   * The name of the Azure Resource Group into which the Data Centre will be provisioned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/zookeeper_cluster_v2_instance#resource_group DataInstaclustrZookeeperClusterV2Instance#resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/zookeeper_cluster_v2_instance#resource_group DataInstaclustrZookeeperClusterV2Instance#resource_group}
   */
   readonly resourceGroup?: string;
   /**
   * The private network address block to be used for the storage network. This is only used for certain node sizes, currently limited to those which use Azure NetApp Files: for all other node sizes, this field should not be provided. The network must have a prefix length between /16 and /28, and must be part of a private address range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/zookeeper_cluster_v2_instance#storage_network DataInstaclustrZookeeperClusterV2Instance#storage_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/zookeeper_cluster_v2_instance#storage_network DataInstaclustrZookeeperClusterV2Instance#storage_network}
   */
   readonly storageNetwork?: string;
 }
@@ -414,13 +414,13 @@ export interface DataInstaclustrZookeeperClusterV2InstanceDataCentreDeletedNodes
   /**
   * Deletion time of the node as a UTC timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/zookeeper_cluster_v2_instance#deletion_time DataInstaclustrZookeeperClusterV2Instance#deletion_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/zookeeper_cluster_v2_instance#deletion_time DataInstaclustrZookeeperClusterV2Instance#deletion_time}
   */
   readonly deletionTime?: string;
   /**
   * ID of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/zookeeper_cluster_v2_instance#id DataInstaclustrZookeeperClusterV2Instance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/zookeeper_cluster_v2_instance#id DataInstaclustrZookeeperClusterV2Instance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -429,43 +429,43 @@ export interface DataInstaclustrZookeeperClusterV2InstanceDataCentreDeletedNodes
   /**
   * The roles or purposes of the node. Useful for filtering for nodes that have a specific role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/zookeeper_cluster_v2_instance#node_roles DataInstaclustrZookeeperClusterV2Instance#node_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/zookeeper_cluster_v2_instance#node_roles DataInstaclustrZookeeperClusterV2Instance#node_roles}
   */
   readonly nodeRoles?: string[];
   /**
   * Size of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/zookeeper_cluster_v2_instance#node_size DataInstaclustrZookeeperClusterV2Instance#node_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/zookeeper_cluster_v2_instance#node_size DataInstaclustrZookeeperClusterV2Instance#node_size}
   */
   readonly nodeSize?: string;
   /**
   * Private IP address of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/zookeeper_cluster_v2_instance#private_address DataInstaclustrZookeeperClusterV2Instance#private_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/zookeeper_cluster_v2_instance#private_address DataInstaclustrZookeeperClusterV2Instance#private_address}
   */
   readonly privateAddress?: string;
   /**
   * Public IP address of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/zookeeper_cluster_v2_instance#public_address DataInstaclustrZookeeperClusterV2Instance#public_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/zookeeper_cluster_v2_instance#public_address DataInstaclustrZookeeperClusterV2Instance#public_address}
   */
   readonly publicAddress?: string;
   /**
   * Rack name in which the node is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/zookeeper_cluster_v2_instance#rack DataInstaclustrZookeeperClusterV2Instance#rack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/zookeeper_cluster_v2_instance#rack DataInstaclustrZookeeperClusterV2Instance#rack}
   */
   readonly rack?: string;
   /**
   * Start time of the node as a UTC timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/zookeeper_cluster_v2_instance#start_time DataInstaclustrZookeeperClusterV2Instance#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/zookeeper_cluster_v2_instance#start_time DataInstaclustrZookeeperClusterV2Instance#start_time}
   */
   readonly startTime?: string;
   /**
   * Provisioning status of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/zookeeper_cluster_v2_instance#status DataInstaclustrZookeeperClusterV2Instance#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/zookeeper_cluster_v2_instance#status DataInstaclustrZookeeperClusterV2Instance#status}
   */
   readonly status?: string;
 }
@@ -824,7 +824,7 @@ export interface DataInstaclustrZookeeperClusterV2InstanceDataCentreGcpSettings 
   * 
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/zookeeper_cluster_v2_instance#custom_virtual_network_id DataInstaclustrZookeeperClusterV2Instance#custom_virtual_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/zookeeper_cluster_v2_instance#custom_virtual_network_id DataInstaclustrZookeeperClusterV2Instance#custom_virtual_network_id}
   */
   readonly customVirtualNetworkId?: string;
 }
@@ -942,13 +942,13 @@ export interface DataInstaclustrZookeeperClusterV2InstanceDataCentreNodes {
   /**
   * Deletion time of the node as a UTC timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/zookeeper_cluster_v2_instance#deletion_time DataInstaclustrZookeeperClusterV2Instance#deletion_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/zookeeper_cluster_v2_instance#deletion_time DataInstaclustrZookeeperClusterV2Instance#deletion_time}
   */
   readonly deletionTime?: string;
   /**
   * ID of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/zookeeper_cluster_v2_instance#id DataInstaclustrZookeeperClusterV2Instance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/zookeeper_cluster_v2_instance#id DataInstaclustrZookeeperClusterV2Instance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -957,43 +957,43 @@ export interface DataInstaclustrZookeeperClusterV2InstanceDataCentreNodes {
   /**
   * The roles or purposes of the node. Useful for filtering for nodes that have a specific role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/zookeeper_cluster_v2_instance#node_roles DataInstaclustrZookeeperClusterV2Instance#node_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/zookeeper_cluster_v2_instance#node_roles DataInstaclustrZookeeperClusterV2Instance#node_roles}
   */
   readonly nodeRoles?: string[];
   /**
   * Size of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/zookeeper_cluster_v2_instance#node_size DataInstaclustrZookeeperClusterV2Instance#node_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/zookeeper_cluster_v2_instance#node_size DataInstaclustrZookeeperClusterV2Instance#node_size}
   */
   readonly nodeSize?: string;
   /**
   * Private IP address of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/zookeeper_cluster_v2_instance#private_address DataInstaclustrZookeeperClusterV2Instance#private_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/zookeeper_cluster_v2_instance#private_address DataInstaclustrZookeeperClusterV2Instance#private_address}
   */
   readonly privateAddress?: string;
   /**
   * Public IP address of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/zookeeper_cluster_v2_instance#public_address DataInstaclustrZookeeperClusterV2Instance#public_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/zookeeper_cluster_v2_instance#public_address DataInstaclustrZookeeperClusterV2Instance#public_address}
   */
   readonly publicAddress?: string;
   /**
   * Rack name in which the node is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/zookeeper_cluster_v2_instance#rack DataInstaclustrZookeeperClusterV2Instance#rack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/zookeeper_cluster_v2_instance#rack DataInstaclustrZookeeperClusterV2Instance#rack}
   */
   readonly rack?: string;
   /**
   * Start time of the node as a UTC timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/zookeeper_cluster_v2_instance#start_time DataInstaclustrZookeeperClusterV2Instance#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/zookeeper_cluster_v2_instance#start_time DataInstaclustrZookeeperClusterV2Instance#start_time}
   */
   readonly startTime?: string;
   /**
   * Provisioning status of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/zookeeper_cluster_v2_instance#status DataInstaclustrZookeeperClusterV2Instance#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/zookeeper_cluster_v2_instance#status DataInstaclustrZookeeperClusterV2Instance#status}
   */
   readonly status?: string;
 }
@@ -1343,13 +1343,13 @@ export interface DataInstaclustrZookeeperClusterV2InstanceDataCentreTag {
   /**
   * Key of the tag for the Data Centre.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/zookeeper_cluster_v2_instance#key DataInstaclustrZookeeperClusterV2Instance#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/zookeeper_cluster_v2_instance#key DataInstaclustrZookeeperClusterV2Instance#key}
   */
   readonly key?: string;
   /**
   * Value of the tag for the Data Centre.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/zookeeper_cluster_v2_instance#value DataInstaclustrZookeeperClusterV2Instance#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/zookeeper_cluster_v2_instance#value DataInstaclustrZookeeperClusterV2Instance#value}
   */
   readonly value?: string;
 }
@@ -1496,37 +1496,37 @@ export interface DataInstaclustrZookeeperClusterV2InstanceDataCentre {
   /**
   * Enables Client ⇄ Node Encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/zookeeper_cluster_v2_instance#client_to_server_encryption DataInstaclustrZookeeperClusterV2Instance#client_to_server_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/zookeeper_cluster_v2_instance#client_to_server_encryption DataInstaclustrZookeeperClusterV2Instance#client_to_server_encryption}
   */
   readonly clientToServerEncryption?: boolean | cdktf.IResolvable;
   /**
   * Name of a cloud provider service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/zookeeper_cluster_v2_instance#cloud_provider DataInstaclustrZookeeperClusterV2Instance#cloud_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/zookeeper_cluster_v2_instance#cloud_provider DataInstaclustrZookeeperClusterV2Instance#cloud_provider}
   */
   readonly cloudProvider?: string;
   /**
   * List of Subject Alternative Names FQDNs as per RFC 1035.  Used by the applications with self signed certificates in keystores of nodes in the datacenter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/zookeeper_cluster_v2_instance#custom_subject_alternative_names DataInstaclustrZookeeperClusterV2Instance#custom_subject_alternative_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/zookeeper_cluster_v2_instance#custom_subject_alternative_names DataInstaclustrZookeeperClusterV2Instance#custom_subject_alternative_names}
   */
   readonly customSubjectAlternativeNames?: string[];
   /**
   * Enables Enforced SASL Authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/zookeeper_cluster_v2_instance#enforce_auth_enabled DataInstaclustrZookeeperClusterV2Instance#enforce_auth_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/zookeeper_cluster_v2_instance#enforce_auth_enabled DataInstaclustrZookeeperClusterV2Instance#enforce_auth_enabled}
   */
   readonly enforceAuthEnabled?: boolean | cdktf.IResolvable;
   /**
   * A list of authentication schemes to enforce when enforce.auth.enabled=true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/zookeeper_cluster_v2_instance#enforce_auth_schemes DataInstaclustrZookeeperClusterV2Instance#enforce_auth_schemes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/zookeeper_cluster_v2_instance#enforce_auth_schemes DataInstaclustrZookeeperClusterV2Instance#enforce_auth_schemes}
   */
   readonly enforceAuthSchemes?: string[];
   /**
   * ID of the Cluster Data Centre.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/zookeeper_cluster_v2_instance#id DataInstaclustrZookeeperClusterV2Instance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/zookeeper_cluster_v2_instance#id DataInstaclustrZookeeperClusterV2Instance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1535,85 +1535,85 @@ export interface DataInstaclustrZookeeperClusterV2InstanceDataCentre {
   /**
   * A logical name for the data centre within a cluster. These names must be unique in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/zookeeper_cluster_v2_instance#name DataInstaclustrZookeeperClusterV2Instance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/zookeeper_cluster_v2_instance#name DataInstaclustrZookeeperClusterV2Instance#name}
   */
   readonly name?: string;
   /**
   * The private network address block for the Data Centre specified using CIDR address notation. The network must have a prefix length between `/16` and `/26` and must be part of a private address space.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/zookeeper_cluster_v2_instance#network DataInstaclustrZookeeperClusterV2Instance#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/zookeeper_cluster_v2_instance#network DataInstaclustrZookeeperClusterV2Instance#network}
   */
   readonly network?: string;
   /**
   * Size of the nodes provisioned in the Data Centre. Available node sizes: <details> <summary>*Amazon Web Services* [__AWS_VPC__]</summary> <br> <details> <summary>*Africa (Cape Town)* [__AF_SOUTH_1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>MZK-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7g.large-60 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7g.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>ZKR-PRD-m5d.large-75 </td> <td>General Availability</td> </tr> <tr> <td>ZKR-PRD-m5d.xlarge-150 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-developer-t3.small-20 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-production-m5.large-60 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-production-m5.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m6g.large-60 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6g.xlarge-120 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6gd.large-75 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6gd.xlarge-150 </td> <td>Deprecated</td> </tr> </table> <br> </details> <details> <summary>*Asia Pacific (Hong Kong)* [__AP_EAST_1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>MZK-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7g.large-60 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7g.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m8g.large-60 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m8g.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>ZKR-PRD-m5d.large-75 </td> <td>General Availability</td> </tr> <tr> <td>ZKR-PRD-m5d.xlarge-150 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-developer-t3.small-20 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-production-m5.large-60 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-production-m5.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m6g.large-60 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6g.xlarge-120 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6gd.large-75 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6gd.xlarge-150 </td> <td>Deprecated</td> </tr> </table> <br> </details> <details> <summary>*Asia Pacific (Hyderabad)* [__AP_SOUTH_2__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>MZK-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7g.large-60 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7g.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m8g.large-60 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m8g.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>ZKR-PRD-m5d.large-75 </td> <td>General Availability</td> </tr> <tr> <td>ZKR-PRD-m5d.xlarge-150 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-developer-t3.small-20 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-production-m5.large-60 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-production-m5.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m6g.large-60 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6g.xlarge-120 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6gd.large-75 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6gd.xlarge-150 </td> <td>Deprecated</td> </tr> </table> <br> </details> <details> <summary>*Asia Pacific (Jakarta)* [__AP_SOUTHEAST_3__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>MZK-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7g.large-60 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7g.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>ZKR-PRD-m5d.large-75 </td> <td>General Availability</td> </tr> <tr> <td>ZKR-PRD-m5d.xlarge-150 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-developer-t3.small-20 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-production-m5.large-60 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-production-m5.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m6g.large-60 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6g.xlarge-120 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6gd.large-75 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6gd.xlarge-150 </td> <td>Deprecated</td> </tr> </table> <br> </details> <details> <summary>*Asia Pacific (Malaysia)* [__AP_SOUTHEAST_5__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>MZK-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7g.large-60 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7g.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7gd.large-75 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7gd.xlarge-150 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m8gd.large-75 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m8gd.xlarge-150 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-developer-t3.small-20 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m6g.large-60 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6g.xlarge-120 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6gd.large-75 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6gd.xlarge-150 </td> <td>Deprecated</td> </tr> </table> <br> </details> <details> <summary>*Asia Pacific (Melbourne)* [__AP_SOUTHEAST_4__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>MZK-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7g.large-60 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7g.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>ZKR-PRD-m5d.large-75 </td> <td>General Availability</td> </tr> <tr> <td>ZKR-PRD-m5d.xlarge-150 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-developer-t3.small-20 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-production-m5.large-60 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-production-m5.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m6g.large-60 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6g.xlarge-120 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6gd.large-75 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6gd.xlarge-150 </td> <td>Deprecated</td> </tr> </table> <br> </details> <details> <summary>*Asia Pacific (Mumbai)* [__AP_SOUTH_1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>MZK-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7g.large-60 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7g.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7gd.large-75 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7gd.xlarge-150 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m8g.large-60 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m8g.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>ZKR-PRD-m5d.large-75 </td> <td>General Availability</td> </tr> <tr> <td>ZKR-PRD-m5d.xlarge-150 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-developer-t3.small-20 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-production-m5.large-60 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-production-m5.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m6g.large-60 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6g.xlarge-120 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6gd.large-75 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6gd.xlarge-150 </td> <td>Deprecated</td> </tr> </table> <br> </details> <details> <summary>*Asia Pacific (Osaka)* [__AP_NORTHEAST_3__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>MZK-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7g.large-60 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7g.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m8g.large-60 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m8g.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>ZKR-PRD-m5d.large-75 </td> <td>General Availability</td> </tr> <tr> <td>ZKR-PRD-m5d.xlarge-150 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-developer-t3.small-20 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-production-m5.large-60 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-production-m5.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m6g.large-60 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6g.xlarge-120 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6gd.large-75 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6gd.xlarge-150 </td> <td>Deprecated</td> </tr> </table> <br> </details> <details> <summary>*Asia Pacific (Seoul)* [__AP_NORTHEAST_2__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>MZK-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7g.large-60 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7g.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m8g.large-60 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m8g.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>ZKR-PRD-m5d.large-75 </td> <td>General Availability</td> </tr> <tr> <td>ZKR-PRD-m5d.xlarge-150 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-developer-t3.small-20 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-production-m5.large-60 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-production-m5.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m6g.large-60 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6g.xlarge-120 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6gd.large-75 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6gd.xlarge-150 </td> <td>Deprecated</td> </tr> </table> <br> </details> <details> <summary>*Asia Pacific (Singapore)* [__AP_SOUTHEAST_1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>MZK-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7g.large-60 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7g.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7gd.large-75 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7gd.xlarge-150 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m8g.large-60 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m8g.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>ZKR-PRD-m5d.large-75 </td> <td>General Availability</td> </tr> <tr> <td>ZKR-PRD-m5d.xlarge-150 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-developer-t3.small-20 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-production-m5.large-60 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-production-m5.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m6g.large-60 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6g.xlarge-120 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6gd.large-75 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6gd.xlarge-150 </td> <td>Deprecated</td> </tr> </table> <br> </details> <details> <summary>*Asia Pacific (Sydney)* [__AP_SOUTHEAST_2__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>MZK-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7g.large-60 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7g.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7gd.large-75 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7gd.xlarge-150 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m8g.large-60 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m8g.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m8gd.large-75 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m8gd.xlarge-150 </td> <td>General Availability</td> </tr> <tr> <td>ZKR-PRD-m5d.large-75 </td> <td>General Availability</td> </tr> <tr> <td>ZKR-PRD-m5d.xlarge-150 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-developer-t3.small-20 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-production-m5.large-60 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-production-m5.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m6g.large-60 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6g.xlarge-120 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6gd.large-75 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6gd.xlarge-150 </td> <td>Deprecated</td> </tr> </table> <br> </details> <details> <summary>*Asia Pacific (Thailand)* [__AP_SOUTHEAST_7__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>MZK-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7g.large-60 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7g.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7gd.large-75 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7gd.xlarge-150 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-developer-t3.small-20 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m6g.large-60 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6g.xlarge-120 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6gd.large-75 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6gd.xlarge-150 </td> <td>Deprecated</td> </tr> </table> <br> </details> <details> <summary>*Asia Pacific (Tokyo)* [__AP_NORTHEAST_1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>MZK-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7g.large-60 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7g.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7gd.large-75 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7gd.xlarge-150 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m8g.large-60 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m8g.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m8gd.large-75 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m8gd.xlarge-150 </td> <td>General Availability</td> </tr> <tr> <td>ZKR-PRD-m5d.large-75 </td> <td>General Availability</td> </tr> <tr> <td>ZKR-PRD-m5d.xlarge-150 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-developer-t3.small-20 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-production-m5.large-60 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-production-m5.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m6g.large-60 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6g.xlarge-120 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6gd.large-75 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6gd.xlarge-150 </td> <td>Deprecated</td> </tr> </table> <br> </details> <details> <summary>*Canada (Central)* [__CA_CENTRAL_1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>MZK-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7g.large-60 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7g.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m8g.large-60 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m8g.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>ZKR-PRD-m5d.large-75 </td> <td>General Availability</td> </tr> <tr> <td>ZKR-PRD-m5d.xlarge-150 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-developer-t3.small-20 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-production-m5.large-60 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-production-m5.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m6g.large-60 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6g.xlarge-120 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6gd.large-75 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6gd.xlarge-150 </td> <td>Deprecated</td> </tr> </table> <br> </details> <details> <summary>*Canada West (Calgary)* [__CA_WEST_1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>MZK-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>ZKR-PRD-m5d.large-75 </td> <td>General Availability</td> </tr> <tr> <td>ZKR-PRD-m5d.xlarge-150 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-developer-t3.small-20 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-production-m5.large-60 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-production-m5.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m6g.large-60 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6g.xlarge-120 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6gd.large-75 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6gd.xlarge-150 </td> <td>Deprecated</td> </tr> </table> <br> </details> <details> <summary>*EU Central (Frankfurt)* [__EU_CENTRAL_1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>MZK-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7g.large-60 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7g.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7gd.large-75 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7gd.xlarge-150 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m8g.large-60 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m8g.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m8gd.large-75 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m8gd.xlarge-150 </td> <td>General Availability</td> </tr> <tr> <td>ZKR-PRD-m5d.large-75 </td> <td>General Availability</td> </tr> <tr> <td>ZKR-PRD-m5d.xlarge-150 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-developer-t3.small-20 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-production-m5.large-60 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-production-m5.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m6g.large-60 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6g.xlarge-120 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6gd.large-75 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6gd.xlarge-150 </td> <td>Deprecated</td> </tr> </table> <br> </details> <details> <summary>*EU Central (Zurich)* [__EU_CENTRAL_2__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>MZK-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7g.large-60 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7g.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>ZKR-PRD-m5d.large-75 </td> <td>General Availability</td> </tr> <tr> <td>ZKR-PRD-m5d.xlarge-150 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-developer-t3.small-20 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-production-m5.large-60 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-production-m5.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m6g.large-60 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6g.xlarge-120 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6gd.large-75 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6gd.xlarge-150 </td> <td>Deprecated</td> </tr> </table> <br> </details> <details> <summary>*EU North (Stockholm)* [__EU_NORTH_1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>MZK-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7g.large-60 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7g.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7gd.large-75 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7gd.xlarge-150 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m8g.large-60 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m8g.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>ZKR-PRD-m5d.large-75 </td> <td>General Availability</td> </tr> <tr> <td>ZKR-PRD-m5d.xlarge-150 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-developer-t3.small-20 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-production-m5.large-60 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-production-m5.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m6g.large-60 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6g.xlarge-120 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6gd.large-75 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6gd.xlarge-150 </td> <td>Deprecated</td> </tr> </table> <br> </details> <details> <summary>*EU South (Milan)* [__EU_SOUTH_1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>MZK-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>ZKR-PRD-m5d.large-75 </td> <td>General Availability</td> </tr> <tr> <td>ZKR-PRD-m5d.xlarge-150 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-developer-t3.small-20 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-production-m5.large-60 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-production-m5.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m6g.large-60 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6g.xlarge-120 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6gd.large-75 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6gd.xlarge-150 </td> <td>Deprecated</td> </tr> </table> <br> </details> <details> <summary>*EU South (Spain)* [__EU_SOUTH_2__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>MZK-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7g.large-60 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7g.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7gd.large-75 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7gd.xlarge-150 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m8g.large-60 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m8g.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m8gd.large-75 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m8gd.xlarge-150 </td> <td>General Availability</td> </tr> <tr> <td>ZKR-PRD-m5d.large-75 </td> <td>General Availability</td> </tr> <tr> <td>ZKR-PRD-m5d.xlarge-150 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-developer-t3.small-20 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-production-m5.large-60 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-production-m5.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m6g.large-60 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6g.xlarge-120 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6gd.large-75 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6gd.xlarge-150 </td> <td>Deprecated</td> </tr> </table> <br> </details> <details> <summary>*EU West (Ireland)* [__EU_WEST_1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>MZK-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7g.large-60 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7g.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7gd.large-75 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7gd.xlarge-150 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m8g.large-60 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m8g.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>ZKR-PRD-m5d.large-75 </td> <td>General Availability</td> </tr> <tr> <td>ZKR-PRD-m5d.xlarge-150 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-developer-t3.small-20 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-production-m5.large-60 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-production-m5.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m6g.large-60 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6g.xlarge-120 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6gd.large-75 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6gd.xlarge-150 </td> <td>Deprecated</td> </tr> </table> <br> </details> <details> <summary>*EU West (London)* [__EU_WEST_2__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>MZK-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7g.large-60 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7g.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m8g.large-60 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m8g.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>ZKR-PRD-m5d.large-75 </td> <td>General Availability</td> </tr> <tr> <td>ZKR-PRD-m5d.xlarge-150 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-developer-t3.small-20 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-production-m5.large-60 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-production-m5.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m6g.large-60 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6g.xlarge-120 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6gd.large-75 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6gd.xlarge-150 </td> <td>Deprecated</td> </tr> </table> <br> </details> <details> <summary>*EU West (Paris)* [__EU_WEST_3__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>MZK-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7g.large-60 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7g.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m8g.large-60 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m8g.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>ZKR-PRD-m5d.large-75 </td> <td>General Availability</td> </tr> <tr> <td>ZKR-PRD-m5d.xlarge-150 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-developer-t3.small-20 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-production-m5.large-60 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-production-m5.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m6g.large-60 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6g.xlarge-120 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6gd.large-75 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6gd.xlarge-150 </td> <td>Deprecated</td> </tr> </table> <br> </details> <details> <summary>*Israel (Tel Aviv)* [__IL_CENTRAL_1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>MZK-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7g.large-60 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7g.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>ZKR-PRD-m5d.large-75 </td> <td>General Availability</td> </tr> <tr> <td>ZKR-PRD-m5d.xlarge-150 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-developer-t3.small-20 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-production-m5.large-60 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-production-m5.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m6g.large-60 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6g.xlarge-120 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6gd.large-75 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6gd.xlarge-150 </td> <td>Deprecated</td> </tr> </table> <br> </details> <details> <summary>*Middle East (Bahrain)* [__ME_SOUTH_1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>MZK-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7g.large-60 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7g.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m8g.large-60 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m8g.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>ZKR-PRD-m5d.large-75 </td> <td>General Availability</td> </tr> <tr> <td>ZKR-PRD-m5d.xlarge-150 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-developer-t3.small-20 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-production-m5.large-60 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-production-m5.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m6g.large-60 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6g.xlarge-120 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6gd.large-75 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6gd.xlarge-150 </td> <td>Deprecated</td> </tr> </table> <br> </details> <details> <summary>*Middle East (UAE)* [__ME_CENTRAL_1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>MZK-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7g.large-60 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7g.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7gd.large-75 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7gd.xlarge-150 </td> <td>General Availability</td> </tr> <tr> <td>ZKR-PRD-m5d.large-75 </td> <td>General Availability</td> </tr> <tr> <td>ZKR-PRD-m5d.xlarge-150 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-developer-t3.small-20 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-production-m5.large-60 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-production-m5.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m6g.large-60 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6g.xlarge-120 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6gd.large-75 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6gd.xlarge-150 </td> <td>Deprecated</td> </tr> </table> <br> </details> <details> <summary>*South America (São Paulo)* [__SA_EAST_1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>MZK-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7g.large-60 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7g.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m8g.large-60 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m8g.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>ZKR-PRD-m5d.large-75 </td> <td>General Availability</td> </tr> <tr> <td>ZKR-PRD-m5d.xlarge-150 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-developer-t3.small-20 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-production-m5.large-60 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-production-m5.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m6g.large-60 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6g.xlarge-120 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6gd.large-75 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6gd.xlarge-150 </td> <td>Deprecated</td> </tr> </table> <br> </details> <details> <summary>*US East (Northern Virginia)* [__US_EAST_1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>MZK-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7g.large-60 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7g.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7gd.large-75 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7gd.xlarge-150 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m8g.large-60 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m8g.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m8gd.large-75 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m8gd.xlarge-150 </td> <td>General Availability</td> </tr> <tr> <td>ZKR-PRD-m5d.large-75 </td> <td>General Availability</td> </tr> <tr> <td>ZKR-PRD-m5d.xlarge-150 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-developer-t3.small-20 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-production-m5.large-60 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-production-m5.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m6g.large-60 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6g.xlarge-120 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6gd.large-75 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6gd.xlarge-150 </td> <td>Deprecated</td> </tr> </table> <br> </details> <details> <summary>*US East (Ohio)* [__US_EAST_2__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>MZK-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7g.large-60 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7g.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7gd.large-75 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7gd.xlarge-150 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m8g.large-60 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m8g.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m8gd.large-75 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m8gd.xlarge-150 </td> <td>General Availability</td> </tr> <tr> <td>ZKR-PRD-m5d.large-75 </td> <td>General Availability</td> </tr> <tr> <td>ZKR-PRD-m5d.xlarge-150 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-developer-t3.small-20 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-production-m5.large-60 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-production-m5.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m6g.large-60 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6g.xlarge-120 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6gd.large-75 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6gd.xlarge-150 </td> <td>Deprecated</td> </tr> </table> <br> </details> <details> <summary>*US West (Northern California)* [__US_WEST_1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>MZK-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7g.large-60 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7g.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7gd.large-75 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7gd.xlarge-150 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m8g.large-60 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m8g.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>ZKR-PRD-m5d.large-75 </td> <td>General Availability</td> </tr> <tr> <td>ZKR-PRD-m5d.xlarge-150 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-developer-t3.small-20 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-production-m5.large-60 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-production-m5.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m6g.large-60 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6g.xlarge-120 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6gd.large-75 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6gd.xlarge-150 </td> <td>Deprecated</td> </tr> </table> <br> </details> <details> <summary>*US West (Oregon)* [__US_WEST_2__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>MZK-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7g.large-60 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7g.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7gd.large-75 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m7gd.xlarge-150 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m8g.large-60 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m8g.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m8gd.large-75 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m8gd.xlarge-150 </td> <td>General Availability</td> </tr> <tr> <td>ZKR-PRD-m5d.large-75 </td> <td>General Availability</td> </tr> <tr> <td>ZKR-PRD-m5d.xlarge-150 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-developer-t3.small-20 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-production-m5.large-60 </td> <td>General Availability</td> </tr> <tr> <td>zookeeper-production-m5.xlarge-120 </td> <td>General Availability</td> </tr> <tr> <td>MZK-PRD-m6g.large-60 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6g.xlarge-120 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6gd.large-75 </td> <td>Deprecated</td> </tr> <tr> <td>MZK-PRD-m6gd.xlarge-150 </td> <td>Deprecated</td> </tr> </table> <br> </details> <br> </details>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/zookeeper_cluster_v2_instance#node_size DataInstaclustrZookeeperClusterV2Instance#node_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/zookeeper_cluster_v2_instance#node_size DataInstaclustrZookeeperClusterV2Instance#node_size}
   */
   readonly nodeSize?: string;
   /**
   * Total number of Zookeeper nodes in the Data Centre.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/zookeeper_cluster_v2_instance#number_of_nodes DataInstaclustrZookeeperClusterV2Instance#number_of_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/zookeeper_cluster_v2_instance#number_of_nodes DataInstaclustrZookeeperClusterV2Instance#number_of_nodes}
   */
   readonly numberOfNodes?: number;
   /**
   * For customers running in their own account. Your provider account can be found on the Create Cluster page on the Instaclustr Console, or the "Provider Account" property on any existing cluster. For customers provisioning on Instaclustr's cloud provider accounts, this property may be omitted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/zookeeper_cluster_v2_instance#provider_account_name DataInstaclustrZookeeperClusterV2Instance#provider_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/zookeeper_cluster_v2_instance#provider_account_name DataInstaclustrZookeeperClusterV2Instance#provider_account_name}
   */
   readonly providerAccountName?: string;
   /**
   * Region of the Data Centre. See the description for node size for a compatible Data Centre for a given node size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/zookeeper_cluster_v2_instance#region DataInstaclustrZookeeperClusterV2Instance#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/zookeeper_cluster_v2_instance#region DataInstaclustrZookeeperClusterV2Instance#region}
   */
   readonly region?: string;
   /**
   * Status of the Data Centre.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/zookeeper_cluster_v2_instance#status DataInstaclustrZookeeperClusterV2Instance#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/zookeeper_cluster_v2_instance#status DataInstaclustrZookeeperClusterV2Instance#status}
   */
   readonly status?: string;
   /**
   * Zero Inbound Access gateways eliminate the requirement for any public IP addresses in cluster deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/zookeeper_cluster_v2_instance#zero_inbound_access DataInstaclustrZookeeperClusterV2Instance#zero_inbound_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/zookeeper_cluster_v2_instance#zero_inbound_access DataInstaclustrZookeeperClusterV2Instance#zero_inbound_access}
   */
   readonly zeroInboundAccess?: boolean | cdktf.IResolvable;
   /**
   * aws_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/zookeeper_cluster_v2_instance#aws_settings DataInstaclustrZookeeperClusterV2Instance#aws_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/zookeeper_cluster_v2_instance#aws_settings DataInstaclustrZookeeperClusterV2Instance#aws_settings}
   */
   readonly awsSettings?: DataInstaclustrZookeeperClusterV2InstanceDataCentreAwsSettings[] | cdktf.IResolvable;
   /**
   * azure_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/zookeeper_cluster_v2_instance#azure_settings DataInstaclustrZookeeperClusterV2Instance#azure_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/zookeeper_cluster_v2_instance#azure_settings DataInstaclustrZookeeperClusterV2Instance#azure_settings}
   */
   readonly azureSettings?: DataInstaclustrZookeeperClusterV2InstanceDataCentreAzureSettings[] | cdktf.IResolvable;
   /**
   * deleted_nodes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/zookeeper_cluster_v2_instance#deleted_nodes DataInstaclustrZookeeperClusterV2Instance#deleted_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/zookeeper_cluster_v2_instance#deleted_nodes DataInstaclustrZookeeperClusterV2Instance#deleted_nodes}
   */
   readonly deletedNodes?: DataInstaclustrZookeeperClusterV2InstanceDataCentreDeletedNodes[] | cdktf.IResolvable;
   /**
   * gcp_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/zookeeper_cluster_v2_instance#gcp_settings DataInstaclustrZookeeperClusterV2Instance#gcp_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/zookeeper_cluster_v2_instance#gcp_settings DataInstaclustrZookeeperClusterV2Instance#gcp_settings}
   */
   readonly gcpSettings?: DataInstaclustrZookeeperClusterV2InstanceDataCentreGcpSettings[] | cdktf.IResolvable;
   /**
   * nodes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/zookeeper_cluster_v2_instance#nodes DataInstaclustrZookeeperClusterV2Instance#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/zookeeper_cluster_v2_instance#nodes DataInstaclustrZookeeperClusterV2Instance#nodes}
   */
   readonly nodes?: DataInstaclustrZookeeperClusterV2InstanceDataCentreNodes[] | cdktf.IResolvable;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/zookeeper_cluster_v2_instance#tag DataInstaclustrZookeeperClusterV2Instance#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/zookeeper_cluster_v2_instance#tag DataInstaclustrZookeeperClusterV2Instance#tag}
   */
   readonly tag?: DataInstaclustrZookeeperClusterV2InstanceDataCentreTag[] | cdktf.IResolvable;
 }
@@ -2282,13 +2282,13 @@ export interface DataInstaclustrZookeeperClusterV2InstanceTwoFactorDelete {
   /**
   * The email address which will be contacted when the cluster is requested to be deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/zookeeper_cluster_v2_instance#confirmation_email DataInstaclustrZookeeperClusterV2Instance#confirmation_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/zookeeper_cluster_v2_instance#confirmation_email DataInstaclustrZookeeperClusterV2Instance#confirmation_email}
   */
   readonly confirmationEmail?: string;
   /**
   * The phone number which will be contacted when the cluster is requested to be delete.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/zookeeper_cluster_v2_instance#confirmation_phone_number DataInstaclustrZookeeperClusterV2Instance#confirmation_phone_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/zookeeper_cluster_v2_instance#confirmation_phone_number DataInstaclustrZookeeperClusterV2Instance#confirmation_phone_number}
   */
   readonly confirmationPhoneNumber?: string;
 }
@@ -2433,7 +2433,7 @@ export class DataInstaclustrZookeeperClusterV2InstanceTwoFactorDeleteList extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/zookeeper_cluster_v2_instance instaclustr_zookeeper_cluster_v2_instance}
+* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/zookeeper_cluster_v2_instance instaclustr_zookeeper_cluster_v2_instance}
 */
 export class DataInstaclustrZookeeperClusterV2Instance extends cdktf.TerraformDataSource {
 
@@ -2449,7 +2449,7 @@ export class DataInstaclustrZookeeperClusterV2Instance extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataInstaclustrZookeeperClusterV2Instance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataInstaclustrZookeeperClusterV2Instance to import
-  * @param importFromId The id of the existing DataInstaclustrZookeeperClusterV2Instance that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/zookeeper_cluster_v2_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataInstaclustrZookeeperClusterV2Instance that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/zookeeper_cluster_v2_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataInstaclustrZookeeperClusterV2Instance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2461,7 +2461,7 @@ export class DataInstaclustrZookeeperClusterV2Instance extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/zookeeper_cluster_v2_instance instaclustr_zookeeper_cluster_v2_instance} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/zookeeper_cluster_v2_instance instaclustr_zookeeper_cluster_v2_instance} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2472,7 +2472,8 @@ export class DataInstaclustrZookeeperClusterV2Instance extends cdktf.TerraformDa
       terraformResourceType: 'instaclustr_zookeeper_cluster_v2_instance',
       terraformGeneratorMetadata: {
         providerName: 'instaclustr',
-        providerVersion: '2.1.25'
+        providerVersion: '2.1.26',
+        providerVersionConstraint: '2.1.26'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

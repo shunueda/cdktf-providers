@@ -67,7 +67,8 @@ export class PolicyAssignment extends cdktf.TerraformResource {
       terraformResourceType: 'clumio_policy_assignment',
       terraformGeneratorMetadata: {
         providerName: 'clumio',
-        providerVersion: '0.16.1'
+        providerVersion: '0.16.1',
+        providerVersionConstraint: '0.16.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

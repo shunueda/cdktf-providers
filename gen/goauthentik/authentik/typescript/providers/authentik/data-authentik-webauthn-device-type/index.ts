@@ -62,7 +62,8 @@ export class DataAuthentikWebauthnDeviceType extends cdktf.TerraformDataSource {
       terraformResourceType: 'authentik_webauthn_device_type',
       terraformGeneratorMetadata: {
         providerName: 'authentik',
-        providerVersion: '2025.10.0'
+        providerVersion: '2025.10.0',
+        providerVersionConstraint: '2025.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

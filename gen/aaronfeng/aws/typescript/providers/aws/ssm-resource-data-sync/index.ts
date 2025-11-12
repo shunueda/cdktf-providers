@@ -276,7 +276,8 @@ export class SsmResourceDataSync extends cdktf.TerraformResource {
       terraformResourceType: 'aws_ssm_resource_data_sync',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '3.29.6'
+        providerVersion: '3.29.6',
+        providerVersionConstraint: '3.29.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

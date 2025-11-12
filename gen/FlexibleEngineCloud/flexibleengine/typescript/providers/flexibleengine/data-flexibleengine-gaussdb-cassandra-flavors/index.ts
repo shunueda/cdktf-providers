@@ -168,7 +168,8 @@ export class DataFlexibleengineGaussdbCassandraFlavors extends cdktf.TerraformDa
       terraformResourceType: 'flexibleengine_gaussdb_cassandra_flavors',
       terraformGeneratorMetadata: {
         providerName: 'flexibleengine',
-        providerVersion: '1.46.0'
+        providerVersion: '1.46.0',
+        providerVersionConstraint: '1.46.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

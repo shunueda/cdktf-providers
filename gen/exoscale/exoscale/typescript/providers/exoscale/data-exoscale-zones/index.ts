@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/data-sources/zones
+// https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/zones
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataExoscaleZonesConfig extends cdktf.TerraformMetaArguments {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/data-sources/zones exoscale_zones}
+* Represents a {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/zones exoscale_zones}
 */
 export class DataExoscaleZones extends cdktf.TerraformDataSource {
 
@@ -26,7 +26,7 @@ export class DataExoscaleZones extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataExoscaleZones resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataExoscaleZones to import
-  * @param importFromId The id of the existing DataExoscaleZones that should be imported. Refer to the {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/data-sources/zones#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataExoscaleZones that should be imported. Refer to the {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/zones#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataExoscaleZones to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -38,7 +38,7 @@ export class DataExoscaleZones extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/data-sources/zones exoscale_zones} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/zones exoscale_zones} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -49,7 +49,8 @@ export class DataExoscaleZones extends cdktf.TerraformDataSource {
       terraformResourceType: 'exoscale_zones',
       terraformGeneratorMetadata: {
         providerName: 'exoscale',
-        providerVersion: '0.66.0'
+        providerVersion: '0.67.0',
+        providerVersionConstraint: '0.67.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

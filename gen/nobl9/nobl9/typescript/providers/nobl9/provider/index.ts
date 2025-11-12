@@ -103,7 +103,8 @@ export class Nobl9Provider extends cdktf.TerraformProvider {
       terraformResourceType: 'nobl9',
       terraformGeneratorMetadata: {
         providerName: 'nobl9',
-        providerVersion: '0.44.1'
+        providerVersion: '0.44.1',
+        providerVersionConstraint: '0.44.1'
       },
       terraformProviderSource: 'nobl9/nobl9'
     });

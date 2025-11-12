@@ -355,7 +355,8 @@ export class DataAembitCredentialProviderIntegrations extends cdktf.TerraformDat
       terraformResourceType: 'aembit_credential_provider_integrations',
       terraformGeneratorMetadata: {
         providerName: 'aembit',
-        providerVersion: '1.25.1'
+        providerVersion: '1.25.1',
+        providerVersionConstraint: '1.25.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

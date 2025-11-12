@@ -129,7 +129,8 @@ export class DynatraceProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'dynatrace',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1'
+        providerVersion: '1.87.1',
+        providerVersionConstraint: '1.87.1'
       },
       terraformProviderSource: 'dynatrace-oss/dynatrace'
     });

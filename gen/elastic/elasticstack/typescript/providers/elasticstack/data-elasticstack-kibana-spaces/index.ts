@@ -249,7 +249,8 @@ export class DataElasticstackKibanaSpaces extends cdktf.TerraformDataSource {
       terraformResourceType: 'elasticstack_kibana_spaces',
       terraformGeneratorMetadata: {
         providerName: 'elasticstack',
-        providerVersion: '0.12.1'
+        providerVersion: '0.12.1',
+        providerVersionConstraint: '0.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

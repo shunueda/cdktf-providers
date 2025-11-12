@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/dnsnaptrrec
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnsnaptrrec
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,64 +8,60 @@ import * as cdktf from 'cdktf';
 
 export interface DnsnaptrrecConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/dnsnaptrrec#domain Dnsnaptrrec#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnsnaptrrec#domain Dnsnaptrrec#domain}
   */
   readonly domain: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/dnsnaptrrec#ecssubnet Dnsnaptrrec#ecssubnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnsnaptrrec#ecssubnet Dnsnaptrrec#ecssubnet}
   */
   readonly ecssubnet?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/dnsnaptrrec#flags Dnsnaptrrec#flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnsnaptrrec#flags Dnsnaptrrec#flags}
   */
   readonly flags?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/dnsnaptrrec#id Dnsnaptrrec#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnsnaptrrec#id Dnsnaptrrec#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/dnsnaptrrec#nodeid Dnsnaptrrec#nodeid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnsnaptrrec#nodeid Dnsnaptrrec#nodeid}
   */
   readonly nodeid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/dnsnaptrrec#order Dnsnaptrrec#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnsnaptrrec#order Dnsnaptrrec#order}
   */
   readonly order: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/dnsnaptrrec#preference Dnsnaptrrec#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnsnaptrrec#preference Dnsnaptrrec#preference}
   */
   readonly preference: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/dnsnaptrrec#recordid Dnsnaptrrec#recordid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnsnaptrrec#recordid Dnsnaptrrec#recordid}
   */
   readonly recordid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/dnsnaptrrec#regexp Dnsnaptrrec#regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnsnaptrrec#regexp Dnsnaptrrec#regexp}
   */
   readonly regexp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/dnsnaptrrec#replacement Dnsnaptrrec#replacement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnsnaptrrec#replacement Dnsnaptrrec#replacement}
   */
   readonly replacement?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/dnsnaptrrec#services Dnsnaptrrec#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnsnaptrrec#services Dnsnaptrrec#services}
   */
   readonly services?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/dnsnaptrrec#ttl Dnsnaptrrec#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnsnaptrrec#ttl Dnsnaptrrec#ttl}
   */
   readonly ttl?: number;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/dnsnaptrrec#type Dnsnaptrrec#type}
-  */
-  readonly type?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/dnsnaptrrec citrixadc_dnsnaptrrec}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnsnaptrrec citrixadc_dnsnaptrrec}
 */
 export class Dnsnaptrrec extends cdktf.TerraformResource {
 
@@ -81,7 +77,7 @@ export class Dnsnaptrrec extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Dnsnaptrrec resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Dnsnaptrrec to import
-  * @param importFromId The id of the existing Dnsnaptrrec that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/dnsnaptrrec#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Dnsnaptrrec that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnsnaptrrec#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Dnsnaptrrec to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +89,7 @@ export class Dnsnaptrrec extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/dnsnaptrrec citrixadc_dnsnaptrrec} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnsnaptrrec citrixadc_dnsnaptrrec} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,7 +100,8 @@ export class Dnsnaptrrec extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_dnsnaptrrec',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -126,7 +123,6 @@ export class Dnsnaptrrec extends cdktf.TerraformResource {
     this._replacement = config.replacement;
     this._services = config.services;
     this._ttl = config.ttl;
-    this._type = config.type;
   }
 
   // ==========
@@ -236,7 +232,7 @@ export class Dnsnaptrrec extends cdktf.TerraformResource {
     return this._preference;
   }
 
-  // recordid - computed: false, optional: true, required: false
+  // recordid - computed: true, optional: true, required: false
   private _recordid?: number; 
   public get recordid() {
     return this.getNumberAttribute('recordid');
@@ -316,22 +312,6 @@ export class Dnsnaptrrec extends cdktf.TerraformResource {
     return this._ttl;
   }
 
-  // type - computed: false, optional: true, required: false
-  private _type?: string; 
-  public get type() {
-    return this.getStringAttribute('type');
-  }
-  public set type(value: string) {
-    this._type = value;
-  }
-  public resetType() {
-    this._type = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get typeInput() {
-    return this._type;
-  }
-
   // =========
   // SYNTHESIS
   // =========
@@ -350,7 +330,6 @@ export class Dnsnaptrrec extends cdktf.TerraformResource {
       replacement: cdktf.stringToTerraform(this._replacement),
       services: cdktf.stringToTerraform(this._services),
       ttl: cdktf.numberToTerraform(this._ttl),
-      type: cdktf.stringToTerraform(this._type),
     };
   }
 
@@ -427,12 +406,6 @@ export class Dnsnaptrrec extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "number",
-      },
-      type: {
-        value: cdktf.stringToHclTerraform(this._type),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
       },
     };
 

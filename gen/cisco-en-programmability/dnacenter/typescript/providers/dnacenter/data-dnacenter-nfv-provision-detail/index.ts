@@ -314,7 +314,8 @@ export class DataDnacenterNfvProvisionDetail extends cdktf.TerraformDataSource {
       terraformResourceType: 'dnacenter_nfv_provision_detail',
       terraformGeneratorMetadata: {
         providerName: 'dnacenter',
-        providerVersion: '1.1.21'
+        providerVersion: '1.1.21',
+        providerVersionConstraint: '1.1.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -85,7 +85,8 @@ export class CohesityProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'cohesity',
       terraformGeneratorMetadata: {
         providerName: 'cohesity',
-        providerVersion: '2.1.3'
+        providerVersion: '2.1.3',
+        providerVersionConstraint: '2.1.3'
       },
       terraformProviderSource: 'cohesity/cohesity'
     });

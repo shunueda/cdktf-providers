@@ -64,7 +64,8 @@ export class AntiDdosIp extends cdktf.TerraformResource {
       terraformResourceType: 'ucloud_anti_ddos_ip',
       terraformGeneratorMetadata: {
         providerName: 'ucloud',
-        providerVersion: '1.39.1'
+        providerVersion: '1.39.1',
+        providerVersionConstraint: '1.39.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

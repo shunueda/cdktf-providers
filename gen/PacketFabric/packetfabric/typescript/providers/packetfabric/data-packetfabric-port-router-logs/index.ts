@@ -174,7 +174,8 @@ export class DataPacketfabricPortRouterLogs extends cdktf.TerraformDataSource {
       terraformResourceType: 'packetfabric_port_router_logs',
       terraformGeneratorMetadata: {
         providerName: 'packetfabric',
-        providerVersion: '1.9.3'
+        providerVersion: '1.9.3',
+        providerVersionConstraint: '1.9.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -96,7 +96,8 @@ export class RouterBfd6Multihoptemplate extends cdktf.TerraformResource {
       terraformResourceType: 'fmgdevice_router_bfd6_multihoptemplate',
       terraformGeneratorMetadata: {
         providerName: 'fmgdevice',
-        providerVersion: '1.2.1'
+        providerVersion: '1.2.1',
+        providerVersionConstraint: '1.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

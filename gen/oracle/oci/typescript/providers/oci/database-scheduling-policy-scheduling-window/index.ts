@@ -705,7 +705,8 @@ export class DatabaseSchedulingPolicySchedulingWindow extends cdktf.TerraformRes
       terraformResourceType: 'oci_database_scheduling_policy_scheduling_window',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

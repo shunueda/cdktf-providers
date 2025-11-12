@@ -201,7 +201,8 @@ export class GaAcceleratorSpareIpAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_ga_accelerator_spare_ip_attachment',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

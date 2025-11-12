@@ -73,7 +73,8 @@ export class DataSonarrCustomFormatConditionReleaseGroup extends cdktf.Terraform
       terraformResourceType: 'sonarr_custom_format_condition_release_group',
       terraformGeneratorMetadata: {
         providerName: 'sonarr',
-        providerVersion: '3.4.0'
+        providerVersion: '3.4.0',
+        providerVersionConstraint: '3.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

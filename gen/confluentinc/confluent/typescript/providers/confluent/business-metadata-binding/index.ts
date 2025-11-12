@@ -299,7 +299,8 @@ export class BusinessMetadataBinding extends cdktf.TerraformResource {
       terraformResourceType: 'confluent_business_metadata_binding',
       terraformGeneratorMetadata: {
         providerName: 'confluent',
-        providerVersion: '2.51.0'
+        providerVersion: '2.51.0',
+        providerVersionConstraint: '2.51.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -922,7 +922,8 @@ export class CksCluster extends cdktf.TerraformResource {
       terraformResourceType: 'coreweave_cks_cluster',
       terraformGeneratorMetadata: {
         providerName: 'coreweave',
-        providerVersion: '0.7.0'
+        providerVersion: '0.7.0',
+        providerVersionConstraint: '0.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

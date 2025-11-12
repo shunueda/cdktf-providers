@@ -1434,7 +1434,8 @@ export class AirflowCluster extends cdktf.TerraformResource {
       terraformResourceType: 'doublecloud_airflow_cluster',
       terraformGeneratorMetadata: {
         providerName: 'doublecloud',
-        providerVersion: '0.1.26'
+        providerVersion: '0.1.26',
+        providerVersionConstraint: '0.1.26'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

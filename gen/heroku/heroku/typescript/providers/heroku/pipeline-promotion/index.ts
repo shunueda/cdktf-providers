@@ -160,7 +160,8 @@ export class PipelinePromotion extends cdktf.TerraformResource {
       terraformResourceType: 'heroku_pipeline_promotion',
       terraformGeneratorMetadata: {
         providerName: 'heroku',
-        providerVersion: '5.3.2'
+        providerVersion: '5.3.2',
+        providerVersionConstraint: '5.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

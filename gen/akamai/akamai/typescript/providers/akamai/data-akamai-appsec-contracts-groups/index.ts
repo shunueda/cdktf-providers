@@ -68,7 +68,8 @@ export class DataAkamaiAppsecContractsGroups extends cdktf.TerraformDataSource {
       terraformResourceType: 'akamai_appsec_contracts_groups',
       terraformGeneratorMetadata: {
         providerName: 'akamai',
-        providerVersion: '9.1.0'
+        providerVersion: '9.1.0',
+        providerVersionConstraint: '9.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

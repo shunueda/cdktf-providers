@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/portainer/portainer/1.16.0/docs/resources/cloud_provider_provision
+// https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/cloud_provider_provision
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface CloudProviderProvisionConfig extends cdktf.TerraformMetaArgumen
   /**
   * Cloud provider (civo, digitalocean, linode, amazon, azure, gke)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.0/docs/resources/cloud_provider_provision#cloud_provider CloudProviderProvision#cloud_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/cloud_provider_provision#cloud_provider CloudProviderProvision#cloud_provider}
   */
   readonly cloudProvider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.0/docs/resources/cloud_provider_provision#id CloudProviderProvision#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/cloud_provider_provision#id CloudProviderProvision#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface CloudProviderProvisionConfig extends cdktf.TerraformMetaArgumen
   /**
   * Raw payload with provisioning parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.0/docs/resources/cloud_provider_provision#payload CloudProviderProvision#payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/cloud_provider_provision#payload CloudProviderProvision#payload}
   */
   readonly payload: { [key: string]: string };
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/portainer/portainer/1.16.0/docs/resources/cloud_provider_provision portainer_cloud_provider_provision}
+* Represents a {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/cloud_provider_provision portainer_cloud_provider_provision}
 */
 export class CloudProviderProvision extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class CloudProviderProvision extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudProviderProvision resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudProviderProvision to import
-  * @param importFromId The id of the existing CloudProviderProvision that should be imported. Refer to the {@link https://registry.terraform.io/providers/portainer/portainer/1.16.0/docs/resources/cloud_provider_provision#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudProviderProvision that should be imported. Refer to the {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/cloud_provider_provision#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudProviderProvision to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class CloudProviderProvision extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/portainer/portainer/1.16.0/docs/resources/cloud_provider_provision portainer_cloud_provider_provision} Resource
+  * Create a new {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/cloud_provider_provision portainer_cloud_provider_provision} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,7 +68,8 @@ export class CloudProviderProvision extends cdktf.TerraformResource {
       terraformResourceType: 'portainer_cloud_provider_provision',
       terraformGeneratorMetadata: {
         providerName: 'portainer',
-        providerVersion: '1.16.0'
+        providerVersion: '1.16.1',
+        providerVersionConstraint: '1.16.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

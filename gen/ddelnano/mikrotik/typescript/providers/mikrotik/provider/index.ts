@@ -91,7 +91,8 @@ export class MikrotikProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'mikrotik',
       terraformGeneratorMetadata: {
         providerName: 'mikrotik',
-        providerVersion: '0.16.1'
+        providerVersion: '0.16.1',
+        providerVersionConstraint: '0.16.1'
       },
       terraformProviderSource: 'ddelnano/mikrotik'
     });

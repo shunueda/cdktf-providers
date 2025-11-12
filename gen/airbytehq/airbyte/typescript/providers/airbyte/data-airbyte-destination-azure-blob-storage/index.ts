@@ -353,7 +353,8 @@ export class DataAirbyteDestinationAzureBlobStorage extends cdktf.TerraformDataS
       terraformResourceType: 'airbyte_destination_azure_blob_storage',
       terraformGeneratorMetadata: {
         providerName: 'airbyte',
-        providerVersion: '0.13.0'
+        providerVersion: '0.13.0',
+        providerVersionConstraint: '0.13.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

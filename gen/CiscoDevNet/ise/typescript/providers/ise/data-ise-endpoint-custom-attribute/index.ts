@@ -58,7 +58,8 @@ export class DataIseEndpointCustomAttribute extends cdktf.TerraformDataSource {
       terraformResourceType: 'ise_endpoint_custom_attribute',
       terraformGeneratorMetadata: {
         providerName: 'ise',
-        providerVersion: '0.2.12'
+        providerVersion: '0.2.12',
+        providerVersionConstraint: '0.2.12'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -75,7 +75,8 @@ export class DelphixProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'delphix',
       terraformGeneratorMetadata: {
         providerName: 'delphix',
-        providerVersion: '4.1.0'
+        providerVersion: '4.1.0',
+        providerVersionConstraint: '4.1.0'
       },
       terraformProviderSource: 'delphix-integrations/delphix'
     });

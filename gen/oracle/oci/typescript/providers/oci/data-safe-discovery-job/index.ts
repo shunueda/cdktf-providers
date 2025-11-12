@@ -426,7 +426,8 @@ export class DataSafeDiscoveryJob extends cdktf.TerraformResource {
       terraformResourceType: 'oci_data_safe_discovery_job',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -3435,7 +3435,8 @@ export class WirelessRfProfiles extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_wireless_rf_profiles',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1'
+        providerVersion: '1.7.1',
+        providerVersionConstraint: '1.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

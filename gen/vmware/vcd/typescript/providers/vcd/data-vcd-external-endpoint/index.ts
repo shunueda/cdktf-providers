@@ -74,7 +74,8 @@ export class DataVcdExternalEndpoint extends cdktf.TerraformDataSource {
       terraformResourceType: 'vcd_external_endpoint',
       terraformGeneratorMetadata: {
         providerName: 'vcd',
-        providerVersion: '3.14.1'
+        providerVersion: '3.14.1',
+        providerVersionConstraint: '3.14.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

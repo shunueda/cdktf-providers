@@ -1,3 +1,3 @@
 # `routeros_tool_netwatch`
 
-Refer to the Terraform Registry for docs: [`routeros_tool_netwatch`](https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/tool_netwatch).
+Refer to the Terraform Registry for docs: [`routeros_tool_netwatch`](https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/tool_netwatch).

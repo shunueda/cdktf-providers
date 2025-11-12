@@ -2063,7 +2063,8 @@ export class AppOnboardingFqdn extends cdktf.TerraformResource {
       terraformResourceType: 'prosimo_app_onboarding_fqdn',
       terraformGeneratorMetadata: {
         providerName: 'prosimo',
-        providerVersion: '4.5.3'
+        providerVersion: '4.5.3',
+        providerVersionConstraint: '4.5.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

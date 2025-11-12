@@ -353,7 +353,8 @@ export class DataAirbyteSourceHuggingFaceDatasets extends cdktf.TerraformDataSou
       terraformResourceType: 'airbyte_source_hugging_face_datasets',
       terraformGeneratorMetadata: {
         providerName: 'airbyte',
-        providerVersion: '0.13.0'
+        providerVersion: '0.13.0',
+        providerVersionConstraint: '0.13.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

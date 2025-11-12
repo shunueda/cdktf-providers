@@ -80,7 +80,8 @@ export class WafLogPostClsFlow extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_waf_log_post_cls_flow',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

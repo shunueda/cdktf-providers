@@ -85,7 +85,8 @@ export class ZenlayercloudProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'zenlayercloud',
       terraformGeneratorMetadata: {
         providerName: 'zenlayercloud',
-        providerVersion: '0.2.8'
+        providerVersion: '0.2.8',
+        providerVersionConstraint: '0.2.8'
       },
       terraformProviderSource: 'zenlayer/zenlayercloud'
     });

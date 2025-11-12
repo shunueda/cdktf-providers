@@ -103,7 +103,8 @@ export class User extends cdktf.TerraformResource {
       terraformResourceType: 'vergeio_user',
       terraformGeneratorMetadata: {
         providerName: 'vergeio',
-        providerVersion: '2.7.1'
+        providerVersion: '2.7.1',
+        providerVersionConstraint: '2.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -235,7 +235,8 @@ export class IdpPing extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_idp_ping',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.70.0'
+        providerVersion: '1.70.0',
+        providerVersionConstraint: '1.70.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

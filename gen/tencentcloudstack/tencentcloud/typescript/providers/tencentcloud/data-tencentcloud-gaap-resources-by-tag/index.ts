@@ -160,7 +160,8 @@ export class DataTencentcloudGaapResourcesByTag extends cdktf.TerraformDataSourc
       terraformResourceType: 'tencentcloud_gaap_resources_by_tag',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

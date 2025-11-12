@@ -68,7 +68,8 @@ export class FirewallPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'fortiadc_firewall_policy',
       terraformGeneratorMetadata: {
         providerName: 'fortiadc',
-        providerVersion: '1.3.1'
+        providerVersion: '1.3.1',
+        providerVersionConstraint: '1.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

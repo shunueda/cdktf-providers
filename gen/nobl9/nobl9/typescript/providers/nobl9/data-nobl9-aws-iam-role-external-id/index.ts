@@ -62,7 +62,8 @@ export class DataNobl9AwsIamRoleExternalId extends cdktf.TerraformDataSource {
       terraformResourceType: 'nobl9_aws_iam_role_external_id',
       terraformGeneratorMetadata: {
         providerName: 'nobl9',
-        providerVersion: '0.44.1'
+        providerVersion: '0.44.1',
+        providerVersionConstraint: '0.44.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

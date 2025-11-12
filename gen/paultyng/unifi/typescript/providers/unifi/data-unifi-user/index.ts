@@ -61,7 +61,8 @@ export class DataUnifiUser extends cdktf.TerraformDataSource {
       terraformResourceType: 'unifi_user',
       terraformGeneratorMetadata: {
         providerName: 'unifi',
-        providerVersion: '0.41.0'
+        providerVersion: '0.41.0',
+        providerVersionConstraint: '0.41.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

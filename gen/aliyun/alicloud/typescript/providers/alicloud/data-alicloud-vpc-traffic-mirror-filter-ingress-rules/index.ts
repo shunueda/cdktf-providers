@@ -197,7 +197,8 @@ export class DataAlicloudVpcTrafficMirrorFilterIngressRules extends cdktf.Terraf
       terraformResourceType: 'alicloud_vpc_traffic_mirror_filter_ingress_rules',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

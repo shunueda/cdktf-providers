@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_uri
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_uri
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface ManagementResourceUriConfig extends cdktf.TerraformMetaArgument
   /**
   * Color of the object. Should be one of existing colors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_uri#color ManagementResourceUri#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_uri#color ManagementResourceUri#color}
   */
   readonly color?: string;
   /**
   * Comments string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_uri#comments ManagementResourceUri#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_uri#comments ManagementResourceUri#comments}
   */
   readonly comments?: string;
   /**
   * Connection methods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_uri#connection_methods ManagementResourceUri#connection_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_uri#connection_methods ManagementResourceUri#connection_methods}
   */
   readonly connectionMethods?: { [key: string]: string };
   /**
   * Configures how to track connections that match this rule but fail the content security checks. An example of an exception is a connection with an unsupported scheme or method.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_uri#exception_track ManagementResourceUri#exception_track}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_uri#exception_track ManagementResourceUri#exception_track}
   */
   readonly exceptionTrack?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_uri#id ManagementResourceUri#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_uri#id ManagementResourceUri#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,67 +41,67 @@ export interface ManagementResourceUriConfig extends cdktf.TerraformMetaArgument
   /**
   * Apply changes ignoring errors. You won't be able to publish such a changes. If ignore-warnings flag was omitted - warnings will also be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_uri#ignore_errors ManagementResourceUri#ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_uri#ignore_errors ManagementResourceUri#ignore_errors}
   */
   readonly ignoreErrors?: boolean | cdktf.IResolvable;
   /**
   * Apply changes ignoring warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_uri#ignore_warnings ManagementResourceUri#ignore_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_uri#ignore_warnings ManagementResourceUri#ignore_warnings}
   */
   readonly ignoreWarnings?: boolean | cdktf.IResolvable;
   /**
   * Object name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_uri#name ManagementResourceUri#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_uri#name ManagementResourceUri#name}
   */
   readonly name: string;
   /**
   * SOAP settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_uri#soap ManagementResourceUri#soap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_uri#soap ManagementResourceUri#soap}
   */
   readonly soap?: { [key: string]: string };
   /**
   * Collection of tag identifiers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_uri#tags ManagementResourceUri#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_uri#tags ManagementResourceUri#tags}
   */
   readonly tags?: string[];
   /**
   * The type can be Wild Cards or UFP, where a UFP server holds categories of forbidden web sites.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_uri#uri_match_specification_type ManagementResourceUri#uri_match_specification_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_uri#uri_match_specification_type ManagementResourceUri#uri_match_specification_type}
   */
   readonly uriMatchSpecificationType?: string;
   /**
   * Select the use of the URI resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_uri#use_this_resource_to ManagementResourceUri#use_this_resource_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_uri#use_this_resource_to ManagementResourceUri#use_this_resource_to}
   */
   readonly useThisResourceTo?: string;
   /**
   * action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_uri#action ManagementResourceUri#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_uri#action ManagementResourceUri#action}
   */
   readonly action?: ManagementResourceUriAction;
   /**
   * cvp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_uri#cvp ManagementResourceUri#cvp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_uri#cvp ManagementResourceUri#cvp}
   */
   readonly cvp?: ManagementResourceUriCvp;
   /**
   * match_ufp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_uri#match_ufp ManagementResourceUri#match_ufp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_uri#match_ufp ManagementResourceUri#match_ufp}
   */
   readonly matchUfp?: ManagementResourceUriMatchUfp;
   /**
   * match_wildcards block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_uri#match_wildcards ManagementResourceUri#match_wildcards}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_uri#match_wildcards ManagementResourceUri#match_wildcards}
   */
   readonly matchWildcards?: ManagementResourceUriMatchWildcards;
 }
@@ -109,37 +109,37 @@ export interface ManagementResourceUriAction {
   /**
   * If the Action in a rule which uses this resource is Drop or Reject, then the Replacement URI is displayed instead of the one requested by the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_uri#replacement_uri ManagementResourceUri#replacement_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_uri#replacement_uri ManagementResourceUri#replacement_uri}
   */
   readonly replacementUri?: string;
   /**
   * Strip activeX tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_uri#strip_activex_tags ManagementResourceUri#strip_activex_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_uri#strip_activex_tags ManagementResourceUri#strip_activex_tags}
   */
   readonly stripActivexTags?: boolean | cdktf.IResolvable;
   /**
   * Strip JAVA applets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_uri#strip_applet_tags ManagementResourceUri#strip_applet_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_uri#strip_applet_tags ManagementResourceUri#strip_applet_tags}
   */
   readonly stripAppletTags?: boolean | cdktf.IResolvable;
   /**
   * Strip ftp links.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_uri#strip_ftp_links ManagementResourceUri#strip_ftp_links}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_uri#strip_ftp_links ManagementResourceUri#strip_ftp_links}
   */
   readonly stripFtpLinks?: boolean | cdktf.IResolvable;
   /**
   * Strip ports.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_uri#strip_port_strings ManagementResourceUri#strip_port_strings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_uri#strip_port_strings ManagementResourceUri#strip_port_strings}
   */
   readonly stripPortStrings?: boolean | cdktf.IResolvable;
   /**
   * Strip JAVA scripts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_uri#strip_script_tags ManagementResourceUri#strip_script_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_uri#strip_script_tags ManagementResourceUri#strip_script_tags}
   */
   readonly stripScriptTags?: boolean | cdktf.IResolvable;
 }
@@ -370,43 +370,43 @@ export interface ManagementResourceUriCvp {
   /**
   * Configures the CVP server to inspect but not modify content.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_uri#allowed_to_modify_content ManagementResourceUri#allowed_to_modify_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_uri#allowed_to_modify_content ManagementResourceUri#allowed_to_modify_content}
   */
   readonly allowedToModifyContent?: boolean | cdktf.IResolvable;
   /**
   * Select to enable the Content Vectoring Protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_uri#enable_cvp ManagementResourceUri#enable_cvp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_uri#enable_cvp ManagementResourceUri#enable_cvp}
   */
   readonly enableCvp?: boolean | cdktf.IResolvable;
   /**
   * Designates when the CVP server returns data to the Security Gateway security server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_uri#reply_order ManagementResourceUri#reply_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_uri#reply_order ManagementResourceUri#reply_order}
   */
   readonly replyOrder?: string;
   /**
   * Select, if you would like the CVP server to check the HTTP headers of the message packets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_uri#send_http_headers_to_cvp ManagementResourceUri#send_http_headers_to_cvp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_uri#send_http_headers_to_cvp ManagementResourceUri#send_http_headers_to_cvp}
   */
   readonly sendHttpHeadersToCvp?: boolean | cdktf.IResolvable;
   /**
   * Used to protect against undesirable content in the HTTP request, for example, when inspecting peer-to-peer connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_uri#send_http_request_to_cvp ManagementResourceUri#send_http_request_to_cvp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_uri#send_http_request_to_cvp ManagementResourceUri#send_http_request_to_cvp}
   */
   readonly sendHttpRequestToCvp?: boolean | cdktf.IResolvable;
   /**
   * Improves the performance of the CVP server. This option does not send to the CVP server traffic that is considered safe.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_uri#send_only_unsafe_file_types ManagementResourceUri#send_only_unsafe_file_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_uri#send_only_unsafe_file_types ManagementResourceUri#send_only_unsafe_file_types}
   */
   readonly sendOnlyUnsafeFileTypes?: boolean | cdktf.IResolvable;
   /**
   * The UID or Name of the CVP server, make sure the CVP server is already be defined as an OPSEC Application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_uri#server ManagementResourceUri#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_uri#server ManagementResourceUri#server}
   */
   readonly server?: string;
 }
@@ -666,31 +666,31 @@ export interface ManagementResourceUriMatchUfp {
   /**
   * Specifies if and how caching is to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_uri#caching_control ManagementResourceUri#caching_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_uri#caching_control ManagementResourceUri#caching_control}
   */
   readonly cachingControl?: string;
   /**
   * The UFP server will be ignored after numerous UFP server connections were unsuccessful.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_uri#ignore_ufp_server_after_failure ManagementResourceUri#ignore_ufp_server_after_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_uri#ignore_ufp_server_after_failure ManagementResourceUri#ignore_ufp_server_after_failure}
   */
   readonly ignoreUfpServerAfterFailure?: boolean | cdktf.IResolvable;
   /**
   * Signifies at what point the UFP server should be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_uri#number_of_failures_before_ignore ManagementResourceUri#number_of_failures_before_ignore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_uri#number_of_failures_before_ignore ManagementResourceUri#number_of_failures_before_ignore}
   */
   readonly numberOfFailuresBeforeIgnore?: number;
   /**
   * The UID or Name of the UFP server that is an OPSEC certified third party application that checks URLs against a list of permitted categories.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_uri#server ManagementResourceUri#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_uri#server ManagementResourceUri#server}
   */
   readonly server?: string;
   /**
   * The amount of time that must pass before a UFP server connection should be attempted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_uri#timeout_before_reconnecting ManagementResourceUri#timeout_before_reconnecting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_uri#timeout_before_reconnecting ManagementResourceUri#timeout_before_reconnecting}
   */
   readonly timeoutBeforeReconnecting?: number;
 }
@@ -892,31 +892,31 @@ export interface ManagementResourceUriMatchWildcardsMethods {
   /**
   * GET method.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_uri#get ManagementResourceUri#get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_uri#get ManagementResourceUri#get}
   */
   readonly get?: boolean | cdktf.IResolvable;
   /**
   * HEAD method.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_uri#head ManagementResourceUri#head}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_uri#head ManagementResourceUri#head}
   */
   readonly head?: boolean | cdktf.IResolvable;
   /**
   * You can specify another method in the Other field. You can use wildcards.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_uri#other ManagementResourceUri#other}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_uri#other ManagementResourceUri#other}
   */
   readonly other?: string;
   /**
   * POST method.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_uri#post ManagementResourceUri#post}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_uri#post ManagementResourceUri#post}
   */
   readonly post?: boolean | cdktf.IResolvable;
   /**
   * PUT method.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_uri#put ManagementResourceUri#put}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_uri#put ManagementResourceUri#put}
   */
   readonly put?: boolean | cdktf.IResolvable;
 }
@@ -1118,43 +1118,43 @@ export interface ManagementResourceUriMatchWildcardsSchemes {
   /**
   * Ftp scheme.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_uri#ftp ManagementResourceUri#ftp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_uri#ftp ManagementResourceUri#ftp}
   */
   readonly ftp?: boolean | cdktf.IResolvable;
   /**
   * Gopher scheme.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_uri#gopher ManagementResourceUri#gopher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_uri#gopher ManagementResourceUri#gopher}
   */
   readonly gopher?: boolean | cdktf.IResolvable;
   /**
   * Http scheme.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_uri#http ManagementResourceUri#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_uri#http ManagementResourceUri#http}
   */
   readonly http?: boolean | cdktf.IResolvable;
   /**
   * Mailto scheme.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_uri#mailto ManagementResourceUri#mailto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_uri#mailto ManagementResourceUri#mailto}
   */
   readonly mailto?: boolean | cdktf.IResolvable;
   /**
   * News scheme.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_uri#news ManagementResourceUri#news}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_uri#news ManagementResourceUri#news}
   */
   readonly news?: boolean | cdktf.IResolvable;
   /**
   * You can specify another scheme in the Other field. You can use wildcards.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_uri#other ManagementResourceUri#other}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_uri#other ManagementResourceUri#other}
   */
   readonly other?: string;
   /**
   * Wais scheme.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_uri#wais ManagementResourceUri#wais}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_uri#wais ManagementResourceUri#wais}
   */
   readonly wais?: boolean | cdktf.IResolvable;
 }
@@ -1414,31 +1414,31 @@ export interface ManagementResourceUriMatchWildcards {
   /**
   * The functionality of the Host parameter depends on the DNS setup of the addressed server. For the host, only the IP address or the full DNS name should be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_uri#host ManagementResourceUri#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_uri#host ManagementResourceUri#host}
   */
   readonly host?: string;
   /**
   * Name matching is based on appending the file name in the request to the current working directory (unless the file name is already a full path name) and comparing the result to the path specified in the Resource definition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_uri#path ManagementResourceUri#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_uri#path ManagementResourceUri#path}
   */
   readonly path?: string;
   /**
   * The parameters that are sent to the URI when it is accessed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_uri#query ManagementResourceUri#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_uri#query ManagementResourceUri#query}
   */
   readonly query?: string;
   /**
   * methods block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_uri#methods ManagementResourceUri#methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_uri#methods ManagementResourceUri#methods}
   */
   readonly methods?: ManagementResourceUriMatchWildcardsMethods;
   /**
   * schemes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_uri#schemes ManagementResourceUri#schemes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_uri#schemes ManagementResourceUri#schemes}
   */
   readonly schemes?: ManagementResourceUriMatchWildcardsSchemes;
 }
@@ -1638,7 +1638,7 @@ export class ManagementResourceUriMatchWildcardsOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_uri checkpoint_management_resource_uri}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_uri checkpoint_management_resource_uri}
 */
 export class ManagementResourceUri extends cdktf.TerraformResource {
 
@@ -1654,7 +1654,7 @@ export class ManagementResourceUri extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementResourceUri resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementResourceUri to import
-  * @param importFromId The id of the existing ManagementResourceUri that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_uri#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementResourceUri that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_uri#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementResourceUri to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1666,7 +1666,7 @@ export class ManagementResourceUri extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_uri checkpoint_management_resource_uri} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_uri checkpoint_management_resource_uri} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1677,7 +1677,8 @@ export class ManagementResourceUri extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_resource_uri',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

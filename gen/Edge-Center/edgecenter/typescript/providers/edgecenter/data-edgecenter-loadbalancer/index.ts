@@ -273,7 +273,8 @@ export class DataEdgecenterLoadbalancer extends cdktf.TerraformDataSource {
       terraformResourceType: 'edgecenter_loadbalancer',
       terraformGeneratorMetadata: {
         providerName: 'edgecenter',
-        providerVersion: '0.10.4'
+        providerVersion: '0.10.4',
+        providerVersionConstraint: '0.10.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

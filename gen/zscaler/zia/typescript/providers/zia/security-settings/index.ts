@@ -68,7 +68,8 @@ export class SecuritySettings extends cdktf.TerraformResource {
       terraformResourceType: 'zia_security_settings',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.5.3'
+        providerVersion: '4.5.3',
+        providerVersionConstraint: '4.5.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

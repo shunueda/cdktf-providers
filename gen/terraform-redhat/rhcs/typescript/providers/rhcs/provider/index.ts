@@ -103,7 +103,8 @@ export class RhcsProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'rhcs',
       terraformGeneratorMetadata: {
         providerName: 'rhcs',
-        providerVersion: '1.7.2'
+        providerVersion: '1.7.2',
+        providerVersionConstraint: '1.7.2'
       },
       terraformProviderSource: 'terraform-redhat/rhcs'
     });

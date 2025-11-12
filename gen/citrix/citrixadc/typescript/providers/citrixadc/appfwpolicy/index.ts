@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwpolicy
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwpolicy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,36 @@ import * as cdktf from 'cdktf';
 
 export interface AppfwpolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwpolicy#comment Appfwpolicy#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwpolicy#comment Appfwpolicy#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwpolicy#id Appfwpolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwpolicy#id Appfwpolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwpolicy#logaction Appfwpolicy#logaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwpolicy#logaction Appfwpolicy#logaction}
   */
   readonly logaction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwpolicy#name Appfwpolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwpolicy#name Appfwpolicy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwpolicy#newname Appfwpolicy#newname}
-  */
-  readonly newname?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwpolicy#profilename Appfwpolicy#profilename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwpolicy#profilename Appfwpolicy#profilename}
   */
   readonly profilename: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwpolicy#rule Appfwpolicy#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwpolicy#rule Appfwpolicy#rule}
   */
   readonly rule: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwpolicy citrixadc_appfwpolicy}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwpolicy citrixadc_appfwpolicy}
 */
 export class Appfwpolicy extends cdktf.TerraformResource {
 
@@ -57,7 +53,7 @@ export class Appfwpolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Appfwpolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Appfwpolicy to import
-  * @param importFromId The id of the existing Appfwpolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwpolicy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Appfwpolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwpolicy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Appfwpolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +65,7 @@ export class Appfwpolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwpolicy citrixadc_appfwpolicy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwpolicy citrixadc_appfwpolicy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,7 +76,8 @@ export class Appfwpolicy extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_appfwpolicy',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -94,7 +91,6 @@ export class Appfwpolicy extends cdktf.TerraformResource {
     this._id = config.id;
     this._logaction = config.logaction;
     this._name = config.name;
-    this._newname = config.newname;
     this._profilename = config.profilename;
     this._rule = config.rule;
   }
@@ -164,22 +160,6 @@ export class Appfwpolicy extends cdktf.TerraformResource {
     return this._name;
   }
 
-  // newname - computed: true, optional: true, required: false
-  private _newname?: string; 
-  public get newname() {
-    return this.getStringAttribute('newname');
-  }
-  public set newname(value: string) {
-    this._newname = value;
-  }
-  public resetNewname() {
-    this._newname = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get newnameInput() {
-    return this._newname;
-  }
-
   // profilename - computed: false, optional: false, required: true
   private _profilename?: string; 
   public get profilename() {
@@ -216,7 +196,6 @@ export class Appfwpolicy extends cdktf.TerraformResource {
       id: cdktf.stringToTerraform(this._id),
       logaction: cdktf.stringToTerraform(this._logaction),
       name: cdktf.stringToTerraform(this._name),
-      newname: cdktf.stringToTerraform(this._newname),
       profilename: cdktf.stringToTerraform(this._profilename),
       rule: cdktf.stringToTerraform(this._rule),
     };
@@ -244,12 +223,6 @@ export class Appfwpolicy extends cdktf.TerraformResource {
       },
       name: {
         value: cdktf.stringToHclTerraform(this._name),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
-      newname: {
-        value: cdktf.stringToHclTerraform(this._newname),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

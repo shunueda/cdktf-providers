@@ -97,7 +97,8 @@ export class NetworkInterface extends cdktf.TerraformResource {
       terraformResourceType: 'stackit_network_interface',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.69.0'
+        providerVersion: '0.69.0',
+        providerVersionConstraint: '0.69.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

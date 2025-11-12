@@ -129,7 +129,8 @@ export class DataCdpDatalakeListRuntimes extends cdktf.TerraformDataSource {
       terraformResourceType: 'cdp_datalake_list_runtimes',
       terraformGeneratorMetadata: {
         providerName: 'cdp',
-        providerVersion: '0.10.8'
+        providerVersion: '0.10.8',
+        providerVersionConstraint: '0.10.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -165,7 +165,8 @@ export class DataZenlayercloudTrafficBandwidthClusterAreas extends cdktf.Terrafo
       terraformResourceType: 'zenlayercloud_traffic_bandwidth_cluster_areas',
       terraformGeneratorMetadata: {
         providerName: 'zenlayercloud',
-        providerVersion: '0.2.8'
+        providerVersion: '0.2.8',
+        providerVersionConstraint: '0.2.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

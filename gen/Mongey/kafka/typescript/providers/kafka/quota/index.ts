@@ -74,7 +74,8 @@ export class Quota extends cdktf.TerraformResource {
       terraformResourceType: 'kafka_quota',
       terraformGeneratorMetadata: {
         providerName: 'kafka',
-        providerVersion: '0.13.1'
+        providerVersion: '0.13.1',
+        providerVersionConstraint: '0.13.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

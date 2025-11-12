@@ -74,7 +74,8 @@ export class DataVcdMultisiteOrgAssociation extends cdktf.TerraformDataSource {
       terraformResourceType: 'vcd_multisite_org_association',
       terraformGeneratorMetadata: {
         providerName: 'vcd',
-        providerVersion: '3.14.1'
+        providerVersion: '3.14.1',
+        providerVersionConstraint: '3.14.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

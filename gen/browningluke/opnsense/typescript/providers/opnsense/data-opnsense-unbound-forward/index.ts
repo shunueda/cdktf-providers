@@ -58,7 +58,8 @@ export class DataOpnsenseUnboundForward extends cdktf.TerraformDataSource {
       terraformResourceType: 'opnsense_unbound_forward',
       terraformGeneratorMetadata: {
         providerName: 'opnsense',
-        providerVersion: '0.16.0'
+        providerVersion: '0.16.0',
+        providerVersionConstraint: '0.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1004,7 +1004,8 @@ export class DataThunderFwResourceUsageOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_fw_resource_usage_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

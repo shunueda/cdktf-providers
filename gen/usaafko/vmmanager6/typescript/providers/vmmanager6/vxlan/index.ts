@@ -238,7 +238,8 @@ export class Vxlan extends cdktf.TerraformResource {
       terraformResourceType: 'vmmanager6_vxlan',
       terraformGeneratorMetadata: {
         providerName: 'vmmanager6',
-        providerVersion: '0.0.34'
+        providerVersion: '0.0.34',
+        providerVersionConstraint: '0.0.34'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

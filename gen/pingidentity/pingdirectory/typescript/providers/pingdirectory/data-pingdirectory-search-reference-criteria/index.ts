@@ -55,7 +55,8 @@ export class DataPingdirectorySearchReferenceCriteria extends cdktf.TerraformDat
       terraformResourceType: 'pingdirectory_search_reference_criteria',
       terraformGeneratorMetadata: {
         providerName: 'pingdirectory',
-        providerVersion: '1.5.0'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

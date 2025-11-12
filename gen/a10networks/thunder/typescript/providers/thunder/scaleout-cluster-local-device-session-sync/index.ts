@@ -905,7 +905,8 @@ export class ScaleoutClusterLocalDeviceSessionSyncA extends cdktf.TerraformResou
       terraformResourceType: 'thunder_scaleout_cluster_local_device_session_sync',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

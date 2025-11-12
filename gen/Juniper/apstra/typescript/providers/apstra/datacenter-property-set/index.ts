@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_property_set
+// https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_property_set
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DatacenterPropertySetConfig extends cdktf.TerraformMetaArgument
   /**
   * Apstra Blueprint ID. Used to identify the Blueprint that the Property Set is imported into.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_property_set#blueprint_id DatacenterPropertySet#blueprint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_property_set#blueprint_id DatacenterPropertySet#blueprint_id}
   */
   readonly blueprintId: string;
   /**
   * ID of the Property Set ID to be imported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_property_set#id DatacenterPropertySet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_property_set#id DatacenterPropertySet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,25 +25,25 @@ export interface DatacenterPropertySetConfig extends cdktf.TerraformMetaArgument
   /**
   * Subset of Keys to import, at least one Key is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_property_set#keys DatacenterPropertySet#keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_property_set#keys DatacenterPropertySet#keys}
   */
   readonly keys?: string[];
   /**
   * This attribute is used to trigger re-import of the Property Set from the Global Catalog. It is for internal use by the provider, and should not be set by the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_property_set#sync_required DatacenterPropertySet#sync_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_property_set#sync_required DatacenterPropertySet#sync_required}
   */
   readonly syncRequired?: boolean | cdktf.IResolvable;
   /**
   * When `true`, the Property Set will be re-imported whenever it is found to be out of sync with the source Property Set in the Global Catalog. This attribute cannot be combined with the `keys` attribute, because importing a subset of Keys guarantees the Property Set will never be in sync with the Global Catalog.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_property_set#sync_with_catalog DatacenterPropertySet#sync_with_catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_property_set#sync_with_catalog DatacenterPropertySet#sync_with_catalog}
   */
   readonly syncWithCatalog?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_property_set apstra_datacenter_property_set}
+* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_property_set apstra_datacenter_property_set}
 */
 export class DatacenterPropertySet extends cdktf.TerraformResource {
 
@@ -59,7 +59,7 @@ export class DatacenterPropertySet extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DatacenterPropertySet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatacenterPropertySet to import
-  * @param importFromId The id of the existing DatacenterPropertySet that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_property_set#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatacenterPropertySet that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_property_set#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatacenterPropertySet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -71,7 +71,7 @@ export class DatacenterPropertySet extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_property_set apstra_datacenter_property_set} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_property_set apstra_datacenter_property_set} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -82,7 +82,8 @@ export class DatacenterPropertySet extends cdktf.TerraformResource {
       terraformResourceType: 'apstra_datacenter_property_set',
       terraformGeneratorMetadata: {
         providerName: 'apstra',
-        providerVersion: '0.95.0'
+        providerVersion: '0.95.1',
+        providerVersionConstraint: '0.95.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

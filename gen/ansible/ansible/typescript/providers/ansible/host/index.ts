@@ -74,7 +74,8 @@ export class Host extends cdktf.TerraformResource {
       terraformResourceType: 'ansible_host',
       terraformGeneratorMetadata: {
         providerName: 'ansible',
-        providerVersion: '1.3.0'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

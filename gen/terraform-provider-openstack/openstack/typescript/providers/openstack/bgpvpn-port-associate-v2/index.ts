@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/bgpvpn_port_associate_v2
+// https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/bgpvpn_port_associate_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,54 +8,54 @@ import * as cdktf from 'cdktf';
 
 export interface BgpvpnPortAssociateV2Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/bgpvpn_port_associate_v2#advertise_fixed_ips BgpvpnPortAssociateV2#advertise_fixed_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/bgpvpn_port_associate_v2#advertise_fixed_ips BgpvpnPortAssociateV2#advertise_fixed_ips}
   */
   readonly advertiseFixedIps?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/bgpvpn_port_associate_v2#bgpvpn_id BgpvpnPortAssociateV2#bgpvpn_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/bgpvpn_port_associate_v2#bgpvpn_id BgpvpnPortAssociateV2#bgpvpn_id}
   */
   readonly bgpvpnId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/bgpvpn_port_associate_v2#id BgpvpnPortAssociateV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/bgpvpn_port_associate_v2#id BgpvpnPortAssociateV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/bgpvpn_port_associate_v2#port_id BgpvpnPortAssociateV2#port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/bgpvpn_port_associate_v2#port_id BgpvpnPortAssociateV2#port_id}
   */
   readonly portId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/bgpvpn_port_associate_v2#project_id BgpvpnPortAssociateV2#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/bgpvpn_port_associate_v2#project_id BgpvpnPortAssociateV2#project_id}
   */
   readonly projectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/bgpvpn_port_associate_v2#region BgpvpnPortAssociateV2#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/bgpvpn_port_associate_v2#region BgpvpnPortAssociateV2#region}
   */
   readonly region?: string;
   /**
   * routes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/bgpvpn_port_associate_v2#routes BgpvpnPortAssociateV2#routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/bgpvpn_port_associate_v2#routes BgpvpnPortAssociateV2#routes}
   */
   readonly routes?: BgpvpnPortAssociateV2Routes[] | cdktf.IResolvable;
 }
 export interface BgpvpnPortAssociateV2Routes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/bgpvpn_port_associate_v2#bgpvpn_id BgpvpnPortAssociateV2#bgpvpn_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/bgpvpn_port_associate_v2#bgpvpn_id BgpvpnPortAssociateV2#bgpvpn_id}
   */
   readonly bgpvpnId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/bgpvpn_port_associate_v2#local_pref BgpvpnPortAssociateV2#local_pref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/bgpvpn_port_associate_v2#local_pref BgpvpnPortAssociateV2#local_pref}
   */
   readonly localPref?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/bgpvpn_port_associate_v2#prefix BgpvpnPortAssociateV2#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/bgpvpn_port_associate_v2#prefix BgpvpnPortAssociateV2#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/bgpvpn_port_associate_v2#type BgpvpnPortAssociateV2#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/bgpvpn_port_associate_v2#type BgpvpnPortAssociateV2#type}
   */
   readonly type: string;
 }
@@ -255,7 +255,7 @@ export class BgpvpnPortAssociateV2RoutesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/bgpvpn_port_associate_v2 openstack_bgpvpn_port_associate_v2}
+* Represents a {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/bgpvpn_port_associate_v2 openstack_bgpvpn_port_associate_v2}
 */
 export class BgpvpnPortAssociateV2 extends cdktf.TerraformResource {
 
@@ -271,7 +271,7 @@ export class BgpvpnPortAssociateV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BgpvpnPortAssociateV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BgpvpnPortAssociateV2 to import
-  * @param importFromId The id of the existing BgpvpnPortAssociateV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/bgpvpn_port_associate_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BgpvpnPortAssociateV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/bgpvpn_port_associate_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BgpvpnPortAssociateV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -283,7 +283,7 @@ export class BgpvpnPortAssociateV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/bgpvpn_port_associate_v2 openstack_bgpvpn_port_associate_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/bgpvpn_port_associate_v2 openstack_bgpvpn_port_associate_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -294,7 +294,8 @@ export class BgpvpnPortAssociateV2 extends cdktf.TerraformResource {
       terraformResourceType: 'openstack_bgpvpn_port_associate_v2',
       terraformGeneratorMetadata: {
         providerName: 'openstack',
-        providerVersion: '3.3.2'
+        providerVersion: '3.4.0',
+        providerVersionConstraint: '3.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -67,7 +67,8 @@ export class FrontierApi extends cdktf.TerraformResource {
       terraformResourceType: 'anxcloud_frontier_api',
       terraformGeneratorMetadata: {
         providerName: 'anxcloud',
-        providerVersion: '0.7.4'
+        providerVersion: '0.7.4',
+        providerVersionConstraint: '0.7.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

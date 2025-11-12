@@ -68,7 +68,8 @@ export class DataAkamaiCpCode extends cdktf.TerraformDataSource {
       terraformResourceType: 'akamai_cp_code',
       terraformGeneratorMetadata: {
         providerName: 'akamai',
-        providerVersion: '9.1.0'
+        providerVersion: '9.1.0',
+        providerVersionConstraint: '9.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

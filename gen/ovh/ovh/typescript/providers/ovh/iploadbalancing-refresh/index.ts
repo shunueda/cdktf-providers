@@ -64,7 +64,8 @@ export class IploadbalancingRefresh extends cdktf.TerraformResource {
       terraformResourceType: 'ovh_iploadbalancing_refresh',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0'
+        providerVersion: '2.9.0',
+        providerVersionConstraint: '2.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -234,7 +234,8 @@ export class DnsZoneStageDnssecKeyVersion extends cdktf.TerraformResource {
       terraformResourceType: 'oci_dns_zone_stage_dnssec_key_version',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

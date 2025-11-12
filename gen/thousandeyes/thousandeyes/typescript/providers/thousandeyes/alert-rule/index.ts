@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/alert_rule
+// https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/alert_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface AlertRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * The type of alert group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/alert_rule#alert_group_type AlertRule#alert_group_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/alert_rule#alert_group_type AlertRule#alert_group_type}
   */
   readonly alertGroupType?: string;
   /**
   * The type of alert rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/alert_rule#alert_type AlertRule#alert_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/alert_rule#alert_type AlertRule#alert_type}
   */
   readonly alertType: string;
   /**
   * [to-target, from-target, bidirectional] The direction of the test (affects how results are shown).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/alert_rule#direction AlertRule#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/alert_rule#direction AlertRule#direction}
   */
   readonly direction?: string;
   /**
   * An array of endpoint agent IDs associated with the rule (get `id` from `/endpoint/agents` API). This is applicable when `alertGroupType` is `browser-session`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/alert_rule#endpoint_agent_ids AlertRule#endpoint_agent_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/alert_rule#endpoint_agent_ids AlertRule#endpoint_agent_ids}
   */
   readonly endpointAgentIds?: string[];
   /**
   * An array of label IDs used to assign specific Endpoint Agents to the test (get `id` from `/endpoint/labels`). This is applicable when `alertGroupType` is `browser-session`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/alert_rule#endpoint_label_ids AlertRule#endpoint_label_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/alert_rule#endpoint_label_ids AlertRule#endpoint_label_ids}
   */
   readonly endpointLabelIds?: string[];
   /**
   * The alert rule evaluation expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/alert_rule#expression AlertRule#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/alert_rule#expression AlertRule#expression}
   */
   readonly expression: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/alert_rule#id AlertRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/alert_rule#id AlertRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,79 +53,79 @@ export interface AlertRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Include queries for subprefixes detected under this prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/alert_rule#include_covered_prefixes AlertRule#include_covered_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/alert_rule#include_covered_prefixes AlertRule#include_covered_prefixes}
   */
   readonly includeCoveredPrefixes?: boolean | cdktf.IResolvable;
   /**
   * If set to `true`, this alert rule becomes the default for its test type and is automatically applied to newly created tests with relevant metrics. Only one default alert rule is allowed per test type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/alert_rule#is_default AlertRule#is_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/alert_rule#is_default AlertRule#is_default}
   */
   readonly isDefault?: boolean | cdktf.IResolvable;
   /**
   * The minimum number of agents or monitors that must meet the specified criteria in order to trigger an alert. This option is mutually exclusive with 'minimum_sources_pct'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/alert_rule#minimum_sources AlertRule#minimum_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/alert_rule#minimum_sources AlertRule#minimum_sources}
   */
   readonly minimumSources?: number;
   /**
   * The minimum percentage of agents or monitors that must meet the specified criteria in order to trigger an alert. This option is mutually exclusive with 'minimum_sources'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/alert_rule#minimum_sources_pct AlertRule#minimum_sources_pct}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/alert_rule#minimum_sources_pct AlertRule#minimum_sources_pct}
   */
   readonly minimumSourcesPct?: number;
   /**
   * Set to 'true' to trigger the notification when the alert clears.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/alert_rule#notify_on_clear AlertRule#notify_on_clear}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/alert_rule#notify_on_clear AlertRule#notify_on_clear}
   */
   readonly notifyOnClear?: boolean | cdktf.IResolvable;
   /**
   * [any, auto or exact] Defines whether the same agent(s) must meet the 'exact' same threshold in consecutive rounds or not. The default value is 'any'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/alert_rule#rounds_violating_mode AlertRule#rounds_violating_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/alert_rule#rounds_violating_mode AlertRule#rounds_violating_mode}
   */
   readonly roundsViolatingMode?: string;
   /**
   * Specifies the divisor (Y value) of the “X of Y times” condition in an alert rule.  Minimum value is 1, maximum value is 10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/alert_rule#rounds_violating_out_of AlertRule#rounds_violating_out_of}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/alert_rule#rounds_violating_out_of AlertRule#rounds_violating_out_of}
   */
   readonly roundsViolatingOutOf: number;
   /**
   * Specifies the numerator (X value) of the “X of Y times” condition in an alert rule.  Minimum value is 1, maximum value is 10. Must be less than or equal to 'roundsViolatingOutOf'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/alert_rule#rounds_violating_required AlertRule#rounds_violating_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/alert_rule#rounds_violating_required AlertRule#rounds_violating_required}
   */
   readonly roundsViolatingRequired: number;
   /**
   * The name of the alert rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/alert_rule#rule_name AlertRule#rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/alert_rule#rule_name AlertRule#rule_name}
   */
   readonly ruleName: string;
   /**
   * [high, medium or low] Defines sensitivity level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/alert_rule#sensitivity_level AlertRule#sensitivity_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/alert_rule#sensitivity_level AlertRule#sensitivity_level}
   */
   readonly sensitivityLevel?: string;
   /**
   * [info, minor, major, critical or unknown] The severity level of the alert rule. The default value is 'info'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/alert_rule#severity AlertRule#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/alert_rule#severity AlertRule#severity}
   */
   readonly severity?: string;
   /**
   * A list of website domains visited during the session. This is applicable when `alertGroupType` is `browser-session`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/alert_rule#visited_sites_filter AlertRule#visited_sites_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/alert_rule#visited_sites_filter AlertRule#visited_sites_filter}
   */
   readonly visitedSitesFilter?: string[];
   /**
   * notifications block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/alert_rule#notifications AlertRule#notifications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/alert_rule#notifications AlertRule#notifications}
   */
   readonly notifications?: AlertRuleNotifications[] | cdktf.IResolvable;
 }
@@ -133,13 +133,13 @@ export interface AlertRuleNotificationsCustomWebhook {
   /**
   * The integration ID, as a string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/alert_rule#integration_id AlertRule#integration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/alert_rule#integration_id AlertRule#integration_id}
   */
   readonly integrationId: string;
   /**
   * The integration type, as a string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/alert_rule#integration_type AlertRule#integration_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/alert_rule#integration_type AlertRule#integration_type}
   */
   readonly integrationType: string;
 }
@@ -280,13 +280,13 @@ export interface AlertRuleNotificationsEmail {
   /**
   * The contents of the email, as a string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/alert_rule#message AlertRule#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/alert_rule#message AlertRule#message}
   */
   readonly message?: string;
   /**
   * The email addresses to send the notification to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/alert_rule#recipients AlertRule#recipients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/alert_rule#recipients AlertRule#recipients}
   */
   readonly recipients?: string[];
 }
@@ -433,13 +433,13 @@ export interface AlertRuleNotificationsThirdParty {
   /**
   * The integration ID, as a string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/alert_rule#integration_id AlertRule#integration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/alert_rule#integration_id AlertRule#integration_id}
   */
   readonly integrationId: string;
   /**
   * The integration type, as a string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/alert_rule#integration_type AlertRule#integration_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/alert_rule#integration_type AlertRule#integration_type}
   */
   readonly integrationType: string;
 }
@@ -580,13 +580,13 @@ export interface AlertRuleNotificationsWebhook {
   /**
   * The integration ID, as a string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/alert_rule#integration_id AlertRule#integration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/alert_rule#integration_id AlertRule#integration_id}
   */
   readonly integrationId: string;
   /**
   * The integration type, as a string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/alert_rule#integration_type AlertRule#integration_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/alert_rule#integration_type AlertRule#integration_type}
   */
   readonly integrationType: string;
 }
@@ -727,25 +727,25 @@ export interface AlertRuleNotifications {
   /**
   * custom_webhook block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/alert_rule#custom_webhook AlertRule#custom_webhook}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/alert_rule#custom_webhook AlertRule#custom_webhook}
   */
   readonly customWebhook?: AlertRuleNotificationsCustomWebhook[] | cdktf.IResolvable;
   /**
   * email block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/alert_rule#email AlertRule#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/alert_rule#email AlertRule#email}
   */
   readonly email?: AlertRuleNotificationsEmail[] | cdktf.IResolvable;
   /**
   * third_party block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/alert_rule#third_party AlertRule#third_party}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/alert_rule#third_party AlertRule#third_party}
   */
   readonly thirdParty?: AlertRuleNotificationsThirdParty[] | cdktf.IResolvable;
   /**
   * webhook block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/alert_rule#webhook AlertRule#webhook}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/alert_rule#webhook AlertRule#webhook}
   */
   readonly webhook?: AlertRuleNotificationsWebhook[] | cdktf.IResolvable;
 }
@@ -948,7 +948,7 @@ export class AlertRuleNotificationsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/alert_rule thousandeyes_alert_rule}
+* Represents a {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/alert_rule thousandeyes_alert_rule}
 */
 export class AlertRule extends cdktf.TerraformResource {
 
@@ -964,7 +964,7 @@ export class AlertRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AlertRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AlertRule to import
-  * @param importFromId The id of the existing AlertRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/alert_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AlertRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/alert_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AlertRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -976,7 +976,7 @@ export class AlertRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/alert_rule thousandeyes_alert_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/alert_rule thousandeyes_alert_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -987,7 +987,8 @@ export class AlertRule extends cdktf.TerraformResource {
       terraformResourceType: 'thousandeyes_alert_rule',
       terraformGeneratorMetadata: {
         providerName: 'thousandeyes',
-        providerVersion: '3.1.2'
+        providerVersion: '3.1.3',
+        providerVersionConstraint: '3.1.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

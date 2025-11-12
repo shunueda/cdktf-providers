@@ -959,7 +959,8 @@ export class LogStream extends cdktf.TerraformResource {
       terraformResourceType: 'aembit_log_stream',
       terraformGeneratorMetadata: {
         providerName: 'aembit',
-        providerVersion: '1.25.1'
+        providerVersion: '1.25.1',
+        providerVersionConstraint: '1.25.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

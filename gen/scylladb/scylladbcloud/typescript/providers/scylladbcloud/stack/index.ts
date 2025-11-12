@@ -228,7 +228,8 @@ export class Stack extends cdktf.TerraformResource {
       terraformResourceType: 'scylladbcloud_stack',
       terraformGeneratorMetadata: {
         providerName: 'scylladbcloud',
-        providerVersion: '1.8.1'
+        providerVersion: '1.8.1',
+        providerVersionConstraint: '1.8.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

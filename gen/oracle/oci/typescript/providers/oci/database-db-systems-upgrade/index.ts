@@ -749,7 +749,8 @@ export class DatabaseDbSystemsUpgrade extends cdktf.TerraformResource {
       terraformResourceType: 'oci_database_db_systems_upgrade',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

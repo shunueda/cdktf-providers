@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_virtual_network
+// https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_virtual_network
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataApstraDatacenterVirtualNetworkConfig extends cdktf.Terrafor
   /**
   * The blueprint ID where the Virtual Network is present.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_virtual_network#blueprint_id DataApstraDatacenterVirtualNetwork#blueprint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_virtual_network#blueprint_id DataApstraDatacenterVirtualNetwork#blueprint_id}
   */
   readonly blueprintId: string;
   /**
   * The id of the Virtual Network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_virtual_network#id DataApstraDatacenterVirtualNetwork#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_virtual_network#id DataApstraDatacenterVirtualNetwork#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,7 +25,7 @@ export interface DataApstraDatacenterVirtualNetworkConfig extends cdktf.Terrafor
   /**
   * Virtual Network Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_virtual_network#name DataApstraDatacenterVirtualNetwork#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_virtual_network#name DataApstraDatacenterVirtualNetwork#name}
   */
   readonly name?: string;
 }
@@ -109,7 +109,7 @@ export class DataApstraDatacenterVirtualNetworkBindingsMap extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_virtual_network apstra_datacenter_virtual_network}
+* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_virtual_network apstra_datacenter_virtual_network}
 */
 export class DataApstraDatacenterVirtualNetwork extends cdktf.TerraformDataSource {
 
@@ -125,7 +125,7 @@ export class DataApstraDatacenterVirtualNetwork extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataApstraDatacenterVirtualNetwork resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataApstraDatacenterVirtualNetwork to import
-  * @param importFromId The id of the existing DataApstraDatacenterVirtualNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_virtual_network#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataApstraDatacenterVirtualNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_virtual_network#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataApstraDatacenterVirtualNetwork to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -137,7 +137,7 @@ export class DataApstraDatacenterVirtualNetwork extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_virtual_network apstra_datacenter_virtual_network} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_virtual_network apstra_datacenter_virtual_network} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -148,7 +148,8 @@ export class DataApstraDatacenterVirtualNetwork extends cdktf.TerraformDataSourc
       terraformResourceType: 'apstra_datacenter_virtual_network',
       terraformGeneratorMetadata: {
         providerName: 'apstra',
-        providerVersion: '0.95.0'
+        providerVersion: '0.95.1',
+        providerVersionConstraint: '0.95.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

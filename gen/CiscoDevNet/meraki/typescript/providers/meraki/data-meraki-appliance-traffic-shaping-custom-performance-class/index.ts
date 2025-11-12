@@ -70,7 +70,8 @@ export class DataMerakiApplianceTrafficShapingCustomPerformanceClass extends cdk
       terraformResourceType: 'meraki_appliance_traffic_shaping_custom_performance_class',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1'
+        providerVersion: '1.7.1',
+        providerVersionConstraint: '1.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

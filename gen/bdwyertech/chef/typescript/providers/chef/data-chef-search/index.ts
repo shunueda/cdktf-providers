@@ -217,7 +217,8 @@ export class DataChefSearch extends cdktf.TerraformDataSource {
       terraformResourceType: 'chef_search',
       terraformGeneratorMetadata: {
         providerName: 'chef',
-        providerVersion: '0.3.17'
+        providerVersion: '0.3.17',
+        providerVersionConstraint: '0.3.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

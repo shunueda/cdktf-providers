@@ -200,7 +200,8 @@ export class DataTencentcloudDbbrainSecurityAuditLogExportTasks extends cdktf.Te
       terraformResourceType: 'tencentcloud_dbbrain_security_audit_log_export_tasks',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

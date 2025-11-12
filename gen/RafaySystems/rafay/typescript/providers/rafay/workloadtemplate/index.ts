@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate
+// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface WorkloadtemplateConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#id Workloadtemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#id Workloadtemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface WorkloadtemplateConfig extends cdktf.TerraformMetaArguments {
   /**
   * impersonate user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#impersonate Workloadtemplate#impersonate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#impersonate Workloadtemplate#impersonate}
   */
   readonly impersonate?: string;
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#metadata Workloadtemplate#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#metadata Workloadtemplate#metadata}
   */
   readonly metadata?: WorkloadtemplateMetadata;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#spec Workloadtemplate#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#spec Workloadtemplate#spec}
   */
   readonly spec?: WorkloadtemplateSpec;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#timeouts Workloadtemplate#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#timeouts Workloadtemplate#timeouts}
   */
   readonly timeouts?: WorkloadtemplateTimeouts;
 }
@@ -43,7 +43,7 @@ export interface WorkloadtemplateMetadataCreatedBy {
   /**
   * Id of the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#id Workloadtemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#id Workloadtemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -52,13 +52,13 @@ export interface WorkloadtemplateMetadataCreatedBy {
   /**
   * Whether person is logged in using sso
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#is_sso_user Workloadtemplate#is_sso_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#is_sso_user Workloadtemplate#is_sso_user}
   */
   readonly isSsoUser?: boolean | cdktf.IResolvable;
   /**
   * Username fo the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#username Workloadtemplate#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#username Workloadtemplate#username}
   */
   readonly username?: string;
 }
@@ -202,7 +202,7 @@ export interface WorkloadtemplateMetadataModifiedBy {
   /**
   * Id of the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#id Workloadtemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#id Workloadtemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -211,13 +211,13 @@ export interface WorkloadtemplateMetadataModifiedBy {
   /**
   * Whether person is logged in using sso
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#is_sso_user Workloadtemplate#is_sso_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#is_sso_user Workloadtemplate#is_sso_user}
   */
   readonly isSsoUser?: boolean | cdktf.IResolvable;
   /**
   * Username fo the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#username Workloadtemplate#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#username Workloadtemplate#username}
   */
   readonly username?: string;
 }
@@ -361,49 +361,49 @@ export interface WorkloadtemplateMetadata {
   /**
   * annotations of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#annotations Workloadtemplate#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#annotations Workloadtemplate#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * description of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#description Workloadtemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#description Workloadtemplate#description}
   */
   readonly description?: string;
   /**
   * Display Name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#display_name Workloadtemplate#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#display_name Workloadtemplate#display_name}
   */
   readonly displayName?: string;
   /**
   * labels of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#labels Workloadtemplate#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#labels Workloadtemplate#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#name Workloadtemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#name Workloadtemplate#name}
   */
   readonly name?: string;
   /**
   * Project of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#project Workloadtemplate#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#project Workloadtemplate#project}
   */
   readonly project?: string;
   /**
   * created_by block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#created_by Workloadtemplate#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#created_by Workloadtemplate#created_by}
   */
   readonly createdBy?: WorkloadtemplateMetadataCreatedBy;
   /**
   * modified_by block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#modified_by Workloadtemplate#modified_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#modified_by Workloadtemplate#modified_by}
   */
   readonly modifiedBy?: WorkloadtemplateMetadataModifiedBy;
 }
@@ -692,7 +692,7 @@ export interface WorkloadtemplateSpecArtifactArtifactChartPathOptionsOverride {
   /**
   * Specify the type of override this file supports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#type Workloadtemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#type Workloadtemplate#type}
   */
   readonly type?: string;
 }
@@ -778,13 +778,13 @@ export interface WorkloadtemplateSpecArtifactArtifactChartPathOptionsSchema {
   /**
   * JSONSchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#jsonschema Workloadtemplate#jsonschema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#jsonschema Workloadtemplate#jsonschema}
   */
   readonly jsonschema?: string;
   /**
   * UISchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#uischema Workloadtemplate#uischema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#uischema Workloadtemplate#uischema}
   */
   readonly uischema?: string;
 }
@@ -899,37 +899,37 @@ export interface WorkloadtemplateSpecArtifactArtifactChartPathOptions {
   /**
   * Description of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#description Workloadtemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#description Workloadtemplate#description}
   */
   readonly description?: string;
   /**
   * Display metadata to render file on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#display_metadata Workloadtemplate#display_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#display_metadata Workloadtemplate#display_metadata}
   */
   readonly displayMetadata?: string;
   /**
   * Determines whether the file is required / mandatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#required Workloadtemplate#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#required Workloadtemplate#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#sensitive Workloadtemplate#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#sensitive Workloadtemplate#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#override Workloadtemplate#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#override Workloadtemplate#override}
   */
   readonly override?: WorkloadtemplateSpecArtifactArtifactChartPathOptionsOverride;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#schema Workloadtemplate#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#schema Workloadtemplate#schema}
   */
   readonly schema?: WorkloadtemplateSpecArtifactArtifactChartPathOptionsSchema;
 }
@@ -1160,31 +1160,31 @@ export interface WorkloadtemplateSpecArtifactArtifactChartPath {
   /**
   * data is the base64 encoded contents of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#data Workloadtemplate#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#data Workloadtemplate#data}
   */
   readonly data?: string;
   /**
   * specify mount path of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#mount_path Workloadtemplate#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#mount_path Workloadtemplate#mount_path}
   */
   readonly mountPath?: string;
   /**
   * Name or relative path of a artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#name Workloadtemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#name Workloadtemplate#name}
   */
   readonly name?: string;
   /**
   * Deprected: use options.sensitive. data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#sensitive Workloadtemplate#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#sensitive Workloadtemplate#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#options Workloadtemplate#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#options Workloadtemplate#options}
   */
   readonly options?: WorkloadtemplateSpecArtifactArtifactChartPathOptions;
 }
@@ -1386,7 +1386,7 @@ export interface WorkloadtemplateSpecArtifactArtifactConfigmapOptionsOverride {
   /**
   * Specify the type of override this file supports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#type Workloadtemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#type Workloadtemplate#type}
   */
   readonly type?: string;
 }
@@ -1472,13 +1472,13 @@ export interface WorkloadtemplateSpecArtifactArtifactConfigmapOptionsSchema {
   /**
   * JSONSchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#jsonschema Workloadtemplate#jsonschema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#jsonschema Workloadtemplate#jsonschema}
   */
   readonly jsonschema?: string;
   /**
   * UISchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#uischema Workloadtemplate#uischema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#uischema Workloadtemplate#uischema}
   */
   readonly uischema?: string;
 }
@@ -1593,37 +1593,37 @@ export interface WorkloadtemplateSpecArtifactArtifactConfigmapOptions {
   /**
   * Description of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#description Workloadtemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#description Workloadtemplate#description}
   */
   readonly description?: string;
   /**
   * Display metadata to render file on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#display_metadata Workloadtemplate#display_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#display_metadata Workloadtemplate#display_metadata}
   */
   readonly displayMetadata?: string;
   /**
   * Determines whether the file is required / mandatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#required Workloadtemplate#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#required Workloadtemplate#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#sensitive Workloadtemplate#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#sensitive Workloadtemplate#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#override Workloadtemplate#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#override Workloadtemplate#override}
   */
   readonly override?: WorkloadtemplateSpecArtifactArtifactConfigmapOptionsOverride;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#schema Workloadtemplate#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#schema Workloadtemplate#schema}
   */
   readonly schema?: WorkloadtemplateSpecArtifactArtifactConfigmapOptionsSchema;
 }
@@ -1854,31 +1854,31 @@ export interface WorkloadtemplateSpecArtifactArtifactConfigmap {
   /**
   * data is the base64 encoded contents of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#data Workloadtemplate#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#data Workloadtemplate#data}
   */
   readonly data?: string;
   /**
   * specify mount path of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#mount_path Workloadtemplate#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#mount_path Workloadtemplate#mount_path}
   */
   readonly mountPath?: string;
   /**
   * Name or relative path of a artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#name Workloadtemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#name Workloadtemplate#name}
   */
   readonly name?: string;
   /**
   * Deprected: use options.sensitive. data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#sensitive Workloadtemplate#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#sensitive Workloadtemplate#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#options Workloadtemplate#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#options Workloadtemplate#options}
   */
   readonly options?: WorkloadtemplateSpecArtifactArtifactConfigmapOptions;
 }
@@ -2080,7 +2080,7 @@ export interface WorkloadtemplateSpecArtifactArtifactConfigurationOptionsOverrid
   /**
   * Specify the type of override this file supports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#type Workloadtemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#type Workloadtemplate#type}
   */
   readonly type?: string;
 }
@@ -2166,13 +2166,13 @@ export interface WorkloadtemplateSpecArtifactArtifactConfigurationOptionsSchema 
   /**
   * JSONSchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#jsonschema Workloadtemplate#jsonschema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#jsonschema Workloadtemplate#jsonschema}
   */
   readonly jsonschema?: string;
   /**
   * UISchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#uischema Workloadtemplate#uischema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#uischema Workloadtemplate#uischema}
   */
   readonly uischema?: string;
 }
@@ -2287,37 +2287,37 @@ export interface WorkloadtemplateSpecArtifactArtifactConfigurationOptions {
   /**
   * Description of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#description Workloadtemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#description Workloadtemplate#description}
   */
   readonly description?: string;
   /**
   * Display metadata to render file on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#display_metadata Workloadtemplate#display_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#display_metadata Workloadtemplate#display_metadata}
   */
   readonly displayMetadata?: string;
   /**
   * Determines whether the file is required / mandatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#required Workloadtemplate#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#required Workloadtemplate#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#sensitive Workloadtemplate#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#sensitive Workloadtemplate#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#override Workloadtemplate#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#override Workloadtemplate#override}
   */
   readonly override?: WorkloadtemplateSpecArtifactArtifactConfigurationOptionsOverride;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#schema Workloadtemplate#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#schema Workloadtemplate#schema}
   */
   readonly schema?: WorkloadtemplateSpecArtifactArtifactConfigurationOptionsSchema;
 }
@@ -2548,31 +2548,31 @@ export interface WorkloadtemplateSpecArtifactArtifactConfiguration {
   /**
   * data is the base64 encoded contents of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#data Workloadtemplate#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#data Workloadtemplate#data}
   */
   readonly data?: string;
   /**
   * specify mount path of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#mount_path Workloadtemplate#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#mount_path Workloadtemplate#mount_path}
   */
   readonly mountPath?: string;
   /**
   * Name or relative path of a artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#name Workloadtemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#name Workloadtemplate#name}
   */
   readonly name?: string;
   /**
   * Deprected: use options.sensitive. data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#sensitive Workloadtemplate#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#sensitive Workloadtemplate#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#options Workloadtemplate#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#options Workloadtemplate#options}
   */
   readonly options?: WorkloadtemplateSpecArtifactArtifactConfigurationOptions;
 }
@@ -2770,11 +2770,705 @@ export class WorkloadtemplateSpecArtifactArtifactConfigurationOutputReference ex
     return this._options.internalValue;
   }
 }
+export interface WorkloadtemplateSpecArtifactArtifactFileOptionsOverride {
+  /**
+  * Specify the type of override this file supports
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#type Workloadtemplate#type}
+  */
+  readonly type?: string;
+}
+
+export function workloadtemplateSpecArtifactArtifactFileOptionsOverrideToTerraform(struct?: WorkloadtemplateSpecArtifactArtifactFileOptionsOverrideOutputReference | WorkloadtemplateSpecArtifactArtifactFileOptionsOverride): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    type: cdktf.stringToTerraform(struct!.type),
+  }
+}
+
+
+export function workloadtemplateSpecArtifactArtifactFileOptionsOverrideToHclTerraform(struct?: WorkloadtemplateSpecArtifactArtifactFileOptionsOverrideOutputReference | WorkloadtemplateSpecArtifactArtifactFileOptionsOverride): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    type: {
+      value: cdktf.stringToHclTerraform(struct!.type),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class WorkloadtemplateSpecArtifactArtifactFileOptionsOverrideOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): WorkloadtemplateSpecArtifactArtifactFileOptionsOverride | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._type !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.type = this._type;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: WorkloadtemplateSpecArtifactArtifactFileOptionsOverride | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._type = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._type = value.type;
+    }
+  }
+
+  // type - computed: false, optional: true, required: false
+  private _type?: string; 
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+  public set type(value: string) {
+    this._type = value;
+  }
+  public resetType() {
+    this._type = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeInput() {
+    return this._type;
+  }
+}
+export interface WorkloadtemplateSpecArtifactArtifactFileOptionsSchema {
+  /**
+  * JSONSchema definition of given variable that conforms to react-jsonschema-form library norms
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#jsonschema Workloadtemplate#jsonschema}
+  */
+  readonly jsonschema?: string;
+  /**
+  * UISchema definition of given variable that conforms to react-jsonschema-form library norms
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#uischema Workloadtemplate#uischema}
+  */
+  readonly uischema?: string;
+}
+
+export function workloadtemplateSpecArtifactArtifactFileOptionsSchemaToTerraform(struct?: WorkloadtemplateSpecArtifactArtifactFileOptionsSchemaOutputReference | WorkloadtemplateSpecArtifactArtifactFileOptionsSchema): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    jsonschema: cdktf.stringToTerraform(struct!.jsonschema),
+    uischema: cdktf.stringToTerraform(struct!.uischema),
+  }
+}
+
+
+export function workloadtemplateSpecArtifactArtifactFileOptionsSchemaToHclTerraform(struct?: WorkloadtemplateSpecArtifactArtifactFileOptionsSchemaOutputReference | WorkloadtemplateSpecArtifactArtifactFileOptionsSchema): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    jsonschema: {
+      value: cdktf.stringToHclTerraform(struct!.jsonschema),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    uischema: {
+      value: cdktf.stringToHclTerraform(struct!.uischema),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class WorkloadtemplateSpecArtifactArtifactFileOptionsSchemaOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): WorkloadtemplateSpecArtifactArtifactFileOptionsSchema | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._jsonschema !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.jsonschema = this._jsonschema;
+    }
+    if (this._uischema !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uischema = this._uischema;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: WorkloadtemplateSpecArtifactArtifactFileOptionsSchema | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._jsonschema = undefined;
+      this._uischema = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._jsonschema = value.jsonschema;
+      this._uischema = value.uischema;
+    }
+  }
+
+  // jsonschema - computed: false, optional: true, required: false
+  private _jsonschema?: string; 
+  public get jsonschema() {
+    return this.getStringAttribute('jsonschema');
+  }
+  public set jsonschema(value: string) {
+    this._jsonschema = value;
+  }
+  public resetJsonschema() {
+    this._jsonschema = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get jsonschemaInput() {
+    return this._jsonschema;
+  }
+
+  // uischema - computed: false, optional: true, required: false
+  private _uischema?: string; 
+  public get uischema() {
+    return this.getStringAttribute('uischema');
+  }
+  public set uischema(value: string) {
+    this._uischema = value;
+  }
+  public resetUischema() {
+    this._uischema = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uischemaInput() {
+    return this._uischema;
+  }
+}
+export interface WorkloadtemplateSpecArtifactArtifactFileOptions {
+  /**
+  * Description of the file
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#description Workloadtemplate#description}
+  */
+  readonly description?: string;
+  /**
+  * Display metadata to render file on UI
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#display_metadata Workloadtemplate#display_metadata}
+  */
+  readonly displayMetadata?: string;
+  /**
+  * Determines whether the file is required / mandatory
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#required Workloadtemplate#required}
+  */
+  readonly required?: boolean | cdktf.IResolvable;
+  /**
+  * data is encrypted  if sensitive is set to true
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#sensitive Workloadtemplate#sensitive}
+  */
+  readonly sensitive?: boolean | cdktf.IResolvable;
+  /**
+  * override block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#override Workloadtemplate#override}
+  */
+  readonly override?: WorkloadtemplateSpecArtifactArtifactFileOptionsOverride;
+  /**
+  * schema block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#schema Workloadtemplate#schema}
+  */
+  readonly schema?: WorkloadtemplateSpecArtifactArtifactFileOptionsSchema;
+}
+
+export function workloadtemplateSpecArtifactArtifactFileOptionsToTerraform(struct?: WorkloadtemplateSpecArtifactArtifactFileOptionsOutputReference | WorkloadtemplateSpecArtifactArtifactFileOptions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    description: cdktf.stringToTerraform(struct!.description),
+    display_metadata: cdktf.stringToTerraform(struct!.displayMetadata),
+    required: cdktf.booleanToTerraform(struct!.required),
+    sensitive: cdktf.booleanToTerraform(struct!.sensitive),
+    override: workloadtemplateSpecArtifactArtifactFileOptionsOverrideToTerraform(struct!.override),
+    schema: workloadtemplateSpecArtifactArtifactFileOptionsSchemaToTerraform(struct!.schema),
+  }
+}
+
+
+export function workloadtemplateSpecArtifactArtifactFileOptionsToHclTerraform(struct?: WorkloadtemplateSpecArtifactArtifactFileOptionsOutputReference | WorkloadtemplateSpecArtifactArtifactFileOptions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    description: {
+      value: cdktf.stringToHclTerraform(struct!.description),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    display_metadata: {
+      value: cdktf.stringToHclTerraform(struct!.displayMetadata),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    required: {
+      value: cdktf.booleanToHclTerraform(struct!.required),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sensitive: {
+      value: cdktf.booleanToHclTerraform(struct!.sensitive),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    override: {
+      value: workloadtemplateSpecArtifactArtifactFileOptionsOverrideToHclTerraform(struct!.override),
+      isBlock: true,
+      type: "list",
+      storageClassType: "WorkloadtemplateSpecArtifactArtifactFileOptionsOverrideList",
+    },
+    schema: {
+      value: workloadtemplateSpecArtifactArtifactFileOptionsSchemaToHclTerraform(struct!.schema),
+      isBlock: true,
+      type: "list",
+      storageClassType: "WorkloadtemplateSpecArtifactArtifactFileOptionsSchemaList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class WorkloadtemplateSpecArtifactArtifactFileOptionsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): WorkloadtemplateSpecArtifactArtifactFileOptions | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._description !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.description = this._description;
+    }
+    if (this._displayMetadata !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.displayMetadata = this._displayMetadata;
+    }
+    if (this._required !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.required = this._required;
+    }
+    if (this._sensitive !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sensitive = this._sensitive;
+    }
+    if (this._override?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.override = this._override?.internalValue;
+    }
+    if (this._schema?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.schema = this._schema?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: WorkloadtemplateSpecArtifactArtifactFileOptions | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._description = undefined;
+      this._displayMetadata = undefined;
+      this._required = undefined;
+      this._sensitive = undefined;
+      this._override.internalValue = undefined;
+      this._schema.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._description = value.description;
+      this._displayMetadata = value.displayMetadata;
+      this._required = value.required;
+      this._sensitive = value.sensitive;
+      this._override.internalValue = value.override;
+      this._schema.internalValue = value.schema;
+    }
+  }
+
+  // description - computed: false, optional: true, required: false
+  private _description?: string; 
+  public get description() {
+    return this.getStringAttribute('description');
+  }
+  public set description(value: string) {
+    this._description = value;
+  }
+  public resetDescription() {
+    this._description = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get descriptionInput() {
+    return this._description;
+  }
+
+  // display_metadata - computed: true, optional: true, required: false
+  private _displayMetadata?: string; 
+  public get displayMetadata() {
+    return this.getStringAttribute('display_metadata');
+  }
+  public set displayMetadata(value: string) {
+    this._displayMetadata = value;
+  }
+  public resetDisplayMetadata() {
+    this._displayMetadata = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get displayMetadataInput() {
+    return this._displayMetadata;
+  }
+
+  // required - computed: false, optional: true, required: false
+  private _required?: boolean | cdktf.IResolvable; 
+  public get required() {
+    return this.getBooleanAttribute('required');
+  }
+  public set required(value: boolean | cdktf.IResolvable) {
+    this._required = value;
+  }
+  public resetRequired() {
+    this._required = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get requiredInput() {
+    return this._required;
+  }
+
+  // sensitive - computed: false, optional: true, required: false
+  private _sensitive?: boolean | cdktf.IResolvable; 
+  public get sensitive() {
+    return this.getBooleanAttribute('sensitive');
+  }
+  public set sensitive(value: boolean | cdktf.IResolvable) {
+    this._sensitive = value;
+  }
+  public resetSensitive() {
+    this._sensitive = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sensitiveInput() {
+    return this._sensitive;
+  }
+
+  // override - computed: false, optional: true, required: false
+  private _override = new WorkloadtemplateSpecArtifactArtifactFileOptionsOverrideOutputReference(this, "override");
+  public get override() {
+    return this._override;
+  }
+  public putOverride(value: WorkloadtemplateSpecArtifactArtifactFileOptionsOverride) {
+    this._override.internalValue = value;
+  }
+  public resetOverride() {
+    this._override.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get overrideInput() {
+    return this._override.internalValue;
+  }
+
+  // schema - computed: false, optional: true, required: false
+  private _schema = new WorkloadtemplateSpecArtifactArtifactFileOptionsSchemaOutputReference(this, "schema");
+  public get schema() {
+    return this._schema;
+  }
+  public putSchema(value: WorkloadtemplateSpecArtifactArtifactFileOptionsSchema) {
+    this._schema.internalValue = value;
+  }
+  public resetSchema() {
+    this._schema.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get schemaInput() {
+    return this._schema.internalValue;
+  }
+}
+export interface WorkloadtemplateSpecArtifactArtifactFile {
+  /**
+  * data is the base64 encoded contents of the file
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#data Workloadtemplate#data}
+  */
+  readonly data?: string;
+  /**
+  * specify mount path of the file
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#mount_path Workloadtemplate#mount_path}
+  */
+  readonly mountPath?: string;
+  /**
+  * Name or relative path of a artifact
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#name Workloadtemplate#name}
+  */
+  readonly name?: string;
+  /**
+  * Deprected: use options.sensitive. data is encrypted  if sensitive is set to true
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#sensitive Workloadtemplate#sensitive}
+  */
+  readonly sensitive?: boolean | cdktf.IResolvable;
+  /**
+  * options block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#options Workloadtemplate#options}
+  */
+  readonly options?: WorkloadtemplateSpecArtifactArtifactFileOptions;
+}
+
+export function workloadtemplateSpecArtifactArtifactFileToTerraform(struct?: WorkloadtemplateSpecArtifactArtifactFileOutputReference | WorkloadtemplateSpecArtifactArtifactFile): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    data: cdktf.stringToTerraform(struct!.data),
+    mount_path: cdktf.stringToTerraform(struct!.mountPath),
+    name: cdktf.stringToTerraform(struct!.name),
+    sensitive: cdktf.booleanToTerraform(struct!.sensitive),
+    options: workloadtemplateSpecArtifactArtifactFileOptionsToTerraform(struct!.options),
+  }
+}
+
+
+export function workloadtemplateSpecArtifactArtifactFileToHclTerraform(struct?: WorkloadtemplateSpecArtifactArtifactFileOutputReference | WorkloadtemplateSpecArtifactArtifactFile): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    data: {
+      value: cdktf.stringToHclTerraform(struct!.data),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    mount_path: {
+      value: cdktf.stringToHclTerraform(struct!.mountPath),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    sensitive: {
+      value: cdktf.booleanToHclTerraform(struct!.sensitive),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    options: {
+      value: workloadtemplateSpecArtifactArtifactFileOptionsToHclTerraform(struct!.options),
+      isBlock: true,
+      type: "list",
+      storageClassType: "WorkloadtemplateSpecArtifactArtifactFileOptionsList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class WorkloadtemplateSpecArtifactArtifactFileOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): WorkloadtemplateSpecArtifactArtifactFile | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._data !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.data = this._data;
+    }
+    if (this._mountPath !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.mountPath = this._mountPath;
+    }
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._sensitive !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sensitive = this._sensitive;
+    }
+    if (this._options?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.options = this._options?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: WorkloadtemplateSpecArtifactArtifactFile | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._data = undefined;
+      this._mountPath = undefined;
+      this._name = undefined;
+      this._sensitive = undefined;
+      this._options.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._data = value.data;
+      this._mountPath = value.mountPath;
+      this._name = value.name;
+      this._sensitive = value.sensitive;
+      this._options.internalValue = value.options;
+    }
+  }
+
+  // data - computed: false, optional: true, required: false
+  private _data?: string; 
+  public get data() {
+    return this.getStringAttribute('data');
+  }
+  public set data(value: string) {
+    this._data = value;
+  }
+  public resetData() {
+    this._data = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dataInput() {
+    return this._data;
+  }
+
+  // mount_path - computed: false, optional: true, required: false
+  private _mountPath?: string; 
+  public get mountPath() {
+    return this.getStringAttribute('mount_path');
+  }
+  public set mountPath(value: string) {
+    this._mountPath = value;
+  }
+  public resetMountPath() {
+    this._mountPath = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get mountPathInput() {
+    return this._mountPath;
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // sensitive - computed: false, optional: true, required: false
+  private _sensitive?: boolean | cdktf.IResolvable; 
+  public get sensitive() {
+    return this.getBooleanAttribute('sensitive');
+  }
+  public set sensitive(value: boolean | cdktf.IResolvable) {
+    this._sensitive = value;
+  }
+  public resetSensitive() {
+    this._sensitive = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sensitiveInput() {
+    return this._sensitive;
+  }
+
+  // options - computed: false, optional: true, required: false
+  private _options = new WorkloadtemplateSpecArtifactArtifactFileOptionsOutputReference(this, "options");
+  public get options() {
+    return this._options;
+  }
+  public putOptions(value: WorkloadtemplateSpecArtifactArtifactFileOptions) {
+    this._options.internalValue = value;
+  }
+  public resetOptions() {
+    this._options.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get optionsInput() {
+    return this._options.internalValue;
+  }
+}
 export interface WorkloadtemplateSpecArtifactArtifactPathsOptionsOverride {
   /**
   * Specify the type of override this file supports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#type Workloadtemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#type Workloadtemplate#type}
   */
   readonly type?: string;
 }
@@ -2860,13 +3554,13 @@ export interface WorkloadtemplateSpecArtifactArtifactPathsOptionsSchema {
   /**
   * JSONSchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#jsonschema Workloadtemplate#jsonschema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#jsonschema Workloadtemplate#jsonschema}
   */
   readonly jsonschema?: string;
   /**
   * UISchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#uischema Workloadtemplate#uischema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#uischema Workloadtemplate#uischema}
   */
   readonly uischema?: string;
 }
@@ -2981,37 +3675,37 @@ export interface WorkloadtemplateSpecArtifactArtifactPathsOptions {
   /**
   * Description of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#description Workloadtemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#description Workloadtemplate#description}
   */
   readonly description?: string;
   /**
   * Display metadata to render file on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#display_metadata Workloadtemplate#display_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#display_metadata Workloadtemplate#display_metadata}
   */
   readonly displayMetadata?: string;
   /**
   * Determines whether the file is required / mandatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#required Workloadtemplate#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#required Workloadtemplate#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#sensitive Workloadtemplate#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#sensitive Workloadtemplate#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#override Workloadtemplate#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#override Workloadtemplate#override}
   */
   readonly override?: WorkloadtemplateSpecArtifactArtifactPathsOptionsOverride;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#schema Workloadtemplate#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#schema Workloadtemplate#schema}
   */
   readonly schema?: WorkloadtemplateSpecArtifactArtifactPathsOptionsSchema;
 }
@@ -3242,31 +3936,31 @@ export interface WorkloadtemplateSpecArtifactArtifactPaths {
   /**
   * data is the base64 encoded contents of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#data Workloadtemplate#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#data Workloadtemplate#data}
   */
   readonly data?: string;
   /**
   * specify mount path of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#mount_path Workloadtemplate#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#mount_path Workloadtemplate#mount_path}
   */
   readonly mountPath?: string;
   /**
   * Name or relative path of a artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#name Workloadtemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#name Workloadtemplate#name}
   */
   readonly name?: string;
   /**
   * Deprected: use options.sensitive. data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#sensitive Workloadtemplate#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#sensitive Workloadtemplate#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#options Workloadtemplate#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#options Workloadtemplate#options}
   */
   readonly options?: WorkloadtemplateSpecArtifactArtifactPathsOptions;
 }
@@ -3500,7 +4194,7 @@ export interface WorkloadtemplateSpecArtifactArtifactSecretOptionsOverride {
   /**
   * Specify the type of override this file supports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#type Workloadtemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#type Workloadtemplate#type}
   */
   readonly type?: string;
 }
@@ -3586,13 +4280,13 @@ export interface WorkloadtemplateSpecArtifactArtifactSecretOptionsSchema {
   /**
   * JSONSchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#jsonschema Workloadtemplate#jsonschema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#jsonschema Workloadtemplate#jsonschema}
   */
   readonly jsonschema?: string;
   /**
   * UISchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#uischema Workloadtemplate#uischema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#uischema Workloadtemplate#uischema}
   */
   readonly uischema?: string;
 }
@@ -3707,37 +4401,37 @@ export interface WorkloadtemplateSpecArtifactArtifactSecretOptions {
   /**
   * Description of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#description Workloadtemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#description Workloadtemplate#description}
   */
   readonly description?: string;
   /**
   * Display metadata to render file on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#display_metadata Workloadtemplate#display_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#display_metadata Workloadtemplate#display_metadata}
   */
   readonly displayMetadata?: string;
   /**
   * Determines whether the file is required / mandatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#required Workloadtemplate#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#required Workloadtemplate#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#sensitive Workloadtemplate#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#sensitive Workloadtemplate#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#override Workloadtemplate#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#override Workloadtemplate#override}
   */
   readonly override?: WorkloadtemplateSpecArtifactArtifactSecretOptionsOverride;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#schema Workloadtemplate#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#schema Workloadtemplate#schema}
   */
   readonly schema?: WorkloadtemplateSpecArtifactArtifactSecretOptionsSchema;
 }
@@ -3968,31 +4662,31 @@ export interface WorkloadtemplateSpecArtifactArtifactSecret {
   /**
   * data is the base64 encoded contents of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#data Workloadtemplate#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#data Workloadtemplate#data}
   */
   readonly data?: string;
   /**
   * specify mount path of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#mount_path Workloadtemplate#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#mount_path Workloadtemplate#mount_path}
   */
   readonly mountPath?: string;
   /**
   * Name or relative path of a artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#name Workloadtemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#name Workloadtemplate#name}
   */
   readonly name?: string;
   /**
   * Deprected: use options.sensitive. data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#sensitive Workloadtemplate#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#sensitive Workloadtemplate#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#options Workloadtemplate#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#options Workloadtemplate#options}
   */
   readonly options?: WorkloadtemplateSpecArtifactArtifactSecretOptions;
 }
@@ -4194,7 +4888,7 @@ export interface WorkloadtemplateSpecArtifactArtifactStatefulsetOptionsOverride 
   /**
   * Specify the type of override this file supports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#type Workloadtemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#type Workloadtemplate#type}
   */
   readonly type?: string;
 }
@@ -4280,13 +4974,13 @@ export interface WorkloadtemplateSpecArtifactArtifactStatefulsetOptionsSchema {
   /**
   * JSONSchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#jsonschema Workloadtemplate#jsonschema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#jsonschema Workloadtemplate#jsonschema}
   */
   readonly jsonschema?: string;
   /**
   * UISchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#uischema Workloadtemplate#uischema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#uischema Workloadtemplate#uischema}
   */
   readonly uischema?: string;
 }
@@ -4401,37 +5095,37 @@ export interface WorkloadtemplateSpecArtifactArtifactStatefulsetOptions {
   /**
   * Description of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#description Workloadtemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#description Workloadtemplate#description}
   */
   readonly description?: string;
   /**
   * Display metadata to render file on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#display_metadata Workloadtemplate#display_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#display_metadata Workloadtemplate#display_metadata}
   */
   readonly displayMetadata?: string;
   /**
   * Determines whether the file is required / mandatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#required Workloadtemplate#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#required Workloadtemplate#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#sensitive Workloadtemplate#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#sensitive Workloadtemplate#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#override Workloadtemplate#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#override Workloadtemplate#override}
   */
   readonly override?: WorkloadtemplateSpecArtifactArtifactStatefulsetOptionsOverride;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#schema Workloadtemplate#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#schema Workloadtemplate#schema}
   */
   readonly schema?: WorkloadtemplateSpecArtifactArtifactStatefulsetOptionsSchema;
 }
@@ -4662,31 +5356,31 @@ export interface WorkloadtemplateSpecArtifactArtifactStatefulset {
   /**
   * data is the base64 encoded contents of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#data Workloadtemplate#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#data Workloadtemplate#data}
   */
   readonly data?: string;
   /**
   * specify mount path of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#mount_path Workloadtemplate#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#mount_path Workloadtemplate#mount_path}
   */
   readonly mountPath?: string;
   /**
   * Name or relative path of a artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#name Workloadtemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#name Workloadtemplate#name}
   */
   readonly name?: string;
   /**
   * Deprected: use options.sensitive. data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#sensitive Workloadtemplate#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#sensitive Workloadtemplate#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#options Workloadtemplate#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#options Workloadtemplate#options}
   */
   readonly options?: WorkloadtemplateSpecArtifactArtifactStatefulsetOptions;
 }
@@ -4888,7 +5582,7 @@ export interface WorkloadtemplateSpecArtifactArtifactValuesPathsOptionsOverride 
   /**
   * Specify the type of override this file supports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#type Workloadtemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#type Workloadtemplate#type}
   */
   readonly type?: string;
 }
@@ -4974,13 +5668,13 @@ export interface WorkloadtemplateSpecArtifactArtifactValuesPathsOptionsSchema {
   /**
   * JSONSchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#jsonschema Workloadtemplate#jsonschema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#jsonschema Workloadtemplate#jsonschema}
   */
   readonly jsonschema?: string;
   /**
   * UISchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#uischema Workloadtemplate#uischema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#uischema Workloadtemplate#uischema}
   */
   readonly uischema?: string;
 }
@@ -5095,37 +5789,37 @@ export interface WorkloadtemplateSpecArtifactArtifactValuesPathsOptions {
   /**
   * Description of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#description Workloadtemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#description Workloadtemplate#description}
   */
   readonly description?: string;
   /**
   * Display metadata to render file on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#display_metadata Workloadtemplate#display_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#display_metadata Workloadtemplate#display_metadata}
   */
   readonly displayMetadata?: string;
   /**
   * Determines whether the file is required / mandatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#required Workloadtemplate#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#required Workloadtemplate#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#sensitive Workloadtemplate#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#sensitive Workloadtemplate#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#override Workloadtemplate#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#override Workloadtemplate#override}
   */
   readonly override?: WorkloadtemplateSpecArtifactArtifactValuesPathsOptionsOverride;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#schema Workloadtemplate#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#schema Workloadtemplate#schema}
   */
   readonly schema?: WorkloadtemplateSpecArtifactArtifactValuesPathsOptionsSchema;
 }
@@ -5356,31 +6050,31 @@ export interface WorkloadtemplateSpecArtifactArtifactValuesPaths {
   /**
   * data is the base64 encoded contents of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#data Workloadtemplate#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#data Workloadtemplate#data}
   */
   readonly data?: string;
   /**
   * specify mount path of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#mount_path Workloadtemplate#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#mount_path Workloadtemplate#mount_path}
   */
   readonly mountPath?: string;
   /**
   * Name or relative path of a artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#name Workloadtemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#name Workloadtemplate#name}
   */
   readonly name?: string;
   /**
   * Deprected: use options.sensitive. data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#sensitive Workloadtemplate#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#sensitive Workloadtemplate#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#options Workloadtemplate#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#options Workloadtemplate#options}
   */
   readonly options?: WorkloadtemplateSpecArtifactArtifactValuesPathsOptions;
 }
@@ -5614,7 +6308,7 @@ export interface WorkloadtemplateSpecArtifactArtifactValuesRefValuesPathsOptions
   /**
   * Specify the type of override this file supports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#type Workloadtemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#type Workloadtemplate#type}
   */
   readonly type?: string;
 }
@@ -5700,13 +6394,13 @@ export interface WorkloadtemplateSpecArtifactArtifactValuesRefValuesPathsOptions
   /**
   * JSONSchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#jsonschema Workloadtemplate#jsonschema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#jsonschema Workloadtemplate#jsonschema}
   */
   readonly jsonschema?: string;
   /**
   * UISchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#uischema Workloadtemplate#uischema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#uischema Workloadtemplate#uischema}
   */
   readonly uischema?: string;
 }
@@ -5821,37 +6515,37 @@ export interface WorkloadtemplateSpecArtifactArtifactValuesRefValuesPathsOptions
   /**
   * Description of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#description Workloadtemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#description Workloadtemplate#description}
   */
   readonly description?: string;
   /**
   * Display metadata to render file on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#display_metadata Workloadtemplate#display_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#display_metadata Workloadtemplate#display_metadata}
   */
   readonly displayMetadata?: string;
   /**
   * Determines whether the file is required / mandatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#required Workloadtemplate#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#required Workloadtemplate#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#sensitive Workloadtemplate#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#sensitive Workloadtemplate#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#override Workloadtemplate#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#override Workloadtemplate#override}
   */
   readonly override?: WorkloadtemplateSpecArtifactArtifactValuesRefValuesPathsOptionsOverride;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#schema Workloadtemplate#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#schema Workloadtemplate#schema}
   */
   readonly schema?: WorkloadtemplateSpecArtifactArtifactValuesRefValuesPathsOptionsSchema;
 }
@@ -6082,31 +6776,31 @@ export interface WorkloadtemplateSpecArtifactArtifactValuesRefValuesPaths {
   /**
   * data is the base64 encoded contents of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#data Workloadtemplate#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#data Workloadtemplate#data}
   */
   readonly data?: string;
   /**
   * specify mount path of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#mount_path Workloadtemplate#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#mount_path Workloadtemplate#mount_path}
   */
   readonly mountPath?: string;
   /**
   * Name or relative path of a artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#name Workloadtemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#name Workloadtemplate#name}
   */
   readonly name?: string;
   /**
   * Deprected: use options.sensitive. data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#sensitive Workloadtemplate#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#sensitive Workloadtemplate#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#options Workloadtemplate#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#options Workloadtemplate#options}
   */
   readonly options?: WorkloadtemplateSpecArtifactArtifactValuesRefValuesPathsOptions;
 }
@@ -6340,19 +7034,19 @@ export interface WorkloadtemplateSpecArtifactArtifactValuesRef {
   /**
   * name of the git repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#repository Workloadtemplate#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#repository Workloadtemplate#repository}
   */
   readonly repository?: string;
   /**
   * branch or tag in the git repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#revision Workloadtemplate#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#revision Workloadtemplate#revision}
   */
   readonly revision?: string;
   /**
   * values_paths block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#values_paths Workloadtemplate#values_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#values_paths Workloadtemplate#values_paths}
   */
   readonly valuesPaths?: WorkloadtemplateSpecArtifactArtifactValuesRefValuesPaths[] | cdktf.IResolvable;
 }
@@ -6496,85 +7190,109 @@ export interface WorkloadtemplateSpecArtifactArtifact {
   /**
   * name of the helm catalog
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#catalog Workloadtemplate#catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#catalog Workloadtemplate#catalog}
   */
   readonly catalog?: string;
   /**
   * name of the chart
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#chart_name Workloadtemplate#chart_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#chart_name Workloadtemplate#chart_name}
   */
   readonly chartName?: string;
   /**
   * version of the chart
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#chart_version Workloadtemplate#chart_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#chart_version Workloadtemplate#chart_version}
   */
   readonly chartVersion?: string;
   /**
+  * relative path from the root to kustomization directory in the git repository
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#directory Workloadtemplate#directory}
+  */
+  readonly directory?: string;
+  /**
+  * relative path to kustomization directory from the root directory
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#path Workloadtemplate#path}
+  */
+  readonly path?: string;
+  /**
   * project name of the repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#project Workloadtemplate#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#project Workloadtemplate#project}
   */
   readonly project?: string;
   /**
-  * name of the helm repository
+  * name of the git repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#repository Workloadtemplate#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#repository Workloadtemplate#repository}
   */
   readonly repository?: string;
   /**
   * branch or tag in the git repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#revision Workloadtemplate#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#revision Workloadtemplate#revision}
   */
   readonly revision?: string;
   /**
+  * url of the manifest YAML
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#url Workloadtemplate#url}
+  */
+  readonly url?: string[];
+  /**
   * chart_path block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#chart_path Workloadtemplate#chart_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#chart_path Workloadtemplate#chart_path}
   */
   readonly chartPath?: WorkloadtemplateSpecArtifactArtifactChartPath;
   /**
   * configmap block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#configmap Workloadtemplate#configmap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#configmap Workloadtemplate#configmap}
   */
   readonly configmap?: WorkloadtemplateSpecArtifactArtifactConfigmap;
   /**
   * configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#configuration Workloadtemplate#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#configuration Workloadtemplate#configuration}
   */
   readonly configuration?: WorkloadtemplateSpecArtifactArtifactConfiguration;
   /**
+  * file block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#file Workloadtemplate#file}
+  */
+  readonly file?: WorkloadtemplateSpecArtifactArtifactFile;
+  /**
   * paths block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#paths Workloadtemplate#paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#paths Workloadtemplate#paths}
   */
   readonly paths?: WorkloadtemplateSpecArtifactArtifactPaths[] | cdktf.IResolvable;
   /**
   * secret block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#secret Workloadtemplate#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#secret Workloadtemplate#secret}
   */
   readonly secret?: WorkloadtemplateSpecArtifactArtifactSecret;
   /**
   * statefulset block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#statefulset Workloadtemplate#statefulset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#statefulset Workloadtemplate#statefulset}
   */
   readonly statefulset?: WorkloadtemplateSpecArtifactArtifactStatefulset;
   /**
   * values_paths block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#values_paths Workloadtemplate#values_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#values_paths Workloadtemplate#values_paths}
   */
   readonly valuesPaths?: WorkloadtemplateSpecArtifactArtifactValuesPaths[] | cdktf.IResolvable;
   /**
   * values_ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#values_ref Workloadtemplate#values_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#values_ref Workloadtemplate#values_ref}
   */
   readonly valuesRef?: WorkloadtemplateSpecArtifactArtifactValuesRef;
 }
@@ -6588,12 +7306,16 @@ export function workloadtemplateSpecArtifactArtifactToTerraform(struct?: Workloa
     catalog: cdktf.stringToTerraform(struct!.catalog),
     chart_name: cdktf.stringToTerraform(struct!.chartName),
     chart_version: cdktf.stringToTerraform(struct!.chartVersion),
+    directory: cdktf.stringToTerraform(struct!.directory),
+    path: cdktf.stringToTerraform(struct!.path),
     project: cdktf.stringToTerraform(struct!.project),
     repository: cdktf.stringToTerraform(struct!.repository),
     revision: cdktf.stringToTerraform(struct!.revision),
+    url: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.url),
     chart_path: workloadtemplateSpecArtifactArtifactChartPathToTerraform(struct!.chartPath),
     configmap: workloadtemplateSpecArtifactArtifactConfigmapToTerraform(struct!.configmap),
     configuration: workloadtemplateSpecArtifactArtifactConfigurationToTerraform(struct!.configuration),
+    file: workloadtemplateSpecArtifactArtifactFileToTerraform(struct!.file),
     paths: cdktf.listMapper(workloadtemplateSpecArtifactArtifactPathsToTerraform, true)(struct!.paths),
     secret: workloadtemplateSpecArtifactArtifactSecretToTerraform(struct!.secret),
     statefulset: workloadtemplateSpecArtifactArtifactStatefulsetToTerraform(struct!.statefulset),
@@ -6627,6 +7349,18 @@ export function workloadtemplateSpecArtifactArtifactToHclTerraform(struct?: Work
       type: "simple",
       storageClassType: "string",
     },
+    directory: {
+      value: cdktf.stringToHclTerraform(struct!.directory),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    path: {
+      value: cdktf.stringToHclTerraform(struct!.path),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     project: {
       value: cdktf.stringToHclTerraform(struct!.project),
       isBlock: false,
@@ -6645,6 +7379,12 @@ export function workloadtemplateSpecArtifactArtifactToHclTerraform(struct?: Work
       type: "simple",
       storageClassType: "string",
     },
+    url: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.url),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
     chart_path: {
       value: workloadtemplateSpecArtifactArtifactChartPathToHclTerraform(struct!.chartPath),
       isBlock: true,
@@ -6662,6 +7402,12 @@ export function workloadtemplateSpecArtifactArtifactToHclTerraform(struct?: Work
       isBlock: true,
       type: "list",
       storageClassType: "WorkloadtemplateSpecArtifactArtifactConfigurationList",
+    },
+    file: {
+      value: workloadtemplateSpecArtifactArtifactFileToHclTerraform(struct!.file),
+      isBlock: true,
+      type: "list",
+      storageClassType: "WorkloadtemplateSpecArtifactArtifactFileList",
     },
     paths: {
       value: cdktf.listMapperHcl(workloadtemplateSpecArtifactArtifactPathsToHclTerraform, true)(struct!.paths),
@@ -6725,6 +7471,14 @@ export class WorkloadtemplateSpecArtifactArtifactOutputReference extends cdktf.C
       hasAnyValues = true;
       internalValueResult.chartVersion = this._chartVersion;
     }
+    if (this._directory !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.directory = this._directory;
+    }
+    if (this._path !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.path = this._path;
+    }
     if (this._project !== undefined) {
       hasAnyValues = true;
       internalValueResult.project = this._project;
@@ -6737,6 +7491,10 @@ export class WorkloadtemplateSpecArtifactArtifactOutputReference extends cdktf.C
       hasAnyValues = true;
       internalValueResult.revision = this._revision;
     }
+    if (this._url !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.url = this._url;
+    }
     if (this._chartPath?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.chartPath = this._chartPath?.internalValue;
@@ -6748,6 +7506,10 @@ export class WorkloadtemplateSpecArtifactArtifactOutputReference extends cdktf.C
     if (this._configuration?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.configuration = this._configuration?.internalValue;
+    }
+    if (this._file?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.file = this._file?.internalValue;
     }
     if (this._paths?.internalValue !== undefined) {
       hasAnyValues = true;
@@ -6778,12 +7540,16 @@ export class WorkloadtemplateSpecArtifactArtifactOutputReference extends cdktf.C
       this._catalog = undefined;
       this._chartName = undefined;
       this._chartVersion = undefined;
+      this._directory = undefined;
+      this._path = undefined;
       this._project = undefined;
       this._repository = undefined;
       this._revision = undefined;
+      this._url = undefined;
       this._chartPath.internalValue = undefined;
       this._configmap.internalValue = undefined;
       this._configuration.internalValue = undefined;
+      this._file.internalValue = undefined;
       this._paths.internalValue = undefined;
       this._secret.internalValue = undefined;
       this._statefulset.internalValue = undefined;
@@ -6795,12 +7561,16 @@ export class WorkloadtemplateSpecArtifactArtifactOutputReference extends cdktf.C
       this._catalog = value.catalog;
       this._chartName = value.chartName;
       this._chartVersion = value.chartVersion;
+      this._directory = value.directory;
+      this._path = value.path;
       this._project = value.project;
       this._repository = value.repository;
       this._revision = value.revision;
+      this._url = value.url;
       this._chartPath.internalValue = value.chartPath;
       this._configmap.internalValue = value.configmap;
       this._configuration.internalValue = value.configuration;
+      this._file.internalValue = value.file;
       this._paths.internalValue = value.paths;
       this._secret.internalValue = value.secret;
       this._statefulset.internalValue = value.statefulset;
@@ -6857,6 +7627,38 @@ export class WorkloadtemplateSpecArtifactArtifactOutputReference extends cdktf.C
     return this._chartVersion;
   }
 
+  // directory - computed: false, optional: true, required: false
+  private _directory?: string; 
+  public get directory() {
+    return this.getStringAttribute('directory');
+  }
+  public set directory(value: string) {
+    this._directory = value;
+  }
+  public resetDirectory() {
+    this._directory = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get directoryInput() {
+    return this._directory;
+  }
+
+  // path - computed: false, optional: true, required: false
+  private _path?: string; 
+  public get path() {
+    return this.getStringAttribute('path');
+  }
+  public set path(value: string) {
+    this._path = value;
+  }
+  public resetPath() {
+    this._path = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get pathInput() {
+    return this._path;
+  }
+
   // project - computed: false, optional: true, required: false
   private _project?: string; 
   public get project() {
@@ -6905,6 +7707,22 @@ export class WorkloadtemplateSpecArtifactArtifactOutputReference extends cdktf.C
     return this._revision;
   }
 
+  // url - computed: false, optional: true, required: false
+  private _url?: string[]; 
+  public get url() {
+    return this.getListAttribute('url');
+  }
+  public set url(value: string[]) {
+    this._url = value;
+  }
+  public resetUrl() {
+    this._url = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get urlInput() {
+    return this._url;
+  }
+
   // chart_path - computed: false, optional: true, required: false
   private _chartPath = new WorkloadtemplateSpecArtifactArtifactChartPathOutputReference(this, "chart_path");
   public get chartPath() {
@@ -6951,6 +7769,22 @@ export class WorkloadtemplateSpecArtifactArtifactOutputReference extends cdktf.C
   // Temporarily expose input value. Use with caution.
   public get configurationInput() {
     return this._configuration.internalValue;
+  }
+
+  // file - computed: false, optional: true, required: false
+  private _file = new WorkloadtemplateSpecArtifactArtifactFileOutputReference(this, "file");
+  public get file() {
+    return this._file;
+  }
+  public putFile(value: WorkloadtemplateSpecArtifactArtifactFile) {
+    this._file.internalValue = value;
+  }
+  public resetFile() {
+    this._file.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fileInput() {
+    return this._file.internalValue;
   }
 
   // paths - computed: false, optional: true, required: false
@@ -7037,103 +7871,103 @@ export interface WorkloadtemplateSpecArtifactOptions {
   /**
   * deploy Helm artifact with atomic flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#atomic Workloadtemplate#atomic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#atomic Workloadtemplate#atomic}
   */
   readonly atomic?: boolean | cdktf.IResolvable;
   /**
   * cleanup deployed resources when chart fails to deploy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#clean_up_on_fail Workloadtemplate#clean_up_on_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#clean_up_on_fail Workloadtemplate#clean_up_on_fail}
   */
   readonly cleanUpOnFail?: boolean | cdktf.IResolvable;
   /**
   * custom description for the release
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#description Workloadtemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#description Workloadtemplate#description}
   */
   readonly description?: string;
   /**
   * disable OpenAPI validation while deploying the YAML
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#disable_open_api_validation Workloadtemplate#disable_open_api_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#disable_open_api_validation Workloadtemplate#disable_open_api_validation}
   */
   readonly disableOpenApiValidation?: boolean | cdktf.IResolvable;
   /**
   * deploy YAML artifact with force flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#force Workloadtemplate#force}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#force Workloadtemplate#force}
   */
   readonly force?: boolean | cdktf.IResolvable;
   /**
   * keep release history after uninstalling
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#keep_history Workloadtemplate#keep_history}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#keep_history Workloadtemplate#keep_history}
   */
   readonly keepHistory?: boolean | cdktf.IResolvable;
   /**
   * limit Helm artifact history
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#max_history Workloadtemplate#max_history}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#max_history Workloadtemplate#max_history}
   */
   readonly maxHistory?: number;
   /**
   * deploy Helm artifact without hooks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#no_hooks Workloadtemplate#no_hooks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#no_hooks Workloadtemplate#no_hooks}
   */
   readonly noHooks?: boolean | cdktf.IResolvable;
   /**
   * render sub chart notes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#render_sub_chart_notes Workloadtemplate#render_sub_chart_notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#render_sub_chart_notes Workloadtemplate#render_sub_chart_notes}
   */
   readonly renderSubChartNotes?: boolean | cdktf.IResolvable;
   /**
   * reset existing helm values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#reset_values Workloadtemplate#reset_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#reset_values Workloadtemplate#reset_values}
   */
   readonly resetValues?: boolean | cdktf.IResolvable;
   /**
   * reuse existing values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#reuse_values Workloadtemplate#reuse_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#reuse_values Workloadtemplate#reuse_values}
   */
   readonly reuseValues?: boolean | cdktf.IResolvable;
   /**
   * pass custom helm values as key=value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#set_string Workloadtemplate#set_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#set_string Workloadtemplate#set_string}
   */
   readonly setString?: string[];
   /**
   * skip deploying crds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#skip_crd Workloadtemplate#skip_crd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#skip_crd Workloadtemplate#skip_crd}
   */
   readonly skipCrd?: boolean | cdktf.IResolvable;
   /**
   * timeout for waiting for the resources to become ready
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#timeout Workloadtemplate#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#timeout Workloadtemplate#timeout}
   */
   readonly timeout?: string;
   /**
   * deploy Helm artifact with wait flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#wait Workloadtemplate#wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#wait Workloadtemplate#wait}
   */
   readonly wait?: boolean | cdktf.IResolvable;
   /**
   * deploy Helm artifact with --wait-for-jobs flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#wait_for_jobs Workloadtemplate#wait_for_jobs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#wait_for_jobs Workloadtemplate#wait_for_jobs}
   */
   readonly waitForJobs?: boolean | cdktf.IResolvable;
   /**
   * uninstall Helm artifact with --wait flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#wait_for_uninstall Workloadtemplate#wait_for_uninstall}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#wait_for_uninstall Workloadtemplate#wait_for_uninstall}
   */
   readonly waitForUninstall?: boolean | cdktf.IResolvable;
 }
@@ -7683,19 +8517,19 @@ export interface WorkloadtemplateSpecArtifact {
   /**
   * type of the artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#type Workloadtemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#type Workloadtemplate#type}
   */
   readonly type?: string;
   /**
   * artifact block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#artifact Workloadtemplate#artifact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#artifact Workloadtemplate#artifact}
   */
   readonly artifact?: WorkloadtemplateSpecArtifactArtifact;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#options Workloadtemplate#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#options Workloadtemplate#options}
   */
   readonly options?: WorkloadtemplateSpecArtifactOptions;
 }
@@ -7839,7 +8673,7 @@ export interface WorkloadtemplateSpecSharingProjects {
   /**
   * name of the project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#name Workloadtemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#name Workloadtemplate#name}
   */
   readonly name?: string;
 }
@@ -7957,13 +8791,13 @@ export interface WorkloadtemplateSpecSharing {
   /**
   * flag to specify if sharing is enabled for resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#enabled Workloadtemplate#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#enabled Workloadtemplate#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * projects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#projects Workloadtemplate#projects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#projects Workloadtemplate#projects}
   */
   readonly projects?: WorkloadtemplateSpecSharingProjects[] | cdktf.IResolvable;
 }
@@ -8078,13 +8912,13 @@ export interface WorkloadtemplateSpec {
   /**
   * artifact block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#artifact Workloadtemplate#artifact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#artifact Workloadtemplate#artifact}
   */
   readonly artifact?: WorkloadtemplateSpecArtifact;
   /**
   * sharing block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#sharing Workloadtemplate#sharing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#sharing Workloadtemplate#sharing}
   */
   readonly sharing?: WorkloadtemplateSpecSharing;
 }
@@ -8197,15 +9031,15 @@ export class WorkloadtemplateSpecOutputReference extends cdktf.ComplexObject {
 }
 export interface WorkloadtemplateTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#create Workloadtemplate#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#create Workloadtemplate#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#delete Workloadtemplate#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#delete Workloadtemplate#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#update Workloadtemplate#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#update Workloadtemplate#update}
   */
   readonly update?: string;
 }
@@ -8357,7 +9191,7 @@ export class WorkloadtemplateTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate rafay_workloadtemplate}
+* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate rafay_workloadtemplate}
 */
 export class Workloadtemplate extends cdktf.TerraformResource {
 
@@ -8373,7 +9207,7 @@ export class Workloadtemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Workloadtemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Workloadtemplate to import
-  * @param importFromId The id of the existing Workloadtemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Workloadtemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Workloadtemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -8385,7 +9219,7 @@ export class Workloadtemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/workloadtemplate rafay_workloadtemplate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/workloadtemplate rafay_workloadtemplate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -8396,7 +9230,8 @@ export class Workloadtemplate extends cdktf.TerraformResource {
       terraformResourceType: 'rafay_workloadtemplate',
       terraformGeneratorMetadata: {
         providerName: 'rafay',
-        providerVersion: '1.1.52'
+        providerVersion: '1.1.53',
+        providerVersionConstraint: '1.1.53'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

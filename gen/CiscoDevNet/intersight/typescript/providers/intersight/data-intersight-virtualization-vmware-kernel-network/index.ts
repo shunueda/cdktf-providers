@@ -5156,7 +5156,8 @@ export class DataIntersightVirtualizationVmwareKernelNetwork extends cdktf.Terra
       terraformResourceType: 'intersight_virtualization_vmware_kernel_network',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

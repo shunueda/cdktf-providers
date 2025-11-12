@@ -252,7 +252,8 @@ export class ApigApplicationAuthorization extends cdktf.TerraformResource {
       terraformResourceType: 'flexibleengine_apig_application_authorization',
       terraformGeneratorMetadata: {
         providerName: 'flexibleengine',
-        providerVersion: '1.46.0'
+        providerVersion: '1.46.0',
+        providerVersionConstraint: '1.46.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

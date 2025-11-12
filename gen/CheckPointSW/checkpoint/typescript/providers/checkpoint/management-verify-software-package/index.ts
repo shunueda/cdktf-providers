@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_verify_software_package
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_verify_software_package
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ManagementVerifySoftwarePackageConfig extends cdktf.TerraformMe
   /**
   * The number of targets, on which the same package is installed at the same time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_verify_software_package#concurrency_limit ManagementVerifySoftwarePackage#concurrency_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_verify_software_package#concurrency_limit ManagementVerifySoftwarePackage#concurrency_limit}
   */
   readonly concurrencyLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_verify_software_package#id ManagementVerifySoftwarePackage#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_verify_software_package#id ManagementVerifySoftwarePackage#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface ManagementVerifySoftwarePackageConfig extends cdktf.TerraformMe
   /**
   * The name of the software package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_verify_software_package#name ManagementVerifySoftwarePackage#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_verify_software_package#name ManagementVerifySoftwarePackage#name}
   */
   readonly name: string;
   /**
   * On what targets to execute this command. Targets may be identified by their name, or object unique identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_verify_software_package#targets ManagementVerifySoftwarePackage#targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_verify_software_package#targets ManagementVerifySoftwarePackage#targets}
   */
   readonly targets: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_verify_software_package checkpoint_management_verify_software_package}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_verify_software_package checkpoint_management_verify_software_package}
 */
 export class ManagementVerifySoftwarePackage extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class ManagementVerifySoftwarePackage extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementVerifySoftwarePackage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementVerifySoftwarePackage to import
-  * @param importFromId The id of the existing ManagementVerifySoftwarePackage that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_verify_software_package#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementVerifySoftwarePackage that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_verify_software_package#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementVerifySoftwarePackage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class ManagementVerifySoftwarePackage extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_verify_software_package checkpoint_management_verify_software_package} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_verify_software_package checkpoint_management_verify_software_package} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,7 +74,8 @@ export class ManagementVerifySoftwarePackage extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_verify_software_package',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

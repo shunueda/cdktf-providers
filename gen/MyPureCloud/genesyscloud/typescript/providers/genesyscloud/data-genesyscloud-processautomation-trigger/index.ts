@@ -62,7 +62,8 @@ export class DataGenesyscloudProcessautomationTrigger extends cdktf.TerraformDat
       terraformResourceType: 'genesyscloud_processautomation_trigger',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.70.0'
+        providerVersion: '1.70.0',
+        providerVersionConstraint: '1.70.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

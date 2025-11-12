@@ -98,7 +98,8 @@ export class DebugLayer2 extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_debug_layer2',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

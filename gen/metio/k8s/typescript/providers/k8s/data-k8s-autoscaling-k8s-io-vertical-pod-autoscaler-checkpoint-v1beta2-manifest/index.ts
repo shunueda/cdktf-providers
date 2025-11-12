@@ -387,7 +387,8 @@ export class DataK8SAutoscalingK8SIoVerticalPodAutoscalerCheckpointV1Beta2Manife
       terraformResourceType: 'k8s_autoscaling_k8s_io_vertical_pod_autoscaler_checkpoint_v1beta2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

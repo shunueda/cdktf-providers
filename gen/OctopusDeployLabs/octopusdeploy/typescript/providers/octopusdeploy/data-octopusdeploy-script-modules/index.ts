@@ -260,7 +260,8 @@ export class DataOctopusdeployScriptModules extends cdktf.TerraformDataSource {
       terraformResourceType: 'octopusdeploy_script_modules',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '0.43.2'
+        providerVersion: '0.43.2',
+        providerVersionConstraint: '0.43.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

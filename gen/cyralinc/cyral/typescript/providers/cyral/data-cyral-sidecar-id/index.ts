@@ -55,7 +55,8 @@ export class DataCyralSidecarId extends cdktf.TerraformDataSource {
       terraformResourceType: 'cyral_sidecar_id',
       terraformGeneratorMetadata: {
         providerName: 'cyral',
-        providerVersion: '4.16.3'
+        providerVersion: '4.16.3',
+        providerVersionConstraint: '4.16.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

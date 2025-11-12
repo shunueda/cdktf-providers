@@ -735,7 +735,8 @@ export class DataK8SZonecontrolK8SAwsZoneDisruptionBudgetV1Manifest extends cdkt
       terraformResourceType: 'k8s_zonecontrol_k8s_aws_zone_disruption_budget_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

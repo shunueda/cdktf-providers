@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/nodebalancer
+// https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/nodebalancer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface NodebalancerConfig extends cdktf.TerraformMetaArguments {
   /**
   * Throttle connections per second (0-20). Set to 0 (zero) to disable throttling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/nodebalancer#client_conn_throttle Nodebalancer#client_conn_throttle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/nodebalancer#client_conn_throttle Nodebalancer#client_conn_throttle}
   */
   readonly clientConnThrottle?: number;
   /**
   * Throttle UDP sessions per second (0-20). Set to 0 (zero) to disable throttling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/nodebalancer#client_udp_sess_throttle Nodebalancer#client_udp_sess_throttle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/nodebalancer#client_udp_sess_throttle Nodebalancer#client_udp_sess_throttle}
   */
   readonly clientUdpSessThrottle?: number;
   /**
   * ID for the firewall you'd like to use with this NodeBalancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/nodebalancer#firewall_id Nodebalancer#firewall_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/nodebalancer#firewall_id Nodebalancer#firewall_id}
   */
   readonly firewallId?: number;
   /**
   * The label of the Linode NodeBalancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/nodebalancer#label Nodebalancer#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/nodebalancer#label Nodebalancer#label}
   */
   readonly label?: string;
   /**
   * The region where this NodeBalancer will be deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/nodebalancer#region Nodebalancer#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/nodebalancer#region Nodebalancer#region}
   */
   readonly region?: string;
   /**
   * An array of tags applied to this object. Tags are for organizational purposes only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/nodebalancer#tags Nodebalancer#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/nodebalancer#tags Nodebalancer#tags}
   */
   readonly tags?: string[];
   /**
   * A list of VPCs to be assigned to this NodeBalancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/nodebalancer#vpcs Nodebalancer#vpcs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/nodebalancer#vpcs Nodebalancer#vpcs}
   */
   readonly vpcs?: NodebalancerVpcs[] | cdktf.IResolvable;
 }
@@ -471,19 +471,19 @@ export interface NodebalancerVpcs {
   /**
   * A CIDR range for the VPC's IPv4 addresses. The NodeBalancer sources IP addresses from this range when routing traffic to the backend VPC nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/nodebalancer#ipv4_range Nodebalancer#ipv4_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/nodebalancer#ipv4_range Nodebalancer#ipv4_range}
   */
   readonly ipv4Range?: string;
   /**
   * Enables the use of a larger ipv4_range subnet for multiple NodeBalancers within the same VPC by allocating smaller /30 subnets for each NodeBalancer's backends.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/nodebalancer#ipv4_range_auto_assign Nodebalancer#ipv4_range_auto_assign}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/nodebalancer#ipv4_range_auto_assign Nodebalancer#ipv4_range_auto_assign}
   */
   readonly ipv4RangeAutoAssign?: boolean | cdktf.IResolvable;
   /**
   * The ID of a subnet to assign to this NodeBalancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/nodebalancer#subnet_id Nodebalancer#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/nodebalancer#subnet_id Nodebalancer#subnet_id}
   */
   readonly subnetId: number;
 }
@@ -654,7 +654,7 @@ export class NodebalancerVpcsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/nodebalancer linode_nodebalancer}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/nodebalancer linode_nodebalancer}
 */
 export class Nodebalancer extends cdktf.TerraformResource {
 
@@ -670,7 +670,7 @@ export class Nodebalancer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Nodebalancer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Nodebalancer to import
-  * @param importFromId The id of the existing Nodebalancer that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/nodebalancer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Nodebalancer that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/nodebalancer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Nodebalancer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -682,7 +682,7 @@ export class Nodebalancer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/nodebalancer linode_nodebalancer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/nodebalancer linode_nodebalancer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -693,7 +693,8 @@ export class Nodebalancer extends cdktf.TerraformResource {
       terraformResourceType: 'linode_nodebalancer',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.5.0'
+        providerVersion: '3.5.1',
+        providerVersionConstraint: '3.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

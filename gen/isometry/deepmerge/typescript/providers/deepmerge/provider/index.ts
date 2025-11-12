@@ -55,7 +55,8 @@ export class DeepmergeProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'deepmerge',
       terraformGeneratorMetadata: {
         providerName: 'deepmerge',
-        providerVersion: '1.1.1'
+        providerVersion: '1.1.1',
+        providerVersionConstraint: '1.1.1'
       },
       terraformProviderSource: 'isometry/deepmerge'
     });

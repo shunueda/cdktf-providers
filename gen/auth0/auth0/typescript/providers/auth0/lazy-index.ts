@@ -11,6 +11,7 @@ Object.defineProperty(exports, 'connectionClient', { get: function () { return r
 Object.defineProperty(exports, 'connectionClients', { get: function () { return require('./connection-clients'); } });
 Object.defineProperty(exports, 'connectionKeys', { get: function () { return require('./connection-keys'); } });
 Object.defineProperty(exports, 'connectionScimConfiguration', { get: function () { return require('./connection-scim-configuration'); } });
+Object.defineProperty(exports, 'connectionScimToken', { get: function () { return require('./connection-scim-token'); } });
 Object.defineProperty(exports, 'customDomain', { get: function () { return require('./custom-domain'); } });
 Object.defineProperty(exports, 'customDomainVerification', { get: function () { return require('./custom-domain-verification'); } });
 Object.defineProperty(exports, 'emailProvider', { get: function () { return require('./email-provider'); } });

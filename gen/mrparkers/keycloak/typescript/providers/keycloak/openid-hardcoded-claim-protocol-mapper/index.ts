@@ -112,7 +112,8 @@ export class OpenidHardcodedClaimProtocolMapper extends cdktf.TerraformResource 
       terraformResourceType: 'keycloak_openid_hardcoded_claim_protocol_mapper',
       terraformGeneratorMetadata: {
         providerName: 'keycloak',
-        providerVersion: '4.4.0'
+        providerVersion: '4.4.0',
+        providerVersionConstraint: '4.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

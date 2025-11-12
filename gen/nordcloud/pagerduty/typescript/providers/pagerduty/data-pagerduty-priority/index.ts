@@ -62,7 +62,8 @@ export class DataPagerdutyPriority extends cdktf.TerraformDataSource {
       terraformResourceType: 'pagerduty_priority',
       terraformGeneratorMetadata: {
         providerName: 'pagerduty',
-        providerVersion: '4.1.2'
+        providerVersion: '4.1.2',
+        providerVersionConstraint: '4.1.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

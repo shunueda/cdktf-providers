@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_install_policy
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_install_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ManagementInstallPolicyConfig extends cdktf.TerraformMetaArgume
   /**
   * Set to be true in order to install the Access Control policy. By default, the value is true if Access Control policy is enabled on the input policy package, otherwise false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_install_policy#access ManagementInstallPolicy#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_install_policy#access ManagementInstallPolicy#access}
   */
   readonly access?: boolean | cdktf.IResolvable;
   /**
   * Set to be true in order to install the Desktop Security policy. By default, the value is true if desktop security policy is enabled on the input policy package, otherwise false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_install_policy#desktop_security ManagementInstallPolicy#desktop_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_install_policy#desktop_security ManagementInstallPolicy#desktop_security}
   */
   readonly desktopSecurity?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_install_policy#id ManagementInstallPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_install_policy#id ManagementInstallPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,61 +29,61 @@ export interface ManagementInstallPolicyConfig extends cdktf.TerraformMetaArgume
   /**
   * Install policy ignoring policy mismatch warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_install_policy#ignore_warnings ManagementInstallPolicy#ignore_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_install_policy#ignore_warnings ManagementInstallPolicy#ignore_warnings}
   */
   readonly ignoreWarnings?: boolean | cdktf.IResolvable;
   /**
   * Relevant for the gateway clusters. If true, the policy is installed on all the cluster members. If the installation on a cluster member fails, don't install on that cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_install_policy#install_on_all_cluster_members_or_fail ManagementInstallPolicy#install_on_all_cluster_members_or_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_install_policy#install_on_all_cluster_members_or_fail ManagementInstallPolicy#install_on_all_cluster_members_or_fail}
   */
   readonly installOnAllClusterMembersOrFail?: boolean | cdktf.IResolvable;
   /**
   * The name of the Policy Package to be installed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_install_policy#policy_package ManagementInstallPolicy#policy_package}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_install_policy#policy_package ManagementInstallPolicy#policy_package}
   */
   readonly policyPackage: string;
   /**
   * If true, prepares the policy for the installation, but doesn't install it on an installation target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_install_policy#prepare_only ManagementInstallPolicy#prepare_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_install_policy#prepare_only ManagementInstallPolicy#prepare_only}
   */
   readonly prepareOnly?: boolean | cdktf.IResolvable;
   /**
   * Set to be true in order to install the QoS policy. By default, the value is true if Quality-of-Service policy is enabled on the input policy package, otherwise false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_install_policy#qos ManagementInstallPolicy#qos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_install_policy#qos ManagementInstallPolicy#qos}
   */
   readonly qos?: boolean | cdktf.IResolvable;
   /**
   * The UID of the revision of the policy to install.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_install_policy#revision ManagementInstallPolicy#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_install_policy#revision ManagementInstallPolicy#revision}
   */
   readonly revision?: string;
   /**
   * On what targets to execute this command. Targets may be identified by their name, or object unique identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_install_policy#targets ManagementInstallPolicy#targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_install_policy#targets ManagementInstallPolicy#targets}
   */
   readonly targets?: string[];
   /**
   * Set to be true in order to install the Threat Prevention policy. By default, the value is true if Threat Prevention policy is enabled on the input policy package, otherwise false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_install_policy#threat_prevention ManagementInstallPolicy#threat_prevention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_install_policy#threat_prevention ManagementInstallPolicy#threat_prevention}
   */
   readonly threatPrevention?: boolean | cdktf.IResolvable;
   /**
   * Triggers a install-policy if there are any changes to objects in this list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_install_policy#triggers ManagementInstallPolicy#triggers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_install_policy#triggers ManagementInstallPolicy#triggers}
   */
   readonly triggers?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_install_policy checkpoint_management_install_policy}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_install_policy checkpoint_management_install_policy}
 */
 export class ManagementInstallPolicy extends cdktf.TerraformResource {
 
@@ -99,7 +99,7 @@ export class ManagementInstallPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementInstallPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementInstallPolicy to import
-  * @param importFromId The id of the existing ManagementInstallPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_install_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementInstallPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_install_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementInstallPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -111,7 +111,7 @@ export class ManagementInstallPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_install_policy checkpoint_management_install_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_install_policy checkpoint_management_install_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -122,7 +122,8 @@ export class ManagementInstallPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_install_policy',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

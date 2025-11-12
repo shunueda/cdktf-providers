@@ -109,7 +109,8 @@ export class MdmSoftwareUpdateEnforcement extends cdktf.TerraformResource {
       terraformResourceType: 'zentral_mdm_software_update_enforcement',
       terraformGeneratorMetadata: {
         providerName: 'zentral',
-        providerVersion: '0.1.64'
+        providerVersion: '0.1.64',
+        providerVersionConstraint: '0.1.64'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

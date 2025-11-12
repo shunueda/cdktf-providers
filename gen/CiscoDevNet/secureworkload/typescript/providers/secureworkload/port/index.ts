@@ -92,7 +92,8 @@ export class Port extends cdktf.TerraformResource {
       terraformResourceType: 'secureworkload_port',
       terraformGeneratorMetadata: {
         providerName: 'secureworkload',
-        providerVersion: '1.8.0'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/data-sources/container_host
+// https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/data-sources/container_host
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,13 +8,13 @@ import * as cdktf from 'cdktf';
 
 export interface DataHsdpContainerHostConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/data-sources/container_host#name DataHsdpContainerHost#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/data-sources/container_host#name DataHsdpContainerHost#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/data-sources/container_host hsdp_container_host}
+* Represents a {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/data-sources/container_host hsdp_container_host}
 */
 export class DataHsdpContainerHost extends cdktf.TerraformDataSource {
 
@@ -30,7 +30,7 @@ export class DataHsdpContainerHost extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataHsdpContainerHost resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHsdpContainerHost to import
-  * @param importFromId The id of the existing DataHsdpContainerHost that should be imported. Refer to the {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/data-sources/container_host#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHsdpContainerHost that should be imported. Refer to the {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/data-sources/container_host#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHsdpContainerHost to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -42,7 +42,7 @@ export class DataHsdpContainerHost extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/data-sources/container_host hsdp_container_host} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/data-sources/container_host hsdp_container_host} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -53,7 +53,8 @@ export class DataHsdpContainerHost extends cdktf.TerraformDataSource {
       terraformResourceType: 'hsdp_container_host',
       terraformGeneratorMetadata: {
         providerName: 'hsdp',
-        providerVersion: '0.70.0'
+        providerVersion: '0.71.0',
+        providerVersionConstraint: '0.71.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

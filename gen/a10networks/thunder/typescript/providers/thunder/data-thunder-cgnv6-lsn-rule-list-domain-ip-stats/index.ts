@@ -117,7 +117,8 @@ export class DataThunderCgnv6LsnRuleListDomainIpStats extends cdktf.TerraformDat
       terraformResourceType: 'thunder_cgnv6_lsn_rule_list_domain_ip_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

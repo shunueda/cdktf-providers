@@ -76,7 +76,8 @@ export class SystemIkeDhgroup19 extends cdktf.TerraformResource {
       terraformResourceType: 'fmgdevice_system_ike_dhgroup19',
       terraformGeneratorMetadata: {
         providerName: 'fmgdevice',
-        providerVersion: '1.2.1'
+        providerVersion: '1.2.1',
+        providerVersionConstraint: '1.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

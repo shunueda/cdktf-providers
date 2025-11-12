@@ -76,7 +76,8 @@ export class TenantMember extends cdktf.TerraformResource {
       terraformResourceType: 'pipes_tenant_member',
       terraformGeneratorMetadata: {
         providerName: 'pipes',
-        providerVersion: '0.17.0'
+        providerVersion: '0.17.0',
+        providerVersionConstraint: '0.17.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

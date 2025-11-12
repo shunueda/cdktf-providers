@@ -62,7 +62,8 @@ export class DataGridscaleMarketplaceApplication extends cdktf.TerraformDataSour
       terraformResourceType: 'gridscale_marketplace_application',
       terraformGeneratorMetadata: {
         providerName: 'gridscale',
-        providerVersion: '2.2.3'
+        providerVersion: '2.2.3',
+        providerVersionConstraint: '2.2.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

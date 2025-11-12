@@ -67,7 +67,8 @@ export class DcloudProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'dcloud',
       terraformGeneratorMetadata: {
         providerName: 'dcloud',
-        providerVersion: '0.1.29'
+        providerVersion: '0.1.29',
+        providerVersionConstraint: '0.1.29'
       },
       terraformProviderSource: 'cisco-open/dcloud'
     });

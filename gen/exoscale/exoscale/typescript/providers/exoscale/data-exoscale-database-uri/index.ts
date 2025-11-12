@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/data-sources/database_uri
+// https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/database_uri
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataExoscaleDatabaseUriConfig extends cdktf.TerraformMetaArgume
   /**
   * Name of database service to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/data-sources/database_uri#name DataExoscaleDatabaseUri#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/database_uri#name DataExoscaleDatabaseUri#name}
   */
   readonly name: string;
   /**
   * The type of the database service (`kafka`, `mysql`, `opensearch`, `pg`, `valkey`, `grafana`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/data-sources/database_uri#type DataExoscaleDatabaseUri#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/database_uri#type DataExoscaleDatabaseUri#type}
   */
   readonly type: string;
   /**
   * The Exoscale Zone name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/data-sources/database_uri#zone DataExoscaleDatabaseUri#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/database_uri#zone DataExoscaleDatabaseUri#zone}
   */
   readonly zone: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/data-sources/database_uri#timeouts DataExoscaleDatabaseUri#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/database_uri#timeouts DataExoscaleDatabaseUri#timeouts}
   */
   readonly timeouts?: DataExoscaleDatabaseUriTimeouts;
 }
@@ -36,7 +36,7 @@ export interface DataExoscaleDatabaseUriTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/data-sources/database_uri#read DataExoscaleDatabaseUri#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/database_uri#read DataExoscaleDatabaseUri#read}
   */
   readonly read?: string;
 }
@@ -130,7 +130,7 @@ export class DataExoscaleDatabaseUriTimeoutsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/data-sources/database_uri exoscale_database_uri}
+* Represents a {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/database_uri exoscale_database_uri}
 */
 export class DataExoscaleDatabaseUri extends cdktf.TerraformDataSource {
 
@@ -146,7 +146,7 @@ export class DataExoscaleDatabaseUri extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataExoscaleDatabaseUri resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataExoscaleDatabaseUri to import
-  * @param importFromId The id of the existing DataExoscaleDatabaseUri that should be imported. Refer to the {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/data-sources/database_uri#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataExoscaleDatabaseUri that should be imported. Refer to the {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/database_uri#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataExoscaleDatabaseUri to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -158,7 +158,7 @@ export class DataExoscaleDatabaseUri extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/data-sources/database_uri exoscale_database_uri} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/database_uri exoscale_database_uri} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -169,7 +169,8 @@ export class DataExoscaleDatabaseUri extends cdktf.TerraformDataSource {
       terraformResourceType: 'exoscale_database_uri',
       terraformGeneratorMetadata: {
         providerName: 'exoscale',
-        providerVersion: '0.66.0'
+        providerVersion: '0.67.0',
+        providerVersionConstraint: '0.67.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

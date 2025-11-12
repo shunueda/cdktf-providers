@@ -257,7 +257,8 @@ export class DataCloudflareZeroTrustGatewayCategoriesList extends cdktf.Terrafor
       terraformResourceType: 'cloudflare_zero_trust_gateway_categories_list',
       terraformGeneratorMetadata: {
         providerName: 'cloudflare',
-        providerVersion: '5.12.0'
+        providerVersion: '5.12.0',
+        providerVersionConstraint: '5.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

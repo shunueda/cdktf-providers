@@ -84,7 +84,8 @@ export class HardcodedGroupIdentityProviderMapper extends cdktf.TerraformResourc
       terraformResourceType: 'keycloak_hardcoded_group_identity_provider_mapper',
       terraformGeneratorMetadata: {
         providerName: 'keycloak',
-        providerVersion: '5.5.0'
+        providerVersion: '5.5.0',
+        providerVersionConstraint: '5.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

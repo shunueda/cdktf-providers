@@ -8722,7 +8722,8 @@ export class DataK8SKyvernoIoCleanupPolicyV2Manifest extends cdktf.TerraformData
       terraformResourceType: 'k8s_kyverno_io_cleanup_policy_v2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

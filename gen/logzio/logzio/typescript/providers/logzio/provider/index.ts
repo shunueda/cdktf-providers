@@ -73,7 +73,8 @@ export class LogzioProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'logzio',
       terraformGeneratorMetadata: {
         providerName: 'logzio',
-        providerVersion: '1.26.0'
+        providerVersion: '1.26.0',
+        providerVersionConstraint: '1.26.0'
       },
       terraformProviderSource: 'logzio/logzio'
     });

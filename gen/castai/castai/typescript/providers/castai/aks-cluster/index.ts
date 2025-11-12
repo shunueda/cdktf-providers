@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/aks_cluster
+// https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/aks_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface AksClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * Azure AD application ID that is created and used by CAST AI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/aks_cluster#client_id AksCluster#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/aks_cluster#client_id AksCluster#client_id}
   */
   readonly clientId: string;
   /**
   * Azure AD application password that will be used by CAST AI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/aks_cluster#client_secret AksCluster#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/aks_cluster#client_secret AksCluster#client_secret}
   */
   readonly clientSecret: string;
   /**
   * Should CAST AI remove nodes managed by CAST.AI on disconnect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/aks_cluster#delete_nodes_on_disconnect AksCluster#delete_nodes_on_disconnect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/aks_cluster#delete_nodes_on_disconnect AksCluster#delete_nodes_on_disconnect}
   */
   readonly deleteNodesOnDisconnect?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/aks_cluster#id AksCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/aks_cluster#id AksCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,43 +35,43 @@ export interface AksClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * AKS cluster name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/aks_cluster#name AksCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/aks_cluster#name AksCluster#name}
   */
   readonly name: string;
   /**
   * Azure resource group in which nodes are and will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/aks_cluster#node_resource_group AksCluster#node_resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/aks_cluster#node_resource_group AksCluster#node_resource_group}
   */
   readonly nodeResourceGroup: string;
   /**
   * AKS cluster region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/aks_cluster#region AksCluster#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/aks_cluster#region AksCluster#region}
   */
   readonly region: string;
   /**
   * ID of the Azure subscription.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/aks_cluster#subscription_id AksCluster#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/aks_cluster#subscription_id AksCluster#subscription_id}
   */
   readonly subscriptionId: string;
   /**
   * Azure AD tenant ID from the used subscription.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/aks_cluster#tenant_id AksCluster#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/aks_cluster#tenant_id AksCluster#tenant_id}
   */
   readonly tenantId: string;
   /**
   * http_proxy_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/aks_cluster#http_proxy_config AksCluster#http_proxy_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/aks_cluster#http_proxy_config AksCluster#http_proxy_config}
   */
   readonly httpProxyConfig?: AksClusterHttpProxyConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/aks_cluster#timeouts AksCluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/aks_cluster#timeouts AksCluster#timeouts}
   */
   readonly timeouts?: AksClusterTimeouts;
 }
@@ -79,19 +79,19 @@ export interface AksClusterHttpProxyConfig {
   /**
   * Address to use for proxying HTTP requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/aks_cluster#http_proxy AksCluster#http_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/aks_cluster#http_proxy AksCluster#http_proxy}
   */
   readonly httpProxy?: string;
   /**
   * Address to use for proxying HTTPS/TLS requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/aks_cluster#https_proxy AksCluster#https_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/aks_cluster#https_proxy AksCluster#https_proxy}
   */
   readonly httpsProxy?: string;
   /**
   * List of destinations that should not go through proxy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/aks_cluster#no_proxy AksCluster#no_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/aks_cluster#no_proxy AksCluster#no_proxy}
   */
   readonly noProxy?: string[];
 }
@@ -233,15 +233,15 @@ export class AksClusterHttpProxyConfigOutputReference extends cdktf.ComplexObjec
 }
 export interface AksClusterTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/aks_cluster#create AksCluster#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/aks_cluster#create AksCluster#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/aks_cluster#delete AksCluster#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/aks_cluster#delete AksCluster#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/aks_cluster#update AksCluster#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/aks_cluster#update AksCluster#update}
   */
   readonly update?: string;
 }
@@ -393,7 +393,7 @@ export class AksClusterTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/aks_cluster castai_aks_cluster}
+* Represents a {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/aks_cluster castai_aks_cluster}
 */
 export class AksCluster extends cdktf.TerraformResource {
 
@@ -409,7 +409,7 @@ export class AksCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AksCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AksCluster to import
-  * @param importFromId The id of the existing AksCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/aks_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AksCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/aks_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AksCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -421,7 +421,7 @@ export class AksCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/aks_cluster castai_aks_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/aks_cluster castai_aks_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -432,7 +432,8 @@ export class AksCluster extends cdktf.TerraformResource {
       terraformResourceType: 'castai_aks_cluster',
       terraformGeneratorMetadata: {
         providerName: 'castai',
-        providerVersion: '7.73.1'
+        providerVersion: '8.1.0',
+        providerVersionConstraint: '8.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -551,6 +552,11 @@ export class AksCluster extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get nodeResourceGroupInput() {
     return this._nodeResourceGroup;
+  }
+
+  // organization_id - computed: true, optional: false, required: false
+  public get organizationId() {
+    return this.getStringAttribute('organization_id');
   }
 
   // region - computed: false, optional: false, required: true

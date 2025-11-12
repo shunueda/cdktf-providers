@@ -164,7 +164,8 @@ export class DataVcdNsxtEdgegatewayBgpIpPrefixList extends cdktf.TerraformDataSo
       terraformResourceType: 'vcd_nsxt_edgegateway_bgp_ip_prefix_list',
       terraformGeneratorMetadata: {
         providerName: 'vcd',
-        providerVersion: '3.14.1'
+        providerVersion: '3.14.1',
+        providerVersionConstraint: '3.14.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

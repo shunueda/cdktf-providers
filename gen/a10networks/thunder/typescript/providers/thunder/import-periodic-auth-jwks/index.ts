@@ -86,7 +86,8 @@ export class ImportPeriodicAuthJwks extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_import_periodic_auth_jwks',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

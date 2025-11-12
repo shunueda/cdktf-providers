@@ -68,7 +68,8 @@ export class DataSkytapTemplate extends cdktf.TerraformDataSource {
       terraformResourceType: 'skytap_template',
       terraformGeneratorMetadata: {
         providerName: 'skytap',
-        providerVersion: '0.15.1'
+        providerVersion: '0.15.1',
+        providerVersionConstraint: '0.15.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

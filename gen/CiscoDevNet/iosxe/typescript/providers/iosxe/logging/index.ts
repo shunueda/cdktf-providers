@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/logging
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,145 +10,245 @@ export interface LoggingConfig extends cdktf.TerraformMetaArguments {
   /**
   * DEPRECATED. Logging severity level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/logging#buffered_severity Logging#buffered_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#buffered_severity Logging#buffered_severity}
   */
   readonly bufferedSeverity?: string;
   /**
   * DEPRECATED. Logging buffer size
   *   - Range: `4096`-`2147483647`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/logging#buffered_size Logging#buffered_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#buffered_size Logging#buffered_size}
   */
   readonly bufferedSize?: number;
   /**
   * Set console logging parameters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/logging#console Logging#console}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#console Logging#console}
   */
   readonly console?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/logging#console_severity Logging#console_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#console_severity Logging#console_severity}
   */
   readonly consoleSeverity?: string;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/logging#device Logging#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#device Logging#device}
   */
   readonly device?: string;
   /**
   * Facility parameter for syslog messages
   *   - Choices: `auth`, `cron`, `daemon`, `kern`, `local0`, `local1`, `local2`, `local3`, `local4`, `local5`, `local6`, `local7`, `lpr`, `mail`, `news`, `sys10`, `sys11`, `sys12`, `sys13`, `sys14`, `sys9`, `syslog`, `user`, `uucp`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/logging#facility Logging#facility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#facility Logging#facility}
   */
   readonly facility?: string;
   /**
   * 
   *   - Range: `0`-`4294967295`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/logging#file_max_size Logging#file_max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#file_max_size Logging#file_max_size}
   */
   readonly fileMaxSize?: number;
   /**
   * 
   *   - Range: `0`-`4294967295`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/logging#file_min_size Logging#file_min_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#file_min_size Logging#file_min_size}
   */
   readonly fileMinSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/logging#file_name Logging#file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#file_name Logging#file_name}
   */
   readonly fileName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/logging#file_severity Logging#file_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#file_severity Logging#file_severity}
   */
   readonly fileSeverity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/logging#history_severity Logging#history_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#history_severity Logging#history_severity}
   */
   readonly historySeverity?: string;
   /**
   * Set history table size
   *   - Range: `0`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/logging#history_size Logging#history_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#history_size Logging#history_size}
   */
   readonly historySize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/logging#ipv4_hosts Logging#ipv4_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#ipv4_hosts Logging#ipv4_hosts}
   */
   readonly ipv4Hosts?: LoggingIpv4Hosts[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/logging#ipv4_hosts_transport Logging#ipv4_hosts_transport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#ipv4_hosts_transport Logging#ipv4_hosts_transport}
   */
   readonly ipv4HostsTransport?: LoggingIpv4HostsTransport[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/logging#ipv4_vrf_hosts Logging#ipv4_vrf_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#ipv4_vrf_hosts Logging#ipv4_vrf_hosts}
   */
   readonly ipv4VrfHosts?: LoggingIpv4VrfHosts[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/logging#ipv4_vrf_hosts_transport Logging#ipv4_vrf_hosts_transport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#ipv4_vrf_hosts_transport Logging#ipv4_vrf_hosts_transport}
   */
   readonly ipv4VrfHostsTransport?: LoggingIpv4VrfHostsTransport[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/logging#ipv6_hosts Logging#ipv6_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#ipv6_hosts Logging#ipv6_hosts}
   */
   readonly ipv6Hosts?: LoggingIpv6Hosts[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/logging#ipv6_hosts_transport Logging#ipv6_hosts_transport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#ipv6_hosts_transport Logging#ipv6_hosts_transport}
   */
   readonly ipv6HostsTransport?: LoggingIpv6HostsTransport[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/logging#ipv6_vrf_hosts Logging#ipv6_vrf_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#ipv6_vrf_hosts Logging#ipv6_vrf_hosts}
   */
   readonly ipv6VrfHosts?: LoggingIpv6VrfHosts[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/logging#ipv6_vrf_hosts_transport Logging#ipv6_vrf_hosts_transport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#ipv6_vrf_hosts_transport Logging#ipv6_vrf_hosts_transport}
   */
   readonly ipv6VrfHostsTransport?: LoggingIpv6VrfHostsTransport[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/logging#monitor_severity Logging#monitor_severity}
+  * Count every log message and timestamp last occurrence
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#logging_count Logging#logging_count}
+  */
+  readonly loggingCount?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#monitor_severity Logging#monitor_severity}
   */
   readonly monitorSeverity?: string;
   /**
   * Define a unique text string as ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/logging#origin_id_name Logging#origin_id_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#origin_id_name Logging#origin_id_name}
   */
   readonly originIdName?: string;
   /**
   * Use origin hostname/ip/ipv6 as ID
   *   - Choices: `hostname`, `ip`, `ipv6`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/logging#origin_id_type Logging#origin_id_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#origin_id_type Logging#origin_id_type}
   */
   readonly originIdType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/logging#source_interface Logging#source_interface}
+  * Batch size for writing to persistent storage
+  *   - Range: `4096`-`2147483647`
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#persistent_batch Logging#persistent_batch}
+  */
+  readonly persistentBatch?: number;
+  /**
+  * Set size of individual log files
+  *   - Range: `8192`-`2147483647`
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#persistent_filesize Logging#persistent_filesize}
+  */
+  readonly persistentFilesize?: number;
+  /**
+  * Write log entry to storage immediately (no buffering).
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#persistent_immediate Logging#persistent_immediate}
+  */
+  readonly persistentImmediate?: boolean | cdktf.IResolvable;
+  /**
+  * Notify when show logging [persistent] is activated.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#persistent_notify Logging#persistent_notify}
+  */
+  readonly persistentNotify?: boolean | cdktf.IResolvable;
+  /**
+  * Eliminates manipulation on logging-persistent files
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#persistent_protected Logging#persistent_protected}
+  */
+  readonly persistentProtected?: boolean | cdktf.IResolvable;
+  /**
+  * Set disk space for writing log messages
+  *   - Range: `16384`-`2147483647`
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#persistent_size Logging#persistent_size}
+  */
+  readonly persistentSize?: number;
+  /**
+  * Setting threshold capacity. When setting circular logging is disabled
+  *   - Range: `1`-`99`
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#persistent_threshold Logging#persistent_threshold}
+  */
+  readonly persistentThreshold?: number;
+  /**
+  * URL to store logging messages
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#persistent_url Logging#persistent_url}
+  */
+  readonly persistentUrl?: string;
+  /**
+  * Messages per second
+  *   - Range: `1`-`10000`
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#rate_limit_all Logging#rate_limit_all}
+  */
+  readonly rateLimitAll?: number;
+  /**
+  * Logging severity level
+  *   - Choices: `alerts`, `critical`, `debugging`, `emergencies`, `errors`, `informational`, `notifications`, `warnings`
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#rate_limit_all_except_severity Logging#rate_limit_all_except_severity}
+  */
+  readonly rateLimitAllExceptSeverity?: string;
+  /**
+  * Messages per second
+  *   - Range: `1`-`10000`
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#rate_limit_console Logging#rate_limit_console}
+  */
+  readonly rateLimitConsole?: number;
+  /**
+  * Messages per second
+  *   - Range: `1`-`10000`
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#rate_limit_console_all Logging#rate_limit_console_all}
+  */
+  readonly rateLimitConsoleAll?: number;
+  /**
+  * Logging severity level
+  *   - Choices: `alerts`, `critical`, `debugging`, `emergencies`, `errors`, `informational`, `notifications`, `warnings`
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#rate_limit_console_all_except_severity Logging#rate_limit_console_all_except_severity}
+  */
+  readonly rateLimitConsoleAllExceptSeverity?: string;
+  /**
+  * Logging severity level
+  *   - Choices: `alerts`, `critical`, `debugging`, `emergencies`, `errors`, `informational`, `notifications`, `warnings`
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#rate_limit_console_except_severity Logging#rate_limit_console_except_severity}
+  */
+  readonly rateLimitConsoleExceptSeverity?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#source_interface Logging#source_interface}
   */
   readonly sourceInterface?: string;
   /**
   * Specify interface and vrf for source address in logging transactions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/logging#source_interfaces_vrf Logging#source_interfaces_vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#source_interfaces_vrf Logging#source_interfaces_vrf}
   */
   readonly sourceInterfacesVrf?: LoggingSourceInterfacesVrf[] | cdktf.IResolvable;
   /**
   * Set trap server logging level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/logging#trap Logging#trap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#trap Logging#trap}
   */
   readonly trap?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/logging#trap_severity Logging#trap_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#trap_severity Logging#trap_severity}
   */
   readonly trapSeverity?: string;
 }
 export interface LoggingIpv4Hosts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/logging#ipv4_host Logging#ipv4_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#ipv4_host Logging#ipv4_host}
   */
   readonly ipv4Host: string;
 }
@@ -264,7 +364,7 @@ export interface LoggingIpv4HostsTransportTransportTcpPorts {
   * Specify the TCP port number (default=601)
   *   - Range: `1`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/logging#port_number Logging#port_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#port_number Logging#port_number}
   */
   readonly portNumber: number;
 }
@@ -380,13 +480,13 @@ export interface LoggingIpv4HostsTransportTransportTlsPorts {
   * Specify the TLS port number (default=6514)
   *   - Range: `1025`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/logging#port_number Logging#port_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#port_number Logging#port_number}
   */
   readonly portNumber: number;
   /**
   * Specify the TLS profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/logging#profile Logging#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#profile Logging#profile}
   */
   readonly profile?: string;
 }
@@ -531,7 +631,7 @@ export interface LoggingIpv4HostsTransportTransportUdpPorts {
   * Specify the UDP port number (default=514)
   *   - Range: `1`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/logging#port_number Logging#port_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#port_number Logging#port_number}
   */
   readonly portNumber: number;
 }
@@ -644,25 +744,25 @@ export class LoggingIpv4HostsTransportTransportUdpPortsList extends cdktf.Comple
 }
 export interface LoggingIpv4HostsTransport {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/logging#ipv4_host Logging#ipv4_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#ipv4_host Logging#ipv4_host}
   */
   readonly ipv4Host: string;
   /**
   * Port Number List
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/logging#transport_tcp_ports Logging#transport_tcp_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#transport_tcp_ports Logging#transport_tcp_ports}
   */
   readonly transportTcpPorts?: LoggingIpv4HostsTransportTransportTcpPorts[] | cdktf.IResolvable;
   /**
   * Port Number List
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/logging#transport_tls_ports Logging#transport_tls_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#transport_tls_ports Logging#transport_tls_ports}
   */
   readonly transportTlsPorts?: LoggingIpv4HostsTransportTransportTlsPorts[] | cdktf.IResolvable;
   /**
   * Port Number List
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/logging#transport_udp_ports Logging#transport_udp_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#transport_udp_ports Logging#transport_udp_ports}
   */
   readonly transportUdpPorts?: LoggingIpv4HostsTransportTransportUdpPorts[] | cdktf.IResolvable;
 }
@@ -862,13 +962,13 @@ export class LoggingIpv4HostsTransportList extends cdktf.ComplexList {
 }
 export interface LoggingIpv4VrfHosts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/logging#ipv4_host Logging#ipv4_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#ipv4_host Logging#ipv4_host}
   */
   readonly ipv4Host: string;
   /**
   * Set VRF option
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/logging#vrf Logging#vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#vrf Logging#vrf}
   */
   readonly vrf: string;
 }
@@ -1010,7 +1110,7 @@ export interface LoggingIpv4VrfHostsTransportTransportTcpPorts {
   * Specify the TCP port number (default=601)
   *   - Range: `1`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/logging#port_number Logging#port_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#port_number Logging#port_number}
   */
   readonly portNumber: number;
 }
@@ -1126,13 +1226,13 @@ export interface LoggingIpv4VrfHostsTransportTransportTlsPorts {
   * Specify the TLS port number (default=6514)
   *   - Range: `1025`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/logging#port_number Logging#port_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#port_number Logging#port_number}
   */
   readonly portNumber: number;
   /**
   * Specify the TLS profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/logging#profile Logging#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#profile Logging#profile}
   */
   readonly profile?: string;
 }
@@ -1277,7 +1377,7 @@ export interface LoggingIpv4VrfHostsTransportTransportUdpPorts {
   * Specify the UDP port number (default=514)
   *   - Range: `1`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/logging#port_number Logging#port_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#port_number Logging#port_number}
   */
   readonly portNumber: number;
 }
@@ -1390,31 +1490,31 @@ export class LoggingIpv4VrfHostsTransportTransportUdpPortsList extends cdktf.Com
 }
 export interface LoggingIpv4VrfHostsTransport {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/logging#ipv4_host Logging#ipv4_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#ipv4_host Logging#ipv4_host}
   */
   readonly ipv4Host: string;
   /**
   * Port Number List
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/logging#transport_tcp_ports Logging#transport_tcp_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#transport_tcp_ports Logging#transport_tcp_ports}
   */
   readonly transportTcpPorts?: LoggingIpv4VrfHostsTransportTransportTcpPorts[] | cdktf.IResolvable;
   /**
   * Port Number List
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/logging#transport_tls_ports Logging#transport_tls_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#transport_tls_ports Logging#transport_tls_ports}
   */
   readonly transportTlsPorts?: LoggingIpv4VrfHostsTransportTransportTlsPorts[] | cdktf.IResolvable;
   /**
   * Port Number List
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/logging#transport_udp_ports Logging#transport_udp_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#transport_udp_ports Logging#transport_udp_ports}
   */
   readonly transportUdpPorts?: LoggingIpv4VrfHostsTransportTransportUdpPorts[] | cdktf.IResolvable;
   /**
   * Set VRF option
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/logging#vrf Logging#vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#vrf Logging#vrf}
   */
   readonly vrf: string;
 }
@@ -1640,7 +1740,7 @@ export class LoggingIpv4VrfHostsTransportList extends cdktf.ComplexList {
 }
 export interface LoggingIpv6Hosts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/logging#ipv6_host Logging#ipv6_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#ipv6_host Logging#ipv6_host}
   */
   readonly ipv6Host: string;
 }
@@ -1756,7 +1856,7 @@ export interface LoggingIpv6HostsTransportTransportTcpPorts {
   * Specify the TCP port number (default=601)
   *   - Range: `1`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/logging#port_number Logging#port_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#port_number Logging#port_number}
   */
   readonly portNumber: number;
 }
@@ -1872,13 +1972,13 @@ export interface LoggingIpv6HostsTransportTransportTlsPorts {
   * Specify the TLS port number (default=6514)
   *   - Range: `1025`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/logging#port_number Logging#port_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#port_number Logging#port_number}
   */
   readonly portNumber: number;
   /**
   * Specify the TLS profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/logging#profile Logging#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#profile Logging#profile}
   */
   readonly profile?: string;
 }
@@ -2023,7 +2123,7 @@ export interface LoggingIpv6HostsTransportTransportUdpPorts {
   * Specify the UDP port number (default=514)
   *   - Range: `1`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/logging#port_number Logging#port_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#port_number Logging#port_number}
   */
   readonly portNumber: number;
 }
@@ -2136,25 +2236,25 @@ export class LoggingIpv6HostsTransportTransportUdpPortsList extends cdktf.Comple
 }
 export interface LoggingIpv6HostsTransport {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/logging#ipv6_host Logging#ipv6_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#ipv6_host Logging#ipv6_host}
   */
   readonly ipv6Host: string;
   /**
   * Port Number List
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/logging#transport_tcp_ports Logging#transport_tcp_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#transport_tcp_ports Logging#transport_tcp_ports}
   */
   readonly transportTcpPorts?: LoggingIpv6HostsTransportTransportTcpPorts[] | cdktf.IResolvable;
   /**
   * Port Number List
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/logging#transport_tls_ports Logging#transport_tls_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#transport_tls_ports Logging#transport_tls_ports}
   */
   readonly transportTlsPorts?: LoggingIpv6HostsTransportTransportTlsPorts[] | cdktf.IResolvable;
   /**
   * Port Number List
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/logging#transport_udp_ports Logging#transport_udp_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#transport_udp_ports Logging#transport_udp_ports}
   */
   readonly transportUdpPorts?: LoggingIpv6HostsTransportTransportUdpPorts[] | cdktf.IResolvable;
 }
@@ -2354,13 +2454,13 @@ export class LoggingIpv6HostsTransportList extends cdktf.ComplexList {
 }
 export interface LoggingIpv6VrfHosts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/logging#ipv6_host Logging#ipv6_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#ipv6_host Logging#ipv6_host}
   */
   readonly ipv6Host: string;
   /**
   * Set VRF option
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/logging#vrf Logging#vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#vrf Logging#vrf}
   */
   readonly vrf: string;
 }
@@ -2502,7 +2602,7 @@ export interface LoggingIpv6VrfHostsTransportTransportTcpPorts {
   * Specify the TCP port number (default=601)
   *   - Range: `1`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/logging#port_number Logging#port_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#port_number Logging#port_number}
   */
   readonly portNumber: number;
 }
@@ -2618,13 +2718,13 @@ export interface LoggingIpv6VrfHostsTransportTransportTlsPorts {
   * Specify the TLS port number (default=6514)
   *   - Range: `1025`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/logging#port_number Logging#port_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#port_number Logging#port_number}
   */
   readonly portNumber: number;
   /**
   * Specify the TLS profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/logging#profile Logging#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#profile Logging#profile}
   */
   readonly profile?: string;
 }
@@ -2769,7 +2869,7 @@ export interface LoggingIpv6VrfHostsTransportTransportUdpPorts {
   * Specify the UDP port number (default=514)
   *   - Range: `1`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/logging#port_number Logging#port_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#port_number Logging#port_number}
   */
   readonly portNumber: number;
 }
@@ -2882,31 +2982,31 @@ export class LoggingIpv6VrfHostsTransportTransportUdpPortsList extends cdktf.Com
 }
 export interface LoggingIpv6VrfHostsTransport {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/logging#ipv6_host Logging#ipv6_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#ipv6_host Logging#ipv6_host}
   */
   readonly ipv6Host: string;
   /**
   * Port Number List
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/logging#transport_tcp_ports Logging#transport_tcp_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#transport_tcp_ports Logging#transport_tcp_ports}
   */
   readonly transportTcpPorts?: LoggingIpv6VrfHostsTransportTransportTcpPorts[] | cdktf.IResolvable;
   /**
   * Port Number List
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/logging#transport_tls_ports Logging#transport_tls_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#transport_tls_ports Logging#transport_tls_ports}
   */
   readonly transportTlsPorts?: LoggingIpv6VrfHostsTransportTransportTlsPorts[] | cdktf.IResolvable;
   /**
   * Port Number List
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/logging#transport_udp_ports Logging#transport_udp_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#transport_udp_ports Logging#transport_udp_ports}
   */
   readonly transportUdpPorts?: LoggingIpv6VrfHostsTransportTransportUdpPorts[] | cdktf.IResolvable;
   /**
   * Set VRF option
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/logging#vrf Logging#vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#vrf Logging#vrf}
   */
   readonly vrf: string;
 }
@@ -3132,13 +3232,13 @@ export class LoggingIpv6VrfHostsTransportList extends cdktf.ComplexList {
 }
 export interface LoggingSourceInterfacesVrf {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/logging#interface_name Logging#interface_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#interface_name Logging#interface_name}
   */
   readonly interfaceName: string;
   /**
   * Specify the vrf of source interface for logging transactions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/logging#vrf Logging#vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#vrf Logging#vrf}
   */
   readonly vrf: string;
 }
@@ -3277,7 +3377,7 @@ export class LoggingSourceInterfacesVrfList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/logging iosxe_logging}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging iosxe_logging}
 */
 export class Logging extends cdktf.TerraformResource {
 
@@ -3293,7 +3393,7 @@ export class Logging extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Logging resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Logging to import
-  * @param importFromId The id of the existing Logging that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/logging#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Logging that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Logging to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3305,7 +3405,7 @@ export class Logging extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/logging iosxe_logging} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/logging iosxe_logging} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3316,7 +3416,8 @@ export class Logging extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_logging',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.9.3'
+        providerVersion: '0.10.0',
+        providerVersionConstraint: '0.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -3346,9 +3447,24 @@ export class Logging extends cdktf.TerraformResource {
     this._ipv6HostsTransport.internalValue = config.ipv6HostsTransport;
     this._ipv6VrfHosts.internalValue = config.ipv6VrfHosts;
     this._ipv6VrfHostsTransport.internalValue = config.ipv6VrfHostsTransport;
+    this._loggingCount = config.loggingCount;
     this._monitorSeverity = config.monitorSeverity;
     this._originIdName = config.originIdName;
     this._originIdType = config.originIdType;
+    this._persistentBatch = config.persistentBatch;
+    this._persistentFilesize = config.persistentFilesize;
+    this._persistentImmediate = config.persistentImmediate;
+    this._persistentNotify = config.persistentNotify;
+    this._persistentProtected = config.persistentProtected;
+    this._persistentSize = config.persistentSize;
+    this._persistentThreshold = config.persistentThreshold;
+    this._persistentUrl = config.persistentUrl;
+    this._rateLimitAll = config.rateLimitAll;
+    this._rateLimitAllExceptSeverity = config.rateLimitAllExceptSeverity;
+    this._rateLimitConsole = config.rateLimitConsole;
+    this._rateLimitConsoleAll = config.rateLimitConsoleAll;
+    this._rateLimitConsoleAllExceptSeverity = config.rateLimitConsoleAllExceptSeverity;
+    this._rateLimitConsoleExceptSeverity = config.rateLimitConsoleExceptSeverity;
     this._sourceInterface = config.sourceInterface;
     this._sourceInterfacesVrf.internalValue = config.sourceInterfacesVrf;
     this._trap = config.trap;
@@ -3684,6 +3800,22 @@ export class Logging extends cdktf.TerraformResource {
     return this._ipv6VrfHostsTransport.internalValue;
   }
 
+  // logging_count - computed: false, optional: true, required: false
+  private _loggingCount?: boolean | cdktf.IResolvable; 
+  public get loggingCount() {
+    return this.getBooleanAttribute('logging_count');
+  }
+  public set loggingCount(value: boolean | cdktf.IResolvable) {
+    this._loggingCount = value;
+  }
+  public resetLoggingCount() {
+    this._loggingCount = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get loggingCountInput() {
+    return this._loggingCount;
+  }
+
   // monitor_severity - computed: false, optional: true, required: false
   private _monitorSeverity?: string; 
   public get monitorSeverity() {
@@ -3730,6 +3862,230 @@ export class Logging extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get originIdTypeInput() {
     return this._originIdType;
+  }
+
+  // persistent_batch - computed: false, optional: true, required: false
+  private _persistentBatch?: number; 
+  public get persistentBatch() {
+    return this.getNumberAttribute('persistent_batch');
+  }
+  public set persistentBatch(value: number) {
+    this._persistentBatch = value;
+  }
+  public resetPersistentBatch() {
+    this._persistentBatch = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get persistentBatchInput() {
+    return this._persistentBatch;
+  }
+
+  // persistent_filesize - computed: false, optional: true, required: false
+  private _persistentFilesize?: number; 
+  public get persistentFilesize() {
+    return this.getNumberAttribute('persistent_filesize');
+  }
+  public set persistentFilesize(value: number) {
+    this._persistentFilesize = value;
+  }
+  public resetPersistentFilesize() {
+    this._persistentFilesize = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get persistentFilesizeInput() {
+    return this._persistentFilesize;
+  }
+
+  // persistent_immediate - computed: false, optional: true, required: false
+  private _persistentImmediate?: boolean | cdktf.IResolvable; 
+  public get persistentImmediate() {
+    return this.getBooleanAttribute('persistent_immediate');
+  }
+  public set persistentImmediate(value: boolean | cdktf.IResolvable) {
+    this._persistentImmediate = value;
+  }
+  public resetPersistentImmediate() {
+    this._persistentImmediate = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get persistentImmediateInput() {
+    return this._persistentImmediate;
+  }
+
+  // persistent_notify - computed: false, optional: true, required: false
+  private _persistentNotify?: boolean | cdktf.IResolvable; 
+  public get persistentNotify() {
+    return this.getBooleanAttribute('persistent_notify');
+  }
+  public set persistentNotify(value: boolean | cdktf.IResolvable) {
+    this._persistentNotify = value;
+  }
+  public resetPersistentNotify() {
+    this._persistentNotify = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get persistentNotifyInput() {
+    return this._persistentNotify;
+  }
+
+  // persistent_protected - computed: false, optional: true, required: false
+  private _persistentProtected?: boolean | cdktf.IResolvable; 
+  public get persistentProtected() {
+    return this.getBooleanAttribute('persistent_protected');
+  }
+  public set persistentProtected(value: boolean | cdktf.IResolvable) {
+    this._persistentProtected = value;
+  }
+  public resetPersistentProtected() {
+    this._persistentProtected = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get persistentProtectedInput() {
+    return this._persistentProtected;
+  }
+
+  // persistent_size - computed: false, optional: true, required: false
+  private _persistentSize?: number; 
+  public get persistentSize() {
+    return this.getNumberAttribute('persistent_size');
+  }
+  public set persistentSize(value: number) {
+    this._persistentSize = value;
+  }
+  public resetPersistentSize() {
+    this._persistentSize = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get persistentSizeInput() {
+    return this._persistentSize;
+  }
+
+  // persistent_threshold - computed: false, optional: true, required: false
+  private _persistentThreshold?: number; 
+  public get persistentThreshold() {
+    return this.getNumberAttribute('persistent_threshold');
+  }
+  public set persistentThreshold(value: number) {
+    this._persistentThreshold = value;
+  }
+  public resetPersistentThreshold() {
+    this._persistentThreshold = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get persistentThresholdInput() {
+    return this._persistentThreshold;
+  }
+
+  // persistent_url - computed: false, optional: true, required: false
+  private _persistentUrl?: string; 
+  public get persistentUrl() {
+    return this.getStringAttribute('persistent_url');
+  }
+  public set persistentUrl(value: string) {
+    this._persistentUrl = value;
+  }
+  public resetPersistentUrl() {
+    this._persistentUrl = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get persistentUrlInput() {
+    return this._persistentUrl;
+  }
+
+  // rate_limit_all - computed: false, optional: true, required: false
+  private _rateLimitAll?: number; 
+  public get rateLimitAll() {
+    return this.getNumberAttribute('rate_limit_all');
+  }
+  public set rateLimitAll(value: number) {
+    this._rateLimitAll = value;
+  }
+  public resetRateLimitAll() {
+    this._rateLimitAll = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get rateLimitAllInput() {
+    return this._rateLimitAll;
+  }
+
+  // rate_limit_all_except_severity - computed: false, optional: true, required: false
+  private _rateLimitAllExceptSeverity?: string; 
+  public get rateLimitAllExceptSeverity() {
+    return this.getStringAttribute('rate_limit_all_except_severity');
+  }
+  public set rateLimitAllExceptSeverity(value: string) {
+    this._rateLimitAllExceptSeverity = value;
+  }
+  public resetRateLimitAllExceptSeverity() {
+    this._rateLimitAllExceptSeverity = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get rateLimitAllExceptSeverityInput() {
+    return this._rateLimitAllExceptSeverity;
+  }
+
+  // rate_limit_console - computed: false, optional: true, required: false
+  private _rateLimitConsole?: number; 
+  public get rateLimitConsole() {
+    return this.getNumberAttribute('rate_limit_console');
+  }
+  public set rateLimitConsole(value: number) {
+    this._rateLimitConsole = value;
+  }
+  public resetRateLimitConsole() {
+    this._rateLimitConsole = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get rateLimitConsoleInput() {
+    return this._rateLimitConsole;
+  }
+
+  // rate_limit_console_all - computed: false, optional: true, required: false
+  private _rateLimitConsoleAll?: number; 
+  public get rateLimitConsoleAll() {
+    return this.getNumberAttribute('rate_limit_console_all');
+  }
+  public set rateLimitConsoleAll(value: number) {
+    this._rateLimitConsoleAll = value;
+  }
+  public resetRateLimitConsoleAll() {
+    this._rateLimitConsoleAll = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get rateLimitConsoleAllInput() {
+    return this._rateLimitConsoleAll;
+  }
+
+  // rate_limit_console_all_except_severity - computed: false, optional: true, required: false
+  private _rateLimitConsoleAllExceptSeverity?: string; 
+  public get rateLimitConsoleAllExceptSeverity() {
+    return this.getStringAttribute('rate_limit_console_all_except_severity');
+  }
+  public set rateLimitConsoleAllExceptSeverity(value: string) {
+    this._rateLimitConsoleAllExceptSeverity = value;
+  }
+  public resetRateLimitConsoleAllExceptSeverity() {
+    this._rateLimitConsoleAllExceptSeverity = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get rateLimitConsoleAllExceptSeverityInput() {
+    return this._rateLimitConsoleAllExceptSeverity;
+  }
+
+  // rate_limit_console_except_severity - computed: false, optional: true, required: false
+  private _rateLimitConsoleExceptSeverity?: string; 
+  public get rateLimitConsoleExceptSeverity() {
+    return this.getStringAttribute('rate_limit_console_except_severity');
+  }
+  public set rateLimitConsoleExceptSeverity(value: string) {
+    this._rateLimitConsoleExceptSeverity = value;
+  }
+  public resetRateLimitConsoleExceptSeverity() {
+    this._rateLimitConsoleExceptSeverity = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get rateLimitConsoleExceptSeverityInput() {
+    return this._rateLimitConsoleExceptSeverity;
   }
 
   // source_interface - computed: false, optional: true, required: false
@@ -3822,9 +4178,24 @@ export class Logging extends cdktf.TerraformResource {
       ipv6_hosts_transport: cdktf.listMapper(loggingIpv6HostsTransportToTerraform, false)(this._ipv6HostsTransport.internalValue),
       ipv6_vrf_hosts: cdktf.listMapper(loggingIpv6VrfHostsToTerraform, false)(this._ipv6VrfHosts.internalValue),
       ipv6_vrf_hosts_transport: cdktf.listMapper(loggingIpv6VrfHostsTransportToTerraform, false)(this._ipv6VrfHostsTransport.internalValue),
+      logging_count: cdktf.booleanToTerraform(this._loggingCount),
       monitor_severity: cdktf.stringToTerraform(this._monitorSeverity),
       origin_id_name: cdktf.stringToTerraform(this._originIdName),
       origin_id_type: cdktf.stringToTerraform(this._originIdType),
+      persistent_batch: cdktf.numberToTerraform(this._persistentBatch),
+      persistent_filesize: cdktf.numberToTerraform(this._persistentFilesize),
+      persistent_immediate: cdktf.booleanToTerraform(this._persistentImmediate),
+      persistent_notify: cdktf.booleanToTerraform(this._persistentNotify),
+      persistent_protected: cdktf.booleanToTerraform(this._persistentProtected),
+      persistent_size: cdktf.numberToTerraform(this._persistentSize),
+      persistent_threshold: cdktf.numberToTerraform(this._persistentThreshold),
+      persistent_url: cdktf.stringToTerraform(this._persistentUrl),
+      rate_limit_all: cdktf.numberToTerraform(this._rateLimitAll),
+      rate_limit_all_except_severity: cdktf.stringToTerraform(this._rateLimitAllExceptSeverity),
+      rate_limit_console: cdktf.numberToTerraform(this._rateLimitConsole),
+      rate_limit_console_all: cdktf.numberToTerraform(this._rateLimitConsoleAll),
+      rate_limit_console_all_except_severity: cdktf.stringToTerraform(this._rateLimitConsoleAllExceptSeverity),
+      rate_limit_console_except_severity: cdktf.stringToTerraform(this._rateLimitConsoleExceptSeverity),
       source_interface: cdktf.stringToTerraform(this._sourceInterface),
       source_interfaces_vrf: cdktf.listMapper(loggingSourceInterfacesVrfToTerraform, false)(this._sourceInterfacesVrf.internalValue),
       trap: cdktf.booleanToTerraform(this._trap),
@@ -3954,6 +4325,12 @@ export class Logging extends cdktf.TerraformResource {
         type: "list",
         storageClassType: "LoggingIpv6VrfHostsTransportList",
       },
+      logging_count: {
+        value: cdktf.booleanToHclTerraform(this._loggingCount),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
       monitor_severity: {
         value: cdktf.stringToHclTerraform(this._monitorSeverity),
         isBlock: false,
@@ -3968,6 +4345,90 @@ export class Logging extends cdktf.TerraformResource {
       },
       origin_id_type: {
         value: cdktf.stringToHclTerraform(this._originIdType),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      persistent_batch: {
+        value: cdktf.numberToHclTerraform(this._persistentBatch),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      persistent_filesize: {
+        value: cdktf.numberToHclTerraform(this._persistentFilesize),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      persistent_immediate: {
+        value: cdktf.booleanToHclTerraform(this._persistentImmediate),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      persistent_notify: {
+        value: cdktf.booleanToHclTerraform(this._persistentNotify),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      persistent_protected: {
+        value: cdktf.booleanToHclTerraform(this._persistentProtected),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      persistent_size: {
+        value: cdktf.numberToHclTerraform(this._persistentSize),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      persistent_threshold: {
+        value: cdktf.numberToHclTerraform(this._persistentThreshold),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      persistent_url: {
+        value: cdktf.stringToHclTerraform(this._persistentUrl),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      rate_limit_all: {
+        value: cdktf.numberToHclTerraform(this._rateLimitAll),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      rate_limit_all_except_severity: {
+        value: cdktf.stringToHclTerraform(this._rateLimitAllExceptSeverity),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      rate_limit_console: {
+        value: cdktf.numberToHclTerraform(this._rateLimitConsole),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      rate_limit_console_all: {
+        value: cdktf.numberToHclTerraform(this._rateLimitConsoleAll),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      rate_limit_console_all_except_severity: {
+        value: cdktf.stringToHclTerraform(this._rateLimitConsoleAllExceptSeverity),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      rate_limit_console_except_severity: {
+        value: cdktf.stringToHclTerraform(this._rateLimitConsoleExceptSeverity),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

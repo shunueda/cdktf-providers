@@ -55,7 +55,8 @@ export class OauthProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'oauth',
       terraformGeneratorMetadata: {
         providerName: 'oauth',
-        providerVersion: '1.6.7'
+        providerVersion: '1.6.7',
+        providerVersionConstraint: '1.6.7'
       },
       terraformProviderSource: 'SvenHamers/oauth'
     });

@@ -72,7 +72,8 @@ export class SecurityZonesSecurityZoneInterfacesName extends cdktf.TerraformReso
       terraformResourceType: 'junos-vsrx_SecurityZonesSecurity__ZoneInterfacesName',
       terraformGeneratorMetadata: {
         providerName: 'junos-vsrx',
-        providerVersion: '20.32.106'
+        providerVersion: '20.32.106',
+        providerVersionConstraint: '20.32.106'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

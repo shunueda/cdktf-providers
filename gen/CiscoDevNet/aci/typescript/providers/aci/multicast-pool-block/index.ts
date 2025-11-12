@@ -84,7 +84,8 @@ export class MulticastPoolBlock extends cdktf.TerraformResource {
       terraformResourceType: 'aci_multicast_pool_block',
       terraformGeneratorMetadata: {
         providerName: 'aci',
-        providerVersion: '2.18.0'
+        providerVersion: '2.18.0',
+        providerVersionConstraint: '2.18.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

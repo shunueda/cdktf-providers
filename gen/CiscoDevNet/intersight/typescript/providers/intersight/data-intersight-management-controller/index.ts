@@ -13910,7 +13910,8 @@ export class DataIntersightManagementController extends cdktf.TerraformDataSourc
       terraformResourceType: 'intersight_management_controller',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

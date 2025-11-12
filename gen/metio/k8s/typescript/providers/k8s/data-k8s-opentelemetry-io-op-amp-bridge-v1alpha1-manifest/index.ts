@@ -24846,7 +24846,8 @@ export class DataK8SOpentelemetryIoOpAmpBridgeV1Alpha1Manifest extends cdktf.Ter
       terraformResourceType: 'k8s_opentelemetry_io_op_amp_bridge_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

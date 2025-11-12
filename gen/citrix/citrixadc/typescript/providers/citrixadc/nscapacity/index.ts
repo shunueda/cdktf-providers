@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nscapacity
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nscapacity
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,48 @@ import * as cdktf from 'cdktf';
 
 export interface NscapacityConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nscapacity#bandwidth Nscapacity#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nscapacity#bandwidth Nscapacity#bandwidth}
   */
   readonly bandwidth?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nscapacity#edition Nscapacity#edition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nscapacity#edition Nscapacity#edition}
   */
   readonly edition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nscapacity#id Nscapacity#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nscapacity#id Nscapacity#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nscapacity#nodeid Nscapacity#nodeid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nscapacity#nodeid Nscapacity#nodeid}
   */
   readonly nodeid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nscapacity#platform Nscapacity#platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nscapacity#password Nscapacity#password}
+  */
+  readonly password?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nscapacity#platform Nscapacity#platform}
   */
   readonly platform?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nscapacity#unit Nscapacity#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nscapacity#unit Nscapacity#unit}
   */
   readonly unit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nscapacity#vcpu Nscapacity#vcpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nscapacity#username Nscapacity#username}
+  */
+  readonly username?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nscapacity#vcpu Nscapacity#vcpu}
   */
   readonly vcpu?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nscapacity citrixadc_nscapacity}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nscapacity citrixadc_nscapacity}
 */
 export class Nscapacity extends cdktf.TerraformResource {
 
@@ -57,7 +65,7 @@ export class Nscapacity extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Nscapacity resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Nscapacity to import
-  * @param importFromId The id of the existing Nscapacity that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nscapacity#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Nscapacity that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nscapacity#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Nscapacity to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +77,7 @@ export class Nscapacity extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nscapacity citrixadc_nscapacity} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nscapacity citrixadc_nscapacity} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,7 +88,8 @@ export class Nscapacity extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_nscapacity',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -94,8 +103,10 @@ export class Nscapacity extends cdktf.TerraformResource {
     this._edition = config.edition;
     this._id = config.id;
     this._nodeid = config.nodeid;
+    this._password = config.password;
     this._platform = config.platform;
     this._unit = config.unit;
+    this._username = config.username;
     this._vcpu = config.vcpu;
   }
 
@@ -167,6 +178,22 @@ export class Nscapacity extends cdktf.TerraformResource {
     return this._nodeid;
   }
 
+  // password - computed: true, optional: true, required: false
+  private _password?: string; 
+  public get password() {
+    return this.getStringAttribute('password');
+  }
+  public set password(value: string) {
+    this._password = value;
+  }
+  public resetPassword() {
+    this._password = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get passwordInput() {
+    return this._password;
+  }
+
   // platform - computed: true, optional: true, required: false
   private _platform?: string; 
   public get platform() {
@@ -199,6 +226,22 @@ export class Nscapacity extends cdktf.TerraformResource {
     return this._unit;
   }
 
+  // username - computed: true, optional: true, required: false
+  private _username?: string; 
+  public get username() {
+    return this.getStringAttribute('username');
+  }
+  public set username(value: string) {
+    this._username = value;
+  }
+  public resetUsername() {
+    this._username = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get usernameInput() {
+    return this._username;
+  }
+
   // vcpu - computed: true, optional: true, required: false
   private _vcpu?: boolean | cdktf.IResolvable; 
   public get vcpu() {
@@ -225,8 +268,10 @@ export class Nscapacity extends cdktf.TerraformResource {
       edition: cdktf.stringToTerraform(this._edition),
       id: cdktf.stringToTerraform(this._id),
       nodeid: cdktf.numberToTerraform(this._nodeid),
+      password: cdktf.stringToTerraform(this._password),
       platform: cdktf.stringToTerraform(this._platform),
       unit: cdktf.stringToTerraform(this._unit),
+      username: cdktf.stringToTerraform(this._username),
       vcpu: cdktf.booleanToTerraform(this._vcpu),
     };
   }
@@ -257,6 +302,12 @@ export class Nscapacity extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "number",
       },
+      password: {
+        value: cdktf.stringToHclTerraform(this._password),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       platform: {
         value: cdktf.stringToHclTerraform(this._platform),
         isBlock: false,
@@ -265,6 +316,12 @@ export class Nscapacity extends cdktf.TerraformResource {
       },
       unit: {
         value: cdktf.stringToHclTerraform(this._unit),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      username: {
+        value: cdktf.stringToHclTerraform(this._username),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

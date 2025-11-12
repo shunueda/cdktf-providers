@@ -433,7 +433,8 @@ export class KibanaImportSavedObjects extends cdktf.TerraformResource {
       terraformResourceType: 'elasticstack_kibana_import_saved_objects',
       terraformGeneratorMetadata: {
         providerName: 'elasticstack',
-        providerVersion: '0.12.1'
+        providerVersion: '0.12.1',
+        providerVersionConstraint: '0.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

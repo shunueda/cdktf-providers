@@ -141,7 +141,8 @@ export class DataDatadogMetricActiveTagsAndAggregations extends cdktf.TerraformD
       terraformResourceType: 'datadog_metric_active_tags_and_aggregations',
       terraformGeneratorMetadata: {
         providerName: 'datadog',
-        providerVersion: '3.79.0'
+        providerVersion: '3.79.0',
+        providerVersionConstraint: '3.79.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

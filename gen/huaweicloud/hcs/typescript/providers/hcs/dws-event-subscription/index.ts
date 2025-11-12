@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dws_event_subscription
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_event_subscription
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DwsEventSubscriptionConfig extends cdktf.TerraformMetaArguments
   /**
   * The category of source event.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dws_event_subscription#category DwsEventSubscription#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_event_subscription#category DwsEventSubscription#category}
   */
   readonly category?: string;
   /**
   * whether the event subscription is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dws_event_subscription#enable DwsEventSubscription#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_event_subscription#enable DwsEventSubscription#enable}
   */
   readonly enable: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dws_event_subscription#id DwsEventSubscription#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_event_subscription#id DwsEventSubscription#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,59 +29,59 @@ export interface DwsEventSubscriptionConfig extends cdktf.TerraformMetaArguments
   /**
   * The name of the event subscription.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dws_event_subscription#name DwsEventSubscription#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_event_subscription#name DwsEventSubscription#name}
   */
   readonly name: string;
   /**
   * The notification target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dws_event_subscription#notification_target DwsEventSubscription#notification_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_event_subscription#notification_target DwsEventSubscription#notification_target}
   */
   readonly notificationTarget: string;
   /**
   * The name of notification target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dws_event_subscription#notification_target_name DwsEventSubscription#notification_target_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_event_subscription#notification_target_name DwsEventSubscription#notification_target_name}
   */
   readonly notificationTargetName: string;
   /**
   * The type of notification target. Currently only **SMN** is supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dws_event_subscription#notification_target_type DwsEventSubscription#notification_target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_event_subscription#notification_target_type DwsEventSubscription#notification_target_type}
   */
   readonly notificationTargetType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dws_event_subscription#region DwsEventSubscription#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_event_subscription#region DwsEventSubscription#region}
   */
   readonly region?: string;
   /**
   * The severity of source event.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dws_event_subscription#severity DwsEventSubscription#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_event_subscription#severity DwsEventSubscription#severity}
   */
   readonly severity?: string;
   /**
   * ID of source event.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dws_event_subscription#source_id DwsEventSubscription#source_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_event_subscription#source_id DwsEventSubscription#source_id}
   */
   readonly sourceId?: string;
   /**
   * The type of source event.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dws_event_subscription#source_type DwsEventSubscription#source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_event_subscription#source_type DwsEventSubscription#source_type}
   */
   readonly sourceType?: string;
   /**
   * The time_zone of the event subscription.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dws_event_subscription#time_zone DwsEventSubscription#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_event_subscription#time_zone DwsEventSubscription#time_zone}
   */
   readonly timeZone?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dws_event_subscription hcs_dws_event_subscription}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_event_subscription hcs_dws_event_subscription}
 */
 export class DwsEventSubscription extends cdktf.TerraformResource {
 
@@ -97,7 +97,7 @@ export class DwsEventSubscription extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DwsEventSubscription resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DwsEventSubscription to import
-  * @param importFromId The id of the existing DwsEventSubscription that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dws_event_subscription#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DwsEventSubscription that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_event_subscription#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DwsEventSubscription to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -109,7 +109,7 @@ export class DwsEventSubscription extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/dws_event_subscription hcs_dws_event_subscription} Resource
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/dws_event_subscription hcs_dws_event_subscription} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -120,7 +120,8 @@ export class DwsEventSubscription extends cdktf.TerraformResource {
       terraformResourceType: 'hcs_dws_event_subscription',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.19'
+        providerVersion: '2.4.20',
+        providerVersionConstraint: '2.4.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

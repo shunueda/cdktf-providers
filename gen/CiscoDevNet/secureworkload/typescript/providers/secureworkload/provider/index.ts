@@ -79,7 +79,8 @@ export class SecureworkloadProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'secureworkload',
       terraformGeneratorMetadata: {
         providerName: 'secureworkload',
-        providerVersion: '1.8.0'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       terraformProviderSource: 'CiscoDevNet/secureworkload'
     });

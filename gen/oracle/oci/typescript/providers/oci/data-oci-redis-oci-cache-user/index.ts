@@ -133,7 +133,8 @@ export class DataOciRedisOciCacheUser extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_redis_oci_cache_user',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

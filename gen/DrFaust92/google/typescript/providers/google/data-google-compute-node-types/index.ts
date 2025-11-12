@@ -64,7 +64,8 @@ export class DataGoogleComputeNodeTypes extends cdktf.TerraformDataSource {
       terraformResourceType: 'google_compute_node_types',
       terraformGeneratorMetadata: {
         providerName: 'google',
-        providerVersion: '4.16.4'
+        providerVersion: '4.16.4',
+        providerVersionConstraint: '4.16.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

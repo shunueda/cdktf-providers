@@ -56,7 +56,8 @@ export class DataLastpassSecret extends cdktf.TerraformDataSource {
       terraformResourceType: 'lastpass_secret',
       terraformGeneratorMetadata: {
         providerName: 'lastpass',
-        providerVersion: '0.5.3'
+        providerVersion: '0.5.3',
+        providerVersionConstraint: '0.5.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

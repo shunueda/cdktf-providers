@@ -72,7 +72,8 @@ export class ExpiringIamAccessKey extends cdktf.TerraformResource {
       terraformResourceType: 'awsutils_expiring_iam_access_key',
       terraformGeneratorMetadata: {
         providerName: 'awsutils',
-        providerVersion: '0.20.1'
+        providerVersion: '0.20.1',
+        providerVersionConstraint: '0.20.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

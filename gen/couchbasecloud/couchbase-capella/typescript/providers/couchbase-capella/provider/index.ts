@@ -67,7 +67,8 @@ export class CouchbaseCapellaProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'couchbase-capella',
       terraformGeneratorMetadata: {
         providerName: 'couchbase-capella',
-        providerVersion: '1.5.3'
+        providerVersion: '1.5.3',
+        providerVersionConstraint: '1.5.3'
       },
       terraformProviderSource: 'couchbasecloud/couchbase-capella'
     });

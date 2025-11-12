@@ -66,7 +66,8 @@ export class DataK8SCephRookIoCephNfsV1Manifest extends cdktf.TerraformDataSourc
       terraformResourceType: 'k8s_ceph_rook_io_ceph_nfs_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

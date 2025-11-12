@@ -164,7 +164,8 @@ export class DataDbtcloudGlobalConnections extends cdktf.TerraformDataSource {
       terraformResourceType: 'dbtcloud_global_connections',
       terraformGeneratorMetadata: {
         providerName: 'dbtcloud',
-        providerVersion: '1.3.0'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

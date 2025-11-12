@@ -101,6 +101,7 @@ export * as sharedfilesystemSecurityserviceV2 from './sharedfilesystem-securitys
 export * as sharedfilesystemShareAccessV2 from './sharedfilesystem-share-access-v2';
 export * as sharedfilesystemShareV2 from './sharedfilesystem-share-v2';
 export * as sharedfilesystemSharenetworkV2 from './sharedfilesystem-sharenetwork-v2';
+export * as taasTapMirrorV2 from './taas-tap-mirror-v2';
 export * as vpnaasEndpointGroupV2 from './vpnaas-endpoint-group-v2';
 export * as vpnaasIkePolicyV2 from './vpnaas-ike-policy-v2';
 export * as vpnaasIpsecPolicyV2 from './vpnaas-ipsec-policy-v2';
@@ -141,6 +142,9 @@ export * as dataOpenstackKeymanagerContainerV1 from './data-openstack-keymanager
 export * as dataOpenstackKeymanagerSecretV1 from './data-openstack-keymanager-secret-v1';
 export * as dataOpenstackLbFlavorV2 from './data-openstack-lb-flavor-v2';
 export * as dataOpenstackLbFlavorprofileV2 from './data-openstack-lb-flavorprofile-v2';
+export * as dataOpenstackLbListenerV2 from './data-openstack-lb-listener-v2';
+export * as dataOpenstackLbLoadbalancerV2 from './data-openstack-lb-loadbalancer-v2';
+export * as dataOpenstackLbPoolV2 from './data-openstack-lb-pool-v2';
 export * as dataOpenstackLoadbalancerFlavorV2 from './data-openstack-loadbalancer-flavor-v2';
 export * as dataOpenstackNetworkingAddressscopeV2 from './data-openstack-networking-addressscope-v2';
 export * as dataOpenstackNetworkingFloatingipV2 from './data-openstack-networking-floatingip-v2';

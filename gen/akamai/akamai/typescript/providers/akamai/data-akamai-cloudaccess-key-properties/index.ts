@@ -150,7 +150,8 @@ export class DataAkamaiCloudaccessKeyProperties extends cdktf.TerraformDataSourc
       terraformResourceType: 'akamai_cloudaccess_key_properties',
       terraformGeneratorMetadata: {
         providerName: 'akamai',
-        providerVersion: '9.1.0'
+        providerVersion: '9.1.0',
+        providerVersionConstraint: '9.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

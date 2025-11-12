@@ -6002,7 +6002,8 @@ export class VnicEthAdapterPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_vnic_eth_adapter_policy',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -66,7 +66,8 @@ export class DataK8SKibanaK8SElasticCoKibanaV1Manifest extends cdktf.TerraformDa
       terraformResourceType: 'k8s_kibana_k8s_elastic_co_kibana_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

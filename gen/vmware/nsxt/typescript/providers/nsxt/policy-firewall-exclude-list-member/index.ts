@@ -62,7 +62,8 @@ export class PolicyFirewallExcludeListMember extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_policy_firewall_exclude_list_member',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0'
+        providerVersion: '3.10.0',
+        providerVersionConstraint: '3.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -178,7 +178,8 @@ export class HeartbeatCheck extends cdktf.TerraformResource {
       terraformResourceType: 'statuscake_heartbeat_check',
       terraformGeneratorMetadata: {
         providerName: 'statuscake',
-        providerVersion: '2.2.2'
+        providerVersion: '2.2.2',
+        providerVersionConstraint: '2.2.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

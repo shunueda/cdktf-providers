@@ -73,7 +73,8 @@ export class FortiflexvmProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'fortiflexvm',
       terraformGeneratorMetadata: {
         providerName: 'fortiflexvm',
-        providerVersion: '2.4.3'
+        providerVersion: '2.4.3',
+        providerVersionConstraint: '2.4.3'
       },
       terraformProviderSource: 'fortinetdev/fortiflexvm'
     });

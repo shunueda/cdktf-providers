@@ -73,7 +73,8 @@ export class DataSonarrAutoTagConditionSeriesType extends cdktf.TerraformDataSou
       terraformResourceType: 'sonarr_auto_tag_condition_series_type',
       terraformGeneratorMetadata: {
         providerName: 'sonarr',
-        providerVersion: '3.4.0'
+        providerVersion: '3.4.0',
+        providerVersionConstraint: '3.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

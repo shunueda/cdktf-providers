@@ -199,7 +199,8 @@ export class DataTencentcloudVpcGatewayFlowMonitorDetail extends cdktf.Terraform
       terraformResourceType: 'tencentcloud_vpc_gateway_flow_monitor_detail',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

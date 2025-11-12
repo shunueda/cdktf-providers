@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_override
+// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_override
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ClusterOverrideConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_override#id ClusterOverride#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_override#id ClusterOverride#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface ClusterOverrideConfig extends cdktf.TerraformMetaArguments {
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_override#metadata ClusterOverride#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_override#metadata ClusterOverride#metadata}
   */
   readonly metadata?: ClusterOverrideMetadata;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_override#spec ClusterOverride#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_override#spec ClusterOverride#spec}
   */
   readonly spec?: ClusterOverrideSpec;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_override#timeouts ClusterOverride#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_override#timeouts ClusterOverride#timeouts}
   */
   readonly timeouts?: ClusterOverrideTimeouts;
 }
@@ -37,31 +37,31 @@ export interface ClusterOverrideMetadata {
   /**
   * annotations of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_override#annotations ClusterOverride#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_override#annotations ClusterOverride#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * description of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_override#description ClusterOverride#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_override#description ClusterOverride#description}
   */
   readonly description?: string;
   /**
   * labels of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_override#labels ClusterOverride#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_override#labels ClusterOverride#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_override#name ClusterOverride#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_override#name ClusterOverride#name}
   */
   readonly name?: string;
   /**
   * Project of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_override#project ClusterOverride#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_override#project ClusterOverride#project}
   */
   readonly project?: string;
 }
@@ -263,13 +263,13 @@ export interface ClusterOverrideSpecClusterPlacementClusterLabels {
   /**
   * Key of the placement label
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_override#key ClusterOverride#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_override#key ClusterOverride#key}
   */
   readonly key?: string;
   /**
   * Value of the placement label
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_override#value ClusterOverride#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_override#value ClusterOverride#value}
   */
   readonly value?: string;
 }
@@ -416,25 +416,25 @@ export interface ClusterOverrideSpecClusterPlacement {
   /**
   * Kubernetes style label selector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_override#cluster_selector ClusterOverride#cluster_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_override#cluster_selector ClusterOverride#cluster_selector}
   */
   readonly clusterSelector?: string;
   /**
   * node grouping keys
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_override#node_grouping_keys ClusterOverride#node_grouping_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_override#node_grouping_keys ClusterOverride#node_grouping_keys}
   */
   readonly nodeGroupingKeys?: string[];
   /**
   * placement type, value ClusterSelector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_override#placement_type ClusterOverride#placement_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_override#placement_type ClusterOverride#placement_type}
   */
   readonly placementType?: string;
   /**
   * cluster_labels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_override#cluster_labels ClusterOverride#cluster_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_override#cluster_labels ClusterOverride#cluster_labels}
   */
   readonly clusterLabels?: ClusterOverrideSpecClusterPlacementClusterLabels[] | cdktf.IResolvable;
 }
@@ -607,7 +607,7 @@ export interface ClusterOverrideSpecSharingProjects {
   /**
   * name of the project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_override#name ClusterOverride#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_override#name ClusterOverride#name}
   */
   readonly name?: string;
 }
@@ -725,13 +725,13 @@ export interface ClusterOverrideSpecSharing {
   /**
   * flag to specify if sharing is enabled for resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_override#enabled ClusterOverride#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_override#enabled ClusterOverride#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * projects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_override#projects ClusterOverride#projects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_override#projects ClusterOverride#projects}
   */
   readonly projects?: ClusterOverrideSpecSharingProjects[] | cdktf.IResolvable;
 }
@@ -846,19 +846,19 @@ export interface ClusterOverrideSpecValuesRepoArtifactMetaGitOptionsRepoArtifact
   /**
   * file type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_override#file_type ClusterOverride#file_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_override#file_type ClusterOverride#file_type}
   */
   readonly fileType?: string;
   /**
   * name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_override#name ClusterOverride#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_override#name ClusterOverride#name}
   */
   readonly name?: string;
   /**
   * file path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_override#relative_path ClusterOverride#relative_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_override#relative_path ClusterOverride#relative_path}
   */
   readonly relativePath?: string;
 }
@@ -1034,13 +1034,13 @@ export interface ClusterOverrideSpecValuesRepoArtifactMetaGitOptions {
   /**
   * repository revision
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_override#revision ClusterOverride#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_override#revision ClusterOverride#revision}
   */
   readonly revision?: string;
   /**
   * repo_artifact_files block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_override#repo_artifact_files ClusterOverride#repo_artifact_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_override#repo_artifact_files ClusterOverride#repo_artifact_files}
   */
   readonly repoArtifactFiles?: ClusterOverrideSpecValuesRepoArtifactMetaGitOptionsRepoArtifactFiles[] | cdktf.IResolvable;
 }
@@ -1187,13 +1187,13 @@ export interface ClusterOverrideSpecValuesRepoArtifactMetaHelmOptions {
   /**
   * chart name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_override#chart_name ClusterOverride#chart_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_override#chart_name ClusterOverride#chart_name}
   */
   readonly chartName?: string;
   /**
   * tag for chart
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_override#tag ClusterOverride#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_override#tag ClusterOverride#tag}
   */
   readonly tag?: string;
 }
@@ -1340,19 +1340,19 @@ export interface ClusterOverrideSpecValuesRepoArtifactMeta {
   /**
   * timeouts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_override#timeouts ClusterOverride#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_override#timeouts ClusterOverride#timeouts}
   */
   readonly timeouts?: number;
   /**
   * git_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_override#git_options ClusterOverride#git_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_override#git_options ClusterOverride#git_options}
   */
   readonly gitOptions?: ClusterOverrideSpecValuesRepoArtifactMetaGitOptions[] | cdktf.IResolvable;
   /**
   * helm_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_override#helm_options ClusterOverride#helm_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_override#helm_options ClusterOverride#helm_options}
   */
   readonly helmOptions?: ClusterOverrideSpecValuesRepoArtifactMetaHelmOptions[] | cdktf.IResolvable;
 }
@@ -1496,55 +1496,55 @@ export interface ClusterOverrideSpec {
   /**
   * Override Type YAML or HELM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_override#artifact_type ClusterOverride#artifact_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_override#artifact_type ClusterOverride#artifact_type}
   */
   readonly artifactType?: string;
   /**
   * cluster selector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_override#cluster_selector ClusterOverride#cluster_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_override#cluster_selector ClusterOverride#cluster_selector}
   */
   readonly clusterSelector?: string;
   /**
   * override value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_override#override_values ClusterOverride#override_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_override#override_values ClusterOverride#override_values}
   */
   readonly overrideValues?: string;
   /**
   * resource selector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_override#resource_selector ClusterOverride#resource_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_override#resource_selector ClusterOverride#resource_selector}
   */
   readonly resourceSelector?: string;
   /**
   * override type, accepted values are *ClusterOverrideTypeWorkload*, *ClusterOverrideTypeAddon* , *ClusterOverrideTypeWorkloadSetting*, *ClusterOverrideTypeAddonSetting* and *ClusterOverrideTypeClusterQuota*
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_override#type ClusterOverride#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_override#type ClusterOverride#type}
   */
   readonly type?: string;
   /**
   * value repo ref
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_override#value_repo_ref ClusterOverride#value_repo_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_override#value_repo_ref ClusterOverride#value_repo_ref}
   */
   readonly valueRepoRef?: string;
   /**
   * cluster_placement block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_override#cluster_placement ClusterOverride#cluster_placement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_override#cluster_placement ClusterOverride#cluster_placement}
   */
   readonly clusterPlacement?: ClusterOverrideSpecClusterPlacement;
   /**
   * sharing block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_override#sharing ClusterOverride#sharing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_override#sharing ClusterOverride#sharing}
   */
   readonly sharing?: ClusterOverrideSpecSharing;
   /**
   * values_repo_artifact_meta block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_override#values_repo_artifact_meta ClusterOverride#values_repo_artifact_meta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_override#values_repo_artifact_meta ClusterOverride#values_repo_artifact_meta}
   */
   readonly valuesRepoArtifactMeta?: ClusterOverrideSpecValuesRepoArtifactMeta;
 }
@@ -1860,15 +1860,15 @@ export class ClusterOverrideSpecOutputReference extends cdktf.ComplexObject {
 }
 export interface ClusterOverrideTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_override#create ClusterOverride#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_override#create ClusterOverride#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_override#delete ClusterOverride#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_override#delete ClusterOverride#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_override#update ClusterOverride#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_override#update ClusterOverride#update}
   */
   readonly update?: string;
 }
@@ -2020,7 +2020,7 @@ export class ClusterOverrideTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_override rafay_cluster_override}
+* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_override rafay_cluster_override}
 */
 export class ClusterOverride extends cdktf.TerraformResource {
 
@@ -2036,7 +2036,7 @@ export class ClusterOverride extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ClusterOverride resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClusterOverride to import
-  * @param importFromId The id of the existing ClusterOverride that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_override#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClusterOverride that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_override#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClusterOverride to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2048,7 +2048,7 @@ export class ClusterOverride extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_override rafay_cluster_override} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_override rafay_cluster_override} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2059,7 +2059,8 @@ export class ClusterOverride extends cdktf.TerraformResource {
       terraformResourceType: 'rafay_cluster_override',
       terraformGeneratorMetadata: {
         providerName: 'rafay',
-        providerVersion: '1.1.52'
+        providerVersion: '1.1.53',
+        providerVersionConstraint: '1.1.53'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

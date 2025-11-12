@@ -79,7 +79,8 @@ export class FabricL2Handoff extends cdktf.TerraformResource {
       terraformResourceType: 'catalystcenter_fabric_l2_handoff',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.2'
+        providerVersion: '0.4.2',
+        providerVersionConstraint: '0.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -224,7 +224,8 @@ export class SelfServeGroupMembers extends cdktf.TerraformResource {
       terraformResourceType: 'athenz_self_serve_group_members',
       terraformGeneratorMetadata: {
         providerName: 'athenz',
-        providerVersion: '1.0.49'
+        providerVersion: '1.0.49',
+        providerVersionConstraint: '1.0.49'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

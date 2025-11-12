@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor
+// https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,178 +8,178 @@ import * as cdktf from 'cdktf';
 
 export interface MonitorConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#alert_name Monitor#alert_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#alert_name Monitor#alert_name}
   */
   readonly alertName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#automated_playbook_ids Monitor#automated_playbook_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#automated_playbook_ids Monitor#automated_playbook_ids}
   */
   readonly automatedPlaybookIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#content_type Monitor#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#content_type Monitor#content_type}
   */
   readonly contentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#created_at Monitor#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#created_at Monitor#created_at}
   */
   readonly createdAt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#created_by Monitor#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#created_by Monitor#created_by}
   */
   readonly createdBy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#description Monitor#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#description Monitor#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#evaluation_delay Monitor#evaluation_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#evaluation_delay Monitor#evaluation_delay}
   */
   readonly evaluationDelay?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#group_notifications Monitor#group_notifications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#group_notifications Monitor#group_notifications}
   */
   readonly groupNotifications?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#id Monitor#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#id Monitor#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#is_disabled Monitor#is_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#is_disabled Monitor#is_disabled}
   */
   readonly isDisabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#is_locked Monitor#is_locked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#is_locked Monitor#is_locked}
   */
   readonly isLocked?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#is_mutable Monitor#is_mutable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#is_mutable Monitor#is_mutable}
   */
   readonly isMutable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#is_system Monitor#is_system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#is_system Monitor#is_system}
   */
   readonly isSystem?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#modified_at Monitor#modified_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#modified_at Monitor#modified_at}
   */
   readonly modifiedAt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#modified_by Monitor#modified_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#modified_by Monitor#modified_by}
   */
   readonly modifiedBy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#monitor_type Monitor#monitor_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#monitor_type Monitor#monitor_type}
   */
   readonly monitorType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#name Monitor#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#name Monitor#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#notification_group_fields Monitor#notification_group_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#notification_group_fields Monitor#notification_group_fields}
   */
   readonly notificationGroupFields?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#parent_id Monitor#parent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#parent_id Monitor#parent_id}
   */
   readonly parentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#playbook Monitor#playbook}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#playbook Monitor#playbook}
   */
   readonly playbook?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#post_request_map Monitor#post_request_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#post_request_map Monitor#post_request_map}
   */
   readonly postRequestMap?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#slo_id Monitor#slo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#slo_id Monitor#slo_id}
   */
   readonly sloId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#tags Monitor#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#tags Monitor#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#time_zone Monitor#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#time_zone Monitor#time_zone}
   */
   readonly timeZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#type Monitor#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#type Monitor#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#version Monitor#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#version Monitor#version}
   */
   readonly version?: number;
   /**
   * notifications block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#notifications Monitor#notifications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#notifications Monitor#notifications}
   */
   readonly notifications?: MonitorNotifications[] | cdktf.IResolvable;
   /**
   * obj_permission block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#obj_permission Monitor#obj_permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#obj_permission Monitor#obj_permission}
   */
   readonly objPermission?: MonitorObjPermission[] | cdktf.IResolvable;
   /**
   * queries block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#queries Monitor#queries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#queries Monitor#queries}
   */
   readonly queries?: MonitorQueries[] | cdktf.IResolvable;
   /**
   * trigger_conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#trigger_conditions Monitor#trigger_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#trigger_conditions Monitor#trigger_conditions}
   */
   readonly triggerConditions?: MonitorTriggerConditions;
   /**
   * triggers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#triggers Monitor#triggers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#triggers Monitor#triggers}
   */
   readonly triggers?: MonitorTriggers[] | cdktf.IResolvable;
 }
 export interface MonitorNotificationsNotification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#action_type Monitor#action_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#action_type Monitor#action_type}
   */
   readonly actionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#connection_id Monitor#connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#connection_id Monitor#connection_id}
   */
   readonly connectionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#connection_type Monitor#connection_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#connection_type Monitor#connection_type}
   */
   readonly connectionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#message_body Monitor#message_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#message_body Monitor#message_body}
   */
   readonly messageBody?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#payload_override Monitor#payload_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#payload_override Monitor#payload_override}
   */
   readonly payloadOverride?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#recipients Monitor#recipients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#recipients Monitor#recipients}
   */
   readonly recipients?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#resolution_payload_override Monitor#resolution_payload_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#resolution_payload_override Monitor#resolution_payload_override}
   */
   readonly resolutionPayloadOverride?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#subject Monitor#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#subject Monitor#subject}
   */
   readonly subject?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#time_zone Monitor#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#time_zone Monitor#time_zone}
   */
   readonly timeZone?: string;
 }
@@ -495,13 +495,13 @@ export class MonitorNotificationsNotificationOutputReference extends cdktf.Compl
 }
 export interface MonitorNotifications {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#run_for_trigger_types Monitor#run_for_trigger_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#run_for_trigger_types Monitor#run_for_trigger_types}
   */
   readonly runForTriggerTypes: string[];
   /**
   * notification block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#notification Monitor#notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#notification Monitor#notification}
   */
   readonly notification: MonitorNotificationsNotification;
 }
@@ -640,15 +640,15 @@ export class MonitorNotificationsList extends cdktf.ComplexList {
 }
 export interface MonitorObjPermission {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#permissions Monitor#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#permissions Monitor#permissions}
   */
   readonly permissions: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#subject_id Monitor#subject_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#subject_id Monitor#subject_id}
   */
   readonly subjectId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#subject_type Monitor#subject_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#subject_type Monitor#subject_type}
   */
   readonly subjectType: string;
 }
@@ -813,11 +813,11 @@ export class MonitorObjPermissionList extends cdktf.ComplexList {
 }
 export interface MonitorQueries {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#query Monitor#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#query Monitor#query}
   */
   readonly query: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#row_id Monitor#row_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#row_id Monitor#row_id}
   */
   readonly rowId: string;
 }
@@ -956,15 +956,15 @@ export class MonitorQueriesList extends cdktf.ComplexList {
 }
 export interface MonitorTriggerConditionsLogsAnomalyConditionCritical {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#min_anomaly_count Monitor#min_anomaly_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#min_anomaly_count Monitor#min_anomaly_count}
   */
   readonly minAnomalyCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#sensitivity Monitor#sensitivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#sensitivity Monitor#sensitivity}
   */
   readonly sensitivity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#time_range Monitor#time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#time_range Monitor#time_range}
   */
   readonly timeRange: string;
 }
@@ -1103,21 +1103,21 @@ export class MonitorTriggerConditionsLogsAnomalyConditionCriticalOutputReference
 }
 export interface MonitorTriggerConditionsLogsAnomalyCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#anomaly_detector_type Monitor#anomaly_detector_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#anomaly_detector_type Monitor#anomaly_detector_type}
   */
   readonly anomalyDetectorType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#direction Monitor#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#direction Monitor#direction}
   */
   readonly direction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#field Monitor#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#field Monitor#field}
   */
   readonly field: string;
   /**
   * critical block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#critical Monitor#critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#critical Monitor#critical}
   */
   readonly critical: MonitorTriggerConditionsLogsAnomalyConditionCritical;
 }
@@ -1279,11 +1279,11 @@ export class MonitorTriggerConditionsLogsAnomalyConditionOutputReference extends
 }
 export interface MonitorTriggerConditionsLogsMissingDataCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#frequency Monitor#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#frequency Monitor#frequency}
   */
   readonly frequency?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#time_range Monitor#time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#time_range Monitor#time_range}
   */
   readonly timeRange: string;
 }
@@ -1393,15 +1393,15 @@ export class MonitorTriggerConditionsLogsMissingDataConditionOutputReference ext
 }
 export interface MonitorTriggerConditionsLogsOutlierConditionCritical {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#consecutive Monitor#consecutive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#consecutive Monitor#consecutive}
   */
   readonly consecutive?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#threshold Monitor#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#threshold Monitor#threshold}
   */
   readonly threshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#window Monitor#window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#window Monitor#window}
   */
   readonly window?: number;
 }
@@ -1543,15 +1543,15 @@ export class MonitorTriggerConditionsLogsOutlierConditionCriticalOutputReference
 }
 export interface MonitorTriggerConditionsLogsOutlierConditionWarning {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#consecutive Monitor#consecutive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#consecutive Monitor#consecutive}
   */
   readonly consecutive?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#threshold Monitor#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#threshold Monitor#threshold}
   */
   readonly threshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#window Monitor#window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#window Monitor#window}
   */
   readonly window?: number;
 }
@@ -1693,23 +1693,23 @@ export class MonitorTriggerConditionsLogsOutlierConditionWarningOutputReference 
 }
 export interface MonitorTriggerConditionsLogsOutlierCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#direction Monitor#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#direction Monitor#direction}
   */
   readonly direction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#field Monitor#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#field Monitor#field}
   */
   readonly field?: string;
   /**
   * critical block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#critical Monitor#critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#critical Monitor#critical}
   */
   readonly critical?: MonitorTriggerConditionsLogsOutlierConditionCritical;
   /**
   * warning block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#warning Monitor#warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#warning Monitor#warning}
   */
   readonly warning?: MonitorTriggerConditionsLogsOutlierConditionWarning;
 }
@@ -1880,11 +1880,11 @@ export class MonitorTriggerConditionsLogsOutlierConditionOutputReference extends
 }
 export interface MonitorTriggerConditionsLogsStaticConditionCriticalAlert {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#threshold Monitor#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#threshold Monitor#threshold}
   */
   readonly threshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#threshold_type Monitor#threshold_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#threshold_type Monitor#threshold_type}
   */
   readonly thresholdType?: string;
 }
@@ -1997,15 +1997,15 @@ export class MonitorTriggerConditionsLogsStaticConditionCriticalAlertOutputRefer
 }
 export interface MonitorTriggerConditionsLogsStaticConditionCriticalResolution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#resolution_window Monitor#resolution_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#resolution_window Monitor#resolution_window}
   */
   readonly resolutionWindow?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#threshold Monitor#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#threshold Monitor#threshold}
   */
   readonly threshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#threshold_type Monitor#threshold_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#threshold_type Monitor#threshold_type}
   */
   readonly thresholdType?: string;
 }
@@ -2147,23 +2147,23 @@ export class MonitorTriggerConditionsLogsStaticConditionCriticalResolutionOutput
 }
 export interface MonitorTriggerConditionsLogsStaticConditionCritical {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#frequency Monitor#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#frequency Monitor#frequency}
   */
   readonly frequency?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#time_range Monitor#time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#time_range Monitor#time_range}
   */
   readonly timeRange: string;
   /**
   * alert block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#alert Monitor#alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#alert Monitor#alert}
   */
   readonly alert: MonitorTriggerConditionsLogsStaticConditionCriticalAlert;
   /**
   * resolution block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#resolution Monitor#resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#resolution Monitor#resolution}
   */
   readonly resolution: MonitorTriggerConditionsLogsStaticConditionCriticalResolution;
 }
@@ -2325,11 +2325,11 @@ export class MonitorTriggerConditionsLogsStaticConditionCriticalOutputReference 
 }
 export interface MonitorTriggerConditionsLogsStaticConditionWarningAlert {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#threshold Monitor#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#threshold Monitor#threshold}
   */
   readonly threshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#threshold_type Monitor#threshold_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#threshold_type Monitor#threshold_type}
   */
   readonly thresholdType?: string;
 }
@@ -2442,15 +2442,15 @@ export class MonitorTriggerConditionsLogsStaticConditionWarningAlertOutputRefere
 }
 export interface MonitorTriggerConditionsLogsStaticConditionWarningResolution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#resolution_window Monitor#resolution_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#resolution_window Monitor#resolution_window}
   */
   readonly resolutionWindow?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#threshold Monitor#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#threshold Monitor#threshold}
   */
   readonly threshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#threshold_type Monitor#threshold_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#threshold_type Monitor#threshold_type}
   */
   readonly thresholdType?: string;
 }
@@ -2592,23 +2592,23 @@ export class MonitorTriggerConditionsLogsStaticConditionWarningResolutionOutputR
 }
 export interface MonitorTriggerConditionsLogsStaticConditionWarning {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#frequency Monitor#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#frequency Monitor#frequency}
   */
   readonly frequency?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#time_range Monitor#time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#time_range Monitor#time_range}
   */
   readonly timeRange: string;
   /**
   * alert block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#alert Monitor#alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#alert Monitor#alert}
   */
   readonly alert: MonitorTriggerConditionsLogsStaticConditionWarningAlert;
   /**
   * resolution block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#resolution Monitor#resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#resolution Monitor#resolution}
   */
   readonly resolution: MonitorTriggerConditionsLogsStaticConditionWarningResolution;
 }
@@ -2770,19 +2770,19 @@ export class MonitorTriggerConditionsLogsStaticConditionWarningOutputReference e
 }
 export interface MonitorTriggerConditionsLogsStaticCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#field Monitor#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#field Monitor#field}
   */
   readonly field?: string;
   /**
   * critical block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#critical Monitor#critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#critical Monitor#critical}
   */
   readonly critical?: MonitorTriggerConditionsLogsStaticConditionCritical;
   /**
   * warning block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#warning Monitor#warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#warning Monitor#warning}
   */
   readonly warning?: MonitorTriggerConditionsLogsStaticConditionWarning;
 }
@@ -2924,15 +2924,15 @@ export class MonitorTriggerConditionsLogsStaticConditionOutputReference extends 
 }
 export interface MonitorTriggerConditionsMetricsAnomalyConditionCritical {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#min_anomaly_count Monitor#min_anomaly_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#min_anomaly_count Monitor#min_anomaly_count}
   */
   readonly minAnomalyCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#sensitivity Monitor#sensitivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#sensitivity Monitor#sensitivity}
   */
   readonly sensitivity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#time_range Monitor#time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#time_range Monitor#time_range}
   */
   readonly timeRange: string;
 }
@@ -3071,17 +3071,17 @@ export class MonitorTriggerConditionsMetricsAnomalyConditionCriticalOutputRefere
 }
 export interface MonitorTriggerConditionsMetricsAnomalyCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#anomaly_detector_type Monitor#anomaly_detector_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#anomaly_detector_type Monitor#anomaly_detector_type}
   */
   readonly anomalyDetectorType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#direction Monitor#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#direction Monitor#direction}
   */
   readonly direction?: string;
   /**
   * critical block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#critical Monitor#critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#critical Monitor#critical}
   */
   readonly critical: MonitorTriggerConditionsMetricsAnomalyConditionCritical;
 }
@@ -3217,11 +3217,11 @@ export class MonitorTriggerConditionsMetricsAnomalyConditionOutputReference exte
 }
 export interface MonitorTriggerConditionsMetricsMissingDataCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#time_range Monitor#time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#time_range Monitor#time_range}
   */
   readonly timeRange: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#trigger_source Monitor#trigger_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#trigger_source Monitor#trigger_source}
   */
   readonly triggerSource: string;
 }
@@ -3328,11 +3328,11 @@ export class MonitorTriggerConditionsMetricsMissingDataConditionOutputReference 
 }
 export interface MonitorTriggerConditionsMetricsOutlierConditionCritical {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#baseline_window Monitor#baseline_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#baseline_window Monitor#baseline_window}
   */
   readonly baselineWindow?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#threshold Monitor#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#threshold Monitor#threshold}
   */
   readonly threshold?: number;
 }
@@ -3445,11 +3445,11 @@ export class MonitorTriggerConditionsMetricsOutlierConditionCriticalOutputRefere
 }
 export interface MonitorTriggerConditionsMetricsOutlierConditionWarning {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#baseline_window Monitor#baseline_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#baseline_window Monitor#baseline_window}
   */
   readonly baselineWindow?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#threshold Monitor#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#threshold Monitor#threshold}
   */
   readonly threshold?: number;
 }
@@ -3562,19 +3562,19 @@ export class MonitorTriggerConditionsMetricsOutlierConditionWarningOutputReferen
 }
 export interface MonitorTriggerConditionsMetricsOutlierCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#direction Monitor#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#direction Monitor#direction}
   */
   readonly direction?: string;
   /**
   * critical block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#critical Monitor#critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#critical Monitor#critical}
   */
   readonly critical?: MonitorTriggerConditionsMetricsOutlierConditionCritical;
   /**
   * warning block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#warning Monitor#warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#warning Monitor#warning}
   */
   readonly warning?: MonitorTriggerConditionsMetricsOutlierConditionWarning;
 }
@@ -3716,15 +3716,15 @@ export class MonitorTriggerConditionsMetricsOutlierConditionOutputReference exte
 }
 export interface MonitorTriggerConditionsMetricsStaticConditionCriticalAlert {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#min_data_points Monitor#min_data_points}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#min_data_points Monitor#min_data_points}
   */
   readonly minDataPoints?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#threshold Monitor#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#threshold Monitor#threshold}
   */
   readonly threshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#threshold_type Monitor#threshold_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#threshold_type Monitor#threshold_type}
   */
   readonly thresholdType?: string;
 }
@@ -3866,19 +3866,19 @@ export class MonitorTriggerConditionsMetricsStaticConditionCriticalAlertOutputRe
 }
 export interface MonitorTriggerConditionsMetricsStaticConditionCriticalResolution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#min_data_points Monitor#min_data_points}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#min_data_points Monitor#min_data_points}
   */
   readonly minDataPoints?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#occurrence_type Monitor#occurrence_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#occurrence_type Monitor#occurrence_type}
   */
   readonly occurrenceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#threshold Monitor#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#threshold Monitor#threshold}
   */
   readonly threshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#threshold_type Monitor#threshold_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#threshold_type Monitor#threshold_type}
   */
   readonly thresholdType?: string;
 }
@@ -4049,23 +4049,23 @@ export class MonitorTriggerConditionsMetricsStaticConditionCriticalResolutionOut
 }
 export interface MonitorTriggerConditionsMetricsStaticConditionCritical {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#occurrence_type Monitor#occurrence_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#occurrence_type Monitor#occurrence_type}
   */
   readonly occurrenceType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#time_range Monitor#time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#time_range Monitor#time_range}
   */
   readonly timeRange: string;
   /**
   * alert block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#alert Monitor#alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#alert Monitor#alert}
   */
   readonly alert: MonitorTriggerConditionsMetricsStaticConditionCriticalAlert;
   /**
   * resolution block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#resolution Monitor#resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#resolution Monitor#resolution}
   */
   readonly resolution: MonitorTriggerConditionsMetricsStaticConditionCriticalResolution;
 }
@@ -4224,15 +4224,15 @@ export class MonitorTriggerConditionsMetricsStaticConditionCriticalOutputReferen
 }
 export interface MonitorTriggerConditionsMetricsStaticConditionWarningAlert {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#min_data_points Monitor#min_data_points}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#min_data_points Monitor#min_data_points}
   */
   readonly minDataPoints?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#threshold Monitor#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#threshold Monitor#threshold}
   */
   readonly threshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#threshold_type Monitor#threshold_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#threshold_type Monitor#threshold_type}
   */
   readonly thresholdType?: string;
 }
@@ -4374,19 +4374,19 @@ export class MonitorTriggerConditionsMetricsStaticConditionWarningAlertOutputRef
 }
 export interface MonitorTriggerConditionsMetricsStaticConditionWarningResolution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#min_data_points Monitor#min_data_points}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#min_data_points Monitor#min_data_points}
   */
   readonly minDataPoints?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#occurrence_type Monitor#occurrence_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#occurrence_type Monitor#occurrence_type}
   */
   readonly occurrenceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#threshold Monitor#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#threshold Monitor#threshold}
   */
   readonly threshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#threshold_type Monitor#threshold_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#threshold_type Monitor#threshold_type}
   */
   readonly thresholdType?: string;
 }
@@ -4557,23 +4557,23 @@ export class MonitorTriggerConditionsMetricsStaticConditionWarningResolutionOutp
 }
 export interface MonitorTriggerConditionsMetricsStaticConditionWarning {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#occurrence_type Monitor#occurrence_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#occurrence_type Monitor#occurrence_type}
   */
   readonly occurrenceType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#time_range Monitor#time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#time_range Monitor#time_range}
   */
   readonly timeRange: string;
   /**
   * alert block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#alert Monitor#alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#alert Monitor#alert}
   */
   readonly alert: MonitorTriggerConditionsMetricsStaticConditionWarningAlert;
   /**
   * resolution block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#resolution Monitor#resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#resolution Monitor#resolution}
   */
   readonly resolution: MonitorTriggerConditionsMetricsStaticConditionWarningResolution;
 }
@@ -4734,13 +4734,13 @@ export interface MonitorTriggerConditionsMetricsStaticCondition {
   /**
   * critical block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#critical Monitor#critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#critical Monitor#critical}
   */
   readonly critical?: MonitorTriggerConditionsMetricsStaticConditionCritical;
   /**
   * warning block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#warning Monitor#warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#warning Monitor#warning}
   */
   readonly warning?: MonitorTriggerConditionsMetricsStaticConditionWarning;
 }
@@ -4853,11 +4853,11 @@ export class MonitorTriggerConditionsMetricsStaticConditionOutputReference exten
 }
 export interface MonitorTriggerConditionsSloBurnRateConditionCriticalBurnRate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#burn_rate_threshold Monitor#burn_rate_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#burn_rate_threshold Monitor#burn_rate_threshold}
   */
   readonly burnRateThreshold: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#time_range Monitor#time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#time_range Monitor#time_range}
   */
   readonly timeRange: string;
 }
@@ -4996,17 +4996,17 @@ export class MonitorTriggerConditionsSloBurnRateConditionCriticalBurnRateList ex
 }
 export interface MonitorTriggerConditionsSloBurnRateConditionCritical {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#burn_rate_threshold Monitor#burn_rate_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#burn_rate_threshold Monitor#burn_rate_threshold}
   */
   readonly burnRateThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#time_range Monitor#time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#time_range Monitor#time_range}
   */
   readonly timeRange?: string;
   /**
   * burn_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#burn_rate Monitor#burn_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#burn_rate Monitor#burn_rate}
   */
   readonly burnRate?: MonitorTriggerConditionsSloBurnRateConditionCriticalBurnRate[] | cdktf.IResolvable;
 }
@@ -5148,11 +5148,11 @@ export class MonitorTriggerConditionsSloBurnRateConditionCriticalOutputReference
 }
 export interface MonitorTriggerConditionsSloBurnRateConditionWarningBurnRate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#burn_rate_threshold Monitor#burn_rate_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#burn_rate_threshold Monitor#burn_rate_threshold}
   */
   readonly burnRateThreshold: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#time_range Monitor#time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#time_range Monitor#time_range}
   */
   readonly timeRange: string;
 }
@@ -5291,17 +5291,17 @@ export class MonitorTriggerConditionsSloBurnRateConditionWarningBurnRateList ext
 }
 export interface MonitorTriggerConditionsSloBurnRateConditionWarning {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#burn_rate_threshold Monitor#burn_rate_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#burn_rate_threshold Monitor#burn_rate_threshold}
   */
   readonly burnRateThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#time_range Monitor#time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#time_range Monitor#time_range}
   */
   readonly timeRange?: string;
   /**
   * burn_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#burn_rate Monitor#burn_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#burn_rate Monitor#burn_rate}
   */
   readonly burnRate?: MonitorTriggerConditionsSloBurnRateConditionWarningBurnRate[] | cdktf.IResolvable;
 }
@@ -5445,13 +5445,13 @@ export interface MonitorTriggerConditionsSloBurnRateCondition {
   /**
   * critical block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#critical Monitor#critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#critical Monitor#critical}
   */
   readonly critical?: MonitorTriggerConditionsSloBurnRateConditionCritical;
   /**
   * warning block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#warning Monitor#warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#warning Monitor#warning}
   */
   readonly warning?: MonitorTriggerConditionsSloBurnRateConditionWarning;
 }
@@ -5564,7 +5564,7 @@ export class MonitorTriggerConditionsSloBurnRateConditionOutputReference extends
 }
 export interface MonitorTriggerConditionsSloSliConditionCritical {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#sli_threshold Monitor#sli_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#sli_threshold Monitor#sli_threshold}
   */
   readonly sliThreshold: number;
 }
@@ -5645,7 +5645,7 @@ export class MonitorTriggerConditionsSloSliConditionCriticalOutputReference exte
 }
 export interface MonitorTriggerConditionsSloSliConditionWarning {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#sli_threshold Monitor#sli_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#sli_threshold Monitor#sli_threshold}
   */
   readonly sliThreshold: number;
 }
@@ -5728,13 +5728,13 @@ export interface MonitorTriggerConditionsSloSliCondition {
   /**
   * critical block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#critical Monitor#critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#critical Monitor#critical}
   */
   readonly critical?: MonitorTriggerConditionsSloSliConditionCritical;
   /**
   * warning block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#warning Monitor#warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#warning Monitor#warning}
   */
   readonly warning?: MonitorTriggerConditionsSloSliConditionWarning;
 }
@@ -5849,61 +5849,61 @@ export interface MonitorTriggerConditions {
   /**
   * logs_anomaly_condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#logs_anomaly_condition Monitor#logs_anomaly_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#logs_anomaly_condition Monitor#logs_anomaly_condition}
   */
   readonly logsAnomalyCondition?: MonitorTriggerConditionsLogsAnomalyCondition;
   /**
   * logs_missing_data_condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#logs_missing_data_condition Monitor#logs_missing_data_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#logs_missing_data_condition Monitor#logs_missing_data_condition}
   */
   readonly logsMissingDataCondition?: MonitorTriggerConditionsLogsMissingDataCondition;
   /**
   * logs_outlier_condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#logs_outlier_condition Monitor#logs_outlier_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#logs_outlier_condition Monitor#logs_outlier_condition}
   */
   readonly logsOutlierCondition?: MonitorTriggerConditionsLogsOutlierCondition;
   /**
   * logs_static_condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#logs_static_condition Monitor#logs_static_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#logs_static_condition Monitor#logs_static_condition}
   */
   readonly logsStaticCondition?: MonitorTriggerConditionsLogsStaticCondition;
   /**
   * metrics_anomaly_condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#metrics_anomaly_condition Monitor#metrics_anomaly_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#metrics_anomaly_condition Monitor#metrics_anomaly_condition}
   */
   readonly metricsAnomalyCondition?: MonitorTriggerConditionsMetricsAnomalyCondition;
   /**
   * metrics_missing_data_condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#metrics_missing_data_condition Monitor#metrics_missing_data_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#metrics_missing_data_condition Monitor#metrics_missing_data_condition}
   */
   readonly metricsMissingDataCondition?: MonitorTriggerConditionsMetricsMissingDataCondition;
   /**
   * metrics_outlier_condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#metrics_outlier_condition Monitor#metrics_outlier_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#metrics_outlier_condition Monitor#metrics_outlier_condition}
   */
   readonly metricsOutlierCondition?: MonitorTriggerConditionsMetricsOutlierCondition;
   /**
   * metrics_static_condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#metrics_static_condition Monitor#metrics_static_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#metrics_static_condition Monitor#metrics_static_condition}
   */
   readonly metricsStaticCondition?: MonitorTriggerConditionsMetricsStaticCondition;
   /**
   * slo_burn_rate_condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#slo_burn_rate_condition Monitor#slo_burn_rate_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#slo_burn_rate_condition Monitor#slo_burn_rate_condition}
   */
   readonly sloBurnRateCondition?: MonitorTriggerConditionsSloBurnRateCondition;
   /**
   * slo_sli_condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#slo_sli_condition Monitor#slo_sli_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#slo_sli_condition Monitor#slo_sli_condition}
   */
   readonly sloSliCondition?: MonitorTriggerConditionsSloSliCondition;
 }
@@ -6248,43 +6248,43 @@ export class MonitorTriggerConditionsOutputReference extends cdktf.ComplexObject
 }
 export interface MonitorTriggers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#detection_method Monitor#detection_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#detection_method Monitor#detection_method}
   */
   readonly detectionMethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#frequency Monitor#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#frequency Monitor#frequency}
   */
   readonly frequency?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#min_data_points Monitor#min_data_points}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#min_data_points Monitor#min_data_points}
   */
   readonly minDataPoints?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#occurrence_type Monitor#occurrence_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#occurrence_type Monitor#occurrence_type}
   */
   readonly occurrenceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#resolution_window Monitor#resolution_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#resolution_window Monitor#resolution_window}
   */
   readonly resolutionWindow?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#threshold Monitor#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#threshold Monitor#threshold}
   */
   readonly threshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#threshold_type Monitor#threshold_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#threshold_type Monitor#threshold_type}
   */
   readonly thresholdType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#time_range Monitor#time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#time_range Monitor#time_range}
   */
   readonly timeRange: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#trigger_source Monitor#trigger_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#trigger_source Monitor#trigger_source}
   */
   readonly triggerSource?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#trigger_type Monitor#trigger_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#trigger_type Monitor#trigger_type}
   */
   readonly triggerType?: string;
 }
@@ -6658,7 +6658,7 @@ export class MonitorTriggersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor sumologic_monitor}
+* Represents a {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor sumologic_monitor}
 */
 export class Monitor extends cdktf.TerraformResource {
 
@@ -6674,7 +6674,7 @@ export class Monitor extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Monitor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Monitor to import
-  * @param importFromId The id of the existing Monitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Monitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Monitor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6686,7 +6686,7 @@ export class Monitor extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/monitor sumologic_monitor} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/monitor sumologic_monitor} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6697,7 +6697,8 @@ export class Monitor extends cdktf.TerraformResource {
       terraformResourceType: 'sumologic_monitor',
       terraformGeneratorMetadata: {
         providerName: 'sumologic',
-        providerVersion: '3.1.7'
+        providerVersion: '3.1.8',
+        providerVersionConstraint: '3.1.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

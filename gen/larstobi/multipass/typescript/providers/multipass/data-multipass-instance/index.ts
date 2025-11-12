@@ -55,7 +55,8 @@ export class DataMultipassInstance extends cdktf.TerraformDataSource {
       terraformResourceType: 'multipass_instance',
       terraformGeneratorMetadata: {
         providerName: 'multipass',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

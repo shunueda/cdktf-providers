@@ -442,7 +442,8 @@ export class CredentialToSiteBySiteidCreateV2 extends cdktf.TerraformResource {
       terraformResourceType: 'dnacenter_credential_to_site_by_siteid_create_v2',
       terraformGeneratorMetadata: {
         providerName: 'dnacenter',
-        providerVersion: '1.1.21'
+        providerVersion: '1.1.21',
+        providerVersionConstraint: '1.1.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

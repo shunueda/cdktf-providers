@@ -1,3 +1,3 @@
 # `routeros_firewall_nat`
 
-Refer to the Terraform Registry for docs: [`routeros_firewall_nat`](https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/firewall_nat).
+Refer to the Terraform Registry for docs: [`routeros_firewall_nat`](https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/firewall_nat).

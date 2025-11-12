@@ -470,7 +470,8 @@ export class DataZpaPolicyType extends cdktf.TerraformDataSource {
       terraformResourceType: 'zpa_policy_type',
       terraformGeneratorMetadata: {
         providerName: 'zpa',
-        providerVersion: '4.3.2'
+        providerVersion: '4.3.2',
+        providerVersionConstraint: '4.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

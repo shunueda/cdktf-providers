@@ -483,7 +483,8 @@ export class DataK8SZookeeperStackableTechZookeeperZnodeV1Alpha1Manifest extends
       terraformResourceType: 'k8s_zookeeper_stackable_tech_zookeeper_znode_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

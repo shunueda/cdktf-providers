@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner
+// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface InfraProvisionerConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#id InfraProvisioner#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#id InfraProvisioner#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface InfraProvisionerConfig extends cdktf.TerraformMetaArguments {
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#metadata InfraProvisioner#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#metadata InfraProvisioner#metadata}
   */
   readonly metadata?: InfraProvisionerMetadata;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#spec InfraProvisioner#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#spec InfraProvisioner#spec}
   */
   readonly spec?: InfraProvisionerSpec;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#timeouts InfraProvisioner#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#timeouts InfraProvisioner#timeouts}
   */
   readonly timeouts?: InfraProvisionerTimeouts;
 }
@@ -37,7 +37,7 @@ export interface InfraProvisionerMetadataCreatedBy {
   /**
   * Id of the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#id InfraProvisioner#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#id InfraProvisioner#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -46,13 +46,13 @@ export interface InfraProvisionerMetadataCreatedBy {
   /**
   * Whether person is logged in using sso
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#is_sso_user InfraProvisioner#is_sso_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#is_sso_user InfraProvisioner#is_sso_user}
   */
   readonly isSsoUser?: boolean | cdktf.IResolvable;
   /**
   * Username fo the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#username InfraProvisioner#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#username InfraProvisioner#username}
   */
   readonly username?: string;
 }
@@ -196,7 +196,7 @@ export interface InfraProvisionerMetadataModifiedBy {
   /**
   * Id of the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#id InfraProvisioner#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#id InfraProvisioner#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -205,13 +205,13 @@ export interface InfraProvisionerMetadataModifiedBy {
   /**
   * Whether person is logged in using sso
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#is_sso_user InfraProvisioner#is_sso_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#is_sso_user InfraProvisioner#is_sso_user}
   */
   readonly isSsoUser?: boolean | cdktf.IResolvable;
   /**
   * Username fo the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#username InfraProvisioner#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#username InfraProvisioner#username}
   */
   readonly username?: string;
 }
@@ -355,49 +355,49 @@ export interface InfraProvisionerMetadata {
   /**
   * annotations of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#annotations InfraProvisioner#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#annotations InfraProvisioner#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * description of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#description InfraProvisioner#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#description InfraProvisioner#description}
   */
   readonly description?: string;
   /**
   * Display Name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#display_name InfraProvisioner#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#display_name InfraProvisioner#display_name}
   */
   readonly displayName?: string;
   /**
   * labels of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#labels InfraProvisioner#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#labels InfraProvisioner#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#name InfraProvisioner#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#name InfraProvisioner#name}
   */
   readonly name?: string;
   /**
   * Project of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#project InfraProvisioner#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#project InfraProvisioner#project}
   */
   readonly project?: string;
   /**
   * created_by block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#created_by InfraProvisioner#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#created_by InfraProvisioner#created_by}
   */
   readonly createdBy?: InfraProvisionerMetadataCreatedBy;
   /**
   * modified_by block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#modified_by InfraProvisioner#modified_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#modified_by InfraProvisioner#modified_by}
   */
   readonly modifiedBy?: InfraProvisionerMetadataModifiedBy;
 }
@@ -686,7 +686,7 @@ export interface InfraProvisionerSpecConfigBackendFilePathOptionsOverride {
   /**
   * Specify the type of override this file supports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#type InfraProvisioner#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#type InfraProvisioner#type}
   */
   readonly type?: string;
 }
@@ -772,13 +772,13 @@ export interface InfraProvisionerSpecConfigBackendFilePathOptionsSchema {
   /**
   * JSONSchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#jsonschema InfraProvisioner#jsonschema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#jsonschema InfraProvisioner#jsonschema}
   */
   readonly jsonschema?: string;
   /**
   * UISchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#uischema InfraProvisioner#uischema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#uischema InfraProvisioner#uischema}
   */
   readonly uischema?: string;
 }
@@ -893,37 +893,37 @@ export interface InfraProvisionerSpecConfigBackendFilePathOptions {
   /**
   * Description of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#description InfraProvisioner#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#description InfraProvisioner#description}
   */
   readonly description?: string;
   /**
   * Display metadata to render file on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#display_metadata InfraProvisioner#display_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#display_metadata InfraProvisioner#display_metadata}
   */
   readonly displayMetadata?: string;
   /**
   * Determines whether the file is required / mandatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#required InfraProvisioner#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#required InfraProvisioner#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#sensitive InfraProvisioner#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#sensitive InfraProvisioner#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#override InfraProvisioner#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#override InfraProvisioner#override}
   */
   readonly override?: InfraProvisionerSpecConfigBackendFilePathOptionsOverride;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#schema InfraProvisioner#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#schema InfraProvisioner#schema}
   */
   readonly schema?: InfraProvisionerSpecConfigBackendFilePathOptionsSchema;
 }
@@ -1154,31 +1154,31 @@ export interface InfraProvisionerSpecConfigBackendFilePath {
   /**
   * data is the base64 encoded contents of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#data InfraProvisioner#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#data InfraProvisioner#data}
   */
   readonly data?: string;
   /**
   * specify mount path of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#mount_path InfraProvisioner#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#mount_path InfraProvisioner#mount_path}
   */
   readonly mountPath?: string;
   /**
   * Name or relative path of a artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#name InfraProvisioner#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#name InfraProvisioner#name}
   */
   readonly name?: string;
   /**
   * Deprected: use options.sensitive. data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#sensitive InfraProvisioner#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#sensitive InfraProvisioner#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#options InfraProvisioner#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#options InfraProvisioner#options}
   */
   readonly options?: InfraProvisionerSpecConfigBackendFilePathOptions;
 }
@@ -1380,19 +1380,19 @@ export interface InfraProvisionerSpecConfigBackendVars {
   /**
   * variable key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#key InfraProvisioner#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#key InfraProvisioner#key}
   */
   readonly key?: string;
   /**
   * variable type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#type InfraProvisioner#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#type InfraProvisioner#type}
   */
   readonly type?: string;
   /**
   * variable value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#value InfraProvisioner#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#value InfraProvisioner#value}
   */
   readonly value?: string;
 }
@@ -1568,19 +1568,19 @@ export interface InfraProvisionerSpecConfigEnvVars {
   /**
   * variable key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#key InfraProvisioner#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#key InfraProvisioner#key}
   */
   readonly key?: string;
   /**
   * variable type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#type InfraProvisioner#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#type InfraProvisioner#type}
   */
   readonly type?: string;
   /**
   * variable value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#value InfraProvisioner#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#value InfraProvisioner#value}
   */
   readonly value?: string;
 }
@@ -1756,19 +1756,19 @@ export interface InfraProvisionerSpecConfigInputVars {
   /**
   * variable key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#key InfraProvisioner#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#key InfraProvisioner#key}
   */
   readonly key?: string;
   /**
   * variable type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#type InfraProvisioner#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#type InfraProvisioner#type}
   */
   readonly type?: string;
   /**
   * variable value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#value InfraProvisioner#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#value InfraProvisioner#value}
   */
   readonly value?: string;
 }
@@ -1944,7 +1944,7 @@ export interface InfraProvisionerSpecConfigTfVarsFilePathOptionsOverride {
   /**
   * Specify the type of override this file supports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#type InfraProvisioner#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#type InfraProvisioner#type}
   */
   readonly type?: string;
 }
@@ -2030,13 +2030,13 @@ export interface InfraProvisionerSpecConfigTfVarsFilePathOptionsSchema {
   /**
   * JSONSchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#jsonschema InfraProvisioner#jsonschema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#jsonschema InfraProvisioner#jsonschema}
   */
   readonly jsonschema?: string;
   /**
   * UISchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#uischema InfraProvisioner#uischema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#uischema InfraProvisioner#uischema}
   */
   readonly uischema?: string;
 }
@@ -2151,37 +2151,37 @@ export interface InfraProvisionerSpecConfigTfVarsFilePathOptions {
   /**
   * Description of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#description InfraProvisioner#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#description InfraProvisioner#description}
   */
   readonly description?: string;
   /**
   * Display metadata to render file on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#display_metadata InfraProvisioner#display_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#display_metadata InfraProvisioner#display_metadata}
   */
   readonly displayMetadata?: string;
   /**
   * Determines whether the file is required / mandatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#required InfraProvisioner#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#required InfraProvisioner#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#sensitive InfraProvisioner#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#sensitive InfraProvisioner#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#override InfraProvisioner#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#override InfraProvisioner#override}
   */
   readonly override?: InfraProvisionerSpecConfigTfVarsFilePathOptionsOverride;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#schema InfraProvisioner#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#schema InfraProvisioner#schema}
   */
   readonly schema?: InfraProvisionerSpecConfigTfVarsFilePathOptionsSchema;
 }
@@ -2412,31 +2412,31 @@ export interface InfraProvisionerSpecConfigTfVarsFilePath {
   /**
   * data is the base64 encoded contents of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#data InfraProvisioner#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#data InfraProvisioner#data}
   */
   readonly data?: string;
   /**
   * specify mount path of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#mount_path InfraProvisioner#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#mount_path InfraProvisioner#mount_path}
   */
   readonly mountPath?: string;
   /**
   * Name or relative path of a artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#name InfraProvisioner#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#name InfraProvisioner#name}
   */
   readonly name?: string;
   /**
   * Deprected: use options.sensitive. data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#sensitive InfraProvisioner#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#sensitive InfraProvisioner#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#options InfraProvisioner#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#options InfraProvisioner#options}
   */
   readonly options?: InfraProvisionerSpecConfigTfVarsFilePathOptions;
 }
@@ -2638,43 +2638,43 @@ export interface InfraProvisionerSpecConfig {
   /**
   * Pipeline secrets groups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#secret_groups InfraProvisioner#secret_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#secret_groups InfraProvisioner#secret_groups}
   */
   readonly secretGroups?: string[];
   /**
   * terraform version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#version InfraProvisioner#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#version InfraProvisioner#version}
   */
   readonly version?: string;
   /**
   * backend_file_path block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#backend_file_path InfraProvisioner#backend_file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#backend_file_path InfraProvisioner#backend_file_path}
   */
   readonly backendFilePath?: InfraProvisionerSpecConfigBackendFilePath;
   /**
   * backend_vars block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#backend_vars InfraProvisioner#backend_vars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#backend_vars InfraProvisioner#backend_vars}
   */
   readonly backendVars?: InfraProvisionerSpecConfigBackendVars[] | cdktf.IResolvable;
   /**
   * env_vars block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#env_vars InfraProvisioner#env_vars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#env_vars InfraProvisioner#env_vars}
   */
   readonly envVars?: InfraProvisionerSpecConfigEnvVars[] | cdktf.IResolvable;
   /**
   * input_vars block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#input_vars InfraProvisioner#input_vars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#input_vars InfraProvisioner#input_vars}
   */
   readonly inputVars?: InfraProvisionerSpecConfigInputVars[] | cdktf.IResolvable;
   /**
   * tf_vars_file_path block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#tf_vars_file_path InfraProvisioner#tf_vars_file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#tf_vars_file_path InfraProvisioner#tf_vars_file_path}
   */
   readonly tfVarsFilePath?: InfraProvisionerSpecConfigTfVarsFilePath;
 }
@@ -2934,7 +2934,7 @@ export interface InfraProvisionerSpecFolderPathOptionsOverride {
   /**
   * Specify the type of override this file supports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#type InfraProvisioner#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#type InfraProvisioner#type}
   */
   readonly type?: string;
 }
@@ -3020,13 +3020,13 @@ export interface InfraProvisionerSpecFolderPathOptionsSchema {
   /**
   * JSONSchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#jsonschema InfraProvisioner#jsonschema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#jsonschema InfraProvisioner#jsonschema}
   */
   readonly jsonschema?: string;
   /**
   * UISchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#uischema InfraProvisioner#uischema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#uischema InfraProvisioner#uischema}
   */
   readonly uischema?: string;
 }
@@ -3141,37 +3141,37 @@ export interface InfraProvisionerSpecFolderPathOptions {
   /**
   * Description of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#description InfraProvisioner#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#description InfraProvisioner#description}
   */
   readonly description?: string;
   /**
   * Display metadata to render file on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#display_metadata InfraProvisioner#display_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#display_metadata InfraProvisioner#display_metadata}
   */
   readonly displayMetadata?: string;
   /**
   * Determines whether the file is required / mandatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#required InfraProvisioner#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#required InfraProvisioner#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#sensitive InfraProvisioner#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#sensitive InfraProvisioner#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#override InfraProvisioner#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#override InfraProvisioner#override}
   */
   readonly override?: InfraProvisionerSpecFolderPathOptionsOverride;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#schema InfraProvisioner#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#schema InfraProvisioner#schema}
   */
   readonly schema?: InfraProvisionerSpecFolderPathOptionsSchema;
 }
@@ -3402,31 +3402,31 @@ export interface InfraProvisionerSpecFolderPath {
   /**
   * data is the base64 encoded contents of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#data InfraProvisioner#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#data InfraProvisioner#data}
   */
   readonly data?: string;
   /**
   * specify mount path of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#mount_path InfraProvisioner#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#mount_path InfraProvisioner#mount_path}
   */
   readonly mountPath?: string;
   /**
   * Name or relative path of a artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#name InfraProvisioner#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#name InfraProvisioner#name}
   */
   readonly name?: string;
   /**
   * Deprected: use options.sensitive. data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#sensitive InfraProvisioner#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#sensitive InfraProvisioner#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#options InfraProvisioner#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#options InfraProvisioner#options}
   */
   readonly options?: InfraProvisionerSpecFolderPathOptions;
 }
@@ -3628,7 +3628,7 @@ export interface InfraProvisionerSpecSecretOptionsOverride {
   /**
   * Specify the type of override this file supports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#type InfraProvisioner#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#type InfraProvisioner#type}
   */
   readonly type?: string;
 }
@@ -3714,13 +3714,13 @@ export interface InfraProvisionerSpecSecretOptionsSchema {
   /**
   * JSONSchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#jsonschema InfraProvisioner#jsonschema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#jsonschema InfraProvisioner#jsonschema}
   */
   readonly jsonschema?: string;
   /**
   * UISchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#uischema InfraProvisioner#uischema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#uischema InfraProvisioner#uischema}
   */
   readonly uischema?: string;
 }
@@ -3835,37 +3835,37 @@ export interface InfraProvisionerSpecSecretOptions {
   /**
   * Description of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#description InfraProvisioner#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#description InfraProvisioner#description}
   */
   readonly description?: string;
   /**
   * Display metadata to render file on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#display_metadata InfraProvisioner#display_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#display_metadata InfraProvisioner#display_metadata}
   */
   readonly displayMetadata?: string;
   /**
   * Determines whether the file is required / mandatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#required InfraProvisioner#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#required InfraProvisioner#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#sensitive InfraProvisioner#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#sensitive InfraProvisioner#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#override InfraProvisioner#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#override InfraProvisioner#override}
   */
   readonly override?: InfraProvisionerSpecSecretOptionsOverride;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#schema InfraProvisioner#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#schema InfraProvisioner#schema}
   */
   readonly schema?: InfraProvisionerSpecSecretOptionsSchema;
 }
@@ -4096,31 +4096,31 @@ export interface InfraProvisionerSpecSecret {
   /**
   * data is the base64 encoded contents of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#data InfraProvisioner#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#data InfraProvisioner#data}
   */
   readonly data?: string;
   /**
   * specify mount path of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#mount_path InfraProvisioner#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#mount_path InfraProvisioner#mount_path}
   */
   readonly mountPath?: string;
   /**
   * Name or relative path of a artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#name InfraProvisioner#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#name InfraProvisioner#name}
   */
   readonly name?: string;
   /**
   * Deprected: use options.sensitive. data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#sensitive InfraProvisioner#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#sensitive InfraProvisioner#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#options InfraProvisioner#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#options InfraProvisioner#options}
   */
   readonly options?: InfraProvisionerSpecSecretOptions;
 }
@@ -4322,37 +4322,37 @@ export interface InfraProvisionerSpec {
   /**
   * infrastructure provisioner git repository name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#repository InfraProvisioner#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#repository InfraProvisioner#repository}
   */
   readonly repository?: string;
   /**
   * infrastructure provisioner git repository branch or tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#revision InfraProvisioner#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#revision InfraProvisioner#revision}
   */
   readonly revision?: string;
   /**
   * type of infrastructure provisioner
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#type InfraProvisioner#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#type InfraProvisioner#type}
   */
   readonly type?: string;
   /**
   * config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#config InfraProvisioner#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#config InfraProvisioner#config}
   */
   readonly config?: InfraProvisionerSpecConfig;
   /**
   * folder_path block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#folder_path InfraProvisioner#folder_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#folder_path InfraProvisioner#folder_path}
   */
   readonly folderPath?: InfraProvisionerSpecFolderPath;
   /**
   * secret block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#secret InfraProvisioner#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#secret InfraProvisioner#secret}
   */
   readonly secret?: InfraProvisionerSpecSecret;
 }
@@ -4581,15 +4581,15 @@ export class InfraProvisionerSpecOutputReference extends cdktf.ComplexObject {
 }
 export interface InfraProvisionerTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#create InfraProvisioner#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#create InfraProvisioner#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#delete InfraProvisioner#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#delete InfraProvisioner#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#update InfraProvisioner#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#update InfraProvisioner#update}
   */
   readonly update?: string;
 }
@@ -4741,7 +4741,7 @@ export class InfraProvisionerTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner rafay_infra_provisioner}
+* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner rafay_infra_provisioner}
 */
 export class InfraProvisioner extends cdktf.TerraformResource {
 
@@ -4757,7 +4757,7 @@ export class InfraProvisioner extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InfraProvisioner resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InfraProvisioner to import
-  * @param importFromId The id of the existing InfraProvisioner that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InfraProvisioner that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InfraProvisioner to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4769,7 +4769,7 @@ export class InfraProvisioner extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/infra_provisioner rafay_infra_provisioner} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/infra_provisioner rafay_infra_provisioner} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4780,7 +4780,8 @@ export class InfraProvisioner extends cdktf.TerraformResource {
       terraformResourceType: 'rafay_infra_provisioner',
       terraformGeneratorMetadata: {
         providerName: 'rafay',
-        providerVersion: '1.1.52'
+        providerVersion: '1.1.53',
+        providerVersionConstraint: '1.1.53'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

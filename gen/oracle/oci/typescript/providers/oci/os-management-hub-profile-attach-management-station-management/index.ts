@@ -230,7 +230,8 @@ export class OsManagementHubProfileAttachManagementStationManagement extends cdk
       terraformResourceType: 'oci_os_management_hub_profile_attach_management_station_management',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

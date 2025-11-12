@@ -5,12 +5,15 @@ Object.defineProperty(exports, 'appsDashboardDashboardV1Beta1', { get: function 
 Object.defineProperty(exports, 'appsPlaylistPlaylistV0Alpha1', { get: function () { return require('./apps-playlist-playlist-v0alpha1'); } });
 Object.defineProperty(exports, 'appsProductactivationAppo11YconfigV1Alpha1', { get: function () { return require('./apps-productactivation-appo11yconfig-v1alpha1'); } });
 Object.defineProperty(exports, 'appsProductactivationK8So11YconfigV1Alpha1', { get: function () { return require('./apps-productactivation-k8so11yconfig-v1alpha1'); } });
+Object.defineProperty(exports, 'appsRulesAlertruleV0Alpha1', { get: function () { return require('./apps-rules-alertrule-v0alpha1'); } });
+Object.defineProperty(exports, 'appsRulesRecordingruleV0Alpha1', { get: function () { return require('./apps-rules-recordingrule-v0alpha1'); } });
 Object.defineProperty(exports, 'assertsCustomModelRules', { get: function () { return require('./asserts-custom-model-rules'); } });
 Object.defineProperty(exports, 'assertsLogConfig', { get: function () { return require('./asserts-log-config'); } });
 Object.defineProperty(exports, 'assertsNotificationAlertsConfig', { get: function () { return require('./asserts-notification-alerts-config'); } });
 Object.defineProperty(exports, 'assertsSuppressedAssertionsConfig', { get: function () { return require('./asserts-suppressed-assertions-config'); } });
 Object.defineProperty(exports, 'assertsThresholds', { get: function () { return require('./asserts-thresholds'); } });
 Object.defineProperty(exports, 'cloudAccessPolicy', { get: function () { return require('./cloud-access-policy'); } });
+Object.defineProperty(exports, 'cloudAccessPolicyRotatingToken', { get: function () { return require('./cloud-access-policy-rotating-token'); } });
 Object.defineProperty(exports, 'cloudAccessPolicyToken', { get: function () { return require('./cloud-access-policy-token'); } });
 Object.defineProperty(exports, 'cloudOrgMember', { get: function () { return require('./cloud-org-member'); } });
 Object.defineProperty(exports, 'cloudPluginInstallation', { get: function () { return require('./cloud-plugin-installation'); } });

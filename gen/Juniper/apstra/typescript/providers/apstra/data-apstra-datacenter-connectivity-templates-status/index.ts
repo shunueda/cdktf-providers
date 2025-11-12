@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_connectivity_templates_status
+// https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_connectivity_templates_status
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataApstraDatacenterConnectivityTemplatesStatusConfig extends c
   /**
   * The ID of the Blueprint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_connectivity_templates_status#blueprint_id DataApstraDatacenterConnectivityTemplatesStatus#blueprint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_connectivity_templates_status#blueprint_id DataApstraDatacenterConnectivityTemplatesStatus#blueprint_id}
   */
   readonly blueprintId: string;
 }
@@ -114,7 +114,7 @@ export class DataApstraDatacenterConnectivityTemplatesStatusConnectivityTemplate
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_connectivity_templates_status apstra_datacenter_connectivity_templates_status}
+* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_connectivity_templates_status apstra_datacenter_connectivity_templates_status}
 */
 export class DataApstraDatacenterConnectivityTemplatesStatus extends cdktf.TerraformDataSource {
 
@@ -130,7 +130,7 @@ export class DataApstraDatacenterConnectivityTemplatesStatus extends cdktf.Terra
   * Generates CDKTF code for importing a DataApstraDatacenterConnectivityTemplatesStatus resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataApstraDatacenterConnectivityTemplatesStatus to import
-  * @param importFromId The id of the existing DataApstraDatacenterConnectivityTemplatesStatus that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_connectivity_templates_status#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataApstraDatacenterConnectivityTemplatesStatus that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_connectivity_templates_status#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataApstraDatacenterConnectivityTemplatesStatus to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -142,7 +142,7 @@ export class DataApstraDatacenterConnectivityTemplatesStatus extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_connectivity_templates_status apstra_datacenter_connectivity_templates_status} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_connectivity_templates_status apstra_datacenter_connectivity_templates_status} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -153,7 +153,8 @@ export class DataApstraDatacenterConnectivityTemplatesStatus extends cdktf.Terra
       terraformResourceType: 'apstra_datacenter_connectivity_templates_status',
       terraformGeneratorMetadata: {
         providerName: 'apstra',
-        providerVersion: '0.95.0'
+        providerVersion: '0.95.1',
+        providerVersionConstraint: '0.95.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/data-sources/interface_ethernet
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/data-sources/interface_ethernet
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIosxeInterfaceEthernetConfig extends cdktf.TerraformMetaArg
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/data-sources/interface_ethernet#device DataIosxeInterfaceEthernet#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/data-sources/interface_ethernet#device DataIosxeInterfaceEthernet#device}
   */
   readonly device?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/data-sources/interface_ethernet#name DataIosxeInterfaceEthernet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/data-sources/interface_ethernet#name DataIosxeInterfaceEthernet#name}
   */
   readonly name: string;
   /**
   * Interface type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/data-sources/interface_ethernet#type DataIosxeInterfaceEthernet#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/data-sources/interface_ethernet#type DataIosxeInterfaceEthernet#type}
   */
   readonly type: string;
 }
@@ -97,6 +97,81 @@ export class DataIosxeInterfaceEthernetDeviceTrackingAttachedPoliciesList extend
   */
   public get(index: number): DataIosxeInterfaceEthernetDeviceTrackingAttachedPoliciesOutputReference {
     return new DataIosxeInterfaceEthernetDeviceTrackingAttachedPoliciesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataIosxeInterfaceEthernetEvpnEthernetSegments {
+}
+
+export function dataIosxeInterfaceEthernetEvpnEthernetSegmentsToTerraform(struct?: DataIosxeInterfaceEthernetEvpnEthernetSegments): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataIosxeInterfaceEthernetEvpnEthernetSegmentsToHclTerraform(struct?: DataIosxeInterfaceEthernetEvpnEthernetSegments): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataIosxeInterfaceEthernetEvpnEthernetSegmentsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataIosxeInterfaceEthernetEvpnEthernetSegments | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataIosxeInterfaceEthernetEvpnEthernetSegments | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // es_value - computed: true, optional: false, required: false
+  public get esValue() {
+    return this.getNumberAttribute('es_value');
+  }
+}
+
+export class DataIosxeInterfaceEthernetEvpnEthernetSegmentsList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataIosxeInterfaceEthernetEvpnEthernetSegmentsOutputReference {
+    return new DataIosxeInterfaceEthernetEvpnEthernetSegmentsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
 export interface DataIosxeInterfaceEthernetHelperAddresses {
@@ -586,7 +661,7 @@ export class DataIosxeInterfaceEthernetSourceTemplateList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/data-sources/interface_ethernet iosxe_interface_ethernet}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/data-sources/interface_ethernet iosxe_interface_ethernet}
 */
 export class DataIosxeInterfaceEthernet extends cdktf.TerraformDataSource {
 
@@ -602,7 +677,7 @@ export class DataIosxeInterfaceEthernet extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIosxeInterfaceEthernet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIosxeInterfaceEthernet to import
-  * @param importFromId The id of the existing DataIosxeInterfaceEthernet that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/data-sources/interface_ethernet#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIosxeInterfaceEthernet that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/data-sources/interface_ethernet#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIosxeInterfaceEthernet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -614,7 +689,7 @@ export class DataIosxeInterfaceEthernet extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/data-sources/interface_ethernet iosxe_interface_ethernet} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/data-sources/interface_ethernet iosxe_interface_ethernet} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -625,7 +700,8 @@ export class DataIosxeInterfaceEthernet extends cdktf.TerraformDataSource {
       terraformResourceType: 'iosxe_interface_ethernet',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.9.3'
+        providerVersion: '0.10.0',
+        providerVersionConstraint: '0.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -647,6 +723,51 @@ export class DataIosxeInterfaceEthernet extends cdktf.TerraformDataSource {
   // arp_timeout - computed: true, optional: false, required: false
   public get arpTimeout() {
     return this.getNumberAttribute('arp_timeout');
+  }
+
+  // authentication_event_fail_action_authorize_vlan - computed: true, optional: false, required: false
+  public get authenticationEventFailActionAuthorizeVlan() {
+    return this.getNumberAttribute('authentication_event_fail_action_authorize_vlan');
+  }
+
+  // authentication_event_fail_action_next_method - computed: true, optional: false, required: false
+  public get authenticationEventFailActionNextMethod() {
+    return this.getBooleanAttribute('authentication_event_fail_action_next_method');
+  }
+
+  // authentication_event_linksec_fail_action_next_method - computed: true, optional: false, required: false
+  public get authenticationEventLinksecFailActionNextMethod() {
+    return this.getBooleanAttribute('authentication_event_linksec_fail_action_next_method');
+  }
+
+  // authentication_event_no_response_action_authorize_vlan - computed: true, optional: false, required: false
+  public get authenticationEventNoResponseActionAuthorizeVlan() {
+    return this.getNumberAttribute('authentication_event_no_response_action_authorize_vlan');
+  }
+
+  // authentication_event_server_alive_action_reinitialize - computed: true, optional: false, required: false
+  public get authenticationEventServerAliveActionReinitialize() {
+    return this.getBooleanAttribute('authentication_event_server_alive_action_reinitialize');
+  }
+
+  // authentication_event_server_dead_action_authorize - computed: true, optional: false, required: false
+  public get authenticationEventServerDeadActionAuthorize() {
+    return this.getBooleanAttribute('authentication_event_server_dead_action_authorize');
+  }
+
+  // authentication_event_server_dead_action_authorize_vlan - computed: true, optional: false, required: false
+  public get authenticationEventServerDeadActionAuthorizeVlan() {
+    return this.getNumberAttribute('authentication_event_server_dead_action_authorize_vlan');
+  }
+
+  // authentication_event_server_dead_action_authorize_voice - computed: true, optional: false, required: false
+  public get authenticationEventServerDeadActionAuthorizeVoice() {
+    return this.getBooleanAttribute('authentication_event_server_dead_action_authorize_voice');
+  }
+
+  // authentication_event_server_dead_action_reinitialize_vlan - computed: true, optional: false, required: false
+  public get authenticationEventServerDeadActionReinitializeVlan() {
+    return this.getNumberAttribute('authentication_event_server_dead_action_reinitialize_vlan');
   }
 
   // authentication_host_mode - computed: true, optional: false, required: false
@@ -976,6 +1097,12 @@ export class DataIosxeInterfaceEthernet extends cdktf.TerraformDataSource {
     return this.getNumberAttribute('encapsulation_dot1q_vlan_id');
   }
 
+  // evpn_ethernet_segments - computed: true, optional: false, required: false
+  private _evpnEthernetSegments = new DataIosxeInterfaceEthernetEvpnEthernetSegmentsList(this, "evpn_ethernet_segments", false);
+  public get evpnEthernetSegments() {
+    return this._evpnEthernetSegments;
+  }
+
   // helper_addresses - computed: true, optional: false, required: false
   private _helperAddresses = new DataIosxeInterfaceEthernetHelperAddressesList(this, "helper_addresses", false);
   public get helperAddresses() {
@@ -1015,6 +1142,11 @@ export class DataIosxeInterfaceEthernet extends cdktf.TerraformDataSource {
   // ip_arp_inspection_trust - computed: true, optional: false, required: false
   public get ipArpInspectionTrust() {
     return this.getBooleanAttribute('ip_arp_inspection_trust');
+  }
+
+  // ip_dhcp_relay_information_option_vpn_id - computed: true, optional: false, required: false
+  public get ipDhcpRelayInformationOptionVpnId() {
+    return this.getBooleanAttribute('ip_dhcp_relay_information_option_vpn_id');
   }
 
   // ip_dhcp_relay_source_interface - computed: true, optional: false, required: false

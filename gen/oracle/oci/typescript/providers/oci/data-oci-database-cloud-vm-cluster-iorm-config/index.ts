@@ -138,7 +138,8 @@ export class DataOciDatabaseCloudVmClusterIormConfig extends cdktf.TerraformData
       terraformResourceType: 'oci_database_cloud_vm_cluster_iorm_config',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

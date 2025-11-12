@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/nsxtsegmentruntime
+// https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/nsxtsegmentruntime
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,100 +8,100 @@ import * as cdktf from 'cdktf';
 
 export interface NsxtsegmentruntimeConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/nsxtsegmentruntime#cloud_ref Nsxtsegmentruntime#cloud_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/nsxtsegmentruntime#cloud_ref Nsxtsegmentruntime#cloud_ref}
   */
   readonly cloudRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/nsxtsegmentruntime#dhcp6_ranges Nsxtsegmentruntime#dhcp6_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/nsxtsegmentruntime#dhcp6_ranges Nsxtsegmentruntime#dhcp6_ranges}
   */
   readonly dhcp6Ranges?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/nsxtsegmentruntime#dhcp_enabled Nsxtsegmentruntime#dhcp_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/nsxtsegmentruntime#dhcp_enabled Nsxtsegmentruntime#dhcp_enabled}
   */
   readonly dhcpEnabled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/nsxtsegmentruntime#dhcp_ranges Nsxtsegmentruntime#dhcp_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/nsxtsegmentruntime#dhcp_ranges Nsxtsegmentruntime#dhcp_ranges}
   */
   readonly dhcpRanges?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/nsxtsegmentruntime#id Nsxtsegmentruntime#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/nsxtsegmentruntime#id Nsxtsegmentruntime#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/nsxtsegmentruntime#name Nsxtsegmentruntime#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/nsxtsegmentruntime#name Nsxtsegmentruntime#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/nsxtsegmentruntime#nw_name Nsxtsegmentruntime#nw_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/nsxtsegmentruntime#nw_name Nsxtsegmentruntime#nw_name}
   */
   readonly nwName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/nsxtsegmentruntime#nw_ref Nsxtsegmentruntime#nw_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/nsxtsegmentruntime#nw_ref Nsxtsegmentruntime#nw_ref}
   */
   readonly nwRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/nsxtsegmentruntime#opaque_network_id Nsxtsegmentruntime#opaque_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/nsxtsegmentruntime#opaque_network_id Nsxtsegmentruntime#opaque_network_id}
   */
   readonly opaqueNetworkId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/nsxtsegmentruntime#origin_id Nsxtsegmentruntime#origin_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/nsxtsegmentruntime#origin_id Nsxtsegmentruntime#origin_id}
   */
   readonly originId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/nsxtsegmentruntime#security_only_nsxt Nsxtsegmentruntime#security_only_nsxt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/nsxtsegmentruntime#security_only_nsxt Nsxtsegmentruntime#security_only_nsxt}
   */
   readonly securityOnlyNsxt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/nsxtsegmentruntime#segment_gw Nsxtsegmentruntime#segment_gw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/nsxtsegmentruntime#segment_gw Nsxtsegmentruntime#segment_gw}
   */
   readonly segmentGw?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/nsxtsegmentruntime#segment_gw6 Nsxtsegmentruntime#segment_gw6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/nsxtsegmentruntime#segment_gw6 Nsxtsegmentruntime#segment_gw6}
   */
   readonly segmentGw6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/nsxtsegmentruntime#segment_id Nsxtsegmentruntime#segment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/nsxtsegmentruntime#segment_id Nsxtsegmentruntime#segment_id}
   */
   readonly segmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/nsxtsegmentruntime#segname Nsxtsegmentruntime#segname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/nsxtsegmentruntime#segname Nsxtsegmentruntime#segname}
   */
   readonly segname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/nsxtsegmentruntime#subnet Nsxtsegmentruntime#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/nsxtsegmentruntime#subnet Nsxtsegmentruntime#subnet}
   */
   readonly subnet?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/nsxtsegmentruntime#subnet6 Nsxtsegmentruntime#subnet6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/nsxtsegmentruntime#subnet6 Nsxtsegmentruntime#subnet6}
   */
   readonly subnet6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/nsxtsegmentruntime#tenant_ref Nsxtsegmentruntime#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/nsxtsegmentruntime#tenant_ref Nsxtsegmentruntime#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/nsxtsegmentruntime#tier1_id Nsxtsegmentruntime#tier1_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/nsxtsegmentruntime#tier1_id Nsxtsegmentruntime#tier1_id}
   */
   readonly tier1Id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/nsxtsegmentruntime#uuid Nsxtsegmentruntime#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/nsxtsegmentruntime#uuid Nsxtsegmentruntime#uuid}
   */
   readonly uuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/nsxtsegmentruntime#vlan_ids Nsxtsegmentruntime#vlan_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/nsxtsegmentruntime#vlan_ids Nsxtsegmentruntime#vlan_ids}
   */
   readonly vlanIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/nsxtsegmentruntime#vrf_context_ref Nsxtsegmentruntime#vrf_context_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/nsxtsegmentruntime#vrf_context_ref Nsxtsegmentruntime#vrf_context_ref}
   */
   readonly vrfContextRef?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/nsxtsegmentruntime avi_nsxtsegmentruntime}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/nsxtsegmentruntime avi_nsxtsegmentruntime}
 */
 export class Nsxtsegmentruntime extends cdktf.TerraformResource {
 
@@ -117,7 +117,7 @@ export class Nsxtsegmentruntime extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Nsxtsegmentruntime resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Nsxtsegmentruntime to import
-  * @param importFromId The id of the existing Nsxtsegmentruntime that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/nsxtsegmentruntime#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Nsxtsegmentruntime that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/nsxtsegmentruntime#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Nsxtsegmentruntime to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -129,7 +129,7 @@ export class Nsxtsegmentruntime extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/nsxtsegmentruntime avi_nsxtsegmentruntime} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/nsxtsegmentruntime avi_nsxtsegmentruntime} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -140,7 +140,8 @@ export class Nsxtsegmentruntime extends cdktf.TerraformResource {
       terraformResourceType: 'avi_nsxtsegmentruntime',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '31.1.1'
+        providerVersion: '30.2.5',
+        providerVersionConstraint: '30.2.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

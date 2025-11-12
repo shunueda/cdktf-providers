@@ -55,7 +55,8 @@ export class AutoUserProvisioningSetting extends cdktf.TerraformResource {
       terraformResourceType: 'clumio_auto_user_provisioning_setting',
       terraformGeneratorMetadata: {
         providerName: 'clumio',
-        providerVersion: '0.16.1'
+        providerVersion: '0.16.1',
+        providerVersionConstraint: '0.16.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

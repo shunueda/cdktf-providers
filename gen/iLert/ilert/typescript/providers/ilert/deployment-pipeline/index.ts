@@ -664,7 +664,8 @@ export class DeploymentPipeline extends cdktf.TerraformResource {
       terraformResourceType: 'ilert_deployment_pipeline',
       terraformGeneratorMetadata: {
         providerName: 'ilert',
-        providerVersion: '2.14.3'
+        providerVersion: '2.14.3',
+        providerVersionConstraint: '2.14.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

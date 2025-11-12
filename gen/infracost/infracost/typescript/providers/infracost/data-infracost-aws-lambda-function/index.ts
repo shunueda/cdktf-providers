@@ -240,7 +240,8 @@ export class DataInfracostAwsLambdaFunction extends cdktf.TerraformDataSource {
       terraformResourceType: 'infracost_aws_lambda_function',
       terraformGeneratorMetadata: {
         providerName: 'infracost',
-        providerVersion: '0.0.9'
+        providerVersion: '0.0.9',
+        providerVersionConstraint: '0.0.9'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

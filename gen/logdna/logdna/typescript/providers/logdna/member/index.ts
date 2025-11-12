@@ -68,7 +68,8 @@ export class Member extends cdktf.TerraformResource {
       terraformResourceType: 'logdna_member',
       terraformGeneratorMetadata: {
         providerName: 'logdna',
-        providerVersion: '1.17.2'
+        providerVersion: '1.17.2',
+        providerVersionConstraint: '1.17.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

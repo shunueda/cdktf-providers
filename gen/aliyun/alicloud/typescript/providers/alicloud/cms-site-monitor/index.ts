@@ -1763,7 +1763,8 @@ export class CmsSiteMonitor extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_cms_site_monitor',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

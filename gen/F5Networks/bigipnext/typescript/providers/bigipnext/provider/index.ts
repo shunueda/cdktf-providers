@@ -79,7 +79,8 @@ export class BigipnextProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'bigipnext',
       terraformGeneratorMetadata: {
         providerName: 'bigipnext',
-        providerVersion: '1.4.0'
+        providerVersion: '1.4.0',
+        providerVersionConstraint: '1.4.0'
       },
       terraformProviderSource: 'F5Networks/bigipnext'
     });

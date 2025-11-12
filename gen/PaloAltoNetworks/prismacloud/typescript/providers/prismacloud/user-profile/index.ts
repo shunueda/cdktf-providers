@@ -234,7 +234,8 @@ export class UserProfile extends cdktf.TerraformResource {
       terraformResourceType: 'prismacloud_user_profile',
       terraformGeneratorMetadata: {
         providerName: 'prismacloud',
-        providerVersion: '1.7.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/data-sources/volume
+// https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/data-sources/volume
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface DataHcloudVolumeConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/data-sources/volume#id DataHcloudVolume#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/data-sources/volume#id DataHcloudVolume#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/data-sources/volume#location DataHcloudVolume#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/data-sources/volume#location DataHcloudVolume#location}
   */
   readonly location?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/data-sources/volume#name DataHcloudVolume#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/data-sources/volume#name DataHcloudVolume#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/data-sources/volume#selector DataHcloudVolume#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/data-sources/volume#selector DataHcloudVolume#selector}
   */
   readonly selector?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/data-sources/volume#server_id DataHcloudVolume#server_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/data-sources/volume#server_id DataHcloudVolume#server_id}
   */
   readonly serverId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/data-sources/volume#with_selector DataHcloudVolume#with_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/data-sources/volume#with_selector DataHcloudVolume#with_selector}
   */
   readonly withSelector?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/data-sources/volume#with_status DataHcloudVolume#with_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/data-sources/volume#with_status DataHcloudVolume#with_status}
   */
   readonly withStatus?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/data-sources/volume hcloud_volume}
+* Represents a {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/data-sources/volume hcloud_volume}
 */
 export class DataHcloudVolume extends cdktf.TerraformDataSource {
 
@@ -57,7 +57,7 @@ export class DataHcloudVolume extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataHcloudVolume resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHcloudVolume to import
-  * @param importFromId The id of the existing DataHcloudVolume that should be imported. Refer to the {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/data-sources/volume#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHcloudVolume that should be imported. Refer to the {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/data-sources/volume#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHcloudVolume to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class DataHcloudVolume extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/data-sources/volume hcloud_volume} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/data-sources/volume hcloud_volume} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,7 +80,8 @@ export class DataHcloudVolume extends cdktf.TerraformDataSource {
       terraformResourceType: 'hcloud_volume',
       terraformGeneratorMetadata: {
         providerName: 'hcloud',
-        providerVersion: '1.55.0'
+        providerVersion: '1.56.0',
+        providerVersionConstraint: '1.56.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

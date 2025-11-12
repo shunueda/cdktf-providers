@@ -56,7 +56,8 @@ export class CloudIntegrationAwsExternalId extends cdktf.TerraformResource {
       terraformResourceType: 'wavefront_cloud_integration_aws_external_id',
       terraformGeneratorMetadata: {
         providerName: 'wavefront',
-        providerVersion: '5.1.0'
+        providerVersion: '5.1.0',
+        providerVersionConstraint: '5.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

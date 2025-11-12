@@ -275,7 +275,8 @@ export class WorkflowTaskInviteToMicrosoftTeamsChannel extends cdktf.TerraformRe
       terraformResourceType: 'rootly_workflow_task_invite_to_microsoft_teams_channel',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.7'
+        providerVersion: '4.3.7',
+        providerVersionConstraint: '4.3.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -397,7 +397,8 @@ export class DataAlicloudGraphDatabaseDbInstances extends cdktf.TerraformDataSou
       terraformResourceType: 'alicloud_graph_database_db_instances',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

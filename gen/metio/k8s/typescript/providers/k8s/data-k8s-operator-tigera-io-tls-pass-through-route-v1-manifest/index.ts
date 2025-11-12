@@ -504,7 +504,8 @@ export class DataK8SOperatorTigeraIoTlsPassThroughRouteV1Manifest extends cdktf.
       terraformResourceType: 'k8s_operator_tigera_io_tls_pass_through_route_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

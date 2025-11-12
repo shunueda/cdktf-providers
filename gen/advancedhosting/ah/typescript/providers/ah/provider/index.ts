@@ -65,7 +65,8 @@ export class AhProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'ah',
       terraformGeneratorMetadata: {
         providerName: 'ah',
-        providerVersion: '0.3.6'
+        providerVersion: '0.3.6',
+        providerVersionConstraint: '0.3.6'
       },
       terraformProviderSource: 'advancedhosting/ah'
     });

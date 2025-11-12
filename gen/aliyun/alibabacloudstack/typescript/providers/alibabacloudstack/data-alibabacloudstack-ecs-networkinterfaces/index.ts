@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/ecs_networkinterfaces
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/ecs_networkinterfaces
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlibabacloudstackEcsNetworkinterfacesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/ecs_networkinterfaces#id DataAlibabacloudstackEcsNetworkinterfaces#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/ecs_networkinterfaces#id DataAlibabacloudstackEcsNetworkinterfaces#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/ecs_networkinterfaces#ids DataAlibabacloudstackEcsNetworkinterfaces#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/ecs_networkinterfaces#ids DataAlibabacloudstackEcsNetworkinterfaces#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/ecs_networkinterfaces#instance_id DataAlibabacloudstackEcsNetworkinterfaces#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/ecs_networkinterfaces#instance_id DataAlibabacloudstackEcsNetworkinterfaces#instance_id}
   */
   readonly instanceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/ecs_networkinterfaces#name_regex DataAlibabacloudstackEcsNetworkinterfaces#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/ecs_networkinterfaces#name_regex DataAlibabacloudstackEcsNetworkinterfaces#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/ecs_networkinterfaces#output_file DataAlibabacloudstackEcsNetworkinterfaces#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/ecs_networkinterfaces#output_file DataAlibabacloudstackEcsNetworkinterfaces#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/ecs_networkinterfaces#private_ip DataAlibabacloudstackEcsNetworkinterfaces#private_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/ecs_networkinterfaces#private_ip DataAlibabacloudstackEcsNetworkinterfaces#private_ip}
   */
   readonly privateIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/ecs_networkinterfaces#security_group_id DataAlibabacloudstackEcsNetworkinterfaces#security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/ecs_networkinterfaces#security_group_id DataAlibabacloudstackEcsNetworkinterfaces#security_group_id}
   */
   readonly securityGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/ecs_networkinterfaces#tags DataAlibabacloudstackEcsNetworkinterfaces#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/ecs_networkinterfaces#tags DataAlibabacloudstackEcsNetworkinterfaces#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/ecs_networkinterfaces#type DataAlibabacloudstackEcsNetworkinterfaces#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/ecs_networkinterfaces#type DataAlibabacloudstackEcsNetworkinterfaces#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/ecs_networkinterfaces#vpc_id DataAlibabacloudstackEcsNetworkinterfaces#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/ecs_networkinterfaces#vpc_id DataAlibabacloudstackEcsNetworkinterfaces#vpc_id}
   */
   readonly vpcId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/ecs_networkinterfaces#vswitch_id DataAlibabacloudstackEcsNetworkinterfaces#vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/ecs_networkinterfaces#vswitch_id DataAlibabacloudstackEcsNetworkinterfaces#vswitch_id}
   */
   readonly vswitchId?: string;
 }
@@ -203,7 +203,7 @@ export class DataAlibabacloudstackEcsNetworkinterfacesInterfacesList extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/ecs_networkinterfaces alibabacloudstack_ecs_networkinterfaces}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/ecs_networkinterfaces alibabacloudstack_ecs_networkinterfaces}
 */
 export class DataAlibabacloudstackEcsNetworkinterfaces extends cdktf.TerraformDataSource {
 
@@ -219,7 +219,7 @@ export class DataAlibabacloudstackEcsNetworkinterfaces extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataAlibabacloudstackEcsNetworkinterfaces resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlibabacloudstackEcsNetworkinterfaces to import
-  * @param importFromId The id of the existing DataAlibabacloudstackEcsNetworkinterfaces that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/ecs_networkinterfaces#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlibabacloudstackEcsNetworkinterfaces that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/ecs_networkinterfaces#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlibabacloudstackEcsNetworkinterfaces to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -231,7 +231,7 @@ export class DataAlibabacloudstackEcsNetworkinterfaces extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/ecs_networkinterfaces alibabacloudstack_ecs_networkinterfaces} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/ecs_networkinterfaces alibabacloudstack_ecs_networkinterfaces} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -242,7 +242,8 @@ export class DataAlibabacloudstackEcsNetworkinterfaces extends cdktf.TerraformDa
       terraformResourceType: 'alibabacloudstack_ecs_networkinterfaces',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.19'
+        providerVersion: '3.16.21',
+        providerVersionConstraint: '3.16.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

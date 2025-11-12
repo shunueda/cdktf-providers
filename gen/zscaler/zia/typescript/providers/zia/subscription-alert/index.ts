@@ -91,7 +91,8 @@ export class SubscriptionAlert extends cdktf.TerraformResource {
       terraformResourceType: 'zia_subscription_alert',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.5.3'
+        providerVersion: '4.5.3',
+        providerVersionConstraint: '4.5.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

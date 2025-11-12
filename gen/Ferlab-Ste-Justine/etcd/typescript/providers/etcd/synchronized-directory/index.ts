@@ -92,7 +92,8 @@ export class SynchronizedDirectory extends cdktf.TerraformResource {
       terraformResourceType: 'etcd_synchronized_directory',
       terraformGeneratorMetadata: {
         providerName: 'etcd',
-        providerVersion: '0.11.0'
+        providerVersion: '0.11.0',
+        providerVersionConstraint: '0.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

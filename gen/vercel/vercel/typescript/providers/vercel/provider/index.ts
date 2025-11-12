@@ -67,7 +67,8 @@ export class VercelProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'vercel',
       terraformGeneratorMetadata: {
         providerName: 'vercel',
-        providerVersion: '4.0.0'
+        providerVersion: '4.0.0',
+        providerVersionConstraint: '4.0.0'
       },
       terraformProviderSource: 'vercel/vercel'
     });

@@ -327,7 +327,8 @@ export class CopilotFaultTolerantDeployment extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_copilot_fault_tolerant_deployment',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10'
+        providerVersion: '8.1.10',
+        providerVersionConstraint: '8.1.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

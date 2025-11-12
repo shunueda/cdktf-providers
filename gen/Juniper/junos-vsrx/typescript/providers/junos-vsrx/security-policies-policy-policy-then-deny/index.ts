@@ -84,7 +84,8 @@ export class SecurityPoliciesPolicyPolicyThenDeny extends cdktf.TerraformResourc
       terraformResourceType: 'junos-vsrx_SecurityPoliciesPolicyPolicyThenDeny',
       terraformGeneratorMetadata: {
         providerName: 'junos-vsrx',
-        providerVersion: '20.32.106'
+        providerVersion: '20.32.106',
+        providerVersionConstraint: '20.32.106'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

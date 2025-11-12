@@ -67,7 +67,8 @@ export class NetrisProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'netris',
       terraformGeneratorMetadata: {
         providerName: 'netris',
-        providerVersion: '3.6.6'
+        providerVersion: '3.6.6',
+        providerVersionConstraint: '3.6.6'
       },
       terraformProviderSource: 'netrisai/netris'
     });

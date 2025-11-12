@@ -832,7 +832,8 @@ export class QosSwitchingProfile extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_qos_switching_profile',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0'
+        providerVersion: '3.10.0',
+        providerVersionConstraint: '3.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

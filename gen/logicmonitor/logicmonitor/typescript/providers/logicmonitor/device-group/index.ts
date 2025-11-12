@@ -105,7 +105,8 @@ export class DeviceGroup extends cdktf.TerraformResource {
       terraformResourceType: 'logicmonitor_device_group',
       terraformGeneratorMetadata: {
         providerName: 'logicmonitor',
-        providerVersion: '2.0.25'
+        providerVersion: '2.0.25',
+        providerVersionConstraint: '2.0.25'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -986,7 +986,8 @@ export class TwcServer extends cdktf.TerraformResource {
       terraformResourceType: 'twc_server',
       terraformGeneratorMetadata: {
         providerName: 'timeweb-cloud',
-        providerVersion: '1.6.6'
+        providerVersion: '1.6.6',
+        providerVersionConstraint: '1.6.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

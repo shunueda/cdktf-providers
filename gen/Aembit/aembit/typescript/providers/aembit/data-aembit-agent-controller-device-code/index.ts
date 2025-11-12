@@ -55,7 +55,8 @@ export class DataAembitAgentControllerDeviceCode extends cdktf.TerraformDataSour
       terraformResourceType: 'aembit_agent_controller_device_code',
       terraformGeneratorMetadata: {
         providerName: 'aembit',
-        providerVersion: '1.25.1'
+        providerVersion: '1.25.1',
+        providerVersionConstraint: '1.25.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

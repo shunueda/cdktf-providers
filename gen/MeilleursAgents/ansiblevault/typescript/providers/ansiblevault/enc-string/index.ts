@@ -62,7 +62,8 @@ export class EncString extends cdktf.TerraformResource {
       terraformResourceType: 'ansiblevault_enc_string',
       terraformGeneratorMetadata: {
         providerName: 'ansiblevault',
-        providerVersion: '3.0.1'
+        providerVersion: '3.0.1',
+        providerVersionConstraint: '3.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -71,7 +71,8 @@ export class ChaossearchProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'chaossearch',
       terraformGeneratorMetadata: {
         providerName: 'chaossearch',
-        providerVersion: '0.12.4'
+        providerVersion: '0.12.4',
+        providerVersionConstraint: '0.12.4'
       },
       terraformProviderSource: 'benzaita/chaossearch'
     });

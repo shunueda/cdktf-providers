@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_idp_to_domain_assignment
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_idp_to_domain_assignment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataCheckpointManagementIdpToDomainAssignmentConfig extends cdk
   /**
   * Represents the Domain assigned by 'idp-to-domain-assignment', need to be domain name or UID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_idp_to_domain_assignment#assigned_domain DataCheckpointManagementIdpToDomainAssignment#assigned_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_idp_to_domain_assignment#assigned_domain DataCheckpointManagementIdpToDomainAssignment#assigned_domain}
   */
   readonly assignedDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_idp_to_domain_assignment#id DataCheckpointManagementIdpToDomainAssignment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_idp_to_domain_assignment#id DataCheckpointManagementIdpToDomainAssignment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface DataCheckpointManagementIdpToDomainAssignmentConfig extends cdk
   /**
   * Object unique identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_idp_to_domain_assignment#uid DataCheckpointManagementIdpToDomainAssignment#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_idp_to_domain_assignment#uid DataCheckpointManagementIdpToDomainAssignment#uid}
   */
   readonly uid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_idp_to_domain_assignment checkpoint_management_idp_to_domain_assignment}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_idp_to_domain_assignment checkpoint_management_idp_to_domain_assignment}
 */
 export class DataCheckpointManagementIdpToDomainAssignment extends cdktf.TerraformDataSource {
 
@@ -45,7 +45,7 @@ export class DataCheckpointManagementIdpToDomainAssignment extends cdktf.Terrafo
   * Generates CDKTF code for importing a DataCheckpointManagementIdpToDomainAssignment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCheckpointManagementIdpToDomainAssignment to import
-  * @param importFromId The id of the existing DataCheckpointManagementIdpToDomainAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_idp_to_domain_assignment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCheckpointManagementIdpToDomainAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_idp_to_domain_assignment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCheckpointManagementIdpToDomainAssignment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class DataCheckpointManagementIdpToDomainAssignment extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_idp_to_domain_assignment checkpoint_management_idp_to_domain_assignment} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_idp_to_domain_assignment checkpoint_management_idp_to_domain_assignment} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,7 +68,8 @@ export class DataCheckpointManagementIdpToDomainAssignment extends cdktf.Terrafo
       terraformResourceType: 'checkpoint_management_idp_to_domain_assignment',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

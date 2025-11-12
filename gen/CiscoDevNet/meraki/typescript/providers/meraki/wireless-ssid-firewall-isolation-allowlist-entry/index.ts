@@ -79,7 +79,8 @@ export class WirelessSsidFirewallIsolationAllowlistEntry extends cdktf.Terraform
       terraformResourceType: 'meraki_wireless_ssid_firewall_isolation_allowlist_entry',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1'
+        providerVersion: '1.7.1',
+        providerVersionConstraint: '1.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

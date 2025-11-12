@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_show_updatable_objects_repository_content
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_show_updatable_objects_repository_content
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataCheckpointManagementShowUpdatableObjectsRepositoryContentCo
   /**
   * Return results matching the specified filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_show_updatable_objects_repository_content#filter DataCheckpointManagementShowUpdatableObjectsRepositoryContent#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_show_updatable_objects_repository_content#filter DataCheckpointManagementShowUpdatableObjectsRepositoryContent#filter}
   */
   readonly filter?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_show_updatable_objects_repository_content#id DataCheckpointManagementShowUpdatableObjectsRepositoryContent#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_show_updatable_objects_repository_content#id DataCheckpointManagementShowUpdatableObjectsRepositoryContent#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface DataCheckpointManagementShowUpdatableObjectsRepositoryContentCo
   /**
   * The maximal number of returned results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_show_updatable_objects_repository_content#limit DataCheckpointManagementShowUpdatableObjectsRepositoryContent#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_show_updatable_objects_repository_content#limit DataCheckpointManagementShowUpdatableObjectsRepositoryContent#limit}
   */
   readonly limit?: number;
   /**
   * Number of the results to initially skip.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_show_updatable_objects_repository_content#offset DataCheckpointManagementShowUpdatableObjectsRepositoryContent#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_show_updatable_objects_repository_content#offset DataCheckpointManagementShowUpdatableObjectsRepositoryContent#offset}
   */
   readonly offset?: number;
   /**
   * The object's unique identifier in the Updatable Objects repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_show_updatable_objects_repository_content#uid_in_updatable_objects_repository DataCheckpointManagementShowUpdatableObjectsRepositoryContent#uid_in_updatable_objects_repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_show_updatable_objects_repository_content#uid_in_updatable_objects_repository DataCheckpointManagementShowUpdatableObjectsRepositoryContent#uid_in_updatable_objects_repository}
   */
   readonly uidInUpdatableObjectsRepository?: string;
   /**
   * order block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_show_updatable_objects_repository_content#order DataCheckpointManagementShowUpdatableObjectsRepositoryContent#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_show_updatable_objects_repository_content#order DataCheckpointManagementShowUpdatableObjectsRepositoryContent#order}
   */
   readonly order?: DataCheckpointManagementShowUpdatableObjectsRepositoryContentOrder[] | cdktf.IResolvable;
 }
@@ -226,13 +226,13 @@ export interface DataCheckpointManagementShowUpdatableObjectsRepositoryContentOr
   /**
   * Sorts results by the given field in ascending order.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_show_updatable_objects_repository_content#asc DataCheckpointManagementShowUpdatableObjectsRepositoryContent#asc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_show_updatable_objects_repository_content#asc DataCheckpointManagementShowUpdatableObjectsRepositoryContent#asc}
   */
   readonly asc?: string;
   /**
   * Sorts results by the given field in descending order.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_show_updatable_objects_repository_content#desc DataCheckpointManagementShowUpdatableObjectsRepositoryContent#desc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_show_updatable_objects_repository_content#desc DataCheckpointManagementShowUpdatableObjectsRepositoryContent#desc}
   */
   readonly desc?: string;
 }
@@ -377,7 +377,7 @@ export class DataCheckpointManagementShowUpdatableObjectsRepositoryContentOrderL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_show_updatable_objects_repository_content checkpoint_management_show_updatable_objects_repository_content}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_show_updatable_objects_repository_content checkpoint_management_show_updatable_objects_repository_content}
 */
 export class DataCheckpointManagementShowUpdatableObjectsRepositoryContent extends cdktf.TerraformDataSource {
 
@@ -393,7 +393,7 @@ export class DataCheckpointManagementShowUpdatableObjectsRepositoryContent exten
   * Generates CDKTF code for importing a DataCheckpointManagementShowUpdatableObjectsRepositoryContent resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCheckpointManagementShowUpdatableObjectsRepositoryContent to import
-  * @param importFromId The id of the existing DataCheckpointManagementShowUpdatableObjectsRepositoryContent that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_show_updatable_objects_repository_content#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCheckpointManagementShowUpdatableObjectsRepositoryContent that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_show_updatable_objects_repository_content#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCheckpointManagementShowUpdatableObjectsRepositoryContent to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -405,7 +405,7 @@ export class DataCheckpointManagementShowUpdatableObjectsRepositoryContent exten
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_show_updatable_objects_repository_content checkpoint_management_show_updatable_objects_repository_content} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_show_updatable_objects_repository_content checkpoint_management_show_updatable_objects_repository_content} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -416,7 +416,8 @@ export class DataCheckpointManagementShowUpdatableObjectsRepositoryContent exten
       terraformResourceType: 'checkpoint_management_show_updatable_objects_repository_content',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

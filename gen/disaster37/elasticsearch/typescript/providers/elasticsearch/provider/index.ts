@@ -103,7 +103,8 @@ export class ElasticsearchProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'elasticsearch',
       terraformGeneratorMetadata: {
         providerName: 'elasticsearch',
-        providerVersion: '8.4.0'
+        providerVersion: '8.4.0',
+        providerVersionConstraint: '8.4.0'
       },
       terraformProviderSource: 'disaster37/elasticsearch'
     });

@@ -996,7 +996,8 @@ export class DataDatabricksPolicyInfos extends cdktf.TerraformDataSource {
       terraformResourceType: 'databricks_policy_infos',
       terraformGeneratorMetadata: {
         providerName: 'databricks',
-        providerVersion: '1.97.0'
+        providerVersion: '1.97.0',
+        providerVersionConstraint: '1.97.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

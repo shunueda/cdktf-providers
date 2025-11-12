@@ -222,7 +222,8 @@ export class AamAuthenticationServiceGroupMember extends cdktf.TerraformResource
       terraformResourceType: 'thunder_aam_authentication_service_group_member',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -288,7 +288,8 @@ export class User extends cdktf.TerraformResource {
       terraformResourceType: 'freeipa_user',
       terraformGeneratorMetadata: {
         providerName: 'freeipa',
-        providerVersion: '5.1.3'
+        providerVersion: '5.1.3',
+        providerVersionConstraint: '5.1.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

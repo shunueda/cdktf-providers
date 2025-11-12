@@ -230,7 +230,8 @@ export class Subnet extends cdktf.TerraformResource {
       terraformResourceType: 'multy_subnet',
       terraformGeneratorMetadata: {
         providerName: 'multy',
-        providerVersion: '0.0.16'
+        providerVersion: '0.0.16',
+        providerVersionConstraint: '0.0.16'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

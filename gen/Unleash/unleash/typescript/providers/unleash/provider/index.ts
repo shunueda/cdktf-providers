@@ -67,7 +67,8 @@ export class UnleashProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'unleash',
       terraformGeneratorMetadata: {
         providerName: 'unleash',
-        providerVersion: '3.1.11'
+        providerVersion: '3.1.11',
+        providerVersionConstraint: '3.1.11'
       },
       terraformProviderSource: 'Unleash/unleash'
     });

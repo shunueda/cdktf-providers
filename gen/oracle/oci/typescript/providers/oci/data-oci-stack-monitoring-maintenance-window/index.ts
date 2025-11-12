@@ -318,7 +318,8 @@ export class DataOciStackMonitoringMaintenanceWindow extends cdktf.TerraformData
       terraformResourceType: 'oci_stack_monitoring_maintenance_window',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

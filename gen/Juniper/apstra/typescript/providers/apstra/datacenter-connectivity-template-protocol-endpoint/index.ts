@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_template_protocol_endpoint
+// https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_template_protocol_endpoint
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface DatacenterConnectivityTemplateProtocolEndpointConfig extends cd
   /**
   * Blueprint ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_template_protocol_endpoint#blueprint_id DatacenterConnectivityTemplateProtocolEndpoint#blueprint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_template_protocol_endpoint#blueprint_id DatacenterConnectivityTemplateProtocolEndpoint#blueprint_id}
   */
   readonly blueprintId: string;
   /**
   * Connectivity Template Description displayed in the web UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_template_protocol_endpoint#description DatacenterConnectivityTemplateProtocolEndpoint#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_template_protocol_endpoint#description DatacenterConnectivityTemplateProtocolEndpoint#description}
   */
   readonly description?: string;
   /**
   * Connectivity Template Name displayed in the web UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_template_protocol_endpoint#name DatacenterConnectivityTemplateProtocolEndpoint#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_template_protocol_endpoint#name DatacenterConnectivityTemplateProtocolEndpoint#name}
   */
   readonly name: string;
   /**
   * Map of Routing Policy Primitives to be used with this *Protocol Endpoint*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_template_protocol_endpoint#routing_policies DatacenterConnectivityTemplateProtocolEndpoint#routing_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_template_protocol_endpoint#routing_policies DatacenterConnectivityTemplateProtocolEndpoint#routing_policies}
   */
   readonly routingPolicies?: { [key: string]: DatacenterConnectivityTemplateProtocolEndpointRoutingPolicies } | cdktf.IResolvable;
   /**
   * Set of Tags associated with this Connectivity Template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_template_protocol_endpoint#tags DatacenterConnectivityTemplateProtocolEndpoint#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_template_protocol_endpoint#tags DatacenterConnectivityTemplateProtocolEndpoint#tags}
   */
   readonly tags?: string[];
 }
@@ -42,7 +42,7 @@ export interface DatacenterConnectivityTemplateProtocolEndpointRoutingPolicies {
   /**
   * Routing Policy ID to be applied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_template_protocol_endpoint#routing_policy_id DatacenterConnectivityTemplateProtocolEndpoint#routing_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_template_protocol_endpoint#routing_policy_id DatacenterConnectivityTemplateProtocolEndpoint#routing_policy_id}
   */
   readonly routingPolicyId: string;
 }
@@ -163,7 +163,7 @@ export class DatacenterConnectivityTemplateProtocolEndpointRoutingPoliciesMap ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_template_protocol_endpoint apstra_datacenter_connectivity_template_protocol_endpoint}
+* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_template_protocol_endpoint apstra_datacenter_connectivity_template_protocol_endpoint}
 */
 export class DatacenterConnectivityTemplateProtocolEndpoint extends cdktf.TerraformResource {
 
@@ -179,7 +179,7 @@ export class DatacenterConnectivityTemplateProtocolEndpoint extends cdktf.Terraf
   * Generates CDKTF code for importing a DatacenterConnectivityTemplateProtocolEndpoint resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatacenterConnectivityTemplateProtocolEndpoint to import
-  * @param importFromId The id of the existing DatacenterConnectivityTemplateProtocolEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_template_protocol_endpoint#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatacenterConnectivityTemplateProtocolEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_template_protocol_endpoint#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatacenterConnectivityTemplateProtocolEndpoint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -191,7 +191,7 @@ export class DatacenterConnectivityTemplateProtocolEndpoint extends cdktf.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_template_protocol_endpoint apstra_datacenter_connectivity_template_protocol_endpoint} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_template_protocol_endpoint apstra_datacenter_connectivity_template_protocol_endpoint} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -202,7 +202,8 @@ export class DatacenterConnectivityTemplateProtocolEndpoint extends cdktf.Terraf
       terraformResourceType: 'apstra_datacenter_connectivity_template_protocol_endpoint',
       terraformGeneratorMetadata: {
         providerName: 'apstra',
-        providerVersion: '0.95.0'
+        providerVersion: '0.95.1',
+        providerVersionConstraint: '0.95.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

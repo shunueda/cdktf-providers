@@ -394,7 +394,8 @@ export class DataOciDnsSteeringPolicyAttachments extends cdktf.TerraformDataSour
       terraformResourceType: 'oci_dns_steering_policy_attachments',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

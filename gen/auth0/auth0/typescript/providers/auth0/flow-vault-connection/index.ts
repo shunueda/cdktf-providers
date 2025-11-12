@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/flow_vault_connection
+// https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/flow_vault_connection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface FlowVaultConnectionConfig extends cdktf.TerraformMetaArguments 
   /**
   * Custom account name of the vault connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/flow_vault_connection#account_name FlowVaultConnection#account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/flow_vault_connection#account_name FlowVaultConnection#account_name}
   */
   readonly accountName?: string;
   /**
   * App identifier of the vault connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/flow_vault_connection#app_id FlowVaultConnection#app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/flow_vault_connection#app_id FlowVaultConnection#app_id}
   */
   readonly appId: string;
   /**
   * Environment of the vault connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/flow_vault_connection#environment FlowVaultConnection#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/flow_vault_connection#environment FlowVaultConnection#environment}
   */
   readonly environment?: string;
   /**
   * Fingerprint of the vault connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/flow_vault_connection#fingerprint FlowVaultConnection#fingerprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/flow_vault_connection#fingerprint FlowVaultConnection#fingerprint}
   */
   readonly fingerprint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/flow_vault_connection#id FlowVaultConnection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/flow_vault_connection#id FlowVaultConnection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,19 +41,19 @@ export interface FlowVaultConnectionConfig extends cdktf.TerraformMetaArguments 
   /**
   * Name of the vault connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/flow_vault_connection#name FlowVaultConnection#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/flow_vault_connection#name FlowVaultConnection#name}
   */
   readonly name: string;
   /**
   * Configuration of the vault connection. (Mapping information must be provided as key/value pairs)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/flow_vault_connection#setup FlowVaultConnection#setup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/flow_vault_connection#setup FlowVaultConnection#setup}
   */
   readonly setup?: { [key: string]: string };
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/flow_vault_connection auth0_flow_vault_connection}
+* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/flow_vault_connection auth0_flow_vault_connection}
 */
 export class FlowVaultConnection extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class FlowVaultConnection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FlowVaultConnection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FlowVaultConnection to import
-  * @param importFromId The id of the existing FlowVaultConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/flow_vault_connection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FlowVaultConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/flow_vault_connection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FlowVaultConnection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class FlowVaultConnection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/flow_vault_connection auth0_flow_vault_connection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/flow_vault_connection auth0_flow_vault_connection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,7 +92,8 @@ export class FlowVaultConnection extends cdktf.TerraformResource {
       terraformResourceType: 'auth0_flow_vault_connection',
       terraformGeneratorMetadata: {
         providerName: 'auth0',
-        providerVersion: '1.33.0'
+        providerVersion: '1.34.0',
+        providerVersionConstraint: '1.34.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

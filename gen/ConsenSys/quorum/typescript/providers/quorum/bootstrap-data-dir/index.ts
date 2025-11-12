@@ -74,7 +74,8 @@ export class BootstrapDataDir extends cdktf.TerraformResource {
       terraformResourceType: 'quorum_bootstrap_data_dir',
       terraformGeneratorMetadata: {
         providerName: 'quorum',
-        providerVersion: '0.3.0'
+        providerVersion: '0.3.0',
+        providerVersionConstraint: '0.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

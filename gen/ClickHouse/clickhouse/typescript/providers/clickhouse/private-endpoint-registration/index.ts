@@ -73,7 +73,8 @@ export class PrivateEndpointRegistration extends cdktf.TerraformResource {
       terraformResourceType: 'clickhouse_private_endpoint_registration',
       terraformGeneratorMetadata: {
         providerName: 'clickhouse',
-        providerVersion: '3.5.4'
+        providerVersion: '3.5.4',
+        providerVersionConstraint: '3.5.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

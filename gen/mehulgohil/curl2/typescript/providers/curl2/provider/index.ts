@@ -277,7 +277,8 @@ export class Curl2Provider extends cdktf.TerraformProvider {
       terraformResourceType: 'curl2',
       terraformGeneratorMetadata: {
         providerName: 'curl2',
-        providerVersion: '1.6.1'
+        providerVersion: '1.6.1',
+        providerVersionConstraint: '1.6.1'
       },
       terraformProviderSource: 'mehulgohil/curl2'
     });

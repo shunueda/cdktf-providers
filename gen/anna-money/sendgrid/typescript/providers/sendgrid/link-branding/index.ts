@@ -170,7 +170,8 @@ export class LinkBranding extends cdktf.TerraformResource {
       terraformResourceType: 'sendgrid_link_branding',
       terraformGeneratorMetadata: {
         providerName: 'sendgrid',
-        providerVersion: '1.1.2'
+        providerVersion: '1.1.2',
+        providerVersionConstraint: '1.1.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

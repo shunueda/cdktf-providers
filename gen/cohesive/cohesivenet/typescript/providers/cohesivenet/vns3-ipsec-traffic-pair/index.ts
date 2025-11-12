@@ -330,7 +330,8 @@ export class Vns3IpsecTrafficPair extends cdktf.TerraformResource {
       terraformResourceType: 'cohesivenet_vns3_ipsec_traffic_pair',
       terraformGeneratorMetadata: {
         providerName: 'cohesivenet',
-        providerVersion: '1.0.8'
+        providerVersion: '1.0.8',
+        providerVersionConstraint: '1.0.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

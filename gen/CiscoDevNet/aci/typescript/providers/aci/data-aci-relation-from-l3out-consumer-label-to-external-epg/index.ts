@@ -221,7 +221,8 @@ export class DataAciRelationFromL3OutConsumerLabelToExternalEpg extends cdktf.Te
       terraformResourceType: 'aci_relation_from_l3out_consumer_label_to_external_epg',
       terraformGeneratorMetadata: {
         providerName: 'aci',
-        providerVersion: '2.18.0'
+        providerVersion: '2.18.0',
+        providerVersionConstraint: '2.18.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

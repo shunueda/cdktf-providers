@@ -532,7 +532,8 @@ export class SourceConfluence extends cdktf.TerraformResource {
       terraformResourceType: 'airbyte_source_confluence',
       terraformGeneratorMetadata: {
         providerName: 'airbyte',
-        providerVersion: '0.13.0'
+        providerVersion: '0.13.0',
+        providerVersionConstraint: '0.13.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

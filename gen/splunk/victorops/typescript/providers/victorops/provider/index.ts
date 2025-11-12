@@ -73,7 +73,8 @@ export class VictoropsProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'victorops',
       terraformGeneratorMetadata: {
         providerName: 'victorops',
-        providerVersion: '0.1.4'
+        providerVersion: '0.1.4',
+        providerVersionConstraint: '0.1.4'
       },
       terraformProviderSource: 'splunk/victorops'
     });

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.1/docs/resources/grant_role
+// https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.2/docs/resources/grant_role
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface GrantRoleConfig extends cdktf.TerraformMetaArguments {
   /**
   * If true, the grantee will be able to grant `role_name` to other `users` or `roles`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.1/docs/resources/grant_role#admin_option GrantRole#admin_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.2/docs/resources/grant_role#admin_option GrantRole#admin_option}
   */
   readonly adminOption?: boolean | cdktf.IResolvable;
   /**
@@ -19,31 +19,31 @@ export interface GrantRoleConfig extends cdktf.TerraformMetaArguments {
   * When using a self hosted ClickHouse instance, this field should only be set when there is more than one replica and you are not using 'replicated' storage for user_directory.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.1/docs/resources/grant_role#cluster_name GrantRole#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.2/docs/resources/grant_role#cluster_name GrantRole#cluster_name}
   */
   readonly clusterName?: string;
   /**
   * Name of the `role` to grant `role_name` to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.1/docs/resources/grant_role#grantee_role_name GrantRole#grantee_role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.2/docs/resources/grant_role#grantee_role_name GrantRole#grantee_role_name}
   */
   readonly granteeRoleName?: string;
   /**
   * Name of the `user` to grant `role_name` to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.1/docs/resources/grant_role#grantee_user_name GrantRole#grantee_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.2/docs/resources/grant_role#grantee_user_name GrantRole#grantee_user_name}
   */
   readonly granteeUserName?: string;
   /**
   * Name of the role to be granted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.1/docs/resources/grant_role#role_name GrantRole#role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.2/docs/resources/grant_role#role_name GrantRole#role_name}
   */
   readonly roleName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.1/docs/resources/grant_role clickhousedbops_grant_role}
+* Represents a {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.2/docs/resources/grant_role clickhousedbops_grant_role}
 */
 export class GrantRole extends cdktf.TerraformResource {
 
@@ -59,7 +59,7 @@ export class GrantRole extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GrantRole resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GrantRole to import
-  * @param importFromId The id of the existing GrantRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.1/docs/resources/grant_role#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GrantRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.2/docs/resources/grant_role#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GrantRole to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -71,7 +71,7 @@ export class GrantRole extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.1/docs/resources/grant_role clickhousedbops_grant_role} Resource
+  * Create a new {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.2/docs/resources/grant_role clickhousedbops_grant_role} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -82,7 +82,8 @@ export class GrantRole extends cdktf.TerraformResource {
       terraformResourceType: 'clickhousedbops_grant_role',
       terraformGeneratorMetadata: {
         providerName: 'clickhousedbops',
-        providerVersion: '1.3.1'
+        providerVersion: '1.3.2',
+        providerVersionConstraint: '1.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

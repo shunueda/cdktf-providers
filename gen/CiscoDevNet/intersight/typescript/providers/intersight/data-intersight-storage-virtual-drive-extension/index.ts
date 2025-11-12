@@ -5136,7 +5136,8 @@ export class DataIntersightStorageVirtualDriveExtension extends cdktf.TerraformD
       terraformResourceType: 'intersight_storage_virtual_drive_extension',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

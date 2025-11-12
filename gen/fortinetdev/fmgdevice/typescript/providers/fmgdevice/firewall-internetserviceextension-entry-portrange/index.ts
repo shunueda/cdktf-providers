@@ -84,7 +84,8 @@ export class FirewallInternetserviceextensionEntryPortrange extends cdktf.Terraf
       terraformResourceType: 'fmgdevice_firewall_internetserviceextension_entry_portrange',
       terraformGeneratorMetadata: {
         providerName: 'fmgdevice',
-        providerVersion: '1.2.1'
+        providerVersion: '1.2.1',
+        providerVersionConstraint: '1.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

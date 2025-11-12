@@ -55,7 +55,8 @@ export class MultipassProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'multipass',
       terraformGeneratorMetadata: {
         providerName: 'multipass',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       terraformProviderSource: 'larstobi/multipass'
     });

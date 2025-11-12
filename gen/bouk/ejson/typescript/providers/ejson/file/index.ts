@@ -68,7 +68,8 @@ export class File extends cdktf.TerraformResource {
       terraformResourceType: 'ejson_file',
       terraformGeneratorMetadata: {
         providerName: 'ejson',
-        providerVersion: '1.2.3'
+        providerVersion: '1.2.3',
+        providerVersionConstraint: '1.2.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

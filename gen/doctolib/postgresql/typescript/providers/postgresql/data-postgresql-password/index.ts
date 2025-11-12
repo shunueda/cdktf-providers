@@ -56,7 +56,8 @@ export class DataPostgresqlPassword extends cdktf.TerraformDataSource {
       terraformResourceType: 'postgresql_password',
       terraformGeneratorMetadata: {
         providerName: 'postgresql',
-        providerVersion: '2.26.2'
+        providerVersion: '2.26.2',
+        providerVersionConstraint: '2.26.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

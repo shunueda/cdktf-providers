@@ -76,7 +76,8 @@ export class DataSdwanTransportWanVpnInterfaceEthernetFeatureAssociateTrackerFea
       terraformResourceType: 'sdwan_transport_wan_vpn_interface_ethernet_feature_associate_tracker_feature',
       terraformGeneratorMetadata: {
         providerName: 'sdwan',
-        providerVersion: '0.8.1'
+        providerVersion: '0.8.1',
+        providerVersionConstraint: '0.8.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

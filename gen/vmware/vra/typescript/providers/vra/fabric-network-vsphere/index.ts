@@ -326,7 +326,8 @@ export class FabricNetworkVsphere extends cdktf.TerraformResource {
       terraformResourceType: 'vra_fabric_network_vsphere',
       terraformGeneratorMetadata: {
         providerName: 'vra',
-        providerVersion: '0.15.0'
+        providerVersion: '0.15.0',
+        providerVersionConstraint: '0.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

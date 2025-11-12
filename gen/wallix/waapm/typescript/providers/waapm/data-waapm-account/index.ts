@@ -116,7 +116,8 @@ export class DataWaapmAccount extends cdktf.TerraformDataSource {
       terraformResourceType: 'waapm_account',
       terraformGeneratorMetadata: {
         providerName: 'waapm',
-        providerVersion: '2.0.4'
+        providerVersion: '2.0.4',
+        providerVersionConstraint: '2.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -618,7 +618,8 @@ export class CiMediaAnimationTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_ci_media_animation_template',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

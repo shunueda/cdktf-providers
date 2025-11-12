@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/data-sources/groups
+// https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/data-sources/groups
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -179,6 +179,80 @@ export class DataSftpgoGroupsGroupsUserSettingsFilesystemCryptconfigOutputRefere
   // write_buffer_size - computed: true, optional: false, required: false
   public get writeBufferSize() {
     return this.getNumberAttribute('write_buffer_size');
+  }
+}
+export interface DataSftpgoGroupsGroupsUserSettingsFilesystemFtpconfig {
+}
+
+export function dataSftpgoGroupsGroupsUserSettingsFilesystemFtpconfigToTerraform(struct?: DataSftpgoGroupsGroupsUserSettingsFilesystemFtpconfig): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataSftpgoGroupsGroupsUserSettingsFilesystemFtpconfigToHclTerraform(struct?: DataSftpgoGroupsGroupsUserSettingsFilesystemFtpconfig): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataSftpgoGroupsGroupsUserSettingsFilesystemFtpconfigOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataSftpgoGroupsGroupsUserSettingsFilesystemFtpconfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataSftpgoGroupsGroupsUserSettingsFilesystemFtpconfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // endpoint - computed: true, optional: false, required: false
+  public get endpoint() {
+    return this.getStringAttribute('endpoint');
+  }
+
+  // password - computed: true, optional: false, required: false
+  public get password() {
+    return this.getStringAttribute('password');
+  }
+
+  // skip_tls_verify - computed: true, optional: false, required: false
+  public get skipTlsVerify() {
+    return this.getBooleanAttribute('skip_tls_verify');
+  }
+
+  // tls_mode - computed: true, optional: false, required: false
+  public get tlsMode() {
+    return this.getNumberAttribute('tls_mode');
+  }
+
+  // username - computed: true, optional: false, required: false
+  public get username() {
+    return this.getStringAttribute('username');
   }
 }
 export interface DataSftpgoGroupsGroupsUserSettingsFilesystemGcsconfig {
@@ -732,6 +806,12 @@ export class DataSftpgoGroupsGroupsUserSettingsFilesystemOutputReference extends
     return this._cryptconfig;
   }
 
+  // ftpconfig - computed: true, optional: false, required: false
+  private _ftpconfig = new DataSftpgoGroupsGroupsUserSettingsFilesystemFtpconfigOutputReference(this, "ftpconfig");
+  public get ftpconfig() {
+    return this._ftpconfig;
+  }
+
   // gcsconfig - computed: true, optional: false, required: false
   private _gcsconfig = new DataSftpgoGroupsGroupsUserSettingsFilesystemGcsconfigOutputReference(this, "gcsconfig");
   public get gcsconfig() {
@@ -1027,6 +1107,222 @@ export class DataSftpgoGroupsGroupsUserSettingsFiltersFilePatternsList extends c
     return new DataSftpgoGroupsGroupsUserSettingsFiltersFilePatternsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface DataSftpgoGroupsGroupsUserSettingsFiltersPasswordPolicy {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/data-sources/groups#digits DataSftpgoGroups#digits}
+  */
+  readonly digits?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/data-sources/groups#length DataSftpgoGroups#length}
+  */
+  readonly length?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/data-sources/groups#lowers DataSftpgoGroups#lowers}
+  */
+  readonly lowers?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/data-sources/groups#specials DataSftpgoGroups#specials}
+  */
+  readonly specials?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/data-sources/groups#uppers DataSftpgoGroups#uppers}
+  */
+  readonly uppers?: number;
+}
+
+export function dataSftpgoGroupsGroupsUserSettingsFiltersPasswordPolicyToTerraform(struct?: DataSftpgoGroupsGroupsUserSettingsFiltersPasswordPolicy): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    digits: cdktf.numberToTerraform(struct!.digits),
+    length: cdktf.numberToTerraform(struct!.length),
+    lowers: cdktf.numberToTerraform(struct!.lowers),
+    specials: cdktf.numberToTerraform(struct!.specials),
+    uppers: cdktf.numberToTerraform(struct!.uppers),
+  }
+}
+
+
+export function dataSftpgoGroupsGroupsUserSettingsFiltersPasswordPolicyToHclTerraform(struct?: DataSftpgoGroupsGroupsUserSettingsFiltersPasswordPolicy): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    digits: {
+      value: cdktf.numberToHclTerraform(struct!.digits),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    length: {
+      value: cdktf.numberToHclTerraform(struct!.length),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    lowers: {
+      value: cdktf.numberToHclTerraform(struct!.lowers),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    specials: {
+      value: cdktf.numberToHclTerraform(struct!.specials),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    uppers: {
+      value: cdktf.numberToHclTerraform(struct!.uppers),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataSftpgoGroupsGroupsUserSettingsFiltersPasswordPolicyOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataSftpgoGroupsGroupsUserSettingsFiltersPasswordPolicy | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._digits !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.digits = this._digits;
+    }
+    if (this._length !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.length = this._length;
+    }
+    if (this._lowers !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.lowers = this._lowers;
+    }
+    if (this._specials !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.specials = this._specials;
+    }
+    if (this._uppers !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uppers = this._uppers;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataSftpgoGroupsGroupsUserSettingsFiltersPasswordPolicy | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._digits = undefined;
+      this._length = undefined;
+      this._lowers = undefined;
+      this._specials = undefined;
+      this._uppers = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._digits = value.digits;
+      this._length = value.length;
+      this._lowers = value.lowers;
+      this._specials = value.specials;
+      this._uppers = value.uppers;
+    }
+  }
+
+  // digits - computed: true, optional: true, required: false
+  private _digits?: number; 
+  public get digits() {
+    return this.getNumberAttribute('digits');
+  }
+  public set digits(value: number) {
+    this._digits = value;
+  }
+  public resetDigits() {
+    this._digits = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get digitsInput() {
+    return this._digits;
+  }
+
+  // length - computed: true, optional: true, required: false
+  private _length?: number; 
+  public get length() {
+    return this.getNumberAttribute('length');
+  }
+  public set length(value: number) {
+    this._length = value;
+  }
+  public resetLength() {
+    this._length = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get lengthInput() {
+    return this._length;
+  }
+
+  // lowers - computed: true, optional: true, required: false
+  private _lowers?: number; 
+  public get lowers() {
+    return this.getNumberAttribute('lowers');
+  }
+  public set lowers(value: number) {
+    this._lowers = value;
+  }
+  public resetLowers() {
+    this._lowers = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get lowersInput() {
+    return this._lowers;
+  }
+
+  // specials - computed: true, optional: true, required: false
+  private _specials?: number; 
+  public get specials() {
+    return this.getNumberAttribute('specials');
+  }
+  public set specials(value: number) {
+    this._specials = value;
+  }
+  public resetSpecials() {
+    this._specials = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get specialsInput() {
+    return this._specials;
+  }
+
+  // uppers - computed: true, optional: true, required: false
+  private _uppers?: number; 
+  public get uppers() {
+    return this.getNumberAttribute('uppers');
+  }
+  public set uppers(value: number) {
+    this._uppers = value;
+  }
+  public resetUppers() {
+    this._uppers = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uppersInput() {
+    return this._uppers;
+  }
+}
 export interface DataSftpgoGroupsGroupsUserSettingsFilters {
 }
 
@@ -1172,6 +1468,12 @@ export class DataSftpgoGroupsGroupsUserSettingsFiltersOutputReference extends cd
   // password_expiration - computed: true, optional: false, required: false
   public get passwordExpiration() {
     return this.getNumberAttribute('password_expiration');
+  }
+
+  // password_policy - computed: true, optional: false, required: false
+  private _passwordPolicy = new DataSftpgoGroupsGroupsUserSettingsFiltersPasswordPolicyOutputReference(this, "password_policy");
+  public get passwordPolicy() {
+    return this._passwordPolicy;
   }
 
   // password_strength - computed: true, optional: false, required: false
@@ -1497,6 +1799,80 @@ export class DataSftpgoGroupsGroupsVirtualFoldersFilesystemCryptconfigOutputRefe
   // write_buffer_size - computed: true, optional: false, required: false
   public get writeBufferSize() {
     return this.getNumberAttribute('write_buffer_size');
+  }
+}
+export interface DataSftpgoGroupsGroupsVirtualFoldersFilesystemFtpconfig {
+}
+
+export function dataSftpgoGroupsGroupsVirtualFoldersFilesystemFtpconfigToTerraform(struct?: DataSftpgoGroupsGroupsVirtualFoldersFilesystemFtpconfig): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataSftpgoGroupsGroupsVirtualFoldersFilesystemFtpconfigToHclTerraform(struct?: DataSftpgoGroupsGroupsVirtualFoldersFilesystemFtpconfig): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataSftpgoGroupsGroupsVirtualFoldersFilesystemFtpconfigOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataSftpgoGroupsGroupsVirtualFoldersFilesystemFtpconfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataSftpgoGroupsGroupsVirtualFoldersFilesystemFtpconfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // endpoint - computed: true, optional: false, required: false
+  public get endpoint() {
+    return this.getStringAttribute('endpoint');
+  }
+
+  // password - computed: true, optional: false, required: false
+  public get password() {
+    return this.getStringAttribute('password');
+  }
+
+  // skip_tls_verify - computed: true, optional: false, required: false
+  public get skipTlsVerify() {
+    return this.getBooleanAttribute('skip_tls_verify');
+  }
+
+  // tls_mode - computed: true, optional: false, required: false
+  public get tlsMode() {
+    return this.getNumberAttribute('tls_mode');
+  }
+
+  // username - computed: true, optional: false, required: false
+  public get username() {
+    return this.getStringAttribute('username');
   }
 }
 export interface DataSftpgoGroupsGroupsVirtualFoldersFilesystemGcsconfig {
@@ -2050,6 +2426,12 @@ export class DataSftpgoGroupsGroupsVirtualFoldersFilesystemOutputReference exten
     return this._cryptconfig;
   }
 
+  // ftpconfig - computed: true, optional: false, required: false
+  private _ftpconfig = new DataSftpgoGroupsGroupsVirtualFoldersFilesystemFtpconfigOutputReference(this, "ftpconfig");
+  public get ftpconfig() {
+    return this._ftpconfig;
+  }
+
   // gcsconfig - computed: true, optional: false, required: false
   private _gcsconfig = new DataSftpgoGroupsGroupsVirtualFoldersFilesystemGcsconfigOutputReference(this, "gcsconfig");
   public get gcsconfig() {
@@ -2315,7 +2697,7 @@ export class DataSftpgoGroupsGroupsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/data-sources/groups sftpgo_groups}
+* Represents a {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/data-sources/groups sftpgo_groups}
 */
 export class DataSftpgoGroups extends cdktf.TerraformDataSource {
 
@@ -2331,7 +2713,7 @@ export class DataSftpgoGroups extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSftpgoGroups resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSftpgoGroups to import
-  * @param importFromId The id of the existing DataSftpgoGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/data-sources/groups#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSftpgoGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/data-sources/groups#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSftpgoGroups to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2343,7 +2725,7 @@ export class DataSftpgoGroups extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/data-sources/groups sftpgo_groups} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/data-sources/groups sftpgo_groups} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2354,7 +2736,8 @@ export class DataSftpgoGroups extends cdktf.TerraformDataSource {
       terraformResourceType: 'sftpgo_groups',
       terraformGeneratorMetadata: {
         providerName: 'sftpgo',
-        providerVersion: '0.0.18'
+        providerVersion: '0.0.19',
+        providerVersionConstraint: '0.0.19'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

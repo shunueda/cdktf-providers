@@ -155,7 +155,8 @@ export class DataServerscomServerModelOrderOption extends cdktf.TerraformDataSou
       terraformResourceType: 'serverscom_server_model_order_option',
       terraformGeneratorMetadata: {
         providerName: 'serverscom',
-        providerVersion: '0.5.2'
+        providerVersion: '0.5.2',
+        providerVersionConstraint: '0.5.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

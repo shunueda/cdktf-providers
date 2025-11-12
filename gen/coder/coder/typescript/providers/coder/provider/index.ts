@@ -61,7 +61,8 @@ export class CoderProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'coder',
       terraformGeneratorMetadata: {
         providerName: 'coder',
-        providerVersion: '2.13.1'
+        providerVersion: '2.13.1',
+        providerVersionConstraint: '2.13.1'
       },
       terraformProviderSource: 'coder/coder'
     });

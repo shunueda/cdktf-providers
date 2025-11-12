@@ -215,7 +215,8 @@ export class DataPingoneTrustedEmailDomainOwnership extends cdktf.TerraformDataS
       terraformResourceType: 'pingone_trusted_email_domain_ownership',
       terraformGeneratorMetadata: {
         providerName: 'pingone',
-        providerVersion: '1.14.0'
+        providerVersion: '1.14.0',
+        providerVersionConstraint: '1.14.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -67,7 +67,8 @@ export class CycloidProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'cycloid',
       terraformGeneratorMetadata: {
         providerName: 'cycloid',
-        providerVersion: '0.0.23'
+        providerVersion: '0.0.23',
+        providerVersionConstraint: '0.0.23'
       },
       terraformProviderSource: 'cycloidio/cycloid'
     });

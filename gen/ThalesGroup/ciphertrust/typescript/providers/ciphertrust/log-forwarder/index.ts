@@ -1120,7 +1120,8 @@ export class LogForwarder extends cdktf.TerraformResource {
       terraformResourceType: 'ciphertrust_log_forwarder',
       terraformGeneratorMetadata: {
         providerName: 'ciphertrust',
-        providerVersion: '0.11.3'
+        providerVersion: '0.11.3',
+        providerVersionConstraint: '0.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

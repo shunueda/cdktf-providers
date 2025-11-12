@@ -314,7 +314,8 @@ export class Cluster extends cdktf.TerraformResource {
       terraformResourceType: 'nirmata_cluster',
       terraformGeneratorMetadata: {
         providerName: 'nirmata',
-        providerVersion: '1.1.13'
+        providerVersion: '1.1.13',
+        providerVersionConstraint: '1.1.13'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

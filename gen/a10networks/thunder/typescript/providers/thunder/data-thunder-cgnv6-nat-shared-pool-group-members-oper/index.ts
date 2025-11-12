@@ -297,7 +297,8 @@ export class DataThunderCgnv6NatSharedPoolGroupMembersOper extends cdktf.Terrafo
       terraformResourceType: 'thunder_cgnv6_nat_shared_pool_group_members_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

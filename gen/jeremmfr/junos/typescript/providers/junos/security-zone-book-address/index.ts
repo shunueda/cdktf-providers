@@ -109,7 +109,8 @@ export class SecurityZoneBookAddress extends cdktf.TerraformResource {
       terraformResourceType: 'junos_security_zone_book_address',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0'
+        providerVersion: '2.15.0',
+        providerVersionConstraint: '2.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

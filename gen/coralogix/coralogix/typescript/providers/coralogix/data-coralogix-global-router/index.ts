@@ -328,7 +328,8 @@ export class DataCoralogixGlobalRouter extends cdktf.TerraformDataSource {
       terraformResourceType: 'coralogix_global_router',
       terraformGeneratorMetadata: {
         providerName: 'coralogix',
-        providerVersion: '2.2.3'
+        providerVersion: '2.2.3',
+        providerVersionConstraint: '2.2.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

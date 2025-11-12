@@ -561,7 +561,8 @@ export class Server extends cdktf.TerraformResource {
       terraformResourceType: 'ncloud_server',
       terraformGeneratorMetadata: {
         providerName: 'ncloud',
-        providerVersion: '4.0.4'
+        providerVersion: '4.0.4',
+        providerVersionConstraint: '4.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

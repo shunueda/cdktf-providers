@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_threat_rule_exception_rulebase
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_threat_rule_exception_rulebase
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataCheckpointManagementThreatRuleExceptionRulebaseConfig exten
   /**
   * Search expression to filter the rulebase.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_threat_rule_exception_rulebase#filter DataCheckpointManagementThreatRuleExceptionRulebase#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_threat_rule_exception_rulebase#filter DataCheckpointManagementThreatRuleExceptionRulebase#filter}
   */
   readonly filter?: string;
   /**
   * Sets filter preferences.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_threat_rule_exception_rulebase#filter_settings DataCheckpointManagementThreatRuleExceptionRulebase#filter_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_threat_rule_exception_rulebase#filter_settings DataCheckpointManagementThreatRuleExceptionRulebase#filter_settings}
   */
   readonly filterSettings?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_threat_rule_exception_rulebase#id DataCheckpointManagementThreatRuleExceptionRulebase#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_threat_rule_exception_rulebase#id DataCheckpointManagementThreatRuleExceptionRulebase#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,59 +29,59 @@ export interface DataCheckpointManagementThreatRuleExceptionRulebaseConfig exten
   /**
   * The maximal number of returned results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_threat_rule_exception_rulebase#limit DataCheckpointManagementThreatRuleExceptionRulebase#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_threat_rule_exception_rulebase#limit DataCheckpointManagementThreatRuleExceptionRulebase#limit}
   */
   readonly limit?: number;
   /**
   * Object name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_threat_rule_exception_rulebase#name DataCheckpointManagementThreatRuleExceptionRulebase#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_threat_rule_exception_rulebase#name DataCheckpointManagementThreatRuleExceptionRulebase#name}
   */
   readonly name?: string;
   /**
   * Number of the results to initially skip.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_threat_rule_exception_rulebase#offset DataCheckpointManagementThreatRuleExceptionRulebase#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_threat_rule_exception_rulebase#offset DataCheckpointManagementThreatRuleExceptionRulebase#offset}
   */
   readonly offset?: number;
   /**
   * Sorts the results by search criteria
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_threat_rule_exception_rulebase#order DataCheckpointManagementThreatRuleExceptionRulebase#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_threat_rule_exception_rulebase#order DataCheckpointManagementThreatRuleExceptionRulebase#order}
   */
   readonly order?: { [key: string]: string };
   /**
   * Name of the package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_threat_rule_exception_rulebase#package DataCheckpointManagementThreatRuleExceptionRulebase#package}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_threat_rule_exception_rulebase#package DataCheckpointManagementThreatRuleExceptionRulebase#package}
   */
   readonly package?: string;
   /**
   * The name of the parent rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_threat_rule_exception_rulebase#rule_name DataCheckpointManagementThreatRuleExceptionRulebase#rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_threat_rule_exception_rulebase#rule_name DataCheckpointManagementThreatRuleExceptionRulebase#rule_name}
   */
   readonly ruleName?: string;
   /**
   * The position in the rulebase of the parent rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_threat_rule_exception_rulebase#rule_number DataCheckpointManagementThreatRuleExceptionRulebase#rule_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_threat_rule_exception_rulebase#rule_number DataCheckpointManagementThreatRuleExceptionRulebase#rule_number}
   */
   readonly ruleNumber?: string;
   /**
   * The UID of the parent rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_threat_rule_exception_rulebase#rule_uid DataCheckpointManagementThreatRuleExceptionRulebase#rule_uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_threat_rule_exception_rulebase#rule_uid DataCheckpointManagementThreatRuleExceptionRulebase#rule_uid}
   */
   readonly ruleUid?: string;
   /**
   * Object uid
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_threat_rule_exception_rulebase#uid DataCheckpointManagementThreatRuleExceptionRulebase#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_threat_rule_exception_rulebase#uid DataCheckpointManagementThreatRuleExceptionRulebase#uid}
   */
   readonly uid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_threat_rule_exception_rulebase#use_object_dictionary DataCheckpointManagementThreatRuleExceptionRulebase#use_object_dictionary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_threat_rule_exception_rulebase#use_object_dictionary DataCheckpointManagementThreatRuleExceptionRulebase#use_object_dictionary}
   */
   readonly useObjectDictionary?: boolean | cdktf.IResolvable;
 }
@@ -423,7 +423,7 @@ export class DataCheckpointManagementThreatRuleExceptionRulebaseRulebaseList ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_threat_rule_exception_rulebase checkpoint_management_threat_rule_exception_rulebase}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_threat_rule_exception_rulebase checkpoint_management_threat_rule_exception_rulebase}
 */
 export class DataCheckpointManagementThreatRuleExceptionRulebase extends cdktf.TerraformDataSource {
 
@@ -439,7 +439,7 @@ export class DataCheckpointManagementThreatRuleExceptionRulebase extends cdktf.T
   * Generates CDKTF code for importing a DataCheckpointManagementThreatRuleExceptionRulebase resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCheckpointManagementThreatRuleExceptionRulebase to import
-  * @param importFromId The id of the existing DataCheckpointManagementThreatRuleExceptionRulebase that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_threat_rule_exception_rulebase#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCheckpointManagementThreatRuleExceptionRulebase that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_threat_rule_exception_rulebase#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCheckpointManagementThreatRuleExceptionRulebase to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -451,7 +451,7 @@ export class DataCheckpointManagementThreatRuleExceptionRulebase extends cdktf.T
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_threat_rule_exception_rulebase checkpoint_management_threat_rule_exception_rulebase} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_threat_rule_exception_rulebase checkpoint_management_threat_rule_exception_rulebase} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -462,7 +462,8 @@ export class DataCheckpointManagementThreatRuleExceptionRulebase extends cdktf.T
       terraformResourceType: 'checkpoint_management_threat_rule_exception_rulebase',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

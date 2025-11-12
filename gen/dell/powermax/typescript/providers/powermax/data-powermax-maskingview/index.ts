@@ -364,7 +364,8 @@ export class DataPowermaxMaskingview extends cdktf.TerraformDataSource {
       terraformResourceType: 'powermax_maskingview',
       terraformGeneratorMetadata: {
         providerName: 'powermax',
-        providerVersion: '1.0.3'
+        providerVersion: '1.0.3',
+        providerVersionConstraint: '1.0.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

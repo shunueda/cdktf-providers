@@ -186,7 +186,8 @@ export class SlbDnsResponseRateLimiting extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_slb_dns_response_rate_limiting',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

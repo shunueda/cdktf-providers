@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_network_feed
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_network_feed
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,60 +10,60 @@ export interface ManagementNetworkFeedConfig extends cdktf.TerraformMetaArgument
   /**
   * Certificate SHA-1 fingerprint to access the feed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_network_feed#certificate_id ManagementNetworkFeed#certificate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_network_feed#certificate_id ManagementNetworkFeed#certificate_id}
   */
   readonly certificateId?: string;
   /**
   * Color of the object. Should be one of existing colors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_network_feed#color ManagementNetworkFeed#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_network_feed#color ManagementNetworkFeed#color}
   */
   readonly color?: string;
   /**
   * Comments string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_network_feed#comments ManagementNetworkFeed#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_network_feed#comments ManagementNetworkFeed#comments}
   */
   readonly comments?: string;
   /**
   * Number of the column that contains the feed's data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_network_feed#data_column ManagementNetworkFeed#data_column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_network_feed#data_column ManagementNetworkFeed#data_column}
   */
   readonly dataColumn?: number;
   /**
   * Indicates which domains to process the commands on. It cannot be used with the details-level full, must be run from the System Domain only and with ignore-warnings true. Valid values are: CURRENT_DOMAIN, ALL_DOMAINS_ON_THIS_SERVER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_network_feed#domains_to_process ManagementNetworkFeed#domains_to_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_network_feed#domains_to_process ManagementNetworkFeed#domains_to_process}
   */
   readonly domainsToProcess?: string[];
   /**
   * Feed file format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_network_feed#feed_format ManagementNetworkFeed#feed_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_network_feed#feed_format ManagementNetworkFeed#feed_format}
   */
   readonly feedFormat?: string;
   /**
   * Feed type to be enforced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_network_feed#feed_type ManagementNetworkFeed#feed_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_network_feed#feed_type ManagementNetworkFeed#feed_type}
   */
   readonly feedType?: string;
   /**
   * URL of the feed. URL should be written as http or https.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_network_feed#feed_url ManagementNetworkFeed#feed_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_network_feed#feed_url ManagementNetworkFeed#feed_url}
   */
   readonly feedUrl?: string;
   /**
   * The delimiter that separates between the columns in the feed. For feed format 'Flat List' default is '
   * '(new line).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_network_feed#fields_delimiter ManagementNetworkFeed#fields_delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_network_feed#fields_delimiter ManagementNetworkFeed#fields_delimiter}
   */
   readonly fieldsDelimiter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_network_feed#id ManagementNetworkFeed#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_network_feed#id ManagementNetworkFeed#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -72,67 +72,67 @@ export interface ManagementNetworkFeedConfig extends cdktf.TerraformMetaArgument
   /**
   * Apply changes ignoring errors. You won't be able to publish such a changes. If ignore-warnings flag was omitted - warnings will also be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_network_feed#ignore_errors ManagementNetworkFeed#ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_network_feed#ignore_errors ManagementNetworkFeed#ignore_errors}
   */
   readonly ignoreErrors?: boolean | cdktf.IResolvable;
   /**
   * A prefix that will determine which lines to ignore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_network_feed#ignore_lines_that_start_with ManagementNetworkFeed#ignore_lines_that_start_with}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_network_feed#ignore_lines_that_start_with ManagementNetworkFeed#ignore_lines_that_start_with}
   */
   readonly ignoreLinesThatStartWith?: string;
   /**
   * Apply changes ignoring warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_network_feed#ignore_warnings ManagementNetworkFeed#ignore_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_network_feed#ignore_warnings ManagementNetworkFeed#ignore_warnings}
   */
   readonly ignoreWarnings?: boolean | cdktf.IResolvable;
   /**
   * JQ query to be parsed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_network_feed#json_query ManagementNetworkFeed#json_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_network_feed#json_query ManagementNetworkFeed#json_query}
   */
   readonly jsonQuery?: string;
   /**
   * Object name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_network_feed#name ManagementNetworkFeed#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_network_feed#name ManagementNetworkFeed#name}
   */
   readonly name: string;
   /**
   * password for authenticating with the URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_network_feed#password ManagementNetworkFeed#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_network_feed#password ManagementNetworkFeed#password}
   */
   readonly password?: string;
   /**
   * Collection of tag identifiers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_network_feed#tags ManagementNetworkFeed#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_network_feed#tags ManagementNetworkFeed#tags}
   */
   readonly tags?: string[];
   /**
   * Interval in minutes for updating the feed on the Security Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_network_feed#update_interval ManagementNetworkFeed#update_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_network_feed#update_interval ManagementNetworkFeed#update_interval}
   */
   readonly updateInterval?: number;
   /**
   * Use the gateway's proxy for retrieving the feed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_network_feed#use_gateway_proxy ManagementNetworkFeed#use_gateway_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_network_feed#use_gateway_proxy ManagementNetworkFeed#use_gateway_proxy}
   */
   readonly useGatewayProxy?: boolean | cdktf.IResolvable;
   /**
   * username for authenticating with the URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_network_feed#username ManagementNetworkFeed#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_network_feed#username ManagementNetworkFeed#username}
   */
   readonly username?: string;
   /**
   * custom_header block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_network_feed#custom_header ManagementNetworkFeed#custom_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_network_feed#custom_header ManagementNetworkFeed#custom_header}
   */
   readonly customHeader?: ManagementNetworkFeedCustomHeader[] | cdktf.IResolvable;
 }
@@ -140,13 +140,13 @@ export interface ManagementNetworkFeedCustomHeader {
   /**
   * The name of the HTTP header we wish to add.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_network_feed#header_name ManagementNetworkFeed#header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_network_feed#header_name ManagementNetworkFeed#header_name}
   */
   readonly headerName?: string;
   /**
   * The name of the HTTP value we wish to add.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_network_feed#header_value ManagementNetworkFeed#header_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_network_feed#header_value ManagementNetworkFeed#header_value}
   */
   readonly headerValue?: string;
 }
@@ -291,7 +291,7 @@ export class ManagementNetworkFeedCustomHeaderList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_network_feed checkpoint_management_network_feed}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_network_feed checkpoint_management_network_feed}
 */
 export class ManagementNetworkFeed extends cdktf.TerraformResource {
 
@@ -307,7 +307,7 @@ export class ManagementNetworkFeed extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementNetworkFeed resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementNetworkFeed to import
-  * @param importFromId The id of the existing ManagementNetworkFeed that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_network_feed#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementNetworkFeed that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_network_feed#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementNetworkFeed to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -319,7 +319,7 @@ export class ManagementNetworkFeed extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_network_feed checkpoint_management_network_feed} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_network_feed checkpoint_management_network_feed} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -330,7 +330,8 @@ export class ManagementNetworkFeed extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_network_feed',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

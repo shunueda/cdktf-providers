@@ -5077,7 +5077,8 @@ export class DataK8SCephRookIoCephObjectZoneV1Manifest extends cdktf.TerraformDa
       terraformResourceType: 'k8s_ceph_rook_io_ceph_object_zone_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

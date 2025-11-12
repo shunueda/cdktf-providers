@@ -79,7 +79,8 @@ export class StreamAudioTrack extends cdktf.TerraformResource {
       terraformResourceType: 'cloudflare_stream_audio_track',
       terraformGeneratorMetadata: {
         providerName: 'cloudflare',
-        providerVersion: '5.12.0'
+        providerVersion: '5.12.0',
+        providerVersionConstraint: '5.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -79,7 +79,8 @@ export class OktapamProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'oktapam',
       terraformGeneratorMetadata: {
         providerName: 'oktapam',
-        providerVersion: '0.6.2'
+        providerVersion: '0.6.2',
+        providerVersionConstraint: '0.6.2'
       },
       terraformProviderSource: 'okta/oktapam'
     });

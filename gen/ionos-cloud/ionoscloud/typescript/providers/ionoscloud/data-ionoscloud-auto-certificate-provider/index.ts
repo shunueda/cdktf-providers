@@ -344,7 +344,8 @@ export class DataIonoscloudAutoCertificateProvider extends cdktf.TerraformDataSo
       terraformResourceType: 'ionoscloud_auto_certificate_provider',
       terraformGeneratorMetadata: {
         providerName: 'ionoscloud',
-        providerVersion: '6.7.20'
+        providerVersion: '6.7.20',
+        providerVersionConstraint: '6.7.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

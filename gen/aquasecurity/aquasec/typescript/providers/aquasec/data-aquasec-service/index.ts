@@ -874,7 +874,8 @@ export class DataAquasecService extends cdktf.TerraformDataSource {
       terraformResourceType: 'aquasec_service',
       terraformGeneratorMetadata: {
         providerName: 'aquasec',
-        providerVersion: '0.11.0'
+        providerVersion: '0.11.0',
+        providerVersionConstraint: '0.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

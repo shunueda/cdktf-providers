@@ -62,7 +62,8 @@ export class ControllerBgpCommunitiesGlobalConfig extends cdktf.TerraformResourc
       terraformResourceType: 'aviatrix_controller_bgp_communities_global_config',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10'
+        providerVersion: '8.1.10',
+        providerVersionConstraint: '8.1.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

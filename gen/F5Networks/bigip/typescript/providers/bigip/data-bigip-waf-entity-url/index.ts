@@ -471,7 +471,8 @@ export class DataBigipWafEntityUrl extends cdktf.TerraformDataSource {
       terraformResourceType: 'bigip_waf_entity_url',
       terraformGeneratorMetadata: {
         providerName: 'bigip',
-        providerVersion: '1.24.1'
+        providerVersion: '1.24.1',
+        providerVersionConstraint: '1.24.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -76,7 +76,8 @@ export class RouterInterfaceConnection extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_router_interface_connection',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

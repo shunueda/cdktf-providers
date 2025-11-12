@@ -64,7 +64,8 @@ export class DataBagItem extends cdktf.TerraformResource {
       terraformResourceType: 'chef_data_bag_item',
       terraformGeneratorMetadata: {
         providerName: 'chef',
-        providerVersion: '0.3.17'
+        providerVersion: '0.3.17',
+        providerVersionConstraint: '0.3.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

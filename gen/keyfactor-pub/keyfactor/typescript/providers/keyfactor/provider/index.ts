@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs
+// https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,133 +10,133 @@ export interface KeyfactorProviderConfig {
   /**
   * Access token for OAuth authentication. This can also be set via the `KEYFACTOR_AUTH_ACCESS_TOKEN` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs#access_token KeyfactorProvider#access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs#access_token KeyfactorProvider#access_token}
   */
   readonly accessToken?: string;
   /**
   * Path to Keyfactor Command API.Default value is `KeyfactorAPI`.This can also be set via the `KEYFACTOR_API_PATH` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs#api_path KeyfactorProvider#api_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs#api_path KeyfactorProvider#api_path}
   */
   readonly apiPath?: string;
   /**
   * Application key provisioned by Keyfactor Command instance.This can also be set via the `KEYFACTOR_APPKEY` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs#appkey KeyfactorProvider#appkey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs#appkey KeyfactorProvider#appkey}
   */
   readonly appkey?: string;
   /**
   * OAuth audience to request when authenticating. This can also be set via the `KEYFACTOR_AUTH_AUDIENCE` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs#audience KeyfactorProvider#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs#audience KeyfactorProvider#audience}
   */
   readonly audience?: string;
   /**
   * Path to CA certificate to use when connecting to a Keyfactor Command identity provider in PEM format.This can also be set via the `KEYFACTOR_CA_CERT` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs#auth_ca_certificate KeyfactorProvider#auth_ca_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs#auth_ca_certificate KeyfactorProvider#auth_ca_certificate}
   */
   readonly authCaCertificate?: string;
   /**
   * Client ID for OAuth authentication. This can also be set via the `KEYFACTOR_AUTH_CLIENT_ID` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs#client_id KeyfactorProvider#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs#client_id KeyfactorProvider#client_id}
   */
   readonly clientId?: string;
   /**
   * Client secret for OAuth authentication. This can also be set via the `KEYFACTOR_AUTH_CLIENT_SECRET` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs#client_secret KeyfactorProvider#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs#client_secret KeyfactorProvider#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * Path to CA certificate to use when connecting to the Keyfactor Command API in PEM format.This can also be set via the `KEYFACTOR_CA_CERT` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs#command_ca_certificate KeyfactorProvider#command_ca_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs#command_ca_certificate KeyfactorProvider#command_ca_certificate}
   */
   readonly commandCaCertificate?: string;
   /**
   * Domain that Keyfactor Command instance is hosted on. This can also be set via the `KEYFACTOR_DOMAIN` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs#domain KeyfactorProvider#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs#domain KeyfactorProvider#domain}
   */
   readonly domain?: string;
   /**
   * Hostname of Keyfactor Command instance. Ex: keyfactor.examplecompany.com. This can also be set via the `KEYFACTOR_HOSTNAME` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs#hostname KeyfactorProvider#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs#hostname KeyfactorProvider#hostname}
   */
   readonly hostname?: string;
   /**
   * Password of Keyfactor Command service account. This can also be set via the `KEYFACTOR_PASSWORD` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs#password KeyfactorProvider#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs#password KeyfactorProvider#password}
   */
   readonly password?: string;
   /**
   * The length of password to use when generating a PFX. Default value is `12`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs#pfx_password_length KeyfactorProvider#pfx_password_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs#pfx_password_length KeyfactorProvider#pfx_password_length}
   */
   readonly pfxPasswordLength?: number;
   /**
   * The maximum number of to use when generating a PFX password. Default value is `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs#pfx_password_max_special_chars KeyfactorProvider#pfx_password_max_special_chars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs#pfx_password_max_special_chars KeyfactorProvider#pfx_password_max_special_chars}
   */
   readonly pfxPasswordMaxSpecialChars?: number;
   /**
   * The minimum number of digits to use when generating a PFX password. Default value is `4`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs#pfx_password_min_digits KeyfactorProvider#pfx_password_min_digits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs#pfx_password_min_digits KeyfactorProvider#pfx_password_min_digits}
   */
   readonly pfxPasswordMinDigits?: number;
   /**
   * The minimum number of uppercase letters to use when generating a PFX password. Default value is `4`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs#pfx_password_min_uppercases KeyfactorProvider#pfx_password_min_uppercases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs#pfx_password_min_uppercases KeyfactorProvider#pfx_password_min_uppercases}
   */
   readonly pfxPasswordMinUppercases?: number;
   /**
   * Global timeout for HTTP requests to Keyfactor Command instance. This can also be set via the `KEYFACTOR_CLIENT_TIMEOUT` environment variable.Default value is `60`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs#request_timeout KeyfactorProvider#request_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs#request_timeout KeyfactorProvider#request_timeout}
   */
   readonly requestTimeout?: number;
   /**
   * A list of comma separated OAuth scopes to request when authenticating. This can also be set via the `KEYFACTOR_AUTH_SCOPES` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs#scopes KeyfactorProvider#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs#scopes KeyfactorProvider#scopes}
   */
   readonly scopes?: string;
   /**
   * Skip TLS verification when connecting to Keyfactor Command API and identity provider.Default value is `false`.This can also be set via the `KEYFACTOR_SKIP_VERIFY` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs#skip_tls_verify KeyfactorProvider#skip_tls_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs#skip_tls_verify KeyfactorProvider#skip_tls_verify}
   */
   readonly skipTlsVerify?: boolean | cdktf.IResolvable;
   /**
   * OAuth token URL for Keyfactor Command instance. This can also be set via the `KEYFACTOR_AUTH_TOKEN_URL` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs#token_url KeyfactorProvider#token_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs#token_url KeyfactorProvider#token_url}
   */
   readonly tokenUrl?: string;
   /**
   * Username of Keyfactor Command service account. This can also be set via the `KEYFACTOR_USERNAME` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs#username KeyfactorProvider#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs#username KeyfactorProvider#username}
   */
   readonly username?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs#alias KeyfactorProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs#alias KeyfactorProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs keyfactor}
+* Represents a {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs keyfactor}
 */
 export class KeyfactorProvider extends cdktf.TerraformProvider {
 
@@ -152,7 +152,7 @@ export class KeyfactorProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a KeyfactorProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KeyfactorProvider to import
-  * @param importFromId The id of the existing KeyfactorProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KeyfactorProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KeyfactorProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -164,7 +164,7 @@ export class KeyfactorProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs keyfactor} Resource
+  * Create a new {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs keyfactor} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -175,7 +175,8 @@ export class KeyfactorProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'keyfactor',
       terraformGeneratorMetadata: {
         providerName: 'keyfactor',
-        providerVersion: '2.6.0'
+        providerVersion: '2.7.0',
+        providerVersionConstraint: '2.7.0'
       },
       terraformProviderSource: 'keyfactor-pub/keyfactor'
     });

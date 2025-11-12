@@ -104,7 +104,8 @@ export class Grant extends cdktf.TerraformResource {
       terraformResourceType: 'postgresql_grant',
       terraformGeneratorMetadata: {
         providerName: 'postgresql',
-        providerVersion: '2.26.2'
+        providerVersion: '2.26.2',
+        providerVersionConstraint: '2.26.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

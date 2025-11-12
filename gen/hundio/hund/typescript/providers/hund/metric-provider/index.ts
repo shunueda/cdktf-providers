@@ -4261,7 +4261,8 @@ export class MetricProvider extends cdktf.TerraformResource {
       terraformResourceType: 'hund_metric_provider',
       terraformGeneratorMetadata: {
         providerName: 'hund',
-        providerVersion: '0.1.0'
+        providerVersion: '0.1.0',
+        providerVersionConstraint: '0.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

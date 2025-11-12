@@ -91,7 +91,8 @@ export class DataCouchbaseCapellaQueryIndexMonitor extends cdktf.TerraformDataSo
       terraformResourceType: 'couchbase-capella_query_index_monitor',
       terraformGeneratorMetadata: {
         providerName: 'couchbase-capella',
-        providerVersion: '1.5.3'
+        providerVersion: '1.5.3',
+        providerVersionConstraint: '1.5.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

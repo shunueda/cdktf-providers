@@ -676,7 +676,8 @@ export class RuleSetGroup extends cdktf.TerraformResource {
       terraformResourceType: 'circonus_rule_set_group',
       terraformGeneratorMetadata: {
         providerName: 'circonus',
-        providerVersion: '0.12.15'
+        providerVersion: '0.12.15',
+        providerVersionConstraint: '0.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

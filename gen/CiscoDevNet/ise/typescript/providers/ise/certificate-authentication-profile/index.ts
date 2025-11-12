@@ -99,7 +99,8 @@ export class CertificateAuthenticationProfile extends cdktf.TerraformResource {
       terraformResourceType: 'ise_certificate_authentication_profile',
       terraformGeneratorMetadata: {
         providerName: 'ise',
-        providerVersion: '0.2.12'
+        providerVersion: '0.2.12',
+        providerVersionConstraint: '0.2.12'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

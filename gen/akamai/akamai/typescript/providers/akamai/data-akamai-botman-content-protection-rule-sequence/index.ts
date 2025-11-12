@@ -68,7 +68,8 @@ export class DataAkamaiBotmanContentProtectionRuleSequence extends cdktf.Terrafo
       terraformResourceType: 'akamai_botman_content_protection_rule_sequence',
       terraformGeneratorMetadata: {
         providerName: 'akamai',
-        providerVersion: '9.1.0'
+        providerVersion: '9.1.0',
+        providerVersionConstraint: '9.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

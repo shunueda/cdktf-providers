@@ -4763,7 +4763,8 @@ export class DataIntersightStorageHitachiExternalStorageLun extends cdktf.Terraf
       terraformResourceType: 'intersight_storage_hitachi_external_storage_lun',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

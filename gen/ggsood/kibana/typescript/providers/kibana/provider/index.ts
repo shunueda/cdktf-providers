@@ -103,7 +103,8 @@ export class KibanaProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'kibana',
       terraformGeneratorMetadata: {
         providerName: 'kibana',
-        providerVersion: '1.0.5'
+        providerVersion: '1.0.5',
+        providerVersionConstraint: '1.0.5'
       },
       terraformProviderSource: 'ggsood/kibana'
     });

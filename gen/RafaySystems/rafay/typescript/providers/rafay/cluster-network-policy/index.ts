@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_network_policy
+// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ClusterNetworkPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_network_policy#id ClusterNetworkPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy#id ClusterNetworkPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface ClusterNetworkPolicyConfig extends cdktf.TerraformMetaArguments
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_network_policy#metadata ClusterNetworkPolicy#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy#metadata ClusterNetworkPolicy#metadata}
   */
   readonly metadata?: ClusterNetworkPolicyMetadata;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_network_policy#spec ClusterNetworkPolicy#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy#spec ClusterNetworkPolicy#spec}
   */
   readonly spec?: ClusterNetworkPolicySpec;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_network_policy#timeouts ClusterNetworkPolicy#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy#timeouts ClusterNetworkPolicy#timeouts}
   */
   readonly timeouts?: ClusterNetworkPolicyTimeouts;
 }
@@ -37,7 +37,7 @@ export interface ClusterNetworkPolicyMetadataCreatedBy {
   /**
   * Id of the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_network_policy#id ClusterNetworkPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy#id ClusterNetworkPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -46,13 +46,13 @@ export interface ClusterNetworkPolicyMetadataCreatedBy {
   /**
   * Whether person is logged in using sso
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_network_policy#is_sso_user ClusterNetworkPolicy#is_sso_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy#is_sso_user ClusterNetworkPolicy#is_sso_user}
   */
   readonly isSsoUser?: boolean | cdktf.IResolvable;
   /**
   * Username fo the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_network_policy#username ClusterNetworkPolicy#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy#username ClusterNetworkPolicy#username}
   */
   readonly username?: string;
 }
@@ -196,7 +196,7 @@ export interface ClusterNetworkPolicyMetadataModifiedBy {
   /**
   * Id of the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_network_policy#id ClusterNetworkPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy#id ClusterNetworkPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -205,13 +205,13 @@ export interface ClusterNetworkPolicyMetadataModifiedBy {
   /**
   * Whether person is logged in using sso
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_network_policy#is_sso_user ClusterNetworkPolicy#is_sso_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy#is_sso_user ClusterNetworkPolicy#is_sso_user}
   */
   readonly isSsoUser?: boolean | cdktf.IResolvable;
   /**
   * Username fo the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_network_policy#username ClusterNetworkPolicy#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy#username ClusterNetworkPolicy#username}
   */
   readonly username?: string;
 }
@@ -355,49 +355,49 @@ export interface ClusterNetworkPolicyMetadata {
   /**
   * annotations of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_network_policy#annotations ClusterNetworkPolicy#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy#annotations ClusterNetworkPolicy#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * description of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_network_policy#description ClusterNetworkPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy#description ClusterNetworkPolicy#description}
   */
   readonly description?: string;
   /**
   * Display Name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_network_policy#display_name ClusterNetworkPolicy#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy#display_name ClusterNetworkPolicy#display_name}
   */
   readonly displayName?: string;
   /**
   * labels of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_network_policy#labels ClusterNetworkPolicy#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy#labels ClusterNetworkPolicy#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_network_policy#name ClusterNetworkPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy#name ClusterNetworkPolicy#name}
   */
   readonly name?: string;
   /**
   * Project of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_network_policy#project ClusterNetworkPolicy#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy#project ClusterNetworkPolicy#project}
   */
   readonly project?: string;
   /**
   * created_by block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_network_policy#created_by ClusterNetworkPolicy#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy#created_by ClusterNetworkPolicy#created_by}
   */
   readonly createdBy?: ClusterNetworkPolicyMetadataCreatedBy;
   /**
   * modified_by block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_network_policy#modified_by ClusterNetworkPolicy#modified_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy#modified_by ClusterNetworkPolicy#modified_by}
   */
   readonly modifiedBy?: ClusterNetworkPolicyMetadataModifiedBy;
 }
@@ -686,25 +686,25 @@ export interface ClusterNetworkPolicySpecRules {
   /**
   * name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_network_policy#name ClusterNetworkPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy#name ClusterNetworkPolicy#name}
   */
   readonly name?: string;
   /**
   * Indicates if a resource is from system catalog
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_network_policy#system_catalog ClusterNetworkPolicy#system_catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy#system_catalog ClusterNetworkPolicy#system_catalog}
   */
   readonly systemCatalog?: boolean | cdktf.IResolvable;
   /**
   * version of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_network_policy#version ClusterNetworkPolicy#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy#version ClusterNetworkPolicy#version}
   */
   readonly version?: string;
   /**
   * state of the resource version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_network_policy#version_state ClusterNetworkPolicy#version_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy#version_state ClusterNetworkPolicy#version_state}
   */
   readonly versionState?: string;
 }
@@ -909,7 +909,7 @@ export interface ClusterNetworkPolicySpecSharingProjects {
   /**
   * name of the project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_network_policy#name ClusterNetworkPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy#name ClusterNetworkPolicy#name}
   */
   readonly name?: string;
 }
@@ -1027,13 +1027,13 @@ export interface ClusterNetworkPolicySpecSharing {
   /**
   * flag to specify if sharing is enabled for resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_network_policy#enabled ClusterNetworkPolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy#enabled ClusterNetworkPolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * projects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_network_policy#projects ClusterNetworkPolicy#projects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy#projects ClusterNetworkPolicy#projects}
   */
   readonly projects?: ClusterNetworkPolicySpecSharingProjects[] | cdktf.IResolvable;
 }
@@ -1148,19 +1148,19 @@ export interface ClusterNetworkPolicySpec {
   /**
   * version of the cluster policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_network_policy#version ClusterNetworkPolicy#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy#version ClusterNetworkPolicy#version}
   */
   readonly version?: string;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_network_policy#rules ClusterNetworkPolicy#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy#rules ClusterNetworkPolicy#rules}
   */
   readonly rules?: ClusterNetworkPolicySpecRules[] | cdktf.IResolvable;
   /**
   * sharing block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_network_policy#sharing ClusterNetworkPolicy#sharing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy#sharing ClusterNetworkPolicy#sharing}
   */
   readonly sharing?: ClusterNetworkPolicySpecSharing;
 }
@@ -1302,15 +1302,15 @@ export class ClusterNetworkPolicySpecOutputReference extends cdktf.ComplexObject
 }
 export interface ClusterNetworkPolicyTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_network_policy#create ClusterNetworkPolicy#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy#create ClusterNetworkPolicy#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_network_policy#delete ClusterNetworkPolicy#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy#delete ClusterNetworkPolicy#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_network_policy#update ClusterNetworkPolicy#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy#update ClusterNetworkPolicy#update}
   */
   readonly update?: string;
 }
@@ -1462,7 +1462,7 @@ export class ClusterNetworkPolicyTimeoutsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_network_policy rafay_cluster_network_policy}
+* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy rafay_cluster_network_policy}
 */
 export class ClusterNetworkPolicy extends cdktf.TerraformResource {
 
@@ -1478,7 +1478,7 @@ export class ClusterNetworkPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ClusterNetworkPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClusterNetworkPolicy to import
-  * @param importFromId The id of the existing ClusterNetworkPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_network_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClusterNetworkPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClusterNetworkPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1490,7 +1490,7 @@ export class ClusterNetworkPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cluster_network_policy rafay_cluster_network_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cluster_network_policy rafay_cluster_network_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1501,7 +1501,8 @@ export class ClusterNetworkPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'rafay_cluster_network_policy',
       terraformGeneratorMetadata: {
         providerName: 'rafay',
-        providerVersion: '1.1.52'
+        providerVersion: '1.1.53',
+        providerVersionConstraint: '1.1.53'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

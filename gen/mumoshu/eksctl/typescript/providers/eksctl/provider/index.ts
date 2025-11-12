@@ -190,7 +190,8 @@ export class EksctlProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'eksctl',
       terraformGeneratorMetadata: {
         providerName: 'eksctl',
-        providerVersion: '0.17.0'
+        providerVersion: '0.17.0',
+        providerVersionConstraint: '0.17.0'
       },
       terraformProviderSource: 'mumoshu/eksctl'
     });

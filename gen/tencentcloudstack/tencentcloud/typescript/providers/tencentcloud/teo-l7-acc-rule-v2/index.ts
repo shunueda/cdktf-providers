@@ -8700,7 +8700,8 @@ export class TeoL7AccRuleV2 extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_teo_l7_acc_rule_v2',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

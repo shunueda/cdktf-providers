@@ -309,7 +309,8 @@ export class DataTencentcloudTsfPublicConfigSummary extends cdktf.TerraformDataS
       terraformResourceType: 'tencentcloud_tsf_public_config_summary',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -521,7 +521,8 @@ export class DataOciMysqlChannel extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_mysql_channel',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -4123,7 +4123,8 @@ export class GlobalConnection extends cdktf.TerraformResource {
       terraformResourceType: 'dbtcloud_global_connection',
       terraformGeneratorMetadata: {
         providerName: 'dbtcloud',
-        providerVersion: '1.3.0'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

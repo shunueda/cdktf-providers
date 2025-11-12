@@ -151,7 +151,8 @@ export class PanosProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'panos',
       terraformGeneratorMetadata: {
         providerName: 'panos',
-        providerVersion: '2.0.5'
+        providerVersion: '2.0.5',
+        providerVersionConstraint: '2.0.5'
       },
       terraformProviderSource: 'PaloAltoNetworks/panos'
     });

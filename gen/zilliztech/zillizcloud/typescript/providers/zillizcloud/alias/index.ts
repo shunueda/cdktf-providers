@@ -80,7 +80,8 @@ export class Alias extends cdktf.TerraformResource {
       terraformResourceType: 'zillizcloud_alias',
       terraformGeneratorMetadata: {
         providerName: 'zillizcloud',
-        providerVersion: '0.6.23'
+        providerVersion: '0.6.23',
+        providerVersionConstraint: '0.6.23'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

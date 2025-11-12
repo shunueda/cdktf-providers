@@ -61,7 +61,8 @@ export class DataSonatypeiqSystemConfig extends cdktf.TerraformDataSource {
       terraformResourceType: 'sonatypeiq_system_config',
       terraformGeneratorMetadata: {
         providerName: 'sonatypeiq',
-        providerVersion: '0.12.1'
+        providerVersion: '0.12.1',
+        providerVersionConstraint: '0.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

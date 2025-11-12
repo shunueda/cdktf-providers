@@ -372,7 +372,8 @@ export class Integration extends cdktf.TerraformResource {
       terraformResourceType: 'amixr_integration',
       terraformGeneratorMetadata: {
         providerName: 'amixr',
-        providerVersion: '0.2.3'
+        providerVersion: '0.2.3',
+        providerVersionConstraint: '0.2.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

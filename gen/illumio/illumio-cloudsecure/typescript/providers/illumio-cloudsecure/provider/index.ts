@@ -97,7 +97,8 @@ export class IllumioCloudsecureProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'illumio-cloudsecure',
       terraformGeneratorMetadata: {
         providerName: 'illumio-cloudsecure',
-        providerVersion: '1.5.3'
+        providerVersion: '1.5.3',
+        providerVersionConstraint: '1.5.3'
       },
       terraformProviderSource: 'illumio/illumio-cloudsecure'
     });

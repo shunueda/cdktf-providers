@@ -3573,7 +3573,8 @@ export class DataK8SApps3ScaleNetApIcastV1Alpha1Manifest extends cdktf.Terraform
       terraformResourceType: 'k8s_apps_3scale_net_ap_icast_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

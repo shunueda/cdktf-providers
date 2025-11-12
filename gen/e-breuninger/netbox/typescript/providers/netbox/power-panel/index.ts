@@ -84,7 +84,8 @@ export class PowerPanel extends cdktf.TerraformResource {
       terraformResourceType: 'netbox_power_panel',
       terraformGeneratorMetadata: {
         providerName: 'netbox',
-        providerVersion: '5.0.0'
+        providerVersion: '5.0.0',
+        providerVersionConstraint: '5.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

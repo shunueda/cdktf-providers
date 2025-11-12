@@ -55,7 +55,8 @@ export class AccuknoxProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'accuknox',
       terraformGeneratorMetadata: {
         providerName: 'accuknox',
-        providerVersion: '1.0.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       terraformProviderSource: 'accuknox/accuknox'
     });

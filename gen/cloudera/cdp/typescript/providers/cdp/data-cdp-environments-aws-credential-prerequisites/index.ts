@@ -49,7 +49,8 @@ export class DataCdpEnvironmentsAwsCredentialPrerequisites extends cdktf.Terrafo
       terraformResourceType: 'cdp_environments_aws_credential_prerequisites',
       terraformGeneratorMetadata: {
         providerName: 'cdp',
-        providerVersion: '0.10.8'
+        providerVersion: '0.10.8',
+        providerVersionConstraint: '0.10.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

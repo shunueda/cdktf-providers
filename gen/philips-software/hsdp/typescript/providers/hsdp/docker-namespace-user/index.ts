@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/docker_namespace_user
+// https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/docker_namespace_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface DockerNamespaceUserConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/docker_namespace_user#can_delete DockerNamespaceUser#can_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/docker_namespace_user#can_delete DockerNamespaceUser#can_delete}
   */
   readonly canDelete?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/docker_namespace_user#can_pull DockerNamespaceUser#can_pull}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/docker_namespace_user#can_pull DockerNamespaceUser#can_pull}
   */
   readonly canPull?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/docker_namespace_user#can_push DockerNamespaceUser#can_push}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/docker_namespace_user#can_push DockerNamespaceUser#can_push}
   */
   readonly canPush?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/docker_namespace_user#id DockerNamespaceUser#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/docker_namespace_user#id DockerNamespaceUser#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/docker_namespace_user#is_admin DockerNamespaceUser#is_admin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/docker_namespace_user#is_admin DockerNamespaceUser#is_admin}
   */
   readonly isAdmin?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/docker_namespace_user#namespace_id DockerNamespaceUser#namespace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/docker_namespace_user#namespace_id DockerNamespaceUser#namespace_id}
   */
   readonly namespaceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/docker_namespace_user#username DockerNamespaceUser#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/docker_namespace_user#username DockerNamespaceUser#username}
   */
   readonly username: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/docker_namespace_user hsdp_docker_namespace_user}
+* Represents a {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/docker_namespace_user hsdp_docker_namespace_user}
 */
 export class DockerNamespaceUser extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class DockerNamespaceUser extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DockerNamespaceUser resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DockerNamespaceUser to import
-  * @param importFromId The id of the existing DockerNamespaceUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/docker_namespace_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DockerNamespaceUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/docker_namespace_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DockerNamespaceUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class DockerNamespaceUser extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/docker_namespace_user hsdp_docker_namespace_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/docker_namespace_user hsdp_docker_namespace_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,7 +80,8 @@ export class DockerNamespaceUser extends cdktf.TerraformResource {
       terraformResourceType: 'hsdp_docker_namespace_user',
       terraformGeneratorMetadata: {
         providerName: 'hsdp',
-        providerVersion: '0.70.0'
+        providerVersion: '0.71.0',
+        providerVersionConstraint: '0.71.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

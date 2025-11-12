@@ -637,7 +637,8 @@ export class DataK8SSupersetStackableTechDruidConnectionV1Alpha1Manifest extends
       terraformResourceType: 'k8s_superset_stackable_tech_druid_connection_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

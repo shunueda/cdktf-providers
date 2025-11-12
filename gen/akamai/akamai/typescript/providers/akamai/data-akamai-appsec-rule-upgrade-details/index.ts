@@ -68,7 +68,8 @@ export class DataAkamaiAppsecRuleUpgradeDetails extends cdktf.TerraformDataSourc
       terraformResourceType: 'akamai_appsec_rule_upgrade_details',
       terraformGeneratorMetadata: {
         providerName: 'akamai',
-        providerVersion: '9.1.0'
+        providerVersion: '9.1.0',
+        providerVersionConstraint: '9.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

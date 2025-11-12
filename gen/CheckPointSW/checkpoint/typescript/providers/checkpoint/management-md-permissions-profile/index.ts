@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_md_permissions_profile
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_md_permissions_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,59 +10,59 @@ export interface ManagementMdPermissionsProfileConfig extends cdktf.TerraformMet
   /**
   * Permission to read / edit the Cloud Management Extension (CME) configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_md_permissions_profile#cme_operations ManagementMdPermissionsProfile#cme_operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_md_permissions_profile#cme_operations ManagementMdPermissionsProfile#cme_operations}
   */
   readonly cmeOperations?: string;
   /**
   * Color of the object. Should be one of existing colors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_md_permissions_profile#color ManagementMdPermissionsProfile#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_md_permissions_profile#color ManagementMdPermissionsProfile#color}
   */
   readonly color?: string;
   /**
   * Comments string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_md_permissions_profile#comments ManagementMdPermissionsProfile#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_md_permissions_profile#comments ManagementMdPermissionsProfile#comments}
   */
   readonly comments?: string;
   /**
   * Name or UID of the required default profile for all global domains.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_md_permissions_profile#default_profile_global_domains ManagementMdPermissionsProfile#default_profile_global_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_md_permissions_profile#default_profile_global_domains ManagementMdPermissionsProfile#default_profile_global_domains}
   */
   readonly defaultProfileGlobalDomains?: string;
   /**
   * Name or UID of the required default profile for all local domains.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_md_permissions_profile#default_profile_local_domains ManagementMdPermissionsProfile#default_profile_local_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_md_permissions_profile#default_profile_local_domains ManagementMdPermissionsProfile#default_profile_local_domains}
   */
   readonly defaultProfileLocalDomains?: string;
   /**
   * Indicates which domains to process the commands on. It cannot be used with the details-level full, must be run from the System Domain only and with ignore-warnings true. Valid values are: CURRENT_DOMAIN, ALL_DOMAINS_ON_THIS_SERVER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_md_permissions_profile#domains_to_process ManagementMdPermissionsProfile#domains_to_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_md_permissions_profile#domains_to_process ManagementMdPermissionsProfile#domains_to_process}
   */
   readonly domainsToProcess?: string[];
   /**
   * Enable the option to specify a default profile for all global domains.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_md_permissions_profile#enable_default_profile_for_global_domains ManagementMdPermissionsProfile#enable_default_profile_for_global_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_md_permissions_profile#enable_default_profile_for_global_domains ManagementMdPermissionsProfile#enable_default_profile_for_global_domains}
   */
   readonly enableDefaultProfileForGlobalDomains?: boolean | cdktf.IResolvable;
   /**
   * Enable the option to specify a default profile for all local domains.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_md_permissions_profile#enable_default_profile_for_local_domains ManagementMdPermissionsProfile#enable_default_profile_for_local_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_md_permissions_profile#enable_default_profile_for_local_domains ManagementMdPermissionsProfile#enable_default_profile_for_local_domains}
   */
   readonly enableDefaultProfileForLocalDomains?: boolean | cdktf.IResolvable;
   /**
   * Lets the administrator select Enable global use for a Security Gateway shown in the MDS Gateways & Servers view.<br>Only a 'Manager' permission-level profile can edit this permission.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_md_permissions_profile#global_vpn_management ManagementMdPermissionsProfile#global_vpn_management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_md_permissions_profile#global_vpn_management ManagementMdPermissionsProfile#global_vpn_management}
   */
   readonly globalVpnManagement?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_md_permissions_profile#id ManagementMdPermissionsProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_md_permissions_profile#id ManagementMdPermissionsProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,73 +71,73 @@ export interface ManagementMdPermissionsProfileConfig extends cdktf.TerraformMet
   /**
   * Apply changes ignoring errors. You won't be able to publish such a changes. If ignore-warnings flag was omitted - warnings will also be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_md_permissions_profile#ignore_errors ManagementMdPermissionsProfile#ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_md_permissions_profile#ignore_errors ManagementMdPermissionsProfile#ignore_errors}
   */
   readonly ignoreErrors?: boolean | cdktf.IResolvable;
   /**
   * Apply changes ignoring warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_md_permissions_profile#ignore_warnings ManagementMdPermissionsProfile#ignore_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_md_permissions_profile#ignore_warnings ManagementMdPermissionsProfile#ignore_warnings}
   */
   readonly ignoreWarnings?: boolean | cdktf.IResolvable;
   /**
   * Create and manage Multi-Domain Security Management administrators with the same or lower permission level. For example, a Domain manager cannot create Superusers or global managers.<br>Only a 'Manager' permission-level profile can edit this permission.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_md_permissions_profile#manage_admins ManagementMdPermissionsProfile#manage_admins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_md_permissions_profile#manage_admins ManagementMdPermissionsProfile#manage_admins}
   */
   readonly manageAdmins?: boolean | cdktf.IResolvable;
   /**
   * Controls the ability to create, edit and delete global assignment and not the ability to reassign, which is set according to the specific Domain's permission profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_md_permissions_profile#manage_global_assignments ManagementMdPermissionsProfile#manage_global_assignments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_md_permissions_profile#manage_global_assignments ManagementMdPermissionsProfile#manage_global_assignments}
   */
   readonly manageGlobalAssignments?: boolean | cdktf.IResolvable;
   /**
   * Connect/disconnect Domain sessions, publish changes, and delete other administrator sessions.<br>Only a 'Manager' permission-level profile can edit this permission.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_md_permissions_profile#manage_sessions ManagementMdPermissionsProfile#manage_sessions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_md_permissions_profile#manage_sessions ManagementMdPermissionsProfile#manage_sessions}
   */
   readonly manageSessions?: boolean | cdktf.IResolvable;
   /**
   * Permission to log in to the Security Management Server and run API commands using these tools: mgmt_cli (Linux and Windows binaries), Gaia CLI (clish) and Web Services (REST). Useful if you want to prevent administrators from running automatic scripts on the Management.<br>Note: This permission is not required to run commands from within the API terminal in SmartConsole.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_md_permissions_profile#management_api_login ManagementMdPermissionsProfile#management_api_login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_md_permissions_profile#management_api_login ManagementMdPermissionsProfile#management_api_login}
   */
   readonly managementApiLogin?: boolean | cdktf.IResolvable;
   /**
   * Create and manage Multi-Domain Servers and Multi-Domain Log Servers.<br>Only a "Super User" permission-level profile can select this option.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_md_permissions_profile#mds_provisioning ManagementMdPermissionsProfile#mds_provisioning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_md_permissions_profile#mds_provisioning ManagementMdPermissionsProfile#mds_provisioning}
   */
   readonly mdsProvisioning?: boolean | cdktf.IResolvable;
   /**
   * Object name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_md_permissions_profile#name ManagementMdPermissionsProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_md_permissions_profile#name ManagementMdPermissionsProfile#name}
   */
   readonly name: string;
   /**
   * The level of the Multi Domain Permissions Profile.<br>The level cannot be changed after creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_md_permissions_profile#permission_level ManagementMdPermissionsProfile#permission_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_md_permissions_profile#permission_level ManagementMdPermissionsProfile#permission_level}
   */
   readonly permissionLevel?: string;
   /**
   * Collection of tag identifiers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_md_permissions_profile#tags ManagementMdPermissionsProfile#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_md_permissions_profile#tags ManagementMdPermissionsProfile#tags}
   */
   readonly tags?: string[];
   /**
   * Lets an administrator with no global objects permissions view the global objects in the domain. This option is required for valid domain management.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_md_permissions_profile#view_global_objects_in_domain ManagementMdPermissionsProfile#view_global_objects_in_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_md_permissions_profile#view_global_objects_in_domain ManagementMdPermissionsProfile#view_global_objects_in_domain}
   */
   readonly viewGlobalObjectsInDomain?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_md_permissions_profile checkpoint_management_md_permissions_profile}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_md_permissions_profile checkpoint_management_md_permissions_profile}
 */
 export class ManagementMdPermissionsProfile extends cdktf.TerraformResource {
 
@@ -153,7 +153,7 @@ export class ManagementMdPermissionsProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementMdPermissionsProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementMdPermissionsProfile to import
-  * @param importFromId The id of the existing ManagementMdPermissionsProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_md_permissions_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementMdPermissionsProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_md_permissions_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementMdPermissionsProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -165,7 +165,7 @@ export class ManagementMdPermissionsProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_md_permissions_profile checkpoint_management_md_permissions_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_md_permissions_profile checkpoint_management_md_permissions_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -176,7 +176,8 @@ export class ManagementMdPermissionsProfile extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_md_permissions_profile',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

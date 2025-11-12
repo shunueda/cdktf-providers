@@ -56,7 +56,8 @@ export class DataSnowflakeCurrentRole extends cdktf.TerraformDataSource {
       terraformResourceType: 'snowflake_current_role',
       terraformGeneratorMetadata: {
         providerName: 'snowflake',
-        providerVersion: '2.10.1'
+        providerVersion: '2.10.1',
+        providerVersionConstraint: '2.10.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

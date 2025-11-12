@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_template
+// https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface DatacenterConnectivityTemplateConfig extends cdktf.TerraformMet
   /**
   * Apstra Blueprint ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_template#blueprint_id DatacenterConnectivityTemplate#blueprint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_template#blueprint_id DatacenterConnectivityTemplate#blueprint_id}
   */
   readonly blueprintId: string;
   /**
   * Description displayed in web UI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_template#description DatacenterConnectivityTemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_template#description DatacenterConnectivityTemplate#description}
   */
   readonly description?: string;
   /**
   * Name displayed in web UI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_template#name DatacenterConnectivityTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_template#name DatacenterConnectivityTemplate#name}
   */
   readonly name: string;
   /**
   * Set of Connectivity Template Primitives expressed as JSON strings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_template#primitives DatacenterConnectivityTemplate#primitives}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_template#primitives DatacenterConnectivityTemplate#primitives}
   */
   readonly primitives: string[];
   /**
   * Set of Tag labels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_template#tags DatacenterConnectivityTemplate#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_template#tags DatacenterConnectivityTemplate#tags}
   */
   readonly tags?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_template apstra_datacenter_connectivity_template}
+* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_template apstra_datacenter_connectivity_template}
 */
 export class DatacenterConnectivityTemplate extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class DatacenterConnectivityTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DatacenterConnectivityTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatacenterConnectivityTemplate to import
-  * @param importFromId The id of the existing DatacenterConnectivityTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatacenterConnectivityTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatacenterConnectivityTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class DatacenterConnectivityTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_template apstra_datacenter_connectivity_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_template apstra_datacenter_connectivity_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,7 +79,8 @@ export class DatacenterConnectivityTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'apstra_datacenter_connectivity_template',
       terraformGeneratorMetadata: {
         providerName: 'apstra',
-        providerVersion: '0.95.0'
+        providerVersion: '0.95.1',
+        providerVersionConstraint: '0.95.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

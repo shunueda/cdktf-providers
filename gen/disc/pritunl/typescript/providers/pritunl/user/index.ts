@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/disc/pritunl/0.6.1/docs/resources/user
+// https://registry.terraform.io/providers/disc/pritunl/0.6.2/docs/resources/user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,53 +10,53 @@ export interface UserConfig extends cdktf.TerraformMetaArguments {
   /**
   * User authentication type. This will determine how the user authenticates. This should be set automatically when the user authenticates with single sign-on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/disc/pritunl/0.6.1/docs/resources/user#auth_type User#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/disc/pritunl/0.6.2/docs/resources/user#auth_type User#auth_type}
   */
   readonly authType?: string;
   /**
   * Bypass secondary authentication such as the PIN and two-factor authentication. Use for server users that can't provide a two-factor code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/disc/pritunl/0.6.1/docs/resources/user#bypass_secondary User#bypass_secondary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/disc/pritunl/0.6.2/docs/resources/user#bypass_secondary User#bypass_secondary}
   */
   readonly bypassSecondary?: boolean | cdktf.IResolvable;
   /**
   * Only allow this client to communicate with other clients. Access to routed networks will be blocked.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/disc/pritunl/0.6.1/docs/resources/user#client_to_client User#client_to_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/disc/pritunl/0.6.2/docs/resources/user#client_to_client User#client_to_client}
   */
   readonly clientToClient?: boolean | cdktf.IResolvable;
   /**
   * Shows if user is disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/disc/pritunl/0.6.1/docs/resources/user#disabled User#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/disc/pritunl/0.6.2/docs/resources/user#disabled User#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Dns server with port to forward sub-domain dns requests coming from this users domain. Multiple dns servers may be separated by a comma.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/disc/pritunl/0.6.1/docs/resources/user#dns_servers User#dns_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/disc/pritunl/0.6.2/docs/resources/user#dns_servers User#dns_servers}
   */
   readonly dnsServers?: string[];
   /**
   * The suffix to use when forwarding dns requests. The full dns request will be the combination of the sub-domain of the users dns name suffixed by the dns suffix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/disc/pritunl/0.6.1/docs/resources/user#dns_suffix User#dns_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/disc/pritunl/0.6.2/docs/resources/user#dns_suffix User#dns_suffix}
   */
   readonly dnsSuffix?: string;
   /**
   * User email address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/disc/pritunl/0.6.1/docs/resources/user#email User#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/disc/pritunl/0.6.2/docs/resources/user#email User#email}
   */
   readonly email?: string;
   /**
   * Enter list of groups to allow connections from. Names are case sensitive. If empty all groups will able to connect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/disc/pritunl/0.6.1/docs/resources/user#groups User#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/disc/pritunl/0.6.2/docs/resources/user#groups User#groups}
   */
   readonly groups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/disc/pritunl/0.6.1/docs/resources/user#id User#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/disc/pritunl/0.6.2/docs/resources/user#id User#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,43 +65,43 @@ export interface UserConfig extends cdktf.TerraformMetaArguments {
   /**
   * Comma separated list of MAC addresses client is allowed to connect from. The validity of the MAC address provided by the VPN client cannot be verified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/disc/pritunl/0.6.1/docs/resources/user#mac_addresses User#mac_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/disc/pritunl/0.6.2/docs/resources/user#mac_addresses User#mac_addresses}
   */
   readonly macAddresses?: string[];
   /**
   * The name of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/disc/pritunl/0.6.1/docs/resources/user#name User#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/disc/pritunl/0.6.2/docs/resources/user#name User#name}
   */
   readonly name: string;
   /**
   * Network address with cidr subnet. This will provision access to a clients local network to the attached vpn servers and other clients. Multiple networks may be separated by a comma. Router must have a static route to VPN virtual network through client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/disc/pritunl/0.6.1/docs/resources/user#network_links User#network_links}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/disc/pritunl/0.6.2/docs/resources/user#network_links User#network_links}
   */
   readonly networkLinks?: string[];
   /**
   * The organizations that user belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/disc/pritunl/0.6.1/docs/resources/user#organization_id User#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/disc/pritunl/0.6.2/docs/resources/user#organization_id User#organization_id}
   */
   readonly organizationId: string;
   /**
   * The PIN for user authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/disc/pritunl/0.6.1/docs/resources/user#pin User#pin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/disc/pritunl/0.6.2/docs/resources/user#pin User#pin}
   */
   readonly pin?: string;
   /**
   * Comma seperated list of ports to forward using format source_port:dest_port/protocol or start_port-end_port/protocol. Such as 80, 80/tcp, 80:8000/tcp, 1000-2000/udp.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/disc/pritunl/0.6.1/docs/resources/user#port_forwarding User#port_forwarding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/disc/pritunl/0.6.2/docs/resources/user#port_forwarding User#port_forwarding}
   */
   readonly portForwarding?: { [key: string]: string }[] | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/disc/pritunl/0.6.1/docs/resources/user pritunl_user}
+* Represents a {@link https://registry.terraform.io/providers/disc/pritunl/0.6.2/docs/resources/user pritunl_user}
 */
 export class User extends cdktf.TerraformResource {
 
@@ -117,7 +117,7 @@ export class User extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a User resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the User to import
-  * @param importFromId The id of the existing User that should be imported. Refer to the {@link https://registry.terraform.io/providers/disc/pritunl/0.6.1/docs/resources/user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing User that should be imported. Refer to the {@link https://registry.terraform.io/providers/disc/pritunl/0.6.2/docs/resources/user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the User to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -129,7 +129,7 @@ export class User extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/disc/pritunl/0.6.1/docs/resources/user pritunl_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/disc/pritunl/0.6.2/docs/resources/user pritunl_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -140,7 +140,8 @@ export class User extends cdktf.TerraformResource {
       terraformResourceType: 'pritunl_user',
       terraformGeneratorMetadata: {
         providerName: 'pritunl',
-        providerVersion: '0.6.1'
+        providerVersion: '0.6.2',
+        providerVersionConstraint: '0.6.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

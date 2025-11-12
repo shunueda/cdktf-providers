@@ -2807,9 +2807,9 @@ export class DataScmLogicalRouterListDataVrfOspfGracefulRestartOutputReference e
     return this.getNumberAttribute('max_neighbor_restart_time');
   }
 
-  // strict__l_s_a_checking - computed: true, optional: false, required: false
-  public get strictLSAChecking() {
-    return this.getBooleanAttribute('strict__l_s_a_checking');
+  // strict_lsa_checking - computed: true, optional: false, required: false
+  public get strictLsaChecking() {
+    return this.getBooleanAttribute('strict_lsa_checking');
   }
 }
 export interface DataScmLogicalRouterListDataVrfOspfVrTimers {
@@ -6713,9 +6713,9 @@ export class DataScmLogicalRouterListDataVrfOspfv3GracefulRestartOutputReference
     return this.getNumberAttribute('max_neighbor_restart_time');
   }
 
-  // strict__l_s_a_checking - computed: true, optional: false, required: false
-  public get strictLSAChecking() {
-    return this.getBooleanAttribute('strict__l_s_a_checking');
+  // strict_lsa_checking - computed: true, optional: false, required: false
+  public get strictLsaChecking() {
+    return this.getBooleanAttribute('strict_lsa_checking');
   }
 }
 export interface DataScmLogicalRouterListDataVrfOspfv3VrTimers {
@@ -8236,6 +8236,11 @@ export class DataScmLogicalRouterListDataVrfRoutingTableIpStaticRouteNexthopOutp
   // fqdn - computed: true, optional: false, required: false
   public get fqdn() {
     return this.getStringAttribute('fqdn');
+  }
+
+  // ip_address - computed: true, optional: false, required: false
+  public get ipAddress() {
+    return this.getStringAttribute('ip_address');
   }
 
   // ipv6_address - computed: true, optional: false, required: false
@@ -10162,7 +10167,7 @@ export interface DataScmLogicalRouterListData {
   /**
   * UUID of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/logical_router_list#id DataScmLogicalRouterList#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/logical_router_list#id DataScmLogicalRouterList#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -10171,7 +10176,7 @@ export interface DataScmLogicalRouterListData {
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/logical_router_list#name DataScmLogicalRouterList#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/logical_router_list#name DataScmLogicalRouterList#name}
   */
   readonly name?: string;
 }

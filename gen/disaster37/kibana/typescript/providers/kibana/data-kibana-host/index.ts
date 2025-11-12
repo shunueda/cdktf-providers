@@ -56,7 +56,8 @@ export class DataKibanaHost extends cdktf.TerraformDataSource {
       terraformResourceType: 'kibana_host',
       terraformGeneratorMetadata: {
         providerName: 'kibana',
-        providerVersion: '8.5.3'
+        providerVersion: '8.5.3',
+        providerVersionConstraint: '8.5.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

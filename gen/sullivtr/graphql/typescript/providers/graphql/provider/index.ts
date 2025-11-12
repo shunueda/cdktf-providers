@@ -75,7 +75,8 @@ export class GraphqlProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'graphql',
       terraformGeneratorMetadata: {
         providerName: 'graphql',
-        providerVersion: '2.6.1'
+        providerVersion: '2.6.1',
+        providerVersionConstraint: '2.6.1'
       },
       terraformProviderSource: 'sullivtr/graphql'
     });

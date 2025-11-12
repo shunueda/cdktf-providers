@@ -908,7 +908,8 @@ export class UserQuotasA extends cdktf.TerraformResource {
       terraformResourceType: 'opennebula_user_quotas',
       terraformGeneratorMetadata: {
         providerName: 'opennebula',
-        providerVersion: '1.5.0'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

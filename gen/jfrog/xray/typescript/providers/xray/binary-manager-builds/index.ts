@@ -72,7 +72,8 @@ export class BinaryManagerBuilds extends cdktf.TerraformResource {
       terraformResourceType: 'xray_binary_manager_builds',
       terraformGeneratorMetadata: {
         providerName: 'xray',
-        providerVersion: '3.1.2'
+        providerVersion: '3.1.2',
+        providerVersionConstraint: '3.1.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

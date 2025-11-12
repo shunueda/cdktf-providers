@@ -201,7 +201,8 @@ export class ExpressConnectTrafficQosAssociation extends cdktf.TerraformResource
       terraformResourceType: 'alicloud_express_connect_traffic_qos_association',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

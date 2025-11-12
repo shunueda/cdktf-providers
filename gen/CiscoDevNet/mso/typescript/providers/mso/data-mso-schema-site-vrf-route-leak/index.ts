@@ -84,7 +84,8 @@ export class DataMsoSchemaSiteVrfRouteLeak extends cdktf.TerraformDataSource {
       terraformResourceType: 'mso_schema_site_vrf_route_leak',
       terraformGeneratorMetadata: {
         providerName: 'mso',
-        providerVersion: '1.6.0'
+        providerVersion: '1.6.0',
+        providerVersionConstraint: '1.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/sdwan_saas_quality_profile_list
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/sdwan_saas_quality_profile_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface DataScmSdwanSaasQualityProfileListConfig extends cdktf.Terrafor
   /**
   * The device of the item.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/sdwan_saas_quality_profile_list#device DataScmSdwanSaasQualityProfileList#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/sdwan_saas_quality_profile_list#device DataScmSdwanSaasQualityProfileList#device}
   */
   readonly device?: string;
   /**
   * The folder of the item. Default: Shared.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/sdwan_saas_quality_profile_list#folder DataScmSdwanSaasQualityProfileList#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/sdwan_saas_quality_profile_list#folder DataScmSdwanSaasQualityProfileList#folder}
   */
   readonly folder?: string;
   /**
   * The max number of items to return. Default: 200.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/sdwan_saas_quality_profile_list#limit DataScmSdwanSaasQualityProfileList#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/sdwan_saas_quality_profile_list#limit DataScmSdwanSaasQualityProfileList#limit}
   */
   readonly limit?: number;
   /**
   * The name of the item.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/sdwan_saas_quality_profile_list#name DataScmSdwanSaasQualityProfileList#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/sdwan_saas_quality_profile_list#name DataScmSdwanSaasQualityProfileList#name}
   */
   readonly name?: string;
   /**
   * The offset of the first item to return.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/sdwan_saas_quality_profile_list#offset DataScmSdwanSaasQualityProfileList#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/sdwan_saas_quality_profile_list#offset DataScmSdwanSaasQualityProfileList#offset}
   */
   readonly offset?: number;
   /**
   * The snippet of the item.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/sdwan_saas_quality_profile_list#snippet DataScmSdwanSaasQualityProfileList#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/sdwan_saas_quality_profile_list#snippet DataScmSdwanSaasQualityProfileList#snippet}
   */
   readonly snippet?: string;
 }
@@ -423,7 +423,7 @@ export interface DataScmSdwanSaasQualityProfileListData {
   /**
   * UUID of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/sdwan_saas_quality_profile_list#id DataScmSdwanSaasQualityProfileList#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/sdwan_saas_quality_profile_list#id DataScmSdwanSaasQualityProfileList#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -432,7 +432,7 @@ export interface DataScmSdwanSaasQualityProfileListData {
   /**
   * Profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/sdwan_saas_quality_profile_list#name DataScmSdwanSaasQualityProfileList#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/sdwan_saas_quality_profile_list#name DataScmSdwanSaasQualityProfileList#name}
   */
   readonly name?: string;
 }
@@ -590,7 +590,7 @@ export class DataScmSdwanSaasQualityProfileListDataList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/sdwan_saas_quality_profile_list scm_sdwan_saas_quality_profile_list}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/sdwan_saas_quality_profile_list scm_sdwan_saas_quality_profile_list}
 */
 export class DataScmSdwanSaasQualityProfileList extends cdktf.TerraformDataSource {
 
@@ -606,7 +606,7 @@ export class DataScmSdwanSaasQualityProfileList extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataScmSdwanSaasQualityProfileList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataScmSdwanSaasQualityProfileList to import
-  * @param importFromId The id of the existing DataScmSdwanSaasQualityProfileList that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/sdwan_saas_quality_profile_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataScmSdwanSaasQualityProfileList that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/sdwan_saas_quality_profile_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataScmSdwanSaasQualityProfileList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -618,7 +618,7 @@ export class DataScmSdwanSaasQualityProfileList extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/sdwan_saas_quality_profile_list scm_sdwan_saas_quality_profile_list} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/sdwan_saas_quality_profile_list scm_sdwan_saas_quality_profile_list} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -629,7 +629,8 @@ export class DataScmSdwanSaasQualityProfileList extends cdktf.TerraformDataSourc
       terraformResourceType: 'scm_sdwan_saas_quality_profile_list',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.3'
+        providerVersion: '1.0.4',
+        providerVersionConstraint: '1.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

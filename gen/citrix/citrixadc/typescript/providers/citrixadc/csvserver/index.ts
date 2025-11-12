@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,338 +8,394 @@ import * as cdktf from 'cdktf';
 
 export interface CsvserverConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#appflowlog Csvserver#appflowlog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#apiprofile Csvserver#apiprofile}
+  */
+  readonly apiprofile?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#appflowlog Csvserver#appflowlog}
   */
   readonly appflowlog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#authentication Csvserver#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#authentication Csvserver#authentication}
   */
   readonly authentication?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#authenticationhost Csvserver#authenticationhost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#authenticationhost Csvserver#authenticationhost}
   */
   readonly authenticationhost?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#authn401 Csvserver#authn401}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#authn401 Csvserver#authn401}
   */
   readonly authn401?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#authnprofile Csvserver#authnprofile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#authnprofile Csvserver#authnprofile}
   */
   readonly authnprofile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#authnvsname Csvserver#authnvsname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#authnvsname Csvserver#authnvsname}
   */
   readonly authnvsname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#backupip Csvserver#backupip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#backupip Csvserver#backupip}
   */
   readonly backupip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#backupvserver Csvserver#backupvserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#backuppersistencetimeout Csvserver#backuppersistencetimeout}
+  */
+  readonly backuppersistencetimeout?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#backupvserver Csvserver#backupvserver}
   */
   readonly backupvserver?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#cacheable Csvserver#cacheable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#cacheable Csvserver#cacheable}
   */
   readonly cacheable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#casesensitive Csvserver#casesensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#casesensitive Csvserver#casesensitive}
   */
   readonly casesensitive?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#ciphers Csvserver#ciphers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#ciphers Csvserver#ciphers}
   */
   readonly ciphers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#ciphersuites Csvserver#ciphersuites}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#ciphersuites Csvserver#ciphersuites}
   */
   readonly ciphersuites?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#clttimeout Csvserver#clttimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#clttimeout Csvserver#clttimeout}
   */
   readonly clttimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#comment Csvserver#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#comment Csvserver#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#cookiedomain Csvserver#cookiedomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#cookiedomain Csvserver#cookiedomain}
   */
   readonly cookiedomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#cookietimeout Csvserver#cookietimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#cookiename Csvserver#cookiename}
+  */
+  readonly cookiename?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#cookietimeout Csvserver#cookietimeout}
   */
   readonly cookietimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#dbprofilename Csvserver#dbprofilename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#dbprofilename Csvserver#dbprofilename}
   */
   readonly dbprofilename?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#disableprimaryondown Csvserver#disableprimaryondown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#disableprimaryondown Csvserver#disableprimaryondown}
   */
   readonly disableprimaryondown?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#dnsprofilename Csvserver#dnsprofilename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#dnsoverhttps Csvserver#dnsoverhttps}
+  */
+  readonly dnsoverhttps?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#dnsprofilename Csvserver#dnsprofilename}
   */
   readonly dnsprofilename?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#dnsrecordtype Csvserver#dnsrecordtype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#dnsrecordtype Csvserver#dnsrecordtype}
   */
   readonly dnsrecordtype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#domainname Csvserver#domainname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#domainname Csvserver#domainname}
   */
   readonly domainname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#downstateflush Csvserver#downstateflush}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#downstateflush Csvserver#downstateflush}
   */
   readonly downstateflush?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#httpprofilename Csvserver#httpprofilename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#dtls Csvserver#dtls}
+  */
+  readonly dtls?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#httpprofilename Csvserver#httpprofilename}
   */
   readonly httpprofilename?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#httpsredirecturl Csvserver#httpsredirecturl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#httpsredirecturl Csvserver#httpsredirecturl}
   */
   readonly httpsredirecturl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#icmpvsrresponse Csvserver#icmpvsrresponse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#icmpvsrresponse Csvserver#icmpvsrresponse}
   */
   readonly icmpvsrresponse?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#id Csvserver#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#id Csvserver#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#insertvserveripport Csvserver#insertvserveripport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#insertvserveripport Csvserver#insertvserveripport}
   */
   readonly insertvserveripport?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#ipmask Csvserver#ipmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#ipmask Csvserver#ipmask}
   */
   readonly ipmask?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#ippattern Csvserver#ippattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#ippattern Csvserver#ippattern}
   */
   readonly ippattern?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#ipset Csvserver#ipset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#ipset Csvserver#ipset}
   */
   readonly ipset?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#ipv46 Csvserver#ipv46}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#ipv46 Csvserver#ipv46}
   */
   readonly ipv46?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#l2conn Csvserver#l2conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#l2conn Csvserver#l2conn}
   */
   readonly l2Conn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#lbvserverbinding Csvserver#lbvserverbinding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#lbvserverbinding Csvserver#lbvserverbinding}
   */
   readonly lbvserverbinding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#listenpolicy Csvserver#listenpolicy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#listenpolicy Csvserver#listenpolicy}
   */
   readonly listenpolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#listenpriority Csvserver#listenpriority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#listenpriority Csvserver#listenpriority}
   */
   readonly listenpriority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#mssqlserverversion Csvserver#mssqlserverversion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#mssqlserverversion Csvserver#mssqlserverversion}
   */
   readonly mssqlserverversion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#mysqlcharacterset Csvserver#mysqlcharacterset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#mysqlcharacterset Csvserver#mysqlcharacterset}
   */
   readonly mysqlcharacterset?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#mysqlprotocolversion Csvserver#mysqlprotocolversion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#mysqlprotocolversion Csvserver#mysqlprotocolversion}
   */
   readonly mysqlprotocolversion?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#mysqlservercapabilities Csvserver#mysqlservercapabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#mysqlservercapabilities Csvserver#mysqlservercapabilities}
   */
   readonly mysqlservercapabilities?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#mysqlserverversion Csvserver#mysqlserverversion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#mysqlserverversion Csvserver#mysqlserverversion}
   */
   readonly mysqlserverversion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#name Csvserver#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#name Csvserver#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#netprofile Csvserver#netprofile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#netprofile Csvserver#netprofile}
   */
   readonly netprofile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#oracleserverversion Csvserver#oracleserverversion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#oracleserverversion Csvserver#oracleserverversion}
   */
   readonly oracleserverversion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#persistenceid Csvserver#persistenceid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#persistencebackup Csvserver#persistencebackup}
+  */
+  readonly persistencebackup?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#persistenceid Csvserver#persistenceid}
   */
   readonly persistenceid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#persistencetype Csvserver#persistencetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#persistencetype Csvserver#persistencetype}
   */
   readonly persistencetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#port Csvserver#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#persistmask Csvserver#persistmask}
+  */
+  readonly persistmask?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#port Csvserver#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#precedence Csvserver#precedence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#precedence Csvserver#precedence}
   */
   readonly precedence?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#push Csvserver#push}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#probeport Csvserver#probeport}
+  */
+  readonly probeport?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#probeprotocol Csvserver#probeprotocol}
+  */
+  readonly probeprotocol?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#probesuccessresponsecode Csvserver#probesuccessresponsecode}
+  */
+  readonly probesuccessresponsecode?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#push Csvserver#push}
   */
   readonly push?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#pushlabel Csvserver#pushlabel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#pushlabel Csvserver#pushlabel}
   */
   readonly pushlabel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#pushmulticlients Csvserver#pushmulticlients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#pushmulticlients Csvserver#pushmulticlients}
   */
   readonly pushmulticlients?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#pushvserver Csvserver#pushvserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#pushvserver Csvserver#pushvserver}
   */
   readonly pushvserver?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#range Csvserver#range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#quicprofilename Csvserver#quicprofilename}
+  */
+  readonly quicprofilename?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#range Csvserver#range}
   */
   readonly range?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#redirectfromport Csvserver#redirectfromport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#redirectfromport Csvserver#redirectfromport}
   */
   readonly redirectfromport?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#redirectportrewrite Csvserver#redirectportrewrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#redirectportrewrite Csvserver#redirectportrewrite}
   */
   readonly redirectportrewrite?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#redirecturl Csvserver#redirecturl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#redirecturl Csvserver#redirecturl}
   */
   readonly redirecturl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#rhistate Csvserver#rhistate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#rhistate Csvserver#rhistate}
   */
   readonly rhistate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#rtspnat Csvserver#rtspnat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#rtspnat Csvserver#rtspnat}
   */
   readonly rtspnat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#servicetype Csvserver#servicetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#servicetype Csvserver#servicetype}
   */
   readonly servicetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#sitedomainttl Csvserver#sitedomainttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#sitedomainttl Csvserver#sitedomainttl}
   */
   readonly sitedomainttl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#snisslcertkeys Csvserver#snisslcertkeys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#snisslcertkeys Csvserver#snisslcertkeys}
   */
   readonly snisslcertkeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#sobackupaction Csvserver#sobackupaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#sobackupaction Csvserver#sobackupaction}
   */
   readonly sobackupaction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#somethod Csvserver#somethod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#somethod Csvserver#somethod}
   */
   readonly somethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#sopersistence Csvserver#sopersistence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#sopersistence Csvserver#sopersistence}
   */
   readonly sopersistence?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#sopersistencetimeout Csvserver#sopersistencetimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#sopersistencetimeout Csvserver#sopersistencetimeout}
   */
   readonly sopersistencetimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#sothreshold Csvserver#sothreshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#sothreshold Csvserver#sothreshold}
   */
   readonly sothreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#sslcertkey Csvserver#sslcertkey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#sslcertkey Csvserver#sslcertkey}
   */
   readonly sslcertkey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#sslprofile Csvserver#sslprofile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#sslprofile Csvserver#sslprofile}
   */
   readonly sslprofile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#state Csvserver#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#state Csvserver#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#stateupdate Csvserver#stateupdate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#stateupdate Csvserver#stateupdate}
   */
   readonly stateupdate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#targettype Csvserver#targettype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#targettype Csvserver#targettype}
   */
   readonly targettype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#tcpprofilename Csvserver#tcpprofilename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#tcpprobeport Csvserver#tcpprobeport}
+  */
+  readonly tcpprobeport?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#tcpprofilename Csvserver#tcpprofilename}
   */
   readonly tcpprofilename?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#td Csvserver#td}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#td Csvserver#td}
   */
   readonly td?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#ttl Csvserver#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#timeout Csvserver#timeout}
+  */
+  readonly timeout?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#ttl Csvserver#ttl}
   */
   readonly ttl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#vipheader Csvserver#vipheader}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#v6persistmasklen Csvserver#v6persistmasklen}
+  */
+  readonly v6Persistmasklen?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#vipheader Csvserver#vipheader}
   */
   readonly vipheader?: string;
   /**
   * sslpolicybinding block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#sslpolicybinding Csvserver#sslpolicybinding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#sslpolicybinding Csvserver#sslpolicybinding}
   */
   readonly sslpolicybinding?: CsvserverSslpolicybinding[] | cdktf.IResolvable;
 }
 export interface CsvserverSslpolicybinding {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#gotopriorityexpression Csvserver#gotopriorityexpression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#gotopriorityexpression Csvserver#gotopriorityexpression}
   */
   readonly gotopriorityexpression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#invoke Csvserver#invoke}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#invoke Csvserver#invoke}
   */
   readonly invoke?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#labelname Csvserver#labelname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#labelname Csvserver#labelname}
   */
   readonly labelname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#labeltype Csvserver#labeltype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#labeltype Csvserver#labeltype}
   */
   readonly labeltype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#policyname Csvserver#policyname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#policyname Csvserver#policyname}
   */
   readonly policyname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#priority Csvserver#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#priority Csvserver#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#type Csvserver#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#type Csvserver#type}
   */
   readonly type?: string;
 }
@@ -629,7 +685,7 @@ export class CsvserverSslpolicybindingList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver citrixadc_csvserver}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver citrixadc_csvserver}
 */
 export class Csvserver extends cdktf.TerraformResource {
 
@@ -645,7 +701,7 @@ export class Csvserver extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Csvserver resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Csvserver to import
-  * @param importFromId The id of the existing Csvserver that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Csvserver that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Csvserver to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -657,7 +713,7 @@ export class Csvserver extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/csvserver citrixadc_csvserver} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver citrixadc_csvserver} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -668,7 +724,8 @@ export class Csvserver extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_csvserver',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -678,6 +735,7 @@ export class Csvserver extends cdktf.TerraformResource {
       connection: config.connection,
       forEach: config.forEach
     });
+    this._apiprofile = config.apiprofile;
     this._appflowlog = config.appflowlog;
     this._authentication = config.authentication;
     this._authenticationhost = config.authenticationhost;
@@ -685,6 +743,7 @@ export class Csvserver extends cdktf.TerraformResource {
     this._authnprofile = config.authnprofile;
     this._authnvsname = config.authnvsname;
     this._backupip = config.backupip;
+    this._backuppersistencetimeout = config.backuppersistencetimeout;
     this._backupvserver = config.backupvserver;
     this._cacheable = config.cacheable;
     this._casesensitive = config.casesensitive;
@@ -693,13 +752,16 @@ export class Csvserver extends cdktf.TerraformResource {
     this._clttimeout = config.clttimeout;
     this._comment = config.comment;
     this._cookiedomain = config.cookiedomain;
+    this._cookiename = config.cookiename;
     this._cookietimeout = config.cookietimeout;
     this._dbprofilename = config.dbprofilename;
     this._disableprimaryondown = config.disableprimaryondown;
+    this._dnsoverhttps = config.dnsoverhttps;
     this._dnsprofilename = config.dnsprofilename;
     this._dnsrecordtype = config.dnsrecordtype;
     this._domainname = config.domainname;
     this._downstateflush = config.downstateflush;
+    this._dtls = config.dtls;
     this._httpprofilename = config.httpprofilename;
     this._httpsredirecturl = config.httpsredirecturl;
     this._icmpvsrresponse = config.icmpvsrresponse;
@@ -721,14 +783,20 @@ export class Csvserver extends cdktf.TerraformResource {
     this._name = config.name;
     this._netprofile = config.netprofile;
     this._oracleserverversion = config.oracleserverversion;
+    this._persistencebackup = config.persistencebackup;
     this._persistenceid = config.persistenceid;
     this._persistencetype = config.persistencetype;
+    this._persistmask = config.persistmask;
     this._port = config.port;
     this._precedence = config.precedence;
+    this._probeport = config.probeport;
+    this._probeprotocol = config.probeprotocol;
+    this._probesuccessresponsecode = config.probesuccessresponsecode;
     this._push = config.push;
     this._pushlabel = config.pushlabel;
     this._pushmulticlients = config.pushmulticlients;
     this._pushvserver = config.pushvserver;
+    this._quicprofilename = config.quicprofilename;
     this._range = config.range;
     this._redirectfromport = config.redirectfromport;
     this._redirectportrewrite = config.redirectportrewrite;
@@ -748,9 +816,12 @@ export class Csvserver extends cdktf.TerraformResource {
     this._state = config.state;
     this._stateupdate = config.stateupdate;
     this._targettype = config.targettype;
+    this._tcpprobeport = config.tcpprobeport;
     this._tcpprofilename = config.tcpprofilename;
     this._td = config.td;
+    this._timeout = config.timeout;
     this._ttl = config.ttl;
+    this._v6Persistmasklen = config.v6Persistmasklen;
     this._vipheader = config.vipheader;
     this._sslpolicybinding.internalValue = config.sslpolicybinding;
   }
@@ -758,6 +829,22 @@ export class Csvserver extends cdktf.TerraformResource {
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // apiprofile - computed: true, optional: true, required: false
+  private _apiprofile?: string; 
+  public get apiprofile() {
+    return this.getStringAttribute('apiprofile');
+  }
+  public set apiprofile(value: string) {
+    this._apiprofile = value;
+  }
+  public resetApiprofile() {
+    this._apiprofile = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get apiprofileInput() {
+    return this._apiprofile;
+  }
 
   // appflowlog - computed: true, optional: true, required: false
   private _appflowlog?: string; 
@@ -869,6 +956,22 @@ export class Csvserver extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get backupipInput() {
     return this._backupip;
+  }
+
+  // backuppersistencetimeout - computed: true, optional: true, required: false
+  private _backuppersistencetimeout?: number; 
+  public get backuppersistencetimeout() {
+    return this.getNumberAttribute('backuppersistencetimeout');
+  }
+  public set backuppersistencetimeout(value: number) {
+    this._backuppersistencetimeout = value;
+  }
+  public resetBackuppersistencetimeout() {
+    this._backuppersistencetimeout = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get backuppersistencetimeoutInput() {
+    return this._backuppersistencetimeout;
   }
 
   // backupvserver - computed: true, optional: true, required: false
@@ -999,6 +1102,22 @@ export class Csvserver extends cdktf.TerraformResource {
     return this._cookiedomain;
   }
 
+  // cookiename - computed: true, optional: true, required: false
+  private _cookiename?: string; 
+  public get cookiename() {
+    return this.getStringAttribute('cookiename');
+  }
+  public set cookiename(value: string) {
+    this._cookiename = value;
+  }
+  public resetCookiename() {
+    this._cookiename = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cookienameInput() {
+    return this._cookiename;
+  }
+
   // cookietimeout - computed: true, optional: true, required: false
   private _cookietimeout?: number; 
   public get cookietimeout() {
@@ -1045,6 +1164,22 @@ export class Csvserver extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get disableprimaryondownInput() {
     return this._disableprimaryondown;
+  }
+
+  // dnsoverhttps - computed: true, optional: true, required: false
+  private _dnsoverhttps?: string; 
+  public get dnsoverhttps() {
+    return this.getStringAttribute('dnsoverhttps');
+  }
+  public set dnsoverhttps(value: string) {
+    this._dnsoverhttps = value;
+  }
+  public resetDnsoverhttps() {
+    this._dnsoverhttps = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dnsoverhttpsInput() {
+    return this._dnsoverhttps;
   }
 
   // dnsprofilename - computed: true, optional: true, required: false
@@ -1109,6 +1244,22 @@ export class Csvserver extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get downstateflushInput() {
     return this._downstateflush;
+  }
+
+  // dtls - computed: true, optional: true, required: false
+  private _dtls?: string; 
+  public get dtls() {
+    return this.getStringAttribute('dtls');
+  }
+  public set dtls(value: string) {
+    this._dtls = value;
+  }
+  public resetDtls() {
+    this._dtls = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dtlsInput() {
+    return this._dtls;
   }
 
   // httpprofilename - computed: true, optional: true, required: false
@@ -1447,6 +1598,22 @@ export class Csvserver extends cdktf.TerraformResource {
     return this._oracleserverversion;
   }
 
+  // persistencebackup - computed: true, optional: true, required: false
+  private _persistencebackup?: string; 
+  public get persistencebackup() {
+    return this.getStringAttribute('persistencebackup');
+  }
+  public set persistencebackup(value: string) {
+    this._persistencebackup = value;
+  }
+  public resetPersistencebackup() {
+    this._persistencebackup = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get persistencebackupInput() {
+    return this._persistencebackup;
+  }
+
   // persistenceid - computed: true, optional: true, required: false
   private _persistenceid?: number; 
   public get persistenceid() {
@@ -1479,6 +1646,22 @@ export class Csvserver extends cdktf.TerraformResource {
     return this._persistencetype;
   }
 
+  // persistmask - computed: true, optional: true, required: false
+  private _persistmask?: string; 
+  public get persistmask() {
+    return this.getStringAttribute('persistmask');
+  }
+  public set persistmask(value: string) {
+    this._persistmask = value;
+  }
+  public resetPersistmask() {
+    this._persistmask = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get persistmaskInput() {
+    return this._persistmask;
+  }
+
   // port - computed: true, optional: true, required: false
   private _port?: number; 
   public get port() {
@@ -1509,6 +1692,54 @@ export class Csvserver extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get precedenceInput() {
     return this._precedence;
+  }
+
+  // probeport - computed: true, optional: true, required: false
+  private _probeport?: number; 
+  public get probeport() {
+    return this.getNumberAttribute('probeport');
+  }
+  public set probeport(value: number) {
+    this._probeport = value;
+  }
+  public resetProbeport() {
+    this._probeport = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get probeportInput() {
+    return this._probeport;
+  }
+
+  // probeprotocol - computed: true, optional: true, required: false
+  private _probeprotocol?: string; 
+  public get probeprotocol() {
+    return this.getStringAttribute('probeprotocol');
+  }
+  public set probeprotocol(value: string) {
+    this._probeprotocol = value;
+  }
+  public resetProbeprotocol() {
+    this._probeprotocol = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get probeprotocolInput() {
+    return this._probeprotocol;
+  }
+
+  // probesuccessresponsecode - computed: true, optional: true, required: false
+  private _probesuccessresponsecode?: string; 
+  public get probesuccessresponsecode() {
+    return this.getStringAttribute('probesuccessresponsecode');
+  }
+  public set probesuccessresponsecode(value: string) {
+    this._probesuccessresponsecode = value;
+  }
+  public resetProbesuccessresponsecode() {
+    this._probesuccessresponsecode = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get probesuccessresponsecodeInput() {
+    return this._probesuccessresponsecode;
   }
 
   // push - computed: true, optional: true, required: false
@@ -1573,6 +1804,22 @@ export class Csvserver extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get pushvserverInput() {
     return this._pushvserver;
+  }
+
+  // quicprofilename - computed: true, optional: true, required: false
+  private _quicprofilename?: string; 
+  public get quicprofilename() {
+    return this.getStringAttribute('quicprofilename');
+  }
+  public set quicprofilename(value: string) {
+    this._quicprofilename = value;
+  }
+  public resetQuicprofilename() {
+    this._quicprofilename = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get quicprofilenameInput() {
+    return this._quicprofilename;
   }
 
   // range - computed: true, optional: true, required: false
@@ -1879,6 +2126,22 @@ export class Csvserver extends cdktf.TerraformResource {
     return this._targettype;
   }
 
+  // tcpprobeport - computed: true, optional: true, required: false
+  private _tcpprobeport?: number; 
+  public get tcpprobeport() {
+    return this.getNumberAttribute('tcpprobeport');
+  }
+  public set tcpprobeport(value: number) {
+    this._tcpprobeport = value;
+  }
+  public resetTcpprobeport() {
+    this._tcpprobeport = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpprobeportInput() {
+    return this._tcpprobeport;
+  }
+
   // tcpprofilename - computed: true, optional: true, required: false
   private _tcpprofilename?: string; 
   public get tcpprofilename() {
@@ -1911,6 +2174,22 @@ export class Csvserver extends cdktf.TerraformResource {
     return this._td;
   }
 
+  // timeout - computed: true, optional: true, required: false
+  private _timeout?: number; 
+  public get timeout() {
+    return this.getNumberAttribute('timeout');
+  }
+  public set timeout(value: number) {
+    this._timeout = value;
+  }
+  public resetTimeout() {
+    this._timeout = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get timeoutInput() {
+    return this._timeout;
+  }
+
   // ttl - computed: true, optional: true, required: false
   private _ttl?: number; 
   public get ttl() {
@@ -1925,6 +2204,22 @@ export class Csvserver extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get ttlInput() {
     return this._ttl;
+  }
+
+  // v6persistmasklen - computed: true, optional: true, required: false
+  private _v6Persistmasklen?: number; 
+  public get v6Persistmasklen() {
+    return this.getNumberAttribute('v6persistmasklen');
+  }
+  public set v6Persistmasklen(value: number) {
+    this._v6Persistmasklen = value;
+  }
+  public resetV6Persistmasklen() {
+    this._v6Persistmasklen = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get v6PersistmasklenInput() {
+    return this._v6Persistmasklen;
   }
 
   // vipheader - computed: true, optional: true, required: false
@@ -1965,6 +2260,7 @@ export class Csvserver extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      apiprofile: cdktf.stringToTerraform(this._apiprofile),
       appflowlog: cdktf.stringToTerraform(this._appflowlog),
       authentication: cdktf.stringToTerraform(this._authentication),
       authenticationhost: cdktf.stringToTerraform(this._authenticationhost),
@@ -1972,6 +2268,7 @@ export class Csvserver extends cdktf.TerraformResource {
       authnprofile: cdktf.stringToTerraform(this._authnprofile),
       authnvsname: cdktf.stringToTerraform(this._authnvsname),
       backupip: cdktf.stringToTerraform(this._backupip),
+      backuppersistencetimeout: cdktf.numberToTerraform(this._backuppersistencetimeout),
       backupvserver: cdktf.stringToTerraform(this._backupvserver),
       cacheable: cdktf.stringToTerraform(this._cacheable),
       casesensitive: cdktf.stringToTerraform(this._casesensitive),
@@ -1980,13 +2277,16 @@ export class Csvserver extends cdktf.TerraformResource {
       clttimeout: cdktf.numberToTerraform(this._clttimeout),
       comment: cdktf.stringToTerraform(this._comment),
       cookiedomain: cdktf.stringToTerraform(this._cookiedomain),
+      cookiename: cdktf.stringToTerraform(this._cookiename),
       cookietimeout: cdktf.numberToTerraform(this._cookietimeout),
       dbprofilename: cdktf.stringToTerraform(this._dbprofilename),
       disableprimaryondown: cdktf.stringToTerraform(this._disableprimaryondown),
+      dnsoverhttps: cdktf.stringToTerraform(this._dnsoverhttps),
       dnsprofilename: cdktf.stringToTerraform(this._dnsprofilename),
       dnsrecordtype: cdktf.stringToTerraform(this._dnsrecordtype),
       domainname: cdktf.stringToTerraform(this._domainname),
       downstateflush: cdktf.stringToTerraform(this._downstateflush),
+      dtls: cdktf.stringToTerraform(this._dtls),
       httpprofilename: cdktf.stringToTerraform(this._httpprofilename),
       httpsredirecturl: cdktf.stringToTerraform(this._httpsredirecturl),
       icmpvsrresponse: cdktf.stringToTerraform(this._icmpvsrresponse),
@@ -2008,14 +2308,20 @@ export class Csvserver extends cdktf.TerraformResource {
       name: cdktf.stringToTerraform(this._name),
       netprofile: cdktf.stringToTerraform(this._netprofile),
       oracleserverversion: cdktf.stringToTerraform(this._oracleserverversion),
+      persistencebackup: cdktf.stringToTerraform(this._persistencebackup),
       persistenceid: cdktf.numberToTerraform(this._persistenceid),
       persistencetype: cdktf.stringToTerraform(this._persistencetype),
+      persistmask: cdktf.stringToTerraform(this._persistmask),
       port: cdktf.numberToTerraform(this._port),
       precedence: cdktf.stringToTerraform(this._precedence),
+      probeport: cdktf.numberToTerraform(this._probeport),
+      probeprotocol: cdktf.stringToTerraform(this._probeprotocol),
+      probesuccessresponsecode: cdktf.stringToTerraform(this._probesuccessresponsecode),
       push: cdktf.stringToTerraform(this._push),
       pushlabel: cdktf.stringToTerraform(this._pushlabel),
       pushmulticlients: cdktf.stringToTerraform(this._pushmulticlients),
       pushvserver: cdktf.stringToTerraform(this._pushvserver),
+      quicprofilename: cdktf.stringToTerraform(this._quicprofilename),
       range: cdktf.numberToTerraform(this._range),
       redirectfromport: cdktf.numberToTerraform(this._redirectfromport),
       redirectportrewrite: cdktf.stringToTerraform(this._redirectportrewrite),
@@ -2035,9 +2341,12 @@ export class Csvserver extends cdktf.TerraformResource {
       state: cdktf.stringToTerraform(this._state),
       stateupdate: cdktf.stringToTerraform(this._stateupdate),
       targettype: cdktf.stringToTerraform(this._targettype),
+      tcpprobeport: cdktf.numberToTerraform(this._tcpprobeport),
       tcpprofilename: cdktf.stringToTerraform(this._tcpprofilename),
       td: cdktf.numberToTerraform(this._td),
+      timeout: cdktf.numberToTerraform(this._timeout),
       ttl: cdktf.numberToTerraform(this._ttl),
+      v6persistmasklen: cdktf.numberToTerraform(this._v6Persistmasklen),
       vipheader: cdktf.stringToTerraform(this._vipheader),
       sslpolicybinding: cdktf.listMapper(csvserverSslpolicybindingToTerraform, true)(this._sslpolicybinding.internalValue),
     };
@@ -2045,6 +2354,12 @@ export class Csvserver extends cdktf.TerraformResource {
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
+      apiprofile: {
+        value: cdktf.stringToHclTerraform(this._apiprofile),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       appflowlog: {
         value: cdktf.stringToHclTerraform(this._appflowlog),
         isBlock: false,
@@ -2086,6 +2401,12 @@ export class Csvserver extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      backuppersistencetimeout: {
+        value: cdktf.numberToHclTerraform(this._backuppersistencetimeout),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
       },
       backupvserver: {
         value: cdktf.stringToHclTerraform(this._backupvserver),
@@ -2135,6 +2456,12 @@ export class Csvserver extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      cookiename: {
+        value: cdktf.stringToHclTerraform(this._cookiename),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       cookietimeout: {
         value: cdktf.numberToHclTerraform(this._cookietimeout),
         isBlock: false,
@@ -2149,6 +2476,12 @@ export class Csvserver extends cdktf.TerraformResource {
       },
       disableprimaryondown: {
         value: cdktf.stringToHclTerraform(this._disableprimaryondown),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      dnsoverhttps: {
+        value: cdktf.stringToHclTerraform(this._dnsoverhttps),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
@@ -2173,6 +2506,12 @@ export class Csvserver extends cdktf.TerraformResource {
       },
       downstateflush: {
         value: cdktf.stringToHclTerraform(this._downstateflush),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      dtls: {
+        value: cdktf.stringToHclTerraform(this._dtls),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
@@ -2303,6 +2642,12 @@ export class Csvserver extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      persistencebackup: {
+        value: cdktf.stringToHclTerraform(this._persistencebackup),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       persistenceid: {
         value: cdktf.numberToHclTerraform(this._persistenceid),
         isBlock: false,
@@ -2315,6 +2660,12 @@ export class Csvserver extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      persistmask: {
+        value: cdktf.stringToHclTerraform(this._persistmask),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       port: {
         value: cdktf.numberToHclTerraform(this._port),
         isBlock: false,
@@ -2323,6 +2674,24 @@ export class Csvserver extends cdktf.TerraformResource {
       },
       precedence: {
         value: cdktf.stringToHclTerraform(this._precedence),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      probeport: {
+        value: cdktf.numberToHclTerraform(this._probeport),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      probeprotocol: {
+        value: cdktf.stringToHclTerraform(this._probeprotocol),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      probesuccessresponsecode: {
+        value: cdktf.stringToHclTerraform(this._probesuccessresponsecode),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
@@ -2347,6 +2716,12 @@ export class Csvserver extends cdktf.TerraformResource {
       },
       pushvserver: {
         value: cdktf.stringToHclTerraform(this._pushvserver),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      quicprofilename: {
+        value: cdktf.stringToHclTerraform(this._quicprofilename),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
@@ -2465,6 +2840,12 @@ export class Csvserver extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      tcpprobeport: {
+        value: cdktf.numberToHclTerraform(this._tcpprobeport),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
       tcpprofilename: {
         value: cdktf.stringToHclTerraform(this._tcpprofilename),
         isBlock: false,
@@ -2477,8 +2858,20 @@ export class Csvserver extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "number",
       },
+      timeout: {
+        value: cdktf.numberToHclTerraform(this._timeout),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
       ttl: {
         value: cdktf.numberToHclTerraform(this._ttl),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      v6persistmasklen: {
+        value: cdktf.numberToHclTerraform(this._v6Persistmasklen),
         isBlock: false,
         type: "simple",
         storageClassType: "number",

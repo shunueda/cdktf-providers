@@ -64,7 +64,8 @@ export class DataServerspaceSshKey extends cdktf.TerraformDataSource {
       terraformResourceType: 'serverspace_ssh_key',
       terraformGeneratorMetadata: {
         providerName: 'serverspace',
-        providerVersion: '0.3.2'
+        providerVersion: '0.3.2',
+        providerVersionConstraint: '0.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -153,7 +153,8 @@ export class VpcLicenseV2 extends cdktf.TerraformResource {
       terraformResourceType: 'selectel_vpc_license_v2',
       terraformGeneratorMetadata: {
         providerName: 'selectel',
-        providerVersion: '7.1.0'
+        providerVersion: '7.1.0',
+        providerVersionConstraint: '7.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

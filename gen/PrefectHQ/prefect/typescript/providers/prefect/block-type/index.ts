@@ -97,7 +97,8 @@ export class BlockType extends cdktf.TerraformResource {
       terraformResourceType: 'prefect_block_type',
       terraformGeneratorMetadata: {
         providerName: 'prefect',
-        providerVersion: '2.90.0'
+        providerVersion: '2.90.0',
+        providerVersionConstraint: '2.90.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

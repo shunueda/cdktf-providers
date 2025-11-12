@@ -234,7 +234,8 @@ export class Manifest extends cdktf.TerraformResource {
       terraformResourceType: 'k8s_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '0.9.1'
+        providerVersion: '0.9.1',
+        providerVersionConstraint: '0.9.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

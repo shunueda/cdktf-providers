@@ -875,7 +875,8 @@ export class DataK8SImagingIngestionAlvearieOrgDicomEventBridgeV1Alpha1Manifest 
       terraformResourceType: 'k8s_imaging_ingestion_alvearie_org_dicom_event_bridge_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

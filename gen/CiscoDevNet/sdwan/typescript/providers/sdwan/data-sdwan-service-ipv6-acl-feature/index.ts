@@ -548,7 +548,8 @@ export class DataSdwanServiceIpv6AclFeature extends cdktf.TerraformDataSource {
       terraformResourceType: 'sdwan_service_ipv6_acl_feature',
       terraformGeneratorMetadata: {
         providerName: 'sdwan',
-        providerVersion: '0.8.1'
+        providerVersion: '0.8.1',
+        providerVersionConstraint: '0.8.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

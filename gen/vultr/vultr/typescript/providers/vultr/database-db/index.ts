@@ -64,7 +64,8 @@ export class DatabaseDb extends cdktf.TerraformResource {
       terraformResourceType: 'vultr_database_db',
       terraformGeneratorMetadata: {
         providerName: 'vultr',
-        providerVersion: '2.27.1'
+        providerVersion: '2.27.1',
+        providerVersionConstraint: '2.27.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

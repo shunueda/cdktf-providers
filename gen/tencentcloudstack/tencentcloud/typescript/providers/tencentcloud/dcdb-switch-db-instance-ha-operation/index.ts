@@ -68,7 +68,8 @@ export class DcdbSwitchDbInstanceHaOperation extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_dcdb_switch_db_instance_ha_operation',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ip_dns_forwarders
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_dns_forwarders
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface IpDnsForwardersConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ip_dns_forwarders#___path___ IpDnsForwarders#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_dns_forwarders#___path___ IpDnsForwarders#___path___}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ip_dns_forwarders#comment IpDnsForwarders#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_dns_forwarders#comment IpDnsForwarders#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ip_dns_forwarders#disabled IpDnsForwarders#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_dns_forwarders#disabled IpDnsForwarders#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * An IP address or DNS name of a domain name server. Can contain multiple records.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ip_dns_forwarders#dns_servers IpDnsForwarders#dns_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_dns_forwarders#dns_servers IpDnsForwarders#dns_servers}
   */
   readonly dnsServers?: string[];
   /**
   * A URL of DoH server. Can contain multiple records.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ip_dns_forwarders#doh_servers IpDnsForwarders#doh_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_dns_forwarders#doh_servers IpDnsForwarders#doh_servers}
   */
   readonly dohServers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ip_dns_forwarders#id IpDnsForwarders#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_dns_forwarders#id IpDnsForwarders#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -43,19 +43,19 @@ export interface IpDnsForwardersConfig extends cdktf.TerraformMetaArguments {
   /**
   * Forwarder name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ip_dns_forwarders#name IpDnsForwarders#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_dns_forwarders#name IpDnsForwarders#name}
   */
   readonly name: string;
   /**
   * Specifies whether to validate the DoH server, when one is being used. Will use the `/certificate` list in order to verify server validity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ip_dns_forwarders#verify_doh_cert IpDnsForwarders#verify_doh_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_dns_forwarders#verify_doh_cert IpDnsForwarders#verify_doh_cert}
   */
   readonly verifyDohCert?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ip_dns_forwarders routeros_ip_dns_forwarders}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_dns_forwarders routeros_ip_dns_forwarders}
 */
 export class IpDnsForwarders extends cdktf.TerraformResource {
 
@@ -71,7 +71,7 @@ export class IpDnsForwarders extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IpDnsForwarders resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IpDnsForwarders to import
-  * @param importFromId The id of the existing IpDnsForwarders that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ip_dns_forwarders#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IpDnsForwarders that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_dns_forwarders#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IpDnsForwarders to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -83,7 +83,7 @@ export class IpDnsForwarders extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ip_dns_forwarders routeros_ip_dns_forwarders} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_dns_forwarders routeros_ip_dns_forwarders} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -94,7 +94,8 @@ export class IpDnsForwarders extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_ip_dns_forwarders',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.90.0'
+        providerVersion: '1.91.0',
+        providerVersionConstraint: '1.91.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

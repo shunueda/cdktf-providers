@@ -64,7 +64,8 @@ export class ArmsAlertContactGroup extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_arms_alert_contact_group',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

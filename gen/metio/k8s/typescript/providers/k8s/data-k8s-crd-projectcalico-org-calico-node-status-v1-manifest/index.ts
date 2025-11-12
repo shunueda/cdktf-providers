@@ -390,7 +390,8 @@ export class DataK8SCrdProjectcalicoOrgCalicoNodeStatusV1Manifest extends cdktf.
       terraformResourceType: 'k8s_crd_projectcalico_org_calico_node_status_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

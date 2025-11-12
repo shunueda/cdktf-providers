@@ -168,7 +168,8 @@ export class DataPrismacloudRqlHistoricSearches extends cdktf.TerraformDataSourc
       terraformResourceType: 'prismacloud_rql_historic_searches',
       terraformGeneratorMetadata: {
         providerName: 'prismacloud',
-        providerVersion: '1.7.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

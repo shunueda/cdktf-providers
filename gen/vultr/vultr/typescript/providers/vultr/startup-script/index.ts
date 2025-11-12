@@ -68,7 +68,8 @@ export class StartupScript extends cdktf.TerraformResource {
       terraformResourceType: 'vultr_startup_script',
       terraformGeneratorMetadata: {
         providerName: 'vultr',
-        providerVersion: '2.27.1'
+        providerVersion: '2.27.1',
+        providerVersionConstraint: '2.27.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

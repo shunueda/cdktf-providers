@@ -68,7 +68,8 @@ export class DataFortiadcLoadBalancePersistenceChildRadiusAttribute extends cdkt
       terraformResourceType: 'fortiadc_load_balance_persistence_child_radius_attribute',
       terraformGeneratorMetadata: {
         providerName: 'fortiadc',
-        providerVersion: '1.3.1'
+        providerVersion: '1.3.1',
+        providerVersionConstraint: '1.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

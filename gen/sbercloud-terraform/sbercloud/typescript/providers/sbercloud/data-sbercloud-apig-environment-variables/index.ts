@@ -181,7 +181,8 @@ export class DataSbercloudApigEnvironmentVariables extends cdktf.TerraformDataSo
       terraformResourceType: 'sbercloud_apig_environment_variables',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14'
+        providerVersion: '1.12.14',
+        providerVersionConstraint: '1.12.14'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

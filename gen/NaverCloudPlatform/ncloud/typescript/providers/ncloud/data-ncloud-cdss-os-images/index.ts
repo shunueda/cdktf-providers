@@ -136,7 +136,8 @@ export class DataNcloudCdssOsImages extends cdktf.TerraformDataSource {
       terraformResourceType: 'ncloud_cdss_os_images',
       terraformGeneratorMetadata: {
         providerName: 'ncloud',
-        providerVersion: '4.0.4'
+        providerVersion: '4.0.4',
+        providerVersionConstraint: '4.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

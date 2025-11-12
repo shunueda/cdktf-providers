@@ -4067,7 +4067,8 @@ export class DataIntersightCapabilityAdapterUpdateConstraintMeta extends cdktf.T
       terraformResourceType: 'intersight_capability_adapter_update_constraint_meta',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

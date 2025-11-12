@@ -234,7 +234,8 @@ export class ArmsEnvPodMonitor extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_arms_env_pod_monitor',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

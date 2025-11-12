@@ -72,7 +72,8 @@ export class DataSignalfxDimensionValues extends cdktf.TerraformDataSource {
       terraformResourceType: 'signalfx_dimension_values',
       terraformGeneratorMetadata: {
         providerName: 'signalfx',
-        providerVersion: '9.22.3'
+        providerVersion: '9.22.3',
+        providerVersionConstraint: '9.22.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

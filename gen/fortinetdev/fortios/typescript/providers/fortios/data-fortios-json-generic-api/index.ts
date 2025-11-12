@@ -68,7 +68,8 @@ export class DataFortiosJsonGenericApi extends cdktf.TerraformDataSource {
       terraformResourceType: 'fortios_json_generic_api',
       terraformGeneratorMetadata: {
         providerName: 'fortios',
-        providerVersion: '1.23.0'
+        providerVersion: '1.23.0',
+        providerVersionConstraint: '1.23.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

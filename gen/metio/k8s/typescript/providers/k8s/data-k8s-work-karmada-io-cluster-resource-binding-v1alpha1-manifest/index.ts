@@ -799,7 +799,8 @@ export class DataK8SWorkKarmadaIoClusterResourceBindingV1Alpha1Manifest extends 
       terraformResourceType: 'k8s_work_karmada_io_cluster_resource_binding_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

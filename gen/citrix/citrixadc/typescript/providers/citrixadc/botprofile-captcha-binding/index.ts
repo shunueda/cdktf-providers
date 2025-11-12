@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botprofile_captcha_binding
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile_captcha_binding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,64 +8,64 @@ import * as cdktf from 'cdktf';
 
 export interface BotprofileCaptchaBindingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botprofile_captcha_binding#bot_bind_comment BotprofileCaptchaBinding#bot_bind_comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile_captcha_binding#bot_bind_comment BotprofileCaptchaBinding#bot_bind_comment}
   */
   readonly botBindComment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botprofile_captcha_binding#bot_captcha_action BotprofileCaptchaBinding#bot_captcha_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile_captcha_binding#bot_captcha_action BotprofileCaptchaBinding#bot_captcha_action}
   */
   readonly botCaptchaAction?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botprofile_captcha_binding#bot_captcha_enabled BotprofileCaptchaBinding#bot_captcha_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile_captcha_binding#bot_captcha_enabled BotprofileCaptchaBinding#bot_captcha_enabled}
   */
   readonly botCaptchaEnabled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botprofile_captcha_binding#bot_captcha_url BotprofileCaptchaBinding#bot_captcha_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile_captcha_binding#bot_captcha_url BotprofileCaptchaBinding#bot_captcha_url}
   */
   readonly botCaptchaUrl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botprofile_captcha_binding#captcharesource BotprofileCaptchaBinding#captcharesource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile_captcha_binding#captcharesource BotprofileCaptchaBinding#captcharesource}
   */
   readonly captcharesource?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botprofile_captcha_binding#graceperiod BotprofileCaptchaBinding#graceperiod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile_captcha_binding#graceperiod BotprofileCaptchaBinding#graceperiod}
   */
   readonly graceperiod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botprofile_captcha_binding#id BotprofileCaptchaBinding#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile_captcha_binding#id BotprofileCaptchaBinding#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botprofile_captcha_binding#logmessage BotprofileCaptchaBinding#logmessage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile_captcha_binding#logmessage BotprofileCaptchaBinding#logmessage}
   */
   readonly logmessage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botprofile_captcha_binding#muteperiod BotprofileCaptchaBinding#muteperiod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile_captcha_binding#muteperiod BotprofileCaptchaBinding#muteperiod}
   */
   readonly muteperiod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botprofile_captcha_binding#name BotprofileCaptchaBinding#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile_captcha_binding#name BotprofileCaptchaBinding#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botprofile_captcha_binding#requestsizelimit BotprofileCaptchaBinding#requestsizelimit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile_captcha_binding#requestsizelimit BotprofileCaptchaBinding#requestsizelimit}
   */
   readonly requestsizelimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botprofile_captcha_binding#retryattempts BotprofileCaptchaBinding#retryattempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile_captcha_binding#retryattempts BotprofileCaptchaBinding#retryattempts}
   */
   readonly retryattempts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botprofile_captcha_binding#waittime BotprofileCaptchaBinding#waittime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile_captcha_binding#waittime BotprofileCaptchaBinding#waittime}
   */
   readonly waittime?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botprofile_captcha_binding citrixadc_botprofile_captcha_binding}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile_captcha_binding citrixadc_botprofile_captcha_binding}
 */
 export class BotprofileCaptchaBinding extends cdktf.TerraformResource {
 
@@ -81,7 +81,7 @@ export class BotprofileCaptchaBinding extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BotprofileCaptchaBinding resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BotprofileCaptchaBinding to import
-  * @param importFromId The id of the existing BotprofileCaptchaBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botprofile_captcha_binding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BotprofileCaptchaBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile_captcha_binding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BotprofileCaptchaBinding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +93,7 @@ export class BotprofileCaptchaBinding extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botprofile_captcha_binding citrixadc_botprofile_captcha_binding} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile_captcha_binding citrixadc_botprofile_captcha_binding} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,7 +104,8 @@ export class BotprofileCaptchaBinding extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_botprofile_captcha_binding',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

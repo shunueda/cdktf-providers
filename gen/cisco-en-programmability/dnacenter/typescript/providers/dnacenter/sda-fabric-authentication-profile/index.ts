@@ -564,7 +564,8 @@ export class SdaFabricAuthenticationProfile extends cdktf.TerraformResource {
       terraformResourceType: 'dnacenter_sda_fabric_authentication_profile',
       terraformGeneratorMetadata: {
         providerName: 'dnacenter',
-        providerVersion: '1.1.21'
+        providerVersion: '1.1.21',
+        providerVersionConstraint: '1.1.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

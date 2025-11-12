@@ -300,7 +300,8 @@ export class DataOciFusionAppsFusionEnvironmentFamilyLimitsAndUsage extends cdkt
       terraformResourceType: 'oci_fusion_apps_fusion_environment_family_limits_and_usage',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

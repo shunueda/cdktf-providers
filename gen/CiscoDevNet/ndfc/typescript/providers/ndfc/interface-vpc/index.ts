@@ -996,7 +996,8 @@ export class InterfaceVpc extends cdktf.TerraformResource {
       terraformResourceType: 'ndfc_interface_vpc',
       terraformGeneratorMetadata: {
         providerName: 'ndfc',
-        providerVersion: '0.2.0'
+        providerVersion: '0.2.0',
+        providerVersionConstraint: '0.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/swr_repository_sharing
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/swr_repository_sharing
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface SwrRepositorySharingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/swr_repository_sharing#deadline SwrRepositorySharing#deadline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/swr_repository_sharing#deadline SwrRepositorySharing#deadline}
   */
   readonly deadline: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/swr_repository_sharing#description SwrRepositorySharing#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/swr_repository_sharing#description SwrRepositorySharing#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/swr_repository_sharing#id SwrRepositorySharing#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/swr_repository_sharing#id SwrRepositorySharing#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/swr_repository_sharing#organization SwrRepositorySharing#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/swr_repository_sharing#organization SwrRepositorySharing#organization}
   */
   readonly organization: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/swr_repository_sharing#permission SwrRepositorySharing#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/swr_repository_sharing#permission SwrRepositorySharing#permission}
   */
   readonly permission?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/swr_repository_sharing#region SwrRepositorySharing#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/swr_repository_sharing#region SwrRepositorySharing#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/swr_repository_sharing#repository SwrRepositorySharing#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/swr_repository_sharing#repository SwrRepositorySharing#repository}
   */
   readonly repository: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/swr_repository_sharing#sharing_account SwrRepositorySharing#sharing_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/swr_repository_sharing#sharing_account SwrRepositorySharing#sharing_account}
   */
   readonly sharingAccount: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/swr_repository_sharing#timeouts SwrRepositorySharing#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/swr_repository_sharing#timeouts SwrRepositorySharing#timeouts}
   */
   readonly timeouts?: SwrRepositorySharingTimeouts;
 }
 export interface SwrRepositorySharingTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/swr_repository_sharing#default SwrRepositorySharing#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/swr_repository_sharing#default SwrRepositorySharing#default}
   */
   readonly default?: string;
 }
@@ -145,7 +145,7 @@ export class SwrRepositorySharingTimeoutsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/swr_repository_sharing hcs_swr_repository_sharing}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/swr_repository_sharing hcs_swr_repository_sharing}
 */
 export class SwrRepositorySharing extends cdktf.TerraformResource {
 
@@ -161,7 +161,7 @@ export class SwrRepositorySharing extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SwrRepositorySharing resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SwrRepositorySharing to import
-  * @param importFromId The id of the existing SwrRepositorySharing that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/swr_repository_sharing#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SwrRepositorySharing that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/swr_repository_sharing#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SwrRepositorySharing to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -173,7 +173,7 @@ export class SwrRepositorySharing extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/swr_repository_sharing hcs_swr_repository_sharing} Resource
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/swr_repository_sharing hcs_swr_repository_sharing} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -184,7 +184,8 @@ export class SwrRepositorySharing extends cdktf.TerraformResource {
       terraformResourceType: 'hcs_swr_repository_sharing',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.19'
+        providerVersion: '2.4.20',
+        providerVersionConstraint: '2.4.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

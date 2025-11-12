@@ -7688,7 +7688,8 @@ export class DataIntersightWorkflowCatalogServiceRequest extends cdktf.Terraform
       terraformResourceType: 'intersight_workflow_catalog_service_request',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

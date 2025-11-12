@@ -312,7 +312,8 @@ export class Vns3FirewallRule extends cdktf.TerraformResource {
       terraformResourceType: 'cohesivenet_vns3_firewall_rule',
       terraformGeneratorMetadata: {
         providerName: 'cohesivenet',
-        providerVersion: '1.0.8'
+        providerVersion: '1.0.8',
+        providerVersionConstraint: '1.0.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

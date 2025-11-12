@@ -86,7 +86,8 @@ export class DdosDstZoneDetectionVictimIpDetectionIndicator extends cdktf.Terraf
       terraformResourceType: 'thunder_ddos_dst_zone_detection_victim_ip_detection_indicator',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

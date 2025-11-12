@@ -100,7 +100,8 @@ export class WirelesscontrollerAccesscontrollistLayer3Ipv4RulesA extends cdktf.T
       terraformResourceType: 'fmgdevice_wirelesscontroller_accesscontrollist_layer3ipv4rules',
       terraformGeneratorMetadata: {
         providerName: 'fmgdevice',
-        providerVersion: '1.2.1'
+        providerVersion: '1.2.1',
+        providerVersionConstraint: '1.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -73,7 +73,8 @@ export class CloudeosProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'cloudeos',
       terraformGeneratorMetadata: {
         providerName: 'cloudeos',
-        providerVersion: '1.2.2'
+        providerVersion: '1.2.2',
+        providerVersionConstraint: '1.2.2'
       },
       terraformProviderSource: 'aristanetworks/cloudeos'
     });

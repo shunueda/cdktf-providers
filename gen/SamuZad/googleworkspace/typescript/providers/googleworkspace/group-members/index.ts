@@ -302,7 +302,8 @@ export class GroupMembers extends cdktf.TerraformResource {
       terraformResourceType: 'googleworkspace_group_members',
       terraformGeneratorMetadata: {
         providerName: 'googleworkspace',
-        providerVersion: '0.11.0'
+        providerVersion: '0.11.0',
+        providerVersionConstraint: '0.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

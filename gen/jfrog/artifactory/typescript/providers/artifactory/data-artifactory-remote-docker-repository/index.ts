@@ -540,7 +540,8 @@ export class DataArtifactoryRemoteDockerRepository extends cdktf.TerraformDataSo
       terraformResourceType: 'artifactory_remote_docker_repository',
       terraformGeneratorMetadata: {
         providerName: 'artifactory',
-        providerVersion: '12.10.1'
+        providerVersion: '12.10.1',
+        providerVersionConstraint: '12.10.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

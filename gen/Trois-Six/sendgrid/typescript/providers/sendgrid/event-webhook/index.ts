@@ -158,7 +158,8 @@ export class EventWebhook extends cdktf.TerraformResource {
       terraformResourceType: 'sendgrid_event_webhook',
       terraformGeneratorMetadata: {
         providerName: 'sendgrid',
-        providerVersion: '0.2.1'
+        providerVersion: '0.2.1',
+        providerVersionConstraint: '0.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

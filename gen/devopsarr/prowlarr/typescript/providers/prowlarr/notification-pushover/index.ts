@@ -139,7 +139,8 @@ export class NotificationPushover extends cdktf.TerraformResource {
       terraformResourceType: 'prowlarr_notification_pushover',
       terraformGeneratorMetadata: {
         providerName: 'prowlarr',
-        providerVersion: '3.0.2'
+        providerVersion: '3.0.2',
+        providerVersionConstraint: '3.0.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

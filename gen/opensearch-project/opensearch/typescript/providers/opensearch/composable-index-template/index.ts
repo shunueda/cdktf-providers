@@ -68,7 +68,8 @@ export class ComposableIndexTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'opensearch_composable_index_template',
       terraformGeneratorMetadata: {
         providerName: 'opensearch',
-        providerVersion: '2.3.2'
+        providerVersion: '2.3.2',
+        providerVersionConstraint: '2.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

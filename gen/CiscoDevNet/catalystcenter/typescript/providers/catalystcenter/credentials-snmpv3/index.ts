@@ -94,7 +94,8 @@ export class CredentialsSnmpv3 extends cdktf.TerraformResource {
       terraformResourceType: 'catalystcenter_credentials_snmpv3',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.2'
+        providerVersion: '0.4.2',
+        providerVersionConstraint: '0.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

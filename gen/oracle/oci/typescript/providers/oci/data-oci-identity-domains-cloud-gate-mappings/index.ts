@@ -1013,7 +1013,8 @@ export class DataOciIdentityDomainsCloudGateMappingsA extends cdktf.TerraformDat
       terraformResourceType: 'oci_identity_domains_cloud_gate_mappings',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -164,7 +164,8 @@ export class ProfileLogForwarding extends cdktf.TerraformResource {
       terraformResourceType: 'ciscomcd_profile_log_forwarding',
       terraformGeneratorMetadata: {
         providerName: 'ciscomcd',
-        providerVersion: '25.9.2'
+        providerVersion: '25.9.2',
+        providerVersionConstraint: '25.9.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -80,7 +80,8 @@ export class ImageAssurancePolicy extends cdktf.TerraformResource {
       terraformResourceType: 'dome9_image_assurance_policy',
       terraformGeneratorMetadata: {
         providerName: 'dome9',
-        providerVersion: '1.40.4'
+        providerVersion: '1.40.4',
+        providerVersionConstraint: '1.40.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

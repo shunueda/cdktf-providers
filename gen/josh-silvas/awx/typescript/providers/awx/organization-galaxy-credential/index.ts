@@ -68,7 +68,8 @@ export class OrganizationGalaxyCredential extends cdktf.TerraformResource {
       terraformResourceType: 'awx_organization_galaxy_credential',
       terraformGeneratorMetadata: {
         providerName: 'awx',
-        providerVersion: '1.7.5'
+        providerVersion: '1.7.5',
+        providerVersionConstraint: '1.7.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

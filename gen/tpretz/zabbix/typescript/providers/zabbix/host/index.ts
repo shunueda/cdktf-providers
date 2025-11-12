@@ -33,7 +33,7 @@ export interface HostConfig extends cdktf.TerraformMetaArguments {
   */
   readonly id?: string;
   /**
-  * Inventory Mode, one of: disabled, manual, automatic
+  * Inventory Mode, one of: automatic, disabled, manual
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tpretz/zabbix/0.17.0/docs/resources/host#inventory_mode Host#inventory_mode}
   */
@@ -131,7 +131,7 @@ export interface HostInterface {
   */
   readonly snmp3Privpassphrase?: string;
   /**
-  * Priv Protocol (v3 only), one of: aes, des
+  * Priv Protocol (v3 only), one of: des, aes
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tpretz/zabbix/0.17.0/docs/resources/host#snmp3_privprotocol Host#snmp3_privprotocol}
   */
@@ -3570,7 +3570,8 @@ export class Host extends cdktf.TerraformResource {
       terraformResourceType: 'zabbix_host',
       terraformGeneratorMetadata: {
         providerName: 'zabbix',
-        providerVersion: '0.17.0'
+        providerVersion: '0.17.0',
+        providerVersionConstraint: '0.17.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

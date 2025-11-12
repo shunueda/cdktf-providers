@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_idp_administrator_group
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_idp_administrator_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface ManagementIdpAdministratorGroupConfig extends cdktf.TerraformMe
   /**
   * Color of the object. Should be one of existing colors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_idp_administrator_group#color ManagementIdpAdministratorGroup#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_idp_administrator_group#color ManagementIdpAdministratorGroup#color}
   */
   readonly color?: string;
   /**
   * Comments string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_idp_administrator_group#comments ManagementIdpAdministratorGroup#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_idp_administrator_group#comments ManagementIdpAdministratorGroup#comments}
   */
   readonly comments?: string;
   /**
   * Group ID or Name should be set base on the source attribute of 'groups' in the Saml Assertion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_idp_administrator_group#group_id ManagementIdpAdministratorGroup#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_idp_administrator_group#group_id ManagementIdpAdministratorGroup#group_id}
   */
   readonly groupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_idp_administrator_group#id ManagementIdpAdministratorGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_idp_administrator_group#id ManagementIdpAdministratorGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,37 +35,37 @@ export interface ManagementIdpAdministratorGroupConfig extends cdktf.TerraformMe
   /**
   * Apply changes ignoring errors. You won't be able to publish such a changes. If ignore-warnings flag was omitted - warnings will also be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_idp_administrator_group#ignore_errors ManagementIdpAdministratorGroup#ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_idp_administrator_group#ignore_errors ManagementIdpAdministratorGroup#ignore_errors}
   */
   readonly ignoreErrors?: boolean | cdktf.IResolvable;
   /**
   * Apply changes ignoring warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_idp_administrator_group#ignore_warnings ManagementIdpAdministratorGroup#ignore_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_idp_administrator_group#ignore_warnings ManagementIdpAdministratorGroup#ignore_warnings}
   */
   readonly ignoreWarnings?: boolean | cdktf.IResolvable;
   /**
   * Administrator multi-domain profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_idp_administrator_group#multi_domain_profile ManagementIdpAdministratorGroup#multi_domain_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_idp_administrator_group#multi_domain_profile ManagementIdpAdministratorGroup#multi_domain_profile}
   */
   readonly multiDomainProfile?: string;
   /**
   * Object name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_idp_administrator_group#name ManagementIdpAdministratorGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_idp_administrator_group#name ManagementIdpAdministratorGroup#name}
   */
   readonly name: string;
   /**
   * Collection of tag identifiers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_idp_administrator_group#tags ManagementIdpAdministratorGroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_idp_administrator_group#tags ManagementIdpAdministratorGroup#tags}
   */
   readonly tags?: string[];
   /**
   * permissions_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_idp_administrator_group#permissions_profile ManagementIdpAdministratorGroup#permissions_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_idp_administrator_group#permissions_profile ManagementIdpAdministratorGroup#permissions_profile}
   */
   readonly permissionsProfile?: ManagementIdpAdministratorGroupPermissionsProfile[] | cdktf.IResolvable;
 }
@@ -73,13 +73,13 @@ export interface ManagementIdpAdministratorGroupPermissionsProfile {
   /**
   * N/A
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_idp_administrator_group#domain ManagementIdpAdministratorGroup#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_idp_administrator_group#domain ManagementIdpAdministratorGroup#domain}
   */
   readonly domain?: string;
   /**
   * Permission profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_idp_administrator_group#profile ManagementIdpAdministratorGroup#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_idp_administrator_group#profile ManagementIdpAdministratorGroup#profile}
   */
   readonly profile?: string;
 }
@@ -224,7 +224,7 @@ export class ManagementIdpAdministratorGroupPermissionsProfileList extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_idp_administrator_group checkpoint_management_idp_administrator_group}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_idp_administrator_group checkpoint_management_idp_administrator_group}
 */
 export class ManagementIdpAdministratorGroup extends cdktf.TerraformResource {
 
@@ -240,7 +240,7 @@ export class ManagementIdpAdministratorGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementIdpAdministratorGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementIdpAdministratorGroup to import
-  * @param importFromId The id of the existing ManagementIdpAdministratorGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_idp_administrator_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementIdpAdministratorGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_idp_administrator_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementIdpAdministratorGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -252,7 +252,7 @@ export class ManagementIdpAdministratorGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_idp_administrator_group checkpoint_management_idp_administrator_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_idp_administrator_group checkpoint_management_idp_administrator_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -263,7 +263,8 @@ export class ManagementIdpAdministratorGroup extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_idp_administrator_group',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

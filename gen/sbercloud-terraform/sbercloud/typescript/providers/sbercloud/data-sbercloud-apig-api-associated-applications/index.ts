@@ -201,7 +201,8 @@ export class DataSbercloudApigApiAssociatedApplications extends cdktf.TerraformD
       terraformResourceType: 'sbercloud_apig_api_associated_applications',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14'
+        providerVersion: '1.12.14',
+        providerVersionConstraint: '1.12.14'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

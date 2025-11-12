@@ -109,7 +109,8 @@ export class Machine extends cdktf.TerraformResource {
       terraformResourceType: 'drp_machine',
       terraformGeneratorMetadata: {
         providerName: 'drp',
-        providerVersion: '2.3.2'
+        providerVersion: '2.3.2',
+        providerVersionConstraint: '2.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -74,7 +74,8 @@ export class GcoreStorageSftpKey extends cdktf.TerraformResource {
       terraformResourceType: 'gcore_storage_sftp_key',
       terraformGeneratorMetadata: {
         providerName: 'gcorelabs',
-        providerVersion: '0.3.63'
+        providerVersion: '0.3.63',
+        providerVersionConstraint: '0.3.63'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

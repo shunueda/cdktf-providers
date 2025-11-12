@@ -856,7 +856,8 @@ export class DataK8SLokiGrafanaComAlertingRuleV1Manifest extends cdktf.Terraform
       terraformResourceType: 'k8s_loki_grafana_com_alerting_rule_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/taskjournal
+// https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/taskjournal
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,22 +8,22 @@ import * as cdktf from 'cdktf';
 
 export interface DataAviTaskjournalConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/taskjournal#id DataAviTaskjournal#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/taskjournal#id DataAviTaskjournal#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/taskjournal#name DataAviTaskjournal#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/taskjournal#name DataAviTaskjournal#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/taskjournal#tenant_ref DataAviTaskjournal#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/taskjournal#tenant_ref DataAviTaskjournal#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/taskjournal#uuid DataAviTaskjournal#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/taskjournal#uuid DataAviTaskjournal#uuid}
   */
   readonly uuid?: string;
 }
@@ -494,119 +494,9 @@ export class DataAviTaskjournalSummaryList extends cdktf.ComplexList {
     return new DataAviTaskjournalSummaryOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
-export interface DataAviTaskjournalTasks {
-}
-
-export function dataAviTaskjournalTasksToTerraform(struct?: DataAviTaskjournalTasks): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function dataAviTaskjournalTasksToHclTerraform(struct?: DataAviTaskjournalTasks): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class DataAviTaskjournalTasksOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): DataAviTaskjournalTasks | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataAviTaskjournalTasks | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // duration - computed: true, optional: false, required: false
-  public get duration() {
-    return this.getStringAttribute('duration');
-  }
-
-  // end_time - computed: true, optional: false, required: false
-  public get endTime() {
-    return this.getStringAttribute('end_time');
-  }
-
-  // messages - computed: true, optional: false, required: false
-  public get messages() {
-    return this.getListAttribute('messages');
-  }
-
-  // reason - computed: true, optional: false, required: false
-  public get reason() {
-    return this.getStringAttribute('reason');
-  }
-
-  // start_time - computed: true, optional: false, required: false
-  public get startTime() {
-    return this.getStringAttribute('start_time');
-  }
-
-  // status - computed: true, optional: false, required: false
-  public get status() {
-    return this.getStringAttribute('status');
-  }
-
-  // task_description - computed: true, optional: false, required: false
-  public get taskDescription() {
-    return this.getStringAttribute('task_description');
-  }
-
-  // task_name - computed: true, optional: false, required: false
-  public get taskName() {
-    return this.getStringAttribute('task_name');
-  }
-}
-
-export class DataAviTaskjournalTasksList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DataAviTaskjournalTasksOutputReference {
-    return new DataAviTaskjournalTasksOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/taskjournal avi_taskjournal}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/taskjournal avi_taskjournal}
 */
 export class DataAviTaskjournal extends cdktf.TerraformDataSource {
 
@@ -622,7 +512,7 @@ export class DataAviTaskjournal extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAviTaskjournal resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAviTaskjournal to import
-  * @param importFromId The id of the existing DataAviTaskjournal that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/taskjournal#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAviTaskjournal that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/taskjournal#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAviTaskjournal to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -634,7 +524,7 @@ export class DataAviTaskjournal extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/taskjournal avi_taskjournal} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/taskjournal avi_taskjournal} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -645,7 +535,8 @@ export class DataAviTaskjournal extends cdktf.TerraformDataSource {
       terraformResourceType: 'avi_taskjournal',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '31.1.1'
+        providerVersion: '30.2.5',
+        providerVersionConstraint: '30.2.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -733,12 +624,6 @@ export class DataAviTaskjournal extends cdktf.TerraformDataSource {
   private _summary = new DataAviTaskjournalSummaryList(this, "summary", true);
   public get summary() {
     return this._summary;
-  }
-
-  // tasks - computed: true, optional: false, required: false
-  private _tasks = new DataAviTaskjournalTasksList(this, "tasks", false);
-  public get tasks() {
-    return this._tasks;
   }
 
   // tenant_ref - computed: true, optional: true, required: false

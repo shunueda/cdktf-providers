@@ -80,7 +80,8 @@ export class Branch extends cdktf.TerraformResource {
       terraformResourceType: 'github_branch',
       terraformGeneratorMetadata: {
         providerName: 'github',
-        providerVersion: '6.7.5'
+        providerVersion: '6.7.5',
+        providerVersionConstraint: '6.7.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

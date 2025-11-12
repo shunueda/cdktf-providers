@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_multicast_address_range
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_multicast_address_range
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ManagementMulticastAddressRangeConfig extends cdktf.TerraformMe
   /**
   * Color of the object. Should be one of existing colors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_multicast_address_range#color ManagementMulticastAddressRange#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_multicast_address_range#color ManagementMulticastAddressRange#color}
   */
   readonly color?: string;
   /**
   * Comments string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_multicast_address_range#comments ManagementMulticastAddressRange#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_multicast_address_range#comments ManagementMulticastAddressRange#comments}
   */
   readonly comments?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_multicast_address_range#id ManagementMulticastAddressRange#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_multicast_address_range#id ManagementMulticastAddressRange#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,67 +29,67 @@ export interface ManagementMulticastAddressRangeConfig extends cdktf.TerraformMe
   /**
   * Apply changes ignoring errors. You won't be able to publish such a changes. If ignore-warnings flag was omitted - warnings will also be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_multicast_address_range#ignore_errors ManagementMulticastAddressRange#ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_multicast_address_range#ignore_errors ManagementMulticastAddressRange#ignore_errors}
   */
   readonly ignoreErrors?: boolean | cdktf.IResolvable;
   /**
   * Apply changes ignoring warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_multicast_address_range#ignore_warnings ManagementMulticastAddressRange#ignore_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_multicast_address_range#ignore_warnings ManagementMulticastAddressRange#ignore_warnings}
   */
   readonly ignoreWarnings?: boolean | cdktf.IResolvable;
   /**
   * IPv4 address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_multicast_address_range#ipv4_address ManagementMulticastAddressRange#ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_multicast_address_range#ipv4_address ManagementMulticastAddressRange#ipv4_address}
   */
   readonly ipv4Address?: string;
   /**
   * First IPv4 address in the range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_multicast_address_range#ipv4_address_first ManagementMulticastAddressRange#ipv4_address_first}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_multicast_address_range#ipv4_address_first ManagementMulticastAddressRange#ipv4_address_first}
   */
   readonly ipv4AddressFirst?: string;
   /**
   * Last IPv4 address in the range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_multicast_address_range#ipv4_address_last ManagementMulticastAddressRange#ipv4_address_last}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_multicast_address_range#ipv4_address_last ManagementMulticastAddressRange#ipv4_address_last}
   */
   readonly ipv4AddressLast?: string;
   /**
   * IPv6 address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_multicast_address_range#ipv6_address ManagementMulticastAddressRange#ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_multicast_address_range#ipv6_address ManagementMulticastAddressRange#ipv6_address}
   */
   readonly ipv6Address?: string;
   /**
   * First IPv6 address in the range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_multicast_address_range#ipv6_address_first ManagementMulticastAddressRange#ipv6_address_first}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_multicast_address_range#ipv6_address_first ManagementMulticastAddressRange#ipv6_address_first}
   */
   readonly ipv6AddressFirst?: string;
   /**
   * Last IPv6 address in the range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_multicast_address_range#ipv6_address_last ManagementMulticastAddressRange#ipv6_address_last}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_multicast_address_range#ipv6_address_last ManagementMulticastAddressRange#ipv6_address_last}
   */
   readonly ipv6AddressLast?: string;
   /**
   * Object name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_multicast_address_range#name ManagementMulticastAddressRange#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_multicast_address_range#name ManagementMulticastAddressRange#name}
   */
   readonly name: string;
   /**
   * Collection of tag identifiers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_multicast_address_range#tags ManagementMulticastAddressRange#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_multicast_address_range#tags ManagementMulticastAddressRange#tags}
   */
   readonly tags?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_multicast_address_range checkpoint_management_multicast_address_range}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_multicast_address_range checkpoint_management_multicast_address_range}
 */
 export class ManagementMulticastAddressRange extends cdktf.TerraformResource {
 
@@ -105,7 +105,7 @@ export class ManagementMulticastAddressRange extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementMulticastAddressRange resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementMulticastAddressRange to import
-  * @param importFromId The id of the existing ManagementMulticastAddressRange that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_multicast_address_range#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementMulticastAddressRange that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_multicast_address_range#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementMulticastAddressRange to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -117,7 +117,7 @@ export class ManagementMulticastAddressRange extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_multicast_address_range checkpoint_management_multicast_address_range} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_multicast_address_range checkpoint_management_multicast_address_range} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -128,7 +128,8 @@ export class ManagementMulticastAddressRange extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_multicast_address_range',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

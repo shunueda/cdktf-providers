@@ -67,7 +67,8 @@ export class FormsRecaptchaV2 extends cdktf.TerraformResource {
       terraformResourceType: 'pingone_forms_recaptcha_v2',
       terraformGeneratorMetadata: {
         providerName: 'pingone',
-        providerVersion: '1.14.0'
+        providerVersion: '1.14.0',
+        providerVersionConstraint: '1.14.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

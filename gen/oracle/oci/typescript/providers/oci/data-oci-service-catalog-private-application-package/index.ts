@@ -60,7 +60,8 @@ export class DataOciServiceCatalogPrivateApplicationPackage extends cdktf.Terraf
       terraformResourceType: 'oci_service_catalog_private_application_package',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

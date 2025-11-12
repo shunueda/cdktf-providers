@@ -306,7 +306,8 @@ export class DataDevcycleEvaluatedVariableString extends cdktf.TerraformDataSour
       terraformResourceType: 'devcycle_evaluated_variable_string',
       terraformGeneratorMetadata: {
         providerName: 'devcycle',
-        providerVersion: '1.0.2'
+        providerVersion: '1.0.2',
+        providerVersionConstraint: '1.0.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

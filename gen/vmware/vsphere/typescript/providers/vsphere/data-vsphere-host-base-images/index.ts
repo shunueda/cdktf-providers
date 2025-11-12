@@ -56,7 +56,8 @@ export class DataVsphereHostBaseImages extends cdktf.TerraformDataSource {
       terraformResourceType: 'vsphere_host_base_images',
       terraformGeneratorMetadata: {
         providerName: 'vsphere',
-        providerVersion: '2.15.0'
+        providerVersion: '2.15.0',
+        providerVersionConstraint: '2.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

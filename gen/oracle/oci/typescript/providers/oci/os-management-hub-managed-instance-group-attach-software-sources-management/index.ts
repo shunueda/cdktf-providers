@@ -353,7 +353,8 @@ export class OsManagementHubManagedInstanceGroupAttachSoftwareSourcesManagement 
       terraformResourceType: 'oci_os_management_hub_managed_instance_group_attach_software_sources_management',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

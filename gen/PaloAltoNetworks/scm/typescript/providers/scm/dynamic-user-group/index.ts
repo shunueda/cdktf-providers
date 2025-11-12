@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/dynamic_user_group
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/dynamic_user_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface DynamicUserGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * The description of the dynamic address group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/dynamic_user_group#description DynamicUserGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/dynamic_user_group#description DynamicUserGroup#description}
   */
   readonly description?: string;
   /**
   * The device in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/dynamic_user_group#device DynamicUserGroup#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/dynamic_user_group#device DynamicUserGroup#device}
   */
   readonly device?: string;
   /**
   * The tag-based filter for the dynamic user group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/dynamic_user_group#filter DynamicUserGroup#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/dynamic_user_group#filter DynamicUserGroup#filter}
   */
   readonly filter: string;
   /**
   * The folder in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/dynamic_user_group#folder DynamicUserGroup#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/dynamic_user_group#folder DynamicUserGroup#folder}
   */
   readonly folder?: string;
   /**
   * The name of the dynamic address group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/dynamic_user_group#name DynamicUserGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/dynamic_user_group#name DynamicUserGroup#name}
   */
   readonly name: string;
   /**
   * The snippet in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/dynamic_user_group#snippet DynamicUserGroup#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/dynamic_user_group#snippet DynamicUserGroup#snippet}
   */
   readonly snippet?: string;
   /**
   * Tags associated with the dynamic user group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/dynamic_user_group#tag DynamicUserGroup#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/dynamic_user_group#tag DynamicUserGroup#tag}
   */
   readonly tag?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/dynamic_user_group scm_dynamic_user_group}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/dynamic_user_group scm_dynamic_user_group}
 */
 export class DynamicUserGroup extends cdktf.TerraformResource {
 
@@ -68,7 +68,7 @@ export class DynamicUserGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DynamicUserGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DynamicUserGroup to import
-  * @param importFromId The id of the existing DynamicUserGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/dynamic_user_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DynamicUserGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/dynamic_user_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DynamicUserGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +80,7 @@ export class DynamicUserGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/dynamic_user_group scm_dynamic_user_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/dynamic_user_group scm_dynamic_user_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,7 +91,8 @@ export class DynamicUserGroup extends cdktf.TerraformResource {
       terraformResourceType: 'scm_dynamic_user_group',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.3'
+        providerVersion: '1.0.4',
+        providerVersionConstraint: '1.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

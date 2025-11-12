@@ -147,7 +147,8 @@ export class DataAstraAccessList extends cdktf.TerraformDataSource {
       terraformResourceType: 'astra_access_list',
       terraformGeneratorMetadata: {
         providerName: 'astra',
-        providerVersion: '2.3.18'
+        providerVersion: '2.3.18',
+        providerVersionConstraint: '2.3.18'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

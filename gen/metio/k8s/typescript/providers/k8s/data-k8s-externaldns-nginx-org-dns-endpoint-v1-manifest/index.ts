@@ -796,7 +796,8 @@ export class DataK8SExternaldnsNginxOrgDnsEndpointV1Manifest extends cdktf.Terra
       terraformResourceType: 'k8s_externaldns_nginx_org_dns_endpoint_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

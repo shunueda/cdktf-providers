@@ -5783,7 +5783,8 @@ export class DataK8SInfrastructureClusterXK8SIoIbmPowerVsClusterTemplateV1Beta2M
       terraformResourceType: 'k8s_infrastructure_cluster_x_k8s_io_ibm_power_vs_cluster_template_v1beta2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_ldap_group
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_ldap_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface ManagementLdapGroupConfig extends cdktf.TerraformMetaArguments 
   /**
   * LDAP account unit of the group.  Identified by name or UID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_ldap_group#account_unit ManagementLdapGroup#account_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_ldap_group#account_unit ManagementLdapGroup#account_unit}
   */
   readonly accountUnit: string;
   /**
   * Branch of the selected LDAP Account Unit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_ldap_group#account_unit_branch ManagementLdapGroup#account_unit_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_ldap_group#account_unit_branch ManagementLdapGroup#account_unit_branch}
   */
   readonly accountUnitBranch?: string;
   /**
   * Indicate whether to apply LDAP filter for dynamic group. <font color="red">Relevant only when</font> 'scope' is not set to 'only_group_in_branch'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_ldap_group#apply_filter_for_dynamic_group ManagementLdapGroup#apply_filter_for_dynamic_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_ldap_group#apply_filter_for_dynamic_group ManagementLdapGroup#apply_filter_for_dynamic_group}
   */
   readonly applyFilterForDynamicGroup?: boolean | cdktf.IResolvable;
   /**
   * Color of the object. Should be one of existing colors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_ldap_group#color ManagementLdapGroup#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_ldap_group#color ManagementLdapGroup#color}
   */
   readonly color?: string;
   /**
   * Comments string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_ldap_group#comments ManagementLdapGroup#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_ldap_group#comments ManagementLdapGroup#comments}
   */
   readonly comments?: string;
   /**
   * Group name in the selected branch. <font color="red">Required only when</font> 'scope' is set to 'only_group_in_branch'. Must be in DN syntax.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_ldap_group#group_prefix ManagementLdapGroup#group_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_ldap_group#group_prefix ManagementLdapGroup#group_prefix}
   */
   readonly groupPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_ldap_group#id ManagementLdapGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_ldap_group#id ManagementLdapGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,49 +53,49 @@ export interface ManagementLdapGroupConfig extends cdktf.TerraformMetaArguments 
   /**
   * Apply changes ignoring errors. You won't be able to publish such a changes. If ignore-warnings flag was omitted - warnings will also be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_ldap_group#ignore_errors ManagementLdapGroup#ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_ldap_group#ignore_errors ManagementLdapGroup#ignore_errors}
   */
   readonly ignoreErrors?: boolean | cdktf.IResolvable;
   /**
   * Apply changes ignoring warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_ldap_group#ignore_warnings ManagementLdapGroup#ignore_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_ldap_group#ignore_warnings ManagementLdapGroup#ignore_warnings}
   */
   readonly ignoreWarnings?: boolean | cdktf.IResolvable;
   /**
   * LDAP filter for the dynamic group. <font color="red">Relevant only when</font> 'apply-filter-for-dynamic-group' is set to 'true'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_ldap_group#ldap_filter ManagementLdapGroup#ldap_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_ldap_group#ldap_filter ManagementLdapGroup#ldap_filter}
   */
   readonly ldapFilter?: string;
   /**
   * Object name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_ldap_group#name ManagementLdapGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_ldap_group#name ManagementLdapGroup#name}
   */
   readonly name: string;
   /**
   * Group's scope. There are three possible ways of defining a group, based on the users defined on the Account Unit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_ldap_group#scope ManagementLdapGroup#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_ldap_group#scope ManagementLdapGroup#scope}
   */
   readonly scope?: string;
   /**
   * Sub tree prefix of the selected branch. <font color="red">Relevant only when</font> 'scope' is set to 'only_sub_prefix'. Must be in DN syntax.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_ldap_group#sub_tree_prefix ManagementLdapGroup#sub_tree_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_ldap_group#sub_tree_prefix ManagementLdapGroup#sub_tree_prefix}
   */
   readonly subTreePrefix?: string;
   /**
   * Collection of tag identifiers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_ldap_group#tags ManagementLdapGroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_ldap_group#tags ManagementLdapGroup#tags}
   */
   readonly tags?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_ldap_group checkpoint_management_ldap_group}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_ldap_group checkpoint_management_ldap_group}
 */
 export class ManagementLdapGroup extends cdktf.TerraformResource {
 
@@ -111,7 +111,7 @@ export class ManagementLdapGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementLdapGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementLdapGroup to import
-  * @param importFromId The id of the existing ManagementLdapGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_ldap_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementLdapGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_ldap_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementLdapGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -123,7 +123,7 @@ export class ManagementLdapGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_ldap_group checkpoint_management_ldap_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_ldap_group checkpoint_management_ldap_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -134,7 +134,8 @@ export class ManagementLdapGroup extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_ldap_group',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -67,7 +67,8 @@ export class IonosdeveloperProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'ionosdeveloper',
       terraformGeneratorMetadata: {
         providerName: 'ionosdeveloper',
-        providerVersion: '0.0.1'
+        providerVersion: '0.0.1',
+        providerVersionConstraint: '0.0.1'
       },
       terraformProviderSource: 'ionos-developer/ionosdeveloper'
     });

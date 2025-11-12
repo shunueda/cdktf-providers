@@ -109,7 +109,8 @@ export class Application extends cdktf.TerraformResource {
       terraformResourceType: 'prowlarr_application',
       terraformGeneratorMetadata: {
         providerName: 'prowlarr',
-        providerVersion: '3.0.2'
+        providerVersion: '3.0.2',
+        providerVersionConstraint: '3.0.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

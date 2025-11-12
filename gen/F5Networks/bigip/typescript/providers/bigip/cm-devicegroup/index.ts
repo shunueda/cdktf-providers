@@ -269,7 +269,8 @@ export class CmDevicegroup extends cdktf.TerraformResource {
       terraformResourceType: 'bigip_cm_devicegroup',
       terraformGeneratorMetadata: {
         providerName: 'bigip',
-        providerVersion: '1.24.1'
+        providerVersion: '1.24.1',
+        providerVersionConstraint: '1.24.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

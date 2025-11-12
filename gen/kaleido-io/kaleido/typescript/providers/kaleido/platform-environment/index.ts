@@ -55,7 +55,8 @@ export class PlatformEnvironment extends cdktf.TerraformResource {
       terraformResourceType: 'kaleido_platform_environment',
       terraformGeneratorMetadata: {
         providerName: 'kaleido',
-        providerVersion: '1.1.2'
+        providerVersion: '1.1.2',
+        providerVersionConstraint: '1.1.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

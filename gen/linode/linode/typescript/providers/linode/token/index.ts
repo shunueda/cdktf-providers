@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/token
+// https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/token
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface TokenConfig extends cdktf.TerraformMetaArguments {
   /**
   * When this token will expire. Personal Access Tokens cannot be renewed, so after this time the token will be completely unusable and a new token will need to be generated. Tokens may be created with 'null' as their expiry and will never expire unless revoked. Format: 2006-01-02T15:04:05Z
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/token#expiry Token#expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/token#expiry Token#expiry}
   */
   readonly expiry?: string;
   /**
   * The label of the Linode Token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/token#label Token#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/token#label Token#label}
   */
   readonly label?: string;
   /**
   * The scopes this token was created with. These define what parts of the Account the token can be used to access. Many command-line tools, such as the Linode CLI, require tokens with access to *. Tokens with more restrictive scopes are generally more secure. Multiple scopes are separated by a space character (e.g., "databases:read_only events:read_only"). You can find the list of available scopes on Linode API docs site, https://techdocs.akamai.com/linode-api/reference/get-started#oauth-reference
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/token#scopes Token#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/token#scopes Token#scopes}
   */
   readonly scopes: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/token linode_token}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/token linode_token}
 */
 export class Token extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class Token extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Token resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Token to import
-  * @param importFromId The id of the existing Token that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/token#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Token that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/token#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Token to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class Token extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/token linode_token} Resource
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/token linode_token} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,7 +67,8 @@ export class Token extends cdktf.TerraformResource {
       terraformResourceType: 'linode_token',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.5.0'
+        providerVersion: '3.5.1',
+        providerVersionConstraint: '3.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

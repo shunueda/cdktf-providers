@@ -1428,7 +1428,8 @@ export class DataOciCoreSecurityLists extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_core_security_lists',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

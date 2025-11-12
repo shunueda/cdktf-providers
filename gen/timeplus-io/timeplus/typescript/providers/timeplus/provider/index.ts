@@ -85,7 +85,8 @@ export class TimeplusProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'timeplus',
       terraformGeneratorMetadata: {
         providerName: 'timeplus',
-        providerVersion: '0.1.6'
+        providerVersion: '0.1.6',
+        providerVersionConstraint: '0.1.6'
       },
       terraformProviderSource: 'timeplus-io/timeplus'
     });

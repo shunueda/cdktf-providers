@@ -562,7 +562,8 @@ export class DataDcnmNetwork extends cdktf.TerraformDataSource {
       terraformResourceType: 'dcnm_network',
       terraformGeneratorMetadata: {
         providerName: 'dcnm',
-        providerVersion: '1.2.7'
+        providerVersion: '1.2.7',
+        providerVersionConstraint: '1.2.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

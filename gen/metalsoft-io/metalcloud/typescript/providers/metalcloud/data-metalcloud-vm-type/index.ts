@@ -55,7 +55,8 @@ export class DataMetalcloudVmType extends cdktf.TerraformDataSource {
       terraformResourceType: 'metalcloud_vm_type',
       terraformGeneratorMetadata: {
         providerName: 'metalcloud',
-        providerVersion: '7.0.10'
+        providerVersion: '7.0.10',
+        providerVersionConstraint: '7.0.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

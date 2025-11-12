@@ -2716,7 +2716,8 @@ export class DataNutanixStorageContainerStatsInfoV2 extends cdktf.TerraformDataS
       terraformResourceType: 'nutanix_storage_container_stats_info_v2',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3'
+        providerVersion: '2.3.3',
+        providerVersionConstraint: '2.3.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

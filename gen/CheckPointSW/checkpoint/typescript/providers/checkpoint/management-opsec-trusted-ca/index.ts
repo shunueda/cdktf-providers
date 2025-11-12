@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_opsec_trusted_ca
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_opsec_trusted_ca
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,59 +10,59 @@ export interface ManagementOpsecTrustedCaConfig extends cdktf.TerraformMetaArgum
   /**
   * Allow only certificates from listed branches.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_opsec_trusted_ca#allow_certificates_from_branches ManagementOpsecTrustedCa#allow_certificates_from_branches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_opsec_trusted_ca#allow_certificates_from_branches ManagementOpsecTrustedCa#allow_certificates_from_branches}
   */
   readonly allowCertificatesFromBranches?: boolean | cdktf.IResolvable;
   /**
   * Certificate file encoded in base64.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_opsec_trusted_ca#base64_certificate ManagementOpsecTrustedCa#base64_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_opsec_trusted_ca#base64_certificate ManagementOpsecTrustedCa#base64_certificate}
   */
   readonly base64Certificate: string;
   /**
   * Branches to allow certificates from. Required only if "allow-certificates-from-branches" set to "true".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_opsec_trusted_ca#branches ManagementOpsecTrustedCa#branches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_opsec_trusted_ca#branches ManagementOpsecTrustedCa#branches}
   */
   readonly branches?: string[];
   /**
   * Cache Certificate Revocation List on the Security Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_opsec_trusted_ca#cache_crl ManagementOpsecTrustedCa#cache_crl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_opsec_trusted_ca#cache_crl ManagementOpsecTrustedCa#cache_crl}
   */
   readonly cacheCrl?: boolean | cdktf.IResolvable;
   /**
   * Color of the object. Should be one of existing colors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_opsec_trusted_ca#color ManagementOpsecTrustedCa#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_opsec_trusted_ca#color ManagementOpsecTrustedCa#color}
   */
   readonly color?: string;
   /**
   * Comments string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_opsec_trusted_ca#comments ManagementOpsecTrustedCa#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_opsec_trusted_ca#comments ManagementOpsecTrustedCa#comments}
   */
   readonly comments?: string;
   /**
   * Weather to retrieve new Certificate Revocation List after the certificate expires or after a fixed period.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_opsec_trusted_ca#crl_cache_method ManagementOpsecTrustedCa#crl_cache_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_opsec_trusted_ca#crl_cache_method ManagementOpsecTrustedCa#crl_cache_method}
   */
   readonly crlCacheMethod?: string;
   /**
   * When to fetch new Certificate Revocation List (in minutes).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_opsec_trusted_ca#crl_cache_timeout ManagementOpsecTrustedCa#crl_cache_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_opsec_trusted_ca#crl_cache_timeout ManagementOpsecTrustedCa#crl_cache_timeout}
   */
   readonly crlCacheTimeout?: number;
   /**
   * Indicates which domains to process the commands on. It cannot be used with the details-level full, must be run from the System Domain only and with ignore-warnings true. Valid values are: CURRENT_DOMAIN, ALL_DOMAINS_ON_THIS_SERVER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_opsec_trusted_ca#domains_to_process ManagementOpsecTrustedCa#domains_to_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_opsec_trusted_ca#domains_to_process ManagementOpsecTrustedCa#domains_to_process}
   */
   readonly domainsToProcess?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_opsec_trusted_ca#id ManagementOpsecTrustedCa#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_opsec_trusted_ca#id ManagementOpsecTrustedCa#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,43 +71,43 @@ export interface ManagementOpsecTrustedCaConfig extends cdktf.TerraformMetaArgum
   /**
   * Apply changes ignoring errors. You won't be able to publish such a changes. If ignore-warnings flag was omitted - warnings will also be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_opsec_trusted_ca#ignore_errors ManagementOpsecTrustedCa#ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_opsec_trusted_ca#ignore_errors ManagementOpsecTrustedCa#ignore_errors}
   */
   readonly ignoreErrors?: boolean | cdktf.IResolvable;
   /**
   * Apply changes ignoring warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_opsec_trusted_ca#ignore_warnings ManagementOpsecTrustedCa#ignore_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_opsec_trusted_ca#ignore_warnings ManagementOpsecTrustedCa#ignore_warnings}
   */
   readonly ignoreWarnings?: boolean | cdktf.IResolvable;
   /**
   * Object name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_opsec_trusted_ca#name ManagementOpsecTrustedCa#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_opsec_trusted_ca#name ManagementOpsecTrustedCa#name}
   */
   readonly name: string;
   /**
   * Whether to retrieve Certificate Revocation List from http servers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_opsec_trusted_ca#retrieve_crl_from_http_servers ManagementOpsecTrustedCa#retrieve_crl_from_http_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_opsec_trusted_ca#retrieve_crl_from_http_servers ManagementOpsecTrustedCa#retrieve_crl_from_http_servers}
   */
   readonly retrieveCrlFromHttpServers?: boolean | cdktf.IResolvable;
   /**
   * Whether to retrieve Certificate Revocation List from ldap servers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_opsec_trusted_ca#retrieve_crl_from_ldap_servers ManagementOpsecTrustedCa#retrieve_crl_from_ldap_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_opsec_trusted_ca#retrieve_crl_from_ldap_servers ManagementOpsecTrustedCa#retrieve_crl_from_ldap_servers}
   */
   readonly retrieveCrlFromLdapServers?: boolean | cdktf.IResolvable;
   /**
   * Collection of tag identifiers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_opsec_trusted_ca#tags ManagementOpsecTrustedCa#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_opsec_trusted_ca#tags ManagementOpsecTrustedCa#tags}
   */
   readonly tags?: string[];
   /**
   * automatic_enrollment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_opsec_trusted_ca#automatic_enrollment ManagementOpsecTrustedCa#automatic_enrollment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_opsec_trusted_ca#automatic_enrollment ManagementOpsecTrustedCa#automatic_enrollment}
   */
   readonly automaticEnrollment?: ManagementOpsecTrustedCaAutomaticEnrollment;
 }
@@ -115,13 +115,13 @@ export interface ManagementOpsecTrustedCaAutomaticEnrollmentCmpv1SettingsDirectT
   /**
   * Certificate authority IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_opsec_trusted_ca#ip_address ManagementOpsecTrustedCa#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_opsec_trusted_ca#ip_address ManagementOpsecTrustedCa#ip_address}
   */
   readonly ipAddress?: string;
   /**
   * Port number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_opsec_trusted_ca#port ManagementOpsecTrustedCa#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_opsec_trusted_ca#port ManagementOpsecTrustedCa#port}
   */
   readonly port?: number;
 }
@@ -236,7 +236,7 @@ export interface ManagementOpsecTrustedCaAutomaticEnrollmentCmpv1Settings {
   /**
   * direct_tcp_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_opsec_trusted_ca#direct_tcp_settings ManagementOpsecTrustedCa#direct_tcp_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_opsec_trusted_ca#direct_tcp_settings ManagementOpsecTrustedCa#direct_tcp_settings}
   */
   readonly directTcpSettings?: ManagementOpsecTrustedCaAutomaticEnrollmentCmpv1SettingsDirectTcpSettings;
 }
@@ -322,13 +322,13 @@ export interface ManagementOpsecTrustedCaAutomaticEnrollmentCmpv2SettingsDirectT
   /**
   * Certificate authority IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_opsec_trusted_ca#ip_address ManagementOpsecTrustedCa#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_opsec_trusted_ca#ip_address ManagementOpsecTrustedCa#ip_address}
   */
   readonly ipAddress?: string;
   /**
   * Port number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_opsec_trusted_ca#port ManagementOpsecTrustedCa#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_opsec_trusted_ca#port ManagementOpsecTrustedCa#port}
   */
   readonly port?: number;
 }
@@ -443,7 +443,7 @@ export interface ManagementOpsecTrustedCaAutomaticEnrollmentCmpv2SettingsHttpSet
   /**
   * Certificate authority URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_opsec_trusted_ca#url ManagementOpsecTrustedCa#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_opsec_trusted_ca#url ManagementOpsecTrustedCa#url}
   */
   readonly url?: string;
 }
@@ -529,19 +529,19 @@ export interface ManagementOpsecTrustedCaAutomaticEnrollmentCmpv2Settings {
   /**
   * Transport layer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_opsec_trusted_ca#transport_layer ManagementOpsecTrustedCa#transport_layer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_opsec_trusted_ca#transport_layer ManagementOpsecTrustedCa#transport_layer}
   */
   readonly transportLayer?: string;
   /**
   * direct_tcp_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_opsec_trusted_ca#direct_tcp_settings ManagementOpsecTrustedCa#direct_tcp_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_opsec_trusted_ca#direct_tcp_settings ManagementOpsecTrustedCa#direct_tcp_settings}
   */
   readonly directTcpSettings?: ManagementOpsecTrustedCaAutomaticEnrollmentCmpv2SettingsDirectTcpSettings;
   /**
   * http_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_opsec_trusted_ca#http_settings ManagementOpsecTrustedCa#http_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_opsec_trusted_ca#http_settings ManagementOpsecTrustedCa#http_settings}
   */
   readonly httpSettings?: ManagementOpsecTrustedCaAutomaticEnrollmentCmpv2SettingsHttpSettings;
 }
@@ -685,13 +685,13 @@ export interface ManagementOpsecTrustedCaAutomaticEnrollmentScepSettings {
   /**
   * Certificate authority identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_opsec_trusted_ca#ca_identifier ManagementOpsecTrustedCa#ca_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_opsec_trusted_ca#ca_identifier ManagementOpsecTrustedCa#ca_identifier}
   */
   readonly caIdentifier?: string;
   /**
   * Certificate authority URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_opsec_trusted_ca#url ManagementOpsecTrustedCa#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_opsec_trusted_ca#url ManagementOpsecTrustedCa#url}
   */
   readonly url?: string;
 }
@@ -806,31 +806,31 @@ export interface ManagementOpsecTrustedCaAutomaticEnrollment {
   /**
   * Whether to automatically enroll certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_opsec_trusted_ca#automatically_enroll_certificate ManagementOpsecTrustedCa#automatically_enroll_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_opsec_trusted_ca#automatically_enroll_certificate ManagementOpsecTrustedCa#automatically_enroll_certificate}
   */
   readonly automaticallyEnrollCertificate?: boolean | cdktf.IResolvable;
   /**
   * Protocol that communicates with the certificate authority. Available only if "automatically-enroll-certificate" parameter is set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_opsec_trusted_ca#protocol ManagementOpsecTrustedCa#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_opsec_trusted_ca#protocol ManagementOpsecTrustedCa#protocol}
   */
   readonly protocol?: string;
   /**
   * cmpv1_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_opsec_trusted_ca#cmpv1_settings ManagementOpsecTrustedCa#cmpv1_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_opsec_trusted_ca#cmpv1_settings ManagementOpsecTrustedCa#cmpv1_settings}
   */
   readonly cmpv1Settings?: ManagementOpsecTrustedCaAutomaticEnrollmentCmpv1Settings;
   /**
   * cmpv2_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_opsec_trusted_ca#cmpv2_settings ManagementOpsecTrustedCa#cmpv2_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_opsec_trusted_ca#cmpv2_settings ManagementOpsecTrustedCa#cmpv2_settings}
   */
   readonly cmpv2Settings?: ManagementOpsecTrustedCaAutomaticEnrollmentCmpv2Settings;
   /**
   * scep_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_opsec_trusted_ca#scep_settings ManagementOpsecTrustedCa#scep_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_opsec_trusted_ca#scep_settings ManagementOpsecTrustedCa#scep_settings}
   */
   readonly scepSettings?: ManagementOpsecTrustedCaAutomaticEnrollmentScepSettings;
 }
@@ -1030,7 +1030,7 @@ export class ManagementOpsecTrustedCaAutomaticEnrollmentOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_opsec_trusted_ca checkpoint_management_opsec_trusted_ca}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_opsec_trusted_ca checkpoint_management_opsec_trusted_ca}
 */
 export class ManagementOpsecTrustedCa extends cdktf.TerraformResource {
 
@@ -1046,7 +1046,7 @@ export class ManagementOpsecTrustedCa extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementOpsecTrustedCa resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementOpsecTrustedCa to import
-  * @param importFromId The id of the existing ManagementOpsecTrustedCa that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_opsec_trusted_ca#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementOpsecTrustedCa that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_opsec_trusted_ca#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementOpsecTrustedCa to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1058,7 +1058,7 @@ export class ManagementOpsecTrustedCa extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_opsec_trusted_ca checkpoint_management_opsec_trusted_ca} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_opsec_trusted_ca checkpoint_management_opsec_trusted_ca} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1069,7 +1069,8 @@ export class ManagementOpsecTrustedCa extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_opsec_trusted_ca',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1064,7 +1064,8 @@ export class DdosDstZoneSrcPortRange extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_ddos_dst_zone_src_port_range',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

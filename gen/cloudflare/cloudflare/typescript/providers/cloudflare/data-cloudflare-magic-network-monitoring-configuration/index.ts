@@ -138,7 +138,8 @@ export class DataCloudflareMagicNetworkMonitoringConfiguration extends cdktf.Ter
       terraformResourceType: 'cloudflare_magic_network_monitoring_configuration',
       terraformGeneratorMetadata: {
         providerName: 'cloudflare',
-        providerVersion: '5.12.0'
+        providerVersion: '5.12.0',
+        providerVersionConstraint: '5.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

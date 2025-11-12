@@ -74,7 +74,8 @@ export class Question extends cdktf.TerraformResource {
       terraformResourceType: 'stackoverflow_question',
       terraformGeneratorMetadata: {
         providerName: 'stackoverflow',
-        providerVersion: '1.0.5'
+        providerVersion: '1.0.5',
+        providerVersionConstraint: '1.0.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

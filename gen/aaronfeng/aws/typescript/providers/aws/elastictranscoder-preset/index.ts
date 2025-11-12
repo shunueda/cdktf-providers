@@ -1716,7 +1716,8 @@ export class ElastictranscoderPreset extends cdktf.TerraformResource {
       terraformResourceType: 'aws_elastictranscoder_preset',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '3.29.6'
+        providerVersion: '3.29.6',
+        providerVersionConstraint: '3.29.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

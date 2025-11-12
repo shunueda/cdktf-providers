@@ -263,7 +263,8 @@ export class ProjectFeatures extends cdktf.TerraformResource {
       terraformResourceType: 'azuredevops_project_features',
       terraformGeneratorMetadata: {
         providerName: 'azuredevops',
-        providerVersion: '1.11.2'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -140,7 +140,8 @@ export class DataCatalystcenterTemplateVersions extends cdktf.TerraformDataSourc
       terraformResourceType: 'catalystcenter_template_versions',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.2'
+        providerVersion: '0.4.2',
+        providerVersionConstraint: '0.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

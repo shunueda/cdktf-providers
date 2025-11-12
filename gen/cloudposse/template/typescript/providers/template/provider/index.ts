@@ -55,7 +55,8 @@ export class TemplateProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'template',
       terraformGeneratorMetadata: {
         providerName: 'template',
-        providerVersion: '2.2.0'
+        providerVersion: '2.2.0',
+        providerVersionConstraint: '2.2.0'
       },
       terraformProviderSource: 'cloudposse/template'
     });

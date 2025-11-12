@@ -74,7 +74,8 @@ export class LdapMsadLdsUserAccountControlMapper extends cdktf.TerraformResource
       terraformResourceType: 'keycloak_ldap_msad_lds_user_account_control_mapper',
       terraformGeneratorMetadata: {
         providerName: 'keycloak',
-        providerVersion: '5.5.0'
+        providerVersion: '5.5.0',
+        providerVersionConstraint: '5.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

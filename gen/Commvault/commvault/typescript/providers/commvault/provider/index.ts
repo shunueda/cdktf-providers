@@ -95,7 +95,8 @@ export class CommvaultProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'commvault',
       terraformGeneratorMetadata: {
         providerName: 'commvault',
-        providerVersion: '1.2.10'
+        providerVersion: '1.2.10',
+        providerVersionConstraint: '1.2.10'
       },
       terraformProviderSource: 'Commvault/commvault'
     });

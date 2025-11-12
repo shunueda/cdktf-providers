@@ -60,7 +60,8 @@ export class DataSpectrocloudProject extends cdktf.TerraformDataSource {
       terraformResourceType: 'spectrocloud_project',
       terraformGeneratorMetadata: {
         providerName: 'spectrocloud',
-        providerVersion: '0.25.2'
+        providerVersion: '0.25.2',
+        providerVersionConstraint: '0.25.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

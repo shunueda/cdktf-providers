@@ -290,7 +290,8 @@ export class KafkaClusterTopic extends cdktf.TerraformResource {
       terraformResourceType: 'ionoscloud_kafka_cluster_topic',
       terraformGeneratorMetadata: {
         providerName: 'ionoscloud',
-        providerVersion: '6.7.20'
+        providerVersion: '6.7.20',
+        providerVersionConstraint: '6.7.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -84,7 +84,8 @@ export class DataAciL3OutStaticRouteNextHop extends cdktf.TerraformDataSource {
       terraformResourceType: 'aci_l3out_static_route_next_hop',
       terraformGeneratorMetadata: {
         providerName: 'aci',
-        providerVersion: '2.18.0'
+        providerVersion: '2.18.0',
+        providerVersionConstraint: '2.18.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

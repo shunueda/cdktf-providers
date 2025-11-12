@@ -64,7 +64,8 @@ export class SecurityconsolePackageCancelInstall extends cdktf.TerraformResource
       terraformResourceType: 'fortimanager_securityconsole_package_cancel_install',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0'
+        providerVersion: '1.14.0',
+        providerVersionConstraint: '1.14.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

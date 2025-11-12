@@ -60,7 +60,8 @@ export class Macaddress extends cdktf.TerraformResource {
       terraformResourceType: 'macaddress',
       terraformGeneratorMetadata: {
         providerName: 'macaddress',
-        providerVersion: '0.3.2'
+        providerVersion: '0.3.2',
+        providerVersionConstraint: '0.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

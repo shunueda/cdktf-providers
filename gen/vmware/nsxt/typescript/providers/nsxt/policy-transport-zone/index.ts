@@ -259,7 +259,8 @@ export class PolicyTransportZone extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_policy_transport_zone',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0'
+        providerVersion: '3.10.0',
+        providerVersionConstraint: '3.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

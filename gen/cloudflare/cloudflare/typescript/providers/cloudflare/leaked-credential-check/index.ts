@@ -61,7 +61,8 @@ export class LeakedCredentialCheck extends cdktf.TerraformResource {
       terraformResourceType: 'cloudflare_leaked_credential_check',
       terraformGeneratorMetadata: {
         providerName: 'cloudflare',
-        providerVersion: '5.12.0'
+        providerVersion: '5.12.0',
+        providerVersionConstraint: '5.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

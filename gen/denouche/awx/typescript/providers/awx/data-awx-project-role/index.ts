@@ -64,7 +64,8 @@ export class DataAwxProjectRole extends cdktf.TerraformDataSource {
       terraformResourceType: 'awx_project_role',
       terraformGeneratorMetadata: {
         providerName: 'awx',
-        providerVersion: '0.29.1'
+        providerVersion: '0.29.1',
+        providerVersionConstraint: '0.29.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

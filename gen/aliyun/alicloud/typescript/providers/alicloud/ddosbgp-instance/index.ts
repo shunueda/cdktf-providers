@@ -266,7 +266,8 @@ export class DdosbgpInstance extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_ddosbgp_instance',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

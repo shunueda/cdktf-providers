@@ -55,7 +55,8 @@ export class EnvProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'env',
       terraformGeneratorMetadata: {
         providerName: 'env',
-        providerVersion: '0.0.2'
+        providerVersion: '0.0.2',
+        providerVersionConstraint: '0.0.2'
       },
       terraformProviderSource: 'tchupp/env'
     });

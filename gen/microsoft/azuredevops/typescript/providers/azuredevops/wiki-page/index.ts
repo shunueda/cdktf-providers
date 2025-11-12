@@ -275,7 +275,8 @@ export class WikiPage extends cdktf.TerraformResource {
       terraformResourceType: 'azuredevops_wiki_page',
       terraformGeneratorMetadata: {
         providerName: 'azuredevops',
-        providerVersion: '1.11.2'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

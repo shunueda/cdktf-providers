@@ -55,7 +55,8 @@ export class CorefuncProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'corefunc',
       terraformGeneratorMetadata: {
         providerName: 'corefunc',
-        providerVersion: '2.1.0'
+        providerVersion: '2.1.0',
+        providerVersionConstraint: '2.1.0'
       },
       terraformProviderSource: 'northwood-labs/corefunc'
     });

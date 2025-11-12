@@ -558,7 +558,8 @@ export class InputsTcpRaw extends cdktf.TerraformResource {
       terraformResourceType: 'splunk_inputs_tcp_raw',
       terraformGeneratorMetadata: {
         providerName: 'splunk',
-        providerVersion: '1.4.32'
+        providerVersion: '1.4.32',
+        providerVersionConstraint: '1.4.32'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

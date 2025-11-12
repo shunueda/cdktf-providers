@@ -64,7 +64,8 @@ export class DataFortiadcRouterOspfChildArealist extends cdktf.TerraformDataSour
       terraformResourceType: 'fortiadc_router_ospf_child_arealist',
       terraformGeneratorMetadata: {
         providerName: 'fortiadc',
-        providerVersion: '1.3.1'
+        providerVersion: '1.3.1',
+        providerVersionConstraint: '1.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

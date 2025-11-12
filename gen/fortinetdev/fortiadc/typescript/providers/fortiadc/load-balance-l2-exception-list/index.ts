@@ -72,7 +72,8 @@ export class LoadBalanceL2ExceptionList extends cdktf.TerraformResource {
       terraformResourceType: 'fortiadc_load_balance_l2_exception_list',
       terraformGeneratorMetadata: {
         providerName: 'fortiadc',
-        providerVersion: '1.3.1'
+        providerVersion: '1.3.1',
+        providerVersionConstraint: '1.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -169,7 +169,8 @@ export class DataServerscomL2SegmentMembers extends cdktf.TerraformDataSource {
       terraformResourceType: 'serverscom_l2_segment_members',
       terraformGeneratorMetadata: {
         providerName: 'serverscom',
-        providerVersion: '0.5.2'
+        providerVersion: '0.5.2',
+        providerVersionConstraint: '0.5.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

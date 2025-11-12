@@ -68,7 +68,8 @@ export class BootstrapNetwork extends cdktf.TerraformResource {
       terraformResourceType: 'quorum_bootstrap_network',
       terraformGeneratorMetadata: {
         providerName: 'quorum',
-        providerVersion: '0.3.0'
+        providerVersion: '0.3.0',
+        providerVersionConstraint: '0.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

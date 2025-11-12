@@ -458,7 +458,8 @@ export class Server extends cdktf.TerraformResource {
       terraformResourceType: 'serverspace_server',
       terraformGeneratorMetadata: {
         providerName: 'serverspace',
-        providerVersion: '0.3.2'
+        providerVersion: '0.3.2',
+        providerVersionConstraint: '0.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

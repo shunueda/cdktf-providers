@@ -436,7 +436,8 @@ export class ArgocdProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'argocd',
       terraformGeneratorMetadata: {
         providerName: 'argocd',
-        providerVersion: '7.11.2'
+        providerVersion: '7.11.2',
+        providerVersionConstraint: '7.11.2'
       },
       terraformProviderSource: 'argoproj-labs/argocd'
     });

@@ -85,7 +85,8 @@ export class CloudsigmaProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'cloudsigma',
       terraformGeneratorMetadata: {
         providerName: 'cloudsigma',
-        providerVersion: '2.9.0'
+        providerVersion: '2.9.0',
+        providerVersionConstraint: '2.9.0'
       },
       terraformProviderSource: 'cloudsigma/cloudsigma'
     });

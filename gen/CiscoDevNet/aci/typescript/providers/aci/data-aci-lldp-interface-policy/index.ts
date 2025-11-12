@@ -80,7 +80,8 @@ export class DataAciLldpInterfacePolicy extends cdktf.TerraformDataSource {
       terraformResourceType: 'aci_lldp_interface_policy',
       terraformGeneratorMetadata: {
         providerName: 'aci',
-        providerVersion: '2.18.0'
+        providerVersion: '2.18.0',
+        providerVersionConstraint: '2.18.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

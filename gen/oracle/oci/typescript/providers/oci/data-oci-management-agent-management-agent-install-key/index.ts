@@ -53,7 +53,8 @@ export class DataOciManagementAgentManagementAgentInstallKey extends cdktf.Terra
       terraformResourceType: 'oci_management_agent_management_agent_install_key',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

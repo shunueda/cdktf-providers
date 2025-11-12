@@ -1035,7 +1035,8 @@ export class DataHundIssues extends cdktf.TerraformDataSource {
       terraformResourceType: 'hund_issues',
       terraformGeneratorMetadata: {
         providerName: 'hund',
-        providerVersion: '0.1.0'
+        providerVersion: '0.1.0',
+        providerVersionConstraint: '0.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

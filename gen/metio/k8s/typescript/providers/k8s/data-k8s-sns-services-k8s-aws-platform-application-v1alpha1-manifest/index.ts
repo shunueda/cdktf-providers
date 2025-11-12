@@ -1968,7 +1968,8 @@ export class DataK8SSnsServicesK8SAwsPlatformApplicationV1Alpha1Manifest extends
       terraformResourceType: 'k8s_sns_services_k8s_aws_platform_application_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

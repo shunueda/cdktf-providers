@@ -297,7 +297,8 @@ export class Filesystem extends cdktf.TerraformResource {
       terraformResourceType: 'genesiscloud_filesystem',
       terraformGeneratorMetadata: {
         providerName: 'genesiscloud',
-        providerVersion: '1.1.14'
+        providerVersion: '1.1.14',
+        providerVersionConstraint: '1.1.14'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

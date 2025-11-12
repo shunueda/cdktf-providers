@@ -104,7 +104,8 @@ export class OpenidAudienceProtocolMapper extends cdktf.TerraformResource {
       terraformResourceType: 'keycloak_openid_audience_protocol_mapper',
       terraformGeneratorMetadata: {
         providerName: 'keycloak',
-        providerVersion: '5.5.0'
+        providerVersion: '5.5.0',
+        providerVersionConstraint: '5.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

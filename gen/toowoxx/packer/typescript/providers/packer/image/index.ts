@@ -115,7 +115,8 @@ export class Image extends cdktf.TerraformResource {
       terraformResourceType: 'packer_image',
       terraformGeneratorMetadata: {
         providerName: 'packer',
-        providerVersion: '0.17.2'
+        providerVersion: '0.17.2',
+        providerVersionConstraint: '0.17.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

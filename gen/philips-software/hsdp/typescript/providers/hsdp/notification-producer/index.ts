@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/notification_producer
+// https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/notification_producer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,98 +8,98 @@ import * as cdktf from 'cdktf';
 
 export interface NotificationProducerConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/notification_producer#description NotificationProducer#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/notification_producer#description NotificationProducer#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/notification_producer#id NotificationProducer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/notification_producer#id NotificationProducer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/notification_producer#managing_organization NotificationProducer#managing_organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/notification_producer#managing_organization NotificationProducer#managing_organization}
   */
   readonly managingOrganization: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/notification_producer#managing_organization_id NotificationProducer#managing_organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/notification_producer#managing_organization_id NotificationProducer#managing_organization_id}
   */
   readonly managingOrganizationId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/notification_producer#producer_product_name NotificationProducer#producer_product_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/notification_producer#producer_product_name NotificationProducer#producer_product_name}
   */
   readonly producerProductName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/notification_producer#producer_service_base_url NotificationProducer#producer_service_base_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/notification_producer#producer_service_base_url NotificationProducer#producer_service_base_url}
   */
   readonly producerServiceBaseUrl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/notification_producer#producer_service_instance_name NotificationProducer#producer_service_instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/notification_producer#producer_service_instance_name NotificationProducer#producer_service_instance_name}
   */
   readonly producerServiceInstanceName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/notification_producer#producer_service_name NotificationProducer#producer_service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/notification_producer#producer_service_name NotificationProducer#producer_service_name}
   */
   readonly producerServiceName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/notification_producer#producer_service_path_url NotificationProducer#producer_service_path_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/notification_producer#producer_service_path_url NotificationProducer#producer_service_path_url}
   */
   readonly producerServicePathUrl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/notification_producer#soft_delete NotificationProducer#soft_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/notification_producer#soft_delete NotificationProducer#soft_delete}
   */
   readonly softDelete?: boolean | cdktf.IResolvable;
   /**
   * principal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/notification_producer#principal NotificationProducer#principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/notification_producer#principal NotificationProducer#principal}
   */
   readonly principal?: NotificationProducerPrincipal;
 }
 export interface NotificationProducerPrincipal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/notification_producer#endpoint NotificationProducer#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/notification_producer#endpoint NotificationProducer#endpoint}
   */
   readonly endpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/notification_producer#environment NotificationProducer#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/notification_producer#environment NotificationProducer#environment}
   */
   readonly environment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/notification_producer#oauth2_client_id NotificationProducer#oauth2_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/notification_producer#oauth2_client_id NotificationProducer#oauth2_client_id}
   */
   readonly oauth2ClientId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/notification_producer#oauth2_password NotificationProducer#oauth2_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/notification_producer#oauth2_password NotificationProducer#oauth2_password}
   */
   readonly oauth2Password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/notification_producer#password NotificationProducer#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/notification_producer#password NotificationProducer#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/notification_producer#region NotificationProducer#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/notification_producer#region NotificationProducer#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/notification_producer#service_id NotificationProducer#service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/notification_producer#service_id NotificationProducer#service_id}
   */
   readonly serviceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/notification_producer#service_private_key NotificationProducer#service_private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/notification_producer#service_private_key NotificationProducer#service_private_key}
   */
   readonly servicePrivateKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/notification_producer#uaa_password NotificationProducer#uaa_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/notification_producer#uaa_password NotificationProducer#uaa_password}
   */
   readonly uaaPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/notification_producer#uaa_username NotificationProducer#uaa_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/notification_producer#uaa_username NotificationProducer#uaa_username}
   */
   readonly uaaUsername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/notification_producer#username NotificationProducer#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/notification_producer#username NotificationProducer#username}
   */
   readonly username?: string;
 }
@@ -473,7 +473,7 @@ export class NotificationProducerPrincipalOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/notification_producer hsdp_notification_producer}
+* Represents a {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/notification_producer hsdp_notification_producer}
 */
 export class NotificationProducer extends cdktf.TerraformResource {
 
@@ -489,7 +489,7 @@ export class NotificationProducer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NotificationProducer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NotificationProducer to import
-  * @param importFromId The id of the existing NotificationProducer that should be imported. Refer to the {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/notification_producer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NotificationProducer that should be imported. Refer to the {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/notification_producer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NotificationProducer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -501,7 +501,7 @@ export class NotificationProducer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/notification_producer hsdp_notification_producer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/notification_producer hsdp_notification_producer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -512,7 +512,8 @@ export class NotificationProducer extends cdktf.TerraformResource {
       terraformResourceType: 'hsdp_notification_producer',
       terraformGeneratorMetadata: {
         providerName: 'hsdp',
-        providerVersion: '0.70.0'
+        providerVersion: '0.71.0',
+        providerVersionConstraint: '0.71.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

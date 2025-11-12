@@ -166,7 +166,8 @@ export class DataFastlyServices extends cdktf.TerraformDataSource {
       terraformResourceType: 'fastly_services',
       terraformGeneratorMetadata: {
         providerName: 'fastly',
-        providerVersion: '8.4.0'
+        providerVersion: '8.4.0',
+        providerVersionConstraint: '8.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

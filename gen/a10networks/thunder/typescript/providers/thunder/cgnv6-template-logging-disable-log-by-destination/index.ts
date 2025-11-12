@@ -1672,7 +1672,8 @@ export class Cgnv6TemplateLoggingDisableLogByDestinationA extends cdktf.Terrafor
       terraformResourceType: 'thunder_cgnv6_template_logging_disable_log_by_destination',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

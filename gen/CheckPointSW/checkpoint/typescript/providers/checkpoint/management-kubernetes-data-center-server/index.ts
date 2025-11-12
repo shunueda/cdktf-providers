@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_kubernetes_data_center_server
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_kubernetes_data_center_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface ManagementKubernetesDataCenterServerConfig extends cdktf.Terraf
   /**
   * The Kubernetes public certificate key encoded in base64.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_kubernetes_data_center_server#ca_certificate ManagementKubernetesDataCenterServer#ca_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_kubernetes_data_center_server#ca_certificate ManagementKubernetesDataCenterServer#ca_certificate}
   */
   readonly caCertificate?: string;
   /**
   * Color of the object. Should be one of existing colors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_kubernetes_data_center_server#color ManagementKubernetesDataCenterServer#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_kubernetes_data_center_server#color ManagementKubernetesDataCenterServer#color}
   */
   readonly color?: string;
   /**
   * Comments string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_kubernetes_data_center_server#comments ManagementKubernetesDataCenterServer#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_kubernetes_data_center_server#comments ManagementKubernetesDataCenterServer#comments}
   */
   readonly comments?: string;
   /**
   * IP address or hostname of the Kubernetes server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_kubernetes_data_center_server#hostname ManagementKubernetesDataCenterServer#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_kubernetes_data_center_server#hostname ManagementKubernetesDataCenterServer#hostname}
   */
   readonly hostname: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_kubernetes_data_center_server#id ManagementKubernetesDataCenterServer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_kubernetes_data_center_server#id ManagementKubernetesDataCenterServer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,31 +41,31 @@ export interface ManagementKubernetesDataCenterServerConfig extends cdktf.Terraf
   /**
   * Apply changes ignoring errors. You won't be able to publish such a changes. If ignore-warnings flag was omitted - warnings will also be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_kubernetes_data_center_server#ignore_errors ManagementKubernetesDataCenterServer#ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_kubernetes_data_center_server#ignore_errors ManagementKubernetesDataCenterServer#ignore_errors}
   */
   readonly ignoreErrors?: boolean | cdktf.IResolvable;
   /**
   * Apply changes ignoring warnings. By Setting this parameter to 'true' test connection failure will be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_kubernetes_data_center_server#ignore_warnings ManagementKubernetesDataCenterServer#ignore_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_kubernetes_data_center_server#ignore_warnings ManagementKubernetesDataCenterServer#ignore_warnings}
   */
   readonly ignoreWarnings?: boolean | cdktf.IResolvable;
   /**
   * Object name. Must be unique in the domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_kubernetes_data_center_server#name ManagementKubernetesDataCenterServer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_kubernetes_data_center_server#name ManagementKubernetesDataCenterServer#name}
   */
   readonly name: string;
   /**
   * Collection of tag identifiers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_kubernetes_data_center_server#tags ManagementKubernetesDataCenterServer#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_kubernetes_data_center_server#tags ManagementKubernetesDataCenterServer#tags}
   */
   readonly tags?: string[];
   /**
   * Kubernetes access token encoded in base64.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_kubernetes_data_center_server#token_file ManagementKubernetesDataCenterServer#token_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_kubernetes_data_center_server#token_file ManagementKubernetesDataCenterServer#token_file}
   */
   readonly tokenFile: string;
   /**
@@ -73,13 +73,13 @@ export interface ManagementKubernetesDataCenterServerConfig extends cdktf.Terraf
   * 
   * When set to true, trust the current Data Center Server's certificate as-is.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_kubernetes_data_center_server#unsafe_auto_accept ManagementKubernetesDataCenterServer#unsafe_auto_accept}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_kubernetes_data_center_server#unsafe_auto_accept ManagementKubernetesDataCenterServer#unsafe_auto_accept}
   */
   readonly unsafeAutoAccept?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_kubernetes_data_center_server checkpoint_management_kubernetes_data_center_server}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_kubernetes_data_center_server checkpoint_management_kubernetes_data_center_server}
 */
 export class ManagementKubernetesDataCenterServer extends cdktf.TerraformResource {
 
@@ -95,7 +95,7 @@ export class ManagementKubernetesDataCenterServer extends cdktf.TerraformResourc
   * Generates CDKTF code for importing a ManagementKubernetesDataCenterServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementKubernetesDataCenterServer to import
-  * @param importFromId The id of the existing ManagementKubernetesDataCenterServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_kubernetes_data_center_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementKubernetesDataCenterServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_kubernetes_data_center_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementKubernetesDataCenterServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -107,7 +107,7 @@ export class ManagementKubernetesDataCenterServer extends cdktf.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_kubernetes_data_center_server checkpoint_management_kubernetes_data_center_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_kubernetes_data_center_server checkpoint_management_kubernetes_data_center_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -118,7 +118,8 @@ export class ManagementKubernetesDataCenterServer extends cdktf.TerraformResourc
       terraformResourceType: 'checkpoint_management_kubernetes_data_center_server',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -65,7 +65,8 @@ export class DataSolacebrokerClientCertAuthorityOcspTlsTrustedCommonName extends
       terraformResourceType: 'solacebroker_client_cert_authority_ocsp_tls_trusted_common_name',
       terraformGeneratorMetadata: {
         providerName: 'solacebroker',
-        providerVersion: '1.2.0'
+        providerVersion: '1.2.0',
+        providerVersionConstraint: '1.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

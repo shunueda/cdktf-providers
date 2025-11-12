@@ -343,7 +343,8 @@ export class DataMaterializeScimGroups extends cdktf.TerraformDataSource {
       terraformResourceType: 'materialize_scim_groups',
       terraformGeneratorMetadata: {
         providerName: 'materialize',
-        providerVersion: '0.9.2'
+        providerVersion: '0.9.2',
+        providerVersionConstraint: '0.9.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

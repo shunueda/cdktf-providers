@@ -974,7 +974,8 @@ export class PlaybackConfiguration extends cdktf.TerraformResource {
       terraformResourceType: 'awsmt_playback_configuration',
       terraformGeneratorMetadata: {
         providerName: 'awsmt',
-        providerVersion: '2.5.1'
+        providerVersion: '2.5.1',
+        providerVersionConstraint: '2.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -79,7 +79,8 @@ export class ItAutomationTaskGroup extends cdktf.TerraformResource {
       terraformResourceType: 'crowdstrike_it_automation_task_group',
       terraformGeneratorMetadata: {
         providerName: 'crowdstrike',
-        providerVersion: '0.0.43'
+        providerVersion: '0.0.43',
+        providerVersionConstraint: '0.0.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

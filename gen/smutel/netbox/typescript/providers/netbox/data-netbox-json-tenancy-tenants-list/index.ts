@@ -215,7 +215,8 @@ export class DataNetboxJsonTenancyTenantsList extends cdktf.TerraformDataSource 
       terraformResourceType: 'netbox_json_tenancy_tenants_list',
       terraformGeneratorMetadata: {
         providerName: 'netbox',
-        providerVersion: '8.0.2'
+        providerVersion: '8.0.2',
+        providerVersionConstraint: '8.0.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

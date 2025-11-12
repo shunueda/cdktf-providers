@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/data-sources/permission_set
+// https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/data-sources/permission_set
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataKeyfactorPermissionSetConfig extends cdktf.TerraformMetaArg
   /**
   * Name of the permission set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/data-sources/permission_set#name DataKeyfactorPermissionSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/data-sources/permission_set#name DataKeyfactorPermissionSet#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/data-sources/permission_set keyfactor_permission_set}
+* Represents a {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/data-sources/permission_set keyfactor_permission_set}
 */
 export class DataKeyfactorPermissionSet extends cdktf.TerraformDataSource {
 
@@ -32,7 +32,7 @@ export class DataKeyfactorPermissionSet extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataKeyfactorPermissionSet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataKeyfactorPermissionSet to import
-  * @param importFromId The id of the existing DataKeyfactorPermissionSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/data-sources/permission_set#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataKeyfactorPermissionSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/data-sources/permission_set#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataKeyfactorPermissionSet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class DataKeyfactorPermissionSet extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/data-sources/permission_set keyfactor_permission_set} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/data-sources/permission_set keyfactor_permission_set} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,7 +55,8 @@ export class DataKeyfactorPermissionSet extends cdktf.TerraformDataSource {
       terraformResourceType: 'keyfactor_permission_set',
       terraformGeneratorMetadata: {
         providerName: 'keyfactor',
-        providerVersion: '2.6.0'
+        providerVersion: '2.7.0',
+        providerVersionConstraint: '2.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -68,7 +68,8 @@ export class DebugFtpProxy extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_debug_ftp_proxy',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

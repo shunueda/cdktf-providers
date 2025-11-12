@@ -1533,7 +1533,8 @@ export class InextWebApiAsset extends cdktf.TerraformResource {
       terraformResourceType: 'inext_web_api_asset',
       terraformGeneratorMetadata: {
         providerName: 'infinity-next',
-        providerVersion: '1.2.0'
+        providerVersion: '1.2.0',
+        providerVersionConstraint: '1.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

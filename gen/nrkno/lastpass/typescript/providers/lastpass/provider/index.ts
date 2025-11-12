@@ -67,7 +67,8 @@ export class LastpassProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'lastpass',
       terraformGeneratorMetadata: {
         providerName: 'lastpass',
-        providerVersion: '0.5.3'
+        providerVersion: '0.5.3',
+        providerVersionConstraint: '0.5.3'
       },
       terraformProviderSource: 'nrkno/lastpass'
     });

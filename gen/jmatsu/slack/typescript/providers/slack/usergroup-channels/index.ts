@@ -64,7 +64,8 @@ export class UsergroupChannels extends cdktf.TerraformResource {
       terraformResourceType: 'slack_usergroup_channels',
       terraformGeneratorMetadata: {
         providerName: 'slack',
-        providerVersion: '0.9.0'
+        providerVersion: '0.9.0',
+        providerVersionConstraint: '0.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

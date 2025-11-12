@@ -140,7 +140,8 @@ export class DataUcloudIamGroups extends cdktf.TerraformDataSource {
       terraformResourceType: 'ucloud_iam_groups',
       terraformGeneratorMetadata: {
         providerName: 'ucloud',
-        providerVersion: '1.39.1'
+        providerVersion: '1.39.1',
+        providerVersionConstraint: '1.39.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbprofile
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbprofile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,64 +8,68 @@ import * as cdktf from 'cdktf';
 
 export interface LbprofileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbprofile#computedadccookieattribute Lbprofile#computedadccookieattribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbprofile#computedadccookieattribute Lbprofile#computedadccookieattribute}
   */
   readonly computedadccookieattribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbprofile#cookiepassphrase Lbprofile#cookiepassphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbprofile#cookiepassphrase Lbprofile#cookiepassphrase}
   */
   readonly cookiepassphrase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbprofile#dbslb Lbprofile#dbslb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbprofile#dbslb Lbprofile#dbslb}
   */
   readonly dbslb?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbprofile#httponlycookieflag Lbprofile#httponlycookieflag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbprofile#httponlycookieflag Lbprofile#httponlycookieflag}
   */
   readonly httponlycookieflag?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbprofile#id Lbprofile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbprofile#id Lbprofile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbprofile#lbhashalgorithm Lbprofile#lbhashalgorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbprofile#lbhashalgorithm Lbprofile#lbhashalgorithm}
   */
   readonly lbhashalgorithm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbprofile#lbhashfingers Lbprofile#lbhashfingers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbprofile#lbhashfingers Lbprofile#lbhashfingers}
   */
   readonly lbhashfingers?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbprofile#lbprofilename Lbprofile#lbprofilename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbprofile#lbprofilename Lbprofile#lbprofilename}
   */
   readonly lbprofilename: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbprofile#literaladccookieattribute Lbprofile#literaladccookieattribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbprofile#literaladccookieattribute Lbprofile#literaladccookieattribute}
   */
   readonly literaladccookieattribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbprofile#processlocal Lbprofile#processlocal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbprofile#processlocal Lbprofile#processlocal}
   */
   readonly processlocal?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbprofile#storemqttclientidandusername Lbprofile#storemqttclientidandusername}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbprofile#proximityfromself Lbprofile#proximityfromself}
+  */
+  readonly proximityfromself?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbprofile#storemqttclientidandusername Lbprofile#storemqttclientidandusername}
   */
   readonly storemqttclientidandusername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbprofile#useencryptedpersistencecookie Lbprofile#useencryptedpersistencecookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbprofile#useencryptedpersistencecookie Lbprofile#useencryptedpersistencecookie}
   */
   readonly useencryptedpersistencecookie?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbprofile#usesecuredpersistencecookie Lbprofile#usesecuredpersistencecookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbprofile#usesecuredpersistencecookie Lbprofile#usesecuredpersistencecookie}
   */
   readonly usesecuredpersistencecookie?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbprofile citrixadc_lbprofile}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbprofile citrixadc_lbprofile}
 */
 export class Lbprofile extends cdktf.TerraformResource {
 
@@ -81,7 +85,7 @@ export class Lbprofile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Lbprofile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Lbprofile to import
-  * @param importFromId The id of the existing Lbprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbprofile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Lbprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbprofile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Lbprofile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +97,7 @@ export class Lbprofile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/lbprofile citrixadc_lbprofile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbprofile citrixadc_lbprofile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,7 +108,8 @@ export class Lbprofile extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_lbprofile',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -124,6 +129,7 @@ export class Lbprofile extends cdktf.TerraformResource {
     this._lbprofilename = config.lbprofilename;
     this._literaladccookieattribute = config.literaladccookieattribute;
     this._processlocal = config.processlocal;
+    this._proximityfromself = config.proximityfromself;
     this._storemqttclientidandusername = config.storemqttclientidandusername;
     this._useencryptedpersistencecookie = config.useencryptedpersistencecookie;
     this._usesecuredpersistencecookie = config.usesecuredpersistencecookie;
@@ -290,6 +296,22 @@ export class Lbprofile extends cdktf.TerraformResource {
     return this._processlocal;
   }
 
+  // proximityfromself - computed: true, optional: true, required: false
+  private _proximityfromself?: string; 
+  public get proximityfromself() {
+    return this.getStringAttribute('proximityfromself');
+  }
+  public set proximityfromself(value: string) {
+    this._proximityfromself = value;
+  }
+  public resetProximityfromself() {
+    this._proximityfromself = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get proximityfromselfInput() {
+    return this._proximityfromself;
+  }
+
   // storemqttclientidandusername - computed: true, optional: true, required: false
   private _storemqttclientidandusername?: string; 
   public get storemqttclientidandusername() {
@@ -354,6 +376,7 @@ export class Lbprofile extends cdktf.TerraformResource {
       lbprofilename: cdktf.stringToTerraform(this._lbprofilename),
       literaladccookieattribute: cdktf.stringToTerraform(this._literaladccookieattribute),
       processlocal: cdktf.stringToTerraform(this._processlocal),
+      proximityfromself: cdktf.stringToTerraform(this._proximityfromself),
       storemqttclientidandusername: cdktf.stringToTerraform(this._storemqttclientidandusername),
       useencryptedpersistencecookie: cdktf.stringToTerraform(this._useencryptedpersistencecookie),
       usesecuredpersistencecookie: cdktf.stringToTerraform(this._usesecuredpersistencecookie),
@@ -418,6 +441,12 @@ export class Lbprofile extends cdktf.TerraformResource {
       },
       processlocal: {
         value: cdktf.stringToHclTerraform(this._processlocal),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      proximityfromself: {
+        value: cdktf.stringToHclTerraform(this._proximityfromself),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

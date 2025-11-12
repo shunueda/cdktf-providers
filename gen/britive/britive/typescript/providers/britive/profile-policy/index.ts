@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/britive/britive/2.2.3/docs/resources/profile_policy
+// https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/profile_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface ProfilePolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Type of access for the policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.3/docs/resources/profile_policy#access_type ProfilePolicy#access_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/profile_policy#access_type ProfilePolicy#access_type}
   */
   readonly accessType?: string;
   /**
   * Condition of the policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.3/docs/resources/profile_policy#condition ProfilePolicy#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/profile_policy#condition ProfilePolicy#condition}
   */
   readonly condition?: string;
   /**
   * The consumer service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.3/docs/resources/profile_policy#consumer ProfilePolicy#consumer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/profile_policy#consumer ProfilePolicy#consumer}
   */
   readonly consumer?: string;
   /**
   * The description of the profile policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.3/docs/resources/profile_policy#description ProfilePolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/profile_policy#description ProfilePolicy#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.3/docs/resources/profile_policy#id ProfilePolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/profile_policy#id ProfilePolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,43 +41,43 @@ export interface ProfilePolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Is the policy active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.3/docs/resources/profile_policy#is_active ProfilePolicy#is_active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/profile_policy#is_active ProfilePolicy#is_active}
   */
   readonly isActive?: boolean | cdktf.IResolvable;
   /**
   * Is the policy a draft
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.3/docs/resources/profile_policy#is_draft ProfilePolicy#is_draft}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/profile_policy#is_draft ProfilePolicy#is_draft}
   */
   readonly isDraft?: boolean | cdktf.IResolvable;
   /**
   * Is the policy read only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.3/docs/resources/profile_policy#is_read_only ProfilePolicy#is_read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/profile_policy#is_read_only ProfilePolicy#is_read_only}
   */
   readonly isReadOnly?: boolean | cdktf.IResolvable;
   /**
   * Members of the policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.3/docs/resources/profile_policy#members ProfilePolicy#members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/profile_policy#members ProfilePolicy#members}
   */
   readonly members?: string;
   /**
   * The policy associated with the profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.3/docs/resources/profile_policy#policy_name ProfilePolicy#policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/profile_policy#policy_name ProfilePolicy#policy_name}
   */
   readonly policyName: string;
   /**
   * The identifier of the profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.3/docs/resources/profile_policy#profile_id ProfilePolicy#profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/profile_policy#profile_id ProfilePolicy#profile_id}
   */
   readonly profileId: string;
   /**
   * associations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.3/docs/resources/profile_policy#associations ProfilePolicy#associations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/profile_policy#associations ProfilePolicy#associations}
   */
   readonly associations?: ProfilePolicyAssociations[] | cdktf.IResolvable;
 }
@@ -85,13 +85,13 @@ export interface ProfilePolicyAssociations {
   /**
   * The type of association, should be one of [Environment, EnvironmentGroup]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.3/docs/resources/profile_policy#type ProfilePolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/profile_policy#type ProfilePolicy#type}
   */
   readonly type: string;
   /**
   * The association value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.3/docs/resources/profile_policy#value ProfilePolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/profile_policy#value ProfilePolicy#value}
   */
   readonly value: string;
 }
@@ -230,7 +230,7 @@ export class ProfilePolicyAssociationsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/britive/britive/2.2.3/docs/resources/profile_policy britive_profile_policy}
+* Represents a {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/profile_policy britive_profile_policy}
 */
 export class ProfilePolicy extends cdktf.TerraformResource {
 
@@ -246,7 +246,7 @@ export class ProfilePolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProfilePolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProfilePolicy to import
-  * @param importFromId The id of the existing ProfilePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/britive/britive/2.2.3/docs/resources/profile_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProfilePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/profile_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProfilePolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -258,7 +258,7 @@ export class ProfilePolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/britive/britive/2.2.3/docs/resources/profile_policy britive_profile_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/profile_policy britive_profile_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -269,7 +269,8 @@ export class ProfilePolicy extends cdktf.TerraformResource {
       terraformResourceType: 'britive_profile_policy',
       terraformGeneratorMetadata: {
         providerName: 'britive',
-        providerVersion: '2.2.3'
+        providerVersion: '2.2.4',
+        providerVersionConstraint: '2.2.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

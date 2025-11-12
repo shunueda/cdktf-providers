@@ -193,7 +193,8 @@ export class MimirProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'mimir',
       terraformGeneratorMetadata: {
         providerName: 'mimir',
-        providerVersion: '1.0.9'
+        providerVersion: '1.0.9',
+        providerVersionConstraint: '1.0.9'
       },
       terraformProviderSource: 'fgouteroux/mimir'
     });

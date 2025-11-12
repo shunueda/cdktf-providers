@@ -64,7 +64,8 @@ export class DataMerakiWirelessLocationScanningReceiver extends cdktf.TerraformD
       terraformResourceType: 'meraki_wireless_location_scanning_receiver',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1'
+        providerVersion: '1.7.1',
+        providerVersionConstraint: '1.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -6563,7 +6563,8 @@ export class DataIntersightVirtualizationVmwareDistributedSwitch extends cdktf.T
       terraformResourceType: 'intersight_virtualization_vmware_distributed_switch',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

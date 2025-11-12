@@ -102,7 +102,8 @@ export class IntegrationAwsSns extends cdktf.TerraformResource {
       terraformResourceType: 'wiz_integration_aws_sns',
       terraformGeneratorMetadata: {
         providerName: 'wiz',
-        providerVersion: '1.2.5'
+        providerVersion: '1.2.5',
+        providerVersionConstraint: '1.2.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

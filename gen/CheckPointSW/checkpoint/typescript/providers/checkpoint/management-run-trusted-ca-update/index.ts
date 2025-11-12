@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_run_trusted_ca_update
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_run_trusted_ca_update
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ManagementRunTrustedCaUpdateConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_run_trusted_ca_update#id ManagementRunTrustedCaUpdate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_run_trusted_ca_update#id ManagementRunTrustedCaUpdate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface ManagementRunTrustedCaUpdateConfig extends cdktf.TerraformMetaA
   /**
   * Path on the management server for offline Trusted CAs package update.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_run_trusted_ca_update#package_path ManagementRunTrustedCaUpdate#package_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_run_trusted_ca_update#package_path ManagementRunTrustedCaUpdate#package_path}
   */
   readonly packagePath?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_run_trusted_ca_update checkpoint_management_run_trusted_ca_update}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_run_trusted_ca_update checkpoint_management_run_trusted_ca_update}
 */
 export class ManagementRunTrustedCaUpdate extends cdktf.TerraformResource {
 
@@ -39,7 +39,7 @@ export class ManagementRunTrustedCaUpdate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementRunTrustedCaUpdate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementRunTrustedCaUpdate to import
-  * @param importFromId The id of the existing ManagementRunTrustedCaUpdate that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_run_trusted_ca_update#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementRunTrustedCaUpdate that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_run_trusted_ca_update#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementRunTrustedCaUpdate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -51,7 +51,7 @@ export class ManagementRunTrustedCaUpdate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_run_trusted_ca_update checkpoint_management_run_trusted_ca_update} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_run_trusted_ca_update checkpoint_management_run_trusted_ca_update} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -62,7 +62,8 @@ export class ManagementRunTrustedCaUpdate extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_run_trusted_ca_update',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

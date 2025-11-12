@@ -64,7 +64,8 @@ export class DataFortiadcLoadBalancePersistencelist extends cdktf.TerraformDataS
       terraformResourceType: 'fortiadc_load_balance_persistencelist',
       terraformGeneratorMetadata: {
         providerName: 'fortiadc',
-        providerVersion: '1.3.1'
+        providerVersion: '1.3.1',
+        providerVersionConstraint: '1.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

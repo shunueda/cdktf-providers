@@ -76,7 +76,8 @@ export class DataNhncloudSharedfilesystemSnapshotV2 extends cdktf.TerraformDataS
       terraformResourceType: 'nhncloud_sharedfilesystem_snapshot_v2',
       terraformGeneratorMetadata: {
         providerName: 'nhncloud',
-        providerVersion: '1.0.6'
+        providerVersion: '1.0.6',
+        providerVersionConstraint: '1.0.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -64,7 +64,8 @@ export class Transform extends cdktf.TerraformResource {
       terraformResourceType: 'elasticsearch_transform',
       terraformGeneratorMetadata: {
         providerName: 'elasticsearch',
-        providerVersion: '8.4.0'
+        providerVersion: '8.4.0',
+        providerVersionConstraint: '8.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

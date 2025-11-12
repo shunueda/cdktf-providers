@@ -1637,7 +1637,8 @@ export class AlertV2 extends cdktf.TerraformResource {
       terraformResourceType: 'databricks_alert_v2',
       terraformGeneratorMetadata: {
         providerName: 'databricks',
-        providerVersion: '1.97.0'
+        providerVersion: '1.97.0',
+        providerVersionConstraint: '1.97.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

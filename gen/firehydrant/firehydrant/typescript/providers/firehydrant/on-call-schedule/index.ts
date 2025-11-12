@@ -493,7 +493,8 @@ export class OnCallSchedule extends cdktf.TerraformResource {
       terraformResourceType: 'firehydrant_on_call_schedule',
       terraformGeneratorMetadata: {
         providerName: 'firehydrant',
-        providerVersion: '0.14.9'
+        providerVersion: '0.14.9',
+        providerVersionConstraint: '0.14.9'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

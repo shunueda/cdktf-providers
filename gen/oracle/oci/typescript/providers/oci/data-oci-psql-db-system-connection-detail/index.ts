@@ -396,7 +396,8 @@ export class DataOciPsqlDbSystemConnectionDetail extends cdktf.TerraformDataSour
       terraformResourceType: 'oci_psql_db_system_connection_detail',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

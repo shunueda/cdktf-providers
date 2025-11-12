@@ -639,7 +639,8 @@ export class DataOciDatabaseSchedulingPolicySchedulingWindows extends cdktf.Terr
       terraformResourceType: 'oci_database_scheduling_policy_scheduling_windows',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

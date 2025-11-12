@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/data-sources/domain
+// https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/data-sources/domain
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataVcfDomainConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the workload domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/data-sources/domain#domain_id DataVcfDomain#domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/data-sources/domain#domain_id DataVcfDomain#domain_id}
   */
   readonly domainId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/data-sources/domain#id DataVcfDomain#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/data-sources/domain#id DataVcfDomain#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface DataVcfDomainConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the workload domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/data-sources/domain#name DataVcfDomain#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/data-sources/domain#name DataVcfDomain#name}
   */
   readonly name?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/data-sources/domain#timeouts DataVcfDomain#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/data-sources/domain#timeouts DataVcfDomain#timeouts}
   */
   readonly timeouts?: DataVcfDomainTimeouts;
 }
@@ -187,6 +187,11 @@ export class DataVcfDomainClusterHostOutputReference extends cdktf.ComplexObject
   // ip_address - computed: true, optional: false, required: false
   public get ipAddress() {
     return this.getStringAttribute('ip_address');
+  }
+
+  // license_key - computed: true, optional: false, required: false
+  public get licenseKey() {
+    return this.getStringAttribute('license_key');
   }
 
   // password - computed: true, optional: false, required: false
@@ -1003,6 +1008,11 @@ export class DataVcfDomainClusterVsanDatastoreOutputReference extends cdktf.Comp
   public get failuresToTolerate() {
     return this.getNumberAttribute('failures_to_tolerate');
   }
+
+  // license_key - computed: true, optional: false, required: false
+  public get licenseKey() {
+    return this.getStringAttribute('license_key');
+  }
 }
 
 export class DataVcfDomainClusterVsanDatastoreList extends cdktf.ComplexList {
@@ -1252,6 +1262,11 @@ export class DataVcfDomainClusterVsanStretchConfigurationSecondaryFdHostOutputRe
   // ip_address - computed: true, optional: false, required: false
   public get ipAddress() {
     return this.getStringAttribute('ip_address');
+  }
+
+  // license_key - computed: true, optional: false, required: false
+  public get licenseKey() {
+    return this.getStringAttribute('license_key');
   }
 
   // password - computed: true, optional: false, required: false
@@ -1891,6 +1906,11 @@ export class DataVcfDomainNsxConfigurationOutputReference extends cdktf.ComplexO
     return this.getStringAttribute('id');
   }
 
+  // license_key - computed: true, optional: false, required: false
+  public get licenseKey() {
+    return this.getStringAttribute('license_key');
+  }
+
   // nsx_manager_admin_password - computed: true, optional: false, required: false
   public get nsxManagerAdminPassword() {
     return this.getStringAttribute('nsx_manager_admin_password');
@@ -2058,7 +2078,7 @@ export class DataVcfDomainVcenterConfigurationList extends cdktf.ComplexList {
 }
 export interface DataVcfDomainTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/data-sources/domain#read DataVcfDomain#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/data-sources/domain#read DataVcfDomain#read}
   */
   readonly read?: string;
 }
@@ -2152,7 +2172,7 @@ export class DataVcfDomainTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/data-sources/domain vcf_domain}
+* Represents a {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/data-sources/domain vcf_domain}
 */
 export class DataVcfDomain extends cdktf.TerraformDataSource {
 
@@ -2168,7 +2188,7 @@ export class DataVcfDomain extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataVcfDomain resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataVcfDomain to import
-  * @param importFromId The id of the existing DataVcfDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/data-sources/domain#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataVcfDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/data-sources/domain#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataVcfDomain to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2180,7 +2200,7 @@ export class DataVcfDomain extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/data-sources/domain vcf_domain} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/data-sources/domain vcf_domain} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2191,7 +2211,8 @@ export class DataVcfDomain extends cdktf.TerraformDataSource {
       terraformResourceType: 'vcf_domain',
       terraformGeneratorMetadata: {
         providerName: 'vcf',
-        providerVersion: '0.17.1'
+        providerVersion: '0.16.2',
+        providerVersionConstraint: '0.16.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -122,7 +122,8 @@ export class CloudServicesMetaData extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_cloud_services_meta_data',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

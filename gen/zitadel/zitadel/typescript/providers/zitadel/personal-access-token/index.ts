@@ -74,7 +74,8 @@ export class PersonalAccessToken extends cdktf.TerraformResource {
       terraformResourceType: 'zitadel_personal_access_token',
       terraformGeneratorMetadata: {
         providerName: 'zitadel',
-        providerVersion: '2.3.0'
+        providerVersion: '2.3.0',
+        providerVersionConstraint: '2.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

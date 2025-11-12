@@ -97,7 +97,8 @@ export class PrismacloudWaasProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'prismacloud-waas',
       terraformGeneratorMetadata: {
         providerName: 'prismacloud-waas',
-        providerVersion: '1.0.4'
+        providerVersion: '1.0.4',
+        providerVersionConstraint: '1.0.4'
       },
       terraformProviderSource: 'PaloAltoNetworks/prismacloud-waas'
     });

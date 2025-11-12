@@ -55,7 +55,8 @@ export class AssertProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'assert',
       terraformGeneratorMetadata: {
         providerName: 'assert',
-        providerVersion: '0.0.1'
+        providerVersion: '0.0.1',
+        providerVersionConstraint: '0.0.1'
       },
       terraformProviderSource: 'bwoznicki/assert'
     });

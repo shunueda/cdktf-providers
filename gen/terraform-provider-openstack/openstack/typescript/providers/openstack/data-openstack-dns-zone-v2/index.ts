@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/dns_zone_v2
+// https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/dns_zone_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,84 +8,84 @@ import * as cdktf from 'cdktf';
 
 export interface DataOpenstackDnsZoneV2Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/dns_zone_v2#all_projects DataOpenstackDnsZoneV2#all_projects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/dns_zone_v2#all_projects DataOpenstackDnsZoneV2#all_projects}
   */
   readonly allProjects?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/dns_zone_v2#attributes DataOpenstackDnsZoneV2#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/dns_zone_v2#attributes DataOpenstackDnsZoneV2#attributes}
   */
   readonly attributes?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/dns_zone_v2#created_at DataOpenstackDnsZoneV2#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/dns_zone_v2#created_at DataOpenstackDnsZoneV2#created_at}
   */
   readonly createdAt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/dns_zone_v2#description DataOpenstackDnsZoneV2#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/dns_zone_v2#description DataOpenstackDnsZoneV2#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/dns_zone_v2#email DataOpenstackDnsZoneV2#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/dns_zone_v2#email DataOpenstackDnsZoneV2#email}
   */
   readonly email?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/dns_zone_v2#id DataOpenstackDnsZoneV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/dns_zone_v2#id DataOpenstackDnsZoneV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/dns_zone_v2#masters DataOpenstackDnsZoneV2#masters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/dns_zone_v2#masters DataOpenstackDnsZoneV2#masters}
   */
   readonly masters?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/dns_zone_v2#name DataOpenstackDnsZoneV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/dns_zone_v2#name DataOpenstackDnsZoneV2#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/dns_zone_v2#pool_id DataOpenstackDnsZoneV2#pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/dns_zone_v2#pool_id DataOpenstackDnsZoneV2#pool_id}
   */
   readonly poolId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/dns_zone_v2#project_id DataOpenstackDnsZoneV2#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/dns_zone_v2#project_id DataOpenstackDnsZoneV2#project_id}
   */
   readonly projectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/dns_zone_v2#region DataOpenstackDnsZoneV2#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/dns_zone_v2#region DataOpenstackDnsZoneV2#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/dns_zone_v2#serial DataOpenstackDnsZoneV2#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/dns_zone_v2#serial DataOpenstackDnsZoneV2#serial}
   */
   readonly serial?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/dns_zone_v2#status DataOpenstackDnsZoneV2#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/dns_zone_v2#status DataOpenstackDnsZoneV2#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/dns_zone_v2#transferred_at DataOpenstackDnsZoneV2#transferred_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/dns_zone_v2#transferred_at DataOpenstackDnsZoneV2#transferred_at}
   */
   readonly transferredAt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/dns_zone_v2#ttl DataOpenstackDnsZoneV2#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/dns_zone_v2#ttl DataOpenstackDnsZoneV2#ttl}
   */
   readonly ttl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/dns_zone_v2#type DataOpenstackDnsZoneV2#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/dns_zone_v2#type DataOpenstackDnsZoneV2#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/dns_zone_v2#updated_at DataOpenstackDnsZoneV2#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/dns_zone_v2#updated_at DataOpenstackDnsZoneV2#updated_at}
   */
   readonly updatedAt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/dns_zone_v2#version DataOpenstackDnsZoneV2#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/dns_zone_v2#version DataOpenstackDnsZoneV2#version}
   */
   readonly version?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/dns_zone_v2 openstack_dns_zone_v2}
+* Represents a {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/dns_zone_v2 openstack_dns_zone_v2}
 */
 export class DataOpenstackDnsZoneV2 extends cdktf.TerraformDataSource {
 
@@ -101,7 +101,7 @@ export class DataOpenstackDnsZoneV2 extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOpenstackDnsZoneV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOpenstackDnsZoneV2 to import
-  * @param importFromId The id of the existing DataOpenstackDnsZoneV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/dns_zone_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOpenstackDnsZoneV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/dns_zone_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOpenstackDnsZoneV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -113,7 +113,7 @@ export class DataOpenstackDnsZoneV2 extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/dns_zone_v2 openstack_dns_zone_v2} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/dns_zone_v2 openstack_dns_zone_v2} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -124,7 +124,8 @@ export class DataOpenstackDnsZoneV2 extends cdktf.TerraformDataSource {
       terraformResourceType: 'openstack_dns_zone_v2',
       terraformGeneratorMetadata: {
         providerName: 'openstack',
-        providerVersion: '3.3.2'
+        providerVersion: '3.4.0',
+        providerVersionConstraint: '3.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

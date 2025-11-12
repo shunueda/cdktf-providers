@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/object_storage_quotas
+// https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/object_storage_quotas
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataLinodeObjectStorageQuotasConfig extends cdktf.TerraformMeta
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/object_storage_quotas#filter DataLinodeObjectStorageQuotas#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/object_storage_quotas#filter DataLinodeObjectStorageQuotas#filter}
   */
   readonly filter?: DataLinodeObjectStorageQuotasFilter[] | cdktf.IResolvable;
   /**
   * quotas block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/object_storage_quotas#quotas DataLinodeObjectStorageQuotas#quotas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/object_storage_quotas#quotas DataLinodeObjectStorageQuotas#quotas}
   */
   readonly quotas?: DataLinodeObjectStorageQuotasQuotas[] | cdktf.IResolvable;
 }
@@ -24,19 +24,19 @@ export interface DataLinodeObjectStorageQuotasFilter {
   /**
   * The type of comparison to use for this filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/object_storage_quotas#match_by DataLinodeObjectStorageQuotas#match_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/object_storage_quotas#match_by DataLinodeObjectStorageQuotas#match_by}
   */
   readonly matchBy?: string;
   /**
   * The name of the attribute to filter on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/object_storage_quotas#name DataLinodeObjectStorageQuotas#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/object_storage_quotas#name DataLinodeObjectStorageQuotas#name}
   */
   readonly name: string;
   /**
   * The value(s) to be used in the filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/object_storage_quotas#values DataLinodeObjectStorageQuotas#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/object_storage_quotas#values DataLinodeObjectStorageQuotas#values}
   */
   readonly values: string[];
 }
@@ -206,7 +206,7 @@ export interface DataLinodeObjectStorageQuotasQuotas {
   /**
   * The ID of the Object Storage quota.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/object_storage_quotas#quota_id DataLinodeObjectStorageQuotas#quota_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/object_storage_quotas#quota_id DataLinodeObjectStorageQuotas#quota_id}
   */
   readonly quotaId: string;
 }
@@ -349,7 +349,7 @@ export class DataLinodeObjectStorageQuotasQuotasList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/object_storage_quotas linode_object_storage_quotas}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/object_storage_quotas linode_object_storage_quotas}
 */
 export class DataLinodeObjectStorageQuotas extends cdktf.TerraformDataSource {
 
@@ -365,7 +365,7 @@ export class DataLinodeObjectStorageQuotas extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataLinodeObjectStorageQuotas resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataLinodeObjectStorageQuotas to import
-  * @param importFromId The id of the existing DataLinodeObjectStorageQuotas that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/object_storage_quotas#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataLinodeObjectStorageQuotas that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/object_storage_quotas#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataLinodeObjectStorageQuotas to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -377,7 +377,7 @@ export class DataLinodeObjectStorageQuotas extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/object_storage_quotas linode_object_storage_quotas} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/object_storage_quotas linode_object_storage_quotas} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -388,7 +388,8 @@ export class DataLinodeObjectStorageQuotas extends cdktf.TerraformDataSource {
       terraformResourceType: 'linode_object_storage_quotas',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.5.0'
+        providerVersion: '3.5.1',
+        providerVersionConstraint: '3.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

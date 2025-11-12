@@ -674,7 +674,8 @@ export class BareMetalServer extends cdktf.TerraformResource {
       terraformResourceType: 'lumen_bare_metal_server',
       terraformGeneratorMetadata: {
         providerName: 'lumen',
-        providerVersion: '3.0.0'
+        providerVersion: '3.0.0',
+        providerVersionConstraint: '3.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

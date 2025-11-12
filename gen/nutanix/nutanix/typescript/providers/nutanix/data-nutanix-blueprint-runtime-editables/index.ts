@@ -1300,7 +1300,8 @@ export class DataNutanixBlueprintRuntimeEditables extends cdktf.TerraformDataSou
       terraformResourceType: 'nutanix_blueprint_runtime_editables',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3'
+        providerVersion: '2.3.3',
+        providerVersionConstraint: '2.3.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

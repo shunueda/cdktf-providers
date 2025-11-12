@@ -61,7 +61,8 @@ export class Location extends cdktf.TerraformResource {
       terraformResourceType: 'backstage_location',
       terraformGeneratorMetadata: {
         providerName: 'backstage',
-        providerVersion: '3.3.0'
+        providerVersion: '3.3.0',
+        providerVersionConstraint: '3.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -88,7 +88,8 @@ export class DataAciContractSubjectOneWayFilter extends cdktf.TerraformDataSourc
       terraformResourceType: 'aci_contract_subject_one_way_filter',
       terraformGeneratorMetadata: {
         providerName: 'aci',
-        providerVersion: '2.18.0'
+        providerVersion: '2.18.0',
+        providerVersionConstraint: '2.18.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

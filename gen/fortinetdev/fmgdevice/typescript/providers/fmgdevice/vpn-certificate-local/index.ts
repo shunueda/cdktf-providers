@@ -224,7 +224,8 @@ export class VpnCertificateLocal extends cdktf.TerraformResource {
       terraformResourceType: 'fmgdevice_vpn_certificate_local',
       terraformGeneratorMetadata: {
         providerName: 'fmgdevice',
-        providerVersion: '1.2.1'
+        providerVersion: '1.2.1',
+        providerVersionConstraint: '1.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

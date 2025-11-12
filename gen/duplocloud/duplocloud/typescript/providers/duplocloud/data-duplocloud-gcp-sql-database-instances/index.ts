@@ -173,7 +173,8 @@ export class DataDuplocloudGcpSqlDatabaseInstances extends cdktf.TerraformDataSo
       terraformResourceType: 'duplocloud_gcp_sql_database_instances',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.28'
+        providerVersion: '0.11.28',
+        providerVersionConstraint: '0.11.28'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -94,7 +94,8 @@ export class Subnet extends cdktf.TerraformResource {
       terraformResourceType: 'cloudeos_subnet',
       terraformGeneratorMetadata: {
         providerName: 'cloudeos',
-        providerVersion: '1.2.2'
+        providerVersion: '1.2.2',
+        providerVersionConstraint: '1.2.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

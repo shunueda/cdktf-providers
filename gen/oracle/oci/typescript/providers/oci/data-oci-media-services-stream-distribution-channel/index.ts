@@ -148,7 +148,8 @@ export class DataOciMediaServicesStreamDistributionChannel extends cdktf.Terrafo
       terraformResourceType: 'oci_media_services_stream_distribution_channel',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

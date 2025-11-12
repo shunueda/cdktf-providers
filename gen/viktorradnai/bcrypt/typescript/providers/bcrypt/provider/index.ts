@@ -55,7 +55,8 @@ export class BcryptProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'bcrypt',
       terraformGeneratorMetadata: {
         providerName: 'bcrypt',
-        providerVersion: '0.1.2'
+        providerVersion: '0.1.2',
+        providerVersionConstraint: '0.1.2'
       },
       terraformProviderSource: 'viktorradnai/bcrypt'
     });

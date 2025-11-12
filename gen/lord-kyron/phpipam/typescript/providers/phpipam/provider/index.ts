@@ -91,7 +91,8 @@ export class PhpipamProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'phpipam',
       terraformGeneratorMetadata: {
         providerName: 'phpipam',
-        providerVersion: '1.6.2'
+        providerVersion: '1.6.2',
+        providerVersionConstraint: '1.6.2'
       },
       terraformProviderSource: 'lord-kyron/phpipam'
     });

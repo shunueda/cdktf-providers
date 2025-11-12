@@ -273,7 +273,8 @@ export class DataAlicloudExpressConnectAccessPoints extends cdktf.TerraformDataS
       terraformResourceType: 'alicloud_express_connect_access_points',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

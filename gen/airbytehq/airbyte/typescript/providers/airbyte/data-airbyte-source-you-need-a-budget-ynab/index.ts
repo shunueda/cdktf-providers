@@ -353,7 +353,8 @@ export class DataAirbyteSourceYouNeedABudgetYnab extends cdktf.TerraformDataSour
       terraformResourceType: 'airbyte_source_you_need_a_budget_ynab',
       terraformGeneratorMetadata: {
         providerName: 'airbyte',
-        providerVersion: '0.13.0'
+        providerVersion: '0.13.0',
+        providerVersionConstraint: '0.13.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

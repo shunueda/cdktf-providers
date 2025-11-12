@@ -67,7 +67,8 @@ export class KeyhubProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'keyhub',
       terraformGeneratorMetadata: {
         providerName: 'keyhub',
-        providerVersion: '2.44.0'
+        providerVersion: '2.44.0',
+        providerVersionConstraint: '2.44.0'
       },
       terraformProviderSource: 'topicuskeyhub/keyhub'
     });

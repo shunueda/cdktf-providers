@@ -67,7 +67,8 @@ export class HeadscaleProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'headscale',
       terraformGeneratorMetadata: {
         providerName: 'headscale',
-        providerVersion: '0.4.2'
+        providerVersion: '0.4.2',
+        providerVersionConstraint: '0.4.2'
       },
       terraformProviderSource: 'awlsring/headscale'
     });

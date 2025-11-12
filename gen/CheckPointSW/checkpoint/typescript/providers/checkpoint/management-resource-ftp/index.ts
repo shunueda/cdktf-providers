@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_ftp
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_ftp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface ManagementResourceFtpConfig extends cdktf.TerraformMetaArgument
   /**
   * Color of the object. Should be one of existing colors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_ftp#color ManagementResourceFtp#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_ftp#color ManagementResourceFtp#color}
   */
   readonly color?: string;
   /**
   * Comments string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_ftp#comments ManagementResourceFtp#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_ftp#comments ManagementResourceFtp#comments}
   */
   readonly comments?: string;
   /**
   * The UID or Name of the exception track to be used to log actions taken as a result of a match on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_ftp#exception_track ManagementResourceFtp#exception_track}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_ftp#exception_track ManagementResourceFtp#exception_track}
   */
   readonly exceptionTrack?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_ftp#id ManagementResourceFtp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_ftp#id ManagementResourceFtp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,43 +35,43 @@ export interface ManagementResourceFtpConfig extends cdktf.TerraformMetaArgument
   /**
   * Apply changes ignoring errors. You won't be able to publish such a changes. If ignore-warnings flag was omitted - warnings will also be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_ftp#ignore_errors ManagementResourceFtp#ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_ftp#ignore_errors ManagementResourceFtp#ignore_errors}
   */
   readonly ignoreErrors?: boolean | cdktf.IResolvable;
   /**
   * Apply changes ignoring warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_ftp#ignore_warnings ManagementResourceFtp#ignore_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_ftp#ignore_warnings ManagementResourceFtp#ignore_warnings}
   */
   readonly ignoreWarnings?: boolean | cdktf.IResolvable;
   /**
   * Object name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_ftp#name ManagementResourceFtp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_ftp#name ManagementResourceFtp#name}
   */
   readonly name: string;
   /**
   * GET allows Downloads from the server to the client. PUT allows Uploads from the client to the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_ftp#resource_matching_method ManagementResourceFtp#resource_matching_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_ftp#resource_matching_method ManagementResourceFtp#resource_matching_method}
   */
   readonly resourceMatchingMethod: string;
   /**
   * Refers to a location on the FTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_ftp#resources_path ManagementResourceFtp#resources_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_ftp#resources_path ManagementResourceFtp#resources_path}
   */
   readonly resourcesPath?: string;
   /**
   * Collection of tag identifiers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_ftp#tags ManagementResourceFtp#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_ftp#tags ManagementResourceFtp#tags}
   */
   readonly tags?: string[];
   /**
   * cvp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_ftp#cvp ManagementResourceFtp#cvp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_ftp#cvp ManagementResourceFtp#cvp}
   */
   readonly cvp?: ManagementResourceFtpCvp;
 }
@@ -79,25 +79,25 @@ export interface ManagementResourceFtpCvp {
   /**
   * Configures the CVP server to inspect but not modify content.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_ftp#allowed_to_modify_content ManagementResourceFtp#allowed_to_modify_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_ftp#allowed_to_modify_content ManagementResourceFtp#allowed_to_modify_content}
   */
   readonly allowedToModifyContent?: boolean | cdktf.IResolvable;
   /**
   * Select to enable the Content Vectoring Protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_ftp#enable_cvp ManagementResourceFtp#enable_cvp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_ftp#enable_cvp ManagementResourceFtp#enable_cvp}
   */
   readonly enableCvp?: boolean | cdktf.IResolvable;
   /**
   * Designates when the CVP server returns data to the Security Gateway security server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_ftp#reply_order ManagementResourceFtp#reply_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_ftp#reply_order ManagementResourceFtp#reply_order}
   */
   readonly replyOrder?: string;
   /**
   * The UID or Name of the CVP server, make sure the CVP server is already be defined as an OPSEC Application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_ftp#server ManagementResourceFtp#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_ftp#server ManagementResourceFtp#server}
   */
   readonly server?: string;
 }
@@ -268,7 +268,7 @@ export class ManagementResourceFtpCvpOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_ftp checkpoint_management_resource_ftp}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_ftp checkpoint_management_resource_ftp}
 */
 export class ManagementResourceFtp extends cdktf.TerraformResource {
 
@@ -284,7 +284,7 @@ export class ManagementResourceFtp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementResourceFtp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementResourceFtp to import
-  * @param importFromId The id of the existing ManagementResourceFtp that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_ftp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementResourceFtp that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_ftp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementResourceFtp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -296,7 +296,7 @@ export class ManagementResourceFtp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_ftp checkpoint_management_resource_ftp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_ftp checkpoint_management_resource_ftp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -307,7 +307,8 @@ export class ManagementResourceFtp extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_resource_ftp',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

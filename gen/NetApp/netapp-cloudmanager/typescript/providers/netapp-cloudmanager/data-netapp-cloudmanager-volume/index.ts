@@ -317,7 +317,8 @@ export class DataNetappCloudmanagerVolume extends cdktf.TerraformDataSource {
       terraformResourceType: 'netapp-cloudmanager_volume',
       terraformGeneratorMetadata: {
         providerName: 'netapp-cloudmanager',
-        providerVersion: '26.0.0'
+        providerVersion: '26.0.0',
+        providerVersionConstraint: '26.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

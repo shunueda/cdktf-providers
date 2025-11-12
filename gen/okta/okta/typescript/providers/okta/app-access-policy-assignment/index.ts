@@ -61,7 +61,8 @@ export class AppAccessPolicyAssignment extends cdktf.TerraformResource {
       terraformResourceType: 'okta_app_access_policy_assignment',
       terraformGeneratorMetadata: {
         providerName: 'okta',
-        providerVersion: '6.4.0'
+        providerVersion: '6.4.0',
+        providerVersionConstraint: '6.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

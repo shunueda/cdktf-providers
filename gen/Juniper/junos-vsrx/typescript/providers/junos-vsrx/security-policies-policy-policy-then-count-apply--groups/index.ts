@@ -78,7 +78,8 @@ export class SecurityPoliciesPolicyPolicyThenCountApplyGroups extends cdktf.Terr
       terraformResourceType: 'junos-vsrx_SecurityPoliciesPolicyPolicyThenCountApply__Groups',
       terraformGeneratorMetadata: {
         providerName: 'junos-vsrx',
-        providerVersion: '20.32.106'
+        providerVersion: '20.32.106',
+        providerVersionConstraint: '20.32.106'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

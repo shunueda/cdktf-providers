@@ -296,7 +296,8 @@ export class PipelineEphemeralAppsConfig extends cdktf.TerraformResource {
       terraformResourceType: 'herokux_pipeline_ephemeral_apps_config',
       terraformGeneratorMetadata: {
         providerName: 'herokux',
-        providerVersion: '1.4.7'
+        providerVersion: '1.4.7',
+        providerVersionConstraint: '1.4.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

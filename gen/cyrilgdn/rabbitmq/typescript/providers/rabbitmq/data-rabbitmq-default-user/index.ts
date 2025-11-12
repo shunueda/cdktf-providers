@@ -60,7 +60,8 @@ export class DataRabbitmqDefaultUser extends cdktf.TerraformDataSource {
       terraformResourceType: 'rabbitmq_default_user',
       terraformGeneratorMetadata: {
         providerName: 'rabbitmq',
-        providerVersion: '1.10.1'
+        providerVersion: '1.10.1',
+        providerVersionConstraint: '1.10.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

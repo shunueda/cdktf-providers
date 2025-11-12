@@ -170,7 +170,8 @@ export class DefaultKeyPair extends cdktf.TerraformResource {
       terraformResourceType: 'pingdirectory_default_key_pair',
       terraformGeneratorMetadata: {
         providerName: 'pingdirectory',
-        providerVersion: '1.5.0'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

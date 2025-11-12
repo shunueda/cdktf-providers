@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,592 +8,592 @@ import * as cdktf from 'cdktf';
 
 export interface AppfwprofileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#addcookieflags Appfwprofile#addcookieflags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#addcookieflags Appfwprofile#addcookieflags}
   */
   readonly addcookieflags?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#apispec Appfwprofile#apispec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#apispec Appfwprofile#apispec}
   */
   readonly apispec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#archivename Appfwprofile#archivename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#archivename Appfwprofile#archivename}
   */
   readonly archivename?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#as_prof_bypass_list_enable Appfwprofile#as_prof_bypass_list_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#as_prof_bypass_list_enable Appfwprofile#as_prof_bypass_list_enable}
   */
   readonly asProfBypassListEnable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#as_prof_deny_list_enable Appfwprofile#as_prof_deny_list_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#as_prof_deny_list_enable Appfwprofile#as_prof_deny_list_enable}
   */
   readonly asProfDenyListEnable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#augment Appfwprofile#augment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#augment Appfwprofile#augment}
   */
   readonly augment?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#blockkeywordaction Appfwprofile#blockkeywordaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#blockkeywordaction Appfwprofile#blockkeywordaction}
   */
   readonly blockkeywordaction?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#bufferoverflowaction Appfwprofile#bufferoverflowaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#bufferoverflowaction Appfwprofile#bufferoverflowaction}
   */
   readonly bufferoverflowaction?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#bufferoverflowmaxcookielength Appfwprofile#bufferoverflowmaxcookielength}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#bufferoverflowmaxcookielength Appfwprofile#bufferoverflowmaxcookielength}
   */
   readonly bufferoverflowmaxcookielength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#bufferoverflowmaxheaderlength Appfwprofile#bufferoverflowmaxheaderlength}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#bufferoverflowmaxheaderlength Appfwprofile#bufferoverflowmaxheaderlength}
   */
   readonly bufferoverflowmaxheaderlength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#bufferoverflowmaxquerylength Appfwprofile#bufferoverflowmaxquerylength}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#bufferoverflowmaxquerylength Appfwprofile#bufferoverflowmaxquerylength}
   */
   readonly bufferoverflowmaxquerylength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#bufferoverflowmaxtotalheaderlength Appfwprofile#bufferoverflowmaxtotalheaderlength}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#bufferoverflowmaxtotalheaderlength Appfwprofile#bufferoverflowmaxtotalheaderlength}
   */
   readonly bufferoverflowmaxtotalheaderlength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#bufferoverflowmaxurllength Appfwprofile#bufferoverflowmaxurllength}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#bufferoverflowmaxurllength Appfwprofile#bufferoverflowmaxurllength}
   */
   readonly bufferoverflowmaxurllength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#canonicalizehtmlresponse Appfwprofile#canonicalizehtmlresponse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#canonicalizehtmlresponse Appfwprofile#canonicalizehtmlresponse}
   */
   readonly canonicalizehtmlresponse?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#ceflogging Appfwprofile#ceflogging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#ceflogging Appfwprofile#ceflogging}
   */
   readonly ceflogging?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#checkrequestheaders Appfwprofile#checkrequestheaders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#checkrequestheaders Appfwprofile#checkrequestheaders}
   */
   readonly checkrequestheaders?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#clientipexpression Appfwprofile#clientipexpression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#clientipexpression Appfwprofile#clientipexpression}
   */
   readonly clientipexpression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#cmdinjectionaction Appfwprofile#cmdinjectionaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#cmdinjectionaction Appfwprofile#cmdinjectionaction}
   */
   readonly cmdinjectionaction?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#cmdinjectiongrammar Appfwprofile#cmdinjectiongrammar}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#cmdinjectiongrammar Appfwprofile#cmdinjectiongrammar}
   */
   readonly cmdinjectiongrammar?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#cmdinjectiontype Appfwprofile#cmdinjectiontype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#cmdinjectiontype Appfwprofile#cmdinjectiontype}
   */
   readonly cmdinjectiontype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#comment Appfwprofile#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#comment Appfwprofile#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#contenttypeaction Appfwprofile#contenttypeaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#contenttypeaction Appfwprofile#contenttypeaction}
   */
   readonly contenttypeaction?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#cookieconsistencyaction Appfwprofile#cookieconsistencyaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#cookieconsistencyaction Appfwprofile#cookieconsistencyaction}
   */
   readonly cookieconsistencyaction?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#cookieencryption Appfwprofile#cookieencryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#cookieencryption Appfwprofile#cookieencryption}
   */
   readonly cookieencryption?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#cookiehijackingaction Appfwprofile#cookiehijackingaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#cookiehijackingaction Appfwprofile#cookiehijackingaction}
   */
   readonly cookiehijackingaction?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#cookieproxying Appfwprofile#cookieproxying}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#cookieproxying Appfwprofile#cookieproxying}
   */
   readonly cookieproxying?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#cookiesamesiteattribute Appfwprofile#cookiesamesiteattribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#cookiesamesiteattribute Appfwprofile#cookiesamesiteattribute}
   */
   readonly cookiesamesiteattribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#cookietransforms Appfwprofile#cookietransforms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#cookietransforms Appfwprofile#cookietransforms}
   */
   readonly cookietransforms?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#creditcard Appfwprofile#creditcard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#creditcard Appfwprofile#creditcard}
   */
   readonly creditcard?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#creditcardaction Appfwprofile#creditcardaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#creditcardaction Appfwprofile#creditcardaction}
   */
   readonly creditcardaction?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#creditcardmaxallowed Appfwprofile#creditcardmaxallowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#creditcardmaxallowed Appfwprofile#creditcardmaxallowed}
   */
   readonly creditcardmaxallowed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#creditcardxout Appfwprofile#creditcardxout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#creditcardxout Appfwprofile#creditcardxout}
   */
   readonly creditcardxout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#crosssitescriptingaction Appfwprofile#crosssitescriptingaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#crosssitescriptingaction Appfwprofile#crosssitescriptingaction}
   */
   readonly crosssitescriptingaction?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#crosssitescriptingcheckcompleteurls Appfwprofile#crosssitescriptingcheckcompleteurls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#crosssitescriptingcheckcompleteurls Appfwprofile#crosssitescriptingcheckcompleteurls}
   */
   readonly crosssitescriptingcheckcompleteurls?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#crosssitescriptingtransformunsafehtml Appfwprofile#crosssitescriptingtransformunsafehtml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#crosssitescriptingtransformunsafehtml Appfwprofile#crosssitescriptingtransformunsafehtml}
   */
   readonly crosssitescriptingtransformunsafehtml?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#csrftagaction Appfwprofile#csrftagaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#csrftagaction Appfwprofile#csrftagaction}
   */
   readonly csrftagaction?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#customsettings Appfwprofile#customsettings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#customsettings Appfwprofile#customsettings}
   */
   readonly customsettings?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#defaultcharset Appfwprofile#defaultcharset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#defaultcharset Appfwprofile#defaultcharset}
   */
   readonly defaultcharset?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#defaultfieldformatmaxlength Appfwprofile#defaultfieldformatmaxlength}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#defaultfieldformatmaxlength Appfwprofile#defaultfieldformatmaxlength}
   */
   readonly defaultfieldformatmaxlength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#defaultfieldformatmaxoccurrences Appfwprofile#defaultfieldformatmaxoccurrences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#defaultfieldformatmaxoccurrences Appfwprofile#defaultfieldformatmaxoccurrences}
   */
   readonly defaultfieldformatmaxoccurrences?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#defaultfieldformatminlength Appfwprofile#defaultfieldformatminlength}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#defaultfieldformatminlength Appfwprofile#defaultfieldformatminlength}
   */
   readonly defaultfieldformatminlength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#defaultfieldformattype Appfwprofile#defaultfieldformattype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#defaultfieldformattype Appfwprofile#defaultfieldformattype}
   */
   readonly defaultfieldformattype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#defaults Appfwprofile#defaults}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#defaults Appfwprofile#defaults}
   */
   readonly defaults?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#denyurlaction Appfwprofile#denyurlaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#denyurlaction Appfwprofile#denyurlaction}
   */
   readonly denyurlaction?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#dosecurecreditcardlogging Appfwprofile#dosecurecreditcardlogging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#dosecurecreditcardlogging Appfwprofile#dosecurecreditcardlogging}
   */
   readonly dosecurecreditcardlogging?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#dynamiclearning Appfwprofile#dynamiclearning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#dynamiclearning Appfwprofile#dynamiclearning}
   */
   readonly dynamiclearning?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#enableformtagging Appfwprofile#enableformtagging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#enableformtagging Appfwprofile#enableformtagging}
   */
   readonly enableformtagging?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#errorurl Appfwprofile#errorurl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#errorurl Appfwprofile#errorurl}
   */
   readonly errorurl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#excludefileuploadfromchecks Appfwprofile#excludefileuploadfromchecks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#excludefileuploadfromchecks Appfwprofile#excludefileuploadfromchecks}
   */
   readonly excludefileuploadfromchecks?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#exemptclosureurlsfromsecuritychecks Appfwprofile#exemptclosureurlsfromsecuritychecks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#exemptclosureurlsfromsecuritychecks Appfwprofile#exemptclosureurlsfromsecuritychecks}
   */
   readonly exemptclosureurlsfromsecuritychecks?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#fakeaccountdetection Appfwprofile#fakeaccountdetection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#fakeaccountdetection Appfwprofile#fakeaccountdetection}
   */
   readonly fakeaccountdetection?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#fieldconsistencyaction Appfwprofile#fieldconsistencyaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#fieldconsistencyaction Appfwprofile#fieldconsistencyaction}
   */
   readonly fieldconsistencyaction?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#fieldformataction Appfwprofile#fieldformataction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#fieldformataction Appfwprofile#fieldformataction}
   */
   readonly fieldformataction?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#fieldscan Appfwprofile#fieldscan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#fieldscan Appfwprofile#fieldscan}
   */
   readonly fieldscan?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#fieldscanlimit Appfwprofile#fieldscanlimit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#fieldscanlimit Appfwprofile#fieldscanlimit}
   */
   readonly fieldscanlimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#fileuploadmaxnum Appfwprofile#fileuploadmaxnum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#fileuploadmaxnum Appfwprofile#fileuploadmaxnum}
   */
   readonly fileuploadmaxnum?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#fileuploadtypesaction Appfwprofile#fileuploadtypesaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#fileuploadtypesaction Appfwprofile#fileuploadtypesaction}
   */
   readonly fileuploadtypesaction?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#geolocationlogging Appfwprofile#geolocationlogging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#geolocationlogging Appfwprofile#geolocationlogging}
   */
   readonly geolocationlogging?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#grpcaction Appfwprofile#grpcaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#grpcaction Appfwprofile#grpcaction}
   */
   readonly grpcaction?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#htmlerrorobject Appfwprofile#htmlerrorobject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#htmlerrorobject Appfwprofile#htmlerrorobject}
   */
   readonly htmlerrorobject?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#htmlerrorstatuscode Appfwprofile#htmlerrorstatuscode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#htmlerrorstatuscode Appfwprofile#htmlerrorstatuscode}
   */
   readonly htmlerrorstatuscode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#htmlerrorstatusmessage Appfwprofile#htmlerrorstatusmessage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#htmlerrorstatusmessage Appfwprofile#htmlerrorstatusmessage}
   */
   readonly htmlerrorstatusmessage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#id Appfwprofile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#id Appfwprofile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#importprofilename Appfwprofile#importprofilename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#importprofilename Appfwprofile#importprofilename}
   */
   readonly importprofilename?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#infercontenttypexmlpayloadaction Appfwprofile#infercontenttypexmlpayloadaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#infercontenttypexmlpayloadaction Appfwprofile#infercontenttypexmlpayloadaction}
   */
   readonly infercontenttypexmlpayloadaction?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#insertcookiesamesiteattribute Appfwprofile#insertcookiesamesiteattribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#insertcookiesamesiteattribute Appfwprofile#insertcookiesamesiteattribute}
   */
   readonly insertcookiesamesiteattribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#inspectcontenttypes Appfwprofile#inspectcontenttypes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#inspectcontenttypes Appfwprofile#inspectcontenttypes}
   */
   readonly inspectcontenttypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#inspectquerycontenttypes Appfwprofile#inspectquerycontenttypes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#inspectquerycontenttypes Appfwprofile#inspectquerycontenttypes}
   */
   readonly inspectquerycontenttypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#invalidpercenthandling Appfwprofile#invalidpercenthandling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#invalidpercenthandling Appfwprofile#invalidpercenthandling}
   */
   readonly invalidpercenthandling?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#jsonblockkeywordaction Appfwprofile#jsonblockkeywordaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#jsonblockkeywordaction Appfwprofile#jsonblockkeywordaction}
   */
   readonly jsonblockkeywordaction?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#jsoncmdinjectionaction Appfwprofile#jsoncmdinjectionaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#jsoncmdinjectionaction Appfwprofile#jsoncmdinjectionaction}
   */
   readonly jsoncmdinjectionaction?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#jsoncmdinjectiongrammar Appfwprofile#jsoncmdinjectiongrammar}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#jsoncmdinjectiongrammar Appfwprofile#jsoncmdinjectiongrammar}
   */
   readonly jsoncmdinjectiongrammar?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#jsoncmdinjectiontype Appfwprofile#jsoncmdinjectiontype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#jsoncmdinjectiontype Appfwprofile#jsoncmdinjectiontype}
   */
   readonly jsoncmdinjectiontype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#jsondosaction Appfwprofile#jsondosaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#jsondosaction Appfwprofile#jsondosaction}
   */
   readonly jsondosaction?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#jsonerrorobject Appfwprofile#jsonerrorobject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#jsonerrorobject Appfwprofile#jsonerrorobject}
   */
   readonly jsonerrorobject?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#jsonerrorstatuscode Appfwprofile#jsonerrorstatuscode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#jsonerrorstatuscode Appfwprofile#jsonerrorstatuscode}
   */
   readonly jsonerrorstatuscode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#jsonerrorstatusmessage Appfwprofile#jsonerrorstatusmessage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#jsonerrorstatusmessage Appfwprofile#jsonerrorstatusmessage}
   */
   readonly jsonerrorstatusmessage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#jsonfieldscan Appfwprofile#jsonfieldscan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#jsonfieldscan Appfwprofile#jsonfieldscan}
   */
   readonly jsonfieldscan?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#jsonfieldscanlimit Appfwprofile#jsonfieldscanlimit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#jsonfieldscanlimit Appfwprofile#jsonfieldscanlimit}
   */
   readonly jsonfieldscanlimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#jsonmessagescan Appfwprofile#jsonmessagescan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#jsonmessagescan Appfwprofile#jsonmessagescan}
   */
   readonly jsonmessagescan?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#jsonmessagescanlimit Appfwprofile#jsonmessagescanlimit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#jsonmessagescanlimit Appfwprofile#jsonmessagescanlimit}
   */
   readonly jsonmessagescanlimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#jsonsqlinjectionaction Appfwprofile#jsonsqlinjectionaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#jsonsqlinjectionaction Appfwprofile#jsonsqlinjectionaction}
   */
   readonly jsonsqlinjectionaction?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#jsonsqlinjectiongrammar Appfwprofile#jsonsqlinjectiongrammar}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#jsonsqlinjectiongrammar Appfwprofile#jsonsqlinjectiongrammar}
   */
   readonly jsonsqlinjectiongrammar?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#jsonsqlinjectiontype Appfwprofile#jsonsqlinjectiontype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#jsonsqlinjectiontype Appfwprofile#jsonsqlinjectiontype}
   */
   readonly jsonsqlinjectiontype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#jsonxssaction Appfwprofile#jsonxssaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#jsonxssaction Appfwprofile#jsonxssaction}
   */
   readonly jsonxssaction?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#logeverypolicyhit Appfwprofile#logeverypolicyhit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#logeverypolicyhit Appfwprofile#logeverypolicyhit}
   */
   readonly logeverypolicyhit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#matchurlstring Appfwprofile#matchurlstring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#matchurlstring Appfwprofile#matchurlstring}
   */
   readonly matchurlstring?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#messagescan Appfwprofile#messagescan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#messagescan Appfwprofile#messagescan}
   */
   readonly messagescan?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#messagescanlimit Appfwprofile#messagescanlimit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#messagescanlimit Appfwprofile#messagescanlimit}
   */
   readonly messagescanlimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#messagescanlimitcontenttypes Appfwprofile#messagescanlimitcontenttypes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#messagescanlimitcontenttypes Appfwprofile#messagescanlimitcontenttypes}
   */
   readonly messagescanlimitcontenttypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#multipleheaderaction Appfwprofile#multipleheaderaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#multipleheaderaction Appfwprofile#multipleheaderaction}
   */
   readonly multipleheaderaction?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#name Appfwprofile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#name Appfwprofile#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#optimizepartialreqs Appfwprofile#optimizepartialreqs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#optimizepartialreqs Appfwprofile#optimizepartialreqs}
   */
   readonly optimizepartialreqs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#overwrite Appfwprofile#overwrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#overwrite Appfwprofile#overwrite}
   */
   readonly overwrite?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#percentdecoderecursively Appfwprofile#percentdecoderecursively}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#percentdecoderecursively Appfwprofile#percentdecoderecursively}
   */
   readonly percentdecoderecursively?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#postbodylimit Appfwprofile#postbodylimit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#postbodylimit Appfwprofile#postbodylimit}
   */
   readonly postbodylimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#postbodylimitaction Appfwprofile#postbodylimitaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#postbodylimitaction Appfwprofile#postbodylimitaction}
   */
   readonly postbodylimitaction?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#postbodylimitsignature Appfwprofile#postbodylimitsignature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#postbodylimitsignature Appfwprofile#postbodylimitsignature}
   */
   readonly postbodylimitsignature?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#protofileobject Appfwprofile#protofileobject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#protofileobject Appfwprofile#protofileobject}
   */
   readonly protofileobject?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#refererheadercheck Appfwprofile#refererheadercheck}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#refererheadercheck Appfwprofile#refererheadercheck}
   */
   readonly refererheadercheck?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#relaxationrules Appfwprofile#relaxationrules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#relaxationrules Appfwprofile#relaxationrules}
   */
   readonly relaxationrules?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#replaceurlstring Appfwprofile#replaceurlstring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#replaceurlstring Appfwprofile#replaceurlstring}
   */
   readonly replaceurlstring?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#requestcontenttype Appfwprofile#requestcontenttype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#requestcontenttype Appfwprofile#requestcontenttype}
   */
   readonly requestcontenttype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#responsecontenttype Appfwprofile#responsecontenttype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#responsecontenttype Appfwprofile#responsecontenttype}
   */
   readonly responsecontenttype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#restaction Appfwprofile#restaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#restaction Appfwprofile#restaction}
   */
   readonly restaction?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#rfcprofile Appfwprofile#rfcprofile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#rfcprofile Appfwprofile#rfcprofile}
   */
   readonly rfcprofile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#semicolonfieldseparator Appfwprofile#semicolonfieldseparator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#semicolonfieldseparator Appfwprofile#semicolonfieldseparator}
   */
   readonly semicolonfieldseparator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#sessioncookiename Appfwprofile#sessioncookiename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#sessioncookiename Appfwprofile#sessioncookiename}
   */
   readonly sessioncookiename?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#sessionlessfieldconsistency Appfwprofile#sessionlessfieldconsistency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#sessionlessfieldconsistency Appfwprofile#sessionlessfieldconsistency}
   */
   readonly sessionlessfieldconsistency?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#sessionlessurlclosure Appfwprofile#sessionlessurlclosure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#sessionlessurlclosure Appfwprofile#sessionlessurlclosure}
   */
   readonly sessionlessurlclosure?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#signatures Appfwprofile#signatures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#signatures Appfwprofile#signatures}
   */
   readonly signatures?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#sqlinjectionaction Appfwprofile#sqlinjectionaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#sqlinjectionaction Appfwprofile#sqlinjectionaction}
   */
   readonly sqlinjectionaction?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#sqlinjectionchecksqlwildchars Appfwprofile#sqlinjectionchecksqlwildchars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#sqlinjectionchecksqlwildchars Appfwprofile#sqlinjectionchecksqlwildchars}
   */
   readonly sqlinjectionchecksqlwildchars?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#sqlinjectiongrammar Appfwprofile#sqlinjectiongrammar}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#sqlinjectiongrammar Appfwprofile#sqlinjectiongrammar}
   */
   readonly sqlinjectiongrammar?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#sqlinjectiononlycheckfieldswithsqlchars Appfwprofile#sqlinjectiononlycheckfieldswithsqlchars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#sqlinjectiononlycheckfieldswithsqlchars Appfwprofile#sqlinjectiononlycheckfieldswithsqlchars}
   */
   readonly sqlinjectiononlycheckfieldswithsqlchars?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#sqlinjectionparsecomments Appfwprofile#sqlinjectionparsecomments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#sqlinjectionparsecomments Appfwprofile#sqlinjectionparsecomments}
   */
   readonly sqlinjectionparsecomments?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#sqlinjectionruletype Appfwprofile#sqlinjectionruletype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#sqlinjectionruletype Appfwprofile#sqlinjectionruletype}
   */
   readonly sqlinjectionruletype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#sqlinjectiontransformspecialchars Appfwprofile#sqlinjectiontransformspecialchars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#sqlinjectiontransformspecialchars Appfwprofile#sqlinjectiontransformspecialchars}
   */
   readonly sqlinjectiontransformspecialchars?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#sqlinjectiontype Appfwprofile#sqlinjectiontype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#sqlinjectiontype Appfwprofile#sqlinjectiontype}
   */
   readonly sqlinjectiontype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#starturlaction Appfwprofile#starturlaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#starturlaction Appfwprofile#starturlaction}
   */
   readonly starturlaction?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#starturlclosure Appfwprofile#starturlclosure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#starturlclosure Appfwprofile#starturlclosure}
   */
   readonly starturlclosure?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#streaming Appfwprofile#streaming}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#streaming Appfwprofile#streaming}
   */
   readonly streaming?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#stripcomments Appfwprofile#stripcomments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#stripcomments Appfwprofile#stripcomments}
   */
   readonly stripcomments?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#striphtmlcomments Appfwprofile#striphtmlcomments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#striphtmlcomments Appfwprofile#striphtmlcomments}
   */
   readonly striphtmlcomments?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#stripxmlcomments Appfwprofile#stripxmlcomments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#stripxmlcomments Appfwprofile#stripxmlcomments}
   */
   readonly stripxmlcomments?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#trace Appfwprofile#trace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#trace Appfwprofile#trace}
   */
   readonly trace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#type Appfwprofile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#type Appfwprofile#type}
   */
   readonly type?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#urldecoderequestcookies Appfwprofile#urldecoderequestcookies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#urldecoderequestcookies Appfwprofile#urldecoderequestcookies}
   */
   readonly urldecoderequestcookies?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#usehtmlerrorobject Appfwprofile#usehtmlerrorobject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#usehtmlerrorobject Appfwprofile#usehtmlerrorobject}
   */
   readonly usehtmlerrorobject?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#verboseloglevel Appfwprofile#verboseloglevel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#verboseloglevel Appfwprofile#verboseloglevel}
   */
   readonly verboseloglevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#xmlattachmentaction Appfwprofile#xmlattachmentaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#xmlattachmentaction Appfwprofile#xmlattachmentaction}
   */
   readonly xmlattachmentaction?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#xmldosaction Appfwprofile#xmldosaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#xmldosaction Appfwprofile#xmldosaction}
   */
   readonly xmldosaction?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#xmlerrorobject Appfwprofile#xmlerrorobject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#xmlerrorobject Appfwprofile#xmlerrorobject}
   */
   readonly xmlerrorobject?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#xmlerrorstatuscode Appfwprofile#xmlerrorstatuscode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#xmlerrorstatuscode Appfwprofile#xmlerrorstatuscode}
   */
   readonly xmlerrorstatuscode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#xmlerrorstatusmessage Appfwprofile#xmlerrorstatusmessage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#xmlerrorstatusmessage Appfwprofile#xmlerrorstatusmessage}
   */
   readonly xmlerrorstatusmessage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#xmlformataction Appfwprofile#xmlformataction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#xmlformataction Appfwprofile#xmlformataction}
   */
   readonly xmlformataction?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#xmlsoapfaultaction Appfwprofile#xmlsoapfaultaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#xmlsoapfaultaction Appfwprofile#xmlsoapfaultaction}
   */
   readonly xmlsoapfaultaction?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#xmlsqlinjectionaction Appfwprofile#xmlsqlinjectionaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#xmlsqlinjectionaction Appfwprofile#xmlsqlinjectionaction}
   */
   readonly xmlsqlinjectionaction?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#xmlsqlinjectionchecksqlwildchars Appfwprofile#xmlsqlinjectionchecksqlwildchars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#xmlsqlinjectionchecksqlwildchars Appfwprofile#xmlsqlinjectionchecksqlwildchars}
   */
   readonly xmlsqlinjectionchecksqlwildchars?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#xmlsqlinjectiononlycheckfieldswithsqlchars Appfwprofile#xmlsqlinjectiononlycheckfieldswithsqlchars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#xmlsqlinjectiononlycheckfieldswithsqlchars Appfwprofile#xmlsqlinjectiononlycheckfieldswithsqlchars}
   */
   readonly xmlsqlinjectiononlycheckfieldswithsqlchars?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#xmlsqlinjectionparsecomments Appfwprofile#xmlsqlinjectionparsecomments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#xmlsqlinjectionparsecomments Appfwprofile#xmlsqlinjectionparsecomments}
   */
   readonly xmlsqlinjectionparsecomments?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#xmlsqlinjectiontype Appfwprofile#xmlsqlinjectiontype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#xmlsqlinjectiontype Appfwprofile#xmlsqlinjectiontype}
   */
   readonly xmlsqlinjectiontype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#xmlvalidationaction Appfwprofile#xmlvalidationaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#xmlvalidationaction Appfwprofile#xmlvalidationaction}
   */
   readonly xmlvalidationaction?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#xmlwsiaction Appfwprofile#xmlwsiaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#xmlwsiaction Appfwprofile#xmlwsiaction}
   */
   readonly xmlwsiaction?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#xmlxssaction Appfwprofile#xmlxssaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#xmlxssaction Appfwprofile#xmlxssaction}
   */
   readonly xmlxssaction?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile citrixadc_appfwprofile}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile citrixadc_appfwprofile}
 */
 export class Appfwprofile extends cdktf.TerraformResource {
 
@@ -609,7 +609,7 @@ export class Appfwprofile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Appfwprofile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Appfwprofile to import
-  * @param importFromId The id of the existing Appfwprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Appfwprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Appfwprofile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -621,7 +621,7 @@ export class Appfwprofile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile citrixadc_appfwprofile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile citrixadc_appfwprofile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -632,7 +632,8 @@ export class Appfwprofile extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_appfwprofile',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

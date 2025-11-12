@@ -58,7 +58,8 @@ export class DataUpcloudKubernetesCluster extends cdktf.TerraformDataSource {
       terraformResourceType: 'upcloud_kubernetes_cluster',
       terraformGeneratorMetadata: {
         providerName: 'upcloud',
-        providerVersion: '5.31.0'
+        providerVersion: '5.31.0',
+        providerVersionConstraint: '5.31.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

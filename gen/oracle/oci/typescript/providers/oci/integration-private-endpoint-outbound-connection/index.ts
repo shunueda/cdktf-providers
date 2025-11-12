@@ -238,7 +238,8 @@ export class IntegrationPrivateEndpointOutboundConnection extends cdktf.Terrafor
       terraformResourceType: 'oci_integration_private_endpoint_outbound_connection',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -16106,7 +16106,8 @@ export class DataK8SEnterpriseGlooSoloIoAuthConfigV1Manifest extends cdktf.Terra
       terraformResourceType: 'k8s_enterprise_gloo_solo_io_auth_config_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

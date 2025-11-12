@@ -68,7 +68,8 @@ export class DataZiaCloudAppControlRuleActions extends cdktf.TerraformDataSource
       terraformResourceType: 'zia_cloud_app_control_rule_actions',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.5.3'
+        providerVersion: '4.5.3',
+        providerVersionConstraint: '4.5.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

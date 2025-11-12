@@ -80,7 +80,8 @@ export class LookupTableFile extends cdktf.TerraformResource {
       terraformResourceType: 'splunk_lookup_table_file',
       terraformGeneratorMetadata: {
         providerName: 'splunk',
-        providerVersion: '1.4.32'
+        providerVersion: '1.4.32',
+        providerVersionConstraint: '1.4.32'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

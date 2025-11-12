@@ -73,7 +73,8 @@ export class UsercloudsProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'userclouds',
       terraformGeneratorMetadata: {
         providerName: 'userclouds',
-        providerVersion: '0.1.8'
+        providerVersion: '0.1.8',
+        providerVersionConstraint: '0.1.8'
       },
       terraformProviderSource: 'userclouds/userclouds'
     });

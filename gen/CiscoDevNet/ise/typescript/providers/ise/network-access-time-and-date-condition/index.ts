@@ -127,7 +127,8 @@ export class NetworkAccessTimeAndDateCondition extends cdktf.TerraformResource {
       terraformResourceType: 'ise_network_access_time_and_date_condition',
       terraformGeneratorMetadata: {
         providerName: 'ise',
-        providerVersion: '0.2.12'
+        providerVersion: '0.2.12',
+        providerVersionConstraint: '0.2.12'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -870,7 +870,8 @@ export class DataInfracostAwsDynamodbTable extends cdktf.TerraformDataSource {
       terraformResourceType: 'infracost_aws_dynamodb_table',
       terraformGeneratorMetadata: {
         providerName: 'infracost',
-        providerVersion: '0.0.9'
+        providerVersion: '0.0.9',
+        providerVersionConstraint: '0.0.9'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

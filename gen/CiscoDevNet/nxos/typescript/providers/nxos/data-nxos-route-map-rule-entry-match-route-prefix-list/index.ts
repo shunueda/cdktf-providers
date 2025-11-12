@@ -73,7 +73,8 @@ export class DataNxosRouteMapRuleEntryMatchRoutePrefixList extends cdktf.Terrafo
       terraformResourceType: 'nxos_route_map_rule_entry_match_route_prefix_list',
       terraformGeneratorMetadata: {
         providerName: 'nxos',
-        providerVersion: '0.5.10'
+        providerVersion: '0.5.10',
+        providerVersionConstraint: '0.5.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

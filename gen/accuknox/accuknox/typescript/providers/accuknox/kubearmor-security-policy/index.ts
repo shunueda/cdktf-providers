@@ -5505,7 +5505,8 @@ export class KubearmorSecurityPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'accuknox_kubearmor_security_policy',
       terraformGeneratorMetadata: {
         providerName: 'accuknox',
-        providerVersion: '1.0.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

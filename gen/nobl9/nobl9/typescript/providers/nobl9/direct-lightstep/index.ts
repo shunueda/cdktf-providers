@@ -658,7 +658,8 @@ export class DirectLightstep extends cdktf.TerraformResource {
       terraformResourceType: 'nobl9_direct_lightstep',
       terraformGeneratorMetadata: {
         providerName: 'nobl9',
-        providerVersion: '0.44.1'
+        providerVersion: '0.44.1',
+        providerVersionConstraint: '0.44.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -143,7 +143,8 @@ export class DataSdwanMeshTopologyPolicyDefinition extends cdktf.TerraformDataSo
       terraformResourceType: 'sdwan_mesh_topology_policy_definition',
       terraformGeneratorMetadata: {
         providerName: 'sdwan',
-        providerVersion: '0.8.1'
+        providerVersion: '0.8.1',
+        providerVersionConstraint: '0.8.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

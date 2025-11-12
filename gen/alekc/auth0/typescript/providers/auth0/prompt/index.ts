@@ -68,7 +68,8 @@ export class Prompt extends cdktf.TerraformResource {
       terraformResourceType: 'auth0_prompt',
       terraformGeneratorMetadata: {
         providerName: 'auth0',
-        providerVersion: '1.1.3'
+        providerVersion: '1.1.3',
+        providerVersionConstraint: '1.1.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

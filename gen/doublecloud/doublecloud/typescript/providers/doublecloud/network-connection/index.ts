@@ -537,7 +537,8 @@ export class NetworkConnection extends cdktf.TerraformResource {
       terraformResourceType: 'doublecloud_network_connection',
       terraformGeneratorMetadata: {
         providerName: 'doublecloud',
-        providerVersion: '0.1.26'
+        providerVersion: '0.1.26',
+        providerVersionConstraint: '0.1.26'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

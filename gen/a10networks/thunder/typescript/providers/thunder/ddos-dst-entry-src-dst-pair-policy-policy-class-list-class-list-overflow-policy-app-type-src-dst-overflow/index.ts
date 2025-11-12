@@ -295,7 +295,8 @@ export class DdosDstEntrySrcDstPairPolicyPolicyClassListClassListOverflowPolicyA
       terraformResourceType: 'thunder_ddos_dst_entry_src_dst_pair_policy_policy_class_list_class_list_overflow_policy_app_type_src_dst_overflow',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

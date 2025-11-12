@@ -91,7 +91,8 @@ export class MysqlProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'mysql',
       terraformGeneratorMetadata: {
         providerName: 'mysql',
-        providerVersion: '1.10.6'
+        providerVersion: '1.10.6',
+        providerVersionConstraint: '1.10.6'
       },
       terraformProviderSource: 'winebarrel/mysql'
     });

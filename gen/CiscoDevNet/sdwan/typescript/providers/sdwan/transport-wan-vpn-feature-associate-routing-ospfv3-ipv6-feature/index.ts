@@ -67,7 +67,8 @@ export class TransportWanVpnFeatureAssociateRoutingOspfv3Ipv6Feature extends cdk
       terraformResourceType: 'sdwan_transport_wan_vpn_feature_associate_routing_ospfv3_ipv6_feature',
       terraformGeneratorMetadata: {
         providerName: 'sdwan',
-        providerVersion: '0.8.1'
+        providerVersion: '0.8.1',
+        providerVersionConstraint: '0.8.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

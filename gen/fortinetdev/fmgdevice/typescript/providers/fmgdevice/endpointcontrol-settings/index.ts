@@ -84,7 +84,8 @@ export class EndpointcontrolSettings extends cdktf.TerraformResource {
       terraformResourceType: 'fmgdevice_endpointcontrol_settings',
       terraformGeneratorMetadata: {
         providerName: 'fmgdevice',
-        providerVersion: '1.2.1'
+        providerVersion: '1.2.1',
+        providerVersionConstraint: '1.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

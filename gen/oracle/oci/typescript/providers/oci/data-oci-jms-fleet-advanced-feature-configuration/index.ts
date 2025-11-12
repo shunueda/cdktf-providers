@@ -1140,7 +1140,8 @@ export class DataOciJmsFleetAdvancedFeatureConfiguration extends cdktf.Terraform
       terraformResourceType: 'oci_jms_fleet_advanced_feature_configuration',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

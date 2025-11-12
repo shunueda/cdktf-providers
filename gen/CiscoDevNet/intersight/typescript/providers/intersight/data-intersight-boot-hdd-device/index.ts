@@ -5147,7 +5147,8 @@ export class DataIntersightBootHddDevice extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_boot_hdd_device',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

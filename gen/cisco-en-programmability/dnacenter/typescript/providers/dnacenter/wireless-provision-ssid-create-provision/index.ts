@@ -1009,7 +1009,8 @@ export class WirelessProvisionSsidCreateProvision extends cdktf.TerraformResourc
       terraformResourceType: 'dnacenter_wireless_provision_ssid_create_provision',
       terraformGeneratorMetadata: {
         providerName: 'dnacenter',
-        providerVersion: '1.1.21'
+        providerVersion: '1.1.21',
+        providerVersionConstraint: '1.1.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

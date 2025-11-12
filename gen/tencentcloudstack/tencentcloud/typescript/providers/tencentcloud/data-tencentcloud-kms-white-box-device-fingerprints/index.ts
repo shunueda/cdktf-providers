@@ -148,7 +148,8 @@ export class DataTencentcloudKmsWhiteBoxDeviceFingerprints extends cdktf.Terrafo
       terraformResourceType: 'tencentcloud_kms_white_box_device_fingerprints',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

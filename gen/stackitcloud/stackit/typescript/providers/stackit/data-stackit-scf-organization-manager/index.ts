@@ -67,7 +67,8 @@ export class DataStackitScfOrganizationManager extends cdktf.TerraformDataSource
       terraformResourceType: 'stackit_scf_organization_manager',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.69.0'
+        providerVersion: '0.69.0',
+        providerVersionConstraint: '0.69.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

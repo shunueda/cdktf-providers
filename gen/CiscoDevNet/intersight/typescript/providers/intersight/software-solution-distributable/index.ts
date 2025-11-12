@@ -4310,7 +4310,8 @@ export class SoftwareSolutionDistributable extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_software_solution_distributable',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

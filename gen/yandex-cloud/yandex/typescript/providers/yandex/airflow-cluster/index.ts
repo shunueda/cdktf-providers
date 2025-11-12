@@ -1528,7 +1528,8 @@ export class AirflowCluster extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_airflow_cluster',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.169.0'
+        providerVersion: '0.169.0',
+        providerVersionConstraint: '0.169.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

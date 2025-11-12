@@ -84,7 +84,8 @@ export class WebhookDestination extends cdktf.TerraformResource {
       terraformResourceType: 'lightstep_webhook_destination',
       terraformGeneratorMetadata: {
         providerName: 'lightstep',
-        providerVersion: '1.98.2'
+        providerVersion: '1.98.2',
+        providerVersionConstraint: '1.98.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

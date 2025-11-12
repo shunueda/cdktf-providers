@@ -286,7 +286,8 @@ export class CloudProjectDatabaseM3DbNamespace extends cdktf.TerraformResource {
       terraformResourceType: 'ovh_cloud_project_database_m3db_namespace',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0'
+        providerVersion: '2.9.0',
+        providerVersionConstraint: '2.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

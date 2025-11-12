@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_audit_source
+// https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_audit_source
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,180 +8,180 @@ import * as cdktf from 'cdktf';
 
 export interface S3AuditSourceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_audit_source#automatic_date_parsing S3AuditSource#automatic_date_parsing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_audit_source#automatic_date_parsing S3AuditSource#automatic_date_parsing}
   */
   readonly automaticDateParsing?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_audit_source#category S3AuditSource#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_audit_source#category S3AuditSource#category}
   */
   readonly category?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_audit_source#collector_id S3AuditSource#collector_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_audit_source#collector_id S3AuditSource#collector_id}
   */
   readonly collectorId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_audit_source#content_type S3AuditSource#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_audit_source#content_type S3AuditSource#content_type}
   */
   readonly contentType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_audit_source#cutoff_relative_time S3AuditSource#cutoff_relative_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_audit_source#cutoff_relative_time S3AuditSource#cutoff_relative_time}
   */
   readonly cutoffRelativeTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_audit_source#cutoff_timestamp S3AuditSource#cutoff_timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_audit_source#cutoff_timestamp S3AuditSource#cutoff_timestamp}
   */
   readonly cutoffTimestamp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_audit_source#description S3AuditSource#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_audit_source#description S3AuditSource#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_audit_source#fields S3AuditSource#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_audit_source#fields S3AuditSource#fields}
   */
   readonly fields?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_audit_source#force_timezone S3AuditSource#force_timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_audit_source#force_timezone S3AuditSource#force_timezone}
   */
   readonly forceTimezone?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_audit_source#hash_algorithm S3AuditSource#hash_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_audit_source#hash_algorithm S3AuditSource#hash_algorithm}
   */
   readonly hashAlgorithm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_audit_source#host_name S3AuditSource#host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_audit_source#host_name S3AuditSource#host_name}
   */
   readonly hostName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_audit_source#id S3AuditSource#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_audit_source#id S3AuditSource#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_audit_source#manual_prefix_regexp S3AuditSource#manual_prefix_regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_audit_source#manual_prefix_regexp S3AuditSource#manual_prefix_regexp}
   */
   readonly manualPrefixRegexp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_audit_source#multiline_processing_enabled S3AuditSource#multiline_processing_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_audit_source#multiline_processing_enabled S3AuditSource#multiline_processing_enabled}
   */
   readonly multilineProcessingEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_audit_source#name S3AuditSource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_audit_source#name S3AuditSource#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_audit_source#paused S3AuditSource#paused}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_audit_source#paused S3AuditSource#paused}
   */
   readonly paused?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_audit_source#scan_interval S3AuditSource#scan_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_audit_source#scan_interval S3AuditSource#scan_interval}
   */
   readonly scanInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_audit_source#timezone S3AuditSource#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_audit_source#timezone S3AuditSource#timezone}
   */
   readonly timezone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_audit_source#use_autoline_matching S3AuditSource#use_autoline_matching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_audit_source#use_autoline_matching S3AuditSource#use_autoline_matching}
   */
   readonly useAutolineMatching?: boolean | cdktf.IResolvable;
   /**
   * authentication block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_audit_source#authentication S3AuditSource#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_audit_source#authentication S3AuditSource#authentication}
   */
   readonly authentication: S3AuditSourceAuthentication;
   /**
   * default_date_formats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_audit_source#default_date_formats S3AuditSource#default_date_formats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_audit_source#default_date_formats S3AuditSource#default_date_formats}
   */
   readonly defaultDateFormats?: S3AuditSourceDefaultDateFormats[] | cdktf.IResolvable;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_audit_source#filters S3AuditSource#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_audit_source#filters S3AuditSource#filters}
   */
   readonly filters?: S3AuditSourceFilters[] | cdktf.IResolvable;
   /**
   * path block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_audit_source#path S3AuditSource#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_audit_source#path S3AuditSource#path}
   */
   readonly path: S3AuditSourcePath;
 }
 export interface S3AuditSourceAuthentication {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_audit_source#access_key S3AuditSource#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_audit_source#access_key S3AuditSource#access_key}
   */
   readonly accessKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_audit_source#auth_provider_x509_cert_url S3AuditSource#auth_provider_x509_cert_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_audit_source#auth_provider_x509_cert_url S3AuditSource#auth_provider_x509_cert_url}
   */
   readonly authProviderX509CertUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_audit_source#auth_uri S3AuditSource#auth_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_audit_source#auth_uri S3AuditSource#auth_uri}
   */
   readonly authUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_audit_source#client_email S3AuditSource#client_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_audit_source#client_email S3AuditSource#client_email}
   */
   readonly clientEmail?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_audit_source#client_id S3AuditSource#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_audit_source#client_id S3AuditSource#client_id}
   */
   readonly clientId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_audit_source#client_secret S3AuditSource#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_audit_source#client_secret S3AuditSource#client_secret}
   */
   readonly clientSecret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_audit_source#client_x509_cert_url S3AuditSource#client_x509_cert_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_audit_source#client_x509_cert_url S3AuditSource#client_x509_cert_url}
   */
   readonly clientX509CertUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_audit_source#private_key S3AuditSource#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_audit_source#private_key S3AuditSource#private_key}
   */
   readonly privateKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_audit_source#private_key_id S3AuditSource#private_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_audit_source#private_key_id S3AuditSource#private_key_id}
   */
   readonly privateKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_audit_source#project_id S3AuditSource#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_audit_source#project_id S3AuditSource#project_id}
   */
   readonly projectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_audit_source#region S3AuditSource#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_audit_source#region S3AuditSource#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_audit_source#role_arn S3AuditSource#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_audit_source#role_arn S3AuditSource#role_arn}
   */
   readonly roleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_audit_source#secret_key S3AuditSource#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_audit_source#secret_key S3AuditSource#secret_key}
   */
   readonly secretKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_audit_source#shared_access_policy_key S3AuditSource#shared_access_policy_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_audit_source#shared_access_policy_key S3AuditSource#shared_access_policy_key}
   */
   readonly sharedAccessPolicyKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_audit_source#shared_access_policy_name S3AuditSource#shared_access_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_audit_source#shared_access_policy_name S3AuditSource#shared_access_policy_name}
   */
   readonly sharedAccessPolicyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_audit_source#tenant_id S3AuditSource#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_audit_source#tenant_id S3AuditSource#tenant_id}
   */
   readonly tenantId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_audit_source#token_uri S3AuditSource#token_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_audit_source#token_uri S3AuditSource#token_uri}
   */
   readonly tokenUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_audit_source#type S3AuditSource#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_audit_source#type S3AuditSource#type}
   */
   readonly type: string;
 }
@@ -755,11 +755,11 @@ export class S3AuditSourceAuthenticationOutputReference extends cdktf.ComplexObj
 }
 export interface S3AuditSourceDefaultDateFormats {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_audit_source#format S3AuditSource#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_audit_source#format S3AuditSource#format}
   */
   readonly format: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_audit_source#locator S3AuditSource#locator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_audit_source#locator S3AuditSource#locator}
   */
   readonly locator?: string;
 }
@@ -901,19 +901,19 @@ export class S3AuditSourceDefaultDateFormatsList extends cdktf.ComplexList {
 }
 export interface S3AuditSourceFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_audit_source#filter_type S3AuditSource#filter_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_audit_source#filter_type S3AuditSource#filter_type}
   */
   readonly filterType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_audit_source#mask S3AuditSource#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_audit_source#mask S3AuditSource#mask}
   */
   readonly mask?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_audit_source#name S3AuditSource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_audit_source#name S3AuditSource#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_audit_source#regexp S3AuditSource#regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_audit_source#regexp S3AuditSource#regexp}
   */
   readonly regexp: string;
 }
@@ -1187,11 +1187,11 @@ export class S3AuditSourcePathSnsTopicOrSubscriptionArnList extends cdktf.Comple
 }
 export interface S3AuditSourcePathAzureTagFiltersTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_audit_source#name S3AuditSource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_audit_source#name S3AuditSource#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_audit_source#values S3AuditSource#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_audit_source#values S3AuditSource#values}
   */
   readonly values?: string[];
 }
@@ -1333,17 +1333,17 @@ export class S3AuditSourcePathAzureTagFiltersTagsList extends cdktf.ComplexList 
 }
 export interface S3AuditSourcePathAzureTagFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_audit_source#namespace S3AuditSource#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_audit_source#namespace S3AuditSource#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_audit_source#type S3AuditSource#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_audit_source#type S3AuditSource#type}
   */
   readonly type: string;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_audit_source#tags S3AuditSource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_audit_source#tags S3AuditSource#tags}
   */
   readonly tags?: S3AuditSourcePathAzureTagFiltersTags[] | cdktf.IResolvable;
 }
@@ -1514,11 +1514,11 @@ export class S3AuditSourcePathAzureTagFiltersList extends cdktf.ComplexList {
 }
 export interface S3AuditSourcePathCustomServices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_audit_source#prefixes S3AuditSource#prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_audit_source#prefixes S3AuditSource#prefixes}
   */
   readonly prefixes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_audit_source#service_name S3AuditSource#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_audit_source#service_name S3AuditSource#service_name}
   */
   readonly serviceName?: string;
 }
@@ -1663,15 +1663,15 @@ export class S3AuditSourcePathCustomServicesList extends cdktf.ComplexList {
 }
 export interface S3AuditSourcePathTagFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_audit_source#namespace S3AuditSource#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_audit_source#namespace S3AuditSource#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_audit_source#tags S3AuditSource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_audit_source#tags S3AuditSource#tags}
   */
   readonly tags?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_audit_source#type S3AuditSource#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_audit_source#type S3AuditSource#type}
   */
   readonly type?: string;
 }
@@ -1845,69 +1845,69 @@ export class S3AuditSourcePathTagFiltersList extends cdktf.ComplexList {
 }
 export interface S3AuditSourcePath {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_audit_source#bucket_name S3AuditSource#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_audit_source#bucket_name S3AuditSource#bucket_name}
   */
   readonly bucketName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_audit_source#consumer_group S3AuditSource#consumer_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_audit_source#consumer_group S3AuditSource#consumer_group}
   */
   readonly consumerGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_audit_source#environment S3AuditSource#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_audit_source#environment S3AuditSource#environment}
   */
   readonly environment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_audit_source#event_hub_name S3AuditSource#event_hub_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_audit_source#event_hub_name S3AuditSource#event_hub_name}
   */
   readonly eventHubName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_audit_source#limit_to_namespaces S3AuditSource#limit_to_namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_audit_source#limit_to_namespaces S3AuditSource#limit_to_namespaces}
   */
   readonly limitToNamespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_audit_source#limit_to_regions S3AuditSource#limit_to_regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_audit_source#limit_to_regions S3AuditSource#limit_to_regions}
   */
   readonly limitToRegions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_audit_source#limit_to_services S3AuditSource#limit_to_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_audit_source#limit_to_services S3AuditSource#limit_to_services}
   */
   readonly limitToServices?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_audit_source#namespace S3AuditSource#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_audit_source#namespace S3AuditSource#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_audit_source#path_expression S3AuditSource#path_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_audit_source#path_expression S3AuditSource#path_expression}
   */
   readonly pathExpression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_audit_source#region S3AuditSource#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_audit_source#region S3AuditSource#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_audit_source#type S3AuditSource#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_audit_source#type S3AuditSource#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_audit_source#use_versioned_api S3AuditSource#use_versioned_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_audit_source#use_versioned_api S3AuditSource#use_versioned_api}
   */
   readonly useVersionedApi?: boolean | cdktf.IResolvable;
   /**
   * azure_tag_filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_audit_source#azure_tag_filters S3AuditSource#azure_tag_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_audit_source#azure_tag_filters S3AuditSource#azure_tag_filters}
   */
   readonly azureTagFilters?: S3AuditSourcePathAzureTagFilters[] | cdktf.IResolvable;
   /**
   * custom_services block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_audit_source#custom_services S3AuditSource#custom_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_audit_source#custom_services S3AuditSource#custom_services}
   */
   readonly customServices?: S3AuditSourcePathCustomServices[] | cdktf.IResolvable;
   /**
   * tag_filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_audit_source#tag_filters S3AuditSource#tag_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_audit_source#tag_filters S3AuditSource#tag_filters}
   */
   readonly tagFilters?: S3AuditSourcePathTagFilters[] | cdktf.IResolvable;
 }
@@ -2400,7 +2400,7 @@ export class S3AuditSourcePathOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_audit_source sumologic_s3_audit_source}
+* Represents a {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_audit_source sumologic_s3_audit_source}
 */
 export class S3AuditSource extends cdktf.TerraformResource {
 
@@ -2416,7 +2416,7 @@ export class S3AuditSource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a S3AuditSource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the S3AuditSource to import
-  * @param importFromId The id of the existing S3AuditSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_audit_source#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing S3AuditSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_audit_source#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the S3AuditSource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2428,7 +2428,7 @@ export class S3AuditSource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_audit_source sumologic_s3_audit_source} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_audit_source sumologic_s3_audit_source} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2439,7 +2439,8 @@ export class S3AuditSource extends cdktf.TerraformResource {
       terraformResourceType: 'sumologic_s3_audit_source',
       terraformGeneratorMetadata: {
         providerName: 'sumologic',
-        providerVersion: '3.1.7'
+        providerVersion: '3.1.8',
+        providerVersionConstraint: '3.1.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

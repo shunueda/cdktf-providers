@@ -98,7 +98,8 @@ export class DataSbercloudCfwDomainNameParseIpList extends cdktf.TerraformDataSo
       terraformResourceType: 'sbercloud_cfw_domain_name_parse_ip_list',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14'
+        providerVersion: '1.12.14',
+        providerVersionConstraint: '1.12.14'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

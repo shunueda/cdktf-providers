@@ -209,7 +209,8 @@ export class DeviceAdminAuthorizationGlobalExceptionRuleUpdateRanks extends cdkt
       terraformResourceType: 'ise_device_admin_authorization_global_exception_rule_update_ranks',
       terraformGeneratorMetadata: {
         providerName: 'ise',
-        providerVersion: '0.2.12'
+        providerVersion: '0.2.12',
+        providerVersionConstraint: '0.2.12'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

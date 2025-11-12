@@ -68,7 +68,8 @@ export class ReverseIpv4 extends cdktf.TerraformResource {
       terraformResourceType: 'vultr_reverse_ipv4',
       terraformGeneratorMetadata: {
         providerName: 'vultr',
-        providerVersion: '2.27.1'
+        providerVersion: '2.27.1',
+        providerVersionConstraint: '2.27.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

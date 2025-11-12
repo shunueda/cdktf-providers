@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationldapaction
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationldapaction
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,236 +8,236 @@ import * as cdktf from 'cdktf';
 
 export interface AuthenticationldapactionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationldapaction#alternateemailattr Authenticationldapaction#alternateemailattr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationldapaction#alternateemailattr Authenticationldapaction#alternateemailattr}
   */
   readonly alternateemailattr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationldapaction#attribute1 Authenticationldapaction#attribute1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationldapaction#attribute1 Authenticationldapaction#attribute1}
   */
   readonly attribute1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationldapaction#attribute10 Authenticationldapaction#attribute10}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationldapaction#attribute10 Authenticationldapaction#attribute10}
   */
   readonly attribute10?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationldapaction#attribute11 Authenticationldapaction#attribute11}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationldapaction#attribute11 Authenticationldapaction#attribute11}
   */
   readonly attribute11?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationldapaction#attribute12 Authenticationldapaction#attribute12}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationldapaction#attribute12 Authenticationldapaction#attribute12}
   */
   readonly attribute12?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationldapaction#attribute13 Authenticationldapaction#attribute13}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationldapaction#attribute13 Authenticationldapaction#attribute13}
   */
   readonly attribute13?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationldapaction#attribute14 Authenticationldapaction#attribute14}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationldapaction#attribute14 Authenticationldapaction#attribute14}
   */
   readonly attribute14?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationldapaction#attribute15 Authenticationldapaction#attribute15}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationldapaction#attribute15 Authenticationldapaction#attribute15}
   */
   readonly attribute15?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationldapaction#attribute16 Authenticationldapaction#attribute16}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationldapaction#attribute16 Authenticationldapaction#attribute16}
   */
   readonly attribute16?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationldapaction#attribute2 Authenticationldapaction#attribute2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationldapaction#attribute2 Authenticationldapaction#attribute2}
   */
   readonly attribute2?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationldapaction#attribute3 Authenticationldapaction#attribute3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationldapaction#attribute3 Authenticationldapaction#attribute3}
   */
   readonly attribute3?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationldapaction#attribute4 Authenticationldapaction#attribute4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationldapaction#attribute4 Authenticationldapaction#attribute4}
   */
   readonly attribute4?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationldapaction#attribute5 Authenticationldapaction#attribute5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationldapaction#attribute5 Authenticationldapaction#attribute5}
   */
   readonly attribute5?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationldapaction#attribute6 Authenticationldapaction#attribute6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationldapaction#attribute6 Authenticationldapaction#attribute6}
   */
   readonly attribute6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationldapaction#attribute7 Authenticationldapaction#attribute7}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationldapaction#attribute7 Authenticationldapaction#attribute7}
   */
   readonly attribute7?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationldapaction#attribute8 Authenticationldapaction#attribute8}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationldapaction#attribute8 Authenticationldapaction#attribute8}
   */
   readonly attribute8?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationldapaction#attribute9 Authenticationldapaction#attribute9}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationldapaction#attribute9 Authenticationldapaction#attribute9}
   */
   readonly attribute9?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationldapaction#attributes Authenticationldapaction#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationldapaction#attributes Authenticationldapaction#attributes}
   */
   readonly attributes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationldapaction#authentication Authenticationldapaction#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationldapaction#authentication Authenticationldapaction#authentication}
   */
   readonly authentication?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationldapaction#authtimeout Authenticationldapaction#authtimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationldapaction#authtimeout Authenticationldapaction#authtimeout}
   */
   readonly authtimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationldapaction#cloudattributes Authenticationldapaction#cloudattributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationldapaction#cloudattributes Authenticationldapaction#cloudattributes}
   */
   readonly cloudattributes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationldapaction#defaultauthenticationgroup Authenticationldapaction#defaultauthenticationgroup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationldapaction#defaultauthenticationgroup Authenticationldapaction#defaultauthenticationgroup}
   */
   readonly defaultauthenticationgroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationldapaction#email Authenticationldapaction#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationldapaction#email Authenticationldapaction#email}
   */
   readonly email?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationldapaction#followreferrals Authenticationldapaction#followreferrals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationldapaction#followreferrals Authenticationldapaction#followreferrals}
   */
   readonly followreferrals?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationldapaction#groupattrname Authenticationldapaction#groupattrname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationldapaction#groupattrname Authenticationldapaction#groupattrname}
   */
   readonly groupattrname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationldapaction#groupnameidentifier Authenticationldapaction#groupnameidentifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationldapaction#groupnameidentifier Authenticationldapaction#groupnameidentifier}
   */
   readonly groupnameidentifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationldapaction#groupsearchattribute Authenticationldapaction#groupsearchattribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationldapaction#groupsearchattribute Authenticationldapaction#groupsearchattribute}
   */
   readonly groupsearchattribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationldapaction#groupsearchfilter Authenticationldapaction#groupsearchfilter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationldapaction#groupsearchfilter Authenticationldapaction#groupsearchfilter}
   */
   readonly groupsearchfilter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationldapaction#groupsearchsubattribute Authenticationldapaction#groupsearchsubattribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationldapaction#groupsearchsubattribute Authenticationldapaction#groupsearchsubattribute}
   */
   readonly groupsearchsubattribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationldapaction#id Authenticationldapaction#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationldapaction#id Authenticationldapaction#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationldapaction#kbattribute Authenticationldapaction#kbattribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationldapaction#kbattribute Authenticationldapaction#kbattribute}
   */
   readonly kbattribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationldapaction#ldapbase Authenticationldapaction#ldapbase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationldapaction#ldapbase Authenticationldapaction#ldapbase}
   */
   readonly ldapbase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationldapaction#ldapbinddn Authenticationldapaction#ldapbinddn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationldapaction#ldapbinddn Authenticationldapaction#ldapbinddn}
   */
   readonly ldapbinddn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationldapaction#ldapbinddnpassword Authenticationldapaction#ldapbinddnpassword}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationldapaction#ldapbinddnpassword Authenticationldapaction#ldapbinddnpassword}
   */
   readonly ldapbinddnpassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationldapaction#ldaphostname Authenticationldapaction#ldaphostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationldapaction#ldaphostname Authenticationldapaction#ldaphostname}
   */
   readonly ldaphostname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationldapaction#ldaploginname Authenticationldapaction#ldaploginname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationldapaction#ldaploginname Authenticationldapaction#ldaploginname}
   */
   readonly ldaploginname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationldapaction#maxldapreferrals Authenticationldapaction#maxldapreferrals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationldapaction#maxldapreferrals Authenticationldapaction#maxldapreferrals}
   */
   readonly maxldapreferrals?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationldapaction#maxnestinglevel Authenticationldapaction#maxnestinglevel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationldapaction#maxnestinglevel Authenticationldapaction#maxnestinglevel}
   */
   readonly maxnestinglevel?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationldapaction#mssrvrecordlocation Authenticationldapaction#mssrvrecordlocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationldapaction#mssrvrecordlocation Authenticationldapaction#mssrvrecordlocation}
   */
   readonly mssrvrecordlocation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationldapaction#name Authenticationldapaction#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationldapaction#name Authenticationldapaction#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationldapaction#nestedgroupextraction Authenticationldapaction#nestedgroupextraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationldapaction#nestedgroupextraction Authenticationldapaction#nestedgroupextraction}
   */
   readonly nestedgroupextraction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationldapaction#otpsecret Authenticationldapaction#otpsecret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationldapaction#otpsecret Authenticationldapaction#otpsecret}
   */
   readonly otpsecret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationldapaction#passwdchange Authenticationldapaction#passwdchange}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationldapaction#passwdchange Authenticationldapaction#passwdchange}
   */
   readonly passwdchange?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationldapaction#pushservice Authenticationldapaction#pushservice}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationldapaction#pushservice Authenticationldapaction#pushservice}
   */
   readonly pushservice?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationldapaction#referraldnslookup Authenticationldapaction#referraldnslookup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationldapaction#referraldnslookup Authenticationldapaction#referraldnslookup}
   */
   readonly referraldnslookup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationldapaction#requireuser Authenticationldapaction#requireuser}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationldapaction#requireuser Authenticationldapaction#requireuser}
   */
   readonly requireuser?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationldapaction#searchfilter Authenticationldapaction#searchfilter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationldapaction#searchfilter Authenticationldapaction#searchfilter}
   */
   readonly searchfilter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationldapaction#sectype Authenticationldapaction#sectype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationldapaction#sectype Authenticationldapaction#sectype}
   */
   readonly sectype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationldapaction#serverip Authenticationldapaction#serverip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationldapaction#serverip Authenticationldapaction#serverip}
   */
   readonly serverip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationldapaction#servername Authenticationldapaction#servername}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationldapaction#servername Authenticationldapaction#servername}
   */
   readonly servername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationldapaction#serverport Authenticationldapaction#serverport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationldapaction#serverport Authenticationldapaction#serverport}
   */
   readonly serverport?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationldapaction#sshpublickey Authenticationldapaction#sshpublickey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationldapaction#sshpublickey Authenticationldapaction#sshpublickey}
   */
   readonly sshpublickey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationldapaction#ssonameattribute Authenticationldapaction#ssonameattribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationldapaction#ssonameattribute Authenticationldapaction#ssonameattribute}
   */
   readonly ssonameattribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationldapaction#subattributename Authenticationldapaction#subattributename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationldapaction#subattributename Authenticationldapaction#subattributename}
   */
   readonly subattributename?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationldapaction#svrtype Authenticationldapaction#svrtype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationldapaction#svrtype Authenticationldapaction#svrtype}
   */
   readonly svrtype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationldapaction#validateservercert Authenticationldapaction#validateservercert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationldapaction#validateservercert Authenticationldapaction#validateservercert}
   */
   readonly validateservercert?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationldapaction citrixadc_authenticationldapaction}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationldapaction citrixadc_authenticationldapaction}
 */
 export class Authenticationldapaction extends cdktf.TerraformResource {
 
@@ -253,7 +253,7 @@ export class Authenticationldapaction extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Authenticationldapaction resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Authenticationldapaction to import
-  * @param importFromId The id of the existing Authenticationldapaction that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationldapaction#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Authenticationldapaction that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationldapaction#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Authenticationldapaction to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -265,7 +265,7 @@ export class Authenticationldapaction extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationldapaction citrixadc_authenticationldapaction} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationldapaction citrixadc_authenticationldapaction} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -276,7 +276,8 @@ export class Authenticationldapaction extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_authenticationldapaction',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

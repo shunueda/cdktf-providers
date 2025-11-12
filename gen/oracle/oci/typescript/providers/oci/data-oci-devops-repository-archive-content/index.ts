@@ -68,7 +68,8 @@ export class DataOciDevopsRepositoryArchiveContent extends cdktf.TerraformDataSo
       terraformResourceType: 'oci_devops_repository_archive_content',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

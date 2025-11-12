@@ -62,7 +62,8 @@ export class DataSplunkconfigUserAttributes extends cdktf.TerraformDataSource {
       terraformResourceType: 'splunkconfig_user_attributes',
       terraformGeneratorMetadata: {
         providerName: 'splunkconfig',
-        providerVersion: '1.7.4'
+        providerVersion: '1.7.4',
+        providerVersionConstraint: '1.7.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

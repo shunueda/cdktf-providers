@@ -611,7 +611,8 @@ export class MonitorTeam extends cdktf.TerraformResource {
       terraformResourceType: 'sysdig_monitor_team',
       terraformGeneratorMetadata: {
         providerName: 'sysdig',
-        providerVersion: '3.1.0'
+        providerVersion: '3.1.0',
+        providerVersionConstraint: '3.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

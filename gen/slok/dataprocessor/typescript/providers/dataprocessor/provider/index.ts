@@ -55,7 +55,8 @@ export class DataprocessorProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'dataprocessor',
       terraformGeneratorMetadata: {
         providerName: 'dataprocessor',
-        providerVersion: '0.4.0'
+        providerVersion: '0.4.0',
+        providerVersionConstraint: '0.4.0'
       },
       terraformProviderSource: 'slok/dataprocessor'
     });

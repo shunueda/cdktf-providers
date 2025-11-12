@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/glueckkanja-gab/aztools/0.0.7/docs
+// https://registry.terraform.io/providers/glueckkanja-gab/aztools/0.0.4/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,69 +8,43 @@ import * as cdktf from 'cdktf';
 
 export interface AztoolsProviderConfig {
   /**
-  * Default convention for all naming results. Possible values 'default', 'passthrough'. Default 'default'
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glueckkanja-gab/aztools/0.0.7/docs#convention AztoolsProvider#convention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glueckkanja-gab/aztools/0.0.4/docs#convention AztoolsProvider#convention}
   */
   readonly convention?: string;
   /**
-  * Environment parameter. Default 'sandbox'
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glueckkanja-gab/aztools/0.0.7/docs#environment AztoolsProvider#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glueckkanja-gab/aztools/0.0.4/docs#environment AztoolsProvider#environment}
   */
   readonly environment?: string;
   /**
-  * Default hash length for resource schema. Overrrides all naminng schema configurations defined in json files.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glueckkanja-gab/aztools/0.0.7/docs#hash_length AztoolsProvider#hash_length}
-  */
-  readonly hashLength?: number;
-  /**
-  * Namig result formating. Default 'false'
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glueckkanja-gab/aztools/0.0.7/docs#lowercase AztoolsProvider#lowercase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glueckkanja-gab/aztools/0.0.4/docs#lowercase AztoolsProvider#lowercase}
   */
   readonly lowercase?: boolean | cdktf.IResolvable;
   /**
-  * Path to the config file.
+  * Path to the config file, defaults to ./schema.locations.json
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glueckkanja-gab/aztools/0.0.7/docs#schema_locations_path AztoolsProvider#schema_locations_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glueckkanja-gab/aztools/0.0.4/docs#schema_locations_path AztoolsProvider#schema_locations_path}
   */
   readonly schemaLocationsPath?: string;
   /**
-  * Url to the config file.
+  * Path to the config file, defaults to ./schema.naming.json
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glueckkanja-gab/aztools/0.0.7/docs#schema_locations_url AztoolsProvider#schema_locations_url}
-  */
-  readonly schemaLocationsUrl?: string;
-  /**
-  * Path to the config file.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glueckkanja-gab/aztools/0.0.7/docs#schema_naming_path AztoolsProvider#schema_naming_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glueckkanja-gab/aztools/0.0.4/docs#schema_naming_path AztoolsProvider#schema_naming_path}
   */
   readonly schemaNamingPath?: string;
   /**
-  * Path to the config file.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glueckkanja-gab/aztools/0.0.7/docs#schema_naming_url AztoolsProvider#schema_naming_url}
-  */
-  readonly schemaNamingUrl?: string;
-  /**
-  * Naming schema separator. Default '-'
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glueckkanja-gab/aztools/0.0.7/docs#separator AztoolsProvider#separator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glueckkanja-gab/aztools/0.0.4/docs#separator AztoolsProvider#separator}
   */
   readonly separator?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glueckkanja-gab/aztools/0.0.7/docs#alias AztoolsProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glueckkanja-gab/aztools/0.0.4/docs#alias AztoolsProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/glueckkanja-gab/aztools/0.0.7/docs aztools}
+* Represents a {@link https://registry.terraform.io/providers/glueckkanja-gab/aztools/0.0.4/docs aztools}
 */
 export class AztoolsProvider extends cdktf.TerraformProvider {
 
@@ -86,7 +60,7 @@ export class AztoolsProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a AztoolsProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AztoolsProvider to import
-  * @param importFromId The id of the existing AztoolsProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/glueckkanja-gab/aztools/0.0.7/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AztoolsProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/glueckkanja-gab/aztools/0.0.4/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AztoolsProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -98,7 +72,7 @@ export class AztoolsProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/glueckkanja-gab/aztools/0.0.7/docs aztools} Resource
+  * Create a new {@link https://registry.terraform.io/providers/glueckkanja-gab/aztools/0.0.4/docs aztools} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -109,18 +83,16 @@ export class AztoolsProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'aztools',
       terraformGeneratorMetadata: {
         providerName: 'aztools',
-        providerVersion: '0.0.7'
+        providerVersion: '0.0.4',
+        providerVersionConstraint: '0.0.4'
       },
       terraformProviderSource: 'glueckkanja-gab/aztools'
     });
     this._convention = config.convention;
     this._environment = config.environment;
-    this._hashLength = config.hashLength;
     this._lowercase = config.lowercase;
     this._schemaLocationsPath = config.schemaLocationsPath;
-    this._schemaLocationsUrl = config.schemaLocationsUrl;
     this._schemaNamingPath = config.schemaNamingPath;
-    this._schemaNamingUrl = config.schemaNamingUrl;
     this._separator = config.separator;
     this._alias = config.alias;
   }
@@ -161,22 +133,6 @@ export class AztoolsProvider extends cdktf.TerraformProvider {
     return this._environment;
   }
 
-  // hash_length - computed: false, optional: true, required: false
-  private _hashLength?: number; 
-  public get hashLength() {
-    return this._hashLength;
-  }
-  public set hashLength(value: number | undefined) {
-    this._hashLength = value;
-  }
-  public resetHashLength() {
-    this._hashLength = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get hashLengthInput() {
-    return this._hashLength;
-  }
-
   // lowercase - computed: false, optional: true, required: false
   private _lowercase?: boolean | cdktf.IResolvable; 
   public get lowercase() {
@@ -209,22 +165,6 @@ export class AztoolsProvider extends cdktf.TerraformProvider {
     return this._schemaLocationsPath;
   }
 
-  // schema_locations_url - computed: false, optional: true, required: false
-  private _schemaLocationsUrl?: string; 
-  public get schemaLocationsUrl() {
-    return this._schemaLocationsUrl;
-  }
-  public set schemaLocationsUrl(value: string | undefined) {
-    this._schemaLocationsUrl = value;
-  }
-  public resetSchemaLocationsUrl() {
-    this._schemaLocationsUrl = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get schemaLocationsUrlInput() {
-    return this._schemaLocationsUrl;
-  }
-
   // schema_naming_path - computed: false, optional: true, required: false
   private _schemaNamingPath?: string; 
   public get schemaNamingPath() {
@@ -239,22 +179,6 @@ export class AztoolsProvider extends cdktf.TerraformProvider {
   // Temporarily expose input value. Use with caution.
   public get schemaNamingPathInput() {
     return this._schemaNamingPath;
-  }
-
-  // schema_naming_url - computed: false, optional: true, required: false
-  private _schemaNamingUrl?: string; 
-  public get schemaNamingUrl() {
-    return this._schemaNamingUrl;
-  }
-  public set schemaNamingUrl(value: string | undefined) {
-    this._schemaNamingUrl = value;
-  }
-  public resetSchemaNamingUrl() {
-    this._schemaNamingUrl = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get schemaNamingUrlInput() {
-    return this._schemaNamingUrl;
   }
 
   // separator - computed: false, optional: true, required: false
@@ -297,12 +221,9 @@ export class AztoolsProvider extends cdktf.TerraformProvider {
     return {
       convention: cdktf.stringToTerraform(this._convention),
       environment: cdktf.stringToTerraform(this._environment),
-      hash_length: cdktf.numberToTerraform(this._hashLength),
       lowercase: cdktf.booleanToTerraform(this._lowercase),
       schema_locations_path: cdktf.stringToTerraform(this._schemaLocationsPath),
-      schema_locations_url: cdktf.stringToTerraform(this._schemaLocationsUrl),
       schema_naming_path: cdktf.stringToTerraform(this._schemaNamingPath),
-      schema_naming_url: cdktf.stringToTerraform(this._schemaNamingUrl),
       separator: cdktf.stringToTerraform(this._separator),
       alias: cdktf.stringToTerraform(this._alias),
     };
@@ -322,12 +243,6 @@ export class AztoolsProvider extends cdktf.TerraformProvider {
         type: "simple",
         storageClassType: "string",
       },
-      hash_length: {
-        value: cdktf.numberToHclTerraform(this._hashLength),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "number",
-      },
       lowercase: {
         value: cdktf.booleanToHclTerraform(this._lowercase),
         isBlock: false,
@@ -340,20 +255,8 @@ export class AztoolsProvider extends cdktf.TerraformProvider {
         type: "simple",
         storageClassType: "string",
       },
-      schema_locations_url: {
-        value: cdktf.stringToHclTerraform(this._schemaLocationsUrl),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
       schema_naming_path: {
         value: cdktf.stringToHclTerraform(this._schemaNamingPath),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
-      schema_naming_url: {
-        value: cdktf.stringToHclTerraform(this._schemaNamingUrl),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

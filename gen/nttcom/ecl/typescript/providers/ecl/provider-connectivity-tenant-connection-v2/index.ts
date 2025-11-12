@@ -1208,7 +1208,8 @@ export class ProviderConnectivityTenantConnectionV2 extends cdktf.TerraformResou
       terraformResourceType: 'ecl_provider_connectivity_tenant_connection_v2',
       terraformGeneratorMetadata: {
         providerName: 'ecl',
-        providerVersion: '2.12.1'
+        providerVersion: '2.12.1',
+        providerVersionConstraint: '2.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

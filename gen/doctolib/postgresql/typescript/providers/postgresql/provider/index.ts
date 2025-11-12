@@ -241,7 +241,8 @@ export class PostgresqlProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'postgresql',
       terraformGeneratorMetadata: {
         providerName: 'postgresql',
-        providerVersion: '2.26.2'
+        providerVersion: '2.26.2',
+        providerVersionConstraint: '2.26.2'
       },
       terraformProviderSource: 'doctolib/postgresql'
     });

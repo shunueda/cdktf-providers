@@ -98,7 +98,8 @@ export class DbaasLogsOutputOpensearchAlias extends cdktf.TerraformResource {
       terraformResourceType: 'ovh_dbaas_logs_output_opensearch_alias',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0'
+        providerVersion: '2.9.0',
+        providerVersionConstraint: '2.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

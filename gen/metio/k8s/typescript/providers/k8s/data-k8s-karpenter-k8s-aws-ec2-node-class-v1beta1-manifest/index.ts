@@ -2069,7 +2069,8 @@ export class DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest extends cdktf.Ter
       terraformResourceType: 'k8s_karpenter_k8s_aws_ec2_node_class_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

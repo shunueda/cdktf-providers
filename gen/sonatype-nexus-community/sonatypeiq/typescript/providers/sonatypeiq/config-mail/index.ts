@@ -97,7 +97,8 @@ export class ConfigMail extends cdktf.TerraformResource {
       terraformResourceType: 'sonatypeiq_config_mail',
       terraformGeneratorMetadata: {
         providerName: 'sonatypeiq',
-        providerVersion: '0.12.1'
+        providerVersion: '0.12.1',
+        providerVersionConstraint: '0.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

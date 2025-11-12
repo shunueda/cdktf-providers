@@ -607,7 +607,8 @@ export class DataOciAiLanguageModelEvaluationResultsA extends cdktf.TerraformDat
       terraformResourceType: 'oci_ai_language_model_evaluation_results',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

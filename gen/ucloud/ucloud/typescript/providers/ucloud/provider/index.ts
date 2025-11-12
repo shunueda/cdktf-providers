@@ -192,7 +192,8 @@ export class UcloudProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'ucloud',
       terraformGeneratorMetadata: {
         providerName: 'ucloud',
-        providerVersion: '1.39.1'
+        providerVersion: '1.39.1',
+        providerVersionConstraint: '1.39.1'
       },
       terraformProviderSource: 'ucloud/ucloud'
     });

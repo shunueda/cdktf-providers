@@ -774,7 +774,8 @@ export class DataK8SSchemasSchemaheroIoDataTypeV1Alpha4Manifest extends cdktf.Te
       terraformResourceType: 'k8s_schemas_schemahero_io_data_type_v1alpha4_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

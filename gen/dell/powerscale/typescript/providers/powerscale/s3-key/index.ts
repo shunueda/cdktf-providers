@@ -67,7 +67,8 @@ export class S3Key extends cdktf.TerraformResource {
       terraformResourceType: 'powerscale_s3_key',
       terraformGeneratorMetadata: {
         providerName: 'powerscale',
-        providerVersion: '1.8.0'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

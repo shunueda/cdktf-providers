@@ -49,7 +49,8 @@ export class DataPingfederateLicenseAgreement extends cdktf.TerraformDataSource 
       terraformResourceType: 'pingfederate_license_agreement',
       terraformGeneratorMetadata: {
         providerName: 'pingfederate',
-        providerVersion: '1.6.2'
+        providerVersion: '1.6.2',
+        providerVersionConstraint: '1.6.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

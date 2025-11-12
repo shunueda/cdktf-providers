@@ -62,7 +62,8 @@ export class DataAlkiraConnectorAzureExpressroute extends cdktf.TerraformDataSou
       terraformResourceType: 'alkira_connector_azure_expressroute',
       terraformGeneratorMetadata: {
         providerName: 'alkira',
-        providerVersion: '1.3.2'
+        providerVersion: '1.3.2',
+        providerVersionConstraint: '1.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

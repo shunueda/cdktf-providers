@@ -55,7 +55,8 @@ export class DataJupiteroneCustomIntegrationDefinition extends cdktf.TerraformDa
       terraformResourceType: 'jupiterone_custom_integration_definition',
       terraformGeneratorMetadata: {
         providerName: 'jupiterone',
-        providerVersion: '1.16.3'
+        providerVersion: '1.16.3',
+        providerVersionConstraint: '1.16.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

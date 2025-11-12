@@ -1234,7 +1234,8 @@ export class DataK8SAcmpcaServicesK8SAwsCertificateAuthorityActivationV1Alpha1Ma
       terraformResourceType: 'k8s_acmpca_services_k8s_aws_certificate_authority_activation_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

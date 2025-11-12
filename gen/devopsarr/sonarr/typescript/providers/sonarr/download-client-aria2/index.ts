@@ -115,7 +115,8 @@ export class DownloadClientAria2 extends cdktf.TerraformResource {
       terraformResourceType: 'sonarr_download_client_aria2',
       terraformGeneratorMetadata: {
         providerName: 'sonarr',
-        providerVersion: '3.4.0'
+        providerVersion: '3.4.0',
+        providerVersionConstraint: '3.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1601,7 +1601,8 @@ export class PnpVirtualAccountDevicesSync extends cdktf.TerraformResource {
       terraformResourceType: 'dnacenter_pnp_virtual_account_devices_sync',
       terraformGeneratorMetadata: {
         providerName: 'dnacenter',
-        providerVersion: '1.1.21'
+        providerVersion: '1.1.21',
+        providerVersionConstraint: '1.1.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

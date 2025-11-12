@@ -55,7 +55,8 @@ export class DataPingdirectoryPasswordPolicy extends cdktf.TerraformDataSource {
       terraformResourceType: 'pingdirectory_password_policy',
       terraformGeneratorMetadata: {
         providerName: 'pingdirectory',
-        providerVersion: '1.5.0'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

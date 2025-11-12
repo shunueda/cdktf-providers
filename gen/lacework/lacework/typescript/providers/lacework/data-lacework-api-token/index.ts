@@ -56,7 +56,8 @@ export class DataLaceworkApiToken extends cdktf.TerraformDataSource {
       terraformResourceType: 'lacework_api_token',
       terraformGeneratorMetadata: {
         providerName: 'lacework',
-        providerVersion: '2.0.10'
+        providerVersion: '2.0.10',
+        providerVersionConstraint: '2.0.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

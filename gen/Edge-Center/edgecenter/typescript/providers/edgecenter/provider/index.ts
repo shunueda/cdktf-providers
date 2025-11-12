@@ -129,7 +129,8 @@ export class EdgecenterProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'edgecenter',
       terraformGeneratorMetadata: {
         providerName: 'edgecenter',
-        providerVersion: '0.10.4'
+        providerVersion: '0.10.4',
+        providerVersionConstraint: '0.10.4'
       },
       terraformProviderSource: 'Edge-Center/edgecenter'
     });

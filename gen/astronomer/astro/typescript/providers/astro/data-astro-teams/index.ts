@@ -639,7 +639,8 @@ export class DataAstroTeams extends cdktf.TerraformDataSource {
       terraformResourceType: 'astro_teams',
       terraformGeneratorMetadata: {
         providerName: 'astro',
-        providerVersion: '1.0.8'
+        providerVersion: '1.0.8',
+        providerVersionConstraint: '1.0.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

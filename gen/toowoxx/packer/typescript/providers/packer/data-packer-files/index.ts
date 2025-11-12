@@ -67,7 +67,8 @@ export class DataPackerFiles extends cdktf.TerraformDataSource {
       terraformResourceType: 'packer_files',
       terraformGeneratorMetadata: {
         providerName: 'packer',
-        providerVersion: '0.17.2'
+        providerVersion: '0.17.2',
+        providerVersionConstraint: '0.17.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

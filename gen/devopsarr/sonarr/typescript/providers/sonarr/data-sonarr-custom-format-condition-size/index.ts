@@ -79,7 +79,8 @@ export class DataSonarrCustomFormatConditionSize extends cdktf.TerraformDataSour
       terraformResourceType: 'sonarr_custom_format_condition_size',
       terraformGeneratorMetadata: {
         providerName: 'sonarr',
-        providerVersion: '3.4.0'
+        providerVersion: '3.4.0',
+        providerVersionConstraint: '3.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

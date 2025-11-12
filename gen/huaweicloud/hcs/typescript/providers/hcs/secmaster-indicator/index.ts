@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/secmaster_indicator
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_indicator
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface SecmasterIndicatorConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specifies the confidence of the indicator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/secmaster_indicator#confidence SecmasterIndicator#confidence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_indicator#confidence SecmasterIndicator#confidence}
   */
   readonly confidence: number;
   /**
   * Specifies the first occurrence time of the indicator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/secmaster_indicator#first_occurrence_time SecmasterIndicator#first_occurrence_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_indicator#first_occurrence_time SecmasterIndicator#first_occurrence_time}
   */
   readonly firstOccurrenceTime: string;
   /**
   * Specifies the granularity of the indicator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/secmaster_indicator#granularity SecmasterIndicator#granularity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_indicator#granularity SecmasterIndicator#granularity}
   */
   readonly granularity: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/secmaster_indicator#id SecmasterIndicator#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_indicator#id SecmasterIndicator#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,65 +35,65 @@ export interface SecmasterIndicatorConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specifies whether the indicator is invalid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/secmaster_indicator#invalid SecmasterIndicator#invalid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_indicator#invalid SecmasterIndicator#invalid}
   */
   readonly invalid?: boolean | cdktf.IResolvable;
   /**
   * Specifies the labels of the indicator in comma-separated string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/secmaster_indicator#labels SecmasterIndicator#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_indicator#labels SecmasterIndicator#labels}
   */
   readonly labels?: string;
   /**
   * Specifies the last occurrence time of the indicator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/secmaster_indicator#last_occurrence_time SecmasterIndicator#last_occurrence_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_indicator#last_occurrence_time SecmasterIndicator#last_occurrence_time}
   */
   readonly lastOccurrenceTime: string;
   /**
   * Specifies the indicator name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/secmaster_indicator#name SecmasterIndicator#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_indicator#name SecmasterIndicator#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/secmaster_indicator#region SecmasterIndicator#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_indicator#region SecmasterIndicator#region}
   */
   readonly region?: string;
   /**
   * Specifies the indicator status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/secmaster_indicator#status SecmasterIndicator#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_indicator#status SecmasterIndicator#status}
   */
   readonly status: string;
   /**
   * Specifies the indicator type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/secmaster_indicator#threat_degree SecmasterIndicator#threat_degree}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_indicator#threat_degree SecmasterIndicator#threat_degree}
   */
   readonly threatDegree: string;
   /**
   * Specifies the value of the indicator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/secmaster_indicator#value SecmasterIndicator#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_indicator#value SecmasterIndicator#value}
   */
   readonly value: string;
   /**
   * Specifies the ID of the workspace to which the indicator belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/secmaster_indicator#workspace_id SecmasterIndicator#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_indicator#workspace_id SecmasterIndicator#workspace_id}
   */
   readonly workspaceId: string;
   /**
   * data_source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/secmaster_indicator#data_source SecmasterIndicator#data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_indicator#data_source SecmasterIndicator#data_source}
   */
   readonly dataSource: SecmasterIndicatorDataSource;
   /**
   * type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/secmaster_indicator#type SecmasterIndicator#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_indicator#type SecmasterIndicator#type}
   */
   readonly type: SecmasterIndicatorType;
 }
@@ -101,19 +101,19 @@ export interface SecmasterIndicatorDataSource {
   /**
   * Specifies the product feature.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/secmaster_indicator#product_feature SecmasterIndicator#product_feature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_indicator#product_feature SecmasterIndicator#product_feature}
   */
   readonly productFeature: string;
   /**
   * Specifies the product name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/secmaster_indicator#product_name SecmasterIndicator#product_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_indicator#product_name SecmasterIndicator#product_name}
   */
   readonly productName: string;
   /**
   * Specifies the data source type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/secmaster_indicator#source_type SecmasterIndicator#source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_indicator#source_type SecmasterIndicator#source_type}
   */
   readonly sourceType: number;
 }
@@ -248,13 +248,13 @@ export interface SecmasterIndicatorType {
   /**
   * Specifies the category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/secmaster_indicator#category SecmasterIndicator#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_indicator#category SecmasterIndicator#category}
   */
   readonly category: string;
   /**
   * Specifies the indicator type ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/secmaster_indicator#id SecmasterIndicator#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_indicator#id SecmasterIndicator#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -263,7 +263,7 @@ export interface SecmasterIndicatorType {
   /**
   * Specifies the indicator type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/secmaster_indicator#indicator_type SecmasterIndicator#indicator_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_indicator#indicator_type SecmasterIndicator#indicator_type}
   */
   readonly indicatorType: string;
 }
@@ -396,7 +396,7 @@ export class SecmasterIndicatorTypeOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/secmaster_indicator hcs_secmaster_indicator}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_indicator hcs_secmaster_indicator}
 */
 export class SecmasterIndicator extends cdktf.TerraformResource {
 
@@ -412,7 +412,7 @@ export class SecmasterIndicator extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecmasterIndicator resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecmasterIndicator to import
-  * @param importFromId The id of the existing SecmasterIndicator that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/secmaster_indicator#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecmasterIndicator that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_indicator#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecmasterIndicator to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -424,7 +424,7 @@ export class SecmasterIndicator extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/secmaster_indicator hcs_secmaster_indicator} Resource
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_indicator hcs_secmaster_indicator} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -435,7 +435,8 @@ export class SecmasterIndicator extends cdktf.TerraformResource {
       terraformResourceType: 'hcs_secmaster_indicator',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.19'
+        providerVersion: '2.4.20',
+        providerVersionConstraint: '2.4.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

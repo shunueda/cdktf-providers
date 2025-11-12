@@ -1080,7 +1080,8 @@ export class DataK8SNetworkfirewallServicesK8SAwsFirewallV1Alpha1Manifest extend
       terraformResourceType: 'k8s_networkfirewall_services_k8s_aws_firewall_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

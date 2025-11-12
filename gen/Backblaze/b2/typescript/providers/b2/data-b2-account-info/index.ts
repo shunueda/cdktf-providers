@@ -146,7 +146,8 @@ export class DataB2AccountInfo extends cdktf.TerraformDataSource {
       terraformResourceType: 'b2_account_info',
       terraformGeneratorMetadata: {
         providerName: 'b2',
-        providerVersion: '0.10.0'
+        providerVersion: '0.10.0',
+        providerVersionConstraint: '0.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

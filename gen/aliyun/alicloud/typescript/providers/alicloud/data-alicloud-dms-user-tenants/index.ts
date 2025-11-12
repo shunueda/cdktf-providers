@@ -158,7 +158,8 @@ export class DataAlicloudDmsUserTenants extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_dms_user_tenants',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

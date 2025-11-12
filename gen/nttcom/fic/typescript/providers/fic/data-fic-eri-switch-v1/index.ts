@@ -152,7 +152,8 @@ export class DataFicEriSwitchV1 extends cdktf.TerraformDataSource {
       terraformResourceType: 'fic_eri_switch_v1',
       terraformGeneratorMetadata: {
         providerName: 'fic',
-        providerVersion: '0.5.6'
+        providerVersion: '0.5.6',
+        providerVersionConstraint: '0.5.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

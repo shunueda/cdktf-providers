@@ -100,7 +100,8 @@ export class Name extends cdktf.TerraformResource {
       terraformResourceType: 'azurecaf_name',
       terraformGeneratorMetadata: {
         providerName: 'azurecaf',
-        providerVersion: '1.2.31'
+        providerVersion: '1.2.31',
+        providerVersionConstraint: '1.2.31'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

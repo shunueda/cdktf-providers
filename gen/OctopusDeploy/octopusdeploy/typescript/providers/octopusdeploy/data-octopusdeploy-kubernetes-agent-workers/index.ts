@@ -260,7 +260,8 @@ export class DataOctopusdeployKubernetesAgentWorkers extends cdktf.TerraformData
       terraformResourceType: 'octopusdeploy_kubernetes_agent_workers',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.4.0'
+        providerVersion: '1.4.0',
+        providerVersionConstraint: '1.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/module
+// https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/module
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,150 +10,150 @@ export interface ModuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Indicates whether this module can manage others. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/module#administrative Module#administrative}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/module#administrative Module#administrative}
   */
   readonly administrative?: boolean | cdktf.IResolvable;
   /**
   * GitHub branch to apply changes to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/module#branch Module#branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/module#branch Module#branch}
   */
   readonly branch: string;
   /**
   * Free-form module description for users
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/module#description Module#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/module#description Module#description}
   */
   readonly description?: string;
   /**
   * Indicates whether local preview versions can be triggered on this Module. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/module#enable_local_preview Module#enable_local_preview}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/module#enable_local_preview Module#enable_local_preview}
   */
   readonly enableLocalPreview?: boolean | cdktf.IResolvable;
   /**
   * Git sparse checkout paths is an optional list of paths to use for sparse checkout. If not set, the entire repository will be checked out.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/module#git_sparse_checkout_paths Module#git_sparse_checkout_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/module#git_sparse_checkout_paths Module#git_sparse_checkout_paths}
   */
   readonly gitSparseCheckoutPaths?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/module#id Module#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/module#id Module#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/module#labels Module#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/module#labels Module#labels}
   */
   readonly labels?: string[];
   /**
   * The module name will by default be inferred from the repository name if it follows the terraform-provider-name naming convention. However, if the repository doesn't follow this convention, or you want to give it a custom name, you can provide it here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/module#name Module#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/module#name Module#name}
   */
   readonly name?: string;
   /**
   * Project root is the optional directory relative to the repository root containing the module source code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/module#project_root Module#project_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/module#project_root Module#project_root}
   */
   readonly projectRoot?: string;
   /**
   * Protect this module from accidental deletion. If set, attempts to delete this module will fail. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/module#protect_from_deletion Module#protect_from_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/module#protect_from_deletion Module#protect_from_deletion}
   */
   readonly protectFromDeletion?: boolean | cdktf.IResolvable;
   /**
   * Make this module publicly accessible. Can only be set at creation time. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/module#public Module#public}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/module#public Module#public}
   */
   readonly public?: boolean | cdktf.IResolvable;
   /**
   * Name of the repository, without the owner part
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/module#repository Module#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/module#repository Module#repository}
   */
   readonly repository: string;
   /**
   * Name of the Docker image used to process Runs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/module#runner_image Module#runner_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/module#runner_image Module#runner_image}
   */
   readonly runnerImage?: string;
   /**
   * List of the accounts (subdomains) which should have access to the Module
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/module#shared_accounts Module#shared_accounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/module#shared_accounts Module#shared_accounts}
   */
   readonly sharedAccounts?: string[];
   /**
   * ID (slug) of the space the module is in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/module#space_id Module#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/module#space_id Module#space_id}
   */
   readonly spaceId?: string;
   /**
   * (Beta) List of the space IDs which should have access to the Module
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/module#space_shares Module#space_shares}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/module#space_shares Module#space_shares}
   */
   readonly spaceShares?: string[];
   /**
   * The module provider will by default be inferred from the repository name if it follows the terraform-provider-name naming convention. However, if the repository doesn't follow this convention, or you gave the module a custom name, you can provide the provider name here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/module#terraform_provider Module#terraform_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/module#terraform_provider Module#terraform_provider}
   */
   readonly terraformProvider?: string;
   /**
   * ID of the worker pool to use. NOTE: worker_pool_id is required when using a self-hosted instance of Spacelift.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/module#worker_pool_id Module#worker_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/module#worker_pool_id Module#worker_pool_id}
   */
   readonly workerPoolId?: string;
   /**
   * Defines the tool that will be used to execute the workflow. This can be one of `OPEN_TOFU`, `TERRAFORM_FOSS` or `CUSTOM`. Defaults to `TERRAFORM_FOSS`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/module#workflow_tool Module#workflow_tool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/module#workflow_tool Module#workflow_tool}
   */
   readonly workflowTool?: string;
   /**
   * azure_devops block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/module#azure_devops Module#azure_devops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/module#azure_devops Module#azure_devops}
   */
   readonly azureDevops?: ModuleAzureDevops;
   /**
   * bitbucket_cloud block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/module#bitbucket_cloud Module#bitbucket_cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/module#bitbucket_cloud Module#bitbucket_cloud}
   */
   readonly bitbucketCloud?: ModuleBitbucketCloud;
   /**
   * bitbucket_datacenter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/module#bitbucket_datacenter Module#bitbucket_datacenter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/module#bitbucket_datacenter Module#bitbucket_datacenter}
   */
   readonly bitbucketDatacenter?: ModuleBitbucketDatacenter;
   /**
   * github_enterprise block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/module#github_enterprise Module#github_enterprise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/module#github_enterprise Module#github_enterprise}
   */
   readonly githubEnterprise?: ModuleGithubEnterprise;
   /**
   * gitlab block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/module#gitlab Module#gitlab}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/module#gitlab Module#gitlab}
   */
   readonly gitlab?: ModuleGitlab;
   /**
   * raw_git block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/module#raw_git Module#raw_git}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/module#raw_git Module#raw_git}
   */
   readonly rawGit?: ModuleRawGit;
 }
@@ -161,7 +161,7 @@ export interface ModuleAzureDevops {
   /**
   * ID of the Azure Devops integration. If not specified, the default integration will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/module#id Module#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/module#id Module#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -170,7 +170,7 @@ export interface ModuleAzureDevops {
   /**
   * The name of the Azure DevOps project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/module#project Module#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/module#project Module#project}
   */
   readonly project: string;
 }
@@ -287,7 +287,7 @@ export interface ModuleBitbucketCloud {
   /**
   * The ID of the Bitbucket Cloud integration. If not specified, the default integration will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/module#id Module#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/module#id Module#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -296,7 +296,7 @@ export interface ModuleBitbucketCloud {
   /**
   * The Bitbucket project containing the repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/module#namespace Module#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/module#namespace Module#namespace}
   */
   readonly namespace: string;
 }
@@ -413,7 +413,7 @@ export interface ModuleBitbucketDatacenter {
   /**
   * The ID of the Bitbucket Datacenter integration. If not specified, the default integration will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/module#id Module#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/module#id Module#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -422,7 +422,7 @@ export interface ModuleBitbucketDatacenter {
   /**
   * The Bitbucket project containing the repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/module#namespace Module#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/module#namespace Module#namespace}
   */
   readonly namespace: string;
 }
@@ -539,7 +539,7 @@ export interface ModuleGithubEnterprise {
   /**
   * The ID of the GitHub Enterprise integration. If not specified, the default integration will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/module#id Module#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/module#id Module#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -548,7 +548,7 @@ export interface ModuleGithubEnterprise {
   /**
   * The GitHub organization / user the repository belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/module#namespace Module#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/module#namespace Module#namespace}
   */
   readonly namespace: string;
 }
@@ -665,7 +665,7 @@ export interface ModuleGitlab {
   /**
   * ID of the Gitlab integration. If not specified, the default integration will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/module#id Module#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/module#id Module#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -674,7 +674,7 @@ export interface ModuleGitlab {
   /**
   * The GitLab namespace containing the repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/module#namespace Module#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/module#namespace Module#namespace}
   */
   readonly namespace: string;
 }
@@ -791,13 +791,13 @@ export interface ModuleRawGit {
   /**
   * User-friendly namespace for the repository, this is for cosmetic purposes only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/module#namespace Module#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/module#namespace Module#namespace}
   */
   readonly namespace: string;
   /**
   * HTTPS URL of the Git repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/module#url Module#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/module#url Module#url}
   */
   readonly url: string;
 }
@@ -904,7 +904,7 @@ export class ModuleRawGitOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/module spacelift_module}
+* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/module spacelift_module}
 */
 export class Module extends cdktf.TerraformResource {
 
@@ -920,7 +920,7 @@ export class Module extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Module resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Module to import
-  * @param importFromId The id of the existing Module that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/module#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Module that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/module#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Module to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -932,7 +932,7 @@ export class Module extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/module spacelift_module} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/module spacelift_module} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -943,7 +943,8 @@ export class Module extends cdktf.TerraformResource {
       terraformResourceType: 'spacelift_module',
       terraformGeneratorMetadata: {
         providerName: 'spacelift',
-        providerVersion: '1.36.0'
+        providerVersion: '1.37.0',
+        providerVersionConstraint: '1.37.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

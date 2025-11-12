@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/resources/server_network
+// https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/server_network
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,36 +8,39 @@ import * as cdktf from 'cdktf';
 
 export interface ServerNetworkAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/resources/server_network#alias_ips ServerNetworkA#alias_ips}
+  * Additional IPs to assign to the Server.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/server_network#alias_ips ServerNetworkA#alias_ips}
   */
   readonly aliasIps?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/resources/server_network#id ServerNetworkA#id}
+  * IP to assign to the Server.
   *
-  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
-  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
-  */
-  readonly id?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/resources/server_network#ip ServerNetworkA#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/server_network#ip ServerNetworkA#ip}
   */
   readonly ip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/resources/server_network#network_id ServerNetworkA#network_id}
+  * ID of the Network to attach the Server to. Using `subnet_id` is preferred. Required if `subnet_id` is not set. If `subnet_id` or `ip` are not set, the Server will be attached to the last subnet (ordered by `ip_range`).
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/server_network#network_id ServerNetworkA#network_id}
   */
   readonly networkId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/resources/server_network#server_id ServerNetworkA#server_id}
+  * ID of the Server.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/server_network#server_id ServerNetworkA#server_id}
   */
   readonly serverId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/resources/server_network#subnet_id ServerNetworkA#subnet_id}
+  * ID of the Subnet to attach the Server to. Required if `network_id` is not set.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/server_network#subnet_id ServerNetworkA#subnet_id}
   */
   readonly subnetId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/resources/server_network hcloud_server_network}
+* Represents a {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/server_network hcloud_server_network}
 */
 export class ServerNetworkA extends cdktf.TerraformResource {
 
@@ -53,7 +56,7 @@ export class ServerNetworkA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServerNetworkA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServerNetworkA to import
-  * @param importFromId The id of the existing ServerNetworkA that should be imported. Refer to the {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/resources/server_network#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServerNetworkA that should be imported. Refer to the {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/server_network#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServerNetworkA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -65,7 +68,7 @@ export class ServerNetworkA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/resources/server_network hcloud_server_network} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/server_network hcloud_server_network} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -76,7 +79,8 @@ export class ServerNetworkA extends cdktf.TerraformResource {
       terraformResourceType: 'hcloud_server_network',
       terraformGeneratorMetadata: {
         providerName: 'hcloud',
-        providerVersion: '1.55.0'
+        providerVersion: '1.56.0',
+        providerVersionConstraint: '1.56.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -87,7 +91,6 @@ export class ServerNetworkA extends cdktf.TerraformResource {
       forEach: config.forEach
     });
     this._aliasIps = config.aliasIps;
-    this._id = config.id;
     this._ip = config.ip;
     this._networkId = config.networkId;
     this._serverId = config.serverId;
@@ -98,7 +101,7 @@ export class ServerNetworkA extends cdktf.TerraformResource {
   // ATTRIBUTES
   // ==========
 
-  // alias_ips - computed: false, optional: true, required: false
+  // alias_ips - computed: true, optional: true, required: false
   private _aliasIps?: string[]; 
   public get aliasIps() {
     return cdktf.Fn.tolist(this.getListAttribute('alias_ips'));
@@ -114,20 +117,9 @@ export class ServerNetworkA extends cdktf.TerraformResource {
     return this._aliasIps;
   }
 
-  // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  // id - computed: true, optional: false, required: false
   public get id() {
     return this.getStringAttribute('id');
-  }
-  public set id(value: string) {
-    this._id = value;
-  }
-  public resetId() {
-    this._id = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get idInput() {
-    return this._id;
   }
 
   // ip - computed: true, optional: true, required: false
@@ -151,7 +143,7 @@ export class ServerNetworkA extends cdktf.TerraformResource {
     return this.getStringAttribute('mac_address');
   }
 
-  // network_id - computed: false, optional: true, required: false
+  // network_id - computed: true, optional: true, required: false
   private _networkId?: number; 
   public get networkId() {
     return this.getNumberAttribute('network_id');
@@ -203,7 +195,6 @@ export class ServerNetworkA extends cdktf.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       alias_ips: cdktf.listMapper(cdktf.stringToTerraform, false)(this._aliasIps),
-      id: cdktf.stringToTerraform(this._id),
       ip: cdktf.stringToTerraform(this._ip),
       network_id: cdktf.numberToTerraform(this._networkId),
       server_id: cdktf.numberToTerraform(this._serverId),
@@ -218,12 +209,6 @@ export class ServerNetworkA extends cdktf.TerraformResource {
         isBlock: false,
         type: "set",
         storageClassType: "stringList",
-      },
-      id: {
-        value: cdktf.stringToHclTerraform(this._id),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
       },
       ip: {
         value: cdktf.stringToHclTerraform(this._ip),

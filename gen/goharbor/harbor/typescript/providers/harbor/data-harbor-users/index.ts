@@ -164,7 +164,8 @@ export class DataHarborUsers extends cdktf.TerraformDataSource {
       terraformResourceType: 'harbor_users',
       terraformGeneratorMetadata: {
         providerName: 'harbor',
-        providerVersion: '3.11.2'
+        providerVersion: '3.11.2',
+        providerVersionConstraint: '3.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

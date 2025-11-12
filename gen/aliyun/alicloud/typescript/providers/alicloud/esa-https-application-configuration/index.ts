@@ -298,7 +298,8 @@ export class EsaHttpsApplicationConfiguration extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_esa_https_application_configuration',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

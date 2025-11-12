@@ -288,7 +288,8 @@ export class CloudAccount extends cdktf.TerraformResource {
       terraformResourceType: 'ciscomcd_cloud_account',
       terraformGeneratorMetadata: {
         providerName: 'ciscomcd',
-        providerVersion: '25.9.2'
+        providerVersion: '25.9.2',
+        providerVersionConstraint: '25.9.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

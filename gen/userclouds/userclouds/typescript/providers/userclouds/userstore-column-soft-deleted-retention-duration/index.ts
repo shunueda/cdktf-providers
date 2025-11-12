@@ -322,7 +322,8 @@ export class UserstoreColumnSoftDeletedRetentionDuration extends cdktf.Terraform
       terraformResourceType: 'userclouds_userstore_column_soft_deleted_retention_duration',
       terraformGeneratorMetadata: {
         providerName: 'userclouds',
-        providerVersion: '0.1.8'
+        providerVersion: '0.1.8',
+        providerVersionConstraint: '0.1.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

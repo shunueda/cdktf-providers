@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_migrate_export_domain
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_migrate_export_domain
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ManagementMigrateExportDomainConfig extends cdktf.TerraformMeta
   /**
   * Domain can be identified by name or UID.<br><font color="red">Required only for</font> exporting domain from Multi-Domain Server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_migrate_export_domain#domain ManagementMigrateExportDomain#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_migrate_export_domain#domain ManagementMigrateExportDomain#domain}
   */
   readonly domain: string;
   /**
   * Path in which the exported domain data will be saved. <br>Should be the directory path or the full file path with ".tgz" <br>If no path was inserted the default will be: "/var/log/&lt;domain name&gt;_&lt;date&gt;.tgz".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_migrate_export_domain#file_path ManagementMigrateExportDomain#file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_migrate_export_domain#file_path ManagementMigrateExportDomain#file_path}
   */
   readonly filePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_migrate_export_domain#id ManagementMigrateExportDomain#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_migrate_export_domain#id ManagementMigrateExportDomain#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,13 +29,13 @@ export interface ManagementMigrateExportDomainConfig extends cdktf.TerraformMeta
   /**
   * Export logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_migrate_export_domain#include_logs ManagementMigrateExportDomain#include_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_migrate_export_domain#include_logs ManagementMigrateExportDomain#include_logs}
   */
   readonly includeLogs?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_migrate_export_domain checkpoint_management_migrate_export_domain}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_migrate_export_domain checkpoint_management_migrate_export_domain}
 */
 export class ManagementMigrateExportDomain extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class ManagementMigrateExportDomain extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementMigrateExportDomain resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementMigrateExportDomain to import
-  * @param importFromId The id of the existing ManagementMigrateExportDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_migrate_export_domain#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementMigrateExportDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_migrate_export_domain#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementMigrateExportDomain to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class ManagementMigrateExportDomain extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_migrate_export_domain checkpoint_management_migrate_export_domain} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_migrate_export_domain checkpoint_management_migrate_export_domain} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,7 +74,8 @@ export class ManagementMigrateExportDomain extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_migrate_export_domain',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

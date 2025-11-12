@@ -363,7 +363,8 @@ export class DataSecretsmanagerBankCard extends cdktf.TerraformDataSource {
       terraformResourceType: 'secretsmanager_bank_card',
       terraformGeneratorMetadata: {
         providerName: 'secretsmanager',
-        providerVersion: '1.1.7'
+        providerVersion: '1.1.7',
+        providerVersionConstraint: '1.1.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

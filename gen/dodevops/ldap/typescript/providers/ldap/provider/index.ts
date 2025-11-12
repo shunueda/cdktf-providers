@@ -85,7 +85,8 @@ export class LdapProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'ldap',
       terraformGeneratorMetadata: {
         providerName: 'ldap',
-        providerVersion: '0.4.0'
+        providerVersion: '0.4.0',
+        providerVersionConstraint: '0.4.0'
       },
       terraformProviderSource: 'dodevops/ldap'
     });

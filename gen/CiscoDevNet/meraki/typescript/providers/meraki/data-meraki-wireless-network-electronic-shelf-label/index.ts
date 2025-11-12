@@ -55,7 +55,8 @@ export class DataMerakiWirelessNetworkElectronicShelfLabel extends cdktf.Terrafo
       terraformResourceType: 'meraki_wireless_network_electronic_shelf_label',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1'
+        providerVersion: '1.7.1',
+        providerVersionConstraint: '1.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

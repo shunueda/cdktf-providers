@@ -23361,7 +23361,8 @@ export class Cluster extends cdktf.TerraformResource {
       terraformResourceType: 'rke_cluster',
       terraformGeneratorMetadata: {
         providerName: 'rke',
-        providerVersion: '1.7.5'
+        providerVersion: '1.7.5',
+        providerVersionConstraint: '1.7.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

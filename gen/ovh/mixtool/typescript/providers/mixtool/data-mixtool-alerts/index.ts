@@ -61,7 +61,8 @@ export class DataMixtoolAlerts extends cdktf.TerraformDataSource {
       terraformResourceType: 'mixtool_alerts',
       terraformGeneratorMetadata: {
         providerName: 'mixtool',
-        providerVersion: '0.2.2'
+        providerVersion: '0.2.2',
+        providerVersionConstraint: '0.2.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

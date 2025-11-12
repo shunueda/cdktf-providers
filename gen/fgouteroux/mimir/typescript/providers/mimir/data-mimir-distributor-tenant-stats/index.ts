@@ -163,7 +163,8 @@ export class DataMimirDistributorTenantStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'mimir_distributor_tenant_stats',
       terraformGeneratorMetadata: {
         providerName: 'mimir',
-        providerVersion: '1.0.9'
+        providerVersion: '1.0.9',
+        providerVersionConstraint: '1.0.9'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

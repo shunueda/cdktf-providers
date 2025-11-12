@@ -711,7 +711,8 @@ export class DataThunderVisibilityFlowCollectorNetflowStats extends cdktf.Terraf
       terraformResourceType: 'thunder_visibility_flow_collector_netflow_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

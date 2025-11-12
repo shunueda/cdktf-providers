@@ -96,7 +96,8 @@ export class LogEventfilter extends cdktf.TerraformResource {
       terraformResourceType: 'fortiswitch_log_eventfilter',
       terraformGeneratorMetadata: {
         providerName: 'fortiswitch',
-        providerVersion: '1.1.6'
+        providerVersion: '1.1.6',
+        providerVersionConstraint: '1.1.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

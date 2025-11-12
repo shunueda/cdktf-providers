@@ -336,7 +336,8 @@ export class FusionAppsFusionEnvironmentAdminUser extends cdktf.TerraformResourc
       terraformResourceType: 'oci_fusion_apps_fusion_environment_admin_user',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

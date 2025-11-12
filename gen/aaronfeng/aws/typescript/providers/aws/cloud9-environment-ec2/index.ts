@@ -84,7 +84,8 @@ export class Cloud9EnvironmentEc2 extends cdktf.TerraformResource {
       terraformResourceType: 'aws_cloud9_environment_ec2',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '3.29.6'
+        providerVersion: '3.29.6',
+        providerVersionConstraint: '3.29.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

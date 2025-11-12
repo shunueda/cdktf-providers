@@ -428,7 +428,8 @@ export class CellularGatewayLan extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_cellular_gateway_lan',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1'
+        providerVersion: '1.7.1',
+        providerVersionConstraint: '1.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

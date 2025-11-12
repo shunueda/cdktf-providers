@@ -315,7 +315,8 @@ export class DataKustomization extends cdktf.TerraformDataSource {
       terraformResourceType: 'kustomization',
       terraformGeneratorMetadata: {
         providerName: 'kustomization',
-        providerVersion: '0.9.7'
+        providerVersion: '0.9.7',
+        providerVersionConstraint: '0.9.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

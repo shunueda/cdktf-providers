@@ -1306,7 +1306,8 @@ export class DataK8SOracleDbAnthosapisComBackupScheduleV1Alpha1Manifest extends 
       terraformResourceType: 'k8s_oracle_db_anthosapis_com_backup_schedule_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

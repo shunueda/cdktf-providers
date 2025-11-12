@@ -57,7 +57,8 @@ export class RsaKeyPair extends cdktf.TerraformResource {
       terraformResourceType: 'sshkey_rsa_key_pair',
       terraformGeneratorMetadata: {
         providerName: 'sshkey',
-        providerVersion: '0.2.1'
+        providerVersion: '0.2.1',
+        providerVersionConstraint: '0.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

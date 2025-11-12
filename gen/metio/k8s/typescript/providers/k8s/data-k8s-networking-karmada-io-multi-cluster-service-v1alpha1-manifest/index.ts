@@ -1041,7 +1041,8 @@ export class DataK8SNetworkingKarmadaIoMultiClusterServiceV1Alpha1Manifest exten
       terraformResourceType: 'k8s_networking_karmada_io_multi_cluster_service_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

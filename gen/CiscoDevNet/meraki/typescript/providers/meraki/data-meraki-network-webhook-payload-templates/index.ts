@@ -236,7 +236,8 @@ export class DataMerakiNetworkWebhookPayloadTemplates extends cdktf.TerraformDat
       terraformResourceType: 'meraki_network_webhook_payload_templates',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1'
+        providerVersion: '1.7.1',
+        providerVersionConstraint: '1.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

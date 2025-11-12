@@ -86,7 +86,8 @@ export class Telemetry extends cdktf.TerraformResource {
       terraformResourceType: 'modtm_telemetry',
       terraformGeneratorMetadata: {
         providerName: 'modtm',
-        providerVersion: '0.3.5'
+        providerVersion: '0.3.5',
+        providerVersionConstraint: '0.3.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

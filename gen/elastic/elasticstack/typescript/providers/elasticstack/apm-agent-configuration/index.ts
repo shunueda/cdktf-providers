@@ -73,7 +73,8 @@ export class ApmAgentConfiguration extends cdktf.TerraformResource {
       terraformResourceType: 'elasticstack_apm_agent_configuration',
       terraformGeneratorMetadata: {
         providerName: 'elasticstack',
-        providerVersion: '0.12.1'
+        providerVersion: '0.12.1',
+        providerVersionConstraint: '0.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

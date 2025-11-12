@@ -182,7 +182,8 @@ export class DataAlicloudResourceManagerRoles extends cdktf.TerraformDataSource 
       terraformResourceType: 'alicloud_resource_manager_roles',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

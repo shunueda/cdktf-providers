@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cloud_credentials_v3
+// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credentials_v3
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface CloudCredentialsV3Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cloud_credentials_v3#id CloudCredentialsV3#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credentials_v3#id CloudCredentialsV3#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface CloudCredentialsV3Config extends cdktf.TerraformMetaArguments {
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cloud_credentials_v3#metadata CloudCredentialsV3#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credentials_v3#metadata CloudCredentialsV3#metadata}
   */
   readonly metadata?: CloudCredentialsV3Metadata;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cloud_credentials_v3#spec CloudCredentialsV3#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credentials_v3#spec CloudCredentialsV3#spec}
   */
   readonly spec?: CloudCredentialsV3Spec;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cloud_credentials_v3#timeouts CloudCredentialsV3#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credentials_v3#timeouts CloudCredentialsV3#timeouts}
   */
   readonly timeouts?: CloudCredentialsV3Timeouts;
 }
@@ -37,7 +37,7 @@ export interface CloudCredentialsV3MetadataCreatedBy {
   /**
   * Id of the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cloud_credentials_v3#id CloudCredentialsV3#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credentials_v3#id CloudCredentialsV3#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -46,13 +46,13 @@ export interface CloudCredentialsV3MetadataCreatedBy {
   /**
   * Whether person is logged in using sso
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cloud_credentials_v3#is_sso_user CloudCredentialsV3#is_sso_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credentials_v3#is_sso_user CloudCredentialsV3#is_sso_user}
   */
   readonly isSsoUser?: boolean | cdktf.IResolvable;
   /**
   * Username fo the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cloud_credentials_v3#username CloudCredentialsV3#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credentials_v3#username CloudCredentialsV3#username}
   */
   readonly username?: string;
 }
@@ -196,7 +196,7 @@ export interface CloudCredentialsV3MetadataModifiedBy {
   /**
   * Id of the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cloud_credentials_v3#id CloudCredentialsV3#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credentials_v3#id CloudCredentialsV3#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -205,13 +205,13 @@ export interface CloudCredentialsV3MetadataModifiedBy {
   /**
   * Whether person is logged in using sso
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cloud_credentials_v3#is_sso_user CloudCredentialsV3#is_sso_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credentials_v3#is_sso_user CloudCredentialsV3#is_sso_user}
   */
   readonly isSsoUser?: boolean | cdktf.IResolvable;
   /**
   * Username fo the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cloud_credentials_v3#username CloudCredentialsV3#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credentials_v3#username CloudCredentialsV3#username}
   */
   readonly username?: string;
 }
@@ -355,49 +355,49 @@ export interface CloudCredentialsV3Metadata {
   /**
   * annotations of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cloud_credentials_v3#annotations CloudCredentialsV3#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credentials_v3#annotations CloudCredentialsV3#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * description of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cloud_credentials_v3#description CloudCredentialsV3#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credentials_v3#description CloudCredentialsV3#description}
   */
   readonly description?: string;
   /**
   * Display Name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cloud_credentials_v3#display_name CloudCredentialsV3#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credentials_v3#display_name CloudCredentialsV3#display_name}
   */
   readonly displayName?: string;
   /**
   * labels of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cloud_credentials_v3#labels CloudCredentialsV3#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credentials_v3#labels CloudCredentialsV3#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cloud_credentials_v3#name CloudCredentialsV3#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credentials_v3#name CloudCredentialsV3#name}
   */
   readonly name?: string;
   /**
   * Project of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cloud_credentials_v3#project CloudCredentialsV3#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credentials_v3#project CloudCredentialsV3#project}
   */
   readonly project?: string;
   /**
   * created_by block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cloud_credentials_v3#created_by CloudCredentialsV3#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credentials_v3#created_by CloudCredentialsV3#created_by}
   */
   readonly createdBy?: CloudCredentialsV3MetadataCreatedBy;
   /**
   * modified_by block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cloud_credentials_v3#modified_by CloudCredentialsV3#modified_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credentials_v3#modified_by CloudCredentialsV3#modified_by}
   */
   readonly modifiedBy?: CloudCredentialsV3MetadataModifiedBy;
 }
@@ -686,7 +686,7 @@ export interface CloudCredentialsV3SpecCredentialsAgents {
   /**
   * name of the agent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cloud_credentials_v3#name CloudCredentialsV3#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credentials_v3#name CloudCredentialsV3#name}
   */
   readonly name?: string;
 }
@@ -802,89 +802,89 @@ export class CloudCredentialsV3SpecCredentialsAgentsList extends cdktf.ComplexLi
 }
 export interface CloudCredentialsV3SpecCredentials {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cloud_credentials_v3#access_id CloudCredentialsV3#access_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credentials_v3#access_id CloudCredentialsV3#access_id}
   */
   readonly accessId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cloud_credentials_v3#account_id CloudCredentialsV3#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credentials_v3#account_id CloudCredentialsV3#account_id}
   */
   readonly accountId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cloud_credentials_v3#arn CloudCredentialsV3#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credentials_v3#arn CloudCredentialsV3#arn}
   */
   readonly arn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cloud_credentials_v3#client_id CloudCredentialsV3#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credentials_v3#client_id CloudCredentialsV3#client_id}
   */
   readonly clientId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cloud_credentials_v3#client_secret CloudCredentialsV3#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credentials_v3#client_secret CloudCredentialsV3#client_secret}
   */
   readonly clientSecret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cloud_credentials_v3#external_id CloudCredentialsV3#external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credentials_v3#external_id CloudCredentialsV3#external_id}
   */
   readonly externalId?: string;
   /**
   * Blob content of GCP Credentials Access JSON file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cloud_credentials_v3#file CloudCredentialsV3#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credentials_v3#file CloudCredentialsV3#file}
   */
   readonly file?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cloud_credentials_v3#gateway_id CloudCredentialsV3#gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credentials_v3#gateway_id CloudCredentialsV3#gateway_id}
   */
   readonly gatewayId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cloud_credentials_v3#passphrase CloudCredentialsV3#passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credentials_v3#passphrase CloudCredentialsV3#passphrase}
   */
   readonly passphrase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cloud_credentials_v3#password CloudCredentialsV3#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credentials_v3#password CloudCredentialsV3#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cloud_credentials_v3#port CloudCredentialsV3#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credentials_v3#port CloudCredentialsV3#port}
   */
   readonly port?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cloud_credentials_v3#private_key CloudCredentialsV3#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credentials_v3#private_key CloudCredentialsV3#private_key}
   */
   readonly privateKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cloud_credentials_v3#secret_key CloudCredentialsV3#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credentials_v3#secret_key CloudCredentialsV3#secret_key}
   */
   readonly secretKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cloud_credentials_v3#session_token CloudCredentialsV3#session_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credentials_v3#session_token CloudCredentialsV3#session_token}
   */
   readonly sessionToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cloud_credentials_v3#subscription_id CloudCredentialsV3#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credentials_v3#subscription_id CloudCredentialsV3#subscription_id}
   */
   readonly subscriptionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cloud_credentials_v3#tenant_id CloudCredentialsV3#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credentials_v3#tenant_id CloudCredentialsV3#tenant_id}
   */
   readonly tenantId?: string;
   /**
   * Type of AWS Credentials Access
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cloud_credentials_v3#type CloudCredentialsV3#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credentials_v3#type CloudCredentialsV3#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cloud_credentials_v3#username CloudCredentialsV3#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credentials_v3#username CloudCredentialsV3#username}
   */
   readonly username?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cloud_credentials_v3#vsphere_server CloudCredentialsV3#vsphere_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credentials_v3#vsphere_server CloudCredentialsV3#vsphere_server}
   */
   readonly vsphereServer?: string;
   /**
   * agents block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cloud_credentials_v3#agents CloudCredentialsV3#agents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credentials_v3#agents CloudCredentialsV3#agents}
   */
   readonly agents?: CloudCredentialsV3SpecCredentialsAgents[] | cdktf.IResolvable;
 }
@@ -1521,7 +1521,7 @@ export interface CloudCredentialsV3SpecSecretOptionsOverride {
   /**
   * Specify the type of override this file supports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cloud_credentials_v3#type CloudCredentialsV3#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credentials_v3#type CloudCredentialsV3#type}
   */
   readonly type?: string;
 }
@@ -1607,13 +1607,13 @@ export interface CloudCredentialsV3SpecSecretOptionsSchema {
   /**
   * JSONSchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cloud_credentials_v3#jsonschema CloudCredentialsV3#jsonschema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credentials_v3#jsonschema CloudCredentialsV3#jsonschema}
   */
   readonly jsonschema?: string;
   /**
   * UISchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cloud_credentials_v3#uischema CloudCredentialsV3#uischema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credentials_v3#uischema CloudCredentialsV3#uischema}
   */
   readonly uischema?: string;
 }
@@ -1728,37 +1728,37 @@ export interface CloudCredentialsV3SpecSecretOptions {
   /**
   * Description of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cloud_credentials_v3#description CloudCredentialsV3#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credentials_v3#description CloudCredentialsV3#description}
   */
   readonly description?: string;
   /**
   * Display metadata to render file on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cloud_credentials_v3#display_metadata CloudCredentialsV3#display_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credentials_v3#display_metadata CloudCredentialsV3#display_metadata}
   */
   readonly displayMetadata?: string;
   /**
   * Determines whether the file is required / mandatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cloud_credentials_v3#required CloudCredentialsV3#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credentials_v3#required CloudCredentialsV3#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cloud_credentials_v3#sensitive CloudCredentialsV3#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credentials_v3#sensitive CloudCredentialsV3#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cloud_credentials_v3#override CloudCredentialsV3#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credentials_v3#override CloudCredentialsV3#override}
   */
   readonly override?: CloudCredentialsV3SpecSecretOptionsOverride;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cloud_credentials_v3#schema CloudCredentialsV3#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credentials_v3#schema CloudCredentialsV3#schema}
   */
   readonly schema?: CloudCredentialsV3SpecSecretOptionsSchema;
 }
@@ -1989,31 +1989,31 @@ export interface CloudCredentialsV3SpecSecret {
   /**
   * data is the base64 encoded contents of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cloud_credentials_v3#data CloudCredentialsV3#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credentials_v3#data CloudCredentialsV3#data}
   */
   readonly data?: string;
   /**
   * specify mount path of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cloud_credentials_v3#mount_path CloudCredentialsV3#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credentials_v3#mount_path CloudCredentialsV3#mount_path}
   */
   readonly mountPath?: string;
   /**
   * Name or relative path of a artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cloud_credentials_v3#name CloudCredentialsV3#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credentials_v3#name CloudCredentialsV3#name}
   */
   readonly name?: string;
   /**
   * Deprected: use options.sensitive. data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cloud_credentials_v3#sensitive CloudCredentialsV3#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credentials_v3#sensitive CloudCredentialsV3#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cloud_credentials_v3#options CloudCredentialsV3#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credentials_v3#options CloudCredentialsV3#options}
   */
   readonly options?: CloudCredentialsV3SpecSecretOptions;
 }
@@ -2215,7 +2215,7 @@ export interface CloudCredentialsV3SpecSharingProjects {
   /**
   * name of the project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cloud_credentials_v3#name CloudCredentialsV3#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credentials_v3#name CloudCredentialsV3#name}
   */
   readonly name?: string;
 }
@@ -2333,13 +2333,13 @@ export interface CloudCredentialsV3SpecSharing {
   /**
   * flag to specify if sharing is enabled for resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cloud_credentials_v3#enabled CloudCredentialsV3#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credentials_v3#enabled CloudCredentialsV3#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * projects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cloud_credentials_v3#projects CloudCredentialsV3#projects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credentials_v3#projects CloudCredentialsV3#projects}
   */
   readonly projects?: CloudCredentialsV3SpecSharingProjects[] | cdktf.IResolvable;
 }
@@ -2454,31 +2454,31 @@ export interface CloudCredentialsV3Spec {
   /**
   * Provider of Credential Access
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cloud_credentials_v3#provider CloudCredentialsV3#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credentials_v3#provider CloudCredentialsV3#provider}
   */
   readonly provider?: string;
   /**
   * Type of Credentials Access
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cloud_credentials_v3#type CloudCredentialsV3#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credentials_v3#type CloudCredentialsV3#type}
   */
   readonly type?: string;
   /**
   * credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cloud_credentials_v3#credentials CloudCredentialsV3#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credentials_v3#credentials CloudCredentialsV3#credentials}
   */
   readonly credentials?: CloudCredentialsV3SpecCredentials;
   /**
   * secret block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cloud_credentials_v3#secret CloudCredentialsV3#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credentials_v3#secret CloudCredentialsV3#secret}
   */
   readonly secret?: CloudCredentialsV3SpecSecret;
   /**
   * sharing block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cloud_credentials_v3#sharing CloudCredentialsV3#sharing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credentials_v3#sharing CloudCredentialsV3#sharing}
   */
   readonly sharing?: CloudCredentialsV3SpecSharing;
 }
@@ -2678,15 +2678,15 @@ export class CloudCredentialsV3SpecOutputReference extends cdktf.ComplexObject {
 }
 export interface CloudCredentialsV3Timeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cloud_credentials_v3#create CloudCredentialsV3#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credentials_v3#create CloudCredentialsV3#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cloud_credentials_v3#delete CloudCredentialsV3#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credentials_v3#delete CloudCredentialsV3#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cloud_credentials_v3#update CloudCredentialsV3#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credentials_v3#update CloudCredentialsV3#update}
   */
   readonly update?: string;
 }
@@ -2838,7 +2838,7 @@ export class CloudCredentialsV3TimeoutsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cloud_credentials_v3 rafay_cloud_credentials_v3}
+* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credentials_v3 rafay_cloud_credentials_v3}
 */
 export class CloudCredentialsV3 extends cdktf.TerraformResource {
 
@@ -2854,7 +2854,7 @@ export class CloudCredentialsV3 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudCredentialsV3 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudCredentialsV3 to import
-  * @param importFromId The id of the existing CloudCredentialsV3 that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cloud_credentials_v3#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudCredentialsV3 that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credentials_v3#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudCredentialsV3 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2866,7 +2866,7 @@ export class CloudCredentialsV3 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/cloud_credentials_v3 rafay_cloud_credentials_v3} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/cloud_credentials_v3 rafay_cloud_credentials_v3} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2877,7 +2877,8 @@ export class CloudCredentialsV3 extends cdktf.TerraformResource {
       terraformResourceType: 'rafay_cloud_credentials_v3',
       terraformGeneratorMetadata: {
         providerName: 'rafay',
-        providerVersion: '1.1.52'
+        providerVersion: '1.1.53',
+        providerVersionConstraint: '1.1.53'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

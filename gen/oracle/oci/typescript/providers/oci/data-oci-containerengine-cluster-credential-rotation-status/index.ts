@@ -60,7 +60,8 @@ export class DataOciContainerengineClusterCredentialRotationStatus extends cdktf
       terraformResourceType: 'oci_containerengine_cluster_credential_rotation_status',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

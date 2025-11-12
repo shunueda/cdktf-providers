@@ -122,7 +122,8 @@ export class VmInternalDiskA extends cdktf.TerraformResource {
       terraformResourceType: 'vcd_vm_internal_disk',
       terraformGeneratorMetadata: {
         providerName: 'vcd',
-        providerVersion: '3.14.1'
+        providerVersion: '3.14.1',
+        providerVersionConstraint: '3.14.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

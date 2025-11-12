@@ -603,7 +603,8 @@ export class DataThunderThreatIntelWebrootGlobalStats extends cdktf.TerraformDat
       terraformResourceType: 'thunder_threat_intel_webroot_global_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

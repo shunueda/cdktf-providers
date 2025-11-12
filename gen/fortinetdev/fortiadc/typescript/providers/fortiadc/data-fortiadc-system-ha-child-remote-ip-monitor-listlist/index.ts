@@ -64,7 +64,8 @@ export class DataFortiadcSystemHaChildRemoteIpMonitorListlist extends cdktf.Terr
       terraformResourceType: 'fortiadc_system_ha_child_remote_ip_monitor_listlist',
       terraformGeneratorMetadata: {
         providerName: 'fortiadc',
-        providerVersion: '1.3.1'
+        providerVersion: '1.3.1',
+        providerVersionConstraint: '1.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

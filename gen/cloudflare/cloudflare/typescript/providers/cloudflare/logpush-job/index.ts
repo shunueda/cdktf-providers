@@ -625,7 +625,8 @@ export class LogpushJob extends cdktf.TerraformResource {
       terraformResourceType: 'cloudflare_logpush_job',
       terraformGeneratorMetadata: {
         providerName: 'cloudflare',
-        providerVersion: '5.12.0'
+        providerVersion: '5.12.0',
+        providerVersionConstraint: '5.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

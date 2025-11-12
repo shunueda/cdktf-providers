@@ -212,7 +212,8 @@ export class PostLdifExportTaskProcessor extends cdktf.TerraformResource {
       terraformResourceType: 'pingdirectory_post_ldif_export_task_processor',
       terraformGeneratorMetadata: {
         providerName: 'pingdirectory',
-        providerVersion: '1.5.0'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

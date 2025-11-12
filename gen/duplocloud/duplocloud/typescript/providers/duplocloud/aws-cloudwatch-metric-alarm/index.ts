@@ -386,7 +386,8 @@ export class AwsCloudwatchMetricAlarm extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_aws_cloudwatch_metric_alarm',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.28'
+        providerVersion: '0.11.28',
+        providerVersionConstraint: '0.11.28'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

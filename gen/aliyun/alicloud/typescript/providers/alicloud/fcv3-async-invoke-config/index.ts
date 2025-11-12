@@ -537,7 +537,8 @@ export class Fcv3AsyncInvokeConfig extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_fcv3_async_invoke_config',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

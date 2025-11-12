@@ -213,7 +213,8 @@ export class EssServerGroupAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_ess_server_group_attachment',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -68,7 +68,8 @@ export class Authentication extends cdktf.TerraformResource {
       terraformResourceType: 'pact_authentication',
       terraformGeneratorMetadata: {
         providerName: 'pact',
-        providerVersion: '0.10.0'
+        providerVersion: '0.10.0',
+        providerVersionConstraint: '0.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

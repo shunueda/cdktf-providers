@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_org
+// https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_org
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface IamOrgConfig extends cdktf.TerraformMetaArguments {
   /**
   * The description of the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_org#description IamOrg#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_org#description IamOrg#description}
   */
   readonly description?: string;
   /**
   * The display name to use for this organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_org#display_name IamOrg#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_org#display_name IamOrg#display_name}
   */
   readonly displayName?: string;
   /**
   * An optional external identifier for this organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_org#external_id IamOrg#external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_org#external_id IamOrg#external_id}
   */
   readonly externalId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_org#id IamOrg#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_org#id IamOrg#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,37 +35,37 @@ export interface IamOrgConfig extends cdktf.TerraformMetaArguments {
   /**
   * Deprecated, do not use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_org#is_root_org IamOrg#is_root_org}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_org#is_root_org IamOrg#is_root_org}
   */
   readonly isRootOrg?: boolean | cdktf.IResolvable;
   /**
   * The name of the IAM Organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_org#name IamOrg#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_org#name IamOrg#name}
   */
   readonly name: string;
   /**
   * The parent organization ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_org#parent_org_id IamOrg#parent_org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_org#parent_org_id IamOrg#parent_org_id}
   */
   readonly parentOrgId?: string;
   /**
   * The organization type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_org#type IamOrg#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_org#type IamOrg#type}
   */
   readonly type?: string;
   /**
   * Blocks until the organization delete has completed. Default: false. The organization delete process can take some time as all its associated resources like users, groups, roles etc. are removed recursively. This option is useful for ephemeral environments where the same organization might be recreated shortly after a destroy operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_org#wait_for_delete IamOrg#wait_for_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_org#wait_for_delete IamOrg#wait_for_delete}
   */
   readonly waitForDelete?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_org hsdp_iam_org}
+* Represents a {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_org hsdp_iam_org}
 */
 export class IamOrg extends cdktf.TerraformResource {
 
@@ -81,7 +81,7 @@ export class IamOrg extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IamOrg resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IamOrg to import
-  * @param importFromId The id of the existing IamOrg that should be imported. Refer to the {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_org#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IamOrg that should be imported. Refer to the {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_org#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IamOrg to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +93,7 @@ export class IamOrg extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_org hsdp_iam_org} Resource
+  * Create a new {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_org hsdp_iam_org} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,7 +104,8 @@ export class IamOrg extends cdktf.TerraformResource {
       terraformResourceType: 'hsdp_iam_org',
       terraformGeneratorMetadata: {
         providerName: 'hsdp',
-        providerVersion: '0.70.0'
+        providerVersion: '0.71.0',
+        providerVersionConstraint: '0.71.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

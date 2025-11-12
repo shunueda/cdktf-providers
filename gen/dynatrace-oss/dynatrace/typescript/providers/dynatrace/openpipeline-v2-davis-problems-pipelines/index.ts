@@ -145,7 +145,8 @@ export class OpenpipelineV2DavisProblemsPipelines extends cdktf.TerraformResourc
       terraformResourceType: 'dynatrace_openpipeline_v2_davis_problems_pipelines',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1'
+        providerVersion: '1.87.1',
+        providerVersionConstraint: '1.87.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

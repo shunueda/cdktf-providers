@@ -505,7 +505,8 @@ export class ListItem extends cdktf.TerraformResource {
       terraformResourceType: 'cloudflare_list_item',
       terraformGeneratorMetadata: {
         providerName: 'cloudflare',
-        providerVersion: '5.12.0'
+        providerVersion: '5.12.0',
+        providerVersionConstraint: '5.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

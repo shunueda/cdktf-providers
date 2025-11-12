@@ -114,7 +114,8 @@ export class AttributeToRoleIdentityProviderMapper extends cdktf.TerraformResour
       terraformResourceType: 'keycloak_attribute_to_role_identity_provider_mapper',
       terraformGeneratorMetadata: {
         providerName: 'keycloak',
-        providerVersion: '4.4.0'
+        providerVersion: '4.4.0',
+        providerVersionConstraint: '4.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

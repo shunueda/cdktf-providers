@@ -330,7 +330,8 @@ export class PolicyGatewayFloodProtectionProfileBinding extends cdktf.TerraformR
       terraformResourceType: 'nsxt_policy_gateway_flood_protection_profile_binding',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0'
+        providerVersion: '3.10.0',
+        providerVersionConstraint: '3.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

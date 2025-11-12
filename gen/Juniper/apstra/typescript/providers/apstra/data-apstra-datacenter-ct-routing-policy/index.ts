@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_ct_routing_policy
+// https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_ct_routing_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataApstraDatacenterCtRoutingPolicyConfig extends cdktf.Terrafo
   /**
   * Primitive name displayed in the web UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_ct_routing_policy#name DataApstraDatacenterCtRoutingPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_ct_routing_policy#name DataApstraDatacenterCtRoutingPolicy#name}
   */
   readonly name?: string;
   /**
   * Apstra Object ID of Routing Policy to be attached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_ct_routing_policy#routing_policy_id DataApstraDatacenterCtRoutingPolicy#routing_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_ct_routing_policy#routing_policy_id DataApstraDatacenterCtRoutingPolicy#routing_policy_id}
   */
   readonly routingPolicyId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_ct_routing_policy apstra_datacenter_ct_routing_policy}
+* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_ct_routing_policy apstra_datacenter_ct_routing_policy}
 */
 export class DataApstraDatacenterCtRoutingPolicy extends cdktf.TerraformDataSource {
 
@@ -38,7 +38,7 @@ export class DataApstraDatacenterCtRoutingPolicy extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataApstraDatacenterCtRoutingPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataApstraDatacenterCtRoutingPolicy to import
-  * @param importFromId The id of the existing DataApstraDatacenterCtRoutingPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_ct_routing_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataApstraDatacenterCtRoutingPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_ct_routing_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataApstraDatacenterCtRoutingPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class DataApstraDatacenterCtRoutingPolicy extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_ct_routing_policy apstra_datacenter_ct_routing_policy} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_ct_routing_policy apstra_datacenter_ct_routing_policy} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,7 +61,8 @@ export class DataApstraDatacenterCtRoutingPolicy extends cdktf.TerraformDataSour
       terraformResourceType: 'apstra_datacenter_ct_routing_policy',
       terraformGeneratorMetadata: {
         providerName: 'apstra',
-        providerVersion: '0.95.0'
+        providerVersion: '0.95.1',
+        providerVersionConstraint: '0.95.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

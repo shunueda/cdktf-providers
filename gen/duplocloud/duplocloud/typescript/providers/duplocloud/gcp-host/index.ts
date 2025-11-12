@@ -309,7 +309,8 @@ export class GcpHost extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_gcp_host',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.28'
+        providerVersion: '0.11.28',
+        providerVersionConstraint: '0.11.28'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

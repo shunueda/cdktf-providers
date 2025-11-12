@@ -49,7 +49,8 @@ export class DataDatadogIntegrationAwsNamespaceRules extends cdktf.TerraformData
       terraformResourceType: 'datadog_integration_aws_namespace_rules',
       terraformGeneratorMetadata: {
         providerName: 'datadog',
-        providerVersion: '3.79.0'
+        providerVersion: '3.79.0',
+        providerVersionConstraint: '3.79.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -59,7 +59,8 @@ export class GuarddutyOrganizationSettings extends cdktf.TerraformResource {
       terraformResourceType: 'awsutils_guardduty_organization_settings',
       terraformGeneratorMetadata: {
         providerName: 'awsutils',
-        providerVersion: '0.20.1'
+        providerVersion: '0.20.1',
+        providerVersionConstraint: '0.20.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

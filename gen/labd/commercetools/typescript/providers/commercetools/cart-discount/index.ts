@@ -950,7 +950,8 @@ export class CartDiscount extends cdktf.TerraformResource {
       terraformResourceType: 'commercetools_cart_discount',
       terraformGeneratorMetadata: {
         providerName: 'commercetools',
-        providerVersion: '1.21.1'
+        providerVersion: '1.21.1',
+        providerVersionConstraint: '1.21.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -88,7 +88,8 @@ export class OauthProfileAccessLevelGroupMsgVpnAccessLevelException extends cdkt
       terraformResourceType: 'solacebroker_oauth_profile_access_level_group_msg_vpn_access_level_exception',
       terraformGeneratorMetadata: {
         providerName: 'solacebroker',
-        providerVersion: '1.2.0'
+        providerVersion: '1.2.0',
+        providerVersionConstraint: '1.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

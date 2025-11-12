@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/cloudmonitorservice_alarmcontacts
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/cloudmonitorservice_alarmcontacts
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,30 +8,30 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlibabacloudstackCloudmonitorserviceAlarmcontactsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/cloudmonitorservice_alarmcontacts#chanel_type DataAlibabacloudstackCloudmonitorserviceAlarmcontacts#chanel_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/cloudmonitorservice_alarmcontacts#chanel_type DataAlibabacloudstackCloudmonitorserviceAlarmcontacts#chanel_type}
   */
   readonly chanelType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/cloudmonitorservice_alarmcontacts#chanel_value DataAlibabacloudstackCloudmonitorserviceAlarmcontacts#chanel_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/cloudmonitorservice_alarmcontacts#chanel_value DataAlibabacloudstackCloudmonitorserviceAlarmcontacts#chanel_value}
   */
   readonly chanelValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/cloudmonitorservice_alarmcontacts#id DataAlibabacloudstackCloudmonitorserviceAlarmcontacts#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/cloudmonitorservice_alarmcontacts#id DataAlibabacloudstackCloudmonitorserviceAlarmcontacts#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/cloudmonitorservice_alarmcontacts#ids DataAlibabacloudstackCloudmonitorserviceAlarmcontacts#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/cloudmonitorservice_alarmcontacts#ids DataAlibabacloudstackCloudmonitorserviceAlarmcontacts#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/cloudmonitorservice_alarmcontacts#name_regex DataAlibabacloudstackCloudmonitorserviceAlarmcontacts#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/cloudmonitorservice_alarmcontacts#name_regex DataAlibabacloudstackCloudmonitorserviceAlarmcontacts#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/cloudmonitorservice_alarmcontacts#output_file DataAlibabacloudstackCloudmonitorserviceAlarmcontacts#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/cloudmonitorservice_alarmcontacts#output_file DataAlibabacloudstackCloudmonitorserviceAlarmcontacts#output_file}
   */
   readonly outputFile?: string;
 }
@@ -117,7 +117,7 @@ export class DataAlibabacloudstackCloudmonitorserviceAlarmcontactsContactsList e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/cloudmonitorservice_alarmcontacts alibabacloudstack_cloudmonitorservice_alarmcontacts}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/cloudmonitorservice_alarmcontacts alibabacloudstack_cloudmonitorservice_alarmcontacts}
 */
 export class DataAlibabacloudstackCloudmonitorserviceAlarmcontacts extends cdktf.TerraformDataSource {
 
@@ -133,7 +133,7 @@ export class DataAlibabacloudstackCloudmonitorserviceAlarmcontacts extends cdktf
   * Generates CDKTF code for importing a DataAlibabacloudstackCloudmonitorserviceAlarmcontacts resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlibabacloudstackCloudmonitorserviceAlarmcontacts to import
-  * @param importFromId The id of the existing DataAlibabacloudstackCloudmonitorserviceAlarmcontacts that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/cloudmonitorservice_alarmcontacts#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlibabacloudstackCloudmonitorserviceAlarmcontacts that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/cloudmonitorservice_alarmcontacts#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlibabacloudstackCloudmonitorserviceAlarmcontacts to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -145,7 +145,7 @@ export class DataAlibabacloudstackCloudmonitorserviceAlarmcontacts extends cdktf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/cloudmonitorservice_alarmcontacts alibabacloudstack_cloudmonitorservice_alarmcontacts} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/cloudmonitorservice_alarmcontacts alibabacloudstack_cloudmonitorservice_alarmcontacts} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -156,7 +156,8 @@ export class DataAlibabacloudstackCloudmonitorserviceAlarmcontacts extends cdktf
       terraformResourceType: 'alibabacloudstack_cloudmonitorservice_alarmcontacts',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.19'
+        providerVersion: '3.16.21',
+        providerVersionConstraint: '3.16.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

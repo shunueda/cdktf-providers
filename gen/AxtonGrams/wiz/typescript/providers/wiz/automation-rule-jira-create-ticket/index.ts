@@ -184,7 +184,8 @@ export class AutomationRuleJiraCreateTicket extends cdktf.TerraformResource {
       terraformResourceType: 'wiz_automation_rule_jira_create_ticket',
       terraformGeneratorMetadata: {
         providerName: 'wiz',
-        providerVersion: '1.2.5'
+        providerVersion: '1.2.5',
+        providerVersionConstraint: '1.2.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

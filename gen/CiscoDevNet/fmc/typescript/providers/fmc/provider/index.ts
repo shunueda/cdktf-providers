@@ -97,7 +97,8 @@ export class FmcProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'fmc',
       terraformGeneratorMetadata: {
         providerName: 'fmc',
-        providerVersion: '1.5.2'
+        providerVersion: '1.5.2',
+        providerVersionConstraint: '1.5.2'
       },
       terraformProviderSource: 'CiscoDevNet/fmc'
     });

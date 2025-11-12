@@ -91,7 +91,8 @@ export class DataVkcsSharedfilesystemShare extends cdktf.TerraformDataSource {
       terraformResourceType: 'vkcs_sharedfilesystem_share',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.0'
+        providerVersion: '0.13.0',
+        providerVersionConstraint: '0.13.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

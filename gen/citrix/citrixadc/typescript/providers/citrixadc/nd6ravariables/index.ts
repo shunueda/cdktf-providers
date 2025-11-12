@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nd6ravariables
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nd6ravariables
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,72 +8,72 @@ import * as cdktf from 'cdktf';
 
 export interface Nd6RavariablesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nd6ravariables#ceaserouteradv Nd6Ravariables#ceaserouteradv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nd6ravariables#ceaserouteradv Nd6Ravariables#ceaserouteradv}
   */
   readonly ceaserouteradv?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nd6ravariables#currhoplimit Nd6Ravariables#currhoplimit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nd6ravariables#currhoplimit Nd6Ravariables#currhoplimit}
   */
   readonly currhoplimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nd6ravariables#defaultlifetime Nd6Ravariables#defaultlifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nd6ravariables#defaultlifetime Nd6Ravariables#defaultlifetime}
   */
   readonly defaultlifetime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nd6ravariables#id Nd6Ravariables#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nd6ravariables#id Nd6Ravariables#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nd6ravariables#linkmtu Nd6Ravariables#linkmtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nd6ravariables#linkmtu Nd6Ravariables#linkmtu}
   */
   readonly linkmtu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nd6ravariables#managedaddrconfig Nd6Ravariables#managedaddrconfig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nd6ravariables#managedaddrconfig Nd6Ravariables#managedaddrconfig}
   */
   readonly managedaddrconfig?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nd6ravariables#maxrtadvinterval Nd6Ravariables#maxrtadvinterval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nd6ravariables#maxrtadvinterval Nd6Ravariables#maxrtadvinterval}
   */
   readonly maxrtadvinterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nd6ravariables#minrtadvinterval Nd6Ravariables#minrtadvinterval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nd6ravariables#minrtadvinterval Nd6Ravariables#minrtadvinterval}
   */
   readonly minrtadvinterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nd6ravariables#onlyunicastrtadvresponse Nd6Ravariables#onlyunicastrtadvresponse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nd6ravariables#onlyunicastrtadvresponse Nd6Ravariables#onlyunicastrtadvresponse}
   */
   readonly onlyunicastrtadvresponse?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nd6ravariables#otheraddrconfig Nd6Ravariables#otheraddrconfig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nd6ravariables#otheraddrconfig Nd6Ravariables#otheraddrconfig}
   */
   readonly otheraddrconfig?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nd6ravariables#reachabletime Nd6Ravariables#reachabletime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nd6ravariables#reachabletime Nd6Ravariables#reachabletime}
   */
   readonly reachabletime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nd6ravariables#retranstime Nd6Ravariables#retranstime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nd6ravariables#retranstime Nd6Ravariables#retranstime}
   */
   readonly retranstime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nd6ravariables#sendrouteradv Nd6Ravariables#sendrouteradv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nd6ravariables#sendrouteradv Nd6Ravariables#sendrouteradv}
   */
   readonly sendrouteradv?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nd6ravariables#srclinklayeraddroption Nd6Ravariables#srclinklayeraddroption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nd6ravariables#srclinklayeraddroption Nd6Ravariables#srclinklayeraddroption}
   */
   readonly srclinklayeraddroption?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nd6ravariables#vlan Nd6Ravariables#vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nd6ravariables#vlan Nd6Ravariables#vlan}
   */
   readonly vlan: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nd6ravariables citrixadc_nd6ravariables}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nd6ravariables citrixadc_nd6ravariables}
 */
 export class Nd6Ravariables extends cdktf.TerraformResource {
 
@@ -89,7 +89,7 @@ export class Nd6Ravariables extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Nd6Ravariables resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Nd6Ravariables to import
-  * @param importFromId The id of the existing Nd6Ravariables that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nd6ravariables#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Nd6Ravariables that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nd6ravariables#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Nd6Ravariables to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -101,7 +101,7 @@ export class Nd6Ravariables extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nd6ravariables citrixadc_nd6ravariables} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nd6ravariables citrixadc_nd6ravariables} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -112,7 +112,8 @@ export class Nd6Ravariables extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_nd6ravariables',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

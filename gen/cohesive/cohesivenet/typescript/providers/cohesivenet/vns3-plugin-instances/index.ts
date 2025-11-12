@@ -318,7 +318,8 @@ export class Vns3PluginInstances extends cdktf.TerraformResource {
       terraformResourceType: 'cohesivenet_vns3_plugin_instances',
       terraformGeneratorMetadata: {
         providerName: 'cohesivenet',
-        providerVersion: '1.0.8'
+        providerVersion: '1.0.8',
+        providerVersionConstraint: '1.0.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

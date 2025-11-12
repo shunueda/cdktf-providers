@@ -241,7 +241,8 @@ export class L4PortSetNsService extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_l4_port_set_ns_service',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0'
+        providerVersion: '3.10.0',
+        providerVersionConstraint: '3.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

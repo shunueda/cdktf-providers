@@ -267,7 +267,8 @@ export class Ipblock extends cdktf.TerraformResource {
       terraformResourceType: 'profitbricks_ipblock',
       terraformGeneratorMetadata: {
         providerName: 'profitbricks',
-        providerVersion: '1.6.5'
+        providerVersion: '1.6.5',
+        providerVersionConstraint: '1.6.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

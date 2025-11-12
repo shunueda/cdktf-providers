@@ -97,7 +97,8 @@ export class Ipv6Address extends cdktf.TerraformResource {
       terraformResourceType: 'mikrotik_ipv6_address',
       terraformGeneratorMetadata: {
         providerName: 'mikrotik',
-        providerVersion: '0.16.1'
+        providerVersion: '0.16.1',
+        providerVersionConstraint: '0.16.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

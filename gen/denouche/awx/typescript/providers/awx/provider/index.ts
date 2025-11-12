@@ -77,7 +77,8 @@ export class AwxProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'awx',
       terraformGeneratorMetadata: {
         providerName: 'awx',
-        providerVersion: '0.29.1'
+        providerVersion: '0.29.1',
+        providerVersionConstraint: '0.29.1'
       },
       terraformProviderSource: 'denouche/awx'
     });

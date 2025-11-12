@@ -389,7 +389,8 @@ export class TwcDbMysql5 extends cdktf.TerraformResource {
       terraformResourceType: 'twc_db_mysql_5',
       terraformGeneratorMetadata: {
         providerName: 'timeweb-cloud',
-        providerVersion: '1.6.6'
+        providerVersion: '1.6.6',
+        providerVersionConstraint: '1.6.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

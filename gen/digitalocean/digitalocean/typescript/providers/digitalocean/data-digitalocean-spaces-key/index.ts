@@ -142,7 +142,8 @@ export class DataDigitaloceanSpacesKey extends cdktf.TerraformDataSource {
       terraformResourceType: 'digitalocean_spaces_key',
       terraformGeneratorMetadata: {
         providerName: 'digitalocean',
-        providerVersion: '2.68.0'
+        providerVersion: '2.68.0',
+        providerVersionConstraint: '2.68.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1547,7 +1547,8 @@ export class ApiAuthenticationIntegrationWithAuthorizationCodeGrant extends cdkt
       terraformResourceType: 'snowflake_api_authentication_integration_with_authorization_code_grant',
       terraformGeneratorMetadata: {
         providerName: 'snowflake',
-        providerVersion: '2.10.1'
+        providerVersion: '2.10.1',
+        providerVersionConstraint: '2.10.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

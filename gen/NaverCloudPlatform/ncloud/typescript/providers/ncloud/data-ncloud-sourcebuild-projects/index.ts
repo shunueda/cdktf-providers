@@ -337,7 +337,8 @@ export class DataNcloudSourcebuildProjects extends cdktf.TerraformDataSource {
       terraformResourceType: 'ncloud_sourcebuild_projects',
       terraformGeneratorMetadata: {
         providerName: 'ncloud',
-        providerVersion: '4.0.4'
+        providerVersion: '4.0.4',
+        providerVersionConstraint: '4.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

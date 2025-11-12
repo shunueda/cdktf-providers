@@ -743,7 +743,8 @@ export class WorkflowTaskPagePagerdutyOnCallResponders extends cdktf.TerraformRe
       terraformResourceType: 'rootly_workflow_task_page_pagerduty_on_call_responders',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.7'
+        providerVersion: '4.3.7',
+        providerVersionConstraint: '4.3.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

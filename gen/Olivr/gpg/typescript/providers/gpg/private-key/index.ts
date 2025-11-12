@@ -80,7 +80,8 @@ export class PrivateKey extends cdktf.TerraformResource {
       terraformResourceType: 'gpg_private_key',
       terraformGeneratorMetadata: {
         providerName: 'gpg',
-        providerVersion: '0.2.1'
+        providerVersion: '0.2.1',
+        providerVersionConstraint: '0.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

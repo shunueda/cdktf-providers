@@ -172,7 +172,8 @@ export class NdbLogCatchups extends cdktf.TerraformResource {
       terraformResourceType: 'nutanix_ndb_log_catchups',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3'
+        providerVersion: '2.3.3',
+        providerVersionConstraint: '2.3.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -330,7 +330,8 @@ export class FlinkApplicationDeployment extends cdktf.TerraformResource {
       terraformResourceType: 'aiven_flink_application_deployment',
       terraformGeneratorMetadata: {
         providerName: 'aiven',
-        providerVersion: '4.46.1'
+        providerVersion: '4.46.1',
+        providerVersionConstraint: '4.46.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslcipher
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcipher
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface SslcipherConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslcipher#ciphergroupname Sslcipher#ciphergroupname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcipher#ciphergroupname Sslcipher#ciphergroupname}
   */
   readonly ciphergroupname: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslcipher#id Sslcipher#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcipher#id Sslcipher#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -21,17 +21,17 @@ export interface SslcipherConfig extends cdktf.TerraformMetaArguments {
   /**
   * ciphersuitebinding block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslcipher#ciphersuitebinding Sslcipher#ciphersuitebinding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcipher#ciphersuitebinding Sslcipher#ciphersuitebinding}
   */
   readonly ciphersuitebinding?: SslcipherCiphersuitebinding[] | cdktf.IResolvable;
 }
 export interface SslcipherCiphersuitebinding {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslcipher#ciphername Sslcipher#ciphername}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcipher#ciphername Sslcipher#ciphername}
   */
   readonly ciphername: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslcipher#cipherpriority Sslcipher#cipherpriority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcipher#cipherpriority Sslcipher#cipherpriority}
   */
   readonly cipherpriority?: number;
 }
@@ -173,7 +173,7 @@ export class SslcipherCiphersuitebindingList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslcipher citrixadc_sslcipher}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcipher citrixadc_sslcipher}
 */
 export class Sslcipher extends cdktf.TerraformResource {
 
@@ -189,7 +189,7 @@ export class Sslcipher extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Sslcipher resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Sslcipher to import
-  * @param importFromId The id of the existing Sslcipher that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslcipher#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Sslcipher that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcipher#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Sslcipher to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -201,7 +201,7 @@ export class Sslcipher extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslcipher citrixadc_sslcipher} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcipher citrixadc_sslcipher} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -212,7 +212,8 @@ export class Sslcipher extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_sslcipher',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

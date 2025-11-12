@@ -109,7 +109,8 @@ export class CdpProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'cdp',
       terraformGeneratorMetadata: {
         providerName: 'cdp',
-        providerVersion: '0.10.8'
+        providerVersion: '0.10.8',
+        providerVersionConstraint: '0.10.8'
       },
       terraformProviderSource: 'cloudera/cdp'
     });

@@ -209,7 +209,8 @@ export class DataAwsPricingProduct extends cdktf.TerraformDataSource {
       terraformResourceType: 'aws_pricing_product',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '3.29.6'
+        providerVersion: '3.29.6',
+        providerVersionConstraint: '3.29.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

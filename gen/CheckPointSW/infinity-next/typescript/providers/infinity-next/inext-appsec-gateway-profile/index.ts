@@ -134,7 +134,8 @@ export class InextAppsecGatewayProfile extends cdktf.TerraformResource {
       terraformResourceType: 'inext_appsec_gateway_profile',
       terraformGeneratorMetadata: {
         providerName: 'infinity-next',
-        providerVersion: '1.2.0'
+        providerVersion: '1.2.0',
+        providerVersionConstraint: '1.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

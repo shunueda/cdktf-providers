@@ -64,7 +64,8 @@ export class SshKey extends cdktf.TerraformResource {
       terraformResourceType: 'ah_ssh_key',
       terraformGeneratorMetadata: {
         providerName: 'ah',
-        providerVersion: '0.3.6'
+        providerVersion: '0.3.6',
+        providerVersionConstraint: '0.3.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

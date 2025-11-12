@@ -372,7 +372,8 @@ export class DnsRecordAlias extends cdktf.TerraformResource {
       terraformResourceType: 'nios_dns_record_alias',
       terraformGeneratorMetadata: {
         providerName: 'nios',
-        providerVersion: '1.0.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

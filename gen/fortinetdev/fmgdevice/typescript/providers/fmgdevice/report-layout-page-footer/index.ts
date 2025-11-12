@@ -366,7 +366,8 @@ export class ReportLayoutPageFooterA extends cdktf.TerraformResource {
       terraformResourceType: 'fmgdevice_report_layout_page_footer',
       terraformGeneratorMetadata: {
         providerName: 'fmgdevice',
-        providerVersion: '1.2.1'
+        providerVersion: '1.2.1',
+        providerVersionConstraint: '1.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

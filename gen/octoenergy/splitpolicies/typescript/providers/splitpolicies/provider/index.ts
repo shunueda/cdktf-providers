@@ -55,7 +55,8 @@ export class SplitpoliciesProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'splitpolicies',
       terraformGeneratorMetadata: {
         providerName: 'splitpolicies',
-        providerVersion: '0.1.5'
+        providerVersion: '0.1.5',
+        providerVersionConstraint: '0.1.5'
       },
       terraformProviderSource: 'octoenergy/splitpolicies'
     });

@@ -288,7 +288,8 @@ export class ElasticBeanstalkConfigurationTemplate extends cdktf.TerraformResour
       terraformResourceType: 'aws_elastic_beanstalk_configuration_template',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '3.29.6'
+        providerVersion: '3.29.6',
+        providerVersionConstraint: '3.29.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

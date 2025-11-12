@@ -68,7 +68,8 @@ export class SslUpdateCertificateRecordRetryOperation extends cdktf.TerraformRes
       terraformResourceType: 'tencentcloud_ssl_update_certificate_record_retry_operation',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -62,7 +62,8 @@ export class DnsPreferences extends cdktf.TerraformResource {
       terraformResourceType: 'tailscale_dns_preferences',
       terraformGeneratorMetadata: {
         providerName: 'tailscale',
-        providerVersion: '0.24.0'
+        providerVersion: '0.24.0',
+        providerVersionConstraint: '0.24.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -64,7 +64,8 @@ export class DataFortiosRouterCommunitylistlist extends cdktf.TerraformDataSourc
       terraformResourceType: 'fortios_router_communitylistlist',
       terraformGeneratorMetadata: {
         providerName: 'fortios',
-        providerVersion: '1.23.0'
+        providerVersion: '1.23.0',
+        providerVersionConstraint: '1.23.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

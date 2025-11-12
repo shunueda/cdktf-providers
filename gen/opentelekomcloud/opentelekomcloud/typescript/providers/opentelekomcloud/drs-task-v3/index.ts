@@ -1549,7 +1549,8 @@ export class DrsTaskV3 extends cdktf.TerraformResource {
       terraformResourceType: 'opentelekomcloud_drs_task_v3',
       terraformGeneratorMetadata: {
         providerName: 'opentelekomcloud',
-        providerVersion: '1.36.52'
+        providerVersion: '1.36.52',
+        providerVersionConstraint: '1.36.52'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

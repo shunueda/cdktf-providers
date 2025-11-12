@@ -157,7 +157,8 @@ export class DownloadClientRtorrent extends cdktf.TerraformResource {
       terraformResourceType: 'sonarr_download_client_rtorrent',
       terraformGeneratorMetadata: {
         providerName: 'sonarr',
-        providerVersion: '3.4.0'
+        providerVersion: '3.4.0',
+        providerVersionConstraint: '3.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

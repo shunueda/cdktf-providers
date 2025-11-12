@@ -62,7 +62,8 @@ export class DataAuthentikStage extends cdktf.TerraformDataSource {
       terraformResourceType: 'authentik_stage',
       terraformGeneratorMetadata: {
         providerName: 'authentik',
-        providerVersion: '2025.10.0'
+        providerVersion: '2025.10.0',
+        providerVersionConstraint: '2025.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

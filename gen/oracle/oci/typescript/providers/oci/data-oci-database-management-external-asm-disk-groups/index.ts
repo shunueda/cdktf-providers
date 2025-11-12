@@ -437,7 +437,8 @@ export class DataOciDatabaseManagementExternalAsmDiskGroups extends cdktf.Terraf
       terraformResourceType: 'oci_database_management_external_asm_disk_groups',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

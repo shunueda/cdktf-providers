@@ -80,7 +80,8 @@ export class WirelesscontrollerHotspot20AnqproamingconsortiumOilist extends cdkt
       terraformResourceType: 'fmgdevice_wirelesscontroller_hotspot20_anqproamingconsortium_oilist',
       terraformGeneratorMetadata: {
         providerName: 'fmgdevice',
-        providerVersion: '1.2.1'
+        providerVersion: '1.2.1',
+        providerVersionConstraint: '1.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

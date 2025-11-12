@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/child_account
+// https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/child_account
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataLinodeChildAccountConfig extends cdktf.TerraformMetaArgumen
   /**
   * The unique ID of this Account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/child_account#euuid DataLinodeChildAccount#euuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/child_account#euuid DataLinodeChildAccount#euuid}
   */
   readonly euuid: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/child_account linode_child_account}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/child_account linode_child_account}
 */
 export class DataLinodeChildAccount extends cdktf.TerraformDataSource {
 
@@ -32,7 +32,7 @@ export class DataLinodeChildAccount extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataLinodeChildAccount resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataLinodeChildAccount to import
-  * @param importFromId The id of the existing DataLinodeChildAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/child_account#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataLinodeChildAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/child_account#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataLinodeChildAccount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class DataLinodeChildAccount extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/child_account linode_child_account} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/child_account linode_child_account} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,7 +55,8 @@ export class DataLinodeChildAccount extends cdktf.TerraformDataSource {
       terraformResourceType: 'linode_child_account',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.5.0'
+        providerVersion: '3.5.1',
+        providerVersionConstraint: '3.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

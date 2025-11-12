@@ -2574,7 +2574,8 @@ export class AppOnboardingCitrixvdi extends cdktf.TerraformResource {
       terraformResourceType: 'prosimo_app_onboarding_citrixvdi',
       terraformGeneratorMetadata: {
         providerName: 'prosimo',
-        providerVersion: '4.5.3'
+        providerVersion: '4.5.3',
+        providerVersionConstraint: '4.5.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

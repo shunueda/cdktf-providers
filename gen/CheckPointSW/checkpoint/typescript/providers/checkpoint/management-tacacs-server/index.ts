@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_tacacs_server
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_tacacs_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface ManagementTacacsServerConfig extends cdktf.TerraformMetaArgumen
   /**
   * Color of the object. Should be one of existing colors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_tacacs_server#color ManagementTacacsServer#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_tacacs_server#color ManagementTacacsServer#color}
   */
   readonly color?: string;
   /**
   * Comments string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_tacacs_server#comments ManagementTacacsServer#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_tacacs_server#comments ManagementTacacsServer#comments}
   */
   readonly comments?: string;
   /**
   * Is there a secret key defined on the server. Must be set true when "server-type" was selected to be "TACACS+".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_tacacs_server#encryption ManagementTacacsServer#encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_tacacs_server#encryption ManagementTacacsServer#encryption}
   */
   readonly encryption?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_tacacs_server#id ManagementTacacsServer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_tacacs_server#id ManagementTacacsServer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,61 +35,61 @@ export interface ManagementTacacsServerConfig extends cdktf.TerraformMetaArgumen
   /**
   * Apply changes ignoring errors. You won't be able to publish such a changes. If ignore-warnings flag was omitted - warnings will also be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_tacacs_server#ignore_errors ManagementTacacsServer#ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_tacacs_server#ignore_errors ManagementTacacsServer#ignore_errors}
   */
   readonly ignoreErrors?: boolean | cdktf.IResolvable;
   /**
   * Apply changes ignoring warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_tacacs_server#ignore_warnings ManagementTacacsServer#ignore_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_tacacs_server#ignore_warnings ManagementTacacsServer#ignore_warnings}
   */
   readonly ignoreWarnings?: boolean | cdktf.IResolvable;
   /**
   * Object name. Must be unique in the domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_tacacs_server#name ManagementTacacsServer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_tacacs_server#name ManagementTacacsServer#name}
   */
   readonly name: string;
   /**
   * The priority of the TACACS Server in case it is a member of a TACACS Group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_tacacs_server#priority ManagementTacacsServer#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_tacacs_server#priority ManagementTacacsServer#priority}
   */
   readonly priority?: number;
   /**
   * The server's secret key. Required only when "server-type" was selected to be "TACACS+".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_tacacs_server#secret_key ManagementTacacsServer#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_tacacs_server#secret_key ManagementTacacsServer#secret_key}
   */
   readonly secretKey?: string;
   /**
   * The UID or Name of the host that is the TACACS Server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_tacacs_server#server ManagementTacacsServer#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_tacacs_server#server ManagementTacacsServer#server}
   */
   readonly server: string;
   /**
   * Server type, TACACS or TACACS+.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_tacacs_server#server_type ManagementTacacsServer#server_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_tacacs_server#server_type ManagementTacacsServer#server_type}
   */
   readonly serverType?: string;
   /**
   * Server service, only relevant when "server-type" is TACACS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_tacacs_server#service ManagementTacacsServer#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_tacacs_server#service ManagementTacacsServer#service}
   */
   readonly service?: string;
   /**
   * Collection of tag identifiers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_tacacs_server#tags ManagementTacacsServer#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_tacacs_server#tags ManagementTacacsServer#tags}
   */
   readonly tags?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_tacacs_server checkpoint_management_tacacs_server}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_tacacs_server checkpoint_management_tacacs_server}
 */
 export class ManagementTacacsServer extends cdktf.TerraformResource {
 
@@ -105,7 +105,7 @@ export class ManagementTacacsServer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementTacacsServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementTacacsServer to import
-  * @param importFromId The id of the existing ManagementTacacsServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_tacacs_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementTacacsServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_tacacs_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementTacacsServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -117,7 +117,7 @@ export class ManagementTacacsServer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_tacacs_server checkpoint_management_tacacs_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_tacacs_server checkpoint_management_tacacs_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -128,7 +128,8 @@ export class ManagementTacacsServer extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_tacacs_server',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -93,7 +93,8 @@ export class IncapsulaProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'incapsula',
       terraformGeneratorMetadata: {
         providerName: 'incapsula',
-        providerVersion: '3.35.1'
+        providerVersion: '3.35.1',
+        providerVersionConstraint: '3.35.1'
       },
       terraformProviderSource: 'imperva/incapsula'
     });

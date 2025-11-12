@@ -121,7 +121,8 @@ export class SolacebrokerProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'solacebroker',
       terraformGeneratorMetadata: {
         providerName: 'solacebroker',
-        providerVersion: '1.2.0'
+        providerVersion: '1.2.0',
+        providerVersionConstraint: '1.2.0'
       },
       terraformProviderSource: 'SolaceProducts/solacebroker'
     });

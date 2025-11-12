@@ -534,7 +534,8 @@ export class DataMinioIamPolicyDocument extends cdktf.TerraformDataSource {
       terraformResourceType: 'minio_iam_policy_document',
       terraformGeneratorMetadata: {
         providerName: 'minio',
-        providerVersion: '0.2.0'
+        providerVersion: '0.2.0',
+        providerVersionConstraint: '0.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

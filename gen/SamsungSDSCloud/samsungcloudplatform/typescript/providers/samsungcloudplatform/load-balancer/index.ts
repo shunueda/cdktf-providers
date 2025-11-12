@@ -96,7 +96,8 @@ export class LoadBalancer extends cdktf.TerraformResource {
       terraformResourceType: 'samsungcloudplatform_load_balancer',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0'
+        providerVersion: '3.15.0',
+        providerVersionConstraint: '3.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -579,7 +579,8 @@ export class SecureRuleNetwork extends cdktf.TerraformResource {
       terraformResourceType: 'sysdig_secure_rule_network',
       terraformGeneratorMetadata: {
         providerName: 'sysdig',
-        providerVersion: '3.1.0'
+        providerVersion: '3.1.0',
+        providerVersionConstraint: '3.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

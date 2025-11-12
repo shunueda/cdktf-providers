@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/dns_security_profile
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/dns_security_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface DnsSecurityProfileConfig extends cdktf.TerraformMetaArguments {
   /**
   * Botnet domains
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/dns_security_profile#botnet_domains DnsSecurityProfile#botnet_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/dns_security_profile#botnet_domains DnsSecurityProfile#botnet_domains}
   */
   readonly botnetDomains?: DnsSecurityProfileBotnetDomains;
   /**
   * The description of the DNS security profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/dns_security_profile#description DnsSecurityProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/dns_security_profile#description DnsSecurityProfile#description}
   */
   readonly description?: string;
   /**
   * The device in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/dns_security_profile#device DnsSecurityProfile#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/dns_security_profile#device DnsSecurityProfile#device}
   */
   readonly device?: string;
   /**
   * The folder in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/dns_security_profile#folder DnsSecurityProfile#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/dns_security_profile#folder DnsSecurityProfile#folder}
   */
   readonly folder?: string;
   /**
   * The name of the DNS security profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/dns_security_profile#name DnsSecurityProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/dns_security_profile#name DnsSecurityProfile#name}
   */
   readonly name?: string;
   /**
   * The snippet in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/dns_security_profile#snippet DnsSecurityProfile#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/dns_security_profile#snippet DnsSecurityProfile#snippet}
   */
   readonly snippet?: string;
 }
@@ -48,25 +48,25 @@ export interface DnsSecurityProfileBotnetDomainsDnsSecurityCategories {
   /**
   * Action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/dns_security_profile#action DnsSecurityProfile#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/dns_security_profile#action DnsSecurityProfile#action}
   */
   readonly action?: string;
   /**
   * Log level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/dns_security_profile#log_level DnsSecurityProfile#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/dns_security_profile#log_level DnsSecurityProfile#log_level}
   */
   readonly logLevel?: string;
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/dns_security_profile#name DnsSecurityProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/dns_security_profile#name DnsSecurityProfile#name}
   */
   readonly name?: string;
   /**
   * Packet capture
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/dns_security_profile#packet_capture DnsSecurityProfile#packet_capture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/dns_security_profile#packet_capture DnsSecurityProfile#packet_capture}
   */
   readonly packetCapture?: string;
 }
@@ -507,25 +507,25 @@ export interface DnsSecurityProfileBotnetDomainsListsAction {
   /**
   * Alert
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/dns_security_profile#alert DnsSecurityProfile#alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/dns_security_profile#alert DnsSecurityProfile#alert}
   */
   readonly alert?: DnsSecurityProfileBotnetDomainsListsActionAlert;
   /**
   * Allow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/dns_security_profile#allow DnsSecurityProfile#allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/dns_security_profile#allow DnsSecurityProfile#allow}
   */
   readonly allow?: DnsSecurityProfileBotnetDomainsListsActionAllow;
   /**
   * Block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/dns_security_profile#block DnsSecurityProfile#block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/dns_security_profile#block DnsSecurityProfile#block}
   */
   readonly block?: DnsSecurityProfileBotnetDomainsListsActionBlock;
   /**
   * Sinkhole
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/dns_security_profile#sinkhole DnsSecurityProfile#sinkhole}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/dns_security_profile#sinkhole DnsSecurityProfile#sinkhole}
   */
   readonly sinkhole?: DnsSecurityProfileBotnetDomainsListsActionSinkhole;
 }
@@ -708,19 +708,19 @@ export interface DnsSecurityProfileBotnetDomainsLists {
   /**
   * Action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/dns_security_profile#action DnsSecurityProfile#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/dns_security_profile#action DnsSecurityProfile#action}
   */
   readonly action?: DnsSecurityProfileBotnetDomainsListsAction;
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/dns_security_profile#name DnsSecurityProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/dns_security_profile#name DnsSecurityProfile#name}
   */
   readonly name: string;
   /**
   * Packet capture
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/dns_security_profile#packet_capture DnsSecurityProfile#packet_capture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/dns_security_profile#packet_capture DnsSecurityProfile#packet_capture}
   */
   readonly packetCapture?: string;
 }
@@ -893,13 +893,13 @@ export interface DnsSecurityProfileBotnetDomainsSinkhole {
   /**
   * Ipv4 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/dns_security_profile#ipv4_address DnsSecurityProfile#ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/dns_security_profile#ipv4_address DnsSecurityProfile#ipv4_address}
   */
   readonly ipv4Address?: string;
   /**
   * Ipv6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/dns_security_profile#ipv6_address DnsSecurityProfile#ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/dns_security_profile#ipv6_address DnsSecurityProfile#ipv6_address}
   */
   readonly ipv6Address?: string;
 }
@@ -1024,13 +1024,13 @@ export interface DnsSecurityProfileBotnetDomainsWhitelistStruct {
   /**
   * Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/dns_security_profile#description DnsSecurityProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/dns_security_profile#description DnsSecurityProfile#description}
   */
   readonly description?: string;
   /**
   * DNS domain or FQDN to be whitelisted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/dns_security_profile#name DnsSecurityProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/dns_security_profile#name DnsSecurityProfile#name}
   */
   readonly name: string;
 }
@@ -1174,25 +1174,25 @@ export interface DnsSecurityProfileBotnetDomains {
   /**
   * DNS categories
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/dns_security_profile#dns_security_categories DnsSecurityProfile#dns_security_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/dns_security_profile#dns_security_categories DnsSecurityProfile#dns_security_categories}
   */
   readonly dnsSecurityCategories?: DnsSecurityProfileBotnetDomainsDnsSecurityCategories[] | cdktf.IResolvable;
   /**
   * Dynamic lists of DNS domains
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/dns_security_profile#lists DnsSecurityProfile#lists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/dns_security_profile#lists DnsSecurityProfile#lists}
   */
   readonly lists?: DnsSecurityProfileBotnetDomainsLists[] | cdktf.IResolvable;
   /**
   * DNS sinkhole settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/dns_security_profile#sinkhole DnsSecurityProfile#sinkhole}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/dns_security_profile#sinkhole DnsSecurityProfile#sinkhole}
   */
   readonly sinkhole?: DnsSecurityProfileBotnetDomainsSinkhole;
   /**
   * DNS security overrides
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/dns_security_profile#whitelist DnsSecurityProfile#whitelist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/dns_security_profile#whitelist DnsSecurityProfile#whitelist}
   */
   readonly whitelist?: DnsSecurityProfileBotnetDomainsWhitelistStruct[] | cdktf.IResolvable;
 }
@@ -1373,7 +1373,7 @@ export class DnsSecurityProfileBotnetDomainsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/dns_security_profile scm_dns_security_profile}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/dns_security_profile scm_dns_security_profile}
 */
 export class DnsSecurityProfile extends cdktf.TerraformResource {
 
@@ -1389,7 +1389,7 @@ export class DnsSecurityProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DnsSecurityProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DnsSecurityProfile to import
-  * @param importFromId The id of the existing DnsSecurityProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/dns_security_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DnsSecurityProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/dns_security_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DnsSecurityProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1401,7 +1401,7 @@ export class DnsSecurityProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/dns_security_profile scm_dns_security_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/dns_security_profile scm_dns_security_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1412,7 +1412,8 @@ export class DnsSecurityProfile extends cdktf.TerraformResource {
       terraformResourceType: 'scm_dns_security_profile',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.3'
+        providerVersion: '1.0.4',
+        providerVersionConstraint: '1.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

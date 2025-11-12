@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/data-sources/active_active_private_link_endpoint_script
+// https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/data-sources/active_active_private_link_endpoint_script
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataRediscloudActiveActivePrivateLinkEndpointScriptConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/data-sources/active_active_private_link_endpoint_script#id DataRediscloudActiveActivePrivateLinkEndpointScript#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/data-sources/active_active_private_link_endpoint_script#id DataRediscloudActiveActivePrivateLinkEndpointScript#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface DataRediscloudActiveActivePrivateLinkEndpointScriptConfig exten
   /**
   * The ID of an Active Active subscription region
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/data-sources/active_active_private_link_endpoint_script#region_id DataRediscloudActiveActivePrivateLinkEndpointScript#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/data-sources/active_active_private_link_endpoint_script#region_id DataRediscloudActiveActivePrivateLinkEndpointScript#region_id}
   */
   readonly regionId: number;
   /**
   * The ID of an Active Active subscription
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/data-sources/active_active_private_link_endpoint_script#subscription_id DataRediscloudActiveActivePrivateLinkEndpointScript#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/data-sources/active_active_private_link_endpoint_script#subscription_id DataRediscloudActiveActivePrivateLinkEndpointScript#subscription_id}
   */
   readonly subscriptionId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/data-sources/active_active_private_link_endpoint_script rediscloud_active_active_private_link_endpoint_script}
+* Represents a {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/data-sources/active_active_private_link_endpoint_script rediscloud_active_active_private_link_endpoint_script}
 */
 export class DataRediscloudActiveActivePrivateLinkEndpointScript extends cdktf.TerraformDataSource {
 
@@ -45,7 +45,7 @@ export class DataRediscloudActiveActivePrivateLinkEndpointScript extends cdktf.T
   * Generates CDKTF code for importing a DataRediscloudActiveActivePrivateLinkEndpointScript resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataRediscloudActiveActivePrivateLinkEndpointScript to import
-  * @param importFromId The id of the existing DataRediscloudActiveActivePrivateLinkEndpointScript that should be imported. Refer to the {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/data-sources/active_active_private_link_endpoint_script#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataRediscloudActiveActivePrivateLinkEndpointScript that should be imported. Refer to the {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/data-sources/active_active_private_link_endpoint_script#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataRediscloudActiveActivePrivateLinkEndpointScript to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class DataRediscloudActiveActivePrivateLinkEndpointScript extends cdktf.T
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/data-sources/active_active_private_link_endpoint_script rediscloud_active_active_private_link_endpoint_script} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/data-sources/active_active_private_link_endpoint_script rediscloud_active_active_private_link_endpoint_script} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,7 +68,8 @@ export class DataRediscloudActiveActivePrivateLinkEndpointScript extends cdktf.T
       terraformResourceType: 'rediscloud_active_active_private_link_endpoint_script',
       terraformGeneratorMetadata: {
         providerName: 'rediscloud',
-        providerVersion: '2.7.3'
+        providerVersion: '2.8.0',
+        providerVersionConstraint: '2.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -8981,7 +8981,8 @@ export class DataK8SOperatorVictoriametricsComVmPodScrapeV1Beta1Manifest extends
       terraformResourceType: 'k8s_operator_victoriametrics_com_vm_pod_scrape_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

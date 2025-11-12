@@ -60,7 +60,8 @@ export class DataGocacheIpRanges extends cdktf.TerraformDataSource {
       terraformResourceType: 'gocache_ip_ranges',
       terraformGeneratorMetadata: {
         providerName: 'gocache',
-        providerVersion: '0.3.2'
+        providerVersion: '0.3.2',
+        providerVersionConstraint: '0.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

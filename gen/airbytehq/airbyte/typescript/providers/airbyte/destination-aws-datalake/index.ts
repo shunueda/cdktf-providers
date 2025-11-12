@@ -1575,7 +1575,8 @@ export class DestinationAwsDatalake extends cdktf.TerraformResource {
       terraformResourceType: 'airbyte_destination_aws_datalake',
       terraformGeneratorMetadata: {
         providerName: 'airbyte',
-        providerVersion: '0.13.0'
+        providerVersion: '0.13.0',
+        providerVersionConstraint: '0.13.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

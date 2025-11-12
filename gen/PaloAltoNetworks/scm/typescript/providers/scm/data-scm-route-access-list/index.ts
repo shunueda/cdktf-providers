@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/route_access_list
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/route_access_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataScmRouteAccessListConfig extends cdktf.TerraformMetaArgumen
   /**
   * UUID of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/route_access_list#id DataScmRouteAccessList#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/route_access_list#id DataScmRouteAccessList#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,9 +19,68 @@ export interface DataScmRouteAccessListConfig extends cdktf.TerraformMetaArgumen
   /**
   * Route access list name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/route_access_list#name DataScmRouteAccessList#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/route_access_list#name DataScmRouteAccessList#name}
   */
   readonly name?: string;
+}
+export interface DataScmRouteAccessListTypeIpv4Ipv4EntryDestinationAddressEntry {
+}
+
+export function dataScmRouteAccessListTypeIpv4Ipv4EntryDestinationAddressEntryToTerraform(struct?: DataScmRouteAccessListTypeIpv4Ipv4EntryDestinationAddressEntry): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataScmRouteAccessListTypeIpv4Ipv4EntryDestinationAddressEntryToHclTerraform(struct?: DataScmRouteAccessListTypeIpv4Ipv4EntryDestinationAddressEntry): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataScmRouteAccessListTypeIpv4Ipv4EntryDestinationAddressEntryOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataScmRouteAccessListTypeIpv4Ipv4EntryDestinationAddressEntry | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataScmRouteAccessListTypeIpv4Ipv4EntryDestinationAddressEntry | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // address - computed: true, optional: false, required: false
+  public get address() {
+    return this.getStringAttribute('address');
+  }
+
+  // wildcard - computed: true, optional: false, required: false
+  public get wildcard() {
+    return this.getStringAttribute('wildcard');
+  }
 }
 export interface DataScmRouteAccessListTypeIpv4Ipv4EntryDestinationAddress {
 }
@@ -64,6 +123,66 @@ export class DataScmRouteAccessListTypeIpv4Ipv4EntryDestinationAddressOutputRefe
   }
 
   public set internalValue(value: DataScmRouteAccessListTypeIpv4Ipv4EntryDestinationAddress | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // address - computed: true, optional: false, required: false
+  public get address() {
+    return this.getStringAttribute('address');
+  }
+
+  // entry - computed: true, optional: false, required: false
+  private _entry = new DataScmRouteAccessListTypeIpv4Ipv4EntryDestinationAddressEntryOutputReference(this, "entry");
+  public get entry() {
+    return this._entry;
+  }
+}
+export interface DataScmRouteAccessListTypeIpv4Ipv4EntrySourceAddressEntry {
+}
+
+export function dataScmRouteAccessListTypeIpv4Ipv4EntrySourceAddressEntryToTerraform(struct?: DataScmRouteAccessListTypeIpv4Ipv4EntrySourceAddressEntry): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataScmRouteAccessListTypeIpv4Ipv4EntrySourceAddressEntryToHclTerraform(struct?: DataScmRouteAccessListTypeIpv4Ipv4EntrySourceAddressEntry): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataScmRouteAccessListTypeIpv4Ipv4EntrySourceAddressEntryOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataScmRouteAccessListTypeIpv4Ipv4EntrySourceAddressEntry | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataScmRouteAccessListTypeIpv4Ipv4EntrySourceAddressEntry | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -136,9 +255,10 @@ export class DataScmRouteAccessListTypeIpv4Ipv4EntrySourceAddressOutputReference
     return this.getStringAttribute('address');
   }
 
-  // wildcard - computed: true, optional: false, required: false
-  public get wildcard() {
-    return this.getStringAttribute('wildcard');
+  // entry - computed: true, optional: false, required: false
+  private _entry = new DataScmRouteAccessListTypeIpv4Ipv4EntrySourceAddressEntryOutputReference(this, "entry");
+  public get entry() {
+    return this._entry;
   }
 }
 export interface DataScmRouteAccessListTypeIpv4Ipv4Entry {
@@ -345,7 +465,7 @@ export class DataScmRouteAccessListTypeOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/route_access_list scm_route_access_list}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/route_access_list scm_route_access_list}
 */
 export class DataScmRouteAccessList extends cdktf.TerraformDataSource {
 
@@ -361,7 +481,7 @@ export class DataScmRouteAccessList extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataScmRouteAccessList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataScmRouteAccessList to import
-  * @param importFromId The id of the existing DataScmRouteAccessList that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/route_access_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataScmRouteAccessList that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/route_access_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataScmRouteAccessList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -373,7 +493,7 @@ export class DataScmRouteAccessList extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/route_access_list scm_route_access_list} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/route_access_list scm_route_access_list} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -384,7 +504,8 @@ export class DataScmRouteAccessList extends cdktf.TerraformDataSource {
       terraformResourceType: 'scm_route_access_list',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.3'
+        providerVersion: '1.0.4',
+        providerVersionConstraint: '1.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

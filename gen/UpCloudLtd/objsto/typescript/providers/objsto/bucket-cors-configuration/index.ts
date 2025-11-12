@@ -351,7 +351,8 @@ export class BucketCorsConfiguration extends cdktf.TerraformResource {
       terraformResourceType: 'objsto_bucket_cors_configuration',
       terraformGeneratorMetadata: {
         providerName: 'objsto',
-        providerVersion: '0.2.0'
+        providerVersion: '0.2.0',
+        providerVersionConstraint: '0.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

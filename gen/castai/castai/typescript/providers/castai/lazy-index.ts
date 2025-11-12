@@ -3,6 +3,7 @@ Object.defineProperty(exports, 'aksCluster', { get: function () { return require
 Object.defineProperty(exports, 'allocationGroup', { get: function () { return require('./allocation-group'); } });
 Object.defineProperty(exports, 'autoscaler', { get: function () { return require('./autoscaler'); } });
 Object.defineProperty(exports, 'commitments', { get: function () { return require('./commitments'); } });
+Object.defineProperty(exports, 'edgeLocation', { get: function () { return require('./edge-location'); } });
 Object.defineProperty(exports, 'eksCluster', { get: function () { return require('./eks-cluster'); } });
 Object.defineProperty(exports, 'eksClusterid', { get: function () { return require('./eks-clusterid'); } });
 Object.defineProperty(exports, 'eksUserArn', { get: function () { return require('./eks-user-arn'); } });
@@ -15,6 +16,7 @@ Object.defineProperty(exports, 'hibernationSchedule', { get: function () { retur
 Object.defineProperty(exports, 'nodeConfiguration', { get: function () { return require('./node-configuration'); } });
 Object.defineProperty(exports, 'nodeConfigurationDefault', { get: function () { return require('./node-configuration-default'); } });
 Object.defineProperty(exports, 'nodeTemplate', { get: function () { return require('./node-template'); } });
+Object.defineProperty(exports, 'omniCluster', { get: function () { return require('./omni-cluster'); } });
 Object.defineProperty(exports, 'organizationGroup', { get: function () { return require('./organization-group'); } });
 Object.defineProperty(exports, 'organizationMembers', { get: function () { return require('./organization-members'); } });
 Object.defineProperty(exports, 'rebalancingJob', { get: function () { return require('./rebalancing-job'); } });
@@ -28,7 +30,6 @@ Object.defineProperty(exports, 'ssoConnection', { get: function () { return requ
 Object.defineProperty(exports, 'workloadScalingPolicy', { get: function () { return require('./workload-scaling-policy'); } });
 Object.defineProperty(exports, 'workloadScalingPolicyOrder', { get: function () { return require('./workload-scaling-policy-order'); } });
 Object.defineProperty(exports, 'dataCastaiEksSettings', { get: function () { return require('./data-castai-eks-settings'); } });
-Object.defineProperty(exports, 'dataCastaiEksUserArn', { get: function () { return require('./data-castai-eks-user-arn'); } });
 Object.defineProperty(exports, 'dataCastaiGkeUserPolicies', { get: function () { return require('./data-castai-gke-user-policies'); } });
 Object.defineProperty(exports, 'dataCastaiHibernationSchedule', { get: function () { return require('./data-castai-hibernation-schedule'); } });
 Object.defineProperty(exports, 'dataCastaiOrganization', { get: function () { return require('./data-castai-organization'); } });

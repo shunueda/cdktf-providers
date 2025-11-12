@@ -74,7 +74,8 @@ export class Acl extends cdktf.TerraformResource {
       terraformResourceType: 'tailscale_acl',
       terraformGeneratorMetadata: {
         providerName: 'tailscale',
-        providerVersion: '0.24.0'
+        providerVersion: '0.24.0',
+        providerVersionConstraint: '0.24.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

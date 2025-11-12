@@ -212,7 +212,8 @@ export class ComputeBackendBucketSignedUrlKey extends cdktf.TerraformResource {
       terraformResourceType: 'google_compute_backend_bucket_signed_url_key',
       terraformGeneratorMetadata: {
         providerName: 'google',
-        providerVersion: '4.16.4'
+        providerVersion: '4.16.4',
+        providerVersionConstraint: '4.16.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

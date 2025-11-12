@@ -388,7 +388,8 @@ export class EdgePlatformDeviceOnboarding extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_edge_platform_device_onboarding',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10'
+        providerVersion: '8.1.10',
+        providerVersionConstraint: '8.1.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

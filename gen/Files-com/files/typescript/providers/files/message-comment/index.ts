@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/files-com/files/0.1.375/docs/resources/message_comment
+// https://registry.terraform.io/providers/files-com/files/0.1.377/docs/resources/message_comment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface MessageCommentConfig extends cdktf.TerraformMetaArguments {
   /**
   * Comment body.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.375/docs/resources/message_comment#body MessageComment#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.377/docs/resources/message_comment#body MessageComment#body}
   */
   readonly body: string;
   /**
   * User ID.  Provide a value of `0` to operate the current session's user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.375/docs/resources/message_comment#user_id MessageComment#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.377/docs/resources/message_comment#user_id MessageComment#user_id}
   */
   readonly userId?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.375/docs/resources/message_comment files_message_comment}
+* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.377/docs/resources/message_comment files_message_comment}
 */
 export class MessageComment extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class MessageComment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MessageComment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MessageComment to import
-  * @param importFromId The id of the existing MessageComment that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.375/docs/resources/message_comment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MessageComment that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.377/docs/resources/message_comment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MessageComment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class MessageComment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.375/docs/resources/message_comment files_message_comment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.377/docs/resources/message_comment files_message_comment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,7 +61,8 @@ export class MessageComment extends cdktf.TerraformResource {
       terraformResourceType: 'files_message_comment',
       terraformGeneratorMetadata: {
         providerName: 'files',
-        providerVersion: '0.1.375'
+        providerVersion: '0.1.377',
+        providerVersionConstraint: '0.1.377'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

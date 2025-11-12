@@ -68,7 +68,8 @@ export class DataValidation extends cdktf.TerraformDataSource {
       terraformResourceType: 'validation',
       terraformGeneratorMetadata: {
         providerName: 'validation',
-        providerVersion: '0.0.4'
+        providerVersion: '0.0.4',
+        providerVersionConstraint: '0.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

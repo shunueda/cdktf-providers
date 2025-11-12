@@ -403,7 +403,8 @@ export class DataFortisaseSecurityDlpSensors extends cdktf.TerraformDataSource {
       terraformResourceType: 'fortisase_security_dlp_sensors',
       terraformGeneratorMetadata: {
         providerName: 'fortisase',
-        providerVersion: '1.0.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

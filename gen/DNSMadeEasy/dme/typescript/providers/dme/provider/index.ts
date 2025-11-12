@@ -91,7 +91,8 @@ export class DmeProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'dme',
       terraformGeneratorMetadata: {
         providerName: 'dme',
-        providerVersion: '1.0.8'
+        providerVersion: '1.0.8',
+        providerVersionConstraint: '1.0.8'
       },
       terraformProviderSource: 'DNSMadeEasy/dme'
     });

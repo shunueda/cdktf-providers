@@ -78,7 +78,8 @@ export class RouterBgpAddressFamilyIpv6NeighborVeNeighborIpv6 extends cdktf.Terr
       terraformResourceType: 'thunder_router_bgp_address_family_ipv6_neighbor_ve_neighbor_ipv6',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

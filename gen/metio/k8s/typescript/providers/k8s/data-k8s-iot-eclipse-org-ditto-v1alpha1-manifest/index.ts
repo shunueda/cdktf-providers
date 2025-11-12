@@ -8559,7 +8559,8 @@ export class DataK8SIotEclipseOrgDittoV1Alpha1Manifest extends cdktf.TerraformDa
       terraformResourceType: 'k8s_iot_eclipse_org_ditto_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

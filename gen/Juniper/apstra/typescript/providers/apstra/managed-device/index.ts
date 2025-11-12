@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/managed_device
+// https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/managed_device
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface ManagedDeviceConfig extends cdktf.TerraformMetaArguments {
   /**
   * ID of the Agent Profile used when instantiating the Agent. An Agent Profile isrequired to specify the login credentials and platform type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/managed_device#agent_profile_id ManagedDevice#agent_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/managed_device#agent_profile_id ManagedDevice#agent_profile_id}
   */
   readonly agentProfileId: string;
   /**
   * Key which uniquely identifies a System asset. Possibly a MAC address or serial number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/managed_device#device_key ManagedDevice#device_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/managed_device#device_key ManagedDevice#device_key}
   */
   readonly deviceKey?: string;
   /**
   * Device `location` field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/managed_device#location ManagedDevice#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/managed_device#location ManagedDevice#location}
   */
   readonly location?: string;
   /**
   * Management IP address of the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/managed_device#management_ip ManagedDevice#management_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/managed_device#management_ip ManagedDevice#management_ip}
   */
   readonly managementIp: string;
   /**
   * Indicates that an *offbox* agent should be created (required for Junos devices, default: `true`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/managed_device#off_box ManagedDevice#off_box}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/managed_device#off_box ManagedDevice#off_box}
   */
   readonly offBox?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/managed_device apstra_managed_device}
+* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/managed_device apstra_managed_device}
 */
 export class ManagedDevice extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class ManagedDevice extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagedDevice resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagedDevice to import
-  * @param importFromId The id of the existing ManagedDevice that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/managed_device#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagedDevice that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/managed_device#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagedDevice to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class ManagedDevice extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/managed_device apstra_managed_device} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/managed_device apstra_managed_device} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,7 +79,8 @@ export class ManagedDevice extends cdktf.TerraformResource {
       terraformResourceType: 'apstra_managed_device',
       terraformGeneratorMetadata: {
         providerName: 'apstra',
-        providerVersion: '0.95.0'
+        providerVersion: '0.95.1',
+        providerVersionConstraint: '0.95.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -103,7 +103,8 @@ export class IntegrationServicenow extends cdktf.TerraformResource {
       terraformResourceType: 'wiz_integration_servicenow',
       terraformGeneratorMetadata: {
         providerName: 'wiz',
-        providerVersion: '1.2.5'
+        providerVersion: '1.2.5',
+        providerVersionConstraint: '1.2.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

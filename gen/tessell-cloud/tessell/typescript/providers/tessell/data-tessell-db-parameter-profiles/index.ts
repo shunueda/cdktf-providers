@@ -671,7 +671,8 @@ export class DataTessellDbParameterProfiles extends cdktf.TerraformDataSource {
       terraformResourceType: 'tessell_db_parameter_profiles',
       terraformGeneratorMetadata: {
         providerName: 'tessell',
-        providerVersion: '0.0.27'
+        providerVersion: '0.0.27',
+        providerVersionConstraint: '0.0.27'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

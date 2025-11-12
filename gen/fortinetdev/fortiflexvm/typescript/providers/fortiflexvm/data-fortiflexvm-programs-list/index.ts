@@ -151,7 +151,8 @@ export class DataFortiflexvmProgramsList extends cdktf.TerraformDataSource {
       terraformResourceType: 'fortiflexvm_programs_list',
       terraformGeneratorMetadata: {
         providerName: 'fortiflexvm',
-        providerVersion: '2.4.3'
+        providerVersion: '2.4.3',
+        providerVersionConstraint: '2.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

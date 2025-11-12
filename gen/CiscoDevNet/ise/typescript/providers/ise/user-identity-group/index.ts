@@ -67,7 +67,8 @@ export class UserIdentityGroup extends cdktf.TerraformResource {
       terraformResourceType: 'ise_user_identity_group',
       terraformGeneratorMetadata: {
         providerName: 'ise',
-        providerVersion: '0.2.12'
+        providerVersion: '0.2.12',
+        providerVersionConstraint: '0.2.12'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

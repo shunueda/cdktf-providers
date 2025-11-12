@@ -177,7 +177,8 @@ export class DataBuddyPermissions extends cdktf.TerraformDataSource {
       terraformResourceType: 'buddy_permissions',
       terraformGeneratorMetadata: {
         providerName: 'buddy',
-        providerVersion: '1.37.1'
+        providerVersion: '1.37.1',
+        providerVersionConstraint: '1.37.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

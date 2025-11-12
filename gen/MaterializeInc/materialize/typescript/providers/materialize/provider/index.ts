@@ -115,7 +115,8 @@ export class MaterializeProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'materialize',
       terraformGeneratorMetadata: {
         providerName: 'materialize',
-        providerVersion: '0.9.2'
+        providerVersion: '0.9.2',
+        providerVersionConstraint: '0.9.2'
       },
       terraformProviderSource: 'MaterializeInc/materialize'
     });

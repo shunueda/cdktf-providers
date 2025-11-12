@@ -861,7 +861,8 @@ export class VirtualNetwork extends cdktf.TerraformResource {
       terraformResourceType: 'opennebula_virtual_network',
       terraformGeneratorMetadata: {
         providerName: 'opennebula',
-        providerVersion: '1.5.0'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

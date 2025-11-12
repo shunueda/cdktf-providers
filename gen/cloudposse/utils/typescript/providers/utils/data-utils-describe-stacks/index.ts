@@ -128,7 +128,8 @@ export class DataUtilsDescribeStacks extends cdktf.TerraformDataSource {
       terraformResourceType: 'utils_describe_stacks',
       terraformGeneratorMetadata: {
         providerName: 'utils',
-        providerVersion: '1.31.0'
+        providerVersion: '1.31.0',
+        providerVersionConstraint: '1.31.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

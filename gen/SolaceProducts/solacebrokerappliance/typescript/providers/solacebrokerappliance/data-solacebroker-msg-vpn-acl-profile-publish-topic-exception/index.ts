@@ -87,7 +87,8 @@ export class DataSolacebrokerMsgVpnAclProfilePublishTopicException extends cdktf
       terraformResourceType: 'solacebroker_msg_vpn_acl_profile_publish_topic_exception',
       terraformGeneratorMetadata: {
         providerName: 'solacebrokerappliance',
-        providerVersion: '1.2.0'
+        providerVersion: '1.2.0',
+        providerVersionConstraint: '1.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

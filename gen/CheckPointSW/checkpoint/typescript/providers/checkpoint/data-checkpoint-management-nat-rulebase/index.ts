@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_nat_rulebase
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_nat_rulebase
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -14,23 +14,23 @@ export interface DataCheckpointManagementNatRulebaseConfig extends cdktf.Terrafo
   * 
   * Note: Requesting to show rules as ranges is limited up to 20 rules per request, otherwise an error is returned. If you wish to request more rules, use the offset and limit parameters to limit your request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_nat_rulebase#dereference_group_members DataCheckpointManagementNatRulebase#dereference_group_members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_nat_rulebase#dereference_group_members DataCheckpointManagementNatRulebase#dereference_group_members}
   */
   readonly dereferenceGroupMembers?: boolean | cdktf.IResolvable;
   /**
   * Search expression to filter the rulebase. The provided text should be exactly the same as it would be given in Smart Console. The logical operators in the expression ('AND', 'OR') should be provided in capital letters. If an operator is not used, the default OR operator applies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_nat_rulebase#filter DataCheckpointManagementNatRulebase#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_nat_rulebase#filter DataCheckpointManagementNatRulebase#filter}
   */
   readonly filter?: string;
   /**
   * Sets filter preferences.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_nat_rulebase#filter_settings DataCheckpointManagementNatRulebase#filter_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_nat_rulebase#filter_settings DataCheckpointManagementNatRulebase#filter_settings}
   */
   readonly filterSettings?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_nat_rulebase#id DataCheckpointManagementNatRulebase#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_nat_rulebase#id DataCheckpointManagementNatRulebase#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -39,37 +39,37 @@ export interface DataCheckpointManagementNatRulebaseConfig extends cdktf.Terrafo
   /**
   * The maximal number of returned results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_nat_rulebase#limit DataCheckpointManagementNatRulebase#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_nat_rulebase#limit DataCheckpointManagementNatRulebase#limit}
   */
   readonly limit?: number;
   /**
   * Number of the results to initially skip.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_nat_rulebase#offset DataCheckpointManagementNatRulebase#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_nat_rulebase#offset DataCheckpointManagementNatRulebase#offset}
   */
   readonly offset?: number;
   /**
   * Name of the package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_nat_rulebase#package DataCheckpointManagementNatRulebase#package}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_nat_rulebase#package DataCheckpointManagementNatRulebase#package}
   */
   readonly package: string;
   /**
   * N/A
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_nat_rulebase#show_membership DataCheckpointManagementNatRulebase#show_membership}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_nat_rulebase#show_membership DataCheckpointManagementNatRulebase#show_membership}
   */
   readonly showMembership?: boolean | cdktf.IResolvable;
   /**
   * Object unique identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_nat_rulebase#uid DataCheckpointManagementNatRulebase#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_nat_rulebase#uid DataCheckpointManagementNatRulebase#uid}
   */
   readonly uid?: string;
   /**
   * order block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_nat_rulebase#order DataCheckpointManagementNatRulebase#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_nat_rulebase#order DataCheckpointManagementNatRulebase#order}
   */
   readonly order?: DataCheckpointManagementNatRulebaseOrder[] | cdktf.IResolvable;
 }
@@ -555,13 +555,13 @@ export interface DataCheckpointManagementNatRulebaseOrder {
   /**
   * Sorts results by the given field in ascending order.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_nat_rulebase#asc DataCheckpointManagementNatRulebase#asc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_nat_rulebase#asc DataCheckpointManagementNatRulebase#asc}
   */
   readonly asc?: string;
   /**
   * Sorts results by the given field in descending order.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_nat_rulebase#desc DataCheckpointManagementNatRulebase#desc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_nat_rulebase#desc DataCheckpointManagementNatRulebase#desc}
   */
   readonly desc?: string;
 }
@@ -706,7 +706,7 @@ export class DataCheckpointManagementNatRulebaseOrderList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_nat_rulebase checkpoint_management_nat_rulebase}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_nat_rulebase checkpoint_management_nat_rulebase}
 */
 export class DataCheckpointManagementNatRulebase extends cdktf.TerraformDataSource {
 
@@ -722,7 +722,7 @@ export class DataCheckpointManagementNatRulebase extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataCheckpointManagementNatRulebase resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCheckpointManagementNatRulebase to import
-  * @param importFromId The id of the existing DataCheckpointManagementNatRulebase that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_nat_rulebase#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCheckpointManagementNatRulebase that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_nat_rulebase#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCheckpointManagementNatRulebase to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -734,7 +734,7 @@ export class DataCheckpointManagementNatRulebase extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_nat_rulebase checkpoint_management_nat_rulebase} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_nat_rulebase checkpoint_management_nat_rulebase} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -745,7 +745,8 @@ export class DataCheckpointManagementNatRulebase extends cdktf.TerraformDataSour
       terraformResourceType: 'checkpoint_management_nat_rulebase',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

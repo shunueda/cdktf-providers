@@ -81,7 +81,8 @@ export class DataSolacebrokerMsgVpnDistributedCacheClusterTopic extends cdktf.Te
       terraformResourceType: 'solacebroker_msg_vpn_distributed_cache_cluster_topic',
       terraformGeneratorMetadata: {
         providerName: 'solacebrokerappliance',
-        providerVersion: '1.2.0'
+        providerVersion: '1.2.0',
+        providerVersionConstraint: '1.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

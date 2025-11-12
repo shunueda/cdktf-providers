@@ -115,7 +115,8 @@ export class NetaddrProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'netaddr',
       terraformGeneratorMetadata: {
         providerName: 'netaddr',
-        providerVersion: '0.5.1'
+        providerVersion: '0.5.1',
+        providerVersionConstraint: '0.5.1'
       },
       terraformProviderSource: 'Ferlab-Ste-Justine/netaddr'
     });

@@ -55,7 +55,8 @@ export class QbecProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'qbec',
       terraformGeneratorMetadata: {
         providerName: 'qbec',
-        providerVersion: '0.0.1'
+        providerVersion: '0.0.1',
+        providerVersionConstraint: '0.0.1'
       },
       terraformProviderSource: 'splunk/qbec'
     });

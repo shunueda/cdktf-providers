@@ -244,7 +244,8 @@ export class DataSdwanCiscoThousandeyesFeatureTemplate extends cdktf.TerraformDa
       terraformResourceType: 'sdwan_cisco_thousandeyes_feature_template',
       terraformGeneratorMetadata: {
         providerName: 'sdwan',
-        providerVersion: '0.8.1'
+        providerVersion: '0.8.1',
+        providerVersionConstraint: '0.8.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

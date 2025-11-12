@@ -55,7 +55,8 @@ export class DataCockroachPersonUser extends cdktf.TerraformDataSource {
       terraformResourceType: 'cockroach_person_user',
       terraformGeneratorMetadata: {
         providerName: 'cockroach',
-        providerVersion: '1.16.0'
+        providerVersion: '1.16.0',
+        providerVersionConstraint: '1.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

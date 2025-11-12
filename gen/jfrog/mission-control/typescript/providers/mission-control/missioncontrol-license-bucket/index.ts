@@ -73,7 +73,8 @@ export class MissioncontrolLicenseBucket extends cdktf.TerraformResource {
       terraformResourceType: 'missioncontrol_license_bucket',
       terraformGeneratorMetadata: {
         providerName: 'mission-control',
-        providerVersion: '1.1.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

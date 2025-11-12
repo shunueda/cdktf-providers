@@ -1541,7 +1541,8 @@ export class ApiAuthenticationIntegrationWithClientCredentials extends cdktf.Ter
       terraformResourceType: 'snowflake_api_authentication_integration_with_client_credentials',
       terraformGeneratorMetadata: {
         providerName: 'snowflake',
-        providerVersion: '2.10.1'
+        providerVersion: '2.10.1',
+        providerVersionConstraint: '2.10.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -3591,7 +3591,8 @@ export class OauthResourceOwnerCredentialsMapping extends cdktf.TerraformResourc
       terraformResourceType: 'pingfederate_oauth_resource_owner_credentials_mapping',
       terraformGeneratorMetadata: {
         providerName: 'pingfederate',
-        providerVersion: '1.6.2'
+        providerVersion: '1.6.2',
+        providerVersionConstraint: '1.6.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

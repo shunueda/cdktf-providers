@@ -211,7 +211,8 @@ export class CloudServer extends cdktf.TerraformResource {
       terraformResourceType: 'ah_cloud_server',
       terraformGeneratorMetadata: {
         providerName: 'ah',
-        providerVersion: '0.3.6'
+        providerVersion: '0.3.6',
+        providerVersionConstraint: '0.3.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

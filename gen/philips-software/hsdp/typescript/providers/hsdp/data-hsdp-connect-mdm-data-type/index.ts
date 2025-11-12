@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/data-sources/connect_mdm_data_type
+// https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/data-sources/connect_mdm_data_type
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,24 +8,24 @@ import * as cdktf from 'cdktf';
 
 export interface DataHsdpConnectMdmDataTypeConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/data-sources/connect_mdm_data_type#id DataHsdpConnectMdmDataType#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/data-sources/connect_mdm_data_type#id DataHsdpConnectMdmDataType#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/data-sources/connect_mdm_data_type#name DataHsdpConnectMdmDataType#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/data-sources/connect_mdm_data_type#name DataHsdpConnectMdmDataType#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/data-sources/connect_mdm_data_type#proposition_id DataHsdpConnectMdmDataType#proposition_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/data-sources/connect_mdm_data_type#proposition_id DataHsdpConnectMdmDataType#proposition_id}
   */
   readonly propositionId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/data-sources/connect_mdm_data_type hsdp_connect_mdm_data_type}
+* Represents a {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/data-sources/connect_mdm_data_type hsdp_connect_mdm_data_type}
 */
 export class DataHsdpConnectMdmDataType extends cdktf.TerraformDataSource {
 
@@ -41,7 +41,7 @@ export class DataHsdpConnectMdmDataType extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataHsdpConnectMdmDataType resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHsdpConnectMdmDataType to import
-  * @param importFromId The id of the existing DataHsdpConnectMdmDataType that should be imported. Refer to the {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/data-sources/connect_mdm_data_type#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHsdpConnectMdmDataType that should be imported. Refer to the {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/data-sources/connect_mdm_data_type#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHsdpConnectMdmDataType to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -53,7 +53,7 @@ export class DataHsdpConnectMdmDataType extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/data-sources/connect_mdm_data_type hsdp_connect_mdm_data_type} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/data-sources/connect_mdm_data_type hsdp_connect_mdm_data_type} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -64,7 +64,8 @@ export class DataHsdpConnectMdmDataType extends cdktf.TerraformDataSource {
       terraformResourceType: 'hsdp_connect_mdm_data_type',
       terraformGeneratorMetadata: {
         providerName: 'hsdp',
-        providerVersion: '0.70.0'
+        providerVersion: '0.71.0',
+        providerVersionConstraint: '0.71.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

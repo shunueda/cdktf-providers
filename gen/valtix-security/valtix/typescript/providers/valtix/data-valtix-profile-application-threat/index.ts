@@ -60,7 +60,8 @@ export class DataValtixProfileApplicationThreat extends cdktf.TerraformDataSourc
       terraformResourceType: 'valtix_profile_application_threat',
       terraformGeneratorMetadata: {
         providerName: 'valtix',
-        providerVersion: '25.9.2'
+        providerVersion: '25.9.2',
+        providerVersionConstraint: '25.9.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

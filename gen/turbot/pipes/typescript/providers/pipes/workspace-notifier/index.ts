@@ -100,7 +100,8 @@ export class WorkspaceNotifier extends cdktf.TerraformResource {
       terraformResourceType: 'pipes_workspace_notifier',
       terraformGeneratorMetadata: {
         providerName: 'pipes',
-        providerVersion: '0.17.0'
+        providerVersion: '0.17.0',
+        providerVersionConstraint: '0.17.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

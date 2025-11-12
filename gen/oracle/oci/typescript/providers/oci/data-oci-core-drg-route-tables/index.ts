@@ -381,7 +381,8 @@ export class DataOciCoreDrgRouteTables extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_core_drg_route_tables',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

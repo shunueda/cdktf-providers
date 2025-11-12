@@ -958,7 +958,8 @@ export class DataPowermaxSnapshot extends cdktf.TerraformDataSource {
       terraformResourceType: 'powermax_snapshot',
       terraformGeneratorMetadata: {
         providerName: 'powermax',
-        providerVersion: '1.0.3'
+        providerVersion: '1.0.3',
+        providerVersionConstraint: '1.0.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

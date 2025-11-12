@@ -121,7 +121,8 @@ export class SolacebrokerMsgVpnAclProfile extends cdktf.TerraformResource {
       terraformResourceType: 'solacebroker_msg_vpn_acl_profile',
       terraformGeneratorMetadata: {
         providerName: 'solacebrokerappliance',
-        providerVersion: '1.2.0'
+        providerVersion: '1.2.0',
+        providerVersionConstraint: '1.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

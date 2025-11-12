@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/flow_exporter
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/flow_exporter
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,95 +11,151 @@ export interface FlowExporterConfig extends cdktf.TerraformMetaArguments {
   * Configure behavior when deleting/destroying the resource. Either delete the entire object (YANG container) being managed, or only delete the individual resource attributes configured explicitly and leave everything else as-is. Default value is `all`.
   *   - Choices: `all`, `attributes`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/flow_exporter#delete_mode FlowExporter#delete_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/flow_exporter#delete_mode FlowExporter#delete_mode}
   */
   readonly deleteMode?: string;
   /**
   * Provide a description for this Flow Exporter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/flow_exporter#description FlowExporter#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/flow_exporter#description FlowExporter#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/flow_exporter#destination_ip FlowExporter#destination_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/flow_exporter#destination_ip FlowExporter#destination_ip}
   */
   readonly destinationIp?: string;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/flow_exporter#device FlowExporter#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/flow_exporter#device FlowExporter#device}
   */
   readonly device?: string;
   /**
   * Export protocol version
   *   - Choices: `ipfix`, `netflow-v5`, `netflow-v9`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/flow_exporter#export_protocol FlowExporter#export_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/flow_exporter#export_protocol FlowExporter#export_protocol}
   */
   readonly exportProtocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/flow_exporter#name FlowExporter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/flow_exporter#name FlowExporter#name}
   */
   readonly name: string;
   /**
   * Option resend time
   *   - Range: `1`-`86400`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/flow_exporter#option_application_attributes_timeout FlowExporter#option_application_attributes_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/flow_exporter#option_application_attributes_timeout FlowExporter#option_application_attributes_timeout}
   */
   readonly optionApplicationAttributesTimeout?: number;
   /**
   * Option resend time
   *   - Range: `1`-`86400`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/flow_exporter#option_application_table_timeout FlowExporter#option_application_table_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/flow_exporter#option_application_table_timeout FlowExporter#option_application_table_timeout}
   */
   readonly optionApplicationTableTimeout?: number;
   /**
   * Option resend time
   *   - Range: `1`-`86400`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/flow_exporter#option_interface_table_timeout FlowExporter#option_interface_table_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/flow_exporter#option_interface_table_timeout FlowExporter#option_interface_table_timeout}
   */
   readonly optionInterfaceTableTimeout?: number;
   /**
   * Export Sampler Option
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/flow_exporter#option_sampler_table FlowExporter#option_sampler_table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/flow_exporter#option_sampler_table FlowExporter#option_sampler_table}
   */
   readonly optionSamplerTable?: boolean | cdktf.IResolvable;
   /**
   * Option resend time
   *   - Range: `1`-`86400`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/flow_exporter#option_vrf_table_timeout FlowExporter#option_vrf_table_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/flow_exporter#option_vrf_table_timeout FlowExporter#option_vrf_table_timeout}
   */
   readonly optionVrfTableTimeout?: number;
+  /**
+  * Five GigabitEthernet 
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/flow_exporter#source_five_gigabit_ethernet FlowExporter#source_five_gigabit_ethernet}
+  */
+  readonly sourceFiveGigabitEthernet?: string;
+  /**
+  * Forty GigabitEthernet 
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/flow_exporter#source_forty_gigabit_ethernet FlowExporter#source_forty_gigabit_ethernet}
+  */
+  readonly sourceFortyGigabitEthernet?: string;
+  /**
+  * GigabitEthernet IEEE 802.3z
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/flow_exporter#source_gigabit_ethernet FlowExporter#source_gigabit_ethernet}
+  */
+  readonly sourceGigabitEthernet?: string;
+  /**
+  * Hundred GigabitEthernet
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/flow_exporter#source_hundred_gigabit_ethernet FlowExporter#source_hundred_gigabit_ethernet}
+  */
+  readonly sourceHundredGigabitEthernet?: string;
   /**
   * Loopback interface
   *   - Range: `0`-`2147483647`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/flow_exporter#source_loopback FlowExporter#source_loopback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/flow_exporter#source_loopback FlowExporter#source_loopback}
   */
   readonly sourceLoopback?: number;
+  /**
+  * Ethernet Channel of interfaces
+  *   - Range: `0`-`4294967295`
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/flow_exporter#source_port_channel FlowExporter#source_port_channel}
+  */
+  readonly sourcePortChannel?: number;
+  /**
+  * Ten Gigabit Ethernet
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/flow_exporter#source_ten_gigabit_ethernet FlowExporter#source_ten_gigabit_ethernet}
+  */
+  readonly sourceTenGigabitEthernet?: string;
+  /**
+  * Twenty Five GigabitEthernet 
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/flow_exporter#source_twenty_five_gigabit_ethernet FlowExporter#source_twenty_five_gigabit_ethernet}
+  */
+  readonly sourceTwentyFiveGigabitEthernet?: string;
+  /**
+  * Two GigabitEthernet 
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/flow_exporter#source_two_gigabit_ethernet FlowExporter#source_two_gigabit_ethernet}
+  */
+  readonly sourceTwoGigabitEthernet?: string;
+  /**
+  * Iosxr Vlans
+  *   - Range: `0`-`65535`
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/flow_exporter#source_vlan FlowExporter#source_vlan}
+  */
+  readonly sourceVlan?: number;
   /**
   * Resend data based on a timeout
   *   - Range: `1`-`86400`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/flow_exporter#template_data_timeout FlowExporter#template_data_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/flow_exporter#template_data_timeout FlowExporter#template_data_timeout}
   */
   readonly templateDataTimeout?: number;
   /**
   * UDP transport protocol
   *   - Range: `0`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/flow_exporter#transport_udp FlowExporter#transport_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/flow_exporter#transport_udp FlowExporter#transport_udp}
   */
   readonly transportUdp?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/flow_exporter iosxe_flow_exporter}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/flow_exporter iosxe_flow_exporter}
 */
 export class FlowExporter extends cdktf.TerraformResource {
 
@@ -115,7 +171,7 @@ export class FlowExporter extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FlowExporter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FlowExporter to import
-  * @param importFromId The id of the existing FlowExporter that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/flow_exporter#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FlowExporter that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/flow_exporter#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FlowExporter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -127,7 +183,7 @@ export class FlowExporter extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/flow_exporter iosxe_flow_exporter} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/flow_exporter iosxe_flow_exporter} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -138,7 +194,8 @@ export class FlowExporter extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_flow_exporter',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.9.3'
+        providerVersion: '0.10.0',
+        providerVersionConstraint: '0.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -159,7 +216,16 @@ export class FlowExporter extends cdktf.TerraformResource {
     this._optionInterfaceTableTimeout = config.optionInterfaceTableTimeout;
     this._optionSamplerTable = config.optionSamplerTable;
     this._optionVrfTableTimeout = config.optionVrfTableTimeout;
+    this._sourceFiveGigabitEthernet = config.sourceFiveGigabitEthernet;
+    this._sourceFortyGigabitEthernet = config.sourceFortyGigabitEthernet;
+    this._sourceGigabitEthernet = config.sourceGigabitEthernet;
+    this._sourceHundredGigabitEthernet = config.sourceHundredGigabitEthernet;
     this._sourceLoopback = config.sourceLoopback;
+    this._sourcePortChannel = config.sourcePortChannel;
+    this._sourceTenGigabitEthernet = config.sourceTenGigabitEthernet;
+    this._sourceTwentyFiveGigabitEthernet = config.sourceTwentyFiveGigabitEthernet;
+    this._sourceTwoGigabitEthernet = config.sourceTwoGigabitEthernet;
+    this._sourceVlan = config.sourceVlan;
     this._templateDataTimeout = config.templateDataTimeout;
     this._transportUdp = config.transportUdp;
   }
@@ -346,6 +412,70 @@ export class FlowExporter extends cdktf.TerraformResource {
     return this._optionVrfTableTimeout;
   }
 
+  // source_five_gigabit_ethernet - computed: false, optional: true, required: false
+  private _sourceFiveGigabitEthernet?: string; 
+  public get sourceFiveGigabitEthernet() {
+    return this.getStringAttribute('source_five_gigabit_ethernet');
+  }
+  public set sourceFiveGigabitEthernet(value: string) {
+    this._sourceFiveGigabitEthernet = value;
+  }
+  public resetSourceFiveGigabitEthernet() {
+    this._sourceFiveGigabitEthernet = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sourceFiveGigabitEthernetInput() {
+    return this._sourceFiveGigabitEthernet;
+  }
+
+  // source_forty_gigabit_ethernet - computed: false, optional: true, required: false
+  private _sourceFortyGigabitEthernet?: string; 
+  public get sourceFortyGigabitEthernet() {
+    return this.getStringAttribute('source_forty_gigabit_ethernet');
+  }
+  public set sourceFortyGigabitEthernet(value: string) {
+    this._sourceFortyGigabitEthernet = value;
+  }
+  public resetSourceFortyGigabitEthernet() {
+    this._sourceFortyGigabitEthernet = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sourceFortyGigabitEthernetInput() {
+    return this._sourceFortyGigabitEthernet;
+  }
+
+  // source_gigabit_ethernet - computed: false, optional: true, required: false
+  private _sourceGigabitEthernet?: string; 
+  public get sourceGigabitEthernet() {
+    return this.getStringAttribute('source_gigabit_ethernet');
+  }
+  public set sourceGigabitEthernet(value: string) {
+    this._sourceGigabitEthernet = value;
+  }
+  public resetSourceGigabitEthernet() {
+    this._sourceGigabitEthernet = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sourceGigabitEthernetInput() {
+    return this._sourceGigabitEthernet;
+  }
+
+  // source_hundred_gigabit_ethernet - computed: false, optional: true, required: false
+  private _sourceHundredGigabitEthernet?: string; 
+  public get sourceHundredGigabitEthernet() {
+    return this.getStringAttribute('source_hundred_gigabit_ethernet');
+  }
+  public set sourceHundredGigabitEthernet(value: string) {
+    this._sourceHundredGigabitEthernet = value;
+  }
+  public resetSourceHundredGigabitEthernet() {
+    this._sourceHundredGigabitEthernet = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sourceHundredGigabitEthernetInput() {
+    return this._sourceHundredGigabitEthernet;
+  }
+
   // source_loopback - computed: false, optional: true, required: false
   private _sourceLoopback?: number; 
   public get sourceLoopback() {
@@ -360,6 +490,86 @@ export class FlowExporter extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get sourceLoopbackInput() {
     return this._sourceLoopback;
+  }
+
+  // source_port_channel - computed: false, optional: true, required: false
+  private _sourcePortChannel?: number; 
+  public get sourcePortChannel() {
+    return this.getNumberAttribute('source_port_channel');
+  }
+  public set sourcePortChannel(value: number) {
+    this._sourcePortChannel = value;
+  }
+  public resetSourcePortChannel() {
+    this._sourcePortChannel = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sourcePortChannelInput() {
+    return this._sourcePortChannel;
+  }
+
+  // source_ten_gigabit_ethernet - computed: false, optional: true, required: false
+  private _sourceTenGigabitEthernet?: string; 
+  public get sourceTenGigabitEthernet() {
+    return this.getStringAttribute('source_ten_gigabit_ethernet');
+  }
+  public set sourceTenGigabitEthernet(value: string) {
+    this._sourceTenGigabitEthernet = value;
+  }
+  public resetSourceTenGigabitEthernet() {
+    this._sourceTenGigabitEthernet = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sourceTenGigabitEthernetInput() {
+    return this._sourceTenGigabitEthernet;
+  }
+
+  // source_twenty_five_gigabit_ethernet - computed: false, optional: true, required: false
+  private _sourceTwentyFiveGigabitEthernet?: string; 
+  public get sourceTwentyFiveGigabitEthernet() {
+    return this.getStringAttribute('source_twenty_five_gigabit_ethernet');
+  }
+  public set sourceTwentyFiveGigabitEthernet(value: string) {
+    this._sourceTwentyFiveGigabitEthernet = value;
+  }
+  public resetSourceTwentyFiveGigabitEthernet() {
+    this._sourceTwentyFiveGigabitEthernet = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sourceTwentyFiveGigabitEthernetInput() {
+    return this._sourceTwentyFiveGigabitEthernet;
+  }
+
+  // source_two_gigabit_ethernet - computed: false, optional: true, required: false
+  private _sourceTwoGigabitEthernet?: string; 
+  public get sourceTwoGigabitEthernet() {
+    return this.getStringAttribute('source_two_gigabit_ethernet');
+  }
+  public set sourceTwoGigabitEthernet(value: string) {
+    this._sourceTwoGigabitEthernet = value;
+  }
+  public resetSourceTwoGigabitEthernet() {
+    this._sourceTwoGigabitEthernet = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sourceTwoGigabitEthernetInput() {
+    return this._sourceTwoGigabitEthernet;
+  }
+
+  // source_vlan - computed: false, optional: true, required: false
+  private _sourceVlan?: number; 
+  public get sourceVlan() {
+    return this.getNumberAttribute('source_vlan');
+  }
+  public set sourceVlan(value: number) {
+    this._sourceVlan = value;
+  }
+  public resetSourceVlan() {
+    this._sourceVlan = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sourceVlanInput() {
+    return this._sourceVlan;
   }
 
   // template_data_timeout - computed: false, optional: true, required: false
@@ -411,7 +621,16 @@ export class FlowExporter extends cdktf.TerraformResource {
       option_interface_table_timeout: cdktf.numberToTerraform(this._optionInterfaceTableTimeout),
       option_sampler_table: cdktf.booleanToTerraform(this._optionSamplerTable),
       option_vrf_table_timeout: cdktf.numberToTerraform(this._optionVrfTableTimeout),
+      source_five_gigabit_ethernet: cdktf.stringToTerraform(this._sourceFiveGigabitEthernet),
+      source_forty_gigabit_ethernet: cdktf.stringToTerraform(this._sourceFortyGigabitEthernet),
+      source_gigabit_ethernet: cdktf.stringToTerraform(this._sourceGigabitEthernet),
+      source_hundred_gigabit_ethernet: cdktf.stringToTerraform(this._sourceHundredGigabitEthernet),
       source_loopback: cdktf.numberToTerraform(this._sourceLoopback),
+      source_port_channel: cdktf.numberToTerraform(this._sourcePortChannel),
+      source_ten_gigabit_ethernet: cdktf.stringToTerraform(this._sourceTenGigabitEthernet),
+      source_twenty_five_gigabit_ethernet: cdktf.stringToTerraform(this._sourceTwentyFiveGigabitEthernet),
+      source_two_gigabit_ethernet: cdktf.stringToTerraform(this._sourceTwoGigabitEthernet),
+      source_vlan: cdktf.numberToTerraform(this._sourceVlan),
       template_data_timeout: cdktf.numberToTerraform(this._templateDataTimeout),
       transport_udp: cdktf.numberToTerraform(this._transportUdp),
     };
@@ -485,8 +704,62 @@ export class FlowExporter extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "number",
       },
+      source_five_gigabit_ethernet: {
+        value: cdktf.stringToHclTerraform(this._sourceFiveGigabitEthernet),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      source_forty_gigabit_ethernet: {
+        value: cdktf.stringToHclTerraform(this._sourceFortyGigabitEthernet),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      source_gigabit_ethernet: {
+        value: cdktf.stringToHclTerraform(this._sourceGigabitEthernet),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      source_hundred_gigabit_ethernet: {
+        value: cdktf.stringToHclTerraform(this._sourceHundredGigabitEthernet),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       source_loopback: {
         value: cdktf.numberToHclTerraform(this._sourceLoopback),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      source_port_channel: {
+        value: cdktf.numberToHclTerraform(this._sourcePortChannel),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      source_ten_gigabit_ethernet: {
+        value: cdktf.stringToHclTerraform(this._sourceTenGigabitEthernet),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      source_twenty_five_gigabit_ethernet: {
+        value: cdktf.stringToHclTerraform(this._sourceTwentyFiveGigabitEthernet),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      source_two_gigabit_ethernet: {
+        value: cdktf.stringToHclTerraform(this._sourceTwoGigabitEthernet),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      source_vlan: {
+        value: cdktf.numberToHclTerraform(this._sourceVlan),
         isBlock: false,
         type: "simple",
         storageClassType: "number",

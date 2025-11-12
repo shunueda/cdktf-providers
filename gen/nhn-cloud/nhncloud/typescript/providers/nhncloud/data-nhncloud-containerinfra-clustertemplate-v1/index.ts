@@ -64,7 +64,8 @@ export class DataNhncloudContainerinfraClustertemplateV1 extends cdktf.Terraform
       terraformResourceType: 'nhncloud_containerinfra_clustertemplate_v1',
       terraformGeneratorMetadata: {
         providerName: 'nhncloud',
-        providerVersion: '1.0.6'
+        providerVersion: '1.0.6',
+        providerVersionConstraint: '1.0.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

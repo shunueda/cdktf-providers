@@ -91,7 +91,8 @@ export class WirelessRadioSettings extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_wireless_radio_settings',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1'
+        providerVersion: '1.7.1',
+        providerVersionConstraint: '1.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

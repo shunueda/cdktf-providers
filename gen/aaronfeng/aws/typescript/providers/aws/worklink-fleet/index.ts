@@ -340,7 +340,8 @@ export class WorklinkFleet extends cdktf.TerraformResource {
       terraformResourceType: 'aws_worklink_fleet',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '3.29.6'
+        providerVersion: '3.29.6',
+        providerVersionConstraint: '3.29.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

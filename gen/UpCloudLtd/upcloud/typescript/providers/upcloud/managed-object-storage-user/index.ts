@@ -68,7 +68,8 @@ export class ManagedObjectStorageUser extends cdktf.TerraformResource {
       terraformResourceType: 'upcloud_managed_object_storage_user',
       terraformGeneratorMetadata: {
         providerName: 'upcloud',
-        providerVersion: '5.31.0'
+        providerVersion: '5.31.0',
+        providerVersionConstraint: '5.31.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

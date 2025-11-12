@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ip_dhcp_client
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_dhcp_client
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,59 +10,59 @@ export interface IpDhcpClientConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ip_dhcp_client#___path___ IpDhcpClient#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_dhcp_client#___path___ IpDhcpClient#___path___}
   */
   readonly path?: string;
   /**
   * Whether to install default route in routing table received from DHCP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ip_dhcp_client#add_default_route IpDhcpClient#add_default_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_dhcp_client#add_default_route IpDhcpClient#add_default_route}
   */
   readonly addDefaultRoute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ip_dhcp_client#allow_reconfigure IpDhcpClient#allow_reconfigure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_dhcp_client#allow_reconfigure IpDhcpClient#allow_reconfigure}
   */
   readonly allowReconfigure?: boolean | cdktf.IResolvable;
   /**
   * Method on how to check gateway reachability.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ip_dhcp_client#check_gateway IpDhcpClient#check_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_dhcp_client#check_gateway IpDhcpClient#check_gateway}
   */
   readonly checkGateway?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ip_dhcp_client#comment IpDhcpClient#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_dhcp_client#comment IpDhcpClient#comment}
   */
   readonly comment?: string;
   /**
   * Distance of default route. Applicable if add-default-route is set to yes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ip_dhcp_client#default_route_distance IpDhcpClient#default_route_distance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_dhcp_client#default_route_distance IpDhcpClient#default_route_distance}
   */
   readonly defaultRouteDistance?: number;
   /**
   * Default route tables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ip_dhcp_client#default_route_tables IpDhcpClient#default_route_tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_dhcp_client#default_route_tables IpDhcpClient#default_route_tables}
   */
   readonly defaultRouteTables?: string[];
   /**
   * Options that are sent to the DHCP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ip_dhcp_client#dhcp_options IpDhcpClient#dhcp_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_dhcp_client#dhcp_options IpDhcpClient#dhcp_options}
   */
   readonly dhcpOptions?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ip_dhcp_client#disabled IpDhcpClient#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_dhcp_client#disabled IpDhcpClient#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Sets the DSCP (Differentiated Services Code Point) value for outgoing DHCP client packets. This value is part of the IP header and is used to indicate the desired Quality of Service (QoS) level for network traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ip_dhcp_client#dscp IpDhcpClient#dscp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_dhcp_client#dscp IpDhcpClient#dscp}
   */
   readonly dscp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ip_dhcp_client#id IpDhcpClient#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_dhcp_client#id IpDhcpClient#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,13 +71,13 @@ export interface IpDhcpClientConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ip_dhcp_client#interface IpDhcpClient#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_dhcp_client#interface IpDhcpClient#interface}
   */
   readonly interface: string;
   /**
   * A script.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ip_dhcp_client#script IpDhcpClient#script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_dhcp_client#script IpDhcpClient#script}
   */
   readonly script?: string;
   /**
@@ -86,37 +86,37 @@ export interface IpDhcpClientConfig extends cdktf.TerraformMetaArguments {
   *     -  `both` - broadcast bit is set only first 15 seconds
   *     -  `never` - broadcast bit is not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ip_dhcp_client#use_broadcast IpDhcpClient#use_broadcast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_dhcp_client#use_broadcast IpDhcpClient#use_broadcast}
   */
   readonly useBroadcast?: string;
   /**
   * Whether to accept the DNS settings advertised by DHCP Server (will override the settings put in the /ip dns submenu).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ip_dhcp_client#use_peer_dns IpDhcpClient#use_peer_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_dhcp_client#use_peer_dns IpDhcpClient#use_peer_dns}
   */
   readonly usePeerDns?: boolean | cdktf.IResolvable;
   /**
   * Whether to accept the NTP settings advertised by DHCP Server (will override the settings put in the /system ntp client submenu).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ip_dhcp_client#use_peer_ntp IpDhcpClient#use_peer_ntp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_dhcp_client#use_peer_ntp IpDhcpClient#use_peer_ntp}
   */
   readonly usePeerNtp?: boolean | cdktf.IResolvable;
   /**
   * Allow the server to send Reconfigure messages to clients, prompting them to renew or update their configuration without waiting for their lease to expire.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ip_dhcp_client#use_reconfigure IpDhcpClient#use_reconfigure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_dhcp_client#use_reconfigure IpDhcpClient#use_reconfigure}
   */
   readonly useReconfigure?: boolean | cdktf.IResolvable;
   /**
   * If the DHCP client is running on a VLAN interface (`/interface/vlan`), you can specify the Priority Code Point (PCP) value. PCP is a 3-bit field in the VLAN header used to mark the priority of packets within a VLAN, allowing traffic to be prioritized accordingly. This setting applies only to VLAN interfaces and affects the priority of outgoing DHCP client packets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ip_dhcp_client#vlan_priority IpDhcpClient#vlan_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_dhcp_client#vlan_priority IpDhcpClient#vlan_priority}
   */
   readonly vlanPriority?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ip_dhcp_client routeros_ip_dhcp_client}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_dhcp_client routeros_ip_dhcp_client}
 */
 export class IpDhcpClient extends cdktf.TerraformResource {
 
@@ -132,7 +132,7 @@ export class IpDhcpClient extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IpDhcpClient resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IpDhcpClient to import
-  * @param importFromId The id of the existing IpDhcpClient that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ip_dhcp_client#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IpDhcpClient that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_dhcp_client#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IpDhcpClient to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -144,7 +144,7 @@ export class IpDhcpClient extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ip_dhcp_client routeros_ip_dhcp_client} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_dhcp_client routeros_ip_dhcp_client} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -155,7 +155,8 @@ export class IpDhcpClient extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_ip_dhcp_client',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.90.0'
+        providerVersion: '1.91.0',
+        providerVersionConstraint: '1.91.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

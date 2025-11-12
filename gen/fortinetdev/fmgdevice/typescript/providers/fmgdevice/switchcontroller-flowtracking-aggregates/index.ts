@@ -72,7 +72,8 @@ export class SwitchcontrollerFlowtrackingAggregatesA extends cdktf.TerraformReso
       terraformResourceType: 'fmgdevice_switchcontroller_flowtracking_aggregates',
       terraformGeneratorMetadata: {
         providerName: 'fmgdevice',
-        providerVersion: '1.2.1'
+        providerVersion: '1.2.1',
+        providerVersionConstraint: '1.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

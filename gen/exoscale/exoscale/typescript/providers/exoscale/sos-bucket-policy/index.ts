@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/sos_bucket_policy
+// https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sos_bucket_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface SosBucketPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * ❗ The name of the bucket to which the policy is to be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/sos_bucket_policy#bucket SosBucketPolicy#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sos_bucket_policy#bucket SosBucketPolicy#bucket}
   */
   readonly bucket: string;
   /**
   * The content of the policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/sos_bucket_policy#policy SosBucketPolicy#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sos_bucket_policy#policy SosBucketPolicy#policy}
   */
   readonly policy: string;
   /**
   * ❗ The Exoscale [Zone](https://www.exoscale.com/datacenters/) name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/sos_bucket_policy#zone SosBucketPolicy#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sos_bucket_policy#zone SosBucketPolicy#zone}
   */
   readonly zone: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/sos_bucket_policy#timeouts SosBucketPolicy#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sos_bucket_policy#timeouts SosBucketPolicy#timeouts}
   */
   readonly timeouts?: SosBucketPolicyTimeouts;
 }
@@ -36,25 +36,25 @@ export interface SosBucketPolicyTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/sos_bucket_policy#create SosBucketPolicy#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sos_bucket_policy#create SosBucketPolicy#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/sos_bucket_policy#delete SosBucketPolicy#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sos_bucket_policy#delete SosBucketPolicy#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/sos_bucket_policy#read SosBucketPolicy#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sos_bucket_policy#read SosBucketPolicy#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/sos_bucket_policy#update SosBucketPolicy#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sos_bucket_policy#update SosBucketPolicy#update}
   */
   readonly update?: string;
 }
@@ -235,7 +235,7 @@ export class SosBucketPolicyTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/sos_bucket_policy exoscale_sos_bucket_policy}
+* Represents a {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sos_bucket_policy exoscale_sos_bucket_policy}
 */
 export class SosBucketPolicy extends cdktf.TerraformResource {
 
@@ -251,7 +251,7 @@ export class SosBucketPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SosBucketPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SosBucketPolicy to import
-  * @param importFromId The id of the existing SosBucketPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/sos_bucket_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SosBucketPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sos_bucket_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SosBucketPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -263,7 +263,7 @@ export class SosBucketPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/sos_bucket_policy exoscale_sos_bucket_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sos_bucket_policy exoscale_sos_bucket_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -274,7 +274,8 @@ export class SosBucketPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'exoscale_sos_bucket_policy',
       terraformGeneratorMetadata: {
         providerName: 'exoscale',
-        providerVersion: '0.66.0'
+        providerVersion: '0.67.0',
+        providerVersionConstraint: '0.67.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

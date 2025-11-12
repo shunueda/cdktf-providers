@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/glueckkanja-gab/aztools/0.0.7/docs/resources/resource_name
+// https://registry.terraform.io/providers/glueckkanja-gab/aztools/0.0.4/docs/resources/resource_name
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,56 +8,52 @@ import * as cdktf from 'cdktf';
 
 export interface ResourceNameConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glueckkanja-gab/aztools/0.0.7/docs/resources/resource_name#convention ResourceName#convention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glueckkanja-gab/aztools/0.0.4/docs/resources/resource_name#convention ResourceName#convention}
   */
   readonly convention?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glueckkanja-gab/aztools/0.0.7/docs/resources/resource_name#environment ResourceName#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glueckkanja-gab/aztools/0.0.4/docs/resources/resource_name#environment ResourceName#environment}
   */
   readonly environment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glueckkanja-gab/aztools/0.0.7/docs/resources/resource_name#hash_length ResourceName#hash_length}
-  */
-  readonly hashLength?: number;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glueckkanja-gab/aztools/0.0.7/docs/resources/resource_name#id ResourceName#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glueckkanja-gab/aztools/0.0.4/docs/resources/resource_name#id ResourceName#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glueckkanja-gab/aztools/0.0.7/docs/resources/resource_name#location ResourceName#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glueckkanja-gab/aztools/0.0.4/docs/resources/resource_name#location ResourceName#location}
   */
   readonly location?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glueckkanja-gab/aztools/0.0.7/docs/resources/resource_name#name ResourceName#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glueckkanja-gab/aztools/0.0.4/docs/resources/resource_name#name ResourceName#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glueckkanja-gab/aztools/0.0.7/docs/resources/resource_name#name_precedence ResourceName#name_precedence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glueckkanja-gab/aztools/0.0.4/docs/resources/resource_name#name_precendence ResourceName#name_precendence}
   */
-  readonly namePrecedence?: string[];
+  readonly namePrecendence?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glueckkanja-gab/aztools/0.0.7/docs/resources/resource_name#prefixes ResourceName#prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glueckkanja-gab/aztools/0.0.4/docs/resources/resource_name#prefixes ResourceName#prefixes}
   */
   readonly prefixes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glueckkanja-gab/aztools/0.0.7/docs/resources/resource_name#resource_type ResourceName#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glueckkanja-gab/aztools/0.0.4/docs/resources/resource_name#resource_type ResourceName#resource_type}
   */
   readonly resourceType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glueckkanja-gab/aztools/0.0.7/docs/resources/resource_name#separator ResourceName#separator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glueckkanja-gab/aztools/0.0.4/docs/resources/resource_name#separator ResourceName#separator}
   */
   readonly separator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glueckkanja-gab/aztools/0.0.7/docs/resources/resource_name#suffixes ResourceName#suffixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/glueckkanja-gab/aztools/0.0.4/docs/resources/resource_name#suffixes ResourceName#suffixes}
   */
   readonly suffixes?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/glueckkanja-gab/aztools/0.0.7/docs/resources/resource_name aztools_resource_name}
+* Represents a {@link https://registry.terraform.io/providers/glueckkanja-gab/aztools/0.0.4/docs/resources/resource_name aztools_resource_name}
 */
 export class ResourceName extends cdktf.TerraformResource {
 
@@ -73,7 +69,7 @@ export class ResourceName extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ResourceName resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ResourceName to import
-  * @param importFromId The id of the existing ResourceName that should be imported. Refer to the {@link https://registry.terraform.io/providers/glueckkanja-gab/aztools/0.0.7/docs/resources/resource_name#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ResourceName that should be imported. Refer to the {@link https://registry.terraform.io/providers/glueckkanja-gab/aztools/0.0.4/docs/resources/resource_name#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ResourceName to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -85,7 +81,7 @@ export class ResourceName extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/glueckkanja-gab/aztools/0.0.7/docs/resources/resource_name aztools_resource_name} Resource
+  * Create a new {@link https://registry.terraform.io/providers/glueckkanja-gab/aztools/0.0.4/docs/resources/resource_name aztools_resource_name} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -96,7 +92,8 @@ export class ResourceName extends cdktf.TerraformResource {
       terraformResourceType: 'aztools_resource_name',
       terraformGeneratorMetadata: {
         providerName: 'aztools',
-        providerVersion: '0.0.7'
+        providerVersion: '0.0.4',
+        providerVersionConstraint: '0.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -108,11 +105,10 @@ export class ResourceName extends cdktf.TerraformResource {
     });
     this._convention = config.convention;
     this._environment = config.environment;
-    this._hashLength = config.hashLength;
     this._id = config.id;
     this._location = config.location;
     this._name = config.name;
-    this._namePrecedence = config.namePrecedence;
+    this._namePrecendence = config.namePrecendence;
     this._prefixes = config.prefixes;
     this._resourceType = config.resourceType;
     this._separator = config.separator;
@@ -153,22 +149,6 @@ export class ResourceName extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get environmentInput() {
     return this._environment;
-  }
-
-  // hash_length - computed: false, optional: true, required: false
-  private _hashLength?: number; 
-  public get hashLength() {
-    return this.getNumberAttribute('hash_length');
-  }
-  public set hashLength(value: number) {
-    this._hashLength = value;
-  }
-  public resetHashLength() {
-    this._hashLength = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get hashLengthInput() {
-    return this._hashLength;
   }
 
   // id - computed: true, optional: true, required: false
@@ -216,20 +196,20 @@ export class ResourceName extends cdktf.TerraformResource {
     return this._name;
   }
 
-  // name_precedence - computed: false, optional: true, required: false
-  private _namePrecedence?: string[]; 
-  public get namePrecedence() {
-    return this.getListAttribute('name_precedence');
+  // name_precendence - computed: false, optional: true, required: false
+  private _namePrecendence?: string[]; 
+  public get namePrecendence() {
+    return this.getListAttribute('name_precendence');
   }
-  public set namePrecedence(value: string[]) {
-    this._namePrecedence = value;
+  public set namePrecendence(value: string[]) {
+    this._namePrecendence = value;
   }
-  public resetNamePrecedence() {
-    this._namePrecedence = undefined;
+  public resetNamePrecendence() {
+    this._namePrecendence = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get namePrecedenceInput() {
-    return this._namePrecedence;
+  public get namePrecendenceInput() {
+    return this._namePrecendence;
   }
 
   // prefixes - computed: false, optional: true, required: false
@@ -306,11 +286,10 @@ export class ResourceName extends cdktf.TerraformResource {
     return {
       convention: cdktf.stringToTerraform(this._convention),
       environment: cdktf.stringToTerraform(this._environment),
-      hash_length: cdktf.numberToTerraform(this._hashLength),
       id: cdktf.stringToTerraform(this._id),
       location: cdktf.stringToTerraform(this._location),
       name: cdktf.stringToTerraform(this._name),
-      name_precedence: cdktf.listMapper(cdktf.stringToTerraform, false)(this._namePrecedence),
+      name_precendence: cdktf.listMapper(cdktf.stringToTerraform, false)(this._namePrecendence),
       prefixes: cdktf.listMapper(cdktf.stringToTerraform, false)(this._prefixes),
       resource_type: cdktf.stringToTerraform(this._resourceType),
       separator: cdktf.stringToTerraform(this._separator),
@@ -332,12 +311,6 @@ export class ResourceName extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
-      hash_length: {
-        value: cdktf.numberToHclTerraform(this._hashLength),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "number",
-      },
       id: {
         value: cdktf.stringToHclTerraform(this._id),
         isBlock: false,
@@ -356,8 +329,8 @@ export class ResourceName extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
-      name_precedence: {
-        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._namePrecedence),
+      name_precendence: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._namePrecendence),
         isBlock: false,
         type: "list",
         storageClassType: "stringList",

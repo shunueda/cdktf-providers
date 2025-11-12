@@ -74,7 +74,8 @@ export class SignedToken extends cdktf.TerraformResource {
       terraformResourceType: 'jwt_signed_token',
       terraformGeneratorMetadata: {
         providerName: 'jwt',
-        providerVersion: '1.1.2'
+        providerVersion: '1.1.2',
+        providerVersionConstraint: '1.1.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -76,7 +76,8 @@ export class IsolatedNetwork extends cdktf.TerraformResource {
       terraformResourceType: 'netooze_isolated_network',
       terraformGeneratorMetadata: {
         providerName: 'netooze',
-        providerVersion: '0.2.0'
+        providerVersion: '0.2.0',
+        providerVersionConstraint: '0.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

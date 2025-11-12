@@ -246,7 +246,8 @@ export class DataZiaDlpIdmProfileLite extends cdktf.TerraformDataSource {
       terraformResourceType: 'zia_dlp_idm_profile_lite',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.5.3'
+        providerVersion: '4.5.3',
+        providerVersionConstraint: '4.5.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

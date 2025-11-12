@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/aks_workload_identity
+// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/aks_workload_identity
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface AksWorkloadIdentityConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/aks_workload_identity#id AksWorkloadIdentity#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/aks_workload_identity#id AksWorkloadIdentity#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface AksWorkloadIdentityConfig extends cdktf.TerraformMetaArguments 
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/aks_workload_identity#metadata AksWorkloadIdentity#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/aks_workload_identity#metadata AksWorkloadIdentity#metadata}
   */
   readonly metadata: AksWorkloadIdentityMetadata;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/aks_workload_identity#spec AksWorkloadIdentity#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/aks_workload_identity#spec AksWorkloadIdentity#spec}
   */
   readonly spec: AksWorkloadIdentitySpec;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/aks_workload_identity#timeouts AksWorkloadIdentity#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/aks_workload_identity#timeouts AksWorkloadIdentity#timeouts}
   */
   readonly timeouts?: AksWorkloadIdentityTimeouts;
 }
@@ -37,13 +37,13 @@ export interface AksWorkloadIdentityMetadata {
   /**
   * Cluster Name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/aks_workload_identity#cluster_name AksWorkloadIdentity#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/aks_workload_identity#cluster_name AksWorkloadIdentity#cluster_name}
   */
   readonly clusterName: string;
   /**
   * Project of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/aks_workload_identity#project AksWorkloadIdentity#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/aks_workload_identity#project AksWorkloadIdentity#project}
   */
   readonly project: string;
 }
@@ -152,37 +152,37 @@ export interface AksWorkloadIdentitySpecMetadata {
   /**
   * Client Id of the workload identity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/aks_workload_identity#client_id AksWorkloadIdentity#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/aks_workload_identity#client_id AksWorkloadIdentity#client_id}
   */
   readonly clientId?: string;
   /**
   * Location of the workload identity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/aks_workload_identity#location AksWorkloadIdentity#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/aks_workload_identity#location AksWorkloadIdentity#location}
   */
   readonly location?: string;
   /**
   * Name of the workload identity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/aks_workload_identity#name AksWorkloadIdentity#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/aks_workload_identity#name AksWorkloadIdentity#name}
   */
   readonly name?: string;
   /**
   * Principal Id of the workload identity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/aks_workload_identity#principal_id AksWorkloadIdentity#principal_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/aks_workload_identity#principal_id AksWorkloadIdentity#principal_id}
   */
   readonly principalId?: string;
   /**
   * Resource Group of the workload identity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/aks_workload_identity#resource_group AksWorkloadIdentity#resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/aks_workload_identity#resource_group AksWorkloadIdentity#resource_group}
   */
   readonly resourceGroup?: string;
   /**
   * Tags of the workload identity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/aks_workload_identity#tags AksWorkloadIdentity#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/aks_workload_identity#tags AksWorkloadIdentity#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -413,19 +413,19 @@ export interface AksWorkloadIdentitySpecRoleAssignments {
   /**
   * Name of the role assignment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/aks_workload_identity#name AksWorkloadIdentity#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/aks_workload_identity#name AksWorkloadIdentity#name}
   */
   readonly name: string;
   /**
   * Role Definition Id of the role assignment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/aks_workload_identity#role_definition_id AksWorkloadIdentity#role_definition_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/aks_workload_identity#role_definition_id AksWorkloadIdentity#role_definition_id}
   */
   readonly roleDefinitionId?: string;
   /**
   * Scope of the role assignment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/aks_workload_identity#scope AksWorkloadIdentity#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/aks_workload_identity#scope AksWorkloadIdentity#scope}
   */
   readonly scope?: string;
 }
@@ -598,25 +598,25 @@ export interface AksWorkloadIdentitySpecServiceAccountsMetadata {
   /**
   * Annotations for the k8s service account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/aks_workload_identity#annotations AksWorkloadIdentity#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/aks_workload_identity#annotations AksWorkloadIdentity#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Labels for the k8s service account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/aks_workload_identity#labels AksWorkloadIdentity#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/aks_workload_identity#labels AksWorkloadIdentity#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Name for the k8s service account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/aks_workload_identity#name AksWorkloadIdentity#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/aks_workload_identity#name AksWorkloadIdentity#name}
   */
   readonly name: string;
   /**
   * Namespace for the k8s service account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/aks_workload_identity#namespace AksWorkloadIdentity#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/aks_workload_identity#namespace AksWorkloadIdentity#namespace}
   */
   readonly namespace: string;
 }
@@ -783,13 +783,13 @@ export interface AksWorkloadIdentitySpecServiceAccounts {
   /**
   * Whether the controller should create service account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/aks_workload_identity#create_account AksWorkloadIdentity#create_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/aks_workload_identity#create_account AksWorkloadIdentity#create_account}
   */
   readonly createAccount: boolean | cdktf.IResolvable;
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/aks_workload_identity#metadata AksWorkloadIdentity#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/aks_workload_identity#metadata AksWorkloadIdentity#metadata}
   */
   readonly metadata: AksWorkloadIdentitySpecServiceAccountsMetadata;
 }
@@ -930,25 +930,25 @@ export interface AksWorkloadIdentitySpec {
   /**
   * Whether the controller should create the identity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/aks_workload_identity#create_identity AksWorkloadIdentity#create_identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/aks_workload_identity#create_identity AksWorkloadIdentity#create_identity}
   */
   readonly createIdentity: boolean | cdktf.IResolvable;
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/aks_workload_identity#metadata AksWorkloadIdentity#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/aks_workload_identity#metadata AksWorkloadIdentity#metadata}
   */
   readonly metadata: AksWorkloadIdentitySpecMetadata;
   /**
   * role_assignments block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/aks_workload_identity#role_assignments AksWorkloadIdentity#role_assignments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/aks_workload_identity#role_assignments AksWorkloadIdentity#role_assignments}
   */
   readonly roleAssignments?: AksWorkloadIdentitySpecRoleAssignments[] | cdktf.IResolvable;
   /**
   * service_accounts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/aks_workload_identity#service_accounts AksWorkloadIdentity#service_accounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/aks_workload_identity#service_accounts AksWorkloadIdentity#service_accounts}
   */
   readonly serviceAccounts: AksWorkloadIdentitySpecServiceAccounts[] | cdktf.IResolvable;
 }
@@ -1110,15 +1110,15 @@ export class AksWorkloadIdentitySpecOutputReference extends cdktf.ComplexObject 
 }
 export interface AksWorkloadIdentityTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/aks_workload_identity#create AksWorkloadIdentity#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/aks_workload_identity#create AksWorkloadIdentity#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/aks_workload_identity#delete AksWorkloadIdentity#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/aks_workload_identity#delete AksWorkloadIdentity#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/aks_workload_identity#update AksWorkloadIdentity#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/aks_workload_identity#update AksWorkloadIdentity#update}
   */
   readonly update?: string;
 }
@@ -1270,7 +1270,7 @@ export class AksWorkloadIdentityTimeoutsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/aks_workload_identity rafay_aks_workload_identity}
+* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/aks_workload_identity rafay_aks_workload_identity}
 */
 export class AksWorkloadIdentity extends cdktf.TerraformResource {
 
@@ -1286,7 +1286,7 @@ export class AksWorkloadIdentity extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AksWorkloadIdentity resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AksWorkloadIdentity to import
-  * @param importFromId The id of the existing AksWorkloadIdentity that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/aks_workload_identity#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AksWorkloadIdentity that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/aks_workload_identity#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AksWorkloadIdentity to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1298,7 +1298,7 @@ export class AksWorkloadIdentity extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/aks_workload_identity rafay_aks_workload_identity} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/aks_workload_identity rafay_aks_workload_identity} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1309,7 +1309,8 @@ export class AksWorkloadIdentity extends cdktf.TerraformResource {
       terraformResourceType: 'rafay_aks_workload_identity',
       terraformGeneratorMetadata: {
         providerName: 'rafay',
-        providerVersion: '1.1.52'
+        providerVersion: '1.1.53',
+        providerVersionConstraint: '1.1.53'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -92,7 +92,8 @@ export class NsxManager extends cdktf.TerraformResource {
       terraformResourceType: 'vcfa_nsx_manager',
       terraformGeneratorMetadata: {
         providerName: 'vcfa',
-        providerVersion: '1.0.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

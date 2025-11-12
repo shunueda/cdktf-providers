@@ -62,7 +62,8 @@ export class Plugin extends cdktf.TerraformResource {
       terraformResourceType: 'sonarqube_plugin',
       terraformGeneratorMetadata: {
         providerName: 'sonarqube',
-        providerVersion: '0.16.17'
+        providerVersion: '0.16.17',
+        providerVersionConstraint: '0.16.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -73,7 +73,8 @@ export class AliyunProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'aliyun',
       terraformGeneratorMetadata: {
         providerName: 'aliyun',
-        providerVersion: '0.0.6'
+        providerVersion: '0.0.6',
+        providerVersionConstraint: '0.0.6'
       },
       terraformProviderSource: 'shencan/aliyun'
     });

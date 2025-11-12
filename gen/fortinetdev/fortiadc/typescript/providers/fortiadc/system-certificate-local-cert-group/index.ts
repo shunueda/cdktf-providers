@@ -64,7 +64,8 @@ export class SystemCertificateLocalCertGroup extends cdktf.TerraformResource {
       terraformResourceType: 'fortiadc_system_certificate_local_cert_group',
       terraformGeneratorMetadata: {
         providerName: 'fortiadc',
-        providerVersion: '1.3.1'
+        providerVersion: '1.3.1',
+        providerVersionConstraint: '1.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

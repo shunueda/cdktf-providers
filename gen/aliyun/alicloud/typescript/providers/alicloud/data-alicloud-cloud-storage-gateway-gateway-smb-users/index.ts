@@ -157,7 +157,8 @@ export class DataAlicloudCloudStorageGatewayGatewaySmbUsers extends cdktf.Terraf
       terraformResourceType: 'alicloud_cloud_storage_gateway_gateway_smb_users',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

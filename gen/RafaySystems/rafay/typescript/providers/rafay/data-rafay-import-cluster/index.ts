@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/import_cluster
+// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/import_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,136 +8,136 @@ import * as cdktf from 'cdktf';
 
 export interface DataRafayImportClusterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/import_cluster#blueprint DataRafayImportCluster#blueprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/import_cluster#blueprint DataRafayImportCluster#blueprint}
   */
   readonly blueprint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/import_cluster#blueprint_sync DataRafayImportCluster#blueprint_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/import_cluster#blueprint_sync DataRafayImportCluster#blueprint_sync}
   */
   readonly blueprintSync?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/import_cluster#blueprint_version DataRafayImportCluster#blueprint_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/import_cluster#blueprint_version DataRafayImportCluster#blueprint_version}
   */
   readonly blueprintVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/import_cluster#cluster_health DataRafayImportCluster#cluster_health}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/import_cluster#cluster_health DataRafayImportCluster#cluster_health}
   */
   readonly clusterHealth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/import_cluster#clustername DataRafayImportCluster#clustername}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/import_cluster#clustername DataRafayImportCluster#clustername}
   */
   readonly clustername: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/import_cluster#description DataRafayImportCluster#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/import_cluster#description DataRafayImportCluster#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/import_cluster#id DataRafayImportCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/import_cluster#id DataRafayImportCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/import_cluster#kubernetes_provider DataRafayImportCluster#kubernetes_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/import_cluster#kubernetes_provider DataRafayImportCluster#kubernetes_provider}
   */
   readonly kubernetesProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/import_cluster#labels DataRafayImportCluster#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/import_cluster#labels DataRafayImportCluster#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/import_cluster#location DataRafayImportCluster#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/import_cluster#location DataRafayImportCluster#location}
   */
   readonly location?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/import_cluster#operational_status DataRafayImportCluster#operational_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/import_cluster#operational_status DataRafayImportCluster#operational_status}
   */
   readonly operationalStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/import_cluster#projectname DataRafayImportCluster#projectname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/import_cluster#projectname DataRafayImportCluster#projectname}
   */
   readonly projectname: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/import_cluster#provision_environment DataRafayImportCluster#provision_environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/import_cluster#provision_environment DataRafayImportCluster#provision_environment}
   */
   readonly provisionEnvironment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/import_cluster#provision_status DataRafayImportCluster#provision_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/import_cluster#provision_status DataRafayImportCluster#provision_status}
   */
   readonly provisionStatus?: string;
   /**
   * nodes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/import_cluster#nodes DataRafayImportCluster#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/import_cluster#nodes DataRafayImportCluster#nodes}
   */
   readonly nodes?: DataRafayImportClusterNodes[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/import_cluster#timeouts DataRafayImportCluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/import_cluster#timeouts DataRafayImportCluster#timeouts}
   */
   readonly timeouts?: DataRafayImportClusterTimeouts;
 }
 export interface DataRafayImportClusterNodes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/import_cluster#additional_storage_devices DataRafayImportCluster#additional_storage_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/import_cluster#additional_storage_devices DataRafayImportCluster#additional_storage_devices}
   */
   readonly additionalStorageDevices?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/import_cluster#approved DataRafayImportCluster#approved}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/import_cluster#approved DataRafayImportCluster#approved}
   */
   readonly approved?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/import_cluster#edge_id DataRafayImportCluster#edge_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/import_cluster#edge_id DataRafayImportCluster#edge_id}
   */
   readonly edgeId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/import_cluster#ips DataRafayImportCluster#ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/import_cluster#ips DataRafayImportCluster#ips}
   */
   readonly ips?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/import_cluster#ipv4_interface DataRafayImportCluster#ipv4_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/import_cluster#ipv4_interface DataRafayImportCluster#ipv4_interface}
   */
   readonly ipv4Interface?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/import_cluster#ipv4_interfaces_all DataRafayImportCluster#ipv4_interfaces_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/import_cluster#ipv4_interfaces_all DataRafayImportCluster#ipv4_interfaces_all}
   */
   readonly ipv4InterfacesAll?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/import_cluster#labels DataRafayImportCluster#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/import_cluster#labels DataRafayImportCluster#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/import_cluster#name DataRafayImportCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/import_cluster#name DataRafayImportCluster#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/import_cluster#node_id DataRafayImportCluster#node_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/import_cluster#node_id DataRafayImportCluster#node_id}
   */
   readonly nodeId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/import_cluster#num_cores DataRafayImportCluster#num_cores}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/import_cluster#num_cores DataRafayImportCluster#num_cores}
   */
   readonly numCores?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/import_cluster#private_ip DataRafayImportCluster#private_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/import_cluster#private_ip DataRafayImportCluster#private_ip}
   */
   readonly privateIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/import_cluster#roles DataRafayImportCluster#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/import_cluster#roles DataRafayImportCluster#roles}
   */
   readonly roles?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/import_cluster#storage_devices_all DataRafayImportCluster#storage_devices_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/import_cluster#storage_devices_all DataRafayImportCluster#storage_devices_all}
   */
   readonly storageDevicesAll?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/import_cluster#tags DataRafayImportCluster#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/import_cluster#tags DataRafayImportCluster#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/import_cluster#total_memory DataRafayImportCluster#total_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/import_cluster#total_memory DataRafayImportCluster#total_memory}
   */
   readonly totalMemory?: number;
 }
@@ -673,7 +673,7 @@ export class DataRafayImportClusterNodesList extends cdktf.ComplexList {
 }
 export interface DataRafayImportClusterTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/import_cluster#read DataRafayImportCluster#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/import_cluster#read DataRafayImportCluster#read}
   */
   readonly read?: string;
 }
@@ -767,7 +767,7 @@ export class DataRafayImportClusterTimeoutsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/import_cluster rafay_import_cluster}
+* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/import_cluster rafay_import_cluster}
 */
 export class DataRafayImportCluster extends cdktf.TerraformDataSource {
 
@@ -783,7 +783,7 @@ export class DataRafayImportCluster extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataRafayImportCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataRafayImportCluster to import
-  * @param importFromId The id of the existing DataRafayImportCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/import_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataRafayImportCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/import_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataRafayImportCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -795,7 +795,7 @@ export class DataRafayImportCluster extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/import_cluster rafay_import_cluster} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/import_cluster rafay_import_cluster} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -806,7 +806,8 @@ export class DataRafayImportCluster extends cdktf.TerraformDataSource {
       terraformResourceType: 'rafay_import_cluster',
       terraformGeneratorMetadata: {
         providerName: 'rafay',
-        providerVersion: '1.1.52'
+        providerVersion: '1.1.53',
+        providerVersionConstraint: '1.1.53'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

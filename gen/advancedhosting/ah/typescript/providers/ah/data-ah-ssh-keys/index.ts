@@ -452,7 +452,8 @@ export class DataAhSshKeys extends cdktf.TerraformDataSource {
       terraformResourceType: 'ah_ssh_keys',
       terraformGeneratorMetadata: {
         providerName: 'ah',
-        providerVersion: '0.3.6'
+        providerVersion: '0.3.6',
+        providerVersionConstraint: '0.3.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

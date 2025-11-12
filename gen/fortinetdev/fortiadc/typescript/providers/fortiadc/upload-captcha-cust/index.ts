@@ -104,7 +104,8 @@ export class UploadCaptchaCust extends cdktf.TerraformResource {
       terraformResourceType: 'fortiadc_upload_captcha_cust',
       terraformGeneratorMetadata: {
         providerName: 'fortiadc',
-        providerVersion: '1.3.1'
+        providerVersion: '1.3.1',
+        providerVersionConstraint: '1.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

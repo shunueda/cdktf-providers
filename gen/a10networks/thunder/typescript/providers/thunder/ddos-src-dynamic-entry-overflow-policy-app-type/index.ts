@@ -277,7 +277,8 @@ export class DdosSrcDynamicEntryOverflowPolicyAppType extends cdktf.TerraformRes
       terraformResourceType: 'thunder_ddos_src_dynamic_entry_overflow_policy_app_type',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

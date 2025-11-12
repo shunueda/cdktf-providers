@@ -64,7 +64,8 @@ export class RoutingKey extends cdktf.TerraformResource {
       terraformResourceType: 'victorops_routing_key',
       terraformGeneratorMetadata: {
         providerName: 'victorops',
-        providerVersion: '0.1.4'
+        providerVersion: '0.1.4',
+        providerVersionConstraint: '0.1.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

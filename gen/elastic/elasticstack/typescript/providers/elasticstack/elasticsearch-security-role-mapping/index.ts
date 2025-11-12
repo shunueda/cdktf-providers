@@ -664,7 +664,8 @@ export class ElasticsearchSecurityRoleMapping extends cdktf.TerraformResource {
       terraformResourceType: 'elasticstack_elasticsearch_security_role_mapping',
       terraformGeneratorMetadata: {
         providerName: 'elasticstack',
-        providerVersion: '0.12.1'
+        providerVersion: '0.12.1',
+        providerVersionConstraint: '0.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

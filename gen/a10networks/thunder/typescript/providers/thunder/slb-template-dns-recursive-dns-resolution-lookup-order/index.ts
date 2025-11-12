@@ -262,7 +262,8 @@ export class SlbTemplateDnsRecursiveDnsResolutionLookupOrderA extends cdktf.Terr
       terraformResourceType: 'thunder_slb_template_dns_recursive_dns_resolution_lookup_order',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

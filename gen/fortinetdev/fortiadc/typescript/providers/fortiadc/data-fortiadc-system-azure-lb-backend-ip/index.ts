@@ -64,7 +64,8 @@ export class DataFortiadcSystemAzureLbBackendIp extends cdktf.TerraformDataSourc
       terraformResourceType: 'fortiadc_system_azure_lb_backend_ip',
       terraformGeneratorMetadata: {
         providerName: 'fortiadc',
-        providerVersion: '1.3.1'
+        providerVersion: '1.3.1',
+        providerVersionConstraint: '1.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

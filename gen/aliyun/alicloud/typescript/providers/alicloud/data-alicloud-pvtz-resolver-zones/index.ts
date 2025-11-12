@@ -144,7 +144,8 @@ export class DataAlicloudPvtzResolverZones extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_pvtz_resolver_zones',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

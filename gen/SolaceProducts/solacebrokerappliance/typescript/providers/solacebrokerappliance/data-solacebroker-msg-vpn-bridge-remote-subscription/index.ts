@@ -88,7 +88,8 @@ export class DataSolacebrokerMsgVpnBridgeRemoteSubscription extends cdktf.Terraf
       terraformResourceType: 'solacebroker_msg_vpn_bridge_remote_subscription',
       terraformGeneratorMetadata: {
         providerName: 'solacebrokerappliance',
-        providerVersion: '1.2.0'
+        providerVersion: '1.2.0',
+        providerVersionConstraint: '1.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

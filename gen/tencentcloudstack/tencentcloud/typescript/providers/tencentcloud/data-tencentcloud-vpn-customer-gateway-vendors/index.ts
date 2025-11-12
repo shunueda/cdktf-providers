@@ -147,7 +147,8 @@ export class DataTencentcloudVpnCustomerGatewayVendors extends cdktf.TerraformDa
       terraformResourceType: 'tencentcloud_vpn_customer_gateway_vendors',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

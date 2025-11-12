@@ -67,7 +67,8 @@ export class SendgridProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'sendgrid',
       terraformGeneratorMetadata: {
         providerName: 'sendgrid',
-        providerVersion: '0.2.1'
+        providerVersion: '0.2.1',
+        providerVersionConstraint: '0.2.1'
       },
       terraformProviderSource: 'Trois-Six/sendgrid'
     });

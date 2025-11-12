@@ -188,7 +188,8 @@ export class TemplateGtpMessageFilteringPolicyVersionV2A extends cdktf.Terraform
       terraformResourceType: 'thunder_template_gtp_message_filtering_policy_version_v2',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

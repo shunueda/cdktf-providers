@@ -897,7 +897,8 @@ export class DataNcloudCdssCluster extends cdktf.TerraformDataSource {
       terraformResourceType: 'ncloud_cdss_cluster',
       terraformGeneratorMetadata: {
         providerName: 'ncloud',
-        providerVersion: '4.0.4'
+        providerVersion: '4.0.4',
+        providerVersionConstraint: '4.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -64,7 +64,8 @@ export class DataK8SServicemeshCiscoComIstioControlPlaneV1Alpha1Manifest extends
       terraformResourceType: 'k8s_servicemesh_cisco_com_istio_control_plane_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

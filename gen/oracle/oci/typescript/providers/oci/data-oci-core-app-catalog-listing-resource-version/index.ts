@@ -64,7 +64,8 @@ export class DataOciCoreAppCatalogListingResourceVersion extends cdktf.Terraform
       terraformResourceType: 'oci_core_app_catalog_listing_resource_version',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

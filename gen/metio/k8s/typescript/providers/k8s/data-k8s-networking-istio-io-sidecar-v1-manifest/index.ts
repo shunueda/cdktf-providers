@@ -4146,7 +4146,8 @@ export class DataK8SNetworkingIstioIoSidecarV1Manifest extends cdktf.TerraformDa
       terraformResourceType: 'k8s_networking_istio_io_sidecar_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

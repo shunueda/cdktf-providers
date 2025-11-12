@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_data_type_weighted_keywords
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_data_type_weighted_keywords
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataCheckpointManagementDataTypeWeightedKeywordsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_data_type_weighted_keywords#id DataCheckpointManagementDataTypeWeightedKeywords#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_data_type_weighted_keywords#id DataCheckpointManagementDataTypeWeightedKeywords#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataCheckpointManagementDataTypeWeightedKeywordsConfig extends 
   /**
   * Object name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_data_type_weighted_keywords#name DataCheckpointManagementDataTypeWeightedKeywords#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_data_type_weighted_keywords#name DataCheckpointManagementDataTypeWeightedKeywords#name}
   */
   readonly name: string;
   /**
   * Object unique identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_data_type_weighted_keywords#uid DataCheckpointManagementDataTypeWeightedKeywords#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_data_type_weighted_keywords#uid DataCheckpointManagementDataTypeWeightedKeywords#uid}
   */
   readonly uid?: string;
 }
@@ -119,7 +119,7 @@ export class DataCheckpointManagementDataTypeWeightedKeywordsWeightedKeywordsLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_data_type_weighted_keywords checkpoint_management_data_type_weighted_keywords}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_data_type_weighted_keywords checkpoint_management_data_type_weighted_keywords}
 */
 export class DataCheckpointManagementDataTypeWeightedKeywords extends cdktf.TerraformDataSource {
 
@@ -135,7 +135,7 @@ export class DataCheckpointManagementDataTypeWeightedKeywords extends cdktf.Terr
   * Generates CDKTF code for importing a DataCheckpointManagementDataTypeWeightedKeywords resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCheckpointManagementDataTypeWeightedKeywords to import
-  * @param importFromId The id of the existing DataCheckpointManagementDataTypeWeightedKeywords that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_data_type_weighted_keywords#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCheckpointManagementDataTypeWeightedKeywords that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_data_type_weighted_keywords#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCheckpointManagementDataTypeWeightedKeywords to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -147,7 +147,7 @@ export class DataCheckpointManagementDataTypeWeightedKeywords extends cdktf.Terr
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_data_type_weighted_keywords checkpoint_management_data_type_weighted_keywords} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_data_type_weighted_keywords checkpoint_management_data_type_weighted_keywords} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -158,7 +158,8 @@ export class DataCheckpointManagementDataTypeWeightedKeywords extends cdktf.Terr
       terraformResourceType: 'checkpoint_management_data_type_weighted_keywords',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

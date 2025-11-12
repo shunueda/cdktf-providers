@@ -100,7 +100,8 @@ export class NetworkSwitch extends cdktf.TerraformResource {
       terraformResourceType: 'openwrt_network_switch',
       terraformGeneratorMetadata: {
         providerName: 'openwrt',
-        providerVersion: '0.0.20'
+        providerVersion: '0.0.20',
+        providerVersionConstraint: '0.0.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

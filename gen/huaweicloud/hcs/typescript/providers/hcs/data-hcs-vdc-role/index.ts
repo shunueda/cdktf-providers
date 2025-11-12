@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/vdc_role
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/vdc_role
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,21 +8,21 @@ import * as cdktf from 'cdktf';
 
 export interface DataHcsVdcRoleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/vdc_role#display_name DataHcsVdcRole#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/vdc_role#display_name DataHcsVdcRole#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/vdc_role#name DataHcsVdcRole#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/vdc_role#name DataHcsVdcRole#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/vdc_role#role_type DataHcsVdcRole#role_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/vdc_role#role_type DataHcsVdcRole#role_type}
   */
   readonly roleType?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/vdc_role hcs_vdc_role}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/vdc_role hcs_vdc_role}
 */
 export class DataHcsVdcRole extends cdktf.TerraformDataSource {
 
@@ -38,7 +38,7 @@ export class DataHcsVdcRole extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataHcsVdcRole resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHcsVdcRole to import
-  * @param importFromId The id of the existing DataHcsVdcRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/vdc_role#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHcsVdcRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/vdc_role#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHcsVdcRole to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class DataHcsVdcRole extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/vdc_role hcs_vdc_role} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/vdc_role hcs_vdc_role} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,7 +61,8 @@ export class DataHcsVdcRole extends cdktf.TerraformDataSource {
       terraformResourceType: 'hcs_vdc_role',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.19'
+        providerVersion: '2.4.20',
+        providerVersionConstraint: '2.4.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

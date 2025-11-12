@@ -62,7 +62,8 @@ export class DataElasticsearchHost extends cdktf.TerraformDataSource {
       terraformResourceType: 'elasticsearch_host',
       terraformGeneratorMetadata: {
         providerName: 'elasticsearch',
-        providerVersion: '2.0.7'
+        providerVersion: '2.0.7',
+        providerVersionConstraint: '2.0.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

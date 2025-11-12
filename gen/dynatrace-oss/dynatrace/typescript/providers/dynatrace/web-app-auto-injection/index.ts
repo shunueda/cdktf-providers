@@ -434,7 +434,8 @@ export class WebAppAutoInjection extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_web_app_auto_injection',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1'
+        providerVersion: '1.87.1',
+        providerVersionConstraint: '1.87.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

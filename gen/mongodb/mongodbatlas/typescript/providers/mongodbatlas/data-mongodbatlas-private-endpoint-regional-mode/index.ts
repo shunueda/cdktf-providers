@@ -64,7 +64,8 @@ export class DataMongodbatlasPrivateEndpointRegionalMode extends cdktf.Terraform
       terraformResourceType: 'mongodbatlas_private_endpoint_regional_mode',
       terraformGeneratorMetadata: {
         providerName: 'mongodbatlas',
-        providerVersion: '2.1.0'
+        providerVersion: '2.1.0',
+        providerVersionConstraint: '2.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

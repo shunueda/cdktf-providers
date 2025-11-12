@@ -79,7 +79,8 @@ export class TetrationProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'tetration',
       terraformGeneratorMetadata: {
         providerName: 'tetration',
-        providerVersion: '0.1.1'
+        providerVersion: '0.1.1',
+        providerVersionConstraint: '0.1.1'
       },
       terraformProviderSource: 'CiscoDevNet/tetration'
     });

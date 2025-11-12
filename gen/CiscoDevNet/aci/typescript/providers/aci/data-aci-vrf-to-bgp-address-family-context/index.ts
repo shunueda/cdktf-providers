@@ -80,7 +80,8 @@ export class DataAciVrfToBgpAddressFamilyContext extends cdktf.TerraformDataSour
       terraformResourceType: 'aci_vrf_to_bgp_address_family_context',
       terraformGeneratorMetadata: {
         providerName: 'aci',
-        providerVersion: '2.18.0'
+        providerVersion: '2.18.0',
+        providerVersionConstraint: '2.18.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

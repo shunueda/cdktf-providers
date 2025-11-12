@@ -936,7 +936,8 @@ export class DataThunderCgnv6LsnRuleListDomainNameOper extends cdktf.TerraformDa
       terraformResourceType: 'thunder_cgnv6_lsn_rule_list_domain_name_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

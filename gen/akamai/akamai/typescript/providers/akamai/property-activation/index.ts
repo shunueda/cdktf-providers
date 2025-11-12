@@ -974,7 +974,8 @@ export class PropertyActivation extends cdktf.TerraformResource {
       terraformResourceType: 'akamai_property_activation',
       terraformGeneratorMetadata: {
         providerName: 'akamai',
-        providerVersion: '9.1.0'
+        providerVersion: '9.1.0',
+        providerVersionConstraint: '9.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/data-sources/aws_cnp_permissions
+// https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/data-sources/aws_cnp_permissions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataPolarisAwsCnpPermissionsConfig extends cdktf.TerraformMetaA
   /**
   * AWS cloud type. Possible values are `STANDARD`, `CHINA` and `GOV`. Default value is `STANDARD`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/data-sources/aws_cnp_permissions#cloud DataPolarisAwsCnpPermissions#cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/data-sources/aws_cnp_permissions#cloud DataPolarisAwsCnpPermissions#cloud}
   */
   readonly cloud?: string;
   /**
   * AWS EC2 recovery role path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/data-sources/aws_cnp_permissions#ec2_recovery_role_path DataPolarisAwsCnpPermissions#ec2_recovery_role_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/data-sources/aws_cnp_permissions#ec2_recovery_role_path DataPolarisAwsCnpPermissions#ec2_recovery_role_path}
   */
   readonly ec2RecoveryRolePath?: string;
   /**
   * RSC artifact key for the AWS role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/data-sources/aws_cnp_permissions#role_key DataPolarisAwsCnpPermissions#role_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/data-sources/aws_cnp_permissions#role_key DataPolarisAwsCnpPermissions#role_key}
   */
   readonly roleKey: string;
   /**
   * feature block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/data-sources/aws_cnp_permissions#feature DataPolarisAwsCnpPermissions#feature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/data-sources/aws_cnp_permissions#feature DataPolarisAwsCnpPermissions#feature}
   */
   readonly feature: DataPolarisAwsCnpPermissionsFeature[] | cdktf.IResolvable;
 }
@@ -121,13 +121,13 @@ export interface DataPolarisAwsCnpPermissionsFeature {
   /**
   * RSC feature name. Possible values are `CLOUD_NATIVE_ARCHIVAL`, `CLOUD_NATIVE_PROTECTION`, `CLOUD_NATIVE_DYNAMODB_PROTECTION`, `CLOUD_NATIVE_S3_PROTECTION`, `SERVERS_AND_APPS`, `EXOCOMPUTE` and `RDS_PROTECTION`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/data-sources/aws_cnp_permissions#name DataPolarisAwsCnpPermissions#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/data-sources/aws_cnp_permissions#name DataPolarisAwsCnpPermissions#name}
   */
   readonly name: string;
   /**
   * RSC permission groups for the feature. Possible values are `BASIC` and `RSC_MANAGED_CLUSTER`. For backwards compatibility, `[]` is interpreted as all applicable permission groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/data-sources/aws_cnp_permissions#permission_groups DataPolarisAwsCnpPermissions#permission_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/data-sources/aws_cnp_permissions#permission_groups DataPolarisAwsCnpPermissions#permission_groups}
   */
   readonly permissionGroups: string[];
 }
@@ -266,7 +266,7 @@ export class DataPolarisAwsCnpPermissionsFeatureList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/data-sources/aws_cnp_permissions polaris_aws_cnp_permissions}
+* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/data-sources/aws_cnp_permissions polaris_aws_cnp_permissions}
 */
 export class DataPolarisAwsCnpPermissions extends cdktf.TerraformDataSource {
 
@@ -282,7 +282,7 @@ export class DataPolarisAwsCnpPermissions extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataPolarisAwsCnpPermissions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataPolarisAwsCnpPermissions to import
-  * @param importFromId The id of the existing DataPolarisAwsCnpPermissions that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/data-sources/aws_cnp_permissions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataPolarisAwsCnpPermissions that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/data-sources/aws_cnp_permissions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataPolarisAwsCnpPermissions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -294,7 +294,7 @@ export class DataPolarisAwsCnpPermissions extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/data-sources/aws_cnp_permissions polaris_aws_cnp_permissions} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/data-sources/aws_cnp_permissions polaris_aws_cnp_permissions} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -305,7 +305,8 @@ export class DataPolarisAwsCnpPermissions extends cdktf.TerraformDataSource {
       terraformResourceType: 'polaris_aws_cnp_permissions',
       terraformGeneratorMetadata: {
         providerName: 'polaris',
-        providerVersion: '1.2.1'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

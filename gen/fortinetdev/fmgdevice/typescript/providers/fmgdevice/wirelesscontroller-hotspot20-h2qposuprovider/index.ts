@@ -464,7 +464,8 @@ export class WirelesscontrollerHotspot20H2Qposuprovider extends cdktf.TerraformR
       terraformResourceType: 'fmgdevice_wirelesscontroller_hotspot20_h2qposuprovider',
       terraformGeneratorMetadata: {
         providerName: 'fmgdevice',
-        providerVersion: '1.2.1'
+        providerVersion: '1.2.1',
+        providerVersionConstraint: '1.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

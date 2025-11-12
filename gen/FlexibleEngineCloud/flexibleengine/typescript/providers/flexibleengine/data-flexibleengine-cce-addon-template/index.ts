@@ -152,7 +152,8 @@ export class DataFlexibleengineCceAddonTemplate extends cdktf.TerraformDataSourc
       terraformResourceType: 'flexibleengine_cce_addon_template',
       terraformGeneratorMetadata: {
         providerName: 'flexibleengine',
-        providerVersion: '1.46.0'
+        providerVersion: '1.46.0',
+        providerVersionConstraint: '1.46.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

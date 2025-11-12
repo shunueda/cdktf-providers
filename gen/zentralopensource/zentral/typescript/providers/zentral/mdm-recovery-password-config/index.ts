@@ -79,7 +79,8 @@ export class MdmRecoveryPasswordConfig extends cdktf.TerraformResource {
       terraformResourceType: 'zentral_mdm_recovery_password_config',
       terraformGeneratorMetadata: {
         providerName: 'zentral',
-        providerVersion: '0.1.64'
+        providerVersion: '0.1.64',
+        providerVersionConstraint: '0.1.64'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

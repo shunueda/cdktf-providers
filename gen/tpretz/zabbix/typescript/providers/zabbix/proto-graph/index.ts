@@ -51,7 +51,7 @@ export interface ProtoGraphConfig extends cdktf.TerraformMetaArguments {
   */
   readonly percentRight?: string;
   /**
-  * Type, one of: stacked, pie, exploded, normal
+  * Type, one of: exploded, normal, stacked, pie
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tpretz/zabbix/0.17.0/docs/resources/proto_graph#type ProtoGraph#type}
   */
@@ -81,7 +81,7 @@ export interface ProtoGraphConfig extends cdktf.TerraformMetaArguments {
   */
   readonly ymaxItemid?: string;
   /**
-  * Y Axis Max Type, one of: calculated, fixed, item
+  * Y Axis Max Type, one of: item, calculated, fixed
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tpretz/zabbix/0.17.0/docs/resources/proto_graph#ymax_type ProtoGraph#ymax_type}
   */
@@ -99,7 +99,7 @@ export interface ProtoGraphConfig extends cdktf.TerraformMetaArguments {
   */
   readonly yminItemid?: string;
   /**
-  * Y Axis Min Type, one of: calculated, fixed, item
+  * Y Axis Min Type, one of: item, calculated, fixed
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tpretz/zabbix/0.17.0/docs/resources/proto_graph#ymin_type ProtoGraph#ymin_type}
   */
@@ -143,7 +143,7 @@ export interface ProtoGraphItem {
   */
   readonly sortorder?: string;
   /**
-  * Type, one of: sum, simple
+  * Type, one of: simple, sum
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tpretz/zabbix/0.17.0/docs/resources/proto_graph#type ProtoGraph#type}
   */
@@ -479,7 +479,8 @@ export class ProtoGraph extends cdktf.TerraformResource {
       terraformResourceType: 'zabbix_proto_graph',
       terraformGeneratorMetadata: {
         providerName: 'zabbix',
-        providerVersion: '0.17.0'
+        providerVersion: '0.17.0',
+        providerVersionConstraint: '0.17.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

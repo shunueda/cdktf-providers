@@ -79,7 +79,8 @@ export class TimescaleProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'timescale',
       terraformGeneratorMetadata: {
         providerName: 'timescale',
-        providerVersion: '2.6.0'
+        providerVersion: '2.6.0',
+        providerVersionConstraint: '2.6.0'
       },
       terraformProviderSource: 'timescale/timescale'
     });

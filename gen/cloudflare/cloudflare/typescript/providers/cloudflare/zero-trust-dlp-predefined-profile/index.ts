@@ -447,7 +447,8 @@ export class ZeroTrustDlpPredefinedProfile extends cdktf.TerraformResource {
       terraformResourceType: 'cloudflare_zero_trust_dlp_predefined_profile',
       terraformGeneratorMetadata: {
         providerName: 'cloudflare',
-        providerVersion: '5.12.0'
+        providerVersion: '5.12.0',
+        providerVersionConstraint: '5.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

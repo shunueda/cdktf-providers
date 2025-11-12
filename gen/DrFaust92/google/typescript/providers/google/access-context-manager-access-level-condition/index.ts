@@ -671,7 +671,8 @@ export class AccessContextManagerAccessLevelCondition extends cdktf.TerraformRes
       terraformResourceType: 'google_access_context_manager_access_level_condition',
       terraformGeneratorMetadata: {
         providerName: 'google',
-        providerVersion: '4.16.4'
+        providerVersion: '4.16.4',
+        providerVersionConstraint: '4.16.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

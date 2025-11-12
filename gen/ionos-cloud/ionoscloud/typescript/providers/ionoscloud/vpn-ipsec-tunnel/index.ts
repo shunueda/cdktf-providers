@@ -850,7 +850,8 @@ export class VpnIpsecTunnel extends cdktf.TerraformResource {
       terraformResourceType: 'ionoscloud_vpn_ipsec_tunnel',
       terraformGeneratorMetadata: {
         providerName: 'ionoscloud',
-        providerVersion: '6.7.20'
+        providerVersion: '6.7.20',
+        providerVersionConstraint: '6.7.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

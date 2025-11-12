@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_run_threat_emulation_file_types_offline_update
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_run_threat_emulation_file_types_offline_update
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ManagementRunThreatEmulationFileTypesOfflineUpdateConfig extend
   /**
   * File path for offline update of Threat Emulation file types, the file path should be on the management machine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_run_threat_emulation_file_types_offline_update#file_path ManagementRunThreatEmulationFileTypesOfflineUpdate#file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_run_threat_emulation_file_types_offline_update#file_path ManagementRunThreatEmulationFileTypesOfflineUpdate#file_path}
   */
   readonly filePath: string;
   /**
   * The contents of a file containing the Threat Emulation file types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_run_threat_emulation_file_types_offline_update#file_raw_data ManagementRunThreatEmulationFileTypesOfflineUpdate#file_raw_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_run_threat_emulation_file_types_offline_update#file_raw_data ManagementRunThreatEmulationFileTypesOfflineUpdate#file_raw_data}
   */
   readonly fileRawData: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_run_threat_emulation_file_types_offline_update#id ManagementRunThreatEmulationFileTypesOfflineUpdate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_run_threat_emulation_file_types_offline_update#id ManagementRunThreatEmulationFileTypesOfflineUpdate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,7 +29,7 @@ export interface ManagementRunThreatEmulationFileTypesOfflineUpdateConfig extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_run_threat_emulation_file_types_offline_update checkpoint_management_run_threat_emulation_file_types_offline_update}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_run_threat_emulation_file_types_offline_update checkpoint_management_run_threat_emulation_file_types_offline_update}
 */
 export class ManagementRunThreatEmulationFileTypesOfflineUpdate extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class ManagementRunThreatEmulationFileTypesOfflineUpdate extends cdktf.Te
   * Generates CDKTF code for importing a ManagementRunThreatEmulationFileTypesOfflineUpdate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementRunThreatEmulationFileTypesOfflineUpdate to import
-  * @param importFromId The id of the existing ManagementRunThreatEmulationFileTypesOfflineUpdate that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_run_threat_emulation_file_types_offline_update#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementRunThreatEmulationFileTypesOfflineUpdate that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_run_threat_emulation_file_types_offline_update#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementRunThreatEmulationFileTypesOfflineUpdate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class ManagementRunThreatEmulationFileTypesOfflineUpdate extends cdktf.Te
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_run_threat_emulation_file_types_offline_update checkpoint_management_run_threat_emulation_file_types_offline_update} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_run_threat_emulation_file_types_offline_update checkpoint_management_run_threat_emulation_file_types_offline_update} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,7 +68,8 @@ export class ManagementRunThreatEmulationFileTypesOfflineUpdate extends cdktf.Te
       terraformResourceType: 'checkpoint_management_run_threat_emulation_file_types_offline_update',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

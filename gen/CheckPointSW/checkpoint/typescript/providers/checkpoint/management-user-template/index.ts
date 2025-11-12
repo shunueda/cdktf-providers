@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_user_template
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_user_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,65 +10,65 @@ export interface ManagementUserTemplateConfig extends cdktf.TerraformMetaArgumen
   /**
   * User allowed locations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_user_template#allowed_locations ManagementUserTemplate#allowed_locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_user_template#allowed_locations ManagementUserTemplate#allowed_locations}
   */
   readonly allowedLocations?: { [key: string]: string };
   /**
   * Authentication method.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_user_template#authentication_method ManagementUserTemplate#authentication_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_user_template#authentication_method ManagementUserTemplate#authentication_method}
   */
   readonly authenticationMethod?: string;
   /**
   * Color of the object. Should be one of existing colors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_user_template#color ManagementUserTemplate#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_user_template#color ManagementUserTemplate#color}
   */
   readonly color?: string;
   /**
   * Comments string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_user_template#comments ManagementUserTemplate#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_user_template#comments ManagementUserTemplate#comments}
   */
   readonly comments?: string;
   /**
   * Connect every day.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_user_template#connect_daily ManagementUserTemplate#connect_daily}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_user_template#connect_daily ManagementUserTemplate#connect_daily}
   */
   readonly connectDaily?: boolean | cdktf.IResolvable;
   /**
   * Days users allow to connect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_user_template#connect_on_days ManagementUserTemplate#connect_on_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_user_template#connect_on_days ManagementUserTemplate#connect_on_days}
   */
   readonly connectOnDays?: string[];
   /**
   * User encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_user_template#encryption ManagementUserTemplate#encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_user_template#encryption ManagementUserTemplate#encryption}
   */
   readonly encryption?: { [key: string]: string };
   /**
   * Expiration date according to global properties.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_user_template#expiration_by_global_properties ManagementUserTemplate#expiration_by_global_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_user_template#expiration_by_global_properties ManagementUserTemplate#expiration_by_global_properties}
   */
   readonly expirationByGlobalProperties?: boolean | cdktf.IResolvable;
   /**
   * Expiration date in format: yyyy-MM-dd.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_user_template#expiration_date ManagementUserTemplate#expiration_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_user_template#expiration_date ManagementUserTemplate#expiration_date}
   */
   readonly expirationDate?: string;
   /**
   * Allow users connect from hour.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_user_template#from_hour ManagementUserTemplate#from_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_user_template#from_hour ManagementUserTemplate#from_hour}
   */
   readonly fromHour?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_user_template#id ManagementUserTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_user_template#id ManagementUserTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -77,49 +77,49 @@ export interface ManagementUserTemplateConfig extends cdktf.TerraformMetaArgumen
   /**
   * Apply changes ignoring errors. You won't be able to publish such a changes. If ignore-warnings flag was omitted - warnings will also be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_user_template#ignore_errors ManagementUserTemplate#ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_user_template#ignore_errors ManagementUserTemplate#ignore_errors}
   */
   readonly ignoreErrors?: boolean | cdktf.IResolvable;
   /**
   * Apply changes ignoring warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_user_template#ignore_warnings ManagementUserTemplate#ignore_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_user_template#ignore_warnings ManagementUserTemplate#ignore_warnings}
   */
   readonly ignoreWarnings?: boolean | cdktf.IResolvable;
   /**
   * Object name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_user_template#name ManagementUserTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_user_template#name ManagementUserTemplate#name}
   */
   readonly name: string;
   /**
   * RADIUS server object identified by the name or UID. Must be set when "authentication-method" was selected to be "RADIUS".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_user_template#radius_server ManagementUserTemplate#radius_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_user_template#radius_server ManagementUserTemplate#radius_server}
   */
   readonly radiusServer?: string;
   /**
   * TACACS server object identified by the name or UID. Must be set when "authentication-method" was selected to be "TACACS".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_user_template#tacacs_server ManagementUserTemplate#tacacs_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_user_template#tacacs_server ManagementUserTemplate#tacacs_server}
   */
   readonly tacacsServer?: string;
   /**
   * Collection of tag identifiers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_user_template#tags ManagementUserTemplate#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_user_template#tags ManagementUserTemplate#tags}
   */
   readonly tags?: string[];
   /**
   * Allow users connect until hour.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_user_template#to_hour ManagementUserTemplate#to_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_user_template#to_hour ManagementUserTemplate#to_hour}
   */
   readonly toHour?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_user_template checkpoint_management_user_template}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_user_template checkpoint_management_user_template}
 */
 export class ManagementUserTemplate extends cdktf.TerraformResource {
 
@@ -135,7 +135,7 @@ export class ManagementUserTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementUserTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementUserTemplate to import
-  * @param importFromId The id of the existing ManagementUserTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_user_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementUserTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_user_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementUserTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -147,7 +147,7 @@ export class ManagementUserTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_user_template checkpoint_management_user_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_user_template checkpoint_management_user_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -158,7 +158,8 @@ export class ManagementUserTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_user_template',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

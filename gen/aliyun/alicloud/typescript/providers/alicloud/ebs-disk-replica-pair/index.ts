@@ -290,7 +290,8 @@ export class EbsDiskReplicaPair extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_ebs_disk_replica_pair',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

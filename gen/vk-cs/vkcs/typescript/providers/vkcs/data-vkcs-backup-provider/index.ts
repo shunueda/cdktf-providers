@@ -61,7 +61,8 @@ export class DataVkcsBackupProvider extends cdktf.TerraformDataSource {
       terraformResourceType: 'vkcs_backup_provider',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.0'
+        providerVersion: '0.13.0',
+        providerVersionConstraint: '0.13.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

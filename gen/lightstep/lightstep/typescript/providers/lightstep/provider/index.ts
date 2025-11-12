@@ -85,7 +85,8 @@ export class LightstepProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'lightstep',
       terraformGeneratorMetadata: {
         providerName: 'lightstep',
-        providerVersion: '1.98.2'
+        providerVersion: '1.98.2',
+        providerVersionConstraint: '1.98.2'
       },
       terraformProviderSource: 'lightstep/lightstep'
     });

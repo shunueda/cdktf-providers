@@ -198,7 +198,8 @@ export class DataAlicloudCsServerlessKubernetesClusters extends cdktf.TerraformD
       terraformResourceType: 'alicloud_cs_serverless_kubernetes_clusters',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

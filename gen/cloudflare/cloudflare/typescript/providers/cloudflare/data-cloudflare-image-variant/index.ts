@@ -193,7 +193,8 @@ export class DataCloudflareImageVariant extends cdktf.TerraformDataSource {
       terraformResourceType: 'cloudflare_image_variant',
       terraformGeneratorMetadata: {
         providerName: 'cloudflare',
-        providerVersion: '5.12.0'
+        providerVersion: '5.12.0',
+        providerVersionConstraint: '5.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

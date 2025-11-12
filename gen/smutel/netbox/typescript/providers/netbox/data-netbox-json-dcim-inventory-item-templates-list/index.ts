@@ -215,7 +215,8 @@ export class DataNetboxJsonDcimInventoryItemTemplatesList extends cdktf.Terrafor
       terraformResourceType: 'netbox_json_dcim_inventory_item_templates_list',
       terraformGeneratorMetadata: {
         providerName: 'netbox',
-        providerVersion: '8.0.2'
+        providerVersion: '8.0.2',
+        providerVersionConstraint: '8.0.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

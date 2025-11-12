@@ -80,7 +80,8 @@ export class LogSyslogd4OverridefilterFreestyle extends cdktf.TerraformResource 
       terraformResourceType: 'fmgdevice_log_syslogd4_overridefilter_freestyle',
       terraformGeneratorMetadata: {
         providerName: 'fmgdevice',
-        providerVersion: '1.2.1'
+        providerVersion: '1.2.1',
+        providerVersionConstraint: '1.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

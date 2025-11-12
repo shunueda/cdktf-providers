@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/cfw_protection_rule
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_protection_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface CfwProtectionRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * The action type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/cfw_protection_rule#action_type CfwProtectionRule#action_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_protection_rule#action_type CfwProtectionRule#action_type}
   */
   readonly actionType: number;
   /**
   * The address type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/cfw_protection_rule#address_type CfwProtectionRule#address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_protection_rule#address_type CfwProtectionRule#address_type}
   */
   readonly addressType: number;
   /**
   * The description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/cfw_protection_rule#description CfwProtectionRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_protection_rule#description CfwProtectionRule#description}
   */
   readonly description?: string;
   /**
   * The direction.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/cfw_protection_rule#direction CfwProtectionRule#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_protection_rule#direction CfwProtectionRule#direction}
   */
   readonly direction?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/cfw_protection_rule#id CfwProtectionRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_protection_rule#id CfwProtectionRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,95 +41,95 @@ export interface CfwProtectionRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether to support persistent connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/cfw_protection_rule#long_connect_enable CfwProtectionRule#long_connect_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_protection_rule#long_connect_enable CfwProtectionRule#long_connect_enable}
   */
   readonly longConnectEnable: number;
   /**
   * The persistent connection duration (hour).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/cfw_protection_rule#long_connect_time_hour CfwProtectionRule#long_connect_time_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_protection_rule#long_connect_time_hour CfwProtectionRule#long_connect_time_hour}
   */
   readonly longConnectTimeHour?: number;
   /**
   * The persistent connection duration (minute).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/cfw_protection_rule#long_connect_time_minute CfwProtectionRule#long_connect_time_minute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_protection_rule#long_connect_time_minute CfwProtectionRule#long_connect_time_minute}
   */
   readonly longConnectTimeMinute?: number;
   /**
   * The persistent Connection Duration (second).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/cfw_protection_rule#long_connect_time_second CfwProtectionRule#long_connect_time_second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_protection_rule#long_connect_time_second CfwProtectionRule#long_connect_time_second}
   */
   readonly longConnectTimeSecond?: number;
   /**
   * The rule name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/cfw_protection_rule#name CfwProtectionRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_protection_rule#name CfwProtectionRule#name}
   */
   readonly name: string;
   /**
   * The protected object ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/cfw_protection_rule#object_id CfwProtectionRule#object_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_protection_rule#object_id CfwProtectionRule#object_id}
   */
   readonly objectId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/cfw_protection_rule#region CfwProtectionRule#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_protection_rule#region CfwProtectionRule#region}
   */
   readonly region?: string;
   /**
   * The number of times the protection rule is hit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/cfw_protection_rule#rule_hit_count CfwProtectionRule#rule_hit_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_protection_rule#rule_hit_count CfwProtectionRule#rule_hit_count}
   */
   readonly ruleHitCount?: string;
   /**
   * The rule status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/cfw_protection_rule#status CfwProtectionRule#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_protection_rule#status CfwProtectionRule#status}
   */
   readonly status: number;
   /**
   * The key/value pairs to associate with the protection rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/cfw_protection_rule#tags CfwProtectionRule#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_protection_rule#tags CfwProtectionRule#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The rule type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/cfw_protection_rule#type CfwProtectionRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_protection_rule#type CfwProtectionRule#type}
   */
   readonly type: number;
   /**
   * destination block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/cfw_protection_rule#destination CfwProtectionRule#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_protection_rule#destination CfwProtectionRule#destination}
   */
   readonly destination: CfwProtectionRuleDestination;
   /**
   * sequence block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/cfw_protection_rule#sequence CfwProtectionRule#sequence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_protection_rule#sequence CfwProtectionRule#sequence}
   */
   readonly sequence: CfwProtectionRuleSequence;
   /**
   * service block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/cfw_protection_rule#service CfwProtectionRule#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_protection_rule#service CfwProtectionRule#service}
   */
   readonly service: CfwProtectionRuleService;
   /**
   * source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/cfw_protection_rule#source CfwProtectionRule#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_protection_rule#source CfwProtectionRule#source}
   */
   readonly source: CfwProtectionRuleSource;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/cfw_protection_rule#timeouts CfwProtectionRule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_protection_rule#timeouts CfwProtectionRule#timeouts}
   */
   readonly timeouts?: CfwProtectionRuleTimeouts;
 }
@@ -137,25 +137,25 @@ export interface CfwProtectionRuleDestinationRegionListStruct {
   /**
   * The Chinese description of the region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/cfw_protection_rule#description_cn CfwProtectionRule#description_cn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_protection_rule#description_cn CfwProtectionRule#description_cn}
   */
   readonly descriptionCn?: string;
   /**
   * The English description of the region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/cfw_protection_rule#description_en CfwProtectionRule#description_en}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_protection_rule#description_en CfwProtectionRule#description_en}
   */
   readonly descriptionEn?: string;
   /**
   * The region ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/cfw_protection_rule#region_id CfwProtectionRule#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_protection_rule#region_id CfwProtectionRule#region_id}
   */
   readonly regionId: string;
   /**
   * The region type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/cfw_protection_rule#region_type CfwProtectionRule#region_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_protection_rule#region_type CfwProtectionRule#region_type}
   */
   readonly regionType: number;
 }
@@ -354,67 +354,67 @@ export interface CfwProtectionRuleDestination {
   /**
   * The IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/cfw_protection_rule#address CfwProtectionRule#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_protection_rule#address CfwProtectionRule#address}
   */
   readonly address?: string;
   /**
   * The address group list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/cfw_protection_rule#address_group CfwProtectionRule#address_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_protection_rule#address_group CfwProtectionRule#address_group}
   */
   readonly addressGroup?: string[];
   /**
   * The ID of the associated IP address group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/cfw_protection_rule#address_set_id CfwProtectionRule#address_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_protection_rule#address_set_id CfwProtectionRule#address_set_id}
   */
   readonly addressSetId?: string;
   /**
   * The IP address group name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/cfw_protection_rule#address_set_name CfwProtectionRule#address_set_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_protection_rule#address_set_name CfwProtectionRule#address_set_name}
   */
   readonly addressSetName?: string;
   /**
   * The address type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/cfw_protection_rule#address_type CfwProtectionRule#address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_protection_rule#address_type CfwProtectionRule#address_type}
   */
   readonly addressType?: number;
   /**
   * The name of the domain name address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/cfw_protection_rule#domain_address_name CfwProtectionRule#domain_address_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_protection_rule#domain_address_name CfwProtectionRule#domain_address_name}
   */
   readonly domainAddressName?: string;
   /**
   * The ID of the domain group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/cfw_protection_rule#domain_set_id CfwProtectionRule#domain_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_protection_rule#domain_set_id CfwProtectionRule#domain_set_id}
   */
   readonly domainSetId?: string;
   /**
   * The name of domain group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/cfw_protection_rule#domain_set_name CfwProtectionRule#domain_set_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_protection_rule#domain_set_name CfwProtectionRule#domain_set_name}
   */
   readonly domainSetName?: string;
   /**
   * The IP address list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/cfw_protection_rule#ip_address CfwProtectionRule#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_protection_rule#ip_address CfwProtectionRule#ip_address}
   */
   readonly ipAddress?: string[];
   /**
   * The Source type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/cfw_protection_rule#type CfwProtectionRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_protection_rule#type CfwProtectionRule#type}
   */
   readonly type: number;
   /**
   * region_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/cfw_protection_rule#region_list CfwProtectionRule#region_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_protection_rule#region_list CfwProtectionRule#region_list}
   */
   readonly regionList?: CfwProtectionRuleDestinationRegionListStruct[] | cdktf.IResolvable;
 }
@@ -787,13 +787,13 @@ export interface CfwProtectionRuleSequence {
   /**
   * The ID of the rule that the added rule will follow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/cfw_protection_rule#dest_rule_id CfwProtectionRule#dest_rule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_protection_rule#dest_rule_id CfwProtectionRule#dest_rule_id}
   */
   readonly destRuleId?: string;
   /**
   * Whether to pin on top.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/cfw_protection_rule#top CfwProtectionRule#top}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_protection_rule#top CfwProtectionRule#top}
   */
   readonly top?: number;
 }
@@ -908,19 +908,19 @@ export interface CfwProtectionRuleServiceCustomService {
   /**
   * The destination port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/cfw_protection_rule#dest_port CfwProtectionRule#dest_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_protection_rule#dest_port CfwProtectionRule#dest_port}
   */
   readonly destPort: string;
   /**
   * The protocol type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/cfw_protection_rule#protocol CfwProtectionRule#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_protection_rule#protocol CfwProtectionRule#protocol}
   */
   readonly protocol: number;
   /**
   * The source port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/cfw_protection_rule#source_port CfwProtectionRule#source_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_protection_rule#source_port CfwProtectionRule#source_port}
   */
   readonly sourcePort: string;
 }
@@ -1087,49 +1087,49 @@ export interface CfwProtectionRuleService {
   /**
   * The destination port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/cfw_protection_rule#dest_port CfwProtectionRule#dest_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_protection_rule#dest_port CfwProtectionRule#dest_port}
   */
   readonly destPort?: string;
   /**
   * The protocol type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/cfw_protection_rule#protocol CfwProtectionRule#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_protection_rule#protocol CfwProtectionRule#protocol}
   */
   readonly protocol?: number;
   /**
   * The service group list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/cfw_protection_rule#service_group CfwProtectionRule#service_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_protection_rule#service_group CfwProtectionRule#service_group}
   */
   readonly serviceGroup?: string[];
   /**
   * The service group ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/cfw_protection_rule#service_set_id CfwProtectionRule#service_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_protection_rule#service_set_id CfwProtectionRule#service_set_id}
   */
   readonly serviceSetId?: string;
   /**
   * The service group name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/cfw_protection_rule#service_set_name CfwProtectionRule#service_set_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_protection_rule#service_set_name CfwProtectionRule#service_set_name}
   */
   readonly serviceSetName?: string;
   /**
   * The source port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/cfw_protection_rule#source_port CfwProtectionRule#source_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_protection_rule#source_port CfwProtectionRule#source_port}
   */
   readonly sourcePort?: string;
   /**
   * The service input type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/cfw_protection_rule#type CfwProtectionRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_protection_rule#type CfwProtectionRule#type}
   */
   readonly type: number;
   /**
   * custom_service block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/cfw_protection_rule#custom_service CfwProtectionRule#custom_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_protection_rule#custom_service CfwProtectionRule#custom_service}
   */
   readonly customService?: CfwProtectionRuleServiceCustomService[] | cdktf.IResolvable;
 }
@@ -1415,25 +1415,25 @@ export interface CfwProtectionRuleSourceRegionListStruct {
   /**
   * The Chinese description of the region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/cfw_protection_rule#description_cn CfwProtectionRule#description_cn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_protection_rule#description_cn CfwProtectionRule#description_cn}
   */
   readonly descriptionCn?: string;
   /**
   * The English description of the region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/cfw_protection_rule#description_en CfwProtectionRule#description_en}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_protection_rule#description_en CfwProtectionRule#description_en}
   */
   readonly descriptionEn?: string;
   /**
   * The region ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/cfw_protection_rule#region_id CfwProtectionRule#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_protection_rule#region_id CfwProtectionRule#region_id}
   */
   readonly regionId: string;
   /**
   * The region type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/cfw_protection_rule#region_type CfwProtectionRule#region_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_protection_rule#region_type CfwProtectionRule#region_type}
   */
   readonly regionType: number;
 }
@@ -1632,67 +1632,67 @@ export interface CfwProtectionRuleSource {
   /**
   * The IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/cfw_protection_rule#address CfwProtectionRule#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_protection_rule#address CfwProtectionRule#address}
   */
   readonly address?: string;
   /**
   * The address group list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/cfw_protection_rule#address_group CfwProtectionRule#address_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_protection_rule#address_group CfwProtectionRule#address_group}
   */
   readonly addressGroup?: string[];
   /**
   * The ID of the associated IP address group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/cfw_protection_rule#address_set_id CfwProtectionRule#address_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_protection_rule#address_set_id CfwProtectionRule#address_set_id}
   */
   readonly addressSetId?: string;
   /**
   * The IP address group name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/cfw_protection_rule#address_set_name CfwProtectionRule#address_set_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_protection_rule#address_set_name CfwProtectionRule#address_set_name}
   */
   readonly addressSetName?: string;
   /**
   * The address type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/cfw_protection_rule#address_type CfwProtectionRule#address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_protection_rule#address_type CfwProtectionRule#address_type}
   */
   readonly addressType?: number;
   /**
   * The name of the domain name address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/cfw_protection_rule#domain_address_name CfwProtectionRule#domain_address_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_protection_rule#domain_address_name CfwProtectionRule#domain_address_name}
   */
   readonly domainAddressName?: string;
   /**
   * The ID of the domain group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/cfw_protection_rule#domain_set_id CfwProtectionRule#domain_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_protection_rule#domain_set_id CfwProtectionRule#domain_set_id}
   */
   readonly domainSetId?: string;
   /**
   * The name of domain group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/cfw_protection_rule#domain_set_name CfwProtectionRule#domain_set_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_protection_rule#domain_set_name CfwProtectionRule#domain_set_name}
   */
   readonly domainSetName?: string;
   /**
   * The IP address list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/cfw_protection_rule#ip_address CfwProtectionRule#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_protection_rule#ip_address CfwProtectionRule#ip_address}
   */
   readonly ipAddress?: string[];
   /**
   * The Source type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/cfw_protection_rule#type CfwProtectionRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_protection_rule#type CfwProtectionRule#type}
   */
   readonly type: number;
   /**
   * region_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/cfw_protection_rule#region_list CfwProtectionRule#region_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_protection_rule#region_list CfwProtectionRule#region_list}
   */
   readonly regionList?: CfwProtectionRuleSourceRegionListStruct[] | cdktf.IResolvable;
 }
@@ -2063,7 +2063,7 @@ export class CfwProtectionRuleSourceOutputReference extends cdktf.ComplexObject 
 }
 export interface CfwProtectionRuleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/cfw_protection_rule#delete CfwProtectionRule#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_protection_rule#delete CfwProtectionRule#delete}
   */
   readonly delete?: string;
 }
@@ -2157,7 +2157,7 @@ export class CfwProtectionRuleTimeoutsOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/cfw_protection_rule hcs_cfw_protection_rule}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_protection_rule hcs_cfw_protection_rule}
 */
 export class CfwProtectionRule extends cdktf.TerraformResource {
 
@@ -2173,7 +2173,7 @@ export class CfwProtectionRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CfwProtectionRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CfwProtectionRule to import
-  * @param importFromId The id of the existing CfwProtectionRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/cfw_protection_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CfwProtectionRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_protection_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CfwProtectionRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2185,7 +2185,7 @@ export class CfwProtectionRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/cfw_protection_rule hcs_cfw_protection_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/cfw_protection_rule hcs_cfw_protection_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2196,7 +2196,8 @@ export class CfwProtectionRule extends cdktf.TerraformResource {
       terraformResourceType: 'hcs_cfw_protection_rule',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.19'
+        providerVersion: '2.4.20',
+        providerVersionConstraint: '2.4.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

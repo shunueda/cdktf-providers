@@ -70,7 +70,8 @@ export class DataCatalystcenterFabricL3HandoffIpTransit extends cdktf.TerraformD
       terraformResourceType: 'catalystcenter_fabric_l3_handoff_ip_transit',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.2'
+        providerVersion: '0.4.2',
+        providerVersionConstraint: '0.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

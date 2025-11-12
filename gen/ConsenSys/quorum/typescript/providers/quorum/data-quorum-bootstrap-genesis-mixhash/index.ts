@@ -56,7 +56,8 @@ export class DataQuorumBootstrapGenesisMixhash extends cdktf.TerraformDataSource
       terraformResourceType: 'quorum_bootstrap_genesis_mixhash',
       terraformGeneratorMetadata: {
         providerName: 'quorum',
-        providerVersion: '0.3.0'
+        providerVersion: '0.3.0',
+        providerVersionConstraint: '0.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

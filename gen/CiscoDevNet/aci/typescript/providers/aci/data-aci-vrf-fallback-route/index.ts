@@ -221,7 +221,8 @@ export class DataAciVrfFallbackRoute extends cdktf.TerraformDataSource {
       terraformResourceType: 'aci_vrf_fallback_route',
       terraformGeneratorMetadata: {
         providerName: 'aci',
-        providerVersion: '2.18.0'
+        providerVersion: '2.18.0',
+        providerVersionConstraint: '2.18.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

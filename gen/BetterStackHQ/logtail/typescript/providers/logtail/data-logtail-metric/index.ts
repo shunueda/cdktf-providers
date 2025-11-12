@@ -61,7 +61,8 @@ export class DataLogtailMetric extends cdktf.TerraformDataSource {
       terraformResourceType: 'logtail_metric',
       terraformGeneratorMetadata: {
         providerName: 'logtail',
-        providerVersion: '0.6.4'
+        providerVersion: '0.6.4',
+        providerVersionConstraint: '0.6.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

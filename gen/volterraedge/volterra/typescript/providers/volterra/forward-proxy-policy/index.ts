@@ -5630,7 +5630,8 @@ export class ForwardProxyPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_forward_proxy_policy',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.44'
+        providerVersion: '0.11.44',
+        providerVersionConstraint: '0.11.44'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

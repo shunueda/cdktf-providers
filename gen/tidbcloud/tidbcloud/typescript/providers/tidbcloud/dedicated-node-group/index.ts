@@ -521,7 +521,8 @@ export class DedicatedNodeGroup extends cdktf.TerraformResource {
       terraformResourceType: 'tidbcloud_dedicated_node_group',
       terraformGeneratorMetadata: {
         providerName: 'tidbcloud',
-        providerVersion: '0.4.5'
+        providerVersion: '0.4.5',
+        providerVersionConstraint: '0.4.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

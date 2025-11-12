@@ -185,7 +185,8 @@ export class TransportIpv6TrackerFeature extends cdktf.TerraformResource {
       terraformResourceType: 'sdwan_transport_ipv6_tracker_feature',
       terraformGeneratorMetadata: {
         providerName: 'sdwan',
-        providerVersion: '0.8.1'
+        providerVersion: '0.8.1',
+        providerVersionConstraint: '0.8.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

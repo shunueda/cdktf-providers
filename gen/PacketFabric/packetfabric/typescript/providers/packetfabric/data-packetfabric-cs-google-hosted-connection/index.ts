@@ -715,7 +715,8 @@ export class DataPacketfabricCsGoogleHostedConnection extends cdktf.TerraformDat
       terraformResourceType: 'packetfabric_cs_google_hosted_connection',
       terraformGeneratorMetadata: {
         providerName: 'packetfabric',
-        providerVersion: '1.9.3'
+        providerVersion: '1.9.3',
+        providerVersionConstraint: '1.9.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

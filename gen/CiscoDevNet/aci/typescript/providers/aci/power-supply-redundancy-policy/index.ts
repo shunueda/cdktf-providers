@@ -76,7 +76,8 @@ export class PowerSupplyRedundancyPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'aci_power_supply_redundancy_policy',
       terraformGeneratorMetadata: {
         providerName: 'aci',
-        providerVersion: '2.18.0'
+        providerVersion: '2.18.0',
+        providerVersionConstraint: '2.18.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

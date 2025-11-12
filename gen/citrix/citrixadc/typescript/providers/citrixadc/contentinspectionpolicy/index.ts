@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/contentinspectionpolicy
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/contentinspectionpolicy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface ContentinspectionpolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/contentinspectionpolicy#action Contentinspectionpolicy#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/contentinspectionpolicy#action Contentinspectionpolicy#action}
   */
   readonly action: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/contentinspectionpolicy#comment Contentinspectionpolicy#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/contentinspectionpolicy#comment Contentinspectionpolicy#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/contentinspectionpolicy#id Contentinspectionpolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/contentinspectionpolicy#id Contentinspectionpolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/contentinspectionpolicy#logaction Contentinspectionpolicy#logaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/contentinspectionpolicy#logaction Contentinspectionpolicy#logaction}
   */
   readonly logaction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/contentinspectionpolicy#name Contentinspectionpolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/contentinspectionpolicy#name Contentinspectionpolicy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/contentinspectionpolicy#rule Contentinspectionpolicy#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/contentinspectionpolicy#rule Contentinspectionpolicy#rule}
   */
   readonly rule: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/contentinspectionpolicy#undefaction Contentinspectionpolicy#undefaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/contentinspectionpolicy#undefaction Contentinspectionpolicy#undefaction}
   */
   readonly undefaction?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/contentinspectionpolicy citrixadc_contentinspectionpolicy}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/contentinspectionpolicy citrixadc_contentinspectionpolicy}
 */
 export class Contentinspectionpolicy extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class Contentinspectionpolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Contentinspectionpolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Contentinspectionpolicy to import
-  * @param importFromId The id of the existing Contentinspectionpolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/contentinspectionpolicy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Contentinspectionpolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/contentinspectionpolicy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Contentinspectionpolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class Contentinspectionpolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/contentinspectionpolicy citrixadc_contentinspectionpolicy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/contentinspectionpolicy citrixadc_contentinspectionpolicy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,7 +80,8 @@ export class Contentinspectionpolicy extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_contentinspectionpolicy',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

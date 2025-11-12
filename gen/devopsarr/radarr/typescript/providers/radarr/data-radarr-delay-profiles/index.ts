@@ -164,7 +164,8 @@ export class DataRadarrDelayProfiles extends cdktf.TerraformDataSource {
       terraformResourceType: 'radarr_delay_profiles',
       terraformGeneratorMetadata: {
         providerName: 'radarr',
-        providerVersion: '2.3.3'
+        providerVersion: '2.3.3',
+        providerVersionConstraint: '2.3.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

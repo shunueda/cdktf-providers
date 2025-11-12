@@ -73,7 +73,8 @@ export class VultrProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'vultr',
       terraformGeneratorMetadata: {
         providerName: 'vultr',
-        providerVersion: '2.27.1'
+        providerVersion: '2.27.1',
+        providerVersionConstraint: '2.27.1'
       },
       terraformProviderSource: 'vultr/vultr'
     });

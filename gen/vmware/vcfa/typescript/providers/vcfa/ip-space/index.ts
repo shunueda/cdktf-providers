@@ -259,7 +259,8 @@ export class IpSpace extends cdktf.TerraformResource {
       terraformResourceType: 'vcfa_ip_space',
       terraformGeneratorMetadata: {
         providerName: 'vcfa',
-        providerVersion: '1.0.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

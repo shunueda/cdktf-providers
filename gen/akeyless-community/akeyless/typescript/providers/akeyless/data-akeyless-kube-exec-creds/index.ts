@@ -86,7 +86,8 @@ export class DataAkeylessKubeExecCreds extends cdktf.TerraformDataSource {
       terraformResourceType: 'akeyless_kube_exec_creds',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1'
+        providerVersion: '1.11.1',
+        providerVersionConstraint: '1.11.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

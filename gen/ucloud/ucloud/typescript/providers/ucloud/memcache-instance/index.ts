@@ -168,7 +168,8 @@ export class MemcacheInstance extends cdktf.TerraformResource {
       terraformResourceType: 'ucloud_memcache_instance',
       terraformGeneratorMetadata: {
         providerName: 'ucloud',
-        providerVersion: '1.39.1'
+        providerVersion: '1.39.1',
+        providerVersionConstraint: '1.39.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

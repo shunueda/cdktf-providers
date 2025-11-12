@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/data-sources/dns_record
+// https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/data-sources/dns_record
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataBunnynetDnsRecordConfig extends cdktf.TerraformMetaArgument
   /**
   * The unique identifier for the DNS record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/data-sources/dns_record#id DataBunnynetDnsRecord#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/data-sources/dns_record#id DataBunnynetDnsRecord#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,25 +19,25 @@ export interface DataBunnynetDnsRecordConfig extends cdktf.TerraformMetaArgument
   /**
   * The name of the DNS record. Use <code>name = ""</code> for apex domain records.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/data-sources/dns_record#name DataBunnynetDnsRecord#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/data-sources/dns_record#name DataBunnynetDnsRecord#name}
   */
   readonly name: string;
   /**
   * Options: `A`, `AAAA`, `CAA`, `CNAME`, `Flatten`, `MX`, `NS`, `PTR`, `PullZone`, `Redirect`, `SRV`, `Script`, `TXT`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/data-sources/dns_record#type DataBunnynetDnsRecord#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/data-sources/dns_record#type DataBunnynetDnsRecord#type}
   */
   readonly type: string;
   /**
   * ID of the related DNS zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/data-sources/dns_record#zone DataBunnynetDnsRecord#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/data-sources/dns_record#zone DataBunnynetDnsRecord#zone}
   */
   readonly zone: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/data-sources/dns_record bunnynet_dns_record}
+* Represents a {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/data-sources/dns_record bunnynet_dns_record}
 */
 export class DataBunnynetDnsRecord extends cdktf.TerraformDataSource {
 
@@ -53,7 +53,7 @@ export class DataBunnynetDnsRecord extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataBunnynetDnsRecord resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataBunnynetDnsRecord to import
-  * @param importFromId The id of the existing DataBunnynetDnsRecord that should be imported. Refer to the {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/data-sources/dns_record#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataBunnynetDnsRecord that should be imported. Refer to the {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/data-sources/dns_record#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataBunnynetDnsRecord to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -65,7 +65,7 @@ export class DataBunnynetDnsRecord extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/data-sources/dns_record bunnynet_dns_record} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/data-sources/dns_record bunnynet_dns_record} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -76,7 +76,8 @@ export class DataBunnynetDnsRecord extends cdktf.TerraformDataSource {
       terraformResourceType: 'bunnynet_dns_record',
       terraformGeneratorMetadata: {
         providerName: 'bunnynet',
-        providerVersion: '0.11.0'
+        providerVersion: '0.11.1',
+        providerVersionConstraint: '0.11.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

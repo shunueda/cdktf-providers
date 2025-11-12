@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_gw_configurations_azure
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_gw_configurations_azure
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface ManagementCmeGwConfigurationsAzureConfig extends cdktf.Terrafor
   /**
   * Base64 key for trusted communication between management and GW.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_gw_configurations_azure#base64_sic_key ManagementCmeGwConfigurationsAzure#base64_sic_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_gw_configurations_azure#base64_sic_key ManagementCmeGwConfigurationsAzure#base64_sic_key}
   */
   readonly base64SicKey: string;
   /**
   * Color of the gateways objects in SmartConsole.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_gw_configurations_azure#color ManagementCmeGwConfigurationsAzure#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_gw_configurations_azure#color ManagementCmeGwConfigurationsAzure#color}
   */
   readonly color?: string;
   /**
   * Gateway behind NAT communications settings with the Check Point Servers(Management, Multi-Domain, Log Servers).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_gw_configurations_azure#communication_with_servers_behind_nat ManagementCmeGwConfigurationsAzure#communication_with_servers_behind_nat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_gw_configurations_azure#communication_with_servers_behind_nat ManagementCmeGwConfigurationsAzure#communication_with_servers_behind_nat}
   */
   readonly communicationWithServersBehindNat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_gw_configurations_azure#id ManagementCmeGwConfigurationsAzure#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_gw_configurations_azure#id ManagementCmeGwConfigurationsAzure#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,79 +35,79 @@ export interface ManagementCmeGwConfigurationsAzureConfig extends cdktf.Terrafor
   /**
   * Indicates if the GW is configured to support IPv6.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_gw_configurations_azure#ipv6 ManagementCmeGwConfigurationsAzure#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_gw_configurations_azure#ipv6 ManagementCmeGwConfigurationsAzure#ipv6}
   */
   readonly ipv6?: boolean | cdktf.IResolvable;
   /**
   * The GW configuration name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_gw_configurations_azure#name ManagementCmeGwConfigurationsAzure#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_gw_configurations_azure#name ManagementCmeGwConfigurationsAzure#name}
   */
   readonly name: string;
   /**
   * Policy name to be installed on the GW.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_gw_configurations_azure#policy ManagementCmeGwConfigurationsAzure#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_gw_configurations_azure#policy ManagementCmeGwConfigurationsAzure#policy}
   */
   readonly policy: string;
   /**
   * The CME account to associate with the GW Configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_gw_configurations_azure#related_account ManagementCmeGwConfigurationsAzure#related_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_gw_configurations_azure#related_account ManagementCmeGwConfigurationsAzure#related_account}
   */
   readonly relatedAccount: string;
   /**
   * Name of a rule section in the Access and NAT layers in the policy, where to insert the automatically generated rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_gw_configurations_azure#section_name ManagementCmeGwConfigurationsAzure#section_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_gw_configurations_azure#section_name ManagementCmeGwConfigurationsAzure#section_name}
   */
   readonly sectionName?: string;
   /**
   * Alert Log Servers names to which alerts are sent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_gw_configurations_azure#send_alerts_to_server ManagementCmeGwConfigurationsAzure#send_alerts_to_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_gw_configurations_azure#send_alerts_to_server ManagementCmeGwConfigurationsAzure#send_alerts_to_server}
   */
   readonly sendAlertsToServer?: string[];
   /**
   * Backup Log Servers names to which logs are sent in case Primary Log Servers are unavailable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_gw_configurations_azure#send_logs_to_backup_server ManagementCmeGwConfigurationsAzure#send_logs_to_backup_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_gw_configurations_azure#send_logs_to_backup_server ManagementCmeGwConfigurationsAzure#send_logs_to_backup_server}
   */
   readonly sendLogsToBackupServer?: string[];
   /**
   * Primary Log Servers names to which logs are sent. Defined Log Server will act as Log and Alert Servers. Must be defined as part of Log Servers parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_gw_configurations_azure#send_logs_to_server ManagementCmeGwConfigurationsAzure#send_logs_to_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_gw_configurations_azure#send_logs_to_server ManagementCmeGwConfigurationsAzure#send_logs_to_server}
   */
   readonly sendLogsToServer?: string[];
   /**
   * The GW version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_gw_configurations_azure#version ManagementCmeGwConfigurationsAzure#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_gw_configurations_azure#version ManagementCmeGwConfigurationsAzure#version}
   */
   readonly version: string;
   /**
   * Enable XFF headers in HTTP / HTTPS requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_gw_configurations_azure#x_forwarded_for ManagementCmeGwConfigurationsAzure#x_forwarded_for}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_gw_configurations_azure#x_forwarded_for ManagementCmeGwConfigurationsAzure#x_forwarded_for}
   */
   readonly xForwardedFor?: boolean | cdktf.IResolvable;
   /**
   * blades block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_gw_configurations_azure#blades ManagementCmeGwConfigurationsAzure#blades}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_gw_configurations_azure#blades ManagementCmeGwConfigurationsAzure#blades}
   */
   readonly blades: ManagementCmeGwConfigurationsAzureBlades;
   /**
   * identity_awareness_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_gw_configurations_azure#identity_awareness_settings ManagementCmeGwConfigurationsAzure#identity_awareness_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_gw_configurations_azure#identity_awareness_settings ManagementCmeGwConfigurationsAzure#identity_awareness_settings}
   */
   readonly identityAwarenessSettings?: ManagementCmeGwConfigurationsAzureIdentityAwarenessSettings;
   /**
   * repository_gateway_scripts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_gw_configurations_azure#repository_gateway_scripts ManagementCmeGwConfigurationsAzure#repository_gateway_scripts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_gw_configurations_azure#repository_gateway_scripts ManagementCmeGwConfigurationsAzure#repository_gateway_scripts}
   */
   readonly repositoryGatewayScripts?: ManagementCmeGwConfigurationsAzureRepositoryGatewayScripts[] | cdktf.IResolvable;
 }
@@ -115,73 +115,73 @@ export interface ManagementCmeGwConfigurationsAzureBlades {
   /**
   * Anti-Bot blade
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_gw_configurations_azure#anti_bot ManagementCmeGwConfigurationsAzure#anti_bot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_gw_configurations_azure#anti_bot ManagementCmeGwConfigurationsAzure#anti_bot}
   */
   readonly antiBot: boolean | cdktf.IResolvable;
   /**
   * Anti-Virus blade
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_gw_configurations_azure#anti_virus ManagementCmeGwConfigurationsAzure#anti_virus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_gw_configurations_azure#anti_virus ManagementCmeGwConfigurationsAzure#anti_virus}
   */
   readonly antiVirus: boolean | cdktf.IResolvable;
   /**
   * Application Control blade
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_gw_configurations_azure#application_control ManagementCmeGwConfigurationsAzure#application_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_gw_configurations_azure#application_control ManagementCmeGwConfigurationsAzure#application_control}
   */
   readonly applicationControl: boolean | cdktf.IResolvable;
   /**
   * Autonomous Threat Prevention blade.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_gw_configurations_azure#autonomous_threat_prevention ManagementCmeGwConfigurationsAzure#autonomous_threat_prevention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_gw_configurations_azure#autonomous_threat_prevention ManagementCmeGwConfigurationsAzure#autonomous_threat_prevention}
   */
   readonly autonomousThreatPrevention: boolean | cdktf.IResolvable;
   /**
   * Content Awareness blade
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_gw_configurations_azure#content_awareness ManagementCmeGwConfigurationsAzure#content_awareness}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_gw_configurations_azure#content_awareness ManagementCmeGwConfigurationsAzure#content_awareness}
   */
   readonly contentAwareness: boolean | cdktf.IResolvable;
   /**
   * HTTPS Inspection blade
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_gw_configurations_azure#https_inspection ManagementCmeGwConfigurationsAzure#https_inspection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_gw_configurations_azure#https_inspection ManagementCmeGwConfigurationsAzure#https_inspection}
   */
   readonly httpsInspection: boolean | cdktf.IResolvable;
   /**
   * Identity Awareness blade
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_gw_configurations_azure#identity_awareness ManagementCmeGwConfigurationsAzure#identity_awareness}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_gw_configurations_azure#identity_awareness ManagementCmeGwConfigurationsAzure#identity_awareness}
   */
   readonly identityAwareness: boolean | cdktf.IResolvable;
   /**
   * IPS blade
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_gw_configurations_azure#ips ManagementCmeGwConfigurationsAzure#ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_gw_configurations_azure#ips ManagementCmeGwConfigurationsAzure#ips}
   */
   readonly ips: boolean | cdktf.IResolvable;
   /**
   * IPsec VPN blade
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_gw_configurations_azure#ipsec_vpn ManagementCmeGwConfigurationsAzure#ipsec_vpn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_gw_configurations_azure#ipsec_vpn ManagementCmeGwConfigurationsAzure#ipsec_vpn}
   */
   readonly ipsecVpn: boolean | cdktf.IResolvable;
   /**
   * Threat Emulation blade
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_gw_configurations_azure#threat_emulation ManagementCmeGwConfigurationsAzure#threat_emulation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_gw_configurations_azure#threat_emulation ManagementCmeGwConfigurationsAzure#threat_emulation}
   */
   readonly threatEmulation: boolean | cdktf.IResolvable;
   /**
   * URL Filtering blade
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_gw_configurations_azure#url_filtering ManagementCmeGwConfigurationsAzure#url_filtering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_gw_configurations_azure#url_filtering ManagementCmeGwConfigurationsAzure#url_filtering}
   */
   readonly urlFiltering: boolean | cdktf.IResolvable;
   /**
   * VPN blade
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_gw_configurations_azure#vpn ManagementCmeGwConfigurationsAzure#vpn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_gw_configurations_azure#vpn ManagementCmeGwConfigurationsAzure#vpn}
   */
   readonly vpn: boolean | cdktf.IResolvable;
 }
@@ -550,13 +550,13 @@ export interface ManagementCmeGwConfigurationsAzureIdentityAwarenessSettings {
   /**
   * Enable the Web API identity source for CloudGuard Controller
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_gw_configurations_azure#enable_cloudguard_controller ManagementCmeGwConfigurationsAzure#enable_cloudguard_controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_gw_configurations_azure#enable_cloudguard_controller ManagementCmeGwConfigurationsAzure#enable_cloudguard_controller}
   */
   readonly enableCloudguardController?: boolean | cdktf.IResolvable;
   /**
   * List of PDP gateway names from which to receive identities through Identity Sharing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_gw_configurations_azure#receive_identities_from ManagementCmeGwConfigurationsAzure#receive_identities_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_gw_configurations_azure#receive_identities_from ManagementCmeGwConfigurationsAzure#receive_identities_from}
   */
   readonly receiveIdentitiesFrom?: string[];
 }
@@ -671,13 +671,13 @@ export interface ManagementCmeGwConfigurationsAzureRepositoryGatewayScripts {
   /**
   * Script name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_gw_configurations_azure#name ManagementCmeGwConfigurationsAzure#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_gw_configurations_azure#name ManagementCmeGwConfigurationsAzure#name}
   */
   readonly name: string;
   /**
   * Script parameters (separated by space)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_gw_configurations_azure#parameters ManagementCmeGwConfigurationsAzure#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_gw_configurations_azure#parameters ManagementCmeGwConfigurationsAzure#parameters}
   */
   readonly parameters?: string;
 }
@@ -824,7 +824,7 @@ export class ManagementCmeGwConfigurationsAzureRepositoryGatewayScriptsList exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_gw_configurations_azure checkpoint_management_cme_gw_configurations_azure}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_gw_configurations_azure checkpoint_management_cme_gw_configurations_azure}
 */
 export class ManagementCmeGwConfigurationsAzure extends cdktf.TerraformResource {
 
@@ -840,7 +840,7 @@ export class ManagementCmeGwConfigurationsAzure extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a ManagementCmeGwConfigurationsAzure resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementCmeGwConfigurationsAzure to import
-  * @param importFromId The id of the existing ManagementCmeGwConfigurationsAzure that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_gw_configurations_azure#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementCmeGwConfigurationsAzure that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_gw_configurations_azure#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementCmeGwConfigurationsAzure to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -852,7 +852,7 @@ export class ManagementCmeGwConfigurationsAzure extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_gw_configurations_azure checkpoint_management_cme_gw_configurations_azure} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_gw_configurations_azure checkpoint_management_cme_gw_configurations_azure} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -863,7 +863,8 @@ export class ManagementCmeGwConfigurationsAzure extends cdktf.TerraformResource 
       terraformResourceType: 'checkpoint_management_cme_gw_configurations_azure',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -109,7 +109,8 @@ export class FirewallAlias extends cdktf.TerraformResource {
       terraformResourceType: 'opnsense_firewall_alias',
       terraformGeneratorMetadata: {
         providerName: 'opnsense',
-        providerVersion: '0.16.0'
+        providerVersion: '0.16.0',
+        providerVersionConstraint: '0.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

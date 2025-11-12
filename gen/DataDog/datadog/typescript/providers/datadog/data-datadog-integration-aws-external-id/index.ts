@@ -55,7 +55,8 @@ export class DataDatadogIntegrationAwsExternalId extends cdktf.TerraformDataSour
       terraformResourceType: 'datadog_integration_aws_external_id',
       terraformGeneratorMetadata: {
         providerName: 'datadog',
-        providerVersion: '3.79.0'
+        providerVersion: '3.79.0',
+        providerVersionConstraint: '3.79.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -213,7 +213,8 @@ export class SagemakerCodeRepository extends cdktf.TerraformResource {
       terraformResourceType: 'aws_sagemaker_code_repository',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '3.29.6'
+        providerVersion: '3.29.6',
+        providerVersionConstraint: '3.29.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

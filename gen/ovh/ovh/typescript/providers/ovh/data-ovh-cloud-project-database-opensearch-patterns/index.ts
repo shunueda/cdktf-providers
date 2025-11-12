@@ -66,7 +66,8 @@ export class DataOvhCloudProjectDatabaseOpensearchPatterns extends cdktf.Terrafo
       terraformResourceType: 'ovh_cloud_project_database_opensearch_patterns',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0'
+        providerVersion: '2.9.0',
+        providerVersionConstraint: '2.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

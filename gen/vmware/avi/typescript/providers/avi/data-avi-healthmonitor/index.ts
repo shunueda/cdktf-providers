@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/healthmonitor
+// https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/healthmonitor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,22 +8,22 @@ import * as cdktf from 'cdktf';
 
 export interface DataAviHealthmonitorConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/healthmonitor#id DataAviHealthmonitor#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/healthmonitor#id DataAviHealthmonitor#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/healthmonitor#name DataAviHealthmonitor#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/healthmonitor#name DataAviHealthmonitor#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/healthmonitor#tenant_ref DataAviHealthmonitor#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/healthmonitor#tenant_ref DataAviHealthmonitor#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/healthmonitor#uuid DataAviHealthmonitor#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/healthmonitor#uuid DataAviHealthmonitor#uuid}
   */
   readonly uuid?: string;
 }
@@ -437,11 +437,6 @@ export class DataAviHealthmonitorFtpMonitorSslAttributesOutputReference extends 
   public get sslProfileRef() {
     return this.getStringAttribute('ssl_profile_ref');
   }
-
-  // use_pool_sni_server_name - computed: true, optional: false, required: false
-  public get usePoolSniServerName() {
-    return this.getStringAttribute('use_pool_sni_server_name');
-  }
 }
 
 export class DataAviHealthmonitorFtpMonitorSslAttributesList extends cdktf.ComplexList {
@@ -618,11 +613,6 @@ export class DataAviHealthmonitorFtpsMonitorSslAttributesOutputReference extends
   public get sslProfileRef() {
     return this.getStringAttribute('ssl_profile_ref');
   }
-
-  // use_pool_sni_server_name - computed: true, optional: false, required: false
-  public get usePoolSniServerName() {
-    return this.getStringAttribute('use_pool_sni_server_name');
-  }
 }
 
 export class DataAviHealthmonitorFtpsMonitorSslAttributesList extends cdktf.ComplexList {
@@ -729,468 +719,6 @@ export class DataAviHealthmonitorFtpsMonitorList extends cdktf.ComplexList {
     return new DataAviHealthmonitorFtpsMonitorOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
-export interface DataAviHealthmonitorHttp2MonitorSslAttributes {
-}
-
-export function dataAviHealthmonitorHttp2MonitorSslAttributesToTerraform(struct?: DataAviHealthmonitorHttp2MonitorSslAttributes): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function dataAviHealthmonitorHttp2MonitorSslAttributesToHclTerraform(struct?: DataAviHealthmonitorHttp2MonitorSslAttributes): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class DataAviHealthmonitorHttp2MonitorSslAttributesOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): DataAviHealthmonitorHttp2MonitorSslAttributes | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataAviHealthmonitorHttp2MonitorSslAttributes | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // pki_profile_ref - computed: true, optional: false, required: false
-  public get pkiProfileRef() {
-    return this.getStringAttribute('pki_profile_ref');
-  }
-
-  // server_name - computed: true, optional: false, required: false
-  public get serverName() {
-    return this.getStringAttribute('server_name');
-  }
-
-  // ssl_key_and_certificate_ref - computed: true, optional: false, required: false
-  public get sslKeyAndCertificateRef() {
-    return this.getStringAttribute('ssl_key_and_certificate_ref');
-  }
-
-  // ssl_profile_ref - computed: true, optional: false, required: false
-  public get sslProfileRef() {
-    return this.getStringAttribute('ssl_profile_ref');
-  }
-
-  // use_pool_sni_server_name - computed: true, optional: false, required: false
-  public get usePoolSniServerName() {
-    return this.getStringAttribute('use_pool_sni_server_name');
-  }
-}
-
-export class DataAviHealthmonitorHttp2MonitorSslAttributesList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DataAviHealthmonitorHttp2MonitorSslAttributesOutputReference {
-    return new DataAviHealthmonitorHttp2MonitorSslAttributesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface DataAviHealthmonitorHttp2Monitor {
-}
-
-export function dataAviHealthmonitorHttp2MonitorToTerraform(struct?: DataAviHealthmonitorHttp2Monitor): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function dataAviHealthmonitorHttp2MonitorToHclTerraform(struct?: DataAviHealthmonitorHttp2Monitor): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class DataAviHealthmonitorHttp2MonitorOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): DataAviHealthmonitorHttp2Monitor | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataAviHealthmonitorHttp2Monitor | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // auth_type - computed: true, optional: false, required: false
-  public get authType() {
-    return this.getStringAttribute('auth_type');
-  }
-
-  // exact_http_request - computed: true, optional: false, required: false
-  public get exactHttpRequest() {
-    return this.getStringAttribute('exact_http_request');
-  }
-
-  // http_headers - computed: true, optional: false, required: false
-  public get httpHeaders() {
-    return this.getListAttribute('http_headers');
-  }
-
-  // http_method - computed: true, optional: false, required: false
-  public get httpMethod() {
-    return this.getStringAttribute('http_method');
-  }
-
-  // http_request - computed: true, optional: false, required: false
-  public get httpRequest() {
-    return this.getStringAttribute('http_request');
-  }
-
-  // http_request_body - computed: true, optional: false, required: false
-  public get httpRequestBody() {
-    return this.getStringAttribute('http_request_body');
-  }
-
-  // http_request_header_path - computed: true, optional: false, required: false
-  public get httpRequestHeaderPath() {
-    return this.getStringAttribute('http_request_header_path');
-  }
-
-  // http_response - computed: true, optional: false, required: false
-  public get httpResponse() {
-    return this.getStringAttribute('http_response');
-  }
-
-  // http_response_code - computed: true, optional: false, required: false
-  public get httpResponseCode() {
-    return this.getListAttribute('http_response_code');
-  }
-
-  // maintenance_code - computed: true, optional: false, required: false
-  public get maintenanceCode() {
-    return this.getNumberListAttribute('maintenance_code');
-  }
-
-  // maintenance_response - computed: true, optional: false, required: false
-  public get maintenanceResponse() {
-    return this.getStringAttribute('maintenance_response');
-  }
-
-  // response_size - computed: true, optional: false, required: false
-  public get responseSize() {
-    return this.getStringAttribute('response_size');
-  }
-
-  // ssl_attributes - computed: true, optional: false, required: false
-  private _sslAttributes = new DataAviHealthmonitorHttp2MonitorSslAttributesList(this, "ssl_attributes", true);
-  public get sslAttributes() {
-    return this._sslAttributes;
-  }
-}
-
-export class DataAviHealthmonitorHttp2MonitorList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DataAviHealthmonitorHttp2MonitorOutputReference {
-    return new DataAviHealthmonitorHttp2MonitorOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface DataAviHealthmonitorHttp2SMonitorSslAttributes {
-}
-
-export function dataAviHealthmonitorHttp2SMonitorSslAttributesToTerraform(struct?: DataAviHealthmonitorHttp2SMonitorSslAttributes): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function dataAviHealthmonitorHttp2SMonitorSslAttributesToHclTerraform(struct?: DataAviHealthmonitorHttp2SMonitorSslAttributes): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class DataAviHealthmonitorHttp2SMonitorSslAttributesOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): DataAviHealthmonitorHttp2SMonitorSslAttributes | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataAviHealthmonitorHttp2SMonitorSslAttributes | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // pki_profile_ref - computed: true, optional: false, required: false
-  public get pkiProfileRef() {
-    return this.getStringAttribute('pki_profile_ref');
-  }
-
-  // server_name - computed: true, optional: false, required: false
-  public get serverName() {
-    return this.getStringAttribute('server_name');
-  }
-
-  // ssl_key_and_certificate_ref - computed: true, optional: false, required: false
-  public get sslKeyAndCertificateRef() {
-    return this.getStringAttribute('ssl_key_and_certificate_ref');
-  }
-
-  // ssl_profile_ref - computed: true, optional: false, required: false
-  public get sslProfileRef() {
-    return this.getStringAttribute('ssl_profile_ref');
-  }
-
-  // use_pool_sni_server_name - computed: true, optional: false, required: false
-  public get usePoolSniServerName() {
-    return this.getStringAttribute('use_pool_sni_server_name');
-  }
-}
-
-export class DataAviHealthmonitorHttp2SMonitorSslAttributesList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DataAviHealthmonitorHttp2SMonitorSslAttributesOutputReference {
-    return new DataAviHealthmonitorHttp2SMonitorSslAttributesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface DataAviHealthmonitorHttp2SMonitor {
-}
-
-export function dataAviHealthmonitorHttp2SMonitorToTerraform(struct?: DataAviHealthmonitorHttp2SMonitor): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function dataAviHealthmonitorHttp2SMonitorToHclTerraform(struct?: DataAviHealthmonitorHttp2SMonitor): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class DataAviHealthmonitorHttp2SMonitorOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): DataAviHealthmonitorHttp2SMonitor | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DataAviHealthmonitorHttp2SMonitor | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-    }
-  }
-
-  // auth_type - computed: true, optional: false, required: false
-  public get authType() {
-    return this.getStringAttribute('auth_type');
-  }
-
-  // exact_http_request - computed: true, optional: false, required: false
-  public get exactHttpRequest() {
-    return this.getStringAttribute('exact_http_request');
-  }
-
-  // http_headers - computed: true, optional: false, required: false
-  public get httpHeaders() {
-    return this.getListAttribute('http_headers');
-  }
-
-  // http_method - computed: true, optional: false, required: false
-  public get httpMethod() {
-    return this.getStringAttribute('http_method');
-  }
-
-  // http_request - computed: true, optional: false, required: false
-  public get httpRequest() {
-    return this.getStringAttribute('http_request');
-  }
-
-  // http_request_body - computed: true, optional: false, required: false
-  public get httpRequestBody() {
-    return this.getStringAttribute('http_request_body');
-  }
-
-  // http_request_header_path - computed: true, optional: false, required: false
-  public get httpRequestHeaderPath() {
-    return this.getStringAttribute('http_request_header_path');
-  }
-
-  // http_response - computed: true, optional: false, required: false
-  public get httpResponse() {
-    return this.getStringAttribute('http_response');
-  }
-
-  // http_response_code - computed: true, optional: false, required: false
-  public get httpResponseCode() {
-    return this.getListAttribute('http_response_code');
-  }
-
-  // maintenance_code - computed: true, optional: false, required: false
-  public get maintenanceCode() {
-    return this.getNumberListAttribute('maintenance_code');
-  }
-
-  // maintenance_response - computed: true, optional: false, required: false
-  public get maintenanceResponse() {
-    return this.getStringAttribute('maintenance_response');
-  }
-
-  // response_size - computed: true, optional: false, required: false
-  public get responseSize() {
-    return this.getStringAttribute('response_size');
-  }
-
-  // ssl_attributes - computed: true, optional: false, required: false
-  private _sslAttributes = new DataAviHealthmonitorHttp2SMonitorSslAttributesList(this, "ssl_attributes", true);
-  public get sslAttributes() {
-    return this._sslAttributes;
-  }
-}
-
-export class DataAviHealthmonitorHttp2SMonitorList extends cdktf.ComplexList {
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DataAviHealthmonitorHttp2SMonitorOutputReference {
-    return new DataAviHealthmonitorHttp2SMonitorOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
 export interface DataAviHealthmonitorHttpMonitorSslAttributes {
 }
 
@@ -1260,11 +788,6 @@ export class DataAviHealthmonitorHttpMonitorSslAttributesOutputReference extends
   // ssl_profile_ref - computed: true, optional: false, required: false
   public get sslProfileRef() {
     return this.getStringAttribute('ssl_profile_ref');
-  }
-
-  // use_pool_sni_server_name - computed: true, optional: false, required: false
-  public get usePoolSniServerName() {
-    return this.getStringAttribute('use_pool_sni_server_name');
   }
 }
 
@@ -1347,16 +870,6 @@ export class DataAviHealthmonitorHttpMonitorOutputReference extends cdktf.Comple
     return this.getStringAttribute('exact_http_request');
   }
 
-  // http_headers - computed: true, optional: false, required: false
-  public get httpHeaders() {
-    return this.getListAttribute('http_headers');
-  }
-
-  // http_method - computed: true, optional: false, required: false
-  public get httpMethod() {
-    return this.getStringAttribute('http_method');
-  }
-
   // http_request - computed: true, optional: false, required: false
   public get httpRequest() {
     return this.getStringAttribute('http_request');
@@ -1365,11 +878,6 @@ export class DataAviHealthmonitorHttpMonitorOutputReference extends cdktf.Comple
   // http_request_body - computed: true, optional: false, required: false
   public get httpRequestBody() {
     return this.getStringAttribute('http_request_body');
-  }
-
-  // http_request_header_path - computed: true, optional: false, required: false
-  public get httpRequestHeaderPath() {
-    return this.getStringAttribute('http_request_header_path');
   }
 
   // http_response - computed: true, optional: false, required: false
@@ -1492,11 +1000,6 @@ export class DataAviHealthmonitorHttpsMonitorSslAttributesOutputReference extend
   public get sslProfileRef() {
     return this.getStringAttribute('ssl_profile_ref');
   }
-
-  // use_pool_sni_server_name - computed: true, optional: false, required: false
-  public get usePoolSniServerName() {
-    return this.getStringAttribute('use_pool_sni_server_name');
-  }
 }
 
 export class DataAviHealthmonitorHttpsMonitorSslAttributesList extends cdktf.ComplexList {
@@ -1578,16 +1081,6 @@ export class DataAviHealthmonitorHttpsMonitorOutputReference extends cdktf.Compl
     return this.getStringAttribute('exact_http_request');
   }
 
-  // http_headers - computed: true, optional: false, required: false
-  public get httpHeaders() {
-    return this.getListAttribute('http_headers');
-  }
-
-  // http_method - computed: true, optional: false, required: false
-  public get httpMethod() {
-    return this.getStringAttribute('http_method');
-  }
-
   // http_request - computed: true, optional: false, required: false
   public get httpRequest() {
     return this.getStringAttribute('http_request');
@@ -1596,11 +1089,6 @@ export class DataAviHealthmonitorHttpsMonitorOutputReference extends cdktf.Compl
   // http_request_body - computed: true, optional: false, required: false
   public get httpRequestBody() {
     return this.getStringAttribute('http_request_body');
-  }
-
-  // http_request_header_path - computed: true, optional: false, required: false
-  public get httpRequestHeaderPath() {
-    return this.getStringAttribute('http_request_header_path');
   }
 
   // http_response - computed: true, optional: false, required: false
@@ -1722,11 +1210,6 @@ export class DataAviHealthmonitorImapMonitorSslAttributesOutputReference extends
   // ssl_profile_ref - computed: true, optional: false, required: false
   public get sslProfileRef() {
     return this.getStringAttribute('ssl_profile_ref');
-  }
-
-  // use_pool_sni_server_name - computed: true, optional: false, required: false
-  public get usePoolSniServerName() {
-    return this.getStringAttribute('use_pool_sni_server_name');
   }
 }
 
@@ -1899,11 +1382,6 @@ export class DataAviHealthmonitorImapsMonitorSslAttributesOutputReference extend
   public get sslProfileRef() {
     return this.getStringAttribute('ssl_profile_ref');
   }
-
-  // use_pool_sni_server_name - computed: true, optional: false, required: false
-  public get usePoolSniServerName() {
-    return this.getStringAttribute('use_pool_sni_server_name');
-  }
 }
 
 export class DataAviHealthmonitorImapsMonitorSslAttributesList extends cdktf.ComplexList {
@@ -2074,11 +1552,6 @@ export class DataAviHealthmonitorLdapMonitorSslAttributesOutputReference extends
   // ssl_profile_ref - computed: true, optional: false, required: false
   public get sslProfileRef() {
     return this.getStringAttribute('ssl_profile_ref');
-  }
-
-  // use_pool_sni_server_name - computed: true, optional: false, required: false
-  public get usePoolSniServerName() {
-    return this.getStringAttribute('use_pool_sni_server_name');
   }
 }
 
@@ -2265,11 +1738,6 @@ export class DataAviHealthmonitorLdapsMonitorSslAttributesOutputReference extend
   // ssl_profile_ref - computed: true, optional: false, required: false
   public get sslProfileRef() {
     return this.getStringAttribute('ssl_profile_ref');
-  }
-
-  // use_pool_sni_server_name - computed: true, optional: false, required: false
-  public get usePoolSniServerName() {
-    return this.getStringAttribute('use_pool_sni_server_name');
   }
 }
 
@@ -2537,11 +2005,6 @@ export class DataAviHealthmonitorPop3MonitorSslAttributesOutputReference extends
   public get sslProfileRef() {
     return this.getStringAttribute('ssl_profile_ref');
   }
-
-  // use_pool_sni_server_name - computed: true, optional: false, required: false
-  public get usePoolSniServerName() {
-    return this.getStringAttribute('use_pool_sni_server_name');
-  }
 }
 
 export class DataAviHealthmonitorPop3MonitorSslAttributesList extends cdktf.ComplexList {
@@ -2707,11 +2170,6 @@ export class DataAviHealthmonitorPop3SMonitorSslAttributesOutputReference extend
   // ssl_profile_ref - computed: true, optional: false, required: false
   public get sslProfileRef() {
     return this.getStringAttribute('ssl_profile_ref');
-  }
-
-  // use_pool_sni_server_name - computed: true, optional: false, required: false
-  public get usePoolSniServerName() {
-    return this.getStringAttribute('use_pool_sni_server_name');
   }
 }
 
@@ -3129,11 +2587,6 @@ export class DataAviHealthmonitorSmtpMonitorSslAttributesOutputReference extends
   public get sslProfileRef() {
     return this.getStringAttribute('ssl_profile_ref');
   }
-
-  // use_pool_sni_server_name - computed: true, optional: false, required: false
-  public get usePoolSniServerName() {
-    return this.getStringAttribute('use_pool_sni_server_name');
-  }
 }
 
 export class DataAviHealthmonitorSmtpMonitorSslAttributesList extends cdktf.ComplexList {
@@ -3319,11 +2772,6 @@ export class DataAviHealthmonitorSmtpsMonitorSslAttributesOutputReference extend
   // ssl_profile_ref - computed: true, optional: false, required: false
   public get sslProfileRef() {
     return this.getStringAttribute('ssl_profile_ref');
-  }
-
-  // use_pool_sni_server_name - computed: true, optional: false, required: false
-  public get usePoolSniServerName() {
-    return this.getStringAttribute('use_pool_sni_server_name');
   }
 }
 
@@ -3618,7 +3066,7 @@ export class DataAviHealthmonitorUdpMonitorList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/healthmonitor avi_healthmonitor}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/healthmonitor avi_healthmonitor}
 */
 export class DataAviHealthmonitor extends cdktf.TerraformDataSource {
 
@@ -3634,7 +3082,7 @@ export class DataAviHealthmonitor extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAviHealthmonitor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAviHealthmonitor to import
-  * @param importFromId The id of the existing DataAviHealthmonitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/healthmonitor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAviHealthmonitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/healthmonitor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAviHealthmonitor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3646,7 +3094,7 @@ export class DataAviHealthmonitor extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/healthmonitor avi_healthmonitor} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/healthmonitor avi_healthmonitor} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3657,7 +3105,8 @@ export class DataAviHealthmonitor extends cdktf.TerraformDataSource {
       terraformResourceType: 'avi_healthmonitor',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '31.1.1'
+        providerVersion: '30.2.5',
+        providerVersionConstraint: '30.2.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -3731,18 +3180,6 @@ export class DataAviHealthmonitor extends cdktf.TerraformDataSource {
   private _ftpsMonitor = new DataAviHealthmonitorFtpsMonitorList(this, "ftps_monitor", true);
   public get ftpsMonitor() {
     return this._ftpsMonitor;
-  }
-
-  // http2_monitor - computed: true, optional: false, required: false
-  private _http2Monitor = new DataAviHealthmonitorHttp2MonitorList(this, "http2_monitor", true);
-  public get http2Monitor() {
-    return this._http2Monitor;
-  }
-
-  // http2s_monitor - computed: true, optional: false, required: false
-  private _http2SMonitor = new DataAviHealthmonitorHttp2SMonitorList(this, "http2s_monitor", true);
-  public get http2SMonitor() {
-    return this._http2SMonitor;
   }
 
   // http_monitor - computed: true, optional: false, required: false

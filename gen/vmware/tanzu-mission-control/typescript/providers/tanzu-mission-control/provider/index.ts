@@ -169,7 +169,8 @@ export class TanzuMissionControlProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'tanzu-mission-control',
       terraformGeneratorMetadata: {
         providerName: 'tanzu-mission-control',
-        providerVersion: '1.4.9'
+        providerVersion: '1.4.9',
+        providerVersionConstraint: '1.4.9'
       },
       terraformProviderSource: 'vmware/tanzu-mission-control'
     });

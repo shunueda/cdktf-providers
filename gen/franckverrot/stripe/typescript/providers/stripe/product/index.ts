@@ -88,7 +88,8 @@ export class Product extends cdktf.TerraformResource {
       terraformResourceType: 'stripe_product',
       terraformGeneratorMetadata: {
         providerName: 'stripe',
-        providerVersion: '1.9.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

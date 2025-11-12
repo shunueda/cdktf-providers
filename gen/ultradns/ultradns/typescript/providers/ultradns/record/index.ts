@@ -76,7 +76,8 @@ export class Record extends cdktf.TerraformResource {
       terraformResourceType: 'ultradns_record',
       terraformGeneratorMetadata: {
         providerName: 'ultradns',
-        providerVersion: '1.11.1'
+        providerVersion: '1.11.1',
+        providerVersionConstraint: '1.11.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

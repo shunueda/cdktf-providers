@@ -375,7 +375,8 @@ export class AzureMssqlDatabase extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_azure_mssql_database',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.28'
+        providerVersion: '0.11.28',
+        providerVersionConstraint: '0.11.28'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

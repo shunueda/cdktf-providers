@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_interconnect_domain
+// https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_interconnect_domain
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface DatacenterInterconnectDomainConfig extends cdktf.TerraformMetaA
   /**
   * Apstra Blueprint ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_interconnect_domain#blueprint_id DatacenterInterconnectDomain#blueprint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_interconnect_domain#blueprint_id DatacenterInterconnectDomain#blueprint_id}
   */
   readonly blueprintId: string;
   /**
   * Each site requires a unique site id iESI at the MAC-VRF level. This can be auto-derived or manually set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_interconnect_domain#esi_mac DatacenterInterconnectDomain#esi_mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_interconnect_domain#esi_mac DatacenterInterconnectDomain#esi_mac}
   */
   readonly esiMac?: string;
   /**
   * Name displayed in the Apstra web UI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_interconnect_domain#name DatacenterInterconnectDomain#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_interconnect_domain#name DatacenterInterconnectDomain#name}
   */
   readonly name: string;
   /**
   * All interconnect gateways MUST use the same Interconnect Route Target (iRT).  The iRT is an additional unique RT for the interconnect domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_interconnect_domain#route_target DatacenterInterconnectDomain#route_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_interconnect_domain#route_target DatacenterInterconnectDomain#route_target}
   */
   readonly routeTarget: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_interconnect_domain apstra_datacenter_interconnect_domain}
+* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_interconnect_domain apstra_datacenter_interconnect_domain}
 */
 export class DatacenterInterconnectDomain extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class DatacenterInterconnectDomain extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DatacenterInterconnectDomain resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatacenterInterconnectDomain to import
-  * @param importFromId The id of the existing DatacenterInterconnectDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_interconnect_domain#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatacenterInterconnectDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_interconnect_domain#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatacenterInterconnectDomain to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class DatacenterInterconnectDomain extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_interconnect_domain apstra_datacenter_interconnect_domain} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_interconnect_domain apstra_datacenter_interconnect_domain} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,7 +73,8 @@ export class DatacenterInterconnectDomain extends cdktf.TerraformResource {
       terraformResourceType: 'apstra_datacenter_interconnect_domain',
       terraformGeneratorMetadata: {
         providerName: 'apstra',
-        providerVersion: '0.95.0'
+        providerVersion: '0.95.1',
+        providerVersionConstraint: '0.95.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -300,7 +300,8 @@ export class Userclient extends cdktf.TerraformResource {
       terraformResourceType: 'elvid_userclient',
       terraformGeneratorMetadata: {
         providerName: 'elvid',
-        providerVersion: '2.1.1'
+        providerVersion: '2.1.1',
+        providerVersionConstraint: '2.1.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

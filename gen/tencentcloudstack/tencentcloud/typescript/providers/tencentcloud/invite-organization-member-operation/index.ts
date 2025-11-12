@@ -416,7 +416,8 @@ export class InviteOrganizationMemberOperation extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_invite_organization_member_operation',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

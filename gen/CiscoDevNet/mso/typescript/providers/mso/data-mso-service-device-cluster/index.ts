@@ -219,7 +219,8 @@ export class DataMsoServiceDeviceCluster extends cdktf.TerraformDataSource {
       terraformResourceType: 'mso_service_device_cluster',
       terraformGeneratorMetadata: {
         providerName: 'mso',
-        providerVersion: '1.6.0'
+        providerVersion: '1.6.0',
+        providerVersionConstraint: '1.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

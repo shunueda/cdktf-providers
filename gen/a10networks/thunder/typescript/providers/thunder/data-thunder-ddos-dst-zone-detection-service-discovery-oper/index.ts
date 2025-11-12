@@ -336,7 +336,8 @@ export class DataThunderDdosDstZoneDetectionServiceDiscoveryOper extends cdktf.T
       terraformResourceType: 'thunder_ddos_dst_zone_detection_service_discovery_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/data-sources/system
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/data-sources/system
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataIosxeSystemConfig extends cdktf.TerraformMetaArguments {
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/data-sources/system#device DataIosxeSystem#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/data-sources/system#device DataIosxeSystem#device}
   */
   readonly device?: string;
 }
@@ -162,6 +162,126 @@ export class DataIosxeSystemBootSystemFlashFilesList extends cdktf.ComplexList {
   */
   public get(index: number): DataIosxeSystemBootSystemFlashFilesOutputReference {
     return new DataIosxeSystemBootSystemFlashFilesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataIosxeSystemIpDomainLookupVrfs {
+}
+
+export function dataIosxeSystemIpDomainLookupVrfsToTerraform(struct?: DataIosxeSystemIpDomainLookupVrfs): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataIosxeSystemIpDomainLookupVrfsToHclTerraform(struct?: DataIosxeSystemIpDomainLookupVrfs): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataIosxeSystemIpDomainLookupVrfsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataIosxeSystemIpDomainLookupVrfs | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataIosxeSystemIpDomainLookupVrfs | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // source_interface_five_gigabit_ethernet - computed: true, optional: false, required: false
+  public get sourceInterfaceFiveGigabitEthernet() {
+    return this.getStringAttribute('source_interface_five_gigabit_ethernet');
+  }
+
+  // source_interface_forty_gigabit_ethernet - computed: true, optional: false, required: false
+  public get sourceInterfaceFortyGigabitEthernet() {
+    return this.getStringAttribute('source_interface_forty_gigabit_ethernet');
+  }
+
+  // source_interface_gigabit_ethernet - computed: true, optional: false, required: false
+  public get sourceInterfaceGigabitEthernet() {
+    return this.getStringAttribute('source_interface_gigabit_ethernet');
+  }
+
+  // source_interface_hundred_gigabit_ethernet - computed: true, optional: false, required: false
+  public get sourceInterfaceHundredGigabitEthernet() {
+    return this.getStringAttribute('source_interface_hundred_gigabit_ethernet');
+  }
+
+  // source_interface_loopback - computed: true, optional: false, required: false
+  public get sourceInterfaceLoopback() {
+    return this.getNumberAttribute('source_interface_loopback');
+  }
+
+  // source_interface_ten_gigabit_ethernet - computed: true, optional: false, required: false
+  public get sourceInterfaceTenGigabitEthernet() {
+    return this.getStringAttribute('source_interface_ten_gigabit_ethernet');
+  }
+
+  // source_interface_twenty_five_gigabit_ethernet - computed: true, optional: false, required: false
+  public get sourceInterfaceTwentyFiveGigabitEthernet() {
+    return this.getStringAttribute('source_interface_twenty_five_gigabit_ethernet');
+  }
+
+  // source_interface_two_gigabit_ethernet - computed: true, optional: false, required: false
+  public get sourceInterfaceTwoGigabitEthernet() {
+    return this.getStringAttribute('source_interface_two_gigabit_ethernet');
+  }
+
+  // source_interface_vlan - computed: true, optional: false, required: false
+  public get sourceInterfaceVlan() {
+    return this.getNumberAttribute('source_interface_vlan');
+  }
+
+  // vrf - computed: true, optional: false, required: false
+  public get vrf() {
+    return this.getStringAttribute('vrf');
+  }
+}
+
+export class DataIosxeSystemIpDomainLookupVrfsList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataIosxeSystemIpDomainLookupVrfsOutputReference {
+    return new DataIosxeSystemIpDomainLookupVrfsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
 export interface DataIosxeSystemIpHosts {
@@ -817,7 +937,7 @@ export class DataIosxeSystemTrackObjectsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/data-sources/system iosxe_system}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/data-sources/system iosxe_system}
 */
 export class DataIosxeSystem extends cdktf.TerraformDataSource {
 
@@ -833,7 +953,7 @@ export class DataIosxeSystem extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIosxeSystem resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIosxeSystem to import
-  * @param importFromId The id of the existing DataIosxeSystem that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/data-sources/system#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIosxeSystem that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/data-sources/system#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIosxeSystem to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -845,7 +965,7 @@ export class DataIosxeSystem extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/data-sources/system iosxe_system} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/data-sources/system iosxe_system} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -856,7 +976,8 @@ export class DataIosxeSystem extends cdktf.TerraformDataSource {
       terraformResourceType: 'iosxe_system',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.9.3'
+        providerVersion: '0.10.0',
+        providerVersionConstraint: '0.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1016,6 +1137,16 @@ export class DataIosxeSystem extends cdktf.TerraformDataSource {
     return this.getBooleanAttribute('ip_bgp_community_new_format');
   }
 
+  // ip_cef_load_sharing_algorithm_include_ports_destination - computed: true, optional: false, required: false
+  public get ipCefLoadSharingAlgorithmIncludePortsDestination() {
+    return this.getBooleanAttribute('ip_cef_load_sharing_algorithm_include_ports_destination');
+  }
+
+  // ip_cef_load_sharing_algorithm_include_ports_source - computed: true, optional: false, required: false
+  public get ipCefLoadSharingAlgorithmIncludePortsSource() {
+    return this.getBooleanAttribute('ip_cef_load_sharing_algorithm_include_ports_source');
+  }
+
   // ip_domain_list_names - computed: true, optional: false, required: false
   public get ipDomainListNames() {
     return this.getListAttribute('ip_domain_list_names');
@@ -1034,6 +1165,16 @@ export class DataIosxeSystem extends cdktf.TerraformDataSource {
   // ip_domain_lookup - computed: true, optional: false, required: false
   public get ipDomainLookup() {
     return this.getBooleanAttribute('ip_domain_lookup');
+  }
+
+  // ip_domain_lookup_nsap - computed: true, optional: false, required: false
+  public get ipDomainLookupNsap() {
+    return this.getBooleanAttribute('ip_domain_lookup_nsap');
+  }
+
+  // ip_domain_lookup_recursive - computed: true, optional: false, required: false
+  public get ipDomainLookupRecursive() {
+    return this.getBooleanAttribute('ip_domain_lookup_recursive');
   }
 
   // ip_domain_lookup_source_interface_five_gigabit_ethernet - computed: true, optional: false, required: false
@@ -1079,6 +1220,12 @@ export class DataIosxeSystem extends cdktf.TerraformDataSource {
   // ip_domain_lookup_source_interface_vlan - computed: true, optional: false, required: false
   public get ipDomainLookupSourceInterfaceVlan() {
     return this.getNumberAttribute('ip_domain_lookup_source_interface_vlan');
+  }
+
+  // ip_domain_lookup_vrfs - computed: true, optional: false, required: false
+  private _ipDomainLookupVrfs = new DataIosxeSystemIpDomainLookupVrfsList(this, "ip_domain_lookup_vrfs", false);
+  public get ipDomainLookupVrfs() {
+    return this._ipDomainLookupVrfs;
   }
 
   // ip_domain_name - computed: true, optional: false, required: false
@@ -1270,6 +1417,11 @@ export class DataIosxeSystem extends cdktf.TerraformDataSource {
     return this.getBooleanAttribute('ip_routing');
   }
 
+  // ip_routing_protocol_purge_interface - computed: true, optional: false, required: false
+  public get ipRoutingProtocolPurgeInterface() {
+    return this.getBooleanAttribute('ip_routing_protocol_purge_interface');
+  }
+
   // ip_scp_server_enable - computed: true, optional: false, required: false
   public get ipScpServerEnable() {
     return this.getBooleanAttribute('ip_scp_server_enable');
@@ -1283,6 +1435,16 @@ export class DataIosxeSystem extends cdktf.TerraformDataSource {
   // ip_ssh_authentication_retries - computed: true, optional: false, required: false
   public get ipSshAuthenticationRetries() {
     return this.getNumberAttribute('ip_ssh_authentication_retries');
+  }
+
+  // ip_ssh_bulk_mode - computed: true, optional: false, required: false
+  public get ipSshBulkMode() {
+    return this.getBooleanAttribute('ip_ssh_bulk_mode');
+  }
+
+  // ip_ssh_bulk_mode_window_size - computed: true, optional: false, required: false
+  public get ipSshBulkModeWindowSize() {
+    return this.getNumberAttribute('ip_ssh_bulk_mode_window_size');
   }
 
   // ip_ssh_source_interface_five_gigabit_ethernet - computed: true, optional: false, required: false
@@ -1395,6 +1557,16 @@ export class DataIosxeSystem extends cdktf.TerraformDataSource {
     return this.getStringAttribute('ip_tacacs_source_interface_vrf');
   }
 
+  // ipv6_cef_load_sharing_algorithm_include_ports_destination - computed: true, optional: false, required: false
+  public get ipv6CefLoadSharingAlgorithmIncludePortsDestination() {
+    return this.getBooleanAttribute('ipv6_cef_load_sharing_algorithm_include_ports_destination');
+  }
+
+  // ipv6_cef_load_sharing_algorithm_include_ports_source - computed: true, optional: false, required: false
+  public get ipv6CefLoadSharingAlgorithmIncludePortsSource() {
+    return this.getBooleanAttribute('ipv6_cef_load_sharing_algorithm_include_ports_source');
+  }
+
   // ipv6_unicast_routing - computed: true, optional: false, required: false
   public get ipv6UnicastRouting() {
     return this.getBooleanAttribute('ipv6_unicast_routing');
@@ -1455,6 +1627,11 @@ export class DataIosxeSystem extends cdktf.TerraformDataSource {
   private _pnpProfiles = new DataIosxeSystemPnpProfilesList(this, "pnp_profiles", false);
   public get pnpProfiles() {
     return this._pnpProfiles;
+  }
+
+  // port_channel_load_balance - computed: true, optional: false, required: false
+  public get portChannelLoadBalance() {
+    return this.getStringAttribute('port_channel_load_balance');
   }
 
   // redundancy - computed: true, optional: false, required: false

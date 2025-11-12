@@ -68,7 +68,8 @@ export class DataFortiadcLoadBalanceCachingChildDynCacheListlist extends cdktf.T
       terraformResourceType: 'fortiadc_load_balance_caching_child_dyn_cache_listlist',
       terraformGeneratorMetadata: {
         providerName: 'fortiadc',
-        providerVersion: '1.3.1'
+        providerVersion: '1.3.1',
+        providerVersionConstraint: '1.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

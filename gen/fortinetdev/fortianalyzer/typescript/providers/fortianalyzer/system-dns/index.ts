@@ -72,7 +72,8 @@ export class SystemDns extends cdktf.TerraformResource {
       terraformResourceType: 'fortianalyzer_system_dns',
       terraformGeneratorMetadata: {
         providerName: 'fortianalyzer',
-        providerVersion: '1.5.1'
+        providerVersion: '1.5.1',
+        providerVersionConstraint: '1.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

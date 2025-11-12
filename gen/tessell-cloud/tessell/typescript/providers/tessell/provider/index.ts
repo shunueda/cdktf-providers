@@ -67,7 +67,8 @@ export class TessellProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'tessell',
       terraformGeneratorMetadata: {
         providerName: 'tessell',
-        providerVersion: '0.0.27'
+        providerVersion: '0.0.27',
+        providerVersionConstraint: '0.0.27'
       },
       terraformProviderSource: 'tessell-cloud/tessell'
     });

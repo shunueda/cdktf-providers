@@ -84,7 +84,8 @@ export class SecurityWafUrlProtectionChildUrlAccessRule extends cdktf.TerraformR
       terraformResourceType: 'fortiadc_security_waf_url_protection_child_url_access_rule',
       terraformGeneratorMetadata: {
         providerName: 'fortiadc',
-        providerVersion: '1.3.1'
+        providerVersion: '1.3.1',
+        providerVersionConstraint: '1.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -79,7 +79,8 @@ export class NutanixkpsProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'nutanixkps',
       terraformGeneratorMetadata: {
         providerName: 'nutanixkps',
-        providerVersion: '1.1.9'
+        providerVersion: '1.1.9',
+        providerVersionConstraint: '1.1.9'
       },
       terraformProviderSource: 'nutanix/nutanixkps'
     });

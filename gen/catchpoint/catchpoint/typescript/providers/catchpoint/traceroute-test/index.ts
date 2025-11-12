@@ -2677,7 +2677,8 @@ export class TracerouteTest extends cdktf.TerraformResource {
       terraformResourceType: 'traceroute_test',
       terraformGeneratorMetadata: {
         providerName: 'catchpoint',
-        providerVersion: '1.5.0'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

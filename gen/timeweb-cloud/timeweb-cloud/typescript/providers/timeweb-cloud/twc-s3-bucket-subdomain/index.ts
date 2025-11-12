@@ -74,7 +74,8 @@ export class TwcS3BucketSubdomain extends cdktf.TerraformResource {
       terraformResourceType: 'twc_s3_bucket_subdomain',
       terraformGeneratorMetadata: {
         providerName: 'timeweb-cloud',
-        providerVersion: '1.6.6'
+        providerVersion: '1.6.6',
+        providerVersionConstraint: '1.6.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

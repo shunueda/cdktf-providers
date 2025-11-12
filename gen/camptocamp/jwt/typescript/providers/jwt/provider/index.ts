@@ -55,7 +55,8 @@ export class JwtProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'jwt',
       terraformGeneratorMetadata: {
         providerName: 'jwt',
-        providerVersion: '1.1.2'
+        providerVersion: '1.1.2',
+        providerVersionConstraint: '1.1.2'
       },
       terraformProviderSource: 'camptocamp/jwt'
     });

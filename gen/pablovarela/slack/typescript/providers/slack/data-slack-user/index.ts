@@ -64,7 +64,8 @@ export class DataSlackUser extends cdktf.TerraformDataSource {
       terraformResourceType: 'slack_user',
       terraformGeneratorMetadata: {
         providerName: 'slack',
-        providerVersion: '1.2.2'
+        providerVersion: '1.2.2',
+        providerVersionConstraint: '1.2.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

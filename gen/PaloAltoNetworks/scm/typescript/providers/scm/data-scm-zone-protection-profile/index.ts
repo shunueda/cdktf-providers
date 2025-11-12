@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/zone_protection_profile
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/zone_protection_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataScmZoneProtectionProfileConfig extends cdktf.TerraformMetaA
   /**
   * UUID of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/zone_protection_profile#id DataScmZoneProtectionProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/zone_protection_profile#id DataScmZoneProtectionProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,7 +19,7 @@ export interface DataScmZoneProtectionProfileConfig extends cdktf.TerraformMetaA
   /**
   * The profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/zone_protection_profile#name DataScmZoneProtectionProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/zone_protection_profile#name DataScmZoneProtectionProfile#name}
   */
   readonly name?: string;
 }
@@ -519,6 +519,134 @@ export class DataScmZoneProtectionProfileFloodSctpInitOutputReference extends cd
     return this._red;
   }
 }
+export interface DataScmZoneProtectionProfileFloodTcpSynRed {
+}
+
+export function dataScmZoneProtectionProfileFloodTcpSynRedToTerraform(struct?: DataScmZoneProtectionProfileFloodTcpSynRed): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataScmZoneProtectionProfileFloodTcpSynRedToHclTerraform(struct?: DataScmZoneProtectionProfileFloodTcpSynRed): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataScmZoneProtectionProfileFloodTcpSynRedOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataScmZoneProtectionProfileFloodTcpSynRed | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataScmZoneProtectionProfileFloodTcpSynRed | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // activate_rate - computed: true, optional: false, required: false
+  public get activateRate() {
+    return this.getNumberAttribute('activate_rate');
+  }
+
+  // alarm_rate - computed: true, optional: false, required: false
+  public get alarmRate() {
+    return this.getNumberAttribute('alarm_rate');
+  }
+
+  // maximal_rate - computed: true, optional: false, required: false
+  public get maximalRate() {
+    return this.getNumberAttribute('maximal_rate');
+  }
+}
+export interface DataScmZoneProtectionProfileFloodTcpSynSynCookies {
+}
+
+export function dataScmZoneProtectionProfileFloodTcpSynSynCookiesToTerraform(struct?: DataScmZoneProtectionProfileFloodTcpSynSynCookies): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataScmZoneProtectionProfileFloodTcpSynSynCookiesToHclTerraform(struct?: DataScmZoneProtectionProfileFloodTcpSynSynCookies): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataScmZoneProtectionProfileFloodTcpSynSynCookiesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataScmZoneProtectionProfileFloodTcpSynSynCookies | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataScmZoneProtectionProfileFloodTcpSynSynCookies | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // activate_rate - computed: true, optional: false, required: false
+  public get activateRate() {
+    return this.getNumberAttribute('activate_rate');
+  }
+
+  // alarm_rate - computed: true, optional: false, required: false
+  public get alarmRate() {
+    return this.getNumberAttribute('alarm_rate');
+  }
+
+  // maximal_rate - computed: true, optional: false, required: false
+  public get maximalRate() {
+    return this.getNumberAttribute('maximal_rate');
+  }
+}
 export interface DataScmZoneProtectionProfileFloodTcpSyn {
 }
 
@@ -568,24 +696,21 @@ export class DataScmZoneProtectionProfileFloodTcpSynOutputReference extends cdkt
     }
   }
 
-  // activate_rate - computed: true, optional: false, required: false
-  public get activateRate() {
-    return this.getNumberAttribute('activate_rate');
-  }
-
-  // alarm_rate - computed: true, optional: false, required: false
-  public get alarmRate() {
-    return this.getNumberAttribute('alarm_rate');
-  }
-
   // enable - computed: true, optional: false, required: false
   public get enable() {
     return this.getBooleanAttribute('enable');
   }
 
-  // maximal_rate - computed: true, optional: false, required: false
-  public get maximalRate() {
-    return this.getNumberAttribute('maximal_rate');
+  // red - computed: true, optional: false, required: false
+  private _red = new DataScmZoneProtectionProfileFloodTcpSynRedOutputReference(this, "red");
+  public get red() {
+    return this._red;
+  }
+
+  // syn_cookies - computed: true, optional: false, required: false
+  private _synCookies = new DataScmZoneProtectionProfileFloodTcpSynSynCookiesOutputReference(this, "syn_cookies");
+  public get synCookies() {
+    return this._synCookies;
   }
 }
 export interface DataScmZoneProtectionProfileFloodUdpRed {
@@ -1493,6 +1618,65 @@ export class DataScmZoneProtectionProfileScanActionBlockOutputReference extends 
     }
   }
 }
+export interface DataScmZoneProtectionProfileScanActionBlockIp {
+}
+
+export function dataScmZoneProtectionProfileScanActionBlockIpToTerraform(struct?: DataScmZoneProtectionProfileScanActionBlockIp): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataScmZoneProtectionProfileScanActionBlockIpToHclTerraform(struct?: DataScmZoneProtectionProfileScanActionBlockIp): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataScmZoneProtectionProfileScanActionBlockIpOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataScmZoneProtectionProfileScanActionBlockIp | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataScmZoneProtectionProfileScanActionBlockIp | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // duration - computed: true, optional: false, required: false
+  public get duration() {
+    return this.getNumberAttribute('duration');
+  }
+
+  // track_by - computed: true, optional: false, required: false
+  public get trackBy() {
+    return this.getStringAttribute('track_by');
+  }
+}
 export interface DataScmZoneProtectionProfileScanAction {
 }
 
@@ -1560,14 +1744,10 @@ export class DataScmZoneProtectionProfileScanActionOutputReference extends cdktf
     return this._block;
   }
 
-  // duration - computed: true, optional: false, required: false
-  public get duration() {
-    return this.getNumberAttribute('duration');
-  }
-
-  // track_by - computed: true, optional: false, required: false
-  public get trackBy() {
-    return this.getStringAttribute('track_by');
+  // block_ip - computed: true, optional: false, required: false
+  private _blockIp = new DataScmZoneProtectionProfileScanActionBlockIpOutputReference(this, "block_ip");
+  public get blockIp() {
+    return this._blockIp;
   }
 }
 export interface DataScmZoneProtectionProfileScan {
@@ -1748,7 +1928,7 @@ export class DataScmZoneProtectionProfileScanWhiteListStructList extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/zone_protection_profile scm_zone_protection_profile}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/zone_protection_profile scm_zone_protection_profile}
 */
 export class DataScmZoneProtectionProfile extends cdktf.TerraformDataSource {
 
@@ -1764,7 +1944,7 @@ export class DataScmZoneProtectionProfile extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataScmZoneProtectionProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataScmZoneProtectionProfile to import
-  * @param importFromId The id of the existing DataScmZoneProtectionProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/zone_protection_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataScmZoneProtectionProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/zone_protection_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataScmZoneProtectionProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1776,7 +1956,7 @@ export class DataScmZoneProtectionProfile extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/zone_protection_profile scm_zone_protection_profile} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/zone_protection_profile scm_zone_protection_profile} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1787,7 +1967,8 @@ export class DataScmZoneProtectionProfile extends cdktf.TerraformDataSource {
       terraformResourceType: 'scm_zone_protection_profile',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.3'
+        providerVersion: '1.0.4',
+        providerVersionConstraint: '1.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

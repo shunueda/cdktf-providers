@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/azure_cost_credentials
+// https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/azure_cost_credentials
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface AzureCostCredentialsConfig extends cdktf.TerraformMetaArguments
   /**
   * the azure client id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/azure_cost_credentials#client_id AzureCostCredentials#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/azure_cost_credentials#client_id AzureCostCredentials#client_id}
   */
   readonly clientId: string;
   /**
   * the azure client secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/azure_cost_credentials#client_secret AzureCostCredentials#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/azure_cost_credentials#client_secret AzureCostCredentials#client_secret}
   */
   readonly clientSecret: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/azure_cost_credentials#id AzureCostCredentials#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/azure_cost_credentials#id AzureCostCredentials#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,31 +29,31 @@ export interface AzureCostCredentialsConfig extends cdktf.TerraformMetaArguments
   /**
   * the name for the credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/azure_cost_credentials#name AzureCostCredentials#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/azure_cost_credentials#name AzureCostCredentials#name}
   */
   readonly name: string;
   /**
   * the env0 project id to associate the credentials with
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/azure_cost_credentials#project_id AzureCostCredentials#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/azure_cost_credentials#project_id AzureCostCredentials#project_id}
   */
   readonly projectId?: string;
   /**
   * the azure subscription id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/azure_cost_credentials#subscription_id AzureCostCredentials#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/azure_cost_credentials#subscription_id AzureCostCredentials#subscription_id}
   */
   readonly subscriptionId: string;
   /**
   * the azure tenant id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/azure_cost_credentials#tenant_id AzureCostCredentials#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/azure_cost_credentials#tenant_id AzureCostCredentials#tenant_id}
   */
   readonly tenantId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/azure_cost_credentials env0_azure_cost_credentials}
+* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/azure_cost_credentials env0_azure_cost_credentials}
 */
 export class AzureCostCredentials extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class AzureCostCredentials extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AzureCostCredentials resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AzureCostCredentials to import
-  * @param importFromId The id of the existing AzureCostCredentials that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/azure_cost_credentials#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AzureCostCredentials that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/azure_cost_credentials#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AzureCostCredentials to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class AzureCostCredentials extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/azure_cost_credentials env0_azure_cost_credentials} Resource
+  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/azure_cost_credentials env0_azure_cost_credentials} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,7 +92,8 @@ export class AzureCostCredentials extends cdktf.TerraformResource {
       terraformResourceType: 'env0_azure_cost_credentials',
       terraformGeneratorMetadata: {
         providerName: 'env0',
-        providerVersion: '1.29.4'
+        providerVersion: '1.29.6',
+        providerVersionConstraint: '1.29.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

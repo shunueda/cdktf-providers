@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_profile
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,59 +10,59 @@ export interface ManagementThreatProfileConfig extends cdktf.TerraformMetaArgume
   /**
   * Protections with this performance impact only will be activated in the profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_profile#active_protections_performance_impact ManagementThreatProfile#active_protections_performance_impact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_profile#active_protections_performance_impact ManagementThreatProfile#active_protections_performance_impact}
   */
   readonly activeProtectionsPerformanceImpact?: string;
   /**
   * Protections with this severity only will be activated in the profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_profile#active_protections_severity ManagementThreatProfile#active_protections_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_profile#active_protections_severity ManagementThreatProfile#active_protections_severity}
   */
   readonly activeProtectionsSeverity?: string;
   /**
   * Is Anti-Bot blade activated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_profile#anti_bot ManagementThreatProfile#anti_bot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_profile#anti_bot ManagementThreatProfile#anti_bot}
   */
   readonly antiBot?: boolean | cdktf.IResolvable;
   /**
   * Is Anti-Virus blade activated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_profile#anti_virus ManagementThreatProfile#anti_virus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_profile#anti_virus ManagementThreatProfile#anti_virus}
   */
   readonly antiVirus?: boolean | cdktf.IResolvable;
   /**
   * Color of the object. Should be one of existing colors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_profile#color ManagementThreatProfile#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_profile#color ManagementThreatProfile#color}
   */
   readonly color?: string;
   /**
   * Comments string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_profile#comments ManagementThreatProfile#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_profile#comments ManagementThreatProfile#comments}
   */
   readonly comments?: string;
   /**
   * Action for protections with high confidence level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_profile#confidence_level_high ManagementThreatProfile#confidence_level_high}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_profile#confidence_level_high ManagementThreatProfile#confidence_level_high}
   */
   readonly confidenceLevelHigh?: string;
   /**
   * Action for protections with low confidence level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_profile#confidence_level_low ManagementThreatProfile#confidence_level_low}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_profile#confidence_level_low ManagementThreatProfile#confidence_level_low}
   */
   readonly confidenceLevelLow?: string;
   /**
   * Action for protections with medium confidence level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_profile#confidence_level_medium ManagementThreatProfile#confidence_level_medium}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_profile#confidence_level_medium ManagementThreatProfile#confidence_level_medium}
   */
   readonly confidenceLevelMedium?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_profile#id ManagementThreatProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_profile#id ManagementThreatProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,97 +71,97 @@ export interface ManagementThreatProfileConfig extends cdktf.TerraformMetaArgume
   /**
   * Apply changes ignoring errors. You won't be able to publish such a changes. If ignore-warnings flag was omitted - warnings will also be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_profile#ignore_errors ManagementThreatProfile#ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_profile#ignore_errors ManagementThreatProfile#ignore_errors}
   */
   readonly ignoreErrors?: boolean | cdktf.IResolvable;
   /**
   * Apply changes ignoring warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_profile#ignore_warnings ManagementThreatProfile#ignore_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_profile#ignore_warnings ManagementThreatProfile#ignore_warnings}
   */
   readonly ignoreWarnings?: boolean | cdktf.IResolvable;
   /**
   * Is IPS blade activated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_profile#ips ManagementThreatProfile#ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_profile#ips ManagementThreatProfile#ips}
   */
   readonly ips?: boolean | cdktf.IResolvable;
   /**
   * IPS blade settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_profile#ips_settings ManagementThreatProfile#ips_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_profile#ips_settings ManagementThreatProfile#ips_settings}
   */
   readonly ipsSettings?: { [key: string]: string };
   /**
   * Malicious Mail Policy for MTA Gateways.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_profile#malicious_mail_policy_settings ManagementThreatProfile#malicious_mail_policy_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_profile#malicious_mail_policy_settings ManagementThreatProfile#malicious_mail_policy_settings}
   */
   readonly maliciousMailPolicySettings?: { [key: string]: string };
   /**
   * Object name. Should be unique in the domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_profile#name ManagementThreatProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_profile#name ManagementThreatProfile#name}
   */
   readonly name: string;
   /**
   * Scans malicious links (URLs) inside email messages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_profile#scan_malicious_links ManagementThreatProfile#scan_malicious_links}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_profile#scan_malicious_links ManagementThreatProfile#scan_malicious_links}
   */
   readonly scanMaliciousLinks?: { [key: string]: string };
   /**
   * Collection of tag identifiers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_profile#tags ManagementThreatProfile#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_profile#tags ManagementThreatProfile#tags}
   */
   readonly tags?: string[];
   /**
   * Is Threat Emulation blade activated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_profile#threat_emulation ManagementThreatProfile#threat_emulation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_profile#threat_emulation ManagementThreatProfile#threat_emulation}
   */
   readonly threatEmulation?: boolean | cdktf.IResolvable;
   /**
   * Is Threat-Extraction blade activated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_profile#threat_extraction ManagementThreatProfile#threat_extraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_profile#threat_extraction ManagementThreatProfile#threat_extraction}
   */
   readonly threatExtraction?: boolean | cdktf.IResolvable;
   /**
   * Whether to activate/deactivate IPS protections according to the extended attributes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_profile#use_extended_attributes ManagementThreatProfile#use_extended_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_profile#use_extended_attributes ManagementThreatProfile#use_extended_attributes}
   */
   readonly useExtendedAttributes?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether the profile should make use of indicators.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_profile#use_indicators ManagementThreatProfile#use_indicators}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_profile#use_indicators ManagementThreatProfile#use_indicators}
   */
   readonly useIndicators?: boolean | cdktf.IResolvable;
   /**
   * Is Zero-Phishing blade activated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_profile#zero_phishing ManagementThreatProfile#zero_phishing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_profile#zero_phishing ManagementThreatProfile#zero_phishing}
   */
   readonly zeroPhishing?: boolean | cdktf.IResolvable;
   /**
   * deactivate_protections_by_extended_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_profile#deactivate_protections_by_extended_attributes ManagementThreatProfile#deactivate_protections_by_extended_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_profile#deactivate_protections_by_extended_attributes ManagementThreatProfile#deactivate_protections_by_extended_attributes}
   */
   readonly deactivateProtectionsByExtendedAttributes?: ManagementThreatProfileDeactivateProtectionsByExtendedAttributes[] | cdktf.IResolvable;
   /**
   * indicator_overrides block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_profile#indicator_overrides ManagementThreatProfile#indicator_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_profile#indicator_overrides ManagementThreatProfile#indicator_overrides}
   */
   readonly indicatorOverrides?: ManagementThreatProfileIndicatorOverrides[] | cdktf.IResolvable;
   /**
   * overrides block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_profile#overrides ManagementThreatProfile#overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_profile#overrides ManagementThreatProfile#overrides}
   */
   readonly overrides?: ManagementThreatProfileOverrides[] | cdktf.IResolvable;
 }
@@ -420,19 +420,19 @@ export interface ManagementThreatProfileDeactivateProtectionsByExtendedAttribute
   /**
   * IPS tag category name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_profile#category ManagementThreatProfile#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_profile#category ManagementThreatProfile#category}
   */
   readonly category?: string;
   /**
   * IPS tag name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_profile#name ManagementThreatProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_profile#name ManagementThreatProfile#name}
   */
   readonly name?: string;
   /**
   * IPS tag unique identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_profile#uid ManagementThreatProfile#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_profile#uid ManagementThreatProfile#uid}
   */
   readonly uid?: string;
 }
@@ -614,13 +614,13 @@ export interface ManagementThreatProfileIndicatorOverrides {
   /**
   * The indicator's action in this profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_profile#action ManagementThreatProfile#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_profile#action ManagementThreatProfile#action}
   */
   readonly action?: string;
   /**
   * The indicator whose action is to be overriden.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_profile#indicator ManagementThreatProfile#indicator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_profile#indicator ManagementThreatProfile#indicator}
   */
   readonly indicator?: string;
 }
@@ -767,25 +767,25 @@ export interface ManagementThreatProfileOverrides {
   /**
   * Protection action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_profile#action ManagementThreatProfile#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_profile#action ManagementThreatProfile#action}
   */
   readonly action: string;
   /**
   * Capture packets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_profile#capture_packets ManagementThreatProfile#capture_packets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_profile#capture_packets ManagementThreatProfile#capture_packets}
   */
   readonly capturePackets?: boolean | cdktf.IResolvable;
   /**
   * IPS protection identified by name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_profile#protection ManagementThreatProfile#protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_profile#protection ManagementThreatProfile#protection}
   */
   readonly protection: string;
   /**
   * Tracking method for protection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_profile#track ManagementThreatProfile#track}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_profile#track ManagementThreatProfile#track}
   */
   readonly track?: string;
 }
@@ -1004,7 +1004,7 @@ export class ManagementThreatProfileOverridesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_profile checkpoint_management_threat_profile}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_profile checkpoint_management_threat_profile}
 */
 export class ManagementThreatProfile extends cdktf.TerraformResource {
 
@@ -1020,7 +1020,7 @@ export class ManagementThreatProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementThreatProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementThreatProfile to import
-  * @param importFromId The id of the existing ManagementThreatProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementThreatProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementThreatProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1032,7 +1032,7 @@ export class ManagementThreatProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_threat_profile checkpoint_management_threat_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_threat_profile checkpoint_management_threat_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1043,7 +1043,8 @@ export class ManagementThreatProfile extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_threat_profile',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

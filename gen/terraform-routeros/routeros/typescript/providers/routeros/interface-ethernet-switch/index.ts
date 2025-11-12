@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet_switch
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet_switch
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface InterfaceEthernetSwitchConfig extends cdktf.TerraformMetaArgume
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet_switch#___path___ InterfaceEthernetSwitch#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet_switch#___path___ InterfaceEthernetSwitch#___path___}
   */
   readonly path?: string;
   /**
   * <em>A set of transformations for field names. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet_switch#___skip___ InterfaceEthernetSwitch#___skip___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet_switch#___skip___ InterfaceEthernetSwitch#___skip___}
   */
   readonly skip?: string;
   /**
   * All switch chips have a special port that is called switchX-cpu, this is the CPU port for a switch chip, it is meant to forward traffic from a switch chip to the CPU, such a port is required for management traffic and for routing features. By default the switch chip ensures that this special CPU port is not congested and sends out Pause Frames when link capacity is exceeded to make sure the port is not oversaturated, this feature is called CPU Flow Control. Without this feature packets that might be crucial for routing or management purposes might get dropped.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet_switch#cpu_flow_control InterfaceEthernetSwitch#cpu_flow_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet_switch#cpu_flow_control InterfaceEthernetSwitch#cpu_flow_control}
   */
   readonly cpuFlowControl?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet_switch#id InterfaceEthernetSwitch#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet_switch#id InterfaceEthernetSwitch#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,67 +35,67 @@ export interface InterfaceEthernetSwitchConfig extends cdktf.TerraformMetaArgume
   /**
   * Layer 3 Hardware Offloading (L3HW, otherwise known as IP switching or HW routing) allows to offload some router features onto the switch chip. This allows reaching wire speeds when routing packets, which simply would not be possible with the CPU.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet_switch#l3_hw_offloading InterfaceEthernetSwitch#l3_hw_offloading}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet_switch#l3_hw_offloading InterfaceEthernetSwitch#l3_hw_offloading}
   */
   readonly l3HwOffloading?: boolean | cdktf.IResolvable;
   /**
   * Selects a single mirroring egress target port, only available on 88E6393X, 88E6191X and 88E6190 switch chips. Mirrored packets from `mirror-egress` (see the property in port menu) will be sent to the selected port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet_switch#mirror_egress_target InterfaceEthernetSwitch#mirror_egress_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet_switch#mirror_egress_target InterfaceEthernetSwitch#mirror_egress_target}
   */
   readonly mirrorEgressTarget?: string;
   /**
   * Selects a single mirroring source port. Ingress and egress traffic will be sent to the mirror-target port. Note that mirror-target port has to belong to the same switch (see which port belongs to which switch in /interface ethernet menu).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet_switch#mirror_source InterfaceEthernetSwitch#mirror_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet_switch#mirror_source InterfaceEthernetSwitch#mirror_source}
   */
   readonly mirrorSource?: string;
   /**
   * Selects a single mirroring target port. Mirrored packets from mirror-source and mirror (see the property in rule and host table) will be sent to the selected port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet_switch#mirror_target InterfaceEthernetSwitch#mirror_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet_switch#mirror_target InterfaceEthernetSwitch#mirror_target}
   */
   readonly mirrorTarget?: string;
   /**
   * Name of the switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet_switch#name InterfaceEthernetSwitch#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet_switch#name InterfaceEthernetSwitch#name}
   */
   readonly name: string;
   /**
   * Allows enabling QoS for the given switch chip (if the latter supports QoS).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet_switch#qos_hw_offloading InterfaceEthernetSwitch#qos_hw_offloading}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet_switch#qos_hw_offloading InterfaceEthernetSwitch#qos_hw_offloading}
   */
   readonly qosHwOffloading?: boolean | cdktf.IResolvable;
   /**
   * Enables Remote Switch Port Analyzer (RSPAN) feature on mirror-target. Traffic marked for ingress or egress mirroring is carried over a specified remote analyzer VLAN - `rspan-egress-vlan-id` and `rspan-ingress-vlan-id`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet_switch#rspan InterfaceEthernetSwitch#rspan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet_switch#rspan InterfaceEthernetSwitch#rspan}
   */
   readonly rspan?: boolean | cdktf.IResolvable;
   /**
   * RSPAN egress VLAN Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet_switch#rspan_egress_vlan_id InterfaceEthernetSwitch#rspan_egress_vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet_switch#rspan_egress_vlan_id InterfaceEthernetSwitch#rspan_egress_vlan_id}
   */
   readonly rspanEgressVlanId?: number;
   /**
   * RSPAN ingress VLAN Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet_switch#rspan_ingress_vlan_id InterfaceEthernetSwitch#rspan_ingress_vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet_switch#rspan_ingress_vlan_id InterfaceEthernetSwitch#rspan_ingress_vlan_id}
   */
   readonly rspanIngressVlanId?: number;
   /**
   * Switch-chip id. Default .id = *0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet_switch#switch_id InterfaceEthernetSwitch#switch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet_switch#switch_id InterfaceEthernetSwitch#switch_id}
   */
   readonly switchId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet_switch routeros_interface_ethernet_switch}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet_switch routeros_interface_ethernet_switch}
 */
 export class InterfaceEthernetSwitch extends cdktf.TerraformResource {
 
@@ -111,7 +111,7 @@ export class InterfaceEthernetSwitch extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InterfaceEthernetSwitch resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InterfaceEthernetSwitch to import
-  * @param importFromId The id of the existing InterfaceEthernetSwitch that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet_switch#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InterfaceEthernetSwitch that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet_switch#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InterfaceEthernetSwitch to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -123,7 +123,7 @@ export class InterfaceEthernetSwitch extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet_switch routeros_interface_ethernet_switch} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet_switch routeros_interface_ethernet_switch} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -134,7 +134,8 @@ export class InterfaceEthernetSwitch extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_interface_ethernet_switch',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.90.0'
+        providerVersion: '1.91.0',
+        providerVersionConstraint: '1.91.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

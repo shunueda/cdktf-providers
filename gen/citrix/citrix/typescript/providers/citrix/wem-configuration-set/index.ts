@@ -61,7 +61,8 @@ export class WemConfigurationSet extends cdktf.TerraformResource {
       terraformResourceType: 'citrix_wem_configuration_set',
       terraformGeneratorMetadata: {
         providerName: 'citrix',
-        providerVersion: '1.0.30'
+        providerVersion: '1.0.30',
+        providerVersionConstraint: '1.0.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

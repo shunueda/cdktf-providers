@@ -478,7 +478,8 @@ export class MdlStreamLiveInput extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_mdl_stream_live_input',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

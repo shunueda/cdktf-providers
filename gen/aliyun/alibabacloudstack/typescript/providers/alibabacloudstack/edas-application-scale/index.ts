@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/edas_application_scale
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/edas_application_scale
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,23 +8,23 @@ import * as cdktf from 'cdktf';
 
 export interface EdasApplicationScaleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/edas_application_scale#app_id EdasApplicationScale#app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/edas_application_scale#app_id EdasApplicationScale#app_id}
   */
   readonly appId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/edas_application_scale#deploy_group EdasApplicationScale#deploy_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/edas_application_scale#deploy_group EdasApplicationScale#deploy_group}
   */
   readonly deployGroup: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/edas_application_scale#ecu_info EdasApplicationScale#ecu_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/edas_application_scale#ecu_info EdasApplicationScale#ecu_info}
   */
   readonly ecuInfo: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/edas_application_scale#force_status EdasApplicationScale#force_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/edas_application_scale#force_status EdasApplicationScale#force_status}
   */
   readonly forceStatus?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/edas_application_scale#id EdasApplicationScale#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/edas_application_scale#id EdasApplicationScale#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -33,7 +33,7 @@ export interface EdasApplicationScaleConfig extends cdktf.TerraformMetaArguments
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/edas_application_scale alibabacloudstack_edas_application_scale}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/edas_application_scale alibabacloudstack_edas_application_scale}
 */
 export class EdasApplicationScale extends cdktf.TerraformResource {
 
@@ -49,7 +49,7 @@ export class EdasApplicationScale extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EdasApplicationScale resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EdasApplicationScale to import
-  * @param importFromId The id of the existing EdasApplicationScale that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/edas_application_scale#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EdasApplicationScale that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/edas_application_scale#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EdasApplicationScale to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -61,7 +61,7 @@ export class EdasApplicationScale extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/edas_application_scale alibabacloudstack_edas_application_scale} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/edas_application_scale alibabacloudstack_edas_application_scale} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -72,7 +72,8 @@ export class EdasApplicationScale extends cdktf.TerraformResource {
       terraformResourceType: 'alibabacloudstack_edas_application_scale',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.19'
+        providerVersion: '3.16.21',
+        providerVersionConstraint: '3.16.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

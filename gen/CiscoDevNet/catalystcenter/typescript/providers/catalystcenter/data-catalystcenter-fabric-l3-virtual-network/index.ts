@@ -55,7 +55,8 @@ export class DataCatalystcenterFabricL3VirtualNetwork extends cdktf.TerraformDat
       terraformResourceType: 'catalystcenter_fabric_l3_virtual_network',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.2'
+        providerVersion: '0.4.2',
+        providerVersionConstraint: '0.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

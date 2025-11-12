@@ -1495,7 +1495,8 @@ export class AppOnboardingDns extends cdktf.TerraformResource {
       terraformResourceType: 'prosimo_app_onboarding_dns',
       terraformGeneratorMetadata: {
         providerName: 'prosimo',
-        providerVersion: '4.5.3'
+        providerVersion: '4.5.3',
+        providerVersionConstraint: '4.5.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

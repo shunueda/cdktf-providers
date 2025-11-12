@@ -55,7 +55,8 @@ export class DataRadarrTag extends cdktf.TerraformDataSource {
       terraformResourceType: 'radarr_tag',
       terraformGeneratorMetadata: {
         providerName: 'radarr',
-        providerVersion: '2.3.3'
+        providerVersion: '2.3.3',
+        providerVersionConstraint: '2.3.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

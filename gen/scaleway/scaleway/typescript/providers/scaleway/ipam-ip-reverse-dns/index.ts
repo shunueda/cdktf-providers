@@ -246,7 +246,8 @@ export class IpamIpReverseDns extends cdktf.TerraformResource {
       terraformResourceType: 'scaleway_ipam_ip_reverse_dns',
       terraformGeneratorMetadata: {
         providerName: 'scaleway',
-        providerVersion: '2.62.0'
+        providerVersion: '2.62.0',
+        providerVersionConstraint: '2.62.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

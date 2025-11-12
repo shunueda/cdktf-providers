@@ -146,7 +146,8 @@ export class DataGithubCodespacesUserSecrets extends cdktf.TerraformDataSource {
       terraformResourceType: 'github_codespaces_user_secrets',
       terraformGeneratorMetadata: {
         providerName: 'github',
-        providerVersion: '6.7.5'
+        providerVersion: '6.7.5',
+        providerVersionConstraint: '6.7.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

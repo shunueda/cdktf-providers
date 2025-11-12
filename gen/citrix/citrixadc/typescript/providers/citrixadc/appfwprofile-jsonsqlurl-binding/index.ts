@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_jsonsqlurl_binding
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_jsonsqlurl_binding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,68 +8,68 @@ import * as cdktf from 'cdktf';
 
 export interface AppfwprofileJsonsqlurlBindingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_jsonsqlurl_binding#alertonly AppfwprofileJsonsqlurlBinding#alertonly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_jsonsqlurl_binding#alertonly AppfwprofileJsonsqlurlBinding#alertonly}
   */
   readonly alertonly?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_jsonsqlurl_binding#as_value_expr_json_sql AppfwprofileJsonsqlurlBinding#as_value_expr_json_sql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_jsonsqlurl_binding#as_value_expr_json_sql AppfwprofileJsonsqlurlBinding#as_value_expr_json_sql}
   */
   readonly asValueExprJsonSql?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_jsonsqlurl_binding#as_value_type_json_sql AppfwprofileJsonsqlurlBinding#as_value_type_json_sql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_jsonsqlurl_binding#as_value_type_json_sql AppfwprofileJsonsqlurlBinding#as_value_type_json_sql}
   */
   readonly asValueTypeJsonSql?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_jsonsqlurl_binding#comment AppfwprofileJsonsqlurlBinding#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_jsonsqlurl_binding#comment AppfwprofileJsonsqlurlBinding#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_jsonsqlurl_binding#id AppfwprofileJsonsqlurlBinding#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_jsonsqlurl_binding#id AppfwprofileJsonsqlurlBinding#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_jsonsqlurl_binding#isautodeployed AppfwprofileJsonsqlurlBinding#isautodeployed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_jsonsqlurl_binding#isautodeployed AppfwprofileJsonsqlurlBinding#isautodeployed}
   */
   readonly isautodeployed?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_jsonsqlurl_binding#iskeyregex_json_sql AppfwprofileJsonsqlurlBinding#iskeyregex_json_sql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_jsonsqlurl_binding#iskeyregex_json_sql AppfwprofileJsonsqlurlBinding#iskeyregex_json_sql}
   */
   readonly iskeyregexJsonSql?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_jsonsqlurl_binding#isvalueregex_json_sql AppfwprofileJsonsqlurlBinding#isvalueregex_json_sql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_jsonsqlurl_binding#isvalueregex_json_sql AppfwprofileJsonsqlurlBinding#isvalueregex_json_sql}
   */
   readonly isvalueregexJsonSql?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_jsonsqlurl_binding#jsonsqlurl AppfwprofileJsonsqlurlBinding#jsonsqlurl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_jsonsqlurl_binding#jsonsqlurl AppfwprofileJsonsqlurlBinding#jsonsqlurl}
   */
   readonly jsonsqlurl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_jsonsqlurl_binding#keyname_json_sql AppfwprofileJsonsqlurlBinding#keyname_json_sql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_jsonsqlurl_binding#keyname_json_sql AppfwprofileJsonsqlurlBinding#keyname_json_sql}
   */
   readonly keynameJsonSql?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_jsonsqlurl_binding#name AppfwprofileJsonsqlurlBinding#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_jsonsqlurl_binding#name AppfwprofileJsonsqlurlBinding#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_jsonsqlurl_binding#resourceid AppfwprofileJsonsqlurlBinding#resourceid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_jsonsqlurl_binding#resourceid AppfwprofileJsonsqlurlBinding#resourceid}
   */
   readonly resourceid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_jsonsqlurl_binding#ruletype AppfwprofileJsonsqlurlBinding#ruletype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_jsonsqlurl_binding#ruletype AppfwprofileJsonsqlurlBinding#ruletype}
   */
   readonly ruletype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_jsonsqlurl_binding#state AppfwprofileJsonsqlurlBinding#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_jsonsqlurl_binding#state AppfwprofileJsonsqlurlBinding#state}
   */
   readonly state?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_jsonsqlurl_binding citrixadc_appfwprofile_jsonsqlurl_binding}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_jsonsqlurl_binding citrixadc_appfwprofile_jsonsqlurl_binding}
 */
 export class AppfwprofileJsonsqlurlBinding extends cdktf.TerraformResource {
 
@@ -85,7 +85,7 @@ export class AppfwprofileJsonsqlurlBinding extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AppfwprofileJsonsqlurlBinding resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppfwprofileJsonsqlurlBinding to import
-  * @param importFromId The id of the existing AppfwprofileJsonsqlurlBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_jsonsqlurl_binding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppfwprofileJsonsqlurlBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_jsonsqlurl_binding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppfwprofileJsonsqlurlBinding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -97,7 +97,7 @@ export class AppfwprofileJsonsqlurlBinding extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_jsonsqlurl_binding citrixadc_appfwprofile_jsonsqlurl_binding} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_jsonsqlurl_binding citrixadc_appfwprofile_jsonsqlurl_binding} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -108,7 +108,8 @@ export class AppfwprofileJsonsqlurlBinding extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_appfwprofile_jsonsqlurl_binding',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

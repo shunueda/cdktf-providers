@@ -328,7 +328,8 @@ export class DataTencentcloudEksClusterCredential extends cdktf.TerraformDataSou
       terraformResourceType: 'tencentcloud_eks_cluster_credential',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

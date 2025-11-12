@@ -70,7 +70,8 @@ export class PreventionPolicyAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'crowdstrike_prevention_policy_attachment',
       terraformGeneratorMetadata: {
         providerName: 'crowdstrike',
-        providerVersion: '0.0.43'
+        providerVersion: '0.0.43',
+        providerVersionConstraint: '0.0.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

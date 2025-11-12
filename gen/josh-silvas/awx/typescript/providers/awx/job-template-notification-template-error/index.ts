@@ -68,7 +68,8 @@ export class JobTemplateNotificationTemplateError extends cdktf.TerraformResourc
       terraformResourceType: 'awx_job_template_notification_template_error',
       terraformGeneratorMetadata: {
         providerName: 'awx',
-        providerVersion: '1.7.5'
+        providerVersion: '1.7.5',
+        providerVersionConstraint: '1.7.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

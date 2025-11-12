@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/user_manager_limitation
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/user_manager_limitation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface UserManagerLimitationConfig extends cdktf.TerraformMetaArgument
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/user_manager_limitation#___path___ UserManagerLimitation#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/user_manager_limitation#___path___ UserManagerLimitation#___path___}
   */
   readonly path?: string;
   /**
   * The total amount of traffic a user can download in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/user_manager_limitation#download_limit UserManagerLimitation#download_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/user_manager_limitation#download_limit UserManagerLimitation#download_limit}
   */
   readonly downloadLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/user_manager_limitation#id UserManagerLimitation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/user_manager_limitation#id UserManagerLimitation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,87 +29,87 @@ export interface UserManagerLimitationConfig extends cdktf.TerraformMetaArgument
   /**
   * Unique name of the limitation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/user_manager_limitation#name UserManagerLimitation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/user_manager_limitation#name UserManagerLimitation#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/user_manager_limitation#rate_limit_burst_rx UserManagerLimitation#rate_limit_burst_rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/user_manager_limitation#rate_limit_burst_rx UserManagerLimitation#rate_limit_burst_rx}
   */
   readonly rateLimitBurstRx?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/user_manager_limitation#rate_limit_burst_threshold_rx UserManagerLimitation#rate_limit_burst_threshold_rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/user_manager_limitation#rate_limit_burst_threshold_rx UserManagerLimitation#rate_limit_burst_threshold_rx}
   */
   readonly rateLimitBurstThresholdRx?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/user_manager_limitation#rate_limit_burst_threshold_tx UserManagerLimitation#rate_limit_burst_threshold_tx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/user_manager_limitation#rate_limit_burst_threshold_tx UserManagerLimitation#rate_limit_burst_threshold_tx}
   */
   readonly rateLimitBurstThresholdTx?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/user_manager_limitation#rate_limit_burst_time_rx UserManagerLimitation#rate_limit_burst_time_rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/user_manager_limitation#rate_limit_burst_time_rx UserManagerLimitation#rate_limit_burst_time_rx}
   */
   readonly rateLimitBurstTimeRx?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/user_manager_limitation#rate_limit_burst_time_tx UserManagerLimitation#rate_limit_burst_time_tx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/user_manager_limitation#rate_limit_burst_time_tx UserManagerLimitation#rate_limit_burst_time_tx}
   */
   readonly rateLimitBurstTimeTx?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/user_manager_limitation#rate_limit_burst_tx UserManagerLimitation#rate_limit_burst_tx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/user_manager_limitation#rate_limit_burst_tx UserManagerLimitation#rate_limit_burst_tx}
   */
   readonly rateLimitBurstTx?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/user_manager_limitation#rate_limit_min_rx UserManagerLimitation#rate_limit_min_rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/user_manager_limitation#rate_limit_min_rx UserManagerLimitation#rate_limit_min_rx}
   */
   readonly rateLimitMinRx?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/user_manager_limitation#rate_limit_min_tx UserManagerLimitation#rate_limit_min_tx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/user_manager_limitation#rate_limit_min_tx UserManagerLimitation#rate_limit_min_tx}
   */
   readonly rateLimitMinTx?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/user_manager_limitation#rate_limit_priority UserManagerLimitation#rate_limit_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/user_manager_limitation#rate_limit_priority UserManagerLimitation#rate_limit_priority}
   */
   readonly rateLimitPriority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/user_manager_limitation#rate_limit_rx UserManagerLimitation#rate_limit_rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/user_manager_limitation#rate_limit_rx UserManagerLimitation#rate_limit_rx}
   */
   readonly rateLimitRx?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/user_manager_limitation#rate_limit_tx UserManagerLimitation#rate_limit_tx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/user_manager_limitation#rate_limit_tx UserManagerLimitation#rate_limit_tx}
   */
   readonly rateLimitTx?: number;
   /**
   * The interval from `reset_counters_start_time` when all associated user statistics are cleared.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/user_manager_limitation#reset_counters_interval UserManagerLimitation#reset_counters_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/user_manager_limitation#reset_counters_interval UserManagerLimitation#reset_counters_interval}
   */
   readonly resetCountersInterval?: string;
   /**
   * Static date and time value from which `reset_counters_interval` is calculated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/user_manager_limitation#reset_counters_start_time UserManagerLimitation#reset_counters_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/user_manager_limitation#reset_counters_start_time UserManagerLimitation#reset_counters_start_time}
   */
   readonly resetCountersStartTime?: string;
   /**
   * The total amount of aggregated (download+upload) traffic in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/user_manager_limitation#transfer_limit UserManagerLimitation#transfer_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/user_manager_limitation#transfer_limit UserManagerLimitation#transfer_limit}
   */
   readonly transferLimit?: number;
   /**
   * The total amount of traffic a user can upload in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/user_manager_limitation#upload_limit UserManagerLimitation#upload_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/user_manager_limitation#upload_limit UserManagerLimitation#upload_limit}
   */
   readonly uploadLimit?: number;
   /**
   * The total amount of uptime a user can stay active.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/user_manager_limitation#uptime_limit UserManagerLimitation#uptime_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/user_manager_limitation#uptime_limit UserManagerLimitation#uptime_limit}
   */
   readonly uptimeLimit?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/user_manager_limitation routeros_user_manager_limitation}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/user_manager_limitation routeros_user_manager_limitation}
 */
 export class UserManagerLimitation extends cdktf.TerraformResource {
 
@@ -125,7 +125,7 @@ export class UserManagerLimitation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a UserManagerLimitation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the UserManagerLimitation to import
-  * @param importFromId The id of the existing UserManagerLimitation that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/user_manager_limitation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing UserManagerLimitation that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/user_manager_limitation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the UserManagerLimitation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -137,7 +137,7 @@ export class UserManagerLimitation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/user_manager_limitation routeros_user_manager_limitation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/user_manager_limitation routeros_user_manager_limitation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -148,7 +148,8 @@ export class UserManagerLimitation extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_user_manager_limitation',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.90.0'
+        providerVersion: '1.91.0',
+        providerVersionConstraint: '1.91.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

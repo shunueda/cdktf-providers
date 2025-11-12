@@ -700,7 +700,8 @@ export class DataNiosAclNamedacl extends cdktf.TerraformDataSource {
       terraformResourceType: 'nios_acl_namedacl',
       terraformGeneratorMetadata: {
         providerName: 'nios',
-        providerVersion: '1.0.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

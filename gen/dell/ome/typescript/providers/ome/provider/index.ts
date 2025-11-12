@@ -97,7 +97,8 @@ export class OmeProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'ome',
       terraformGeneratorMetadata: {
         providerName: 'ome',
-        providerVersion: '1.2.3'
+        providerVersion: '1.2.3',
+        providerVersionConstraint: '1.2.3'
       },
       terraformProviderSource: 'dell/ome'
     });

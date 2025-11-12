@@ -391,7 +391,8 @@ export class AwsEfsLifecyclePolicy extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_aws_efs_lifecycle_policy',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.28'
+        providerVersion: '0.11.28',
+        providerVersionConstraint: '0.11.28'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

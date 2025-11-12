@@ -68,7 +68,8 @@ export class HostMonitoringMode extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_host_monitoring_mode',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1'
+        providerVersion: '1.87.1',
+        providerVersionConstraint: '1.87.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

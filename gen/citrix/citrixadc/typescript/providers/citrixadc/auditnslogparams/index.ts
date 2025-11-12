@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/auditnslogparams
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/auditnslogparams
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,80 +8,84 @@ import * as cdktf from 'cdktf';
 
 export interface AuditnslogparamsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/auditnslogparams#acl Auditnslogparams#acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/auditnslogparams#acl Auditnslogparams#acl}
   */
   readonly acl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/auditnslogparams#alg Auditnslogparams#alg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/auditnslogparams#alg Auditnslogparams#alg}
   */
   readonly alg?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/auditnslogparams#appflowexport Auditnslogparams#appflowexport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/auditnslogparams#appflowexport Auditnslogparams#appflowexport}
   */
   readonly appflowexport?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/auditnslogparams#contentinspectionlog Auditnslogparams#contentinspectionlog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/auditnslogparams#contentinspectionlog Auditnslogparams#contentinspectionlog}
   */
   readonly contentinspectionlog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/auditnslogparams#dateformat Auditnslogparams#dateformat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/auditnslogparams#dateformat Auditnslogparams#dateformat}
   */
   readonly dateformat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/auditnslogparams#id Auditnslogparams#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/auditnslogparams#id Auditnslogparams#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/auditnslogparams#logfacility Auditnslogparams#logfacility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/auditnslogparams#logfacility Auditnslogparams#logfacility}
   */
   readonly logfacility?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/auditnslogparams#loglevel Auditnslogparams#loglevel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/auditnslogparams#loglevel Auditnslogparams#loglevel}
   */
   readonly loglevel?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/auditnslogparams#lsn Auditnslogparams#lsn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/auditnslogparams#lsn Auditnslogparams#lsn}
   */
   readonly lsn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/auditnslogparams#serverip Auditnslogparams#serverip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/auditnslogparams#protocolviolations Auditnslogparams#protocolviolations}
+  */
+  readonly protocolviolations?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/auditnslogparams#serverip Auditnslogparams#serverip}
   */
   readonly serverip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/auditnslogparams#serverport Auditnslogparams#serverport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/auditnslogparams#serverport Auditnslogparams#serverport}
   */
   readonly serverport?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/auditnslogparams#sslinterception Auditnslogparams#sslinterception}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/auditnslogparams#sslinterception Auditnslogparams#sslinterception}
   */
   readonly sslinterception?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/auditnslogparams#subscriberlog Auditnslogparams#subscriberlog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/auditnslogparams#subscriberlog Auditnslogparams#subscriberlog}
   */
   readonly subscriberlog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/auditnslogparams#tcp Auditnslogparams#tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/auditnslogparams#tcp Auditnslogparams#tcp}
   */
   readonly tcp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/auditnslogparams#timezone Auditnslogparams#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/auditnslogparams#timezone Auditnslogparams#timezone}
   */
   readonly timezone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/auditnslogparams#urlfiltering Auditnslogparams#urlfiltering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/auditnslogparams#urlfiltering Auditnslogparams#urlfiltering}
   */
   readonly urlfiltering?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/auditnslogparams#userdefinedauditlog Auditnslogparams#userdefinedauditlog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/auditnslogparams#userdefinedauditlog Auditnslogparams#userdefinedauditlog}
   */
   readonly userdefinedauditlog?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/auditnslogparams citrixadc_auditnslogparams}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/auditnslogparams citrixadc_auditnslogparams}
 */
 export class Auditnslogparams extends cdktf.TerraformResource {
 
@@ -97,7 +101,7 @@ export class Auditnslogparams extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Auditnslogparams resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Auditnslogparams to import
-  * @param importFromId The id of the existing Auditnslogparams that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/auditnslogparams#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Auditnslogparams that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/auditnslogparams#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Auditnslogparams to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -109,7 +113,7 @@ export class Auditnslogparams extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/auditnslogparams citrixadc_auditnslogparams} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/auditnslogparams citrixadc_auditnslogparams} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -120,7 +124,8 @@ export class Auditnslogparams extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_auditnslogparams',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -139,6 +144,7 @@ export class Auditnslogparams extends cdktf.TerraformResource {
     this._logfacility = config.logfacility;
     this._loglevel = config.loglevel;
     this._lsn = config.lsn;
+    this._protocolviolations = config.protocolviolations;
     this._serverip = config.serverip;
     this._serverport = config.serverport;
     this._sslinterception = config.sslinterception;
@@ -297,6 +303,22 @@ export class Auditnslogparams extends cdktf.TerraformResource {
     return this._lsn;
   }
 
+  // protocolviolations - computed: true, optional: true, required: false
+  private _protocolviolations?: string; 
+  public get protocolviolations() {
+    return this.getStringAttribute('protocolviolations');
+  }
+  public set protocolviolations(value: string) {
+    this._protocolviolations = value;
+  }
+  public resetProtocolviolations() {
+    this._protocolviolations = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get protocolviolationsInput() {
+    return this._protocolviolations;
+  }
+
   // serverip - computed: true, optional: true, required: false
   private _serverip?: string; 
   public get serverip() {
@@ -440,6 +462,7 @@ export class Auditnslogparams extends cdktf.TerraformResource {
       logfacility: cdktf.stringToTerraform(this._logfacility),
       loglevel: cdktf.listMapper(cdktf.stringToTerraform, false)(this._loglevel),
       lsn: cdktf.stringToTerraform(this._lsn),
+      protocolviolations: cdktf.stringToTerraform(this._protocolviolations),
       serverip: cdktf.stringToTerraform(this._serverip),
       serverport: cdktf.numberToTerraform(this._serverport),
       sslinterception: cdktf.stringToTerraform(this._sslinterception),
@@ -503,6 +526,12 @@ export class Auditnslogparams extends cdktf.TerraformResource {
       },
       lsn: {
         value: cdktf.stringToHclTerraform(this._lsn),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      protocolviolations: {
+        value: cdktf.stringToHclTerraform(this._protocolviolations),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

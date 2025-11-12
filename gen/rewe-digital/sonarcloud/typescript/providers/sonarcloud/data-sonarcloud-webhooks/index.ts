@@ -145,7 +145,8 @@ export class DataSonarcloudWebhooks extends cdktf.TerraformDataSource {
       terraformResourceType: 'sonarcloud_webhooks',
       terraformGeneratorMetadata: {
         providerName: 'sonarcloud',
-        providerVersion: '0.5.2'
+        providerVersion: '0.5.2',
+        providerVersionConstraint: '0.5.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

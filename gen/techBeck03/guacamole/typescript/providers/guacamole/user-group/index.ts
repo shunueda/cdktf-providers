@@ -178,7 +178,8 @@ export class UserGroup extends cdktf.TerraformResource {
       terraformResourceType: 'guacamole_user_group',
       terraformGeneratorMetadata: {
         providerName: 'guacamole',
-        providerVersion: '1.4.1'
+        providerVersion: '1.4.1',
+        providerVersionConstraint: '1.4.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

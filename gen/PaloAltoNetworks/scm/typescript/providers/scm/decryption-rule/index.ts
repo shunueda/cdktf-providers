@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/decryption_rule
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,164 +10,164 @@ export interface DecryptionRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * The action to be taken
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/decryption_rule#action DecryptionRule#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_rule#action DecryptionRule#action}
   */
   readonly action: string;
   /**
   * The destination URL category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/decryption_rule#category DecryptionRule#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_rule#category DecryptionRule#category}
   */
   readonly category: string[];
   /**
   * The description of the decryption rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/decryption_rule#description DecryptionRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_rule#description DecryptionRule#description}
   */
   readonly description?: string;
   /**
   * The destination addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/decryption_rule#destination DecryptionRule#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_rule#destination DecryptionRule#destination}
   */
   readonly destination: string[];
   /**
   * The Host Integrity Profile of the destination host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/decryption_rule#destination_hip DecryptionRule#destination_hip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_rule#destination_hip DecryptionRule#destination_hip}
   */
   readonly destinationHip?: string[];
   /**
   * The device in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/decryption_rule#device DecryptionRule#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_rule#device DecryptionRule#device}
   */
   readonly device?: string;
   /**
   * Is the rule disabled?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/decryption_rule#disabled DecryptionRule#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_rule#disabled DecryptionRule#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * The folder in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/decryption_rule#folder DecryptionRule#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_rule#folder DecryptionRule#folder}
   */
   readonly folder?: string;
   /**
   * The source security zone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/decryption_rule#from DecryptionRule#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_rule#from DecryptionRule#from}
   */
   readonly from: string[];
   /**
   * Log failed decryption events?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/decryption_rule#log_fail DecryptionRule#log_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_rule#log_fail DecryptionRule#log_fail}
   */
   readonly logFail?: boolean | cdktf.IResolvable;
   /**
   * The log settings of the decryption rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/decryption_rule#log_setting DecryptionRule#log_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_rule#log_setting DecryptionRule#log_setting}
   */
   readonly logSetting?: string;
   /**
   * Log successful decryption events?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/decryption_rule#log_success DecryptionRule#log_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_rule#log_success DecryptionRule#log_success}
   */
   readonly logSuccess?: boolean | cdktf.IResolvable;
   /**
   * The name of the decryption rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/decryption_rule#name DecryptionRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_rule#name DecryptionRule#name}
   */
   readonly name: string;
   /**
   * Negate the destination addresses?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/decryption_rule#negate_destination DecryptionRule#negate_destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_rule#negate_destination DecryptionRule#negate_destination}
   */
   readonly negateDestination?: boolean | cdktf.IResolvable;
   /**
   * Negate the source addresses?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/decryption_rule#negate_source DecryptionRule#negate_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_rule#negate_source DecryptionRule#negate_source}
   */
   readonly negateSource?: boolean | cdktf.IResolvable;
   /**
   * The position of a security rule
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/decryption_rule#position DecryptionRule#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_rule#position DecryptionRule#position}
   */
   readonly position?: string;
   /**
   * The decryption profile associated with the decryption rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/decryption_rule#profile DecryptionRule#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_rule#profile DecryptionRule#profile}
   */
   readonly profile?: string;
   /**
   * Relative positioning rule. String must be one of these: `"before"`, `"after"`, `"top"`, `"bottom"`. If not specified, rule is created at the bottom of the ruleset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/decryption_rule#relative_position DecryptionRule#relative_position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_rule#relative_position DecryptionRule#relative_position}
   */
   readonly relativePosition?: string;
   /**
   * The destination services and/or service groups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/decryption_rule#service DecryptionRule#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_rule#service DecryptionRule#service}
   */
   readonly service: string[];
   /**
   * The snippet in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/decryption_rule#snippet DecryptionRule#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_rule#snippet DecryptionRule#snippet}
   */
   readonly snippet?: string;
   /**
   * The source addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/decryption_rule#source DecryptionRule#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_rule#source DecryptionRule#source}
   */
   readonly source: string[];
   /**
   * Source hip
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/decryption_rule#source_hip DecryptionRule#source_hip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_rule#source_hip DecryptionRule#source_hip}
   */
   readonly sourceHip?: string[];
   /**
   * List of source users and/or groups.  Reserved words include `any`, `pre-login`, `known-user`, and `unknown`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/decryption_rule#source_user DecryptionRule#source_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_rule#source_user DecryptionRule#source_user}
   */
   readonly sourceUser: string[];
   /**
   * The tags associated with the decryption rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/decryption_rule#tag DecryptionRule#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_rule#tag DecryptionRule#tag}
   */
   readonly tag?: string[];
   /**
   * The name or UUID of the rule to position this rule relative to. Required when `relative_position` is `"before"` or `"after"`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/decryption_rule#target_rule DecryptionRule#target_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_rule#target_rule DecryptionRule#target_rule}
   */
   readonly targetRule?: string;
   /**
   * The destination security zone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/decryption_rule#to DecryptionRule#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_rule#to DecryptionRule#to}
   */
   readonly to: string[];
   /**
   * The type of decryption
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/decryption_rule#type DecryptionRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_rule#type DecryptionRule#type}
   */
   readonly type?: DecryptionRuleType;
 }
@@ -234,13 +234,13 @@ export interface DecryptionRuleType {
   /**
   * Ssl forward proxy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/decryption_rule#ssl_forward_proxy DecryptionRule#ssl_forward_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_rule#ssl_forward_proxy DecryptionRule#ssl_forward_proxy}
   */
   readonly sslForwardProxy?: DecryptionRuleTypeSslForwardProxy;
   /**
   * add the certificate name for SSL inbound inspection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/decryption_rule#ssl_inbound_inspection DecryptionRule#ssl_inbound_inspection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_rule#ssl_inbound_inspection DecryptionRule#ssl_inbound_inspection}
   */
   readonly sslInboundInspection?: string;
 }
@@ -363,7 +363,7 @@ export class DecryptionRuleTypeOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/decryption_rule scm_decryption_rule}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_rule scm_decryption_rule}
 */
 export class DecryptionRule extends cdktf.TerraformResource {
 
@@ -379,7 +379,7 @@ export class DecryptionRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DecryptionRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DecryptionRule to import
-  * @param importFromId The id of the existing DecryptionRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/decryption_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DecryptionRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DecryptionRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -391,7 +391,7 @@ export class DecryptionRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/decryption_rule scm_decryption_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/decryption_rule scm_decryption_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -402,7 +402,8 @@ export class DecryptionRule extends cdktf.TerraformResource {
       terraformResourceType: 'scm_decryption_rule',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.3'
+        providerVersion: '1.0.4',
+        providerVersionConstraint: '1.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

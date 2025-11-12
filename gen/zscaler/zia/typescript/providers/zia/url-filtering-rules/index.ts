@@ -1781,7 +1781,8 @@ export class UrlFilteringRules extends cdktf.TerraformResource {
       terraformResourceType: 'zia_url_filtering_rules',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.5.3'
+        providerVersion: '4.5.3',
+        providerVersionConstraint: '4.5.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

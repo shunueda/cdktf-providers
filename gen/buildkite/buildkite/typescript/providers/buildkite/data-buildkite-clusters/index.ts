@@ -330,7 +330,8 @@ export class DataBuildkiteClusters extends cdktf.TerraformDataSource {
       terraformResourceType: 'buildkite_clusters',
       terraformGeneratorMetadata: {
         providerName: 'buildkite',
-        providerVersion: '1.26.0'
+        providerVersion: '1.26.0',
+        providerVersionConstraint: '1.26.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -760,7 +760,8 @@ export class IdentityPlatformTenantInboundSamlConfig extends cdktf.TerraformReso
       terraformResourceType: 'google_identity_platform_tenant_inbound_saml_config',
       terraformGeneratorMetadata: {
         providerName: 'google',
-        providerVersion: '4.16.4'
+        providerVersion: '4.16.4',
+        providerVersionConstraint: '4.16.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

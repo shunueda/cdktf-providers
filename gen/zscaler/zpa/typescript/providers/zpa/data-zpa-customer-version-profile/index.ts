@@ -343,7 +343,8 @@ export class DataZpaCustomerVersionProfile extends cdktf.TerraformDataSource {
       terraformResourceType: 'zpa_customer_version_profile',
       terraformGeneratorMetadata: {
         providerName: 'zpa',
-        providerVersion: '4.3.2'
+        providerVersion: '4.3.2',
+        providerVersionConstraint: '4.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

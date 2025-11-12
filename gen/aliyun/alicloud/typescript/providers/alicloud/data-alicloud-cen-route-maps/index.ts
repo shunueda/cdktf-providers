@@ -304,7 +304,8 @@ export class DataAlicloudCenRouteMaps extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_cen_route_maps',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1284,7 +1284,8 @@ export class DataK8SAutomationKubensyncComManagedResourceV1Alpha1Manifest extend
       terraformResourceType: 'k8s_automation_kubensync_com_managed_resource_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

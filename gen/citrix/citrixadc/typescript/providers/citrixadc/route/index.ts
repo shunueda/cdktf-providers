@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/route
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/route
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,76 +8,84 @@ import * as cdktf from 'cdktf';
 
 export interface RouteConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/route#advertise Route#advertise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/route#advertise Route#advertise}
   */
   readonly advertise?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/route#cost Route#cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/route#cost Route#cost}
   */
   readonly cost?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/route#cost1 Route#cost1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/route#cost1 Route#cost1}
   */
   readonly cost1?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/route#detail Route#detail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/route#detail Route#detail}
   */
   readonly detail?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/route#distance Route#distance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/route#distance Route#distance}
   */
   readonly distance?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/route#gateway Route#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/route#gateway Route#gateway}
   */
   readonly gateway: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/route#id Route#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/route#id Route#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/route#monitor Route#monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/route#mgmt Route#mgmt}
+  */
+  readonly mgmt?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/route#monitor Route#monitor}
   */
   readonly monitor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/route#msr Route#msr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/route#msr Route#msr}
   */
   readonly msr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/route#netmask Route#netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/route#netmask Route#netmask}
   */
   readonly netmask: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/route#network Route#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/route#network Route#network}
   */
   readonly network: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/route#ownergroup Route#ownergroup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/route#ownergroup Route#ownergroup}
   */
   readonly ownergroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/route#routetype Route#routetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/route#protocol Route#protocol}
+  */
+  readonly protocol?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/route#routetype Route#routetype}
   */
   readonly routetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/route#td Route#td}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/route#td Route#td}
   */
   readonly td?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/route#vlan Route#vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/route#vlan Route#vlan}
   */
   readonly vlan?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/route#weight Route#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/route#weight Route#weight}
   */
   readonly weight?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/route citrixadc_route}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/route citrixadc_route}
 */
 export class Route extends cdktf.TerraformResource {
 
@@ -93,7 +101,7 @@ export class Route extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Route resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Route to import
-  * @param importFromId The id of the existing Route that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/route#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Route that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/route#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Route to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -105,7 +113,7 @@ export class Route extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/route citrixadc_route} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/route citrixadc_route} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -116,7 +124,8 @@ export class Route extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_route',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -133,11 +142,13 @@ export class Route extends cdktf.TerraformResource {
     this._distance = config.distance;
     this._gateway = config.gateway;
     this._id = config.id;
+    this._mgmt = config.mgmt;
     this._monitor = config.monitor;
     this._msr = config.msr;
     this._netmask = config.netmask;
     this._network = config.network;
     this._ownergroup = config.ownergroup;
+    this._protocol = config.protocol;
     this._routetype = config.routetype;
     this._td = config.td;
     this._vlan = config.vlan;
@@ -257,6 +268,22 @@ export class Route extends cdktf.TerraformResource {
     return this._id;
   }
 
+  // mgmt - computed: true, optional: true, required: false
+  private _mgmt?: boolean | cdktf.IResolvable; 
+  public get mgmt() {
+    return this.getBooleanAttribute('mgmt');
+  }
+  public set mgmt(value: boolean | cdktf.IResolvable) {
+    this._mgmt = value;
+  }
+  public resetMgmt() {
+    this._mgmt = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get mgmtInput() {
+    return this._mgmt;
+  }
+
   // monitor - computed: true, optional: true, required: false
   private _monitor?: string; 
   public get monitor() {
@@ -329,6 +356,22 @@ export class Route extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get ownergroupInput() {
     return this._ownergroup;
+  }
+
+  // protocol - computed: true, optional: true, required: false
+  private _protocol?: string[]; 
+  public get protocol() {
+    return this.getListAttribute('protocol');
+  }
+  public set protocol(value: string[]) {
+    this._protocol = value;
+  }
+  public resetProtocol() {
+    this._protocol = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get protocolInput() {
+    return this._protocol;
   }
 
   // routetype - computed: true, optional: true, required: false
@@ -408,11 +451,13 @@ export class Route extends cdktf.TerraformResource {
       distance: cdktf.numberToTerraform(this._distance),
       gateway: cdktf.stringToTerraform(this._gateway),
       id: cdktf.stringToTerraform(this._id),
+      mgmt: cdktf.booleanToTerraform(this._mgmt),
       monitor: cdktf.stringToTerraform(this._monitor),
       msr: cdktf.stringToTerraform(this._msr),
       netmask: cdktf.stringToTerraform(this._netmask),
       network: cdktf.stringToTerraform(this._network),
       ownergroup: cdktf.stringToTerraform(this._ownergroup),
+      protocol: cdktf.listMapper(cdktf.stringToTerraform, false)(this._protocol),
       routetype: cdktf.stringToTerraform(this._routetype),
       td: cdktf.numberToTerraform(this._td),
       vlan: cdktf.numberToTerraform(this._vlan),
@@ -464,6 +509,12 @@ export class Route extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      mgmt: {
+        value: cdktf.booleanToHclTerraform(this._mgmt),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
       monitor: {
         value: cdktf.stringToHclTerraform(this._monitor),
         isBlock: false,
@@ -493,6 +544,12 @@ export class Route extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      protocol: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._protocol),
+        isBlock: false,
+        type: "list",
+        storageClassType: "stringList",
       },
       routetype: {
         value: cdktf.stringToHclTerraform(this._routetype),

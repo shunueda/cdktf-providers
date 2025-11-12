@@ -62,7 +62,8 @@ export class DataTwcSshKeys extends cdktf.TerraformDataSource {
       terraformResourceType: 'twc_ssh_keys',
       terraformGeneratorMetadata: {
         providerName: 'timeweb-cloud',
-        providerVersion: '1.6.6'
+        providerVersion: '1.6.6',
+        providerVersionConstraint: '1.6.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

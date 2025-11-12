@@ -55,7 +55,8 @@ export class IterativeProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'iterative',
       terraformGeneratorMetadata: {
         providerName: 'iterative',
-        providerVersion: '0.11.20'
+        providerVersion: '0.11.20',
+        providerVersionConstraint: '0.11.20'
       },
       terraformProviderSource: 'iterative/iterative'
     });

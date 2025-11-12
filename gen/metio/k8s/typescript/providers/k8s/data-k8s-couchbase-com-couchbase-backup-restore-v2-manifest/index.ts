@@ -2501,7 +2501,8 @@ export class DataK8SCouchbaseComCouchbaseBackupRestoreV2Manifest extends cdktf.T
       terraformResourceType: 'k8s_couchbase_com_couchbase_backup_restore_v2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

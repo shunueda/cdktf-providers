@@ -80,7 +80,8 @@ export class DataTencentcloudScfFunctionAddress extends cdktf.TerraformDataSourc
       terraformResourceType: 'tencentcloud_scf_function_address',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -63,7 +63,8 @@ export class DataFortisaseUsageNetworkHosts extends cdktf.TerraformDataSource {
       terraformResourceType: 'fortisase_usage_network_hosts',
       terraformGeneratorMetadata: {
         providerName: 'fortisase',
-        providerVersion: '1.0.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

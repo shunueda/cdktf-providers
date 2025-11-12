@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/interface_management_profile
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/interface_management_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,97 +10,212 @@ export interface InterfaceManagementProfileConfig extends cdktf.TerraformMetaArg
   /**
   * The device in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/interface_management_profile#device InterfaceManagementProfile#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/interface_management_profile#device InterfaceManagementProfile#device}
   */
   readonly device?: string;
   /**
   * The folder in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/interface_management_profile#folder InterfaceManagementProfile#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/interface_management_profile#folder InterfaceManagementProfile#folder}
   */
   readonly folder?: string;
   /**
   * Allow HTTP?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/interface_management_profile#http InterfaceManagementProfile#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/interface_management_profile#http InterfaceManagementProfile#http}
   */
   readonly http?: boolean | cdktf.IResolvable;
   /**
   * Allow HTTP OCSP?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/interface_management_profile#http_ocsp InterfaceManagementProfile#http_ocsp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/interface_management_profile#http_ocsp InterfaceManagementProfile#http_ocsp}
   */
   readonly httpOcsp?: boolean | cdktf.IResolvable;
   /**
   * Allow HTTPS?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/interface_management_profile#https InterfaceManagementProfile#https}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/interface_management_profile#https InterfaceManagementProfile#https}
   */
   readonly https?: boolean | cdktf.IResolvable;
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/interface_management_profile#name InterfaceManagementProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/interface_management_profile#name InterfaceManagementProfile#name}
   */
   readonly name: string;
   /**
   * Allowed IP address(es)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/interface_management_profile#permitted_ip InterfaceManagementProfile#permitted_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/interface_management_profile#permitted_ip InterfaceManagementProfile#permitted_ip}
   */
-  readonly permittedIp?: string[];
+  readonly permittedIp?: InterfaceManagementProfilePermittedIp[] | cdktf.IResolvable;
   /**
   * Allow ping?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/interface_management_profile#ping InterfaceManagementProfile#ping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/interface_management_profile#ping InterfaceManagementProfile#ping}
   */
   readonly ping?: boolean | cdktf.IResolvable;
   /**
   * Allow response pages?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/interface_management_profile#response_pages InterfaceManagementProfile#response_pages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/interface_management_profile#response_pages InterfaceManagementProfile#response_pages}
   */
-  readonly responsePages?: string;
+  readonly responsePages?: boolean | cdktf.IResolvable;
   /**
   * The snippet in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/interface_management_profile#snippet InterfaceManagementProfile#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/interface_management_profile#snippet InterfaceManagementProfile#snippet}
   */
   readonly snippet?: string;
   /**
   * Allow SSH?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/interface_management_profile#ssh InterfaceManagementProfile#ssh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/interface_management_profile#ssh InterfaceManagementProfile#ssh}
   */
   readonly ssh?: boolean | cdktf.IResolvable;
   /**
   * Allow telnet? Seriously, why would you do this?!?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/interface_management_profile#telnet InterfaceManagementProfile#telnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/interface_management_profile#telnet InterfaceManagementProfile#telnet}
   */
   readonly telnet?: boolean | cdktf.IResolvable;
   /**
   * Allow User-ID?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/interface_management_profile#userid_service InterfaceManagementProfile#userid_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/interface_management_profile#userid_service InterfaceManagementProfile#userid_service}
   */
   readonly useridService?: boolean | cdktf.IResolvable;
   /**
   * Allow User-ID syslog listener (SSL)?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/interface_management_profile#userid_syslog_listener_ssl InterfaceManagementProfile#userid_syslog_listener_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/interface_management_profile#userid_syslog_listener_ssl InterfaceManagementProfile#userid_syslog_listener_ssl}
   */
   readonly useridSyslogListenerSsl?: boolean | cdktf.IResolvable;
   /**
   * Allow User-ID syslog listener (UDP)?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/interface_management_profile#userid_syslog_listener_udp InterfaceManagementProfile#userid_syslog_listener_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/interface_management_profile#userid_syslog_listener_udp InterfaceManagementProfile#userid_syslog_listener_udp}
   */
   readonly useridSyslogListenerUdp?: boolean | cdktf.IResolvable;
 }
+export interface InterfaceManagementProfilePermittedIp {
+  /**
+  * The allowed IP address or CIDR block.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/interface_management_profile#name InterfaceManagementProfile#name}
+  */
+  readonly name: string;
+}
+
+export function interfaceManagementProfilePermittedIpToTerraform(struct?: InterfaceManagementProfilePermittedIp | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+  }
+}
+
+
+export function interfaceManagementProfilePermittedIpToHclTerraform(struct?: InterfaceManagementProfilePermittedIp | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class InterfaceManagementProfilePermittedIpOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): InterfaceManagementProfilePermittedIp | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: InterfaceManagementProfilePermittedIp | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+    }
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+}
+
+export class InterfaceManagementProfilePermittedIpList extends cdktf.ComplexList {
+  public internalValue? : InterfaceManagementProfilePermittedIp[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): InterfaceManagementProfilePermittedIpOutputReference {
+    return new InterfaceManagementProfilePermittedIpOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/interface_management_profile scm_interface_management_profile}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/interface_management_profile scm_interface_management_profile}
 */
 export class InterfaceManagementProfile extends cdktf.TerraformResource {
 
@@ -116,7 +231,7 @@ export class InterfaceManagementProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InterfaceManagementProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InterfaceManagementProfile to import
-  * @param importFromId The id of the existing InterfaceManagementProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/interface_management_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InterfaceManagementProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/interface_management_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InterfaceManagementProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -128,7 +243,7 @@ export class InterfaceManagementProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/interface_management_profile scm_interface_management_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/interface_management_profile scm_interface_management_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -139,7 +254,8 @@ export class InterfaceManagementProfile extends cdktf.TerraformResource {
       terraformResourceType: 'scm_interface_management_profile',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.3'
+        providerVersion: '1.0.4',
+        providerVersionConstraint: '1.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -155,7 +271,7 @@ export class InterfaceManagementProfile extends cdktf.TerraformResource {
     this._httpOcsp = config.httpOcsp;
     this._https = config.https;
     this._name = config.name;
-    this._permittedIp = config.permittedIp;
+    this._permittedIp.internalValue = config.permittedIp;
     this._ping = config.ping;
     this._responsePages = config.responsePages;
     this._snippet = config.snippet;
@@ -269,19 +385,19 @@ export class InterfaceManagementProfile extends cdktf.TerraformResource {
   }
 
   // permitted_ip - computed: false, optional: true, required: false
-  private _permittedIp?: string[]; 
+  private _permittedIp = new InterfaceManagementProfilePermittedIpList(this, "permitted_ip", false);
   public get permittedIp() {
-    return this.getListAttribute('permitted_ip');
+    return this._permittedIp;
   }
-  public set permittedIp(value: string[]) {
-    this._permittedIp = value;
+  public putPermittedIp(value: InterfaceManagementProfilePermittedIp[] | cdktf.IResolvable) {
+    this._permittedIp.internalValue = value;
   }
   public resetPermittedIp() {
-    this._permittedIp = undefined;
+    this._permittedIp.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get permittedIpInput() {
-    return this._permittedIp;
+    return this._permittedIp.internalValue;
   }
 
   // ping - computed: false, optional: true, required: false
@@ -300,12 +416,12 @@ export class InterfaceManagementProfile extends cdktf.TerraformResource {
     return this._ping;
   }
 
-  // response_pages - computed: true, optional: true, required: false
-  private _responsePages?: string; 
+  // response_pages - computed: false, optional: true, required: false
+  private _responsePages?: boolean | cdktf.IResolvable; 
   public get responsePages() {
-    return this.getStringAttribute('response_pages');
+    return this.getBooleanAttribute('response_pages');
   }
-  public set responsePages(value: string) {
+  public set responsePages(value: boolean | cdktf.IResolvable) {
     this._responsePages = value;
   }
   public resetResponsePages() {
@@ -429,9 +545,9 @@ export class InterfaceManagementProfile extends cdktf.TerraformResource {
       http_ocsp: cdktf.booleanToTerraform(this._httpOcsp),
       https: cdktf.booleanToTerraform(this._https),
       name: cdktf.stringToTerraform(this._name),
-      permitted_ip: cdktf.listMapper(cdktf.stringToTerraform, false)(this._permittedIp),
+      permitted_ip: cdktf.listMapper(interfaceManagementProfilePermittedIpToTerraform, false)(this._permittedIp.internalValue),
       ping: cdktf.booleanToTerraform(this._ping),
-      response_pages: cdktf.stringToTerraform(this._responsePages),
+      response_pages: cdktf.booleanToTerraform(this._responsePages),
       snippet: cdktf.stringToTerraform(this._snippet),
       ssh: cdktf.booleanToTerraform(this._ssh),
       telnet: cdktf.booleanToTerraform(this._telnet),
@@ -480,10 +596,10 @@ export class InterfaceManagementProfile extends cdktf.TerraformResource {
         storageClassType: "string",
       },
       permitted_ip: {
-        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._permittedIp),
-        isBlock: false,
+        value: cdktf.listMapperHcl(interfaceManagementProfilePermittedIpToHclTerraform, false)(this._permittedIp.internalValue),
+        isBlock: true,
         type: "list",
-        storageClassType: "stringList",
+        storageClassType: "InterfaceManagementProfilePermittedIpList",
       },
       ping: {
         value: cdktf.booleanToHclTerraform(this._ping),
@@ -492,10 +608,10 @@ export class InterfaceManagementProfile extends cdktf.TerraformResource {
         storageClassType: "boolean",
       },
       response_pages: {
-        value: cdktf.stringToHclTerraform(this._responsePages),
+        value: cdktf.booleanToHclTerraform(this._responsePages),
         isBlock: false,
         type: "simple",
-        storageClassType: "string",
+        storageClassType: "boolean",
       },
       snippet: {
         value: cdktf.stringToHclTerraform(this._snippet),

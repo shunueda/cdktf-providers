@@ -294,7 +294,8 @@ export class TrackingPlan extends cdktf.TerraformResource {
       terraformResourceType: 'segment_tracking_plan',
       terraformGeneratorMetadata: {
         providerName: 'segment',
-        providerVersion: '1.6.0'
+        providerVersion: '1.6.0',
+        providerVersionConstraint: '1.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -271,7 +271,8 @@ export class DataMerakiOrganizationInventoryDevices extends cdktf.TerraformDataS
       terraformResourceType: 'meraki_organization_inventory_devices',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1'
+        providerVersion: '1.7.1',
+        providerVersionConstraint: '1.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

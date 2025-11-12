@@ -236,7 +236,8 @@ export class DataSyntheticsVariableV2Check extends cdktf.TerraformDataSource {
       terraformResourceType: 'synthetics_variable_v2_check',
       terraformGeneratorMetadata: {
         providerName: 'synthetics',
-        providerVersion: '2.0.16'
+        providerVersion: '2.0.16',
+        providerVersionConstraint: '2.0.16'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

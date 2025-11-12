@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/route_access_list
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/route_access_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,56 +10,56 @@ export interface RouteAccessListConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/route_access_list#description RouteAccessList#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/route_access_list#description RouteAccessList#description}
   */
   readonly description?: string;
   /**
   * The device in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/route_access_list#device RouteAccessList#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/route_access_list#device RouteAccessList#device}
   */
   readonly device?: string;
   /**
   * The folder in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/route_access_list#folder RouteAccessList#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/route_access_list#folder RouteAccessList#folder}
   */
   readonly folder?: string;
   /**
   * Route access list name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/route_access_list#name RouteAccessList#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/route_access_list#name RouteAccessList#name}
   */
   readonly name: string;
   /**
   * The snippet in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/route_access_list#snippet RouteAccessList#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/route_access_list#snippet RouteAccessList#snippet}
   */
   readonly snippet?: string;
   /**
   * Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/route_access_list#type RouteAccessList#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/route_access_list#type RouteAccessList#type}
   */
   readonly type?: RouteAccessListType;
 }
-export interface RouteAccessListTypeIpv4Ipv4EntryDestinationAddress {
+export interface RouteAccessListTypeIpv4Ipv4EntryDestinationAddressEntry {
   /**
   * Destination IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/route_access_list#address RouteAccessList#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/route_access_list#address RouteAccessList#address}
   */
   readonly address?: string;
   /**
   * Destination IP wildcard
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/route_access_list#wildcard RouteAccessList#wildcard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/route_access_list#wildcard RouteAccessList#wildcard}
   */
   readonly wildcard?: string;
 }
 
-export function routeAccessListTypeIpv4Ipv4EntryDestinationAddressToTerraform(struct?: RouteAccessListTypeIpv4Ipv4EntryDestinationAddress | cdktf.IResolvable): any {
+export function routeAccessListTypeIpv4Ipv4EntryDestinationAddressEntryToTerraform(struct?: RouteAccessListTypeIpv4Ipv4EntryDestinationAddressEntry | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -71,7 +71,7 @@ export function routeAccessListTypeIpv4Ipv4EntryDestinationAddressToTerraform(st
 }
 
 
-export function routeAccessListTypeIpv4Ipv4EntryDestinationAddressToHclTerraform(struct?: RouteAccessListTypeIpv4Ipv4EntryDestinationAddress | cdktf.IResolvable): any {
+export function routeAccessListTypeIpv4Ipv4EntryDestinationAddressEntryToHclTerraform(struct?: RouteAccessListTypeIpv4Ipv4EntryDestinationAddressEntry | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -88,6 +88,137 @@ export function routeAccessListTypeIpv4Ipv4EntryDestinationAddressToHclTerraform
       isBlock: false,
       type: "simple",
       storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class RouteAccessListTypeIpv4Ipv4EntryDestinationAddressEntryOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): RouteAccessListTypeIpv4Ipv4EntryDestinationAddressEntry | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._address !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.address = this._address;
+    }
+    if (this._wildcard !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.wildcard = this._wildcard;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: RouteAccessListTypeIpv4Ipv4EntryDestinationAddressEntry | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._address = undefined;
+      this._wildcard = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._address = value.address;
+      this._wildcard = value.wildcard;
+    }
+  }
+
+  // address - computed: false, optional: true, required: false
+  private _address?: string; 
+  public get address() {
+    return this.getStringAttribute('address');
+  }
+  public set address(value: string) {
+    this._address = value;
+  }
+  public resetAddress() {
+    this._address = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get addressInput() {
+    return this._address;
+  }
+
+  // wildcard - computed: false, optional: true, required: false
+  private _wildcard?: string; 
+  public get wildcard() {
+    return this.getStringAttribute('wildcard');
+  }
+  public set wildcard(value: string) {
+    this._wildcard = value;
+  }
+  public resetWildcard() {
+    this._wildcard = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get wildcardInput() {
+    return this._wildcard;
+  }
+}
+export interface RouteAccessListTypeIpv4Ipv4EntryDestinationAddress {
+  /**
+  * Destination IP address
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/route_access_list#address RouteAccessList#address}
+  */
+  readonly address?: string;
+  /**
+  * Entry
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/route_access_list#entry RouteAccessList#entry}
+  */
+  readonly entry?: RouteAccessListTypeIpv4Ipv4EntryDestinationAddressEntry;
+}
+
+export function routeAccessListTypeIpv4Ipv4EntryDestinationAddressToTerraform(struct?: RouteAccessListTypeIpv4Ipv4EntryDestinationAddress | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    address: cdktf.stringToTerraform(struct!.address),
+    entry: routeAccessListTypeIpv4Ipv4EntryDestinationAddressEntryToTerraform(struct!.entry),
+  }
+}
+
+
+export function routeAccessListTypeIpv4Ipv4EntryDestinationAddressToHclTerraform(struct?: RouteAccessListTypeIpv4Ipv4EntryDestinationAddress | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    address: {
+      value: cdktf.stringToHclTerraform(struct!.address),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    entry: {
+      value: routeAccessListTypeIpv4Ipv4EntryDestinationAddressEntryToHclTerraform(struct!.entry),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "RouteAccessListTypeIpv4Ipv4EntryDestinationAddressEntry",
     },
   };
 
@@ -117,6 +248,137 @@ export class RouteAccessListTypeIpv4Ipv4EntryDestinationAddressOutputReference e
       hasAnyValues = true;
       internalValueResult.address = this._address;
     }
+    if (this._entry?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.entry = this._entry?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: RouteAccessListTypeIpv4Ipv4EntryDestinationAddress | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._address = undefined;
+      this._entry.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._address = value.address;
+      this._entry.internalValue = value.entry;
+    }
+  }
+
+  // address - computed: false, optional: true, required: false
+  private _address?: string; 
+  public get address() {
+    return this.getStringAttribute('address');
+  }
+  public set address(value: string) {
+    this._address = value;
+  }
+  public resetAddress() {
+    this._address = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get addressInput() {
+    return this._address;
+  }
+
+  // entry - computed: false, optional: true, required: false
+  private _entry = new RouteAccessListTypeIpv4Ipv4EntryDestinationAddressEntryOutputReference(this, "entry");
+  public get entry() {
+    return this._entry;
+  }
+  public putEntry(value: RouteAccessListTypeIpv4Ipv4EntryDestinationAddressEntry) {
+    this._entry.internalValue = value;
+  }
+  public resetEntry() {
+    this._entry.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get entryInput() {
+    return this._entry.internalValue;
+  }
+}
+export interface RouteAccessListTypeIpv4Ipv4EntrySourceAddressEntry {
+  /**
+  * Source IP address
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/route_access_list#address RouteAccessList#address}
+  */
+  readonly address?: string;
+  /**
+  * Source IP wildcard
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/route_access_list#wildcard RouteAccessList#wildcard}
+  */
+  readonly wildcard?: string;
+}
+
+export function routeAccessListTypeIpv4Ipv4EntrySourceAddressEntryToTerraform(struct?: RouteAccessListTypeIpv4Ipv4EntrySourceAddressEntry | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    address: cdktf.stringToTerraform(struct!.address),
+    wildcard: cdktf.stringToTerraform(struct!.wildcard),
+  }
+}
+
+
+export function routeAccessListTypeIpv4Ipv4EntrySourceAddressEntryToHclTerraform(struct?: RouteAccessListTypeIpv4Ipv4EntrySourceAddressEntry | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    address: {
+      value: cdktf.stringToHclTerraform(struct!.address),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    wildcard: {
+      value: cdktf.stringToHclTerraform(struct!.wildcard),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class RouteAccessListTypeIpv4Ipv4EntrySourceAddressEntryOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): RouteAccessListTypeIpv4Ipv4EntrySourceAddressEntry | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._address !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.address = this._address;
+    }
     if (this._wildcard !== undefined) {
       hasAnyValues = true;
       internalValueResult.wildcard = this._wildcard;
@@ -124,7 +386,7 @@ export class RouteAccessListTypeIpv4Ipv4EntryDestinationAddressOutputReference e
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: RouteAccessListTypeIpv4Ipv4EntryDestinationAddress | cdktf.IResolvable | undefined) {
+  public set internalValue(value: RouteAccessListTypeIpv4Ipv4EntrySourceAddressEntry | cdktf.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -179,15 +441,15 @@ export interface RouteAccessListTypeIpv4Ipv4EntrySourceAddress {
   /**
   * Source IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/route_access_list#address RouteAccessList#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/route_access_list#address RouteAccessList#address}
   */
   readonly address?: string;
   /**
-  * Source IP wildcard
+  * Entry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/route_access_list#wildcard RouteAccessList#wildcard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/route_access_list#entry RouteAccessList#entry}
   */
-  readonly wildcard?: string;
+  readonly entry?: RouteAccessListTypeIpv4Ipv4EntrySourceAddressEntry;
 }
 
 export function routeAccessListTypeIpv4Ipv4EntrySourceAddressToTerraform(struct?: RouteAccessListTypeIpv4Ipv4EntrySourceAddress | cdktf.IResolvable): any {
@@ -197,7 +459,7 @@ export function routeAccessListTypeIpv4Ipv4EntrySourceAddressToTerraform(struct?
   }
   return {
     address: cdktf.stringToTerraform(struct!.address),
-    wildcard: cdktf.stringToTerraform(struct!.wildcard),
+    entry: routeAccessListTypeIpv4Ipv4EntrySourceAddressEntryToTerraform(struct!.entry),
   }
 }
 
@@ -214,11 +476,11 @@ export function routeAccessListTypeIpv4Ipv4EntrySourceAddressToHclTerraform(stru
       type: "simple",
       storageClassType: "string",
     },
-    wildcard: {
-      value: cdktf.stringToHclTerraform(struct!.wildcard),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
+    entry: {
+      value: routeAccessListTypeIpv4Ipv4EntrySourceAddressEntryToHclTerraform(struct!.entry),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "RouteAccessListTypeIpv4Ipv4EntrySourceAddressEntry",
     },
   };
 
@@ -248,9 +510,9 @@ export class RouteAccessListTypeIpv4Ipv4EntrySourceAddressOutputReference extend
       hasAnyValues = true;
       internalValueResult.address = this._address;
     }
-    if (this._wildcard !== undefined) {
+    if (this._entry?.internalValue !== undefined) {
       hasAnyValues = true;
-      internalValueResult.wildcard = this._wildcard;
+      internalValueResult.entry = this._entry?.internalValue;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -260,7 +522,7 @@ export class RouteAccessListTypeIpv4Ipv4EntrySourceAddressOutputReference extend
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._address = undefined;
-      this._wildcard = undefined;
+      this._entry.internalValue = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -270,7 +532,7 @@ export class RouteAccessListTypeIpv4Ipv4EntrySourceAddressOutputReference extend
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
       this._address = value.address;
-      this._wildcard = value.wildcard;
+      this._entry.internalValue = value.entry;
     }
   }
 
@@ -290,45 +552,45 @@ export class RouteAccessListTypeIpv4Ipv4EntrySourceAddressOutputReference extend
     return this._address;
   }
 
-  // wildcard - computed: false, optional: true, required: false
-  private _wildcard?: string; 
-  public get wildcard() {
-    return this.getStringAttribute('wildcard');
+  // entry - computed: false, optional: true, required: false
+  private _entry = new RouteAccessListTypeIpv4Ipv4EntrySourceAddressEntryOutputReference(this, "entry");
+  public get entry() {
+    return this._entry;
   }
-  public set wildcard(value: string) {
-    this._wildcard = value;
+  public putEntry(value: RouteAccessListTypeIpv4Ipv4EntrySourceAddressEntry) {
+    this._entry.internalValue = value;
   }
-  public resetWildcard() {
-    this._wildcard = undefined;
+  public resetEntry() {
+    this._entry.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get wildcardInput() {
-    return this._wildcard;
+  public get entryInput() {
+    return this._entry.internalValue;
   }
 }
 export interface RouteAccessListTypeIpv4Ipv4Entry {
   /**
   * Action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/route_access_list#action RouteAccessList#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/route_access_list#action RouteAccessList#action}
   */
   readonly action?: string;
   /**
   * Destination address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/route_access_list#destination_address RouteAccessList#destination_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/route_access_list#destination_address RouteAccessList#destination_address}
   */
   readonly destinationAddress?: RouteAccessListTypeIpv4Ipv4EntryDestinationAddress;
   /**
   * Sequence number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/route_access_list#name RouteAccessList#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/route_access_list#name RouteAccessList#name}
   */
   readonly name?: number;
   /**
   * Source address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/route_access_list#source_address RouteAccessList#source_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/route_access_list#source_address RouteAccessList#source_address}
   */
   readonly sourceAddress?: RouteAccessListTypeIpv4Ipv4EntrySourceAddress;
 }
@@ -533,7 +795,7 @@ export interface RouteAccessListTypeIpv4 {
   /**
   * IPv4 access lists
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/route_access_list#ipv4_entry RouteAccessList#ipv4_entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/route_access_list#ipv4_entry RouteAccessList#ipv4_entry}
   */
   readonly ipv4Entry?: RouteAccessListTypeIpv4Ipv4Entry[] | cdktf.IResolvable;
 }
@@ -629,7 +891,7 @@ export interface RouteAccessListType {
   /**
   * Ipv4
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/route_access_list#ipv4 RouteAccessList#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/route_access_list#ipv4 RouteAccessList#ipv4}
   */
   readonly ipv4?: RouteAccessListTypeIpv4;
 }
@@ -723,7 +985,7 @@ export class RouteAccessListTypeOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/route_access_list scm_route_access_list}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/route_access_list scm_route_access_list}
 */
 export class RouteAccessList extends cdktf.TerraformResource {
 
@@ -739,7 +1001,7 @@ export class RouteAccessList extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RouteAccessList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RouteAccessList to import
-  * @param importFromId The id of the existing RouteAccessList that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/route_access_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RouteAccessList that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/route_access_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RouteAccessList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -751,7 +1013,7 @@ export class RouteAccessList extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/route_access_list scm_route_access_list} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/route_access_list scm_route_access_list} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -762,7 +1024,8 @@ export class RouteAccessList extends cdktf.TerraformResource {
       terraformResourceType: 'scm_route_access_list',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.3'
+        providerVersion: '1.0.4',
+        providerVersionConstraint: '1.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

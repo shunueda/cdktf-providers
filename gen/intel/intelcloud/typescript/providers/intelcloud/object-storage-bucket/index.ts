@@ -259,7 +259,8 @@ export class ObjectStorageBucket extends cdktf.TerraformResource {
       terraformResourceType: 'intelcloud_object_storage_bucket',
       terraformGeneratorMetadata: {
         providerName: 'intelcloud',
-        providerVersion: '0.0.20'
+        providerVersion: '0.0.20',
+        providerVersionConstraint: '0.0.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

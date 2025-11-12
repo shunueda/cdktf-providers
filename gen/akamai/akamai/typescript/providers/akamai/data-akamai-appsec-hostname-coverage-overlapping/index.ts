@@ -68,7 +68,8 @@ export class DataAkamaiAppsecHostnameCoverageOverlapping extends cdktf.Terraform
       terraformResourceType: 'akamai_appsec_hostname_coverage_overlapping',
       terraformGeneratorMetadata: {
         providerName: 'akamai',
-        providerVersion: '9.1.0'
+        providerVersion: '9.1.0',
+        providerVersionConstraint: '9.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

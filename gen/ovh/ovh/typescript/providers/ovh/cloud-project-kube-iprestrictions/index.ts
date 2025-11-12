@@ -306,7 +306,8 @@ export class CloudProjectKubeIprestrictions extends cdktf.TerraformResource {
       terraformResourceType: 'ovh_cloud_project_kube_iprestrictions',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0'
+        providerVersion: '2.9.0',
+        providerVersionConstraint: '2.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

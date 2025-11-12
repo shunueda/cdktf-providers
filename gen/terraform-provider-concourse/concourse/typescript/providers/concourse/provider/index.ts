@@ -85,7 +85,8 @@ export class ConcourseProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'concourse',
       terraformGeneratorMetadata: {
         providerName: 'concourse',
-        providerVersion: '8.0.1'
+        providerVersion: '8.0.1',
+        providerVersionConstraint: '8.0.1'
       },
       terraformProviderSource: 'terraform-provider-concourse/concourse'
     });

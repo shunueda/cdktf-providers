@@ -85,7 +85,8 @@ export class DnacenterProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'dnacenter',
       terraformGeneratorMetadata: {
         providerName: 'dnacenter',
-        providerVersion: '1.1.21'
+        providerVersion: '1.1.21',
+        providerVersionConstraint: '1.1.21'
       },
       terraformProviderSource: 'cisco-en-programmability/dnacenter'
     });

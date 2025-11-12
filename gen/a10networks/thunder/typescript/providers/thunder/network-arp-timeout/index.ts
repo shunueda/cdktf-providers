@@ -68,7 +68,8 @@ export class NetworkArpTimeout extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_network_arp_timeout',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

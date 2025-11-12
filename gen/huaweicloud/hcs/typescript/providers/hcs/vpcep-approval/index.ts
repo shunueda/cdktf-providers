@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/vpcep_approval
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vpcep_approval
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,28 @@ import * as cdktf from 'cdktf';
 
 export interface VpcepApprovalConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/vpcep_approval#endpoints VpcepApproval#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vpcep_approval#endpoints VpcepApproval#endpoints}
   */
   readonly endpoints: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/vpcep_approval#id VpcepApproval#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vpcep_approval#id VpcepApproval#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/vpcep_approval#region VpcepApproval#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vpcep_approval#region VpcepApproval#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/vpcep_approval#service_id VpcepApproval#service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vpcep_approval#service_id VpcepApproval#service_id}
   */
   readonly serviceId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/vpcep_approval#timeouts VpcepApproval#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vpcep_approval#timeouts VpcepApproval#timeouts}
   */
   readonly timeouts?: VpcepApprovalTimeouts;
 }
@@ -125,11 +125,11 @@ export class VpcepApprovalConnectionsList extends cdktf.ComplexList {
 }
 export interface VpcepApprovalTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/vpcep_approval#create VpcepApproval#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vpcep_approval#create VpcepApproval#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/vpcep_approval#delete VpcepApproval#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vpcep_approval#delete VpcepApproval#delete}
   */
   readonly delete?: string;
 }
@@ -252,7 +252,7 @@ export class VpcepApprovalTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/vpcep_approval hcs_vpcep_approval}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vpcep_approval hcs_vpcep_approval}
 */
 export class VpcepApproval extends cdktf.TerraformResource {
 
@@ -268,7 +268,7 @@ export class VpcepApproval extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VpcepApproval resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpcepApproval to import
-  * @param importFromId The id of the existing VpcepApproval that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/vpcep_approval#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpcepApproval that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vpcep_approval#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpcepApproval to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -280,7 +280,7 @@ export class VpcepApproval extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/vpcep_approval hcs_vpcep_approval} Resource
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vpcep_approval hcs_vpcep_approval} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -291,7 +291,8 @@ export class VpcepApproval extends cdktf.TerraformResource {
       terraformResourceType: 'hcs_vpcep_approval',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.19'
+        providerVersion: '2.4.20',
+        providerVersionConstraint: '2.4.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

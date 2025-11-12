@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_interconnect_domain_gateway
+// https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_interconnect_domain_gateway
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface DatacenterInterconnectDomainGatewayConfig extends cdktf.Terrafo
   /**
   * Interconnect Domain Gateway AS Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_interconnect_domain_gateway#asn DatacenterInterconnectDomainGateway#asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_interconnect_domain_gateway#asn DatacenterInterconnectDomainGateway#asn}
   */
   readonly asn: number;
   /**
   * Apstra ID of the Blueprint in which the Interconnect Domain Gateway should be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_interconnect_domain_gateway#blueprint_id DatacenterInterconnectDomainGateway#blueprint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_interconnect_domain_gateway#blueprint_id DatacenterInterconnectDomainGateway#blueprint_id}
   */
   readonly blueprintId: string;
   /**
   * BGP hold time (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_interconnect_domain_gateway#hold_time DatacenterInterconnectDomainGateway#hold_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_interconnect_domain_gateway#hold_time DatacenterInterconnectDomainGateway#hold_time}
   */
   readonly holdTime?: number;
   /**
   * ID of the Interconnect Domain to which this gateway belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_interconnect_domain_gateway#interconnect_domain_id DatacenterInterconnectDomainGateway#interconnect_domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_interconnect_domain_gateway#interconnect_domain_id DatacenterInterconnectDomainGateway#interconnect_domain_id}
   */
   readonly interconnectDomainId: string;
   /**
   * Interconnect Domain Gateway IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_interconnect_domain_gateway#ip_address DatacenterInterconnectDomainGateway#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_interconnect_domain_gateway#ip_address DatacenterInterconnectDomainGateway#ip_address}
   */
   readonly ipAddress: string;
   /**
   * BGP keepalive time (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_interconnect_domain_gateway#keepalive_time DatacenterInterconnectDomainGateway#keepalive_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_interconnect_domain_gateway#keepalive_time DatacenterInterconnectDomainGateway#keepalive_time}
   */
   readonly keepaliveTime?: number;
   /**
   * Set of IDs of switch nodes which will be configured to peer with the Interconnect Domain Gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_interconnect_domain_gateway#local_gateway_nodes DatacenterInterconnectDomainGateway#local_gateway_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_interconnect_domain_gateway#local_gateway_nodes DatacenterInterconnectDomainGateway#local_gateway_nodes}
   */
   readonly localGatewayNodes: string[];
   /**
   * Interconnect Domain Gateway name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_interconnect_domain_gateway#name DatacenterInterconnectDomainGateway#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_interconnect_domain_gateway#name DatacenterInterconnectDomainGateway#name}
   */
   readonly name: string;
   /**
   * BGP TCP authentication password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_interconnect_domain_gateway#password DatacenterInterconnectDomainGateway#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_interconnect_domain_gateway#password DatacenterInterconnectDomainGateway#password}
   */
   readonly password?: string;
   /**
   * BGP Time To Live. Omit to use device defaults.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_interconnect_domain_gateway#ttl DatacenterInterconnectDomainGateway#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_interconnect_domain_gateway#ttl DatacenterInterconnectDomainGateway#ttl}
   */
   readonly ttl?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_interconnect_domain_gateway apstra_datacenter_interconnect_domain_gateway}
+* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_interconnect_domain_gateway apstra_datacenter_interconnect_domain_gateway}
 */
 export class DatacenterInterconnectDomainGateway extends cdktf.TerraformResource {
 
@@ -86,7 +86,7 @@ export class DatacenterInterconnectDomainGateway extends cdktf.TerraformResource
   * Generates CDKTF code for importing a DatacenterInterconnectDomainGateway resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatacenterInterconnectDomainGateway to import
-  * @param importFromId The id of the existing DatacenterInterconnectDomainGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_interconnect_domain_gateway#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatacenterInterconnectDomainGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_interconnect_domain_gateway#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatacenterInterconnectDomainGateway to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -98,7 +98,7 @@ export class DatacenterInterconnectDomainGateway extends cdktf.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_interconnect_domain_gateway apstra_datacenter_interconnect_domain_gateway} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_interconnect_domain_gateway apstra_datacenter_interconnect_domain_gateway} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -109,7 +109,8 @@ export class DatacenterInterconnectDomainGateway extends cdktf.TerraformResource
       terraformResourceType: 'apstra_datacenter_interconnect_domain_gateway',
       terraformGeneratorMetadata: {
         providerName: 'apstra',
-        providerVersion: '0.95.0'
+        providerVersion: '0.95.1',
+        providerVersionConstraint: '0.95.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

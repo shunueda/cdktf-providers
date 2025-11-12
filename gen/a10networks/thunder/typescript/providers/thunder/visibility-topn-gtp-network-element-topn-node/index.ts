@@ -68,7 +68,8 @@ export class VisibilityTopnGtpNetworkElementTopnNodeA extends cdktf.TerraformRes
       terraformResourceType: 'thunder_visibility_topn_gtp_network_element_topn_node',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

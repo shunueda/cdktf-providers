@@ -65,7 +65,8 @@ export class AppCreds extends cdktf.TerraformResource {
       terraformResourceType: 'kaleido_app_creds',
       terraformGeneratorMetadata: {
         providerName: 'kaleido',
-        providerVersion: '1.1.2'
+        providerVersion: '1.1.2',
+        providerVersionConstraint: '1.1.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

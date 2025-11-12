@@ -60,7 +60,8 @@ export class DataVinyldnsZone extends cdktf.TerraformDataSource {
       terraformResourceType: 'vinyldns_zone',
       terraformGeneratorMetadata: {
         providerName: 'vinyldns',
-        providerVersion: '0.10.3'
+        providerVersion: '0.10.3',
+        providerVersionConstraint: '0.10.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

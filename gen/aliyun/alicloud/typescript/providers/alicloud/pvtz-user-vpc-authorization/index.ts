@@ -201,7 +201,8 @@ export class PvtzUserVpcAuthorization extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_pvtz_user_vpc_authorization',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

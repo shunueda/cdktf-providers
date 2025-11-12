@@ -26,6 +26,7 @@ Object.defineProperty(exports, 'gcpServiceAttachmentsAcceptListV2', { get: funct
 Object.defineProperty(exports, 'gcpVpcPeerV2', { get: function () { return require('./gcp-vpc-peer-v2'); } });
 Object.defineProperty(exports, 'kafkaAclV2', { get: function () { return require('./kafka-acl-v2'); } });
 Object.defineProperty(exports, 'kafkaAclV3', { get: function () { return require('./kafka-acl-v3'); } });
+Object.defineProperty(exports, 'kafkaClientMetricSubscription', { get: function () { return require('./kafka-client-metric-subscription'); } });
 Object.defineProperty(exports, 'kafkaClusterV2', { get: function () { return require('./kafka-cluster-v2'); } });
 Object.defineProperty(exports, 'kafkaClusterV3', { get: function () { return require('./kafka-cluster-v3'); } });
 Object.defineProperty(exports, 'kafkaConnectClusterV2', { get: function () { return require('./kafka-connect-cluster-v2'); } });
@@ -89,7 +90,9 @@ Object.defineProperty(exports, 'dataInstaclustrGcpVpcPeerV2Instance', { get: fun
 Object.defineProperty(exports, 'dataInstaclustrGcpVpcPeersV2', { get: function () { return require('./data-instaclustr-gcp-vpc-peers-v2'); } });
 Object.defineProperty(exports, 'dataInstaclustrKafkaAclV2Instance', { get: function () { return require('./data-instaclustr-kafka-acl-v2-instance'); } });
 Object.defineProperty(exports, 'dataInstaclustrKafkaAclV3Instance', { get: function () { return require('./data-instaclustr-kafka-acl-v3-instance'); } });
+Object.defineProperty(exports, 'dataInstaclustrKafkaClientMetricSubscriptionInstance', { get: function () { return require('./data-instaclustr-kafka-client-metric-subscription-instance'); } });
 Object.defineProperty(exports, 'dataInstaclustrKafkaClusterAclsV2', { get: function () { return require('./data-instaclustr-kafka-cluster-acls-v2'); } });
+Object.defineProperty(exports, 'dataInstaclustrKafkaClusterClientMetricSubscriptions', { get: function () { return require('./data-instaclustr-kafka-cluster-client-metric-subscriptions'); } });
 Object.defineProperty(exports, 'dataInstaclustrKafkaClusterKafkaTopicsV2', { get: function () { return require('./data-instaclustr-kafka-cluster-kafka-topics-v2'); } });
 Object.defineProperty(exports, 'dataInstaclustrKafkaClusterSearchV2', { get: function () { return require('./data-instaclustr-kafka-cluster-search-v2'); } });
 Object.defineProperty(exports, 'dataInstaclustrKafkaClusterUsersV2', { get: function () { return require('./data-instaclustr-kafka-cluster-users-v2'); } });

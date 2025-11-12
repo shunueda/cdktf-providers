@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_gtp
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_gtp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface ManagementServiceGtpConfig extends cdktf.TerraformMetaArguments
   /**
   * Match by Access Point Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_gtp#access_point_name ManagementServiceGtp#access_point_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_gtp#access_point_name ManagementServiceGtp#access_point_name}
   */
   readonly accessPointName?: { [key: string]: string };
   /**
   * Allow usage of static IP addresses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_gtp#allow_usage_of_static_ip ManagementServiceGtp#allow_usage_of_static_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_gtp#allow_usage_of_static_ip ManagementServiceGtp#allow_usage_of_static_ip}
   */
   readonly allowUsageOfStaticIp?: boolean | cdktf.IResolvable;
   /**
   * Apply Access Policy on user traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_gtp#apply_access_policy_on_user_traffic ManagementServiceGtp#apply_access_policy_on_user_traffic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_gtp#apply_access_policy_on_user_traffic ManagementServiceGtp#apply_access_policy_on_user_traffic}
   */
   readonly applyAccessPolicyOnUserTraffic?: { [key: string]: string };
   /**
   * Color of the object. Should be one of existing colors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_gtp#color ManagementServiceGtp#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_gtp#color ManagementServiceGtp#color}
   */
   readonly color?: string;
   /**
   * Comments string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_gtp#comments ManagementServiceGtp#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_gtp#comments ManagementServiceGtp#comments}
   */
   readonly comments?: string;
   /**
   * CS Fallback and SRVCC (Relevant for V2 only).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_gtp#cs_fallback_and_srvcc ManagementServiceGtp#cs_fallback_and_srvcc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_gtp#cs_fallback_and_srvcc ManagementServiceGtp#cs_fallback_and_srvcc}
   */
   readonly csFallbackAndSrvcc?: boolean | cdktf.IResolvable;
   /**
   * Collection of group identifiers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_gtp#groups ManagementServiceGtp#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_gtp#groups ManagementServiceGtp#groups}
   */
   readonly groups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_gtp#id ManagementServiceGtp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_gtp#id ManagementServiceGtp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,97 +59,97 @@ export interface ManagementServiceGtpConfig extends cdktf.TerraformMetaArguments
   /**
   * Apply changes ignoring errors. You won't be able to publish such a changes. If ignore-warnings flag was omitted - warnings will also be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_gtp#ignore_errors ManagementServiceGtp#ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_gtp#ignore_errors ManagementServiceGtp#ignore_errors}
   */
   readonly ignoreErrors?: boolean | cdktf.IResolvable;
   /**
   * Apply changes ignoring warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_gtp#ignore_warnings ManagementServiceGtp#ignore_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_gtp#ignore_warnings ManagementServiceGtp#ignore_warnings}
   */
   readonly ignoreWarnings?: boolean | cdktf.IResolvable;
   /**
   * Match by IMSI prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_gtp#imsi_prefix ManagementServiceGtp#imsi_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_gtp#imsi_prefix ManagementServiceGtp#imsi_prefix}
   */
   readonly imsiPrefix?: { [key: string]: string };
   /**
   * Match only message types relevant to the given GTP interface. Relevant only for GTP V1 or V2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_gtp#interface_profile ManagementServiceGtp#interface_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_gtp#interface_profile ManagementServiceGtp#interface_profile}
   */
   readonly interfaceProfile?: { [key: string]: string };
   /**
   * Match by an LDAP Group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_gtp#ldap_group ManagementServiceGtp#ldap_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_gtp#ldap_group ManagementServiceGtp#ldap_group}
   */
   readonly ldapGroup?: { [key: string]: string };
   /**
   * Match by an MS-ISDN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_gtp#ms_isdn ManagementServiceGtp#ms_isdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_gtp#ms_isdn ManagementServiceGtp#ms_isdn}
   */
   readonly msIsdn?: { [key: string]: string };
   /**
   * Object name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_gtp#name ManagementServiceGtp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_gtp#name ManagementServiceGtp#name}
   */
   readonly name: string;
   /**
   * Restoration and Recovery (Relevant for V2 only).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_gtp#restoration_and_recovery ManagementServiceGtp#restoration_and_recovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_gtp#restoration_and_recovery ManagementServiceGtp#restoration_and_recovery}
   */
   readonly restorationAndRecovery?: boolean | cdktf.IResolvable;
   /**
   * Accept PDUs from the GGSN/PGW to the SGSN/SGW on a previously established PDP context, even if different ports are used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_gtp#reverse_service ManagementServiceGtp#reverse_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_gtp#reverse_service ManagementServiceGtp#reverse_service}
   */
   readonly reverseService?: boolean | cdktf.IResolvable;
   /**
   * Collection of tag identifiers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_gtp#tags ManagementServiceGtp#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_gtp#tags ManagementServiceGtp#tags}
   */
   readonly tags?: string[];
   /**
   * Trace Management (Relevant for V2 only).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_gtp#trace_management ManagementServiceGtp#trace_management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_gtp#trace_management ManagementServiceGtp#trace_management}
   */
   readonly traceManagement?: boolean | cdktf.IResolvable;
   /**
   * GTP version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_gtp#version ManagementServiceGtp#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_gtp#version ManagementServiceGtp#version}
   */
   readonly version?: string;
   /**
   * radio_access_technology block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_gtp#radio_access_technology ManagementServiceGtp#radio_access_technology}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_gtp#radio_access_technology ManagementServiceGtp#radio_access_technology}
   */
   readonly radioAccessTechnology?: ManagementServiceGtpRadioAccessTechnology;
   /**
   * selection_mode block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_gtp#selection_mode ManagementServiceGtp#selection_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_gtp#selection_mode ManagementServiceGtp#selection_mode}
   */
   readonly selectionMode?: ManagementServiceGtpSelectionMode;
 }
 export interface ManagementServiceGtpRadioAccessTechnologyOtherTypesRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_gtp#enable ManagementServiceGtp#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_gtp#enable ManagementServiceGtp#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Other RAT Types. To specify other RAT ranges, add a hyphen between the lowest and the highest numbers, for example: 11-15. Multiple Ranges can be chosen when separated with comma.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_gtp#types ManagementServiceGtp#types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_gtp#types ManagementServiceGtp#types}
   */
   readonly types?: string;
 }
@@ -264,55 +264,55 @@ export interface ManagementServiceGtpRadioAccessTechnology {
   /**
   * (6).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_gtp#eutran ManagementServiceGtp#eutran}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_gtp#eutran ManagementServiceGtp#eutran}
   */
   readonly eutran?: boolean | cdktf.IResolvable;
   /**
   * (4).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_gtp#gan ManagementServiceGtp#gan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_gtp#gan ManagementServiceGtp#gan}
   */
   readonly gan?: boolean | cdktf.IResolvable;
   /**
   * (2).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_gtp#geran ManagementServiceGtp#geran}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_gtp#geran ManagementServiceGtp#geran}
   */
   readonly geran?: boolean | cdktf.IResolvable;
   /**
   * (5).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_gtp#hspa_evolution ManagementServiceGtp#hspa_evolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_gtp#hspa_evolution ManagementServiceGtp#hspa_evolution}
   */
   readonly hspaEvolution?: boolean | cdktf.IResolvable;
   /**
   * (8).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_gtp#nb_iot ManagementServiceGtp#nb_iot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_gtp#nb_iot ManagementServiceGtp#nb_iot}
   */
   readonly nbIot?: boolean | cdktf.IResolvable;
   /**
   * (1).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_gtp#utran ManagementServiceGtp#utran}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_gtp#utran ManagementServiceGtp#utran}
   */
   readonly utran?: boolean | cdktf.IResolvable;
   /**
   * (7).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_gtp#virtual ManagementServiceGtp#virtual}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_gtp#virtual ManagementServiceGtp#virtual}
   */
   readonly virtual?: boolean | cdktf.IResolvable;
   /**
   * (3).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_gtp#wlan ManagementServiceGtp#wlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_gtp#wlan ManagementServiceGtp#wlan}
   */
   readonly wlan?: boolean | cdktf.IResolvable;
   /**
   * other_types_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_gtp#other_types_range ManagementServiceGtp#other_types_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_gtp#other_types_range ManagementServiceGtp#other_types_range}
   */
   readonly otherTypesRange?: ManagementServiceGtpRadioAccessTechnologyOtherTypesRange;
 }
@@ -628,13 +628,13 @@ export class ManagementServiceGtpRadioAccessTechnologyOutputReference extends cd
 }
 export interface ManagementServiceGtpSelectionMode {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_gtp#enable ManagementServiceGtp#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_gtp#enable ManagementServiceGtp#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * The mode as integer. [0 - Verified, 1 - MS - Not verified, 2 - Network - Not verified].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_gtp#mode ManagementServiceGtp#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_gtp#mode ManagementServiceGtp#mode}
   */
   readonly mode?: number;
 }
@@ -747,7 +747,7 @@ export class ManagementServiceGtpSelectionModeOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_gtp checkpoint_management_service_gtp}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_gtp checkpoint_management_service_gtp}
 */
 export class ManagementServiceGtp extends cdktf.TerraformResource {
 
@@ -763,7 +763,7 @@ export class ManagementServiceGtp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementServiceGtp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementServiceGtp to import
-  * @param importFromId The id of the existing ManagementServiceGtp that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_gtp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementServiceGtp that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_gtp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementServiceGtp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -775,7 +775,7 @@ export class ManagementServiceGtp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_gtp checkpoint_management_service_gtp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_gtp checkpoint_management_service_gtp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -786,7 +786,8 @@ export class ManagementServiceGtp extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_service_gtp',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

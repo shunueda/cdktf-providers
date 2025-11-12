@@ -55,7 +55,8 @@ export class DataOvhLocation extends cdktf.TerraformDataSource {
       terraformResourceType: 'ovh_location',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0'
+        providerVersion: '2.9.0',
+        providerVersionConstraint: '2.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

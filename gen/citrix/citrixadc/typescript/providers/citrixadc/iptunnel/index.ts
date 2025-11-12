@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/iptunnel
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/iptunnel
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,52 +8,68 @@ import * as cdktf from 'cdktf';
 
 export interface IptunnelConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/iptunnel#grepayload Iptunnel#grepayload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/iptunnel#destport Iptunnel#destport}
+  */
+  readonly destport?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/iptunnel#grepayload Iptunnel#grepayload}
   */
   readonly grepayload?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/iptunnel#id Iptunnel#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/iptunnel#id Iptunnel#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/iptunnel#ipsecprofilename Iptunnel#ipsecprofilename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/iptunnel#ipsecprofilename Iptunnel#ipsecprofilename}
   */
   readonly ipsecprofilename?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/iptunnel#local Iptunnel#local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/iptunnel#local Iptunnel#local}
   */
   readonly local?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/iptunnel#name Iptunnel#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/iptunnel#name Iptunnel#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/iptunnel#ownergroup Iptunnel#ownergroup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/iptunnel#ownergroup Iptunnel#ownergroup}
   */
   readonly ownergroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/iptunnel#protocol Iptunnel#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/iptunnel#protocol Iptunnel#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/iptunnel#remote Iptunnel#remote}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/iptunnel#remote Iptunnel#remote}
   */
   readonly remote?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/iptunnel#remotesubnetmask Iptunnel#remotesubnetmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/iptunnel#remotesubnetmask Iptunnel#remotesubnetmask}
   */
   readonly remotesubnetmask?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/iptunnel#vlan Iptunnel#vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/iptunnel#tosinherit Iptunnel#tosinherit}
+  */
+  readonly tosinherit?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/iptunnel#vlan Iptunnel#vlan}
   */
   readonly vlan?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/iptunnel#vlantagging Iptunnel#vlantagging}
+  */
+  readonly vlantagging?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/iptunnel#vnid Iptunnel#vnid}
+  */
+  readonly vnid?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/iptunnel citrixadc_iptunnel}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/iptunnel citrixadc_iptunnel}
 */
 export class Iptunnel extends cdktf.TerraformResource {
 
@@ -69,7 +85,7 @@ export class Iptunnel extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Iptunnel resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Iptunnel to import
-  * @param importFromId The id of the existing Iptunnel that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/iptunnel#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Iptunnel that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/iptunnel#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Iptunnel to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +97,7 @@ export class Iptunnel extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/iptunnel citrixadc_iptunnel} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/iptunnel citrixadc_iptunnel} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,7 +108,8 @@ export class Iptunnel extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_iptunnel',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -102,6 +119,7 @@ export class Iptunnel extends cdktf.TerraformResource {
       connection: config.connection,
       forEach: config.forEach
     });
+    this._destport = config.destport;
     this._grepayload = config.grepayload;
     this._id = config.id;
     this._ipsecprofilename = config.ipsecprofilename;
@@ -111,12 +129,31 @@ export class Iptunnel extends cdktf.TerraformResource {
     this._protocol = config.protocol;
     this._remote = config.remote;
     this._remotesubnetmask = config.remotesubnetmask;
+    this._tosinherit = config.tosinherit;
     this._vlan = config.vlan;
+    this._vlantagging = config.vlantagging;
+    this._vnid = config.vnid;
   }
 
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // destport - computed: true, optional: true, required: false
+  private _destport?: number; 
+  public get destport() {
+    return this.getNumberAttribute('destport');
+  }
+  public set destport(value: number) {
+    this._destport = value;
+  }
+  public resetDestport() {
+    this._destport = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get destportInput() {
+    return this._destport;
+  }
 
   // grepayload - computed: true, optional: true, required: false
   private _grepayload?: string; 
@@ -259,6 +296,22 @@ export class Iptunnel extends cdktf.TerraformResource {
     return this._remotesubnetmask;
   }
 
+  // tosinherit - computed: true, optional: true, required: false
+  private _tosinherit?: string; 
+  public get tosinherit() {
+    return this.getStringAttribute('tosinherit');
+  }
+  public set tosinherit(value: string) {
+    this._tosinherit = value;
+  }
+  public resetTosinherit() {
+    this._tosinherit = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tosinheritInput() {
+    return this._tosinherit;
+  }
+
   // vlan - computed: true, optional: true, required: false
   private _vlan?: number; 
   public get vlan() {
@@ -275,12 +328,45 @@ export class Iptunnel extends cdktf.TerraformResource {
     return this._vlan;
   }
 
+  // vlantagging - computed: true, optional: true, required: false
+  private _vlantagging?: string; 
+  public get vlantagging() {
+    return this.getStringAttribute('vlantagging');
+  }
+  public set vlantagging(value: string) {
+    this._vlantagging = value;
+  }
+  public resetVlantagging() {
+    this._vlantagging = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vlantaggingInput() {
+    return this._vlantagging;
+  }
+
+  // vnid - computed: true, optional: true, required: false
+  private _vnid?: number; 
+  public get vnid() {
+    return this.getNumberAttribute('vnid');
+  }
+  public set vnid(value: number) {
+    this._vnid = value;
+  }
+  public resetVnid() {
+    this._vnid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vnidInput() {
+    return this._vnid;
+  }
+
   // =========
   // SYNTHESIS
   // =========
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      destport: cdktf.numberToTerraform(this._destport),
       grepayload: cdktf.stringToTerraform(this._grepayload),
       id: cdktf.stringToTerraform(this._id),
       ipsecprofilename: cdktf.stringToTerraform(this._ipsecprofilename),
@@ -290,12 +376,21 @@ export class Iptunnel extends cdktf.TerraformResource {
       protocol: cdktf.stringToTerraform(this._protocol),
       remote: cdktf.stringToTerraform(this._remote),
       remotesubnetmask: cdktf.stringToTerraform(this._remotesubnetmask),
+      tosinherit: cdktf.stringToTerraform(this._tosinherit),
       vlan: cdktf.numberToTerraform(this._vlan),
+      vlantagging: cdktf.stringToTerraform(this._vlantagging),
+      vnid: cdktf.numberToTerraform(this._vnid),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
+      destport: {
+        value: cdktf.numberToHclTerraform(this._destport),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
       grepayload: {
         value: cdktf.stringToHclTerraform(this._grepayload),
         isBlock: false,
@@ -350,8 +445,26 @@ export class Iptunnel extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      tosinherit: {
+        value: cdktf.stringToHclTerraform(this._tosinherit),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       vlan: {
         value: cdktf.numberToHclTerraform(this._vlan),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      vlantagging: {
+        value: cdktf.stringToHclTerraform(this._vlantagging),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      vnid: {
+        value: cdktf.numberToHclTerraform(this._vnid),
         isBlock: false,
         type: "simple",
         storageClassType: "number",

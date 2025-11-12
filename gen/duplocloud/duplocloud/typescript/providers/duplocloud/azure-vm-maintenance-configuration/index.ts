@@ -466,7 +466,8 @@ export class AzureVmMaintenanceConfiguration extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_azure_vm_maintenance_configuration',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.28'
+        providerVersion: '0.11.28',
+        providerVersionConstraint: '0.11.28'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

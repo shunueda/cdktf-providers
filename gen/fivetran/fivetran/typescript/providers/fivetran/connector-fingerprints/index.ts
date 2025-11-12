@@ -218,7 +218,8 @@ export class ConnectorFingerprints extends cdktf.TerraformResource {
       terraformResourceType: 'fivetran_connector_fingerprints',
       terraformGeneratorMetadata: {
         providerName: 'fivetran',
-        providerVersion: '1.9.13'
+        providerVersion: '1.9.13',
+        providerVersionConstraint: '1.9.13'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

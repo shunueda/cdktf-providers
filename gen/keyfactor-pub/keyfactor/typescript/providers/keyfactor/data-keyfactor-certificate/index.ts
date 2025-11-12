@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/data-sources/certificate
+// https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/data-sources/certificate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface DataKeyfactorCertificateConfig extends cdktf.TerraformMetaArgum
   /**
   * Optional: The output format to return the enrolled certificate in. Valid options are: `PEM, PFX, JKS, Zip` Defaults to: `PEM`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/data-sources/certificate#certificate_format DataKeyfactorCertificate#certificate_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/data-sources/certificate#certificate_format DataKeyfactorCertificate#certificate_format}
   */
   readonly certificateFormat?: string;
   /**
   * Optional certificate collection identifier used to ensure user access to the certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/data-sources/certificate#collection_id DataKeyfactorCertificate#collection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/data-sources/certificate#collection_id DataKeyfactorCertificate#collection_id}
   */
   readonly collectionId?: number;
   /**
   * Number of days before expiry to warn about the certificate. Defaults to 30 days.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/data-sources/certificate#expiry_warn_days DataKeyfactorCertificate#expiry_warn_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/data-sources/certificate#expiry_warn_days DataKeyfactorCertificate#expiry_warn_days}
   */
   readonly expiryWarnDays?: number;
   /**
   * Only applicable for PFX enrollments. A friendly name for the certificate. If not provided, the common name will be used unless `use_cn_as_friendly_name` is set to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/data-sources/certificate#friendly_name DataKeyfactorCertificate#friendly_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/data-sources/certificate#friendly_name DataKeyfactorCertificate#friendly_name}
   */
   readonly friendlyName?: string;
   /**
   * Keyfactor certificate identifier. This can be any of the following values: thumbprint, CN, or Keyfactor Command Certificate ID. If using CN to lookup the last issued certificate, the CN must be an exact match and if multiple certificates are returned the certificate that was most recently issued will be returned. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/data-sources/certificate#identifier DataKeyfactorCertificate#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/data-sources/certificate#identifier DataKeyfactorCertificate#identifier}
   */
   readonly identifier: string;
   /**
   * Password used to recover the private key from Keyfactor Command. NOTE: If no value is provided a random password will be generated for key recovery. This value is not stored and does not encrypt the private key in Terraform state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/data-sources/certificate#key_password DataKeyfactorCertificate#key_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/data-sources/certificate#key_password DataKeyfactorCertificate#key_password}
   */
   readonly keyPassword?: string;
   /**
   * Metadata key-value pairs to be attached to certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/data-sources/certificate#metadata DataKeyfactorCertificate#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/data-sources/certificate#metadata DataKeyfactorCertificate#metadata}
   */
   readonly metadata?: { [key: string]: string };
   /**
   * Configuration for certificate auto renewal. Includes whether auto-renewal is enabled and the number of days before expiry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/data-sources/certificate#renewal_config DataKeyfactorCertificate#renewal_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/data-sources/certificate#renewal_config DataKeyfactorCertificate#renewal_config}
   */
   readonly renewalConfig?: DataKeyfactorCertificateRenewalConfig;
   /**
   * Only applicable for PFX enrollments. Use the common name as the friendly name for the certificate. Defaults to `true`. NOTE: Keyfactor Command must be configured to `allow custom friendly name` for this to work under `Application Settings > Enrollment > PFX`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/data-sources/certificate#use_cn_as_friendly_name DataKeyfactorCertificate#use_cn_as_friendly_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/data-sources/certificate#use_cn_as_friendly_name DataKeyfactorCertificate#use_cn_as_friendly_name}
   */
   readonly useCnAsFriendlyName?: boolean | cdktf.IResolvable;
 }
@@ -66,19 +66,19 @@ export interface DataKeyfactorCertificateRenewalConfig {
   /**
   * Will force certificate to be renewed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/data-sources/certificate#force_renewal DataKeyfactorCertificate#force_renewal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/data-sources/certificate#force_renewal DataKeyfactorCertificate#force_renewal}
   */
   readonly forceRenewal?: boolean | cdktf.IResolvable;
   /**
   * The number of days before the certificate expires to renew.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/data-sources/certificate#renew_days DataKeyfactorCertificate#renew_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/data-sources/certificate#renew_days DataKeyfactorCertificate#renew_days}
   */
   readonly renewDays: number;
   /**
   * Whether the existing certificate should be revoked on renewal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/data-sources/certificate#revoke_on_renew DataKeyfactorCertificate#revoke_on_renew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/data-sources/certificate#revoke_on_renew DataKeyfactorCertificate#revoke_on_renew}
   */
   readonly revokeOnRenew?: boolean | cdktf.IResolvable;
 }
@@ -232,7 +232,7 @@ export class DataKeyfactorCertificateRenewalConfigOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/data-sources/certificate keyfactor_certificate}
+* Represents a {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/data-sources/certificate keyfactor_certificate}
 */
 export class DataKeyfactorCertificate extends cdktf.TerraformDataSource {
 
@@ -248,7 +248,7 @@ export class DataKeyfactorCertificate extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataKeyfactorCertificate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataKeyfactorCertificate to import
-  * @param importFromId The id of the existing DataKeyfactorCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/data-sources/certificate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataKeyfactorCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/data-sources/certificate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataKeyfactorCertificate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -260,7 +260,7 @@ export class DataKeyfactorCertificate extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/data-sources/certificate keyfactor_certificate} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/data-sources/certificate keyfactor_certificate} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -271,7 +271,8 @@ export class DataKeyfactorCertificate extends cdktf.TerraformDataSource {
       terraformResourceType: 'keyfactor_certificate',
       terraformGeneratorMetadata: {
         providerName: 'keyfactor',
-        providerVersion: '2.6.0'
+        providerVersion: '2.7.0',
+        providerVersionConstraint: '2.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

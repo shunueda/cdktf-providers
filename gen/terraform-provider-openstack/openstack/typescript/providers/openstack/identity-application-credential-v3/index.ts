@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/identity_application_credential_v3
+// https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/identity_application_credential_v3
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,58 +8,58 @@ import * as cdktf from 'cdktf';
 
 export interface IdentityApplicationCredentialV3Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/identity_application_credential_v3#description IdentityApplicationCredentialV3#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/identity_application_credential_v3#description IdentityApplicationCredentialV3#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/identity_application_credential_v3#expires_at IdentityApplicationCredentialV3#expires_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/identity_application_credential_v3#expires_at IdentityApplicationCredentialV3#expires_at}
   */
   readonly expiresAt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/identity_application_credential_v3#id IdentityApplicationCredentialV3#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/identity_application_credential_v3#id IdentityApplicationCredentialV3#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/identity_application_credential_v3#name IdentityApplicationCredentialV3#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/identity_application_credential_v3#name IdentityApplicationCredentialV3#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/identity_application_credential_v3#region IdentityApplicationCredentialV3#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/identity_application_credential_v3#region IdentityApplicationCredentialV3#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/identity_application_credential_v3#roles IdentityApplicationCredentialV3#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/identity_application_credential_v3#roles IdentityApplicationCredentialV3#roles}
   */
   readonly roles?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/identity_application_credential_v3#secret IdentityApplicationCredentialV3#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/identity_application_credential_v3#secret IdentityApplicationCredentialV3#secret}
   */
   readonly secret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/identity_application_credential_v3#unrestricted IdentityApplicationCredentialV3#unrestricted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/identity_application_credential_v3#unrestricted IdentityApplicationCredentialV3#unrestricted}
   */
   readonly unrestricted?: boolean | cdktf.IResolvable;
   /**
   * access_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/identity_application_credential_v3#access_rules IdentityApplicationCredentialV3#access_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/identity_application_credential_v3#access_rules IdentityApplicationCredentialV3#access_rules}
   */
   readonly accessRules?: IdentityApplicationCredentialV3AccessRules[] | cdktf.IResolvable;
 }
 export interface IdentityApplicationCredentialV3AccessRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/identity_application_credential_v3#method IdentityApplicationCredentialV3#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/identity_application_credential_v3#method IdentityApplicationCredentialV3#method}
   */
   readonly method: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/identity_application_credential_v3#path IdentityApplicationCredentialV3#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/identity_application_credential_v3#path IdentityApplicationCredentialV3#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/identity_application_credential_v3#service IdentityApplicationCredentialV3#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/identity_application_credential_v3#service IdentityApplicationCredentialV3#service}
   */
   readonly service: string;
 }
@@ -229,7 +229,7 @@ export class IdentityApplicationCredentialV3AccessRulesList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/identity_application_credential_v3 openstack_identity_application_credential_v3}
+* Represents a {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/identity_application_credential_v3 openstack_identity_application_credential_v3}
 */
 export class IdentityApplicationCredentialV3 extends cdktf.TerraformResource {
 
@@ -245,7 +245,7 @@ export class IdentityApplicationCredentialV3 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IdentityApplicationCredentialV3 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IdentityApplicationCredentialV3 to import
-  * @param importFromId The id of the existing IdentityApplicationCredentialV3 that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/identity_application_credential_v3#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IdentityApplicationCredentialV3 that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/identity_application_credential_v3#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IdentityApplicationCredentialV3 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -257,7 +257,7 @@ export class IdentityApplicationCredentialV3 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/identity_application_credential_v3 openstack_identity_application_credential_v3} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/identity_application_credential_v3 openstack_identity_application_credential_v3} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -268,7 +268,8 @@ export class IdentityApplicationCredentialV3 extends cdktf.TerraformResource {
       terraformResourceType: 'openstack_identity_application_credential_v3',
       terraformGeneratorMetadata: {
         providerName: 'openstack',
-        providerVersion: '3.3.2'
+        providerVersion: '3.4.0',
+        providerVersionConstraint: '3.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

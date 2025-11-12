@@ -212,7 +212,8 @@ export class EntryCache extends cdktf.TerraformResource {
       terraformResourceType: 'pingdirectory_entry_cache',
       terraformGeneratorMetadata: {
         providerName: 'pingdirectory',
-        providerVersion: '1.5.0'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

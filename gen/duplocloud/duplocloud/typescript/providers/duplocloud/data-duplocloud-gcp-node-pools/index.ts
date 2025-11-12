@@ -1031,7 +1031,8 @@ export class DataDuplocloudGcpNodePools extends cdktf.TerraformDataSource {
       terraformResourceType: 'duplocloud_gcp_node_pools',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.28'
+        providerVersion: '0.11.28',
+        providerVersionConstraint: '0.11.28'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

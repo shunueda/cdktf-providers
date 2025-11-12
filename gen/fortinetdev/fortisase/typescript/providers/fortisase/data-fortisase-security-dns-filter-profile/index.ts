@@ -1081,7 +1081,8 @@ export class DataFortisaseSecurityDnsFilterProfile extends cdktf.TerraformDataSo
       terraformResourceType: 'fortisase_security_dns_filter_profile',
       terraformGeneratorMetadata: {
         providerName: 'fortisase',
-        providerVersion: '1.0.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

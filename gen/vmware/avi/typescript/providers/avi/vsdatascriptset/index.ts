@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vsdatascriptset
+// https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vsdatascriptset
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,100 +8,100 @@ import * as cdktf from 'cdktf';
 
 export interface VsdatascriptsetConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vsdatascriptset#created_by Vsdatascriptset#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vsdatascriptset#created_by Vsdatascriptset#created_by}
   */
   readonly createdBy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vsdatascriptset#description Vsdatascriptset#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vsdatascriptset#description Vsdatascriptset#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vsdatascriptset#geo_db_ref Vsdatascriptset#geo_db_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vsdatascriptset#geo_db_ref Vsdatascriptset#geo_db_ref}
   */
   readonly geoDbRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vsdatascriptset#id Vsdatascriptset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vsdatascriptset#id Vsdatascriptset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vsdatascriptset#ip_reputation_db_ref Vsdatascriptset#ip_reputation_db_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vsdatascriptset#ip_reputation_db_ref Vsdatascriptset#ip_reputation_db_ref}
   */
   readonly ipReputationDbRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vsdatascriptset#ipgroup_refs Vsdatascriptset#ipgroup_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vsdatascriptset#ipgroup_refs Vsdatascriptset#ipgroup_refs}
   */
   readonly ipgroupRefs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vsdatascriptset#name Vsdatascriptset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vsdatascriptset#name Vsdatascriptset#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vsdatascriptset#pki_profile_refs Vsdatascriptset#pki_profile_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vsdatascriptset#pki_profile_refs Vsdatascriptset#pki_profile_refs}
   */
   readonly pkiProfileRefs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vsdatascriptset#pool_group_refs Vsdatascriptset#pool_group_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vsdatascriptset#pool_group_refs Vsdatascriptset#pool_group_refs}
   */
   readonly poolGroupRefs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vsdatascriptset#pool_refs Vsdatascriptset#pool_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vsdatascriptset#pool_refs Vsdatascriptset#pool_refs}
   */
   readonly poolRefs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vsdatascriptset#protocol_parser_refs Vsdatascriptset#protocol_parser_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vsdatascriptset#protocol_parser_refs Vsdatascriptset#protocol_parser_refs}
   */
   readonly protocolParserRefs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vsdatascriptset#ssl_key_certificate_refs Vsdatascriptset#ssl_key_certificate_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vsdatascriptset#ssl_key_certificate_refs Vsdatascriptset#ssl_key_certificate_refs}
   */
   readonly sslKeyCertificateRefs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vsdatascriptset#ssl_profile_refs Vsdatascriptset#ssl_profile_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vsdatascriptset#ssl_profile_refs Vsdatascriptset#ssl_profile_refs}
   */
   readonly sslProfileRefs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vsdatascriptset#string_group_refs Vsdatascriptset#string_group_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vsdatascriptset#string_group_refs Vsdatascriptset#string_group_refs}
   */
   readonly stringGroupRefs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vsdatascriptset#tenant_ref Vsdatascriptset#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vsdatascriptset#tenant_ref Vsdatascriptset#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vsdatascriptset#uuid Vsdatascriptset#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vsdatascriptset#uuid Vsdatascriptset#uuid}
   */
   readonly uuid?: string;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vsdatascriptset#configpb_attributes Vsdatascriptset#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vsdatascriptset#configpb_attributes Vsdatascriptset#configpb_attributes}
   */
   readonly configpbAttributes?: VsdatascriptsetConfigpbAttributes[] | cdktf.IResolvable;
   /**
   * datascript block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vsdatascriptset#datascript Vsdatascriptset#datascript}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vsdatascriptset#datascript Vsdatascriptset#datascript}
   */
   readonly datascript?: VsdatascriptsetDatascript[] | cdktf.IResolvable;
   /**
   * markers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vsdatascriptset#markers Vsdatascriptset#markers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vsdatascriptset#markers Vsdatascriptset#markers}
   */
   readonly markers?: VsdatascriptsetMarkers[] | cdktf.IResolvable;
   /**
   * rate_limiters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vsdatascriptset#rate_limiters Vsdatascriptset#rate_limiters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vsdatascriptset#rate_limiters Vsdatascriptset#rate_limiters}
   */
   readonly rateLimiters?: VsdatascriptsetRateLimiters[] | cdktf.IResolvable;
 }
 export interface VsdatascriptsetConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vsdatascriptset#version Vsdatascriptset#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vsdatascriptset#version Vsdatascriptset#version}
   */
   readonly version?: string;
 }
@@ -217,11 +217,11 @@ export class VsdatascriptsetConfigpbAttributesList extends cdktf.ComplexList {
 }
 export interface VsdatascriptsetDatascript {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vsdatascriptset#evt Vsdatascriptset#evt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vsdatascriptset#evt Vsdatascriptset#evt}
   */
   readonly evt: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vsdatascriptset#script Vsdatascriptset#script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vsdatascriptset#script Vsdatascriptset#script}
   */
   readonly script: string;
 }
@@ -360,11 +360,11 @@ export class VsdatascriptsetDatascriptList extends cdktf.ComplexList {
 }
 export interface VsdatascriptsetMarkers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vsdatascriptset#key Vsdatascriptset#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vsdatascriptset#key Vsdatascriptset#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vsdatascriptset#values Vsdatascriptset#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vsdatascriptset#values Vsdatascriptset#values}
   */
   readonly values?: string[];
 }
@@ -506,19 +506,19 @@ export class VsdatascriptsetMarkersList extends cdktf.ComplexList {
 }
 export interface VsdatascriptsetRateLimiters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vsdatascriptset#burst_sz Vsdatascriptset#burst_sz}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vsdatascriptset#burst_sz Vsdatascriptset#burst_sz}
   */
   readonly burstSz?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vsdatascriptset#count Vsdatascriptset#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vsdatascriptset#count Vsdatascriptset#count}
   */
   readonly count?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vsdatascriptset#name Vsdatascriptset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vsdatascriptset#name Vsdatascriptset#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vsdatascriptset#period Vsdatascriptset#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vsdatascriptset#period Vsdatascriptset#period}
   */
   readonly period?: string;
 }
@@ -721,7 +721,7 @@ export class VsdatascriptsetRateLimitersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vsdatascriptset avi_vsdatascriptset}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vsdatascriptset avi_vsdatascriptset}
 */
 export class Vsdatascriptset extends cdktf.TerraformResource {
 
@@ -737,7 +737,7 @@ export class Vsdatascriptset extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Vsdatascriptset resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Vsdatascriptset to import
-  * @param importFromId The id of the existing Vsdatascriptset that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vsdatascriptset#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Vsdatascriptset that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vsdatascriptset#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Vsdatascriptset to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -749,7 +749,7 @@ export class Vsdatascriptset extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/vsdatascriptset avi_vsdatascriptset} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/vsdatascriptset avi_vsdatascriptset} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -760,7 +760,8 @@ export class Vsdatascriptset extends cdktf.TerraformResource {
       terraformResourceType: 'avi_vsdatascriptset',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '31.1.1'
+        providerVersion: '30.2.5',
+        providerVersionConstraint: '30.2.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

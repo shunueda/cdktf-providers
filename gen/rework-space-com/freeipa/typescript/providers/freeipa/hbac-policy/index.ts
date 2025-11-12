@@ -85,7 +85,8 @@ export class HbacPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'freeipa_hbac_policy',
       terraformGeneratorMetadata: {
         providerName: 'freeipa',
-        providerVersion: '5.1.3'
+        providerVersion: '5.1.3',
+        providerVersionConstraint: '5.1.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

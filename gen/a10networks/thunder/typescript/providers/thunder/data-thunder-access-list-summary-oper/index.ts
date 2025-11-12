@@ -1372,7 +1372,8 @@ export class DataThunderAccessListSummaryOper extends cdktf.TerraformDataSource 
       terraformResourceType: 'thunder_access_list_summary_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

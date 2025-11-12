@@ -67,7 +67,8 @@ export class User extends cdktf.TerraformResource {
       terraformResourceType: 'oktapam_user',
       terraformGeneratorMetadata: {
         providerName: 'oktapam',
-        providerVersion: '0.6.2'
+        providerVersion: '0.6.2',
+        providerVersionConstraint: '0.6.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -128,7 +128,8 @@ export class DataGitRemotes extends cdktf.TerraformDataSource {
       terraformResourceType: 'git_remotes',
       terraformGeneratorMetadata: {
         providerName: 'git',
-        providerVersion: '2025.10.31'
+        providerVersion: '2025.10.31',
+        providerVersionConstraint: '2025.10.31'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template
+// https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface NodeTemplateConfig extends cdktf.TerraformMetaArguments {
   /**
   * Marks whether CLM should be enabled for nodes created from this template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#clm_enabled NodeTemplate#clm_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#clm_enabled NodeTemplate#clm_enabled}
   */
   readonly clmEnabled?: boolean | cdktf.IResolvable;
   /**
   * CAST AI cluster id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#cluster_id NodeTemplate#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#cluster_id NodeTemplate#cluster_id}
   */
   readonly clusterId?: string;
   /**
   * CAST AI node configuration id to be used for node template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#configuration_id NodeTemplate#configuration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#configuration_id NodeTemplate#configuration_id}
   */
   readonly configurationId?: string;
   /**
   * Marks whether custom instances should be used when deciding which parts of inventory are available. Custom instances are only supported in GCP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#custom_instances_enabled NodeTemplate#custom_instances_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#custom_instances_enabled NodeTemplate#custom_instances_enabled}
   */
   readonly customInstancesEnabled?: boolean | cdktf.IResolvable;
   /**
   * Marks whether custom instances with extended memory should be used when deciding which parts of inventory are available. Custom instances are only supported in GCP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#custom_instances_with_extended_memory_enabled NodeTemplate#custom_instances_with_extended_memory_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#custom_instances_with_extended_memory_enabled NodeTemplate#custom_instances_with_extended_memory_enabled}
   */
   readonly customInstancesWithExtendedMemoryEnabled?: boolean | cdktf.IResolvable;
   /**
   * Custom labels to be added to nodes created from this template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#custom_labels NodeTemplate#custom_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#custom_labels NodeTemplate#custom_labels}
   */
   readonly customLabels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#id NodeTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#id NodeTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,55 +53,55 @@ export interface NodeTemplateConfig extends cdktf.TerraformMetaArguments {
   /**
   * Flag whether the node template is default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#is_default NodeTemplate#is_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#is_default NodeTemplate#is_default}
   */
   readonly isDefault?: boolean | cdktf.IResolvable;
   /**
   * Flag whether the node template is enabled and considered for autoscaling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#is_enabled NodeTemplate#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#is_enabled NodeTemplate#is_enabled}
   */
   readonly isEnabled?: boolean | cdktf.IResolvable;
   /**
   * Name of the node template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#name NodeTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#name NodeTemplate#name}
   */
   readonly name: string;
   /**
   * Minimum nodes that will be kept when rebalancing nodes using this node template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#rebalancing_config_min_nodes NodeTemplate#rebalancing_config_min_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#rebalancing_config_min_nodes NodeTemplate#rebalancing_config_min_nodes}
   */
   readonly rebalancingConfigMinNodes?: number;
   /**
   * Marks whether the templated nodes will have a taint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#should_taint NodeTemplate#should_taint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#should_taint NodeTemplate#should_taint}
   */
   readonly shouldTaint?: boolean | cdktf.IResolvable;
   /**
   * constraints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#constraints NodeTemplate#constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#constraints NodeTemplate#constraints}
   */
   readonly constraints?: NodeTemplateConstraints;
   /**
   * custom_taints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#custom_taints NodeTemplate#custom_taints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#custom_taints NodeTemplate#custom_taints}
   */
   readonly customTaints?: NodeTemplateCustomTaints[] | cdktf.IResolvable;
   /**
   * gpu block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#gpu NodeTemplate#gpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#gpu NodeTemplate#gpu}
   */
   readonly gpu?: NodeTemplateGpu;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#timeouts NodeTemplate#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#timeouts NodeTemplate#timeouts}
   */
   readonly timeouts?: NodeTemplateTimeouts;
 }
@@ -109,19 +109,19 @@ export interface NodeTemplateConstraintsCustomPriority {
   /**
   * Instance families to prioritize in this tier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#instance_families NodeTemplate#instance_families}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#instance_families NodeTemplate#instance_families}
   */
   readonly instanceFamilies?: string[];
   /**
   * If true, this tier will apply to on-demand instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#on_demand NodeTemplate#on_demand}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#on_demand NodeTemplate#on_demand}
   */
   readonly onDemand?: boolean | cdktf.IResolvable;
   /**
   * If true, this tier will apply to spot instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#spot NodeTemplate#spot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#spot NodeTemplate#spot}
   */
   readonly spot?: boolean | cdktf.IResolvable;
 }
@@ -297,19 +297,19 @@ export interface NodeTemplateConstraintsDedicatedNodeAffinityAffinity {
   /**
   * Key of the node affinity selector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#key NodeTemplate#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#key NodeTemplate#key}
   */
   readonly key: string;
   /**
   * Operator of the node affinity selector. Allowed values: In, NotIn, Exists, DoesNotExist, Gt, Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#operator NodeTemplate#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#operator NodeTemplate#operator}
   */
   readonly operator: string;
   /**
   * Values of the node affinity selector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#values NodeTemplate#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#values NodeTemplate#values}
   */
   readonly values: string[];
 }
@@ -476,25 +476,25 @@ export interface NodeTemplateConstraintsDedicatedNodeAffinity {
   /**
   * Availability zone name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#az_name NodeTemplate#az_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#az_name NodeTemplate#az_name}
   */
   readonly azName: string;
   /**
   * Instance/node types in this node group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#instance_types NodeTemplate#instance_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#instance_types NodeTemplate#instance_types}
   */
   readonly instanceTypes: string[];
   /**
   * Name of node group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#name NodeTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#name NodeTemplate#name}
   */
   readonly name: string;
   /**
   * affinity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#affinity NodeTemplate#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#affinity NodeTemplate#affinity}
   */
   readonly affinity?: NodeTemplateConstraintsDedicatedNodeAffinityAffinity[] | cdktf.IResolvable;
 }
@@ -690,31 +690,37 @@ export interface NodeTemplateConstraintsGpu {
   /**
   * Names of the GPUs to exclude.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#exclude_names NodeTemplate#exclude_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#exclude_names NodeTemplate#exclude_names}
   */
   readonly excludeNames?: string[];
   /**
+  * Will include fractional GPU instances when enabled otherwise they will be excluded. Supported values: `enabled`, `disabled` or ``.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#fractional_gpus NodeTemplate#fractional_gpus}
+  */
+  readonly fractionalGpus?: string;
+  /**
   * Instance families to include when filtering (excludes all other families).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#include_names NodeTemplate#include_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#include_names NodeTemplate#include_names}
   */
   readonly includeNames?: string[];
   /**
   * Manufacturers of the gpus to select - NVIDIA, AMD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#manufacturers NodeTemplate#manufacturers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#manufacturers NodeTemplate#manufacturers}
   */
   readonly manufacturers?: string[];
   /**
   * Max GPU count for the instance type to have.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#max_count NodeTemplate#max_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#max_count NodeTemplate#max_count}
   */
   readonly maxCount?: number;
   /**
   * Min GPU count for the instance type to have.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#min_count NodeTemplate#min_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#min_count NodeTemplate#min_count}
   */
   readonly minCount?: number;
 }
@@ -726,6 +732,7 @@ export function nodeTemplateConstraintsGpuToTerraform(struct?: NodeTemplateConst
   }
   return {
     exclude_names: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.excludeNames),
+    fractional_gpus: cdktf.stringToTerraform(struct!.fractionalGpus),
     include_names: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.includeNames),
     manufacturers: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.manufacturers),
     max_count: cdktf.numberToTerraform(struct!.maxCount),
@@ -745,6 +752,12 @@ export function nodeTemplateConstraintsGpuToHclTerraform(struct?: NodeTemplateCo
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
+    },
+    fractional_gpus: {
+      value: cdktf.stringToHclTerraform(struct!.fractionalGpus),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
     },
     include_names: {
       value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.includeNames),
@@ -794,6 +807,10 @@ export class NodeTemplateConstraintsGpuOutputReference extends cdktf.ComplexObje
       hasAnyValues = true;
       internalValueResult.excludeNames = this._excludeNames;
     }
+    if (this._fractionalGpus !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fractionalGpus = this._fractionalGpus;
+    }
     if (this._includeNames !== undefined) {
       hasAnyValues = true;
       internalValueResult.includeNames = this._includeNames;
@@ -817,6 +834,7 @@ export class NodeTemplateConstraintsGpuOutputReference extends cdktf.ComplexObje
     if (value === undefined) {
       this.isEmptyObject = false;
       this._excludeNames = undefined;
+      this._fractionalGpus = undefined;
       this._includeNames = undefined;
       this._manufacturers = undefined;
       this._maxCount = undefined;
@@ -825,6 +843,7 @@ export class NodeTemplateConstraintsGpuOutputReference extends cdktf.ComplexObje
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._excludeNames = value.excludeNames;
+      this._fractionalGpus = value.fractionalGpus;
       this._includeNames = value.includeNames;
       this._manufacturers = value.manufacturers;
       this._maxCount = value.maxCount;
@@ -846,6 +865,22 @@ export class NodeTemplateConstraintsGpuOutputReference extends cdktf.ComplexObje
   // Temporarily expose input value. Use with caution.
   public get excludeNamesInput() {
     return this._excludeNames;
+  }
+
+  // fractional_gpus - computed: false, optional: true, required: false
+  private _fractionalGpus?: string; 
+  public get fractionalGpus() {
+    return this.getStringAttribute('fractional_gpus');
+  }
+  public set fractionalGpus(value: string) {
+    this._fractionalGpus = value;
+  }
+  public resetFractionalGpus() {
+    this._fractionalGpus = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fractionalGpusInput() {
+    return this._fractionalGpus;
   }
 
   // include_names - computed: false, optional: true, required: false
@@ -916,13 +951,13 @@ export interface NodeTemplateConstraintsInstanceFamilies {
   /**
   * Instance families to exclude when filtering (includes all other families).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#exclude NodeTemplate#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#exclude NodeTemplate#exclude}
   */
   readonly exclude?: string[];
   /**
   * Instance families to include when filtering (excludes all other families).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#include NodeTemplate#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#include NodeTemplate#include}
   */
   readonly include?: string[];
 }
@@ -1037,13 +1072,13 @@ export interface NodeTemplateConstraintsResourceLimits {
   /**
   * Controls CPU limit enforcement for the node template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#cpu_limit_enabled NodeTemplate#cpu_limit_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#cpu_limit_enabled NodeTemplate#cpu_limit_enabled}
   */
   readonly cpuLimitEnabled?: boolean | cdktf.IResolvable;
   /**
   * Specifies the maximum number of CPU cores that the nodes provisioned from this template can collectively have.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#cpu_limit_max_cores NodeTemplate#cpu_limit_max_cores}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#cpu_limit_max_cores NodeTemplate#cpu_limit_max_cores}
   */
   readonly cpuLimitMaxCores?: number;
 }
@@ -1158,193 +1193,193 @@ export interface NodeTemplateConstraints {
   /**
   * Priority ordering of architectures, specifying no priority will pick cheapest. Allowed values: amd64, arm64.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#architecture_priority NodeTemplate#architecture_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#architecture_priority NodeTemplate#architecture_priority}
   */
   readonly architecturePriority?: string[];
   /**
   * List of acceptable instance CPU architectures, the default is amd64. Allowed values: amd64, arm64.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#architectures NodeTemplate#architectures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#architectures NodeTemplate#architectures}
   */
   readonly architectures?: string[];
   /**
   * The list of AZ names to consider for the node template, if empty or not set all AZs are considered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#azs NodeTemplate#azs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#azs NodeTemplate#azs}
   */
   readonly azs?: string[];
   /**
   * Bare metal constraint, will only pick bare metal nodes if set to true. Will only pick non-bare metal nodes if false. Defaults to unspecified. Allowed values: true, false, unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#bare_metal NodeTemplate#bare_metal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#bare_metal NodeTemplate#bare_metal}
   */
   readonly bareMetal?: string;
   /**
   * Will include burstable instances when enabled otherwise they will be excluded. Supported values: `enabled`, `disabled` or ``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#burstable_instances NodeTemplate#burstable_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#burstable_instances NodeTemplate#burstable_instances}
   */
   readonly burstableInstances?: string;
   /**
   * Compute optimized instance constraint (deprecated).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#compute_optimized NodeTemplate#compute_optimized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#compute_optimized NodeTemplate#compute_optimized}
   */
   readonly computeOptimized?: boolean | cdktf.IResolvable;
   /**
   * Will only include compute optimized nodes when enabled and exclude compute optimized nodes when disabled. Empty value won't have effect on instances filter. Supported values: `enabled`, `disabled` or empty string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#compute_optimized_state NodeTemplate#compute_optimized_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#compute_optimized_state NodeTemplate#compute_optimized_state}
   */
   readonly computeOptimizedState?: string;
   /**
   * List of acceptable CPU manufacturers. Allowed values: AMD, AMPERE, APPLE, AWS, INTEL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#cpu_manufacturers NodeTemplate#cpu_manufacturers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#cpu_manufacturers NodeTemplate#cpu_manufacturers}
   */
   readonly cpuManufacturers?: string[];
   /**
   * Will include customer specific (preview) instances when enabled otherwise they will be excluded. Supported values: `enabled`, `disabled` or ``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#customer_specific NodeTemplate#customer_specific}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#customer_specific NodeTemplate#customer_specific}
   */
   readonly customerSpecific?: string;
   /**
   * Enable/disable spot diversity policy. When enabled, autoscaler will try to balance between diverse and cost optimal instance types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#enable_spot_diversity NodeTemplate#enable_spot_diversity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#enable_spot_diversity NodeTemplate#enable_spot_diversity}
   */
   readonly enableSpotDiversity?: boolean | cdktf.IResolvable;
   /**
   * Fallback restore rate in seconds: defines how much time should pass before spot fallback should be attempted to be restored to real spot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#fallback_restore_rate_seconds NodeTemplate#fallback_restore_rate_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#fallback_restore_rate_seconds NodeTemplate#fallback_restore_rate_seconds}
   */
   readonly fallbackRestoreRateSeconds?: number;
   /**
   * GPU instance constraint - will only pick nodes with GPU if true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#is_gpu_only NodeTemplate#is_gpu_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#is_gpu_only NodeTemplate#is_gpu_only}
   */
   readonly isGpuOnly?: boolean | cdktf.IResolvable;
   /**
   * Max CPU cores per node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#max_cpu NodeTemplate#max_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#max_cpu NodeTemplate#max_cpu}
   */
   readonly maxCpu?: number;
   /**
   * Max Memory (Mib) per node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#max_memory NodeTemplate#max_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#max_memory NodeTemplate#max_memory}
   */
   readonly maxMemory?: number;
   /**
   * Min CPU cores per node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#min_cpu NodeTemplate#min_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#min_cpu NodeTemplate#min_cpu}
   */
   readonly minCpu?: number;
   /**
   * Min Memory (Mib) per node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#min_memory NodeTemplate#min_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#min_memory NodeTemplate#min_memory}
   */
   readonly minMemory?: number;
   /**
   * Should include on-demand instances in the considered pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#on_demand NodeTemplate#on_demand}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#on_demand NodeTemplate#on_demand}
   */
   readonly onDemand?: boolean | cdktf.IResolvable;
   /**
   * List of acceptable instance Operating Systems, the default is linux. Allowed values: linux, windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#os NodeTemplate#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#os NodeTemplate#os}
   */
   readonly os?: string[];
   /**
   * Should include spot instances in the considered pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#spot NodeTemplate#spot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#spot NodeTemplate#spot}
   */
   readonly spot?: boolean | cdktf.IResolvable;
   /**
   * Allowed node configuration price increase when diversifying instance types. E.g. if the value is 10%, then the overall price of diversified instance types can be 10% higher than the price of the optimal configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#spot_diversity_price_increase_limit_percent NodeTemplate#spot_diversity_price_increase_limit_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#spot_diversity_price_increase_limit_percent NodeTemplate#spot_diversity_price_increase_limit_percent}
   */
   readonly spotDiversityPriceIncreaseLimitPercent?: number;
   /**
   * Enable/disable spot interruption predictions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#spot_interruption_predictions_enabled NodeTemplate#spot_interruption_predictions_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#spot_interruption_predictions_enabled NodeTemplate#spot_interruption_predictions_enabled}
   */
   readonly spotInterruptionPredictionsEnabled?: boolean | cdktf.IResolvable;
   /**
   * Spot interruption predictions type. Can be either "aws-rebalance-recommendations" or "interruption-predictions".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#spot_interruption_predictions_type NodeTemplate#spot_interruption_predictions_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#spot_interruption_predictions_type NodeTemplate#spot_interruption_predictions_type}
   */
   readonly spotInterruptionPredictionsType?: string;
   /**
   * Enable/disable spot reliability. When enabled, autoscaler will create instances with highest reliability score within price increase threshold.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#spot_reliability_enabled NodeTemplate#spot_reliability_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#spot_reliability_enabled NodeTemplate#spot_reliability_enabled}
   */
   readonly spotReliabilityEnabled?: boolean | cdktf.IResolvable;
   /**
   * Allowed node price increase when using spot reliability on ordering the instance types . E.g. if the value is 10%, then the overall price of instance types can be 10% higher than the price of the optimal configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#spot_reliability_price_increase_limit_percent NodeTemplate#spot_reliability_price_increase_limit_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#spot_reliability_price_increase_limit_percent NodeTemplate#spot_reliability_price_increase_limit_percent}
   */
   readonly spotReliabilityPriceIncreaseLimitPercent?: number;
   /**
   * Storage optimized instance constraint (deprecated).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#storage_optimized NodeTemplate#storage_optimized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#storage_optimized NodeTemplate#storage_optimized}
   */
   readonly storageOptimized?: boolean | cdktf.IResolvable;
   /**
   * Storage optimized instance constraint - will only pick storage optimized nodes if enabled and won't pick if disabled. Empty value will have no effect. Supported values: `enabled`, `disabled` or empty string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#storage_optimized_state NodeTemplate#storage_optimized_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#storage_optimized_state NodeTemplate#storage_optimized_state}
   */
   readonly storageOptimizedState?: string;
   /**
   * Spot instance fallback constraint - when true, on-demand instances will be created, when spots are unavailable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#use_spot_fallbacks NodeTemplate#use_spot_fallbacks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#use_spot_fallbacks NodeTemplate#use_spot_fallbacks}
   */
   readonly useSpotFallbacks?: boolean | cdktf.IResolvable;
   /**
   * custom_priority block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#custom_priority NodeTemplate#custom_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#custom_priority NodeTemplate#custom_priority}
   */
   readonly customPriority?: NodeTemplateConstraintsCustomPriority[] | cdktf.IResolvable;
   /**
   * dedicated_node_affinity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#dedicated_node_affinity NodeTemplate#dedicated_node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#dedicated_node_affinity NodeTemplate#dedicated_node_affinity}
   */
   readonly dedicatedNodeAffinity?: NodeTemplateConstraintsDedicatedNodeAffinity[] | cdktf.IResolvable;
   /**
   * gpu block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#gpu NodeTemplate#gpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#gpu NodeTemplate#gpu}
   */
   readonly gpu?: NodeTemplateConstraintsGpu;
   /**
   * instance_families block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#instance_families NodeTemplate#instance_families}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#instance_families NodeTemplate#instance_families}
   */
   readonly instanceFamilies?: NodeTemplateConstraintsInstanceFamilies;
   /**
   * resource_limits block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#resource_limits NodeTemplate#resource_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#resource_limits NodeTemplate#resource_limits}
   */
   readonly resourceLimits?: NodeTemplateConstraintsResourceLimits;
 }
@@ -2329,19 +2364,19 @@ export interface NodeTemplateCustomTaints {
   /**
   * Effect of a taint to be added to nodes created from this template, the default is NoSchedule. Allowed values: NoSchedule, NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#effect NodeTemplate#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#effect NodeTemplate#effect}
   */
   readonly effect?: string;
   /**
   * Key of a taint to be added to nodes created from this template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#key NodeTemplate#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#key NodeTemplate#key}
   */
   readonly key: string;
   /**
   * Value of a taint to be added to nodes created from this template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#value NodeTemplate#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#value NodeTemplate#value}
   */
   readonly value?: string;
 }
@@ -2514,13 +2549,13 @@ export interface NodeTemplateGpuSharingConfiguration {
   /**
   * GPU name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#gpu_name NodeTemplate#gpu_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#gpu_name NodeTemplate#gpu_name}
   */
   readonly gpuName: string;
   /**
   * Defines number of shared clients for specific GPU device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#shared_clients_per_gpu NodeTemplate#shared_clients_per_gpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#shared_clients_per_gpu NodeTemplate#shared_clients_per_gpu}
   */
   readonly sharedClientsPerGpu: number;
 }
@@ -2661,19 +2696,19 @@ export interface NodeTemplateGpu {
   /**
   * Defines default number of shared clients per GPU.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#default_shared_clients_per_gpu NodeTemplate#default_shared_clients_per_gpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#default_shared_clients_per_gpu NodeTemplate#default_shared_clients_per_gpu}
   */
   readonly defaultSharedClientsPerGpu?: number;
   /**
   * Enable/disable GPU time-sharing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#enable_time_sharing NodeTemplate#enable_time_sharing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#enable_time_sharing NodeTemplate#enable_time_sharing}
   */
   readonly enableTimeSharing?: boolean | cdktf.IResolvable;
   /**
   * sharing_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#sharing_configuration NodeTemplate#sharing_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#sharing_configuration NodeTemplate#sharing_configuration}
   */
   readonly sharingConfiguration?: NodeTemplateGpuSharingConfiguration[] | cdktf.IResolvable;
 }
@@ -2815,19 +2850,19 @@ export class NodeTemplateGpuOutputReference extends cdktf.ComplexObject {
 }
 export interface NodeTemplateTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#create NodeTemplate#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#create NodeTemplate#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#delete NodeTemplate#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#delete NodeTemplate#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#read NodeTemplate#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#read NodeTemplate#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#update NodeTemplate#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#update NodeTemplate#update}
   */
   readonly update?: string;
 }
@@ -3008,7 +3043,7 @@ export class NodeTemplateTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template castai_node_template}
+* Represents a {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template castai_node_template}
 */
 export class NodeTemplate extends cdktf.TerraformResource {
 
@@ -3024,7 +3059,7 @@ export class NodeTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NodeTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NodeTemplate to import
-  * @param importFromId The id of the existing NodeTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NodeTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NodeTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3036,7 +3071,7 @@ export class NodeTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/castai/castai/7.73.1/docs/resources/node_template castai_node_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/castai/castai/8.1.0/docs/resources/node_template castai_node_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3047,7 +3082,8 @@ export class NodeTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'castai_node_template',
       terraformGeneratorMetadata: {
         providerName: 'castai',
-        providerVersion: '7.73.1'
+        providerVersion: '8.1.0',
+        providerVersionConstraint: '8.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

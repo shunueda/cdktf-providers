@@ -2779,7 +2779,8 @@ export class DataK8SSonataflowOrgSonataFlowBuildV1Alpha08Manifest extends cdktf.
       terraformResourceType: 'k8s_sonataflow_org_sonata_flow_build_v1alpha08_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

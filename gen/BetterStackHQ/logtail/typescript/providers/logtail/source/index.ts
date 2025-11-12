@@ -408,7 +408,8 @@ export class Source extends cdktf.TerraformResource {
       terraformResourceType: 'logtail_source',
       terraformGeneratorMetadata: {
         providerName: 'logtail',
-        providerVersion: '0.6.4'
+        providerVersion: '0.6.4',
+        providerVersionConstraint: '0.6.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

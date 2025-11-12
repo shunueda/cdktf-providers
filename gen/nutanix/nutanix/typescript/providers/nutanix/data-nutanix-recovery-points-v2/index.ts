@@ -1048,7 +1048,8 @@ export class DataNutanixRecoveryPointsV2 extends cdktf.TerraformDataSource {
       terraformResourceType: 'nutanix_recovery_points_v2',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3'
+        providerVersion: '2.3.3',
+        providerVersionConstraint: '2.3.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

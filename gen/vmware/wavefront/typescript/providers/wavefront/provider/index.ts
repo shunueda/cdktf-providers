@@ -67,7 +67,8 @@ export class WavefrontProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'wavefront',
       terraformGeneratorMetadata: {
         providerName: 'wavefront',
-        providerVersion: '5.1.0'
+        providerVersion: '5.1.0',
+        providerVersionConstraint: '5.1.0'
       },
       terraformProviderSource: 'vmware/wavefront'
     });

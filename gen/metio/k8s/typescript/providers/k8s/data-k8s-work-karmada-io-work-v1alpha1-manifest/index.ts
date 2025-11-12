@@ -518,7 +518,8 @@ export class DataK8SWorkKarmadaIoWorkV1Alpha1Manifest extends cdktf.TerraformDat
       terraformResourceType: 'k8s_work_karmada_io_work_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

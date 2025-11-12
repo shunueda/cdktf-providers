@@ -72,7 +72,8 @@ export class DirgroupGeo extends cdktf.TerraformResource {
       terraformResourceType: 'ultradns_dirgroup_geo',
       terraformGeneratorMetadata: {
         providerName: 'ultradns',
-        providerVersion: '1.11.1'
+        providerVersion: '1.11.1',
+        providerVersionConstraint: '1.11.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

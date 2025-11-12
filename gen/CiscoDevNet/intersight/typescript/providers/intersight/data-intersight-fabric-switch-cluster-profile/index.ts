@@ -6387,7 +6387,8 @@ export class DataIntersightFabricSwitchClusterProfile extends cdktf.TerraformDat
       terraformResourceType: 'intersight_fabric_switch_cluster_profile',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

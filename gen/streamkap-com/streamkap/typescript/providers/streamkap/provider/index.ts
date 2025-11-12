@@ -73,7 +73,8 @@ export class StreamkapProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'streamkap',
       terraformGeneratorMetadata: {
         providerName: 'streamkap',
-        providerVersion: '2.1.15'
+        providerVersion: '2.1.15',
+        providerVersionConstraint: '2.1.15'
       },
       terraformProviderSource: 'streamkap-com/streamkap'
     });

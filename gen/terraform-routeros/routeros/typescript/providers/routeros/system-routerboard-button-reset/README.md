@@ -1,3 +1,3 @@
 # `routeros_system_routerboard_button_reset`
 
-Refer to the Terraform Registry for docs: [`routeros_system_routerboard_button_reset`](https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/system_routerboard_button_reset).
+Refer to the Terraform Registry for docs: [`routeros_system_routerboard_button_reset`](https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/system_routerboard_button_reset).

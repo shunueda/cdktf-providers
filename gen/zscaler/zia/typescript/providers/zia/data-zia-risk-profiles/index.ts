@@ -230,7 +230,8 @@ export class DataZiaRiskProfiles extends cdktf.TerraformDataSource {
       terraformResourceType: 'zia_risk_profiles',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.5.3'
+        providerVersion: '4.5.3',
+        providerVersionConstraint: '4.5.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

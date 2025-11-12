@@ -180,7 +180,8 @@ export class DataNginxproxymanagerStreams extends cdktf.TerraformDataSource {
       terraformResourceType: 'nginxproxymanager_streams',
       terraformGeneratorMetadata: {
         providerName: 'nginxproxymanager',
-        providerVersion: '1.2.2'
+        providerVersion: '1.2.2',
+        providerVersionConstraint: '1.2.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

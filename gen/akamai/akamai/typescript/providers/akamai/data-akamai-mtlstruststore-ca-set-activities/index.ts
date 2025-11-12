@@ -171,7 +171,8 @@ export class DataAkamaiMtlstruststoreCaSetActivities extends cdktf.TerraformData
       terraformResourceType: 'akamai_mtlstruststore_ca_set_activities',
       terraformGeneratorMetadata: {
         providerName: 'akamai',
-        providerVersion: '9.1.0'
+        providerVersion: '9.1.0',
+        providerVersionConstraint: '9.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

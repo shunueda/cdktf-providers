@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_configlet
+// https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_configlet
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface DatacenterConfigletConfig extends cdktf.TerraformMetaArguments 
   /**
   * Apstra Blueprint ID. Used to identify the Blueprint that the Configlet belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_configlet#blueprint_id DatacenterConfiglet#blueprint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_configlet#blueprint_id DatacenterConfiglet#blueprint_id}
   */
   readonly blueprintId: string;
   /**
   * Id of the catalog configlet to be imported. This is an alternative to specifying the `generators` attribute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_configlet#catalog_configlet_id DatacenterConfiglet#catalog_configlet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_configlet#catalog_configlet_id DatacenterConfiglet#catalog_configlet_id}
   */
   readonly catalogConfigletId?: string;
   /**
   * Condition determines where the Configlet is applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_configlet#condition DatacenterConfiglet#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_configlet#condition DatacenterConfiglet#condition}
   */
   readonly condition: string;
   /**
   * Ordered list of Generators. This is an alternative to specifying the `catalog_configlet_id` attribute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_configlet#generators DatacenterConfiglet#generators}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_configlet#generators DatacenterConfiglet#generators}
   */
   readonly generators?: DatacenterConfigletGenerators[] | cdktf.IResolvable;
   /**
   * Configlet name. When omitted, the name found in the catalog configlet will be used. Required when the `generators` attribute is specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_configlet#name DatacenterConfiglet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_configlet#name DatacenterConfiglet#name}
   */
   readonly name?: string;
 }
@@ -42,19 +42,19 @@ export interface DatacenterConfigletGenerators {
   /**
   * Specifies the switch platform, must be one of 'cumulus', 'eos', 'junos', 'nxos', 'sonic'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_configlet#config_style DatacenterConfiglet#config_style}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_configlet#config_style DatacenterConfiglet#config_style}
   */
   readonly configStyle: string;
   /**
   * FileName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_configlet#filename DatacenterConfiglet#filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_configlet#filename DatacenterConfiglet#filename}
   */
   readonly filename?: string;
   /**
   * Negation Template Text
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_configlet#negation_template_text DatacenterConfiglet#negation_template_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_configlet#negation_template_text DatacenterConfiglet#negation_template_text}
   */
   readonly negationTemplateText?: string;
   /**
@@ -69,19 +69,19 @@ export interface DatacenterConfigletGenerators {
   *   |sonic|file, frr, ospf, system|
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_configlet#section DatacenterConfiglet#section}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_configlet#section DatacenterConfiglet#section}
   */
   readonly section: string;
   /**
   * Used to select interfaces where configlets should be applied, e.g. `role in ["spine_leaf"]`. Only applies to configlets for sections `interface`, `set_based_interface` and `delete_based_interface`. See references to *Advanced Condition Editor* in the [Apstra User Guide](https://www.juniper.net/documentation/us/en/software/apstra5.0/apstra-user-guide/topics/task/configlet-import-blueprint.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_configlet#section_condition DatacenterConfiglet#section_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_configlet#section_condition DatacenterConfiglet#section_condition}
   */
   readonly sectionCondition?: string;
   /**
   * Template Text
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_configlet#template_text DatacenterConfiglet#template_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_configlet#template_text DatacenterConfiglet#template_text}
   */
   readonly templateText: string;
 }
@@ -333,7 +333,7 @@ export class DatacenterConfigletGeneratorsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_configlet apstra_datacenter_configlet}
+* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_configlet apstra_datacenter_configlet}
 */
 export class DatacenterConfiglet extends cdktf.TerraformResource {
 
@@ -349,7 +349,7 @@ export class DatacenterConfiglet extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DatacenterConfiglet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatacenterConfiglet to import
-  * @param importFromId The id of the existing DatacenterConfiglet that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_configlet#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatacenterConfiglet that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_configlet#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatacenterConfiglet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -361,7 +361,7 @@ export class DatacenterConfiglet extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_configlet apstra_datacenter_configlet} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_configlet apstra_datacenter_configlet} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -372,7 +372,8 @@ export class DatacenterConfiglet extends cdktf.TerraformResource {
       terraformResourceType: 'apstra_datacenter_configlet',
       terraformGeneratorMetadata: {
         providerName: 'apstra',
-        providerVersion: '0.95.0'
+        providerVersion: '0.95.1',
+        providerVersionConstraint: '0.95.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

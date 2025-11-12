@@ -8802,7 +8802,8 @@ export class KinesisFirehoseDeliveryStream extends cdktf.TerraformResource {
       terraformResourceType: 'aws_kinesis_firehose_delivery_stream',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '3.29.6'
+        providerVersion: '3.29.6',
+        providerVersionConstraint: '3.29.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -209,7 +209,8 @@ export class DataAwsEc2TransitGatewayVpcAttachment extends cdktf.TerraformDataSo
       terraformResourceType: 'aws_ec2_transit_gateway_vpc_attachment',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '3.29.6'
+        providerVersion: '3.29.6',
+        providerVersionConstraint: '3.29.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/roma_connect_instance
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/roma_connect_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,86 +8,86 @@ import * as cdktf from 'cdktf';
 
 export interface RomaConnectInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/roma_connect_instance#available_zones RomaConnectInstance#available_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/roma_connect_instance#available_zones RomaConnectInstance#available_zones}
   */
   readonly availableZones: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/roma_connect_instance#cpu_architecture RomaConnectInstance#cpu_architecture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/roma_connect_instance#cpu_architecture RomaConnectInstance#cpu_architecture}
   */
   readonly cpuArchitecture: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/roma_connect_instance#description RomaConnectInstance#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/roma_connect_instance#description RomaConnectInstance#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/roma_connect_instance#eip_id RomaConnectInstance#eip_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/roma_connect_instance#eip_id RomaConnectInstance#eip_id}
   */
   readonly eipId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/roma_connect_instance#enable_all RomaConnectInstance#enable_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/roma_connect_instance#enable_all RomaConnectInstance#enable_all}
   */
   readonly enableAll: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/roma_connect_instance#enterprise_project_id RomaConnectInstance#enterprise_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/roma_connect_instance#enterprise_project_id RomaConnectInstance#enterprise_project_id}
   */
   readonly enterpriseProjectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/roma_connect_instance#entrance_bandwidth_size RomaConnectInstance#entrance_bandwidth_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/roma_connect_instance#entrance_bandwidth_size RomaConnectInstance#entrance_bandwidth_size}
   */
   readonly entranceBandwidthSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/roma_connect_instance#id RomaConnectInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/roma_connect_instance#id RomaConnectInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/roma_connect_instance#ipv6_enable RomaConnectInstance#ipv6_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/roma_connect_instance#ipv6_enable RomaConnectInstance#ipv6_enable}
   */
   readonly ipv6Enable: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/roma_connect_instance#maintain_begin RomaConnectInstance#maintain_begin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/roma_connect_instance#maintain_begin RomaConnectInstance#maintain_begin}
   */
   readonly maintainBegin?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/roma_connect_instance#maintain_end RomaConnectInstance#maintain_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/roma_connect_instance#maintain_end RomaConnectInstance#maintain_end}
   */
   readonly maintainEnd?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/roma_connect_instance#name RomaConnectInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/roma_connect_instance#name RomaConnectInstance#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/roma_connect_instance#product_id RomaConnectInstance#product_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/roma_connect_instance#product_id RomaConnectInstance#product_id}
   */
   readonly productId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/roma_connect_instance#region RomaConnectInstance#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/roma_connect_instance#region RomaConnectInstance#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/roma_connect_instance#security_group_id RomaConnectInstance#security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/roma_connect_instance#security_group_id RomaConnectInstance#security_group_id}
   */
   readonly securityGroupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/roma_connect_instance#subnet_id RomaConnectInstance#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/roma_connect_instance#subnet_id RomaConnectInstance#subnet_id}
   */
   readonly subnetId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/roma_connect_instance#vpc_id RomaConnectInstance#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/roma_connect_instance#vpc_id RomaConnectInstance#vpc_id}
   */
   readonly vpcId: string;
   /**
   * mqs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/roma_connect_instance#mqs RomaConnectInstance#mqs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/roma_connect_instance#mqs RomaConnectInstance#mqs}
   */
   readonly mqs: RomaConnectInstanceMqs[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/roma_connect_instance#timeouts RomaConnectInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/roma_connect_instance#timeouts RomaConnectInstance#timeouts}
   */
   readonly timeouts?: RomaConnectInstanceTimeouts;
 }
@@ -299,39 +299,39 @@ export class RomaConnectInstanceResourcesList extends cdktf.ComplexList {
 }
 export interface RomaConnectInstanceMqs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/roma_connect_instance#connector_enable RomaConnectInstance#connector_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/roma_connect_instance#connector_enable RomaConnectInstance#connector_enable}
   */
   readonly connectorEnable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/roma_connect_instance#enable_acl RomaConnectInstance#enable_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/roma_connect_instance#enable_acl RomaConnectInstance#enable_acl}
   */
   readonly enableAcl?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/roma_connect_instance#enable_publicip RomaConnectInstance#enable_publicip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/roma_connect_instance#enable_publicip RomaConnectInstance#enable_publicip}
   */
   readonly enablePublicip?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/roma_connect_instance#engine_version RomaConnectInstance#engine_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/roma_connect_instance#engine_version RomaConnectInstance#engine_version}
   */
   readonly engineVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/roma_connect_instance#retention_policy RomaConnectInstance#retention_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/roma_connect_instance#retention_policy RomaConnectInstance#retention_policy}
   */
   readonly retentionPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/roma_connect_instance#rocketmq_enable RomaConnectInstance#rocketmq_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/roma_connect_instance#rocketmq_enable RomaConnectInstance#rocketmq_enable}
   */
   readonly rocketmqEnable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/roma_connect_instance#ssl_enable RomaConnectInstance#ssl_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/roma_connect_instance#ssl_enable RomaConnectInstance#ssl_enable}
   */
   readonly sslEnable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/roma_connect_instance#trace_enable RomaConnectInstance#trace_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/roma_connect_instance#trace_enable RomaConnectInstance#trace_enable}
   */
   readonly traceEnable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/roma_connect_instance#vpc_client_plain RomaConnectInstance#vpc_client_plain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/roma_connect_instance#vpc_client_plain RomaConnectInstance#vpc_client_plain}
   */
   readonly vpcClientPlain?: boolean | cdktf.IResolvable;
 }
@@ -679,11 +679,11 @@ export class RomaConnectInstanceMqsList extends cdktf.ComplexList {
 }
 export interface RomaConnectInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/roma_connect_instance#create RomaConnectInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/roma_connect_instance#create RomaConnectInstance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/roma_connect_instance#delete RomaConnectInstance#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/roma_connect_instance#delete RomaConnectInstance#delete}
   */
   readonly delete?: string;
 }
@@ -806,7 +806,7 @@ export class RomaConnectInstanceTimeoutsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/roma_connect_instance hcs_roma_connect_instance}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/roma_connect_instance hcs_roma_connect_instance}
 */
 export class RomaConnectInstance extends cdktf.TerraformResource {
 
@@ -822,7 +822,7 @@ export class RomaConnectInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RomaConnectInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RomaConnectInstance to import
-  * @param importFromId The id of the existing RomaConnectInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/roma_connect_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RomaConnectInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/roma_connect_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RomaConnectInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -834,7 +834,7 @@ export class RomaConnectInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/roma_connect_instance hcs_roma_connect_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/roma_connect_instance hcs_roma_connect_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -845,7 +845,8 @@ export class RomaConnectInstance extends cdktf.TerraformResource {
       terraformResourceType: 'hcs_roma_connect_instance',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.19'
+        providerVersion: '2.4.20',
+        providerVersionConstraint: '2.4.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

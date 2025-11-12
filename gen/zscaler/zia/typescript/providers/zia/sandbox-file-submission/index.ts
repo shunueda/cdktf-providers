@@ -68,7 +68,8 @@ export class SandboxFileSubmission extends cdktf.TerraformResource {
       terraformResourceType: 'zia_sandbox_file_submission',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.5.3'
+        providerVersion: '4.5.3',
+        providerVersionConstraint: '4.5.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

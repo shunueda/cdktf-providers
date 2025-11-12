@@ -67,7 +67,8 @@ export class NiosProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'nios',
       terraformGeneratorMetadata: {
         providerName: 'nios',
-        providerVersion: '1.0.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       terraformProviderSource: 'infobloxopen/nios'
     });

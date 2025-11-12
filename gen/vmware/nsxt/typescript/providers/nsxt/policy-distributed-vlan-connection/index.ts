@@ -237,7 +237,8 @@ export class PolicyDistributedVlanConnection extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_policy_distributed_vlan_connection',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0'
+        providerVersion: '3.10.0',
+        providerVersionConstraint: '3.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

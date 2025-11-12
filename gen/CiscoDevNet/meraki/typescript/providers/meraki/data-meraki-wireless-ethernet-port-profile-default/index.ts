@@ -64,7 +64,8 @@ export class DataMerakiWirelessEthernetPortProfileDefault extends cdktf.Terrafor
       terraformResourceType: 'meraki_wireless_ethernet_port_profile_default',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1'
+        providerVersion: '1.7.1',
+        providerVersionConstraint: '1.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -309,7 +309,8 @@ export class ObjectStorageUser extends cdktf.TerraformResource {
       terraformResourceType: 'anxcloud_object_storage_user',
       terraformGeneratorMetadata: {
         providerName: 'anxcloud',
-        providerVersion: '0.7.4'
+        providerVersion: '0.7.4',
+        providerVersionConstraint: '0.7.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

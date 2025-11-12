@@ -90,7 +90,8 @@ export class DataAciL4L7LogicalInterface extends cdktf.TerraformDataSource {
       terraformResourceType: 'aci_l4_l7_logical_interface',
       terraformGeneratorMetadata: {
         providerName: 'aci',
-        providerVersion: '2.18.0'
+        providerVersion: '2.18.0',
+        providerVersionConstraint: '2.18.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

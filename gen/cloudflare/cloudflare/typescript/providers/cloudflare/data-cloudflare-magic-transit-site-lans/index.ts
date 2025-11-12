@@ -584,7 +584,8 @@ export class DataCloudflareMagicTransitSiteLans extends cdktf.TerraformDataSourc
       terraformResourceType: 'cloudflare_magic_transit_site_lans',
       terraformGeneratorMetadata: {
         providerName: 'cloudflare',
-        providerVersion: '5.12.0'
+        providerVersion: '5.12.0',
+        providerVersionConstraint: '5.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

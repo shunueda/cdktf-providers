@@ -1354,7 +1354,8 @@ export class PowerplatformEnvironmentGroupRuleSet extends cdktf.TerraformResourc
       terraformResourceType: 'powerplatform_environment_group_rule_set',
       terraformGeneratorMetadata: {
         providerName: 'power-platform',
-        providerVersion: '3.9.1'
+        providerVersion: '3.9.1',
+        providerVersionConstraint: '3.9.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

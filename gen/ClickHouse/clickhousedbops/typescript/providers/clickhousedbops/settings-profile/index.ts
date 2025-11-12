@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.1/docs/resources/settings_profile
+// https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.2/docs/resources/settings_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,25 +13,25 @@ export interface SettingsProfileConfig extends cdktf.TerraformMetaArguments {
   * When using a self hosted ClickHouse instance, this field should only be set when there is more than one replica and you are not using 'replicated' storage for user_directory.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.1/docs/resources/settings_profile#cluster_name SettingsProfile#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.2/docs/resources/settings_profile#cluster_name SettingsProfile#cluster_name}
   */
   readonly clusterName?: string;
   /**
   * List of setting profile names to inherit from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.1/docs/resources/settings_profile#inherit_from SettingsProfile#inherit_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.2/docs/resources/settings_profile#inherit_from SettingsProfile#inherit_from}
   */
   readonly inheritFrom?: string[];
   /**
   * Name of the settings profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.1/docs/resources/settings_profile#name SettingsProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.2/docs/resources/settings_profile#name SettingsProfile#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.1/docs/resources/settings_profile clickhousedbops_settings_profile}
+* Represents a {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.2/docs/resources/settings_profile clickhousedbops_settings_profile}
 */
 export class SettingsProfile extends cdktf.TerraformResource {
 
@@ -47,7 +47,7 @@ export class SettingsProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SettingsProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SettingsProfile to import
-  * @param importFromId The id of the existing SettingsProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.1/docs/resources/settings_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SettingsProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.2/docs/resources/settings_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SettingsProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -59,7 +59,7 @@ export class SettingsProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.1/docs/resources/settings_profile clickhousedbops_settings_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.2/docs/resources/settings_profile clickhousedbops_settings_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -70,7 +70,8 @@ export class SettingsProfile extends cdktf.TerraformResource {
       terraformResourceType: 'clickhousedbops_settings_profile',
       terraformGeneratorMetadata: {
         providerName: 'clickhousedbops',
-        providerVersion: '1.3.1'
+        providerVersion: '1.3.2',
+        providerVersionConstraint: '1.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

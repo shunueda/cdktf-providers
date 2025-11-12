@@ -461,7 +461,8 @@ export class EsaHttpResponseHeaderModificationRule extends cdktf.TerraformResour
       terraformResourceType: 'alicloud_esa_http_response_header_modification_rule',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

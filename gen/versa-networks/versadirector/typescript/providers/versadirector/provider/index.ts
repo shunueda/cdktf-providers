@@ -97,7 +97,8 @@ export class VersadirectorProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'versadirector',
       terraformGeneratorMetadata: {
         providerName: 'versadirector',
-        providerVersion: '0.0.1'
+        providerVersion: '0.0.1',
+        providerVersionConstraint: '0.0.1'
       },
       terraformProviderSource: 'versa-networks/versadirector'
     });

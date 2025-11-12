@@ -110,7 +110,8 @@ export class ResourcePool extends cdktf.TerraformResource {
       terraformResourceType: 'esxi_resource_pool',
       terraformGeneratorMetadata: {
         providerName: 'esxi',
-        providerVersion: '1.10.3'
+        providerVersion: '1.10.3',
+        providerVersionConstraint: '1.10.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

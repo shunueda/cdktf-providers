@@ -68,7 +68,8 @@ export class OpenidClientServiceAccountRealmRole extends cdktf.TerraformResource
       terraformResourceType: 'keycloak_openid_client_service_account_realm_role',
       terraformGeneratorMetadata: {
         providerName: 'keycloak',
-        providerVersion: '4.4.0'
+        providerVersion: '4.4.0',
+        providerVersionConstraint: '4.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

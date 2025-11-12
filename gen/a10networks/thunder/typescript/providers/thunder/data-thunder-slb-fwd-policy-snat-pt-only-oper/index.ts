@@ -429,7 +429,8 @@ export class DataThunderSlbFwdPolicySnatPtOnlyOper extends cdktf.TerraformDataSo
       terraformResourceType: 'thunder_slb_fwd_policy_snat_pt_only_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

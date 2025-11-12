@@ -145,7 +145,8 @@ export class DataMerakiSwitchDhcpServerPolicyArpInspectionTrustedServers extends
       terraformResourceType: 'meraki_switch_dhcp_server_policy_arp_inspection_trusted_servers',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1'
+        providerVersion: '1.7.1',
+        providerVersionConstraint: '1.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

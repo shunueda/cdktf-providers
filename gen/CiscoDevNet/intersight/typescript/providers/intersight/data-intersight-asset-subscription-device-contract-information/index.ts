@@ -6831,7 +6831,8 @@ export class DataIntersightAssetSubscriptionDeviceContractInformation extends cd
       terraformResourceType: 'intersight_asset_subscription_device_contract_information',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

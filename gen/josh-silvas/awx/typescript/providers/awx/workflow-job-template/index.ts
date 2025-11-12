@@ -126,7 +126,8 @@ export class WorkflowJobTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'awx_workflow_job_template',
       terraformGeneratorMetadata: {
         providerName: 'awx',
-        providerVersion: '1.7.5'
+        providerVersion: '1.7.5',
+        providerVersionConstraint: '1.7.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

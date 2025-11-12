@@ -2923,7 +2923,8 @@ export class Client extends cdktf.TerraformResource {
       terraformResourceType: 'auth0_client',
       terraformGeneratorMetadata: {
         providerName: 'auth0',
-        providerVersion: '1.1.3'
+        providerVersion: '1.1.3',
+        providerVersionConstraint: '1.1.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

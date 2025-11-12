@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/app_override_rule
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/app_override_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,128 +10,128 @@ export interface AppOverrideRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/app_override_rule#application AppOverrideRule#application}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/app_override_rule#application AppOverrideRule#application}
   */
   readonly application: string;
   /**
   * Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/app_override_rule#description AppOverrideRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/app_override_rule#description AppOverrideRule#description}
   */
   readonly description?: string;
   /**
   * Destination
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/app_override_rule#destination AppOverrideRule#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/app_override_rule#destination AppOverrideRule#destination}
   */
   readonly destination: string[];
   /**
   * The device in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/app_override_rule#device AppOverrideRule#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/app_override_rule#device AppOverrideRule#device}
   */
   readonly device?: string;
   /**
   * Disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/app_override_rule#disabled AppOverrideRule#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/app_override_rule#disabled AppOverrideRule#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * The folder in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/app_override_rule#folder AppOverrideRule#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/app_override_rule#folder AppOverrideRule#folder}
   */
   readonly folder?: string;
   /**
   * From
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/app_override_rule#from AppOverrideRule#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/app_override_rule#from AppOverrideRule#from}
   */
   readonly from: string[];
   /**
   * Group tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/app_override_rule#group_tag AppOverrideRule#group_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/app_override_rule#group_tag AppOverrideRule#group_tag}
   */
   readonly groupTag?: string;
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/app_override_rule#name AppOverrideRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/app_override_rule#name AppOverrideRule#name}
   */
   readonly name: string;
   /**
   * Negate destination
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/app_override_rule#negate_destination AppOverrideRule#negate_destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/app_override_rule#negate_destination AppOverrideRule#negate_destination}
   */
   readonly negateDestination?: boolean | cdktf.IResolvable;
   /**
   * Negate source
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/app_override_rule#negate_source AppOverrideRule#negate_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/app_override_rule#negate_source AppOverrideRule#negate_source}
   */
   readonly negateSource?: boolean | cdktf.IResolvable;
   /**
   * Port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/app_override_rule#port AppOverrideRule#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/app_override_rule#port AppOverrideRule#port}
   */
   readonly port: string;
   /**
   * The position of a security rule
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/app_override_rule#position AppOverrideRule#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/app_override_rule#position AppOverrideRule#position}
   */
   readonly position?: string;
   /**
   * Protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/app_override_rule#protocol AppOverrideRule#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/app_override_rule#protocol AppOverrideRule#protocol}
   */
   readonly protocol: string;
   /**
   * Relative positioning rule. String must be one of these: `"before"`, `"after"`, `"top"`, `"bottom"`. If not specified, rule is created at the bottom of the ruleset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/app_override_rule#relative_position AppOverrideRule#relative_position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/app_override_rule#relative_position AppOverrideRule#relative_position}
   */
   readonly relativePosition?: string;
   /**
   * The snippet in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/app_override_rule#snippet AppOverrideRule#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/app_override_rule#snippet AppOverrideRule#snippet}
   */
   readonly snippet?: string;
   /**
   * Source
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/app_override_rule#source AppOverrideRule#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/app_override_rule#source AppOverrideRule#source}
   */
   readonly source: string[];
   /**
   * Tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/app_override_rule#tag AppOverrideRule#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/app_override_rule#tag AppOverrideRule#tag}
   */
   readonly tag?: string[];
   /**
   * The name or UUID of the rule to position this rule relative to. Required when `relative_position` is `"before"` or `"after"`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/app_override_rule#target_rule AppOverrideRule#target_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/app_override_rule#target_rule AppOverrideRule#target_rule}
   */
   readonly targetRule?: string;
   /**
   * To
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/app_override_rule#to AppOverrideRule#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/app_override_rule#to AppOverrideRule#to}
   */
   readonly to: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/app_override_rule scm_app_override_rule}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/app_override_rule scm_app_override_rule}
 */
 export class AppOverrideRule extends cdktf.TerraformResource {
 
@@ -147,7 +147,7 @@ export class AppOverrideRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AppOverrideRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppOverrideRule to import
-  * @param importFromId The id of the existing AppOverrideRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/app_override_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppOverrideRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/app_override_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppOverrideRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -159,7 +159,7 @@ export class AppOverrideRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/app_override_rule scm_app_override_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/app_override_rule scm_app_override_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -170,7 +170,8 @@ export class AppOverrideRule extends cdktf.TerraformResource {
       terraformResourceType: 'scm_app_override_rule',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.3'
+        providerVersion: '1.0.4',
+        providerVersionConstraint: '1.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

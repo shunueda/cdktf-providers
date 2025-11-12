@@ -122,7 +122,8 @@ export class RepositoryFile extends cdktf.TerraformResource {
       terraformResourceType: 'github_repository_file',
       terraformGeneratorMetadata: {
         providerName: 'github',
-        providerVersion: '6.7.5'
+        providerVersion: '6.7.5',
+        providerVersionConstraint: '6.7.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

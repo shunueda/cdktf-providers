@@ -4391,7 +4391,8 @@ export class DataIntersightOpenapiProcessFile extends cdktf.TerraformDataSource 
       terraformResourceType: 'intersight_openapi_process_file',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

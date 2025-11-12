@@ -219,7 +219,8 @@ export class DataPagerdutyStandardsResourceScores extends cdktf.TerraformDataSou
       terraformResourceType: 'pagerduty_standards_resource_scores',
       terraformGeneratorMetadata: {
         providerName: 'pagerduty',
-        providerVersion: '3.30.5'
+        providerVersion: '3.30.5',
+        providerVersionConstraint: '3.30.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

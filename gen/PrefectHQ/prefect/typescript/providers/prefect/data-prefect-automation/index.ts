@@ -1552,7 +1552,8 @@ export class DataPrefectAutomation extends cdktf.TerraformDataSource {
       terraformResourceType: 'prefect_automation',
       terraformGeneratorMetadata: {
         providerName: 'prefect',
-        providerVersion: '2.90.0'
+        providerVersion: '2.90.0',
+        providerVersionConstraint: '2.90.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

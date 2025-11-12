@@ -61,7 +61,8 @@ export class DataStackitProject extends cdktf.TerraformDataSource {
       terraformResourceType: 'stackit_project',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '1.34.3'
+        providerVersion: '1.34.3',
+        providerVersionConstraint: '1.34.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

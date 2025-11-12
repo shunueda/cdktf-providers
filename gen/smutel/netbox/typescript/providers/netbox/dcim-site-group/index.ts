@@ -227,7 +227,8 @@ export class DcimSiteGroup extends cdktf.TerraformResource {
       terraformResourceType: 'netbox_dcim_site_group',
       terraformGeneratorMetadata: {
         providerName: 'netbox',
-        providerVersion: '8.0.2'
+        providerVersion: '8.0.2',
+        providerVersionConstraint: '8.0.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

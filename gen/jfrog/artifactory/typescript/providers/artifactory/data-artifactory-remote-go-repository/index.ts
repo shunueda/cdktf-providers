@@ -516,7 +516,8 @@ export class DataArtifactoryRemoteGoRepository extends cdktf.TerraformDataSource
       terraformResourceType: 'artifactory_remote_go_repository',
       terraformGeneratorMetadata: {
         providerName: 'artifactory',
-        providerVersion: '12.10.1'
+        providerVersion: '12.10.1',
+        providerVersionConstraint: '12.10.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

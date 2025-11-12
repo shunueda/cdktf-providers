@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/wafprofile
+// https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafprofile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,64 +8,64 @@ import * as cdktf from 'cdktf';
 
 export interface WafprofileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/wafprofile#description Wafprofile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafprofile#description Wafprofile#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/wafprofile#id Wafprofile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafprofile#id Wafprofile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/wafprofile#name Wafprofile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafprofile#name Wafprofile#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/wafprofile#tenant_ref Wafprofile#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafprofile#tenant_ref Wafprofile#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/wafprofile#uuid Wafprofile#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafprofile#uuid Wafprofile#uuid}
   */
   readonly uuid?: string;
   /**
   * config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/wafprofile#config Wafprofile#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafprofile#config Wafprofile#config}
   */
   readonly config: WafprofileConfigA[] | cdktf.IResolvable;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/wafprofile#configpb_attributes Wafprofile#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafprofile#configpb_attributes Wafprofile#configpb_attributes}
   */
   readonly configpbAttributes?: WafprofileConfigpbAttributes[] | cdktf.IResolvable;
   /**
   * files block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/wafprofile#files Wafprofile#files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafprofile#files Wafprofile#files}
   */
   readonly files?: WafprofileFiles[] | cdktf.IResolvable;
   /**
   * markers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/wafprofile#markers Wafprofile#markers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafprofile#markers Wafprofile#markers}
   */
   readonly markers?: WafprofileMarkers[] | cdktf.IResolvable;
 }
 export interface WafprofileConfigContentTypeMappings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/wafprofile#content_type Wafprofile#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafprofile#content_type Wafprofile#content_type}
   */
   readonly contentType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/wafprofile#match_op Wafprofile#match_op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafprofile#match_op Wafprofile#match_op}
   */
   readonly matchOp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/wafprofile#request_body_parser Wafprofile#request_body_parser}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafprofile#request_body_parser Wafprofile#request_body_parser}
   */
   readonly requestBodyParser: string;
 }
@@ -233,97 +233,97 @@ export class WafprofileConfigContentTypeMappingsList extends cdktf.ComplexList {
 }
 export interface WafprofileConfigA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/wafprofile#allowed_http_versions Wafprofile#allowed_http_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafprofile#allowed_http_versions Wafprofile#allowed_http_versions}
   */
   readonly allowedHttpVersions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/wafprofile#allowed_methods Wafprofile#allowed_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafprofile#allowed_methods Wafprofile#allowed_methods}
   */
   readonly allowedMethods?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/wafprofile#allowed_request_content_type_charsets Wafprofile#allowed_request_content_type_charsets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafprofile#allowed_request_content_type_charsets Wafprofile#allowed_request_content_type_charsets}
   */
   readonly allowedRequestContentTypeCharsets?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/wafprofile#argument_separator Wafprofile#argument_separator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafprofile#argument_separator Wafprofile#argument_separator}
   */
   readonly argumentSeparator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/wafprofile#client_request_max_body_size Wafprofile#client_request_max_body_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafprofile#client_request_max_body_size Wafprofile#client_request_max_body_size}
   */
   readonly clientRequestMaxBodySize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/wafprofile#cookie_format_version Wafprofile#cookie_format_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafprofile#cookie_format_version Wafprofile#cookie_format_version}
   */
   readonly cookieFormatVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/wafprofile#ignore_incomplete_request_body_error Wafprofile#ignore_incomplete_request_body_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafprofile#ignore_incomplete_request_body_error Wafprofile#ignore_incomplete_request_body_error}
   */
   readonly ignoreIncompleteRequestBodyError?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/wafprofile#max_execution_time Wafprofile#max_execution_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafprofile#max_execution_time Wafprofile#max_execution_time}
   */
   readonly maxExecutionTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/wafprofile#regex_match_limit Wafprofile#regex_match_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafprofile#regex_match_limit Wafprofile#regex_match_limit}
   */
   readonly regexMatchLimit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/wafprofile#regex_recursion_limit Wafprofile#regex_recursion_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafprofile#regex_recursion_limit Wafprofile#regex_recursion_limit}
   */
   readonly regexRecursionLimit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/wafprofile#request_body_default_action Wafprofile#request_body_default_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafprofile#request_body_default_action Wafprofile#request_body_default_action}
   */
   readonly requestBodyDefaultAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/wafprofile#request_hdr_default_action Wafprofile#request_hdr_default_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafprofile#request_hdr_default_action Wafprofile#request_hdr_default_action}
   */
   readonly requestHdrDefaultAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/wafprofile#response_body_default_action Wafprofile#response_body_default_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafprofile#response_body_default_action Wafprofile#response_body_default_action}
   */
   readonly responseBodyDefaultAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/wafprofile#response_hdr_default_action Wafprofile#response_hdr_default_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafprofile#response_hdr_default_action Wafprofile#response_hdr_default_action}
   */
   readonly responseHdrDefaultAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/wafprofile#restricted_extensions Wafprofile#restricted_extensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafprofile#restricted_extensions Wafprofile#restricted_extensions}
   */
   readonly restrictedExtensions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/wafprofile#restricted_headers Wafprofile#restricted_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafprofile#restricted_headers Wafprofile#restricted_headers}
   */
   readonly restrictedHeaders?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/wafprofile#send_status_header Wafprofile#send_status_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafprofile#send_status_header Wafprofile#send_status_header}
   */
   readonly sendStatusHeader?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/wafprofile#server_response_max_body_size Wafprofile#server_response_max_body_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafprofile#server_response_max_body_size Wafprofile#server_response_max_body_size}
   */
   readonly serverResponseMaxBodySize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/wafprofile#static_extensions Wafprofile#static_extensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafprofile#static_extensions Wafprofile#static_extensions}
   */
   readonly staticExtensions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/wafprofile#status_code_for_rejected_requests Wafprofile#status_code_for_rejected_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafprofile#status_code_for_rejected_requests Wafprofile#status_code_for_rejected_requests}
   */
   readonly statusCodeForRejectedRequests?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/wafprofile#status_header_name Wafprofile#status_header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafprofile#status_header_name Wafprofile#status_header_name}
   */
   readonly statusHeaderName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/wafprofile#xml_xxe_protection Wafprofile#xml_xxe_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafprofile#xml_xxe_protection Wafprofile#xml_xxe_protection}
   */
   readonly xmlXxeProtection?: string;
   /**
   * content_type_mappings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/wafprofile#content_type_mappings Wafprofile#content_type_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafprofile#content_type_mappings Wafprofile#content_type_mappings}
   */
   readonly contentTypeMappings?: WafprofileConfigContentTypeMappings[] | cdktf.IResolvable;
 }
@@ -1077,7 +1077,7 @@ export class WafprofileConfigAList extends cdktf.ComplexList {
 }
 export interface WafprofileConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/wafprofile#version Wafprofile#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafprofile#version Wafprofile#version}
   */
   readonly version?: string;
 }
@@ -1193,15 +1193,15 @@ export class WafprofileConfigpbAttributesList extends cdktf.ComplexList {
 }
 export interface WafprofileFiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/wafprofile#data Wafprofile#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafprofile#data Wafprofile#data}
   */
   readonly data: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/wafprofile#name Wafprofile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafprofile#name Wafprofile#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/wafprofile#type Wafprofile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafprofile#type Wafprofile#type}
   */
   readonly type?: string;
 }
@@ -1369,11 +1369,11 @@ export class WafprofileFilesList extends cdktf.ComplexList {
 }
 export interface WafprofileMarkers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/wafprofile#key Wafprofile#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafprofile#key Wafprofile#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/wafprofile#values Wafprofile#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafprofile#values Wafprofile#values}
   */
   readonly values?: string[];
 }
@@ -1515,7 +1515,7 @@ export class WafprofileMarkersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/wafprofile avi_wafprofile}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafprofile avi_wafprofile}
 */
 export class Wafprofile extends cdktf.TerraformResource {
 
@@ -1531,7 +1531,7 @@ export class Wafprofile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Wafprofile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Wafprofile to import
-  * @param importFromId The id of the existing Wafprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/wafprofile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Wafprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafprofile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Wafprofile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1543,7 +1543,7 @@ export class Wafprofile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/wafprofile avi_wafprofile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafprofile avi_wafprofile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1554,7 +1554,8 @@ export class Wafprofile extends cdktf.TerraformResource {
       terraformResourceType: 'avi_wafprofile',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '31.1.1'
+        providerVersion: '30.2.5',
+        providerVersionConstraint: '30.2.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

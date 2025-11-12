@@ -184,7 +184,8 @@ export class DataCrowdstrikeCloudComplianceFrameworkControls extends cdktf.Terra
       terraformResourceType: 'crowdstrike_cloud_compliance_framework_controls',
       terraformGeneratorMetadata: {
         providerName: 'crowdstrike',
-        providerVersion: '0.0.43'
+        providerVersion: '0.0.43',
+        providerVersionConstraint: '0.0.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

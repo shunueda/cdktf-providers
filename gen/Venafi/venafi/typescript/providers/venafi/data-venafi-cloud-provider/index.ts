@@ -62,7 +62,8 @@ export class DataVenafiCloudProvider extends cdktf.TerraformDataSource {
       terraformResourceType: 'venafi_cloud_provider',
       terraformGeneratorMetadata: {
         providerName: 'venafi',
-        providerVersion: '0.23.1'
+        providerVersion: '0.23.1',
+        providerVersionConstraint: '0.23.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

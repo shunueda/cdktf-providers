@@ -1916,7 +1916,8 @@ export class SinkKafka extends cdktf.TerraformResource {
       terraformResourceType: 'materialize_sink_kafka',
       terraformGeneratorMetadata: {
         providerName: 'materialize',
-        providerVersion: '0.9.2'
+        providerVersion: '0.9.2',
+        providerVersionConstraint: '0.9.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

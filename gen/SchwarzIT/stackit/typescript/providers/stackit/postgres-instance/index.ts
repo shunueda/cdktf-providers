@@ -243,7 +243,8 @@ export class PostgresInstance extends cdktf.TerraformResource {
       terraformResourceType: 'stackit_postgres_instance',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '1.34.3'
+        providerVersion: '1.34.3',
+        providerVersionConstraint: '1.34.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

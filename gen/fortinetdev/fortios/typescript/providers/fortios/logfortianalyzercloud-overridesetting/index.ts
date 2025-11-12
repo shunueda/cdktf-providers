@@ -64,7 +64,8 @@ export class LogfortianalyzercloudOverridesetting extends cdktf.TerraformResourc
       terraformResourceType: 'fortios_logfortianalyzercloud_overridesetting',
       terraformGeneratorMetadata: {
         providerName: 'fortios',
-        providerVersion: '1.23.0'
+        providerVersion: '1.23.0',
+        providerVersionConstraint: '1.23.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

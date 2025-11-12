@@ -1,3 +1,3 @@
 # `data_hcs_networking_secgroups`
 
-Refer to the Terraform Registry for docs: [`data_hcs_networking_secgroups`](https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/networking_secgroups).
+Refer to the Terraform Registry for docs: [`data_hcs_networking_secgroups`](https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/networking_secgroups).

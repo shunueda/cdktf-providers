@@ -689,7 +689,8 @@ export class Sddc extends cdktf.TerraformResource {
       terraformResourceType: 'vmc_sddc',
       terraformGeneratorMetadata: {
         providerName: 'vmc',
-        providerVersion: '1.15.5'
+        providerVersion: '1.15.5',
+        providerVersionConstraint: '1.15.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

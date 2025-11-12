@@ -53,7 +53,8 @@ export class EndpointsAccessProxyAuthorize extends cdktf.TerraformResource {
       terraformResourceType: 'fortisase_endpoints_access_proxy_authorize',
       terraformGeneratorMetadata: {
         providerName: 'fortisase',
-        providerVersion: '1.0.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

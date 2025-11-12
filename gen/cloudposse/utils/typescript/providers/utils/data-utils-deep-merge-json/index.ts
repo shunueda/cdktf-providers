@@ -74,7 +74,8 @@ export class DataUtilsDeepMergeJson extends cdktf.TerraformDataSource {
       terraformResourceType: 'utils_deep_merge_json',
       terraformGeneratorMetadata: {
         providerName: 'utils',
-        providerVersion: '1.31.0'
+        providerVersion: '1.31.0',
+        providerVersionConstraint: '1.31.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

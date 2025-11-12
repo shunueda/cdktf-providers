@@ -73,7 +73,8 @@ export class OauthProfileClientAuthorizationParameter extends cdktf.TerraformRes
       terraformResourceType: 'solacebroker_oauth_profile_client_authorization_parameter',
       terraformGeneratorMetadata: {
         providerName: 'solacebroker',
-        providerVersion: '1.2.0'
+        providerVersion: '1.2.0',
+        providerVersionConstraint: '1.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

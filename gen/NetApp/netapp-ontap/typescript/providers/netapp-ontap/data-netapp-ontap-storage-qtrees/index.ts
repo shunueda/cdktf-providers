@@ -575,7 +575,8 @@ export class DataNetappOntapStorageQtrees extends cdktf.TerraformDataSource {
       terraformResourceType: 'netapp-ontap_storage_qtrees',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0'
+        providerVersion: '2.3.0',
+        providerVersionConstraint: '2.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

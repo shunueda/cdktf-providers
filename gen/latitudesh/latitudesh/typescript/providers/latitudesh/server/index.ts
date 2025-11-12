@@ -212,7 +212,8 @@ export class Server extends cdktf.TerraformResource {
       terraformResourceType: 'latitudesh_server',
       terraformGeneratorMetadata: {
         providerName: 'latitudesh',
-        providerVersion: '2.8.2'
+        providerVersion: '2.8.2',
+        providerVersionConstraint: '2.8.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

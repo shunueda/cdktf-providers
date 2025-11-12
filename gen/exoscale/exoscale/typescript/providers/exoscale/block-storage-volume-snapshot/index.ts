@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/block_storage_volume_snapshot
+// https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/block_storage_volume_snapshot
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface BlockStorageVolumeSnapshotConfig extends cdktf.TerraformMetaArg
   /**
   * Resource labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/block_storage_volume_snapshot#labels BlockStorageVolumeSnapshot#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/block_storage_volume_snapshot#labels BlockStorageVolumeSnapshot#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Volume snapshot name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/block_storage_volume_snapshot#name BlockStorageVolumeSnapshot#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/block_storage_volume_snapshot#name BlockStorageVolumeSnapshot#name}
   */
   readonly name: string;
   /**
   * Volume from which to create a snapshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/block_storage_volume_snapshot#volume BlockStorageVolumeSnapshot#volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/block_storage_volume_snapshot#volume BlockStorageVolumeSnapshot#volume}
   */
   readonly volume: BlockStorageVolumeSnapshotVolume;
   /**
   * ❗ The Exoscale [Zone](https://www.exoscale.com/datacenters/) name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/block_storage_volume_snapshot#zone BlockStorageVolumeSnapshot#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/block_storage_volume_snapshot#zone BlockStorageVolumeSnapshot#zone}
   */
   readonly zone: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/block_storage_volume_snapshot#timeouts BlockStorageVolumeSnapshot#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/block_storage_volume_snapshot#timeouts BlockStorageVolumeSnapshot#timeouts}
   */
   readonly timeouts?: BlockStorageVolumeSnapshotTimeouts;
 }
@@ -42,7 +42,7 @@ export interface BlockStorageVolumeSnapshotVolume {
   /**
   * Snapshot ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/block_storage_volume_snapshot#id BlockStorageVolumeSnapshot#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/block_storage_volume_snapshot#id BlockStorageVolumeSnapshot#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -138,7 +138,7 @@ export interface BlockStorageVolumeSnapshotTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/block_storage_volume_snapshot#read BlockStorageVolumeSnapshot#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/block_storage_volume_snapshot#read BlockStorageVolumeSnapshot#read}
   */
   readonly read?: string;
 }
@@ -232,7 +232,7 @@ export class BlockStorageVolumeSnapshotTimeoutsOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/block_storage_volume_snapshot exoscale_block_storage_volume_snapshot}
+* Represents a {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/block_storage_volume_snapshot exoscale_block_storage_volume_snapshot}
 */
 export class BlockStorageVolumeSnapshot extends cdktf.TerraformResource {
 
@@ -248,7 +248,7 @@ export class BlockStorageVolumeSnapshot extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BlockStorageVolumeSnapshot resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BlockStorageVolumeSnapshot to import
-  * @param importFromId The id of the existing BlockStorageVolumeSnapshot that should be imported. Refer to the {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/block_storage_volume_snapshot#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BlockStorageVolumeSnapshot that should be imported. Refer to the {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/block_storage_volume_snapshot#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BlockStorageVolumeSnapshot to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -260,7 +260,7 @@ export class BlockStorageVolumeSnapshot extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/block_storage_volume_snapshot exoscale_block_storage_volume_snapshot} Resource
+  * Create a new {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/block_storage_volume_snapshot exoscale_block_storage_volume_snapshot} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -271,7 +271,8 @@ export class BlockStorageVolumeSnapshot extends cdktf.TerraformResource {
       terraformResourceType: 'exoscale_block_storage_volume_snapshot',
       terraformGeneratorMetadata: {
         providerName: 'exoscale',
-        providerVersion: '0.66.0'
+        providerVersion: '0.67.0',
+        providerVersionConstraint: '0.67.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

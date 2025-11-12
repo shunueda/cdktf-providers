@@ -317,7 +317,8 @@ export class CatalogAccessControl extends cdktf.TerraformResource {
       terraformResourceType: 'vcd_catalog_access_control',
       terraformGeneratorMetadata: {
         providerName: 'vcd',
-        providerVersion: '3.14.1'
+        providerVersion: '3.14.1',
+        providerVersionConstraint: '3.14.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -68,7 +68,8 @@ export class Usergroup extends cdktf.TerraformResource {
       terraformResourceType: 'solidserver_usergroup',
       terraformGeneratorMetadata: {
         providerName: 'solidserver',
-        providerVersion: '1.1.25'
+        providerVersion: '1.1.25',
+        providerVersionConstraint: '1.1.25'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

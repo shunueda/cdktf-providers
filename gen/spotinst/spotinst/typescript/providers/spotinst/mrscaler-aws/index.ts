@@ -5366,7 +5366,8 @@ export class MrscalerAws extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_mrscaler_aws',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.230.0'
+        providerVersion: '1.230.0',
+        providerVersionConstraint: '1.230.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -61,7 +61,8 @@ export class ProtectionGroupBucket extends cdktf.TerraformResource {
       terraformResourceType: 'clumio_protection_group_bucket',
       terraformGeneratorMetadata: {
         providerName: 'clumio',
-        providerVersion: '0.16.1'
+        providerVersion: '0.16.1',
+        providerVersionConstraint: '0.16.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

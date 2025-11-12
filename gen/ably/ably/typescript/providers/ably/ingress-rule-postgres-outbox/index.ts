@@ -393,7 +393,8 @@ export class IngressRulePostgresOutbox extends cdktf.TerraformResource {
       terraformResourceType: 'ably_ingress_rule_postgres_outbox',
       terraformGeneratorMetadata: {
         providerName: 'ably',
-        providerVersion: '0.11.1'
+        providerVersion: '0.11.1',
+        providerVersionConstraint: '0.11.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

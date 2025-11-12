@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vmware_data_center_server
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vmware_data_center_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface ManagementVmwareDataCenterServerConfig extends cdktf.TerraformM
   /**
   * Specify the SHA-1 or SHA-256 fingerprint of the Data Center Server's certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vmware_data_center_server#certificate_fingerprint ManagementVmwareDataCenterServer#certificate_fingerprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vmware_data_center_server#certificate_fingerprint ManagementVmwareDataCenterServer#certificate_fingerprint}
   */
   readonly certificateFingerprint?: string;
   /**
   * Color of the object. Should be one of existing colors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vmware_data_center_server#color ManagementVmwareDataCenterServer#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vmware_data_center_server#color ManagementVmwareDataCenterServer#color}
   */
   readonly color?: string;
   /**
   * Comments string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vmware_data_center_server#comments ManagementVmwareDataCenterServer#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vmware_data_center_server#comments ManagementVmwareDataCenterServer#comments}
   */
   readonly comments?: string;
   /**
   * IP Address or hostname of the vCenter server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vmware_data_center_server#hostname ManagementVmwareDataCenterServer#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vmware_data_center_server#hostname ManagementVmwareDataCenterServer#hostname}
   */
   readonly hostname: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vmware_data_center_server#id ManagementVmwareDataCenterServer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vmware_data_center_server#id ManagementVmwareDataCenterServer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,13 +41,13 @@ export interface ManagementVmwareDataCenterServerConfig extends cdktf.TerraformM
   /**
   * Apply changes ignoring errors. You won't be able to publish such a changes. If ignore-warnings flag was omitted - warnings will also be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vmware_data_center_server#ignore_errors ManagementVmwareDataCenterServer#ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vmware_data_center_server#ignore_errors ManagementVmwareDataCenterServer#ignore_errors}
   */
   readonly ignoreErrors?: boolean | cdktf.IResolvable;
   /**
   * Apply changes ignoring warnings. By Setting this parameter to 'true' test connection failure will be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vmware_data_center_server#ignore_warnings ManagementVmwareDataCenterServer#ignore_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vmware_data_center_server#ignore_warnings ManagementVmwareDataCenterServer#ignore_warnings}
   */
   readonly ignoreWarnings?: boolean | cdktf.IResolvable;
   /**
@@ -56,25 +56,25 @@ export interface ManagementVmwareDataCenterServerConfig extends cdktf.TerraformM
   * 
   * Note: importing Virtual Machines can only be enabled while using Policy Mode APIs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vmware_data_center_server#import_vms ManagementVmwareDataCenterServer#import_vms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vmware_data_center_server#import_vms ManagementVmwareDataCenterServer#import_vms}
   */
   readonly importVms?: boolean | cdktf.IResolvable;
   /**
   * Object name. Must be unique in the domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vmware_data_center_server#name ManagementVmwareDataCenterServer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vmware_data_center_server#name ManagementVmwareDataCenterServer#name}
   */
   readonly name: string;
   /**
   * Password of the vCenter server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vmware_data_center_server#password ManagementVmwareDataCenterServer#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vmware_data_center_server#password ManagementVmwareDataCenterServer#password}
   */
   readonly password?: string;
   /**
   * Password of the vCenter server encoded in Base64.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vmware_data_center_server#password_base64 ManagementVmwareDataCenterServer#password_base64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vmware_data_center_server#password_base64 ManagementVmwareDataCenterServer#password_base64}
   */
   readonly passwordBase64?: string;
   /**
@@ -83,19 +83,19 @@ export interface ManagementVmwareDataCenterServerConfig extends cdktf.TerraformM
   * 
   * When set to true, the Data Center Server will use Policy Mode APIs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vmware_data_center_server#policy_mode ManagementVmwareDataCenterServer#policy_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vmware_data_center_server#policy_mode ManagementVmwareDataCenterServer#policy_mode}
   */
   readonly policyMode?: boolean | cdktf.IResolvable;
   /**
   * Collection of tag identifiers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vmware_data_center_server#tags ManagementVmwareDataCenterServer#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vmware_data_center_server#tags ManagementVmwareDataCenterServer#tags}
   */
   readonly tags?: string[];
   /**
   * VMWare object type. nsx or nsxt or globalnsxt or vcenter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vmware_data_center_server#type ManagementVmwareDataCenterServer#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vmware_data_center_server#type ManagementVmwareDataCenterServer#type}
   */
   readonly type: string;
   /**
@@ -103,19 +103,19 @@ export interface ManagementVmwareDataCenterServerConfig extends cdktf.TerraformM
   * 
   * When set to true, trust the current Data Center Server's certificate as-is.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vmware_data_center_server#unsafe_auto_accept ManagementVmwareDataCenterServer#unsafe_auto_accept}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vmware_data_center_server#unsafe_auto_accept ManagementVmwareDataCenterServer#unsafe_auto_accept}
   */
   readonly unsafeAutoAccept?: boolean | cdktf.IResolvable;
   /**
   * Username of the vCenter server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vmware_data_center_server#username ManagementVmwareDataCenterServer#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vmware_data_center_server#username ManagementVmwareDataCenterServer#username}
   */
   readonly username: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vmware_data_center_server checkpoint_management_vmware_data_center_server}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vmware_data_center_server checkpoint_management_vmware_data_center_server}
 */
 export class ManagementVmwareDataCenterServer extends cdktf.TerraformResource {
 
@@ -131,7 +131,7 @@ export class ManagementVmwareDataCenterServer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementVmwareDataCenterServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementVmwareDataCenterServer to import
-  * @param importFromId The id of the existing ManagementVmwareDataCenterServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vmware_data_center_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementVmwareDataCenterServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vmware_data_center_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementVmwareDataCenterServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -143,7 +143,7 @@ export class ManagementVmwareDataCenterServer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_vmware_data_center_server checkpoint_management_vmware_data_center_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_vmware_data_center_server checkpoint_management_vmware_data_center_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -154,7 +154,8 @@ export class ManagementVmwareDataCenterServer extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_vmware_data_center_server',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

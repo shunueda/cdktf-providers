@@ -86,7 +86,8 @@ export class AutomationWorkflowK8SConnections extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_automation_workflow_k8s_connections',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1'
+        providerVersion: '1.87.1',
+        providerVersionConstraint: '1.87.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

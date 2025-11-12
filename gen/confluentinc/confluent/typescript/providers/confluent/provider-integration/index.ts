@@ -246,7 +246,8 @@ export class ProviderIntegration extends cdktf.TerraformResource {
       terraformResourceType: 'confluent_provider_integration',
       terraformGeneratorMetadata: {
         providerName: 'confluent',
-        providerVersion: '2.51.0'
+        providerVersion: '2.51.0',
+        providerVersionConstraint: '2.51.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

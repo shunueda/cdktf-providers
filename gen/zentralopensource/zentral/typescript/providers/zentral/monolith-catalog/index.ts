@@ -61,7 +61,8 @@ export class MonolithCatalog extends cdktf.TerraformResource {
       terraformResourceType: 'zentral_monolith_catalog',
       terraformGeneratorMetadata: {
         providerName: 'zentral',
-        providerVersion: '0.1.64'
+        providerVersion: '0.1.64',
+        providerVersionConstraint: '0.1.64'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

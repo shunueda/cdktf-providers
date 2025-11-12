@@ -68,7 +68,8 @@ export class DataSendgridUnsubscribeGroup extends cdktf.TerraformDataSource {
       terraformResourceType: 'sendgrid_unsubscribe_group',
       terraformGeneratorMetadata: {
         providerName: 'sendgrid',
-        providerVersion: '1.1.2'
+        providerVersion: '1.1.2',
+        providerVersionConstraint: '1.1.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

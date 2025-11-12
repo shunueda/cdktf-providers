@@ -74,7 +74,8 @@ export class CamGroupMembership extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cam_group_membership',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -552,7 +552,8 @@ export class DataArtifactoryRemoteSbtRepository extends cdktf.TerraformDataSourc
       terraformResourceType: 'artifactory_remote_sbt_repository',
       terraformGeneratorMetadata: {
         providerName: 'artifactory',
-        providerVersion: '12.10.1'
+        providerVersion: '12.10.1',
+        providerVersionConstraint: '12.10.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

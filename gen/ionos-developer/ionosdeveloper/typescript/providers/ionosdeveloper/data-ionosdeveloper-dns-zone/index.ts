@@ -53,7 +53,8 @@ export class DataIonosdeveloperDnsZone extends cdktf.TerraformDataSource {
       terraformResourceType: 'ionosdeveloper_dns_zone',
       terraformGeneratorMetadata: {
         providerName: 'ionosdeveloper',
-        providerVersion: '0.0.1'
+        providerVersion: '0.0.1',
+        providerVersionConstraint: '0.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

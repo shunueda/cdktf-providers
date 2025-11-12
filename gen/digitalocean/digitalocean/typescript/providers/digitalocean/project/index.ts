@@ -192,7 +192,8 @@ export class Project extends cdktf.TerraformResource {
       terraformResourceType: 'digitalocean_project',
       terraformGeneratorMetadata: {
         providerName: 'digitalocean',
-        providerVersion: '2.68.0'
+        providerVersion: '2.68.0',
+        providerVersionConstraint: '2.68.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

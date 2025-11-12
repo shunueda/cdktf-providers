@@ -80,7 +80,8 @@ export class NgwafAccountList extends cdktf.TerraformResource {
       terraformResourceType: 'fastly_ngwaf_account_list',
       terraformGeneratorMetadata: {
         providerName: 'fastly',
-        providerVersion: '8.4.0'
+        providerVersion: '8.4.0',
+        providerVersionConstraint: '8.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

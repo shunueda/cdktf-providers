@@ -197,7 +197,8 @@ export class NetworkingRoutingtableAttachGatewayV2 extends cdktf.TerraformResour
       terraformResourceType: 'nhncloud_networking_routingtable_attach_gateway_v2',
       terraformGeneratorMetadata: {
         providerName: 'nhncloud',
-        providerVersion: '1.0.6'
+        providerVersion: '1.0.6',
+        providerVersionConstraint: '1.0.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

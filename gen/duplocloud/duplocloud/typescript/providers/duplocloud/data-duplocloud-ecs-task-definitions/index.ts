@@ -167,7 +167,8 @@ export class DataDuplocloudEcsTaskDefinitions extends cdktf.TerraformDataSource 
       terraformResourceType: 'duplocloud_ecs_task_definitions',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.28'
+        providerVersion: '0.11.28',
+        providerVersionConstraint: '0.11.28'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

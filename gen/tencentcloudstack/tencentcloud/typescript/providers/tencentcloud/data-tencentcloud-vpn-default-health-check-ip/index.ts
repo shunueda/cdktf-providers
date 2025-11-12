@@ -68,7 +68,8 @@ export class DataTencentcloudVpnDefaultHealthCheckIp extends cdktf.TerraformData
       terraformResourceType: 'tencentcloud_vpn_default_health_check_ip',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

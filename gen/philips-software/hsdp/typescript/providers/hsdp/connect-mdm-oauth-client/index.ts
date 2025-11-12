@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/connect_mdm_oauth_client
+// https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_oauth_client
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,80 +8,80 @@ import * as cdktf from 'cdktf';
 
 export interface ConnectMdmOauthClientConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/connect_mdm_oauth_client#application_id ConnectMdmOauthClient#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_oauth_client#application_id ConnectMdmOauthClient#application_id}
   */
   readonly applicationId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/connect_mdm_oauth_client#bootstrap_client_default_scopes ConnectMdmOauthClient#bootstrap_client_default_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_oauth_client#bootstrap_client_default_scopes ConnectMdmOauthClient#bootstrap_client_default_scopes}
   */
   readonly bootstrapClientDefaultScopes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/connect_mdm_oauth_client#bootstrap_client_iam_default_scopes ConnectMdmOauthClient#bootstrap_client_iam_default_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_oauth_client#bootstrap_client_iam_default_scopes ConnectMdmOauthClient#bootstrap_client_iam_default_scopes}
   */
   readonly bootstrapClientIamDefaultScopes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/connect_mdm_oauth_client#bootstrap_client_iam_scopes ConnectMdmOauthClient#bootstrap_client_iam_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_oauth_client#bootstrap_client_iam_scopes ConnectMdmOauthClient#bootstrap_client_iam_scopes}
   */
   readonly bootstrapClientIamScopes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/connect_mdm_oauth_client#bootstrap_client_scopes ConnectMdmOauthClient#bootstrap_client_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_oauth_client#bootstrap_client_scopes ConnectMdmOauthClient#bootstrap_client_scopes}
   */
   readonly bootstrapClientScopes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/connect_mdm_oauth_client#client_revoked ConnectMdmOauthClient#client_revoked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_oauth_client#client_revoked ConnectMdmOauthClient#client_revoked}
   */
   readonly clientRevoked?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/connect_mdm_oauth_client#default_scopes ConnectMdmOauthClient#default_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_oauth_client#default_scopes ConnectMdmOauthClient#default_scopes}
   */
   readonly defaultScopes: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/connect_mdm_oauth_client#description ConnectMdmOauthClient#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_oauth_client#description ConnectMdmOauthClient#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/connect_mdm_oauth_client#global_reference_id ConnectMdmOauthClient#global_reference_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_oauth_client#global_reference_id ConnectMdmOauthClient#global_reference_id}
   */
   readonly globalReferenceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/connect_mdm_oauth_client#iam_default_scopes ConnectMdmOauthClient#iam_default_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_oauth_client#iam_default_scopes ConnectMdmOauthClient#iam_default_scopes}
   */
   readonly iamDefaultScopes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/connect_mdm_oauth_client#iam_scopes ConnectMdmOauthClient#iam_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_oauth_client#iam_scopes ConnectMdmOauthClient#iam_scopes}
   */
   readonly iamScopes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/connect_mdm_oauth_client#id ConnectMdmOauthClient#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_oauth_client#id ConnectMdmOauthClient#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/connect_mdm_oauth_client#name ConnectMdmOauthClient#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_oauth_client#name ConnectMdmOauthClient#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/connect_mdm_oauth_client#redirection_uris ConnectMdmOauthClient#redirection_uris}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_oauth_client#redirection_uris ConnectMdmOauthClient#redirection_uris}
   */
   readonly redirectionUris: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/connect_mdm_oauth_client#response_types ConnectMdmOauthClient#response_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_oauth_client#response_types ConnectMdmOauthClient#response_types}
   */
   readonly responseTypes: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/connect_mdm_oauth_client#scopes ConnectMdmOauthClient#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_oauth_client#scopes ConnectMdmOauthClient#scopes}
   */
   readonly scopes: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/connect_mdm_oauth_client#user_client ConnectMdmOauthClient#user_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_oauth_client#user_client ConnectMdmOauthClient#user_client}
   */
   readonly userClient?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/connect_mdm_oauth_client hsdp_connect_mdm_oauth_client}
+* Represents a {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_oauth_client hsdp_connect_mdm_oauth_client}
 */
 export class ConnectMdmOauthClient extends cdktf.TerraformResource {
 
@@ -97,7 +97,7 @@ export class ConnectMdmOauthClient extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ConnectMdmOauthClient resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConnectMdmOauthClient to import
-  * @param importFromId The id of the existing ConnectMdmOauthClient that should be imported. Refer to the {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/connect_mdm_oauth_client#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConnectMdmOauthClient that should be imported. Refer to the {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_oauth_client#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConnectMdmOauthClient to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -109,7 +109,7 @@ export class ConnectMdmOauthClient extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/connect_mdm_oauth_client hsdp_connect_mdm_oauth_client} Resource
+  * Create a new {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_oauth_client hsdp_connect_mdm_oauth_client} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -120,7 +120,8 @@ export class ConnectMdmOauthClient extends cdktf.TerraformResource {
       terraformResourceType: 'hsdp_connect_mdm_oauth_client',
       terraformGeneratorMetadata: {
         providerName: 'hsdp',
-        providerVersion: '0.70.0'
+        providerVersion: '0.71.0',
+        providerVersionConstraint: '0.71.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

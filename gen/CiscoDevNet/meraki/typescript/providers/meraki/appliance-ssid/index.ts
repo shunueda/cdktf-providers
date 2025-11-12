@@ -324,7 +324,8 @@ export class ApplianceSsid extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_appliance_ssid',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1'
+        providerVersion: '1.7.1',
+        providerVersionConstraint: '1.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

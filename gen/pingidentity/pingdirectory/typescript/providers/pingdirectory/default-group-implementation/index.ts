@@ -152,7 +152,8 @@ export class DefaultGroupImplementation extends cdktf.TerraformResource {
       terraformResourceType: 'pingdirectory_default_group_implementation',
       terraformGeneratorMetadata: {
         providerName: 'pingdirectory',
-        providerVersion: '1.5.0'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

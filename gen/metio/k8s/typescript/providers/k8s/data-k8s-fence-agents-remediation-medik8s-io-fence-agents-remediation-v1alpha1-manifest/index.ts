@@ -559,7 +559,8 @@ export class DataK8SFenceAgentsRemediationMedik8SIoFenceAgentsRemediationV1Alpha
       terraformResourceType: 'k8s_fence_agents_remediation_medik8s_io_fence_agents_remediation_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

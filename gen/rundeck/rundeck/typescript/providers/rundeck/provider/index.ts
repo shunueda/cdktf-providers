@@ -85,7 +85,8 @@ export class RundeckProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'rundeck',
       terraformGeneratorMetadata: {
         providerName: 'rundeck',
-        providerVersion: '0.5.2'
+        providerVersion: '0.5.2',
+        providerVersionConstraint: '0.5.2'
       },
       terraformProviderSource: 'rundeck/rundeck'
     });

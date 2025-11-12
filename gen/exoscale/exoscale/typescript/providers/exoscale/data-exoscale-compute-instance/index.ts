@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/data-sources/compute_instance
+// https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/compute_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataExoscaleComputeInstanceConfig extends cdktf.TerraformMetaAr
   /**
   * The compute instance ID to match (conflicts with `name`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/data-sources/compute_instance#id DataExoscaleComputeInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/compute_instance#id DataExoscaleComputeInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,19 +19,19 @@ export interface DataExoscaleComputeInstanceConfig extends cdktf.TerraformMetaAr
   /**
   * The instance name to match (conflicts with `id`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/data-sources/compute_instance#name DataExoscaleComputeInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/compute_instance#name DataExoscaleComputeInstance#name}
   */
   readonly name?: string;
   /**
   * The Exoscale [Zone](https://www.exoscale.com/datacenters/) name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/data-sources/compute_instance#zone DataExoscaleComputeInstance#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/compute_instance#zone DataExoscaleComputeInstance#zone}
   */
   readonly zone: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/data-sources/compute_instance exoscale_compute_instance}
+* Represents a {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/compute_instance exoscale_compute_instance}
 */
 export class DataExoscaleComputeInstance extends cdktf.TerraformDataSource {
 
@@ -47,7 +47,7 @@ export class DataExoscaleComputeInstance extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataExoscaleComputeInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataExoscaleComputeInstance to import
-  * @param importFromId The id of the existing DataExoscaleComputeInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/data-sources/compute_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataExoscaleComputeInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/compute_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataExoscaleComputeInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -59,7 +59,7 @@ export class DataExoscaleComputeInstance extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/data-sources/compute_instance exoscale_compute_instance} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/compute_instance exoscale_compute_instance} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -70,7 +70,8 @@ export class DataExoscaleComputeInstance extends cdktf.TerraformDataSource {
       terraformResourceType: 'exoscale_compute_instance',
       terraformGeneratorMetadata: {
         providerName: 'exoscale',
-        providerVersion: '0.66.0'
+        providerVersion: '0.67.0',
+        providerVersionConstraint: '0.67.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

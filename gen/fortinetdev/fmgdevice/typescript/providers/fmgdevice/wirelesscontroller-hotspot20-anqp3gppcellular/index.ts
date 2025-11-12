@@ -263,7 +263,8 @@ export class WirelesscontrollerHotspot20Anqp3Gppcellular extends cdktf.Terraform
       terraformResourceType: 'fmgdevice_wirelesscontroller_hotspot20_anqp3gppcellular',
       terraformGeneratorMetadata: {
         providerName: 'fmgdevice',
-        providerVersion: '1.2.1'
+        providerVersion: '1.2.1',
+        providerVersionConstraint: '1.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

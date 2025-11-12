@@ -68,7 +68,8 @@ export class ConsumerKeyAuth extends cdktf.TerraformResource {
       terraformResourceType: 'kong_consumer_key_auth',
       terraformGeneratorMetadata: {
         providerName: 'kong',
-        providerVersion: '6.5.1'
+        providerVersion: '6.5.1',
+        providerVersionConstraint: '6.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

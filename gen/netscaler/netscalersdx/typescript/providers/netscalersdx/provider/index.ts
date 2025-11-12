@@ -109,7 +109,8 @@ export class NetscalersdxProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'netscalersdx',
       terraformGeneratorMetadata: {
         providerName: 'netscalersdx',
-        providerVersion: '0.7.2'
+        providerVersion: '0.7.2',
+        providerVersionConstraint: '0.7.2'
       },
       terraformProviderSource: 'netscaler/netscalersdx'
     });

@@ -4021,7 +4021,8 @@ export class DataIntersightIwotenantMigrate extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_iwotenant_migrate',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1080,7 +1080,8 @@ export class DataThunderScaleoutDebugResourceTrackingOper extends cdktf.Terrafor
       terraformResourceType: 'thunder_scaleout_debug_resource_tracking_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

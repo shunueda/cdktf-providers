@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/decryption_profile
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/decryption_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataScmDecryptionProfileConfig extends cdktf.TerraformMetaArgum
   /**
   * UUID of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/decryption_profile#id DataScmDecryptionProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/decryption_profile#id DataScmDecryptionProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,7 +19,7 @@ export interface DataScmDecryptionProfileConfig extends cdktf.TerraformMetaArgum
   /**
   * Must start with alphanumeric char and should contain only alphanemeric, underscore, hyphen, dot or space
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/decryption_profile#name DataScmDecryptionProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/decryption_profile#name DataScmDecryptionProfile#name}
   */
   readonly name?: string;
 }
@@ -386,7 +386,7 @@ export class DataScmDecryptionProfileSslProtocolSettingsOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/decryption_profile scm_decryption_profile}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/decryption_profile scm_decryption_profile}
 */
 export class DataScmDecryptionProfile extends cdktf.TerraformDataSource {
 
@@ -402,7 +402,7 @@ export class DataScmDecryptionProfile extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataScmDecryptionProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataScmDecryptionProfile to import
-  * @param importFromId The id of the existing DataScmDecryptionProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/decryption_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataScmDecryptionProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/decryption_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataScmDecryptionProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -414,7 +414,7 @@ export class DataScmDecryptionProfile extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/decryption_profile scm_decryption_profile} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/decryption_profile scm_decryption_profile} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -425,7 +425,8 @@ export class DataScmDecryptionProfile extends cdktf.TerraformDataSource {
       terraformResourceType: 'scm_decryption_profile',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.3'
+        providerVersion: '1.0.4',
+        providerVersionConstraint: '1.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

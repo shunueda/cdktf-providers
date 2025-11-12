@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/vni_pool
+// https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/vni_pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataApstraVniPoolConfig extends cdktf.TerraformMetaArguments {
   /**
   * Apstra ID of the VNI Pool. Required when `name` is omitted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/vni_pool#id DataApstraVniPool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/vni_pool#id DataApstraVniPool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,7 +19,7 @@ export interface DataApstraVniPoolConfig extends cdktf.TerraformMetaArguments {
   /**
   * Web UI name of the VNI Pool. Required when `id` is omitted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/vni_pool#name DataApstraVniPool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/vni_pool#name DataApstraVniPool#name}
   */
   readonly name?: string;
 }
@@ -125,7 +125,7 @@ export class DataApstraVniPoolRangesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/vni_pool apstra_vni_pool}
+* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/vni_pool apstra_vni_pool}
 */
 export class DataApstraVniPool extends cdktf.TerraformDataSource {
 
@@ -141,7 +141,7 @@ export class DataApstraVniPool extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataApstraVniPool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataApstraVniPool to import
-  * @param importFromId The id of the existing DataApstraVniPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/vni_pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataApstraVniPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/vni_pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataApstraVniPool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -153,7 +153,7 @@ export class DataApstraVniPool extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/vni_pool apstra_vni_pool} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/vni_pool apstra_vni_pool} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -164,7 +164,8 @@ export class DataApstraVniPool extends cdktf.TerraformDataSource {
       terraformResourceType: 'apstra_vni_pool',
       terraformGeneratorMetadata: {
         providerName: 'apstra',
-        providerVersion: '0.95.0'
+        providerVersion: '0.95.1',
+        providerVersionConstraint: '0.95.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

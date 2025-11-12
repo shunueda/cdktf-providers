@@ -87,7 +87,8 @@ export class HarborProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'harbor',
       terraformGeneratorMetadata: {
         providerName: 'harbor',
-        providerVersion: '3.11.2'
+        providerVersion: '3.11.2',
+        providerVersionConstraint: '3.11.2'
       },
       terraformProviderSource: 'goharbor/harbor'
     });

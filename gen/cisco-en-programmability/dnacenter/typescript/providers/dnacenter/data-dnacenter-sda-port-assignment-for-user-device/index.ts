@@ -183,7 +183,8 @@ export class DataDnacenterSdaPortAssignmentForUserDevice extends cdktf.Terraform
       terraformResourceType: 'dnacenter_sda_port_assignment_for_user_device',
       terraformGeneratorMetadata: {
         providerName: 'dnacenter',
-        providerVersion: '1.1.21'
+        providerVersion: '1.1.21',
+        providerVersionConstraint: '1.1.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -64,7 +64,8 @@ export class DataAssertTest extends cdktf.TerraformDataSource {
       terraformResourceType: 'assert_test',
       terraformGeneratorMetadata: {
         providerName: 'assert',
-        providerVersion: '0.0.1'
+        providerVersion: '0.0.1',
+        providerVersionConstraint: '0.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

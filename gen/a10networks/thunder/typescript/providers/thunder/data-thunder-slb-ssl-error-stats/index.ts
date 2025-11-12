@@ -8688,7 +8688,8 @@ export class DataThunderSlbSslErrorStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_slb_ssl_error_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

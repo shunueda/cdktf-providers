@@ -67,7 +67,8 @@ export class StackoverflowProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'stackoverflow',
       terraformGeneratorMetadata: {
         providerName: 'stackoverflow',
-        providerVersion: '1.0.5'
+        providerVersion: '1.0.5',
+        providerVersionConstraint: '1.0.5'
       },
       terraformProviderSource: 'StackExchange/stackoverflow'
     });

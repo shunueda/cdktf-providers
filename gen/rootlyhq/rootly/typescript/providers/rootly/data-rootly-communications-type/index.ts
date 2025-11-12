@@ -63,7 +63,8 @@ export class DataRootlyCommunicationsType extends cdktf.TerraformDataSource {
       terraformResourceType: 'rootly_communications_type',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.7'
+        providerVersion: '4.3.7',
+        providerVersionConstraint: '4.3.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

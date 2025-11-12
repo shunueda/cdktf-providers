@@ -615,7 +615,8 @@ export class AlbTargetGroup extends cdktf.TerraformResource {
       terraformResourceType: 'aws_alb_target_group',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '3.29.6'
+        providerVersion: '3.29.6',
+        providerVersionConstraint: '3.29.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

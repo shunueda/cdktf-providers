@@ -1226,7 +1226,8 @@ export class DataThunderScmLicenseSrcInfoOper extends cdktf.TerraformDataSource 
       terraformResourceType: 'thunder_scm_license_src_info_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

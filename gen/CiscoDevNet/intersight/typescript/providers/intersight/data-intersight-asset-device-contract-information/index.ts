@@ -9734,7 +9734,8 @@ export class DataIntersightAssetDeviceContractInformation extends cdktf.Terrafor
       terraformResourceType: 'intersight_asset_device_contract_information',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

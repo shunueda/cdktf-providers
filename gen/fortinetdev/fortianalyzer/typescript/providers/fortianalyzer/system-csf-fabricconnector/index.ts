@@ -68,7 +68,8 @@ export class SystemCsfFabricconnector extends cdktf.TerraformResource {
       terraformResourceType: 'fortianalyzer_system_csf_fabricconnector',
       terraformGeneratorMetadata: {
         providerName: 'fortianalyzer',
-        providerVersion: '1.5.1'
+        providerVersion: '1.5.1',
+        providerVersionConstraint: '1.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

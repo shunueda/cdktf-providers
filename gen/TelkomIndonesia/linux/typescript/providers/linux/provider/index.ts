@@ -163,7 +163,8 @@ export class LinuxProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'linux',
       terraformGeneratorMetadata: {
         providerName: 'linux',
-        providerVersion: '0.7.1'
+        providerVersion: '0.7.1',
+        providerVersionConstraint: '0.7.1'
       },
       terraformProviderSource: 'TelkomIndonesia/linux'
     });

@@ -4132,7 +4132,8 @@ export class DataIntersightCapabilityUpdateOrderMeta extends cdktf.TerraformData
       terraformResourceType: 'intersight_capability_update_order_meta',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

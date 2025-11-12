@@ -55,7 +55,8 @@ export class ConfigProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'config',
       terraformGeneratorMetadata: {
         providerName: 'config',
-        providerVersion: '0.2.8'
+        providerVersion: '0.2.8',
+        providerVersionConstraint: '0.2.8'
       },
       terraformProviderSource: 'alabuel/config'
     });

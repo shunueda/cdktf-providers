@@ -925,7 +925,8 @@ export class DataK8SGetambassadorIoLogServiceV2Manifest extends cdktf.TerraformD
       terraformResourceType: 'k8s_getambassador_io_log_service_v2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

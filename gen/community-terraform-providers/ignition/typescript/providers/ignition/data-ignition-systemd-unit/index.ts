@@ -224,7 +224,8 @@ export class DataIgnitionSystemdUnit extends cdktf.TerraformDataSource {
       terraformResourceType: 'ignition_systemd_unit',
       terraformGeneratorMetadata: {
         providerName: 'ignition',
-        providerVersion: '2.5.1'
+        providerVersion: '2.5.1',
+        providerVersionConstraint: '2.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

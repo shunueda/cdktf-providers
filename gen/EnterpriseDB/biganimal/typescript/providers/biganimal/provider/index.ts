@@ -73,7 +73,8 @@ export class BiganimalProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'biganimal',
       terraformGeneratorMetadata: {
         providerName: 'biganimal',
-        providerVersion: '3.1.1'
+        providerVersion: '3.1.1',
+        providerVersionConstraint: '3.1.1'
       },
       terraformProviderSource: 'EnterpriseDB/biganimal'
     });

@@ -1060,7 +1060,8 @@ export class DataNutanixAccessControlPolicy extends cdktf.TerraformDataSource {
       terraformResourceType: 'nutanix_access_control_policy',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3'
+        providerVersion: '2.3.3',
+        providerVersionConstraint: '2.3.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

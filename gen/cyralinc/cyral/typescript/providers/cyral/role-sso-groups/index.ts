@@ -225,7 +225,8 @@ export class RoleSsoGroups extends cdktf.TerraformResource {
       terraformResourceType: 'cyral_role_sso_groups',
       terraformGeneratorMetadata: {
         providerName: 'cyral',
-        providerVersion: '4.16.3'
+        providerVersion: '4.16.3',
+        providerVersionConstraint: '4.16.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -227,7 +227,8 @@ export class OrganizationAuthRadiusServer extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_organization_auth_radius_server',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1'
+        providerVersion: '1.7.1',
+        providerVersionConstraint: '1.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

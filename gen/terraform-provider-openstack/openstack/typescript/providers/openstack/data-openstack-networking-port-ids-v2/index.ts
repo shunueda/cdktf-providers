@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/networking_port_ids_v2
+// https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/networking_port_ids_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,84 +8,84 @@ import * as cdktf from 'cdktf';
 
 export interface DataOpenstackNetworkingPortIdsV2Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/networking_port_ids_v2#admin_state_up DataOpenstackNetworkingPortIdsV2#admin_state_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/networking_port_ids_v2#admin_state_up DataOpenstackNetworkingPortIdsV2#admin_state_up}
   */
   readonly adminStateUp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/networking_port_ids_v2#description DataOpenstackNetworkingPortIdsV2#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/networking_port_ids_v2#description DataOpenstackNetworkingPortIdsV2#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/networking_port_ids_v2#device_id DataOpenstackNetworkingPortIdsV2#device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/networking_port_ids_v2#device_id DataOpenstackNetworkingPortIdsV2#device_id}
   */
   readonly deviceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/networking_port_ids_v2#device_owner DataOpenstackNetworkingPortIdsV2#device_owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/networking_port_ids_v2#device_owner DataOpenstackNetworkingPortIdsV2#device_owner}
   */
   readonly deviceOwner?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/networking_port_ids_v2#dns_name DataOpenstackNetworkingPortIdsV2#dns_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/networking_port_ids_v2#dns_name DataOpenstackNetworkingPortIdsV2#dns_name}
   */
   readonly dnsName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/networking_port_ids_v2#fixed_ip DataOpenstackNetworkingPortIdsV2#fixed_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/networking_port_ids_v2#fixed_ip DataOpenstackNetworkingPortIdsV2#fixed_ip}
   */
   readonly fixedIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/networking_port_ids_v2#id DataOpenstackNetworkingPortIdsV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/networking_port_ids_v2#id DataOpenstackNetworkingPortIdsV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/networking_port_ids_v2#mac_address DataOpenstackNetworkingPortIdsV2#mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/networking_port_ids_v2#mac_address DataOpenstackNetworkingPortIdsV2#mac_address}
   */
   readonly macAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/networking_port_ids_v2#name DataOpenstackNetworkingPortIdsV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/networking_port_ids_v2#name DataOpenstackNetworkingPortIdsV2#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/networking_port_ids_v2#network_id DataOpenstackNetworkingPortIdsV2#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/networking_port_ids_v2#network_id DataOpenstackNetworkingPortIdsV2#network_id}
   */
   readonly networkId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/networking_port_ids_v2#project_id DataOpenstackNetworkingPortIdsV2#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/networking_port_ids_v2#project_id DataOpenstackNetworkingPortIdsV2#project_id}
   */
   readonly projectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/networking_port_ids_v2#region DataOpenstackNetworkingPortIdsV2#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/networking_port_ids_v2#region DataOpenstackNetworkingPortIdsV2#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/networking_port_ids_v2#security_group_ids DataOpenstackNetworkingPortIdsV2#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/networking_port_ids_v2#security_group_ids DataOpenstackNetworkingPortIdsV2#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/networking_port_ids_v2#sort_direction DataOpenstackNetworkingPortIdsV2#sort_direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/networking_port_ids_v2#sort_direction DataOpenstackNetworkingPortIdsV2#sort_direction}
   */
   readonly sortDirection?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/networking_port_ids_v2#sort_key DataOpenstackNetworkingPortIdsV2#sort_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/networking_port_ids_v2#sort_key DataOpenstackNetworkingPortIdsV2#sort_key}
   */
   readonly sortKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/networking_port_ids_v2#status DataOpenstackNetworkingPortIdsV2#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/networking_port_ids_v2#status DataOpenstackNetworkingPortIdsV2#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/networking_port_ids_v2#tags DataOpenstackNetworkingPortIdsV2#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/networking_port_ids_v2#tags DataOpenstackNetworkingPortIdsV2#tags}
   */
   readonly tags?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/networking_port_ids_v2#tenant_id DataOpenstackNetworkingPortIdsV2#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/networking_port_ids_v2#tenant_id DataOpenstackNetworkingPortIdsV2#tenant_id}
   */
   readonly tenantId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/networking_port_ids_v2 openstack_networking_port_ids_v2}
+* Represents a {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/networking_port_ids_v2 openstack_networking_port_ids_v2}
 */
 export class DataOpenstackNetworkingPortIdsV2 extends cdktf.TerraformDataSource {
 
@@ -101,7 +101,7 @@ export class DataOpenstackNetworkingPortIdsV2 extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataOpenstackNetworkingPortIdsV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOpenstackNetworkingPortIdsV2 to import
-  * @param importFromId The id of the existing DataOpenstackNetworkingPortIdsV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/networking_port_ids_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOpenstackNetworkingPortIdsV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/networking_port_ids_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOpenstackNetworkingPortIdsV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -113,7 +113,7 @@ export class DataOpenstackNetworkingPortIdsV2 extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/networking_port_ids_v2 openstack_networking_port_ids_v2} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/networking_port_ids_v2 openstack_networking_port_ids_v2} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -124,7 +124,8 @@ export class DataOpenstackNetworkingPortIdsV2 extends cdktf.TerraformDataSource 
       terraformResourceType: 'openstack_networking_port_ids_v2',
       terraformGeneratorMetadata: {
         providerName: 'openstack',
-        providerVersion: '3.3.2'
+        providerVersion: '3.4.0',
+        providerVersionConstraint: '3.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

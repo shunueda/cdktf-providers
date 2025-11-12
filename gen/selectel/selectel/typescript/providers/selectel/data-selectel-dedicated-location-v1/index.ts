@@ -240,7 +240,8 @@ export class DataSelectelDedicatedLocationV1 extends cdktf.TerraformDataSource {
       terraformResourceType: 'selectel_dedicated_location_v1',
       terraformGeneratorMetadata: {
         providerName: 'selectel',
-        providerVersion: '7.1.0'
+        providerVersion: '7.1.0',
+        providerVersionConstraint: '7.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -60,7 +60,8 @@ export class DataDynatraceFailureDetectionParameters extends cdktf.TerraformData
       terraformResourceType: 'dynatrace_failure_detection_parameters',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1'
+        providerVersion: '1.87.1',
+        providerVersionConstraint: '1.87.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

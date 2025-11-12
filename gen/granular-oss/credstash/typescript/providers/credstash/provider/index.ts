@@ -74,7 +74,8 @@ export class CredstashProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'credstash',
       terraformGeneratorMetadata: {
         providerName: 'credstash',
-        providerVersion: '0.7.2'
+        providerVersion: '0.7.2',
+        providerVersionConstraint: '0.7.2'
       },
       terraformProviderSource: 'granular-oss/credstash'
     });

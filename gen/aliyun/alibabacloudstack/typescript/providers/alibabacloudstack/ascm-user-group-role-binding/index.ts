@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/ascm_user_group_role_binding
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ascm_user_group_role_binding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,24 +8,24 @@ import * as cdktf from 'cdktf';
 
 export interface AscmUserGroupRoleBindingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/ascm_user_group_role_binding#id AscmUserGroupRoleBinding#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ascm_user_group_role_binding#id AscmUserGroupRoleBinding#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/ascm_user_group_role_binding#role_ids AscmUserGroupRoleBinding#role_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ascm_user_group_role_binding#role_ids AscmUserGroupRoleBinding#role_ids}
   */
   readonly roleIds?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/ascm_user_group_role_binding#user_group_id AscmUserGroupRoleBinding#user_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ascm_user_group_role_binding#user_group_id AscmUserGroupRoleBinding#user_group_id}
   */
   readonly userGroupId: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/ascm_user_group_role_binding alibabacloudstack_ascm_user_group_role_binding}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ascm_user_group_role_binding alibabacloudstack_ascm_user_group_role_binding}
 */
 export class AscmUserGroupRoleBinding extends cdktf.TerraformResource {
 
@@ -41,7 +41,7 @@ export class AscmUserGroupRoleBinding extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AscmUserGroupRoleBinding resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AscmUserGroupRoleBinding to import
-  * @param importFromId The id of the existing AscmUserGroupRoleBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/ascm_user_group_role_binding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AscmUserGroupRoleBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ascm_user_group_role_binding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AscmUserGroupRoleBinding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -53,7 +53,7 @@ export class AscmUserGroupRoleBinding extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/ascm_user_group_role_binding alibabacloudstack_ascm_user_group_role_binding} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ascm_user_group_role_binding alibabacloudstack_ascm_user_group_role_binding} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -64,7 +64,8 @@ export class AscmUserGroupRoleBinding extends cdktf.TerraformResource {
       terraformResourceType: 'alibabacloudstack_ascm_user_group_role_binding',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.19'
+        providerVersion: '3.16.21',
+        providerVersionConstraint: '3.16.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

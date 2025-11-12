@@ -223,7 +223,8 @@ export class DataAlicloudEbsDedicatedBlockStorageClusters extends cdktf.Terrafor
       terraformResourceType: 'alicloud_ebs_dedicated_block_storage_clusters',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

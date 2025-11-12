@@ -141,7 +141,8 @@ export class ZiaProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'zia',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.5.3'
+        providerVersion: '4.5.3',
+        providerVersionConstraint: '4.5.3'
       },
       terraformProviderSource: 'zscaler/zia'
     });

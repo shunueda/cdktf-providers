@@ -162,7 +162,8 @@ export class DataScylladbcloudServerlessBundle extends cdktf.TerraformDataSource
       terraformResourceType: 'scylladbcloud_serverless_bundle',
       terraformGeneratorMetadata: {
         providerName: 'scylladbcloud',
-        providerVersion: '1.8.1'
+        providerVersion: '1.8.1',
+        providerVersionConstraint: '1.8.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

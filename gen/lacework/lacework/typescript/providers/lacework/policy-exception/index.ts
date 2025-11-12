@@ -581,7 +581,8 @@ export class PolicyException extends cdktf.TerraformResource {
       terraformResourceType: 'lacework_policy_exception',
       terraformGeneratorMetadata: {
         providerName: 'lacework',
-        providerVersion: '2.0.10'
+        providerVersion: '2.0.10',
+        providerVersionConstraint: '2.0.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

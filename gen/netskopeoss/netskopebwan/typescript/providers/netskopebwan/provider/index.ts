@@ -63,7 +63,8 @@ export class NetskopebwanProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'netskopebwan',
       terraformGeneratorMetadata: {
         providerName: 'netskopebwan',
-        providerVersion: '0.0.2'
+        providerVersion: '0.0.2',
+        providerVersionConstraint: '0.0.2'
       },
       terraformProviderSource: 'netskopeoss/netskopebwan'
     });

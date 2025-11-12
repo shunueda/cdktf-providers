@@ -294,7 +294,8 @@ export class ArrayAws extends cdktf.TerraformResource {
       terraformResourceType: 'cbs_array_aws',
       terraformGeneratorMetadata: {
         providerName: 'cbs',
-        providerVersion: '0.11.2'
+        providerVersion: '0.11.2',
+        providerVersionConstraint: '0.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

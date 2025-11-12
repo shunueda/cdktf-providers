@@ -74,7 +74,8 @@ export class DataVcdVmPlacementPolicy extends cdktf.TerraformDataSource {
       terraformResourceType: 'vcd_vm_placement_policy',
       terraformGeneratorMetadata: {
         providerName: 'vcd',
-        providerVersion: '3.14.1'
+        providerVersion: '3.14.1',
+        providerVersionConstraint: '3.14.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

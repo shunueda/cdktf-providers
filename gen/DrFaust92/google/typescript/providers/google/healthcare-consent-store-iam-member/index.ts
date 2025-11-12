@@ -222,7 +222,8 @@ export class HealthcareConsentStoreIamMember extends cdktf.TerraformResource {
       terraformResourceType: 'google_healthcare_consent_store_iam_member',
       terraformGeneratorMetadata: {
         providerName: 'google',
-        providerVersion: '4.16.4'
+        providerVersion: '4.16.4',
+        providerVersionConstraint: '4.16.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

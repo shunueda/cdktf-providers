@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/hardwaresecuritymodulegroup
+// https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/hardwaresecuritymodulegroup
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktf from 'cdktf';
 
 export interface HardwaresecuritymodulegroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/hardwaresecuritymodulegroup#id Hardwaresecuritymodulegroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/hardwaresecuritymodulegroup#id Hardwaresecuritymodulegroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/hardwaresecuritymodulegroup#name Hardwaresecuritymodulegroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/hardwaresecuritymodulegroup#name Hardwaresecuritymodulegroup#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/hardwaresecuritymodulegroup#tenant_ref Hardwaresecuritymodulegroup#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/hardwaresecuritymodulegroup#tenant_ref Hardwaresecuritymodulegroup#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/hardwaresecuritymodulegroup#uuid Hardwaresecuritymodulegroup#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/hardwaresecuritymodulegroup#uuid Hardwaresecuritymodulegroup#uuid}
   */
   readonly uuid?: string;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/hardwaresecuritymodulegroup#configpb_attributes Hardwaresecuritymodulegroup#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/hardwaresecuritymodulegroup#configpb_attributes Hardwaresecuritymodulegroup#configpb_attributes}
   */
   readonly configpbAttributes?: HardwaresecuritymodulegroupConfigpbAttributes[] | cdktf.IResolvable;
   /**
   * hsm block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/hardwaresecuritymodulegroup#hsm Hardwaresecuritymodulegroup#hsm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/hardwaresecuritymodulegroup#hsm Hardwaresecuritymodulegroup#hsm}
   */
   readonly hsm: HardwaresecuritymodulegroupHsm[] | cdktf.IResolvable;
   /**
   * markers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/hardwaresecuritymodulegroup#markers Hardwaresecuritymodulegroup#markers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/hardwaresecuritymodulegroup#markers Hardwaresecuritymodulegroup#markers}
   */
   readonly markers?: HardwaresecuritymodulegroupMarkers[] | cdktf.IResolvable;
 }
 export interface HardwaresecuritymodulegroupConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/hardwaresecuritymodulegroup#version Hardwaresecuritymodulegroup#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/hardwaresecuritymodulegroup#version Hardwaresecuritymodulegroup#version}
   */
   readonly version?: string;
 }
@@ -163,27 +163,27 @@ export class HardwaresecuritymodulegroupConfigpbAttributesList extends cdktf.Com
 }
 export interface HardwaresecuritymodulegroupHsmCloudhsm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/hardwaresecuritymodulegroup#client_config Hardwaresecuritymodulegroup#client_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/hardwaresecuritymodulegroup#client_config Hardwaresecuritymodulegroup#client_config}
   */
   readonly clientConfig?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/hardwaresecuritymodulegroup#cluster_cert Hardwaresecuritymodulegroup#cluster_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/hardwaresecuritymodulegroup#cluster_cert Hardwaresecuritymodulegroup#cluster_cert}
   */
   readonly clusterCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/hardwaresecuritymodulegroup#crypto_user_name Hardwaresecuritymodulegroup#crypto_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/hardwaresecuritymodulegroup#crypto_user_name Hardwaresecuritymodulegroup#crypto_user_name}
   */
   readonly cryptoUserName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/hardwaresecuritymodulegroup#crypto_user_password Hardwaresecuritymodulegroup#crypto_user_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/hardwaresecuritymodulegroup#crypto_user_password Hardwaresecuritymodulegroup#crypto_user_password}
   */
   readonly cryptoUserPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/hardwaresecuritymodulegroup#hsm_ip Hardwaresecuritymodulegroup#hsm_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/hardwaresecuritymodulegroup#hsm_ip Hardwaresecuritymodulegroup#hsm_ip}
   */
   readonly hsmIp?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/hardwaresecuritymodulegroup#mgmt_config Hardwaresecuritymodulegroup#mgmt_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/hardwaresecuritymodulegroup#mgmt_config Hardwaresecuritymodulegroup#mgmt_config}
   */
   readonly mgmtConfig?: string;
 }
@@ -444,11 +444,11 @@ export class HardwaresecuritymodulegroupHsmCloudhsmList extends cdktf.ComplexLis
 }
 export interface HardwaresecuritymodulegroupHsmNethsmRemoteIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/hardwaresecuritymodulegroup#addr Hardwaresecuritymodulegroup#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/hardwaresecuritymodulegroup#addr Hardwaresecuritymodulegroup#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/hardwaresecuritymodulegroup#type Hardwaresecuritymodulegroup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/hardwaresecuritymodulegroup#type Hardwaresecuritymodulegroup#type}
   */
   readonly type: string;
 }
@@ -587,29 +587,29 @@ export class HardwaresecuritymodulegroupHsmNethsmRemoteIpList extends cdktf.Comp
 }
 export interface HardwaresecuritymodulegroupHsmNethsm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/hardwaresecuritymodulegroup#esn Hardwaresecuritymodulegroup#esn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/hardwaresecuritymodulegroup#esn Hardwaresecuritymodulegroup#esn}
   */
   readonly esn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/hardwaresecuritymodulegroup#keyhash Hardwaresecuritymodulegroup#keyhash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/hardwaresecuritymodulegroup#keyhash Hardwaresecuritymodulegroup#keyhash}
   */
   readonly keyhash: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/hardwaresecuritymodulegroup#module_id Hardwaresecuritymodulegroup#module_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/hardwaresecuritymodulegroup#module_id Hardwaresecuritymodulegroup#module_id}
   */
   readonly moduleId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/hardwaresecuritymodulegroup#priority Hardwaresecuritymodulegroup#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/hardwaresecuritymodulegroup#priority Hardwaresecuritymodulegroup#priority}
   */
   readonly priority: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/hardwaresecuritymodulegroup#remote_port Hardwaresecuritymodulegroup#remote_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/hardwaresecuritymodulegroup#remote_port Hardwaresecuritymodulegroup#remote_port}
   */
   readonly remotePort?: string;
   /**
   * remote_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/hardwaresecuritymodulegroup#remote_ip Hardwaresecuritymodulegroup#remote_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/hardwaresecuritymodulegroup#remote_ip Hardwaresecuritymodulegroup#remote_ip}
   */
   readonly remoteIp: HardwaresecuritymodulegroupHsmNethsmRemoteIp[] | cdktf.IResolvable;
 }
@@ -858,11 +858,11 @@ export class HardwaresecuritymodulegroupHsmNethsmList extends cdktf.ComplexList 
 }
 export interface HardwaresecuritymodulegroupHsmRfsIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/hardwaresecuritymodulegroup#addr Hardwaresecuritymodulegroup#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/hardwaresecuritymodulegroup#addr Hardwaresecuritymodulegroup#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/hardwaresecuritymodulegroup#type Hardwaresecuritymodulegroup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/hardwaresecuritymodulegroup#type Hardwaresecuritymodulegroup#type}
   */
   readonly type: string;
 }
@@ -1001,13 +1001,13 @@ export class HardwaresecuritymodulegroupHsmRfsIpList extends cdktf.ComplexList {
 }
 export interface HardwaresecuritymodulegroupHsmRfs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/hardwaresecuritymodulegroup#port Hardwaresecuritymodulegroup#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/hardwaresecuritymodulegroup#port Hardwaresecuritymodulegroup#port}
   */
   readonly port?: string;
   /**
   * ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/hardwaresecuritymodulegroup#ip Hardwaresecuritymodulegroup#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/hardwaresecuritymodulegroup#ip Hardwaresecuritymodulegroup#ip}
   */
   readonly ip: HardwaresecuritymodulegroupHsmRfsIp[] | cdktf.IResolvable;
 }
@@ -1149,27 +1149,27 @@ export class HardwaresecuritymodulegroupHsmRfsList extends cdktf.ComplexList {
 }
 export interface HardwaresecuritymodulegroupHsmSlunaNodeInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/hardwaresecuritymodulegroup#chrystoki_conf Hardwaresecuritymodulegroup#chrystoki_conf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/hardwaresecuritymodulegroup#chrystoki_conf Hardwaresecuritymodulegroup#chrystoki_conf}
   */
   readonly chrystokiConf?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/hardwaresecuritymodulegroup#client_cert Hardwaresecuritymodulegroup#client_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/hardwaresecuritymodulegroup#client_cert Hardwaresecuritymodulegroup#client_cert}
   */
   readonly clientCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/hardwaresecuritymodulegroup#client_ip Hardwaresecuritymodulegroup#client_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/hardwaresecuritymodulegroup#client_ip Hardwaresecuritymodulegroup#client_ip}
   */
   readonly clientIp: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/hardwaresecuritymodulegroup#client_priv_key Hardwaresecuritymodulegroup#client_priv_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/hardwaresecuritymodulegroup#client_priv_key Hardwaresecuritymodulegroup#client_priv_key}
   */
   readonly clientPrivKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/hardwaresecuritymodulegroup#session_major_number Hardwaresecuritymodulegroup#session_major_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/hardwaresecuritymodulegroup#session_major_number Hardwaresecuritymodulegroup#session_major_number}
   */
   readonly sessionMajorNumber?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/hardwaresecuritymodulegroup#session_minor_number Hardwaresecuritymodulegroup#session_minor_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/hardwaresecuritymodulegroup#session_minor_number Hardwaresecuritymodulegroup#session_minor_number}
   */
   readonly sessionMinorNumber?: string;
 }
@@ -1427,23 +1427,23 @@ export class HardwaresecuritymodulegroupHsmSlunaNodeInfoList extends cdktf.Compl
 }
 export interface HardwaresecuritymodulegroupHsmSlunaServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/hardwaresecuritymodulegroup#index Hardwaresecuritymodulegroup#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/hardwaresecuritymodulegroup#index Hardwaresecuritymodulegroup#index}
   */
   readonly index: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/hardwaresecuritymodulegroup#partition_passwd Hardwaresecuritymodulegroup#partition_passwd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/hardwaresecuritymodulegroup#partition_passwd Hardwaresecuritymodulegroup#partition_passwd}
   */
   readonly partitionPasswd?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/hardwaresecuritymodulegroup#partition_serial_number Hardwaresecuritymodulegroup#partition_serial_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/hardwaresecuritymodulegroup#partition_serial_number Hardwaresecuritymodulegroup#partition_serial_number}
   */
   readonly partitionSerialNumber?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/hardwaresecuritymodulegroup#remote_ip Hardwaresecuritymodulegroup#remote_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/hardwaresecuritymodulegroup#remote_ip Hardwaresecuritymodulegroup#remote_ip}
   */
   readonly remoteIp: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/hardwaresecuritymodulegroup#server_cert Hardwaresecuritymodulegroup#server_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/hardwaresecuritymodulegroup#server_cert Hardwaresecuritymodulegroup#server_cert}
   */
   readonly serverCert: string;
 }
@@ -1666,31 +1666,31 @@ export class HardwaresecuritymodulegroupHsmSlunaServerList extends cdktf.Complex
 }
 export interface HardwaresecuritymodulegroupHsmSluna {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/hardwaresecuritymodulegroup#ha_group_num Hardwaresecuritymodulegroup#ha_group_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/hardwaresecuritymodulegroup#ha_group_num Hardwaresecuritymodulegroup#ha_group_num}
   */
   readonly haGroupNum?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/hardwaresecuritymodulegroup#is_ha Hardwaresecuritymodulegroup#is_ha}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/hardwaresecuritymodulegroup#is_ha Hardwaresecuritymodulegroup#is_ha}
   */
   readonly isHa: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/hardwaresecuritymodulegroup#server_pem Hardwaresecuritymodulegroup#server_pem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/hardwaresecuritymodulegroup#server_pem Hardwaresecuritymodulegroup#server_pem}
   */
   readonly serverPem?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/hardwaresecuritymodulegroup#use_dedicated_network Hardwaresecuritymodulegroup#use_dedicated_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/hardwaresecuritymodulegroup#use_dedicated_network Hardwaresecuritymodulegroup#use_dedicated_network}
   */
   readonly useDedicatedNetwork?: string;
   /**
   * node_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/hardwaresecuritymodulegroup#node_info Hardwaresecuritymodulegroup#node_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/hardwaresecuritymodulegroup#node_info Hardwaresecuritymodulegroup#node_info}
   */
   readonly nodeInfo?: HardwaresecuritymodulegroupHsmSlunaNodeInfo[] | cdktf.IResolvable;
   /**
   * server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/hardwaresecuritymodulegroup#server Hardwaresecuritymodulegroup#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/hardwaresecuritymodulegroup#server Hardwaresecuritymodulegroup#server}
   */
   readonly server?: HardwaresecuritymodulegroupHsmSlunaServer[] | cdktf.IResolvable;
 }
@@ -1948,31 +1948,31 @@ export class HardwaresecuritymodulegroupHsmSlunaList extends cdktf.ComplexList {
 }
 export interface HardwaresecuritymodulegroupHsm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/hardwaresecuritymodulegroup#type Hardwaresecuritymodulegroup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/hardwaresecuritymodulegroup#type Hardwaresecuritymodulegroup#type}
   */
   readonly type: string;
   /**
   * cloudhsm block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/hardwaresecuritymodulegroup#cloudhsm Hardwaresecuritymodulegroup#cloudhsm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/hardwaresecuritymodulegroup#cloudhsm Hardwaresecuritymodulegroup#cloudhsm}
   */
   readonly cloudhsm?: HardwaresecuritymodulegroupHsmCloudhsm[] | cdktf.IResolvable;
   /**
   * nethsm block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/hardwaresecuritymodulegroup#nethsm Hardwaresecuritymodulegroup#nethsm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/hardwaresecuritymodulegroup#nethsm Hardwaresecuritymodulegroup#nethsm}
   */
   readonly nethsm?: HardwaresecuritymodulegroupHsmNethsm[] | cdktf.IResolvable;
   /**
   * rfs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/hardwaresecuritymodulegroup#rfs Hardwaresecuritymodulegroup#rfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/hardwaresecuritymodulegroup#rfs Hardwaresecuritymodulegroup#rfs}
   */
   readonly rfs?: HardwaresecuritymodulegroupHsmRfs[] | cdktf.IResolvable;
   /**
   * sluna block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/hardwaresecuritymodulegroup#sluna Hardwaresecuritymodulegroup#sluna}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/hardwaresecuritymodulegroup#sluna Hardwaresecuritymodulegroup#sluna}
   */
   readonly sluna?: HardwaresecuritymodulegroupHsmSluna[] | cdktf.IResolvable;
 }
@@ -2201,11 +2201,11 @@ export class HardwaresecuritymodulegroupHsmList extends cdktf.ComplexList {
 }
 export interface HardwaresecuritymodulegroupMarkers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/hardwaresecuritymodulegroup#key Hardwaresecuritymodulegroup#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/hardwaresecuritymodulegroup#key Hardwaresecuritymodulegroup#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/hardwaresecuritymodulegroup#values Hardwaresecuritymodulegroup#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/hardwaresecuritymodulegroup#values Hardwaresecuritymodulegroup#values}
   */
   readonly values?: string[];
 }
@@ -2347,7 +2347,7 @@ export class HardwaresecuritymodulegroupMarkersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/hardwaresecuritymodulegroup avi_hardwaresecuritymodulegroup}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/hardwaresecuritymodulegroup avi_hardwaresecuritymodulegroup}
 */
 export class Hardwaresecuritymodulegroup extends cdktf.TerraformResource {
 
@@ -2363,7 +2363,7 @@ export class Hardwaresecuritymodulegroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Hardwaresecuritymodulegroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Hardwaresecuritymodulegroup to import
-  * @param importFromId The id of the existing Hardwaresecuritymodulegroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/hardwaresecuritymodulegroup#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Hardwaresecuritymodulegroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/hardwaresecuritymodulegroup#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Hardwaresecuritymodulegroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2375,7 +2375,7 @@ export class Hardwaresecuritymodulegroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/hardwaresecuritymodulegroup avi_hardwaresecuritymodulegroup} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/hardwaresecuritymodulegroup avi_hardwaresecuritymodulegroup} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2386,7 +2386,8 @@ export class Hardwaresecuritymodulegroup extends cdktf.TerraformResource {
       terraformResourceType: 'avi_hardwaresecuritymodulegroup',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '31.1.1'
+        providerVersion: '30.2.5',
+        providerVersionConstraint: '30.2.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -179,7 +179,8 @@ export class DataProwlarrTagsDetails extends cdktf.TerraformDataSource {
       terraformResourceType: 'prowlarr_tags_details',
       terraformGeneratorMetadata: {
         providerName: 'prowlarr',
-        providerVersion: '3.0.2'
+        providerVersion: '3.0.2',
+        providerVersionConstraint: '3.0.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/ipv6_pool
+// https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/ipv6_pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface Ipv6PoolConfig extends cdktf.TerraformMetaArguments {
   /**
   * Pool name displayed in the Apstra web UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/ipv6_pool#name Ipv6Pool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/ipv6_pool#name Ipv6Pool#name}
   */
   readonly name: string;
   /**
   * Detailed info about individual IPv6 CIDR allocations within the IPv6 Pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/ipv6_pool#subnets Ipv6Pool#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/ipv6_pool#subnets Ipv6Pool#subnets}
   */
   readonly subnets: Ipv6PoolSubnets[] | cdktf.IResolvable;
 }
@@ -24,7 +24,7 @@ export interface Ipv6PoolSubnets {
   /**
   * Network specification in CIDR syntax ("2001:db8::/64").
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/ipv6_pool#network Ipv6Pool#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/ipv6_pool#network Ipv6Pool#network}
   */
   readonly network: string;
 }
@@ -157,7 +157,7 @@ export class Ipv6PoolSubnetsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/ipv6_pool apstra_ipv6_pool}
+* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/ipv6_pool apstra_ipv6_pool}
 */
 export class Ipv6Pool extends cdktf.TerraformResource {
 
@@ -173,7 +173,7 @@ export class Ipv6Pool extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Ipv6Pool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ipv6Pool to import
-  * @param importFromId The id of the existing Ipv6Pool that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/ipv6_pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ipv6Pool that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/ipv6_pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ipv6Pool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -185,7 +185,7 @@ export class Ipv6Pool extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/ipv6_pool apstra_ipv6_pool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/ipv6_pool apstra_ipv6_pool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -196,7 +196,8 @@ export class Ipv6Pool extends cdktf.TerraformResource {
       terraformResourceType: 'apstra_ipv6_pool',
       terraformGeneratorMetadata: {
         providerName: 'apstra',
-        providerVersion: '0.95.0'
+        providerVersion: '0.95.1',
+        providerVersionConstraint: '0.95.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

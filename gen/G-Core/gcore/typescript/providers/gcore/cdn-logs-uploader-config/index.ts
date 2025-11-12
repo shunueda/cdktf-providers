@@ -92,7 +92,8 @@ export class CdnLogsUploaderConfig extends cdktf.TerraformResource {
       terraformResourceType: 'gcore_cdn_logs_uploader_config',
       terraformGeneratorMetadata: {
         providerName: 'gcore',
-        providerVersion: '0.31.3'
+        providerVersion: '0.31.3',
+        providerVersionConstraint: '0.31.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

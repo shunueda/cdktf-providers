@@ -70,7 +70,8 @@ export class DataLatitudeshPlan extends cdktf.TerraformDataSource {
       terraformResourceType: 'latitudesh_plan',
       terraformGeneratorMetadata: {
         providerName: 'latitudesh',
-        providerVersion: '2.8.2'
+        providerVersion: '2.8.2',
+        providerVersionConstraint: '2.8.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

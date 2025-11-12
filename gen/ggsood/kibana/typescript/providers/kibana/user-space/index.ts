@@ -76,7 +76,8 @@ export class UserSpace extends cdktf.TerraformResource {
       terraformResourceType: 'kibana_user_space',
       terraformGeneratorMetadata: {
         providerName: 'kibana',
-        providerVersion: '1.0.5'
+        providerVersion: '1.0.5',
+        providerVersionConstraint: '1.0.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

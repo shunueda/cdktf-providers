@@ -857,7 +857,8 @@ export class Secret extends cdktf.TerraformResource {
       terraformResourceType: 'koyeb_secret',
       terraformGeneratorMetadata: {
         providerName: 'koyeb',
-        providerVersion: '0.1.11'
+        providerVersion: '0.1.11',
+        providerVersionConstraint: '0.1.11'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

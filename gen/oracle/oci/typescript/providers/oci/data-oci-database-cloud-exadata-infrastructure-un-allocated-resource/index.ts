@@ -144,7 +144,8 @@ export class DataOciDatabaseCloudExadataInfrastructureUnAllocatedResource extend
       terraformResourceType: 'oci_database_cloud_exadata_infrastructure_un_allocated_resource',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

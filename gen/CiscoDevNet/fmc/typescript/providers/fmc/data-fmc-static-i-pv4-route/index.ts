@@ -68,7 +68,8 @@ export class DataFmcStaticIPv4Route extends cdktf.TerraformDataSource {
       terraformResourceType: 'fmc_staticIPv4_route',
       terraformGeneratorMetadata: {
         providerName: 'fmc',
-        providerVersion: '1.5.2'
+        providerVersion: '1.5.2',
+        providerVersionConstraint: '1.5.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

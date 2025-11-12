@@ -348,7 +348,8 @@ export class LtmNode extends cdktf.TerraformResource {
       terraformResourceType: 'bigip_ltm_node',
       terraformGeneratorMetadata: {
         providerName: 'bigip',
-        providerVersion: '1.24.1'
+        providerVersion: '1.24.1',
+        providerVersionConstraint: '1.24.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

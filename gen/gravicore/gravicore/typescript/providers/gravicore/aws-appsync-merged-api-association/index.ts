@@ -191,7 +191,8 @@ export class AwsAppsyncMergedApiAssociation extends cdktf.TerraformResource {
       terraformResourceType: 'gravicore_aws_appsync_merged_api_association',
       terraformGeneratorMetadata: {
         providerName: 'gravicore',
-        providerVersion: '1.0.8'
+        providerVersion: '1.0.8',
+        providerVersionConstraint: '1.0.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

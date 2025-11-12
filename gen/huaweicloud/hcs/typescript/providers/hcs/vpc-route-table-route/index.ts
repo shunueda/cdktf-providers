@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/vpc_route_table_route
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vpc_route_table_route
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,54 +8,54 @@ import * as cdktf from 'cdktf';
 
 export interface VpcRouteTableRouteAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/vpc_route_table_route#description VpcRouteTableRouteA#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vpc_route_table_route#description VpcRouteTableRouteA#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/vpc_route_table_route#destination VpcRouteTableRouteA#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vpc_route_table_route#destination VpcRouteTableRouteA#destination}
   */
   readonly destination: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/vpc_route_table_route#id VpcRouteTableRouteA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vpc_route_table_route#id VpcRouteTableRouteA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/vpc_route_table_route#nexthop VpcRouteTableRouteA#nexthop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vpc_route_table_route#nexthop VpcRouteTableRouteA#nexthop}
   */
   readonly nexthop: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/vpc_route_table_route#region VpcRouteTableRouteA#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vpc_route_table_route#region VpcRouteTableRouteA#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/vpc_route_table_route#route_table_id VpcRouteTableRouteA#route_table_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vpc_route_table_route#route_table_id VpcRouteTableRouteA#route_table_id}
   */
   readonly routeTableId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/vpc_route_table_route#type VpcRouteTableRouteA#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vpc_route_table_route#type VpcRouteTableRouteA#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/vpc_route_table_route#vpc_id VpcRouteTableRouteA#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vpc_route_table_route#vpc_id VpcRouteTableRouteA#vpc_id}
   */
   readonly vpcId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/vpc_route_table_route#timeouts VpcRouteTableRouteA#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vpc_route_table_route#timeouts VpcRouteTableRouteA#timeouts}
   */
   readonly timeouts?: VpcRouteTableRouteTimeouts;
 }
 export interface VpcRouteTableRouteTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/vpc_route_table_route#create VpcRouteTableRouteA#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vpc_route_table_route#create VpcRouteTableRouteA#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/vpc_route_table_route#delete VpcRouteTableRouteA#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vpc_route_table_route#delete VpcRouteTableRouteA#delete}
   */
   readonly delete?: string;
 }
@@ -178,7 +178,7 @@ export class VpcRouteTableRouteTimeoutsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/vpc_route_table_route hcs_vpc_route_table_route}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vpc_route_table_route hcs_vpc_route_table_route}
 */
 export class VpcRouteTableRouteA extends cdktf.TerraformResource {
 
@@ -194,7 +194,7 @@ export class VpcRouteTableRouteA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VpcRouteTableRouteA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpcRouteTableRouteA to import
-  * @param importFromId The id of the existing VpcRouteTableRouteA that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/vpc_route_table_route#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpcRouteTableRouteA that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vpc_route_table_route#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpcRouteTableRouteA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -206,7 +206,7 @@ export class VpcRouteTableRouteA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/vpc_route_table_route hcs_vpc_route_table_route} Resource
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vpc_route_table_route hcs_vpc_route_table_route} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -217,7 +217,8 @@ export class VpcRouteTableRouteA extends cdktf.TerraformResource {
       terraformResourceType: 'hcs_vpc_route_table_route',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.19'
+        providerVersion: '2.4.20',
+        providerVersionConstraint: '2.4.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

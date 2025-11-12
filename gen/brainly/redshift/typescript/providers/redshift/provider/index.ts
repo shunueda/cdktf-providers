@@ -270,7 +270,8 @@ export class RedshiftProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'redshift',
       terraformGeneratorMetadata: {
         providerName: 'redshift',
-        providerVersion: '1.1.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       terraformProviderSource: 'brainly/redshift'
     });

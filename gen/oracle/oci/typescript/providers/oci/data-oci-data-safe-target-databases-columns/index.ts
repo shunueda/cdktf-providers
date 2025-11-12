@@ -380,7 +380,8 @@ export class DataOciDataSafeTargetDatabasesColumns extends cdktf.TerraformDataSo
       terraformResourceType: 'oci_data_safe_target_databases_columns',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

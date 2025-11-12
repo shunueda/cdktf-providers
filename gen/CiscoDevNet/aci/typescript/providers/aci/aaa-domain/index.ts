@@ -72,7 +72,8 @@ export class AaaDomain extends cdktf.TerraformResource {
       terraformResourceType: 'aci_aaa_domain',
       terraformGeneratorMetadata: {
         providerName: 'aci',
-        providerVersion: '2.18.0'
+        providerVersion: '2.18.0',
+        providerVersionConstraint: '2.18.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

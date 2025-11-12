@@ -64,7 +64,8 @@ export class VmCloudConfig extends cdktf.TerraformResource {
       terraformResourceType: 'nutanixkps_vm_cloud_config',
       terraformGeneratorMetadata: {
         providerName: 'nutanixkps',
-        providerVersion: '1.1.9'
+        providerVersion: '1.1.9',
+        providerVersionConstraint: '1.1.9'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

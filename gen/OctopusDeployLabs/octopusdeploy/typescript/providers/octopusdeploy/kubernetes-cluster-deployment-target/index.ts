@@ -4085,7 +4085,8 @@ export class KubernetesClusterDeploymentTarget extends cdktf.TerraformResource {
       terraformResourceType: 'octopusdeploy_kubernetes_cluster_deployment_target',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '0.43.2'
+        providerVersion: '0.43.2',
+        providerVersionConstraint: '0.43.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

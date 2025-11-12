@@ -25779,7 +25779,8 @@ export class DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest extends cd
       terraformResourceType: 'k8s_projectcontour_io_contour_deployment_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

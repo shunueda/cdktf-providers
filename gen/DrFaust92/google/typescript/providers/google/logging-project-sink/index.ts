@@ -410,7 +410,8 @@ export class LoggingProjectSink extends cdktf.TerraformResource {
       terraformResourceType: 'google_logging_project_sink',
       terraformGeneratorMetadata: {
         providerName: 'google',
-        providerVersion: '4.16.4'
+        providerVersion: '4.16.4',
+        providerVersionConstraint: '4.16.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

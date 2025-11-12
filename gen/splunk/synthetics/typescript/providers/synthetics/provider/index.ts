@@ -79,7 +79,8 @@ export class SyntheticsProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'synthetics',
       terraformGeneratorMetadata: {
         providerName: 'synthetics',
-        providerVersion: '2.0.16'
+        providerVersion: '2.0.16',
+        providerVersionConstraint: '2.0.16'
       },
       terraformProviderSource: 'splunk/synthetics'
     });

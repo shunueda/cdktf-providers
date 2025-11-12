@@ -526,7 +526,8 @@ export class StackMonitoringMonitoredResourcesSearchAssociation extends cdktf.Te
       terraformResourceType: 'oci_stack_monitoring_monitored_resources_search_association',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

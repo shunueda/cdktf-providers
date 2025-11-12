@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance_disk
+// https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance_disk
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface InstanceDiskAConfig extends cdktf.TerraformMetaArguments {
   /**
   * A list of public SSH keys that will be automatically appended to the root user's ~/.ssh/authorized_keys file when deploying from an Image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance_disk#authorized_keys InstanceDiskA#authorized_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance_disk#authorized_keys InstanceDiskA#authorized_keys}
   */
   readonly authorizedKeys?: string[];
   /**
   * A list of usernames. If the usernames have associated SSH keys, the keys will be appended to the root users ~/.ssh/authorized_keys file automatically when deploying from an Image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance_disk#authorized_users InstanceDiskA#authorized_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance_disk#authorized_users InstanceDiskA#authorized_users}
   */
   readonly authorizedUsers?: string[];
   /**
   * The filesystem of this disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance_disk#filesystem InstanceDiskA#filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance_disk#filesystem InstanceDiskA#filesystem}
   */
   readonly filesystem?: string;
   /**
   * An Image ID to deploy the Linode Disk from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance_disk#image InstanceDiskA#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance_disk#image InstanceDiskA#image}
   */
   readonly image?: string;
   /**
   * The Disk;s label is for display purposes only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance_disk#label InstanceDiskA#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance_disk#label InstanceDiskA#label}
   */
   readonly label: string;
   /**
   * The ID of the Linode to assign this disk to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance_disk#linode_id InstanceDiskA#linode_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance_disk#linode_id InstanceDiskA#linode_id}
   */
   readonly linodeId: number;
   /**
   * This sets the root user's password on a newly-created Linode Disk when deploying from an Image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance_disk#root_pass InstanceDiskA#root_pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance_disk#root_pass InstanceDiskA#root_pass}
   */
   readonly rootPass?: string;
   /**
   * The ID of the token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance_disk#size InstanceDiskA#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance_disk#size InstanceDiskA#size}
   */
   readonly size: number;
   /**
   * An object containing responses to any User Defined Fields present in the StackScript being deployed to this Disk. Only accepted if 'stackscript_id' is given. The required values depend on the StackScript being deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance_disk#stackscript_data InstanceDiskA#stackscript_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance_disk#stackscript_data InstanceDiskA#stackscript_data}
   */
   readonly stackscriptData?: { [key: string]: string };
   /**
   * A StackScript ID that will cause the referenced StackScript to be run during deployment of this Linode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance_disk#stackscript_id InstanceDiskA#stackscript_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance_disk#stackscript_id InstanceDiskA#stackscript_id}
   */
   readonly stackscriptId?: number;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance_disk#timeouts InstanceDiskA#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance_disk#timeouts InstanceDiskA#timeouts}
   */
   readonly timeouts?: InstanceDiskTimeouts;
 }
@@ -78,19 +78,19 @@ export interface InstanceDiskTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance_disk#create InstanceDiskA#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance_disk#create InstanceDiskA#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance_disk#delete InstanceDiskA#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance_disk#delete InstanceDiskA#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance_disk#update InstanceDiskA#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance_disk#update InstanceDiskA#update}
   */
   readonly update?: string;
 }
@@ -242,7 +242,7 @@ export class InstanceDiskTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance_disk linode_instance_disk}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance_disk linode_instance_disk}
 */
 export class InstanceDiskA extends cdktf.TerraformResource {
 
@@ -258,7 +258,7 @@ export class InstanceDiskA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InstanceDiskA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InstanceDiskA to import
-  * @param importFromId The id of the existing InstanceDiskA that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance_disk#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InstanceDiskA that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance_disk#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InstanceDiskA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -270,7 +270,7 @@ export class InstanceDiskA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance_disk linode_instance_disk} Resource
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance_disk linode_instance_disk} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -281,7 +281,8 @@ export class InstanceDiskA extends cdktf.TerraformResource {
       terraformResourceType: 'linode_instance_disk',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.5.0'
+        providerVersion: '3.5.1',
+        providerVersionConstraint: '3.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/transformglobal_transformpolicy_binding
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/transformglobal_transformpolicy_binding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,48 +8,48 @@ import * as cdktf from 'cdktf';
 
 export interface TransformglobalTransformpolicyBindingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/transformglobal_transformpolicy_binding#globalbindtype TransformglobalTransformpolicyBinding#globalbindtype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/transformglobal_transformpolicy_binding#globalbindtype TransformglobalTransformpolicyBinding#globalbindtype}
   */
   readonly globalbindtype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/transformglobal_transformpolicy_binding#gotopriorityexpression TransformglobalTransformpolicyBinding#gotopriorityexpression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/transformglobal_transformpolicy_binding#gotopriorityexpression TransformglobalTransformpolicyBinding#gotopriorityexpression}
   */
   readonly gotopriorityexpression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/transformglobal_transformpolicy_binding#id TransformglobalTransformpolicyBinding#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/transformglobal_transformpolicy_binding#id TransformglobalTransformpolicyBinding#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/transformglobal_transformpolicy_binding#invoke TransformglobalTransformpolicyBinding#invoke}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/transformglobal_transformpolicy_binding#invoke TransformglobalTransformpolicyBinding#invoke}
   */
   readonly invoke?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/transformglobal_transformpolicy_binding#labelname TransformglobalTransformpolicyBinding#labelname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/transformglobal_transformpolicy_binding#labelname TransformglobalTransformpolicyBinding#labelname}
   */
   readonly labelname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/transformglobal_transformpolicy_binding#labeltype TransformglobalTransformpolicyBinding#labeltype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/transformglobal_transformpolicy_binding#labeltype TransformglobalTransformpolicyBinding#labeltype}
   */
   readonly labeltype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/transformglobal_transformpolicy_binding#policyname TransformglobalTransformpolicyBinding#policyname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/transformglobal_transformpolicy_binding#policyname TransformglobalTransformpolicyBinding#policyname}
   */
   readonly policyname: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/transformglobal_transformpolicy_binding#priority TransformglobalTransformpolicyBinding#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/transformglobal_transformpolicy_binding#priority TransformglobalTransformpolicyBinding#priority}
   */
   readonly priority: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/transformglobal_transformpolicy_binding#type TransformglobalTransformpolicyBinding#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/transformglobal_transformpolicy_binding#type TransformglobalTransformpolicyBinding#type}
   */
   readonly type?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/transformglobal_transformpolicy_binding citrixadc_transformglobal_transformpolicy_binding}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/transformglobal_transformpolicy_binding citrixadc_transformglobal_transformpolicy_binding}
 */
 export class TransformglobalTransformpolicyBinding extends cdktf.TerraformResource {
 
@@ -65,7 +65,7 @@ export class TransformglobalTransformpolicyBinding extends cdktf.TerraformResour
   * Generates CDKTF code for importing a TransformglobalTransformpolicyBinding resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TransformglobalTransformpolicyBinding to import
-  * @param importFromId The id of the existing TransformglobalTransformpolicyBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/transformglobal_transformpolicy_binding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TransformglobalTransformpolicyBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/transformglobal_transformpolicy_binding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TransformglobalTransformpolicyBinding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -77,7 +77,7 @@ export class TransformglobalTransformpolicyBinding extends cdktf.TerraformResour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/transformglobal_transformpolicy_binding citrixadc_transformglobal_transformpolicy_binding} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/transformglobal_transformpolicy_binding citrixadc_transformglobal_transformpolicy_binding} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -88,7 +88,8 @@ export class TransformglobalTransformpolicyBinding extends cdktf.TerraformResour
       terraformResourceType: 'citrixadc_transformglobal_transformpolicy_binding',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

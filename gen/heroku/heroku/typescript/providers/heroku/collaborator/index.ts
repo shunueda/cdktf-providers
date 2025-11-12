@@ -64,7 +64,8 @@ export class Collaborator extends cdktf.TerraformResource {
       terraformResourceType: 'heroku_collaborator',
       terraformGeneratorMetadata: {
         providerName: 'heroku',
-        providerVersion: '5.3.2'
+        providerVersion: '5.3.2',
+        providerVersionConstraint: '5.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

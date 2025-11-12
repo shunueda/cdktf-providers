@@ -153,7 +153,8 @@ export class DataSchemaregistrySchema extends cdktf.TerraformDataSource {
       terraformResourceType: 'schemaregistry_schema',
       terraformGeneratorMetadata: {
         providerName: 'confluent-schema-registry',
-        providerVersion: '0.6.1'
+        providerVersion: '0.6.1',
+        providerVersionConstraint: '0.6.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

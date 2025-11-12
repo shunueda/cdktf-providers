@@ -74,7 +74,8 @@ export class DataAkeylessStaticSecret extends cdktf.TerraformDataSource {
       terraformResourceType: 'akeyless_static_secret',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1'
+        providerVersion: '1.11.1',
+        providerVersionConstraint: '1.11.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

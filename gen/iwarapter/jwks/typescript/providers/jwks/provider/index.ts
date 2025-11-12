@@ -55,7 +55,8 @@ export class JwksProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'jwks',
       terraformGeneratorMetadata: {
         providerName: 'jwks',
-        providerVersion: '0.1.0'
+        providerVersion: '0.1.0',
+        providerVersionConstraint: '0.1.0'
       },
       terraformProviderSource: 'iwarapter/jwks'
     });

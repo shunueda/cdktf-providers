@@ -201,7 +201,8 @@ export class CenTransitRouterRouteTablePropagation extends cdktf.TerraformResour
       terraformResourceType: 'alicloud_cen_transit_router_route_table_propagation',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -60,7 +60,8 @@ export class DataZiaTrafficForwardingPublicNodeVips extends cdktf.TerraformDataS
       terraformResourceType: 'zia_traffic_forwarding_public_node_vips',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.5.3'
+        providerVersion: '4.5.3',
+        providerVersionConstraint: '4.5.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

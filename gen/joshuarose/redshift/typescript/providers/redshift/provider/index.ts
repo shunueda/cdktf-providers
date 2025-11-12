@@ -91,7 +91,8 @@ export class RedshiftProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'redshift',
       terraformGeneratorMetadata: {
         providerName: 'redshift',
-        providerVersion: '0.0.4'
+        providerVersion: '0.0.4',
+        providerVersionConstraint: '0.0.4'
       },
       terraformProviderSource: 'joshuarose/redshift'
     });

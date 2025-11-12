@@ -311,7 +311,8 @@ export class DataAlicloudDtsSynchronizationJobs extends cdktf.TerraformDataSourc
       terraformResourceType: 'alicloud_dts_synchronization_jobs',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

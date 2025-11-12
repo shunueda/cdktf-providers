@@ -699,7 +699,8 @@ export class QualityProfile extends cdktf.TerraformResource {
       terraformResourceType: 'sonarr_quality_profile',
       terraformGeneratorMetadata: {
         providerName: 'sonarr',
-        providerVersion: '3.4.0'
+        providerVersion: '3.4.0',
+        providerVersionConstraint: '3.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

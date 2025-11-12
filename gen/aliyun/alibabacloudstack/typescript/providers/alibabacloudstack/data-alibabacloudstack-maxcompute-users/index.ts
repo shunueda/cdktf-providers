@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/maxcompute_users
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/maxcompute_users
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,20 +8,24 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlibabacloudstackMaxcomputeUsersConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/maxcompute_users#id DataAlibabacloudstackMaxcomputeUsers#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/maxcompute_users#id DataAlibabacloudstackMaxcomputeUsers#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/maxcompute_users#ids DataAlibabacloudstackMaxcomputeUsers#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/maxcompute_users#ids DataAlibabacloudstackMaxcomputeUsers#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/maxcompute_users#name_regex DataAlibabacloudstackMaxcomputeUsers#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/maxcompute_users#name_regex DataAlibabacloudstackMaxcomputeUsers#name_regex}
   */
   readonly nameRegex?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/maxcompute_users#output_file DataAlibabacloudstackMaxcomputeUsers#output_file}
+  */
+  readonly outputFile?: string;
 }
 export interface DataAlibabacloudstackMaxcomputeUsersUsers {
 }
@@ -84,6 +88,16 @@ export class DataAlibabacloudstackMaxcomputeUsersUsersOutputReference extends cd
     return this.getStringAttribute('id');
   }
 
+  // organization_id - computed: true, optional: false, required: false
+  public get organizationId() {
+    return this.getNumberAttribute('organization_id');
+  }
+
+  // organization_name - computed: true, optional: false, required: false
+  public get organizationName() {
+    return this.getStringAttribute('organization_name');
+  }
+
   // user_id - computed: true, optional: false, required: false
   public get userId() {
     return this.getStringAttribute('user_id');
@@ -125,7 +139,7 @@ export class DataAlibabacloudstackMaxcomputeUsersUsersList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/maxcompute_users alibabacloudstack_maxcompute_users}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/maxcompute_users alibabacloudstack_maxcompute_users}
 */
 export class DataAlibabacloudstackMaxcomputeUsers extends cdktf.TerraformDataSource {
 
@@ -141,7 +155,7 @@ export class DataAlibabacloudstackMaxcomputeUsers extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataAlibabacloudstackMaxcomputeUsers resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlibabacloudstackMaxcomputeUsers to import
-  * @param importFromId The id of the existing DataAlibabacloudstackMaxcomputeUsers that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/maxcompute_users#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlibabacloudstackMaxcomputeUsers that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/maxcompute_users#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlibabacloudstackMaxcomputeUsers to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -153,7 +167,7 @@ export class DataAlibabacloudstackMaxcomputeUsers extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/maxcompute_users alibabacloudstack_maxcompute_users} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/maxcompute_users alibabacloudstack_maxcompute_users} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -164,7 +178,8 @@ export class DataAlibabacloudstackMaxcomputeUsers extends cdktf.TerraformDataSou
       terraformResourceType: 'alibabacloudstack_maxcompute_users',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.19'
+        providerVersion: '3.16.21',
+        providerVersionConstraint: '3.16.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -177,6 +192,7 @@ export class DataAlibabacloudstackMaxcomputeUsers extends cdktf.TerraformDataSou
     this._id = config.id;
     this._ids = config.ids;
     this._nameRegex = config.nameRegex;
+    this._outputFile = config.outputFile;
   }
 
   // ==========
@@ -231,6 +247,22 @@ export class DataAlibabacloudstackMaxcomputeUsers extends cdktf.TerraformDataSou
     return this._nameRegex;
   }
 
+  // output_file - computed: false, optional: true, required: false
+  private _outputFile?: string; 
+  public get outputFile() {
+    return this.getStringAttribute('output_file');
+  }
+  public set outputFile(value: string) {
+    this._outputFile = value;
+  }
+  public resetOutputFile() {
+    this._outputFile = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get outputFileInput() {
+    return this._outputFile;
+  }
+
   // users - computed: true, optional: false, required: false
   private _users = new DataAlibabacloudstackMaxcomputeUsersUsersList(this, "users", false);
   public get users() {
@@ -246,6 +278,7 @@ export class DataAlibabacloudstackMaxcomputeUsers extends cdktf.TerraformDataSou
       id: cdktf.stringToTerraform(this._id),
       ids: cdktf.listMapper(cdktf.stringToTerraform, false)(this._ids),
       name_regex: cdktf.stringToTerraform(this._nameRegex),
+      output_file: cdktf.stringToTerraform(this._outputFile),
     };
   }
 
@@ -265,6 +298,12 @@ export class DataAlibabacloudstackMaxcomputeUsers extends cdktf.TerraformDataSou
       },
       name_regex: {
         value: cdktf.stringToHclTerraform(this._nameRegex),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      output_file: {
+        value: cdktf.stringToHclTerraform(this._outputFile),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

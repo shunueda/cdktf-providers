@@ -645,7 +645,8 @@ export class ObjectBucketAcl extends cdktf.TerraformResource {
       terraformResourceType: 'scaleway_object_bucket_acl',
       terraformGeneratorMetadata: {
         providerName: 'scaleway',
-        providerVersion: '2.62.0'
+        providerVersion: '2.62.0',
+        providerVersionConstraint: '2.62.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

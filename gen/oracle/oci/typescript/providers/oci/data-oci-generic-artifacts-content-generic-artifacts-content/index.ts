@@ -60,7 +60,8 @@ export class DataOciGenericArtifactsContentGenericArtifactsContent extends cdktf
       terraformResourceType: 'oci_generic_artifacts_content_generic_artifacts_content',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

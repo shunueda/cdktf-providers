@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/db_configuration_v1
+// https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/db_configuration_v1
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,54 +8,54 @@ import * as cdktf from 'cdktf';
 
 export interface DbConfigurationV1Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/db_configuration_v1#description DbConfigurationV1#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/db_configuration_v1#description DbConfigurationV1#description}
   */
   readonly description: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/db_configuration_v1#id DbConfigurationV1#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/db_configuration_v1#id DbConfigurationV1#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/db_configuration_v1#name DbConfigurationV1#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/db_configuration_v1#name DbConfigurationV1#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/db_configuration_v1#region DbConfigurationV1#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/db_configuration_v1#region DbConfigurationV1#region}
   */
   readonly region?: string;
   /**
   * configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/db_configuration_v1#configuration DbConfigurationV1#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/db_configuration_v1#configuration DbConfigurationV1#configuration}
   */
   readonly configuration?: DbConfigurationV1Configuration[] | cdktf.IResolvable;
   /**
   * datastore block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/db_configuration_v1#datastore DbConfigurationV1#datastore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/db_configuration_v1#datastore DbConfigurationV1#datastore}
   */
   readonly datastore: DbConfigurationV1Datastore;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/db_configuration_v1#timeouts DbConfigurationV1#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/db_configuration_v1#timeouts DbConfigurationV1#timeouts}
   */
   readonly timeouts?: DbConfigurationV1Timeouts;
 }
 export interface DbConfigurationV1Configuration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/db_configuration_v1#name DbConfigurationV1#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/db_configuration_v1#name DbConfigurationV1#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/db_configuration_v1#string_type DbConfigurationV1#string_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/db_configuration_v1#string_type DbConfigurationV1#string_type}
   */
   readonly stringType?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/db_configuration_v1#value DbConfigurationV1#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/db_configuration_v1#value DbConfigurationV1#value}
   */
   readonly value: string;
 }
@@ -223,11 +223,11 @@ export class DbConfigurationV1ConfigurationList extends cdktf.ComplexList {
 }
 export interface DbConfigurationV1Datastore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/db_configuration_v1#type DbConfigurationV1#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/db_configuration_v1#type DbConfigurationV1#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/db_configuration_v1#version DbConfigurationV1#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/db_configuration_v1#version DbConfigurationV1#version}
   */
   readonly version: string;
 }
@@ -334,11 +334,11 @@ export class DbConfigurationV1DatastoreOutputReference extends cdktf.ComplexObje
 }
 export interface DbConfigurationV1Timeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/db_configuration_v1#create DbConfigurationV1#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/db_configuration_v1#create DbConfigurationV1#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/db_configuration_v1#delete DbConfigurationV1#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/db_configuration_v1#delete DbConfigurationV1#delete}
   */
   readonly delete?: string;
 }
@@ -461,7 +461,7 @@ export class DbConfigurationV1TimeoutsOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/db_configuration_v1 openstack_db_configuration_v1}
+* Represents a {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/db_configuration_v1 openstack_db_configuration_v1}
 */
 export class DbConfigurationV1 extends cdktf.TerraformResource {
 
@@ -477,7 +477,7 @@ export class DbConfigurationV1 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DbConfigurationV1 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DbConfigurationV1 to import
-  * @param importFromId The id of the existing DbConfigurationV1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/db_configuration_v1#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DbConfigurationV1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/db_configuration_v1#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DbConfigurationV1 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -489,7 +489,7 @@ export class DbConfigurationV1 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/db_configuration_v1 openstack_db_configuration_v1} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/db_configuration_v1 openstack_db_configuration_v1} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -500,7 +500,8 @@ export class DbConfigurationV1 extends cdktf.TerraformResource {
       terraformResourceType: 'openstack_db_configuration_v1',
       terraformGeneratorMetadata: {
         providerName: 'openstack',
-        providerVersion: '3.3.2'
+        providerVersion: '3.4.0',
+        providerVersionConstraint: '3.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

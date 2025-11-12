@@ -72,7 +72,8 @@ export class VolumeBackup extends cdktf.TerraformResource {
       terraformResourceType: 'netapp-gcp_volume_backup',
       terraformGeneratorMetadata: {
         providerName: 'netapp-gcp',
-        providerVersion: '24.6.0'
+        providerVersion: '24.6.0',
+        providerVersionConstraint: '24.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

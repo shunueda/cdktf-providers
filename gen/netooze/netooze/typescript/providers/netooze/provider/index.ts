@@ -63,7 +63,8 @@ export class NetoozeProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'netooze',
       terraformGeneratorMetadata: {
         providerName: 'netooze',
-        providerVersion: '0.2.0'
+        providerVersion: '0.2.0',
+        providerVersionConstraint: '0.2.0'
       },
       terraformProviderSource: 'netooze/netooze'
     });

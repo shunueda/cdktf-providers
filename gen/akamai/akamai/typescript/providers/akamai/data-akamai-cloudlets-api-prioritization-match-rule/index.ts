@@ -1201,7 +1201,8 @@ export class DataAkamaiCloudletsApiPrioritizationMatchRule extends cdktf.Terrafo
       terraformResourceType: 'akamai_cloudlets_api_prioritization_match_rule',
       terraformGeneratorMetadata: {
         providerName: 'akamai',
-        providerVersion: '9.1.0'
+        providerVersion: '9.1.0',
+        providerVersionConstraint: '9.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

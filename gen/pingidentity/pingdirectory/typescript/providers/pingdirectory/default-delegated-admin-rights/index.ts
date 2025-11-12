@@ -164,7 +164,8 @@ export class DefaultDelegatedAdminRights extends cdktf.TerraformResource {
       terraformResourceType: 'pingdirectory_default_delegated_admin_rights',
       terraformGeneratorMetadata: {
         providerName: 'pingdirectory',
-        providerVersion: '1.5.0'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

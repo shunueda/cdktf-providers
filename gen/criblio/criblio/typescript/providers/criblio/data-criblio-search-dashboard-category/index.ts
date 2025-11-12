@@ -58,7 +58,8 @@ export class DataCriblioSearchDashboardCategory extends cdktf.TerraformDataSourc
       terraformResourceType: 'criblio_search_dashboard_category',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.18.21'
+        providerVersion: '1.18.21',
+        providerVersionConstraint: '1.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

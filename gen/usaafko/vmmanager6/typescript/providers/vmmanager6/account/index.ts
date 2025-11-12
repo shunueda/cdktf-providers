@@ -232,7 +232,8 @@ export class Account extends cdktf.TerraformResource {
       terraformResourceType: 'vmmanager6_account',
       terraformGeneratorMetadata: {
         providerName: 'vmmanager6',
-        providerVersion: '0.0.34'
+        providerVersion: '0.0.34',
+        providerVersionConstraint: '0.0.34'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

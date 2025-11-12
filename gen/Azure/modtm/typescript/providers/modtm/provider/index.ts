@@ -73,7 +73,8 @@ export class ModtmProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'modtm',
       terraformGeneratorMetadata: {
         providerName: 'modtm',
-        providerVersion: '0.3.5'
+        providerVersion: '0.3.5',
+        providerVersionConstraint: '0.3.5'
       },
       terraformProviderSource: 'Azure/modtm'
     });

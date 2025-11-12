@@ -68,7 +68,8 @@ export class DataCloudflareLogpushDatasetField extends cdktf.TerraformDataSource
       terraformResourceType: 'cloudflare_logpush_dataset_field',
       terraformGeneratorMetadata: {
         providerName: 'cloudflare',
-        providerVersion: '5.12.0'
+        providerVersion: '5.12.0',
+        providerVersionConstraint: '5.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

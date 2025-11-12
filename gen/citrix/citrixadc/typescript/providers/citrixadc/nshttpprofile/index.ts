@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nshttpprofile
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nshttpprofile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,256 +8,256 @@ import * as cdktf from 'cdktf';
 
 export interface NshttpprofileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nshttpprofile#adpttimeout Nshttpprofile#adpttimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nshttpprofile#adpttimeout Nshttpprofile#adpttimeout}
   */
   readonly adpttimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nshttpprofile#allowonlywordcharactersandhyphen Nshttpprofile#allowonlywordcharactersandhyphen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nshttpprofile#allowonlywordcharactersandhyphen Nshttpprofile#allowonlywordcharactersandhyphen}
   */
   readonly allowonlywordcharactersandhyphen?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nshttpprofile#altsvc Nshttpprofile#altsvc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nshttpprofile#altsvc Nshttpprofile#altsvc}
   */
   readonly altsvc?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nshttpprofile#altsvcvalue Nshttpprofile#altsvcvalue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nshttpprofile#altsvcvalue Nshttpprofile#altsvcvalue}
   */
   readonly altsvcvalue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nshttpprofile#apdexcltresptimethreshold Nshttpprofile#apdexcltresptimethreshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nshttpprofile#apdexcltresptimethreshold Nshttpprofile#apdexcltresptimethreshold}
   */
   readonly apdexcltresptimethreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nshttpprofile#clientiphdrexpr Nshttpprofile#clientiphdrexpr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nshttpprofile#clientiphdrexpr Nshttpprofile#clientiphdrexpr}
   */
   readonly clientiphdrexpr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nshttpprofile#cmponpush Nshttpprofile#cmponpush}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nshttpprofile#cmponpush Nshttpprofile#cmponpush}
   */
   readonly cmponpush?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nshttpprofile#conmultiplex Nshttpprofile#conmultiplex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nshttpprofile#conmultiplex Nshttpprofile#conmultiplex}
   */
   readonly conmultiplex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nshttpprofile#dropextracrlf Nshttpprofile#dropextracrlf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nshttpprofile#dropextracrlf Nshttpprofile#dropextracrlf}
   */
   readonly dropextracrlf?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nshttpprofile#dropextradata Nshttpprofile#dropextradata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nshttpprofile#dropextradata Nshttpprofile#dropextradata}
   */
   readonly dropextradata?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nshttpprofile#dropinvalreqs Nshttpprofile#dropinvalreqs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nshttpprofile#dropinvalreqs Nshttpprofile#dropinvalreqs}
   */
   readonly dropinvalreqs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nshttpprofile#grpcholdlimit Nshttpprofile#grpcholdlimit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nshttpprofile#grpcholdlimit Nshttpprofile#grpcholdlimit}
   */
   readonly grpcholdlimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nshttpprofile#grpcholdtimeout Nshttpprofile#grpcholdtimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nshttpprofile#grpcholdtimeout Nshttpprofile#grpcholdtimeout}
   */
   readonly grpcholdtimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nshttpprofile#grpclengthdelimitation Nshttpprofile#grpclengthdelimitation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nshttpprofile#grpclengthdelimitation Nshttpprofile#grpclengthdelimitation}
   */
   readonly grpclengthdelimitation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nshttpprofile#hostheadervalidation Nshttpprofile#hostheadervalidation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nshttpprofile#hostheadervalidation Nshttpprofile#hostheadervalidation}
   */
   readonly hostheadervalidation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nshttpprofile#http2 Nshttpprofile#http2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nshttpprofile#http2 Nshttpprofile#http2}
   */
   readonly http2?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nshttpprofile#http2altsvcframe Nshttpprofile#http2altsvcframe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nshttpprofile#http2altsvcframe Nshttpprofile#http2altsvcframe}
   */
   readonly http2Altsvcframe?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nshttpprofile#http2direct Nshttpprofile#http2direct}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nshttpprofile#http2direct Nshttpprofile#http2direct}
   */
   readonly http2Direct?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nshttpprofile#http2extendedconnect Nshttpprofile#http2extendedconnect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nshttpprofile#http2extendedconnect Nshttpprofile#http2extendedconnect}
   */
   readonly http2Extendedconnect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nshttpprofile#http2headertablesize Nshttpprofile#http2headertablesize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nshttpprofile#http2headertablesize Nshttpprofile#http2headertablesize}
   */
   readonly http2Headertablesize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nshttpprofile#http2initialconnwindowsize Nshttpprofile#http2initialconnwindowsize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nshttpprofile#http2initialconnwindowsize Nshttpprofile#http2initialconnwindowsize}
   */
   readonly http2Initialconnwindowsize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nshttpprofile#http2initialwindowsize Nshttpprofile#http2initialwindowsize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nshttpprofile#http2initialwindowsize Nshttpprofile#http2initialwindowsize}
   */
   readonly http2Initialwindowsize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nshttpprofile#http2maxconcurrentstreams Nshttpprofile#http2maxconcurrentstreams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nshttpprofile#http2maxconcurrentstreams Nshttpprofile#http2maxconcurrentstreams}
   */
   readonly http2Maxconcurrentstreams?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nshttpprofile#http2maxemptyframespermin Nshttpprofile#http2maxemptyframespermin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nshttpprofile#http2maxemptyframespermin Nshttpprofile#http2maxemptyframespermin}
   */
   readonly http2Maxemptyframespermin?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nshttpprofile#http2maxframesize Nshttpprofile#http2maxframesize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nshttpprofile#http2maxframesize Nshttpprofile#http2maxframesize}
   */
   readonly http2Maxframesize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nshttpprofile#http2maxheaderlistsize Nshttpprofile#http2maxheaderlistsize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nshttpprofile#http2maxheaderlistsize Nshttpprofile#http2maxheaderlistsize}
   */
   readonly http2Maxheaderlistsize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nshttpprofile#http2maxpingframespermin Nshttpprofile#http2maxpingframespermin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nshttpprofile#http2maxpingframespermin Nshttpprofile#http2maxpingframespermin}
   */
   readonly http2Maxpingframespermin?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nshttpprofile#http2maxresetframespermin Nshttpprofile#http2maxresetframespermin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nshttpprofile#http2maxresetframespermin Nshttpprofile#http2maxresetframespermin}
   */
   readonly http2Maxresetframespermin?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nshttpprofile#http2maxrxresetframespermin Nshttpprofile#http2maxrxresetframespermin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nshttpprofile#http2maxrxresetframespermin Nshttpprofile#http2maxrxresetframespermin}
   */
   readonly http2Maxrxresetframespermin?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nshttpprofile#http2maxsettingsframespermin Nshttpprofile#http2maxsettingsframespermin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nshttpprofile#http2maxsettingsframespermin Nshttpprofile#http2maxsettingsframespermin}
   */
   readonly http2Maxsettingsframespermin?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nshttpprofile#http2minseverconn Nshttpprofile#http2minseverconn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nshttpprofile#http2minseverconn Nshttpprofile#http2minseverconn}
   */
   readonly http2Minseverconn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nshttpprofile#http2strictcipher Nshttpprofile#http2strictcipher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nshttpprofile#http2strictcipher Nshttpprofile#http2strictcipher}
   */
   readonly http2Strictcipher?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nshttpprofile#http3 Nshttpprofile#http3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nshttpprofile#http3 Nshttpprofile#http3}
   */
   readonly http3?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nshttpprofile#http3maxheaderblockedstreams Nshttpprofile#http3maxheaderblockedstreams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nshttpprofile#http3maxheaderblockedstreams Nshttpprofile#http3maxheaderblockedstreams}
   */
   readonly http3Maxheaderblockedstreams?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nshttpprofile#http3maxheaderfieldsectionsize Nshttpprofile#http3maxheaderfieldsectionsize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nshttpprofile#http3maxheaderfieldsectionsize Nshttpprofile#http3maxheaderfieldsectionsize}
   */
   readonly http3Maxheaderfieldsectionsize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nshttpprofile#http3maxheadertablesize Nshttpprofile#http3maxheadertablesize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nshttpprofile#http3maxheadertablesize Nshttpprofile#http3maxheadertablesize}
   */
   readonly http3Maxheadertablesize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nshttpprofile#http3minseverconn Nshttpprofile#http3minseverconn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nshttpprofile#http3minseverconn Nshttpprofile#http3minseverconn}
   */
   readonly http3Minseverconn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nshttpprofile#http3webtransport Nshttpprofile#http3webtransport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nshttpprofile#http3webtransport Nshttpprofile#http3webtransport}
   */
   readonly http3Webtransport?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nshttpprofile#httppipelinebuffsize Nshttpprofile#httppipelinebuffsize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nshttpprofile#httppipelinebuffsize Nshttpprofile#httppipelinebuffsize}
   */
   readonly httppipelinebuffsize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nshttpprofile#id Nshttpprofile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nshttpprofile#id Nshttpprofile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nshttpprofile#incomphdrdelay Nshttpprofile#incomphdrdelay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nshttpprofile#incomphdrdelay Nshttpprofile#incomphdrdelay}
   */
   readonly incomphdrdelay?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nshttpprofile#markconnreqinval Nshttpprofile#markconnreqinval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nshttpprofile#markconnreqinval Nshttpprofile#markconnreqinval}
   */
   readonly markconnreqinval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nshttpprofile#markhttp09inval Nshttpprofile#markhttp09inval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nshttpprofile#markhttp09inval Nshttpprofile#markhttp09inval}
   */
   readonly markhttp09Inval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nshttpprofile#markhttpheaderextrawserror Nshttpprofile#markhttpheaderextrawserror}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nshttpprofile#markhttpheaderextrawserror Nshttpprofile#markhttpheaderextrawserror}
   */
   readonly markhttpheaderextrawserror?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nshttpprofile#markrfc7230noncompliantinval Nshttpprofile#markrfc7230noncompliantinval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nshttpprofile#markrfc7230noncompliantinval Nshttpprofile#markrfc7230noncompliantinval}
   */
   readonly markrfc7230Noncompliantinval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nshttpprofile#marktracereqinval Nshttpprofile#marktracereqinval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nshttpprofile#marktracereqinval Nshttpprofile#marktracereqinval}
   */
   readonly marktracereqinval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nshttpprofile#maxduplicateheaderfields Nshttpprofile#maxduplicateheaderfields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nshttpprofile#maxduplicateheaderfields Nshttpprofile#maxduplicateheaderfields}
   */
   readonly maxduplicateheaderfields?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nshttpprofile#maxheaderfieldlen Nshttpprofile#maxheaderfieldlen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nshttpprofile#maxheaderfieldlen Nshttpprofile#maxheaderfieldlen}
   */
   readonly maxheaderfieldlen?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nshttpprofile#maxheaderlen Nshttpprofile#maxheaderlen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nshttpprofile#maxheaderlen Nshttpprofile#maxheaderlen}
   */
   readonly maxheaderlen?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nshttpprofile#maxreq Nshttpprofile#maxreq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nshttpprofile#maxreq Nshttpprofile#maxreq}
   */
   readonly maxreq?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nshttpprofile#maxreusepool Nshttpprofile#maxreusepool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nshttpprofile#maxreusepool Nshttpprofile#maxreusepool}
   */
   readonly maxreusepool?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nshttpprofile#minreusepool Nshttpprofile#minreusepool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nshttpprofile#minreusepool Nshttpprofile#minreusepool}
   */
   readonly minreusepool?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nshttpprofile#name Nshttpprofile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nshttpprofile#name Nshttpprofile#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nshttpprofile#passprotocolupgrade Nshttpprofile#passprotocolupgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nshttpprofile#passprotocolupgrade Nshttpprofile#passprotocolupgrade}
   */
   readonly passprotocolupgrade?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nshttpprofile#persistentetag Nshttpprofile#persistentetag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nshttpprofile#persistentetag Nshttpprofile#persistentetag}
   */
   readonly persistentetag?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nshttpprofile#reqtimeout Nshttpprofile#reqtimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nshttpprofile#reqtimeout Nshttpprofile#reqtimeout}
   */
   readonly reqtimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nshttpprofile#reqtimeoutaction Nshttpprofile#reqtimeoutaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nshttpprofile#reqtimeoutaction Nshttpprofile#reqtimeoutaction}
   */
   readonly reqtimeoutaction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nshttpprofile#reusepooltimeout Nshttpprofile#reusepooltimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nshttpprofile#reusepooltimeout Nshttpprofile#reusepooltimeout}
   */
   readonly reusepooltimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nshttpprofile#rtsptunnel Nshttpprofile#rtsptunnel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nshttpprofile#rtsptunnel Nshttpprofile#rtsptunnel}
   */
   readonly rtsptunnel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nshttpprofile#weblog Nshttpprofile#weblog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nshttpprofile#weblog Nshttpprofile#weblog}
   */
   readonly weblog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nshttpprofile#websocket Nshttpprofile#websocket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nshttpprofile#websocket Nshttpprofile#websocket}
   */
   readonly websocket?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nshttpprofile citrixadc_nshttpprofile}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nshttpprofile citrixadc_nshttpprofile}
 */
 export class Nshttpprofile extends cdktf.TerraformResource {
 
@@ -273,7 +273,7 @@ export class Nshttpprofile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Nshttpprofile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Nshttpprofile to import
-  * @param importFromId The id of the existing Nshttpprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nshttpprofile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Nshttpprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nshttpprofile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Nshttpprofile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -285,7 +285,7 @@ export class Nshttpprofile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nshttpprofile citrixadc_nshttpprofile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nshttpprofile citrixadc_nshttpprofile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -296,7 +296,8 @@ export class Nshttpprofile extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_nshttpprofile',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

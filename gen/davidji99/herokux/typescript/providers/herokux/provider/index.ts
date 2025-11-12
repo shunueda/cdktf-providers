@@ -425,7 +425,8 @@ export class HerokuxProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'herokux',
       terraformGeneratorMetadata: {
         providerName: 'herokux',
-        providerVersion: '1.4.7'
+        providerVersion: '1.4.7',
+        providerVersionConstraint: '1.4.7'
       },
       terraformProviderSource: 'davidji99/herokux'
     });

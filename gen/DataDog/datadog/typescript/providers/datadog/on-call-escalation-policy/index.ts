@@ -457,7 +457,8 @@ export class OnCallEscalationPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'datadog_on_call_escalation_policy',
       terraformGeneratorMetadata: {
         providerName: 'datadog',
-        providerVersion: '3.79.0'
+        providerVersion: '3.79.0',
+        providerVersionConstraint: '3.79.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

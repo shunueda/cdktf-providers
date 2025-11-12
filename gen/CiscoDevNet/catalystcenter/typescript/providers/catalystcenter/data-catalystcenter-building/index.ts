@@ -58,7 +58,8 @@ export class DataCatalystcenterBuilding extends cdktf.TerraformDataSource {
       terraformResourceType: 'catalystcenter_building',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.2'
+        providerVersion: '0.4.2',
+        providerVersionConstraint: '0.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

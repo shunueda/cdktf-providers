@@ -184,7 +184,8 @@ export class DataTencentcloudCbsSnapshotPolicies extends cdktf.TerraformDataSour
       terraformResourceType: 'tencentcloud_cbs_snapshot_policies',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

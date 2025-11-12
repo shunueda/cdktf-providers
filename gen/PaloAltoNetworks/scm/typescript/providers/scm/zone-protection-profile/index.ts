@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -14,96 +14,96 @@ export interface ZoneProtectionProfileConfig extends cdktf.TerraformMetaArgument
   * * `bypass` — Bypass scanning on packets that contain an asymmetric path.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#asymmetric_path ZoneProtectionProfile#asymmetric_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#asymmetric_path ZoneProtectionProfile#asymmetric_path}
   */
   readonly asymmetricPath?: string;
   /**
   * The description of the profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#description ZoneProtectionProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#description ZoneProtectionProfile#description}
   */
   readonly description?: string;
   /**
   * The device in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#device ZoneProtectionProfile#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#device ZoneProtectionProfile#device}
   */
   readonly device?: string;
   /**
   * Discard ICMP packets that are embedded with an error message.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#discard_icmp_embedded_error ZoneProtectionProfile#discard_icmp_embedded_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#discard_icmp_embedded_error ZoneProtectionProfile#discard_icmp_embedded_error}
   */
   readonly discardIcmpEmbeddedError?: boolean | cdktf.IResolvable;
   /**
   * Flood
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#flood ZoneProtectionProfile#flood}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#flood ZoneProtectionProfile#flood}
   */
   readonly flood?: ZoneProtectionProfileFlood;
   /**
   * The folder in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#folder ZoneProtectionProfile#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#folder ZoneProtectionProfile#folder}
   */
   readonly folder?: string;
   /**
   * Discard fragmented IP packets.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#fragmented_traffic_discard ZoneProtectionProfile#fragmented_traffic_discard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#fragmented_traffic_discard ZoneProtectionProfile#fragmented_traffic_discard}
   */
   readonly fragmentedTrafficDiscard?: boolean | cdktf.IResolvable;
   /**
   * Discard packets that consist of ICMP fragments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#icmp_frag_discard ZoneProtectionProfile#icmp_frag_discard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#icmp_frag_discard ZoneProtectionProfile#icmp_frag_discard}
   */
   readonly icmpFragDiscard?: boolean | cdktf.IResolvable;
   /**
   * Discard ICMP packets that are larger than 1024 bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#icmp_large_packet_discard ZoneProtectionProfile#icmp_large_packet_discard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#icmp_large_packet_discard ZoneProtectionProfile#icmp_large_packet_discard}
   */
   readonly icmpLargePacketDiscard?: boolean | cdktf.IResolvable;
   /**
   * Discard packets if the ICMP ping packet has an identifier value of 0.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#icmp_ping_zero_id_discard ZoneProtectionProfile#icmp_ping_zero_id_discard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#icmp_ping_zero_id_discard ZoneProtectionProfile#icmp_ping_zero_id_discard}
   */
   readonly icmpPingZeroIdDiscard?: boolean | cdktf.IResolvable;
   /**
   * Ipv6
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#ipv6 ZoneProtectionProfile#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#ipv6 ZoneProtectionProfile#ipv6}
   */
   readonly ipv6?: ZoneProtectionProfileIpv6;
   /**
   * L2 sec group tag protection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#l2_sec_group_tag_protection ZoneProtectionProfile#l2_sec_group_tag_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#l2_sec_group_tag_protection ZoneProtectionProfile#l2_sec_group_tag_protection}
   */
   readonly l2SecGroupTagProtection?: ZoneProtectionProfileL2SecGroupTagProtection;
   /**
   * Discard packets with the Loose Source Routing IP option set. Loose Source Routing is an option whereby a source of a datagram provides routing information and a gateway or host is allowed to choose any route of a number of intermediate gateways to get the datagram to the next address in the route.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#loose_source_routing_discard ZoneProtectionProfile#loose_source_routing_discard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#loose_source_routing_discard ZoneProtectionProfile#loose_source_routing_discard}
   */
   readonly looseSourceRoutingDiscard?: boolean | cdktf.IResolvable;
   /**
   * Discard packets if they have incorrect combinations of class, number, and length based on RFCs 791, 1108, 1393, and 2113.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#malformed_option_discard ZoneProtectionProfile#malformed_option_discard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#malformed_option_discard ZoneProtectionProfile#malformed_option_discard}
   */
   readonly malformedOptionDiscard?: boolean | cdktf.IResolvable;
   /**
   * Drop packets with mismatched overlapping TCP segments.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#mismatched_overlapping_tcp_segment_discard ZoneProtectionProfile#mismatched_overlapping_tcp_segment_discard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#mismatched_overlapping_tcp_segment_discard ZoneProtectionProfile#mismatched_overlapping_tcp_segment_discard}
   */
   readonly mismatchedOverlappingTcpSegmentDiscard?: boolean | cdktf.IResolvable;
   /**
@@ -113,26 +113,26 @@ export interface ZoneProtectionProfileConfig extends cdktf.TerraformMetaArgument
   * * `global` — Support MPTCP based on the global MPTCP setting. By default, the global MPTCP setting is set to yes so that MPTCP is disabled (the MPTCP option is stripped from the packet).
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#mptcp_option_strip ZoneProtectionProfile#mptcp_option_strip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#mptcp_option_strip ZoneProtectionProfile#mptcp_option_strip}
   */
   readonly mptcpOptionStrip?: string;
   /**
   * The profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#name ZoneProtectionProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#name ZoneProtectionProfile#name}
   */
   readonly name: string;
   /**
   * Non ip protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#non_ip_protocol ZoneProtectionProfile#non_ip_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#non_ip_protocol ZoneProtectionProfile#non_ip_protocol}
   */
   readonly nonIpProtocol?: ZoneProtectionProfileNonIpProtocol;
   /**
   * Discard packets with the Record Route IP option set. When a datagram has this option, each router that routes the datagram adds its own IP address to the header, thus providing the path to the recipient.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#record_route_discard ZoneProtectionProfile#record_route_discard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#record_route_discard ZoneProtectionProfile#record_route_discard}
   */
   readonly recordRouteDiscard?: boolean | cdktf.IResolvable;
   /**
@@ -142,46 +142,46 @@ export interface ZoneProtectionProfileConfig extends cdktf.TerraformMetaArgument
   * * `no` — Accept non-SYN TCP.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#reject_non_syn_tcp ZoneProtectionProfile#reject_non_syn_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#reject_non_syn_tcp ZoneProtectionProfile#reject_non_syn_tcp}
   */
   readonly rejectNonSynTcp?: string;
   /**
   * Scan
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#scan ZoneProtectionProfile#scan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#scan ZoneProtectionProfile#scan}
   */
   readonly scan?: ZoneProtectionProfileScan[] | cdktf.IResolvable;
   /**
   * Scan white list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#scan_white_list ZoneProtectionProfile#scan_white_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#scan_white_list ZoneProtectionProfile#scan_white_list}
   */
   readonly scanWhiteList?: ZoneProtectionProfileScanWhiteListStruct[] | cdktf.IResolvable;
   /**
   * Discard packets if the security option is defined.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#security_discard ZoneProtectionProfile#security_discard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#security_discard ZoneProtectionProfile#security_discard}
   */
   readonly securityDiscard?: boolean | cdktf.IResolvable;
   /**
   * The snippet in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#snippet ZoneProtectionProfile#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#snippet ZoneProtectionProfile#snippet}
   */
   readonly snippet?: string;
   /**
   * Check that the source IP address of the ingress packet is routable and the routing interface is in the same zone as the ingress interface. If either condition is not true, discard the packet.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#spoofed_ip_discard ZoneProtectionProfile#spoofed_ip_discard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#spoofed_ip_discard ZoneProtectionProfile#spoofed_ip_discard}
   */
   readonly spoofedIpDiscard?: boolean | cdktf.IResolvable;
   /**
   * Discard packets if the Stream ID option is defined.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#stream_id_discard ZoneProtectionProfile#stream_id_discard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#stream_id_discard ZoneProtectionProfile#stream_id_discard}
   */
   readonly streamIdDiscard?: boolean | cdktf.IResolvable;
   /**
@@ -191,76 +191,76 @@ export interface ZoneProtectionProfileConfig extends cdktf.TerraformMetaArgument
   * If either condition is not true, discard the packet.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#strict_ip_check ZoneProtectionProfile#strict_ip_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#strict_ip_check ZoneProtectionProfile#strict_ip_check}
   */
   readonly strictIpCheck?: boolean | cdktf.IResolvable;
   /**
   * Discard packets with the Strict Source Routing IP option set. Strict Source Routing is an option whereby a source of a datagram provides routing information through which a gateway or host must send the datagram.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#strict_source_routing_discard ZoneProtectionProfile#strict_source_routing_discard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#strict_source_routing_discard ZoneProtectionProfile#strict_source_routing_discard}
   */
   readonly strictSourceRoutingDiscard?: boolean | cdktf.IResolvable;
   /**
   * Stop sending ICMP fragmentation needed messages in response to packets that exceed the interface MTU and have the do not fragment (DF) bit set. This setting will interfere with the PMTUD process performed by hosts behind the firewall.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#suppress_icmp_needfrag ZoneProtectionProfile#suppress_icmp_needfrag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#suppress_icmp_needfrag ZoneProtectionProfile#suppress_icmp_needfrag}
   */
   readonly suppressIcmpNeedfrag?: boolean | cdktf.IResolvable;
   /**
   * Stop sending ICMP TTL expired messages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#suppress_icmp_timeexceeded ZoneProtectionProfile#suppress_icmp_timeexceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#suppress_icmp_timeexceeded ZoneProtectionProfile#suppress_icmp_timeexceeded}
   */
   readonly suppressIcmpTimeexceeded?: boolean | cdktf.IResolvable;
   /**
   * Strip the TCP Fast Open option (and data payload, if any) from the TCP SYN or SYN-ACK packet during a TCP three-way handshake.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#tcp_fast_open_and_data_strip ZoneProtectionProfile#tcp_fast_open_and_data_strip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#tcp_fast_open_and_data_strip ZoneProtectionProfile#tcp_fast_open_and_data_strip}
   */
   readonly tcpFastOpenAndDataStrip?: boolean | cdktf.IResolvable;
   /**
   * Drop packets with split handshakes.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#tcp_handshake_discard ZoneProtectionProfile#tcp_handshake_discard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#tcp_handshake_discard ZoneProtectionProfile#tcp_handshake_discard}
   */
   readonly tcpHandshakeDiscard?: boolean | cdktf.IResolvable;
   /**
   * Prevent a TCP session from being established if the TCP SYN packet contains data during a three-way handshake.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#tcp_syn_with_data_discard ZoneProtectionProfile#tcp_syn_with_data_discard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#tcp_syn_with_data_discard ZoneProtectionProfile#tcp_syn_with_data_discard}
   */
   readonly tcpSynWithDataDiscard?: boolean | cdktf.IResolvable;
   /**
   * Prevent a TCP session from being established if the TCP SYN-ACK packet contains data during a three-way handshake.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#tcp_synack_with_data_discard ZoneProtectionProfile#tcp_synack_with_data_discard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#tcp_synack_with_data_discard ZoneProtectionProfile#tcp_synack_with_data_discard}
   */
   readonly tcpSynackWithDataDiscard?: boolean | cdktf.IResolvable;
   /**
   * Determine whether the packet has a TCP timestamp in the header and, if it does, strip the timestamp from the header.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#tcp_timestamp_strip ZoneProtectionProfile#tcp_timestamp_strip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#tcp_timestamp_strip ZoneProtectionProfile#tcp_timestamp_strip}
   */
   readonly tcpTimestampStrip?: boolean | cdktf.IResolvable;
   /**
   * Discard packets with the Timestamp IP option set.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#timestamp_discard ZoneProtectionProfile#timestamp_discard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#timestamp_discard ZoneProtectionProfile#timestamp_discard}
   */
   readonly timestampDiscard?: boolean | cdktf.IResolvable;
   /**
   * Discard packets if the class and number are unknown.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#unknown_option_discard ZoneProtectionProfile#unknown_option_discard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#unknown_option_discard ZoneProtectionProfile#unknown_option_discard}
   */
   readonly unknownOptionDiscard?: boolean | cdktf.IResolvable;
 }
@@ -268,19 +268,19 @@ export interface ZoneProtectionProfileFloodIcmpRed {
   /**
   * The number of ICMP packets (not matching an existing session) that the zone receives per second before subsequent ICMP packets are dropped.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#activate_rate ZoneProtectionProfile#activate_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#activate_rate ZoneProtectionProfile#activate_rate}
   */
   readonly activateRate: number;
   /**
   * The number of ICMP echo requests (pings not matching an existing session) that the zone receives per second that triggers an attack alarm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#alarm_rate ZoneProtectionProfile#alarm_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#alarm_rate ZoneProtectionProfile#alarm_rate}
   */
   readonly alarmRate: number;
   /**
   * The maximum number of ICMP packets (not matching an existing session) that the zone receives per second before packets exceeding the maximum are dropped.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#maximal_rate ZoneProtectionProfile#maximal_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#maximal_rate ZoneProtectionProfile#maximal_rate}
   */
   readonly maximalRate: number;
 }
@@ -425,13 +425,13 @@ export interface ZoneProtectionProfileFloodIcmp {
   /**
   * Enable protection against ICMP floods?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#enable ZoneProtectionProfile#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#enable ZoneProtectionProfile#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Red
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#red ZoneProtectionProfile#red}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#red ZoneProtectionProfile#red}
   */
   readonly red?: ZoneProtectionProfileFloodIcmpRed;
 }
@@ -556,19 +556,19 @@ export interface ZoneProtectionProfileFloodIcmpv6Red {
   /**
   * The number of ICMPv6 packets (not matching an existing session) that the zone receives per second before subsequent ICMPv6 packets are dropped.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#activate_rate ZoneProtectionProfile#activate_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#activate_rate ZoneProtectionProfile#activate_rate}
   */
   readonly activateRate: number;
   /**
   * The number of ICMPv6 echo requests (pings not matching an existing session) that the zone receives per second that triggers an attack alarm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#alarm_rate ZoneProtectionProfile#alarm_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#alarm_rate ZoneProtectionProfile#alarm_rate}
   */
   readonly alarmRate: number;
   /**
   * The maximum number of ICMPv6 packets (not matching an existing session) that the zone receives per second before packets exceeding the maximum are dropped.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#maximal_rate ZoneProtectionProfile#maximal_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#maximal_rate ZoneProtectionProfile#maximal_rate}
   */
   readonly maximalRate: number;
 }
@@ -713,13 +713,13 @@ export interface ZoneProtectionProfileFloodIcmpv6 {
   /**
   * Enable protection against ICMPv6 floods?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#enable ZoneProtectionProfile#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#enable ZoneProtectionProfile#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Red
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#red ZoneProtectionProfile#red}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#red ZoneProtectionProfile#red}
   */
   readonly red?: ZoneProtectionProfileFloodIcmpv6Red;
 }
@@ -844,19 +844,19 @@ export interface ZoneProtectionProfileFloodOtherIpRed {
   /**
   * Activate rate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#activate_rate ZoneProtectionProfile#activate_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#activate_rate ZoneProtectionProfile#activate_rate}
   */
   readonly activateRate: number;
   /**
   * Alarm rate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#alarm_rate ZoneProtectionProfile#alarm_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#alarm_rate ZoneProtectionProfile#alarm_rate}
   */
   readonly alarmRate: number;
   /**
   * Maximal rate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#maximal_rate ZoneProtectionProfile#maximal_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#maximal_rate ZoneProtectionProfile#maximal_rate}
   */
   readonly maximalRate: number;
 }
@@ -1001,13 +1001,13 @@ export interface ZoneProtectionProfileFloodOtherIp {
   /**
   * Enable protection against other IP (non-TCP, non-ICMP, non-ICMPv6, non-SCTP, and non-UDP) floods?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#enable ZoneProtectionProfile#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#enable ZoneProtectionProfile#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Red
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#red ZoneProtectionProfile#red}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#red ZoneProtectionProfile#red}
   */
   readonly red?: ZoneProtectionProfileFloodOtherIpRed;
 }
@@ -1132,19 +1132,19 @@ export interface ZoneProtectionProfileFloodSctpInitRed {
   /**
   * The number of SCTP INIT packets (not matching an existing session) that the zone receives per second before subsequent SCTP INIT packets are dropped.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#activate_rate ZoneProtectionProfile#activate_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#activate_rate ZoneProtectionProfile#activate_rate}
   */
   readonly activateRate: number;
   /**
   * The number of SCTP INIT packets (not matching an existing session) that the zone receives per second that triggers an attack alarm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#alarm_rate ZoneProtectionProfile#alarm_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#alarm_rate ZoneProtectionProfile#alarm_rate}
   */
   readonly alarmRate: number;
   /**
   * The maximum number of SCTP INIT packets (not matching an existing session) that the zone receives per second before packets exceeding the maximum are dropped.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#maximal_rate ZoneProtectionProfile#maximal_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#maximal_rate ZoneProtectionProfile#maximal_rate}
   */
   readonly maximalRate: number;
 }
@@ -1289,13 +1289,13 @@ export interface ZoneProtectionProfileFloodSctpInit {
   /**
   * Enable protection against floods of Stream Control Transmission Protocol (SCTP) packets that contain an Initiation (INIT) chunk?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#enable ZoneProtectionProfile#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#enable ZoneProtectionProfile#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Red
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#red ZoneProtectionProfile#red}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#red ZoneProtectionProfile#red}
   */
   readonly red?: ZoneProtectionProfileFloodSctpInitRed;
 }
@@ -1416,34 +1416,28 @@ export class ZoneProtectionProfileFloodSctpInitOutputReference extends cdktf.Com
     return this._red.internalValue;
   }
 }
-export interface ZoneProtectionProfileFloodTcpSyn {
+export interface ZoneProtectionProfileFloodTcpSynRed {
   /**
   * When the flow exceeds the `activate_rate`` threshold, the firewall drops individual SYN packets randomly to restrict the flow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#activate_rate ZoneProtectionProfile#activate_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#activate_rate ZoneProtectionProfile#activate_rate}
   */
-  readonly activateRate?: number;
+  readonly activateRate: number;
   /**
   * When the flow exceeds the `alert_rate`` threshold, an alarm is generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#alarm_rate ZoneProtectionProfile#alarm_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#alarm_rate ZoneProtectionProfile#alarm_rate}
   */
-  readonly alarmRate?: number;
-  /**
-  * Enable protection against SYN floods?
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#enable ZoneProtectionProfile#enable}
-  */
-  readonly enable?: boolean | cdktf.IResolvable;
+  readonly alarmRate: number;
   /**
   * When the flow exceeds the `maximal_rate` threshold, 100% of incoming SYN packets are dropped.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#maximal_rate ZoneProtectionProfile#maximal_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#maximal_rate ZoneProtectionProfile#maximal_rate}
   */
-  readonly maximalRate?: number;
+  readonly maximalRate: number;
 }
 
-export function zoneProtectionProfileFloodTcpSynToTerraform(struct?: ZoneProtectionProfileFloodTcpSyn | cdktf.IResolvable): any {
+export function zoneProtectionProfileFloodTcpSynRedToTerraform(struct?: ZoneProtectionProfileFloodTcpSynRed | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1451,13 +1445,12 @@ export function zoneProtectionProfileFloodTcpSynToTerraform(struct?: ZoneProtect
   return {
     activate_rate: cdktf.numberToTerraform(struct!.activateRate),
     alarm_rate: cdktf.numberToTerraform(struct!.alarmRate),
-    enable: cdktf.booleanToTerraform(struct!.enable),
     maximal_rate: cdktf.numberToTerraform(struct!.maximalRate),
   }
 }
 
 
-export function zoneProtectionProfileFloodTcpSynToHclTerraform(struct?: ZoneProtectionProfileFloodTcpSyn | cdktf.IResolvable): any {
+export function zoneProtectionProfileFloodTcpSynRedToHclTerraform(struct?: ZoneProtectionProfileFloodTcpSynRed | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1475,17 +1468,325 @@ export function zoneProtectionProfileFloodTcpSynToHclTerraform(struct?: ZoneProt
       type: "simple",
       storageClassType: "number",
     },
-    enable: {
-      value: cdktf.booleanToHclTerraform(struct!.enable),
+    maximal_rate: {
+      value: cdktf.numberToHclTerraform(struct!.maximalRate),
       isBlock: false,
       type: "simple",
-      storageClassType: "boolean",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ZoneProtectionProfileFloodTcpSynRedOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): ZoneProtectionProfileFloodTcpSynRed | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._activateRate !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.activateRate = this._activateRate;
+    }
+    if (this._alarmRate !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.alarmRate = this._alarmRate;
+    }
+    if (this._maximalRate !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maximalRate = this._maximalRate;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ZoneProtectionProfileFloodTcpSynRed | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._activateRate = undefined;
+      this._alarmRate = undefined;
+      this._maximalRate = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._activateRate = value.activateRate;
+      this._alarmRate = value.alarmRate;
+      this._maximalRate = value.maximalRate;
+    }
+  }
+
+  // activate_rate - computed: false, optional: false, required: true
+  private _activateRate?: number; 
+  public get activateRate() {
+    return this.getNumberAttribute('activate_rate');
+  }
+  public set activateRate(value: number) {
+    this._activateRate = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get activateRateInput() {
+    return this._activateRate;
+  }
+
+  // alarm_rate - computed: false, optional: false, required: true
+  private _alarmRate?: number; 
+  public get alarmRate() {
+    return this.getNumberAttribute('alarm_rate');
+  }
+  public set alarmRate(value: number) {
+    this._alarmRate = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get alarmRateInput() {
+    return this._alarmRate;
+  }
+
+  // maximal_rate - computed: false, optional: false, required: true
+  private _maximalRate?: number; 
+  public get maximalRate() {
+    return this.getNumberAttribute('maximal_rate');
+  }
+  public set maximalRate(value: number) {
+    this._maximalRate = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maximalRateInput() {
+    return this._maximalRate;
+  }
+}
+export interface ZoneProtectionProfileFloodTcpSynSynCookies {
+  /**
+  * When the flow exceeds the `activate_rate`` threshold, the firewall drops individual SYN packets randomly to restrict the flow.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#activate_rate ZoneProtectionProfile#activate_rate}
+  */
+  readonly activateRate: number;
+  /**
+  * When the flow exceeds the `alert_rate`` threshold, an alarm is generated.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#alarm_rate ZoneProtectionProfile#alarm_rate}
+  */
+  readonly alarmRate: number;
+  /**
+  * When the flow exceeds the `maximal_rate` threshold, 100% of incoming SYN packets are dropped.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#maximal_rate ZoneProtectionProfile#maximal_rate}
+  */
+  readonly maximalRate: number;
+}
+
+export function zoneProtectionProfileFloodTcpSynSynCookiesToTerraform(struct?: ZoneProtectionProfileFloodTcpSynSynCookies | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    activate_rate: cdktf.numberToTerraform(struct!.activateRate),
+    alarm_rate: cdktf.numberToTerraform(struct!.alarmRate),
+    maximal_rate: cdktf.numberToTerraform(struct!.maximalRate),
+  }
+}
+
+
+export function zoneProtectionProfileFloodTcpSynSynCookiesToHclTerraform(struct?: ZoneProtectionProfileFloodTcpSynSynCookies | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    activate_rate: {
+      value: cdktf.numberToHclTerraform(struct!.activateRate),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    alarm_rate: {
+      value: cdktf.numberToHclTerraform(struct!.alarmRate),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
     },
     maximal_rate: {
       value: cdktf.numberToHclTerraform(struct!.maximalRate),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ZoneProtectionProfileFloodTcpSynSynCookiesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): ZoneProtectionProfileFloodTcpSynSynCookies | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._activateRate !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.activateRate = this._activateRate;
+    }
+    if (this._alarmRate !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.alarmRate = this._alarmRate;
+    }
+    if (this._maximalRate !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maximalRate = this._maximalRate;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ZoneProtectionProfileFloodTcpSynSynCookies | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._activateRate = undefined;
+      this._alarmRate = undefined;
+      this._maximalRate = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._activateRate = value.activateRate;
+      this._alarmRate = value.alarmRate;
+      this._maximalRate = value.maximalRate;
+    }
+  }
+
+  // activate_rate - computed: false, optional: false, required: true
+  private _activateRate?: number; 
+  public get activateRate() {
+    return this.getNumberAttribute('activate_rate');
+  }
+  public set activateRate(value: number) {
+    this._activateRate = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get activateRateInput() {
+    return this._activateRate;
+  }
+
+  // alarm_rate - computed: false, optional: false, required: true
+  private _alarmRate?: number; 
+  public get alarmRate() {
+    return this.getNumberAttribute('alarm_rate');
+  }
+  public set alarmRate(value: number) {
+    this._alarmRate = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get alarmRateInput() {
+    return this._alarmRate;
+  }
+
+  // maximal_rate - computed: false, optional: false, required: true
+  private _maximalRate?: number; 
+  public get maximalRate() {
+    return this.getNumberAttribute('maximal_rate');
+  }
+  public set maximalRate(value: number) {
+    this._maximalRate = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maximalRateInput() {
+    return this._maximalRate;
+  }
+}
+export interface ZoneProtectionProfileFloodTcpSyn {
+  /**
+  * Enable protection against SYN floods?
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#enable ZoneProtectionProfile#enable}
+  */
+  readonly enable?: boolean | cdktf.IResolvable;
+  /**
+  * Red
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#red ZoneProtectionProfile#red}
+  */
+  readonly red?: ZoneProtectionProfileFloodTcpSynRed;
+  /**
+  * Syn cookies
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#syn_cookies ZoneProtectionProfile#syn_cookies}
+  */
+  readonly synCookies?: ZoneProtectionProfileFloodTcpSynSynCookies;
+}
+
+export function zoneProtectionProfileFloodTcpSynToTerraform(struct?: ZoneProtectionProfileFloodTcpSyn | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    enable: cdktf.booleanToTerraform(struct!.enable),
+    red: zoneProtectionProfileFloodTcpSynRedToTerraform(struct!.red),
+    syn_cookies: zoneProtectionProfileFloodTcpSynSynCookiesToTerraform(struct!.synCookies),
+  }
+}
+
+
+export function zoneProtectionProfileFloodTcpSynToHclTerraform(struct?: ZoneProtectionProfileFloodTcpSyn | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    enable: {
+      value: cdktf.booleanToHclTerraform(struct!.enable),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    red: {
+      value: zoneProtectionProfileFloodTcpSynRedToHclTerraform(struct!.red),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "ZoneProtectionProfileFloodTcpSynRed",
+    },
+    syn_cookies: {
+      value: zoneProtectionProfileFloodTcpSynSynCookiesToHclTerraform(struct!.synCookies),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "ZoneProtectionProfileFloodTcpSynSynCookies",
     },
   };
 
@@ -1511,21 +1812,17 @@ export class ZoneProtectionProfileFloodTcpSynOutputReference extends cdktf.Compl
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
-    if (this._activateRate !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.activateRate = this._activateRate;
-    }
-    if (this._alarmRate !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.alarmRate = this._alarmRate;
-    }
     if (this._enable !== undefined) {
       hasAnyValues = true;
       internalValueResult.enable = this._enable;
     }
-    if (this._maximalRate !== undefined) {
+    if (this._red?.internalValue !== undefined) {
       hasAnyValues = true;
-      internalValueResult.maximalRate = this._maximalRate;
+      internalValueResult.red = this._red?.internalValue;
+    }
+    if (this._synCookies?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.synCookies = this._synCookies?.internalValue;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -1534,10 +1831,9 @@ export class ZoneProtectionProfileFloodTcpSynOutputReference extends cdktf.Compl
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
-      this._activateRate = undefined;
-      this._alarmRate = undefined;
       this._enable = undefined;
-      this._maximalRate = undefined;
+      this._red.internalValue = undefined;
+      this._synCookies.internalValue = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -1546,43 +1842,10 @@ export class ZoneProtectionProfileFloodTcpSynOutputReference extends cdktf.Compl
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
-      this._activateRate = value.activateRate;
-      this._alarmRate = value.alarmRate;
       this._enable = value.enable;
-      this._maximalRate = value.maximalRate;
+      this._red.internalValue = value.red;
+      this._synCookies.internalValue = value.synCookies;
     }
-  }
-
-  // activate_rate - computed: false, optional: true, required: false
-  private _activateRate?: number; 
-  public get activateRate() {
-    return this.getNumberAttribute('activate_rate');
-  }
-  public set activateRate(value: number) {
-    this._activateRate = value;
-  }
-  public resetActivateRate() {
-    this._activateRate = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get activateRateInput() {
-    return this._activateRate;
-  }
-
-  // alarm_rate - computed: false, optional: true, required: false
-  private _alarmRate?: number; 
-  public get alarmRate() {
-    return this.getNumberAttribute('alarm_rate');
-  }
-  public set alarmRate(value: number) {
-    this._alarmRate = value;
-  }
-  public resetAlarmRate() {
-    this._alarmRate = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get alarmRateInput() {
-    return this._alarmRate;
   }
 
   // enable - computed: false, optional: true, required: false
@@ -1601,39 +1864,55 @@ export class ZoneProtectionProfileFloodTcpSynOutputReference extends cdktf.Compl
     return this._enable;
   }
 
-  // maximal_rate - computed: false, optional: true, required: false
-  private _maximalRate?: number; 
-  public get maximalRate() {
-    return this.getNumberAttribute('maximal_rate');
+  // red - computed: false, optional: true, required: false
+  private _red = new ZoneProtectionProfileFloodTcpSynRedOutputReference(this, "red");
+  public get red() {
+    return this._red;
   }
-  public set maximalRate(value: number) {
-    this._maximalRate = value;
+  public putRed(value: ZoneProtectionProfileFloodTcpSynRed) {
+    this._red.internalValue = value;
   }
-  public resetMaximalRate() {
-    this._maximalRate = undefined;
+  public resetRed() {
+    this._red.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get maximalRateInput() {
-    return this._maximalRate;
+  public get redInput() {
+    return this._red.internalValue;
+  }
+
+  // syn_cookies - computed: false, optional: true, required: false
+  private _synCookies = new ZoneProtectionProfileFloodTcpSynSynCookiesOutputReference(this, "syn_cookies");
+  public get synCookies() {
+    return this._synCookies;
+  }
+  public putSynCookies(value: ZoneProtectionProfileFloodTcpSynSynCookies) {
+    this._synCookies.internalValue = value;
+  }
+  public resetSynCookies() {
+    this._synCookies.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get synCookiesInput() {
+    return this._synCookies.internalValue;
   }
 }
 export interface ZoneProtectionProfileFloodUdpRed {
   /**
   * The number of UDP packets (not matching an existing session) that the zone receives per second that triggers random dropping of UDP packets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#activate_rate ZoneProtectionProfile#activate_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#activate_rate ZoneProtectionProfile#activate_rate}
   */
   readonly activateRate: number;
   /**
   * The number of UDP packets (not matching an existing session) that the zone receives per second that triggers an attack alarm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#alarm_rate ZoneProtectionProfile#alarm_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#alarm_rate ZoneProtectionProfile#alarm_rate}
   */
   readonly alarmRate: number;
   /**
   * The maximum number of UDP packets (not matching an existing session) the zone receives per second before packets exceeding the maximum are dropped.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#maximal_rate ZoneProtectionProfile#maximal_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#maximal_rate ZoneProtectionProfile#maximal_rate}
   */
   readonly maximalRate: number;
 }
@@ -1778,13 +2057,13 @@ export interface ZoneProtectionProfileFloodUdp {
   /**
   * Enable protection against UDP floods?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#enable ZoneProtectionProfile#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#enable ZoneProtectionProfile#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Red
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#red ZoneProtectionProfile#red}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#red ZoneProtectionProfile#red}
   */
   readonly red?: ZoneProtectionProfileFloodUdpRed;
 }
@@ -1909,37 +2188,37 @@ export interface ZoneProtectionProfileFlood {
   /**
   * Icmp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#icmp ZoneProtectionProfile#icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#icmp ZoneProtectionProfile#icmp}
   */
   readonly icmp?: ZoneProtectionProfileFloodIcmp;
   /**
   * Icmpv6
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#icmpv6 ZoneProtectionProfile#icmpv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#icmpv6 ZoneProtectionProfile#icmpv6}
   */
   readonly icmpv6?: ZoneProtectionProfileFloodIcmpv6;
   /**
   * Other ip
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#other_ip ZoneProtectionProfile#other_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#other_ip ZoneProtectionProfile#other_ip}
   */
   readonly otherIp?: ZoneProtectionProfileFloodOtherIp;
   /**
   * Sctp init
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#sctp_init ZoneProtectionProfile#sctp_init}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#sctp_init ZoneProtectionProfile#sctp_init}
   */
   readonly sctpInit?: ZoneProtectionProfileFloodSctpInit;
   /**
   * Tcp syn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#tcp_syn ZoneProtectionProfile#tcp_syn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#tcp_syn ZoneProtectionProfile#tcp_syn}
   */
   readonly tcpSyn?: ZoneProtectionProfileFloodTcpSyn;
   /**
   * Udp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#udp ZoneProtectionProfile#udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#udp ZoneProtectionProfile#udp}
   */
   readonly udp?: ZoneProtectionProfileFloodUdp;
 }
@@ -2180,19 +2459,19 @@ export interface ZoneProtectionProfileIpv6FilterExtHdr {
   /**
   * Discard IPv6 packets that contain the Destination Options extension, which contains options intended only for the destination of the packet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#dest_option_hdr ZoneProtectionProfile#dest_option_hdr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#dest_option_hdr ZoneProtectionProfile#dest_option_hdr}
   */
   readonly destOptionHdr?: boolean | cdktf.IResolvable;
   /**
   * Discard IPv6 packets that contain the Hop-by-Hop Options extension header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#hop_by_hop_hdr ZoneProtectionProfile#hop_by_hop_hdr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#hop_by_hop_hdr ZoneProtectionProfile#hop_by_hop_hdr}
   */
   readonly hopByHopHdr?: boolean | cdktf.IResolvable;
   /**
   * Discard IPv6 packets that contain the Routing extension header, which directs packets to one or more intermediate nodes on its way to its destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#routing_hdr ZoneProtectionProfile#routing_hdr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#routing_hdr ZoneProtectionProfile#routing_hdr}
   */
   readonly routingHdr?: boolean | cdktf.IResolvable;
 }
@@ -2346,31 +2625,31 @@ export interface ZoneProtectionProfileIpv6IgnoreInvPkt {
   /**
   * Require an explicit Security policy match for Destination Unreachable ICMPv6 messages, even when the message is associated with an existing session.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#dest_unreach ZoneProtectionProfile#dest_unreach}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#dest_unreach ZoneProtectionProfile#dest_unreach}
   */
   readonly destUnreach?: boolean | cdktf.IResolvable;
   /**
   * Require an explicit Security policy match for Parameter Problem ICMPv6 messages, even when the message is associated with an existing session.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#param_problem ZoneProtectionProfile#param_problem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#param_problem ZoneProtectionProfile#param_problem}
   */
   readonly paramProblem?: boolean | cdktf.IResolvable;
   /**
   * Require an explicit Security policy match for Packet Too Big ICMPv6 messages, even when the message is associated with an existing session.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#pkt_too_big ZoneProtectionProfile#pkt_too_big}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#pkt_too_big ZoneProtectionProfile#pkt_too_big}
   */
   readonly pktTooBig?: boolean | cdktf.IResolvable;
   /**
   * Require an explicit Security policy match for Redirect Message ICMPv6 messages, even when the message is associated with an existing session.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#redirect ZoneProtectionProfile#redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#redirect ZoneProtectionProfile#redirect}
   */
   readonly redirect?: boolean | cdktf.IResolvable;
   /**
   * Require an explicit Security policy match for Time Exceeded ICMPv6 messages, even when the message is associated with an existing session.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#time_exceeded ZoneProtectionProfile#time_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#time_exceeded ZoneProtectionProfile#time_exceeded}
   */
   readonly timeExceeded?: boolean | cdktf.IResolvable;
 }
@@ -2582,91 +2861,91 @@ export interface ZoneProtectionProfileIpv6 {
   /**
   * Discard IPv6 packets that contain an anycast source address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#anycast_source ZoneProtectionProfile#anycast_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#anycast_source ZoneProtectionProfile#anycast_source}
   */
   readonly anycastSource?: boolean | cdktf.IResolvable;
   /**
   * Filter ext hdr
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#filter_ext_hdr ZoneProtectionProfile#filter_ext_hdr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#filter_ext_hdr ZoneProtectionProfile#filter_ext_hdr}
   */
   readonly filterExtHdr?: ZoneProtectionProfileIpv6FilterExtHdr;
   /**
   * Discard IPv6 packets that contain a Packet Too Big ICMPv6 message when the maximum transmission unit (MTU) is less than 1,280 bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#icmpv6_too_big_small_mtu_discard ZoneProtectionProfile#icmpv6_too_big_small_mtu_discard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#icmpv6_too_big_small_mtu_discard ZoneProtectionProfile#icmpv6_too_big_small_mtu_discard}
   */
   readonly icmpv6TooBigSmallMtuDiscard?: boolean | cdktf.IResolvable;
   /**
   * Ignore inv pkt
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#ignore_inv_pkt ZoneProtectionProfile#ignore_inv_pkt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#ignore_inv_pkt ZoneProtectionProfile#ignore_inv_pkt}
   */
   readonly ignoreInvPkt?: ZoneProtectionProfileIpv6IgnoreInvPkt;
   /**
   * Discard IPv6 packets that are defined as an RFC 4291 IPv4-Compatible IPv6 address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#ipv4_compatible_address ZoneProtectionProfile#ipv4_compatible_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#ipv4_compatible_address ZoneProtectionProfile#ipv4_compatible_address}
   */
   readonly ipv4CompatibleAddress?: boolean | cdktf.IResolvable;
   /**
   * Discard IPv6 packets with the last fragment flag (M=0) and offset of zero.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#needless_fragment_hdr ZoneProtectionProfile#needless_fragment_hdr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#needless_fragment_hdr ZoneProtectionProfile#needless_fragment_hdr}
   */
   readonly needlessFragmentHdr?: boolean | cdktf.IResolvable;
   /**
   * Discard IPv6 packets that contain invalid IPv6 options in an extension header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#options_invalid_ipv6_discard ZoneProtectionProfile#options_invalid_ipv6_discard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#options_invalid_ipv6_discard ZoneProtectionProfile#options_invalid_ipv6_discard}
   */
   readonly optionsInvalidIpv6Discard?: boolean | cdktf.IResolvable;
   /**
   * Discard IPv6 packets that have a header with a reserved field not set to zero.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#reserved_field_set_discard ZoneProtectionProfile#reserved_field_set_discard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#reserved_field_set_discard ZoneProtectionProfile#reserved_field_set_discard}
   */
   readonly reservedFieldSetDiscard?: boolean | cdktf.IResolvable;
   /**
   * Drop packets with type 0 routing header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#routing_header_0 ZoneProtectionProfile#routing_header_0}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#routing_header_0 ZoneProtectionProfile#routing_header_0}
   */
   readonly routingHeader0?: boolean | cdktf.IResolvable;
   /**
   * Drop packets with type 1 routing header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#routing_header_1 ZoneProtectionProfile#routing_header_1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#routing_header_1 ZoneProtectionProfile#routing_header_1}
   */
   readonly routingHeader1?: boolean | cdktf.IResolvable;
   /**
   * Drop packets with type 253 routing header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#routing_header_253 ZoneProtectionProfile#routing_header_253}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#routing_header_253 ZoneProtectionProfile#routing_header_253}
   */
   readonly routingHeader253?: boolean | cdktf.IResolvable;
   /**
   * Drop packets with type 254 routing header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#routing_header_254 ZoneProtectionProfile#routing_header_254}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#routing_header_254 ZoneProtectionProfile#routing_header_254}
   */
   readonly routingHeader254?: boolean | cdktf.IResolvable;
   /**
   * Drop packets with type 255 routing header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#routing_header_255 ZoneProtectionProfile#routing_header_255}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#routing_header_255 ZoneProtectionProfile#routing_header_255}
   */
   readonly routingHeader255?: boolean | cdktf.IResolvable;
   /**
   * Drop packets with type 3 routing header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#routing_header_3 ZoneProtectionProfile#routing_header_3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#routing_header_3 ZoneProtectionProfile#routing_header_3}
   */
   readonly routingHeader3?: boolean | cdktf.IResolvable;
   /**
   * Drop packets with type 4 to type 252 routing header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#routing_header_4_252 ZoneProtectionProfile#routing_header_4_252}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#routing_header_4_252 ZoneProtectionProfile#routing_header_4_252}
   */
   readonly routingHeader4252?: boolean | cdktf.IResolvable;
 }
@@ -3168,19 +3447,19 @@ export interface ZoneProtectionProfileL2SecGroupTagProtectionTags {
   /**
   * Enable this exclude list for Ethernet SGT protection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#enable ZoneProtectionProfile#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#enable ZoneProtectionProfile#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Name for the list of Security Group Tags (SGTs).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#name ZoneProtectionProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#name ZoneProtectionProfile#name}
   */
   readonly name: string;
   /**
   * The Layer 2 SGTs in headers of packets that you want to exclude (drop) when the SGT matches this list in the Zone Protection profile applied to a zone (range is 0 to 65,535).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#tag ZoneProtectionProfile#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#tag ZoneProtectionProfile#tag}
   */
   readonly tag: string;
 }
@@ -3350,7 +3629,7 @@ export interface ZoneProtectionProfileL2SecGroupTagProtection {
   /**
   * Tags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#tags ZoneProtectionProfile#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#tags ZoneProtectionProfile#tags}
   */
   readonly tags?: ZoneProtectionProfileL2SecGroupTagProtectionTags[] | cdktf.IResolvable;
 }
@@ -3446,7 +3725,7 @@ export interface ZoneProtectionProfileNonIpProtocolProtocol {
   /**
   * Enable the Ethertype code on the list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#enable ZoneProtectionProfile#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#enable ZoneProtectionProfile#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
@@ -3456,14 +3735,14 @@ export interface ZoneProtectionProfileNonIpProtocolProtocol {
   * * [www.cavebear.com/archive/cavebear/Ethernet/type.html](https://www.cavebear.com/archive/cavebear/Ethernet/type.html)
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#ether_type ZoneProtectionProfile#ether_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#ether_type ZoneProtectionProfile#ether_type}
   */
   readonly etherType: string;
   /**
   * Enter the protocol name that corresponds to the Ethertype code you are adding to the list. The firewall does not verify that the protocol name matches the Ethertype code but the Ethertype code does determine the protocol filter.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#name ZoneProtectionProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#name ZoneProtectionProfile#name}
   */
   readonly name: string;
 }
@@ -3636,13 +3915,13 @@ export interface ZoneProtectionProfileNonIpProtocol {
   * * Exclude List—Only the protocols on the list are denied; all other protocols are implicitly allowed. You cannot exclude IPv4 (0x0800), IPv6 (0x86DD), ARP (0x0806), or VLAN tagged frames (0x8100).
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#list_type ZoneProtectionProfile#list_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#list_type ZoneProtectionProfile#list_type}
   */
   readonly listType?: string;
   /**
   * Protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#protocol ZoneProtectionProfile#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#protocol ZoneProtectionProfile#protocol}
   */
   readonly protocol?: ZoneProtectionProfileNonIpProtocolProtocol[] | cdktf.IResolvable;
 }
@@ -3940,37 +4219,156 @@ export class ZoneProtectionProfileScanActionBlockOutputReference extends cdktf.C
     }
   }
 }
+export interface ZoneProtectionProfileScanActionBlockIp {
+  /**
+  * Duration
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#duration ZoneProtectionProfile#duration}
+  */
+  readonly duration: number;
+  /**
+  * Track by
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#track_by ZoneProtectionProfile#track_by}
+  */
+  readonly trackBy: string;
+}
+
+export function zoneProtectionProfileScanActionBlockIpToTerraform(struct?: ZoneProtectionProfileScanActionBlockIp | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    duration: cdktf.numberToTerraform(struct!.duration),
+    track_by: cdktf.stringToTerraform(struct!.trackBy),
+  }
+}
+
+
+export function zoneProtectionProfileScanActionBlockIpToHclTerraform(struct?: ZoneProtectionProfileScanActionBlockIp | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    duration: {
+      value: cdktf.numberToHclTerraform(struct!.duration),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    track_by: {
+      value: cdktf.stringToHclTerraform(struct!.trackBy),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ZoneProtectionProfileScanActionBlockIpOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): ZoneProtectionProfileScanActionBlockIp | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._duration !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.duration = this._duration;
+    }
+    if (this._trackBy !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.trackBy = this._trackBy;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ZoneProtectionProfileScanActionBlockIp | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._duration = undefined;
+      this._trackBy = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._duration = value.duration;
+      this._trackBy = value.trackBy;
+    }
+  }
+
+  // duration - computed: false, optional: false, required: true
+  private _duration?: number; 
+  public get duration() {
+    return this.getNumberAttribute('duration');
+  }
+  public set duration(value: number) {
+    this._duration = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get durationInput() {
+    return this._duration;
+  }
+
+  // track_by - computed: false, optional: false, required: true
+  private _trackBy?: string; 
+  public get trackBy() {
+    return this.getStringAttribute('track_by');
+  }
+  public set trackBy(value: string) {
+    this._trackBy = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get trackByInput() {
+    return this._trackBy;
+  }
+}
 export interface ZoneProtectionProfileScanAction {
   /**
   * Alert
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#alert ZoneProtectionProfile#alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#alert ZoneProtectionProfile#alert}
   */
   readonly alert?: ZoneProtectionProfileScanActionAlert;
   /**
   * Allow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#allow ZoneProtectionProfile#allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#allow ZoneProtectionProfile#allow}
   */
   readonly allow?: ZoneProtectionProfileScanActionAllow;
   /**
   * Block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#block ZoneProtectionProfile#block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#block ZoneProtectionProfile#block}
   */
   readonly block?: ZoneProtectionProfileScanActionBlock;
   /**
-  * Duration
+  * Block ip
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#duration ZoneProtectionProfile#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#block_ip ZoneProtectionProfile#block_ip}
   */
-  readonly duration?: number;
-  /**
-  * Track by
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#track_by ZoneProtectionProfile#track_by}
-  */
-  readonly trackBy?: string;
+  readonly blockIp?: ZoneProtectionProfileScanActionBlockIp;
 }
 
 export function zoneProtectionProfileScanActionToTerraform(struct?: ZoneProtectionProfileScanAction | cdktf.IResolvable): any {
@@ -3982,8 +4380,7 @@ export function zoneProtectionProfileScanActionToTerraform(struct?: ZoneProtecti
     alert: zoneProtectionProfileScanActionAlertToTerraform(struct!.alert),
     allow: zoneProtectionProfileScanActionAllowToTerraform(struct!.allow),
     block: zoneProtectionProfileScanActionBlockToTerraform(struct!.block),
-    duration: cdktf.numberToTerraform(struct!.duration),
-    track_by: cdktf.stringToTerraform(struct!.trackBy),
+    block_ip: zoneProtectionProfileScanActionBlockIpToTerraform(struct!.blockIp),
   }
 }
 
@@ -4012,17 +4409,11 @@ export function zoneProtectionProfileScanActionToHclTerraform(struct?: ZoneProte
       type: "struct",
       storageClassType: "ZoneProtectionProfileScanActionBlock",
     },
-    duration: {
-      value: cdktf.numberToHclTerraform(struct!.duration),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    track_by: {
-      value: cdktf.stringToHclTerraform(struct!.trackBy),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
+    block_ip: {
+      value: zoneProtectionProfileScanActionBlockIpToHclTerraform(struct!.blockIp),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "ZoneProtectionProfileScanActionBlockIp",
     },
   };
 
@@ -4060,13 +4451,9 @@ export class ZoneProtectionProfileScanActionOutputReference extends cdktf.Comple
       hasAnyValues = true;
       internalValueResult.block = this._block?.internalValue;
     }
-    if (this._duration !== undefined) {
+    if (this._blockIp?.internalValue !== undefined) {
       hasAnyValues = true;
-      internalValueResult.duration = this._duration;
-    }
-    if (this._trackBy !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.trackBy = this._trackBy;
+      internalValueResult.blockIp = this._blockIp?.internalValue;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -4078,8 +4465,7 @@ export class ZoneProtectionProfileScanActionOutputReference extends cdktf.Comple
       this._alert.internalValue = undefined;
       this._allow.internalValue = undefined;
       this._block.internalValue = undefined;
-      this._duration = undefined;
-      this._trackBy = undefined;
+      this._blockIp.internalValue = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -4091,8 +4477,7 @@ export class ZoneProtectionProfileScanActionOutputReference extends cdktf.Comple
       this._alert.internalValue = value.alert;
       this._allow.internalValue = value.allow;
       this._block.internalValue = value.block;
-      this._duration = value.duration;
-      this._trackBy = value.trackBy;
+      this._blockIp.internalValue = value.blockIp;
     }
   }
 
@@ -4144,49 +4529,33 @@ export class ZoneProtectionProfileScanActionOutputReference extends cdktf.Comple
     return this._block.internalValue;
   }
 
-  // duration - computed: false, optional: true, required: false
-  private _duration?: number; 
-  public get duration() {
-    return this.getNumberAttribute('duration');
+  // block_ip - computed: false, optional: true, required: false
+  private _blockIp = new ZoneProtectionProfileScanActionBlockIpOutputReference(this, "block_ip");
+  public get blockIp() {
+    return this._blockIp;
   }
-  public set duration(value: number) {
-    this._duration = value;
+  public putBlockIp(value: ZoneProtectionProfileScanActionBlockIp) {
+    this._blockIp.internalValue = value;
   }
-  public resetDuration() {
-    this._duration = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get durationInput() {
-    return this._duration;
-  }
-
-  // track_by - computed: false, optional: true, required: false
-  private _trackBy?: string; 
-  public get trackBy() {
-    return this.getStringAttribute('track_by');
-  }
-  public set trackBy(value: string) {
-    this._trackBy = value;
-  }
-  public resetTrackBy() {
-    this._trackBy = undefined;
+  public resetBlockIp() {
+    this._blockIp.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get trackByInput() {
-    return this._trackBy;
+  public get blockIpInput() {
+    return this._blockIp.internalValue;
   }
 }
 export interface ZoneProtectionProfileScan {
   /**
   * Action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#action ZoneProtectionProfile#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#action ZoneProtectionProfile#action}
   */
   readonly action?: ZoneProtectionProfileScanAction;
   /**
   * Interval
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#interval ZoneProtectionProfile#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#interval ZoneProtectionProfile#interval}
   */
   readonly interval?: number;
   /**
@@ -4197,13 +4566,13 @@ export interface ZoneProtectionProfileScan {
   * * "8006" - Port Scan
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#name ZoneProtectionProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#name ZoneProtectionProfile#name}
   */
   readonly name: string;
   /**
   * Threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#threshold ZoneProtectionProfile#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#threshold ZoneProtectionProfile#threshold}
   */
   readonly threshold?: number;
 }
@@ -4405,19 +4774,19 @@ export interface ZoneProtectionProfileScanWhiteListStruct {
   /**
   * Ipv4
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#ipv4 ZoneProtectionProfile#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#ipv4 ZoneProtectionProfile#ipv4}
   */
   readonly ipv4?: string;
   /**
   * Ipv6
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#ipv6 ZoneProtectionProfile#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#ipv6 ZoneProtectionProfile#ipv6}
   */
   readonly ipv6?: string;
   /**
   * A descriptive name for the address to exclude.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#name ZoneProtectionProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#name ZoneProtectionProfile#name}
   */
   readonly name: string;
 }
@@ -4588,7 +4957,7 @@ export class ZoneProtectionProfileScanWhiteListStructList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile scm_zone_protection_profile}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile scm_zone_protection_profile}
 */
 export class ZoneProtectionProfile extends cdktf.TerraformResource {
 
@@ -4604,7 +4973,7 @@ export class ZoneProtectionProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ZoneProtectionProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ZoneProtectionProfile to import
-  * @param importFromId The id of the existing ZoneProtectionProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ZoneProtectionProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ZoneProtectionProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4616,7 +4985,7 @@ export class ZoneProtectionProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/zone_protection_profile scm_zone_protection_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/zone_protection_profile scm_zone_protection_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4627,7 +4996,8 @@ export class ZoneProtectionProfile extends cdktf.TerraformResource {
       terraformResourceType: 'scm_zone_protection_profile',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.3'
+        providerVersion: '1.0.4',
+        providerVersionConstraint: '1.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

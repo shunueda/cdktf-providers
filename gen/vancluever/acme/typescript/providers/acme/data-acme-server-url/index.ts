@@ -56,7 +56,8 @@ export class DataAcmeServerUrl extends cdktf.TerraformDataSource {
       terraformResourceType: 'acme_server_url',
       terraformGeneratorMetadata: {
         providerName: 'acme',
-        providerVersion: '2.38.0'
+        providerVersion: '2.38.0',
+        providerVersionConstraint: '2.38.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

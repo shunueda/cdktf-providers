@@ -337,7 +337,8 @@ export class VaultSigningKey extends cdktf.TerraformResource {
       terraformResourceType: 'distribution_vault_signing_key',
       terraformGeneratorMetadata: {
         providerName: 'distribution',
-        providerVersion: '1.3.0'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

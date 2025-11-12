@@ -1990,7 +1990,8 @@ export class DataAlzArchitecture extends cdktf.TerraformDataSource {
       terraformResourceType: 'alz_architecture',
       terraformGeneratorMetadata: {
         providerName: 'alz',
-        providerVersion: '0.20.0'
+        providerVersion: '0.20.0',
+        providerVersionConstraint: '0.20.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

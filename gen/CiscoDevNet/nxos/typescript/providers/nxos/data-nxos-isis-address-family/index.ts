@@ -73,7 +73,8 @@ export class DataNxosIsisAddressFamily extends cdktf.TerraformDataSource {
       terraformResourceType: 'nxos_isis_address_family',
       terraformGeneratorMetadata: {
         providerName: 'nxos',
-        providerVersion: '0.5.10'
+        providerVersion: '0.5.10',
+        providerVersionConstraint: '0.5.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

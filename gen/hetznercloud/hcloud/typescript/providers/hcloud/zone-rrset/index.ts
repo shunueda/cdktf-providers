@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/resources/zone_rrset
+// https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/zone_rrset
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface ZoneRrsetConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether change protection is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/resources/zone_rrset#change_protection ZoneRrset#change_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/zone_rrset#change_protection ZoneRrset#change_protection}
   */
   readonly changeProtection?: boolean | cdktf.IResolvable;
   /**
   * User-defined [labels](https://docs.hetzner.cloud/reference/cloud#labels) (key-value pairs) for the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/resources/zone_rrset#labels ZoneRrset#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/zone_rrset#labels ZoneRrset#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Name of the Zone RRSet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/resources/zone_rrset#name ZoneRrset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/zone_rrset#name ZoneRrset#name}
   */
   readonly name: string;
   /**
   * Records of the Zone RRSet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/resources/zone_rrset#records ZoneRrset#records}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/zone_rrset#records ZoneRrset#records}
   */
   readonly records: ZoneRrsetRecords[] | cdktf.IResolvable;
   /**
   * Time To Live (TTL) of the Zone RRSet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/resources/zone_rrset#ttl ZoneRrset#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/zone_rrset#ttl ZoneRrset#ttl}
   */
   readonly ttl?: number;
   /**
   * Type of the Zone RRSet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/resources/zone_rrset#type ZoneRrset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/zone_rrset#type ZoneRrset#type}
   */
   readonly type: string;
   /**
   * ID or Name of the parent Zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/resources/zone_rrset#zone ZoneRrset#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/zone_rrset#zone ZoneRrset#zone}
   */
   readonly zone: string;
 }
@@ -54,13 +54,13 @@ export interface ZoneRrsetRecords {
   /**
   * Comment of the record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/resources/zone_rrset#comment ZoneRrset#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/zone_rrset#comment ZoneRrset#comment}
   */
   readonly comment?: string;
   /**
   * Value of the record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/resources/zone_rrset#value ZoneRrset#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/zone_rrset#value ZoneRrset#value}
   */
   readonly value: string;
 }
@@ -202,7 +202,7 @@ export class ZoneRrsetRecordsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/resources/zone_rrset hcloud_zone_rrset}
+* Represents a {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/zone_rrset hcloud_zone_rrset}
 */
 export class ZoneRrset extends cdktf.TerraformResource {
 
@@ -218,7 +218,7 @@ export class ZoneRrset extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ZoneRrset resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ZoneRrset to import
-  * @param importFromId The id of the existing ZoneRrset that should be imported. Refer to the {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/resources/zone_rrset#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ZoneRrset that should be imported. Refer to the {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/zone_rrset#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ZoneRrset to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -230,7 +230,7 @@ export class ZoneRrset extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/resources/zone_rrset hcloud_zone_rrset} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/zone_rrset hcloud_zone_rrset} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -241,7 +241,8 @@ export class ZoneRrset extends cdktf.TerraformResource {
       terraformResourceType: 'hcloud_zone_rrset',
       terraformGeneratorMetadata: {
         providerName: 'hcloud',
-        providerVersion: '1.55.0'
+        providerVersion: '1.56.0',
+        providerVersionConstraint: '1.56.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

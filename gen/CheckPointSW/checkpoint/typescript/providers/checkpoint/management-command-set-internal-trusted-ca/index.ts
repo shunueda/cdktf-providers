@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_set_internal_trusted_ca
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_set_internal_trusted_ca
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,53 +10,53 @@ export interface ManagementCommandSetInternalTrustedCaConfig extends cdktf.Terra
   /**
   * Allow only certificates from listed branches.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_set_internal_trusted_ca#allow_certificates_from_branches ManagementCommandSetInternalTrustedCa#allow_certificates_from_branches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_set_internal_trusted_ca#allow_certificates_from_branches ManagementCommandSetInternalTrustedCa#allow_certificates_from_branches}
   */
   readonly allowCertificatesFromBranches?: boolean | cdktf.IResolvable;
   /**
   * Branches to allow certificates from. Required only if "allow-certificates-from-branches" set to "true".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_set_internal_trusted_ca#branches ManagementCommandSetInternalTrustedCa#branches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_set_internal_trusted_ca#branches ManagementCommandSetInternalTrustedCa#branches}
   */
   readonly branches?: string[];
   /**
   * Cache Certificate Revocation List on the Security Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_set_internal_trusted_ca#cache_crl ManagementCommandSetInternalTrustedCa#cache_crl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_set_internal_trusted_ca#cache_crl ManagementCommandSetInternalTrustedCa#cache_crl}
   */
   readonly cacheCrl?: boolean | cdktf.IResolvable;
   /**
   * Color of the object. Should be one of existing colors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_set_internal_trusted_ca#color ManagementCommandSetInternalTrustedCa#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_set_internal_trusted_ca#color ManagementCommandSetInternalTrustedCa#color}
   */
   readonly color?: string;
   /**
   * Comments string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_set_internal_trusted_ca#comments ManagementCommandSetInternalTrustedCa#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_set_internal_trusted_ca#comments ManagementCommandSetInternalTrustedCa#comments}
   */
   readonly comments?: string;
   /**
   * Weather to retrieve new Certificate Revocation List after the certificate expires or after a fixed period.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_set_internal_trusted_ca#crl_cache_method ManagementCommandSetInternalTrustedCa#crl_cache_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_set_internal_trusted_ca#crl_cache_method ManagementCommandSetInternalTrustedCa#crl_cache_method}
   */
   readonly crlCacheMethod?: string;
   /**
   * When to fetch new Certificate Revocation List (in minutes).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_set_internal_trusted_ca#crl_cache_timeout ManagementCommandSetInternalTrustedCa#crl_cache_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_set_internal_trusted_ca#crl_cache_timeout ManagementCommandSetInternalTrustedCa#crl_cache_timeout}
   */
   readonly crlCacheTimeout?: number;
   /**
   * Indicates which domains to process the commands on. It cannot be used with the details-level full, must be run from the System Domain only and with ignore-warnings true. Valid values are: CURRENT_DOMAIN, ALL_DOMAINS_ON_THIS_SERVER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_set_internal_trusted_ca#domains_to_process ManagementCommandSetInternalTrustedCa#domains_to_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_set_internal_trusted_ca#domains_to_process ManagementCommandSetInternalTrustedCa#domains_to_process}
   */
   readonly domainsToProcess?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_set_internal_trusted_ca#id ManagementCommandSetInternalTrustedCa#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_set_internal_trusted_ca#id ManagementCommandSetInternalTrustedCa#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,31 +65,31 @@ export interface ManagementCommandSetInternalTrustedCaConfig extends cdktf.Terra
   /**
   * Apply changes ignoring errors. You won't be able to publish such a changes. If ignore-warnings flag was omitted - warnings will also be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_set_internal_trusted_ca#ignore_errors ManagementCommandSetInternalTrustedCa#ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_set_internal_trusted_ca#ignore_errors ManagementCommandSetInternalTrustedCa#ignore_errors}
   */
   readonly ignoreErrors?: boolean | cdktf.IResolvable;
   /**
   * Apply changes ignoring warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_set_internal_trusted_ca#ignore_warnings ManagementCommandSetInternalTrustedCa#ignore_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_set_internal_trusted_ca#ignore_warnings ManagementCommandSetInternalTrustedCa#ignore_warnings}
   */
   readonly ignoreWarnings?: boolean | cdktf.IResolvable;
   /**
   * Whether to retrieve Certificate Revocation List from http servers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_set_internal_trusted_ca#retrieve_crl_from_http_servers ManagementCommandSetInternalTrustedCa#retrieve_crl_from_http_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_set_internal_trusted_ca#retrieve_crl_from_http_servers ManagementCommandSetInternalTrustedCa#retrieve_crl_from_http_servers}
   */
   readonly retrieveCrlFromHttpServers?: boolean | cdktf.IResolvable;
   /**
   * Collection of tag identifiers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_set_internal_trusted_ca#tags ManagementCommandSetInternalTrustedCa#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_set_internal_trusted_ca#tags ManagementCommandSetInternalTrustedCa#tags}
   */
   readonly tags?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_set_internal_trusted_ca checkpoint_management_command_set_internal_trusted_ca}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_set_internal_trusted_ca checkpoint_management_command_set_internal_trusted_ca}
 */
 export class ManagementCommandSetInternalTrustedCa extends cdktf.TerraformResource {
 
@@ -105,7 +105,7 @@ export class ManagementCommandSetInternalTrustedCa extends cdktf.TerraformResour
   * Generates CDKTF code for importing a ManagementCommandSetInternalTrustedCa resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementCommandSetInternalTrustedCa to import
-  * @param importFromId The id of the existing ManagementCommandSetInternalTrustedCa that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_set_internal_trusted_ca#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementCommandSetInternalTrustedCa that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_set_internal_trusted_ca#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementCommandSetInternalTrustedCa to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -117,7 +117,7 @@ export class ManagementCommandSetInternalTrustedCa extends cdktf.TerraformResour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_set_internal_trusted_ca checkpoint_management_command_set_internal_trusted_ca} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_set_internal_trusted_ca checkpoint_management_command_set_internal_trusted_ca} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -128,7 +128,8 @@ export class ManagementCommandSetInternalTrustedCa extends cdktf.TerraformResour
       terraformResourceType: 'checkpoint_management_command_set_internal_trusted_ca',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

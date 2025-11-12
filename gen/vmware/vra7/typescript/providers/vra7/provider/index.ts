@@ -85,7 +85,8 @@ export class Vra7Provider extends cdktf.TerraformProvider {
       terraformResourceType: 'vra7',
       terraformGeneratorMetadata: {
         providerName: 'vra7',
-        providerVersion: '3.0.15'
+        providerVersion: '3.0.15',
+        providerVersionConstraint: '3.0.15'
       },
       terraformProviderSource: 'vmware/vra7'
     });

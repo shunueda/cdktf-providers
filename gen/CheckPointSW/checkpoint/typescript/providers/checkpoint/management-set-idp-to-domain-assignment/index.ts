@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_idp_to_domain_assignment
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_idp_to_domain_assignment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ManagementSetIdpToDomainAssignmentConfig extends cdktf.Terrafor
   /**
   * Represents the Domain assigned by 'idp-to-domain-assignment', need to be domain name or UID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_idp_to_domain_assignment#assigned_domain ManagementSetIdpToDomainAssignment#assigned_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_idp_to_domain_assignment#assigned_domain ManagementSetIdpToDomainAssignment#assigned_domain}
   */
   readonly assignedDomain: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_idp_to_domain_assignment#id ManagementSetIdpToDomainAssignment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_idp_to_domain_assignment#id ManagementSetIdpToDomainAssignment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface ManagementSetIdpToDomainAssignmentConfig extends cdktf.Terrafor
   /**
   * Represents the Identity Provider to be used for Login by this assignment. Must be set when "using-default" was set to be false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_idp_to_domain_assignment#identity_provider ManagementSetIdpToDomainAssignment#identity_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_idp_to_domain_assignment#identity_provider ManagementSetIdpToDomainAssignment#identity_provider}
   */
   readonly identityProvider?: string;
   /**
   * Apply changes ignoring errors. You won't be able to publish such a changes. If ignore-warnings flag was omitted - warnings will also be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_idp_to_domain_assignment#ignore_errors ManagementSetIdpToDomainAssignment#ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_idp_to_domain_assignment#ignore_errors ManagementSetIdpToDomainAssignment#ignore_errors}
   */
   readonly ignoreErrors?: boolean | cdktf.IResolvable;
   /**
   * Apply changes ignoring warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_idp_to_domain_assignment#ignore_warnings ManagementSetIdpToDomainAssignment#ignore_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_idp_to_domain_assignment#ignore_warnings ManagementSetIdpToDomainAssignment#ignore_warnings}
   */
   readonly ignoreWarnings?: boolean | cdktf.IResolvable;
   /**
   * Is this assignment override by 'idp-default-assignment'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_idp_to_domain_assignment#using_default ManagementSetIdpToDomainAssignment#using_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_idp_to_domain_assignment#using_default ManagementSetIdpToDomainAssignment#using_default}
   */
   readonly usingDefault?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_idp_to_domain_assignment checkpoint_management_set_idp_to_domain_assignment}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_idp_to_domain_assignment checkpoint_management_set_idp_to_domain_assignment}
 */
 export class ManagementSetIdpToDomainAssignment extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class ManagementSetIdpToDomainAssignment extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a ManagementSetIdpToDomainAssignment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementSetIdpToDomainAssignment to import
-  * @param importFromId The id of the existing ManagementSetIdpToDomainAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_idp_to_domain_assignment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementSetIdpToDomainAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_idp_to_domain_assignment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementSetIdpToDomainAssignment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class ManagementSetIdpToDomainAssignment extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_idp_to_domain_assignment checkpoint_management_set_idp_to_domain_assignment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_idp_to_domain_assignment checkpoint_management_set_idp_to_domain_assignment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,7 +86,8 @@ export class ManagementSetIdpToDomainAssignment extends cdktf.TerraformResource 
       terraformResourceType: 'checkpoint_management_set_idp_to_domain_assignment',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -67,7 +67,8 @@ export class OciProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'oci',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '0.0.25'
+        providerVersion: '0.0.25',
+        providerVersionConstraint: '0.0.25'
       },
       terraformProviderSource: 'chainguard-dev/oci'
     });

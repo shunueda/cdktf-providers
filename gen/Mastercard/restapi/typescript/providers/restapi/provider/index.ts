@@ -301,7 +301,8 @@ export class RestapiProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'restapi',
       terraformGeneratorMetadata: {
         providerName: 'restapi',
-        providerVersion: '2.0.1'
+        providerVersion: '2.0.1',
+        providerVersionConstraint: '2.0.1'
       },
       terraformProviderSource: 'Mastercard/restapi'
     });

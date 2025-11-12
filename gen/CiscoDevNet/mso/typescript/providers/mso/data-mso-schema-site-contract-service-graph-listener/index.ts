@@ -557,7 +557,8 @@ export class DataMsoSchemaSiteContractServiceGraphListener extends cdktf.Terrafo
       terraformResourceType: 'mso_schema_site_contract_service_graph_listener',
       terraformGeneratorMetadata: {
         providerName: 'mso',
-        providerVersion: '1.6.0'
+        providerVersion: '1.6.0',
+        providerVersionConstraint: '1.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -188,7 +188,8 @@ export class HttpServletCrossOriginPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'pingdirectory_http_servlet_cross_origin_policy',
       terraformGeneratorMetadata: {
         providerName: 'pingdirectory',
-        providerVersion: '1.5.0'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

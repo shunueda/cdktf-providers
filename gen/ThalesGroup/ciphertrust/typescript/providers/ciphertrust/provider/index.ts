@@ -247,7 +247,8 @@ export class CiphertrustProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'ciphertrust',
       terraformGeneratorMetadata: {
         providerName: 'ciphertrust',
-        providerVersion: '0.11.3'
+        providerVersion: '0.11.3',
+        providerVersionConstraint: '0.11.3'
       },
       terraformProviderSource: 'ThalesGroup/ciphertrust'
     });

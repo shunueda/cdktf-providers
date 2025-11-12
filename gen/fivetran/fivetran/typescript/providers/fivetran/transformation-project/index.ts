@@ -419,7 +419,8 @@ export class TransformationProject extends cdktf.TerraformResource {
       terraformResourceType: 'fivetran_transformation_project',
       terraformGeneratorMetadata: {
         providerName: 'fivetran',
-        providerVersion: '1.9.13'
+        providerVersion: '1.9.13',
+        providerVersionConstraint: '1.9.13'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

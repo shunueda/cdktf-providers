@@ -80,7 +80,8 @@ export class DataMsoSchemaSiteAnpEpgStaticLeaf extends cdktf.TerraformDataSource
       terraformResourceType: 'mso_schema_site_anp_epg_static_leaf',
       terraformGeneratorMetadata: {
         providerName: 'mso',
-        providerVersion: '1.6.0'
+        providerVersion: '1.6.0',
+        providerVersionConstraint: '1.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -125,7 +125,8 @@ export class MongodbProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'mongodb',
       terraformGeneratorMetadata: {
         providerName: 'mongodb',
-        providerVersion: '0.1.7'
+        providerVersion: '0.1.7',
+        providerVersionConstraint: '0.1.7'
       },
       terraformProviderSource: 'Kaginari/mongodb'
     });

@@ -759,7 +759,8 @@ export class OutboundContactList extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_outbound_contact_list',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.70.0'
+        providerVersion: '1.70.0',
+        providerVersionConstraint: '1.70.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

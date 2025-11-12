@@ -88,7 +88,8 @@ export class DataAciLogicalDeviceContext extends cdktf.TerraformDataSource {
       terraformResourceType: 'aci_logical_device_context',
       terraformGeneratorMetadata: {
         providerName: 'aci',
-        providerVersion: '2.18.0'
+        providerVersion: '2.18.0',
+        providerVersionConstraint: '2.18.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -362,7 +362,8 @@ export class DataSplunkconfigAppIds extends cdktf.TerraformDataSource {
       terraformResourceType: 'splunkconfig_app_ids',
       terraformGeneratorMetadata: {
         providerName: 'splunkconfig',
-        providerVersion: '1.7.4'
+        providerVersion: '1.7.4',
+        providerVersionConstraint: '1.7.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

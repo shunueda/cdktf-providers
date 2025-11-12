@@ -1391,7 +1391,8 @@ export class SecurityGlobalPolicyUnordered extends cdktf.TerraformResource {
       terraformResourceType: 'junos_security_global_policy_unordered',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0'
+        providerVersion: '2.15.0',
+        providerVersionConstraint: '2.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

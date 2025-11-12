@@ -66,7 +66,8 @@ export class IndexingState extends cdktf.TerraformResource {
       terraformResourceType: 'chaossearch_indexing_state',
       terraformGeneratorMetadata: {
         providerName: 'chaossearch',
-        providerVersion: '0.12.4'
+        providerVersion: '0.12.4',
+        providerVersionConstraint: '0.12.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

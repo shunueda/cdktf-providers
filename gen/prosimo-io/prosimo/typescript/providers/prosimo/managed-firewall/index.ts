@@ -1021,7 +1021,8 @@ export class ManagedFirewall extends cdktf.TerraformResource {
       terraformResourceType: 'prosimo_managed_firewall',
       terraformGeneratorMetadata: {
         providerName: 'prosimo',
-        providerVersion: '4.5.3'
+        providerVersion: '4.5.3',
+        providerVersionConstraint: '4.5.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

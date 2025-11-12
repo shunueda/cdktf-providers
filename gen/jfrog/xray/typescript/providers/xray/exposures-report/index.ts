@@ -1809,7 +1809,8 @@ export class ExposuresReport extends cdktf.TerraformResource {
       terraformResourceType: 'xray_exposures_report',
       terraformGeneratorMetadata: {
         providerName: 'xray',
-        providerVersion: '3.1.2'
+        providerVersion: '3.1.2',
+        providerVersionConstraint: '3.1.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

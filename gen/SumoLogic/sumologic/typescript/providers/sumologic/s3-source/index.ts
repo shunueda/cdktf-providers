@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_source
+// https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_source
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,180 +8,180 @@ import * as cdktf from 'cdktf';
 
 export interface S3SourceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_source#automatic_date_parsing S3Source#automatic_date_parsing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_source#automatic_date_parsing S3Source#automatic_date_parsing}
   */
   readonly automaticDateParsing?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_source#category S3Source#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_source#category S3Source#category}
   */
   readonly category?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_source#collector_id S3Source#collector_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_source#collector_id S3Source#collector_id}
   */
   readonly collectorId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_source#content_type S3Source#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_source#content_type S3Source#content_type}
   */
   readonly contentType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_source#cutoff_relative_time S3Source#cutoff_relative_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_source#cutoff_relative_time S3Source#cutoff_relative_time}
   */
   readonly cutoffRelativeTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_source#cutoff_timestamp S3Source#cutoff_timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_source#cutoff_timestamp S3Source#cutoff_timestamp}
   */
   readonly cutoffTimestamp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_source#description S3Source#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_source#description S3Source#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_source#fields S3Source#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_source#fields S3Source#fields}
   */
   readonly fields?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_source#force_timezone S3Source#force_timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_source#force_timezone S3Source#force_timezone}
   */
   readonly forceTimezone?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_source#hash_algorithm S3Source#hash_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_source#hash_algorithm S3Source#hash_algorithm}
   */
   readonly hashAlgorithm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_source#host_name S3Source#host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_source#host_name S3Source#host_name}
   */
   readonly hostName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_source#id S3Source#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_source#id S3Source#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_source#manual_prefix_regexp S3Source#manual_prefix_regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_source#manual_prefix_regexp S3Source#manual_prefix_regexp}
   */
   readonly manualPrefixRegexp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_source#multiline_processing_enabled S3Source#multiline_processing_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_source#multiline_processing_enabled S3Source#multiline_processing_enabled}
   */
   readonly multilineProcessingEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_source#name S3Source#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_source#name S3Source#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_source#paused S3Source#paused}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_source#paused S3Source#paused}
   */
   readonly paused?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_source#scan_interval S3Source#scan_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_source#scan_interval S3Source#scan_interval}
   */
   readonly scanInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_source#timezone S3Source#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_source#timezone S3Source#timezone}
   */
   readonly timezone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_source#use_autoline_matching S3Source#use_autoline_matching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_source#use_autoline_matching S3Source#use_autoline_matching}
   */
   readonly useAutolineMatching?: boolean | cdktf.IResolvable;
   /**
   * authentication block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_source#authentication S3Source#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_source#authentication S3Source#authentication}
   */
   readonly authentication: S3SourceAuthentication;
   /**
   * default_date_formats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_source#default_date_formats S3Source#default_date_formats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_source#default_date_formats S3Source#default_date_formats}
   */
   readonly defaultDateFormats?: S3SourceDefaultDateFormats[] | cdktf.IResolvable;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_source#filters S3Source#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_source#filters S3Source#filters}
   */
   readonly filters?: S3SourceFilters[] | cdktf.IResolvable;
   /**
   * path block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_source#path S3Source#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_source#path S3Source#path}
   */
   readonly path: S3SourcePath;
 }
 export interface S3SourceAuthentication {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_source#access_key S3Source#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_source#access_key S3Source#access_key}
   */
   readonly accessKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_source#auth_provider_x509_cert_url S3Source#auth_provider_x509_cert_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_source#auth_provider_x509_cert_url S3Source#auth_provider_x509_cert_url}
   */
   readonly authProviderX509CertUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_source#auth_uri S3Source#auth_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_source#auth_uri S3Source#auth_uri}
   */
   readonly authUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_source#client_email S3Source#client_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_source#client_email S3Source#client_email}
   */
   readonly clientEmail?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_source#client_id S3Source#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_source#client_id S3Source#client_id}
   */
   readonly clientId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_source#client_secret S3Source#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_source#client_secret S3Source#client_secret}
   */
   readonly clientSecret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_source#client_x509_cert_url S3Source#client_x509_cert_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_source#client_x509_cert_url S3Source#client_x509_cert_url}
   */
   readonly clientX509CertUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_source#private_key S3Source#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_source#private_key S3Source#private_key}
   */
   readonly privateKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_source#private_key_id S3Source#private_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_source#private_key_id S3Source#private_key_id}
   */
   readonly privateKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_source#project_id S3Source#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_source#project_id S3Source#project_id}
   */
   readonly projectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_source#region S3Source#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_source#region S3Source#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_source#role_arn S3Source#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_source#role_arn S3Source#role_arn}
   */
   readonly roleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_source#secret_key S3Source#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_source#secret_key S3Source#secret_key}
   */
   readonly secretKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_source#shared_access_policy_key S3Source#shared_access_policy_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_source#shared_access_policy_key S3Source#shared_access_policy_key}
   */
   readonly sharedAccessPolicyKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_source#shared_access_policy_name S3Source#shared_access_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_source#shared_access_policy_name S3Source#shared_access_policy_name}
   */
   readonly sharedAccessPolicyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_source#tenant_id S3Source#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_source#tenant_id S3Source#tenant_id}
   */
   readonly tenantId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_source#token_uri S3Source#token_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_source#token_uri S3Source#token_uri}
   */
   readonly tokenUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_source#type S3Source#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_source#type S3Source#type}
   */
   readonly type: string;
 }
@@ -755,11 +755,11 @@ export class S3SourceAuthenticationOutputReference extends cdktf.ComplexObject {
 }
 export interface S3SourceDefaultDateFormats {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_source#format S3Source#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_source#format S3Source#format}
   */
   readonly format: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_source#locator S3Source#locator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_source#locator S3Source#locator}
   */
   readonly locator?: string;
 }
@@ -901,19 +901,19 @@ export class S3SourceDefaultDateFormatsList extends cdktf.ComplexList {
 }
 export interface S3SourceFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_source#filter_type S3Source#filter_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_source#filter_type S3Source#filter_type}
   */
   readonly filterType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_source#mask S3Source#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_source#mask S3Source#mask}
   */
   readonly mask?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_source#name S3Source#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_source#name S3Source#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_source#regexp S3Source#regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_source#regexp S3Source#regexp}
   */
   readonly regexp: string;
 }
@@ -1187,11 +1187,11 @@ export class S3SourcePathSnsTopicOrSubscriptionArnList extends cdktf.ComplexList
 }
 export interface S3SourcePathAzureTagFiltersTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_source#name S3Source#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_source#name S3Source#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_source#values S3Source#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_source#values S3Source#values}
   */
   readonly values?: string[];
 }
@@ -1333,17 +1333,17 @@ export class S3SourcePathAzureTagFiltersTagsList extends cdktf.ComplexList {
 }
 export interface S3SourcePathAzureTagFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_source#namespace S3Source#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_source#namespace S3Source#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_source#type S3Source#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_source#type S3Source#type}
   */
   readonly type: string;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_source#tags S3Source#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_source#tags S3Source#tags}
   */
   readonly tags?: S3SourcePathAzureTagFiltersTags[] | cdktf.IResolvable;
 }
@@ -1514,11 +1514,11 @@ export class S3SourcePathAzureTagFiltersList extends cdktf.ComplexList {
 }
 export interface S3SourcePathCustomServices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_source#prefixes S3Source#prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_source#prefixes S3Source#prefixes}
   */
   readonly prefixes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_source#service_name S3Source#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_source#service_name S3Source#service_name}
   */
   readonly serviceName?: string;
 }
@@ -1663,15 +1663,15 @@ export class S3SourcePathCustomServicesList extends cdktf.ComplexList {
 }
 export interface S3SourcePathTagFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_source#namespace S3Source#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_source#namespace S3Source#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_source#tags S3Source#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_source#tags S3Source#tags}
   */
   readonly tags?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_source#type S3Source#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_source#type S3Source#type}
   */
   readonly type?: string;
 }
@@ -1845,69 +1845,69 @@ export class S3SourcePathTagFiltersList extends cdktf.ComplexList {
 }
 export interface S3SourcePath {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_source#bucket_name S3Source#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_source#bucket_name S3Source#bucket_name}
   */
   readonly bucketName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_source#consumer_group S3Source#consumer_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_source#consumer_group S3Source#consumer_group}
   */
   readonly consumerGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_source#environment S3Source#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_source#environment S3Source#environment}
   */
   readonly environment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_source#event_hub_name S3Source#event_hub_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_source#event_hub_name S3Source#event_hub_name}
   */
   readonly eventHubName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_source#limit_to_namespaces S3Source#limit_to_namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_source#limit_to_namespaces S3Source#limit_to_namespaces}
   */
   readonly limitToNamespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_source#limit_to_regions S3Source#limit_to_regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_source#limit_to_regions S3Source#limit_to_regions}
   */
   readonly limitToRegions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_source#limit_to_services S3Source#limit_to_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_source#limit_to_services S3Source#limit_to_services}
   */
   readonly limitToServices?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_source#namespace S3Source#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_source#namespace S3Source#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_source#path_expression S3Source#path_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_source#path_expression S3Source#path_expression}
   */
   readonly pathExpression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_source#region S3Source#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_source#region S3Source#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_source#type S3Source#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_source#type S3Source#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_source#use_versioned_api S3Source#use_versioned_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_source#use_versioned_api S3Source#use_versioned_api}
   */
   readonly useVersionedApi?: boolean | cdktf.IResolvable;
   /**
   * azure_tag_filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_source#azure_tag_filters S3Source#azure_tag_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_source#azure_tag_filters S3Source#azure_tag_filters}
   */
   readonly azureTagFilters?: S3SourcePathAzureTagFilters[] | cdktf.IResolvable;
   /**
   * custom_services block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_source#custom_services S3Source#custom_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_source#custom_services S3Source#custom_services}
   */
   readonly customServices?: S3SourcePathCustomServices[] | cdktf.IResolvable;
   /**
   * tag_filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_source#tag_filters S3Source#tag_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_source#tag_filters S3Source#tag_filters}
   */
   readonly tagFilters?: S3SourcePathTagFilters[] | cdktf.IResolvable;
 }
@@ -2400,7 +2400,7 @@ export class S3SourcePathOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_source sumologic_s3_source}
+* Represents a {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_source sumologic_s3_source}
 */
 export class S3Source extends cdktf.TerraformResource {
 
@@ -2416,7 +2416,7 @@ export class S3Source extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a S3Source resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the S3Source to import
-  * @param importFromId The id of the existing S3Source that should be imported. Refer to the {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_source#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing S3Source that should be imported. Refer to the {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_source#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the S3Source to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2428,7 +2428,7 @@ export class S3Source extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/s3_source sumologic_s3_source} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/s3_source sumologic_s3_source} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2439,7 +2439,8 @@ export class S3Source extends cdktf.TerraformResource {
       terraformResourceType: 'sumologic_s3_source',
       terraformGeneratorMetadata: {
         providerName: 'sumologic',
-        providerVersion: '3.1.7'
+        providerVersion: '3.1.8',
+        providerVersionConstraint: '3.1.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

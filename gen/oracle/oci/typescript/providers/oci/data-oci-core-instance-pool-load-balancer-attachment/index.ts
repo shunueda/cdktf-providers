@@ -64,7 +64,8 @@ export class DataOciCoreInstancePoolLoadBalancerAttachment extends cdktf.Terrafo
       terraformResourceType: 'oci_core_instance_pool_load_balancer_attachment',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

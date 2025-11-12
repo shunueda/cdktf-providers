@@ -784,7 +784,8 @@ export class DynamicAttributeResource extends cdktf.TerraformResource {
       terraformResourceType: 'saviynt_dynamic_attribute_resource',
       terraformGeneratorMetadata: {
         providerName: 'saviynt',
-        providerVersion: '0.2.13'
+        providerVersion: '0.2.13',
+        providerVersionConstraint: '0.2.13'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

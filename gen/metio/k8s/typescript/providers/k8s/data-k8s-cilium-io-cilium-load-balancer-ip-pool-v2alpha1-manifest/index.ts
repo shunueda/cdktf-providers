@@ -920,7 +920,8 @@ export class DataK8SCiliumIoCiliumLoadBalancerIpPoolV2Alpha1Manifest extends cdk
       terraformResourceType: 'k8s_cilium_io_cilium_load_balancer_ip_pool_v2alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

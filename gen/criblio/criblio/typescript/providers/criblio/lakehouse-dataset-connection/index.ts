@@ -124,7 +124,8 @@ export class LakehouseDatasetConnection extends cdktf.TerraformResource {
       terraformResourceType: 'criblio_lakehouse_dataset_connection',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.18.21'
+        providerVersion: '1.18.21',
+        providerVersionConstraint: '1.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

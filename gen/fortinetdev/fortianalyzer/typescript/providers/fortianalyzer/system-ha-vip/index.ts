@@ -72,7 +72,8 @@ export class SystemHaVip extends cdktf.TerraformResource {
       terraformResourceType: 'fortianalyzer_system_ha_vip',
       terraformGeneratorMetadata: {
         providerName: 'fortianalyzer',
-        providerVersion: '1.5.1'
+        providerVersion: '1.5.1',
+        providerVersionConstraint: '1.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/connect_mdm_firmware_component_version
+// https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_firmware_component_version
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,72 +8,72 @@ import * as cdktf from 'cdktf';
 
 export interface ConnectMdmFirmwareComponentVersionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/connect_mdm_firmware_component_version#blob_url ConnectMdmFirmwareComponentVersion#blob_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_firmware_component_version#blob_url ConnectMdmFirmwareComponentVersion#blob_url}
   */
   readonly blobUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/connect_mdm_firmware_component_version#component_required ConnectMdmFirmwareComponentVersion#component_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_firmware_component_version#component_required ConnectMdmFirmwareComponentVersion#component_required}
   */
   readonly componentRequired: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/connect_mdm_firmware_component_version#custom_resource ConnectMdmFirmwareComponentVersion#custom_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_firmware_component_version#custom_resource ConnectMdmFirmwareComponentVersion#custom_resource}
   */
   readonly customResource?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/connect_mdm_firmware_component_version#deprecated_date ConnectMdmFirmwareComponentVersion#deprecated_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_firmware_component_version#deprecated_date ConnectMdmFirmwareComponentVersion#deprecated_date}
   */
   readonly deprecatedDate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/connect_mdm_firmware_component_version#description ConnectMdmFirmwareComponentVersion#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_firmware_component_version#description ConnectMdmFirmwareComponentVersion#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/connect_mdm_firmware_component_version#effective_date ConnectMdmFirmwareComponentVersion#effective_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_firmware_component_version#effective_date ConnectMdmFirmwareComponentVersion#effective_date}
   */
   readonly effectiveDate: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/connect_mdm_firmware_component_version#firmware_component_id ConnectMdmFirmwareComponentVersion#firmware_component_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_firmware_component_version#firmware_component_id ConnectMdmFirmwareComponentVersion#firmware_component_id}
   */
   readonly firmwareComponentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/connect_mdm_firmware_component_version#id ConnectMdmFirmwareComponentVersion#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_firmware_component_version#id ConnectMdmFirmwareComponentVersion#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/connect_mdm_firmware_component_version#size ConnectMdmFirmwareComponentVersion#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_firmware_component_version#size ConnectMdmFirmwareComponentVersion#size}
   */
   readonly size?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/connect_mdm_firmware_component_version#version ConnectMdmFirmwareComponentVersion#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_firmware_component_version#version ConnectMdmFirmwareComponentVersion#version}
   */
   readonly version: string;
   /**
   * encryption_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/connect_mdm_firmware_component_version#encryption_info ConnectMdmFirmwareComponentVersion#encryption_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_firmware_component_version#encryption_info ConnectMdmFirmwareComponentVersion#encryption_info}
   */
   readonly encryptionInfo?: ConnectMdmFirmwareComponentVersionEncryptionInfo;
   /**
   * fingerprint block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/connect_mdm_firmware_component_version#fingerprint ConnectMdmFirmwareComponentVersion#fingerprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_firmware_component_version#fingerprint ConnectMdmFirmwareComponentVersion#fingerprint}
   */
   readonly fingerprint?: ConnectMdmFirmwareComponentVersionFingerprint;
 }
 export interface ConnectMdmFirmwareComponentVersionEncryptionInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/connect_mdm_firmware_component_version#algorithm ConnectMdmFirmwareComponentVersion#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_firmware_component_version#algorithm ConnectMdmFirmwareComponentVersion#algorithm}
   */
   readonly algorithm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/connect_mdm_firmware_component_version#decryption_key ConnectMdmFirmwareComponentVersion#decryption_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_firmware_component_version#decryption_key ConnectMdmFirmwareComponentVersion#decryption_key}
   */
   readonly decryptionKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/connect_mdm_firmware_component_version#encrypted ConnectMdmFirmwareComponentVersion#encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_firmware_component_version#encrypted ConnectMdmFirmwareComponentVersion#encrypted}
   */
   readonly encrypted: boolean | cdktf.IResolvable;
 }
@@ -212,11 +212,11 @@ export class ConnectMdmFirmwareComponentVersionEncryptionInfoOutputReference ext
 }
 export interface ConnectMdmFirmwareComponentVersionFingerprint {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/connect_mdm_firmware_component_version#algorithm ConnectMdmFirmwareComponentVersion#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_firmware_component_version#algorithm ConnectMdmFirmwareComponentVersion#algorithm}
   */
   readonly algorithm: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/connect_mdm_firmware_component_version#hash ConnectMdmFirmwareComponentVersion#hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_firmware_component_version#hash ConnectMdmFirmwareComponentVersion#hash}
   */
   readonly hash: string;
 }
@@ -323,7 +323,7 @@ export class ConnectMdmFirmwareComponentVersionFingerprintOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/connect_mdm_firmware_component_version hsdp_connect_mdm_firmware_component_version}
+* Represents a {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_firmware_component_version hsdp_connect_mdm_firmware_component_version}
 */
 export class ConnectMdmFirmwareComponentVersion extends cdktf.TerraformResource {
 
@@ -339,7 +339,7 @@ export class ConnectMdmFirmwareComponentVersion extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a ConnectMdmFirmwareComponentVersion resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConnectMdmFirmwareComponentVersion to import
-  * @param importFromId The id of the existing ConnectMdmFirmwareComponentVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/connect_mdm_firmware_component_version#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConnectMdmFirmwareComponentVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_firmware_component_version#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConnectMdmFirmwareComponentVersion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -351,7 +351,7 @@ export class ConnectMdmFirmwareComponentVersion extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/connect_mdm_firmware_component_version hsdp_connect_mdm_firmware_component_version} Resource
+  * Create a new {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_firmware_component_version hsdp_connect_mdm_firmware_component_version} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -362,7 +362,8 @@ export class ConnectMdmFirmwareComponentVersion extends cdktf.TerraformResource 
       terraformResourceType: 'hsdp_connect_mdm_firmware_component_version',
       terraformGeneratorMetadata: {
         providerName: 'hsdp',
-        providerVersion: '0.70.0'
+        providerVersion: '0.71.0',
+        providerVersionConstraint: '0.71.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

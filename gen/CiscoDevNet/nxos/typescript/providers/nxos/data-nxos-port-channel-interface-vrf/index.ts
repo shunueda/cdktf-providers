@@ -61,7 +61,8 @@ export class DataNxosPortChannelInterfaceVrf extends cdktf.TerraformDataSource {
       terraformResourceType: 'nxos_port_channel_interface_vrf',
       terraformGeneratorMetadata: {
         providerName: 'nxos',
-        providerVersion: '0.5.10'
+        providerVersion: '0.5.10',
+        providerVersionConstraint: '0.5.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

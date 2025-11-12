@@ -194,7 +194,8 @@ export class IncusProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'incus',
       terraformGeneratorMetadata: {
         providerName: 'incus',
-        providerVersion: '1.0.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       terraformProviderSource: 'lxc/incus'
     });

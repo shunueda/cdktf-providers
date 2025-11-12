@@ -854,7 +854,8 @@ export class DataOciMeteringComputationSchedules extends cdktf.TerraformDataSour
       terraformResourceType: 'oci_metering_computation_schedules',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

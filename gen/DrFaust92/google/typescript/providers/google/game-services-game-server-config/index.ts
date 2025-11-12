@@ -963,7 +963,8 @@ export class GameServicesGameServerConfig extends cdktf.TerraformResource {
       terraformResourceType: 'google_game_services_game_server_config',
       terraformGeneratorMetadata: {
         providerName: 'google',
-        providerVersion: '4.16.4'
+        providerVersion: '4.16.4',
+        providerVersionConstraint: '4.16.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -74,7 +74,8 @@ export class EdgeDeploymentServiceBackend extends cdktf.TerraformResource {
       terraformResourceType: 'sigsci_edge_deployment_service_backend',
       terraformGeneratorMetadata: {
         providerName: 'sigsci',
-        providerVersion: '3.7.1'
+        providerVersion: '3.7.1',
+        providerVersionConstraint: '3.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

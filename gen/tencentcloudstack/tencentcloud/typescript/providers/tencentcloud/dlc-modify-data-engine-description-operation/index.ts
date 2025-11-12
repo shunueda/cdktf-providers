@@ -68,7 +68,8 @@ export class DlcModifyDataEngineDescriptionOperation extends cdktf.TerraformReso
       terraformResourceType: 'tencentcloud_dlc_modify_data_engine_description_operation',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

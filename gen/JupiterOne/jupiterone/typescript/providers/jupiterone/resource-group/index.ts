@@ -55,7 +55,8 @@ export class ResourceGroup extends cdktf.TerraformResource {
       terraformResourceType: 'jupiterone_resource_group',
       terraformGeneratorMetadata: {
         providerName: 'jupiterone',
-        providerVersion: '1.16.3'
+        providerVersion: '1.16.3',
+        providerVersionConstraint: '1.16.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

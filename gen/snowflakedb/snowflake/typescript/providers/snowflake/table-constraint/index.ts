@@ -630,7 +630,8 @@ export class TableConstraint extends cdktf.TerraformResource {
       terraformResourceType: 'snowflake_table_constraint',
       terraformGeneratorMetadata: {
         providerName: 'snowflake',
-        providerVersion: '2.10.1'
+        providerVersion: '2.10.1',
+        providerVersionConstraint: '2.10.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

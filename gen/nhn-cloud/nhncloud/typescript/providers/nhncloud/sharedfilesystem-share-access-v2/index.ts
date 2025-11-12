@@ -242,7 +242,8 @@ export class SharedfilesystemShareAccessV2 extends cdktf.TerraformResource {
       terraformResourceType: 'nhncloud_sharedfilesystem_share_access_v2',
       terraformGeneratorMetadata: {
         providerName: 'nhncloud',
-        providerVersion: '1.0.6'
+        providerVersion: '1.0.6',
+        providerVersionConstraint: '1.0.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

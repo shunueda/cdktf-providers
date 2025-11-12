@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_content_awareness_advanced_settings
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_content_awareness_advanced_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ManagementContentAwarenessAdvancedSettingsConfig extends cdktf.
   /**
   * Servers usually send HTTP traffic on TCP port 80. Some servers send HTTP traffic on other ports also. By default, this setting is enabled and Content Awareness inspects HTTP traffic on non-standard ports. You can disable this setting and configure Content Awareness to inspect HTTP traffic only on port 80.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_content_awareness_advanced_settings#httpi_non_standard_ports ManagementContentAwarenessAdvancedSettings#httpi_non_standard_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_content_awareness_advanced_settings#httpi_non_standard_ports ManagementContentAwarenessAdvancedSettings#httpi_non_standard_ports}
   */
   readonly httpiNonStandardPorts?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_content_awareness_advanced_settings#id ManagementContentAwarenessAdvancedSettings#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_content_awareness_advanced_settings#id ManagementContentAwarenessAdvancedSettings#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface ManagementContentAwarenessAdvancedSettingsConfig extends cdktf.
   /**
   * Examine the content of archive files. For example, files with the extension .zip, .gz, .tgz, .tar.Z, .tar, .lzma, .tlz, 7z, .rar.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_content_awareness_advanced_settings#inspect_archives ManagementContentAwarenessAdvancedSettings#inspect_archives}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_content_awareness_advanced_settings#inspect_archives ManagementContentAwarenessAdvancedSettings#inspect_archives}
   */
   readonly inspectArchives?: boolean | cdktf.IResolvable;
   /**
   * In case of internal system error, allow or block all connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_content_awareness_advanced_settings#internal_error_fail_mode ManagementContentAwarenessAdvancedSettings#internal_error_fail_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_content_awareness_advanced_settings#internal_error_fail_mode ManagementContentAwarenessAdvancedSettings#internal_error_fail_mode}
   */
   readonly internalErrorFailMode?: string;
   /**
   * Specify the services that Content Awareness inspects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_content_awareness_advanced_settings#supported_services ManagementContentAwarenessAdvancedSettings#supported_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_content_awareness_advanced_settings#supported_services ManagementContentAwarenessAdvancedSettings#supported_services}
   */
   readonly supportedServices?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_content_awareness_advanced_settings checkpoint_management_content_awareness_advanced_settings}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_content_awareness_advanced_settings checkpoint_management_content_awareness_advanced_settings}
 */
 export class ManagementContentAwarenessAdvancedSettings extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class ManagementContentAwarenessAdvancedSettings extends cdktf.TerraformR
   * Generates CDKTF code for importing a ManagementContentAwarenessAdvancedSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementContentAwarenessAdvancedSettings to import
-  * @param importFromId The id of the existing ManagementContentAwarenessAdvancedSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_content_awareness_advanced_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementContentAwarenessAdvancedSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_content_awareness_advanced_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementContentAwarenessAdvancedSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class ManagementContentAwarenessAdvancedSettings extends cdktf.TerraformR
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_content_awareness_advanced_settings checkpoint_management_content_awareness_advanced_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_content_awareness_advanced_settings checkpoint_management_content_awareness_advanced_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,7 +80,8 @@ export class ManagementContentAwarenessAdvancedSettings extends cdktf.TerraformR
       terraformResourceType: 'checkpoint_management_content_awareness_advanced_settings',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

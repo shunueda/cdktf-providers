@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interoperable_device
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interoperable_device
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface ManagementInteroperableDeviceConfig extends cdktf.TerraformMeta
   /**
   * Color of the object. Should be one of existing colors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interoperable_device#color ManagementInteroperableDevice#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interoperable_device#color ManagementInteroperableDevice#color}
   */
   readonly color?: string;
   /**
   * Comments string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interoperable_device#comments ManagementInteroperableDevice#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interoperable_device#comments ManagementInteroperableDevice#comments}
   */
   readonly comments?: string;
   /**
   * Indicates which domains to process the commands on. It cannot be used with the details-level full, must be run from the System Domain only and with ignore-warnings true. Valid values are: CURRENT_DOMAIN, ALL_DOMAINS_ON_THIS_SERVER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interoperable_device#domains_to_process ManagementInteroperableDevice#domains_to_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interoperable_device#domains_to_process ManagementInteroperableDevice#domains_to_process}
   */
   readonly domainsToProcess?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interoperable_device#id ManagementInteroperableDevice#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interoperable_device#id ManagementInteroperableDevice#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,49 +35,49 @@ export interface ManagementInteroperableDeviceConfig extends cdktf.TerraformMeta
   /**
   * Apply changes ignoring errors. You won't be able to publish such a changes. If ignore-warnings flag was omitted - warnings will also be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interoperable_device#ignore_errors ManagementInteroperableDevice#ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interoperable_device#ignore_errors ManagementInteroperableDevice#ignore_errors}
   */
   readonly ignoreErrors?: boolean | cdktf.IResolvable;
   /**
   * Apply changes ignoring warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interoperable_device#ignore_warnings ManagementInteroperableDevice#ignore_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interoperable_device#ignore_warnings ManagementInteroperableDevice#ignore_warnings}
   */
   readonly ignoreWarnings?: boolean | cdktf.IResolvable;
   /**
   * IPv4 address of the Interoperable Device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interoperable_device#ipv4_address ManagementInteroperableDevice#ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interoperable_device#ipv4_address ManagementInteroperableDevice#ipv4_address}
   */
   readonly ipv4Address?: string;
   /**
   * IPv6 address of the Interoperable Device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interoperable_device#ipv6_address ManagementInteroperableDevice#ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interoperable_device#ipv6_address ManagementInteroperableDevice#ipv6_address}
   */
   readonly ipv6Address?: string;
   /**
   * Object name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interoperable_device#name ManagementInteroperableDevice#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interoperable_device#name ManagementInteroperableDevice#name}
   */
   readonly name: string;
   /**
   * Collection of tag identifiers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interoperable_device#tags ManagementInteroperableDevice#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interoperable_device#tags ManagementInteroperableDevice#tags}
   */
   readonly tags?: string[];
   /**
   * VPN domain properties for the Interoperable Device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interoperable_device#vpn_settings ManagementInteroperableDevice#vpn_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interoperable_device#vpn_settings ManagementInteroperableDevice#vpn_settings}
   */
   readonly vpnSettings?: { [key: string]: string };
   /**
   * interfaces block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interoperable_device#interfaces ManagementInteroperableDevice#interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interoperable_device#interfaces ManagementInteroperableDevice#interfaces}
   */
   readonly interfaces?: ManagementInteroperableDeviceInterfaces[] | cdktf.IResolvable;
 }
@@ -175,19 +175,19 @@ export interface ManagementInteroperableDeviceInterfacesTopologySettings {
   /**
   * Whether this interface leads to demilitarized zone (perimeter network).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interoperable_device#interface_leads_to_dmz ManagementInteroperableDevice#interface_leads_to_dmz}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interoperable_device#interface_leads_to_dmz ManagementInteroperableDevice#interface_leads_to_dmz}
   */
   readonly interfaceLeadsToDmz?: boolean | cdktf.IResolvable;
   /**
   * Network settings behind this interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interoperable_device#ip_address_behind_this_interface ManagementInteroperableDevice#ip_address_behind_this_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interoperable_device#ip_address_behind_this_interface ManagementInteroperableDevice#ip_address_behind_this_interface}
   */
   readonly ipAddressBehindThisInterface?: string;
   /**
   * Network behind this interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interoperable_device#specific_network ManagementInteroperableDevice#specific_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interoperable_device#specific_network ManagementInteroperableDevice#specific_network}
   */
   readonly specificNetwork?: string;
 }
@@ -331,91 +331,91 @@ export interface ManagementInteroperableDeviceInterfaces {
   /**
   * Color of the object. Should be one of existing colors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interoperable_device#color ManagementInteroperableDevice#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interoperable_device#color ManagementInteroperableDevice#color}
   */
   readonly color?: string;
   /**
   * Comments string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interoperable_device#comments ManagementInteroperableDevice#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interoperable_device#comments ManagementInteroperableDevice#comments}
   */
   readonly comments?: string;
   /**
   * Indicates which domains to process the commands on. It cannot be used with the details-level full, must be run from the System Domain only and with ignore-warnings true. Valid values are: CURRENT_DOMAIN, ALL_DOMAINS_ON_THIS_SERVER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interoperable_device#domains_to_process ManagementInteroperableDevice#domains_to_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interoperable_device#domains_to_process ManagementInteroperableDevice#domains_to_process}
   */
   readonly domainsToProcess?: string[];
   /**
   * Apply changes ignoring errors. You won't be able to publish such a changes. If ignore-warnings flag was omitted - warnings will also be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interoperable_device#ignore_errors ManagementInteroperableDevice#ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interoperable_device#ignore_errors ManagementInteroperableDevice#ignore_errors}
   */
   readonly ignoreErrors?: boolean | cdktf.IResolvable;
   /**
   * Apply changes ignoring warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interoperable_device#ignore_warnings ManagementInteroperableDevice#ignore_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interoperable_device#ignore_warnings ManagementInteroperableDevice#ignore_warnings}
   */
   readonly ignoreWarnings?: boolean | cdktf.IResolvable;
   /**
   * IPv4 address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interoperable_device#ipv4_address ManagementInteroperableDevice#ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interoperable_device#ipv4_address ManagementInteroperableDevice#ipv4_address}
   */
   readonly ipv4Address?: string;
   /**
   * IPv4 network mask length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interoperable_device#ipv4_mask_length ManagementInteroperableDevice#ipv4_mask_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interoperable_device#ipv4_mask_length ManagementInteroperableDevice#ipv4_mask_length}
   */
   readonly ipv4MaskLength?: string;
   /**
   * IPv4 network address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interoperable_device#ipv4_network_mask ManagementInteroperableDevice#ipv4_network_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interoperable_device#ipv4_network_mask ManagementInteroperableDevice#ipv4_network_mask}
   */
   readonly ipv4NetworkMask?: string;
   /**
   * IPv6 address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interoperable_device#ipv6_address ManagementInteroperableDevice#ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interoperable_device#ipv6_address ManagementInteroperableDevice#ipv6_address}
   */
   readonly ipv6Address?: string;
   /**
   * IPv6 network mask length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interoperable_device#ipv6_mask_length ManagementInteroperableDevice#ipv6_mask_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interoperable_device#ipv6_mask_length ManagementInteroperableDevice#ipv6_mask_length}
   */
   readonly ipv6MaskLength?: string;
   /**
   * IPv6 network address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interoperable_device#ipv6_network_mask ManagementInteroperableDevice#ipv6_network_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interoperable_device#ipv6_network_mask ManagementInteroperableDevice#ipv6_network_mask}
   */
   readonly ipv6NetworkMask?: string;
   /**
   * Object name. Must be unique in the domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interoperable_device#name ManagementInteroperableDevice#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interoperable_device#name ManagementInteroperableDevice#name}
   */
   readonly name?: string;
   /**
   * Collection of tag identifiers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interoperable_device#tags ManagementInteroperableDevice#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interoperable_device#tags ManagementInteroperableDevice#tags}
   */
   readonly tags?: string[];
   /**
   * Topology configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interoperable_device#topology ManagementInteroperableDevice#topology}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interoperable_device#topology ManagementInteroperableDevice#topology}
   */
   readonly topology?: string;
   /**
   * topology_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interoperable_device#topology_settings ManagementInteroperableDevice#topology_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interoperable_device#topology_settings ManagementInteroperableDevice#topology_settings}
   */
   readonly topologySettings?: ManagementInteroperableDeviceInterfacesTopologySettings;
 }
@@ -937,7 +937,7 @@ export class ManagementInteroperableDeviceInterfacesList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interoperable_device checkpoint_management_interoperable_device}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interoperable_device checkpoint_management_interoperable_device}
 */
 export class ManagementInteroperableDevice extends cdktf.TerraformResource {
 
@@ -953,7 +953,7 @@ export class ManagementInteroperableDevice extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementInteroperableDevice resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementInteroperableDevice to import
-  * @param importFromId The id of the existing ManagementInteroperableDevice that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interoperable_device#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementInteroperableDevice that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interoperable_device#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementInteroperableDevice to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -965,7 +965,7 @@ export class ManagementInteroperableDevice extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interoperable_device checkpoint_management_interoperable_device} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interoperable_device checkpoint_management_interoperable_device} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -976,7 +976,8 @@ export class ManagementInteroperableDevice extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_interoperable_device',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_where_used
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_where_used
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ManagementWhereUsedConfig extends cdktf.TerraformMetaArguments 
   /**
   * Indicates whether to dereference "members" field by details level for every object in reply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_where_used#dereference_group_members ManagementWhereUsed#dereference_group_members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_where_used#dereference_group_members ManagementWhereUsed#dereference_group_members}
   */
   readonly dereferenceGroupMembers?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_where_used#id ManagementWhereUsed#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_where_used#id ManagementWhereUsed#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface ManagementWhereUsedConfig extends cdktf.TerraformMetaArguments 
   /**
   * Search for indirect usage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_where_used#indirect ManagementWhereUsed#indirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_where_used#indirect ManagementWhereUsed#indirect}
   */
   readonly indirect?: boolean | cdktf.IResolvable;
   /**
   * Maximum nesting level during indirect usage search.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_where_used#indirect_max_depth ManagementWhereUsed#indirect_max_depth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_where_used#indirect_max_depth ManagementWhereUsed#indirect_max_depth}
   */
   readonly indirectMaxDepth?: number;
   /**
   * Object name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_where_used#name ManagementWhereUsed#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_where_used#name ManagementWhereUsed#name}
   */
   readonly name: string;
   /**
   * Indicates whether to calculate and show "groups" field for every object in reply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_where_used#show_membership ManagementWhereUsed#show_membership}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_where_used#show_membership ManagementWhereUsed#show_membership}
   */
   readonly showMembership?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_where_used checkpoint_management_where_used}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_where_used checkpoint_management_where_used}
 */
 export class ManagementWhereUsed extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class ManagementWhereUsed extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementWhereUsed resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementWhereUsed to import
-  * @param importFromId The id of the existing ManagementWhereUsed that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_where_used#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementWhereUsed that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_where_used#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementWhereUsed to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class ManagementWhereUsed extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_where_used checkpoint_management_where_used} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_where_used checkpoint_management_where_used} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,7 +86,8 @@ export class ManagementWhereUsed extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_where_used',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

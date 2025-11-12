@@ -321,7 +321,8 @@ export class DataTencentcloudDcPublicDirectConnectTunnelRoutes extends cdktf.Ter
       terraformResourceType: 'tencentcloud_dc_public_direct_connect_tunnel_routes',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

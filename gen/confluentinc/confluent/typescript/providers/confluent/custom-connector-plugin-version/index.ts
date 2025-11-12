@@ -335,7 +335,8 @@ export class CustomConnectorPluginVersion extends cdktf.TerraformResource {
       terraformResourceType: 'confluent_custom_connector_plugin_version',
       terraformGeneratorMetadata: {
         providerName: 'confluent',
-        providerVersion: '2.51.0'
+        providerVersion: '2.51.0',
+        providerVersionConstraint: '2.51.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

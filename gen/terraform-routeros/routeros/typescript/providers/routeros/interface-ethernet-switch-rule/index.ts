@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet_switch_rule
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet_switch_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface InterfaceEthernetSwitchRuleConfig extends cdktf.TerraformMetaAr
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet_switch_rule#___path___ InterfaceEthernetSwitchRule#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet_switch_rule#___path___ InterfaceEthernetSwitchRule#___path___}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet_switch_rule#comment InterfaceEthernetSwitchRule#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet_switch_rule#comment InterfaceEthernetSwitchRule#comment}
   */
   readonly comment?: string;
   /**
   * Whether to send a frame copy to switch CPU port from a frame with matching MAC destination address (matching destination or source address for CRS3xx series switches).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet_switch_rule#copy_to_cpu InterfaceEthernetSwitchRule#copy_to_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet_switch_rule#copy_to_cpu InterfaceEthernetSwitchRule#copy_to_cpu}
   */
   readonly copyToCpu?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet_switch_rule#disabled InterfaceEthernetSwitchRule#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet_switch_rule#disabled InterfaceEthernetSwitchRule#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Matching DSCP field of the packet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet_switch_rule#dscp InterfaceEthernetSwitchRule#dscp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet_switch_rule#dscp InterfaceEthernetSwitchRule#dscp}
   */
   readonly dscp?: number;
   /**
   * Matching destination IP address and mask.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet_switch_rule#dst_address InterfaceEthernetSwitchRule#dst_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet_switch_rule#dst_address InterfaceEthernetSwitchRule#dst_address}
   */
   readonly dstAddress?: string;
   /**
   * Matching destination IPv6 address and mask.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet_switch_rule#dst_address6 InterfaceEthernetSwitchRule#dst_address6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet_switch_rule#dst_address6 InterfaceEthernetSwitchRule#dst_address6}
   */
   readonly dstAddress6?: string;
   /**
   * Matching destination MAC address and mask.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet_switch_rule#dst_mac_address InterfaceEthernetSwitchRule#dst_mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet_switch_rule#dst_mac_address InterfaceEthernetSwitchRule#dst_mac_address}
   */
   readonly dstMacAddress?: string;
   /**
   * Matching destination protocol port number or range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet_switch_rule#dst_port InterfaceEthernetSwitchRule#dst_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet_switch_rule#dst_port InterfaceEthernetSwitchRule#dst_port}
   */
   readonly dstPort?: number;
   /**
   * Matching IPv6 flow label.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet_switch_rule#flow_label InterfaceEthernetSwitchRule#flow_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet_switch_rule#flow_label InterfaceEthernetSwitchRule#flow_label}
   */
   readonly flowLabel?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet_switch_rule#id InterfaceEthernetSwitchRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet_switch_rule#id InterfaceEthernetSwitchRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -73,121 +73,121 @@ export interface InterfaceEthernetSwitchRuleConfig extends cdktf.TerraformMetaAr
   /**
   * Matching particular MAC protocol specified by protocol name or number (skips VLAN tags if any).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet_switch_rule#mac_protocol InterfaceEthernetSwitchRule#mac_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet_switch_rule#mac_protocol InterfaceEthernetSwitchRule#mac_protocol}
   */
   readonly macProtocol?: string;
   /**
   * Whether to send a frame copy to mirror-target port from a frame with matching MAC destination address (matching destination or source address for CRS3xx series switches).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet_switch_rule#mirror InterfaceEthernetSwitchRule#mirror}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet_switch_rule#mirror InterfaceEthernetSwitchRule#mirror}
   */
   readonly mirror?: boolean | cdktf.IResolvable;
   /**
   * Selects multiple mirroring target ports, only available on 88E6393X switch chip. Matched packets in the ACL rule will be copied and sent to selected ports.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet_switch_rule#mirror_ports InterfaceEthernetSwitchRule#mirror_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet_switch_rule#mirror_ports InterfaceEthernetSwitchRule#mirror_ports}
   */
   readonly mirrorPorts?: string[];
   /**
   * Changes the destination port as specified, multiple ports allowed, including a switch CPU port. An empty setting will drop the packet. When the parameter is not used, the packet will be accepted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet_switch_rule#new_dst_ports InterfaceEthernetSwitchRule#new_dst_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet_switch_rule#new_dst_ports InterfaceEthernetSwitchRule#new_dst_ports}
   */
   readonly newDstPorts?: string[];
   /**
   * Changes the VLAN ID to the specified value or adds a new VLAN tag if one was not already present (the property only applies to the Atheros8316, and 88E6393X switch chips).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet_switch_rule#new_vlan_id InterfaceEthernetSwitchRule#new_vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet_switch_rule#new_vlan_id InterfaceEthernetSwitchRule#new_vlan_id}
   */
   readonly newVlanId?: number;
   /**
   * Changes the VLAN priority field (priority code point, the property only applies to Atheros8327, QCA8337 and Atheros8316 switch chips).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet_switch_rule#new_vlan_priority InterfaceEthernetSwitchRule#new_vlan_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet_switch_rule#new_vlan_priority InterfaceEthernetSwitchRule#new_vlan_priority}
   */
   readonly newVlanPriority?: number;
   /**
   * Name of the interface on which the rule will apply on the received traffic, multiple ports are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet_switch_rule#ports InterfaceEthernetSwitchRule#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet_switch_rule#ports InterfaceEthernetSwitchRule#ports}
   */
   readonly ports: string[];
   /**
   * Matching particular IP protocol specified by protocol name or number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet_switch_rule#protocol InterfaceEthernetSwitchRule#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet_switch_rule#protocol InterfaceEthernetSwitchRule#protocol}
   */
   readonly protocol?: string;
   /**
   * Sets ingress traffic limitation (bits per second) for matched traffic, can only be applied to the first 32 rule slots (the property only applies to Atheros8327/QCA8337 switch chips).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet_switch_rule#rate InterfaceEthernetSwitchRule#rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet_switch_rule#rate InterfaceEthernetSwitchRule#rate}
   */
   readonly rate?: number;
   /**
   * Changes the destination port of a matching packet to the switch CPU.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet_switch_rule#redirect_to_cpu InterfaceEthernetSwitchRule#redirect_to_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet_switch_rule#redirect_to_cpu InterfaceEthernetSwitchRule#redirect_to_cpu}
   */
   readonly redirectToCpu?: boolean | cdktf.IResolvable;
   /**
   * Matching source IP address and mask.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet_switch_rule#src_address InterfaceEthernetSwitchRule#src_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet_switch_rule#src_address InterfaceEthernetSwitchRule#src_address}
   */
   readonly srcAddress?: string;
   /**
   * Matching source IPv6 address and mask.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet_switch_rule#src_address6 InterfaceEthernetSwitchRule#src_address6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet_switch_rule#src_address6 InterfaceEthernetSwitchRule#src_address6}
   */
   readonly srcAddress6?: string;
   /**
   * Matching source MAC address and mask.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet_switch_rule#src_mac_address InterfaceEthernetSwitchRule#src_mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet_switch_rule#src_mac_address InterfaceEthernetSwitchRule#src_mac_address}
   */
   readonly srcMacAddress?: string;
   /**
   * Matching source protocol port number or range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet_switch_rule#src_port InterfaceEthernetSwitchRule#src_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet_switch_rule#src_port InterfaceEthernetSwitchRule#src_port}
   */
   readonly srcPort?: number;
   /**
   * Matching switch group on which will the rule apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet_switch_rule#switch InterfaceEthernetSwitchRule#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet_switch_rule#switch InterfaceEthernetSwitchRule#switch}
   */
   readonly switch: string;
   /**
   * Matching IPv6 traffic class.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet_switch_rule#traffic_class InterfaceEthernetSwitchRule#traffic_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet_switch_rule#traffic_class InterfaceEthernetSwitchRule#traffic_class}
   */
   readonly trafficClass?: number;
   /**
   * Matching VLAN header, whether the VLAN header is present or not (the property only applies to the Atheros8316, Atheros8327, QCA8337, 88E6393X switch chips).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet_switch_rule#vlan_header InterfaceEthernetSwitchRule#vlan_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet_switch_rule#vlan_header InterfaceEthernetSwitchRule#vlan_header}
   */
   readonly vlanHeader?: string;
   /**
   * Matching VLAN ID (the property only applies to the Atheros8316, Atheros8327, QCA8337, 88E6393X switch chips).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet_switch_rule#vlan_id InterfaceEthernetSwitchRule#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet_switch_rule#vlan_id InterfaceEthernetSwitchRule#vlan_id}
   */
   readonly vlanId?: number;
   /**
   * Matching VLAN priority (priority code point).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet_switch_rule#vlan_priority InterfaceEthernetSwitchRule#vlan_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet_switch_rule#vlan_priority InterfaceEthernetSwitchRule#vlan_priority}
   */
   readonly vlanPriority?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet_switch_rule routeros_interface_ethernet_switch_rule}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet_switch_rule routeros_interface_ethernet_switch_rule}
 */
 export class InterfaceEthernetSwitchRule extends cdktf.TerraformResource {
 
@@ -203,7 +203,7 @@ export class InterfaceEthernetSwitchRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InterfaceEthernetSwitchRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InterfaceEthernetSwitchRule to import
-  * @param importFromId The id of the existing InterfaceEthernetSwitchRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet_switch_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InterfaceEthernetSwitchRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet_switch_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InterfaceEthernetSwitchRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -215,7 +215,7 @@ export class InterfaceEthernetSwitchRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_ethernet_switch_rule routeros_interface_ethernet_switch_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_ethernet_switch_rule routeros_interface_ethernet_switch_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -226,7 +226,8 @@ export class InterfaceEthernetSwitchRule extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_interface_ethernet_switch_rule',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.90.0'
+        providerVersion: '1.91.0',
+        providerVersionConstraint: '1.91.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

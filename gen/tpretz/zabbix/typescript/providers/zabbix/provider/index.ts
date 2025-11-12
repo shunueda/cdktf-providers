@@ -85,7 +85,8 @@ export class ZabbixProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'zabbix',
       terraformGeneratorMetadata: {
         providerName: 'zabbix',
-        providerVersion: '0.17.0'
+        providerVersion: '0.17.0',
+        providerVersionConstraint: '0.17.0'
       },
       terraformProviderSource: 'tpretz/zabbix'
     });

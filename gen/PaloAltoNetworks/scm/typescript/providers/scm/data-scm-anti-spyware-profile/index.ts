@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/anti_spyware_profile
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/anti_spyware_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataScmAntiSpywareProfileConfig extends cdktf.TerraformMetaArgu
   /**
   * The UUID of the anti-spyware profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/anti_spyware_profile#id DataScmAntiSpywareProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/anti_spyware_profile#id DataScmAntiSpywareProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,7 +19,7 @@ export interface DataScmAntiSpywareProfileConfig extends cdktf.TerraformMetaArgu
   /**
   * The name of the anti-spyware profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/anti_spyware_profile#name DataScmAntiSpywareProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/anti_spyware_profile#name DataScmAntiSpywareProfile#name}
   */
   readonly name?: string;
 }
@@ -1321,7 +1321,7 @@ export class DataScmAntiSpywareProfileThreatExceptionList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/anti_spyware_profile scm_anti_spyware_profile}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/anti_spyware_profile scm_anti_spyware_profile}
 */
 export class DataScmAntiSpywareProfile extends cdktf.TerraformDataSource {
 
@@ -1337,7 +1337,7 @@ export class DataScmAntiSpywareProfile extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataScmAntiSpywareProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataScmAntiSpywareProfile to import
-  * @param importFromId The id of the existing DataScmAntiSpywareProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/anti_spyware_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataScmAntiSpywareProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/anti_spyware_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataScmAntiSpywareProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1349,7 +1349,7 @@ export class DataScmAntiSpywareProfile extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/anti_spyware_profile scm_anti_spyware_profile} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/anti_spyware_profile scm_anti_spyware_profile} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1360,7 +1360,8 @@ export class DataScmAntiSpywareProfile extends cdktf.TerraformDataSource {
       terraformResourceType: 'scm_anti_spyware_profile',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.3'
+        providerVersion: '1.0.4',
+        providerVersionConstraint: '1.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

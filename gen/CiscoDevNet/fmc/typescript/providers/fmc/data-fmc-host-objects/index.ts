@@ -70,7 +70,8 @@ export class DataFmcHostObjects extends cdktf.TerraformDataSource {
       terraformResourceType: 'fmc_host_objects',
       terraformGeneratorMetadata: {
         providerName: 'fmc',
-        providerVersion: '1.5.2'
+        providerVersion: '1.5.2',
+        providerVersionConstraint: '1.5.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

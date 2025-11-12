@@ -218,7 +218,8 @@ export class HealthcareHl7V2StoreIamBinding extends cdktf.TerraformResource {
       terraformResourceType: 'google_healthcare_hl7_v2_store_iam_binding',
       terraformGeneratorMetadata: {
         providerName: 'google',
-        providerVersion: '4.16.4'
+        providerVersion: '4.16.4',
+        providerVersionConstraint: '4.16.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

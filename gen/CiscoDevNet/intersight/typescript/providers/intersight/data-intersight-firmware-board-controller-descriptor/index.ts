@@ -4095,7 +4095,8 @@ export class DataIntersightFirmwareBoardControllerDescriptor extends cdktf.Terra
       terraformResourceType: 'intersight_firmware_board_controller_descriptor',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

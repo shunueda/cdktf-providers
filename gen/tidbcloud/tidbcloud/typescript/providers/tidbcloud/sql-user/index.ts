@@ -85,7 +85,8 @@ export class SqlUser extends cdktf.TerraformResource {
       terraformResourceType: 'tidbcloud_sql_user',
       terraformGeneratorMetadata: {
         providerName: 'tidbcloud',
-        providerVersion: '0.4.5'
+        providerVersion: '0.4.5',
+        providerVersionConstraint: '0.4.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

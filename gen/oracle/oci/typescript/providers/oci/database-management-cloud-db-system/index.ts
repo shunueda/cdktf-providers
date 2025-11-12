@@ -482,7 +482,8 @@ export class DatabaseManagementCloudDbSystem extends cdktf.TerraformResource {
       terraformResourceType: 'oci_database_management_cloud_db_system',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

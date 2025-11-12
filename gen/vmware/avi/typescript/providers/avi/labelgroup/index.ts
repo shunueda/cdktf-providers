@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/labelgroup
+// https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/labelgroup
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,36 +8,36 @@ import * as cdktf from 'cdktf';
 
 export interface LabelgroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/labelgroup#id Labelgroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/labelgroup#id Labelgroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/labelgroup#name Labelgroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/labelgroup#name Labelgroup#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/labelgroup#uuid Labelgroup#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/labelgroup#uuid Labelgroup#uuid}
   */
   readonly uuid?: string;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/labelgroup#configpb_attributes Labelgroup#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/labelgroup#configpb_attributes Labelgroup#configpb_attributes}
   */
   readonly configpbAttributes?: LabelgroupConfigpbAttributes[] | cdktf.IResolvable;
   /**
   * labels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/labelgroup#labels Labelgroup#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/labelgroup#labels Labelgroup#labels}
   */
   readonly labels?: LabelgroupLabels[] | cdktf.IResolvable;
 }
 export interface LabelgroupConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/labelgroup#version Labelgroup#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/labelgroup#version Labelgroup#version}
   */
   readonly version?: string;
 }
@@ -153,11 +153,11 @@ export class LabelgroupConfigpbAttributesList extends cdktf.ComplexList {
 }
 export interface LabelgroupLabelsMatchLabel {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/labelgroup#key Labelgroup#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/labelgroup#key Labelgroup#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/labelgroup#values Labelgroup#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/labelgroup#values Labelgroup#values}
   */
   readonly values?: string[];
 }
@@ -299,13 +299,13 @@ export class LabelgroupLabelsMatchLabelList extends cdktf.ComplexList {
 }
 export interface LabelgroupLabels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/labelgroup#match_operation Labelgroup#match_operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/labelgroup#match_operation Labelgroup#match_operation}
   */
   readonly matchOperation?: string;
   /**
   * match_label block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/labelgroup#match_label Labelgroup#match_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/labelgroup#match_label Labelgroup#match_label}
   */
   readonly matchLabel: LabelgroupLabelsMatchLabel[] | cdktf.IResolvable;
 }
@@ -447,7 +447,7 @@ export class LabelgroupLabelsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/labelgroup avi_labelgroup}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/labelgroup avi_labelgroup}
 */
 export class Labelgroup extends cdktf.TerraformResource {
 
@@ -463,7 +463,7 @@ export class Labelgroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Labelgroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Labelgroup to import
-  * @param importFromId The id of the existing Labelgroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/labelgroup#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Labelgroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/labelgroup#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Labelgroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -475,7 +475,7 @@ export class Labelgroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/labelgroup avi_labelgroup} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/labelgroup avi_labelgroup} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -486,7 +486,8 @@ export class Labelgroup extends cdktf.TerraformResource {
       terraformResourceType: 'avi_labelgroup',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '31.1.1'
+        providerVersion: '30.2.5',
+        providerVersionConstraint: '30.2.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

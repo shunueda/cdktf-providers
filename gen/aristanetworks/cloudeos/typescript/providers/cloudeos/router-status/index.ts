@@ -304,7 +304,8 @@ export class RouterStatus extends cdktf.TerraformResource {
       terraformResourceType: 'cloudeos_router_status',
       terraformGeneratorMetadata: {
         providerName: 'cloudeos',
-        providerVersion: '1.2.2'
+        providerVersion: '1.2.2',
+        providerVersionConstraint: '1.2.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

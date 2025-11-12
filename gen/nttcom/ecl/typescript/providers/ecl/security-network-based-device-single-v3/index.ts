@@ -559,7 +559,8 @@ export class SecurityNetworkBasedDeviceSingleV3 extends cdktf.TerraformResource 
       terraformResourceType: 'ecl_security_network_based_device_single_v3',
       terraformGeneratorMetadata: {
         providerName: 'ecl',
-        providerVersion: '2.12.1'
+        providerVersion: '2.12.1',
+        providerVersionConstraint: '2.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

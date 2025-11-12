@@ -148,7 +148,8 @@ export class DataTencentcloudCynosdbRollbackTimeRange extends cdktf.TerraformDat
       terraformResourceType: 'tencentcloud_cynosdb_rollback_time_range',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -969,7 +969,8 @@ export class DataIonoscloudVcpuServer extends cdktf.TerraformDataSource {
       terraformResourceType: 'ionoscloud_vcpu_server',
       terraformGeneratorMetadata: {
         providerName: 'ionoscloud',
-        providerVersion: '6.7.20'
+        providerVersion: '6.7.20',
+        providerVersionConstraint: '6.7.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

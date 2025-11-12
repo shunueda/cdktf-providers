@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_gateway_capabilities
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_gateway_capabilities
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataCheckpointManagementGatewayCapabilitiesConfig extends cdktf
   /**
   * Check Point hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_gateway_capabilities#hardware DataCheckpointManagementGatewayCapabilities#hardware}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_gateway_capabilities#hardware DataCheckpointManagementGatewayCapabilities#hardware}
   */
   readonly hardware?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_gateway_capabilities#id DataCheckpointManagementGatewayCapabilities#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_gateway_capabilities#id DataCheckpointManagementGatewayCapabilities#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface DataCheckpointManagementGatewayCapabilitiesConfig extends cdktf
   /**
   * Check Point gateway platform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_gateway_capabilities#platform DataCheckpointManagementGatewayCapabilities#platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_gateway_capabilities#platform DataCheckpointManagementGatewayCapabilities#platform}
   */
   readonly platform?: string;
   /**
   * Gateway platform version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_gateway_capabilities#version DataCheckpointManagementGatewayCapabilities#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_gateway_capabilities#version DataCheckpointManagementGatewayCapabilities#version}
   */
   readonly version?: string;
 }
@@ -865,7 +865,7 @@ export class DataCheckpointManagementGatewayCapabilitiesSupportedVersionsList ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_gateway_capabilities checkpoint_management_gateway_capabilities}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_gateway_capabilities checkpoint_management_gateway_capabilities}
 */
 export class DataCheckpointManagementGatewayCapabilities extends cdktf.TerraformDataSource {
 
@@ -881,7 +881,7 @@ export class DataCheckpointManagementGatewayCapabilities extends cdktf.Terraform
   * Generates CDKTF code for importing a DataCheckpointManagementGatewayCapabilities resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCheckpointManagementGatewayCapabilities to import
-  * @param importFromId The id of the existing DataCheckpointManagementGatewayCapabilities that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_gateway_capabilities#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCheckpointManagementGatewayCapabilities that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_gateway_capabilities#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCheckpointManagementGatewayCapabilities to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -893,7 +893,7 @@ export class DataCheckpointManagementGatewayCapabilities extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_gateway_capabilities checkpoint_management_gateway_capabilities} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_gateway_capabilities checkpoint_management_gateway_capabilities} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -904,7 +904,8 @@ export class DataCheckpointManagementGatewayCapabilities extends cdktf.Terraform
       terraformResourceType: 'checkpoint_management_gateway_capabilities',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -650,7 +650,8 @@ export class DataAstroClusterOptions extends cdktf.TerraformDataSource {
       terraformResourceType: 'astro_cluster_options',
       terraformGeneratorMetadata: {
         providerName: 'astro',
-        providerVersion: '1.0.8'
+        providerVersion: '1.0.8',
+        providerVersionConstraint: '1.0.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -76,7 +76,8 @@ export class SlbDomainExtension extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_slb_domain_extension',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

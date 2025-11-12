@@ -339,7 +339,8 @@ export class DataB2BucketNotificationRules extends cdktf.TerraformDataSource {
       terraformResourceType: 'b2_bucket_notification_rules',
       terraformGeneratorMetadata: {
         providerName: 'b2',
-        providerVersion: '0.10.0'
+        providerVersion: '0.10.0',
+        providerVersionConstraint: '0.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

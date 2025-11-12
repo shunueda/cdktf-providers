@@ -64,7 +64,8 @@ export class DataMsoTenantPoliciesIpslaMonitoringPolicy extends cdktf.TerraformD
       terraformResourceType: 'mso_tenant_policies_ipsla_monitoring_policy',
       terraformGeneratorMetadata: {
         providerName: 'mso',
-        providerVersion: '1.6.0'
+        providerVersion: '1.6.0',
+        providerVersionConstraint: '1.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

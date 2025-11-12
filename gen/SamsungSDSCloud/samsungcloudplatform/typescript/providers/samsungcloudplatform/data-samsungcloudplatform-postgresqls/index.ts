@@ -217,7 +217,8 @@ export class DataSamsungcloudplatformPostgresqls extends cdktf.TerraformDataSour
       terraformResourceType: 'samsungcloudplatform_postgresqls',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0'
+        providerVersion: '3.15.0',
+        providerVersionConstraint: '3.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

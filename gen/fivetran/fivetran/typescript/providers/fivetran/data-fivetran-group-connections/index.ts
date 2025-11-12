@@ -581,7 +581,8 @@ export class DataFivetranGroupConnections extends cdktf.TerraformDataSource {
       terraformResourceType: 'fivetran_group_connections',
       terraformGeneratorMetadata: {
         providerName: 'fivetran',
-        providerVersion: '1.9.13'
+        providerVersion: '1.9.13',
+        providerVersionConstraint: '1.9.13'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

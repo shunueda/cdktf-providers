@@ -152,7 +152,8 @@ export class RotatedSecretAzure extends cdktf.TerraformResource {
       terraformResourceType: 'akeyless_rotated_secret_azure',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1'
+        providerVersion: '1.11.1',
+        providerVersionConstraint: '1.11.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

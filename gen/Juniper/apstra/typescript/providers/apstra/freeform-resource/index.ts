@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_resource
+// https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_resource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface FreeformResourceConfig extends cdktf.TerraformMetaArguments {
   /**
   * ID of the node to be used as a source for this resource. This could be an ID of resource allocation group or another resource (in case of IP or Host IP allocations). This also can be empty. In that case it is required that value for this resource is provided by the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_resource#allocated_from FreeformResource#allocated_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_resource#allocated_from FreeformResource#allocated_from}
   */
   readonly allocatedFrom?: string;
   /**
   * Set of node IDs to which the resource is assigned
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_resource#assigned_to FreeformResource#assigned_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_resource#assigned_to FreeformResource#assigned_to}
   */
   readonly assignedTo?: string[];
   /**
   * Apstra Blueprint ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_resource#blueprint_id FreeformResource#blueprint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_resource#blueprint_id FreeformResource#blueprint_id}
   */
   readonly blueprintId: string;
   /**
   * Group the Resource belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_resource#group_id FreeformResource#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_resource#group_id FreeformResource#group_id}
   */
   readonly groupId: string;
   /**
   * Value used by integer type resources (`asn`, `integer`, `vlan`, `vni`). Also used by IP prefix resources (`ipv4` and `ipv6`) to indicate the required prefix size for automatic allocations from another object or a resource pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_resource#integer_value FreeformResource#integer_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_resource#integer_value FreeformResource#integer_value}
   */
   readonly integerValue?: number;
   /**
   * Value used by resources with type `ipv4` or `host_ipv4`. Must be CIDR notation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_resource#ipv4_value FreeformResource#ipv4_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_resource#ipv4_value FreeformResource#ipv4_value}
   */
   readonly ipv4Value?: string;
   /**
   * Value used by resources with type `ipv6` or `host_ipv6`. Must be CIDR notation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_resource#ipv6_value FreeformResource#ipv6_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_resource#ipv6_value FreeformResource#ipv6_value}
   */
   readonly ipv6Value?: string;
   /**
   * Freeform Resource name as shown in the Web UI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_resource#name FreeformResource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_resource#name FreeformResource#name}
   */
   readonly name: string;
   /**
@@ -67,13 +67,13 @@ export interface FreeformResourceConfig extends cdktf.TerraformMetaArguments {
   *   - `vni`
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_resource#type FreeformResource#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_resource#type FreeformResource#type}
   */
   readonly type: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_resource apstra_freeform_resource}
+* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_resource apstra_freeform_resource}
 */
 export class FreeformResource extends cdktf.TerraformResource {
 
@@ -89,7 +89,7 @@ export class FreeformResource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FreeformResource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FreeformResource to import
-  * @param importFromId The id of the existing FreeformResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_resource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FreeformResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_resource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FreeformResource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -101,7 +101,7 @@ export class FreeformResource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_resource apstra_freeform_resource} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_resource apstra_freeform_resource} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -112,7 +112,8 @@ export class FreeformResource extends cdktf.TerraformResource {
       terraformResourceType: 'apstra_freeform_resource',
       terraformGeneratorMetadata: {
         providerName: 'apstra',
-        providerVersion: '0.95.0'
+        providerVersion: '0.95.1',
+        providerVersionConstraint: '0.95.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

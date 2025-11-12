@@ -1110,7 +1110,8 @@ export class DataK8STestsTestkubeIoTestSourceV1Manifest extends cdktf.TerraformD
       terraformResourceType: 'k8s_tests_testkube_io_test_source_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

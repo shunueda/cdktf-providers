@@ -68,7 +68,8 @@ export class CentralizedTransitFirenet extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_centralized_transit_firenet',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10'
+        providerVersion: '8.1.10',
+        providerVersionConstraint: '8.1.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_template_svi
+// https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_template_svi
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface DatacenterConnectivityTemplateSviConfig extends cdktf.Terraform
   /**
   * Map of *BGP Peering (IP Endpoint)* Primitives in this Connectivity Template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_template_svi#bgp_peering_ip_endpoints DatacenterConnectivityTemplateSvi#bgp_peering_ip_endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_template_svi#bgp_peering_ip_endpoints DatacenterConnectivityTemplateSvi#bgp_peering_ip_endpoints}
   */
   readonly bgpPeeringIpEndpoints?: { [key: string]: DatacenterConnectivityTemplateSviBgpPeeringIpEndpoints } | cdktf.IResolvable;
   /**
   * Blueprint ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_template_svi#blueprint_id DatacenterConnectivityTemplateSvi#blueprint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_template_svi#blueprint_id DatacenterConnectivityTemplateSvi#blueprint_id}
   */
   readonly blueprintId: string;
   /**
   * Connectivity Template Description displayed in the web UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_template_svi#description DatacenterConnectivityTemplateSvi#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_template_svi#description DatacenterConnectivityTemplateSvi#description}
   */
   readonly description?: string;
   /**
   * Map of *Dynamic BGP Peering* Primitives in this Connectivity Template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_template_svi#dynamic_bgp_peerings DatacenterConnectivityTemplateSvi#dynamic_bgp_peerings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_template_svi#dynamic_bgp_peerings DatacenterConnectivityTemplateSvi#dynamic_bgp_peerings}
   */
   readonly dynamicBgpPeerings?: { [key: string]: DatacenterConnectivityTemplateSviDynamicBgpPeerings } | cdktf.IResolvable;
   /**
   * Connectivity Template Name displayed in the web UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_template_svi#name DatacenterConnectivityTemplateSvi#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_template_svi#name DatacenterConnectivityTemplateSvi#name}
   */
   readonly name: string;
   /**
   * Set of Tags associated with this Connectivity Template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_template_svi#tags DatacenterConnectivityTemplateSvi#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_template_svi#tags DatacenterConnectivityTemplateSvi#tags}
   */
   readonly tags?: string[];
 }
@@ -48,7 +48,7 @@ export interface DatacenterConnectivityTemplateSviBgpPeeringIpEndpointsRoutingPo
   /**
   * Routing Policy ID to be applied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_template_svi#routing_policy_id DatacenterConnectivityTemplateSvi#routing_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_template_svi#routing_policy_id DatacenterConnectivityTemplateSvi#routing_policy_id}
   */
   readonly routingPolicyId: string;
 }
@@ -171,61 +171,61 @@ export interface DatacenterConnectivityTemplateSviBgpPeeringIpEndpoints {
   /**
   * Enable BFD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_template_svi#bfd_enabled DatacenterConnectivityTemplateSvi#bfd_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_template_svi#bfd_enabled DatacenterConnectivityTemplateSvi#bfd_enabled}
   */
   readonly bfdEnabled: boolean | cdktf.IResolvable;
   /**
   * BGP hold time (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_template_svi#hold_time DatacenterConnectivityTemplateSvi#hold_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_template_svi#hold_time DatacenterConnectivityTemplateSvi#hold_time}
   */
   readonly holdTime?: number;
   /**
   * IPv4 address of peer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_template_svi#ipv4_address DatacenterConnectivityTemplateSvi#ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_template_svi#ipv4_address DatacenterConnectivityTemplateSvi#ipv4_address}
   */
   readonly ipv4Address?: string;
   /**
   * IPv6 address of peer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_template_svi#ipv6_address DatacenterConnectivityTemplateSvi#ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_template_svi#ipv6_address DatacenterConnectivityTemplateSvi#ipv6_address}
   */
   readonly ipv6Address?: string;
   /**
   * BGP keepalive time (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_template_svi#keepalive_time DatacenterConnectivityTemplateSvi#keepalive_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_template_svi#keepalive_time DatacenterConnectivityTemplateSvi#keepalive_time}
   */
   readonly keepaliveTime?: number;
   /**
   * This feature is configured on a per-peer basis. It allows a router to appear to be a member of a second autonomous system (AS) by prepending a local-as AS number, in addition to its real AS number, announced to its eBGP peer, resulting in an AS path length of two.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_template_svi#local_asn DatacenterConnectivityTemplateSvi#local_asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_template_svi#local_asn DatacenterConnectivityTemplateSvi#local_asn}
   */
   readonly localAsn?: number;
   /**
   * Neighbor ASN. Omit for *Neighbor ASN Type Dynamic*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_template_svi#neighbor_asn DatacenterConnectivityTemplateSvi#neighbor_asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_template_svi#neighbor_asn DatacenterConnectivityTemplateSvi#neighbor_asn}
   */
   readonly neighborAsn?: number;
   /**
   * Password used to secure the BGP session.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_template_svi#password DatacenterConnectivityTemplateSvi#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_template_svi#password DatacenterConnectivityTemplateSvi#password}
   */
   readonly password?: string;
   /**
   * Map of Routing Policy Primitives to be used with this *Protocol Endpoint*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_template_svi#routing_policies DatacenterConnectivityTemplateSvi#routing_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_template_svi#routing_policies DatacenterConnectivityTemplateSvi#routing_policies}
   */
   readonly routingPolicies?: { [key: string]: DatacenterConnectivityTemplateSviBgpPeeringIpEndpointsRoutingPolicies } | cdktf.IResolvable;
   /**
   * BGP Time To Live. Omit to use device defaults.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_template_svi#ttl DatacenterConnectivityTemplateSvi#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_template_svi#ttl DatacenterConnectivityTemplateSvi#ttl}
   */
   readonly ttl?: number;
 }
@@ -614,7 +614,7 @@ export interface DatacenterConnectivityTemplateSviDynamicBgpPeeringsRoutingPolic
   /**
   * Routing Policy ID to be applied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_template_svi#routing_policy_id DatacenterConnectivityTemplateSvi#routing_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_template_svi#routing_policy_id DatacenterConnectivityTemplateSvi#routing_policy_id}
   */
   readonly routingPolicyId: string;
 }
@@ -737,67 +737,67 @@ export interface DatacenterConnectivityTemplateSviDynamicBgpPeerings {
   /**
   * Enable BFD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_template_svi#bfd_enabled DatacenterConnectivityTemplateSvi#bfd_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_template_svi#bfd_enabled DatacenterConnectivityTemplateSvi#bfd_enabled}
   */
   readonly bfdEnabled: boolean | cdktf.IResolvable;
   /**
   * BGP hold time (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_template_svi#hold_time DatacenterConnectivityTemplateSvi#hold_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_template_svi#hold_time DatacenterConnectivityTemplateSvi#hold_time}
   */
   readonly holdTime?: number;
   /**
   * Enables peering with IPv4 neighbors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_template_svi#ipv4_enabled DatacenterConnectivityTemplateSvi#ipv4_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_template_svi#ipv4_enabled DatacenterConnectivityTemplateSvi#ipv4_enabled}
   */
   readonly ipv4Enabled: boolean | cdktf.IResolvable;
   /**
   * IPv4 Subnet for BGP Prefix Dynamic Neighbors. Leave blank to derive subnet from application point.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_template_svi#ipv4_peer_prefix DatacenterConnectivityTemplateSvi#ipv4_peer_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_template_svi#ipv4_peer_prefix DatacenterConnectivityTemplateSvi#ipv4_peer_prefix}
   */
   readonly ipv4PeerPrefix?: string;
   /**
   * Enables peering with IPv6 neighbors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_template_svi#ipv6_enabled DatacenterConnectivityTemplateSvi#ipv6_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_template_svi#ipv6_enabled DatacenterConnectivityTemplateSvi#ipv6_enabled}
   */
   readonly ipv6Enabled: boolean | cdktf.IResolvable;
   /**
   * IPv6 Subnet for BGP Prefix Dynamic Neighbors. Leave blank to derive subnet from application point.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_template_svi#ipv6_peer_prefix DatacenterConnectivityTemplateSvi#ipv6_peer_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_template_svi#ipv6_peer_prefix DatacenterConnectivityTemplateSvi#ipv6_peer_prefix}
   */
   readonly ipv6PeerPrefix?: string;
   /**
   * BGP keepalive time (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_template_svi#keepalive_time DatacenterConnectivityTemplateSvi#keepalive_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_template_svi#keepalive_time DatacenterConnectivityTemplateSvi#keepalive_time}
   */
   readonly keepaliveTime?: number;
   /**
   * This feature is configured on a per-peer basis. It allows a router to appear to be a member of a second autonomous system (AS) by prepending a local-as AS number, in addition to its real AS number, announced to its eBGP peer, resulting in an AS path length of two.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_template_svi#local_asn DatacenterConnectivityTemplateSvi#local_asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_template_svi#local_asn DatacenterConnectivityTemplateSvi#local_asn}
   */
   readonly localAsn?: number;
   /**
   * Password used to secure the BGP session.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_template_svi#password DatacenterConnectivityTemplateSvi#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_template_svi#password DatacenterConnectivityTemplateSvi#password}
   */
   readonly password?: string;
   /**
   * Map of Routing Policy Primitives to be used with this *Protocol Endpoint*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_template_svi#routing_policies DatacenterConnectivityTemplateSvi#routing_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_template_svi#routing_policies DatacenterConnectivityTemplateSvi#routing_policies}
   */
   readonly routingPolicies?: { [key: string]: DatacenterConnectivityTemplateSviDynamicBgpPeeringsRoutingPolicies } | cdktf.IResolvable;
   /**
   * BGP Time To Live. Omit to use device defaults.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_template_svi#ttl DatacenterConnectivityTemplateSvi#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_template_svi#ttl DatacenterConnectivityTemplateSvi#ttl}
   */
   readonly ttl?: number;
 }
@@ -1207,7 +1207,7 @@ export class DatacenterConnectivityTemplateSviDynamicBgpPeeringsMap extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_template_svi apstra_datacenter_connectivity_template_svi}
+* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_template_svi apstra_datacenter_connectivity_template_svi}
 */
 export class DatacenterConnectivityTemplateSvi extends cdktf.TerraformResource {
 
@@ -1223,7 +1223,7 @@ export class DatacenterConnectivityTemplateSvi extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DatacenterConnectivityTemplateSvi resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatacenterConnectivityTemplateSvi to import
-  * @param importFromId The id of the existing DatacenterConnectivityTemplateSvi that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_template_svi#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatacenterConnectivityTemplateSvi that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_template_svi#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatacenterConnectivityTemplateSvi to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1235,7 +1235,7 @@ export class DatacenterConnectivityTemplateSvi extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_template_svi apstra_datacenter_connectivity_template_svi} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_template_svi apstra_datacenter_connectivity_template_svi} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1246,7 +1246,8 @@ export class DatacenterConnectivityTemplateSvi extends cdktf.TerraformResource {
       terraformResourceType: 'apstra_datacenter_connectivity_template_svi',
       terraformGeneratorMetadata: {
         providerName: 'apstra',
-        providerVersion: '0.95.0'
+        providerVersion: '0.95.1',
+        providerVersionConstraint: '0.95.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/disc/pritunl/0.6.1/docs/data-sources/host
+// https://registry.terraform.io/providers/disc/pritunl/0.6.2/docs/data-sources/host
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataPritunlHostConfig extends cdktf.TerraformMetaArguments {
   /**
   * Hostname
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/disc/pritunl/0.6.1/docs/data-sources/host#hostname DataPritunlHost#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/disc/pritunl/0.6.2/docs/data-sources/host#hostname DataPritunlHost#hostname}
   */
   readonly hostname: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/disc/pritunl/0.6.1/docs/data-sources/host pritunl_host}
+* Represents a {@link https://registry.terraform.io/providers/disc/pritunl/0.6.2/docs/data-sources/host pritunl_host}
 */
 export class DataPritunlHost extends cdktf.TerraformDataSource {
 
@@ -32,7 +32,7 @@ export class DataPritunlHost extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataPritunlHost resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataPritunlHost to import
-  * @param importFromId The id of the existing DataPritunlHost that should be imported. Refer to the {@link https://registry.terraform.io/providers/disc/pritunl/0.6.1/docs/data-sources/host#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataPritunlHost that should be imported. Refer to the {@link https://registry.terraform.io/providers/disc/pritunl/0.6.2/docs/data-sources/host#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataPritunlHost to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class DataPritunlHost extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/disc/pritunl/0.6.1/docs/data-sources/host pritunl_host} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/disc/pritunl/0.6.2/docs/data-sources/host pritunl_host} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,7 +55,8 @@ export class DataPritunlHost extends cdktf.TerraformDataSource {
       terraformResourceType: 'pritunl_host',
       terraformGeneratorMetadata: {
         providerName: 'pritunl',
-        providerVersion: '0.6.1'
+        providerVersion: '0.6.2',
+        providerVersionConstraint: '0.6.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -61,7 +61,8 @@ export class UserData extends cdktf.TerraformResource {
       terraformResourceType: 'latitudesh_user_data',
       terraformGeneratorMetadata: {
         providerName: 'latitudesh',
-        providerVersion: '2.8.2'
+        providerVersion: '2.8.2',
+        providerVersionConstraint: '2.8.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

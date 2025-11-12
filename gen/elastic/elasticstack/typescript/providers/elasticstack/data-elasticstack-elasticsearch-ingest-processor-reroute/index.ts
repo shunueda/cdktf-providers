@@ -97,7 +97,8 @@ export class DataElasticstackElasticsearchIngestProcessorReroute extends cdktf.T
       terraformResourceType: 'elasticstack_elasticsearch_ingest_processor_reroute',
       terraformGeneratorMetadata: {
         providerName: 'elasticstack',
-        providerVersion: '0.12.1'
+        providerVersion: '0.12.1',
+        providerVersionConstraint: '0.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

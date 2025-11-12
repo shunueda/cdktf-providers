@@ -60,7 +60,8 @@ export class DataGithubActionsRepositoryOidcSubjectClaimCustomizationTemplate ex
       terraformResourceType: 'github_actions_repository_oidc_subject_claim_customization_template',
       terraformGeneratorMetadata: {
         providerName: 'github',
-        providerVersion: '6.7.5'
+        providerVersion: '6.7.5',
+        providerVersionConstraint: '6.7.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

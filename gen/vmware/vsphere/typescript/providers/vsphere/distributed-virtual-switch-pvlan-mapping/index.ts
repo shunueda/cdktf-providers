@@ -80,7 +80,8 @@ export class DistributedVirtualSwitchPvlanMappingA extends cdktf.TerraformResour
       terraformResourceType: 'vsphere_distributed_virtual_switch_pvlan_mapping',
       terraformGeneratorMetadata: {
         providerName: 'vsphere',
-        providerVersion: '2.15.0'
+        providerVersion: '2.15.0',
+        providerVersionConstraint: '2.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

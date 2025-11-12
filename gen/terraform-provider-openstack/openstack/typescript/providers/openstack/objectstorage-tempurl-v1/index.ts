@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/objectstorage_tempurl_v1
+// https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/objectstorage_tempurl_v1
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,52 +8,52 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectstorageTempurlV1Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/objectstorage_tempurl_v1#container ObjectstorageTempurlV1#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/objectstorage_tempurl_v1#container ObjectstorageTempurlV1#container}
   */
   readonly container: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/objectstorage_tempurl_v1#digest ObjectstorageTempurlV1#digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/objectstorage_tempurl_v1#digest ObjectstorageTempurlV1#digest}
   */
   readonly digest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/objectstorage_tempurl_v1#id ObjectstorageTempurlV1#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/objectstorage_tempurl_v1#id ObjectstorageTempurlV1#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/objectstorage_tempurl_v1#key ObjectstorageTempurlV1#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/objectstorage_tempurl_v1#key ObjectstorageTempurlV1#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/objectstorage_tempurl_v1#method ObjectstorageTempurlV1#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/objectstorage_tempurl_v1#method ObjectstorageTempurlV1#method}
   */
   readonly method?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/objectstorage_tempurl_v1#object ObjectstorageTempurlV1#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/objectstorage_tempurl_v1#object ObjectstorageTempurlV1#object}
   */
   readonly object: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/objectstorage_tempurl_v1#regenerate ObjectstorageTempurlV1#regenerate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/objectstorage_tempurl_v1#regenerate ObjectstorageTempurlV1#regenerate}
   */
   readonly regenerate?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/objectstorage_tempurl_v1#region ObjectstorageTempurlV1#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/objectstorage_tempurl_v1#region ObjectstorageTempurlV1#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/objectstorage_tempurl_v1#split ObjectstorageTempurlV1#split}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/objectstorage_tempurl_v1#split ObjectstorageTempurlV1#split}
   */
   readonly split?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/objectstorage_tempurl_v1#ttl ObjectstorageTempurlV1#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/objectstorage_tempurl_v1#ttl ObjectstorageTempurlV1#ttl}
   */
   readonly ttl: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/objectstorage_tempurl_v1 openstack_objectstorage_tempurl_v1}
+* Represents a {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/objectstorage_tempurl_v1 openstack_objectstorage_tempurl_v1}
 */
 export class ObjectstorageTempurlV1 extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class ObjectstorageTempurlV1 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectstorageTempurlV1 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectstorageTempurlV1 to import
-  * @param importFromId The id of the existing ObjectstorageTempurlV1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/objectstorage_tempurl_v1#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectstorageTempurlV1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/objectstorage_tempurl_v1#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectstorageTempurlV1 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class ObjectstorageTempurlV1 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/objectstorage_tempurl_v1 openstack_objectstorage_tempurl_v1} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/objectstorage_tempurl_v1 openstack_objectstorage_tempurl_v1} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,7 +92,8 @@ export class ObjectstorageTempurlV1 extends cdktf.TerraformResource {
       terraformResourceType: 'openstack_objectstorage_tempurl_v1',
       terraformGeneratorMetadata: {
         providerName: 'openstack',
-        providerVersion: '3.3.2'
+        providerVersion: '3.4.0',
+        providerVersionConstraint: '3.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

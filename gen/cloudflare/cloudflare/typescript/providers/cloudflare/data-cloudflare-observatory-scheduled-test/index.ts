@@ -68,7 +68,8 @@ export class DataCloudflareObservatoryScheduledTest extends cdktf.TerraformDataS
       terraformResourceType: 'cloudflare_observatory_scheduled_test',
       terraformGeneratorMetadata: {
         providerName: 'cloudflare',
-        providerVersion: '5.12.0'
+        providerVersion: '5.12.0',
+        providerVersionConstraint: '5.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

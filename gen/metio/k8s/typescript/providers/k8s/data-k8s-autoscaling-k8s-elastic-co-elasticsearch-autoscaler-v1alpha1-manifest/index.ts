@@ -1533,7 +1533,8 @@ export class DataK8SAutoscalingK8SElasticCoElasticsearchAutoscalerV1Alpha1Manife
       terraformResourceType: 'k8s_autoscaling_k8s_elastic_co_elasticsearch_autoscaler_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

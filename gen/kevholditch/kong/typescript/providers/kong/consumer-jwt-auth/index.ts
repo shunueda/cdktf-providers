@@ -80,7 +80,8 @@ export class ConsumerJwtAuth extends cdktf.TerraformResource {
       terraformResourceType: 'kong_consumer_jwt_auth',
       terraformGeneratorMetadata: {
         providerName: 'kong',
-        providerVersion: '6.5.1'
+        providerVersion: '6.5.1',
+        providerVersionConstraint: '6.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

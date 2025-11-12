@@ -72,7 +72,8 @@ export class DataAciVpcExplicitProtectionGroup extends cdktf.TerraformDataSource
       terraformResourceType: 'aci_vpc_explicit_protection_group',
       terraformGeneratorMetadata: {
         providerName: 'aci',
-        providerVersion: '2.18.0'
+        providerVersion: '2.18.0',
+        providerVersionConstraint: '2.18.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

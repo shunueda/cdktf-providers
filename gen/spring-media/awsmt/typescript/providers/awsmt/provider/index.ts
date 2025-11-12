@@ -73,7 +73,8 @@ export class AwsmtProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'awsmt',
       terraformGeneratorMetadata: {
         providerName: 'awsmt',
-        providerVersion: '2.5.1'
+        providerVersion: '2.5.1',
+        providerVersionConstraint: '2.5.1'
       },
       terraformProviderSource: 'spring-media/awsmt'
     });

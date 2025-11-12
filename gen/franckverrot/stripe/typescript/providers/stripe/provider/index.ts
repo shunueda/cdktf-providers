@@ -59,7 +59,8 @@ export class StripeProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'stripe',
       terraformGeneratorMetadata: {
         providerName: 'stripe',
-        providerVersion: '1.9.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       terraformProviderSource: 'franckverrot/stripe'
     });

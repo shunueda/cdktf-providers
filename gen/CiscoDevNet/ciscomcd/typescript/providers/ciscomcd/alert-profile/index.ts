@@ -104,7 +104,8 @@ export class AlertProfile extends cdktf.TerraformResource {
       terraformResourceType: 'ciscomcd_alert_profile',
       terraformGeneratorMetadata: {
         providerName: 'ciscomcd',
-        providerVersion: '25.9.2'
+        providerVersion: '25.9.2',
+        providerVersionConstraint: '25.9.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

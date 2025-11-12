@@ -362,7 +362,8 @@ export class DataDnacenterIssuesEnrichmentDetails extends cdktf.TerraformDataSou
       terraformResourceType: 'dnacenter_issues_enrichment_details',
       terraformGeneratorMetadata: {
         providerName: 'dnacenter',
-        providerVersion: '1.1.21'
+        providerVersion: '1.1.21',
+        providerVersionConstraint: '1.1.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

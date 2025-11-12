@@ -240,7 +240,8 @@ export class AamAuthenticationOauthAuthorizationServer extends cdktf.TerraformRe
       terraformResourceType: 'thunder_aam_authentication_oauth_authorization_server',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

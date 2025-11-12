@@ -80,7 +80,8 @@ export class DdosAnomalyDropPacketDeformityLayer3 extends cdktf.TerraformResourc
       terraformResourceType: 'thunder_ddos_anomaly_drop_packet_deformity_layer_3',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

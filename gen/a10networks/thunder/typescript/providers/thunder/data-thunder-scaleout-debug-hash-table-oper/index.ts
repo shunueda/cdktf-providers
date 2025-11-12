@@ -495,7 +495,8 @@ export class DataThunderScaleoutDebugHashTableOper extends cdktf.TerraformDataSo
       terraformResourceType: 'thunder_scaleout_debug_hash_table_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

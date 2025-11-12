@@ -60,7 +60,8 @@ export class DataLogzioArchiveLogs extends cdktf.TerraformDataSource {
       terraformResourceType: 'logzio_archive_logs',
       terraformGeneratorMetadata: {
         providerName: 'logzio',
-        providerVersion: '1.26.0'
+        providerVersion: '1.26.0',
+        providerVersionConstraint: '1.26.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -83,7 +83,8 @@ export class ValtixProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'valtix',
       terraformGeneratorMetadata: {
         providerName: 'valtix',
-        providerVersion: '25.9.2'
+        providerVersion: '25.9.2',
+        providerVersionConstraint: '25.9.2'
       },
       terraformProviderSource: 'valtix-security/valtix'
     });

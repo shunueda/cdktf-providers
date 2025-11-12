@@ -276,7 +276,8 @@ export class IsisInterface extends cdktf.TerraformResource {
       terraformResourceType: 'nxos_isis_interface',
       terraformGeneratorMetadata: {
         providerName: 'nxos',
-        providerVersion: '0.5.10'
+        providerVersion: '0.5.10',
+        providerVersionConstraint: '0.5.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

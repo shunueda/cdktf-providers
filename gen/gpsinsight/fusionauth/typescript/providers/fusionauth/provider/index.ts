@@ -63,7 +63,8 @@ export class FusionauthProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'fusionauth',
       terraformGeneratorMetadata: {
         providerName: 'fusionauth',
-        providerVersion: '0.1.100'
+        providerVersion: '0.1.100',
+        providerVersionConstraint: '0.1.100'
       },
       terraformProviderSource: 'gpsinsight/fusionauth'
     });

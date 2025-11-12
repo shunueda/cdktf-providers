@@ -362,7 +362,8 @@ export class DataWorksProjectMember extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_data_works_project_member',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

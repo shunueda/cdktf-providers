@@ -562,7 +562,8 @@ export class DataBloxoneTdNamedLists extends cdktf.TerraformDataSource {
       terraformResourceType: 'bloxone_td_named_lists',
       terraformGeneratorMetadata: {
         providerName: 'bloxone',
-        providerVersion: '1.5.3'
+        providerVersion: '1.5.3',
+        providerVersionConstraint: '1.5.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -3690,7 +3690,8 @@ export class DataThunderGslbSiteSlbDevOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_gslb_site_slb_dev_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

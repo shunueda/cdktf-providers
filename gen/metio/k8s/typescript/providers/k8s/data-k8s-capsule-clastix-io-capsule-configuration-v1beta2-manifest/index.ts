@@ -1028,7 +1028,8 @@ export class DataK8SCapsuleClastixIoCapsuleConfigurationV1Beta2Manifest extends 
       terraformResourceType: 'k8s_capsule_clastix_io_capsule_configuration_v1beta2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

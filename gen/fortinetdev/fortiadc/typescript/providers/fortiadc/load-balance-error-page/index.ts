@@ -72,7 +72,8 @@ export class LoadBalanceErrorPage extends cdktf.TerraformResource {
       terraformResourceType: 'fortiadc_load_balance_error_page',
       terraformGeneratorMetadata: {
         providerName: 'fortiadc',
-        providerVersion: '1.3.1'
+        providerVersion: '1.3.1',
+        providerVersionConstraint: '1.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -223,7 +223,8 @@ export class Role extends cdktf.TerraformResource {
       terraformResourceType: 'unleash_role',
       terraformGeneratorMetadata: {
         providerName: 'unleash',
-        providerVersion: '3.1.11'
+        providerVersion: '3.1.11',
+        providerVersionConstraint: '3.1.11'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -73,7 +73,8 @@ export class ArtifactsProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'artifacts',
       terraformGeneratorMetadata: {
         providerName: 'artifacts',
-        providerVersion: '1.1.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       terraformProviderSource: 'splunk/artifacts'
     });

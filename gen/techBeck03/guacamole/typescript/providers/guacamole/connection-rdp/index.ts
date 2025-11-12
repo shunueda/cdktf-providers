@@ -3081,7 +3081,8 @@ export class ConnectionRdp extends cdktf.TerraformResource {
       terraformResourceType: 'guacamole_connection_rdp',
       terraformGeneratorMetadata: {
         providerName: 'guacamole',
-        providerVersion: '1.4.1'
+        providerVersion: '1.4.1',
+        providerVersionConstraint: '1.4.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

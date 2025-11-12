@@ -72,7 +72,8 @@ export class DiscoveryEngineDiscoveredPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'accuknox_discovery_engine_discovered_policy',
       terraformGeneratorMetadata: {
         providerName: 'accuknox',
-        providerVersion: '1.0.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

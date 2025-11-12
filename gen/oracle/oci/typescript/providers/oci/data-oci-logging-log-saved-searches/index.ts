@@ -448,7 +448,8 @@ export class DataOciLoggingLogSavedSearches extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_logging_log_saved_searches',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

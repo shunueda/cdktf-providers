@@ -454,7 +454,8 @@ export class MfaApplicationPushCredential extends cdktf.TerraformResource {
       terraformResourceType: 'pingone_mfa_application_push_credential',
       terraformGeneratorMetadata: {
         providerName: 'pingone',
-        providerVersion: '1.14.0'
+        providerVersion: '1.14.0',
+        providerVersionConstraint: '1.14.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

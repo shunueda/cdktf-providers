@@ -62,7 +62,8 @@ export class DataCoralogixDashboard extends cdktf.TerraformDataSource {
       terraformResourceType: 'coralogix_dashboard',
       terraformGeneratorMetadata: {
         providerName: 'coralogix',
-        providerVersion: '2.2.3'
+        providerVersion: '2.2.3',
+        providerVersionConstraint: '2.2.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

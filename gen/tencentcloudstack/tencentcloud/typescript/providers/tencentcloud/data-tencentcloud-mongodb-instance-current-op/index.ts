@@ -225,7 +225,8 @@ export class DataTencentcloudMongodbInstanceCurrentOp extends cdktf.TerraformDat
       terraformResourceType: 'tencentcloud_mongodb_instance_current_op',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -72,7 +72,8 @@ export class DataIgnitionRaid extends cdktf.TerraformDataSource {
       terraformResourceType: 'ignition_raid',
       terraformGeneratorMetadata: {
         providerName: 'ignition',
-        providerVersion: '0.0.1'
+        providerVersion: '0.0.1',
+        providerVersionConstraint: '0.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -5168,7 +5168,8 @@ export class DataIntersightMemoryPersistentMemoryRegion extends cdktf.TerraformD
       terraformResourceType: 'intersight_memory_persistent_memory_region',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -103,7 +103,8 @@ export class ReverseProxy extends cdktf.TerraformResource {
       terraformResourceType: 'platform_reverse_proxy',
       terraformGeneratorMetadata: {
         providerName: 'platform',
-        providerVersion: '2.2.6'
+        providerVersion: '2.2.6',
+        providerVersionConstraint: '2.2.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

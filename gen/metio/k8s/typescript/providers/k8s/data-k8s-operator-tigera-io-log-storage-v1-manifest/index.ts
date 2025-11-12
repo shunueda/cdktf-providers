@@ -7292,7 +7292,8 @@ export class DataK8SOperatorTigeraIoLogStorageV1Manifest extends cdktf.Terraform
       terraformResourceType: 'k8s_operator_tigera_io_log_storage_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

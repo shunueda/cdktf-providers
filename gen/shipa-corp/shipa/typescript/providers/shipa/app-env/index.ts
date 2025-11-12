@@ -358,7 +358,8 @@ export class AppEnv extends cdktf.TerraformResource {
       terraformResourceType: 'shipa_app_env',
       terraformGeneratorMetadata: {
         providerName: 'shipa',
-        providerVersion: '0.0.18'
+        providerVersion: '0.0.18',
+        providerVersionConstraint: '0.0.18'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

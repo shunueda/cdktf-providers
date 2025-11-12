@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/data-sources/dns_zone
+// https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/data-sources/dns_zone
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataBunnynetDnsZoneConfig extends cdktf.TerraformMetaArguments 
   /**
   * The domain name for the DNS zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/data-sources/dns_zone#domain DataBunnynetDnsZone#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/data-sources/dns_zone#domain DataBunnynetDnsZone#domain}
   */
   readonly domain: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/data-sources/dns_zone bunnynet_dns_zone}
+* Represents a {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/data-sources/dns_zone bunnynet_dns_zone}
 */
 export class DataBunnynetDnsZone extends cdktf.TerraformDataSource {
 
@@ -32,7 +32,7 @@ export class DataBunnynetDnsZone extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataBunnynetDnsZone resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataBunnynetDnsZone to import
-  * @param importFromId The id of the existing DataBunnynetDnsZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/data-sources/dns_zone#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataBunnynetDnsZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/data-sources/dns_zone#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataBunnynetDnsZone to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class DataBunnynetDnsZone extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/data-sources/dns_zone bunnynet_dns_zone} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/data-sources/dns_zone bunnynet_dns_zone} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,7 +55,8 @@ export class DataBunnynetDnsZone extends cdktf.TerraformDataSource {
       terraformResourceType: 'bunnynet_dns_zone',
       terraformGeneratorMetadata: {
         providerName: 'bunnynet',
-        providerVersion: '0.11.0'
+        providerVersion: '0.11.1',
+        providerVersionConstraint: '0.11.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

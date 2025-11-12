@@ -68,7 +68,8 @@ export class DataAkamaiAppsecConfigurationVersion extends cdktf.TerraformDataSou
       terraformResourceType: 'akamai_appsec_configuration_version',
       terraformGeneratorMetadata: {
         providerName: 'akamai',
-        providerVersion: '9.1.0'
+        providerVersion: '9.1.0',
+        providerVersionConstraint: '9.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

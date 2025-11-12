@@ -584,7 +584,8 @@ export class FastTcpApp extends cdktf.TerraformResource {
       terraformResourceType: 'bigip_fast_tcp_app',
       terraformGeneratorMetadata: {
         providerName: 'bigip',
-        providerVersion: '1.24.1'
+        providerVersion: '1.24.1',
+        providerVersionConstraint: '1.24.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

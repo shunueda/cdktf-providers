@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/metal_connection
+// https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/metal_connection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,91 +10,91 @@ export interface MetalConnectionConfig extends cdktf.TerraformMetaArguments {
   /**
   * The preferred email used for communication and notifications about the Equinix Fabric interconnection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/metal_connection#contact_email MetalConnection#contact_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/metal_connection#contact_email MetalConnection#contact_email}
   */
   readonly contactEmail?: string;
   /**
   * Description of the connection resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/metal_connection#description MetalConnection#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/metal_connection#description MetalConnection#description}
   */
   readonly description?: string;
   /**
   * Facility where the connection will be created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/metal_connection#facility MetalConnection#facility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/metal_connection#facility MetalConnection#facility}
   */
   readonly facility?: string;
   /**
   * Metro where the connection will be created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/metal_connection#metro MetalConnection#metro}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/metal_connection#metro MetalConnection#metro}
   */
   readonly metro?: string;
   /**
   * Mode for connections in IBX facilities with the dedicated type - standard or tunnel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/metal_connection#mode MetalConnection#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/metal_connection#mode MetalConnection#mode}
   */
   readonly mode?: string;
   /**
   * Name of the connection resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/metal_connection#name MetalConnection#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/metal_connection#name MetalConnection#name}
   */
   readonly name: string;
   /**
   * ID of the organization responsible for the connection. Applicable with type "dedicated"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/metal_connection#organization_id MetalConnection#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/metal_connection#organization_id MetalConnection#organization_id}
   */
   readonly organizationId?: string;
   /**
   * ID of the project where the connection is scoped to. Required with type "shared"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/metal_connection#project_id MetalConnection#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/metal_connection#project_id MetalConnection#project_id}
   */
   readonly projectId?: string;
   /**
   * Connection redundancy - redundant or primary
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/metal_connection#redundancy MetalConnection#redundancy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/metal_connection#redundancy MetalConnection#redundancy}
   */
   readonly redundancy: string;
   /**
   * Only used with shared connection. Type of service token to use for the connection, a_side or z_side
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/metal_connection#service_token_type MetalConnection#service_token_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/metal_connection#service_token_type MetalConnection#service_token_type}
   */
   readonly serviceTokenType?: string;
   /**
   * Connection speed -  Values must be in the format '<number>Mbps' or '<number>Gpbs', for example '100Mbps' or '50Gbps'.  Actual supported values will depend on the connection type and whether the connection uses VLANs or VRF.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/metal_connection#speed MetalConnection#speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/metal_connection#speed MetalConnection#speed}
   */
   readonly speed?: string;
   /**
   * Tags attached to the connection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/metal_connection#tags MetalConnection#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/metal_connection#tags MetalConnection#tags}
   */
   readonly tags?: string[];
   /**
   * Connection type - dedicated, shared or shared_port_vlan
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/metal_connection#type MetalConnection#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/metal_connection#type MetalConnection#type}
   */
   readonly type: string;
   /**
   * Only used with shared connection. VLANs to attach. Pass one vlan for Primary/Single connection and two vlans for Redundant connection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/metal_connection#vlans MetalConnection#vlans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/metal_connection#vlans MetalConnection#vlans}
   */
   readonly vlans?: number[];
   /**
   * Only used with shared connection. VRFs to attach. Pass one VRF for Primary/Single connection and two VRFs for Redundant connection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/metal_connection#vrfs MetalConnection#vrfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/metal_connection#vrfs MetalConnection#vrfs}
   */
   readonly vrfs?: string[];
 }
@@ -305,7 +305,7 @@ export class MetalConnectionServiceTokensList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/metal_connection equinix_metal_connection}
+* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/metal_connection equinix_metal_connection}
 */
 export class MetalConnection extends cdktf.TerraformResource {
 
@@ -321,7 +321,7 @@ export class MetalConnection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MetalConnection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MetalConnection to import
-  * @param importFromId The id of the existing MetalConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/metal_connection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MetalConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/metal_connection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MetalConnection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -333,7 +333,7 @@ export class MetalConnection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/metal_connection equinix_metal_connection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/metal_connection equinix_metal_connection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -344,7 +344,8 @@ export class MetalConnection extends cdktf.TerraformResource {
       terraformResourceType: 'equinix_metal_connection',
       terraformGeneratorMetadata: {
         providerName: 'equinix',
-        providerVersion: '4.8.0'
+        providerVersion: '4.10.0',
+        providerVersionConstraint: '4.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

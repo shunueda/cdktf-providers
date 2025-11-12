@@ -192,7 +192,8 @@ export class CloudL4L7NativeLoadBalancer extends cdktf.TerraformResource {
       terraformResourceType: 'aci_cloud_l4_l7_native_load_balancer',
       terraformGeneratorMetadata: {
         providerName: 'aci',
-        providerVersion: '2.18.0'
+        providerVersion: '2.18.0',
+        providerVersionConstraint: '2.18.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

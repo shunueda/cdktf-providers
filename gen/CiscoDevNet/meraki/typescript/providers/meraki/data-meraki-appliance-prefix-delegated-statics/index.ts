@@ -150,7 +150,8 @@ export class DataMerakiAppliancePrefixDelegatedStatics extends cdktf.TerraformDa
       terraformResourceType: 'meraki_appliance_prefix_delegated_statics',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1'
+        providerVersion: '1.7.1',
+        providerVersionConstraint: '1.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

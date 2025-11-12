@@ -230,7 +230,8 @@ export class IdentityDataPlaneGenerateScopedAccessToken extends cdktf.TerraformR
       terraformResourceType: 'oci_identity_data_plane_generate_scoped_access_token',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/instance_pool
+// https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/instance_pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface InstancePoolConfig extends cdktf.TerraformMetaArguments {
   /**
   * A list of [exoscale_anti_affinity_group](./anti_affinity_group.md) (IDs; may only be set at creation time).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/instance_pool#affinity_group_ids InstancePool#affinity_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/instance_pool#affinity_group_ids InstancePool#affinity_group_ids}
   */
   readonly affinityGroupIds?: string[];
   /**
   * A list of [exoscale_anti_affinity_group](./anti_affinity_group.md) (IDs; may only be set at creation time).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/instance_pool#anti_affinity_group_ids InstancePool#anti_affinity_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/instance_pool#anti_affinity_group_ids InstancePool#anti_affinity_group_ids}
   */
   readonly antiAffinityGroupIds?: string[];
   /**
   * A deploy target ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/instance_pool#deploy_target_id InstancePool#deploy_target_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/instance_pool#deploy_target_id InstancePool#deploy_target_id}
   */
   readonly deployTargetId?: string;
   /**
   * A free-form text describing the pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/instance_pool#description InstancePool#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/instance_pool#description InstancePool#description}
   */
   readonly description?: string;
   /**
   * The managed instances disk size (GiB).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/instance_pool#disk_size InstancePool#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/instance_pool#disk_size InstancePool#disk_size}
   */
   readonly diskSize?: number;
   /**
   * A list of [exoscale_elastic_ip](./elastic_ip.md) (IDs).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/instance_pool#elastic_ip_ids InstancePool#elastic_ip_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/instance_pool#elastic_ip_ids InstancePool#elastic_ip_ids}
   */
   readonly elasticIpIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/instance_pool#id InstancePool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/instance_pool#id InstancePool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,113 +53,113 @@ export interface InstancePoolConfig extends cdktf.TerraformMetaArguments {
   /**
   * The string used to prefix managed instances name (default: `pool`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/instance_pool#instance_prefix InstancePool#instance_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/instance_pool#instance_prefix InstancePool#instance_prefix}
   */
   readonly instancePrefix?: string;
   /**
   * The managed compute instances type (`<family>.<size>`, e.g. `standard.medium`; use the [Exoscale CLI](https://github.com/exoscale/cli/) - `exo compute instance-type list` - for the list of available types).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/instance_pool#instance_type InstancePool#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/instance_pool#instance_type InstancePool#instance_type}
   */
   readonly instanceType?: string;
   /**
   * Enable IPv6 on managed instances (boolean; default: `false`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/instance_pool#ipv6 InstancePool#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/instance_pool#ipv6 InstancePool#ipv6}
   */
   readonly ipv6?: boolean | cdktf.IResolvable;
   /**
   * The [exoscale_ssh_key](./ssh_key.md) (name) to authorize in the managed instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/instance_pool#key_pair InstancePool#key_pair}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/instance_pool#key_pair InstancePool#key_pair}
   */
   readonly keyPair?: string;
   /**
   * A map of key/value labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/instance_pool#labels InstancePool#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/instance_pool#labels InstancePool#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Minimum number of running Instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/instance_pool#min_available InstancePool#min_available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/instance_pool#min_available InstancePool#min_available}
   */
   readonly minAvailable?: number;
   /**
   * The instance pool name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/instance_pool#name InstancePool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/instance_pool#name InstancePool#name}
   */
   readonly name: string;
   /**
   * A list of [exoscale_private_network](./private_network.md) (IDs).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/instance_pool#network_ids InstancePool#network_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/instance_pool#network_ids InstancePool#network_ids}
   */
   readonly networkIds?: string[];
   /**
   * A list of [exoscale_security_group](./security_group.md) (IDs).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/instance_pool#security_group_ids InstancePool#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/instance_pool#security_group_ids InstancePool#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
   * The managed instances type. Please use the `instance_type` argument instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/instance_pool#service_offering InstancePool#service_offering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/instance_pool#service_offering InstancePool#service_offering}
   */
   readonly serviceOffering?: string;
   /**
   * The number of managed instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/instance_pool#size InstancePool#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/instance_pool#size InstancePool#size}
   */
   readonly size: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/instance_pool#state InstancePool#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/instance_pool#state InstancePool#state}
   */
   readonly state?: string;
   /**
   * The [exoscale_template](../data-sources/template.md) (ID) to use when creating the managed instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/instance_pool#template_id InstancePool#template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/instance_pool#template_id InstancePool#template_id}
   */
   readonly templateId: string;
   /**
   * [cloud-init](http://cloudinit.readthedocs.io/) configuration to apply to the managed instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/instance_pool#user_data InstancePool#user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/instance_pool#user_data InstancePool#user_data}
   */
   readonly userData?: string;
   /**
   * The list of managed instances (IDs). Please use the `instances.*.id` attribute instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/instance_pool#virtual_machines InstancePool#virtual_machines}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/instance_pool#virtual_machines InstancePool#virtual_machines}
   */
   readonly virtualMachines?: string[];
   /**
   * ❗ The Exoscale [Zone](https://www.exoscale.com/datacenters/) name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/instance_pool#zone InstancePool#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/instance_pool#zone InstancePool#zone}
   */
   readonly zone: string;
   /**
   * instances block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/instance_pool#instances InstancePool#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/instance_pool#instances InstancePool#instances}
   */
   readonly instances?: InstancePoolInstances[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/instance_pool#timeouts InstancePool#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/instance_pool#timeouts InstancePool#timeouts}
   */
   readonly timeouts?: InstancePoolTimeouts;
 }
 export interface InstancePoolInstances {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/instance_pool#id InstancePool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/instance_pool#id InstancePool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -168,7 +168,7 @@ export interface InstancePoolInstances {
   /**
   * The instance name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/instance_pool#name InstancePool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/instance_pool#name InstancePool#name}
   */
   readonly name?: string;
 }
@@ -323,19 +323,19 @@ export class InstancePoolInstancesList extends cdktf.ComplexList {
 }
 export interface InstancePoolTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/instance_pool#create InstancePool#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/instance_pool#create InstancePool#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/instance_pool#delete InstancePool#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/instance_pool#delete InstancePool#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/instance_pool#read InstancePool#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/instance_pool#read InstancePool#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/instance_pool#update InstancePool#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/instance_pool#update InstancePool#update}
   */
   readonly update?: string;
 }
@@ -516,7 +516,7 @@ export class InstancePoolTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/instance_pool exoscale_instance_pool}
+* Represents a {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/instance_pool exoscale_instance_pool}
 */
 export class InstancePool extends cdktf.TerraformResource {
 
@@ -532,7 +532,7 @@ export class InstancePool extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InstancePool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InstancePool to import
-  * @param importFromId The id of the existing InstancePool that should be imported. Refer to the {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/instance_pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InstancePool that should be imported. Refer to the {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/instance_pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InstancePool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -544,7 +544,7 @@ export class InstancePool extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/instance_pool exoscale_instance_pool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/instance_pool exoscale_instance_pool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -555,7 +555,8 @@ export class InstancePool extends cdktf.TerraformResource {
       terraformResourceType: 'exoscale_instance_pool',
       terraformGeneratorMetadata: {
         providerName: 'exoscale',
-        providerVersion: '0.66.0'
+        providerVersion: '0.67.0',
+        providerVersionConstraint: '0.67.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -60,7 +60,8 @@ export class DataZpaAppConnectorAssistantSchedule extends cdktf.TerraformDataSou
       terraformResourceType: 'zpa_app_connector_assistant_schedule',
       terraformGeneratorMetadata: {
         providerName: 'zpa',
-        providerVersion: '4.3.2'
+        providerVersion: '4.3.2',
+        providerVersionConstraint: '4.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

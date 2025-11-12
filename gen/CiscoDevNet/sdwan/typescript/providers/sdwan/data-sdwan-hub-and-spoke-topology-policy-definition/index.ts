@@ -335,7 +335,8 @@ export class DataSdwanHubAndSpokeTopologyPolicyDefinition extends cdktf.Terrafor
       terraformResourceType: 'sdwan_hub_and_spoke_topology_policy_definition',
       terraformGeneratorMetadata: {
         providerName: 'sdwan',
-        providerVersion: '0.8.1'
+        providerVersion: '0.8.1',
+        providerVersionConstraint: '0.8.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

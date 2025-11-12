@@ -70,7 +70,8 @@ export class DataZiaTenantRestrictionProfile extends cdktf.TerraformDataSource {
       terraformResourceType: 'zia_tenant_restriction_profile',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.5.3'
+        providerVersion: '4.5.3',
+        providerVersionConstraint: '4.5.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

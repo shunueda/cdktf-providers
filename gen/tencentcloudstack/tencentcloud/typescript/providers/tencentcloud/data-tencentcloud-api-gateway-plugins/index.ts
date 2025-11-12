@@ -185,7 +185,8 @@ export class DataTencentcloudApiGatewayPlugins extends cdktf.TerraformDataSource
       terraformResourceType: 'tencentcloud_api_gateway_plugins',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

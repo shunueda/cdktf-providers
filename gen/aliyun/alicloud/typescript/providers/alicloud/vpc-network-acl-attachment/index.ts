@@ -201,7 +201,8 @@ export class VpcNetworkAclAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_vpc_network_acl_attachment',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

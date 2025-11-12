@@ -471,7 +471,8 @@ export class VcsVcsPara extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_vcs_vcs_para',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -3147,7 +3147,8 @@ export class AwsLbListenerRule extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_aws_lb_listener_rule',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.28'
+        providerVersion: '0.11.28',
+        providerVersionConstraint: '0.11.28'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

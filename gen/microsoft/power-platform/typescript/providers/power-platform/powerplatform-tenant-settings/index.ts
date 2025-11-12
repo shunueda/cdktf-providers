@@ -2872,7 +2872,8 @@ export class PowerplatformTenantSettings extends cdktf.TerraformResource {
       terraformResourceType: 'powerplatform_tenant_settings',
       terraformGeneratorMetadata: {
         providerName: 'power-platform',
-        providerVersion: '3.9.1'
+        providerVersion: '3.9.1',
+        providerVersionConstraint: '3.9.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

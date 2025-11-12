@@ -80,7 +80,8 @@ export class CustomTaxonomyCategory extends cdktf.TerraformResource {
       terraformResourceType: 'satori_custom_taxonomy_category',
       terraformGeneratorMetadata: {
         providerName: 'satori',
-        providerVersion: '0.2.8'
+        providerVersion: '0.2.8',
+        providerVersionConstraint: '0.2.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -4770,7 +4770,8 @@ export class DataIntersightStoragePureNfsPolicyRule extends cdktf.TerraformDataS
       terraformResourceType: 'intersight_storage_pure_nfs_policy_rule',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

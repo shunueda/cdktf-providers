@@ -5388,7 +5388,8 @@ export class DataIntersightUuidpoolPoolMember extends cdktf.TerraformDataSource 
       terraformResourceType: 'intersight_uuidpool_pool_member',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

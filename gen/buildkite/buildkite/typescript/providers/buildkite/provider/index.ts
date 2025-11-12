@@ -172,7 +172,8 @@ export class BuildkiteProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'buildkite',
       terraformGeneratorMetadata: {
         providerName: 'buildkite',
-        providerVersion: '1.26.0'
+        providerVersion: '1.26.0',
+        providerVersionConstraint: '1.26.0'
       },
       terraformProviderSource: 'buildkite/buildkite'
     });

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/data-sources/network_account
+// https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/network_account
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataEquinixNetworkAccountConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/data-sources/network_account#id DataEquinixNetworkAccount#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/network_account#id DataEquinixNetworkAccount#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface DataEquinixNetworkAccountConfig extends cdktf.TerraformMetaArgu
   /**
   * Account location metro cod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/data-sources/network_account#metro_code DataEquinixNetworkAccount#metro_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/network_account#metro_code DataEquinixNetworkAccount#metro_code}
   */
   readonly metroCode: string;
   /**
   * Account name for filtering
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/data-sources/network_account#name DataEquinixNetworkAccount#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/network_account#name DataEquinixNetworkAccount#name}
   */
   readonly name?: string;
   /**
   * The unique identifier of Project Resource to which billing account is scoped to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/data-sources/network_account#project_id DataEquinixNetworkAccount#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/network_account#project_id DataEquinixNetworkAccount#project_id}
   */
   readonly projectId?: string;
   /**
   * Account status for filtering. Possible values are Active, Processing, Submitted, Staged
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/data-sources/network_account#status DataEquinixNetworkAccount#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/network_account#status DataEquinixNetworkAccount#status}
   */
   readonly status?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/data-sources/network_account equinix_network_account}
+* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/network_account equinix_network_account}
 */
 export class DataEquinixNetworkAccount extends cdktf.TerraformDataSource {
 
@@ -57,7 +57,7 @@ export class DataEquinixNetworkAccount extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataEquinixNetworkAccount resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataEquinixNetworkAccount to import
-  * @param importFromId The id of the existing DataEquinixNetworkAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/data-sources/network_account#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataEquinixNetworkAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/network_account#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataEquinixNetworkAccount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class DataEquinixNetworkAccount extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/data-sources/network_account equinix_network_account} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/network_account equinix_network_account} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,7 +80,8 @@ export class DataEquinixNetworkAccount extends cdktf.TerraformDataSource {
       terraformResourceType: 'equinix_network_account',
       terraformGeneratorMetadata: {
         providerName: 'equinix',
-        providerVersion: '4.8.0'
+        providerVersion: '4.10.0',
+        providerVersionConstraint: '4.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

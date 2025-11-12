@@ -11,6 +11,7 @@ export * as connectionClient from './connection-client';
 export * as connectionClients from './connection-clients';
 export * as connectionKeys from './connection-keys';
 export * as connectionScimConfiguration from './connection-scim-configuration';
+export * as connectionScimToken from './connection-scim-token';
 export * as customDomain from './custom-domain';
 export * as customDomainVerification from './custom-domain-verification';
 export * as emailProvider from './email-provider';

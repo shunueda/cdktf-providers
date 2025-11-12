@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/transit_gateway_attachment
+// https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/transit_gateway_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface TransitGatewayAttachmentConfig extends cdktf.TerraformMetaArgum
   /**
   * A list of consumer Cidr blocks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/transit_gateway_attachment#cidrs TransitGatewayAttachment#cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/transit_gateway_attachment#cidrs TransitGatewayAttachment#cidrs}
   */
   readonly cidrs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/transit_gateway_attachment#id TransitGatewayAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/transit_gateway_attachment#id TransitGatewayAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface TransitGatewayAttachmentConfig extends cdktf.TerraformMetaArgum
   /**
   * The id of the Pro/Flexible subscription to attach
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/transit_gateway_attachment#subscription_id TransitGatewayAttachment#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/transit_gateway_attachment#subscription_id TransitGatewayAttachment#subscription_id}
   */
   readonly subscriptionId: string;
   /**
   * The id of the Transit Gateway to attach to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/transit_gateway_attachment#tgw_id TransitGatewayAttachment#tgw_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/transit_gateway_attachment#tgw_id TransitGatewayAttachment#tgw_id}
   */
   readonly tgwId: number;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/transit_gateway_attachment#timeouts TransitGatewayAttachment#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/transit_gateway_attachment#timeouts TransitGatewayAttachment#timeouts}
   */
   readonly timeouts?: TransitGatewayAttachmentTimeouts;
 }
 export interface TransitGatewayAttachmentTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/transit_gateway_attachment#create TransitGatewayAttachment#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/transit_gateway_attachment#create TransitGatewayAttachment#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/transit_gateway_attachment#delete TransitGatewayAttachment#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/transit_gateway_attachment#delete TransitGatewayAttachment#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/transit_gateway_attachment#read TransitGatewayAttachment#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/transit_gateway_attachment#read TransitGatewayAttachment#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/transit_gateway_attachment#update TransitGatewayAttachment#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/transit_gateway_attachment#update TransitGatewayAttachment#update}
   */
   readonly update?: string;
 }
@@ -234,7 +234,7 @@ export class TransitGatewayAttachmentTimeoutsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/transit_gateway_attachment rediscloud_transit_gateway_attachment}
+* Represents a {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/transit_gateway_attachment rediscloud_transit_gateway_attachment}
 */
 export class TransitGatewayAttachment extends cdktf.TerraformResource {
 
@@ -250,7 +250,7 @@ export class TransitGatewayAttachment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TransitGatewayAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TransitGatewayAttachment to import
-  * @param importFromId The id of the existing TransitGatewayAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/transit_gateway_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TransitGatewayAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/transit_gateway_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TransitGatewayAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -262,7 +262,7 @@ export class TransitGatewayAttachment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/transit_gateway_attachment rediscloud_transit_gateway_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/transit_gateway_attachment rediscloud_transit_gateway_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -273,7 +273,8 @@ export class TransitGatewayAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'rediscloud_transit_gateway_attachment',
       terraformGeneratorMetadata: {
         providerName: 'rediscloud',
-        providerVersion: '2.7.3'
+        providerVersion: '2.8.0',
+        providerVersionConstraint: '2.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

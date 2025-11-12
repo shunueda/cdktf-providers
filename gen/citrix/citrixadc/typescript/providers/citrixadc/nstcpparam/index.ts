@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpparam
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,192 +8,220 @@ import * as cdktf from 'cdktf';
 
 export interface NstcpparamConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpparam#ackonpush Nstcpparam#ackonpush}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#ackonpush Nstcpparam#ackonpush}
   */
   readonly ackonpush?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpparam#autosyncookietimeout Nstcpparam#autosyncookietimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#autosyncookietimeout Nstcpparam#autosyncookietimeout}
   */
   readonly autosyncookietimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpparam#connflushifnomem Nstcpparam#connflushifnomem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#compacttcpoptionnoop Nstcpparam#compacttcpoptionnoop}
+  */
+  readonly compacttcpoptionnoop?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#connflushifnomem Nstcpparam#connflushifnomem}
   */
   readonly connflushifnomem?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpparam#connflushthres Nstcpparam#connflushthres}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#connflushthres Nstcpparam#connflushthres}
   */
   readonly connflushthres?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpparam#delayedack Nstcpparam#delayedack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#delayedack Nstcpparam#delayedack}
   */
   readonly delayedack?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpparam#downstaterst Nstcpparam#downstaterst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#delinkclientserveronrst Nstcpparam#delinkclientserveronrst}
+  */
+  readonly delinkclientserveronrst?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#downstaterst Nstcpparam#downstaterst}
   */
   readonly downstaterst?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpparam#id Nstcpparam#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#enhancedisngeneration Nstcpparam#enhancedisngeneration}
+  */
+  readonly enhancedisngeneration?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#id Nstcpparam#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpparam#initialcwnd Nstcpparam#initialcwnd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#initialcwnd Nstcpparam#initialcwnd}
   */
   readonly initialcwnd?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpparam#kaprobeupdatelastactivity Nstcpparam#kaprobeupdatelastactivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#kaprobeupdatelastactivity Nstcpparam#kaprobeupdatelastactivity}
   */
   readonly kaprobeupdatelastactivity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpparam#learnvsvrmss Nstcpparam#learnvsvrmss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#learnvsvrmss Nstcpparam#learnvsvrmss}
   */
   readonly learnvsvrmss?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpparam#limitedpersist Nstcpparam#limitedpersist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#limitedpersist Nstcpparam#limitedpersist}
   */
   readonly limitedpersist?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpparam#maxburst Nstcpparam#maxburst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#maxburst Nstcpparam#maxburst}
   */
   readonly maxburst?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpparam#maxdynserverprobes Nstcpparam#maxdynserverprobes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#maxdynserverprobes Nstcpparam#maxdynserverprobes}
   */
   readonly maxdynserverprobes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpparam#maxpktpermss Nstcpparam#maxpktpermss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#maxpktpermss Nstcpparam#maxpktpermss}
   */
-  readonly maxpktpermss?: string;
+  readonly maxpktpermss?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpparam#maxsynackretx Nstcpparam#maxsynackretx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#maxsynackretx Nstcpparam#maxsynackretx}
   */
   readonly maxsynackretx?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpparam#maxsynhold Nstcpparam#maxsynhold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#maxsynhold Nstcpparam#maxsynhold}
   */
   readonly maxsynhold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpparam#maxsynholdperprobe Nstcpparam#maxsynholdperprobe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#maxsynholdperprobe Nstcpparam#maxsynholdperprobe}
   */
   readonly maxsynholdperprobe?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpparam#maxtimewaitconn Nstcpparam#maxtimewaitconn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#maxtimewaitconn Nstcpparam#maxtimewaitconn}
   */
   readonly maxtimewaitconn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpparam#minrto Nstcpparam#minrto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#minrto Nstcpparam#minrto}
   */
   readonly minrto?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpparam#mptcpchecksum Nstcpparam#mptcpchecksum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#mptcpchecksum Nstcpparam#mptcpchecksum}
   */
   readonly mptcpchecksum?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpparam#mptcpclosemptcpsessiononlastsfclose Nstcpparam#mptcpclosemptcpsessiononlastsfclose}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#mptcpclosemptcpsessiononlastsfclose Nstcpparam#mptcpclosemptcpsessiononlastsfclose}
   */
   readonly mptcpclosemptcpsessiononlastsfclose?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpparam#mptcpconcloseonpassivesf Nstcpparam#mptcpconcloseonpassivesf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#mptcpconcloseonpassivesf Nstcpparam#mptcpconcloseonpassivesf}
   */
   readonly mptcpconcloseonpassivesf?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpparam#mptcpimmediatesfcloseonfin Nstcpparam#mptcpimmediatesfcloseonfin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#mptcpfastcloseoption Nstcpparam#mptcpfastcloseoption}
+  */
+  readonly mptcpfastcloseoption?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#mptcpimmediatesfcloseonfin Nstcpparam#mptcpimmediatesfcloseonfin}
   */
   readonly mptcpimmediatesfcloseonfin?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpparam#mptcpmaxpendingsf Nstcpparam#mptcpmaxpendingsf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#mptcpmaxpendingsf Nstcpparam#mptcpmaxpendingsf}
   */
-  readonly mptcpmaxpendingsf?: string;
+  readonly mptcpmaxpendingsf?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpparam#mptcpmaxsf Nstcpparam#mptcpmaxsf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#mptcpmaxsf Nstcpparam#mptcpmaxsf}
   */
   readonly mptcpmaxsf?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpparam#mptcppendingjointhreshold Nstcpparam#mptcppendingjointhreshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#mptcppendingjointhreshold Nstcpparam#mptcppendingjointhreshold}
   */
-  readonly mptcppendingjointhreshold?: string;
+  readonly mptcppendingjointhreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpparam#mptcprtostoswitchsf Nstcpparam#mptcprtostoswitchsf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#mptcpreliableaddaddr Nstcpparam#mptcpreliableaddaddr}
+  */
+  readonly mptcpreliableaddaddr?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#mptcprtostoswitchsf Nstcpparam#mptcprtostoswitchsf}
   */
   readonly mptcprtostoswitchsf?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpparam#mptcpsfreplacetimeout Nstcpparam#mptcpsfreplacetimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#mptcpsendsfresetoption Nstcpparam#mptcpsendsfresetoption}
   */
-  readonly mptcpsfreplacetimeout?: string;
+  readonly mptcpsendsfresetoption?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpparam#mptcpsftimeout Nstcpparam#mptcpsftimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#mptcpsfreplacetimeout Nstcpparam#mptcpsfreplacetimeout}
   */
-  readonly mptcpsftimeout?: string;
+  readonly mptcpsfreplacetimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpparam#mptcpusebackupondss Nstcpparam#mptcpusebackupondss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#mptcpsftimeout Nstcpparam#mptcpsftimeout}
+  */
+  readonly mptcpsftimeout?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#mptcpusebackupondss Nstcpparam#mptcpusebackupondss}
   */
   readonly mptcpusebackupondss?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpparam#msslearndelay Nstcpparam#msslearndelay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#msslearndelay Nstcpparam#msslearndelay}
   */
   readonly msslearndelay?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpparam#msslearninterval Nstcpparam#msslearninterval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#msslearninterval Nstcpparam#msslearninterval}
   */
   readonly msslearninterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpparam#nagle Nstcpparam#nagle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#nagle Nstcpparam#nagle}
   */
   readonly nagle?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpparam#oooqsize Nstcpparam#oooqsize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#oooqsize Nstcpparam#oooqsize}
   */
-  readonly oooqsize?: string;
+  readonly oooqsize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpparam#pktperretx Nstcpparam#pktperretx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#pktperretx Nstcpparam#pktperretx}
   */
   readonly pktperretx?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpparam#recvbuffsize Nstcpparam#recvbuffsize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#recvbuffsize Nstcpparam#recvbuffsize}
   */
   readonly recvbuffsize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpparam#sack Nstcpparam#sack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#rfc5961chlgacklimit Nstcpparam#rfc5961chlgacklimit}
+  */
+  readonly rfc5961Chlgacklimit?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#sack Nstcpparam#sack}
   */
   readonly sack?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpparam#slowstartincr Nstcpparam#slowstartincr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#slowstartincr Nstcpparam#slowstartincr}
   */
   readonly slowstartincr?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpparam#synattackdetection Nstcpparam#synattackdetection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#synattackdetection Nstcpparam#synattackdetection}
   */
   readonly synattackdetection?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpparam#synholdfastgiveup Nstcpparam#synholdfastgiveup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#synholdfastgiveup Nstcpparam#synholdfastgiveup}
   */
   readonly synholdfastgiveup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpparam#tcpfastopencookietimeout Nstcpparam#tcpfastopencookietimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#tcpfastopencookietimeout Nstcpparam#tcpfastopencookietimeout}
   */
-  readonly tcpfastopencookietimeout?: string;
+  readonly tcpfastopencookietimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpparam#tcpfintimeout Nstcpparam#tcpfintimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#tcpfintimeout Nstcpparam#tcpfintimeout}
   */
   readonly tcpfintimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpparam#tcpmaxretries Nstcpparam#tcpmaxretries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#tcpmaxretries Nstcpparam#tcpmaxretries}
   */
   readonly tcpmaxretries?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpparam#ws Nstcpparam#ws}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#ws Nstcpparam#ws}
   */
   readonly ws?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpparam#wsval Nstcpparam#wsval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#wsval Nstcpparam#wsval}
   */
-  readonly wsval?: string;
+  readonly wsval?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpparam citrixadc_nstcpparam}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam citrixadc_nstcpparam}
 */
 export class Nstcpparam extends cdktf.TerraformResource {
 
@@ -209,7 +237,7 @@ export class Nstcpparam extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Nstcpparam resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Nstcpparam to import
-  * @param importFromId The id of the existing Nstcpparam that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpparam#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Nstcpparam that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Nstcpparam to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -221,7 +249,7 @@ export class Nstcpparam extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpparam citrixadc_nstcpparam} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam citrixadc_nstcpparam} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -232,7 +260,8 @@ export class Nstcpparam extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_nstcpparam',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -244,10 +273,13 @@ export class Nstcpparam extends cdktf.TerraformResource {
     });
     this._ackonpush = config.ackonpush;
     this._autosyncookietimeout = config.autosyncookietimeout;
+    this._compacttcpoptionnoop = config.compacttcpoptionnoop;
     this._connflushifnomem = config.connflushifnomem;
     this._connflushthres = config.connflushthres;
     this._delayedack = config.delayedack;
+    this._delinkclientserveronrst = config.delinkclientserveronrst;
     this._downstaterst = config.downstaterst;
+    this._enhancedisngeneration = config.enhancedisngeneration;
     this._id = config.id;
     this._initialcwnd = config.initialcwnd;
     this._kaprobeupdatelastactivity = config.kaprobeupdatelastactivity;
@@ -264,11 +296,14 @@ export class Nstcpparam extends cdktf.TerraformResource {
     this._mptcpchecksum = config.mptcpchecksum;
     this._mptcpclosemptcpsessiononlastsfclose = config.mptcpclosemptcpsessiononlastsfclose;
     this._mptcpconcloseonpassivesf = config.mptcpconcloseonpassivesf;
+    this._mptcpfastcloseoption = config.mptcpfastcloseoption;
     this._mptcpimmediatesfcloseonfin = config.mptcpimmediatesfcloseonfin;
     this._mptcpmaxpendingsf = config.mptcpmaxpendingsf;
     this._mptcpmaxsf = config.mptcpmaxsf;
     this._mptcppendingjointhreshold = config.mptcppendingjointhreshold;
+    this._mptcpreliableaddaddr = config.mptcpreliableaddaddr;
     this._mptcprtostoswitchsf = config.mptcprtostoswitchsf;
+    this._mptcpsendsfresetoption = config.mptcpsendsfresetoption;
     this._mptcpsfreplacetimeout = config.mptcpsfreplacetimeout;
     this._mptcpsftimeout = config.mptcpsftimeout;
     this._mptcpusebackupondss = config.mptcpusebackupondss;
@@ -278,6 +313,7 @@ export class Nstcpparam extends cdktf.TerraformResource {
     this._oooqsize = config.oooqsize;
     this._pktperretx = config.pktperretx;
     this._recvbuffsize = config.recvbuffsize;
+    this._rfc5961Chlgacklimit = config.rfc5961Chlgacklimit;
     this._sack = config.sack;
     this._slowstartincr = config.slowstartincr;
     this._synattackdetection = config.synattackdetection;
@@ -323,6 +359,22 @@ export class Nstcpparam extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get autosyncookietimeoutInput() {
     return this._autosyncookietimeout;
+  }
+
+  // compacttcpoptionnoop - computed: true, optional: true, required: false
+  private _compacttcpoptionnoop?: string; 
+  public get compacttcpoptionnoop() {
+    return this.getStringAttribute('compacttcpoptionnoop');
+  }
+  public set compacttcpoptionnoop(value: string) {
+    this._compacttcpoptionnoop = value;
+  }
+  public resetCompacttcpoptionnoop() {
+    this._compacttcpoptionnoop = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get compacttcpoptionnoopInput() {
+    return this._compacttcpoptionnoop;
   }
 
   // connflushifnomem - computed: true, optional: true, required: false
@@ -373,6 +425,22 @@ export class Nstcpparam extends cdktf.TerraformResource {
     return this._delayedack;
   }
 
+  // delinkclientserveronrst - computed: true, optional: true, required: false
+  private _delinkclientserveronrst?: string; 
+  public get delinkclientserveronrst() {
+    return this.getStringAttribute('delinkclientserveronrst');
+  }
+  public set delinkclientserveronrst(value: string) {
+    this._delinkclientserveronrst = value;
+  }
+  public resetDelinkclientserveronrst() {
+    this._delinkclientserveronrst = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get delinkclientserveronrstInput() {
+    return this._delinkclientserveronrst;
+  }
+
   // downstaterst - computed: true, optional: true, required: false
   private _downstaterst?: string; 
   public get downstaterst() {
@@ -387,6 +455,22 @@ export class Nstcpparam extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get downstaterstInput() {
     return this._downstaterst;
+  }
+
+  // enhancedisngeneration - computed: true, optional: true, required: false
+  private _enhancedisngeneration?: string; 
+  public get enhancedisngeneration() {
+    return this.getStringAttribute('enhancedisngeneration');
+  }
+  public set enhancedisngeneration(value: string) {
+    this._enhancedisngeneration = value;
+  }
+  public resetEnhancedisngeneration() {
+    this._enhancedisngeneration = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enhancedisngenerationInput() {
+    return this._enhancedisngeneration;
   }
 
   // id - computed: true, optional: true, required: false
@@ -502,11 +586,11 @@ export class Nstcpparam extends cdktf.TerraformResource {
   }
 
   // maxpktpermss - computed: true, optional: true, required: false
-  private _maxpktpermss?: string; 
+  private _maxpktpermss?: number; 
   public get maxpktpermss() {
-    return this.getStringAttribute('maxpktpermss');
+    return this.getNumberAttribute('maxpktpermss');
   }
-  public set maxpktpermss(value: string) {
+  public set maxpktpermss(value: number) {
     this._maxpktpermss = value;
   }
   public resetMaxpktpermss() {
@@ -645,6 +729,22 @@ export class Nstcpparam extends cdktf.TerraformResource {
     return this._mptcpconcloseonpassivesf;
   }
 
+  // mptcpfastcloseoption - computed: true, optional: true, required: false
+  private _mptcpfastcloseoption?: string; 
+  public get mptcpfastcloseoption() {
+    return this.getStringAttribute('mptcpfastcloseoption');
+  }
+  public set mptcpfastcloseoption(value: string) {
+    this._mptcpfastcloseoption = value;
+  }
+  public resetMptcpfastcloseoption() {
+    this._mptcpfastcloseoption = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get mptcpfastcloseoptionInput() {
+    return this._mptcpfastcloseoption;
+  }
+
   // mptcpimmediatesfcloseonfin - computed: true, optional: true, required: false
   private _mptcpimmediatesfcloseonfin?: string; 
   public get mptcpimmediatesfcloseonfin() {
@@ -662,11 +762,11 @@ export class Nstcpparam extends cdktf.TerraformResource {
   }
 
   // mptcpmaxpendingsf - computed: true, optional: true, required: false
-  private _mptcpmaxpendingsf?: string; 
+  private _mptcpmaxpendingsf?: number; 
   public get mptcpmaxpendingsf() {
-    return this.getStringAttribute('mptcpmaxpendingsf');
+    return this.getNumberAttribute('mptcpmaxpendingsf');
   }
-  public set mptcpmaxpendingsf(value: string) {
+  public set mptcpmaxpendingsf(value: number) {
     this._mptcpmaxpendingsf = value;
   }
   public resetMptcpmaxpendingsf() {
@@ -694,11 +794,11 @@ export class Nstcpparam extends cdktf.TerraformResource {
   }
 
   // mptcppendingjointhreshold - computed: true, optional: true, required: false
-  private _mptcppendingjointhreshold?: string; 
+  private _mptcppendingjointhreshold?: number; 
   public get mptcppendingjointhreshold() {
-    return this.getStringAttribute('mptcppendingjointhreshold');
+    return this.getNumberAttribute('mptcppendingjointhreshold');
   }
-  public set mptcppendingjointhreshold(value: string) {
+  public set mptcppendingjointhreshold(value: number) {
     this._mptcppendingjointhreshold = value;
   }
   public resetMptcppendingjointhreshold() {
@@ -707,6 +807,22 @@ export class Nstcpparam extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get mptcppendingjointhresholdInput() {
     return this._mptcppendingjointhreshold;
+  }
+
+  // mptcpreliableaddaddr - computed: true, optional: true, required: false
+  private _mptcpreliableaddaddr?: string; 
+  public get mptcpreliableaddaddr() {
+    return this.getStringAttribute('mptcpreliableaddaddr');
+  }
+  public set mptcpreliableaddaddr(value: string) {
+    this._mptcpreliableaddaddr = value;
+  }
+  public resetMptcpreliableaddaddr() {
+    this._mptcpreliableaddaddr = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get mptcpreliableaddaddrInput() {
+    return this._mptcpreliableaddaddr;
   }
 
   // mptcprtostoswitchsf - computed: true, optional: true, required: false
@@ -725,12 +841,28 @@ export class Nstcpparam extends cdktf.TerraformResource {
     return this._mptcprtostoswitchsf;
   }
 
-  // mptcpsfreplacetimeout - computed: true, optional: true, required: false
-  private _mptcpsfreplacetimeout?: string; 
-  public get mptcpsfreplacetimeout() {
-    return this.getStringAttribute('mptcpsfreplacetimeout');
+  // mptcpsendsfresetoption - computed: true, optional: true, required: false
+  private _mptcpsendsfresetoption?: string; 
+  public get mptcpsendsfresetoption() {
+    return this.getStringAttribute('mptcpsendsfresetoption');
   }
-  public set mptcpsfreplacetimeout(value: string) {
+  public set mptcpsendsfresetoption(value: string) {
+    this._mptcpsendsfresetoption = value;
+  }
+  public resetMptcpsendsfresetoption() {
+    this._mptcpsendsfresetoption = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get mptcpsendsfresetoptionInput() {
+    return this._mptcpsendsfresetoption;
+  }
+
+  // mptcpsfreplacetimeout - computed: true, optional: true, required: false
+  private _mptcpsfreplacetimeout?: number; 
+  public get mptcpsfreplacetimeout() {
+    return this.getNumberAttribute('mptcpsfreplacetimeout');
+  }
+  public set mptcpsfreplacetimeout(value: number) {
     this._mptcpsfreplacetimeout = value;
   }
   public resetMptcpsfreplacetimeout() {
@@ -742,11 +874,11 @@ export class Nstcpparam extends cdktf.TerraformResource {
   }
 
   // mptcpsftimeout - computed: true, optional: true, required: false
-  private _mptcpsftimeout?: string; 
+  private _mptcpsftimeout?: number; 
   public get mptcpsftimeout() {
-    return this.getStringAttribute('mptcpsftimeout');
+    return this.getNumberAttribute('mptcpsftimeout');
   }
-  public set mptcpsftimeout(value: string) {
+  public set mptcpsftimeout(value: number) {
     this._mptcpsftimeout = value;
   }
   public resetMptcpsftimeout() {
@@ -822,11 +954,11 @@ export class Nstcpparam extends cdktf.TerraformResource {
   }
 
   // oooqsize - computed: true, optional: true, required: false
-  private _oooqsize?: string; 
+  private _oooqsize?: number; 
   public get oooqsize() {
-    return this.getStringAttribute('oooqsize');
+    return this.getNumberAttribute('oooqsize');
   }
-  public set oooqsize(value: string) {
+  public set oooqsize(value: number) {
     this._oooqsize = value;
   }
   public resetOooqsize() {
@@ -867,6 +999,22 @@ export class Nstcpparam extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get recvbuffsizeInput() {
     return this._recvbuffsize;
+  }
+
+  // rfc5961chlgacklimit - computed: true, optional: true, required: false
+  private _rfc5961Chlgacklimit?: number; 
+  public get rfc5961Chlgacklimit() {
+    return this.getNumberAttribute('rfc5961chlgacklimit');
+  }
+  public set rfc5961Chlgacklimit(value: number) {
+    this._rfc5961Chlgacklimit = value;
+  }
+  public resetRfc5961Chlgacklimit() {
+    this._rfc5961Chlgacklimit = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get rfc5961ChlgacklimitInput() {
+    return this._rfc5961Chlgacklimit;
   }
 
   // sack - computed: true, optional: true, required: false
@@ -934,11 +1082,11 @@ export class Nstcpparam extends cdktf.TerraformResource {
   }
 
   // tcpfastopencookietimeout - computed: true, optional: true, required: false
-  private _tcpfastopencookietimeout?: string; 
+  private _tcpfastopencookietimeout?: number; 
   public get tcpfastopencookietimeout() {
-    return this.getStringAttribute('tcpfastopencookietimeout');
+    return this.getNumberAttribute('tcpfastopencookietimeout');
   }
-  public set tcpfastopencookietimeout(value: string) {
+  public set tcpfastopencookietimeout(value: number) {
     this._tcpfastopencookietimeout = value;
   }
   public resetTcpfastopencookietimeout() {
@@ -998,11 +1146,11 @@ export class Nstcpparam extends cdktf.TerraformResource {
   }
 
   // wsval - computed: true, optional: true, required: false
-  private _wsval?: string; 
+  private _wsval?: number; 
   public get wsval() {
-    return this.getStringAttribute('wsval');
+    return this.getNumberAttribute('wsval');
   }
-  public set wsval(value: string) {
+  public set wsval(value: number) {
     this._wsval = value;
   }
   public resetWsval() {
@@ -1021,10 +1169,13 @@ export class Nstcpparam extends cdktf.TerraformResource {
     return {
       ackonpush: cdktf.stringToTerraform(this._ackonpush),
       autosyncookietimeout: cdktf.numberToTerraform(this._autosyncookietimeout),
+      compacttcpoptionnoop: cdktf.stringToTerraform(this._compacttcpoptionnoop),
       connflushifnomem: cdktf.stringToTerraform(this._connflushifnomem),
       connflushthres: cdktf.numberToTerraform(this._connflushthres),
       delayedack: cdktf.numberToTerraform(this._delayedack),
+      delinkclientserveronrst: cdktf.stringToTerraform(this._delinkclientserveronrst),
       downstaterst: cdktf.stringToTerraform(this._downstaterst),
+      enhancedisngeneration: cdktf.stringToTerraform(this._enhancedisngeneration),
       id: cdktf.stringToTerraform(this._id),
       initialcwnd: cdktf.numberToTerraform(this._initialcwnd),
       kaprobeupdatelastactivity: cdktf.stringToTerraform(this._kaprobeupdatelastactivity),
@@ -1032,7 +1183,7 @@ export class Nstcpparam extends cdktf.TerraformResource {
       limitedpersist: cdktf.stringToTerraform(this._limitedpersist),
       maxburst: cdktf.numberToTerraform(this._maxburst),
       maxdynserverprobes: cdktf.numberToTerraform(this._maxdynserverprobes),
-      maxpktpermss: cdktf.stringToTerraform(this._maxpktpermss),
+      maxpktpermss: cdktf.numberToTerraform(this._maxpktpermss),
       maxsynackretx: cdktf.numberToTerraform(this._maxsynackretx),
       maxsynhold: cdktf.numberToTerraform(this._maxsynhold),
       maxsynholdperprobe: cdktf.numberToTerraform(this._maxsynholdperprobe),
@@ -1041,29 +1192,33 @@ export class Nstcpparam extends cdktf.TerraformResource {
       mptcpchecksum: cdktf.stringToTerraform(this._mptcpchecksum),
       mptcpclosemptcpsessiononlastsfclose: cdktf.stringToTerraform(this._mptcpclosemptcpsessiononlastsfclose),
       mptcpconcloseonpassivesf: cdktf.stringToTerraform(this._mptcpconcloseonpassivesf),
+      mptcpfastcloseoption: cdktf.stringToTerraform(this._mptcpfastcloseoption),
       mptcpimmediatesfcloseonfin: cdktf.stringToTerraform(this._mptcpimmediatesfcloseonfin),
-      mptcpmaxpendingsf: cdktf.stringToTerraform(this._mptcpmaxpendingsf),
+      mptcpmaxpendingsf: cdktf.numberToTerraform(this._mptcpmaxpendingsf),
       mptcpmaxsf: cdktf.numberToTerraform(this._mptcpmaxsf),
-      mptcppendingjointhreshold: cdktf.stringToTerraform(this._mptcppendingjointhreshold),
+      mptcppendingjointhreshold: cdktf.numberToTerraform(this._mptcppendingjointhreshold),
+      mptcpreliableaddaddr: cdktf.stringToTerraform(this._mptcpreliableaddaddr),
       mptcprtostoswitchsf: cdktf.numberToTerraform(this._mptcprtostoswitchsf),
-      mptcpsfreplacetimeout: cdktf.stringToTerraform(this._mptcpsfreplacetimeout),
-      mptcpsftimeout: cdktf.stringToTerraform(this._mptcpsftimeout),
+      mptcpsendsfresetoption: cdktf.stringToTerraform(this._mptcpsendsfresetoption),
+      mptcpsfreplacetimeout: cdktf.numberToTerraform(this._mptcpsfreplacetimeout),
+      mptcpsftimeout: cdktf.numberToTerraform(this._mptcpsftimeout),
       mptcpusebackupondss: cdktf.stringToTerraform(this._mptcpusebackupondss),
       msslearndelay: cdktf.numberToTerraform(this._msslearndelay),
       msslearninterval: cdktf.numberToTerraform(this._msslearninterval),
       nagle: cdktf.stringToTerraform(this._nagle),
-      oooqsize: cdktf.stringToTerraform(this._oooqsize),
+      oooqsize: cdktf.numberToTerraform(this._oooqsize),
       pktperretx: cdktf.numberToTerraform(this._pktperretx),
       recvbuffsize: cdktf.numberToTerraform(this._recvbuffsize),
+      rfc5961chlgacklimit: cdktf.numberToTerraform(this._rfc5961Chlgacklimit),
       sack: cdktf.stringToTerraform(this._sack),
       slowstartincr: cdktf.numberToTerraform(this._slowstartincr),
       synattackdetection: cdktf.stringToTerraform(this._synattackdetection),
       synholdfastgiveup: cdktf.numberToTerraform(this._synholdfastgiveup),
-      tcpfastopencookietimeout: cdktf.stringToTerraform(this._tcpfastopencookietimeout),
+      tcpfastopencookietimeout: cdktf.numberToTerraform(this._tcpfastopencookietimeout),
       tcpfintimeout: cdktf.numberToTerraform(this._tcpfintimeout),
       tcpmaxretries: cdktf.numberToTerraform(this._tcpmaxretries),
       ws: cdktf.stringToTerraform(this._ws),
-      wsval: cdktf.stringToTerraform(this._wsval),
+      wsval: cdktf.numberToTerraform(this._wsval),
     };
   }
 
@@ -1080,6 +1235,12 @@ export class Nstcpparam extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "number",
+      },
+      compacttcpoptionnoop: {
+        value: cdktf.stringToHclTerraform(this._compacttcpoptionnoop),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
       connflushifnomem: {
         value: cdktf.stringToHclTerraform(this._connflushifnomem),
@@ -1099,8 +1260,20 @@ export class Nstcpparam extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "number",
       },
+      delinkclientserveronrst: {
+        value: cdktf.stringToHclTerraform(this._delinkclientserveronrst),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       downstaterst: {
         value: cdktf.stringToHclTerraform(this._downstaterst),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      enhancedisngeneration: {
+        value: cdktf.stringToHclTerraform(this._enhancedisngeneration),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
@@ -1148,10 +1321,10 @@ export class Nstcpparam extends cdktf.TerraformResource {
         storageClassType: "number",
       },
       maxpktpermss: {
-        value: cdktf.stringToHclTerraform(this._maxpktpermss),
+        value: cdktf.numberToHclTerraform(this._maxpktpermss),
         isBlock: false,
         type: "simple",
-        storageClassType: "string",
+        storageClassType: "number",
       },
       maxsynackretx: {
         value: cdktf.numberToHclTerraform(this._maxsynackretx),
@@ -1201,6 +1374,12 @@ export class Nstcpparam extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      mptcpfastcloseoption: {
+        value: cdktf.stringToHclTerraform(this._mptcpfastcloseoption),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       mptcpimmediatesfcloseonfin: {
         value: cdktf.stringToHclTerraform(this._mptcpimmediatesfcloseonfin),
         isBlock: false,
@@ -1208,10 +1387,10 @@ export class Nstcpparam extends cdktf.TerraformResource {
         storageClassType: "string",
       },
       mptcpmaxpendingsf: {
-        value: cdktf.stringToHclTerraform(this._mptcpmaxpendingsf),
+        value: cdktf.numberToHclTerraform(this._mptcpmaxpendingsf),
         isBlock: false,
         type: "simple",
-        storageClassType: "string",
+        storageClassType: "number",
       },
       mptcpmaxsf: {
         value: cdktf.numberToHclTerraform(this._mptcpmaxsf),
@@ -1220,7 +1399,13 @@ export class Nstcpparam extends cdktf.TerraformResource {
         storageClassType: "number",
       },
       mptcppendingjointhreshold: {
-        value: cdktf.stringToHclTerraform(this._mptcppendingjointhreshold),
+        value: cdktf.numberToHclTerraform(this._mptcppendingjointhreshold),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      mptcpreliableaddaddr: {
+        value: cdktf.stringToHclTerraform(this._mptcpreliableaddaddr),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
@@ -1231,17 +1416,23 @@ export class Nstcpparam extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "number",
       },
-      mptcpsfreplacetimeout: {
-        value: cdktf.stringToHclTerraform(this._mptcpsfreplacetimeout),
+      mptcpsendsfresetoption: {
+        value: cdktf.stringToHclTerraform(this._mptcpsendsfresetoption),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
-      mptcpsftimeout: {
-        value: cdktf.stringToHclTerraform(this._mptcpsftimeout),
+      mptcpsfreplacetimeout: {
+        value: cdktf.numberToHclTerraform(this._mptcpsfreplacetimeout),
         isBlock: false,
         type: "simple",
-        storageClassType: "string",
+        storageClassType: "number",
+      },
+      mptcpsftimeout: {
+        value: cdktf.numberToHclTerraform(this._mptcpsftimeout),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
       },
       mptcpusebackupondss: {
         value: cdktf.stringToHclTerraform(this._mptcpusebackupondss),
@@ -1268,10 +1459,10 @@ export class Nstcpparam extends cdktf.TerraformResource {
         storageClassType: "string",
       },
       oooqsize: {
-        value: cdktf.stringToHclTerraform(this._oooqsize),
+        value: cdktf.numberToHclTerraform(this._oooqsize),
         isBlock: false,
         type: "simple",
-        storageClassType: "string",
+        storageClassType: "number",
       },
       pktperretx: {
         value: cdktf.numberToHclTerraform(this._pktperretx),
@@ -1281,6 +1472,12 @@ export class Nstcpparam extends cdktf.TerraformResource {
       },
       recvbuffsize: {
         value: cdktf.numberToHclTerraform(this._recvbuffsize),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      rfc5961chlgacklimit: {
+        value: cdktf.numberToHclTerraform(this._rfc5961Chlgacklimit),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
@@ -1310,10 +1507,10 @@ export class Nstcpparam extends cdktf.TerraformResource {
         storageClassType: "number",
       },
       tcpfastopencookietimeout: {
-        value: cdktf.stringToHclTerraform(this._tcpfastopencookietimeout),
+        value: cdktf.numberToHclTerraform(this._tcpfastopencookietimeout),
         isBlock: false,
         type: "simple",
-        storageClassType: "string",
+        storageClassType: "number",
       },
       tcpfintimeout: {
         value: cdktf.numberToHclTerraform(this._tcpfintimeout),
@@ -1334,10 +1531,10 @@ export class Nstcpparam extends cdktf.TerraformResource {
         storageClassType: "string",
       },
       wsval: {
-        value: cdktf.stringToHclTerraform(this._wsval),
+        value: cdktf.numberToHclTerraform(this._wsval),
         isBlock: false,
         type: "simple",
-        storageClassType: "string",
+        storageClassType: "number",
       },
     };
 

@@ -1157,7 +1157,8 @@ export class StreamingNamespace extends cdktf.TerraformResource {
       terraformResourceType: 'astra_streaming_namespace',
       terraformGeneratorMetadata: {
         providerName: 'astra',
-        providerVersion: '2.3.18'
+        providerVersion: '2.3.18',
+        providerVersionConstraint: '2.3.18'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

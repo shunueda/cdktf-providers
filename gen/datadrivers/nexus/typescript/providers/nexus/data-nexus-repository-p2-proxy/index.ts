@@ -662,7 +662,8 @@ export class DataNexusRepositoryP2Proxy extends cdktf.TerraformDataSource {
       terraformResourceType: 'nexus_repository_p2_proxy',
       terraformGeneratorMetadata: {
         providerName: 'nexus',
-        providerVersion: '2.6.0'
+        providerVersion: '2.6.0',
+        providerVersionConstraint: '2.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

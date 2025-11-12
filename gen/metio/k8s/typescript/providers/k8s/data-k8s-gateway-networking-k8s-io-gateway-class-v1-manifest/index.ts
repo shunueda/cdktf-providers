@@ -579,7 +579,8 @@ export class DataK8SGatewayNetworkingK8SIoGatewayClassV1Manifest extends cdktf.T
       terraformResourceType: 'k8s_gateway_networking_k8s_io_gateway_class_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

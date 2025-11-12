@@ -148,7 +148,8 @@ export class DataDnacenterNetworkDevicePoe extends cdktf.TerraformDataSource {
       terraformResourceType: 'dnacenter_network_device_poe',
       terraformGeneratorMetadata: {
         providerName: 'dnacenter',
-        providerVersion: '1.1.21'
+        providerVersion: '1.1.21',
+        providerVersionConstraint: '1.1.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

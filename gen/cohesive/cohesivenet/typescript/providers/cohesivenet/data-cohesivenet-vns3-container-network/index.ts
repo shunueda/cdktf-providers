@@ -136,7 +136,8 @@ export class DataCohesivenetVns3ContainerNetwork extends cdktf.TerraformDataSour
       terraformResourceType: 'cohesivenet_vns3_container_network',
       terraformGeneratorMetadata: {
         providerName: 'cohesivenet',
-        providerVersion: '1.0.8'
+        providerVersion: '1.0.8',
+        providerVersionConstraint: '1.0.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

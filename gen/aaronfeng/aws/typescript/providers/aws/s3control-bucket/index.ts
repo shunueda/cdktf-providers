@@ -68,7 +68,8 @@ export class S3ControlBucket extends cdktf.TerraformResource {
       terraformResourceType: 'aws_s3control_bucket',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '3.29.6'
+        providerVersion: '3.29.6',
+        providerVersionConstraint: '3.29.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

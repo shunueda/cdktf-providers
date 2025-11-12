@@ -866,7 +866,8 @@ export class User extends cdktf.TerraformResource {
       terraformResourceType: 'mssql_user',
       terraformGeneratorMetadata: {
         providerName: 'mssql',
-        providerVersion: '0.3.1'
+        providerVersion: '0.3.1',
+        providerVersionConstraint: '0.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

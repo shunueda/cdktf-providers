@@ -76,7 +76,8 @@ export class LogfortiguardSetting extends cdktf.TerraformResource {
       terraformResourceType: 'fortiswitch_logfortiguard_setting',
       terraformGeneratorMetadata: {
         providerName: 'fortiswitch',
-        providerVersion: '1.1.6'
+        providerVersion: '1.1.6',
+        providerVersionConstraint: '1.1.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

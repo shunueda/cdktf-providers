@@ -80,7 +80,8 @@ export class CredentialGitlab extends cdktf.TerraformResource {
       terraformResourceType: 'awx_credential_gitlab',
       terraformGeneratorMetadata: {
         providerName: 'awx',
-        providerVersion: '1.7.5'
+        providerVersion: '1.7.5',
+        providerVersionConstraint: '1.7.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

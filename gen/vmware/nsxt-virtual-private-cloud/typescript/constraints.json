@@ -1,4 +1,6 @@
 {
   "cdktf": "0.21.0",
-  "providers": {}
+  "providers": {
+    "nsxt-virtual-private-cloud": "1.0.0"
+  }
 }

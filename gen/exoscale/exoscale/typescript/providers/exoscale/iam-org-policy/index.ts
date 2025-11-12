@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/iam_org_policy
+// https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/iam_org_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface IamOrgPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Default service strategy (`allow` or `deny`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/iam_org_policy#default_service_strategy IamOrgPolicy#default_service_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/iam_org_policy#default_service_strategy IamOrgPolicy#default_service_strategy}
   */
   readonly defaultServiceStrategy: string;
   /**
   * IAM policy services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/iam_org_policy#services IamOrgPolicy#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/iam_org_policy#services IamOrgPolicy#services}
   */
   readonly services: { [key: string]: IamOrgPolicyServices } | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/iam_org_policy#timeouts IamOrgPolicy#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/iam_org_policy#timeouts IamOrgPolicy#timeouts}
   */
   readonly timeouts?: IamOrgPolicyTimeouts;
 }
@@ -30,17 +30,17 @@ export interface IamOrgPolicyServicesRules {
   /**
   * IAM policy rule action (`allow` or `deny`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/iam_org_policy#action IamOrgPolicy#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/iam_org_policy#action IamOrgPolicy#action}
   */
   readonly action?: string;
   /**
   * IAM policy rule expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/iam_org_policy#expression IamOrgPolicy#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/iam_org_policy#expression IamOrgPolicy#expression}
   */
   readonly expression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/iam_org_policy#resources IamOrgPolicy#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/iam_org_policy#resources IamOrgPolicy#resources}
   */
   readonly resources?: string[];
 }
@@ -216,13 +216,13 @@ export interface IamOrgPolicyServices {
   /**
   * List of IAM service rules (if type is `rules`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/iam_org_policy#rules IamOrgPolicy#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/iam_org_policy#rules IamOrgPolicy#rules}
   */
   readonly rules?: IamOrgPolicyServicesRules[] | cdktf.IResolvable;
   /**
   * Service type (`rules`, `allow`, or `deny`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/iam_org_policy#type IamOrgPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/iam_org_policy#type IamOrgPolicy#type}
   */
   readonly type?: string;
 }
@@ -367,7 +367,7 @@ export interface IamOrgPolicyTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/iam_org_policy#read IamOrgPolicy#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/iam_org_policy#read IamOrgPolicy#read}
   */
   readonly read?: string;
 }
@@ -461,7 +461,7 @@ export class IamOrgPolicyTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/iam_org_policy exoscale_iam_org_policy}
+* Represents a {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/iam_org_policy exoscale_iam_org_policy}
 */
 export class IamOrgPolicy extends cdktf.TerraformResource {
 
@@ -477,7 +477,7 @@ export class IamOrgPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IamOrgPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IamOrgPolicy to import
-  * @param importFromId The id of the existing IamOrgPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/iam_org_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IamOrgPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/iam_org_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IamOrgPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -489,7 +489,7 @@ export class IamOrgPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/iam_org_policy exoscale_iam_org_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/iam_org_policy exoscale_iam_org_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -500,7 +500,8 @@ export class IamOrgPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'exoscale_iam_org_policy',
       terraformGeneratorMetadata: {
         providerName: 'exoscale',
-        providerVersion: '0.66.0'
+        providerVersion: '0.67.0',
+        providerVersionConstraint: '0.67.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

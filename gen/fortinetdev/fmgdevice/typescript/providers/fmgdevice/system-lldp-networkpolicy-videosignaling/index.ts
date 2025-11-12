@@ -88,7 +88,8 @@ export class SystemLldpNetworkpolicyVideosignaling extends cdktf.TerraformResour
       terraformResourceType: 'fmgdevice_system_lldp_networkpolicy_videosignaling',
       terraformGeneratorMetadata: {
         providerName: 'fmgdevice',
-        providerVersion: '1.2.1'
+        providerVersion: '1.2.1',
+        providerVersionConstraint: '1.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

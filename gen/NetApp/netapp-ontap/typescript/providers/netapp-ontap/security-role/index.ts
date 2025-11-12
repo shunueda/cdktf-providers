@@ -263,7 +263,8 @@ export class SecurityRole extends cdktf.TerraformResource {
       terraformResourceType: 'netapp-ontap_security_role',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0'
+        providerVersion: '2.3.0',
+        providerVersionConstraint: '2.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

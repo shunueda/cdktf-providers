@@ -395,7 +395,8 @@ export class DataNetappOntapSecurityCertificates extends cdktf.TerraformDataSour
       terraformResourceType: 'netapp-ontap_security_certificates',
       terraformGeneratorMetadata: {
         providerName: 'netapp-ontap',
-        providerVersion: '2.3.0'
+        providerVersion: '2.3.0',
+        providerVersionConstraint: '2.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

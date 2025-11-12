@@ -204,7 +204,8 @@ export class GslbSiteSlbDevVipServerVipServerV6 extends cdktf.TerraformResource 
       terraformResourceType: 'thunder_gslb_site_slb_dev_vip_server_vip_server_v6',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

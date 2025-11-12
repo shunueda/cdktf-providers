@@ -305,7 +305,8 @@ export class DhcpOptionGroup extends cdktf.TerraformResource {
       terraformResourceType: 'bloxone_dhcp_option_group',
       terraformGeneratorMetadata: {
         providerName: 'bloxone',
-        providerVersion: '1.5.3'
+        providerVersion: '1.5.3',
+        providerVersionConstraint: '1.5.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

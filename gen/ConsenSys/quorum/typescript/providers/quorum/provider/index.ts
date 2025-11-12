@@ -55,7 +55,8 @@ export class QuorumProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'quorum',
       terraformGeneratorMetadata: {
         providerName: 'quorum',
-        providerVersion: '0.3.0'
+        providerVersion: '0.3.0',
+        providerVersionConstraint: '0.3.0'
       },
       terraformProviderSource: 'ConsenSys/quorum'
     });

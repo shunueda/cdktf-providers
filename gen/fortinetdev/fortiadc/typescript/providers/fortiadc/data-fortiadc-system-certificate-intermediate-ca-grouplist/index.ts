@@ -64,7 +64,8 @@ export class DataFortiadcSystemCertificateIntermediateCaGrouplist extends cdktf.
       terraformResourceType: 'fortiadc_system_certificate_intermediate_ca_grouplist',
       terraformGeneratorMetadata: {
         providerName: 'fortiadc',
-        providerVersion: '1.3.1'
+        providerVersion: '1.3.1',
+        providerVersionConstraint: '1.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

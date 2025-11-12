@@ -61,7 +61,8 @@ export class DistributionPublicKey extends cdktf.TerraformResource {
       terraformResourceType: 'artifactory_distribution_public_key',
       terraformGeneratorMetadata: {
         providerName: 'artifactory',
-        providerVersion: '12.10.1'
+        providerVersion: '12.10.1',
+        providerVersionConstraint: '12.10.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -60,7 +60,8 @@ export class DataAwsSfnStateMachine extends cdktf.TerraformDataSource {
       terraformResourceType: 'aws_sfn_state_machine',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '3.29.6'
+        providerVersion: '3.29.6',
+        providerVersionConstraint: '3.29.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

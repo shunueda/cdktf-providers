@@ -188,7 +188,8 @@ export class ArchiveRetentions extends cdktf.TerraformResource {
       terraformResourceType: 'coralogix_archive_retentions',
       terraformGeneratorMetadata: {
         providerName: 'coralogix',
-        providerVersion: '2.2.3'
+        providerVersion: '2.2.3',
+        providerVersionConstraint: '2.2.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

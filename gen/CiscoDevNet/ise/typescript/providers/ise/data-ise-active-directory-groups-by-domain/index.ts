@@ -164,7 +164,8 @@ export class DataIseActiveDirectoryGroupsByDomain extends cdktf.TerraformDataSou
       terraformResourceType: 'ise_active_directory_groups_by_domain',
       terraformGeneratorMetadata: {
         providerName: 'ise',
-        providerVersion: '0.2.12'
+        providerVersion: '0.2.12',
+        providerVersionConstraint: '0.2.12'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -2559,7 +2559,8 @@ export class DataK8SChaosMeshOrgPodNetworkChaosV1Alpha1Manifest extends cdktf.Te
       terraformResourceType: 'k8s_chaos_mesh_org_pod_network_chaos_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

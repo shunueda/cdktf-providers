@@ -55,7 +55,8 @@ export class DataCatalystcenterWirelessRfProfile extends cdktf.TerraformDataSour
       terraformResourceType: 'catalystcenter_wireless_rf_profile',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.2'
+        providerVersion: '0.4.2',
+        providerVersionConstraint: '0.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

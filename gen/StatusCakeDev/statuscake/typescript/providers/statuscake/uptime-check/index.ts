@@ -1625,7 +1625,8 @@ export class UptimeCheck extends cdktf.TerraformResource {
       terraformResourceType: 'statuscake_uptime_check',
       terraformGeneratorMetadata: {
         providerName: 'statuscake',
-        providerVersion: '2.2.2'
+        providerVersion: '2.2.2',
+        providerVersionConstraint: '2.2.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

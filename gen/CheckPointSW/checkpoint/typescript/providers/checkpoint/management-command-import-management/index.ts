@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_import_management
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_import_management
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface ManagementCommandImportManagementConfig extends cdktf.Terraform
   /**
   * IPv4 address for the imported Domain. Required only for importing the Security Management Server into the Multi-Domain Server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_import_management#domain_ip_address ManagementCommandImportManagement#domain_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_import_management#domain_ip_address ManagementCommandImportManagement#domain_ip_address}
   */
   readonly domainIpAddress?: string;
   /**
   * Domain name to be imported. Must be unique in the Multi-Domain Server. Required only for importing the Security Management Server into the Multi-Domain Server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_import_management#domain_name ManagementCommandImportManagement#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_import_management#domain_name ManagementCommandImportManagement#domain_name}
   */
   readonly domainName?: string;
   /**
   * Multi-Domain Server name for the imported Domain. Required only for importing the Security Management Server into the Multi-Domain Server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_import_management#domain_server_name ManagementCommandImportManagement#domain_server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_import_management#domain_server_name ManagementCommandImportManagement#domain_server_name}
   */
   readonly domainServerName?: string;
   /**
   * Path to the exported database file to be imported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_import_management#file_path ManagementCommandImportManagement#file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_import_management#file_path ManagementCommandImportManagement#file_path}
   */
   readonly filePath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_import_management#id ManagementCommandImportManagement#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_import_management#id ManagementCommandImportManagement#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,49 +41,49 @@ export interface ManagementCommandImportManagementConfig extends cdktf.Terraform
   /**
   * Ignoring the verification warnings. By Setting this parameter to 'true' import will not be blocked by warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_import_management#ignore_warnings ManagementCommandImportManagement#ignore_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_import_management#ignore_warnings ManagementCommandImportManagement#ignore_warnings}
   */
   readonly ignoreWarnings?: boolean | cdktf.IResolvable;
   /**
   * Include import of the Endpoint Security Management configuration files.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_import_management#include_endpoint_configuration ManagementCommandImportManagement#include_endpoint_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_import_management#include_endpoint_configuration ManagementCommandImportManagement#include_endpoint_configuration}
   */
   readonly includeEndpointConfiguration?: boolean | cdktf.IResolvable;
   /**
   * Include import of the Endpoint Security Management database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_import_management#include_endpoint_database ManagementCommandImportManagement#include_endpoint_database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_import_management#include_endpoint_database ManagementCommandImportManagement#include_endpoint_database}
   */
   readonly includeEndpointDatabase?: boolean | cdktf.IResolvable;
   /**
   * Import logs without log indexes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_import_management#include_logs ManagementCommandImportManagement#include_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_import_management#include_logs ManagementCommandImportManagement#include_logs}
   */
   readonly includeLogs?: boolean | cdktf.IResolvable;
   /**
   * Import logs with log indexes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_import_management#include_logs_indexes ManagementCommandImportManagement#include_logs_indexes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_import_management#include_logs_indexes ManagementCommandImportManagement#include_logs_indexes}
   */
   readonly includeLogsIndexes?: boolean | cdktf.IResolvable;
   /**
   * If true, only runs the pre-import verifications instead of the full import.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_import_management#pre_import_verification_only ManagementCommandImportManagement#pre_import_verification_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_import_management#pre_import_verification_only ManagementCommandImportManagement#pre_import_verification_only}
   */
   readonly preImportVerificationOnly?: boolean | cdktf.IResolvable;
   /**
   * If true, verify that the restore operation is valid for this input file and this environment. <br>Note: Restore operation will not be executed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_import_management#verify_domain_restore ManagementCommandImportManagement#verify_domain_restore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_import_management#verify_domain_restore ManagementCommandImportManagement#verify_domain_restore}
   */
   readonly verifyDomainRestore?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_import_management checkpoint_management_command_import_management}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_import_management checkpoint_management_command_import_management}
 */
 export class ManagementCommandImportManagement extends cdktf.TerraformResource {
 
@@ -99,7 +99,7 @@ export class ManagementCommandImportManagement extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementCommandImportManagement resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementCommandImportManagement to import
-  * @param importFromId The id of the existing ManagementCommandImportManagement that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_import_management#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementCommandImportManagement that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_import_management#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementCommandImportManagement to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -111,7 +111,7 @@ export class ManagementCommandImportManagement extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_import_management checkpoint_management_command_import_management} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_import_management checkpoint_management_command_import_management} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -122,7 +122,8 @@ export class ManagementCommandImportManagement extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_command_import_management',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

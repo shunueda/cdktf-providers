@@ -924,7 +924,8 @@ export class GcoreBaremetal extends cdktf.TerraformResource {
       terraformResourceType: 'gcore_baremetal',
       terraformGeneratorMetadata: {
         providerName: 'gcorelabs',
-        providerVersion: '0.3.63'
+        providerVersion: '0.3.63',
+        providerVersionConstraint: '0.3.63'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

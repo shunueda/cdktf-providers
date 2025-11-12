@@ -454,7 +454,8 @@ export class PolicyPrefixList extends cdktf.TerraformResource {
       terraformResourceType: 'alkira_policy_prefix_list',
       terraformGeneratorMetadata: {
         providerName: 'alkira',
-        providerVersion: '1.3.2'
+        providerVersion: '1.3.2',
+        providerVersionConstraint: '1.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

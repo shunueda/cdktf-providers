@@ -67,7 +67,8 @@ export class DataJenkinsCredentialVaultApprole extends cdktf.TerraformDataSource
       terraformResourceType: 'jenkins_credential_vault_approle',
       terraformGeneratorMetadata: {
         providerName: 'jenkins',
-        providerVersion: '0.11.0'
+        providerVersion: '0.11.0',
+        providerVersionConstraint: '0.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -173,7 +173,8 @@ export class DataGcoreFloatingip extends cdktf.TerraformDataSource {
       terraformResourceType: 'gcore_floatingip',
       terraformGeneratorMetadata: {
         providerName: 'gcorelabs',
-        providerVersion: '0.3.63'
+        providerVersion: '0.3.63',
+        providerVersionConstraint: '0.3.63'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

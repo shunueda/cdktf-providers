@@ -196,7 +196,8 @@ export class DataNsxtVpcDhcpV4StaticBindingConfig extends cdktf.TerraformDataSou
       terraformResourceType: 'nsxt_vpc_dhcp_v4_static_binding_config',
       terraformGeneratorMetadata: {
         providerName: 'nsxt-virtual-private-cloud',
-        providerVersion: '1.0.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

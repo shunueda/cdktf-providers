@@ -546,7 +546,8 @@ export class Transformation extends cdktf.TerraformResource {
       terraformResourceType: 'segment_transformation',
       terraformGeneratorMetadata: {
         providerName: 'segment',
-        providerVersion: '1.6.0'
+        providerVersion: '1.6.0',
+        providerVersionConstraint: '1.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1086,7 +1086,8 @@ export class DataK8SCiliumIoCiliumL2AnnouncementPolicyV2Alpha1Manifest extends c
       terraformResourceType: 'k8s_cilium_io_cilium_l2_announcement_policy_v2alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

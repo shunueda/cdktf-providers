@@ -670,7 +670,8 @@ export class DataOciDataSafeTargetDatabasePeerTargetDatabasesA extends cdktf.Ter
       terraformResourceType: 'oci_data_safe_target_database_peer_target_databases',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

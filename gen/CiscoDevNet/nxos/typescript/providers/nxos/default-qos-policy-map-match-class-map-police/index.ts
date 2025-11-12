@@ -251,7 +251,8 @@ export class DefaultQosPolicyMapMatchClassMapPolice extends cdktf.TerraformResou
       terraformResourceType: 'nxos_default_qos_policy_map_match_class_map_police',
       terraformGeneratorMetadata: {
         providerName: 'nxos',
-        providerVersion: '0.5.10'
+        providerVersion: '0.5.10',
+        providerVersionConstraint: '0.5.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

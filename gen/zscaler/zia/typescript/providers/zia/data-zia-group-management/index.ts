@@ -60,7 +60,8 @@ export class DataZiaGroupManagement extends cdktf.TerraformDataSource {
       terraformResourceType: 'zia_group_management',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.5.3'
+        providerVersion: '4.5.3',
+        providerVersionConstraint: '4.5.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

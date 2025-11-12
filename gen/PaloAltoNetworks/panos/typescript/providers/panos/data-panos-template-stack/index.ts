@@ -375,7 +375,8 @@ export class DataPanosTemplateStack extends cdktf.TerraformDataSource {
       terraformResourceType: 'panos_template_stack',
       terraformGeneratorMetadata: {
         providerName: 'panos',
-        providerVersion: '2.0.5'
+        providerVersion: '2.0.5',
+        providerVersionConstraint: '2.0.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -104,7 +104,8 @@ export class DataQbecJsonnetEval extends cdktf.TerraformDataSource {
       terraformResourceType: 'qbec_jsonnet_eval',
       terraformGeneratorMetadata: {
         providerName: 'qbec',
-        providerVersion: '0.0.1'
+        providerVersion: '0.0.1',
+        providerVersionConstraint: '0.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

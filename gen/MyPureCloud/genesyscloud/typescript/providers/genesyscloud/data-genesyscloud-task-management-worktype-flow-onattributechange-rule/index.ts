@@ -68,7 +68,8 @@ export class DataGenesyscloudTaskManagementWorktypeFlowOnattributechangeRule ext
       terraformResourceType: 'genesyscloud_task_management_worktype_flow_onattributechange_rule',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.70.0'
+        providerVersion: '1.70.0',
+        providerVersionConstraint: '1.70.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

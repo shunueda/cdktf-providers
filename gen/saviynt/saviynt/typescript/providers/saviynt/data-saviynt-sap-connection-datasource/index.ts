@@ -516,7 +516,8 @@ export class DataSaviyntSapConnectionDatasource extends cdktf.TerraformDataSourc
       terraformResourceType: 'saviynt_sap_connection_datasource',
       terraformGeneratorMetadata: {
         providerName: 'saviynt',
-        providerVersion: '0.2.13'
+        providerVersion: '0.2.13',
+        providerVersionConstraint: '0.2.13'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

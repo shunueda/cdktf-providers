@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.25.3/docs/resources/flag_trigger
+// https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.26.0/docs/resources/flag_trigger
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface FlagTriggerConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether the trigger is currently active or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.25.3/docs/resources/flag_trigger#enabled FlagTrigger#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.26.0/docs/resources/flag_trigger#enabled FlagTrigger#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * The unique key of the environment the flag trigger will work in. A change in this field will force the destruction of the existing resource and the creation of a new one.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.25.3/docs/resources/flag_trigger#env_key FlagTrigger#env_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.26.0/docs/resources/flag_trigger#env_key FlagTrigger#env_key}
   */
   readonly envKey: string;
   /**
   * The unique key of the associated flag. A change in this field will force the destruction of the existing resource and the creation of a new one.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.25.3/docs/resources/flag_trigger#flag_key FlagTrigger#flag_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.26.0/docs/resources/flag_trigger#flag_key FlagTrigger#flag_key}
   */
   readonly flagKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.25.3/docs/resources/flag_trigger#id FlagTrigger#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.26.0/docs/resources/flag_trigger#id FlagTrigger#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,19 +35,19 @@ export interface FlagTriggerConfig extends cdktf.TerraformMetaArguments {
   /**
   * The unique identifier of the integration you intend to set your trigger up with. Currently supported are `generic-trigger`, `datadog`, `dynatrace`, `dynatrace-cloud-automation`, `honeycomb`, `new-relic-apm`, and `signalfx`. `generic-trigger` should be used for integrations not explicitly supported. A change in this field will force the destruction of the existing resource and the creation of a new one.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.25.3/docs/resources/flag_trigger#integration_key FlagTrigger#integration_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.26.0/docs/resources/flag_trigger#integration_key FlagTrigger#integration_key}
   */
   readonly integrationKey: string;
   /**
   * The unique key of the project encompassing the associated flag. A change in this field will force the destruction of the existing resource and the creation of a new one.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.25.3/docs/resources/flag_trigger#project_key FlagTrigger#project_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.26.0/docs/resources/flag_trigger#project_key FlagTrigger#project_key}
   */
   readonly projectKey: string;
   /**
   * instructions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.25.3/docs/resources/flag_trigger#instructions FlagTrigger#instructions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.26.0/docs/resources/flag_trigger#instructions FlagTrigger#instructions}
   */
   readonly instructions: FlagTriggerInstructions;
 }
@@ -55,7 +55,7 @@ export interface FlagTriggerInstructions {
   /**
   * The action to perform when triggering. Currently supported flag actions are `turnFlagOn` and `turnFlagOff`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.25.3/docs/resources/flag_trigger#kind FlagTrigger#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.26.0/docs/resources/flag_trigger#kind FlagTrigger#kind}
   */
   readonly kind: string;
 }
@@ -136,7 +136,7 @@ export class FlagTriggerInstructionsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.25.3/docs/resources/flag_trigger launchdarkly_flag_trigger}
+* Represents a {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.26.0/docs/resources/flag_trigger launchdarkly_flag_trigger}
 */
 export class FlagTrigger extends cdktf.TerraformResource {
 
@@ -152,7 +152,7 @@ export class FlagTrigger extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FlagTrigger resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FlagTrigger to import
-  * @param importFromId The id of the existing FlagTrigger that should be imported. Refer to the {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.25.3/docs/resources/flag_trigger#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FlagTrigger that should be imported. Refer to the {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.26.0/docs/resources/flag_trigger#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FlagTrigger to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -164,7 +164,7 @@ export class FlagTrigger extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.25.3/docs/resources/flag_trigger launchdarkly_flag_trigger} Resource
+  * Create a new {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.26.0/docs/resources/flag_trigger launchdarkly_flag_trigger} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -175,7 +175,8 @@ export class FlagTrigger extends cdktf.TerraformResource {
       terraformResourceType: 'launchdarkly_flag_trigger',
       terraformGeneratorMetadata: {
         providerName: 'launchdarkly',
-        providerVersion: '2.25.3'
+        providerVersion: '2.26.0',
+        providerVersionConstraint: '2.26.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

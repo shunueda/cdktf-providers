@@ -85,7 +85,8 @@ export class ProjectProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'project',
       terraformGeneratorMetadata: {
         providerName: 'project',
-        providerVersion: '1.9.5'
+        providerVersion: '1.9.5',
+        providerVersionConstraint: '1.9.5'
       },
       terraformProviderSource: 'jfrog/project'
     });

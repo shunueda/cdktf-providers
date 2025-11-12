@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/terraform_provider
+// https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/terraform_provider
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,42 +10,42 @@ export interface TerraformProviderConfig extends cdktf.TerraformMetaArguments {
   /**
   * Free-form description for human users, supports Markdown
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/terraform_provider#description TerraformProvider#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/terraform_provider#description TerraformProvider#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/terraform_provider#id TerraformProvider#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/terraform_provider#id TerraformProvider#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/terraform_provider#labels TerraformProvider#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/terraform_provider#labels TerraformProvider#labels}
   */
   readonly labels?: string[];
   /**
   * Whether the provider is public or not, defaults to false (private)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/terraform_provider#public TerraformProvider#public}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/terraform_provider#public TerraformProvider#public}
   */
   readonly public?: boolean | cdktf.IResolvable;
   /**
   * ID (slug) of the space the provider is in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/terraform_provider#space_id TerraformProvider#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/terraform_provider#space_id TerraformProvider#space_id}
   */
   readonly spaceId: string;
   /**
   * Type of the provider - should be unique in one account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/terraform_provider#type TerraformProvider#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/terraform_provider#type TerraformProvider#type}
   */
   readonly type: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/terraform_provider spacelift_terraform_provider}
+* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/terraform_provider spacelift_terraform_provider}
 */
 export class TerraformProvider extends cdktf.TerraformResource {
 
@@ -61,7 +61,7 @@ export class TerraformProvider extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TerraformProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TerraformProvider to import
-  * @param importFromId The id of the existing TerraformProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/terraform_provider#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TerraformProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/terraform_provider#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TerraformProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -73,7 +73,7 @@ export class TerraformProvider extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/terraform_provider spacelift_terraform_provider} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/terraform_provider spacelift_terraform_provider} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -84,7 +84,8 @@ export class TerraformProvider extends cdktf.TerraformResource {
       terraformResourceType: 'spacelift_terraform_provider',
       terraformGeneratorMetadata: {
         providerName: 'spacelift',
-        providerVersion: '1.36.0'
+        providerVersion: '1.37.0',
+        providerVersionConstraint: '1.37.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

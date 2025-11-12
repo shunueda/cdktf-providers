@@ -191,7 +191,8 @@ export class DataHeadscaleDevices extends cdktf.TerraformDataSource {
       terraformResourceType: 'headscale_devices',
       terraformGeneratorMetadata: {
         providerName: 'headscale',
-        providerVersion: '0.4.2'
+        providerVersion: '0.4.2',
+        providerVersionConstraint: '0.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

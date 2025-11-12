@@ -4412,7 +4412,8 @@ export class DataIntersightConnectorpackUpgradeImpact extends cdktf.TerraformDat
       terraformResourceType: 'intersight_connectorpack_upgrade_impact',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

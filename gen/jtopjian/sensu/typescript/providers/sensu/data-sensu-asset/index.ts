@@ -155,7 +155,8 @@ export class DataSensuAsset extends cdktf.TerraformDataSource {
       terraformResourceType: 'sensu_asset',
       terraformGeneratorMetadata: {
         providerName: 'sensu',
-        providerVersion: '0.14.0'
+        providerVersion: '0.14.0',
+        providerVersionConstraint: '0.14.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

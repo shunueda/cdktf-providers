@@ -79,7 +79,8 @@ export class AembitProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'aembit',
       terraformGeneratorMetadata: {
         providerName: 'aembit',
-        providerVersion: '1.25.1'
+        providerVersion: '1.25.1',
+        providerVersionConstraint: '1.25.1'
       },
       terraformProviderSource: 'Aembit/aembit'
     });

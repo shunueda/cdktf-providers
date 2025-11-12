@@ -4792,7 +4792,8 @@ export class DataIntersightVnicLanConnectivityPolicyInventory extends cdktf.Terr
       terraformResourceType: 'intersight_vnic_lan_connectivity_policy_inventory',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

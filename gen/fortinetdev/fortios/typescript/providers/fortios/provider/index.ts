@@ -153,7 +153,8 @@ export class FortiosProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'fortios',
       terraformGeneratorMetadata: {
         providerName: 'fortios',
-        providerVersion: '1.23.0'
+        providerVersion: '1.23.0',
+        providerVersionConstraint: '1.23.0'
       },
       terraformProviderSource: 'fortinetdev/fortios'
     });

@@ -97,7 +97,8 @@ export class VcdaProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'vcda',
       terraformGeneratorMetadata: {
         providerName: 'vcda',
-        providerVersion: '2.1.0'
+        providerVersion: '2.1.0',
+        providerVersionConstraint: '2.1.0'
       },
       terraformProviderSource: 'vmware/vcda'
     });

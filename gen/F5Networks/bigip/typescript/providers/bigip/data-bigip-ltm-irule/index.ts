@@ -74,7 +74,8 @@ export class DataBigipLtmIrule extends cdktf.TerraformDataSource {
       terraformResourceType: 'bigip_ltm_irule',
       terraformGeneratorMetadata: {
         providerName: 'bigip',
-        providerVersion: '1.24.1'
+        providerVersion: '1.24.1',
+        providerVersionConstraint: '1.24.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

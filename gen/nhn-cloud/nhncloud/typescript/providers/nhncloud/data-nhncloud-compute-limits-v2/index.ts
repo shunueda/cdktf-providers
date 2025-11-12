@@ -64,7 +64,8 @@ export class DataNhncloudComputeLimitsV2 extends cdktf.TerraformDataSource {
       terraformResourceType: 'nhncloud_compute_limits_v2',
       terraformGeneratorMetadata: {
         providerName: 'nhncloud',
-        providerVersion: '1.0.6'
+        providerVersion: '1.0.6',
+        providerVersionConstraint: '1.0.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

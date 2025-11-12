@@ -60,7 +60,8 @@ export class DataCiscoasaNetworkObject extends cdktf.TerraformDataSource {
       terraformResourceType: 'ciscoasa_network_object',
       terraformGeneratorMetadata: {
         providerName: 'ciscoasa',
-        providerVersion: '1.3.0'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

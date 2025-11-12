@@ -21094,7 +21094,8 @@ export class DataK8SK8SMariadbComMaxScaleV1Alpha1Manifest extends cdktf.Terrafor
       terraformResourceType: 'k8s_k8s_mariadb_com_max_scale_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

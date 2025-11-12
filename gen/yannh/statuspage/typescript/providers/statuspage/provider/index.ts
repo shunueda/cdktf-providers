@@ -59,7 +59,8 @@ export class StatuspageProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'statuspage',
       terraformGeneratorMetadata: {
         providerName: 'statuspage',
-        providerVersion: '0.1.12'
+        providerVersion: '0.1.12',
+        providerVersionConstraint: '0.1.12'
       },
       terraformProviderSource: 'yannh/statuspage'
     });

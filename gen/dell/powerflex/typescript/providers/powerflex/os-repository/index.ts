@@ -91,7 +91,8 @@ export class OsRepository extends cdktf.TerraformResource {
       terraformResourceType: 'powerflex_os_repository',
       terraformGeneratorMetadata: {
         providerName: 'powerflex',
-        providerVersion: '1.8.0'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

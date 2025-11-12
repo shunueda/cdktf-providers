@@ -74,7 +74,8 @@ export class RocksetProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'rockset',
       terraformGeneratorMetadata: {
         providerName: 'rockset',
-        providerVersion: '0.9.8'
+        providerVersion: '0.9.8',
+        providerVersionConstraint: '0.9.8'
       },
       terraformProviderSource: 'rockset/rockset'
     });

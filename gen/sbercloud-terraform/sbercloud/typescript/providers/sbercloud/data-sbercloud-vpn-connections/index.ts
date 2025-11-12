@@ -653,7 +653,8 @@ export class DataSbercloudVpnConnections extends cdktf.TerraformDataSource {
       terraformResourceType: 'sbercloud_vpn_connections',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14'
+        providerVersion: '1.12.14',
+        providerVersionConstraint: '1.12.14'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

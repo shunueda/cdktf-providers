@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/onlinkipv6prefix
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/onlinkipv6prefix
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,44 +8,44 @@ import * as cdktf from 'cdktf';
 
 export interface Onlinkipv6PrefixConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/onlinkipv6prefix#autonomusprefix Onlinkipv6Prefix#autonomusprefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/onlinkipv6prefix#autonomusprefix Onlinkipv6Prefix#autonomusprefix}
   */
   readonly autonomusprefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/onlinkipv6prefix#decrementprefixlifetimes Onlinkipv6Prefix#decrementprefixlifetimes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/onlinkipv6prefix#decrementprefixlifetimes Onlinkipv6Prefix#decrementprefixlifetimes}
   */
   readonly decrementprefixlifetimes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/onlinkipv6prefix#depricateprefix Onlinkipv6Prefix#depricateprefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/onlinkipv6prefix#depricateprefix Onlinkipv6Prefix#depricateprefix}
   */
   readonly depricateprefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/onlinkipv6prefix#id Onlinkipv6Prefix#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/onlinkipv6prefix#id Onlinkipv6Prefix#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/onlinkipv6prefix#ipv6prefix Onlinkipv6Prefix#ipv6prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/onlinkipv6prefix#ipv6prefix Onlinkipv6Prefix#ipv6prefix}
   */
   readonly ipv6Prefix: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/onlinkipv6prefix#onlinkprefix Onlinkipv6Prefix#onlinkprefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/onlinkipv6prefix#onlinkprefix Onlinkipv6Prefix#onlinkprefix}
   */
   readonly onlinkprefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/onlinkipv6prefix#prefixpreferredlifetime Onlinkipv6Prefix#prefixpreferredlifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/onlinkipv6prefix#prefixpreferredlifetime Onlinkipv6Prefix#prefixpreferredlifetime}
   */
   readonly prefixpreferredlifetime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/onlinkipv6prefix#prefixvalidelifetime Onlinkipv6Prefix#prefixvalidelifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/onlinkipv6prefix#prefixvalidelifetime Onlinkipv6Prefix#prefixvalidelifetime}
   */
   readonly prefixvalidelifetime?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/onlinkipv6prefix citrixadc_onlinkipv6prefix}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/onlinkipv6prefix citrixadc_onlinkipv6prefix}
 */
 export class Onlinkipv6Prefix extends cdktf.TerraformResource {
 
@@ -61,7 +61,7 @@ export class Onlinkipv6Prefix extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Onlinkipv6Prefix resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Onlinkipv6Prefix to import
-  * @param importFromId The id of the existing Onlinkipv6Prefix that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/onlinkipv6prefix#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Onlinkipv6Prefix that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/onlinkipv6prefix#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Onlinkipv6Prefix to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -73,7 +73,7 @@ export class Onlinkipv6Prefix extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/onlinkipv6prefix citrixadc_onlinkipv6prefix} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/onlinkipv6prefix citrixadc_onlinkipv6prefix} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -84,7 +84,8 @@ export class Onlinkipv6Prefix extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_onlinkipv6prefix',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

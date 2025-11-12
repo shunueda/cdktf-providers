@@ -3147,7 +3147,8 @@ export class DataPowerscaleCluster extends cdktf.TerraformDataSource {
       terraformResourceType: 'powerscale_cluster',
       terraformGeneratorMetadata: {
         providerName: 'powerscale',
-        providerVersion: '1.8.0'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

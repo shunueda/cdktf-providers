@@ -68,7 +68,8 @@ export class TrustStore extends cdktf.TerraformResource {
       terraformResourceType: 'jks_trust_store',
       terraformGeneratorMetadata: {
         providerName: 'jks',
-        providerVersion: '0.9.0'
+        providerVersion: '0.9.0',
+        providerVersionConstraint: '0.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

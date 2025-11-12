@@ -108,7 +108,8 @@ export class OrganizationIntegration extends cdktf.TerraformResource {
       terraformResourceType: 'pipes_organization_integration',
       terraformGeneratorMetadata: {
         providerName: 'pipes',
-        providerVersion: '0.17.0'
+        providerVersion: '0.17.0',
+        providerVersionConstraint: '0.17.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

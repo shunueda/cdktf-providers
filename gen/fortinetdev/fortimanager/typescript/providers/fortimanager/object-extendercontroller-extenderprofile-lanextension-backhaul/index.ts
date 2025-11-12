@@ -84,7 +84,8 @@ export class ObjectExtendercontrollerExtenderprofileLanextensionBackhaulA extend
       terraformResourceType: 'fortimanager_object_extendercontroller_extenderprofile_lanextension_backhaul',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0'
+        providerVersion: '1.14.0',
+        providerVersionConstraint: '1.14.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

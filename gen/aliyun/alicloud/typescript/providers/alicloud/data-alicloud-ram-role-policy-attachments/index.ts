@@ -163,7 +163,8 @@ export class DataAlicloudRamRolePolicyAttachments extends cdktf.TerraformDataSou
       terraformResourceType: 'alicloud_ram_role_policy_attachments',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

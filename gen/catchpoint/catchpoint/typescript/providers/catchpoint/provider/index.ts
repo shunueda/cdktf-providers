@@ -73,7 +73,8 @@ export class CatchpointProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'catchpoint',
       terraformGeneratorMetadata: {
         providerName: 'catchpoint',
-        providerVersion: '1.5.0'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       terraformProviderSource: 'catchpoint/catchpoint'
     });

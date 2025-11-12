@@ -424,7 +424,8 @@ export class DataTencentcloudCamPolicyGrantingServiceAccess extends cdktf.Terraf
       terraformResourceType: 'tencentcloud_cam_policy_granting_service_access',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

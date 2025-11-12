@@ -234,7 +234,8 @@ export class ClickHouseEnterpriseDbClusterPublicEndpoint extends cdktf.Terraform
       terraformResourceType: 'alicloud_click_house_enterprise_db_cluster_public_endpoint',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

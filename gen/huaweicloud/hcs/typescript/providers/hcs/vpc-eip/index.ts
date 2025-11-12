@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/vpc_eip
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vpc_eip
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface VpcEipConfig extends cdktf.TerraformMetaArguments {
   /**
   * The enterprise project ID to which the EIP belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/vpc_eip#enterprise_project_id VpcEip#enterprise_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vpc_eip#enterprise_project_id VpcEip#enterprise_project_id}
   */
   readonly enterpriseProjectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/vpc_eip#id VpcEip#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vpc_eip#id VpcEip#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface VpcEipConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the EIP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/vpc_eip#name VpcEip#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vpc_eip#name VpcEip#name}
   */
   readonly name?: string;
   /**
   * The region in which to create the EIP resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/vpc_eip#region VpcEip#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vpc_eip#region VpcEip#region}
   */
   readonly region?: string;
   /**
   * bandwidth block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/vpc_eip#bandwidth VpcEip#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vpc_eip#bandwidth VpcEip#bandwidth}
   */
   readonly bandwidth: VpcEipBandwidth;
   /**
   * publicip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/vpc_eip#publicip VpcEip#publicip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vpc_eip#publicip VpcEip#publicip}
   */
   readonly publicip: VpcEipPublicip;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/vpc_eip#timeouts VpcEip#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vpc_eip#timeouts VpcEip#timeouts}
   */
   readonly timeouts?: VpcEipTimeouts;
 }
@@ -55,7 +55,7 @@ export interface VpcEipBandwidth {
   /**
   * The shared bandwidth ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/vpc_eip#id VpcEip#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vpc_eip#id VpcEip#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -64,19 +64,19 @@ export interface VpcEipBandwidth {
   /**
   * The bandwidth name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/vpc_eip#name VpcEip#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vpc_eip#name VpcEip#name}
   */
   readonly name?: string;
   /**
   * Whether the bandwidth is dedicated or shared.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/vpc_eip#share_type VpcEip#share_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vpc_eip#share_type VpcEip#share_type}
   */
   readonly shareType: string;
   /**
   * The bandwidth size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/vpc_eip#size VpcEip#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vpc_eip#size VpcEip#size}
   */
   readonly size?: number;
 }
@@ -246,19 +246,19 @@ export interface VpcEipPublicip {
   /**
   * The EIP address to be assigned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/vpc_eip#ip_address VpcEip#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vpc_eip#ip_address VpcEip#ip_address}
   */
   readonly ipAddress?: string;
   /**
   * schema: Deprecated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/vpc_eip#port_id VpcEip#port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vpc_eip#port_id VpcEip#port_id}
   */
   readonly portId?: string;
   /**
   * The EIP type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/vpc_eip#type VpcEip#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vpc_eip#type VpcEip#type}
   */
   readonly type?: string;
 }
@@ -400,15 +400,15 @@ export class VpcEipPublicipOutputReference extends cdktf.ComplexObject {
 }
 export interface VpcEipTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/vpc_eip#create VpcEip#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vpc_eip#create VpcEip#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/vpc_eip#delete VpcEip#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vpc_eip#delete VpcEip#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/vpc_eip#update VpcEip#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vpc_eip#update VpcEip#update}
   */
   readonly update?: string;
 }
@@ -560,7 +560,7 @@ export class VpcEipTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/vpc_eip hcs_vpc_eip}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vpc_eip hcs_vpc_eip}
 */
 export class VpcEip extends cdktf.TerraformResource {
 
@@ -576,7 +576,7 @@ export class VpcEip extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VpcEip resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpcEip to import
-  * @param importFromId The id of the existing VpcEip that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/vpc_eip#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpcEip that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vpc_eip#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpcEip to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -588,7 +588,7 @@ export class VpcEip extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/vpc_eip hcs_vpc_eip} Resource
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vpc_eip hcs_vpc_eip} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -599,7 +599,8 @@ export class VpcEip extends cdktf.TerraformResource {
       terraformResourceType: 'hcs_vpc_eip',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.19'
+        providerVersion: '2.4.20',
+        providerVersionConstraint: '2.4.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

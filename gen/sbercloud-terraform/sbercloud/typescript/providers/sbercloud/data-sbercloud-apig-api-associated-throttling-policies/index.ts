@@ -434,7 +434,8 @@ export class DataSbercloudApigApiAssociatedThrottlingPolicies extends cdktf.Terr
       terraformResourceType: 'sbercloud_apig_api_associated_throttling_policies',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14'
+        providerVersion: '1.12.14',
+        providerVersionConstraint: '1.12.14'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

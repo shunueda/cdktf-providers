@@ -350,7 +350,8 @@ export class DataK8SBoskosK8SIoResourceObjectV1Manifest extends cdktf.TerraformD
       terraformResourceType: 'k8s_boskos_k8s_io_resource_object_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

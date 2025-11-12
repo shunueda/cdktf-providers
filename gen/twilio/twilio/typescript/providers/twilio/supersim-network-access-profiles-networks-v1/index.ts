@@ -64,7 +64,8 @@ export class SupersimNetworkAccessProfilesNetworksV1 extends cdktf.TerraformReso
       terraformResourceType: 'twilio_supersim_network_access_profiles_networks_v1',
       terraformGeneratorMetadata: {
         providerName: 'twilio',
-        providerVersion: '0.18.46'
+        providerVersion: '0.18.46',
+        providerVersionConstraint: '0.18.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

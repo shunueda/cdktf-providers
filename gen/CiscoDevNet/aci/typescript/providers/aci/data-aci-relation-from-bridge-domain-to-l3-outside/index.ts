@@ -221,7 +221,8 @@ export class DataAciRelationFromBridgeDomainToL3Outside extends cdktf.TerraformD
       terraformResourceType: 'aci_relation_from_bridge_domain_to_l3_outside',
       terraformGeneratorMetadata: {
         providerName: 'aci',
-        providerVersion: '2.18.0'
+        providerVersion: '2.18.0',
+        providerVersionConstraint: '2.18.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

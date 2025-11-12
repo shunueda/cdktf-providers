@@ -204,7 +204,8 @@ export class DataNutanixFoundationNodeNetworkDetails extends cdktf.TerraformData
       terraformResourceType: 'nutanix_foundation_node_network_details',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3'
+        providerVersion: '2.3.3',
+        providerVersionConstraint: '2.3.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

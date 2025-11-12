@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_routing_zones
+// https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_routing_zones
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataApstraDatacenterRoutingZonesConfig extends cdktf.TerraformM
   /**
   * Apstra Blueprint ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_routing_zones#blueprint_id DataApstraDatacenterRoutingZones#blueprint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_routing_zones#blueprint_id DataApstraDatacenterRoutingZones#blueprint_id}
   */
   readonly blueprintId: string;
   /**
   * Routing Zone attributes used as a filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_routing_zones#filter DataApstraDatacenterRoutingZones#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_routing_zones#filter DataApstraDatacenterRoutingZones#filter}
   */
   readonly filter?: DataApstraDatacenterRoutingZonesFilter;
   /**
   * List of filters used to select only desired node IDs. For a node to match a filter, all specified attributes must match (each attribute within a filter is AND-ed together). The returned node IDs represent the nodes matched by all of the filters together (filters are OR-ed together).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_routing_zones#filters DataApstraDatacenterRoutingZones#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_routing_zones#filters DataApstraDatacenterRoutingZones#filters}
   */
   readonly filters?: DataApstraDatacenterRoutingZonesFilters[] | cdktf.IResolvable;
 }
@@ -30,55 +30,55 @@ export interface DataApstraDatacenterRoutingZonesFilter {
   /**
   * Set of addresses of DHCP servers (IPv4 or IPv6) which must be configured in the Routing Zone. This is a list of *required* servers, not an exact-match list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_routing_zones#dhcp_servers DataApstraDatacenterRoutingZones#dhcp_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_routing_zones#dhcp_servers DataApstraDatacenterRoutingZones#dhcp_servers}
   */
   readonly dhcpServers?: string[];
   /**
   * This is a set of *required* RTs, not an exact-match list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_routing_zones#export_route_targets DataApstraDatacenterRoutingZones#export_route_targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_routing_zones#export_route_targets DataApstraDatacenterRoutingZones#export_route_targets}
   */
   readonly exportRouteTargets?: string[];
   /**
   * This is a set of *required* RTs, not an exact-match list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_routing_zones#import_route_targets DataApstraDatacenterRoutingZones#import_route_targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_routing_zones#import_route_targets DataApstraDatacenterRoutingZones#import_route_targets}
   */
   readonly importRouteTargets?: string[];
   /**
   * Symmetric IRB Routing for EVPN on Junos devices makes use of an L3 VNI for inter-subnet routing which is embedded into EVPN Type2-routes to support better scaling for networks with large amounts of VLANs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_routing_zones#junos_evpn_irb_mode DataApstraDatacenterRoutingZones#junos_evpn_irb_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_routing_zones#junos_evpn_irb_mode DataApstraDatacenterRoutingZones#junos_evpn_irb_mode}
   */
   readonly junosEvpnIrbMode?: string;
   /**
   * Name displayed in the Apstra web UI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_routing_zones#name DataApstraDatacenterRoutingZones#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_routing_zones#name DataApstraDatacenterRoutingZones#name}
   */
   readonly name?: string;
   /**
   * Non-EVPN blueprints must use the default policy, so this field must be null. Set this attribute in an EVPN blueprint to use a non-default policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_routing_zones#routing_policy_id DataApstraDatacenterRoutingZones#routing_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_routing_zones#routing_policy_id DataApstraDatacenterRoutingZones#routing_policy_id}
   */
   readonly routingPolicyId?: string;
   /**
   * Used for VLAN tagged Layer 3 links on external connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_routing_zones#vlan_id DataApstraDatacenterRoutingZones#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_routing_zones#vlan_id DataApstraDatacenterRoutingZones#vlan_id}
   */
   readonly vlanId?: number;
   /**
   * VxLAN VNI associated with the routing zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_routing_zones#vni DataApstraDatacenterRoutingZones#vni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_routing_zones#vni DataApstraDatacenterRoutingZones#vni}
   */
   readonly vni?: number;
   /**
   * VRF name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_routing_zones#vrf_name DataApstraDatacenterRoutingZones#vrf_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_routing_zones#vrf_name DataApstraDatacenterRoutingZones#vrf_name}
   */
   readonly vrfName?: string;
 }
@@ -426,55 +426,55 @@ export interface DataApstraDatacenterRoutingZonesFilters {
   /**
   * Set of addresses of DHCP servers (IPv4 or IPv6) which must be configured in the Routing Zone. This is a list of *required* servers, not an exact-match list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_routing_zones#dhcp_servers DataApstraDatacenterRoutingZones#dhcp_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_routing_zones#dhcp_servers DataApstraDatacenterRoutingZones#dhcp_servers}
   */
   readonly dhcpServers?: string[];
   /**
   * This is a set of *required* RTs, not an exact-match list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_routing_zones#export_route_targets DataApstraDatacenterRoutingZones#export_route_targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_routing_zones#export_route_targets DataApstraDatacenterRoutingZones#export_route_targets}
   */
   readonly exportRouteTargets?: string[];
   /**
   * This is a set of *required* RTs, not an exact-match list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_routing_zones#import_route_targets DataApstraDatacenterRoutingZones#import_route_targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_routing_zones#import_route_targets DataApstraDatacenterRoutingZones#import_route_targets}
   */
   readonly importRouteTargets?: string[];
   /**
   * Symmetric IRB Routing for EVPN on Junos devices makes use of an L3 VNI for inter-subnet routing which is embedded into EVPN Type2-routes to support better scaling for networks with large amounts of VLANs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_routing_zones#junos_evpn_irb_mode DataApstraDatacenterRoutingZones#junos_evpn_irb_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_routing_zones#junos_evpn_irb_mode DataApstraDatacenterRoutingZones#junos_evpn_irb_mode}
   */
   readonly junosEvpnIrbMode?: string;
   /**
   * Name displayed in the Apstra web UI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_routing_zones#name DataApstraDatacenterRoutingZones#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_routing_zones#name DataApstraDatacenterRoutingZones#name}
   */
   readonly name?: string;
   /**
   * Non-EVPN blueprints must use the default policy, so this field must be null. Set this attribute in an EVPN blueprint to use a non-default policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_routing_zones#routing_policy_id DataApstraDatacenterRoutingZones#routing_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_routing_zones#routing_policy_id DataApstraDatacenterRoutingZones#routing_policy_id}
   */
   readonly routingPolicyId?: string;
   /**
   * Used for VLAN tagged Layer 3 links on external connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_routing_zones#vlan_id DataApstraDatacenterRoutingZones#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_routing_zones#vlan_id DataApstraDatacenterRoutingZones#vlan_id}
   */
   readonly vlanId?: number;
   /**
   * VxLAN VNI associated with the routing zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_routing_zones#vni DataApstraDatacenterRoutingZones#vni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_routing_zones#vni DataApstraDatacenterRoutingZones#vni}
   */
   readonly vni?: number;
   /**
   * VRF name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_routing_zones#vrf_name DataApstraDatacenterRoutingZones#vrf_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_routing_zones#vrf_name DataApstraDatacenterRoutingZones#vrf_name}
   */
   readonly vrfName?: string;
 }
@@ -842,7 +842,7 @@ export class DataApstraDatacenterRoutingZonesFiltersList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_routing_zones apstra_datacenter_routing_zones}
+* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_routing_zones apstra_datacenter_routing_zones}
 */
 export class DataApstraDatacenterRoutingZones extends cdktf.TerraformDataSource {
 
@@ -858,7 +858,7 @@ export class DataApstraDatacenterRoutingZones extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataApstraDatacenterRoutingZones resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataApstraDatacenterRoutingZones to import
-  * @param importFromId The id of the existing DataApstraDatacenterRoutingZones that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_routing_zones#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataApstraDatacenterRoutingZones that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_routing_zones#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataApstraDatacenterRoutingZones to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -870,7 +870,7 @@ export class DataApstraDatacenterRoutingZones extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_routing_zones apstra_datacenter_routing_zones} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_routing_zones apstra_datacenter_routing_zones} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -881,7 +881,8 @@ export class DataApstraDatacenterRoutingZones extends cdktf.TerraformDataSource 
       terraformResourceType: 'apstra_datacenter_routing_zones',
       terraformGeneratorMetadata: {
         providerName: 'apstra',
-        providerVersion: '0.95.0'
+        providerVersion: '0.95.1',
+        providerVersionConstraint: '0.95.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

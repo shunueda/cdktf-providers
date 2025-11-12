@@ -55,7 +55,8 @@ export class IgnitionProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'ignition',
       terraformGeneratorMetadata: {
         providerName: 'ignition',
-        providerVersion: '2.5.1'
+        providerVersion: '2.5.1',
+        providerVersionConstraint: '2.5.1'
       },
       terraformProviderSource: 'community-terraform-providers/ignition'
     });

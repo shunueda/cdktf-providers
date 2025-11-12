@@ -135,7 +135,8 @@ export class ConfigurationEncryptionKeysRotate extends cdktf.TerraformResource {
       terraformResourceType: 'pingfederate_configuration_encryption_keys_rotate',
       terraformGeneratorMetadata: {
         providerName: 'pingfederate',
-        providerVersion: '1.6.2'
+        providerVersion: '1.6.2',
+        providerVersionConstraint: '1.6.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

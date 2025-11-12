@@ -60,7 +60,8 @@ export class DataOciContainerengineMigrateToNativeVcnStatus extends cdktf.Terraf
       terraformResourceType: 'oci_containerengine_migrate_to_native_vcn_status',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

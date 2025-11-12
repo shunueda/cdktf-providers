@@ -364,7 +364,8 @@ export class DataPacketfabricQuickConnectRequests extends cdktf.TerraformDataSou
       terraformResourceType: 'packetfabric_quick_connect_requests',
       terraformGeneratorMetadata: {
         providerName: 'packetfabric',
-        providerVersion: '1.9.3'
+        providerVersion: '1.9.3',
+        providerVersionConstraint: '1.9.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

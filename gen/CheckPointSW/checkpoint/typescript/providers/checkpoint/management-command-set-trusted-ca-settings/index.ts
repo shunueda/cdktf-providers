@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_set_trusted_ca_settings
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_set_trusted_ca_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ManagementCommandSetTrustedCaSettingsConfig extends cdktf.Terra
   /**
   * Whether the trusted CAs package should be updated automatically.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_set_trusted_ca_settings#automatic_update ManagementCommandSetTrustedCaSettings#automatic_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_set_trusted_ca_settings#automatic_update ManagementCommandSetTrustedCaSettings#automatic_update}
   */
   readonly automaticUpdate?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_set_trusted_ca_settings#id ManagementCommandSetTrustedCaSettings#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_set_trusted_ca_settings#id ManagementCommandSetTrustedCaSettings#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,7 +23,7 @@ export interface ManagementCommandSetTrustedCaSettingsConfig extends cdktf.Terra
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_set_trusted_ca_settings checkpoint_management_command_set_trusted_ca_settings}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_set_trusted_ca_settings checkpoint_management_command_set_trusted_ca_settings}
 */
 export class ManagementCommandSetTrustedCaSettings extends cdktf.TerraformResource {
 
@@ -39,7 +39,7 @@ export class ManagementCommandSetTrustedCaSettings extends cdktf.TerraformResour
   * Generates CDKTF code for importing a ManagementCommandSetTrustedCaSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementCommandSetTrustedCaSettings to import
-  * @param importFromId The id of the existing ManagementCommandSetTrustedCaSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_set_trusted_ca_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementCommandSetTrustedCaSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_set_trusted_ca_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementCommandSetTrustedCaSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -51,7 +51,7 @@ export class ManagementCommandSetTrustedCaSettings extends cdktf.TerraformResour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_set_trusted_ca_settings checkpoint_management_command_set_trusted_ca_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_set_trusted_ca_settings checkpoint_management_command_set_trusted_ca_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -62,7 +62,8 @@ export class ManagementCommandSetTrustedCaSettings extends cdktf.TerraformResour
       terraformResourceType: 'checkpoint_management_command_set_trusted_ca_settings',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

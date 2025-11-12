@@ -62,7 +62,8 @@ export class RemoteImage extends cdktf.TerraformResource {
       terraformResourceType: 'dockerless_remote_image',
       terraformGeneratorMetadata: {
         providerName: 'dockerless',
-        providerVersion: '0.1.2'
+        providerVersion: '0.1.2',
+        providerVersionConstraint: '0.1.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

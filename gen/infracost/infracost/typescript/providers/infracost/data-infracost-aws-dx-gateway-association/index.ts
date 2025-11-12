@@ -150,7 +150,8 @@ export class DataInfracostAwsDxGatewayAssociation extends cdktf.TerraformDataSou
       terraformResourceType: 'infracost_aws_dx_gateway_association',
       terraformGeneratorMetadata: {
         providerName: 'infracost',
-        providerVersion: '0.0.9'
+        providerVersion: '0.0.9',
+        providerVersionConstraint: '0.0.9'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

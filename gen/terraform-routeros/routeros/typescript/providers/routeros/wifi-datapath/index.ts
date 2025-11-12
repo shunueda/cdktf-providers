@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/wifi_datapath
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/wifi_datapath
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface WifiDatapathConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/wifi_datapath#___path___ WifiDatapath#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/wifi_datapath#___path___ WifiDatapath#___path___}
   */
   readonly path?: string;
   /**
   * Bridge interface to add the interface as a bridge port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/wifi_datapath#bridge WifiDatapath#bridge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/wifi_datapath#bridge WifiDatapath#bridge}
   */
   readonly bridge?: string;
   /**
   * Spanning tree protocol cost of the bridge port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/wifi_datapath#bridge_cost WifiDatapath#bridge_cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/wifi_datapath#bridge_cost WifiDatapath#bridge_cost}
   */
   readonly bridgeCost?: string;
   /**
   * Bridge horizon to use when adding as a bridge port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/wifi_datapath#bridge_horizon WifiDatapath#bridge_horizon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/wifi_datapath#bridge_horizon WifiDatapath#bridge_horizon}
   */
   readonly bridgeHorizon?: string;
   /**
   * An option to toggle communication between clients connected to the same AP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/wifi_datapath#client_isolation WifiDatapath#client_isolation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/wifi_datapath#client_isolation WifiDatapath#client_isolation}
   */
   readonly clientIsolation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/wifi_datapath#comment WifiDatapath#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/wifi_datapath#comment WifiDatapath#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/wifi_datapath#disabled WifiDatapath#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/wifi_datapath#disabled WifiDatapath#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/wifi_datapath#id WifiDatapath#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/wifi_datapath#id WifiDatapath#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -55,29 +55,29 @@ export interface WifiDatapathConfig extends cdktf.TerraformMetaArguments {
   /**
   * List to which add the interface as a member.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/wifi_datapath#interface_list WifiDatapath#interface_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/wifi_datapath#interface_list WifiDatapath#interface_list}
   */
   readonly interfaceList?: string;
   /**
   * Name of the datapath.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/wifi_datapath#name WifiDatapath#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/wifi_datapath#name WifiDatapath#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/wifi_datapath#traffic_processing WifiDatapath#traffic_processing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/wifi_datapath#traffic_processing WifiDatapath#traffic_processing}
   */
   readonly trafficProcessing?: string;
   /**
   * Default VLAN ID to assign to client devices connecting to this interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/wifi_datapath#vlan_id WifiDatapath#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/wifi_datapath#vlan_id WifiDatapath#vlan_id}
   */
   readonly vlanId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/wifi_datapath routeros_wifi_datapath}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/wifi_datapath routeros_wifi_datapath}
 */
 export class WifiDatapath extends cdktf.TerraformResource {
 
@@ -93,7 +93,7 @@ export class WifiDatapath extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WifiDatapath resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WifiDatapath to import
-  * @param importFromId The id of the existing WifiDatapath that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/wifi_datapath#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WifiDatapath that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/wifi_datapath#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WifiDatapath to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -105,7 +105,7 @@ export class WifiDatapath extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/wifi_datapath routeros_wifi_datapath} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/wifi_datapath routeros_wifi_datapath} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -116,7 +116,8 @@ export class WifiDatapath extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_wifi_datapath',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.90.0'
+        providerVersion: '1.91.0',
+        providerVersionConstraint: '1.91.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

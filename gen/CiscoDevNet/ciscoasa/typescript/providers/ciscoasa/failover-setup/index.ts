@@ -160,7 +160,8 @@ export class FailoverSetup extends cdktf.TerraformResource {
       terraformResourceType: 'ciscoasa_failover_setup',
       terraformGeneratorMetadata: {
         providerName: 'ciscoasa',
-        providerVersion: '1.3.0'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -230,7 +230,8 @@ export class OpsiAwrHubSourceAwrhubsourcesManagement extends cdktf.TerraformReso
       terraformResourceType: 'oci_opsi_awr_hub_source_awrhubsources_management',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

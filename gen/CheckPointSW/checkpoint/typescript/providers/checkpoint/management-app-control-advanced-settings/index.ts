@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_app_control_advanced_settings
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_app_control_advanced_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface ManagementAppControlAdvancedSettingsConfig extends cdktf.Terraf
   /**
   * Block requests when the web service is unavailable. <br>When selected, requests are blocked when there is no connectivity to the Check Point Online Web Service.<br>When cleared, requests are allowed when there is no connectivity.<br>This property is not available in the Global domain of an MDS machine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_app_control_advanced_settings#block_request_when_web_service_is_unavailable ManagementAppControlAdvancedSettings#block_request_when_web_service_is_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_app_control_advanced_settings#block_request_when_web_service_is_unavailable ManagementAppControlAdvancedSettings#block_request_when_web_service_is_unavailable}
   */
   readonly blockRequestWhenWebServiceIsUnavailable?: boolean | cdktf.IResolvable;
   /**
   * When selected, the Security Gateway connects to the Check Point Online Web Service to identify social networking widgets that it does not recognize.<br>When cleared or there is no connectivity between the Security Gateway and the Check Point Online Web, the unknown widget is treated as Web Browsing traffic.<br>This property is not available in the Global domain of an MDS machine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_app_control_advanced_settings#categorize_social_network_widgets ManagementAppControlAdvancedSettings#categorize_social_network_widgets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_app_control_advanced_settings#categorize_social_network_widgets ManagementAppControlAdvancedSettings#categorize_social_network_widgets}
   */
   readonly categorizeSocialNetworkWidgets?: boolean | cdktf.IResolvable;
   /**
   * Website categorization mode - select the mode that is used for website categorization.<br>This property is not available in the Global domain of an MDS machine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_app_control_advanced_settings#custom_categorization_settings ManagementAppControlAdvancedSettings#custom_categorization_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_app_control_advanced_settings#custom_categorization_settings ManagementAppControlAdvancedSettings#custom_categorization_settings}
   */
   readonly customCategorizationSettings?: { [key: string]: string };
   /**
   * Allows the editing of applications, categories, and services. This property is used only in the Global Domain of an MDS machine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_app_control_advanced_settings#domain_level_permission ManagementAppControlAdvancedSettings#domain_level_permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_app_control_advanced_settings#domain_level_permission ManagementAppControlAdvancedSettings#domain_level_permission}
   */
   readonly domainLevelPermission?: boolean | cdktf.IResolvable;
   /**
   * If you do not enable URL Filtering on the Security Gateway, you can use a generic Web browser application called Web Browsing in the rule.<br>This application includes all HTTP traffic that is not a defined application Application and URL Filtering assigns Web Browsing as the default application for all HTTP traffic that does not match an application in the Application and URL Filtering Database.<br>This property is not available in the Global domain of an MDS machine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_app_control_advanced_settings#enable_web_browsing ManagementAppControlAdvancedSettings#enable_web_browsing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_app_control_advanced_settings#enable_web_browsing ManagementAppControlAdvancedSettings#enable_web_browsing}
   */
   readonly enableWebBrowsing?: boolean | cdktf.IResolvable;
   /**
   * Enable HTTP inspection on non standard ports for application and URL filtering.<br>This property is not available in the Global domain of an MDS machine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_app_control_advanced_settings#httpi_non_standard_ports ManagementAppControlAdvancedSettings#httpi_non_standard_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_app_control_advanced_settings#httpi_non_standard_ports ManagementAppControlAdvancedSettings#httpi_non_standard_ports}
   */
   readonly httpiNonStandardPorts?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_app_control_advanced_settings#id ManagementAppControlAdvancedSettings#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_app_control_advanced_settings#id ManagementAppControlAdvancedSettings#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,37 +53,37 @@ export interface ManagementAppControlAdvancedSettingsConfig extends cdktf.Terraf
   /**
   * In case of internal system error, allow or block all connections.<br>This property is not available in the Global domain of an MDS machine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_app_control_advanced_settings#internal_error_fail_mode ManagementAppControlAdvancedSettings#internal_error_fail_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_app_control_advanced_settings#internal_error_fail_mode ManagementAppControlAdvancedSettings#internal_error_fail_mode}
   */
   readonly internalErrorFailMode?: string;
   /**
   * Match Web application on 'Any' port when used in Block rule - By default this is set to true. and so applications are matched on all services when used in a Block rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_app_control_advanced_settings#match_application_on_any_port ManagementAppControlAdvancedSettings#match_application_on_any_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_app_control_advanced_settings#match_application_on_any_port ManagementAppControlAdvancedSettings#match_application_on_any_port}
   */
   readonly matchApplicationOnAnyPort?: boolean | cdktf.IResolvable;
   /**
   * In this section user can enable  URL Filtering features.<br>This property is not available in the Global domain of an MDS machine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_app_control_advanced_settings#url_filtering_settings ManagementAppControlAdvancedSettings#url_filtering_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_app_control_advanced_settings#url_filtering_settings ManagementAppControlAdvancedSettings#url_filtering_settings}
   */
   readonly urlFilteringSettings?: { [key: string]: string };
   /**
   * Web browsing services are the services that match a Web-based custom Application/Site.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_app_control_advanced_settings#web_browsing_services ManagementAppControlAdvancedSettings#web_browsing_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_app_control_advanced_settings#web_browsing_services ManagementAppControlAdvancedSettings#web_browsing_services}
   */
   readonly webBrowsingServices?: string[];
   /**
   * Hold - Requests are blocked until categorization is complete.<br>Background - Requests are allowed until categorization is complete.<br>Custom - configure different settings depending on the service -Lets you set different modes for URL Filtering and Social Networking Widgets.<br>This property is not available in the Global domain of an MDS machine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_app_control_advanced_settings#website_categorization_mode ManagementAppControlAdvancedSettings#website_categorization_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_app_control_advanced_settings#website_categorization_mode ManagementAppControlAdvancedSettings#website_categorization_mode}
   */
   readonly websiteCategorizationMode?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_app_control_advanced_settings checkpoint_management_app_control_advanced_settings}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_app_control_advanced_settings checkpoint_management_app_control_advanced_settings}
 */
 export class ManagementAppControlAdvancedSettings extends cdktf.TerraformResource {
 
@@ -99,7 +99,7 @@ export class ManagementAppControlAdvancedSettings extends cdktf.TerraformResourc
   * Generates CDKTF code for importing a ManagementAppControlAdvancedSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementAppControlAdvancedSettings to import
-  * @param importFromId The id of the existing ManagementAppControlAdvancedSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_app_control_advanced_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementAppControlAdvancedSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_app_control_advanced_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementAppControlAdvancedSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -111,7 +111,7 @@ export class ManagementAppControlAdvancedSettings extends cdktf.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_app_control_advanced_settings checkpoint_management_app_control_advanced_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_app_control_advanced_settings checkpoint_management_app_control_advanced_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -122,7 +122,8 @@ export class ManagementAppControlAdvancedSettings extends cdktf.TerraformResourc
       terraformResourceType: 'checkpoint_management_app_control_advanced_settings',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

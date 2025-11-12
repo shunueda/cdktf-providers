@@ -168,7 +168,8 @@ export class DataAlicloudSimpleApplicationServerFirewallRules extends cdktf.Terr
       terraformResourceType: 'alicloud_simple_application_server_firewall_rules',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

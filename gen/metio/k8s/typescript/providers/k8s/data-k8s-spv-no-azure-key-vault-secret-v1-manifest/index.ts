@@ -1031,7 +1031,8 @@ export class DataK8SSpvNoAzureKeyVaultSecretV1Manifest extends cdktf.TerraformDa
       terraformResourceType: 'k8s_spv_no_azure_key_vault_secret_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

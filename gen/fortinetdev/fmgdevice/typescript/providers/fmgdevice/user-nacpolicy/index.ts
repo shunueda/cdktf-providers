@@ -148,7 +148,8 @@ export class UserNacpolicy extends cdktf.TerraformResource {
       terraformResourceType: 'fmgdevice_user_nacpolicy',
       terraformGeneratorMetadata: {
         providerName: 'fmgdevice',
-        providerVersion: '1.2.1'
+        providerVersion: '1.2.1',
+        providerVersionConstraint: '1.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -61,7 +61,8 @@ export class EssTag extends cdktf.TerraformResource {
       terraformResourceType: 'aliyun_ess_tag',
       terraformGeneratorMetadata: {
         providerName: 'aliyun',
-        providerVersion: '0.0.6'
+        providerVersion: '0.0.6',
+        providerVersionConstraint: '0.0.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

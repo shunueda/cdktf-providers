@@ -73,7 +73,8 @@ export class DeploymentElasticsearchKeystore extends cdktf.TerraformResource {
       terraformResourceType: 'ec_deployment_elasticsearch_keystore',
       terraformGeneratorMetadata: {
         providerName: 'ec',
-        providerVersion: '0.12.2'
+        providerVersion: '0.12.2',
+        providerVersionConstraint: '0.12.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

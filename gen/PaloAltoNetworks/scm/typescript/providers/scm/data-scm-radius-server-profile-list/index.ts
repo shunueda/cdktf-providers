@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/radius_server_profile_list
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/radius_server_profile_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,44 +10,44 @@ export interface DataScmRadiusServerProfileListConfig extends cdktf.TerraformMet
   /**
   * The device of the item.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/radius_server_profile_list#device DataScmRadiusServerProfileList#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/radius_server_profile_list#device DataScmRadiusServerProfileList#device}
   */
   readonly device?: string;
   /**
   * The folder of the item. Default: Shared.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/radius_server_profile_list#folder DataScmRadiusServerProfileList#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/radius_server_profile_list#folder DataScmRadiusServerProfileList#folder}
   */
   readonly folder?: string;
   /**
   * The max number of items to return. Default: 200.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/radius_server_profile_list#limit DataScmRadiusServerProfileList#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/radius_server_profile_list#limit DataScmRadiusServerProfileList#limit}
   */
   readonly limit?: number;
   /**
   * The name of the item.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/radius_server_profile_list#name DataScmRadiusServerProfileList#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/radius_server_profile_list#name DataScmRadiusServerProfileList#name}
   */
   readonly name?: string;
   /**
   * The offset of the first item to return.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/radius_server_profile_list#offset DataScmRadiusServerProfileList#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/radius_server_profile_list#offset DataScmRadiusServerProfileList#offset}
   */
   readonly offset?: number;
   /**
   * The snippet of the item.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/radius_server_profile_list#snippet DataScmRadiusServerProfileList#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/radius_server_profile_list#snippet DataScmRadiusServerProfileList#snippet}
   */
   readonly snippet?: string;
 }
-export interface DataScmRadiusServerProfileListDataProtocolEAPTTLSWithPAP {
+export interface DataScmRadiusServerProfileListDataProtocolChap {
 }
 
-export function dataScmRadiusServerProfileListDataProtocolEAPTTLSWithPAPToTerraform(struct?: DataScmRadiusServerProfileListDataProtocolEAPTTLSWithPAP): any {
+export function dataScmRadiusServerProfileListDataProtocolChapToTerraform(struct?: DataScmRadiusServerProfileListDataProtocolChap): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -57,7 +57,7 @@ export function dataScmRadiusServerProfileListDataProtocolEAPTTLSWithPAPToTerraf
 }
 
 
-export function dataScmRadiusServerProfileListDataProtocolEAPTTLSWithPAPToHclTerraform(struct?: DataScmRadiusServerProfileListDataProtocolEAPTTLSWithPAP): any {
+export function dataScmRadiusServerProfileListDataProtocolChapToHclTerraform(struct?: DataScmRadiusServerProfileListDataProtocolChap): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -67,7 +67,7 @@ export function dataScmRadiusServerProfileListDataProtocolEAPTTLSWithPAPToHclTer
   return attrs;
 }
 
-export class DataScmRadiusServerProfileListDataProtocolEAPTTLSWithPAPOutputReference extends cdktf.ComplexObject {
+export class DataScmRadiusServerProfileListDataProtocolChapOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -78,13 +78,62 @@ export class DataScmRadiusServerProfileListDataProtocolEAPTTLSWithPAPOutputRefer
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataScmRadiusServerProfileListDataProtocolEAPTTLSWithPAP | undefined {
+  public get internalValue(): DataScmRadiusServerProfileListDataProtocolChap | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataScmRadiusServerProfileListDataProtocolEAPTTLSWithPAP | undefined) {
+  public set internalValue(value: DataScmRadiusServerProfileListDataProtocolChap | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+}
+export interface DataScmRadiusServerProfileListDataProtocolEapTtlsWithPap {
+}
+
+export function dataScmRadiusServerProfileListDataProtocolEapTtlsWithPapToTerraform(struct?: DataScmRadiusServerProfileListDataProtocolEapTtlsWithPap): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataScmRadiusServerProfileListDataProtocolEapTtlsWithPapToHclTerraform(struct?: DataScmRadiusServerProfileListDataProtocolEapTtlsWithPap): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataScmRadiusServerProfileListDataProtocolEapTtlsWithPapOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataScmRadiusServerProfileListDataProtocolEapTtlsWithPap | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataScmRadiusServerProfileListDataProtocolEapTtlsWithPap | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -103,10 +152,10 @@ export class DataScmRadiusServerProfileListDataProtocolEAPTTLSWithPAPOutputRefer
     return this.getStringAttribute('radius_cert_profile');
   }
 }
-export interface DataScmRadiusServerProfileListDataProtocolPEAPMSCHAPv2 {
+export interface DataScmRadiusServerProfileListDataProtocolPap {
 }
 
-export function dataScmRadiusServerProfileListDataProtocolPEAPMSCHAPv2ToTerraform(struct?: DataScmRadiusServerProfileListDataProtocolPEAPMSCHAPv2): any {
+export function dataScmRadiusServerProfileListDataProtocolPapToTerraform(struct?: DataScmRadiusServerProfileListDataProtocolPap): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -116,7 +165,7 @@ export function dataScmRadiusServerProfileListDataProtocolPEAPMSCHAPv2ToTerrafor
 }
 
 
-export function dataScmRadiusServerProfileListDataProtocolPEAPMSCHAPv2ToHclTerraform(struct?: DataScmRadiusServerProfileListDataProtocolPEAPMSCHAPv2): any {
+export function dataScmRadiusServerProfileListDataProtocolPapToHclTerraform(struct?: DataScmRadiusServerProfileListDataProtocolPap): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -126,7 +175,7 @@ export function dataScmRadiusServerProfileListDataProtocolPEAPMSCHAPv2ToHclTerra
   return attrs;
 }
 
-export class DataScmRadiusServerProfileListDataProtocolPEAPMSCHAPv2OutputReference extends cdktf.ComplexObject {
+export class DataScmRadiusServerProfileListDataProtocolPapOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -137,13 +186,62 @@ export class DataScmRadiusServerProfileListDataProtocolPEAPMSCHAPv2OutputReferen
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataScmRadiusServerProfileListDataProtocolPEAPMSCHAPv2 | undefined {
+  public get internalValue(): DataScmRadiusServerProfileListDataProtocolPap | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataScmRadiusServerProfileListDataProtocolPEAPMSCHAPv2 | undefined) {
+  public set internalValue(value: DataScmRadiusServerProfileListDataProtocolPap | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+}
+export interface DataScmRadiusServerProfileListDataProtocolPeapMschaPv2 {
+}
+
+export function dataScmRadiusServerProfileListDataProtocolPeapMschaPv2ToTerraform(struct?: DataScmRadiusServerProfileListDataProtocolPeapMschaPv2): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataScmRadiusServerProfileListDataProtocolPeapMschaPv2ToHclTerraform(struct?: DataScmRadiusServerProfileListDataProtocolPeapMschaPv2): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataScmRadiusServerProfileListDataProtocolPeapMschaPv2OutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataScmRadiusServerProfileListDataProtocolPeapMschaPv2 | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataScmRadiusServerProfileListDataProtocolPeapMschaPv2 | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -167,10 +265,10 @@ export class DataScmRadiusServerProfileListDataProtocolPEAPMSCHAPv2OutputReferen
     return this.getStringAttribute('radius_cert_profile');
   }
 }
-export interface DataScmRadiusServerProfileListDataProtocolPEAPWithGTC {
+export interface DataScmRadiusServerProfileListDataProtocolPeapWithGtc {
 }
 
-export function dataScmRadiusServerProfileListDataProtocolPEAPWithGTCToTerraform(struct?: DataScmRadiusServerProfileListDataProtocolPEAPWithGTC): any {
+export function dataScmRadiusServerProfileListDataProtocolPeapWithGtcToTerraform(struct?: DataScmRadiusServerProfileListDataProtocolPeapWithGtc): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -180,7 +278,7 @@ export function dataScmRadiusServerProfileListDataProtocolPEAPWithGTCToTerraform
 }
 
 
-export function dataScmRadiusServerProfileListDataProtocolPEAPWithGTCToHclTerraform(struct?: DataScmRadiusServerProfileListDataProtocolPEAPWithGTC): any {
+export function dataScmRadiusServerProfileListDataProtocolPeapWithGtcToHclTerraform(struct?: DataScmRadiusServerProfileListDataProtocolPeapWithGtc): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -190,7 +288,7 @@ export function dataScmRadiusServerProfileListDataProtocolPEAPWithGTCToHclTerraf
   return attrs;
 }
 
-export class DataScmRadiusServerProfileListDataProtocolPEAPWithGTCOutputReference extends cdktf.ComplexObject {
+export class DataScmRadiusServerProfileListDataProtocolPeapWithGtcOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -201,13 +299,13 @@ export class DataScmRadiusServerProfileListDataProtocolPEAPWithGTCOutputReferenc
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataScmRadiusServerProfileListDataProtocolPEAPWithGTC | undefined {
+  public get internalValue(): DataScmRadiusServerProfileListDataProtocolPeapWithGtc | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataScmRadiusServerProfileListDataProtocolPEAPWithGTC | undefined) {
+  public set internalValue(value: DataScmRadiusServerProfileListDataProtocolPeapWithGtc | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -275,32 +373,34 @@ export class DataScmRadiusServerProfileListDataProtocolOutputReference extends c
     }
   }
 
-  // c_h_a_p - computed: true, optional: false, required: false
-  public get cHAP() {
-    return this.getStringAttribute('c_h_a_p');
+  // chap - computed: true, optional: false, required: false
+  private _chap = new DataScmRadiusServerProfileListDataProtocolChapOutputReference(this, "chap");
+  public get chap() {
+    return this._chap;
   }
 
-  // e_a_p__t_t_l_s_with__p_a_p - computed: true, optional: false, required: false
-  private _eAPTTLSWithPAP = new DataScmRadiusServerProfileListDataProtocolEAPTTLSWithPAPOutputReference(this, "e_a_p__t_t_l_s_with__p_a_p");
-  public get eAPTTLSWithPAP() {
-    return this._eAPTTLSWithPAP;
+  // eap_ttls_with_pap - computed: true, optional: false, required: false
+  private _eapTtlsWithPap = new DataScmRadiusServerProfileListDataProtocolEapTtlsWithPapOutputReference(this, "eap_ttls_with_pap");
+  public get eapTtlsWithPap() {
+    return this._eapTtlsWithPap;
   }
 
-  // p_a_p - computed: true, optional: false, required: false
-  public get pAP() {
-    return this.getStringAttribute('p_a_p');
+  // pap - computed: true, optional: false, required: false
+  private _pap = new DataScmRadiusServerProfileListDataProtocolPapOutputReference(this, "pap");
+  public get pap() {
+    return this._pap;
   }
 
-  // p_e_a_p__m_s_c_h_a_pv2 - computed: true, optional: false, required: false
-  private _pEAPMSCHAPv2 = new DataScmRadiusServerProfileListDataProtocolPEAPMSCHAPv2OutputReference(this, "p_e_a_p__m_s_c_h_a_pv2");
-  public get pEAPMSCHAPv2() {
-    return this._pEAPMSCHAPv2;
+  // peap_mscha_pv2 - computed: true, optional: false, required: false
+  private _peapMschaPv2 = new DataScmRadiusServerProfileListDataProtocolPeapMschaPv2OutputReference(this, "peap_mscha_pv2");
+  public get peapMschaPv2() {
+    return this._peapMschaPv2;
   }
 
-  // p_e_a_p_with__g_t_c - computed: true, optional: false, required: false
-  private _pEAPWithGTC = new DataScmRadiusServerProfileListDataProtocolPEAPWithGTCOutputReference(this, "p_e_a_p_with__g_t_c");
-  public get pEAPWithGTC() {
-    return this._pEAPWithGTC;
+  // peap_with_gtc - computed: true, optional: false, required: false
+  private _peapWithGtc = new DataScmRadiusServerProfileListDataProtocolPeapWithGtcOutputReference(this, "peap_with_gtc");
+  public get peapWithGtc() {
+    return this._peapWithGtc;
   }
 }
 export interface DataScmRadiusServerProfileListDataServer {
@@ -397,7 +497,7 @@ export interface DataScmRadiusServerProfileListData {
   /**
   * The UUID of the RADIUS server profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/radius_server_profile_list#id DataScmRadiusServerProfileList#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/radius_server_profile_list#id DataScmRadiusServerProfileList#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -406,7 +506,7 @@ export interface DataScmRadiusServerProfileListData {
   /**
   * The name of the RADIUS server profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/radius_server_profile_list#name DataScmRadiusServerProfileList#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/radius_server_profile_list#name DataScmRadiusServerProfileList#name}
   */
   readonly name?: string;
 }
@@ -580,7 +680,7 @@ export class DataScmRadiusServerProfileListDataList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/radius_server_profile_list scm_radius_server_profile_list}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/radius_server_profile_list scm_radius_server_profile_list}
 */
 export class DataScmRadiusServerProfileList extends cdktf.TerraformDataSource {
 
@@ -596,7 +696,7 @@ export class DataScmRadiusServerProfileList extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataScmRadiusServerProfileList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataScmRadiusServerProfileList to import
-  * @param importFromId The id of the existing DataScmRadiusServerProfileList that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/radius_server_profile_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataScmRadiusServerProfileList that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/radius_server_profile_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataScmRadiusServerProfileList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -608,7 +708,7 @@ export class DataScmRadiusServerProfileList extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/radius_server_profile_list scm_radius_server_profile_list} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/radius_server_profile_list scm_radius_server_profile_list} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -619,7 +719,8 @@ export class DataScmRadiusServerProfileList extends cdktf.TerraformDataSource {
       terraformResourceType: 'scm_radius_server_profile_list',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.3'
+        providerVersion: '1.0.4',
+        providerVersionConstraint: '1.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

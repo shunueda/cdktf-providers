@@ -79,7 +79,8 @@ export class KionProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'kion',
       terraformGeneratorMetadata: {
         providerName: 'kion',
-        providerVersion: '0.3.29'
+        providerVersion: '0.3.29',
+        providerVersionConstraint: '0.3.29'
       },
       terraformProviderSource: 'kionsoftware/kion'
     });

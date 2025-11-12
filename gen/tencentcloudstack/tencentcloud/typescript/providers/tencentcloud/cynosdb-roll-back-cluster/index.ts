@@ -545,7 +545,8 @@ export class CynosdbRollBackCluster extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cynosdb_roll_back_cluster',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

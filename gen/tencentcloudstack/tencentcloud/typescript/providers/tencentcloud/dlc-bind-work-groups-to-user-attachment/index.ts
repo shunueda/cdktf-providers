@@ -177,7 +177,8 @@ export class DlcBindWorkGroupsToUserAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_dlc_bind_work_groups_to_user_attachment',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

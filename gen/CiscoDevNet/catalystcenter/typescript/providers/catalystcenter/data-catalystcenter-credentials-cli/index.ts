@@ -64,7 +64,8 @@ export class DataCatalystcenterCredentialsCli extends cdktf.TerraformDataSource 
       terraformResourceType: 'catalystcenter_credentials_cli',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.2'
+        providerVersion: '0.4.2',
+        providerVersionConstraint: '0.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

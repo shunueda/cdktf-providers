@@ -153,7 +153,8 @@ export class DataMongodbatlasSearchIndex extends cdktf.TerraformDataSource {
       terraformResourceType: 'mongodbatlas_search_index',
       terraformGeneratorMetadata: {
         providerName: 'mongodbatlas',
-        providerVersion: '2.1.0'
+        providerVersion: '2.1.0',
+        providerVersionConstraint: '2.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

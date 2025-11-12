@@ -808,7 +808,8 @@ export class DataSyntheticsDowntimeConfigurationV2Check extends cdktf.TerraformD
       terraformResourceType: 'synthetics_downtime_configuration_v2_check',
       terraformGeneratorMetadata: {
         providerName: 'synthetics',
-        providerVersion: '2.0.16'
+        providerVersion: '2.0.16',
+        providerVersionConstraint: '2.0.16'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

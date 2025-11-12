@@ -70,7 +70,8 @@ export class DataDuplocloudAwsLaunchTemplate extends cdktf.TerraformDataSource {
       terraformResourceType: 'duplocloud_aws_launch_template',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.28'
+        providerVersion: '0.11.28',
+        providerVersionConstraint: '0.11.28'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -55,7 +55,8 @@ export class DataPingdirectoryTopologyAdminUsers extends cdktf.TerraformDataSour
       terraformResourceType: 'pingdirectory_topology_admin_users',
       terraformGeneratorMetadata: {
         providerName: 'pingdirectory',
-        providerVersion: '1.5.0'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

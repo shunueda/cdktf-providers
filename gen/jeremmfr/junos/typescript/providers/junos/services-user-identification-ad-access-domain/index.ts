@@ -634,7 +634,8 @@ export class ServicesUserIdentificationAdAccessDomain extends cdktf.TerraformRes
       terraformResourceType: 'junos_services_user_identification_ad_access_domain',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0'
+        providerVersion: '2.15.0',
+        providerVersionConstraint: '2.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

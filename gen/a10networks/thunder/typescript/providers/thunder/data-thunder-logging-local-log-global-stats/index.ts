@@ -1198,7 +1198,8 @@ export class DataThunderLoggingLocalLogGlobalStats extends cdktf.TerraformDataSo
       terraformResourceType: 'thunder_logging_local_log_global_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

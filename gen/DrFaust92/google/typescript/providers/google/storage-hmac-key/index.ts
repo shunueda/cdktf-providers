@@ -238,7 +238,8 @@ export class StorageHmacKey extends cdktf.TerraformResource {
       terraformResourceType: 'google_storage_hmac_key',
       terraformGeneratorMetadata: {
         providerName: 'google',
-        providerVersion: '4.16.4'
+        providerVersion: '4.16.4',
+        providerVersionConstraint: '4.16.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

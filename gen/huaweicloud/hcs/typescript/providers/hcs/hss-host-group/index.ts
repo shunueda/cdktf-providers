@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/hss_host_group
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/hss_host_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface HssHostGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the enterprise project to which the host group belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/hss_host_group#enterprise_project_id HssHostGroup#enterprise_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/hss_host_group#enterprise_project_id HssHostGroup#enterprise_project_id}
   */
   readonly enterpriseProjectId?: string;
   /**
   * schema: Required; The list of host IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/hss_host_group#host_ids HssHostGroup#host_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/hss_host_group#host_ids HssHostGroup#host_ids}
   */
   readonly hostIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/hss_host_group#id HssHostGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/hss_host_group#id HssHostGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,29 +29,29 @@ export interface HssHostGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the host group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/hss_host_group#name HssHostGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/hss_host_group#name HssHostGroup#name}
   */
   readonly name: string;
   /**
   * The region where the host group is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/hss_host_group#region HssHostGroup#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/hss_host_group#region HssHostGroup#region}
   */
   readonly region?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/hss_host_group#timeouts HssHostGroup#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/hss_host_group#timeouts HssHostGroup#timeouts}
   */
   readonly timeouts?: HssHostGroupTimeouts;
 }
 export interface HssHostGroupTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/hss_host_group#create HssHostGroup#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/hss_host_group#create HssHostGroup#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/hss_host_group#update HssHostGroup#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/hss_host_group#update HssHostGroup#update}
   */
   readonly update?: string;
 }
@@ -174,7 +174,7 @@ export class HssHostGroupTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/hss_host_group hcs_hss_host_group}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/hss_host_group hcs_hss_host_group}
 */
 export class HssHostGroup extends cdktf.TerraformResource {
 
@@ -190,7 +190,7 @@ export class HssHostGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HssHostGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HssHostGroup to import
-  * @param importFromId The id of the existing HssHostGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/hss_host_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HssHostGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/hss_host_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HssHostGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -202,7 +202,7 @@ export class HssHostGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/hss_host_group hcs_hss_host_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/hss_host_group hcs_hss_host_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -213,7 +213,8 @@ export class HssHostGroup extends cdktf.TerraformResource {
       terraformResourceType: 'hcs_hss_host_group',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.19'
+        providerVersion: '2.4.20',
+        providerVersionConstraint: '2.4.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

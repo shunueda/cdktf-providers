@@ -91,7 +91,8 @@ export class GridscaleProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'gridscale',
       terraformGeneratorMetadata: {
         providerName: 'gridscale',
-        providerVersion: '2.2.3'
+        providerVersion: '2.2.3',
+        providerVersionConstraint: '2.2.3'
       },
       terraformProviderSource: 'gridscale/gridscale'
     });

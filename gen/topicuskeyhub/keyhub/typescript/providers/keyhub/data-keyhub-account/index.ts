@@ -2883,7 +2883,8 @@ export class DataKeyhubAccount extends cdktf.TerraformDataSource {
       terraformResourceType: 'keyhub_account',
       terraformGeneratorMetadata: {
         providerName: 'keyhub',
-        providerVersion: '2.44.0'
+        providerVersion: '2.44.0',
+        providerVersionConstraint: '2.44.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

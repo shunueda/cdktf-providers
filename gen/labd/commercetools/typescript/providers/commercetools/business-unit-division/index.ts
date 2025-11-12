@@ -1444,7 +1444,8 @@ export class BusinessUnitDivision extends cdktf.TerraformResource {
       terraformResourceType: 'commercetools_business_unit_division',
       terraformGeneratorMetadata: {
         providerName: 'commercetools',
-        providerVersion: '1.21.1'
+        providerVersion: '1.21.1',
+        providerVersionConstraint: '1.21.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

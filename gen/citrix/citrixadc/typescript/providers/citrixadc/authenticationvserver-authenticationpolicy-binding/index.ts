@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationvserver_authenticationpolicy_binding
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationvserver_authenticationpolicy_binding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,48 +8,48 @@ import * as cdktf from 'cdktf';
 
 export interface AuthenticationvserverAuthenticationpolicyBindingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationvserver_authenticationpolicy_binding#bindpoint AuthenticationvserverAuthenticationpolicyBinding#bindpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationvserver_authenticationpolicy_binding#bindpoint AuthenticationvserverAuthenticationpolicyBinding#bindpoint}
   */
   readonly bindpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationvserver_authenticationpolicy_binding#gotopriorityexpression AuthenticationvserverAuthenticationpolicyBinding#gotopriorityexpression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationvserver_authenticationpolicy_binding#gotopriorityexpression AuthenticationvserverAuthenticationpolicyBinding#gotopriorityexpression}
   */
   readonly gotopriorityexpression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationvserver_authenticationpolicy_binding#groupextraction AuthenticationvserverAuthenticationpolicyBinding#groupextraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationvserver_authenticationpolicy_binding#groupextraction AuthenticationvserverAuthenticationpolicyBinding#groupextraction}
   */
   readonly groupextraction?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationvserver_authenticationpolicy_binding#id AuthenticationvserverAuthenticationpolicyBinding#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationvserver_authenticationpolicy_binding#id AuthenticationvserverAuthenticationpolicyBinding#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationvserver_authenticationpolicy_binding#name AuthenticationvserverAuthenticationpolicyBinding#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationvserver_authenticationpolicy_binding#name AuthenticationvserverAuthenticationpolicyBinding#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationvserver_authenticationpolicy_binding#nextfactor AuthenticationvserverAuthenticationpolicyBinding#nextfactor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationvserver_authenticationpolicy_binding#nextfactor AuthenticationvserverAuthenticationpolicyBinding#nextfactor}
   */
   readonly nextfactor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationvserver_authenticationpolicy_binding#policy AuthenticationvserverAuthenticationpolicyBinding#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationvserver_authenticationpolicy_binding#policy AuthenticationvserverAuthenticationpolicyBinding#policy}
   */
   readonly policy: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationvserver_authenticationpolicy_binding#priority AuthenticationvserverAuthenticationpolicyBinding#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationvserver_authenticationpolicy_binding#priority AuthenticationvserverAuthenticationpolicyBinding#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationvserver_authenticationpolicy_binding#secondary AuthenticationvserverAuthenticationpolicyBinding#secondary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationvserver_authenticationpolicy_binding#secondary AuthenticationvserverAuthenticationpolicyBinding#secondary}
   */
   readonly secondary?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationvserver_authenticationpolicy_binding citrixadc_authenticationvserver_authenticationpolicy_binding}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationvserver_authenticationpolicy_binding citrixadc_authenticationvserver_authenticationpolicy_binding}
 */
 export class AuthenticationvserverAuthenticationpolicyBinding extends cdktf.TerraformResource {
 
@@ -65,7 +65,7 @@ export class AuthenticationvserverAuthenticationpolicyBinding extends cdktf.Terr
   * Generates CDKTF code for importing a AuthenticationvserverAuthenticationpolicyBinding resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AuthenticationvserverAuthenticationpolicyBinding to import
-  * @param importFromId The id of the existing AuthenticationvserverAuthenticationpolicyBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationvserver_authenticationpolicy_binding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AuthenticationvserverAuthenticationpolicyBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationvserver_authenticationpolicy_binding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AuthenticationvserverAuthenticationpolicyBinding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -77,7 +77,7 @@ export class AuthenticationvserverAuthenticationpolicyBinding extends cdktf.Terr
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationvserver_authenticationpolicy_binding citrixadc_authenticationvserver_authenticationpolicy_binding} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationvserver_authenticationpolicy_binding citrixadc_authenticationvserver_authenticationpolicy_binding} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -88,7 +88,8 @@ export class AuthenticationvserverAuthenticationpolicyBinding extends cdktf.Terr
       terraformResourceType: 'citrixadc_authenticationvserver_authenticationpolicy_binding',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

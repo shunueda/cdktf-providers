@@ -177,7 +177,8 @@ export class DestinationSnowflake extends cdktf.TerraformResource {
       terraformResourceType: 'streamkap_destination_snowflake',
       terraformGeneratorMetadata: {
         providerName: 'streamkap',
-        providerVersion: '2.1.15'
+        providerVersion: '2.1.15',
+        providerVersionConstraint: '2.1.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

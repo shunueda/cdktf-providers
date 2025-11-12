@@ -75,7 +75,8 @@ export class ChronosphereProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'chronosphere',
       terraformGeneratorMetadata: {
         providerName: 'chronosphere',
-        providerVersion: '1.17.0'
+        providerVersion: '1.17.0',
+        providerVersionConstraint: '1.17.0'
       },
       terraformProviderSource: 'chronosphereio/chronosphere'
     });

@@ -66,7 +66,8 @@ export class DataK8SAsdbAerospikeComAerospikeClusterV1Manifest extends cdktf.Ter
       terraformResourceType: 'k8s_asdb_aerospike_com_aerospike_cluster_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -68,7 +68,8 @@ export class DataPingoneCertificateSigningRequest extends cdktf.TerraformDataSou
       terraformResourceType: 'pingone_certificate_signing_request',
       terraformGeneratorMetadata: {
         providerName: 'pingone',
-        providerVersion: '1.14.0'
+        providerVersion: '1.14.0',
+        providerVersionConstraint: '1.14.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

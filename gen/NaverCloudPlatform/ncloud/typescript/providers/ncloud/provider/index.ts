@@ -85,7 +85,8 @@ export class NcloudProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'ncloud',
       terraformGeneratorMetadata: {
         providerName: 'ncloud',
-        providerVersion: '4.0.4'
+        providerVersion: '4.0.4',
+        providerVersionConstraint: '4.0.4'
       },
       terraformProviderSource: 'NaverCloudPlatform/ncloud'
     });

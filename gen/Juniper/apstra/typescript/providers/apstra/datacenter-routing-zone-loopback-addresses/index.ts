@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_routing_zone_loopback_addresses
+// https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_routing_zone_loopback_addresses
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DatacenterRoutingZoneLoopbackAddressesConfig extends cdktf.Terr
   /**
   * Apstra Blueprint ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_routing_zone_loopback_addresses#blueprint_id DatacenterRoutingZoneLoopbackAddresses#blueprint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_routing_zone_loopback_addresses#blueprint_id DatacenterRoutingZoneLoopbackAddresses#blueprint_id}
   */
   readonly blueprintId: string;
   /**
   * Map of Loopback IPv4 and IPv6 addresses, keyed by System (switch) Node ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_routing_zone_loopback_addresses#loopbacks DatacenterRoutingZoneLoopbackAddresses#loopbacks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_routing_zone_loopback_addresses#loopbacks DatacenterRoutingZoneLoopbackAddresses#loopbacks}
   */
   readonly loopbacks: { [key: string]: DatacenterRoutingZoneLoopbackAddressesLoopbacks } | cdktf.IResolvable;
   /**
   * Routing Zone ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_routing_zone_loopback_addresses#routing_zone_id DatacenterRoutingZoneLoopbackAddresses#routing_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_routing_zone_loopback_addresses#routing_zone_id DatacenterRoutingZoneLoopbackAddresses#routing_zone_id}
   */
   readonly routingZoneId: string;
 }
@@ -30,13 +30,13 @@ export interface DatacenterRoutingZoneLoopbackAddressesLoopbacks {
   /**
   * The IPv4 address to be assigned within the Routing Zone, in CIDR notation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_routing_zone_loopback_addresses#ipv4_addr DatacenterRoutingZoneLoopbackAddresses#ipv4_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_routing_zone_loopback_addresses#ipv4_addr DatacenterRoutingZoneLoopbackAddresses#ipv4_addr}
   */
   readonly ipv4Addr?: string;
   /**
   * The IPv6 address to be assigned within the Routing Zone, in CIDR notation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_routing_zone_loopback_addresses#ipv6_addr DatacenterRoutingZoneLoopbackAddresses#ipv6_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_routing_zone_loopback_addresses#ipv6_addr DatacenterRoutingZoneLoopbackAddresses#ipv6_addr}
   */
   readonly ipv6Addr?: string;
 }
@@ -179,7 +179,7 @@ export class DatacenterRoutingZoneLoopbackAddressesLoopbacksMap extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_routing_zone_loopback_addresses apstra_datacenter_routing_zone_loopback_addresses}
+* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_routing_zone_loopback_addresses apstra_datacenter_routing_zone_loopback_addresses}
 */
 export class DatacenterRoutingZoneLoopbackAddresses extends cdktf.TerraformResource {
 
@@ -195,7 +195,7 @@ export class DatacenterRoutingZoneLoopbackAddresses extends cdktf.TerraformResou
   * Generates CDKTF code for importing a DatacenterRoutingZoneLoopbackAddresses resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatacenterRoutingZoneLoopbackAddresses to import
-  * @param importFromId The id of the existing DatacenterRoutingZoneLoopbackAddresses that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_routing_zone_loopback_addresses#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatacenterRoutingZoneLoopbackAddresses that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_routing_zone_loopback_addresses#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatacenterRoutingZoneLoopbackAddresses to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -207,7 +207,7 @@ export class DatacenterRoutingZoneLoopbackAddresses extends cdktf.TerraformResou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_routing_zone_loopback_addresses apstra_datacenter_routing_zone_loopback_addresses} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_routing_zone_loopback_addresses apstra_datacenter_routing_zone_loopback_addresses} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -218,7 +218,8 @@ export class DatacenterRoutingZoneLoopbackAddresses extends cdktf.TerraformResou
       terraformResourceType: 'apstra_datacenter_routing_zone_loopback_addresses',
       terraformGeneratorMetadata: {
         providerName: 'apstra',
-        providerVersion: '0.95.0'
+        providerVersion: '0.95.1',
+        providerVersionConstraint: '0.95.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

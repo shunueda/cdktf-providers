@@ -109,7 +109,8 @@ export class McsProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'mcs',
       terraformGeneratorMetadata: {
         providerName: 'mcs',
-        providerVersion: '0.6.14'
+        providerVersion: '0.6.14',
+        providerVersionConstraint: '0.6.14'
       },
       terraformProviderSource: 'MailRuCloudSolutions/mcs'
     });

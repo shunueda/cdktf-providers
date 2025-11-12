@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_disconnect_cloud_services
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_disconnect_cloud_services
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ManagementDisconnectCloudServicesConfig extends cdktf.Terraform
   /**
   * Disconnect the Management Server from Check Point Infinity Portal, and reset the connection locally, regardless of the result in the Infinity Portal. This flag can be used if the disconnect-cloud-services command failed. Since with this flag this command affects only the local configuration, make sure to disconnect the Management Server in the Infinity Portal as well.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_disconnect_cloud_services#force ManagementDisconnectCloudServices#force}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_disconnect_cloud_services#force ManagementDisconnectCloudServices#force}
   */
   readonly force?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_disconnect_cloud_services#id ManagementDisconnectCloudServices#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_disconnect_cloud_services#id ManagementDisconnectCloudServices#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,7 +23,7 @@ export interface ManagementDisconnectCloudServicesConfig extends cdktf.Terraform
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_disconnect_cloud_services checkpoint_management_disconnect_cloud_services}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_disconnect_cloud_services checkpoint_management_disconnect_cloud_services}
 */
 export class ManagementDisconnectCloudServices extends cdktf.TerraformResource {
 
@@ -39,7 +39,7 @@ export class ManagementDisconnectCloudServices extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementDisconnectCloudServices resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementDisconnectCloudServices to import
-  * @param importFromId The id of the existing ManagementDisconnectCloudServices that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_disconnect_cloud_services#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementDisconnectCloudServices that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_disconnect_cloud_services#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementDisconnectCloudServices to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -51,7 +51,7 @@ export class ManagementDisconnectCloudServices extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_disconnect_cloud_services checkpoint_management_disconnect_cloud_services} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_disconnect_cloud_services checkpoint_management_disconnect_cloud_services} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -62,7 +62,8 @@ export class ManagementDisconnectCloudServices extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_disconnect_cloud_services',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

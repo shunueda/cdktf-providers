@@ -61,7 +61,8 @@ export class DataCorefuncNetCidrContains extends cdktf.TerraformDataSource {
       terraformResourceType: 'corefunc_net_cidr_contains',
       terraformGeneratorMetadata: {
         providerName: 'corefunc',
-        providerVersion: '2.1.0'
+        providerVersion: '2.1.0',
+        providerVersionConstraint: '2.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

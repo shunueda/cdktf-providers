@@ -66,7 +66,8 @@ export class ClusterProfileImport extends cdktf.TerraformResource {
       terraformResourceType: 'spectrocloud_cluster_profile_import',
       terraformGeneratorMetadata: {
         providerName: 'spectrocloud',
-        providerVersion: '0.25.2'
+        providerVersion: '0.25.2',
+        providerVersionConstraint: '0.25.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

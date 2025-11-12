@@ -358,7 +358,8 @@ export class QueueConsumer extends cdktf.TerraformResource {
       terraformResourceType: 'cloudflare_queue_consumer',
       terraformGeneratorMetadata: {
         providerName: 'cloudflare',
-        providerVersion: '5.12.0'
+        providerVersion: '5.12.0',
+        providerVersionConstraint: '5.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

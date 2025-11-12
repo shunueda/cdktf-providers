@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface BgpAddressFamilyProfileConfig extends cdktf.TerraformMetaArgume
   /**
   * The device in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile#device BgpAddressFamilyProfile#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile#device BgpAddressFamilyProfile#device}
   */
   readonly device?: string;
   /**
   * The folder in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile#folder BgpAddressFamilyProfile#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile#folder BgpAddressFamilyProfile#folder}
   */
   readonly folder?: string;
   /**
   * Ipv4
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile#ipv4 BgpAddressFamilyProfile#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile#ipv4 BgpAddressFamilyProfile#ipv4}
   */
   readonly ipv4?: BgpAddressFamilyProfileIpv4;
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile#name BgpAddressFamilyProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile#name BgpAddressFamilyProfile#name}
   */
   readonly name: string;
   /**
   * The snippet in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile#snippet BgpAddressFamilyProfile#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile#snippet BgpAddressFamilyProfile#snippet}
   */
   readonly snippet?: string;
 }
@@ -42,15 +42,15 @@ export interface BgpAddressFamilyProfileIpv4Ipv4MulticastAddPath {
   /**
   * Advertise all paths to peer?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile#tx_all_paths BgpAddressFamilyProfile#tx_all_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile#tx_all_paths BgpAddressFamilyProfile#tx_all_paths}
   */
   readonly txAllPaths?: boolean | cdktf.IResolvable;
   /**
   * Tx bestpath per a s
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile#tx_bestpath_per__a_s BgpAddressFamilyProfile#tx_bestpath_per__a_s}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile#tx_bestpath_per_as BgpAddressFamilyProfile#tx_bestpath_per_as}
   */
-  readonly txBestpathPerAS?: boolean | cdktf.IResolvable;
+  readonly txBestpathPerAs?: boolean | cdktf.IResolvable;
 }
 
 export function bgpAddressFamilyProfileIpv4Ipv4MulticastAddPathToTerraform(struct?: BgpAddressFamilyProfileIpv4Ipv4MulticastAddPath | cdktf.IResolvable): any {
@@ -60,7 +60,7 @@ export function bgpAddressFamilyProfileIpv4Ipv4MulticastAddPathToTerraform(struc
   }
   return {
     tx_all_paths: cdktf.booleanToTerraform(struct!.txAllPaths),
-    tx_bestpath_per__a_s: cdktf.booleanToTerraform(struct!.txBestpathPerAS),
+    tx_bestpath_per_as: cdktf.booleanToTerraform(struct!.txBestpathPerAs),
   }
 }
 
@@ -77,8 +77,8 @@ export function bgpAddressFamilyProfileIpv4Ipv4MulticastAddPathToHclTerraform(st
       type: "simple",
       storageClassType: "boolean",
     },
-    tx_bestpath_per__a_s: {
-      value: cdktf.booleanToHclTerraform(struct!.txBestpathPerAS),
+    tx_bestpath_per_as: {
+      value: cdktf.booleanToHclTerraform(struct!.txBestpathPerAs),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -111,9 +111,9 @@ export class BgpAddressFamilyProfileIpv4Ipv4MulticastAddPathOutputReference exte
       hasAnyValues = true;
       internalValueResult.txAllPaths = this._txAllPaths;
     }
-    if (this._txBestpathPerAS !== undefined) {
+    if (this._txBestpathPerAs !== undefined) {
       hasAnyValues = true;
-      internalValueResult.txBestpathPerAS = this._txBestpathPerAS;
+      internalValueResult.txBestpathPerAs = this._txBestpathPerAs;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -123,7 +123,7 @@ export class BgpAddressFamilyProfileIpv4Ipv4MulticastAddPathOutputReference exte
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._txAllPaths = undefined;
-      this._txBestpathPerAS = undefined;
+      this._txBestpathPerAs = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -133,7 +133,7 @@ export class BgpAddressFamilyProfileIpv4Ipv4MulticastAddPathOutputReference exte
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
       this._txAllPaths = value.txAllPaths;
-      this._txBestpathPerAS = value.txBestpathPerAS;
+      this._txBestpathPerAs = value.txBestpathPerAs;
     }
   }
 
@@ -153,20 +153,20 @@ export class BgpAddressFamilyProfileIpv4Ipv4MulticastAddPathOutputReference exte
     return this._txAllPaths;
   }
 
-  // tx_bestpath_per__a_s - computed: false, optional: true, required: false
-  private _txBestpathPerAS?: boolean | cdktf.IResolvable; 
-  public get txBestpathPerAS() {
-    return this.getBooleanAttribute('tx_bestpath_per__a_s');
+  // tx_bestpath_per_as - computed: false, optional: true, required: false
+  private _txBestpathPerAs?: boolean | cdktf.IResolvable; 
+  public get txBestpathPerAs() {
+    return this.getBooleanAttribute('tx_bestpath_per_as');
   }
-  public set txBestpathPerAS(value: boolean | cdktf.IResolvable) {
-    this._txBestpathPerAS = value;
+  public set txBestpathPerAs(value: boolean | cdktf.IResolvable) {
+    this._txBestpathPerAs = value;
   }
-  public resetTxBestpathPerAS() {
-    this._txBestpathPerAS = undefined;
+  public resetTxBestpathPerAs() {
+    this._txBestpathPerAs = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get txBestpathPerASInput() {
-    return this._txBestpathPerAS;
+  public get txBestpathPerAsInput() {
+    return this._txBestpathPerAs;
   }
 }
 export interface BgpAddressFamilyProfileIpv4Ipv4MulticastAllowasInOrigin {
@@ -232,13 +232,13 @@ export interface BgpAddressFamilyProfileIpv4Ipv4MulticastAllowasIn {
   /**
   * Number of times the firewalls own AS can be in an AS_PATH
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile#occurrence BgpAddressFamilyProfile#occurrence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile#occurrence BgpAddressFamilyProfile#occurrence}
   */
   readonly occurrence?: number;
   /**
   * Origin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile#origin BgpAddressFamilyProfile#origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile#origin BgpAddressFamilyProfile#origin}
   */
   readonly origin?: BgpAddressFamilyProfileIpv4Ipv4MulticastAllowasInOrigin;
 }
@@ -363,7 +363,7 @@ export interface BgpAddressFamilyProfileIpv4Ipv4MulticastMaximumPrefixActionRest
   /**
   * Restart interval
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile#interval BgpAddressFamilyProfile#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile#interval BgpAddressFamilyProfile#interval}
   */
   readonly interval?: number;
 }
@@ -518,13 +518,13 @@ export interface BgpAddressFamilyProfileIpv4Ipv4MulticastMaximumPrefixAction {
   /**
   * Restart
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile#restart BgpAddressFamilyProfile#restart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile#restart BgpAddressFamilyProfile#restart}
   */
   readonly restart?: BgpAddressFamilyProfileIpv4Ipv4MulticastMaximumPrefixActionRestart;
   /**
   * Warning only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile#warning_only BgpAddressFamilyProfile#warning_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile#warning_only BgpAddressFamilyProfile#warning_only}
   */
   readonly warningOnly?: BgpAddressFamilyProfileIpv4Ipv4MulticastMaximumPrefixActionWarningOnly;
 }
@@ -649,19 +649,19 @@ export interface BgpAddressFamilyProfileIpv4Ipv4MulticastMaximumPrefix {
   /**
   * Action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile#action BgpAddressFamilyProfile#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile#action BgpAddressFamilyProfile#action}
   */
   readonly action?: BgpAddressFamilyProfileIpv4Ipv4MulticastMaximumPrefixAction;
   /**
   * Maximum number of prefixes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile#num_prefixes BgpAddressFamilyProfile#num_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile#num_prefixes BgpAddressFamilyProfile#num_prefixes}
   */
   readonly numPrefixes?: number;
   /**
   * Threshold percentage of the maximum number of prefixes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile#threshold BgpAddressFamilyProfile#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile#threshold BgpAddressFamilyProfile#threshold}
   */
   readonly threshold?: number;
 }
@@ -933,13 +933,13 @@ export interface BgpAddressFamilyProfileIpv4Ipv4MulticastNextHop {
   /**
   * Self
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile#self BgpAddressFamilyProfile#self}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile#self BgpAddressFamilyProfile#self}
   */
   readonly selfAttribute?: BgpAddressFamilyProfileIpv4Ipv4MulticastNextHopSelf;
   /**
   * Self force
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile#self_force BgpAddressFamilyProfile#self_force}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile#self_force BgpAddressFamilyProfile#self_force}
   */
   readonly selfForce?: BgpAddressFamilyProfileIpv4Ipv4MulticastNextHopSelfForce;
 }
@@ -1064,7 +1064,7 @@ export interface BgpAddressFamilyProfileIpv4Ipv4MulticastOrf {
   /**
   * ORF prefix list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile#orf_prefix_list BgpAddressFamilyProfile#orf_prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile#orf_prefix_list BgpAddressFamilyProfile#orf_prefix_list}
   */
   readonly orfPrefixList?: string;
 }
@@ -1156,58 +1156,30 @@ export class BgpAddressFamilyProfileIpv4Ipv4MulticastOrfOutputReference extends 
     return this._orfPrefixList;
   }
 }
-export interface BgpAddressFamilyProfileIpv4Ipv4MulticastRemovePrivateAS {
-  /**
-  * All
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile#all BgpAddressFamilyProfile#all}
-  */
-  readonly all?: string;
-  /**
-  * Replace a s
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile#replace__a_s BgpAddressFamilyProfile#replace__a_s}
-  */
-  readonly replaceAS?: string;
+export interface BgpAddressFamilyProfileIpv4Ipv4MulticastRemovePrivateAsAll {
 }
 
-export function bgpAddressFamilyProfileIpv4Ipv4MulticastRemovePrivateASToTerraform(struct?: BgpAddressFamilyProfileIpv4Ipv4MulticastRemovePrivateAS | cdktf.IResolvable): any {
+export function bgpAddressFamilyProfileIpv4Ipv4MulticastRemovePrivateAsAllToTerraform(struct?: BgpAddressFamilyProfileIpv4Ipv4MulticastRemovePrivateAsAll | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    all: cdktf.stringToTerraform(struct!.all),
-    replace__a_s: cdktf.stringToTerraform(struct!.replaceAS),
   }
 }
 
 
-export function bgpAddressFamilyProfileIpv4Ipv4MulticastRemovePrivateASToHclTerraform(struct?: BgpAddressFamilyProfileIpv4Ipv4MulticastRemovePrivateAS | cdktf.IResolvable): any {
+export function bgpAddressFamilyProfileIpv4Ipv4MulticastRemovePrivateAsAllToHclTerraform(struct?: BgpAddressFamilyProfileIpv4Ipv4MulticastRemovePrivateAsAll | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
-    all: {
-      value: cdktf.stringToHclTerraform(struct!.all),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    replace__a_s: {
-      value: cdktf.stringToHclTerraform(struct!.replaceAS),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
   };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+  return attrs;
 }
 
-export class BgpAddressFamilyProfileIpv4Ipv4MulticastRemovePrivateASOutputReference extends cdktf.ComplexObject {
+export class BgpAddressFamilyProfileIpv4Ipv4MulticastRemovePrivateAsAllOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
   private resolvableValue?: cdktf.IResolvable;
 
@@ -1219,29 +1191,19 @@ export class BgpAddressFamilyProfileIpv4Ipv4MulticastRemovePrivateASOutputRefere
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): BgpAddressFamilyProfileIpv4Ipv4MulticastRemovePrivateAS | cdktf.IResolvable | undefined {
+  public get internalValue(): BgpAddressFamilyProfileIpv4Ipv4MulticastRemovePrivateAsAll | cdktf.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
-    if (this._all !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.all = this._all;
-    }
-    if (this._replaceAS !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.replaceAS = this._replaceAS;
-    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: BgpAddressFamilyProfileIpv4Ipv4MulticastRemovePrivateAS | cdktf.IResolvable | undefined) {
+  public set internalValue(value: BgpAddressFamilyProfileIpv4Ipv4MulticastRemovePrivateAsAll | cdktf.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
-      this._all = undefined;
-      this._replaceAS = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -1250,41 +1212,197 @@ export class BgpAddressFamilyProfileIpv4Ipv4MulticastRemovePrivateASOutputRefere
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
-      this._all = value.all;
-      this._replaceAS = value.replaceAS;
+    }
+  }
+}
+export interface BgpAddressFamilyProfileIpv4Ipv4MulticastRemovePrivateAsReplaceAs {
+}
+
+export function bgpAddressFamilyProfileIpv4Ipv4MulticastRemovePrivateAsReplaceAsToTerraform(struct?: BgpAddressFamilyProfileIpv4Ipv4MulticastRemovePrivateAsReplaceAs | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function bgpAddressFamilyProfileIpv4Ipv4MulticastRemovePrivateAsReplaceAsToHclTerraform(struct?: BgpAddressFamilyProfileIpv4Ipv4MulticastRemovePrivateAsReplaceAs | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class BgpAddressFamilyProfileIpv4Ipv4MulticastRemovePrivateAsReplaceAsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): BgpAddressFamilyProfileIpv4Ipv4MulticastRemovePrivateAsReplaceAs | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: BgpAddressFamilyProfileIpv4Ipv4MulticastRemovePrivateAsReplaceAs | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+    }
+  }
+}
+export interface BgpAddressFamilyProfileIpv4Ipv4MulticastRemovePrivateAs {
+  /**
+  * All
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile#all BgpAddressFamilyProfile#all}
+  */
+  readonly all?: BgpAddressFamilyProfileIpv4Ipv4MulticastRemovePrivateAsAll;
+  /**
+  * Replace a s
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile#replace_as BgpAddressFamilyProfile#replace_as}
+  */
+  readonly replaceAs?: BgpAddressFamilyProfileIpv4Ipv4MulticastRemovePrivateAsReplaceAs;
+}
+
+export function bgpAddressFamilyProfileIpv4Ipv4MulticastRemovePrivateAsToTerraform(struct?: BgpAddressFamilyProfileIpv4Ipv4MulticastRemovePrivateAs | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    all: bgpAddressFamilyProfileIpv4Ipv4MulticastRemovePrivateAsAllToTerraform(struct!.all),
+    replace_as: bgpAddressFamilyProfileIpv4Ipv4MulticastRemovePrivateAsReplaceAsToTerraform(struct!.replaceAs),
+  }
+}
+
+
+export function bgpAddressFamilyProfileIpv4Ipv4MulticastRemovePrivateAsToHclTerraform(struct?: BgpAddressFamilyProfileIpv4Ipv4MulticastRemovePrivateAs | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    all: {
+      value: bgpAddressFamilyProfileIpv4Ipv4MulticastRemovePrivateAsAllToHclTerraform(struct!.all),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "BgpAddressFamilyProfileIpv4Ipv4MulticastRemovePrivateAsAll",
+    },
+    replace_as: {
+      value: bgpAddressFamilyProfileIpv4Ipv4MulticastRemovePrivateAsReplaceAsToHclTerraform(struct!.replaceAs),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "BgpAddressFamilyProfileIpv4Ipv4MulticastRemovePrivateAsReplaceAs",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class BgpAddressFamilyProfileIpv4Ipv4MulticastRemovePrivateAsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): BgpAddressFamilyProfileIpv4Ipv4MulticastRemovePrivateAs | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._all?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.all = this._all?.internalValue;
+    }
+    if (this._replaceAs?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.replaceAs = this._replaceAs?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: BgpAddressFamilyProfileIpv4Ipv4MulticastRemovePrivateAs | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._all.internalValue = undefined;
+      this._replaceAs.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._all.internalValue = value.all;
+      this._replaceAs.internalValue = value.replaceAs;
     }
   }
 
   // all - computed: false, optional: true, required: false
-  private _all?: string; 
+  private _all = new BgpAddressFamilyProfileIpv4Ipv4MulticastRemovePrivateAsAllOutputReference(this, "all");
   public get all() {
-    return this.getStringAttribute('all');
+    return this._all;
   }
-  public set all(value: string) {
-    this._all = value;
+  public putAll(value: BgpAddressFamilyProfileIpv4Ipv4MulticastRemovePrivateAsAll) {
+    this._all.internalValue = value;
   }
   public resetAll() {
-    this._all = undefined;
+    this._all.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get allInput() {
-    return this._all;
+    return this._all.internalValue;
   }
 
-  // replace__a_s - computed: false, optional: true, required: false
-  private _replaceAS?: string; 
-  public get replaceAS() {
-    return this.getStringAttribute('replace__a_s');
+  // replace_as - computed: false, optional: true, required: false
+  private _replaceAs = new BgpAddressFamilyProfileIpv4Ipv4MulticastRemovePrivateAsReplaceAsOutputReference(this, "replace_as");
+  public get replaceAs() {
+    return this._replaceAs;
   }
-  public set replaceAS(value: string) {
-    this._replaceAS = value;
+  public putReplaceAs(value: BgpAddressFamilyProfileIpv4Ipv4MulticastRemovePrivateAsReplaceAs) {
+    this._replaceAs.internalValue = value;
   }
-  public resetReplaceAS() {
-    this._replaceAS = undefined;
+  public resetReplaceAs() {
+    this._replaceAs.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get replaceASInput() {
-    return this._replaceAS;
+  public get replaceAsInput() {
+    return this._replaceAs.internalValue;
   }
 }
 export interface BgpAddressFamilyProfileIpv4Ipv4MulticastSendCommunityAll {
@@ -1586,31 +1704,31 @@ export interface BgpAddressFamilyProfileIpv4Ipv4MulticastSendCommunity {
   /**
   * All
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile#all BgpAddressFamilyProfile#all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile#all BgpAddressFamilyProfile#all}
   */
   readonly all?: BgpAddressFamilyProfileIpv4Ipv4MulticastSendCommunityAll;
   /**
   * Both
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile#both BgpAddressFamilyProfile#both}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile#both BgpAddressFamilyProfile#both}
   */
   readonly both?: BgpAddressFamilyProfileIpv4Ipv4MulticastSendCommunityBoth;
   /**
   * Extended
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile#extended BgpAddressFamilyProfile#extended}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile#extended BgpAddressFamilyProfile#extended}
   */
   readonly extended?: BgpAddressFamilyProfileIpv4Ipv4MulticastSendCommunityExtended;
   /**
   * Large
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile#large BgpAddressFamilyProfile#large}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile#large BgpAddressFamilyProfile#large}
   */
   readonly large?: BgpAddressFamilyProfileIpv4Ipv4MulticastSendCommunityLarge;
   /**
   * Standard
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile#standard BgpAddressFamilyProfile#standard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile#standard BgpAddressFamilyProfile#standard}
   */
   readonly standard?: BgpAddressFamilyProfileIpv4Ipv4MulticastSendCommunityStandard;
 }
@@ -1822,79 +1940,79 @@ export interface BgpAddressFamilyProfileIpv4Ipv4Multicast {
   /**
   * Add path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile#add_path BgpAddressFamilyProfile#add_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile#add_path BgpAddressFamilyProfile#add_path}
   */
   readonly addPath?: BgpAddressFamilyProfileIpv4Ipv4MulticastAddPath;
   /**
   * Allowas in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile#allowas_in BgpAddressFamilyProfile#allowas_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile#allowas_in BgpAddressFamilyProfile#allowas_in}
   */
   readonly allowasIn?: BgpAddressFamilyProfileIpv4Ipv4MulticastAllowasIn;
   /**
   * Override ASNs in outbound updates if AS-Path equals Remote-AS?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile#as_override BgpAddressFamilyProfile#as_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile#as_override BgpAddressFamilyProfile#as_override}
   */
   readonly asOverride?: boolean | cdktf.IResolvable;
   /**
   * Originate default route?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile#default_originate BgpAddressFamilyProfile#default_originate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile#default_originate BgpAddressFamilyProfile#default_originate}
   */
   readonly defaultOriginate?: boolean | cdktf.IResolvable;
   /**
   * Default originate route map
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile#default_originate_map BgpAddressFamilyProfile#default_originate_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile#default_originate_map BgpAddressFamilyProfile#default_originate_map}
   */
   readonly defaultOriginateMap?: string;
   /**
   * Enable?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile#enable BgpAddressFamilyProfile#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile#enable BgpAddressFamilyProfile#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Maximum prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile#maximum_prefix BgpAddressFamilyProfile#maximum_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile#maximum_prefix BgpAddressFamilyProfile#maximum_prefix}
   */
   readonly maximumPrefix?: BgpAddressFamilyProfileIpv4Ipv4MulticastMaximumPrefix;
   /**
   * Next hop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile#next_hop BgpAddressFamilyProfile#next_hop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile#next_hop BgpAddressFamilyProfile#next_hop}
   */
   readonly nextHop?: BgpAddressFamilyProfileIpv4Ipv4MulticastNextHop;
   /**
   * Orf
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile#orf BgpAddressFamilyProfile#orf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile#orf BgpAddressFamilyProfile#orf}
   */
   readonly orf?: BgpAddressFamilyProfileIpv4Ipv4MulticastOrf;
   /**
   * Remove private a s
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile#remove_private__a_s BgpAddressFamilyProfile#remove_private__a_s}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile#remove_private_as BgpAddressFamilyProfile#remove_private_as}
   */
-  readonly removePrivateAS?: BgpAddressFamilyProfileIpv4Ipv4MulticastRemovePrivateAS;
+  readonly removePrivateAs?: BgpAddressFamilyProfileIpv4Ipv4MulticastRemovePrivateAs;
   /**
   * Route reflector client?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile#route_reflector_client BgpAddressFamilyProfile#route_reflector_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile#route_reflector_client BgpAddressFamilyProfile#route_reflector_client}
   */
   readonly routeReflectorClient?: boolean | cdktf.IResolvable;
   /**
   * Send community
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile#send_community BgpAddressFamilyProfile#send_community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile#send_community BgpAddressFamilyProfile#send_community}
   */
   readonly sendCommunity?: BgpAddressFamilyProfileIpv4Ipv4MulticastSendCommunity;
   /**
   * Soft reconfiguration of peer with stored routes?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile#soft_reconfig_with_stored_info BgpAddressFamilyProfile#soft_reconfig_with_stored_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile#soft_reconfig_with_stored_info BgpAddressFamilyProfile#soft_reconfig_with_stored_info}
   */
   readonly softReconfigWithStoredInfo?: boolean | cdktf.IResolvable;
 }
@@ -1914,7 +2032,7 @@ export function bgpAddressFamilyProfileIpv4Ipv4MulticastToTerraform(struct?: Bgp
     maximum_prefix: bgpAddressFamilyProfileIpv4Ipv4MulticastMaximumPrefixToTerraform(struct!.maximumPrefix),
     next_hop: bgpAddressFamilyProfileIpv4Ipv4MulticastNextHopToTerraform(struct!.nextHop),
     orf: bgpAddressFamilyProfileIpv4Ipv4MulticastOrfToTerraform(struct!.orf),
-    remove_private__a_s: bgpAddressFamilyProfileIpv4Ipv4MulticastRemovePrivateASToTerraform(struct!.removePrivateAS),
+    remove_private_as: bgpAddressFamilyProfileIpv4Ipv4MulticastRemovePrivateAsToTerraform(struct!.removePrivateAs),
     route_reflector_client: cdktf.booleanToTerraform(struct!.routeReflectorClient),
     send_community: bgpAddressFamilyProfileIpv4Ipv4MulticastSendCommunityToTerraform(struct!.sendCommunity),
     soft_reconfig_with_stored_info: cdktf.booleanToTerraform(struct!.softReconfigWithStoredInfo),
@@ -1982,11 +2100,11 @@ export function bgpAddressFamilyProfileIpv4Ipv4MulticastToHclTerraform(struct?: 
       type: "struct",
       storageClassType: "BgpAddressFamilyProfileIpv4Ipv4MulticastOrf",
     },
-    remove_private__a_s: {
-      value: bgpAddressFamilyProfileIpv4Ipv4MulticastRemovePrivateASToHclTerraform(struct!.removePrivateAS),
+    remove_private_as: {
+      value: bgpAddressFamilyProfileIpv4Ipv4MulticastRemovePrivateAsToHclTerraform(struct!.removePrivateAs),
       isBlock: true,
       type: "struct",
-      storageClassType: "BgpAddressFamilyProfileIpv4Ipv4MulticastRemovePrivateAS",
+      storageClassType: "BgpAddressFamilyProfileIpv4Ipv4MulticastRemovePrivateAs",
     },
     route_reflector_client: {
       value: cdktf.booleanToHclTerraform(struct!.routeReflectorClient),
@@ -2066,9 +2184,9 @@ export class BgpAddressFamilyProfileIpv4Ipv4MulticastOutputReference extends cdk
       hasAnyValues = true;
       internalValueResult.orf = this._orf?.internalValue;
     }
-    if (this._removePrivateAS?.internalValue !== undefined) {
+    if (this._removePrivateAs?.internalValue !== undefined) {
       hasAnyValues = true;
-      internalValueResult.removePrivateAS = this._removePrivateAS?.internalValue;
+      internalValueResult.removePrivateAs = this._removePrivateAs?.internalValue;
     }
     if (this._routeReflectorClient !== undefined) {
       hasAnyValues = true;
@@ -2098,7 +2216,7 @@ export class BgpAddressFamilyProfileIpv4Ipv4MulticastOutputReference extends cdk
       this._maximumPrefix.internalValue = undefined;
       this._nextHop.internalValue = undefined;
       this._orf.internalValue = undefined;
-      this._removePrivateAS.internalValue = undefined;
+      this._removePrivateAs.internalValue = undefined;
       this._routeReflectorClient = undefined;
       this._sendCommunity.internalValue = undefined;
       this._softReconfigWithStoredInfo = undefined;
@@ -2119,7 +2237,7 @@ export class BgpAddressFamilyProfileIpv4Ipv4MulticastOutputReference extends cdk
       this._maximumPrefix.internalValue = value.maximumPrefix;
       this._nextHop.internalValue = value.nextHop;
       this._orf.internalValue = value.orf;
-      this._removePrivateAS.internalValue = value.removePrivateAS;
+      this._removePrivateAs.internalValue = value.removePrivateAs;
       this._routeReflectorClient = value.routeReflectorClient;
       this._sendCommunity.internalValue = value.sendCommunity;
       this._softReconfigWithStoredInfo = value.softReconfigWithStoredInfo;
@@ -2270,20 +2388,20 @@ export class BgpAddressFamilyProfileIpv4Ipv4MulticastOutputReference extends cdk
     return this._orf.internalValue;
   }
 
-  // remove_private__a_s - computed: false, optional: true, required: false
-  private _removePrivateAS = new BgpAddressFamilyProfileIpv4Ipv4MulticastRemovePrivateASOutputReference(this, "remove_private__a_s");
-  public get removePrivateAS() {
-    return this._removePrivateAS;
+  // remove_private_as - computed: false, optional: true, required: false
+  private _removePrivateAs = new BgpAddressFamilyProfileIpv4Ipv4MulticastRemovePrivateAsOutputReference(this, "remove_private_as");
+  public get removePrivateAs() {
+    return this._removePrivateAs;
   }
-  public putRemovePrivateAS(value: BgpAddressFamilyProfileIpv4Ipv4MulticastRemovePrivateAS) {
-    this._removePrivateAS.internalValue = value;
+  public putRemovePrivateAs(value: BgpAddressFamilyProfileIpv4Ipv4MulticastRemovePrivateAs) {
+    this._removePrivateAs.internalValue = value;
   }
-  public resetRemovePrivateAS() {
-    this._removePrivateAS.internalValue = undefined;
+  public resetRemovePrivateAs() {
+    this._removePrivateAs.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get removePrivateASInput() {
-    return this._removePrivateAS.internalValue;
+  public get removePrivateAsInput() {
+    return this._removePrivateAs.internalValue;
   }
 
   // route_reflector_client - computed: false, optional: true, required: false
@@ -2338,15 +2456,15 @@ export interface BgpAddressFamilyProfileIpv4Ipv4UnicastAddPath {
   /**
   * Advertise all paths to peer?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile#tx_all_paths BgpAddressFamilyProfile#tx_all_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile#tx_all_paths BgpAddressFamilyProfile#tx_all_paths}
   */
   readonly txAllPaths?: boolean | cdktf.IResolvable;
   /**
   * Tx bestpath per a s
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile#tx_bestpath_per__a_s BgpAddressFamilyProfile#tx_bestpath_per__a_s}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile#tx_bestpath_per_as BgpAddressFamilyProfile#tx_bestpath_per_as}
   */
-  readonly txBestpathPerAS?: boolean | cdktf.IResolvable;
+  readonly txBestpathPerAs?: boolean | cdktf.IResolvable;
 }
 
 export function bgpAddressFamilyProfileIpv4Ipv4UnicastAddPathToTerraform(struct?: BgpAddressFamilyProfileIpv4Ipv4UnicastAddPath | cdktf.IResolvable): any {
@@ -2356,7 +2474,7 @@ export function bgpAddressFamilyProfileIpv4Ipv4UnicastAddPathToTerraform(struct?
   }
   return {
     tx_all_paths: cdktf.booleanToTerraform(struct!.txAllPaths),
-    tx_bestpath_per__a_s: cdktf.booleanToTerraform(struct!.txBestpathPerAS),
+    tx_bestpath_per_as: cdktf.booleanToTerraform(struct!.txBestpathPerAs),
   }
 }
 
@@ -2373,8 +2491,8 @@ export function bgpAddressFamilyProfileIpv4Ipv4UnicastAddPathToHclTerraform(stru
       type: "simple",
       storageClassType: "boolean",
     },
-    tx_bestpath_per__a_s: {
-      value: cdktf.booleanToHclTerraform(struct!.txBestpathPerAS),
+    tx_bestpath_per_as: {
+      value: cdktf.booleanToHclTerraform(struct!.txBestpathPerAs),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -2407,9 +2525,9 @@ export class BgpAddressFamilyProfileIpv4Ipv4UnicastAddPathOutputReference extend
       hasAnyValues = true;
       internalValueResult.txAllPaths = this._txAllPaths;
     }
-    if (this._txBestpathPerAS !== undefined) {
+    if (this._txBestpathPerAs !== undefined) {
       hasAnyValues = true;
-      internalValueResult.txBestpathPerAS = this._txBestpathPerAS;
+      internalValueResult.txBestpathPerAs = this._txBestpathPerAs;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -2419,7 +2537,7 @@ export class BgpAddressFamilyProfileIpv4Ipv4UnicastAddPathOutputReference extend
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._txAllPaths = undefined;
-      this._txBestpathPerAS = undefined;
+      this._txBestpathPerAs = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -2429,7 +2547,7 @@ export class BgpAddressFamilyProfileIpv4Ipv4UnicastAddPathOutputReference extend
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
       this._txAllPaths = value.txAllPaths;
-      this._txBestpathPerAS = value.txBestpathPerAS;
+      this._txBestpathPerAs = value.txBestpathPerAs;
     }
   }
 
@@ -2449,20 +2567,20 @@ export class BgpAddressFamilyProfileIpv4Ipv4UnicastAddPathOutputReference extend
     return this._txAllPaths;
   }
 
-  // tx_bestpath_per__a_s - computed: false, optional: true, required: false
-  private _txBestpathPerAS?: boolean | cdktf.IResolvable; 
-  public get txBestpathPerAS() {
-    return this.getBooleanAttribute('tx_bestpath_per__a_s');
+  // tx_bestpath_per_as - computed: false, optional: true, required: false
+  private _txBestpathPerAs?: boolean | cdktf.IResolvable; 
+  public get txBestpathPerAs() {
+    return this.getBooleanAttribute('tx_bestpath_per_as');
   }
-  public set txBestpathPerAS(value: boolean | cdktf.IResolvable) {
-    this._txBestpathPerAS = value;
+  public set txBestpathPerAs(value: boolean | cdktf.IResolvable) {
+    this._txBestpathPerAs = value;
   }
-  public resetTxBestpathPerAS() {
-    this._txBestpathPerAS = undefined;
+  public resetTxBestpathPerAs() {
+    this._txBestpathPerAs = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get txBestpathPerASInput() {
-    return this._txBestpathPerAS;
+  public get txBestpathPerAsInput() {
+    return this._txBestpathPerAs;
   }
 }
 export interface BgpAddressFamilyProfileIpv4Ipv4UnicastAllowasInOrigin {
@@ -2528,13 +2646,13 @@ export interface BgpAddressFamilyProfileIpv4Ipv4UnicastAllowasIn {
   /**
   * Number of times the firewalls own AS can be in an AS_PATH
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile#occurrence BgpAddressFamilyProfile#occurrence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile#occurrence BgpAddressFamilyProfile#occurrence}
   */
   readonly occurrence?: number;
   /**
   * Origin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile#origin BgpAddressFamilyProfile#origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile#origin BgpAddressFamilyProfile#origin}
   */
   readonly origin?: BgpAddressFamilyProfileIpv4Ipv4UnicastAllowasInOrigin;
 }
@@ -2659,7 +2777,7 @@ export interface BgpAddressFamilyProfileIpv4Ipv4UnicastMaximumPrefixActionRestar
   /**
   * Restart interval
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile#interval BgpAddressFamilyProfile#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile#interval BgpAddressFamilyProfile#interval}
   */
   readonly interval?: number;
 }
@@ -2814,13 +2932,13 @@ export interface BgpAddressFamilyProfileIpv4Ipv4UnicastMaximumPrefixAction {
   /**
   * Restart
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile#restart BgpAddressFamilyProfile#restart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile#restart BgpAddressFamilyProfile#restart}
   */
   readonly restart?: BgpAddressFamilyProfileIpv4Ipv4UnicastMaximumPrefixActionRestart;
   /**
   * Warning only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile#warning_only BgpAddressFamilyProfile#warning_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile#warning_only BgpAddressFamilyProfile#warning_only}
   */
   readonly warningOnly?: BgpAddressFamilyProfileIpv4Ipv4UnicastMaximumPrefixActionWarningOnly;
 }
@@ -2945,19 +3063,19 @@ export interface BgpAddressFamilyProfileIpv4Ipv4UnicastMaximumPrefix {
   /**
   * Action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile#action BgpAddressFamilyProfile#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile#action BgpAddressFamilyProfile#action}
   */
   readonly action?: BgpAddressFamilyProfileIpv4Ipv4UnicastMaximumPrefixAction;
   /**
   * Maximum number of prefixes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile#num_prefixes BgpAddressFamilyProfile#num_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile#num_prefixes BgpAddressFamilyProfile#num_prefixes}
   */
   readonly numPrefixes?: number;
   /**
   * Threshold percentage of the maximum number of prefixes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile#threshold BgpAddressFamilyProfile#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile#threshold BgpAddressFamilyProfile#threshold}
   */
   readonly threshold?: number;
 }
@@ -3229,13 +3347,13 @@ export interface BgpAddressFamilyProfileIpv4Ipv4UnicastNextHop {
   /**
   * Self
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile#self BgpAddressFamilyProfile#self}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile#self BgpAddressFamilyProfile#self}
   */
   readonly selfAttribute?: BgpAddressFamilyProfileIpv4Ipv4UnicastNextHopSelf;
   /**
   * Self force
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile#self_force BgpAddressFamilyProfile#self_force}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile#self_force BgpAddressFamilyProfile#self_force}
   */
   readonly selfForce?: BgpAddressFamilyProfileIpv4Ipv4UnicastNextHopSelfForce;
 }
@@ -3360,7 +3478,7 @@ export interface BgpAddressFamilyProfileIpv4Ipv4UnicastOrf {
   /**
   * ORF prefix list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile#orf_prefix_list BgpAddressFamilyProfile#orf_prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile#orf_prefix_list BgpAddressFamilyProfile#orf_prefix_list}
   */
   readonly orfPrefixList?: string;
 }
@@ -3452,58 +3570,30 @@ export class BgpAddressFamilyProfileIpv4Ipv4UnicastOrfOutputReference extends cd
     return this._orfPrefixList;
   }
 }
-export interface BgpAddressFamilyProfileIpv4Ipv4UnicastRemovePrivateAS {
-  /**
-  * All
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile#all BgpAddressFamilyProfile#all}
-  */
-  readonly all?: string;
-  /**
-  * Replace a s
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile#replace__a_s BgpAddressFamilyProfile#replace__a_s}
-  */
-  readonly replaceAS?: string;
+export interface BgpAddressFamilyProfileIpv4Ipv4UnicastRemovePrivateAsAll {
 }
 
-export function bgpAddressFamilyProfileIpv4Ipv4UnicastRemovePrivateASToTerraform(struct?: BgpAddressFamilyProfileIpv4Ipv4UnicastRemovePrivateAS | cdktf.IResolvable): any {
+export function bgpAddressFamilyProfileIpv4Ipv4UnicastRemovePrivateAsAllToTerraform(struct?: BgpAddressFamilyProfileIpv4Ipv4UnicastRemovePrivateAsAll | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    all: cdktf.stringToTerraform(struct!.all),
-    replace__a_s: cdktf.stringToTerraform(struct!.replaceAS),
   }
 }
 
 
-export function bgpAddressFamilyProfileIpv4Ipv4UnicastRemovePrivateASToHclTerraform(struct?: BgpAddressFamilyProfileIpv4Ipv4UnicastRemovePrivateAS | cdktf.IResolvable): any {
+export function bgpAddressFamilyProfileIpv4Ipv4UnicastRemovePrivateAsAllToHclTerraform(struct?: BgpAddressFamilyProfileIpv4Ipv4UnicastRemovePrivateAsAll | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
-    all: {
-      value: cdktf.stringToHclTerraform(struct!.all),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    replace__a_s: {
-      value: cdktf.stringToHclTerraform(struct!.replaceAS),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
   };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+  return attrs;
 }
 
-export class BgpAddressFamilyProfileIpv4Ipv4UnicastRemovePrivateASOutputReference extends cdktf.ComplexObject {
+export class BgpAddressFamilyProfileIpv4Ipv4UnicastRemovePrivateAsAllOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
   private resolvableValue?: cdktf.IResolvable;
 
@@ -3515,29 +3605,19 @@ export class BgpAddressFamilyProfileIpv4Ipv4UnicastRemovePrivateASOutputReferenc
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): BgpAddressFamilyProfileIpv4Ipv4UnicastRemovePrivateAS | cdktf.IResolvable | undefined {
+  public get internalValue(): BgpAddressFamilyProfileIpv4Ipv4UnicastRemovePrivateAsAll | cdktf.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
-    if (this._all !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.all = this._all;
-    }
-    if (this._replaceAS !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.replaceAS = this._replaceAS;
-    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: BgpAddressFamilyProfileIpv4Ipv4UnicastRemovePrivateAS | cdktf.IResolvable | undefined) {
+  public set internalValue(value: BgpAddressFamilyProfileIpv4Ipv4UnicastRemovePrivateAsAll | cdktf.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
-      this._all = undefined;
-      this._replaceAS = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -3546,41 +3626,197 @@ export class BgpAddressFamilyProfileIpv4Ipv4UnicastRemovePrivateASOutputReferenc
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
-      this._all = value.all;
-      this._replaceAS = value.replaceAS;
+    }
+  }
+}
+export interface BgpAddressFamilyProfileIpv4Ipv4UnicastRemovePrivateAsReplaceAs {
+}
+
+export function bgpAddressFamilyProfileIpv4Ipv4UnicastRemovePrivateAsReplaceAsToTerraform(struct?: BgpAddressFamilyProfileIpv4Ipv4UnicastRemovePrivateAsReplaceAs | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function bgpAddressFamilyProfileIpv4Ipv4UnicastRemovePrivateAsReplaceAsToHclTerraform(struct?: BgpAddressFamilyProfileIpv4Ipv4UnicastRemovePrivateAsReplaceAs | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class BgpAddressFamilyProfileIpv4Ipv4UnicastRemovePrivateAsReplaceAsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): BgpAddressFamilyProfileIpv4Ipv4UnicastRemovePrivateAsReplaceAs | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: BgpAddressFamilyProfileIpv4Ipv4UnicastRemovePrivateAsReplaceAs | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+    }
+  }
+}
+export interface BgpAddressFamilyProfileIpv4Ipv4UnicastRemovePrivateAs {
+  /**
+  * All
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile#all BgpAddressFamilyProfile#all}
+  */
+  readonly all?: BgpAddressFamilyProfileIpv4Ipv4UnicastRemovePrivateAsAll;
+  /**
+  * Replace a s
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile#replace_as BgpAddressFamilyProfile#replace_as}
+  */
+  readonly replaceAs?: BgpAddressFamilyProfileIpv4Ipv4UnicastRemovePrivateAsReplaceAs;
+}
+
+export function bgpAddressFamilyProfileIpv4Ipv4UnicastRemovePrivateAsToTerraform(struct?: BgpAddressFamilyProfileIpv4Ipv4UnicastRemovePrivateAs | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    all: bgpAddressFamilyProfileIpv4Ipv4UnicastRemovePrivateAsAllToTerraform(struct!.all),
+    replace_as: bgpAddressFamilyProfileIpv4Ipv4UnicastRemovePrivateAsReplaceAsToTerraform(struct!.replaceAs),
+  }
+}
+
+
+export function bgpAddressFamilyProfileIpv4Ipv4UnicastRemovePrivateAsToHclTerraform(struct?: BgpAddressFamilyProfileIpv4Ipv4UnicastRemovePrivateAs | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    all: {
+      value: bgpAddressFamilyProfileIpv4Ipv4UnicastRemovePrivateAsAllToHclTerraform(struct!.all),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "BgpAddressFamilyProfileIpv4Ipv4UnicastRemovePrivateAsAll",
+    },
+    replace_as: {
+      value: bgpAddressFamilyProfileIpv4Ipv4UnicastRemovePrivateAsReplaceAsToHclTerraform(struct!.replaceAs),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "BgpAddressFamilyProfileIpv4Ipv4UnicastRemovePrivateAsReplaceAs",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class BgpAddressFamilyProfileIpv4Ipv4UnicastRemovePrivateAsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): BgpAddressFamilyProfileIpv4Ipv4UnicastRemovePrivateAs | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._all?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.all = this._all?.internalValue;
+    }
+    if (this._replaceAs?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.replaceAs = this._replaceAs?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: BgpAddressFamilyProfileIpv4Ipv4UnicastRemovePrivateAs | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._all.internalValue = undefined;
+      this._replaceAs.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._all.internalValue = value.all;
+      this._replaceAs.internalValue = value.replaceAs;
     }
   }
 
   // all - computed: false, optional: true, required: false
-  private _all?: string; 
+  private _all = new BgpAddressFamilyProfileIpv4Ipv4UnicastRemovePrivateAsAllOutputReference(this, "all");
   public get all() {
-    return this.getStringAttribute('all');
+    return this._all;
   }
-  public set all(value: string) {
-    this._all = value;
+  public putAll(value: BgpAddressFamilyProfileIpv4Ipv4UnicastRemovePrivateAsAll) {
+    this._all.internalValue = value;
   }
   public resetAll() {
-    this._all = undefined;
+    this._all.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get allInput() {
-    return this._all;
+    return this._all.internalValue;
   }
 
-  // replace__a_s - computed: false, optional: true, required: false
-  private _replaceAS?: string; 
-  public get replaceAS() {
-    return this.getStringAttribute('replace__a_s');
+  // replace_as - computed: false, optional: true, required: false
+  private _replaceAs = new BgpAddressFamilyProfileIpv4Ipv4UnicastRemovePrivateAsReplaceAsOutputReference(this, "replace_as");
+  public get replaceAs() {
+    return this._replaceAs;
   }
-  public set replaceAS(value: string) {
-    this._replaceAS = value;
+  public putReplaceAs(value: BgpAddressFamilyProfileIpv4Ipv4UnicastRemovePrivateAsReplaceAs) {
+    this._replaceAs.internalValue = value;
   }
-  public resetReplaceAS() {
-    this._replaceAS = undefined;
+  public resetReplaceAs() {
+    this._replaceAs.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get replaceASInput() {
-    return this._replaceAS;
+  public get replaceAsInput() {
+    return this._replaceAs.internalValue;
   }
 }
 export interface BgpAddressFamilyProfileIpv4Ipv4UnicastSendCommunityAll {
@@ -3882,31 +4118,31 @@ export interface BgpAddressFamilyProfileIpv4Ipv4UnicastSendCommunity {
   /**
   * All
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile#all BgpAddressFamilyProfile#all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile#all BgpAddressFamilyProfile#all}
   */
   readonly all?: BgpAddressFamilyProfileIpv4Ipv4UnicastSendCommunityAll;
   /**
   * Both
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile#both BgpAddressFamilyProfile#both}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile#both BgpAddressFamilyProfile#both}
   */
   readonly both?: BgpAddressFamilyProfileIpv4Ipv4UnicastSendCommunityBoth;
   /**
   * Extended
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile#extended BgpAddressFamilyProfile#extended}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile#extended BgpAddressFamilyProfile#extended}
   */
   readonly extended?: BgpAddressFamilyProfileIpv4Ipv4UnicastSendCommunityExtended;
   /**
   * Large
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile#large BgpAddressFamilyProfile#large}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile#large BgpAddressFamilyProfile#large}
   */
   readonly large?: BgpAddressFamilyProfileIpv4Ipv4UnicastSendCommunityLarge;
   /**
   * Standard
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile#standard BgpAddressFamilyProfile#standard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile#standard BgpAddressFamilyProfile#standard}
   */
   readonly standard?: BgpAddressFamilyProfileIpv4Ipv4UnicastSendCommunityStandard;
 }
@@ -4118,79 +4354,79 @@ export interface BgpAddressFamilyProfileIpv4Ipv4Unicast {
   /**
   * Add path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile#add_path BgpAddressFamilyProfile#add_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile#add_path BgpAddressFamilyProfile#add_path}
   */
   readonly addPath?: BgpAddressFamilyProfileIpv4Ipv4UnicastAddPath;
   /**
   * Allowas in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile#allowas_in BgpAddressFamilyProfile#allowas_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile#allowas_in BgpAddressFamilyProfile#allowas_in}
   */
   readonly allowasIn?: BgpAddressFamilyProfileIpv4Ipv4UnicastAllowasIn;
   /**
   * Override ASNs in outbound updates if AS-Path equals Remote-AS?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile#as_override BgpAddressFamilyProfile#as_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile#as_override BgpAddressFamilyProfile#as_override}
   */
   readonly asOverride?: boolean | cdktf.IResolvable;
   /**
   * Originate default route?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile#default_originate BgpAddressFamilyProfile#default_originate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile#default_originate BgpAddressFamilyProfile#default_originate}
   */
   readonly defaultOriginate?: boolean | cdktf.IResolvable;
   /**
   * Default originate route map
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile#default_originate_map BgpAddressFamilyProfile#default_originate_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile#default_originate_map BgpAddressFamilyProfile#default_originate_map}
   */
   readonly defaultOriginateMap?: string;
   /**
   * Enable?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile#enable BgpAddressFamilyProfile#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile#enable BgpAddressFamilyProfile#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Maximum prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile#maximum_prefix BgpAddressFamilyProfile#maximum_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile#maximum_prefix BgpAddressFamilyProfile#maximum_prefix}
   */
   readonly maximumPrefix?: BgpAddressFamilyProfileIpv4Ipv4UnicastMaximumPrefix;
   /**
   * Next hop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile#next_hop BgpAddressFamilyProfile#next_hop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile#next_hop BgpAddressFamilyProfile#next_hop}
   */
   readonly nextHop?: BgpAddressFamilyProfileIpv4Ipv4UnicastNextHop;
   /**
   * Orf
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile#orf BgpAddressFamilyProfile#orf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile#orf BgpAddressFamilyProfile#orf}
   */
   readonly orf?: BgpAddressFamilyProfileIpv4Ipv4UnicastOrf;
   /**
   * Remove private a s
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile#remove_private__a_s BgpAddressFamilyProfile#remove_private__a_s}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile#remove_private_as BgpAddressFamilyProfile#remove_private_as}
   */
-  readonly removePrivateAS?: BgpAddressFamilyProfileIpv4Ipv4UnicastRemovePrivateAS;
+  readonly removePrivateAs?: BgpAddressFamilyProfileIpv4Ipv4UnicastRemovePrivateAs;
   /**
   * Route reflector client?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile#route_reflector_client BgpAddressFamilyProfile#route_reflector_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile#route_reflector_client BgpAddressFamilyProfile#route_reflector_client}
   */
   readonly routeReflectorClient?: boolean | cdktf.IResolvable;
   /**
   * Send community
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile#send_community BgpAddressFamilyProfile#send_community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile#send_community BgpAddressFamilyProfile#send_community}
   */
   readonly sendCommunity?: BgpAddressFamilyProfileIpv4Ipv4UnicastSendCommunity;
   /**
   * Soft reconfiguration of peer with stored routes?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile#soft_reconfig_with_stored_info BgpAddressFamilyProfile#soft_reconfig_with_stored_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile#soft_reconfig_with_stored_info BgpAddressFamilyProfile#soft_reconfig_with_stored_info}
   */
   readonly softReconfigWithStoredInfo?: boolean | cdktf.IResolvable;
 }
@@ -4210,7 +4446,7 @@ export function bgpAddressFamilyProfileIpv4Ipv4UnicastToTerraform(struct?: BgpAd
     maximum_prefix: bgpAddressFamilyProfileIpv4Ipv4UnicastMaximumPrefixToTerraform(struct!.maximumPrefix),
     next_hop: bgpAddressFamilyProfileIpv4Ipv4UnicastNextHopToTerraform(struct!.nextHop),
     orf: bgpAddressFamilyProfileIpv4Ipv4UnicastOrfToTerraform(struct!.orf),
-    remove_private__a_s: bgpAddressFamilyProfileIpv4Ipv4UnicastRemovePrivateASToTerraform(struct!.removePrivateAS),
+    remove_private_as: bgpAddressFamilyProfileIpv4Ipv4UnicastRemovePrivateAsToTerraform(struct!.removePrivateAs),
     route_reflector_client: cdktf.booleanToTerraform(struct!.routeReflectorClient),
     send_community: bgpAddressFamilyProfileIpv4Ipv4UnicastSendCommunityToTerraform(struct!.sendCommunity),
     soft_reconfig_with_stored_info: cdktf.booleanToTerraform(struct!.softReconfigWithStoredInfo),
@@ -4278,11 +4514,11 @@ export function bgpAddressFamilyProfileIpv4Ipv4UnicastToHclTerraform(struct?: Bg
       type: "struct",
       storageClassType: "BgpAddressFamilyProfileIpv4Ipv4UnicastOrf",
     },
-    remove_private__a_s: {
-      value: bgpAddressFamilyProfileIpv4Ipv4UnicastRemovePrivateASToHclTerraform(struct!.removePrivateAS),
+    remove_private_as: {
+      value: bgpAddressFamilyProfileIpv4Ipv4UnicastRemovePrivateAsToHclTerraform(struct!.removePrivateAs),
       isBlock: true,
       type: "struct",
-      storageClassType: "BgpAddressFamilyProfileIpv4Ipv4UnicastRemovePrivateAS",
+      storageClassType: "BgpAddressFamilyProfileIpv4Ipv4UnicastRemovePrivateAs",
     },
     route_reflector_client: {
       value: cdktf.booleanToHclTerraform(struct!.routeReflectorClient),
@@ -4362,9 +4598,9 @@ export class BgpAddressFamilyProfileIpv4Ipv4UnicastOutputReference extends cdktf
       hasAnyValues = true;
       internalValueResult.orf = this._orf?.internalValue;
     }
-    if (this._removePrivateAS?.internalValue !== undefined) {
+    if (this._removePrivateAs?.internalValue !== undefined) {
       hasAnyValues = true;
-      internalValueResult.removePrivateAS = this._removePrivateAS?.internalValue;
+      internalValueResult.removePrivateAs = this._removePrivateAs?.internalValue;
     }
     if (this._routeReflectorClient !== undefined) {
       hasAnyValues = true;
@@ -4394,7 +4630,7 @@ export class BgpAddressFamilyProfileIpv4Ipv4UnicastOutputReference extends cdktf
       this._maximumPrefix.internalValue = undefined;
       this._nextHop.internalValue = undefined;
       this._orf.internalValue = undefined;
-      this._removePrivateAS.internalValue = undefined;
+      this._removePrivateAs.internalValue = undefined;
       this._routeReflectorClient = undefined;
       this._sendCommunity.internalValue = undefined;
       this._softReconfigWithStoredInfo = undefined;
@@ -4415,7 +4651,7 @@ export class BgpAddressFamilyProfileIpv4Ipv4UnicastOutputReference extends cdktf
       this._maximumPrefix.internalValue = value.maximumPrefix;
       this._nextHop.internalValue = value.nextHop;
       this._orf.internalValue = value.orf;
-      this._removePrivateAS.internalValue = value.removePrivateAS;
+      this._removePrivateAs.internalValue = value.removePrivateAs;
       this._routeReflectorClient = value.routeReflectorClient;
       this._sendCommunity.internalValue = value.sendCommunity;
       this._softReconfigWithStoredInfo = value.softReconfigWithStoredInfo;
@@ -4566,20 +4802,20 @@ export class BgpAddressFamilyProfileIpv4Ipv4UnicastOutputReference extends cdktf
     return this._orf.internalValue;
   }
 
-  // remove_private__a_s - computed: false, optional: true, required: false
-  private _removePrivateAS = new BgpAddressFamilyProfileIpv4Ipv4UnicastRemovePrivateASOutputReference(this, "remove_private__a_s");
-  public get removePrivateAS() {
-    return this._removePrivateAS;
+  // remove_private_as - computed: false, optional: true, required: false
+  private _removePrivateAs = new BgpAddressFamilyProfileIpv4Ipv4UnicastRemovePrivateAsOutputReference(this, "remove_private_as");
+  public get removePrivateAs() {
+    return this._removePrivateAs;
   }
-  public putRemovePrivateAS(value: BgpAddressFamilyProfileIpv4Ipv4UnicastRemovePrivateAS) {
-    this._removePrivateAS.internalValue = value;
+  public putRemovePrivateAs(value: BgpAddressFamilyProfileIpv4Ipv4UnicastRemovePrivateAs) {
+    this._removePrivateAs.internalValue = value;
   }
-  public resetRemovePrivateAS() {
-    this._removePrivateAS.internalValue = undefined;
+  public resetRemovePrivateAs() {
+    this._removePrivateAs.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get removePrivateASInput() {
-    return this._removePrivateAS.internalValue;
+  public get removePrivateAsInput() {
+    return this._removePrivateAs.internalValue;
   }
 
   // route_reflector_client - computed: false, optional: true, required: false
@@ -4634,13 +4870,13 @@ export interface BgpAddressFamilyProfileIpv4Ipv4 {
   /**
   * Multicast
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile#multicast BgpAddressFamilyProfile#multicast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile#multicast BgpAddressFamilyProfile#multicast}
   */
   readonly multicast?: BgpAddressFamilyProfileIpv4Ipv4Multicast;
   /**
   * Unicast
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile#unicast BgpAddressFamilyProfile#unicast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile#unicast BgpAddressFamilyProfile#unicast}
   */
   readonly unicast?: BgpAddressFamilyProfileIpv4Ipv4Unicast;
 }
@@ -4765,7 +5001,7 @@ export interface BgpAddressFamilyProfileIpv4 {
   /**
   * Ipv4
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile#ipv4 BgpAddressFamilyProfile#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile#ipv4 BgpAddressFamilyProfile#ipv4}
   */
   readonly ipv4: BgpAddressFamilyProfileIpv4Ipv4;
 }
@@ -4856,7 +5092,7 @@ export class BgpAddressFamilyProfileIpv4OutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile scm_bgp_address_family_profile}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile scm_bgp_address_family_profile}
 */
 export class BgpAddressFamilyProfile extends cdktf.TerraformResource {
 
@@ -4872,7 +5108,7 @@ export class BgpAddressFamilyProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BgpAddressFamilyProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BgpAddressFamilyProfile to import
-  * @param importFromId The id of the existing BgpAddressFamilyProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BgpAddressFamilyProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BgpAddressFamilyProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4884,7 +5120,7 @@ export class BgpAddressFamilyProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_address_family_profile scm_bgp_address_family_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_address_family_profile scm_bgp_address_family_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4895,7 +5131,8 @@ export class BgpAddressFamilyProfile extends cdktf.TerraformResource {
       terraformResourceType: 'scm_bgp_address_family_profile',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.3'
+        providerVersion: '1.0.4',
+        providerVersionConstraint: '1.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

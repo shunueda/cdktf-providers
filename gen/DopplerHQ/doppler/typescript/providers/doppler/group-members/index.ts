@@ -68,7 +68,8 @@ export class GroupMembers extends cdktf.TerraformResource {
       terraformResourceType: 'doppler_group_members',
       terraformGeneratorMetadata: {
         providerName: 'doppler',
-        providerVersion: '1.21.0'
+        providerVersion: '1.21.0',
+        providerVersionConstraint: '1.21.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

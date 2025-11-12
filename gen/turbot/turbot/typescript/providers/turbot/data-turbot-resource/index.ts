@@ -60,7 +60,8 @@ export class DataTurbotResource extends cdktf.TerraformDataSource {
       terraformResourceType: 'turbot_resource',
       terraformGeneratorMetadata: {
         providerName: 'turbot',
-        providerVersion: '1.13.0'
+        providerVersion: '1.13.0',
+        providerVersionConstraint: '1.13.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -61,7 +61,8 @@ export class ClusterWait extends cdktf.TerraformResource {
       terraformResourceType: 'rhcs_cluster_wait',
       terraformGeneratorMetadata: {
         providerName: 'rhcs',
-        providerVersion: '1.7.2'
+        providerVersion: '1.7.2',
+        providerVersionConstraint: '1.7.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

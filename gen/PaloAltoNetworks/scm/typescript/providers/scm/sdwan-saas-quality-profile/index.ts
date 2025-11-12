@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/sdwan_saas_quality_profile
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/sdwan_saas_quality_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface SdwanSaasQualityProfileConfig extends cdktf.TerraformMetaArgume
   /**
   * The device in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/sdwan_saas_quality_profile#device SdwanSaasQualityProfile#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/sdwan_saas_quality_profile#device SdwanSaasQualityProfile#device}
   */
   readonly device?: string;
   /**
   * The folder in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/sdwan_saas_quality_profile#folder SdwanSaasQualityProfile#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/sdwan_saas_quality_profile#folder SdwanSaasQualityProfile#folder}
   */
   readonly folder?: string;
   /**
   * Monitor mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/sdwan_saas_quality_profile#monitor_mode SdwanSaasQualityProfile#monitor_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/sdwan_saas_quality_profile#monitor_mode SdwanSaasQualityProfile#monitor_mode}
   */
   readonly monitorMode: SdwanSaasQualityProfileMonitorMode;
   /**
   * Profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/sdwan_saas_quality_profile#name SdwanSaasQualityProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/sdwan_saas_quality_profile#name SdwanSaasQualityProfile#name}
   */
   readonly name: string;
   /**
   * The snippet in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/sdwan_saas_quality_profile#snippet SdwanSaasQualityProfile#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/sdwan_saas_quality_profile#snippet SdwanSaasQualityProfile#snippet}
   */
   readonly snippet?: string;
 }
@@ -101,13 +101,13 @@ export interface SdwanSaasQualityProfileMonitorModeHttpHttps {
   /**
   * Monitored URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/sdwan_saas_quality_profile#monitored_url SdwanSaasQualityProfile#monitored_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/sdwan_saas_quality_profile#monitored_url SdwanSaasQualityProfile#monitored_url}
   */
   readonly monitoredUrl: string;
   /**
   * Probe interval (seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/sdwan_saas_quality_profile#probe_interval SdwanSaasQualityProfile#probe_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/sdwan_saas_quality_profile#probe_interval SdwanSaasQualityProfile#probe_interval}
   */
   readonly probeInterval: number;
 }
@@ -226,13 +226,13 @@ export interface SdwanSaasQualityProfileMonitorModeStaticIpFqdn {
   /**
   * FQDN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/sdwan_saas_quality_profile#fqdn_name SdwanSaasQualityProfile#fqdn_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/sdwan_saas_quality_profile#fqdn_name SdwanSaasQualityProfile#fqdn_name}
   */
   readonly fqdnName: string;
   /**
   * Probe interval (seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/sdwan_saas_quality_profile#probe_interval SdwanSaasQualityProfile#probe_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/sdwan_saas_quality_profile#probe_interval SdwanSaasQualityProfile#probe_interval}
   */
   readonly probeInterval: number;
 }
@@ -351,13 +351,13 @@ export interface SdwanSaasQualityProfileMonitorModeStaticIpIpAddress {
   /**
   * IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/sdwan_saas_quality_profile#name SdwanSaasQualityProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/sdwan_saas_quality_profile#name SdwanSaasQualityProfile#name}
   */
   readonly name: string;
   /**
   * Probe interval (seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/sdwan_saas_quality_profile#probe_interval SdwanSaasQualityProfile#probe_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/sdwan_saas_quality_profile#probe_interval SdwanSaasQualityProfile#probe_interval}
   */
   readonly probeInterval: number;
 }
@@ -498,13 +498,13 @@ export interface SdwanSaasQualityProfileMonitorModeStaticIp {
   /**
   * Fqdn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/sdwan_saas_quality_profile#fqdn SdwanSaasQualityProfile#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/sdwan_saas_quality_profile#fqdn SdwanSaasQualityProfile#fqdn}
   */
   readonly fqdn?: SdwanSaasQualityProfileMonitorModeStaticIpFqdn;
   /**
   * List of IP addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/sdwan_saas_quality_profile#ip_address SdwanSaasQualityProfile#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/sdwan_saas_quality_profile#ip_address SdwanSaasQualityProfile#ip_address}
   */
   readonly ipAddress?: SdwanSaasQualityProfileMonitorModeStaticIpIpAddress[] | cdktf.IResolvable;
 }
@@ -629,19 +629,19 @@ export interface SdwanSaasQualityProfileMonitorMode {
   /**
   * Adaptive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/sdwan_saas_quality_profile#adaptive SdwanSaasQualityProfile#adaptive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/sdwan_saas_quality_profile#adaptive SdwanSaasQualityProfile#adaptive}
   */
   readonly adaptive?: SdwanSaasQualityProfileMonitorModeAdaptive;
   /**
   * Http https
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/sdwan_saas_quality_profile#http_https SdwanSaasQualityProfile#http_https}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/sdwan_saas_quality_profile#http_https SdwanSaasQualityProfile#http_https}
   */
   readonly httpHttps?: SdwanSaasQualityProfileMonitorModeHttpHttps;
   /**
   * Static ip
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/sdwan_saas_quality_profile#static_ip SdwanSaasQualityProfile#static_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/sdwan_saas_quality_profile#static_ip SdwanSaasQualityProfile#static_ip}
   */
   readonly staticIp?: SdwanSaasQualityProfileMonitorModeStaticIp;
 }
@@ -793,7 +793,7 @@ export class SdwanSaasQualityProfileMonitorModeOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/sdwan_saas_quality_profile scm_sdwan_saas_quality_profile}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/sdwan_saas_quality_profile scm_sdwan_saas_quality_profile}
 */
 export class SdwanSaasQualityProfile extends cdktf.TerraformResource {
 
@@ -809,7 +809,7 @@ export class SdwanSaasQualityProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SdwanSaasQualityProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SdwanSaasQualityProfile to import
-  * @param importFromId The id of the existing SdwanSaasQualityProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/sdwan_saas_quality_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SdwanSaasQualityProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/sdwan_saas_quality_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SdwanSaasQualityProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -821,7 +821,7 @@ export class SdwanSaasQualityProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/sdwan_saas_quality_profile scm_sdwan_saas_quality_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/sdwan_saas_quality_profile scm_sdwan_saas_quality_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -832,7 +832,8 @@ export class SdwanSaasQualityProfile extends cdktf.TerraformResource {
       terraformResourceType: 'scm_sdwan_saas_quality_profile',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.3'
+        providerVersion: '1.0.4',
+        providerVersionConstraint: '1.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

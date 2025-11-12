@@ -382,7 +382,8 @@ export class DataNetaddrRangeKeyspaceIpv4 extends cdktf.TerraformDataSource {
       terraformResourceType: 'netaddr_range_keyspace_ipv4',
       terraformGeneratorMetadata: {
         providerName: 'netaddr',
-        providerVersion: '0.5.1'
+        providerVersion: '0.5.1',
+        providerVersionConstraint: '0.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

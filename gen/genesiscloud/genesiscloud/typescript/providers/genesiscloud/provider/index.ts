@@ -74,7 +74,8 @@ export class GenesiscloudProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'genesiscloud',
       terraformGeneratorMetadata: {
         providerName: 'genesiscloud',
-        providerVersion: '1.1.14'
+        providerVersion: '1.1.14',
+        providerVersionConstraint: '1.1.14'
       },
       terraformProviderSource: 'genesiscloud/genesiscloud'
     });

@@ -95,7 +95,8 @@ export class BgpPeerAddressFamilyPrefixListControl extends cdktf.TerraformResour
       terraformResourceType: 'nxos_bgp_peer_address_family_prefix_list_control',
       terraformGeneratorMetadata: {
         providerName: 'nxos',
-        providerVersion: '0.5.10'
+        providerVersion: '0.5.10',
+        providerVersionConstraint: '0.5.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

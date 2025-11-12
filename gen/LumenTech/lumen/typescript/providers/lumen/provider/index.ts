@@ -73,7 +73,8 @@ export class LumenProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'lumen',
       terraformGeneratorMetadata: {
         providerName: 'lumen',
-        providerVersion: '3.0.0'
+        providerVersion: '3.0.0',
+        providerVersionConstraint: '3.0.0'
       },
       terraformProviderSource: 'LumenTech/lumen'
     });

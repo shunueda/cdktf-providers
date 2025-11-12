@@ -62,7 +62,8 @@ export class DataCoderWorkspaceTags extends cdktf.TerraformDataSource {
       terraformResourceType: 'coder_workspace_tags',
       terraformGeneratorMetadata: {
         providerName: 'coder',
-        providerVersion: '2.13.1'
+        providerVersion: '2.13.1',
+        providerVersionConstraint: '2.13.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

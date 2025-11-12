@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/metal_bgp_session
+// https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/metal_bgp_session
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface MetalBgpSessionConfig extends cdktf.TerraformMetaArguments {
   /**
   * ipv4 or ipv6
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/metal_bgp_session#address_family MetalBgpSession#address_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/metal_bgp_session#address_family MetalBgpSession#address_family}
   */
   readonly addressFamily: string;
   /**
   * Boolean flag to set the default route policy. False by default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/metal_bgp_session#default_route MetalBgpSession#default_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/metal_bgp_session#default_route MetalBgpSession#default_route}
   */
   readonly defaultRoute?: boolean | cdktf.IResolvable;
   /**
   * ID of device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/metal_bgp_session#device_id MetalBgpSession#device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/metal_bgp_session#device_id MetalBgpSession#device_id}
   */
   readonly deviceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/metal_bgp_session#id MetalBgpSession#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/metal_bgp_session#id MetalBgpSession#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,7 +35,7 @@ export interface MetalBgpSessionConfig extends cdktf.TerraformMetaArguments {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/metal_bgp_session equinix_metal_bgp_session}
+* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/metal_bgp_session equinix_metal_bgp_session}
 */
 export class MetalBgpSession extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class MetalBgpSession extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MetalBgpSession resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MetalBgpSession to import
-  * @param importFromId The id of the existing MetalBgpSession that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/metal_bgp_session#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MetalBgpSession that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/metal_bgp_session#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MetalBgpSession to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class MetalBgpSession extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/metal_bgp_session equinix_metal_bgp_session} Resource
+  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/metal_bgp_session equinix_metal_bgp_session} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,7 +74,8 @@ export class MetalBgpSession extends cdktf.TerraformResource {
       terraformResourceType: 'equinix_metal_bgp_session',
       terraformGeneratorMetadata: {
         providerName: 'equinix',
-        providerVersion: '4.8.0'
+        providerVersion: '4.10.0',
+        providerVersionConstraint: '4.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

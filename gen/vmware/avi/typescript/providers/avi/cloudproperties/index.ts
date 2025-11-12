@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties
+// https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,52 +8,52 @@ import * as cdktf from 'cdktf';
 
 export interface CloudpropertiesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#cc_vtypes Cloudproperties#cc_vtypes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#cc_vtypes Cloudproperties#cc_vtypes}
   */
   readonly ccVtypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#id Cloudproperties#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#id Cloudproperties#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#uuid Cloudproperties#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#uuid Cloudproperties#uuid}
   */
   readonly uuid?: string;
   /**
   * cc_props block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#cc_props Cloudproperties#cc_props}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#cc_props Cloudproperties#cc_props}
   */
   readonly ccProps?: CloudpropertiesCcProps[] | cdktf.IResolvable;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#configpb_attributes Cloudproperties#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#configpb_attributes Cloudproperties#configpb_attributes}
   */
   readonly configpbAttributes?: CloudpropertiesConfigpbAttributes[] | cdktf.IResolvable;
   /**
   * hyp_props block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#hyp_props Cloudproperties#hyp_props}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#hyp_props Cloudproperties#hyp_props}
   */
   readonly hypProps?: CloudpropertiesHypProps[] | cdktf.IResolvable;
   /**
   * info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#info Cloudproperties#info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#info Cloudproperties#info}
   */
   readonly info?: CloudpropertiesInfo[] | cdktf.IResolvable;
 }
 export interface CloudpropertiesCcProps {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#rpc_poll_interval Cloudproperties#rpc_poll_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#rpc_poll_interval Cloudproperties#rpc_poll_interval}
   */
   readonly rpcPollInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#rpc_queue_size Cloudproperties#rpc_queue_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#rpc_queue_size Cloudproperties#rpc_queue_size}
   */
   readonly rpcQueueSize?: string;
 }
@@ -198,7 +198,7 @@ export class CloudpropertiesCcPropsList extends cdktf.ComplexList {
 }
 export interface CloudpropertiesConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#version Cloudproperties#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#version Cloudproperties#version}
   */
   readonly version?: string;
 }
@@ -314,15 +314,15 @@ export class CloudpropertiesConfigpbAttributesList extends cdktf.ComplexList {
 }
 export interface CloudpropertiesHypProps {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#htype Cloudproperties#htype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#htype Cloudproperties#htype}
   */
   readonly htype: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#max_ips_per_nic Cloudproperties#max_ips_per_nic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#max_ips_per_nic Cloudproperties#max_ips_per_nic}
   */
   readonly maxIpsPerNic?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#max_nics Cloudproperties#max_nics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#max_nics Cloudproperties#max_nics}
   */
   readonly maxNics?: string;
 }
@@ -493,47 +493,47 @@ export class CloudpropertiesHypPropsList extends cdktf.ComplexList {
 }
 export interface CloudpropertiesInfoCcaProps {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#async_retries Cloudproperties#async_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#async_retries Cloudproperties#async_retries}
   */
   readonly asyncRetries?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#async_retries_delay Cloudproperties#async_retries_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#async_retries_delay Cloudproperties#async_retries_delay}
   */
   readonly asyncRetriesDelay?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#poll_duration_target Cloudproperties#poll_duration_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#poll_duration_target Cloudproperties#poll_duration_target}
   */
   readonly pollDurationTarget?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#poll_fast_target Cloudproperties#poll_fast_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#poll_fast_target Cloudproperties#poll_fast_target}
   */
   readonly pollFastTarget?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#poll_slow_target Cloudproperties#poll_slow_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#poll_slow_target Cloudproperties#poll_slow_target}
   */
   readonly pollSlowTarget?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#vcenter_host_ping_interval Cloudproperties#vcenter_host_ping_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#vcenter_host_ping_interval Cloudproperties#vcenter_host_ping_interval}
   */
   readonly vcenterHostPingInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#vcenter_inventory_max_object_updates Cloudproperties#vcenter_inventory_max_object_updates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#vcenter_inventory_max_object_updates Cloudproperties#vcenter_inventory_max_object_updates}
   */
   readonly vcenterInventoryMaxObjectUpdates?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#vcenter_max_datastore_go_routines Cloudproperties#vcenter_max_datastore_go_routines}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#vcenter_max_datastore_go_routines Cloudproperties#vcenter_max_datastore_go_routines}
   */
   readonly vcenterMaxDatastoreGoRoutines?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#vcenter_reconcile_interval Cloudproperties#vcenter_reconcile_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#vcenter_reconcile_interval Cloudproperties#vcenter_reconcile_interval}
   */
   readonly vcenterReconcileInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#vnic_retries Cloudproperties#vnic_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#vnic_retries Cloudproperties#vnic_retries}
   */
   readonly vnicRetries?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#vnic_retries_delay Cloudproperties#vnic_retries_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#vnic_retries_delay Cloudproperties#vnic_retries_delay}
   */
   readonly vnicRetriesDelay?: string;
 }
@@ -939,7 +939,7 @@ export class CloudpropertiesInfoCcaPropsList extends cdktf.ComplexList {
 }
 export interface CloudpropertiesInfoControllerPropsConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#version Cloudproperties#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#version Cloudproperties#version}
   */
   readonly version?: string;
 }
@@ -1055,19 +1055,19 @@ export class CloudpropertiesInfoControllerPropsConfigpbAttributesList extends cd
 }
 export interface CloudpropertiesInfoControllerPropsFalsePositiveLearningConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#max_apps_supported Cloudproperties#max_apps_supported}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#max_apps_supported Cloudproperties#max_apps_supported}
   */
   readonly maxAppsSupported?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#min_monitor_time Cloudproperties#min_monitor_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#min_monitor_time Cloudproperties#min_monitor_time}
   */
   readonly minMonitorTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#min_trans_per_application Cloudproperties#min_trans_per_application}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#min_trans_per_application Cloudproperties#min_trans_per_application}
   */
   readonly minTransPerApplication?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#min_trans_per_uri Cloudproperties#min_trans_per_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#min_trans_per_uri Cloudproperties#min_trans_per_uri}
   */
   readonly minTransPerUri?: string;
 }
@@ -1268,489 +1268,57 @@ export class CloudpropertiesInfoControllerPropsFalsePositiveLearningConfigList e
     return new CloudpropertiesInfoControllerPropsFalsePositiveLearningConfigOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
-export interface CloudpropertiesInfoControllerPropsStatecachePropertiesDelayInjections {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#delay_create Cloudproperties#delay_create}
-  */
-  readonly delayCreate?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#delay_delete Cloudproperties#delay_delete}
-  */
-  readonly delayDelete?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#delay_update Cloudproperties#delay_update}
-  */
-  readonly delayUpdate?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#fault_type Cloudproperties#fault_type}
-  */
-  readonly faultType?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#obj Cloudproperties#obj}
-  */
-  readonly obj?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#object_type Cloudproperties#object_type}
-  */
-  readonly objectType?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#se Cloudproperties#se}
-  */
-  readonly se?: string;
-}
-
-export function cloudpropertiesInfoControllerPropsStatecachePropertiesDelayInjectionsToTerraform(struct?: CloudpropertiesInfoControllerPropsStatecachePropertiesDelayInjections | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    delay_create: cdktf.stringToTerraform(struct!.delayCreate),
-    delay_delete: cdktf.stringToTerraform(struct!.delayDelete),
-    delay_update: cdktf.stringToTerraform(struct!.delayUpdate),
-    fault_type: cdktf.stringToTerraform(struct!.faultType),
-    obj: cdktf.stringToTerraform(struct!.obj),
-    object_type: cdktf.stringToTerraform(struct!.objectType),
-    se: cdktf.stringToTerraform(struct!.se),
-  }
-}
-
-
-export function cloudpropertiesInfoControllerPropsStatecachePropertiesDelayInjectionsToHclTerraform(struct?: CloudpropertiesInfoControllerPropsStatecachePropertiesDelayInjections | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    delay_create: {
-      value: cdktf.stringToHclTerraform(struct!.delayCreate),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    delay_delete: {
-      value: cdktf.stringToHclTerraform(struct!.delayDelete),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    delay_update: {
-      value: cdktf.stringToHclTerraform(struct!.delayUpdate),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    fault_type: {
-      value: cdktf.stringToHclTerraform(struct!.faultType),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    obj: {
-      value: cdktf.stringToHclTerraform(struct!.obj),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    object_type: {
-      value: cdktf.stringToHclTerraform(struct!.objectType),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    se: {
-      value: cdktf.stringToHclTerraform(struct!.se),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class CloudpropertiesInfoControllerPropsStatecachePropertiesDelayInjectionsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): CloudpropertiesInfoControllerPropsStatecachePropertiesDelayInjections | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._delayCreate !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.delayCreate = this._delayCreate;
-    }
-    if (this._delayDelete !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.delayDelete = this._delayDelete;
-    }
-    if (this._delayUpdate !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.delayUpdate = this._delayUpdate;
-    }
-    if (this._faultType !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.faultType = this._faultType;
-    }
-    if (this._obj !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.obj = this._obj;
-    }
-    if (this._objectType !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.objectType = this._objectType;
-    }
-    if (this._se !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.se = this._se;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: CloudpropertiesInfoControllerPropsStatecachePropertiesDelayInjections | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._delayCreate = undefined;
-      this._delayDelete = undefined;
-      this._delayUpdate = undefined;
-      this._faultType = undefined;
-      this._obj = undefined;
-      this._objectType = undefined;
-      this._se = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._delayCreate = value.delayCreate;
-      this._delayDelete = value.delayDelete;
-      this._delayUpdate = value.delayUpdate;
-      this._faultType = value.faultType;
-      this._obj = value.obj;
-      this._objectType = value.objectType;
-      this._se = value.se;
-    }
-  }
-
-  // delay_create - computed: true, optional: true, required: false
-  private _delayCreate?: string; 
-  public get delayCreate() {
-    return this.getStringAttribute('delay_create');
-  }
-  public set delayCreate(value: string) {
-    this._delayCreate = value;
-  }
-  public resetDelayCreate() {
-    this._delayCreate = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get delayCreateInput() {
-    return this._delayCreate;
-  }
-
-  // delay_delete - computed: true, optional: true, required: false
-  private _delayDelete?: string; 
-  public get delayDelete() {
-    return this.getStringAttribute('delay_delete');
-  }
-  public set delayDelete(value: string) {
-    this._delayDelete = value;
-  }
-  public resetDelayDelete() {
-    this._delayDelete = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get delayDeleteInput() {
-    return this._delayDelete;
-  }
-
-  // delay_update - computed: true, optional: true, required: false
-  private _delayUpdate?: string; 
-  public get delayUpdate() {
-    return this.getStringAttribute('delay_update');
-  }
-  public set delayUpdate(value: string) {
-    this._delayUpdate = value;
-  }
-  public resetDelayUpdate() {
-    this._delayUpdate = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get delayUpdateInput() {
-    return this._delayUpdate;
-  }
-
-  // fault_type - computed: true, optional: true, required: false
-  private _faultType?: string; 
-  public get faultType() {
-    return this.getStringAttribute('fault_type');
-  }
-  public set faultType(value: string) {
-    this._faultType = value;
-  }
-  public resetFaultType() {
-    this._faultType = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get faultTypeInput() {
-    return this._faultType;
-  }
-
-  // obj - computed: true, optional: true, required: false
-  private _obj?: string; 
-  public get obj() {
-    return this.getStringAttribute('obj');
-  }
-  public set obj(value: string) {
-    this._obj = value;
-  }
-  public resetObj() {
-    this._obj = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get objInput() {
-    return this._obj;
-  }
-
-  // object_type - computed: true, optional: true, required: false
-  private _objectType?: string; 
-  public get objectType() {
-    return this.getStringAttribute('object_type');
-  }
-  public set objectType(value: string) {
-    this._objectType = value;
-  }
-  public resetObjectType() {
-    this._objectType = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get objectTypeInput() {
-    return this._objectType;
-  }
-
-  // se - computed: true, optional: true, required: false
-  private _se?: string; 
-  public get se() {
-    return this.getStringAttribute('se');
-  }
-  public set se(value: string) {
-    this._se = value;
-  }
-  public resetSe() {
-    this._se = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get seInput() {
-    return this._se;
-  }
-}
-
-export class CloudpropertiesInfoControllerPropsStatecachePropertiesDelayInjectionsList extends cdktf.ComplexList {
-  public internalValue? : CloudpropertiesInfoControllerPropsStatecachePropertiesDelayInjections[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): CloudpropertiesInfoControllerPropsStatecachePropertiesDelayInjectionsOutputReference {
-    return new CloudpropertiesInfoControllerPropsStatecachePropertiesDelayInjectionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface CloudpropertiesInfoControllerPropsStatecacheProperties {
-  /**
-  * delay_injections block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#delay_injections Cloudproperties#delay_injections}
-  */
-  readonly delayInjections?: CloudpropertiesInfoControllerPropsStatecachePropertiesDelayInjections[] | cdktf.IResolvable;
-}
-
-export function cloudpropertiesInfoControllerPropsStatecachePropertiesToTerraform(struct?: CloudpropertiesInfoControllerPropsStatecacheProperties | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    delay_injections: cdktf.listMapper(cloudpropertiesInfoControllerPropsStatecachePropertiesDelayInjectionsToTerraform, true)(struct!.delayInjections),
-  }
-}
-
-
-export function cloudpropertiesInfoControllerPropsStatecachePropertiesToHclTerraform(struct?: CloudpropertiesInfoControllerPropsStatecacheProperties | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    delay_injections: {
-      value: cdktf.listMapperHcl(cloudpropertiesInfoControllerPropsStatecachePropertiesDelayInjectionsToHclTerraform, true)(struct!.delayInjections),
-      isBlock: true,
-      type: "list",
-      storageClassType: "CloudpropertiesInfoControllerPropsStatecachePropertiesDelayInjectionsList",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class CloudpropertiesInfoControllerPropsStatecachePropertiesOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): CloudpropertiesInfoControllerPropsStatecacheProperties | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._delayInjections?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.delayInjections = this._delayInjections?.internalValue;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: CloudpropertiesInfoControllerPropsStatecacheProperties | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._delayInjections.internalValue = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._delayInjections.internalValue = value.delayInjections;
-    }
-  }
-
-  // delay_injections - computed: false, optional: true, required: false
-  private _delayInjections = new CloudpropertiesInfoControllerPropsStatecachePropertiesDelayInjectionsList(this, "delay_injections", false);
-  public get delayInjections() {
-    return this._delayInjections;
-  }
-  public putDelayInjections(value: CloudpropertiesInfoControllerPropsStatecachePropertiesDelayInjections[] | cdktf.IResolvable) {
-    this._delayInjections.internalValue = value;
-  }
-  public resetDelayInjections() {
-    this._delayInjections.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get delayInjectionsInput() {
-    return this._delayInjections.internalValue;
-  }
-}
-
-export class CloudpropertiesInfoControllerPropsStatecachePropertiesList extends cdktf.ComplexList {
-  public internalValue? : CloudpropertiesInfoControllerPropsStatecacheProperties[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): CloudpropertiesInfoControllerPropsStatecachePropertiesOutputReference {
-    return new CloudpropertiesInfoControllerPropsStatecachePropertiesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
 export interface CloudpropertiesInfoControllerPropsUserAgentCacheConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#batch_size Cloudproperties#batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#batch_size Cloudproperties#batch_size}
   */
   readonly batchSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#controller_cache_size Cloudproperties#controller_cache_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#controller_cache_size Cloudproperties#controller_cache_size}
   */
   readonly controllerCacheSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#max_age Cloudproperties#max_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#max_age Cloudproperties#max_age}
   */
   readonly maxAge?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#max_last_hit_time Cloudproperties#max_last_hit_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#max_last_hit_time Cloudproperties#max_last_hit_time}
   */
   readonly maxLastHitTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#max_upstream_queries Cloudproperties#max_upstream_queries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#max_upstream_queries Cloudproperties#max_upstream_queries}
   */
   readonly maxUpstreamQueries?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#max_wait_time Cloudproperties#max_wait_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#max_wait_time Cloudproperties#max_wait_time}
   */
   readonly maxWaitTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#num_entries_upstream_update Cloudproperties#num_entries_upstream_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#num_entries_upstream_update Cloudproperties#num_entries_upstream_update}
   */
   readonly numEntriesUpstreamUpdate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#percent_reserved_for_bad_bots Cloudproperties#percent_reserved_for_bad_bots}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#percent_reserved_for_bad_bots Cloudproperties#percent_reserved_for_bad_bots}
   */
   readonly percentReservedForBadBots?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#percent_reserved_for_browsers Cloudproperties#percent_reserved_for_browsers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#percent_reserved_for_browsers Cloudproperties#percent_reserved_for_browsers}
   */
   readonly percentReservedForBrowsers?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#percent_reserved_for_good_bots Cloudproperties#percent_reserved_for_good_bots}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#percent_reserved_for_good_bots Cloudproperties#percent_reserved_for_good_bots}
   */
   readonly percentReservedForGoodBots?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#percent_reserved_for_outstanding Cloudproperties#percent_reserved_for_outstanding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#percent_reserved_for_outstanding Cloudproperties#percent_reserved_for_outstanding}
   */
   readonly percentReservedForOutstanding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#se_cache_size Cloudproperties#se_cache_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#se_cache_size Cloudproperties#se_cache_size}
   */
   readonly seCacheSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#upstream_update_interval Cloudproperties#upstream_update_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#upstream_update_interval Cloudproperties#upstream_update_interval}
   */
   readonly upstreamUpdateInterval?: string;
 }
@@ -2214,443 +1782,461 @@ export class CloudpropertiesInfoControllerPropsUserAgentCacheConfigList extends 
 }
 export interface CloudpropertiesInfoControllerProps {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#alert_manager_use_evms Cloudproperties#alert_manager_use_evms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#alert_manager_use_evms Cloudproperties#alert_manager_use_evms}
   */
   readonly alertManagerUseEvms?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#allow_admin_network_updates Cloudproperties#allow_admin_network_updates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#allow_admin_network_updates Cloudproperties#allow_admin_network_updates}
   */
   readonly allowAdminNetworkUpdates?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#allow_ip_forwarding Cloudproperties#allow_ip_forwarding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#allow_ip_forwarding Cloudproperties#allow_ip_forwarding}
   */
   readonly allowIpForwarding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#allow_unauthenticated_apis Cloudproperties#allow_unauthenticated_apis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#allow_unauthenticated_apis Cloudproperties#allow_unauthenticated_apis}
   */
   readonly allowUnauthenticatedApis?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#allow_unauthenticated_nodes Cloudproperties#allow_unauthenticated_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#allow_unauthenticated_nodes Cloudproperties#allow_unauthenticated_nodes}
   */
   readonly allowUnauthenticatedNodes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#api_idle_timeout Cloudproperties#api_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#api_idle_timeout Cloudproperties#api_idle_timeout}
   */
   readonly apiIdleTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#api_perf_logging_threshold Cloudproperties#api_perf_logging_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#api_perf_logging_threshold Cloudproperties#api_perf_logging_threshold}
   */
   readonly apiPerfLoggingThreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#appviewx_compat_mode Cloudproperties#appviewx_compat_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#appviewx_compat_mode Cloudproperties#appviewx_compat_mode}
   */
   readonly appviewxCompatMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#archive_retention_framework_period Cloudproperties#archive_retention_framework_period}
-  */
-  readonly archiveRetentionFrameworkPeriod?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#async_patch_merge_period Cloudproperties#async_patch_merge_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#async_patch_merge_period Cloudproperties#async_patch_merge_period}
   */
   readonly asyncPatchMergePeriod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#async_patch_request_cleanup_duration Cloudproperties#async_patch_request_cleanup_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#async_patch_request_cleanup_duration Cloudproperties#async_patch_request_cleanup_duration}
   */
   readonly asyncPatchRequestCleanupDuration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#attach_ip_retry_interval Cloudproperties#attach_ip_retry_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#attach_ip_retry_interval Cloudproperties#attach_ip_retry_interval}
   */
   readonly attachIpRetryInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#attach_ip_retry_limit Cloudproperties#attach_ip_retry_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#attach_ip_retry_limit Cloudproperties#attach_ip_retry_limit}
   */
   readonly attachIpRetryLimit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#bm_use_ansible Cloudproperties#bm_use_ansible}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#bm_use_ansible Cloudproperties#bm_use_ansible}
   */
   readonly bmUseAnsible?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#check_vsvip_fqdn_syntax Cloudproperties#check_vsvip_fqdn_syntax}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#check_vsvip_fqdn_syntax Cloudproperties#check_vsvip_fqdn_syntax}
   */
   readonly checkVsvipFqdnSyntax?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#cleanup_expired_authtoken_timeout_period Cloudproperties#cleanup_expired_authtoken_timeout_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#cleanup_expired_authtoken_timeout_period Cloudproperties#cleanup_expired_authtoken_timeout_period}
   */
   readonly cleanupExpiredAuthtokenTimeoutPeriod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#cleanup_sessions_timeout_period Cloudproperties#cleanup_sessions_timeout_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#cleanup_sessions_timeout_period Cloudproperties#cleanup_sessions_timeout_period}
   */
   readonly cleanupSessionsTimeoutPeriod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#cloud_discovery_interval Cloudproperties#cloud_discovery_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#cloud_discovery_interval Cloudproperties#cloud_discovery_interval}
   */
   readonly cloudDiscoveryInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#cloud_reconcile Cloudproperties#cloud_reconcile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#cloud_reconcile Cloudproperties#cloud_reconcile}
   */
   readonly cloudReconcile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#cloud_reconcile_interval Cloudproperties#cloud_reconcile_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#cloud_reconcile_interval Cloudproperties#cloud_reconcile_interval}
   */
   readonly cloudReconcileInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#cluster_ip_gratuitous_arp_period Cloudproperties#cluster_ip_gratuitous_arp_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#cluster_ip_gratuitous_arp_period Cloudproperties#cluster_ip_gratuitous_arp_period}
   */
   readonly clusterIpGratuitousArpPeriod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#consistency_check_timeout_period Cloudproperties#consistency_check_timeout_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#consistency_check_timeout_period Cloudproperties#consistency_check_timeout_period}
   */
   readonly consistencyCheckTimeoutPeriod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#controller_resource_info_collection_period Cloudproperties#controller_resource_info_collection_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#controller_resource_info_collection_period Cloudproperties#controller_resource_info_collection_period}
   */
   readonly controllerResourceInfoCollectionPeriod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#crashed_se_reboot Cloudproperties#crashed_se_reboot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#crashed_se_reboot Cloudproperties#crashed_se_reboot}
   */
   readonly crashedSeReboot?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#dead_se_detection_timer Cloudproperties#dead_se_detection_timer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#dead_se_detection_timer Cloudproperties#dead_se_detection_timer}
   */
   readonly deadSeDetectionTimer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#default_minimum_api_timeout Cloudproperties#default_minimum_api_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#default_minimum_api_timeout Cloudproperties#default_minimum_api_timeout}
   */
   readonly defaultMinimumApiTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#del_offline_se_after_reboot_delay Cloudproperties#del_offline_se_after_reboot_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#del_offline_se_after_reboot_delay Cloudproperties#del_offline_se_after_reboot_delay}
   */
   readonly delOfflineSeAfterRebootDelay?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#detach_ip_retry_interval Cloudproperties#detach_ip_retry_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#detach_ip_retry_interval Cloudproperties#detach_ip_retry_interval}
   */
   readonly detachIpRetryInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#detach_ip_retry_limit Cloudproperties#detach_ip_retry_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#detach_ip_retry_limit Cloudproperties#detach_ip_retry_limit}
   */
   readonly detachIpRetryLimit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#detach_ip_timeout Cloudproperties#detach_ip_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#detach_ip_timeout Cloudproperties#detach_ip_timeout}
   */
   readonly detachIpTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#dns_refresh_period Cloudproperties#dns_refresh_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#dns_refresh_period Cloudproperties#dns_refresh_period}
   */
   readonly dnsRefreshPeriod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#dummy Cloudproperties#dummy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#dummy Cloudproperties#dummy}
   */
   readonly dummy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#edit_system_limits Cloudproperties#edit_system_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#edit_system_limits Cloudproperties#edit_system_limits}
   */
   readonly editSystemLimits?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#enable_api_sharding Cloudproperties#enable_api_sharding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#enable_api_sharding Cloudproperties#enable_api_sharding}
   */
   readonly enableApiSharding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#enable_memory_balancer Cloudproperties#enable_memory_balancer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#enable_memory_balancer Cloudproperties#enable_memory_balancer}
   */
   readonly enableMemoryBalancer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#enable_nsx_streaming_agent Cloudproperties#enable_nsx_streaming_agent}
-  */
-  readonly enableNsxStreamingAgent?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#enable_per_process_stop Cloudproperties#enable_per_process_stop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#enable_per_process_stop Cloudproperties#enable_per_process_stop}
   */
   readonly enablePerProcessStop?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#enable_resmgr_log_cache_print Cloudproperties#enable_resmgr_log_cache_print}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#enable_resmgr_log_cache_print Cloudproperties#enable_resmgr_log_cache_print}
   */
   readonly enableResmgrLogCachePrint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#event_manager_max_goroutines Cloudproperties#event_manager_max_goroutines}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#event_manager_max_goroutines Cloudproperties#event_manager_max_goroutines}
   */
   readonly eventManagerMaxGoroutines?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#event_manager_max_subscribers Cloudproperties#event_manager_max_subscribers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#event_manager_max_subscribers Cloudproperties#event_manager_max_subscribers}
   */
   readonly eventManagerMaxSubscribers?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#event_manager_processing_time_threshold Cloudproperties#event_manager_processing_time_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#event_manager_processing_time_threshold Cloudproperties#event_manager_processing_time_threshold}
   */
   readonly eventManagerProcessingTimeThreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#fatal_error_lease_time Cloudproperties#fatal_error_lease_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#fatal_error_lease_time Cloudproperties#fatal_error_lease_time}
   */
   readonly fatalErrorLeaseTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#federated_datastore_cleanup_duration Cloudproperties#federated_datastore_cleanup_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#federated_datastore_cleanup_duration Cloudproperties#federated_datastore_cleanup_duration}
   */
   readonly federatedDatastoreCleanupDuration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#file_object_cleanup_period Cloudproperties#file_object_cleanup_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#file_object_cleanup_period Cloudproperties#file_object_cleanup_period}
   */
   readonly fileObjectCleanupPeriod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#fileobject_max_file_versions Cloudproperties#fileobject_max_file_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#fileobject_max_file_versions Cloudproperties#fileobject_max_file_versions}
   */
   readonly fileobjectMaxFileVersions?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#gslb_fileobject_max_version_count Cloudproperties#gslb_fileobject_max_version_count}
-  */
-  readonly gslbFileobjectMaxVersionCount?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#gslb_purge_batch_size Cloudproperties#gslb_purge_batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#gslb_purge_batch_size Cloudproperties#gslb_purge_batch_size}
   */
   readonly gslbPurgeBatchSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#gslb_purge_sleep_time_ms Cloudproperties#gslb_purge_sleep_time_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#gslb_purge_sleep_time_ms Cloudproperties#gslb_purge_sleep_time_ms}
   */
   readonly gslbPurgeSleepTimeMs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#ignore_vrf_in_networksubnetlist Cloudproperties#ignore_vrf_in_networksubnetlist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#ignore_vrf_in_networksubnetlist Cloudproperties#ignore_vrf_in_networksubnetlist}
   */
   readonly ignoreVrfInNetworksubnetlist?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#max_dead_se_in_grp Cloudproperties#max_dead_se_in_grp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#max_dead_se_in_grp Cloudproperties#max_dead_se_in_grp}
   */
   readonly maxDeadSeInGrp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#max_pcap_per_tenant Cloudproperties#max_pcap_per_tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#max_pcap_per_tenant Cloudproperties#max_pcap_per_tenant}
   */
   readonly maxPcapPerTenant?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#max_se_spawn_interval_delay Cloudproperties#max_se_spawn_interval_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#max_se_spawn_interval_delay Cloudproperties#max_se_spawn_interval_delay}
   */
   readonly maxSeSpawnIntervalDelay?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#max_seq_attach_ip_failures Cloudproperties#max_seq_attach_ip_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#max_seq_attach_ip_failures Cloudproperties#max_seq_attach_ip_failures}
   */
   readonly maxSeqAttachIpFailures?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#max_seq_vnic_failures Cloudproperties#max_seq_vnic_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#max_seq_vnic_failures Cloudproperties#max_seq_vnic_failures}
   */
   readonly maxSeqVnicFailures?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#max_threads_cc_vip_bg_worker Cloudproperties#max_threads_cc_vip_bg_worker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#max_threads_cc_vip_bg_worker Cloudproperties#max_threads_cc_vip_bg_worker}
   */
   readonly maxThreadsCcVipBgWorker?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#permission_scoped_shared_admin_networks Cloudproperties#permission_scoped_shared_admin_networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#permission_scoped_shared_admin_networks Cloudproperties#permission_scoped_shared_admin_networks}
   */
   readonly permissionScopedSharedAdminNetworks?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#persistence_key_rotate_period Cloudproperties#persistence_key_rotate_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#persistence_key_rotate_period Cloudproperties#persistence_key_rotate_period}
   */
   readonly persistenceKeyRotatePeriod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#portal_request_burst_limit Cloudproperties#portal_request_burst_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#portal_request_burst_limit Cloudproperties#portal_request_burst_limit}
   */
   readonly portalRequestBurstLimit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#portal_request_rate_limit Cloudproperties#portal_request_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#portal_request_rate_limit Cloudproperties#portal_request_rate_limit}
   */
   readonly portalRequestRateLimit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#portal_token Cloudproperties#portal_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#portal_token Cloudproperties#portal_token}
   */
   readonly portalToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#postgres_vacuum_period Cloudproperties#postgres_vacuum_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#postgres_vacuum_period Cloudproperties#postgres_vacuum_period}
   */
   readonly postgresVacuumPeriod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#process_locked_useraccounts_timeout_period Cloudproperties#process_locked_useraccounts_timeout_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#process_locked_useraccounts_timeout_period Cloudproperties#process_locked_useraccounts_timeout_period}
   */
   readonly processLockedUseraccountsTimeoutPeriod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#process_pki_profile_timeout_period Cloudproperties#process_pki_profile_timeout_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#process_pki_profile_timeout_period Cloudproperties#process_pki_profile_timeout_period}
   */
   readonly processPkiProfileTimeoutPeriod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#query_host_fail Cloudproperties#query_host_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#query_host_fail Cloudproperties#query_host_fail}
   */
   readonly queryHostFail?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#resmgr_log_caching_period Cloudproperties#resmgr_log_caching_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#resmgr_log_caching_period Cloudproperties#resmgr_log_caching_period}
   */
   readonly resmgrLogCachingPeriod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#restrict_cloud_read_access Cloudproperties#restrict_cloud_read_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#restrict_cloud_read_access Cloudproperties#restrict_cloud_read_access}
   */
   readonly restrictCloudReadAccess?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#safenet_hsm_version Cloudproperties#safenet_hsm_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#safenet_hsm_version Cloudproperties#safenet_hsm_version}
   */
   readonly safenetHsmVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#se_create_timeout Cloudproperties#se_create_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#se_create_timeout Cloudproperties#se_create_timeout}
   */
   readonly seCreateTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#se_failover_attempt_interval Cloudproperties#se_failover_attempt_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#se_failover_attempt_interval Cloudproperties#se_failover_attempt_interval}
   */
   readonly seFailoverAttemptInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#se_from_marketplace Cloudproperties#se_from_marketplace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#se_from_marketplace Cloudproperties#se_from_marketplace}
   */
   readonly seFromMarketplace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#se_offline_del Cloudproperties#se_offline_del}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#se_offline_del Cloudproperties#se_offline_del}
   */
   readonly seOfflineDel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#se_spawn_retry_interval Cloudproperties#se_spawn_retry_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#se_spawn_retry_interval Cloudproperties#se_spawn_retry_interval}
   */
   readonly seSpawnRetryInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#se_upgrade_flow_cleanup_timeout Cloudproperties#se_upgrade_flow_cleanup_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#se_upgrade_flow_cleanup_timeout Cloudproperties#se_upgrade_flow_cleanup_timeout}
   */
   readonly seUpgradeFlowCleanupTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#se_vnic_cooldown Cloudproperties#se_vnic_cooldown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#se_vnic_cooldown Cloudproperties#se_vnic_cooldown}
   */
   readonly seVnicCooldown?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#se_vnic_gc_wait_time Cloudproperties#se_vnic_gc_wait_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#se_vnic_gc_wait_time Cloudproperties#se_vnic_gc_wait_time}
   */
   readonly seVnicGcWaitTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#secure_channel_cleanup_timeout Cloudproperties#secure_channel_cleanup_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#secure_channel_cleanup_timeout Cloudproperties#secure_channel_cleanup_timeout}
   */
   readonly secureChannelCleanupTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#secure_channel_controller_token_timeout Cloudproperties#secure_channel_controller_token_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#secure_channel_controller_token_timeout Cloudproperties#secure_channel_controller_token_timeout}
   */
   readonly secureChannelControllerTokenTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#secure_channel_se_token_timeout Cloudproperties#secure_channel_se_token_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#secure_channel_se_token_timeout Cloudproperties#secure_channel_se_token_timeout}
   */
   readonly secureChannelSeTokenTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#shared_ssl_certificates Cloudproperties#shared_ssl_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#seupgrade_copy_buffer_size Cloudproperties#seupgrade_copy_buffer_size}
+  */
+  readonly seupgradeCopyBufferSize?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#seupgrade_copy_pool_size Cloudproperties#seupgrade_copy_pool_size}
+  */
+  readonly seupgradeCopyPoolSize?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#seupgrade_fabric_pool_size Cloudproperties#seupgrade_fabric_pool_size}
+  */
+  readonly seupgradeFabricPoolSize?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#seupgrade_segroup_min_dead_timeout Cloudproperties#seupgrade_segroup_min_dead_timeout}
+  */
+  readonly seupgradeSegroupMinDeadTimeout?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#shared_ssl_certificates Cloudproperties#shared_ssl_certificates}
   */
   readonly sharedSslCertificates?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#skip_beego_perf_collection Cloudproperties#skip_beego_perf_collection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#skopeo_retry_interval Cloudproperties#skopeo_retry_interval}
   */
-  readonly skipBeegoPerfCollection?: string;
+  readonly skopeoRetryInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#soft_min_mem_per_se_limit Cloudproperties#soft_min_mem_per_se_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#skopeo_retry_limit Cloudproperties#skopeo_retry_limit}
+  */
+  readonly skopeoRetryLimit?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#soft_min_mem_per_se_limit Cloudproperties#soft_min_mem_per_se_limit}
   */
   readonly softMinMemPerSeLimit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#ssl_certificate_expiry_warning_days Cloudproperties#ssl_certificate_expiry_warning_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#ssl_certificate_expiry_warning_days Cloudproperties#ssl_certificate_expiry_warning_days}
   */
   readonly sslCertificateExpiryWarningDays?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#unresponsive_se_reboot Cloudproperties#unresponsive_se_reboot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#system_report_cleanup_interval Cloudproperties#system_report_cleanup_interval}
+  */
+  readonly systemReportCleanupInterval?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#system_report_limit Cloudproperties#system_report_limit}
+  */
+  readonly systemReportLimit?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#unresponsive_se_reboot Cloudproperties#unresponsive_se_reboot}
   */
   readonly unresponsiveSeReboot?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#update_dns_entry_retry_limit Cloudproperties#update_dns_entry_retry_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#update_dns_entry_retry_limit Cloudproperties#update_dns_entry_retry_limit}
   */
   readonly updateDnsEntryRetryLimit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#update_dns_entry_timeout Cloudproperties#update_dns_entry_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#update_dns_entry_timeout Cloudproperties#update_dns_entry_timeout}
   */
   readonly updateDnsEntryTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#upgrade_dns_ttl Cloudproperties#upgrade_dns_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#upgrade_dns_ttl Cloudproperties#upgrade_dns_ttl}
   */
   readonly upgradeDnsTtl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#upgrade_se_per_vs_scale_ops_txn_time Cloudproperties#upgrade_se_per_vs_scale_ops_txn_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#upgrade_fat_se_lease_time Cloudproperties#upgrade_fat_se_lease_time}
+  */
+  readonly upgradeFatSeLeaseTime?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#upgrade_lease_time Cloudproperties#upgrade_lease_time}
+  */
+  readonly upgradeLeaseTime?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#upgrade_se_per_vs_scale_ops_txn_time Cloudproperties#upgrade_se_per_vs_scale_ops_txn_time}
   */
   readonly upgradeSePerVsScaleOpsTxnTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#uuid Cloudproperties#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#uuid Cloudproperties#uuid}
   */
   readonly uuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#vnic_op_fail_time Cloudproperties#vnic_op_fail_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#vnic_op_fail_time Cloudproperties#vnic_op_fail_time}
   */
   readonly vnicOpFailTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#vs_awaiting_se_timeout Cloudproperties#vs_awaiting_se_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#vs_awaiting_se_timeout Cloudproperties#vs_awaiting_se_timeout}
   */
   readonly vsAwaitingSeTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#vs_key_rotate_period Cloudproperties#vs_key_rotate_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#vs_key_rotate_period Cloudproperties#vs_key_rotate_period}
   */
   readonly vsKeyRotatePeriod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#vs_scaleout_ready_check_interval Cloudproperties#vs_scaleout_ready_check_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#vs_scaleout_ready_check_interval Cloudproperties#vs_scaleout_ready_check_interval}
   */
   readonly vsScaleoutReadyCheckInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#vs_se_attach_ip_fail Cloudproperties#vs_se_attach_ip_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#vs_se_attach_ip_fail Cloudproperties#vs_se_attach_ip_fail}
   */
   readonly vsSeAttachIpFail?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#vs_se_bootup_fail Cloudproperties#vs_se_bootup_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#vs_se_bootup_fail Cloudproperties#vs_se_bootup_fail}
   */
   readonly vsSeBootupFail?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#vs_se_bootup_fail_patch Cloudproperties#vs_se_bootup_fail_patch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#vs_se_bootup_fail_patch Cloudproperties#vs_se_bootup_fail_patch}
   */
   readonly vsSeBootupFailPatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#vs_se_create_fail Cloudproperties#vs_se_create_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#vs_se_create_fail Cloudproperties#vs_se_create_fail}
   */
   readonly vsSeCreateFail?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#vs_se_ping_fail Cloudproperties#vs_se_ping_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#vs_se_ping_fail Cloudproperties#vs_se_ping_fail}
   */
   readonly vsSePingFail?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#vs_se_vnic_fail Cloudproperties#vs_se_vnic_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#vs_se_vnic_fail Cloudproperties#vs_se_vnic_fail}
   */
   readonly vsSeVnicFail?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#vs_se_vnic_ip_fail Cloudproperties#vs_se_vnic_ip_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#vs_se_vnic_ip_fail Cloudproperties#vs_se_vnic_ip_fail}
   */
   readonly vsSeVnicIpFail?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#vsphere_ha_detection_timeout Cloudproperties#vsphere_ha_detection_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#vsphere_ha_detection_timeout Cloudproperties#vsphere_ha_detection_timeout}
   */
   readonly vsphereHaDetectionTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#vsphere_ha_recovery_timeout Cloudproperties#vsphere_ha_recovery_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#vsphere_ha_recovery_timeout Cloudproperties#vsphere_ha_recovery_timeout}
   */
   readonly vsphereHaRecoveryTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#vsphere_ha_timer_interval Cloudproperties#vsphere_ha_timer_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#vsphere_ha_timer_interval Cloudproperties#vsphere_ha_timer_interval}
   */
   readonly vsphereHaTimerInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#warmstart_se_reconnect_wait_time Cloudproperties#warmstart_se_reconnect_wait_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#warmstart_se_reconnect_wait_time Cloudproperties#warmstart_se_reconnect_wait_time}
   */
   readonly warmstartSeReconnectWaitTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#warmstart_vs_resync_wait_time Cloudproperties#warmstart_vs_resync_wait_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#warmstart_vs_resync_wait_time Cloudproperties#warmstart_vs_resync_wait_time}
   */
   readonly warmstartVsResyncWaitTime?: string;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#configpb_attributes Cloudproperties#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#configpb_attributes Cloudproperties#configpb_attributes}
   */
   readonly configpbAttributes?: CloudpropertiesInfoControllerPropsConfigpbAttributes[] | cdktf.IResolvable;
   /**
   * false_positive_learning_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#false_positive_learning_config Cloudproperties#false_positive_learning_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#false_positive_learning_config Cloudproperties#false_positive_learning_config}
   */
   readonly falsePositiveLearningConfig?: CloudpropertiesInfoControllerPropsFalsePositiveLearningConfig[] | cdktf.IResolvable;
   /**
-  * statecache_properties block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#statecache_properties Cloudproperties#statecache_properties}
-  */
-  readonly statecacheProperties?: CloudpropertiesInfoControllerPropsStatecacheProperties[] | cdktf.IResolvable;
-  /**
   * user_agent_cache_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#user_agent_cache_config Cloudproperties#user_agent_cache_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#user_agent_cache_config Cloudproperties#user_agent_cache_config}
   */
   readonly userAgentCacheConfig?: CloudpropertiesInfoControllerPropsUserAgentCacheConfig[] | cdktf.IResolvable;
 }
@@ -2669,7 +2255,6 @@ export function cloudpropertiesInfoControllerPropsToTerraform(struct?: Cloudprop
     api_idle_timeout: cdktf.stringToTerraform(struct!.apiIdleTimeout),
     api_perf_logging_threshold: cdktf.stringToTerraform(struct!.apiPerfLoggingThreshold),
     appviewx_compat_mode: cdktf.stringToTerraform(struct!.appviewxCompatMode),
-    archive_retention_framework_period: cdktf.stringToTerraform(struct!.archiveRetentionFrameworkPeriod),
     async_patch_merge_period: cdktf.stringToTerraform(struct!.asyncPatchMergePeriod),
     async_patch_request_cleanup_duration: cdktf.stringToTerraform(struct!.asyncPatchRequestCleanupDuration),
     attach_ip_retry_interval: cdktf.stringToTerraform(struct!.attachIpRetryInterval),
@@ -2696,7 +2281,6 @@ export function cloudpropertiesInfoControllerPropsToTerraform(struct?: Cloudprop
     edit_system_limits: cdktf.stringToTerraform(struct!.editSystemLimits),
     enable_api_sharding: cdktf.stringToTerraform(struct!.enableApiSharding),
     enable_memory_balancer: cdktf.stringToTerraform(struct!.enableMemoryBalancer),
-    enable_nsx_streaming_agent: cdktf.stringToTerraform(struct!.enableNsxStreamingAgent),
     enable_per_process_stop: cdktf.stringToTerraform(struct!.enablePerProcessStop),
     enable_resmgr_log_cache_print: cdktf.stringToTerraform(struct!.enableResmgrLogCachePrint),
     event_manager_max_goroutines: cdktf.stringToTerraform(struct!.eventManagerMaxGoroutines),
@@ -2706,7 +2290,6 @@ export function cloudpropertiesInfoControllerPropsToTerraform(struct?: Cloudprop
     federated_datastore_cleanup_duration: cdktf.stringToTerraform(struct!.federatedDatastoreCleanupDuration),
     file_object_cleanup_period: cdktf.stringToTerraform(struct!.fileObjectCleanupPeriod),
     fileobject_max_file_versions: cdktf.stringToTerraform(struct!.fileobjectMaxFileVersions),
-    gslb_fileobject_max_version_count: cdktf.stringToTerraform(struct!.gslbFileobjectMaxVersionCount),
     gslb_purge_batch_size: cdktf.stringToTerraform(struct!.gslbPurgeBatchSize),
     gslb_purge_sleep_time_ms: cdktf.stringToTerraform(struct!.gslbPurgeSleepTimeMs),
     ignore_vrf_in_networksubnetlist: cdktf.stringToTerraform(struct!.ignoreVrfInNetworksubnetlist),
@@ -2739,14 +2322,23 @@ export function cloudpropertiesInfoControllerPropsToTerraform(struct?: Cloudprop
     secure_channel_cleanup_timeout: cdktf.stringToTerraform(struct!.secureChannelCleanupTimeout),
     secure_channel_controller_token_timeout: cdktf.stringToTerraform(struct!.secureChannelControllerTokenTimeout),
     secure_channel_se_token_timeout: cdktf.stringToTerraform(struct!.secureChannelSeTokenTimeout),
+    seupgrade_copy_buffer_size: cdktf.stringToTerraform(struct!.seupgradeCopyBufferSize),
+    seupgrade_copy_pool_size: cdktf.stringToTerraform(struct!.seupgradeCopyPoolSize),
+    seupgrade_fabric_pool_size: cdktf.stringToTerraform(struct!.seupgradeFabricPoolSize),
+    seupgrade_segroup_min_dead_timeout: cdktf.stringToTerraform(struct!.seupgradeSegroupMinDeadTimeout),
     shared_ssl_certificates: cdktf.stringToTerraform(struct!.sharedSslCertificates),
-    skip_beego_perf_collection: cdktf.stringToTerraform(struct!.skipBeegoPerfCollection),
+    skopeo_retry_interval: cdktf.stringToTerraform(struct!.skopeoRetryInterval),
+    skopeo_retry_limit: cdktf.stringToTerraform(struct!.skopeoRetryLimit),
     soft_min_mem_per_se_limit: cdktf.stringToTerraform(struct!.softMinMemPerSeLimit),
     ssl_certificate_expiry_warning_days: cdktf.listMapper(cdktf.numberToTerraform, false)(struct!.sslCertificateExpiryWarningDays),
+    system_report_cleanup_interval: cdktf.stringToTerraform(struct!.systemReportCleanupInterval),
+    system_report_limit: cdktf.stringToTerraform(struct!.systemReportLimit),
     unresponsive_se_reboot: cdktf.stringToTerraform(struct!.unresponsiveSeReboot),
     update_dns_entry_retry_limit: cdktf.stringToTerraform(struct!.updateDnsEntryRetryLimit),
     update_dns_entry_timeout: cdktf.stringToTerraform(struct!.updateDnsEntryTimeout),
     upgrade_dns_ttl: cdktf.stringToTerraform(struct!.upgradeDnsTtl),
+    upgrade_fat_se_lease_time: cdktf.stringToTerraform(struct!.upgradeFatSeLeaseTime),
+    upgrade_lease_time: cdktf.stringToTerraform(struct!.upgradeLeaseTime),
     upgrade_se_per_vs_scale_ops_txn_time: cdktf.stringToTerraform(struct!.upgradeSePerVsScaleOpsTxnTime),
     uuid: cdktf.stringToTerraform(struct!.uuid),
     vnic_op_fail_time: cdktf.stringToTerraform(struct!.vnicOpFailTime),
@@ -2767,7 +2359,6 @@ export function cloudpropertiesInfoControllerPropsToTerraform(struct?: Cloudprop
     warmstart_vs_resync_wait_time: cdktf.stringToTerraform(struct!.warmstartVsResyncWaitTime),
     configpb_attributes: cdktf.listMapper(cloudpropertiesInfoControllerPropsConfigpbAttributesToTerraform, true)(struct!.configpbAttributes),
     false_positive_learning_config: cdktf.listMapper(cloudpropertiesInfoControllerPropsFalsePositiveLearningConfigToTerraform, true)(struct!.falsePositiveLearningConfig),
-    statecache_properties: cdktf.listMapper(cloudpropertiesInfoControllerPropsStatecachePropertiesToTerraform, true)(struct!.statecacheProperties),
     user_agent_cache_config: cdktf.listMapper(cloudpropertiesInfoControllerPropsUserAgentCacheConfigToTerraform, true)(struct!.userAgentCacheConfig),
   }
 }
@@ -2823,12 +2414,6 @@ export function cloudpropertiesInfoControllerPropsToHclTerraform(struct?: Cloudp
     },
     appviewx_compat_mode: {
       value: cdktf.stringToHclTerraform(struct!.appviewxCompatMode),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    archive_retention_framework_period: {
-      value: cdktf.stringToHclTerraform(struct!.archiveRetentionFrameworkPeriod),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -2989,12 +2574,6 @@ export function cloudpropertiesInfoControllerPropsToHclTerraform(struct?: Cloudp
       type: "simple",
       storageClassType: "string",
     },
-    enable_nsx_streaming_agent: {
-      value: cdktf.stringToHclTerraform(struct!.enableNsxStreamingAgent),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
     enable_per_process_stop: {
       value: cdktf.stringToHclTerraform(struct!.enablePerProcessStop),
       isBlock: false,
@@ -3045,12 +2624,6 @@ export function cloudpropertiesInfoControllerPropsToHclTerraform(struct?: Cloudp
     },
     fileobject_max_file_versions: {
       value: cdktf.stringToHclTerraform(struct!.fileobjectMaxFileVersions),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    gslb_fileobject_max_version_count: {
-      value: cdktf.stringToHclTerraform(struct!.gslbFileobjectMaxVersionCount),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -3247,14 +2820,44 @@ export function cloudpropertiesInfoControllerPropsToHclTerraform(struct?: Cloudp
       type: "simple",
       storageClassType: "string",
     },
+    seupgrade_copy_buffer_size: {
+      value: cdktf.stringToHclTerraform(struct!.seupgradeCopyBufferSize),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    seupgrade_copy_pool_size: {
+      value: cdktf.stringToHclTerraform(struct!.seupgradeCopyPoolSize),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    seupgrade_fabric_pool_size: {
+      value: cdktf.stringToHclTerraform(struct!.seupgradeFabricPoolSize),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    seupgrade_segroup_min_dead_timeout: {
+      value: cdktf.stringToHclTerraform(struct!.seupgradeSegroupMinDeadTimeout),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     shared_ssl_certificates: {
       value: cdktf.stringToHclTerraform(struct!.sharedSslCertificates),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
-    skip_beego_perf_collection: {
-      value: cdktf.stringToHclTerraform(struct!.skipBeegoPerfCollection),
+    skopeo_retry_interval: {
+      value: cdktf.stringToHclTerraform(struct!.skopeoRetryInterval),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    skopeo_retry_limit: {
+      value: cdktf.stringToHclTerraform(struct!.skopeoRetryLimit),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -3270,6 +2873,18 @@ export function cloudpropertiesInfoControllerPropsToHclTerraform(struct?: Cloudp
       isBlock: false,
       type: "list",
       storageClassType: "numberList",
+    },
+    system_report_cleanup_interval: {
+      value: cdktf.stringToHclTerraform(struct!.systemReportCleanupInterval),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    system_report_limit: {
+      value: cdktf.stringToHclTerraform(struct!.systemReportLimit),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
     },
     unresponsive_se_reboot: {
       value: cdktf.stringToHclTerraform(struct!.unresponsiveSeReboot),
@@ -3291,6 +2906,18 @@ export function cloudpropertiesInfoControllerPropsToHclTerraform(struct?: Cloudp
     },
     upgrade_dns_ttl: {
       value: cdktf.stringToHclTerraform(struct!.upgradeDnsTtl),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    upgrade_fat_se_lease_time: {
+      value: cdktf.stringToHclTerraform(struct!.upgradeFatSeLeaseTime),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    upgrade_lease_time: {
+      value: cdktf.stringToHclTerraform(struct!.upgradeLeaseTime),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -3415,12 +3042,6 @@ export function cloudpropertiesInfoControllerPropsToHclTerraform(struct?: Cloudp
       type: "set",
       storageClassType: "CloudpropertiesInfoControllerPropsFalsePositiveLearningConfigList",
     },
-    statecache_properties: {
-      value: cdktf.listMapperHcl(cloudpropertiesInfoControllerPropsStatecachePropertiesToHclTerraform, true)(struct!.statecacheProperties),
-      isBlock: true,
-      type: "set",
-      storageClassType: "CloudpropertiesInfoControllerPropsStatecachePropertiesList",
-    },
     user_agent_cache_config: {
       value: cdktf.listMapperHcl(cloudpropertiesInfoControllerPropsUserAgentCacheConfigToHclTerraform, true)(struct!.userAgentCacheConfig),
       isBlock: true,
@@ -3484,10 +3105,6 @@ export class CloudpropertiesInfoControllerPropsOutputReference extends cdktf.Com
     if (this._appviewxCompatMode !== undefined) {
       hasAnyValues = true;
       internalValueResult.appviewxCompatMode = this._appviewxCompatMode;
-    }
-    if (this._archiveRetentionFrameworkPeriod !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.archiveRetentionFrameworkPeriod = this._archiveRetentionFrameworkPeriod;
     }
     if (this._asyncPatchMergePeriod !== undefined) {
       hasAnyValues = true;
@@ -3593,10 +3210,6 @@ export class CloudpropertiesInfoControllerPropsOutputReference extends cdktf.Com
       hasAnyValues = true;
       internalValueResult.enableMemoryBalancer = this._enableMemoryBalancer;
     }
-    if (this._enableNsxStreamingAgent !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.enableNsxStreamingAgent = this._enableNsxStreamingAgent;
-    }
     if (this._enablePerProcessStop !== undefined) {
       hasAnyValues = true;
       internalValueResult.enablePerProcessStop = this._enablePerProcessStop;
@@ -3632,10 +3245,6 @@ export class CloudpropertiesInfoControllerPropsOutputReference extends cdktf.Com
     if (this._fileobjectMaxFileVersions !== undefined) {
       hasAnyValues = true;
       internalValueResult.fileobjectMaxFileVersions = this._fileobjectMaxFileVersions;
-    }
-    if (this._gslbFileobjectMaxVersionCount !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.gslbFileobjectMaxVersionCount = this._gslbFileobjectMaxVersionCount;
     }
     if (this._gslbPurgeBatchSize !== undefined) {
       hasAnyValues = true;
@@ -3765,13 +3374,33 @@ export class CloudpropertiesInfoControllerPropsOutputReference extends cdktf.Com
       hasAnyValues = true;
       internalValueResult.secureChannelSeTokenTimeout = this._secureChannelSeTokenTimeout;
     }
+    if (this._seupgradeCopyBufferSize !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.seupgradeCopyBufferSize = this._seupgradeCopyBufferSize;
+    }
+    if (this._seupgradeCopyPoolSize !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.seupgradeCopyPoolSize = this._seupgradeCopyPoolSize;
+    }
+    if (this._seupgradeFabricPoolSize !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.seupgradeFabricPoolSize = this._seupgradeFabricPoolSize;
+    }
+    if (this._seupgradeSegroupMinDeadTimeout !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.seupgradeSegroupMinDeadTimeout = this._seupgradeSegroupMinDeadTimeout;
+    }
     if (this._sharedSslCertificates !== undefined) {
       hasAnyValues = true;
       internalValueResult.sharedSslCertificates = this._sharedSslCertificates;
     }
-    if (this._skipBeegoPerfCollection !== undefined) {
+    if (this._skopeoRetryInterval !== undefined) {
       hasAnyValues = true;
-      internalValueResult.skipBeegoPerfCollection = this._skipBeegoPerfCollection;
+      internalValueResult.skopeoRetryInterval = this._skopeoRetryInterval;
+    }
+    if (this._skopeoRetryLimit !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.skopeoRetryLimit = this._skopeoRetryLimit;
     }
     if (this._softMinMemPerSeLimit !== undefined) {
       hasAnyValues = true;
@@ -3780,6 +3409,14 @@ export class CloudpropertiesInfoControllerPropsOutputReference extends cdktf.Com
     if (this._sslCertificateExpiryWarningDays !== undefined) {
       hasAnyValues = true;
       internalValueResult.sslCertificateExpiryWarningDays = this._sslCertificateExpiryWarningDays;
+    }
+    if (this._systemReportCleanupInterval !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.systemReportCleanupInterval = this._systemReportCleanupInterval;
+    }
+    if (this._systemReportLimit !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.systemReportLimit = this._systemReportLimit;
     }
     if (this._unresponsiveSeReboot !== undefined) {
       hasAnyValues = true;
@@ -3796,6 +3433,14 @@ export class CloudpropertiesInfoControllerPropsOutputReference extends cdktf.Com
     if (this._upgradeDnsTtl !== undefined) {
       hasAnyValues = true;
       internalValueResult.upgradeDnsTtl = this._upgradeDnsTtl;
+    }
+    if (this._upgradeFatSeLeaseTime !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.upgradeFatSeLeaseTime = this._upgradeFatSeLeaseTime;
+    }
+    if (this._upgradeLeaseTime !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.upgradeLeaseTime = this._upgradeLeaseTime;
     }
     if (this._upgradeSePerVsScaleOpsTxnTime !== undefined) {
       hasAnyValues = true;
@@ -3877,10 +3522,6 @@ export class CloudpropertiesInfoControllerPropsOutputReference extends cdktf.Com
       hasAnyValues = true;
       internalValueResult.falsePositiveLearningConfig = this._falsePositiveLearningConfig?.internalValue;
     }
-    if (this._statecacheProperties?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.statecacheProperties = this._statecacheProperties?.internalValue;
-    }
     if (this._userAgentCacheConfig?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.userAgentCacheConfig = this._userAgentCacheConfig?.internalValue;
@@ -3900,7 +3541,6 @@ export class CloudpropertiesInfoControllerPropsOutputReference extends cdktf.Com
       this._apiIdleTimeout = undefined;
       this._apiPerfLoggingThreshold = undefined;
       this._appviewxCompatMode = undefined;
-      this._archiveRetentionFrameworkPeriod = undefined;
       this._asyncPatchMergePeriod = undefined;
       this._asyncPatchRequestCleanupDuration = undefined;
       this._attachIpRetryInterval = undefined;
@@ -3927,7 +3567,6 @@ export class CloudpropertiesInfoControllerPropsOutputReference extends cdktf.Com
       this._editSystemLimits = undefined;
       this._enableApiSharding = undefined;
       this._enableMemoryBalancer = undefined;
-      this._enableNsxStreamingAgent = undefined;
       this._enablePerProcessStop = undefined;
       this._enableResmgrLogCachePrint = undefined;
       this._eventManagerMaxGoroutines = undefined;
@@ -3937,7 +3576,6 @@ export class CloudpropertiesInfoControllerPropsOutputReference extends cdktf.Com
       this._federatedDatastoreCleanupDuration = undefined;
       this._fileObjectCleanupPeriod = undefined;
       this._fileobjectMaxFileVersions = undefined;
-      this._gslbFileobjectMaxVersionCount = undefined;
       this._gslbPurgeBatchSize = undefined;
       this._gslbPurgeSleepTimeMs = undefined;
       this._ignoreVrfInNetworksubnetlist = undefined;
@@ -3970,14 +3608,23 @@ export class CloudpropertiesInfoControllerPropsOutputReference extends cdktf.Com
       this._secureChannelCleanupTimeout = undefined;
       this._secureChannelControllerTokenTimeout = undefined;
       this._secureChannelSeTokenTimeout = undefined;
+      this._seupgradeCopyBufferSize = undefined;
+      this._seupgradeCopyPoolSize = undefined;
+      this._seupgradeFabricPoolSize = undefined;
+      this._seupgradeSegroupMinDeadTimeout = undefined;
       this._sharedSslCertificates = undefined;
-      this._skipBeegoPerfCollection = undefined;
+      this._skopeoRetryInterval = undefined;
+      this._skopeoRetryLimit = undefined;
       this._softMinMemPerSeLimit = undefined;
       this._sslCertificateExpiryWarningDays = undefined;
+      this._systemReportCleanupInterval = undefined;
+      this._systemReportLimit = undefined;
       this._unresponsiveSeReboot = undefined;
       this._updateDnsEntryRetryLimit = undefined;
       this._updateDnsEntryTimeout = undefined;
       this._upgradeDnsTtl = undefined;
+      this._upgradeFatSeLeaseTime = undefined;
+      this._upgradeLeaseTime = undefined;
       this._upgradeSePerVsScaleOpsTxnTime = undefined;
       this._uuid = undefined;
       this._vnicOpFailTime = undefined;
@@ -3998,7 +3645,6 @@ export class CloudpropertiesInfoControllerPropsOutputReference extends cdktf.Com
       this._warmstartVsResyncWaitTime = undefined;
       this._configpbAttributes.internalValue = undefined;
       this._falsePositiveLearningConfig.internalValue = undefined;
-      this._statecacheProperties.internalValue = undefined;
       this._userAgentCacheConfig.internalValue = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
@@ -4016,7 +3662,6 @@ export class CloudpropertiesInfoControllerPropsOutputReference extends cdktf.Com
       this._apiIdleTimeout = value.apiIdleTimeout;
       this._apiPerfLoggingThreshold = value.apiPerfLoggingThreshold;
       this._appviewxCompatMode = value.appviewxCompatMode;
-      this._archiveRetentionFrameworkPeriod = value.archiveRetentionFrameworkPeriod;
       this._asyncPatchMergePeriod = value.asyncPatchMergePeriod;
       this._asyncPatchRequestCleanupDuration = value.asyncPatchRequestCleanupDuration;
       this._attachIpRetryInterval = value.attachIpRetryInterval;
@@ -4043,7 +3688,6 @@ export class CloudpropertiesInfoControllerPropsOutputReference extends cdktf.Com
       this._editSystemLimits = value.editSystemLimits;
       this._enableApiSharding = value.enableApiSharding;
       this._enableMemoryBalancer = value.enableMemoryBalancer;
-      this._enableNsxStreamingAgent = value.enableNsxStreamingAgent;
       this._enablePerProcessStop = value.enablePerProcessStop;
       this._enableResmgrLogCachePrint = value.enableResmgrLogCachePrint;
       this._eventManagerMaxGoroutines = value.eventManagerMaxGoroutines;
@@ -4053,7 +3697,6 @@ export class CloudpropertiesInfoControllerPropsOutputReference extends cdktf.Com
       this._federatedDatastoreCleanupDuration = value.federatedDatastoreCleanupDuration;
       this._fileObjectCleanupPeriod = value.fileObjectCleanupPeriod;
       this._fileobjectMaxFileVersions = value.fileobjectMaxFileVersions;
-      this._gslbFileobjectMaxVersionCount = value.gslbFileobjectMaxVersionCount;
       this._gslbPurgeBatchSize = value.gslbPurgeBatchSize;
       this._gslbPurgeSleepTimeMs = value.gslbPurgeSleepTimeMs;
       this._ignoreVrfInNetworksubnetlist = value.ignoreVrfInNetworksubnetlist;
@@ -4086,14 +3729,23 @@ export class CloudpropertiesInfoControllerPropsOutputReference extends cdktf.Com
       this._secureChannelCleanupTimeout = value.secureChannelCleanupTimeout;
       this._secureChannelControllerTokenTimeout = value.secureChannelControllerTokenTimeout;
       this._secureChannelSeTokenTimeout = value.secureChannelSeTokenTimeout;
+      this._seupgradeCopyBufferSize = value.seupgradeCopyBufferSize;
+      this._seupgradeCopyPoolSize = value.seupgradeCopyPoolSize;
+      this._seupgradeFabricPoolSize = value.seupgradeFabricPoolSize;
+      this._seupgradeSegroupMinDeadTimeout = value.seupgradeSegroupMinDeadTimeout;
       this._sharedSslCertificates = value.sharedSslCertificates;
-      this._skipBeegoPerfCollection = value.skipBeegoPerfCollection;
+      this._skopeoRetryInterval = value.skopeoRetryInterval;
+      this._skopeoRetryLimit = value.skopeoRetryLimit;
       this._softMinMemPerSeLimit = value.softMinMemPerSeLimit;
       this._sslCertificateExpiryWarningDays = value.sslCertificateExpiryWarningDays;
+      this._systemReportCleanupInterval = value.systemReportCleanupInterval;
+      this._systemReportLimit = value.systemReportLimit;
       this._unresponsiveSeReboot = value.unresponsiveSeReboot;
       this._updateDnsEntryRetryLimit = value.updateDnsEntryRetryLimit;
       this._updateDnsEntryTimeout = value.updateDnsEntryTimeout;
       this._upgradeDnsTtl = value.upgradeDnsTtl;
+      this._upgradeFatSeLeaseTime = value.upgradeFatSeLeaseTime;
+      this._upgradeLeaseTime = value.upgradeLeaseTime;
       this._upgradeSePerVsScaleOpsTxnTime = value.upgradeSePerVsScaleOpsTxnTime;
       this._uuid = value.uuid;
       this._vnicOpFailTime = value.vnicOpFailTime;
@@ -4114,7 +3766,6 @@ export class CloudpropertiesInfoControllerPropsOutputReference extends cdktf.Com
       this._warmstartVsResyncWaitTime = value.warmstartVsResyncWaitTime;
       this._configpbAttributes.internalValue = value.configpbAttributes;
       this._falsePositiveLearningConfig.internalValue = value.falsePositiveLearningConfig;
-      this._statecacheProperties.internalValue = value.statecacheProperties;
       this._userAgentCacheConfig.internalValue = value.userAgentCacheConfig;
     }
   }
@@ -4245,22 +3896,6 @@ export class CloudpropertiesInfoControllerPropsOutputReference extends cdktf.Com
   // Temporarily expose input value. Use with caution.
   public get appviewxCompatModeInput() {
     return this._appviewxCompatMode;
-  }
-
-  // archive_retention_framework_period - computed: false, optional: true, required: false
-  private _archiveRetentionFrameworkPeriod?: string; 
-  public get archiveRetentionFrameworkPeriod() {
-    return this.getStringAttribute('archive_retention_framework_period');
-  }
-  public set archiveRetentionFrameworkPeriod(value: string) {
-    this._archiveRetentionFrameworkPeriod = value;
-  }
-  public resetArchiveRetentionFrameworkPeriod() {
-    this._archiveRetentionFrameworkPeriod = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get archiveRetentionFrameworkPeriodInput() {
-    return this._archiveRetentionFrameworkPeriod;
   }
 
   // async_patch_merge_period - computed: false, optional: true, required: false
@@ -4679,22 +4314,6 @@ export class CloudpropertiesInfoControllerPropsOutputReference extends cdktf.Com
     return this._enableMemoryBalancer;
   }
 
-  // enable_nsx_streaming_agent - computed: false, optional: true, required: false
-  private _enableNsxStreamingAgent?: string; 
-  public get enableNsxStreamingAgent() {
-    return this.getStringAttribute('enable_nsx_streaming_agent');
-  }
-  public set enableNsxStreamingAgent(value: string) {
-    this._enableNsxStreamingAgent = value;
-  }
-  public resetEnableNsxStreamingAgent() {
-    this._enableNsxStreamingAgent = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get enableNsxStreamingAgentInput() {
-    return this._enableNsxStreamingAgent;
-  }
-
   // enable_per_process_stop - computed: false, optional: true, required: false
   private _enablePerProcessStop?: string; 
   public get enablePerProcessStop() {
@@ -4837,22 +4456,6 @@ export class CloudpropertiesInfoControllerPropsOutputReference extends cdktf.Com
   // Temporarily expose input value. Use with caution.
   public get fileobjectMaxFileVersionsInput() {
     return this._fileobjectMaxFileVersions;
-  }
-
-  // gslb_fileobject_max_version_count - computed: false, optional: true, required: false
-  private _gslbFileobjectMaxVersionCount?: string; 
-  public get gslbFileobjectMaxVersionCount() {
-    return this.getStringAttribute('gslb_fileobject_max_version_count');
-  }
-  public set gslbFileobjectMaxVersionCount(value: string) {
-    this._gslbFileobjectMaxVersionCount = value;
-  }
-  public resetGslbFileobjectMaxVersionCount() {
-    this._gslbFileobjectMaxVersionCount = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get gslbFileobjectMaxVersionCountInput() {
-    return this._gslbFileobjectMaxVersionCount;
   }
 
   // gslb_purge_batch_size - computed: false, optional: true, required: false
@@ -5367,6 +4970,70 @@ export class CloudpropertiesInfoControllerPropsOutputReference extends cdktf.Com
     return this._secureChannelSeTokenTimeout;
   }
 
+  // seupgrade_copy_buffer_size - computed: false, optional: true, required: false
+  private _seupgradeCopyBufferSize?: string; 
+  public get seupgradeCopyBufferSize() {
+    return this.getStringAttribute('seupgrade_copy_buffer_size');
+  }
+  public set seupgradeCopyBufferSize(value: string) {
+    this._seupgradeCopyBufferSize = value;
+  }
+  public resetSeupgradeCopyBufferSize() {
+    this._seupgradeCopyBufferSize = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get seupgradeCopyBufferSizeInput() {
+    return this._seupgradeCopyBufferSize;
+  }
+
+  // seupgrade_copy_pool_size - computed: false, optional: true, required: false
+  private _seupgradeCopyPoolSize?: string; 
+  public get seupgradeCopyPoolSize() {
+    return this.getStringAttribute('seupgrade_copy_pool_size');
+  }
+  public set seupgradeCopyPoolSize(value: string) {
+    this._seupgradeCopyPoolSize = value;
+  }
+  public resetSeupgradeCopyPoolSize() {
+    this._seupgradeCopyPoolSize = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get seupgradeCopyPoolSizeInput() {
+    return this._seupgradeCopyPoolSize;
+  }
+
+  // seupgrade_fabric_pool_size - computed: false, optional: true, required: false
+  private _seupgradeFabricPoolSize?: string; 
+  public get seupgradeFabricPoolSize() {
+    return this.getStringAttribute('seupgrade_fabric_pool_size');
+  }
+  public set seupgradeFabricPoolSize(value: string) {
+    this._seupgradeFabricPoolSize = value;
+  }
+  public resetSeupgradeFabricPoolSize() {
+    this._seupgradeFabricPoolSize = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get seupgradeFabricPoolSizeInput() {
+    return this._seupgradeFabricPoolSize;
+  }
+
+  // seupgrade_segroup_min_dead_timeout - computed: false, optional: true, required: false
+  private _seupgradeSegroupMinDeadTimeout?: string; 
+  public get seupgradeSegroupMinDeadTimeout() {
+    return this.getStringAttribute('seupgrade_segroup_min_dead_timeout');
+  }
+  public set seupgradeSegroupMinDeadTimeout(value: string) {
+    this._seupgradeSegroupMinDeadTimeout = value;
+  }
+  public resetSeupgradeSegroupMinDeadTimeout() {
+    this._seupgradeSegroupMinDeadTimeout = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get seupgradeSegroupMinDeadTimeoutInput() {
+    return this._seupgradeSegroupMinDeadTimeout;
+  }
+
   // shared_ssl_certificates - computed: false, optional: true, required: false
   private _sharedSslCertificates?: string; 
   public get sharedSslCertificates() {
@@ -5383,20 +5050,36 @@ export class CloudpropertiesInfoControllerPropsOutputReference extends cdktf.Com
     return this._sharedSslCertificates;
   }
 
-  // skip_beego_perf_collection - computed: false, optional: true, required: false
-  private _skipBeegoPerfCollection?: string; 
-  public get skipBeegoPerfCollection() {
-    return this.getStringAttribute('skip_beego_perf_collection');
+  // skopeo_retry_interval - computed: false, optional: true, required: false
+  private _skopeoRetryInterval?: string; 
+  public get skopeoRetryInterval() {
+    return this.getStringAttribute('skopeo_retry_interval');
   }
-  public set skipBeegoPerfCollection(value: string) {
-    this._skipBeegoPerfCollection = value;
+  public set skopeoRetryInterval(value: string) {
+    this._skopeoRetryInterval = value;
   }
-  public resetSkipBeegoPerfCollection() {
-    this._skipBeegoPerfCollection = undefined;
+  public resetSkopeoRetryInterval() {
+    this._skopeoRetryInterval = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get skipBeegoPerfCollectionInput() {
-    return this._skipBeegoPerfCollection;
+  public get skopeoRetryIntervalInput() {
+    return this._skopeoRetryInterval;
+  }
+
+  // skopeo_retry_limit - computed: false, optional: true, required: false
+  private _skopeoRetryLimit?: string; 
+  public get skopeoRetryLimit() {
+    return this.getStringAttribute('skopeo_retry_limit');
+  }
+  public set skopeoRetryLimit(value: string) {
+    this._skopeoRetryLimit = value;
+  }
+  public resetSkopeoRetryLimit() {
+    this._skopeoRetryLimit = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get skopeoRetryLimitInput() {
+    return this._skopeoRetryLimit;
   }
 
   // soft_min_mem_per_se_limit - computed: false, optional: true, required: false
@@ -5429,6 +5112,38 @@ export class CloudpropertiesInfoControllerPropsOutputReference extends cdktf.Com
   // Temporarily expose input value. Use with caution.
   public get sslCertificateExpiryWarningDaysInput() {
     return this._sslCertificateExpiryWarningDays;
+  }
+
+  // system_report_cleanup_interval - computed: false, optional: true, required: false
+  private _systemReportCleanupInterval?: string; 
+  public get systemReportCleanupInterval() {
+    return this.getStringAttribute('system_report_cleanup_interval');
+  }
+  public set systemReportCleanupInterval(value: string) {
+    this._systemReportCleanupInterval = value;
+  }
+  public resetSystemReportCleanupInterval() {
+    this._systemReportCleanupInterval = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get systemReportCleanupIntervalInput() {
+    return this._systemReportCleanupInterval;
+  }
+
+  // system_report_limit - computed: false, optional: true, required: false
+  private _systemReportLimit?: string; 
+  public get systemReportLimit() {
+    return this.getStringAttribute('system_report_limit');
+  }
+  public set systemReportLimit(value: string) {
+    this._systemReportLimit = value;
+  }
+  public resetSystemReportLimit() {
+    this._systemReportLimit = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get systemReportLimitInput() {
+    return this._systemReportLimit;
   }
 
   // unresponsive_se_reboot - computed: false, optional: true, required: false
@@ -5493,6 +5208,38 @@ export class CloudpropertiesInfoControllerPropsOutputReference extends cdktf.Com
   // Temporarily expose input value. Use with caution.
   public get upgradeDnsTtlInput() {
     return this._upgradeDnsTtl;
+  }
+
+  // upgrade_fat_se_lease_time - computed: false, optional: true, required: false
+  private _upgradeFatSeLeaseTime?: string; 
+  public get upgradeFatSeLeaseTime() {
+    return this.getStringAttribute('upgrade_fat_se_lease_time');
+  }
+  public set upgradeFatSeLeaseTime(value: string) {
+    this._upgradeFatSeLeaseTime = value;
+  }
+  public resetUpgradeFatSeLeaseTime() {
+    this._upgradeFatSeLeaseTime = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get upgradeFatSeLeaseTimeInput() {
+    return this._upgradeFatSeLeaseTime;
+  }
+
+  // upgrade_lease_time - computed: false, optional: true, required: false
+  private _upgradeLeaseTime?: string; 
+  public get upgradeLeaseTime() {
+    return this.getStringAttribute('upgrade_lease_time');
+  }
+  public set upgradeLeaseTime(value: string) {
+    this._upgradeLeaseTime = value;
+  }
+  public resetUpgradeLeaseTime() {
+    this._upgradeLeaseTime = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get upgradeLeaseTimeInput() {
+    return this._upgradeLeaseTime;
   }
 
   // upgrade_se_per_vs_scale_ops_txn_time - computed: false, optional: true, required: false
@@ -5815,22 +5562,6 @@ export class CloudpropertiesInfoControllerPropsOutputReference extends cdktf.Com
     return this._falsePositiveLearningConfig.internalValue;
   }
 
-  // statecache_properties - computed: false, optional: true, required: false
-  private _statecacheProperties = new CloudpropertiesInfoControllerPropsStatecachePropertiesList(this, "statecache_properties", true);
-  public get statecacheProperties() {
-    return this._statecacheProperties;
-  }
-  public putStatecacheProperties(value: CloudpropertiesInfoControllerPropsStatecacheProperties[] | cdktf.IResolvable) {
-    this._statecacheProperties.internalValue = value;
-  }
-  public resetStatecacheProperties() {
-    this._statecacheProperties.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get statecachePropertiesInput() {
-    return this._statecacheProperties.internalValue;
-  }
-
   // user_agent_cache_config - computed: false, optional: true, required: false
   private _userAgentCacheConfig = new CloudpropertiesInfoControllerPropsUserAgentCacheConfigList(this, "user_agent_cache_config", true);
   public get userAgentCacheConfig() {
@@ -5869,11 +5600,11 @@ export class CloudpropertiesInfoControllerPropsList extends cdktf.ComplexList {
 }
 export interface CloudpropertiesInfoFlavorPropsMeta {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#key Cloudproperties#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#key Cloudproperties#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#value Cloudproperties#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#value Cloudproperties#value}
   */
   readonly value: string;
 }
@@ -6012,60 +5743,60 @@ export class CloudpropertiesInfoFlavorPropsMetaList extends cdktf.ComplexList {
 }
 export interface CloudpropertiesInfoFlavorProps {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#cost Cloudproperties#cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#cost Cloudproperties#cost}
   */
   readonly cost?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#disk_gb Cloudproperties#disk_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#disk_gb Cloudproperties#disk_gb}
   */
   readonly diskGb?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#enhanced_nw Cloudproperties#enhanced_nw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#enhanced_nw Cloudproperties#enhanced_nw}
   */
   readonly enhancedNw?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#id Cloudproperties#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#id Cloudproperties#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#is_recommended Cloudproperties#is_recommended}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#is_recommended Cloudproperties#is_recommended}
   */
   readonly isRecommended?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#max_ip6s_per_nic Cloudproperties#max_ip6s_per_nic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#max_ip6s_per_nic Cloudproperties#max_ip6s_per_nic}
   */
   readonly maxIp6SPerNic?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#max_ips_per_nic Cloudproperties#max_ips_per_nic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#max_ips_per_nic Cloudproperties#max_ips_per_nic}
   */
   readonly maxIpsPerNic?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#max_nics Cloudproperties#max_nics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#max_nics Cloudproperties#max_nics}
   */
   readonly maxNics?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#name Cloudproperties#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#name Cloudproperties#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#public Cloudproperties#public}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#public Cloudproperties#public}
   */
   readonly public?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#ram_mb Cloudproperties#ram_mb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#ram_mb Cloudproperties#ram_mb}
   */
   readonly ramMb?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#vcpus Cloudproperties#vcpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#vcpus Cloudproperties#vcpus}
   */
   readonly vcpus?: string;
   /**
   * meta block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#meta Cloudproperties#meta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#meta Cloudproperties#meta}
   */
   readonly meta?: CloudpropertiesInfoFlavorPropsMeta[] | cdktf.IResolvable;
 }
@@ -6523,33 +6254,33 @@ export class CloudpropertiesInfoFlavorPropsList extends cdktf.ComplexList {
 }
 export interface CloudpropertiesInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#flavor_regex_filter Cloudproperties#flavor_regex_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#flavor_regex_filter Cloudproperties#flavor_regex_filter}
   */
   readonly flavorRegexFilter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#htypes Cloudproperties#htypes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#htypes Cloudproperties#htypes}
   */
   readonly htypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#vtype Cloudproperties#vtype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#vtype Cloudproperties#vtype}
   */
   readonly vtype: string;
   /**
   * cca_props block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#cca_props Cloudproperties#cca_props}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#cca_props Cloudproperties#cca_props}
   */
   readonly ccaProps?: CloudpropertiesInfoCcaProps[] | cdktf.IResolvable;
   /**
   * controller_props block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#controller_props Cloudproperties#controller_props}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#controller_props Cloudproperties#controller_props}
   */
   readonly controllerProps?: CloudpropertiesInfoControllerProps[] | cdktf.IResolvable;
   /**
   * flavor_props block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#flavor_props Cloudproperties#flavor_props}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#flavor_props Cloudproperties#flavor_props}
   */
   readonly flavorProps?: CloudpropertiesInfoFlavorProps[] | cdktf.IResolvable;
 }
@@ -6807,7 +6538,7 @@ export class CloudpropertiesInfoList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties avi_cloudproperties}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties avi_cloudproperties}
 */
 export class Cloudproperties extends cdktf.TerraformResource {
 
@@ -6823,7 +6554,7 @@ export class Cloudproperties extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Cloudproperties resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cloudproperties to import
-  * @param importFromId The id of the existing Cloudproperties that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cloudproperties that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cloudproperties to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6835,7 +6566,7 @@ export class Cloudproperties extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/cloudproperties avi_cloudproperties} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloudproperties avi_cloudproperties} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6846,7 +6577,8 @@ export class Cloudproperties extends cdktf.TerraformResource {
       terraformResourceType: 'avi_cloudproperties',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '31.1.1'
+        providerVersion: '30.2.5',
+        providerVersionConstraint: '30.2.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

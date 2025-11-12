@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/property_set
+// https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/property_set
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface PropertySetConfig extends cdktf.TerraformMetaArguments {
   /**
   * A map of values in the Property Set in JSON format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/property_set#data PropertySet#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/property_set#data PropertySet#data}
   */
   readonly data: string;
   /**
   * Name of the Property Set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/property_set#name PropertySet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/property_set#name PropertySet#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/property_set apstra_property_set}
+* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/property_set apstra_property_set}
 */
 export class PropertySet extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class PropertySet extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PropertySet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PropertySet to import
-  * @param importFromId The id of the existing PropertySet that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/property_set#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PropertySet that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/property_set#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PropertySet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class PropertySet extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/property_set apstra_property_set} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/property_set apstra_property_set} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,7 +61,8 @@ export class PropertySet extends cdktf.TerraformResource {
       terraformResourceType: 'apstra_property_set',
       terraformGeneratorMetadata: {
         providerName: 'apstra',
-        providerVersion: '0.95.0'
+        providerVersion: '0.95.1',
+        providerVersionConstraint: '0.95.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

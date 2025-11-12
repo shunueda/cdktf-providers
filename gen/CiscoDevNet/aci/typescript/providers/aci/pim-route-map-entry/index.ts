@@ -411,7 +411,8 @@ export class PimRouteMapEntry extends cdktf.TerraformResource {
       terraformResourceType: 'aci_pim_route_map_entry',
       terraformGeneratorMetadata: {
         providerName: 'aci',
-        providerVersion: '2.18.0'
+        providerVersion: '2.18.0',
+        providerVersionConstraint: '2.18.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

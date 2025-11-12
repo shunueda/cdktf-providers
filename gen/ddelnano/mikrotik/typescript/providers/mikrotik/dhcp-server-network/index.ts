@@ -77,7 +77,8 @@ export class DhcpServerNetwork extends cdktf.TerraformResource {
       terraformResourceType: 'mikrotik_dhcp_server_network',
       terraformGeneratorMetadata: {
         providerName: 'mikrotik',
-        providerVersion: '0.16.1'
+        providerVersion: '0.16.1',
+        providerVersionConstraint: '0.16.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

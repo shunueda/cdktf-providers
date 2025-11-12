@@ -307,7 +307,8 @@ export class Group extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_group',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.70.0'
+        providerVersion: '1.70.0',
+        providerVersionConstraint: '1.70.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

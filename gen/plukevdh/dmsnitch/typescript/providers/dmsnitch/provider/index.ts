@@ -61,7 +61,8 @@ export class DmsnitchProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'dmsnitch',
       terraformGeneratorMetadata: {
         providerName: 'dmsnitch',
-        providerVersion: '0.1.5'
+        providerVersion: '0.1.5',
+        providerVersionConstraint: '0.1.5'
       },
       terraformProviderSource: 'plukevdh/dmsnitch'
     });

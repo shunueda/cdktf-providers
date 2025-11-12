@@ -61,7 +61,8 @@ export class Token extends cdktf.TerraformResource {
       terraformResourceType: 'dockerhub_token',
       terraformGeneratorMetadata: {
         providerName: 'dockerhub',
-        providerVersion: '0.0.15'
+        providerVersion: '0.0.15',
+        providerVersionConstraint: '0.0.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

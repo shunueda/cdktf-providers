@@ -861,7 +861,8 @@ export class MongoCluster extends cdktf.TerraformResource {
       terraformResourceType: 'ionoscloud_mongo_cluster',
       terraformGeneratorMetadata: {
         providerName: 'ionoscloud',
-        providerVersion: '6.7.20'
+        providerVersion: '6.7.20',
+        providerVersionConstraint: '6.7.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/l2param
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/l2param
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,80 +8,80 @@ import * as cdktf from 'cdktf';
 
 export interface L2ParamConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/l2param#bdggrpproxyarp L2Param#bdggrpproxyarp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/l2param#bdggrpproxyarp L2Param#bdggrpproxyarp}
   */
   readonly bdggrpproxyarp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/l2param#bdgsetting L2Param#bdgsetting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/l2param#bdgsetting L2Param#bdgsetting}
   */
   readonly bdgsetting?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/l2param#bridgeagetimeout L2Param#bridgeagetimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/l2param#bridgeagetimeout L2Param#bridgeagetimeout}
   */
   readonly bridgeagetimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/l2param#garponvridintf L2Param#garponvridintf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/l2param#garponvridintf L2Param#garponvridintf}
   */
   readonly garponvridintf?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/l2param#garpreply L2Param#garpreply}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/l2param#garpreply L2Param#garpreply}
   */
   readonly garpreply?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/l2param#id L2Param#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/l2param#id L2Param#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/l2param#macmodefwdmypkt L2Param#macmodefwdmypkt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/l2param#macmodefwdmypkt L2Param#macmodefwdmypkt}
   */
   readonly macmodefwdmypkt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/l2param#maxbridgecollision L2Param#maxbridgecollision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/l2param#maxbridgecollision L2Param#maxbridgecollision}
   */
   readonly maxbridgecollision?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/l2param#mbfinstlearning L2Param#mbfinstlearning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/l2param#mbfinstlearning L2Param#mbfinstlearning}
   */
   readonly mbfinstlearning?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/l2param#mbfpeermacupdate L2Param#mbfpeermacupdate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/l2param#mbfpeermacupdate L2Param#mbfpeermacupdate}
   */
   readonly mbfpeermacupdate?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/l2param#proxyarp L2Param#proxyarp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/l2param#proxyarp L2Param#proxyarp}
   */
   readonly proxyarp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/l2param#returntoethernetsender L2Param#returntoethernetsender}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/l2param#returntoethernetsender L2Param#returntoethernetsender}
   */
   readonly returntoethernetsender?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/l2param#rstintfonhafo L2Param#rstintfonhafo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/l2param#rstintfonhafo L2Param#rstintfonhafo}
   */
   readonly rstintfonhafo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/l2param#skipproxyingbsdtraffic L2Param#skipproxyingbsdtraffic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/l2param#skipproxyingbsdtraffic L2Param#skipproxyingbsdtraffic}
   */
   readonly skipproxyingbsdtraffic?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/l2param#stopmacmoveupdate L2Param#stopmacmoveupdate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/l2param#stopmacmoveupdate L2Param#stopmacmoveupdate}
   */
   readonly stopmacmoveupdate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/l2param#usemymac L2Param#usemymac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/l2param#usemymac L2Param#usemymac}
   */
   readonly usemymac?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/l2param#usenetprofilebsdtraffic L2Param#usenetprofilebsdtraffic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/l2param#usenetprofilebsdtraffic L2Param#usenetprofilebsdtraffic}
   */
   readonly usenetprofilebsdtraffic?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/l2param citrixadc_l2param}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/l2param citrixadc_l2param}
 */
 export class L2Param extends cdktf.TerraformResource {
 
@@ -97,7 +97,7 @@ export class L2Param extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a L2Param resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the L2Param to import
-  * @param importFromId The id of the existing L2Param that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/l2param#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing L2Param that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/l2param#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the L2Param to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -109,7 +109,7 @@ export class L2Param extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/l2param citrixadc_l2param} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/l2param citrixadc_l2param} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -120,7 +120,8 @@ export class L2Param extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_l2param',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

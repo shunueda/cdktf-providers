@@ -248,7 +248,8 @@ export class AcosCloudIntegrationEcosystemOracleA extends cdktf.TerraformResourc
       terraformResourceType: 'thunder_acos_cloud_integration_ecosystem_oracle',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

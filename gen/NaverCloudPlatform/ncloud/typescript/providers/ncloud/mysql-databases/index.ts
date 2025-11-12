@@ -170,7 +170,8 @@ export class MysqlDatabases extends cdktf.TerraformResource {
       terraformResourceType: 'ncloud_mysql_databases',
       terraformGeneratorMetadata: {
         providerName: 'ncloud',
-        providerVersion: '4.0.4'
+        providerVersion: '4.0.4',
+        providerVersionConstraint: '4.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

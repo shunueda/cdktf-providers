@@ -112,7 +112,8 @@ export class SwitchcontrollerManagedswitch8021Xsettings extends cdktf.TerraformR
       terraformResourceType: 'fmgdevice_switchcontroller_managedswitch_8021xsettings',
       terraformGeneratorMetadata: {
         providerName: 'fmgdevice',
-        providerVersion: '1.2.1'
+        providerVersion: '1.2.1',
+        providerVersionConstraint: '1.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -234,7 +234,8 @@ export class IcnrTunnel extends cdktf.TerraformResource {
       terraformResourceType: 'skytap_icnr_tunnel',
       terraformGeneratorMetadata: {
         providerName: 'skytap',
-        providerVersion: '0.15.1'
+        providerVersion: '0.15.1',
+        providerVersionConstraint: '0.15.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

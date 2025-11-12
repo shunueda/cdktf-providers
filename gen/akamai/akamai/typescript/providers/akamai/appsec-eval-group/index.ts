@@ -86,7 +86,8 @@ export class AppsecEvalGroup extends cdktf.TerraformResource {
       terraformResourceType: 'akamai_appsec_eval_group',
       terraformGeneratorMetadata: {
         providerName: 'akamai',
-        providerVersion: '9.1.0'
+        providerVersion: '9.1.0',
+        providerVersionConstraint: '9.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -74,7 +74,8 @@ export class OrganizationPolicySubAccountAttachment extends cdktf.TerraformResou
       terraformResourceType: 'tencentcloud_organization_policy_sub_account_attachment',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

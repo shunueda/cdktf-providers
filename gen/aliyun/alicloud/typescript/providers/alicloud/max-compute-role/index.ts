@@ -238,7 +238,8 @@ export class MaxComputeRole extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_max_compute_role',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

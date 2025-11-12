@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/loopback_interface
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/loopback_interface
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataScmLoopbackInterfaceConfig extends cdktf.TerraformMetaArgum
   /**
   * UUID of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/loopback_interface#id DataScmLoopbackInterface#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/loopback_interface#id DataScmLoopbackInterface#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,7 +19,7 @@ export interface DataScmLoopbackInterfaceConfig extends cdktf.TerraformMetaArgum
   /**
   * Loopback Interface name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/loopback_interface#name DataScmLoopbackInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/loopback_interface#name DataScmLoopbackInterface#name}
   */
   readonly name?: string;
 }
@@ -245,7 +245,7 @@ export class DataScmLoopbackInterfaceIpv6OutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/loopback_interface scm_loopback_interface}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/loopback_interface scm_loopback_interface}
 */
 export class DataScmLoopbackInterface extends cdktf.TerraformDataSource {
 
@@ -261,7 +261,7 @@ export class DataScmLoopbackInterface extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataScmLoopbackInterface resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataScmLoopbackInterface to import
-  * @param importFromId The id of the existing DataScmLoopbackInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/loopback_interface#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataScmLoopbackInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/loopback_interface#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataScmLoopbackInterface to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -273,7 +273,7 @@ export class DataScmLoopbackInterface extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/loopback_interface scm_loopback_interface} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/loopback_interface scm_loopback_interface} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -284,7 +284,8 @@ export class DataScmLoopbackInterface extends cdktf.TerraformDataSource {
       terraformResourceType: 'scm_loopback_interface',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.3'
+        providerVersion: '1.0.4',
+        providerVersionConstraint: '1.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

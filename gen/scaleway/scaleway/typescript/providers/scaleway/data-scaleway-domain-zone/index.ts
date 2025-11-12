@@ -74,7 +74,8 @@ export class DataScalewayDomainZone extends cdktf.TerraformDataSource {
       terraformResourceType: 'scaleway_domain_zone',
       terraformGeneratorMetadata: {
         providerName: 'scaleway',
-        providerVersion: '2.62.0'
+        providerVersion: '2.62.0',
+        providerVersionConstraint: '2.62.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

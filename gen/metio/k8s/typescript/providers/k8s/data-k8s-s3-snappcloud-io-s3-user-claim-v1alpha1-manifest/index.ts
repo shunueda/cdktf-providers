@@ -644,7 +644,8 @@ export class DataK8SS3SnappcloudIoS3UserClaimV1Alpha1Manifest extends cdktf.Terr
       terraformResourceType: 'k8s_s3_snappcloud_io_s3_user_claim_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

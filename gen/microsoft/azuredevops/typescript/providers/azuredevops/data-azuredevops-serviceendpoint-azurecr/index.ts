@@ -170,7 +170,8 @@ export class DataAzuredevopsServiceendpointAzurecr extends cdktf.TerraformDataSo
       terraformResourceType: 'azuredevops_serviceendpoint_azurecr',
       terraformGeneratorMetadata: {
         providerName: 'azuredevops',
-        providerVersion: '1.11.2'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -434,7 +434,8 @@ export class DataAlicloudCddcDedicatedHostGroups extends cdktf.TerraformDataSour
       terraformResourceType: 'alicloud_cddc_dedicated_host_groups',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

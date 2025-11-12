@@ -201,7 +201,8 @@ export class DataWorksNetwork extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_data_works_network',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

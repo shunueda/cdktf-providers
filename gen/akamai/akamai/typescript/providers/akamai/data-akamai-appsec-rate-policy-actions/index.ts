@@ -74,7 +74,8 @@ export class DataAkamaiAppsecRatePolicyActions extends cdktf.TerraformDataSource
       terraformResourceType: 'akamai_appsec_rate_policy_actions',
       terraformGeneratorMetadata: {
         providerName: 'akamai',
-        providerVersion: '9.1.0'
+        providerVersion: '9.1.0',
+        providerVersionConstraint: '9.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

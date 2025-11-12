@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_blueprint
+// https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_blueprint
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface FreeformBlueprintConfig extends cdktf.TerraformMetaArguments {
   /**
   * Blueprint name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_blueprint#name FreeformBlueprint#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_blueprint#name FreeformBlueprint#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_blueprint apstra_freeform_blueprint}
+* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_blueprint apstra_freeform_blueprint}
 */
 export class FreeformBlueprint extends cdktf.TerraformResource {
 
@@ -32,7 +32,7 @@ export class FreeformBlueprint extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FreeformBlueprint resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FreeformBlueprint to import
-  * @param importFromId The id of the existing FreeformBlueprint that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_blueprint#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FreeformBlueprint that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_blueprint#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FreeformBlueprint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class FreeformBlueprint extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_blueprint apstra_freeform_blueprint} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_blueprint apstra_freeform_blueprint} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,7 +55,8 @@ export class FreeformBlueprint extends cdktf.TerraformResource {
       terraformResourceType: 'apstra_freeform_blueprint',
       terraformGeneratorMetadata: {
         providerName: 'apstra',
-        providerVersion: '0.95.0'
+        providerVersion: '0.95.1',
+        providerVersionConstraint: '0.95.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

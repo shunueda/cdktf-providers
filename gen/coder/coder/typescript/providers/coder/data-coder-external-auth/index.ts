@@ -64,7 +64,8 @@ export class DataCoderExternalAuth extends cdktf.TerraformDataSource {
       terraformResourceType: 'coder_external_auth',
       terraformGeneratorMetadata: {
         providerName: 'coder',
-        providerVersion: '2.13.1'
+        providerVersion: '2.13.1',
+        providerVersionConstraint: '2.13.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

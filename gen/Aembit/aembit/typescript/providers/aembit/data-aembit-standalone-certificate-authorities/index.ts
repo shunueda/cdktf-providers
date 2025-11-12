@@ -255,7 +255,8 @@ export class DataAembitStandaloneCertificateAuthorities extends cdktf.TerraformD
       terraformResourceType: 'aembit_standalone_certificate_authorities',
       terraformGeneratorMetadata: {
         providerName: 'aembit',
-        providerVersion: '1.25.1'
+        providerVersion: '1.25.1',
+        providerVersionConstraint: '1.25.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

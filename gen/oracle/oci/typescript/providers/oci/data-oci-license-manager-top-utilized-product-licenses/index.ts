@@ -169,7 +169,8 @@ export class DataOciLicenseManagerTopUtilizedProductLicenses extends cdktf.Terra
       terraformResourceType: 'oci_license_manager_top_utilized_product_licenses',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -438,7 +438,8 @@ export class BdsBdsInstanceOperationCertificateManagementsManagement extends cdk
       terraformResourceType: 'oci_bds_bds_instance_operation_certificate_managements_management',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

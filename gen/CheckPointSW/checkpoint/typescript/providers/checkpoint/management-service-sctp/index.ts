@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_sctp
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_sctp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface ManagementServiceSctpConfig extends cdktf.TerraformMetaArgument
   /**
   * Sets short (aggressive) timeouts for idle connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_sctp#aggressive_aging ManagementServiceSctp#aggressive_aging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_sctp#aggressive_aging ManagementServiceSctp#aggressive_aging}
   */
   readonly aggressiveAging?: { [key: string]: string };
   /**
   * Color of the object. Should be one of existing colors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_sctp#color ManagementServiceSctp#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_sctp#color ManagementServiceSctp#color}
   */
   readonly color?: string;
   /**
   * Comments string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_sctp#comments ManagementServiceSctp#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_sctp#comments ManagementServiceSctp#comments}
   */
   readonly comments?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_sctp#id ManagementServiceSctp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_sctp#id ManagementServiceSctp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,73 +35,73 @@ export interface ManagementServiceSctpConfig extends cdktf.TerraformMetaArgument
   /**
   * Apply changes ignoring errors. You won't be able to publish such a changes. If ignore-warnings flag was omitted - warnings will also be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_sctp#ignore_errors ManagementServiceSctp#ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_sctp#ignore_errors ManagementServiceSctp#ignore_errors}
   */
   readonly ignoreErrors?: boolean | cdktf.IResolvable;
   /**
   * Apply changes ignoring warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_sctp#ignore_warnings ManagementServiceSctp#ignore_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_sctp#ignore_warnings ManagementServiceSctp#ignore_warnings}
   */
   readonly ignoreWarnings?: boolean | cdktf.IResolvable;
   /**
   * Keep connections open after policy has been installed even if they are not allowed under the new policy. This overrides the settings in the Connection Persistence page. If you change this property, the change will not affect open connections, but only future connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_sctp#keep_connections_open_after_policy_installation ManagementServiceSctp#keep_connections_open_after_policy_installation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_sctp#keep_connections_open_after_policy_installation ManagementServiceSctp#keep_connections_open_after_policy_installation}
   */
   readonly keepConnectionsOpenAfterPolicyInstallation?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether this service is used when 'Any' is set as the rule's service and there are several service objects with the same source port and protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_sctp#match_for_any ManagementServiceSctp#match_for_any}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_sctp#match_for_any ManagementServiceSctp#match_for_any}
   */
   readonly matchForAny?: boolean | cdktf.IResolvable;
   /**
   * Object name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_sctp#name ManagementServiceSctp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_sctp#name ManagementServiceSctp#name}
   */
   readonly name: string;
   /**
   * Port number. To specify a port range add a hyphen between the lowest and the highest port numbers, for example 44-45.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_sctp#port ManagementServiceSctp#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_sctp#port ManagementServiceSctp#port}
   */
   readonly port?: string;
   /**
   * Time (in seconds) before the session times out.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_sctp#session_timeout ManagementServiceSctp#session_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_sctp#session_timeout ManagementServiceSctp#session_timeout}
   */
   readonly sessionTimeout?: number;
   /**
   * Source port number. To specify a port range add a hyphen between the lowest and the highest port numbers, for example 44-45.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_sctp#source_port ManagementServiceSctp#source_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_sctp#source_port ManagementServiceSctp#source_port}
   */
   readonly sourcePort?: string;
   /**
   * Enables state-synchronized High Availability or Load Sharing on a ClusterXL or OPSEC-certified cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_sctp#sync_connections_on_cluster ManagementServiceSctp#sync_connections_on_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_sctp#sync_connections_on_cluster ManagementServiceSctp#sync_connections_on_cluster}
   */
   readonly syncConnectionsOnCluster?: boolean | cdktf.IResolvable;
   /**
   * Collection of tag identifiers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_sctp#tags ManagementServiceSctp#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_sctp#tags ManagementServiceSctp#tags}
   */
   readonly tags?: string[];
   /**
   * Use default virtual session timeout.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_sctp#use_default_session_timeout ManagementServiceSctp#use_default_session_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_sctp#use_default_session_timeout ManagementServiceSctp#use_default_session_timeout}
   */
   readonly useDefaultSessionTimeout?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_sctp checkpoint_management_service_sctp}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_sctp checkpoint_management_service_sctp}
 */
 export class ManagementServiceSctp extends cdktf.TerraformResource {
 
@@ -117,7 +117,7 @@ export class ManagementServiceSctp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementServiceSctp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementServiceSctp to import
-  * @param importFromId The id of the existing ManagementServiceSctp that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_sctp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementServiceSctp that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_sctp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementServiceSctp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -129,7 +129,7 @@ export class ManagementServiceSctp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_service_sctp checkpoint_management_service_sctp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_service_sctp checkpoint_management_service_sctp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -140,7 +140,8 @@ export class ManagementServiceSctp extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_service_sctp',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

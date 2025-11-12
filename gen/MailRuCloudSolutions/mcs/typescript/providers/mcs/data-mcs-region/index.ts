@@ -56,7 +56,8 @@ export class DataMcsRegion extends cdktf.TerraformDataSource {
       terraformResourceType: 'mcs_region',
       terraformGeneratorMetadata: {
         providerName: 'mcs',
-        providerVersion: '0.6.14'
+        providerVersion: '0.6.14',
+        providerVersionConstraint: '0.6.14'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -84,7 +84,8 @@ export class WirelesscontrollerBonjourprofilePolicylistMove extends cdktf.Terraf
       terraformResourceType: 'fmgdevice_wirelesscontroller_bonjourprofile_policylist_move',
       terraformGeneratorMetadata: {
         providerName: 'fmgdevice',
-        providerVersion: '1.2.1'
+        providerVersion: '1.2.1',
+        providerVersionConstraint: '1.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

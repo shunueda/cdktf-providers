@@ -343,7 +343,8 @@ export class DataFortisaseEndpointsSoftwareOnEndpoint extends cdktf.TerraformDat
       terraformResourceType: 'fortisase_endpoints_software_on_endpoint',
       terraformGeneratorMetadata: {
         providerName: 'fortisase',
-        providerVersion: '1.0.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

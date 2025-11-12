@@ -235,7 +235,8 @@ export class RemoteProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'remote',
       terraformGeneratorMetadata: {
         providerName: 'remote',
-        providerVersion: '0.2.1'
+        providerVersion: '0.2.1',
+        providerVersionConstraint: '0.2.1'
       },
       terraformProviderSource: 'tenstad/remote'
     });

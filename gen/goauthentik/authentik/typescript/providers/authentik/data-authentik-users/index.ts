@@ -253,7 +253,8 @@ export class DataAuthentikUsers extends cdktf.TerraformDataSource {
       terraformResourceType: 'authentik_users',
       terraformGeneratorMetadata: {
         providerName: 'authentik',
-        providerVersion: '2025.10.0'
+        providerVersion: '2025.10.0',
+        providerVersionConstraint: '2025.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

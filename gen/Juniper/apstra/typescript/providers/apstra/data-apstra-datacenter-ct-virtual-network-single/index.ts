@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_ct_virtual_network_single
+// https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_ct_virtual_network_single
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface DataApstraDatacenterCtVirtualNetworkSingleConfig extends cdktf.
   /**
   * Set of JSON strings describing Connectivity Template Primitives which are children of this Connectivity Template Primitive. Use the `primitive` attribute of other Connectivity Template Primitives data sources here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_ct_virtual_network_single#child_primitives DataApstraDatacenterCtVirtualNetworkSingle#child_primitives}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_ct_virtual_network_single#child_primitives DataApstraDatacenterCtVirtualNetworkSingle#child_primitives}
   */
   readonly childPrimitives?: string[];
   /**
   * Primitive name displayed in the web UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_ct_virtual_network_single#name DataApstraDatacenterCtVirtualNetworkSingle#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_ct_virtual_network_single#name DataApstraDatacenterCtVirtualNetworkSingle#name}
   */
   readonly name?: string;
   /**
   * Indicates whether the VN should mark frames belonging to the VN with 802.1Q tags. Default: `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_ct_virtual_network_single#tagged DataApstraDatacenterCtVirtualNetworkSingle#tagged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_ct_virtual_network_single#tagged DataApstraDatacenterCtVirtualNetworkSingle#tagged}
   */
   readonly tagged?: boolean | cdktf.IResolvable;
   /**
   * Virtual Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_ct_virtual_network_single#vn_id DataApstraDatacenterCtVirtualNetworkSingle#vn_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_ct_virtual_network_single#vn_id DataApstraDatacenterCtVirtualNetworkSingle#vn_id}
   */
   readonly vnId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_ct_virtual_network_single apstra_datacenter_ct_virtual_network_single}
+* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_ct_virtual_network_single apstra_datacenter_ct_virtual_network_single}
 */
 export class DataApstraDatacenterCtVirtualNetworkSingle extends cdktf.TerraformDataSource {
 
@@ -50,7 +50,7 @@ export class DataApstraDatacenterCtVirtualNetworkSingle extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataApstraDatacenterCtVirtualNetworkSingle resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataApstraDatacenterCtVirtualNetworkSingle to import
-  * @param importFromId The id of the existing DataApstraDatacenterCtVirtualNetworkSingle that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_ct_virtual_network_single#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataApstraDatacenterCtVirtualNetworkSingle that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_ct_virtual_network_single#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataApstraDatacenterCtVirtualNetworkSingle to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class DataApstraDatacenterCtVirtualNetworkSingle extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_ct_virtual_network_single apstra_datacenter_ct_virtual_network_single} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_ct_virtual_network_single apstra_datacenter_ct_virtual_network_single} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,7 +73,8 @@ export class DataApstraDatacenterCtVirtualNetworkSingle extends cdktf.TerraformD
       terraformResourceType: 'apstra_datacenter_ct_virtual_network_single',
       terraformGeneratorMetadata: {
         providerName: 'apstra',
-        providerVersion: '0.95.0'
+        providerVersion: '0.95.1',
+        providerVersionConstraint: '0.95.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

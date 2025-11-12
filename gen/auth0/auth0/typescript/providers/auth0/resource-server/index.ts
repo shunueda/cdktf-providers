@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/resource_server
+// https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/resource_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface ResourceServerConfig extends cdktf.TerraformMetaArguments {
   /**
   * Indicates whether refresh tokens can be issued for this resource server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/resource_server#allow_offline_access ResourceServer#allow_offline_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/resource_server#allow_offline_access ResourceServer#allow_offline_access}
   */
   readonly allowOfflineAccess?: boolean | cdktf.IResolvable;
   /**
   * Consent policy for this resource server. Options include `transactional-authorization-with-mfa`, or `null` to disable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/resource_server#consent_policy ResourceServer#consent_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/resource_server#consent_policy ResourceServer#consent_policy}
   */
   readonly consentPolicy?: string;
   /**
   * If this setting is enabled, RBAC authorization policies will be enforced for this API. Role and permission assignments will be evaluated during the login transaction.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/resource_server#enforce_policies ResourceServer#enforce_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/resource_server#enforce_policies ResourceServer#enforce_policies}
   */
   readonly enforcePolicies?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/resource_server#id ResourceServer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/resource_server#id ResourceServer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,79 +35,79 @@ export interface ResourceServerConfig extends cdktf.TerraformMetaArguments {
   /**
   * Unique identifier for the resource server. Used as the audience parameter for authorization calls. Cannot be changed once set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/resource_server#identifier ResourceServer#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/resource_server#identifier ResourceServer#identifier}
   */
   readonly identifier: string;
   /**
   * Friendly name for the resource server. Cannot include `<` or `>` characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/resource_server#name ResourceServer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/resource_server#name ResourceServer#name}
   */
   readonly name?: string;
   /**
   * Algorithm used to sign JWTs. Options include `HS256`, `RS256`, and `PS256`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/resource_server#signing_alg ResourceServer#signing_alg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/resource_server#signing_alg ResourceServer#signing_alg}
   */
   readonly signingAlg?: string;
   /**
   * Secret used to sign tokens when using symmetric algorithms (HS256).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/resource_server#signing_secret ResourceServer#signing_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/resource_server#signing_secret ResourceServer#signing_secret}
   */
   readonly signingSecret?: string;
   /**
   * Indicates whether to skip user consent for applications flagged as first party.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/resource_server#skip_consent_for_verifiable_first_party_clients ResourceServer#skip_consent_for_verifiable_first_party_clients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/resource_server#skip_consent_for_verifiable_first_party_clients ResourceServer#skip_consent_for_verifiable_first_party_clients}
   */
   readonly skipConsentForVerifiableFirstPartyClients?: boolean | cdktf.IResolvable;
   /**
   * Dialect of access tokens that should be issued for this resource server. Options include `access_token`, `rfc9068_profile`, `access_token_authz`, and `rfc9068_profile_authz`. `access_token` is a JWT containing standard Auth0 claims. `rfc9068_profile` is a JWT conforming to the IETF JWT Access Token Profile. `access_token_authz` is a JWT containing standard Auth0 claims, including RBAC permissions claims. `rfc9068_profile_authz` is a JWT conforming to the IETF JWT Access Token Profile, including RBAC permissions claims. RBAC permissions claims are available if RBAC (`enforce_policies`) is enabled for this API. For more details, refer to [Access Token Profiles](https://auth0.com/docs/secure/tokens/access-tokens/access-token-profiles).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/resource_server#token_dialect ResourceServer#token_dialect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/resource_server#token_dialect ResourceServer#token_dialect}
   */
   readonly tokenDialect?: string;
   /**
   * Number of seconds during which access tokens issued for this resource server from the token endpoint remain valid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/resource_server#token_lifetime ResourceServer#token_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/resource_server#token_lifetime ResourceServer#token_lifetime}
   */
   readonly tokenLifetime?: number;
   /**
   * Number of seconds during which access tokens issued for this resource server via implicit or hybrid flows remain valid. Cannot be greater than the `token_lifetime` value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/resource_server#token_lifetime_for_web ResourceServer#token_lifetime_for_web}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/resource_server#token_lifetime_for_web ResourceServer#token_lifetime_for_web}
   */
   readonly tokenLifetimeForWeb?: number;
   /**
   * URL from which to retrieve JWKs for this resource server. Used for verifying the JWT sent to Auth0 for token introspection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/resource_server#verification_location ResourceServer#verification_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/resource_server#verification_location ResourceServer#verification_location}
   */
   readonly verificationLocation?: string;
   /**
   * authorization_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/resource_server#authorization_details ResourceServer#authorization_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/resource_server#authorization_details ResourceServer#authorization_details}
   */
   readonly authorizationDetails?: ResourceServerAuthorizationDetails[] | cdktf.IResolvable;
   /**
   * proof_of_possession block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/resource_server#proof_of_possession ResourceServer#proof_of_possession}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/resource_server#proof_of_possession ResourceServer#proof_of_possession}
   */
   readonly proofOfPossession?: ResourceServerProofOfPossession;
   /**
   * subject_type_authorization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/resource_server#subject_type_authorization ResourceServer#subject_type_authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/resource_server#subject_type_authorization ResourceServer#subject_type_authorization}
   */
   readonly subjectTypeAuthorization?: ResourceServerSubjectTypeAuthorization;
   /**
   * token_encryption block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/resource_server#token_encryption ResourceServer#token_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/resource_server#token_encryption ResourceServer#token_encryption}
   */
   readonly tokenEncryption?: ResourceServerTokenEncryption;
 }
@@ -115,13 +115,13 @@ export interface ResourceServerAuthorizationDetails {
   /**
   * Disable authorization details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/resource_server#disable ResourceServer#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/resource_server#disable ResourceServer#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * Type of authorization details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/resource_server#type ResourceServer#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/resource_server#type ResourceServer#type}
   */
   readonly type?: string;
 }
@@ -268,19 +268,19 @@ export interface ResourceServerProofOfPossession {
   /**
   * Disable proof-of-possession.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/resource_server#disable ResourceServer#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/resource_server#disable ResourceServer#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * Mechanism used for proof-of-possession. `mtls` or `dpop` is supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/resource_server#mechanism ResourceServer#mechanism}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/resource_server#mechanism ResourceServer#mechanism}
   */
   readonly mechanism?: string;
   /**
   * Indicates whether proof-of-possession is required with this resource server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/resource_server#required ResourceServer#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/resource_server#required ResourceServer#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
 }
@@ -424,7 +424,7 @@ export interface ResourceServerSubjectTypeAuthorizationClient {
   /**
   * Client flows policy. One of `deny_all`, `require_client_grant`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/resource_server#policy ResourceServer#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/resource_server#policy ResourceServer#policy}
   */
   readonly policy?: string;
 }
@@ -510,7 +510,7 @@ export interface ResourceServerSubjectTypeAuthorizationUser {
   /**
   * User flows policy. One of `allow_all`, `deny_all`, `require_client_grant`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/resource_server#policy ResourceServer#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/resource_server#policy ResourceServer#policy}
   */
   readonly policy?: string;
 }
@@ -596,13 +596,13 @@ export interface ResourceServerSubjectTypeAuthorization {
   /**
   * client block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/resource_server#client ResourceServer#client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/resource_server#client ResourceServer#client}
   */
   readonly client?: ResourceServerSubjectTypeAuthorizationClient;
   /**
   * user block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/resource_server#user ResourceServer#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/resource_server#user ResourceServer#user}
   */
   readonly user?: ResourceServerSubjectTypeAuthorizationUser;
 }
@@ -717,25 +717,25 @@ export interface ResourceServerTokenEncryptionEncryptionKey {
   /**
   * Algorithm used to encrypt the token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/resource_server#algorithm ResourceServer#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/resource_server#algorithm ResourceServer#algorithm}
   */
   readonly algorithm: string;
   /**
   * Key ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/resource_server#kid ResourceServer#kid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/resource_server#kid ResourceServer#kid}
   */
   readonly kid?: string;
   /**
   * Name of the encryption key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/resource_server#name ResourceServer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/resource_server#name ResourceServer#name}
   */
   readonly name?: string;
   /**
   * PEM-formatted public key. Must be JSON escaped.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/resource_server#pem ResourceServer#pem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/resource_server#pem ResourceServer#pem}
   */
   readonly pem: string;
 }
@@ -902,19 +902,19 @@ export interface ResourceServerTokenEncryption {
   /**
   * Disable token encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/resource_server#disable ResourceServer#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/resource_server#disable ResourceServer#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * Format of the token encryption. Only `compact-nested-jwe` is supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/resource_server#format ResourceServer#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/resource_server#format ResourceServer#format}
   */
   readonly format?: string;
   /**
   * encryption_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/resource_server#encryption_key ResourceServer#encryption_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/resource_server#encryption_key ResourceServer#encryption_key}
   */
   readonly encryptionKey?: ResourceServerTokenEncryptionEncryptionKey;
 }
@@ -1056,7 +1056,7 @@ export class ResourceServerTokenEncryptionOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/resource_server auth0_resource_server}
+* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/resource_server auth0_resource_server}
 */
 export class ResourceServer extends cdktf.TerraformResource {
 
@@ -1072,7 +1072,7 @@ export class ResourceServer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ResourceServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ResourceServer to import
-  * @param importFromId The id of the existing ResourceServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/resource_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ResourceServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/resource_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ResourceServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1084,7 +1084,7 @@ export class ResourceServer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/resource_server auth0_resource_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/resource_server auth0_resource_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1095,7 +1095,8 @@ export class ResourceServer extends cdktf.TerraformResource {
       terraformResourceType: 'auth0_resource_server',
       terraformGeneratorMetadata: {
         providerName: 'auth0',
-        providerVersion: '1.33.0'
+        providerVersion: '1.34.0',
+        providerVersionConstraint: '1.34.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

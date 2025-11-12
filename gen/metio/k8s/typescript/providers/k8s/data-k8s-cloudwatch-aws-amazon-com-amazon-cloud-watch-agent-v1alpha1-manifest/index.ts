@@ -66,7 +66,8 @@ export class DataK8SCloudwatchAwsAmazonComAmazonCloudWatchAgentV1Alpha1Manifest 
       terraformResourceType: 'k8s_cloudwatch_aws_amazon_com_amazon_cloud_watch_agent_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

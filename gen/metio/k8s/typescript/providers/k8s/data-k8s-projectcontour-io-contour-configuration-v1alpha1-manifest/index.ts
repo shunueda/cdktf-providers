@@ -9419,7 +9419,8 @@ export class DataK8SProjectcontourIoContourConfigurationV1Alpha1Manifest extends
       terraformResourceType: 'k8s_projectcontour_io_contour_configuration_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

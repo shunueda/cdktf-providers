@@ -104,7 +104,8 @@ export class VodSnapshotByTimeOffsetTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_vod_snapshot_by_time_offset_template',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

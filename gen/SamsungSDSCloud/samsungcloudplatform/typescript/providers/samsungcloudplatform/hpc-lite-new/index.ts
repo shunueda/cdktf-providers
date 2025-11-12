@@ -459,7 +459,8 @@ export class HpcLiteNew extends cdktf.TerraformResource {
       terraformResourceType: 'samsungcloudplatform_hpc_lite_new',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0'
+        providerVersion: '3.15.0',
+        providerVersionConstraint: '3.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

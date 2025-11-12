@@ -74,7 +74,8 @@ export class IntegrationGcpSecretManager extends cdktf.TerraformResource {
       terraformResourceType: 'doppler_integration_gcp_secret_manager',
       terraformGeneratorMetadata: {
         providerName: 'doppler',
-        providerVersion: '1.21.0'
+        providerVersion: '1.21.0',
+        providerVersionConstraint: '1.21.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

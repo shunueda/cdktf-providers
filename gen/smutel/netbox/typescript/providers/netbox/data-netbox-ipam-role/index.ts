@@ -62,7 +62,8 @@ export class DataNetboxIpamRole extends cdktf.TerraformDataSource {
       terraformResourceType: 'netbox_ipam_role',
       terraformGeneratorMetadata: {
         providerName: 'netbox',
-        providerVersion: '8.0.2'
+        providerVersion: '8.0.2',
+        providerVersionConstraint: '8.0.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -369,7 +369,8 @@ export class RelationFromBridgeDomainToL3Outside extends cdktf.TerraformResource
       terraformResourceType: 'aci_relation_from_bridge_domain_to_l3_outside',
       terraformGeneratorMetadata: {
         providerName: 'aci',
-        providerVersion: '2.18.0'
+        providerVersion: '2.18.0',
+        providerVersionConstraint: '2.18.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

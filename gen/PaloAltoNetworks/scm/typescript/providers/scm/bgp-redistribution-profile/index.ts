@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_redistribution_profile
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_redistribution_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface BgpRedistributionProfileConfig extends cdktf.TerraformMetaArgum
   /**
   * The device in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_redistribution_profile#device BgpRedistributionProfile#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_redistribution_profile#device BgpRedistributionProfile#device}
   */
   readonly device?: string;
   /**
   * The folder in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_redistribution_profile#folder BgpRedistributionProfile#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_redistribution_profile#folder BgpRedistributionProfile#folder}
   */
   readonly folder?: string;
   /**
   * Ipv4
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_redistribution_profile#ipv4 BgpRedistributionProfile#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_redistribution_profile#ipv4 BgpRedistributionProfile#ipv4}
   */
   readonly ipv4: BgpRedistributionProfileIpv4;
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_redistribution_profile#name BgpRedistributionProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_redistribution_profile#name BgpRedistributionProfile#name}
   */
   readonly name: string;
   /**
   * The snippet in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_redistribution_profile#snippet BgpRedistributionProfile#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_redistribution_profile#snippet BgpRedistributionProfile#snippet}
   */
   readonly snippet?: string;
 }
@@ -42,19 +42,19 @@ export interface BgpRedistributionProfileIpv4UnicastConnected {
   /**
   * Enable connected route redistribution?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_redistribution_profile#enable BgpRedistributionProfile#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_redistribution_profile#enable BgpRedistributionProfile#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Route metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_redistribution_profile#metric BgpRedistributionProfile#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_redistribution_profile#metric BgpRedistributionProfile#metric}
   */
   readonly metric?: number;
   /**
   * Route map
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_redistribution_profile#route_map BgpRedistributionProfile#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_redistribution_profile#route_map BgpRedistributionProfile#route_map}
   */
   readonly routeMap?: string;
 }
@@ -208,19 +208,19 @@ export interface BgpRedistributionProfileIpv4UnicastOspf {
   /**
   * Enable OSPF route redistribution?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_redistribution_profile#enable BgpRedistributionProfile#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_redistribution_profile#enable BgpRedistributionProfile#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Route metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_redistribution_profile#metric BgpRedistributionProfile#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_redistribution_profile#metric BgpRedistributionProfile#metric}
   */
   readonly metric?: number;
   /**
   * Route map
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_redistribution_profile#route_map BgpRedistributionProfile#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_redistribution_profile#route_map BgpRedistributionProfile#route_map}
   */
   readonly routeMap?: string;
 }
@@ -374,19 +374,19 @@ export interface BgpRedistributionProfileIpv4UnicastStatic {
   /**
   * Enable static route redistribution?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_redistribution_profile#enable BgpRedistributionProfile#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_redistribution_profile#enable BgpRedistributionProfile#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Route metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_redistribution_profile#metric BgpRedistributionProfile#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_redistribution_profile#metric BgpRedistributionProfile#metric}
   */
   readonly metric?: number;
   /**
   * Route map
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_redistribution_profile#route_map BgpRedistributionProfile#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_redistribution_profile#route_map BgpRedistributionProfile#route_map}
   */
   readonly routeMap?: string;
 }
@@ -540,19 +540,19 @@ export interface BgpRedistributionProfileIpv4Unicast {
   /**
   * Connected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_redistribution_profile#connected BgpRedistributionProfile#connected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_redistribution_profile#connected BgpRedistributionProfile#connected}
   */
   readonly connected?: BgpRedistributionProfileIpv4UnicastConnected;
   /**
   * Ospf
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_redistribution_profile#ospf BgpRedistributionProfile#ospf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_redistribution_profile#ospf BgpRedistributionProfile#ospf}
   */
   readonly ospf?: BgpRedistributionProfileIpv4UnicastOspf;
   /**
   * Static
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_redistribution_profile#static BgpRedistributionProfile#static}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_redistribution_profile#static BgpRedistributionProfile#static}
   */
   readonly static?: BgpRedistributionProfileIpv4UnicastStatic;
 }
@@ -706,7 +706,7 @@ export interface BgpRedistributionProfileIpv4 {
   /**
   * Unicast
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_redistribution_profile#unicast BgpRedistributionProfile#unicast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_redistribution_profile#unicast BgpRedistributionProfile#unicast}
   */
   readonly unicast?: BgpRedistributionProfileIpv4Unicast;
 }
@@ -800,7 +800,7 @@ export class BgpRedistributionProfileIpv4OutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_redistribution_profile scm_bgp_redistribution_profile}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_redistribution_profile scm_bgp_redistribution_profile}
 */
 export class BgpRedistributionProfile extends cdktf.TerraformResource {
 
@@ -816,7 +816,7 @@ export class BgpRedistributionProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BgpRedistributionProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BgpRedistributionProfile to import
-  * @param importFromId The id of the existing BgpRedistributionProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_redistribution_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BgpRedistributionProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_redistribution_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BgpRedistributionProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -828,7 +828,7 @@ export class BgpRedistributionProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/bgp_redistribution_profile scm_bgp_redistribution_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/bgp_redistribution_profile scm_bgp_redistribution_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -839,7 +839,8 @@ export class BgpRedistributionProfile extends cdktf.TerraformResource {
       terraformResourceType: 'scm_bgp_redistribution_profile',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.3'
+        providerVersion: '1.0.4',
+        providerVersionConstraint: '1.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

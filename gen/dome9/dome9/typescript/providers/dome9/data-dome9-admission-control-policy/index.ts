@@ -56,7 +56,8 @@ export class DataDome9AdmissionControlPolicy extends cdktf.TerraformDataSource {
       terraformResourceType: 'dome9_admission_control_policy',
       terraformGeneratorMetadata: {
         providerName: 'dome9',
-        providerVersion: '1.40.4'
+        providerVersion: '1.40.4',
+        providerVersionConstraint: '1.40.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

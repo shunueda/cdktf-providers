@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_securemote_dns_server
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_securemote_dns_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface ManagementSecuremoteDnsServerConfig extends cdktf.TerraformMeta
   /**
   * Color of the object. Should be one of existing colors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_securemote_dns_server#color ManagementSecuremoteDnsServer#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_securemote_dns_server#color ManagementSecuremoteDnsServer#color}
   */
   readonly color?: string;
   /**
   * Comments string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_securemote_dns_server#comments ManagementSecuremoteDnsServer#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_securemote_dns_server#comments ManagementSecuremoteDnsServer#comments}
   */
   readonly comments?: string;
   /**
   * DNS server for remote clients in the Remote access community.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_securemote_dns_server#host ManagementSecuremoteDnsServer#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_securemote_dns_server#host ManagementSecuremoteDnsServer#host}
   */
   readonly host: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_securemote_dns_server#id ManagementSecuremoteDnsServer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_securemote_dns_server#id ManagementSecuremoteDnsServer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,31 +35,31 @@ export interface ManagementSecuremoteDnsServerConfig extends cdktf.TerraformMeta
   /**
   * Apply changes ignoring errors. You won't be able to publish such a changes. If ignore-warnings flag was omitted - warnings will also be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_securemote_dns_server#ignore_errors ManagementSecuremoteDnsServer#ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_securemote_dns_server#ignore_errors ManagementSecuremoteDnsServer#ignore_errors}
   */
   readonly ignoreErrors?: boolean | cdktf.IResolvable;
   /**
   * Apply changes ignoring warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_securemote_dns_server#ignore_warnings ManagementSecuremoteDnsServer#ignore_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_securemote_dns_server#ignore_warnings ManagementSecuremoteDnsServer#ignore_warnings}
   */
   readonly ignoreWarnings?: boolean | cdktf.IResolvable;
   /**
   * Object name. Should be unique in the domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_securemote_dns_server#name ManagementSecuremoteDnsServer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_securemote_dns_server#name ManagementSecuremoteDnsServer#name}
   */
   readonly name: string;
   /**
   * Collection of tag identifiers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_securemote_dns_server#tags ManagementSecuremoteDnsServer#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_securemote_dns_server#tags ManagementSecuremoteDnsServer#tags}
   */
   readonly tags?: string[];
   /**
   * domains block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_securemote_dns_server#domains ManagementSecuremoteDnsServer#domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_securemote_dns_server#domains ManagementSecuremoteDnsServer#domains}
   */
   readonly domains?: ManagementSecuremoteDnsServerDomains[] | cdktf.IResolvable;
 }
@@ -67,13 +67,13 @@ export interface ManagementSecuremoteDnsServerDomains {
   /**
   * DNS Domain suffix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_securemote_dns_server#domain_suffix ManagementSecuremoteDnsServer#domain_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_securemote_dns_server#domain_suffix ManagementSecuremoteDnsServer#domain_suffix}
   */
   readonly domainSuffix: string;
   /**
   * Maximum number of matching labels preceding the suffix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_securemote_dns_server#maximum_prefix_label_count ManagementSecuremoteDnsServer#maximum_prefix_label_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_securemote_dns_server#maximum_prefix_label_count ManagementSecuremoteDnsServer#maximum_prefix_label_count}
   */
   readonly maximumPrefixLabelCount?: number;
 }
@@ -215,7 +215,7 @@ export class ManagementSecuremoteDnsServerDomainsList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_securemote_dns_server checkpoint_management_securemote_dns_server}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_securemote_dns_server checkpoint_management_securemote_dns_server}
 */
 export class ManagementSecuremoteDnsServer extends cdktf.TerraformResource {
 
@@ -231,7 +231,7 @@ export class ManagementSecuremoteDnsServer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementSecuremoteDnsServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementSecuremoteDnsServer to import
-  * @param importFromId The id of the existing ManagementSecuremoteDnsServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_securemote_dns_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementSecuremoteDnsServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_securemote_dns_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementSecuremoteDnsServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -243,7 +243,7 @@ export class ManagementSecuremoteDnsServer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_securemote_dns_server checkpoint_management_securemote_dns_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_securemote_dns_server checkpoint_management_securemote_dns_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -254,7 +254,8 @@ export class ManagementSecuremoteDnsServer extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_securemote_dns_server',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -211,7 +211,8 @@ export class DataAlicloudDirectMailMailAddresses extends cdktf.TerraformDataSour
       terraformResourceType: 'alicloud_direct_mail_mail_addresses',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

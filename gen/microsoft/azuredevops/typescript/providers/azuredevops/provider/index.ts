@@ -169,7 +169,8 @@ export class AzuredevopsProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'azuredevops',
       terraformGeneratorMetadata: {
         providerName: 'azuredevops',
-        providerVersion: '1.11.2'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       terraformProviderSource: 'microsoft/azuredevops'
     });

@@ -467,7 +467,8 @@ export class DataAhIps extends cdktf.TerraformDataSource {
       terraformResourceType: 'ah_ips',
       terraformGeneratorMetadata: {
         providerName: 'ah',
-        providerVersion: '0.3.6'
+        providerVersion: '0.3.6',
+        providerVersionConstraint: '0.3.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

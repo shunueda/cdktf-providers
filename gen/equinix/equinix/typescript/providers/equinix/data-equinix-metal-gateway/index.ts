@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/data-sources/metal_gateway
+// https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/metal_gateway
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataEquinixMetalGatewayConfig extends cdktf.TerraformMetaArgume
   /**
   * UUID of the Metal Gateway to fetch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/data-sources/metal_gateway#gateway_id DataEquinixMetalGateway#gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/metal_gateway#gateway_id DataEquinixMetalGateway#gateway_id}
   */
   readonly gatewayId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/data-sources/metal_gateway equinix_metal_gateway}
+* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/metal_gateway equinix_metal_gateway}
 */
 export class DataEquinixMetalGateway extends cdktf.TerraformDataSource {
 
@@ -32,7 +32,7 @@ export class DataEquinixMetalGateway extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataEquinixMetalGateway resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataEquinixMetalGateway to import
-  * @param importFromId The id of the existing DataEquinixMetalGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/data-sources/metal_gateway#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataEquinixMetalGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/metal_gateway#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataEquinixMetalGateway to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class DataEquinixMetalGateway extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/data-sources/metal_gateway equinix_metal_gateway} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/metal_gateway equinix_metal_gateway} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,7 +55,8 @@ export class DataEquinixMetalGateway extends cdktf.TerraformDataSource {
       terraformResourceType: 'equinix_metal_gateway',
       terraformGeneratorMetadata: {
         providerName: 'equinix',
-        providerVersion: '4.8.0'
+        providerVersion: '4.10.0',
+        providerVersionConstraint: '4.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

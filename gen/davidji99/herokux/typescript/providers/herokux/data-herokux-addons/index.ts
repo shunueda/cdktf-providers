@@ -154,7 +154,8 @@ export class DataHerokuxAddons extends cdktf.TerraformDataSource {
       terraformResourceType: 'herokux_addons',
       terraformGeneratorMetadata: {
         providerName: 'herokux',
-        providerVersion: '1.4.7'
+        providerVersion: '1.4.7',
+        providerVersionConstraint: '1.4.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

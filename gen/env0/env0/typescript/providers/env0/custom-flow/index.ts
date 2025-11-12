@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/custom_flow
+// https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/custom_flow
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,97 +10,97 @@ export interface CustomFlowConfig extends cdktf.TerraformMetaArguments {
   /**
   * the bitbucket client key used for integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/custom_flow#bitbucket_client_key CustomFlow#bitbucket_client_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/custom_flow#bitbucket_client_key CustomFlow#bitbucket_client_key}
   */
   readonly bitbucketClientKey?: string;
   /**
   * the env0 application installation id on the relevant github repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/custom_flow#github_installation_id CustomFlow#github_installation_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/custom_flow#github_installation_id CustomFlow#github_installation_id}
   */
   readonly githubInstallationId?: number;
   /**
   * the project id of the relevant repository (deprecated)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/custom_flow#gitlab_project_id CustomFlow#gitlab_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/custom_flow#gitlab_project_id CustomFlow#gitlab_project_id}
   */
   readonly gitlabProjectId?: number;
   /**
   * true if this custom flow integrates with azure dev ops repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/custom_flow#is_azure_devops CustomFlow#is_azure_devops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/custom_flow#is_azure_devops CustomFlow#is_azure_devops}
   */
   readonly isAzureDevops?: boolean | cdktf.IResolvable;
   /**
   * true if this custom flow uses bitbucket server repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/custom_flow#is_bitbucket_server CustomFlow#is_bitbucket_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/custom_flow#is_bitbucket_server CustomFlow#is_bitbucket_server}
   */
   readonly isBitbucketServer?: boolean | cdktf.IResolvable;
   /**
   * true if this custom flow uses github enterprise repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/custom_flow#is_github_enterprise CustomFlow#is_github_enterprise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/custom_flow#is_github_enterprise CustomFlow#is_github_enterprise}
   */
   readonly isGithubEnterprise?: boolean | cdktf.IResolvable;
   /**
   * true if this custom flow integrates with gitlab repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/custom_flow#is_gitlab CustomFlow#is_gitlab}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/custom_flow#is_gitlab CustomFlow#is_gitlab}
   */
   readonly isGitlab?: boolean | cdktf.IResolvable;
   /**
   * true if this custom flow uses gitlab enterprise repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/custom_flow#is_gitlab_enterprise CustomFlow#is_gitlab_enterprise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/custom_flow#is_gitlab_enterprise CustomFlow#is_gitlab_enterprise}
   */
   readonly isGitlabEnterprise?: boolean | cdktf.IResolvable;
   /**
   * name for the custom flow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/custom_flow#name CustomFlow#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/custom_flow#name CustomFlow#name}
   */
   readonly name: string;
   /**
   * terraform / terragrunt file folder inside source code. Should be the full path including the .yaml/.yml file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/custom_flow#path CustomFlow#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/custom_flow#path CustomFlow#path}
   */
   readonly path?: string;
   /**
   * repository url for the custom flow source code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/custom_flow#repository CustomFlow#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/custom_flow#repository CustomFlow#repository}
   */
   readonly repository: string;
   /**
   * source code revision (branch / tag) to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/custom_flow#revision CustomFlow#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/custom_flow#revision CustomFlow#revision}
   */
   readonly revision?: string;
   /**
   * an array of references to 'data_ssh_key' to use when accessing git over ssh
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/custom_flow#ssh_keys CustomFlow#ssh_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/custom_flow#ssh_keys CustomFlow#ssh_keys}
   */
   readonly sshKeys?: { [key: string]: string }[] | cdktf.IResolvable;
   /**
   * the git token id to be used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/custom_flow#token_id CustomFlow#token_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/custom_flow#token_id CustomFlow#token_id}
   */
   readonly tokenId?: string;
   /**
   * the VCS connection id to be used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/custom_flow#vcs_connection_id CustomFlow#vcs_connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/custom_flow#vcs_connection_id CustomFlow#vcs_connection_id}
   */
   readonly vcsConnectionId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/custom_flow env0_custom_flow}
+* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/custom_flow env0_custom_flow}
 */
 export class CustomFlow extends cdktf.TerraformResource {
 
@@ -116,7 +116,7 @@ export class CustomFlow extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CustomFlow resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CustomFlow to import
-  * @param importFromId The id of the existing CustomFlow that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/custom_flow#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CustomFlow that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/custom_flow#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CustomFlow to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -128,7 +128,7 @@ export class CustomFlow extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/custom_flow env0_custom_flow} Resource
+  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/custom_flow env0_custom_flow} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -139,7 +139,8 @@ export class CustomFlow extends cdktf.TerraformResource {
       terraformResourceType: 'env0_custom_flow',
       terraformGeneratorMetadata: {
         providerName: 'env0',
-        providerVersion: '1.29.4'
+        providerVersion: '1.29.6',
+        providerVersionConstraint: '1.29.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

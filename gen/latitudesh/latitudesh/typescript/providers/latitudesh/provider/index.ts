@@ -67,7 +67,8 @@ export class LatitudeshProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'latitudesh',
       terraformGeneratorMetadata: {
         providerName: 'latitudesh',
-        providerVersion: '2.8.2'
+        providerVersion: '2.8.2',
+        providerVersionConstraint: '2.8.2'
       },
       terraformProviderSource: 'latitudesh/latitudesh'
     });

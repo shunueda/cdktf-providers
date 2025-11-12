@@ -79,7 +79,8 @@ export class Queue extends cdktf.TerraformResource {
       terraformResourceType: 'ably_queue',
       terraformGeneratorMetadata: {
         providerName: 'ably',
-        providerVersion: '0.11.1'
+        providerVersion: '0.11.1',
+        providerVersionConstraint: '0.11.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

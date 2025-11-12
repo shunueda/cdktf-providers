@@ -73,7 +73,8 @@ export class OktaasaProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'oktaasa',
       terraformGeneratorMetadata: {
         providerName: 'oktaasa',
-        providerVersion: '1.0.1'
+        providerVersion: '1.0.1',
+        providerVersionConstraint: '1.0.1'
       },
       terraformProviderSource: 'oktadeveloper/oktaasa'
     });

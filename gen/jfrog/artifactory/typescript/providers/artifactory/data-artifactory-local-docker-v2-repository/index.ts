@@ -171,7 +171,8 @@ export class DataArtifactoryLocalDockerV2Repository extends cdktf.TerraformDataS
       terraformResourceType: 'artifactory_local_docker_v2_repository',
       terraformGeneratorMetadata: {
         providerName: 'artifactory',
-        providerVersion: '12.10.1'
+        providerVersion: '12.10.1',
+        providerVersionConstraint: '12.10.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

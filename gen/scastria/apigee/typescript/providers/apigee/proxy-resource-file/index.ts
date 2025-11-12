@@ -80,7 +80,8 @@ export class ProxyResourceFile extends cdktf.TerraformResource {
       terraformResourceType: 'apigee_proxy_resource_file',
       terraformGeneratorMetadata: {
         providerName: 'apigee',
-        providerVersion: '0.1.53'
+        providerVersion: '0.1.53',
+        providerVersionConstraint: '0.1.53'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

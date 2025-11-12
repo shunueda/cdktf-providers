@@ -66,7 +66,8 @@ export class DataK8SKuadrantIoAuthPolicyV1Beta2Manifest extends cdktf.TerraformD
       terraformResourceType: 'k8s_kuadrant_io_auth_policy_v1beta2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

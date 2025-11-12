@@ -64,7 +64,8 @@ export class DataK8SAppsEmqxIoEmqxEnterpriseV1Beta4Manifest extends cdktf.Terraf
       terraformResourceType: 'k8s_apps_emqx_io_emqx_enterprise_v1beta4_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

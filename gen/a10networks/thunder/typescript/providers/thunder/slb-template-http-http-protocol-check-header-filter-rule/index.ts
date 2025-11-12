@@ -104,7 +104,8 @@ export class SlbTemplateHttpHttpProtocolCheckHeaderFilterRule extends cdktf.Terr
       terraformResourceType: 'thunder_slb_template_http_http_protocol_check_header_filter_rule',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

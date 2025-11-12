@@ -1733,7 +1733,8 @@ export class DataDnacenterWirelessSensorTestResults extends cdktf.TerraformDataS
       terraformResourceType: 'dnacenter_wireless_sensor_test_results',
       terraformGeneratorMetadata: {
         providerName: 'dnacenter',
-        providerVersion: '1.1.21'
+        providerVersion: '1.1.21',
+        providerVersionConstraint: '1.1.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

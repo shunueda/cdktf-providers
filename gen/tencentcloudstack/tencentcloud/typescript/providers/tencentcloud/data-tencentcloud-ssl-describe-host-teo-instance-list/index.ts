@@ -329,7 +329,8 @@ export class DataTencentcloudSslDescribeHostTeoInstanceList extends cdktf.Terraf
       terraformResourceType: 'tencentcloud_ssl_describe_host_teo_instance_list',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/slb_domainextension
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/slb_domainextension
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,33 +8,33 @@ import * as cdktf from 'cdktf';
 
 export interface SlbDomainextensionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/slb_domainextension#delete_protection_validation SlbDomainextension#delete_protection_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/slb_domainextension#delete_protection_validation SlbDomainextension#delete_protection_validation}
   */
   readonly deleteProtectionValidation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/slb_domainextension#domain SlbDomainextension#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/slb_domainextension#domain SlbDomainextension#domain}
   */
   readonly domain: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/slb_domainextension#frontend_port SlbDomainextension#frontend_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/slb_domainextension#frontend_port SlbDomainextension#frontend_port}
   */
   readonly frontendPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/slb_domainextension#listener_port SlbDomainextension#listener_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/slb_domainextension#listener_port SlbDomainextension#listener_port}
   */
   readonly listenerPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/slb_domainextension#load_balancer_id SlbDomainextension#load_balancer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/slb_domainextension#load_balancer_id SlbDomainextension#load_balancer_id}
   */
   readonly loadBalancerId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/slb_domainextension#server_certificate_id SlbDomainextension#server_certificate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/slb_domainextension#server_certificate_id SlbDomainextension#server_certificate_id}
   */
   readonly serverCertificateId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/slb_domainextension alibabacloudstack_slb_domainextension}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/slb_domainextension alibabacloudstack_slb_domainextension}
 */
 export class SlbDomainextension extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class SlbDomainextension extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlbDomainextension resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbDomainextension to import
-  * @param importFromId The id of the existing SlbDomainextension that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/slb_domainextension#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbDomainextension that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/slb_domainextension#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbDomainextension to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class SlbDomainextension extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/slb_domainextension alibabacloudstack_slb_domainextension} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/slb_domainextension alibabacloudstack_slb_domainextension} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,7 +73,8 @@ export class SlbDomainextension extends cdktf.TerraformResource {
       terraformResourceType: 'alibabacloudstack_slb_domainextension',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.19'
+        providerVersion: '3.16.21',
+        providerVersionConstraint: '3.16.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

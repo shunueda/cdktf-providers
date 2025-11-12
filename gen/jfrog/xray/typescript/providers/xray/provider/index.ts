@@ -85,7 +85,8 @@ export class XrayProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'xray',
       terraformGeneratorMetadata: {
         providerName: 'xray',
-        providerVersion: '3.1.2'
+        providerVersion: '3.1.2',
+        providerVersionConstraint: '3.1.2'
       },
       terraformProviderSource: 'jfrog/xray'
     });

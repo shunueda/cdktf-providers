@@ -250,7 +250,8 @@ export class MonolithSubManifestPkgInfo extends cdktf.TerraformResource {
       terraformResourceType: 'zentral_monolith_sub_manifest_pkg_info',
       terraformGeneratorMetadata: {
         providerName: 'zentral',
-        providerVersion: '0.1.64'
+        providerVersion: '0.1.64',
+        providerVersionConstraint: '0.1.64'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

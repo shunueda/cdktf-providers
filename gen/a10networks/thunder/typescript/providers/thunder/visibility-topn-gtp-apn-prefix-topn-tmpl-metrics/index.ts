@@ -560,7 +560,8 @@ export class VisibilityTopnGtpApnPrefixTopnTmplMetricsA extends cdktf.TerraformR
       terraformResourceType: 'thunder_visibility_topn_gtp_apn_prefix_topn_tmpl_metrics',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_crosssitescripting_binding
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_crosssitescripting_binding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,72 +8,72 @@ import * as cdktf from 'cdktf';
 
 export interface AppfwprofileCrosssitescriptingBindingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_crosssitescripting_binding#alertonly AppfwprofileCrosssitescriptingBinding#alertonly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_crosssitescripting_binding#alertonly AppfwprofileCrosssitescriptingBinding#alertonly}
   */
   readonly alertonly?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_crosssitescripting_binding#as_scan_location_xss AppfwprofileCrosssitescriptingBinding#as_scan_location_xss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_crosssitescripting_binding#as_scan_location_xss AppfwprofileCrosssitescriptingBinding#as_scan_location_xss}
   */
   readonly asScanLocationXss: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_crosssitescripting_binding#as_value_expr_xss AppfwprofileCrosssitescriptingBinding#as_value_expr_xss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_crosssitescripting_binding#as_value_expr_xss AppfwprofileCrosssitescriptingBinding#as_value_expr_xss}
   */
   readonly asValueExprXss?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_crosssitescripting_binding#as_value_type_xss AppfwprofileCrosssitescriptingBinding#as_value_type_xss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_crosssitescripting_binding#as_value_type_xss AppfwprofileCrosssitescriptingBinding#as_value_type_xss}
   */
   readonly asValueTypeXss?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_crosssitescripting_binding#comment AppfwprofileCrosssitescriptingBinding#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_crosssitescripting_binding#comment AppfwprofileCrosssitescriptingBinding#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_crosssitescripting_binding#crosssitescripting AppfwprofileCrosssitescriptingBinding#crosssitescripting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_crosssitescripting_binding#crosssitescripting AppfwprofileCrosssitescriptingBinding#crosssitescripting}
   */
   readonly crosssitescripting: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_crosssitescripting_binding#formactionurl_xss AppfwprofileCrosssitescriptingBinding#formactionurl_xss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_crosssitescripting_binding#formactionurl_xss AppfwprofileCrosssitescriptingBinding#formactionurl_xss}
   */
   readonly formactionurlXss: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_crosssitescripting_binding#id AppfwprofileCrosssitescriptingBinding#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_crosssitescripting_binding#id AppfwprofileCrosssitescriptingBinding#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_crosssitescripting_binding#isautodeployed AppfwprofileCrosssitescriptingBinding#isautodeployed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_crosssitescripting_binding#isautodeployed AppfwprofileCrosssitescriptingBinding#isautodeployed}
   */
   readonly isautodeployed?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_crosssitescripting_binding#isregex_xss AppfwprofileCrosssitescriptingBinding#isregex_xss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_crosssitescripting_binding#isregex_xss AppfwprofileCrosssitescriptingBinding#isregex_xss}
   */
   readonly isregexXss?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_crosssitescripting_binding#isvalueregex_xss AppfwprofileCrosssitescriptingBinding#isvalueregex_xss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_crosssitescripting_binding#isvalueregex_xss AppfwprofileCrosssitescriptingBinding#isvalueregex_xss}
   */
   readonly isvalueregexXss?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_crosssitescripting_binding#name AppfwprofileCrosssitescriptingBinding#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_crosssitescripting_binding#name AppfwprofileCrosssitescriptingBinding#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_crosssitescripting_binding#resourceid AppfwprofileCrosssitescriptingBinding#resourceid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_crosssitescripting_binding#resourceid AppfwprofileCrosssitescriptingBinding#resourceid}
   */
   readonly resourceid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_crosssitescripting_binding#ruletype AppfwprofileCrosssitescriptingBinding#ruletype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_crosssitescripting_binding#ruletype AppfwprofileCrosssitescriptingBinding#ruletype}
   */
   readonly ruletype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_crosssitescripting_binding#state AppfwprofileCrosssitescriptingBinding#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_crosssitescripting_binding#state AppfwprofileCrosssitescriptingBinding#state}
   */
   readonly state?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_crosssitescripting_binding citrixadc_appfwprofile_crosssitescripting_binding}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_crosssitescripting_binding citrixadc_appfwprofile_crosssitescripting_binding}
 */
 export class AppfwprofileCrosssitescriptingBinding extends cdktf.TerraformResource {
 
@@ -89,7 +89,7 @@ export class AppfwprofileCrosssitescriptingBinding extends cdktf.TerraformResour
   * Generates CDKTF code for importing a AppfwprofileCrosssitescriptingBinding resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppfwprofileCrosssitescriptingBinding to import
-  * @param importFromId The id of the existing AppfwprofileCrosssitescriptingBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_crosssitescripting_binding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppfwprofileCrosssitescriptingBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_crosssitescripting_binding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppfwprofileCrosssitescriptingBinding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -101,7 +101,7 @@ export class AppfwprofileCrosssitescriptingBinding extends cdktf.TerraformResour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_crosssitescripting_binding citrixadc_appfwprofile_crosssitescripting_binding} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_crosssitescripting_binding citrixadc_appfwprofile_crosssitescripting_binding} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -112,7 +112,8 @@ export class AppfwprofileCrosssitescriptingBinding extends cdktf.TerraformResour
       terraformResourceType: 'citrixadc_appfwprofile_crosssitescripting_binding',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -68,7 +68,8 @@ export class LicenseResource extends cdktf.TerraformResource {
       terraformResourceType: 'elasticsearch_license',
       terraformGeneratorMetadata: {
         providerName: 'elasticsearch',
-        providerVersion: '8.4.0'
+        providerVersion: '8.4.0',
+        providerVersionConstraint: '8.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

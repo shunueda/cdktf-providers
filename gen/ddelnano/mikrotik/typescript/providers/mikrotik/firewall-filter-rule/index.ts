@@ -103,7 +103,8 @@ export class FirewallFilterRule extends cdktf.TerraformResource {
       terraformResourceType: 'mikrotik_firewall_filter_rule',
       terraformGeneratorMetadata: {
         providerName: 'mikrotik',
-        providerVersion: '0.16.1'
+        providerVersion: '0.16.1',
+        providerVersionConstraint: '0.16.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

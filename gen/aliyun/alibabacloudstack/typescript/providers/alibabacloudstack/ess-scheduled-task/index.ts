@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/ess_scheduled_task
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ess_scheduled_task
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,56 +8,52 @@ import * as cdktf from 'cdktf';
 
 export interface EssScheduledTaskConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/ess_scheduled_task#description EssScheduledTask#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ess_scheduled_task#description EssScheduledTask#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/ess_scheduled_task#id EssScheduledTask#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ess_scheduled_task#id EssScheduledTask#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/ess_scheduled_task#launch_expiration_time EssScheduledTask#launch_expiration_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ess_scheduled_task#launch_expiration_time EssScheduledTask#launch_expiration_time}
   */
   readonly launchExpirationTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/ess_scheduled_task#launch_time EssScheduledTask#launch_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ess_scheduled_task#launch_time EssScheduledTask#launch_time}
   */
   readonly launchTime: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/ess_scheduled_task#recurrence_end_time EssScheduledTask#recurrence_end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ess_scheduled_task#recurrence_end_time EssScheduledTask#recurrence_end_time}
   */
   readonly recurrenceEndTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/ess_scheduled_task#recurrence_type EssScheduledTask#recurrence_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ess_scheduled_task#recurrence_type EssScheduledTask#recurrence_type}
   */
   readonly recurrenceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/ess_scheduled_task#recurrence_value EssScheduledTask#recurrence_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ess_scheduled_task#recurrence_value EssScheduledTask#recurrence_value}
   */
   readonly recurrenceValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/ess_scheduled_task#scaling_group_id EssScheduledTask#scaling_group_id}
-  */
-  readonly scalingGroupId?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/ess_scheduled_task#scheduled_action EssScheduledTask#scheduled_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ess_scheduled_task#scheduled_action EssScheduledTask#scheduled_action}
   */
   readonly scheduledAction: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/ess_scheduled_task#scheduled_task_name EssScheduledTask#scheduled_task_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ess_scheduled_task#scheduled_task_name EssScheduledTask#scheduled_task_name}
   */
   readonly scheduledTaskName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/ess_scheduled_task#task_enabled EssScheduledTask#task_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ess_scheduled_task#task_enabled EssScheduledTask#task_enabled}
   */
   readonly taskEnabled?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/ess_scheduled_task alibabacloudstack_ess_scheduled_task}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ess_scheduled_task alibabacloudstack_ess_scheduled_task}
 */
 export class EssScheduledTask extends cdktf.TerraformResource {
 
@@ -73,7 +69,7 @@ export class EssScheduledTask extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EssScheduledTask resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EssScheduledTask to import
-  * @param importFromId The id of the existing EssScheduledTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/ess_scheduled_task#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EssScheduledTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ess_scheduled_task#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EssScheduledTask to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -85,7 +81,7 @@ export class EssScheduledTask extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/ess_scheduled_task alibabacloudstack_ess_scheduled_task} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ess_scheduled_task alibabacloudstack_ess_scheduled_task} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -96,7 +92,8 @@ export class EssScheduledTask extends cdktf.TerraformResource {
       terraformResourceType: 'alibabacloudstack_ess_scheduled_task',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.19'
+        providerVersion: '3.16.21',
+        providerVersionConstraint: '3.16.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -113,7 +110,6 @@ export class EssScheduledTask extends cdktf.TerraformResource {
     this._recurrenceEndTime = config.recurrenceEndTime;
     this._recurrenceType = config.recurrenceType;
     this._recurrenceValue = config.recurrenceValue;
-    this._scalingGroupId = config.scalingGroupId;
     this._scheduledAction = config.scheduledAction;
     this._scheduledTaskName = config.scheduledTaskName;
     this._taskEnabled = config.taskEnabled;
@@ -232,22 +228,6 @@ export class EssScheduledTask extends cdktf.TerraformResource {
     return this._recurrenceValue;
   }
 
-  // scaling_group_id - computed: true, optional: true, required: false
-  private _scalingGroupId?: string; 
-  public get scalingGroupId() {
-    return this.getStringAttribute('scaling_group_id');
-  }
-  public set scalingGroupId(value: string) {
-    this._scalingGroupId = value;
-  }
-  public resetScalingGroupId() {
-    this._scalingGroupId = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get scalingGroupIdInput() {
-    return this._scalingGroupId;
-  }
-
   // scheduled_action - computed: false, optional: false, required: true
   private _scheduledAction?: string; 
   public get scheduledAction() {
@@ -306,7 +286,6 @@ export class EssScheduledTask extends cdktf.TerraformResource {
       recurrence_end_time: cdktf.stringToTerraform(this._recurrenceEndTime),
       recurrence_type: cdktf.stringToTerraform(this._recurrenceType),
       recurrence_value: cdktf.stringToTerraform(this._recurrenceValue),
-      scaling_group_id: cdktf.stringToTerraform(this._scalingGroupId),
       scheduled_action: cdktf.stringToTerraform(this._scheduledAction),
       scheduled_task_name: cdktf.stringToTerraform(this._scheduledTaskName),
       task_enabled: cdktf.booleanToTerraform(this._taskEnabled),
@@ -353,12 +332,6 @@ export class EssScheduledTask extends cdktf.TerraformResource {
       },
       recurrence_value: {
         value: cdktf.stringToHclTerraform(this._recurrenceValue),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
-      scaling_group_id: {
-        value: cdktf.stringToHclTerraform(this._scalingGroupId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

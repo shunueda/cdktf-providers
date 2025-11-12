@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/resources/oauth_security_role
+// https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/resources/oauth_security_role
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface OauthSecurityRoleConfig extends cdktf.TerraformMetaArguments {
   /**
   * A string containing the description of the OAuth security role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/resources/oauth_security_role#description OauthSecurityRole#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/resources/oauth_security_role#description OauthSecurityRole#description}
   */
   readonly description: string;
   /**
   * Email address associated with the OAuth security role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/resources/oauth_security_role#email_address OauthSecurityRole#email_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/resources/oauth_security_role#email_address OauthSecurityRole#email_address}
   */
   readonly emailAddress?: string;
   /**
   * Description of the OAuth security role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/resources/oauth_security_role#name OauthSecurityRole#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/resources/oauth_security_role#name OauthSecurityRole#name}
   */
   readonly name: string;
   /**
   * The ID of the permission set associated with the OAuth security role. This is used to identify the permissions associated with the role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/resources/oauth_security_role#permission_set_id OauthSecurityRole#permission_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/resources/oauth_security_role#permission_set_id OauthSecurityRole#permission_set_id}
   */
   readonly permissionSetId: string;
   /**
   * A list of permissions associated with the OAuth security role. This will return a list of permissions that are associated with the OAuth security role. This is used to identify the permissions associated with the role. For more information about allowed permission values, please refer to the Keyfactor Command [Version Two Permission Model documentation](https://software.keyfactor.com/Core-OnPrem/Current/Content/ReferenceGuide/SecurityRolePermissions.htm#Version2).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/resources/oauth_security_role#permissions OauthSecurityRole#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/resources/oauth_security_role#permissions OauthSecurityRole#permissions}
   */
   readonly permissions: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/resources/oauth_security_role keyfactor_oauth_security_role}
+* Represents a {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/resources/oauth_security_role keyfactor_oauth_security_role}
 */
 export class OauthSecurityRole extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class OauthSecurityRole extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OauthSecurityRole resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OauthSecurityRole to import
-  * @param importFromId The id of the existing OauthSecurityRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/resources/oauth_security_role#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OauthSecurityRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/resources/oauth_security_role#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OauthSecurityRole to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class OauthSecurityRole extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/resources/oauth_security_role keyfactor_oauth_security_role} Resource
+  * Create a new {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/resources/oauth_security_role keyfactor_oauth_security_role} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,7 +79,8 @@ export class OauthSecurityRole extends cdktf.TerraformResource {
       terraformResourceType: 'keyfactor_oauth_security_role',
       terraformGeneratorMetadata: {
         providerName: 'keyfactor',
-        providerVersion: '2.6.0'
+        providerVersion: '2.7.0',
+        providerVersionConstraint: '2.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -400,7 +400,8 @@ export class Cgnv6Lw4O6Global extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_cgnv6_lw_4o6_global',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1405,7 +1405,8 @@ export class ManagedWorkload extends cdktf.TerraformResource {
       terraformResourceType: 'illumio-core_managed_workload',
       terraformGeneratorMetadata: {
         providerName: 'illumio-core',
-        providerVersion: '1.1.6'
+        providerVersion: '1.1.6',
+        providerVersionConstraint: '1.1.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

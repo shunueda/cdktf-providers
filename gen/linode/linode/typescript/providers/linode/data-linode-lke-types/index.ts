@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/lke_types
+// https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/lke_types
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataLinodeLkeTypesConfig extends cdktf.TerraformMetaArguments {
   /**
   * The order in which results should be returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/lke_types#order DataLinodeLkeTypes#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/lke_types#order DataLinodeLkeTypes#order}
   */
   readonly order?: string;
   /**
   * The attribute to order the results by.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/lke_types#order_by DataLinodeLkeTypes#order_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/lke_types#order_by DataLinodeLkeTypes#order_by}
   */
   readonly orderBy?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/lke_types#filter DataLinodeLkeTypes#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/lke_types#filter DataLinodeLkeTypes#filter}
   */
   readonly filter?: DataLinodeLkeTypesFilter[] | cdktf.IResolvable;
   /**
   * types block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/lke_types#types DataLinodeLkeTypes#types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/lke_types#types DataLinodeLkeTypes#types}
   */
   readonly types?: DataLinodeLkeTypesTypes[] | cdktf.IResolvable;
 }
@@ -36,19 +36,19 @@ export interface DataLinodeLkeTypesFilter {
   /**
   * The type of comparison to use for this filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/lke_types#match_by DataLinodeLkeTypes#match_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/lke_types#match_by DataLinodeLkeTypes#match_by}
   */
   readonly matchBy?: string;
   /**
   * The name of the attribute to filter on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/lke_types#name DataLinodeLkeTypes#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/lke_types#name DataLinodeLkeTypes#name}
   */
   readonly name: string;
   /**
   * The value(s) to be used in the filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/lke_types#values DataLinodeLkeTypes#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/lke_types#values DataLinodeLkeTypes#values}
   */
   readonly values: string[];
 }
@@ -383,7 +383,7 @@ export interface DataLinodeLkeTypesTypes {
   /**
   * The unique ID assigned to this LKE Type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/lke_types#id DataLinodeLkeTypes#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/lke_types#id DataLinodeLkeTypes#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -392,7 +392,7 @@ export interface DataLinodeLkeTypesTypes {
   /**
   * The LKE Type's label.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/lke_types#label DataLinodeLkeTypes#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/lke_types#label DataLinodeLkeTypes#label}
   */
   readonly label?: string;
 }
@@ -551,7 +551,7 @@ export class DataLinodeLkeTypesTypesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/lke_types linode_lke_types}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/lke_types linode_lke_types}
 */
 export class DataLinodeLkeTypes extends cdktf.TerraformDataSource {
 
@@ -567,7 +567,7 @@ export class DataLinodeLkeTypes extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataLinodeLkeTypes resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataLinodeLkeTypes to import
-  * @param importFromId The id of the existing DataLinodeLkeTypes that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/lke_types#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataLinodeLkeTypes that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/lke_types#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataLinodeLkeTypes to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -579,7 +579,7 @@ export class DataLinodeLkeTypes extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/lke_types linode_lke_types} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/lke_types linode_lke_types} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -590,7 +590,8 @@ export class DataLinodeLkeTypes extends cdktf.TerraformDataSource {
       terraformResourceType: 'linode_lke_types',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.5.0'
+        providerVersion: '3.5.1',
+        providerVersionConstraint: '3.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

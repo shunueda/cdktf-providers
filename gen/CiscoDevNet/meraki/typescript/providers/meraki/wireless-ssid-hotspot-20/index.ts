@@ -708,7 +708,8 @@ export class WirelessSsidHotspot20 extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_wireless_ssid_hotspot_20',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1'
+        providerVersion: '1.7.1',
+        providerVersionConstraint: '1.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -86,7 +86,8 @@ export class NsxtEdgegatewayDhcpv6 extends cdktf.TerraformResource {
       terraformResourceType: 'vcd_nsxt_edgegateway_dhcpv6',
       terraformGeneratorMetadata: {
         providerName: 'vcd',
-        providerVersion: '3.14.1'
+        providerVersion: '3.14.1',
+        providerVersionConstraint: '3.14.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -80,7 +80,8 @@ export class VpnSslSettingsAuthenticationruleMove extends cdktf.TerraformResourc
       terraformResourceType: 'fmgdevice_vpn_ssl_settings_authenticationrule_move',
       terraformGeneratorMetadata: {
         providerName: 'fmgdevice',
-        providerVersion: '1.2.1'
+        providerVersion: '1.2.1',
+        providerVersionConstraint: '1.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

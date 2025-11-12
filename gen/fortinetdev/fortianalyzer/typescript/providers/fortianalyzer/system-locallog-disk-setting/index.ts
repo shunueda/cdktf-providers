@@ -144,7 +144,8 @@ export class SystemLocallogDiskSetting extends cdktf.TerraformResource {
       terraformResourceType: 'fortianalyzer_system_locallog_disk_setting',
       terraformGeneratorMetadata: {
         providerName: 'fortianalyzer',
-        providerVersion: '1.5.1'
+        providerVersion: '1.5.1',
+        providerVersionConstraint: '1.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

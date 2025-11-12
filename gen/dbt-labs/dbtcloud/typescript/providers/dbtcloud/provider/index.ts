@@ -97,7 +97,8 @@ export class DbtcloudProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'dbtcloud',
       terraformGeneratorMetadata: {
         providerName: 'dbtcloud',
-        providerVersion: '1.3.0'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       terraformProviderSource: 'dbt-labs/dbtcloud'
     });

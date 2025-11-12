@@ -67,7 +67,8 @@ export class DataNxosIpv4PrefixListRuleEntry extends cdktf.TerraformDataSource {
       terraformResourceType: 'nxos_ipv4_prefix_list_rule_entry',
       terraformGeneratorMetadata: {
         providerName: 'nxos',
-        providerVersion: '0.5.10'
+        providerVersion: '0.5.10',
+        providerVersionConstraint: '0.5.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

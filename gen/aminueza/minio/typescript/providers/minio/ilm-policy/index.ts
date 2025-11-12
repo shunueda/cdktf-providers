@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs/resources/ilm_policy
+// https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/ilm_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface IlmPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs/resources/ilm_policy#bucket IlmPolicy#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/ilm_policy#bucket IlmPolicy#bucket}
   */
   readonly bucket: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs/resources/ilm_policy#id IlmPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/ilm_policy#id IlmPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -21,7 +21,7 @@ export interface IlmPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs/resources/ilm_policy#rule IlmPolicy#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/ilm_policy#rule IlmPolicy#rule}
   */
   readonly rule: IlmPolicyRule[] | cdktf.IResolvable;
 }
@@ -29,7 +29,7 @@ export interface IlmPolicyRuleAbortIncompleteMultipartUpload {
   /**
   * Number of days after which incomplete multipart uploads should be aborted, in format 'Nd'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs/resources/ilm_policy#days_after_initiation IlmPolicy#days_after_initiation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/ilm_policy#days_after_initiation IlmPolicy#days_after_initiation}
   */
   readonly daysAfterInitiation: string;
 }
@@ -110,11 +110,11 @@ export class IlmPolicyRuleAbortIncompleteMultipartUploadOutputReference extends 
 }
 export interface IlmPolicyRuleNoncurrentExpiration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs/resources/ilm_policy#days IlmPolicy#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/ilm_policy#days IlmPolicy#days}
   */
   readonly days: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs/resources/ilm_policy#newer_versions IlmPolicy#newer_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/ilm_policy#newer_versions IlmPolicy#newer_versions}
   */
   readonly newerVersions?: number;
 }
@@ -224,15 +224,15 @@ export class IlmPolicyRuleNoncurrentExpirationOutputReference extends cdktf.Comp
 }
 export interface IlmPolicyRuleNoncurrentTransition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs/resources/ilm_policy#days IlmPolicy#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/ilm_policy#days IlmPolicy#days}
   */
   readonly days: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs/resources/ilm_policy#newer_versions IlmPolicy#newer_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/ilm_policy#newer_versions IlmPolicy#newer_versions}
   */
   readonly newerVersions?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs/resources/ilm_policy#storage_class IlmPolicy#storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/ilm_policy#storage_class IlmPolicy#storage_class}
   */
   readonly storageClass: string;
 }
@@ -368,15 +368,15 @@ export class IlmPolicyRuleNoncurrentTransitionOutputReference extends cdktf.Comp
 }
 export interface IlmPolicyRuleTransition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs/resources/ilm_policy#date IlmPolicy#date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/ilm_policy#date IlmPolicy#date}
   */
   readonly date?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs/resources/ilm_policy#days IlmPolicy#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/ilm_policy#days IlmPolicy#days}
   */
   readonly days?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs/resources/ilm_policy#storage_class IlmPolicy#storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/ilm_policy#storage_class IlmPolicy#storage_class}
   */
   readonly storageClass: string;
 }
@@ -517,15 +517,15 @@ export interface IlmPolicyRule {
   /**
   * Value may be duration (5d), date (1970-01-01), or "DeleteMarker" to expire delete markers if `noncurrent_version_expiration_days` is used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs/resources/ilm_policy#expiration IlmPolicy#expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/ilm_policy#expiration IlmPolicy#expiration}
   */
   readonly expiration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs/resources/ilm_policy#filter IlmPolicy#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/ilm_policy#filter IlmPolicy#filter}
   */
   readonly filter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs/resources/ilm_policy#id IlmPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/ilm_policy#id IlmPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -534,35 +534,35 @@ export interface IlmPolicyRule {
   /**
   * Status of the rule. Can be either 'Enabled' or 'Disabled'. Defaults to 'Enabled'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs/resources/ilm_policy#status IlmPolicy#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/ilm_policy#status IlmPolicy#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs/resources/ilm_policy#tags IlmPolicy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/ilm_policy#tags IlmPolicy#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * abort_incomplete_multipart_upload block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs/resources/ilm_policy#abort_incomplete_multipart_upload IlmPolicy#abort_incomplete_multipart_upload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/ilm_policy#abort_incomplete_multipart_upload IlmPolicy#abort_incomplete_multipart_upload}
   */
   readonly abortIncompleteMultipartUpload?: IlmPolicyRuleAbortIncompleteMultipartUpload;
   /**
   * noncurrent_expiration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs/resources/ilm_policy#noncurrent_expiration IlmPolicy#noncurrent_expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/ilm_policy#noncurrent_expiration IlmPolicy#noncurrent_expiration}
   */
   readonly noncurrentExpiration?: IlmPolicyRuleNoncurrentExpiration;
   /**
   * noncurrent_transition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs/resources/ilm_policy#noncurrent_transition IlmPolicy#noncurrent_transition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/ilm_policy#noncurrent_transition IlmPolicy#noncurrent_transition}
   */
   readonly noncurrentTransition?: IlmPolicyRuleNoncurrentTransition;
   /**
   * transition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs/resources/ilm_policy#transition IlmPolicy#transition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/ilm_policy#transition IlmPolicy#transition}
   */
   readonly transition?: IlmPolicyRuleTransition;
 }
@@ -907,7 +907,7 @@ export class IlmPolicyRuleList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs/resources/ilm_policy minio_ilm_policy}
+* Represents a {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/ilm_policy minio_ilm_policy}
 */
 export class IlmPolicy extends cdktf.TerraformResource {
 
@@ -923,7 +923,7 @@ export class IlmPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IlmPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IlmPolicy to import
-  * @param importFromId The id of the existing IlmPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs/resources/ilm_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IlmPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/ilm_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IlmPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -935,7 +935,7 @@ export class IlmPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs/resources/ilm_policy minio_ilm_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/ilm_policy minio_ilm_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -946,7 +946,8 @@ export class IlmPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'minio_ilm_policy',
       terraformGeneratorMetadata: {
         providerName: 'minio',
-        providerVersion: '3.11.3'
+        providerVersion: '3.11.4',
+        providerVersionConstraint: '3.11.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

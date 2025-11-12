@@ -80,7 +80,8 @@ export class DataAciEndpointSecurityGroupSelector extends cdktf.TerraformDataSou
       terraformResourceType: 'aci_endpoint_security_group_selector',
       terraformGeneratorMetadata: {
         providerName: 'aci',
-        providerVersion: '2.18.0'
+        providerVersion: '2.18.0',
+        providerVersionConstraint: '2.18.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

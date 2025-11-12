@@ -1183,7 +1183,8 @@ export class FmupdateFdssetting extends cdktf.TerraformResource {
       terraformResourceType: 'fortianalyzer_fmupdate_fdssetting',
       terraformGeneratorMetadata: {
         providerName: 'fortianalyzer',
-        providerVersion: '1.5.1'
+        providerVersion: '1.5.1',
+        providerVersionConstraint: '1.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

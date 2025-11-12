@@ -68,7 +68,8 @@ export class DataVenafiCloudKeystore extends cdktf.TerraformDataSource {
       terraformResourceType: 'venafi_cloud_keystore',
       terraformGeneratorMetadata: {
         providerName: 'venafi',
-        providerVersion: '0.23.1'
+        providerVersion: '0.23.1',
+        providerVersionConstraint: '0.23.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

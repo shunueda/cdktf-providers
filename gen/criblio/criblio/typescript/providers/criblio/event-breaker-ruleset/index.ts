@@ -967,7 +967,8 @@ export class EventBreakerRuleset extends cdktf.TerraformResource {
       terraformResourceType: 'criblio_event_breaker_ruleset',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.18.21'
+        providerVersion: '1.18.21',
+        providerVersionConstraint: '1.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

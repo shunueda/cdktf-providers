@@ -737,7 +737,8 @@ export class DlcAttachWorkGroupPolicyOperation extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_dlc_attach_work_group_policy_operation',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

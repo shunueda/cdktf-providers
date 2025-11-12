@@ -170,7 +170,8 @@ export class DataAzuredevopsServiceendpointDockerregistry extends cdktf.Terrafor
       terraformResourceType: 'azuredevops_serviceendpoint_dockerregistry',
       terraformGeneratorMetadata: {
         providerName: 'azuredevops',
-        providerVersion: '1.11.2'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

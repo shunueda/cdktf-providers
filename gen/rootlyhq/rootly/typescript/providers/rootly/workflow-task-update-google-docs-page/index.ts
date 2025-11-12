@@ -348,7 +348,8 @@ export class WorkflowTaskUpdateGoogleDocsPage extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_workflow_task_update_google_docs_page',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.7'
+        providerVersion: '4.3.7',
+        providerVersionConstraint: '4.3.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

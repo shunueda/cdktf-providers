@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/credentials_update
+// https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/credentials_update
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface CredentialsUpdateConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/credentials_update#id CredentialsUpdate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/credentials_update#id CredentialsUpdate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface CredentialsUpdateConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the resource which credentials will be updated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/credentials_update#resource_name CredentialsUpdate#resource_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/credentials_update#resource_name CredentialsUpdate#resource_name}
   */
   readonly resourceName: string;
   /**
   * The type of the resource which credentials will be updated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/credentials_update#resource_type CredentialsUpdate#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/credentials_update#resource_type CredentialsUpdate#resource_type}
   */
   readonly resourceType: string;
   /**
   * credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/credentials_update#credentials CredentialsUpdate#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/credentials_update#credentials CredentialsUpdate#credentials}
   */
   readonly credentials: CredentialsUpdateCredentials[] | cdktf.IResolvable;
 }
@@ -37,19 +37,19 @@ export interface CredentialsUpdateCredentials {
   /**
   * The type(s) of the account. One among: SSO, SSH, API, FTP, AUDIT
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/credentials_update#credential_type CredentialsUpdate#credential_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/credentials_update#credential_type CredentialsUpdate#credential_type}
   */
   readonly credentialType: string;
   /**
   * The password for the account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/credentials_update#password CredentialsUpdate#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/credentials_update#password CredentialsUpdate#password}
   */
   readonly password: string;
   /**
   * The user name of the account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/credentials_update#user_name CredentialsUpdate#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/credentials_update#user_name CredentialsUpdate#user_name}
   */
   readonly userName: string;
 }
@@ -214,7 +214,7 @@ export class CredentialsUpdateCredentialsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/credentials_update vcf_credentials_update}
+* Represents a {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/credentials_update vcf_credentials_update}
 */
 export class CredentialsUpdate extends cdktf.TerraformResource {
 
@@ -230,7 +230,7 @@ export class CredentialsUpdate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CredentialsUpdate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CredentialsUpdate to import
-  * @param importFromId The id of the existing CredentialsUpdate that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/credentials_update#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CredentialsUpdate that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/credentials_update#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CredentialsUpdate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -242,7 +242,7 @@ export class CredentialsUpdate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/credentials_update vcf_credentials_update} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/credentials_update vcf_credentials_update} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -253,7 +253,8 @@ export class CredentialsUpdate extends cdktf.TerraformResource {
       terraformResourceType: 'vcf_credentials_update',
       terraformGeneratorMetadata: {
         providerName: 'vcf',
-        providerVersion: '0.17.1'
+        providerVersion: '0.16.2',
+        providerVersionConstraint: '0.16.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

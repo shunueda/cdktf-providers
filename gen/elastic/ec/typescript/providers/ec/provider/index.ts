@@ -109,7 +109,8 @@ export class EcProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'ec',
       terraformGeneratorMetadata: {
         providerName: 'ec',
-        providerVersion: '0.12.2'
+        providerVersion: '0.12.2',
+        providerVersionConstraint: '0.12.2'
       },
       terraformProviderSource: 'elastic/ec'
     });

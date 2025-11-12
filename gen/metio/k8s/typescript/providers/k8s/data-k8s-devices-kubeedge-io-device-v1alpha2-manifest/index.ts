@@ -4572,7 +4572,8 @@ export class DataK8SDevicesKubeedgeIoDeviceV1Alpha2Manifest extends cdktf.Terraf
       terraformResourceType: 'k8s_devices_kubeedge_io_device_v1alpha2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

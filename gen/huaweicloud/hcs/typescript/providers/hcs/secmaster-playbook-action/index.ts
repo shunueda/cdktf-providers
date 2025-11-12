@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/secmaster_playbook_action
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_playbook_action
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface SecmasterPlaybookActionConfig extends cdktf.TerraformMetaArgume
   /**
   * Specifies the workflow ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/secmaster_playbook_action#action_id SecmasterPlaybookAction#action_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_playbook_action#action_id SecmasterPlaybookAction#action_id}
   */
   readonly actionId: string;
   /**
   * Specifies the playbook action type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/secmaster_playbook_action#action_type SecmasterPlaybookAction#action_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_playbook_action#action_type SecmasterPlaybookAction#action_type}
   */
   readonly actionType?: string;
   /**
   * Specifies the description of the playbook action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/secmaster_playbook_action#description SecmasterPlaybookAction#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_playbook_action#description SecmasterPlaybookAction#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/secmaster_playbook_action#id SecmasterPlaybookAction#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_playbook_action#id SecmasterPlaybookAction#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,35 +35,35 @@ export interface SecmasterPlaybookActionConfig extends cdktf.TerraformMetaArgume
   /**
   * Specifies playbook action name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/secmaster_playbook_action#name SecmasterPlaybookAction#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_playbook_action#name SecmasterPlaybookAction#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/secmaster_playbook_action#region SecmasterPlaybookAction#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_playbook_action#region SecmasterPlaybookAction#region}
   */
   readonly region?: string;
   /**
   * Specifies the sort order of the playbook action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/secmaster_playbook_action#sort_order SecmasterPlaybookAction#sort_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_playbook_action#sort_order SecmasterPlaybookAction#sort_order}
   */
   readonly sortOrder?: number;
   /**
   * Specifies playbook version ID of the action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/secmaster_playbook_action#version_id SecmasterPlaybookAction#version_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_playbook_action#version_id SecmasterPlaybookAction#version_id}
   */
   readonly versionId: string;
   /**
   * Specifies the ID of the workspace to which the playbook action belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/secmaster_playbook_action#workspace_id SecmasterPlaybookAction#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_playbook_action#workspace_id SecmasterPlaybookAction#workspace_id}
   */
   readonly workspaceId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/secmaster_playbook_action hcs_secmaster_playbook_action}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_playbook_action hcs_secmaster_playbook_action}
 */
 export class SecmasterPlaybookAction extends cdktf.TerraformResource {
 
@@ -79,7 +79,7 @@ export class SecmasterPlaybookAction extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecmasterPlaybookAction resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecmasterPlaybookAction to import
-  * @param importFromId The id of the existing SecmasterPlaybookAction that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/secmaster_playbook_action#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecmasterPlaybookAction that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_playbook_action#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecmasterPlaybookAction to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -91,7 +91,7 @@ export class SecmasterPlaybookAction extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/secmaster_playbook_action hcs_secmaster_playbook_action} Resource
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_playbook_action hcs_secmaster_playbook_action} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -102,7 +102,8 @@ export class SecmasterPlaybookAction extends cdktf.TerraformResource {
       terraformResourceType: 'hcs_secmaster_playbook_action',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.19'
+        providerVersion: '2.4.20',
+        providerVersionConstraint: '2.4.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/reputationsettings
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/reputationsettings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,24 +8,32 @@ import * as cdktf from 'cdktf';
 
 export interface ReputationsettingsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/reputationsettings#id Reputationsettings#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/reputationsettings#id Reputationsettings#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/reputationsettings#proxyport Reputationsettings#proxyport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/reputationsettings#proxypassword Reputationsettings#proxypassword}
+  */
+  readonly proxypassword?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/reputationsettings#proxyport Reputationsettings#proxyport}
   */
   readonly proxyport?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/reputationsettings#proxyserver Reputationsettings#proxyserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/reputationsettings#proxyserver Reputationsettings#proxyserver}
   */
   readonly proxyserver?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/reputationsettings#proxyusername Reputationsettings#proxyusername}
+  */
+  readonly proxyusername?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/reputationsettings citrixadc_reputationsettings}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/reputationsettings citrixadc_reputationsettings}
 */
 export class Reputationsettings extends cdktf.TerraformResource {
 
@@ -41,7 +49,7 @@ export class Reputationsettings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Reputationsettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Reputationsettings to import
-  * @param importFromId The id of the existing Reputationsettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/reputationsettings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Reputationsettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/reputationsettings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Reputationsettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -53,7 +61,7 @@ export class Reputationsettings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/reputationsettings citrixadc_reputationsettings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/reputationsettings citrixadc_reputationsettings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -64,7 +72,8 @@ export class Reputationsettings extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_reputationsettings',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -75,8 +84,10 @@ export class Reputationsettings extends cdktf.TerraformResource {
       forEach: config.forEach
     });
     this._id = config.id;
+    this._proxypassword = config.proxypassword;
     this._proxyport = config.proxyport;
     this._proxyserver = config.proxyserver;
+    this._proxyusername = config.proxyusername;
   }
 
   // ==========
@@ -97,6 +108,22 @@ export class Reputationsettings extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get idInput() {
     return this._id;
+  }
+
+  // proxypassword - computed: true, optional: true, required: false
+  private _proxypassword?: string; 
+  public get proxypassword() {
+    return this.getStringAttribute('proxypassword');
+  }
+  public set proxypassword(value: string) {
+    this._proxypassword = value;
+  }
+  public resetProxypassword() {
+    this._proxypassword = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get proxypasswordInput() {
+    return this._proxypassword;
   }
 
   // proxyport - computed: true, optional: true, required: false
@@ -131,6 +158,22 @@ export class Reputationsettings extends cdktf.TerraformResource {
     return this._proxyserver;
   }
 
+  // proxyusername - computed: true, optional: true, required: false
+  private _proxyusername?: string; 
+  public get proxyusername() {
+    return this.getStringAttribute('proxyusername');
+  }
+  public set proxyusername(value: string) {
+    this._proxyusername = value;
+  }
+  public resetProxyusername() {
+    this._proxyusername = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get proxyusernameInput() {
+    return this._proxyusername;
+  }
+
   // =========
   // SYNTHESIS
   // =========
@@ -138,8 +181,10 @@ export class Reputationsettings extends cdktf.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       id: cdktf.stringToTerraform(this._id),
+      proxypassword: cdktf.stringToTerraform(this._proxypassword),
       proxyport: cdktf.numberToTerraform(this._proxyport),
       proxyserver: cdktf.stringToTerraform(this._proxyserver),
+      proxyusername: cdktf.stringToTerraform(this._proxyusername),
     };
   }
 
@@ -147,6 +192,12 @@ export class Reputationsettings extends cdktf.TerraformResource {
     const attrs = {
       id: {
         value: cdktf.stringToHclTerraform(this._id),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      proxypassword: {
+        value: cdktf.stringToHclTerraform(this._proxypassword),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
@@ -159,6 +210,12 @@ export class Reputationsettings extends cdktf.TerraformResource {
       },
       proxyserver: {
         value: cdktf.stringToHclTerraform(this._proxyserver),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      proxyusername: {
+        value: cdktf.stringToHclTerraform(this._proxyusername),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

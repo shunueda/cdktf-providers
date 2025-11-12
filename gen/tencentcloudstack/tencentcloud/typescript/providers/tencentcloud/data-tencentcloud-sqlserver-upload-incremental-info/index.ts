@@ -80,7 +80,8 @@ export class DataTencentcloudSqlserverUploadIncrementalInfo extends cdktf.Terraf
       terraformResourceType: 'tencentcloud_sqlserver_upload_incremental_info',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -76,7 +76,8 @@ export class IpMessagingServicesUsersV1 extends cdktf.TerraformResource {
       terraformResourceType: 'twilio_ip_messaging_services_users_v1',
       terraformGeneratorMetadata: {
         providerName: 'twilio',
-        providerVersion: '0.18.46'
+        providerVersion: '0.18.46',
+        providerVersionConstraint: '0.18.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

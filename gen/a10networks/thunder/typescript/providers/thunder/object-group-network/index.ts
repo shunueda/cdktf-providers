@@ -741,7 +741,8 @@ export class ObjectGroupNetwork extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_object_group_network',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

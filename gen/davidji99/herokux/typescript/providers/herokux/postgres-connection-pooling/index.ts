@@ -300,7 +300,8 @@ export class PostgresConnectionPooling extends cdktf.TerraformResource {
       terraformResourceType: 'herokux_postgres_connection_pooling',
       terraformGeneratorMetadata: {
         providerName: 'herokux',
-        providerVersion: '1.4.7'
+        providerVersion: '1.4.7',
+        providerVersionConstraint: '1.4.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

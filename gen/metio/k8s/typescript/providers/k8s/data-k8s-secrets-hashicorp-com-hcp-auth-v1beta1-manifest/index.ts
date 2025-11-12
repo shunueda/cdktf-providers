@@ -579,7 +579,8 @@ export class DataK8SSecretsHashicorpComHcpAuthV1Beta1Manifest extends cdktf.Terr
       terraformResourceType: 'k8s_secrets_hashicorp_com_hcp_auth_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

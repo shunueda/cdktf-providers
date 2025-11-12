@@ -796,7 +796,8 @@ export class ClusterUpdater extends cdktf.TerraformResource {
       terraformResourceType: 'kops_cluster_updater',
       terraformGeneratorMetadata: {
         providerName: 'kops',
-        providerVersion: '1.25.4'
+        providerVersion: '1.25.4',
+        providerVersionConstraint: '1.25.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

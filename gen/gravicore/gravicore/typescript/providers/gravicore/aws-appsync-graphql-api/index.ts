@@ -1721,7 +1721,8 @@ export class AwsAppsyncGraphqlApi extends cdktf.TerraformResource {
       terraformResourceType: 'gravicore_aws_appsync_graphql_api',
       terraformGeneratorMetadata: {
         providerName: 'gravicore',
-        providerVersion: '1.0.8'
+        providerVersion: '1.0.8',
+        providerVersionConstraint: '1.0.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

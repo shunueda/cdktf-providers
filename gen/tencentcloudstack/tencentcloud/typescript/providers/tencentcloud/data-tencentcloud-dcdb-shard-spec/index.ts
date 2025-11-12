@@ -253,7 +253,8 @@ export class DataTencentcloudDcdbShardSpec extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_dcdb_shard_spec',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

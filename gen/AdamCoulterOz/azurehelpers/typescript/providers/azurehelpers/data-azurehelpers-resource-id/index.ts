@@ -62,7 +62,8 @@ export class DataAzurehelpersResourceId extends cdktf.TerraformDataSource {
       terraformResourceType: 'azurehelpers_resource_id',
       terraformGeneratorMetadata: {
         providerName: 'azurehelpers',
-        providerVersion: '0.2.0'
+        providerVersion: '0.2.0',
+        providerVersionConstraint: '0.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

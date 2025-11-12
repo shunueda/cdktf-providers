@@ -75,7 +75,8 @@ export class GraylogProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'graylog',
       terraformGeneratorMetadata: {
         providerName: 'graylog',
-        providerVersion: '1.0.4'
+        providerVersion: '1.0.4',
+        providerVersionConstraint: '1.0.4'
       },
       terraformProviderSource: 'terraform-provider-graylog/graylog'
     });

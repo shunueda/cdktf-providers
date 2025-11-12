@@ -88,7 +88,8 @@ export class ObjectIcapProfileRespmodforwardrulesHeadergroup extends cdktf.Terra
       terraformResourceType: 'fortimanager_object_icap_profile_respmodforwardrules_headergroup',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0'
+        providerVersion: '1.14.0',
+        providerVersionConstraint: '1.14.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

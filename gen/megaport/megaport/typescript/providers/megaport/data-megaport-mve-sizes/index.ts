@@ -139,7 +139,8 @@ export class DataMegaportMveSizes extends cdktf.TerraformDataSource {
       terraformResourceType: 'megaport_mve_sizes',
       terraformGeneratorMetadata: {
         providerName: 'megaport',
-        providerVersion: '1.4.6'
+        providerVersion: '1.4.6',
+        providerVersionConstraint: '1.4.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

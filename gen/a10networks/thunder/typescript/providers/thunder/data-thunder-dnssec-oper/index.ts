@@ -1565,7 +1565,8 @@ export class DataThunderDnssecOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_dnssec_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

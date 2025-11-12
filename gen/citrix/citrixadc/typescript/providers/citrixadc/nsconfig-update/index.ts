@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsconfig_update
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsconfig_update
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,36 +8,36 @@ import * as cdktf from 'cdktf';
 
 export interface NsconfigUpdateConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsconfig_update#id NsconfigUpdate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsconfig_update#id NsconfigUpdate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsconfig_update#ifnum NsconfigUpdate#ifnum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsconfig_update#ifnum NsconfigUpdate#ifnum}
   */
   readonly ifnum?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsconfig_update#ipaddress NsconfigUpdate#ipaddress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsconfig_update#ipaddress NsconfigUpdate#ipaddress}
   */
   readonly ipaddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsconfig_update#netmask NsconfigUpdate#netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsconfig_update#netmask NsconfigUpdate#netmask}
   */
   readonly netmask?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsconfig_update#nsvlan NsconfigUpdate#nsvlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsconfig_update#nsvlan NsconfigUpdate#nsvlan}
   */
   readonly nsvlan?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsconfig_update#tagged NsconfigUpdate#tagged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsconfig_update#tagged NsconfigUpdate#tagged}
   */
   readonly tagged?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsconfig_update citrixadc_nsconfig_update}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsconfig_update citrixadc_nsconfig_update}
 */
 export class NsconfigUpdate extends cdktf.TerraformResource {
 
@@ -53,7 +53,7 @@ export class NsconfigUpdate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NsconfigUpdate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NsconfigUpdate to import
-  * @param importFromId The id of the existing NsconfigUpdate that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsconfig_update#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NsconfigUpdate that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsconfig_update#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NsconfigUpdate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -65,7 +65,7 @@ export class NsconfigUpdate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsconfig_update citrixadc_nsconfig_update} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsconfig_update citrixadc_nsconfig_update} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -76,7 +76,8 @@ export class NsconfigUpdate extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_nsconfig_update',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

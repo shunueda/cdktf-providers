@@ -68,7 +68,8 @@ export class DataMongodbatlasSharedTierRestoreJob extends cdktf.TerraformDataSou
       terraformResourceType: 'mongodbatlas_shared_tier_restore_job',
       terraformGeneratorMetadata: {
         providerName: 'mongodbatlas',
-        providerVersion: '2.1.0'
+        providerVersion: '2.1.0',
+        providerVersionConstraint: '2.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

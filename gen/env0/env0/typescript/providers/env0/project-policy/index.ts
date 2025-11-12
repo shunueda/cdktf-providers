@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/project_policy
+// https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/project_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,111 +10,111 @@ export interface ProjectPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Auto drift remediation strategy (DISABLED, CODE_TO_CLOUD, CLOUD_TO_CODE, SMART_REMEDIATION). Defaults to DISABLED
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/project_policy#auto_drift_remediation ProjectPolicy#auto_drift_remediation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/project_policy#auto_drift_remediation ProjectPolicy#auto_drift_remediation}
   */
   readonly autoDriftRemediation?: string;
   /**
   * Redeploy on every push to the git branch default value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/project_policy#continuous_deployment_default ProjectPolicy#continuous_deployment_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/project_policy#continuous_deployment_default ProjectPolicy#continuous_deployment_default}
   */
   readonly continuousDeploymentDefault?: boolean | cdktf.IResolvable;
   /**
   * the default environment time-to-live allowed on deploy time. Format is <number>-<M/w/d/h> (Examples: 12-h, 3-d, 1-w, 1-M). Default value is 'inherit' which inherits the organization policy. must be equal or shorter than max_ttl
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/project_policy#default_ttl ProjectPolicy#default_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/project_policy#default_ttl ProjectPolicy#default_ttl}
   */
   readonly defaultTtl?: string;
   /**
   * Disallow destroying environment in the project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/project_policy#disable_destroy_environments ProjectPolicy#disable_destroy_environments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/project_policy#disable_destroy_environments ProjectPolicy#disable_destroy_environments}
   */
   readonly disableDestroyEnvironments?: boolean | cdktf.IResolvable;
   /**
   * default cron expression for new environments
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/project_policy#drift_detection_cron ProjectPolicy#drift_detection_cron}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/project_policy#drift_detection_cron ProjectPolicy#drift_detection_cron}
   */
   readonly driftDetectionCron?: string;
   /**
   * if 'true' all environments created in this project will be forced to use env0 remote backend. Default is 'false'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/project_policy#force_remote_backend ProjectPolicy#force_remote_backend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/project_policy#force_remote_backend ProjectPolicy#force_remote_backend}
   */
   readonly forceRemoteBackend?: boolean | cdktf.IResolvable;
   /**
   * Enable cost estimation for the project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/project_policy#include_cost_estimation ProjectPolicy#include_cost_estimation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/project_policy#include_cost_estimation ProjectPolicy#include_cost_estimation}
   */
   readonly includeCostEstimation?: boolean | cdktf.IResolvable;
   /**
   * the maximum environment time-to-live allowed on deploy time. Format is <number>-<M/w/d/h> (Examples: 12-h, 3-d, 1-w, 1-M). Default value is 'inherit' which inherits the organization policy. must be equal or longer than default_ttl
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/project_policy#max_ttl ProjectPolicy#max_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/project_policy#max_ttl ProjectPolicy#max_ttl}
   */
   readonly maxTtl?: string;
   /**
   * Max number of environments a single user can have in this project.
   * Omitting removes the restriction.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/project_policy#number_of_environments ProjectPolicy#number_of_environments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/project_policy#number_of_environments ProjectPolicy#number_of_environments}
   */
   readonly numberOfEnvironments?: number;
   /**
   * Max number of environments in this project.
   * Omitting removes the restriction.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/project_policy#number_of_environments_total ProjectPolicy#number_of_environments_total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/project_policy#number_of_environments_total ProjectPolicy#number_of_environments_total}
   */
   readonly numberOfEnvironmentsTotal?: number;
   /**
   * if 'true' enables 'environment outputs'. Default is 'false'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/project_policy#outputs_as_inputs_enabled ProjectPolicy#outputs_as_inputs_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/project_policy#outputs_as_inputs_enabled ProjectPolicy#outputs_as_inputs_enabled}
   */
   readonly outputsAsInputsEnabled?: boolean | cdktf.IResolvable;
   /**
   * id of the project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/project_policy#project_id ProjectPolicy#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/project_policy#project_id ProjectPolicy#project_id}
   */
   readonly projectId: string;
   /**
   * Requires approval default value when creating a new environment in the project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/project_policy#requires_approval_default ProjectPolicy#requires_approval_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/project_policy#requires_approval_default ProjectPolicy#requires_approval_default}
   */
   readonly requiresApprovalDefault?: boolean | cdktf.IResolvable;
   /**
   * Run Terraform Plan on Pull Requests for new environments targeting their branch default value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/project_policy#run_pull_request_plan_default ProjectPolicy#run_pull_request_plan_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/project_policy#run_pull_request_plan_default ProjectPolicy#run_pull_request_plan_default}
   */
   readonly runPullRequestPlanDefault?: boolean | cdktf.IResolvable;
   /**
   * Skip apply when plan has no changes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/project_policy#skip_apply_when_plan_is_empty ProjectPolicy#skip_apply_when_plan_is_empty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/project_policy#skip_apply_when_plan_is_empty ProjectPolicy#skip_apply_when_plan_is_empty}
   */
   readonly skipApplyWhenPlanIsEmpty?: boolean | cdktf.IResolvable;
   /**
   * Automatically skip queued deployments when a newer deployment is triggered
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/project_policy#skip_redundant_deployments ProjectPolicy#skip_redundant_deployments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/project_policy#skip_redundant_deployments ProjectPolicy#skip_redundant_deployments}
   */
   readonly skipRedundantDeployments?: boolean | cdktf.IResolvable;
   /**
   * if 'true' all environments created in this project will be created with an 'enabled' running VCS PR plan/apply commands using PR comments. Default is 'false'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/project_policy#vcs_pr_comments_enabled_default ProjectPolicy#vcs_pr_comments_enabled_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/project_policy#vcs_pr_comments_enabled_default ProjectPolicy#vcs_pr_comments_enabled_default}
   */
   readonly vcsPrCommentsEnabledDefault?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/project_policy env0_project_policy}
+* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/project_policy env0_project_policy}
 */
 export class ProjectPolicy extends cdktf.TerraformResource {
 
@@ -130,7 +130,7 @@ export class ProjectPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProjectPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProjectPolicy to import
-  * @param importFromId The id of the existing ProjectPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/project_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProjectPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/project_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProjectPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -142,7 +142,7 @@ export class ProjectPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/project_policy env0_project_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/project_policy env0_project_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -153,7 +153,8 @@ export class ProjectPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'env0_project_policy',
       terraformGeneratorMetadata: {
         providerName: 'env0',
-        providerVersion: '1.29.4'
+        providerVersion: '1.29.6',
+        providerVersionConstraint: '1.29.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

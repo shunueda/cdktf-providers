@@ -153,7 +153,8 @@ export class DataTencentcloudDcdbInstanceNodeInfo extends cdktf.TerraformDataSou
       terraformResourceType: 'tencentcloud_dcdb_instance_node_info',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

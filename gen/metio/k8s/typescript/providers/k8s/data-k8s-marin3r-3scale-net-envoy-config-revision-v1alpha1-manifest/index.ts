@@ -3106,7 +3106,8 @@ export class DataK8SMarin3R3ScaleNetEnvoyConfigRevisionV1Alpha1Manifest extends 
       terraformResourceType: 'k8s_marin3r_3scale_net_envoy_config_revision_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

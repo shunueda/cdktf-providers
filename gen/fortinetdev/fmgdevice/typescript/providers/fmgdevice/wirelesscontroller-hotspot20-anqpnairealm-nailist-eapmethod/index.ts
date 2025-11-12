@@ -275,7 +275,8 @@ export class WirelesscontrollerHotspot20AnqpnairealmNailistEapmethod extends cdk
       terraformResourceType: 'fmgdevice_wirelesscontroller_hotspot20_anqpnairealm_nailist_eapmethod',
       terraformGeneratorMetadata: {
         providerName: 'fmgdevice',
-        providerVersion: '1.2.1'
+        providerVersion: '1.2.1',
+        providerVersionConstraint: '1.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

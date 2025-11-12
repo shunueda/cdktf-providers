@@ -4094,7 +4094,8 @@ export class DataIntersightCapabilityHsuIsoFileSupportMeta extends cdktf.Terrafo
       terraformResourceType: 'intersight_capability_hsu_iso_file_support_meta',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

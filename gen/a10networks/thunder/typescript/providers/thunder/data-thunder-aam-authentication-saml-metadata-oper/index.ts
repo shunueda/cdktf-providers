@@ -330,7 +330,8 @@ export class DataThunderAamAuthenticationSamlMetadataOper extends cdktf.Terrafor
       terraformResourceType: 'thunder_aam_authentication_saml_metadata_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

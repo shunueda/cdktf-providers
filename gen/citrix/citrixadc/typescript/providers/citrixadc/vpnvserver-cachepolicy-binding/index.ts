@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnvserver_cachepolicy_binding
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver_cachepolicy_binding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,44 +8,44 @@ import * as cdktf from 'cdktf';
 
 export interface VpnvserverCachepolicyBindingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnvserver_cachepolicy_binding#bindpoint VpnvserverCachepolicyBinding#bindpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver_cachepolicy_binding#bindpoint VpnvserverCachepolicyBinding#bindpoint}
   */
   readonly bindpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnvserver_cachepolicy_binding#gotopriorityexpression VpnvserverCachepolicyBinding#gotopriorityexpression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver_cachepolicy_binding#gotopriorityexpression VpnvserverCachepolicyBinding#gotopriorityexpression}
   */
   readonly gotopriorityexpression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnvserver_cachepolicy_binding#groupextraction VpnvserverCachepolicyBinding#groupextraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver_cachepolicy_binding#groupextraction VpnvserverCachepolicyBinding#groupextraction}
   */
   readonly groupextraction?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnvserver_cachepolicy_binding#id VpnvserverCachepolicyBinding#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver_cachepolicy_binding#id VpnvserverCachepolicyBinding#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnvserver_cachepolicy_binding#name VpnvserverCachepolicyBinding#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver_cachepolicy_binding#name VpnvserverCachepolicyBinding#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnvserver_cachepolicy_binding#policy VpnvserverCachepolicyBinding#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver_cachepolicy_binding#policy VpnvserverCachepolicyBinding#policy}
   */
   readonly policy: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnvserver_cachepolicy_binding#priority VpnvserverCachepolicyBinding#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver_cachepolicy_binding#priority VpnvserverCachepolicyBinding#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnvserver_cachepolicy_binding#secondary VpnvserverCachepolicyBinding#secondary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver_cachepolicy_binding#secondary VpnvserverCachepolicyBinding#secondary}
   */
   readonly secondary?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnvserver_cachepolicy_binding citrixadc_vpnvserver_cachepolicy_binding}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver_cachepolicy_binding citrixadc_vpnvserver_cachepolicy_binding}
 */
 export class VpnvserverCachepolicyBinding extends cdktf.TerraformResource {
 
@@ -61,7 +61,7 @@ export class VpnvserverCachepolicyBinding extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VpnvserverCachepolicyBinding resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpnvserverCachepolicyBinding to import
-  * @param importFromId The id of the existing VpnvserverCachepolicyBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnvserver_cachepolicy_binding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpnvserverCachepolicyBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver_cachepolicy_binding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpnvserverCachepolicyBinding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -73,7 +73,7 @@ export class VpnvserverCachepolicyBinding extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnvserver_cachepolicy_binding citrixadc_vpnvserver_cachepolicy_binding} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver_cachepolicy_binding citrixadc_vpnvserver_cachepolicy_binding} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -84,7 +84,8 @@ export class VpnvserverCachepolicyBinding extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_vpnvserver_cachepolicy_binding',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -81,7 +81,8 @@ export class KaleidoProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'kaleido',
       terraformGeneratorMetadata: {
         providerName: 'kaleido',
-        providerVersion: '1.1.2'
+        providerVersion: '1.1.2',
+        providerVersionConstraint: '1.1.2'
       },
       terraformProviderSource: 'kaleido-io/kaleido'
     });

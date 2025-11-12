@@ -91,7 +91,8 @@ export class StatuscakeProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'statuscake',
       terraformGeneratorMetadata: {
         providerName: 'statuscake',
-        providerVersion: '2.2.2'
+        providerVersion: '2.2.2',
+        providerVersionConstraint: '2.2.2'
       },
       terraformProviderSource: 'StatusCakeDev/statuscake'
     });

@@ -60,7 +60,8 @@ export class DataAccuknoxKubearmorNamespaceVisibility extends cdktf.TerraformDat
       terraformResourceType: 'accuknox_kubearmor_namespace_visibility',
       terraformGeneratorMetadata: {
         providerName: 'accuknox',
-        providerVersion: '1.0.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

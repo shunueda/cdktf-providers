@@ -209,7 +209,8 @@ export class DbDatabase extends cdktf.TerraformResource {
       terraformResourceType: 'mcs_db_database',
       terraformGeneratorMetadata: {
         providerName: 'mcs',
-        providerVersion: '0.6.14'
+        providerVersion: '0.6.14',
+        providerVersionConstraint: '0.6.14'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

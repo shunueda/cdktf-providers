@@ -246,7 +246,8 @@ export class ObjectStorageObject extends cdktf.TerraformResource {
       terraformResourceType: 'multy_object_storage_object',
       terraformGeneratorMetadata: {
         providerName: 'multy',
-        providerVersion: '0.0.16'
+        providerVersion: '0.0.16',
+        providerVersionConstraint: '0.0.16'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

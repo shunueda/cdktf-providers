@@ -84,7 +84,8 @@ export class DataHttpclientRequest extends cdktf.TerraformDataSource {
       terraformResourceType: 'httpclient_request',
       terraformGeneratorMetadata: {
         providerName: 'http-client',
-        providerVersion: '0.4.0'
+        providerVersion: '0.4.0',
+        providerVersionConstraint: '0.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

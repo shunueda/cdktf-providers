@@ -2789,7 +2789,8 @@ export class Dataset extends cdktf.TerraformResource {
       terraformResourceType: 'chronosphere_dataset',
       terraformGeneratorMetadata: {
         providerName: 'chronosphere',
-        providerVersion: '1.17.0'
+        providerVersion: '1.17.0',
+        providerVersionConstraint: '1.17.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

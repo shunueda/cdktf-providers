@@ -64,7 +64,8 @@ export class DataCatalystcenterCredentialsHttpsRead extends cdktf.TerraformDataS
       terraformResourceType: 'catalystcenter_credentials_https_read',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.2'
+        providerVersion: '0.4.2',
+        providerVersionConstraint: '0.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -80,7 +80,8 @@ export class TagCategory extends cdktf.TerraformResource {
       terraformResourceType: 'vsphere_tag_category',
       terraformGeneratorMetadata: {
         providerName: 'vsphere',
-        providerVersion: '2.15.0'
+        providerVersion: '2.15.0',
+        providerVersionConstraint: '2.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

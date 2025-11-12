@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/data-sources/flow_record
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/data-sources/flow_record
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIosxeFlowRecordConfig extends cdktf.TerraformMetaArguments 
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/data-sources/flow_record#device DataIosxeFlowRecord#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/data-sources/flow_record#device DataIosxeFlowRecord#device}
   */
   readonly device?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/data-sources/flow_record#name DataIosxeFlowRecord#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/data-sources/flow_record#name DataIosxeFlowRecord#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/data-sources/flow_record iosxe_flow_record}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/data-sources/flow_record iosxe_flow_record}
 */
 export class DataIosxeFlowRecord extends cdktf.TerraformDataSource {
 
@@ -36,7 +36,7 @@ export class DataIosxeFlowRecord extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIosxeFlowRecord resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIosxeFlowRecord to import
-  * @param importFromId The id of the existing DataIosxeFlowRecord that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/data-sources/flow_record#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIosxeFlowRecord that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/data-sources/flow_record#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIosxeFlowRecord to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -48,7 +48,7 @@ export class DataIosxeFlowRecord extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/data-sources/flow_record iosxe_flow_record} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/data-sources/flow_record iosxe_flow_record} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -59,7 +59,8 @@ export class DataIosxeFlowRecord extends cdktf.TerraformDataSource {
       terraformResourceType: 'iosxe_flow_record',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.9.3'
+        providerVersion: '0.10.0',
+        providerVersionConstraint: '0.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -193,6 +194,31 @@ export class DataIosxeFlowRecord extends cdktf.TerraformDataSource {
     return this.getBooleanAttribute('match_connection_server_transport_port');
   }
 
+  // match_datalink_destination_vlan_id - computed: true, optional: false, required: false
+  public get matchDatalinkDestinationVlanId() {
+    return this.getBooleanAttribute('match_datalink_destination_vlan_id');
+  }
+
+  // match_datalink_mac_destination_address_input - computed: true, optional: false, required: false
+  public get matchDatalinkMacDestinationAddressInput() {
+    return this.getBooleanAttribute('match_datalink_mac_destination_address_input');
+  }
+
+  // match_datalink_mac_source_address_input - computed: true, optional: false, required: false
+  public get matchDatalinkMacSourceAddressInput() {
+    return this.getBooleanAttribute('match_datalink_mac_source_address_input');
+  }
+
+  // match_datalink_source_vlan_id - computed: true, optional: false, required: false
+  public get matchDatalinkSourceVlanId() {
+    return this.getBooleanAttribute('match_datalink_source_vlan_id');
+  }
+
+  // match_datalink_vlan - computed: true, optional: false, required: false
+  public get matchDatalinkVlan() {
+    return this.getStringAttribute('match_datalink_vlan');
+  }
+
   // match_flow_direction - computed: true, optional: false, required: false
   public get matchFlowDirection() {
     return this.getBooleanAttribute('match_flow_direction');
@@ -226,6 +252,11 @@ export class DataIosxeFlowRecord extends cdktf.TerraformDataSource {
   // match_ipv4_tos - computed: true, optional: false, required: false
   public get matchIpv4Tos() {
     return this.getBooleanAttribute('match_ipv4_tos');
+  }
+
+  // match_ipv4_ttl - computed: true, optional: false, required: false
+  public get matchIpv4Ttl() {
+    return this.getBooleanAttribute('match_ipv4_ttl');
   }
 
   // match_ipv4_version - computed: true, optional: false, required: false

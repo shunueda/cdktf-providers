@@ -420,7 +420,8 @@ export class DataOctopusdeployListeningTentacleDeploymentTargets extends cdktf.T
       terraformResourceType: 'octopusdeploy_listening_tentacle_deployment_targets',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.4.0'
+        providerVersion: '1.4.0',
+        providerVersionConstraint: '1.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

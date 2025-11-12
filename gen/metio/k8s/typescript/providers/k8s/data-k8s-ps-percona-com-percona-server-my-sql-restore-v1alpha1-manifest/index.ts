@@ -12735,7 +12735,8 @@ export class DataK8SPsPerconaComPerconaServerMySqlRestoreV1Alpha1Manifest extend
       terraformResourceType: 'k8s_ps_percona_com_percona_server_my_sql_restore_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

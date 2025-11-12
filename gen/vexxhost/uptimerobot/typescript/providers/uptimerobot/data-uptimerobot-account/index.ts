@@ -56,7 +56,8 @@ export class DataUptimerobotAccount extends cdktf.TerraformDataSource {
       terraformResourceType: 'uptimerobot_account',
       terraformGeneratorMetadata: {
         providerName: 'uptimerobot',
-        providerVersion: '0.8.2'
+        providerVersion: '0.8.2',
+        providerVersionConstraint: '0.8.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

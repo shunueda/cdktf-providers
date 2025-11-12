@@ -65,7 +65,8 @@ export class DataSolacebrokerOauthProfileDefaultMsgVpnAccessLevelException exten
       terraformResourceType: 'solacebroker_oauth_profile_default_msg_vpn_access_level_exception',
       terraformGeneratorMetadata: {
         providerName: 'solacebrokerappliance',
-        providerVersion: '1.2.0'
+        providerVersion: '1.2.0',
+        providerVersionConstraint: '1.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

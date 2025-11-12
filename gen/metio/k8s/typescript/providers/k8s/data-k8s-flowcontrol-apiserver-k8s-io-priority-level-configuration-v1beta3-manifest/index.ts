@@ -1013,7 +1013,8 @@ export class DataK8SFlowcontrolApiserverK8SIoPriorityLevelConfigurationV1Beta3Ma
       terraformResourceType: 'k8s_flowcontrol_apiserver_k8s_io_priority_level_configuration_v1beta3_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

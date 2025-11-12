@@ -67,7 +67,8 @@ export class K8SProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'k8s',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '0.2.2'
+        providerVersion: '0.2.2',
+        providerVersionConstraint: '0.2.2'
       },
       terraformProviderSource: 'fiveai/k8s'
     });

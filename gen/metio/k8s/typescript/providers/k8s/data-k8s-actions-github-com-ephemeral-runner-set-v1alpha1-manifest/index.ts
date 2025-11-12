@@ -66,7 +66,8 @@ export class DataK8SActionsGithubComEphemeralRunnerSetV1Alpha1Manifest extends c
       terraformResourceType: 'k8s_actions_github_com_ephemeral_runner_set_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

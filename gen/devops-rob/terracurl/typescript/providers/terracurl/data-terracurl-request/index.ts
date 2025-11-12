@@ -139,7 +139,8 @@ export class DataTerracurlRequest extends cdktf.TerraformDataSource {
       terraformResourceType: 'terracurl_request',
       terraformGeneratorMetadata: {
         providerName: 'terracurl',
-        providerVersion: '2.1.0'
+        providerVersion: '2.1.0',
+        providerVersionConstraint: '2.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

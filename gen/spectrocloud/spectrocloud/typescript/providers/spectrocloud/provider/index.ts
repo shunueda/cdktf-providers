@@ -91,7 +91,8 @@ export class SpectrocloudProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'spectrocloud',
       terraformGeneratorMetadata: {
         providerName: 'spectrocloud',
-        providerVersion: '0.25.2'
+        providerVersion: '0.25.2',
+        providerVersionConstraint: '0.25.2'
       },
       terraformProviderSource: 'spectrocloud/spectrocloud'
     });

@@ -57,7 +57,8 @@ export class DataSolacebrokerAboutUserMsgVpn extends cdktf.TerraformDataSource {
       terraformResourceType: 'solacebroker_about_user_msg_vpn',
       terraformGeneratorMetadata: {
         providerName: 'solacebroker',
-        providerVersion: '1.2.0'
+        providerVersion: '1.2.0',
+        providerVersionConstraint: '1.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

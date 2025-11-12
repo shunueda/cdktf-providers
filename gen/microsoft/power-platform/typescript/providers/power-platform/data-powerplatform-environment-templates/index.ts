@@ -275,7 +275,8 @@ export class DataPowerplatformEnvironmentTemplates extends cdktf.TerraformDataSo
       terraformResourceType: 'powerplatform_environment_templates',
       terraformGeneratorMetadata: {
         providerName: 'power-platform',
-        providerVersion: '3.9.1'
+        providerVersion: '3.9.1',
+        providerVersionConstraint: '3.9.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -55,7 +55,8 @@ export class VenafiTokenProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'venafi-token',
       terraformGeneratorMetadata: {
         providerName: 'venafi-token',
-        providerVersion: '0.2.1'
+        providerVersion: '0.2.1',
+        providerVersionConstraint: '0.2.1'
       },
       terraformProviderSource: 'Venafi/venafi-token'
     });

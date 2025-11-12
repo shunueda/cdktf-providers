@@ -77,7 +77,8 @@ export class PolicyRule extends cdktf.TerraformResource {
       terraformResourceType: 'clumio_policy_rule',
       terraformGeneratorMetadata: {
         providerName: 'clumio',
-        providerVersion: '0.16.1'
+        providerVersion: '0.16.1',
+        providerVersionConstraint: '0.16.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

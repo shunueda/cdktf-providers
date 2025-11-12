@@ -76,7 +76,8 @@ export class DedicatedNashaPartition extends cdktf.TerraformResource {
       terraformResourceType: 'ovh_dedicated_nasha_partition',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0'
+        providerVersion: '2.9.0',
+        providerVersionConstraint: '2.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

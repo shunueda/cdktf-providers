@@ -619,7 +619,8 @@ export class WafDedicatedPreciseProtectionRuleV1 extends cdktf.TerraformResource
       terraformResourceType: 'opentelekomcloud_waf_dedicated_precise_protection_rule_v1',
       terraformGeneratorMetadata: {
         providerName: 'opentelekomcloud',
-        providerVersion: '1.36.52'
+        providerVersion: '1.36.52',
+        providerVersionConstraint: '1.36.52'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

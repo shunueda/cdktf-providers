@@ -267,7 +267,8 @@ export class DataAlicloudVpcIpamIpamPools extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_vpc_ipam_ipam_pools',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

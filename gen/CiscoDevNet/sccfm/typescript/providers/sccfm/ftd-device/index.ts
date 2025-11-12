@@ -91,7 +91,8 @@ export class FtdDevice extends cdktf.TerraformResource {
       terraformResourceType: 'sccfm_ftd_device',
       terraformGeneratorMetadata: {
         providerName: 'sccfm',
-        providerVersion: '0.2.5'
+        providerVersion: '0.2.5',
+        providerVersionConstraint: '0.2.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

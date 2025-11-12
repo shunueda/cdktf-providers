@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/vpc_bandwidth
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/vpc_bandwidth
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,26 +8,26 @@ import * as cdktf from 'cdktf';
 
 export interface DataHcsVpcBandwidthConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/vpc_bandwidth#enterprise_project_id DataHcsVpcBandwidth#enterprise_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/vpc_bandwidth#enterprise_project_id DataHcsVpcBandwidth#enterprise_project_id}
   */
   readonly enterpriseProjectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/vpc_bandwidth#id DataHcsVpcBandwidth#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/vpc_bandwidth#id DataHcsVpcBandwidth#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/vpc_bandwidth#name DataHcsVpcBandwidth#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/vpc_bandwidth#name DataHcsVpcBandwidth#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/vpc_bandwidth#region DataHcsVpcBandwidth#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/vpc_bandwidth#region DataHcsVpcBandwidth#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/vpc_bandwidth#size DataHcsVpcBandwidth#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/vpc_bandwidth#size DataHcsVpcBandwidth#size}
   */
   readonly size?: number;
 }
@@ -123,7 +123,7 @@ export class DataHcsVpcBandwidthPublicipsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/vpc_bandwidth hcs_vpc_bandwidth}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/vpc_bandwidth hcs_vpc_bandwidth}
 */
 export class DataHcsVpcBandwidth extends cdktf.TerraformDataSource {
 
@@ -139,7 +139,7 @@ export class DataHcsVpcBandwidth extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataHcsVpcBandwidth resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHcsVpcBandwidth to import
-  * @param importFromId The id of the existing DataHcsVpcBandwidth that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/vpc_bandwidth#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHcsVpcBandwidth that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/vpc_bandwidth#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHcsVpcBandwidth to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -151,7 +151,7 @@ export class DataHcsVpcBandwidth extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/vpc_bandwidth hcs_vpc_bandwidth} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/vpc_bandwidth hcs_vpc_bandwidth} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -162,7 +162,8 @@ export class DataHcsVpcBandwidth extends cdktf.TerraformDataSource {
       terraformResourceType: 'hcs_vpc_bandwidth',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.19'
+        providerVersion: '2.4.20',
+        providerVersionConstraint: '2.4.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

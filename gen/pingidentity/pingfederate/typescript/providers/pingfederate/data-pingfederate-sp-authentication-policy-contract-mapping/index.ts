@@ -1623,7 +1623,8 @@ export class DataPingfederateSpAuthenticationPolicyContractMapping extends cdktf
       terraformResourceType: 'pingfederate_sp_authentication_policy_contract_mapping',
       terraformGeneratorMetadata: {
         providerName: 'pingfederate',
-        providerVersion: '1.6.2'
+        providerVersion: '1.6.2',
+        providerVersionConstraint: '1.6.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

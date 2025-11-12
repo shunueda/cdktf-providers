@@ -246,7 +246,8 @@ export class DataNcloudInitScript extends cdktf.TerraformDataSource {
       terraformResourceType: 'ncloud_init_script',
       terraformGeneratorMetadata: {
         providerName: 'ncloud',
-        providerVersion: '4.0.4'
+        providerVersion: '4.0.4',
+        providerVersionConstraint: '4.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

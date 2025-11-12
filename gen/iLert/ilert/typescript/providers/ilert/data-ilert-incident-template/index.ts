@@ -60,7 +60,8 @@ export class DataIlertIncidentTemplate extends cdktf.TerraformDataSource {
       terraformResourceType: 'ilert_incident_template',
       terraformGeneratorMetadata: {
         providerName: 'ilert',
-        providerVersion: '2.14.3'
+        providerVersion: '2.14.3',
+        providerVersionConstraint: '2.14.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

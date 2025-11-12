@@ -6258,7 +6258,8 @@ export class IotTopicRule extends cdktf.TerraformResource {
       terraformResourceType: 'aws_iot_topic_rule',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '3.29.6'
+        providerVersion: '3.29.6',
+        providerVersionConstraint: '3.29.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

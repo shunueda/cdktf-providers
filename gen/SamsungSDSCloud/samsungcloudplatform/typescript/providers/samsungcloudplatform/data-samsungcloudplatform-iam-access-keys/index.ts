@@ -424,7 +424,8 @@ export class DataSamsungcloudplatformIamAccessKeys extends cdktf.TerraformDataSo
       terraformResourceType: 'samsungcloudplatform_iam_access_keys',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0'
+        providerVersion: '3.15.0',
+        providerVersionConstraint: '3.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

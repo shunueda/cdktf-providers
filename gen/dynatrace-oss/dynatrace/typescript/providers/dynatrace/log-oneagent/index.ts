@@ -146,7 +146,8 @@ export class LogOneagent extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_log_oneagent',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1'
+        providerVersion: '1.87.1',
+        providerVersionConstraint: '1.87.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

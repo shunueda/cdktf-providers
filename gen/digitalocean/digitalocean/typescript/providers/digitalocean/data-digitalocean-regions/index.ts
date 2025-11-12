@@ -518,7 +518,8 @@ export class DataDigitaloceanRegions extends cdktf.TerraformDataSource {
       terraformResourceType: 'digitalocean_regions',
       terraformGeneratorMetadata: {
         providerName: 'digitalocean',
-        providerVersion: '2.68.0'
+        providerVersion: '2.68.0',
+        providerVersionConstraint: '2.68.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_tcp
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_tcp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface ManagementResourceTcpConfig extends cdktf.TerraformMetaArgument
   /**
   * Color of the object. Should be one of existing colors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_tcp#color ManagementResourceTcp#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_tcp#color ManagementResourceTcp#color}
   */
   readonly color?: string;
   /**
   * Comments string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_tcp#comments ManagementResourceTcp#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_tcp#comments ManagementResourceTcp#comments}
   */
   readonly comments?: string;
   /**
   * Configures how to track connections that match this rule but fail the content security checks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_tcp#exception_track ManagementResourceTcp#exception_track}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_tcp#exception_track ManagementResourceTcp#exception_track}
   */
   readonly exceptionTrack?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_tcp#id ManagementResourceTcp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_tcp#id ManagementResourceTcp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,43 +35,43 @@ export interface ManagementResourceTcpConfig extends cdktf.TerraformMetaArgument
   /**
   * Apply changes ignoring errors. You won't be able to publish such a changes. If ignore-warnings flag was omitted - warnings will also be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_tcp#ignore_errors ManagementResourceTcp#ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_tcp#ignore_errors ManagementResourceTcp#ignore_errors}
   */
   readonly ignoreErrors?: boolean | cdktf.IResolvable;
   /**
   * Apply changes ignoring warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_tcp#ignore_warnings ManagementResourceTcp#ignore_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_tcp#ignore_warnings ManagementResourceTcp#ignore_warnings}
   */
   readonly ignoreWarnings?: boolean | cdktf.IResolvable;
   /**
   * Object name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_tcp#name ManagementResourceTcp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_tcp#name ManagementResourceTcp#name}
   */
   readonly name: string;
   /**
   * The type of the TCP resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_tcp#resource_type ManagementResourceTcp#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_tcp#resource_type ManagementResourceTcp#resource_type}
   */
   readonly resourceType?: string;
   /**
   * Collection of tag identifiers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_tcp#tags ManagementResourceTcp#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_tcp#tags ManagementResourceTcp#tags}
   */
   readonly tags?: string[];
   /**
   * cvp_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_tcp#cvp_settings ManagementResourceTcp#cvp_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_tcp#cvp_settings ManagementResourceTcp#cvp_settings}
   */
   readonly cvpSettings?: ManagementResourceTcpCvpSettings;
   /**
   * ufp_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_tcp#ufp_settings ManagementResourceTcp#ufp_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_tcp#ufp_settings ManagementResourceTcp#ufp_settings}
   */
   readonly ufpSettings?: ManagementResourceTcpUfpSettings;
 }
@@ -79,19 +79,19 @@ export interface ManagementResourceTcpCvpSettings {
   /**
   * Configures the CVP server to inspect but not modify content.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_tcp#allowed_to_modify_content ManagementResourceTcp#allowed_to_modify_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_tcp#allowed_to_modify_content ManagementResourceTcp#allowed_to_modify_content}
   */
   readonly allowedToModifyContent?: boolean | cdktf.IResolvable;
   /**
   * Designates when the CVP server returns data to the Security Gateway security server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_tcp#reply_order ManagementResourceTcp#reply_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_tcp#reply_order ManagementResourceTcp#reply_order}
   */
   readonly replyOrder?: string;
   /**
   * CVP server identified by name or UID. The CVP server must already be defined as an OPSEC Application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_tcp#server ManagementResourceTcp#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_tcp#server ManagementResourceTcp#server}
   */
   readonly server: string;
 }
@@ -232,31 +232,31 @@ export interface ManagementResourceTcpUfpSettings {
   /**
   * Specifies if and how caching is to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_tcp#caching_control ManagementResourceTcp#caching_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_tcp#caching_control ManagementResourceTcp#caching_control}
   */
   readonly cachingControl?: string;
   /**
   * The UFP server will be ignored after numerous UFP server connections were unsuccessful.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_tcp#ignore_ufp_server_after_failure ManagementResourceTcp#ignore_ufp_server_after_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_tcp#ignore_ufp_server_after_failure ManagementResourceTcp#ignore_ufp_server_after_failure}
   */
   readonly ignoreUfpServerAfterFailure?: boolean | cdktf.IResolvable;
   /**
   * Signifies at what point the UFP server should be ignored, Applicable only if 'ignore after fail' is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_tcp#number_of_failures_before_ignore ManagementResourceTcp#number_of_failures_before_ignore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_tcp#number_of_failures_before_ignore ManagementResourceTcp#number_of_failures_before_ignore}
   */
   readonly numberOfFailuresBeforeIgnore?: number;
   /**
   * UFP server identified by name or UID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_tcp#server ManagementResourceTcp#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_tcp#server ManagementResourceTcp#server}
   */
   readonly server: string;
   /**
   * The amount of time, in seconds, that must pass before a UFP server connection should be attempted, Applicable only if 'ignore after fail' is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_tcp#timeout_before_reconnecting ManagementResourceTcp#timeout_before_reconnecting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_tcp#timeout_before_reconnecting ManagementResourceTcp#timeout_before_reconnecting}
   */
   readonly timeoutBeforeReconnecting?: number;
 }
@@ -453,7 +453,7 @@ export class ManagementResourceTcpUfpSettingsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_tcp checkpoint_management_resource_tcp}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_tcp checkpoint_management_resource_tcp}
 */
 export class ManagementResourceTcp extends cdktf.TerraformResource {
 
@@ -469,7 +469,7 @@ export class ManagementResourceTcp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementResourceTcp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementResourceTcp to import
-  * @param importFromId The id of the existing ManagementResourceTcp that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_tcp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementResourceTcp that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_tcp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementResourceTcp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -481,7 +481,7 @@ export class ManagementResourceTcp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_resource_tcp checkpoint_management_resource_tcp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_resource_tcp checkpoint_management_resource_tcp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -492,7 +492,8 @@ export class ManagementResourceTcp extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_resource_tcp',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

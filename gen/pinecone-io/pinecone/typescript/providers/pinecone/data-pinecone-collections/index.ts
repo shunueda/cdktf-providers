@@ -239,7 +239,8 @@ export class DataPineconeCollections extends cdktf.TerraformDataSource {
       terraformResourceType: 'pinecone_collections',
       terraformGeneratorMetadata: {
         providerName: 'pinecone',
-        providerVersion: '2.0.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

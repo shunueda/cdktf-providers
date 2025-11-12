@@ -89,7 +89,8 @@ export class Application extends cdktf.TerraformResource {
       terraformResourceType: 'fortitokencloud_application',
       terraformGeneratorMetadata: {
         providerName: 'fortitokencloud',
-        providerVersion: '1.0.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/resources/cdm_bootstrap_cces_aws
+// https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/cdm_bootstrap_cces_aws
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,65 +10,65 @@ export interface CdmBootstrapCcesAwsConfig extends cdktf.TerraformMetaArguments 
   /**
   * The Rubrik cluster sends messages for the admin account to this email address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/resources/cdm_bootstrap_cces_aws#admin_email CdmBootstrapCcesAws#admin_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/cdm_bootstrap_cces_aws#admin_email CdmBootstrapCcesAws#admin_email}
   */
   readonly adminEmail: string;
   /**
   * Password for the admin account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/resources/cdm_bootstrap_cces_aws#admin_password CdmBootstrapCcesAws#admin_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/cdm_bootstrap_cces_aws#admin_password CdmBootstrapCcesAws#admin_password}
   */
   readonly adminPassword: string;
   /**
   * AWS S3 bucket where CCES will store its data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/resources/cdm_bootstrap_cces_aws#bucket_name CdmBootstrapCcesAws#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/cdm_bootstrap_cces_aws#bucket_name CdmBootstrapCcesAws#bucket_name}
   */
   readonly bucketName: string;
   /**
   * Unique name to assign to the Rubrik cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/resources/cdm_bootstrap_cces_aws#cluster_name CdmBootstrapCcesAws#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/cdm_bootstrap_cces_aws#cluster_name CdmBootstrapCcesAws#cluster_name}
   */
   readonly clusterName: string;
   /**
   * IP address of the cluster node to connect to. If not specified, a random node from the `cluster_nodes` map will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/resources/cdm_bootstrap_cces_aws#cluster_node_ip_address CdmBootstrapCcesAws#cluster_node_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/cdm_bootstrap_cces_aws#cluster_node_ip_address CdmBootstrapCcesAws#cluster_node_ip_address}
   */
   readonly clusterNodeIpAddress?: string;
   /**
   * The node name and IP address formatted as a map.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/resources/cdm_bootstrap_cces_aws#cluster_nodes CdmBootstrapCcesAws#cluster_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/cdm_bootstrap_cces_aws#cluster_nodes CdmBootstrapCcesAws#cluster_nodes}
   */
   readonly clusterNodes?: { [key: string]: string };
   /**
   * IPv4 addresses of DNS servers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/resources/cdm_bootstrap_cces_aws#dns_name_servers CdmBootstrapCcesAws#dns_name_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/cdm_bootstrap_cces_aws#dns_name_servers CdmBootstrapCcesAws#dns_name_servers}
   */
   readonly dnsNameServers: string[];
   /**
   * The search domain that the DNS Service will use to resolve hostnames that are not fully qualified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/resources/cdm_bootstrap_cces_aws#dns_search_domain CdmBootstrapCcesAws#dns_search_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/cdm_bootstrap_cces_aws#dns_search_domain CdmBootstrapCcesAws#dns_search_domain}
   */
   readonly dnsSearchDomain: string[];
   /**
   * When bootstrapping a Cloud Cluster this value must be `false`. **Deprecated:** not used. Only kept for backwards compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/resources/cdm_bootstrap_cces_aws#enable_encryption CdmBootstrapCcesAws#enable_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/cdm_bootstrap_cces_aws#enable_encryption CdmBootstrapCcesAws#enable_encryption}
   */
   readonly enableEncryption?: boolean | cdktf.IResolvable;
   /**
   * Flag to determine if versioning will be used on the S3 object storage to enable immutability.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/resources/cdm_bootstrap_cces_aws#enable_immutability CdmBootstrapCcesAws#enable_immutability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/cdm_bootstrap_cces_aws#enable_immutability CdmBootstrapCcesAws#enable_immutability}
   */
   readonly enableImmutability?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/resources/cdm_bootstrap_cces_aws#id CdmBootstrapCcesAws#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/cdm_bootstrap_cces_aws#id CdmBootstrapCcesAws#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -77,99 +77,99 @@ export interface CdmBootstrapCcesAwsConfig extends cdktf.TerraformMetaArguments 
   /**
   * IP address assigned to the management network gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/resources/cdm_bootstrap_cces_aws#management_gateway CdmBootstrapCcesAws#management_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/cdm_bootstrap_cces_aws#management_gateway CdmBootstrapCcesAws#management_gateway}
   */
   readonly managementGateway: string;
   /**
   * Subnet mask assigned to the management network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/resources/cdm_bootstrap_cces_aws#management_subnet_mask CdmBootstrapCcesAws#management_subnet_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/cdm_bootstrap_cces_aws#management_subnet_mask CdmBootstrapCcesAws#management_subnet_mask}
   */
   readonly managementSubnetMask: string;
   /**
   * The node name and IP address formatted as a map. **Deprecated:** use `cluster_nodes` instead. Only kept for backwards compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/resources/cdm_bootstrap_cces_aws#node_config CdmBootstrapCcesAws#node_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/cdm_bootstrap_cces_aws#node_config CdmBootstrapCcesAws#node_config}
   */
   readonly nodeConfig?: { [key: string]: string };
   /**
   * Symmetric key material for NTP server #1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/resources/cdm_bootstrap_cces_aws#ntp_server1_key CdmBootstrapCcesAws#ntp_server1_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/cdm_bootstrap_cces_aws#ntp_server1_key CdmBootstrapCcesAws#ntp_server1_key}
   */
   readonly ntpServer1Key?: string;
   /**
   * Key id number for NTP server #1 (typically this is 0).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/resources/cdm_bootstrap_cces_aws#ntp_server1_key_id CdmBootstrapCcesAws#ntp_server1_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/cdm_bootstrap_cces_aws#ntp_server1_key_id CdmBootstrapCcesAws#ntp_server1_key_id}
   */
   readonly ntpServer1KeyId?: number;
   /**
   * Symmetric key type for NTP server #1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/resources/cdm_bootstrap_cces_aws#ntp_server1_key_type CdmBootstrapCcesAws#ntp_server1_key_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/cdm_bootstrap_cces_aws#ntp_server1_key_type CdmBootstrapCcesAws#ntp_server1_key_type}
   */
   readonly ntpServer1KeyType?: string;
   /**
   * Name or IP address for NTP server #1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/resources/cdm_bootstrap_cces_aws#ntp_server1_name CdmBootstrapCcesAws#ntp_server1_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/cdm_bootstrap_cces_aws#ntp_server1_name CdmBootstrapCcesAws#ntp_server1_name}
   */
   readonly ntpServer1Name: string;
   /**
   * Symmetric key material for NTP server #2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/resources/cdm_bootstrap_cces_aws#ntp_server2_key CdmBootstrapCcesAws#ntp_server2_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/cdm_bootstrap_cces_aws#ntp_server2_key CdmBootstrapCcesAws#ntp_server2_key}
   */
   readonly ntpServer2Key?: string;
   /**
   * Key id number for NTP server #2 (typically this is 1).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/resources/cdm_bootstrap_cces_aws#ntp_server2_key_id CdmBootstrapCcesAws#ntp_server2_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/cdm_bootstrap_cces_aws#ntp_server2_key_id CdmBootstrapCcesAws#ntp_server2_key_id}
   */
   readonly ntpServer2KeyId?: number;
   /**
   * Symmetric key type for NTP server #2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/resources/cdm_bootstrap_cces_aws#ntp_server2_key_type CdmBootstrapCcesAws#ntp_server2_key_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/cdm_bootstrap_cces_aws#ntp_server2_key_type CdmBootstrapCcesAws#ntp_server2_key_type}
   */
   readonly ntpServer2KeyType?: string;
   /**
   * Name or IP address for NTP server #2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/resources/cdm_bootstrap_cces_aws#ntp_server2_name CdmBootstrapCcesAws#ntp_server2_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/cdm_bootstrap_cces_aws#ntp_server2_name CdmBootstrapCcesAws#ntp_server2_name}
   */
   readonly ntpServer2Name: string;
   /**
   * The time to wait to establish a connection the Rubrik cluster before returning an error (defaults to `4m`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/resources/cdm_bootstrap_cces_aws#timeout CdmBootstrapCcesAws#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/cdm_bootstrap_cces_aws#timeout CdmBootstrapCcesAws#timeout}
   */
   readonly timeout?: string;
   /**
   * Flag to determine if Terraform should wait for the bootstrap process to complete.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/resources/cdm_bootstrap_cces_aws#wait_for_completion CdmBootstrapCcesAws#wait_for_completion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/cdm_bootstrap_cces_aws#wait_for_completion CdmBootstrapCcesAws#wait_for_completion}
   */
   readonly waitForCompletion?: boolean | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/resources/cdm_bootstrap_cces_aws#timeouts CdmBootstrapCcesAws#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/cdm_bootstrap_cces_aws#timeouts CdmBootstrapCcesAws#timeouts}
   */
   readonly timeouts?: CdmBootstrapCcesAwsTimeouts;
 }
 export interface CdmBootstrapCcesAwsTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/resources/cdm_bootstrap_cces_aws#create CdmBootstrapCcesAws#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/cdm_bootstrap_cces_aws#create CdmBootstrapCcesAws#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/resources/cdm_bootstrap_cces_aws#default CdmBootstrapCcesAws#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/cdm_bootstrap_cces_aws#default CdmBootstrapCcesAws#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/resources/cdm_bootstrap_cces_aws#read CdmBootstrapCcesAws#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/cdm_bootstrap_cces_aws#read CdmBootstrapCcesAws#read}
   */
   readonly read?: string;
 }
@@ -321,7 +321,7 @@ export class CdmBootstrapCcesAwsTimeoutsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/resources/cdm_bootstrap_cces_aws polaris_cdm_bootstrap_cces_aws}
+* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/cdm_bootstrap_cces_aws polaris_cdm_bootstrap_cces_aws}
 */
 export class CdmBootstrapCcesAws extends cdktf.TerraformResource {
 
@@ -337,7 +337,7 @@ export class CdmBootstrapCcesAws extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CdmBootstrapCcesAws resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CdmBootstrapCcesAws to import
-  * @param importFromId The id of the existing CdmBootstrapCcesAws that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/resources/cdm_bootstrap_cces_aws#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CdmBootstrapCcesAws that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/cdm_bootstrap_cces_aws#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CdmBootstrapCcesAws to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -349,7 +349,7 @@ export class CdmBootstrapCcesAws extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/resources/cdm_bootstrap_cces_aws polaris_cdm_bootstrap_cces_aws} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/cdm_bootstrap_cces_aws polaris_cdm_bootstrap_cces_aws} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -360,7 +360,8 @@ export class CdmBootstrapCcesAws extends cdktf.TerraformResource {
       terraformResourceType: 'polaris_cdm_bootstrap_cces_aws',
       terraformGeneratorMetadata: {
         providerName: 'polaris',
-        providerVersion: '1.2.1'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -540,7 +540,8 @@ export class Table extends cdktf.TerraformResource {
       terraformResourceType: 'databricks_table',
       terraformGeneratorMetadata: {
         providerName: 'databricks',
-        providerVersion: '1.97.0'
+        providerVersion: '1.97.0',
+        providerVersionConstraint: '1.97.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

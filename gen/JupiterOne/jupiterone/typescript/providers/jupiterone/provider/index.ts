@@ -73,7 +73,8 @@ export class JupiteroneProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'jupiterone',
       terraformGeneratorMetadata: {
         providerName: 'jupiterone',
-        providerVersion: '1.16.3'
+        providerVersion: '1.16.3',
+        providerVersionConstraint: '1.16.3'
       },
       terraformProviderSource: 'JupiterOne/jupiterone'
     });

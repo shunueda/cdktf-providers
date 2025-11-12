@@ -74,7 +74,8 @@ export class TwcS3BucketFile extends cdktf.TerraformResource {
       terraformResourceType: 'twc_s3_bucket_file',
       terraformGeneratorMetadata: {
         providerName: 'timeweb-cloud',
-        providerVersion: '1.6.6'
+        providerVersion: '1.6.6',
+        providerVersionConstraint: '1.6.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

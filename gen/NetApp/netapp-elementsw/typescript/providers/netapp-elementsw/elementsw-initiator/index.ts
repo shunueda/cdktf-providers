@@ -76,7 +76,8 @@ export class ElementswInitiator extends cdktf.TerraformResource {
       terraformResourceType: 'elementsw_initiator',
       terraformGeneratorMetadata: {
         providerName: 'netapp-elementsw',
-        providerVersion: '20.11.0'
+        providerVersion: '20.11.0',
+        providerVersionConstraint: '20.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

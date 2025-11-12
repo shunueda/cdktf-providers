@@ -74,7 +74,8 @@ export class Key extends cdktf.TerraformResource {
       terraformResourceType: 'etcd_key',
       terraformGeneratorMetadata: {
         providerName: 'etcd',
-        providerVersion: '0.11.0'
+        providerVersion: '0.11.0',
+        providerVersionConstraint: '0.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

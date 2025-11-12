@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_property_set
+// https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_property_set
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface FreeformPropertySetConfig extends cdktf.TerraformMetaArguments 
   /**
   * Apstra Blueprint ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_property_set#blueprint_id FreeformPropertySet#blueprint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_property_set#blueprint_id FreeformPropertySet#blueprint_id}
   */
   readonly blueprintId: string;
   /**
   * Property Set name as shown in the Web UI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_property_set#name FreeformPropertySet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_property_set#name FreeformPropertySet#name}
   */
   readonly name: string;
   /**
   * The system ID where the Property Set is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_property_set#system_id FreeformPropertySet#system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_property_set#system_id FreeformPropertySet#system_id}
   */
   readonly systemId?: string;
   /**
   * A map of values in the Property Set in JSON format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_property_set#values FreeformPropertySet#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_property_set#values FreeformPropertySet#values}
   */
   readonly values: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_property_set apstra_freeform_property_set}
+* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_property_set apstra_freeform_property_set}
 */
 export class FreeformPropertySet extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class FreeformPropertySet extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FreeformPropertySet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FreeformPropertySet to import
-  * @param importFromId The id of the existing FreeformPropertySet that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_property_set#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FreeformPropertySet that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_property_set#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FreeformPropertySet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class FreeformPropertySet extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_property_set apstra_freeform_property_set} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_property_set apstra_freeform_property_set} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,7 +73,8 @@ export class FreeformPropertySet extends cdktf.TerraformResource {
       terraformResourceType: 'apstra_freeform_property_set',
       terraformGeneratorMetadata: {
         providerName: 'apstra',
-        providerVersion: '0.95.0'
+        providerVersion: '0.95.1',
+        providerVersionConstraint: '0.95.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

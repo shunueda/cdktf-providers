@@ -1493,7 +1493,8 @@ export class MonitorAlertV2Change extends cdktf.TerraformResource {
       terraformResourceType: 'sysdig_monitor_alert_v2_change',
       terraformGeneratorMetadata: {
         providerName: 'sysdig',
-        providerVersion: '3.1.0'
+        providerVersion: '3.1.0',
+        providerVersionConstraint: '3.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -6478,7 +6478,8 @@ export class DataIntersightHyperflexDatastoreStatistic extends cdktf.TerraformDa
       terraformResourceType: 'intersight_hyperflex_datastore_statistic',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

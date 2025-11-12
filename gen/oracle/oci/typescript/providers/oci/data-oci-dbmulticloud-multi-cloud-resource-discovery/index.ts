@@ -154,7 +154,8 @@ export class DataOciDbmulticloudMultiCloudResourceDiscovery extends cdktf.Terraf
       terraformResourceType: 'oci_dbmulticloud_multi_cloud_resource_discovery',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

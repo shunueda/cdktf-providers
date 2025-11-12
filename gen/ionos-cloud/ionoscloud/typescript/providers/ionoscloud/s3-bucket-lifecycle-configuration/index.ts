@@ -843,7 +843,8 @@ export class S3BucketLifecycleConfiguration extends cdktf.TerraformResource {
       terraformResourceType: 'ionoscloud_s3_bucket_lifecycle_configuration',
       terraformGeneratorMetadata: {
         providerName: 'ionoscloud',
-        providerVersion: '6.7.20'
+        providerVersion: '6.7.20',
+        providerVersionConstraint: '6.7.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

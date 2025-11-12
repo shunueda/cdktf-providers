@@ -971,7 +971,8 @@ export class DataK8SB3ScaleInfraRunBbbFrontendV1Manifest extends cdktf.Terraform
       terraformResourceType: 'k8s_b3scale_infra_run_bbb_frontend_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

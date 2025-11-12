@@ -68,7 +68,8 @@ export class RouteServiceBinding extends cdktf.TerraformResource {
       terraformResourceType: 'cloudfoundry_route_service_binding',
       terraformGeneratorMetadata: {
         providerName: 'cloudfoundry',
-        providerVersion: '0.53.1'
+        providerVersion: '0.53.1',
+        providerVersionConstraint: '0.53.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

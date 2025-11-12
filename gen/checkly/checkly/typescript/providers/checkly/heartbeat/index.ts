@@ -1634,7 +1634,8 @@ export class Heartbeat extends cdktf.TerraformResource {
       terraformResourceType: 'checkly_heartbeat',
       terraformGeneratorMetadata: {
         providerName: 'checkly',
-        providerVersion: '1.16.0'
+        providerVersion: '1.16.0',
+        providerVersionConstraint: '1.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

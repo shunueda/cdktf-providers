@@ -73,7 +73,8 @@ export class SmartClassTag extends cdktf.TerraformResource {
       terraformResourceType: 'jupiterone_smart_class_tag',
       terraformGeneratorMetadata: {
         providerName: 'jupiterone',
-        providerVersion: '1.16.3'
+        providerVersion: '1.16.3',
+        providerVersionConstraint: '1.16.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

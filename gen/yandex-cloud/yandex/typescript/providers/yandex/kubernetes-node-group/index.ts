@@ -3540,7 +3540,8 @@ export class KubernetesNodeGroup extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_kubernetes_node_group',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.169.0'
+        providerVersion: '0.169.0',
+        providerVersionConstraint: '0.169.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -877,7 +877,8 @@ export class WorkflowTaskUpdateGoogleCalendarEvent extends cdktf.TerraformResour
       terraformResourceType: 'rootly_workflow_task_update_google_calendar_event',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.7'
+        providerVersion: '4.3.7',
+        providerVersionConstraint: '4.3.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

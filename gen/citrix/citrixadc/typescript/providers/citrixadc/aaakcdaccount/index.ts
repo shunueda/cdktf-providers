@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/aaakcdaccount
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaakcdaccount
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,56 +8,56 @@ import * as cdktf from 'cdktf';
 
 export interface AaakcdaccountConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/aaakcdaccount#cacert Aaakcdaccount#cacert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaakcdaccount#cacert Aaakcdaccount#cacert}
   */
   readonly cacert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/aaakcdaccount#delegateduser Aaakcdaccount#delegateduser}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaakcdaccount#delegateduser Aaakcdaccount#delegateduser}
   */
   readonly delegateduser?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/aaakcdaccount#enterpriserealm Aaakcdaccount#enterpriserealm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaakcdaccount#enterpriserealm Aaakcdaccount#enterpriserealm}
   */
   readonly enterpriserealm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/aaakcdaccount#id Aaakcdaccount#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaakcdaccount#id Aaakcdaccount#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/aaakcdaccount#kcdaccount Aaakcdaccount#kcdaccount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaakcdaccount#kcdaccount Aaakcdaccount#kcdaccount}
   */
   readonly kcdaccount: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/aaakcdaccount#kcdpassword Aaakcdaccount#kcdpassword}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaakcdaccount#kcdpassword Aaakcdaccount#kcdpassword}
   */
   readonly kcdpassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/aaakcdaccount#keytab Aaakcdaccount#keytab}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaakcdaccount#keytab Aaakcdaccount#keytab}
   */
   readonly keytab?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/aaakcdaccount#realmstr Aaakcdaccount#realmstr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaakcdaccount#realmstr Aaakcdaccount#realmstr}
   */
   readonly realmstr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/aaakcdaccount#servicespn Aaakcdaccount#servicespn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaakcdaccount#servicespn Aaakcdaccount#servicespn}
   */
   readonly servicespn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/aaakcdaccount#usercert Aaakcdaccount#usercert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaakcdaccount#usercert Aaakcdaccount#usercert}
   */
   readonly usercert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/aaakcdaccount#userrealm Aaakcdaccount#userrealm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaakcdaccount#userrealm Aaakcdaccount#userrealm}
   */
   readonly userrealm?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/aaakcdaccount citrixadc_aaakcdaccount}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaakcdaccount citrixadc_aaakcdaccount}
 */
 export class Aaakcdaccount extends cdktf.TerraformResource {
 
@@ -73,7 +73,7 @@ export class Aaakcdaccount extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Aaakcdaccount resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Aaakcdaccount to import
-  * @param importFromId The id of the existing Aaakcdaccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/aaakcdaccount#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Aaakcdaccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaakcdaccount#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Aaakcdaccount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -85,7 +85,7 @@ export class Aaakcdaccount extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/aaakcdaccount citrixadc_aaakcdaccount} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaakcdaccount citrixadc_aaakcdaccount} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -96,7 +96,8 @@ export class Aaakcdaccount extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_aaakcdaccount',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

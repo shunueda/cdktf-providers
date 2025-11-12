@@ -96,7 +96,8 @@ export class Conversation extends cdktf.TerraformResource {
       terraformResourceType: 'slack_conversation',
       terraformGeneratorMetadata: {
         providerName: 'slack',
-        providerVersion: '1.2.2'
+        providerVersion: '1.2.2',
+        providerVersionConstraint: '1.2.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

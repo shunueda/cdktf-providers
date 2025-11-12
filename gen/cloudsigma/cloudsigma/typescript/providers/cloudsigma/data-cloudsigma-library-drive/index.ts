@@ -220,7 +220,8 @@ export class DataCloudsigmaLibraryDrive extends cdktf.TerraformDataSource {
       terraformResourceType: 'cloudsigma_library_drive',
       terraformGeneratorMetadata: {
         providerName: 'cloudsigma',
-        providerVersion: '2.9.0'
+        providerVersion: '2.9.0',
+        providerVersionConstraint: '2.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

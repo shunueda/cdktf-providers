@@ -182,7 +182,8 @@ export class DataOpalPaginatedBundleList extends cdktf.TerraformDataSource {
       terraformResourceType: 'opal_paginated_bundle_list',
       terraformGeneratorMetadata: {
         providerName: 'opal',
-        providerVersion: '3.3.3'
+        providerVersion: '3.3.3',
+        providerVersionConstraint: '3.3.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

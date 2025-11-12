@@ -456,7 +456,8 @@ export class RdsReadReplicaV3 extends cdktf.TerraformResource {
       terraformResourceType: 'flexibleengine_rds_read_replica_v3',
       terraformGeneratorMetadata: {
         providerName: 'flexibleengine',
-        providerVersion: '1.46.0'
+        providerVersion: '1.46.0',
+        providerVersionConstraint: '1.46.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

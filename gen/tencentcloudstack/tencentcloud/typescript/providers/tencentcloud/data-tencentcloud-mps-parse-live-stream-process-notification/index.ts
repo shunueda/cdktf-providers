@@ -68,7 +68,8 @@ export class DataTencentcloudMpsParseLiveStreamProcessNotification extends cdktf
       terraformResourceType: 'tencentcloud_mps_parse_live_stream_process_notification',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -60,7 +60,8 @@ export class DataOciDatabaseToolsDatabaseToolsEndpointService extends cdktf.Terr
       terraformResourceType: 'oci_database_tools_database_tools_endpoint_service',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

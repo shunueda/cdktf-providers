@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,181 +10,205 @@ export interface AlibabacloudstackProviderConfig {
   /**
   * The access key for API operations. You can retrieve this from the 'Security Management' section of the AlibabacloudStack console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#access_key AlibabacloudstackProvider#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#access_key AlibabacloudstackProvider#access_key}
   */
   readonly accessKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#asapi_endpoint AlibabacloudstackProvider#asapi_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#asapi_endpoint AlibabacloudstackProvider#asapi_endpoint}
   */
   readonly asapiEndpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#client_connect_timeout AlibabacloudstackProvider#client_connect_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#ascm_openapi_endpoint AlibabacloudstackProvider#ascm_openapi_endpoint}
+  */
+  readonly ascmOpenapiEndpoint?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#client_connect_timeout AlibabacloudstackProvider#client_connect_timeout}
   */
   readonly clientConnectTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#client_read_timeout AlibabacloudstackProvider#client_read_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#client_read_timeout AlibabacloudstackProvider#client_read_timeout}
   */
   readonly clientReadTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#configuration_source AlibabacloudstackProvider#configuration_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#configuration_source AlibabacloudstackProvider#configuration_source}
   */
   readonly configurationSource?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#department AlibabacloudstackProvider#department}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#dataworkspublic AlibabacloudstackProvider#dataworkspublic}
+  */
+  readonly dataworkspublic?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#dbs_endpoint AlibabacloudstackProvider#dbs_endpoint}
+  */
+  readonly dbsEndpoint?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#department AlibabacloudstackProvider#department}
   */
   readonly department?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#ecs_role_name AlibabacloudstackProvider#ecs_role_name}
+  * Use this to override the default domain. It's typically used to connect to custom domain.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#domain AlibabacloudstackProvider#domain}
+  */
+  readonly domain?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#ecs_role_name AlibabacloudstackProvider#ecs_role_name}
   */
   readonly ecsRoleName?: string;
   /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#fc AlibabacloudstackProvider#fc}
+  */
+  readonly fc?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#force_use_asapi AlibabacloudstackProvider#force_use_asapi}
+  */
+  readonly forceUseAsapi?: boolean | cdktf.IResolvable;
+  /**
   * Use this to Trust self-signed certificates. It's typically used to allow insecure connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#insecure AlibabacloudstackProvider#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#insecure AlibabacloudstackProvider#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#is_center_region AlibabacloudstackProvider#is_center_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#is_center_region AlibabacloudstackProvider#is_center_region}
   */
   readonly isCenterRegion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#kms_endpoint AlibabacloudstackProvider#kms_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#kafkaopenapi_domain AlibabacloudstackProvider#kafkaopenapi_domain}
+  */
+  readonly kafkaopenapiDomain?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#kms_endpoint AlibabacloudstackProvider#kms_endpoint}
   */
   readonly kmsEndpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#max_retry_timeout AlibabacloudstackProvider#max_retry_timeout}
-  */
-  readonly maxRetryTimeout?: number;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#organization_accesskey AlibabacloudstackProvider#organization_accesskey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#organization_accesskey AlibabacloudstackProvider#organization_accesskey}
   */
   readonly organizationAccesskey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#organization_secretkey AlibabacloudstackProvider#organization_secretkey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#organization_secretkey AlibabacloudstackProvider#organization_secretkey}
   */
   readonly organizationSecretkey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#ossservice_domain AlibabacloudstackProvider#ossservice_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#ossservice_domain AlibabacloudstackProvider#ossservice_domain}
   */
   readonly ossserviceDomain?: string;
   /**
-  * Use this to override the default domain. It's typically used to connect to custom domain.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#popgw_domain AlibabacloudstackProvider#popgw_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#popgw_domain AlibabacloudstackProvider#popgw_domain}
   */
   readonly popgwDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#profile AlibabacloudstackProvider#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#profile AlibabacloudstackProvider#profile}
   */
   readonly profile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#protocol AlibabacloudstackProvider#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#protocol AlibabacloudstackProvider#protocol}
   */
   readonly protocol?: string;
   /**
   * Use this to set proxy connection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#proxy AlibabacloudstackProvider#proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#proxy AlibabacloudstackProvider#proxy}
   */
   readonly proxy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#region AlibabacloudstackProvider#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#quickbi_endpoint AlibabacloudstackProvider#quickbi_endpoint}
   */
-  readonly region: string;
+  readonly quickbiEndpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#region_id AlibabacloudstackProvider#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#region AlibabacloudstackProvider#region}
+  */
+  readonly region?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#region_id AlibabacloudstackProvider#region_id}
   */
   readonly regionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#resource_group AlibabacloudstackProvider#resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#resource_group AlibabacloudstackProvider#resource_group}
   */
   readonly resourceGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#resource_group_set_name AlibabacloudstackProvider#resource_group_set_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#resource_group_set_name AlibabacloudstackProvider#resource_group_set_name}
   */
   readonly resourceGroupSetName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#role_arn AlibabacloudstackProvider#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#role_arn AlibabacloudstackProvider#role_arn}
   */
   readonly roleArn?: string;
   /**
   * The secret key for API operations. You can retrieve this from the 'Security Management' section of the AlibabacloudStackconsole.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#secret_key AlibabacloudstackProvider#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#secret_key AlibabacloudstackProvider#secret_key}
   */
   readonly secretKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#secure_transport AlibabacloudstackProvider#secure_transport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#secure_transport AlibabacloudstackProvider#secure_transport}
   */
   readonly secureTransport?: string;
   /**
   * security token. A security token is only required if you are using Security Token Service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#security_token AlibabacloudstackProvider#security_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#security_token AlibabacloudstackProvider#security_token}
   */
   readonly securityToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#security_transport AlibabacloudstackProvider#security_transport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#security_transport AlibabacloudstackProvider#security_transport}
   */
   readonly securityTransport?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#shared_credentials_file AlibabacloudstackProvider#shared_credentials_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#shared_credentials_file AlibabacloudstackProvider#shared_credentials_file}
   */
   readonly sharedCredentialsFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#skip_region_validation AlibabacloudstackProvider#skip_region_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#skip_region_validation AlibabacloudstackProvider#skip_region_validation}
   */
   readonly skipRegionValidation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#sls_endpoint AlibabacloudstackProvider#sls_endpoint}
-  */
-  readonly slsEndpoint?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#sls_openapi_endpoint AlibabacloudstackProvider#sls_openapi_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#sls_openapi_endpoint AlibabacloudstackProvider#sls_openapi_endpoint}
   */
   readonly slsOpenapiEndpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#source_ip AlibabacloudstackProvider#source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#source_ip AlibabacloudstackProvider#source_ip}
   */
   readonly sourceIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#sts_endpoint AlibabacloudstackProvider#sts_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#sts_endpoint AlibabacloudstackProvider#sts_endpoint}
   */
   readonly stsEndpoint?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#alias AlibabacloudstackProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#alias AlibabacloudstackProvider#alias}
   */
   readonly alias?: string;
   /**
   * assume_role block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#assume_role AlibabacloudstackProvider#assume_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#assume_role AlibabacloudstackProvider#assume_role}
   */
   readonly assumeRole?: AlibabacloudstackProviderAssumeRole;
   /**
   * endpoints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#endpoints AlibabacloudstackProvider#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#endpoints AlibabacloudstackProvider#endpoints}
   */
   readonly endpoints?: AlibabacloudstackProviderEndpoints[] | cdktf.IResolvable;
 }
 export interface AlibabacloudstackProviderAssumeRole {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#policy AlibabacloudstackProvider#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#policy AlibabacloudstackProvider#policy}
   */
   readonly policy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#role_arn AlibabacloudstackProvider#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#role_arn AlibabacloudstackProvider#role_arn}
   */
   readonly roleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#session_expiration AlibabacloudstackProvider#session_expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#session_expiration AlibabacloudstackProvider#session_expiration}
   */
   readonly sessionExpiration?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#session_name AlibabacloudstackProvider#session_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#session_name AlibabacloudstackProvider#session_name}
   */
   readonly sessionName?: string;
 }
@@ -241,245 +265,201 @@ export function alibabacloudstackProviderAssumeRoleToHclTerraform(struct?: Aliba
 
 export interface AlibabacloudstackProviderEndpoints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#acm AlibabacloudstackProvider#acm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#acm AlibabacloudstackProvider#acm}
   */
   readonly acm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#adb AlibabacloudstackProvider#adb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#adb AlibabacloudstackProvider#adb}
   */
   readonly adb?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#alikafka AlibabacloudstackProvider#alikafka}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#alikafkadata AlibabacloudstackProvider#alikafkadata}
   */
-  readonly alikafka?: string;
+  readonly alikafkadata?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#arms AlibabacloudstackProvider#arms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#arms AlibabacloudstackProvider#arms}
   */
   readonly arms?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#asapi AlibabacloudstackProvider#asapi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#asapi AlibabacloudstackProvider#asapi}
   */
   readonly asapi?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#ascm AlibabacloudstackProvider#ascm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#ascm AlibabacloudstackProvider#ascm}
   */
   readonly ascm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#bastionhostprivate AlibabacloudstackProvider#bastionhostprivate}
-  */
-  readonly bastionhostprivate?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#bssdata AlibabacloudstackProvider#bssdata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#bssdata AlibabacloudstackProvider#bssdata}
   */
   readonly bssdata?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#cbn AlibabacloudstackProvider#cbn}
-  */
-  readonly cbn?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#cdn AlibabacloudstackProvider#cdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#cdn AlibabacloudstackProvider#cdn}
   */
   readonly cdn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#cloudapi AlibabacloudstackProvider#cloudapi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#cloudapi AlibabacloudstackProvider#cloudapi}
   */
   readonly cloudapi?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#clouddns AlibabacloudstackProvider#clouddns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#clouddns AlibabacloudstackProvider#clouddns}
   */
   readonly clouddns?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#cloudfw AlibabacloudstackProvider#cloudfw}
-  */
-  readonly cloudfw?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#cms AlibabacloudstackProvider#cms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#cms AlibabacloudstackProvider#cms}
   */
   readonly cms?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#cr AlibabacloudstackProvider#cr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#cr AlibabacloudstackProvider#cr}
   */
   readonly cr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#cr_ee AlibabacloudstackProvider#cr_ee}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#cr_ee AlibabacloudstackProvider#cr_ee}
   */
   readonly crEe?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#cs AlibabacloudstackProvider#cs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#cs AlibabacloudstackProvider#cs}
   */
   readonly cs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#csb AlibabacloudstackProvider#csb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#csb AlibabacloudstackProvider#csb}
   */
   readonly csb?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#datahub AlibabacloudstackProvider#datahub}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#datahub AlibabacloudstackProvider#datahub}
   */
   readonly datahub?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#dataworks_private_cloud AlibabacloudstackProvider#dataworks_private_cloud}
-  */
-  readonly dataworksPrivateCloud?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#dataworkspublic AlibabacloudstackProvider#dataworkspublic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#dataworkspublic AlibabacloudstackProvider#dataworkspublic}
   */
   readonly dataworkspublic?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#dbs AlibabacloudstackProvider#dbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#dbs AlibabacloudstackProvider#dbs}
   */
   readonly dbs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#dds AlibabacloudstackProvider#dds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#dds AlibabacloudstackProvider#dds}
   */
   readonly dds?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#dmsenterprise AlibabacloudstackProvider#dmsenterprise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#dmsenterprise AlibabacloudstackProvider#dmsenterprise}
   */
   readonly dmsenterprise?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#drds AlibabacloudstackProvider#drds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#drds AlibabacloudstackProvider#drds}
   */
   readonly drds?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#dts AlibabacloudstackProvider#dts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#dts AlibabacloudstackProvider#dts}
   */
   readonly dts?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#ebs AlibabacloudstackProvider#ebs}
-  */
-  readonly ebs?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#ecs AlibabacloudstackProvider#ecs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#ecs AlibabacloudstackProvider#ecs}
   */
   readonly ecs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#edas AlibabacloudstackProvider#edas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#edas AlibabacloudstackProvider#edas}
   */
   readonly edas?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#elasticsearch_k8s AlibabacloudstackProvider#elasticsearch_k8s}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#elasticsearch_k8s AlibabacloudstackProvider#elasticsearch_k8s}
   */
   readonly elasticsearchK8S?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#ess AlibabacloudstackProvider#ess}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#ess AlibabacloudstackProvider#ess}
   */
   readonly ess?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#gdb AlibabacloudstackProvider#gdb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#gdb AlibabacloudstackProvider#gdb}
   */
   readonly gdb?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#gpdb AlibabacloudstackProvider#gpdb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#gpdb AlibabacloudstackProvider#gpdb}
   */
   readonly gpdb?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#hbase AlibabacloudstackProvider#hbase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#hbase AlibabacloudstackProvider#hbase}
   */
   readonly hbase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#hitsdb AlibabacloudstackProvider#hitsdb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#hitsdb AlibabacloudstackProvider#hitsdb}
   */
   readonly hitsdb?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#hologram AlibabacloudstackProvider#hologram}
-  */
-  readonly hologram?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#kms AlibabacloudstackProvider#kms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#kms AlibabacloudstackProvider#kms}
   */
   readonly kms?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#nas AlibabacloudstackProvider#nas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#nas AlibabacloudstackProvider#nas}
   */
   readonly nas?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#onerouter AlibabacloudstackProvider#onerouter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#onerouter AlibabacloudstackProvider#onerouter}
   */
   readonly onerouter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#ons AlibabacloudstackProvider#ons}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#ons AlibabacloudstackProvider#ons}
   */
   readonly ons?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#oos AlibabacloudstackProvider#oos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#oos AlibabacloudstackProvider#oos}
   */
   readonly oos?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#oss AlibabacloudstackProvider#oss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#oss AlibabacloudstackProvider#oss}
   */
   readonly oss?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#ossdata AlibabacloudstackProvider#ossdata}
-  */
-  readonly ossdata?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#ots AlibabacloudstackProvider#ots}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#ots AlibabacloudstackProvider#ots}
   */
   readonly ots?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#polardb AlibabacloudstackProvider#polardb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#polardb AlibabacloudstackProvider#polardb}
   */
   readonly polardb?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#polardbx AlibabacloudstackProvider#polardbx}
-  */
-  readonly polardbx?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#quickbi AlibabacloudstackProvider#quickbi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#quickbi AlibabacloudstackProvider#quickbi}
   */
   readonly quickbi?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#r_kvstore AlibabacloudstackProvider#r_kvstore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#r_kvstore AlibabacloudstackProvider#r_kvstore}
   */
   readonly rKvstore?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#ram AlibabacloudstackProvider#ram}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#ram AlibabacloudstackProvider#ram}
   */
   readonly ram?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#rds AlibabacloudstackProvider#rds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#rds AlibabacloudstackProvider#rds}
   */
   readonly rds?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#ros AlibabacloudstackProvider#ros}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#ros AlibabacloudstackProvider#ros}
   */
   readonly ros?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#slb AlibabacloudstackProvider#slb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#slb AlibabacloudstackProvider#slb}
   */
   readonly slb?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#sls AlibabacloudstackProvider#sls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#sls AlibabacloudstackProvider#sls}
   */
   readonly sls?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#slsdata AlibabacloudstackProvider#slsdata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#slsdata AlibabacloudstackProvider#slsdata}
   */
   readonly slsdata?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#sts AlibabacloudstackProvider#sts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#sts AlibabacloudstackProvider#sts}
   */
   readonly sts?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#ververica AlibabacloudstackProvider#ververica}
-  */
-  readonly ververica?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#vpc AlibabacloudstackProvider#vpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#vpc AlibabacloudstackProvider#vpc}
   */
   readonly vpc?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#waf_onecs AlibabacloudstackProvider#waf_onecs}
-  */
-  readonly wafOnecs?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#wafopenapi AlibabacloudstackProvider#wafopenapi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#wafopenapi AlibabacloudstackProvider#wafopenapi}
   */
   readonly wafopenapi?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#yaochiops AlibabacloudstackProvider#yaochiops}
-  */
-  readonly yaochiops?: string;
 }
 
 export function alibabacloudstackProviderEndpointsToTerraform(struct?: AlibabacloudstackProviderEndpoints | cdktf.IResolvable): any {
@@ -490,31 +470,26 @@ export function alibabacloudstackProviderEndpointsToTerraform(struct?: Alibabacl
   return {
     acm: cdktf.stringToTerraform(struct!.acm),
     adb: cdktf.stringToTerraform(struct!.adb),
-    alikafka: cdktf.stringToTerraform(struct!.alikafka),
+    alikafkadata: cdktf.stringToTerraform(struct!.alikafkadata),
     arms: cdktf.stringToTerraform(struct!.arms),
     asapi: cdktf.stringToTerraform(struct!.asapi),
     ascm: cdktf.stringToTerraform(struct!.ascm),
-    bastionhostprivate: cdktf.stringToTerraform(struct!.bastionhostprivate),
     bssdata: cdktf.stringToTerraform(struct!.bssdata),
-    cbn: cdktf.stringToTerraform(struct!.cbn),
     cdn: cdktf.stringToTerraform(struct!.cdn),
     cloudapi: cdktf.stringToTerraform(struct!.cloudapi),
     clouddns: cdktf.stringToTerraform(struct!.clouddns),
-    cloudfw: cdktf.stringToTerraform(struct!.cloudfw),
     cms: cdktf.stringToTerraform(struct!.cms),
     cr: cdktf.stringToTerraform(struct!.cr),
     cr_ee: cdktf.stringToTerraform(struct!.crEe),
     cs: cdktf.stringToTerraform(struct!.cs),
     csb: cdktf.stringToTerraform(struct!.csb),
     datahub: cdktf.stringToTerraform(struct!.datahub),
-    dataworks_private_cloud: cdktf.stringToTerraform(struct!.dataworksPrivateCloud),
     dataworkspublic: cdktf.stringToTerraform(struct!.dataworkspublic),
     dbs: cdktf.stringToTerraform(struct!.dbs),
     dds: cdktf.stringToTerraform(struct!.dds),
     dmsenterprise: cdktf.stringToTerraform(struct!.dmsenterprise),
     drds: cdktf.stringToTerraform(struct!.drds),
     dts: cdktf.stringToTerraform(struct!.dts),
-    ebs: cdktf.stringToTerraform(struct!.ebs),
     ecs: cdktf.stringToTerraform(struct!.ecs),
     edas: cdktf.stringToTerraform(struct!.edas),
     elasticsearch_k8s: cdktf.stringToTerraform(struct!.elasticsearchK8S),
@@ -523,17 +498,14 @@ export function alibabacloudstackProviderEndpointsToTerraform(struct?: Alibabacl
     gpdb: cdktf.stringToTerraform(struct!.gpdb),
     hbase: cdktf.stringToTerraform(struct!.hbase),
     hitsdb: cdktf.stringToTerraform(struct!.hitsdb),
-    hologram: cdktf.stringToTerraform(struct!.hologram),
     kms: cdktf.stringToTerraform(struct!.kms),
     nas: cdktf.stringToTerraform(struct!.nas),
     onerouter: cdktf.stringToTerraform(struct!.onerouter),
     ons: cdktf.stringToTerraform(struct!.ons),
     oos: cdktf.stringToTerraform(struct!.oos),
     oss: cdktf.stringToTerraform(struct!.oss),
-    ossdata: cdktf.stringToTerraform(struct!.ossdata),
     ots: cdktf.stringToTerraform(struct!.ots),
     polardb: cdktf.stringToTerraform(struct!.polardb),
-    polardbx: cdktf.stringToTerraform(struct!.polardbx),
     quickbi: cdktf.stringToTerraform(struct!.quickbi),
     r_kvstore: cdktf.stringToTerraform(struct!.rKvstore),
     ram: cdktf.stringToTerraform(struct!.ram),
@@ -543,11 +515,8 @@ export function alibabacloudstackProviderEndpointsToTerraform(struct?: Alibabacl
     sls: cdktf.stringToTerraform(struct!.sls),
     slsdata: cdktf.stringToTerraform(struct!.slsdata),
     sts: cdktf.stringToTerraform(struct!.sts),
-    ververica: cdktf.stringToTerraform(struct!.ververica),
     vpc: cdktf.stringToTerraform(struct!.vpc),
-    waf_onecs: cdktf.stringToTerraform(struct!.wafOnecs),
     wafopenapi: cdktf.stringToTerraform(struct!.wafopenapi),
-    yaochiops: cdktf.stringToTerraform(struct!.yaochiops),
   }
 }
 
@@ -570,8 +539,8 @@ export function alibabacloudstackProviderEndpointsToHclTerraform(struct?: Alibab
       type: "simple",
       storageClassType: "string",
     },
-    alikafka: {
-      value: cdktf.stringToHclTerraform(struct!.alikafka),
+    alikafkadata: {
+      value: cdktf.stringToHclTerraform(struct!.alikafkadata),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -594,20 +563,8 @@ export function alibabacloudstackProviderEndpointsToHclTerraform(struct?: Alibab
       type: "simple",
       storageClassType: "string",
     },
-    bastionhostprivate: {
-      value: cdktf.stringToHclTerraform(struct!.bastionhostprivate),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
     bssdata: {
       value: cdktf.stringToHclTerraform(struct!.bssdata),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    cbn: {
-      value: cdktf.stringToHclTerraform(struct!.cbn),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -626,12 +583,6 @@ export function alibabacloudstackProviderEndpointsToHclTerraform(struct?: Alibab
     },
     clouddns: {
       value: cdktf.stringToHclTerraform(struct!.clouddns),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    cloudfw: {
-      value: cdktf.stringToHclTerraform(struct!.cloudfw),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -672,12 +623,6 @@ export function alibabacloudstackProviderEndpointsToHclTerraform(struct?: Alibab
       type: "simple",
       storageClassType: "string",
     },
-    dataworks_private_cloud: {
-      value: cdktf.stringToHclTerraform(struct!.dataworksPrivateCloud),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
     dataworkspublic: {
       value: cdktf.stringToHclTerraform(struct!.dataworkspublic),
       isBlock: false,
@@ -710,12 +655,6 @@ export function alibabacloudstackProviderEndpointsToHclTerraform(struct?: Alibab
     },
     dts: {
       value: cdktf.stringToHclTerraform(struct!.dts),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    ebs: {
-      value: cdktf.stringToHclTerraform(struct!.ebs),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -768,12 +707,6 @@ export function alibabacloudstackProviderEndpointsToHclTerraform(struct?: Alibab
       type: "simple",
       storageClassType: "string",
     },
-    hologram: {
-      value: cdktf.stringToHclTerraform(struct!.hologram),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
     kms: {
       value: cdktf.stringToHclTerraform(struct!.kms),
       isBlock: false,
@@ -810,12 +743,6 @@ export function alibabacloudstackProviderEndpointsToHclTerraform(struct?: Alibab
       type: "simple",
       storageClassType: "string",
     },
-    ossdata: {
-      value: cdktf.stringToHclTerraform(struct!.ossdata),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
     ots: {
       value: cdktf.stringToHclTerraform(struct!.ots),
       isBlock: false,
@@ -824,12 +751,6 @@ export function alibabacloudstackProviderEndpointsToHclTerraform(struct?: Alibab
     },
     polardb: {
       value: cdktf.stringToHclTerraform(struct!.polardb),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    polardbx: {
-      value: cdktf.stringToHclTerraform(struct!.polardbx),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -888,32 +809,14 @@ export function alibabacloudstackProviderEndpointsToHclTerraform(struct?: Alibab
       type: "simple",
       storageClassType: "string",
     },
-    ververica: {
-      value: cdktf.stringToHclTerraform(struct!.ververica),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
     vpc: {
       value: cdktf.stringToHclTerraform(struct!.vpc),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
-    waf_onecs: {
-      value: cdktf.stringToHclTerraform(struct!.wafOnecs),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
     wafopenapi: {
       value: cdktf.stringToHclTerraform(struct!.wafopenapi),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    yaochiops: {
-      value: cdktf.stringToHclTerraform(struct!.yaochiops),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -926,7 +829,7 @@ export function alibabacloudstackProviderEndpointsToHclTerraform(struct?: Alibab
 
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs alibabacloudstack}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs alibabacloudstack}
 */
 export class AlibabacloudstackProvider extends cdktf.TerraformProvider {
 
@@ -942,7 +845,7 @@ export class AlibabacloudstackProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a AlibabacloudstackProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AlibabacloudstackProvider to import
-  * @param importFromId The id of the existing AlibabacloudstackProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AlibabacloudstackProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AlibabacloudstackProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -954,32 +857,39 @@ export class AlibabacloudstackProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs alibabacloudstack} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs alibabacloudstack} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
-  * @param options AlibabacloudstackProviderConfig
+  * @param options AlibabacloudstackProviderConfig = {}
   */
-  public constructor(scope: Construct, id: string, config: AlibabacloudstackProviderConfig) {
+  public constructor(scope: Construct, id: string, config: AlibabacloudstackProviderConfig = {}) {
     super(scope, id, {
       terraformResourceType: 'alibabacloudstack',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.19'
+        providerVersion: '3.16.21',
+        providerVersionConstraint: '3.16.21'
       },
       terraformProviderSource: 'aliyun/alibabacloudstack'
     });
     this._accessKey = config.accessKey;
     this._asapiEndpoint = config.asapiEndpoint;
+    this._ascmOpenapiEndpoint = config.ascmOpenapiEndpoint;
     this._clientConnectTimeout = config.clientConnectTimeout;
     this._clientReadTimeout = config.clientReadTimeout;
     this._configurationSource = config.configurationSource;
+    this._dataworkspublic = config.dataworkspublic;
+    this._dbsEndpoint = config.dbsEndpoint;
     this._department = config.department;
+    this._domain = config.domain;
     this._ecsRoleName = config.ecsRoleName;
+    this._fc = config.fc;
+    this._forceUseAsapi = config.forceUseAsapi;
     this._insecure = config.insecure;
     this._isCenterRegion = config.isCenterRegion;
+    this._kafkaopenapiDomain = config.kafkaopenapiDomain;
     this._kmsEndpoint = config.kmsEndpoint;
-    this._maxRetryTimeout = config.maxRetryTimeout;
     this._organizationAccesskey = config.organizationAccesskey;
     this._organizationSecretkey = config.organizationSecretkey;
     this._ossserviceDomain = config.ossserviceDomain;
@@ -987,6 +897,7 @@ export class AlibabacloudstackProvider extends cdktf.TerraformProvider {
     this._profile = config.profile;
     this._protocol = config.protocol;
     this._proxy = config.proxy;
+    this._quickbiEndpoint = config.quickbiEndpoint;
     this._region = config.region;
     this._regionId = config.regionId;
     this._resourceGroup = config.resourceGroup;
@@ -998,7 +909,6 @@ export class AlibabacloudstackProvider extends cdktf.TerraformProvider {
     this._securityTransport = config.securityTransport;
     this._sharedCredentialsFile = config.sharedCredentialsFile;
     this._skipRegionValidation = config.skipRegionValidation;
-    this._slsEndpoint = config.slsEndpoint;
     this._slsOpenapiEndpoint = config.slsOpenapiEndpoint;
     this._sourceIp = config.sourceIp;
     this._stsEndpoint = config.stsEndpoint;
@@ -1041,6 +951,22 @@ export class AlibabacloudstackProvider extends cdktf.TerraformProvider {
   // Temporarily expose input value. Use with caution.
   public get asapiEndpointInput() {
     return this._asapiEndpoint;
+  }
+
+  // ascm_openapi_endpoint - computed: false, optional: true, required: false
+  private _ascmOpenapiEndpoint?: string; 
+  public get ascmOpenapiEndpoint() {
+    return this._ascmOpenapiEndpoint;
+  }
+  public set ascmOpenapiEndpoint(value: string | undefined) {
+    this._ascmOpenapiEndpoint = value;
+  }
+  public resetAscmOpenapiEndpoint() {
+    this._ascmOpenapiEndpoint = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ascmOpenapiEndpointInput() {
+    return this._ascmOpenapiEndpoint;
   }
 
   // client_connect_timeout - computed: false, optional: true, required: false
@@ -1091,6 +1017,38 @@ export class AlibabacloudstackProvider extends cdktf.TerraformProvider {
     return this._configurationSource;
   }
 
+  // dataworkspublic - computed: false, optional: true, required: false
+  private _dataworkspublic?: string; 
+  public get dataworkspublic() {
+    return this._dataworkspublic;
+  }
+  public set dataworkspublic(value: string | undefined) {
+    this._dataworkspublic = value;
+  }
+  public resetDataworkspublic() {
+    this._dataworkspublic = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dataworkspublicInput() {
+    return this._dataworkspublic;
+  }
+
+  // dbs_endpoint - computed: false, optional: true, required: false
+  private _dbsEndpoint?: string; 
+  public get dbsEndpoint() {
+    return this._dbsEndpoint;
+  }
+  public set dbsEndpoint(value: string | undefined) {
+    this._dbsEndpoint = value;
+  }
+  public resetDbsEndpoint() {
+    this._dbsEndpoint = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dbsEndpointInput() {
+    return this._dbsEndpoint;
+  }
+
   // department - computed: false, optional: true, required: false
   private _department?: string; 
   public get department() {
@@ -1107,6 +1065,22 @@ export class AlibabacloudstackProvider extends cdktf.TerraformProvider {
     return this._department;
   }
 
+  // domain - computed: false, optional: true, required: false
+  private _domain?: string; 
+  public get domain() {
+    return this._domain;
+  }
+  public set domain(value: string | undefined) {
+    this._domain = value;
+  }
+  public resetDomain() {
+    this._domain = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get domainInput() {
+    return this._domain;
+  }
+
   // ecs_role_name - computed: false, optional: true, required: false
   private _ecsRoleName?: string; 
   public get ecsRoleName() {
@@ -1121,6 +1095,38 @@ export class AlibabacloudstackProvider extends cdktf.TerraformProvider {
   // Temporarily expose input value. Use with caution.
   public get ecsRoleNameInput() {
     return this._ecsRoleName;
+  }
+
+  // fc - computed: false, optional: true, required: false
+  private _fc?: string; 
+  public get fc() {
+    return this._fc;
+  }
+  public set fc(value: string | undefined) {
+    this._fc = value;
+  }
+  public resetFc() {
+    this._fc = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fcInput() {
+    return this._fc;
+  }
+
+  // force_use_asapi - computed: false, optional: true, required: false
+  private _forceUseAsapi?: boolean | cdktf.IResolvable; 
+  public get forceUseAsapi() {
+    return this._forceUseAsapi;
+  }
+  public set forceUseAsapi(value: boolean | cdktf.IResolvable | undefined) {
+    this._forceUseAsapi = value;
+  }
+  public resetForceUseAsapi() {
+    this._forceUseAsapi = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get forceUseAsapiInput() {
+    return this._forceUseAsapi;
   }
 
   // insecure - computed: false, optional: true, required: false
@@ -1155,6 +1161,22 @@ export class AlibabacloudstackProvider extends cdktf.TerraformProvider {
     return this._isCenterRegion;
   }
 
+  // kafkaopenapi_domain - computed: false, optional: true, required: false
+  private _kafkaopenapiDomain?: string; 
+  public get kafkaopenapiDomain() {
+    return this._kafkaopenapiDomain;
+  }
+  public set kafkaopenapiDomain(value: string | undefined) {
+    this._kafkaopenapiDomain = value;
+  }
+  public resetKafkaopenapiDomain() {
+    this._kafkaopenapiDomain = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get kafkaopenapiDomainInput() {
+    return this._kafkaopenapiDomain;
+  }
+
   // kms_endpoint - computed: false, optional: true, required: false
   private _kmsEndpoint?: string; 
   public get kmsEndpoint() {
@@ -1169,22 +1191,6 @@ export class AlibabacloudstackProvider extends cdktf.TerraformProvider {
   // Temporarily expose input value. Use with caution.
   public get kmsEndpointInput() {
     return this._kmsEndpoint;
-  }
-
-  // max_retry_timeout - computed: false, optional: true, required: false
-  private _maxRetryTimeout?: number; 
-  public get maxRetryTimeout() {
-    return this._maxRetryTimeout;
-  }
-  public set maxRetryTimeout(value: number | undefined) {
-    this._maxRetryTimeout = value;
-  }
-  public resetMaxRetryTimeout() {
-    this._maxRetryTimeout = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get maxRetryTimeoutInput() {
-    return this._maxRetryTimeout;
   }
 
   // organization_accesskey - computed: false, optional: true, required: false
@@ -1299,13 +1305,32 @@ export class AlibabacloudstackProvider extends cdktf.TerraformProvider {
     return this._proxy;
   }
 
-  // region - computed: false, optional: false, required: true
+  // quickbi_endpoint - computed: false, optional: true, required: false
+  private _quickbiEndpoint?: string; 
+  public get quickbiEndpoint() {
+    return this._quickbiEndpoint;
+  }
+  public set quickbiEndpoint(value: string | undefined) {
+    this._quickbiEndpoint = value;
+  }
+  public resetQuickbiEndpoint() {
+    this._quickbiEndpoint = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get quickbiEndpointInput() {
+    return this._quickbiEndpoint;
+  }
+
+  // region - computed: false, optional: true, required: false
   private _region?: string; 
   public get region() {
     return this._region;
   }
   public set region(value: string | undefined) {
     this._region = value;
+  }
+  public resetRegion() {
+    this._region = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get regionInput() {
@@ -1472,22 +1497,6 @@ export class AlibabacloudstackProvider extends cdktf.TerraformProvider {
     return this._skipRegionValidation;
   }
 
-  // sls_endpoint - computed: false, optional: true, required: false
-  private _slsEndpoint?: string; 
-  public get slsEndpoint() {
-    return this._slsEndpoint;
-  }
-  public set slsEndpoint(value: string | undefined) {
-    this._slsEndpoint = value;
-  }
-  public resetSlsEndpoint() {
-    this._slsEndpoint = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get slsEndpointInput() {
-    return this._slsEndpoint;
-  }
-
   // sls_openapi_endpoint - computed: false, optional: true, required: false
   private _slsOpenapiEndpoint?: string; 
   public get slsOpenapiEndpoint() {
@@ -1592,15 +1601,21 @@ export class AlibabacloudstackProvider extends cdktf.TerraformProvider {
     return {
       access_key: cdktf.stringToTerraform(this._accessKey),
       asapi_endpoint: cdktf.stringToTerraform(this._asapiEndpoint),
+      ascm_openapi_endpoint: cdktf.stringToTerraform(this._ascmOpenapiEndpoint),
       client_connect_timeout: cdktf.numberToTerraform(this._clientConnectTimeout),
       client_read_timeout: cdktf.numberToTerraform(this._clientReadTimeout),
       configuration_source: cdktf.stringToTerraform(this._configurationSource),
+      dataworkspublic: cdktf.stringToTerraform(this._dataworkspublic),
+      dbs_endpoint: cdktf.stringToTerraform(this._dbsEndpoint),
       department: cdktf.stringToTerraform(this._department),
+      domain: cdktf.stringToTerraform(this._domain),
       ecs_role_name: cdktf.stringToTerraform(this._ecsRoleName),
+      fc: cdktf.stringToTerraform(this._fc),
+      force_use_asapi: cdktf.booleanToTerraform(this._forceUseAsapi),
       insecure: cdktf.booleanToTerraform(this._insecure),
       is_center_region: cdktf.booleanToTerraform(this._isCenterRegion),
+      kafkaopenapi_domain: cdktf.stringToTerraform(this._kafkaopenapiDomain),
       kms_endpoint: cdktf.stringToTerraform(this._kmsEndpoint),
-      max_retry_timeout: cdktf.numberToTerraform(this._maxRetryTimeout),
       organization_accesskey: cdktf.stringToTerraform(this._organizationAccesskey),
       organization_secretkey: cdktf.stringToTerraform(this._organizationSecretkey),
       ossservice_domain: cdktf.stringToTerraform(this._ossserviceDomain),
@@ -1608,6 +1623,7 @@ export class AlibabacloudstackProvider extends cdktf.TerraformProvider {
       profile: cdktf.stringToTerraform(this._profile),
       protocol: cdktf.stringToTerraform(this._protocol),
       proxy: cdktf.stringToTerraform(this._proxy),
+      quickbi_endpoint: cdktf.stringToTerraform(this._quickbiEndpoint),
       region: cdktf.stringToTerraform(this._region),
       region_id: cdktf.stringToTerraform(this._regionId),
       resource_group: cdktf.stringToTerraform(this._resourceGroup),
@@ -1619,7 +1635,6 @@ export class AlibabacloudstackProvider extends cdktf.TerraformProvider {
       security_transport: cdktf.stringToTerraform(this._securityTransport),
       shared_credentials_file: cdktf.stringToTerraform(this._sharedCredentialsFile),
       skip_region_validation: cdktf.booleanToTerraform(this._skipRegionValidation),
-      sls_endpoint: cdktf.stringToTerraform(this._slsEndpoint),
       sls_openapi_endpoint: cdktf.stringToTerraform(this._slsOpenapiEndpoint),
       source_ip: cdktf.stringToTerraform(this._sourceIp),
       sts_endpoint: cdktf.stringToTerraform(this._stsEndpoint),
@@ -1643,6 +1658,12 @@ export class AlibabacloudstackProvider extends cdktf.TerraformProvider {
         type: "simple",
         storageClassType: "string",
       },
+      ascm_openapi_endpoint: {
+        value: cdktf.stringToHclTerraform(this._ascmOpenapiEndpoint),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       client_connect_timeout: {
         value: cdktf.numberToHclTerraform(this._clientConnectTimeout),
         isBlock: false,
@@ -1661,8 +1682,26 @@ export class AlibabacloudstackProvider extends cdktf.TerraformProvider {
         type: "simple",
         storageClassType: "string",
       },
+      dataworkspublic: {
+        value: cdktf.stringToHclTerraform(this._dataworkspublic),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      dbs_endpoint: {
+        value: cdktf.stringToHclTerraform(this._dbsEndpoint),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       department: {
         value: cdktf.stringToHclTerraform(this._department),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      domain: {
+        value: cdktf.stringToHclTerraform(this._domain),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
@@ -1672,6 +1711,18 @@ export class AlibabacloudstackProvider extends cdktf.TerraformProvider {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      fc: {
+        value: cdktf.stringToHclTerraform(this._fc),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      force_use_asapi: {
+        value: cdktf.booleanToHclTerraform(this._forceUseAsapi),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
       },
       insecure: {
         value: cdktf.booleanToHclTerraform(this._insecure),
@@ -1685,17 +1736,17 @@ export class AlibabacloudstackProvider extends cdktf.TerraformProvider {
         type: "simple",
         storageClassType: "boolean",
       },
+      kafkaopenapi_domain: {
+        value: cdktf.stringToHclTerraform(this._kafkaopenapiDomain),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       kms_endpoint: {
         value: cdktf.stringToHclTerraform(this._kmsEndpoint),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
-      },
-      max_retry_timeout: {
-        value: cdktf.numberToHclTerraform(this._maxRetryTimeout),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "number",
       },
       organization_accesskey: {
         value: cdktf.stringToHclTerraform(this._organizationAccesskey),
@@ -1735,6 +1786,12 @@ export class AlibabacloudstackProvider extends cdktf.TerraformProvider {
       },
       proxy: {
         value: cdktf.stringToHclTerraform(this._proxy),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      quickbi_endpoint: {
+        value: cdktf.stringToHclTerraform(this._quickbiEndpoint),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
@@ -1804,12 +1861,6 @@ export class AlibabacloudstackProvider extends cdktf.TerraformProvider {
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
-      },
-      sls_endpoint: {
-        value: cdktf.stringToHclTerraform(this._slsEndpoint),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
       },
       sls_openapi_endpoint: {
         value: cdktf.stringToHclTerraform(this._slsOpenapiEndpoint),

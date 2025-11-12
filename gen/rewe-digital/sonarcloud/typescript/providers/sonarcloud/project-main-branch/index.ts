@@ -61,7 +61,8 @@ export class ProjectMainBranch extends cdktf.TerraformResource {
       terraformResourceType: 'sonarcloud_project_main_branch',
       terraformGeneratorMetadata: {
         providerName: 'sonarcloud',
-        providerVersion: '0.5.2'
+        providerVersion: '0.5.2',
+        providerVersionConstraint: '0.5.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

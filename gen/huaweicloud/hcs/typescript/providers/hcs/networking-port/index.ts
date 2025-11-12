@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/networking_port
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/networking_port
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,88 +8,88 @@ import * as cdktf from 'cdktf';
 
 export interface NetworkingPortConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/networking_port#admin_state_up NetworkingPort#admin_state_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/networking_port#admin_state_up NetworkingPort#admin_state_up}
   */
   readonly adminStateUp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/networking_port#device_id NetworkingPort#device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/networking_port#device_id NetworkingPort#device_id}
   */
   readonly deviceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/networking_port#device_owner NetworkingPort#device_owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/networking_port#device_owner NetworkingPort#device_owner}
   */
   readonly deviceOwner?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/networking_port#id NetworkingPort#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/networking_port#id NetworkingPort#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/networking_port#mac_address NetworkingPort#mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/networking_port#mac_address NetworkingPort#mac_address}
   */
   readonly macAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/networking_port#name NetworkingPort#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/networking_port#name NetworkingPort#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/networking_port#network_id NetworkingPort#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/networking_port#network_id NetworkingPort#network_id}
   */
   readonly networkId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/networking_port#no_security_groups NetworkingPort#no_security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/networking_port#no_security_groups NetworkingPort#no_security_groups}
   */
   readonly noSecurityGroups?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/networking_port#region NetworkingPort#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/networking_port#region NetworkingPort#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/networking_port#security_group_ids NetworkingPort#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/networking_port#security_group_ids NetworkingPort#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/networking_port#tenant_id NetworkingPort#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/networking_port#tenant_id NetworkingPort#tenant_id}
   */
   readonly tenantId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/networking_port#value_specs NetworkingPort#value_specs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/networking_port#value_specs NetworkingPort#value_specs}
   */
   readonly valueSpecs?: { [key: string]: string };
   /**
   * allowed_address_pairs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/networking_port#allowed_address_pairs NetworkingPort#allowed_address_pairs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/networking_port#allowed_address_pairs NetworkingPort#allowed_address_pairs}
   */
   readonly allowedAddressPairs?: NetworkingPortAllowedAddressPairs[] | cdktf.IResolvable;
   /**
   * extra_dhcp_option block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/networking_port#extra_dhcp_option NetworkingPort#extra_dhcp_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/networking_port#extra_dhcp_option NetworkingPort#extra_dhcp_option}
   */
   readonly extraDhcpOption?: NetworkingPortExtraDhcpOption[] | cdktf.IResolvable;
   /**
   * fixed_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/networking_port#fixed_ip NetworkingPort#fixed_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/networking_port#fixed_ip NetworkingPort#fixed_ip}
   */
   readonly fixedIp?: NetworkingPortFixedIp[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/networking_port#timeouts NetworkingPort#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/networking_port#timeouts NetworkingPort#timeouts}
   */
   readonly timeouts?: NetworkingPortTimeouts;
 }
 export interface NetworkingPortAllowedAddressPairs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/networking_port#ip_address NetworkingPort#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/networking_port#ip_address NetworkingPort#ip_address}
   */
   readonly ipAddress: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/networking_port#mac_address NetworkingPort#mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/networking_port#mac_address NetworkingPort#mac_address}
   */
   readonly macAddress?: string;
 }
@@ -231,15 +231,15 @@ export class NetworkingPortAllowedAddressPairsList extends cdktf.ComplexList {
 }
 export interface NetworkingPortExtraDhcpOption {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/networking_port#ip_version NetworkingPort#ip_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/networking_port#ip_version NetworkingPort#ip_version}
   */
   readonly ipVersion?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/networking_port#name NetworkingPort#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/networking_port#name NetworkingPort#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/networking_port#value NetworkingPort#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/networking_port#value NetworkingPort#value}
   */
   readonly value: string;
 }
@@ -407,11 +407,11 @@ export class NetworkingPortExtraDhcpOptionList extends cdktf.ComplexList {
 }
 export interface NetworkingPortFixedIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/networking_port#ip_address NetworkingPort#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/networking_port#ip_address NetworkingPort#ip_address}
   */
   readonly ipAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/networking_port#subnet_id NetworkingPort#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/networking_port#subnet_id NetworkingPort#subnet_id}
   */
   readonly subnetId: string;
 }
@@ -553,11 +553,11 @@ export class NetworkingPortFixedIpList extends cdktf.ComplexList {
 }
 export interface NetworkingPortTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/networking_port#create NetworkingPort#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/networking_port#create NetworkingPort#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/networking_port#delete NetworkingPort#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/networking_port#delete NetworkingPort#delete}
   */
   readonly delete?: string;
 }
@@ -680,7 +680,7 @@ export class NetworkingPortTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/networking_port hcs_networking_port}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/networking_port hcs_networking_port}
 */
 export class NetworkingPort extends cdktf.TerraformResource {
 
@@ -696,7 +696,7 @@ export class NetworkingPort extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkingPort resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkingPort to import
-  * @param importFromId The id of the existing NetworkingPort that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/networking_port#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkingPort that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/networking_port#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkingPort to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -708,7 +708,7 @@ export class NetworkingPort extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/networking_port hcs_networking_port} Resource
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/networking_port hcs_networking_port} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -719,7 +719,8 @@ export class NetworkingPort extends cdktf.TerraformResource {
       terraformResourceType: 'hcs_networking_port',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.19'
+        providerVersion: '2.4.20',
+        providerVersionConstraint: '2.4.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

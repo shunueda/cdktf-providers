@@ -82,7 +82,8 @@ export class Shuffle extends cdktf.TerraformResource {
       terraformResourceType: 'random_shuffle',
       terraformGeneratorMetadata: {
         providerName: 'random',
-        providerVersion: '3.1.0'
+        providerVersion: '3.1.0',
+        providerVersionConstraint: '3.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

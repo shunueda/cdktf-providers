@@ -151,7 +151,8 @@ export class DataArtifactoryLocalPubRepository extends cdktf.TerraformDataSource
       terraformResourceType: 'artifactory_local_pub_repository',
       terraformGeneratorMetadata: {
         providerName: 'artifactory',
-        providerVersion: '12.10.1'
+        providerVersion: '12.10.1',
+        providerVersionConstraint: '12.10.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

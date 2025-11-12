@@ -80,7 +80,8 @@ export class DatabaseQuota extends cdktf.TerraformResource {
       terraformResourceType: 'vultr_database_quota',
       terraformGeneratorMetadata: {
         providerName: 'vultr',
-        providerVersion: '2.27.1'
+        providerVersion: '2.27.1',
+        providerVersionConstraint: '2.27.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

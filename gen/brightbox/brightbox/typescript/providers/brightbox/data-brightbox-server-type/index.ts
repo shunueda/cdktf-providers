@@ -68,7 +68,8 @@ export class DataBrightboxServerType extends cdktf.TerraformDataSource {
       terraformResourceType: 'brightbox_server_type',
       terraformGeneratorMetadata: {
         providerName: 'brightbox',
-        providerVersion: '3.4.3'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -92,7 +92,8 @@ export class BfdMultihopNodePolicy extends cdktf.TerraformResource {
       terraformResourceType: 'aci_bfd_multihop_node_policy',
       terraformGeneratorMetadata: {
         providerName: 'aci',
-        providerVersion: '2.18.0'
+        providerVersion: '2.18.0',
+        providerVersionConstraint: '2.18.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

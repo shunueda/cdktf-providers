@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/chargeback_group
+// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ChargebackGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/chargeback_group#id ChargebackGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_group#id ChargebackGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface ChargebackGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/chargeback_group#metadata ChargebackGroup#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_group#metadata ChargebackGroup#metadata}
   */
   readonly metadata?: ChargebackGroupMetadata;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/chargeback_group#spec ChargebackGroup#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_group#spec ChargebackGroup#spec}
   */
   readonly spec?: ChargebackGroupSpec;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/chargeback_group#timeouts ChargebackGroup#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_group#timeouts ChargebackGroup#timeouts}
   */
   readonly timeouts?: ChargebackGroupTimeouts;
 }
@@ -37,7 +37,7 @@ export interface ChargebackGroupMetadataCreatedBy {
   /**
   * Id of the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/chargeback_group#id ChargebackGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_group#id ChargebackGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -46,13 +46,13 @@ export interface ChargebackGroupMetadataCreatedBy {
   /**
   * Whether person is logged in using sso
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/chargeback_group#is_sso_user ChargebackGroup#is_sso_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_group#is_sso_user ChargebackGroup#is_sso_user}
   */
   readonly isSsoUser?: boolean | cdktf.IResolvable;
   /**
   * Username fo the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/chargeback_group#username ChargebackGroup#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_group#username ChargebackGroup#username}
   */
   readonly username?: string;
 }
@@ -196,7 +196,7 @@ export interface ChargebackGroupMetadataModifiedBy {
   /**
   * Id of the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/chargeback_group#id ChargebackGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_group#id ChargebackGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -205,13 +205,13 @@ export interface ChargebackGroupMetadataModifiedBy {
   /**
   * Whether person is logged in using sso
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/chargeback_group#is_sso_user ChargebackGroup#is_sso_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_group#is_sso_user ChargebackGroup#is_sso_user}
   */
   readonly isSsoUser?: boolean | cdktf.IResolvable;
   /**
   * Username fo the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/chargeback_group#username ChargebackGroup#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_group#username ChargebackGroup#username}
   */
   readonly username?: string;
 }
@@ -355,49 +355,49 @@ export interface ChargebackGroupMetadata {
   /**
   * annotations of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/chargeback_group#annotations ChargebackGroup#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_group#annotations ChargebackGroup#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * description of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/chargeback_group#description ChargebackGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_group#description ChargebackGroup#description}
   */
   readonly description?: string;
   /**
   * Display Name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/chargeback_group#display_name ChargebackGroup#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_group#display_name ChargebackGroup#display_name}
   */
   readonly displayName?: string;
   /**
   * labels of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/chargeback_group#labels ChargebackGroup#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_group#labels ChargebackGroup#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/chargeback_group#name ChargebackGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_group#name ChargebackGroup#name}
   */
   readonly name?: string;
   /**
   * Project of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/chargeback_group#project ChargebackGroup#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_group#project ChargebackGroup#project}
   */
   readonly project?: string;
   /**
   * created_by block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/chargeback_group#created_by ChargebackGroup#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_group#created_by ChargebackGroup#created_by}
   */
   readonly createdBy?: ChargebackGroupMetadataCreatedBy;
   /**
   * modified_by block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/chargeback_group#modified_by ChargebackGroup#modified_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_group#modified_by ChargebackGroup#modified_by}
   */
   readonly modifiedBy?: ChargebackGroupMetadataModifiedBy;
 }
@@ -686,31 +686,31 @@ export interface ChargebackGroupSpecAggregate {
   /**
   * cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/chargeback_group#cluster ChargebackGroup#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_group#cluster ChargebackGroup#cluster}
   */
   readonly cluster?: boolean | cdktf.IResolvable;
   /**
   * label
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/chargeback_group#label ChargebackGroup#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_group#label ChargebackGroup#label}
   */
   readonly label?: string[];
   /**
   * namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/chargeback_group#namespace ChargebackGroup#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_group#namespace ChargebackGroup#namespace}
   */
   readonly namespace?: boolean | cdktf.IResolvable;
   /**
   * namespace label
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/chargeback_group#namespace_label ChargebackGroup#namespace_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_group#namespace_label ChargebackGroup#namespace_label}
   */
   readonly namespaceLabel?: string[];
   /**
   * project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/chargeback_group#project ChargebackGroup#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_group#project ChargebackGroup#project}
   */
   readonly project?: boolean | cdktf.IResolvable;
 }
@@ -912,37 +912,37 @@ export interface ChargebackGroupSpecExclusions {
   /**
   * cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/chargeback_group#cluster ChargebackGroup#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_group#cluster ChargebackGroup#cluster}
   */
   readonly cluster?: string;
   /**
   * clusterName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/chargeback_group#cluster_name ChargebackGroup#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_group#cluster_name ChargebackGroup#cluster_name}
   */
   readonly clusterName?: string;
   /**
   * label
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/chargeback_group#label ChargebackGroup#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_group#label ChargebackGroup#label}
   */
   readonly label?: string[];
   /**
   * namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/chargeback_group#namespace ChargebackGroup#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_group#namespace ChargebackGroup#namespace}
   */
   readonly namespace?: string;
   /**
   * project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/chargeback_group#project ChargebackGroup#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_group#project ChargebackGroup#project}
   */
   readonly project?: string;
   /**
   * projectName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/chargeback_group#project_name ChargebackGroup#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_group#project_name ChargebackGroup#project_name}
   */
   readonly projectName?: string;
 }
@@ -1205,37 +1205,37 @@ export interface ChargebackGroupSpecInclusions {
   /**
   * cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/chargeback_group#cluster ChargebackGroup#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_group#cluster ChargebackGroup#cluster}
   */
   readonly cluster?: string;
   /**
   * clusterName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/chargeback_group#cluster_name ChargebackGroup#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_group#cluster_name ChargebackGroup#cluster_name}
   */
   readonly clusterName?: string;
   /**
   * label
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/chargeback_group#label ChargebackGroup#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_group#label ChargebackGroup#label}
   */
   readonly label?: string[];
   /**
   * namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/chargeback_group#namespace ChargebackGroup#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_group#namespace ChargebackGroup#namespace}
   */
   readonly namespace?: string;
   /**
   * project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/chargeback_group#project ChargebackGroup#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_group#project ChargebackGroup#project}
   */
   readonly project?: string;
   /**
   * projectName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/chargeback_group#project_name ChargebackGroup#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_group#project_name ChargebackGroup#project_name}
   */
   readonly projectName?: string;
 }
@@ -1498,25 +1498,25 @@ export interface ChargebackGroupSpec {
   /**
   * type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/chargeback_group#type ChargebackGroup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_group#type ChargebackGroup#type}
   */
   readonly type?: string;
   /**
   * aggregate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/chargeback_group#aggregate ChargebackGroup#aggregate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_group#aggregate ChargebackGroup#aggregate}
   */
   readonly aggregate?: ChargebackGroupSpecAggregate;
   /**
   * exclusions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/chargeback_group#exclusions ChargebackGroup#exclusions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_group#exclusions ChargebackGroup#exclusions}
   */
   readonly exclusions?: ChargebackGroupSpecExclusions[] | cdktf.IResolvable;
   /**
   * inclusions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/chargeback_group#inclusions ChargebackGroup#inclusions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_group#inclusions ChargebackGroup#inclusions}
   */
   readonly inclusions?: ChargebackGroupSpecInclusions[] | cdktf.IResolvable;
 }
@@ -1687,15 +1687,15 @@ export class ChargebackGroupSpecOutputReference extends cdktf.ComplexObject {
 }
 export interface ChargebackGroupTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/chargeback_group#create ChargebackGroup#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_group#create ChargebackGroup#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/chargeback_group#delete ChargebackGroup#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_group#delete ChargebackGroup#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/chargeback_group#update ChargebackGroup#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_group#update ChargebackGroup#update}
   */
   readonly update?: string;
 }
@@ -1847,7 +1847,7 @@ export class ChargebackGroupTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/chargeback_group rafay_chargeback_group}
+* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_group rafay_chargeback_group}
 */
 export class ChargebackGroup extends cdktf.TerraformResource {
 
@@ -1863,7 +1863,7 @@ export class ChargebackGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ChargebackGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ChargebackGroup to import
-  * @param importFromId The id of the existing ChargebackGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/chargeback_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ChargebackGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ChargebackGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1875,7 +1875,7 @@ export class ChargebackGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/chargeback_group rafay_chargeback_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/chargeback_group rafay_chargeback_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1886,7 +1886,8 @@ export class ChargebackGroup extends cdktf.TerraformResource {
       terraformResourceType: 'rafay_chargeback_group',
       terraformGeneratorMetadata: {
         providerName: 'rafay',
-        providerVersion: '1.1.52'
+        providerVersion: '1.1.53',
+        providerVersionConstraint: '1.1.53'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/expressconnect_routerinterfaces
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/expressconnect_routerinterfaces
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlibabacloudstackExpressconnectRouterinterfacesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/expressconnect_routerinterfaces#id DataAlibabacloudstackExpressconnectRouterinterfaces#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/expressconnect_routerinterfaces#id DataAlibabacloudstackExpressconnectRouterinterfaces#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/expressconnect_routerinterfaces#ids DataAlibabacloudstackExpressconnectRouterinterfaces#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/expressconnect_routerinterfaces#ids DataAlibabacloudstackExpressconnectRouterinterfaces#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/expressconnect_routerinterfaces#name_regex DataAlibabacloudstackExpressconnectRouterinterfaces#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/expressconnect_routerinterfaces#name_regex DataAlibabacloudstackExpressconnectRouterinterfaces#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/expressconnect_routerinterfaces#opposite_interface_id DataAlibabacloudstackExpressconnectRouterinterfaces#opposite_interface_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/expressconnect_routerinterfaces#opposite_interface_id DataAlibabacloudstackExpressconnectRouterinterfaces#opposite_interface_id}
   */
   readonly oppositeInterfaceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/expressconnect_routerinterfaces#opposite_interface_owner_id DataAlibabacloudstackExpressconnectRouterinterfaces#opposite_interface_owner_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/expressconnect_routerinterfaces#opposite_interface_owner_id DataAlibabacloudstackExpressconnectRouterinterfaces#opposite_interface_owner_id}
   */
   readonly oppositeInterfaceOwnerId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/expressconnect_routerinterfaces#output_file DataAlibabacloudstackExpressconnectRouterinterfaces#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/expressconnect_routerinterfaces#output_file DataAlibabacloudstackExpressconnectRouterinterfaces#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/expressconnect_routerinterfaces#role DataAlibabacloudstackExpressconnectRouterinterfaces#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/expressconnect_routerinterfaces#role DataAlibabacloudstackExpressconnectRouterinterfaces#role}
   */
   readonly role?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/expressconnect_routerinterfaces#router_id DataAlibabacloudstackExpressconnectRouterinterfaces#router_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/expressconnect_routerinterfaces#router_id DataAlibabacloudstackExpressconnectRouterinterfaces#router_id}
   */
   readonly routerId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/expressconnect_routerinterfaces#router_type DataAlibabacloudstackExpressconnectRouterinterfaces#router_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/expressconnect_routerinterfaces#router_type DataAlibabacloudstackExpressconnectRouterinterfaces#router_type}
   */
   readonly routerType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/expressconnect_routerinterfaces#specification DataAlibabacloudstackExpressconnectRouterinterfaces#specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/expressconnect_routerinterfaces#specification DataAlibabacloudstackExpressconnectRouterinterfaces#specification}
   */
   readonly specification?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/expressconnect_routerinterfaces#status DataAlibabacloudstackExpressconnectRouterinterfaces#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/expressconnect_routerinterfaces#status DataAlibabacloudstackExpressconnectRouterinterfaces#status}
   */
   readonly status?: string;
 }
@@ -217,7 +217,7 @@ export class DataAlibabacloudstackExpressconnectRouterinterfacesInterfacesList e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/expressconnect_routerinterfaces alibabacloudstack_expressconnect_routerinterfaces}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/expressconnect_routerinterfaces alibabacloudstack_expressconnect_routerinterfaces}
 */
 export class DataAlibabacloudstackExpressconnectRouterinterfaces extends cdktf.TerraformDataSource {
 
@@ -233,7 +233,7 @@ export class DataAlibabacloudstackExpressconnectRouterinterfaces extends cdktf.T
   * Generates CDKTF code for importing a DataAlibabacloudstackExpressconnectRouterinterfaces resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlibabacloudstackExpressconnectRouterinterfaces to import
-  * @param importFromId The id of the existing DataAlibabacloudstackExpressconnectRouterinterfaces that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/expressconnect_routerinterfaces#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlibabacloudstackExpressconnectRouterinterfaces that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/expressconnect_routerinterfaces#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlibabacloudstackExpressconnectRouterinterfaces to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -245,7 +245,7 @@ export class DataAlibabacloudstackExpressconnectRouterinterfaces extends cdktf.T
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/expressconnect_routerinterfaces alibabacloudstack_expressconnect_routerinterfaces} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/expressconnect_routerinterfaces alibabacloudstack_expressconnect_routerinterfaces} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -256,7 +256,8 @@ export class DataAlibabacloudstackExpressconnectRouterinterfaces extends cdktf.T
       terraformResourceType: 'alibabacloudstack_expressconnect_routerinterfaces',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.19'
+        providerVersion: '3.16.21',
+        providerVersionConstraint: '3.16.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

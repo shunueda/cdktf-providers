@@ -56,7 +56,8 @@ export class DataRootlyIpRanges extends cdktf.TerraformDataSource {
       terraformResourceType: 'rootly_ip_ranges',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.7'
+        providerVersion: '4.3.7',
+        providerVersionConstraint: '4.3.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

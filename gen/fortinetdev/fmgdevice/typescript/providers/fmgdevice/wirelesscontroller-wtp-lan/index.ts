@@ -148,7 +148,8 @@ export class WirelesscontrollerWtpLanA extends cdktf.TerraformResource {
       terraformResourceType: 'fmgdevice_wirelesscontroller_wtp_lan',
       terraformGeneratorMetadata: {
         providerName: 'fmgdevice',
-        providerVersion: '1.2.1'
+        providerVersion: '1.2.1',
+        providerVersionConstraint: '1.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

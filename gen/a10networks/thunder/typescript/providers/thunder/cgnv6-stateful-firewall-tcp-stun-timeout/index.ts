@@ -80,7 +80,8 @@ export class Cgnv6StatefulFirewallTcpStunTimeout extends cdktf.TerraformResource
       terraformResourceType: 'thunder_cgnv6_stateful_firewall_tcp_stun_timeout',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

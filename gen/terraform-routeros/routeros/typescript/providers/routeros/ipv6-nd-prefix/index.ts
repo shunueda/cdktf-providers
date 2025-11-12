@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ipv6_nd_prefix
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ipv6_nd_prefix
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface Ipv6NdPrefixConfig extends cdktf.TerraformMetaArguments {
   /**
   * If this option is specified, this prefix will be combined with the IPv4 address of the interface name to produce a valid 6to4 prefix. The first 16 bits of this prefix will be replaced by 2002 and the next 32 bits of this prefix will be replaced by the IPv4 address assigned to the interface name at configuration time. The remaining 80 bits of the prefix (including the SLA ID) will be advertised as specified in the configuration file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ipv6_nd_prefix#6to4_interface Ipv6NdPrefix#6to4_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ipv6_nd_prefix#6to4_interface Ipv6NdPrefix#6to4_interface}
   */
   readonly 6To4Interface?: string;
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ipv6_nd_prefix#___path___ Ipv6NdPrefix#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ipv6_nd_prefix#___path___ Ipv6NdPrefix#___path___}
   */
   readonly path?: string;
   /**
   * When set, indicates that this prefix can be used for autonomous address configuration. Otherwise, prefix information is silently ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ipv6_nd_prefix#autonomous Ipv6NdPrefix#autonomous}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ipv6_nd_prefix#autonomous Ipv6NdPrefix#autonomous}
   */
   readonly autonomous?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ipv6_nd_prefix#comment Ipv6NdPrefix#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ipv6_nd_prefix#comment Ipv6NdPrefix#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ipv6_nd_prefix#disabled Ipv6NdPrefix#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ipv6_nd_prefix#disabled Ipv6NdPrefix#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ipv6_nd_prefix#id Ipv6NdPrefix#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ipv6_nd_prefix#id Ipv6NdPrefix#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -43,37 +43,37 @@ export interface Ipv6NdPrefixConfig extends cdktf.TerraformMetaArguments {
   /**
   * Interface name on which stateless auto-configuration will be running.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ipv6_nd_prefix#interface Ipv6NdPrefix#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ipv6_nd_prefix#interface Ipv6NdPrefix#interface}
   */
   readonly interface: string;
   /**
   * When set, indicates that this prefix can be used for on-link determination. When not set the advertisement makes no statement about the on-link or off-link properties of the prefix. For instance, the prefix might be used for address configuration with some of the addresses belonging to the prefix being on-link and others being off-link.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ipv6_nd_prefix#on_link Ipv6NdPrefix#on_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ipv6_nd_prefix#on_link Ipv6NdPrefix#on_link}
   */
   readonly onLink?: boolean | cdktf.IResolvable;
   /**
   * Timeframe (relative to the time the packet is sent) after which generated address becomes `deprecated`. Deprecated is used only for already existing connections and is usable until valid lifetime expires.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ipv6_nd_prefix#preferred_lifetime Ipv6NdPrefix#preferred_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ipv6_nd_prefix#preferred_lifetime Ipv6NdPrefix#preferred_lifetime}
   */
   readonly preferredLifetime?: string;
   /**
   * A prefix from which stateless address autoconfiguration generates the valid address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ipv6_nd_prefix#prefix Ipv6NdPrefix#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ipv6_nd_prefix#prefix Ipv6NdPrefix#prefix}
   */
   readonly prefix: string;
   /**
   * The length of time (relative to the time the packet is sent) an address remains in the valid state. The valid lifetime must be greater than or equal to the preferred lifetime.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ipv6_nd_prefix#valid_lifetime Ipv6NdPrefix#valid_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ipv6_nd_prefix#valid_lifetime Ipv6NdPrefix#valid_lifetime}
   */
   readonly validLifetime?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ipv6_nd_prefix routeros_ipv6_nd_prefix}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ipv6_nd_prefix routeros_ipv6_nd_prefix}
 */
 export class Ipv6NdPrefix extends cdktf.TerraformResource {
 
@@ -89,7 +89,7 @@ export class Ipv6NdPrefix extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Ipv6NdPrefix resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ipv6NdPrefix to import
-  * @param importFromId The id of the existing Ipv6NdPrefix that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ipv6_nd_prefix#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ipv6NdPrefix that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ipv6_nd_prefix#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ipv6NdPrefix to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -101,7 +101,7 @@ export class Ipv6NdPrefix extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ipv6_nd_prefix routeros_ipv6_nd_prefix} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ipv6_nd_prefix routeros_ipv6_nd_prefix} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -112,7 +112,8 @@ export class Ipv6NdPrefix extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_ipv6_nd_prefix',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.90.0'
+        providerVersion: '1.91.0',
+        providerVersionConstraint: '1.91.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

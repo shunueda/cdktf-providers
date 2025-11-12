@@ -365,7 +365,8 @@ export class Workspace extends cdktf.TerraformResource {
       terraformResourceType: 'singlestoredb_workspace',
       terraformGeneratorMetadata: {
         providerName: 'singlestoredb',
-        providerVersion: '0.1.6'
+        providerVersion: '0.1.6',
+        providerVersionConstraint: '0.1.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -61,7 +61,8 @@ export class DataClumioProtectionGroupAsset extends cdktf.TerraformDataSource {
       terraformResourceType: 'clumio_protection_group_asset',
       terraformGeneratorMetadata: {
         providerName: 'clumio',
-        providerVersion: '0.16.1'
+        providerVersion: '0.16.1',
+        providerVersionConstraint: '0.16.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

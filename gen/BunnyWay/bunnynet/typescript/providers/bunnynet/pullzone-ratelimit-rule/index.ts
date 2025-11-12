@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/resources/pullzone_ratelimit_rule
+// https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/pullzone_ratelimit_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface PullzoneRatelimitRuleConfig extends cdktf.TerraformMetaArgument
   /**
   * The rate limit rule description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/resources/pullzone_ratelimit_rule#description PullzoneRatelimitRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/pullzone_ratelimit_rule#description PullzoneRatelimitRule#description}
   */
   readonly description?: string;
   /**
   * The rate limit rule name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/resources/pullzone_ratelimit_rule#name PullzoneRatelimitRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/pullzone_ratelimit_rule#name PullzoneRatelimitRule#name}
   */
   readonly name: string;
   /**
   * The ID of the linked pullzone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/resources/pullzone_ratelimit_rule#pullzone PullzoneRatelimitRule#pullzone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/pullzone_ratelimit_rule#pullzone PullzoneRatelimitRule#pullzone}
   */
   readonly pullzone: number;
   /**
   * condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/resources/pullzone_ratelimit_rule#condition PullzoneRatelimitRule#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/pullzone_ratelimit_rule#condition PullzoneRatelimitRule#condition}
   */
   readonly condition?: PullzoneRatelimitRuleCondition;
   /**
   * limit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/resources/pullzone_ratelimit_rule#limit PullzoneRatelimitRule#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/pullzone_ratelimit_rule#limit PullzoneRatelimitRule#limit}
   */
   readonly limit: PullzoneRatelimitRuleLimit;
   /**
   * response block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/resources/pullzone_ratelimit_rule#response PullzoneRatelimitRule#response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/pullzone_ratelimit_rule#response PullzoneRatelimitRule#response}
   */
   readonly response: PullzoneRatelimitRuleResponse;
 }
@@ -48,27 +48,27 @@ export interface PullzoneRatelimitRuleCondition {
   /**
   * Options: `BEGINSWITH`, `CONTAINS`, `CONTAINSWORD`, `DETECTSQLI`, `DETECTXSS`, `ENDSWITH`, `EQ`, `GE`, `GT`, `LE`, `LT`, `RX`, `STREQ`, `STRMATCH`, `WITHIN`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/resources/pullzone_ratelimit_rule#operator PullzoneRatelimitRule#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/pullzone_ratelimit_rule#operator PullzoneRatelimitRule#operator}
   */
   readonly operator: string;
   /**
   * Options: `CMDLINE`, `COMPRESSWHITESPACE`, `CSSDECODE`, `HEXENCODE`, `HTMLENTITYDECODE`, `JSDECODE`, `LENGTH`, `LOWERCASE`, `MD5`, `NORMALISEPATH`, `NORMALISEPATHWIN`, `NORMALIZEPATH`, `NORMALIZEPATHWIN`, `REMOVECOMMENTS`, `REMOVENULLS`, `REMOVEWHITESPACE`, `REPLACECOMMENTS`, `SHA1`, `URLDECODE`, `URLDECODEUNI`, `UTF8TOUNICODE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/resources/pullzone_ratelimit_rule#transformations PullzoneRatelimitRule#transformations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/pullzone_ratelimit_rule#transformations PullzoneRatelimitRule#transformations}
   */
   readonly transformations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/resources/pullzone_ratelimit_rule#value PullzoneRatelimitRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/pullzone_ratelimit_rule#value PullzoneRatelimitRule#value}
   */
   readonly value: string;
   /**
   * Options: `ARGS`, `ARGS_COMBINED_SIZE`, `ARGS_GET`, `ARGS_GET_NAMES`, `ARGS_POST`, `ARGS_POST_NAMES`, `FILES_NAMES`, `QUERY_STRING`, `REMOTE_ADDR`, `REQUEST_BASENAME`, `REQUEST_BODY`, `REQUEST_COOKIES`, `REQUEST_COOKIES_NAMES`, `REQUEST_FILENAME`, `REQUEST_HEADERS`, `REQUEST_HEADERS_NAMES`, `REQUEST_LINE`, `REQUEST_METHOD`, `REQUEST_PROTOCOL`, `REQUEST_URI`, `REQUEST_URI_RAW`, `RESPONSE_BODY`, `RESPONSE_HEADERS`, `RESPONSE_STATUS`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/resources/pullzone_ratelimit_rule#variable PullzoneRatelimitRule#variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/pullzone_ratelimit_rule#variable PullzoneRatelimitRule#variable}
   */
   readonly variable: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/resources/pullzone_ratelimit_rule#variable_value PullzoneRatelimitRule#variable_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/pullzone_ratelimit_rule#variable_value PullzoneRatelimitRule#variable_value}
   */
   readonly variableValue?: string;
 }
@@ -271,13 +271,13 @@ export interface PullzoneRatelimitRuleLimit {
   /**
   * The interval, in seconds, to consider for to trigger the rate limit rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/resources/pullzone_ratelimit_rule#interval PullzoneRatelimitRule#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/pullzone_ratelimit_rule#interval PullzoneRatelimitRule#interval}
   */
   readonly interval: number;
   /**
   * The number of request within the interval to trigger the rate limit rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/resources/pullzone_ratelimit_rule#requests PullzoneRatelimitRule#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/pullzone_ratelimit_rule#requests PullzoneRatelimitRule#requests}
   */
   readonly requests: number;
 }
@@ -396,7 +396,7 @@ export interface PullzoneRatelimitRuleResponse {
   /**
   * The interval, in seconds, that the rate limit will apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/resources/pullzone_ratelimit_rule#interval PullzoneRatelimitRule#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/pullzone_ratelimit_rule#interval PullzoneRatelimitRule#interval}
   */
   readonly interval: number;
 }
@@ -487,7 +487,7 @@ export class PullzoneRatelimitRuleResponseOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/resources/pullzone_ratelimit_rule bunnynet_pullzone_ratelimit_rule}
+* Represents a {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/pullzone_ratelimit_rule bunnynet_pullzone_ratelimit_rule}
 */
 export class PullzoneRatelimitRule extends cdktf.TerraformResource {
 
@@ -503,7 +503,7 @@ export class PullzoneRatelimitRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PullzoneRatelimitRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PullzoneRatelimitRule to import
-  * @param importFromId The id of the existing PullzoneRatelimitRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/resources/pullzone_ratelimit_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PullzoneRatelimitRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/pullzone_ratelimit_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PullzoneRatelimitRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -515,7 +515,7 @@ export class PullzoneRatelimitRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/resources/pullzone_ratelimit_rule bunnynet_pullzone_ratelimit_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/pullzone_ratelimit_rule bunnynet_pullzone_ratelimit_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -526,7 +526,8 @@ export class PullzoneRatelimitRule extends cdktf.TerraformResource {
       terraformResourceType: 'bunnynet_pullzone_ratelimit_rule',
       terraformGeneratorMetadata: {
         providerName: 'bunnynet',
-        providerVersion: '0.11.0'
+        providerVersion: '0.11.1',
+        providerVersionConstraint: '0.11.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

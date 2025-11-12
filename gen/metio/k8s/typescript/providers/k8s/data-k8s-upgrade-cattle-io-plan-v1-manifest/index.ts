@@ -8528,7 +8528,8 @@ export class DataK8SUpgradeCattleIoPlanV1Manifest extends cdktf.TerraformDataSou
       terraformResourceType: 'k8s_upgrade_cattle_io_plan_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

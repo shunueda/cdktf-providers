@@ -400,7 +400,8 @@ export class Cgnv6FixedNatInsideIplist extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_cgnv6_fixed_nat_inside_iplist',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -68,7 +68,8 @@ export class AccessControlGroup extends cdktf.TerraformResource {
       terraformResourceType: 'ncloud_access_control_group',
       terraformGeneratorMetadata: {
         providerName: 'ncloud',
-        providerVersion: '4.0.4'
+        providerVersion: '4.0.4',
+        providerVersionConstraint: '4.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

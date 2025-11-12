@@ -73,7 +73,8 @@ export class DnsRecord extends cdktf.TerraformResource {
       terraformResourceType: 'mikrotik_dns_record',
       terraformGeneratorMetadata: {
         providerName: 'mikrotik',
-        providerVersion: '0.16.1'
+        providerVersion: '0.16.1',
+        providerVersionConstraint: '0.16.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

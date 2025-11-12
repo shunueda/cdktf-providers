@@ -169,7 +169,8 @@ export class DataTencentcloudWafInstanceQpsLimit extends cdktf.TerraformDataSour
       terraformResourceType: 'tencentcloud_waf_instance_qps_limit',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

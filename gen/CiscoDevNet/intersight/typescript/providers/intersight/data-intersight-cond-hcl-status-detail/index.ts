@@ -4533,7 +4533,8 @@ export class DataIntersightCondHclStatusDetail extends cdktf.TerraformDataSource
       terraformResourceType: 'intersight_cond_hcl_status_detail',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1834,7 +1834,8 @@ export class VirtualRouterStaticRouteIpv6 extends cdktf.TerraformResource {
       terraformResourceType: 'panos_virtual_router_static_route_ipv6',
       terraformGeneratorMetadata: {
         providerName: 'panos',
-        providerVersion: '2.0.5'
+        providerVersion: '2.0.5',
+        providerVersionConstraint: '2.0.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_app_control_update_schedule
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_app_control_update_schedule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ManagementSetAppControlUpdateScheduleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_app_control_update_schedule#id ManagementSetAppControlUpdateSchedule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_app_control_update_schedule#id ManagementSetAppControlUpdateSchedule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface ManagementSetAppControlUpdateScheduleConfig extends cdktf.Terra
   /**
   * schedule_gateway_update block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_app_control_update_schedule#schedule_gateway_update ManagementSetAppControlUpdateSchedule#schedule_gateway_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_app_control_update_schedule#schedule_gateway_update ManagementSetAppControlUpdateSchedule#schedule_gateway_update}
   */
   readonly scheduleGatewayUpdate?: ManagementSetAppControlUpdateScheduleScheduleGatewayUpdate;
   /**
   * schedule_management_update block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_app_control_update_schedule#schedule_management_update ManagementSetAppControlUpdateSchedule#schedule_management_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_app_control_update_schedule#schedule_management_update ManagementSetAppControlUpdateSchedule#schedule_management_update}
   */
   readonly scheduleManagementUpdate?: ManagementSetAppControlUpdateScheduleScheduleManagementUpdate;
 }
@@ -31,37 +31,37 @@ export interface ManagementSetAppControlUpdateScheduleScheduleGatewayUpdateSched
   /**
   * Days of the month to run the update.<br> Valid values: interval in the range of 1 to 31. <font color="red">Required only when</font> pattern is set to 'Monthly'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_app_control_update_schedule#days ManagementSetAppControlUpdateSchedule#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_app_control_update_schedule#days ManagementSetAppControlUpdateSchedule#days}
   */
   readonly days?: string[];
   /**
   * The amount of hours between updates. <font color="red">Required only when</font> pattern is set to 'Interval'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_app_control_update_schedule#interval_hours ManagementSetAppControlUpdateSchedule#interval_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_app_control_update_schedule#interval_hours ManagementSetAppControlUpdateSchedule#interval_hours}
   */
   readonly intervalHours?: number;
   /**
   * The amount of minutes between updates. <font color="red">Required only when</font> pattern is set to 'Interval'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_app_control_update_schedule#interval_minutes ManagementSetAppControlUpdateSchedule#interval_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_app_control_update_schedule#interval_minutes ManagementSetAppControlUpdateSchedule#interval_minutes}
   */
   readonly intervalMinutes?: number;
   /**
   * The amount of seconds between updates. <font color="red">Required only when</font> pattern is set to 'Interval'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_app_control_update_schedule#interval_seconds ManagementSetAppControlUpdateSchedule#interval_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_app_control_update_schedule#interval_seconds ManagementSetAppControlUpdateSchedule#interval_seconds}
   */
   readonly intervalSeconds?: number;
   /**
   * Days recurrence pattern.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_app_control_update_schedule#pattern ManagementSetAppControlUpdateSchedule#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_app_control_update_schedule#pattern ManagementSetAppControlUpdateSchedule#pattern}
   */
   readonly pattern?: string;
   /**
   * Days of the week to run the update.<br> Valid values: group of values from {'Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'}. <font color="red">Required only when</font> pattern is set to 'Weekly'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_app_control_update_schedule#weekdays ManagementSetAppControlUpdateSchedule#weekdays}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_app_control_update_schedule#weekdays ManagementSetAppControlUpdateSchedule#weekdays}
   */
   readonly weekdays?: string[];
 }
@@ -292,13 +292,13 @@ export interface ManagementSetAppControlUpdateScheduleScheduleGatewayUpdateSched
   /**
   * Time in format HH:mm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_app_control_update_schedule#time ManagementSetAppControlUpdateSchedule#time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_app_control_update_schedule#time ManagementSetAppControlUpdateSchedule#time}
   */
   readonly time?: string;
   /**
   * recurrence block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_app_control_update_schedule#recurrence ManagementSetAppControlUpdateSchedule#recurrence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_app_control_update_schedule#recurrence ManagementSetAppControlUpdateSchedule#recurrence}
   */
   readonly recurrence?: ManagementSetAppControlUpdateScheduleScheduleGatewayUpdateScheduleRecurrence;
 }
@@ -413,13 +413,13 @@ export interface ManagementSetAppControlUpdateScheduleScheduleGatewayUpdate {
   /**
   * Enable/Disable Application Control & URL Filtering Update Schedule on Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_app_control_update_schedule#enabled ManagementSetAppControlUpdateSchedule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_app_control_update_schedule#enabled ManagementSetAppControlUpdateSchedule#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_app_control_update_schedule#schedule ManagementSetAppControlUpdateSchedule#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_app_control_update_schedule#schedule ManagementSetAppControlUpdateSchedule#schedule}
   */
   readonly schedule?: ManagementSetAppControlUpdateScheduleScheduleGatewayUpdateSchedule;
 }
@@ -534,19 +534,19 @@ export interface ManagementSetAppControlUpdateScheduleScheduleManagementUpdateSc
   /**
   * Days of the month to run the update.<br> Valid values: interval in the range of 1 to 31. <font color="red">Required only when</font> pattern is set to 'Monthly'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_app_control_update_schedule#days ManagementSetAppControlUpdateSchedule#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_app_control_update_schedule#days ManagementSetAppControlUpdateSchedule#days}
   */
   readonly days?: string[];
   /**
   * Days recurrence pattern.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_app_control_update_schedule#pattern ManagementSetAppControlUpdateSchedule#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_app_control_update_schedule#pattern ManagementSetAppControlUpdateSchedule#pattern}
   */
   readonly pattern?: string;
   /**
   * Days of the week to run the update.<br> Valid values: group of values from {'Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'}. <font color="red">Required only when</font> pattern is set to 'Weekly'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_app_control_update_schedule#weekdays ManagementSetAppControlUpdateSchedule#weekdays}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_app_control_update_schedule#weekdays ManagementSetAppControlUpdateSchedule#weekdays}
   */
   readonly weekdays?: string[];
 }
@@ -690,13 +690,13 @@ export interface ManagementSetAppControlUpdateScheduleScheduleManagementUpdateSc
   /**
   * Time in format HH:mm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_app_control_update_schedule#time ManagementSetAppControlUpdateSchedule#time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_app_control_update_schedule#time ManagementSetAppControlUpdateSchedule#time}
   */
   readonly time?: string;
   /**
   * recurrence block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_app_control_update_schedule#recurrence ManagementSetAppControlUpdateSchedule#recurrence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_app_control_update_schedule#recurrence ManagementSetAppControlUpdateSchedule#recurrence}
   */
   readonly recurrence?: ManagementSetAppControlUpdateScheduleScheduleManagementUpdateScheduleRecurrence;
 }
@@ -811,13 +811,13 @@ export interface ManagementSetAppControlUpdateScheduleScheduleManagementUpdate {
   /**
   * Enable/Disable Application Control & URL Filtering Update Schedule on Management Server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_app_control_update_schedule#enabled ManagementSetAppControlUpdateSchedule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_app_control_update_schedule#enabled ManagementSetAppControlUpdateSchedule#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_app_control_update_schedule#schedule ManagementSetAppControlUpdateSchedule#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_app_control_update_schedule#schedule ManagementSetAppControlUpdateSchedule#schedule}
   */
   readonly schedule?: ManagementSetAppControlUpdateScheduleScheduleManagementUpdateSchedule;
 }
@@ -930,7 +930,7 @@ export class ManagementSetAppControlUpdateScheduleScheduleManagementUpdateOutput
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_app_control_update_schedule checkpoint_management_set_app_control_update_schedule}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_app_control_update_schedule checkpoint_management_set_app_control_update_schedule}
 */
 export class ManagementSetAppControlUpdateSchedule extends cdktf.TerraformResource {
 
@@ -946,7 +946,7 @@ export class ManagementSetAppControlUpdateSchedule extends cdktf.TerraformResour
   * Generates CDKTF code for importing a ManagementSetAppControlUpdateSchedule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementSetAppControlUpdateSchedule to import
-  * @param importFromId The id of the existing ManagementSetAppControlUpdateSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_app_control_update_schedule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementSetAppControlUpdateSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_app_control_update_schedule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementSetAppControlUpdateSchedule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -958,7 +958,7 @@ export class ManagementSetAppControlUpdateSchedule extends cdktf.TerraformResour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_app_control_update_schedule checkpoint_management_set_app_control_update_schedule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_app_control_update_schedule checkpoint_management_set_app_control_update_schedule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -969,7 +969,8 @@ export class ManagementSetAppControlUpdateSchedule extends cdktf.TerraformResour
       terraformResourceType: 'checkpoint_management_set_app_control_update_schedule',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

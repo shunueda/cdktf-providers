@@ -74,7 +74,8 @@ export class ClusterVirtualIp extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_cluster_virtual_ip',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0'
+        providerVersion: '3.10.0',
+        providerVersionConstraint: '3.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

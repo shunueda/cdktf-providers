@@ -305,7 +305,8 @@ export class DataCirconusAccount extends cdktf.TerraformDataSource {
       terraformResourceType: 'circonus_account',
       terraformGeneratorMetadata: {
         providerName: 'circonus',
-        providerVersion: '0.12.15'
+        providerVersion: '0.12.15',
+        providerVersionConstraint: '0.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -110,7 +110,8 @@ export class KubernetesCloud extends cdktf.TerraformResource {
       terraformResourceType: 'juju_kubernetes_cloud',
       terraformGeneratorMetadata: {
         providerName: 'juju',
-        providerVersion: '1.0.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

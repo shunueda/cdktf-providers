@@ -55,7 +55,8 @@ export class AptibleProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'aptible',
       terraformGeneratorMetadata: {
         providerName: 'aptible',
-        providerVersion: '0.9.18'
+        providerVersion: '0.9.18',
+        providerVersionConstraint: '0.9.18'
       },
       terraformProviderSource: 'aptible/aptible'
     });

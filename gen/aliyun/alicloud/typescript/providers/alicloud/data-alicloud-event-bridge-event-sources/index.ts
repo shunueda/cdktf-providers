@@ -174,7 +174,8 @@ export class DataAlicloudEventBridgeEventSources extends cdktf.TerraformDataSour
       terraformResourceType: 'alicloud_event_bridge_event_sources',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

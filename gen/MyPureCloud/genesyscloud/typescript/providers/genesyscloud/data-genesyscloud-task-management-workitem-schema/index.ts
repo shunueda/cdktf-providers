@@ -62,7 +62,8 @@ export class DataGenesyscloudTaskManagementWorkitemSchema extends cdktf.Terrafor
       terraformResourceType: 'genesyscloud_task_management_workitem_schema',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.70.0'
+        providerVersion: '1.70.0',
+        providerVersionConstraint: '1.70.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

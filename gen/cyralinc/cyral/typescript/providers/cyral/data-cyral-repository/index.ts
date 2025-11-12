@@ -450,7 +450,8 @@ export class DataCyralRepository extends cdktf.TerraformDataSource {
       terraformResourceType: 'cyral_repository',
       terraformGeneratorMetadata: {
         providerName: 'cyral',
-        providerVersion: '4.16.3'
+        providerVersion: '4.16.3',
+        providerVersionConstraint: '4.16.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

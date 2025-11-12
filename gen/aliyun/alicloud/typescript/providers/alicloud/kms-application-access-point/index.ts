@@ -234,7 +234,8 @@ export class KmsApplicationAccessPoint extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_kms_application_access_point',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

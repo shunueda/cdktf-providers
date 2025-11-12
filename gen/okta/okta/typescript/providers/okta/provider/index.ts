@@ -157,7 +157,8 @@ export class OktaProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'okta',
       terraformGeneratorMetadata: {
         providerName: 'okta',
-        providerVersion: '6.4.0'
+        providerVersion: '6.4.0',
+        providerVersionConstraint: '6.4.0'
       },
       terraformProviderSource: 'okta/okta'
     });

@@ -194,7 +194,8 @@ export class DataCloudflareR2BucketSippy extends cdktf.TerraformDataSource {
       terraformResourceType: 'cloudflare_r2_bucket_sippy',
       terraformGeneratorMetadata: {
         providerName: 'cloudflare',
-        providerVersion: '5.12.0'
+        providerVersion: '5.12.0',
+        providerVersionConstraint: '5.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

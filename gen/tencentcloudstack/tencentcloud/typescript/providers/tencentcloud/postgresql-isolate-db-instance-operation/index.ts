@@ -62,7 +62,8 @@ export class PostgresqlIsolateDbInstanceOperation extends cdktf.TerraformResourc
       terraformResourceType: 'tencentcloud_postgresql_isolate_db_instance_operation',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

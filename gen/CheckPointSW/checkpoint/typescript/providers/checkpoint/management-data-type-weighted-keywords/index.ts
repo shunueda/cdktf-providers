@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_type_weighted_keywords
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_type_weighted_keywords
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface ManagementDataTypeWeightedKeywordsConfig extends cdktf.Terrafor
   /**
   * Color of the object. Should be one of existing colors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_type_weighted_keywords#color ManagementDataTypeWeightedKeywords#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_type_weighted_keywords#color ManagementDataTypeWeightedKeywords#color}
   */
   readonly color?: string;
   /**
   * Comments string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_type_weighted_keywords#comments ManagementDataTypeWeightedKeywords#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_type_weighted_keywords#comments ManagementDataTypeWeightedKeywords#comments}
   */
   readonly comments?: string;
   /**
   * For built-in data types, the description explains the purpose of this type of data representation. For custom-made data types, you can use this field to provide more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_type_weighted_keywords#description ManagementDataTypeWeightedKeywords#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_type_weighted_keywords#description ManagementDataTypeWeightedKeywords#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_type_weighted_keywords#id ManagementDataTypeWeightedKeywords#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_type_weighted_keywords#id ManagementDataTypeWeightedKeywords#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,37 +35,37 @@ export interface ManagementDataTypeWeightedKeywordsConfig extends cdktf.Terrafor
   /**
   * Apply changes ignoring errors. You won't be able to publish such a changes. If ignore-warnings flag was omitted - warnings will also be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_type_weighted_keywords#ignore_errors ManagementDataTypeWeightedKeywords#ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_type_weighted_keywords#ignore_errors ManagementDataTypeWeightedKeywords#ignore_errors}
   */
   readonly ignoreErrors?: boolean | cdktf.IResolvable;
   /**
   * Apply changes ignoring warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_type_weighted_keywords#ignore_warnings ManagementDataTypeWeightedKeywords#ignore_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_type_weighted_keywords#ignore_warnings ManagementDataTypeWeightedKeywords#ignore_warnings}
   */
   readonly ignoreWarnings?: boolean | cdktf.IResolvable;
   /**
   * Object name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_type_weighted_keywords#name ManagementDataTypeWeightedKeywords#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_type_weighted_keywords#name ManagementDataTypeWeightedKeywords#name}
   */
   readonly name: string;
   /**
   * Define the number of appearances, by weight, of all the keywords that, beyond this threshold,  the data containing this list of words or phrases will be recognized as data to be protected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_type_weighted_keywords#sum_of_weights_threshold ManagementDataTypeWeightedKeywords#sum_of_weights_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_type_weighted_keywords#sum_of_weights_threshold ManagementDataTypeWeightedKeywords#sum_of_weights_threshold}
   */
   readonly sumOfWeightsThreshold?: number;
   /**
   * Collection of tag identifiers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_type_weighted_keywords#tags ManagementDataTypeWeightedKeywords#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_type_weighted_keywords#tags ManagementDataTypeWeightedKeywords#tags}
   */
   readonly tags?: string[];
   /**
   * weighted_keywords block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_type_weighted_keywords#weighted_keywords ManagementDataTypeWeightedKeywords#weighted_keywords}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_type_weighted_keywords#weighted_keywords ManagementDataTypeWeightedKeywords#weighted_keywords}
   */
   readonly weightedKeywords: ManagementDataTypeWeightedKeywordsWeightedKeywords[] | cdktf.IResolvable;
 }
@@ -73,25 +73,25 @@ export interface ManagementDataTypeWeightedKeywordsWeightedKeywords {
   /**
   * keyword or regular expression to be weighted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_type_weighted_keywords#keyword ManagementDataTypeWeightedKeywords#keyword}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_type_weighted_keywords#keyword ManagementDataTypeWeightedKeywords#keyword}
   */
   readonly keyword: string;
   /**
   * Max weight of the expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_type_weighted_keywords#max_weight ManagementDataTypeWeightedKeywords#max_weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_type_weighted_keywords#max_weight ManagementDataTypeWeightedKeywords#max_weight}
   */
   readonly maxWeight?: number;
   /**
   * Determine whether to consider the expression as a regular expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_type_weighted_keywords#regex ManagementDataTypeWeightedKeywords#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_type_weighted_keywords#regex ManagementDataTypeWeightedKeywords#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
   * Weight of the expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_type_weighted_keywords#weight ManagementDataTypeWeightedKeywords#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_type_weighted_keywords#weight ManagementDataTypeWeightedKeywords#weight}
   */
   readonly weight?: number;
 }
@@ -291,7 +291,7 @@ export class ManagementDataTypeWeightedKeywordsWeightedKeywordsList extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_type_weighted_keywords checkpoint_management_data_type_weighted_keywords}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_type_weighted_keywords checkpoint_management_data_type_weighted_keywords}
 */
 export class ManagementDataTypeWeightedKeywords extends cdktf.TerraformResource {
 
@@ -307,7 +307,7 @@ export class ManagementDataTypeWeightedKeywords extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a ManagementDataTypeWeightedKeywords resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementDataTypeWeightedKeywords to import
-  * @param importFromId The id of the existing ManagementDataTypeWeightedKeywords that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_type_weighted_keywords#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementDataTypeWeightedKeywords that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_type_weighted_keywords#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementDataTypeWeightedKeywords to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -319,7 +319,7 @@ export class ManagementDataTypeWeightedKeywords extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_type_weighted_keywords checkpoint_management_data_type_weighted_keywords} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_type_weighted_keywords checkpoint_management_data_type_weighted_keywords} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -330,7 +330,8 @@ export class ManagementDataTypeWeightedKeywords extends cdktf.TerraformResource 
       terraformResourceType: 'checkpoint_management_data_type_weighted_keywords',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

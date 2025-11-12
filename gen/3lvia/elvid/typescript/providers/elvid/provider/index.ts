@@ -89,7 +89,8 @@ export class ElvidProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'elvid',
       terraformGeneratorMetadata: {
         providerName: 'elvid',
-        providerVersion: '2.1.1'
+        providerVersion: '2.1.1',
+        providerVersionConstraint: '2.1.1'
       },
       terraformProviderSource: '3lvia/elvid'
     });

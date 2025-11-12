@@ -3026,7 +3026,8 @@ export class CvmLaunchTemplateVersion extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cvm_launch_template_version',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

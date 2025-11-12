@@ -83,7 +83,8 @@ export class ChefProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'chef',
       terraformGeneratorMetadata: {
         providerName: 'chef',
-        providerVersion: '0.3.17'
+        providerVersion: '0.3.17',
+        providerVersionConstraint: '0.3.17'
       },
       terraformProviderSource: 'bdwyertech/chef'
     });

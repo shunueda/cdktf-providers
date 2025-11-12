@@ -234,7 +234,8 @@ export class CorePublicIpPoolCapacity extends cdktf.TerraformResource {
       terraformResourceType: 'oci_core_public_ip_pool_capacity',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

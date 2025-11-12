@@ -74,7 +74,8 @@ export class CosObjectAbortMultipartUploadOperation extends cdktf.TerraformResou
       terraformResourceType: 'tencentcloud_cos_object_abort_multipart_upload_operation',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

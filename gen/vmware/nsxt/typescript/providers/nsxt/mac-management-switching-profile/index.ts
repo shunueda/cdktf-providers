@@ -426,7 +426,8 @@ export class MacManagementSwitchingProfile extends cdktf.TerraformResource {
       terraformResourceType: 'nsxt_mac_management_switching_profile',
       terraformGeneratorMetadata: {
         providerName: 'nsxt',
-        providerVersion: '3.10.0'
+        providerVersion: '3.10.0',
+        providerVersionConstraint: '3.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

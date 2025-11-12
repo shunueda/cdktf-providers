@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/route_prefix_list
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/route_prefix_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface RoutePrefixListConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/route_prefix_list#description RoutePrefixList#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/route_prefix_list#description RoutePrefixList#description}
   */
   readonly description?: string;
   /**
   * The device in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/route_prefix_list#device RoutePrefixList#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/route_prefix_list#device RoutePrefixList#device}
   */
   readonly device?: string;
   /**
   * The folder in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/route_prefix_list#folder RoutePrefixList#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/route_prefix_list#folder RoutePrefixList#folder}
   */
   readonly folder?: string;
   /**
   * Ipv4
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/route_prefix_list#ipv4 RoutePrefixList#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/route_prefix_list#ipv4 RoutePrefixList#ipv4}
   */
   readonly ipv4?: RoutePrefixListIpv4;
   /**
   * Filter prefix list name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/route_prefix_list#name RoutePrefixList#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/route_prefix_list#name RoutePrefixList#name}
   */
   readonly name: string;
   /**
   * The snippet in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/route_prefix_list#snippet RoutePrefixList#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/route_prefix_list#snippet RoutePrefixList#snippet}
   */
   readonly snippet?: string;
 }
@@ -48,19 +48,19 @@ export interface RoutePrefixListIpv4Ipv4EntryPrefixEntry {
   /**
   * Greater than or equal to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/route_prefix_list#greater_than_or_equal RoutePrefixList#greater_than_or_equal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/route_prefix_list#greater_than_or_equal RoutePrefixList#greater_than_or_equal}
   */
   readonly greaterThanOrEqual?: number;
   /**
   * Less than or equal to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/route_prefix_list#less_than_or_equal RoutePrefixList#less_than_or_equal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/route_prefix_list#less_than_or_equal RoutePrefixList#less_than_or_equal}
   */
   readonly lessThanOrEqual?: number;
   /**
   * Network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/route_prefix_list#network RoutePrefixList#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/route_prefix_list#network RoutePrefixList#network}
   */
   readonly network?: string;
 }
@@ -214,13 +214,13 @@ export interface RoutePrefixListIpv4Ipv4EntryPrefix {
   /**
   * Entry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/route_prefix_list#entry RoutePrefixList#entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/route_prefix_list#entry RoutePrefixList#entry}
   */
   readonly entry?: RoutePrefixListIpv4Ipv4EntryPrefixEntry;
   /**
   * Network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/route_prefix_list#network RoutePrefixList#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/route_prefix_list#network RoutePrefixList#network}
   */
   readonly network?: string;
 }
@@ -345,19 +345,19 @@ export interface RoutePrefixListIpv4Ipv4Entry {
   /**
   * Action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/route_prefix_list#action RoutePrefixList#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/route_prefix_list#action RoutePrefixList#action}
   */
   readonly action?: string;
   /**
   * Sequence number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/route_prefix_list#name RoutePrefixList#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/route_prefix_list#name RoutePrefixList#name}
   */
   readonly name?: number;
   /**
   * Prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/route_prefix_list#prefix RoutePrefixList#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/route_prefix_list#prefix RoutePrefixList#prefix}
   */
   readonly prefix?: RoutePrefixListIpv4Ipv4EntryPrefix;
 }
@@ -533,7 +533,7 @@ export interface RoutePrefixListIpv4 {
   /**
   * IPv4 prefix lists
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/route_prefix_list#ipv4_entry RoutePrefixList#ipv4_entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/route_prefix_list#ipv4_entry RoutePrefixList#ipv4_entry}
   */
   readonly ipv4Entry?: RoutePrefixListIpv4Ipv4Entry[] | cdktf.IResolvable;
 }
@@ -627,7 +627,7 @@ export class RoutePrefixListIpv4OutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/route_prefix_list scm_route_prefix_list}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/route_prefix_list scm_route_prefix_list}
 */
 export class RoutePrefixList extends cdktf.TerraformResource {
 
@@ -643,7 +643,7 @@ export class RoutePrefixList extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RoutePrefixList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RoutePrefixList to import
-  * @param importFromId The id of the existing RoutePrefixList that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/route_prefix_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RoutePrefixList that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/route_prefix_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RoutePrefixList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -655,7 +655,7 @@ export class RoutePrefixList extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/route_prefix_list scm_route_prefix_list} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/route_prefix_list scm_route_prefix_list} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -666,7 +666,8 @@ export class RoutePrefixList extends cdktf.TerraformResource {
       terraformResourceType: 'scm_route_prefix_list',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.3'
+        providerVersion: '1.0.4',
+        providerVersionConstraint: '1.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

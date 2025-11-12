@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/statediffoperation
+// https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/statediffoperation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,22 +8,22 @@ import * as cdktf from 'cdktf';
 
 export interface DataAviStatediffoperationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/statediffoperation#id DataAviStatediffoperation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/statediffoperation#id DataAviStatediffoperation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/statediffoperation#name DataAviStatediffoperation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/statediffoperation#name DataAviStatediffoperation#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/statediffoperation#tenant_ref DataAviStatediffoperation#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/statediffoperation#tenant_ref DataAviStatediffoperation#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/statediffoperation#uuid DataAviStatediffoperation#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/statediffoperation#uuid DataAviStatediffoperation#uuid}
   */
   readonly uuid?: string;
 }
@@ -129,7 +129,7 @@ export class DataAviStatediffoperationEventsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/statediffoperation avi_statediffoperation}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/statediffoperation avi_statediffoperation}
 */
 export class DataAviStatediffoperation extends cdktf.TerraformDataSource {
 
@@ -145,7 +145,7 @@ export class DataAviStatediffoperation extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAviStatediffoperation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAviStatediffoperation to import
-  * @param importFromId The id of the existing DataAviStatediffoperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/statediffoperation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAviStatediffoperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/statediffoperation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAviStatediffoperation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -157,7 +157,7 @@ export class DataAviStatediffoperation extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/statediffoperation avi_statediffoperation} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/statediffoperation avi_statediffoperation} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -168,7 +168,8 @@ export class DataAviStatediffoperation extends cdktf.TerraformDataSource {
       terraformResourceType: 'avi_statediffoperation',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '31.1.1'
+        providerVersion: '30.2.5',
+        providerVersionConstraint: '30.2.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

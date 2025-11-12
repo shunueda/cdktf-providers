@@ -68,7 +68,8 @@ export class ProtectionResourceWhitelistEntry extends cdktf.TerraformResource {
       terraformResourceType: 'edgecenter_protection_resource_whitelist_entry',
       terraformGeneratorMetadata: {
         providerName: 'edgecenter',
-        providerVersion: '0.10.4'
+        providerVersion: '0.10.4',
+        providerVersionConstraint: '0.10.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

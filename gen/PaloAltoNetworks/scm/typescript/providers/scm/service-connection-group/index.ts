@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/service_connection_group
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/service_connection_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface ServiceConnectionGroupConfig extends cdktf.TerraformMetaArgumen
   /**
   * Disable snat
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/service_connection_group#disable_snat ServiceConnectionGroup#disable_snat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/service_connection_group#disable_snat ServiceConnectionGroup#disable_snat}
   */
   readonly disableSnat?: boolean | cdktf.IResolvable;
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/service_connection_group#name ServiceConnectionGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/service_connection_group#name ServiceConnectionGroup#name}
   */
   readonly name: string;
   /**
   * Pbf only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/service_connection_group#pbf_only ServiceConnectionGroup#pbf_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/service_connection_group#pbf_only ServiceConnectionGroup#pbf_only}
   */
   readonly pbfOnly?: boolean | cdktf.IResolvable;
   /**
   * Target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/service_connection_group#target ServiceConnectionGroup#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/service_connection_group#target ServiceConnectionGroup#target}
   */
   readonly target: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/service_connection_group scm_service_connection_group}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/service_connection_group scm_service_connection_group}
 */
 export class ServiceConnectionGroup extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class ServiceConnectionGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServiceConnectionGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServiceConnectionGroup to import
-  * @param importFromId The id of the existing ServiceConnectionGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/service_connection_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServiceConnectionGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/service_connection_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServiceConnectionGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class ServiceConnectionGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/service_connection_group scm_service_connection_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/service_connection_group scm_service_connection_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,7 +73,8 @@ export class ServiceConnectionGroup extends cdktf.TerraformResource {
       terraformResourceType: 'scm_service_connection_group',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.3'
+        providerVersion: '1.0.4',
+        providerVersionConstraint: '1.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

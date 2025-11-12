@@ -175,7 +175,8 @@ export class DataOmeFirmwareRepository extends cdktf.TerraformDataSource {
       terraformResourceType: 'ome_firmware_repository',
       terraformGeneratorMetadata: {
         providerName: 'ome',
-        providerVersion: '1.2.3'
+        providerVersion: '1.2.3',
+        providerVersionConstraint: '1.2.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

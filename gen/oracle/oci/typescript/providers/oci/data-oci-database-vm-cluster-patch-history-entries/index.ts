@@ -347,7 +347,8 @@ export class DataOciDatabaseVmClusterPatchHistoryEntries extends cdktf.Terraform
       terraformResourceType: 'oci_database_vm_cluster_patch_history_entries',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

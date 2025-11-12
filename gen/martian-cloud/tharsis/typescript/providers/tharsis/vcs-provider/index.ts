@@ -97,7 +97,8 @@ export class VcsProvider extends cdktf.TerraformResource {
       terraformResourceType: 'tharsis_vcs_provider',
       terraformGeneratorMetadata: {
         providerName: 'tharsis',
-        providerVersion: '0.14.1'
+        providerVersion: '0.14.1',
+        providerVersionConstraint: '0.14.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

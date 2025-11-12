@@ -675,7 +675,8 @@ export class DatabaseManagementManagedDatabasesResetDatabaseParameter extends cd
       terraformResourceType: 'oci_database_management_managed_databases_reset_database_parameter',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

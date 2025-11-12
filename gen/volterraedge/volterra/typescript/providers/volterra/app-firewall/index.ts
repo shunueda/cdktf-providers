@@ -2140,7 +2140,8 @@ export class AppFirewall extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_app_firewall',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.44'
+        providerVersion: '0.11.44',
+        providerVersionConstraint: '0.11.44'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

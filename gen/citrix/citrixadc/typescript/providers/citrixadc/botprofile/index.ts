@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botprofile
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,100 +8,128 @@ import * as cdktf from 'cdktf';
 
 export interface BotprofileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botprofile#bot_enable_black_list Botprofile#bot_enable_black_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile#addcookieflags Botprofile#addcookieflags}
+  */
+  readonly addcookieflags?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile#bot_enable_black_list Botprofile#bot_enable_black_list}
   */
   readonly botEnableBlackList?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botprofile#bot_enable_ip_reputation Botprofile#bot_enable_ip_reputation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile#bot_enable_ip_reputation Botprofile#bot_enable_ip_reputation}
   */
   readonly botEnableIpReputation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botprofile#bot_enable_rate_limit Botprofile#bot_enable_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile#bot_enable_rate_limit Botprofile#bot_enable_rate_limit}
   */
   readonly botEnableRateLimit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botprofile#bot_enable_tps Botprofile#bot_enable_tps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile#bot_enable_tps Botprofile#bot_enable_tps}
   */
   readonly botEnableTps?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botprofile#bot_enable_white_list Botprofile#bot_enable_white_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile#bot_enable_white_list Botprofile#bot_enable_white_list}
   */
   readonly botEnableWhiteList?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botprofile#clientipexpression Botprofile#clientipexpression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile#clientipexpression Botprofile#clientipexpression}
   */
   readonly clientipexpression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botprofile#comment Botprofile#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile#comment Botprofile#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botprofile#devicefingerprint Botprofile#devicefingerprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile#devicefingerprint Botprofile#devicefingerprint}
   */
   readonly devicefingerprint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botprofile#devicefingerprintaction Botprofile#devicefingerprintaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile#devicefingerprintaction Botprofile#devicefingerprintaction}
   */
   readonly devicefingerprintaction?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botprofile#devicefingerprintmobile Botprofile#devicefingerprintmobile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile#devicefingerprintmobile Botprofile#devicefingerprintmobile}
   */
   readonly devicefingerprintmobile?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botprofile#errorurl Botprofile#errorurl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile#dfprequestlimit Botprofile#dfprequestlimit}
+  */
+  readonly dfprequestlimit?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile#errorurl Botprofile#errorurl}
   */
   readonly errorurl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botprofile#id Botprofile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile#headlessbrowserdetection Botprofile#headlessbrowserdetection}
+  */
+  readonly headlessbrowserdetection?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile#id Botprofile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botprofile#kmdetection Botprofile#kmdetection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile#kmdetection Botprofile#kmdetection}
   */
   readonly kmdetection?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botprofile#kmeventspostbodylimit Botprofile#kmeventspostbodylimit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile#kmeventspostbodylimit Botprofile#kmeventspostbodylimit}
   */
   readonly kmeventspostbodylimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botprofile#kmjavascriptname Botprofile#kmjavascriptname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile#kmjavascriptname Botprofile#kmjavascriptname}
   */
   readonly kmjavascriptname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botprofile#name Botprofile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile#name Botprofile#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botprofile#signature Botprofile#signature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile#sessioncookiename Botprofile#sessioncookiename}
+  */
+  readonly sessioncookiename?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile#sessiontimeout Botprofile#sessiontimeout}
+  */
+  readonly sessiontimeout?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile#signature Botprofile#signature}
   */
   readonly signature?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botprofile#signaturemultipleuseragentheaderaction Botprofile#signaturemultipleuseragentheaderaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile#signaturemultipleuseragentheaderaction Botprofile#signaturemultipleuseragentheaderaction}
   */
   readonly signaturemultipleuseragentheaderaction?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botprofile#signaturenouseragentheaderaction Botprofile#signaturenouseragentheaderaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile#signaturenouseragentheaderaction Botprofile#signaturenouseragentheaderaction}
   */
   readonly signaturenouseragentheaderaction?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botprofile#trap Botprofile#trap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile#spoofedreqaction Botprofile#spoofedreqaction}
+  */
+  readonly spoofedreqaction?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile#trap Botprofile#trap}
   */
   readonly trap?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botprofile#trapaction Botprofile#trapaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile#trapaction Botprofile#trapaction}
   */
   readonly trapaction?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botprofile#trapurl Botprofile#trapurl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile#trapurl Botprofile#trapurl}
   */
   readonly trapurl?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile#verboseloglevel Botprofile#verboseloglevel}
+  */
+  readonly verboseloglevel?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botprofile citrixadc_botprofile}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile citrixadc_botprofile}
 */
 export class Botprofile extends cdktf.TerraformResource {
 
@@ -117,7 +145,7 @@ export class Botprofile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Botprofile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Botprofile to import
-  * @param importFromId The id of the existing Botprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botprofile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Botprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Botprofile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -129,7 +157,7 @@ export class Botprofile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botprofile citrixadc_botprofile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile citrixadc_botprofile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -140,7 +168,8 @@ export class Botprofile extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_botprofile',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -150,6 +179,7 @@ export class Botprofile extends cdktf.TerraformResource {
       connection: config.connection,
       forEach: config.forEach
     });
+    this._addcookieflags = config.addcookieflags;
     this._botEnableBlackList = config.botEnableBlackList;
     this._botEnableIpReputation = config.botEnableIpReputation;
     this._botEnableRateLimit = config.botEnableRateLimit;
@@ -160,23 +190,45 @@ export class Botprofile extends cdktf.TerraformResource {
     this._devicefingerprint = config.devicefingerprint;
     this._devicefingerprintaction = config.devicefingerprintaction;
     this._devicefingerprintmobile = config.devicefingerprintmobile;
+    this._dfprequestlimit = config.dfprequestlimit;
     this._errorurl = config.errorurl;
+    this._headlessbrowserdetection = config.headlessbrowserdetection;
     this._id = config.id;
     this._kmdetection = config.kmdetection;
     this._kmeventspostbodylimit = config.kmeventspostbodylimit;
     this._kmjavascriptname = config.kmjavascriptname;
     this._name = config.name;
+    this._sessioncookiename = config.sessioncookiename;
+    this._sessiontimeout = config.sessiontimeout;
     this._signature = config.signature;
     this._signaturemultipleuseragentheaderaction = config.signaturemultipleuseragentheaderaction;
     this._signaturenouseragentheaderaction = config.signaturenouseragentheaderaction;
+    this._spoofedreqaction = config.spoofedreqaction;
     this._trap = config.trap;
     this._trapaction = config.trapaction;
     this._trapurl = config.trapurl;
+    this._verboseloglevel = config.verboseloglevel;
   }
 
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // addcookieflags - computed: true, optional: true, required: false
+  private _addcookieflags?: string; 
+  public get addcookieflags() {
+    return this.getStringAttribute('addcookieflags');
+  }
+  public set addcookieflags(value: string) {
+    this._addcookieflags = value;
+  }
+  public resetAddcookieflags() {
+    this._addcookieflags = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get addcookieflagsInput() {
+    return this._addcookieflags;
+  }
 
   // bot_enable_black_list - computed: true, optional: true, required: false
   private _botEnableBlackList?: string; 
@@ -338,6 +390,22 @@ export class Botprofile extends cdktf.TerraformResource {
     return this._devicefingerprintmobile;
   }
 
+  // dfprequestlimit - computed: true, optional: true, required: false
+  private _dfprequestlimit?: number; 
+  public get dfprequestlimit() {
+    return this.getNumberAttribute('dfprequestlimit');
+  }
+  public set dfprequestlimit(value: number) {
+    this._dfprequestlimit = value;
+  }
+  public resetDfprequestlimit() {
+    this._dfprequestlimit = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dfprequestlimitInput() {
+    return this._dfprequestlimit;
+  }
+
   // errorurl - computed: true, optional: true, required: false
   private _errorurl?: string; 
   public get errorurl() {
@@ -352,6 +420,22 @@ export class Botprofile extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get errorurlInput() {
     return this._errorurl;
+  }
+
+  // headlessbrowserdetection - computed: true, optional: true, required: false
+  private _headlessbrowserdetection?: string; 
+  public get headlessbrowserdetection() {
+    return this.getStringAttribute('headlessbrowserdetection');
+  }
+  public set headlessbrowserdetection(value: string) {
+    this._headlessbrowserdetection = value;
+  }
+  public resetHeadlessbrowserdetection() {
+    this._headlessbrowserdetection = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get headlessbrowserdetectionInput() {
+    return this._headlessbrowserdetection;
   }
 
   // id - computed: true, optional: true, required: false
@@ -431,6 +515,38 @@ export class Botprofile extends cdktf.TerraformResource {
     return this._name;
   }
 
+  // sessioncookiename - computed: true, optional: true, required: false
+  private _sessioncookiename?: string; 
+  public get sessioncookiename() {
+    return this.getStringAttribute('sessioncookiename');
+  }
+  public set sessioncookiename(value: string) {
+    this._sessioncookiename = value;
+  }
+  public resetSessioncookiename() {
+    this._sessioncookiename = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sessioncookienameInput() {
+    return this._sessioncookiename;
+  }
+
+  // sessiontimeout - computed: true, optional: true, required: false
+  private _sessiontimeout?: number; 
+  public get sessiontimeout() {
+    return this.getNumberAttribute('sessiontimeout');
+  }
+  public set sessiontimeout(value: number) {
+    this._sessiontimeout = value;
+  }
+  public resetSessiontimeout() {
+    this._sessiontimeout = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sessiontimeoutInput() {
+    return this._sessiontimeout;
+  }
+
   // signature - computed: true, optional: true, required: false
   private _signature?: string; 
   public get signature() {
@@ -477,6 +593,22 @@ export class Botprofile extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get signaturenouseragentheaderactionInput() {
     return this._signaturenouseragentheaderaction;
+  }
+
+  // spoofedreqaction - computed: true, optional: true, required: false
+  private _spoofedreqaction?: string[]; 
+  public get spoofedreqaction() {
+    return this.getListAttribute('spoofedreqaction');
+  }
+  public set spoofedreqaction(value: string[]) {
+    this._spoofedreqaction = value;
+  }
+  public resetSpoofedreqaction() {
+    this._spoofedreqaction = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get spoofedreqactionInput() {
+    return this._spoofedreqaction;
   }
 
   // trap - computed: true, optional: true, required: false
@@ -527,12 +659,29 @@ export class Botprofile extends cdktf.TerraformResource {
     return this._trapurl;
   }
 
+  // verboseloglevel - computed: true, optional: true, required: false
+  private _verboseloglevel?: string; 
+  public get verboseloglevel() {
+    return this.getStringAttribute('verboseloglevel');
+  }
+  public set verboseloglevel(value: string) {
+    this._verboseloglevel = value;
+  }
+  public resetVerboseloglevel() {
+    this._verboseloglevel = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get verboseloglevelInput() {
+    return this._verboseloglevel;
+  }
+
   // =========
   // SYNTHESIS
   // =========
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      addcookieflags: cdktf.stringToTerraform(this._addcookieflags),
       bot_enable_black_list: cdktf.stringToTerraform(this._botEnableBlackList),
       bot_enable_ip_reputation: cdktf.stringToTerraform(this._botEnableIpReputation),
       bot_enable_rate_limit: cdktf.stringToTerraform(this._botEnableRateLimit),
@@ -543,23 +692,35 @@ export class Botprofile extends cdktf.TerraformResource {
       devicefingerprint: cdktf.stringToTerraform(this._devicefingerprint),
       devicefingerprintaction: cdktf.listMapper(cdktf.stringToTerraform, false)(this._devicefingerprintaction),
       devicefingerprintmobile: cdktf.listMapper(cdktf.stringToTerraform, false)(this._devicefingerprintmobile),
+      dfprequestlimit: cdktf.numberToTerraform(this._dfprequestlimit),
       errorurl: cdktf.stringToTerraform(this._errorurl),
+      headlessbrowserdetection: cdktf.stringToTerraform(this._headlessbrowserdetection),
       id: cdktf.stringToTerraform(this._id),
       kmdetection: cdktf.stringToTerraform(this._kmdetection),
       kmeventspostbodylimit: cdktf.numberToTerraform(this._kmeventspostbodylimit),
       kmjavascriptname: cdktf.stringToTerraform(this._kmjavascriptname),
       name: cdktf.stringToTerraform(this._name),
+      sessioncookiename: cdktf.stringToTerraform(this._sessioncookiename),
+      sessiontimeout: cdktf.numberToTerraform(this._sessiontimeout),
       signature: cdktf.stringToTerraform(this._signature),
       signaturemultipleuseragentheaderaction: cdktf.listMapper(cdktf.stringToTerraform, false)(this._signaturemultipleuseragentheaderaction),
       signaturenouseragentheaderaction: cdktf.listMapper(cdktf.stringToTerraform, false)(this._signaturenouseragentheaderaction),
+      spoofedreqaction: cdktf.listMapper(cdktf.stringToTerraform, false)(this._spoofedreqaction),
       trap: cdktf.stringToTerraform(this._trap),
       trapaction: cdktf.listMapper(cdktf.stringToTerraform, false)(this._trapaction),
       trapurl: cdktf.stringToTerraform(this._trapurl),
+      verboseloglevel: cdktf.stringToTerraform(this._verboseloglevel),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
+      addcookieflags: {
+        value: cdktf.stringToHclTerraform(this._addcookieflags),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       bot_enable_black_list: {
         value: cdktf.stringToHclTerraform(this._botEnableBlackList),
         isBlock: false,
@@ -620,8 +781,20 @@ export class Botprofile extends cdktf.TerraformResource {
         type: "list",
         storageClassType: "stringList",
       },
+      dfprequestlimit: {
+        value: cdktf.numberToHclTerraform(this._dfprequestlimit),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
       errorurl: {
         value: cdktf.stringToHclTerraform(this._errorurl),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      headlessbrowserdetection: {
+        value: cdktf.stringToHclTerraform(this._headlessbrowserdetection),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
@@ -656,6 +829,18 @@ export class Botprofile extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      sessioncookiename: {
+        value: cdktf.stringToHclTerraform(this._sessioncookiename),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      sessiontimeout: {
+        value: cdktf.numberToHclTerraform(this._sessiontimeout),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
       signature: {
         value: cdktf.stringToHclTerraform(this._signature),
         isBlock: false,
@@ -674,6 +859,12 @@ export class Botprofile extends cdktf.TerraformResource {
         type: "list",
         storageClassType: "stringList",
       },
+      spoofedreqaction: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._spoofedreqaction),
+        isBlock: false,
+        type: "list",
+        storageClassType: "stringList",
+      },
       trap: {
         value: cdktf.stringToHclTerraform(this._trap),
         isBlock: false,
@@ -688,6 +879,12 @@ export class Botprofile extends cdktf.TerraformResource {
       },
       trapurl: {
         value: cdktf.stringToHclTerraform(this._trapurl),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      verboseloglevel: {
+        value: cdktf.stringToHclTerraform(this._verboseloglevel),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

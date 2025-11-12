@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/content_permission
+// https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/content_permission
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,42 +8,42 @@ import * as cdktf from 'cdktf';
 
 export interface ContentPermissionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/content_permission#content_id ContentPermission#content_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/content_permission#content_id ContentPermission#content_id}
   */
   readonly contentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/content_permission#id ContentPermission#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/content_permission#id ContentPermission#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/content_permission#notification_message ContentPermission#notification_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/content_permission#notification_message ContentPermission#notification_message}
   */
   readonly notificationMessage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/content_permission#notify_recipient ContentPermission#notify_recipient}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/content_permission#notify_recipient ContentPermission#notify_recipient}
   */
   readonly notifyRecipient: boolean | cdktf.IResolvable;
   /**
   * permission block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/content_permission#permission ContentPermission#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/content_permission#permission ContentPermission#permission}
   */
   readonly permission: ContentPermissionPermission[] | cdktf.IResolvable;
 }
 export interface ContentPermissionPermission {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/content_permission#permission_name ContentPermission#permission_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/content_permission#permission_name ContentPermission#permission_name}
   */
   readonly permissionName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/content_permission#source_id ContentPermission#source_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/content_permission#source_id ContentPermission#source_id}
   */
   readonly sourceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/content_permission#source_type ContentPermission#source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/content_permission#source_type ContentPermission#source_type}
   */
   readonly sourceType: string;
 }
@@ -208,7 +208,7 @@ export class ContentPermissionPermissionList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/content_permission sumologic_content_permission}
+* Represents a {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/content_permission sumologic_content_permission}
 */
 export class ContentPermission extends cdktf.TerraformResource {
 
@@ -224,7 +224,7 @@ export class ContentPermission extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ContentPermission resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ContentPermission to import
-  * @param importFromId The id of the existing ContentPermission that should be imported. Refer to the {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/content_permission#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ContentPermission that should be imported. Refer to the {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/content_permission#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ContentPermission to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -236,7 +236,7 @@ export class ContentPermission extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/content_permission sumologic_content_permission} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/content_permission sumologic_content_permission} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -247,7 +247,8 @@ export class ContentPermission extends cdktf.TerraformResource {
       terraformResourceType: 'sumologic_content_permission',
       terraformGeneratorMetadata: {
         providerName: 'sumologic',
-        providerVersion: '3.1.7'
+        providerVersion: '3.1.8',
+        providerVersionConstraint: '3.1.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

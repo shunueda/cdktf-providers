@@ -76,7 +76,8 @@ export class SslCertificate extends cdktf.TerraformResource {
       terraformResourceType: 'gocache_ssl_certificate',
       terraformGeneratorMetadata: {
         providerName: 'gocache',
-        providerVersion: '0.3.2'
+        providerVersion: '0.3.2',
+        providerVersionConstraint: '0.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

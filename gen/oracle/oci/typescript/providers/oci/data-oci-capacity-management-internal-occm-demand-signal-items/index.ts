@@ -503,7 +503,8 @@ export class DataOciCapacityManagementInternalOccmDemandSignalItems extends cdkt
       terraformResourceType: 'oci_capacity_management_internal_occm_demand_signal_items',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

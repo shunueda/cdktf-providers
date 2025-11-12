@@ -121,7 +121,8 @@ export class ServiceAccount extends cdktf.TerraformResource {
       terraformResourceType: 'citrix_service_account',
       terraformGeneratorMetadata: {
         providerName: 'citrix',
-        providerVersion: '1.0.30'
+        providerVersion: '1.0.30',
+        providerVersionConstraint: '1.0.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

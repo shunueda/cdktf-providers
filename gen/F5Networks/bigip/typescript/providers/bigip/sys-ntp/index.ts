@@ -74,7 +74,8 @@ export class SysNtp extends cdktf.TerraformResource {
       terraformResourceType: 'bigip_sys_ntp',
       terraformGeneratorMetadata: {
         providerName: 'bigip',
-        providerVersion: '1.24.1'
+        providerVersion: '1.24.1',
+        providerVersionConstraint: '1.24.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

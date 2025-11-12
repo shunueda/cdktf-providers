@@ -68,7 +68,8 @@ export class MariadbEncryptAttributes extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_mariadb_encrypt_attributes',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -64,7 +64,8 @@ export class DataOciMediaServicesMediaWorkflowJobFact extends cdktf.TerraformDat
       terraformResourceType: 'oci_media_services_media_workflow_job_fact',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -72,7 +72,8 @@ export class DataAlicloudCrEndpointAclService extends cdktf.TerraformDataSource 
       terraformResourceType: 'alicloud_cr_endpoint_acl_service',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

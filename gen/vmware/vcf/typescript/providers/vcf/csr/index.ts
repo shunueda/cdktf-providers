@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/csr
+// https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/csr
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface CsrConfig extends cdktf.TerraformMetaArguments {
   /**
   * ISO 3166 country code where company is legally registered
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/csr#country Csr#country}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/csr#country Csr#country}
   */
   readonly country: string;
   /**
   * Domain Id or Name for which the CSRs should be generated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/csr#domain_id Csr#domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/csr#domain_id Csr#domain_id}
   */
   readonly domainId: string;
   /**
   * Contact email address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/csr#email Csr#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/csr#email Csr#email}
   */
   readonly email: string;
   /**
   * FQDN of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/csr#fqdn Csr#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/csr#fqdn Csr#fqdn}
   */
   readonly fqdn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/csr#id Csr#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/csr#id Csr#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,43 +41,43 @@ export interface CsrConfig extends cdktf.TerraformMetaArguments {
   /**
   * Certificate public key size. One among: 2048, 3072, 4096
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/csr#key_size Csr#key_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/csr#key_size Csr#key_size}
   */
   readonly keySize: number;
   /**
   * The city or locality where company is legally registered
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/csr#locality Csr#locality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/csr#locality Csr#locality}
   */
   readonly locality: string;
   /**
   * The name under which your company is known. The listed organization must be the legal registrant of the domain name in the certificate request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/csr#organization Csr#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/csr#organization Csr#organization}
   */
   readonly organization: string;
   /**
   * Organization with which the certificate is associated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/csr#organization_unit Csr#organization_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/csr#organization_unit Csr#organization_unit}
   */
   readonly organizationUnit: string;
   /**
   * Resources for which the CSRs are to be generated. One among: SDDC_MANAGER, PSC, VCENTER, NSX_MANAGER, NSXT_MANAGER, VROPS, VRSLCM, VXRAIL_MANAGER
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/csr#resource Csr#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/csr#resource Csr#resource}
   */
   readonly resource: string;
   /**
   * Full name (do not abbreviate) of the state, province, region, or territory where your company is legally registered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/csr#state Csr#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/csr#state Csr#state}
   */
   readonly state: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/csr#timeouts Csr#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/csr#timeouts Csr#timeouts}
   */
   readonly timeouts?: CsrTimeouts;
 }
@@ -259,19 +259,19 @@ export class CsrCsrList extends cdktf.ComplexList {
 }
 export interface CsrTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/csr#create Csr#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/csr#create Csr#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/csr#delete Csr#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/csr#delete Csr#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/csr#read Csr#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/csr#read Csr#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/csr#update Csr#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/csr#update Csr#update}
   */
   readonly update?: string;
 }
@@ -452,7 +452,7 @@ export class CsrTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/csr vcf_csr}
+* Represents a {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/csr vcf_csr}
 */
 export class Csr extends cdktf.TerraformResource {
 
@@ -468,7 +468,7 @@ export class Csr extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Csr resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Csr to import
-  * @param importFromId The id of the existing Csr that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/csr#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Csr that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/csr#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Csr to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -480,7 +480,7 @@ export class Csr extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/csr vcf_csr} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/csr vcf_csr} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -491,7 +491,8 @@ export class Csr extends cdktf.TerraformResource {
       terraformResourceType: 'vcf_csr',
       terraformGeneratorMetadata: {
         providerName: 'vcf',
-        providerVersion: '0.17.1'
+        providerVersion: '0.16.2',
+        providerVersionConstraint: '0.16.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

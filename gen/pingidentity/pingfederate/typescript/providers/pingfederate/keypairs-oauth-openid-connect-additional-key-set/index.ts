@@ -2087,7 +2087,8 @@ export class KeypairsOauthOpenidConnectAdditionalKeySet extends cdktf.TerraformR
       terraformResourceType: 'pingfederate_keypairs_oauth_openid_connect_additional_key_set',
       terraformGeneratorMetadata: {
         providerName: 'pingfederate',
-        providerVersion: '1.6.2'
+        providerVersion: '1.6.2',
+        providerVersionConstraint: '1.6.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

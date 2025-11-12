@@ -73,7 +73,8 @@ export class AccessKey extends cdktf.TerraformResource {
       terraformResourceType: 'infra_access_key',
       terraformGeneratorMetadata: {
         providerName: 'infra',
-        providerVersion: '0.3.0'
+        providerVersion: '0.3.0',
+        providerVersionConstraint: '0.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

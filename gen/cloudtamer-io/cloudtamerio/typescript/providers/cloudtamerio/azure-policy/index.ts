@@ -310,7 +310,8 @@ export class AzurePolicy extends cdktf.TerraformResource {
       terraformResourceType: 'cloudtamerio_azure_policy',
       terraformGeneratorMetadata: {
         providerName: 'cloudtamerio',
-        providerVersion: '0.2.0'
+        providerVersion: '0.2.0',
+        providerVersionConstraint: '0.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

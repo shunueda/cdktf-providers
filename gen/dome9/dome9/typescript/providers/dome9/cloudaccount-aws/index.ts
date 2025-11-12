@@ -707,7 +707,8 @@ export class CloudaccountAws extends cdktf.TerraformResource {
       terraformResourceType: 'dome9_cloudaccount_aws',
       terraformGeneratorMetadata: {
         providerName: 'dome9',
-        providerVersion: '1.40.4'
+        providerVersion: '1.40.4',
+        providerVersionConstraint: '1.40.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

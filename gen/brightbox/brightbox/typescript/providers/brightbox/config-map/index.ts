@@ -201,7 +201,8 @@ export class ConfigMap extends cdktf.TerraformResource {
       terraformResourceType: 'brightbox_config_map',
       terraformGeneratorMetadata: {
         providerName: 'brightbox',
-        providerVersion: '3.4.3'
+        providerVersion: '3.4.3',
+        providerVersionConstraint: '3.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

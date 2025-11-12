@@ -951,7 +951,8 @@ export class DataK8SAppprotectF5ComApLogConfV1Beta1Manifest extends cdktf.Terraf
       terraformResourceType: 'k8s_appprotect_f5_com_ap_log_conf_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

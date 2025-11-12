@@ -153,7 +153,8 @@ export class DataTencentcloudLighthouseInstanceDiskNum extends cdktf.TerraformDa
       terraformResourceType: 'tencentcloud_lighthouse_instance_disk_num',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

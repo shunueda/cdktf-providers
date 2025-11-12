@@ -482,7 +482,8 @@ export class DataOciIotDigitalTwinInstances extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_iot_digital_twin_instances',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

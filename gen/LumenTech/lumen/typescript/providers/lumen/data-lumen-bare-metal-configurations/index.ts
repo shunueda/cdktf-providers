@@ -187,7 +187,8 @@ export class DataLumenBareMetalConfigurations extends cdktf.TerraformDataSource 
       terraformResourceType: 'lumen_bare_metal_configurations',
       terraformGeneratorMetadata: {
         providerName: 'lumen',
-        providerVersion: '3.0.0'
+        providerVersion: '3.0.0',
+        providerVersionConstraint: '3.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

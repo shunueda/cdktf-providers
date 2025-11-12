@@ -1471,7 +1471,8 @@ export class FgsTrigger extends cdktf.TerraformResource {
       terraformResourceType: 'flexibleengine_fgs_trigger',
       terraformGeneratorMetadata: {
         providerName: 'flexibleengine',
-        providerVersion: '1.46.0'
+        providerVersion: '1.46.0',
+        providerVersionConstraint: '1.46.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

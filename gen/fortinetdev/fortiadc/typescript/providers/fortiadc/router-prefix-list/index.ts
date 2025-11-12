@@ -68,7 +68,8 @@ export class RouterPrefixList extends cdktf.TerraformResource {
       terraformResourceType: 'fortiadc_router_prefix_list',
       terraformGeneratorMetadata: {
         providerName: 'fortiadc',
-        providerVersion: '1.3.1'
+        providerVersion: '1.3.1',
+        providerVersionConstraint: '1.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

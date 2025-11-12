@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mercari/spinnaker/0.3.0/docs/resources/application
+// https://registry.terraform.io/providers/mercari/spinnaker/0.0.1/docs/resources/application
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface ApplicationConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the Application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.3.0/docs/resources/application#application Application#application}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.0.1/docs/resources/application#application Application#application}
   */
   readonly application?: string;
   /**
   * Cloud providers that is used by the application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.3.0/docs/resources/application#cloud_providers Application#cloud_providers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.0.1/docs/resources/application#cloud_providers Application#cloud_providers}
   */
   readonly cloudProviders?: string[];
   /**
   * Email of the owner
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.3.0/docs/resources/application#email Application#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.0.1/docs/resources/application#email Application#email}
   */
   readonly email: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.3.0/docs/resources/application#id Application#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.0.1/docs/resources/application#id Application#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,19 +35,19 @@ export interface ApplicationConfig extends cdktf.TerraformMetaArguments {
   /**
   * Default port of the Spinnaker generated links
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.3.0/docs/resources/application#instance_port Application#instance_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.0.1/docs/resources/application#instance_port Application#instance_port}
   */
   readonly instancePort?: number;
   /**
   * Name of the Application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.3.0/docs/resources/application#name Application#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.0.1/docs/resources/application#name Application#name}
   */
   readonly name?: string;
   /**
   * permission block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.3.0/docs/resources/application#permission Application#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.0.1/docs/resources/application#permission Application#permission}
   */
   readonly permission?: ApplicationPermission[] | cdktf.IResolvable;
 }
@@ -55,13 +55,13 @@ export interface ApplicationPermission {
   /**
   * List of access
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.3.0/docs/resources/application#accesses Application#accesses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.0.1/docs/resources/application#accesses Application#accesses}
   */
   readonly accesses: string[];
   /**
   * User ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.3.0/docs/resources/application#user Application#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.0.1/docs/resources/application#user Application#user}
   */
   readonly user: string;
 }
@@ -200,7 +200,7 @@ export class ApplicationPermissionList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mercari/spinnaker/0.3.0/docs/resources/application spinnaker_application}
+* Represents a {@link https://registry.terraform.io/providers/mercari/spinnaker/0.0.1/docs/resources/application spinnaker_application}
 */
 export class Application extends cdktf.TerraformResource {
 
@@ -216,7 +216,7 @@ export class Application extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Application resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Application to import
-  * @param importFromId The id of the existing Application that should be imported. Refer to the {@link https://registry.terraform.io/providers/mercari/spinnaker/0.3.0/docs/resources/application#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Application that should be imported. Refer to the {@link https://registry.terraform.io/providers/mercari/spinnaker/0.0.1/docs/resources/application#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Application to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -228,7 +228,7 @@ export class Application extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mercari/spinnaker/0.3.0/docs/resources/application spinnaker_application} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mercari/spinnaker/0.0.1/docs/resources/application spinnaker_application} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -239,7 +239,8 @@ export class Application extends cdktf.TerraformResource {
       terraformResourceType: 'spinnaker_application',
       terraformGeneratorMetadata: {
         providerName: 'spinnaker',
-        providerVersion: '0.3.0'
+        providerVersion: '0.0.1',
+        providerVersionConstraint: '0.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

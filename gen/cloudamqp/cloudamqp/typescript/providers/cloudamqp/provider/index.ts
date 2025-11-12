@@ -73,7 +73,8 @@ export class CloudamqpProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'cloudamqp',
       terraformGeneratorMetadata: {
         providerName: 'cloudamqp',
-        providerVersion: '1.38.1'
+        providerVersion: '1.38.1',
+        providerVersionConstraint: '1.38.1'
       },
       terraformProviderSource: 'cloudamqp/cloudamqp'
     });

@@ -167,7 +167,8 @@ export class DataFastlyNgwafWorkspaceLists extends cdktf.TerraformDataSource {
       terraformResourceType: 'fastly_ngwaf_workspace_lists',
       terraformGeneratorMetadata: {
         providerName: 'fastly',
-        providerVersion: '8.4.0'
+        providerVersion: '8.4.0',
+        providerVersionConstraint: '8.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

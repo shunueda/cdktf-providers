@@ -138,7 +138,8 @@ export class DataSdwanAppProbeClassPolicyObject extends cdktf.TerraformDataSourc
       terraformResourceType: 'sdwan_app_probe_class_policy_object',
       terraformGeneratorMetadata: {
         providerName: 'sdwan',
-        providerVersion: '0.8.1'
+        providerVersion: '0.8.1',
+        providerVersionConstraint: '0.8.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

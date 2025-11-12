@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_login
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_login
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface ManagementLoginConfig extends cdktf.TerraformMetaArguments {
   /**
   * When 'continue-last-session' is set to 'True', the new session would continue where the last session was stopped. This option is available when the administrator has only one session that can be continued. If there is more than one session, see 'switch-session' API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_login#continue_last_session ManagementLogin#continue_last_session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_login#continue_last_session ManagementLogin#continue_last_session}
   */
   readonly continueLastSession?: boolean | cdktf.IResolvable;
   /**
   * Use domain to login to specific domain. Domain can be identified by name or UID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_login#domain ManagementLogin#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_login#domain ManagementLogin#domain}
   */
   readonly domain?: string;
   /**
   * commonLoginLogic to the last published session. Such login is done with the Read Only permissions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_login#enter_last_published_session ManagementLogin#enter_last_published_session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_login#enter_last_published_session ManagementLogin#enter_last_published_session}
   */
   readonly enterLastPublishedSession?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_login#id ManagementLogin#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_login#id ManagementLogin#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,49 +35,49 @@ export interface ManagementLoginConfig extends cdktf.TerraformMetaArguments {
   /**
   * Administrator password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_login#password ManagementLogin#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_login#password ManagementLogin#password}
   */
   readonly password: string;
   /**
   * commonLoginLogic with Read Only permissions. This parameter is not considered in case continue-last-session is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_login#read_only ManagementLogin#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_login#read_only ManagementLogin#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * Session comments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_login#session_comments ManagementLogin#session_comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_login#session_comments ManagementLogin#session_comments}
   */
   readonly sessionComments?: string;
   /**
   * Session description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_login#session_description ManagementLogin#session_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_login#session_description ManagementLogin#session_description}
   */
   readonly sessionDescription?: string;
   /**
   * Session unique name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_login#session_name ManagementLogin#session_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_login#session_name ManagementLogin#session_name}
   */
   readonly sessionName?: string;
   /**
   * Session expiration timeout in seconds. Default 600 seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_login#session_timeout ManagementLogin#session_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_login#session_timeout ManagementLogin#session_timeout}
   */
   readonly sessionTimeout?: number;
   /**
   * Administrator user name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_login#user ManagementLogin#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_login#user ManagementLogin#user}
   */
   readonly user: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_login checkpoint_management_login}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_login checkpoint_management_login}
 */
 export class ManagementLogin extends cdktf.TerraformResource {
 
@@ -93,7 +93,7 @@ export class ManagementLogin extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementLogin resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementLogin to import
-  * @param importFromId The id of the existing ManagementLogin that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_login#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementLogin that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_login#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementLogin to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -105,7 +105,7 @@ export class ManagementLogin extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_login checkpoint_management_login} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_login checkpoint_management_login} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -116,7 +116,8 @@ export class ManagementLogin extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_login',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

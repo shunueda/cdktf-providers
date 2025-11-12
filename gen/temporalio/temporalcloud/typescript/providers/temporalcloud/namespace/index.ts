@@ -786,7 +786,8 @@ export class Namespace extends cdktf.TerraformResource {
       terraformResourceType: 'temporalcloud_namespace',
       terraformGeneratorMetadata: {
         providerName: 'temporalcloud',
-        providerVersion: '1.1.1'
+        providerVersion: '1.1.1',
+        providerVersionConstraint: '1.1.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -71,7 +71,8 @@ export class Auth0Provider extends cdktf.TerraformProvider {
       terraformResourceType: 'auth0',
       terraformGeneratorMetadata: {
         providerName: 'auth0',
-        providerVersion: '1.1.3'
+        providerVersion: '1.1.3',
+        providerVersionConstraint: '1.1.3'
       },
       terraformProviderSource: 'alekc/auth0'
     });

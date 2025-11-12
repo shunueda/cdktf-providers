@@ -57,7 +57,8 @@ export class DataOciBdsBdsInstanceMetastoreConfig extends cdktf.TerraformDataSou
       terraformResourceType: 'oci_bds_bds_instance_metastore_config',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

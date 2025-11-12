@@ -180,7 +180,8 @@ export class DataTencentcloudDbbrainRedisTopKeyPrefixList extends cdktf.Terrafor
       terraformResourceType: 'tencentcloud_dbbrain_redis_top_key_prefix_list',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

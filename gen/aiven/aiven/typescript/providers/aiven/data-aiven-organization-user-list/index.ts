@@ -285,7 +285,8 @@ export class DataAivenOrganizationUserList extends cdktf.TerraformDataSource {
       terraformResourceType: 'aiven_organization_user_list',
       terraformGeneratorMetadata: {
         providerName: 'aiven',
-        providerVersion: '4.46.1'
+        providerVersion: '4.46.1',
+        providerVersionConstraint: '4.46.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

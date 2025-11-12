@@ -64,7 +64,8 @@ export class DataFortiadcRouterOspfChildHaRouterIdListlist extends cdktf.Terrafo
       terraformResourceType: 'fortiadc_router_ospf_child_ha_router_id_listlist',
       terraformGeneratorMetadata: {
         providerName: 'fortiadc',
-        providerVersion: '1.3.1'
+        providerVersion: '1.3.1',
+        providerVersionConstraint: '1.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

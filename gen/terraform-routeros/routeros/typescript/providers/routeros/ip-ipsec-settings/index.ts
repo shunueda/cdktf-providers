@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ip_ipsec_settings
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_ipsec_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface IpIpsecSettingsConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ip_ipsec_settings#___path___ IpIpsecSettings#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_ipsec_settings#___path___ IpIpsecSettings#___path___}
   */
   readonly path?: string;
   /**
   * Whether to send RADIUS accounting requests to a RADIUS server. Applicable if EAP Radius (`auth-method=eap-radius`) or pre-shared key with XAuth authentication method (`auth-method=pre-shared-key-xauth`) is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ip_ipsec_settings#accounting IpIpsecSettings#accounting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_ipsec_settings#accounting IpIpsecSettings#accounting}
   */
   readonly accounting?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ip_ipsec_settings#id IpIpsecSettings#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_ipsec_settings#id IpIpsecSettings#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface IpIpsecSettingsConfig extends cdktf.TerraformMetaArguments {
   /**
   * The interval between each consecutive RADIUS accounting Interim update. Accounting must be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ip_ipsec_settings#interim_update IpIpsecSettings#interim_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_ipsec_settings#interim_update IpIpsecSettings#interim_update}
   */
   readonly interimUpdate?: string;
   /**
   * Whether to use Radius client for XAuth users or not. Property is only applicable to peers using the IKEv1 exchange mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ip_ipsec_settings#xauth_use_radius IpIpsecSettings#xauth_use_radius}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_ipsec_settings#xauth_use_radius IpIpsecSettings#xauth_use_radius}
   */
   readonly xauthUseRadius?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ip_ipsec_settings routeros_ip_ipsec_settings}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_ipsec_settings routeros_ip_ipsec_settings}
 */
 export class IpIpsecSettings extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class IpIpsecSettings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IpIpsecSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IpIpsecSettings to import
-  * @param importFromId The id of the existing IpIpsecSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ip_ipsec_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IpIpsecSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_ipsec_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IpIpsecSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class IpIpsecSettings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ip_ipsec_settings routeros_ip_ipsec_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_ipsec_settings routeros_ip_ipsec_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,7 +80,8 @@ export class IpIpsecSettings extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_ip_ipsec_settings',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.90.0'
+        providerVersion: '1.91.0',
+        providerVersionConstraint: '1.91.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -607,7 +607,8 @@ export class DataK8SSecurityProfilesOperatorXK8SIoSelinuxProfileV1Alpha2Manifest
       terraformResourceType: 'k8s_security_profiles_operator_x_k8s_io_selinux_profile_v1alpha2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

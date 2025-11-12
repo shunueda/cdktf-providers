@@ -49,7 +49,8 @@ export class DataSpicedbSchema extends cdktf.TerraformDataSource {
       terraformResourceType: 'spicedb_schema',
       terraformGeneratorMetadata: {
         providerName: 'spicedb',
-        providerVersion: '0.1.0'
+        providerVersion: '0.1.0',
+        providerVersionConstraint: '0.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

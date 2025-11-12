@@ -440,7 +440,8 @@ export class IntegrationIdpSamlDraft extends cdktf.TerraformResource {
       terraformResourceType: 'cyral_integration_idp_saml_draft',
       terraformGeneratorMetadata: {
         providerName: 'cyral',
-        providerVersion: '4.16.3'
+        providerVersion: '4.16.3',
+        providerVersionConstraint: '4.16.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

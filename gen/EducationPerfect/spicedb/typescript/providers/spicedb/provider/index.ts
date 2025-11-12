@@ -73,7 +73,8 @@ export class SpicedbProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'spicedb',
       terraformGeneratorMetadata: {
         providerName: 'spicedb',
-        providerVersion: '0.1.0'
+        providerVersion: '0.1.0',
+        providerVersionConstraint: '0.1.0'
       },
       terraformProviderSource: 'EducationPerfect/spicedb'
     });

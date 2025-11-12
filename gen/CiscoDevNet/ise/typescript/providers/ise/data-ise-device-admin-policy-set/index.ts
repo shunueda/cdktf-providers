@@ -290,7 +290,8 @@ export class DataIseDeviceAdminPolicySet extends cdktf.TerraformDataSource {
       terraformResourceType: 'ise_device_admin_policy_set',
       terraformGeneratorMetadata: {
         providerName: 'ise',
-        providerVersion: '0.2.12'
+        providerVersion: '0.2.12',
+        providerVersionConstraint: '0.2.12'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

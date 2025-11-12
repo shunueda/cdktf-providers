@@ -8883,7 +8883,8 @@ export class AppscopeConfig extends cdktf.TerraformResource {
       terraformResourceType: 'criblio_appscope_config',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.18.21'
+        providerVersion: '1.18.21',
+        providerVersionConstraint: '1.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

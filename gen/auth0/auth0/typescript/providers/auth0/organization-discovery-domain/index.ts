@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/organization_discovery_domain
+// https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/organization_discovery_domain
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface OrganizationDiscoveryDomainConfig extends cdktf.TerraformMetaAr
   /**
   * The domain name for organization discovery.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/organization_discovery_domain#domain OrganizationDiscoveryDomain#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/organization_discovery_domain#domain OrganizationDiscoveryDomain#domain}
   */
   readonly domain: string;
   /**
   * The ID of the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/organization_discovery_domain#organization_id OrganizationDiscoveryDomain#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/organization_discovery_domain#organization_id OrganizationDiscoveryDomain#organization_id}
   */
   readonly organizationId: string;
   /**
   * Verification status. Must be either 'pending' or 'verified'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/organization_discovery_domain#status OrganizationDiscoveryDomain#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/organization_discovery_domain#status OrganizationDiscoveryDomain#status}
   */
   readonly status: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/organization_discovery_domain auth0_organization_discovery_domain}
+* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/organization_discovery_domain auth0_organization_discovery_domain}
 */
 export class OrganizationDiscoveryDomain extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class OrganizationDiscoveryDomain extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OrganizationDiscoveryDomain resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrganizationDiscoveryDomain to import
-  * @param importFromId The id of the existing OrganizationDiscoveryDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/organization_discovery_domain#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrganizationDiscoveryDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/organization_discovery_domain#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrganizationDiscoveryDomain to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class OrganizationDiscoveryDomain extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/organization_discovery_domain auth0_organization_discovery_domain} Resource
+  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/organization_discovery_domain auth0_organization_discovery_domain} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,7 +67,8 @@ export class OrganizationDiscoveryDomain extends cdktf.TerraformResource {
       terraformResourceType: 'auth0_organization_discovery_domain',
       terraformGeneratorMetadata: {
         providerName: 'auth0',
-        providerVersion: '1.33.0'
+        providerVersion: '1.34.0',
+        providerVersionConstraint: '1.34.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

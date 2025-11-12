@@ -64,7 +64,8 @@ export class DataGiteaRepo extends cdktf.TerraformDataSource {
       terraformResourceType: 'gitea_repo',
       terraformGeneratorMetadata: {
         providerName: 'gitea',
-        providerVersion: '0.7.0'
+        providerVersion: '0.7.0',
+        providerVersionConstraint: '0.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

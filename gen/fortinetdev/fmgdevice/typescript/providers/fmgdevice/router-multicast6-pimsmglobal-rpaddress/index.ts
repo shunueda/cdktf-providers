@@ -72,7 +72,8 @@ export class RouterMulticast6PimsmglobalRpaddress extends cdktf.TerraformResourc
       terraformResourceType: 'fmgdevice_router_multicast6_pimsmglobal_rpaddress',
       terraformGeneratorMetadata: {
         providerName: 'fmgdevice',
-        providerVersion: '1.2.1'
+        providerVersion: '1.2.1',
+        providerVersionConstraint: '1.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

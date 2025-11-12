@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/resources/load_balancer_network
+// https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/load_balancer_network
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,36 +8,39 @@ import * as cdktf from 'cdktf';
 
 export interface LoadBalancerNetworkConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/resources/load_balancer_network#enable_public_interface LoadBalancerNetwork#enable_public_interface}
+  * Wether the Load Balancer public interface is enabled. Default is `true`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/load_balancer_network#enable_public_interface LoadBalancerNetwork#enable_public_interface}
   */
   readonly enablePublicInterface?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/resources/load_balancer_network#id LoadBalancerNetwork#id}
+  * IP to assign to the Load Balancer.
   *
-  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
-  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
-  */
-  readonly id?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/resources/load_balancer_network#ip LoadBalancerNetwork#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/load_balancer_network#ip LoadBalancerNetwork#ip}
   */
   readonly ip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/resources/load_balancer_network#load_balancer_id LoadBalancerNetwork#load_balancer_id}
+  * ID of the Load Balancer.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/load_balancer_network#load_balancer_id LoadBalancerNetwork#load_balancer_id}
   */
   readonly loadBalancerId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/resources/load_balancer_network#network_id LoadBalancerNetwork#network_id}
+  * ID of the Network to attach the Load Balancer to. Using `subnet_id` is preferred. Required if `subnet_id` is not set. If `subnet_id` or `ip` are not set, the Load Balancer will be attached to the last subnet (ordered by `ip_range`).
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/load_balancer_network#network_id LoadBalancerNetwork#network_id}
   */
   readonly networkId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/resources/load_balancer_network#subnet_id LoadBalancerNetwork#subnet_id}
+  * ID of the Subnet to attach the Load Balancer to. Required if `network_id` is not set.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/load_balancer_network#subnet_id LoadBalancerNetwork#subnet_id}
   */
   readonly subnetId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/resources/load_balancer_network hcloud_load_balancer_network}
+* Represents a {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/load_balancer_network hcloud_load_balancer_network}
 */
 export class LoadBalancerNetwork extends cdktf.TerraformResource {
 
@@ -53,7 +56,7 @@ export class LoadBalancerNetwork extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LoadBalancerNetwork resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LoadBalancerNetwork to import
-  * @param importFromId The id of the existing LoadBalancerNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/resources/load_balancer_network#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LoadBalancerNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/load_balancer_network#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LoadBalancerNetwork to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -65,7 +68,7 @@ export class LoadBalancerNetwork extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/resources/load_balancer_network hcloud_load_balancer_network} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/load_balancer_network hcloud_load_balancer_network} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -76,7 +79,8 @@ export class LoadBalancerNetwork extends cdktf.TerraformResource {
       terraformResourceType: 'hcloud_load_balancer_network',
       terraformGeneratorMetadata: {
         providerName: 'hcloud',
-        providerVersion: '1.55.0'
+        providerVersion: '1.56.0',
+        providerVersionConstraint: '1.56.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -87,7 +91,6 @@ export class LoadBalancerNetwork extends cdktf.TerraformResource {
       forEach: config.forEach
     });
     this._enablePublicInterface = config.enablePublicInterface;
-    this._id = config.id;
     this._ip = config.ip;
     this._loadBalancerId = config.loadBalancerId;
     this._networkId = config.networkId;
@@ -98,7 +101,7 @@ export class LoadBalancerNetwork extends cdktf.TerraformResource {
   // ATTRIBUTES
   // ==========
 
-  // enable_public_interface - computed: false, optional: true, required: false
+  // enable_public_interface - computed: true, optional: true, required: false
   private _enablePublicInterface?: boolean | cdktf.IResolvable; 
   public get enablePublicInterface() {
     return this.getBooleanAttribute('enable_public_interface');
@@ -114,20 +117,9 @@ export class LoadBalancerNetwork extends cdktf.TerraformResource {
     return this._enablePublicInterface;
   }
 
-  // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  // id - computed: true, optional: false, required: false
   public get id() {
     return this.getStringAttribute('id');
-  }
-  public set id(value: string) {
-    this._id = value;
-  }
-  public resetId() {
-    this._id = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get idInput() {
-    return this._id;
   }
 
   // ip - computed: true, optional: true, required: false
@@ -159,7 +151,7 @@ export class LoadBalancerNetwork extends cdktf.TerraformResource {
     return this._loadBalancerId;
   }
 
-  // network_id - computed: false, optional: true, required: false
+  // network_id - computed: true, optional: true, required: false
   private _networkId?: number; 
   public get networkId() {
     return this.getNumberAttribute('network_id');
@@ -198,7 +190,6 @@ export class LoadBalancerNetwork extends cdktf.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       enable_public_interface: cdktf.booleanToTerraform(this._enablePublicInterface),
-      id: cdktf.stringToTerraform(this._id),
       ip: cdktf.stringToTerraform(this._ip),
       load_balancer_id: cdktf.numberToTerraform(this._loadBalancerId),
       network_id: cdktf.numberToTerraform(this._networkId),
@@ -213,12 +204,6 @@ export class LoadBalancerNetwork extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
-      },
-      id: {
-        value: cdktf.stringToHclTerraform(this._id),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
       },
       ip: {
         value: cdktf.stringToHclTerraform(this._ip),

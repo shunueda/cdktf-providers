@@ -637,7 +637,8 @@ export class DataPingoneUser extends cdktf.TerraformDataSource {
       terraformResourceType: 'pingone_user',
       terraformGeneratorMetadata: {
         providerName: 'pingone',
-        providerVersion: '1.14.0'
+        providerVersion: '1.14.0',
+        providerVersionConstraint: '1.14.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -2971,7 +2971,8 @@ export class DataK8SOperatorTigeraIoAuthenticationV1Manifest extends cdktf.Terra
       terraformResourceType: 'k8s_operator_tigera_io_authentication_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

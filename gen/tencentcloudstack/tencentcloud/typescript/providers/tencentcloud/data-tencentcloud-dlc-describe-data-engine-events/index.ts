@@ -159,7 +159,8 @@ export class DataTencentcloudDlcDescribeDataEngineEvents extends cdktf.Terraform
       terraformResourceType: 'tencentcloud_dlc_describe_data_engine_events',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

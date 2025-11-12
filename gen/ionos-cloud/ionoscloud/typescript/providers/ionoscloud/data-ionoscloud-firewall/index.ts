@@ -271,7 +271,8 @@ export class DataIonoscloudFirewall extends cdktf.TerraformDataSource {
       terraformResourceType: 'ionoscloud_firewall',
       terraformGeneratorMetadata: {
         providerName: 'ionoscloud',
-        providerVersion: '6.7.20'
+        providerVersion: '6.7.20',
+        providerVersionConstraint: '6.7.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -98,7 +98,8 @@ export class DataVmcCustomerSubnets extends cdktf.TerraformDataSource {
       terraformResourceType: 'vmc_customer_subnets',
       terraformGeneratorMetadata: {
         providerName: 'vmc',
-        providerVersion: '1.15.5'
+        providerVersion: '1.15.5',
+        providerVersionConstraint: '1.15.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

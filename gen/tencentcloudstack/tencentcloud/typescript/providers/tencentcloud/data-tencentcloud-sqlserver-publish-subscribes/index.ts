@@ -310,7 +310,8 @@ export class DataTencentcloudSqlserverPublishSubscribes extends cdktf.TerraformD
       terraformResourceType: 'tencentcloud_sqlserver_publish_subscribes',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

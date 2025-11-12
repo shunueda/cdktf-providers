@@ -1793,7 +1793,8 @@ export class DataOciDevopsDeployStage extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_devops_deploy_stage',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -91,7 +91,8 @@ export class SendMail extends cdktf.TerraformResource {
       terraformResourceType: 'smtp_send_mail',
       terraformGeneratorMetadata: {
         providerName: 'smtp',
-        providerVersion: '0.3.1'
+        providerVersion: '0.3.1',
+        providerVersionConstraint: '0.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

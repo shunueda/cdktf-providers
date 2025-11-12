@@ -262,7 +262,8 @@ export class ServiceInstance extends cdktf.TerraformResource {
       terraformResourceType: 'cloudfoundry_service_instance',
       terraformGeneratorMetadata: {
         providerName: 'cloudfoundry',
-        providerVersion: '0.53.1'
+        providerVersion: '0.53.1',
+        providerVersionConstraint: '0.53.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

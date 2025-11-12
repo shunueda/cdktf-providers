@@ -254,7 +254,8 @@ export class DataK8SLitmuschaosIoChaosResultV1Alpha1Manifest extends cdktf.Terra
       terraformResourceType: 'k8s_litmuschaos_io_chaos_result_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -249,7 +249,8 @@ export class Edgefunction extends cdktf.TerraformResource {
       terraformResourceType: 'limelight_edgefunction',
       terraformGeneratorMetadata: {
         providerName: 'limelight',
-        providerVersion: '1.0.3'
+        providerVersion: '1.0.3',
+        providerVersionConstraint: '1.0.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

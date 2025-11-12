@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/api
+// https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/api
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,71 +10,71 @@ export interface ApiConfig extends cdktf.TerraformMetaArguments {
   /**
   * The list of ThousandEyes agent IDs to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/api#agents Api#agents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/api#agents Api#agents}
   */
   readonly agents: string[];
   /**
   * List of alert rules IDs to apply to the test (get `ruleId` from `/alerts/rules` endpoint. If `alertsEnabled` is set to `true` and `alertRules` is not included on test creation or update, applicable user default alert rules will be used)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/api#alert_rules Api#alert_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/api#alert_rules Api#alert_rules}
   */
   readonly alertRules?: string[];
   /**
   * Set to 'true' to enable alerts, or 'false' to disable alerts. The default value is 'true'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/api#alerts_enabled Api#alerts_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/api#alerts_enabled Api#alerts_enabled}
   */
   readonly alertsEnabled?: boolean | cdktf.IResolvable;
   /**
   * Enable BGP measurements. Set to true for enabled, false for disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/api#bgp_measurements Api#bgp_measurements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/api#bgp_measurements Api#bgp_measurements}
   */
   readonly bgpMeasurements?: boolean | cdktf.IResolvable;
   /**
   * String representation (containing newline characters) of client certificate, the private key must be placed first, then the certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/api#client_certificate Api#client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/api#client_certificate Api#client_certificate}
   */
   readonly clientCertificate?: string;
   /**
   * Indicates whether network data to the proxy should be collected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/api#collect_proxy_network_data Api#collect_proxy_network_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/api#collect_proxy_network_data Api#collect_proxy_network_data}
   */
   readonly collectProxyNetworkData?: boolean | cdktf.IResolvable;
   /**
   * The array of credentialID integers. You can get the credentialId from the /credentials endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/api#credentials Api#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/api#credentials Api#credentials}
   */
   readonly credentials?: string[];
   /**
   * A description of the alert rule. Defaults to an empty string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/api#description Api#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/api#description Api#description}
   */
   readonly description?: string;
   /**
   * Adds distributed tracing headers to API requests using B3 and W3C standards.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/api#distributed_tracing Api#distributed_tracing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/api#distributed_tracing Api#distributed_tracing}
   */
   readonly distributedTracing?: boolean | cdktf.IResolvable;
   /**
   * Enables or disables the test.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/api#enabled Api#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/api#enabled Api#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Follow HTTP/301 or HTTP/302 redirect directives. Defaults to 'true'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/api#follow_redirects Api#follow_redirects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/api#follow_redirects Api#follow_redirects}
   */
   readonly followRedirects?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/api#id Api#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/api#id Api#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -83,121 +83,121 @@ export interface ApiConfig extends cdktf.TerraformMetaArguments {
   /**
   * The interval to run the test on, in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/api#interval Api#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/api#interval Api#interval}
   */
   readonly interval: number;
   /**
   * Contains list of BGP monitor IDs (get `monitorId` from `/monitors` endpoint)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/api#monitors Api#monitors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/api#monitors Api#monitors}
   */
   readonly monitors?: string[];
   /**
   * Measure MTU sizes on the network from agents to the target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/api#mtu_measurements Api#mtu_measurements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/api#mtu_measurements Api#mtu_measurements}
   */
   readonly mtuMeasurements?: boolean | cdktf.IResolvable;
   /**
   * Set to 'true' to enable network measurements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/api#network_measurements Api#network_measurements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/api#network_measurements Api#network_measurements}
   */
   readonly networkMeasurements?: boolean | cdktf.IResolvable;
   /**
   * The number of path traces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/api#num_path_traces Api#num_path_traces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/api#num_path_traces Api#num_path_traces}
   */
   readonly numPathTraces?: number;
   /**
   * Flag indicating if a proxy other than the default should be used. To override the default proxy for agents, set to `true` and specify a value for `overrideProxyId`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/api#override_agent_proxy Api#override_agent_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/api#override_agent_proxy Api#override_agent_proxy}
   */
   readonly overrideAgentProxy?: boolean | cdktf.IResolvable;
   /**
   * ID of the proxy to be used if the default proxy is overridden.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/api#override_proxy_id Api#override_proxy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/api#override_proxy_id Api#override_proxy_id}
   */
   readonly overrideProxyId?: string;
   /**
   * [classic or in-session] Choose 'inSession' to perform the path trace within a TCP session. Default value is 'classic'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/api#path_trace_mode Api#path_trace_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/api#path_trace_mode Api#path_trace_mode}
   */
   readonly pathTraceMode?: string;
   /**
   * [auto, sack, or syn] The probe mode used by end-to-end network tests. This is only valid if the protocol is set to TCP. The default value is AUTO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/api#probe_mode Api#probe_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/api#probe_mode Api#probe_mode}
   */
   readonly probeMode?: string;
   /**
   * The protocol used by dependent network tests (end-to-end, path trace, PMTUD). Default value is tcp.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/api#protocol Api#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/api#protocol Api#protocol}
   */
   readonly protocol?: string;
   /**
   * Indicates whether agents should randomize the start time in each test round.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/api#randomized_start_time Api#randomized_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/api#randomized_start_time Api#randomized_start_time}
   */
   readonly randomizedStartTime?: boolean | cdktf.IResolvable;
   /**
   * List of accounts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/api#shared_with_accounts Api#shared_with_accounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/api#shared_with_accounts Api#shared_with_accounts}
   */
   readonly sharedWithAccounts?: string[];
   /**
   * Defines the SSL version. 0 for auto, 3 for SSLv3, 4 for TLS v1.0, 5 for TLS v1.1, 6 for TLS v1.2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/api#ssl_version_id Api#ssl_version_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/api#ssl_version_id Api#ssl_version_id}
   */
   readonly sslVersionId?: string;
   /**
   * The target time for completion. The default value is 10, specified in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/api#target_time Api#target_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/api#target_time Api#target_time}
   */
   readonly targetTime?: number;
   /**
   * The name of the test.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/api#test_name Api#test_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/api#test_name Api#test_name}
   */
   readonly testName?: string;
   /**
   * The time limit for the transaction. The default value is 30s.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/api#time_limit Api#time_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/api#time_limit Api#time_limit}
   */
   readonly timeLimit?: number;
   /**
   * The target URL for the test.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/api#url Api#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/api#url Api#url}
   */
   readonly url: string;
   /**
   * Enable to automatically add all available Public BGP Monitors to the test.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/api#use_public_bgp Api#use_public_bgp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/api#use_public_bgp Api#use_public_bgp}
   */
   readonly usePublicBgp?: boolean | cdktf.IResolvable;
   /**
   * predefined_variables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/api#predefined_variables Api#predefined_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/api#predefined_variables Api#predefined_variables}
   */
   readonly predefinedVariables?: ApiPredefinedVariables[] | cdktf.IResolvable;
   /**
   * requests block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/api#requests Api#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/api#requests Api#requests}
   */
   readonly requests: ApiRequests[] | cdktf.IResolvable;
 }
@@ -205,13 +205,13 @@ export interface ApiPredefinedVariables {
   /**
   * Variable name. Must be unique.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/api#name Api#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/api#name Api#name}
   */
   readonly name?: string;
   /**
   * Variable value, will be treated as string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/api#value Api#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/api#value Api#value}
   */
   readonly value?: string;
 }
@@ -358,19 +358,19 @@ export interface ApiRequestsAssertions {
   /**
   * [status-code, response-body] Name of assertion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/api#name Api#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/api#name Api#name}
   */
   readonly name?: string;
   /**
   * [is, is-not, includes, not-includes] Assertion operator
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/api#operator Api#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/api#operator Api#operator}
   */
   readonly operator?: string;
   /**
   * The value of the assertion. If name = `status-code`, the status code to assert. If name = `response-body`, the lookup value to assert.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/api#value Api#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/api#value Api#value}
   */
   readonly value?: string;
 }
@@ -546,13 +546,13 @@ export interface ApiRequestsHeaders {
   /**
   * Request header key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/api#key Api#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/api#key Api#key}
   */
   readonly key?: string;
   /**
   * Request header value. Supports variables `{{variableName}}`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/api#value Api#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/api#value Api#value}
   */
   readonly value?: string;
 }
@@ -699,13 +699,13 @@ export interface ApiRequestsVariables {
   /**
   * Variable name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/api#name Api#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/api#name Api#name}
   */
   readonly name?: string;
   /**
   * The JSON path of data within the Response Body to assign to this variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/api#value Api#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/api#value Api#value}
   */
   readonly value?: string;
 }
@@ -852,115 +852,115 @@ export interface ApiRequests {
   /**
   * [none, basic, bearer-token, oauth2] Auth type will override the Authorization request header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/api#auth_type Api#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/api#auth_type Api#auth_type}
   */
   readonly authType?: string;
   /**
   * Enter the OAuth body for the HTTP POST request in this field when using OAuth as the authentication mechanism. No special escaping is required. If content is provided in the post body, the `requestMethod` is automatically set to POST.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/api#bearer_token Api#bearer_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/api#bearer_token Api#bearer_token}
   */
   readonly bearerToken?: string;
   /**
   * POST/PUT request body. Must be in JSON format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/api#body Api#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/api#body Api#body}
   */
   readonly body?: string;
   /**
   * [basic-auth-header, in-body] The OAuth2 client authentication location type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/api#client_authentication Api#client_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/api#client_authentication Api#client_authentication}
   */
   readonly clientAuthentication?: string;
   /**
   * The application ID used when `authType` is set to "oauth2".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/api#client_id Api#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/api#client_id Api#client_id}
   */
   readonly clientId?: string;
   /**
   * The private client secret used when `authType` is set to "oauth2".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/api#client_secret Api#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/api#client_secret Api#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * Set to `true` if API response body should be collected and saved. Set to `false` if API response body should not be saved.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/api#collect_api_response Api#collect_api_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/api#collect_api_response Api#collect_api_response}
   */
   readonly collectApiResponse?: boolean | cdktf.IResolvable;
   /**
   * [get, post, put, delete, patch] Request method.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/api#method Api#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/api#method Api#method}
   */
   readonly method?: string;
   /**
   * API step name, must be unique.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/api#name Api#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/api#name Api#name}
   */
   readonly name: string;
   /**
   * The password if `authType = basic`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/api#password Api#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/api#password Api#password}
   */
   readonly password?: string;
   /**
   * Application-specific scope values for the access token when `authType` is "oauth2".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/api#scope Api#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/api#scope Api#scope}
   */
   readonly scope?: string;
   /**
   * The endpoint used to request the access token when `authType` is "oauth2".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/api#token_url Api#token_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/api#token_url Api#token_url}
   */
   readonly tokenUrl?: string;
   /**
   * Request url. Supports variables in the format `{{variableName}}`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/api#url Api#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/api#url Api#url}
   */
   readonly url: string;
   /**
   * The username if `authType = basic`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/api#username Api#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/api#username Api#username}
   */
   readonly username?: string;
   /**
   * Ignore or acknowledge certificate errors. Set to `false` to ignore certificate errors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/api#verify_certificate Api#verify_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/api#verify_certificate Api#verify_certificate}
   */
   readonly verifyCertificate?: boolean | cdktf.IResolvable;
   /**
   * Post request delay before executing the next API requests, in milliseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/api#wait_time_ms Api#wait_time_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/api#wait_time_ms Api#wait_time_ms}
   */
   readonly waitTimeMs?: number;
   /**
   * assertions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/api#assertions Api#assertions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/api#assertions Api#assertions}
   */
   readonly assertions?: ApiRequestsAssertions[] | cdktf.IResolvable;
   /**
   * headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/api#headers Api#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/api#headers Api#headers}
   */
   readonly headers?: ApiRequestsHeaders[] | cdktf.IResolvable;
   /**
   * variables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/api#variables Api#variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/api#variables Api#variables}
   */
   readonly variables?: ApiRequestsVariables[] | cdktf.IResolvable;
 }
@@ -1592,7 +1592,7 @@ export class ApiRequestsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/api thousandeyes_api}
+* Represents a {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/api thousandeyes_api}
 */
 export class Api extends cdktf.TerraformResource {
 
@@ -1608,7 +1608,7 @@ export class Api extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Api resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Api to import
-  * @param importFromId The id of the existing Api that should be imported. Refer to the {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/api#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Api that should be imported. Refer to the {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/api#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Api to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1620,7 +1620,7 @@ export class Api extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.2/docs/resources/api thousandeyes_api} Resource
+  * Create a new {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/api thousandeyes_api} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1631,7 +1631,8 @@ export class Api extends cdktf.TerraformResource {
       terraformResourceType: 'thousandeyes_api',
       terraformGeneratorMetadata: {
         providerName: 'thousandeyes',
-        providerVersion: '3.1.2'
+        providerVersion: '3.1.3',
+        providerVersionConstraint: '3.1.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

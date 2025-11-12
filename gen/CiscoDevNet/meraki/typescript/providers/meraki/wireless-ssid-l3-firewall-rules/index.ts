@@ -357,7 +357,8 @@ export class WirelessSsidL3FirewallRules extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_wireless_ssid_l3_firewall_rules',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1'
+        providerVersion: '1.7.1',
+        providerVersionConstraint: '1.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

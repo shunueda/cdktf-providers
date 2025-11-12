@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/cms_metric_rule_templates
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/cms_metric_rule_templates
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,38 +8,38 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlibabacloudstackCmsMetricRuleTemplatesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/cms_metric_rule_templates#history DataAlibabacloudstackCmsMetricRuleTemplates#history}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/cms_metric_rule_templates#history DataAlibabacloudstackCmsMetricRuleTemplates#history}
   */
   readonly history?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/cms_metric_rule_templates#id DataAlibabacloudstackCmsMetricRuleTemplates#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/cms_metric_rule_templates#id DataAlibabacloudstackCmsMetricRuleTemplates#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/cms_metric_rule_templates#ids DataAlibabacloudstackCmsMetricRuleTemplates#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/cms_metric_rule_templates#ids DataAlibabacloudstackCmsMetricRuleTemplates#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/cms_metric_rule_templates#is_default DataAlibabacloudstackCmsMetricRuleTemplates#is_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/cms_metric_rule_templates#is_default DataAlibabacloudstackCmsMetricRuleTemplates#is_default}
   */
   readonly isDefault?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/cms_metric_rule_templates#keyword DataAlibabacloudstackCmsMetricRuleTemplates#keyword}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/cms_metric_rule_templates#keyword DataAlibabacloudstackCmsMetricRuleTemplates#keyword}
   */
   readonly keyword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/cms_metric_rule_templates#name_regex DataAlibabacloudstackCmsMetricRuleTemplates#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/cms_metric_rule_templates#name_regex DataAlibabacloudstackCmsMetricRuleTemplates#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/cms_metric_rule_templates#output_file DataAlibabacloudstackCmsMetricRuleTemplates#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/cms_metric_rule_templates#output_file DataAlibabacloudstackCmsMetricRuleTemplates#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/cms_metric_rule_templates#template_id DataAlibabacloudstackCmsMetricRuleTemplates#template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/cms_metric_rule_templates#template_id DataAlibabacloudstackCmsMetricRuleTemplates#template_id}
   */
   readonly templateId?: number;
 }
@@ -135,7 +135,7 @@ export class DataAlibabacloudstackCmsMetricRuleTemplatesTemplatesList extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/cms_metric_rule_templates alibabacloudstack_cms_metric_rule_templates}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/cms_metric_rule_templates alibabacloudstack_cms_metric_rule_templates}
 */
 export class DataAlibabacloudstackCmsMetricRuleTemplates extends cdktf.TerraformDataSource {
 
@@ -151,7 +151,7 @@ export class DataAlibabacloudstackCmsMetricRuleTemplates extends cdktf.Terraform
   * Generates CDKTF code for importing a DataAlibabacloudstackCmsMetricRuleTemplates resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlibabacloudstackCmsMetricRuleTemplates to import
-  * @param importFromId The id of the existing DataAlibabacloudstackCmsMetricRuleTemplates that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/cms_metric_rule_templates#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlibabacloudstackCmsMetricRuleTemplates that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/cms_metric_rule_templates#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlibabacloudstackCmsMetricRuleTemplates to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -163,7 +163,7 @@ export class DataAlibabacloudstackCmsMetricRuleTemplates extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/cms_metric_rule_templates alibabacloudstack_cms_metric_rule_templates} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/cms_metric_rule_templates alibabacloudstack_cms_metric_rule_templates} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -174,7 +174,8 @@ export class DataAlibabacloudstackCmsMetricRuleTemplates extends cdktf.Terraform
       terraformResourceType: 'alibabacloudstack_cms_metric_rule_templates',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.19'
+        providerVersion: '3.16.21',
+        providerVersionConstraint: '3.16.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

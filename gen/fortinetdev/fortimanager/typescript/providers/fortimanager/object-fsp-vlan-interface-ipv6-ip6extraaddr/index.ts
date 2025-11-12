@@ -72,7 +72,8 @@ export class ObjectFspVlanInterfaceIpv6Ip6Extraaddr extends cdktf.TerraformResou
       terraformResourceType: 'fortimanager_object_fsp_vlan_interface_ipv6_ip6extraaddr',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0'
+        providerVersion: '1.14.0',
+        providerVersionConstraint: '1.14.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

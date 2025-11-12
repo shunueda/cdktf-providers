@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_export_management
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_export_management
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ManagementCommandExportManagementConfig extends cdktf.Terraform
   /**
   * Domain name to be exported.<br><font color="red">Required only for</font> exporting a Domain from the Multi-Domain Server or backing up Domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_export_management#domain_name ManagementCommandExportManagement#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_export_management#domain_name ManagementCommandExportManagement#domain_name}
   */
   readonly domainName?: string;
   /**
   * Path in which the exported database file is saved.<br><font color="red">Required only</font> when not using pre-export-verification-only flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_export_management#file_path ManagementCommandExportManagement#file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_export_management#file_path ManagementCommandExportManagement#file_path}
   */
   readonly filePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_export_management#id ManagementCommandExportManagement#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_export_management#id ManagementCommandExportManagement#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,61 +29,61 @@ export interface ManagementCommandExportManagementConfig extends cdktf.Terraform
   /**
   * Ignoring the verification warnings. By Setting this parameter to 'true' export will not be blocked by warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_export_management#ignore_warnings ManagementCommandExportManagement#ignore_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_export_management#ignore_warnings ManagementCommandExportManagement#ignore_warnings}
   */
   readonly ignoreWarnings?: boolean | cdktf.IResolvable;
   /**
   * Include export of the Endpoint Security Management configuration files.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_export_management#include_endpoint_configuration ManagementCommandExportManagement#include_endpoint_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_export_management#include_endpoint_configuration ManagementCommandExportManagement#include_endpoint_configuration}
   */
   readonly includeEndpointConfiguration?: boolean | cdktf.IResolvable;
   /**
   * Include export of the Endpoint Security Management database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_export_management#include_endpoint_database ManagementCommandExportManagement#include_endpoint_database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_export_management#include_endpoint_database ManagementCommandExportManagement#include_endpoint_database}
   */
   readonly includeEndpointDatabase?: boolean | cdktf.IResolvable;
   /**
   * Export logs without log indexes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_export_management#include_logs ManagementCommandExportManagement#include_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_export_management#include_logs ManagementCommandExportManagement#include_logs}
   */
   readonly includeLogs?: boolean | cdktf.IResolvable;
   /**
   * Export logs with log indexes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_export_management#include_logs_indexes ManagementCommandExportManagement#include_logs_indexes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_export_management#include_logs_indexes ManagementCommandExportManagement#include_logs_indexes}
   */
   readonly includeLogsIndexes?: boolean | cdktf.IResolvable;
   /**
   * If true, the exported Domain will be suitable for import on the same Multi-Domain Server only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_export_management#is_domain_backup ManagementCommandExportManagement#is_domain_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_export_management#is_domain_backup ManagementCommandExportManagement#is_domain_backup}
   */
   readonly isDomainBackup?: boolean | cdktf.IResolvable;
   /**
   * If true, the exported Security Management Server will be suitable for import on the Multi-Domain Server only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_export_management#is_smc_to_mds ManagementCommandExportManagement#is_smc_to_mds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_export_management#is_smc_to_mds ManagementCommandExportManagement#is_smc_to_mds}
   */
   readonly isSmcToMds?: boolean | cdktf.IResolvable;
   /**
   * If true, only runs the pre-export verifications instead of the full export.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_export_management#pre_export_verification_only ManagementCommandExportManagement#pre_export_verification_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_export_management#pre_export_verification_only ManagementCommandExportManagement#pre_export_verification_only}
   */
   readonly preExportVerificationOnly?: boolean | cdktf.IResolvable;
   /**
   * Target version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_export_management#version ManagementCommandExportManagement#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_export_management#version ManagementCommandExportManagement#version}
   */
   readonly version?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_export_management checkpoint_management_command_export_management}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_export_management checkpoint_management_command_export_management}
 */
 export class ManagementCommandExportManagement extends cdktf.TerraformResource {
 
@@ -99,7 +99,7 @@ export class ManagementCommandExportManagement extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementCommandExportManagement resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementCommandExportManagement to import
-  * @param importFromId The id of the existing ManagementCommandExportManagement that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_export_management#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementCommandExportManagement that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_export_management#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementCommandExportManagement to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -111,7 +111,7 @@ export class ManagementCommandExportManagement extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_export_management checkpoint_management_command_export_management} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_export_management checkpoint_management_command_export_management} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -122,7 +122,8 @@ export class ManagementCommandExportManagement extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_command_export_management',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

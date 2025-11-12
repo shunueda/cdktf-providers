@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/autoscalelaunchconfig
+// https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/autoscalelaunchconfig
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,64 +8,64 @@ import * as cdktf from 'cdktf';
 
 export interface AutoscalelaunchconfigConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/autoscalelaunchconfig#description Autoscalelaunchconfig#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/autoscalelaunchconfig#description Autoscalelaunchconfig#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/autoscalelaunchconfig#id Autoscalelaunchconfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/autoscalelaunchconfig#id Autoscalelaunchconfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/autoscalelaunchconfig#image_id Autoscalelaunchconfig#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/autoscalelaunchconfig#image_id Autoscalelaunchconfig#image_id}
   */
   readonly imageId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/autoscalelaunchconfig#name Autoscalelaunchconfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/autoscalelaunchconfig#name Autoscalelaunchconfig#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/autoscalelaunchconfig#tenant_ref Autoscalelaunchconfig#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/autoscalelaunchconfig#tenant_ref Autoscalelaunchconfig#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/autoscalelaunchconfig#use_external_asg Autoscalelaunchconfig#use_external_asg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/autoscalelaunchconfig#use_external_asg Autoscalelaunchconfig#use_external_asg}
   */
   readonly useExternalAsg?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/autoscalelaunchconfig#uuid Autoscalelaunchconfig#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/autoscalelaunchconfig#uuid Autoscalelaunchconfig#uuid}
   */
   readonly uuid?: string;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/autoscalelaunchconfig#configpb_attributes Autoscalelaunchconfig#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/autoscalelaunchconfig#configpb_attributes Autoscalelaunchconfig#configpb_attributes}
   */
   readonly configpbAttributes?: AutoscalelaunchconfigConfigpbAttributes[] | cdktf.IResolvable;
   /**
   * markers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/autoscalelaunchconfig#markers Autoscalelaunchconfig#markers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/autoscalelaunchconfig#markers Autoscalelaunchconfig#markers}
   */
   readonly markers?: AutoscalelaunchconfigMarkers[] | cdktf.IResolvable;
   /**
   * mesos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/autoscalelaunchconfig#mesos Autoscalelaunchconfig#mesos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/autoscalelaunchconfig#mesos Autoscalelaunchconfig#mesos}
   */
   readonly mesos?: AutoscalelaunchconfigMesos[] | cdktf.IResolvable;
   /**
   * openstack block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/autoscalelaunchconfig#openstack Autoscalelaunchconfig#openstack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/autoscalelaunchconfig#openstack Autoscalelaunchconfig#openstack}
   */
   readonly openstack?: AutoscalelaunchconfigOpenstack[] | cdktf.IResolvable;
 }
 export interface AutoscalelaunchconfigConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/autoscalelaunchconfig#version Autoscalelaunchconfig#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/autoscalelaunchconfig#version Autoscalelaunchconfig#version}
   */
   readonly version?: string;
 }
@@ -181,11 +181,11 @@ export class AutoscalelaunchconfigConfigpbAttributesList extends cdktf.ComplexLi
 }
 export interface AutoscalelaunchconfigMarkers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/autoscalelaunchconfig#key Autoscalelaunchconfig#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/autoscalelaunchconfig#key Autoscalelaunchconfig#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/autoscalelaunchconfig#values Autoscalelaunchconfig#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/autoscalelaunchconfig#values Autoscalelaunchconfig#values}
   */
   readonly values?: string[];
 }
@@ -327,7 +327,7 @@ export class AutoscalelaunchconfigMarkersList extends cdktf.ComplexList {
 }
 export interface AutoscalelaunchconfigMesos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/autoscalelaunchconfig#force Autoscalelaunchconfig#force}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/autoscalelaunchconfig#force Autoscalelaunchconfig#force}
   */
   readonly force?: string;
 }
@@ -443,11 +443,11 @@ export class AutoscalelaunchconfigMesosList extends cdktf.ComplexList {
 }
 export interface AutoscalelaunchconfigOpenstack {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/autoscalelaunchconfig#heat_scale_down_url Autoscalelaunchconfig#heat_scale_down_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/autoscalelaunchconfig#heat_scale_down_url Autoscalelaunchconfig#heat_scale_down_url}
   */
   readonly heatScaleDownUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/autoscalelaunchconfig#heat_scale_up_url Autoscalelaunchconfig#heat_scale_up_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/autoscalelaunchconfig#heat_scale_up_url Autoscalelaunchconfig#heat_scale_up_url}
   */
   readonly heatScaleUpUrl?: string;
 }
@@ -592,7 +592,7 @@ export class AutoscalelaunchconfigOpenstackList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/autoscalelaunchconfig avi_autoscalelaunchconfig}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/autoscalelaunchconfig avi_autoscalelaunchconfig}
 */
 export class Autoscalelaunchconfig extends cdktf.TerraformResource {
 
@@ -608,7 +608,7 @@ export class Autoscalelaunchconfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Autoscalelaunchconfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Autoscalelaunchconfig to import
-  * @param importFromId The id of the existing Autoscalelaunchconfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/autoscalelaunchconfig#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Autoscalelaunchconfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/autoscalelaunchconfig#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Autoscalelaunchconfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -620,7 +620,7 @@ export class Autoscalelaunchconfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/autoscalelaunchconfig avi_autoscalelaunchconfig} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/autoscalelaunchconfig avi_autoscalelaunchconfig} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -631,7 +631,8 @@ export class Autoscalelaunchconfig extends cdktf.TerraformResource {
       terraformResourceType: 'avi_autoscalelaunchconfig',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '31.1.1'
+        providerVersion: '30.2.5',
+        providerVersionConstraint: '30.2.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -511,7 +511,8 @@ export class DataIncusNetworkLoadBalancer extends cdktf.TerraformDataSource {
       terraformResourceType: 'incus_network_load_balancer',
       terraformGeneratorMetadata: {
         providerName: 'incus',
-        providerVersion: '1.0.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

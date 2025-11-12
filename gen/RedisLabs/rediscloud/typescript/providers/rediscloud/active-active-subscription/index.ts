@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription
+// https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface ActiveActiveSubscriptionConfig extends cdktf.TerraformMetaArgum
   /**
   * A cloud provider string either GCP or AWS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription#cloud_provider ActiveActiveSubscription#cloud_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription#cloud_provider ActiveActiveSubscription#cloud_provider}
   */
   readonly cloudProvider?: string;
   /**
   * The grace period for deleting the subscription. If not set, will default to immediate deletion grace period.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription#customer_managed_key_deletion_grace_period ActiveActiveSubscription#customer_managed_key_deletion_grace_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription#customer_managed_key_deletion_grace_period ActiveActiveSubscription#customer_managed_key_deletion_grace_period}
   */
   readonly customerManagedKeyDeletionGracePeriod?: string;
   /**
   * Whether to enable CMK (customer managed key) for the subscription. If this is true, then the subscription will be put in a pending state until you supply the CMEK. See documentation for further details on this process. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription#customer_managed_key_enabled ActiveActiveSubscription#customer_managed_key_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription#customer_managed_key_enabled ActiveActiveSubscription#customer_managed_key_enabled}
   */
   readonly customerManagedKeyEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription#id ActiveActiveSubscription#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription#id ActiveActiveSubscription#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,55 +35,55 @@ export interface ActiveActiveSubscriptionConfig extends cdktf.TerraformMetaArgum
   /**
   * A meaningful name to identify the subscription
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription#name ActiveActiveSubscription#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription#name ActiveActiveSubscription#name}
   */
   readonly name?: string;
   /**
   * Payment method for the requested subscription. If credit card is specified, the payment method id must be defined. This information is only used when creating a new subscription and any changes will be ignored after this.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription#payment_method ActiveActiveSubscription#payment_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription#payment_method ActiveActiveSubscription#payment_method}
   */
   readonly paymentMethod?: string;
   /**
   * A valid payment method pre-defined in the current account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription#payment_method_id ActiveActiveSubscription#payment_method_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription#payment_method_id ActiveActiveSubscription#payment_method_id}
   */
   readonly paymentMethodId?: string;
   /**
   * Whether databases in the subscription should have public endpoints. When set to false, databases will only have private endpoints. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription#public_endpoint_access ActiveActiveSubscription#public_endpoint_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription#public_endpoint_access ActiveActiveSubscription#public_endpoint_access}
   */
   readonly publicEndpointAccess?: boolean | cdktf.IResolvable;
   /**
   * Version of Redis to create
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription#redis_version ActiveActiveSubscription#redis_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription#redis_version ActiveActiveSubscription#redis_version}
   */
   readonly redisVersion?: string;
   /**
   * creation_plan block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription#creation_plan ActiveActiveSubscription#creation_plan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription#creation_plan ActiveActiveSubscription#creation_plan}
   */
   readonly creationPlan?: ActiveActiveSubscriptionCreationPlan;
   /**
   * customer_managed_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription#customer_managed_key ActiveActiveSubscription#customer_managed_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription#customer_managed_key ActiveActiveSubscription#customer_managed_key}
   */
   readonly customerManagedKey?: ActiveActiveSubscriptionCustomerManagedKey[] | cdktf.IResolvable;
   /**
   * maintenance_windows block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription#maintenance_windows ActiveActiveSubscription#maintenance_windows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription#maintenance_windows ActiveActiveSubscription#maintenance_windows}
   */
   readonly maintenanceWindows?: ActiveActiveSubscriptionMaintenanceWindows;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription#timeouts ActiveActiveSubscription#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription#timeouts ActiveActiveSubscription#timeouts}
   */
   readonly timeouts?: ActiveActiveSubscriptionTimeouts;
 }
@@ -206,25 +206,25 @@ export interface ActiveActiveSubscriptionCreationPlanRegion {
   /**
   * Deployment CIDR mask
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription#networking_deployment_cidr ActiveActiveSubscription#networking_deployment_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription#networking_deployment_cidr ActiveActiveSubscription#networking_deployment_cidr}
   */
   readonly networkingDeploymentCidr: string;
   /**
   * Write operations per second for creation plan databases
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription#read_operations_per_second ActiveActiveSubscription#read_operations_per_second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription#read_operations_per_second ActiveActiveSubscription#read_operations_per_second}
   */
   readonly readOperationsPerSecond: number;
   /**
   * Deployment region as defined by cloud provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription#region ActiveActiveSubscription#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription#region ActiveActiveSubscription#region}
   */
   readonly region: string;
   /**
   * Write operations per second for creation plan databases
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription#write_operations_per_second ActiveActiveSubscription#write_operations_per_second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription#write_operations_per_second ActiveActiveSubscription#write_operations_per_second}
   */
   readonly writeOperationsPerSecond: number;
 }
@@ -417,31 +417,31 @@ export interface ActiveActiveSubscriptionCreationPlan {
   /**
   * Maximum amount of data in the dataset for this specific database in GB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription#dataset_size_in_gb ActiveActiveSubscription#dataset_size_in_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription#dataset_size_in_gb ActiveActiveSubscription#dataset_size_in_gb}
   */
   readonly datasetSizeInGb?: number;
   /**
   * (Deprecated) Maximum memory usage for this specific database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription#memory_limit_in_gb ActiveActiveSubscription#memory_limit_in_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription#memory_limit_in_gb ActiveActiveSubscription#memory_limit_in_gb}
   */
   readonly memoryLimitInGb?: number;
   /**
   * Modules that will be used by the databases in this subscription.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription#modules ActiveActiveSubscription#modules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription#modules ActiveActiveSubscription#modules}
   */
   readonly modules?: string[];
   /**
   * The planned number of databases
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription#quantity ActiveActiveSubscription#quantity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription#quantity ActiveActiveSubscription#quantity}
   */
   readonly quantity: number;
   /**
   * region block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription#region ActiveActiveSubscription#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription#region ActiveActiveSubscription#region}
   */
   readonly region: ActiveActiveSubscriptionCreationPlanRegion[] | cdktf.IResolvable;
 }
@@ -637,13 +637,13 @@ export interface ActiveActiveSubscriptionCustomerManagedKey {
   /**
   * Name of region for the customer managed key as defined by the cloud provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription#region ActiveActiveSubscription#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription#region ActiveActiveSubscription#region}
   */
   readonly region: string;
   /**
   * Resource name of the customer managed key as defined by the cloud provider, e.g. projects/PROJECT_ID/locations/LOCATION/keyRings/KEY_RING/cryptoKeys/KEY_NAME
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription#resource_name ActiveActiveSubscription#resource_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription#resource_name ActiveActiveSubscription#resource_name}
   */
   readonly resourceName: string;
 }
@@ -784,19 +784,19 @@ export interface ActiveActiveSubscriptionMaintenanceWindowsWindow {
   /**
   * A list of days on which the window is open ('Monday', 'Tuesday' etc)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription#days ActiveActiveSubscription#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription#days ActiveActiveSubscription#days}
   */
   readonly days: string[];
   /**
   * How long maintenance may take
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription#duration_in_hours ActiveActiveSubscription#duration_in_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription#duration_in_hours ActiveActiveSubscription#duration_in_hours}
   */
   readonly durationInHours: number;
   /**
   * What hour in the day (0-23) may maintenance start
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription#start_hour ActiveActiveSubscription#start_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription#start_hour ActiveActiveSubscription#start_hour}
   */
   readonly startHour: number;
 }
@@ -963,13 +963,13 @@ export interface ActiveActiveSubscriptionMaintenanceWindows {
   /**
   * Either automatic (Redis specified) or manual (User specified)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription#mode ActiveActiveSubscription#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription#mode ActiveActiveSubscription#mode}
   */
   readonly mode: string;
   /**
   * window block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription#window ActiveActiveSubscription#window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription#window ActiveActiveSubscription#window}
   */
   readonly window?: ActiveActiveSubscriptionMaintenanceWindowsWindow[] | cdktf.IResolvable;
 }
@@ -1079,19 +1079,19 @@ export class ActiveActiveSubscriptionMaintenanceWindowsOutputReference extends c
 }
 export interface ActiveActiveSubscriptionTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription#create ActiveActiveSubscription#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription#create ActiveActiveSubscription#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription#delete ActiveActiveSubscription#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription#delete ActiveActiveSubscription#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription#read ActiveActiveSubscription#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription#read ActiveActiveSubscription#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription#update ActiveActiveSubscription#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription#update ActiveActiveSubscription#update}
   */
   readonly update?: string;
 }
@@ -1272,7 +1272,7 @@ export class ActiveActiveSubscriptionTimeoutsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription rediscloud_active_active_subscription}
+* Represents a {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription rediscloud_active_active_subscription}
 */
 export class ActiveActiveSubscription extends cdktf.TerraformResource {
 
@@ -1288,7 +1288,7 @@ export class ActiveActiveSubscription extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ActiveActiveSubscription resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ActiveActiveSubscription to import
-  * @param importFromId The id of the existing ActiveActiveSubscription that should be imported. Refer to the {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ActiveActiveSubscription that should be imported. Refer to the {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ActiveActiveSubscription to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1300,7 +1300,7 @@ export class ActiveActiveSubscription extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/active_active_subscription rediscloud_active_active_subscription} Resource
+  * Create a new {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/active_active_subscription rediscloud_active_active_subscription} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1311,7 +1311,8 @@ export class ActiveActiveSubscription extends cdktf.TerraformResource {
       terraformResourceType: 'rediscloud_active_active_subscription',
       terraformGeneratorMetadata: {
         providerName: 'rediscloud',
-        providerVersion: '2.7.3'
+        providerVersion: '2.8.0',
+        providerVersionConstraint: '2.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1339,6 +1340,11 @@ export class ActiveActiveSubscription extends cdktf.TerraformResource {
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // aws_account_id - computed: true, optional: false, required: false
+  public get awsAccountId() {
+    return this.getStringAttribute('aws_account_id');
+  }
 
   // cloud_provider - computed: false, optional: true, required: false
   private _cloudProvider?: string; 

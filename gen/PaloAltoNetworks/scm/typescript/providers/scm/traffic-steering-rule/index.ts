@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/traffic_steering_rule
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/traffic_steering_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,62 +10,62 @@ export interface TrafficSteeringRuleConfig extends cdktf.TerraformMetaArguments 
   /**
   * Action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/traffic_steering_rule#action TrafficSteeringRule#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/traffic_steering_rule#action TrafficSteeringRule#action}
   */
   readonly action?: TrafficSteeringRuleAction;
   /**
   * Category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/traffic_steering_rule#category TrafficSteeringRule#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/traffic_steering_rule#category TrafficSteeringRule#category}
   */
   readonly category?: string[];
   /**
   * Destination
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/traffic_steering_rule#destination TrafficSteeringRule#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/traffic_steering_rule#destination TrafficSteeringRule#destination}
   */
   readonly destination?: string[];
   /**
   * The folder containing the traffic steering rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/traffic_steering_rule#folder TrafficSteeringRule#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/traffic_steering_rule#folder TrafficSteeringRule#folder}
   */
   readonly folder: string;
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/traffic_steering_rule#name TrafficSteeringRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/traffic_steering_rule#name TrafficSteeringRule#name}
   */
   readonly name: string;
   /**
   * Service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/traffic_steering_rule#service TrafficSteeringRule#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/traffic_steering_rule#service TrafficSteeringRule#service}
   */
   readonly service: string[];
   /**
   * Source
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/traffic_steering_rule#source TrafficSteeringRule#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/traffic_steering_rule#source TrafficSteeringRule#source}
   */
   readonly source: string[];
   /**
   * Source user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/traffic_steering_rule#source_user TrafficSteeringRule#source_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/traffic_steering_rule#source_user TrafficSteeringRule#source_user}
   */
   readonly sourceUser?: string[];
 }
-export interface TrafficSteeringRuleActionForward {
+export interface TrafficSteeringRuleActionForwardForward {
   /**
   * Target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/traffic_steering_rule#target TrafficSteeringRule#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/traffic_steering_rule#target TrafficSteeringRule#target}
   */
   readonly target?: string;
 }
 
-export function trafficSteeringRuleActionForwardToTerraform(struct?: TrafficSteeringRuleActionForward | cdktf.IResolvable): any {
+export function trafficSteeringRuleActionForwardForwardToTerraform(struct?: TrafficSteeringRuleActionForwardForward | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -76,7 +76,7 @@ export function trafficSteeringRuleActionForwardToTerraform(struct?: TrafficStee
 }
 
 
-export function trafficSteeringRuleActionForwardToHclTerraform(struct?: TrafficSteeringRuleActionForward | cdktf.IResolvable): any {
+export function trafficSteeringRuleActionForwardForwardToHclTerraform(struct?: TrafficSteeringRuleActionForwardForward | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -94,7 +94,7 @@ export function trafficSteeringRuleActionForwardToHclTerraform(struct?: TrafficS
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class TrafficSteeringRuleActionForwardOutputReference extends cdktf.ComplexObject {
+export class TrafficSteeringRuleActionForwardForwardOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
   private resolvableValue?: cdktf.IResolvable;
 
@@ -106,7 +106,7 @@ export class TrafficSteeringRuleActionForwardOutputReference extends cdktf.Compl
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): TrafficSteeringRuleActionForward | cdktf.IResolvable | undefined {
+  public get internalValue(): TrafficSteeringRuleActionForwardForward | cdktf.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -119,7 +119,7 @@ export class TrafficSteeringRuleActionForwardOutputReference extends cdktf.Compl
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: TrafficSteeringRuleActionForward | cdktf.IResolvable | undefined) {
+  public set internalValue(value: TrafficSteeringRuleActionForwardForward | cdktf.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -152,19 +152,203 @@ export class TrafficSteeringRuleActionForwardOutputReference extends cdktf.Compl
     return this._target;
   }
 }
+export interface TrafficSteeringRuleActionForwardNoPbf {
+}
+
+export function trafficSteeringRuleActionForwardNoPbfToTerraform(struct?: TrafficSteeringRuleActionForwardNoPbf | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function trafficSteeringRuleActionForwardNoPbfToHclTerraform(struct?: TrafficSteeringRuleActionForwardNoPbf | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class TrafficSteeringRuleActionForwardNoPbfOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): TrafficSteeringRuleActionForwardNoPbf | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: TrafficSteeringRuleActionForwardNoPbf | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+    }
+  }
+}
+export interface TrafficSteeringRuleActionForward {
+  /**
+  * Forward
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/traffic_steering_rule#forward TrafficSteeringRule#forward}
+  */
+  readonly forward?: TrafficSteeringRuleActionForwardForward;
+  /**
+  * No pbf
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/traffic_steering_rule#no_pbf TrafficSteeringRule#no_pbf}
+  */
+  readonly noPbf?: TrafficSteeringRuleActionForwardNoPbf;
+}
+
+export function trafficSteeringRuleActionForwardToTerraform(struct?: TrafficSteeringRuleActionForward | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    forward: trafficSteeringRuleActionForwardForwardToTerraform(struct!.forward),
+    no_pbf: trafficSteeringRuleActionForwardNoPbfToTerraform(struct!.noPbf),
+  }
+}
+
+
+export function trafficSteeringRuleActionForwardToHclTerraform(struct?: TrafficSteeringRuleActionForward | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    forward: {
+      value: trafficSteeringRuleActionForwardForwardToHclTerraform(struct!.forward),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "TrafficSteeringRuleActionForwardForward",
+    },
+    no_pbf: {
+      value: trafficSteeringRuleActionForwardNoPbfToHclTerraform(struct!.noPbf),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "TrafficSteeringRuleActionForwardNoPbf",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class TrafficSteeringRuleActionForwardOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): TrafficSteeringRuleActionForward | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._forward?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.forward = this._forward?.internalValue;
+    }
+    if (this._noPbf?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.noPbf = this._noPbf?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: TrafficSteeringRuleActionForward | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._forward.internalValue = undefined;
+      this._noPbf.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._forward.internalValue = value.forward;
+      this._noPbf.internalValue = value.noPbf;
+    }
+  }
+
+  // forward - computed: false, optional: true, required: false
+  private _forward = new TrafficSteeringRuleActionForwardForwardOutputReference(this, "forward");
+  public get forward() {
+    return this._forward;
+  }
+  public putForward(value: TrafficSteeringRuleActionForwardForward) {
+    this._forward.internalValue = value;
+  }
+  public resetForward() {
+    this._forward.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get forwardInput() {
+    return this._forward.internalValue;
+  }
+
+  // no_pbf - computed: false, optional: true, required: false
+  private _noPbf = new TrafficSteeringRuleActionForwardNoPbfOutputReference(this, "no_pbf");
+  public get noPbf() {
+    return this._noPbf;
+  }
+  public putNoPbf(value: TrafficSteeringRuleActionForwardNoPbf) {
+    this._noPbf.internalValue = value;
+  }
+  public resetNoPbf() {
+    this._noPbf.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get noPbfInput() {
+    return this._noPbf.internalValue;
+  }
+}
 export interface TrafficSteeringRuleAction {
   /**
   * Forward
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/traffic_steering_rule#forward TrafficSteeringRule#forward}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/traffic_steering_rule#forward TrafficSteeringRule#forward}
   */
   readonly forward?: TrafficSteeringRuleActionForward;
-  /**
-  * No pbf
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/traffic_steering_rule#no_pbf TrafficSteeringRule#no_pbf}
-  */
-  readonly noPbf?: string;
 }
 
 export function trafficSteeringRuleActionToTerraform(struct?: TrafficSteeringRuleAction | cdktf.IResolvable): any {
@@ -174,7 +358,6 @@ export function trafficSteeringRuleActionToTerraform(struct?: TrafficSteeringRul
   }
   return {
     forward: trafficSteeringRuleActionForwardToTerraform(struct!.forward),
-    no_pbf: cdktf.stringToTerraform(struct!.noPbf),
   }
 }
 
@@ -190,12 +373,6 @@ export function trafficSteeringRuleActionToHclTerraform(struct?: TrafficSteering
       isBlock: true,
       type: "struct",
       storageClassType: "TrafficSteeringRuleActionForward",
-    },
-    no_pbf: {
-      value: cdktf.stringToHclTerraform(struct!.noPbf),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
     },
   };
 
@@ -225,10 +402,6 @@ export class TrafficSteeringRuleActionOutputReference extends cdktf.ComplexObjec
       hasAnyValues = true;
       internalValueResult.forward = this._forward?.internalValue;
     }
-    if (this._noPbf !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.noPbf = this._noPbf;
-    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -237,7 +410,6 @@ export class TrafficSteeringRuleActionOutputReference extends cdktf.ComplexObjec
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._forward.internalValue = undefined;
-      this._noPbf = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -247,7 +419,6 @@ export class TrafficSteeringRuleActionOutputReference extends cdktf.ComplexObjec
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
       this._forward.internalValue = value.forward;
-      this._noPbf = value.noPbf;
     }
   }
 
@@ -266,26 +437,10 @@ export class TrafficSteeringRuleActionOutputReference extends cdktf.ComplexObjec
   public get forwardInput() {
     return this._forward.internalValue;
   }
-
-  // no_pbf - computed: false, optional: true, required: false
-  private _noPbf?: string; 
-  public get noPbf() {
-    return this.getStringAttribute('no_pbf');
-  }
-  public set noPbf(value: string) {
-    this._noPbf = value;
-  }
-  public resetNoPbf() {
-    this._noPbf = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get noPbfInput() {
-    return this._noPbf;
-  }
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/traffic_steering_rule scm_traffic_steering_rule}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/traffic_steering_rule scm_traffic_steering_rule}
 */
 export class TrafficSteeringRule extends cdktf.TerraformResource {
 
@@ -301,7 +456,7 @@ export class TrafficSteeringRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TrafficSteeringRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TrafficSteeringRule to import
-  * @param importFromId The id of the existing TrafficSteeringRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/traffic_steering_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TrafficSteeringRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/traffic_steering_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TrafficSteeringRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -313,7 +468,7 @@ export class TrafficSteeringRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/traffic_steering_rule scm_traffic_steering_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/traffic_steering_rule scm_traffic_steering_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -324,7 +479,8 @@ export class TrafficSteeringRule extends cdktf.TerraformResource {
       terraformResourceType: 'scm_traffic_steering_rule',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.3'
+        providerVersion: '1.0.4',
+        providerVersionConstraint: '1.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

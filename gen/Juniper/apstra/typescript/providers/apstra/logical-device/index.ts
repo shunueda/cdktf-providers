@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/logical_device
+// https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/logical_device
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface LogicalDeviceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Logical Device name displayed in the Apstra web UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/logical_device#name LogicalDevice#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/logical_device#name LogicalDevice#name}
   */
   readonly name: string;
   /**
   * Details physical layout of interfaces on the device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/logical_device#panels LogicalDevice#panels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/logical_device#panels LogicalDevice#panels}
   */
   readonly panels: LogicalDevicePanels[] | cdktf.IResolvable;
 }
@@ -24,19 +24,19 @@ export interface LogicalDevicePanelsPortGroups {
   /**
   * Number of ports in the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/logical_device#port_count LogicalDevice#port_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/logical_device#port_count LogicalDevice#port_count}
   */
   readonly portCount: number;
   /**
   * One or more of: 'access', 'generic', 'leaf', 'peer', 'spine', 'superspine', 'unused', by default all values are selected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/logical_device#port_roles LogicalDevice#port_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/logical_device#port_roles LogicalDevice#port_roles}
   */
   readonly portRoles?: string[];
   /**
   * Port speed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/logical_device#port_speed LogicalDevice#port_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/logical_device#port_speed LogicalDevice#port_speed}
   */
   readonly portSpeed: string;
 }
@@ -206,19 +206,19 @@ export interface LogicalDevicePanels {
   /**
   * Physical horizontal dimension of the panel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/logical_device#columns LogicalDevice#columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/logical_device#columns LogicalDevice#columns}
   */
   readonly columns: number;
   /**
   * Ordered logical groupings of interfaces by speed or purpose within a panel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/logical_device#port_groups LogicalDevice#port_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/logical_device#port_groups LogicalDevice#port_groups}
   */
   readonly portGroups: LogicalDevicePanelsPortGroups[] | cdktf.IResolvable;
   /**
   * Physical vertical dimension of the panel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/logical_device#rows LogicalDevice#rows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/logical_device#rows LogicalDevice#rows}
   */
   readonly rows: number;
 }
@@ -383,7 +383,7 @@ export class LogicalDevicePanelsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/logical_device apstra_logical_device}
+* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/logical_device apstra_logical_device}
 */
 export class LogicalDevice extends cdktf.TerraformResource {
 
@@ -399,7 +399,7 @@ export class LogicalDevice extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LogicalDevice resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LogicalDevice to import
-  * @param importFromId The id of the existing LogicalDevice that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/logical_device#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LogicalDevice that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/logical_device#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LogicalDevice to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -411,7 +411,7 @@ export class LogicalDevice extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/logical_device apstra_logical_device} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/logical_device apstra_logical_device} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -422,7 +422,8 @@ export class LogicalDevice extends cdktf.TerraformResource {
       terraformResourceType: 'apstra_logical_device',
       terraformGeneratorMetadata: {
         providerName: 'apstra',
-        providerVersion: '0.95.0'
+        providerVersion: '0.95.1',
+        providerVersionConstraint: '0.95.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

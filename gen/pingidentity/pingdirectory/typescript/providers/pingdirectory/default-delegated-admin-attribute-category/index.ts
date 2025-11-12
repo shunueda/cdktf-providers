@@ -152,7 +152,8 @@ export class DefaultDelegatedAdminAttributeCategory extends cdktf.TerraformResou
       terraformResourceType: 'pingdirectory_default_delegated_admin_attribute_category',
       terraformGeneratorMetadata: {
         providerName: 'pingdirectory',
-        providerVersion: '1.5.0'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

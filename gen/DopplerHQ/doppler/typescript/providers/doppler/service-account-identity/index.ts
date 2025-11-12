@@ -377,7 +377,8 @@ export class ServiceAccountIdentity extends cdktf.TerraformResource {
       terraformResourceType: 'doppler_service_account_identity',
       terraformGeneratorMetadata: {
         providerName: 'doppler',
-        providerVersion: '1.21.0'
+        providerVersion: '1.21.0',
+        providerVersionConstraint: '1.21.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

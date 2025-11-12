@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/magalucloud/mgc/0.39.0/docs/resources/network_nat_gateway
+// https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/resources/network_nat_gateway
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface NetworkNatGatewayConfig extends cdktf.TerraformMetaArguments {
   /**
   * The availability zone of the NAT Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.39.0/docs/resources/network_nat_gateway#availability_zone NetworkNatGateway#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/resources/network_nat_gateway#availability_zone NetworkNatGateway#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
   * The description of the NAT Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.39.0/docs/resources/network_nat_gateway#description NetworkNatGateway#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/resources/network_nat_gateway#description NetworkNatGateway#description}
   */
   readonly description?: string;
   /**
   * The name of the NAT Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.39.0/docs/resources/network_nat_gateway#name NetworkNatGateway#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/resources/network_nat_gateway#name NetworkNatGateway#name}
   */
   readonly name: string;
   /**
   * The ID of the VPC where the NAT Gateway will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.39.0/docs/resources/network_nat_gateway#vpc_id NetworkNatGateway#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/resources/network_nat_gateway#vpc_id NetworkNatGateway#vpc_id}
   */
   readonly vpcId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.39.0/docs/resources/network_nat_gateway mgc_network_nat_gateway}
+* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/resources/network_nat_gateway mgc_network_nat_gateway}
 */
 export class NetworkNatGateway extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class NetworkNatGateway extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkNatGateway resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkNatGateway to import
-  * @param importFromId The id of the existing NetworkNatGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.39.0/docs/resources/network_nat_gateway#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkNatGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/resources/network_nat_gateway#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkNatGateway to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class NetworkNatGateway extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.39.0/docs/resources/network_nat_gateway mgc_network_nat_gateway} Resource
+  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/resources/network_nat_gateway mgc_network_nat_gateway} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,7 +73,8 @@ export class NetworkNatGateway extends cdktf.TerraformResource {
       terraformResourceType: 'mgc_network_nat_gateway',
       terraformGeneratorMetadata: {
         providerName: 'mgc',
-        providerVersion: '0.39.0'
+        providerVersion: '0.40.0',
+        providerVersionConstraint: '0.40.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

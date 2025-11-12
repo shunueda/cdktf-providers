@@ -191,7 +191,8 @@ export class DataEdgecenterImage extends cdktf.TerraformDataSource {
       terraformResourceType: 'edgecenter_image',
       terraformGeneratorMetadata: {
         providerName: 'edgecenter',
-        providerVersion: '0.10.4'
+        providerVersion: '0.10.4',
+        providerVersionConstraint: '0.10.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

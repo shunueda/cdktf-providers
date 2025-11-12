@@ -64,7 +64,8 @@ export class SnapshotCreateVolumePermission extends cdktf.TerraformResource {
       terraformResourceType: 'aws_snapshot_create_volume_permission',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '3.29.6'
+        providerVersion: '3.29.6',
+        providerVersionConstraint: '3.29.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

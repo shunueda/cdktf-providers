@@ -469,7 +469,8 @@ export class OrganizationPermission extends cdktf.TerraformResource {
       terraformResourceType: 'aiven_organization_permission',
       terraformGeneratorMetadata: {
         providerName: 'aiven',
-        providerVersion: '4.46.1'
+        providerVersion: '4.46.1',
+        providerVersionConstraint: '4.46.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

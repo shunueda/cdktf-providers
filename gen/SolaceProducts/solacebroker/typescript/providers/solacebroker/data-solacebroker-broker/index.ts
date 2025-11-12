@@ -1103,7 +1103,8 @@ export class DataSolacebrokerBroker extends cdktf.TerraformDataSource {
       terraformResourceType: 'solacebroker_broker',
       terraformGeneratorMetadata: {
         providerName: 'solacebroker',
-        providerVersion: '1.2.0'
+        providerVersion: '1.2.0',
+        providerVersionConstraint: '1.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/data-sources/active_active_subscription_regions
+// https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/data-sources/active_active_subscription_regions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataRediscloudActiveActiveSubscriptionRegionsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/data-sources/active_active_subscription_regions#id DataRediscloudActiveActiveSubscriptionRegions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/data-sources/active_active_subscription_regions#id DataRediscloudActiveActiveSubscriptionRegions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataRediscloudActiveActiveSubscriptionRegionsConfig extends cdk
   /**
   * The name of the Active-Active subscription
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/data-sources/active_active_subscription_regions#subscription_name DataRediscloudActiveActiveSubscriptionRegions#subscription_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/data-sources/active_active_subscription_regions#subscription_name DataRediscloudActiveActiveSubscriptionRegions#subscription_name}
   */
   readonly subscriptionName: string;
 }
@@ -209,7 +209,7 @@ export class DataRediscloudActiveActiveSubscriptionRegionsRegionsList extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/data-sources/active_active_subscription_regions rediscloud_active_active_subscription_regions}
+* Represents a {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/data-sources/active_active_subscription_regions rediscloud_active_active_subscription_regions}
 */
 export class DataRediscloudActiveActiveSubscriptionRegions extends cdktf.TerraformDataSource {
 
@@ -225,7 +225,7 @@ export class DataRediscloudActiveActiveSubscriptionRegions extends cdktf.Terrafo
   * Generates CDKTF code for importing a DataRediscloudActiveActiveSubscriptionRegions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataRediscloudActiveActiveSubscriptionRegions to import
-  * @param importFromId The id of the existing DataRediscloudActiveActiveSubscriptionRegions that should be imported. Refer to the {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/data-sources/active_active_subscription_regions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataRediscloudActiveActiveSubscriptionRegions that should be imported. Refer to the {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/data-sources/active_active_subscription_regions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataRediscloudActiveActiveSubscriptionRegions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -237,7 +237,7 @@ export class DataRediscloudActiveActiveSubscriptionRegions extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/data-sources/active_active_subscription_regions rediscloud_active_active_subscription_regions} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/data-sources/active_active_subscription_regions rediscloud_active_active_subscription_regions} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -248,7 +248,8 @@ export class DataRediscloudActiveActiveSubscriptionRegions extends cdktf.Terrafo
       terraformResourceType: 'rediscloud_active_active_subscription_regions',
       terraformGeneratorMetadata: {
         providerName: 'rediscloud',
-        providerVersion: '2.7.3'
+        providerVersion: '2.8.0',
+        providerVersionConstraint: '2.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

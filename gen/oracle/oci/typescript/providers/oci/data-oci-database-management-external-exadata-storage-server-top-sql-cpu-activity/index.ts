@@ -145,7 +145,8 @@ export class DataOciDatabaseManagementExternalExadataStorageServerTopSqlCpuActiv
       terraformResourceType: 'oci_database_management_external_exadata_storage_server_top_sql_cpu_activity',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

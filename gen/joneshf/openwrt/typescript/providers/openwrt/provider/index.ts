@@ -85,7 +85,8 @@ export class OpenwrtProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'openwrt',
       terraformGeneratorMetadata: {
         providerName: 'openwrt',
-        providerVersion: '0.0.20'
+        providerVersion: '0.0.20',
+        providerVersionConstraint: '0.0.20'
       },
       terraformProviderSource: 'joneshf/openwrt'
     });

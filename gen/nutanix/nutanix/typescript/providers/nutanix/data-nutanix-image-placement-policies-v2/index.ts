@@ -358,7 +358,8 @@ export class DataNutanixImagePlacementPoliciesV2 extends cdktf.TerraformDataSour
       terraformResourceType: 'nutanix_image_placement_policies_v2',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3'
+        providerVersion: '2.3.3',
+        providerVersionConstraint: '2.3.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

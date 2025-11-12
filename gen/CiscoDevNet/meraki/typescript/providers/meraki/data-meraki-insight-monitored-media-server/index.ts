@@ -70,7 +70,8 @@ export class DataMerakiInsightMonitoredMediaServer extends cdktf.TerraformDataSo
       terraformResourceType: 'meraki_insight_monitored_media_server',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1'
+        providerVersion: '1.7.1',
+        providerVersionConstraint: '1.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

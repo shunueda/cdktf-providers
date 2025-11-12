@@ -2187,7 +2187,8 @@ export class DataThunderDdosDstEntryIpProtoOper extends cdktf.TerraformDataSourc
       terraformResourceType: 'thunder_ddos_dst_entry_ip_proto_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

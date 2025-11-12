@@ -55,7 +55,8 @@ export class DataLogtailSourceGroup extends cdktf.TerraformDataSource {
       terraformResourceType: 'logtail_source_group',
       terraformGeneratorMetadata: {
         providerName: 'logtail',
-        providerVersion: '0.6.4'
+        providerVersion: '0.6.4',
+        providerVersionConstraint: '0.6.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

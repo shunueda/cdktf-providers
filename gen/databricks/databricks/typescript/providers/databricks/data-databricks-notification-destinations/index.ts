@@ -327,7 +327,8 @@ export class DataDatabricksNotificationDestinations extends cdktf.TerraformDataS
       terraformResourceType: 'databricks_notification_destinations',
       terraformGeneratorMetadata: {
         providerName: 'databricks',
-        providerVersion: '1.97.0'
+        providerVersion: '1.97.0',
+        providerVersionConstraint: '1.97.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

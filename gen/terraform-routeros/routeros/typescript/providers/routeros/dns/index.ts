@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/dns
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/dns
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,51 +10,51 @@ export interface DnsConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/dns#___path___ Dns#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/dns#___path___ Dns#___path___}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/dns#address_list_extra_time Dns#address_list_extra_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/dns#address_list_extra_time Dns#address_list_extra_time}
   */
   readonly addressListExtraTime?: string;
   /**
   * Specifies whether to allow network requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/dns#allow_remote_requests Dns#allow_remote_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/dns#allow_remote_requests Dns#allow_remote_requests}
   */
   readonly allowRemoteRequests?: boolean | cdktf.IResolvable;
   /**
   * Maximum time-to-live for cache records. In other words, cache records will expire unconditionally after cache-max-ttl time. Shorter TTL received from DNS servers are respected. *Default: 1w*
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/dns#cache_max_ttl Dns#cache_max_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/dns#cache_max_ttl Dns#cache_max_ttl}
   */
   readonly cacheMaxTtl?: string;
   /**
   * Specifies the size of DNS cache in KiB (64..4294967295). *Default: 2048*
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/dns#cache_size Dns#cache_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/dns#cache_size Dns#cache_size}
   */
   readonly cacheSize?: number;
   /**
   * Specifies how many DoH concurrent queries are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/dns#doh_max_concurrent_queries Dns#doh_max_concurrent_queries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/dns#doh_max_concurrent_queries Dns#doh_max_concurrent_queries}
   */
   readonly dohMaxConcurrentQueries?: number;
   /**
   * Specifies how many concurrent connections to the DoH server are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/dns#doh_max_server_connections Dns#doh_max_server_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/dns#doh_max_server_connections Dns#doh_max_server_connections}
   */
   readonly dohMaxServerConnections?: number;
   /**
   * Specifies how long to wait for query response from the DoH server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/dns#doh_timeout Dns#doh_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/dns#doh_timeout Dns#doh_timeout}
   */
   readonly dohTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/dns#id Dns#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/dns#id Dns#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -63,43 +63,43 @@ export interface DnsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specifies how much concurrent queries are allowed. *Default: 100*
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/dns#max_concurrent_queries Dns#max_concurrent_queries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/dns#max_concurrent_queries Dns#max_concurrent_queries}
   */
   readonly maxConcurrentQueries?: number;
   /**
   * Specifies how much concurrent TCP sessions are allowed. *Default: 20*
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/dns#max_concurrent_tcp_sessions Dns#max_concurrent_tcp_sessions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/dns#max_concurrent_tcp_sessions Dns#max_concurrent_tcp_sessions}
   */
   readonly maxConcurrentTcpSessions?: number;
   /**
   * Maximum size of allowed UDP packet. *Default: 4096*
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/dns#max_udp_packet_size Dns#max_udp_packet_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/dns#max_udp_packet_size Dns#max_udp_packet_size}
   */
   readonly maxUdpPacketSize?: number;
   /**
   * An option to enable mDNS repeater on specified interfaces. This option is available in RouterOS starting from version 7.16.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/dns#mdns_repeat_ifaces Dns#mdns_repeat_ifaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/dns#mdns_repeat_ifaces Dns#mdns_repeat_ifaces}
   */
   readonly mdnsRepeatIfaces?: string[];
   /**
   * Specifies how long to wait for query response from one server. Time can be specified in milliseconds. *Default: 2s*
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/dns#query_server_timeout Dns#query_server_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/dns#query_server_timeout Dns#query_server_timeout}
   */
   readonly queryServerTimeout?: string;
   /**
   * Specifies how long to wait for query response in total. Note that this setting must be configured taking into account query_server_timeout and number of used DNS server. Time can be specified in milliseconds. *Default: 10s*
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/dns#query_total_timeout Dns#query_total_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/dns#query_total_timeout Dns#query_total_timeout}
   */
   readonly queryTotalTimeout?: string;
   /**
   * List of DNS server IPv4/IPv6 addresses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/dns#servers Dns#servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/dns#servers Dns#servers}
   */
   readonly servers?: string[];
   /**
@@ -109,25 +109,25 @@ export interface DnsConfig extends cdktf.TerraformMetaArguments {
   * 
   * 	> RouterOS prioritize DoH over DNS server if both are configured on the device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/dns#use_doh_server Dns#use_doh_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/dns#use_doh_server Dns#use_doh_server}
   */
   readonly useDohServer?: string;
   /**
   * DoH certificate verification. [See docs](https://wiki.mikrotik.com/wiki/Manual:IP/DNS#DNS_over_HTTPS).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/dns#verify_doh_cert Dns#verify_doh_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/dns#verify_doh_cert Dns#verify_doh_cert}
   */
   readonly verifyDohCert?: boolean | cdktf.IResolvable;
   /**
   * The VRF table this resource operates on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/dns#vrf Dns#vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/dns#vrf Dns#vrf}
   */
   readonly vrf?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/dns routeros_dns}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/dns routeros_dns}
 */
 export class Dns extends cdktf.TerraformResource {
 
@@ -143,7 +143,7 @@ export class Dns extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Dns resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Dns to import
-  * @param importFromId The id of the existing Dns that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/dns#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Dns that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/dns#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Dns to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -155,7 +155,7 @@ export class Dns extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/dns routeros_dns} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/dns routeros_dns} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -166,7 +166,8 @@ export class Dns extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_dns',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.90.0'
+        providerVersion: '1.91.0',
+        providerVersionConstraint: '1.91.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

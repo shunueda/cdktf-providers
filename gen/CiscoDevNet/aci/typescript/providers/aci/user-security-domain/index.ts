@@ -76,7 +76,8 @@ export class UserSecurityDomain extends cdktf.TerraformResource {
       terraformResourceType: 'aci_user_security_domain',
       terraformGeneratorMetadata: {
         providerName: 'aci',
-        providerVersion: '2.18.0'
+        providerVersion: '2.18.0',
+        providerVersionConstraint: '2.18.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

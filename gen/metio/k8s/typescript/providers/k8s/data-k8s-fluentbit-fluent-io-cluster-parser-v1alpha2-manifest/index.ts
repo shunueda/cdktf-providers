@@ -1245,7 +1245,8 @@ export class DataK8SFluentbitFluentIoClusterParserV1Alpha2Manifest extends cdktf
       terraformResourceType: 'k8s_fluentbit_fluent_io_cluster_parser_v1alpha2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

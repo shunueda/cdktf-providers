@@ -177,7 +177,8 @@ export class FlexibleengineProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'flexibleengine',
       terraformGeneratorMetadata: {
         providerName: 'flexibleengine',
-        providerVersion: '1.46.0'
+        providerVersion: '1.46.0',
+        providerVersionConstraint: '1.46.0'
       },
       terraformProviderSource: 'FlexibleEngineCloud/flexibleengine'
     });

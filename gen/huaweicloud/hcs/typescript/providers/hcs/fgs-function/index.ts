@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,143 +10,143 @@ export interface FgsFunctionConfig extends cdktf.TerraformMetaArguments {
   /**
   * The agency configuration of the function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#agency FgsFunction#agency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#agency FgsFunction#agency}
   */
   readonly agency?: string;
   /**
   * The group to which the function belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#app FgsFunction#app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#app FgsFunction#app}
   */
   readonly app?: string;
   /**
   * The execution agency enables you to obtain a token or an AK/SK for accessing other cloud services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#app_agency FgsFunction#app_agency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#app_agency FgsFunction#app_agency}
   */
   readonly appAgency?: string;
   /**
   * The KMS key ID for encrypting the function code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#code_encrypt_kms_key_id FgsFunction#code_encrypt_kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#code_encrypt_kms_key_id FgsFunction#code_encrypt_kms_key_id}
   */
   readonly codeEncryptKmsKeyId?: string;
   /**
   * The name of the function file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#code_filename FgsFunction#code_filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#code_filename FgsFunction#code_filename}
   */
   readonly codeFilename?: string;
   /**
   * The code type of the function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#code_type FgsFunction#code_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#code_type FgsFunction#code_type}
   */
   readonly codeType?: string;
   /**
   * The URL where the function code is stored in OBS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#code_url FgsFunction#code_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#code_url FgsFunction#code_url}
   */
   readonly codeUrl?: string;
   /**
   * The number of concurrent requests of the function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#concurrency_num FgsFunction#concurrency_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#concurrency_num FgsFunction#concurrency_num}
   */
   readonly concurrencyNum?: number;
   /**
   * The ID list of the dependencies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#depend_list FgsFunction#depend_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#depend_list FgsFunction#depend_list}
   */
   readonly dependList?: string[];
   /**
   * The description of the function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#description FgsFunction#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#description FgsFunction#description}
   */
   readonly description?: string;
   /**
   * The private DNS configuration of the function network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#dns_list FgsFunction#dns_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#dns_list FgsFunction#dns_list}
   */
   readonly dnsList?: string;
   /**
   * Whether the authentication in the request header is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#enable_auth_in_header FgsFunction#enable_auth_in_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#enable_auth_in_header FgsFunction#enable_auth_in_header}
   */
   readonly enableAuthInHeader?: boolean | cdktf.IResolvable;
   /**
   * Whether the class isolation is enabled for the JAVA runtime functions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#enable_class_isolation FgsFunction#enable_class_isolation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#enable_class_isolation FgsFunction#enable_class_isolation}
   */
   readonly enableClassIsolation?: boolean | cdktf.IResolvable;
   /**
   * Whether the dynamic memory configuration is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#enable_dynamic_memory FgsFunction#enable_dynamic_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#enable_dynamic_memory FgsFunction#enable_dynamic_memory}
   */
   readonly enableDynamicMemory?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable the LTS log.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#enable_lts_log FgsFunction#enable_lts_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#enable_lts_log FgsFunction#enable_lts_log}
   */
   readonly enableLtsLog?: boolean | cdktf.IResolvable;
   /**
   * The ID of the enterprise project to which the function belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#enterprise_project_id FgsFunction#enterprise_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#enterprise_project_id FgsFunction#enterprise_project_id}
   */
   readonly enterpriseProjectId?: string;
   /**
   * The size of the function ephemeral storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#ephemeral_storage FgsFunction#ephemeral_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#ephemeral_storage FgsFunction#ephemeral_storage}
   */
   readonly ephemeralStorage?: number;
   /**
   * The function code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#func_code FgsFunction#func_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#func_code FgsFunction#func_code}
   */
   readonly funcCode?: string;
   /**
   * The description of the function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#functiongraph_version FgsFunction#functiongraph_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#functiongraph_version FgsFunction#functiongraph_version}
   */
   readonly functiongraphVersion?: string;
   /**
   * The GPU memory size allocated to the function, in MByte (MB).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#gpu_memory FgsFunction#gpu_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#gpu_memory FgsFunction#gpu_memory}
   */
   readonly gpuMemory?: number;
   /**
   * The GPU type of the function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#gpu_type FgsFunction#gpu_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#gpu_type FgsFunction#gpu_type}
   */
   readonly gpuType?: string;
   /**
   * The entry point of the function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#handler FgsFunction#handler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#handler FgsFunction#handler}
   */
   readonly handler?: string;
   /**
   * The heartbeat handler of the function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#heartbeat_handler FgsFunction#heartbeat_handler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#heartbeat_handler FgsFunction#heartbeat_handler}
   */
   readonly heartbeatHandler?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#id FgsFunction#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#id FgsFunction#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -155,209 +155,207 @@ export interface FgsFunctionConfig extends cdktf.TerraformMetaArguments {
   /**
   * The initializer of the function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#initializer_handler FgsFunction#initializer_handler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#initializer_handler FgsFunction#initializer_handler}
   */
   readonly initializerHandler?: string;
   /**
   * The maximum duration the function can be initialized.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#initializer_timeout FgsFunction#initializer_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#initializer_timeout FgsFunction#initializer_timeout}
   */
   readonly initializerTimeout?: number;
   /**
   * Whether the function is a stateful function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#is_stateful_function FgsFunction#is_stateful_function}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#is_stateful_function FgsFunction#is_stateful_function}
   */
   readonly isStatefulFunction?: boolean | cdktf.IResolvable;
   /**
   * The LTS group ID for collecting logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#log_group_id FgsFunction#log_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#log_group_id FgsFunction#log_group_id}
   */
   readonly logGroupId?: string;
   /**
   * The LTS group name for collecting logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#log_group_name FgsFunction#log_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#log_group_name FgsFunction#log_group_name}
   */
   readonly logGroupName?: string;
   /**
   * The LTS stream ID for collecting logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#log_stream_id FgsFunction#log_stream_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#log_stream_id FgsFunction#log_stream_id}
   */
   readonly logStreamId?: string;
   /**
   * The LTS stream name for collecting logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#log_stream_name FgsFunction#log_stream_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#log_stream_name FgsFunction#log_stream_name}
   */
   readonly logStreamName?: string;
   /**
   * The custom tags configuration that used to filter the LTS logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#lts_custom_tag FgsFunction#lts_custom_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#lts_custom_tag FgsFunction#lts_custom_tag}
   */
   readonly ltsCustomTag?: { [key: string]: string };
   /**
   * The script configuration value of this change is also the original value used for comparison with
   *  the new value next time the change is made. The corresponding parameter name is 'lts_custom_tag'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#lts_custom_tag_origin FgsFunction#lts_custom_tag_origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#lts_custom_tag_origin FgsFunction#lts_custom_tag_origin}
   */
   readonly ltsCustomTagOrigin?: { [key: string]: string };
   /**
   * The maximum number of instances of the function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#max_instance_num FgsFunction#max_instance_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#max_instance_num FgsFunction#max_instance_num}
   */
   readonly maxInstanceNum?: string;
   /**
   * The memory size allocated to the function, in MByte (MB).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#memory_size FgsFunction#memory_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#memory_size FgsFunction#memory_size}
   */
   readonly memorySize: number;
   /**
   * The mount user group ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#mount_user_group_id FgsFunction#mount_user_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#mount_user_group_id FgsFunction#mount_user_group_id}
   */
   readonly mountUserGroupId?: number;
   /**
   * The mount user ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#mount_user_id FgsFunction#mount_user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#mount_user_id FgsFunction#mount_user_id}
   */
   readonly mountUserId?: number;
   /**
   * The name of the function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#name FgsFunction#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#name FgsFunction#name}
   */
   readonly name: string;
   /**
   * The network ID of subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#network_id FgsFunction#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#network_id FgsFunction#network_id}
   */
   readonly networkId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#package FgsFunction#package}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#package FgsFunction#package}
   */
   readonly package?: string;
   /**
   * The VPC CIDR blocks used in the function code to detect whether it conflicts with the VPC
   * CIDR blocks used by the service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#peering_cidr FgsFunction#peering_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#peering_cidr FgsFunction#peering_cidr}
   */
   readonly peeringCidr?: string;
   /**
   * The pre-stop handler of a function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#pre_stop_handler FgsFunction#pre_stop_handler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#pre_stop_handler FgsFunction#pre_stop_handler}
   */
   readonly preStopHandler?: string;
   /**
   * The maximum duration that the function can be initialized.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#pre_stop_timeout FgsFunction#pre_stop_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#pre_stop_timeout FgsFunction#pre_stop_timeout}
   */
   readonly preStopTimeout?: number;
   /**
   * The region where the function is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#region FgsFunction#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#region FgsFunction#region}
   */
   readonly region?: string;
   /**
   * The restore hook handler of the function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#restore_hook_handler FgsFunction#restore_hook_handler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#restore_hook_handler FgsFunction#restore_hook_handler}
   */
   readonly restoreHookHandler?: string;
   /**
   * The timeout of the function restore hook.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#restore_hook_timeout FgsFunction#restore_hook_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#restore_hook_timeout FgsFunction#restore_hook_timeout}
   */
   readonly restoreHookTimeout?: number;
   /**
   * The environment for executing the function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#runtime FgsFunction#runtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#runtime FgsFunction#runtime}
   */
   readonly runtime: string;
   /**
-  * The key/value pairs to associate with the function.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#tags FgsFunction#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#tags FgsFunction#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The timeout interval of the function, in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#timeout FgsFunction#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#timeout FgsFunction#timeout}
   */
   readonly timeout: number;
   /**
   * The key/value information defined for the function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#user_data FgsFunction#user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#user_data FgsFunction#user_data}
   */
   readonly userData?: string;
   /**
   * The KMS key ID for encrypting the user data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#user_data_encrypt_kms_key_id FgsFunction#user_data_encrypt_kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#user_data_encrypt_kms_key_id FgsFunction#user_data_encrypt_kms_key_id}
   */
   readonly userDataEncryptKmsKeyId?: string;
   /**
   * The ID of the VPC to which the function belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#vpc_id FgsFunction#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#vpc_id FgsFunction#vpc_id}
   */
   readonly vpcId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#xrole FgsFunction#xrole}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#xrole FgsFunction#xrole}
   */
   readonly xrole?: string;
   /**
   * custom_image block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#custom_image FgsFunction#custom_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#custom_image FgsFunction#custom_image}
   */
   readonly customImage?: FgsFunctionCustomImage;
   /**
   * func_mounts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#func_mounts FgsFunction#func_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#func_mounts FgsFunction#func_mounts}
   */
   readonly funcMounts?: FgsFunctionFuncMounts[] | cdktf.IResolvable;
   /**
   * network_controller block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#network_controller FgsFunction#network_controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#network_controller FgsFunction#network_controller}
   */
   readonly networkController?: FgsFunctionNetworkController;
   /**
   * reserved_instances block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#reserved_instances FgsFunction#reserved_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#reserved_instances FgsFunction#reserved_instances}
   */
   readonly reservedInstances?: FgsFunctionReservedInstances[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#timeouts FgsFunction#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#timeouts FgsFunction#timeouts}
   */
   readonly timeouts?: FgsFunctionTimeouts;
   /**
   * versions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#versions FgsFunction#versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#versions FgsFunction#versions}
   */
   readonly versions?: FgsFunctionVersions[] | cdktf.IResolvable;
 }
@@ -365,37 +363,37 @@ export interface FgsFunctionCustomImage {
   /**
   * The command line arguments used to start the SWR image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#args FgsFunction#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#args FgsFunction#args}
   */
   readonly args?: string;
   /**
   * The startup commands of the SWR image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#command FgsFunction#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#command FgsFunction#command}
   */
   readonly command?: string;
   /**
   * The URL of SWR image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#url FgsFunction#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#url FgsFunction#url}
   */
   readonly url: string;
   /**
   * The user group ID that used to run SWR image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#user_group_id FgsFunction#user_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#user_group_id FgsFunction#user_group_id}
   */
   readonly userGroupId?: string;
   /**
   * The user ID that used to run SWR image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#user_id FgsFunction#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#user_id FgsFunction#user_id}
   */
   readonly userId?: string;
   /**
   * The working directory of the SWR image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#working_dir FgsFunction#working_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#working_dir FgsFunction#working_dir}
   */
   readonly workingDir?: string;
 }
@@ -623,25 +621,25 @@ export interface FgsFunctionFuncMounts {
   /**
   * The function access path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#local_mount_path FgsFunction#local_mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#local_mount_path FgsFunction#local_mount_path}
   */
   readonly localMountPath: string;
   /**
   * The ID of the mounted resource (corresponding cloud service).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#mount_resource FgsFunction#mount_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#mount_resource FgsFunction#mount_resource}
   */
   readonly mountResource: string;
   /**
   * The remote mount path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#mount_share_path FgsFunction#mount_share_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#mount_share_path FgsFunction#mount_share_path}
   */
   readonly mountSharePath?: string;
   /**
   * The mount type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#mount_type FgsFunction#mount_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#mount_type FgsFunction#mount_type}
   */
   readonly mountType: string;
 }
@@ -842,13 +840,13 @@ export interface FgsFunctionNetworkControllerTriggerAccessVpcs {
   /**
   * The ID of the VPC that can trigger the function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#vpc_id FgsFunction#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#vpc_id FgsFunction#vpc_id}
   */
   readonly vpcId?: string;
   /**
   * The ID of the VPC that can trigger the function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#vpc_name FgsFunction#vpc_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#vpc_name FgsFunction#vpc_name}
   */
   readonly vpcName?: string;
 }
@@ -995,13 +993,13 @@ export interface FgsFunctionNetworkController {
   /**
   * Whether to disable the public network access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#disable_public_network FgsFunction#disable_public_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#disable_public_network FgsFunction#disable_public_network}
   */
   readonly disablePublicNetwork?: boolean | cdktf.IResolvable;
   /**
   * trigger_access_vpcs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#trigger_access_vpcs FgsFunction#trigger_access_vpcs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#trigger_access_vpcs FgsFunction#trigger_access_vpcs}
   */
   readonly triggerAccessVpcs?: FgsFunctionNetworkControllerTriggerAccessVpcs[] | cdktf.IResolvable;
 }
@@ -1116,31 +1114,31 @@ export interface FgsFunctionReservedInstancesTacticsConfigCronConfigs {
   /**
   * The number of reserved instance to which the policy belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#count FgsFunction#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#count FgsFunction#count}
   */
   readonly count: number;
   /**
   * The cron expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#cron FgsFunction#cron}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#cron FgsFunction#cron}
   */
   readonly cron: string;
   /**
   * The expiration timestamp of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#expired_time FgsFunction#expired_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#expired_time FgsFunction#expired_time}
   */
   readonly expiredTime: number;
   /**
   * The name of scheduled policy configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#name FgsFunction#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#name FgsFunction#name}
   */
   readonly name: string;
   /**
   * The effective timestamp of policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#start_time FgsFunction#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#start_time FgsFunction#start_time}
   */
   readonly startTime: number;
 }
@@ -1359,25 +1357,25 @@ export interface FgsFunctionReservedInstancesTacticsConfigMetricConfigs {
   /**
   * The minimun of traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#min FgsFunction#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#min FgsFunction#min}
   */
   readonly min: number;
   /**
   * The name of metric policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#name FgsFunction#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#name FgsFunction#name}
   */
   readonly name: string;
   /**
   * The metric policy threshold.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#threshold FgsFunction#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#threshold FgsFunction#threshold}
   */
   readonly threshold: number;
   /**
   * The type of metric policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#type FgsFunction#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#type FgsFunction#type}
   */
   readonly type: string;
 }
@@ -1570,13 +1568,13 @@ export interface FgsFunctionReservedInstancesTacticsConfig {
   /**
   * cron_configs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#cron_configs FgsFunction#cron_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#cron_configs FgsFunction#cron_configs}
   */
   readonly cronConfigs?: FgsFunctionReservedInstancesTacticsConfigCronConfigs[] | cdktf.IResolvable;
   /**
   * metric_configs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#metric_configs FgsFunction#metric_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#metric_configs FgsFunction#metric_configs}
   */
   readonly metricConfigs?: FgsFunctionReservedInstancesTacticsConfigMetricConfigs[] | cdktf.IResolvable;
 }
@@ -1691,31 +1689,31 @@ export interface FgsFunctionReservedInstances {
   /**
   * The number of reserved instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#count FgsFunction#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#count FgsFunction#count}
   */
   readonly count: number;
   /**
   * Whether to enable the idle mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#idle_mode FgsFunction#idle_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#idle_mode FgsFunction#idle_mode}
   */
   readonly idleMode?: boolean | cdktf.IResolvable;
   /**
   * The version name or alias name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#qualifier_name FgsFunction#qualifier_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#qualifier_name FgsFunction#qualifier_name}
   */
   readonly qualifierName: string;
   /**
   * The qualifier type of reserved instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#qualifier_type FgsFunction#qualifier_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#qualifier_type FgsFunction#qualifier_type}
   */
   readonly qualifierType: string;
   /**
   * tactics_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#tactics_config FgsFunction#tactics_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#tactics_config FgsFunction#tactics_config}
   */
   readonly tacticsConfig?: FgsFunctionReservedInstancesTacticsConfig;
 }
@@ -1938,11 +1936,11 @@ export class FgsFunctionReservedInstancesList extends cdktf.ComplexList {
 }
 export interface FgsFunctionTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#create FgsFunction#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#create FgsFunction#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#delete FgsFunction#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#delete FgsFunction#delete}
   */
   readonly delete?: string;
 }
@@ -2067,25 +2065,25 @@ export interface FgsFunctionVersionsAliases {
   /**
   * The description of the version alias.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#additional_version_strategy FgsFunction#additional_version_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#additional_version_strategy FgsFunction#additional_version_strategy}
   */
   readonly additionalVersionStrategy?: string;
   /**
   * The percentage grayscale configuration of the version alias.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#additional_version_weights FgsFunction#additional_version_weights}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#additional_version_weights FgsFunction#additional_version_weights}
   */
   readonly additionalVersionWeights?: string;
   /**
   * The description of the version alias.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#description FgsFunction#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#description FgsFunction#description}
   */
   readonly description?: string;
   /**
   * The name of the version alias.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#name FgsFunction#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#name FgsFunction#name}
   */
   readonly name: string;
 }
@@ -2255,19 +2253,19 @@ export interface FgsFunctionVersions {
   /**
   * The description of the version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#description FgsFunction#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#description FgsFunction#description}
   */
   readonly description?: string;
   /**
   * The version name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#name FgsFunction#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#name FgsFunction#name}
   */
   readonly name: string;
   /**
   * aliases block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#aliases FgsFunction#aliases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#aliases FgsFunction#aliases}
   */
   readonly aliases?: FgsFunctionVersionsAliases;
 }
@@ -2438,7 +2436,7 @@ export class FgsFunctionVersionsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function hcs_fgs_function}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function hcs_fgs_function}
 */
 export class FgsFunction extends cdktf.TerraformResource {
 
@@ -2454,7 +2452,7 @@ export class FgsFunction extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FgsFunction resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FgsFunction to import
-  * @param importFromId The id of the existing FgsFunction that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FgsFunction that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FgsFunction to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2466,7 +2464,7 @@ export class FgsFunction extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/fgs_function hcs_fgs_function} Resource
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/fgs_function hcs_fgs_function} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2477,7 +2475,8 @@ export class FgsFunction extends cdktf.TerraformResource {
       terraformResourceType: 'hcs_fgs_function',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.19'
+        providerVersion: '2.4.20',
+        providerVersionConstraint: '2.4.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -3300,7 +3299,7 @@ export class FgsFunction extends cdktf.TerraformResource {
     return this._runtime;
   }
 
-  // tags - computed: true, optional: true, required: false
+  // tags - computed: false, optional: true, required: false
   private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');

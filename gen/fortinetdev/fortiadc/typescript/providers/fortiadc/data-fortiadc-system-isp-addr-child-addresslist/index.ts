@@ -68,7 +68,8 @@ export class DataFortiadcSystemIspAddrChildAddresslist extends cdktf.TerraformDa
       terraformResourceType: 'fortiadc_system_isp_addr_child_addresslist',
       terraformGeneratorMetadata: {
         providerName: 'fortiadc',
-        providerVersion: '1.3.1'
+        providerVersion: '1.3.1',
+        providerVersionConstraint: '1.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

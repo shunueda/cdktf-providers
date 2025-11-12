@@ -67,7 +67,8 @@ export class DataStackitLogmeCredential extends cdktf.TerraformDataSource {
       terraformResourceType: 'stackit_logme_credential',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.69.0'
+        providerVersion: '0.69.0',
+        providerVersionConstraint: '0.69.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

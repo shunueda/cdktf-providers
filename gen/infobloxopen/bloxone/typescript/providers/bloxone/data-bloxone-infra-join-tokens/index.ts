@@ -304,7 +304,8 @@ export class DataBloxoneInfraJoinTokens extends cdktf.TerraformDataSource {
       terraformResourceType: 'bloxone_infra_join_tokens',
       terraformGeneratorMetadata: {
         providerName: 'bloxone',
-        providerVersion: '1.5.3'
+        providerVersion: '1.5.3',
+        providerVersionConstraint: '1.5.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

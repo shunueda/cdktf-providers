@@ -62,7 +62,8 @@ export class DataDatadogSensitiveDataScannerStandardPattern extends cdktf.Terraf
       terraformResourceType: 'datadog_sensitive_data_scanner_standard_pattern',
       terraformGeneratorMetadata: {
         providerName: 'datadog',
-        providerVersion: '3.79.0'
+        providerVersion: '3.79.0',
+        providerVersionConstraint: '3.79.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/data-sources/fabric_stream_attachments
+// https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/fabric_stream_attachments
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataEquinixFabricStreamAttachmentsConfig extends cdktf.Terrafor
   /**
   * List of filters to apply to the stream attachment get request. Maximum of 8. All will be AND'd together with 1 of the 8 being a possible OR group of 3
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/data-sources/fabric_stream_attachments#filters DataEquinixFabricStreamAttachments#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/fabric_stream_attachments#filters DataEquinixFabricStreamAttachments#filters}
   */
   readonly filters?: DataEquinixFabricStreamAttachmentsFilters[] | cdktf.IResolvable;
   /**
   * Pagination details for the returned streams list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/data-sources/fabric_stream_attachments#pagination DataEquinixFabricStreamAttachments#pagination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/fabric_stream_attachments#pagination DataEquinixFabricStreamAttachments#pagination}
   */
   readonly pagination: DataEquinixFabricStreamAttachmentsPagination;
   /**
   * The list of sort criteria for the stream assets search request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/data-sources/fabric_stream_attachments#sort DataEquinixFabricStreamAttachments#sort}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/fabric_stream_attachments#sort DataEquinixFabricStreamAttachments#sort}
   */
   readonly sort?: DataEquinixFabricStreamAttachmentsSort[] | cdktf.IResolvable;
 }
@@ -125,25 +125,25 @@ export interface DataEquinixFabricStreamAttachmentsFilters {
   /**
   * Operation applied to the values of the filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/data-sources/fabric_stream_attachments#operator DataEquinixFabricStreamAttachments#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/fabric_stream_attachments#operator DataEquinixFabricStreamAttachments#operator}
   */
   readonly operator: string;
   /**
   * Boolean value to specify if this filter is a part of the OR group. Has a maximum of 3 and only counts for 1 of the 8 possible filters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/data-sources/fabric_stream_attachments#or DataEquinixFabricStreamAttachments#or}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/fabric_stream_attachments#or DataEquinixFabricStreamAttachments#or}
   */
   readonly or?: boolean | cdktf.IResolvable;
   /**
   * Property to apply the filter to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/data-sources/fabric_stream_attachments#property DataEquinixFabricStreamAttachments#property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/fabric_stream_attachments#property DataEquinixFabricStreamAttachments#property}
   */
   readonly property: string;
   /**
   * List of values to apply the operation to for the specified property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/data-sources/fabric_stream_attachments#values DataEquinixFabricStreamAttachments#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/fabric_stream_attachments#values DataEquinixFabricStreamAttachments#values}
   */
   readonly values: string[];
 }
@@ -339,13 +339,13 @@ export interface DataEquinixFabricStreamAttachmentsPagination {
   /**
   * Maximum number of search results returned per page. Number must be between 1 and 100, and the default is 20
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/data-sources/fabric_stream_attachments#limit DataEquinixFabricStreamAttachments#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/fabric_stream_attachments#limit DataEquinixFabricStreamAttachments#limit}
   */
   readonly limit?: number;
   /**
   * Index of the first item returned in the response. The default is 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/data-sources/fabric_stream_attachments#offset DataEquinixFabricStreamAttachments#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/fabric_stream_attachments#offset DataEquinixFabricStreamAttachments#offset}
   */
   readonly offset?: number;
 }
@@ -485,13 +485,13 @@ export interface DataEquinixFabricStreamAttachmentsSort {
   /**
   * The sorting direction of the property chosen. ASC or DESC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/data-sources/fabric_stream_attachments#direction DataEquinixFabricStreamAttachments#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/fabric_stream_attachments#direction DataEquinixFabricStreamAttachments#direction}
   */
   readonly direction: string;
   /**
   * The field name the sorting is performed on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/data-sources/fabric_stream_attachments#property DataEquinixFabricStreamAttachments#property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/fabric_stream_attachments#property DataEquinixFabricStreamAttachments#property}
   */
   readonly property: string;
 }
@@ -630,7 +630,7 @@ export class DataEquinixFabricStreamAttachmentsSortList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/data-sources/fabric_stream_attachments equinix_fabric_stream_attachments}
+* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/fabric_stream_attachments equinix_fabric_stream_attachments}
 */
 export class DataEquinixFabricStreamAttachments extends cdktf.TerraformDataSource {
 
@@ -646,7 +646,7 @@ export class DataEquinixFabricStreamAttachments extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataEquinixFabricStreamAttachments resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataEquinixFabricStreamAttachments to import
-  * @param importFromId The id of the existing DataEquinixFabricStreamAttachments that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/data-sources/fabric_stream_attachments#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataEquinixFabricStreamAttachments that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/fabric_stream_attachments#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataEquinixFabricStreamAttachments to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -658,7 +658,7 @@ export class DataEquinixFabricStreamAttachments extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/data-sources/fabric_stream_attachments equinix_fabric_stream_attachments} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/fabric_stream_attachments equinix_fabric_stream_attachments} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -669,7 +669,8 @@ export class DataEquinixFabricStreamAttachments extends cdktf.TerraformDataSourc
       terraformResourceType: 'equinix_fabric_stream_attachments',
       terraformGeneratorMetadata: {
         providerName: 'equinix',
-        providerVersion: '4.8.0'
+        providerVersion: '4.10.0',
+        providerVersionConstraint: '4.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

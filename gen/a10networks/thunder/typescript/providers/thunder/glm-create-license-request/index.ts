@@ -68,7 +68,8 @@ export class GlmCreateLicenseRequestA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_glm_create_license_request',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

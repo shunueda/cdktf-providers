@@ -262,7 +262,8 @@ export class ExpressConnectVirtualPhysicalConnection extends cdktf.TerraformReso
       terraformResourceType: 'alicloud_express_connect_virtual_physical_connection',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

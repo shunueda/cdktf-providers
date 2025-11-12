@@ -97,7 +97,8 @@ export class StackitProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'stackit',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '1.34.3'
+        providerVersion: '1.34.3',
+        providerVersionConstraint: '1.34.3'
       },
       terraformProviderSource: 'SchwarzIT/stackit'
     });

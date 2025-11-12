@@ -67,7 +67,8 @@ export class NetworkAccessAuthenticationRuleUpdateRank extends cdktf.TerraformRe
       terraformResourceType: 'ise_network_access_authentication_rule_update_rank',
       terraformGeneratorMetadata: {
         providerName: 'ise',
-        providerVersion: '0.2.12'
+        providerVersion: '0.2.12',
+        providerVersionConstraint: '0.2.12'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

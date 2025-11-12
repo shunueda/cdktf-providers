@@ -80,7 +80,8 @@ export class DataKubectlPathDocuments extends cdktf.TerraformDataSource {
       terraformResourceType: 'kubectl_path_documents',
       terraformGeneratorMetadata: {
         providerName: 'kubectl',
-        providerVersion: '2.1.3'
+        providerVersion: '2.1.3',
+        providerVersionConstraint: '2.1.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

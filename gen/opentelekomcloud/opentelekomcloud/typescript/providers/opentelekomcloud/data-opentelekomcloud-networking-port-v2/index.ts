@@ -108,7 +108,8 @@ export class DataOpentelekomcloudNetworkingPortV2 extends cdktf.TerraformDataSou
       terraformResourceType: 'opentelekomcloud_networking_port_v2',
       terraformGeneratorMetadata: {
         providerName: 'opentelekomcloud',
-        providerVersion: '1.36.52'
+        providerVersion: '1.36.52',
+        providerVersionConstraint: '1.36.52'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

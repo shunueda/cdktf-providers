@@ -159,7 +159,8 @@ export class DataShellScript extends cdktf.TerraformDataSource {
       terraformResourceType: 'shell_script',
       terraformGeneratorMetadata: {
         providerName: 'shell',
-        providerVersion: '1.7.10'
+        providerVersion: '1.7.10',
+        providerVersionConstraint: '1.7.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

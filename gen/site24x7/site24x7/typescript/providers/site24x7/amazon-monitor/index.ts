@@ -128,7 +128,8 @@ export class AmazonMonitor extends cdktf.TerraformResource {
       terraformResourceType: 'site24x7_amazon_monitor',
       terraformGeneratorMetadata: {
         providerName: 'site24x7',
-        providerVersion: '2.0.3'
+        providerVersion: '2.0.3',
+        providerVersionConstraint: '2.0.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

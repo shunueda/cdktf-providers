@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/networking_ip
+// https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/networking_ip
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataLinodeNetworkingIpConfig extends cdktf.TerraformMetaArgumen
   /**
   * The IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/networking_ip#address DataLinodeNetworkingIp#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/networking_ip#address DataLinodeNetworkingIp#address}
   */
   readonly address: string;
 }
@@ -80,7 +80,7 @@ export class DataLinodeNetworkingIpVpcNat11OutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/networking_ip linode_networking_ip}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/networking_ip linode_networking_ip}
 */
 export class DataLinodeNetworkingIp extends cdktf.TerraformDataSource {
 
@@ -96,7 +96,7 @@ export class DataLinodeNetworkingIp extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataLinodeNetworkingIp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataLinodeNetworkingIp to import
-  * @param importFromId The id of the existing DataLinodeNetworkingIp that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/networking_ip#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataLinodeNetworkingIp that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/networking_ip#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataLinodeNetworkingIp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -108,7 +108,7 @@ export class DataLinodeNetworkingIp extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/networking_ip linode_networking_ip} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/networking_ip linode_networking_ip} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -119,7 +119,8 @@ export class DataLinodeNetworkingIp extends cdktf.TerraformDataSource {
       terraformResourceType: 'linode_networking_ip',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.5.0'
+        providerVersion: '3.5.1',
+        providerVersionConstraint: '3.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

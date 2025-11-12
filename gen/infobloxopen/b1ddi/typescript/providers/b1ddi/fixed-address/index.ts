@@ -1450,7 +1450,8 @@ export class FixedAddress extends cdktf.TerraformResource {
       terraformResourceType: 'b1ddi_fixed_address',
       terraformGeneratorMetadata: {
         providerName: 'b1ddi',
-        providerVersion: '0.1.5'
+        providerVersion: '0.1.5',
+        providerVersionConstraint: '0.1.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

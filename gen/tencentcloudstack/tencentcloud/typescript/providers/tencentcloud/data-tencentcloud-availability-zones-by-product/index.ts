@@ -170,7 +170,8 @@ export class DataTencentcloudAvailabilityZonesByProduct extends cdktf.TerraformD
       terraformResourceType: 'tencentcloud_availability_zones_by_product',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

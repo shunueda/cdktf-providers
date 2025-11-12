@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/routing_ospf_area
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/routing_ospf_area
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface RoutingOspfAreaConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/routing_ospf_area#___path___ RoutingOspfArea#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/routing_ospf_area#___path___ RoutingOspfArea#___path___}
   */
   readonly path?: string;
   /**
   * <em>A set of fields that require setting/unsetting. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/routing_ospf_area#___unset___ RoutingOspfArea#___unset___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/routing_ospf_area#___unset___ RoutingOspfArea#___unset___}
   */
   readonly unset?: string;
   /**
   * OSPF area identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/routing_ospf_area#area_id RoutingOspfArea#area_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/routing_ospf_area#area_id RoutingOspfArea#area_id}
   */
   readonly areaId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/routing_ospf_area#comment RoutingOspfArea#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/routing_ospf_area#comment RoutingOspfArea#comment}
   */
   readonly comment?: string;
   /**
   * Default cost of injected LSAs into the area.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/routing_ospf_area#default_cost RoutingOspfArea#default_cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/routing_ospf_area#default_cost RoutingOspfArea#default_cost}
   */
   readonly defaultCost?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/routing_ospf_area#disabled RoutingOspfArea#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/routing_ospf_area#disabled RoutingOspfArea#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/routing_ospf_area#id RoutingOspfArea#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/routing_ospf_area#id RoutingOspfArea#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -49,7 +49,7 @@ export interface RoutingOspfAreaConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the OSPF instance this area belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/routing_ospf_area#instance RoutingOspfArea#instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/routing_ospf_area#instance RoutingOspfArea#instance}
   */
   readonly instance: string;
   /**
@@ -58,31 +58,31 @@ export interface RoutingOspfAreaConfig extends cdktf.TerraformMetaArguments {
   * 	> Changing the name of the resource outside of a Terraform will result in a loss of control integrity for that resource!
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/routing_ospf_area#name RoutingOspfArea#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/routing_ospf_area#name RoutingOspfArea#name}
   */
   readonly name: string;
   /**
   * If set then the area will not flood summary LSAs in the stub area. <em>The correct value of this attribute may not be displayed in Winbox. Please check the parameters in the console!</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/routing_ospf_area#no_summaries RoutingOspfArea#no_summaries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/routing_ospf_area#no_summaries RoutingOspfArea#no_summaries}
   */
   readonly noSummaries?: boolean | cdktf.IResolvable;
   /**
   * The parameter indicates which ABR will be used as a translator from type7 to type5 LSA.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/routing_ospf_area#nssa_translate RoutingOspfArea#nssa_translate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/routing_ospf_area#nssa_translate RoutingOspfArea#nssa_translate}
   */
   readonly nssaTranslate?: string;
   /**
   * The area type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/routing_ospf_area#type RoutingOspfArea#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/routing_ospf_area#type RoutingOspfArea#type}
   */
   readonly type?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/routing_ospf_area routeros_routing_ospf_area}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/routing_ospf_area routeros_routing_ospf_area}
 */
 export class RoutingOspfArea extends cdktf.TerraformResource {
 
@@ -98,7 +98,7 @@ export class RoutingOspfArea extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RoutingOspfArea resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RoutingOspfArea to import
-  * @param importFromId The id of the existing RoutingOspfArea that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/routing_ospf_area#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RoutingOspfArea that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/routing_ospf_area#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RoutingOspfArea to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -110,7 +110,7 @@ export class RoutingOspfArea extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/routing_ospf_area routeros_routing_ospf_area} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/routing_ospf_area routeros_routing_ospf_area} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -121,7 +121,8 @@ export class RoutingOspfArea extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_routing_ospf_area',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.90.0'
+        providerVersion: '1.91.0',
+        providerVersionConstraint: '1.91.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

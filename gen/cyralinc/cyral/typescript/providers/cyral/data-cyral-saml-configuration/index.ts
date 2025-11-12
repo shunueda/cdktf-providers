@@ -61,7 +61,8 @@ export class DataCyralSamlConfiguration extends cdktf.TerraformDataSource {
       terraformResourceType: 'cyral_saml_configuration',
       terraformGeneratorMetadata: {
         providerName: 'cyral',
-        providerVersion: '4.16.3'
+        providerVersion: '4.16.3',
+        providerVersionConstraint: '4.16.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

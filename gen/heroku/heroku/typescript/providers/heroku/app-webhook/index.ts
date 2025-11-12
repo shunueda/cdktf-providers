@@ -80,7 +80,8 @@ export class AppWebhook extends cdktf.TerraformResource {
       terraformResourceType: 'heroku_app_webhook',
       terraformGeneratorMetadata: {
         providerName: 'heroku',
-        providerVersion: '5.3.2'
+        providerVersion: '5.3.2',
+        providerVersionConstraint: '5.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

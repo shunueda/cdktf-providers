@@ -216,7 +216,8 @@ export class TaskList extends cdktf.TerraformResource {
       terraformResourceType: 'firehydrant_task_list',
       terraformGeneratorMetadata: {
         providerName: 'firehydrant',
-        providerVersion: '0.14.9'
+        providerVersion: '0.14.9',
+        providerVersionConstraint: '0.14.9'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

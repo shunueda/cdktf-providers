@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_link
+// https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_link
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface FreeformLinkConfig extends cdktf.TerraformMetaArguments {
   /**
   * Apstra Blueprint ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_link#blueprint_id FreeformLink#blueprint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_link#blueprint_id FreeformLink#blueprint_id}
   */
   readonly blueprintId: string;
   /**
   * Endpoints of the  Link, a Map keyed by System ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_link#endpoints FreeformLink#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_link#endpoints FreeformLink#endpoints}
   */
   readonly endpoints: { [key: string]: FreeformLinkEndpoints } | cdktf.IResolvable;
   /**
   * Freeform Link name as shown in the Web UI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_link#name FreeformLink#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_link#name FreeformLink#name}
   */
   readonly name: string;
   /**
   * Set of Tag labels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_link#tags FreeformLink#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_link#tags FreeformLink#tags}
   */
   readonly tags?: string[];
 }
@@ -36,31 +36,31 @@ export interface FreeformLinkEndpoints {
   /**
   * The interface name, as found in the associated Device Profile, e.g. `xe-0/0/0`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_link#interface_name FreeformLink#interface_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_link#interface_name FreeformLink#interface_name}
   */
   readonly interfaceName?: string;
   /**
   * Ipv4 address of the interface in CIDR notation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_link#ipv4_address FreeformLink#ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_link#ipv4_address FreeformLink#ipv4_address}
   */
   readonly ipv4Address?: string;
   /**
   * Ipv6 address of the interface in CIDR notation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_link#ipv6_address FreeformLink#ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_link#ipv6_address FreeformLink#ipv6_address}
   */
   readonly ipv6Address?: string;
   /**
   * Set of Tags applied to the interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_link#tags FreeformLink#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_link#tags FreeformLink#tags}
   */
   readonly tags?: string[];
   /**
   * ID # of the transformation in the Device Profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_link#transformation_id FreeformLink#transformation_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_link#transformation_id FreeformLink#transformation_id}
   */
   readonly transformationId?: number;
 }
@@ -295,7 +295,7 @@ export class FreeformLinkEndpointsMap extends cdktf.ComplexMap {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_link apstra_freeform_link}
+* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_link apstra_freeform_link}
 */
 export class FreeformLink extends cdktf.TerraformResource {
 
@@ -311,7 +311,7 @@ export class FreeformLink extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FreeformLink resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FreeformLink to import
-  * @param importFromId The id of the existing FreeformLink that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_link#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FreeformLink that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_link#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FreeformLink to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -323,7 +323,7 @@ export class FreeformLink extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_link apstra_freeform_link} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_link apstra_freeform_link} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -334,7 +334,8 @@ export class FreeformLink extends cdktf.TerraformResource {
       terraformResourceType: 'apstra_freeform_link',
       terraformGeneratorMetadata: {
         providerName: 'apstra',
-        providerVersion: '0.95.0'
+        providerVersion: '0.95.1',
+        providerVersionConstraint: '0.95.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

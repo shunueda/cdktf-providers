@@ -263,7 +263,8 @@ export class DataProfitbricksLocation extends cdktf.TerraformDataSource {
       terraformResourceType: 'profitbricks_location',
       terraformGeneratorMetadata: {
         providerName: 'profitbricks',
-        providerVersion: '1.6.5'
+        providerVersion: '1.6.5',
+        providerVersionConstraint: '1.6.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

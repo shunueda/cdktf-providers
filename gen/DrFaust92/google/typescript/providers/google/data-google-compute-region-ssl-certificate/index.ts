@@ -82,7 +82,8 @@ export class DataGoogleComputeRegionSslCertificate extends cdktf.TerraformDataSo
       terraformResourceType: 'google_compute_region_ssl_certificate',
       terraformGeneratorMetadata: {
         providerName: 'google',
-        providerVersion: '4.16.4'
+        providerVersion: '4.16.4',
+        providerVersionConstraint: '4.16.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

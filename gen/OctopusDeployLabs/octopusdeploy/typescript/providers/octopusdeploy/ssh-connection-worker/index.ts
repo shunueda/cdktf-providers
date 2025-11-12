@@ -115,7 +115,8 @@ export class SshConnectionWorker extends cdktf.TerraformResource {
       terraformResourceType: 'octopusdeploy_ssh_connection_worker',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '0.43.2'
+        providerVersion: '0.43.2',
+        providerVersionConstraint: '0.43.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

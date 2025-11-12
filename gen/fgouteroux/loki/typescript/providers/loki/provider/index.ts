@@ -133,7 +133,8 @@ export class LokiProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'loki',
       terraformGeneratorMetadata: {
         providerName: 'loki',
-        providerVersion: '1.0.1'
+        providerVersion: '1.0.1',
+        providerVersionConstraint: '1.0.1'
       },
       terraformProviderSource: 'fgouteroux/loki'
     });

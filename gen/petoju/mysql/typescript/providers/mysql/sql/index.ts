@@ -68,7 +68,8 @@ export class Sql extends cdktf.TerraformResource {
       terraformResourceType: 'mysql_sql',
       terraformGeneratorMetadata: {
         providerName: 'mysql',
-        providerVersion: '3.0.84'
+        providerVersion: '3.0.84',
+        providerVersionConstraint: '3.0.84'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_vpn_community_remote_access
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_vpn_community_remote_access
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataCheckpointManagementVpnCommunityRemoteAccessConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_vpn_community_remote_access#id DataCheckpointManagementVpnCommunityRemoteAccess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_vpn_community_remote_access#id DataCheckpointManagementVpnCommunityRemoteAccess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,99 @@ export interface DataCheckpointManagementVpnCommunityRemoteAccessConfig extends 
   /**
   * Object name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_vpn_community_remote_access#name DataCheckpointManagementVpnCommunityRemoteAccess#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_vpn_community_remote_access#name DataCheckpointManagementVpnCommunityRemoteAccess#name}
   */
   readonly name?: string;
   /**
   * Object unique identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_vpn_community_remote_access#uid DataCheckpointManagementVpnCommunityRemoteAccess#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_vpn_community_remote_access#uid DataCheckpointManagementVpnCommunityRemoteAccess#uid}
   */
   readonly uid?: string;
 }
+export interface DataCheckpointManagementVpnCommunityRemoteAccessOverrideVpnDomains {
+}
+
+export function dataCheckpointManagementVpnCommunityRemoteAccessOverrideVpnDomainsToTerraform(struct?: DataCheckpointManagementVpnCommunityRemoteAccessOverrideVpnDomains): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataCheckpointManagementVpnCommunityRemoteAccessOverrideVpnDomainsToHclTerraform(struct?: DataCheckpointManagementVpnCommunityRemoteAccessOverrideVpnDomains): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataCheckpointManagementVpnCommunityRemoteAccessOverrideVpnDomainsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataCheckpointManagementVpnCommunityRemoteAccessOverrideVpnDomains | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataCheckpointManagementVpnCommunityRemoteAccessOverrideVpnDomains | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // gateway - computed: true, optional: false, required: false
+  public get gateway() {
+    return this.getStringAttribute('gateway');
+  }
+
+  // vpn_domain - computed: true, optional: false, required: false
+  public get vpnDomain() {
+    return this.getStringAttribute('vpn_domain');
+  }
+}
+
+export class DataCheckpointManagementVpnCommunityRemoteAccessOverrideVpnDomainsList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataCheckpointManagementVpnCommunityRemoteAccessOverrideVpnDomainsOutputReference {
+    return new DataCheckpointManagementVpnCommunityRemoteAccessOverrideVpnDomainsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_vpn_community_remote_access checkpoint_management_vpn_community_remote_access}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_vpn_community_remote_access checkpoint_management_vpn_community_remote_access}
 */
 export class DataCheckpointManagementVpnCommunityRemoteAccess extends cdktf.TerraformDataSource {
 
@@ -45,7 +125,7 @@ export class DataCheckpointManagementVpnCommunityRemoteAccess extends cdktf.Terr
   * Generates CDKTF code for importing a DataCheckpointManagementVpnCommunityRemoteAccess resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCheckpointManagementVpnCommunityRemoteAccess to import
-  * @param importFromId The id of the existing DataCheckpointManagementVpnCommunityRemoteAccess that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_vpn_community_remote_access#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCheckpointManagementVpnCommunityRemoteAccess that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_vpn_community_remote_access#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCheckpointManagementVpnCommunityRemoteAccess to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +137,7 @@ export class DataCheckpointManagementVpnCommunityRemoteAccess extends cdktf.Terr
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_vpn_community_remote_access checkpoint_management_vpn_community_remote_access} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_vpn_community_remote_access checkpoint_management_vpn_community_remote_access} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,7 +148,8 @@ export class DataCheckpointManagementVpnCommunityRemoteAccess extends cdktf.Terr
       terraformResourceType: 'checkpoint_management_vpn_community_remote_access',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -132,6 +213,12 @@ export class DataCheckpointManagementVpnCommunityRemoteAccess extends cdktf.Terr
   // Temporarily expose input value. Use with caution.
   public get nameInput() {
     return this._name;
+  }
+
+  // override_vpn_domains - computed: true, optional: false, required: false
+  private _overrideVpnDomains = new DataCheckpointManagementVpnCommunityRemoteAccessOverrideVpnDomainsList(this, "override_vpn_domains", false);
+  public get overrideVpnDomains() {
+    return this._overrideVpnDomains;
   }
 
   // tags - computed: true, optional: false, required: false

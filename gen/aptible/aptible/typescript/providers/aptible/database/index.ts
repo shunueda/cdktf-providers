@@ -92,7 +92,8 @@ export class Database extends cdktf.TerraformResource {
       terraformResourceType: 'aptible_database',
       terraformGeneratorMetadata: {
         providerName: 'aptible',
-        providerVersion: '0.9.18'
+        providerVersion: '0.9.18',
+        providerVersionConstraint: '0.9.18'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

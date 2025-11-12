@@ -153,7 +153,8 @@ export class DataAlicloudGaEndpointGroupIpAddressCidrBlocks extends cdktf.Terraf
       terraformResourceType: 'alicloud_ga_endpoint_group_ip_address_cidr_blocks',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

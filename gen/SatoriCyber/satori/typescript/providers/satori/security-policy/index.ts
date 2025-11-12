@@ -3577,7 +3577,8 @@ export class SecurityPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'satori_security_policy',
       terraformGeneratorMetadata: {
         providerName: 'satori',
-        providerVersion: '0.2.8'
+        providerVersion: '0.2.8',
+        providerVersionConstraint: '0.2.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -64,7 +64,8 @@ export class DataAkamaiBotmanBotEndpointCoverageReport extends cdktf.TerraformDa
       terraformResourceType: 'akamai_botman_bot_endpoint_coverage_report',
       terraformGeneratorMetadata: {
         providerName: 'akamai',
-        providerVersion: '9.1.0'
+        providerVersion: '9.1.0',
+        providerVersionConstraint: '9.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

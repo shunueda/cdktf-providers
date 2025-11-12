@@ -355,7 +355,8 @@ export class DataOciIdentityIdentityProviderGroups extends cdktf.TerraformDataSo
       terraformResourceType: 'oci_identity_identity_provider_groups',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

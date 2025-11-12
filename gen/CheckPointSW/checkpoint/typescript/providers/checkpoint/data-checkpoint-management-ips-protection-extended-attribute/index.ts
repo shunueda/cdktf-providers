@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_ips_protection_extended_attribute
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_ips_protection_extended_attribute
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataCheckpointManagementIpsProtectionExtendedAttributeConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_ips_protection_extended_attribute#id DataCheckpointManagementIpsProtectionExtendedAttribute#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_ips_protection_extended_attribute#id DataCheckpointManagementIpsProtectionExtendedAttribute#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataCheckpointManagementIpsProtectionExtendedAttributeConfig ex
   /**
   * Object name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_ips_protection_extended_attribute#name DataCheckpointManagementIpsProtectionExtendedAttribute#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_ips_protection_extended_attribute#name DataCheckpointManagementIpsProtectionExtendedAttribute#name}
   */
   readonly name?: string;
   /**
   * Object unique identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_ips_protection_extended_attribute#uid DataCheckpointManagementIpsProtectionExtendedAttribute#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_ips_protection_extended_attribute#uid DataCheckpointManagementIpsProtectionExtendedAttribute#uid}
   */
   readonly uid?: string;
 }
@@ -109,7 +109,7 @@ export class DataCheckpointManagementIpsProtectionExtendedAttributeValuesList ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_ips_protection_extended_attribute checkpoint_management_ips_protection_extended_attribute}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_ips_protection_extended_attribute checkpoint_management_ips_protection_extended_attribute}
 */
 export class DataCheckpointManagementIpsProtectionExtendedAttribute extends cdktf.TerraformDataSource {
 
@@ -125,7 +125,7 @@ export class DataCheckpointManagementIpsProtectionExtendedAttribute extends cdkt
   * Generates CDKTF code for importing a DataCheckpointManagementIpsProtectionExtendedAttribute resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCheckpointManagementIpsProtectionExtendedAttribute to import
-  * @param importFromId The id of the existing DataCheckpointManagementIpsProtectionExtendedAttribute that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_ips_protection_extended_attribute#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCheckpointManagementIpsProtectionExtendedAttribute that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_ips_protection_extended_attribute#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCheckpointManagementIpsProtectionExtendedAttribute to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -137,7 +137,7 @@ export class DataCheckpointManagementIpsProtectionExtendedAttribute extends cdkt
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_ips_protection_extended_attribute checkpoint_management_ips_protection_extended_attribute} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_ips_protection_extended_attribute checkpoint_management_ips_protection_extended_attribute} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -148,7 +148,8 @@ export class DataCheckpointManagementIpsProtectionExtendedAttribute extends cdkt
       terraformResourceType: 'checkpoint_management_ips_protection_extended_attribute',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

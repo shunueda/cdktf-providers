@@ -1,3 +1,3 @@
 # `citrixadc_contentinspectionparameter`
 
-Refer to the Terraform Registry for docs: [`citrixadc_contentinspectionparameter`](https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/contentinspectionparameter).
+Refer to the Terraform Registry for docs: [`citrixadc_contentinspectionparameter`](https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/contentinspectionparameter).

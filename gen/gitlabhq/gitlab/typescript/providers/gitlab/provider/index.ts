@@ -127,7 +127,8 @@ export class GitlabProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'gitlab',
       terraformGeneratorMetadata: {
         providerName: 'gitlab',
-        providerVersion: '18.5.0'
+        providerVersion: '18.5.0',
+        providerVersionConstraint: '18.5.0'
       },
       terraformProviderSource: 'gitlabhq/gitlab'
     });

@@ -259,7 +259,8 @@ export class MysqlProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'mysql',
       terraformGeneratorMetadata: {
         providerName: 'mysql',
-        providerVersion: '1.2.1'
+        providerVersion: '1.2.1',
+        providerVersionConstraint: '1.2.1'
       },
       terraformProviderSource: 'TakatoHano/mysql'
     });

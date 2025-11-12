@@ -568,7 +568,8 @@ export class Layer2Control extends cdktf.TerraformResource {
       terraformResourceType: 'junos_layer2_control',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0'
+        providerVersion: '2.15.0',
+        providerVersionConstraint: '2.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

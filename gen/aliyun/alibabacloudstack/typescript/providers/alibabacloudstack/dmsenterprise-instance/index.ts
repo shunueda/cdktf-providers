@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/dmsenterprise_instance
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dmsenterprise_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,126 +8,126 @@ import * as cdktf from 'cdktf';
 
 export interface DmsenterpriseInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/dmsenterprise_instance#data_link_name DmsenterpriseInstance#data_link_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dmsenterprise_instance#data_link_name DmsenterpriseInstance#data_link_name}
   */
   readonly dataLinkName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/dmsenterprise_instance#database_password DmsenterpriseInstance#database_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dmsenterprise_instance#database_password DmsenterpriseInstance#database_password}
   */
   readonly databasePassword: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/dmsenterprise_instance#database_user DmsenterpriseInstance#database_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dmsenterprise_instance#database_user DmsenterpriseInstance#database_user}
   */
   readonly databaseUser: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/dmsenterprise_instance#dba_id DmsenterpriseInstance#dba_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dmsenterprise_instance#dba_id DmsenterpriseInstance#dba_id}
   */
   readonly dbaId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/dmsenterprise_instance#dba_uid DmsenterpriseInstance#dba_uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dmsenterprise_instance#dba_uid DmsenterpriseInstance#dba_uid}
   */
   readonly dbaUid: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/dmsenterprise_instance#ddl_online DmsenterpriseInstance#ddl_online}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dmsenterprise_instance#ddl_online DmsenterpriseInstance#ddl_online}
   */
   readonly ddlOnline?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/dmsenterprise_instance#ecs_instance_id DmsenterpriseInstance#ecs_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dmsenterprise_instance#ecs_instance_id DmsenterpriseInstance#ecs_instance_id}
   */
   readonly ecsInstanceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/dmsenterprise_instance#ecs_region DmsenterpriseInstance#ecs_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dmsenterprise_instance#ecs_region DmsenterpriseInstance#ecs_region}
   */
   readonly ecsRegion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/dmsenterprise_instance#env_type DmsenterpriseInstance#env_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dmsenterprise_instance#env_type DmsenterpriseInstance#env_type}
   */
   readonly envType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/dmsenterprise_instance#export_timeout DmsenterpriseInstance#export_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dmsenterprise_instance#export_timeout DmsenterpriseInstance#export_timeout}
   */
   readonly exportTimeout: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/dmsenterprise_instance#host DmsenterpriseInstance#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dmsenterprise_instance#host DmsenterpriseInstance#host}
   */
   readonly host: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/dmsenterprise_instance#id DmsenterpriseInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dmsenterprise_instance#id DmsenterpriseInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/dmsenterprise_instance#instance_alias DmsenterpriseInstance#instance_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dmsenterprise_instance#instance_alias DmsenterpriseInstance#instance_alias}
   */
   readonly instanceAlias?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/dmsenterprise_instance#instance_id DmsenterpriseInstance#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dmsenterprise_instance#instance_id DmsenterpriseInstance#instance_id}
   */
   readonly instanceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/dmsenterprise_instance#instance_name DmsenterpriseInstance#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dmsenterprise_instance#instance_name DmsenterpriseInstance#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/dmsenterprise_instance#instance_source DmsenterpriseInstance#instance_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dmsenterprise_instance#instance_source DmsenterpriseInstance#instance_source}
   */
   readonly instanceSource: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/dmsenterprise_instance#instance_type DmsenterpriseInstance#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dmsenterprise_instance#instance_type DmsenterpriseInstance#instance_type}
   */
   readonly instanceType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/dmsenterprise_instance#network_type DmsenterpriseInstance#network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dmsenterprise_instance#network_type DmsenterpriseInstance#network_type}
   */
   readonly networkType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/dmsenterprise_instance#port DmsenterpriseInstance#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dmsenterprise_instance#port DmsenterpriseInstance#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/dmsenterprise_instance#query_timeout DmsenterpriseInstance#query_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dmsenterprise_instance#query_timeout DmsenterpriseInstance#query_timeout}
   */
   readonly queryTimeout: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/dmsenterprise_instance#safe_rule DmsenterpriseInstance#safe_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dmsenterprise_instance#safe_rule DmsenterpriseInstance#safe_rule}
   */
   readonly safeRule: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/dmsenterprise_instance#safe_rule_id DmsenterpriseInstance#safe_rule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dmsenterprise_instance#safe_rule_id DmsenterpriseInstance#safe_rule_id}
   */
   readonly safeRuleId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/dmsenterprise_instance#sid DmsenterpriseInstance#sid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dmsenterprise_instance#sid DmsenterpriseInstance#sid}
   */
   readonly sid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/dmsenterprise_instance#skip_test DmsenterpriseInstance#skip_test}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dmsenterprise_instance#skip_test DmsenterpriseInstance#skip_test}
   */
   readonly skipTest?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/dmsenterprise_instance#tid DmsenterpriseInstance#tid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dmsenterprise_instance#tid DmsenterpriseInstance#tid}
   */
   readonly tid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/dmsenterprise_instance#use_dsql DmsenterpriseInstance#use_dsql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dmsenterprise_instance#use_dsql DmsenterpriseInstance#use_dsql}
   */
   readonly useDsql?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/dmsenterprise_instance#vpc_id DmsenterpriseInstance#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dmsenterprise_instance#vpc_id DmsenterpriseInstance#vpc_id}
   */
   readonly vpcId?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/dmsenterprise_instance#timeouts DmsenterpriseInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dmsenterprise_instance#timeouts DmsenterpriseInstance#timeouts}
   */
   readonly timeouts?: DmsenterpriseInstanceTimeouts;
 }
 export interface DmsenterpriseInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/dmsenterprise_instance#create DmsenterpriseInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dmsenterprise_instance#create DmsenterpriseInstance#create}
   */
   readonly create?: string;
 }
@@ -221,7 +221,7 @@ export class DmsenterpriseInstanceTimeoutsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/dmsenterprise_instance alibabacloudstack_dmsenterprise_instance}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dmsenterprise_instance alibabacloudstack_dmsenterprise_instance}
 */
 export class DmsenterpriseInstance extends cdktf.TerraformResource {
 
@@ -237,7 +237,7 @@ export class DmsenterpriseInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DmsenterpriseInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DmsenterpriseInstance to import
-  * @param importFromId The id of the existing DmsenterpriseInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/dmsenterprise_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DmsenterpriseInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dmsenterprise_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DmsenterpriseInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -249,7 +249,7 @@ export class DmsenterpriseInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/dmsenterprise_instance alibabacloudstack_dmsenterprise_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dmsenterprise_instance alibabacloudstack_dmsenterprise_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -260,7 +260,8 @@ export class DmsenterpriseInstance extends cdktf.TerraformResource {
       terraformResourceType: 'alibabacloudstack_dmsenterprise_instance',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.19'
+        providerVersion: '3.16.21',
+        providerVersionConstraint: '3.16.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -230,7 +230,8 @@ export class LogFieldBehavior extends cdktf.TerraformResource {
       terraformResourceType: 'pingdirectory_log_field_behavior',
       terraformGeneratorMetadata: {
         providerName: 'pingdirectory',
-        providerVersion: '1.5.0'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

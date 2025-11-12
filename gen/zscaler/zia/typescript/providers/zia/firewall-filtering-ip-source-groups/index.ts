@@ -61,7 +61,8 @@ export class FirewallFilteringIpSourceGroups extends cdktf.TerraformResource {
       terraformResourceType: 'zia_firewall_filtering_ip_source_groups',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.5.3'
+        providerVersion: '4.5.3',
+        providerVersionConstraint: '4.5.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

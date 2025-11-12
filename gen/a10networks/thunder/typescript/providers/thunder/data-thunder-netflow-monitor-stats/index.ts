@@ -4626,7 +4626,8 @@ export class DataThunderNetflowMonitorStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_netflow_monitor_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

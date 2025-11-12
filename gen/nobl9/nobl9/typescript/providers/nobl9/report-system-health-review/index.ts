@@ -1448,7 +1448,8 @@ export class ReportSystemHealthReview extends cdktf.TerraformResource {
       terraformResourceType: 'nobl9_report_system_health_review',
       terraformGeneratorMetadata: {
         providerName: 'nobl9',
-        providerVersion: '0.44.1'
+        providerVersion: '0.44.1',
+        providerVersionConstraint: '0.44.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

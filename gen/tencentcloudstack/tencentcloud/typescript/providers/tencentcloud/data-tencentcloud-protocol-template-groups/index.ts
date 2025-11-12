@@ -155,7 +155,8 @@ export class DataTencentcloudProtocolTemplateGroups extends cdktf.TerraformDataS
       terraformResourceType: 'tencentcloud_protocol_template_groups',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

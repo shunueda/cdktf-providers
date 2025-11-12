@@ -510,7 +510,8 @@ export class TeoL4ProxyRule extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_teo_l4_proxy_rule',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

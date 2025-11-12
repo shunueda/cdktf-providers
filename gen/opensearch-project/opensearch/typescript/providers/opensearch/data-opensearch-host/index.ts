@@ -62,7 +62,8 @@ export class DataOpensearchHost extends cdktf.TerraformDataSource {
       terraformResourceType: 'opensearch_host',
       terraformGeneratorMetadata: {
         providerName: 'opensearch',
-        providerVersion: '2.3.2'
+        providerVersion: '2.3.2',
+        providerVersionConstraint: '2.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

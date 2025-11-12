@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_get_attachment
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_get_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ManagementGetAttachmentConfig extends cdktf.TerraformMetaArgume
   /**
   * Attachment identifier from a log record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_get_attachment#attachment_id ManagementGetAttachment#attachment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_get_attachment#attachment_id ManagementGetAttachment#attachment_id}
   */
   readonly attachmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_get_attachment#id ManagementGetAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_get_attachment#id ManagementGetAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface ManagementGetAttachmentConfig extends cdktf.TerraformMetaArgume
   /**
   * Log uid from a log record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_get_attachment#uid ManagementGetAttachment#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_get_attachment#uid ManagementGetAttachment#uid}
   */
   readonly uid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_get_attachment checkpoint_management_get_attachment}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_get_attachment checkpoint_management_get_attachment}
 */
 export class ManagementGetAttachment extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class ManagementGetAttachment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementGetAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementGetAttachment to import
-  * @param importFromId The id of the existing ManagementGetAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_get_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementGetAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_get_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementGetAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class ManagementGetAttachment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_get_attachment checkpoint_management_get_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_get_attachment checkpoint_management_get_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,7 +68,8 @@ export class ManagementGetAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_get_attachment',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -260,7 +260,8 @@ export class NetIkePeer extends cdktf.TerraformResource {
       terraformResourceType: 'bigip_net_ike_peer',
       terraformGeneratorMetadata: {
         providerName: 'bigip',
-        providerVersion: '1.24.1'
+        providerVersion: '1.24.1',
+        providerVersionConstraint: '1.24.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

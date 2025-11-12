@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_outbound_inspection_certificate
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_outbound_inspection_certificate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface ManagementOutboundInspectionCertificateConfig extends cdktf.Ter
   /**
   * Password (encoded in Base64 with padding) for the certificate file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_outbound_inspection_certificate#base64_password ManagementOutboundInspectionCertificate#base64_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_outbound_inspection_certificate#base64_password ManagementOutboundInspectionCertificate#base64_password}
   */
   readonly base64Password: string;
   /**
   * Color of the object. Should be one of existing colors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_outbound_inspection_certificate#color ManagementOutboundInspectionCertificate#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_outbound_inspection_certificate#color ManagementOutboundInspectionCertificate#color}
   */
   readonly color?: string;
   /**
   * Comments string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_outbound_inspection_certificate#comments ManagementOutboundInspectionCertificate#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_outbound_inspection_certificate#comments ManagementOutboundInspectionCertificate#comments}
   */
   readonly comments?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_outbound_inspection_certificate#id ManagementOutboundInspectionCertificate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_outbound_inspection_certificate#id ManagementOutboundInspectionCertificate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,55 +35,55 @@ export interface ManagementOutboundInspectionCertificateConfig extends cdktf.Ter
   /**
   * Apply changes ignoring errors. You won't be able to publish such a changes. If ignore-warnings flag was omitted - warnings will also be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_outbound_inspection_certificate#ignore_errors ManagementOutboundInspectionCertificate#ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_outbound_inspection_certificate#ignore_errors ManagementOutboundInspectionCertificate#ignore_errors}
   */
   readonly ignoreErrors?: boolean | cdktf.IResolvable;
   /**
   * Apply changes ignoring warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_outbound_inspection_certificate#ignore_warnings ManagementOutboundInspectionCertificate#ignore_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_outbound_inspection_certificate#ignore_warnings ManagementOutboundInspectionCertificate#ignore_warnings}
   */
   readonly ignoreWarnings?: boolean | cdktf.IResolvable;
   /**
   * Is the certificate the default certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_outbound_inspection_certificate#is_default ManagementOutboundInspectionCertificate#is_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_outbound_inspection_certificate#is_default ManagementOutboundInspectionCertificate#is_default}
   */
   readonly isDefault?: boolean | cdktf.IResolvable;
   /**
   * The DN (Distinguished Name) of the certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_outbound_inspection_certificate#issued_by ManagementOutboundInspectionCertificate#issued_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_outbound_inspection_certificate#issued_by ManagementOutboundInspectionCertificate#issued_by}
   */
   readonly issuedBy: string;
   /**
   * Object name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_outbound_inspection_certificate#name ManagementOutboundInspectionCertificate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_outbound_inspection_certificate#name ManagementOutboundInspectionCertificate#name}
   */
   readonly name?: string;
   /**
   * Collection of tag identifiers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_outbound_inspection_certificate#tags ManagementOutboundInspectionCertificate#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_outbound_inspection_certificate#tags ManagementOutboundInspectionCertificate#tags}
   */
   readonly tags?: string[];
   /**
   * The date, from which the certificate is valid. Format: YYYY-MM-DD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_outbound_inspection_certificate#valid_from ManagementOutboundInspectionCertificate#valid_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_outbound_inspection_certificate#valid_from ManagementOutboundInspectionCertificate#valid_from}
   */
   readonly validFrom: string;
   /**
   * The certificate expiration date. Format: YYYY-MM-DD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_outbound_inspection_certificate#valid_to ManagementOutboundInspectionCertificate#valid_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_outbound_inspection_certificate#valid_to ManagementOutboundInspectionCertificate#valid_to}
   */
   readonly validTo: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_outbound_inspection_certificate checkpoint_management_outbound_inspection_certificate}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_outbound_inspection_certificate checkpoint_management_outbound_inspection_certificate}
 */
 export class ManagementOutboundInspectionCertificate extends cdktf.TerraformResource {
 
@@ -99,7 +99,7 @@ export class ManagementOutboundInspectionCertificate extends cdktf.TerraformReso
   * Generates CDKTF code for importing a ManagementOutboundInspectionCertificate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementOutboundInspectionCertificate to import
-  * @param importFromId The id of the existing ManagementOutboundInspectionCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_outbound_inspection_certificate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementOutboundInspectionCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_outbound_inspection_certificate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementOutboundInspectionCertificate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -111,7 +111,7 @@ export class ManagementOutboundInspectionCertificate extends cdktf.TerraformReso
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_outbound_inspection_certificate checkpoint_management_outbound_inspection_certificate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_outbound_inspection_certificate checkpoint_management_outbound_inspection_certificate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -122,7 +122,8 @@ export class ManagementOutboundInspectionCertificate extends cdktf.TerraformReso
       terraformResourceType: 'checkpoint_management_outbound_inspection_certificate',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

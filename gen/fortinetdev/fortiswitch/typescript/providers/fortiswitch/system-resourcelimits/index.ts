@@ -116,7 +116,8 @@ export class SystemResourcelimits extends cdktf.TerraformResource {
       terraformResourceType: 'fortiswitch_system_resourcelimits',
       terraformGeneratorMetadata: {
         providerName: 'fortiswitch',
-        providerVersion: '1.1.6'
+        providerVersion: '1.1.6',
+        providerVersionConstraint: '1.1.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

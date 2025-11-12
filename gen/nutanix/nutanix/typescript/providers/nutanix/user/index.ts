@@ -1098,7 +1098,8 @@ export class User extends cdktf.TerraformResource {
       terraformResourceType: 'nutanix_user',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3'
+        providerVersion: '2.3.3',
+        providerVersionConstraint: '2.3.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

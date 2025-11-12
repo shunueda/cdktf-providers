@@ -55,7 +55,8 @@ export class TerracurlProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'terracurl',
       terraformGeneratorMetadata: {
         providerName: 'terracurl',
-        providerVersion: '2.1.0'
+        providerVersion: '2.1.0',
+        providerVersionConstraint: '2.1.0'
       },
       terraformProviderSource: 'devops-rob/terracurl'
     });

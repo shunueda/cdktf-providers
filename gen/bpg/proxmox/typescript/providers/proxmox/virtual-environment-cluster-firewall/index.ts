@@ -248,7 +248,8 @@ export class VirtualEnvironmentClusterFirewall extends cdktf.TerraformResource {
       terraformResourceType: 'proxmox_virtual_environment_cluster_firewall',
       terraformGeneratorMetadata: {
         providerName: 'proxmox',
-        providerVersion: '0.86.0'
+        providerVersion: '0.86.0',
+        providerVersionConstraint: '0.86.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

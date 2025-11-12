@@ -1723,7 +1723,8 @@ export class DataThunderIpv4InIpv6FragStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_ipv4_in_ipv6_frag_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

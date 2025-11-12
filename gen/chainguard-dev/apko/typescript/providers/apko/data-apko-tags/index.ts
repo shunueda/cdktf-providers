@@ -1905,7 +1905,8 @@ export class DataApkoTags extends cdktf.TerraformDataSource {
       terraformResourceType: 'apko_tags',
       terraformGeneratorMetadata: {
         providerName: 'apko',
-        providerVersion: '0.30.20'
+        providerVersion: '0.30.20',
+        providerVersionConstraint: '0.30.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

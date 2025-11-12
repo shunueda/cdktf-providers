@@ -309,7 +309,8 @@ export class ObjectWirelesscontrollerHotspot20H2QpadviceofchargeAoclist extends 
       terraformResourceType: 'fortimanager_object_wirelesscontroller_hotspot20_h2qpadviceofcharge_aoclist',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0'
+        providerVersion: '1.14.0',
+        providerVersionConstraint: '1.14.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

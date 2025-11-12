@@ -67,7 +67,8 @@ export class DataTidbcloudDedicatedPrivateEndpointConnection extends cdktf.Terra
       terraformResourceType: 'tidbcloud_dedicated_private_endpoint_connection',
       terraformGeneratorMetadata: {
         providerName: 'tidbcloud',
-        providerVersion: '0.4.5'
+        providerVersion: '0.4.5',
+        providerVersionConstraint: '0.4.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

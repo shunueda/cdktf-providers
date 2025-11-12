@@ -61,7 +61,8 @@ export class UtilProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'util',
       terraformGeneratorMetadata: {
         providerName: 'util',
-        providerVersion: '0.0.4'
+        providerVersion: '0.0.4',
+        providerVersionConstraint: '0.0.4'
       },
       terraformProviderSource: 'isobit/util'
     });

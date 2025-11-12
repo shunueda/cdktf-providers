@@ -68,7 +68,8 @@ export class VpnCertDownload extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_vpn_cert_download',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10'
+        providerVersion: '8.1.10',
+        providerVersionConstraint: '8.1.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

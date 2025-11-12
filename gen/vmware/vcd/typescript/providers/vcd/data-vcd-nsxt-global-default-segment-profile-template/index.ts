@@ -56,7 +56,8 @@ export class DataVcdNsxtGlobalDefaultSegmentProfileTemplate extends cdktf.Terraf
       terraformResourceType: 'vcd_nsxt_global_default_segment_profile_template',
       terraformGeneratorMetadata: {
         providerName: 'vcd',
-        providerVersion: '3.14.1'
+        providerVersion: '3.14.1',
+        providerVersionConstraint: '3.14.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

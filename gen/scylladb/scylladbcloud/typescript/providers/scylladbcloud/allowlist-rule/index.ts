@@ -234,7 +234,8 @@ export class AllowlistRule extends cdktf.TerraformResource {
       terraformResourceType: 'scylladbcloud_allowlist_rule',
       terraformGeneratorMetadata: {
         providerName: 'scylladbcloud',
-        providerVersion: '1.8.1'
+        providerVersion: '1.8.1',
+        providerVersionConstraint: '1.8.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

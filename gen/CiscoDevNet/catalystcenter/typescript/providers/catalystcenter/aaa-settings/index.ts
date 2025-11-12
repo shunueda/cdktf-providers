@@ -131,7 +131,8 @@ export class AaaSettings extends cdktf.TerraformResource {
       terraformResourceType: 'catalystcenter_aaa_settings',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.2'
+        providerVersion: '0.4.2',
+        providerVersionConstraint: '0.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

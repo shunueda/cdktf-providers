@@ -233,7 +233,8 @@ export class DataCoralogixRecordingRulesGroupsSet extends cdktf.TerraformDataSou
       terraformResourceType: 'coralogix_recording_rules_groups_set',
       terraformGeneratorMetadata: {
         providerName: 'coralogix',
-        providerVersion: '2.2.3'
+        providerVersion: '2.2.3',
+        providerVersionConstraint: '2.2.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

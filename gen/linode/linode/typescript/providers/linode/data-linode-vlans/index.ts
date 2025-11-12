@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/vlans
+// https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/vlans
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataLinodeVlansConfig extends cdktf.TerraformMetaArguments {
   /**
   * The order in which results should be returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/vlans#order DataLinodeVlans#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/vlans#order DataLinodeVlans#order}
   */
   readonly order?: string;
   /**
   * The attribute to order the results by.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/vlans#order_by DataLinodeVlans#order_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/vlans#order_by DataLinodeVlans#order_by}
   */
   readonly orderBy?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/vlans#filter DataLinodeVlans#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/vlans#filter DataLinodeVlans#filter}
   */
   readonly filter?: DataLinodeVlansFilter[] | cdktf.IResolvable;
   /**
   * vlans block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/vlans#vlans DataLinodeVlans#vlans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/vlans#vlans DataLinodeVlans#vlans}
   */
   readonly vlans?: DataLinodeVlansVlans[] | cdktf.IResolvable;
 }
@@ -36,19 +36,19 @@ export interface DataLinodeVlansFilter {
   /**
   * The type of comparison to use for this filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/vlans#match_by DataLinodeVlans#match_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/vlans#match_by DataLinodeVlans#match_by}
   */
   readonly matchBy?: string;
   /**
   * The name of the attribute to filter on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/vlans#name DataLinodeVlans#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/vlans#name DataLinodeVlans#name}
   */
   readonly name: string;
   /**
   * The value(s) to be used in the filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/vlans#values DataLinodeVlans#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/vlans#values DataLinodeVlans#values}
   */
   readonly values: string[];
 }
@@ -317,7 +317,7 @@ export class DataLinodeVlansVlansList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/vlans linode_vlans}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/vlans linode_vlans}
 */
 export class DataLinodeVlans extends cdktf.TerraformDataSource {
 
@@ -333,7 +333,7 @@ export class DataLinodeVlans extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataLinodeVlans resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataLinodeVlans to import
-  * @param importFromId The id of the existing DataLinodeVlans that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/vlans#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataLinodeVlans that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/vlans#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataLinodeVlans to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -345,7 +345,7 @@ export class DataLinodeVlans extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/vlans linode_vlans} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/vlans linode_vlans} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -356,7 +356,8 @@ export class DataLinodeVlans extends cdktf.TerraformDataSource {
       terraformResourceType: 'linode_vlans',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.5.0'
+        providerVersion: '3.5.1',
+        providerVersionConstraint: '3.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

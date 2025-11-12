@@ -2147,7 +2147,8 @@ export class SmartRulesSettings extends cdktf.TerraformResource {
       terraformResourceType: 'gocache_smart_rules_settings',
       terraformGeneratorMetadata: {
         providerName: 'gocache',
-        providerVersion: '0.3.2'
+        providerVersion: '0.3.2',
+        providerVersionConstraint: '0.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

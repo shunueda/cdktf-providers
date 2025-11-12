@@ -80,7 +80,8 @@ export class Audit extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_audit',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

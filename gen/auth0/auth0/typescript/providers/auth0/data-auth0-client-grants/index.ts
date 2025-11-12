@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/data-sources/client_grants
+// https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/data-sources/client_grants
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataAuth0ClientGrantsConfig extends cdktf.TerraformMetaArgument
   /**
   * The audience to filter by.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/data-sources/client_grants#audience DataAuth0ClientGrants#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/data-sources/client_grants#audience DataAuth0ClientGrants#audience}
   */
   readonly audience?: string;
   /**
   * The ID of the client to filter by.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/data-sources/client_grants#client_id DataAuth0ClientGrants#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/data-sources/client_grants#client_id DataAuth0ClientGrants#client_id}
   */
   readonly clientId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/data-sources/client_grants#id DataAuth0ClientGrants#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/data-sources/client_grants#id DataAuth0ClientGrants#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -124,7 +124,7 @@ export class DataAuth0ClientGrantsClientGrantsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/data-sources/client_grants auth0_client_grants}
+* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/data-sources/client_grants auth0_client_grants}
 */
 export class DataAuth0ClientGrants extends cdktf.TerraformDataSource {
 
@@ -140,7 +140,7 @@ export class DataAuth0ClientGrants extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAuth0ClientGrants resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAuth0ClientGrants to import
-  * @param importFromId The id of the existing DataAuth0ClientGrants that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/data-sources/client_grants#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAuth0ClientGrants that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/data-sources/client_grants#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAuth0ClientGrants to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -152,7 +152,7 @@ export class DataAuth0ClientGrants extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/data-sources/client_grants auth0_client_grants} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/data-sources/client_grants auth0_client_grants} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -163,7 +163,8 @@ export class DataAuth0ClientGrants extends cdktf.TerraformDataSource {
       terraformResourceType: 'auth0_client_grants',
       terraformGeneratorMetadata: {
         providerName: 'auth0',
-        providerVersion: '1.33.0'
+        providerVersion: '1.34.0',
+        providerVersionConstraint: '1.34.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

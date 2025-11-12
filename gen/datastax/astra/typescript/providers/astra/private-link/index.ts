@@ -74,7 +74,8 @@ export class PrivateLink extends cdktf.TerraformResource {
       terraformResourceType: 'astra_private_link',
       terraformGeneratorMetadata: {
         providerName: 'astra',
-        providerVersion: '2.3.18'
+        providerVersion: '2.3.18',
+        providerVersionConstraint: '2.3.18'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -61,7 +61,8 @@ export class Add extends cdktf.TerraformResource {
       terraformResourceType: 'git_add',
       terraformGeneratorMetadata: {
         providerName: 'git',
-        providerVersion: '2025.10.31'
+        providerVersion: '2025.10.31',
+        providerVersionConstraint: '2025.10.31'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

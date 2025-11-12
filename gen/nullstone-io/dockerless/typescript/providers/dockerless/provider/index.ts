@@ -112,7 +112,8 @@ export class DockerlessProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'dockerless',
       terraformGeneratorMetadata: {
         providerName: 'dockerless',
-        providerVersion: '0.1.2'
+        providerVersion: '0.1.2',
+        providerVersionConstraint: '0.1.2'
       },
       terraformProviderSource: 'nullstone-io/dockerless'
     });

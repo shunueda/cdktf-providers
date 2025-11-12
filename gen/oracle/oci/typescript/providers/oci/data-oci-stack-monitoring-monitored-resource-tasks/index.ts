@@ -1410,7 +1410,8 @@ export class DataOciStackMonitoringMonitoredResourceTasks extends cdktf.Terrafor
       terraformResourceType: 'oci_stack_monitoring_monitored_resource_tasks',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

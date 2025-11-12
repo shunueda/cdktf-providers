@@ -64,7 +64,8 @@ export class SystemFederatedupgradeKnownhamembers extends cdktf.TerraformResourc
       terraformResourceType: 'fmgdevice_system_federatedupgrade_knownhamembers',
       terraformGeneratorMetadata: {
         providerName: 'fmgdevice',
-        providerVersion: '1.2.1'
+        providerVersion: '1.2.1',
+        providerVersionConstraint: '1.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

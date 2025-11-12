@@ -256,6 +256,7 @@ export * as cspolicy from './cspolicy';
 export * as cspolicylabel from './cspolicylabel';
 export * as csvserver from './csvserver';
 export * as csvserverAnalyticsprofileBinding from './csvserver-analyticsprofile-binding';
+export * as csvserverAppflowpolicyBinding from './csvserver-appflowpolicy-binding';
 export * as csvserverAppfwpolicyBinding from './csvserver-appfwpolicy-binding';
 export * as csvserverAppqoepolicyBinding from './csvserver-appqoepolicy-binding';
 export * as csvserverAuditnslogpolicyBinding from './csvserver-auditnslogpolicy-binding';

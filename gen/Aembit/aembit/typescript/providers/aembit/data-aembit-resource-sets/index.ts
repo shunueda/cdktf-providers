@@ -177,7 +177,8 @@ export class DataAembitResourceSets extends cdktf.TerraformDataSource {
       terraformResourceType: 'aembit_resource_sets',
       terraformGeneratorMetadata: {
         providerName: 'aembit',
-        providerVersion: '1.25.1'
+        providerVersion: '1.25.1',
+        providerVersionConstraint: '1.25.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

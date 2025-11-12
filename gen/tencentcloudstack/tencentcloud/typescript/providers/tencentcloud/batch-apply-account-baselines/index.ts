@@ -221,7 +221,8 @@ export class BatchApplyAccountBaselines extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_batch_apply_account_baselines',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

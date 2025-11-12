@@ -64,7 +64,8 @@ export class DataFortiadcRouterBgpChildNeighbor extends cdktf.TerraformDataSourc
       terraformResourceType: 'fortiadc_router_bgp_child_neighbor',
       terraformGeneratorMetadata: {
         providerName: 'fortiadc',
-        providerVersion: '1.3.1'
+        providerVersion: '1.3.1',
+        providerVersionConstraint: '1.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

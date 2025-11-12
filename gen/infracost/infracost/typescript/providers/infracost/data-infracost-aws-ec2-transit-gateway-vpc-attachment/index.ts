@@ -150,7 +150,8 @@ export class DataInfracostAwsEc2TransitGatewayVpcAttachment extends cdktf.Terraf
       terraformResourceType: 'infracost_aws_ec2_transit_gateway_vpc_attachment',
       terraformGeneratorMetadata: {
         providerName: 'infracost',
-        providerVersion: '0.0.9'
+        providerVersion: '0.0.9',
+        providerVersionConstraint: '0.0.9'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

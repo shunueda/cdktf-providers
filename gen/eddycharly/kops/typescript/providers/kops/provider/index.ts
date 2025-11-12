@@ -511,7 +511,8 @@ export class KopsProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'kops',
       terraformGeneratorMetadata: {
         providerName: 'kops',
-        providerVersion: '1.25.4'
+        providerVersion: '1.25.4',
+        providerVersionConstraint: '1.25.4'
       },
       terraformProviderSource: 'eddycharly/kops'
     });

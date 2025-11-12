@@ -80,7 +80,8 @@ export class Loadbalancer extends cdktf.TerraformResource {
       terraformResourceType: 'glesys_loadbalancer',
       terraformGeneratorMetadata: {
         providerName: 'glesys',
-        providerVersion: '0.15.0'
+        providerVersion: '0.15.0',
+        providerVersionConstraint: '0.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

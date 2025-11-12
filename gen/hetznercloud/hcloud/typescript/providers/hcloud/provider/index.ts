@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs
+// https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface HcloudProviderConfig {
   /**
   * The Hetzner Cloud API endpoint, can be used to override the default API Endpoint https://api.hetzner.cloud/v1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs#endpoint HcloudProvider#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs#endpoint HcloudProvider#endpoint}
   */
   readonly endpoint?: string;
   /**
   * The type of function to be used during the polling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs#poll_function HcloudProvider#poll_function}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs#poll_function HcloudProvider#poll_function}
   */
   readonly pollFunction?: string;
   /**
   * The interval at which actions are polled by the client. Default `500ms`. Increase this interval if you run into rate limiting errors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs#poll_interval HcloudProvider#poll_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs#poll_interval HcloudProvider#poll_interval}
   */
   readonly pollInterval?: string;
   /**
   * The Hetzner Cloud API token, can also be specified with the HCLOUD_TOKEN environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs#token HcloudProvider#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs#token HcloudProvider#token}
   */
   readonly token?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs#alias HcloudProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs#alias HcloudProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs hcloud}
+* Represents a {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs hcloud}
 */
 export class HcloudProvider extends cdktf.TerraformProvider {
 
@@ -56,7 +56,7 @@ export class HcloudProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a HcloudProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HcloudProvider to import
-  * @param importFromId The id of the existing HcloudProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HcloudProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HcloudProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class HcloudProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs hcloud} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs hcloud} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,7 +79,8 @@ export class HcloudProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'hcloud',
       terraformGeneratorMetadata: {
         providerName: 'hcloud',
-        providerVersion: '1.55.0'
+        providerVersion: '1.56.0',
+        providerVersionConstraint: '1.56.0'
       },
       terraformProviderSource: 'hetznercloud/hcloud'
     });

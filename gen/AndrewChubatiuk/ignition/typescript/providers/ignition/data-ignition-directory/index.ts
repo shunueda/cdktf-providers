@@ -76,7 +76,8 @@ export class DataIgnitionDirectory extends cdktf.TerraformDataSource {
       terraformResourceType: 'ignition_directory',
       terraformGeneratorMetadata: {
         providerName: 'ignition',
-        providerVersion: '0.0.1'
+        providerVersion: '0.0.1',
+        providerVersionConstraint: '0.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -3745,7 +3745,8 @@ export class NatPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_nat_policy',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.44'
+        providerVersion: '0.11.44',
+        providerVersionConstraint: '0.11.44'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

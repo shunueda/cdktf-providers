@@ -598,7 +598,8 @@ export class DataOciDataSafeDatabaseSecurityConfigs extends cdktf.TerraformDataS
       terraformResourceType: 'oci_data_safe_database_security_configs',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/client_grant
+// https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client_grant
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface ClientGrantConfig extends cdktf.TerraformMetaArguments {
   /**
   * If enabled, any organization can be used with this grant. If disabled (default), the grant must be explicitly assigned to the desired organizations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/client_grant#allow_any_organization ClientGrant#allow_any_organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client_grant#allow_any_organization ClientGrant#allow_any_organization}
   */
   readonly allowAnyOrganization?: boolean | cdktf.IResolvable;
   /**
   * Audience or API Identifier for this grant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/client_grant#audience ClientGrant#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client_grant#audience ClientGrant#audience}
   */
   readonly audience: string;
   /**
   * Defines the types of authorization details allowed for this client grant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/client_grant#authorization_details_types ClientGrant#authorization_details_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client_grant#authorization_details_types ClientGrant#authorization_details_types}
   */
   readonly authorizationDetailsTypes?: string[];
   /**
   * ID of the client for this grant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/client_grant#client_id ClientGrant#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client_grant#client_id ClientGrant#client_id}
   */
   readonly clientId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/client_grant#id ClientGrant#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client_grant#id ClientGrant#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,25 +41,25 @@ export interface ClientGrantConfig extends cdktf.TerraformMetaArguments {
   /**
   * Defines whether organizations can be used with client credentials exchanges for this grant. (defaults to deny when not defined)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/client_grant#organization_usage ClientGrant#organization_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client_grant#organization_usage ClientGrant#organization_usage}
   */
   readonly organizationUsage?: string;
   /**
   * Permissions (scopes) included in this grant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/client_grant#scopes ClientGrant#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client_grant#scopes ClientGrant#scopes}
   */
   readonly scopes: string[];
   /**
   * Defines the type of subject for this grant. Can be one of `client` or `user`. Defaults to `client` when not defined.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/client_grant#subject_type ClientGrant#subject_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client_grant#subject_type ClientGrant#subject_type}
   */
   readonly subjectType?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/client_grant auth0_client_grant}
+* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client_grant auth0_client_grant}
 */
 export class ClientGrant extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class ClientGrant extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ClientGrant resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClientGrant to import
-  * @param importFromId The id of the existing ClientGrant that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/client_grant#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClientGrant that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client_grant#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClientGrant to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class ClientGrant extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/client_grant auth0_client_grant} Resource
+  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/client_grant auth0_client_grant} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,7 +98,8 @@ export class ClientGrant extends cdktf.TerraformResource {
       terraformResourceType: 'auth0_client_grant',
       terraformGeneratorMetadata: {
         providerName: 'auth0',
-        providerVersion: '1.33.0'
+        providerVersion: '1.34.0',
+        providerVersionConstraint: '1.34.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

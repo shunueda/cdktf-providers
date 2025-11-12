@@ -64,7 +64,8 @@ export class DataGraylogSidecar extends cdktf.TerraformDataSource {
       terraformResourceType: 'graylog_sidecar',
       terraformGeneratorMetadata: {
         providerName: 'graylog',
-        providerVersion: '1.0.4'
+        providerVersion: '1.0.4',
+        providerVersionConstraint: '1.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -267,7 +267,8 @@ export class CarvelProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'carvel',
       terraformGeneratorMetadata: {
         providerName: 'carvel',
-        providerVersion: '0.11.0'
+        providerVersion: '0.11.0',
+        providerVersionConstraint: '0.11.0'
       },
       terraformProviderSource: 'vmware-tanzu/carvel'
     });

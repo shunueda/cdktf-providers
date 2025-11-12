@@ -360,7 +360,8 @@ export class WedataAddCalcEnginesToProjectOperation extends cdktf.TerraformResou
       terraformResourceType: 'tencentcloud_wedata_add_calc_engines_to_project_operation',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

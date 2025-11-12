@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,236 +10,236 @@ export interface SecurityRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * The action to be taken when the rule is matched
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#action SecurityRule#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#action SecurityRule#action}
   */
   readonly action?: string;
   /**
   * Allow url category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#allow_url_category SecurityRule#allow_url_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#allow_url_category SecurityRule#allow_url_category}
   */
   readonly allowUrlCategory?: SecurityRuleAllowUrlCategory[] | cdktf.IResolvable;
   /**
   * Allow web application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#allow_web_application SecurityRule#allow_web_application}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#allow_web_application SecurityRule#allow_web_application}
   */
   readonly allowWebApplication?: SecurityRuleAllowWebApplication[] | cdktf.IResolvable;
   /**
   * The application(s) being accessed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#application SecurityRule#application}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#application SecurityRule#application}
   */
   readonly application?: string[];
   /**
   * Block url category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#block_url_category SecurityRule#block_url_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#block_url_category SecurityRule#block_url_category}
   */
   readonly blockUrlCategory?: string[];
   /**
   * Block web application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#block_web_application SecurityRule#block_web_application}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#block_web_application SecurityRule#block_web_application}
   */
   readonly blockWebApplication?: string[];
   /**
   * The URL categories being accessed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#category SecurityRule#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#category SecurityRule#category}
   */
   readonly category?: string[];
   /**
   * Default profile settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#default_profile_settings SecurityRule#default_profile_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#default_profile_settings SecurityRule#default_profile_settings}
   */
   readonly defaultProfileSettings?: SecurityRuleDefaultProfileSettings;
   /**
   * The description of the security rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#description SecurityRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#description SecurityRule#description}
   */
   readonly description?: string;
   /**
   * The destination address(es)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#destination SecurityRule#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#destination SecurityRule#destination}
   */
   readonly destination?: string[];
   /**
   * The destination Host Integrity Profile(s)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#destination_hip SecurityRule#destination_hip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#destination_hip SecurityRule#destination_hip}
   */
   readonly destinationHip?: string[];
   /**
   * The device in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#device SecurityRule#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#device SecurityRule#device}
   */
   readonly device?: string;
   /**
   * Devices
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#devices SecurityRule#devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#devices SecurityRule#devices}
   */
   readonly devices?: string[];
   /**
   * Is the security rule disabled?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#disabled SecurityRule#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#disabled SecurityRule#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * The folder in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#folder SecurityRule#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#folder SecurityRule#folder}
   */
   readonly folder?: string;
   /**
   * The source security zone(s)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#from SecurityRule#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#from SecurityRule#from}
   */
   readonly from?: string[];
   /**
   * Log at session end?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#log_end SecurityRule#log_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#log_end SecurityRule#log_end}
   */
   readonly logEnd?: boolean | cdktf.IResolvable;
   /**
   * The external log forwarding profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#log_setting SecurityRule#log_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#log_setting SecurityRule#log_setting}
   */
   readonly logSetting?: string;
   /**
   * Log settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#log_settings SecurityRule#log_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#log_settings SecurityRule#log_settings}
   */
   readonly logSettings?: SecurityRuleLogSettings;
   /**
   * Log at session start?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#log_start SecurityRule#log_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#log_start SecurityRule#log_start}
   */
   readonly logStart?: boolean | cdktf.IResolvable;
   /**
   * The name of the security rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#name SecurityRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#name SecurityRule#name}
   */
   readonly name?: string;
   /**
   * Negate the destination addresses(es)?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#negate_destination SecurityRule#negate_destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#negate_destination SecurityRule#negate_destination}
   */
   readonly negateDestination?: boolean | cdktf.IResolvable;
   /**
   * Negate the source address(es)?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#negate_source SecurityRule#negate_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#negate_source SecurityRule#negate_source}
   */
   readonly negateSource?: boolean | cdktf.IResolvable;
   /**
   * Negate user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#negate_user SecurityRule#negate_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#negate_user SecurityRule#negate_user}
   */
   readonly negateUser?: boolean | cdktf.IResolvable;
   /**
   * Policy type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#policy_type SecurityRule#policy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#policy_type SecurityRule#policy_type}
   */
   readonly policyType?: string;
   /**
   * The position of a security rule
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#position SecurityRule#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#position SecurityRule#position}
   */
   readonly position?: string;
   /**
   * The security profile object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#profile_setting SecurityRule#profile_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#profile_setting SecurityRule#profile_setting}
   */
   readonly profileSetting?: SecurityRuleProfileSetting;
   /**
   * Relative positioning rule. String must be one of these: `"before"`, `"after"`, `"top"`, `"bottom"`. If not specified, rule is created at the bottom of the ruleset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#relative_position SecurityRule#relative_position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#relative_position SecurityRule#relative_position}
   */
   readonly relativePosition?: string;
   /**
   * Schedule in which this rule will be applied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#schedule SecurityRule#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#schedule SecurityRule#schedule}
   */
   readonly schedule?: string;
   /**
   * Security settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#security_settings SecurityRule#security_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#security_settings SecurityRule#security_settings}
   */
   readonly securitySettings?: SecurityRuleSecuritySettings;
   /**
   * The service(s) being accessed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#service SecurityRule#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#service SecurityRule#service}
   */
   readonly service?: string[];
   /**
   * The snippet in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#snippet SecurityRule#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#snippet SecurityRule#snippet}
   */
   readonly snippet?: string;
   /**
   * The source addresses(es)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#source SecurityRule#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#source SecurityRule#source}
   */
   readonly source?: string[];
   /**
   * The source Host Integrity Profile(s)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#source_hip SecurityRule#source_hip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#source_hip SecurityRule#source_hip}
   */
   readonly sourceHip?: string[];
   /**
   * List of source users and/or groups.  Reserved words include `any`, `pre-login`, `known-user`, and `unknown`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#source_user SecurityRule#source_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#source_user SecurityRule#source_user}
   */
   readonly sourceUser?: string[];
   /**
   * The tags associated with the security rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#tag SecurityRule#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#tag SecurityRule#tag}
   */
   readonly tag?: string[];
   /**
   * The name or UUID of the rule to position this rule relative to. Required when `relative_position` is `"before"` or `"after"`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#target_rule SecurityRule#target_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#target_rule SecurityRule#target_rule}
   */
   readonly targetRule?: string;
   /**
   * Tenant restrictions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#tenant_restrictions SecurityRule#tenant_restrictions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#tenant_restrictions SecurityRule#tenant_restrictions}
   */
   readonly tenantRestrictions?: string[];
   /**
   * The destination security zone(s)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#to SecurityRule#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#to SecurityRule#to}
   */
   readonly to?: string[];
 }
@@ -247,13 +247,13 @@ export interface SecurityRuleAllowUrlCategoryFileControl {
   /**
   * Download
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#download SecurityRule#download}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#download SecurityRule#download}
   */
   readonly download?: string;
   /**
   * Upload
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#upload SecurityRule#upload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#upload SecurityRule#upload}
   */
   readonly upload?: string;
 }
@@ -378,43 +378,43 @@ export interface SecurityRuleAllowUrlCategory {
   /**
   * Additional action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#additional_action SecurityRule#additional_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#additional_action SecurityRule#additional_action}
   */
   readonly additionalAction?: string;
   /**
   * Credential enforcement
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#credential_enforcement SecurityRule#credential_enforcement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#credential_enforcement SecurityRule#credential_enforcement}
   */
   readonly credentialEnforcement?: string;
   /**
   * Decryption
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#decryption SecurityRule#decryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#decryption SecurityRule#decryption}
   */
   readonly decryption?: string;
   /**
   * Dlp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#dlp SecurityRule#dlp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#dlp SecurityRule#dlp}
   */
   readonly dlp?: string;
   /**
   * File control
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#file_control SecurityRule#file_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#file_control SecurityRule#file_control}
   */
   readonly fileControl?: SecurityRuleAllowUrlCategoryFileControl;
   /**
   * Isolation profiles
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#isolation_profiles SecurityRule#isolation_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#isolation_profiles SecurityRule#isolation_profiles}
   */
   readonly isolationProfiles?: string;
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#name SecurityRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#name SecurityRule#name}
   */
   readonly name?: string;
 }
@@ -706,13 +706,13 @@ export interface SecurityRuleAllowWebApplicationFileControl {
   /**
   * Download
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#download SecurityRule#download}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#download SecurityRule#download}
   */
   readonly download?: string;
   /**
   * Upload
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#upload SecurityRule#upload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#upload SecurityRule#upload}
   */
   readonly upload?: string;
 }
@@ -837,7 +837,7 @@ export interface SecurityRuleAllowWebApplicationSaasEnterpriseControlConsumerAcc
   /**
   * Enable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#enable SecurityRule#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#enable SecurityRule#enable}
   */
   readonly enable?: string;
 }
@@ -933,13 +933,13 @@ export interface SecurityRuleAllowWebApplicationSaasEnterpriseControlEnterpriseA
   /**
   * Enable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#enable SecurityRule#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#enable SecurityRule#enable}
   */
   readonly enable?: string;
   /**
   * Tenant restrictions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#tenant_restrictions SecurityRule#tenant_restrictions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#tenant_restrictions SecurityRule#tenant_restrictions}
   */
   readonly tenantRestrictions?: string[];
 }
@@ -1064,13 +1064,13 @@ export interface SecurityRuleAllowWebApplicationSaasEnterpriseControl {
   /**
   * Consumer access
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#consumer_access SecurityRule#consumer_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#consumer_access SecurityRule#consumer_access}
   */
   readonly consumerAccess?: SecurityRuleAllowWebApplicationSaasEnterpriseControlConsumerAccess;
   /**
   * Enterprise access
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#enterprise_access SecurityRule#enterprise_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#enterprise_access SecurityRule#enterprise_access}
   */
   readonly enterpriseAccess?: SecurityRuleAllowWebApplicationSaasEnterpriseControlEnterpriseAccess;
 }
@@ -1195,25 +1195,25 @@ export interface SecurityRuleAllowWebApplicationTenantControl {
   /**
   * Allowed activities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#allowed_activities SecurityRule#allowed_activities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#allowed_activities SecurityRule#allowed_activities}
   */
   readonly allowedActivities?: string[];
   /**
   * Blocked activities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#blocked_activities SecurityRule#blocked_activities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#blocked_activities SecurityRule#blocked_activities}
   */
   readonly blockedActivities?: string[];
   /**
   * Parent application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#parent_application SecurityRule#parent_application}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#parent_application SecurityRule#parent_application}
   */
   readonly parentApplication?: string;
   /**
   * Tenants
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#tenants SecurityRule#tenants}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#tenants SecurityRule#tenants}
   */
   readonly tenants?: string[];
 }
@@ -1396,55 +1396,55 @@ export interface SecurityRuleAllowWebApplication {
   /**
   * Application function
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#application_function SecurityRule#application_function}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#application_function SecurityRule#application_function}
   */
   readonly applicationFunction?: string[];
   /**
   * Dlp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#dlp SecurityRule#dlp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#dlp SecurityRule#dlp}
   */
   readonly dlp?: string;
   /**
   * File control
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#file_control SecurityRule#file_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#file_control SecurityRule#file_control}
   */
   readonly fileControl?: SecurityRuleAllowWebApplicationFileControl;
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#name SecurityRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#name SecurityRule#name}
   */
   readonly name?: string;
   /**
   * Saas enterprise control
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#saas_enterprise_control SecurityRule#saas_enterprise_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#saas_enterprise_control SecurityRule#saas_enterprise_control}
   */
   readonly saasEnterpriseControl?: SecurityRuleAllowWebApplicationSaasEnterpriseControl;
   /**
   * Saas tenant list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#saas_tenant_list SecurityRule#saas_tenant_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#saas_tenant_list SecurityRule#saas_tenant_list}
   */
   readonly saasTenantList?: string[];
   /**
   * Saas user list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#saas_user_list SecurityRule#saas_user_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#saas_user_list SecurityRule#saas_user_list}
   */
   readonly saasUserList?: string[];
   /**
   * Tenant control
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#tenant_control SecurityRule#tenant_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#tenant_control SecurityRule#tenant_control}
   */
   readonly tenantControl?: SecurityRuleAllowWebApplicationTenantControl;
   /**
   * Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#type SecurityRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#type SecurityRule#type}
   */
   readonly type?: string;
 }
@@ -1794,13 +1794,13 @@ export interface SecurityRuleDefaultProfileSettingsFileControl {
   /**
   * Download
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#download SecurityRule#download}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#download SecurityRule#download}
   */
   readonly download?: string;
   /**
   * Upload
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#upload SecurityRule#upload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#upload SecurityRule#upload}
   */
   readonly upload?: string;
 }
@@ -1925,13 +1925,13 @@ export interface SecurityRuleDefaultProfileSettings {
   /**
   * Dlp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#dlp SecurityRule#dlp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#dlp SecurityRule#dlp}
   */
   readonly dlp?: string;
   /**
   * File control
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#file_control SecurityRule#file_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#file_control SecurityRule#file_control}
   */
   readonly fileControl?: SecurityRuleDefaultProfileSettingsFileControl;
 }
@@ -2056,7 +2056,7 @@ export interface SecurityRuleLogSettings {
   /**
   * Log sessions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#log_sessions SecurityRule#log_sessions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#log_sessions SecurityRule#log_sessions}
   */
   readonly logSessions?: boolean | cdktf.IResolvable;
 }
@@ -2152,7 +2152,7 @@ export interface SecurityRuleProfileSetting {
   /**
   * The security profile group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#group SecurityRule#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#group SecurityRule#group}
   */
   readonly group?: string[];
 }
@@ -2248,19 +2248,19 @@ export interface SecurityRuleSecuritySettings {
   /**
   * Anti spyware
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#anti_spyware SecurityRule#anti_spyware}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#anti_spyware SecurityRule#anti_spyware}
   */
   readonly antiSpyware?: string;
   /**
   * Virus and wildfire analysis
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#virus_and_wildfire_analysis SecurityRule#virus_and_wildfire_analysis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#virus_and_wildfire_analysis SecurityRule#virus_and_wildfire_analysis}
   */
   readonly virusAndWildfireAnalysis?: string;
   /**
   * Vulnerability
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#vulnerability SecurityRule#vulnerability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#vulnerability SecurityRule#vulnerability}
   */
   readonly vulnerability?: string;
 }
@@ -2412,7 +2412,7 @@ export class SecurityRuleSecuritySettingsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule scm_security_rule}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule scm_security_rule}
 */
 export class SecurityRule extends cdktf.TerraformResource {
 
@@ -2428,7 +2428,7 @@ export class SecurityRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecurityRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecurityRule to import
-  * @param importFromId The id of the existing SecurityRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecurityRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecurityRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2440,7 +2440,7 @@ export class SecurityRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/security_rule scm_security_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/security_rule scm_security_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2451,7 +2451,8 @@ export class SecurityRule extends cdktf.TerraformResource {
       terraformResourceType: 'scm_security_rule',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.3'
+        providerVersion: '1.0.4',
+        providerVersionConstraint: '1.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -235,7 +235,8 @@ export class DataAciVrfLeakEpgBdSubnet extends cdktf.TerraformDataSource {
       terraformResourceType: 'aci_vrf_leak_epg_bd_subnet',
       terraformGeneratorMetadata: {
         providerName: 'aci',
-        providerVersion: '2.18.0'
+        providerVersion: '2.18.0',
+        providerVersionConstraint: '2.18.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

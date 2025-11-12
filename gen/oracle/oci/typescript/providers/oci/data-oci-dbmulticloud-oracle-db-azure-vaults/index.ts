@@ -497,7 +497,8 @@ export class DataOciDbmulticloudOracleDbAzureVaults extends cdktf.TerraformDataS
       terraformResourceType: 'oci_dbmulticloud_oracle_db_azure_vaults',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

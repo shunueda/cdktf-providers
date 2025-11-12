@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/service_connection
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/service_connection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,79 +10,79 @@ export interface ServiceConnectionConfig extends cdktf.TerraformMetaArguments {
   /**
   * Backup s c
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/service_connection#backup__s_c ServiceConnection#backup__s_c}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/service_connection#backup_sc ServiceConnection#backup_sc}
   */
-  readonly backupSC?: string;
+  readonly backupSc?: string;
   /**
   * Bgp peer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/service_connection#bgp_peer ServiceConnection#bgp_peer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/service_connection#bgp_peer ServiceConnection#bgp_peer}
   */
   readonly bgpPeer?: ServiceConnectionBgpPeer;
   /**
   * Ipsec tunnel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/service_connection#ipsec_tunnel ServiceConnection#ipsec_tunnel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/service_connection#ipsec_tunnel ServiceConnection#ipsec_tunnel}
   */
   readonly ipsecTunnel: string;
   /**
   * The name of the service connection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/service_connection#name ServiceConnection#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/service_connection#name ServiceConnection#name}
   */
   readonly name: string;
   /**
   * Nat pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/service_connection#nat_pool ServiceConnection#nat_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/service_connection#nat_pool ServiceConnection#nat_pool}
   */
   readonly natPool?: string;
   /**
   * No export community
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/service_connection#no_export_community ServiceConnection#no_export_community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/service_connection#no_export_community ServiceConnection#no_export_community}
   */
   readonly noExportCommunity?: string;
   /**
   * Onboarding type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/service_connection#onboarding_type ServiceConnection#onboarding_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/service_connection#onboarding_type ServiceConnection#onboarding_type}
   */
   readonly onboardingType?: string;
   /**
   * Protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/service_connection#protocol ServiceConnection#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/service_connection#protocol ServiceConnection#protocol}
   */
   readonly protocol?: ServiceConnectionProtocol;
   /**
   * Qos
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/service_connection#qos ServiceConnection#qos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/service_connection#qos ServiceConnection#qos}
   */
   readonly qos?: ServiceConnectionQos;
   /**
   * Region
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/service_connection#region ServiceConnection#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/service_connection#region ServiceConnection#region}
   */
   readonly region: string;
   /**
   * Secondary ipsec tunnel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/service_connection#secondary_ipsec_tunnel ServiceConnection#secondary_ipsec_tunnel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/service_connection#secondary_ipsec_tunnel ServiceConnection#secondary_ipsec_tunnel}
   */
   readonly secondaryIpsecTunnel?: string;
   /**
   * Source nat
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/service_connection#source_nat ServiceConnection#source_nat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/service_connection#source_nat ServiceConnection#source_nat}
   */
   readonly sourceNat?: boolean | cdktf.IResolvable;
   /**
   * Subnets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/service_connection#subnets ServiceConnection#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/service_connection#subnets ServiceConnection#subnets}
   */
   readonly subnets?: string[];
 }
@@ -90,31 +90,31 @@ export interface ServiceConnectionBgpPeer {
   /**
   * Local ip address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/service_connection#local_ip_address ServiceConnection#local_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/service_connection#local_ip_address ServiceConnection#local_ip_address}
   */
   readonly localIpAddress?: string;
   /**
   * Local ipv6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/service_connection#local_ipv6_address ServiceConnection#local_ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/service_connection#local_ipv6_address ServiceConnection#local_ipv6_address}
   */
   readonly localIpv6Address?: string;
   /**
   * Peer ip address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/service_connection#peer_ip_address ServiceConnection#peer_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/service_connection#peer_ip_address ServiceConnection#peer_ip_address}
   */
   readonly peerIpAddress?: string;
   /**
   * Peer ipv6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/service_connection#peer_ipv6_address ServiceConnection#peer_ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/service_connection#peer_ipv6_address ServiceConnection#peer_ipv6_address}
   */
   readonly peerIpv6Address?: string;
   /**
   * Secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/service_connection#secret ServiceConnection#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/service_connection#secret ServiceConnection#secret}
   */
   readonly secret?: string;
 }
@@ -326,55 +326,55 @@ export interface ServiceConnectionProtocolBgp {
   /**
   * Do not export routes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/service_connection#do_not_export_routes ServiceConnection#do_not_export_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/service_connection#do_not_export_routes ServiceConnection#do_not_export_routes}
   */
   readonly doNotExportRoutes?: boolean | cdktf.IResolvable;
   /**
   * Enable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/service_connection#enable ServiceConnection#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/service_connection#enable ServiceConnection#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Fast failover
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/service_connection#fast_failover ServiceConnection#fast_failover}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/service_connection#fast_failover ServiceConnection#fast_failover}
   */
   readonly fastFailover?: boolean | cdktf.IResolvable;
   /**
   * Local ip address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/service_connection#local_ip_address ServiceConnection#local_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/service_connection#local_ip_address ServiceConnection#local_ip_address}
   */
   readonly localIpAddress?: string;
   /**
   * Originate default route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/service_connection#originate_default_route ServiceConnection#originate_default_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/service_connection#originate_default_route ServiceConnection#originate_default_route}
   */
   readonly originateDefaultRoute?: boolean | cdktf.IResolvable;
   /**
   * Peer as
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/service_connection#peer_as ServiceConnection#peer_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/service_connection#peer_as ServiceConnection#peer_as}
   */
   readonly peerAs?: string;
   /**
   * Peer ip address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/service_connection#peer_ip_address ServiceConnection#peer_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/service_connection#peer_ip_address ServiceConnection#peer_ip_address}
   */
   readonly peerIpAddress?: string;
   /**
   * Secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/service_connection#secret ServiceConnection#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/service_connection#secret ServiceConnection#secret}
   */
   readonly secret?: string;
   /**
   * Summarize mobile user routes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/service_connection#summarize_mobile_user_routes ServiceConnection#summarize_mobile_user_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/service_connection#summarize_mobile_user_routes ServiceConnection#summarize_mobile_user_routes}
   */
   readonly summarizeMobileUserRoutes?: boolean | cdktf.IResolvable;
 }
@@ -702,7 +702,7 @@ export interface ServiceConnectionProtocol {
   /**
   * Bgp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/service_connection#bgp ServiceConnection#bgp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/service_connection#bgp ServiceConnection#bgp}
   */
   readonly bgp?: ServiceConnectionProtocolBgp;
 }
@@ -798,13 +798,13 @@ export interface ServiceConnectionQos {
   /**
   * Enable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/service_connection#enable ServiceConnection#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/service_connection#enable ServiceConnection#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Qos profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/service_connection#qos_profile ServiceConnection#qos_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/service_connection#qos_profile ServiceConnection#qos_profile}
   */
   readonly qosProfile?: string;
 }
@@ -927,7 +927,7 @@ export class ServiceConnectionQosOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/service_connection scm_service_connection}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/service_connection scm_service_connection}
 */
 export class ServiceConnection extends cdktf.TerraformResource {
 
@@ -943,7 +943,7 @@ export class ServiceConnection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServiceConnection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServiceConnection to import
-  * @param importFromId The id of the existing ServiceConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/service_connection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServiceConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/service_connection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServiceConnection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -955,7 +955,7 @@ export class ServiceConnection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/service_connection scm_service_connection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/service_connection scm_service_connection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -966,7 +966,8 @@ export class ServiceConnection extends cdktf.TerraformResource {
       terraformResourceType: 'scm_service_connection',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.3'
+        providerVersion: '1.0.4',
+        providerVersionConstraint: '1.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -976,7 +977,7 @@ export class ServiceConnection extends cdktf.TerraformResource {
       connection: config.connection,
       forEach: config.forEach
     });
-    this._backupSC = config.backupSC;
+    this._backupSc = config.backupSc;
     this._bgpPeer.internalValue = config.bgpPeer;
     this._ipsecTunnel = config.ipsecTunnel;
     this._name = config.name;
@@ -995,20 +996,20 @@ export class ServiceConnection extends cdktf.TerraformResource {
   // ATTRIBUTES
   // ==========
 
-  // backup__s_c - computed: false, optional: true, required: false
-  private _backupSC?: string; 
-  public get backupSC() {
-    return this.getStringAttribute('backup__s_c');
+  // backup_sc - computed: false, optional: true, required: false
+  private _backupSc?: string; 
+  public get backupSc() {
+    return this.getStringAttribute('backup_sc');
   }
-  public set backupSC(value: string) {
-    this._backupSC = value;
+  public set backupSc(value: string) {
+    this._backupSc = value;
   }
-  public resetBackupSC() {
-    this._backupSC = undefined;
+  public resetBackupSc() {
+    this._backupSc = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get backupSCInput() {
-    return this._backupSC;
+  public get backupScInput() {
+    return this._backupSc;
   }
 
   // bgp_peer - computed: false, optional: true, required: false
@@ -1216,7 +1217,7 @@ export class ServiceConnection extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      backup__s_c: cdktf.stringToTerraform(this._backupSC),
+      backup_sc: cdktf.stringToTerraform(this._backupSc),
       bgp_peer: serviceConnectionBgpPeerToTerraform(this._bgpPeer.internalValue),
       ipsec_tunnel: cdktf.stringToTerraform(this._ipsecTunnel),
       name: cdktf.stringToTerraform(this._name),
@@ -1234,8 +1235,8 @@ export class ServiceConnection extends cdktf.TerraformResource {
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
-      backup__s_c: {
-        value: cdktf.stringToHclTerraform(this._backupSC),
+      backup_sc: {
+        value: cdktf.stringToHclTerraform(this._backupSc),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

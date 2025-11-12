@@ -105,7 +105,8 @@ export class LambdabasedProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'lambdabased',
       terraformGeneratorMetadata: {
         providerName: 'lambdabased',
-        providerVersion: '0.1.0'
+        providerVersion: '0.1.0',
+        providerVersionConstraint: '0.1.0'
       },
       terraformProviderSource: 'Traceableai/lambdabased'
     });

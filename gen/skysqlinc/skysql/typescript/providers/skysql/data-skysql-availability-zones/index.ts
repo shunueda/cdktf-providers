@@ -149,7 +149,8 @@ export class DataSkysqlAvailabilityZones extends cdktf.TerraformDataSource {
       terraformResourceType: 'skysql_availability_zones',
       terraformGeneratorMetadata: {
         providerName: 'skysql',
-        providerVersion: '3.2.0'
+        providerVersion: '3.2.0',
+        providerVersionConstraint: '3.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

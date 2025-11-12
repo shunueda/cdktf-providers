@@ -92,7 +92,8 @@ export class FromPem extends cdktf.TerraformResource {
       terraformResourceType: 'pkcs12_from_pem',
       terraformGeneratorMetadata: {
         providerName: 'pkcs12',
-        providerVersion: '0.2.5'
+        providerVersion: '0.2.5',
+        providerVersionConstraint: '0.2.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

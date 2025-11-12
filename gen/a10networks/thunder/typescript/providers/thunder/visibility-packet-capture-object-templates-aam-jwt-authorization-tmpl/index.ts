@@ -1126,7 +1126,8 @@ export class VisibilityPacketCaptureObjectTemplatesAamJwtAuthorizationTmpl exten
       terraformResourceType: 'thunder_visibility_packet_capture_object_templates_aam_jwt_authorization_tmpl',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

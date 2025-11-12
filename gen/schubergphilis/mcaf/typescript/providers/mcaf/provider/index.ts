@@ -207,7 +207,8 @@ export class McafProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'mcaf',
       terraformGeneratorMetadata: {
         providerName: 'mcaf',
-        providerVersion: '0.4.3'
+        providerVersion: '0.4.3',
+        providerVersionConstraint: '0.4.3'
       },
       terraformProviderSource: 'schubergphilis/mcaf'
     });

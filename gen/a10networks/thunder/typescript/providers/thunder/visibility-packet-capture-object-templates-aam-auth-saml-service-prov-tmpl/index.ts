@@ -846,7 +846,8 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthSamlServiceProvTmpl ex
       terraformResourceType: 'thunder_visibility_packet_capture_object_templates_aam_auth_saml_service_prov_tmpl',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

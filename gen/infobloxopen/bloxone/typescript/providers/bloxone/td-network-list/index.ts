@@ -67,7 +67,8 @@ export class TdNetworkList extends cdktf.TerraformResource {
       terraformResourceType: 'bloxone_td_network_list',
       terraformGeneratorMetadata: {
         providerName: 'bloxone',
-        providerVersion: '1.5.3'
+        providerVersion: '1.5.3',
+        providerVersionConstraint: '1.5.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

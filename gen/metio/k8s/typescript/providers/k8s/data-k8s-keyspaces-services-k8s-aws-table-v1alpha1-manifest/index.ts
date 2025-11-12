@@ -2228,7 +2228,8 @@ export class DataK8SKeyspacesServicesK8SAwsTableV1Alpha1Manifest extends cdktf.T
       terraformResourceType: 'k8s_keyspaces_services_k8s_aws_table_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -549,7 +549,8 @@ export class Routerospf6Ospf6Interface extends cdktf.TerraformResource {
       terraformResourceType: 'fortios_routerospf6_ospf6interface',
       terraformGeneratorMetadata: {
         providerName: 'fortios',
-        providerVersion: '1.23.0'
+        providerVersion: '1.23.0',
+        providerVersionConstraint: '1.23.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

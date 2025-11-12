@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_external_gateways
+// https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_external_gateways
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataApstraDatacenterExternalGatewaysConfig extends cdktf.Terraf
   /**
   * Apstra Blueprint to search.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_external_gateways#blueprint_id DataApstraDatacenterExternalGateways#blueprint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_external_gateways#blueprint_id DataApstraDatacenterExternalGateways#blueprint_id}
   */
   readonly blueprintId: string;
   /**
   * List of filters used to select only desired External Gateways. To match a filter, all specified attributes must match (each attribute within a filter is AND-ed together). The returned IDs represent the gateways matched by all of the filters together (filters are OR-ed together).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_external_gateways#filters DataApstraDatacenterExternalGateways#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_external_gateways#filters DataApstraDatacenterExternalGateways#filters}
   */
   readonly filters?: DataApstraDatacenterExternalGatewaysFilters[] | cdktf.IResolvable;
 }
@@ -24,25 +24,25 @@ export interface DataApstraDatacenterExternalGatewaysFilters {
   /**
   * External Gateway AS Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_external_gateways#asn DataApstraDatacenterExternalGateways#asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_external_gateways#asn DataApstraDatacenterExternalGateways#asn}
   */
   readonly asn?: number;
   /**
   * EVPN route types. Valid values are: ["all", "type5_only"]. Default: "all"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_external_gateways#evpn_route_types DataApstraDatacenterExternalGateways#evpn_route_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_external_gateways#evpn_route_types DataApstraDatacenterExternalGateways#evpn_route_types}
   */
   readonly evpnRouteTypes?: string;
   /**
   * BGP hold time (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_external_gateways#hold_time DataApstraDatacenterExternalGateways#hold_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_external_gateways#hold_time DataApstraDatacenterExternalGateways#hold_time}
   */
   readonly holdTime?: number;
   /**
   * Apstra Object ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_external_gateways#id DataApstraDatacenterExternalGateways#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_external_gateways#id DataApstraDatacenterExternalGateways#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -51,37 +51,37 @@ export interface DataApstraDatacenterExternalGatewaysFilters {
   /**
   * External Gateway IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_external_gateways#ip_address DataApstraDatacenterExternalGateways#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_external_gateways#ip_address DataApstraDatacenterExternalGateways#ip_address}
   */
   readonly ipAddress?: string;
   /**
   * BGP keepalive time (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_external_gateways#keepalive_time DataApstraDatacenterExternalGateways#keepalive_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_external_gateways#keepalive_time DataApstraDatacenterExternalGateways#keepalive_time}
   */
   readonly keepaliveTime?: number;
   /**
   * Set of IDs of switch nodes which will be configured to peer with the External Gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_external_gateways#local_gateway_nodes DataApstraDatacenterExternalGateways#local_gateway_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_external_gateways#local_gateway_nodes DataApstraDatacenterExternalGateways#local_gateway_nodes}
   */
   readonly localGatewayNodes?: string[];
   /**
   * External Gateway name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_external_gateways#name DataApstraDatacenterExternalGateways#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_external_gateways#name DataApstraDatacenterExternalGateways#name}
   */
   readonly name?: string;
   /**
   * BGP TCP authentication password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_external_gateways#password DataApstraDatacenterExternalGateways#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_external_gateways#password DataApstraDatacenterExternalGateways#password}
   */
   readonly password?: string;
   /**
   * BGP Time To Live. Omit to use device defaults.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_external_gateways#ttl DataApstraDatacenterExternalGateways#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_external_gateways#ttl DataApstraDatacenterExternalGateways#ttl}
   */
   readonly ttl?: number;
 }
@@ -463,7 +463,7 @@ export class DataApstraDatacenterExternalGatewaysFiltersList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_external_gateways apstra_datacenter_external_gateways}
+* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_external_gateways apstra_datacenter_external_gateways}
 */
 export class DataApstraDatacenterExternalGateways extends cdktf.TerraformDataSource {
 
@@ -479,7 +479,7 @@ export class DataApstraDatacenterExternalGateways extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataApstraDatacenterExternalGateways resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataApstraDatacenterExternalGateways to import
-  * @param importFromId The id of the existing DataApstraDatacenterExternalGateways that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_external_gateways#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataApstraDatacenterExternalGateways that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_external_gateways#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataApstraDatacenterExternalGateways to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -491,7 +491,7 @@ export class DataApstraDatacenterExternalGateways extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_external_gateways apstra_datacenter_external_gateways} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_external_gateways apstra_datacenter_external_gateways} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -502,7 +502,8 @@ export class DataApstraDatacenterExternalGateways extends cdktf.TerraformDataSou
       terraformResourceType: 'apstra_datacenter_external_gateways',
       terraformGeneratorMetadata: {
         providerName: 'apstra',
-        providerVersion: '0.95.0'
+        providerVersion: '0.95.1',
+        providerVersionConstraint: '0.95.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

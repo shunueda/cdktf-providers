@@ -181,7 +181,8 @@ export class DataAlicloudVpcPublicIpAddressPoolCidrBlocks extends cdktf.Terrafor
       terraformResourceType: 'alicloud_vpc_public_ip_address_pool_cidr_blocks',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

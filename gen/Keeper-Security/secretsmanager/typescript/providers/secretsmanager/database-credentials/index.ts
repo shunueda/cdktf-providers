@@ -1687,7 +1687,8 @@ export class DatabaseCredentials extends cdktf.TerraformResource {
       terraformResourceType: 'secretsmanager_database_credentials',
       terraformGeneratorMetadata: {
         providerName: 'secretsmanager',
-        providerVersion: '1.1.7'
+        providerVersion: '1.1.7',
+        providerVersionConstraint: '1.1.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

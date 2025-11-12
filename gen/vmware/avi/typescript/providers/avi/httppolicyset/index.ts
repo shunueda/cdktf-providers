@@ -25,82 +25,82 @@ import { Construct } from 'constructs';
 import * as cdktf from 'cdktf';
 export interface HttppolicysetConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#cloud_config_cksum Httppolicyset#cloud_config_cksum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#cloud_config_cksum Httppolicyset#cloud_config_cksum}
   */
   readonly cloudConfigCksum?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#created_by Httppolicyset#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#created_by Httppolicyset#created_by}
   */
   readonly createdBy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#description Httppolicyset#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#description Httppolicyset#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#geo_db_ref Httppolicyset#geo_db_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#geo_db_ref Httppolicyset#geo_db_ref}
   */
   readonly geoDbRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#id Httppolicyset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#id Httppolicyset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#ip_reputation_db_ref Httppolicyset#ip_reputation_db_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#ip_reputation_db_ref Httppolicyset#ip_reputation_db_ref}
   */
   readonly ipReputationDbRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#is_internal_policy Httppolicyset#is_internal_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#is_internal_policy Httppolicyset#is_internal_policy}
   */
   readonly isInternalPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#name Httppolicyset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#name Httppolicyset#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#tenant_ref Httppolicyset#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#tenant_ref Httppolicyset#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#uuid Httppolicyset#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#uuid Httppolicyset#uuid}
   */
   readonly uuid?: string;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#configpb_attributes Httppolicyset#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#configpb_attributes Httppolicyset#configpb_attributes}
   */
   readonly configpbAttributes?: HttppolicysetConfigpbAttributes[] | cdktf.IResolvable;
   /**
   * http_request_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#http_request_policy Httppolicyset#http_request_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#http_request_policy Httppolicyset#http_request_policy}
   */
   readonly httpRequestPolicy?: HttppolicysetHttpRequestPolicy[] | cdktf.IResolvable;
   /**
   * http_response_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#http_response_policy Httppolicyset#http_response_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#http_response_policy Httppolicyset#http_response_policy}
   */
   readonly httpResponsePolicy?: HttppolicysetHttpResponsePolicy[] | cdktf.IResolvable;
   /**
   * http_security_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#http_security_policy Httppolicyset#http_security_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#http_security_policy Httppolicyset#http_security_policy}
   */
   readonly httpSecurityPolicy?: HttppolicysetHttpSecurityPolicy[] | cdktf.IResolvable;
   /**
   * markers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#markers Httppolicyset#markers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#markers Httppolicyset#markers}
   */
   readonly markers?: HttppolicysetMarkers[] | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset avi_httppolicyset}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset avi_httppolicyset}
 */
 export class Httppolicyset extends cdktf.TerraformResource {
 
@@ -116,7 +116,7 @@ export class Httppolicyset extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Httppolicyset resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Httppolicyset to import
-  * @param importFromId The id of the existing Httppolicyset that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Httppolicyset that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Httppolicyset to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -128,7 +128,7 @@ export class Httppolicyset extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/httppolicyset avi_httppolicyset} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/httppolicyset avi_httppolicyset} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -139,7 +139,8 @@ export class Httppolicyset extends cdktf.TerraformResource {
       terraformResourceType: 'avi_httppolicyset',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '31.1.1'
+        providerVersion: '30.2.5',
+        providerVersionConstraint: '30.2.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

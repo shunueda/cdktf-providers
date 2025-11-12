@@ -2721,7 +2721,8 @@ export class DataK8SKarpenterShNodePoolV1Beta1Manifest extends cdktf.TerraformDa
       terraformResourceType: 'k8s_karpenter_sh_node_pool_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

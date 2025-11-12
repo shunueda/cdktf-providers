@@ -73,7 +73,8 @@ export class TerraformProvider extends cdktf.TerraformResource {
       terraformResourceType: 'tharsis_terraform_provider',
       terraformGeneratorMetadata: {
         providerName: 'tharsis',
-        providerVersion: '0.14.1'
+        providerVersion: '0.14.1',
+        providerVersionConstraint: '0.14.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

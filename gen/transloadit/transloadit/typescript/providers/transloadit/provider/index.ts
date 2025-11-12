@@ -71,7 +71,8 @@ export class TransloaditProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'transloadit',
       terraformGeneratorMetadata: {
         providerName: 'transloadit',
-        providerVersion: '0.7.0'
+        providerVersion: '0.7.0',
+        providerVersionConstraint: '0.7.0'
       },
       terraformProviderSource: 'transloadit/transloadit'
     });

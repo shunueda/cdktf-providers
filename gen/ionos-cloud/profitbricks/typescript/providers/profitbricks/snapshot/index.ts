@@ -267,7 +267,8 @@ export class Snapshot extends cdktf.TerraformResource {
       terraformResourceType: 'profitbricks_snapshot',
       terraformGeneratorMetadata: {
         providerName: 'profitbricks',
-        providerVersion: '1.6.5'
+        providerVersion: '1.6.5',
+        providerVersionConstraint: '1.6.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

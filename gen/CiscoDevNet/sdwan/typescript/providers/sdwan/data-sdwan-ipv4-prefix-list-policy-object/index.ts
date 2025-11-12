@@ -143,7 +143,8 @@ export class DataSdwanIpv4PrefixListPolicyObject extends cdktf.TerraformDataSour
       terraformResourceType: 'sdwan_ipv4_prefix_list_policy_object',
       terraformGeneratorMetadata: {
         providerName: 'sdwan',
-        providerVersion: '0.8.1'
+        providerVersion: '0.8.1',
+        providerVersionConstraint: '0.8.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

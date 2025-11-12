@@ -976,7 +976,8 @@ export class IdentityDomainsMyOauth2ClientCredential extends cdktf.TerraformReso
       terraformResourceType: 'oci_identity_domains_my_oauth2client_credential',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

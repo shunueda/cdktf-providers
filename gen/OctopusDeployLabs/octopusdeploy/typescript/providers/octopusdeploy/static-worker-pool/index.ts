@@ -86,7 +86,8 @@ export class StaticWorkerPool extends cdktf.TerraformResource {
       terraformResourceType: 'octopusdeploy_static_worker_pool',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '0.43.2'
+        providerVersion: '0.43.2',
+        providerVersionConstraint: '0.43.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

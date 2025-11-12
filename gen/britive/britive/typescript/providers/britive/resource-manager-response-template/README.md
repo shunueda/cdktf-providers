@@ -1,3 +1,3 @@
 # `britive_resource_manager_response_template`
 
-Refer to the Terraform Registry for docs: [`britive_resource_manager_response_template`](https://registry.terraform.io/providers/britive/britive/2.2.3/docs/resources/resource_manager_response_template).
+Refer to the Terraform Registry for docs: [`britive_resource_manager_response_template`](https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/resource_manager_response_template).

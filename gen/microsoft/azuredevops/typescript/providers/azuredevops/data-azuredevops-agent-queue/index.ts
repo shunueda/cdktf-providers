@@ -164,7 +164,8 @@ export class DataAzuredevopsAgentQueue extends cdktf.TerraformDataSource {
       terraformResourceType: 'azuredevops_agent_queue',
       terraformGeneratorMetadata: {
         providerName: 'azuredevops',
-        providerVersion: '1.11.2'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

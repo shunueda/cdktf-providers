@@ -301,7 +301,8 @@ export class RedisOciCacheConfigSetlistAssociatedOciCacheCluster extends cdktf.T
       terraformResourceType: 'oci_redis_oci_cache_config_setlist_associated_oci_cache_cluster',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

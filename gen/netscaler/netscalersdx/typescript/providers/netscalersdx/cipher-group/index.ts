@@ -74,7 +74,8 @@ export class CipherGroup extends cdktf.TerraformResource {
       terraformResourceType: 'netscalersdx_cipher_group',
       terraformGeneratorMetadata: {
         providerName: 'netscalersdx',
-        providerVersion: '0.7.2'
+        providerVersion: '0.7.2',
+        providerVersionConstraint: '0.7.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

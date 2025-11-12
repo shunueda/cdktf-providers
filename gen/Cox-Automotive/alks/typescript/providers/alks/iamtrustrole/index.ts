@@ -88,7 +88,8 @@ export class Iamtrustrole extends cdktf.TerraformResource {
       terraformResourceType: 'alks_iamtrustrole',
       terraformGeneratorMetadata: {
         providerName: 'alks',
-        providerVersion: '2.8.2'
+        providerVersion: '2.8.2',
+        providerVersionConstraint: '2.8.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

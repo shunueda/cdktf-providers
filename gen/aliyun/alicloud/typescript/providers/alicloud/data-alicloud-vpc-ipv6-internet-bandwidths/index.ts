@@ -186,7 +186,8 @@ export class DataAlicloudVpcIpv6InternetBandwidths extends cdktf.TerraformDataSo
       terraformResourceType: 'alicloud_vpc_ipv6_internet_bandwidths',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

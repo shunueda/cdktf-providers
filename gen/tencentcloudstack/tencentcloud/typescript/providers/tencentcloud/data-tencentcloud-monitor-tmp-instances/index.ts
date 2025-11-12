@@ -663,7 +663,8 @@ export class DataTencentcloudMonitorTmpInstances extends cdktf.TerraformDataSour
       terraformResourceType: 'tencentcloud_monitor_tmp_instances',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

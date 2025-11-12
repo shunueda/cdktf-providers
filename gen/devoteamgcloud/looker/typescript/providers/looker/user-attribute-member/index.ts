@@ -210,7 +210,8 @@ export class UserAttributeMember extends cdktf.TerraformResource {
       terraformResourceType: 'looker_user_attribute_member',
       terraformGeneratorMetadata: {
         providerName: 'looker',
-        providerVersion: '0.4.0'
+        providerVersion: '0.4.0',
+        providerVersionConstraint: '0.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

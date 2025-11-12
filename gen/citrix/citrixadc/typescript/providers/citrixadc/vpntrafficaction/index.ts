@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpntrafficaction
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpntrafficaction
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,68 +8,68 @@ import * as cdktf from 'cdktf';
 
 export interface VpntrafficactionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpntrafficaction#apptimeout Vpntrafficaction#apptimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpntrafficaction#apptimeout Vpntrafficaction#apptimeout}
   */
   readonly apptimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpntrafficaction#formssoaction Vpntrafficaction#formssoaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpntrafficaction#formssoaction Vpntrafficaction#formssoaction}
   */
   readonly formssoaction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpntrafficaction#fta Vpntrafficaction#fta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpntrafficaction#fta Vpntrafficaction#fta}
   */
   readonly fta?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpntrafficaction#hdx Vpntrafficaction#hdx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpntrafficaction#hdx Vpntrafficaction#hdx}
   */
   readonly hdx?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpntrafficaction#id Vpntrafficaction#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpntrafficaction#id Vpntrafficaction#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpntrafficaction#kcdaccount Vpntrafficaction#kcdaccount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpntrafficaction#kcdaccount Vpntrafficaction#kcdaccount}
   */
   readonly kcdaccount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpntrafficaction#name Vpntrafficaction#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpntrafficaction#name Vpntrafficaction#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpntrafficaction#passwdexpression Vpntrafficaction#passwdexpression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpntrafficaction#passwdexpression Vpntrafficaction#passwdexpression}
   */
   readonly passwdexpression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpntrafficaction#proxy Vpntrafficaction#proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpntrafficaction#proxy Vpntrafficaction#proxy}
   */
   readonly proxy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpntrafficaction#qual Vpntrafficaction#qual}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpntrafficaction#qual Vpntrafficaction#qual}
   */
   readonly qual: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpntrafficaction#samlssoprofile Vpntrafficaction#samlssoprofile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpntrafficaction#samlssoprofile Vpntrafficaction#samlssoprofile}
   */
   readonly samlssoprofile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpntrafficaction#sso Vpntrafficaction#sso}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpntrafficaction#sso Vpntrafficaction#sso}
   */
   readonly sso?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpntrafficaction#userexpression Vpntrafficaction#userexpression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpntrafficaction#userexpression Vpntrafficaction#userexpression}
   */
   readonly userexpression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpntrafficaction#wanscaler Vpntrafficaction#wanscaler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpntrafficaction#wanscaler Vpntrafficaction#wanscaler}
   */
   readonly wanscaler?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpntrafficaction citrixadc_vpntrafficaction}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpntrafficaction citrixadc_vpntrafficaction}
 */
 export class Vpntrafficaction extends cdktf.TerraformResource {
 
@@ -85,7 +85,7 @@ export class Vpntrafficaction extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Vpntrafficaction resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Vpntrafficaction to import
-  * @param importFromId The id of the existing Vpntrafficaction that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpntrafficaction#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Vpntrafficaction that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpntrafficaction#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Vpntrafficaction to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -97,7 +97,7 @@ export class Vpntrafficaction extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpntrafficaction citrixadc_vpntrafficaction} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpntrafficaction citrixadc_vpntrafficaction} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -108,7 +108,8 @@ export class Vpntrafficaction extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_vpntrafficaction',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

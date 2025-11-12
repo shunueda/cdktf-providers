@@ -74,7 +74,8 @@ export class ZoneLocalZoneCfgA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_zone_local_zone_cfg',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -103,7 +103,8 @@ export class IamWorkloadIdentityBinding extends cdktf.TerraformResource {
       terraformResourceType: 'mondoo_iam_workload_identity_binding',
       terraformGeneratorMetadata: {
         providerName: 'mondoo',
-        providerVersion: '0.34.0'
+        providerVersion: '0.34.0',
+        providerVersionConstraint: '0.34.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

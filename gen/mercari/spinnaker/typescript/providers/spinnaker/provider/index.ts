@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mercari/spinnaker/0.3.0/docs
+// https://registry.terraform.io/providers/mercari/spinnaker/0.0.1/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface SpinnakerProviderConfig {
   /**
   * Path to Gate config file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.3.0/docs#config SpinnakerProvider#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.0.1/docs#config SpinnakerProvider#config}
   */
   readonly config?: string;
   /**
   * Headers to be passed to the gate endpoint by the client on each request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.3.0/docs#default_headers SpinnakerProvider#default_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.0.1/docs#default_headers SpinnakerProvider#default_headers}
   */
   readonly defaultHeaders?: string;
   /**
   * URL for Spinnaker Gate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.3.0/docs#gate_endpoint SpinnakerProvider#gate_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.0.1/docs#gate_endpoint SpinnakerProvider#gate_endpoint}
   */
   readonly gateEndpoint?: string;
   /**
   * Ignore certificate errors from Gate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.3.0/docs#ignore_cert_errors SpinnakerProvider#ignore_cert_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.0.1/docs#ignore_cert_errors SpinnakerProvider#ignore_cert_errors}
   */
   readonly ignoreCertErrors?: boolean | cdktf.IResolvable;
   /**
   * URL for Spinnaker Gate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.3.0/docs#server SpinnakerProvider#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.0.1/docs#server SpinnakerProvider#server}
   */
   readonly server?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.3.0/docs#alias SpinnakerProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.0.1/docs#alias SpinnakerProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mercari/spinnaker/0.3.0/docs spinnaker}
+* Represents a {@link https://registry.terraform.io/providers/mercari/spinnaker/0.0.1/docs spinnaker}
 */
 export class SpinnakerProvider extends cdktf.TerraformProvider {
 
@@ -62,7 +62,7 @@ export class SpinnakerProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a SpinnakerProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SpinnakerProvider to import
-  * @param importFromId The id of the existing SpinnakerProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/mercari/spinnaker/0.3.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SpinnakerProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/mercari/spinnaker/0.0.1/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SpinnakerProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class SpinnakerProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mercari/spinnaker/0.3.0/docs spinnaker} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mercari/spinnaker/0.0.1/docs spinnaker} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,7 +85,8 @@ export class SpinnakerProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'spinnaker',
       terraformGeneratorMetadata: {
         providerName: 'spinnaker',
-        providerVersion: '0.3.0'
+        providerVersion: '0.0.1',
+        providerVersionConstraint: '0.0.1'
       },
       terraformProviderSource: 'mercari/spinnaker'
     });

@@ -591,7 +591,8 @@ export class DataTanzuMissionControlHelmFeature extends cdktf.TerraformDataSourc
       terraformResourceType: 'tanzu-mission-control_helm_feature',
       terraformGeneratorMetadata: {
         providerName: 'tanzu-mission-control',
-        providerVersion: '1.4.9'
+        providerVersion: '1.4.9',
+        providerVersionConstraint: '1.4.9'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

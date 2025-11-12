@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_security_policy
+// https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_security_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface DatacenterSecurityPolicyConfig extends cdktf.TerraformMetaArgum
   /**
   * Apstra Blueprint ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_security_policy#blueprint_id DatacenterSecurityPolicy#blueprint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_security_policy#blueprint_id DatacenterSecurityPolicy#blueprint_id}
   */
   readonly blueprintId: string;
   /**
   * Security Policy description, as seen in the Web UI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_security_policy#description DatacenterSecurityPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_security_policy#description DatacenterSecurityPolicy#description}
   */
   readonly description?: string;
   /**
   * Graph node ID of the destination Application Point (Virtual Network ID, Routing Zone ID, etc...)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_security_policy#destination_application_point_id DatacenterSecurityPolicy#destination_application_point_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_security_policy#destination_application_point_id DatacenterSecurityPolicy#destination_application_point_id}
   */
   readonly destinationApplicationPointId?: string;
   /**
   * Indicates whether the Security Policy is enabled. Default value: `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_security_policy#enabled DatacenterSecurityPolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_security_policy#enabled DatacenterSecurityPolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Security Policy name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_security_policy#name DatacenterSecurityPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_security_policy#name DatacenterSecurityPolicy#name}
   */
   readonly name: string;
   /**
   * Ordered list of policy rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_security_policy#rules DatacenterSecurityPolicy#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_security_policy#rules DatacenterSecurityPolicy#rules}
   */
   readonly rules?: DatacenterSecurityPolicyRules[] | cdktf.IResolvable;
   /**
   * Graph node ID of the source Application Point (Virtual Network ID, Routing Zone ID, etc...)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_security_policy#source_application_point_id DatacenterSecurityPolicy#source_application_point_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_security_policy#source_application_point_id DatacenterSecurityPolicy#source_application_point_id}
   */
   readonly sourceApplicationPointId?: string;
   /**
   * Set of Tags applied to the Security Policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_security_policy#tags DatacenterSecurityPolicy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_security_policy#tags DatacenterSecurityPolicy#tags}
   */
   readonly tags?: string[];
 }
@@ -60,13 +60,13 @@ export interface DatacenterSecurityPolicyRulesDestinationPorts {
   /**
   * First (low) port number in a range of ports matched by the policy rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_security_policy#from_port DatacenterSecurityPolicy#from_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_security_policy#from_port DatacenterSecurityPolicy#from_port}
   */
   readonly fromPort: number;
   /**
   * Last (high) port number in a range of ports matched by the policy rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_security_policy#to_port DatacenterSecurityPolicy#to_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_security_policy#to_port DatacenterSecurityPolicy#to_port}
   */
   readonly toPort: number;
 }
@@ -207,13 +207,13 @@ export interface DatacenterSecurityPolicyRulesSourcePorts {
   /**
   * First (low) port number in a range of ports matched by the policy rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_security_policy#from_port DatacenterSecurityPolicy#from_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_security_policy#from_port DatacenterSecurityPolicy#from_port}
   */
   readonly fromPort: number;
   /**
   * Last (high) port number in a range of ports matched by the policy rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_security_policy#to_port DatacenterSecurityPolicy#to_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_security_policy#to_port DatacenterSecurityPolicy#to_port}
   */
   readonly toPort: number;
 }
@@ -354,43 +354,43 @@ export interface DatacenterSecurityPolicyRules {
   /**
   * Action - One of: deny, deny_log, permit, permit_log
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_security_policy#action DatacenterSecurityPolicy#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_security_policy#action DatacenterSecurityPolicy#action}
   */
   readonly action: string;
   /**
   * Security Policy Rule Description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_security_policy#description DatacenterSecurityPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_security_policy#description DatacenterSecurityPolicy#description}
   */
   readonly description?: string;
   /**
   * Set of TCP/UDP destination ports matched by this rule. A `null` set matches any port. Valid only when `protocol` is `tcp` or `udp`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_security_policy#destination_ports DatacenterSecurityPolicy#destination_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_security_policy#destination_ports DatacenterSecurityPolicy#destination_ports}
   */
   readonly destinationPorts?: DatacenterSecurityPolicyRulesDestinationPorts[] | cdktf.IResolvable;
   /**
   * When `true`, the rendered rule will use the NOS `established` or `tcp-established` keyword/feature for TCP access control list entries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_security_policy#established DatacenterSecurityPolicy#established}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_security_policy#established DatacenterSecurityPolicy#established}
   */
   readonly established?: boolean | cdktf.IResolvable;
   /**
   * Security Policy Rule Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_security_policy#name DatacenterSecurityPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_security_policy#name DatacenterSecurityPolicy#name}
   */
   readonly name: string;
   /**
   * Security Policy Rule Protocol; one of: 'icmp', 'ip', 'tcp', 'udp'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_security_policy#protocol DatacenterSecurityPolicy#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_security_policy#protocol DatacenterSecurityPolicy#protocol}
   */
   readonly protocol: string;
   /**
   * Set of TCP/UDP source ports matched by this rule. A `null` set matches any port. Valid only when `protocol` is `tcp` or `udp`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_security_policy#source_ports DatacenterSecurityPolicy#source_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_security_policy#source_ports DatacenterSecurityPolicy#source_ports}
   */
   readonly sourcePorts?: DatacenterSecurityPolicyRulesSourcePorts[] | cdktf.IResolvable;
 }
@@ -676,7 +676,7 @@ export class DatacenterSecurityPolicyRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_security_policy apstra_datacenter_security_policy}
+* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_security_policy apstra_datacenter_security_policy}
 */
 export class DatacenterSecurityPolicy extends cdktf.TerraformResource {
 
@@ -692,7 +692,7 @@ export class DatacenterSecurityPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DatacenterSecurityPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatacenterSecurityPolicy to import
-  * @param importFromId The id of the existing DatacenterSecurityPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_security_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatacenterSecurityPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_security_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatacenterSecurityPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -704,7 +704,7 @@ export class DatacenterSecurityPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_security_policy apstra_datacenter_security_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_security_policy apstra_datacenter_security_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -715,7 +715,8 @@ export class DatacenterSecurityPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'apstra_datacenter_security_policy',
       terraformGeneratorMetadata: {
         providerName: 'apstra',
-        providerVersion: '0.95.0'
+        providerVersion: '0.95.1',
+        providerVersionConstraint: '0.95.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -150,7 +150,8 @@ export class DataValtixGateway extends cdktf.TerraformDataSource {
       terraformResourceType: 'valtix_gateway',
       terraformGeneratorMetadata: {
         providerName: 'valtix',
-        providerVersion: '25.9.2'
+        providerVersion: '25.9.2',
+        providerVersionConstraint: '25.9.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

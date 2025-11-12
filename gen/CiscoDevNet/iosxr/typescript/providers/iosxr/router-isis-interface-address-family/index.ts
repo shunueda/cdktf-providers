@@ -982,7 +982,8 @@ export class RouterIsisInterfaceAddressFamily extends cdktf.TerraformResource {
       terraformResourceType: 'iosxr_router_isis_interface_address_family',
       terraformGeneratorMetadata: {
         providerName: 'iosxr',
-        providerVersion: '0.6.0'
+        providerVersion: '0.6.0',
+        providerVersionConstraint: '0.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

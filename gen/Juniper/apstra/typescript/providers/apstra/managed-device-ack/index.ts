@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/managed_device_ack
+// https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/managed_device_ack
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface ManagedDeviceAckConfig extends cdktf.TerraformMetaArguments {
   /**
   * Apstra ID for the System Agent responsible for the Managed Device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/managed_device_ack#agent_id ManagedDeviceAck#agent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/managed_device_ack#agent_id ManagedDeviceAck#agent_id}
   */
   readonly agentId: string;
   /**
   * Key which uniquely identifies a System asset, probably the serial number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/managed_device_ack#device_key ManagedDeviceAck#device_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/managed_device_ack#device_key ManagedDeviceAck#device_key}
   */
   readonly deviceKey: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/managed_device_ack apstra_managed_device_ack}
+* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/managed_device_ack apstra_managed_device_ack}
 */
 export class ManagedDeviceAck extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class ManagedDeviceAck extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagedDeviceAck resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagedDeviceAck to import
-  * @param importFromId The id of the existing ManagedDeviceAck that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/managed_device_ack#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagedDeviceAck that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/managed_device_ack#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagedDeviceAck to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class ManagedDeviceAck extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/managed_device_ack apstra_managed_device_ack} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/managed_device_ack apstra_managed_device_ack} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,7 +61,8 @@ export class ManagedDeviceAck extends cdktf.TerraformResource {
       terraformResourceType: 'apstra_managed_device_ack',
       terraformGeneratorMetadata: {
         providerName: 'apstra',
-        providerVersion: '0.95.0'
+        providerVersion: '0.95.1',
+        providerVersionConstraint: '0.95.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -80,7 +80,8 @@ export class IncidentCustomField extends cdktf.TerraformResource {
       terraformResourceType: 'pagerduty_incident_custom_field',
       terraformGeneratorMetadata: {
         providerName: 'pagerduty',
-        providerVersion: '4.1.2'
+        providerVersion: '4.1.2',
+        providerVersionConstraint: '4.1.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

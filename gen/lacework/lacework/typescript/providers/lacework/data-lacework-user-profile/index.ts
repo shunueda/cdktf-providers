@@ -151,7 +151,8 @@ export class DataLaceworkUserProfile extends cdktf.TerraformDataSource {
       terraformResourceType: 'lacework_user_profile',
       terraformGeneratorMetadata: {
         providerName: 'lacework',
-        providerVersion: '2.0.10'
+        providerVersion: '2.0.10',
+        providerVersionConstraint: '2.0.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

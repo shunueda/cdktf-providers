@@ -332,7 +332,8 @@ export class DataBloxoneFederationFederatedRealms extends cdktf.TerraformDataSou
       terraformResourceType: 'bloxone_federation_federated_realms',
       terraformGeneratorMetadata: {
         providerName: 'bloxone',
-        providerVersion: '1.5.3'
+        providerVersion: '1.5.3',
+        providerVersionConstraint: '1.5.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

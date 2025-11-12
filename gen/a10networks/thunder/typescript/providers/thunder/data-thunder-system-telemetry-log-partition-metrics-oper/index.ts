@@ -146,7 +146,8 @@ export class DataThunderSystemTelemetryLogPartitionMetricsOper extends cdktf.Ter
       terraformResourceType: 'thunder_system_telemetry_log_partition_metrics_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

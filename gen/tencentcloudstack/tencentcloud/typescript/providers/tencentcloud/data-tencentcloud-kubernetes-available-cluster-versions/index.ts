@@ -154,7 +154,8 @@ export class DataTencentcloudKubernetesAvailableClusterVersions extends cdktf.Te
       terraformResourceType: 'tencentcloud_kubernetes_available_cluster_versions',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

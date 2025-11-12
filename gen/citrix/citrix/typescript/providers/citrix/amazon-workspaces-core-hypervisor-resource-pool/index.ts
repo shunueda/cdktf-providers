@@ -238,7 +238,8 @@ export class AmazonWorkspacesCoreHypervisorResourcePool extends cdktf.TerraformR
       terraformResourceType: 'citrix_amazon_workspaces_core_hypervisor_resource_pool',
       terraformGeneratorMetadata: {
         providerName: 'citrix',
-        providerVersion: '1.0.30'
+        providerVersion: '1.0.30',
+        providerVersionConstraint: '1.0.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

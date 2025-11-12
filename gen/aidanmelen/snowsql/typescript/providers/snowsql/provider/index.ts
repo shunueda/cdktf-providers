@@ -169,7 +169,8 @@ export class SnowsqlProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'snowsql',
       terraformGeneratorMetadata: {
         providerName: 'snowsql',
-        providerVersion: '1.3.3'
+        providerVersion: '1.3.3',
+        providerVersionConstraint: '1.3.3'
       },
       terraformProviderSource: 'aidanmelen/snowsql'
     });

@@ -492,7 +492,8 @@ export class DataFortiswitchRouterPolicy extends cdktf.TerraformDataSource {
       terraformResourceType: 'fortiswitch_router_policy',
       terraformGeneratorMetadata: {
         providerName: 'fortiswitch',
-        providerVersion: '1.1.6'
+        providerVersion: '1.1.6',
+        providerVersionConstraint: '1.1.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

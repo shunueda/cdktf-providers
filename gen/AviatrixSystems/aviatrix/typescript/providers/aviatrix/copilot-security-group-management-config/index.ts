@@ -98,7 +98,8 @@ export class CopilotSecurityGroupManagementConfig extends cdktf.TerraformResourc
       terraformResourceType: 'aviatrix_copilot_security_group_management_config',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10'
+        providerVersion: '8.1.10',
+        providerVersionConstraint: '8.1.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

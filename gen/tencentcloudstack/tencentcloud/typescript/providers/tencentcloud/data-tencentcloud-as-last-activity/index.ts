@@ -613,7 +613,8 @@ export class DataTencentcloudAsLastActivity extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_as_last_activity',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

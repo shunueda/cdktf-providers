@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/admin
+// https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/admin
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,65 +10,65 @@ export interface AdminConfig extends cdktf.TerraformMetaArguments {
   /**
   * Free form text field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/admin#additional_info Admin#additional_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/admin#additional_info Admin#additional_info}
   */
   readonly additionalInfo?: string;
   /**
   * Optional description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/admin#description Admin#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/admin#description Admin#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/admin#email Admin#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/admin#email Admin#email}
   */
   readonly email?: string;
   /**
   * Additional restrictions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/admin#filters Admin#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/admin#filters Admin#filters}
   */
   readonly filters?: AdminFilters;
   /**
   * Groups automatically selected for new users created by this admin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/admin#groups Admin#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/admin#groups Admin#groups}
   */
   readonly groups?: AdminGroups[] | cdktf.IResolvable;
   /**
   * Plain text password or hash format supported by SFTPGo.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/admin#password Admin#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/admin#password Admin#password}
   */
   readonly password: string;
   /**
   * Granted permissions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/admin#permissions Admin#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/admin#permissions Admin#permissions}
   */
   readonly permissions: string[];
   /**
   * Admin preferences.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/admin#preferences Admin#preferences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/admin#preferences Admin#preferences}
   */
   readonly preferences?: AdminPreferences;
   /**
   * Role name. If set the admin can only administer users with the same role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/admin#role Admin#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/admin#role Admin#role}
   */
   readonly role?: string;
   /**
   * 1 enabled, 0 disabled (login is not allowed).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/admin#status Admin#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/admin#status Admin#status}
   */
   readonly status: number;
   /**
   * Unique username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/admin#username Admin#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/admin#username Admin#username}
   */
   readonly username: string;
 }
@@ -76,31 +76,31 @@ export interface AdminFilters {
   /**
   * If set, API Key authentication is allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/admin#allow_api_key_auth Admin#allow_api_key_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/admin#allow_api_key_auth Admin#allow_api_key_auth}
   */
   readonly allowApiKeyAuth?: boolean | cdktf.IResolvable;
   /**
   * Only connections from these IP/Mask are allowed. IP/Mask must be in CIDR notation as defined in RFC 4632 and RFC 4291 for example "192.0.2.0/24" or "2001:db8::/32"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/admin#allow_list Admin#allow_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/admin#allow_list Admin#allow_list}
   */
   readonly allowList?: string[];
   /**
   * If set, password authentication is disabled. The administrator can authenticate using an API key or OpenID Connect, if either is enabled. Available in the Enterprise edition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/admin#disable_password_auth Admin#disable_password_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/admin#disable_password_auth Admin#disable_password_auth}
   */
   readonly disablePasswordAuth?: boolean | cdktf.IResolvable;
   /**
   * If set, two factor authentication is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/admin#require_password_change Admin#require_password_change}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/admin#require_password_change Admin#require_password_change}
   */
   readonly requirePasswordChange?: boolean | cdktf.IResolvable;
   /**
   * If set, API Key authentication is allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/admin#require_two_factor Admin#require_two_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/admin#require_two_factor Admin#require_two_factor}
   */
   readonly requireTwoFactor?: boolean | cdktf.IResolvable;
 }
@@ -312,7 +312,7 @@ export interface AdminGroupsOptions {
   /**
   * Add to users as the specified group type. 1 = Primary, 2 = Secondary, 3 = Membership only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/admin#add_to_users_as Admin#add_to_users_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/admin#add_to_users_as Admin#add_to_users_as}
   */
   readonly addToUsersAs: number;
 }
@@ -405,13 +405,13 @@ export interface AdminGroups {
   /**
   * Group name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/admin#name Admin#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/admin#name Admin#name}
   */
   readonly name: string;
   /**
   * Options for admin/group mapping
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/admin#options Admin#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/admin#options Admin#options}
   */
   readonly options: AdminGroupsOptions;
 }
@@ -552,13 +552,13 @@ export interface AdminPreferences {
   /**
   * If set defines the default expiration for newly created users as number of days.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/admin#default_users_expiration Admin#default_users_expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/admin#default_users_expiration Admin#default_users_expiration}
   */
   readonly defaultUsersExpiration?: number;
   /**
   * If set allow to hide some sections from the user page in the WebAdmin. 1 = groups, 2 = filesystem, 4 = virtual folders, 8 = profile, 16 = ACL, 32 = Disk and bandwidth quota limits, 64 = Advanced. Settings can be combined.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/admin#hide_user_page_sections Admin#hide_user_page_sections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/admin#hide_user_page_sections Admin#hide_user_page_sections}
   */
   readonly hideUserPageSections?: number;
 }
@@ -681,7 +681,7 @@ export class AdminPreferencesOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/admin sftpgo_admin}
+* Represents a {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/admin sftpgo_admin}
 */
 export class Admin extends cdktf.TerraformResource {
 
@@ -697,7 +697,7 @@ export class Admin extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Admin resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Admin to import
-  * @param importFromId The id of the existing Admin that should be imported. Refer to the {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/admin#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Admin that should be imported. Refer to the {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/admin#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Admin to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -709,7 +709,7 @@ export class Admin extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs/resources/admin sftpgo_admin} Resource
+  * Create a new {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs/resources/admin sftpgo_admin} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -720,7 +720,8 @@ export class Admin extends cdktf.TerraformResource {
       terraformResourceType: 'sftpgo_admin',
       terraformGeneratorMetadata: {
         providerName: 'sftpgo',
-        providerVersion: '0.0.18'
+        providerVersion: '0.0.19',
+        providerVersionConstraint: '0.0.19'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

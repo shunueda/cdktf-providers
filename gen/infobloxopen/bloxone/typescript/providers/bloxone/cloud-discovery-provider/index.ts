@@ -2472,7 +2472,8 @@ export class CloudDiscoveryProvider extends cdktf.TerraformResource {
       terraformResourceType: 'bloxone_cloud_discovery_provider',
       terraformGeneratorMetadata: {
         providerName: 'bloxone',
-        providerVersion: '1.5.3'
+        providerVersion: '1.5.3',
+        providerVersionConstraint: '1.5.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

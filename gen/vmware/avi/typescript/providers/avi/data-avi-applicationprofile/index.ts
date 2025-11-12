@@ -1,7 +1,6 @@
 // generated from terraform resource schema
 
 import { DataAviApplicationprofileConfigpbAttributesList, 
-DataAviApplicationprofileDiameterServiceProfileList, 
 DataAviApplicationprofileDnsServiceProfileList, 
 DataAviApplicationprofileDosRlProfileList, 
 DataAviApplicationprofileHttpProfileList, 
@@ -14,28 +13,28 @@ import { Construct } from 'constructs';
 import * as cdktf from 'cdktf';
 export interface DataAviApplicationprofileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/applicationprofile#id DataAviApplicationprofile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/applicationprofile#id DataAviApplicationprofile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/applicationprofile#name DataAviApplicationprofile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/applicationprofile#name DataAviApplicationprofile#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/applicationprofile#tenant_ref DataAviApplicationprofile#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/applicationprofile#tenant_ref DataAviApplicationprofile#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/applicationprofile#uuid DataAviApplicationprofile#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/applicationprofile#uuid DataAviApplicationprofile#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/applicationprofile avi_applicationprofile}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/applicationprofile avi_applicationprofile}
 */
 export class DataAviApplicationprofile extends cdktf.TerraformDataSource {
 
@@ -51,7 +50,7 @@ export class DataAviApplicationprofile extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAviApplicationprofile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAviApplicationprofile to import
-  * @param importFromId The id of the existing DataAviApplicationprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/applicationprofile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAviApplicationprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/applicationprofile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAviApplicationprofile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +62,7 @@ export class DataAviApplicationprofile extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/applicationprofile avi_applicationprofile} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/applicationprofile avi_applicationprofile} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,7 +73,8 @@ export class DataAviApplicationprofile extends cdktf.TerraformDataSource {
       terraformResourceType: 'avi_applicationprofile',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '31.1.1'
+        providerVersion: '30.2.5',
+        providerVersionConstraint: '30.2.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -118,12 +118,6 @@ export class DataAviApplicationprofile extends cdktf.TerraformDataSource {
   // description - computed: true, optional: false, required: false
   public get description() {
     return this.getStringAttribute('description');
-  }
-
-  // diameter_service_profile - computed: true, optional: false, required: false
-  private _diameterServiceProfile = new DataAviApplicationprofileDiameterServiceProfileList(this, "diameter_service_profile", true);
-  public get diameterServiceProfile() {
-    return this._diameterServiceProfile;
   }
 
   // dns_service_profile - computed: true, optional: false, required: false

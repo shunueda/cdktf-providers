@@ -184,7 +184,8 @@ export class DataIntegration extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_data_integration',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.230.0'
+        providerVersion: '1.230.0',
+        providerVersionConstraint: '1.230.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

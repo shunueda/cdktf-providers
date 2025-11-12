@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/ecs_compute_instance_clone
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance_clone
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface EcsComputeInstanceCloneConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/ecs_compute_instance_clone#admin_pass EcsComputeInstanceClone#admin_pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance_clone#admin_pass EcsComputeInstanceClone#admin_pass}
   */
   readonly adminPass?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/ecs_compute_instance_clone#id EcsComputeInstanceClone#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance_clone#id EcsComputeInstanceClone#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/ecs_compute_instance_clone#instance_id EcsComputeInstanceClone#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance_clone#instance_id EcsComputeInstanceClone#instance_id}
   */
   readonly instanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/ecs_compute_instance_clone#key_pair EcsComputeInstanceClone#key_pair}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance_clone#key_pair EcsComputeInstanceClone#key_pair}
   */
   readonly keyPair?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/ecs_compute_instance_clone#name EcsComputeInstanceClone#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance_clone#name EcsComputeInstanceClone#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/ecs_compute_instance_clone#power_on EcsComputeInstanceClone#power_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance_clone#power_on EcsComputeInstanceClone#power_on}
   */
   readonly powerOn: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/ecs_compute_instance_clone#retain_passwd EcsComputeInstanceClone#retain_passwd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance_clone#retain_passwd EcsComputeInstanceClone#retain_passwd}
   */
   readonly retainPasswd?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/ecs_compute_instance_clone#vpc_id EcsComputeInstanceClone#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance_clone#vpc_id EcsComputeInstanceClone#vpc_id}
   */
   readonly vpcId?: string;
   /**
   * network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/ecs_compute_instance_clone#network EcsComputeInstanceClone#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance_clone#network EcsComputeInstanceClone#network}
   */
   readonly network?: EcsComputeInstanceCloneNetwork[] | cdktf.IResolvable;
 }
 export interface EcsComputeInstanceCloneNetworkSecurityGroupIds {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/ecs_compute_instance_clone#security_group_id EcsComputeInstanceClone#security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance_clone#security_group_id EcsComputeInstanceClone#security_group_id}
   */
   readonly securityGroupId?: string;
 }
@@ -167,25 +167,25 @@ export class EcsComputeInstanceCloneNetworkSecurityGroupIdsList extends cdktf.Co
 }
 export interface EcsComputeInstanceCloneNetwork {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/ecs_compute_instance_clone#fixed_ip_v4 EcsComputeInstanceClone#fixed_ip_v4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance_clone#fixed_ip_v4 EcsComputeInstanceClone#fixed_ip_v4}
   */
   readonly fixedIpV4?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/ecs_compute_instance_clone#fixed_ip_v6 EcsComputeInstanceClone#fixed_ip_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance_clone#fixed_ip_v6 EcsComputeInstanceClone#fixed_ip_v6}
   */
   readonly fixedIpV6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/ecs_compute_instance_clone#ipv6_enable EcsComputeInstanceClone#ipv6_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance_clone#ipv6_enable EcsComputeInstanceClone#ipv6_enable}
   */
   readonly ipv6Enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/ecs_compute_instance_clone#subnet_id EcsComputeInstanceClone#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance_clone#subnet_id EcsComputeInstanceClone#subnet_id}
   */
   readonly subnetId: string;
   /**
   * security_group_ids block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/ecs_compute_instance_clone#security_group_ids EcsComputeInstanceClone#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance_clone#security_group_ids EcsComputeInstanceClone#security_group_ids}
   */
   readonly securityGroupIds?: EcsComputeInstanceCloneNetworkSecurityGroupIds[] | cdktf.IResolvable;
 }
@@ -414,7 +414,7 @@ export class EcsComputeInstanceCloneNetworkList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/ecs_compute_instance_clone hcs_ecs_compute_instance_clone}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance_clone hcs_ecs_compute_instance_clone}
 */
 export class EcsComputeInstanceClone extends cdktf.TerraformResource {
 
@@ -430,7 +430,7 @@ export class EcsComputeInstanceClone extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EcsComputeInstanceClone resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EcsComputeInstanceClone to import
-  * @param importFromId The id of the existing EcsComputeInstanceClone that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/ecs_compute_instance_clone#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EcsComputeInstanceClone that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance_clone#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EcsComputeInstanceClone to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -442,7 +442,7 @@ export class EcsComputeInstanceClone extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/ecs_compute_instance_clone hcs_ecs_compute_instance_clone} Resource
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_instance_clone hcs_ecs_compute_instance_clone} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -453,7 +453,8 @@ export class EcsComputeInstanceClone extends cdktf.TerraformResource {
       terraformResourceType: 'hcs_ecs_compute_instance_clone',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.19'
+        providerVersion: '2.4.20',
+        providerVersionConstraint: '2.4.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

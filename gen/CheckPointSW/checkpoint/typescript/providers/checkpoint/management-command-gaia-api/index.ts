@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_gaia_api
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_gaia_api
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ManagementCommandGaiaApiConfig extends cdktf.TerraformMetaArgum
   /**
   * GAIA API command name or path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_gaia_api#command_name ManagementCommandGaiaApi#command_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_gaia_api#command_name ManagementCommandGaiaApi#command_name}
   */
   readonly commandName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_gaia_api#id ManagementCommandGaiaApi#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_gaia_api#id ManagementCommandGaiaApi#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface ManagementCommandGaiaApiConfig extends cdktf.TerraformMetaArgum
   /**
   * Other input parameters for the request payload in JSON format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_gaia_api#other_parameter ManagementCommandGaiaApi#other_parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_gaia_api#other_parameter ManagementCommandGaiaApi#other_parameter}
   */
   readonly otherParameter?: string;
   /**
   * Gateway object name or Gateway IP address or Gateway UID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_gaia_api#target ManagementCommandGaiaApi#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_gaia_api#target ManagementCommandGaiaApi#target}
   */
   readonly target: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_gaia_api checkpoint_management_command_gaia_api}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_gaia_api checkpoint_management_command_gaia_api}
 */
 export class ManagementCommandGaiaApi extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class ManagementCommandGaiaApi extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementCommandGaiaApi resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementCommandGaiaApi to import
-  * @param importFromId The id of the existing ManagementCommandGaiaApi that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_gaia_api#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementCommandGaiaApi that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_gaia_api#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementCommandGaiaApi to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class ManagementCommandGaiaApi extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_gaia_api checkpoint_management_command_gaia_api} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_gaia_api checkpoint_management_command_gaia_api} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,7 +74,8 @@ export class ManagementCommandGaiaApi extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_command_gaia_api',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

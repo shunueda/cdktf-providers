@@ -64,7 +64,8 @@ export class NumbersRegulatoryComplianceBundlesItemAssignmentsV2 extends cdktf.T
       terraformResourceType: 'twilio_numbers_regulatory_compliance_bundles_item_assignments_v2',
       terraformGeneratorMetadata: {
         providerName: 'twilio',
-        providerVersion: '0.18.46'
+        providerVersion: '0.18.46',
+        providerVersionConstraint: '0.18.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

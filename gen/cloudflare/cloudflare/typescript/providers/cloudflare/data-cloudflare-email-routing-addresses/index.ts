@@ -174,7 +174,8 @@ export class DataCloudflareEmailRoutingAddresses extends cdktf.TerraformDataSour
       terraformResourceType: 'cloudflare_email_routing_addresses',
       terraformGeneratorMetadata: {
         providerName: 'cloudflare',
-        providerVersion: '5.12.0'
+        providerVersion: '5.12.0',
+        providerVersionConstraint: '5.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

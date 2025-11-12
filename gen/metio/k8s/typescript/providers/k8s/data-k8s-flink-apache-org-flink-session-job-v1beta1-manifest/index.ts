@@ -871,7 +871,8 @@ export class DataK8SFlinkApacheOrgFlinkSessionJobV1Beta1Manifest extends cdktf.T
       terraformResourceType: 'k8s_flink_apache_org_flink_session_job_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -158,7 +158,8 @@ export class DataCitrixCloudSamlIdentityProvider extends cdktf.TerraformDataSour
       terraformResourceType: 'citrix_cloud_saml_identity_provider',
       terraformGeneratorMetadata: {
         providerName: 'citrix',
-        providerVersion: '1.0.30'
+        providerVersion: '1.0.30',
+        providerVersionConstraint: '1.0.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

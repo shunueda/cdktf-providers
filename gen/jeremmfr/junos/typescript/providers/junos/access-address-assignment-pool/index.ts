@@ -2830,7 +2830,8 @@ export class AccessAddressAssignmentPool extends cdktf.TerraformResource {
       terraformResourceType: 'junos_access_address_assignment_pool',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0'
+        providerVersion: '2.15.0',
+        providerVersionConstraint: '2.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

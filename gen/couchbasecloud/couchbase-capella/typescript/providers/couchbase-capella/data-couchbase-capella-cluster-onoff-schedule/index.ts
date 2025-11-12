@@ -358,7 +358,8 @@ export class DataCouchbaseCapellaClusterOnoffSchedule extends cdktf.TerraformDat
       terraformResourceType: 'couchbase-capella_cluster_onoff_schedule',
       terraformGeneratorMetadata: {
         providerName: 'couchbase-capella',
-        providerVersion: '1.5.3'
+        providerVersion: '1.5.3',
+        providerVersionConstraint: '1.5.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

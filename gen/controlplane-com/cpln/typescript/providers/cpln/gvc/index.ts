@@ -1628,7 +1628,8 @@ export class Gvc extends cdktf.TerraformResource {
       terraformResourceType: 'cpln_gvc',
       terraformGeneratorMetadata: {
         providerName: 'cpln',
-        providerVersion: '1.2.14'
+        providerVersion: '1.2.14',
+        providerVersionConstraint: '1.2.14'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

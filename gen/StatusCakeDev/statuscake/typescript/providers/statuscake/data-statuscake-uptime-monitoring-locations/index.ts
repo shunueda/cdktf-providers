@@ -162,7 +162,8 @@ export class DataStatuscakeUptimeMonitoringLocations extends cdktf.TerraformData
       terraformResourceType: 'statuscake_uptime_monitoring_locations',
       terraformGeneratorMetadata: {
         providerName: 'statuscake',
-        providerVersion: '2.2.2'
+        providerVersion: '2.2.2',
+        providerVersionConstraint: '2.2.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

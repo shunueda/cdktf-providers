@@ -277,7 +277,8 @@ export class DataCloudflareRulesets extends cdktf.TerraformDataSource {
       terraformResourceType: 'cloudflare_rulesets',
       terraformGeneratorMetadata: {
         providerName: 'cloudflare',
-        providerVersion: '5.12.0'
+        providerVersion: '5.12.0',
+        providerVersionConstraint: '5.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

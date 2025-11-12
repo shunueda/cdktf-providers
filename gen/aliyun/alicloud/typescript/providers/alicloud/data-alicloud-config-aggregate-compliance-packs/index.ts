@@ -367,7 +367,8 @@ export class DataAlicloudConfigAggregateCompliancePacks extends cdktf.TerraformD
       terraformResourceType: 'alicloud_config_aggregate_compliance_packs',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

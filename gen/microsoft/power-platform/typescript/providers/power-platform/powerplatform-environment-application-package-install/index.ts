@@ -161,7 +161,8 @@ export class PowerplatformEnvironmentApplicationPackageInstall extends cdktf.Ter
       terraformResourceType: 'powerplatform_environment_application_package_install',
       terraformGeneratorMetadata: {
         providerName: 'power-platform',
-        providerVersion: '3.9.1'
+        providerVersion: '3.9.1',
+        providerVersionConstraint: '3.9.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

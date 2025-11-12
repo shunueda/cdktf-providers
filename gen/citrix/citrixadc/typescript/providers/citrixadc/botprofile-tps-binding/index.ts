@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botprofile_tps_binding
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile_tps_binding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,48 +8,52 @@ import * as cdktf from 'cdktf';
 
 export interface BotprofileTpsBindingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botprofile_tps_binding#bot_bind_comment BotprofileTpsBinding#bot_bind_comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile_tps_binding#bot_bind_comment BotprofileTpsBinding#bot_bind_comment}
   */
   readonly botBindComment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botprofile_tps_binding#bot_tps BotprofileTpsBinding#bot_tps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile_tps_binding#bot_tps BotprofileTpsBinding#bot_tps}
   */
   readonly botTps?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botprofile_tps_binding#bot_tps_action BotprofileTpsBinding#bot_tps_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile_tps_binding#bot_tps_action BotprofileTpsBinding#bot_tps_action}
   */
   readonly botTpsAction?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botprofile_tps_binding#bot_tps_type BotprofileTpsBinding#bot_tps_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile_tps_binding#bot_tps_enabled BotprofileTpsBinding#bot_tps_enabled}
+  */
+  readonly botTpsEnabled?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile_tps_binding#bot_tps_type BotprofileTpsBinding#bot_tps_type}
   */
   readonly botTpsType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botprofile_tps_binding#id BotprofileTpsBinding#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile_tps_binding#id BotprofileTpsBinding#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botprofile_tps_binding#logmessage BotprofileTpsBinding#logmessage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile_tps_binding#logmessage BotprofileTpsBinding#logmessage}
   */
   readonly logmessage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botprofile_tps_binding#name BotprofileTpsBinding#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile_tps_binding#name BotprofileTpsBinding#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botprofile_tps_binding#percentage BotprofileTpsBinding#percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile_tps_binding#percentage BotprofileTpsBinding#percentage}
   */
   readonly percentage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botprofile_tps_binding#threshold BotprofileTpsBinding#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile_tps_binding#threshold BotprofileTpsBinding#threshold}
   */
   readonly threshold?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botprofile_tps_binding citrixadc_botprofile_tps_binding}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile_tps_binding citrixadc_botprofile_tps_binding}
 */
 export class BotprofileTpsBinding extends cdktf.TerraformResource {
 
@@ -65,7 +69,7 @@ export class BotprofileTpsBinding extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BotprofileTpsBinding resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BotprofileTpsBinding to import
-  * @param importFromId The id of the existing BotprofileTpsBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botprofile_tps_binding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BotprofileTpsBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile_tps_binding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BotprofileTpsBinding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -77,7 +81,7 @@ export class BotprofileTpsBinding extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botprofile_tps_binding citrixadc_botprofile_tps_binding} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile_tps_binding citrixadc_botprofile_tps_binding} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -88,7 +92,8 @@ export class BotprofileTpsBinding extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_botprofile_tps_binding',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -101,6 +106,7 @@ export class BotprofileTpsBinding extends cdktf.TerraformResource {
     this._botBindComment = config.botBindComment;
     this._botTps = config.botTps;
     this._botTpsAction = config.botTpsAction;
+    this._botTpsEnabled = config.botTpsEnabled;
     this._botTpsType = config.botTpsType;
     this._id = config.id;
     this._logmessage = config.logmessage;
@@ -159,6 +165,22 @@ export class BotprofileTpsBinding extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get botTpsActionInput() {
     return this._botTpsAction;
+  }
+
+  // bot_tps_enabled - computed: true, optional: true, required: false
+  private _botTpsEnabled?: string; 
+  public get botTpsEnabled() {
+    return this.getStringAttribute('bot_tps_enabled');
+  }
+  public set botTpsEnabled(value: string) {
+    this._botTpsEnabled = value;
+  }
+  public resetBotTpsEnabled() {
+    this._botTpsEnabled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get botTpsEnabledInput() {
+    return this._botTpsEnabled;
   }
 
   // bot_tps_type - computed: false, optional: false, required: true
@@ -260,6 +282,7 @@ export class BotprofileTpsBinding extends cdktf.TerraformResource {
       bot_bind_comment: cdktf.stringToTerraform(this._botBindComment),
       bot_tps: cdktf.booleanToTerraform(this._botTps),
       bot_tps_action: cdktf.listMapper(cdktf.stringToTerraform, false)(this._botTpsAction),
+      bot_tps_enabled: cdktf.stringToTerraform(this._botTpsEnabled),
       bot_tps_type: cdktf.stringToTerraform(this._botTpsType),
       id: cdktf.stringToTerraform(this._id),
       logmessage: cdktf.stringToTerraform(this._logmessage),
@@ -288,6 +311,12 @@ export class BotprofileTpsBinding extends cdktf.TerraformResource {
         isBlock: false,
         type: "list",
         storageClassType: "stringList",
+      },
+      bot_tps_enabled: {
+        value: cdktf.stringToHclTerraform(this._botTpsEnabled),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
       bot_tps_type: {
         value: cdktf.stringToHclTerraform(this._botTpsType),

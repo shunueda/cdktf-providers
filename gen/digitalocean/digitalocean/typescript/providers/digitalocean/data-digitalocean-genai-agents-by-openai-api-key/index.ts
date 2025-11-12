@@ -3876,7 +3876,8 @@ export class DataDigitaloceanGenaiAgentsByOpenaiApiKey extends cdktf.TerraformDa
       terraformResourceType: 'digitalocean_genai_agents_by_openai_api_key',
       terraformGeneratorMetadata: {
         providerName: 'digitalocean',
-        providerVersion: '2.68.0'
+        providerVersion: '2.68.0',
+        providerVersionConstraint: '2.68.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

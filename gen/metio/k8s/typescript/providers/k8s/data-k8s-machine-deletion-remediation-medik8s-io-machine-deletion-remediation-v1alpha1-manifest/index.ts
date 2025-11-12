@@ -256,7 +256,8 @@ export class DataK8SMachineDeletionRemediationMedik8SIoMachineDeletionRemediatio
       terraformResourceType: 'k8s_machine_deletion_remediation_medik8s_io_machine_deletion_remediation_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

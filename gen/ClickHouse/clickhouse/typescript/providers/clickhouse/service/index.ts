@@ -1245,7 +1245,8 @@ export class Service extends cdktf.TerraformResource {
       terraformResourceType: 'clickhouse_service',
       terraformGeneratorMetadata: {
         providerName: 'clickhouse',
-        providerVersion: '3.5.4'
+        providerVersion: '3.5.4',
+        providerVersionConstraint: '3.5.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

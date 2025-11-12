@@ -258,7 +258,8 @@ export class K8Secret extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_k8_secret',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.28'
+        providerVersion: '0.11.28',
+        providerVersionConstraint: '0.11.28'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

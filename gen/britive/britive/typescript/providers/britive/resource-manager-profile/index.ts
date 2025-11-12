@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/britive/britive/2.2.3/docs/resources/resource_manager_profile
+// https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/resource_manager_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ResourceManagerProfileConfig extends cdktf.TerraformMetaArgumen
   /**
   * Description of britive resource manager profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.3/docs/resources/resource_manager_profile#description ResourceManagerProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/resource_manager_profile#description ResourceManagerProfile#description}
   */
   readonly description?: string;
   /**
   * Expiration duration of resource manager profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.3/docs/resources/resource_manager_profile#expiration_duration ResourceManagerProfile#expiration_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/resource_manager_profile#expiration_duration ResourceManagerProfile#expiration_duration}
   */
   readonly expirationDuration: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.3/docs/resources/resource_manager_profile#id ResourceManagerProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/resource_manager_profile#id ResourceManagerProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,13 +29,13 @@ export interface ResourceManagerProfileConfig extends cdktf.TerraformMetaArgumen
   /**
   * The name of the britive resource manager profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.3/docs/resources/resource_manager_profile#name ResourceManagerProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/resource_manager_profile#name ResourceManagerProfile#name}
   */
   readonly name: string;
   /**
   * associations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.3/docs/resources/resource_manager_profile#associations ResourceManagerProfile#associations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/resource_manager_profile#associations ResourceManagerProfile#associations}
   */
   readonly associations?: ResourceManagerProfileAssociations[] | cdktf.IResolvable;
 }
@@ -123,13 +123,13 @@ export interface ResourceManagerProfileAssociations {
   /**
   * Resource label name for association
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.3/docs/resources/resource_manager_profile#label_key ResourceManagerProfile#label_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/resource_manager_profile#label_key ResourceManagerProfile#label_key}
   */
   readonly labelKey: string;
   /**
   * Values of resource label for association
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.3/docs/resources/resource_manager_profile#values ResourceManagerProfile#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/resource_manager_profile#values ResourceManagerProfile#values}
   */
   readonly values: string[];
 }
@@ -268,7 +268,7 @@ export class ResourceManagerProfileAssociationsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/britive/britive/2.2.3/docs/resources/resource_manager_profile britive_resource_manager_profile}
+* Represents a {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/resource_manager_profile britive_resource_manager_profile}
 */
 export class ResourceManagerProfile extends cdktf.TerraformResource {
 
@@ -284,7 +284,7 @@ export class ResourceManagerProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ResourceManagerProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ResourceManagerProfile to import
-  * @param importFromId The id of the existing ResourceManagerProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/britive/britive/2.2.3/docs/resources/resource_manager_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ResourceManagerProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/resource_manager_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ResourceManagerProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -296,7 +296,7 @@ export class ResourceManagerProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/britive/britive/2.2.3/docs/resources/resource_manager_profile britive_resource_manager_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/resource_manager_profile britive_resource_manager_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -307,7 +307,8 @@ export class ResourceManagerProfile extends cdktf.TerraformResource {
       terraformResourceType: 'britive_resource_manager_profile',
       terraformGeneratorMetadata: {
         providerName: 'britive',
-        providerVersion: '2.2.3'
+        providerVersion: '2.2.4',
+        providerVersionConstraint: '2.2.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

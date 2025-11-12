@@ -215,7 +215,8 @@ export class DataNetboxJsonDcimDeviceBayTemplatesList extends cdktf.TerraformDat
       terraformResourceType: 'netbox_json_dcim_device_bay_templates_list',
       terraformGeneratorMetadata: {
         providerName: 'netbox',
-        providerVersion: '8.0.2'
+        providerVersion: '8.0.2',
+        providerVersionConstraint: '8.0.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

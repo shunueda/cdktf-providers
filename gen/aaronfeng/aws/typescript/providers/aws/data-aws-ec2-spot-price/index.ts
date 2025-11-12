@@ -213,7 +213,8 @@ export class DataAwsEc2SpotPrice extends cdktf.TerraformDataSource {
       terraformResourceType: 'aws_ec2_spot_price',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '3.29.6'
+        providerVersion: '3.29.6',
+        providerVersionConstraint: '3.29.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

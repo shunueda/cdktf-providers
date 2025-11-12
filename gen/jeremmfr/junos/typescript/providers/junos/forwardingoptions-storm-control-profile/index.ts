@@ -408,7 +408,8 @@ export class ForwardingoptionsStormControlProfile extends cdktf.TerraformResourc
       terraformResourceType: 'junos_forwardingoptions_storm_control_profile',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0'
+        providerVersion: '2.15.0',
+        providerVersionConstraint: '2.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

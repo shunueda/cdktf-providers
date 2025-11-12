@@ -141,7 +141,8 @@ export class DataAkamaiIamAccountSwitchKeys extends cdktf.TerraformDataSource {
       terraformResourceType: 'akamai_iam_account_switch_keys',
       terraformGeneratorMetadata: {
         providerName: 'akamai',
-        providerVersion: '9.1.0'
+        providerVersion: '9.1.0',
+        providerVersionConstraint: '9.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

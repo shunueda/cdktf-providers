@@ -151,7 +151,8 @@ export class FortiadcProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'fortiadc',
       terraformGeneratorMetadata: {
         providerName: 'fortiadc',
-        providerVersion: '1.3.1'
+        providerVersion: '1.3.1',
+        providerVersionConstraint: '1.3.1'
       },
       terraformProviderSource: 'fortinetdev/fortiadc'
     });

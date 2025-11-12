@@ -58,7 +58,8 @@ export class DataTwingateGroup extends cdktf.TerraformDataSource {
       terraformResourceType: 'twingate_group',
       terraformGeneratorMetadata: {
         providerName: 'twingate',
-        providerVersion: '3.5.0'
+        providerVersion: '3.5.0',
+        providerVersionConstraint: '3.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

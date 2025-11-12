@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/resources/dns_record
+// https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/dns_record
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,121 +10,121 @@ export interface DnsRecordConfig extends cdktf.TerraformMetaArguments {
   /**
   * Indicates whether the DNS record should utilize bunny.net’s acceleration services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/resources/dns_record#accelerated DnsRecord#accelerated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/dns_record#accelerated DnsRecord#accelerated}
   */
   readonly accelerated?: boolean | cdktf.IResolvable;
   /**
   * This property allows users to add descriptive notes for documentation and management purposes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/resources/dns_record#comment DnsRecord#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/dns_record#comment DnsRecord#comment}
   */
   readonly comment?: string;
   /**
   * Indicates whether the DNS record is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/resources/dns_record#enabled DnsRecord#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/dns_record#enabled DnsRecord#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Flags for advanced DNS settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/resources/dns_record#flags DnsRecord#flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/dns_record#flags DnsRecord#flags}
   */
   readonly flags?: number;
   /**
   * The latitude for geolocation-based routing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/resources/dns_record#geolocation_lat DnsRecord#geolocation_lat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/dns_record#geolocation_lat DnsRecord#geolocation_lat}
   */
   readonly geolocationLat?: number;
   /**
   * The longitude for geolocation-based routing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/resources/dns_record#geolocation_long DnsRecord#geolocation_long}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/dns_record#geolocation_long DnsRecord#geolocation_long}
   */
   readonly geolocationLong?: number;
   /**
   * The latency zone for latency-based routing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/resources/dns_record#latency_zone DnsRecord#latency_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/dns_record#latency_zone DnsRecord#latency_zone}
   */
   readonly latencyZone?: string;
   /**
   * Options: `Http`, `Monitor`, `None`, `Ping`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/resources/dns_record#monitor_type DnsRecord#monitor_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/dns_record#monitor_type DnsRecord#monitor_type}
   */
   readonly monitorType?: string;
   /**
   * The name of the DNS record. Use <code>name = ""</code> for apex domain records.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/resources/dns_record#name DnsRecord#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/dns_record#name DnsRecord#name}
   */
   readonly name: string;
   /**
   * The port number for services that require a specific port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/resources/dns_record#port DnsRecord#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/dns_record#port DnsRecord#port}
   */
   readonly port?: number;
   /**
   * The priority of the DNS record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/resources/dns_record#priority DnsRecord#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/dns_record#priority DnsRecord#priority}
   */
   readonly priority?: number;
   /**
   * The ID of the linked pullzone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/resources/dns_record#pullzone_id DnsRecord#pullzone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/dns_record#pullzone_id DnsRecord#pullzone_id}
   */
   readonly pullzoneId?: number;
   /**
   * Options: `Geolocation`, `Latency`, `None`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/resources/dns_record#smart_routing_type DnsRecord#smart_routing_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/dns_record#smart_routing_type DnsRecord#smart_routing_type}
   */
   readonly smartRoutingType?: string;
   /**
   * A tag for the DNS record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/resources/dns_record#tag DnsRecord#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/dns_record#tag DnsRecord#tag}
   */
   readonly tag?: string;
   /**
   * The time-to-live value for the DNS record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/resources/dns_record#ttl DnsRecord#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/dns_record#ttl DnsRecord#ttl}
   */
   readonly ttl?: number;
   /**
   * Options: `A`, `AAAA`, `CAA`, `CNAME`, `Flatten`, `MX`, `NS`, `PTR`, `PullZone`, `Redirect`, `SRV`, `Script`, `TXT`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/resources/dns_record#type DnsRecord#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/dns_record#type DnsRecord#type}
   */
   readonly type: string;
   /**
   * The value of the DNS record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/resources/dns_record#value DnsRecord#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/dns_record#value DnsRecord#value}
   */
   readonly value: string;
   /**
   * The weight of the DNS record. It is used in load balancing scenarios to distribute traffic based on the specified weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/resources/dns_record#weight DnsRecord#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/dns_record#weight DnsRecord#weight}
   */
   readonly weight?: number;
   /**
   * ID of the related DNS zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/resources/dns_record#zone DnsRecord#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/dns_record#zone DnsRecord#zone}
   */
   readonly zone: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/resources/dns_record bunnynet_dns_record}
+* Represents a {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/dns_record bunnynet_dns_record}
 */
 export class DnsRecord extends cdktf.TerraformResource {
 
@@ -140,7 +140,7 @@ export class DnsRecord extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DnsRecord resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DnsRecord to import
-  * @param importFromId The id of the existing DnsRecord that should be imported. Refer to the {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/resources/dns_record#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DnsRecord that should be imported. Refer to the {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/dns_record#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DnsRecord to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -152,7 +152,7 @@ export class DnsRecord extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/resources/dns_record bunnynet_dns_record} Resource
+  * Create a new {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/dns_record bunnynet_dns_record} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -163,7 +163,8 @@ export class DnsRecord extends cdktf.TerraformResource {
       terraformResourceType: 'bunnynet_dns_record',
       terraformGeneratorMetadata: {
         providerName: 'bunnynet',
-        providerVersion: '0.11.0'
+        providerVersion: '0.11.1',
+        providerVersionConstraint: '0.11.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

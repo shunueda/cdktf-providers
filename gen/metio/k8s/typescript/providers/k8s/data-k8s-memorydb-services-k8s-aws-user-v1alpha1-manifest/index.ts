@@ -909,7 +909,8 @@ export class DataK8SMemorydbServicesK8SAwsUserV1Alpha1Manifest extends cdktf.Ter
       terraformResourceType: 'k8s_memorydb_services_k8s_aws_user_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

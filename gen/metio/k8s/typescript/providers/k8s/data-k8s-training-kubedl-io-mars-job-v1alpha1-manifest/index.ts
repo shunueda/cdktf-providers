@@ -64,7 +64,8 @@ export class DataK8STrainingKubedlIoMarsJobV1Alpha1Manifest extends cdktf.Terraf
       terraformResourceType: 'k8s_training_kubedl_io_mars_job_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

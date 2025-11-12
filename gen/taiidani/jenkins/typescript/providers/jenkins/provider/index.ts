@@ -79,7 +79,8 @@ export class JenkinsProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'jenkins',
       terraformGeneratorMetadata: {
         providerName: 'jenkins',
-        providerVersion: '0.11.0'
+        providerVersion: '0.11.0',
+        providerVersionConstraint: '0.11.0'
       },
       terraformProviderSource: 'taiidani/jenkins'
     });

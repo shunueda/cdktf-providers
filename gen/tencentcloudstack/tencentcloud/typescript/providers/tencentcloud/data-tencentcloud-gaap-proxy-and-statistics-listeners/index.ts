@@ -244,7 +244,8 @@ export class DataTencentcloudGaapProxyAndStatisticsListeners extends cdktf.Terra
       terraformResourceType: 'tencentcloud_gaap_proxy_and_statistics_listeners',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

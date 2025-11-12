@@ -343,7 +343,8 @@ export class DataVra7Deployment extends cdktf.TerraformDataSource {
       terraformResourceType: 'vra7_deployment',
       terraformGeneratorMetadata: {
         providerName: 'vra7',
-        providerVersion: '3.0.15'
+        providerVersion: '3.0.15',
+        providerVersionConstraint: '3.0.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

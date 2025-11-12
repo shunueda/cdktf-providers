@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/tmtrafficaction
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/tmtrafficaction
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,64 +8,64 @@ import * as cdktf from 'cdktf';
 
 export interface TmtrafficactionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/tmtrafficaction#apptimeout Tmtrafficaction#apptimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/tmtrafficaction#apptimeout Tmtrafficaction#apptimeout}
   */
   readonly apptimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/tmtrafficaction#forcedtimeout Tmtrafficaction#forcedtimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/tmtrafficaction#forcedtimeout Tmtrafficaction#forcedtimeout}
   */
   readonly forcedtimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/tmtrafficaction#forcedtimeoutval Tmtrafficaction#forcedtimeoutval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/tmtrafficaction#forcedtimeoutval Tmtrafficaction#forcedtimeoutval}
   */
   readonly forcedtimeoutval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/tmtrafficaction#formssoaction Tmtrafficaction#formssoaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/tmtrafficaction#formssoaction Tmtrafficaction#formssoaction}
   */
   readonly formssoaction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/tmtrafficaction#id Tmtrafficaction#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/tmtrafficaction#id Tmtrafficaction#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/tmtrafficaction#initiatelogout Tmtrafficaction#initiatelogout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/tmtrafficaction#initiatelogout Tmtrafficaction#initiatelogout}
   */
   readonly initiatelogout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/tmtrafficaction#kcdaccount Tmtrafficaction#kcdaccount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/tmtrafficaction#kcdaccount Tmtrafficaction#kcdaccount}
   */
   readonly kcdaccount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/tmtrafficaction#name Tmtrafficaction#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/tmtrafficaction#name Tmtrafficaction#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/tmtrafficaction#passwdexpression Tmtrafficaction#passwdexpression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/tmtrafficaction#passwdexpression Tmtrafficaction#passwdexpression}
   */
   readonly passwdexpression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/tmtrafficaction#persistentcookie Tmtrafficaction#persistentcookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/tmtrafficaction#persistentcookie Tmtrafficaction#persistentcookie}
   */
   readonly persistentcookie?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/tmtrafficaction#samlssoprofile Tmtrafficaction#samlssoprofile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/tmtrafficaction#samlssoprofile Tmtrafficaction#samlssoprofile}
   */
   readonly samlssoprofile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/tmtrafficaction#sso Tmtrafficaction#sso}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/tmtrafficaction#sso Tmtrafficaction#sso}
   */
   readonly sso?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/tmtrafficaction#userexpression Tmtrafficaction#userexpression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/tmtrafficaction#userexpression Tmtrafficaction#userexpression}
   */
   readonly userexpression?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/tmtrafficaction citrixadc_tmtrafficaction}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/tmtrafficaction citrixadc_tmtrafficaction}
 */
 export class Tmtrafficaction extends cdktf.TerraformResource {
 
@@ -81,7 +81,7 @@ export class Tmtrafficaction extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Tmtrafficaction resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Tmtrafficaction to import
-  * @param importFromId The id of the existing Tmtrafficaction that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/tmtrafficaction#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Tmtrafficaction that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/tmtrafficaction#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Tmtrafficaction to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +93,7 @@ export class Tmtrafficaction extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/tmtrafficaction citrixadc_tmtrafficaction} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/tmtrafficaction citrixadc_tmtrafficaction} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,7 +104,8 @@ export class Tmtrafficaction extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_tmtrafficaction',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

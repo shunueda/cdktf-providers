@@ -5037,7 +5037,8 @@ export class DataIntersightVirtualizationVmwareUplinkPort extends cdktf.Terrafor
       terraformResourceType: 'intersight_virtualization_vmware_uplink_port',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -199,7 +199,8 @@ export class OpensearchProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'opensearch',
       terraformGeneratorMetadata: {
         providerName: 'opensearch',
-        providerVersion: '2.3.2'
+        providerVersion: '2.3.2',
+        providerVersionConstraint: '2.3.2'
       },
       terraformProviderSource: 'opensearch-project/opensearch'
     });

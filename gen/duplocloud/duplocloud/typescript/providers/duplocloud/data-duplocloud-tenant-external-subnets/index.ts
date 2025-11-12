@@ -62,7 +62,8 @@ export class DataDuplocloudTenantExternalSubnets extends cdktf.TerraformDataSour
       terraformResourceType: 'duplocloud_tenant_external_subnets',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.28'
+        providerVersion: '0.11.28',
+        providerVersionConstraint: '0.11.28'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

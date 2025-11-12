@@ -1072,7 +1072,8 @@ export class CloudletsApplicationLoadBalancer extends cdktf.TerraformResource {
       terraformResourceType: 'akamai_cloudlets_application_load_balancer',
       terraformGeneratorMetadata: {
         providerName: 'akamai',
-        providerVersion: '9.1.0'
+        providerVersion: '9.1.0',
+        providerVersionConstraint: '9.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

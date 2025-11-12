@@ -64,7 +64,8 @@ export class DataFortiadcRouterBgpChildHaRouterIdListlist extends cdktf.Terrafor
       terraformResourceType: 'fortiadc_router_bgp_child_ha_router_id_listlist',
       terraformGeneratorMetadata: {
         providerName: 'fortiadc',
-        providerVersion: '1.3.1'
+        providerVersion: '1.3.1',
+        providerVersionConstraint: '1.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -74,7 +74,8 @@ export class DataSpectrocloudPrivatecloudgatewayDnsMap extends cdktf.TerraformDa
       terraformResourceType: 'spectrocloud_privatecloudgateway_dns_map',
       terraformGeneratorMetadata: {
         providerName: 'spectrocloud',
-        providerVersion: '0.25.2'
+        providerVersion: '0.25.2',
+        providerVersionConstraint: '0.25.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

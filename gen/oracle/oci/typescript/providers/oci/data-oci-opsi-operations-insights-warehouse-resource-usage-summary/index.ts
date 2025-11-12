@@ -60,7 +60,8 @@ export class DataOciOpsiOperationsInsightsWarehouseResourceUsageSummary extends 
       terraformResourceType: 'oci_opsi_operations_insights_warehouse_resource_usage_summary',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

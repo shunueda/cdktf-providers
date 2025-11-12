@@ -170,7 +170,8 @@ export class DataMerakiNetworkVlanProfileAssignmentsByDevice extends cdktf.Terra
       terraformResourceType: 'meraki_network_vlan_profile_assignments_by_device',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1'
+        providerVersion: '1.7.1',
+        providerVersionConstraint: '1.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

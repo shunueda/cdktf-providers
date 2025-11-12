@@ -884,7 +884,8 @@ export class DataK8SAppsKubeblocksIoComponentClassDefinitionV1Alpha1Manifest ext
       terraformResourceType: 'k8s_apps_kubeblocks_io_component_class_definition_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

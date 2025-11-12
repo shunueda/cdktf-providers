@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_threat_protection
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_threat_protection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ManagementSetThreatProtectionConfig extends cdktf.TerraformMeta
   /**
   * Protection comments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_threat_protection#comments ManagementSetThreatProtection#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_threat_protection#comments ManagementSetThreatProtection#comments}
   */
   readonly comments?: string;
   /**
   * Tag the protection with pre-defined follow-up flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_threat_protection#follow_up ManagementSetThreatProtection#follow_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_threat_protection#follow_up ManagementSetThreatProtection#follow_up}
   */
   readonly followUp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_threat_protection#id ManagementSetThreatProtection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_threat_protection#id ManagementSetThreatProtection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,13 +29,13 @@ export interface ManagementSetThreatProtectionConfig extends cdktf.TerraformMeta
   /**
   * Object name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_threat_protection#name ManagementSetThreatProtection#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_threat_protection#name ManagementSetThreatProtection#name}
   */
   readonly name: string;
   /**
   * overrides block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_threat_protection#overrides ManagementSetThreatProtection#overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_threat_protection#overrides ManagementSetThreatProtection#overrides}
   */
   readonly overrides?: ManagementSetThreatProtectionOverrides[] | cdktf.IResolvable;
 }
@@ -43,25 +43,25 @@ export interface ManagementSetThreatProtectionOverrides {
   /**
   * Protection action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_threat_protection#action ManagementSetThreatProtection#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_threat_protection#action ManagementSetThreatProtection#action}
   */
   readonly action?: string;
   /**
   * Capture packets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_threat_protection#capture_packets ManagementSetThreatProtection#capture_packets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_threat_protection#capture_packets ManagementSetThreatProtection#capture_packets}
   */
   readonly capturePackets?: boolean | cdktf.IResolvable;
   /**
   * Profile name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_threat_protection#profile ManagementSetThreatProtection#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_threat_protection#profile ManagementSetThreatProtection#profile}
   */
   readonly profile?: string;
   /**
   * Tracking method for protection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_threat_protection#track ManagementSetThreatProtection#track}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_threat_protection#track ManagementSetThreatProtection#track}
   */
   readonly track?: string;
 }
@@ -264,7 +264,7 @@ export class ManagementSetThreatProtectionOverridesList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_threat_protection checkpoint_management_set_threat_protection}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_threat_protection checkpoint_management_set_threat_protection}
 */
 export class ManagementSetThreatProtection extends cdktf.TerraformResource {
 
@@ -280,7 +280,7 @@ export class ManagementSetThreatProtection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementSetThreatProtection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementSetThreatProtection to import
-  * @param importFromId The id of the existing ManagementSetThreatProtection that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_threat_protection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementSetThreatProtection that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_threat_protection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementSetThreatProtection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -292,7 +292,7 @@ export class ManagementSetThreatProtection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_threat_protection checkpoint_management_set_threat_protection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_threat_protection checkpoint_management_set_threat_protection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -303,7 +303,8 @@ export class ManagementSetThreatProtection extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_set_threat_protection',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

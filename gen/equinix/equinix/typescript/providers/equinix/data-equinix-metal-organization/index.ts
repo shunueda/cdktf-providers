@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/data-sources/metal_organization
+// https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/metal_organization
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataEquinixMetalOrganizationConfig extends cdktf.TerraformMetaA
   /**
   * Description string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/data-sources/metal_organization#description DataEquinixMetalOrganization#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/metal_organization#description DataEquinixMetalOrganization#description}
   */
   readonly description?: string;
   /**
   * The name of the Organization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/data-sources/metal_organization#name DataEquinixMetalOrganization#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/metal_organization#name DataEquinixMetalOrganization#name}
   */
   readonly name?: string;
   /**
   * The UUID of the organization resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/data-sources/metal_organization#organization_id DataEquinixMetalOrganization#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/metal_organization#organization_id DataEquinixMetalOrganization#organization_id}
   */
   readonly organizationId?: string;
 }
@@ -123,7 +123,7 @@ export class DataEquinixMetalOrganizationAddressList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/data-sources/metal_organization equinix_metal_organization}
+* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/metal_organization equinix_metal_organization}
 */
 export class DataEquinixMetalOrganization extends cdktf.TerraformDataSource {
 
@@ -139,7 +139,7 @@ export class DataEquinixMetalOrganization extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataEquinixMetalOrganization resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataEquinixMetalOrganization to import
-  * @param importFromId The id of the existing DataEquinixMetalOrganization that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/data-sources/metal_organization#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataEquinixMetalOrganization that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/metal_organization#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataEquinixMetalOrganization to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -151,7 +151,7 @@ export class DataEquinixMetalOrganization extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/data-sources/metal_organization equinix_metal_organization} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/metal_organization equinix_metal_organization} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -162,7 +162,8 @@ export class DataEquinixMetalOrganization extends cdktf.TerraformDataSource {
       terraformResourceType: 'equinix_metal_organization',
       terraformGeneratorMetadata: {
         providerName: 'equinix',
-        providerVersion: '4.8.0'
+        providerVersion: '4.10.0',
+        providerVersionConstraint: '4.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

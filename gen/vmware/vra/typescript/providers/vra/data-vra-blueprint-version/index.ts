@@ -60,7 +60,8 @@ export class DataVraBlueprintVersion extends cdktf.TerraformDataSource {
       terraformResourceType: 'vra_blueprint_version',
       terraformGeneratorMetadata: {
         providerName: 'vra',
-        providerVersion: '0.15.0'
+        providerVersion: '0.15.0',
+        providerVersionConstraint: '0.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

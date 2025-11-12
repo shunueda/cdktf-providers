@@ -6056,7 +6056,8 @@ export class DataIntersightFirmwareServerConfigurationUtilityDistributable exten
       terraformResourceType: 'intersight_firmware_server_configuration_utility_distributable',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

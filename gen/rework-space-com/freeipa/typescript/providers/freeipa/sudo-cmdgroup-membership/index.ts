@@ -73,7 +73,8 @@ export class SudoCmdgroupMembership extends cdktf.TerraformResource {
       terraformResourceType: 'freeipa_sudo_cmdgroup_membership',
       terraformGeneratorMetadata: {
         providerName: 'freeipa',
-        providerVersion: '5.1.3'
+        providerVersion: '5.1.3',
+        providerVersionConstraint: '5.1.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

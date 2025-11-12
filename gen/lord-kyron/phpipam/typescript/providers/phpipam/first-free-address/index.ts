@@ -112,7 +112,8 @@ export class FirstFreeAddress extends cdktf.TerraformResource {
       terraformResourceType: 'phpipam_first_free_address',
       terraformGeneratorMetadata: {
         providerName: 'phpipam',
-        providerVersion: '1.6.2'
+        providerVersion: '1.6.2',
+        providerVersionConstraint: '1.6.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

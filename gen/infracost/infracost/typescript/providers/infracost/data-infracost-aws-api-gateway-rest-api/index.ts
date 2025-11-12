@@ -150,7 +150,8 @@ export class DataInfracostAwsApiGatewayRestApi extends cdktf.TerraformDataSource
       terraformResourceType: 'infracost_aws_api_gateway_rest_api',
       terraformGeneratorMetadata: {
         providerName: 'infracost',
-        providerVersion: '0.0.9'
+        providerVersion: '0.0.9',
+        providerVersionConstraint: '0.0.9'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

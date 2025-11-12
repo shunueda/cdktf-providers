@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/interface_map
+// https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/interface_map
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface InterfaceMapConfig extends cdktf.TerraformMetaArguments {
   /**
   * ID of Device Profile to be mapped.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/interface_map#device_profile_id InterfaceMap#device_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/interface_map#device_profile_id InterfaceMap#device_profile_id}
   */
   readonly deviceProfileId: string;
   /**
   * Set of interface mapping info.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/interface_map#interfaces InterfaceMap#interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/interface_map#interfaces InterfaceMap#interfaces}
   */
   readonly interfaces: InterfaceMapInterfaces[] | cdktf.IResolvable;
   /**
   * ID of Logical Device to be mapped.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/interface_map#logical_device_id InterfaceMap#logical_device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/interface_map#logical_device_id InterfaceMap#logical_device_id}
   */
   readonly logicalDeviceId: string;
   /**
   * Interface Map name as displayed in the web UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/interface_map#name InterfaceMap#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/interface_map#name InterfaceMap#name}
   */
   readonly name: string;
 }
@@ -36,19 +36,19 @@ export interface InterfaceMapInterfaces {
   /**
   * Panel and Port number of logical device expressed in the form "<panel>/<port>". Both numbers are 1-indexed, so the 2nd port on the 1st panel would be "1/2".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/interface_map#logical_device_port InterfaceMap#logical_device_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/interface_map#logical_device_port InterfaceMap#logical_device_port}
   */
   readonly logicalDevicePort: string;
   /**
   * Interface name found in the Device Profile, e.g. "et-0/0/1:2"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/interface_map#physical_interface_name InterfaceMap#physical_interface_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/interface_map#physical_interface_name InterfaceMap#physical_interface_name}
   */
   readonly physicalInterfaceName: string;
   /**
   * Transformation ID number identifying the desired port behavior, detailed in the Device Profile. Required only when multiple transformation candidates are found for a given physical_interface_name and speed as determined by definitions found the Logical Device definition and logical_device_port field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/interface_map#transformation_id InterfaceMap#transformation_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/interface_map#transformation_id InterfaceMap#transformation_id}
   */
   readonly transformationId?: number;
 }
@@ -301,7 +301,7 @@ export class InterfaceMapUnusedInterfacesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/interface_map apstra_interface_map}
+* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/interface_map apstra_interface_map}
 */
 export class InterfaceMap extends cdktf.TerraformResource {
 
@@ -317,7 +317,7 @@ export class InterfaceMap extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InterfaceMap resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InterfaceMap to import
-  * @param importFromId The id of the existing InterfaceMap that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/interface_map#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InterfaceMap that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/interface_map#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InterfaceMap to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -329,7 +329,7 @@ export class InterfaceMap extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/interface_map apstra_interface_map} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/interface_map apstra_interface_map} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -340,7 +340,8 @@ export class InterfaceMap extends cdktf.TerraformResource {
       terraformResourceType: 'apstra_interface_map',
       terraformGeneratorMetadata: {
         providerName: 'apstra',
-        providerVersion: '0.95.0'
+        providerVersion: '0.95.1',
+        providerVersionConstraint: '0.95.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

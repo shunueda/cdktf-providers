@@ -437,7 +437,8 @@ export class AssetGroup extends cdktf.TerraformResource {
       terraformResourceType: 'zedcloud_asset_group',
       terraformGeneratorMetadata: {
         providerName: 'zedcloud',
-        providerVersion: '2.5.0'
+        providerVersion: '2.5.0',
+        providerVersionConstraint: '2.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

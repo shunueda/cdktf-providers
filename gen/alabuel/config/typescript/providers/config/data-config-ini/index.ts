@@ -68,7 +68,8 @@ export class DataConfigIni extends cdktf.TerraformDataSource {
       terraformResourceType: 'config_ini',
       terraformGeneratorMetadata: {
         providerName: 'config',
-        providerVersion: '0.2.8'
+        providerVersion: '0.2.8',
+        providerVersionConstraint: '0.2.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

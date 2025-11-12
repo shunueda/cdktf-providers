@@ -261,7 +261,8 @@ export class DataMetalSpotMarketRequest extends cdktf.TerraformDataSource {
       terraformResourceType: 'metal_spot_market_request',
       terraformGeneratorMetadata: {
         providerName: 'metal',
-        providerVersion: '3.3.0'
+        providerVersion: '3.3.0',
+        providerVersionConstraint: '3.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

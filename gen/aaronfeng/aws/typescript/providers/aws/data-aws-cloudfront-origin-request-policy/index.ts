@@ -528,7 +528,8 @@ export class DataAwsCloudfrontOriginRequestPolicy extends cdktf.TerraformDataSou
       terraformResourceType: 'aws_cloudfront_origin_request_policy',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '3.29.6'
+        providerVersion: '3.29.6',
+        providerVersionConstraint: '3.29.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

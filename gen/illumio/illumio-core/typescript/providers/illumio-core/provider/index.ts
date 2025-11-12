@@ -121,7 +121,8 @@ export class IllumioCoreProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'illumio-core',
       terraformGeneratorMetadata: {
         providerName: 'illumio-core',
-        providerVersion: '1.1.6'
+        providerVersion: '1.1.6',
+        providerVersionConstraint: '1.1.6'
       },
       terraformProviderSource: 'illumio/illumio-core'
     });

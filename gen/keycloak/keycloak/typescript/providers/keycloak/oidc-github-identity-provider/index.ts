@@ -200,7 +200,8 @@ export class OidcGithubIdentityProvider extends cdktf.TerraformResource {
       terraformResourceType: 'keycloak_oidc_github_identity_provider',
       terraformGeneratorMetadata: {
         providerName: 'keycloak',
-        providerVersion: '5.5.0'
+        providerVersion: '5.5.0',
+        providerVersionConstraint: '5.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

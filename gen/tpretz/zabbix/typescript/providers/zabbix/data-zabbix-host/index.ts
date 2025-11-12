@@ -31,7 +31,7 @@ export interface DataZabbixHostConfig extends cdktf.TerraformMetaArguments {
   */
   readonly id?: string;
   /**
-  * Inventory Mode, one of: disabled, manual, automatic
+  * Inventory Mode, one of: automatic, disabled, manual
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tpretz/zabbix/0.17.0/docs/data-sources/host#inventory_mode DataZabbixHost#inventory_mode}
   */
@@ -974,7 +974,8 @@ export class DataZabbixHost extends cdktf.TerraformDataSource {
       terraformResourceType: 'zabbix_host',
       terraformGeneratorMetadata: {
         providerName: 'zabbix',
-        providerVersion: '0.17.0'
+        providerVersion: '0.17.0',
+        providerVersionConstraint: '0.17.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

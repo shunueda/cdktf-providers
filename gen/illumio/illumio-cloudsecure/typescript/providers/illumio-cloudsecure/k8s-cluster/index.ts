@@ -55,7 +55,8 @@ export class K8SCluster extends cdktf.TerraformResource {
       terraformResourceType: 'illumio-cloudsecure_k8s_cluster',
       terraformGeneratorMetadata: {
         providerName: 'illumio-cloudsecure',
-        providerVersion: '1.5.3'
+        providerVersion: '1.5.3',
+        providerVersionConstraint: '1.5.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

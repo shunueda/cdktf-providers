@@ -61,7 +61,8 @@ export class DataNxosNtpServer extends cdktf.TerraformDataSource {
       terraformResourceType: 'nxos_ntp_server',
       terraformGeneratorMetadata: {
         providerName: 'nxos',
-        providerVersion: '0.5.10'
+        providerVersion: '0.5.10',
+        providerVersionConstraint: '0.5.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

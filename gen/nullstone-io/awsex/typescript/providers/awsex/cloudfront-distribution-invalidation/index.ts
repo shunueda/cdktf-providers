@@ -169,7 +169,8 @@ export class CloudfrontDistributionInvalidation extends cdktf.TerraformResource 
       terraformResourceType: 'awsex_cloudfront_distribution_invalidation',
       terraformGeneratorMetadata: {
         providerName: 'awsex',
-        providerVersion: '0.1.3'
+        providerVersion: '0.1.3',
+        providerVersionConstraint: '0.1.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

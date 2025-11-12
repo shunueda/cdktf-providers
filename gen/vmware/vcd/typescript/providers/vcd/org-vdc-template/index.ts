@@ -1319,7 +1319,8 @@ export class OrgVdcTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'vcd_org_vdc_template',
       terraformGeneratorMetadata: {
         providerName: 'vcd',
-        providerVersion: '3.14.1'
+        providerVersion: '3.14.1',
+        providerVersionConstraint: '3.14.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -4017,7 +4017,8 @@ export class DataIntersightApplianceUpgradeTracker extends cdktf.TerraformDataSo
       terraformResourceType: 'intersight_appliance_upgrade_tracker',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

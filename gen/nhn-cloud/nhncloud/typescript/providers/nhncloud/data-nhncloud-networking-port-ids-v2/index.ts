@@ -124,7 +124,8 @@ export class DataNhncloudNetworkingPortIdsV2 extends cdktf.TerraformDataSource {
       terraformResourceType: 'nhncloud_networking_port_ids_v2',
       terraformGeneratorMetadata: {
         providerName: 'nhncloud',
-        providerVersion: '1.0.6'
+        providerVersion: '1.0.6',
+        providerVersionConstraint: '1.0.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

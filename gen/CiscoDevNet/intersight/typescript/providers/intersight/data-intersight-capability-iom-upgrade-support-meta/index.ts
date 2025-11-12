@@ -3697,7 +3697,8 @@ export class DataIntersightCapabilityIomUpgradeSupportMeta extends cdktf.Terrafo
       terraformResourceType: 'intersight_capability_iom_upgrade_support_meta',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

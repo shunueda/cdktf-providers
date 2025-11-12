@@ -212,7 +212,8 @@ export class DockerProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'docker',
       terraformGeneratorMetadata: {
         providerName: 'docker',
-        providerVersion: '3.6.2'
+        providerVersion: '3.6.2',
+        providerVersionConstraint: '3.6.2'
       },
       terraformProviderSource: 'kreuzwerker/docker'
     });

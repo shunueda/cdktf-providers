@@ -61,7 +61,8 @@ export class CollectionMount extends cdktf.TerraformResource {
       terraformResourceType: 'rockset_collection_mount',
       terraformGeneratorMetadata: {
         providerName: 'rockset',
-        providerVersion: '0.9.8'
+        providerVersion: '0.9.8',
+        providerVersionConstraint: '0.9.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

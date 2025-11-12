@@ -418,7 +418,8 @@ export class DataJunosRoutes extends cdktf.TerraformDataSource {
       terraformResourceType: 'junos_routes',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0'
+        providerVersion: '2.15.0',
+        providerVersionConstraint: '2.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

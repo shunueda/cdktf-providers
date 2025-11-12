@@ -115,7 +115,8 @@ export class OvirtProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'ovirt',
       terraformGeneratorMetadata: {
         providerName: 'ovirt',
-        providerVersion: '2.1.5'
+        providerVersion: '2.1.5',
+        providerVersionConstraint: '2.1.5'
       },
       terraformProviderSource: 'oVirt/ovirt'
     });

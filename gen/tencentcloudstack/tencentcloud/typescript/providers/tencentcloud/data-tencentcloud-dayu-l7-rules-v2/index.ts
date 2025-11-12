@@ -354,7 +354,8 @@ export class DataTencentcloudDayuL7RulesV2 extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_dayu_l7_rules_v2',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

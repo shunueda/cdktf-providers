@@ -62,7 +62,8 @@ export class DataAkamaiEdgeworkersPropertyRules extends cdktf.TerraformDataSourc
       terraformResourceType: 'akamai_edgeworkers_property_rules',
       terraformGeneratorMetadata: {
         providerName: 'akamai',
-        providerVersion: '9.1.0'
+        providerVersion: '9.1.0',
+        providerVersionConstraint: '9.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

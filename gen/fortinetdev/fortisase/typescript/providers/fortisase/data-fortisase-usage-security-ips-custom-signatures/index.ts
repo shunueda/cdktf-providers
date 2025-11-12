@@ -63,7 +63,8 @@ export class DataFortisaseUsageSecurityIpsCustomSignatures extends cdktf.Terrafo
       terraformResourceType: 'fortisase_usage_security_ips_custom_signatures',
       terraformGeneratorMetadata: {
         providerName: 'fortisase',
-        providerVersion: '1.0.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

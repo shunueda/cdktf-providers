@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance
+// https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,27 @@ export interface InstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enable VCF Customer Experience Improvement Program
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#ceip_enabled Instance#ceip_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#ceip_enabled Instance#ceip_enabled}
   */
   readonly ceipEnabled?: boolean | cdktf.IResolvable;
   /**
+  * The version of the distributed virtual switches to be used. One among: 7.0.0, 7.0.2, 7.0.3, 8.0.0, 8.0.3
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#dv_switch_version Instance#dv_switch_version}
+  */
+  readonly dvSwitchVersion: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#esx_license Instance#esx_license}
+  */
+  readonly esxLicense?: string;
+  /**
   * Enable Federal Information Processing Standards
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#fips_enabled Instance#fips_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#fips_enabled Instance#fips_enabled}
   */
   readonly fipsEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#id Instance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#id Instance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,424 +39,193 @@ export interface InstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Client string that identifies an SDDC by name or instance name. Used for management domain name. Can contain only letters, numbers and the following symbols: '-'. Example: "sfo01-m01", Length 3-20 characters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#instance_id Instance#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#instance_id Instance#instance_id}
   */
   readonly instanceId: string;
   /**
   * A string identifying the network pool associated with the management domain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#management_pool_name Instance#management_pool_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#management_pool_name Instance#management_pool_name}
   */
   readonly managementPoolName: string;
   /**
   * List of NTP servers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#ntp_servers Instance#ntp_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#ntp_servers Instance#ntp_servers}
   */
   readonly ntpServers: string[];
   /**
   * Skip ESXi thumbprint validation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#skip_esx_thumbprint_validation Instance#skip_esx_thumbprint_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#skip_esx_thumbprint_validation Instance#skip_esx_thumbprint_validation}
   */
   readonly skipEsxThumbprintValidation: boolean | cdktf.IResolvable;
   /**
-  * VCF version
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#version Instance#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#task_name Instance#task_name}
   */
-  readonly version?: string;
-  /**
-  * automation block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#automation Instance#automation}
-  */
-  readonly automation?: InstanceAutomation;
+  readonly taskName?: string;
   /**
   * cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#cluster Instance#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#cluster Instance#cluster}
   */
   readonly cluster: InstanceCluster;
   /**
   * dns block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#dns Instance#dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#dns Instance#dns}
   */
   readonly dns: InstanceDns;
   /**
   * dvs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#dvs Instance#dvs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#dvs Instance#dvs}
   */
   readonly dvs: InstanceDvs[] | cdktf.IResolvable;
   /**
   * host block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#host Instance#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#host Instance#host}
   */
   readonly host: InstanceHost[] | cdktf.IResolvable;
   /**
   * network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#network Instance#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#network Instance#network}
   */
   readonly network: InstanceNetwork[] | cdktf.IResolvable;
   /**
   * nsx block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#nsx Instance#nsx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#nsx Instance#nsx}
   */
   readonly nsx?: InstanceNsx;
   /**
-  * operations block
+  * psc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#operations Instance#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#psc Instance#psc}
   */
-  readonly operations?: InstanceOperations;
-  /**
-  * operations_collector block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#operations_collector Instance#operations_collector}
-  */
-  readonly operationsCollector?: InstanceOperationsCollector;
-  /**
-  * operations_fleet_management block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#operations_fleet_management Instance#operations_fleet_management}
-  */
-  readonly operationsFleetManagement?: InstanceOperationsFleetManagement;
+  readonly psc?: InstancePsc[] | cdktf.IResolvable;
   /**
   * sddc_manager block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#sddc_manager Instance#sddc_manager}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#sddc_manager Instance#sddc_manager}
   */
   readonly sddcManager?: InstanceSddcManager;
   /**
   * security block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#security Instance#security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#security Instance#security}
   */
   readonly security?: InstanceSecurity;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#timeouts Instance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#timeouts Instance#timeouts}
   */
   readonly timeouts?: InstanceTimeouts;
   /**
   * vcenter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#vcenter Instance#vcenter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#vcenter Instance#vcenter}
   */
   readonly vcenter: InstanceVcenter;
   /**
   * vsan block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#vsan Instance#vsan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#vsan Instance#vsan}
   */
   readonly vsan?: InstanceVsan;
-}
-export interface InstanceAutomation {
   /**
-  * Administrator password
+  * vx_manager block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#admin_user_password Instance#admin_user_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#vx_manager Instance#vx_manager}
   */
-  readonly adminUserPassword?: string;
-  /**
-  * Host name for the automation appliance
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#hostname Instance#hostname}
-  */
-  readonly hostname: string;
-  /**
-  * Internal Cluster CIDR. One among: 198.18.0.0/15, 240.0.0.0/15, 250.0.0.0/15
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#internal_cluster_cidr Instance#internal_cluster_cidr}
-  */
-  readonly internalClusterCidr: string;
-  /**
-  * List of IP addresses.  For Standard deployment model two IP addresses need to be specified and for High Availability four IP addresses need to be specified
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#ip_pool Instance#ip_pool}
-  */
-  readonly ipPool: string[];
-  /**
-  * Node Prefix. It cannot be blank and must begin and end with an alphanumeric character, and can only contain lowercase alphanumeric characters or hyphens.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#node_prefix Instance#node_prefix}
-  */
-  readonly nodePrefix?: string;
-}
-
-export function instanceAutomationToTerraform(struct?: InstanceAutomationOutputReference | InstanceAutomation): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    admin_user_password: cdktf.stringToTerraform(struct!.adminUserPassword),
-    hostname: cdktf.stringToTerraform(struct!.hostname),
-    internal_cluster_cidr: cdktf.stringToTerraform(struct!.internalClusterCidr),
-    ip_pool: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.ipPool),
-    node_prefix: cdktf.stringToTerraform(struct!.nodePrefix),
-  }
-}
-
-
-export function instanceAutomationToHclTerraform(struct?: InstanceAutomationOutputReference | InstanceAutomation): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    admin_user_password: {
-      value: cdktf.stringToHclTerraform(struct!.adminUserPassword),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    hostname: {
-      value: cdktf.stringToHclTerraform(struct!.hostname),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    internal_cluster_cidr: {
-      value: cdktf.stringToHclTerraform(struct!.internalClusterCidr),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    ip_pool: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.ipPool),
-      isBlock: false,
-      type: "list",
-      storageClassType: "stringList",
-    },
-    node_prefix: {
-      value: cdktf.stringToHclTerraform(struct!.nodePrefix),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class InstanceAutomationOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): InstanceAutomation | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._adminUserPassword !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.adminUserPassword = this._adminUserPassword;
-    }
-    if (this._hostname !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.hostname = this._hostname;
-    }
-    if (this._internalClusterCidr !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.internalClusterCidr = this._internalClusterCidr;
-    }
-    if (this._ipPool !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ipPool = this._ipPool;
-    }
-    if (this._nodePrefix !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.nodePrefix = this._nodePrefix;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: InstanceAutomation | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._adminUserPassword = undefined;
-      this._hostname = undefined;
-      this._internalClusterCidr = undefined;
-      this._ipPool = undefined;
-      this._nodePrefix = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._adminUserPassword = value.adminUserPassword;
-      this._hostname = value.hostname;
-      this._internalClusterCidr = value.internalClusterCidr;
-      this._ipPool = value.ipPool;
-      this._nodePrefix = value.nodePrefix;
-    }
-  }
-
-  // admin_user_password - computed: false, optional: true, required: false
-  private _adminUserPassword?: string; 
-  public get adminUserPassword() {
-    return this.getStringAttribute('admin_user_password');
-  }
-  public set adminUserPassword(value: string) {
-    this._adminUserPassword = value;
-  }
-  public resetAdminUserPassword() {
-    this._adminUserPassword = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get adminUserPasswordInput() {
-    return this._adminUserPassword;
-  }
-
-  // hostname - computed: false, optional: false, required: true
-  private _hostname?: string; 
-  public get hostname() {
-    return this.getStringAttribute('hostname');
-  }
-  public set hostname(value: string) {
-    this._hostname = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get hostnameInput() {
-    return this._hostname;
-  }
-
-  // internal_cluster_cidr - computed: false, optional: false, required: true
-  private _internalClusterCidr?: string; 
-  public get internalClusterCidr() {
-    return this.getStringAttribute('internal_cluster_cidr');
-  }
-  public set internalClusterCidr(value: string) {
-    this._internalClusterCidr = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get internalClusterCidrInput() {
-    return this._internalClusterCidr;
-  }
-
-  // ip_pool - computed: false, optional: false, required: true
-  private _ipPool?: string[]; 
-  public get ipPool() {
-    return this.getListAttribute('ip_pool');
-  }
-  public set ipPool(value: string[]) {
-    this._ipPool = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ipPoolInput() {
-    return this._ipPool;
-  }
-
-  // node_prefix - computed: false, optional: true, required: false
-  private _nodePrefix?: string; 
-  public get nodePrefix() {
-    return this.getStringAttribute('node_prefix');
-  }
-  public set nodePrefix(value: string) {
-    this._nodePrefix = value;
-  }
-  public resetNodePrefix() {
-    this._nodePrefix = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nodePrefixInput() {
-    return this._nodePrefix;
-  }
+  readonly vxManager?: InstanceVxManager;
 }
 export interface InstanceClusterResourcePool {
   /**
   * CPU limit, default -1 (unlimited)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#cpu_limit Instance#cpu_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#cpu_limit Instance#cpu_limit}
   */
   readonly cpuLimit?: number;
   /**
   * Is CPU reservation expandable, default true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#cpu_reservation_expandable Instance#cpu_reservation_expandable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#cpu_reservation_expandable Instance#cpu_reservation_expandable}
   */
   readonly cpuReservationExpandable?: boolean | cdktf.IResolvable;
   /**
   * CPU reservation in Mhz
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#cpu_reservation_mhz Instance#cpu_reservation_mhz}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#cpu_reservation_mhz Instance#cpu_reservation_mhz}
   */
   readonly cpuReservationMhz?: number;
   /**
   * CPU reservation percentage, from 0 to 100, default 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#cpu_reservation_percentage Instance#cpu_reservation_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#cpu_reservation_percentage Instance#cpu_reservation_percentage}
   */
   readonly cpuReservationPercentage?: number;
   /**
   * CPU shares level, default 'normal', possible values: "custom", "high", "low", "normal"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#cpu_shares_level Instance#cpu_shares_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#cpu_shares_level Instance#cpu_shares_level}
   */
   readonly cpuSharesLevel?: string;
   /**
   * CPU shares value, only required when shares level is 'normal'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#cpu_shares_value Instance#cpu_shares_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#cpu_shares_value Instance#cpu_shares_value}
   */
   readonly cpuSharesValue?: number;
   /**
   * Memory limit, default -1 (unlimited)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#memory_limit Instance#memory_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#memory_limit Instance#memory_limit}
   */
   readonly memoryLimit?: number;
   /**
   * Is Memory reservation expandable, default true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#memory_reservation_expandable Instance#memory_reservation_expandable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#memory_reservation_expandable Instance#memory_reservation_expandable}
   */
   readonly memoryReservationExpandable?: boolean | cdktf.IResolvable;
   /**
   * Memory reservation in MB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#memory_reservation_mb Instance#memory_reservation_mb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#memory_reservation_mb Instance#memory_reservation_mb}
   */
   readonly memoryReservationMb?: number;
   /**
   * Memory reservation percentage, from 0 to 100, default 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#memory_reservation_percentage Instance#memory_reservation_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#memory_reservation_percentage Instance#memory_reservation_percentage}
   */
   readonly memoryReservationPercentage?: number;
   /**
   * Memory shares level, default 'normal', possible values: "custom", "high", "low", "normal"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#memory_shares_level Instance#memory_shares_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#memory_shares_level Instance#memory_shares_level}
   */
   readonly memorySharesLevel?: string;
   /**
   * Memory shares value, only required when shares level is 'normal'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#memory_shares_value Instance#memory_shares_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#memory_shares_value Instance#memory_shares_value}
   */
   readonly memorySharesValue?: number;
   /**
   * Resource Pool name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#name Instance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#name Instance#name}
   */
   readonly name: string;
   /**
   * Type of resource pool, possible values: "management", "compute", "network"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#type Instance#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#type Instance#type}
   */
   readonly type?: string;
 }
@@ -938,25 +717,37 @@ export interface InstanceCluster {
   /**
   * vCenter cluster EVC mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#cluster_evc_mode Instance#cluster_evc_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#cluster_evc_mode Instance#cluster_evc_mode}
   */
   readonly clusterEvcMode?: string;
   /**
+  * Whether to enable vSphere Lifecycle Manager images for this cluster
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#cluster_image_enabled Instance#cluster_image_enabled}
+  */
+  readonly clusterImageEnabled?: boolean | cdktf.IResolvable;
+  /**
   * vCenter Cluster Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#cluster_name Instance#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#cluster_name Instance#cluster_name}
   */
   readonly clusterName: string;
   /**
-  * vCenter Datacenter Name
+  * Host failures to tolerate. In between 0 and 3
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#datacenter_name Instance#datacenter_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#host_failures_to_tolerate Instance#host_failures_to_tolerate}
   */
-  readonly datacenterName: string;
+  readonly hostFailuresToTolerate?: number;
+  /**
+  * Virtual Machine folders map. One among: MANAGEMENT, NETWORKING
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#vm_folder Instance#vm_folder}
+  */
+  readonly vmFolder?: { [key: string]: string };
   /**
   * resource_pool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#resource_pool Instance#resource_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#resource_pool Instance#resource_pool}
   */
   readonly resourcePool?: InstanceClusterResourcePool[] | cdktf.IResolvable;
 }
@@ -968,8 +759,10 @@ export function instanceClusterToTerraform(struct?: InstanceClusterOutputReferen
   }
   return {
     cluster_evc_mode: cdktf.stringToTerraform(struct!.clusterEvcMode),
+    cluster_image_enabled: cdktf.booleanToTerraform(struct!.clusterImageEnabled),
     cluster_name: cdktf.stringToTerraform(struct!.clusterName),
-    datacenter_name: cdktf.stringToTerraform(struct!.datacenterName),
+    host_failures_to_tolerate: cdktf.numberToTerraform(struct!.hostFailuresToTolerate),
+    vm_folder: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.vmFolder),
     resource_pool: cdktf.listMapper(instanceClusterResourcePoolToTerraform, true)(struct!.resourcePool),
   }
 }
@@ -987,17 +780,29 @@ export function instanceClusterToHclTerraform(struct?: InstanceClusterOutputRefe
       type: "simple",
       storageClassType: "string",
     },
+    cluster_image_enabled: {
+      value: cdktf.booleanToHclTerraform(struct!.clusterImageEnabled),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
     cluster_name: {
       value: cdktf.stringToHclTerraform(struct!.clusterName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
-    datacenter_name: {
-      value: cdktf.stringToHclTerraform(struct!.datacenterName),
+    host_failures_to_tolerate: {
+      value: cdktf.numberToHclTerraform(struct!.hostFailuresToTolerate),
       isBlock: false,
       type: "simple",
-      storageClassType: "string",
+      storageClassType: "number",
+    },
+    vm_folder: {
+      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.vmFolder),
+      isBlock: false,
+      type: "map",
+      storageClassType: "stringMap",
     },
     resource_pool: {
       value: cdktf.listMapperHcl(instanceClusterResourcePoolToHclTerraform, true)(struct!.resourcePool),
@@ -1029,13 +834,21 @@ export class InstanceClusterOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.clusterEvcMode = this._clusterEvcMode;
     }
+    if (this._clusterImageEnabled !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.clusterImageEnabled = this._clusterImageEnabled;
+    }
     if (this._clusterName !== undefined) {
       hasAnyValues = true;
       internalValueResult.clusterName = this._clusterName;
     }
-    if (this._datacenterName !== undefined) {
+    if (this._hostFailuresToTolerate !== undefined) {
       hasAnyValues = true;
-      internalValueResult.datacenterName = this._datacenterName;
+      internalValueResult.hostFailuresToTolerate = this._hostFailuresToTolerate;
+    }
+    if (this._vmFolder !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vmFolder = this._vmFolder;
     }
     if (this._resourcePool?.internalValue !== undefined) {
       hasAnyValues = true;
@@ -1048,15 +861,19 @@ export class InstanceClusterOutputReference extends cdktf.ComplexObject {
     if (value === undefined) {
       this.isEmptyObject = false;
       this._clusterEvcMode = undefined;
+      this._clusterImageEnabled = undefined;
       this._clusterName = undefined;
-      this._datacenterName = undefined;
+      this._hostFailuresToTolerate = undefined;
+      this._vmFolder = undefined;
       this._resourcePool.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._clusterEvcMode = value.clusterEvcMode;
+      this._clusterImageEnabled = value.clusterImageEnabled;
       this._clusterName = value.clusterName;
-      this._datacenterName = value.datacenterName;
+      this._hostFailuresToTolerate = value.hostFailuresToTolerate;
+      this._vmFolder = value.vmFolder;
       this._resourcePool.internalValue = value.resourcePool;
     }
   }
@@ -1077,6 +894,22 @@ export class InstanceClusterOutputReference extends cdktf.ComplexObject {
     return this._clusterEvcMode;
   }
 
+  // cluster_image_enabled - computed: false, optional: true, required: false
+  private _clusterImageEnabled?: boolean | cdktf.IResolvable; 
+  public get clusterImageEnabled() {
+    return this.getBooleanAttribute('cluster_image_enabled');
+  }
+  public set clusterImageEnabled(value: boolean | cdktf.IResolvable) {
+    this._clusterImageEnabled = value;
+  }
+  public resetClusterImageEnabled() {
+    this._clusterImageEnabled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get clusterImageEnabledInput() {
+    return this._clusterImageEnabled;
+  }
+
   // cluster_name - computed: false, optional: false, required: true
   private _clusterName?: string; 
   public get clusterName() {
@@ -1090,17 +923,36 @@ export class InstanceClusterOutputReference extends cdktf.ComplexObject {
     return this._clusterName;
   }
 
-  // datacenter_name - computed: false, optional: false, required: true
-  private _datacenterName?: string; 
-  public get datacenterName() {
-    return this.getStringAttribute('datacenter_name');
+  // host_failures_to_tolerate - computed: false, optional: true, required: false
+  private _hostFailuresToTolerate?: number; 
+  public get hostFailuresToTolerate() {
+    return this.getNumberAttribute('host_failures_to_tolerate');
   }
-  public set datacenterName(value: string) {
-    this._datacenterName = value;
+  public set hostFailuresToTolerate(value: number) {
+    this._hostFailuresToTolerate = value;
+  }
+  public resetHostFailuresToTolerate() {
+    this._hostFailuresToTolerate = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get datacenterNameInput() {
-    return this._datacenterName;
+  public get hostFailuresToTolerateInput() {
+    return this._hostFailuresToTolerate;
+  }
+
+  // vm_folder - computed: false, optional: true, required: false
+  private _vmFolder?: { [key: string]: string }; 
+  public get vmFolder() {
+    return this.getStringMapAttribute('vm_folder');
+  }
+  public set vmFolder(value: { [key: string]: string }) {
+    this._vmFolder = value;
+  }
+  public resetVmFolder() {
+    this._vmFolder = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vmFolderInput() {
+    return this._vmFolder;
   }
 
   // resource_pool - computed: false, optional: true, required: false
@@ -1123,19 +975,19 @@ export interface InstanceDns {
   /**
   * Tenant domain. Parent tenant domain including TLD suffix Example: vmware.com
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#domain Instance#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#domain Instance#domain}
   */
   readonly domain: string;
   /**
   * Primary nameserver IPv4 address. Example: 172.0.0.4
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#name_server Instance#name_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#name_server Instance#name_server}
   */
   readonly nameServer?: string;
   /**
   * Secondary nameserver IPv4 address. Example: 172.0.0.5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#secondary_name_server Instance#secondary_name_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#secondary_name_server Instance#secondary_name_server}
   */
   readonly secondaryNameServer?: string;
 }
@@ -1276,13 +1128,13 @@ export interface InstanceDvsNioc {
   /**
   * Traffic Type One among:VSAN, VMOTION, VIRTUALMACHINE, MANAGEMENT, NFS, VDP, HBR, FAULTTOLERANCE, ISCSI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#traffic_type Instance#traffic_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#traffic_type Instance#traffic_type}
   */
   readonly trafficType: string;
   /**
   * NIOC Value. Example: LOW, NORMAL, HIGH
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#value Instance#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#value Instance#value}
   */
   readonly value: string;
 }
@@ -1419,681 +1271,43 @@ export class InstanceDvsNiocList extends cdktf.ComplexList {
     return new InstanceDvsNiocOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
-export interface InstanceDvsNsxTeaming {
-  /**
-  * List of active uplinks
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#active_uplinks Instance#active_uplinks}
-  */
-  readonly activeUplinks: string[];
-  /**
-  * Teaming policy (e.g., FAILOVER_ORDER, LOADBALANCE_SRCID)
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#policy Instance#policy}
-  */
-  readonly policy: string;
-  /**
-  * List of standby uplinks
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#standby_uplinks Instance#standby_uplinks}
-  */
-  readonly standbyUplinks?: string[];
-}
-
-export function instanceDvsNsxTeamingToTerraform(struct?: InstanceDvsNsxTeaming | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    active_uplinks: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.activeUplinks),
-    policy: cdktf.stringToTerraform(struct!.policy),
-    standby_uplinks: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.standbyUplinks),
-  }
-}
-
-
-export function instanceDvsNsxTeamingToHclTerraform(struct?: InstanceDvsNsxTeaming | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    active_uplinks: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.activeUplinks),
-      isBlock: false,
-      type: "list",
-      storageClassType: "stringList",
-    },
-    policy: {
-      value: cdktf.stringToHclTerraform(struct!.policy),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    standby_uplinks: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.standbyUplinks),
-      isBlock: false,
-      type: "list",
-      storageClassType: "stringList",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class InstanceDvsNsxTeamingOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): InstanceDvsNsxTeaming | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._activeUplinks !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.activeUplinks = this._activeUplinks;
-    }
-    if (this._policy !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.policy = this._policy;
-    }
-    if (this._standbyUplinks !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.standbyUplinks = this._standbyUplinks;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: InstanceDvsNsxTeaming | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._activeUplinks = undefined;
-      this._policy = undefined;
-      this._standbyUplinks = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._activeUplinks = value.activeUplinks;
-      this._policy = value.policy;
-      this._standbyUplinks = value.standbyUplinks;
-    }
-  }
-
-  // active_uplinks - computed: false, optional: false, required: true
-  private _activeUplinks?: string[]; 
-  public get activeUplinks() {
-    return this.getListAttribute('active_uplinks');
-  }
-  public set activeUplinks(value: string[]) {
-    this._activeUplinks = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get activeUplinksInput() {
-    return this._activeUplinks;
-  }
-
-  // policy - computed: false, optional: false, required: true
-  private _policy?: string; 
-  public get policy() {
-    return this.getStringAttribute('policy');
-  }
-  public set policy(value: string) {
-    this._policy = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get policyInput() {
-    return this._policy;
-  }
-
-  // standby_uplinks - computed: false, optional: true, required: false
-  private _standbyUplinks?: string[]; 
-  public get standbyUplinks() {
-    return this.getListAttribute('standby_uplinks');
-  }
-  public set standbyUplinks(value: string[]) {
-    this._standbyUplinks = value;
-  }
-  public resetStandbyUplinks() {
-    this._standbyUplinks = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get standbyUplinksInput() {
-    return this._standbyUplinks;
-  }
-}
-
-export class InstanceDvsNsxTeamingList extends cdktf.ComplexList {
-  public internalValue? : InstanceDvsNsxTeaming[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): InstanceDvsNsxTeamingOutputReference {
-    return new InstanceDvsNsxTeamingOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface InstanceDvsNsxtSwitchConfigTransportZones {
-  /**
-  * Transport zone name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#name Instance#name}
-  */
-  readonly name?: string;
-  /**
-  * Transport type (e.g., OVERLAY, VLAN)
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#transport_type Instance#transport_type}
-  */
-  readonly transportType: string;
-}
-
-export function instanceDvsNsxtSwitchConfigTransportZonesToTerraform(struct?: InstanceDvsNsxtSwitchConfigTransportZones | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    name: cdktf.stringToTerraform(struct!.name),
-    transport_type: cdktf.stringToTerraform(struct!.transportType),
-  }
-}
-
-
-export function instanceDvsNsxtSwitchConfigTransportZonesToHclTerraform(struct?: InstanceDvsNsxtSwitchConfigTransportZones | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    name: {
-      value: cdktf.stringToHclTerraform(struct!.name),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    transport_type: {
-      value: cdktf.stringToHclTerraform(struct!.transportType),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class InstanceDvsNsxtSwitchConfigTransportZonesOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): InstanceDvsNsxtSwitchConfigTransportZones | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._name !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.name = this._name;
-    }
-    if (this._transportType !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.transportType = this._transportType;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: InstanceDvsNsxtSwitchConfigTransportZones | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._name = undefined;
-      this._transportType = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._name = value.name;
-      this._transportType = value.transportType;
-    }
-  }
-
-  // name - computed: false, optional: true, required: false
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  public resetName() {
-    this._name = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
-  }
-
-  // transport_type - computed: false, optional: false, required: true
-  private _transportType?: string; 
-  public get transportType() {
-    return this.getStringAttribute('transport_type');
-  }
-  public set transportType(value: string) {
-    this._transportType = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get transportTypeInput() {
-    return this._transportType;
-  }
-}
-
-export class InstanceDvsNsxtSwitchConfigTransportZonesList extends cdktf.ComplexList {
-  public internalValue? : InstanceDvsNsxtSwitchConfigTransportZones[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): InstanceDvsNsxtSwitchConfigTransportZonesOutputReference {
-    return new InstanceDvsNsxtSwitchConfigTransportZonesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface InstanceDvsNsxtSwitchConfig {
-  /**
-  * Host switch operational mode (e.g., STANDARD, ENS)
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#host_switch_operational_mode Instance#host_switch_operational_mode}
-  */
-  readonly hostSwitchOperationalMode?: string;
-  /**
-  * IP assignment type for host switch
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#ip_assignment_type Instance#ip_assignment_type}
-  */
-  readonly ipAssignmentType?: string;
-  /**
-  * transport_zones block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#transport_zones Instance#transport_zones}
-  */
-  readonly transportZones: InstanceDvsNsxtSwitchConfigTransportZones[] | cdktf.IResolvable;
-}
-
-export function instanceDvsNsxtSwitchConfigToTerraform(struct?: InstanceDvsNsxtSwitchConfigOutputReference | InstanceDvsNsxtSwitchConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    host_switch_operational_mode: cdktf.stringToTerraform(struct!.hostSwitchOperationalMode),
-    ip_assignment_type: cdktf.stringToTerraform(struct!.ipAssignmentType),
-    transport_zones: cdktf.listMapper(instanceDvsNsxtSwitchConfigTransportZonesToTerraform, true)(struct!.transportZones),
-  }
-}
-
-
-export function instanceDvsNsxtSwitchConfigToHclTerraform(struct?: InstanceDvsNsxtSwitchConfigOutputReference | InstanceDvsNsxtSwitchConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    host_switch_operational_mode: {
-      value: cdktf.stringToHclTerraform(struct!.hostSwitchOperationalMode),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    ip_assignment_type: {
-      value: cdktf.stringToHclTerraform(struct!.ipAssignmentType),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    transport_zones: {
-      value: cdktf.listMapperHcl(instanceDvsNsxtSwitchConfigTransportZonesToHclTerraform, true)(struct!.transportZones),
-      isBlock: true,
-      type: "list",
-      storageClassType: "InstanceDvsNsxtSwitchConfigTransportZonesList",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class InstanceDvsNsxtSwitchConfigOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): InstanceDvsNsxtSwitchConfig | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._hostSwitchOperationalMode !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.hostSwitchOperationalMode = this._hostSwitchOperationalMode;
-    }
-    if (this._ipAssignmentType !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ipAssignmentType = this._ipAssignmentType;
-    }
-    if (this._transportZones?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.transportZones = this._transportZones?.internalValue;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: InstanceDvsNsxtSwitchConfig | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._hostSwitchOperationalMode = undefined;
-      this._ipAssignmentType = undefined;
-      this._transportZones.internalValue = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._hostSwitchOperationalMode = value.hostSwitchOperationalMode;
-      this._ipAssignmentType = value.ipAssignmentType;
-      this._transportZones.internalValue = value.transportZones;
-    }
-  }
-
-  // host_switch_operational_mode - computed: false, optional: true, required: false
-  private _hostSwitchOperationalMode?: string; 
-  public get hostSwitchOperationalMode() {
-    return this.getStringAttribute('host_switch_operational_mode');
-  }
-  public set hostSwitchOperationalMode(value: string) {
-    this._hostSwitchOperationalMode = value;
-  }
-  public resetHostSwitchOperationalMode() {
-    this._hostSwitchOperationalMode = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get hostSwitchOperationalModeInput() {
-    return this._hostSwitchOperationalMode;
-  }
-
-  // ip_assignment_type - computed: false, optional: true, required: false
-  private _ipAssignmentType?: string; 
-  public get ipAssignmentType() {
-    return this.getStringAttribute('ip_assignment_type');
-  }
-  public set ipAssignmentType(value: string) {
-    this._ipAssignmentType = value;
-  }
-  public resetIpAssignmentType() {
-    this._ipAssignmentType = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ipAssignmentTypeInput() {
-    return this._ipAssignmentType;
-  }
-
-  // transport_zones - computed: false, optional: false, required: true
-  private _transportZones = new InstanceDvsNsxtSwitchConfigTransportZonesList(this, "transport_zones", false);
-  public get transportZones() {
-    return this._transportZones;
-  }
-  public putTransportZones(value: InstanceDvsNsxtSwitchConfigTransportZones[] | cdktf.IResolvable) {
-    this._transportZones.internalValue = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get transportZonesInput() {
-    return this._transportZones.internalValue;
-  }
-}
-export interface InstanceDvsVmnicMapping {
-  /**
-  * Uplink identifier
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#uplink Instance#uplink}
-  */
-  readonly uplink: string;
-  /**
-  * Vmnic identifier
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#vmnic Instance#vmnic}
-  */
-  readonly vmnic: string;
-}
-
-export function instanceDvsVmnicMappingToTerraform(struct?: InstanceDvsVmnicMapping | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    uplink: cdktf.stringToTerraform(struct!.uplink),
-    vmnic: cdktf.stringToTerraform(struct!.vmnic),
-  }
-}
-
-
-export function instanceDvsVmnicMappingToHclTerraform(struct?: InstanceDvsVmnicMapping | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    uplink: {
-      value: cdktf.stringToHclTerraform(struct!.uplink),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    vmnic: {
-      value: cdktf.stringToHclTerraform(struct!.vmnic),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class InstanceDvsVmnicMappingOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): InstanceDvsVmnicMapping | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._uplink !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.uplink = this._uplink;
-    }
-    if (this._vmnic !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.vmnic = this._vmnic;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: InstanceDvsVmnicMapping | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._uplink = undefined;
-      this._vmnic = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._uplink = value.uplink;
-      this._vmnic = value.vmnic;
-    }
-  }
-
-  // uplink - computed: false, optional: false, required: true
-  private _uplink?: string; 
-  public get uplink() {
-    return this.getStringAttribute('uplink');
-  }
-  public set uplink(value: string) {
-    this._uplink = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get uplinkInput() {
-    return this._uplink;
-  }
-
-  // vmnic - computed: false, optional: false, required: true
-  private _vmnic?: string; 
-  public get vmnic() {
-    return this.getStringAttribute('vmnic');
-  }
-  public set vmnic(value: string) {
-    this._vmnic = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get vmnicInput() {
-    return this._vmnic;
-  }
-}
-
-export class InstanceDvsVmnicMappingList extends cdktf.ComplexList {
-  public internalValue? : InstanceDvsVmnicMapping[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): InstanceDvsVmnicMappingOutputReference {
-    return new InstanceDvsVmnicMappingOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
 export interface InstanceDvs {
   /**
   * DVS Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#dvs_name Instance#dvs_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#dvs_name Instance#dvs_name}
   */
   readonly dvsName: string;
   /**
+  * Flag indicating whether the DVS is used by NSX
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#is_used_by_nsxt Instance#is_used_by_nsxt}
+  */
+  readonly isUsedByNsxt?: boolean | cdktf.IResolvable;
+  /**
   * DVS MTU (default value is 9000). In between 1500 and 9000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#mtu Instance#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#mtu Instance#mtu}
   */
   readonly mtu?: number;
   /**
   * Types of networks in this portgroup. Possible values: VSAN, VMOTION, MANAGEMENT, VM_MANAGEMENT
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#networks Instance#networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#networks Instance#networks}
   */
   readonly networks: string[];
   /**
+  * Vmnics to be attached to the DVS
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#vmnics Instance#vmnics}
+  */
+  readonly vmnics: string[];
+  /**
   * nioc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#nioc Instance#nioc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#nioc Instance#nioc}
   */
   readonly nioc?: InstanceDvsNioc[] | cdktf.IResolvable;
-  /**
-  * nsx_teaming block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#nsx_teaming Instance#nsx_teaming}
-  */
-  readonly nsxTeaming?: InstanceDvsNsxTeaming[] | cdktf.IResolvable;
-  /**
-  * nsxt_switch_config block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#nsxt_switch_config Instance#nsxt_switch_config}
-  */
-  readonly nsxtSwitchConfig?: InstanceDvsNsxtSwitchConfig;
-  /**
-  * vmnic_mapping block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#vmnic_mapping Instance#vmnic_mapping}
-  */
-  readonly vmnicMapping: InstanceDvsVmnicMapping[] | cdktf.IResolvable;
 }
 
 export function instanceDvsToTerraform(struct?: InstanceDvs | cdktf.IResolvable): any {
@@ -2103,12 +1317,11 @@ export function instanceDvsToTerraform(struct?: InstanceDvs | cdktf.IResolvable)
   }
   return {
     dvs_name: cdktf.stringToTerraform(struct!.dvsName),
+    is_used_by_nsxt: cdktf.booleanToTerraform(struct!.isUsedByNsxt),
     mtu: cdktf.numberToTerraform(struct!.mtu),
     networks: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.networks),
+    vmnics: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.vmnics),
     nioc: cdktf.listMapper(instanceDvsNiocToTerraform, true)(struct!.nioc),
-    nsx_teaming: cdktf.listMapper(instanceDvsNsxTeamingToTerraform, true)(struct!.nsxTeaming),
-    nsxt_switch_config: instanceDvsNsxtSwitchConfigToTerraform(struct!.nsxtSwitchConfig),
-    vmnic_mapping: cdktf.listMapper(instanceDvsVmnicMappingToTerraform, true)(struct!.vmnicMapping),
   }
 }
 
@@ -2125,6 +1338,12 @@ export function instanceDvsToHclTerraform(struct?: InstanceDvs | cdktf.IResolvab
       type: "simple",
       storageClassType: "string",
     },
+    is_used_by_nsxt: {
+      value: cdktf.booleanToHclTerraform(struct!.isUsedByNsxt),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
     mtu: {
       value: cdktf.numberToHclTerraform(struct!.mtu),
       isBlock: false,
@@ -2137,29 +1356,17 @@ export function instanceDvsToHclTerraform(struct?: InstanceDvs | cdktf.IResolvab
       type: "list",
       storageClassType: "stringList",
     },
+    vmnics: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.vmnics),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
     nioc: {
       value: cdktf.listMapperHcl(instanceDvsNiocToHclTerraform, true)(struct!.nioc),
       isBlock: true,
       type: "list",
       storageClassType: "InstanceDvsNiocList",
-    },
-    nsx_teaming: {
-      value: cdktf.listMapperHcl(instanceDvsNsxTeamingToHclTerraform, true)(struct!.nsxTeaming),
-      isBlock: true,
-      type: "list",
-      storageClassType: "InstanceDvsNsxTeamingList",
-    },
-    nsxt_switch_config: {
-      value: instanceDvsNsxtSwitchConfigToHclTerraform(struct!.nsxtSwitchConfig),
-      isBlock: true,
-      type: "list",
-      storageClassType: "InstanceDvsNsxtSwitchConfigList",
-    },
-    vmnic_mapping: {
-      value: cdktf.listMapperHcl(instanceDvsVmnicMappingToHclTerraform, true)(struct!.vmnicMapping),
-      isBlock: true,
-      type: "list",
-      storageClassType: "InstanceDvsVmnicMappingList",
     },
   };
 
@@ -2191,6 +1398,10 @@ export class InstanceDvsOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.dvsName = this._dvsName;
     }
+    if (this._isUsedByNsxt !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.isUsedByNsxt = this._isUsedByNsxt;
+    }
     if (this._mtu !== undefined) {
       hasAnyValues = true;
       internalValueResult.mtu = this._mtu;
@@ -2199,21 +1410,13 @@ export class InstanceDvsOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.networks = this._networks;
     }
+    if (this._vmnics !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vmnics = this._vmnics;
+    }
     if (this._nioc?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.nioc = this._nioc?.internalValue;
-    }
-    if (this._nsxTeaming?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.nsxTeaming = this._nsxTeaming?.internalValue;
-    }
-    if (this._nsxtSwitchConfig?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.nsxtSwitchConfig = this._nsxtSwitchConfig?.internalValue;
-    }
-    if (this._vmnicMapping?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.vmnicMapping = this._vmnicMapping?.internalValue;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -2223,12 +1426,11 @@ export class InstanceDvsOutputReference extends cdktf.ComplexObject {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._dvsName = undefined;
+      this._isUsedByNsxt = undefined;
       this._mtu = undefined;
       this._networks = undefined;
+      this._vmnics = undefined;
       this._nioc.internalValue = undefined;
-      this._nsxTeaming.internalValue = undefined;
-      this._nsxtSwitchConfig.internalValue = undefined;
-      this._vmnicMapping.internalValue = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -2238,12 +1440,11 @@ export class InstanceDvsOutputReference extends cdktf.ComplexObject {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
       this._dvsName = value.dvsName;
+      this._isUsedByNsxt = value.isUsedByNsxt;
       this._mtu = value.mtu;
       this._networks = value.networks;
+      this._vmnics = value.vmnics;
       this._nioc.internalValue = value.nioc;
-      this._nsxTeaming.internalValue = value.nsxTeaming;
-      this._nsxtSwitchConfig.internalValue = value.nsxtSwitchConfig;
-      this._vmnicMapping.internalValue = value.vmnicMapping;
     }
   }
 
@@ -2258,6 +1459,22 @@ export class InstanceDvsOutputReference extends cdktf.ComplexObject {
   // Temporarily expose input value. Use with caution.
   public get dvsNameInput() {
     return this._dvsName;
+  }
+
+  // is_used_by_nsxt - computed: false, optional: true, required: false
+  private _isUsedByNsxt?: boolean | cdktf.IResolvable; 
+  public get isUsedByNsxt() {
+    return this.getBooleanAttribute('is_used_by_nsxt');
+  }
+  public set isUsedByNsxt(value: boolean | cdktf.IResolvable) {
+    this._isUsedByNsxt = value;
+  }
+  public resetIsUsedByNsxt() {
+    this._isUsedByNsxt = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get isUsedByNsxtInput() {
+    return this._isUsedByNsxt;
   }
 
   // mtu - computed: false, optional: true, required: false
@@ -2289,6 +1506,19 @@ export class InstanceDvsOutputReference extends cdktf.ComplexObject {
     return this._networks;
   }
 
+  // vmnics - computed: false, optional: false, required: true
+  private _vmnics?: string[]; 
+  public get vmnics() {
+    return this.getListAttribute('vmnics');
+  }
+  public set vmnics(value: string[]) {
+    this._vmnics = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vmnicsInput() {
+    return this._vmnics;
+  }
+
   // nioc - computed: false, optional: true, required: false
   private _nioc = new InstanceDvsNiocList(this, "nioc", false);
   public get nioc() {
@@ -2303,51 +1533,6 @@ export class InstanceDvsOutputReference extends cdktf.ComplexObject {
   // Temporarily expose input value. Use with caution.
   public get niocInput() {
     return this._nioc.internalValue;
-  }
-
-  // nsx_teaming - computed: false, optional: true, required: false
-  private _nsxTeaming = new InstanceDvsNsxTeamingList(this, "nsx_teaming", false);
-  public get nsxTeaming() {
-    return this._nsxTeaming;
-  }
-  public putNsxTeaming(value: InstanceDvsNsxTeaming[] | cdktf.IResolvable) {
-    this._nsxTeaming.internalValue = value;
-  }
-  public resetNsxTeaming() {
-    this._nsxTeaming.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nsxTeamingInput() {
-    return this._nsxTeaming.internalValue;
-  }
-
-  // nsxt_switch_config - computed: false, optional: true, required: false
-  private _nsxtSwitchConfig = new InstanceDvsNsxtSwitchConfigOutputReference(this, "nsxt_switch_config");
-  public get nsxtSwitchConfig() {
-    return this._nsxtSwitchConfig;
-  }
-  public putNsxtSwitchConfig(value: InstanceDvsNsxtSwitchConfig) {
-    this._nsxtSwitchConfig.internalValue = value;
-  }
-  public resetNsxtSwitchConfig() {
-    this._nsxtSwitchConfig.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nsxtSwitchConfigInput() {
-    return this._nsxtSwitchConfig.internalValue;
-  }
-
-  // vmnic_mapping - computed: false, optional: false, required: true
-  private _vmnicMapping = new InstanceDvsVmnicMappingList(this, "vmnic_mapping", false);
-  public get vmnicMapping() {
-    return this._vmnicMapping;
-  }
-  public putVmnicMapping(value: InstanceDvsVmnicMapping[] | cdktf.IResolvable) {
-    this._vmnicMapping.internalValue = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get vmnicMappingInput() {
-    return this._vmnicMapping.internalValue;
   }
 }
 
@@ -2372,11 +1557,11 @@ export class InstanceDvsList extends cdktf.ComplexList {
 }
 export interface InstanceHostCredentials {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#password Instance#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#password Instance#password}
   */
   readonly password: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#username Instance#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#username Instance#username}
   */
   readonly username: string;
 }
@@ -2481,31 +1666,234 @@ export class InstanceHostCredentialsOutputReference extends cdktf.ComplexObject 
     return this._username;
   }
 }
+export interface InstanceHostIpAddressPrivate {
+  /**
+  * Classless Inter-Domain Routing (CIDR), Example: 172.0.0.0/24
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#cidr Instance#cidr}
+  */
+  readonly cidr?: string;
+  /**
+  * Gateway
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#gateway Instance#gateway}
+  */
+  readonly gateway: string;
+  /**
+  * IP Address
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#ip_address Instance#ip_address}
+  */
+  readonly ipAddress: string;
+  /**
+  * Subnet
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#subnet Instance#subnet}
+  */
+  readonly subnet?: string;
+}
+
+export function instanceHostIpAddressPrivateToTerraform(struct?: InstanceHostIpAddressPrivateOutputReference | InstanceHostIpAddressPrivate): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    cidr: cdktf.stringToTerraform(struct!.cidr),
+    gateway: cdktf.stringToTerraform(struct!.gateway),
+    ip_address: cdktf.stringToTerraform(struct!.ipAddress),
+    subnet: cdktf.stringToTerraform(struct!.subnet),
+  }
+}
+
+
+export function instanceHostIpAddressPrivateToHclTerraform(struct?: InstanceHostIpAddressPrivateOutputReference | InstanceHostIpAddressPrivate): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    cidr: {
+      value: cdktf.stringToHclTerraform(struct!.cidr),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    gateway: {
+      value: cdktf.stringToHclTerraform(struct!.gateway),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    ip_address: {
+      value: cdktf.stringToHclTerraform(struct!.ipAddress),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    subnet: {
+      value: cdktf.stringToHclTerraform(struct!.subnet),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class InstanceHostIpAddressPrivateOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): InstanceHostIpAddressPrivate | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._cidr !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.cidr = this._cidr;
+    }
+    if (this._gateway !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.gateway = this._gateway;
+    }
+    if (this._ipAddress !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipAddress = this._ipAddress;
+    }
+    if (this._subnet !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.subnet = this._subnet;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: InstanceHostIpAddressPrivate | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._cidr = undefined;
+      this._gateway = undefined;
+      this._ipAddress = undefined;
+      this._subnet = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._cidr = value.cidr;
+      this._gateway = value.gateway;
+      this._ipAddress = value.ipAddress;
+      this._subnet = value.subnet;
+    }
+  }
+
+  // cidr - computed: false, optional: true, required: false
+  private _cidr?: string; 
+  public get cidr() {
+    return this.getStringAttribute('cidr');
+  }
+  public set cidr(value: string) {
+    this._cidr = value;
+  }
+  public resetCidr() {
+    this._cidr = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cidrInput() {
+    return this._cidr;
+  }
+
+  // gateway - computed: false, optional: false, required: true
+  private _gateway?: string; 
+  public get gateway() {
+    return this.getStringAttribute('gateway');
+  }
+  public set gateway(value: string) {
+    this._gateway = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get gatewayInput() {
+    return this._gateway;
+  }
+
+  // ip_address - computed: false, optional: false, required: true
+  private _ipAddress?: string; 
+  public get ipAddress() {
+    return this.getStringAttribute('ip_address');
+  }
+  public set ipAddress(value: string) {
+    this._ipAddress = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipAddressInput() {
+    return this._ipAddress;
+  }
+
+  // subnet - computed: false, optional: true, required: false
+  private _subnet?: string; 
+  public get subnet() {
+    return this.getStringAttribute('subnet');
+  }
+  public set subnet(value: string) {
+    this._subnet = value;
+  }
+  public resetSubnet() {
+    this._subnet = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get subnetInput() {
+    return this._subnet;
+  }
+}
 export interface InstanceHost {
+  /**
+  * Host Association: Location/Datacenter
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#association Instance#association}
+  */
+  readonly association: string;
   /**
   * ESXi hostname. If just the short hostname is provided, then FQDN will be generated using the "domain" from dns configuration. Must also adhere to RFC 1123 naming conventions. Example: "esx-1" length from 3 to 63
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#hostname Instance#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#hostname Instance#hostname}
   */
   readonly hostname: string;
   /**
   * Host SSH thumbprint (RSA SHA256)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#ssh_thumbprint Instance#ssh_thumbprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#ssh_thumbprint Instance#ssh_thumbprint}
   */
   readonly sshThumbprint?: string;
   /**
   * Host SSH thumbprint (RSA SHA256)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#ssl_thumbprint Instance#ssl_thumbprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#ssl_thumbprint Instance#ssl_thumbprint}
   */
   readonly sslThumbprint?: string;
   /**
+  * Host vSwitch name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#vswitch Instance#vswitch}
+  */
+  readonly vswitch: string;
+  /**
   * credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#credentials Instance#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#credentials Instance#credentials}
   */
   readonly credentials?: InstanceHostCredentials;
+  /**
+  * ip_address_private block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#ip_address_private Instance#ip_address_private}
+  */
+  readonly ipAddressPrivate: InstanceHostIpAddressPrivate;
 }
 
 export function instanceHostToTerraform(struct?: InstanceHost | cdktf.IResolvable): any {
@@ -2514,10 +1902,13 @@ export function instanceHostToTerraform(struct?: InstanceHost | cdktf.IResolvabl
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    association: cdktf.stringToTerraform(struct!.association),
     hostname: cdktf.stringToTerraform(struct!.hostname),
     ssh_thumbprint: cdktf.stringToTerraform(struct!.sshThumbprint),
     ssl_thumbprint: cdktf.stringToTerraform(struct!.sslThumbprint),
+    vswitch: cdktf.stringToTerraform(struct!.vswitch),
     credentials: instanceHostCredentialsToTerraform(struct!.credentials),
+    ip_address_private: instanceHostIpAddressPrivateToTerraform(struct!.ipAddressPrivate),
   }
 }
 
@@ -2528,6 +1919,12 @@ export function instanceHostToHclTerraform(struct?: InstanceHost | cdktf.IResolv
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    association: {
+      value: cdktf.stringToHclTerraform(struct!.association),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     hostname: {
       value: cdktf.stringToHclTerraform(struct!.hostname),
       isBlock: false,
@@ -2546,11 +1943,23 @@ export function instanceHostToHclTerraform(struct?: InstanceHost | cdktf.IResolv
       type: "simple",
       storageClassType: "string",
     },
+    vswitch: {
+      value: cdktf.stringToHclTerraform(struct!.vswitch),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     credentials: {
       value: instanceHostCredentialsToHclTerraform(struct!.credentials),
       isBlock: true,
       type: "list",
       storageClassType: "InstanceHostCredentialsList",
+    },
+    ip_address_private: {
+      value: instanceHostIpAddressPrivateToHclTerraform(struct!.ipAddressPrivate),
+      isBlock: true,
+      type: "list",
+      storageClassType: "InstanceHostIpAddressPrivateList",
     },
   };
 
@@ -2578,6 +1987,10 @@ export class InstanceHostOutputReference extends cdktf.ComplexObject {
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._association !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.association = this._association;
+    }
     if (this._hostname !== undefined) {
       hasAnyValues = true;
       internalValueResult.hostname = this._hostname;
@@ -2590,9 +2003,17 @@ export class InstanceHostOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.sslThumbprint = this._sslThumbprint;
     }
+    if (this._vswitch !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vswitch = this._vswitch;
+    }
     if (this._credentials?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.credentials = this._credentials?.internalValue;
+    }
+    if (this._ipAddressPrivate?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipAddressPrivate = this._ipAddressPrivate?.internalValue;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -2601,10 +2022,13 @@ export class InstanceHostOutputReference extends cdktf.ComplexObject {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
+      this._association = undefined;
       this._hostname = undefined;
       this._sshThumbprint = undefined;
       this._sslThumbprint = undefined;
+      this._vswitch = undefined;
       this._credentials.internalValue = undefined;
+      this._ipAddressPrivate.internalValue = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -2613,11 +2037,27 @@ export class InstanceHostOutputReference extends cdktf.ComplexObject {
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
+      this._association = value.association;
       this._hostname = value.hostname;
       this._sshThumbprint = value.sshThumbprint;
       this._sslThumbprint = value.sslThumbprint;
+      this._vswitch = value.vswitch;
       this._credentials.internalValue = value.credentials;
+      this._ipAddressPrivate.internalValue = value.ipAddressPrivate;
     }
+  }
+
+  // association - computed: false, optional: false, required: true
+  private _association?: string; 
+  public get association() {
+    return this.getStringAttribute('association');
+  }
+  public set association(value: string) {
+    this._association = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get associationInput() {
+    return this._association;
   }
 
   // hostname - computed: false, optional: false, required: true
@@ -2665,6 +2105,19 @@ export class InstanceHostOutputReference extends cdktf.ComplexObject {
     return this._sslThumbprint;
   }
 
+  // vswitch - computed: false, optional: false, required: true
+  private _vswitch?: string; 
+  public get vswitch() {
+    return this.getStringAttribute('vswitch');
+  }
+  public set vswitch(value: string) {
+    this._vswitch = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vswitchInput() {
+    return this._vswitch;
+  }
+
   // credentials - computed: false, optional: true, required: false
   private _credentials = new InstanceHostCredentialsOutputReference(this, "credentials");
   public get credentials() {
@@ -2679,6 +2132,19 @@ export class InstanceHostOutputReference extends cdktf.ComplexObject {
   // Temporarily expose input value. Use with caution.
   public get credentialsInput() {
     return this._credentials.internalValue;
+  }
+
+  // ip_address_private - computed: false, optional: false, required: true
+  private _ipAddressPrivate = new InstanceHostIpAddressPrivateOutputReference(this, "ip_address_private");
+  public get ipAddressPrivate() {
+    return this._ipAddressPrivate;
+  }
+  public putIpAddressPrivate(value: InstanceHostIpAddressPrivate) {
+    this._ipAddressPrivate.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipAddressPrivateInput() {
+    return this._ipAddressPrivate.internalValue;
   }
 }
 
@@ -2705,13 +2171,13 @@ export interface InstanceNetworkIncludeIpAddressRanges {
   /**
   * End IPv4 Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#end_ip_address Instance#end_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#end_ip_address Instance#end_ip_address}
   */
   readonly endIpAddress: string;
   /**
   * Start IPv4 Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#start_ip_address Instance#start_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#start_ip_address Instance#start_ip_address}
   */
   readonly startIpAddress: string;
 }
@@ -2852,65 +2318,77 @@ export interface InstanceNetwork {
   /**
   * Active Uplinks for teaming policy, specify uplink1 for failover_explicit VSAN Teaming Policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#active_uplinks Instance#active_uplinks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#active_up_links Instance#active_up_links}
   */
-  readonly activeUplinks?: string[];
+  readonly activeUpLinks?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#gateway Instance#gateway}
+  * IP Address ranges to be excluded
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#exclude_ip_address_ranges Instance#exclude_ip_address_ranges}
+  */
+  readonly excludeIpAddressRanges?: string[];
+  /**
+  * IP Addresses to be excluded
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#exclude_ip_addresses Instance#exclude_ip_addresses}
+  */
+  readonly excludeIpAddresses?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#gateway Instance#gateway}
   */
   readonly gateway?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#include_ip_address Instance#include_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#include_ip_address Instance#include_ip_address}
   */
   readonly includeIpAddress?: string[];
   /**
   * MTU size
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#mtu Instance#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#mtu Instance#mtu}
   */
   readonly mtu: number;
   /**
   * Network Type. One among: VSAN, VMOTION, MANAGEMENT, VM_MANAGEMENT or any custom network type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#network_type Instance#network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#network_type Instance#network_type}
   */
   readonly networkType: string;
   /**
   * Portgroup key name. When adding a cluster with a new DVS, this value must be provided. When adding a cluster to an existing DVS, this value must not be provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#port_group_key Instance#port_group_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#port_group_key Instance#port_group_key}
   */
   readonly portGroupKey?: string;
   /**
   * Standby Uplinks for teaming policy, specify uplink2 for failover_explicit VSAN Teaming Policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#standby_uplinks Instance#standby_uplinks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#standby_uplinks Instance#standby_uplinks}
   */
   readonly standbyUplinks?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#subnet Instance#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#subnet Instance#subnet}
   */
   readonly subnet?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#subnet_mask Instance#subnet_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#subnet_mask Instance#subnet_mask}
   */
   readonly subnetMask?: string;
   /**
   * Teaming Policy for VSAN and VMOTION network types, Default is loadbalance_loadbased. One among: loadbalance_ip, loadbalance_srcmac, loadbalance_srcid, failover_explicit, loadbalance_loadbased
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#teaming_policy Instance#teaming_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#teaming_policy Instance#teaming_policy}
   */
   readonly teamingPolicy?: string;
   /**
   * VLAN Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#vlan_id Instance#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#vlan_id Instance#vlan_id}
   */
   readonly vlanId: number;
   /**
   * include_ip_address_ranges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#include_ip_address_ranges Instance#include_ip_address_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#include_ip_address_ranges Instance#include_ip_address_ranges}
   */
   readonly includeIpAddressRanges?: InstanceNetworkIncludeIpAddressRanges[] | cdktf.IResolvable;
 }
@@ -2921,7 +2399,9 @@ export function instanceNetworkToTerraform(struct?: InstanceNetwork | cdktf.IRes
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    active_uplinks: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.activeUplinks),
+    active_up_links: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.activeUpLinks),
+    exclude_ip_address_ranges: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.excludeIpAddressRanges),
+    exclude_ip_addresses: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.excludeIpAddresses),
     gateway: cdktf.stringToTerraform(struct!.gateway),
     include_ip_address: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.includeIpAddress),
     mtu: cdktf.numberToTerraform(struct!.mtu),
@@ -2943,8 +2423,20 @@ export function instanceNetworkToHclTerraform(struct?: InstanceNetwork | cdktf.I
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
-    active_uplinks: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.activeUplinks),
+    active_up_links: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.activeUpLinks),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    exclude_ip_address_ranges: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.excludeIpAddressRanges),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    exclude_ip_addresses: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.excludeIpAddresses),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
@@ -3041,9 +2533,17 @@ export class InstanceNetworkOutputReference extends cdktf.ComplexObject {
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
-    if (this._activeUplinks !== undefined) {
+    if (this._activeUpLinks !== undefined) {
       hasAnyValues = true;
-      internalValueResult.activeUplinks = this._activeUplinks;
+      internalValueResult.activeUpLinks = this._activeUpLinks;
+    }
+    if (this._excludeIpAddressRanges !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.excludeIpAddressRanges = this._excludeIpAddressRanges;
+    }
+    if (this._excludeIpAddresses !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.excludeIpAddresses = this._excludeIpAddresses;
     }
     if (this._gateway !== undefined) {
       hasAnyValues = true;
@@ -3096,7 +2596,9 @@ export class InstanceNetworkOutputReference extends cdktf.ComplexObject {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
-      this._activeUplinks = undefined;
+      this._activeUpLinks = undefined;
+      this._excludeIpAddressRanges = undefined;
+      this._excludeIpAddresses = undefined;
       this._gateway = undefined;
       this._includeIpAddress = undefined;
       this._mtu = undefined;
@@ -3116,7 +2618,9 @@ export class InstanceNetworkOutputReference extends cdktf.ComplexObject {
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
-      this._activeUplinks = value.activeUplinks;
+      this._activeUpLinks = value.activeUpLinks;
+      this._excludeIpAddressRanges = value.excludeIpAddressRanges;
+      this._excludeIpAddresses = value.excludeIpAddresses;
       this._gateway = value.gateway;
       this._includeIpAddress = value.includeIpAddress;
       this._mtu = value.mtu;
@@ -3131,20 +2635,52 @@ export class InstanceNetworkOutputReference extends cdktf.ComplexObject {
     }
   }
 
-  // active_uplinks - computed: false, optional: true, required: false
-  private _activeUplinks?: string[]; 
-  public get activeUplinks() {
-    return this.getListAttribute('active_uplinks');
+  // active_up_links - computed: false, optional: true, required: false
+  private _activeUpLinks?: string[]; 
+  public get activeUpLinks() {
+    return this.getListAttribute('active_up_links');
   }
-  public set activeUplinks(value: string[]) {
-    this._activeUplinks = value;
+  public set activeUpLinks(value: string[]) {
+    this._activeUpLinks = value;
   }
-  public resetActiveUplinks() {
-    this._activeUplinks = undefined;
+  public resetActiveUpLinks() {
+    this._activeUpLinks = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get activeUplinksInput() {
-    return this._activeUplinks;
+  public get activeUpLinksInput() {
+    return this._activeUpLinks;
+  }
+
+  // exclude_ip_address_ranges - computed: false, optional: true, required: false
+  private _excludeIpAddressRanges?: string[]; 
+  public get excludeIpAddressRanges() {
+    return this.getListAttribute('exclude_ip_address_ranges');
+  }
+  public set excludeIpAddressRanges(value: string[]) {
+    this._excludeIpAddressRanges = value;
+  }
+  public resetExcludeIpAddressRanges() {
+    this._excludeIpAddressRanges = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get excludeIpAddressRangesInput() {
+    return this._excludeIpAddressRanges;
+  }
+
+  // exclude_ip_addresses - computed: false, optional: true, required: false
+  private _excludeIpAddresses?: string[]; 
+  public get excludeIpAddresses() {
+    return this.getListAttribute('exclude_ip_addresses');
+  }
+  public set excludeIpAddresses(value: string[]) {
+    this._excludeIpAddresses = value;
+  }
+  public resetExcludeIpAddresses() {
+    this._excludeIpAddresses = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get excludeIpAddressesInput() {
+    return this._excludeIpAddresses;
   }
 
   // gateway - computed: false, optional: true, required: false
@@ -3338,13 +2874,13 @@ export interface InstanceNsxIpAddressPoolSubnetIpAddressPoolRange {
   /**
   * The last IP Address of the IP Address Range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#end Instance#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#end Instance#end}
   */
   readonly end: string;
   /**
   * The first IP Address of the IP Address Range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#start Instance#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#start Instance#start}
   */
   readonly start: string;
 }
@@ -3485,19 +3021,19 @@ export interface InstanceNsxIpAddressPoolSubnet {
   /**
   * The subnet representation, contains the network address and the prefix length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#cidr Instance#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#cidr Instance#cidr}
   */
   readonly cidr: string;
   /**
   * The default gateway address of the network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#gateway Instance#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#gateway Instance#gateway}
   */
   readonly gateway: string;
   /**
   * ip_address_pool_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#ip_address_pool_range Instance#ip_address_pool_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#ip_address_pool_range Instance#ip_address_pool_range}
   */
   readonly ipAddressPoolRange?: InstanceNsxIpAddressPoolSubnetIpAddressPoolRange[] | cdktf.IResolvable;
 }
@@ -3667,25 +3203,25 @@ export interface InstanceNsxIpAddressPool {
   /**
   * Description of the IP address pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#description Instance#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#description Instance#description}
   */
   readonly description?: string;
   /**
   * Ignore unavailable NSX cluster(s) during IP pool spec validation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#ignore_unavailable_nsx_cluster Instance#ignore_unavailable_nsx_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#ignore_unavailable_nsx_cluster Instance#ignore_unavailable_nsx_cluster}
   */
   readonly ignoreUnavailableNsxCluster?: boolean | cdktf.IResolvable;
   /**
   * Providing only name of existing IP Address Pool reuses it, while providing a new name with subnets creates a new one
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#name Instance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#name Instance#name}
   */
   readonly name: string;
   /**
   * subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#subnet Instance#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#subnet Instance#subnet}
   */
   readonly subnet?: InstanceNsxIpAddressPoolSubnet[] | cdktf.IResolvable;
 }
@@ -3855,9 +3391,15 @@ export interface InstanceNsxNsxManager {
   /**
   * NSX Manager hostname. If just the short hostname is provided, then FQDN will be generated using the "domain" from dns configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#hostname Instance#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#hostname Instance#hostname}
   */
   readonly hostname?: string;
+  /**
+  * NSX Manager IPv4 Address
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#ip Instance#ip}
+  */
+  readonly ip?: string;
 }
 
 export function instanceNsxNsxManagerToTerraform(struct?: InstanceNsxNsxManager | cdktf.IResolvable): any {
@@ -3867,6 +3409,7 @@ export function instanceNsxNsxManagerToTerraform(struct?: InstanceNsxNsxManager 
   }
   return {
     hostname: cdktf.stringToTerraform(struct!.hostname),
+    ip: cdktf.stringToTerraform(struct!.ip),
   }
 }
 
@@ -3879,6 +3422,12 @@ export function instanceNsxNsxManagerToHclTerraform(struct?: InstanceNsxNsxManag
   const attrs = {
     hostname: {
       value: cdktf.stringToHclTerraform(struct!.hostname),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    ip: {
+      value: cdktf.stringToHclTerraform(struct!.ip),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -3913,6 +3462,10 @@ export class InstanceNsxNsxManagerOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.hostname = this._hostname;
     }
+    if (this._ip !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ip = this._ip;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -3921,6 +3474,7 @@ export class InstanceNsxNsxManagerOutputReference extends cdktf.ComplexObject {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._hostname = undefined;
+      this._ip = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -3930,6 +3484,7 @@ export class InstanceNsxNsxManagerOutputReference extends cdktf.ComplexObject {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
       this._hostname = value.hostname;
+      this._ip = value.ip;
     }
   }
 
@@ -3947,6 +3502,22 @@ export class InstanceNsxNsxManagerOutputReference extends cdktf.ComplexObject {
   // Temporarily expose input value. Use with caution.
   public get hostnameInput() {
     return this._hostname;
+  }
+
+  // ip - computed: false, optional: true, required: false
+  private _ip?: string; 
+  public get ip() {
+    return this.getStringAttribute('ip');
+  }
+  public set ip(value: string) {
+    this._ip = value;
+  }
+  public resetIp() {
+    this._ip = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipInput() {
+    return this._ip;
   }
 }
 
@@ -3969,55 +3540,188 @@ export class InstanceNsxNsxManagerList extends cdktf.ComplexList {
     return new InstanceNsxNsxManagerOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface InstanceNsxOverlayTransportZone {
+  /**
+  * Transport zone network name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#network_name Instance#network_name}
+  */
+  readonly networkName: string;
+  /**
+  * Transport zone name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#zone_name Instance#zone_name}
+  */
+  readonly zoneName: string;
+}
+
+export function instanceNsxOverlayTransportZoneToTerraform(struct?: InstanceNsxOverlayTransportZoneOutputReference | InstanceNsxOverlayTransportZone): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    network_name: cdktf.stringToTerraform(struct!.networkName),
+    zone_name: cdktf.stringToTerraform(struct!.zoneName),
+  }
+}
+
+
+export function instanceNsxOverlayTransportZoneToHclTerraform(struct?: InstanceNsxOverlayTransportZoneOutputReference | InstanceNsxOverlayTransportZone): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    network_name: {
+      value: cdktf.stringToHclTerraform(struct!.networkName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    zone_name: {
+      value: cdktf.stringToHclTerraform(struct!.zoneName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class InstanceNsxOverlayTransportZoneOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): InstanceNsxOverlayTransportZone | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._networkName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.networkName = this._networkName;
+    }
+    if (this._zoneName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.zoneName = this._zoneName;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: InstanceNsxOverlayTransportZone | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._networkName = undefined;
+      this._zoneName = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._networkName = value.networkName;
+      this._zoneName = value.zoneName;
+    }
+  }
+
+  // network_name - computed: false, optional: false, required: true
+  private _networkName?: string; 
+  public get networkName() {
+    return this.getStringAttribute('network_name');
+  }
+  public set networkName(value: string) {
+    this._networkName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get networkNameInput() {
+    return this._networkName;
+  }
+
+  // zone_name - computed: false, optional: false, required: true
+  private _zoneName?: string; 
+  public get zoneName() {
+    return this.getStringAttribute('zone_name');
+  }
+  public set zoneName(value: string) {
+    this._zoneName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get zoneNameInput() {
+    return this._zoneName;
+  }
+}
 export interface InstanceNsx {
+  /**
+  * NSX Manager license
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#license Instance#license}
+  */
+  readonly license?: string;
   /**
   * NSX admin password. The password must be at least 12 characters long. Must contain at-least 1 uppercase, 1 lowercase, 1 special character and 1 digit. In addition, a character cannot be repeated 3 or more times consecutively.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#nsx_admin_password Instance#nsx_admin_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#nsx_admin_password Instance#nsx_admin_password}
   */
   readonly nsxAdminPassword?: string;
   /**
   * NSX audit password. The password must be at least 12 characters long. Must contain at-least 1 uppercase, 1 lowercase, 1 special character and 1 digit. In addition, a character cannot be repeated 3 or more times consecutively.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#nsx_audit_password Instance#nsx_audit_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#nsx_audit_password Instance#nsx_audit_password}
   */
   readonly nsxAuditPassword?: string;
   /**
   * NSX-T Manager size. One among: medium, large
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#nsx_manager_size Instance#nsx_manager_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#nsx_manager_size Instance#nsx_manager_size}
   */
   readonly nsxManagerSize: string;
   /**
   * NSX Manager root password. Password should have 1) At least eight characters, 2) At least one lower-case letter, 3) At least one upper-case letter 4) At least one digit 5) At least one special character, 6) At least five different characters , 7) No dictionary words, 6) No palindromes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#root_nsx_manager_password Instance#root_nsx_manager_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#root_nsx_manager_password Instance#root_nsx_manager_password}
   */
   readonly rootNsxManagerPassword: string;
   /**
   * Transport VLAN ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#transport_vlan_id Instance#transport_vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#transport_vlan_id Instance#transport_vlan_id}
   */
   readonly transportVlanId: number;
   /**
+  * Virtual IP address which would act as proxy/alias for NSX Managers
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#vip Instance#vip}
+  */
+  readonly vip: string;
+  /**
   * FQDN for VIP so that common SSL certificates can be installed across all managers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#vip_fqdn Instance#vip_fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#vip_fqdn Instance#vip_fqdn}
   */
   readonly vipFqdn: string;
   /**
   * ip_address_pool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#ip_address_pool Instance#ip_address_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#ip_address_pool Instance#ip_address_pool}
   */
   readonly ipAddressPool?: InstanceNsxIpAddressPool;
   /**
   * nsx_manager block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#nsx_manager Instance#nsx_manager}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#nsx_manager Instance#nsx_manager}
   */
   readonly nsxManager: InstanceNsxNsxManager[] | cdktf.IResolvable;
+  /**
+  * overlay_transport_zone block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#overlay_transport_zone Instance#overlay_transport_zone}
+  */
+  readonly overlayTransportZone?: InstanceNsxOverlayTransportZone;
 }
 
 export function instanceNsxToTerraform(struct?: InstanceNsxOutputReference | InstanceNsx): any {
@@ -4026,14 +3730,17 @@ export function instanceNsxToTerraform(struct?: InstanceNsxOutputReference | Ins
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    license: cdktf.stringToTerraform(struct!.license),
     nsx_admin_password: cdktf.stringToTerraform(struct!.nsxAdminPassword),
     nsx_audit_password: cdktf.stringToTerraform(struct!.nsxAuditPassword),
     nsx_manager_size: cdktf.stringToTerraform(struct!.nsxManagerSize),
     root_nsx_manager_password: cdktf.stringToTerraform(struct!.rootNsxManagerPassword),
     transport_vlan_id: cdktf.numberToTerraform(struct!.transportVlanId),
+    vip: cdktf.stringToTerraform(struct!.vip),
     vip_fqdn: cdktf.stringToTerraform(struct!.vipFqdn),
     ip_address_pool: instanceNsxIpAddressPoolToTerraform(struct!.ipAddressPool),
     nsx_manager: cdktf.listMapper(instanceNsxNsxManagerToTerraform, true)(struct!.nsxManager),
+    overlay_transport_zone: instanceNsxOverlayTransportZoneToTerraform(struct!.overlayTransportZone),
   }
 }
 
@@ -4044,6 +3751,12 @@ export function instanceNsxToHclTerraform(struct?: InstanceNsxOutputReference | 
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    license: {
+      value: cdktf.stringToHclTerraform(struct!.license),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     nsx_admin_password: {
       value: cdktf.stringToHclTerraform(struct!.nsxAdminPassword),
       isBlock: false,
@@ -4074,6 +3787,12 @@ export function instanceNsxToHclTerraform(struct?: InstanceNsxOutputReference | 
       type: "simple",
       storageClassType: "number",
     },
+    vip: {
+      value: cdktf.stringToHclTerraform(struct!.vip),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     vip_fqdn: {
       value: cdktf.stringToHclTerraform(struct!.vipFqdn),
       isBlock: false,
@@ -4091,6 +3810,12 @@ export function instanceNsxToHclTerraform(struct?: InstanceNsxOutputReference | 
       isBlock: true,
       type: "list",
       storageClassType: "InstanceNsxNsxManagerList",
+    },
+    overlay_transport_zone: {
+      value: instanceNsxOverlayTransportZoneToHclTerraform(struct!.overlayTransportZone),
+      isBlock: true,
+      type: "list",
+      storageClassType: "InstanceNsxOverlayTransportZoneList",
     },
   };
 
@@ -4112,6 +3837,10 @@ export class InstanceNsxOutputReference extends cdktf.ComplexObject {
   public get internalValue(): InstanceNsx | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._license !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.license = this._license;
+    }
     if (this._nsxAdminPassword !== undefined) {
       hasAnyValues = true;
       internalValueResult.nsxAdminPassword = this._nsxAdminPassword;
@@ -4132,6 +3861,10 @@ export class InstanceNsxOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.transportVlanId = this._transportVlanId;
     }
+    if (this._vip !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vip = this._vip;
+    }
     if (this._vipFqdn !== undefined) {
       hasAnyValues = true;
       internalValueResult.vipFqdn = this._vipFqdn;
@@ -4144,32 +3877,58 @@ export class InstanceNsxOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.nsxManager = this._nsxManager?.internalValue;
     }
+    if (this._overlayTransportZone?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.overlayTransportZone = this._overlayTransportZone?.internalValue;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
   public set internalValue(value: InstanceNsx | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._license = undefined;
       this._nsxAdminPassword = undefined;
       this._nsxAuditPassword = undefined;
       this._nsxManagerSize = undefined;
       this._rootNsxManagerPassword = undefined;
       this._transportVlanId = undefined;
+      this._vip = undefined;
       this._vipFqdn = undefined;
       this._ipAddressPool.internalValue = undefined;
       this._nsxManager.internalValue = undefined;
+      this._overlayTransportZone.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._license = value.license;
       this._nsxAdminPassword = value.nsxAdminPassword;
       this._nsxAuditPassword = value.nsxAuditPassword;
       this._nsxManagerSize = value.nsxManagerSize;
       this._rootNsxManagerPassword = value.rootNsxManagerPassword;
       this._transportVlanId = value.transportVlanId;
+      this._vip = value.vip;
       this._vipFqdn = value.vipFqdn;
       this._ipAddressPool.internalValue = value.ipAddressPool;
       this._nsxManager.internalValue = value.nsxManager;
+      this._overlayTransportZone.internalValue = value.overlayTransportZone;
     }
+  }
+
+  // license - computed: false, optional: true, required: false
+  private _license?: string; 
+  public get license() {
+    return this.getStringAttribute('license');
+  }
+  public set license(value: string) {
+    this._license = value;
+  }
+  public resetLicense() {
+    this._license = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get licenseInput() {
+    return this._license;
   }
 
   // nsx_admin_password - computed: false, optional: true, required: false
@@ -4243,6 +4002,19 @@ export class InstanceNsxOutputReference extends cdktf.ComplexObject {
     return this._transportVlanId;
   }
 
+  // vip - computed: false, optional: false, required: true
+  private _vip?: string; 
+  public get vip() {
+    return this.getStringAttribute('vip');
+  }
+  public set vip(value: string) {
+    this._vip = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vipInput() {
+    return this._vip;
+  }
+
   // vip_fqdn - computed: false, optional: false, required: true
   private _vipFqdn?: string; 
   public get vipFqdn() {
@@ -4284,61 +4056,64 @@ export class InstanceNsxOutputReference extends cdktf.ComplexObject {
   public get nsxManagerInput() {
     return this._nsxManager.internalValue;
   }
+
+  // overlay_transport_zone - computed: false, optional: true, required: false
+  private _overlayTransportZone = new InstanceNsxOverlayTransportZoneOutputReference(this, "overlay_transport_zone");
+  public get overlayTransportZone() {
+    return this._overlayTransportZone;
+  }
+  public putOverlayTransportZone(value: InstanceNsxOverlayTransportZone) {
+    this._overlayTransportZone.internalValue = value;
+  }
+  public resetOverlayTransportZone() {
+    this._overlayTransportZone.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get overlayTransportZoneInput() {
+    return this._overlayTransportZone.internalValue;
+  }
 }
-export interface InstanceOperationsNode {
+export interface InstancePsc {
   /**
-  * Host name for the node
+  * Admin user sso password. Password needs to be a strong password with at least one Uppercase alphabet, one lowercase alphabet, one digit and one special character specified in braces [!$%^] and 8-20 characters in length,and 3 maximum identical adjacent characters!
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#hostname Instance#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#admin_user_sso_password Instance#admin_user_sso_password}
   */
-  readonly hostname: string;
+  readonly adminUserSsoPassword: string;
   /**
-  * root password
+  * PSC SSO Domain. Example: vsphere.local
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#root_user_password Instance#root_user_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#psc_sso_domain Instance#psc_sso_domain}
   */
-  readonly rootUserPassword?: string;
-  /**
-  * Type of the node
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#type Instance#type}
-  */
-  readonly type: string;
+  readonly pscSsoDomain?: string;
 }
 
-export function instanceOperationsNodeToTerraform(struct?: InstanceOperationsNode | cdktf.IResolvable): any {
+export function instancePscToTerraform(struct?: InstancePsc | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    hostname: cdktf.stringToTerraform(struct!.hostname),
-    root_user_password: cdktf.stringToTerraform(struct!.rootUserPassword),
-    type: cdktf.stringToTerraform(struct!.type),
+    admin_user_sso_password: cdktf.stringToTerraform(struct!.adminUserSsoPassword),
+    psc_sso_domain: cdktf.stringToTerraform(struct!.pscSsoDomain),
   }
 }
 
 
-export function instanceOperationsNodeToHclTerraform(struct?: InstanceOperationsNode | cdktf.IResolvable): any {
+export function instancePscToHclTerraform(struct?: InstancePsc | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
-    hostname: {
-      value: cdktf.stringToHclTerraform(struct!.hostname),
+    admin_user_sso_password: {
+      value: cdktf.stringToHclTerraform(struct!.adminUserSsoPassword),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
-    root_user_password: {
-      value: cdktf.stringToHclTerraform(struct!.rootUserPassword),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    type: {
-      value: cdktf.stringToHclTerraform(struct!.type),
+    psc_sso_domain: {
+      value: cdktf.stringToHclTerraform(struct!.pscSsoDomain),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -4349,7 +4124,7 @@ export function instanceOperationsNodeToHclTerraform(struct?: InstanceOperations
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class InstanceOperationsNodeOutputReference extends cdktf.ComplexObject {
+export class InstancePscOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
   private resolvableValue?: cdktf.IResolvable;
 
@@ -4363,34 +4138,29 @@ export class InstanceOperationsNodeOutputReference extends cdktf.ComplexObject {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): InstanceOperationsNode | cdktf.IResolvable | undefined {
+  public get internalValue(): InstancePsc | cdktf.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
-    if (this._hostname !== undefined) {
+    if (this._adminUserSsoPassword !== undefined) {
       hasAnyValues = true;
-      internalValueResult.hostname = this._hostname;
+      internalValueResult.adminUserSsoPassword = this._adminUserSsoPassword;
     }
-    if (this._rootUserPassword !== undefined) {
+    if (this._pscSsoDomain !== undefined) {
       hasAnyValues = true;
-      internalValueResult.rootUserPassword = this._rootUserPassword;
-    }
-    if (this._type !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.type = this._type;
+      internalValueResult.pscSsoDomain = this._pscSsoDomain;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: InstanceOperationsNode | cdktf.IResolvable | undefined) {
+  public set internalValue(value: InstancePsc | cdktf.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
-      this._hostname = undefined;
-      this._rootUserPassword = undefined;
-      this._type = undefined;
+      this._adminUserSsoPassword = undefined;
+      this._pscSsoDomain = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -4399,57 +4169,43 @@ export class InstanceOperationsNodeOutputReference extends cdktf.ComplexObject {
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
-      this._hostname = value.hostname;
-      this._rootUserPassword = value.rootUserPassword;
-      this._type = value.type;
+      this._adminUserSsoPassword = value.adminUserSsoPassword;
+      this._pscSsoDomain = value.pscSsoDomain;
     }
   }
 
-  // hostname - computed: false, optional: false, required: true
-  private _hostname?: string; 
-  public get hostname() {
-    return this.getStringAttribute('hostname');
+  // admin_user_sso_password - computed: false, optional: false, required: true
+  private _adminUserSsoPassword?: string; 
+  public get adminUserSsoPassword() {
+    return this.getStringAttribute('admin_user_sso_password');
   }
-  public set hostname(value: string) {
-    this._hostname = value;
+  public set adminUserSsoPassword(value: string) {
+    this._adminUserSsoPassword = value;
   }
   // Temporarily expose input value. Use with caution.
-  public get hostnameInput() {
-    return this._hostname;
+  public get adminUserSsoPasswordInput() {
+    return this._adminUserSsoPassword;
   }
 
-  // root_user_password - computed: false, optional: true, required: false
-  private _rootUserPassword?: string; 
-  public get rootUserPassword() {
-    return this.getStringAttribute('root_user_password');
+  // psc_sso_domain - computed: false, optional: true, required: false
+  private _pscSsoDomain?: string; 
+  public get pscSsoDomain() {
+    return this.getStringAttribute('psc_sso_domain');
   }
-  public set rootUserPassword(value: string) {
-    this._rootUserPassword = value;
+  public set pscSsoDomain(value: string) {
+    this._pscSsoDomain = value;
   }
-  public resetRootUserPassword() {
-    this._rootUserPassword = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get rootUserPasswordInput() {
-    return this._rootUserPassword;
-  }
-
-  // type - computed: false, optional: false, required: true
-  private _type?: string; 
-  public get type() {
-    return this.getStringAttribute('type');
-  }
-  public set type(value: string) {
-    this._type = value;
+  public resetPscSsoDomain() {
+    this._pscSsoDomain = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get typeInput() {
-    return this._type;
+  public get pscSsoDomainInput() {
+    return this._pscSsoDomain;
   }
 }
 
-export class InstanceOperationsNodeList extends cdktf.ComplexList {
-  public internalValue? : InstanceOperationsNode[] | cdktf.IResolvable
+export class InstancePscList extends cdktf.ComplexList {
+  public internalValue? : InstancePsc[] | cdktf.IResolvable
 
   /**
   * @param terraformResource The parent resource
@@ -4463,252 +4219,47 @@ export class InstanceOperationsNodeList extends cdktf.ComplexList {
   /**
   * @param index the index of the item to return
   */
-  public get(index: number): InstanceOperationsNodeOutputReference {
-    return new InstanceOperationsNodeOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  public get(index: number): InstancePscOutputReference {
+    return new InstancePscOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
-export interface InstanceOperations {
+export interface InstanceSddcManagerRootUserCredentials {
   /**
-  * Administrator password
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#admin_user_password Instance#admin_user_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#password Instance#password}
   */
-  readonly adminUserPassword?: string;
+  readonly password: string;
   /**
-  * Appliance size
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#appliance_size Instance#appliance_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#username Instance#username}
   */
-  readonly applianceSize?: string;
-  /**
-  * FQDN of the load balancer
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#load_balancer_fqdn Instance#load_balancer_fqdn}
-  */
-  readonly loadBalancerFqdn?: string;
-  /**
-  * node block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#node Instance#node}
-  */
-  readonly nodeAttribute: InstanceOperationsNode[] | cdktf.IResolvable;
+  readonly username: string;
 }
 
-export function instanceOperationsToTerraform(struct?: InstanceOperationsOutputReference | InstanceOperations): any {
+export function instanceSddcManagerRootUserCredentialsToTerraform(struct?: InstanceSddcManagerRootUserCredentialsOutputReference | InstanceSddcManagerRootUserCredentials): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    admin_user_password: cdktf.stringToTerraform(struct!.adminUserPassword),
-    appliance_size: cdktf.stringToTerraform(struct!.applianceSize),
-    load_balancer_fqdn: cdktf.stringToTerraform(struct!.loadBalancerFqdn),
-    node: cdktf.listMapper(instanceOperationsNodeToTerraform, true)(struct!.nodeAttribute),
+    password: cdktf.stringToTerraform(struct!.password),
+    username: cdktf.stringToTerraform(struct!.username),
   }
 }
 
 
-export function instanceOperationsToHclTerraform(struct?: InstanceOperationsOutputReference | InstanceOperations): any {
+export function instanceSddcManagerRootUserCredentialsToHclTerraform(struct?: InstanceSddcManagerRootUserCredentialsOutputReference | InstanceSddcManagerRootUserCredentials): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
-    admin_user_password: {
-      value: cdktf.stringToHclTerraform(struct!.adminUserPassword),
+    password: {
+      value: cdktf.stringToHclTerraform(struct!.password),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
-    appliance_size: {
-      value: cdktf.stringToHclTerraform(struct!.applianceSize),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    load_balancer_fqdn: {
-      value: cdktf.stringToHclTerraform(struct!.loadBalancerFqdn),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    node: {
-      value: cdktf.listMapperHcl(instanceOperationsNodeToHclTerraform, true)(struct!.nodeAttribute),
-      isBlock: true,
-      type: "list",
-      storageClassType: "InstanceOperationsNodeList",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class InstanceOperationsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): InstanceOperations | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._adminUserPassword !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.adminUserPassword = this._adminUserPassword;
-    }
-    if (this._applianceSize !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.applianceSize = this._applianceSize;
-    }
-    if (this._loadBalancerFqdn !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.loadBalancerFqdn = this._loadBalancerFqdn;
-    }
-    if (this._node?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.nodeAttribute = this._node?.internalValue;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: InstanceOperations | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._adminUserPassword = undefined;
-      this._applianceSize = undefined;
-      this._loadBalancerFqdn = undefined;
-      this._node.internalValue = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._adminUserPassword = value.adminUserPassword;
-      this._applianceSize = value.applianceSize;
-      this._loadBalancerFqdn = value.loadBalancerFqdn;
-      this._node.internalValue = value.nodeAttribute;
-    }
-  }
-
-  // admin_user_password - computed: false, optional: true, required: false
-  private _adminUserPassword?: string; 
-  public get adminUserPassword() {
-    return this.getStringAttribute('admin_user_password');
-  }
-  public set adminUserPassword(value: string) {
-    this._adminUserPassword = value;
-  }
-  public resetAdminUserPassword() {
-    this._adminUserPassword = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get adminUserPasswordInput() {
-    return this._adminUserPassword;
-  }
-
-  // appliance_size - computed: false, optional: true, required: false
-  private _applianceSize?: string; 
-  public get applianceSize() {
-    return this.getStringAttribute('appliance_size');
-  }
-  public set applianceSize(value: string) {
-    this._applianceSize = value;
-  }
-  public resetApplianceSize() {
-    this._applianceSize = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get applianceSizeInput() {
-    return this._applianceSize;
-  }
-
-  // load_balancer_fqdn - computed: false, optional: true, required: false
-  private _loadBalancerFqdn?: string; 
-  public get loadBalancerFqdn() {
-    return this.getStringAttribute('load_balancer_fqdn');
-  }
-  public set loadBalancerFqdn(value: string) {
-    this._loadBalancerFqdn = value;
-  }
-  public resetLoadBalancerFqdn() {
-    this._loadBalancerFqdn = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get loadBalancerFqdnInput() {
-    return this._loadBalancerFqdn;
-  }
-
-  // node - computed: false, optional: false, required: true
-  private _node = new InstanceOperationsNodeList(this, "node", false);
-  public get nodeAttribute() {
-    return this._node;
-  }
-  public putNodeAttribute(value: InstanceOperationsNode[] | cdktf.IResolvable) {
-    this._node.internalValue = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nodeAttributeInput() {
-    return this._node.internalValue;
-  }
-}
-export interface InstanceOperationsCollector {
-  /**
-  * Appliance size
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#appliance_size Instance#appliance_size}
-  */
-  readonly applianceSize?: string;
-  /**
-  * Host name for the node
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#hostname Instance#hostname}
-  */
-  readonly hostname: string;
-  /**
-  * root password
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#root_user_password Instance#root_user_password}
-  */
-  readonly rootUserPassword?: string;
-}
-
-export function instanceOperationsCollectorToTerraform(struct?: InstanceOperationsCollectorOutputReference | InstanceOperationsCollector): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    appliance_size: cdktf.stringToTerraform(struct!.applianceSize),
-    hostname: cdktf.stringToTerraform(struct!.hostname),
-    root_user_password: cdktf.stringToTerraform(struct!.rootUserPassword),
-  }
-}
-
-
-export function instanceOperationsCollectorToHclTerraform(struct?: InstanceOperationsCollectorOutputReference | InstanceOperationsCollector): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    appliance_size: {
-      value: cdktf.stringToHclTerraform(struct!.applianceSize),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    hostname: {
-      value: cdktf.stringToHclTerraform(struct!.hostname),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    root_user_password: {
-      value: cdktf.stringToHclTerraform(struct!.rootUserPassword),
+    username: {
+      value: cdktf.stringToHclTerraform(struct!.username),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -4719,7 +4270,7 @@ export function instanceOperationsCollectorToHclTerraform(struct?: InstanceOpera
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class InstanceOperationsCollectorOutputReference extends cdktf.ComplexObject {
+export class InstanceSddcManagerRootUserCredentialsOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -4730,138 +4281,96 @@ export class InstanceOperationsCollectorOutputReference extends cdktf.ComplexObj
     super(terraformResource, terraformAttribute, false, 0);
   }
 
-  public get internalValue(): InstanceOperationsCollector | undefined {
+  public get internalValue(): InstanceSddcManagerRootUserCredentials | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
-    if (this._applianceSize !== undefined) {
+    if (this._password !== undefined) {
       hasAnyValues = true;
-      internalValueResult.applianceSize = this._applianceSize;
+      internalValueResult.password = this._password;
     }
-    if (this._hostname !== undefined) {
+    if (this._username !== undefined) {
       hasAnyValues = true;
-      internalValueResult.hostname = this._hostname;
-    }
-    if (this._rootUserPassword !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.rootUserPassword = this._rootUserPassword;
+      internalValueResult.username = this._username;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: InstanceOperationsCollector | undefined) {
+  public set internalValue(value: InstanceSddcManagerRootUserCredentials | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
-      this._applianceSize = undefined;
-      this._hostname = undefined;
-      this._rootUserPassword = undefined;
+      this._password = undefined;
+      this._username = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
-      this._applianceSize = value.applianceSize;
-      this._hostname = value.hostname;
-      this._rootUserPassword = value.rootUserPassword;
+      this._password = value.password;
+      this._username = value.username;
     }
   }
 
-  // appliance_size - computed: false, optional: true, required: false
-  private _applianceSize?: string; 
-  public get applianceSize() {
-    return this.getStringAttribute('appliance_size');
+  // password - computed: false, optional: false, required: true
+  private _password?: string; 
+  public get password() {
+    return this.getStringAttribute('password');
   }
-  public set applianceSize(value: string) {
-    this._applianceSize = value;
-  }
-  public resetApplianceSize() {
-    this._applianceSize = undefined;
+  public set password(value: string) {
+    this._password = value;
   }
   // Temporarily expose input value. Use with caution.
-  public get applianceSizeInput() {
-    return this._applianceSize;
+  public get passwordInput() {
+    return this._password;
   }
 
-  // hostname - computed: false, optional: false, required: true
-  private _hostname?: string; 
-  public get hostname() {
-    return this.getStringAttribute('hostname');
+  // username - computed: false, optional: false, required: true
+  private _username?: string; 
+  public get username() {
+    return this.getStringAttribute('username');
   }
-  public set hostname(value: string) {
-    this._hostname = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get hostnameInput() {
-    return this._hostname;
-  }
-
-  // root_user_password - computed: false, optional: true, required: false
-  private _rootUserPassword?: string; 
-  public get rootUserPassword() {
-    return this.getStringAttribute('root_user_password');
-  }
-  public set rootUserPassword(value: string) {
-    this._rootUserPassword = value;
-  }
-  public resetRootUserPassword() {
-    this._rootUserPassword = undefined;
+  public set username(value: string) {
+    this._username = value;
   }
   // Temporarily expose input value. Use with caution.
-  public get rootUserPasswordInput() {
-    return this._rootUserPassword;
+  public get usernameInput() {
+    return this._username;
   }
 }
-export interface InstanceOperationsFleetManagement {
+export interface InstanceSddcManagerSecondUserCredentials {
   /**
-  * root password
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#admin_user_password Instance#admin_user_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#password Instance#password}
   */
-  readonly adminUserPassword?: string;
+  readonly password: string;
   /**
-  * Host name for the node
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#hostname Instance#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#username Instance#username}
   */
-  readonly hostname: string;
-  /**
-  * root password
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#root_user_password Instance#root_user_password}
-  */
-  readonly rootUserPassword?: string;
+  readonly username: string;
 }
 
-export function instanceOperationsFleetManagementToTerraform(struct?: InstanceOperationsFleetManagementOutputReference | InstanceOperationsFleetManagement): any {
+export function instanceSddcManagerSecondUserCredentialsToTerraform(struct?: InstanceSddcManagerSecondUserCredentialsOutputReference | InstanceSddcManagerSecondUserCredentials): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    admin_user_password: cdktf.stringToTerraform(struct!.adminUserPassword),
-    hostname: cdktf.stringToTerraform(struct!.hostname),
-    root_user_password: cdktf.stringToTerraform(struct!.rootUserPassword),
+    password: cdktf.stringToTerraform(struct!.password),
+    username: cdktf.stringToTerraform(struct!.username),
   }
 }
 
 
-export function instanceOperationsFleetManagementToHclTerraform(struct?: InstanceOperationsFleetManagementOutputReference | InstanceOperationsFleetManagement): any {
+export function instanceSddcManagerSecondUserCredentialsToHclTerraform(struct?: InstanceSddcManagerSecondUserCredentialsOutputReference | InstanceSddcManagerSecondUserCredentials): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
-    admin_user_password: {
-      value: cdktf.stringToHclTerraform(struct!.adminUserPassword),
+    password: {
+      value: cdktf.stringToHclTerraform(struct!.password),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
-    hostname: {
-      value: cdktf.stringToHclTerraform(struct!.hostname),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    root_user_password: {
-      value: cdktf.stringToHclTerraform(struct!.rootUserPassword),
+    username: {
+      value: cdktf.stringToHclTerraform(struct!.username),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -4872,7 +4381,7 @@ export function instanceOperationsFleetManagementToHclTerraform(struct?: Instanc
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class InstanceOperationsFleetManagementOutputReference extends cdktf.ComplexObject {
+export class InstanceSddcManagerSecondUserCredentialsOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -4883,109 +4392,90 @@ export class InstanceOperationsFleetManagementOutputReference extends cdktf.Comp
     super(terraformResource, terraformAttribute, false, 0);
   }
 
-  public get internalValue(): InstanceOperationsFleetManagement | undefined {
+  public get internalValue(): InstanceSddcManagerSecondUserCredentials | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
-    if (this._adminUserPassword !== undefined) {
+    if (this._password !== undefined) {
       hasAnyValues = true;
-      internalValueResult.adminUserPassword = this._adminUserPassword;
+      internalValueResult.password = this._password;
     }
-    if (this._hostname !== undefined) {
+    if (this._username !== undefined) {
       hasAnyValues = true;
-      internalValueResult.hostname = this._hostname;
-    }
-    if (this._rootUserPassword !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.rootUserPassword = this._rootUserPassword;
+      internalValueResult.username = this._username;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: InstanceOperationsFleetManagement | undefined) {
+  public set internalValue(value: InstanceSddcManagerSecondUserCredentials | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
-      this._adminUserPassword = undefined;
-      this._hostname = undefined;
-      this._rootUserPassword = undefined;
+      this._password = undefined;
+      this._username = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
-      this._adminUserPassword = value.adminUserPassword;
-      this._hostname = value.hostname;
-      this._rootUserPassword = value.rootUserPassword;
+      this._password = value.password;
+      this._username = value.username;
     }
   }
 
-  // admin_user_password - computed: false, optional: true, required: false
-  private _adminUserPassword?: string; 
-  public get adminUserPassword() {
-    return this.getStringAttribute('admin_user_password');
+  // password - computed: false, optional: false, required: true
+  private _password?: string; 
+  public get password() {
+    return this.getStringAttribute('password');
   }
-  public set adminUserPassword(value: string) {
-    this._adminUserPassword = value;
-  }
-  public resetAdminUserPassword() {
-    this._adminUserPassword = undefined;
+  public set password(value: string) {
+    this._password = value;
   }
   // Temporarily expose input value. Use with caution.
-  public get adminUserPasswordInput() {
-    return this._adminUserPassword;
+  public get passwordInput() {
+    return this._password;
   }
 
-  // hostname - computed: false, optional: false, required: true
-  private _hostname?: string; 
-  public get hostname() {
-    return this.getStringAttribute('hostname');
+  // username - computed: false, optional: false, required: true
+  private _username?: string; 
+  public get username() {
+    return this.getStringAttribute('username');
   }
-  public set hostname(value: string) {
-    this._hostname = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get hostnameInput() {
-    return this._hostname;
-  }
-
-  // root_user_password - computed: false, optional: true, required: false
-  private _rootUserPassword?: string; 
-  public get rootUserPassword() {
-    return this.getStringAttribute('root_user_password');
-  }
-  public set rootUserPassword(value: string) {
-    this._rootUserPassword = value;
-  }
-  public resetRootUserPassword() {
-    this._rootUserPassword = undefined;
+  public set username(value: string) {
+    this._username = value;
   }
   // Temporarily expose input value. Use with caution.
-  public get rootUserPasswordInput() {
-    return this._rootUserPassword;
+  public get usernameInput() {
+    return this._username;
   }
 }
 export interface InstanceSddcManager {
   /**
   * SDDC Manager Hostname. If just the short hostname is provided, then FQDN will be generated using the "domain" from dns configuration, length 3-63
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#hostname Instance#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#hostname Instance#hostname}
   */
   readonly hostname?: string;
   /**
+  * SDDC Manager IPv4 address
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#ip_address Instance#ip_address}
+  */
+  readonly ipAddress?: string;
+  /**
   * The local account is a built-in admin account (password for the break glass user admin@local) in VCF that can be used in emergency scenarios. The password of this account must be at least 12 characters long. It also must contain at-least 1 uppercase, 1 lowercase, 1 special character specified in braces [!%@$^#?] and 1 digit. In addition, a character cannot be repeated more than 3 times consecutively.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#local_user_password Instance#local_user_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#local_user_password Instance#local_user_password}
   */
   readonly localUserPassword?: string;
   /**
-  * The password for the root user
+  * root_user_credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#root_user_password Instance#root_user_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#root_user_credentials Instance#root_user_credentials}
   */
-  readonly rootUserPassword: string;
+  readonly rootUserCredentials?: InstanceSddcManagerRootUserCredentials;
   /**
-  * The password for the vcf user (ssh connections only)
+  * second_user_credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#ssh_password Instance#ssh_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#second_user_credentials Instance#second_user_credentials}
   */
-  readonly sshPassword: string;
+  readonly secondUserCredentials?: InstanceSddcManagerSecondUserCredentials;
 }
 
 export function instanceSddcManagerToTerraform(struct?: InstanceSddcManagerOutputReference | InstanceSddcManager): any {
@@ -4995,9 +4485,10 @@ export function instanceSddcManagerToTerraform(struct?: InstanceSddcManagerOutpu
   }
   return {
     hostname: cdktf.stringToTerraform(struct!.hostname),
+    ip_address: cdktf.stringToTerraform(struct!.ipAddress),
     local_user_password: cdktf.stringToTerraform(struct!.localUserPassword),
-    root_user_password: cdktf.stringToTerraform(struct!.rootUserPassword),
-    ssh_password: cdktf.stringToTerraform(struct!.sshPassword),
+    root_user_credentials: instanceSddcManagerRootUserCredentialsToTerraform(struct!.rootUserCredentials),
+    second_user_credentials: instanceSddcManagerSecondUserCredentialsToTerraform(struct!.secondUserCredentials),
   }
 }
 
@@ -5014,23 +4505,29 @@ export function instanceSddcManagerToHclTerraform(struct?: InstanceSddcManagerOu
       type: "simple",
       storageClassType: "string",
     },
+    ip_address: {
+      value: cdktf.stringToHclTerraform(struct!.ipAddress),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     local_user_password: {
       value: cdktf.stringToHclTerraform(struct!.localUserPassword),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
-    root_user_password: {
-      value: cdktf.stringToHclTerraform(struct!.rootUserPassword),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
+    root_user_credentials: {
+      value: instanceSddcManagerRootUserCredentialsToHclTerraform(struct!.rootUserCredentials),
+      isBlock: true,
+      type: "list",
+      storageClassType: "InstanceSddcManagerRootUserCredentialsList",
     },
-    ssh_password: {
-      value: cdktf.stringToHclTerraform(struct!.sshPassword),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
+    second_user_credentials: {
+      value: instanceSddcManagerSecondUserCredentialsToHclTerraform(struct!.secondUserCredentials),
+      isBlock: true,
+      type: "list",
+      storageClassType: "InstanceSddcManagerSecondUserCredentialsList",
     },
   };
 
@@ -5056,17 +4553,21 @@ export class InstanceSddcManagerOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.hostname = this._hostname;
     }
+    if (this._ipAddress !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipAddress = this._ipAddress;
+    }
     if (this._localUserPassword !== undefined) {
       hasAnyValues = true;
       internalValueResult.localUserPassword = this._localUserPassword;
     }
-    if (this._rootUserPassword !== undefined) {
+    if (this._rootUserCredentials?.internalValue !== undefined) {
       hasAnyValues = true;
-      internalValueResult.rootUserPassword = this._rootUserPassword;
+      internalValueResult.rootUserCredentials = this._rootUserCredentials?.internalValue;
     }
-    if (this._sshPassword !== undefined) {
+    if (this._secondUserCredentials?.internalValue !== undefined) {
       hasAnyValues = true;
-      internalValueResult.sshPassword = this._sshPassword;
+      internalValueResult.secondUserCredentials = this._secondUserCredentials?.internalValue;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -5075,16 +4576,18 @@ export class InstanceSddcManagerOutputReference extends cdktf.ComplexObject {
     if (value === undefined) {
       this.isEmptyObject = false;
       this._hostname = undefined;
+      this._ipAddress = undefined;
       this._localUserPassword = undefined;
-      this._rootUserPassword = undefined;
-      this._sshPassword = undefined;
+      this._rootUserCredentials.internalValue = undefined;
+      this._secondUserCredentials.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._hostname = value.hostname;
+      this._ipAddress = value.ipAddress;
       this._localUserPassword = value.localUserPassword;
-      this._rootUserPassword = value.rootUserPassword;
-      this._sshPassword = value.sshPassword;
+      this._rootUserCredentials.internalValue = value.rootUserCredentials;
+      this._secondUserCredentials.internalValue = value.secondUserCredentials;
     }
   }
 
@@ -5104,6 +4607,22 @@ export class InstanceSddcManagerOutputReference extends cdktf.ComplexObject {
     return this._hostname;
   }
 
+  // ip_address - computed: false, optional: true, required: false
+  private _ipAddress?: string; 
+  public get ipAddress() {
+    return this.getStringAttribute('ip_address');
+  }
+  public set ipAddress(value: string) {
+    this._ipAddress = value;
+  }
+  public resetIpAddress() {
+    this._ipAddress = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipAddressInput() {
+    return this._ipAddress;
+  }
+
   // local_user_password - computed: false, optional: true, required: false
   private _localUserPassword?: string; 
   public get localUserPassword() {
@@ -5120,43 +4639,49 @@ export class InstanceSddcManagerOutputReference extends cdktf.ComplexObject {
     return this._localUserPassword;
   }
 
-  // root_user_password - computed: false, optional: false, required: true
-  private _rootUserPassword?: string; 
-  public get rootUserPassword() {
-    return this.getStringAttribute('root_user_password');
+  // root_user_credentials - computed: false, optional: true, required: false
+  private _rootUserCredentials = new InstanceSddcManagerRootUserCredentialsOutputReference(this, "root_user_credentials");
+  public get rootUserCredentials() {
+    return this._rootUserCredentials;
   }
-  public set rootUserPassword(value: string) {
-    this._rootUserPassword = value;
+  public putRootUserCredentials(value: InstanceSddcManagerRootUserCredentials) {
+    this._rootUserCredentials.internalValue = value;
+  }
+  public resetRootUserCredentials() {
+    this._rootUserCredentials.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get rootUserPasswordInput() {
-    return this._rootUserPassword;
+  public get rootUserCredentialsInput() {
+    return this._rootUserCredentials.internalValue;
   }
 
-  // ssh_password - computed: false, optional: false, required: true
-  private _sshPassword?: string; 
-  public get sshPassword() {
-    return this.getStringAttribute('ssh_password');
+  // second_user_credentials - computed: false, optional: true, required: false
+  private _secondUserCredentials = new InstanceSddcManagerSecondUserCredentialsOutputReference(this, "second_user_credentials");
+  public get secondUserCredentials() {
+    return this._secondUserCredentials;
   }
-  public set sshPassword(value: string) {
-    this._sshPassword = value;
+  public putSecondUserCredentials(value: InstanceSddcManagerSecondUserCredentials) {
+    this._secondUserCredentials.internalValue = value;
+  }
+  public resetSecondUserCredentials() {
+    this._secondUserCredentials.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get sshPasswordInput() {
-    return this._sshPassword;
+  public get secondUserCredentialsInput() {
+    return this._secondUserCredentials.internalValue;
   }
 }
 export interface InstanceSecurityRootCaCerts {
   /**
   * Certificate alias
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#alias Instance#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#alias Instance#alias}
   */
   readonly alias?: string;
   /**
   * List of Base64 encoded certificates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#cert_chain Instance#cert_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#cert_chain Instance#cert_chain}
   */
   readonly certChain?: string[];
 }
@@ -5303,13 +4828,13 @@ export interface InstanceSecurity {
   /**
   * ESXi certificates mode. One among: Custom, VMCA
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#esxi_certs_mode Instance#esxi_certs_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#esxi_certs_mode Instance#esxi_certs_mode}
   */
   readonly esxiCertsMode?: string;
   /**
   * root_ca_certs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#root_ca_certs Instance#root_ca_certs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#root_ca_certs Instance#root_ca_certs}
   */
   readonly rootCaCerts?: InstanceSecurityRootCaCerts[] | cdktf.IResolvable;
 }
@@ -5422,7 +4947,7 @@ export class InstanceSecurityOutputReference extends cdktf.ComplexObject {
 }
 export interface InstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#create Instance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#create Instance#create}
   */
   readonly create?: string;
 }
@@ -5516,33 +5041,51 @@ export class InstanceTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 export interface InstanceVcenter {
   /**
+  * vCenter License
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#license Instance#license}
+  */
+  readonly license?: string;
+  /**
   * vCenter root password. The password must be between 8 characters and 20 characters long. It must also contain at least one uppercase and lowercase letter, one number, and one character from '! " # $ % & ' ( ) * + , - . / : ; < = > ? @ [ \ ] ^ _ ` { &Iota; } ~' and all characters must be ASCII. Space is not allowed in password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#root_vcenter_password Instance#root_vcenter_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#root_vcenter_password Instance#root_vcenter_password}
   */
   readonly rootVcenterPassword: string;
   /**
+  * vCenter Server SSH thumbprint (RSA SHA256)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#ssh_thumbprint Instance#ssh_thumbprint}
+  */
+  readonly sshThumbprint?: string;
+  /**
   * vCenter Server SSL thumbprint (SHA256)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#ssl_thumbprint Instance#ssl_thumbprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#ssl_thumbprint Instance#ssl_thumbprint}
   */
   readonly sslThumbprint?: string;
   /**
   * vCenter VM storage size. One among:lstorage, xlstorage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#storage_size Instance#storage_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#storage_size Instance#storage_size}
   */
   readonly storageSize?: string;
   /**
   * vCenter Server hostname address. If just the short hostname is provided, then FQDN will be generated using the "domain" from dns configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#vcenter_hostname Instance#vcenter_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#vcenter_hostname Instance#vcenter_hostname}
   */
   readonly vcenterHostname: string;
   /**
+  * vCenter Server IPv4 address
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#vcenter_ip Instance#vcenter_ip}
+  */
+  readonly vcenterIp?: string;
+  /**
   * vCenter Server Appliance  size. One among: tiny, small, medium, large, xlarge
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#vm_size Instance#vm_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#vm_size Instance#vm_size}
   */
   readonly vmSize?: string;
 }
@@ -5553,10 +5096,13 @@ export function instanceVcenterToTerraform(struct?: InstanceVcenterOutputReferen
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    license: cdktf.stringToTerraform(struct!.license),
     root_vcenter_password: cdktf.stringToTerraform(struct!.rootVcenterPassword),
+    ssh_thumbprint: cdktf.stringToTerraform(struct!.sshThumbprint),
     ssl_thumbprint: cdktf.stringToTerraform(struct!.sslThumbprint),
     storage_size: cdktf.stringToTerraform(struct!.storageSize),
     vcenter_hostname: cdktf.stringToTerraform(struct!.vcenterHostname),
+    vcenter_ip: cdktf.stringToTerraform(struct!.vcenterIp),
     vm_size: cdktf.stringToTerraform(struct!.vmSize),
   }
 }
@@ -5568,8 +5114,20 @@ export function instanceVcenterToHclTerraform(struct?: InstanceVcenterOutputRefe
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    license: {
+      value: cdktf.stringToHclTerraform(struct!.license),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     root_vcenter_password: {
       value: cdktf.stringToHclTerraform(struct!.rootVcenterPassword),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    ssh_thumbprint: {
+      value: cdktf.stringToHclTerraform(struct!.sshThumbprint),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -5588,6 +5146,12 @@ export function instanceVcenterToHclTerraform(struct?: InstanceVcenterOutputRefe
     },
     vcenter_hostname: {
       value: cdktf.stringToHclTerraform(struct!.vcenterHostname),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    vcenter_ip: {
+      value: cdktf.stringToHclTerraform(struct!.vcenterIp),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -5618,9 +5182,17 @@ export class InstanceVcenterOutputReference extends cdktf.ComplexObject {
   public get internalValue(): InstanceVcenter | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._license !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.license = this._license;
+    }
     if (this._rootVcenterPassword !== undefined) {
       hasAnyValues = true;
       internalValueResult.rootVcenterPassword = this._rootVcenterPassword;
+    }
+    if (this._sshThumbprint !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sshThumbprint = this._sshThumbprint;
     }
     if (this._sslThumbprint !== undefined) {
       hasAnyValues = true;
@@ -5634,6 +5206,10 @@ export class InstanceVcenterOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.vcenterHostname = this._vcenterHostname;
     }
+    if (this._vcenterIp !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vcenterIp = this._vcenterIp;
+    }
     if (this._vmSize !== undefined) {
       hasAnyValues = true;
       internalValueResult.vmSize = this._vmSize;
@@ -5644,20 +5220,42 @@ export class InstanceVcenterOutputReference extends cdktf.ComplexObject {
   public set internalValue(value: InstanceVcenter | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._license = undefined;
       this._rootVcenterPassword = undefined;
+      this._sshThumbprint = undefined;
       this._sslThumbprint = undefined;
       this._storageSize = undefined;
       this._vcenterHostname = undefined;
+      this._vcenterIp = undefined;
       this._vmSize = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._license = value.license;
       this._rootVcenterPassword = value.rootVcenterPassword;
+      this._sshThumbprint = value.sshThumbprint;
       this._sslThumbprint = value.sslThumbprint;
       this._storageSize = value.storageSize;
       this._vcenterHostname = value.vcenterHostname;
+      this._vcenterIp = value.vcenterIp;
       this._vmSize = value.vmSize;
     }
+  }
+
+  // license - computed: false, optional: true, required: false
+  private _license?: string; 
+  public get license() {
+    return this.getStringAttribute('license');
+  }
+  public set license(value: string) {
+    this._license = value;
+  }
+  public resetLicense() {
+    this._license = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get licenseInput() {
+    return this._license;
   }
 
   // root_vcenter_password - computed: false, optional: false, required: true
@@ -5671,6 +5269,22 @@ export class InstanceVcenterOutputReference extends cdktf.ComplexObject {
   // Temporarily expose input value. Use with caution.
   public get rootVcenterPasswordInput() {
     return this._rootVcenterPassword;
+  }
+
+  // ssh_thumbprint - computed: false, optional: true, required: false
+  private _sshThumbprint?: string; 
+  public get sshThumbprint() {
+    return this.getStringAttribute('ssh_thumbprint');
+  }
+  public set sshThumbprint(value: string) {
+    this._sshThumbprint = value;
+  }
+  public resetSshThumbprint() {
+    this._sshThumbprint = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sshThumbprintInput() {
+    return this._sshThumbprint;
   }
 
   // ssl_thumbprint - computed: false, optional: true, required: false
@@ -5718,6 +5332,22 @@ export class InstanceVcenterOutputReference extends cdktf.ComplexObject {
     return this._vcenterHostname;
   }
 
+  // vcenter_ip - computed: false, optional: true, required: false
+  private _vcenterIp?: string; 
+  public get vcenterIp() {
+    return this.getStringAttribute('vcenter_ip');
+  }
+  public set vcenterIp(value: string) {
+    this._vcenterIp = value;
+  }
+  public resetVcenterIp() {
+    this._vcenterIp = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vcenterIpInput() {
+    return this._vcenterIp;
+  }
+
   // vm_size - computed: false, optional: true, required: false
   private _vmSize?: string; 
   public get vmSize() {
@@ -5738,25 +5368,31 @@ export interface InstanceVsan {
   /**
   * Datastore Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#datastore_name Instance#datastore_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#datastore_name Instance#datastore_name}
   */
   readonly datastoreName: string;
   /**
   * Enable vSAN ESA
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#esa_enabled Instance#esa_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#esa_enabled Instance#esa_enabled}
   */
   readonly esaEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Host failures to tolerate
+  * A path (URL or local path) to an HCL file that will be uploaded to vCenter prior to configuring vSAN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#failures_to_tolerate Instance#failures_to_tolerate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#hcl_file Instance#hcl_file}
   */
-  readonly failuresToTolerate?: number;
+  readonly hclFile?: string;
+  /**
+  * VSAN License
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#license Instance#license}
+  */
+  readonly license?: string;
   /**
   * VSAN feature Deduplication and Compression flag, one flag for both features
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#vsan_dedup Instance#vsan_dedup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#vsan_dedup Instance#vsan_dedup}
   */
   readonly vsanDedup?: boolean | cdktf.IResolvable;
 }
@@ -5769,7 +5405,8 @@ export function instanceVsanToTerraform(struct?: InstanceVsanOutputReference | I
   return {
     datastore_name: cdktf.stringToTerraform(struct!.datastoreName),
     esa_enabled: cdktf.booleanToTerraform(struct!.esaEnabled),
-    failures_to_tolerate: cdktf.numberToTerraform(struct!.failuresToTolerate),
+    hcl_file: cdktf.stringToTerraform(struct!.hclFile),
+    license: cdktf.stringToTerraform(struct!.license),
     vsan_dedup: cdktf.booleanToTerraform(struct!.vsanDedup),
   }
 }
@@ -5793,11 +5430,17 @@ export function instanceVsanToHclTerraform(struct?: InstanceVsanOutputReference 
       type: "simple",
       storageClassType: "boolean",
     },
-    failures_to_tolerate: {
-      value: cdktf.numberToHclTerraform(struct!.failuresToTolerate),
+    hcl_file: {
+      value: cdktf.stringToHclTerraform(struct!.hclFile),
       isBlock: false,
       type: "simple",
-      storageClassType: "number",
+      storageClassType: "string",
+    },
+    license: {
+      value: cdktf.stringToHclTerraform(struct!.license),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
     },
     vsan_dedup: {
       value: cdktf.booleanToHclTerraform(struct!.vsanDedup),
@@ -5833,9 +5476,13 @@ export class InstanceVsanOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.esaEnabled = this._esaEnabled;
     }
-    if (this._failuresToTolerate !== undefined) {
+    if (this._hclFile !== undefined) {
       hasAnyValues = true;
-      internalValueResult.failuresToTolerate = this._failuresToTolerate;
+      internalValueResult.hclFile = this._hclFile;
+    }
+    if (this._license !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.license = this._license;
     }
     if (this._vsanDedup !== undefined) {
       hasAnyValues = true;
@@ -5849,14 +5496,16 @@ export class InstanceVsanOutputReference extends cdktf.ComplexObject {
       this.isEmptyObject = false;
       this._datastoreName = undefined;
       this._esaEnabled = undefined;
-      this._failuresToTolerate = undefined;
+      this._hclFile = undefined;
+      this._license = undefined;
       this._vsanDedup = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._datastoreName = value.datastoreName;
       this._esaEnabled = value.esaEnabled;
-      this._failuresToTolerate = value.failuresToTolerate;
+      this._hclFile = value.hclFile;
+      this._license = value.license;
       this._vsanDedup = value.vsanDedup;
     }
   }
@@ -5890,20 +5539,36 @@ export class InstanceVsanOutputReference extends cdktf.ComplexObject {
     return this._esaEnabled;
   }
 
-  // failures_to_tolerate - computed: false, optional: true, required: false
-  private _failuresToTolerate?: number; 
-  public get failuresToTolerate() {
-    return this.getNumberAttribute('failures_to_tolerate');
+  // hcl_file - computed: false, optional: true, required: false
+  private _hclFile?: string; 
+  public get hclFile() {
+    return this.getStringAttribute('hcl_file');
   }
-  public set failuresToTolerate(value: number) {
-    this._failuresToTolerate = value;
+  public set hclFile(value: string) {
+    this._hclFile = value;
   }
-  public resetFailuresToTolerate() {
-    this._failuresToTolerate = undefined;
+  public resetHclFile() {
+    this._hclFile = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get failuresToTolerateInput() {
-    return this._failuresToTolerate;
+  public get hclFileInput() {
+    return this._hclFile;
+  }
+
+  // license - computed: false, optional: true, required: false
+  private _license?: string; 
+  public get license() {
+    return this.getStringAttribute('license');
+  }
+  public set license(value: string) {
+    this._license = value;
+  }
+  public resetLicense() {
+    this._license = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get licenseInput() {
+    return this._license;
   }
 
   // vsan_dedup - computed: false, optional: true, required: false
@@ -5922,9 +5587,454 @@ export class InstanceVsanOutputReference extends cdktf.ComplexObject {
     return this._vsanDedup;
   }
 }
+export interface InstanceVxManagerDefaultAdminUserCredentials {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#password Instance#password}
+  */
+  readonly password: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#username Instance#username}
+  */
+  readonly username: string;
+}
+
+export function instanceVxManagerDefaultAdminUserCredentialsToTerraform(struct?: InstanceVxManagerDefaultAdminUserCredentialsOutputReference | InstanceVxManagerDefaultAdminUserCredentials): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    password: cdktf.stringToTerraform(struct!.password),
+    username: cdktf.stringToTerraform(struct!.username),
+  }
+}
+
+
+export function instanceVxManagerDefaultAdminUserCredentialsToHclTerraform(struct?: InstanceVxManagerDefaultAdminUserCredentialsOutputReference | InstanceVxManagerDefaultAdminUserCredentials): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    password: {
+      value: cdktf.stringToHclTerraform(struct!.password),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    username: {
+      value: cdktf.stringToHclTerraform(struct!.username),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class InstanceVxManagerDefaultAdminUserCredentialsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): InstanceVxManagerDefaultAdminUserCredentials | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._password !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.password = this._password;
+    }
+    if (this._username !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.username = this._username;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: InstanceVxManagerDefaultAdminUserCredentials | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._password = undefined;
+      this._username = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._password = value.password;
+      this._username = value.username;
+    }
+  }
+
+  // password - computed: false, optional: false, required: true
+  private _password?: string; 
+  public get password() {
+    return this.getStringAttribute('password');
+  }
+  public set password(value: string) {
+    this._password = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get passwordInput() {
+    return this._password;
+  }
+
+  // username - computed: false, optional: false, required: true
+  private _username?: string; 
+  public get username() {
+    return this.getStringAttribute('username');
+  }
+  public set username(value: string) {
+    this._username = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get usernameInput() {
+    return this._username;
+  }
+}
+export interface InstanceVxManagerDefaultRootUserCredentials {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#password Instance#password}
+  */
+  readonly password: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#username Instance#username}
+  */
+  readonly username: string;
+}
+
+export function instanceVxManagerDefaultRootUserCredentialsToTerraform(struct?: InstanceVxManagerDefaultRootUserCredentialsOutputReference | InstanceVxManagerDefaultRootUserCredentials): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    password: cdktf.stringToTerraform(struct!.password),
+    username: cdktf.stringToTerraform(struct!.username),
+  }
+}
+
+
+export function instanceVxManagerDefaultRootUserCredentialsToHclTerraform(struct?: InstanceVxManagerDefaultRootUserCredentialsOutputReference | InstanceVxManagerDefaultRootUserCredentials): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    password: {
+      value: cdktf.stringToHclTerraform(struct!.password),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    username: {
+      value: cdktf.stringToHclTerraform(struct!.username),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class InstanceVxManagerDefaultRootUserCredentialsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): InstanceVxManagerDefaultRootUserCredentials | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._password !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.password = this._password;
+    }
+    if (this._username !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.username = this._username;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: InstanceVxManagerDefaultRootUserCredentials | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._password = undefined;
+      this._username = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._password = value.password;
+      this._username = value.username;
+    }
+  }
+
+  // password - computed: false, optional: false, required: true
+  private _password?: string; 
+  public get password() {
+    return this.getStringAttribute('password');
+  }
+  public set password(value: string) {
+    this._password = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get passwordInput() {
+    return this._password;
+  }
+
+  // username - computed: false, optional: false, required: true
+  private _username?: string; 
+  public get username() {
+    return this.getStringAttribute('username');
+  }
+  public set username(value: string) {
+    this._username = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get usernameInput() {
+    return this._username;
+  }
+}
+export interface InstanceVxManager {
+  /**
+  * VxRail Manager SSH thumbprint (RSA SHA256)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#ssh_thumbprint Instance#ssh_thumbprint}
+  */
+  readonly sshThumbprint?: string;
+  /**
+  * VxRail Manager SSL thumbprint (SHA256)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#ssl_thumbprint Instance#ssl_thumbprint}
+  */
+  readonly sslThumbprint?: string;
+  /**
+  * VxManager host name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#vx_manager_hostname Instance#vx_manager_hostname}
+  */
+  readonly vxManagerHostname: string;
+  /**
+  * default_admin_user_credentials block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#default_admin_user_credentials Instance#default_admin_user_credentials}
+  */
+  readonly defaultAdminUserCredentials?: InstanceVxManagerDefaultAdminUserCredentials;
+  /**
+  * default_root_user_credentials block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#default_root_user_credentials Instance#default_root_user_credentials}
+  */
+  readonly defaultRootUserCredentials?: InstanceVxManagerDefaultRootUserCredentials;
+}
+
+export function instanceVxManagerToTerraform(struct?: InstanceVxManagerOutputReference | InstanceVxManager): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    ssh_thumbprint: cdktf.stringToTerraform(struct!.sshThumbprint),
+    ssl_thumbprint: cdktf.stringToTerraform(struct!.sslThumbprint),
+    vx_manager_hostname: cdktf.stringToTerraform(struct!.vxManagerHostname),
+    default_admin_user_credentials: instanceVxManagerDefaultAdminUserCredentialsToTerraform(struct!.defaultAdminUserCredentials),
+    default_root_user_credentials: instanceVxManagerDefaultRootUserCredentialsToTerraform(struct!.defaultRootUserCredentials),
+  }
+}
+
+
+export function instanceVxManagerToHclTerraform(struct?: InstanceVxManagerOutputReference | InstanceVxManager): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    ssh_thumbprint: {
+      value: cdktf.stringToHclTerraform(struct!.sshThumbprint),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    ssl_thumbprint: {
+      value: cdktf.stringToHclTerraform(struct!.sslThumbprint),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    vx_manager_hostname: {
+      value: cdktf.stringToHclTerraform(struct!.vxManagerHostname),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    default_admin_user_credentials: {
+      value: instanceVxManagerDefaultAdminUserCredentialsToHclTerraform(struct!.defaultAdminUserCredentials),
+      isBlock: true,
+      type: "list",
+      storageClassType: "InstanceVxManagerDefaultAdminUserCredentialsList",
+    },
+    default_root_user_credentials: {
+      value: instanceVxManagerDefaultRootUserCredentialsToHclTerraform(struct!.defaultRootUserCredentials),
+      isBlock: true,
+      type: "list",
+      storageClassType: "InstanceVxManagerDefaultRootUserCredentialsList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class InstanceVxManagerOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): InstanceVxManager | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._sshThumbprint !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sshThumbprint = this._sshThumbprint;
+    }
+    if (this._sslThumbprint !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sslThumbprint = this._sslThumbprint;
+    }
+    if (this._vxManagerHostname !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vxManagerHostname = this._vxManagerHostname;
+    }
+    if (this._defaultAdminUserCredentials?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.defaultAdminUserCredentials = this._defaultAdminUserCredentials?.internalValue;
+    }
+    if (this._defaultRootUserCredentials?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.defaultRootUserCredentials = this._defaultRootUserCredentials?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: InstanceVxManager | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._sshThumbprint = undefined;
+      this._sslThumbprint = undefined;
+      this._vxManagerHostname = undefined;
+      this._defaultAdminUserCredentials.internalValue = undefined;
+      this._defaultRootUserCredentials.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._sshThumbprint = value.sshThumbprint;
+      this._sslThumbprint = value.sslThumbprint;
+      this._vxManagerHostname = value.vxManagerHostname;
+      this._defaultAdminUserCredentials.internalValue = value.defaultAdminUserCredentials;
+      this._defaultRootUserCredentials.internalValue = value.defaultRootUserCredentials;
+    }
+  }
+
+  // ssh_thumbprint - computed: false, optional: true, required: false
+  private _sshThumbprint?: string; 
+  public get sshThumbprint() {
+    return this.getStringAttribute('ssh_thumbprint');
+  }
+  public set sshThumbprint(value: string) {
+    this._sshThumbprint = value;
+  }
+  public resetSshThumbprint() {
+    this._sshThumbprint = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sshThumbprintInput() {
+    return this._sshThumbprint;
+  }
+
+  // ssl_thumbprint - computed: false, optional: true, required: false
+  private _sslThumbprint?: string; 
+  public get sslThumbprint() {
+    return this.getStringAttribute('ssl_thumbprint');
+  }
+  public set sslThumbprint(value: string) {
+    this._sslThumbprint = value;
+  }
+  public resetSslThumbprint() {
+    this._sslThumbprint = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sslThumbprintInput() {
+    return this._sslThumbprint;
+  }
+
+  // vx_manager_hostname - computed: false, optional: false, required: true
+  private _vxManagerHostname?: string; 
+  public get vxManagerHostname() {
+    return this.getStringAttribute('vx_manager_hostname');
+  }
+  public set vxManagerHostname(value: string) {
+    this._vxManagerHostname = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vxManagerHostnameInput() {
+    return this._vxManagerHostname;
+  }
+
+  // default_admin_user_credentials - computed: false, optional: true, required: false
+  private _defaultAdminUserCredentials = new InstanceVxManagerDefaultAdminUserCredentialsOutputReference(this, "default_admin_user_credentials");
+  public get defaultAdminUserCredentials() {
+    return this._defaultAdminUserCredentials;
+  }
+  public putDefaultAdminUserCredentials(value: InstanceVxManagerDefaultAdminUserCredentials) {
+    this._defaultAdminUserCredentials.internalValue = value;
+  }
+  public resetDefaultAdminUserCredentials() {
+    this._defaultAdminUserCredentials.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get defaultAdminUserCredentialsInput() {
+    return this._defaultAdminUserCredentials.internalValue;
+  }
+
+  // default_root_user_credentials - computed: false, optional: true, required: false
+  private _defaultRootUserCredentials = new InstanceVxManagerDefaultRootUserCredentialsOutputReference(this, "default_root_user_credentials");
+  public get defaultRootUserCredentials() {
+    return this._defaultRootUserCredentials;
+  }
+  public putDefaultRootUserCredentials(value: InstanceVxManagerDefaultRootUserCredentials) {
+    this._defaultRootUserCredentials.internalValue = value;
+  }
+  public resetDefaultRootUserCredentials() {
+    this._defaultRootUserCredentials.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get defaultRootUserCredentialsInput() {
+    return this._defaultRootUserCredentials.internalValue;
+  }
+}
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance vcf_instance}
+* Represents a {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance vcf_instance}
 */
 export class Instance extends cdktf.TerraformResource {
 
@@ -5940,7 +6050,7 @@ export class Instance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Instance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Instance to import
-  * @param importFromId The id of the existing Instance that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Instance that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Instance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5952,7 +6062,7 @@ export class Instance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/instance vcf_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/instance vcf_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5963,7 +6073,8 @@ export class Instance extends cdktf.TerraformResource {
       terraformResourceType: 'vcf_instance',
       terraformGeneratorMetadata: {
         providerName: 'vcf',
-        providerVersion: '0.17.1'
+        providerVersion: '0.16.2',
+        providerVersionConstraint: '0.16.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -5974,28 +6085,28 @@ export class Instance extends cdktf.TerraformResource {
       forEach: config.forEach
     });
     this._ceipEnabled = config.ceipEnabled;
+    this._dvSwitchVersion = config.dvSwitchVersion;
+    this._esxLicense = config.esxLicense;
     this._fipsEnabled = config.fipsEnabled;
     this._id = config.id;
     this._instanceId = config.instanceId;
     this._managementPoolName = config.managementPoolName;
     this._ntpServers = config.ntpServers;
     this._skipEsxThumbprintValidation = config.skipEsxThumbprintValidation;
-    this._version = config.version;
-    this._automation.internalValue = config.automation;
+    this._taskName = config.taskName;
     this._cluster.internalValue = config.cluster;
     this._dns.internalValue = config.dns;
     this._dvs.internalValue = config.dvs;
     this._host.internalValue = config.host;
     this._network.internalValue = config.network;
     this._nsx.internalValue = config.nsx;
-    this._operations.internalValue = config.operations;
-    this._operationsCollector.internalValue = config.operationsCollector;
-    this._operationsFleetManagement.internalValue = config.operationsFleetManagement;
+    this._psc.internalValue = config.psc;
     this._sddcManager.internalValue = config.sddcManager;
     this._security.internalValue = config.security;
     this._timeouts.internalValue = config.timeouts;
     this._vcenter.internalValue = config.vcenter;
     this._vsan.internalValue = config.vsan;
+    this._vxManager.internalValue = config.vxManager;
   }
 
   // ==========
@@ -6021,6 +6132,35 @@ export class Instance extends cdktf.TerraformResource {
   // creation_timestamp - computed: true, optional: false, required: false
   public get creationTimestamp() {
     return this.getStringAttribute('creation_timestamp');
+  }
+
+  // dv_switch_version - computed: false, optional: false, required: true
+  private _dvSwitchVersion?: string; 
+  public get dvSwitchVersion() {
+    return this.getStringAttribute('dv_switch_version');
+  }
+  public set dvSwitchVersion(value: string) {
+    this._dvSwitchVersion = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dvSwitchVersionInput() {
+    return this._dvSwitchVersion;
+  }
+
+  // esx_license - computed: false, optional: true, required: false
+  private _esxLicense?: string; 
+  public get esxLicense() {
+    return this.getStringAttribute('esx_license');
+  }
+  public set esxLicense(value: string) {
+    this._esxLicense = value;
+  }
+  public resetEsxLicense() {
+    this._esxLicense = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get esxLicenseInput() {
+    return this._esxLicense;
   }
 
   // fips_enabled - computed: false, optional: true, required: false
@@ -6094,6 +6234,21 @@ export class Instance extends cdktf.TerraformResource {
     return this._ntpServers;
   }
 
+  // sddc_manager_fqdn - computed: true, optional: false, required: false
+  public get sddcManagerFqdn() {
+    return this.getStringAttribute('sddc_manager_fqdn');
+  }
+
+  // sddc_manager_id - computed: true, optional: false, required: false
+  public get sddcManagerId() {
+    return this.getStringAttribute('sddc_manager_id');
+  }
+
+  // sddc_manager_version - computed: true, optional: false, required: false
+  public get sddcManagerVersion() {
+    return this.getStringAttribute('sddc_manager_version');
+  }
+
   // skip_esx_thumbprint_validation - computed: false, optional: false, required: true
   private _skipEsxThumbprintValidation?: boolean | cdktf.IResolvable; 
   public get skipEsxThumbprintValidation() {
@@ -6112,36 +6267,20 @@ export class Instance extends cdktf.TerraformResource {
     return this.getStringAttribute('status');
   }
 
-  // version - computed: false, optional: true, required: false
-  private _version?: string; 
-  public get version() {
-    return this.getStringAttribute('version');
+  // task_name - computed: false, optional: true, required: false
+  private _taskName?: string; 
+  public get taskName() {
+    return this.getStringAttribute('task_name');
   }
-  public set version(value: string) {
-    this._version = value;
+  public set taskName(value: string) {
+    this._taskName = value;
   }
-  public resetVersion() {
-    this._version = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get versionInput() {
-    return this._version;
-  }
-
-  // automation - computed: false, optional: true, required: false
-  private _automation = new InstanceAutomationOutputReference(this, "automation");
-  public get automation() {
-    return this._automation;
-  }
-  public putAutomation(value: InstanceAutomation) {
-    this._automation.internalValue = value;
-  }
-  public resetAutomation() {
-    this._automation.internalValue = undefined;
+  public resetTaskName() {
+    this._taskName = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get automationInput() {
-    return this._automation.internalValue;
+  public get taskNameInput() {
+    return this._taskName;
   }
 
   // cluster - computed: false, optional: false, required: true
@@ -6225,52 +6364,20 @@ export class Instance extends cdktf.TerraformResource {
     return this._nsx.internalValue;
   }
 
-  // operations - computed: false, optional: true, required: false
-  private _operations = new InstanceOperationsOutputReference(this, "operations");
-  public get operations() {
-    return this._operations;
+  // psc - computed: false, optional: true, required: false
+  private _psc = new InstancePscList(this, "psc", false);
+  public get psc() {
+    return this._psc;
   }
-  public putOperations(value: InstanceOperations) {
-    this._operations.internalValue = value;
+  public putPsc(value: InstancePsc[] | cdktf.IResolvable) {
+    this._psc.internalValue = value;
   }
-  public resetOperations() {
-    this._operations.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get operationsInput() {
-    return this._operations.internalValue;
-  }
-
-  // operations_collector - computed: false, optional: true, required: false
-  private _operationsCollector = new InstanceOperationsCollectorOutputReference(this, "operations_collector");
-  public get operationsCollector() {
-    return this._operationsCollector;
-  }
-  public putOperationsCollector(value: InstanceOperationsCollector) {
-    this._operationsCollector.internalValue = value;
-  }
-  public resetOperationsCollector() {
-    this._operationsCollector.internalValue = undefined;
+  public resetPsc() {
+    this._psc.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get operationsCollectorInput() {
-    return this._operationsCollector.internalValue;
-  }
-
-  // operations_fleet_management - computed: false, optional: true, required: false
-  private _operationsFleetManagement = new InstanceOperationsFleetManagementOutputReference(this, "operations_fleet_management");
-  public get operationsFleetManagement() {
-    return this._operationsFleetManagement;
-  }
-  public putOperationsFleetManagement(value: InstanceOperationsFleetManagement) {
-    this._operationsFleetManagement.internalValue = value;
-  }
-  public resetOperationsFleetManagement() {
-    this._operationsFleetManagement.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get operationsFleetManagementInput() {
-    return this._operationsFleetManagement.internalValue;
+  public get pscInput() {
+    return this._psc.internalValue;
   }
 
   // sddc_manager - computed: false, optional: true, required: false
@@ -6350,6 +6457,22 @@ export class Instance extends cdktf.TerraformResource {
     return this._vsan.internalValue;
   }
 
+  // vx_manager - computed: false, optional: true, required: false
+  private _vxManager = new InstanceVxManagerOutputReference(this, "vx_manager");
+  public get vxManager() {
+    return this._vxManager;
+  }
+  public putVxManager(value: InstanceVxManager) {
+    this._vxManager.internalValue = value;
+  }
+  public resetVxManager() {
+    this._vxManager.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vxManagerInput() {
+    return this._vxManager.internalValue;
+  }
+
   // =========
   // SYNTHESIS
   // =========
@@ -6357,28 +6480,28 @@ export class Instance extends cdktf.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       ceip_enabled: cdktf.booleanToTerraform(this._ceipEnabled),
+      dv_switch_version: cdktf.stringToTerraform(this._dvSwitchVersion),
+      esx_license: cdktf.stringToTerraform(this._esxLicense),
       fips_enabled: cdktf.booleanToTerraform(this._fipsEnabled),
       id: cdktf.stringToTerraform(this._id),
       instance_id: cdktf.stringToTerraform(this._instanceId),
       management_pool_name: cdktf.stringToTerraform(this._managementPoolName),
       ntp_servers: cdktf.listMapper(cdktf.stringToTerraform, false)(this._ntpServers),
       skip_esx_thumbprint_validation: cdktf.booleanToTerraform(this._skipEsxThumbprintValidation),
-      version: cdktf.stringToTerraform(this._version),
-      automation: instanceAutomationToTerraform(this._automation.internalValue),
+      task_name: cdktf.stringToTerraform(this._taskName),
       cluster: instanceClusterToTerraform(this._cluster.internalValue),
       dns: instanceDnsToTerraform(this._dns.internalValue),
       dvs: cdktf.listMapper(instanceDvsToTerraform, true)(this._dvs.internalValue),
       host: cdktf.listMapper(instanceHostToTerraform, true)(this._host.internalValue),
       network: cdktf.listMapper(instanceNetworkToTerraform, true)(this._network.internalValue),
       nsx: instanceNsxToTerraform(this._nsx.internalValue),
-      operations: instanceOperationsToTerraform(this._operations.internalValue),
-      operations_collector: instanceOperationsCollectorToTerraform(this._operationsCollector.internalValue),
-      operations_fleet_management: instanceOperationsFleetManagementToTerraform(this._operationsFleetManagement.internalValue),
+      psc: cdktf.listMapper(instancePscToTerraform, true)(this._psc.internalValue),
       sddc_manager: instanceSddcManagerToTerraform(this._sddcManager.internalValue),
       security: instanceSecurityToTerraform(this._security.internalValue),
       timeouts: instanceTimeoutsToTerraform(this._timeouts.internalValue),
       vcenter: instanceVcenterToTerraform(this._vcenter.internalValue),
       vsan: instanceVsanToTerraform(this._vsan.internalValue),
+      vx_manager: instanceVxManagerToTerraform(this._vxManager.internalValue),
     };
   }
 
@@ -6389,6 +6512,18 @@ export class Instance extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
+      },
+      dv_switch_version: {
+        value: cdktf.stringToHclTerraform(this._dvSwitchVersion),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      esx_license: {
+        value: cdktf.stringToHclTerraform(this._esxLicense),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
       fips_enabled: {
         value: cdktf.booleanToHclTerraform(this._fipsEnabled),
@@ -6426,17 +6561,11 @@ export class Instance extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "boolean",
       },
-      version: {
-        value: cdktf.stringToHclTerraform(this._version),
+      task_name: {
+        value: cdktf.stringToHclTerraform(this._taskName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
-      },
-      automation: {
-        value: instanceAutomationToHclTerraform(this._automation.internalValue),
-        isBlock: true,
-        type: "list",
-        storageClassType: "InstanceAutomationList",
       },
       cluster: {
         value: instanceClusterToHclTerraform(this._cluster.internalValue),
@@ -6474,23 +6603,11 @@ export class Instance extends cdktf.TerraformResource {
         type: "list",
         storageClassType: "InstanceNsxList",
       },
-      operations: {
-        value: instanceOperationsToHclTerraform(this._operations.internalValue),
+      psc: {
+        value: cdktf.listMapperHcl(instancePscToHclTerraform, true)(this._psc.internalValue),
         isBlock: true,
         type: "list",
-        storageClassType: "InstanceOperationsList",
-      },
-      operations_collector: {
-        value: instanceOperationsCollectorToHclTerraform(this._operationsCollector.internalValue),
-        isBlock: true,
-        type: "list",
-        storageClassType: "InstanceOperationsCollectorList",
-      },
-      operations_fleet_management: {
-        value: instanceOperationsFleetManagementToHclTerraform(this._operationsFleetManagement.internalValue),
-        isBlock: true,
-        type: "list",
-        storageClassType: "InstanceOperationsFleetManagementList",
+        storageClassType: "InstancePscList",
       },
       sddc_manager: {
         value: instanceSddcManagerToHclTerraform(this._sddcManager.internalValue),
@@ -6521,6 +6638,12 @@ export class Instance extends cdktf.TerraformResource {
         isBlock: true,
         type: "list",
         storageClassType: "InstanceVsanList",
+      },
+      vx_manager: {
+        value: instanceVxManagerToHclTerraform(this._vxManager.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "InstanceVxManagerList",
       },
     };
 

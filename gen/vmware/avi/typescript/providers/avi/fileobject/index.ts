@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/fileobject
+// https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/fileobject
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,106 +8,88 @@ import * as cdktf from 'cdktf';
 
 export interface FileobjectConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/fileobject#checksum Fileobject#checksum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/fileobject#checksum Fileobject#checksum}
   */
   readonly checksum?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/fileobject#child_refs Fileobject#child_refs}
-  */
-  readonly childRefs?: string[];
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/fileobject#compressed Fileobject#compressed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/fileobject#compressed Fileobject#compressed}
   */
   readonly compressed?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/fileobject#created Fileobject#created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/fileobject#created Fileobject#created}
   */
   readonly created?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/fileobject#description Fileobject#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/fileobject#description Fileobject#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/fileobject#expires_at Fileobject#expires_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/fileobject#expires_at Fileobject#expires_at}
   */
   readonly expiresAt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/fileobject#gslb_geodb_format Fileobject#gslb_geodb_format}
-  */
-  readonly gslbGeodbFormat?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/fileobject#has_parent Fileobject#has_parent}
-  */
-  readonly hasParent?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/fileobject#id Fileobject#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/fileobject#id Fileobject#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/fileobject#is_federated Fileobject#is_federated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/fileobject#is_federated Fileobject#is_federated}
   */
   readonly isFederated?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/fileobject#name Fileobject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/fileobject#name Fileobject#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/fileobject#path Fileobject#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/fileobject#path Fileobject#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/fileobject#read_only Fileobject#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/fileobject#read_only Fileobject#read_only}
   */
   readonly readOnly?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/fileobject#restrict_download Fileobject#restrict_download}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/fileobject#restrict_download Fileobject#restrict_download}
   */
   readonly restrictDownload?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/fileobject#size Fileobject#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/fileobject#size Fileobject#size}
   */
   readonly size?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/fileobject#tenant_ref Fileobject#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/fileobject#tenant_ref Fileobject#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/fileobject#type Fileobject#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/fileobject#type Fileobject#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/fileobject#uuid Fileobject#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/fileobject#uuid Fileobject#uuid}
   */
   readonly uuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/fileobject#version Fileobject#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/fileobject#version Fileobject#version}
   */
   readonly version?: string;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/fileobject#configpb_attributes Fileobject#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/fileobject#configpb_attributes Fileobject#configpb_attributes}
   */
   readonly configpbAttributes?: FileobjectConfigpbAttributes[] | cdktf.IResolvable;
   /**
   * crl_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/fileobject#crl_info Fileobject#crl_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/fileobject#crl_info Fileobject#crl_info}
   */
   readonly crlInfo?: FileobjectCrlInfo[] | cdktf.IResolvable;
-  /**
-  * events block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/fileobject#events Fileobject#events}
-  */
-  readonly events?: FileobjectEvents[] | cdktf.IResolvable;
 }
 export interface FileobjectConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/fileobject#version Fileobject#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/fileobject#version Fileobject#version}
   */
   readonly version?: string;
 }
@@ -223,43 +205,43 @@ export class FileobjectConfigpbAttributesList extends cdktf.ComplexList {
 }
 export interface FileobjectCrlInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/fileobject#common_name Fileobject#common_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/fileobject#common_name Fileobject#common_name}
   */
   readonly commonName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/fileobject#distinguished_name Fileobject#distinguished_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/fileobject#distinguished_name Fileobject#distinguished_name}
   */
   readonly distinguishedName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/fileobject#etag Fileobject#etag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/fileobject#etag Fileobject#etag}
   */
   readonly etag?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/fileobject#fingerprint Fileobject#fingerprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/fileobject#fingerprint Fileobject#fingerprint}
   */
   readonly fingerprint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/fileobject#last_refreshed Fileobject#last_refreshed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/fileobject#last_refreshed Fileobject#last_refreshed}
   */
   readonly lastRefreshed?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/fileobject#last_update Fileobject#last_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/fileobject#last_update Fileobject#last_update}
   */
   readonly lastUpdate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/fileobject#next_update Fileobject#next_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/fileobject#next_update Fileobject#next_update}
   */
   readonly nextUpdate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/fileobject#server_url Fileobject#server_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/fileobject#server_url Fileobject#server_url}
   */
   readonly serverUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/fileobject#text Fileobject#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/fileobject#text Fileobject#text}
   */
   readonly text?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/fileobject#update_interval Fileobject#update_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/fileobject#update_interval Fileobject#update_interval}
   */
   readonly updateInterval?: string;
 }
@@ -634,408 +616,9 @@ export class FileobjectCrlInfoList extends cdktf.ComplexList {
     return new FileobjectCrlInfoOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
-export interface FileobjectEventsTaskEvent {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/fileobject#duration Fileobject#duration}
-  */
-  readonly duration?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/fileobject#end_time Fileobject#end_time}
-  */
-  readonly endTime?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/fileobject#message Fileobject#message}
-  */
-  readonly message?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/fileobject#start_time Fileobject#start_time}
-  */
-  readonly startTime?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/fileobject#status Fileobject#status}
-  */
-  readonly status?: string;
-}
-
-export function fileobjectEventsTaskEventToTerraform(struct?: FileobjectEventsTaskEvent | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    duration: cdktf.stringToTerraform(struct!.duration),
-    end_time: cdktf.stringToTerraform(struct!.endTime),
-    message: cdktf.stringToTerraform(struct!.message),
-    start_time: cdktf.stringToTerraform(struct!.startTime),
-    status: cdktf.stringToTerraform(struct!.status),
-  }
-}
-
-
-export function fileobjectEventsTaskEventToHclTerraform(struct?: FileobjectEventsTaskEvent | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    duration: {
-      value: cdktf.stringToHclTerraform(struct!.duration),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    end_time: {
-      value: cdktf.stringToHclTerraform(struct!.endTime),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    message: {
-      value: cdktf.stringToHclTerraform(struct!.message),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    start_time: {
-      value: cdktf.stringToHclTerraform(struct!.startTime),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    status: {
-      value: cdktf.stringToHclTerraform(struct!.status),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class FileobjectEventsTaskEventOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): FileobjectEventsTaskEvent | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._duration !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.duration = this._duration;
-    }
-    if (this._endTime !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.endTime = this._endTime;
-    }
-    if (this._message !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.message = this._message;
-    }
-    if (this._startTime !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.startTime = this._startTime;
-    }
-    if (this._status !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.status = this._status;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: FileobjectEventsTaskEvent | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._duration = undefined;
-      this._endTime = undefined;
-      this._message = undefined;
-      this._startTime = undefined;
-      this._status = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._duration = value.duration;
-      this._endTime = value.endTime;
-      this._message = value.message;
-      this._startTime = value.startTime;
-      this._status = value.status;
-    }
-  }
-
-  // duration - computed: true, optional: true, required: false
-  private _duration?: string; 
-  public get duration() {
-    return this.getStringAttribute('duration');
-  }
-  public set duration(value: string) {
-    this._duration = value;
-  }
-  public resetDuration() {
-    this._duration = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get durationInput() {
-    return this._duration;
-  }
-
-  // end_time - computed: true, optional: true, required: false
-  private _endTime?: string; 
-  public get endTime() {
-    return this.getStringAttribute('end_time');
-  }
-  public set endTime(value: string) {
-    this._endTime = value;
-  }
-  public resetEndTime() {
-    this._endTime = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get endTimeInput() {
-    return this._endTime;
-  }
-
-  // message - computed: true, optional: true, required: false
-  private _message?: string; 
-  public get message() {
-    return this.getStringAttribute('message');
-  }
-  public set message(value: string) {
-    this._message = value;
-  }
-  public resetMessage() {
-    this._message = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get messageInput() {
-    return this._message;
-  }
-
-  // start_time - computed: true, optional: true, required: false
-  private _startTime?: string; 
-  public get startTime() {
-    return this.getStringAttribute('start_time');
-  }
-  public set startTime(value: string) {
-    this._startTime = value;
-  }
-  public resetStartTime() {
-    this._startTime = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get startTimeInput() {
-    return this._startTime;
-  }
-
-  // status - computed: true, optional: true, required: false
-  private _status?: string; 
-  public get status() {
-    return this.getStringAttribute('status');
-  }
-  public set status(value: string) {
-    this._status = value;
-  }
-  public resetStatus() {
-    this._status = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get statusInput() {
-    return this._status;
-  }
-}
-
-export class FileobjectEventsTaskEventList extends cdktf.ComplexList {
-  public internalValue? : FileobjectEventsTaskEvent[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): FileobjectEventsTaskEventOutputReference {
-    return new FileobjectEventsTaskEventOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface FileobjectEvents {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/fileobject#task_name Fileobject#task_name}
-  */
-  readonly taskName?: string;
-  /**
-  * task_event block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/fileobject#task_event Fileobject#task_event}
-  */
-  readonly taskEvent?: FileobjectEventsTaskEvent[] | cdktf.IResolvable;
-}
-
-export function fileobjectEventsToTerraform(struct?: FileobjectEvents | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    task_name: cdktf.stringToTerraform(struct!.taskName),
-    task_event: cdktf.listMapper(fileobjectEventsTaskEventToTerraform, true)(struct!.taskEvent),
-  }
-}
-
-
-export function fileobjectEventsToHclTerraform(struct?: FileobjectEvents | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    task_name: {
-      value: cdktf.stringToHclTerraform(struct!.taskName),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    task_event: {
-      value: cdktf.listMapperHcl(fileobjectEventsTaskEventToHclTerraform, true)(struct!.taskEvent),
-      isBlock: true,
-      type: "list",
-      storageClassType: "FileobjectEventsTaskEventList",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class FileobjectEventsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): FileobjectEvents | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._taskName !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.taskName = this._taskName;
-    }
-    if (this._taskEvent?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.taskEvent = this._taskEvent?.internalValue;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: FileobjectEvents | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._taskName = undefined;
-      this._taskEvent.internalValue = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._taskName = value.taskName;
-      this._taskEvent.internalValue = value.taskEvent;
-    }
-  }
-
-  // task_name - computed: true, optional: true, required: false
-  private _taskName?: string; 
-  public get taskName() {
-    return this.getStringAttribute('task_name');
-  }
-  public set taskName(value: string) {
-    this._taskName = value;
-  }
-  public resetTaskName() {
-    this._taskName = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get taskNameInput() {
-    return this._taskName;
-  }
-
-  // task_event - computed: false, optional: true, required: false
-  private _taskEvent = new FileobjectEventsTaskEventList(this, "task_event", false);
-  public get taskEvent() {
-    return this._taskEvent;
-  }
-  public putTaskEvent(value: FileobjectEventsTaskEvent[] | cdktf.IResolvable) {
-    this._taskEvent.internalValue = value;
-  }
-  public resetTaskEvent() {
-    this._taskEvent.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get taskEventInput() {
-    return this._taskEvent.internalValue;
-  }
-}
-
-export class FileobjectEventsList extends cdktf.ComplexList {
-  public internalValue? : FileobjectEvents[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): FileobjectEventsOutputReference {
-    return new FileobjectEventsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/fileobject avi_fileobject}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/fileobject avi_fileobject}
 */
 export class Fileobject extends cdktf.TerraformResource {
 
@@ -1051,7 +634,7 @@ export class Fileobject extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Fileobject resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Fileobject to import
-  * @param importFromId The id of the existing Fileobject that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/fileobject#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Fileobject that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/fileobject#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Fileobject to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1063,7 +646,7 @@ export class Fileobject extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/fileobject avi_fileobject} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/fileobject avi_fileobject} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1074,7 +657,8 @@ export class Fileobject extends cdktf.TerraformResource {
       terraformResourceType: 'avi_fileobject',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '31.1.1'
+        providerVersion: '30.2.5',
+        providerVersionConstraint: '30.2.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1085,13 +669,10 @@ export class Fileobject extends cdktf.TerraformResource {
       forEach: config.forEach
     });
     this._checksum = config.checksum;
-    this._childRefs = config.childRefs;
     this._compressed = config.compressed;
     this._created = config.created;
     this._description = config.description;
     this._expiresAt = config.expiresAt;
-    this._gslbGeodbFormat = config.gslbGeodbFormat;
-    this._hasParent = config.hasParent;
     this._id = config.id;
     this._isFederated = config.isFederated;
     this._name = config.name;
@@ -1105,7 +686,6 @@ export class Fileobject extends cdktf.TerraformResource {
     this._version = config.version;
     this._configpbAttributes.internalValue = config.configpbAttributes;
     this._crlInfo.internalValue = config.crlInfo;
-    this._events.internalValue = config.events;
   }
 
   // ==========
@@ -1126,22 +706,6 @@ export class Fileobject extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get checksumInput() {
     return this._checksum;
-  }
-
-  // child_refs - computed: false, optional: true, required: false
-  private _childRefs?: string[]; 
-  public get childRefs() {
-    return this.getListAttribute('child_refs');
-  }
-  public set childRefs(value: string[]) {
-    this._childRefs = value;
-  }
-  public resetChildRefs() {
-    this._childRefs = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get childRefsInput() {
-    return this._childRefs;
   }
 
   // compressed - computed: false, optional: true, required: false
@@ -1206,38 +770,6 @@ export class Fileobject extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get expiresAtInput() {
     return this._expiresAt;
-  }
-
-  // gslb_geodb_format - computed: true, optional: true, required: false
-  private _gslbGeodbFormat?: string; 
-  public get gslbGeodbFormat() {
-    return this.getStringAttribute('gslb_geodb_format');
-  }
-  public set gslbGeodbFormat(value: string) {
-    this._gslbGeodbFormat = value;
-  }
-  public resetGslbGeodbFormat() {
-    this._gslbGeodbFormat = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get gslbGeodbFormatInput() {
-    return this._gslbGeodbFormat;
-  }
-
-  // has_parent - computed: false, optional: true, required: false
-  private _hasParent?: string; 
-  public get hasParent() {
-    return this.getStringAttribute('has_parent');
-  }
-  public set hasParent(value: string) {
-    this._hasParent = value;
-  }
-  public resetHasParent() {
-    this._hasParent = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get hasParentInput() {
-    return this._hasParent;
   }
 
   // id - computed: true, optional: true, required: false
@@ -1442,22 +974,6 @@ export class Fileobject extends cdktf.TerraformResource {
     return this._crlInfo.internalValue;
   }
 
-  // events - computed: false, optional: true, required: false
-  private _events = new FileobjectEventsList(this, "events", false);
-  public get events() {
-    return this._events;
-  }
-  public putEvents(value: FileobjectEvents[] | cdktf.IResolvable) {
-    this._events.internalValue = value;
-  }
-  public resetEvents() {
-    this._events.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get eventsInput() {
-    return this._events.internalValue;
-  }
-
   // =========
   // SYNTHESIS
   // =========
@@ -1465,13 +981,10 @@ export class Fileobject extends cdktf.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       checksum: cdktf.stringToTerraform(this._checksum),
-      child_refs: cdktf.listMapper(cdktf.stringToTerraform, false)(this._childRefs),
       compressed: cdktf.stringToTerraform(this._compressed),
       created: cdktf.stringToTerraform(this._created),
       description: cdktf.stringToTerraform(this._description),
       expires_at: cdktf.stringToTerraform(this._expiresAt),
-      gslb_geodb_format: cdktf.stringToTerraform(this._gslbGeodbFormat),
-      has_parent: cdktf.stringToTerraform(this._hasParent),
       id: cdktf.stringToTerraform(this._id),
       is_federated: cdktf.stringToTerraform(this._isFederated),
       name: cdktf.stringToTerraform(this._name),
@@ -1485,7 +998,6 @@ export class Fileobject extends cdktf.TerraformResource {
       version: cdktf.stringToTerraform(this._version),
       configpb_attributes: cdktf.listMapper(fileobjectConfigpbAttributesToTerraform, true)(this._configpbAttributes.internalValue),
       crl_info: cdktf.listMapper(fileobjectCrlInfoToTerraform, true)(this._crlInfo.internalValue),
-      events: cdktf.listMapper(fileobjectEventsToTerraform, true)(this._events.internalValue),
     };
   }
 
@@ -1496,12 +1008,6 @@ export class Fileobject extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
-      },
-      child_refs: {
-        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._childRefs),
-        isBlock: false,
-        type: "list",
-        storageClassType: "stringList",
       },
       compressed: {
         value: cdktf.stringToHclTerraform(this._compressed),
@@ -1523,18 +1029,6 @@ export class Fileobject extends cdktf.TerraformResource {
       },
       expires_at: {
         value: cdktf.stringToHclTerraform(this._expiresAt),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
-      gslb_geodb_format: {
-        value: cdktf.stringToHclTerraform(this._gslbGeodbFormat),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
-      has_parent: {
-        value: cdktf.stringToHclTerraform(this._hasParent),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
@@ -1616,12 +1110,6 @@ export class Fileobject extends cdktf.TerraformResource {
         isBlock: true,
         type: "set",
         storageClassType: "FileobjectCrlInfoList",
-      },
-      events: {
-        value: cdktf.listMapperHcl(fileobjectEventsToHclTerraform, true)(this._events.internalValue),
-        isBlock: true,
-        type: "list",
-        storageClassType: "FileobjectEventsList",
       },
     };
 

@@ -560,7 +560,8 @@ export class DataGitlabProjectIssues extends cdktf.TerraformDataSource {
       terraformResourceType: 'gitlab_project_issues',
       terraformGeneratorMetadata: {
         providerName: 'gitlab',
-        providerVersion: '18.5.0'
+        providerVersion: '18.5.0',
+        providerVersionConstraint: '18.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

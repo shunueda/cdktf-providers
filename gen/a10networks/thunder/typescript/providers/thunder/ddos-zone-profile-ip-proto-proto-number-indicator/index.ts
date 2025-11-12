@@ -410,7 +410,8 @@ export class DdosZoneProfileIpProtoProtoNumberIndicator extends cdktf.TerraformR
       terraformResourceType: 'thunder_ddos_zone_profile_ip_proto_proto_number_indicator',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

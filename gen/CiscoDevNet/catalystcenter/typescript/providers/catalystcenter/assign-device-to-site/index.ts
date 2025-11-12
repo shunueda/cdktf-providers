@@ -61,7 +61,8 @@ export class AssignDeviceToSite extends cdktf.TerraformResource {
       terraformResourceType: 'catalystcenter_assign_device_to_site',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.2'
+        providerVersion: '0.4.2',
+        providerVersionConstraint: '0.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -115,7 +115,8 @@ export class DownloadClientTorrentDownloadStation extends cdktf.TerraformResourc
       terraformResourceType: 'radarr_download_client_torrent_download_station',
       terraformGeneratorMetadata: {
         providerName: 'radarr',
-        providerVersion: '2.3.3'
+        providerVersion: '2.3.3',
+        providerVersionConstraint: '2.3.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

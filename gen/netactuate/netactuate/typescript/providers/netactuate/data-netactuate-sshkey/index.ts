@@ -56,7 +56,8 @@ export class DataNetactuateSshkey extends cdktf.TerraformDataSource {
       terraformResourceType: 'netactuate_sshkey',
       terraformGeneratorMetadata: {
         providerName: 'netactuate',
-        providerVersion: '0.2.4'
+        providerVersion: '0.2.4',
+        providerVersionConstraint: '0.2.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

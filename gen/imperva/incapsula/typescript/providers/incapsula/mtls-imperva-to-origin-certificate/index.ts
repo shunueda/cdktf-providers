@@ -92,7 +92,8 @@ export class MtlsImpervaToOriginCertificate extends cdktf.TerraformResource {
       terraformResourceType: 'incapsula_mtls_imperva_to_origin_certificate',
       terraformGeneratorMetadata: {
         providerName: 'incapsula',
-        providerVersion: '3.35.1'
+        providerVersion: '3.35.1',
+        providerVersionConstraint: '3.35.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

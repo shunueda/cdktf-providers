@@ -248,7 +248,8 @@ export class DataTencentcloudDlcEngineNodeSpecifications extends cdktf.Terraform
       terraformResourceType: 'tencentcloud_dlc_engine_node_specifications',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

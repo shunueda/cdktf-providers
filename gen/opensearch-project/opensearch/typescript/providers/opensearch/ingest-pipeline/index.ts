@@ -68,7 +68,8 @@ export class IngestPipeline extends cdktf.TerraformResource {
       terraformResourceType: 'opensearch_ingest_pipeline',
       terraformGeneratorMetadata: {
         providerName: 'opensearch',
-        providerVersion: '2.3.2'
+        providerVersion: '2.3.2',
+        providerVersionConstraint: '2.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

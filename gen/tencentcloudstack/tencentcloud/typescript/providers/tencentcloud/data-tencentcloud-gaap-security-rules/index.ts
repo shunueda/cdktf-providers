@@ -204,7 +204,8 @@ export class DataTencentcloudGaapSecurityRules extends cdktf.TerraformDataSource
       terraformResourceType: 'tencentcloud_gaap_security_rules',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

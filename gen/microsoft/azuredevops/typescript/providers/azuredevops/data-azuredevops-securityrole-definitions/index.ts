@@ -265,7 +265,8 @@ export class DataAzuredevopsSecurityroleDefinitions extends cdktf.TerraformDataS
       terraformResourceType: 'azuredevops_securityrole_definitions',
       terraformGeneratorMetadata: {
         providerName: 'azuredevops',
-        providerVersion: '1.11.2'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

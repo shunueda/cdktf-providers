@@ -84,7 +84,8 @@ export class OrganizationConnectionFolderPermission extends cdktf.TerraformResou
       terraformResourceType: 'pipes_organization_connection_folder_permission',
       terraformGeneratorMetadata: {
         providerName: 'pipes',
-        providerVersion: '0.17.0'
+        providerVersion: '0.17.0',
+        providerVersionConstraint: '0.17.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

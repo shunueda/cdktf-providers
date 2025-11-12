@@ -72,7 +72,8 @@ export class User extends cdktf.TerraformResource {
       terraformResourceType: 'drone_user',
       terraformGeneratorMetadata: {
         providerName: 'drone',
-        providerVersion: '0.4.0'
+        providerVersion: '0.4.0',
+        providerVersionConstraint: '0.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

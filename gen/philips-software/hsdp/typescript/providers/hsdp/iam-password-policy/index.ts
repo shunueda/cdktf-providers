@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_password_policy
+// https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_password_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,56 +8,56 @@ import * as cdktf from 'cdktf';
 
 export interface IamPasswordPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_password_policy#challenges_enabled IamPasswordPolicy#challenges_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_password_policy#challenges_enabled IamPasswordPolicy#challenges_enabled}
   */
   readonly challengesEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_password_policy#expiry_period_in_days IamPasswordPolicy#expiry_period_in_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_password_policy#expiry_period_in_days IamPasswordPolicy#expiry_period_in_days}
   */
   readonly expiryPeriodInDays?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_password_policy#history_count IamPasswordPolicy#history_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_password_policy#history_count IamPasswordPolicy#history_count}
   */
   readonly historyCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_password_policy#id IamPasswordPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_password_policy#id IamPasswordPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_password_policy#managing_organization IamPasswordPolicy#managing_organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_password_policy#managing_organization IamPasswordPolicy#managing_organization}
   */
   readonly managingOrganization: string;
   /**
   * challenge_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_password_policy#challenge_policy IamPasswordPolicy#challenge_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_password_policy#challenge_policy IamPasswordPolicy#challenge_policy}
   */
   readonly challengePolicy?: IamPasswordPolicyChallengePolicy;
   /**
   * complexity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_password_policy#complexity IamPasswordPolicy#complexity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_password_policy#complexity IamPasswordPolicy#complexity}
   */
   readonly complexity: IamPasswordPolicyComplexity;
 }
 export interface IamPasswordPolicyChallengePolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_password_policy#default_questions IamPasswordPolicy#default_questions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_password_policy#default_questions IamPasswordPolicy#default_questions}
   */
   readonly defaultQuestions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_password_policy#max_incorrect_attempts IamPasswordPolicy#max_incorrect_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_password_policy#max_incorrect_attempts IamPasswordPolicy#max_incorrect_attempts}
   */
   readonly maxIncorrectAttempts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_password_policy#min_answer_count IamPasswordPolicy#min_answer_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_password_policy#min_answer_count IamPasswordPolicy#min_answer_count}
   */
   readonly minAnswerCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_password_policy#min_question_count IamPasswordPolicy#min_question_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_password_policy#min_question_count IamPasswordPolicy#min_question_count}
   */
   readonly minQuestionCount?: number;
 }
@@ -228,27 +228,27 @@ export class IamPasswordPolicyChallengePolicyOutputReference extends cdktf.Compl
 }
 export interface IamPasswordPolicyComplexity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_password_policy#max_length IamPasswordPolicy#max_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_password_policy#max_length IamPasswordPolicy#max_length}
   */
   readonly maxLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_password_policy#min_length IamPasswordPolicy#min_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_password_policy#min_length IamPasswordPolicy#min_length}
   */
   readonly minLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_password_policy#min_lowercase IamPasswordPolicy#min_lowercase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_password_policy#min_lowercase IamPasswordPolicy#min_lowercase}
   */
   readonly minLowercase?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_password_policy#min_numerics IamPasswordPolicy#min_numerics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_password_policy#min_numerics IamPasswordPolicy#min_numerics}
   */
   readonly minNumerics?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_password_policy#min_special_chars IamPasswordPolicy#min_special_chars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_password_policy#min_special_chars IamPasswordPolicy#min_special_chars}
   */
   readonly minSpecialChars?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_password_policy#min_uppercase IamPasswordPolicy#min_uppercase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_password_policy#min_uppercase IamPasswordPolicy#min_uppercase}
   */
   readonly minUppercase?: number;
 }
@@ -477,7 +477,7 @@ export class IamPasswordPolicyComplexityOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_password_policy hsdp_iam_password_policy}
+* Represents a {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_password_policy hsdp_iam_password_policy}
 */
 export class IamPasswordPolicy extends cdktf.TerraformResource {
 
@@ -493,7 +493,7 @@ export class IamPasswordPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IamPasswordPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IamPasswordPolicy to import
-  * @param importFromId The id of the existing IamPasswordPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_password_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IamPasswordPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_password_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IamPasswordPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -505,7 +505,7 @@ export class IamPasswordPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/iam_password_policy hsdp_iam_password_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/iam_password_policy hsdp_iam_password_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -516,7 +516,8 @@ export class IamPasswordPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'hsdp_iam_password_policy',
       terraformGeneratorMetadata: {
         providerName: 'hsdp',
-        providerVersion: '0.70.0'
+        providerVersion: '0.71.0',
+        providerVersionConstraint: '0.71.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

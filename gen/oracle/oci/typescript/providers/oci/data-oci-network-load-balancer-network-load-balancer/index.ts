@@ -294,7 +294,8 @@ export class DataOciNetworkLoadBalancerNetworkLoadBalancer extends cdktf.Terrafo
       terraformResourceType: 'oci_network_load_balancer_network_load_balancer',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

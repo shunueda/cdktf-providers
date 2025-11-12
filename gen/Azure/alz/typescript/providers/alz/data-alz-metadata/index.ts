@@ -49,7 +49,8 @@ export class DataAlzMetadata extends cdktf.TerraformDataSource {
       terraformResourceType: 'alz_metadata',
       terraformGeneratorMetadata: {
         providerName: 'alz',
-        providerVersion: '0.20.0'
+        providerVersion: '0.20.0',
+        providerVersionConstraint: '0.20.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/sks_kubeconfig
+// https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_kubeconfig
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface SksKubeconfigConfig extends cdktf.TerraformMetaArguments {
   /**
   * ❗ The parent [exoscale_sks_cluster](./sks_cluster.md) ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/sks_kubeconfig#cluster_id SksKubeconfig#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_kubeconfig#cluster_id SksKubeconfig#cluster_id}
   */
   readonly clusterId: string;
   /**
   * If set, the resource will consider the Kubeconfig to have expired the given number of seconds before its actual CA certificate or client certificate expiry time. This can be useful to deploy an updated Kubeconfig in advance of the expiration of its internal current certificate. Note however that the old certificate remains valid until its true expiration time since this resource does not (and cannot) support revocation. Also note this advance update can only take place if the Terraform configuration is applied during the early renewal period (seconds; default: 0).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/sks_kubeconfig#early_renewal_seconds SksKubeconfig#early_renewal_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_kubeconfig#early_renewal_seconds SksKubeconfig#early_renewal_seconds}
   */
   readonly earlyRenewalSeconds?: number;
   /**
   * ❗ Group names in the generated Kubeconfig. The certificate present in the Kubeconfig will have these roles set in the Organization field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/sks_kubeconfig#groups SksKubeconfig#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_kubeconfig#groups SksKubeconfig#groups}
   */
   readonly groups: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/sks_kubeconfig#id SksKubeconfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_kubeconfig#id SksKubeconfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,43 +35,43 @@ export interface SksKubeconfigConfig extends cdktf.TerraformMetaArguments {
   /**
   * ❗ The Time-to-Live of the Kubeconfig, after which it will expire / become invalid (seconds; default: 2592000 = 30 days).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/sks_kubeconfig#ttl_seconds SksKubeconfig#ttl_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_kubeconfig#ttl_seconds SksKubeconfig#ttl_seconds}
   */
   readonly ttlSeconds?: number;
   /**
   * ❗ User name in the generated Kubeconfig. The certificate present in the Kubeconfig will also have this name set for the CN field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/sks_kubeconfig#user SksKubeconfig#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_kubeconfig#user SksKubeconfig#user}
   */
   readonly user: string;
   /**
   * ❗ The Exoscale [Zone](https://www.exoscale.com/datacenters/) name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/sks_kubeconfig#zone SksKubeconfig#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_kubeconfig#zone SksKubeconfig#zone}
   */
   readonly zone: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/sks_kubeconfig#timeouts SksKubeconfig#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_kubeconfig#timeouts SksKubeconfig#timeouts}
   */
   readonly timeouts?: SksKubeconfigTimeouts;
 }
 export interface SksKubeconfigTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/sks_kubeconfig#create SksKubeconfig#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_kubeconfig#create SksKubeconfig#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/sks_kubeconfig#delete SksKubeconfig#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_kubeconfig#delete SksKubeconfig#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/sks_kubeconfig#read SksKubeconfig#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_kubeconfig#read SksKubeconfig#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/sks_kubeconfig#update SksKubeconfig#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_kubeconfig#update SksKubeconfig#update}
   */
   readonly update?: string;
 }
@@ -252,7 +252,7 @@ export class SksKubeconfigTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/sks_kubeconfig exoscale_sks_kubeconfig}
+* Represents a {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_kubeconfig exoscale_sks_kubeconfig}
 */
 export class SksKubeconfig extends cdktf.TerraformResource {
 
@@ -268,7 +268,7 @@ export class SksKubeconfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SksKubeconfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SksKubeconfig to import
-  * @param importFromId The id of the existing SksKubeconfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/sks_kubeconfig#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SksKubeconfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_kubeconfig#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SksKubeconfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -280,7 +280,7 @@ export class SksKubeconfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/sks_kubeconfig exoscale_sks_kubeconfig} Resource
+  * Create a new {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_kubeconfig exoscale_sks_kubeconfig} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -291,7 +291,8 @@ export class SksKubeconfig extends cdktf.TerraformResource {
       terraformResourceType: 'exoscale_sks_kubeconfig',
       terraformGeneratorMetadata: {
         providerName: 'exoscale',
-        providerVersion: '0.66.0'
+        providerVersion: '0.67.0',
+        providerVersionConstraint: '0.67.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

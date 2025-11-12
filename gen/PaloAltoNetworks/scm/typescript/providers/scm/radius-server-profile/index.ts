@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/radius_server_profile
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/radius_server_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,68 +10,127 @@ export interface RadiusServerProfileConfig extends cdktf.TerraformMetaArguments 
   /**
   * The device in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/radius_server_profile#device RadiusServerProfile#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/radius_server_profile#device RadiusServerProfile#device}
   */
   readonly device?: string;
   /**
   * The folder in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/radius_server_profile#folder RadiusServerProfile#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/radius_server_profile#folder RadiusServerProfile#folder}
   */
   readonly folder?: string;
   /**
   * The name of the RADIUS server profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/radius_server_profile#name RadiusServerProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/radius_server_profile#name RadiusServerProfile#name}
   */
   readonly name: string;
   /**
   * The RADIUS authentication protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/radius_server_profile#protocol RadiusServerProfile#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/radius_server_profile#protocol RadiusServerProfile#protocol}
   */
   readonly protocol: RadiusServerProfileProtocol;
   /**
   * The number of RADIUS server retries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/radius_server_profile#retries RadiusServerProfile#retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/radius_server_profile#retries RadiusServerProfile#retries}
   */
   readonly retries?: number;
   /**
   * Server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/radius_server_profile#server RadiusServerProfile#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/radius_server_profile#server RadiusServerProfile#server}
   */
   readonly server: RadiusServerProfileServer[] | cdktf.IResolvable;
   /**
   * The snippet in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/radius_server_profile#snippet RadiusServerProfile#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/radius_server_profile#snippet RadiusServerProfile#snippet}
   */
   readonly snippet?: string;
   /**
   * The RADIUS server authentication timeout (seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/radius_server_profile#timeout RadiusServerProfile#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/radius_server_profile#timeout RadiusServerProfile#timeout}
   */
   readonly timeout?: number;
 }
-export interface RadiusServerProfileProtocolEAPTTLSWithPAP {
+export interface RadiusServerProfileProtocolChap {
+}
+
+export function radiusServerProfileProtocolChapToTerraform(struct?: RadiusServerProfileProtocolChap | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function radiusServerProfileProtocolChapToHclTerraform(struct?: RadiusServerProfileProtocolChap | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class RadiusServerProfileProtocolChapOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): RadiusServerProfileProtocolChap | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: RadiusServerProfileProtocolChap | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+    }
+  }
+}
+export interface RadiusServerProfileProtocolEapTtlsWithPap {
   /**
   * Anon outer id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/radius_server_profile#anon_outer_id RadiusServerProfile#anon_outer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/radius_server_profile#anon_outer_id RadiusServerProfile#anon_outer_id}
   */
   readonly anonOuterId?: boolean | cdktf.IResolvable;
   /**
   * Radius cert profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/radius_server_profile#radius_cert_profile RadiusServerProfile#radius_cert_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/radius_server_profile#radius_cert_profile RadiusServerProfile#radius_cert_profile}
   */
   readonly radiusCertProfile?: string;
 }
 
-export function radiusServerProfileProtocolEAPTTLSWithPAPToTerraform(struct?: RadiusServerProfileProtocolEAPTTLSWithPAP | cdktf.IResolvable): any {
+export function radiusServerProfileProtocolEapTtlsWithPapToTerraform(struct?: RadiusServerProfileProtocolEapTtlsWithPap | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -83,7 +142,7 @@ export function radiusServerProfileProtocolEAPTTLSWithPAPToTerraform(struct?: Ra
 }
 
 
-export function radiusServerProfileProtocolEAPTTLSWithPAPToHclTerraform(struct?: RadiusServerProfileProtocolEAPTTLSWithPAP | cdktf.IResolvable): any {
+export function radiusServerProfileProtocolEapTtlsWithPapToHclTerraform(struct?: RadiusServerProfileProtocolEapTtlsWithPap | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -107,7 +166,7 @@ export function radiusServerProfileProtocolEAPTTLSWithPAPToHclTerraform(struct?:
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class RadiusServerProfileProtocolEAPTTLSWithPAPOutputReference extends cdktf.ComplexObject {
+export class RadiusServerProfileProtocolEapTtlsWithPapOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
   private resolvableValue?: cdktf.IResolvable;
 
@@ -119,7 +178,7 @@ export class RadiusServerProfileProtocolEAPTTLSWithPAPOutputReference extends cd
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): RadiusServerProfileProtocolEAPTTLSWithPAP | cdktf.IResolvable | undefined {
+  public get internalValue(): RadiusServerProfileProtocolEapTtlsWithPap | cdktf.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -136,7 +195,7 @@ export class RadiusServerProfileProtocolEAPTTLSWithPAPOutputReference extends cd
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: RadiusServerProfileProtocolEAPTTLSWithPAP | cdktf.IResolvable | undefined) {
+  public set internalValue(value: RadiusServerProfileProtocolEapTtlsWithPap | cdktf.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -187,28 +246,87 @@ export class RadiusServerProfileProtocolEAPTTLSWithPAPOutputReference extends cd
     return this._radiusCertProfile;
   }
 }
-export interface RadiusServerProfileProtocolPEAPMSCHAPv2 {
+export interface RadiusServerProfileProtocolPap {
+}
+
+export function radiusServerProfileProtocolPapToTerraform(struct?: RadiusServerProfileProtocolPap | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function radiusServerProfileProtocolPapToHclTerraform(struct?: RadiusServerProfileProtocolPap | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class RadiusServerProfileProtocolPapOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): RadiusServerProfileProtocolPap | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: RadiusServerProfileProtocolPap | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+    }
+  }
+}
+export interface RadiusServerProfileProtocolPeapMschaPv2 {
   /**
   * Allow pwd change
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/radius_server_profile#allow_pwd_change RadiusServerProfile#allow_pwd_change}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/radius_server_profile#allow_pwd_change RadiusServerProfile#allow_pwd_change}
   */
   readonly allowPwdChange?: boolean | cdktf.IResolvable;
   /**
   * Anon outer id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/radius_server_profile#anon_outer_id RadiusServerProfile#anon_outer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/radius_server_profile#anon_outer_id RadiusServerProfile#anon_outer_id}
   */
   readonly anonOuterId?: boolean | cdktf.IResolvable;
   /**
   * Radius cert profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/radius_server_profile#radius_cert_profile RadiusServerProfile#radius_cert_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/radius_server_profile#radius_cert_profile RadiusServerProfile#radius_cert_profile}
   */
   readonly radiusCertProfile?: string;
 }
 
-export function radiusServerProfileProtocolPEAPMSCHAPv2ToTerraform(struct?: RadiusServerProfileProtocolPEAPMSCHAPv2 | cdktf.IResolvable): any {
+export function radiusServerProfileProtocolPeapMschaPv2ToTerraform(struct?: RadiusServerProfileProtocolPeapMschaPv2 | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -221,7 +339,7 @@ export function radiusServerProfileProtocolPEAPMSCHAPv2ToTerraform(struct?: Radi
 }
 
 
-export function radiusServerProfileProtocolPEAPMSCHAPv2ToHclTerraform(struct?: RadiusServerProfileProtocolPEAPMSCHAPv2 | cdktf.IResolvable): any {
+export function radiusServerProfileProtocolPeapMschaPv2ToHclTerraform(struct?: RadiusServerProfileProtocolPeapMschaPv2 | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -251,7 +369,7 @@ export function radiusServerProfileProtocolPEAPMSCHAPv2ToHclTerraform(struct?: R
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class RadiusServerProfileProtocolPEAPMSCHAPv2OutputReference extends cdktf.ComplexObject {
+export class RadiusServerProfileProtocolPeapMschaPv2OutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
   private resolvableValue?: cdktf.IResolvable;
 
@@ -263,7 +381,7 @@ export class RadiusServerProfileProtocolPEAPMSCHAPv2OutputReference extends cdkt
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): RadiusServerProfileProtocolPEAPMSCHAPv2 | cdktf.IResolvable | undefined {
+  public get internalValue(): RadiusServerProfileProtocolPeapMschaPv2 | cdktf.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -284,7 +402,7 @@ export class RadiusServerProfileProtocolPEAPMSCHAPv2OutputReference extends cdkt
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: RadiusServerProfileProtocolPEAPMSCHAPv2 | cdktf.IResolvable | undefined) {
+  public set internalValue(value: RadiusServerProfileProtocolPeapMschaPv2 | cdktf.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -353,22 +471,22 @@ export class RadiusServerProfileProtocolPEAPMSCHAPv2OutputReference extends cdkt
     return this._radiusCertProfile;
   }
 }
-export interface RadiusServerProfileProtocolPEAPWithGTC {
+export interface RadiusServerProfileProtocolPeapWithGtc {
   /**
   * Anon outer id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/radius_server_profile#anon_outer_id RadiusServerProfile#anon_outer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/radius_server_profile#anon_outer_id RadiusServerProfile#anon_outer_id}
   */
   readonly anonOuterId?: boolean | cdktf.IResolvable;
   /**
   * Radius cert profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/radius_server_profile#radius_cert_profile RadiusServerProfile#radius_cert_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/radius_server_profile#radius_cert_profile RadiusServerProfile#radius_cert_profile}
   */
   readonly radiusCertProfile?: string;
 }
 
-export function radiusServerProfileProtocolPEAPWithGTCToTerraform(struct?: RadiusServerProfileProtocolPEAPWithGTC | cdktf.IResolvable): any {
+export function radiusServerProfileProtocolPeapWithGtcToTerraform(struct?: RadiusServerProfileProtocolPeapWithGtc | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -380,7 +498,7 @@ export function radiusServerProfileProtocolPEAPWithGTCToTerraform(struct?: Radiu
 }
 
 
-export function radiusServerProfileProtocolPEAPWithGTCToHclTerraform(struct?: RadiusServerProfileProtocolPEAPWithGTC | cdktf.IResolvable): any {
+export function radiusServerProfileProtocolPeapWithGtcToHclTerraform(struct?: RadiusServerProfileProtocolPeapWithGtc | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -404,7 +522,7 @@ export function radiusServerProfileProtocolPEAPWithGTCToHclTerraform(struct?: Ra
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class RadiusServerProfileProtocolPEAPWithGTCOutputReference extends cdktf.ComplexObject {
+export class RadiusServerProfileProtocolPeapWithGtcOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
   private resolvableValue?: cdktf.IResolvable;
 
@@ -416,7 +534,7 @@ export class RadiusServerProfileProtocolPEAPWithGTCOutputReference extends cdktf
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): RadiusServerProfileProtocolPEAPWithGTC | cdktf.IResolvable | undefined {
+  public get internalValue(): RadiusServerProfileProtocolPeapWithGtc | cdktf.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -433,7 +551,7 @@ export class RadiusServerProfileProtocolPEAPWithGTCOutputReference extends cdktf
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: RadiusServerProfileProtocolPEAPWithGTC | cdktf.IResolvable | undefined) {
+  public set internalValue(value: RadiusServerProfileProtocolPeapWithGtc | cdktf.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -488,33 +606,33 @@ export interface RadiusServerProfileProtocol {
   /**
   * C h a p
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/radius_server_profile#c_h_a_p RadiusServerProfile#c_h_a_p}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/radius_server_profile#chap RadiusServerProfile#chap}
   */
-  readonly cHAP?: string;
+  readonly chap?: RadiusServerProfileProtocolChap;
   /**
   * E a p t t l s with p a p
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/radius_server_profile#e_a_p__t_t_l_s_with__p_a_p RadiusServerProfile#e_a_p__t_t_l_s_with__p_a_p}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/radius_server_profile#eap_ttls_with_pap RadiusServerProfile#eap_ttls_with_pap}
   */
-  readonly eAPTTLSWithPAP?: RadiusServerProfileProtocolEAPTTLSWithPAP;
+  readonly eapTtlsWithPap?: RadiusServerProfileProtocolEapTtlsWithPap;
   /**
   * P a p
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/radius_server_profile#p_a_p RadiusServerProfile#p_a_p}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/radius_server_profile#pap RadiusServerProfile#pap}
   */
-  readonly pAP?: string;
+  readonly pap?: RadiusServerProfileProtocolPap;
   /**
   * P e a p m s c h a pv2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/radius_server_profile#p_e_a_p__m_s_c_h_a_pv2 RadiusServerProfile#p_e_a_p__m_s_c_h_a_pv2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/radius_server_profile#peap_mscha_pv2 RadiusServerProfile#peap_mscha_pv2}
   */
-  readonly pEAPMSCHAPv2?: RadiusServerProfileProtocolPEAPMSCHAPv2;
+  readonly peapMschaPv2?: RadiusServerProfileProtocolPeapMschaPv2;
   /**
   * P e a p with g t c
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/radius_server_profile#p_e_a_p_with__g_t_c RadiusServerProfile#p_e_a_p_with__g_t_c}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/radius_server_profile#peap_with_gtc RadiusServerProfile#peap_with_gtc}
   */
-  readonly pEAPWithGTC?: RadiusServerProfileProtocolPEAPWithGTC;
+  readonly peapWithGtc?: RadiusServerProfileProtocolPeapWithGtc;
 }
 
 export function radiusServerProfileProtocolToTerraform(struct?: RadiusServerProfileProtocol | cdktf.IResolvable): any {
@@ -523,11 +641,11 @@ export function radiusServerProfileProtocolToTerraform(struct?: RadiusServerProf
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    c_h_a_p: cdktf.stringToTerraform(struct!.cHAP),
-    e_a_p__t_t_l_s_with__p_a_p: radiusServerProfileProtocolEAPTTLSWithPAPToTerraform(struct!.eAPTTLSWithPAP),
-    p_a_p: cdktf.stringToTerraform(struct!.pAP),
-    p_e_a_p__m_s_c_h_a_pv2: radiusServerProfileProtocolPEAPMSCHAPv2ToTerraform(struct!.pEAPMSCHAPv2),
-    p_e_a_p_with__g_t_c: radiusServerProfileProtocolPEAPWithGTCToTerraform(struct!.pEAPWithGTC),
+    chap: radiusServerProfileProtocolChapToTerraform(struct!.chap),
+    eap_ttls_with_pap: radiusServerProfileProtocolEapTtlsWithPapToTerraform(struct!.eapTtlsWithPap),
+    pap: radiusServerProfileProtocolPapToTerraform(struct!.pap),
+    peap_mscha_pv2: radiusServerProfileProtocolPeapMschaPv2ToTerraform(struct!.peapMschaPv2),
+    peap_with_gtc: radiusServerProfileProtocolPeapWithGtcToTerraform(struct!.peapWithGtc),
   }
 }
 
@@ -538,35 +656,35 @@ export function radiusServerProfileProtocolToHclTerraform(struct?: RadiusServerP
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
-    c_h_a_p: {
-      value: cdktf.stringToHclTerraform(struct!.cHAP),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    e_a_p__t_t_l_s_with__p_a_p: {
-      value: radiusServerProfileProtocolEAPTTLSWithPAPToHclTerraform(struct!.eAPTTLSWithPAP),
+    chap: {
+      value: radiusServerProfileProtocolChapToHclTerraform(struct!.chap),
       isBlock: true,
       type: "struct",
-      storageClassType: "RadiusServerProfileProtocolEAPTTLSWithPAP",
+      storageClassType: "RadiusServerProfileProtocolChap",
     },
-    p_a_p: {
-      value: cdktf.stringToHclTerraform(struct!.pAP),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    p_e_a_p__m_s_c_h_a_pv2: {
-      value: radiusServerProfileProtocolPEAPMSCHAPv2ToHclTerraform(struct!.pEAPMSCHAPv2),
+    eap_ttls_with_pap: {
+      value: radiusServerProfileProtocolEapTtlsWithPapToHclTerraform(struct!.eapTtlsWithPap),
       isBlock: true,
       type: "struct",
-      storageClassType: "RadiusServerProfileProtocolPEAPMSCHAPv2",
+      storageClassType: "RadiusServerProfileProtocolEapTtlsWithPap",
     },
-    p_e_a_p_with__g_t_c: {
-      value: radiusServerProfileProtocolPEAPWithGTCToHclTerraform(struct!.pEAPWithGTC),
+    pap: {
+      value: radiusServerProfileProtocolPapToHclTerraform(struct!.pap),
       isBlock: true,
       type: "struct",
-      storageClassType: "RadiusServerProfileProtocolPEAPWithGTC",
+      storageClassType: "RadiusServerProfileProtocolPap",
+    },
+    peap_mscha_pv2: {
+      value: radiusServerProfileProtocolPeapMschaPv2ToHclTerraform(struct!.peapMschaPv2),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "RadiusServerProfileProtocolPeapMschaPv2",
+    },
+    peap_with_gtc: {
+      value: radiusServerProfileProtocolPeapWithGtcToHclTerraform(struct!.peapWithGtc),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "RadiusServerProfileProtocolPeapWithGtc",
     },
   };
 
@@ -592,25 +710,25 @@ export class RadiusServerProfileProtocolOutputReference extends cdktf.ComplexObj
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
-    if (this._cHAP !== undefined) {
+    if (this._chap?.internalValue !== undefined) {
       hasAnyValues = true;
-      internalValueResult.cHAP = this._cHAP;
+      internalValueResult.chap = this._chap?.internalValue;
     }
-    if (this._eAPTTLSWithPAP?.internalValue !== undefined) {
+    if (this._eapTtlsWithPap?.internalValue !== undefined) {
       hasAnyValues = true;
-      internalValueResult.eAPTTLSWithPAP = this._eAPTTLSWithPAP?.internalValue;
+      internalValueResult.eapTtlsWithPap = this._eapTtlsWithPap?.internalValue;
     }
-    if (this._pAP !== undefined) {
+    if (this._pap?.internalValue !== undefined) {
       hasAnyValues = true;
-      internalValueResult.pAP = this._pAP;
+      internalValueResult.pap = this._pap?.internalValue;
     }
-    if (this._pEAPMSCHAPv2?.internalValue !== undefined) {
+    if (this._peapMschaPv2?.internalValue !== undefined) {
       hasAnyValues = true;
-      internalValueResult.pEAPMSCHAPv2 = this._pEAPMSCHAPv2?.internalValue;
+      internalValueResult.peapMschaPv2 = this._peapMschaPv2?.internalValue;
     }
-    if (this._pEAPWithGTC?.internalValue !== undefined) {
+    if (this._peapWithGtc?.internalValue !== undefined) {
       hasAnyValues = true;
-      internalValueResult.pEAPWithGTC = this._pEAPWithGTC?.internalValue;
+      internalValueResult.peapWithGtc = this._peapWithGtc?.internalValue;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -619,11 +737,11 @@ export class RadiusServerProfileProtocolOutputReference extends cdktf.ComplexObj
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
-      this._cHAP = undefined;
-      this._eAPTTLSWithPAP.internalValue = undefined;
-      this._pAP = undefined;
-      this._pEAPMSCHAPv2.internalValue = undefined;
-      this._pEAPWithGTC.internalValue = undefined;
+      this._chap.internalValue = undefined;
+      this._eapTtlsWithPap.internalValue = undefined;
+      this._pap.internalValue = undefined;
+      this._peapMschaPv2.internalValue = undefined;
+      this._peapWithGtc.internalValue = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -632,117 +750,117 @@ export class RadiusServerProfileProtocolOutputReference extends cdktf.ComplexObj
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
-      this._cHAP = value.cHAP;
-      this._eAPTTLSWithPAP.internalValue = value.eAPTTLSWithPAP;
-      this._pAP = value.pAP;
-      this._pEAPMSCHAPv2.internalValue = value.pEAPMSCHAPv2;
-      this._pEAPWithGTC.internalValue = value.pEAPWithGTC;
+      this._chap.internalValue = value.chap;
+      this._eapTtlsWithPap.internalValue = value.eapTtlsWithPap;
+      this._pap.internalValue = value.pap;
+      this._peapMschaPv2.internalValue = value.peapMschaPv2;
+      this._peapWithGtc.internalValue = value.peapWithGtc;
     }
   }
 
-  // c_h_a_p - computed: false, optional: true, required: false
-  private _cHAP?: string; 
-  public get cHAP() {
-    return this.getStringAttribute('c_h_a_p');
+  // chap - computed: false, optional: true, required: false
+  private _chap = new RadiusServerProfileProtocolChapOutputReference(this, "chap");
+  public get chap() {
+    return this._chap;
   }
-  public set cHAP(value: string) {
-    this._cHAP = value;
+  public putChap(value: RadiusServerProfileProtocolChap) {
+    this._chap.internalValue = value;
   }
-  public resetCHAP() {
-    this._cHAP = undefined;
+  public resetChap() {
+    this._chap.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get cHAPInput() {
-    return this._cHAP;
+  public get chapInput() {
+    return this._chap.internalValue;
   }
 
-  // e_a_p__t_t_l_s_with__p_a_p - computed: false, optional: true, required: false
-  private _eAPTTLSWithPAP = new RadiusServerProfileProtocolEAPTTLSWithPAPOutputReference(this, "e_a_p__t_t_l_s_with__p_a_p");
-  public get eAPTTLSWithPAP() {
-    return this._eAPTTLSWithPAP;
+  // eap_ttls_with_pap - computed: false, optional: true, required: false
+  private _eapTtlsWithPap = new RadiusServerProfileProtocolEapTtlsWithPapOutputReference(this, "eap_ttls_with_pap");
+  public get eapTtlsWithPap() {
+    return this._eapTtlsWithPap;
   }
-  public putEAPTTLSWithPAP(value: RadiusServerProfileProtocolEAPTTLSWithPAP) {
-    this._eAPTTLSWithPAP.internalValue = value;
+  public putEapTtlsWithPap(value: RadiusServerProfileProtocolEapTtlsWithPap) {
+    this._eapTtlsWithPap.internalValue = value;
   }
-  public resetEAPTTLSWithPAP() {
-    this._eAPTTLSWithPAP.internalValue = undefined;
+  public resetEapTtlsWithPap() {
+    this._eapTtlsWithPap.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get eAPTTLSWithPAPInput() {
-    return this._eAPTTLSWithPAP.internalValue;
+  public get eapTtlsWithPapInput() {
+    return this._eapTtlsWithPap.internalValue;
   }
 
-  // p_a_p - computed: false, optional: true, required: false
-  private _pAP?: string; 
-  public get pAP() {
-    return this.getStringAttribute('p_a_p');
+  // pap - computed: false, optional: true, required: false
+  private _pap = new RadiusServerProfileProtocolPapOutputReference(this, "pap");
+  public get pap() {
+    return this._pap;
   }
-  public set pAP(value: string) {
-    this._pAP = value;
+  public putPap(value: RadiusServerProfileProtocolPap) {
+    this._pap.internalValue = value;
   }
-  public resetPAP() {
-    this._pAP = undefined;
+  public resetPap() {
+    this._pap.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get pAPInput() {
-    return this._pAP;
+  public get papInput() {
+    return this._pap.internalValue;
   }
 
-  // p_e_a_p__m_s_c_h_a_pv2 - computed: false, optional: true, required: false
-  private _pEAPMSCHAPv2 = new RadiusServerProfileProtocolPEAPMSCHAPv2OutputReference(this, "p_e_a_p__m_s_c_h_a_pv2");
-  public get pEAPMSCHAPv2() {
-    return this._pEAPMSCHAPv2;
+  // peap_mscha_pv2 - computed: false, optional: true, required: false
+  private _peapMschaPv2 = new RadiusServerProfileProtocolPeapMschaPv2OutputReference(this, "peap_mscha_pv2");
+  public get peapMschaPv2() {
+    return this._peapMschaPv2;
   }
-  public putPEAPMSCHAPv2(value: RadiusServerProfileProtocolPEAPMSCHAPv2) {
-    this._pEAPMSCHAPv2.internalValue = value;
+  public putPeapMschaPv2(value: RadiusServerProfileProtocolPeapMschaPv2) {
+    this._peapMschaPv2.internalValue = value;
   }
-  public resetPEAPMSCHAPv2() {
-    this._pEAPMSCHAPv2.internalValue = undefined;
+  public resetPeapMschaPv2() {
+    this._peapMschaPv2.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get pEAPMSCHAPv2Input() {
-    return this._pEAPMSCHAPv2.internalValue;
+  public get peapMschaPv2Input() {
+    return this._peapMschaPv2.internalValue;
   }
 
-  // p_e_a_p_with__g_t_c - computed: false, optional: true, required: false
-  private _pEAPWithGTC = new RadiusServerProfileProtocolPEAPWithGTCOutputReference(this, "p_e_a_p_with__g_t_c");
-  public get pEAPWithGTC() {
-    return this._pEAPWithGTC;
+  // peap_with_gtc - computed: false, optional: true, required: false
+  private _peapWithGtc = new RadiusServerProfileProtocolPeapWithGtcOutputReference(this, "peap_with_gtc");
+  public get peapWithGtc() {
+    return this._peapWithGtc;
   }
-  public putPEAPWithGTC(value: RadiusServerProfileProtocolPEAPWithGTC) {
-    this._pEAPWithGTC.internalValue = value;
+  public putPeapWithGtc(value: RadiusServerProfileProtocolPeapWithGtc) {
+    this._peapWithGtc.internalValue = value;
   }
-  public resetPEAPWithGTC() {
-    this._pEAPWithGTC.internalValue = undefined;
+  public resetPeapWithGtc() {
+    this._peapWithGtc.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get pEAPWithGTCInput() {
-    return this._pEAPWithGTC.internalValue;
+  public get peapWithGtcInput() {
+    return this._peapWithGtc.internalValue;
   }
 }
 export interface RadiusServerProfileServer {
   /**
   * The IP address of the RADIUS server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/radius_server_profile#ip_address RadiusServerProfile#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/radius_server_profile#ip_address RadiusServerProfile#ip_address}
   */
   readonly ipAddress?: string;
   /**
   * The name of the RADIUS server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/radius_server_profile#name RadiusServerProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/radius_server_profile#name RadiusServerProfile#name}
   */
   readonly name?: string;
   /**
   * The RADIUS server port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/radius_server_profile#port RadiusServerProfile#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/radius_server_profile#port RadiusServerProfile#port}
   */
   readonly port?: number;
   /**
   * The RADIUS secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/radius_server_profile#secret RadiusServerProfile#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/radius_server_profile#secret RadiusServerProfile#secret}
   */
   readonly secret?: string;
 }
@@ -945,7 +1063,7 @@ export class RadiusServerProfileServerList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/radius_server_profile scm_radius_server_profile}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/radius_server_profile scm_radius_server_profile}
 */
 export class RadiusServerProfile extends cdktf.TerraformResource {
 
@@ -961,7 +1079,7 @@ export class RadiusServerProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RadiusServerProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RadiusServerProfile to import
-  * @param importFromId The id of the existing RadiusServerProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/radius_server_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RadiusServerProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/radius_server_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RadiusServerProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -973,7 +1091,7 @@ export class RadiusServerProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/radius_server_profile scm_radius_server_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/radius_server_profile scm_radius_server_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -984,7 +1102,8 @@ export class RadiusServerProfile extends cdktf.TerraformResource {
       terraformResourceType: 'scm_radius_server_profile',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.3'
+        providerVersion: '1.0.4',
+        providerVersionConstraint: '1.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

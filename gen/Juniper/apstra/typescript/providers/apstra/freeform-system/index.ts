@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_system
+// https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_system
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface FreeformSystemConfig extends cdktf.TerraformMetaArguments {
   /**
   * Apstra Blueprint ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_system#blueprint_id FreeformSystem#blueprint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_system#blueprint_id FreeformSystem#blueprint_id}
   */
   readonly blueprintId: string;
   /**
   * Deploy mode of the System
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_system#deploy_mode FreeformSystem#deploy_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_system#deploy_mode FreeformSystem#deploy_mode}
   */
   readonly deployMode?: string;
   /**
   * Device profile ID of the System. Required when `type` is "internal".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_system#device_profile_id FreeformSystem#device_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_system#device_profile_id FreeformSystem#device_profile_id}
   */
   readonly deviceProfileId?: string;
   /**
   * Hostname of the Freeform System.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_system#hostname FreeformSystem#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_system#hostname FreeformSystem#hostname}
   */
   readonly hostname: string;
   /**
   * Freeform System name as shown in the Web UI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_system#name FreeformSystem#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_system#name FreeformSystem#name}
   */
   readonly name: string;
   /**
   * ID (usually serial number) of the Managed Device to associate with this System
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_system#system_id FreeformSystem#system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_system#system_id FreeformSystem#system_id}
   */
   readonly systemId?: string;
   /**
   * Set of Tag labels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_system#tags FreeformSystem#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_system#tags FreeformSystem#tags}
   */
   readonly tags?: string[];
   /**
   * Type of the System. Must be one of `internal` or `external`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_system#type FreeformSystem#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_system#type FreeformSystem#type}
   */
   readonly type: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_system apstra_freeform_system}
+* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_system apstra_freeform_system}
 */
 export class FreeformSystem extends cdktf.TerraformResource {
 
@@ -74,7 +74,7 @@ export class FreeformSystem extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FreeformSystem resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FreeformSystem to import
-  * @param importFromId The id of the existing FreeformSystem that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_system#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FreeformSystem that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_system#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FreeformSystem to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -86,7 +86,7 @@ export class FreeformSystem extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_system apstra_freeform_system} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_system apstra_freeform_system} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -97,7 +97,8 @@ export class FreeformSystem extends cdktf.TerraformResource {
       terraformResourceType: 'apstra_freeform_system',
       terraformGeneratorMetadata: {
         providerName: 'apstra',
-        providerVersion: '0.95.0'
+        providerVersion: '0.95.1',
+        providerVersionConstraint: '0.95.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

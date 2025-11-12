@@ -61,7 +61,8 @@ export class NetworkInterfaceSecurityGroupAssociation extends cdktf.TerraformRes
       terraformResourceType: 'multy_network_interface_security_group_association',
       terraformGeneratorMetadata: {
         providerName: 'multy',
-        providerVersion: '0.0.16'
+        providerVersion: '0.0.16',
+        providerVersionConstraint: '0.0.16'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

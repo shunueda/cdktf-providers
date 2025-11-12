@@ -197,7 +197,8 @@ export class VpcEndpointSubnetAssociation extends cdktf.TerraformResource {
       terraformResourceType: 'aws_vpc_endpoint_subnet_association',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '3.29.6'
+        providerVersion: '3.29.6',
+        providerVersionConstraint: '3.29.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -16855,7 +16855,8 @@ export class AwsVpcSite extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_aws_vpc_site',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.44'
+        providerVersion: '0.11.44',
+        providerVersionConstraint: '0.11.44'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

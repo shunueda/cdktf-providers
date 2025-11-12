@@ -69,7 +69,8 @@ export class CockroachProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'cockroach',
       terraformGeneratorMetadata: {
         providerName: 'cockroach',
-        providerVersion: '1.16.0'
+        providerVersion: '1.16.0',
+        providerVersionConstraint: '1.16.0'
       },
       terraformProviderSource: 'cockroachdb/cockroach'
     });

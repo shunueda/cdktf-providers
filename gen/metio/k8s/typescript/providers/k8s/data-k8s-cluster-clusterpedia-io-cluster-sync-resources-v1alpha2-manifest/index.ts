@@ -489,7 +489,8 @@ export class DataK8SClusterClusterpediaIoClusterSyncResourcesV1Alpha2Manifest ex
       terraformResourceType: 'k8s_cluster_clusterpedia_io_cluster_sync_resources_v1alpha2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

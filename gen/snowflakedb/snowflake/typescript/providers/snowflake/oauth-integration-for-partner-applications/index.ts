@@ -2282,7 +2282,8 @@ export class OauthIntegrationForPartnerApplications extends cdktf.TerraformResou
       terraformResourceType: 'snowflake_oauth_integration_for_partner_applications',
       terraformGeneratorMetadata: {
         providerName: 'snowflake',
-        providerVersion: '2.10.1'
+        providerVersion: '2.10.1',
+        providerVersionConstraint: '2.10.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

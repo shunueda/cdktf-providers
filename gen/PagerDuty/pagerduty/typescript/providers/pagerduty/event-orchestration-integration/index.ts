@@ -137,7 +137,8 @@ export class EventOrchestrationIntegrationA extends cdktf.TerraformResource {
       terraformResourceType: 'pagerduty_event_orchestration_integration',
       terraformGeneratorMetadata: {
         providerName: 'pagerduty',
-        providerVersion: '3.30.5'
+        providerVersion: '3.30.5',
+        providerVersionConstraint: '3.30.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -67,7 +67,8 @@ export class TeamPermissionSetting extends cdktf.TerraformResource {
       terraformResourceType: 'datadog_team_permission_setting',
       terraformGeneratorMetadata: {
         providerName: 'datadog',
-        providerVersion: '3.79.0'
+        providerVersion: '3.79.0',
+        providerVersionConstraint: '3.79.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

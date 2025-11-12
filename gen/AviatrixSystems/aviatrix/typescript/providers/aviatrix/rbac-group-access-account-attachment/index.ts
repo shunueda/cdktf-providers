@@ -68,7 +68,8 @@ export class RbacGroupAccessAccountAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'aviatrix_rbac_group_access_account_attachment',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10'
+        providerVersion: '8.1.10',
+        providerVersionConstraint: '8.1.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

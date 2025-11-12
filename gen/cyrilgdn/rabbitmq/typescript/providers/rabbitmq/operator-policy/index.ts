@@ -241,7 +241,8 @@ export class OperatorPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'rabbitmq_operator_policy',
       terraformGeneratorMetadata: {
         providerName: 'rabbitmq',
-        providerVersion: '1.10.1'
+        providerVersion: '1.10.1',
+        providerVersionConstraint: '1.10.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

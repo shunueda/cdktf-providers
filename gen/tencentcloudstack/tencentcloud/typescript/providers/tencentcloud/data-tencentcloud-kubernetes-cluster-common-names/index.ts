@@ -165,7 +165,8 @@ export class DataTencentcloudKubernetesClusterCommonNames extends cdktf.Terrafor
       terraformResourceType: 'tencentcloud_kubernetes_cluster_common_names',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

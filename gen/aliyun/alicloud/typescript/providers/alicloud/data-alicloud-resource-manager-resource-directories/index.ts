@@ -160,7 +160,8 @@ export class DataAlicloudResourceManagerResourceDirectories extends cdktf.Terraf
       terraformResourceType: 'alicloud_resource_manager_resource_directories',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

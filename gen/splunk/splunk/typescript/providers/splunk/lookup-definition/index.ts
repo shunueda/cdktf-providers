@@ -510,7 +510,8 @@ export class LookupDefinition extends cdktf.TerraformResource {
       terraformResourceType: 'splunk_lookup_definition',
       terraformGeneratorMetadata: {
         providerName: 'splunk',
-        providerVersion: '1.4.32'
+        providerVersion: '1.4.32',
+        providerVersionConstraint: '1.4.32'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/metal_vlan
+// https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/metal_vlan
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface MetalVlanConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/metal_vlan#description MetalVlan#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/metal_vlan#description MetalVlan#description}
   */
   readonly description?: string;
   /**
   * Facility where to create the VLAN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/metal_vlan#facility MetalVlan#facility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/metal_vlan#facility MetalVlan#facility}
   */
   readonly facility?: string;
   /**
   * Metro in which to create the VLAN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/metal_vlan#metro MetalVlan#metro}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/metal_vlan#metro MetalVlan#metro}
   */
   readonly metro?: string;
   /**
   * ID of parent project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/metal_vlan#project_id MetalVlan#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/metal_vlan#project_id MetalVlan#project_id}
   */
   readonly projectId: string;
   /**
   * VLAN ID, must be unique in metro
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/metal_vlan#vxlan MetalVlan#vxlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/metal_vlan#vxlan MetalVlan#vxlan}
   */
   readonly vxlan?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/metal_vlan equinix_metal_vlan}
+* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/metal_vlan equinix_metal_vlan}
 */
 export class MetalVlan extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class MetalVlan extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MetalVlan resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MetalVlan to import
-  * @param importFromId The id of the existing MetalVlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/metal_vlan#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MetalVlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/metal_vlan#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MetalVlan to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class MetalVlan extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/metal_vlan equinix_metal_vlan} Resource
+  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/metal_vlan equinix_metal_vlan} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,7 +79,8 @@ export class MetalVlan extends cdktf.TerraformResource {
       terraformResourceType: 'equinix_metal_vlan',
       terraformGeneratorMetadata: {
         providerName: 'equinix',
-        providerVersion: '4.8.0'
+        providerVersion: '4.10.0',
+        providerVersionConstraint: '4.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -829,7 +829,8 @@ export class DataK8SSecretsStoreCsiXK8SIoSecretProviderClassV1Manifest extends c
       terraformResourceType: 'k8s_secrets_store_csi_x_k8s_io_secret_provider_class_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

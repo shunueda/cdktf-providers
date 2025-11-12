@@ -1,3 +1,3 @@
 # `hcs_ecs_compute_snapshot_rollback`
 
-Refer to the Terraform Registry for docs: [`hcs_ecs_compute_snapshot_rollback`](https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/ecs_compute_snapshot_rollback).
+Refer to the Terraform Registry for docs: [`hcs_ecs_compute_snapshot_rollback`](https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/ecs_compute_snapshot_rollback).

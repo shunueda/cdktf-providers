@@ -61,7 +61,8 @@ export class DataDevcycleEnvironment extends cdktf.TerraformDataSource {
       terraformResourceType: 'devcycle_environment',
       terraformGeneratorMetadata: {
         providerName: 'devcycle',
-        providerVersion: '1.0.2'
+        providerVersion: '1.0.2',
+        providerVersionConstraint: '1.0.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

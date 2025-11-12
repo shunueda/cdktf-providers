@@ -85,7 +85,8 @@ export class PowerplatformCopilotStudioApplicationInsights extends cdktf.Terrafo
       terraformResourceType: 'powerplatform_copilot_studio_application_insights',
       terraformGeneratorMetadata: {
         providerName: 'power-platform',
-        providerVersion: '3.9.1'
+        providerVersion: '3.9.1',
+        providerVersionConstraint: '3.9.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

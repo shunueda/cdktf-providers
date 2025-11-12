@@ -80,7 +80,8 @@ export class AutoscalingPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'rockset_autoscaling_policy',
       terraformGeneratorMetadata: {
         providerName: 'rockset',
-        providerVersion: '0.9.8'
+        providerVersion: '0.9.8',
+        providerVersionConstraint: '0.9.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

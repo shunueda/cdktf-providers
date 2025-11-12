@@ -96,7 +96,8 @@ export class IpMessagingServicesChannelsMessagesV2 extends cdktf.TerraformResour
       terraformResourceType: 'twilio_ip_messaging_services_channels_messages_v2',
       terraformGeneratorMetadata: {
         providerName: 'twilio',
-        providerVersion: '0.18.46'
+        providerVersion: '0.18.46',
+        providerVersionConstraint: '0.18.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

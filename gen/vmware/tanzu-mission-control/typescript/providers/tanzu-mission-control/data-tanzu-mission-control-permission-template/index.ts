@@ -22,9 +22,9 @@ export interface DataTanzuMissionControlPermissionTemplateConfig extends cdktf.T
   readonly id?: string;
   /**
   * The Tanzu capability of the credentials.
-  * When tanzu_capability is set to 'MANAGED_K8S_PROVIDER' tanzu_provider must be set to 'AWS_EKS'.
   * When tanzu_capability is set to 'DATA_PROTECTION' tanzu_provider must be set to 'AWS_EC2'.
-  * Valid values are: [MANAGED_K8S_PROVIDER DATA_PROTECTION]
+  * When tanzu_capability is set to 'MANAGED_K8S_PROVIDER' tanzu_provider must be set to 'AWS_EKS'.
+  * Valid values are: [DATA_PROTECTION MANAGED_K8S_PROVIDER]
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/tanzu-mission-control/1.4.9/docs/data-sources/permission_template#tanzu_capability DataTanzuMissionControlPermissionTemplate#tanzu_capability}
   */
@@ -80,7 +80,8 @@ export class DataTanzuMissionControlPermissionTemplate extends cdktf.TerraformDa
       terraformResourceType: 'tanzu-mission-control_permission_template',
       terraformGeneratorMetadata: {
         providerName: 'tanzu-mission-control',
-        providerVersion: '1.4.9'
+        providerVersion: '1.4.9',
+        providerVersionConstraint: '1.4.9'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

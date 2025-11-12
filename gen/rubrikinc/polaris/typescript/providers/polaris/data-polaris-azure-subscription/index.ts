@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/data-sources/azure_subscription
+// https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/data-sources/azure_subscription
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,27 +8,36 @@ import * as cdktf from 'cdktf';
 
 export interface DataPolarisAzureSubscriptionConfig extends cdktf.TerraformMetaArguments {
   /**
+  * RSC cloud account ID (UUID).
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/data-sources/azure_subscription#id DataPolarisAzureSubscription#id}
+  *
+  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+  */
+  readonly id?: string;
+  /**
   * Azure subscription name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/data-sources/azure_subscription#name DataPolarisAzureSubscription#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/data-sources/azure_subscription#name DataPolarisAzureSubscription#name}
   */
   readonly name?: string;
   /**
   * Azure subscription ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/data-sources/azure_subscription#subscription_id DataPolarisAzureSubscription#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/data-sources/azure_subscription#subscription_id DataPolarisAzureSubscription#subscription_id}
   */
   readonly subscriptionId?: string;
   /**
   * Azure tenant primary domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/data-sources/azure_subscription#tenant_domain DataPolarisAzureSubscription#tenant_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/data-sources/azure_subscription#tenant_domain DataPolarisAzureSubscription#tenant_domain}
   */
   readonly tenantDomain?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/data-sources/azure_subscription polaris_azure_subscription}
+* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/data-sources/azure_subscription polaris_azure_subscription}
 */
 export class DataPolarisAzureSubscription extends cdktf.TerraformDataSource {
 
@@ -44,7 +53,7 @@ export class DataPolarisAzureSubscription extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataPolarisAzureSubscription resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataPolarisAzureSubscription to import
-  * @param importFromId The id of the existing DataPolarisAzureSubscription that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/data-sources/azure_subscription#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataPolarisAzureSubscription that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/data-sources/azure_subscription#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataPolarisAzureSubscription to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +65,7 @@ export class DataPolarisAzureSubscription extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/data-sources/azure_subscription polaris_azure_subscription} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/data-sources/azure_subscription polaris_azure_subscription} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,7 +76,8 @@ export class DataPolarisAzureSubscription extends cdktf.TerraformDataSource {
       terraformResourceType: 'polaris_azure_subscription',
       terraformGeneratorMetadata: {
         providerName: 'polaris',
-        providerVersion: '1.2.1'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -77,6 +87,7 @@ export class DataPolarisAzureSubscription extends cdktf.TerraformDataSource {
       connection: config.connection,
       forEach: config.forEach
     });
+    this._id = config.id;
     this._name = config.name;
     this._subscriptionId = config.subscriptionId;
     this._tenantDomain = config.tenantDomain;
@@ -86,12 +97,23 @@ export class DataPolarisAzureSubscription extends cdktf.TerraformDataSource {
   // ATTRIBUTES
   // ==========
 
-  // id - computed: true, optional: false, required: false
+  // id - computed: true, optional: true, required: false
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
+  public set id(value: string) {
+    this._id = value;
+  }
+  public resetId() {
+    this._id = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idInput() {
+    return this._id;
+  }
 
-  // name - computed: false, optional: true, required: false
+  // name - computed: true, optional: true, required: false
   private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
@@ -107,7 +129,7 @@ export class DataPolarisAzureSubscription extends cdktf.TerraformDataSource {
     return this._name;
   }
 
-  // subscription_id - computed: false, optional: true, required: false
+  // subscription_id - computed: true, optional: true, required: false
   private _subscriptionId?: string; 
   public get subscriptionId() {
     return this.getStringAttribute('subscription_id');
@@ -123,7 +145,7 @@ export class DataPolarisAzureSubscription extends cdktf.TerraformDataSource {
     return this._subscriptionId;
   }
 
-  // tenant_domain - computed: false, optional: true, required: false
+  // tenant_domain - computed: true, optional: true, required: false
   private _tenantDomain?: string; 
   public get tenantDomain() {
     return this.getStringAttribute('tenant_domain');
@@ -145,6 +167,7 @@ export class DataPolarisAzureSubscription extends cdktf.TerraformDataSource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      id: cdktf.stringToTerraform(this._id),
       name: cdktf.stringToTerraform(this._name),
       subscription_id: cdktf.stringToTerraform(this._subscriptionId),
       tenant_domain: cdktf.stringToTerraform(this._tenantDomain),
@@ -153,6 +176,12 @@ export class DataPolarisAzureSubscription extends cdktf.TerraformDataSource {
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
+      id: {
+        value: cdktf.stringToHclTerraform(this._id),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       name: {
         value: cdktf.stringToHclTerraform(this._name),
         isBlock: false,

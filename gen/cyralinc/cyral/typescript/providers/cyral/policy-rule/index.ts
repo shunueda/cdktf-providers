@@ -1777,7 +1777,8 @@ export class PolicyRule extends cdktf.TerraformResource {
       terraformResourceType: 'cyral_policy_rule',
       terraformGeneratorMetadata: {
         providerName: 'cyral',
-        providerVersion: '4.16.3'
+        providerVersion: '4.16.3',
+        providerVersionConstraint: '4.16.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -272,7 +272,8 @@ export class DataSamsungcloudplatformLbServerGroups extends cdktf.TerraformDataS
       terraformResourceType: 'samsungcloudplatform_lb_server_groups',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0'
+        providerVersion: '3.15.0',
+        providerVersionConstraint: '3.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

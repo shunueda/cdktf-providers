@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/splunk/scp/1.2.6/docs/resources/hec_tokens
+// https://registry.terraform.io/providers/splunk/scp/1.2.7/docs/resources/hec_tokens
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface HecTokensConfig extends cdktf.TerraformMetaArguments {
   /**
   * Metadata for the HEC token in the format: key::value, delimited by spaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.2.6/docs/resources/hec_tokens#_meta HecTokens#_meta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.2.7/docs/resources/hec_tokens#_meta HecTokens#_meta}
   */
   readonly meta?: string;
   /**
   * Set of indexes allowed for events with this token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.2.6/docs/resources/hec_tokens#allowed_indexes HecTokens#allowed_indexes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.2.7/docs/resources/hec_tokens#allowed_indexes HecTokens#allowed_indexes}
   */
   readonly allowedIndexes?: string[];
   /**
   * Index to store generated events. Must not be an empty string. If allowed_indexes is provided, default_index must be one of allowed_indexes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.2.6/docs/resources/hec_tokens#default_index HecTokens#default_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.2.7/docs/resources/hec_tokens#default_index HecTokens#default_index}
   */
   readonly defaultIndex?: string;
   /**
   * Default source for events with this token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.2.6/docs/resources/hec_tokens#default_source HecTokens#default_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.2.7/docs/resources/hec_tokens#default_source HecTokens#default_source}
   */
   readonly defaultSource?: string;
   /**
   * Default sourcetype for events with this token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.2.6/docs/resources/hec_tokens#default_sourcetype HecTokens#default_sourcetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.2.7/docs/resources/hec_tokens#default_sourcetype HecTokens#default_sourcetype}
   */
   readonly defaultSourcetype?: string;
   /**
   * Input disabled indicator: false = Input Not disabled, true = Input disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.2.6/docs/resources/hec_tokens#disabled HecTokens#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.2.7/docs/resources/hec_tokens#disabled HecTokens#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.2.6/docs/resources/hec_tokens#id HecTokens#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.2.7/docs/resources/hec_tokens#id HecTokens#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,25 +53,25 @@ export interface HecTokensConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the hec token to create. Can not be updated after creation, if changed in config file terraform will propose a replacement (delete old hec token and recreate with new name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.2.6/docs/resources/hec_tokens#name HecTokens#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.2.7/docs/resources/hec_tokens#name HecTokens#name}
   */
   readonly name: string;
   /**
   * Token value for sending data to collector/event endpoint. Can not be updated after creation, if changed in config file terraform will propose a replacement (delete old HEC and recreate with new token)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.2.6/docs/resources/hec_tokens#token HecTokens#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.2.7/docs/resources/hec_tokens#token HecTokens#token}
   */
   readonly token?: string;
   /**
   * Indexer acknowledgement for this token: false = disabled, true = enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.2.6/docs/resources/hec_tokens#use_ack HecTokens#use_ack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.2.7/docs/resources/hec_tokens#use_ack HecTokens#use_ack}
   */
   readonly useAck?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/splunk/scp/1.2.6/docs/resources/hec_tokens scp_hec_tokens}
+* Represents a {@link https://registry.terraform.io/providers/splunk/scp/1.2.7/docs/resources/hec_tokens scp_hec_tokens}
 */
 export class HecTokens extends cdktf.TerraformResource {
 
@@ -87,7 +87,7 @@ export class HecTokens extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HecTokens resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HecTokens to import
-  * @param importFromId The id of the existing HecTokens that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk/scp/1.2.6/docs/resources/hec_tokens#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HecTokens that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk/scp/1.2.7/docs/resources/hec_tokens#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HecTokens to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -99,7 +99,7 @@ export class HecTokens extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/splunk/scp/1.2.6/docs/resources/hec_tokens scp_hec_tokens} Resource
+  * Create a new {@link https://registry.terraform.io/providers/splunk/scp/1.2.7/docs/resources/hec_tokens scp_hec_tokens} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -110,7 +110,8 @@ export class HecTokens extends cdktf.TerraformResource {
       terraformResourceType: 'scp_hec_tokens',
       terraformGeneratorMetadata: {
         providerName: 'scp',
-        providerVersion: '1.2.6'
+        providerVersion: '1.2.7',
+        providerVersionConstraint: '1.2.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

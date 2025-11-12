@@ -240,7 +240,8 @@ export class TenantTag extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_tenant_tag',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.28'
+        providerVersion: '0.11.28',
+        providerVersionConstraint: '0.11.28'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

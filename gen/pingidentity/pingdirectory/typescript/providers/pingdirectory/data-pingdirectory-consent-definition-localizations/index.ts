@@ -61,7 +61,8 @@ export class DataPingdirectoryConsentDefinitionLocalizations extends cdktf.Terra
       terraformResourceType: 'pingdirectory_consent_definition_localizations',
       terraformGeneratorMetadata: {
         providerName: 'pingdirectory',
-        providerVersion: '1.5.0'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

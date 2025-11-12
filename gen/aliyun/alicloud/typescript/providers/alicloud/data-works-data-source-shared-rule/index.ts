@@ -205,7 +205,8 @@ export class DataWorksDataSourceSharedRule extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_data_works_data_source_shared_rule',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

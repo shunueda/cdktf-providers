@@ -530,7 +530,8 @@ export class TencentcloudProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'tencentcloud',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       terraformProviderSource: 'tencentcloudstack/tencentcloud'
     });

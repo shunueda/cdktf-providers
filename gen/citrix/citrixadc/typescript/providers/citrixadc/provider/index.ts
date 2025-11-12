@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,57 +8,57 @@ import * as cdktf from 'cdktf';
 
 export interface CitrixadcProviderConfig {
   /**
-  * Perform the login operation and acquire a session token to be used for subsequent requests.
+  * Perform login to NetScaler
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs#do_login CitrixadcProvider#do_login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs#do_login CitrixadcProvider#do_login}
   */
   readonly doLogin?: boolean | cdktf.IResolvable;
   /**
   * The URL to the API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs#endpoint CitrixadcProvider#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs#endpoint CitrixadcProvider#endpoint}
   */
-  readonly endpoint: string;
+  readonly endpoint?: string;
   /**
   * Ignore validity of endpoint TLS certificate if true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs#insecure_skip_verify CitrixadcProvider#insecure_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs#insecure_skip_verify CitrixadcProvider#insecure_skip_verify}
   */
   readonly insecureSkipVerify?: boolean | cdktf.IResolvable;
   /**
   * Partition to target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs#partition CitrixadcProvider#partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs#partition CitrixadcProvider#partition}
   */
   readonly partition?: string;
   /**
   * Password to login to the NetScaler
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs#password CitrixadcProvider#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs#password CitrixadcProvider#password}
   */
   readonly password?: string;
   /**
   * Target NS ip. When defined username, password and endpoint must refer to MAS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs#proxied_ns CitrixadcProvider#proxied_ns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs#proxied_ns CitrixadcProvider#proxied_ns}
   */
   readonly proxiedNs?: string;
   /**
   * Username to login to the NetScaler
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs#username CitrixadcProvider#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs#username CitrixadcProvider#username}
   */
   readonly username?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs#alias CitrixadcProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs#alias CitrixadcProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs citrixadc}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs citrixadc}
 */
 export class CitrixadcProvider extends cdktf.TerraformProvider {
 
@@ -74,7 +74,7 @@ export class CitrixadcProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a CitrixadcProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CitrixadcProvider to import
-  * @param importFromId The id of the existing CitrixadcProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CitrixadcProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CitrixadcProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -86,18 +86,19 @@ export class CitrixadcProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs citrixadc} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs citrixadc} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
-  * @param options CitrixadcProviderConfig
+  * @param options CitrixadcProviderConfig = {}
   */
-  public constructor(scope: Construct, id: string, config: CitrixadcProviderConfig) {
+  public constructor(scope: Construct, id: string, config: CitrixadcProviderConfig = {}) {
     super(scope, id, {
       terraformResourceType: 'citrixadc',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       terraformProviderSource: 'citrix/citrixadc'
     });
@@ -131,13 +132,16 @@ export class CitrixadcProvider extends cdktf.TerraformProvider {
     return this._doLogin;
   }
 
-  // endpoint - computed: false, optional: false, required: true
+  // endpoint - computed: false, optional: true, required: false
   private _endpoint?: string; 
   public get endpoint() {
     return this._endpoint;
   }
   public set endpoint(value: string | undefined) {
     this._endpoint = value;
+  }
+  public resetEndpoint() {
+    this._endpoint = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get endpointInput() {

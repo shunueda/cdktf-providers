@@ -142,7 +142,8 @@ export class DataNetaddrAddressListMac extends cdktf.TerraformDataSource {
       terraformResourceType: 'netaddr_address_list_mac',
       terraformGeneratorMetadata: {
         providerName: 'netaddr',
-        providerVersion: '0.5.1'
+        providerVersion: '0.5.1',
+        providerVersionConstraint: '0.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

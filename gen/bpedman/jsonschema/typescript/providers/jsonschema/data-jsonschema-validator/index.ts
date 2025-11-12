@@ -68,7 +68,8 @@ export class DataJsonschemaValidator extends cdktf.TerraformDataSource {
       terraformResourceType: 'jsonschema_validator',
       terraformGeneratorMetadata: {
         providerName: 'jsonschema',
-        providerVersion: '0.2.1'
+        providerVersion: '0.2.1',
+        providerVersionConstraint: '0.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

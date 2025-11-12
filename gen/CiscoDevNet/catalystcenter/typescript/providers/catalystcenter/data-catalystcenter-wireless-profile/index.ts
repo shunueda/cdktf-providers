@@ -245,7 +245,8 @@ export class DataCatalystcenterWirelessProfile extends cdktf.TerraformDataSource
       terraformResourceType: 'catalystcenter_wireless_profile',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.2'
+        providerVersion: '0.4.2',
+        providerVersionConstraint: '0.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

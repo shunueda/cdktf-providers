@@ -238,7 +238,8 @@ export class DatabaseManagementCloudDbSystemCloudStackMonitoringsManagement exte
       terraformResourceType: 'oci_database_management_cloud_db_system_cloud_stack_monitorings_management',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

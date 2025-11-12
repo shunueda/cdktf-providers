@@ -160,7 +160,8 @@ export class FoundationCentralOnboardNodes extends cdktf.TerraformResource {
       terraformResourceType: 'nutanix_foundation_central_onboard_nodes',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3'
+        providerVersion: '2.3.3',
+        providerVersionConstraint: '2.3.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

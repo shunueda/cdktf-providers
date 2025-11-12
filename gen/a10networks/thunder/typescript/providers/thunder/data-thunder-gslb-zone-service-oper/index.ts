@@ -1757,7 +1757,8 @@ export class DataThunderGslbZoneServiceOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_gslb_zone_service_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

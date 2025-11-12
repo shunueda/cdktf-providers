@@ -238,7 +238,8 @@ export class DataSinglestoredbPrivateConnections extends cdktf.TerraformDataSour
       terraformResourceType: 'singlestoredb_private_connections',
       terraformGeneratorMetadata: {
         providerName: 'singlestoredb',
-        providerVersion: '0.1.6'
+        providerVersion: '0.1.6',
+        providerVersionConstraint: '0.1.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

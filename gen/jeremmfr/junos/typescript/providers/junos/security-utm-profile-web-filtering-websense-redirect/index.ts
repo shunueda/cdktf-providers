@@ -693,7 +693,8 @@ export class SecurityUtmProfileWebFilteringWebsenseRedirect extends cdktf.Terraf
       terraformResourceType: 'junos_security_utm_profile_web_filtering_websense_redirect',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0'
+        providerVersion: '2.15.0',
+        providerVersionConstraint: '2.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

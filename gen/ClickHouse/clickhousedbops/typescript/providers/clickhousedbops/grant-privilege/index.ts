@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.1/docs/resources/grant_privilege
+// https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.2/docs/resources/grant_privilege
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,55 +13,55 @@ export interface GrantPrivilegeConfig extends cdktf.TerraformMetaArguments {
   * When using a self hosted ClickHouse instance, this field should only be set when there is more than one replica and you are not using 'replicated' storage for user_directory.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.1/docs/resources/grant_privilege#cluster_name GrantPrivilege#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.2/docs/resources/grant_privilege#cluster_name GrantPrivilege#cluster_name}
   */
   readonly clusterName?: string;
   /**
   * The name of the column in `table_name` to grant privilege on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.1/docs/resources/grant_privilege#column_name GrantPrivilege#column_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.2/docs/resources/grant_privilege#column_name GrantPrivilege#column_name}
   */
   readonly columnName?: string;
   /**
   * The name of the database to grant privilege on. Defaults to all databases if left null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.1/docs/resources/grant_privilege#database_name GrantPrivilege#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.2/docs/resources/grant_privilege#database_name GrantPrivilege#database_name}
   */
   readonly databaseName?: string;
   /**
   * If true, the grantee will be able to grant the same privileges to others.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.1/docs/resources/grant_privilege#grant_option GrantPrivilege#grant_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.2/docs/resources/grant_privilege#grant_option GrantPrivilege#grant_option}
   */
   readonly grantOption?: boolean | cdktf.IResolvable;
   /**
   * Name of the `role` to grant privileges to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.1/docs/resources/grant_privilege#grantee_role_name GrantPrivilege#grantee_role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.2/docs/resources/grant_privilege#grantee_role_name GrantPrivilege#grantee_role_name}
   */
   readonly granteeRoleName?: string;
   /**
   * Name of the `user` to grant privileges to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.1/docs/resources/grant_privilege#grantee_user_name GrantPrivilege#grantee_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.2/docs/resources/grant_privilege#grantee_user_name GrantPrivilege#grantee_user_name}
   */
   readonly granteeUserName?: string;
   /**
   * The privilege to grant, such as `CREATE DATABASE`, `SELECT`, etc. See https://clickhouse.com/docs/en/sql-reference/statements/grant#privileges.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.1/docs/resources/grant_privilege#privilege_name GrantPrivilege#privilege_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.2/docs/resources/grant_privilege#privilege_name GrantPrivilege#privilege_name}
   */
   readonly privilegeName: string;
   /**
   * The name of the table to grant privilege on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.1/docs/resources/grant_privilege#table_name GrantPrivilege#table_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.2/docs/resources/grant_privilege#table_name GrantPrivilege#table_name}
   */
   readonly tableName?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.1/docs/resources/grant_privilege clickhousedbops_grant_privilege}
+* Represents a {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.2/docs/resources/grant_privilege clickhousedbops_grant_privilege}
 */
 export class GrantPrivilege extends cdktf.TerraformResource {
 
@@ -77,7 +77,7 @@ export class GrantPrivilege extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GrantPrivilege resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GrantPrivilege to import
-  * @param importFromId The id of the existing GrantPrivilege that should be imported. Refer to the {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.1/docs/resources/grant_privilege#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GrantPrivilege that should be imported. Refer to the {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.2/docs/resources/grant_privilege#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GrantPrivilege to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -89,7 +89,7 @@ export class GrantPrivilege extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.1/docs/resources/grant_privilege clickhousedbops_grant_privilege} Resource
+  * Create a new {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.2/docs/resources/grant_privilege clickhousedbops_grant_privilege} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -100,7 +100,8 @@ export class GrantPrivilege extends cdktf.TerraformResource {
       terraformResourceType: 'clickhousedbops_grant_privilege',
       terraformGeneratorMetadata: {
         providerName: 'clickhousedbops',
-        providerVersion: '1.3.1'
+        providerVersion: '1.3.2',
+        providerVersionConstraint: '1.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

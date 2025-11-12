@@ -851,7 +851,8 @@ export class DataK8SApisixApacheOrgApisixTlsV2Manifest extends cdktf.TerraformDa
       terraformResourceType: 'k8s_apisix_apache_org_apisix_tls_v2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

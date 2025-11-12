@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpprofile
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpprofile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,248 +8,252 @@ import * as cdktf from 'cdktf';
 
 export interface NstcpprofileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpprofile#ackaggregation Nstcpprofile#ackaggregation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpprofile#ackaggregation Nstcpprofile#ackaggregation}
   */
   readonly ackaggregation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpprofile#ackonpush Nstcpprofile#ackonpush}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpprofile#ackonpush Nstcpprofile#ackonpush}
   */
   readonly ackonpush?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpprofile#applyadaptivetcp Nstcpprofile#applyadaptivetcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpprofile#applyadaptivetcp Nstcpprofile#applyadaptivetcp}
   */
   readonly applyadaptivetcp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpprofile#buffersize Nstcpprofile#buffersize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpprofile#buffersize Nstcpprofile#buffersize}
   */
   readonly buffersize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpprofile#burstratecontrol Nstcpprofile#burstratecontrol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpprofile#burstratecontrol Nstcpprofile#burstratecontrol}
   */
   readonly burstratecontrol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpprofile#clientiptcpoption Nstcpprofile#clientiptcpoption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpprofile#clientiptcpoption Nstcpprofile#clientiptcpoption}
   */
   readonly clientiptcpoption?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpprofile#clientiptcpoptionnumber Nstcpprofile#clientiptcpoptionnumber}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpprofile#clientiptcpoptionnumber Nstcpprofile#clientiptcpoptionnumber}
   */
   readonly clientiptcpoptionnumber?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpprofile#delayedack Nstcpprofile#delayedack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpprofile#delayedack Nstcpprofile#delayedack}
   */
   readonly delayedack?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpprofile#dropestconnontimeout Nstcpprofile#dropestconnontimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpprofile#dropestconnontimeout Nstcpprofile#dropestconnontimeout}
   */
   readonly dropestconnontimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpprofile#drophalfclosedconnontimeout Nstcpprofile#drophalfclosedconnontimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpprofile#drophalfclosedconnontimeout Nstcpprofile#drophalfclosedconnontimeout}
   */
   readonly drophalfclosedconnontimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpprofile#dsack Nstcpprofile#dsack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpprofile#dsack Nstcpprofile#dsack}
   */
   readonly dsack?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpprofile#dupackthresh Nstcpprofile#dupackthresh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpprofile#dupackthresh Nstcpprofile#dupackthresh}
   */
   readonly dupackthresh?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpprofile#dynamicreceivebuffering Nstcpprofile#dynamicreceivebuffering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpprofile#dynamicreceivebuffering Nstcpprofile#dynamicreceivebuffering}
   */
   readonly dynamicreceivebuffering?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpprofile#ecn Nstcpprofile#ecn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpprofile#ecn Nstcpprofile#ecn}
   */
   readonly ecn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpprofile#establishclientconn Nstcpprofile#establishclientconn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpprofile#establishclientconn Nstcpprofile#establishclientconn}
   */
   readonly establishclientconn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpprofile#fack Nstcpprofile#fack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpprofile#fack Nstcpprofile#fack}
   */
   readonly fack?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpprofile#flavor Nstcpprofile#flavor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpprofile#flavor Nstcpprofile#flavor}
   */
   readonly flavor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpprofile#frto Nstcpprofile#frto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpprofile#frto Nstcpprofile#frto}
   */
   readonly frto?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpprofile#hystart Nstcpprofile#hystart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpprofile#hystart Nstcpprofile#hystart}
   */
   readonly hystart?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpprofile#id Nstcpprofile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpprofile#id Nstcpprofile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpprofile#initialcwnd Nstcpprofile#initialcwnd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpprofile#initialcwnd Nstcpprofile#initialcwnd}
   */
   readonly initialcwnd?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpprofile#ka Nstcpprofile#ka}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpprofile#ka Nstcpprofile#ka}
   */
   readonly ka?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpprofile#kaconnidletime Nstcpprofile#kaconnidletime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpprofile#kaconnidletime Nstcpprofile#kaconnidletime}
   */
   readonly kaconnidletime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpprofile#kamaxprobes Nstcpprofile#kamaxprobes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpprofile#kamaxprobes Nstcpprofile#kamaxprobes}
   */
   readonly kamaxprobes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpprofile#kaprobeinterval Nstcpprofile#kaprobeinterval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpprofile#kaprobeinterval Nstcpprofile#kaprobeinterval}
   */
   readonly kaprobeinterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpprofile#kaprobeupdatelastactivity Nstcpprofile#kaprobeupdatelastactivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpprofile#kaprobeupdatelastactivity Nstcpprofile#kaprobeupdatelastactivity}
   */
   readonly kaprobeupdatelastactivity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpprofile#maxburst Nstcpprofile#maxburst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpprofile#maxburst Nstcpprofile#maxburst}
   */
   readonly maxburst?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpprofile#maxcwnd Nstcpprofile#maxcwnd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpprofile#maxcwnd Nstcpprofile#maxcwnd}
   */
   readonly maxcwnd?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpprofile#maxpktpermss Nstcpprofile#maxpktpermss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpprofile#maxpktpermss Nstcpprofile#maxpktpermss}
   */
   readonly maxpktpermss?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpprofile#minrto Nstcpprofile#minrto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpprofile#minrto Nstcpprofile#minrto}
   */
   readonly minrto?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpprofile#mpcapablecbit Nstcpprofile#mpcapablecbit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpprofile#mpcapablecbit Nstcpprofile#mpcapablecbit}
   */
   readonly mpcapablecbit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpprofile#mptcp Nstcpprofile#mptcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpprofile#mptcp Nstcpprofile#mptcp}
   */
   readonly mptcp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpprofile#mptcpdropdataonpreestsf Nstcpprofile#mptcpdropdataonpreestsf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpprofile#mptcpdropdataonpreestsf Nstcpprofile#mptcpdropdataonpreestsf}
   */
   readonly mptcpdropdataonpreestsf?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpprofile#mptcpfastopen Nstcpprofile#mptcpfastopen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpprofile#mptcpfastopen Nstcpprofile#mptcpfastopen}
   */
   readonly mptcpfastopen?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpprofile#mptcpsessiontimeout Nstcpprofile#mptcpsessiontimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpprofile#mptcpsessiontimeout Nstcpprofile#mptcpsessiontimeout}
   */
   readonly mptcpsessiontimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpprofile#mss Nstcpprofile#mss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpprofile#mss Nstcpprofile#mss}
   */
   readonly mss?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpprofile#nagle Nstcpprofile#nagle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpprofile#nagle Nstcpprofile#nagle}
   */
   readonly nagle?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpprofile#name Nstcpprofile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpprofile#name Nstcpprofile#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpprofile#oooqsize Nstcpprofile#oooqsize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpprofile#oooqsize Nstcpprofile#oooqsize}
   */
   readonly oooqsize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpprofile#pktperretx Nstcpprofile#pktperretx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpprofile#pktperretx Nstcpprofile#pktperretx}
   */
   readonly pktperretx?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpprofile#rateqmax Nstcpprofile#rateqmax}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpprofile#rateqmax Nstcpprofile#rateqmax}
   */
   readonly rateqmax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpprofile#rstmaxack Nstcpprofile#rstmaxack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpprofile#rfc5961compliance Nstcpprofile#rfc5961compliance}
+  */
+  readonly rfc5961Compliance?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpprofile#rstmaxack Nstcpprofile#rstmaxack}
   */
   readonly rstmaxack?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpprofile#rstwindowattenuate Nstcpprofile#rstwindowattenuate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpprofile#rstwindowattenuate Nstcpprofile#rstwindowattenuate}
   */
   readonly rstwindowattenuate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpprofile#sack Nstcpprofile#sack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpprofile#sack Nstcpprofile#sack}
   */
   readonly sack?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpprofile#sendbuffsize Nstcpprofile#sendbuffsize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpprofile#sendbuffsize Nstcpprofile#sendbuffsize}
   */
   readonly sendbuffsize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpprofile#sendclientportintcpoption Nstcpprofile#sendclientportintcpoption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpprofile#sendclientportintcpoption Nstcpprofile#sendclientportintcpoption}
   */
   readonly sendclientportintcpoption?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpprofile#slowstartincr Nstcpprofile#slowstartincr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpprofile#slowstartincr Nstcpprofile#slowstartincr}
   */
   readonly slowstartincr?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpprofile#slowstartthreshold Nstcpprofile#slowstartthreshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpprofile#slowstartthreshold Nstcpprofile#slowstartthreshold}
   */
   readonly slowstartthreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpprofile#spoofsyndrop Nstcpprofile#spoofsyndrop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpprofile#spoofsyndrop Nstcpprofile#spoofsyndrop}
   */
   readonly spoofsyndrop?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpprofile#syncookie Nstcpprofile#syncookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpprofile#syncookie Nstcpprofile#syncookie}
   */
   readonly syncookie?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpprofile#taillossprobe Nstcpprofile#taillossprobe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpprofile#taillossprobe Nstcpprofile#taillossprobe}
   */
   readonly taillossprobe?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpprofile#tcpfastopen Nstcpprofile#tcpfastopen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpprofile#tcpfastopen Nstcpprofile#tcpfastopen}
   */
   readonly tcpfastopen?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpprofile#tcpfastopencookiesize Nstcpprofile#tcpfastopencookiesize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpprofile#tcpfastopencookiesize Nstcpprofile#tcpfastopencookiesize}
   */
   readonly tcpfastopencookiesize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpprofile#tcpmode Nstcpprofile#tcpmode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpprofile#tcpmode Nstcpprofile#tcpmode}
   */
   readonly tcpmode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpprofile#tcprate Nstcpprofile#tcprate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpprofile#tcprate Nstcpprofile#tcprate}
   */
   readonly tcprate?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpprofile#tcpsegoffload Nstcpprofile#tcpsegoffload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpprofile#tcpsegoffload Nstcpprofile#tcpsegoffload}
   */
   readonly tcpsegoffload?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpprofile#timestamp Nstcpprofile#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpprofile#timestamp Nstcpprofile#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpprofile#ws Nstcpprofile#ws}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpprofile#ws Nstcpprofile#ws}
   */
   readonly ws?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpprofile#wsval Nstcpprofile#wsval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpprofile#wsval Nstcpprofile#wsval}
   */
   readonly wsval?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpprofile citrixadc_nstcpprofile}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpprofile citrixadc_nstcpprofile}
 */
 export class Nstcpprofile extends cdktf.TerraformResource {
 
@@ -265,7 +269,7 @@ export class Nstcpprofile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Nstcpprofile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Nstcpprofile to import
-  * @param importFromId The id of the existing Nstcpprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpprofile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Nstcpprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpprofile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Nstcpprofile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -277,7 +281,7 @@ export class Nstcpprofile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nstcpprofile citrixadc_nstcpprofile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpprofile citrixadc_nstcpprofile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -288,7 +292,8 @@ export class Nstcpprofile extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_nstcpprofile',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -339,6 +344,7 @@ export class Nstcpprofile extends cdktf.TerraformResource {
     this._oooqsize = config.oooqsize;
     this._pktperretx = config.pktperretx;
     this._rateqmax = config.rateqmax;
+    this._rfc5961Compliance = config.rfc5961Compliance;
     this._rstmaxack = config.rstmaxack;
     this._rstwindowattenuate = config.rstwindowattenuate;
     this._sack = config.sack;
@@ -1016,6 +1022,22 @@ export class Nstcpprofile extends cdktf.TerraformResource {
     return this._rateqmax;
   }
 
+  // rfc5961compliance - computed: true, optional: true, required: false
+  private _rfc5961Compliance?: string; 
+  public get rfc5961Compliance() {
+    return this.getStringAttribute('rfc5961compliance');
+  }
+  public set rfc5961Compliance(value: string) {
+    this._rfc5961Compliance = value;
+  }
+  public resetRfc5961Compliance() {
+    this._rfc5961Compliance = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get rfc5961ComplianceInput() {
+    return this._rfc5961Compliance;
+  }
+
   // rstmaxack - computed: true, optional: true, required: false
   private _rstmaxack?: string; 
   public get rstmaxack() {
@@ -1351,6 +1373,7 @@ export class Nstcpprofile extends cdktf.TerraformResource {
       oooqsize: cdktf.numberToTerraform(this._oooqsize),
       pktperretx: cdktf.numberToTerraform(this._pktperretx),
       rateqmax: cdktf.numberToTerraform(this._rateqmax),
+      rfc5961compliance: cdktf.stringToTerraform(this._rfc5961Compliance),
       rstmaxack: cdktf.stringToTerraform(this._rstmaxack),
       rstwindowattenuate: cdktf.stringToTerraform(this._rstwindowattenuate),
       sack: cdktf.stringToTerraform(this._sack),
@@ -1619,6 +1642,12 @@ export class Nstcpprofile extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "number",
+      },
+      rfc5961compliance: {
+        value: cdktf.stringToHclTerraform(this._rfc5961Compliance),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
       rstmaxack: {
         value: cdktf.stringToHclTerraform(this._rstmaxack),

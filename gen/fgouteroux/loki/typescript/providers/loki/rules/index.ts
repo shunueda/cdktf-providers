@@ -187,7 +187,8 @@ export class Rules extends cdktf.TerraformResource {
       terraformResourceType: 'loki_rules',
       terraformGeneratorMetadata: {
         providerName: 'loki',
-        providerVersion: '1.0.1'
+        providerVersion: '1.0.1',
+        providerVersionConstraint: '1.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

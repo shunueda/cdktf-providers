@@ -146,7 +146,8 @@ export class AuthMethodAwsIamA extends cdktf.TerraformResource {
       terraformResourceType: 'akeyless_auth_method_aws_iam',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1'
+        providerVersion: '1.11.1',
+        providerVersionConstraint: '1.11.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -349,7 +349,8 @@ export class DataK8SHiveinternalOpenshiftIoClusterSyncLeaseV1Alpha1Manifest exte
       terraformResourceType: 'k8s_hiveinternal_openshift_io_cluster_sync_lease_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

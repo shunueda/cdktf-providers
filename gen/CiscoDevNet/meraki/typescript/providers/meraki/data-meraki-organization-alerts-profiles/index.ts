@@ -195,7 +195,8 @@ export class DataMerakiOrganizationAlertsProfiles extends cdktf.TerraformDataSou
       terraformResourceType: 'meraki_organization_alerts_profiles',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1'
+        providerVersion: '1.7.1',
+        providerVersionConstraint: '1.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

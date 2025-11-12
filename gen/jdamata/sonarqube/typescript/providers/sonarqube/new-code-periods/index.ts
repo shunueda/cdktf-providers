@@ -80,7 +80,8 @@ export class NewCodePeriods extends cdktf.TerraformResource {
       terraformResourceType: 'sonarqube_new_code_periods',
       terraformGeneratorMetadata: {
         providerName: 'sonarqube',
-        providerVersion: '0.16.17'
+        providerVersion: '0.16.17',
+        providerVersionConstraint: '0.16.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

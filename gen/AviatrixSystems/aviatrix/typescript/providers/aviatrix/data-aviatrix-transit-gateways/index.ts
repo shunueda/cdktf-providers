@@ -573,7 +573,8 @@ export class DataAviatrixTransitGateways extends cdktf.TerraformDataSource {
       terraformResourceType: 'aviatrix_transit_gateways',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10'
+        providerVersion: '8.1.10',
+        providerVersionConstraint: '8.1.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -361,7 +361,8 @@ export class DataTencentcloudTsfGatewayAllGroupApis extends cdktf.TerraformDataS
       terraformResourceType: 'tencentcloud_tsf_gateway_all_group_apis',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

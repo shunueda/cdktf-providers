@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/user_environment_assignment
+// https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/user_environment_assignment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface UserEnvironmentAssignmentConfig extends cdktf.TerraformMetaArgu
   /**
   * id of the environment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/user_environment_assignment#environment_id UserEnvironmentAssignment#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/user_environment_assignment#environment_id UserEnvironmentAssignment#environment_id}
   */
   readonly environmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/user_environment_assignment#id UserEnvironmentAssignment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/user_environment_assignment#id UserEnvironmentAssignment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface UserEnvironmentAssignmentConfig extends cdktf.TerraformMetaArgu
   /**
   * id of the assigned role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/user_environment_assignment#role_id UserEnvironmentAssignment#role_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/user_environment_assignment#role_id UserEnvironmentAssignment#role_id}
   */
   readonly roleId: string;
   /**
   * id of the user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/user_environment_assignment#user_id UserEnvironmentAssignment#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/user_environment_assignment#user_id UserEnvironmentAssignment#user_id}
   */
   readonly userId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/user_environment_assignment env0_user_environment_assignment}
+* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/user_environment_assignment env0_user_environment_assignment}
 */
 export class UserEnvironmentAssignment extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class UserEnvironmentAssignment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a UserEnvironmentAssignment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the UserEnvironmentAssignment to import
-  * @param importFromId The id of the existing UserEnvironmentAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/user_environment_assignment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing UserEnvironmentAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/user_environment_assignment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the UserEnvironmentAssignment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class UserEnvironmentAssignment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/user_environment_assignment env0_user_environment_assignment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/user_environment_assignment env0_user_environment_assignment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,7 +74,8 @@ export class UserEnvironmentAssignment extends cdktf.TerraformResource {
       terraformResourceType: 'env0_user_environment_assignment',
       terraformGeneratorMetadata: {
         providerName: 'env0',
-        providerVersion: '1.29.4'
+        providerVersion: '1.29.6',
+        providerVersionConstraint: '1.29.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

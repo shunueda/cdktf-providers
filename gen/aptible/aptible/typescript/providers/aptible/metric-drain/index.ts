@@ -104,7 +104,8 @@ export class MetricDrain extends cdktf.TerraformResource {
       terraformResourceType: 'aptible_metric_drain',
       terraformGeneratorMetadata: {
         providerName: 'aptible',
-        providerVersion: '0.9.18'
+        providerVersion: '0.9.18',
+        providerVersionConstraint: '0.9.18'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

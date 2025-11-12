@@ -1924,7 +1924,8 @@ export class Assessment extends cdktf.TerraformResource {
       terraformResourceType: 'dome9_assessment',
       terraformGeneratorMetadata: {
         providerName: 'dome9',
-        providerVersion: '1.40.4'
+        providerVersion: '1.40.4',
+        providerVersionConstraint: '1.40.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

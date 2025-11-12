@@ -396,7 +396,8 @@ export class DataThunderCgnv6DdosProtectionDisableNatIpByBgpOper extends cdktf.T
       terraformResourceType: 'thunder_cgnv6_ddos_protection_disable_nat_ip_by_bgp_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

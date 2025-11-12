@@ -64,7 +64,8 @@ export class DataBuildkitePipelineTemplate extends cdktf.TerraformDataSource {
       terraformResourceType: 'buildkite_pipeline_template',
       terraformGeneratorMetadata: {
         providerName: 'buildkite',
-        providerVersion: '1.26.0'
+        providerVersion: '1.26.0',
+        providerVersionConstraint: '1.26.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

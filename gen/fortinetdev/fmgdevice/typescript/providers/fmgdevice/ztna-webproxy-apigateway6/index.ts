@@ -1149,7 +1149,8 @@ export class ZtnaWebproxyApigateway6 extends cdktf.TerraformResource {
       terraformResourceType: 'fmgdevice_ztna_webproxy_apigateway6',
       terraformGeneratorMetadata: {
         providerName: 'fmgdevice',
-        providerVersion: '1.2.1'
+        providerVersion: '1.2.1',
+        providerVersionConstraint: '1.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

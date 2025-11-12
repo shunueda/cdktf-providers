@@ -189,7 +189,8 @@ export class DataTencentcloudCssTimeShiftRecordDetail extends cdktf.TerraformDat
       terraformResourceType: 'tencentcloud_css_time_shift_record_detail',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -61,7 +61,8 @@ export class AssignedManagedIdentity extends cdktf.TerraformResource {
       terraformResourceType: 'tharsis_assigned_managed_identity',
       terraformGeneratorMetadata: {
         providerName: 'tharsis',
-        providerVersion: '0.14.1'
+        providerVersion: '0.14.1',
+        providerVersionConstraint: '0.14.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -91,7 +91,8 @@ export class NdfcProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'ndfc',
       terraformGeneratorMetadata: {
         providerName: 'ndfc',
-        providerVersion: '0.2.0'
+        providerVersion: '0.2.0',
+        providerVersionConstraint: '0.2.0'
       },
       terraformProviderSource: 'CiscoDevNet/ndfc'
     });

@@ -249,7 +249,8 @@ export class Extractor extends cdktf.TerraformResource {
       terraformResourceType: 'graylog_extractor',
       terraformGeneratorMetadata: {
         providerName: 'graylog',
-        providerVersion: '1.0.4'
+        providerVersion: '1.0.4',
+        providerVersionConstraint: '1.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

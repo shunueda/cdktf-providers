@@ -64,7 +64,8 @@ export class Team extends cdktf.TerraformResource {
       terraformResourceType: 'pingdom_team',
       terraformGeneratorMetadata: {
         providerName: 'pingdom',
-        providerVersion: '1.21.3'
+        providerVersion: '1.21.3',
+        providerVersionConstraint: '1.21.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

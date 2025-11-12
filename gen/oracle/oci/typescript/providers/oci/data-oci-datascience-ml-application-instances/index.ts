@@ -827,7 +827,8 @@ export class DataOciDatascienceMlApplicationInstances extends cdktf.TerraformDat
       terraformResourceType: 'oci_datascience_ml_application_instances',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -157,7 +157,8 @@ export class CohesivenetProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'cohesivenet',
       terraformGeneratorMetadata: {
         providerName: 'cohesivenet',
-        providerVersion: '1.0.8'
+        providerVersion: '1.0.8',
+        providerVersionConstraint: '1.0.8'
       },
       terraformProviderSource: 'cohesive/cohesivenet'
     });

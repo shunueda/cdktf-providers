@@ -1177,7 +1177,8 @@ export class DataRedfishStorage extends cdktf.TerraformDataSource {
       terraformResourceType: 'redfish_storage',
       terraformGeneratorMetadata: {
         providerName: 'redfish',
-        providerVersion: '1.6.0'
+        providerVersion: '1.6.0',
+        providerVersionConstraint: '1.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -153,7 +153,8 @@ export class DataFastlyDictionaries extends cdktf.TerraformDataSource {
       terraformResourceType: 'fastly_dictionaries',
       terraformGeneratorMetadata: {
         providerName: 'fastly',
-        providerVersion: '8.4.0'
+        providerVersion: '8.4.0',
+        providerVersionConstraint: '8.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

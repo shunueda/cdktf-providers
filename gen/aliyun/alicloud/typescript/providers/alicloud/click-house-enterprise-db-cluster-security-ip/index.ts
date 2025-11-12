@@ -234,7 +234,8 @@ export class ClickHouseEnterpriseDbClusterSecurityIp extends cdktf.TerraformReso
       terraformResourceType: 'alicloud_click_house_enterprise_db_cluster_security_ip',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

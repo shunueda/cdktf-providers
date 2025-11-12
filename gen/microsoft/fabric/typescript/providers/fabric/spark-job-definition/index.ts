@@ -499,7 +499,8 @@ export class SparkJobDefinition extends cdktf.TerraformResource {
       terraformResourceType: 'fabric_spark_job_definition',
       terraformGeneratorMetadata: {
         providerName: 'fabric',
-        providerVersion: '1.6.0'
+        providerVersion: '1.6.0',
+        providerVersionConstraint: '1.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -58,7 +58,8 @@ export class DataNginxproxymanagerRedirectionHost extends cdktf.TerraformDataSou
       terraformResourceType: 'nginxproxymanager_redirection_host',
       terraformGeneratorMetadata: {
         providerName: 'nginxproxymanager',
-        providerVersion: '1.2.2'
+        providerVersion: '1.2.2',
+        providerVersionConstraint: '1.2.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

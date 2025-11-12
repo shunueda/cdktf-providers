@@ -180,7 +180,8 @@ export class DataAuthentikGroup extends cdktf.TerraformDataSource {
       terraformResourceType: 'authentik_group',
       terraformGeneratorMetadata: {
         providerName: 'authentik',
-        providerVersion: '2025.10.0'
+        providerVersion: '2025.10.0',
+        providerVersionConstraint: '2025.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

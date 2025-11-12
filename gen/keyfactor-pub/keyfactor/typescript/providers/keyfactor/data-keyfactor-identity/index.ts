@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/data-sources/identity
+// https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/data-sources/identity
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataKeyfactorIdentityConfig extends cdktf.TerraformMetaArgument
   /**
   * A string containing the account name for the security identity. For Active Directory user and groups, this will be in the form DOMAIN\\user or group name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/data-sources/identity#account_name DataKeyfactorIdentity#account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/data-sources/identity#account_name DataKeyfactorIdentity#account_name}
   */
   readonly accountName: string;
   /**
   * An array containing the role IDs that the identity is attached to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/data-sources/identity#roles DataKeyfactorIdentity#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/data-sources/identity#roles DataKeyfactorIdentity#roles}
   */
   readonly roles?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/data-sources/identity keyfactor_identity}
+* Represents a {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/data-sources/identity keyfactor_identity}
 */
 export class DataKeyfactorIdentity extends cdktf.TerraformDataSource {
 
@@ -38,7 +38,7 @@ export class DataKeyfactorIdentity extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataKeyfactorIdentity resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataKeyfactorIdentity to import
-  * @param importFromId The id of the existing DataKeyfactorIdentity that should be imported. Refer to the {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/data-sources/identity#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataKeyfactorIdentity that should be imported. Refer to the {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/data-sources/identity#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataKeyfactorIdentity to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class DataKeyfactorIdentity extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/data-sources/identity keyfactor_identity} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/data-sources/identity keyfactor_identity} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,7 +61,8 @@ export class DataKeyfactorIdentity extends cdktf.TerraformDataSource {
       terraformResourceType: 'keyfactor_identity',
       terraformGeneratorMetadata: {
         providerName: 'keyfactor',
-        providerVersion: '2.6.0'
+        providerVersion: '2.7.0',
+        providerVersionConstraint: '2.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

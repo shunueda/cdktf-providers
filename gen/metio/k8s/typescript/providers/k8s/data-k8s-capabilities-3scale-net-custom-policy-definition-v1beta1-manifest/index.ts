@@ -800,7 +800,8 @@ export class DataK8SCapabilities3ScaleNetCustomPolicyDefinitionV1Beta1Manifest e
       terraformResourceType: 'k8s_capabilities_3scale_net_custom_policy_definition_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

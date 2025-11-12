@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_check_threat_ioc_feed
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_check_threat_ioc_feed
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ManagementCheckThreatIocFeedConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_check_threat_ioc_feed#id ManagementCheckThreatIocFeed#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_check_threat_ioc_feed#id ManagementCheckThreatIocFeed#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface ManagementCheckThreatIocFeedConfig extends cdktf.TerraformMetaA
   /**
   * threat ioc feed parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_check_threat_ioc_feed#ioc_feed ManagementCheckThreatIocFeed#ioc_feed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_check_threat_ioc_feed#ioc_feed ManagementCheckThreatIocFeed#ioc_feed}
   */
   readonly iocFeed: { [key: string]: string };
   /**
   * On what targets to execute this command. Targets may be identified by their name, or object unique identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_check_threat_ioc_feed#targets ManagementCheckThreatIocFeed#targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_check_threat_ioc_feed#targets ManagementCheckThreatIocFeed#targets}
   */
   readonly targets: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_check_threat_ioc_feed checkpoint_management_check_threat_ioc_feed}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_check_threat_ioc_feed checkpoint_management_check_threat_ioc_feed}
 */
 export class ManagementCheckThreatIocFeed extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class ManagementCheckThreatIocFeed extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementCheckThreatIocFeed resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementCheckThreatIocFeed to import
-  * @param importFromId The id of the existing ManagementCheckThreatIocFeed that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_check_threat_ioc_feed#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementCheckThreatIocFeed that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_check_threat_ioc_feed#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementCheckThreatIocFeed to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class ManagementCheckThreatIocFeed extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_check_threat_ioc_feed checkpoint_management_check_threat_ioc_feed} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_check_threat_ioc_feed checkpoint_management_check_threat_ioc_feed} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,7 +68,8 @@ export class ManagementCheckThreatIocFeed extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_check_threat_ioc_feed',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -74,7 +74,8 @@ export class ConnectorAws extends cdktf.TerraformResource {
       terraformResourceType: 'wiz_connector_aws',
       terraformGeneratorMetadata: {
         providerName: 'wiz',
-        providerVersion: '1.2.5'
+        providerVersion: '1.2.5',
+        providerVersionConstraint: '1.2.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

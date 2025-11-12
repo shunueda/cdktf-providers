@@ -92,7 +92,8 @@ export class IdentityCenterExternalSamlIdentityProvider extends cdktf.TerraformR
       terraformResourceType: 'tencentcloud_identity_center_external_saml_identity_provider',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

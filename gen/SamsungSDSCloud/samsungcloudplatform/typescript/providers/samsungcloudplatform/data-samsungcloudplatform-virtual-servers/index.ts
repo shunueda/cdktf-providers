@@ -638,7 +638,8 @@ export class DataSamsungcloudplatformVirtualServers extends cdktf.TerraformDataS
       terraformResourceType: 'samsungcloudplatform_virtual_servers',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0'
+        providerVersion: '3.15.0',
+        providerVersionConstraint: '3.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

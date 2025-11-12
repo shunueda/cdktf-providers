@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/policy_attachment
+// https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/policy_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface PolicyAttachmentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/policy_attachment#id PolicyAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/policy_attachment#id PolicyAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface PolicyAttachmentConfig extends cdktf.TerraformMetaArguments {
   /**
   * ID of the module to attach the policy to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/policy_attachment#module_id PolicyAttachment#module_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/policy_attachment#module_id PolicyAttachment#module_id}
   */
   readonly moduleId?: string;
   /**
   * ID of the policy to attach
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/policy_attachment#policy_id PolicyAttachment#policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/policy_attachment#policy_id PolicyAttachment#policy_id}
   */
   readonly policyId: string;
   /**
   * ID of the stack to attach the policy to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/policy_attachment#stack_id PolicyAttachment#stack_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/policy_attachment#stack_id PolicyAttachment#stack_id}
   */
   readonly stackId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/policy_attachment spacelift_policy_attachment}
+* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/policy_attachment spacelift_policy_attachment}
 */
 export class PolicyAttachment extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class PolicyAttachment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyAttachment to import
-  * @param importFromId The id of the existing PolicyAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/policy_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/policy_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class PolicyAttachment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/policy_attachment spacelift_policy_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/policy_attachment spacelift_policy_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,7 +74,8 @@ export class PolicyAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'spacelift_policy_attachment',
       terraformGeneratorMetadata: {
         providerName: 'spacelift',
-        providerVersion: '1.36.0'
+        providerVersion: '1.37.0',
+        providerVersionConstraint: '1.37.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

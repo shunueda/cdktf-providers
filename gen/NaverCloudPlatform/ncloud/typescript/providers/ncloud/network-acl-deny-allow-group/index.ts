@@ -72,7 +72,8 @@ export class NetworkAclDenyAllowGroup extends cdktf.TerraformResource {
       terraformResourceType: 'ncloud_network_acl_deny_allow_group',
       terraformGeneratorMetadata: {
         providerName: 'ncloud',
-        providerVersion: '4.0.4'
+        providerVersion: '4.0.4',
+        providerVersionConstraint: '4.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

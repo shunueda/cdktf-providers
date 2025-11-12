@@ -53,7 +53,8 @@ export class DataOciJmsUtilsSubscriptionAcknowledgmentConfiguration extends cdkt
       terraformResourceType: 'oci_jms_utils_subscription_acknowledgment_configuration',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

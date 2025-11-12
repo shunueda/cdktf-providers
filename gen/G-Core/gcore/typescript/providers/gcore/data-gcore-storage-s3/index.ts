@@ -68,7 +68,8 @@ export class DataGcoreStorageS3 extends cdktf.TerraformDataSource {
       terraformResourceType: 'gcore_storage_s3',
       terraformGeneratorMetadata: {
         providerName: 'gcore',
-        providerVersion: '0.31.3'
+        providerVersion: '0.31.3',
+        providerVersionConstraint: '0.31.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

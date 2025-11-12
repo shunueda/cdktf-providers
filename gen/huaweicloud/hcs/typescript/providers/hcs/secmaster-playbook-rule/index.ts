@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/secmaster_playbook_rule
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_playbook_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface SecmasterPlaybookRuleConfig extends cdktf.TerraformMetaArgument
   /**
   * Specifies the cron expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/secmaster_playbook_rule#cron SecmasterPlaybookRule#cron}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_playbook_rule#cron SecmasterPlaybookRule#cron}
   */
   readonly cron?: string;
   /**
   * Specifies the playbook end time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/secmaster_playbook_rule#end_time SecmasterPlaybookRule#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_playbook_rule#end_time SecmasterPlaybookRule#end_time}
   */
   readonly endTime?: string;
   /**
   * Specifies the playbook end type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/secmaster_playbook_rule#end_type SecmasterPlaybookRule#end_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_playbook_rule#end_type SecmasterPlaybookRule#end_type}
   */
   readonly endType?: string;
   /**
   * Specifies the execution type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/secmaster_playbook_rule#execution_type SecmasterPlaybookRule#execution_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_playbook_rule#execution_type SecmasterPlaybookRule#execution_type}
   */
   readonly executionType?: string;
   /**
   * Specifies the expression type of the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/secmaster_playbook_rule#expression_type SecmasterPlaybookRule#expression_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_playbook_rule#expression_type SecmasterPlaybookRule#expression_type}
   */
   readonly expressionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/secmaster_playbook_rule#id SecmasterPlaybookRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_playbook_rule#id SecmasterPlaybookRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,53 +47,53 @@ export interface SecmasterPlaybookRuleConfig extends cdktf.TerraformMetaArgument
   /**
   * Specifies the logics of the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/secmaster_playbook_rule#logics SecmasterPlaybookRule#logics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_playbook_rule#logics SecmasterPlaybookRule#logics}
   */
   readonly logics?: string[];
   /**
   * Specifies the repeat range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/secmaster_playbook_rule#only_once SecmasterPlaybookRule#only_once}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_playbook_rule#only_once SecmasterPlaybookRule#only_once}
   */
   readonly onlyOnce?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/secmaster_playbook_rule#region SecmasterPlaybookRule#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_playbook_rule#region SecmasterPlaybookRule#region}
   */
   readonly region?: string;
   /**
   * Specifies the repeat range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/secmaster_playbook_rule#repeat_range SecmasterPlaybookRule#repeat_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_playbook_rule#repeat_range SecmasterPlaybookRule#repeat_range}
   */
   readonly repeatRange?: string;
   /**
   * Specifies the schedule type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/secmaster_playbook_rule#schedule_type SecmasterPlaybookRule#schedule_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_playbook_rule#schedule_type SecmasterPlaybookRule#schedule_type}
   */
   readonly scheduleType?: string;
   /**
   * Specifies the playbook start type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/secmaster_playbook_rule#start_type SecmasterPlaybookRule#start_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_playbook_rule#start_type SecmasterPlaybookRule#start_type}
   */
   readonly startType?: string;
   /**
   * Specifies playbook version ID of the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/secmaster_playbook_rule#version_id SecmasterPlaybookRule#version_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_playbook_rule#version_id SecmasterPlaybookRule#version_id}
   */
   readonly versionId: string;
   /**
   * Specifies the ID of the workspace to which the playbook rule belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/secmaster_playbook_rule#workspace_id SecmasterPlaybookRule#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_playbook_rule#workspace_id SecmasterPlaybookRule#workspace_id}
   */
   readonly workspaceId: string;
   /**
   * conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/secmaster_playbook_rule#conditions SecmasterPlaybookRule#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_playbook_rule#conditions SecmasterPlaybookRule#conditions}
   */
   readonly conditions?: SecmasterPlaybookRuleConditions[] | cdktf.IResolvable;
 }
@@ -101,19 +101,19 @@ export interface SecmasterPlaybookRuleConditions {
   /**
   * Specifies the condition data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/secmaster_playbook_rule#data SecmasterPlaybookRule#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_playbook_rule#data SecmasterPlaybookRule#data}
   */
   readonly data?: string[];
   /**
   * Specifies the condition detail.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/secmaster_playbook_rule#detail SecmasterPlaybookRule#detail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_playbook_rule#detail SecmasterPlaybookRule#detail}
   */
   readonly detail?: string;
   /**
   * Specifies the condition name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/secmaster_playbook_rule#name SecmasterPlaybookRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_playbook_rule#name SecmasterPlaybookRule#name}
   */
   readonly name?: string;
 }
@@ -287,7 +287,7 @@ export class SecmasterPlaybookRuleConditionsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/secmaster_playbook_rule hcs_secmaster_playbook_rule}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_playbook_rule hcs_secmaster_playbook_rule}
 */
 export class SecmasterPlaybookRule extends cdktf.TerraformResource {
 
@@ -303,7 +303,7 @@ export class SecmasterPlaybookRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecmasterPlaybookRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecmasterPlaybookRule to import
-  * @param importFromId The id of the existing SecmasterPlaybookRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/secmaster_playbook_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecmasterPlaybookRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_playbook_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecmasterPlaybookRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -315,7 +315,7 @@ export class SecmasterPlaybookRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/secmaster_playbook_rule hcs_secmaster_playbook_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_playbook_rule hcs_secmaster_playbook_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -326,7 +326,8 @@ export class SecmasterPlaybookRule extends cdktf.TerraformResource {
       terraformResourceType: 'hcs_secmaster_playbook_rule',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.19'
+        providerVersion: '2.4.20',
+        providerVersionConstraint: '2.4.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

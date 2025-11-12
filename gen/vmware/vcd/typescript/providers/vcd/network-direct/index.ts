@@ -362,7 +362,8 @@ export class NetworkDirect extends cdktf.TerraformResource {
       terraformResourceType: 'vcd_network_direct',
       terraformGeneratorMetadata: {
         providerName: 'vcd',
-        providerVersion: '3.14.1'
+        providerVersion: '3.14.1',
+        providerVersionConstraint: '3.14.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

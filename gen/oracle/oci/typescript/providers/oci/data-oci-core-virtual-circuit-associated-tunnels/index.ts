@@ -327,7 +327,8 @@ export class DataOciCoreVirtualCircuitAssociatedTunnels extends cdktf.TerraformD
       terraformResourceType: 'oci_core_virtual_circuit_associated_tunnels',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -74,7 +74,8 @@ export class User extends cdktf.TerraformResource {
       terraformResourceType: 'materialize_user',
       terraformGeneratorMetadata: {
         providerName: 'materialize',
-        providerVersion: '0.9.2'
+        providerVersion: '0.9.2',
+        providerVersionConstraint: '0.9.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

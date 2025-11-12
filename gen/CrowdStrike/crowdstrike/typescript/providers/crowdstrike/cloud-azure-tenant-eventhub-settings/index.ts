@@ -243,7 +243,8 @@ export class CloudAzureTenantEventhubSettings extends cdktf.TerraformResource {
       terraformResourceType: 'crowdstrike_cloud_azure_tenant_eventhub_settings',
       terraformGeneratorMetadata: {
         providerName: 'crowdstrike',
-        providerVersion: '0.0.43'
+        providerVersion: '0.0.43',
+        providerVersionConstraint: '0.0.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

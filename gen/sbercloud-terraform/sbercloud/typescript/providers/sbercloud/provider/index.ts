@@ -190,7 +190,8 @@ export class SbercloudProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'sbercloud',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14'
+        providerVersion: '1.12.14',
+        providerVersionConstraint: '1.12.14'
       },
       terraformProviderSource: 'sbercloud-terraform/sbercloud'
     });

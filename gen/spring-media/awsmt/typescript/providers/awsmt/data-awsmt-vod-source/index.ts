@@ -142,7 +142,8 @@ export class DataAwsmtVodSource extends cdktf.TerraformDataSource {
       terraformResourceType: 'awsmt_vod_source',
       terraformGeneratorMetadata: {
         providerName: 'awsmt',
-        providerVersion: '2.5.1'
+        providerVersion: '2.5.1',
+        providerVersionConstraint: '2.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

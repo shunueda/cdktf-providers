@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/autoscaling_alarmtask
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/autoscaling_alarmtask
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,80 +8,80 @@ import * as cdktf from 'cdktf';
 
 export interface AutoscalingAlarmtaskConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/autoscaling_alarmtask#alarm_actions AutoscalingAlarmtask#alarm_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/autoscaling_alarmtask#alarm_actions AutoscalingAlarmtask#alarm_actions}
   */
   readonly alarmActions: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/autoscaling_alarmtask#alarm_task_name AutoscalingAlarmtask#alarm_task_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/autoscaling_alarmtask#alarm_task_name AutoscalingAlarmtask#alarm_task_name}
   */
   readonly alarmTaskName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/autoscaling_alarmtask#cloud_monitor_group_id AutoscalingAlarmtask#cloud_monitor_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/autoscaling_alarmtask#cloud_monitor_group_id AutoscalingAlarmtask#cloud_monitor_group_id}
   */
   readonly cloudMonitorGroupId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/autoscaling_alarmtask#comparison_operator AutoscalingAlarmtask#comparison_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/autoscaling_alarmtask#comparison_operator AutoscalingAlarmtask#comparison_operator}
   */
   readonly comparisonOperator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/autoscaling_alarmtask#description AutoscalingAlarmtask#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/autoscaling_alarmtask#description AutoscalingAlarmtask#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/autoscaling_alarmtask#dimensions AutoscalingAlarmtask#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/autoscaling_alarmtask#dimensions AutoscalingAlarmtask#dimensions}
   */
   readonly dimensions?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/autoscaling_alarmtask#enable AutoscalingAlarmtask#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/autoscaling_alarmtask#enable AutoscalingAlarmtask#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/autoscaling_alarmtask#evaluation_count AutoscalingAlarmtask#evaluation_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/autoscaling_alarmtask#evaluation_count AutoscalingAlarmtask#evaluation_count}
   */
   readonly evaluationCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/autoscaling_alarmtask#id AutoscalingAlarmtask#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/autoscaling_alarmtask#id AutoscalingAlarmtask#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/autoscaling_alarmtask#metric_name AutoscalingAlarmtask#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/autoscaling_alarmtask#metric_name AutoscalingAlarmtask#metric_name}
   */
   readonly metricName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/autoscaling_alarmtask#metric_type AutoscalingAlarmtask#metric_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/autoscaling_alarmtask#metric_type AutoscalingAlarmtask#metric_type}
   */
   readonly metricType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/autoscaling_alarmtask#name AutoscalingAlarmtask#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/autoscaling_alarmtask#name AutoscalingAlarmtask#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/autoscaling_alarmtask#period AutoscalingAlarmtask#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/autoscaling_alarmtask#period AutoscalingAlarmtask#period}
   */
   readonly period?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/autoscaling_alarmtask#scaling_group_id AutoscalingAlarmtask#scaling_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/autoscaling_alarmtask#scaling_group_id AutoscalingAlarmtask#scaling_group_id}
   */
   readonly scalingGroupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/autoscaling_alarmtask#statistics AutoscalingAlarmtask#statistics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/autoscaling_alarmtask#statistics AutoscalingAlarmtask#statistics}
   */
   readonly statistics?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/autoscaling_alarmtask#status AutoscalingAlarmtask#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/autoscaling_alarmtask#status AutoscalingAlarmtask#status}
   */
   readonly status?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/autoscaling_alarmtask#threshold AutoscalingAlarmtask#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/autoscaling_alarmtask#threshold AutoscalingAlarmtask#threshold}
   */
   readonly threshold: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/autoscaling_alarmtask alibabacloudstack_autoscaling_alarmtask}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/autoscaling_alarmtask alibabacloudstack_autoscaling_alarmtask}
 */
 export class AutoscalingAlarmtask extends cdktf.TerraformResource {
 
@@ -97,7 +97,7 @@ export class AutoscalingAlarmtask extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AutoscalingAlarmtask resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AutoscalingAlarmtask to import
-  * @param importFromId The id of the existing AutoscalingAlarmtask that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/autoscaling_alarmtask#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AutoscalingAlarmtask that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/autoscaling_alarmtask#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AutoscalingAlarmtask to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -109,7 +109,7 @@ export class AutoscalingAlarmtask extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/autoscaling_alarmtask alibabacloudstack_autoscaling_alarmtask} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/autoscaling_alarmtask alibabacloudstack_autoscaling_alarmtask} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -120,7 +120,8 @@ export class AutoscalingAlarmtask extends cdktf.TerraformResource {
       terraformResourceType: 'alibabacloudstack_autoscaling_alarmtask',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.19'
+        providerVersion: '3.16.21',
+        providerVersionConstraint: '3.16.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

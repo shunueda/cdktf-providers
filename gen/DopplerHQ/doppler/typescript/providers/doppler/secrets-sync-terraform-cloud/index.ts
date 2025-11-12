@@ -110,7 +110,8 @@ export class SecretsSyncTerraformCloud extends cdktf.TerraformResource {
       terraformResourceType: 'doppler_secrets_sync_terraform_cloud',
       terraformGeneratorMetadata: {
         providerName: 'doppler',
-        providerVersion: '1.21.0'
+        providerVersion: '1.21.0',
+        providerVersionConstraint: '1.21.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

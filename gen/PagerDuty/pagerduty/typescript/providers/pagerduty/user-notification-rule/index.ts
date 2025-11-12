@@ -191,7 +191,8 @@ export class UserNotificationRule extends cdktf.TerraformResource {
       terraformResourceType: 'pagerduty_user_notification_rule',
       terraformGeneratorMetadata: {
         providerName: 'pagerduty',
-        providerVersion: '3.30.5'
+        providerVersion: '3.30.5',
+        providerVersionConstraint: '3.30.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

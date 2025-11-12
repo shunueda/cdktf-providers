@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.2/docs/resources/virtual_cluster
+// https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.3/docs/resources/virtual_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface VirtualClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * Virtual Cluster Cloud Location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.2/docs/resources/virtual_cluster#cloud VirtualCluster#cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.3/docs/resources/virtual_cluster#cloud VirtualCluster#cloud}
   */
   readonly cloud?: VirtualClusterCloud;
   /**
   * Virtual Cluster Configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.2/docs/resources/virtual_cluster#configuration VirtualCluster#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.3/docs/resources/virtual_cluster#configuration VirtualCluster#configuration}
   */
   readonly configuration?: VirtualClusterConfiguration;
   /**
   * Virtual Cluster Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.2/docs/resources/virtual_cluster#name VirtualCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.3/docs/resources/virtual_cluster#name VirtualCluster#name}
   */
   readonly name: string;
   /**
   * Tags associated with the virtual cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.2/docs/resources/virtual_cluster#tags VirtualCluster#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.3/docs/resources/virtual_cluster#tags VirtualCluster#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Virtual Cluster Tier. Currently, the valid virtual cluster tiers are `dev`, `pro`, and `fundamentals`.
+  * Virtual Cluster Tier. Currently, the valid virtual cluster tiers are `dev`, `pro`, `fundamentals`, and `enterprise`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.2/docs/resources/virtual_cluster#tier VirtualCluster#tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.3/docs/resources/virtual_cluster#tier VirtualCluster#tier}
   */
   readonly tier: string;
   /**
   * Virtual Cluster Type. Currently, the only valid virtual cluster types is `byoc` (default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.2/docs/resources/virtual_cluster#type VirtualCluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.3/docs/resources/virtual_cluster#type VirtualCluster#type}
   */
   readonly type?: string;
 }
@@ -143,19 +143,19 @@ export interface VirtualClusterCloud {
   /**
   * Cloud Provider. Valid providers are: `aws` (default), `gcp`, and `azure`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.2/docs/resources/virtual_cluster#provider VirtualCluster#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.3/docs/resources/virtual_cluster#provider VirtualCluster#provider}
   */
   readonly provider?: string;
   /**
   * Cloud Region. Defaults to null. Can't be set if `region_group` is set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.2/docs/resources/virtual_cluster#region VirtualCluster#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.3/docs/resources/virtual_cluster#region VirtualCluster#region}
   */
   readonly region?: string;
   /**
   * Cloud Region Group. Defaults to null. Can't be set if `region` is set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.2/docs/resources/virtual_cluster#region_group VirtualCluster#region_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.3/docs/resources/virtual_cluster#region_group VirtualCluster#region_group}
   */
   readonly regionGroup?: string;
 }
@@ -309,31 +309,31 @@ export interface VirtualClusterConfiguration {
   /**
   * Enable topic autocreation feature, defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.2/docs/resources/virtual_cluster#auto_create_topic VirtualCluster#auto_create_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.3/docs/resources/virtual_cluster#auto_create_topic VirtualCluster#auto_create_topic}
   */
   readonly autoCreateTopic?: boolean | cdktf.IResolvable;
   /**
   * Number of partitions created by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.2/docs/resources/virtual_cluster#default_num_partitions VirtualCluster#default_num_partitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.3/docs/resources/virtual_cluster#default_num_partitions VirtualCluster#default_num_partitions}
   */
   readonly defaultNumPartitions?: number;
   /**
   * Default retention for topics that are created automatically using Kafka's topic auto-creation feature.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.2/docs/resources/virtual_cluster#default_retention_millis VirtualCluster#default_retention_millis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.3/docs/resources/virtual_cluster#default_retention_millis VirtualCluster#default_retention_millis}
   */
   readonly defaultRetentionMillis?: number;
   /**
   * Enable ACLs, defaults to `false`. See [Configure ACLs](https://docs.warpstream.com/warpstream/configuration/configure-acls)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.2/docs/resources/virtual_cluster#enable_acls VirtualCluster#enable_acls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.3/docs/resources/virtual_cluster#enable_acls VirtualCluster#enable_acls}
   */
   readonly enableAcls?: boolean | cdktf.IResolvable;
   /**
   * Enable deletion protection, defaults to `false`. If set to true, it is impossible to delete this cluster. enable_deletion_protection needs to be set to false before deleting the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.2/docs/resources/virtual_cluster#enable_deletion_protection VirtualCluster#enable_deletion_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.3/docs/resources/virtual_cluster#enable_deletion_protection VirtualCluster#enable_deletion_protection}
   */
   readonly enableDeletionProtection?: boolean | cdktf.IResolvable;
 }
@@ -543,7 +543,7 @@ export class VirtualClusterConfigurationOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.2/docs/resources/virtual_cluster warpstream_virtual_cluster}
+* Represents a {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.3/docs/resources/virtual_cluster warpstream_virtual_cluster}
 */
 export class VirtualCluster extends cdktf.TerraformResource {
 
@@ -559,7 +559,7 @@ export class VirtualCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VirtualCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VirtualCluster to import
-  * @param importFromId The id of the existing VirtualCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.2/docs/resources/virtual_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VirtualCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.3/docs/resources/virtual_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VirtualCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -571,7 +571,7 @@ export class VirtualCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.2/docs/resources/virtual_cluster warpstream_virtual_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/warpstreamlabs/warpstream/2.2.3/docs/resources/virtual_cluster warpstream_virtual_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -582,7 +582,8 @@ export class VirtualCluster extends cdktf.TerraformResource {
       terraformResourceType: 'warpstream_virtual_cluster',
       terraformGeneratorMetadata: {
         providerName: 'warpstream',
-        providerVersion: '2.2.2'
+        providerVersion: '2.2.3',
+        providerVersionConstraint: '2.2.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

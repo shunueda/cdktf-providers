@@ -156,7 +156,8 @@ export class DataRhcsRosaHcpOperatorRoles extends cdktf.TerraformDataSource {
       terraformResourceType: 'rhcs_rosa_hcp_operator_roles',
       terraformGeneratorMetadata: {
         providerName: 'rhcs',
-        providerVersion: '1.7.2'
+        providerVersion: '1.7.2',
+        providerVersionConstraint: '1.7.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

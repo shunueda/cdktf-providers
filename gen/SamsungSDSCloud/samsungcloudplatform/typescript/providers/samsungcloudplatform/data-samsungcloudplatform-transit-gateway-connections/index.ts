@@ -254,7 +254,8 @@ export class DataSamsungcloudplatformTransitGatewayConnections extends cdktf.Ter
       terraformResourceType: 'samsungcloudplatform_transit_gateway_connections',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0'
+        providerVersion: '3.15.0',
+        providerVersionConstraint: '3.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

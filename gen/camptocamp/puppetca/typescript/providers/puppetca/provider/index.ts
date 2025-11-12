@@ -79,7 +79,8 @@ export class PuppetcaProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'puppetca',
       terraformGeneratorMetadata: {
         providerName: 'puppetca',
-        providerVersion: '2.0.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       terraformProviderSource: 'camptocamp/puppetca'
     });

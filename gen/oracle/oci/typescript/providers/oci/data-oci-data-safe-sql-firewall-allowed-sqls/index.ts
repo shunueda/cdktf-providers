@@ -488,7 +488,8 @@ export class DataOciDataSafeSqlFirewallAllowedSqls extends cdktf.TerraformDataSo
       terraformResourceType: 'oci_data_safe_sql_firewall_allowed_sqls',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

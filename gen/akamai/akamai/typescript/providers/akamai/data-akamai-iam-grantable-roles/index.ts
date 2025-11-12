@@ -141,7 +141,8 @@ export class DataAkamaiIamGrantableRoles extends cdktf.TerraformDataSource {
       terraformResourceType: 'akamai_iam_grantable_roles',
       terraformGeneratorMetadata: {
         providerName: 'akamai',
-        providerVersion: '9.1.0'
+        providerVersion: '9.1.0',
+        providerVersionConstraint: '9.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

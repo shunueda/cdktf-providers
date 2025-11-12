@@ -67,7 +67,8 @@ export class VirtualNetworkToFabricSite extends cdktf.TerraformResource {
       terraformResourceType: 'catalystcenter_virtual_network_to_fabric_site',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.2'
+        providerVersion: '0.4.2',
+        providerVersionConstraint: '0.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

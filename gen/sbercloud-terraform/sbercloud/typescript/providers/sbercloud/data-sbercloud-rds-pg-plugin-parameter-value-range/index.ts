@@ -74,7 +74,8 @@ export class DataSbercloudRdsPgPluginParameterValueRange extends cdktf.Terraform
       terraformResourceType: 'sbercloud_rds_pg_plugin_parameter_value_range',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14'
+        providerVersion: '1.12.14',
+        providerVersionConstraint: '1.12.14'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

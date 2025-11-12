@@ -993,7 +993,8 @@ export class DataK8SEc2ServicesK8SAwsDhcpOptionsV1Alpha1Manifest extends cdktf.T
       terraformResourceType: 'k8s_ec2_services_k8s_aws_dhcp_options_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

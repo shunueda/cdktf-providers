@@ -524,7 +524,8 @@ export class DataK8SRepoManagerPulpprojectOrgPulpRestoreV1Beta2Manifest extends 
       terraformResourceType: 'k8s_repo_manager_pulpproject_org_pulp_restore_v1beta2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -140,7 +140,8 @@ export class DataAlicloudEnhancedNatAvailableZones extends cdktf.TerraformDataSo
       terraformResourceType: 'alicloud_enhanced_nat_available_zones',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -56,7 +56,8 @@ export class DataCloudfoundryInfo extends cdktf.TerraformDataSource {
       terraformResourceType: 'cloudfoundry_info',
       terraformGeneratorMetadata: {
         providerName: 'cloudfoundry',
-        providerVersion: '0.53.1'
+        providerVersion: '0.53.1',
+        providerVersionConstraint: '0.53.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

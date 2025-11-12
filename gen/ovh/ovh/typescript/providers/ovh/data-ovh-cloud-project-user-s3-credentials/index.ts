@@ -68,7 +68,8 @@ export class DataOvhCloudProjectUserS3Credentials extends cdktf.TerraformDataSou
       terraformResourceType: 'ovh_cloud_project_user_s3_credentials',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0'
+        providerVersion: '2.9.0',
+        providerVersionConstraint: '2.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

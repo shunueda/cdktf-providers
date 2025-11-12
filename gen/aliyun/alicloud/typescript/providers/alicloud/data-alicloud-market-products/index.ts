@@ -241,7 +241,8 @@ export class DataAlicloudMarketProducts extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_market_products',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

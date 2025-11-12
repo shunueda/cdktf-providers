@@ -1126,7 +1126,8 @@ export class ComplexPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'bridgecrew_complex_policy',
       terraformGeneratorMetadata: {
         providerName: 'bridgecrew',
-        providerVersion: '0.3.7'
+        providerVersion: '0.3.7',
+        providerVersionConstraint: '0.3.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

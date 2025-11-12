@@ -329,7 +329,8 @@ export class LogExporter extends cdktf.TerraformResource {
       terraformResourceType: 'timescale_log_exporter',
       terraformGeneratorMetadata: {
         providerName: 'timescale',
-        providerVersion: '2.6.0'
+        providerVersion: '2.6.0',
+        providerVersionConstraint: '2.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

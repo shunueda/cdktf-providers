@@ -541,7 +541,8 @@ export class DataTencentcloudTeoRuleEngineSettings extends cdktf.TerraformDataSo
       terraformResourceType: 'tencentcloud_teo_rule_engine_settings',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

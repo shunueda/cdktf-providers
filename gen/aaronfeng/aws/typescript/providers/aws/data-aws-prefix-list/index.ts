@@ -213,7 +213,8 @@ export class DataAwsPrefixList extends cdktf.TerraformDataSource {
       terraformResourceType: 'aws_prefix_list',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '3.29.6'
+        providerVersion: '3.29.6',
+        providerVersionConstraint: '3.29.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

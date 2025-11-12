@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.25.3/docs/resources/custom_role
+// https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.26.0/docs/resources/custom_role
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface CustomRoleConfig extends cdktf.TerraformMetaArguments {
   /**
   * The base permission level - either `reader` or `no_access`. While newer API versions default to `no_access`, this field defaults to `reader` in keeping with previous API versions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.25.3/docs/resources/custom_role#base_permissions CustomRole#base_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.26.0/docs/resources/custom_role#base_permissions CustomRole#base_permissions}
   */
   readonly basePermissions?: string;
   /**
   * Description of the custom role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.25.3/docs/resources/custom_role#description CustomRole#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.26.0/docs/resources/custom_role#description CustomRole#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.25.3/docs/resources/custom_role#id CustomRole#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.26.0/docs/resources/custom_role#id CustomRole#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,39 +29,39 @@ export interface CustomRoleConfig extends cdktf.TerraformMetaArguments {
   /**
   * A unique key that will be used to reference the custom role in your code. A change in this field will force the destruction of the existing resource and the creation of a new one.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.25.3/docs/resources/custom_role#key CustomRole#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.26.0/docs/resources/custom_role#key CustomRole#key}
   */
   readonly key: string;
   /**
   * A name for the custom role. This must be unique within your organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.25.3/docs/resources/custom_role#name CustomRole#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.26.0/docs/resources/custom_role#name CustomRole#name}
   */
   readonly name: string;
   /**
   * policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.25.3/docs/resources/custom_role#policy CustomRole#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.26.0/docs/resources/custom_role#policy CustomRole#policy}
   */
   readonly policy?: CustomRolePolicy[] | cdktf.IResolvable;
   /**
   * policy_statements block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.25.3/docs/resources/custom_role#policy_statements CustomRole#policy_statements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.26.0/docs/resources/custom_role#policy_statements CustomRole#policy_statements}
   */
   readonly policyStatements?: CustomRolePolicyStatements[] | cdktf.IResolvable;
 }
 export interface CustomRolePolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.25.3/docs/resources/custom_role#actions CustomRole#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.26.0/docs/resources/custom_role#actions CustomRole#actions}
   */
   readonly actions: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.25.3/docs/resources/custom_role#effect CustomRole#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.26.0/docs/resources/custom_role#effect CustomRole#effect}
   */
   readonly effect: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.25.3/docs/resources/custom_role#resources CustomRole#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.26.0/docs/resources/custom_role#resources CustomRole#resources}
   */
   readonly resources: string[];
 }
@@ -229,31 +229,31 @@ export interface CustomRolePolicyStatements {
   * The list of action specifiers defining the actions to which the statement applies.
   * Either `actions` or `not_actions` must be specified. For a list of available actions read [Actions reference](https://docs.launchdarkly.com/home/account-security/custom-roles/actions#actions-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.25.3/docs/resources/custom_role#actions CustomRole#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.26.0/docs/resources/custom_role#actions CustomRole#actions}
   */
   readonly actions?: string[];
   /**
   * Either `allow` or `deny`. This argument defines whether the statement allows or denies access to the named resources and actions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.25.3/docs/resources/custom_role#effect CustomRole#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.26.0/docs/resources/custom_role#effect CustomRole#effect}
   */
   readonly effect: string;
   /**
   * The list of action specifiers defining the actions to which the statement does not apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.25.3/docs/resources/custom_role#not_actions CustomRole#not_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.26.0/docs/resources/custom_role#not_actions CustomRole#not_actions}
   */
   readonly notActions?: string[];
   /**
   * The list of resource specifiers defining the resources to which the statement does not apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.25.3/docs/resources/custom_role#not_resources CustomRole#not_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.26.0/docs/resources/custom_role#not_resources CustomRole#not_resources}
   */
   readonly notResources?: string[];
   /**
   * The list of resource specifiers defining the resources to which the statement applies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.25.3/docs/resources/custom_role#resources CustomRole#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.26.0/docs/resources/custom_role#resources CustomRole#resources}
   */
   readonly resources?: string[];
 }
@@ -482,7 +482,7 @@ export class CustomRolePolicyStatementsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.25.3/docs/resources/custom_role launchdarkly_custom_role}
+* Represents a {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.26.0/docs/resources/custom_role launchdarkly_custom_role}
 */
 export class CustomRole extends cdktf.TerraformResource {
 
@@ -498,7 +498,7 @@ export class CustomRole extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CustomRole resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CustomRole to import
-  * @param importFromId The id of the existing CustomRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.25.3/docs/resources/custom_role#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CustomRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.26.0/docs/resources/custom_role#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CustomRole to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -510,7 +510,7 @@ export class CustomRole extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.25.3/docs/resources/custom_role launchdarkly_custom_role} Resource
+  * Create a new {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.26.0/docs/resources/custom_role launchdarkly_custom_role} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -521,7 +521,8 @@ export class CustomRole extends cdktf.TerraformResource {
       terraformResourceType: 'launchdarkly_custom_role',
       terraformGeneratorMetadata: {
         providerName: 'launchdarkly',
-        providerVersion: '2.25.3'
+        providerVersion: '2.26.0',
+        providerVersionConstraint: '2.26.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

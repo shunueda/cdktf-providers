@@ -55,7 +55,8 @@ export class LoginKey extends cdktf.TerraformResource {
       terraformResourceType: 'ncloud_login_key',
       terraformGeneratorMetadata: {
         providerName: 'ncloud',
-        providerVersion: '4.0.4'
+        providerVersion: '4.0.4',
+        providerVersionConstraint: '4.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

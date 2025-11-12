@@ -74,7 +74,8 @@ export class DataAkamaiBotmanContentProtectionJavascriptInjectionRule extends cd
       terraformResourceType: 'akamai_botman_content_protection_javascript_injection_rule',
       terraformGeneratorMetadata: {
         providerName: 'akamai',
-        providerVersion: '9.1.0'
+        providerVersion: '9.1.0',
+        providerVersionConstraint: '9.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

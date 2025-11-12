@@ -110,7 +110,8 @@ export class DataSite24X7Monitor extends cdktf.TerraformDataSource {
       terraformResourceType: 'site24x7_monitor',
       terraformGeneratorMetadata: {
         providerName: 'site24x7',
-        providerVersion: '2.0.3'
+        providerVersion: '2.0.3',
+        providerVersionConstraint: '2.0.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

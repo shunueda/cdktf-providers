@@ -61,7 +61,8 @@ export class AivenProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'aiven',
       terraformGeneratorMetadata: {
         providerName: 'aiven',
-        providerVersion: '4.46.1'
+        providerVersion: '4.46.1',
+        providerVersionConstraint: '4.46.1'
       },
       terraformProviderSource: 'aiven/aiven'
     });

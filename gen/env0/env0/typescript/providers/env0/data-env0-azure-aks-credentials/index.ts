@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/env0/env0/1.29.4/docs/data-sources/azure_aks_credentials
+// https://registry.terraform.io/providers/env0/env0/1.29.6/docs/data-sources/azure_aks_credentials
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataEnv0AzureAksCredentialsConfig extends cdktf.TerraformMetaAr
   /**
   * the id of azure_aks credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/data-sources/azure_aks_credentials#id DataEnv0AzureAksCredentials#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/data-sources/azure_aks_credentials#id DataEnv0AzureAksCredentials#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,13 +19,13 @@ export interface DataEnv0AzureAksCredentialsConfig extends cdktf.TerraformMetaAr
   /**
   * the name of azure_aks credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/data-sources/azure_aks_credentials#name DataEnv0AzureAksCredentials#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/data-sources/azure_aks_credentials#name DataEnv0AzureAksCredentials#name}
   */
   readonly name?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/data-sources/azure_aks_credentials env0_azure_aks_credentials}
+* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/data-sources/azure_aks_credentials env0_azure_aks_credentials}
 */
 export class DataEnv0AzureAksCredentials extends cdktf.TerraformDataSource {
 
@@ -41,7 +41,7 @@ export class DataEnv0AzureAksCredentials extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataEnv0AzureAksCredentials resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataEnv0AzureAksCredentials to import
-  * @param importFromId The id of the existing DataEnv0AzureAksCredentials that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/data-sources/azure_aks_credentials#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataEnv0AzureAksCredentials that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/data-sources/azure_aks_credentials#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataEnv0AzureAksCredentials to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -53,7 +53,7 @@ export class DataEnv0AzureAksCredentials extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/data-sources/azure_aks_credentials env0_azure_aks_credentials} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/data-sources/azure_aks_credentials env0_azure_aks_credentials} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -64,7 +64,8 @@ export class DataEnv0AzureAksCredentials extends cdktf.TerraformDataSource {
       terraformResourceType: 'env0_azure_aks_credentials',
       terraformGeneratorMetadata: {
         providerName: 'env0',
-        providerVersion: '1.29.4'
+        providerVersion: '1.29.6',
+        providerVersionConstraint: '1.29.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

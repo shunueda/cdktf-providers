@@ -62,7 +62,8 @@ export class DataDynatraceAzureSupportedServices extends cdktf.TerraformDataSour
       terraformResourceType: 'dynatrace_azure_supported_services',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1'
+        providerVersion: '1.87.1',
+        providerVersionConstraint: '1.87.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

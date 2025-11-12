@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_delete_infinity_idp_object
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_delete_infinity_idp_object
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ManagementDeleteInfinityIdpObjectConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_delete_infinity_idp_object#id ManagementDeleteInfinityIdpObject#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_delete_infinity_idp_object#id ManagementDeleteInfinityIdpObject#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface ManagementDeleteInfinityIdpObjectConfig extends cdktf.Terraform
   /**
   * Apply changes ignoring errors. You won't be able to publish such a changes. If ignore-warnings flag was omitted - warnings will also be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_delete_infinity_idp_object#ignore_errors ManagementDeleteInfinityIdpObject#ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_delete_infinity_idp_object#ignore_errors ManagementDeleteInfinityIdpObject#ignore_errors}
   */
   readonly ignoreErrors?: boolean | cdktf.IResolvable;
   /**
   * Apply changes ignoring warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_delete_infinity_idp_object#ignore_warnings ManagementDeleteInfinityIdpObject#ignore_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_delete_infinity_idp_object#ignore_warnings ManagementDeleteInfinityIdpObject#ignore_warnings}
   */
   readonly ignoreWarnings?: boolean | cdktf.IResolvable;
   /**
   * Object name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_delete_infinity_idp_object#name ManagementDeleteInfinityIdpObject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_delete_infinity_idp_object#name ManagementDeleteInfinityIdpObject#name}
   */
   readonly name?: string;
   /**
   * Object UID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_delete_infinity_idp_object#uid ManagementDeleteInfinityIdpObject#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_delete_infinity_idp_object#uid ManagementDeleteInfinityIdpObject#uid}
   */
   readonly uid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_delete_infinity_idp_object checkpoint_management_delete_infinity_idp_object}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_delete_infinity_idp_object checkpoint_management_delete_infinity_idp_object}
 */
 export class ManagementDeleteInfinityIdpObject extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class ManagementDeleteInfinityIdpObject extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementDeleteInfinityIdpObject resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementDeleteInfinityIdpObject to import
-  * @param importFromId The id of the existing ManagementDeleteInfinityIdpObject that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_delete_infinity_idp_object#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementDeleteInfinityIdpObject that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_delete_infinity_idp_object#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementDeleteInfinityIdpObject to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class ManagementDeleteInfinityIdpObject extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_delete_infinity_idp_object checkpoint_management_delete_infinity_idp_object} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_delete_infinity_idp_object checkpoint_management_delete_infinity_idp_object} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,7 +80,8 @@ export class ManagementDeleteInfinityIdpObject extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_delete_infinity_idp_object',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

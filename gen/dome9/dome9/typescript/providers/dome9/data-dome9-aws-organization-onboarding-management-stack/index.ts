@@ -60,7 +60,8 @@ export class DataDome9AwsOrganizationOnboardingManagementStack extends cdktf.Ter
       terraformResourceType: 'dome9_aws_organization_onboarding_management_stack',
       terraformGeneratorMetadata: {
         providerName: 'dome9',
-        providerVersion: '1.40.4'
+        providerVersion: '1.40.4',
+        providerVersionConstraint: '1.40.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -714,7 +714,8 @@ export class DataDnacenterSystemPerformanceHistorical extends cdktf.TerraformDat
       terraformResourceType: 'dnacenter_system_performance_historical',
       terraformGeneratorMetadata: {
         providerName: 'dnacenter',
-        providerVersion: '1.1.21'
+        providerVersion: '1.1.21',
+        providerVersionConstraint: '1.1.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

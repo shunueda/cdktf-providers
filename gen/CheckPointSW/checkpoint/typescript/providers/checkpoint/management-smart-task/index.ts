@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_smart_task
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_smart_task
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface ManagementSmartTaskConfig extends cdktf.TerraformMetaArguments 
   /**
   * Color of the object. Should be one of existing colors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_smart_task#color ManagementSmartTask#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_smart_task#color ManagementSmartTask#color}
   */
   readonly color?: string;
   /**
   * Comments string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_smart_task#comments ManagementSmartTask#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_smart_task#comments ManagementSmartTask#comments}
   */
   readonly comments?: string;
   /**
   * Per SmartTask custom data in JSON format.<br>When the trigger is fired, the trigger data is converted to JSON. The custom data is then concatenated to the trigger data JSON.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_smart_task#custom_data ManagementSmartTask#custom_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_smart_task#custom_data ManagementSmartTask#custom_data}
   */
   readonly customData?: string;
   /**
   * Description of the SmartTask's functionality and options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_smart_task#description ManagementSmartTask#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_smart_task#description ManagementSmartTask#description}
   */
   readonly description?: string;
   /**
   * Whether the SmartTask is enabled and will run when triggered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_smart_task#enabled ManagementSmartTask#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_smart_task#enabled ManagementSmartTask#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * If the action fails to execute, whether to treat the execution failure as an error, or continue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_smart_task#fail_open ManagementSmartTask#fail_open}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_smart_task#fail_open ManagementSmartTask#fail_open}
   */
   readonly failOpen?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_smart_task#id ManagementSmartTask#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_smart_task#id ManagementSmartTask#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,37 +53,37 @@ export interface ManagementSmartTaskConfig extends cdktf.TerraformMetaArguments 
   /**
   * Apply changes ignoring errors. You won't be able to publish such a changes. If ignore-warnings flag was omitted - warnings will also be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_smart_task#ignore_errors ManagementSmartTask#ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_smart_task#ignore_errors ManagementSmartTask#ignore_errors}
   */
   readonly ignoreErrors?: boolean | cdktf.IResolvable;
   /**
   * Apply changes ignoring warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_smart_task#ignore_warnings ManagementSmartTask#ignore_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_smart_task#ignore_warnings ManagementSmartTask#ignore_warnings}
   */
   readonly ignoreWarnings?: boolean | cdktf.IResolvable;
   /**
   * Object name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_smart_task#name ManagementSmartTask#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_smart_task#name ManagementSmartTask#name}
   */
   readonly name: string;
   /**
   * Collection of tag identifiers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_smart_task#tags ManagementSmartTask#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_smart_task#tags ManagementSmartTask#tags}
   */
   readonly tags?: string[];
   /**
   * Trigger type associated with the SmartTask.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_smart_task#trigger ManagementSmartTask#trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_smart_task#trigger ManagementSmartTask#trigger}
   */
   readonly trigger?: string;
   /**
   * action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_smart_task#action ManagementSmartTask#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_smart_task#action ManagementSmartTask#action}
   */
   readonly action?: ManagementSmartTaskAction;
 }
@@ -91,19 +91,19 @@ export interface ManagementSmartTaskActionRunScript {
   /**
   * Repository script that is executed when the trigger is fired.,  identified by the name or UID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_smart_task#repository_script ManagementSmartTask#repository_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_smart_task#repository_script ManagementSmartTask#repository_script}
   */
   readonly repositoryScript?: string;
   /**
   * Targets to execute the script on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_smart_task#targets ManagementSmartTask#targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_smart_task#targets ManagementSmartTask#targets}
   */
   readonly targets?: string[];
   /**
   * Script execution time-out in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_smart_task#time_out ManagementSmartTask#time_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_smart_task#time_out ManagementSmartTask#time_out}
   */
   readonly timeOut?: number;
 }
@@ -247,43 +247,43 @@ export interface ManagementSmartTaskActionSendMailMailSettings {
   /**
   * What file should be attached to the mail.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_smart_task#attachment ManagementSmartTask#attachment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_smart_task#attachment ManagementSmartTask#attachment}
   */
   readonly attachment?: string;
   /**
   * A comma separated list of bcc recipient mail addresses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_smart_task#bcc_recipients ManagementSmartTask#bcc_recipients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_smart_task#bcc_recipients ManagementSmartTask#bcc_recipients}
   */
   readonly bccRecipients?: string;
   /**
   * The email body.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_smart_task#body ManagementSmartTask#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_smart_task#body ManagementSmartTask#body}
   */
   readonly body?: string;
   /**
   * A comma separated list of cc recipient mail addresses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_smart_task#cc_recipients ManagementSmartTask#cc_recipients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_smart_task#cc_recipients ManagementSmartTask#cc_recipients}
   */
   readonly ccRecipients?: string;
   /**
   * A comma separated list of recipient mail addresses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_smart_task#recipients ManagementSmartTask#recipients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_smart_task#recipients ManagementSmartTask#recipients}
   */
   readonly recipients?: string;
   /**
   * An email address to send the mail from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_smart_task#sender_email ManagementSmartTask#sender_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_smart_task#sender_email ManagementSmartTask#sender_email}
   */
   readonly senderEmail?: string;
   /**
   * The email subject.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_smart_task#subject ManagementSmartTask#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_smart_task#subject ManagementSmartTask#subject}
   */
   readonly subject?: string;
 }
@@ -543,7 +543,7 @@ export interface ManagementSmartTaskActionSendMailSmtpServer {
   /**
   * Object name. Must be unique in the domain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_smart_task#name ManagementSmartTask#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_smart_task#name ManagementSmartTask#name}
   */
   readonly name?: string;
 }
@@ -654,13 +654,13 @@ export interface ManagementSmartTaskActionSendMail {
   /**
   * mail_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_smart_task#mail_settings ManagementSmartTask#mail_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_smart_task#mail_settings ManagementSmartTask#mail_settings}
   */
   readonly mailSettings: ManagementSmartTaskActionSendMailMailSettings;
   /**
   * smtp_server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_smart_task#smtp_server ManagementSmartTask#smtp_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_smart_task#smtp_server ManagementSmartTask#smtp_server}
   */
   readonly smtpServer?: ManagementSmartTaskActionSendMailSmtpServer;
 }
@@ -772,37 +772,37 @@ export interface ManagementSmartTaskActionSendWebRequest {
   /**
   * The SHA1 fingerprint of the URL's SSL certificate. Used to trust servers with self-signed SSL certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_smart_task#fingerprint ManagementSmartTask#fingerprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_smart_task#fingerprint ManagementSmartTask#fingerprint}
   */
   readonly fingerprint?: string;
   /**
   * Option to send to the web request via a proxy other than the Management's Server proxy (if defined).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_smart_task#override_proxy ManagementSmartTask#override_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_smart_task#override_proxy ManagementSmartTask#override_proxy}
   */
   readonly overrideProxy?: boolean | cdktf.IResolvable;
   /**
   * URL of the proxy used to send the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_smart_task#proxy_url ManagementSmartTask#proxy_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_smart_task#proxy_url ManagementSmartTask#proxy_url}
   */
   readonly proxyUrl?: string;
   /**
   * Shared secret that can be used by the target server to identify the Management Server.<br>The value will be sent as part of the request in the "X-chkp-shared-secret" header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_smart_task#shared_secret ManagementSmartTask#shared_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_smart_task#shared_secret ManagementSmartTask#shared_secret}
   */
   readonly sharedSecret?: string;
   /**
   * Web Request time-out in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_smart_task#time_out ManagementSmartTask#time_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_smart_task#time_out ManagementSmartTask#time_out}
   */
   readonly timeOut?: number;
   /**
   * URL used for the web request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_smart_task#url ManagementSmartTask#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_smart_task#url ManagementSmartTask#url}
   */
   readonly url?: string;
 }
@@ -1033,19 +1033,19 @@ export interface ManagementSmartTaskAction {
   /**
   * run_script block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_smart_task#run_script ManagementSmartTask#run_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_smart_task#run_script ManagementSmartTask#run_script}
   */
   readonly runScript?: ManagementSmartTaskActionRunScript;
   /**
   * send_mail block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_smart_task#send_mail ManagementSmartTask#send_mail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_smart_task#send_mail ManagementSmartTask#send_mail}
   */
   readonly sendMail?: ManagementSmartTaskActionSendMail;
   /**
   * send_web_request block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_smart_task#send_web_request ManagementSmartTask#send_web_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_smart_task#send_web_request ManagementSmartTask#send_web_request}
   */
   readonly sendWebRequest?: ManagementSmartTaskActionSendWebRequest;
 }
@@ -1187,7 +1187,7 @@ export class ManagementSmartTaskActionOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_smart_task checkpoint_management_smart_task}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_smart_task checkpoint_management_smart_task}
 */
 export class ManagementSmartTask extends cdktf.TerraformResource {
 
@@ -1203,7 +1203,7 @@ export class ManagementSmartTask extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementSmartTask resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementSmartTask to import
-  * @param importFromId The id of the existing ManagementSmartTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_smart_task#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementSmartTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_smart_task#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementSmartTask to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1215,7 +1215,7 @@ export class ManagementSmartTask extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_smart_task checkpoint_management_smart_task} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_smart_task checkpoint_management_smart_task} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1226,7 +1226,8 @@ export class ManagementSmartTask extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_smart_task',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -64,7 +64,8 @@ export class DataFortiadcLoadBalanceContentRouting extends cdktf.TerraformDataSo
       terraformResourceType: 'fortiadc_load_balance_content_routing',
       terraformGeneratorMetadata: {
         providerName: 'fortiadc',
-        providerVersion: '1.3.1'
+        providerVersion: '1.3.1',
+        providerVersionConstraint: '1.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

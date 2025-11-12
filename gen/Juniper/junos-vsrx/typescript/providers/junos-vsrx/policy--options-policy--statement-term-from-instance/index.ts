@@ -78,7 +78,8 @@ export class PolicyOptionsPolicyStatementTermFromInstance extends cdktf.Terrafor
       terraformResourceType: 'junos-vsrx_Policy__OptionsPolicy__StatementTermFromInstance',
       terraformGeneratorMetadata: {
         providerName: 'junos-vsrx',
-        providerVersion: '20.32.106'
+        providerVersion: '20.32.106',
+        providerVersionConstraint: '20.32.106'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

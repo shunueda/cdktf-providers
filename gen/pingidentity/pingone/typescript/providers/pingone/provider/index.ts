@@ -236,7 +236,8 @@ export class PingoneProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'pingone',
       terraformGeneratorMetadata: {
         providerName: 'pingone',
-        providerVersion: '1.14.0'
+        providerVersion: '1.14.0',
+        providerVersionConstraint: '1.14.0'
       },
       terraformProviderSource: 'pingidentity/pingone'
     });

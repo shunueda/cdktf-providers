@@ -179,7 +179,8 @@ export class DataPagerdutyAutomationActionsAction extends cdktf.TerraformDataSou
       terraformResourceType: 'pagerduty_automation_actions_action',
       terraformGeneratorMetadata: {
         providerName: 'pagerduty',
-        providerVersion: '4.1.2'
+        providerVersion: '4.1.2',
+        providerVersionConstraint: '4.1.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

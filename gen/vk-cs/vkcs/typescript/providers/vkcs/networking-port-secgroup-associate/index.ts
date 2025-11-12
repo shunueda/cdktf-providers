@@ -86,7 +86,8 @@ export class NetworkingPortSecgroupAssociate extends cdktf.TerraformResource {
       terraformResourceType: 'vkcs_networking_port_secgroup_associate',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.0'
+        providerVersion: '0.13.0',
+        providerVersionConstraint: '0.13.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

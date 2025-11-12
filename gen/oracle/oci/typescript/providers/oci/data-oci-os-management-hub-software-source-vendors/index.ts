@@ -407,7 +407,8 @@ export class DataOciOsManagementHubSoftwareSourceVendors extends cdktf.Terraform
       terraformResourceType: 'oci_os_management_hub_software_source_vendors',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

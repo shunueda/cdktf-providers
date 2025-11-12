@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_virtual_network_binding_constructor
+// https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_virtual_network_binding_constructor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataApstraDatacenterVirtualNetworkBindingConstructorConfig exte
   /**
   * Apstra Blueprint ID. Used to determine the redundancy group and access/leaf relationships of each specified switch ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_virtual_network_binding_constructor#blueprint_id DataApstraDatacenterVirtualNetworkBindingConstructor#blueprint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_virtual_network_binding_constructor#blueprint_id DataApstraDatacenterVirtualNetworkBindingConstructor#blueprint_id}
   */
   readonly blueprintId: string;
   /**
   * Set of graph db node IDs representing access and/or leaf switches for which a binding should be constructed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_virtual_network_binding_constructor#switch_ids DataApstraDatacenterVirtualNetworkBindingConstructor#switch_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_virtual_network_binding_constructor#switch_ids DataApstraDatacenterVirtualNetworkBindingConstructor#switch_ids}
   */
   readonly switchIds: string[];
   /**
   * VLAN ID will be populated directly into the `bindings` output.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_virtual_network_binding_constructor#vlan_id DataApstraDatacenterVirtualNetworkBindingConstructor#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_virtual_network_binding_constructor#vlan_id DataApstraDatacenterVirtualNetworkBindingConstructor#vlan_id}
   */
   readonly vlanId?: number;
 }
@@ -106,7 +106,7 @@ export class DataApstraDatacenterVirtualNetworkBindingConstructorBindingsMap ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_virtual_network_binding_constructor apstra_datacenter_virtual_network_binding_constructor}
+* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_virtual_network_binding_constructor apstra_datacenter_virtual_network_binding_constructor}
 */
 export class DataApstraDatacenterVirtualNetworkBindingConstructor extends cdktf.TerraformDataSource {
 
@@ -122,7 +122,7 @@ export class DataApstraDatacenterVirtualNetworkBindingConstructor extends cdktf.
   * Generates CDKTF code for importing a DataApstraDatacenterVirtualNetworkBindingConstructor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataApstraDatacenterVirtualNetworkBindingConstructor to import
-  * @param importFromId The id of the existing DataApstraDatacenterVirtualNetworkBindingConstructor that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_virtual_network_binding_constructor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataApstraDatacenterVirtualNetworkBindingConstructor that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_virtual_network_binding_constructor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataApstraDatacenterVirtualNetworkBindingConstructor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -134,7 +134,7 @@ export class DataApstraDatacenterVirtualNetworkBindingConstructor extends cdktf.
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_virtual_network_binding_constructor apstra_datacenter_virtual_network_binding_constructor} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_virtual_network_binding_constructor apstra_datacenter_virtual_network_binding_constructor} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -145,7 +145,8 @@ export class DataApstraDatacenterVirtualNetworkBindingConstructor extends cdktf.
       terraformResourceType: 'apstra_datacenter_virtual_network_binding_constructor',
       terraformGeneratorMetadata: {
         providerName: 'apstra',
-        providerVersion: '0.95.0'
+        providerVersion: '0.95.1',
+        providerVersionConstraint: '0.95.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

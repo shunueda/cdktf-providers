@@ -68,7 +68,8 @@ export class RolePermission extends cdktf.TerraformResource {
       terraformResourceType: 'apigee_role_permission',
       terraformGeneratorMetadata: {
         providerName: 'apigee',
-        providerVersion: '0.1.53'
+        providerVersion: '0.1.53',
+        providerVersionConstraint: '0.1.53'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

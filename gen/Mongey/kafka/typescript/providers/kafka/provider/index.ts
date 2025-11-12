@@ -223,7 +223,8 @@ export class KafkaProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'kafka',
       terraformGeneratorMetadata: {
         providerName: 'kafka',
-        providerVersion: '0.13.1'
+        providerVersion: '0.13.1',
+        providerVersionConstraint: '0.13.1'
       },
       terraformProviderSource: 'Mongey/kafka'
     });

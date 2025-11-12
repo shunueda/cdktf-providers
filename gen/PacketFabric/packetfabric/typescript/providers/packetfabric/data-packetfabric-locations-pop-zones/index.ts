@@ -62,7 +62,8 @@ export class DataPacketfabricLocationsPopZones extends cdktf.TerraformDataSource
       terraformResourceType: 'packetfabric_locations_pop_zones',
       terraformGeneratorMetadata: {
         providerName: 'packetfabric',
-        providerVersion: '1.9.3'
+        providerVersion: '1.9.3',
+        providerVersionConstraint: '1.9.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

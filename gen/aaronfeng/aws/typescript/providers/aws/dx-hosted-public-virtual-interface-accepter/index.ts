@@ -197,7 +197,8 @@ export class DxHostedPublicVirtualInterfaceAccepter extends cdktf.TerraformResou
       terraformResourceType: 'aws_dx_hosted_public_virtual_interface_accepter',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '3.29.6'
+        providerVersion: '3.29.6',
+        providerVersionConstraint: '3.29.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

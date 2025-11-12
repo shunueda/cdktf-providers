@@ -3085,7 +3085,8 @@ export class HyperflexVmImportOperation extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_hyperflex_vm_import_operation',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -408,7 +408,8 @@ export class AwsexProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'awsex',
       terraformGeneratorMetadata: {
         providerName: 'awsex',
-        providerVersion: '0.1.3'
+        providerVersion: '0.1.3',
+        providerVersionConstraint: '0.1.3'
       },
       terraformProviderSource: 'nullstone-io/awsex'
     });

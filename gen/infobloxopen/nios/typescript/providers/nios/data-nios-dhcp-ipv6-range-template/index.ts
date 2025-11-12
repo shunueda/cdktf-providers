@@ -1434,7 +1434,8 @@ export class DataNiosDhcpIpv6RangeTemplate extends cdktf.TerraformDataSource {
       terraformResourceType: 'nios_dhcp_ipv6_range_template',
       terraformGeneratorMetadata: {
         providerName: 'nios',
-        providerVersion: '1.0.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

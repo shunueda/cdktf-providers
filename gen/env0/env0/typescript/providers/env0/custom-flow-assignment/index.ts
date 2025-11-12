@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/custom_flow_assignment
+// https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/custom_flow_assignment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface CustomFlowAssignmentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/custom_flow_assignment#id CustomFlowAssignment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/custom_flow_assignment#id CustomFlowAssignment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface CustomFlowAssignmentConfig extends cdktf.TerraformMetaArguments
   /**
   * the type of the scope. Valid values: PROJECT. Default value: PROJECT
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/custom_flow_assignment#scope CustomFlowAssignment#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/custom_flow_assignment#scope CustomFlowAssignment#scope}
   */
   readonly scope?: string;
   /**
   * the id of the scope (E.g. project id)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/custom_flow_assignment#scope_id CustomFlowAssignment#scope_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/custom_flow_assignment#scope_id CustomFlowAssignment#scope_id}
   */
   readonly scopeId: string;
   /**
   * the id of the custom flow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/custom_flow_assignment#template_id CustomFlowAssignment#template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/custom_flow_assignment#template_id CustomFlowAssignment#template_id}
   */
   readonly templateId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/custom_flow_assignment env0_custom_flow_assignment}
+* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/custom_flow_assignment env0_custom_flow_assignment}
 */
 export class CustomFlowAssignment extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class CustomFlowAssignment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CustomFlowAssignment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CustomFlowAssignment to import
-  * @param importFromId The id of the existing CustomFlowAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/custom_flow_assignment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CustomFlowAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/custom_flow_assignment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CustomFlowAssignment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class CustomFlowAssignment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/custom_flow_assignment env0_custom_flow_assignment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/custom_flow_assignment env0_custom_flow_assignment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,7 +74,8 @@ export class CustomFlowAssignment extends cdktf.TerraformResource {
       terraformResourceType: 'env0_custom_flow_assignment',
       terraformGeneratorMetadata: {
         providerName: 'env0',
-        providerVersion: '1.29.4'
+        providerVersion: '1.29.6',
+        providerVersionConstraint: '1.29.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

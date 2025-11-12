@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.1/docs/resources/database
+// https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.2/docs/resources/database
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,25 +12,25 @@ export interface DatabaseConfig extends cdktf.TerraformMetaArguments {
   * This field must be left null when using a ClickHouse Cloud cluster.
   * Should be set when hitting a cluster with more than one replica.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.1/docs/resources/database#cluster_name Database#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.2/docs/resources/database#cluster_name Database#cluster_name}
   */
   readonly clusterName?: string;
   /**
   * Comment associated with the database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.1/docs/resources/database#comment Database#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.2/docs/resources/database#comment Database#comment}
   */
   readonly comment?: string;
   /**
   * Name of the database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.1/docs/resources/database#name Database#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.2/docs/resources/database#name Database#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.1/docs/resources/database clickhousedbops_database}
+* Represents a {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.2/docs/resources/database clickhousedbops_database}
 */
 export class Database extends cdktf.TerraformResource {
 
@@ -46,7 +46,7 @@ export class Database extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Database resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Database to import
-  * @param importFromId The id of the existing Database that should be imported. Refer to the {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.1/docs/resources/database#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Database that should be imported. Refer to the {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.2/docs/resources/database#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Database to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -58,7 +58,7 @@ export class Database extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.1/docs/resources/database clickhousedbops_database} Resource
+  * Create a new {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.2/docs/resources/database clickhousedbops_database} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -69,7 +69,8 @@ export class Database extends cdktf.TerraformResource {
       terraformResourceType: 'clickhousedbops_database',
       terraformGeneratorMetadata: {
         providerName: 'clickhousedbops',
-        providerVersion: '1.3.1'
+        providerVersion: '1.3.2',
+        providerVersionConstraint: '1.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

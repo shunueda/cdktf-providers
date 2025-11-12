@@ -80,7 +80,8 @@ export class DataScalewayInstancePlacementGroup extends cdktf.TerraformDataSourc
       terraformResourceType: 'scaleway_instance_placement_group',
       terraformGeneratorMetadata: {
         providerName: 'scaleway',
-        providerVersion: '2.62.0'
+        providerVersion: '2.62.0',
+        providerVersionConstraint: '2.62.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

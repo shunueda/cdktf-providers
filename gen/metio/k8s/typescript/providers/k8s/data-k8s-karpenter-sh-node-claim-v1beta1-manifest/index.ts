@@ -1880,7 +1880,8 @@ export class DataK8SKarpenterShNodeClaimV1Beta1Manifest extends cdktf.TerraformD
       terraformResourceType: 'k8s_karpenter_sh_node_claim_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

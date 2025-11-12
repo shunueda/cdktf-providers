@@ -89,7 +89,8 @@ export class DataIncusNetworkPeer extends cdktf.TerraformDataSource {
       terraformResourceType: 'incus_network_peer',
       terraformGeneratorMetadata: {
         providerName: 'incus',
-        providerVersion: '1.0.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

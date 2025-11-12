@@ -175,7 +175,8 @@ export class DataTwingateServiceAccounts extends cdktf.TerraformDataSource {
       terraformResourceType: 'twingate_service_accounts',
       terraformGeneratorMetadata: {
         providerName: 'twingate',
-        providerVersion: '3.5.0'
+        providerVersion: '3.5.0',
+        providerVersionConstraint: '3.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

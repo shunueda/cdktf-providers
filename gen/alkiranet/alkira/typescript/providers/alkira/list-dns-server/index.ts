@@ -80,7 +80,8 @@ export class ListDnsServer extends cdktf.TerraformResource {
       terraformResourceType: 'alkira_list_dns_server',
       terraformGeneratorMetadata: {
         providerName: 'alkira',
-        providerVersion: '1.3.2'
+        providerVersion: '1.3.2',
+        providerVersionConstraint: '1.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -5228,7 +5228,8 @@ export class DataProdvanaReleaseChannel extends cdktf.TerraformDataSource {
       terraformResourceType: 'prodvana_release_channel',
       terraformGeneratorMetadata: {
         providerName: 'prodvana',
-        providerVersion: '0.1.25'
+        providerVersion: '0.1.25',
+        providerVersionConstraint: '0.1.25'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

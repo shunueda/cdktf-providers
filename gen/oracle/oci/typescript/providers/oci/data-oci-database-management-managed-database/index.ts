@@ -613,7 +613,8 @@ export class DataOciDatabaseManagementManagedDatabase extends cdktf.TerraformDat
       terraformResourceType: 'oci_database_management_managed_database',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

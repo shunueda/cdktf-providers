@@ -498,7 +498,8 @@ export class Network extends cdktf.TerraformResource {
       terraformResourceType: 'docker_network',
       terraformGeneratorMetadata: {
         providerName: 'docker',
-        providerVersion: '3.6.2'
+        providerVersion: '3.6.2',
+        providerVersionConstraint: '3.6.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

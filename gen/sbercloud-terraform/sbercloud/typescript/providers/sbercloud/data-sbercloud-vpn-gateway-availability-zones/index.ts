@@ -72,7 +72,8 @@ export class DataSbercloudVpnGatewayAvailabilityZones extends cdktf.TerraformDat
       terraformResourceType: 'sbercloud_vpn_gateway_availability_zones',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14'
+        providerVersion: '1.12.14',
+        providerVersionConstraint: '1.12.14'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

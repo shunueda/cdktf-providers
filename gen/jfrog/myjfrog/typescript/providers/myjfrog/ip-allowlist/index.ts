@@ -61,7 +61,8 @@ export class IpAllowlist extends cdktf.TerraformResource {
       terraformResourceType: 'myjfrog_ip_allowlist',
       terraformGeneratorMetadata: {
         providerName: 'myjfrog',
-        providerVersion: '1.0.2'
+        providerVersion: '1.0.2',
+        providerVersionConstraint: '1.0.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

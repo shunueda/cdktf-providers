@@ -104,7 +104,8 @@ export class DdosSrcPortTemplateUdpFilter extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_ddos_src_port_template_udp_filter',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

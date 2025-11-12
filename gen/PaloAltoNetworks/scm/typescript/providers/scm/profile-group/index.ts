@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/profile_group
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/profile_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,85 +10,85 @@ export interface ProfileGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Ai security
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/profile_group#ai_security ProfileGroup#ai_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/profile_group#ai_security ProfileGroup#ai_security}
   */
   readonly aiSecurity?: string[];
   /**
   * Data filtering
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/profile_group#data_filtering ProfileGroup#data_filtering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/profile_group#data_filtering ProfileGroup#data_filtering}
   */
   readonly dataFiltering?: string[];
   /**
   * The device in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/profile_group#device ProfileGroup#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/profile_group#device ProfileGroup#device}
   */
   readonly device?: string;
   /**
   * Dns security
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/profile_group#dns_security ProfileGroup#dns_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/profile_group#dns_security ProfileGroup#dns_security}
   */
   readonly dnsSecurity?: string[];
   /**
   * File blocking
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/profile_group#file_blocking ProfileGroup#file_blocking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/profile_group#file_blocking ProfileGroup#file_blocking}
   */
   readonly fileBlocking?: string[];
   /**
   * The folder in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/profile_group#folder ProfileGroup#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/profile_group#folder ProfileGroup#folder}
   */
   readonly folder?: string;
   /**
   * The name of the profile group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/profile_group#name ProfileGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/profile_group#name ProfileGroup#name}
   */
   readonly name: string;
   /**
   * Saas security
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/profile_group#saas_security ProfileGroup#saas_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/profile_group#saas_security ProfileGroup#saas_security}
   */
   readonly saasSecurity?: string[];
   /**
   * The snippet in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/profile_group#snippet ProfileGroup#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/profile_group#snippet ProfileGroup#snippet}
   */
   readonly snippet?: string;
   /**
   * Spyware
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/profile_group#spyware ProfileGroup#spyware}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/profile_group#spyware ProfileGroup#spyware}
   */
   readonly spyware?: string[];
   /**
   * Url filtering
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/profile_group#url_filtering ProfileGroup#url_filtering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/profile_group#url_filtering ProfileGroup#url_filtering}
   */
   readonly urlFiltering?: string[];
   /**
   * Virus and wildfire analysis
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/profile_group#virus_and_wildfire_analysis ProfileGroup#virus_and_wildfire_analysis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/profile_group#virus_and_wildfire_analysis ProfileGroup#virus_and_wildfire_analysis}
   */
   readonly virusAndWildfireAnalysis?: string[];
   /**
   * Vulnerability
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/profile_group#vulnerability ProfileGroup#vulnerability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/profile_group#vulnerability ProfileGroup#vulnerability}
   */
   readonly vulnerability?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/profile_group scm_profile_group}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/profile_group scm_profile_group}
 */
 export class ProfileGroup extends cdktf.TerraformResource {
 
@@ -104,7 +104,7 @@ export class ProfileGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProfileGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProfileGroup to import
-  * @param importFromId The id of the existing ProfileGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/profile_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProfileGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/profile_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProfileGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -116,7 +116,7 @@ export class ProfileGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/profile_group scm_profile_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/profile_group scm_profile_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -127,7 +127,8 @@ export class ProfileGroup extends cdktf.TerraformResource {
       terraformResourceType: 'scm_profile_group',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.3'
+        providerVersion: '1.0.4',
+        providerVersionConstraint: '1.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

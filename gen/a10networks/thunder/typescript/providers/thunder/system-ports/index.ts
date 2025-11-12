@@ -68,7 +68,8 @@ export class SystemPortsA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_system_ports',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

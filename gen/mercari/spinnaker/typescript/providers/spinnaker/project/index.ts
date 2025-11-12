@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mercari/spinnaker/0.3.0/docs/resources/project
+// https://registry.terraform.io/providers/mercari/spinnaker/0.0.1/docs/resources/project
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ProjectConfig extends cdktf.TerraformMetaArguments {
   /**
   * Email of the owner
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.3.0/docs/resources/project#email Project#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.0.1/docs/resources/project#email Project#email}
   */
   readonly email: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.3.0/docs/resources/project#id Project#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.0.1/docs/resources/project#id Project#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface ProjectConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.3.0/docs/resources/project#name Project#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.0.1/docs/resources/project#name Project#name}
   */
   readonly name: string;
   /**
   * config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.3.0/docs/resources/project#config Project#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.0.1/docs/resources/project#config Project#config}
   */
   readonly config?: ProjectConfigA[] | cdktf.IResolvable;
 }
@@ -37,19 +37,19 @@ export interface ProjectConfigCluster {
   /**
   * Name of the account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.3.0/docs/resources/project#account Project#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.0.1/docs/resources/project#account Project#account}
   */
   readonly account: string;
   /**
   * Detail of the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.3.0/docs/resources/project#detail Project#detail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.0.1/docs/resources/project#detail Project#detail}
   */
   readonly detail?: string[];
   /**
   * Stack of the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.3.0/docs/resources/project#stack Project#stack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.0.1/docs/resources/project#stack Project#stack}
   */
   readonly stack?: string[];
 }
@@ -222,13 +222,13 @@ export interface ProjectConfigPipelineConfig {
   /**
   * Application which to refer the pipeline
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.3.0/docs/resources/project#application Project#application}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.0.1/docs/resources/project#application Project#application}
   */
   readonly application: string[];
   /**
   * ID of the pipeline config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.3.0/docs/resources/project#pipeline_config_id Project#pipeline_config_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.0.1/docs/resources/project#pipeline_config_id Project#pipeline_config_id}
   */
   readonly pipelineConfigId: string[];
 }
@@ -369,19 +369,19 @@ export interface ProjectConfigA {
   /**
   * List of belonging Spinnaker Applications
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.3.0/docs/resources/project#applications Project#applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.0.1/docs/resources/project#applications Project#applications}
   */
   readonly applications?: string[];
   /**
   * cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.3.0/docs/resources/project#cluster Project#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.0.1/docs/resources/project#cluster Project#cluster}
   */
   readonly cluster?: ProjectConfigCluster[] | cdktf.IResolvable;
   /**
   * pipeline_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.3.0/docs/resources/project#pipeline_config Project#pipeline_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mercari/spinnaker/0.0.1/docs/resources/project#pipeline_config Project#pipeline_config}
   */
   readonly pipelineConfig?: ProjectConfigPipelineConfig[] | cdktf.IResolvable;
 }
@@ -555,7 +555,7 @@ export class ProjectConfigAList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mercari/spinnaker/0.3.0/docs/resources/project spinnaker_project}
+* Represents a {@link https://registry.terraform.io/providers/mercari/spinnaker/0.0.1/docs/resources/project spinnaker_project}
 */
 export class Project extends cdktf.TerraformResource {
 
@@ -571,7 +571,7 @@ export class Project extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Project resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Project to import
-  * @param importFromId The id of the existing Project that should be imported. Refer to the {@link https://registry.terraform.io/providers/mercari/spinnaker/0.3.0/docs/resources/project#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Project that should be imported. Refer to the {@link https://registry.terraform.io/providers/mercari/spinnaker/0.0.1/docs/resources/project#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Project to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -583,7 +583,7 @@ export class Project extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mercari/spinnaker/0.3.0/docs/resources/project spinnaker_project} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mercari/spinnaker/0.0.1/docs/resources/project spinnaker_project} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -594,7 +594,8 @@ export class Project extends cdktf.TerraformResource {
       terraformResourceType: 'spinnaker_project',
       terraformGeneratorMetadata: {
         providerName: 'spinnaker',
-        providerVersion: '0.3.0'
+        providerVersion: '0.0.1',
+        providerVersionConstraint: '0.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

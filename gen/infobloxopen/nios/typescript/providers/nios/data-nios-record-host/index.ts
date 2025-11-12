@@ -6573,7 +6573,8 @@ export class DataNiosRecordHost extends cdktf.TerraformDataSource {
       terraformResourceType: 'nios_record_host',
       terraformGeneratorMetadata: {
         providerName: 'nios',
-        providerVersion: '1.0.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

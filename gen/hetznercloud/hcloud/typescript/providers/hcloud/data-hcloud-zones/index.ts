@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/data-sources/zones
+// https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/data-sources/zones
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataHcloudZonesConfig extends cdktf.TerraformMetaArguments {
   /**
   * Filter results using a [Label Selector](https://docs.hetzner.cloud/reference/cloud#label-selector)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/data-sources/zones#with_selector DataHcloudZones#with_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/data-sources/zones#with_selector DataHcloudZones#with_selector}
   */
   readonly withSelector?: string;
 }
@@ -278,7 +278,7 @@ export class DataHcloudZonesZonesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/data-sources/zones hcloud_zones}
+* Represents a {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/data-sources/zones hcloud_zones}
 */
 export class DataHcloudZones extends cdktf.TerraformDataSource {
 
@@ -294,7 +294,7 @@ export class DataHcloudZones extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataHcloudZones resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHcloudZones to import
-  * @param importFromId The id of the existing DataHcloudZones that should be imported. Refer to the {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/data-sources/zones#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHcloudZones that should be imported. Refer to the {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/data-sources/zones#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHcloudZones to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -306,7 +306,7 @@ export class DataHcloudZones extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/data-sources/zones hcloud_zones} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/data-sources/zones hcloud_zones} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -317,7 +317,8 @@ export class DataHcloudZones extends cdktf.TerraformDataSource {
       terraformResourceType: 'hcloud_zones',
       terraformGeneratorMetadata: {
         providerName: 'hcloud',
-        providerVersion: '1.55.0'
+        providerVersion: '1.56.0',
+        providerVersionConstraint: '1.56.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

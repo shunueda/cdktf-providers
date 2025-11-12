@@ -154,7 +154,8 @@ export class ApkoProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'apko',
       terraformGeneratorMetadata: {
         providerName: 'apko',
-        providerVersion: '0.30.20'
+        providerVersion: '0.30.20',
+        providerVersionConstraint: '0.30.20'
       },
       terraformProviderSource: 'chainguard-dev/apko'
     });

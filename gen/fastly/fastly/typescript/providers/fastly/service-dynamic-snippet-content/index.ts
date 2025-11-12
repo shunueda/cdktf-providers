@@ -80,7 +80,8 @@ export class ServiceDynamicSnippetContent extends cdktf.TerraformResource {
       terraformResourceType: 'fastly_service_dynamic_snippet_content',
       terraformGeneratorMetadata: {
         providerName: 'fastly',
-        providerVersion: '8.4.0'
+        providerVersion: '8.4.0',
+        providerVersionConstraint: '8.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

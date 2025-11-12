@@ -4686,7 +4686,8 @@ export class DataIntersightFirmwareUpgradeImpactStatus extends cdktf.TerraformDa
       terraformResourceType: 'intersight_firmware_upgrade_impact_status',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

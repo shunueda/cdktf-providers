@@ -185,7 +185,8 @@ export class DataAlicloudEcsNetworkInterfacePermissions extends cdktf.TerraformD
       terraformResourceType: 'alicloud_ecs_network_interface_permissions',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

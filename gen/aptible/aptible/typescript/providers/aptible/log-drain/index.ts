@@ -124,7 +124,8 @@ export class LogDrain extends cdktf.TerraformResource {
       terraformResourceType: 'aptible_log_drain',
       terraformGeneratorMetadata: {
         providerName: 'aptible',
-        providerVersion: '0.9.18'
+        providerVersion: '0.9.18',
+        providerVersionConstraint: '0.9.18'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

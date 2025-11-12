@@ -179,7 +179,8 @@ export class NetworkProfileForSitesAssignments extends cdktf.TerraformResource {
       terraformResourceType: 'catalystcenter_network_profile_for_sites_assignments',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.2'
+        providerVersion: '0.4.2',
+        providerVersionConstraint: '0.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

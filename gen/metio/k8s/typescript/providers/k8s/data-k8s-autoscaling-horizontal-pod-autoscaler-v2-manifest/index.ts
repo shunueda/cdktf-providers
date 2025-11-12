@@ -4919,7 +4919,8 @@ export class DataK8SAutoscalingHorizontalPodAutoscalerV2Manifest extends cdktf.T
       terraformResourceType: 'k8s_autoscaling_horizontal_pod_autoscaler_v2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

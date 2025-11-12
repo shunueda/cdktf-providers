@@ -247,7 +247,8 @@ export class DataSigsciSites extends cdktf.TerraformDataSource {
       terraformResourceType: 'sigsci_sites',
       terraformGeneratorMetadata: {
         providerName: 'sigsci',
-        providerVersion: '3.7.1'
+        providerVersion: '3.7.1',
+        providerVersionConstraint: '3.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

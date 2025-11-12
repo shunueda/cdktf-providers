@@ -142,7 +142,8 @@ export class AppAutoVersion extends cdktf.TerraformResource {
       terraformResourceType: 'splunkconfig_app_auto_version',
       terraformGeneratorMetadata: {
         providerName: 'splunkconfig',
-        providerVersion: '1.7.4'
+        providerVersion: '1.7.4',
+        providerVersionConstraint: '1.7.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

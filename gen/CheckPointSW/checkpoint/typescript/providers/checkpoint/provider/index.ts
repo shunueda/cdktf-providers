@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,115 +10,115 @@ export interface CheckpointProviderConfig {
   /**
   * Administrator API key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs#api_key CheckpointProvider#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs#api_key CheckpointProvider#api_key}
   */
   readonly apiKey?: string;
   /**
   * Number of batch size to automatically run publish
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs#auto_publish_batch_size CheckpointProvider#auto_publish_batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs#auto_publish_batch_size CheckpointProvider#auto_publish_batch_size}
   */
   readonly autoPublishBatchSize?: number;
   /**
   * Smart-1 Cloud management UID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs#cloud_mgmt_id CheckpointProvider#cloud_mgmt_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs#cloud_mgmt_id CheckpointProvider#cloud_mgmt_id}
   */
   readonly cloudMgmtId?: string;
   /**
   * Check Point access context - gaia_api or web_api
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs#context CheckpointProvider#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs#context CheckpointProvider#context}
   */
   readonly context?: string;
   /**
   * login to specific domain. Domain can be identified by name or UID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs#domain CheckpointProvider#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs#domain CheckpointProvider#domain}
   */
   readonly domain?: string;
   /**
   * Indicates that the client should not check the server's certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs#ignore_server_certificate CheckpointProvider#ignore_server_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs#ignore_server_certificate CheckpointProvider#ignore_server_certificate}
   */
   readonly ignoreServerCertificate?: boolean | cdktf.IResolvable;
   /**
   * Check Point Management admin password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs#password CheckpointProvider#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs#password CheckpointProvider#password}
   */
   readonly password?: string;
   /**
   * Port used for connection to the API server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs#port CheckpointProvider#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs#port CheckpointProvider#port}
   */
   readonly port?: number;
   /**
   * HTTP proxy server address (without "http://")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs#proxy_host CheckpointProvider#proxy_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs#proxy_host CheckpointProvider#proxy_host}
   */
   readonly proxyHost?: string;
   /**
   * HTTP proxy port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs#proxy_port CheckpointProvider#proxy_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs#proxy_port CheckpointProvider#proxy_port}
   */
   readonly proxyPort?: number;
   /**
   * Check Point Management server IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs#server CheckpointProvider#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs#server CheckpointProvider#server}
   */
   readonly server?: string;
   /**
   * Session purpose description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs#session_description CheckpointProvider#session_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs#session_description CheckpointProvider#session_description}
   */
   readonly sessionDescription?: string;
   /**
   * File name used to store the current session id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs#session_file_name CheckpointProvider#session_file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs#session_file_name CheckpointProvider#session_file_name}
   */
   readonly sessionFileName?: string;
   /**
   * Session unique name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs#session_name CheckpointProvider#session_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs#session_name CheckpointProvider#session_name}
   */
   readonly sessionName?: string;
   /**
   * Timeout for the Check Point session in seconds. Can be 10-3600
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs#session_timeout CheckpointProvider#session_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs#session_timeout CheckpointProvider#session_timeout}
   */
   readonly sessionTimeout?: number;
   /**
   * Timeout in seconds for the Go SDK to complete a transaction
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs#timeout CheckpointProvider#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs#timeout CheckpointProvider#timeout}
   */
   readonly timeout?: number;
   /**
   * Check Point Management admin name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs#username CheckpointProvider#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs#username CheckpointProvider#username}
   */
   readonly username?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs#alias CheckpointProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs#alias CheckpointProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs checkpoint}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs checkpoint}
 */
 export class CheckpointProvider extends cdktf.TerraformProvider {
 
@@ -134,7 +134,7 @@ export class CheckpointProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a CheckpointProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CheckpointProvider to import
-  * @param importFromId The id of the existing CheckpointProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CheckpointProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CheckpointProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -146,7 +146,7 @@ export class CheckpointProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs checkpoint} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs checkpoint} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -157,7 +157,8 @@ export class CheckpointProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'checkpoint',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       terraformProviderSource: 'CheckPointSW/checkpoint'
     });

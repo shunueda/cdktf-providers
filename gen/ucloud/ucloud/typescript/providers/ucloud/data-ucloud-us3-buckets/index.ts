@@ -159,7 +159,8 @@ export class DataUcloudUs3Buckets extends cdktf.TerraformDataSource {
       terraformResourceType: 'ucloud_us3_buckets',
       terraformGeneratorMetadata: {
         providerName: 'ucloud',
-        providerVersion: '1.39.1'
+        providerVersion: '1.39.1',
+        providerVersionConstraint: '1.39.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -73,7 +73,8 @@ export class VirtualNetwork extends cdktf.TerraformResource {
       terraformResourceType: 'latitudesh_virtual_network',
       terraformGeneratorMetadata: {
         providerName: 'latitudesh',
-        providerVersion: '2.8.2'
+        providerVersion: '2.8.2',
+        providerVersionConstraint: '2.8.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

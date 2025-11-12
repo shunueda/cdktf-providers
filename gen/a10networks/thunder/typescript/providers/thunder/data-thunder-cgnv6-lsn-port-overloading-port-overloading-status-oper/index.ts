@@ -516,7 +516,8 @@ export class DataThunderCgnv6LsnPortOverloadingPortOverloadingStatusOper extends
       terraformResourceType: 'thunder_cgnv6_lsn_port_overloading_port_overloading_status_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

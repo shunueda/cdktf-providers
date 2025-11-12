@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/bfd_template_multi_hop
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bfd_template_multi_hop
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,150 +10,150 @@ export interface BfdTemplateMultiHopConfig extends cdktf.TerraformMetaArguments 
   /**
   * keychain name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/bfd_template_multi_hop#authentication_md5_keychain BfdTemplateMultiHop#authentication_md5_keychain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bfd_template_multi_hop#authentication_md5_keychain BfdTemplateMultiHop#authentication_md5_keychain}
   */
   readonly authenticationMd5Keychain?: string;
   /**
   * keychain name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/bfd_template_multi_hop#authentication_meticulous_md5_keychain BfdTemplateMultiHop#authentication_meticulous_md5_keychain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bfd_template_multi_hop#authentication_meticulous_md5_keychain BfdTemplateMultiHop#authentication_meticulous_md5_keychain}
   */
   readonly authenticationMeticulousMd5Keychain?: string;
   /**
   * keychain name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/bfd_template_multi_hop#authentication_meticulous_sha_1keychain BfdTemplateMultiHop#authentication_meticulous_sha_1keychain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bfd_template_multi_hop#authentication_meticulous_sha_1keychain BfdTemplateMultiHop#authentication_meticulous_sha_1keychain}
   */
   readonly authenticationMeticulousSha1Keychain?: string;
   /**
   * keychain name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/bfd_template_multi_hop#authentication_sha_1_keychain BfdTemplateMultiHop#authentication_sha_1_keychain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bfd_template_multi_hop#authentication_sha_1_keychain BfdTemplateMultiHop#authentication_sha_1_keychain}
   */
   readonly authenticationSha1Keychain?: string;
   /**
   * down monitoring
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/bfd_template_multi_hop#dampening_down_monitoring BfdTemplateMultiHop#dampening_down_monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bfd_template_multi_hop#dampening_down_monitoring BfdTemplateMultiHop#dampening_down_monitoring}
   */
   readonly dampeningDownMonitoring?: boolean | cdktf.IResolvable;
   /**
   * Half-life time for the penalty
   *   - Range: `1`-`30`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/bfd_template_multi_hop#dampening_half_time BfdTemplateMultiHop#dampening_half_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bfd_template_multi_hop#dampening_half_time BfdTemplateMultiHop#dampening_half_time}
   */
   readonly dampeningHalfTime?: number;
   /**
   * Maximum duration to suppress a session
   *   - Range: `1`-`420`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/bfd_template_multi_hop#dampening_max_suppressing_time BfdTemplateMultiHop#dampening_max_suppressing_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bfd_template_multi_hop#dampening_max_suppressing_time BfdTemplateMultiHop#dampening_max_suppressing_time}
   */
   readonly dampeningMaxSuppressingTime?: number;
   /**
   * Value to start suppressing a session
   *   - Range: `1`-`18000`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/bfd_template_multi_hop#dampening_suppress_time BfdTemplateMultiHop#dampening_suppress_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bfd_template_multi_hop#dampening_suppress_time BfdTemplateMultiHop#dampening_suppress_time}
   */
   readonly dampeningSuppressTime?: number;
   /**
   * Stability threshold to enter dampening in down dampened state(seconds)
   *   - Range: `60`-`3600`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/bfd_template_multi_hop#dampening_threshold BfdTemplateMultiHop#dampening_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bfd_template_multi_hop#dampening_threshold BfdTemplateMultiHop#dampening_threshold}
   */
   readonly dampeningThreshold?: number;
   /**
   * Value to unsuppress a session
   *   - Range: `1`-`18000`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/bfd_template_multi_hop#dampening_unsuppress_time BfdTemplateMultiHop#dampening_unsuppress_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bfd_template_multi_hop#dampening_unsuppress_time BfdTemplateMultiHop#dampening_unsuppress_time}
   */
   readonly dampeningUnsuppressTime?: number;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/bfd_template_multi_hop#device BfdTemplateMultiHop#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bfd_template_multi_hop#device BfdTemplateMultiHop#device}
   */
   readonly device?: string;
   /**
   * Use echo adjunct as bfd detection mechanism
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/bfd_template_multi_hop#echo BfdTemplateMultiHop#echo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bfd_template_multi_hop#echo BfdTemplateMultiHop#echo}
   */
   readonly echo?: boolean | cdktf.IResolvable;
   /**
   * Specify BFD timers in microseconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/bfd_template_multi_hop#interval_microseconds BfdTemplateMultiHop#interval_microseconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bfd_template_multi_hop#interval_microseconds BfdTemplateMultiHop#interval_microseconds}
   */
   readonly intervalMicroseconds?: boolean | cdktf.IResolvable;
   /**
   * Minimum transmit and receive interval capability
   *   - Range: `3300`-`9999000`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/bfd_template_multi_hop#interval_microseconds_both BfdTemplateMultiHop#interval_microseconds_both}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bfd_template_multi_hop#interval_microseconds_both BfdTemplateMultiHop#interval_microseconds_both}
   */
   readonly intervalMicrosecondsBoth?: number;
   /**
   * Minimum receive interval capability
   *   - Range: `3300`-`9999000`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/bfd_template_multi_hop#interval_microseconds_min_rx BfdTemplateMultiHop#interval_microseconds_min_rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bfd_template_multi_hop#interval_microseconds_min_rx BfdTemplateMultiHop#interval_microseconds_min_rx}
   */
   readonly intervalMicrosecondsMinRx?: number;
   /**
   * Minimum transmit interval capability
   *   - Range: `3300`-`9999000`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/bfd_template_multi_hop#interval_microseconds_min_tx BfdTemplateMultiHop#interval_microseconds_min_tx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bfd_template_multi_hop#interval_microseconds_min_tx BfdTemplateMultiHop#interval_microseconds_min_tx}
   */
   readonly intervalMicrosecondsMinTx?: number;
   /**
   * Multiplier value used to compute holddown
   *   - Range: `3`-`50`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/bfd_template_multi_hop#interval_microseconds_multiplier BfdTemplateMultiHop#interval_microseconds_multiplier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bfd_template_multi_hop#interval_microseconds_multiplier BfdTemplateMultiHop#interval_microseconds_multiplier}
   */
   readonly intervalMicrosecondsMultiplier?: number;
   /**
   * Minimum transmit and receive interval capability
   *   - Range: `4`-`9999`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/bfd_template_multi_hop#interval_milliseconds_both BfdTemplateMultiHop#interval_milliseconds_both}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bfd_template_multi_hop#interval_milliseconds_both BfdTemplateMultiHop#interval_milliseconds_both}
   */
   readonly intervalMillisecondsBoth?: number;
   /**
   * Minimum receive interval capability
   *   - Range: `4`-`9999`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/bfd_template_multi_hop#interval_milliseconds_min_rx BfdTemplateMultiHop#interval_milliseconds_min_rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bfd_template_multi_hop#interval_milliseconds_min_rx BfdTemplateMultiHop#interval_milliseconds_min_rx}
   */
   readonly intervalMillisecondsMinRx?: number;
   /**
   * Minimum transmit interval capability
   *   - Range: `4`-`9999`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/bfd_template_multi_hop#interval_milliseconds_min_tx BfdTemplateMultiHop#interval_milliseconds_min_tx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bfd_template_multi_hop#interval_milliseconds_min_tx BfdTemplateMultiHop#interval_milliseconds_min_tx}
   */
   readonly intervalMillisecondsMinTx?: number;
   /**
   * Multiplier value used to compute holddown
   *   - Range: `3`-`50`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/bfd_template_multi_hop#interval_milliseconds_multiplier BfdTemplateMultiHop#interval_milliseconds_multiplier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bfd_template_multi_hop#interval_milliseconds_multiplier BfdTemplateMultiHop#interval_milliseconds_multiplier}
   */
   readonly intervalMillisecondsMultiplier?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/bfd_template_multi_hop#name BfdTemplateMultiHop#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bfd_template_multi_hop#name BfdTemplateMultiHop#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/bfd_template_multi_hop iosxe_bfd_template_multi_hop}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bfd_template_multi_hop iosxe_bfd_template_multi_hop}
 */
 export class BfdTemplateMultiHop extends cdktf.TerraformResource {
 
@@ -169,7 +169,7 @@ export class BfdTemplateMultiHop extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BfdTemplateMultiHop resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BfdTemplateMultiHop to import
-  * @param importFromId The id of the existing BfdTemplateMultiHop that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/bfd_template_multi_hop#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BfdTemplateMultiHop that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bfd_template_multi_hop#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BfdTemplateMultiHop to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -181,7 +181,7 @@ export class BfdTemplateMultiHop extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/bfd_template_multi_hop iosxe_bfd_template_multi_hop} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bfd_template_multi_hop iosxe_bfd_template_multi_hop} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -192,7 +192,8 @@ export class BfdTemplateMultiHop extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_bfd_template_multi_hop',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.9.3'
+        providerVersion: '0.10.0',
+        providerVersionConstraint: '0.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

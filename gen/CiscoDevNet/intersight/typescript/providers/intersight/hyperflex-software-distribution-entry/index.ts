@@ -3090,7 +3090,8 @@ export class HyperflexSoftwareDistributionEntry extends cdktf.TerraformResource 
       terraformResourceType: 'intersight_hyperflex_software_distribution_entry',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

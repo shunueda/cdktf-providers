@@ -55,7 +55,8 @@ export class ScramProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'scram',
       terraformGeneratorMetadata: {
         providerName: 'scram',
-        providerVersion: '0.2.0'
+        providerVersion: '0.2.0',
+        providerVersionConstraint: '0.2.0'
       },
       terraformProviderSource: 'tailsdotcom/scram'
     });

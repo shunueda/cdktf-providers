@@ -956,7 +956,8 @@ export class SloV2 extends cdktf.TerraformResource {
       terraformResourceType: 'coralogix_slo_v2',
       terraformGeneratorMetadata: {
         providerName: 'coralogix',
-        providerVersion: '2.2.3'
+        providerVersion: '2.2.3',
+        providerVersionConstraint: '2.2.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

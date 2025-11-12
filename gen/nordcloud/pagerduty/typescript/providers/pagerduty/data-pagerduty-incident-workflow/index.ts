@@ -60,7 +60,8 @@ export class DataPagerdutyIncidentWorkflow extends cdktf.TerraformDataSource {
       terraformResourceType: 'pagerduty_incident_workflow',
       terraformGeneratorMetadata: {
         providerName: 'pagerduty',
-        providerVersion: '4.1.2'
+        providerVersion: '4.1.2',
+        providerVersionConstraint: '4.1.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -779,7 +779,8 @@ export class DvmCmdAddDevice extends cdktf.TerraformResource {
       terraformResourceType: 'fortianalyzer_dvm_cmd_add_device',
       terraformGeneratorMetadata: {
         providerName: 'fortianalyzer',
-        providerVersion: '1.5.1'
+        providerVersion: '1.5.1',
+        providerVersionConstraint: '1.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

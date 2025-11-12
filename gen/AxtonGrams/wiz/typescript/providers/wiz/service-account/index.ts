@@ -214,7 +214,8 @@ export class ServiceAccount extends cdktf.TerraformResource {
       terraformResourceType: 'wiz_service_account',
       terraformGeneratorMetadata: {
         providerName: 'wiz',
-        providerVersion: '1.2.5'
+        providerVersion: '1.2.5',
+        providerVersionConstraint: '1.2.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

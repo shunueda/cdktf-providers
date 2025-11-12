@@ -185,7 +185,8 @@ export class DataPrefectWorkerMetadata extends cdktf.TerraformDataSource {
       terraformResourceType: 'prefect_worker_metadata',
       terraformGeneratorMetadata: {
         providerName: 'prefect',
-        providerVersion: '2.90.0'
+        providerVersion: '2.90.0',
+        providerVersionConstraint: '2.90.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

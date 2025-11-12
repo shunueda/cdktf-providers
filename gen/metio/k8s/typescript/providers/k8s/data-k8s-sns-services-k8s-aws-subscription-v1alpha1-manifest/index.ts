@@ -875,7 +875,8 @@ export class DataK8SSnsServicesK8SAwsSubscriptionV1Alpha1Manifest extends cdktf.
       terraformResourceType: 'k8s_sns_services_k8s_aws_subscription_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

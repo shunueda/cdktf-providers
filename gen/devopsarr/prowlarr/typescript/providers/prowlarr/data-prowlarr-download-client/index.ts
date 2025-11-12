@@ -135,7 +135,8 @@ export class DataProwlarrDownloadClient extends cdktf.TerraformDataSource {
       terraformResourceType: 'prowlarr_download_client',
       terraformGeneratorMetadata: {
         providerName: 'prowlarr',
-        providerVersion: '3.0.2'
+        providerVersion: '3.0.2',
+        providerVersionConstraint: '3.0.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

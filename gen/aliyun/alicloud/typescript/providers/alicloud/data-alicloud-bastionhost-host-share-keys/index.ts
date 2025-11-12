@@ -171,7 +171,8 @@ export class DataAlicloudBastionhostHostShareKeys extends cdktf.TerraformDataSou
       terraformResourceType: 'alicloud_bastionhost_host_share_keys',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

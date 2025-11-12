@@ -4264,7 +4264,8 @@ export class DataIntersightNiaapiApicCcoPost extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_niaapi_apic_cco_post',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

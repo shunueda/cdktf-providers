@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/networking_floatingip_v2
+// https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/networking_floatingip_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,78 +8,78 @@ import * as cdktf from 'cdktf';
 
 export interface NetworkingFloatingipV2Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/networking_floatingip_v2#address NetworkingFloatingipV2#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/networking_floatingip_v2#address NetworkingFloatingipV2#address}
   */
   readonly address?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/networking_floatingip_v2#description NetworkingFloatingipV2#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/networking_floatingip_v2#description NetworkingFloatingipV2#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/networking_floatingip_v2#dns_domain NetworkingFloatingipV2#dns_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/networking_floatingip_v2#dns_domain NetworkingFloatingipV2#dns_domain}
   */
   readonly dnsDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/networking_floatingip_v2#dns_name NetworkingFloatingipV2#dns_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/networking_floatingip_v2#dns_name NetworkingFloatingipV2#dns_name}
   */
   readonly dnsName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/networking_floatingip_v2#fixed_ip NetworkingFloatingipV2#fixed_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/networking_floatingip_v2#fixed_ip NetworkingFloatingipV2#fixed_ip}
   */
   readonly fixedIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/networking_floatingip_v2#id NetworkingFloatingipV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/networking_floatingip_v2#id NetworkingFloatingipV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/networking_floatingip_v2#pool NetworkingFloatingipV2#pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/networking_floatingip_v2#pool NetworkingFloatingipV2#pool}
   */
   readonly pool: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/networking_floatingip_v2#port_id NetworkingFloatingipV2#port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/networking_floatingip_v2#port_id NetworkingFloatingipV2#port_id}
   */
   readonly portId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/networking_floatingip_v2#region NetworkingFloatingipV2#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/networking_floatingip_v2#region NetworkingFloatingipV2#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/networking_floatingip_v2#subnet_id NetworkingFloatingipV2#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/networking_floatingip_v2#subnet_id NetworkingFloatingipV2#subnet_id}
   */
   readonly subnetId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/networking_floatingip_v2#subnet_ids NetworkingFloatingipV2#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/networking_floatingip_v2#subnet_ids NetworkingFloatingipV2#subnet_ids}
   */
   readonly subnetIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/networking_floatingip_v2#tags NetworkingFloatingipV2#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/networking_floatingip_v2#tags NetworkingFloatingipV2#tags}
   */
   readonly tags?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/networking_floatingip_v2#tenant_id NetworkingFloatingipV2#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/networking_floatingip_v2#tenant_id NetworkingFloatingipV2#tenant_id}
   */
   readonly tenantId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/networking_floatingip_v2#value_specs NetworkingFloatingipV2#value_specs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/networking_floatingip_v2#value_specs NetworkingFloatingipV2#value_specs}
   */
   readonly valueSpecs?: { [key: string]: string };
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/networking_floatingip_v2#timeouts NetworkingFloatingipV2#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/networking_floatingip_v2#timeouts NetworkingFloatingipV2#timeouts}
   */
   readonly timeouts?: NetworkingFloatingipV2Timeouts;
 }
 export interface NetworkingFloatingipV2Timeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/networking_floatingip_v2#create NetworkingFloatingipV2#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/networking_floatingip_v2#create NetworkingFloatingipV2#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/networking_floatingip_v2#delete NetworkingFloatingipV2#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/networking_floatingip_v2#delete NetworkingFloatingipV2#delete}
   */
   readonly delete?: string;
 }
@@ -202,7 +202,7 @@ export class NetworkingFloatingipV2TimeoutsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/networking_floatingip_v2 openstack_networking_floatingip_v2}
+* Represents a {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/networking_floatingip_v2 openstack_networking_floatingip_v2}
 */
 export class NetworkingFloatingipV2 extends cdktf.TerraformResource {
 
@@ -218,7 +218,7 @@ export class NetworkingFloatingipV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkingFloatingipV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkingFloatingipV2 to import
-  * @param importFromId The id of the existing NetworkingFloatingipV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/networking_floatingip_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkingFloatingipV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/networking_floatingip_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkingFloatingipV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -230,7 +230,7 @@ export class NetworkingFloatingipV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/networking_floatingip_v2 openstack_networking_floatingip_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/networking_floatingip_v2 openstack_networking_floatingip_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -241,7 +241,8 @@ export class NetworkingFloatingipV2 extends cdktf.TerraformResource {
       terraformResourceType: 'openstack_networking_floatingip_v2',
       terraformGeneratorMetadata: {
         providerName: 'openstack',
-        providerVersion: '3.3.2'
+        providerVersion: '3.4.0',
+        providerVersionConstraint: '3.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -84,7 +84,8 @@ export class RouterbgpNetwork extends cdktf.TerraformResource {
       terraformResourceType: 'fortios_routerbgp_network',
       terraformGeneratorMetadata: {
         providerName: 'fortios',
-        providerVersion: '1.23.0'
+        providerVersion: '1.23.0',
+        providerVersionConstraint: '1.23.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

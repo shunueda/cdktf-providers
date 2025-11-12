@@ -156,7 +156,8 @@ export class DataIncusCluster extends cdktf.TerraformDataSource {
       terraformResourceType: 'incus_cluster',
       terraformGeneratorMetadata: {
         providerName: 'incus',
-        providerVersion: '1.0.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

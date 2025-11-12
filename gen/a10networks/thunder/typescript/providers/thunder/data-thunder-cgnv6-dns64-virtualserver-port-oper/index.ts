@@ -7893,7 +7893,8 @@ export class DataThunderCgnv6Dns64VirtualserverPortOper extends cdktf.TerraformD
       terraformResourceType: 'thunder_cgnv6_dns64_virtualserver_port_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

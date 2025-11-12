@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/notification
+// https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/notification
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface NotificationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/notification#id Notification#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/notification#id Notification#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface NotificationConfig extends cdktf.TerraformMetaArguments {
   /**
   * the name of the notification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/notification#name Notification#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/notification#name Notification#name}
   */
   readonly name: string;
   /**
   * 'Slack', 'Teams', 'Email' or 'Webhook'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/notification#type Notification#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/notification#type Notification#type}
   */
   readonly type: string;
   /**
   * URL for Slack, Teams or Webhooks endpoint. Coma separated list of email addresses for email endpoint, you can use `$ENVIRONMENT_CREATOR$`, and `$DEPLOYER$` to resolve emails dynamically.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/notification#value Notification#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/notification#value Notification#value}
   */
   readonly value: string;
   /**
   * the webhook secret to use for signing the webhook payload
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/notification#webhook_secret Notification#webhook_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/notification#webhook_secret Notification#webhook_secret}
   */
   readonly webhookSecret?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/notification env0_notification}
+* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/notification env0_notification}
 */
 export class Notification extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class Notification extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Notification resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Notification to import
-  * @param importFromId The id of the existing Notification that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/notification#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Notification that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/notification#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Notification to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class Notification extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/notification env0_notification} Resource
+  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/notification env0_notification} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,7 +80,8 @@ export class Notification extends cdktf.TerraformResource {
       terraformResourceType: 'env0_notification',
       terraformGeneratorMetadata: {
         providerName: 'env0',
-        providerVersion: '1.29.4'
+        providerVersion: '1.29.6',
+        providerVersionConstraint: '1.29.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

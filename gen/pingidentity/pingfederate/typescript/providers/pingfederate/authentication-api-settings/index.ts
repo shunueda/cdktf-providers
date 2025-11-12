@@ -175,7 +175,8 @@ export class AuthenticationApiSettings extends cdktf.TerraformResource {
       terraformResourceType: 'pingfederate_authentication_api_settings',
       terraformGeneratorMetadata: {
         providerName: 'pingfederate',
-        providerVersion: '1.6.2'
+        providerVersion: '1.6.2',
+        providerVersionConstraint: '1.6.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

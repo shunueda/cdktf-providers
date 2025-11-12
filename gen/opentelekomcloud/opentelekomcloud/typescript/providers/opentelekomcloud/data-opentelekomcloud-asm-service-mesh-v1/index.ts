@@ -449,7 +449,8 @@ export class DataOpentelekomcloudAsmServiceMeshV1 extends cdktf.TerraformDataSou
       terraformResourceType: 'opentelekomcloud_asm_service_mesh_v1',
       terraformGeneratorMetadata: {
         providerName: 'opentelekomcloud',
-        providerVersion: '1.36.52'
+        providerVersion: '1.36.52',
+        providerVersionConstraint: '1.36.52'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

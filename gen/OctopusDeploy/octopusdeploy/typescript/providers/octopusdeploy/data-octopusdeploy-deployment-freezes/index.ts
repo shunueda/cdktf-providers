@@ -395,7 +395,8 @@ export class DataOctopusdeployDeploymentFreezes extends cdktf.TerraformDataSourc
       terraformResourceType: 'octopusdeploy_deployment_freezes',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.4.0'
+        providerVersion: '1.4.0',
+        providerVersionConstraint: '1.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -61,7 +61,8 @@ export class PackerProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'packer',
       terraformGeneratorMetadata: {
         providerName: 'packer',
-        providerVersion: '0.17.2'
+        providerVersion: '0.17.2',
+        providerVersionConstraint: '0.17.2'
       },
       terraformProviderSource: 'toowoxx/packer'
     });

@@ -74,7 +74,8 @@ export class PostgresqlModifyAccountRemarkOperation extends cdktf.TerraformResou
       terraformResourceType: 'tencentcloud_postgresql_modify_account_remark_operation',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

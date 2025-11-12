@@ -127,7 +127,8 @@ export class Snapshotpolicy extends cdktf.TerraformResource {
       terraformResourceType: 'powermax_snapshotpolicy',
       terraformGeneratorMetadata: {
         providerName: 'powermax',
-        providerVersion: '1.0.3'
+        providerVersion: '1.0.3',
+        providerVersionConstraint: '1.0.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

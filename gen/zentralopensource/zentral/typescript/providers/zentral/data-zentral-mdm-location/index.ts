@@ -76,7 +76,8 @@ export class DataZentralMdmLocation extends cdktf.TerraformDataSource {
       terraformResourceType: 'zentral_mdm_location',
       terraformGeneratorMetadata: {
         providerName: 'zentral',
-        providerVersion: '0.1.64'
+        providerVersion: '0.1.64',
+        providerVersionConstraint: '0.1.64'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

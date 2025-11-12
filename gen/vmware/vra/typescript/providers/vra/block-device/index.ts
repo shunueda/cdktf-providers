@@ -886,7 +886,8 @@ export class BlockDevice extends cdktf.TerraformResource {
       terraformResourceType: 'vra_block_device',
       terraformGeneratorMetadata: {
         providerName: 'vra',
-        providerVersion: '0.15.0'
+        providerVersion: '0.15.0',
+        providerVersionConstraint: '0.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

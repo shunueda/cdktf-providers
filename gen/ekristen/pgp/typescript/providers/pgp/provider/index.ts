@@ -55,7 +55,8 @@ export class PgpProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'pgp',
       terraformGeneratorMetadata: {
         providerName: 'pgp',
-        providerVersion: '0.2.4'
+        providerVersion: '0.2.4',
+        providerVersionConstraint: '0.2.4'
       },
       terraformProviderSource: 'ekristen/pgp'
     });

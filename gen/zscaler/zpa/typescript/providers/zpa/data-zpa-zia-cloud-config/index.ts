@@ -56,7 +56,8 @@ export class DataZpaZiaCloudConfig extends cdktf.TerraformDataSource {
       terraformResourceType: 'zpa_zia_cloud_config',
       terraformGeneratorMetadata: {
         providerName: 'zpa',
-        providerVersion: '4.3.2'
+        providerVersion: '4.3.2',
+        providerVersionConstraint: '4.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

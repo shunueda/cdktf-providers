@@ -80,7 +80,8 @@ export class Partitions extends cdktf.TerraformResource {
       terraformResourceType: 'zillizcloud_partitions',
       terraformGeneratorMetadata: {
         providerName: 'zillizcloud',
-        providerVersion: '0.6.23'
+        providerVersion: '0.6.23',
+        providerVersionConstraint: '0.6.23'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

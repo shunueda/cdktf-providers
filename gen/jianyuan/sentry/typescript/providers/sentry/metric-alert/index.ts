@@ -625,7 +625,8 @@ export class MetricAlert extends cdktf.TerraformResource {
       terraformResourceType: 'sentry_metric_alert',
       terraformGeneratorMetadata: {
         providerName: 'sentry',
-        providerVersion: '0.14.6'
+        providerVersion: '0.14.6',
+        providerVersionConstraint: '0.14.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

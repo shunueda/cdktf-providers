@@ -261,7 +261,8 @@ export class DataDavinciConnection extends cdktf.TerraformDataSource {
       terraformResourceType: 'davinci_connection',
       terraformGeneratorMetadata: {
         providerName: 'davinci',
-        providerVersion: '0.5.2'
+        providerVersion: '0.5.2',
+        providerVersionConstraint: '0.5.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

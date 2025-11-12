@@ -58,7 +58,8 @@ export class DataOpnsenseQuaggaBgpRoutemap extends cdktf.TerraformDataSource {
       terraformResourceType: 'opnsense_quagga_bgp_routemap',
       terraformGeneratorMetadata: {
         providerName: 'opnsense',
-        providerVersion: '0.16.0'
+        providerVersion: '0.16.0',
+        providerVersionConstraint: '0.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

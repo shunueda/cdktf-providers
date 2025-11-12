@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interface
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interface
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface ManagementInterfaceConfig extends cdktf.TerraformMetaArguments 
   /**
   * Enable anti-spoofing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interface#anti_spoofing ManagementInterface#anti_spoofing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interface#anti_spoofing ManagementInterface#anti_spoofing}
   */
   readonly antiSpoofing?: boolean | cdktf.IResolvable;
   /**
   * Cluster interface type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interface#cluster_network_type ManagementInterface#cluster_network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interface#cluster_network_type ManagementInterface#cluster_network_type}
   */
   readonly clusterNetworkType?: string;
   /**
   * Color of the object. Should be one of existing colors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interface#color ManagementInterface#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interface#color ManagementInterface#color}
   */
   readonly color?: string;
   /**
   * Comments string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interface#comments ManagementInterface#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interface#comments ManagementInterface#comments}
   */
   readonly comments?: string;
   /**
   * Enable dynamic interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interface#dynamic_ip ManagementInterface#dynamic_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interface#dynamic_ip ManagementInterface#dynamic_ip}
   */
   readonly dynamicIp?: boolean | cdktf.IResolvable;
   /**
   * Gateway or cluster object uid that the interface belongs to. <font color="red">Required only if</font> name was specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interface#gateway_uid ManagementInterface#gateway_uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interface#gateway_uid ManagementInterface#gateway_uid}
   */
   readonly gatewayUid: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interface#id ManagementInterface#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interface#id ManagementInterface#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,103 +53,103 @@ export interface ManagementInterfaceConfig extends cdktf.TerraformMetaArguments 
   /**
   * Apply changes ignoring errors. You won't be able to publish such a changes. If ignore-warnings flag was omitted - warnings will also be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interface#ignore_errors ManagementInterface#ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interface#ignore_errors ManagementInterface#ignore_errors}
   */
   readonly ignoreErrors?: boolean | cdktf.IResolvable;
   /**
   * Apply changes ignoring warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interface#ignore_warnings ManagementInterface#ignore_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interface#ignore_warnings ManagementInterface#ignore_warnings}
   */
   readonly ignoreWarnings?: boolean | cdktf.IResolvable;
   /**
   * IPv4 network address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interface#ipv4_address ManagementInterface#ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interface#ipv4_address ManagementInterface#ipv4_address}
   */
   readonly ipv4Address?: string;
   /**
   * IPv4 mask length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interface#ipv4_mask_length ManagementInterface#ipv4_mask_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interface#ipv4_mask_length ManagementInterface#ipv4_mask_length}
   */
   readonly ipv4MaskLength?: number;
   /**
   * IPv4 network mask.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interface#ipv4_network_mask ManagementInterface#ipv4_network_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interface#ipv4_network_mask ManagementInterface#ipv4_network_mask}
   */
   readonly ipv4NetworkMask?: string;
   /**
   * IPv6 address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interface#ipv6_address ManagementInterface#ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interface#ipv6_address ManagementInterface#ipv6_address}
   */
   readonly ipv6Address?: string;
   /**
   * IPv6 mask length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interface#ipv6_mask_length ManagementInterface#ipv6_mask_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interface#ipv6_mask_length ManagementInterface#ipv6_mask_length}
   */
   readonly ipv6MaskLength?: number;
   /**
   * IPv6 network mask.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interface#ipv6_network_mask ManagementInterface#ipv6_network_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interface#ipv6_network_mask ManagementInterface#ipv6_network_mask}
   */
   readonly ipv6NetworkMask?: string;
   /**
   * When Private is selected as the Cluster interface type, cluster can monitor or not monitor the interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interface#monitored_by_cluster ManagementInterface#monitored_by_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interface#monitored_by_cluster ManagementInterface#monitored_by_cluster}
   */
   readonly monitoredByCluster?: boolean | cdktf.IResolvable;
   /**
   * Network interface name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interface#name ManagementInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interface#name ManagementInterface#name}
   */
   readonly name: string;
   /**
   * Network Interface Type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interface#network_interface_type ManagementInterface#network_interface_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interface#network_interface_type ManagementInterface#network_interface_type}
   */
   readonly networkInterfaceType?: string;
   /**
   * Collection of tag identifiers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interface#tags ManagementInterface#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interface#tags ManagementInterface#tags}
   */
   readonly tags?: string[];
   /**
   * Topology configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interface#topology ManagementInterface#topology}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interface#topology ManagementInterface#topology}
   */
   readonly topology?: string;
   /**
   * anti_spoofing_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interface#anti_spoofing_settings ManagementInterface#anti_spoofing_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interface#anti_spoofing_settings ManagementInterface#anti_spoofing_settings}
   */
   readonly antiSpoofingSettings?: ManagementInterfaceAntiSpoofingSettings;
   /**
   * cluster_members block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interface#cluster_members ManagementInterface#cluster_members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interface#cluster_members ManagementInterface#cluster_members}
   */
   readonly clusterMembers?: ManagementInterfaceClusterMembers[] | cdktf.IResolvable;
   /**
   * security_zone_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interface#security_zone_settings ManagementInterface#security_zone_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interface#security_zone_settings ManagementInterface#security_zone_settings}
   */
   readonly securityZoneSettings?: ManagementInterfaceSecurityZoneSettings;
   /**
   * topology_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interface#topology_settings ManagementInterface#topology_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interface#topology_settings ManagementInterface#topology_settings}
   */
   readonly topologySettings?: ManagementInterfaceTopologySettings;
 }
@@ -337,31 +337,31 @@ export interface ManagementInterfaceAntiSpoofingSettings {
   /**
   * If packets will be rejected (the Prevent option) or whether the packets will be monitored (the Detect option).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interface#action ManagementInterface#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interface#action ManagementInterface#action}
   */
   readonly action?: string;
   /**
   * Don't check packets from excluded network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interface#exclude_packets ManagementInterface#exclude_packets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interface#exclude_packets ManagementInterface#exclude_packets}
   */
   readonly excludePackets?: boolean | cdktf.IResolvable;
   /**
   * Excluded network name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interface#excluded_network_name ManagementInterface#excluded_network_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interface#excluded_network_name ManagementInterface#excluded_network_name}
   */
   readonly excludedNetworkName?: string;
   /**
   * Excluded network UID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interface#excluded_network_uid ManagementInterface#excluded_network_uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interface#excluded_network_uid ManagementInterface#excluded_network_uid}
   */
   readonly excludedNetworkUid?: string;
   /**
   * Spoof tracking.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interface#spoof_tracking ManagementInterface#spoof_tracking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interface#spoof_tracking ManagementInterface#spoof_tracking}
   */
   readonly spoofTracking?: string;
 }
@@ -563,79 +563,79 @@ export interface ManagementInterfaceClusterMembers {
   /**
   * Color of the object. Should be one of existing colors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interface#color ManagementInterface#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interface#color ManagementInterface#color}
   */
   readonly color?: string;
   /**
   * Comments string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interface#comments ManagementInterface#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interface#comments ManagementInterface#comments}
   */
   readonly comments?: string;
   /**
   * IPv4 address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interface#ipv4_address ManagementInterface#ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interface#ipv4_address ManagementInterface#ipv4_address}
   */
   readonly ipv4Address?: string;
   /**
   * IPv4 network mask length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interface#ipv4_mask_length ManagementInterface#ipv4_mask_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interface#ipv4_mask_length ManagementInterface#ipv4_mask_length}
   */
   readonly ipv4MaskLength?: string;
   /**
   * IPv4 network address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interface#ipv4_network_mask ManagementInterface#ipv4_network_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interface#ipv4_network_mask ManagementInterface#ipv4_network_mask}
   */
   readonly ipv4NetworkMask?: string;
   /**
   * IPv6 address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interface#ipv6_address ManagementInterface#ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interface#ipv6_address ManagementInterface#ipv6_address}
   */
   readonly ipv6Address?: string;
   /**
   * IPv6 network mask length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interface#ipv6_mask_length ManagementInterface#ipv6_mask_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interface#ipv6_mask_length ManagementInterface#ipv6_mask_length}
   */
   readonly ipv6MaskLength?: string;
   /**
   * IPv6 network address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interface#ipv6_network_mask ManagementInterface#ipv6_network_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interface#ipv6_network_mask ManagementInterface#ipv6_network_mask}
   */
   readonly ipv6NetworkMask?: string;
   /**
   * Cluster member object name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interface#member_name ManagementInterface#member_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interface#member_name ManagementInterface#member_name}
   */
   readonly memberName?: string;
   /**
   * Cluster member object uid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interface#member_uid ManagementInterface#member_uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interface#member_uid ManagementInterface#member_uid}
   */
   readonly memberUid?: string;
   /**
   * Cluster member network interface name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interface#name ManagementInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interface#name ManagementInterface#name}
   */
   readonly name: string;
   /**
   * IPv4 or IPv6 network mask. If both masks are required use ipv4-network-mask and ipv6-network-mask fields explicitly. Instead of providing mask itself it is possible to specify IPv4 or IPv6 mask length in mask-length field. If both masks length are required use ipv4-mask-length and  ipv6-mask-length fields explicitly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interface#network_mask ManagementInterface#network_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interface#network_mask ManagementInterface#network_mask}
   */
   readonly networkMask?: string;
   /**
   * Collection of tag identifiers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interface#tags ManagementInterface#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interface#tags ManagementInterface#tags}
   */
   readonly tags?: string[];
 }
@@ -1098,13 +1098,13 @@ export interface ManagementInterfaceSecurityZoneSettings {
   /**
   * Security Zone is calculated according to where the interface leads to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interface#auto_calculated ManagementInterface#auto_calculated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interface#auto_calculated ManagementInterface#auto_calculated}
   */
   readonly autoCalculated?: boolean | cdktf.IResolvable;
   /**
   * Security Zone specified manually.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interface#specific_zone ManagementInterface#specific_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interface#specific_zone ManagementInterface#specific_zone}
   */
   readonly specificZone?: string;
 }
@@ -1239,25 +1239,25 @@ export interface ManagementInterfaceTopologySettings {
   /**
   * Whether this interface leads to demilitarized zone (perimeter network).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interface#interface_leads_to_dmz ManagementInterface#interface_leads_to_dmz}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interface#interface_leads_to_dmz ManagementInterface#interface_leads_to_dmz}
   */
   readonly interfaceLeadsToDmz?: boolean | cdktf.IResolvable;
   /**
   * Network Settings behind this interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interface#ip_address_behind_this_interface ManagementInterface#ip_address_behind_this_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interface#ip_address_behind_this_interface ManagementInterface#ip_address_behind_this_interface}
   */
   readonly ipAddressBehindThisInterface?: string;
   /**
   * Network behind this interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interface#specific_network ManagementInterface#specific_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interface#specific_network ManagementInterface#specific_network}
   */
   readonly specificNetwork?: string;
   /**
   * N/A
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interface#specific_network_uid ManagementInterface#specific_network_uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interface#specific_network_uid ManagementInterface#specific_network_uid}
   */
   readonly specificNetworkUid?: string;
 }
@@ -1428,7 +1428,7 @@ export class ManagementInterfaceTopologySettingsOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interface checkpoint_management_interface}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interface checkpoint_management_interface}
 */
 export class ManagementInterface extends cdktf.TerraformResource {
 
@@ -1444,7 +1444,7 @@ export class ManagementInterface extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementInterface resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementInterface to import
-  * @param importFromId The id of the existing ManagementInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interface#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interface#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementInterface to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1456,7 +1456,7 @@ export class ManagementInterface extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_interface checkpoint_management_interface} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_interface checkpoint_management_interface} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1467,7 +1467,8 @@ export class ManagementInterface extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_interface',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

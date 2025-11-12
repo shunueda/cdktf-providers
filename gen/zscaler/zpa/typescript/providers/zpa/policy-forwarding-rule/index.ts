@@ -656,7 +656,8 @@ export class PolicyForwardingRule extends cdktf.TerraformResource {
       terraformResourceType: 'zpa_policy_forwarding_rule',
       terraformGeneratorMetadata: {
         providerName: 'zpa',
-        providerVersion: '4.3.2'
+        providerVersion: '4.3.2',
+        providerVersionConstraint: '4.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -609,7 +609,8 @@ export class DataOmeFirmwareBaselineComplianceReport extends cdktf.TerraformData
       terraformResourceType: 'ome_firmware_baseline_compliance_report',
       terraformGeneratorMetadata: {
         providerName: 'ome',
-        providerVersion: '1.2.3'
+        providerVersion: '1.2.3',
+        providerVersionConstraint: '1.2.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

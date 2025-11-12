@@ -110,7 +110,8 @@ export class GatewayLogForwardingSyslog extends cdktf.TerraformResource {
       terraformResourceType: 'akeyless_gateway_log_forwarding_syslog',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1'
+        providerVersion: '1.11.1',
+        providerVersionConstraint: '1.11.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_xmldosurl_binding
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_xmldosurl_binding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,192 +8,192 @@ import * as cdktf from 'cdktf';
 
 export interface AppfwprofileXmldosurlBindingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_xmldosurl_binding#alertonly AppfwprofileXmldosurlBinding#alertonly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_xmldosurl_binding#alertonly AppfwprofileXmldosurlBinding#alertonly}
   */
   readonly alertonly?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_xmldosurl_binding#comment AppfwprofileXmldosurlBinding#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_xmldosurl_binding#comment AppfwprofileXmldosurlBinding#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_xmldosurl_binding#id AppfwprofileXmldosurlBinding#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_xmldosurl_binding#id AppfwprofileXmldosurlBinding#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_xmldosurl_binding#isautodeployed AppfwprofileXmldosurlBinding#isautodeployed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_xmldosurl_binding#isautodeployed AppfwprofileXmldosurlBinding#isautodeployed}
   */
   readonly isautodeployed?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_xmldosurl_binding#name AppfwprofileXmldosurlBinding#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_xmldosurl_binding#name AppfwprofileXmldosurlBinding#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_xmldosurl_binding#resourceid AppfwprofileXmldosurlBinding#resourceid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_xmldosurl_binding#resourceid AppfwprofileXmldosurlBinding#resourceid}
   */
   readonly resourceid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_xmldosurl_binding#ruletype AppfwprofileXmldosurlBinding#ruletype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_xmldosurl_binding#ruletype AppfwprofileXmldosurlBinding#ruletype}
   */
   readonly ruletype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_xmldosurl_binding#state AppfwprofileXmldosurlBinding#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_xmldosurl_binding#state AppfwprofileXmldosurlBinding#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_xmldosurl_binding#xmlblockdtd AppfwprofileXmldosurlBinding#xmlblockdtd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_xmldosurl_binding#xmlblockdtd AppfwprofileXmldosurlBinding#xmlblockdtd}
   */
   readonly xmlblockdtd?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_xmldosurl_binding#xmlblockexternalentities AppfwprofileXmldosurlBinding#xmlblockexternalentities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_xmldosurl_binding#xmlblockexternalentities AppfwprofileXmldosurlBinding#xmlblockexternalentities}
   */
   readonly xmlblockexternalentities?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_xmldosurl_binding#xmlblockpi AppfwprofileXmldosurlBinding#xmlblockpi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_xmldosurl_binding#xmlblockpi AppfwprofileXmldosurlBinding#xmlblockpi}
   */
   readonly xmlblockpi?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_xmldosurl_binding#xmldosurl AppfwprofileXmldosurlBinding#xmldosurl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_xmldosurl_binding#xmldosurl AppfwprofileXmldosurlBinding#xmldosurl}
   */
   readonly xmldosurl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_xmldosurl_binding#xmlmaxattributenamelength AppfwprofileXmldosurlBinding#xmlmaxattributenamelength}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_xmldosurl_binding#xmlmaxattributenamelength AppfwprofileXmldosurlBinding#xmlmaxattributenamelength}
   */
   readonly xmlmaxattributenamelength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_xmldosurl_binding#xmlmaxattributenamelengthcheck AppfwprofileXmldosurlBinding#xmlmaxattributenamelengthcheck}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_xmldosurl_binding#xmlmaxattributenamelengthcheck AppfwprofileXmldosurlBinding#xmlmaxattributenamelengthcheck}
   */
   readonly xmlmaxattributenamelengthcheck?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_xmldosurl_binding#xmlmaxattributes AppfwprofileXmldosurlBinding#xmlmaxattributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_xmldosurl_binding#xmlmaxattributes AppfwprofileXmldosurlBinding#xmlmaxattributes}
   */
   readonly xmlmaxattributes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_xmldosurl_binding#xmlmaxattributescheck AppfwprofileXmldosurlBinding#xmlmaxattributescheck}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_xmldosurl_binding#xmlmaxattributescheck AppfwprofileXmldosurlBinding#xmlmaxattributescheck}
   */
   readonly xmlmaxattributescheck?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_xmldosurl_binding#xmlmaxattributevaluelength AppfwprofileXmldosurlBinding#xmlmaxattributevaluelength}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_xmldosurl_binding#xmlmaxattributevaluelength AppfwprofileXmldosurlBinding#xmlmaxattributevaluelength}
   */
   readonly xmlmaxattributevaluelength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_xmldosurl_binding#xmlmaxattributevaluelengthcheck AppfwprofileXmldosurlBinding#xmlmaxattributevaluelengthcheck}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_xmldosurl_binding#xmlmaxattributevaluelengthcheck AppfwprofileXmldosurlBinding#xmlmaxattributevaluelengthcheck}
   */
   readonly xmlmaxattributevaluelengthcheck?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_xmldosurl_binding#xmlmaxchardatalength AppfwprofileXmldosurlBinding#xmlmaxchardatalength}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_xmldosurl_binding#xmlmaxchardatalength AppfwprofileXmldosurlBinding#xmlmaxchardatalength}
   */
   readonly xmlmaxchardatalength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_xmldosurl_binding#xmlmaxchardatalengthcheck AppfwprofileXmldosurlBinding#xmlmaxchardatalengthcheck}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_xmldosurl_binding#xmlmaxchardatalengthcheck AppfwprofileXmldosurlBinding#xmlmaxchardatalengthcheck}
   */
   readonly xmlmaxchardatalengthcheck?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_xmldosurl_binding#xmlmaxelementchildren AppfwprofileXmldosurlBinding#xmlmaxelementchildren}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_xmldosurl_binding#xmlmaxelementchildren AppfwprofileXmldosurlBinding#xmlmaxelementchildren}
   */
   readonly xmlmaxelementchildren?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_xmldosurl_binding#xmlmaxelementchildrencheck AppfwprofileXmldosurlBinding#xmlmaxelementchildrencheck}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_xmldosurl_binding#xmlmaxelementchildrencheck AppfwprofileXmldosurlBinding#xmlmaxelementchildrencheck}
   */
   readonly xmlmaxelementchildrencheck?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_xmldosurl_binding#xmlmaxelementdepth AppfwprofileXmldosurlBinding#xmlmaxelementdepth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_xmldosurl_binding#xmlmaxelementdepth AppfwprofileXmldosurlBinding#xmlmaxelementdepth}
   */
   readonly xmlmaxelementdepth?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_xmldosurl_binding#xmlmaxelementdepthcheck AppfwprofileXmldosurlBinding#xmlmaxelementdepthcheck}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_xmldosurl_binding#xmlmaxelementdepthcheck AppfwprofileXmldosurlBinding#xmlmaxelementdepthcheck}
   */
   readonly xmlmaxelementdepthcheck?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_xmldosurl_binding#xmlmaxelementnamelength AppfwprofileXmldosurlBinding#xmlmaxelementnamelength}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_xmldosurl_binding#xmlmaxelementnamelength AppfwprofileXmldosurlBinding#xmlmaxelementnamelength}
   */
   readonly xmlmaxelementnamelength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_xmldosurl_binding#xmlmaxelementnamelengthcheck AppfwprofileXmldosurlBinding#xmlmaxelementnamelengthcheck}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_xmldosurl_binding#xmlmaxelementnamelengthcheck AppfwprofileXmldosurlBinding#xmlmaxelementnamelengthcheck}
   */
   readonly xmlmaxelementnamelengthcheck?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_xmldosurl_binding#xmlmaxelements AppfwprofileXmldosurlBinding#xmlmaxelements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_xmldosurl_binding#xmlmaxelements AppfwprofileXmldosurlBinding#xmlmaxelements}
   */
   readonly xmlmaxelements?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_xmldosurl_binding#xmlmaxelementscheck AppfwprofileXmldosurlBinding#xmlmaxelementscheck}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_xmldosurl_binding#xmlmaxelementscheck AppfwprofileXmldosurlBinding#xmlmaxelementscheck}
   */
   readonly xmlmaxelementscheck?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_xmldosurl_binding#xmlmaxentityexpansiondepth AppfwprofileXmldosurlBinding#xmlmaxentityexpansiondepth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_xmldosurl_binding#xmlmaxentityexpansiondepth AppfwprofileXmldosurlBinding#xmlmaxentityexpansiondepth}
   */
   readonly xmlmaxentityexpansiondepth?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_xmldosurl_binding#xmlmaxentityexpansiondepthcheck AppfwprofileXmldosurlBinding#xmlmaxentityexpansiondepthcheck}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_xmldosurl_binding#xmlmaxentityexpansiondepthcheck AppfwprofileXmldosurlBinding#xmlmaxentityexpansiondepthcheck}
   */
   readonly xmlmaxentityexpansiondepthcheck?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_xmldosurl_binding#xmlmaxentityexpansions AppfwprofileXmldosurlBinding#xmlmaxentityexpansions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_xmldosurl_binding#xmlmaxentityexpansions AppfwprofileXmldosurlBinding#xmlmaxentityexpansions}
   */
   readonly xmlmaxentityexpansions?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_xmldosurl_binding#xmlmaxentityexpansionscheck AppfwprofileXmldosurlBinding#xmlmaxentityexpansionscheck}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_xmldosurl_binding#xmlmaxentityexpansionscheck AppfwprofileXmldosurlBinding#xmlmaxentityexpansionscheck}
   */
   readonly xmlmaxentityexpansionscheck?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_xmldosurl_binding#xmlmaxfilesize AppfwprofileXmldosurlBinding#xmlmaxfilesize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_xmldosurl_binding#xmlmaxfilesize AppfwprofileXmldosurlBinding#xmlmaxfilesize}
   */
   readonly xmlmaxfilesize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_xmldosurl_binding#xmlmaxfilesizecheck AppfwprofileXmldosurlBinding#xmlmaxfilesizecheck}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_xmldosurl_binding#xmlmaxfilesizecheck AppfwprofileXmldosurlBinding#xmlmaxfilesizecheck}
   */
   readonly xmlmaxfilesizecheck?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_xmldosurl_binding#xmlmaxnamespaces AppfwprofileXmldosurlBinding#xmlmaxnamespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_xmldosurl_binding#xmlmaxnamespaces AppfwprofileXmldosurlBinding#xmlmaxnamespaces}
   */
   readonly xmlmaxnamespaces?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_xmldosurl_binding#xmlmaxnamespacescheck AppfwprofileXmldosurlBinding#xmlmaxnamespacescheck}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_xmldosurl_binding#xmlmaxnamespacescheck AppfwprofileXmldosurlBinding#xmlmaxnamespacescheck}
   */
   readonly xmlmaxnamespacescheck?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_xmldosurl_binding#xmlmaxnamespaceurilength AppfwprofileXmldosurlBinding#xmlmaxnamespaceurilength}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_xmldosurl_binding#xmlmaxnamespaceurilength AppfwprofileXmldosurlBinding#xmlmaxnamespaceurilength}
   */
   readonly xmlmaxnamespaceurilength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_xmldosurl_binding#xmlmaxnamespaceurilengthcheck AppfwprofileXmldosurlBinding#xmlmaxnamespaceurilengthcheck}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_xmldosurl_binding#xmlmaxnamespaceurilengthcheck AppfwprofileXmldosurlBinding#xmlmaxnamespaceurilengthcheck}
   */
   readonly xmlmaxnamespaceurilengthcheck?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_xmldosurl_binding#xmlmaxnodes AppfwprofileXmldosurlBinding#xmlmaxnodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_xmldosurl_binding#xmlmaxnodes AppfwprofileXmldosurlBinding#xmlmaxnodes}
   */
   readonly xmlmaxnodes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_xmldosurl_binding#xmlmaxnodescheck AppfwprofileXmldosurlBinding#xmlmaxnodescheck}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_xmldosurl_binding#xmlmaxnodescheck AppfwprofileXmldosurlBinding#xmlmaxnodescheck}
   */
   readonly xmlmaxnodescheck?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_xmldosurl_binding#xmlmaxsoaparrayrank AppfwprofileXmldosurlBinding#xmlmaxsoaparrayrank}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_xmldosurl_binding#xmlmaxsoaparrayrank AppfwprofileXmldosurlBinding#xmlmaxsoaparrayrank}
   */
   readonly xmlmaxsoaparrayrank?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_xmldosurl_binding#xmlmaxsoaparraysize AppfwprofileXmldosurlBinding#xmlmaxsoaparraysize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_xmldosurl_binding#xmlmaxsoaparraysize AppfwprofileXmldosurlBinding#xmlmaxsoaparraysize}
   */
   readonly xmlmaxsoaparraysize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_xmldosurl_binding#xmlminfilesize AppfwprofileXmldosurlBinding#xmlminfilesize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_xmldosurl_binding#xmlminfilesize AppfwprofileXmldosurlBinding#xmlminfilesize}
   */
   readonly xmlminfilesize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_xmldosurl_binding#xmlminfilesizecheck AppfwprofileXmldosurlBinding#xmlminfilesizecheck}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_xmldosurl_binding#xmlminfilesizecheck AppfwprofileXmldosurlBinding#xmlminfilesizecheck}
   */
   readonly xmlminfilesizecheck?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_xmldosurl_binding#xmlsoaparraycheck AppfwprofileXmldosurlBinding#xmlsoaparraycheck}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_xmldosurl_binding#xmlsoaparraycheck AppfwprofileXmldosurlBinding#xmlsoaparraycheck}
   */
   readonly xmlsoaparraycheck?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_xmldosurl_binding citrixadc_appfwprofile_xmldosurl_binding}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_xmldosurl_binding citrixadc_appfwprofile_xmldosurl_binding}
 */
 export class AppfwprofileXmldosurlBinding extends cdktf.TerraformResource {
 
@@ -209,7 +209,7 @@ export class AppfwprofileXmldosurlBinding extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AppfwprofileXmldosurlBinding resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppfwprofileXmldosurlBinding to import
-  * @param importFromId The id of the existing AppfwprofileXmldosurlBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_xmldosurl_binding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppfwprofileXmldosurlBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_xmldosurl_binding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppfwprofileXmldosurlBinding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -221,7 +221,7 @@ export class AppfwprofileXmldosurlBinding extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwprofile_xmldosurl_binding citrixadc_appfwprofile_xmldosurl_binding} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwprofile_xmldosurl_binding citrixadc_appfwprofile_xmldosurl_binding} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -232,7 +232,8 @@ export class AppfwprofileXmldosurlBinding extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_appfwprofile_xmldosurl_binding',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

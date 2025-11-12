@@ -70,7 +70,8 @@ export class DataZiaBandwidthClasses extends cdktf.TerraformDataSource {
       terraformResourceType: 'zia_bandwidth_classes',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.5.3'
+        providerVersion: '4.5.3',
+        providerVersionConstraint: '4.5.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

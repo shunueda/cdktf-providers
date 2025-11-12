@@ -514,7 +514,8 @@ export class DataThunderVisibilityPortScanDetectionOper extends cdktf.TerraformD
       terraformResourceType: 'thunder_visibility_port_scan_detection_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

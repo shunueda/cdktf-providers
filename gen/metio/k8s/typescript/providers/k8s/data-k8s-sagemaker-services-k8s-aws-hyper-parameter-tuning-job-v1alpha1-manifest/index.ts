@@ -10754,7 +10754,8 @@ export class DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manife
       terraformResourceType: 'k8s_sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

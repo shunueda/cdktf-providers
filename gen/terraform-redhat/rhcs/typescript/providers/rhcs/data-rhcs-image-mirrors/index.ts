@@ -155,7 +155,8 @@ export class DataRhcsImageMirrors extends cdktf.TerraformDataSource {
       terraformResourceType: 'rhcs_image_mirrors',
       terraformGeneratorMetadata: {
         providerName: 'rhcs',
-        providerVersion: '1.7.2'
+        providerVersion: '1.7.2',
+        providerVersionConstraint: '1.7.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

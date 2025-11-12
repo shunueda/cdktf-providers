@@ -103,7 +103,8 @@ export class NetappCloudmanagerProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'netapp-cloudmanager',
       terraformGeneratorMetadata: {
         providerName: 'netapp-cloudmanager',
-        providerVersion: '26.0.0'
+        providerVersion: '26.0.0',
+        providerVersionConstraint: '26.0.0'
       },
       terraformProviderSource: 'NetApp/netapp-cloudmanager'
     });

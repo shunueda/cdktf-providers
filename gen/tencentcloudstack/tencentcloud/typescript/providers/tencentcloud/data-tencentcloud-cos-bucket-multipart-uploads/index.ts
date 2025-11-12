@@ -348,7 +348,8 @@ export class DataTencentcloudCosBucketMultipartUploads extends cdktf.TerraformDa
       terraformResourceType: 'tencentcloud_cos_bucket_multipart_uploads',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

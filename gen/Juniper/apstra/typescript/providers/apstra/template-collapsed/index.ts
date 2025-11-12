@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_collapsed
+// https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_collapsed
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface TemplateCollapsedConfig extends cdktf.TerraformMetaArguments {
   /**
   * mesh_link_count integer 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_collapsed#mesh_link_count TemplateCollapsed#mesh_link_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_collapsed#mesh_link_count TemplateCollapsed#mesh_link_count}
   */
   readonly meshLinkCount: number;
   /**
   * mesh_link_speed details 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_collapsed#mesh_link_speed TemplateCollapsed#mesh_link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_collapsed#mesh_link_speed TemplateCollapsed#mesh_link_speed}
   */
   readonly meshLinkSpeed: string;
   /**
   * Apstra name of the Collapsed Template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_collapsed#name TemplateCollapsed#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_collapsed#name TemplateCollapsed#name}
   */
   readonly name: string;
   /**
   * rack type id 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_collapsed#rack_type_id TemplateCollapsed#rack_type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_collapsed#rack_type_id TemplateCollapsed#rack_type_id}
   */
   readonly rackTypeId: string;
 }
@@ -36,13 +36,13 @@ export interface TemplateCollapsedRackTypeAccessSwitchesEsiLagInfo {
   /**
   * Count of L3 links between ESI peers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_collapsed#l3_peer_link_count TemplateCollapsed#l3_peer_link_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_collapsed#l3_peer_link_count TemplateCollapsed#l3_peer_link_count}
   */
   readonly l3PeerLinkCount: number;
   /**
   * Speed of L3 links between ESI peers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_collapsed#l3_peer_link_speed TemplateCollapsed#l3_peer_link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_collapsed#l3_peer_link_speed TemplateCollapsed#l3_peer_link_speed}
   */
   readonly l3PeerLinkSpeed: string;
 }
@@ -151,13 +151,13 @@ export interface TemplateCollapsedRackTypeAccessSwitchesLinksTags {
   /**
   * Tag description field as seen in the web UI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_collapsed#description TemplateCollapsed#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_collapsed#description TemplateCollapsed#description}
   */
   readonly description?: string;
   /**
   * Tag name field as seen in the web UI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_collapsed#name TemplateCollapsed#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_collapsed#name TemplateCollapsed#name}
   */
   readonly name: string;
 }
@@ -833,13 +833,13 @@ export interface TemplateCollapsedRackTypeGenericSystemsLinksTags {
   /**
   * Tag description field as seen in the web UI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_collapsed#description TemplateCollapsed#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_collapsed#description TemplateCollapsed#description}
   */
   readonly description?: string;
   /**
   * Tag name field as seen in the web UI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_collapsed#name TemplateCollapsed#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_collapsed#name TemplateCollapsed#name}
   */
   readonly name: string;
 }
@@ -1750,43 +1750,43 @@ export interface TemplateCollapsedRackTypeLeafSwitchesMlagInfo {
   /**
   * Number of L3 links between MLAG devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_collapsed#l3_peer_link_count TemplateCollapsed#l3_peer_link_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_collapsed#l3_peer_link_count TemplateCollapsed#l3_peer_link_count}
   */
   readonly l3PeerLinkCount?: number;
   /**
   * Port channel number used for L3 Peer Link. Omit to allow Apstra to choose.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_collapsed#l3_peer_link_port_channel_id TemplateCollapsed#l3_peer_link_port_channel_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_collapsed#l3_peer_link_port_channel_id TemplateCollapsed#l3_peer_link_port_channel_id}
   */
   readonly l3PeerLinkPortChannelId?: number;
   /**
   * Speed of l3 links between MLAG devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_collapsed#l3_peer_link_speed TemplateCollapsed#l3_peer_link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_collapsed#l3_peer_link_speed TemplateCollapsed#l3_peer_link_speed}
   */
   readonly l3PeerLinkSpeed?: string;
   /**
   * MLAG keepalive VLAN ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_collapsed#mlag_keepalive_vlan TemplateCollapsed#mlag_keepalive_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_collapsed#mlag_keepalive_vlan TemplateCollapsed#mlag_keepalive_vlan}
   */
   readonly mlagKeepaliveVlan: number;
   /**
   * Number of links between MLAG devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_collapsed#peer_link_count TemplateCollapsed#peer_link_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_collapsed#peer_link_count TemplateCollapsed#peer_link_count}
   */
   readonly peerLinkCount: number;
   /**
   * Port channel number used for L2 Peer Link.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_collapsed#peer_link_port_channel_id TemplateCollapsed#peer_link_port_channel_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_collapsed#peer_link_port_channel_id TemplateCollapsed#peer_link_port_channel_id}
   */
   readonly peerLinkPortChannelId: number;
   /**
   * Speed of links between MLAG devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_collapsed#peer_link_speed TemplateCollapsed#peer_link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_collapsed#peer_link_speed TemplateCollapsed#peer_link_speed}
   */
   readonly peerLinkSpeed: string;
 }
@@ -2315,7 +2315,7 @@ export class TemplateCollapsedRackTypeOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_collapsed apstra_template_collapsed}
+* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_collapsed apstra_template_collapsed}
 */
 export class TemplateCollapsed extends cdktf.TerraformResource {
 
@@ -2331,7 +2331,7 @@ export class TemplateCollapsed extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TemplateCollapsed resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TemplateCollapsed to import
-  * @param importFromId The id of the existing TemplateCollapsed that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_collapsed#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TemplateCollapsed that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_collapsed#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TemplateCollapsed to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2343,7 +2343,7 @@ export class TemplateCollapsed extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/template_collapsed apstra_template_collapsed} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/template_collapsed apstra_template_collapsed} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2354,7 +2354,8 @@ export class TemplateCollapsed extends cdktf.TerraformResource {
       terraformResourceType: 'apstra_template_collapsed',
       terraformGeneratorMetadata: {
         providerName: 'apstra',
-        providerVersion: '0.95.0'
+        providerVersion: '0.95.1',
+        providerVersionConstraint: '0.95.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

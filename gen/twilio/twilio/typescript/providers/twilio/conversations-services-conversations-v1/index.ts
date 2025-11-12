@@ -108,7 +108,8 @@ export class ConversationsServicesConversationsV1 extends cdktf.TerraformResourc
       terraformResourceType: 'twilio_conversations_services_conversations_v1',
       terraformGeneratorMetadata: {
         providerName: 'twilio',
-        providerVersion: '0.18.46'
+        providerVersion: '0.18.46',
+        providerVersionConstraint: '0.18.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

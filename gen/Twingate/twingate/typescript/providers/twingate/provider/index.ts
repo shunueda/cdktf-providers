@@ -465,7 +465,8 @@ export class TwingateProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'twingate',
       terraformGeneratorMetadata: {
         providerName: 'twingate',
-        providerVersion: '3.5.0'
+        providerVersion: '3.5.0',
+        providerVersionConstraint: '3.5.0'
       },
       terraformProviderSource: 'Twingate/twingate'
     });

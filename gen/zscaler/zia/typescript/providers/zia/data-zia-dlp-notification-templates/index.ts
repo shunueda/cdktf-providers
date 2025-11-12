@@ -64,7 +64,8 @@ export class DataZiaDlpNotificationTemplates extends cdktf.TerraformDataSource {
       terraformResourceType: 'zia_dlp_notification_templates',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.5.3'
+        providerVersion: '4.5.3',
+        providerVersionConstraint: '4.5.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

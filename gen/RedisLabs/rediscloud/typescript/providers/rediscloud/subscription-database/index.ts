@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/subscription_database
+// https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/subscription_database
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,71 +8,67 @@ import * as cdktf from 'cdktf';
 
 export interface SubscriptionDatabaseConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/subscription_database#auto_minor_version_upgrade SubscriptionDatabase#auto_minor_version_upgrade}
-  */
-  readonly autoMinorVersionUpgrade?: boolean | cdktf.IResolvable;
-  /**
   * Relevant only to ram-and-flash clusters. Estimated average size (measured in bytes) of the items stored in the database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/subscription_database#average_item_size_in_bytes SubscriptionDatabase#average_item_size_in_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/subscription_database#average_item_size_in_bytes SubscriptionDatabase#average_item_size_in_bytes}
   */
   readonly averageItemSizeInBytes?: number;
   /**
   * SSL certificate to authenticate user connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/subscription_database#client_ssl_certificate SubscriptionDatabase#client_ssl_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/subscription_database#client_ssl_certificate SubscriptionDatabase#client_ssl_certificate}
   */
   readonly clientSslCertificate?: string;
   /**
   * TLS certificates to authenticate user connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/subscription_database#client_tls_certificates SubscriptionDatabase#client_tls_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/subscription_database#client_tls_certificates SubscriptionDatabase#client_tls_certificates}
   */
   readonly clientTlsCertificates?: string[];
   /**
   * (Optional) The data items eviction policy (either: 'allkeys-lru', 'allkeys-lfu', 'allkeys-random', 'volatile-lru', 'volatile-lfu', 'volatile-random', 'volatile-ttl' or 'noeviction'. Default: 'volatile-lru')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/subscription_database#data_eviction SubscriptionDatabase#data_eviction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/subscription_database#data_eviction SubscriptionDatabase#data_eviction}
   */
   readonly dataEviction?: string;
   /**
   * Rate of database data persistence (in persistent storage)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/subscription_database#data_persistence SubscriptionDatabase#data_persistence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/subscription_database#data_persistence SubscriptionDatabase#data_persistence}
   */
   readonly dataPersistence?: string;
   /**
   * Maximum amount of data in the dataset for this specific database in GB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/subscription_database#dataset_size_in_gb SubscriptionDatabase#dataset_size_in_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/subscription_database#dataset_size_in_gb SubscriptionDatabase#dataset_size_in_gb}
   */
   readonly datasetSizeInGb?: number;
   /**
   * When 'true', enables connecting to the database with the 'default' user. Default: 'true'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/subscription_database#enable_default_user SubscriptionDatabase#enable_default_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/subscription_database#enable_default_user SubscriptionDatabase#enable_default_user}
   */
   readonly enableDefaultUser?: boolean | cdktf.IResolvable;
   /**
   * Use TLS for authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/subscription_database#enable_tls SubscriptionDatabase#enable_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/subscription_database#enable_tls SubscriptionDatabase#enable_tls}
   */
   readonly enableTls?: boolean | cdktf.IResolvable;
   /**
   * Should use the external endpoint for open-source (OSS) Cluster API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/subscription_database#external_endpoint_for_oss_cluster_api SubscriptionDatabase#external_endpoint_for_oss_cluster_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/subscription_database#external_endpoint_for_oss_cluster_api SubscriptionDatabase#external_endpoint_for_oss_cluster_api}
   */
   readonly externalEndpointForOssClusterApi?: boolean | cdktf.IResolvable;
   /**
   * List of regular expression rules to shard the database by. See the documentation on clustering for more information on the hashing policy - https://docs.redislabs.com/latest/rc/concepts/clustering/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/subscription_database#hashing_policy SubscriptionDatabase#hashing_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/subscription_database#hashing_policy SubscriptionDatabase#hashing_policy}
   */
   readonly hashingPolicy?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/subscription_database#id SubscriptionDatabase#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/subscription_database#id SubscriptionDatabase#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -81,133 +77,133 @@ export interface SubscriptionDatabaseConfig extends cdktf.TerraformMetaArguments
   /**
   * (Deprecated) Maximum memory usage for this specific database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/subscription_database#memory_limit_in_gb SubscriptionDatabase#memory_limit_in_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/subscription_database#memory_limit_in_gb SubscriptionDatabase#memory_limit_in_gb}
   */
   readonly memoryLimitInGb?: number;
   /**
   * Modules to be provisioned in the database. Note: NOT supported for Redis 8.0 and higher as modules are bundled by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/subscription_database#modules SubscriptionDatabase#modules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/subscription_database#modules SubscriptionDatabase#modules}
   */
   readonly modules?: SubscriptionDatabaseModules[] | cdktf.IResolvable;
   /**
   * A meaningful name to identify the database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/subscription_database#name SubscriptionDatabase#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/subscription_database#name SubscriptionDatabase#name}
   */
   readonly name: string;
   /**
   * Password used to access the database. If left empty, the password will be generated automatically
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/subscription_database#password SubscriptionDatabase#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/subscription_database#password SubscriptionDatabase#password}
   */
   readonly password?: string;
   /**
   * Path that will be used to store database backup files
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/subscription_database#periodic_backup_path SubscriptionDatabase#periodic_backup_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/subscription_database#periodic_backup_path SubscriptionDatabase#periodic_backup_path}
   */
   readonly periodicBackupPath?: string;
   /**
   * TCP port on which the database is available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/subscription_database#port SubscriptionDatabase#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/subscription_database#port SubscriptionDatabase#port}
   */
   readonly port?: number;
   /**
   * The protocol that will be used to access the database (either ‘redis’ or 'memcached’)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/subscription_database#protocol SubscriptionDatabase#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/subscription_database#protocol SubscriptionDatabase#protocol}
   */
   readonly protocol?: string;
   /**
   * Query performance factor for this specific database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/subscription_database#query_performance_factor SubscriptionDatabase#query_performance_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/subscription_database#query_performance_factor SubscriptionDatabase#query_performance_factor}
   */
   readonly queryPerformanceFactor?: string;
   /**
   * Defines the Redis database version. If omitted, the Redis version will be set to the default version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/subscription_database#redis_version SubscriptionDatabase#redis_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/subscription_database#redis_version SubscriptionDatabase#redis_version}
   */
   readonly redisVersion?: string;
   /**
   * Set of Redis database URIs, in the format `redis://user:password@host:port`, that this database will be a replica of. If the URI provided is Redis Labs Cloud instance, only host and port should be provided
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/subscription_database#replica_of SubscriptionDatabase#replica_of}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/subscription_database#replica_of SubscriptionDatabase#replica_of}
   */
   readonly replicaOf?: string[];
   /**
   * Databases replication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/subscription_database#replication SubscriptionDatabase#replication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/subscription_database#replication SubscriptionDatabase#replication}
   */
   readonly replication?: boolean | cdktf.IResolvable;
   /**
   * The database's RESP version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/subscription_database#resp_version SubscriptionDatabase#resp_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/subscription_database#resp_version SubscriptionDatabase#resp_version}
   */
   readonly respVersion?: string;
   /**
   * Set of CIDR addresses to allow access to the database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/subscription_database#source_ips SubscriptionDatabase#source_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/subscription_database#source_ips SubscriptionDatabase#source_ips}
   */
   readonly sourceIps?: string[];
   /**
   * Identifier of the pro subscription
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/subscription_database#subscription_id SubscriptionDatabase#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/subscription_database#subscription_id SubscriptionDatabase#subscription_id}
   */
   readonly subscriptionId: number;
   /**
   * Support Redis open-source (OSS) Cluster API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/subscription_database#support_oss_cluster_api SubscriptionDatabase#support_oss_cluster_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/subscription_database#support_oss_cluster_api SubscriptionDatabase#support_oss_cluster_api}
   */
   readonly supportOssClusterApi?: boolean | cdktf.IResolvable;
   /**
   * Tags for database management
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/subscription_database#tags SubscriptionDatabase#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/subscription_database#tags SubscriptionDatabase#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * Throughput measurement method, (either ‘number-of-shards’ or ‘operations-per-second’)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/subscription_database#throughput_measurement_by SubscriptionDatabase#throughput_measurement_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/subscription_database#throughput_measurement_by SubscriptionDatabase#throughput_measurement_by}
   */
   readonly throughputMeasurementBy: string;
   /**
   * Throughput value (as applies to selected measurement method)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/subscription_database#throughput_measurement_value SubscriptionDatabase#throughput_measurement_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/subscription_database#throughput_measurement_value SubscriptionDatabase#throughput_measurement_value}
   */
   readonly throughputMeasurementValue: number;
   /**
   * alert block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/subscription_database#alert SubscriptionDatabase#alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/subscription_database#alert SubscriptionDatabase#alert}
   */
   readonly alert?: SubscriptionDatabaseAlert[] | cdktf.IResolvable;
   /**
   * remote_backup block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/subscription_database#remote_backup SubscriptionDatabase#remote_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/subscription_database#remote_backup SubscriptionDatabase#remote_backup}
   */
   readonly remoteBackup?: SubscriptionDatabaseRemoteBackup;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/subscription_database#timeouts SubscriptionDatabase#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/subscription_database#timeouts SubscriptionDatabase#timeouts}
   */
   readonly timeouts?: SubscriptionDatabaseTimeouts;
 }
 export interface SubscriptionDatabaseModules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/subscription_database#name SubscriptionDatabase#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/subscription_database#name SubscriptionDatabase#name}
   */
   readonly name?: string;
 }
@@ -325,13 +321,13 @@ export interface SubscriptionDatabaseAlert {
   /**
   * Alert name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/subscription_database#name SubscriptionDatabase#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/subscription_database#name SubscriptionDatabase#name}
   */
   readonly name: string;
   /**
   * Alert value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/subscription_database#value SubscriptionDatabase#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/subscription_database#value SubscriptionDatabase#value}
   */
   readonly value: number;
 }
@@ -472,25 +468,25 @@ export interface SubscriptionDatabaseRemoteBackup {
   /**
   * Defines the frequency of the automatic backup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/subscription_database#interval SubscriptionDatabase#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/subscription_database#interval SubscriptionDatabase#interval}
   */
   readonly interval: string;
   /**
   * Defines a URI representing the backup storage location
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/subscription_database#storage_path SubscriptionDatabase#storage_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/subscription_database#storage_path SubscriptionDatabase#storage_path}
   */
   readonly storagePath: string;
   /**
   * Defines the provider of the storage location
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/subscription_database#storage_type SubscriptionDatabase#storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/subscription_database#storage_type SubscriptionDatabase#storage_type}
   */
   readonly storageType: string;
   /**
   * Defines the hour automatic backups are made - only applicable when interval is `every-12-hours` or `every-24-hours`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/subscription_database#time_utc SubscriptionDatabase#time_utc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/subscription_database#time_utc SubscriptionDatabase#time_utc}
   */
   readonly timeUtc?: string;
 }
@@ -652,19 +648,19 @@ export class SubscriptionDatabaseRemoteBackupOutputReference extends cdktf.Compl
 }
 export interface SubscriptionDatabaseTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/subscription_database#create SubscriptionDatabase#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/subscription_database#create SubscriptionDatabase#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/subscription_database#delete SubscriptionDatabase#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/subscription_database#delete SubscriptionDatabase#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/subscription_database#read SubscriptionDatabase#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/subscription_database#read SubscriptionDatabase#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/subscription_database#update SubscriptionDatabase#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/subscription_database#update SubscriptionDatabase#update}
   */
   readonly update?: string;
 }
@@ -845,7 +841,7 @@ export class SubscriptionDatabaseTimeoutsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/subscription_database rediscloud_subscription_database}
+* Represents a {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/subscription_database rediscloud_subscription_database}
 */
 export class SubscriptionDatabase extends cdktf.TerraformResource {
 
@@ -861,7 +857,7 @@ export class SubscriptionDatabase extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SubscriptionDatabase resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SubscriptionDatabase to import
-  * @param importFromId The id of the existing SubscriptionDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/subscription_database#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SubscriptionDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/subscription_database#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SubscriptionDatabase to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -873,7 +869,7 @@ export class SubscriptionDatabase extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/subscription_database rediscloud_subscription_database} Resource
+  * Create a new {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/subscription_database rediscloud_subscription_database} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -884,7 +880,8 @@ export class SubscriptionDatabase extends cdktf.TerraformResource {
       terraformResourceType: 'rediscloud_subscription_database',
       terraformGeneratorMetadata: {
         providerName: 'rediscloud',
-        providerVersion: '2.7.3'
+        providerVersion: '2.8.0',
+        providerVersionConstraint: '2.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -894,7 +891,6 @@ export class SubscriptionDatabase extends cdktf.TerraformResource {
       connection: config.connection,
       forEach: config.forEach
     });
-    this._autoMinorVersionUpgrade = config.autoMinorVersionUpgrade;
     this._averageItemSizeInBytes = config.averageItemSizeInBytes;
     this._clientSslCertificate = config.clientSslCertificate;
     this._clientTlsCertificates = config.clientTlsCertificates;
@@ -932,22 +928,6 @@ export class SubscriptionDatabase extends cdktf.TerraformResource {
   // ==========
   // ATTRIBUTES
   // ==========
-
-  // auto_minor_version_upgrade - computed: false, optional: true, required: false
-  private _autoMinorVersionUpgrade?: boolean | cdktf.IResolvable; 
-  public get autoMinorVersionUpgrade() {
-    return this.getBooleanAttribute('auto_minor_version_upgrade');
-  }
-  public set autoMinorVersionUpgrade(value: boolean | cdktf.IResolvable) {
-    this._autoMinorVersionUpgrade = value;
-  }
-  public resetAutoMinorVersionUpgrade() {
-    this._autoMinorVersionUpgrade = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get autoMinorVersionUpgradeInput() {
-    return this._autoMinorVersionUpgrade;
-  }
 
   // average_item_size_in_bytes - computed: false, optional: true, required: false
   private _averageItemSizeInBytes?: number; 
@@ -1470,7 +1450,6 @@ export class SubscriptionDatabase extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      auto_minor_version_upgrade: cdktf.booleanToTerraform(this._autoMinorVersionUpgrade),
       average_item_size_in_bytes: cdktf.numberToTerraform(this._averageItemSizeInBytes),
       client_ssl_certificate: cdktf.stringToTerraform(this._clientSslCertificate),
       client_tls_certificates: cdktf.listMapper(cdktf.stringToTerraform, false)(this._clientTlsCertificates),
@@ -1508,12 +1487,6 @@ export class SubscriptionDatabase extends cdktf.TerraformResource {
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
-      auto_minor_version_upgrade: {
-        value: cdktf.booleanToHclTerraform(this._autoMinorVersionUpgrade),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "boolean",
-      },
       average_item_size_in_bytes: {
         value: cdktf.numberToHclTerraform(this._averageItemSizeInBytes),
         isBlock: false,

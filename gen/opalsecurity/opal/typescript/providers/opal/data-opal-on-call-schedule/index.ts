@@ -58,7 +58,8 @@ export class DataOpalOnCallSchedule extends cdktf.TerraformDataSource {
       terraformResourceType: 'opal_on_call_schedule',
       terraformGeneratorMetadata: {
         providerName: 'opal',
-        providerVersion: '3.3.3'
+        providerVersion: '3.3.3',
+        providerVersionConstraint: '3.3.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

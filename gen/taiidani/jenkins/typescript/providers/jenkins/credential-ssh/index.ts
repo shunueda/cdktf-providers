@@ -97,7 +97,8 @@ export class CredentialSsh extends cdktf.TerraformResource {
       terraformResourceType: 'jenkins_credential_ssh',
       terraformGeneratorMetadata: {
         providerName: 'jenkins',
-        providerVersion: '0.11.0'
+        providerVersion: '0.11.0',
+        providerVersionConstraint: '0.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

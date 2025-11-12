@@ -130,7 +130,8 @@ export class Partition extends cdktf.TerraformResource {
       terraformResourceType: 'f5os_partition',
       terraformGeneratorMetadata: {
         providerName: 'f5os',
-        providerVersion: '1.10.0'
+        providerVersion: '1.10.0',
+        providerVersionConstraint: '1.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -172,7 +172,8 @@ export class DataAkamaiIamUsersAffectedByMovingGroup extends cdktf.TerraformData
       terraformResourceType: 'akamai_iam_users_affected_by_moving_group',
       terraformGeneratorMetadata: {
         providerName: 'akamai',
-        providerVersion: '9.1.0'
+        providerVersion: '9.1.0',
+        providerVersionConstraint: '9.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

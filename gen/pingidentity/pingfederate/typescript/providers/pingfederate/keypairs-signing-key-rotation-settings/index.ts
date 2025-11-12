@@ -91,7 +91,8 @@ export class KeypairsSigningKeyRotationSettingsA extends cdktf.TerraformResource
       terraformResourceType: 'pingfederate_keypairs_signing_key_rotation_settings',
       terraformGeneratorMetadata: {
         providerName: 'pingfederate',
-        providerVersion: '1.6.2'
+        providerVersion: '1.6.2',
+        providerVersionConstraint: '1.6.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

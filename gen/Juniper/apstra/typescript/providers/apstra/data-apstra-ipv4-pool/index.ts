@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/ipv4_pool
+// https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/ipv4_pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataApstraIpv4PoolConfig extends cdktf.TerraformMetaArguments {
   /**
   * Apstra ID of the desired IPv4 Pool. Required when `name` is omitted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/ipv4_pool#id DataApstraIpv4Pool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/ipv4_pool#id DataApstraIpv4Pool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,7 +19,7 @@ export interface DataApstraIpv4PoolConfig extends cdktf.TerraformMetaArguments {
   /**
   * Web UI Name of the IPv4 pool. Required when `id` is omitted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/ipv4_pool#name DataApstraIpv4Pool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/ipv4_pool#name DataApstraIpv4Pool#name}
   */
   readonly name?: string;
 }
@@ -27,7 +27,7 @@ export interface DataApstraIpv4PoolSubnets {
   /**
   * Network specification in CIDR syntax ("10.0.0.0/8").
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/ipv4_pool#network DataApstraIpv4Pool#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/ipv4_pool#network DataApstraIpv4Pool#network}
   */
   readonly network: string;
 }
@@ -150,7 +150,7 @@ export class DataApstraIpv4PoolSubnetsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/ipv4_pool apstra_ipv4_pool}
+* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/ipv4_pool apstra_ipv4_pool}
 */
 export class DataApstraIpv4Pool extends cdktf.TerraformDataSource {
 
@@ -166,7 +166,7 @@ export class DataApstraIpv4Pool extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataApstraIpv4Pool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataApstraIpv4Pool to import
-  * @param importFromId The id of the existing DataApstraIpv4Pool that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/ipv4_pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataApstraIpv4Pool that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/ipv4_pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataApstraIpv4Pool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -178,7 +178,7 @@ export class DataApstraIpv4Pool extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/ipv4_pool apstra_ipv4_pool} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/ipv4_pool apstra_ipv4_pool} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -189,7 +189,8 @@ export class DataApstraIpv4Pool extends cdktf.TerraformDataSource {
       terraformResourceType: 'apstra_ipv4_pool',
       terraformGeneratorMetadata: {
         providerName: 'apstra',
-        providerVersion: '0.95.0'
+        providerVersion: '0.95.1',
+        providerVersionConstraint: '0.95.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

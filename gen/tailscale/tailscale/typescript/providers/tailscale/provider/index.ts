@@ -103,7 +103,8 @@ export class TailscaleProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'tailscale',
       terraformGeneratorMetadata: {
         providerName: 'tailscale',
-        providerVersion: '0.24.0'
+        providerVersion: '0.24.0',
+        providerVersionConstraint: '0.24.0'
       },
       terraformProviderSource: 'tailscale/tailscale'
     });

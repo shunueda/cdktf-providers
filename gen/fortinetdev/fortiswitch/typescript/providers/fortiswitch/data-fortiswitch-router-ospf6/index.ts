@@ -543,7 +543,8 @@ export class DataFortiswitchRouterOspf6 extends cdktf.TerraformDataSource {
       terraformResourceType: 'fortiswitch_router_ospf6',
       terraformGeneratorMetadata: {
         providerName: 'fortiswitch',
-        providerVersion: '1.1.6'
+        providerVersion: '1.1.6',
+        providerVersionConstraint: '1.1.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

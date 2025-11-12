@@ -92,7 +92,8 @@ export class CredentialGoogleComputeEngine extends cdktf.TerraformResource {
       terraformResourceType: 'awx_credential_google_compute_engine',
       terraformGeneratorMetadata: {
         providerName: 'awx',
-        providerVersion: '1.7.5'
+        providerVersion: '1.7.5',
+        providerVersionConstraint: '1.7.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

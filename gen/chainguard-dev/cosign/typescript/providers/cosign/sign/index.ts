@@ -73,7 +73,8 @@ export class Sign extends cdktf.TerraformResource {
       terraformResourceType: 'cosign_sign',
       terraformGeneratorMetadata: {
         providerName: 'cosign',
-        providerVersion: '0.1.0'
+        providerVersion: '0.1.0',
+        providerVersionConstraint: '0.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

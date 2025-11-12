@@ -250,7 +250,8 @@ export class NlbServerGroupServerAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_nlb_server_group_server_attachment',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

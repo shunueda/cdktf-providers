@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/kafka_connect_mirror_v2_instance
+// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/kafka_connect_mirror_v2_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataInstaclustrKafkaConnectMirrorV2InstanceConfig extends cdktf
   /**
   * Name of the mirror connector. The value of this property has the form: [source-cluster].[target-cluster].[random-string]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/kafka_connect_mirror_v2_instance#connector_name DataInstaclustrKafkaConnectMirrorV2Instance#connector_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/kafka_connect_mirror_v2_instance#connector_name DataInstaclustrKafkaConnectMirrorV2Instance#connector_name}
   */
   readonly connectorName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/kafka_connect_mirror_v2_instance#id DataInstaclustrKafkaConnectMirrorV2Instance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/kafka_connect_mirror_v2_instance#id DataInstaclustrKafkaConnectMirrorV2Instance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,55 +23,55 @@ export interface DataInstaclustrKafkaConnectMirrorV2InstanceConfig extends cdktf
   /**
   * ID of the kafka connect cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/kafka_connect_mirror_v2_instance#kafka_connect_cluster_id DataInstaclustrKafkaConnectMirrorV2Instance#kafka_connect_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/kafka_connect_mirror_v2_instance#kafka_connect_cluster_id DataInstaclustrKafkaConnectMirrorV2Instance#kafka_connect_cluster_id}
   */
   readonly kafkaConnectClusterId?: string;
   /**
   * Maximum number of tasks for Kafka Connect to use. Should be greater than 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/kafka_connect_mirror_v2_instance#max_tasks DataInstaclustrKafkaConnectMirrorV2Instance#max_tasks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/kafka_connect_mirror_v2_instance#max_tasks DataInstaclustrKafkaConnectMirrorV2Instance#max_tasks}
   */
   readonly maxTasks?: number;
   /**
   * Whether to rename topics as they are mirrored, by prefixing the sourceCluster.alias to the topic name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/kafka_connect_mirror_v2_instance#rename_mirrored_topics DataInstaclustrKafkaConnectMirrorV2Instance#rename_mirrored_topics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/kafka_connect_mirror_v2_instance#rename_mirrored_topics DataInstaclustrKafkaConnectMirrorV2Instance#rename_mirrored_topics}
   */
   readonly renameMirroredTopics?: boolean | cdktf.IResolvable;
   /**
   * The overall status of this mirror.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/kafka_connect_mirror_v2_instance#status DataInstaclustrKafkaConnectMirrorV2Instance#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/kafka_connect_mirror_v2_instance#status DataInstaclustrKafkaConnectMirrorV2Instance#status}
   */
   readonly status?: string;
   /**
   * The latency in milliseconds above which this mirror will be considered out of sync. It can not be less than 1000ms. The suggested initial latency is 30000ms  for connectors to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/kafka_connect_mirror_v2_instance#target_latency DataInstaclustrKafkaConnectMirrorV2Instance#target_latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/kafka_connect_mirror_v2_instance#target_latency DataInstaclustrKafkaConnectMirrorV2Instance#target_latency}
   */
   readonly targetLatency?: number;
   /**
   * Regex to select which topics to mirror.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/kafka_connect_mirror_v2_instance#topics_regex DataInstaclustrKafkaConnectMirrorV2Instance#topics_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/kafka_connect_mirror_v2_instance#topics_regex DataInstaclustrKafkaConnectMirrorV2Instance#topics_regex}
   */
   readonly topicsRegex?: string;
   /**
   * connectors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/kafka_connect_mirror_v2_instance#connectors DataInstaclustrKafkaConnectMirrorV2Instance#connectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/kafka_connect_mirror_v2_instance#connectors DataInstaclustrKafkaConnectMirrorV2Instance#connectors}
   */
   readonly connectors?: DataInstaclustrKafkaConnectMirrorV2InstanceConnectors[] | cdktf.IResolvable;
   /**
   * mirrored_topics block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/kafka_connect_mirror_v2_instance#mirrored_topics DataInstaclustrKafkaConnectMirrorV2Instance#mirrored_topics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/kafka_connect_mirror_v2_instance#mirrored_topics DataInstaclustrKafkaConnectMirrorV2Instance#mirrored_topics}
   */
   readonly mirroredTopics?: DataInstaclustrKafkaConnectMirrorV2InstanceMirroredTopics[] | cdktf.IResolvable;
   /**
   * source_cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/kafka_connect_mirror_v2_instance#source_cluster DataInstaclustrKafkaConnectMirrorV2Instance#source_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/kafka_connect_mirror_v2_instance#source_cluster DataInstaclustrKafkaConnectMirrorV2Instance#source_cluster}
   */
   readonly sourceCluster?: DataInstaclustrKafkaConnectMirrorV2InstanceSourceCluster[] | cdktf.IResolvable;
 }
@@ -79,19 +79,19 @@ export interface DataInstaclustrKafkaConnectMirrorV2InstanceConnectors {
   /**
   * Configuration of the connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/kafka_connect_mirror_v2_instance#config DataInstaclustrKafkaConnectMirrorV2Instance#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/kafka_connect_mirror_v2_instance#config DataInstaclustrKafkaConnectMirrorV2Instance#config}
   */
   readonly config?: string;
   /**
   * Name of the connector. Could be one of [Mirror Connector, Checkpoint Connector].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/kafka_connect_mirror_v2_instance#name DataInstaclustrKafkaConnectMirrorV2Instance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/kafka_connect_mirror_v2_instance#name DataInstaclustrKafkaConnectMirrorV2Instance#name}
   */
   readonly name?: string;
   /**
   * Status of the connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/kafka_connect_mirror_v2_instance#status DataInstaclustrKafkaConnectMirrorV2Instance#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/kafka_connect_mirror_v2_instance#status DataInstaclustrKafkaConnectMirrorV2Instance#status}
   */
   readonly status?: string;
 }
@@ -267,19 +267,19 @@ export interface DataInstaclustrKafkaConnectMirrorV2InstanceMirroredTopics {
   /**
   * Average latency in milliseconds for messages to travel from source to destination topics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/kafka_connect_mirror_v2_instance#average_latency DataInstaclustrKafkaConnectMirrorV2Instance#average_latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/kafka_connect_mirror_v2_instance#average_latency DataInstaclustrKafkaConnectMirrorV2Instance#average_latency}
   */
   readonly averageLatency?: number;
   /**
   * Average record rate for messages to travel from source to destination topics, it is 0 if there are no messages travelling in between.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/kafka_connect_mirror_v2_instance#average_rate DataInstaclustrKafkaConnectMirrorV2Instance#average_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/kafka_connect_mirror_v2_instance#average_rate DataInstaclustrKafkaConnectMirrorV2Instance#average_rate}
   */
   readonly averageRate?: number;
   /**
   * Name of the mirrored topic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/kafka_connect_mirror_v2_instance#name DataInstaclustrKafkaConnectMirrorV2Instance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/kafka_connect_mirror_v2_instance#name DataInstaclustrKafkaConnectMirrorV2Instance#name}
   */
   readonly name?: string;
 }
@@ -455,7 +455,7 @@ export interface DataInstaclustrKafkaConnectMirrorV2InstanceSourceClusterExterna
   /**
   * Kafka connection properties string used to connect to external kafka cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/kafka_connect_mirror_v2_instance#source_connection_properties DataInstaclustrKafkaConnectMirrorV2Instance#source_connection_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/kafka_connect_mirror_v2_instance#source_connection_properties DataInstaclustrKafkaConnectMirrorV2Instance#source_connection_properties}
   */
   readonly sourceConnectionProperties?: string;
 }
@@ -573,13 +573,13 @@ export interface DataInstaclustrKafkaConnectMirrorV2InstanceSourceClusterManaged
   /**
   * Source kafka cluster id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/kafka_connect_mirror_v2_instance#source_kafka_cluster_id DataInstaclustrKafkaConnectMirrorV2Instance#source_kafka_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/kafka_connect_mirror_v2_instance#source_kafka_cluster_id DataInstaclustrKafkaConnectMirrorV2Instance#source_kafka_cluster_id}
   */
   readonly sourceKafkaClusterId?: string;
   /**
   * Whether or not to connect to source cluster's private IP addresses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/kafka_connect_mirror_v2_instance#use_private_ips DataInstaclustrKafkaConnectMirrorV2Instance#use_private_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/kafka_connect_mirror_v2_instance#use_private_ips DataInstaclustrKafkaConnectMirrorV2Instance#use_private_ips}
   */
   readonly usePrivateIps?: boolean | cdktf.IResolvable;
 }
@@ -726,19 +726,19 @@ export interface DataInstaclustrKafkaConnectMirrorV2InstanceSourceCluster {
   /**
   * Alias to use for the source kafka cluster. This will be used to rename topics if renameMirroredTopics is turned on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/kafka_connect_mirror_v2_instance#alias DataInstaclustrKafkaConnectMirrorV2Instance#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/kafka_connect_mirror_v2_instance#alias DataInstaclustrKafkaConnectMirrorV2Instance#alias}
   */
   readonly alias?: string;
   /**
   * external_cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/kafka_connect_mirror_v2_instance#external_cluster DataInstaclustrKafkaConnectMirrorV2Instance#external_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/kafka_connect_mirror_v2_instance#external_cluster DataInstaclustrKafkaConnectMirrorV2Instance#external_cluster}
   */
   readonly externalCluster?: DataInstaclustrKafkaConnectMirrorV2InstanceSourceClusterExternalCluster[] | cdktf.IResolvable;
   /**
   * managed_cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/kafka_connect_mirror_v2_instance#managed_cluster DataInstaclustrKafkaConnectMirrorV2Instance#managed_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/kafka_connect_mirror_v2_instance#managed_cluster DataInstaclustrKafkaConnectMirrorV2Instance#managed_cluster}
   */
   readonly managedCluster?: DataInstaclustrKafkaConnectMirrorV2InstanceSourceClusterManagedCluster[] | cdktf.IResolvable;
 }
@@ -912,7 +912,7 @@ export class DataInstaclustrKafkaConnectMirrorV2InstanceSourceClusterList extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/kafka_connect_mirror_v2_instance instaclustr_kafka_connect_mirror_v2_instance}
+* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/kafka_connect_mirror_v2_instance instaclustr_kafka_connect_mirror_v2_instance}
 */
 export class DataInstaclustrKafkaConnectMirrorV2Instance extends cdktf.TerraformDataSource {
 
@@ -928,7 +928,7 @@ export class DataInstaclustrKafkaConnectMirrorV2Instance extends cdktf.Terraform
   * Generates CDKTF code for importing a DataInstaclustrKafkaConnectMirrorV2Instance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataInstaclustrKafkaConnectMirrorV2Instance to import
-  * @param importFromId The id of the existing DataInstaclustrKafkaConnectMirrorV2Instance that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/kafka_connect_mirror_v2_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataInstaclustrKafkaConnectMirrorV2Instance that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/kafka_connect_mirror_v2_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataInstaclustrKafkaConnectMirrorV2Instance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -940,7 +940,7 @@ export class DataInstaclustrKafkaConnectMirrorV2Instance extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/kafka_connect_mirror_v2_instance instaclustr_kafka_connect_mirror_v2_instance} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/kafka_connect_mirror_v2_instance instaclustr_kafka_connect_mirror_v2_instance} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -951,7 +951,8 @@ export class DataInstaclustrKafkaConnectMirrorV2Instance extends cdktf.Terraform
       terraformResourceType: 'instaclustr_kafka_connect_mirror_v2_instance',
       terraformGeneratorMetadata: {
         providerName: 'instaclustr',
-        providerVersion: '2.1.25'
+        providerVersion: '2.1.26',
+        providerVersionConstraint: '2.1.26'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

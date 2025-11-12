@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2
+// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface CadenceClusterV2Config extends cdktf.TerraformMetaArguments {
   /**
   * Version of Cadence to run on the cluster. Available versions: <ul> <li>`1.3.2`</li> <li>`1.2.2`</li> </ul>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#cadence_version CadenceClusterV2#cadence_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#cadence_version CadenceClusterV2#cadence_version}
   */
   readonly cadenceVersion: string;
   /**
   * Indicates if the cluster is currently performing any restructuring operation such as being created or resized
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#current_cluster_operation_status CadenceClusterV2#current_cluster_operation_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#current_cluster_operation_status CadenceClusterV2#current_cluster_operation_status}
   */
   readonly currentClusterOperationStatus?: string;
   /**
   * A description of the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#description CadenceClusterV2#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#description CadenceClusterV2#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#id CadenceClusterV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#id CadenceClusterV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,97 +35,97 @@ export interface CadenceClusterV2Config extends cdktf.TerraformMetaArguments {
   /**
   * Name of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#name CadenceClusterV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#name CadenceClusterV2#name}
   */
   readonly name: string;
   /**
   * Creates a PCI compliant cluster, see [PCI Compliance](https://www.instaclustr.com/support/documentation/useful-information/pci-compliance/).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#pci_compliance_mode CadenceClusterV2#pci_compliance_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#pci_compliance_mode CadenceClusterV2#pci_compliance_mode}
   */
   readonly pciComplianceMode: boolean | cdktf.IResolvable;
   /**
   * Creates the cluster with private network only, see [Private Network Clusters](https://www.instaclustr.com/support/documentation/useful-information/private-network-clusters/).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#private_network_cluster CadenceClusterV2#private_network_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#private_network_cluster CadenceClusterV2#private_network_cluster}
   */
   readonly privateNetworkCluster: boolean | cdktf.IResolvable;
   /**
   * SLA Tier of the cluster. Non-production clusters may receive lower priority support and reduced SLAs. Production tier is not available when using Developer class nodes. See [SLA Tier](https://www.instaclustr.com/support/documentation/useful-information/sla-tier/) for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#sla_tier CadenceClusterV2#sla_tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#sla_tier CadenceClusterV2#sla_tier}
   */
   readonly slaTier: string;
   /**
   * Status of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#status CadenceClusterV2#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#status CadenceClusterV2#status}
   */
   readonly status?: string;
   /**
   * Enable Authentication for Cadence Web
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#use_cadence_web_auth CadenceClusterV2#use_cadence_web_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#use_cadence_web_auth CadenceClusterV2#use_cadence_web_auth}
   */
   readonly useCadenceWebAuth: boolean | cdktf.IResolvable;
   /**
   * Enable Cadence HTTP API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#use_http_api CadenceClusterV2#use_http_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#use_http_api CadenceClusterV2#use_http_api}
   */
   readonly useHttpApi?: boolean | cdktf.IResolvable;
   /**
   * aws_archival block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#aws_archival CadenceClusterV2#aws_archival}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#aws_archival CadenceClusterV2#aws_archival}
   */
   readonly awsArchival?: CadenceClusterV2AwsArchival[] | cdktf.IResolvable;
   /**
   * data_centre block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#data_centre CadenceClusterV2#data_centre}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#data_centre CadenceClusterV2#data_centre}
   */
   readonly dataCentre: CadenceClusterV2DataCentre[] | cdktf.IResolvable;
   /**
   * resize_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#resize_settings CadenceClusterV2#resize_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#resize_settings CadenceClusterV2#resize_settings}
   */
   readonly resizeSettings?: CadenceClusterV2ResizeSettings[] | cdktf.IResolvable;
   /**
   * shared_provisioning block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#shared_provisioning CadenceClusterV2#shared_provisioning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#shared_provisioning CadenceClusterV2#shared_provisioning}
   */
   readonly sharedProvisioning?: CadenceClusterV2SharedProvisioning[] | cdktf.IResolvable;
   /**
   * standard_provisioning block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#standard_provisioning CadenceClusterV2#standard_provisioning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#standard_provisioning CadenceClusterV2#standard_provisioning}
   */
   readonly standardProvisioning?: CadenceClusterV2StandardProvisioning[] | cdktf.IResolvable;
   /**
   * target_primary_cadence block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#target_primary_cadence CadenceClusterV2#target_primary_cadence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#target_primary_cadence CadenceClusterV2#target_primary_cadence}
   */
   readonly targetPrimaryCadence?: CadenceClusterV2TargetPrimaryCadence[] | cdktf.IResolvable;
   /**
   * target_secondary_cadence block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#target_secondary_cadence CadenceClusterV2#target_secondary_cadence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#target_secondary_cadence CadenceClusterV2#target_secondary_cadence}
   */
   readonly targetSecondaryCadence?: CadenceClusterV2TargetSecondaryCadence[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#timeouts CadenceClusterV2#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#timeouts CadenceClusterV2#timeouts}
   */
   readonly timeouts?: CadenceClusterV2Timeouts;
   /**
   * two_factor_delete block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#two_factor_delete CadenceClusterV2#two_factor_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#two_factor_delete CadenceClusterV2#two_factor_delete}
   */
   readonly twoFactorDelete?: CadenceClusterV2TwoFactorDelete[] | cdktf.IResolvable;
 }
@@ -133,25 +133,25 @@ export interface CadenceClusterV2AwsArchival {
   /**
   * S3 resource region
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#archival_s3_region CadenceClusterV2#archival_s3_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#archival_s3_region CadenceClusterV2#archival_s3_region}
   */
   readonly archivalS3Region: string;
   /**
   * S3 resource URI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#archival_s3_uri CadenceClusterV2#archival_s3_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#archival_s3_uri CadenceClusterV2#archival_s3_uri}
   */
   readonly archivalS3Uri: string;
   /**
   * AWS access Key ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#aws_access_key_id CadenceClusterV2#aws_access_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#aws_access_key_id CadenceClusterV2#aws_access_key_id}
   */
   readonly awsAccessKeyId?: string;
   /**
   * AWS secret access key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#aws_secret_access_key CadenceClusterV2#aws_secret_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#aws_secret_access_key CadenceClusterV2#aws_secret_access_key}
   */
   readonly awsSecretAccessKey?: string;
 }
@@ -350,13 +350,13 @@ export interface CadenceClusterV2DataCentreAwsSettings {
   /**
   * VPC ID into which the Data Centre will be provisioned. The Data Centre's network allocation must match the IPv4 CIDR block of the specified VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#custom_virtual_network_id CadenceClusterV2#custom_virtual_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#custom_virtual_network_id CadenceClusterV2#custom_virtual_network_id}
   */
   readonly customVirtualNetworkId?: string;
   /**
   * ID of a KMS encryption key to encrypt data on nodes. KMS encryption key must be set in Cluster Resources through the Instaclustr Console before provisioning an encrypted Data Centre.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#ebs_encryption_key CadenceClusterV2#ebs_encryption_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#ebs_encryption_key CadenceClusterV2#ebs_encryption_key}
   */
   readonly ebsEncryptionKey?: string;
 }
@@ -503,19 +503,19 @@ export interface CadenceClusterV2DataCentreAzureSettings {
   /**
   * VNet ID into which the Data Centre will be provisioned. The VNet must have an available address space for the Data Centre's network allocation to be appended to the VNet. Currently supported for PostgreSQL clusters only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#custom_virtual_network_id CadenceClusterV2#custom_virtual_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#custom_virtual_network_id CadenceClusterV2#custom_virtual_network_id}
   */
   readonly customVirtualNetworkId?: string;
   /**
   * The name of the Azure Resource Group into which the Data Centre will be provisioned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#resource_group CadenceClusterV2#resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#resource_group CadenceClusterV2#resource_group}
   */
   readonly resourceGroup?: string;
   /**
   * The private network address block to be used for the storage network. This is only used for certain node sizes, currently limited to those which use Azure NetApp Files: for all other node sizes, this field should not be provided. The network must have a prefix length between /16 and /28, and must be part of a private address range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#storage_network CadenceClusterV2#storage_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#storage_network CadenceClusterV2#storage_network}
   */
   readonly storageNetwork?: string;
 }
@@ -691,13 +691,13 @@ export interface CadenceClusterV2DataCentreCurrentOperationsDeleteNodesDeleteNod
   /**
   * Timestamp of the creation of the operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#created CadenceClusterV2#created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#created CadenceClusterV2#created}
   */
   readonly created?: string;
   /**
   * Operation id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#id CadenceClusterV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#id CadenceClusterV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -706,17 +706,17 @@ export interface CadenceClusterV2DataCentreCurrentOperationsDeleteNodesDeleteNod
   /**
   * Timestamp of the last modification of the operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#modified CadenceClusterV2#modified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#modified CadenceClusterV2#modified}
   */
   readonly modified?: string;
   /**
   * ID of the node being replaced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#node_id CadenceClusterV2#node_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#node_id CadenceClusterV2#node_id}
   */
   readonly nodeId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#status CadenceClusterV2#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#status CadenceClusterV2#status}
   */
   readonly status?: string;
 }
@@ -950,19 +950,19 @@ export interface CadenceClusterV2DataCentreCurrentOperationsDeleteNodes {
   /**
   * ID of the Cluster Data Centre.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#cdc_id CadenceClusterV2#cdc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#cdc_id CadenceClusterV2#cdc_id}
   */
   readonly cdcId?: string;
   /**
   * Timestamp of the creation of the operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#created CadenceClusterV2#created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#created CadenceClusterV2#created}
   */
   readonly created?: string;
   /**
   * Operation id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#id CadenceClusterV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#id CadenceClusterV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -971,23 +971,23 @@ export interface CadenceClusterV2DataCentreCurrentOperationsDeleteNodes {
   /**
   * Timestamp of the last modification of the operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#modified CadenceClusterV2#modified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#modified CadenceClusterV2#modified}
   */
   readonly modified?: string;
   /**
   * Number of nodes set to delete in the operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#number_of_nodes_to_delete CadenceClusterV2#number_of_nodes_to_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#number_of_nodes_to_delete CadenceClusterV2#number_of_nodes_to_delete}
   */
   readonly numberOfNodesToDelete?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#status CadenceClusterV2#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#status CadenceClusterV2#status}
   */
   readonly status?: string;
   /**
   * delete_node_operations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#delete_node_operations CadenceClusterV2#delete_node_operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#delete_node_operations CadenceClusterV2#delete_node_operations}
   */
   readonly deleteNodeOperations?: CadenceClusterV2DataCentreCurrentOperationsDeleteNodesDeleteNodeOperations[] | cdktf.IResolvable;
 }
@@ -1279,13 +1279,13 @@ export interface CadenceClusterV2DataCentreCurrentOperationsResizeOperationsRepl
   /**
   * Timestamp of the creation of the node replacement operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#created CadenceClusterV2#created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#created CadenceClusterV2#created}
   */
   readonly created?: string;
   /**
   * ID of the node replacement operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#id CadenceClusterV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#id CadenceClusterV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1294,19 +1294,19 @@ export interface CadenceClusterV2DataCentreCurrentOperationsResizeOperationsRepl
   /**
   * ID of the new node in the replacement operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#new_node_id CadenceClusterV2#new_node_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#new_node_id CadenceClusterV2#new_node_id}
   */
   readonly newNodeId?: string;
   /**
   * ID of the node being replaced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#node_id CadenceClusterV2#node_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#node_id CadenceClusterV2#node_id}
   */
   readonly nodeId?: string;
   /**
   * Status of the node replacement operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#status CadenceClusterV2#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#status CadenceClusterV2#status}
   */
   readonly status?: string;
 }
@@ -1540,25 +1540,25 @@ export interface CadenceClusterV2DataCentreCurrentOperationsResizeOperations {
   /**
   * Timestamp of the completion of the operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#completed CadenceClusterV2#completed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#completed CadenceClusterV2#completed}
   */
   readonly completed?: string;
   /**
   * Number of nodes that can be concurrently resized at a given time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#concurrent_resizes CadenceClusterV2#concurrent_resizes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#concurrent_resizes CadenceClusterV2#concurrent_resizes}
   */
   readonly concurrentResizes?: number;
   /**
   * Timestamp of the creation of the operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#created CadenceClusterV2#created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#created CadenceClusterV2#created}
   */
   readonly created?: string;
   /**
   * ID of the operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#id CadenceClusterV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#id CadenceClusterV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1567,31 +1567,31 @@ export interface CadenceClusterV2DataCentreCurrentOperationsResizeOperations {
   /**
   * Timestamp of when Instaclustr Support has been alerted to the resize operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#instaclustr_support_alerted CadenceClusterV2#instaclustr_support_alerted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#instaclustr_support_alerted CadenceClusterV2#instaclustr_support_alerted}
   */
   readonly instaclustrSupportAlerted?: string;
   /**
   * New size of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#new_node_size CadenceClusterV2#new_node_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#new_node_size CadenceClusterV2#new_node_size}
   */
   readonly newNodeSize?: string;
   /**
   * Purpose of the node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#node_purpose CadenceClusterV2#node_purpose}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#node_purpose CadenceClusterV2#node_purpose}
   */
   readonly nodePurpose?: string;
   /**
   * Status of the operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#status CadenceClusterV2#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#status CadenceClusterV2#status}
   */
   readonly status?: string;
   /**
   * replace_operations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#replace_operations CadenceClusterV2#replace_operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#replace_operations CadenceClusterV2#replace_operations}
   */
   readonly replaceOperations?: CadenceClusterV2DataCentreCurrentOperationsResizeOperationsReplaceOperations[] | cdktf.IResolvable;
 }
@@ -1941,7 +1941,7 @@ export interface CadenceClusterV2DataCentreCurrentOperationsResize {
   /**
   * operations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#operations CadenceClusterV2#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#operations CadenceClusterV2#operations}
   */
   readonly operations?: CadenceClusterV2DataCentreCurrentOperationsResizeOperations[] | cdktf.IResolvable;
 }
@@ -2059,13 +2059,13 @@ export interface CadenceClusterV2DataCentreCurrentOperations {
   /**
   * delete_nodes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#delete_nodes CadenceClusterV2#delete_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#delete_nodes CadenceClusterV2#delete_nodes}
   */
   readonly deleteNodes?: CadenceClusterV2DataCentreCurrentOperationsDeleteNodes[] | cdktf.IResolvable;
   /**
   * resize block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#resize CadenceClusterV2#resize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#resize CadenceClusterV2#resize}
   */
   readonly resize?: CadenceClusterV2DataCentreCurrentOperationsResize[] | cdktf.IResolvable;
 }
@@ -2212,13 +2212,13 @@ export interface CadenceClusterV2DataCentreDeletedNodes {
   /**
   * Deletion time of the node as a UTC timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#deletion_time CadenceClusterV2#deletion_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#deletion_time CadenceClusterV2#deletion_time}
   */
   readonly deletionTime?: string;
   /**
   * ID of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#id CadenceClusterV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#id CadenceClusterV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2227,43 +2227,43 @@ export interface CadenceClusterV2DataCentreDeletedNodes {
   /**
   * The roles or purposes of the node. Useful for filtering for nodes that have a specific role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#node_roles CadenceClusterV2#node_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#node_roles CadenceClusterV2#node_roles}
   */
   readonly nodeRoles?: string[];
   /**
   * Size of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#node_size CadenceClusterV2#node_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#node_size CadenceClusterV2#node_size}
   */
   readonly nodeSize?: string;
   /**
   * Private IP address of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#private_address CadenceClusterV2#private_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#private_address CadenceClusterV2#private_address}
   */
   readonly privateAddress?: string;
   /**
   * Public IP address of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#public_address CadenceClusterV2#public_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#public_address CadenceClusterV2#public_address}
   */
   readonly publicAddress?: string;
   /**
   * Rack name in which the node is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#rack CadenceClusterV2#rack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#rack CadenceClusterV2#rack}
   */
   readonly rack?: string;
   /**
   * Start time of the node as a UTC timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#start_time CadenceClusterV2#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#start_time CadenceClusterV2#start_time}
   */
   readonly startTime?: string;
   /**
   * Provisioning status of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#status CadenceClusterV2#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#status CadenceClusterV2#status}
   */
   readonly status?: string;
 }
@@ -2622,7 +2622,7 @@ export interface CadenceClusterV2DataCentreGcpSettings {
   * 
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#custom_virtual_network_id CadenceClusterV2#custom_virtual_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#custom_virtual_network_id CadenceClusterV2#custom_virtual_network_id}
   */
   readonly customVirtualNetworkId?: string;
 }
@@ -2740,13 +2740,13 @@ export interface CadenceClusterV2DataCentreNodes {
   /**
   * Deletion time of the node as a UTC timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#deletion_time CadenceClusterV2#deletion_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#deletion_time CadenceClusterV2#deletion_time}
   */
   readonly deletionTime?: string;
   /**
   * ID of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#id CadenceClusterV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#id CadenceClusterV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2755,43 +2755,43 @@ export interface CadenceClusterV2DataCentreNodes {
   /**
   * The roles or purposes of the node. Useful for filtering for nodes that have a specific role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#node_roles CadenceClusterV2#node_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#node_roles CadenceClusterV2#node_roles}
   */
   readonly nodeRoles?: string[];
   /**
   * Size of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#node_size CadenceClusterV2#node_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#node_size CadenceClusterV2#node_size}
   */
   readonly nodeSize?: string;
   /**
   * Private IP address of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#private_address CadenceClusterV2#private_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#private_address CadenceClusterV2#private_address}
   */
   readonly privateAddress?: string;
   /**
   * Public IP address of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#public_address CadenceClusterV2#public_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#public_address CadenceClusterV2#public_address}
   */
   readonly publicAddress?: string;
   /**
   * Rack name in which the node is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#rack CadenceClusterV2#rack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#rack CadenceClusterV2#rack}
   */
   readonly rack?: string;
   /**
   * Start time of the node as a UTC timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#start_time CadenceClusterV2#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#start_time CadenceClusterV2#start_time}
   */
   readonly startTime?: string;
   /**
   * Provisioning status of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#status CadenceClusterV2#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#status CadenceClusterV2#status}
   */
   readonly status?: string;
 }
@@ -3141,19 +3141,19 @@ export interface CadenceClusterV2DataCentrePrivateLink {
   /**
   * The hostname to be used to connect to the PrivateLink cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#advertised_hostname CadenceClusterV2#advertised_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#advertised_hostname CadenceClusterV2#advertised_hostname}
   */
   readonly advertisedHostname: string;
   /**
   * The Instaclustr ID of the AWS endpoint service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#end_point_service_id CadenceClusterV2#end_point_service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#end_point_service_id CadenceClusterV2#end_point_service_id}
   */
   readonly endPointServiceId?: string;
   /**
   * Name of the created endpoint service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#end_point_service_name CadenceClusterV2#end_point_service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#end_point_service_name CadenceClusterV2#end_point_service_name}
   */
   readonly endPointServiceName?: string;
 }
@@ -3326,13 +3326,13 @@ export interface CadenceClusterV2DataCentreTag {
   /**
   * Key of the tag for the Data Centre.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#key CadenceClusterV2#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#key CadenceClusterV2#key}
   */
   readonly key: string;
   /**
   * Value of the tag for the Data Centre.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#value CadenceClusterV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#value CadenceClusterV2#value}
   */
   readonly value?: string;
 }
@@ -3476,19 +3476,19 @@ export interface CadenceClusterV2DataCentre {
   /**
   * Enables Client ⇄ Node Encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#client_to_cluster_encryption CadenceClusterV2#client_to_cluster_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#client_to_cluster_encryption CadenceClusterV2#client_to_cluster_encryption}
   */
   readonly clientToClusterEncryption: boolean | cdktf.IResolvable;
   /**
   * Name of a cloud provider service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#cloud_provider CadenceClusterV2#cloud_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#cloud_provider CadenceClusterV2#cloud_provider}
   */
   readonly cloudProvider: string;
   /**
   * ID of the Cluster Data Centre.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#id CadenceClusterV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#id CadenceClusterV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3497,97 +3497,97 @@ export interface CadenceClusterV2DataCentre {
   /**
   * A logical name for the data centre within a cluster. These names must be unique in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#name CadenceClusterV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#name CadenceClusterV2#name}
   */
   readonly name: string;
   /**
   * The private network address block for the Data Centre specified using CIDR address notation. The network must have a prefix length between `/16` and `/26` and must be part of a private address space.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#network CadenceClusterV2#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#network CadenceClusterV2#network}
   */
   readonly network: string;
   /**
   * Size of the nodes provisioned in the Data Centre. Available node sizes: <details> <summary>*Amazon Web Services* [__AWS_VPC__]</summary> <br> <details> <summary>*Africa (Cape Town)* [__AF_SOUTH_1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>CAD-DEV-t4g.medium-10 </td> <td>General Availability</td> </tr> <tr> <td>CAD-DEV-t4g.small-5 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.2xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.4xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.large-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-r7g.medium-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-DEV-t4g.medium-10 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-DEV-t4g.small-5 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-PRD-m7g.large-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-PRD-t4g.medium-10 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Asia Pacific (Hong Kong)* [__AP_EAST_1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>CAD-DEV-t4g.medium-10 </td> <td>General Availability</td> </tr> <tr> <td>CAD-DEV-t4g.small-5 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.2xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.4xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.large-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-r7g.medium-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-DEV-t4g.medium-10 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-DEV-t4g.small-5 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-PRD-m7g.large-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-PRD-t4g.medium-10 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Asia Pacific (Hyderabad)* [__AP_SOUTH_2__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>CAD-DEV-t4g.medium-10 </td> <td>General Availability</td> </tr> <tr> <td>CAD-DEV-t4g.small-5 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.2xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.4xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.large-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-r7g.medium-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-DEV-t4g.medium-10 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-DEV-t4g.small-5 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-PRD-m7g.large-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-PRD-t4g.medium-10 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Asia Pacific (Jakarta)* [__AP_SOUTHEAST_3__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>CAD-DEV-t4g.medium-10 </td> <td>General Availability</td> </tr> <tr> <td>CAD-DEV-t4g.small-5 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.2xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.4xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.large-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-r7g.medium-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-DEV-t4g.medium-10 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-DEV-t4g.small-5 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-PRD-m7g.large-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-PRD-t4g.medium-10 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Asia Pacific (Malaysia)* [__AP_SOUTHEAST_5__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>CAD-DEV-t4g.medium-10 </td> <td>General Availability</td> </tr> <tr> <td>CAD-DEV-t4g.small-5 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.2xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.4xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.large-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-r7g.medium-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-DEV-t4g.medium-10 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-DEV-t4g.small-5 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-PRD-m7g.large-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-PRD-t4g.medium-10 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Asia Pacific (Melbourne)* [__AP_SOUTHEAST_4__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>CAD-DEV-t4g.medium-10 </td> <td>General Availability</td> </tr> <tr> <td>CAD-DEV-t4g.small-5 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.2xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.4xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.large-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-r7g.medium-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-DEV-t4g.medium-10 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-DEV-t4g.small-5 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-PRD-m7g.large-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-PRD-t4g.medium-10 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Asia Pacific (Mumbai)* [__AP_SOUTH_1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>CAD-DEV-t4g.medium-10 </td> <td>General Availability</td> </tr> <tr> <td>CAD-DEV-t4g.small-5 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.2xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.4xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.large-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-r7g.medium-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-DEV-t4g.medium-10 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-DEV-t4g.small-5 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-PRD-m7g.large-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-PRD-t4g.medium-10 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Asia Pacific (Osaka)* [__AP_NORTHEAST_3__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>CAD-DEV-t4g.medium-10 </td> <td>General Availability</td> </tr> <tr> <td>CAD-DEV-t4g.small-5 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.2xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.4xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.large-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-r7g.medium-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-DEV-t4g.medium-10 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-DEV-t4g.small-5 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-PRD-m7g.large-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-PRD-t4g.medium-10 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Asia Pacific (Seoul)* [__AP_NORTHEAST_2__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>CAD-DEV-t4g.medium-10 </td> <td>General Availability</td> </tr> <tr> <td>CAD-DEV-t4g.small-5 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.2xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.4xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.large-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-r7g.medium-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-DEV-t4g.medium-10 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-DEV-t4g.small-5 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-PRD-m7g.large-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-PRD-t4g.medium-10 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Asia Pacific (Singapore)* [__AP_SOUTHEAST_1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>CAD-DEV-t4g.medium-10 </td> <td>General Availability</td> </tr> <tr> <td>CAD-DEV-t4g.small-5 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.2xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.4xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.large-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-r7g.medium-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-DEV-t4g.medium-10 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-DEV-t4g.small-5 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-PRD-m7g.large-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-PRD-t4g.medium-10 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Asia Pacific (Sydney)* [__AP_SOUTHEAST_2__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>CAD-DEV-t4g.medium-10 </td> <td>General Availability</td> </tr> <tr> <td>CAD-DEV-t4g.small-5 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.2xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.4xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.large-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-r7g.medium-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-DEV-t4g.medium-10 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-DEV-t4g.small-5 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-PRD-m7g.large-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-PRD-t4g.medium-10 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Asia Pacific (Thailand)* [__AP_SOUTHEAST_7__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>CAD-DEV-t4g.medium-10 </td> <td>General Availability</td> </tr> <tr> <td>CAD-DEV-t4g.small-5 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.2xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.4xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.large-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-r7g.medium-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-DEV-t4g.medium-10 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-DEV-t4g.small-5 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-PRD-m7g.large-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-PRD-t4g.medium-10 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Asia Pacific (Tokyo)* [__AP_NORTHEAST_1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>CAD-DEV-t4g.medium-10 </td> <td>General Availability</td> </tr> <tr> <td>CAD-DEV-t4g.small-5 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.2xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.4xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.large-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-r7g.medium-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-DEV-t4g.medium-10 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-DEV-t4g.small-5 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-PRD-m7g.large-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-PRD-t4g.medium-10 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Canada (Central)* [__CA_CENTRAL_1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>CAD-DEV-t4g.medium-10 </td> <td>General Availability</td> </tr> <tr> <td>CAD-DEV-t4g.small-5 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.2xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.4xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.large-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-r7g.medium-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-DEV-t4g.medium-10 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-DEV-t4g.small-5 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-PRD-m7g.large-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-PRD-t4g.medium-10 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Canada West (Calgary)* [__CA_WEST_1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>CAD-DEV-t4g.medium-10 </td> <td>General Availability</td> </tr> <tr> <td>CAD-DEV-t4g.small-5 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-DEV-t4g.medium-10 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-DEV-t4g.small-5 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-PRD-t4g.medium-10 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*EU Central (Frankfurt)* [__EU_CENTRAL_1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>CAD-DEV-t4g.medium-10 </td> <td>General Availability</td> </tr> <tr> <td>CAD-DEV-t4g.small-5 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.2xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.4xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.large-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-r7g.medium-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-DEV-t4g.medium-10 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-DEV-t4g.small-5 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-PRD-m7g.large-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-PRD-t4g.medium-10 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*EU Central (Zurich)* [__EU_CENTRAL_2__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>CAD-DEV-t4g.medium-10 </td> <td>General Availability</td> </tr> <tr> <td>CAD-DEV-t4g.small-5 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.2xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.4xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.large-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-r7g.medium-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-DEV-t4g.medium-10 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-DEV-t4g.small-5 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-PRD-m7g.large-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-PRD-t4g.medium-10 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*EU North (Stockholm)* [__EU_NORTH_1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>CAD-DEV-t4g.medium-10 </td> <td>General Availability</td> </tr> <tr> <td>CAD-DEV-t4g.small-5 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.2xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.4xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.large-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-r7g.medium-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-DEV-t4g.medium-10 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-DEV-t4g.small-5 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-PRD-m7g.large-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-PRD-t4g.medium-10 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*EU South (Milan)* [__EU_SOUTH_1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>CAD-DEV-t4g.medium-10 </td> <td>General Availability</td> </tr> <tr> <td>CAD-DEV-t4g.small-5 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-r7g.medium-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-DEV-t4g.medium-10 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-DEV-t4g.small-5 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-PRD-t4g.medium-10 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*EU South (Spain)* [__EU_SOUTH_2__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>CAD-DEV-t4g.medium-10 </td> <td>General Availability</td> </tr> <tr> <td>CAD-DEV-t4g.small-5 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.2xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.4xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.large-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-r7g.medium-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-DEV-t4g.medium-10 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-DEV-t4g.small-5 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-PRD-m7g.large-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-PRD-t4g.medium-10 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*EU West (Ireland)* [__EU_WEST_1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>CAD-DEV-t4g.medium-10 </td> <td>General Availability</td> </tr> <tr> <td>CAD-DEV-t4g.small-5 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.2xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.4xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.large-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-r7g.medium-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-DEV-t4g.medium-10 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-DEV-t4g.small-5 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-PRD-m7g.large-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-PRD-t4g.medium-10 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*EU West (London)* [__EU_WEST_2__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>CAD-DEV-t4g.medium-10 </td> <td>General Availability</td> </tr> <tr> <td>CAD-DEV-t4g.small-5 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.2xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.4xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.large-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-r7g.medium-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-DEV-t4g.medium-10 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-DEV-t4g.small-5 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-PRD-m7g.large-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-PRD-t4g.medium-10 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*EU West (Paris)* [__EU_WEST_3__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>CAD-DEV-t4g.medium-10 </td> <td>General Availability</td> </tr> <tr> <td>CAD-DEV-t4g.small-5 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.2xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.4xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.large-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-r7g.medium-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-DEV-t4g.medium-10 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-DEV-t4g.small-5 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-PRD-m7g.large-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-PRD-t4g.medium-10 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Israel (Tel Aviv)* [__IL_CENTRAL_1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>CAD-DEV-t4g.medium-10 </td> <td>General Availability</td> </tr> <tr> <td>CAD-DEV-t4g.small-5 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.2xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.4xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.large-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-r7g.medium-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-DEV-t4g.medium-10 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-DEV-t4g.small-5 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-PRD-m7g.large-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-PRD-t4g.medium-10 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Middle East (Bahrain)* [__ME_SOUTH_1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>CAD-DEV-t4g.medium-10 </td> <td>General Availability</td> </tr> <tr> <td>CAD-DEV-t4g.small-5 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.2xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.4xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.large-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-DEV-t4g.medium-10 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-DEV-t4g.small-5 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-PRD-m7g.large-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-PRD-t4g.medium-10 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Middle East (UAE)* [__ME_CENTRAL_1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>CAD-DEV-t4g.medium-10 </td> <td>General Availability</td> </tr> <tr> <td>CAD-DEV-t4g.small-5 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.2xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.4xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.large-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-r7g.medium-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-DEV-t4g.medium-10 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-DEV-t4g.small-5 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-PRD-m7g.large-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-PRD-t4g.medium-10 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*South America (São Paulo)* [__SA_EAST_1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>CAD-DEV-t4g.medium-10 </td> <td>General Availability</td> </tr> <tr> <td>CAD-DEV-t4g.small-5 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.2xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.4xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.large-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-r7g.medium-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-DEV-t4g.medium-10 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-DEV-t4g.small-5 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-PRD-m7g.large-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-PRD-t4g.medium-10 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*US East (Northern Virginia)* [__US_EAST_1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>CAD-DEV-t4g.medium-10 </td> <td>General Availability</td> </tr> <tr> <td>CAD-DEV-t4g.small-5 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.2xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.4xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.large-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-r7g.medium-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-DEV-t4g.medium-10 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-DEV-t4g.small-5 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-PRD-m7g.large-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-PRD-t4g.medium-10 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*US East (Ohio)* [__US_EAST_2__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>CAD-DEV-t4g.medium-10 </td> <td>General Availability</td> </tr> <tr> <td>CAD-DEV-t4g.small-5 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.2xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.4xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.large-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-r7g.medium-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-DEV-t4g.medium-10 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-DEV-t4g.small-5 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-PRD-m7g.large-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-PRD-t4g.medium-10 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*US West (Northern California)* [__US_WEST_1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>CAD-DEV-t4g.medium-10 </td> <td>General Availability</td> </tr> <tr> <td>CAD-DEV-t4g.small-5 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.2xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.4xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.large-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-r7g.medium-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-DEV-t4g.medium-10 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-DEV-t4g.small-5 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-PRD-m7g.large-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-PRD-t4g.medium-10 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*US West (Oregon)* [__US_WEST_2__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>CAD-DEV-t4g.medium-10 </td> <td>General Availability</td> </tr> <tr> <td>CAD-DEV-t4g.small-5 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.2xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.4xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.large-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-m7g.xlarge-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-r7g.medium-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-DEV-t4g.medium-10 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-DEV-t4g.small-5 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-PRD-m7g.large-50 </td> <td>General Availability</td> </tr> <tr> <td>CAD-SI-PRD-t4g.medium-10 </td> <td>General Availability</td> </tr> </table> <br> </details> <br> </details> <details> <summary>*Microsoft Azure* [__AZURE_AZ__]</summary> <br> <details> <summary>*Australia East (NSW)* [__AUSTRALIA_EAST__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>CAD-DEV-standard_ds2_v2-30 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-standard_ds2_v2-150 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-standard_ds3_v2-150 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Canada Central (Toronto)* [__CANADA_CENTRAL__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>CAD-DEV-standard_ds2_v2-30 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-standard_ds2_v2-150 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-standard_ds3_v2-150 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Central US (Iowa)* [__CENTRAL_US__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>CAD-DEV-standard_ds2_v2-30 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-standard_ds2_v2-150 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-standard_ds3_v2-150 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*East US (Virginia)* [__EAST_US__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>CAD-DEV-standard_ds2_v2-30 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-standard_ds2_v2-150 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-standard_ds3_v2-150 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*East US 2 (Virginia)* [__EAST_US_2__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>CAD-DEV-standard_ds2_v2-30 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-standard_ds2_v2-150 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-standard_ds3_v2-150 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*North Europe (Ireland)* [__NORTH_EUROPE__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>CAD-DEV-standard_ds2_v2-30 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-standard_ds2_v2-150 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-standard_ds3_v2-150 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*South Central US (Texas)* [__SOUTH_CENTRAL_US__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>CAD-DEV-standard_ds2_v2-30 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-standard_ds2_v2-150 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-standard_ds3_v2-150 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Southeast Asia (Singapore)* [__SOUTHEAST_ASIA__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>CAD-DEV-standard_ds2_v2-30 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-standard_ds2_v2-150 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-standard_ds3_v2-150 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Switzerland North (Zurich)* [__SWITZERLAND_NORTH__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>CAD-DEV-standard_ds2_v2-30 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-standard_ds2_v2-150 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-standard_ds3_v2-150 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*UK South (London)* [__UK_SOUTH__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>CAD-DEV-standard_ds2_v2-30 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-standard_ds2_v2-150 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-standard_ds3_v2-150 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*West Europe (Netherlands)* [__WEST_EUROPE__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>CAD-DEV-standard_ds2_v2-30 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-standard_ds2_v2-150 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-standard_ds3_v2-150 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*West US 2 (Washington)* [__WEST_US_2__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>CAD-DEV-standard_ds2_v2-30 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-standard_ds2_v2-150 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-standard_ds3_v2-150 </td> <td>General Availability</td> </tr> </table> <br> </details> <br> </details> <details> <summary>*Google Cloud Platform* [__GCP__]</summary> <br> <details> <summary>*Central Europe (Warsaw)* [__europe-central2__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>CAD-DEV-n1-standard-1-30 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-n1-standard-2-150 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-n1-standard-4-150 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Central US (Iowa)* [__us-central1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>CAD-DEV-n1-standard-1-30 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-n1-standard-2-150 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-n1-standard-4-150 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Eastern Asia-Pacific (Taiwan)* [__asia-east1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>CAD-DEV-n1-standard-1-30 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-n1-standard-2-150 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-n1-standard-4-150 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Eastern South America (Brazil)* [__southamerica-east1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>CAD-DEV-n1-standard-1-30 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-n1-standard-2-150 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-n1-standard-4-150 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Eastern US (North Virginia)* [__us-east4__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>CAD-DEV-n1-standard-1-30 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-n1-standard-2-150 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-n1-standard-4-150 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Eastern US (South Carolina)* [__us-east1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>CAD-DEV-n1-standard-1-30 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-n1-standard-2-150 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-n1-standard-4-150 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Northeastern Asia-pacific (Japan)* [__asia-northeast1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>CAD-DEV-n1-standard-1-30 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-n1-standard-2-150 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-n1-standard-4-150 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Northeastern North America (Canada)* [__northamerica-northeast1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>CAD-DEV-n1-standard-1-30 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-n1-standard-2-150 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-n1-standard-4-150 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Northern Europe (Finland)* [__europe-north1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>CAD-DEV-n1-standard-1-30 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-n1-standard-2-150 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-n1-standard-4-150 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Southeastern Asia (Jakarta)* [__asia-southeast2__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>CAD-DEV-n1-standard-1-30 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-n1-standard-2-150 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-n1-standard-4-150 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Southeastern Asia (Singapore)* [__asia-southeast1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>CAD-DEV-n1-standard-1-30 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-n1-standard-2-150 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-n1-standard-4-150 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Southeastern Australia (Sydney)* [__australia-southeast1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>CAD-DEV-n1-standard-1-30 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-n1-standard-2-150 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-n1-standard-4-150 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Southern Asia (India)* [__asia-south1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>CAD-DEV-n1-standard-1-30 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-n1-standard-2-150 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-n1-standard-4-150 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Western Europe (Belgium)* [__europe-west1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>CAD-DEV-n1-standard-1-30 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-n1-standard-2-150 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-n1-standard-4-150 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Western Europe (England)* [__europe-west2__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>CAD-DEV-n1-standard-1-30 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-n1-standard-2-150 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-n1-standard-4-150 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Western Europe (Germany)* [__europe-west3__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>CAD-DEV-n1-standard-1-30 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-n1-standard-2-150 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-n1-standard-4-150 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Western Europe (Netherlands)* [__europe-west4__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>CAD-DEV-n1-standard-1-30 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-n1-standard-2-150 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-n1-standard-4-150 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Western Europe (Zurich)* [__europe-west6__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>CAD-DEV-n1-standard-1-30 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-n1-standard-2-150 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-n1-standard-4-150 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Western US (California)* [__us-west2__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>CAD-DEV-n1-standard-1-30 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-n1-standard-2-150 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-n1-standard-4-150 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Western US (Oregon)* [__us-west1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>CAD-DEV-n1-standard-1-30 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-n1-standard-2-150 </td> <td>General Availability</td> </tr> <tr> <td>CAD-PRD-n1-standard-4-150 </td> <td>General Availability</td> </tr> </table> <br> </details> <br> </details>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#node_size CadenceClusterV2#node_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#node_size CadenceClusterV2#node_size}
   */
   readonly nodeSize: string;
   /**
   * Total number of nodes in the Data Centre.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#number_of_nodes CadenceClusterV2#number_of_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#number_of_nodes CadenceClusterV2#number_of_nodes}
   */
   readonly numberOfNodes: number;
   /**
   * For customers running in their own account. Your provider account can be found on the Create Cluster page on the Instaclustr Console, or the "Provider Account" property on any existing cluster. For customers provisioning on Instaclustr's cloud provider accounts, this property may be omitted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#provider_account_name CadenceClusterV2#provider_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#provider_account_name CadenceClusterV2#provider_account_name}
   */
   readonly providerAccountName?: string;
   /**
   * Region of the Data Centre. See the description for node size for a compatible Data Centre for a given node size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#region CadenceClusterV2#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#region CadenceClusterV2#region}
   */
   readonly region: string;
   /**
   * Status of the Data Centre.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#status CadenceClusterV2#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#status CadenceClusterV2#status}
   */
   readonly status?: string;
   /**
   * Zero Inbound Access gateways eliminate the requirement for any public IP addresses in cluster deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#zero_inbound_access CadenceClusterV2#zero_inbound_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#zero_inbound_access CadenceClusterV2#zero_inbound_access}
   */
   readonly zeroInboundAccess?: boolean | cdktf.IResolvable;
   /**
   * aws_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#aws_settings CadenceClusterV2#aws_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#aws_settings CadenceClusterV2#aws_settings}
   */
   readonly awsSettings?: CadenceClusterV2DataCentreAwsSettings[] | cdktf.IResolvable;
   /**
   * azure_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#azure_settings CadenceClusterV2#azure_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#azure_settings CadenceClusterV2#azure_settings}
   */
   readonly azureSettings?: CadenceClusterV2DataCentreAzureSettings[] | cdktf.IResolvable;
   /**
   * current_operations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#current_operations CadenceClusterV2#current_operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#current_operations CadenceClusterV2#current_operations}
   */
   readonly currentOperations?: CadenceClusterV2DataCentreCurrentOperations[] | cdktf.IResolvable;
   /**
   * deleted_nodes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#deleted_nodes CadenceClusterV2#deleted_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#deleted_nodes CadenceClusterV2#deleted_nodes}
   */
   readonly deletedNodes?: CadenceClusterV2DataCentreDeletedNodes[] | cdktf.IResolvable;
   /**
   * gcp_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#gcp_settings CadenceClusterV2#gcp_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#gcp_settings CadenceClusterV2#gcp_settings}
   */
   readonly gcpSettings?: CadenceClusterV2DataCentreGcpSettings[] | cdktf.IResolvable;
   /**
   * nodes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#nodes CadenceClusterV2#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#nodes CadenceClusterV2#nodes}
   */
   readonly nodes?: CadenceClusterV2DataCentreNodes[] | cdktf.IResolvable;
   /**
   * private_link block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#private_link CadenceClusterV2#private_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#private_link CadenceClusterV2#private_link}
   */
   readonly privateLink?: CadenceClusterV2DataCentrePrivateLink[] | cdktf.IResolvable;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#tag CadenceClusterV2#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#tag CadenceClusterV2#tag}
   */
   readonly tag?: CadenceClusterV2DataCentreTag[] | cdktf.IResolvable;
 }
@@ -4206,13 +4206,13 @@ export interface CadenceClusterV2ResizeSettings {
   /**
   * Number of concurrent nodes to resize during a resize operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#concurrency CadenceClusterV2#concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#concurrency CadenceClusterV2#concurrency}
   */
   readonly concurrency?: number;
   /**
   * Setting this property to `true` will notify the Instaclustr Account's designated support contacts on resize completion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#notify_support_contacts CadenceClusterV2#notify_support_contacts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#notify_support_contacts CadenceClusterV2#notify_support_contacts}
   */
   readonly notifySupportContacts?: boolean | cdktf.IResolvable;
 }
@@ -4359,7 +4359,7 @@ export interface CadenceClusterV2SharedProvisioning {
   /**
   * Use Advanced Visibility
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#use_advanced_visibility CadenceClusterV2#use_advanced_visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#use_advanced_visibility CadenceClusterV2#use_advanced_visibility}
   */
   readonly useAdvancedVisibility: boolean | cdktf.IResolvable;
 }
@@ -4474,11 +4474,11 @@ export interface CadenceClusterV2StandardProvisioningAdvancedVisibilityTargetKaf
   /**
   * ID of the supporting Cluster's Cluster Data Centre
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#dependency_cdc_id CadenceClusterV2#dependency_cdc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#dependency_cdc_id CadenceClusterV2#dependency_cdc_id}
   */
   readonly dependencyCdcId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#dependency_vpc_type CadenceClusterV2#dependency_vpc_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#dependency_vpc_type CadenceClusterV2#dependency_vpc_type}
   */
   readonly dependencyVpcType: string;
 }
@@ -4587,11 +4587,11 @@ export interface CadenceClusterV2StandardProvisioningAdvancedVisibilityTargetOpe
   /**
   * ID of the supporting Cluster's Cluster Data Centre
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#dependency_cdc_id CadenceClusterV2#dependency_cdc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#dependency_cdc_id CadenceClusterV2#dependency_cdc_id}
   */
   readonly dependencyCdcId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#dependency_vpc_type CadenceClusterV2#dependency_vpc_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#dependency_vpc_type CadenceClusterV2#dependency_vpc_type}
   */
   readonly dependencyVpcType: string;
 }
@@ -4700,13 +4700,13 @@ export interface CadenceClusterV2StandardProvisioningAdvancedVisibility {
   /**
   * target_kafka block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#target_kafka CadenceClusterV2#target_kafka}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#target_kafka CadenceClusterV2#target_kafka}
   */
   readonly targetKafka: CadenceClusterV2StandardProvisioningAdvancedVisibilityTargetKafka;
   /**
   * target_open_search block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#target_open_search CadenceClusterV2#target_open_search}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#target_open_search CadenceClusterV2#target_open_search}
   */
   readonly targetOpenSearch: CadenceClusterV2StandardProvisioningAdvancedVisibilityTargetOpenSearch;
 }
@@ -4847,11 +4847,11 @@ export interface CadenceClusterV2StandardProvisioningTargetCassandra {
   /**
   * ID of the supporting Cluster's Cluster Data Centre
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#dependency_cdc_id CadenceClusterV2#dependency_cdc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#dependency_cdc_id CadenceClusterV2#dependency_cdc_id}
   */
   readonly dependencyCdcId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#dependency_vpc_type CadenceClusterV2#dependency_vpc_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#dependency_vpc_type CadenceClusterV2#dependency_vpc_type}
   */
   readonly dependencyVpcType: string;
 }
@@ -4960,13 +4960,13 @@ export interface CadenceClusterV2StandardProvisioning {
   /**
   * advanced_visibility block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#advanced_visibility CadenceClusterV2#advanced_visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#advanced_visibility CadenceClusterV2#advanced_visibility}
   */
   readonly advancedVisibility?: CadenceClusterV2StandardProvisioningAdvancedVisibility[] | cdktf.IResolvable;
   /**
   * target_cassandra block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#target_cassandra CadenceClusterV2#target_cassandra}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#target_cassandra CadenceClusterV2#target_cassandra}
   */
   readonly targetCassandra: CadenceClusterV2StandardProvisioningTargetCassandra;
 }
@@ -5110,11 +5110,11 @@ export interface CadenceClusterV2TargetPrimaryCadence {
   /**
   * ID of the supporting Cluster's Cluster Data Centre
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#dependency_cdc_id CadenceClusterV2#dependency_cdc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#dependency_cdc_id CadenceClusterV2#dependency_cdc_id}
   */
   readonly dependencyCdcId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#dependency_vpc_type CadenceClusterV2#dependency_vpc_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#dependency_vpc_type CadenceClusterV2#dependency_vpc_type}
   */
   readonly dependencyVpcType: string;
 }
@@ -5255,11 +5255,11 @@ export interface CadenceClusterV2TargetSecondaryCadence {
   /**
   * ID of the supporting Cluster's Cluster Data Centre
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#dependency_cdc_id CadenceClusterV2#dependency_cdc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#dependency_cdc_id CadenceClusterV2#dependency_cdc_id}
   */
   readonly dependencyCdcId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#dependency_vpc_type CadenceClusterV2#dependency_vpc_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#dependency_vpc_type CadenceClusterV2#dependency_vpc_type}
   */
   readonly dependencyVpcType: string;
 }
@@ -5398,15 +5398,15 @@ export class CadenceClusterV2TargetSecondaryCadenceList extends cdktf.ComplexLis
 }
 export interface CadenceClusterV2Timeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#create CadenceClusterV2#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#create CadenceClusterV2#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#default CadenceClusterV2#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#default CadenceClusterV2#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#update CadenceClusterV2#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#update CadenceClusterV2#update}
   */
   readonly update?: string;
 }
@@ -5560,13 +5560,13 @@ export interface CadenceClusterV2TwoFactorDelete {
   /**
   * The email address which will be contacted when the cluster is requested to be deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#confirmation_email CadenceClusterV2#confirmation_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#confirmation_email CadenceClusterV2#confirmation_email}
   */
   readonly confirmationEmail: string;
   /**
   * The phone number which will be contacted when the cluster is requested to be delete.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#confirmation_phone_number CadenceClusterV2#confirmation_phone_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#confirmation_phone_number CadenceClusterV2#confirmation_phone_number}
   */
   readonly confirmationPhoneNumber?: string;
 }
@@ -5708,7 +5708,7 @@ export class CadenceClusterV2TwoFactorDeleteList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2 instaclustr_cadence_cluster_v2}
+* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2 instaclustr_cadence_cluster_v2}
 */
 export class CadenceClusterV2 extends cdktf.TerraformResource {
 
@@ -5724,7 +5724,7 @@ export class CadenceClusterV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CadenceClusterV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CadenceClusterV2 to import
-  * @param importFromId The id of the existing CadenceClusterV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CadenceClusterV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CadenceClusterV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5736,7 +5736,7 @@ export class CadenceClusterV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/resources/cadence_cluster_v2 instaclustr_cadence_cluster_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/cadence_cluster_v2 instaclustr_cadence_cluster_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5747,7 +5747,8 @@ export class CadenceClusterV2 extends cdktf.TerraformResource {
       terraformResourceType: 'instaclustr_cadence_cluster_v2',
       terraformGeneratorMetadata: {
         providerName: 'instaclustr',
-        providerVersion: '2.1.25'
+        providerVersion: '2.1.26',
+        providerVersionConstraint: '2.1.26'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

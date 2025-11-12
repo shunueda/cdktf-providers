@@ -79,7 +79,8 @@ export class MissionControlProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'mission-control',
       terraformGeneratorMetadata: {
         providerName: 'mission-control',
-        providerVersion: '1.1.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       terraformProviderSource: 'jfrog/mission-control'
     });

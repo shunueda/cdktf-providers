@@ -73,7 +73,8 @@ export class DsRecord extends cdktf.TerraformResource {
       terraformResourceType: 'dnsimple_ds_record',
       terraformGeneratorMetadata: {
         providerName: 'dnsimple',
-        providerVersion: '1.10.0'
+        providerVersion: '1.10.0',
+        providerVersionConstraint: '1.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

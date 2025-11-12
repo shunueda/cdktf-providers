@@ -55,7 +55,8 @@ export class HtpasswdProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'htpasswd',
       terraformGeneratorMetadata: {
         providerName: 'htpasswd',
-        providerVersion: '1.5.0'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       terraformProviderSource: 'loafoe/htpasswd'
     });

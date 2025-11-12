@@ -74,7 +74,8 @@ export class AppsecApiConstraintsProtection extends cdktf.TerraformResource {
       terraformResourceType: 'akamai_appsec_api_constraints_protection',
       terraformGeneratorMetadata: {
         providerName: 'akamai',
-        providerVersion: '9.1.0'
+        providerVersion: '9.1.0',
+        providerVersionConstraint: '9.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

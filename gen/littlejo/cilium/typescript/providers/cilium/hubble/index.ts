@@ -61,7 +61,8 @@ export class Hubble extends cdktf.TerraformResource {
       terraformResourceType: 'cilium_hubble',
       terraformGeneratorMetadata: {
         providerName: 'cilium',
-        providerVersion: '0.3.2'
+        providerVersion: '0.3.2',
+        providerVersionConstraint: '0.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

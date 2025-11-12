@@ -226,7 +226,8 @@ export class DataWizSubscriptionResourceGroups extends cdktf.TerraformDataSource
       terraformResourceType: 'wiz_subscription_resource_groups',
       terraformGeneratorMetadata: {
         providerName: 'wiz',
-        providerVersion: '1.2.5'
+        providerVersion: '1.2.5',
+        providerVersionConstraint: '1.2.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

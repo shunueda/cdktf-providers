@@ -56,7 +56,8 @@ export class DataZiaUrlFilteringAndCloudAppSettings extends cdktf.TerraformDataS
       terraformResourceType: 'zia_url_filtering_and_cloud_app_settings',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.5.3'
+        providerVersion: '4.5.3',
+        providerVersionConstraint: '4.5.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

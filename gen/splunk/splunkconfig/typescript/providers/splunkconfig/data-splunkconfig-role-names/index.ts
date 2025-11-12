@@ -56,7 +56,8 @@ export class DataSplunkconfigRoleNames extends cdktf.TerraformDataSource {
       terraformResourceType: 'splunkconfig_role_names',
       terraformGeneratorMetadata: {
         providerName: 'splunkconfig',
-        providerVersion: '1.7.4'
+        providerVersion: '1.7.4',
+        providerVersionConstraint: '1.7.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

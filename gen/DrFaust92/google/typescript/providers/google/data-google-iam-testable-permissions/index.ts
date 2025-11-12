@@ -163,7 +163,8 @@ export class DataGoogleIamTestablePermissions extends cdktf.TerraformDataSource 
       terraformResourceType: 'google_iam_testable_permissions',
       terraformGeneratorMetadata: {
         providerName: 'google',
-        providerVersion: '4.16.4'
+        providerVersion: '4.16.4',
+        providerVersionConstraint: '4.16.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

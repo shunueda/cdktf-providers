@@ -154,7 +154,8 @@ export class DataCriblioCertificates extends cdktf.TerraformDataSource {
       terraformResourceType: 'criblio_certificates',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.18.21'
+        providerVersion: '1.18.21',
+        providerVersionConstraint: '1.18.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

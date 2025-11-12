@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/nodebalancers
+// https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/nodebalancers
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataLinodeNodebalancersConfig extends cdktf.TerraformMetaArgume
   /**
   * The order in which results should be returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/nodebalancers#order DataLinodeNodebalancers#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/nodebalancers#order DataLinodeNodebalancers#order}
   */
   readonly order?: string;
   /**
   * The attribute to order the results by.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/nodebalancers#order_by DataLinodeNodebalancers#order_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/nodebalancers#order_by DataLinodeNodebalancers#order_by}
   */
   readonly orderBy?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/nodebalancers#filter DataLinodeNodebalancers#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/nodebalancers#filter DataLinodeNodebalancers#filter}
   */
   readonly filter?: DataLinodeNodebalancersFilter[] | cdktf.IResolvable;
   /**
   * nodebalancers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/nodebalancers#nodebalancers DataLinodeNodebalancers#nodebalancers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/nodebalancers#nodebalancers DataLinodeNodebalancers#nodebalancers}
   */
   readonly nodebalancers?: DataLinodeNodebalancersNodebalancers[] | cdktf.IResolvable;
 }
@@ -36,19 +36,19 @@ export interface DataLinodeNodebalancersFilter {
   /**
   * The type of comparison to use for this filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/nodebalancers#match_by DataLinodeNodebalancers#match_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/nodebalancers#match_by DataLinodeNodebalancers#match_by}
   */
   readonly matchBy?: string;
   /**
   * The name of the attribute to filter on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/nodebalancers#name DataLinodeNodebalancers#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/nodebalancers#name DataLinodeNodebalancers#name}
   */
   readonly name: string;
   /**
   * The value(s) to be used in the filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/nodebalancers#values DataLinodeNodebalancers#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/nodebalancers#values DataLinodeNodebalancers#values}
   */
   readonly values: string[];
 }
@@ -303,7 +303,7 @@ export interface DataLinodeNodebalancersNodebalancers {
   /**
   * The unique ID of the Linode NodeBalancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/nodebalancers#id DataLinodeNodebalancers#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/nodebalancers#id DataLinodeNodebalancers#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -475,7 +475,7 @@ export class DataLinodeNodebalancersNodebalancersList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/nodebalancers linode_nodebalancers}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/nodebalancers linode_nodebalancers}
 */
 export class DataLinodeNodebalancers extends cdktf.TerraformDataSource {
 
@@ -491,7 +491,7 @@ export class DataLinodeNodebalancers extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataLinodeNodebalancers resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataLinodeNodebalancers to import
-  * @param importFromId The id of the existing DataLinodeNodebalancers that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/nodebalancers#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataLinodeNodebalancers that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/nodebalancers#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataLinodeNodebalancers to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -503,7 +503,7 @@ export class DataLinodeNodebalancers extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/nodebalancers linode_nodebalancers} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/nodebalancers linode_nodebalancers} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -514,7 +514,8 @@ export class DataLinodeNodebalancers extends cdktf.TerraformDataSource {
       terraformResourceType: 'linode_nodebalancers',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.5.0'
+        providerVersion: '3.5.1',
+        providerVersionConstraint: '3.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

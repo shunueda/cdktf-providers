@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_tags
+// https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_tags
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataApstraDatacenterTagsConfig extends cdktf.TerraformMetaArgum
   /**
   * Apstra Blueprint to search.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_tags#blueprint_id DataApstraDatacenterTags#blueprint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_tags#blueprint_id DataApstraDatacenterTags#blueprint_id}
   */
   readonly blueprintId: string;
   /**
   * List of filters used to select only desired Tags. To match a filter, all specified attributes must match (each attribute within a filter is AND-ed together). The returned IDs represent the Tags matched by all of the filters together (filters are OR-ed together).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_tags#filters DataApstraDatacenterTags#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_tags#filters DataApstraDatacenterTags#filters}
   */
   readonly filters?: DataApstraDatacenterTagsFilters[] | cdktf.IResolvable;
 }
@@ -24,13 +24,13 @@ export interface DataApstraDatacenterTagsFilters {
   /**
   * Tag description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_tags#description DataApstraDatacenterTags#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_tags#description DataApstraDatacenterTags#description}
   */
   readonly description?: string;
   /**
   * Tag name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_tags#name DataApstraDatacenterTags#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_tags#name DataApstraDatacenterTags#name}
   */
   readonly name?: string;
 }
@@ -180,7 +180,7 @@ export class DataApstraDatacenterTagsFiltersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_tags apstra_datacenter_tags}
+* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_tags apstra_datacenter_tags}
 */
 export class DataApstraDatacenterTags extends cdktf.TerraformDataSource {
 
@@ -196,7 +196,7 @@ export class DataApstraDatacenterTags extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataApstraDatacenterTags resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataApstraDatacenterTags to import
-  * @param importFromId The id of the existing DataApstraDatacenterTags that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_tags#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataApstraDatacenterTags that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_tags#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataApstraDatacenterTags to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -208,7 +208,7 @@ export class DataApstraDatacenterTags extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_tags apstra_datacenter_tags} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_tags apstra_datacenter_tags} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -219,7 +219,8 @@ export class DataApstraDatacenterTags extends cdktf.TerraformDataSource {
       terraformResourceType: 'apstra_datacenter_tags',
       terraformGeneratorMetadata: {
         providerName: 'apstra',
-        providerVersion: '0.95.0'
+        providerVersion: '0.95.1',
+        providerVersionConstraint: '0.95.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

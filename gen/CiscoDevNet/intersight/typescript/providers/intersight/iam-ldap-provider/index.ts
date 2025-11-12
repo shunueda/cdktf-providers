@@ -2850,7 +2850,8 @@ export class IamLdapProvider extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_iam_ldap_provider',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -320,7 +320,8 @@ export class CsAzureHostedConnection extends cdktf.TerraformResource {
       terraformResourceType: 'packetfabric_cs_azure_hosted_connection',
       terraformGeneratorMetadata: {
         providerName: 'packetfabric',
-        providerVersion: '1.9.3'
+        providerVersion: '1.9.3',
+        providerVersionConstraint: '1.9.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

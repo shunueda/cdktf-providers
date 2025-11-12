@@ -73,7 +73,8 @@ export class GlesysProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'glesys',
       terraformGeneratorMetadata: {
         providerName: 'glesys',
-        providerVersion: '0.15.0'
+        providerVersion: '0.15.0',
+        providerVersionConstraint: '0.15.0'
       },
       terraformProviderSource: 'glesys/glesys'
     });

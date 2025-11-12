@@ -986,7 +986,8 @@ export class DataOciStructureTest extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_structure_test',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '0.0.25'
+        providerVersion: '0.0.25',
+        providerVersionConstraint: '0.0.25'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

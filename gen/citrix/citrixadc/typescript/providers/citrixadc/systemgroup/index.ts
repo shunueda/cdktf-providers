@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/systemgroup
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemgroup
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,54 @@ import * as cdktf from 'cdktf';
 
 export interface SystemgroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/systemgroup#allowedmanagementinterface Systemgroup#allowedmanagementinterface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemgroup#allowedmanagementinterface Systemgroup#allowedmanagementinterface}
   */
   readonly allowedmanagementinterface?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/systemgroup#groupname Systemgroup#groupname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemgroup#daystoexpire Systemgroup#daystoexpire}
+  */
+  readonly daystoexpire?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemgroup#groupname Systemgroup#groupname}
   */
   readonly groupname: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/systemgroup#id Systemgroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemgroup#id Systemgroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/systemgroup#promptstring Systemgroup#promptstring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemgroup#promptstring Systemgroup#promptstring}
   */
   readonly promptstring?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/systemgroup#systemusers Systemgroup#systemusers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemgroup#systemusers Systemgroup#systemusers}
   */
   readonly systemusers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/systemgroup#timeout Systemgroup#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemgroup#timeout Systemgroup#timeout}
   */
   readonly timeout?: number;
   /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemgroup#warnpriorndays Systemgroup#warnpriorndays}
+  */
+  readonly warnpriorndays?: number;
+  /**
   * cmdpolicybinding block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/systemgroup#cmdpolicybinding Systemgroup#cmdpolicybinding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemgroup#cmdpolicybinding Systemgroup#cmdpolicybinding}
   */
   readonly cmdpolicybinding?: SystemgroupCmdpolicybinding[] | cdktf.IResolvable;
 }
 export interface SystemgroupCmdpolicybinding {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/systemgroup#policyname Systemgroup#policyname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemgroup#policyname Systemgroup#policyname}
   */
   readonly policyname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/systemgroup#priority Systemgroup#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemgroup#priority Systemgroup#priority}
   */
   readonly priority?: number;
 }
@@ -192,7 +200,7 @@ export class SystemgroupCmdpolicybindingList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/systemgroup citrixadc_systemgroup}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemgroup citrixadc_systemgroup}
 */
 export class Systemgroup extends cdktf.TerraformResource {
 
@@ -208,7 +216,7 @@ export class Systemgroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Systemgroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Systemgroup to import
-  * @param importFromId The id of the existing Systemgroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/systemgroup#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Systemgroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemgroup#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Systemgroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -220,7 +228,7 @@ export class Systemgroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/systemgroup citrixadc_systemgroup} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemgroup citrixadc_systemgroup} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -231,7 +239,8 @@ export class Systemgroup extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_systemgroup',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -242,11 +251,13 @@ export class Systemgroup extends cdktf.TerraformResource {
       forEach: config.forEach
     });
     this._allowedmanagementinterface = config.allowedmanagementinterface;
+    this._daystoexpire = config.daystoexpire;
     this._groupname = config.groupname;
     this._id = config.id;
     this._promptstring = config.promptstring;
     this._systemusers = config.systemusers;
     this._timeout = config.timeout;
+    this._warnpriorndays = config.warnpriorndays;
     this._cmdpolicybinding.internalValue = config.cmdpolicybinding;
   }
 
@@ -268,6 +279,22 @@ export class Systemgroup extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get allowedmanagementinterfaceInput() {
     return this._allowedmanagementinterface;
+  }
+
+  // daystoexpire - computed: true, optional: true, required: false
+  private _daystoexpire?: number; 
+  public get daystoexpire() {
+    return this.getNumberAttribute('daystoexpire');
+  }
+  public set daystoexpire(value: number) {
+    this._daystoexpire = value;
+  }
+  public resetDaystoexpire() {
+    this._daystoexpire = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get daystoexpireInput() {
+    return this._daystoexpire;
   }
 
   // groupname - computed: false, optional: false, required: true
@@ -347,6 +374,22 @@ export class Systemgroup extends cdktf.TerraformResource {
     return this._timeout;
   }
 
+  // warnpriorndays - computed: true, optional: true, required: false
+  private _warnpriorndays?: number; 
+  public get warnpriorndays() {
+    return this.getNumberAttribute('warnpriorndays');
+  }
+  public set warnpriorndays(value: number) {
+    this._warnpriorndays = value;
+  }
+  public resetWarnpriorndays() {
+    this._warnpriorndays = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get warnpriorndaysInput() {
+    return this._warnpriorndays;
+  }
+
   // cmdpolicybinding - computed: false, optional: true, required: false
   private _cmdpolicybinding = new SystemgroupCmdpolicybindingList(this, "cmdpolicybinding", true);
   public get cmdpolicybinding() {
@@ -370,11 +413,13 @@ export class Systemgroup extends cdktf.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       allowedmanagementinterface: cdktf.listMapper(cdktf.stringToTerraform, false)(this._allowedmanagementinterface),
+      daystoexpire: cdktf.numberToTerraform(this._daystoexpire),
       groupname: cdktf.stringToTerraform(this._groupname),
       id: cdktf.stringToTerraform(this._id),
       promptstring: cdktf.stringToTerraform(this._promptstring),
       systemusers: cdktf.listMapper(cdktf.stringToTerraform, false)(this._systemusers),
       timeout: cdktf.numberToTerraform(this._timeout),
+      warnpriorndays: cdktf.numberToTerraform(this._warnpriorndays),
       cmdpolicybinding: cdktf.listMapper(systemgroupCmdpolicybindingToTerraform, true)(this._cmdpolicybinding.internalValue),
     };
   }
@@ -386,6 +431,12 @@ export class Systemgroup extends cdktf.TerraformResource {
         isBlock: false,
         type: "list",
         storageClassType: "stringList",
+      },
+      daystoexpire: {
+        value: cdktf.numberToHclTerraform(this._daystoexpire),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
       },
       groupname: {
         value: cdktf.stringToHclTerraform(this._groupname),
@@ -413,6 +464,12 @@ export class Systemgroup extends cdktf.TerraformResource {
       },
       timeout: {
         value: cdktf.numberToHclTerraform(this._timeout),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      warnpriorndays: {
+        value: cdktf.numberToHclTerraform(this._warnpriorndays),
         isBlock: false,
         type: "simple",
         storageClassType: "number",

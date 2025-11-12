@@ -61,7 +61,8 @@ export class AnxcloudProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'anxcloud',
       terraformGeneratorMetadata: {
         providerName: 'anxcloud',
-        providerVersion: '0.7.4'
+        providerVersion: '0.7.4',
+        providerVersionConstraint: '0.7.4'
       },
       terraformProviderSource: 'anexia-it/anxcloud'
     });

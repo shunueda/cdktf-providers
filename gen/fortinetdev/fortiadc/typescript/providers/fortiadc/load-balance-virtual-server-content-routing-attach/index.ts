@@ -68,7 +68,8 @@ export class LoadBalanceVirtualServerContentRoutingAttach extends cdktf.Terrafor
       terraformResourceType: 'fortiadc_load_balance_virtual_server_content_routing_attach',
       terraformGeneratorMetadata: {
         providerName: 'fortiadc',
-        providerVersion: '1.3.1'
+        providerVersion: '1.3.1',
+        providerVersionConstraint: '1.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

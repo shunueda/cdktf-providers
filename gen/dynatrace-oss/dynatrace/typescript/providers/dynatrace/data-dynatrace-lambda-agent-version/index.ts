@@ -98,7 +98,8 @@ export class DataDynatraceLambdaAgentVersion extends cdktf.TerraformDataSource {
       terraformResourceType: 'dynatrace_lambda_agent_version',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1'
+        providerVersion: '1.87.1',
+        providerVersionConstraint: '1.87.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

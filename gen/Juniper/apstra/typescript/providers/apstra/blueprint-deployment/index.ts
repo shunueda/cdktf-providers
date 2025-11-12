@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/blueprint_deployment
+// https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/blueprint_deployment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface BlueprintDeploymentConfig extends cdktf.TerraformMetaArguments 
   /**
   * Apstra ID of the blueprint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/blueprint_deployment#blueprint_id BlueprintDeployment#blueprint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/blueprint_deployment#blueprint_id BlueprintDeployment#blueprint_id}
   */
   readonly blueprintId: string;
   /**
   * Comment associated with the Deployment/Commit. This field supports templating using the `text/template` library (currently supported replacements: [`{{.TerraformVersion}}`, `{{.ProviderVersion}}`]) and environment variable expansion using `os.ExpandEnv` to include contextual information like the Terraform username, CI system job ID, etc...
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/blueprint_deployment#comment BlueprintDeployment#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/blueprint_deployment#comment BlueprintDeployment#comment}
   */
   readonly comment?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/blueprint_deployment apstra_blueprint_deployment}
+* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/blueprint_deployment apstra_blueprint_deployment}
 */
 export class BlueprintDeployment extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class BlueprintDeployment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BlueprintDeployment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BlueprintDeployment to import
-  * @param importFromId The id of the existing BlueprintDeployment that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/blueprint_deployment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BlueprintDeployment that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/blueprint_deployment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BlueprintDeployment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class BlueprintDeployment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/blueprint_deployment apstra_blueprint_deployment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/blueprint_deployment apstra_blueprint_deployment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,7 +61,8 @@ export class BlueprintDeployment extends cdktf.TerraformResource {
       terraformResourceType: 'apstra_blueprint_deployment',
       terraformGeneratorMetadata: {
         providerName: 'apstra',
-        providerVersion: '0.95.0'
+        providerVersion: '0.95.1',
+        providerVersionConstraint: '0.95.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

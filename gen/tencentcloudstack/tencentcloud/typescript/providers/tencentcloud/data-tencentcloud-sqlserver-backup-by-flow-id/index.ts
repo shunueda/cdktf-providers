@@ -74,7 +74,8 @@ export class DataTencentcloudSqlserverBackupByFlowId extends cdktf.TerraformData
       terraformResourceType: 'tencentcloud_sqlserver_backup_by_flow_id',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

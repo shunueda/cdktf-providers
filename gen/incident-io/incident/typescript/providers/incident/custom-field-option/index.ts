@@ -67,7 +67,8 @@ export class CustomFieldOption extends cdktf.TerraformResource {
       terraformResourceType: 'incident_custom_field_option',
       terraformGeneratorMetadata: {
         providerName: 'incident',
-        providerVersion: '5.18.0'
+        providerVersion: '5.18.0',
+        providerVersionConstraint: '5.18.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

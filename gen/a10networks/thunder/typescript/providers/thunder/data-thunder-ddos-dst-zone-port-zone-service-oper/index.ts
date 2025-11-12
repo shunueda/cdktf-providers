@@ -10056,7 +10056,8 @@ export class DataThunderDdosDstZonePortZoneServiceOper extends cdktf.TerraformDa
       terraformResourceType: 'thunder_ddos_dst_zone_port_zone_service_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

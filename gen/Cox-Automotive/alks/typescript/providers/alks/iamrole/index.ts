@@ -96,7 +96,8 @@ export class Iamrole extends cdktf.TerraformResource {
       terraformResourceType: 'alks_iamrole',
       terraformGeneratorMetadata: {
         providerName: 'alks',
-        providerVersion: '2.8.2'
+        providerVersion: '2.8.2',
+        providerVersionConstraint: '2.8.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

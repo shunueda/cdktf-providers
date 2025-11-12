@@ -312,7 +312,8 @@ export class AccountTeamProject extends cdktf.TerraformResource {
       terraformResourceType: 'aiven_account_team_project',
       terraformGeneratorMetadata: {
         providerName: 'aiven',
-        providerVersion: '4.46.1'
+        providerVersion: '4.46.1',
+        providerVersionConstraint: '4.46.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

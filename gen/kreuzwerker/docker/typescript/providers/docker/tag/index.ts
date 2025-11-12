@@ -74,7 +74,8 @@ export class Tag extends cdktf.TerraformResource {
       terraformResourceType: 'docker_tag',
       terraformGeneratorMetadata: {
         providerName: 'docker',
-        providerVersion: '3.6.2'
+        providerVersion: '3.6.2',
+        providerVersionConstraint: '3.6.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

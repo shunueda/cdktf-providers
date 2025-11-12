@@ -76,7 +76,8 @@ export class LoadBalanceProfileChildClientRequestHeaderErase extends cdktf.Terra
       terraformResourceType: 'fortiadc_load_balance_profile_child_client_request_header_erase',
       terraformGeneratorMetadata: {
         providerName: 'fortiadc',
-        providerVersion: '1.3.1'
+        providerVersion: '1.3.1',
+        providerVersionConstraint: '1.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

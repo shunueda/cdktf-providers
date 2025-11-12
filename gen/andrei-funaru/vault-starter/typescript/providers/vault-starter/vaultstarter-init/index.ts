@@ -98,7 +98,8 @@ export class VaultstarterInit extends cdktf.TerraformResource {
       terraformResourceType: 'vaultstarter_init',
       terraformGeneratorMetadata: {
         providerName: 'vault-starter',
-        providerVersion: '0.2.4'
+        providerVersion: '0.2.4',
+        providerVersionConstraint: '0.2.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

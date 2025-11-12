@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider
+// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface SecretProviderConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#id SecretProvider#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#id SecretProvider#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface SecretProviderConfig extends cdktf.TerraformMetaArguments {
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#metadata SecretProvider#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#metadata SecretProvider#metadata}
   */
   readonly metadata?: SecretProviderMetadata;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#spec SecretProvider#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#spec SecretProvider#spec}
   */
   readonly spec?: SecretProviderSpec;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#timeouts SecretProvider#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#timeouts SecretProvider#timeouts}
   */
   readonly timeouts?: SecretProviderTimeouts;
 }
@@ -37,7 +37,7 @@ export interface SecretProviderMetadataCreatedBy {
   /**
   * Id of the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#id SecretProvider#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#id SecretProvider#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -46,13 +46,13 @@ export interface SecretProviderMetadataCreatedBy {
   /**
   * Whether person is logged in using sso
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#is_sso_user SecretProvider#is_sso_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#is_sso_user SecretProvider#is_sso_user}
   */
   readonly isSsoUser?: boolean | cdktf.IResolvable;
   /**
   * Username fo the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#username SecretProvider#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#username SecretProvider#username}
   */
   readonly username?: string;
 }
@@ -196,7 +196,7 @@ export interface SecretProviderMetadataModifiedBy {
   /**
   * Id of the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#id SecretProvider#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#id SecretProvider#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -205,13 +205,13 @@ export interface SecretProviderMetadataModifiedBy {
   /**
   * Whether person is logged in using sso
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#is_sso_user SecretProvider#is_sso_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#is_sso_user SecretProvider#is_sso_user}
   */
   readonly isSsoUser?: boolean | cdktf.IResolvable;
   /**
   * Username fo the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#username SecretProvider#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#username SecretProvider#username}
   */
   readonly username?: string;
 }
@@ -355,49 +355,49 @@ export interface SecretProviderMetadata {
   /**
   * annotations of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#annotations SecretProvider#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#annotations SecretProvider#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * description of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#description SecretProvider#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#description SecretProvider#description}
   */
   readonly description?: string;
   /**
   * Display Name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#display_name SecretProvider#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#display_name SecretProvider#display_name}
   */
   readonly displayName?: string;
   /**
   * labels of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#labels SecretProvider#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#labels SecretProvider#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#name SecretProvider#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#name SecretProvider#name}
   */
   readonly name?: string;
   /**
   * Project of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#project SecretProvider#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#project SecretProvider#project}
   */
   readonly project?: string;
   /**
   * created_by block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#created_by SecretProvider#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#created_by SecretProvider#created_by}
   */
   readonly createdBy?: SecretProviderMetadataCreatedBy;
   /**
   * modified_by block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#modified_by SecretProvider#modified_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#modified_by SecretProvider#modified_by}
   */
   readonly modifiedBy?: SecretProviderMetadataModifiedBy;
 }
@@ -686,7 +686,7 @@ export interface SecretProviderSpecArtifactArtifactChartPathOptionsOverride {
   /**
   * Specify the type of override this file supports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#type SecretProvider#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#type SecretProvider#type}
   */
   readonly type?: string;
 }
@@ -772,13 +772,13 @@ export interface SecretProviderSpecArtifactArtifactChartPathOptionsSchema {
   /**
   * JSONSchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#jsonschema SecretProvider#jsonschema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#jsonschema SecretProvider#jsonschema}
   */
   readonly jsonschema?: string;
   /**
   * UISchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#uischema SecretProvider#uischema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#uischema SecretProvider#uischema}
   */
   readonly uischema?: string;
 }
@@ -893,37 +893,37 @@ export interface SecretProviderSpecArtifactArtifactChartPathOptions {
   /**
   * Description of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#description SecretProvider#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#description SecretProvider#description}
   */
   readonly description?: string;
   /**
   * Display metadata to render file on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#display_metadata SecretProvider#display_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#display_metadata SecretProvider#display_metadata}
   */
   readonly displayMetadata?: string;
   /**
   * Determines whether the file is required / mandatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#required SecretProvider#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#required SecretProvider#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#sensitive SecretProvider#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#sensitive SecretProvider#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#override SecretProvider#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#override SecretProvider#override}
   */
   readonly override?: SecretProviderSpecArtifactArtifactChartPathOptionsOverride;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#schema SecretProvider#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#schema SecretProvider#schema}
   */
   readonly schema?: SecretProviderSpecArtifactArtifactChartPathOptionsSchema;
 }
@@ -1154,31 +1154,31 @@ export interface SecretProviderSpecArtifactArtifactChartPath {
   /**
   * data is the base64 encoded contents of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#data SecretProvider#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#data SecretProvider#data}
   */
   readonly data?: string;
   /**
   * specify mount path of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#mount_path SecretProvider#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#mount_path SecretProvider#mount_path}
   */
   readonly mountPath?: string;
   /**
   * Name or relative path of a artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#name SecretProvider#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#name SecretProvider#name}
   */
   readonly name?: string;
   /**
   * Deprected: use options.sensitive. data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#sensitive SecretProvider#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#sensitive SecretProvider#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#options SecretProvider#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#options SecretProvider#options}
   */
   readonly options?: SecretProviderSpecArtifactArtifactChartPathOptions;
 }
@@ -1380,7 +1380,7 @@ export interface SecretProviderSpecArtifactArtifactConfigmapOptionsOverride {
   /**
   * Specify the type of override this file supports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#type SecretProvider#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#type SecretProvider#type}
   */
   readonly type?: string;
 }
@@ -1466,13 +1466,13 @@ export interface SecretProviderSpecArtifactArtifactConfigmapOptionsSchema {
   /**
   * JSONSchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#jsonschema SecretProvider#jsonschema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#jsonschema SecretProvider#jsonschema}
   */
   readonly jsonschema?: string;
   /**
   * UISchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#uischema SecretProvider#uischema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#uischema SecretProvider#uischema}
   */
   readonly uischema?: string;
 }
@@ -1587,37 +1587,37 @@ export interface SecretProviderSpecArtifactArtifactConfigmapOptions {
   /**
   * Description of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#description SecretProvider#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#description SecretProvider#description}
   */
   readonly description?: string;
   /**
   * Display metadata to render file on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#display_metadata SecretProvider#display_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#display_metadata SecretProvider#display_metadata}
   */
   readonly displayMetadata?: string;
   /**
   * Determines whether the file is required / mandatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#required SecretProvider#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#required SecretProvider#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#sensitive SecretProvider#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#sensitive SecretProvider#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#override SecretProvider#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#override SecretProvider#override}
   */
   readonly override?: SecretProviderSpecArtifactArtifactConfigmapOptionsOverride;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#schema SecretProvider#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#schema SecretProvider#schema}
   */
   readonly schema?: SecretProviderSpecArtifactArtifactConfigmapOptionsSchema;
 }
@@ -1848,31 +1848,31 @@ export interface SecretProviderSpecArtifactArtifactConfigmap {
   /**
   * data is the base64 encoded contents of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#data SecretProvider#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#data SecretProvider#data}
   */
   readonly data?: string;
   /**
   * specify mount path of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#mount_path SecretProvider#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#mount_path SecretProvider#mount_path}
   */
   readonly mountPath?: string;
   /**
   * Name or relative path of a artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#name SecretProvider#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#name SecretProvider#name}
   */
   readonly name?: string;
   /**
   * Deprected: use options.sensitive. data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#sensitive SecretProvider#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#sensitive SecretProvider#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#options SecretProvider#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#options SecretProvider#options}
   */
   readonly options?: SecretProviderSpecArtifactArtifactConfigmapOptions;
 }
@@ -2074,7 +2074,7 @@ export interface SecretProviderSpecArtifactArtifactConfigurationOptionsOverride 
   /**
   * Specify the type of override this file supports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#type SecretProvider#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#type SecretProvider#type}
   */
   readonly type?: string;
 }
@@ -2160,13 +2160,13 @@ export interface SecretProviderSpecArtifactArtifactConfigurationOptionsSchema {
   /**
   * JSONSchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#jsonschema SecretProvider#jsonschema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#jsonschema SecretProvider#jsonschema}
   */
   readonly jsonschema?: string;
   /**
   * UISchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#uischema SecretProvider#uischema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#uischema SecretProvider#uischema}
   */
   readonly uischema?: string;
 }
@@ -2281,37 +2281,37 @@ export interface SecretProviderSpecArtifactArtifactConfigurationOptions {
   /**
   * Description of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#description SecretProvider#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#description SecretProvider#description}
   */
   readonly description?: string;
   /**
   * Display metadata to render file on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#display_metadata SecretProvider#display_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#display_metadata SecretProvider#display_metadata}
   */
   readonly displayMetadata?: string;
   /**
   * Determines whether the file is required / mandatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#required SecretProvider#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#required SecretProvider#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#sensitive SecretProvider#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#sensitive SecretProvider#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#override SecretProvider#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#override SecretProvider#override}
   */
   readonly override?: SecretProviderSpecArtifactArtifactConfigurationOptionsOverride;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#schema SecretProvider#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#schema SecretProvider#schema}
   */
   readonly schema?: SecretProviderSpecArtifactArtifactConfigurationOptionsSchema;
 }
@@ -2542,31 +2542,31 @@ export interface SecretProviderSpecArtifactArtifactConfiguration {
   /**
   * data is the base64 encoded contents of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#data SecretProvider#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#data SecretProvider#data}
   */
   readonly data?: string;
   /**
   * specify mount path of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#mount_path SecretProvider#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#mount_path SecretProvider#mount_path}
   */
   readonly mountPath?: string;
   /**
   * Name or relative path of a artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#name SecretProvider#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#name SecretProvider#name}
   */
   readonly name?: string;
   /**
   * Deprected: use options.sensitive. data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#sensitive SecretProvider#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#sensitive SecretProvider#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#options SecretProvider#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#options SecretProvider#options}
   */
   readonly options?: SecretProviderSpecArtifactArtifactConfigurationOptions;
 }
@@ -2764,11 +2764,705 @@ export class SecretProviderSpecArtifactArtifactConfigurationOutputReference exte
     return this._options.internalValue;
   }
 }
+export interface SecretProviderSpecArtifactArtifactFileOptionsOverride {
+  /**
+  * Specify the type of override this file supports
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#type SecretProvider#type}
+  */
+  readonly type?: string;
+}
+
+export function secretProviderSpecArtifactArtifactFileOptionsOverrideToTerraform(struct?: SecretProviderSpecArtifactArtifactFileOptionsOverrideOutputReference | SecretProviderSpecArtifactArtifactFileOptionsOverride): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    type: cdktf.stringToTerraform(struct!.type),
+  }
+}
+
+
+export function secretProviderSpecArtifactArtifactFileOptionsOverrideToHclTerraform(struct?: SecretProviderSpecArtifactArtifactFileOptionsOverrideOutputReference | SecretProviderSpecArtifactArtifactFileOptionsOverride): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    type: {
+      value: cdktf.stringToHclTerraform(struct!.type),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecretProviderSpecArtifactArtifactFileOptionsOverrideOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SecretProviderSpecArtifactArtifactFileOptionsOverride | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._type !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.type = this._type;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecretProviderSpecArtifactArtifactFileOptionsOverride | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._type = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._type = value.type;
+    }
+  }
+
+  // type - computed: false, optional: true, required: false
+  private _type?: string; 
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+  public set type(value: string) {
+    this._type = value;
+  }
+  public resetType() {
+    this._type = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeInput() {
+    return this._type;
+  }
+}
+export interface SecretProviderSpecArtifactArtifactFileOptionsSchema {
+  /**
+  * JSONSchema definition of given variable that conforms to react-jsonschema-form library norms
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#jsonschema SecretProvider#jsonschema}
+  */
+  readonly jsonschema?: string;
+  /**
+  * UISchema definition of given variable that conforms to react-jsonschema-form library norms
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#uischema SecretProvider#uischema}
+  */
+  readonly uischema?: string;
+}
+
+export function secretProviderSpecArtifactArtifactFileOptionsSchemaToTerraform(struct?: SecretProviderSpecArtifactArtifactFileOptionsSchemaOutputReference | SecretProviderSpecArtifactArtifactFileOptionsSchema): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    jsonschema: cdktf.stringToTerraform(struct!.jsonschema),
+    uischema: cdktf.stringToTerraform(struct!.uischema),
+  }
+}
+
+
+export function secretProviderSpecArtifactArtifactFileOptionsSchemaToHclTerraform(struct?: SecretProviderSpecArtifactArtifactFileOptionsSchemaOutputReference | SecretProviderSpecArtifactArtifactFileOptionsSchema): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    jsonschema: {
+      value: cdktf.stringToHclTerraform(struct!.jsonschema),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    uischema: {
+      value: cdktf.stringToHclTerraform(struct!.uischema),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecretProviderSpecArtifactArtifactFileOptionsSchemaOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SecretProviderSpecArtifactArtifactFileOptionsSchema | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._jsonschema !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.jsonschema = this._jsonschema;
+    }
+    if (this._uischema !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uischema = this._uischema;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecretProviderSpecArtifactArtifactFileOptionsSchema | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._jsonschema = undefined;
+      this._uischema = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._jsonschema = value.jsonschema;
+      this._uischema = value.uischema;
+    }
+  }
+
+  // jsonschema - computed: false, optional: true, required: false
+  private _jsonschema?: string; 
+  public get jsonschema() {
+    return this.getStringAttribute('jsonschema');
+  }
+  public set jsonschema(value: string) {
+    this._jsonschema = value;
+  }
+  public resetJsonschema() {
+    this._jsonschema = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get jsonschemaInput() {
+    return this._jsonschema;
+  }
+
+  // uischema - computed: false, optional: true, required: false
+  private _uischema?: string; 
+  public get uischema() {
+    return this.getStringAttribute('uischema');
+  }
+  public set uischema(value: string) {
+    this._uischema = value;
+  }
+  public resetUischema() {
+    this._uischema = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uischemaInput() {
+    return this._uischema;
+  }
+}
+export interface SecretProviderSpecArtifactArtifactFileOptions {
+  /**
+  * Description of the file
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#description SecretProvider#description}
+  */
+  readonly description?: string;
+  /**
+  * Display metadata to render file on UI
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#display_metadata SecretProvider#display_metadata}
+  */
+  readonly displayMetadata?: string;
+  /**
+  * Determines whether the file is required / mandatory
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#required SecretProvider#required}
+  */
+  readonly required?: boolean | cdktf.IResolvable;
+  /**
+  * data is encrypted  if sensitive is set to true
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#sensitive SecretProvider#sensitive}
+  */
+  readonly sensitive?: boolean | cdktf.IResolvable;
+  /**
+  * override block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#override SecretProvider#override}
+  */
+  readonly override?: SecretProviderSpecArtifactArtifactFileOptionsOverride;
+  /**
+  * schema block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#schema SecretProvider#schema}
+  */
+  readonly schema?: SecretProviderSpecArtifactArtifactFileOptionsSchema;
+}
+
+export function secretProviderSpecArtifactArtifactFileOptionsToTerraform(struct?: SecretProviderSpecArtifactArtifactFileOptionsOutputReference | SecretProviderSpecArtifactArtifactFileOptions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    description: cdktf.stringToTerraform(struct!.description),
+    display_metadata: cdktf.stringToTerraform(struct!.displayMetadata),
+    required: cdktf.booleanToTerraform(struct!.required),
+    sensitive: cdktf.booleanToTerraform(struct!.sensitive),
+    override: secretProviderSpecArtifactArtifactFileOptionsOverrideToTerraform(struct!.override),
+    schema: secretProviderSpecArtifactArtifactFileOptionsSchemaToTerraform(struct!.schema),
+  }
+}
+
+
+export function secretProviderSpecArtifactArtifactFileOptionsToHclTerraform(struct?: SecretProviderSpecArtifactArtifactFileOptionsOutputReference | SecretProviderSpecArtifactArtifactFileOptions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    description: {
+      value: cdktf.stringToHclTerraform(struct!.description),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    display_metadata: {
+      value: cdktf.stringToHclTerraform(struct!.displayMetadata),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    required: {
+      value: cdktf.booleanToHclTerraform(struct!.required),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sensitive: {
+      value: cdktf.booleanToHclTerraform(struct!.sensitive),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    override: {
+      value: secretProviderSpecArtifactArtifactFileOptionsOverrideToHclTerraform(struct!.override),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecretProviderSpecArtifactArtifactFileOptionsOverrideList",
+    },
+    schema: {
+      value: secretProviderSpecArtifactArtifactFileOptionsSchemaToHclTerraform(struct!.schema),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecretProviderSpecArtifactArtifactFileOptionsSchemaList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecretProviderSpecArtifactArtifactFileOptionsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SecretProviderSpecArtifactArtifactFileOptions | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._description !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.description = this._description;
+    }
+    if (this._displayMetadata !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.displayMetadata = this._displayMetadata;
+    }
+    if (this._required !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.required = this._required;
+    }
+    if (this._sensitive !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sensitive = this._sensitive;
+    }
+    if (this._override?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.override = this._override?.internalValue;
+    }
+    if (this._schema?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.schema = this._schema?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecretProviderSpecArtifactArtifactFileOptions | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._description = undefined;
+      this._displayMetadata = undefined;
+      this._required = undefined;
+      this._sensitive = undefined;
+      this._override.internalValue = undefined;
+      this._schema.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._description = value.description;
+      this._displayMetadata = value.displayMetadata;
+      this._required = value.required;
+      this._sensitive = value.sensitive;
+      this._override.internalValue = value.override;
+      this._schema.internalValue = value.schema;
+    }
+  }
+
+  // description - computed: false, optional: true, required: false
+  private _description?: string; 
+  public get description() {
+    return this.getStringAttribute('description');
+  }
+  public set description(value: string) {
+    this._description = value;
+  }
+  public resetDescription() {
+    this._description = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get descriptionInput() {
+    return this._description;
+  }
+
+  // display_metadata - computed: true, optional: true, required: false
+  private _displayMetadata?: string; 
+  public get displayMetadata() {
+    return this.getStringAttribute('display_metadata');
+  }
+  public set displayMetadata(value: string) {
+    this._displayMetadata = value;
+  }
+  public resetDisplayMetadata() {
+    this._displayMetadata = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get displayMetadataInput() {
+    return this._displayMetadata;
+  }
+
+  // required - computed: false, optional: true, required: false
+  private _required?: boolean | cdktf.IResolvable; 
+  public get required() {
+    return this.getBooleanAttribute('required');
+  }
+  public set required(value: boolean | cdktf.IResolvable) {
+    this._required = value;
+  }
+  public resetRequired() {
+    this._required = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get requiredInput() {
+    return this._required;
+  }
+
+  // sensitive - computed: false, optional: true, required: false
+  private _sensitive?: boolean | cdktf.IResolvable; 
+  public get sensitive() {
+    return this.getBooleanAttribute('sensitive');
+  }
+  public set sensitive(value: boolean | cdktf.IResolvable) {
+    this._sensitive = value;
+  }
+  public resetSensitive() {
+    this._sensitive = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sensitiveInput() {
+    return this._sensitive;
+  }
+
+  // override - computed: false, optional: true, required: false
+  private _override = new SecretProviderSpecArtifactArtifactFileOptionsOverrideOutputReference(this, "override");
+  public get override() {
+    return this._override;
+  }
+  public putOverride(value: SecretProviderSpecArtifactArtifactFileOptionsOverride) {
+    this._override.internalValue = value;
+  }
+  public resetOverride() {
+    this._override.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get overrideInput() {
+    return this._override.internalValue;
+  }
+
+  // schema - computed: false, optional: true, required: false
+  private _schema = new SecretProviderSpecArtifactArtifactFileOptionsSchemaOutputReference(this, "schema");
+  public get schema() {
+    return this._schema;
+  }
+  public putSchema(value: SecretProviderSpecArtifactArtifactFileOptionsSchema) {
+    this._schema.internalValue = value;
+  }
+  public resetSchema() {
+    this._schema.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get schemaInput() {
+    return this._schema.internalValue;
+  }
+}
+export interface SecretProviderSpecArtifactArtifactFile {
+  /**
+  * data is the base64 encoded contents of the file
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#data SecretProvider#data}
+  */
+  readonly data?: string;
+  /**
+  * specify mount path of the file
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#mount_path SecretProvider#mount_path}
+  */
+  readonly mountPath?: string;
+  /**
+  * Name or relative path of a artifact
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#name SecretProvider#name}
+  */
+  readonly name?: string;
+  /**
+  * Deprected: use options.sensitive. data is encrypted  if sensitive is set to true
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#sensitive SecretProvider#sensitive}
+  */
+  readonly sensitive?: boolean | cdktf.IResolvable;
+  /**
+  * options block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#options SecretProvider#options}
+  */
+  readonly options?: SecretProviderSpecArtifactArtifactFileOptions;
+}
+
+export function secretProviderSpecArtifactArtifactFileToTerraform(struct?: SecretProviderSpecArtifactArtifactFileOutputReference | SecretProviderSpecArtifactArtifactFile): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    data: cdktf.stringToTerraform(struct!.data),
+    mount_path: cdktf.stringToTerraform(struct!.mountPath),
+    name: cdktf.stringToTerraform(struct!.name),
+    sensitive: cdktf.booleanToTerraform(struct!.sensitive),
+    options: secretProviderSpecArtifactArtifactFileOptionsToTerraform(struct!.options),
+  }
+}
+
+
+export function secretProviderSpecArtifactArtifactFileToHclTerraform(struct?: SecretProviderSpecArtifactArtifactFileOutputReference | SecretProviderSpecArtifactArtifactFile): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    data: {
+      value: cdktf.stringToHclTerraform(struct!.data),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    mount_path: {
+      value: cdktf.stringToHclTerraform(struct!.mountPath),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    sensitive: {
+      value: cdktf.booleanToHclTerraform(struct!.sensitive),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    options: {
+      value: secretProviderSpecArtifactArtifactFileOptionsToHclTerraform(struct!.options),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecretProviderSpecArtifactArtifactFileOptionsList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecretProviderSpecArtifactArtifactFileOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SecretProviderSpecArtifactArtifactFile | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._data !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.data = this._data;
+    }
+    if (this._mountPath !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.mountPath = this._mountPath;
+    }
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._sensitive !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sensitive = this._sensitive;
+    }
+    if (this._options?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.options = this._options?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecretProviderSpecArtifactArtifactFile | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._data = undefined;
+      this._mountPath = undefined;
+      this._name = undefined;
+      this._sensitive = undefined;
+      this._options.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._data = value.data;
+      this._mountPath = value.mountPath;
+      this._name = value.name;
+      this._sensitive = value.sensitive;
+      this._options.internalValue = value.options;
+    }
+  }
+
+  // data - computed: false, optional: true, required: false
+  private _data?: string; 
+  public get data() {
+    return this.getStringAttribute('data');
+  }
+  public set data(value: string) {
+    this._data = value;
+  }
+  public resetData() {
+    this._data = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dataInput() {
+    return this._data;
+  }
+
+  // mount_path - computed: false, optional: true, required: false
+  private _mountPath?: string; 
+  public get mountPath() {
+    return this.getStringAttribute('mount_path');
+  }
+  public set mountPath(value: string) {
+    this._mountPath = value;
+  }
+  public resetMountPath() {
+    this._mountPath = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get mountPathInput() {
+    return this._mountPath;
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // sensitive - computed: false, optional: true, required: false
+  private _sensitive?: boolean | cdktf.IResolvable; 
+  public get sensitive() {
+    return this.getBooleanAttribute('sensitive');
+  }
+  public set sensitive(value: boolean | cdktf.IResolvable) {
+    this._sensitive = value;
+  }
+  public resetSensitive() {
+    this._sensitive = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sensitiveInput() {
+    return this._sensitive;
+  }
+
+  // options - computed: false, optional: true, required: false
+  private _options = new SecretProviderSpecArtifactArtifactFileOptionsOutputReference(this, "options");
+  public get options() {
+    return this._options;
+  }
+  public putOptions(value: SecretProviderSpecArtifactArtifactFileOptions) {
+    this._options.internalValue = value;
+  }
+  public resetOptions() {
+    this._options.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get optionsInput() {
+    return this._options.internalValue;
+  }
+}
 export interface SecretProviderSpecArtifactArtifactPathsOptionsOverride {
   /**
   * Specify the type of override this file supports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#type SecretProvider#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#type SecretProvider#type}
   */
   readonly type?: string;
 }
@@ -2854,13 +3548,13 @@ export interface SecretProviderSpecArtifactArtifactPathsOptionsSchema {
   /**
   * JSONSchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#jsonschema SecretProvider#jsonschema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#jsonschema SecretProvider#jsonschema}
   */
   readonly jsonschema?: string;
   /**
   * UISchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#uischema SecretProvider#uischema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#uischema SecretProvider#uischema}
   */
   readonly uischema?: string;
 }
@@ -2975,37 +3669,37 @@ export interface SecretProviderSpecArtifactArtifactPathsOptions {
   /**
   * Description of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#description SecretProvider#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#description SecretProvider#description}
   */
   readonly description?: string;
   /**
   * Display metadata to render file on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#display_metadata SecretProvider#display_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#display_metadata SecretProvider#display_metadata}
   */
   readonly displayMetadata?: string;
   /**
   * Determines whether the file is required / mandatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#required SecretProvider#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#required SecretProvider#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#sensitive SecretProvider#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#sensitive SecretProvider#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#override SecretProvider#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#override SecretProvider#override}
   */
   readonly override?: SecretProviderSpecArtifactArtifactPathsOptionsOverride;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#schema SecretProvider#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#schema SecretProvider#schema}
   */
   readonly schema?: SecretProviderSpecArtifactArtifactPathsOptionsSchema;
 }
@@ -3236,31 +3930,31 @@ export interface SecretProviderSpecArtifactArtifactPaths {
   /**
   * data is the base64 encoded contents of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#data SecretProvider#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#data SecretProvider#data}
   */
   readonly data?: string;
   /**
   * specify mount path of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#mount_path SecretProvider#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#mount_path SecretProvider#mount_path}
   */
   readonly mountPath?: string;
   /**
   * Name or relative path of a artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#name SecretProvider#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#name SecretProvider#name}
   */
   readonly name?: string;
   /**
   * Deprected: use options.sensitive. data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#sensitive SecretProvider#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#sensitive SecretProvider#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#options SecretProvider#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#options SecretProvider#options}
   */
   readonly options?: SecretProviderSpecArtifactArtifactPathsOptions;
 }
@@ -3494,7 +4188,7 @@ export interface SecretProviderSpecArtifactArtifactSecretOptionsOverride {
   /**
   * Specify the type of override this file supports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#type SecretProvider#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#type SecretProvider#type}
   */
   readonly type?: string;
 }
@@ -3580,13 +4274,13 @@ export interface SecretProviderSpecArtifactArtifactSecretOptionsSchema {
   /**
   * JSONSchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#jsonschema SecretProvider#jsonschema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#jsonschema SecretProvider#jsonschema}
   */
   readonly jsonschema?: string;
   /**
   * UISchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#uischema SecretProvider#uischema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#uischema SecretProvider#uischema}
   */
   readonly uischema?: string;
 }
@@ -3701,37 +4395,37 @@ export interface SecretProviderSpecArtifactArtifactSecretOptions {
   /**
   * Description of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#description SecretProvider#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#description SecretProvider#description}
   */
   readonly description?: string;
   /**
   * Display metadata to render file on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#display_metadata SecretProvider#display_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#display_metadata SecretProvider#display_metadata}
   */
   readonly displayMetadata?: string;
   /**
   * Determines whether the file is required / mandatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#required SecretProvider#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#required SecretProvider#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#sensitive SecretProvider#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#sensitive SecretProvider#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#override SecretProvider#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#override SecretProvider#override}
   */
   readonly override?: SecretProviderSpecArtifactArtifactSecretOptionsOverride;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#schema SecretProvider#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#schema SecretProvider#schema}
   */
   readonly schema?: SecretProviderSpecArtifactArtifactSecretOptionsSchema;
 }
@@ -3962,31 +4656,31 @@ export interface SecretProviderSpecArtifactArtifactSecret {
   /**
   * data is the base64 encoded contents of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#data SecretProvider#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#data SecretProvider#data}
   */
   readonly data?: string;
   /**
   * specify mount path of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#mount_path SecretProvider#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#mount_path SecretProvider#mount_path}
   */
   readonly mountPath?: string;
   /**
   * Name or relative path of a artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#name SecretProvider#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#name SecretProvider#name}
   */
   readonly name?: string;
   /**
   * Deprected: use options.sensitive. data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#sensitive SecretProvider#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#sensitive SecretProvider#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#options SecretProvider#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#options SecretProvider#options}
   */
   readonly options?: SecretProviderSpecArtifactArtifactSecretOptions;
 }
@@ -4188,7 +4882,7 @@ export interface SecretProviderSpecArtifactArtifactStatefulsetOptionsOverride {
   /**
   * Specify the type of override this file supports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#type SecretProvider#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#type SecretProvider#type}
   */
   readonly type?: string;
 }
@@ -4274,13 +4968,13 @@ export interface SecretProviderSpecArtifactArtifactStatefulsetOptionsSchema {
   /**
   * JSONSchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#jsonschema SecretProvider#jsonschema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#jsonschema SecretProvider#jsonschema}
   */
   readonly jsonschema?: string;
   /**
   * UISchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#uischema SecretProvider#uischema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#uischema SecretProvider#uischema}
   */
   readonly uischema?: string;
 }
@@ -4395,37 +5089,37 @@ export interface SecretProviderSpecArtifactArtifactStatefulsetOptions {
   /**
   * Description of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#description SecretProvider#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#description SecretProvider#description}
   */
   readonly description?: string;
   /**
   * Display metadata to render file on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#display_metadata SecretProvider#display_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#display_metadata SecretProvider#display_metadata}
   */
   readonly displayMetadata?: string;
   /**
   * Determines whether the file is required / mandatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#required SecretProvider#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#required SecretProvider#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#sensitive SecretProvider#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#sensitive SecretProvider#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#override SecretProvider#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#override SecretProvider#override}
   */
   readonly override?: SecretProviderSpecArtifactArtifactStatefulsetOptionsOverride;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#schema SecretProvider#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#schema SecretProvider#schema}
   */
   readonly schema?: SecretProviderSpecArtifactArtifactStatefulsetOptionsSchema;
 }
@@ -4656,31 +5350,31 @@ export interface SecretProviderSpecArtifactArtifactStatefulset {
   /**
   * data is the base64 encoded contents of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#data SecretProvider#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#data SecretProvider#data}
   */
   readonly data?: string;
   /**
   * specify mount path of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#mount_path SecretProvider#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#mount_path SecretProvider#mount_path}
   */
   readonly mountPath?: string;
   /**
   * Name or relative path of a artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#name SecretProvider#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#name SecretProvider#name}
   */
   readonly name?: string;
   /**
   * Deprected: use options.sensitive. data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#sensitive SecretProvider#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#sensitive SecretProvider#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#options SecretProvider#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#options SecretProvider#options}
   */
   readonly options?: SecretProviderSpecArtifactArtifactStatefulsetOptions;
 }
@@ -4882,7 +5576,7 @@ export interface SecretProviderSpecArtifactArtifactValuesPathsOptionsOverride {
   /**
   * Specify the type of override this file supports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#type SecretProvider#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#type SecretProvider#type}
   */
   readonly type?: string;
 }
@@ -4968,13 +5662,13 @@ export interface SecretProviderSpecArtifactArtifactValuesPathsOptionsSchema {
   /**
   * JSONSchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#jsonschema SecretProvider#jsonschema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#jsonschema SecretProvider#jsonschema}
   */
   readonly jsonschema?: string;
   /**
   * UISchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#uischema SecretProvider#uischema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#uischema SecretProvider#uischema}
   */
   readonly uischema?: string;
 }
@@ -5089,37 +5783,37 @@ export interface SecretProviderSpecArtifactArtifactValuesPathsOptions {
   /**
   * Description of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#description SecretProvider#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#description SecretProvider#description}
   */
   readonly description?: string;
   /**
   * Display metadata to render file on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#display_metadata SecretProvider#display_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#display_metadata SecretProvider#display_metadata}
   */
   readonly displayMetadata?: string;
   /**
   * Determines whether the file is required / mandatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#required SecretProvider#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#required SecretProvider#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#sensitive SecretProvider#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#sensitive SecretProvider#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#override SecretProvider#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#override SecretProvider#override}
   */
   readonly override?: SecretProviderSpecArtifactArtifactValuesPathsOptionsOverride;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#schema SecretProvider#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#schema SecretProvider#schema}
   */
   readonly schema?: SecretProviderSpecArtifactArtifactValuesPathsOptionsSchema;
 }
@@ -5350,31 +6044,31 @@ export interface SecretProviderSpecArtifactArtifactValuesPaths {
   /**
   * data is the base64 encoded contents of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#data SecretProvider#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#data SecretProvider#data}
   */
   readonly data?: string;
   /**
   * specify mount path of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#mount_path SecretProvider#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#mount_path SecretProvider#mount_path}
   */
   readonly mountPath?: string;
   /**
   * Name or relative path of a artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#name SecretProvider#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#name SecretProvider#name}
   */
   readonly name?: string;
   /**
   * Deprected: use options.sensitive. data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#sensitive SecretProvider#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#sensitive SecretProvider#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#options SecretProvider#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#options SecretProvider#options}
   */
   readonly options?: SecretProviderSpecArtifactArtifactValuesPathsOptions;
 }
@@ -5608,7 +6302,7 @@ export interface SecretProviderSpecArtifactArtifactValuesRefValuesPathsOptionsOv
   /**
   * Specify the type of override this file supports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#type SecretProvider#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#type SecretProvider#type}
   */
   readonly type?: string;
 }
@@ -5694,13 +6388,13 @@ export interface SecretProviderSpecArtifactArtifactValuesRefValuesPathsOptionsSc
   /**
   * JSONSchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#jsonschema SecretProvider#jsonschema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#jsonschema SecretProvider#jsonschema}
   */
   readonly jsonschema?: string;
   /**
   * UISchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#uischema SecretProvider#uischema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#uischema SecretProvider#uischema}
   */
   readonly uischema?: string;
 }
@@ -5815,37 +6509,37 @@ export interface SecretProviderSpecArtifactArtifactValuesRefValuesPathsOptions {
   /**
   * Description of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#description SecretProvider#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#description SecretProvider#description}
   */
   readonly description?: string;
   /**
   * Display metadata to render file on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#display_metadata SecretProvider#display_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#display_metadata SecretProvider#display_metadata}
   */
   readonly displayMetadata?: string;
   /**
   * Determines whether the file is required / mandatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#required SecretProvider#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#required SecretProvider#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#sensitive SecretProvider#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#sensitive SecretProvider#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#override SecretProvider#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#override SecretProvider#override}
   */
   readonly override?: SecretProviderSpecArtifactArtifactValuesRefValuesPathsOptionsOverride;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#schema SecretProvider#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#schema SecretProvider#schema}
   */
   readonly schema?: SecretProviderSpecArtifactArtifactValuesRefValuesPathsOptionsSchema;
 }
@@ -6076,31 +6770,31 @@ export interface SecretProviderSpecArtifactArtifactValuesRefValuesPaths {
   /**
   * data is the base64 encoded contents of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#data SecretProvider#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#data SecretProvider#data}
   */
   readonly data?: string;
   /**
   * specify mount path of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#mount_path SecretProvider#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#mount_path SecretProvider#mount_path}
   */
   readonly mountPath?: string;
   /**
   * Name or relative path of a artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#name SecretProvider#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#name SecretProvider#name}
   */
   readonly name?: string;
   /**
   * Deprected: use options.sensitive. data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#sensitive SecretProvider#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#sensitive SecretProvider#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#options SecretProvider#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#options SecretProvider#options}
   */
   readonly options?: SecretProviderSpecArtifactArtifactValuesRefValuesPathsOptions;
 }
@@ -6334,19 +7028,19 @@ export interface SecretProviderSpecArtifactArtifactValuesRef {
   /**
   * name of the git repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#repository SecretProvider#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#repository SecretProvider#repository}
   */
   readonly repository?: string;
   /**
   * branch or tag in the git repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#revision SecretProvider#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#revision SecretProvider#revision}
   */
   readonly revision?: string;
   /**
   * values_paths block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#values_paths SecretProvider#values_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#values_paths SecretProvider#values_paths}
   */
   readonly valuesPaths?: SecretProviderSpecArtifactArtifactValuesRefValuesPaths[] | cdktf.IResolvable;
 }
@@ -6490,85 +7184,109 @@ export interface SecretProviderSpecArtifactArtifact {
   /**
   * name of the helm catalog
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#catalog SecretProvider#catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#catalog SecretProvider#catalog}
   */
   readonly catalog?: string;
   /**
   * name of the chart
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#chart_name SecretProvider#chart_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#chart_name SecretProvider#chart_name}
   */
   readonly chartName?: string;
   /**
   * version of the chart
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#chart_version SecretProvider#chart_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#chart_version SecretProvider#chart_version}
   */
   readonly chartVersion?: string;
   /**
+  * relative path from the root to kustomization directory in the git repository
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#directory SecretProvider#directory}
+  */
+  readonly directory?: string;
+  /**
+  * relative path to kustomization directory from the root directory
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#path SecretProvider#path}
+  */
+  readonly path?: string;
+  /**
   * project name of the repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#project SecretProvider#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#project SecretProvider#project}
   */
   readonly project?: string;
   /**
-  * name of the helm repository
+  * name of the git repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#repository SecretProvider#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#repository SecretProvider#repository}
   */
   readonly repository?: string;
   /**
   * branch or tag in the git repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#revision SecretProvider#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#revision SecretProvider#revision}
   */
   readonly revision?: string;
   /**
+  * url of the manifest YAML
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#url SecretProvider#url}
+  */
+  readonly url?: string[];
+  /**
   * chart_path block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#chart_path SecretProvider#chart_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#chart_path SecretProvider#chart_path}
   */
   readonly chartPath?: SecretProviderSpecArtifactArtifactChartPath;
   /**
   * configmap block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#configmap SecretProvider#configmap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#configmap SecretProvider#configmap}
   */
   readonly configmap?: SecretProviderSpecArtifactArtifactConfigmap;
   /**
   * configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#configuration SecretProvider#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#configuration SecretProvider#configuration}
   */
   readonly configuration?: SecretProviderSpecArtifactArtifactConfiguration;
   /**
+  * file block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#file SecretProvider#file}
+  */
+  readonly file?: SecretProviderSpecArtifactArtifactFile;
+  /**
   * paths block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#paths SecretProvider#paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#paths SecretProvider#paths}
   */
   readonly paths?: SecretProviderSpecArtifactArtifactPaths[] | cdktf.IResolvable;
   /**
   * secret block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#secret SecretProvider#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#secret SecretProvider#secret}
   */
   readonly secret?: SecretProviderSpecArtifactArtifactSecret;
   /**
   * statefulset block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#statefulset SecretProvider#statefulset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#statefulset SecretProvider#statefulset}
   */
   readonly statefulset?: SecretProviderSpecArtifactArtifactStatefulset;
   /**
   * values_paths block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#values_paths SecretProvider#values_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#values_paths SecretProvider#values_paths}
   */
   readonly valuesPaths?: SecretProviderSpecArtifactArtifactValuesPaths[] | cdktf.IResolvable;
   /**
   * values_ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#values_ref SecretProvider#values_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#values_ref SecretProvider#values_ref}
   */
   readonly valuesRef?: SecretProviderSpecArtifactArtifactValuesRef;
 }
@@ -6582,12 +7300,16 @@ export function secretProviderSpecArtifactArtifactToTerraform(struct?: SecretPro
     catalog: cdktf.stringToTerraform(struct!.catalog),
     chart_name: cdktf.stringToTerraform(struct!.chartName),
     chart_version: cdktf.stringToTerraform(struct!.chartVersion),
+    directory: cdktf.stringToTerraform(struct!.directory),
+    path: cdktf.stringToTerraform(struct!.path),
     project: cdktf.stringToTerraform(struct!.project),
     repository: cdktf.stringToTerraform(struct!.repository),
     revision: cdktf.stringToTerraform(struct!.revision),
+    url: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.url),
     chart_path: secretProviderSpecArtifactArtifactChartPathToTerraform(struct!.chartPath),
     configmap: secretProviderSpecArtifactArtifactConfigmapToTerraform(struct!.configmap),
     configuration: secretProviderSpecArtifactArtifactConfigurationToTerraform(struct!.configuration),
+    file: secretProviderSpecArtifactArtifactFileToTerraform(struct!.file),
     paths: cdktf.listMapper(secretProviderSpecArtifactArtifactPathsToTerraform, true)(struct!.paths),
     secret: secretProviderSpecArtifactArtifactSecretToTerraform(struct!.secret),
     statefulset: secretProviderSpecArtifactArtifactStatefulsetToTerraform(struct!.statefulset),
@@ -6621,6 +7343,18 @@ export function secretProviderSpecArtifactArtifactToHclTerraform(struct?: Secret
       type: "simple",
       storageClassType: "string",
     },
+    directory: {
+      value: cdktf.stringToHclTerraform(struct!.directory),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    path: {
+      value: cdktf.stringToHclTerraform(struct!.path),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     project: {
       value: cdktf.stringToHclTerraform(struct!.project),
       isBlock: false,
@@ -6639,6 +7373,12 @@ export function secretProviderSpecArtifactArtifactToHclTerraform(struct?: Secret
       type: "simple",
       storageClassType: "string",
     },
+    url: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.url),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
     chart_path: {
       value: secretProviderSpecArtifactArtifactChartPathToHclTerraform(struct!.chartPath),
       isBlock: true,
@@ -6656,6 +7396,12 @@ export function secretProviderSpecArtifactArtifactToHclTerraform(struct?: Secret
       isBlock: true,
       type: "list",
       storageClassType: "SecretProviderSpecArtifactArtifactConfigurationList",
+    },
+    file: {
+      value: secretProviderSpecArtifactArtifactFileToHclTerraform(struct!.file),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SecretProviderSpecArtifactArtifactFileList",
     },
     paths: {
       value: cdktf.listMapperHcl(secretProviderSpecArtifactArtifactPathsToHclTerraform, true)(struct!.paths),
@@ -6719,6 +7465,14 @@ export class SecretProviderSpecArtifactArtifactOutputReference extends cdktf.Com
       hasAnyValues = true;
       internalValueResult.chartVersion = this._chartVersion;
     }
+    if (this._directory !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.directory = this._directory;
+    }
+    if (this._path !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.path = this._path;
+    }
     if (this._project !== undefined) {
       hasAnyValues = true;
       internalValueResult.project = this._project;
@@ -6731,6 +7485,10 @@ export class SecretProviderSpecArtifactArtifactOutputReference extends cdktf.Com
       hasAnyValues = true;
       internalValueResult.revision = this._revision;
     }
+    if (this._url !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.url = this._url;
+    }
     if (this._chartPath?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.chartPath = this._chartPath?.internalValue;
@@ -6742,6 +7500,10 @@ export class SecretProviderSpecArtifactArtifactOutputReference extends cdktf.Com
     if (this._configuration?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.configuration = this._configuration?.internalValue;
+    }
+    if (this._file?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.file = this._file?.internalValue;
     }
     if (this._paths?.internalValue !== undefined) {
       hasAnyValues = true;
@@ -6772,12 +7534,16 @@ export class SecretProviderSpecArtifactArtifactOutputReference extends cdktf.Com
       this._catalog = undefined;
       this._chartName = undefined;
       this._chartVersion = undefined;
+      this._directory = undefined;
+      this._path = undefined;
       this._project = undefined;
       this._repository = undefined;
       this._revision = undefined;
+      this._url = undefined;
       this._chartPath.internalValue = undefined;
       this._configmap.internalValue = undefined;
       this._configuration.internalValue = undefined;
+      this._file.internalValue = undefined;
       this._paths.internalValue = undefined;
       this._secret.internalValue = undefined;
       this._statefulset.internalValue = undefined;
@@ -6789,12 +7555,16 @@ export class SecretProviderSpecArtifactArtifactOutputReference extends cdktf.Com
       this._catalog = value.catalog;
       this._chartName = value.chartName;
       this._chartVersion = value.chartVersion;
+      this._directory = value.directory;
+      this._path = value.path;
       this._project = value.project;
       this._repository = value.repository;
       this._revision = value.revision;
+      this._url = value.url;
       this._chartPath.internalValue = value.chartPath;
       this._configmap.internalValue = value.configmap;
       this._configuration.internalValue = value.configuration;
+      this._file.internalValue = value.file;
       this._paths.internalValue = value.paths;
       this._secret.internalValue = value.secret;
       this._statefulset.internalValue = value.statefulset;
@@ -6851,6 +7621,38 @@ export class SecretProviderSpecArtifactArtifactOutputReference extends cdktf.Com
     return this._chartVersion;
   }
 
+  // directory - computed: false, optional: true, required: false
+  private _directory?: string; 
+  public get directory() {
+    return this.getStringAttribute('directory');
+  }
+  public set directory(value: string) {
+    this._directory = value;
+  }
+  public resetDirectory() {
+    this._directory = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get directoryInput() {
+    return this._directory;
+  }
+
+  // path - computed: false, optional: true, required: false
+  private _path?: string; 
+  public get path() {
+    return this.getStringAttribute('path');
+  }
+  public set path(value: string) {
+    this._path = value;
+  }
+  public resetPath() {
+    this._path = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get pathInput() {
+    return this._path;
+  }
+
   // project - computed: false, optional: true, required: false
   private _project?: string; 
   public get project() {
@@ -6899,6 +7701,22 @@ export class SecretProviderSpecArtifactArtifactOutputReference extends cdktf.Com
     return this._revision;
   }
 
+  // url - computed: false, optional: true, required: false
+  private _url?: string[]; 
+  public get url() {
+    return this.getListAttribute('url');
+  }
+  public set url(value: string[]) {
+    this._url = value;
+  }
+  public resetUrl() {
+    this._url = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get urlInput() {
+    return this._url;
+  }
+
   // chart_path - computed: false, optional: true, required: false
   private _chartPath = new SecretProviderSpecArtifactArtifactChartPathOutputReference(this, "chart_path");
   public get chartPath() {
@@ -6945,6 +7763,22 @@ export class SecretProviderSpecArtifactArtifactOutputReference extends cdktf.Com
   // Temporarily expose input value. Use with caution.
   public get configurationInput() {
     return this._configuration.internalValue;
+  }
+
+  // file - computed: false, optional: true, required: false
+  private _file = new SecretProviderSpecArtifactArtifactFileOutputReference(this, "file");
+  public get file() {
+    return this._file;
+  }
+  public putFile(value: SecretProviderSpecArtifactArtifactFile) {
+    this._file.internalValue = value;
+  }
+  public resetFile() {
+    this._file.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fileInput() {
+    return this._file.internalValue;
   }
 
   // paths - computed: false, optional: true, required: false
@@ -7031,103 +7865,103 @@ export interface SecretProviderSpecArtifactOptions {
   /**
   * deploy Helm artifact with atomic flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#atomic SecretProvider#atomic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#atomic SecretProvider#atomic}
   */
   readonly atomic?: boolean | cdktf.IResolvable;
   /**
   * cleanup deployed resources when chart fails to deploy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#clean_up_on_fail SecretProvider#clean_up_on_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#clean_up_on_fail SecretProvider#clean_up_on_fail}
   */
   readonly cleanUpOnFail?: boolean | cdktf.IResolvable;
   /**
   * custom description for the release
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#description SecretProvider#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#description SecretProvider#description}
   */
   readonly description?: string;
   /**
   * disable OpenAPI validation while deploying the YAML
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#disable_open_api_validation SecretProvider#disable_open_api_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#disable_open_api_validation SecretProvider#disable_open_api_validation}
   */
   readonly disableOpenApiValidation?: boolean | cdktf.IResolvable;
   /**
   * deploy YAML artifact with force flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#force SecretProvider#force}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#force SecretProvider#force}
   */
   readonly force?: boolean | cdktf.IResolvable;
   /**
   * keep release history after uninstalling
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#keep_history SecretProvider#keep_history}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#keep_history SecretProvider#keep_history}
   */
   readonly keepHistory?: boolean | cdktf.IResolvable;
   /**
   * limit Helm artifact history
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#max_history SecretProvider#max_history}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#max_history SecretProvider#max_history}
   */
   readonly maxHistory?: number;
   /**
   * deploy Helm artifact without hooks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#no_hooks SecretProvider#no_hooks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#no_hooks SecretProvider#no_hooks}
   */
   readonly noHooks?: boolean | cdktf.IResolvable;
   /**
   * render sub chart notes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#render_sub_chart_notes SecretProvider#render_sub_chart_notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#render_sub_chart_notes SecretProvider#render_sub_chart_notes}
   */
   readonly renderSubChartNotes?: boolean | cdktf.IResolvable;
   /**
   * reset existing helm values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#reset_values SecretProvider#reset_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#reset_values SecretProvider#reset_values}
   */
   readonly resetValues?: boolean | cdktf.IResolvable;
   /**
   * reuse existing values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#reuse_values SecretProvider#reuse_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#reuse_values SecretProvider#reuse_values}
   */
   readonly reuseValues?: boolean | cdktf.IResolvable;
   /**
   * pass custom helm values as key=value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#set_string SecretProvider#set_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#set_string SecretProvider#set_string}
   */
   readonly setString?: string[];
   /**
   * skip deploying crds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#skip_crd SecretProvider#skip_crd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#skip_crd SecretProvider#skip_crd}
   */
   readonly skipCrd?: boolean | cdktf.IResolvable;
   /**
   * timeout for waiting for the resources to become ready
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#timeout SecretProvider#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#timeout SecretProvider#timeout}
   */
   readonly timeout?: string;
   /**
   * deploy Helm artifact with wait flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#wait SecretProvider#wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#wait SecretProvider#wait}
   */
   readonly wait?: boolean | cdktf.IResolvable;
   /**
   * deploy Helm artifact with --wait-for-jobs flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#wait_for_jobs SecretProvider#wait_for_jobs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#wait_for_jobs SecretProvider#wait_for_jobs}
   */
   readonly waitForJobs?: boolean | cdktf.IResolvable;
   /**
   * uninstall Helm artifact with --wait flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#wait_for_uninstall SecretProvider#wait_for_uninstall}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#wait_for_uninstall SecretProvider#wait_for_uninstall}
   */
   readonly waitForUninstall?: boolean | cdktf.IResolvable;
 }
@@ -7677,19 +8511,19 @@ export interface SecretProviderSpecArtifact {
   /**
   * type of the artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#type SecretProvider#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#type SecretProvider#type}
   */
   readonly type?: string;
   /**
   * artifact block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#artifact SecretProvider#artifact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#artifact SecretProvider#artifact}
   */
   readonly artifact?: SecretProviderSpecArtifactArtifact;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#options SecretProvider#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#options SecretProvider#options}
   */
   readonly options?: SecretProviderSpecArtifactOptions;
 }
@@ -7831,11 +8665,11 @@ export class SecretProviderSpecArtifactOutputReference extends cdktf.ComplexObje
 }
 export interface SecretProviderSpecSecretObjectData {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#key SecretProvider#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#key SecretProvider#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#object_name SecretProvider#object_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#object_name SecretProvider#object_name}
   */
   readonly objectName?: string;
 }
@@ -7980,25 +8814,25 @@ export class SecretProviderSpecSecretObjectDataList extends cdktf.ComplexList {
 }
 export interface SecretProviderSpecSecretObject {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#annotations SecretProvider#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#annotations SecretProvider#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#labels SecretProvider#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#labels SecretProvider#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#secret_name SecretProvider#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#secret_name SecretProvider#secret_name}
   */
   readonly secretName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#type SecretProvider#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#type SecretProvider#type}
   */
   readonly type?: string;
   /**
   * data block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#data SecretProvider#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#data SecretProvider#data}
   */
   readonly data?: SecretProviderSpecSecretObjectData[] | cdktf.IResolvable;
 }
@@ -8232,7 +9066,7 @@ export interface SecretProviderSpecSharingProjects {
   /**
   * name of the project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#name SecretProvider#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#name SecretProvider#name}
   */
   readonly name?: string;
 }
@@ -8350,13 +9184,13 @@ export interface SecretProviderSpecSharing {
   /**
   * flag to specify if sharing is enabled for resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#enabled SecretProvider#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#enabled SecretProvider#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * projects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#projects SecretProvider#projects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#projects SecretProvider#projects}
   */
   readonly projects?: SecretProviderSpecSharingProjects[] | cdktf.IResolvable;
 }
@@ -8471,31 +9305,31 @@ export interface SecretProviderSpec {
   /**
   * secret provider class parameters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#parameters SecretProvider#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#parameters SecretProvider#parameters}
   */
   readonly parameters?: { [key: string]: string };
   /**
   * Name of the secret provider class
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#provider SecretProvider#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#provider SecretProvider#provider}
   */
   readonly provider?: string;
   /**
   * artifact block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#artifact SecretProvider#artifact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#artifact SecretProvider#artifact}
   */
   readonly artifact?: SecretProviderSpecArtifact;
   /**
   * secret_object block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#secret_object SecretProvider#secret_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#secret_object SecretProvider#secret_object}
   */
   readonly secretObject?: SecretProviderSpecSecretObject[] | cdktf.IResolvable;
   /**
   * sharing block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#sharing SecretProvider#sharing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#sharing SecretProvider#sharing}
   */
   readonly sharing?: SecretProviderSpecSharing;
 }
@@ -8695,15 +9529,15 @@ export class SecretProviderSpecOutputReference extends cdktf.ComplexObject {
 }
 export interface SecretProviderTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#create SecretProvider#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#create SecretProvider#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#delete SecretProvider#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#delete SecretProvider#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#update SecretProvider#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#update SecretProvider#update}
   */
   readonly update?: string;
 }
@@ -8855,7 +9689,7 @@ export class SecretProviderTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider rafay_secret_provider}
+* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider rafay_secret_provider}
 */
 export class SecretProvider extends cdktf.TerraformResource {
 
@@ -8871,7 +9705,7 @@ export class SecretProvider extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecretProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecretProvider to import
-  * @param importFromId The id of the existing SecretProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecretProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecretProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -8883,7 +9717,7 @@ export class SecretProvider extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/resources/secret_provider rafay_secret_provider} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/resources/secret_provider rafay_secret_provider} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -8894,7 +9728,8 @@ export class SecretProvider extends cdktf.TerraformResource {
       terraformResourceType: 'rafay_secret_provider',
       terraformGeneratorMetadata: {
         providerName: 'rafay',
-        providerVersion: '1.1.52'
+        providerVersion: '1.1.53',
+        providerVersionConstraint: '1.1.53'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

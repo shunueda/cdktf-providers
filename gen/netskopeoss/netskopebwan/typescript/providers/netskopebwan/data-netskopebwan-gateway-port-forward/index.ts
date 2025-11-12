@@ -88,7 +88,8 @@ export class DataNetskopebwanGatewayPortForward extends cdktf.TerraformDataSourc
       terraformResourceType: 'netskopebwan_gateway_port_forward',
       terraformGeneratorMetadata: {
         providerName: 'netskopebwan',
-        providerVersion: '0.0.2'
+        providerVersion: '0.0.2',
+        providerVersionConstraint: '0.0.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

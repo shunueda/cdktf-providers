@@ -73,7 +73,8 @@ export class VpcPeering extends cdktf.TerraformResource {
       terraformResourceType: 'ncloud_vpc_peering',
       terraformGeneratorMetadata: {
         providerName: 'ncloud',
-        providerVersion: '4.0.4'
+        providerVersion: '4.0.4',
+        providerVersionConstraint: '4.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.25.3/docs/resources/webhook
+// https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.26.0/docs/resources/webhook
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface WebhookConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.25.3/docs/resources/webhook#id Webhook#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.26.0/docs/resources/webhook#id Webhook#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,37 +17,37 @@ export interface WebhookConfig extends cdktf.TerraformMetaArguments {
   /**
   * The webhook's human-readable name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.25.3/docs/resources/webhook#name Webhook#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.26.0/docs/resources/webhook#name Webhook#name}
   */
   readonly name?: string;
   /**
   * Specifies whether the webhook is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.25.3/docs/resources/webhook#on Webhook#on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.26.0/docs/resources/webhook#on Webhook#on}
   */
   readonly on?: boolean | cdktf.IResolvable;
   /**
   * The secret used to sign the webhook.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.25.3/docs/resources/webhook#secret Webhook#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.26.0/docs/resources/webhook#secret Webhook#secret}
   */
   readonly secret?: string;
   /**
   * Tags associated with your resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.25.3/docs/resources/webhook#tags Webhook#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.26.0/docs/resources/webhook#tags Webhook#tags}
   */
   readonly tags?: string[];
   /**
   * The URL of the remote webhook.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.25.3/docs/resources/webhook#url Webhook#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.26.0/docs/resources/webhook#url Webhook#url}
   */
   readonly url: string;
   /**
   * statements block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.25.3/docs/resources/webhook#statements Webhook#statements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.26.0/docs/resources/webhook#statements Webhook#statements}
   */
   readonly statements?: WebhookStatements[] | cdktf.IResolvable;
 }
@@ -56,31 +56,31 @@ export interface WebhookStatements {
   * The list of action specifiers defining the actions to which the statement applies.
   * Either `actions` or `not_actions` must be specified. For a list of available actions read [Actions reference](https://docs.launchdarkly.com/home/account-security/custom-roles/actions#actions-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.25.3/docs/resources/webhook#actions Webhook#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.26.0/docs/resources/webhook#actions Webhook#actions}
   */
   readonly actions?: string[];
   /**
   * Either `allow` or `deny`. This argument defines whether the statement allows or denies access to the named resources and actions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.25.3/docs/resources/webhook#effect Webhook#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.26.0/docs/resources/webhook#effect Webhook#effect}
   */
   readonly effect: string;
   /**
   * The list of action specifiers defining the actions to which the statement does not apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.25.3/docs/resources/webhook#not_actions Webhook#not_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.26.0/docs/resources/webhook#not_actions Webhook#not_actions}
   */
   readonly notActions?: string[];
   /**
   * The list of resource specifiers defining the resources to which the statement does not apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.25.3/docs/resources/webhook#not_resources Webhook#not_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.26.0/docs/resources/webhook#not_resources Webhook#not_resources}
   */
   readonly notResources?: string[];
   /**
   * The list of resource specifiers defining the resources to which the statement applies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.25.3/docs/resources/webhook#resources Webhook#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.26.0/docs/resources/webhook#resources Webhook#resources}
   */
   readonly resources?: string[];
 }
@@ -309,7 +309,7 @@ export class WebhookStatementsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.25.3/docs/resources/webhook launchdarkly_webhook}
+* Represents a {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.26.0/docs/resources/webhook launchdarkly_webhook}
 */
 export class Webhook extends cdktf.TerraformResource {
 
@@ -325,7 +325,7 @@ export class Webhook extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Webhook resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Webhook to import
-  * @param importFromId The id of the existing Webhook that should be imported. Refer to the {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.25.3/docs/resources/webhook#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Webhook that should be imported. Refer to the {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.26.0/docs/resources/webhook#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Webhook to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -337,7 +337,7 @@ export class Webhook extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.25.3/docs/resources/webhook launchdarkly_webhook} Resource
+  * Create a new {@link https://registry.terraform.io/providers/launchdarkly/launchdarkly/2.26.0/docs/resources/webhook launchdarkly_webhook} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -348,7 +348,8 @@ export class Webhook extends cdktf.TerraformResource {
       terraformResourceType: 'launchdarkly_webhook',
       terraformGeneratorMetadata: {
         providerName: 'launchdarkly',
-        providerVersion: '2.25.3'
+        providerVersion: '2.26.0',
+        providerVersionConstraint: '2.26.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

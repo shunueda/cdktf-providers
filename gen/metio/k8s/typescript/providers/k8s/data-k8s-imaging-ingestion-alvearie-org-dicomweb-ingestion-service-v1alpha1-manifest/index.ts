@@ -1114,7 +1114,8 @@ export class DataK8SImagingIngestionAlvearieOrgDicomwebIngestionServiceV1Alpha1M
       terraformResourceType: 'k8s_imaging_ingestion_alvearie_org_dicomweb_ingestion_service_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

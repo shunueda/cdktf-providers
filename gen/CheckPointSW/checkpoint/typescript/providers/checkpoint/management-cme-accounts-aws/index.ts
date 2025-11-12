@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_accounts_aws
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_accounts_aws
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface ManagementCmeAccountsAwsConfig extends cdktf.TerraformMetaArgum
   /**
   * AWS access key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_accounts_aws#access_key ManagementCmeAccountsAws#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_accounts_aws#access_key ManagementCmeAccountsAws#access_key}
   */
   readonly accessKey?: string;
   /**
   * AWS communities.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_accounts_aws#communities ManagementCmeAccountsAws#communities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_accounts_aws#communities ManagementCmeAccountsAws#communities}
   */
   readonly communities?: string[];
   /**
   * The credentials file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_accounts_aws#credentials_file ManagementCmeAccountsAws#credentials_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_accounts_aws#credentials_file ManagementCmeAccountsAws#credentials_file}
   */
   readonly credentialsFile?: string;
   /**
   * The number of CME cycles to wait when the cloud provider does not return a GW until its deletion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_accounts_aws#deletion_tolerance ManagementCmeAccountsAws#deletion_tolerance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_accounts_aws#deletion_tolerance ManagementCmeAccountsAws#deletion_tolerance}
   */
   readonly deletionTolerance?: number;
   /**
   * The account's domain name in MDS environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_accounts_aws#domain ManagementCmeAccountsAws#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_accounts_aws#domain ManagementCmeAccountsAws#domain}
   */
   readonly domain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_accounts_aws#id ManagementCmeAccountsAws#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_accounts_aws#id ManagementCmeAccountsAws#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,67 +47,67 @@ export interface ManagementCmeAccountsAwsConfig extends cdktf.TerraformMetaArgum
   /**
   * Unique account name for identification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_accounts_aws#name ManagementCmeAccountsAws#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_accounts_aws#name ManagementCmeAccountsAws#name}
   */
   readonly name: string;
   /**
   * Comma-separated list of AWS regions, in which the gateways are being deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_accounts_aws#regions ManagementCmeAccountsAws#regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_accounts_aws#regions ManagementCmeAccountsAws#regions}
   */
   readonly regions: string[];
   /**
   * Set true in order to scan gateways with AWS TGW.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_accounts_aws#scan_gateways ManagementCmeAccountsAws#scan_gateways}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_accounts_aws#scan_gateways ManagementCmeAccountsAws#scan_gateways}
   */
   readonly scanGateways?: boolean | cdktf.IResolvable;
   /**
   * Set true in order to scan load balancers access and NAT rules with AWS TGW.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_accounts_aws#scan_load_balancers ManagementCmeAccountsAws#scan_load_balancers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_accounts_aws#scan_load_balancers ManagementCmeAccountsAws#scan_load_balancers}
   */
   readonly scanLoadBalancers?: boolean | cdktf.IResolvable;
   /**
   * Set true in order to scan subnets with AWS GWLB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_accounts_aws#scan_subnets ManagementCmeAccountsAws#scan_subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_accounts_aws#scan_subnets ManagementCmeAccountsAws#scan_subnets}
   */
   readonly scanSubnets?: boolean | cdktf.IResolvable;
   /**
   * Set true in order to scan IPv6 subnets with AWS GWLB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_accounts_aws#scan_subnets_6 ManagementCmeAccountsAws#scan_subnets_6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_accounts_aws#scan_subnets_6 ManagementCmeAccountsAws#scan_subnets_6}
   */
   readonly scanSubnets6?: boolean | cdktf.IResolvable;
   /**
   * Set true in order to scan vpn with AWS TGW.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_accounts_aws#scan_vpn ManagementCmeAccountsAws#scan_vpn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_accounts_aws#scan_vpn ManagementCmeAccountsAws#scan_vpn}
   */
   readonly scanVpn?: boolean | cdktf.IResolvable;
   /**
   * AWS secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_accounts_aws#secret_key ManagementCmeAccountsAws#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_accounts_aws#secret_key ManagementCmeAccountsAws#secret_key}
   */
   readonly secretKey?: string;
   /**
   * AWS sts external id, must exist with sts role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_accounts_aws#sts_external_id ManagementCmeAccountsAws#sts_external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_accounts_aws#sts_external_id ManagementCmeAccountsAws#sts_external_id}
   */
   readonly stsExternalId?: string;
   /**
   * AWS sts role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_accounts_aws#sts_role ManagementCmeAccountsAws#sts_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_accounts_aws#sts_role ManagementCmeAccountsAws#sts_role}
   */
   readonly stsRole?: string;
   /**
   * sub_accounts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_accounts_aws#sub_accounts ManagementCmeAccountsAws#sub_accounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_accounts_aws#sub_accounts ManagementCmeAccountsAws#sub_accounts}
   */
   readonly subAccounts?: ManagementCmeAccountsAwsSubAccounts[] | cdktf.IResolvable;
 }
@@ -115,37 +115,37 @@ export interface ManagementCmeAccountsAwsSubAccounts {
   /**
   * AWS access key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_accounts_aws#access_key ManagementCmeAccountsAws#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_accounts_aws#access_key ManagementCmeAccountsAws#access_key}
   */
   readonly accessKey?: string;
   /**
   * The credentials file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_accounts_aws#credentials_file ManagementCmeAccountsAws#credentials_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_accounts_aws#credentials_file ManagementCmeAccountsAws#credentials_file}
   */
   readonly credentialsFile?: string;
   /**
   * Unique account name for identification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_accounts_aws#name ManagementCmeAccountsAws#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_accounts_aws#name ManagementCmeAccountsAws#name}
   */
   readonly name: string;
   /**
   * AWS secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_accounts_aws#secret_key ManagementCmeAccountsAws#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_accounts_aws#secret_key ManagementCmeAccountsAws#secret_key}
   */
   readonly secretKey?: string;
   /**
   * AWS sts external id, must exist with sts role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_accounts_aws#sts_external_id ManagementCmeAccountsAws#sts_external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_accounts_aws#sts_external_id ManagementCmeAccountsAws#sts_external_id}
   */
   readonly stsExternalId?: string;
   /**
   * AWS sts role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_accounts_aws#sts_role ManagementCmeAccountsAws#sts_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_accounts_aws#sts_role ManagementCmeAccountsAws#sts_role}
   */
   readonly stsRole?: string;
 }
@@ -403,7 +403,7 @@ export class ManagementCmeAccountsAwsSubAccountsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_accounts_aws checkpoint_management_cme_accounts_aws}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_accounts_aws checkpoint_management_cme_accounts_aws}
 */
 export class ManagementCmeAccountsAws extends cdktf.TerraformResource {
 
@@ -419,7 +419,7 @@ export class ManagementCmeAccountsAws extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementCmeAccountsAws resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementCmeAccountsAws to import
-  * @param importFromId The id of the existing ManagementCmeAccountsAws that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_accounts_aws#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementCmeAccountsAws that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_accounts_aws#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementCmeAccountsAws to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -431,7 +431,7 @@ export class ManagementCmeAccountsAws extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_accounts_aws checkpoint_management_cme_accounts_aws} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_accounts_aws checkpoint_management_cme_accounts_aws} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -442,7 +442,8 @@ export class ManagementCmeAccountsAws extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_cme_accounts_aws',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

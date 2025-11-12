@@ -68,7 +68,8 @@ export class UserSettings extends cdktf.TerraformResource {
       terraformResourceType: 'satori_user_settings',
       terraformGeneratorMetadata: {
         providerName: 'satori',
-        providerVersion: '0.2.8'
+        providerVersion: '0.2.8',
+        providerVersionConstraint: '0.2.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

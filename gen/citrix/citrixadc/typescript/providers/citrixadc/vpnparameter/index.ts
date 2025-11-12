@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,348 +8,372 @@ import * as cdktf from 'cdktf';
 
 export interface VpnparameterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#advancedclientlessvpnmode Vpnparameter#advancedclientlessvpnmode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#accessrestrictedpageredirect Vpnparameter#accessrestrictedpageredirect}
+  */
+  readonly accessrestrictedpageredirect?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#advancedclientlessvpnmode Vpnparameter#advancedclientlessvpnmode}
   */
   readonly advancedclientlessvpnmode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#allowedlogingroups Vpnparameter#allowedlogingroups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#allowedlogingroups Vpnparameter#allowedlogingroups}
   */
   readonly allowedlogingroups?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#allprotocolproxy Vpnparameter#allprotocolproxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#allprotocolproxy Vpnparameter#allprotocolproxy}
   */
   readonly allprotocolproxy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#alwaysonprofilename Vpnparameter#alwaysonprofilename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#alwaysonprofilename Vpnparameter#alwaysonprofilename}
   */
   readonly alwaysonprofilename?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#apptokentimeout Vpnparameter#apptokentimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#apptokentimeout Vpnparameter#apptokentimeout}
   */
   readonly apptokentimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#authorizationgroup Vpnparameter#authorizationgroup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#authorizationgroup Vpnparameter#authorizationgroup}
   */
   readonly authorizationgroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#autoproxyurl Vpnparameter#autoproxyurl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#autoproxyurl Vpnparameter#autoproxyurl}
   */
   readonly autoproxyurl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#backendcertvalidation Vpnparameter#backendcertvalidation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#backendcertvalidation Vpnparameter#backendcertvalidation}
   */
   readonly backendcertvalidation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#backendserversni Vpnparameter#backendserversni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#backenddtls12 Vpnparameter#backenddtls12}
+  */
+  readonly backenddtls12?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#backendserversni Vpnparameter#backendserversni}
   */
   readonly backendserversni?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#citrixreceiverhome Vpnparameter#citrixreceiverhome}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#citrixreceiverhome Vpnparameter#citrixreceiverhome}
   */
   readonly citrixreceiverhome?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#clientchoices Vpnparameter#clientchoices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#clientchoices Vpnparameter#clientchoices}
   */
   readonly clientchoices?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#clientcleanupprompt Vpnparameter#clientcleanupprompt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#clientcleanupprompt Vpnparameter#clientcleanupprompt}
   */
   readonly clientcleanupprompt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#clientconfiguration Vpnparameter#clientconfiguration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#clientconfiguration Vpnparameter#clientconfiguration}
   */
   readonly clientconfiguration?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#clientdebug Vpnparameter#clientdebug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#clientdebug Vpnparameter#clientdebug}
   */
   readonly clientdebug?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#clientidletimeout Vpnparameter#clientidletimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#clientidletimeout Vpnparameter#clientidletimeout}
   */
   readonly clientidletimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#clientlessmodeurlencoding Vpnparameter#clientlessmodeurlencoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#clientlessmodeurlencoding Vpnparameter#clientlessmodeurlencoding}
   */
   readonly clientlessmodeurlencoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#clientlesspersistentcookie Vpnparameter#clientlesspersistentcookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#clientlesspersistentcookie Vpnparameter#clientlesspersistentcookie}
   */
   readonly clientlesspersistentcookie?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#clientlessvpnmode Vpnparameter#clientlessvpnmode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#clientlessvpnmode Vpnparameter#clientlessvpnmode}
   */
   readonly clientlessvpnmode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#clientoptions Vpnparameter#clientoptions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#clientoptions Vpnparameter#clientoptions}
   */
   readonly clientoptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#clientsecurity Vpnparameter#clientsecurity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#clientsecurity Vpnparameter#clientsecurity}
   */
   readonly clientsecurity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#clientsecuritygroup Vpnparameter#clientsecuritygroup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#clientsecuritygroup Vpnparameter#clientsecuritygroup}
   */
   readonly clientsecuritygroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#clientsecuritylog Vpnparameter#clientsecuritylog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#clientsecuritylog Vpnparameter#clientsecuritylog}
   */
   readonly clientsecuritylog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#clientsecuritymessage Vpnparameter#clientsecuritymessage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#clientsecuritymessage Vpnparameter#clientsecuritymessage}
   */
   readonly clientsecuritymessage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#clientversions Vpnparameter#clientversions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#clientversions Vpnparameter#clientversions}
   */
   readonly clientversions?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#defaultauthorizationaction Vpnparameter#defaultauthorizationaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#defaultauthorizationaction Vpnparameter#defaultauthorizationaction}
   */
   readonly defaultauthorizationaction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#dnsvservername Vpnparameter#dnsvservername}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#deviceposture Vpnparameter#deviceposture}
+  */
+  readonly deviceposture?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#dnsvservername Vpnparameter#dnsvservername}
   */
   readonly dnsvservername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#emailhome Vpnparameter#emailhome}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#emailhome Vpnparameter#emailhome}
   */
   readonly emailhome?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#encryptcsecexp Vpnparameter#encryptcsecexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#encryptcsecexp Vpnparameter#encryptcsecexp}
   */
   readonly encryptcsecexp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#epaclienttype Vpnparameter#epaclienttype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#epaclienttype Vpnparameter#epaclienttype}
   */
   readonly epaclienttype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#forcecleanup Vpnparameter#forcecleanup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#forcecleanup Vpnparameter#forcecleanup}
   */
   readonly forcecleanup?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#forcedtimeout Vpnparameter#forcedtimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#forcedtimeout Vpnparameter#forcedtimeout}
   */
   readonly forcedtimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#forcedtimeoutwarning Vpnparameter#forcedtimeoutwarning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#forcedtimeoutwarning Vpnparameter#forcedtimeoutwarning}
   */
   readonly forcedtimeoutwarning?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#fqdnspoofedip Vpnparameter#fqdnspoofedip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#fqdnspoofedip Vpnparameter#fqdnspoofedip}
   */
   readonly fqdnspoofedip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#ftpproxy Vpnparameter#ftpproxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#ftpproxy Vpnparameter#ftpproxy}
   */
   readonly ftpproxy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#gopherproxy Vpnparameter#gopherproxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#gopherproxy Vpnparameter#gopherproxy}
   */
   readonly gopherproxy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#homepage Vpnparameter#homepage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#homepage Vpnparameter#homepage}
   */
   readonly homepage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#httpport Vpnparameter#httpport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#httpport Vpnparameter#httpport}
   */
   readonly httpport?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#httpproxy Vpnparameter#httpproxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#httpproxy Vpnparameter#httpproxy}
   */
   readonly httpproxy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#icaproxy Vpnparameter#icaproxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#httptrackconnproxy Vpnparameter#httptrackconnproxy}
+  */
+  readonly httptrackconnproxy?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#icaproxy Vpnparameter#icaproxy}
   */
   readonly icaproxy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#icasessiontimeout Vpnparameter#icasessiontimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#icasessiontimeout Vpnparameter#icasessiontimeout}
   */
   readonly icasessiontimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#icauseraccounting Vpnparameter#icauseraccounting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#icauseraccounting Vpnparameter#icauseraccounting}
   */
   readonly icauseraccounting?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#iconwithreceiver Vpnparameter#iconwithreceiver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#iconwithreceiver Vpnparameter#iconwithreceiver}
   */
   readonly iconwithreceiver?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#id Vpnparameter#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#id Vpnparameter#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#iipdnssuffix Vpnparameter#iipdnssuffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#iipdnssuffix Vpnparameter#iipdnssuffix}
   */
   readonly iipdnssuffix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#kcdaccount Vpnparameter#kcdaccount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#kcdaccount Vpnparameter#kcdaccount}
   */
   readonly kcdaccount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#killconnections Vpnparameter#killconnections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#killconnections Vpnparameter#killconnections}
   */
   readonly killconnections?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#linuxpluginupgrade Vpnparameter#linuxpluginupgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#linuxpluginupgrade Vpnparameter#linuxpluginupgrade}
   */
   readonly linuxpluginupgrade?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#locallanaccess Vpnparameter#locallanaccess}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#locallanaccess Vpnparameter#locallanaccess}
   */
   readonly locallanaccess?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#loginscript Vpnparameter#loginscript}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#loginscript Vpnparameter#loginscript}
   */
   readonly loginscript?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#logoutscript Vpnparameter#logoutscript}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#logoutscript Vpnparameter#logoutscript}
   */
   readonly logoutscript?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#macpluginupgrade Vpnparameter#macpluginupgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#macpluginupgrade Vpnparameter#macpluginupgrade}
   */
   readonly macpluginupgrade?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#mdxtokentimeout Vpnparameter#mdxtokentimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#maxiipperuser Vpnparameter#maxiipperuser}
+  */
+  readonly maxiipperuser?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#mdxtokentimeout Vpnparameter#mdxtokentimeout}
   */
   readonly mdxtokentimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#netmask Vpnparameter#netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#netmask Vpnparameter#netmask}
   */
   readonly netmask?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#ntdomain Vpnparameter#ntdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#ntdomain Vpnparameter#ntdomain}
   */
   readonly ntdomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#pcoipprofilename Vpnparameter#pcoipprofilename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#pcoipprofilename Vpnparameter#pcoipprofilename}
   */
   readonly pcoipprofilename?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#proxy Vpnparameter#proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#proxy Vpnparameter#proxy}
   */
   readonly proxy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#proxyexception Vpnparameter#proxyexception}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#proxyexception Vpnparameter#proxyexception}
   */
   readonly proxyexception?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#proxylocalbypass Vpnparameter#proxylocalbypass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#proxylocalbypass Vpnparameter#proxylocalbypass}
   */
   readonly proxylocalbypass?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#rdpclientprofilename Vpnparameter#rdpclientprofilename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#rdpclientprofilename Vpnparameter#rdpclientprofilename}
   */
   readonly rdpclientprofilename?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#rfc1918 Vpnparameter#rfc1918}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#rfc1918 Vpnparameter#rfc1918}
   */
   readonly rfc1918?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#samesite Vpnparameter#samesite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#samesite Vpnparameter#samesite}
   */
   readonly samesite?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#securebrowse Vpnparameter#securebrowse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#securebrowse Vpnparameter#securebrowse}
   */
   readonly securebrowse?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#sesstimeout Vpnparameter#sesstimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#secureprivateaccess Vpnparameter#secureprivateaccess}
+  */
+  readonly secureprivateaccess?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#sesstimeout Vpnparameter#sesstimeout}
   */
   readonly sesstimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#smartgroup Vpnparameter#smartgroup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#smartgroup Vpnparameter#smartgroup}
   */
   readonly smartgroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#socksproxy Vpnparameter#socksproxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#socksproxy Vpnparameter#socksproxy}
   */
   readonly socksproxy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#splitdns Vpnparameter#splitdns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#splitdns Vpnparameter#splitdns}
   */
   readonly splitdns?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#splittunnel Vpnparameter#splittunnel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#splittunnel Vpnparameter#splittunnel}
   */
   readonly splittunnel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#spoofiip Vpnparameter#spoofiip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#spoofiip Vpnparameter#spoofiip}
   */
   readonly spoofiip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#sslproxy Vpnparameter#sslproxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#sslproxy Vpnparameter#sslproxy}
   */
   readonly sslproxy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#sso Vpnparameter#sso}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#sso Vpnparameter#sso}
   */
   readonly sso?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#ssocredential Vpnparameter#ssocredential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#ssocredential Vpnparameter#ssocredential}
   */
   readonly ssocredential?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#storefronturl Vpnparameter#storefronturl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#storefronturl Vpnparameter#storefronturl}
   */
   readonly storefronturl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#transparentinterception Vpnparameter#transparentinterception}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#transparentinterception Vpnparameter#transparentinterception}
   */
   readonly transparentinterception?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#uitheme Vpnparameter#uitheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#uitheme Vpnparameter#uitheme}
   */
   readonly uitheme?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#useiip Vpnparameter#useiip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#useiip Vpnparameter#useiip}
   */
   readonly useiip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#usemip Vpnparameter#usemip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#usemip Vpnparameter#usemip}
   */
   readonly usemip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#userdomains Vpnparameter#userdomains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#userdomains Vpnparameter#userdomains}
   */
   readonly userdomains?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#wihome Vpnparameter#wihome}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#wihome Vpnparameter#wihome}
   */
   readonly wihome?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#wihomeaddresstype Vpnparameter#wihomeaddresstype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#wihomeaddresstype Vpnparameter#wihomeaddresstype}
   */
   readonly wihomeaddresstype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#windowsautologon Vpnparameter#windowsautologon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#windowsautologon Vpnparameter#windowsautologon}
   */
   readonly windowsautologon?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#windowsclienttype Vpnparameter#windowsclienttype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#windowsclienttype Vpnparameter#windowsclienttype}
   */
   readonly windowsclienttype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#windowspluginupgrade Vpnparameter#windowspluginupgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#windowspluginupgrade Vpnparameter#windowspluginupgrade}
   */
   readonly windowspluginupgrade?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#winsip Vpnparameter#winsip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#winsip Vpnparameter#winsip}
   */
   readonly winsip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#wiportalmode Vpnparameter#wiportalmode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#wiportalmode Vpnparameter#wiportalmode}
   */
   readonly wiportalmode?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter citrixadc_vpnparameter}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter citrixadc_vpnparameter}
 */
 export class Vpnparameter extends cdktf.TerraformResource {
 
@@ -365,7 +389,7 @@ export class Vpnparameter extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Vpnparameter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Vpnparameter to import
-  * @param importFromId The id of the existing Vpnparameter that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Vpnparameter that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Vpnparameter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -377,7 +401,7 @@ export class Vpnparameter extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnparameter citrixadc_vpnparameter} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnparameter citrixadc_vpnparameter} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -388,7 +412,8 @@ export class Vpnparameter extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_vpnparameter',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -398,6 +423,7 @@ export class Vpnparameter extends cdktf.TerraformResource {
       connection: config.connection,
       forEach: config.forEach
     });
+    this._accessrestrictedpageredirect = config.accessrestrictedpageredirect;
     this._advancedclientlessvpnmode = config.advancedclientlessvpnmode;
     this._allowedlogingroups = config.allowedlogingroups;
     this._allprotocolproxy = config.allprotocolproxy;
@@ -406,6 +432,7 @@ export class Vpnparameter extends cdktf.TerraformResource {
     this._authorizationgroup = config.authorizationgroup;
     this._autoproxyurl = config.autoproxyurl;
     this._backendcertvalidation = config.backendcertvalidation;
+    this._backenddtls12 = config.backenddtls12;
     this._backendserversni = config.backendserversni;
     this._citrixreceiverhome = config.citrixreceiverhome;
     this._clientchoices = config.clientchoices;
@@ -423,6 +450,7 @@ export class Vpnparameter extends cdktf.TerraformResource {
     this._clientsecuritymessage = config.clientsecuritymessage;
     this._clientversions = config.clientversions;
     this._defaultauthorizationaction = config.defaultauthorizationaction;
+    this._deviceposture = config.deviceposture;
     this._dnsvservername = config.dnsvservername;
     this._emailhome = config.emailhome;
     this._encryptcsecexp = config.encryptcsecexp;
@@ -436,6 +464,7 @@ export class Vpnparameter extends cdktf.TerraformResource {
     this._homepage = config.homepage;
     this._httpport = config.httpport;
     this._httpproxy = config.httpproxy;
+    this._httptrackconnproxy = config.httptrackconnproxy;
     this._icaproxy = config.icaproxy;
     this._icasessiontimeout = config.icasessiontimeout;
     this._icauseraccounting = config.icauseraccounting;
@@ -449,6 +478,7 @@ export class Vpnparameter extends cdktf.TerraformResource {
     this._loginscript = config.loginscript;
     this._logoutscript = config.logoutscript;
     this._macpluginupgrade = config.macpluginupgrade;
+    this._maxiipperuser = config.maxiipperuser;
     this._mdxtokentimeout = config.mdxtokentimeout;
     this._netmask = config.netmask;
     this._ntdomain = config.ntdomain;
@@ -460,6 +490,7 @@ export class Vpnparameter extends cdktf.TerraformResource {
     this._rfc1918 = config.rfc1918;
     this._samesite = config.samesite;
     this._securebrowse = config.securebrowse;
+    this._secureprivateaccess = config.secureprivateaccess;
     this._sesstimeout = config.sesstimeout;
     this._smartgroup = config.smartgroup;
     this._socksproxy = config.socksproxy;
@@ -487,6 +518,22 @@ export class Vpnparameter extends cdktf.TerraformResource {
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // accessrestrictedpageredirect - computed: true, optional: true, required: false
+  private _accessrestrictedpageredirect?: string; 
+  public get accessrestrictedpageredirect() {
+    return this.getStringAttribute('accessrestrictedpageredirect');
+  }
+  public set accessrestrictedpageredirect(value: string) {
+    this._accessrestrictedpageredirect = value;
+  }
+  public resetAccessrestrictedpageredirect() {
+    this._accessrestrictedpageredirect = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get accessrestrictedpageredirectInput() {
+    return this._accessrestrictedpageredirect;
+  }
 
   // advancedclientlessvpnmode - computed: true, optional: true, required: false
   private _advancedclientlessvpnmode?: string; 
@@ -614,6 +661,22 @@ export class Vpnparameter extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get backendcertvalidationInput() {
     return this._backendcertvalidation;
+  }
+
+  // backenddtls12 - computed: true, optional: true, required: false
+  private _backenddtls12?: string; 
+  public get backenddtls12() {
+    return this.getStringAttribute('backenddtls12');
+  }
+  public set backenddtls12(value: string) {
+    this._backenddtls12 = value;
+  }
+  public resetBackenddtls12() {
+    this._backenddtls12 = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get backenddtls12Input() {
+    return this._backenddtls12;
   }
 
   // backendserversni - computed: true, optional: true, required: false
@@ -888,6 +951,22 @@ export class Vpnparameter extends cdktf.TerraformResource {
     return this._defaultauthorizationaction;
   }
 
+  // deviceposture - computed: true, optional: true, required: false
+  private _deviceposture?: string; 
+  public get deviceposture() {
+    return this.getStringAttribute('deviceposture');
+  }
+  public set deviceposture(value: string) {
+    this._deviceposture = value;
+  }
+  public resetDeviceposture() {
+    this._deviceposture = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get devicepostureInput() {
+    return this._deviceposture;
+  }
+
   // dnsvservername - computed: true, optional: true, required: false
   private _dnsvservername?: string; 
   public get dnsvservername() {
@@ -1094,6 +1173,22 @@ export class Vpnparameter extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get httpproxyInput() {
     return this._httpproxy;
+  }
+
+  // httptrackconnproxy - computed: true, optional: true, required: false
+  private _httptrackconnproxy?: string; 
+  public get httptrackconnproxy() {
+    return this.getStringAttribute('httptrackconnproxy');
+  }
+  public set httptrackconnproxy(value: string) {
+    this._httptrackconnproxy = value;
+  }
+  public resetHttptrackconnproxy() {
+    this._httptrackconnproxy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get httptrackconnproxyInput() {
+    return this._httptrackconnproxy;
   }
 
   // icaproxy - computed: true, optional: true, required: false
@@ -1304,6 +1399,22 @@ export class Vpnparameter extends cdktf.TerraformResource {
     return this._macpluginupgrade;
   }
 
+  // maxiipperuser - computed: true, optional: true, required: false
+  private _maxiipperuser?: number; 
+  public get maxiipperuser() {
+    return this.getNumberAttribute('maxiipperuser');
+  }
+  public set maxiipperuser(value: number) {
+    this._maxiipperuser = value;
+  }
+  public resetMaxiipperuser() {
+    this._maxiipperuser = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxiipperuserInput() {
+    return this._maxiipperuser;
+  }
+
   // mdxtokentimeout - computed: true, optional: true, required: false
   private _mdxtokentimeout?: number; 
   public get mdxtokentimeout() {
@@ -1478,6 +1589,22 @@ export class Vpnparameter extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get securebrowseInput() {
     return this._securebrowse;
+  }
+
+  // secureprivateaccess - computed: true, optional: true, required: false
+  private _secureprivateaccess?: string; 
+  public get secureprivateaccess() {
+    return this.getStringAttribute('secureprivateaccess');
+  }
+  public set secureprivateaccess(value: string) {
+    this._secureprivateaccess = value;
+  }
+  public resetSecureprivateaccess() {
+    this._secureprivateaccess = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secureprivateaccessInput() {
+    return this._secureprivateaccess;
   }
 
   // sesstimeout - computed: true, optional: true, required: false
@@ -1838,6 +1965,7 @@ export class Vpnparameter extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      accessrestrictedpageredirect: cdktf.stringToTerraform(this._accessrestrictedpageredirect),
       advancedclientlessvpnmode: cdktf.stringToTerraform(this._advancedclientlessvpnmode),
       allowedlogingroups: cdktf.stringToTerraform(this._allowedlogingroups),
       allprotocolproxy: cdktf.stringToTerraform(this._allprotocolproxy),
@@ -1846,6 +1974,7 @@ export class Vpnparameter extends cdktf.TerraformResource {
       authorizationgroup: cdktf.stringToTerraform(this._authorizationgroup),
       autoproxyurl: cdktf.stringToTerraform(this._autoproxyurl),
       backendcertvalidation: cdktf.stringToTerraform(this._backendcertvalidation),
+      backenddtls12: cdktf.stringToTerraform(this._backenddtls12),
       backendserversni: cdktf.stringToTerraform(this._backendserversni),
       citrixreceiverhome: cdktf.stringToTerraform(this._citrixreceiverhome),
       clientchoices: cdktf.stringToTerraform(this._clientchoices),
@@ -1863,6 +1992,7 @@ export class Vpnparameter extends cdktf.TerraformResource {
       clientsecuritymessage: cdktf.stringToTerraform(this._clientsecuritymessage),
       clientversions: cdktf.stringToTerraform(this._clientversions),
       defaultauthorizationaction: cdktf.stringToTerraform(this._defaultauthorizationaction),
+      deviceposture: cdktf.stringToTerraform(this._deviceposture),
       dnsvservername: cdktf.stringToTerraform(this._dnsvservername),
       emailhome: cdktf.stringToTerraform(this._emailhome),
       encryptcsecexp: cdktf.stringToTerraform(this._encryptcsecexp),
@@ -1876,6 +2006,7 @@ export class Vpnparameter extends cdktf.TerraformResource {
       homepage: cdktf.stringToTerraform(this._homepage),
       httpport: cdktf.listMapper(cdktf.numberToTerraform, false)(this._httpport),
       httpproxy: cdktf.stringToTerraform(this._httpproxy),
+      httptrackconnproxy: cdktf.stringToTerraform(this._httptrackconnproxy),
       icaproxy: cdktf.stringToTerraform(this._icaproxy),
       icasessiontimeout: cdktf.stringToTerraform(this._icasessiontimeout),
       icauseraccounting: cdktf.stringToTerraform(this._icauseraccounting),
@@ -1889,6 +2020,7 @@ export class Vpnparameter extends cdktf.TerraformResource {
       loginscript: cdktf.stringToTerraform(this._loginscript),
       logoutscript: cdktf.stringToTerraform(this._logoutscript),
       macpluginupgrade: cdktf.stringToTerraform(this._macpluginupgrade),
+      maxiipperuser: cdktf.numberToTerraform(this._maxiipperuser),
       mdxtokentimeout: cdktf.numberToTerraform(this._mdxtokentimeout),
       netmask: cdktf.stringToTerraform(this._netmask),
       ntdomain: cdktf.stringToTerraform(this._ntdomain),
@@ -1900,6 +2032,7 @@ export class Vpnparameter extends cdktf.TerraformResource {
       rfc1918: cdktf.stringToTerraform(this._rfc1918),
       samesite: cdktf.stringToTerraform(this._samesite),
       securebrowse: cdktf.stringToTerraform(this._securebrowse),
+      secureprivateaccess: cdktf.stringToTerraform(this._secureprivateaccess),
       sesstimeout: cdktf.numberToTerraform(this._sesstimeout),
       smartgroup: cdktf.stringToTerraform(this._smartgroup),
       socksproxy: cdktf.stringToTerraform(this._socksproxy),
@@ -1927,6 +2060,12 @@ export class Vpnparameter extends cdktf.TerraformResource {
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
+      accessrestrictedpageredirect: {
+        value: cdktf.stringToHclTerraform(this._accessrestrictedpageredirect),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       advancedclientlessvpnmode: {
         value: cdktf.stringToHclTerraform(this._advancedclientlessvpnmode),
         isBlock: false,
@@ -1971,6 +2110,12 @@ export class Vpnparameter extends cdktf.TerraformResource {
       },
       backendcertvalidation: {
         value: cdktf.stringToHclTerraform(this._backendcertvalidation),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      backenddtls12: {
+        value: cdktf.stringToHclTerraform(this._backenddtls12),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
@@ -2077,6 +2222,12 @@ export class Vpnparameter extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      deviceposture: {
+        value: cdktf.stringToHclTerraform(this._deviceposture),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       dnsvservername: {
         value: cdktf.stringToHclTerraform(this._dnsvservername),
         isBlock: false,
@@ -2151,6 +2302,12 @@ export class Vpnparameter extends cdktf.TerraformResource {
       },
       httpproxy: {
         value: cdktf.stringToHclTerraform(this._httpproxy),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      httptrackconnproxy: {
+        value: cdktf.stringToHclTerraform(this._httptrackconnproxy),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
@@ -2233,6 +2390,12 @@ export class Vpnparameter extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      maxiipperuser: {
+        value: cdktf.numberToHclTerraform(this._maxiipperuser),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
       mdxtokentimeout: {
         value: cdktf.numberToHclTerraform(this._mdxtokentimeout),
         isBlock: false,
@@ -2295,6 +2458,12 @@ export class Vpnparameter extends cdktf.TerraformResource {
       },
       securebrowse: {
         value: cdktf.stringToHclTerraform(this._securebrowse),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      secureprivateaccess: {
+        value: cdktf.stringToHclTerraform(this._secureprivateaccess),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

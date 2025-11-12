@@ -80,7 +80,8 @@ export class DataGcoreK8SPoolA extends cdktf.TerraformDataSource {
       terraformResourceType: 'gcore_k8s_pool',
       terraformGeneratorMetadata: {
         providerName: 'gcorelabs',
-        providerVersion: '0.3.63'
+        providerVersion: '0.3.63',
+        providerVersionConstraint: '0.3.63'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

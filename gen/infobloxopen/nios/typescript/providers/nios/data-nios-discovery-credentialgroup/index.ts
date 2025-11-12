@@ -177,7 +177,8 @@ export class DataNiosDiscoveryCredentialgroup extends cdktf.TerraformDataSource 
       terraformResourceType: 'nios_discovery_credentialgroup',
       terraformGeneratorMetadata: {
         providerName: 'nios',
-        providerVersion: '1.0.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

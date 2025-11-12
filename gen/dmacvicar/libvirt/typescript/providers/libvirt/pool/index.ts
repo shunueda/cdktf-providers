@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dmacvicar/libvirt/0.8.3/docs/resources/pool
+// https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.0/docs/resources/pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,60 +8,37 @@ import * as cdktf from 'cdktf';
 
 export interface PoolConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.8.3/docs/resources/pool#allocation Pool#allocation}
-  */
-  readonly allocation?: number;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.8.3/docs/resources/pool#available Pool#available}
-  */
-  readonly available?: number;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.8.3/docs/resources/pool#capacity Pool#capacity}
-  */
-  readonly capacity?: number;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.8.3/docs/resources/pool#id Pool#id}
+  * Unique name of the storage pool
   *
-  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
-  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
-  */
-  readonly id?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.8.3/docs/resources/pool#name Pool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.0/docs/resources/pool#name Pool#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.8.3/docs/resources/pool#path Pool#path}
-  */
-  readonly path?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.8.3/docs/resources/pool#type Pool#type}
-  */
-  readonly type: string;
-  /**
-  * source block
+  * Source configuration for the storage pool (required for logical pools)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.8.3/docs/resources/pool#source Pool#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.0/docs/resources/pool#source Pool#source}
   */
   readonly source?: PoolSource;
   /**
-  * target block
+  * Target path for the storage pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.8.3/docs/resources/pool#target Pool#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.0/docs/resources/pool#target Pool#target}
   */
-  readonly target?: PoolTarget;
+  readonly target: PoolTarget;
   /**
-  * xml block
+  * Type of storage pool. Supported values: dir (directory-based), logical (LVM)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.8.3/docs/resources/pool#xml Pool#xml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.0/docs/resources/pool#type Pool#type}
   */
-  readonly xml?: PoolXml;
+  readonly type: string;
 }
 export interface PoolSourceDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.8.3/docs/resources/pool#path Pool#path}
+  * Path to the device
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.0/docs/resources/pool#path Pool#path}
   */
-  readonly path?: string;
+  readonly path: string;
 }
 
 export function poolSourceDeviceToTerraform(struct?: PoolSourceDevice | cdktf.IResolvable): any {
@@ -137,16 +114,13 @@ export class PoolSourceDeviceOutputReference extends cdktf.ComplexObject {
     }
   }
 
-  // path - computed: false, optional: true, required: false
+  // path - computed: false, optional: false, required: true
   private _path?: string; 
   public get path() {
     return this.getStringAttribute('path');
   }
   public set path(value: string) {
     this._path = value;
-  }
-  public resetPath() {
-    this._path = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get pathInput() {
@@ -175,46 +149,48 @@ export class PoolSourceDeviceList extends cdktf.ComplexList {
 }
 export interface PoolSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.8.3/docs/resources/pool#name Pool#name}
-  */
-  readonly name?: string;
-  /**
-  * device block
+  * List of devices to use for the storage pool (e.g., physical volumes for logical pools)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.8.3/docs/resources/pool#device Pool#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.0/docs/resources/pool#device Pool#device}
   */
   readonly device?: PoolSourceDevice[] | cdktf.IResolvable;
+  /**
+  * Name of the source (e.g., volume group name for logical pools)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.0/docs/resources/pool#name Pool#name}
+  */
+  readonly name?: string;
 }
 
-export function poolSourceToTerraform(struct?: PoolSourceOutputReference | PoolSource): any {
+export function poolSourceToTerraform(struct?: PoolSource | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    device: cdktf.listMapper(poolSourceDeviceToTerraform, false)(struct!.device),
     name: cdktf.stringToTerraform(struct!.name),
-    device: cdktf.listMapper(poolSourceDeviceToTerraform, true)(struct!.device),
   }
 }
 
 
-export function poolSourceToHclTerraform(struct?: PoolSourceOutputReference | PoolSource): any {
+export function poolSourceToHclTerraform(struct?: PoolSource | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    device: {
+      value: cdktf.listMapperHcl(poolSourceDeviceToHclTerraform, false)(struct!.device),
+      isBlock: true,
+      type: "list",
+      storageClassType: "PoolSourceDeviceList",
+    },
     name: {
       value: cdktf.stringToHclTerraform(struct!.name),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
-    },
-    device: {
-      value: cdktf.listMapperHcl(poolSourceDeviceToHclTerraform, true)(struct!.device),
-      isBlock: true,
-      type: "list",
-      storageClassType: "PoolSourceDeviceList",
     },
   };
 
@@ -224,56 +200,50 @@ export function poolSourceToHclTerraform(struct?: PoolSourceOutputReference | Po
 
 export class PoolSourceOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
   public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
+    super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): PoolSource | undefined {
+  public get internalValue(): PoolSource | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
-    if (this._name !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.name = this._name;
-    }
     if (this._device?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.device = this._device?.internalValue;
     }
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: PoolSource | undefined) {
+  public set internalValue(value: PoolSource | cdktf.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
-      this._name = undefined;
+      this.resolvableValue = undefined;
       this._device.internalValue = undefined;
+      this._name = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
-      this._name = value.name;
+      this.resolvableValue = undefined;
       this._device.internalValue = value.device;
+      this._name = value.name;
     }
-  }
-
-  // name - computed: false, optional: true, required: false
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  public resetName() {
-    this._name = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
   }
 
   // device - computed: false, optional: true, required: false
@@ -291,26 +261,252 @@ export class PoolSourceOutputReference extends cdktf.ComplexObject {
   public get deviceInput() {
     return this._device.internalValue;
   }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+}
+export interface PoolTargetPermissions {
+  /**
+  * Numeric group ID for the pool directory group
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.0/docs/resources/pool#group Pool#group}
+  */
+  readonly group?: string;
+  /**
+  * SELinux label for the pool directory
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.0/docs/resources/pool#label Pool#label}
+  */
+  readonly label?: string;
+  /**
+  * Octal permission mode for the pool directory (e.g., '0755')
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.0/docs/resources/pool#mode Pool#mode}
+  */
+  readonly mode?: string;
+  /**
+  * Numeric user ID for the pool directory owner
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.0/docs/resources/pool#owner Pool#owner}
+  */
+  readonly owner?: string;
+}
+
+export function poolTargetPermissionsToTerraform(struct?: PoolTargetPermissions | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    group: cdktf.stringToTerraform(struct!.group),
+    label: cdktf.stringToTerraform(struct!.label),
+    mode: cdktf.stringToTerraform(struct!.mode),
+    owner: cdktf.stringToTerraform(struct!.owner),
+  }
+}
+
+
+export function poolTargetPermissionsToHclTerraform(struct?: PoolTargetPermissions | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    group: {
+      value: cdktf.stringToHclTerraform(struct!.group),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    label: {
+      value: cdktf.stringToHclTerraform(struct!.label),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    mode: {
+      value: cdktf.stringToHclTerraform(struct!.mode),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    owner: {
+      value: cdktf.stringToHclTerraform(struct!.owner),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class PoolTargetPermissionsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): PoolTargetPermissions | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._group !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.group = this._group;
+    }
+    if (this._label !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.label = this._label;
+    }
+    if (this._mode !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.mode = this._mode;
+    }
+    if (this._owner !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.owner = this._owner;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: PoolTargetPermissions | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._group = undefined;
+      this._label = undefined;
+      this._mode = undefined;
+      this._owner = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._group = value.group;
+      this._label = value.label;
+      this._mode = value.mode;
+      this._owner = value.owner;
+    }
+  }
+
+  // group - computed: false, optional: true, required: false
+  private _group?: string; 
+  public get group() {
+    return this.getStringAttribute('group');
+  }
+  public set group(value: string) {
+    this._group = value;
+  }
+  public resetGroup() {
+    this._group = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get groupInput() {
+    return this._group;
+  }
+
+  // label - computed: false, optional: true, required: false
+  private _label?: string; 
+  public get label() {
+    return this.getStringAttribute('label');
+  }
+  public set label(value: string) {
+    this._label = value;
+  }
+  public resetLabel() {
+    this._label = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get labelInput() {
+    return this._label;
+  }
+
+  // mode - computed: false, optional: true, required: false
+  private _mode?: string; 
+  public get mode() {
+    return this.getStringAttribute('mode');
+  }
+  public set mode(value: string) {
+    this._mode = value;
+  }
+  public resetMode() {
+    this._mode = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get modeInput() {
+    return this._mode;
+  }
+
+  // owner - computed: false, optional: true, required: false
+  private _owner?: string; 
+  public get owner() {
+    return this.getStringAttribute('owner');
+  }
+  public set owner(value: string) {
+    this._owner = value;
+  }
+  public resetOwner() {
+    this._owner = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ownerInput() {
+    return this._owner;
+  }
 }
 export interface PoolTarget {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.8.3/docs/resources/pool#path Pool#path}
+  * Path where the storage pool is located on the host
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.0/docs/resources/pool#path Pool#path}
   */
-  readonly path?: string;
+  readonly path: string;
+  /**
+  * Permissions for the pool directory
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.0/docs/resources/pool#permissions Pool#permissions}
+  */
+  readonly permissions?: PoolTargetPermissions;
 }
 
-export function poolTargetToTerraform(struct?: PoolTargetOutputReference | PoolTarget): any {
+export function poolTargetToTerraform(struct?: PoolTarget | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
     path: cdktf.stringToTerraform(struct!.path),
+    permissions: poolTargetPermissionsToTerraform(struct!.permissions),
   }
 }
 
 
-export function poolTargetToHclTerraform(struct?: PoolTargetOutputReference | PoolTarget): any {
+export function poolTargetToHclTerraform(struct?: PoolTarget | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -322,6 +518,12 @@ export function poolTargetToHclTerraform(struct?: PoolTargetOutputReference | Po
       type: "simple",
       storageClassType: "string",
     },
+    permissions: {
+      value: poolTargetPermissionsToHclTerraform(struct!.permissions),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "PoolTargetPermissions",
+    },
   };
 
   // remove undefined attributes
@@ -330,37 +532,53 @@ export function poolTargetToHclTerraform(struct?: PoolTargetOutputReference | Po
 
 export class PoolTargetOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
   public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
+    super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): PoolTarget | undefined {
+  public get internalValue(): PoolTarget | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     if (this._path !== undefined) {
       hasAnyValues = true;
       internalValueResult.path = this._path;
     }
+    if (this._permissions?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.permissions = this._permissions?.internalValue;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: PoolTarget | undefined) {
+  public set internalValue(value: PoolTarget | cdktf.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this.resolvableValue = undefined;
       this._path = undefined;
+      this._permissions.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
       this._path = value.path;
+      this._permissions.internalValue = value.permissions;
     }
   }
 
-  // path - computed: true, optional: true, required: false
+  // path - computed: false, optional: false, required: true
   private _path?: string; 
   public get path() {
     return this.getStringAttribute('path');
@@ -368,101 +586,30 @@ export class PoolTargetOutputReference extends cdktf.ComplexObject {
   public set path(value: string) {
     this._path = value;
   }
-  public resetPath() {
-    this._path = undefined;
-  }
   // Temporarily expose input value. Use with caution.
   public get pathInput() {
     return this._path;
   }
-}
-export interface PoolXml {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.8.3/docs/resources/pool#xslt Pool#xslt}
-  */
-  readonly xslt?: string;
-}
 
-export function poolXmlToTerraform(struct?: PoolXmlOutputReference | PoolXml): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  // permissions - computed: false, optional: true, required: false
+  private _permissions = new PoolTargetPermissionsOutputReference(this, "permissions");
+  public get permissions() {
+    return this._permissions;
   }
-  return {
-    xslt: cdktf.stringToTerraform(struct!.xslt),
+  public putPermissions(value: PoolTargetPermissions) {
+    this._permissions.internalValue = value;
   }
-}
-
-
-export function poolXmlToHclTerraform(struct?: PoolXmlOutputReference | PoolXml): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    xslt: {
-      value: cdktf.stringToHclTerraform(struct!.xslt),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class PoolXmlOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): PoolXml | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._xslt !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.xslt = this._xslt;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: PoolXml | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._xslt = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._xslt = value.xslt;
-    }
-  }
-
-  // xslt - computed: false, optional: true, required: false
-  private _xslt?: string; 
-  public get xslt() {
-    return this.getStringAttribute('xslt');
-  }
-  public set xslt(value: string) {
-    this._xslt = value;
-  }
-  public resetXslt() {
-    this._xslt = undefined;
+  public resetPermissions() {
+    this._permissions.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get xsltInput() {
-    return this._xslt;
+  public get permissionsInput() {
+    return this._permissions.internalValue;
   }
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.8.3/docs/resources/pool libvirt_pool}
+* Represents a {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.0/docs/resources/pool libvirt_pool}
 */
 export class Pool extends cdktf.TerraformResource {
 
@@ -478,7 +625,7 @@ export class Pool extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Pool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Pool to import
-  * @param importFromId The id of the existing Pool that should be imported. Refer to the {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.8.3/docs/resources/pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Pool that should be imported. Refer to the {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.0/docs/resources/pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Pool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -490,7 +637,7 @@ export class Pool extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.8.3/docs/resources/pool libvirt_pool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.0/docs/resources/pool libvirt_pool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -501,7 +648,8 @@ export class Pool extends cdktf.TerraformResource {
       terraformResourceType: 'libvirt_pool',
       terraformGeneratorMetadata: {
         providerName: 'libvirt',
-        providerVersion: '0.8.3'
+        providerVersion: '0.9.0',
+        providerVersionConstraint: '0.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -511,84 +659,34 @@ export class Pool extends cdktf.TerraformResource {
       connection: config.connection,
       forEach: config.forEach
     });
-    this._allocation = config.allocation;
-    this._available = config.available;
-    this._capacity = config.capacity;
-    this._id = config.id;
     this._name = config.name;
-    this._path = config.path;
-    this._type = config.type;
     this._source.internalValue = config.source;
     this._target.internalValue = config.target;
-    this._xml.internalValue = config.xml;
+    this._type = config.type;
   }
 
   // ==========
   // ATTRIBUTES
   // ==========
 
-  // allocation - computed: true, optional: true, required: false
-  private _allocation?: number; 
+  // allocation - computed: true, optional: false, required: false
   public get allocation() {
     return this.getNumberAttribute('allocation');
   }
-  public set allocation(value: number) {
-    this._allocation = value;
-  }
-  public resetAllocation() {
-    this._allocation = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get allocationInput() {
-    return this._allocation;
-  }
 
-  // available - computed: true, optional: true, required: false
-  private _available?: number; 
+  // available - computed: true, optional: false, required: false
   public get available() {
     return this.getNumberAttribute('available');
   }
-  public set available(value: number) {
-    this._available = value;
-  }
-  public resetAvailable() {
-    this._available = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get availableInput() {
-    return this._available;
-  }
 
-  // capacity - computed: true, optional: true, required: false
-  private _capacity?: number; 
+  // capacity - computed: true, optional: false, required: false
   public get capacity() {
     return this.getNumberAttribute('capacity');
   }
-  public set capacity(value: number) {
-    this._capacity = value;
-  }
-  public resetCapacity() {
-    this._capacity = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get capacityInput() {
-    return this._capacity;
-  }
 
-  // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  // id - computed: true, optional: false, required: false
   public get id() {
     return this.getStringAttribute('id');
-  }
-  public set id(value: string) {
-    this._id = value;
-  }
-  public resetId() {
-    this._id = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get idInput() {
-    return this._id;
   }
 
   // name - computed: false, optional: false, required: true
@@ -602,35 +700,6 @@ export class Pool extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get nameInput() {
     return this._name;
-  }
-
-  // path - computed: false, optional: true, required: false
-  private _path?: string; 
-  public get path() {
-    return this.getStringAttribute('path');
-  }
-  public set path(value: string) {
-    this._path = value;
-  }
-  public resetPath() {
-    this._path = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get pathInput() {
-    return this._path;
-  }
-
-  // type - computed: false, optional: false, required: true
-  private _type?: string; 
-  public get type() {
-    return this.getStringAttribute('type');
-  }
-  public set type(value: string) {
-    this._type = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get typeInput() {
-    return this._type;
   }
 
   // source - computed: false, optional: true, required: false
@@ -649,7 +718,7 @@ export class Pool extends cdktf.TerraformResource {
     return this._source.internalValue;
   }
 
-  // target - computed: false, optional: true, required: false
+  // target - computed: false, optional: false, required: true
   private _target = new PoolTargetOutputReference(this, "target");
   public get target() {
     return this._target;
@@ -657,28 +726,27 @@ export class Pool extends cdktf.TerraformResource {
   public putTarget(value: PoolTarget) {
     this._target.internalValue = value;
   }
-  public resetTarget() {
-    this._target.internalValue = undefined;
-  }
   // Temporarily expose input value. Use with caution.
   public get targetInput() {
     return this._target.internalValue;
   }
 
-  // xml - computed: false, optional: true, required: false
-  private _xml = new PoolXmlOutputReference(this, "xml");
-  public get xml() {
-    return this._xml;
+  // type - computed: false, optional: false, required: true
+  private _type?: string; 
+  public get type() {
+    return this.getStringAttribute('type');
   }
-  public putXml(value: PoolXml) {
-    this._xml.internalValue = value;
-  }
-  public resetXml() {
-    this._xml.internalValue = undefined;
+  public set type(value: string) {
+    this._type = value;
   }
   // Temporarily expose input value. Use with caution.
-  public get xmlInput() {
-    return this._xml.internalValue;
+  public get typeInput() {
+    return this._type;
+  }
+
+  // uuid - computed: true, optional: false, required: false
+  public get uuid() {
+    return this.getStringAttribute('uuid');
   }
 
   // =========
@@ -687,59 +755,17 @@ export class Pool extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      allocation: cdktf.numberToTerraform(this._allocation),
-      available: cdktf.numberToTerraform(this._available),
-      capacity: cdktf.numberToTerraform(this._capacity),
-      id: cdktf.stringToTerraform(this._id),
       name: cdktf.stringToTerraform(this._name),
-      path: cdktf.stringToTerraform(this._path),
-      type: cdktf.stringToTerraform(this._type),
       source: poolSourceToTerraform(this._source.internalValue),
       target: poolTargetToTerraform(this._target.internalValue),
-      xml: poolXmlToTerraform(this._xml.internalValue),
+      type: cdktf.stringToTerraform(this._type),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
-      allocation: {
-        value: cdktf.numberToHclTerraform(this._allocation),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "number",
-      },
-      available: {
-        value: cdktf.numberToHclTerraform(this._available),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "number",
-      },
-      capacity: {
-        value: cdktf.numberToHclTerraform(this._capacity),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "number",
-      },
-      id: {
-        value: cdktf.stringToHclTerraform(this._id),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
       name: {
         value: cdktf.stringToHclTerraform(this._name),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
-      path: {
-        value: cdktf.stringToHclTerraform(this._path),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
-      type: {
-        value: cdktf.stringToHclTerraform(this._type),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
@@ -747,20 +773,20 @@ export class Pool extends cdktf.TerraformResource {
       source: {
         value: poolSourceToHclTerraform(this._source.internalValue),
         isBlock: true,
-        type: "list",
-        storageClassType: "PoolSourceList",
+        type: "struct",
+        storageClassType: "PoolSource",
       },
       target: {
         value: poolTargetToHclTerraform(this._target.internalValue),
         isBlock: true,
-        type: "list",
-        storageClassType: "PoolTargetList",
+        type: "struct",
+        storageClassType: "PoolTarget",
       },
-      xml: {
-        value: poolXmlToHclTerraform(this._xml.internalValue),
-        isBlock: true,
-        type: "list",
-        storageClassType: "PoolXmlList",
+      type: {
+        value: cdktf.stringToHclTerraform(this._type),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
     };
 

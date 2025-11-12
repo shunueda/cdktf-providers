@@ -61,7 +61,8 @@ export class UserRole extends cdktf.TerraformResource {
       terraformResourceType: 'datadog_user_role',
       terraformGeneratorMetadata: {
         providerName: 'datadog',
-        providerVersion: '3.79.0'
+        providerVersion: '3.79.0',
+        providerVersionConstraint: '3.79.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

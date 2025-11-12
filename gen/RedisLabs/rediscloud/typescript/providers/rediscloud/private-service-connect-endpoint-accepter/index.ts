@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/private_service_connect_endpoint_accepter
+// https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/private_service_connect_endpoint_accepter
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface PrivateServiceConnectEndpointAccepterConfig extends cdktf.Terra
   /**
   * Accept or reject the endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/private_service_connect_endpoint_accepter#action PrivateServiceConnectEndpointAccepter#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/private_service_connect_endpoint_accepter#action PrivateServiceConnectEndpointAccepter#action}
   */
   readonly action: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/private_service_connect_endpoint_accepter#id PrivateServiceConnectEndpointAccepter#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/private_service_connect_endpoint_accepter#id PrivateServiceConnectEndpointAccepter#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,43 +23,43 @@ export interface PrivateServiceConnectEndpointAccepterConfig extends cdktf.Terra
   /**
   * The ID of the Private Service Connect Endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/private_service_connect_endpoint_accepter#private_service_connect_endpoint_id PrivateServiceConnectEndpointAccepter#private_service_connect_endpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/private_service_connect_endpoint_accepter#private_service_connect_endpoint_id PrivateServiceConnectEndpointAccepter#private_service_connect_endpoint_id}
   */
   readonly privateServiceConnectEndpointId: number;
   /**
   * The ID of the Private Service Connect
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/private_service_connect_endpoint_accepter#private_service_connect_service_id PrivateServiceConnectEndpointAccepter#private_service_connect_service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/private_service_connect_endpoint_accepter#private_service_connect_service_id PrivateServiceConnectEndpointAccepter#private_service_connect_service_id}
   */
   readonly privateServiceConnectServiceId: number;
   /**
   * The ID of the Pro subscription to attach
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/private_service_connect_endpoint_accepter#subscription_id PrivateServiceConnectEndpointAccepter#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/private_service_connect_endpoint_accepter#subscription_id PrivateServiceConnectEndpointAccepter#subscription_id}
   */
   readonly subscriptionId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/private_service_connect_endpoint_accepter#timeouts PrivateServiceConnectEndpointAccepter#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/private_service_connect_endpoint_accepter#timeouts PrivateServiceConnectEndpointAccepter#timeouts}
   */
   readonly timeouts?: PrivateServiceConnectEndpointAccepterTimeouts;
 }
 export interface PrivateServiceConnectEndpointAccepterTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/private_service_connect_endpoint_accepter#create PrivateServiceConnectEndpointAccepter#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/private_service_connect_endpoint_accepter#create PrivateServiceConnectEndpointAccepter#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/private_service_connect_endpoint_accepter#delete PrivateServiceConnectEndpointAccepter#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/private_service_connect_endpoint_accepter#delete PrivateServiceConnectEndpointAccepter#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/private_service_connect_endpoint_accepter#read PrivateServiceConnectEndpointAccepter#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/private_service_connect_endpoint_accepter#read PrivateServiceConnectEndpointAccepter#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/private_service_connect_endpoint_accepter#update PrivateServiceConnectEndpointAccepter#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/private_service_connect_endpoint_accepter#update PrivateServiceConnectEndpointAccepter#update}
   */
   readonly update?: string;
 }
@@ -240,7 +240,7 @@ export class PrivateServiceConnectEndpointAccepterTimeoutsOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/private_service_connect_endpoint_accepter rediscloud_private_service_connect_endpoint_accepter}
+* Represents a {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/private_service_connect_endpoint_accepter rediscloud_private_service_connect_endpoint_accepter}
 */
 export class PrivateServiceConnectEndpointAccepter extends cdktf.TerraformResource {
 
@@ -256,7 +256,7 @@ export class PrivateServiceConnectEndpointAccepter extends cdktf.TerraformResour
   * Generates CDKTF code for importing a PrivateServiceConnectEndpointAccepter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PrivateServiceConnectEndpointAccepter to import
-  * @param importFromId The id of the existing PrivateServiceConnectEndpointAccepter that should be imported. Refer to the {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/private_service_connect_endpoint_accepter#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PrivateServiceConnectEndpointAccepter that should be imported. Refer to the {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/private_service_connect_endpoint_accepter#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PrivateServiceConnectEndpointAccepter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -268,7 +268,7 @@ export class PrivateServiceConnectEndpointAccepter extends cdktf.TerraformResour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/resources/private_service_connect_endpoint_accepter rediscloud_private_service_connect_endpoint_accepter} Resource
+  * Create a new {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/resources/private_service_connect_endpoint_accepter rediscloud_private_service_connect_endpoint_accepter} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -279,7 +279,8 @@ export class PrivateServiceConnectEndpointAccepter extends cdktf.TerraformResour
       terraformResourceType: 'rediscloud_private_service_connect_endpoint_accepter',
       terraformGeneratorMetadata: {
         providerName: 'rediscloud',
-        providerVersion: '2.7.3'
+        providerVersion: '2.8.0',
+        providerVersionConstraint: '2.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

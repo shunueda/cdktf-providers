@@ -116,7 +116,8 @@ export class DataUtilsComponentConfig extends cdktf.TerraformDataSource {
       terraformResourceType: 'utils_component_config',
       terraformGeneratorMetadata: {
         providerName: 'utils',
-        providerVersion: '1.31.0'
+        providerVersion: '1.31.0',
+        providerVersionConstraint: '1.31.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

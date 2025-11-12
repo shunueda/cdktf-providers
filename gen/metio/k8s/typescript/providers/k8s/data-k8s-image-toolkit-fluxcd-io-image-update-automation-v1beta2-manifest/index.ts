@@ -2292,7 +2292,8 @@ export class DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta2Manifest ext
       terraformResourceType: 'k8s_image_toolkit_fluxcd_io_image_update_automation_v1beta2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

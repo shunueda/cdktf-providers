@@ -244,7 +244,8 @@ export class BillingDomainMasterdata extends cdktf.TerraformResource {
       terraformResourceType: 'sci_billing_domain_masterdata',
       terraformGeneratorMetadata: {
         providerName: 'sci',
-        providerVersion: '2.2.1'
+        providerVersion: '2.2.1',
+        providerVersionConstraint: '2.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_interfaces_by_system
+// https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_interfaces_by_system
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataApstraDatacenterInterfacesBySystemConfig extends cdktf.Terr
   /**
   * Apstra Blueprint ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_interfaces_by_system#blueprint_id DataApstraDatacenterInterfacesBySystem#blueprint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_interfaces_by_system#blueprint_id DataApstraDatacenterInterfacesBySystem#blueprint_id}
   */
   readonly blueprintId: string;
   /**
   * Apstra System ID within the Blueprint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_interfaces_by_system#system_id DataApstraDatacenterInterfacesBySystem#system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_interfaces_by_system#system_id DataApstraDatacenterInterfacesBySystem#system_id}
   */
   readonly systemId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_interfaces_by_system apstra_datacenter_interfaces_by_system}
+* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_interfaces_by_system apstra_datacenter_interfaces_by_system}
 */
 export class DataApstraDatacenterInterfacesBySystem extends cdktf.TerraformDataSource {
 
@@ -38,7 +38,7 @@ export class DataApstraDatacenterInterfacesBySystem extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataApstraDatacenterInterfacesBySystem resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataApstraDatacenterInterfacesBySystem to import
-  * @param importFromId The id of the existing DataApstraDatacenterInterfacesBySystem that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_interfaces_by_system#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataApstraDatacenterInterfacesBySystem that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_interfaces_by_system#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataApstraDatacenterInterfacesBySystem to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class DataApstraDatacenterInterfacesBySystem extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_interfaces_by_system apstra_datacenter_interfaces_by_system} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_interfaces_by_system apstra_datacenter_interfaces_by_system} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,7 +61,8 @@ export class DataApstraDatacenterInterfacesBySystem extends cdktf.TerraformDataS
       terraformResourceType: 'apstra_datacenter_interfaces_by_system',
       terraformGeneratorMetadata: {
         providerName: 'apstra',
-        providerVersion: '0.95.0'
+        providerVersion: '0.95.1',
+        providerVersionConstraint: '0.95.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

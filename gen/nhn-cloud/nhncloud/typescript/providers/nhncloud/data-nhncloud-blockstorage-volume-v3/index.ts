@@ -84,7 +84,8 @@ export class DataNhncloudBlockstorageVolumeV3 extends cdktf.TerraformDataSource 
       terraformResourceType: 'nhncloud_blockstorage_volume_v3',
       terraformGeneratorMetadata: {
         providerName: 'nhncloud',
-        providerVersion: '1.0.6'
+        providerVersion: '1.0.6',
+        providerVersionConstraint: '1.0.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

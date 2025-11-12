@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_accounts_gcp
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_accounts_gcp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface ManagementCmeAccountsGcpConfig extends cdktf.TerraformMetaArgum
   /**
   * Base64 encoded string that represents the content of the credentials file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_accounts_gcp#credentials_data ManagementCmeAccountsGcp#credentials_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_accounts_gcp#credentials_data ManagementCmeAccountsGcp#credentials_data}
   */
   readonly credentialsData?: string;
   /**
   * The credentials file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_accounts_gcp#credentials_file ManagementCmeAccountsGcp#credentials_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_accounts_gcp#credentials_file ManagementCmeAccountsGcp#credentials_file}
   */
   readonly credentialsFile?: string;
   /**
   * The number of CME cycles to wait when the cloud provider does not return a GW until its deletion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_accounts_gcp#deletion_tolerance ManagementCmeAccountsGcp#deletion_tolerance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_accounts_gcp#deletion_tolerance ManagementCmeAccountsGcp#deletion_tolerance}
   */
   readonly deletionTolerance?: number;
   /**
   * The account's domain name in MDS environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_accounts_gcp#domain ManagementCmeAccountsGcp#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_accounts_gcp#domain ManagementCmeAccountsGcp#domain}
   */
   readonly domain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_accounts_gcp#id ManagementCmeAccountsGcp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_accounts_gcp#id ManagementCmeAccountsGcp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,19 +41,19 @@ export interface ManagementCmeAccountsGcpConfig extends cdktf.TerraformMetaArgum
   /**
   * The account name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_accounts_gcp#name ManagementCmeAccountsGcp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_accounts_gcp#name ManagementCmeAccountsGcp#name}
   */
   readonly name: string;
   /**
   * The project id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_accounts_gcp#project_id ManagementCmeAccountsGcp#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_accounts_gcp#project_id ManagementCmeAccountsGcp#project_id}
   */
   readonly projectId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_accounts_gcp checkpoint_management_cme_accounts_gcp}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_accounts_gcp checkpoint_management_cme_accounts_gcp}
 */
 export class ManagementCmeAccountsGcp extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class ManagementCmeAccountsGcp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementCmeAccountsGcp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementCmeAccountsGcp to import
-  * @param importFromId The id of the existing ManagementCmeAccountsGcp that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_accounts_gcp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementCmeAccountsGcp that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_accounts_gcp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementCmeAccountsGcp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class ManagementCmeAccountsGcp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_cme_accounts_gcp checkpoint_management_cme_accounts_gcp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_cme_accounts_gcp checkpoint_management_cme_accounts_gcp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,7 +92,8 @@ export class ManagementCmeAccountsGcp extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_cme_accounts_gcp',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

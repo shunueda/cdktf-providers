@@ -82,7 +82,8 @@ export class DataBloxoneIpamNextAvailableIps extends cdktf.TerraformDataSource {
       terraformResourceType: 'bloxone_ipam_next_available_ips',
       terraformGeneratorMetadata: {
         providerName: 'bloxone',
-        providerVersion: '1.5.3'
+        providerVersion: '1.5.3',
+        providerVersionConstraint: '1.5.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

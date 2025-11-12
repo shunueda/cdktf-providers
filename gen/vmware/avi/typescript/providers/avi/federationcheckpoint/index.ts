@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/federationcheckpoint
+// https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/federationcheckpoint
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktf from 'cdktf';
 
 export interface FederationcheckpointConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/federationcheckpoint#date Federationcheckpoint#date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/federationcheckpoint#date Federationcheckpoint#date}
   */
   readonly date?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/federationcheckpoint#description Federationcheckpoint#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/federationcheckpoint#description Federationcheckpoint#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/federationcheckpoint#id Federationcheckpoint#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/federationcheckpoint#id Federationcheckpoint#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/federationcheckpoint#is_federated Federationcheckpoint#is_federated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/federationcheckpoint#is_federated Federationcheckpoint#is_federated}
   */
   readonly isFederated?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/federationcheckpoint#name Federationcheckpoint#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/federationcheckpoint#name Federationcheckpoint#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/federationcheckpoint#tenant_ref Federationcheckpoint#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/federationcheckpoint#tenant_ref Federationcheckpoint#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/federationcheckpoint#uuid Federationcheckpoint#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/federationcheckpoint#uuid Federationcheckpoint#uuid}
   */
   readonly uuid?: string;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/federationcheckpoint#configpb_attributes Federationcheckpoint#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/federationcheckpoint#configpb_attributes Federationcheckpoint#configpb_attributes}
   */
   readonly configpbAttributes?: FederationcheckpointConfigpbAttributes[] | cdktf.IResolvable;
 }
 export interface FederationcheckpointConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/federationcheckpoint#version Federationcheckpoint#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/federationcheckpoint#version Federationcheckpoint#version}
   */
   readonly version?: string;
 }
@@ -163,7 +163,7 @@ export class FederationcheckpointConfigpbAttributesList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/federationcheckpoint avi_federationcheckpoint}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/federationcheckpoint avi_federationcheckpoint}
 */
 export class Federationcheckpoint extends cdktf.TerraformResource {
 
@@ -179,7 +179,7 @@ export class Federationcheckpoint extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Federationcheckpoint resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Federationcheckpoint to import
-  * @param importFromId The id of the existing Federationcheckpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/federationcheckpoint#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Federationcheckpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/federationcheckpoint#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Federationcheckpoint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -191,7 +191,7 @@ export class Federationcheckpoint extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/federationcheckpoint avi_federationcheckpoint} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/federationcheckpoint avi_federationcheckpoint} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -202,7 +202,8 @@ export class Federationcheckpoint extends cdktf.TerraformResource {
       terraformResourceType: 'avi_federationcheckpoint',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '31.1.1'
+        providerVersion: '30.2.5',
+        providerVersionConstraint: '30.2.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

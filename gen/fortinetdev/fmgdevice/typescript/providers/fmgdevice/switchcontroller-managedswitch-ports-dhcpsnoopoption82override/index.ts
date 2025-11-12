@@ -84,7 +84,8 @@ export class SwitchcontrollerManagedswitchPortsDhcpsnoopoption82Override extends
       terraformResourceType: 'fmgdevice_switchcontroller_managedswitch_ports_dhcpsnoopoption82override',
       terraformGeneratorMetadata: {
         providerName: 'fmgdevice',
-        providerVersion: '1.2.1'
+        providerVersion: '1.2.1',
+        providerVersionConstraint: '1.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -143,7 +143,8 @@ export class DataGithubOrganizationExternalIdentities extends cdktf.TerraformDat
       terraformResourceType: 'github_organization_external_identities',
       terraformGeneratorMetadata: {
         providerName: 'github',
-        providerVersion: '6.7.5'
+        providerVersion: '6.7.5',
+        providerVersionConstraint: '6.7.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

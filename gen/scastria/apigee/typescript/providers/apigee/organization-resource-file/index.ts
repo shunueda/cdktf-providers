@@ -72,7 +72,8 @@ export class OrganizationResourceFile extends cdktf.TerraformResource {
       terraformResourceType: 'apigee_organization_resource_file',
       terraformGeneratorMetadata: {
         providerName: 'apigee',
-        providerVersion: '0.1.53'
+        providerVersion: '0.1.53',
+        providerVersionConstraint: '0.1.53'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

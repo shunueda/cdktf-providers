@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.37/docs/resources/group
+// https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.38/docs/resources/group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface GroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of this IAM group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.37/docs/resources/group#description Group#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.38/docs/resources/group#description Group#description}
   */
   readonly description?: string;
   /**
   * Name of this IAM group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.37/docs/resources/group#name Group#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.38/docs/resources/group#name Group#name}
   */
   readonly name: string;
   /**
   * Parent IAM group of this group. If not set, this group is assumed to be a root group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.37/docs/resources/group#parent_id Group#parent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.38/docs/resources/group#parent_id Group#parent_id}
   */
   readonly parentId?: string;
   /**
   * Whether the organization has been verified by a Chainguardian. Only applicable to root groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.37/docs/resources/group#verified Group#verified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.38/docs/resources/group#verified Group#verified}
   */
   readonly verified?: boolean | cdktf.IResolvable;
   /**
   * Prevent the group from being unverified through Terraform. Null is treated as true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.37/docs/resources/group#verified_protection Group#verified_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.38/docs/resources/group#verified_protection Group#verified_protection}
   */
   readonly verifiedProtection?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.37/docs/resources/group chainguard_group}
+* Represents a {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.38/docs/resources/group chainguard_group}
 */
 export class Group extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class Group extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Group resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Group to import
-  * @param importFromId The id of the existing Group that should be imported. Refer to the {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.37/docs/resources/group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Group that should be imported. Refer to the {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.38/docs/resources/group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Group to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class Group extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.37/docs/resources/group chainguard_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.38/docs/resources/group chainguard_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,7 +79,8 @@ export class Group extends cdktf.TerraformResource {
       terraformResourceType: 'chainguard_group',
       terraformGeneratorMetadata: {
         providerName: 'chainguard',
-        providerVersion: '0.1.37'
+        providerVersion: '0.1.38',
+        providerVersionConstraint: '0.1.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

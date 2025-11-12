@@ -206,7 +206,8 @@ export class DataCloudflareEmailSecurityTrustedDomainsList extends cdktf.Terrafo
       terraformResourceType: 'cloudflare_email_security_trusted_domains_list',
       terraformGeneratorMetadata: {
         providerName: 'cloudflare',
-        providerVersion: '5.12.0'
+        providerVersion: '5.12.0',
+        providerVersionConstraint: '5.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -23,6 +23,7 @@ export * as cfwEipProtection from './cfw-eip-protection';
 export * as cfwProtectionRule from './cfw-protection-rule';
 export * as cfwServiceGroup from './cfw-service-group';
 export * as cfwServiceGroupMember from './cfw-service-group-member';
+export * as codeartsProject from './codearts-project';
 export * as csmsSecret from './csms-secret';
 export * as dcsBackup from './dcs-backup';
 export * as dcsInstance from './dcs-instance';

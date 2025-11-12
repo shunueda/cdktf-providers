@@ -60,7 +60,8 @@ export class DataCiscomcdProfileDiagnostics extends cdktf.TerraformDataSource {
       terraformResourceType: 'ciscomcd_profile_diagnostics',
       terraformGeneratorMetadata: {
         providerName: 'ciscomcd',
-        providerVersion: '25.9.2'
+        providerVersion: '25.9.2',
+        providerVersionConstraint: '25.9.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

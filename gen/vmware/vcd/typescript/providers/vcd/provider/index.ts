@@ -271,7 +271,8 @@ export class VcdProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'vcd',
       terraformGeneratorMetadata: {
         providerName: 'vcd',
-        providerVersion: '3.14.1'
+        providerVersion: '3.14.1',
+        providerVersionConstraint: '3.14.1'
       },
       terraformProviderSource: 'vmware/vcd'
     });

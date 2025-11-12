@@ -62,7 +62,8 @@ export class DataPacketfabricPortDeviceInfo extends cdktf.TerraformDataSource {
       terraformResourceType: 'packetfabric_port_device_info',
       terraformGeneratorMetadata: {
         providerName: 'packetfabric',
-        providerVersion: '1.9.3'
+        providerVersion: '1.9.3',
+        providerVersionConstraint: '1.9.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

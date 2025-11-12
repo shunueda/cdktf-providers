@@ -139,7 +139,8 @@ export class DataPingfederateKeypairsSigningKey extends cdktf.TerraformDataSourc
       terraformResourceType: 'pingfederate_keypairs_signing_key',
       terraformGeneratorMetadata: {
         providerName: 'pingfederate',
-        providerVersion: '1.6.2'
+        providerVersion: '1.6.2',
+        providerVersionConstraint: '1.6.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -80,7 +80,8 @@ export class DdosAnomalyDropSecurityAttackLayer3 extends cdktf.TerraformResource
       terraformResourceType: 'thunder_ddos_anomaly_drop_security_attack_layer_3',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

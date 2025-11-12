@@ -64,7 +64,8 @@ export class JobTemplateNotificationTemplateStarted extends cdktf.TerraformResou
       terraformResourceType: 'awx_job_template_notification_template_started',
       terraformGeneratorMetadata: {
         providerName: 'awx',
-        providerVersion: '0.29.1'
+        providerVersion: '0.29.1',
+        providerVersionConstraint: '0.29.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

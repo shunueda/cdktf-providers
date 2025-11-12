@@ -686,7 +686,8 @@ export class DataSnowflakeGitRepositories extends cdktf.TerraformDataSource {
       terraformResourceType: 'snowflake_git_repositories',
       terraformGeneratorMetadata: {
         providerName: 'snowflake',
-        providerVersion: '2.10.1'
+        providerVersion: '2.10.1',
+        providerVersionConstraint: '2.10.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

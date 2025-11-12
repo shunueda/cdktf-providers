@@ -86,7 +86,8 @@ export class DdosTemplateSslL4SslTrafficCheckA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_ddos_template_ssl_l4_ssl_traffic_check',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

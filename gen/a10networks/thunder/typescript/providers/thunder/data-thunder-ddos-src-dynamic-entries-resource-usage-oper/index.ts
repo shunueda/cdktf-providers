@@ -377,7 +377,8 @@ export class DataThunderDdosSrcDynamicEntriesResourceUsageOper extends cdktf.Ter
       terraformResourceType: 'thunder_ddos_src_dynamic_entries_resource_usage_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

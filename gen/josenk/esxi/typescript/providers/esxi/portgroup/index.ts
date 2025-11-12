@@ -92,7 +92,8 @@ export class Portgroup extends cdktf.TerraformResource {
       terraformResourceType: 'esxi_portgroup',
       terraformGeneratorMetadata: {
         providerName: 'esxi',
-        providerVersion: '1.10.3'
+        providerVersion: '1.10.3',
+        providerVersionConstraint: '1.10.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

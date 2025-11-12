@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs
+// https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,208 +11,208 @@ export interface OpenstackProviderConfig {
   * If set to `false`, OpenStack authorization won't be perfomed
   * automatically, if the initial auth token get expired. Defaults to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs#allow_reauth OpenstackProvider#allow_reauth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs#allow_reauth OpenstackProvider#allow_reauth}
   */
   readonly allowReauth?: boolean | cdktf.IResolvable;
   /**
   * Application Credential ID to login with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs#application_credential_id OpenstackProvider#application_credential_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs#application_credential_id OpenstackProvider#application_credential_id}
   */
   readonly applicationCredentialId?: string;
   /**
   * Application Credential name to login with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs#application_credential_name OpenstackProvider#application_credential_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs#application_credential_name OpenstackProvider#application_credential_name}
   */
   readonly applicationCredentialName?: string;
   /**
   * Application Credential secret to login with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs#application_credential_secret OpenstackProvider#application_credential_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs#application_credential_secret OpenstackProvider#application_credential_secret}
   */
   readonly applicationCredentialSecret?: string;
   /**
   * The Identity authentication URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs#auth_url OpenstackProvider#auth_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs#auth_url OpenstackProvider#auth_url}
   */
   readonly authUrl?: string;
   /**
   * A Custom CA certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs#cacert_file OpenstackProvider#cacert_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs#cacert_file OpenstackProvider#cacert_file}
   */
   readonly cacertFile?: string;
   /**
   * A client certificate to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs#cert OpenstackProvider#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs#cert OpenstackProvider#cert}
   */
   readonly cert?: string;
   /**
   * An entry in a `clouds.yaml` file to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs#cloud OpenstackProvider#cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs#cloud OpenstackProvider#cloud}
   */
   readonly cloud?: string;
   /**
   * The name of the Domain ID to scope to if no other domain is specified. Defaults to `default` (Identity v3).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs#default_domain OpenstackProvider#default_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs#default_domain OpenstackProvider#default_domain}
   */
   readonly defaultDomain?: string;
   /**
   * If set to `false`, OpenStack authorization will be perfomed,
   * every time the service provider client is called. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs#delayed_auth OpenstackProvider#delayed_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs#delayed_auth OpenstackProvider#delayed_auth}
   */
   readonly delayedAuth?: boolean | cdktf.IResolvable;
   /**
   * If set to `true`, the HTTP `Cache-Control: no-cache` header will not be added by default to all API requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs#disable_no_cache_header OpenstackProvider#disable_no_cache_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs#disable_no_cache_header OpenstackProvider#disable_no_cache_header}
   */
   readonly disableNoCacheHeader?: boolean | cdktf.IResolvable;
   /**
   * The ID of the Domain to scope to (Identity v3).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs#domain_id OpenstackProvider#domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs#domain_id OpenstackProvider#domain_id}
   */
   readonly domainId?: string;
   /**
   * The name of the Domain to scope to (Identity v3).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs#domain_name OpenstackProvider#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs#domain_name OpenstackProvider#domain_name}
   */
   readonly domainName?: string;
   /**
   * Outputs very verbose logs with all calls made to and responses from OpenStack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs#enable_logging OpenstackProvider#enable_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs#enable_logging OpenstackProvider#enable_logging}
   */
   readonly enableLogging?: boolean | cdktf.IResolvable;
   /**
   * A map of services with an endpoint to override what was
   * from the Keystone catalog
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs#endpoint_overrides OpenstackProvider#endpoint_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs#endpoint_overrides OpenstackProvider#endpoint_overrides}
   */
   readonly endpointOverrides?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs#endpoint_type OpenstackProvider#endpoint_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs#endpoint_type OpenstackProvider#endpoint_type}
   */
   readonly endpointType?: string;
   /**
   * Trust self-signed certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs#insecure OpenstackProvider#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs#insecure OpenstackProvider#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
   * A client private key to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs#key OpenstackProvider#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs#key OpenstackProvider#key}
   */
   readonly key?: string;
   /**
   * How many times HTTP connection should be retried until giving up.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs#max_retries OpenstackProvider#max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs#max_retries OpenstackProvider#max_retries}
   */
   readonly maxRetries?: number;
   /**
   * Password to login with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs#password OpenstackProvider#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs#password OpenstackProvider#password}
   */
   readonly password?: string;
   /**
   * The ID of the domain where the proejct resides (Identity v3).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs#project_domain_id OpenstackProvider#project_domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs#project_domain_id OpenstackProvider#project_domain_id}
   */
   readonly projectDomainId?: string;
   /**
   * The name of the domain where the project resides (Identity v3).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs#project_domain_name OpenstackProvider#project_domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs#project_domain_name OpenstackProvider#project_domain_name}
   */
   readonly projectDomainName?: string;
   /**
   * The OpenStack region to connect to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs#region OpenstackProvider#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs#region OpenstackProvider#region}
   */
   readonly region?: string;
   /**
   * Use Swift's authentication system instead of Keystone. Only used for
   * interaction with Swift.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs#swauth OpenstackProvider#swauth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs#swauth OpenstackProvider#swauth}
   */
   readonly swauth?: boolean | cdktf.IResolvable;
   /**
   * If set to `true`, system scoped authorization will be enabled. Defaults to `false` (Identity v3).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs#system_scope OpenstackProvider#system_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs#system_scope OpenstackProvider#system_scope}
   */
   readonly systemScope?: boolean | cdktf.IResolvable;
   /**
   * The ID of the Tenant (Identity v2) or Project (Identity v3)
   * to login with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs#tenant_id OpenstackProvider#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs#tenant_id OpenstackProvider#tenant_id}
   */
   readonly tenantId?: string;
   /**
   * The name of the Tenant (Identity v2) or Project (Identity v3)
   * to login with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs#tenant_name OpenstackProvider#tenant_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs#tenant_name OpenstackProvider#tenant_name}
   */
   readonly tenantName?: string;
   /**
   * Authentication token to use as an alternative to username/password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs#token OpenstackProvider#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs#token OpenstackProvider#token}
   */
   readonly token?: string;
   /**
   * The ID of the domain where the user resides (Identity v3).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs#user_domain_id OpenstackProvider#user_domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs#user_domain_id OpenstackProvider#user_domain_id}
   */
   readonly userDomainId?: string;
   /**
   * The name of the domain where the user resides (Identity v3).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs#user_domain_name OpenstackProvider#user_domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs#user_domain_name OpenstackProvider#user_domain_name}
   */
   readonly userDomainName?: string;
   /**
   * User ID to login with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs#user_id OpenstackProvider#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs#user_id OpenstackProvider#user_id}
   */
   readonly userId?: string;
   /**
   * Username to login with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs#user_name OpenstackProvider#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs#user_name OpenstackProvider#user_name}
   */
   readonly userName?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs#alias OpenstackProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs#alias OpenstackProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs openstack}
+* Represents a {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs openstack}
 */
 export class OpenstackProvider extends cdktf.TerraformProvider {
 
@@ -228,7 +228,7 @@ export class OpenstackProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a OpenstackProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OpenstackProvider to import
-  * @param importFromId The id of the existing OpenstackProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OpenstackProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OpenstackProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -240,7 +240,7 @@ export class OpenstackProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs openstack} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs openstack} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -251,7 +251,8 @@ export class OpenstackProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'openstack',
       terraformGeneratorMetadata: {
         providerName: 'openstack',
-        providerVersion: '3.3.2'
+        providerVersion: '3.4.0',
+        providerVersionConstraint: '3.4.0'
       },
       terraformProviderSource: 'terraform-provider-openstack/openstack'
     });

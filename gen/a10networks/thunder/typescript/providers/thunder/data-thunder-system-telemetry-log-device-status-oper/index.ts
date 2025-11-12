@@ -344,7 +344,8 @@ export class DataThunderSystemTelemetryLogDeviceStatusOper extends cdktf.Terrafo
       terraformResourceType: 'thunder_system_telemetry_log_device_status_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

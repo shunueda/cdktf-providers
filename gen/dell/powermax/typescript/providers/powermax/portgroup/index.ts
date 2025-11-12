@@ -210,7 +210,8 @@ export class Portgroup extends cdktf.TerraformResource {
       terraformResourceType: 'powermax_portgroup',
       terraformGeneratorMetadata: {
         providerName: 'powermax',
-        providerVersion: '1.0.3'
+        providerVersion: '1.0.3',
+        providerVersionConstraint: '1.0.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

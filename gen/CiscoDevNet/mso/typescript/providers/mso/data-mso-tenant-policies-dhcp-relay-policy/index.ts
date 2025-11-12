@@ -154,7 +154,8 @@ export class DataMsoTenantPoliciesDhcpRelayPolicy extends cdktf.TerraformDataSou
       terraformResourceType: 'mso_tenant_policies_dhcp_relay_policy',
       terraformGeneratorMetadata: {
         providerName: 'mso',
-        providerVersion: '1.6.0'
+        providerVersion: '1.6.0',
+        providerVersionConstraint: '1.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

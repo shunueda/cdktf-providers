@@ -86,7 +86,8 @@ export class DataBluecatIpv6Block extends cdktf.TerraformDataSource {
       terraformResourceType: 'bluecat_ipv6block',
       terraformGeneratorMetadata: {
         providerName: 'bluecat',
-        providerVersion: '2.2.0'
+        providerVersion: '2.2.0',
+        providerVersionConstraint: '2.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

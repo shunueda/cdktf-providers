@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.1/docs/resources/setting
+// https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.2/docs/resources/setting
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,49 +13,49 @@ export interface SettingConfig extends cdktf.TerraformMetaArguments {
   * When using a self hosted ClickHouse instance, this field should only be set when there is more than one replica and you are not using 'replicated' storage for user_directory.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.1/docs/resources/setting#cluster_name Setting#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.2/docs/resources/setting#cluster_name Setting#cluster_name}
   */
   readonly clusterName?: string;
   /**
   * Max Value for the setting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.1/docs/resources/setting#max Setting#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.2/docs/resources/setting#max Setting#max}
   */
   readonly max?: string;
   /**
   * Min Value for the setting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.1/docs/resources/setting#min Setting#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.2/docs/resources/setting#min Setting#min}
   */
   readonly min?: string;
   /**
   * Name of the setting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.1/docs/resources/setting#name Setting#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.2/docs/resources/setting#name Setting#name}
   */
   readonly name: string;
   /**
   * ID of the settings profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.1/docs/resources/setting#settings_profile_id Setting#settings_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.2/docs/resources/setting#settings_profile_id Setting#settings_profile_id}
   */
   readonly settingsProfileId: string;
   /**
   * Value for the setting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.1/docs/resources/setting#value Setting#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.2/docs/resources/setting#value Setting#value}
   */
   readonly value?: string;
   /**
   * Writability attribute for the setting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.1/docs/resources/setting#writability Setting#writability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.2/docs/resources/setting#writability Setting#writability}
   */
   readonly writability?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.1/docs/resources/setting clickhousedbops_setting}
+* Represents a {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.2/docs/resources/setting clickhousedbops_setting}
 */
 export class Setting extends cdktf.TerraformResource {
 
@@ -71,7 +71,7 @@ export class Setting extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Setting resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Setting to import
-  * @param importFromId The id of the existing Setting that should be imported. Refer to the {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.1/docs/resources/setting#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Setting that should be imported. Refer to the {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.2/docs/resources/setting#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Setting to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -83,7 +83,7 @@ export class Setting extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.1/docs/resources/setting clickhousedbops_setting} Resource
+  * Create a new {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.2/docs/resources/setting clickhousedbops_setting} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -94,7 +94,8 @@ export class Setting extends cdktf.TerraformResource {
       terraformResourceType: 'clickhousedbops_setting',
       terraformGeneratorMetadata: {
         providerName: 'clickhousedbops',
-        providerVersion: '1.3.1'
+        providerVersion: '1.3.2',
+        providerVersionConstraint: '1.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

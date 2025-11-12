@@ -2199,7 +2199,8 @@ export class DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest extends 
       terraformResourceType: 'k8s_cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -194,7 +194,8 @@ export class DomainAuthentication extends cdktf.TerraformResource {
       terraformResourceType: 'sendgrid_domain_authentication',
       terraformGeneratorMetadata: {
         providerName: 'sendgrid',
-        providerVersion: '1.1.2'
+        providerVersion: '1.1.2',
+        providerVersionConstraint: '1.1.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

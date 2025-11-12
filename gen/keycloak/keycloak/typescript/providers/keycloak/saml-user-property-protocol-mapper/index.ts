@@ -88,7 +88,8 @@ export class SamlUserPropertyProtocolMapper extends cdktf.TerraformResource {
       terraformResourceType: 'keycloak_saml_user_property_protocol_mapper',
       terraformGeneratorMetadata: {
         providerName: 'keycloak',
-        providerVersion: '5.5.0'
+        providerVersion: '5.5.0',
+        providerVersionConstraint: '5.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

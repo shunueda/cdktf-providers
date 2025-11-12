@@ -97,7 +97,8 @@ export class LaceworkProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'lacework',
       terraformGeneratorMetadata: {
         providerName: 'lacework',
-        providerVersion: '2.0.10'
+        providerVersion: '2.0.10',
+        providerVersionConstraint: '2.0.10'
       },
       terraformProviderSource: 'lacework/lacework'
     });

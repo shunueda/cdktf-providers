@@ -221,7 +221,8 @@ export class CcnRouteTableAssociateInstanceConfig extends cdktf.TerraformResourc
       terraformResourceType: 'tencentcloud_ccn_route_table_associate_instance_config',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

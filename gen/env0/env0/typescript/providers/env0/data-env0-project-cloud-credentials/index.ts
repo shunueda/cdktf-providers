@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/env0/env0/1.29.4/docs/data-sources/project_cloud_credentials
+// https://registry.terraform.io/providers/env0/env0/1.29.6/docs/data-sources/project_cloud_credentials
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataEnv0ProjectCloudCredentialsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/data-sources/project_cloud_credentials#id DataEnv0ProjectCloudCredentials#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/data-sources/project_cloud_credentials#id DataEnv0ProjectCloudCredentials#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataEnv0ProjectCloudCredentialsConfig extends cdktf.TerraformMe
   /**
   * the project id for listing the cloud credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/data-sources/project_cloud_credentials#project_id DataEnv0ProjectCloudCredentials#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/data-sources/project_cloud_credentials#project_id DataEnv0ProjectCloudCredentials#project_id}
   */
   readonly projectId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/data-sources/project_cloud_credentials env0_project_cloud_credentials}
+* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/data-sources/project_cloud_credentials env0_project_cloud_credentials}
 */
 export class DataEnv0ProjectCloudCredentials extends cdktf.TerraformDataSource {
 
@@ -39,7 +39,7 @@ export class DataEnv0ProjectCloudCredentials extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataEnv0ProjectCloudCredentials resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataEnv0ProjectCloudCredentials to import
-  * @param importFromId The id of the existing DataEnv0ProjectCloudCredentials that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/data-sources/project_cloud_credentials#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataEnv0ProjectCloudCredentials that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/data-sources/project_cloud_credentials#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataEnv0ProjectCloudCredentials to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -51,7 +51,7 @@ export class DataEnv0ProjectCloudCredentials extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/data-sources/project_cloud_credentials env0_project_cloud_credentials} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/data-sources/project_cloud_credentials env0_project_cloud_credentials} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -62,7 +62,8 @@ export class DataEnv0ProjectCloudCredentials extends cdktf.TerraformDataSource {
       terraformResourceType: 'env0_project_cloud_credentials',
       terraformGeneratorMetadata: {
         providerName: 'env0',
-        providerVersion: '1.29.4'
+        providerVersion: '1.29.6',
+        providerVersionConstraint: '1.29.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

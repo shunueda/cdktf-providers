@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/data-sources/gcp_permissions
+// https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/data-sources/gcp_permissions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,22 +8,27 @@ import * as cdktf from 'cdktf';
 
 export interface DataPolarisGcpPermissionsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Enabled features.
+  * RSC feature. Note that the feature must be given in the `EXAMPLE_FEATURE_NAME` style. Possible values are `CLOUD_NATIVE_ARCHIVAL`, `CLOUD_NATIVE_PROTECTION`, `GCP_SHARED_VPC_HOST` and `EXOCOMPUTE`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/data-sources/gcp_permissions#features DataPolarisGcpPermissions#features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/data-sources/gcp_permissions#feature DataPolarisGcpPermissions#feature}
   */
-  readonly features: string[];
+  readonly feature?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/data-sources/gcp_permissions#id DataPolarisGcpPermissions#id}
+  * RSC features. Possible values are `CLOUD_NATIVE_ARCHIVAL`, `CLOUD_NATIVE_PROTECTION`, `GCP_SHARED_VPC_HOST` and `EXOCOMPUTE`. **Deprecated:** use `feature` instead.
   *
-  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
-  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/data-sources/gcp_permissions#features DataPolarisGcpPermissions#features}
   */
-  readonly id?: string;
+  readonly features?: string[];
+  /**
+  * Permission groups for the RSC feature. Possible values are `BASIC`, `ENCRYPTION`, `EXPORT_AND_RESTORE` and `FILE_LEVEL_RECOVERY`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/data-sources/gcp_permissions#permission_groups DataPolarisGcpPermissions#permission_groups}
+  */
+  readonly permissionGroups?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/data-sources/gcp_permissions polaris_gcp_permissions}
+* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/data-sources/gcp_permissions polaris_gcp_permissions}
 */
 export class DataPolarisGcpPermissions extends cdktf.TerraformDataSource {
 
@@ -39,7 +44,7 @@ export class DataPolarisGcpPermissions extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataPolarisGcpPermissions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataPolarisGcpPermissions to import
-  * @param importFromId The id of the existing DataPolarisGcpPermissions that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/data-sources/gcp_permissions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataPolarisGcpPermissions that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/data-sources/gcp_permissions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataPolarisGcpPermissions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -51,18 +56,19 @@ export class DataPolarisGcpPermissions extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/data-sources/gcp_permissions polaris_gcp_permissions} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/data-sources/gcp_permissions polaris_gcp_permissions} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
-  * @param options DataPolarisGcpPermissionsConfig
+  * @param options DataPolarisGcpPermissionsConfig = {}
   */
-  public constructor(scope: Construct, id: string, config: DataPolarisGcpPermissionsConfig) {
+  public constructor(scope: Construct, id: string, config: DataPolarisGcpPermissionsConfig = {}) {
     super(scope, id, {
       terraformResourceType: 'polaris_gcp_permissions',
       terraformGeneratorMetadata: {
         providerName: 'polaris',
-        providerVersion: '1.2.1'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -72,21 +78,46 @@ export class DataPolarisGcpPermissions extends cdktf.TerraformDataSource {
       connection: config.connection,
       forEach: config.forEach
     });
+    this._feature = config.feature;
     this._features = config.features;
-    this._id = config.id;
+    this._permissionGroups = config.permissionGroups;
   }
 
   // ==========
   // ATTRIBUTES
   // ==========
 
-  // features - computed: false, optional: false, required: true
+  // conditions - computed: true, optional: false, required: false
+  public get conditions() {
+    return cdktf.Fn.tolist(this.getListAttribute('conditions'));
+  }
+
+  // feature - computed: false, optional: true, required: false
+  private _feature?: string; 
+  public get feature() {
+    return this.getStringAttribute('feature');
+  }
+  public set feature(value: string) {
+    this._feature = value;
+  }
+  public resetFeature() {
+    this._feature = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get featureInput() {
+    return this._feature;
+  }
+
+  // features - computed: false, optional: true, required: false
   private _features?: string[]; 
   public get features() {
     return cdktf.Fn.tolist(this.getListAttribute('features'));
   }
   public set features(value: string[]) {
     this._features = value;
+  }
+  public resetFeatures() {
+    this._features = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get featuresInput() {
@@ -98,25 +129,45 @@ export class DataPolarisGcpPermissions extends cdktf.TerraformDataSource {
     return this.getStringAttribute('hash');
   }
 
-  // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  // id - computed: true, optional: false, required: false
   public get id() {
     return this.getStringAttribute('id');
   }
-  public set id(value: string) {
-    this._id = value;
+
+  // permission_groups - computed: false, optional: true, required: false
+  private _permissionGroups?: string[]; 
+  public get permissionGroups() {
+    return cdktf.Fn.tolist(this.getListAttribute('permission_groups'));
   }
-  public resetId() {
-    this._id = undefined;
+  public set permissionGroups(value: string[]) {
+    this._permissionGroups = value;
+  }
+  public resetPermissionGroups() {
+    this._permissionGroups = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get idInput() {
-    return this._id;
+  public get permissionGroupsInput() {
+    return this._permissionGroups;
   }
 
   // permissions - computed: true, optional: false, required: false
   public get permissions() {
     return this.getListAttribute('permissions');
+  }
+
+  // services - computed: true, optional: false, required: false
+  public get services() {
+    return cdktf.Fn.tolist(this.getListAttribute('services'));
+  }
+
+  // with_conditions - computed: true, optional: false, required: false
+  public get withConditions() {
+    return cdktf.Fn.tolist(this.getListAttribute('with_conditions'));
+  }
+
+  // without_conditions - computed: true, optional: false, required: false
+  public get withoutConditions() {
+    return cdktf.Fn.tolist(this.getListAttribute('without_conditions'));
   }
 
   // =========
@@ -125,24 +176,31 @@ export class DataPolarisGcpPermissions extends cdktf.TerraformDataSource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      feature: cdktf.stringToTerraform(this._feature),
       features: cdktf.listMapper(cdktf.stringToTerraform, false)(this._features),
-      id: cdktf.stringToTerraform(this._id),
+      permission_groups: cdktf.listMapper(cdktf.stringToTerraform, false)(this._permissionGroups),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
+      feature: {
+        value: cdktf.stringToHclTerraform(this._feature),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       features: {
         value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._features),
         isBlock: false,
         type: "set",
         storageClassType: "stringList",
       },
-      id: {
-        value: cdktf.stringToHclTerraform(this._id),
+      permission_groups: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._permissionGroups),
         isBlock: false,
-        type: "simple",
-        storageClassType: "string",
+        type: "set",
+        storageClassType: "stringList",
       },
     };
 

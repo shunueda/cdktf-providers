@@ -67,7 +67,8 @@ export class Group extends cdktf.TerraformResource {
       terraformResourceType: 'project_group',
       terraformGeneratorMetadata: {
         providerName: 'project',
-        providerVersion: '1.9.5'
+        providerVersion: '1.9.5',
+        providerVersionConstraint: '1.9.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

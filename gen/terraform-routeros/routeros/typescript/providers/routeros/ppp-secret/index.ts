@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ppp_secret
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ppp_secret
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface PppSecretConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ppp_secret#___path___ PppSecret#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ppp_secret#___path___ PppSecret#___path___}
   */
   readonly path?: string;
   /**
   * For PPTP and L2TP it is the IP address a client must connect from. For PPPoE it is the MAC address (written in CAPITAL letters) a client must  connect from. For ISDN it is the caller's number (that may or may not be  provided by the operator) the client may dial-in from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ppp_secret#caller_id PppSecret#caller_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ppp_secret#caller_id PppSecret#caller_id}
   */
   readonly callerId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ppp_secret#comment PppSecret#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ppp_secret#comment PppSecret#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ppp_secret#disabled PppSecret#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ppp_secret#disabled PppSecret#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ppp_secret#id PppSecret#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ppp_secret#id PppSecret#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -37,73 +37,73 @@ export interface PppSecretConfig extends cdktf.TerraformMetaArguments {
   /**
   * IPv6 routes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ppp_secret#ipv6_routes PppSecret#ipv6_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ppp_secret#ipv6_routes PppSecret#ipv6_routes}
   */
   readonly ipv6Routes?: string[];
   /**
   * Maximal amount of bytes for a session that client can upload.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ppp_secret#limit_bytes_in PppSecret#limit_bytes_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ppp_secret#limit_bytes_in PppSecret#limit_bytes_in}
   */
   readonly limitBytesIn?: number;
   /**
   * Maximal amount of bytes for a session that client can download.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ppp_secret#limit_bytes_out PppSecret#limit_bytes_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ppp_secret#limit_bytes_out PppSecret#limit_bytes_out}
   */
   readonly limitBytesOut?: number;
   /**
   * IP address that will be set locally on ppp interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ppp_secret#local_address PppSecret#local_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ppp_secret#local_address PppSecret#local_address}
   */
   readonly localAddress?: string;
   /**
   * Name used for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ppp_secret#name PppSecret#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ppp_secret#name PppSecret#name}
   */
   readonly name: string;
   /**
   * Password used for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ppp_secret#password PppSecret#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ppp_secret#password PppSecret#password}
   */
   readonly password?: string;
   /**
   * Which user profile to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ppp_secret#profile PppSecret#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ppp_secret#profile PppSecret#profile}
   */
   readonly profile?: string;
   /**
   * IP address that will be assigned to remote ppp interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ppp_secret#remote_address PppSecret#remote_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ppp_secret#remote_address PppSecret#remote_address}
   */
   readonly remoteAddress?: string;
   /**
   * IPv6 prefix assigned to ppp client. Prefix is added to ND prefix list enabling stateless address auto-configuration on ppp interface.Available starting from v5.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ppp_secret#remote_ipv6_prefix PppSecret#remote_ipv6_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ppp_secret#remote_ipv6_prefix PppSecret#remote_ipv6_prefix}
   */
   readonly remoteIpv6Prefix?: string;
   /**
   * Routes  that appear on the server when the client is connected. The route  format is: dst-address gateway metric (for example, 10.1.0.0/ 24  10.0.0.1 1). Other syntax is not acceptable since it can be represented  in incorrect way. Several routes may be specified separated with commas.  This parameter will be ignored for OpenVPN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ppp_secret#routes PppSecret#routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ppp_secret#routes PppSecret#routes}
   */
   readonly routes?: string[];
   /**
   * Specifies the services that particular user will be able to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ppp_secret#service PppSecret#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ppp_secret#service PppSecret#service}
   */
   readonly service?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ppp_secret routeros_ppp_secret}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ppp_secret routeros_ppp_secret}
 */
 export class PppSecret extends cdktf.TerraformResource {
 
@@ -119,7 +119,7 @@ export class PppSecret extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PppSecret resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PppSecret to import
-  * @param importFromId The id of the existing PppSecret that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ppp_secret#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PppSecret that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ppp_secret#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PppSecret to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -131,7 +131,7 @@ export class PppSecret extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ppp_secret routeros_ppp_secret} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ppp_secret routeros_ppp_secret} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -142,7 +142,8 @@ export class PppSecret extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_ppp_secret',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.90.0'
+        providerVersion: '1.91.0',
+        providerVersionConstraint: '1.91.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1005,7 +1005,8 @@ export class ComputeInstanceV2 extends cdktf.TerraformResource {
       terraformResourceType: 'ecl_compute_instance_v2',
       terraformGeneratorMetadata: {
         providerName: 'ecl',
-        providerVersion: '2.12.1'
+        providerVersion: '2.12.1',
+        providerVersionConstraint: '2.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

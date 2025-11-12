@@ -121,7 +121,8 @@ export class EtcdProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'etcd',
       terraformGeneratorMetadata: {
         providerName: 'etcd',
-        providerVersion: '0.11.0'
+        providerVersion: '0.11.0',
+        providerVersionConstraint: '0.11.0'
       },
       terraformProviderSource: 'Ferlab-Ste-Justine/etcd'
     });

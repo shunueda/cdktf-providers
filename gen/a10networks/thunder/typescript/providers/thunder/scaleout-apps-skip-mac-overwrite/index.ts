@@ -68,7 +68,8 @@ export class ScaleoutAppsSkipMacOverwriteA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_scaleout_apps_skip_mac_overwrite',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

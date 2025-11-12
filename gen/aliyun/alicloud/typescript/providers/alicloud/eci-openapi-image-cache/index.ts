@@ -380,7 +380,8 @@ export class EciOpenapiImageCache extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_eci_openapi_image_cache',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -250,7 +250,8 @@ export class DatabaseAutonomousDatabaseSaasAdminUser extends cdktf.TerraformReso
       terraformResourceType: 'oci_database_autonomous_database_saas_admin_user',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

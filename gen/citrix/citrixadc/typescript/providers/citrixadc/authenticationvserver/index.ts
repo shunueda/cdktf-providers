@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationvserver
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationvserver
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,80 +8,76 @@ import * as cdktf from 'cdktf';
 
 export interface AuthenticationvserverConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationvserver#appflowlog Authenticationvserver#appflowlog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationvserver#appflowlog Authenticationvserver#appflowlog}
   */
   readonly appflowlog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationvserver#authentication Authenticationvserver#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationvserver#authentication Authenticationvserver#authentication}
   */
   readonly authentication?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationvserver#authenticationdomain Authenticationvserver#authenticationdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationvserver#authenticationdomain Authenticationvserver#authenticationdomain}
   */
   readonly authenticationdomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationvserver#certkeynames Authenticationvserver#certkeynames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationvserver#certkeynames Authenticationvserver#certkeynames}
   */
   readonly certkeynames?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationvserver#comment Authenticationvserver#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationvserver#comment Authenticationvserver#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationvserver#failedlogintimeout Authenticationvserver#failedlogintimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationvserver#failedlogintimeout Authenticationvserver#failedlogintimeout}
   */
   readonly failedlogintimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationvserver#id Authenticationvserver#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationvserver#id Authenticationvserver#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationvserver#ipv46 Authenticationvserver#ipv46}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationvserver#ipv46 Authenticationvserver#ipv46}
   */
   readonly ipv46?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationvserver#maxloginattempts Authenticationvserver#maxloginattempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationvserver#maxloginattempts Authenticationvserver#maxloginattempts}
   */
   readonly maxloginattempts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationvserver#name Authenticationvserver#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationvserver#name Authenticationvserver#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationvserver#newname Authenticationvserver#newname}
-  */
-  readonly newname?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationvserver#port Authenticationvserver#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationvserver#port Authenticationvserver#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationvserver#range Authenticationvserver#range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationvserver#range Authenticationvserver#range}
   */
   readonly range?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationvserver#samesite Authenticationvserver#samesite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationvserver#samesite Authenticationvserver#samesite}
   */
   readonly samesite?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationvserver#servicetype Authenticationvserver#servicetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationvserver#servicetype Authenticationvserver#servicetype}
   */
   readonly servicetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationvserver#state Authenticationvserver#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationvserver#state Authenticationvserver#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationvserver#td Authenticationvserver#td}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationvserver#td Authenticationvserver#td}
   */
   readonly td?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationvserver citrixadc_authenticationvserver}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationvserver citrixadc_authenticationvserver}
 */
 export class Authenticationvserver extends cdktf.TerraformResource {
 
@@ -97,7 +93,7 @@ export class Authenticationvserver extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Authenticationvserver resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Authenticationvserver to import
-  * @param importFromId The id of the existing Authenticationvserver that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationvserver#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Authenticationvserver that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationvserver#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Authenticationvserver to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -109,7 +105,7 @@ export class Authenticationvserver extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/authenticationvserver citrixadc_authenticationvserver} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationvserver citrixadc_authenticationvserver} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -120,7 +116,8 @@ export class Authenticationvserver extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_authenticationvserver',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -140,7 +137,6 @@ export class Authenticationvserver extends cdktf.TerraformResource {
     this._ipv46 = config.ipv46;
     this._maxloginattempts = config.maxloginattempts;
     this._name = config.name;
-    this._newname = config.newname;
     this._port = config.port;
     this._range = config.range;
     this._samesite = config.samesite;
@@ -310,22 +306,6 @@ export class Authenticationvserver extends cdktf.TerraformResource {
     return this._name;
   }
 
-  // newname - computed: true, optional: true, required: false
-  private _newname?: string; 
-  public get newname() {
-    return this.getStringAttribute('newname');
-  }
-  public set newname(value: string) {
-    this._newname = value;
-  }
-  public resetNewname() {
-    this._newname = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get newnameInput() {
-    return this._newname;
-  }
-
   // port - computed: true, optional: true, required: false
   private _port?: number; 
   public get port() {
@@ -438,7 +418,6 @@ export class Authenticationvserver extends cdktf.TerraformResource {
       ipv46: cdktf.stringToTerraform(this._ipv46),
       maxloginattempts: cdktf.numberToTerraform(this._maxloginattempts),
       name: cdktf.stringToTerraform(this._name),
-      newname: cdktf.stringToTerraform(this._newname),
       port: cdktf.numberToTerraform(this._port),
       range: cdktf.numberToTerraform(this._range),
       samesite: cdktf.stringToTerraform(this._samesite),
@@ -506,12 +485,6 @@ export class Authenticationvserver extends cdktf.TerraformResource {
       },
       name: {
         value: cdktf.stringToHclTerraform(this._name),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
-      newname: {
-        value: cdktf.stringToHclTerraform(this._newname),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

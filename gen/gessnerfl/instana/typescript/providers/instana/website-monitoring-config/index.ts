@@ -62,7 +62,8 @@ export class WebsiteMonitoringConfig extends cdktf.TerraformResource {
       terraformResourceType: 'instana_website_monitoring_config',
       terraformGeneratorMetadata: {
         providerName: 'instana',
-        providerVersion: '3.0.0'
+        providerVersion: '3.0.0',
+        providerVersionConstraint: '3.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -55,7 +55,8 @@ export class GitProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'git',
       terraformGeneratorMetadata: {
         providerName: 'git',
-        providerVersion: '2025.10.31'
+        providerVersion: '2025.10.31',
+        providerVersionConstraint: '2025.10.31'
       },
       terraformProviderSource: 'metio/git'
     });

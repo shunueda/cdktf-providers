@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/hanode
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/hanode
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,68 +8,72 @@ import * as cdktf from 'cdktf';
 
 export interface HanodeConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/hanode#deadinterval Hanode#deadinterval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/hanode#deadinterval Hanode#deadinterval}
   */
   readonly deadinterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/hanode#failsafe Hanode#failsafe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/hanode#failsafe Hanode#failsafe}
   */
   readonly failsafe?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/hanode#hanode_id Hanode#hanode_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/hanode#hanode_id Hanode#hanode_id}
   */
   readonly hanodeId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/hanode#haprop Hanode#haprop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/hanode#haprop Hanode#haprop}
   */
   readonly haprop?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/hanode#hastatus Hanode#hastatus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/hanode#hastatus Hanode#hastatus}
   */
   readonly hastatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/hanode#hasync Hanode#hasync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/hanode#hasync Hanode#hasync}
   */
   readonly hasync?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/hanode#hellointerval Hanode#hellointerval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/hanode#hellointerval Hanode#hellointerval}
   */
   readonly hellointerval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/hanode#id Hanode#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/hanode#id Hanode#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/hanode#inc Hanode#inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/hanode#inc Hanode#inc}
   */
   readonly inc?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/hanode#ipaddress Hanode#ipaddress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/hanode#ipaddress Hanode#ipaddress}
   */
   readonly ipaddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/hanode#maxflips Hanode#maxflips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/hanode#maxflips Hanode#maxflips}
   */
   readonly maxflips?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/hanode#maxfliptime Hanode#maxfliptime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/hanode#maxfliptime Hanode#maxfliptime}
   */
   readonly maxfliptime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/hanode#syncstatusstrictmode Hanode#syncstatusstrictmode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/hanode#rpcnodepassword Hanode#rpcnodepassword}
+  */
+  readonly rpcnodepassword?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/hanode#syncstatusstrictmode Hanode#syncstatusstrictmode}
   */
   readonly syncstatusstrictmode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/hanode#syncvlan Hanode#syncvlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/hanode#syncvlan Hanode#syncvlan}
   */
   readonly syncvlan?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/hanode citrixadc_hanode}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/hanode citrixadc_hanode}
 */
 export class Hanode extends cdktf.TerraformResource {
 
@@ -85,7 +89,7 @@ export class Hanode extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Hanode resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Hanode to import
-  * @param importFromId The id of the existing Hanode that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/hanode#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Hanode that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/hanode#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Hanode to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -97,7 +101,7 @@ export class Hanode extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/hanode citrixadc_hanode} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/hanode citrixadc_hanode} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -108,7 +112,8 @@ export class Hanode extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_hanode',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -130,6 +135,7 @@ export class Hanode extends cdktf.TerraformResource {
     this._ipaddress = config.ipaddress;
     this._maxflips = config.maxflips;
     this._maxfliptime = config.maxfliptime;
+    this._rpcnodepassword = config.rpcnodepassword;
     this._syncstatusstrictmode = config.syncstatusstrictmode;
     this._syncvlan = config.syncvlan;
   }
@@ -327,6 +333,22 @@ export class Hanode extends cdktf.TerraformResource {
     return this._maxfliptime;
   }
 
+  // rpcnodepassword - computed: true, optional: true, required: false
+  private _rpcnodepassword?: string; 
+  public get rpcnodepassword() {
+    return this.getStringAttribute('rpcnodepassword');
+  }
+  public set rpcnodepassword(value: string) {
+    this._rpcnodepassword = value;
+  }
+  public resetRpcnodepassword() {
+    this._rpcnodepassword = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get rpcnodepasswordInput() {
+    return this._rpcnodepassword;
+  }
+
   // syncstatusstrictmode - computed: true, optional: true, required: false
   private _syncstatusstrictmode?: string; 
   public get syncstatusstrictmode() {
@@ -377,6 +399,7 @@ export class Hanode extends cdktf.TerraformResource {
       ipaddress: cdktf.stringToTerraform(this._ipaddress),
       maxflips: cdktf.numberToTerraform(this._maxflips),
       maxfliptime: cdktf.numberToTerraform(this._maxfliptime),
+      rpcnodepassword: cdktf.stringToTerraform(this._rpcnodepassword),
       syncstatusstrictmode: cdktf.stringToTerraform(this._syncstatusstrictmode),
       syncvlan: cdktf.numberToTerraform(this._syncvlan),
     };
@@ -455,6 +478,12 @@ export class Hanode extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "number",
+      },
+      rpcnodepassword: {
+        value: cdktf.stringToHclTerraform(this._rpcnodepassword),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
       syncstatusstrictmode: {
         value: cdktf.stringToHclTerraform(this._syncstatusstrictmode),

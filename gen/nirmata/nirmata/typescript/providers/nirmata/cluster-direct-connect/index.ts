@@ -68,7 +68,8 @@ export class ClusterDirectConnect extends cdktf.TerraformResource {
       terraformResourceType: 'nirmata_cluster_direct_connect',
       terraformGeneratorMetadata: {
         providerName: 'nirmata',
-        providerVersion: '1.1.13'
+        providerVersion: '1.1.13',
+        providerVersionConstraint: '1.1.13'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

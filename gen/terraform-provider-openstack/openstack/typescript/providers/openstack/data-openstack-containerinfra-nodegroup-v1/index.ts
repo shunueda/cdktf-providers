@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/containerinfra_nodegroup_v1
+// https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/containerinfra_nodegroup_v1
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,28 @@ import * as cdktf from 'cdktf';
 
 export interface DataOpenstackContainerinfraNodegroupV1Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/containerinfra_nodegroup_v1#cluster_id DataOpenstackContainerinfraNodegroupV1#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/containerinfra_nodegroup_v1#cluster_id DataOpenstackContainerinfraNodegroupV1#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/containerinfra_nodegroup_v1#id DataOpenstackContainerinfraNodegroupV1#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/containerinfra_nodegroup_v1#id DataOpenstackContainerinfraNodegroupV1#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/containerinfra_nodegroup_v1#name DataOpenstackContainerinfraNodegroupV1#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/containerinfra_nodegroup_v1#name DataOpenstackContainerinfraNodegroupV1#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/containerinfra_nodegroup_v1#region DataOpenstackContainerinfraNodegroupV1#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/containerinfra_nodegroup_v1#region DataOpenstackContainerinfraNodegroupV1#region}
   */
   readonly region?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/containerinfra_nodegroup_v1 openstack_containerinfra_nodegroup_v1}
+* Represents a {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/containerinfra_nodegroup_v1 openstack_containerinfra_nodegroup_v1}
 */
 export class DataOpenstackContainerinfraNodegroupV1 extends cdktf.TerraformDataSource {
 
@@ -45,7 +45,7 @@ export class DataOpenstackContainerinfraNodegroupV1 extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataOpenstackContainerinfraNodegroupV1 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOpenstackContainerinfraNodegroupV1 to import
-  * @param importFromId The id of the existing DataOpenstackContainerinfraNodegroupV1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/containerinfra_nodegroup_v1#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOpenstackContainerinfraNodegroupV1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/containerinfra_nodegroup_v1#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOpenstackContainerinfraNodegroupV1 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class DataOpenstackContainerinfraNodegroupV1 extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/containerinfra_nodegroup_v1 openstack_containerinfra_nodegroup_v1} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/containerinfra_nodegroup_v1 openstack_containerinfra_nodegroup_v1} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,7 +68,8 @@ export class DataOpenstackContainerinfraNodegroupV1 extends cdktf.TerraformDataS
       terraformResourceType: 'openstack_containerinfra_nodegroup_v1',
       terraformGeneratorMetadata: {
         providerName: 'openstack',
-        providerVersion: '3.3.2'
+        providerVersion: '3.4.0',
+        providerVersionConstraint: '3.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

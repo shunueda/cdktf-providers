@@ -602,7 +602,8 @@ export class DataEclMlbLoadBalancerV1 extends cdktf.TerraformDataSource {
       terraformResourceType: 'ecl_mlb_load_balancer_v1',
       terraformGeneratorMetadata: {
         providerName: 'ecl',
-        providerVersion: '2.12.1'
+        providerVersion: '2.12.1',
+        providerVersionConstraint: '2.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

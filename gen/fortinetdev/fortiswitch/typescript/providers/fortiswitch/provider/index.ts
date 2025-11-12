@@ -119,7 +119,8 @@ export class FortiswitchProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'fortiswitch',
       terraformGeneratorMetadata: {
         providerName: 'fortiswitch',
-        providerVersion: '1.1.6'
+        providerVersion: '1.1.6',
+        providerVersionConstraint: '1.1.6'
       },
       terraformProviderSource: 'fortinetdev/fortiswitch'
     });

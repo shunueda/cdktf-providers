@@ -137,7 +137,8 @@ export class DataFastlyNgwafAlertPagerdutyIntegration extends cdktf.TerraformDat
       terraformResourceType: 'fastly_ngwaf_alert_pagerduty_integration',
       terraformGeneratorMetadata: {
         providerName: 'fastly',
-        providerVersion: '8.4.0'
+        providerVersion: '8.4.0',
+        providerVersionConstraint: '8.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

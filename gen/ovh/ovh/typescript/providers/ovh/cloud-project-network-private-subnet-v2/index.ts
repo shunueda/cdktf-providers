@@ -414,7 +414,8 @@ export class CloudProjectNetworkPrivateSubnetV2 extends cdktf.TerraformResource 
       terraformResourceType: 'ovh_cloud_project_network_private_subnet_v2',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0'
+        providerVersion: '2.9.0',
+        providerVersionConstraint: '2.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

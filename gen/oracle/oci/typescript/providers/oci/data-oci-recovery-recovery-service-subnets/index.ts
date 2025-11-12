@@ -473,7 +473,8 @@ export class DataOciRecoveryRecoveryServiceSubnets extends cdktf.TerraformDataSo
       terraformResourceType: 'oci_recovery_recovery_service_subnets',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

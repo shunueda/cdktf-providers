@@ -377,7 +377,8 @@ export class DdosDstEntrySrcDstPairSettings extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_ddos_dst_entry_src_dst_pair_settings',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -684,7 +684,8 @@ export class Cluster extends cdktf.TerraformResource {
       terraformResourceType: 'k0s_cluster',
       terraformGeneratorMetadata: {
         providerName: 'k0s',
-        providerVersion: '0.2.2'
+        providerVersion: '0.2.2',
+        providerVersionConstraint: '0.2.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

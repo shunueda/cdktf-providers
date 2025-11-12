@@ -650,7 +650,8 @@ export class ServicehookStorageQueuePipelines extends cdktf.TerraformResource {
       terraformResourceType: 'azuredevops_servicehook_storage_queue_pipelines',
       terraformGeneratorMetadata: {
         providerName: 'azuredevops',
-        providerVersion: '1.11.2'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -667,7 +667,8 @@ export class DataK8SSriovnetworkOpenshiftIoSriovOperatorConfigV1Manifest extends
       terraformResourceType: 'k8s_sriovnetwork_openshift_io_sriov_operator_config_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

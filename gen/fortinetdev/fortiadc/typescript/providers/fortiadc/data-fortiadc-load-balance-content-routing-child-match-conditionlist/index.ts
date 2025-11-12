@@ -68,7 +68,8 @@ export class DataFortiadcLoadBalanceContentRoutingChildMatchConditionlist extend
       terraformResourceType: 'fortiadc_load_balance_content_routing_child_match_conditionlist',
       terraformGeneratorMetadata: {
         providerName: 'fortiadc',
-        providerVersion: '1.3.1'
+        providerVersion: '1.3.1',
+        providerVersionConstraint: '1.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -72,7 +72,8 @@ export class ComputeServergroupV2 extends cdktf.TerraformResource {
       terraformResourceType: 'flexibleengine_compute_servergroup_v2',
       terraformGeneratorMetadata: {
         providerName: 'flexibleengine',
-        providerVersion: '1.46.0'
+        providerVersion: '1.46.0',
+        providerVersionConstraint: '1.46.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

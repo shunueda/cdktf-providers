@@ -968,7 +968,8 @@ export class LoadBalancer extends cdktf.TerraformResource {
       terraformResourceType: 'ah_load_balancer',
       terraformGeneratorMetadata: {
         providerName: 'ah',
-        providerVersion: '0.3.6'
+        providerVersion: '0.3.6',
+        providerVersionConstraint: '0.3.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

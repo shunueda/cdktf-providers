@@ -146,7 +146,8 @@ export class DataAkamaiGroups extends cdktf.TerraformDataSource {
       terraformResourceType: 'akamai_groups',
       terraformGeneratorMetadata: {
         providerName: 'akamai',
-        providerVersion: '9.1.0'
+        providerVersion: '9.1.0',
+        providerVersionConstraint: '9.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -258,7 +258,8 @@ export class DownloadClientHadouken extends cdktf.TerraformResource {
       terraformResourceType: 'prowlarr_download_client_hadouken',
       terraformGeneratorMetadata: {
         providerName: 'prowlarr',
-        providerVersion: '3.0.2'
+        providerVersion: '3.0.2',
+        providerVersionConstraint: '3.0.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

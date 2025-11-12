@@ -61,7 +61,8 @@ export class DataMixtoolDashboards extends cdktf.TerraformDataSource {
       terraformResourceType: 'mixtool_dashboards',
       terraformGeneratorMetadata: {
         providerName: 'mixtool',
-        providerVersion: '0.2.2'
+        providerVersion: '0.2.2',
+        providerVersionConstraint: '0.2.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

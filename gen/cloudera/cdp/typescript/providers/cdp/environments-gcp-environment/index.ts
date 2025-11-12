@@ -1378,7 +1378,8 @@ export class EnvironmentsGcpEnvironment extends cdktf.TerraformResource {
       terraformResourceType: 'cdp_environments_gcp_environment',
       terraformGeneratorMetadata: {
         providerName: 'cdp',
-        providerVersion: '0.10.8'
+        providerVersion: '0.10.8',
+        providerVersionConstraint: '0.10.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

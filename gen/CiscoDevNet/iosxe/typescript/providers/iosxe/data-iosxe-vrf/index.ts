@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/data-sources/vrf
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/data-sources/vrf
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,15 +10,100 @@ export interface DataIosxeVrfConfig extends cdktf.TerraformMetaArguments {
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/data-sources/vrf#device DataIosxeVrf#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/data-sources/vrf#device DataIosxeVrf#device}
   */
   readonly device?: string;
   /**
   * WORD;;VRF name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/data-sources/vrf#name DataIosxeVrf#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/data-sources/vrf#name DataIosxeVrf#name}
   */
   readonly name: string;
+}
+export interface DataIosxeVrfIpv4RouteReplicate {
+}
+
+export function dataIosxeVrfIpv4RouteReplicateToTerraform(struct?: DataIosxeVrfIpv4RouteReplicate): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataIosxeVrfIpv4RouteReplicateToHclTerraform(struct?: DataIosxeVrfIpv4RouteReplicate): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataIosxeVrfIpv4RouteReplicateOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataIosxeVrfIpv4RouteReplicate | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataIosxeVrfIpv4RouteReplicate | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // name - computed: true, optional: false, required: false
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+
+  // unicast_all - computed: true, optional: false, required: false
+  public get unicastAll() {
+    return this.getBooleanAttribute('unicast_all');
+  }
+
+  // unicast_all_route_map - computed: true, optional: false, required: false
+  public get unicastAllRouteMap() {
+    return this.getStringAttribute('unicast_all_route_map');
+  }
+}
+
+export class DataIosxeVrfIpv4RouteReplicateList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataIosxeVrfIpv4RouteReplicateOutputReference {
+    return new DataIosxeVrfIpv4RouteReplicateOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
 }
 export interface DataIosxeVrfIpv4RouteTargetExport {
 }
@@ -802,7 +887,7 @@ export class DataIosxeVrfRouteTargetImportList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/data-sources/vrf iosxe_vrf}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/data-sources/vrf iosxe_vrf}
 */
 export class DataIosxeVrf extends cdktf.TerraformDataSource {
 
@@ -818,7 +903,7 @@ export class DataIosxeVrf extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIosxeVrf resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIosxeVrf to import
-  * @param importFromId The id of the existing DataIosxeVrf that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/data-sources/vrf#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIosxeVrf that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/data-sources/vrf#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIosxeVrf to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -830,7 +915,7 @@ export class DataIosxeVrf extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/data-sources/vrf iosxe_vrf} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/data-sources/vrf iosxe_vrf} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -841,7 +926,8 @@ export class DataIosxeVrf extends cdktf.TerraformDataSource {
       terraformResourceType: 'iosxe_vrf',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.9.3'
+        providerVersion: '0.10.0',
+        providerVersionConstraint: '0.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -893,6 +979,12 @@ export class DataIosxeVrf extends cdktf.TerraformDataSource {
   // id - computed: true, optional: false, required: false
   public get id() {
     return this.getStringAttribute('id');
+  }
+
+  // ipv4_route_replicate - computed: true, optional: false, required: false
+  private _ipv4RouteReplicate = new DataIosxeVrfIpv4RouteReplicateList(this, "ipv4_route_replicate", false);
+  public get ipv4RouteReplicate() {
+    return this._ipv4RouteReplicate;
   }
 
   // ipv4_route_target_export - computed: true, optional: false, required: false

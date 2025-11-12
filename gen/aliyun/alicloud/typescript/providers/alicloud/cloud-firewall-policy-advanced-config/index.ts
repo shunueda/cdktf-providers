@@ -226,7 +226,8 @@ export class CloudFirewallPolicyAdvancedConfig extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_cloud_firewall_policy_advanced_config',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

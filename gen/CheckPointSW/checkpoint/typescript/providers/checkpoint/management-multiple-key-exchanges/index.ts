@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_multiple_key_exchanges
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_multiple_key_exchanges
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,59 +10,59 @@ export interface ManagementMultipleKeyExchangesConfig extends cdktf.TerraformMet
   /**
   * Additional Key-Exchange 1 methods to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_multiple_key_exchanges#additional_key_exchange_1_methods ManagementMultipleKeyExchanges#additional_key_exchange_1_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_multiple_key_exchanges#additional_key_exchange_1_methods ManagementMultipleKeyExchanges#additional_key_exchange_1_methods}
   */
   readonly additionalKeyExchange1Methods?: string[];
   /**
   * Additional Key-Exchange 2 methods to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_multiple_key_exchanges#additional_key_exchange_2_methods ManagementMultipleKeyExchanges#additional_key_exchange_2_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_multiple_key_exchanges#additional_key_exchange_2_methods ManagementMultipleKeyExchanges#additional_key_exchange_2_methods}
   */
   readonly additionalKeyExchange2Methods?: string[];
   /**
   * Additional Key-Exchange 3 methods to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_multiple_key_exchanges#additional_key_exchange_3_methods ManagementMultipleKeyExchanges#additional_key_exchange_3_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_multiple_key_exchanges#additional_key_exchange_3_methods ManagementMultipleKeyExchanges#additional_key_exchange_3_methods}
   */
   readonly additionalKeyExchange3Methods?: string[];
   /**
   * Additional Key-Exchange 4 methods to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_multiple_key_exchanges#additional_key_exchange_4_methods ManagementMultipleKeyExchanges#additional_key_exchange_4_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_multiple_key_exchanges#additional_key_exchange_4_methods ManagementMultipleKeyExchanges#additional_key_exchange_4_methods}
   */
   readonly additionalKeyExchange4Methods?: string[];
   /**
   * Additional Key-Exchange 5 methods to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_multiple_key_exchanges#additional_key_exchange_5_methods ManagementMultipleKeyExchanges#additional_key_exchange_5_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_multiple_key_exchanges#additional_key_exchange_5_methods ManagementMultipleKeyExchanges#additional_key_exchange_5_methods}
   */
   readonly additionalKeyExchange5Methods?: string[];
   /**
   * Additional Key-Exchange 6 methods to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_multiple_key_exchanges#additional_key_exchange_6_methods ManagementMultipleKeyExchanges#additional_key_exchange_6_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_multiple_key_exchanges#additional_key_exchange_6_methods ManagementMultipleKeyExchanges#additional_key_exchange_6_methods}
   */
   readonly additionalKeyExchange6Methods?: string[];
   /**
   * Additional Key-Exchange 7 methods to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_multiple_key_exchanges#additional_key_exchange_7_methods ManagementMultipleKeyExchanges#additional_key_exchange_7_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_multiple_key_exchanges#additional_key_exchange_7_methods ManagementMultipleKeyExchanges#additional_key_exchange_7_methods}
   */
   readonly additionalKeyExchange7Methods?: string[];
   /**
   * Color of the object. Should be one of existing colors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_multiple_key_exchanges#color ManagementMultipleKeyExchanges#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_multiple_key_exchanges#color ManagementMultipleKeyExchanges#color}
   */
   readonly color?: string;
   /**
   * Comments string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_multiple_key_exchanges#comments ManagementMultipleKeyExchanges#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_multiple_key_exchanges#comments ManagementMultipleKeyExchanges#comments}
   */
   readonly comments?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_multiple_key_exchanges#id ManagementMultipleKeyExchanges#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_multiple_key_exchanges#id ManagementMultipleKeyExchanges#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,37 +71,37 @@ export interface ManagementMultipleKeyExchangesConfig extends cdktf.TerraformMet
   /**
   * Apply changes ignoring errors. You won't be able to publish such a changes. If ignore-warnings flag was omitted - warnings will also be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_multiple_key_exchanges#ignore_errors ManagementMultipleKeyExchanges#ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_multiple_key_exchanges#ignore_errors ManagementMultipleKeyExchanges#ignore_errors}
   */
   readonly ignoreErrors?: boolean | cdktf.IResolvable;
   /**
   * Apply changes ignoring warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_multiple_key_exchanges#ignore_warnings ManagementMultipleKeyExchanges#ignore_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_multiple_key_exchanges#ignore_warnings ManagementMultipleKeyExchanges#ignore_warnings}
   */
   readonly ignoreWarnings?: boolean | cdktf.IResolvable;
   /**
   * Key-Exchange methods to use. Can contain only Diffie-Hellman groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_multiple_key_exchanges#key_exchange_methods ManagementMultipleKeyExchanges#key_exchange_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_multiple_key_exchanges#key_exchange_methods ManagementMultipleKeyExchanges#key_exchange_methods}
   */
   readonly keyExchangeMethods: string[];
   /**
   * Object name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_multiple_key_exchanges#name ManagementMultipleKeyExchanges#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_multiple_key_exchanges#name ManagementMultipleKeyExchanges#name}
   */
   readonly name: string;
   /**
   * Collection of tag identifiers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_multiple_key_exchanges#tags ManagementMultipleKeyExchanges#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_multiple_key_exchanges#tags ManagementMultipleKeyExchanges#tags}
   */
   readonly tags?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_multiple_key_exchanges checkpoint_management_multiple_key_exchanges}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_multiple_key_exchanges checkpoint_management_multiple_key_exchanges}
 */
 export class ManagementMultipleKeyExchanges extends cdktf.TerraformResource {
 
@@ -117,7 +117,7 @@ export class ManagementMultipleKeyExchanges extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementMultipleKeyExchanges resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementMultipleKeyExchanges to import
-  * @param importFromId The id of the existing ManagementMultipleKeyExchanges that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_multiple_key_exchanges#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementMultipleKeyExchanges that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_multiple_key_exchanges#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementMultipleKeyExchanges to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -129,7 +129,7 @@ export class ManagementMultipleKeyExchanges extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_multiple_key_exchanges checkpoint_management_multiple_key_exchanges} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_multiple_key_exchanges checkpoint_management_multiple_key_exchanges} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -140,7 +140,8 @@ export class ManagementMultipleKeyExchanges extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_multiple_key_exchanges',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -240,7 +240,8 @@ export class GcpPubsubTopic extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_gcp_pubsub_topic',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.28'
+        providerVersion: '0.11.28',
+        providerVersionConstraint: '0.11.28'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

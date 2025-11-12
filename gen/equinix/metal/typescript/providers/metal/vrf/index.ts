@@ -258,7 +258,8 @@ export class Vrf extends cdktf.TerraformResource {
       terraformResourceType: 'metal_vrf',
       terraformGeneratorMetadata: {
         providerName: 'metal',
-        providerVersion: '3.3.0'
+        providerVersion: '3.3.0',
+        providerVersionConstraint: '3.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

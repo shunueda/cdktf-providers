@@ -713,7 +713,8 @@ export class DataK8SApplicationautoscalingServicesK8SAwsScalableTargetV1Alpha1Ma
       terraformResourceType: 'k8s_applicationautoscaling_services_k8s_aws_scalable_target_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

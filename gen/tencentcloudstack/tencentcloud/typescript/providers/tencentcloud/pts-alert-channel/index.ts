@@ -74,7 +74,8 @@ export class PtsAlertChannel extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_pts_alert_channel',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

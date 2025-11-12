@@ -215,7 +215,8 @@ export class DataAciEpgUsegBlockStatement extends cdktf.TerraformDataSource {
       terraformResourceType: 'aci_epg_useg_block_statement',
       terraformGeneratorMetadata: {
         providerName: 'aci',
-        providerVersion: '2.18.0'
+        providerVersion: '2.18.0',
+        providerVersionConstraint: '2.18.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -109,7 +109,8 @@ export class DestinationDatabricks extends cdktf.TerraformResource {
       terraformResourceType: 'streamkap_destination_databricks',
       terraformGeneratorMetadata: {
         providerName: 'streamkap',
-        providerVersion: '2.1.15'
+        providerVersion: '2.1.15',
+        providerVersionConstraint: '2.1.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

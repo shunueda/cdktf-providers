@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/elb_pools
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/elb_pools
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataHcsElbPoolsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specifies the description of the ELB pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/elb_pools#description DataHcsElbPools#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/elb_pools#description DataHcsElbPools#description}
   */
   readonly description?: string;
   /**
   * Specifies the health monitor ID of the ELB pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/elb_pools#healthmonitor_id DataHcsElbPools#healthmonitor_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/elb_pools#healthmonitor_id DataHcsElbPools#healthmonitor_id}
   */
   readonly healthmonitorId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/elb_pools#id DataHcsElbPools#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/elb_pools#id DataHcsElbPools#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,41 +29,41 @@ export interface DataHcsElbPoolsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specifies the method of the ELB pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/elb_pools#lb_method DataHcsElbPools#lb_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/elb_pools#lb_method DataHcsElbPools#lb_method}
   */
   readonly lbMethod?: string;
   /**
   * Specifies the listener ID of the ELB pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/elb_pools#listener_id DataHcsElbPools#listener_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/elb_pools#listener_id DataHcsElbPools#listener_id}
   */
   readonly listenerId?: string;
   /**
   * Specifies the loadbalancer ID of the ELB pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/elb_pools#loadbalancer_id DataHcsElbPools#loadbalancer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/elb_pools#loadbalancer_id DataHcsElbPools#loadbalancer_id}
   */
   readonly loadbalancerId?: string;
   /**
   * Specifies the name of the ELB pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/elb_pools#name DataHcsElbPools#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/elb_pools#name DataHcsElbPools#name}
   */
   readonly name?: string;
   /**
   * Specifies the ID of the ELB pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/elb_pools#pool_id DataHcsElbPools#pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/elb_pools#pool_id DataHcsElbPools#pool_id}
   */
   readonly poolId?: string;
   /**
   * Specifies the protocol of the ELB pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/elb_pools#protocol DataHcsElbPools#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/elb_pools#protocol DataHcsElbPools#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/elb_pools#region DataHcsElbPools#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/elb_pools#region DataHcsElbPools#region}
   */
   readonly region?: string;
 }
@@ -503,7 +503,7 @@ export class DataHcsElbPoolsPoolsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/elb_pools hcs_elb_pools}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/elb_pools hcs_elb_pools}
 */
 export class DataHcsElbPools extends cdktf.TerraformDataSource {
 
@@ -519,7 +519,7 @@ export class DataHcsElbPools extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataHcsElbPools resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHcsElbPools to import
-  * @param importFromId The id of the existing DataHcsElbPools that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/elb_pools#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHcsElbPools that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/elb_pools#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHcsElbPools to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -531,7 +531,7 @@ export class DataHcsElbPools extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/elb_pools hcs_elb_pools} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/elb_pools hcs_elb_pools} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -542,7 +542,8 @@ export class DataHcsElbPools extends cdktf.TerraformDataSource {
       terraformResourceType: 'hcs_elb_pools',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.19'
+        providerVersion: '2.4.20',
+        providerVersionConstraint: '2.4.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1961,7 +1961,8 @@ export class RouterBgpAddressFamilyIpv6RedistributeA extends cdktf.TerraformReso
       terraformResourceType: 'thunder_router_bgp_address_family_ipv6_redistribute',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslparameter
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslparameter
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,112 +8,120 @@ import * as cdktf from 'cdktf';
 
 export interface SslparameterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslparameter#crlmemorysizemb Sslparameter#crlmemorysizemb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslparameter#crlmemorysizemb Sslparameter#crlmemorysizemb}
   */
   readonly crlmemorysizemb?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslparameter#cryptodevdisablelimit Sslparameter#cryptodevdisablelimit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslparameter#cryptodevdisablelimit Sslparameter#cryptodevdisablelimit}
   */
   readonly cryptodevdisablelimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslparameter#defaultprofile Sslparameter#defaultprofile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslparameter#defaultprofile Sslparameter#defaultprofile}
   */
   readonly defaultprofile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslparameter#denysslreneg Sslparameter#denysslreneg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslparameter#denysslreneg Sslparameter#denysslreneg}
   */
   readonly denysslreneg?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslparameter#dropreqwithnohostheader Sslparameter#dropreqwithnohostheader}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslparameter#dropreqwithnohostheader Sslparameter#dropreqwithnohostheader}
   */
   readonly dropreqwithnohostheader?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslparameter#encrypttriggerpktcount Sslparameter#encrypttriggerpktcount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslparameter#encrypttriggerpktcount Sslparameter#encrypttriggerpktcount}
   */
   readonly encrypttriggerpktcount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslparameter#heterogeneoussslhw Sslparameter#heterogeneoussslhw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslparameter#heterogeneoussslhw Sslparameter#heterogeneoussslhw}
   */
   readonly heterogeneoussslhw?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslparameter#hybridfipsmode Sslparameter#hybridfipsmode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslparameter#hybridfipsmode Sslparameter#hybridfipsmode}
   */
   readonly hybridfipsmode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslparameter#id Sslparameter#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslparameter#id Sslparameter#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslparameter#insertcertspace Sslparameter#insertcertspace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslparameter#insertcertspace Sslparameter#insertcertspace}
   */
   readonly insertcertspace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslparameter#insertionencoding Sslparameter#insertionencoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslparameter#insertionencoding Sslparameter#insertionencoding}
   */
   readonly insertionencoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslparameter#ndcppcompliancecertcheck Sslparameter#ndcppcompliancecertcheck}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslparameter#ndcppcompliancecertcheck Sslparameter#ndcppcompliancecertcheck}
   */
   readonly ndcppcompliancecertcheck?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslparameter#ocspcachesize Sslparameter#ocspcachesize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslparameter#ocspcachesize Sslparameter#ocspcachesize}
   */
   readonly ocspcachesize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslparameter#pushenctriggertimeout Sslparameter#pushenctriggertimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslparameter#operationqueuelimit Sslparameter#operationqueuelimit}
+  */
+  readonly operationqueuelimit?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslparameter#pushenctriggertimeout Sslparameter#pushenctriggertimeout}
   */
   readonly pushenctriggertimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslparameter#pushflag Sslparameter#pushflag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslparameter#pushflag Sslparameter#pushflag}
   */
   readonly pushflag?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslparameter#quantumsize Sslparameter#quantumsize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslparameter#quantumsize Sslparameter#quantumsize}
   */
   readonly quantumsize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslparameter#sendclosenotify Sslparameter#sendclosenotify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslparameter#sendclosenotify Sslparameter#sendclosenotify}
   */
   readonly sendclosenotify?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslparameter#snihttphostmatch Sslparameter#snihttphostmatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslparameter#sigdigesttype Sslparameter#sigdigesttype}
+  */
+  readonly sigdigesttype?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslparameter#snihttphostmatch Sslparameter#snihttphostmatch}
   */
   readonly snihttphostmatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslparameter#softwarecryptothreshold Sslparameter#softwarecryptothreshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslparameter#softwarecryptothreshold Sslparameter#softwarecryptothreshold}
   */
   readonly softwarecryptothreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslparameter#sslierrorcache Sslparameter#sslierrorcache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslparameter#sslierrorcache Sslparameter#sslierrorcache}
   */
   readonly sslierrorcache?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslparameter#sslimaxerrorcachemem Sslparameter#sslimaxerrorcachemem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslparameter#sslimaxerrorcachemem Sslparameter#sslimaxerrorcachemem}
   */
   readonly sslimaxerrorcachemem?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslparameter#ssltriggertimeout Sslparameter#ssltriggertimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslparameter#ssltriggertimeout Sslparameter#ssltriggertimeout}
   */
   readonly ssltriggertimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslparameter#strictcachecks Sslparameter#strictcachecks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslparameter#strictcachecks Sslparameter#strictcachecks}
   */
   readonly strictcachecks?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslparameter#undefactioncontrol Sslparameter#undefactioncontrol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslparameter#undefactioncontrol Sslparameter#undefactioncontrol}
   */
   readonly undefactioncontrol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslparameter#undefactiondata Sslparameter#undefactiondata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslparameter#undefactiondata Sslparameter#undefactiondata}
   */
   readonly undefactiondata?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslparameter citrixadc_sslparameter}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslparameter citrixadc_sslparameter}
 */
 export class Sslparameter extends cdktf.TerraformResource {
 
@@ -129,7 +137,7 @@ export class Sslparameter extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Sslparameter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Sslparameter to import
-  * @param importFromId The id of the existing Sslparameter that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslparameter#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Sslparameter that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslparameter#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Sslparameter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -141,7 +149,7 @@ export class Sslparameter extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/sslparameter citrixadc_sslparameter} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslparameter citrixadc_sslparameter} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -152,7 +160,8 @@ export class Sslparameter extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_sslparameter',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -175,10 +184,12 @@ export class Sslparameter extends cdktf.TerraformResource {
     this._insertionencoding = config.insertionencoding;
     this._ndcppcompliancecertcheck = config.ndcppcompliancecertcheck;
     this._ocspcachesize = config.ocspcachesize;
+    this._operationqueuelimit = config.operationqueuelimit;
     this._pushenctriggertimeout = config.pushenctriggertimeout;
     this._pushflag = config.pushflag;
     this._quantumsize = config.quantumsize;
     this._sendclosenotify = config.sendclosenotify;
+    this._sigdigesttype = config.sigdigesttype;
     this._snihttphostmatch = config.snihttphostmatch;
     this._softwarecryptothreshold = config.softwarecryptothreshold;
     this._sslierrorcache = config.sslierrorcache;
@@ -401,6 +412,22 @@ export class Sslparameter extends cdktf.TerraformResource {
     return this._ocspcachesize;
   }
 
+  // operationqueuelimit - computed: true, optional: true, required: false
+  private _operationqueuelimit?: number; 
+  public get operationqueuelimit() {
+    return this.getNumberAttribute('operationqueuelimit');
+  }
+  public set operationqueuelimit(value: number) {
+    this._operationqueuelimit = value;
+  }
+  public resetOperationqueuelimit() {
+    this._operationqueuelimit = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get operationqueuelimitInput() {
+    return this._operationqueuelimit;
+  }
+
   // pushenctriggertimeout - computed: true, optional: true, required: false
   private _pushenctriggertimeout?: number; 
   public get pushenctriggertimeout() {
@@ -463,6 +490,22 @@ export class Sslparameter extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get sendclosenotifyInput() {
     return this._sendclosenotify;
+  }
+
+  // sigdigesttype - computed: true, optional: true, required: false
+  private _sigdigesttype?: string[]; 
+  public get sigdigesttype() {
+    return this.getListAttribute('sigdigesttype');
+  }
+  public set sigdigesttype(value: string[]) {
+    this._sigdigesttype = value;
+  }
+  public resetSigdigesttype() {
+    this._sigdigesttype = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sigdigesttypeInput() {
+    return this._sigdigesttype;
   }
 
   // snihttphostmatch - computed: true, optional: true, required: false
@@ -612,10 +655,12 @@ export class Sslparameter extends cdktf.TerraformResource {
       insertionencoding: cdktf.stringToTerraform(this._insertionencoding),
       ndcppcompliancecertcheck: cdktf.stringToTerraform(this._ndcppcompliancecertcheck),
       ocspcachesize: cdktf.numberToTerraform(this._ocspcachesize),
+      operationqueuelimit: cdktf.numberToTerraform(this._operationqueuelimit),
       pushenctriggertimeout: cdktf.numberToTerraform(this._pushenctriggertimeout),
       pushflag: cdktf.numberToTerraform(this._pushflag),
       quantumsize: cdktf.stringToTerraform(this._quantumsize),
       sendclosenotify: cdktf.stringToTerraform(this._sendclosenotify),
+      sigdigesttype: cdktf.listMapper(cdktf.stringToTerraform, false)(this._sigdigesttype),
       snihttphostmatch: cdktf.stringToTerraform(this._snihttphostmatch),
       softwarecryptothreshold: cdktf.numberToTerraform(this._softwarecryptothreshold),
       sslierrorcache: cdktf.stringToTerraform(this._sslierrorcache),
@@ -707,6 +752,12 @@ export class Sslparameter extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "number",
       },
+      operationqueuelimit: {
+        value: cdktf.numberToHclTerraform(this._operationqueuelimit),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
       pushenctriggertimeout: {
         value: cdktf.numberToHclTerraform(this._pushenctriggertimeout),
         isBlock: false,
@@ -730,6 +781,12 @@ export class Sslparameter extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      sigdigesttype: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._sigdigesttype),
+        isBlock: false,
+        type: "list",
+        storageClassType: "stringList",
       },
       snihttphostmatch: {
         value: cdktf.stringToHclTerraform(this._snihttphostmatch),

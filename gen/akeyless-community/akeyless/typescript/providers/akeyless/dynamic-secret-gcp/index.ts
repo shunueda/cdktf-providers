@@ -140,7 +140,8 @@ export class DynamicSecretGcp extends cdktf.TerraformResource {
       terraformResourceType: 'akeyless_dynamic_secret_gcp',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1'
+        providerVersion: '1.11.1',
+        providerVersionConstraint: '1.11.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

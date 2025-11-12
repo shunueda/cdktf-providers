@@ -599,7 +599,8 @@ export class DataOciFileStorageFilesystemSnapshotPolicies extends cdktf.Terrafor
       terraformResourceType: 'oci_file_storage_filesystem_snapshot_policies',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -110,7 +110,8 @@ export class NatPrivateDnatRule extends cdktf.TerraformResource {
       terraformResourceType: 'flexibleengine_nat_private_dnat_rule',
       terraformGeneratorMetadata: {
         providerName: 'flexibleengine',
-        providerVersion: '1.46.0'
+        providerVersion: '1.46.0',
+        providerVersionConstraint: '1.46.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

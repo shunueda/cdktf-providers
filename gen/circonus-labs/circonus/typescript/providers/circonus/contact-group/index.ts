@@ -1479,7 +1479,8 @@ export class ContactGroup extends cdktf.TerraformResource {
       terraformResourceType: 'circonus_contact_group',
       terraformGeneratorMetadata: {
         providerName: 'circonus',
-        providerVersion: '0.12.15'
+        providerVersion: '0.12.15',
+        providerVersionConstraint: '0.12.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

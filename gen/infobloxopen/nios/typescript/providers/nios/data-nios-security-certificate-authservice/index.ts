@@ -996,7 +996,8 @@ export class DataNiosSecurityCertificateAuthservice extends cdktf.TerraformDataS
       terraformResourceType: 'nios_security_certificate_authservice',
       terraformGeneratorMetadata: {
         providerName: 'nios',
-        providerVersion: '1.0.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

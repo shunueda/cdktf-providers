@@ -183,7 +183,8 @@ export class DataMondooPolicies extends cdktf.TerraformDataSource {
       terraformResourceType: 'mondoo_policies',
       terraformGeneratorMetadata: {
         providerName: 'mondoo',
-        providerVersion: '0.34.0'
+        providerVersion: '0.34.0',
+        providerVersionConstraint: '0.34.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

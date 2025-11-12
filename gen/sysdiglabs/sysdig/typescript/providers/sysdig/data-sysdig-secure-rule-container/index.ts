@@ -153,7 +153,8 @@ export class DataSysdigSecureRuleContainer extends cdktf.TerraformDataSource {
       terraformResourceType: 'sysdig_secure_rule_container',
       terraformGeneratorMetadata: {
         providerName: 'sysdig',
-        providerVersion: '3.1.0'
+        providerVersion: '3.1.0',
+        providerVersionConstraint: '3.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

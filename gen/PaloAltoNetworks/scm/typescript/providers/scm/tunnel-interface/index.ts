@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/tunnel_interface
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/tunnel_interface
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface TunnelInterfaceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/tunnel_interface#comment TunnelInterface#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/tunnel_interface#comment TunnelInterface#comment}
   */
   readonly comment?: string;
   /**
   * Default interface assignment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/tunnel_interface#default_value TunnelInterface#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/tunnel_interface#default_value TunnelInterface#default_value}
   */
   readonly defaultValue?: string;
   /**
   * The device in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/tunnel_interface#device TunnelInterface#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/tunnel_interface#device TunnelInterface#device}
   */
   readonly device?: string;
   /**
   * The folder in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/tunnel_interface#folder TunnelInterface#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/tunnel_interface#folder TunnelInterface#folder}
   */
   readonly folder?: string;
   /**
   * Interface management profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/tunnel_interface#interface_management_profile TunnelInterface#interface_management_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/tunnel_interface#interface_management_profile TunnelInterface#interface_management_profile}
   */
   readonly interfaceManagementProfile?: string;
   /**
   * Tunnel Interface IP Parent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/tunnel_interface#ip TunnelInterface#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/tunnel_interface#ip TunnelInterface#ip}
   */
   readonly ip?: TunnelInterfaceIp[] | cdktf.IResolvable;
   /**
   * MTU
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/tunnel_interface#mtu TunnelInterface#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/tunnel_interface#mtu TunnelInterface#mtu}
   */
   readonly mtu?: number;
   /**
   * L3 sub-interface name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/tunnel_interface#name TunnelInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/tunnel_interface#name TunnelInterface#name}
   */
   readonly name: string;
   /**
   * The snippet in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/tunnel_interface#snippet TunnelInterface#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/tunnel_interface#snippet TunnelInterface#snippet}
   */
   readonly snippet?: string;
 }
@@ -66,7 +66,7 @@ export interface TunnelInterfaceIp {
   /**
   * Tunnel Interface IP address(es)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/tunnel_interface#name TunnelInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/tunnel_interface#name TunnelInterface#name}
   */
   readonly name: string;
 }
@@ -179,7 +179,7 @@ export class TunnelInterfaceIpList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/tunnel_interface scm_tunnel_interface}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/tunnel_interface scm_tunnel_interface}
 */
 export class TunnelInterface extends cdktf.TerraformResource {
 
@@ -195,7 +195,7 @@ export class TunnelInterface extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TunnelInterface resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TunnelInterface to import
-  * @param importFromId The id of the existing TunnelInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/tunnel_interface#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TunnelInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/tunnel_interface#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TunnelInterface to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -207,7 +207,7 @@ export class TunnelInterface extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/tunnel_interface scm_tunnel_interface} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/tunnel_interface scm_tunnel_interface} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -218,7 +218,8 @@ export class TunnelInterface extends cdktf.TerraformResource {
       terraformResourceType: 'scm_tunnel_interface',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.3'
+        providerVersion: '1.0.4',
+        providerVersionConstraint: '1.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

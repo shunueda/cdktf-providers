@@ -300,7 +300,8 @@ export class DataBloxoneTdInternalDomainLists extends cdktf.TerraformDataSource 
       terraformResourceType: 'bloxone_td_internal_domain_lists',
       terraformGeneratorMetadata: {
         providerName: 'bloxone',
-        providerVersion: '1.5.3'
+        providerVersion: '1.5.3',
+        providerVersionConstraint: '1.5.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

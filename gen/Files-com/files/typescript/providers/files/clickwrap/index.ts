@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/files-com/files/0.1.375/docs/resources/clickwrap
+// https://registry.terraform.io/providers/files-com/files/0.1.377/docs/resources/clickwrap
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface ClickwrapConfig extends cdktf.TerraformMetaArguments {
   /**
   * Body text of Clickwrap (supports Markdown formatting).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.375/docs/resources/clickwrap#body Clickwrap#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.377/docs/resources/clickwrap#body Clickwrap#body}
   */
   readonly body?: string;
   /**
   * Name of the Clickwrap agreement (used when selecting from multiple Clickwrap agreements.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.375/docs/resources/clickwrap#name Clickwrap#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.377/docs/resources/clickwrap#name Clickwrap#name}
   */
   readonly name?: string;
   /**
   * Use this Clickwrap for Bundles?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.375/docs/resources/clickwrap#use_with_bundles Clickwrap#use_with_bundles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.377/docs/resources/clickwrap#use_with_bundles Clickwrap#use_with_bundles}
   */
   readonly useWithBundles?: string;
   /**
   * Use this Clickwrap for Inboxes?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.375/docs/resources/clickwrap#use_with_inboxes Clickwrap#use_with_inboxes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.377/docs/resources/clickwrap#use_with_inboxes Clickwrap#use_with_inboxes}
   */
   readonly useWithInboxes?: string;
   /**
   * Use this Clickwrap for User Registrations?  Note: This only applies to User Registrations where the User is invited to your Files.com site using an E-Mail invitation process where they then set their own password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.375/docs/resources/clickwrap#use_with_users Clickwrap#use_with_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.377/docs/resources/clickwrap#use_with_users Clickwrap#use_with_users}
   */
   readonly useWithUsers?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.375/docs/resources/clickwrap files_clickwrap}
+* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.377/docs/resources/clickwrap files_clickwrap}
 */
 export class Clickwrap extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class Clickwrap extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Clickwrap resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Clickwrap to import
-  * @param importFromId The id of the existing Clickwrap that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.375/docs/resources/clickwrap#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Clickwrap that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.377/docs/resources/clickwrap#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Clickwrap to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class Clickwrap extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.375/docs/resources/clickwrap files_clickwrap} Resource
+  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.377/docs/resources/clickwrap files_clickwrap} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,7 +79,8 @@ export class Clickwrap extends cdktf.TerraformResource {
       terraformResourceType: 'files_clickwrap',
       terraformGeneratorMetadata: {
         providerName: 'files',
-        providerVersion: '0.1.375'
+        providerVersion: '0.1.377',
+        providerVersionConstraint: '0.1.377'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

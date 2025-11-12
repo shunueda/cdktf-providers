@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsconsoleloginprompt
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsconsoleloginprompt
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,20 +8,20 @@ import * as cdktf from 'cdktf';
 
 export interface NsconsoleloginpromptConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsconsoleloginprompt#id Nsconsoleloginprompt#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsconsoleloginprompt#id Nsconsoleloginprompt#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsconsoleloginprompt#promptstring Nsconsoleloginprompt#promptstring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsconsoleloginprompt#promptstring Nsconsoleloginprompt#promptstring}
   */
   readonly promptstring: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsconsoleloginprompt citrixadc_nsconsoleloginprompt}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsconsoleloginprompt citrixadc_nsconsoleloginprompt}
 */
 export class Nsconsoleloginprompt extends cdktf.TerraformResource {
 
@@ -37,7 +37,7 @@ export class Nsconsoleloginprompt extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Nsconsoleloginprompt resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Nsconsoleloginprompt to import
-  * @param importFromId The id of the existing Nsconsoleloginprompt that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsconsoleloginprompt#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Nsconsoleloginprompt that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsconsoleloginprompt#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Nsconsoleloginprompt to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -49,7 +49,7 @@ export class Nsconsoleloginprompt extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/nsconsoleloginprompt citrixadc_nsconsoleloginprompt} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsconsoleloginprompt citrixadc_nsconsoleloginprompt} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -60,7 +60,8 @@ export class Nsconsoleloginprompt extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_nsconsoleloginprompt',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

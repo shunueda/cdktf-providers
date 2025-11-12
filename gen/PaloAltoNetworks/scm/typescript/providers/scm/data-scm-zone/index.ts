@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/zone
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/zone
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataScmZoneConfig extends cdktf.TerraformMetaArguments {
   /**
   * UUID of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/zone#id DataScmZone#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/zone#id DataScmZone#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,7 +19,7 @@ export interface DataScmZoneConfig extends cdktf.TerraformMetaArguments {
   /**
   * Alphanumeric string begin with letter: [0-9a-zA-Z._-]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/zone#name DataScmZone#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/zone#name DataScmZone#name}
   */
   readonly name?: string;
 }
@@ -287,7 +287,7 @@ export class DataScmZoneUserAclOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/zone scm_zone}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/zone scm_zone}
 */
 export class DataScmZone extends cdktf.TerraformDataSource {
 
@@ -303,7 +303,7 @@ export class DataScmZone extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataScmZone resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataScmZone to import
-  * @param importFromId The id of the existing DataScmZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/zone#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataScmZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/zone#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataScmZone to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -315,7 +315,7 @@ export class DataScmZone extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/data-sources/zone scm_zone} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/data-sources/zone scm_zone} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -326,7 +326,8 @@ export class DataScmZone extends cdktf.TerraformDataSource {
       terraformResourceType: 'scm_zone',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.3'
+        providerVersion: '1.0.4',
+        providerVersionConstraint: '1.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

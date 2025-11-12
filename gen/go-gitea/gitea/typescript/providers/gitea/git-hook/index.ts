@@ -80,7 +80,8 @@ export class GitHook extends cdktf.TerraformResource {
       terraformResourceType: 'gitea_git_hook',
       terraformGeneratorMetadata: {
         providerName: 'gitea',
-        providerVersion: '0.7.0'
+        providerVersion: '0.7.0',
+        providerVersionConstraint: '0.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

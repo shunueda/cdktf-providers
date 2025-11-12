@@ -60,7 +60,8 @@ export class FoundationCentralApiKeys extends cdktf.TerraformResource {
       terraformResourceType: 'nutanix_foundation_central_api_keys',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3'
+        providerVersion: '2.3.3',
+        providerVersionConstraint: '2.3.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

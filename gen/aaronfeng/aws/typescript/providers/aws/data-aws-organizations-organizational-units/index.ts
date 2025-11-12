@@ -145,7 +145,8 @@ export class DataAwsOrganizationsOrganizationalUnits extends cdktf.TerraformData
       terraformResourceType: 'aws_organizations_organizational_units',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '3.29.6'
+        providerVersion: '3.29.6',
+        providerVersionConstraint: '3.29.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -61,7 +61,8 @@ export class CmAddJwtToken extends cdktf.TerraformResource {
       terraformResourceType: 'bigipnext_cm_add_jwt_token',
       terraformGeneratorMetadata: {
         providerName: 'bigipnext',
-        providerVersion: '1.4.0'
+        providerVersion: '1.4.0',
+        providerVersionConstraint: '1.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

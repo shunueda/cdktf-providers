@@ -411,7 +411,8 @@ export class DataZpaAppConnectorController extends cdktf.TerraformDataSource {
       terraformResourceType: 'zpa_app_connector_controller',
       terraformGeneratorMetadata: {
         providerName: 'zpa',
-        providerVersion: '4.3.2'
+        providerVersion: '4.3.2',
+        providerVersionConstraint: '4.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -98,7 +98,8 @@ export class DdosZoneTemplateDnsMalformedQueryCheckA extends cdktf.TerraformReso
       terraformResourceType: 'thunder_ddos_zone_template_dns_malformed_query_check',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

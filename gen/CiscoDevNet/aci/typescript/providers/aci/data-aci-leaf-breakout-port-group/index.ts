@@ -76,7 +76,8 @@ export class DataAciLeafBreakoutPortGroup extends cdktf.TerraformDataSource {
       terraformResourceType: 'aci_leaf_breakout_port_group',
       terraformGeneratorMetadata: {
         providerName: 'aci',
-        providerVersion: '2.18.0'
+        providerVersion: '2.18.0',
+        providerVersionConstraint: '2.18.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

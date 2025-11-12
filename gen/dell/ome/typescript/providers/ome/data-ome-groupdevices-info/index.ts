@@ -389,7 +389,8 @@ export class DataOmeGroupdevicesInfo extends cdktf.TerraformDataSource {
       terraformResourceType: 'ome_groupdevices_info',
       terraformGeneratorMetadata: {
         providerName: 'ome',
-        providerVersion: '1.2.3'
+        providerVersion: '1.2.3',
+        providerVersionConstraint: '1.2.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

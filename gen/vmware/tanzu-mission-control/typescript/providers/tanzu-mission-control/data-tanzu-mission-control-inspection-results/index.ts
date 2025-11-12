@@ -80,7 +80,8 @@ export class DataTanzuMissionControlInspectionResults extends cdktf.TerraformDat
       terraformResourceType: 'tanzu-mission-control_inspection_results',
       terraformGeneratorMetadata: {
         providerName: 'tanzu-mission-control',
-        providerVersion: '1.4.9'
+        providerVersion: '1.4.9',
+        providerVersionConstraint: '1.4.9'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

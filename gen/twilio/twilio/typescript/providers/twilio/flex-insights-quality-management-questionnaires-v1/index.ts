@@ -76,7 +76,8 @@ export class FlexInsightsQualityManagementQuestionnairesV1 extends cdktf.Terrafo
       terraformResourceType: 'twilio_flex_insights_quality_management_questionnaires_v1',
       terraformGeneratorMetadata: {
         providerName: 'twilio',
-        providerVersion: '0.18.46'
+        providerVersion: '0.18.46',
+        providerVersionConstraint: '0.18.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

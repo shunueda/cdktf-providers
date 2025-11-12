@@ -422,7 +422,8 @@ export class DataOciFusionAppsFusionEnvironmentDataMaskingActivities extends cdk
       terraformResourceType: 'oci_fusion_apps_fusion_environment_data_masking_activities',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

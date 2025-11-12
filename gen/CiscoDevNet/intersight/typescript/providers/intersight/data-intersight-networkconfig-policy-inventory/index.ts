@@ -4116,7 +4116,8 @@ export class DataIntersightNetworkconfigPolicyInventory extends cdktf.TerraformD
       terraformResourceType: 'intersight_networkconfig_policy_inventory',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

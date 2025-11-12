@@ -147,7 +147,8 @@ export class OutscaleProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'outscale',
       terraformGeneratorMetadata: {
         providerName: 'outscale',
-        providerVersion: '1.2.1'
+        providerVersion: '1.2.1',
+        providerVersionConstraint: '1.2.1'
       },
       terraformProviderSource: 'outscale/outscale'
     });

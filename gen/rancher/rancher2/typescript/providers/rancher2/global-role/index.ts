@@ -522,7 +522,8 @@ export class GlobalRole extends cdktf.TerraformResource {
       terraformResourceType: 'rancher2_global_role',
       terraformGeneratorMetadata: {
         providerName: 'rancher2',
-        providerVersion: '8.3.1'
+        providerVersion: '8.3.1',
+        providerVersionConstraint: '8.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

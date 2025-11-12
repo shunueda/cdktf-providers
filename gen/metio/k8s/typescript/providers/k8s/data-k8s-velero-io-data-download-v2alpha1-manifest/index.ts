@@ -739,7 +739,8 @@ export class DataK8SVeleroIoDataDownloadV2Alpha1Manifest extends cdktf.Terraform
       terraformResourceType: 'k8s_velero_io_data_download_v2alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

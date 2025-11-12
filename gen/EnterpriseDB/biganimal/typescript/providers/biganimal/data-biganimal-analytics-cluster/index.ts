@@ -691,7 +691,8 @@ export class DataBiganimalAnalyticsCluster extends cdktf.TerraformDataSource {
       terraformResourceType: 'biganimal_analytics_cluster',
       terraformGeneratorMetadata: {
         providerName: 'biganimal',
-        providerVersion: '3.1.1'
+        providerVersion: '3.1.1',
+        providerVersionConstraint: '3.1.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

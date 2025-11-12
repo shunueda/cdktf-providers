@@ -318,7 +318,8 @@ export class Grant extends cdktf.TerraformResource {
       terraformResourceType: 'infra_grant',
       terraformGeneratorMetadata: {
         providerName: 'infra',
-        providerVersion: '0.3.0'
+        providerVersion: '0.3.0',
+        providerVersionConstraint: '0.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

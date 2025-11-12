@@ -68,7 +68,8 @@ export class DataUltradnsRdpool extends cdktf.TerraformDataSource {
       terraformResourceType: 'ultradns_rdpool',
       terraformGeneratorMetadata: {
         providerName: 'ultradns',
-        providerVersion: '1.11.1'
+        providerVersion: '1.11.1',
+        providerVersionConstraint: '1.11.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -85,7 +85,8 @@ export class IndexerProxySocks5 extends cdktf.TerraformResource {
       terraformResourceType: 'prowlarr_indexer_proxy_socks5',
       terraformGeneratorMetadata: {
         providerName: 'prowlarr',
-        providerVersion: '3.0.2'
+        providerVersion: '3.0.2',
+        providerVersionConstraint: '3.0.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

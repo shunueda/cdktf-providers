@@ -85,7 +85,8 @@ export class MetalcloudProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'metalcloud',
       terraformGeneratorMetadata: {
         providerName: 'metalcloud',
-        providerVersion: '7.0.10'
+        providerVersion: '7.0.10',
+        providerVersionConstraint: '7.0.10'
       },
       terraformProviderSource: 'metalsoft-io/metalcloud'
     });

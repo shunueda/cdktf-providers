@@ -263,7 +263,8 @@ export class Wirelesscontrollerhotspot20Anqp3Gppcellular extends cdktf.Terraform
       terraformResourceType: 'fortios_wirelesscontrollerhotspot20_anqp3gppcellular',
       terraformGeneratorMetadata: {
         providerName: 'fortios',
-        providerVersion: '1.23.0'
+        providerVersion: '1.23.0',
+        providerVersionConstraint: '1.23.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

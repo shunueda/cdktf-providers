@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_aws_data_center_server
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_aws_data_center_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,7 +11,7 @@ export interface ManagementAwsDataCenterServerConfig extends cdktf.TerraformMeta
   * Access key ID for the AWS account.
   * Required for authentication-method: user-authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_aws_data_center_server#access_key_id ManagementAwsDataCenterServer#access_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_aws_data_center_server#access_key_id ManagementAwsDataCenterServer#access_key_id}
   */
   readonly accessKeyId?: string;
   /**
@@ -21,29 +21,29 @@ export interface ManagementAwsDataCenterServerConfig extends cdktf.TerraformMeta
   * Uses the AWS IAM role to authenticate.
   * This option requires the Security Management Server be deployed in AWS and has an IAM Role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_aws_data_center_server#authentication_method ManagementAwsDataCenterServer#authentication_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_aws_data_center_server#authentication_method ManagementAwsDataCenterServer#authentication_method}
   */
   readonly authenticationMethod: string;
   /**
   * Color of the object. Should be one of existing colors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_aws_data_center_server#color ManagementAwsDataCenterServer#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_aws_data_center_server#color ManagementAwsDataCenterServer#color}
   */
   readonly color?: string;
   /**
   * Comments string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_aws_data_center_server#comments ManagementAwsDataCenterServer#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_aws_data_center_server#comments ManagementAwsDataCenterServer#comments}
   */
   readonly comments?: string;
   /**
   * Enables the STS Assume Role option. After it is enabled, the sts-role field is mandatory, whereas the sts-external-id is optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_aws_data_center_server#enable_sts_assume_role ManagementAwsDataCenterServer#enable_sts_assume_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_aws_data_center_server#enable_sts_assume_role ManagementAwsDataCenterServer#enable_sts_assume_role}
   */
   readonly enableStsAssumeRole?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_aws_data_center_server#id ManagementAwsDataCenterServer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_aws_data_center_server#id ManagementAwsDataCenterServer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -52,57 +52,57 @@ export interface ManagementAwsDataCenterServerConfig extends cdktf.TerraformMeta
   /**
   * Apply changes ignoring errors. You won't be able to publish such a changes. If ignore-warnings flag was omitted - warnings will also be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_aws_data_center_server#ignore_errors ManagementAwsDataCenterServer#ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_aws_data_center_server#ignore_errors ManagementAwsDataCenterServer#ignore_errors}
   */
   readonly ignoreErrors?: boolean | cdktf.IResolvable;
   /**
   * Apply changes ignoring warnings. By Setting this parameter to 'true' test connection failure will be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_aws_data_center_server#ignore_warnings ManagementAwsDataCenterServer#ignore_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_aws_data_center_server#ignore_warnings ManagementAwsDataCenterServer#ignore_warnings}
   */
   readonly ignoreWarnings?: boolean | cdktf.IResolvable;
   /**
   * Object name. Must be unique in the domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_aws_data_center_server#name ManagementAwsDataCenterServer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_aws_data_center_server#name ManagementAwsDataCenterServer#name}
   */
   readonly name: string;
   /**
   * Select the AWS region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_aws_data_center_server#region ManagementAwsDataCenterServer#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_aws_data_center_server#region ManagementAwsDataCenterServer#region}
   */
   readonly region: string;
   /**
   * Secret access key for the AWS account.
   * Required for authentication-method: user-authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_aws_data_center_server#secret_access_key ManagementAwsDataCenterServer#secret_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_aws_data_center_server#secret_access_key ManagementAwsDataCenterServer#secret_access_key}
   */
   readonly secretAccessKey?: string;
   /**
   * An optional STS External-Id to use when assuming the role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_aws_data_center_server#sts_external_id ManagementAwsDataCenterServer#sts_external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_aws_data_center_server#sts_external_id ManagementAwsDataCenterServer#sts_external_id}
   */
   readonly stsExternalId?: string;
   /**
   * The STS RoleARN of the role to be assumed.
   * Required for enable-sts-assume-role: true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_aws_data_center_server#sts_role ManagementAwsDataCenterServer#sts_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_aws_data_center_server#sts_role ManagementAwsDataCenterServer#sts_role}
   */
   readonly stsRole?: string;
   /**
   * Collection of tag identifiers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_aws_data_center_server#tags ManagementAwsDataCenterServer#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_aws_data_center_server#tags ManagementAwsDataCenterServer#tags}
   */
   readonly tags?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_aws_data_center_server checkpoint_management_aws_data_center_server}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_aws_data_center_server checkpoint_management_aws_data_center_server}
 */
 export class ManagementAwsDataCenterServer extends cdktf.TerraformResource {
 
@@ -118,7 +118,7 @@ export class ManagementAwsDataCenterServer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementAwsDataCenterServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementAwsDataCenterServer to import
-  * @param importFromId The id of the existing ManagementAwsDataCenterServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_aws_data_center_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementAwsDataCenterServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_aws_data_center_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementAwsDataCenterServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -130,7 +130,7 @@ export class ManagementAwsDataCenterServer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_aws_data_center_server checkpoint_management_aws_data_center_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_aws_data_center_server checkpoint_management_aws_data_center_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -141,7 +141,8 @@ export class ManagementAwsDataCenterServer extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_aws_data_center_server',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

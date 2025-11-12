@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_ct_bgp_peering_generic_system
+// https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_ct_bgp_peering_generic_system
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,85 +10,85 @@ export interface DataApstraDatacenterCtBgpPeeringGenericSystemConfig extends cdk
   /**
   * Enable BFD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_ct_bgp_peering_generic_system#bfd_enabled DataApstraDatacenterCtBgpPeeringGenericSystem#bfd_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_ct_bgp_peering_generic_system#bfd_enabled DataApstraDatacenterCtBgpPeeringGenericSystem#bfd_enabled}
   */
   readonly bfdEnabled?: boolean | cdktf.IResolvable;
   /**
   * Set of JSON strings describing Connectivity Template Primitives which are children of this Connectivity Template Primitive. Use the `primitive` attribute of other Connectivity Template Primitives data sources here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_ct_bgp_peering_generic_system#child_primitives DataApstraDatacenterCtBgpPeeringGenericSystem#child_primitives}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_ct_bgp_peering_generic_system#child_primitives DataApstraDatacenterCtBgpPeeringGenericSystem#child_primitives}
   */
   readonly childPrimitives?: string[];
   /**
   * BGP hold time (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_ct_bgp_peering_generic_system#hold_time DataApstraDatacenterCtBgpPeeringGenericSystem#hold_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_ct_bgp_peering_generic_system#hold_time DataApstraDatacenterCtBgpPeeringGenericSystem#hold_time}
   */
   readonly holdTime?: number;
   /**
   * One of `none`, `addressed` (or omit)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_ct_bgp_peering_generic_system#ipv4_addressing_type DataApstraDatacenterCtBgpPeeringGenericSystem#ipv4_addressing_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_ct_bgp_peering_generic_system#ipv4_addressing_type DataApstraDatacenterCtBgpPeeringGenericSystem#ipv4_addressing_type}
   */
   readonly ipv4AddressingType?: string;
   /**
   * One of `none`, `addressed`, `link_local` (or omit)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_ct_bgp_peering_generic_system#ipv6_addressing_type DataApstraDatacenterCtBgpPeeringGenericSystem#ipv6_addressing_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_ct_bgp_peering_generic_system#ipv6_addressing_type DataApstraDatacenterCtBgpPeeringGenericSystem#ipv6_addressing_type}
   */
   readonly ipv6AddressingType?: string;
   /**
   * BGP keepalive time (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_ct_bgp_peering_generic_system#keepalive_time DataApstraDatacenterCtBgpPeeringGenericSystem#keepalive_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_ct_bgp_peering_generic_system#keepalive_time DataApstraDatacenterCtBgpPeeringGenericSystem#keepalive_time}
   */
   readonly keepaliveTime?: number;
   /**
   * This feature is configured on a per-peer basis. It allows a router to appear to be a member of a second autonomous system (AS) by prepending a local-as AS number, in addition to its real AS number, announced to its eBGP peer, resulting in an AS path length of two.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_ct_bgp_peering_generic_system#local_asn DataApstraDatacenterCtBgpPeeringGenericSystem#local_asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_ct_bgp_peering_generic_system#local_asn DataApstraDatacenterCtBgpPeeringGenericSystem#local_asn}
   */
   readonly localAsn?: number;
   /**
   * Primitive name displayed in the web UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_ct_bgp_peering_generic_system#name DataApstraDatacenterCtBgpPeeringGenericSystem#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_ct_bgp_peering_generic_system#name DataApstraDatacenterCtBgpPeeringGenericSystem#name}
   */
   readonly name?: string;
   /**
   * Default behavior is `static`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_ct_bgp_peering_generic_system#neighbor_asn_dynamic DataApstraDatacenterCtBgpPeeringGenericSystem#neighbor_asn_dynamic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_ct_bgp_peering_generic_system#neighbor_asn_dynamic DataApstraDatacenterCtBgpPeeringGenericSystem#neighbor_asn_dynamic}
   */
   readonly neighborAsnDynamic?: boolean | cdktf.IResolvable;
   /**
   * BGP TCP authentication password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_ct_bgp_peering_generic_system#password DataApstraDatacenterCtBgpPeeringGenericSystem#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_ct_bgp_peering_generic_system#password DataApstraDatacenterCtBgpPeeringGenericSystem#password}
   */
   readonly password?: string;
   /**
   * Enable to peer from loopback interface. Default behavior peers from physical interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_ct_bgp_peering_generic_system#peer_from_loopback DataApstraDatacenterCtBgpPeeringGenericSystem#peer_from_loopback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_ct_bgp_peering_generic_system#peer_from_loopback DataApstraDatacenterCtBgpPeeringGenericSystem#peer_from_loopback}
   */
   readonly peerFromLoopback?: boolean | cdktf.IResolvable;
   /**
   * One of `loopback`, `interface_or_ip_endpoint`, `interface_or_shared_ip_endpoint` (or omit)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_ct_bgp_peering_generic_system#peer_to DataApstraDatacenterCtBgpPeeringGenericSystem#peer_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_ct_bgp_peering_generic_system#peer_to DataApstraDatacenterCtBgpPeeringGenericSystem#peer_to}
   */
   readonly peerTo?: string;
   /**
   * BGP Time To Live. Omit to use device defaults.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_ct_bgp_peering_generic_system#ttl DataApstraDatacenterCtBgpPeeringGenericSystem#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_ct_bgp_peering_generic_system#ttl DataApstraDatacenterCtBgpPeeringGenericSystem#ttl}
   */
   readonly ttl?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_ct_bgp_peering_generic_system apstra_datacenter_ct_bgp_peering_generic_system}
+* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_ct_bgp_peering_generic_system apstra_datacenter_ct_bgp_peering_generic_system}
 */
 export class DataApstraDatacenterCtBgpPeeringGenericSystem extends cdktf.TerraformDataSource {
 
@@ -104,7 +104,7 @@ export class DataApstraDatacenterCtBgpPeeringGenericSystem extends cdktf.Terrafo
   * Generates CDKTF code for importing a DataApstraDatacenterCtBgpPeeringGenericSystem resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataApstraDatacenterCtBgpPeeringGenericSystem to import
-  * @param importFromId The id of the existing DataApstraDatacenterCtBgpPeeringGenericSystem that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_ct_bgp_peering_generic_system#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataApstraDatacenterCtBgpPeeringGenericSystem that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_ct_bgp_peering_generic_system#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataApstraDatacenterCtBgpPeeringGenericSystem to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -116,7 +116,7 @@ export class DataApstraDatacenterCtBgpPeeringGenericSystem extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_ct_bgp_peering_generic_system apstra_datacenter_ct_bgp_peering_generic_system} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_ct_bgp_peering_generic_system apstra_datacenter_ct_bgp_peering_generic_system} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -127,7 +127,8 @@ export class DataApstraDatacenterCtBgpPeeringGenericSystem extends cdktf.Terrafo
       terraformResourceType: 'apstra_datacenter_ct_bgp_peering_generic_system',
       terraformGeneratorMetadata: {
         providerName: 'apstra',
-        providerVersion: '0.95.0'
+        providerVersion: '0.95.1',
+        providerVersionConstraint: '0.95.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

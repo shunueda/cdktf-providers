@@ -1052,7 +1052,8 @@ export class DataK8SCiliumIoCiliumEndpointSliceV2Alpha1Manifest extends cdktf.Te
       terraformResourceType: 'k8s_cilium_io_cilium_endpoint_slice_v2alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

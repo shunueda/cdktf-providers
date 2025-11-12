@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cse_log_mapping
+// https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_log_mapping
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,66 +8,66 @@ import * as cdktf from 'cdktf';
 
 export interface CseLogMappingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cse_log_mapping#enabled CseLogMapping#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_log_mapping#enabled CseLogMapping#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cse_log_mapping#id CseLogMapping#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_log_mapping#id CseLogMapping#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cse_log_mapping#name CseLogMapping#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_log_mapping#name CseLogMapping#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cse_log_mapping#parent_id CseLogMapping#parent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_log_mapping#parent_id CseLogMapping#parent_id}
   */
   readonly parentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cse_log_mapping#product_guid CseLogMapping#product_guid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_log_mapping#product_guid CseLogMapping#product_guid}
   */
   readonly productGuid: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cse_log_mapping#record_type CseLogMapping#record_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_log_mapping#record_type CseLogMapping#record_type}
   */
   readonly recordType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cse_log_mapping#relates_entities CseLogMapping#relates_entities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_log_mapping#relates_entities CseLogMapping#relates_entities}
   */
   readonly relatesEntities?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cse_log_mapping#skipped_values CseLogMapping#skipped_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_log_mapping#skipped_values CseLogMapping#skipped_values}
   */
   readonly skippedValues?: string[];
   /**
   * fields block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cse_log_mapping#fields CseLogMapping#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_log_mapping#fields CseLogMapping#fields}
   */
   readonly fields: CseLogMappingFields[] | cdktf.IResolvable;
   /**
   * structured_inputs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cse_log_mapping#structured_inputs CseLogMapping#structured_inputs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_log_mapping#structured_inputs CseLogMapping#structured_inputs}
   */
   readonly structuredInputs?: CseLogMappingStructuredInputs[] | cdktf.IResolvable;
   /**
   * unstructured_fields block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cse_log_mapping#unstructured_fields CseLogMapping#unstructured_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_log_mapping#unstructured_fields CseLogMapping#unstructured_fields}
   */
   readonly unstructuredFields?: CseLogMappingUnstructuredFields;
 }
 export interface CseLogMappingFieldsLookup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cse_log_mapping#key CseLogMapping#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_log_mapping#key CseLogMapping#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cse_log_mapping#value CseLogMapping#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_log_mapping#value CseLogMapping#value}
   */
   readonly value: string;
 }
@@ -206,65 +206,65 @@ export class CseLogMappingFieldsLookupList extends cdktf.ComplexList {
 }
 export interface CseLogMappingFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cse_log_mapping#alternate_values CseLogMapping#alternate_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_log_mapping#alternate_values CseLogMapping#alternate_values}
   */
   readonly alternateValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cse_log_mapping#case_insensitive CseLogMapping#case_insensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_log_mapping#case_insensitive CseLogMapping#case_insensitive}
   */
   readonly caseInsensitive?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cse_log_mapping#default_value CseLogMapping#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_log_mapping#default_value CseLogMapping#default_value}
   */
   readonly defaultValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cse_log_mapping#field_join CseLogMapping#field_join}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_log_mapping#field_join CseLogMapping#field_join}
   */
   readonly fieldJoin?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cse_log_mapping#format CseLogMapping#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_log_mapping#format CseLogMapping#format}
   */
   readonly format?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cse_log_mapping#format_parameters CseLogMapping#format_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_log_mapping#format_parameters CseLogMapping#format_parameters}
   */
   readonly formatParameters?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cse_log_mapping#join_delimiter CseLogMapping#join_delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_log_mapping#join_delimiter CseLogMapping#join_delimiter}
   */
   readonly joinDelimiter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cse_log_mapping#name CseLogMapping#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_log_mapping#name CseLogMapping#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cse_log_mapping#skipped_values CseLogMapping#skipped_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_log_mapping#skipped_values CseLogMapping#skipped_values}
   */
   readonly skippedValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cse_log_mapping#split_delimiter CseLogMapping#split_delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_log_mapping#split_delimiter CseLogMapping#split_delimiter}
   */
   readonly splitDelimiter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cse_log_mapping#split_index CseLogMapping#split_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_log_mapping#split_index CseLogMapping#split_index}
   */
   readonly splitIndex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cse_log_mapping#time_zone CseLogMapping#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_log_mapping#time_zone CseLogMapping#time_zone}
   */
   readonly timeZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cse_log_mapping#value CseLogMapping#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_log_mapping#value CseLogMapping#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cse_log_mapping#value_type CseLogMapping#value_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_log_mapping#value_type CseLogMapping#value_type}
   */
   readonly valueType?: string;
   /**
   * lookup block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cse_log_mapping#lookup CseLogMapping#lookup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_log_mapping#lookup CseLogMapping#lookup}
   */
   readonly lookup?: CseLogMappingFieldsLookup[] | cdktf.IResolvable;
 }
@@ -783,19 +783,19 @@ export class CseLogMappingFieldsList extends cdktf.ComplexList {
 }
 export interface CseLogMappingStructuredInputs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cse_log_mapping#event_id_pattern CseLogMapping#event_id_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_log_mapping#event_id_pattern CseLogMapping#event_id_pattern}
   */
   readonly eventIdPattern: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cse_log_mapping#log_format CseLogMapping#log_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_log_mapping#log_format CseLogMapping#log_format}
   */
   readonly logFormat: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cse_log_mapping#product CseLogMapping#product}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_log_mapping#product CseLogMapping#product}
   */
   readonly product: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cse_log_mapping#vendor CseLogMapping#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_log_mapping#vendor CseLogMapping#vendor}
   */
   readonly vendor: string;
 }
@@ -986,7 +986,7 @@ export class CseLogMappingStructuredInputsList extends cdktf.ComplexList {
 }
 export interface CseLogMappingUnstructuredFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cse_log_mapping#pattern_names CseLogMapping#pattern_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_log_mapping#pattern_names CseLogMapping#pattern_names}
   */
   readonly patternNames: string[];
 }
@@ -1067,7 +1067,7 @@ export class CseLogMappingUnstructuredFieldsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cse_log_mapping sumologic_cse_log_mapping}
+* Represents a {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_log_mapping sumologic_cse_log_mapping}
 */
 export class CseLogMapping extends cdktf.TerraformResource {
 
@@ -1083,7 +1083,7 @@ export class CseLogMapping extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CseLogMapping resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CseLogMapping to import
-  * @param importFromId The id of the existing CseLogMapping that should be imported. Refer to the {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cse_log_mapping#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CseLogMapping that should be imported. Refer to the {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_log_mapping#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CseLogMapping to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1095,7 +1095,7 @@ export class CseLogMapping extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/cse_log_mapping sumologic_cse_log_mapping} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/cse_log_mapping sumologic_cse_log_mapping} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1106,7 +1106,8 @@ export class CseLogMapping extends cdktf.TerraformResource {
       terraformResourceType: 'sumologic_cse_log_mapping',
       terraformGeneratorMetadata: {
         providerName: 'sumologic',
-        providerVersion: '3.1.7'
+        providerVersion: '3.1.8',
+        providerVersionConstraint: '3.1.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

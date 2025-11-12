@@ -968,7 +968,8 @@ export class DataAlicloudCmsHybridMonitorSlsTasks extends cdktf.TerraformDataSou
       terraformResourceType: 'alicloud_cms_hybrid_monitor_sls_tasks',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

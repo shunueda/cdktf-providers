@@ -17,7 +17,7 @@ import { Construct } from 'constructs';
 import * as cdktf from 'cdktf';
 export interface DataRafayAksClusterV3Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#id DataRafayAksClusterV3#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster_v3#id DataRafayAksClusterV3#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -26,25 +26,25 @@ export interface DataRafayAksClusterV3Config extends cdktf.TerraformMetaArgument
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#metadata DataRafayAksClusterV3#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster_v3#metadata DataRafayAksClusterV3#metadata}
   */
   readonly metadata?: DataRafayAksClusterV3Metadata;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#spec DataRafayAksClusterV3#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster_v3#spec DataRafayAksClusterV3#spec}
   */
   readonly spec?: DataRafayAksClusterV3Spec;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#timeouts DataRafayAksClusterV3#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster_v3#timeouts DataRafayAksClusterV3#timeouts}
   */
   readonly timeouts?: DataRafayAksClusterV3Timeouts;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3 rafay_aks_cluster_v3}
+* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster_v3 rafay_aks_cluster_v3}
 */
 export class DataRafayAksClusterV3 extends cdktf.TerraformDataSource {
 
@@ -60,7 +60,7 @@ export class DataRafayAksClusterV3 extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataRafayAksClusterV3 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataRafayAksClusterV3 to import
-  * @param importFromId The id of the existing DataRafayAksClusterV3 that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataRafayAksClusterV3 that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster_v3#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataRafayAksClusterV3 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -72,7 +72,7 @@ export class DataRafayAksClusterV3 extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/aks_cluster_v3 rafay_aks_cluster_v3} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/aks_cluster_v3 rafay_aks_cluster_v3} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -83,7 +83,8 @@ export class DataRafayAksClusterV3 extends cdktf.TerraformDataSource {
       terraformResourceType: 'rafay_aks_cluster_v3',
       terraformGeneratorMetadata: {
         providerName: 'rafay',
-        providerVersion: '1.1.52'
+        providerVersion: '1.1.53',
+        providerVersionConstraint: '1.1.53'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -443,7 +443,8 @@ export class DataProfitbricksPrivateCrossconnect extends cdktf.TerraformDataSour
       terraformResourceType: 'profitbricks_private_crossconnect',
       terraformGeneratorMetadata: {
         providerName: 'profitbricks',
-        providerVersion: '1.6.5'
+        providerVersion: '1.6.5',
+        providerVersionConstraint: '1.6.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

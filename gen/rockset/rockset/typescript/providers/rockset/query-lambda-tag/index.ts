@@ -80,7 +80,8 @@ export class QueryLambdaTag extends cdktf.TerraformResource {
       terraformResourceType: 'rockset_query_lambda_tag',
       terraformGeneratorMetadata: {
         providerName: 'rockset',
-        providerVersion: '0.9.8'
+        providerVersion: '0.9.8',
+        providerVersionConstraint: '0.9.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

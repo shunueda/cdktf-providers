@@ -104,7 +104,8 @@ export class ArchitectIvr extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_architect_ivr',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.70.0'
+        providerVersion: '1.70.0',
+        providerVersionConstraint: '1.70.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

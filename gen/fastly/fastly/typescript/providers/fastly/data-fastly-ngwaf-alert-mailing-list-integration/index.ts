@@ -137,7 +137,8 @@ export class DataFastlyNgwafAlertMailingListIntegration extends cdktf.TerraformD
       terraformResourceType: 'fastly_ngwaf_alert_mailing_list_integration',
       terraformGeneratorMetadata: {
         providerName: 'fastly',
-        providerVersion: '8.4.0'
+        providerVersion: '8.4.0',
+        providerVersionConstraint: '8.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

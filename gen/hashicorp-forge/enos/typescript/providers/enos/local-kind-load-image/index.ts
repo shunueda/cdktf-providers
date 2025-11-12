@@ -137,7 +137,8 @@ export class LocalKindLoadImage extends cdktf.TerraformResource {
       terraformResourceType: 'enos_local_kind_load_image',
       terraformGeneratorMetadata: {
         providerName: 'enos',
-        providerVersion: '0.6.2'
+        providerVersion: '0.6.2',
+        providerVersionConstraint: '0.6.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

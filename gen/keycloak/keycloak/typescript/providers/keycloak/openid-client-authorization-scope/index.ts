@@ -76,7 +76,8 @@ export class OpenidClientAuthorizationScope extends cdktf.TerraformResource {
       terraformResourceType: 'keycloak_openid_client_authorization_scope',
       terraformGeneratorMetadata: {
         providerName: 'keycloak',
-        providerVersion: '5.5.0'
+        providerVersion: '5.5.0',
+        providerVersionConstraint: '5.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

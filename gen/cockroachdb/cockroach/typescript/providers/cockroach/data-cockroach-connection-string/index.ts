@@ -159,7 +159,8 @@ export class DataCockroachConnectionString extends cdktf.TerraformDataSource {
       terraformResourceType: 'cockroach_connection_string',
       terraformGeneratorMetadata: {
         providerName: 'cockroach',
-        providerVersion: '1.16.0'
+        providerVersion: '1.16.0',
+        providerVersionConstraint: '1.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

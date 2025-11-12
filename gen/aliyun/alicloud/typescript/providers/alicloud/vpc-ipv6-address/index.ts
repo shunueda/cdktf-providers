@@ -250,7 +250,8 @@ export class VpcIpv6Address extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_vpc_ipv6_address',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

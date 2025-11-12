@@ -92,7 +92,8 @@ export class AutoScalingSchedule extends cdktf.TerraformResource {
       terraformResourceType: 'ncloud_auto_scaling_schedule',
       terraformGeneratorMetadata: {
         providerName: 'ncloud',
-        providerVersion: '4.0.4'
+        providerVersion: '4.0.4',
+        providerVersionConstraint: '4.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

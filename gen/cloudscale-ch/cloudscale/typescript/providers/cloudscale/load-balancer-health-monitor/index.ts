@@ -104,7 +104,8 @@ export class LoadBalancerHealthMonitor extends cdktf.TerraformResource {
       terraformResourceType: 'cloudscale_load_balancer_health_monitor',
       terraformGeneratorMetadata: {
         providerName: 'cloudscale',
-        providerVersion: '5.0.0'
+        providerVersion: '5.0.0',
+        providerVersionConstraint: '5.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

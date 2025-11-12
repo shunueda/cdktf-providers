@@ -386,7 +386,8 @@ export class BootstrapGit extends cdktf.TerraformResource {
       terraformResourceType: 'flux_bootstrap_git',
       terraformGeneratorMetadata: {
         providerName: 'flux',
-        providerVersion: '1.7.4'
+        providerVersion: '1.7.4',
+        providerVersionConstraint: '1.7.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

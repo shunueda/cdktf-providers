@@ -384,7 +384,8 @@ export class KibanaActionConnector extends cdktf.TerraformResource {
       terraformResourceType: 'elasticstack_kibana_action_connector',
       terraformGeneratorMetadata: {
         providerName: 'elasticstack',
-        providerVersion: '0.12.1'
+        providerVersion: '0.12.1',
+        providerVersionConstraint: '0.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

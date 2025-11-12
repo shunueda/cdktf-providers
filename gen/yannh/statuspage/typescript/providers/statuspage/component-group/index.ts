@@ -80,7 +80,8 @@ export class ComponentGroup extends cdktf.TerraformResource {
       terraformResourceType: 'statuspage_component_group',
       terraformGeneratorMetadata: {
         providerName: 'statuspage',
-        providerVersion: '0.1.12'
+        providerVersion: '0.1.12',
+        providerVersionConstraint: '0.1.12'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -61,7 +61,8 @@ export class IntegrationSlackAlerts extends cdktf.TerraformResource {
       terraformResourceType: 'cyral_integration_slack_alerts',
       terraformGeneratorMetadata: {
         providerName: 'cyral',
-        providerVersion: '4.16.3'
+        providerVersion: '4.16.3',
+        providerVersionConstraint: '4.16.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

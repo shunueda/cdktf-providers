@@ -75,7 +75,8 @@ export class TurbotProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'turbot',
       terraformGeneratorMetadata: {
         providerName: 'turbot',
-        providerVersion: '1.13.0'
+        providerVersion: '1.13.0',
+        providerVersionConstraint: '1.13.0'
       },
       terraformProviderSource: 'turbot/turbot'
     });

@@ -98,7 +98,8 @@ export class Dashboard extends cdktf.TerraformResource {
       terraformResourceType: 'shoreline_dashboard',
       terraformGeneratorMetadata: {
         providerName: 'shoreline',
-        providerVersion: '1.15.38'
+        providerVersion: '1.15.38',
+        providerVersionConstraint: '1.15.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

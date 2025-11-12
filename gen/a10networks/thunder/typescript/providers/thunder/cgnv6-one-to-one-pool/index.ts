@@ -110,7 +110,8 @@ export class Cgnv6OneToOnePool extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_cgnv6_one_to_one_pool',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

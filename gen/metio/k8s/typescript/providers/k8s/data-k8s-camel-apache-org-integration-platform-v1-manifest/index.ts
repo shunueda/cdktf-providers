@@ -17864,7 +17864,8 @@ export class DataK8SCamelApacheOrgIntegrationPlatformV1Manifest extends cdktf.Te
       terraformResourceType: 'k8s_camel_apache_org_integration_platform_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

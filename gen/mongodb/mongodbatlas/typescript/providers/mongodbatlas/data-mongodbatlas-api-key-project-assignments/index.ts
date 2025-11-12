@@ -142,7 +142,8 @@ export class DataMongodbatlasApiKeyProjectAssignments extends cdktf.TerraformDat
       terraformResourceType: 'mongodbatlas_api_key_project_assignments',
       terraformGeneratorMetadata: {
         providerName: 'mongodbatlas',
-        providerVersion: '2.1.0'
+        providerVersion: '2.1.0',
+        providerVersionConstraint: '2.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

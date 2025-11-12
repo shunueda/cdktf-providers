@@ -115,7 +115,8 @@ export class MinioProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'minio',
       terraformGeneratorMetadata: {
         providerName: 'minio',
-        providerVersion: '0.2.0'
+        providerVersion: '0.2.0',
+        providerVersionConstraint: '0.2.0'
       },
       terraformProviderSource: 'Ferlab-Ste-Justine/minio'
     });

@@ -67,7 +67,8 @@ export class DataSecureworkloadScope extends cdktf.TerraformDataSource {
       terraformResourceType: 'secureworkload_scope',
       terraformGeneratorMetadata: {
         providerName: 'secureworkload',
-        providerVersion: '1.8.0'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

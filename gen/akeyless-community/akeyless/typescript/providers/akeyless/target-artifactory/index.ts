@@ -92,7 +92,8 @@ export class TargetArtifactory extends cdktf.TerraformResource {
       terraformResourceType: 'akeyless_target_artifactory',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1'
+        providerVersion: '1.11.1',
+        providerVersionConstraint: '1.11.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

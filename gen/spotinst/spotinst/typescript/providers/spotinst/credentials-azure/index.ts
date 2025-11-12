@@ -80,7 +80,8 @@ export class CredentialsAzure extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_credentials_azure',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.230.0'
+        providerVersion: '1.230.0',
+        providerVersionConstraint: '1.230.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

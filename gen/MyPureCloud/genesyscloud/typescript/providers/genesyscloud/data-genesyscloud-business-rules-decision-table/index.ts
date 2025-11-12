@@ -62,7 +62,8 @@ export class DataGenesyscloudBusinessRulesDecisionTable extends cdktf.TerraformD
       terraformResourceType: 'genesyscloud_business_rules_decision_table',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.70.0'
+        providerVersion: '1.70.0',
+        providerVersionConstraint: '1.70.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

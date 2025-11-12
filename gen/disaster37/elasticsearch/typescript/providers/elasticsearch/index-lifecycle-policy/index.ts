@@ -64,7 +64,8 @@ export class IndexLifecyclePolicy extends cdktf.TerraformResource {
       terraformResourceType: 'elasticsearch_index_lifecycle_policy',
       terraformGeneratorMetadata: {
         providerName: 'elasticsearch',
-        providerVersion: '8.4.0'
+        providerVersion: '8.4.0',
+        providerVersionConstraint: '8.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

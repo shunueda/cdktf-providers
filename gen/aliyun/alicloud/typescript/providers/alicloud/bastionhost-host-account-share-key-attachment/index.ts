@@ -201,7 +201,8 @@ export class BastionhostHostAccountShareKeyAttachment extends cdktf.TerraformRes
       terraformResourceType: 'alicloud_bastionhost_host_account_share_key_attachment',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

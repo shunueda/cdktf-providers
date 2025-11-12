@@ -175,7 +175,8 @@ export class DataAlicloudCloudMonitorServiceHybridDoubleWrites extends cdktf.Ter
       terraformResourceType: 'alicloud_cloud_monitor_service_hybrid_double_writes',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

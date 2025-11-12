@@ -55,7 +55,8 @@ export class DataNxosFeatureNvOverlay extends cdktf.TerraformDataSource {
       terraformResourceType: 'nxos_feature_nv_overlay',
       terraformGeneratorMetadata: {
         providerName: 'nxos',
-        providerVersion: '0.5.10'
+        providerVersion: '0.5.10',
+        providerVersionConstraint: '0.5.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -205,7 +205,8 @@ export class DataVultrIsoPrivate extends cdktf.TerraformDataSource {
       terraformResourceType: 'vultr_iso_private',
       terraformGeneratorMetadata: {
         providerName: 'vultr',
-        providerVersion: '2.27.1'
+        providerVersion: '2.27.1',
+        providerVersionConstraint: '2.27.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

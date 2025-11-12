@@ -72,7 +72,8 @@ export class Certificate extends cdktf.TerraformResource {
       terraformResourceType: 'kong_certificate',
       terraformGeneratorMetadata: {
         providerName: 'kong',
-        providerVersion: '6.630.0'
+        providerVersion: '6.630.0',
+        providerVersionConstraint: '6.630.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

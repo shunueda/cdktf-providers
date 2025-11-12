@@ -64,7 +64,8 @@ export class DataTurbotPolicyValue extends cdktf.TerraformDataSource {
       terraformResourceType: 'turbot_policy_value',
       terraformGeneratorMetadata: {
         providerName: 'turbot',
-        providerVersion: '1.13.0'
+        providerVersion: '1.13.0',
+        providerVersionConstraint: '1.13.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

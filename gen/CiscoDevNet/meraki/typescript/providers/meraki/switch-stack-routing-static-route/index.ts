@@ -103,7 +103,8 @@ export class SwitchStackRoutingStaticRoute extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_switch_stack_routing_static_route',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1'
+        providerVersion: '1.7.1',
+        providerVersionConstraint: '1.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

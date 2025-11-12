@@ -1049,7 +1049,8 @@ export class DataOctopusdeployAzureCloudServiceDeploymentTargets extends cdktf.T
       terraformResourceType: 'octopusdeploy_azure_cloud_service_deployment_targets',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.4.0'
+        providerVersion: '1.4.0',
+        providerVersionConstraint: '1.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -80,7 +80,8 @@ export class EmergencyAccessUser extends cdktf.TerraformResource {
       terraformResourceType: 'zpa_emergency_access_user',
       terraformGeneratorMetadata: {
         providerName: 'zpa',
-        providerVersion: '4.3.2'
+        providerVersion: '4.3.2',
+        providerVersionConstraint: '4.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

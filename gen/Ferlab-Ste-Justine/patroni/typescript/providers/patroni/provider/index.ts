@@ -149,7 +149,8 @@ export class PatroniProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'patroni',
       terraformGeneratorMetadata: {
         providerName: 'patroni',
-        providerVersion: '0.1.1'
+        providerVersion: '0.1.1',
+        providerVersionConstraint: '0.1.1'
       },
       terraformProviderSource: 'Ferlab-Ste-Justine/patroni'
     });

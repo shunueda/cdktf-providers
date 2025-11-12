@@ -312,7 +312,8 @@ export class OauthAuthorization extends cdktf.TerraformResource {
       terraformResourceType: 'herokux_oauth_authorization',
       terraformGeneratorMetadata: {
         providerName: 'herokux',
-        providerVersion: '1.4.7'
+        providerVersion: '1.4.7',
+        providerVersionConstraint: '1.4.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -61,7 +61,8 @@ export class SshKey extends cdktf.TerraformResource {
       terraformResourceType: 'juju_ssh_key',
       terraformGeneratorMetadata: {
         providerName: 'juju',
-        providerVersion: '1.0.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

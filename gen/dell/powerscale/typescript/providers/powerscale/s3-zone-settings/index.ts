@@ -79,7 +79,8 @@ export class S3ZoneSettings extends cdktf.TerraformResource {
       terraformResourceType: 'powerscale_s3_zone_settings',
       terraformGeneratorMetadata: {
         providerName: 'powerscale',
-        providerVersion: '1.8.0'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

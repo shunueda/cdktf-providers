@@ -565,7 +565,8 @@ export class DataAzapiResource extends cdktf.TerraformDataSource {
       terraformResourceType: 'azapi_resource',
       terraformGeneratorMetadata: {
         providerName: 'azapi',
-        providerVersion: '2.7.0'
+        providerVersion: '2.7.0',
+        providerVersionConstraint: '2.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

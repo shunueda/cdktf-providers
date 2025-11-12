@@ -828,7 +828,8 @@ export class ItAutomationTask extends cdktf.TerraformResource {
       terraformResourceType: 'crowdstrike_it_automation_task',
       terraformGeneratorMetadata: {
         providerName: 'crowdstrike',
-        providerVersion: '0.0.43'
+        providerVersion: '0.0.43',
+        providerVersionConstraint: '0.0.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

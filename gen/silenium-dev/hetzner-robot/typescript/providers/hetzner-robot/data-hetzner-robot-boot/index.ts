@@ -56,7 +56,8 @@ export class DataHetznerRobotBoot extends cdktf.TerraformDataSource {
       terraformResourceType: 'hetzner-robot_boot',
       terraformGeneratorMetadata: {
         providerName: 'hetzner-robot',
-        providerVersion: '3.5.5'
+        providerVersion: '3.5.5',
+        providerVersionConstraint: '3.5.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

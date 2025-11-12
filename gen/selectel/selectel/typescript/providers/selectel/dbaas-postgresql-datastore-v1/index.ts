@@ -1134,7 +1134,8 @@ export class DbaasPostgresqlDatastoreV1 extends cdktf.TerraformResource {
       terraformResourceType: 'selectel_dbaas_postgresql_datastore_v1',
       terraformGeneratorMetadata: {
         providerName: 'selectel',
-        providerVersion: '7.1.0'
+        providerVersion: '7.1.0',
+        providerVersionConstraint: '7.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

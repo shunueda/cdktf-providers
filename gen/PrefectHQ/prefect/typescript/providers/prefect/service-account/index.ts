@@ -85,7 +85,8 @@ export class ServiceAccount extends cdktf.TerraformResource {
       terraformResourceType: 'prefect_service_account',
       terraformGeneratorMetadata: {
         providerName: 'prefect',
-        providerVersion: '2.90.0'
+        providerVersion: '2.90.0',
+        providerVersionConstraint: '2.90.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

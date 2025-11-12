@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/metal_project_ssh_key
+// https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/metal_project_ssh_key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface MetalProjectSshKeyConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the SSH key for identification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/metal_project_ssh_key#name MetalProjectSshKey#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/metal_project_ssh_key#name MetalProjectSshKey#name}
   */
   readonly name: string;
   /**
   * The ID of parent project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/metal_project_ssh_key#project_id MetalProjectSshKey#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/metal_project_ssh_key#project_id MetalProjectSshKey#project_id}
   */
   readonly projectId: string;
   /**
   * The public key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/metal_project_ssh_key#public_key MetalProjectSshKey#public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/metal_project_ssh_key#public_key MetalProjectSshKey#public_key}
   */
   readonly publicKey: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/metal_project_ssh_key equinix_metal_project_ssh_key}
+* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/metal_project_ssh_key equinix_metal_project_ssh_key}
 */
 export class MetalProjectSshKey extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class MetalProjectSshKey extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MetalProjectSshKey resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MetalProjectSshKey to import
-  * @param importFromId The id of the existing MetalProjectSshKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/metal_project_ssh_key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MetalProjectSshKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/metal_project_ssh_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MetalProjectSshKey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class MetalProjectSshKey extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/metal_project_ssh_key equinix_metal_project_ssh_key} Resource
+  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/metal_project_ssh_key equinix_metal_project_ssh_key} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,7 +67,8 @@ export class MetalProjectSshKey extends cdktf.TerraformResource {
       terraformResourceType: 'equinix_metal_project_ssh_key',
       terraformGeneratorMetadata: {
         providerName: 'equinix',
-        providerVersion: '4.8.0'
+        providerVersion: '4.10.0',
+        providerVersionConstraint: '4.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

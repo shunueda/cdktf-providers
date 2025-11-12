@@ -74,7 +74,8 @@ export class MariadbBackupTime extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_mariadb_backup_time',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -116,7 +116,8 @@ export class WorkflowJobTemplateNodeSuccess extends cdktf.TerraformResource {
       terraformResourceType: 'awx_workflow_job_template_node_success',
       terraformGeneratorMetadata: {
         providerName: 'awx',
-        providerVersion: '0.29.1'
+        providerVersion: '0.29.1',
+        providerVersionConstraint: '0.29.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

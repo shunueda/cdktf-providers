@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/evpn
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/evpn
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,103 +10,109 @@ export interface EvpnConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enable Auto Anycast Gateway MAC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/evpn#anycast_gateway_mac_auto Evpn#anycast_gateway_mac_auto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/evpn#anycast_gateway_mac_auto Evpn#anycast_gateway_mac_auto}
   */
   readonly anycastGatewayMacAuto?: boolean | cdktf.IResolvable;
   /**
   * Advertise Default Gateway MAC/IP routes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/evpn#default_gateway_advertise Evpn#default_gateway_advertise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/evpn#default_gateway_advertise Evpn#default_gateway_advertise}
   */
   readonly defaultGatewayAdvertise?: boolean | cdktf.IResolvable;
   /**
   * Configure behavior when deleting/destroying the resource. Either delete the entire object (YANG container) being managed, or only delete the individual resource attributes configured explicitly and leave everything else as-is. Default value is `all`.
   *   - Choices: `all`, `attributes`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/evpn#delete_mode Evpn#delete_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/evpn#delete_mode Evpn#delete_mode}
   */
   readonly deleteMode?: string;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/evpn#device Evpn#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/evpn#device Evpn#device}
   */
   readonly device?: string;
+  /**
+  * Disable flooding suppression
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/evpn#flooding_suppression_address_resolution_disable Evpn#flooding_suppression_address_resolution_disable}
+  */
+  readonly floodingSuppressionAddressResolutionDisable?: boolean | cdktf.IResolvable;
   /**
   * Number of IP moves within specified time interval
   *   - Range: `2`-`1000`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/evpn#ip_duplication_limit Evpn#ip_duplication_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/evpn#ip_duplication_limit Evpn#ip_duplication_limit}
   */
   readonly ipDuplicationLimit?: number;
   /**
   * IP duplication timer
   *   - Range: `10`-`36000`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/evpn#ip_duplication_time Evpn#ip_duplication_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/evpn#ip_duplication_time Evpn#ip_duplication_time}
   */
   readonly ipDuplicationTime?: number;
   /**
   * Peer state transition logging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/evpn#logging_peer_state Evpn#logging_peer_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/evpn#logging_peer_state Evpn#logging_peer_state}
   */
   readonly loggingPeerState?: boolean | cdktf.IResolvable;
   /**
   * Number of MAC moves within specified time interval
   *   - Range: `2`-`1000`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/evpn#mac_duplication_limit Evpn#mac_duplication_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/evpn#mac_duplication_limit Evpn#mac_duplication_limit}
   */
   readonly macDuplicationLimit?: number;
   /**
   * MAC duplication timer
   *   - Range: `10`-`36000`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/evpn#mac_duplication_time Evpn#mac_duplication_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/evpn#mac_duplication_time Evpn#mac_duplication_time}
   */
   readonly macDuplicationTime?: number;
   /**
   * Ingress replication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/evpn#replication_type_ingress Evpn#replication_type_ingress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/evpn#replication_type_ingress Evpn#replication_type_ingress}
   */
   readonly replicationTypeIngress?: boolean | cdktf.IResolvable;
   /**
   * mp2mp replication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/evpn#replication_type_mp2mp Evpn#replication_type_mp2mp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/evpn#replication_type_mp2mp Evpn#replication_type_mp2mp}
   */
   readonly replicationTypeMp2Mp?: boolean | cdktf.IResolvable;
   /**
   * p2mp replication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/evpn#replication_type_p2mp Evpn#replication_type_p2mp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/evpn#replication_type_p2mp Evpn#replication_type_p2mp}
   */
   readonly replicationTypeP2Mp?: boolean | cdktf.IResolvable;
   /**
   * Static replication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/evpn#replication_type_static Evpn#replication_type_static}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/evpn#replication_type_static Evpn#replication_type_static}
   */
   readonly replicationTypeStatic?: boolean | cdktf.IResolvable;
   /**
   * Set vni-based route-target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/evpn#route_target_auto_vni Evpn#route_target_auto_vni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/evpn#route_target_auto_vni Evpn#route_target_auto_vni}
   */
   readonly routeTargetAutoVni?: boolean | cdktf.IResolvable;
   /**
   * Loopback interface
   *   - Range: `0`-`2147483647`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/evpn#router_id_loopback Evpn#router_id_loopback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/evpn#router_id_loopback Evpn#router_id_loopback}
   */
   readonly routerIdLoopback?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/evpn iosxe_evpn}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/evpn iosxe_evpn}
 */
 export class Evpn extends cdktf.TerraformResource {
 
@@ -122,7 +128,7 @@ export class Evpn extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Evpn resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Evpn to import
-  * @param importFromId The id of the existing Evpn that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/evpn#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Evpn that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/evpn#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Evpn to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -134,7 +140,7 @@ export class Evpn extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/evpn iosxe_evpn} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/evpn iosxe_evpn} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -145,7 +151,8 @@ export class Evpn extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_evpn',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.9.3'
+        providerVersion: '0.10.0',
+        providerVersionConstraint: '0.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -159,6 +166,7 @@ export class Evpn extends cdktf.TerraformResource {
     this._defaultGatewayAdvertise = config.defaultGatewayAdvertise;
     this._deleteMode = config.deleteMode;
     this._device = config.device;
+    this._floodingSuppressionAddressResolutionDisable = config.floodingSuppressionAddressResolutionDisable;
     this._ipDuplicationLimit = config.ipDuplicationLimit;
     this._ipDuplicationTime = config.ipDuplicationTime;
     this._loggingPeerState = config.loggingPeerState;
@@ -238,6 +246,22 @@ export class Evpn extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get deviceInput() {
     return this._device;
+  }
+
+  // flooding_suppression_address_resolution_disable - computed: false, optional: true, required: false
+  private _floodingSuppressionAddressResolutionDisable?: boolean | cdktf.IResolvable; 
+  public get floodingSuppressionAddressResolutionDisable() {
+    return this.getBooleanAttribute('flooding_suppression_address_resolution_disable');
+  }
+  public set floodingSuppressionAddressResolutionDisable(value: boolean | cdktf.IResolvable) {
+    this._floodingSuppressionAddressResolutionDisable = value;
+  }
+  public resetFloodingSuppressionAddressResolutionDisable() {
+    this._floodingSuppressionAddressResolutionDisable = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get floodingSuppressionAddressResolutionDisableInput() {
+    return this._floodingSuppressionAddressResolutionDisable;
   }
 
   // id - computed: true, optional: false, required: false
@@ -431,6 +455,7 @@ export class Evpn extends cdktf.TerraformResource {
       default_gateway_advertise: cdktf.booleanToTerraform(this._defaultGatewayAdvertise),
       delete_mode: cdktf.stringToTerraform(this._deleteMode),
       device: cdktf.stringToTerraform(this._device),
+      flooding_suppression_address_resolution_disable: cdktf.booleanToTerraform(this._floodingSuppressionAddressResolutionDisable),
       ip_duplication_limit: cdktf.numberToTerraform(this._ipDuplicationLimit),
       ip_duplication_time: cdktf.numberToTerraform(this._ipDuplicationTime),
       logging_peer_state: cdktf.booleanToTerraform(this._loggingPeerState),
@@ -470,6 +495,12 @@ export class Evpn extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      flooding_suppression_address_resolution_disable: {
+        value: cdktf.booleanToHclTerraform(this._floodingSuppressionAddressResolutionDisable),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
       },
       ip_duplication_limit: {
         value: cdktf.numberToHclTerraform(this._ipDuplicationLimit),

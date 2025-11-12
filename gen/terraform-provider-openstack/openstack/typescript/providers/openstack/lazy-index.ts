@@ -101,6 +101,7 @@ Object.defineProperty(exports, 'sharedfilesystemSecurityserviceV2', { get: funct
 Object.defineProperty(exports, 'sharedfilesystemShareAccessV2', { get: function () { return require('./sharedfilesystem-share-access-v2'); } });
 Object.defineProperty(exports, 'sharedfilesystemShareV2', { get: function () { return require('./sharedfilesystem-share-v2'); } });
 Object.defineProperty(exports, 'sharedfilesystemSharenetworkV2', { get: function () { return require('./sharedfilesystem-sharenetwork-v2'); } });
+Object.defineProperty(exports, 'taasTapMirrorV2', { get: function () { return require('./taas-tap-mirror-v2'); } });
 Object.defineProperty(exports, 'vpnaasEndpointGroupV2', { get: function () { return require('./vpnaas-endpoint-group-v2'); } });
 Object.defineProperty(exports, 'vpnaasIkePolicyV2', { get: function () { return require('./vpnaas-ike-policy-v2'); } });
 Object.defineProperty(exports, 'vpnaasIpsecPolicyV2', { get: function () { return require('./vpnaas-ipsec-policy-v2'); } });
@@ -141,6 +142,9 @@ Object.defineProperty(exports, 'dataOpenstackKeymanagerContainerV1', { get: func
 Object.defineProperty(exports, 'dataOpenstackKeymanagerSecretV1', { get: function () { return require('./data-openstack-keymanager-secret-v1'); } });
 Object.defineProperty(exports, 'dataOpenstackLbFlavorV2', { get: function () { return require('./data-openstack-lb-flavor-v2'); } });
 Object.defineProperty(exports, 'dataOpenstackLbFlavorprofileV2', { get: function () { return require('./data-openstack-lb-flavorprofile-v2'); } });
+Object.defineProperty(exports, 'dataOpenstackLbListenerV2', { get: function () { return require('./data-openstack-lb-listener-v2'); } });
+Object.defineProperty(exports, 'dataOpenstackLbLoadbalancerV2', { get: function () { return require('./data-openstack-lb-loadbalancer-v2'); } });
+Object.defineProperty(exports, 'dataOpenstackLbPoolV2', { get: function () { return require('./data-openstack-lb-pool-v2'); } });
 Object.defineProperty(exports, 'dataOpenstackLoadbalancerFlavorV2', { get: function () { return require('./data-openstack-loadbalancer-flavor-v2'); } });
 Object.defineProperty(exports, 'dataOpenstackNetworkingAddressscopeV2', { get: function () { return require('./data-openstack-networking-addressscope-v2'); } });
 Object.defineProperty(exports, 'dataOpenstackNetworkingFloatingipV2', { get: function () { return require('./data-openstack-networking-floatingip-v2'); } });

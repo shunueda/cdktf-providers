@@ -145,7 +145,8 @@ export class OpenpipelineV2EventsSecurityPipelines extends cdktf.TerraformResour
       terraformResourceType: 'dynatrace_openpipeline_v2_events_security_pipelines',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1'
+        providerVersion: '1.87.1',
+        providerVersionConstraint: '1.87.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -4026,7 +4026,8 @@ export class DataIntersightHyperflexDevicePackageDownloadState extends cdktf.Ter
       terraformResourceType: 'intersight_hyperflex_device_package_download_state',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

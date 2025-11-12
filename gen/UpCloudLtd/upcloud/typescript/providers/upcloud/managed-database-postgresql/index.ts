@@ -4751,7 +4751,8 @@ export class ManagedDatabasePostgresql extends cdktf.TerraformResource {
       terraformResourceType: 'upcloud_managed_database_postgresql',
       terraformGeneratorMetadata: {
         providerName: 'upcloud',
-        providerVersion: '5.31.0'
+        providerVersion: '5.31.0',
+        providerVersionConstraint: '5.31.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

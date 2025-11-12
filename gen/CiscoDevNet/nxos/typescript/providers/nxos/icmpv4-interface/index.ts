@@ -75,7 +75,8 @@ export class Icmpv4Interface extends cdktf.TerraformResource {
       terraformResourceType: 'nxos_icmpv4_interface',
       terraformGeneratorMetadata: {
         providerName: 'nxos',
-        providerVersion: '0.5.10'
+        providerVersion: '0.5.10',
+        providerVersionConstraint: '0.5.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

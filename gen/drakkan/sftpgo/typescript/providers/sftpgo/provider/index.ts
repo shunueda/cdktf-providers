@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs
+// https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface SftpgoProviderConfig {
   /**
   * SFTPGo API key. May also be provided via SFTPGO_API_KEY environment variable. You must provide an API key or username and password. If both an API key and username and password are provided, the API key will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs#api_key SftpgoProvider#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs#api_key SftpgoProvider#api_key}
   */
   readonly apiKey?: string;
   /**
   * SFTPGo edition. 0 = Open Source, 1 = Enterprise
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs#edition SftpgoProvider#edition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs#edition SftpgoProvider#edition}
   */
   readonly edition?: number;
   /**
   * Headers to add to the HTTP request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs#headers SftpgoProvider#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs#headers SftpgoProvider#headers}
   */
   readonly headers?: SftpgoProviderHeaders[] | cdktf.IResolvable;
   /**
   * URI for SFTPGo API. May also be provided via SFTPGO_HOST environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs#host SftpgoProvider#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs#host SftpgoProvider#host}
   */
   readonly host?: string;
   /**
   * Password for SFTPGo API. May also be provided via SFTPGO_PASSWORD environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs#password SftpgoProvider#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs#password SftpgoProvider#password}
   */
   readonly password?: string;
   /**
   * Username for SFTPGo API. May also be provided via SFTPGO_USERNAME environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs#username SftpgoProvider#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs#username SftpgoProvider#username}
   */
   readonly username?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs#alias SftpgoProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs#alias SftpgoProvider#alias}
   */
   readonly alias?: string;
 }
@@ -54,13 +54,13 @@ export interface SftpgoProviderHeaders {
   /**
   * The header name. May also be provided via SFTPGO_HEADERS__0__KEY, SFTPGO_HEADERS__1__KEY, ... SFTPGO_HEADERS__9__KEY environment variables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs#key SftpgoProvider#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs#key SftpgoProvider#key}
   */
   readonly key: string;
   /**
   * The header value. May also be provided via SFTPGO_HEADERS__0__VALUE, SFTPGO_HEADERS__1__VALUE, ... SFTPGO_HEADERS__9__VALUE environment variables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs#value SftpgoProvider#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs#value SftpgoProvider#value}
   */
   readonly value: string;
 }
@@ -103,7 +103,7 @@ export function sftpgoProviderHeadersToHclTerraform(struct?: SftpgoProviderHeade
 
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs sftpgo}
+* Represents a {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs sftpgo}
 */
 export class SftpgoProvider extends cdktf.TerraformProvider {
 
@@ -119,7 +119,7 @@ export class SftpgoProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a SftpgoProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SftpgoProvider to import
-  * @param importFromId The id of the existing SftpgoProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SftpgoProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SftpgoProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -131,7 +131,7 @@ export class SftpgoProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.18/docs sftpgo} Resource
+  * Create a new {@link https://registry.terraform.io/providers/drakkan/sftpgo/0.0.19/docs sftpgo} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -142,7 +142,8 @@ export class SftpgoProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'sftpgo',
       terraformGeneratorMetadata: {
         providerName: 'sftpgo',
-        providerVersion: '0.0.18'
+        providerVersion: '0.0.19',
+        providerVersionConstraint: '0.0.19'
       },
       terraformProviderSource: 'drakkan/sftpgo'
     });

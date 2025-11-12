@@ -98,7 +98,8 @@ export class Strategy extends cdktf.TerraformResource {
       terraformResourceType: 'sym_strategy',
       terraformGeneratorMetadata: {
         providerName: 'sym',
-        providerVersion: '3.6.0'
+        providerVersion: '3.6.0',
+        providerVersionConstraint: '3.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,3 +1,3 @@
 # `spacelift_environment_variable`
 
-Refer to the Terraform Registry for docs: [`spacelift_environment_variable`](https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/environment_variable).
+Refer to the Terraform Registry for docs: [`spacelift_environment_variable`](https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/environment_variable).

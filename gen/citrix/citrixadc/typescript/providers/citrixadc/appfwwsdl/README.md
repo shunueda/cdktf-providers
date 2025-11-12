@@ -1,3 +1,3 @@
 # `citrixadc_appfwwsdl`
 
-Refer to the Terraform Registry for docs: [`citrixadc_appfwwsdl`](https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwwsdl).
+Refer to the Terraform Registry for docs: [`citrixadc_appfwwsdl`](https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwwsdl).

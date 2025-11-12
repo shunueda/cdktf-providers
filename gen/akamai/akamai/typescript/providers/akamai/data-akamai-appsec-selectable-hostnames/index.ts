@@ -86,7 +86,8 @@ export class DataAkamaiAppsecSelectableHostnames extends cdktf.TerraformDataSour
       terraformResourceType: 'akamai_appsec_selectable_hostnames',
       terraformGeneratorMetadata: {
         providerName: 'akamai',
-        providerVersion: '9.1.0'
+        providerVersion: '9.1.0',
+        providerVersionConstraint: '9.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

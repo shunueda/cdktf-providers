@@ -167,7 +167,8 @@ export class DataAlicloudResourceManagerSharedResources extends cdktf.TerraformD
       terraformResourceType: 'alicloud_resource_manager_shared_resources',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

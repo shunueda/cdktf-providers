@@ -62,7 +62,8 @@ export class DataGenesyscloudArchitectUserPrompt extends cdktf.TerraformDataSour
       terraformResourceType: 'genesyscloud_architect_user_prompt',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.70.0'
+        providerVersion: '1.70.0',
+        providerVersionConstraint: '1.70.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

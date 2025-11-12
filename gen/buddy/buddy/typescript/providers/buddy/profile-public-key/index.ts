@@ -61,7 +61,8 @@ export class ProfilePublicKey extends cdktf.TerraformResource {
       terraformResourceType: 'buddy_profile_public_key',
       terraformGeneratorMetadata: {
         providerName: 'buddy',
-        providerVersion: '1.37.1'
+        providerVersion: '1.37.1',
+        providerVersionConstraint: '1.37.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

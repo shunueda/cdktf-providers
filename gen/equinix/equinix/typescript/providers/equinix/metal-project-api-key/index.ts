@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/metal_project_api_key
+// https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/metal_project_api_key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface MetalProjectApiKeyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description string for the API key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/metal_project_api_key#description MetalProjectApiKey#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/metal_project_api_key#description MetalProjectApiKey#description}
   */
   readonly description: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/metal_project_api_key#id MetalProjectApiKey#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/metal_project_api_key#id MetalProjectApiKey#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface MetalProjectApiKeyConfig extends cdktf.TerraformMetaArguments {
   /**
   * UUID of project which the new API key is scoped to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/metal_project_api_key#project_id MetalProjectApiKey#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/metal_project_api_key#project_id MetalProjectApiKey#project_id}
   */
   readonly projectId: string;
   /**
   * Flag indicating whether the API key shoud be read-only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/metal_project_api_key#read_only MetalProjectApiKey#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/metal_project_api_key#read_only MetalProjectApiKey#read_only}
   */
   readonly readOnly: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/metal_project_api_key equinix_metal_project_api_key}
+* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/metal_project_api_key equinix_metal_project_api_key}
 */
 export class MetalProjectApiKey extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class MetalProjectApiKey extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MetalProjectApiKey resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MetalProjectApiKey to import
-  * @param importFromId The id of the existing MetalProjectApiKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/metal_project_api_key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MetalProjectApiKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/metal_project_api_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MetalProjectApiKey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class MetalProjectApiKey extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/metal_project_api_key equinix_metal_project_api_key} Resource
+  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/metal_project_api_key equinix_metal_project_api_key} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,7 +74,8 @@ export class MetalProjectApiKey extends cdktf.TerraformResource {
       terraformResourceType: 'equinix_metal_project_api_key',
       terraformGeneratorMetadata: {
         providerName: 'equinix',
-        providerVersion: '4.8.0'
+        providerVersion: '4.10.0',
+        providerVersionConstraint: '4.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

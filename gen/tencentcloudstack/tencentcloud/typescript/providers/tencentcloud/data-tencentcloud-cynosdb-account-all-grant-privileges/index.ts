@@ -357,7 +357,8 @@ export class DataTencentcloudCynosdbAccountAllGrantPrivileges extends cdktf.Terr
       terraformResourceType: 'tencentcloud_cynosdb_account_all_grant_privileges',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

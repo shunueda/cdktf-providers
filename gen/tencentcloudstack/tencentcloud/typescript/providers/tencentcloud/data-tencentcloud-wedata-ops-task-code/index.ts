@@ -154,7 +154,8 @@ export class DataTencentcloudWedataOpsTaskCode extends cdktf.TerraformDataSource
       terraformResourceType: 'tencentcloud_wedata_ops_task_code',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

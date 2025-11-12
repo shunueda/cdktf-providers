@@ -55,7 +55,8 @@ export class ApiKey extends cdktf.TerraformResource {
       terraformResourceType: 'headscale_api_key',
       terraformGeneratorMetadata: {
         providerName: 'headscale',
-        providerVersion: '0.4.2'
+        providerVersion: '0.4.2',
+        providerVersionConstraint: '0.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

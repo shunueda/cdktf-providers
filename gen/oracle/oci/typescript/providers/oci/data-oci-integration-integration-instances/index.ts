@@ -1338,7 +1338,8 @@ export class DataOciIntegrationIntegrationInstances extends cdktf.TerraformDataS
       terraformResourceType: 'oci_integration_integration_instances',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

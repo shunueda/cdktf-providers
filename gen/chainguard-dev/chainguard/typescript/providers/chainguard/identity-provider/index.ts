@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.37/docs/resources/identity_provider
+// https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.38/docs/resources/identity_provider
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface IdentityProviderConfig extends cdktf.TerraformMetaArguments {
   /**
   * The id of the role new users are bound to on first login.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.37/docs/resources/identity_provider#default_role IdentityProvider#default_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.38/docs/resources/identity_provider#default_role IdentityProvider#default_role}
   */
   readonly defaultRole: string;
   /**
   * A longer description of the purpose of this identity provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.37/docs/resources/identity_provider#description IdentityProvider#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.38/docs/resources/identity_provider#description IdentityProvider#description}
   */
   readonly description?: string;
   /**
   * The name of this identity provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.37/docs/resources/identity_provider#name IdentityProvider#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.38/docs/resources/identity_provider#name IdentityProvider#name}
   */
   readonly name: string;
   /**
   * The group containing this identity provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.37/docs/resources/identity_provider#parent_id IdentityProvider#parent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.38/docs/resources/identity_provider#parent_id IdentityProvider#parent_id}
   */
   readonly parentId: string;
   /**
   * oidc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.37/docs/resources/identity_provider#oidc IdentityProvider#oidc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.38/docs/resources/identity_provider#oidc IdentityProvider#oidc}
   */
   readonly oidc?: IdentityProviderOidc;
 }
@@ -42,25 +42,25 @@ export interface IdentityProviderOidc {
   /**
   * List of scopes to request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.37/docs/resources/identity_provider#additional_scopes IdentityProvider#additional_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.38/docs/resources/identity_provider#additional_scopes IdentityProvider#additional_scopes}
   */
   readonly additionalScopes?: string[];
   /**
   * Client ID for OIDC identity provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.37/docs/resources/identity_provider#client_id IdentityProvider#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.38/docs/resources/identity_provider#client_id IdentityProvider#client_id}
   */
   readonly clientId?: string;
   /**
   * Client secret for OIDC identity provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.37/docs/resources/identity_provider#client_secret IdentityProvider#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.38/docs/resources/identity_provider#client_secret IdentityProvider#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * Issuer URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.37/docs/resources/identity_provider#issuer IdentityProvider#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.38/docs/resources/identity_provider#issuer IdentityProvider#issuer}
   */
   readonly issuer?: string;
 }
@@ -241,7 +241,7 @@ export class IdentityProviderOidcOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.37/docs/resources/identity_provider chainguard_identity_provider}
+* Represents a {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.38/docs/resources/identity_provider chainguard_identity_provider}
 */
 export class IdentityProvider extends cdktf.TerraformResource {
 
@@ -257,7 +257,7 @@ export class IdentityProvider extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IdentityProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IdentityProvider to import
-  * @param importFromId The id of the existing IdentityProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.37/docs/resources/identity_provider#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IdentityProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.38/docs/resources/identity_provider#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IdentityProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -269,7 +269,7 @@ export class IdentityProvider extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.37/docs/resources/identity_provider chainguard_identity_provider} Resource
+  * Create a new {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.38/docs/resources/identity_provider chainguard_identity_provider} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -280,7 +280,8 @@ export class IdentityProvider extends cdktf.TerraformResource {
       terraformResourceType: 'chainguard_identity_provider',
       terraformGeneratorMetadata: {
         providerName: 'chainguard',
-        providerVersion: '0.1.37'
+        providerVersion: '0.1.38',
+        providerVersionConstraint: '0.1.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

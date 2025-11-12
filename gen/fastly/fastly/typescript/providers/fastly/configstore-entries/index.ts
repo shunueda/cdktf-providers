@@ -74,7 +74,8 @@ export class ConfigstoreEntries extends cdktf.TerraformResource {
       terraformResourceType: 'fastly_configstore_entries',
       terraformGeneratorMetadata: {
         providerName: 'fastly',
-        providerVersion: '8.4.0'
+        providerVersion: '8.4.0',
+        providerVersionConstraint: '8.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

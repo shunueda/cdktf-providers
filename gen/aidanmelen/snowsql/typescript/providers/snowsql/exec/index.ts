@@ -558,7 +558,8 @@ export class Exec extends cdktf.TerraformResource {
       terraformResourceType: 'snowsql_exec',
       terraformGeneratorMetadata: {
         providerName: 'snowsql',
-        providerVersion: '1.3.3'
+        providerVersion: '1.3.3',
+        providerVersionConstraint: '1.3.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

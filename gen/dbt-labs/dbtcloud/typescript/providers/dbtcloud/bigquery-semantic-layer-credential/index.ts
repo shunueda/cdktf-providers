@@ -468,7 +468,8 @@ export class BigquerySemanticLayerCredential extends cdktf.TerraformResource {
       terraformResourceType: 'dbtcloud_bigquery_semantic_layer_credential',
       terraformGeneratorMetadata: {
         providerName: 'dbtcloud',
-        providerVersion: '1.3.0'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -120,7 +120,8 @@ export class DataCloudflareAccountPermissionGroup extends cdktf.TerraformDataSou
       terraformResourceType: 'cloudflare_account_permission_group',
       terraformGeneratorMetadata: {
         providerName: 'cloudflare',
-        providerVersion: '5.12.0'
+        providerVersion: '5.12.0',
+        providerVersionConstraint: '5.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

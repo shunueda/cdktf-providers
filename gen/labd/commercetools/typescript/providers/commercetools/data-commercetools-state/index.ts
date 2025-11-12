@@ -55,7 +55,8 @@ export class DataCommercetoolsState extends cdktf.TerraformDataSource {
       terraformResourceType: 'commercetools_state',
       terraformGeneratorMetadata: {
         providerName: 'commercetools',
-        providerVersion: '1.21.1'
+        providerVersion: '1.21.1',
+        providerVersionConstraint: '1.21.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

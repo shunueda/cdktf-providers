@@ -449,7 +449,8 @@ export class Dashboard extends cdktf.TerraformResource {
       terraformResourceType: 'logicmonitor_dashboard',
       terraformGeneratorMetadata: {
         providerName: 'logicmonitor',
-        providerVersion: '2.0.25'
+        providerVersion: '2.0.25',
+        providerVersionConstraint: '2.0.25'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

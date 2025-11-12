@@ -696,7 +696,8 @@ export class Pulsarjob extends cdktf.TerraformResource {
       terraformResourceType: 'ns1_pulsarjob',
       terraformGeneratorMetadata: {
         providerName: 'ns1',
-        providerVersion: '2.7.2'
+        providerVersion: '2.7.2',
+        providerVersionConstraint: '2.7.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -59,7 +59,8 @@ export class MailgunProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'mailgun',
       terraformGeneratorMetadata: {
         providerName: 'mailgun',
-        providerVersion: '0.8.1'
+        providerVersion: '0.8.1',
+        providerVersionConstraint: '0.8.1'
       },
       terraformProviderSource: 'wgebis/mailgun'
     });

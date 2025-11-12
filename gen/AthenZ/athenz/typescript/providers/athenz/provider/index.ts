@@ -103,7 +103,8 @@ export class AthenzProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'athenz',
       terraformGeneratorMetadata: {
         providerName: 'athenz',
-        providerVersion: '1.0.49'
+        providerVersion: '1.0.49',
+        providerVersionConstraint: '1.0.49'
       },
       terraformProviderSource: 'AthenZ/athenz'
     });

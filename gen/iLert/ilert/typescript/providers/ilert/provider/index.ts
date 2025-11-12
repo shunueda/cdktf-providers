@@ -75,7 +75,8 @@ export class IlertProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'ilert',
       terraformGeneratorMetadata: {
         providerName: 'ilert',
-        providerVersion: '2.14.3'
+        providerVersion: '2.14.3',
+        providerVersionConstraint: '2.14.3'
       },
       terraformProviderSource: 'iLert/ilert'
     });

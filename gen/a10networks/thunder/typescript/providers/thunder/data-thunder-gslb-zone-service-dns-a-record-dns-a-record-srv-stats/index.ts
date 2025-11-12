@@ -172,7 +172,8 @@ export class DataThunderGslbZoneServiceDnsARecordDnsARecordSrvStats extends cdkt
       terraformResourceType: 'thunder_gslb_zone_service_dns_a_record_dns_a_record_srv_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

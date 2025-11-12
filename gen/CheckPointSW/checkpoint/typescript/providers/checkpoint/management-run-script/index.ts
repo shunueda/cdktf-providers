@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_run_script
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_run_script
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ManagementRunScriptConfig extends cdktf.TerraformMetaArguments 
   /**
   * Script arguments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_run_script#args ManagementRunScript#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_run_script#args ManagementRunScript#args}
   */
   readonly args?: string;
   /**
   * Comments string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_run_script#comments ManagementRunScript#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_run_script#comments ManagementRunScript#comments}
   */
   readonly comments?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_run_script#id ManagementRunScript#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_run_script#id ManagementRunScript#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,31 @@ export interface ManagementRunScriptConfig extends cdktf.TerraformMetaArguments 
   /**
   * Script body.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_run_script#script ManagementRunScript#script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_run_script#script ManagementRunScript#script}
   */
   readonly script: string;
   /**
   * Script name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_run_script#script_name ManagementRunScript#script_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_run_script#script_name ManagementRunScript#script_name}
   */
   readonly scriptName: string;
   /**
   * On what targets to execute this command. Targets may be identified by their name, or object unique identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_run_script#targets ManagementRunScript#targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_run_script#targets ManagementRunScript#targets}
   */
   readonly targets: string[];
+  /**
+  * Script timeout in seconds.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_run_script#timeout ManagementRunScript#timeout}
+  */
+  readonly timeout?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_run_script checkpoint_management_run_script}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_run_script checkpoint_management_run_script}
 */
 export class ManagementRunScript extends cdktf.TerraformResource {
 
@@ -63,7 +69,7 @@ export class ManagementRunScript extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementRunScript resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementRunScript to import
-  * @param importFromId The id of the existing ManagementRunScript that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_run_script#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementRunScript that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_run_script#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementRunScript to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +81,7 @@ export class ManagementRunScript extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_run_script checkpoint_management_run_script} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_run_script checkpoint_management_run_script} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,7 +92,8 @@ export class ManagementRunScript extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_run_script',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -102,6 +109,7 @@ export class ManagementRunScript extends cdktf.TerraformResource {
     this._script = config.script;
     this._scriptName = config.scriptName;
     this._targets = config.targets;
+    this._timeout = config.timeout;
   }
 
   // ==========
@@ -205,6 +213,22 @@ export class ManagementRunScript extends cdktf.TerraformResource {
     return cdktf.Fn.tolist(this.getListAttribute('tasks'));
   }
 
+  // timeout - computed: false, optional: true, required: false
+  private _timeout?: number; 
+  public get timeout() {
+    return this.getNumberAttribute('timeout');
+  }
+  public set timeout(value: number) {
+    this._timeout = value;
+  }
+  public resetTimeout() {
+    this._timeout = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get timeoutInput() {
+    return this._timeout;
+  }
+
   // =========
   // SYNTHESIS
   // =========
@@ -217,6 +241,7 @@ export class ManagementRunScript extends cdktf.TerraformResource {
       script: cdktf.stringToTerraform(this._script),
       script_name: cdktf.stringToTerraform(this._scriptName),
       targets: cdktf.listMapper(cdktf.stringToTerraform, false)(this._targets),
+      timeout: cdktf.numberToTerraform(this._timeout),
     };
   }
 
@@ -257,6 +282,12 @@ export class ManagementRunScript extends cdktf.TerraformResource {
         isBlock: false,
         type: "set",
         storageClassType: "stringList",
+      },
+      timeout: {
+        value: cdktf.numberToHclTerraform(this._timeout),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
       },
     };
 

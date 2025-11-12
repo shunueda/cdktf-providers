@@ -64,7 +64,8 @@ export class EnrollmentToken extends cdktf.TerraformResource {
       terraformResourceType: 'oktaasa_enrollment_token',
       terraformGeneratorMetadata: {
         providerName: 'oktaasa',
-        providerVersion: '1.0.1'
+        providerVersion: '1.0.1',
+        providerVersionConstraint: '1.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

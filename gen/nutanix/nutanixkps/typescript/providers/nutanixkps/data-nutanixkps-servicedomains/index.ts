@@ -141,7 +141,8 @@ export class DataNutanixkpsServicedomains extends cdktf.TerraformDataSource {
       terraformResourceType: 'nutanixkps_servicedomains',
       terraformGeneratorMetadata: {
         providerName: 'nutanixkps',
-        providerVersion: '1.1.9'
+        providerVersion: '1.1.9',
+        providerVersionConstraint: '1.1.9'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -4075,7 +4075,8 @@ export class DataB1DdiSubnets extends cdktf.TerraformDataSource {
       terraformResourceType: 'b1ddi_subnets',
       terraformGeneratorMetadata: {
         providerName: 'b1ddi',
-        providerVersion: '0.1.5'
+        providerVersion: '0.1.5',
+        providerVersionConstraint: '0.1.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

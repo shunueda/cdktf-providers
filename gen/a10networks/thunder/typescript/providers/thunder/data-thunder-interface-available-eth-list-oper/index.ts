@@ -396,7 +396,8 @@ export class DataThunderInterfaceAvailableEthListOper extends cdktf.TerraformDat
       terraformResourceType: 'thunder_interface_available_eth_list_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

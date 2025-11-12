@@ -61,7 +61,8 @@ export class EjsonProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'ejson',
       terraformGeneratorMetadata: {
         providerName: 'ejson',
-        providerVersion: '1.2.3'
+        providerVersion: '1.2.3',
+        providerVersionConstraint: '1.2.3'
       },
       terraformProviderSource: 'bouk/ejson'
     });

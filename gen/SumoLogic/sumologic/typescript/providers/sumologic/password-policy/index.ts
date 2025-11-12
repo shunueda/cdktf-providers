@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/password_policy
+// https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/password_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,68 +8,68 @@ import * as cdktf from 'cdktf';
 
 export interface PasswordPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/password_policy#account_lockout_duration_in_mins PasswordPolicy#account_lockout_duration_in_mins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/password_policy#account_lockout_duration_in_mins PasswordPolicy#account_lockout_duration_in_mins}
   */
   readonly accountLockoutDurationInMins?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/password_policy#account_lockout_threshold PasswordPolicy#account_lockout_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/password_policy#account_lockout_threshold PasswordPolicy#account_lockout_threshold}
   */
   readonly accountLockoutThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/password_policy#failed_login_reset_duration_in_mins PasswordPolicy#failed_login_reset_duration_in_mins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/password_policy#failed_login_reset_duration_in_mins PasswordPolicy#failed_login_reset_duration_in_mins}
   */
   readonly failedLoginResetDurationInMins?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/password_policy#id PasswordPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/password_policy#id PasswordPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/password_policy#max_length PasswordPolicy#max_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/password_policy#max_length PasswordPolicy#max_length}
   */
   readonly maxLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/password_policy#max_password_age_in_days PasswordPolicy#max_password_age_in_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/password_policy#max_password_age_in_days PasswordPolicy#max_password_age_in_days}
   */
   readonly maxPasswordAgeInDays?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/password_policy#min_length PasswordPolicy#min_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/password_policy#min_length PasswordPolicy#min_length}
   */
   readonly minLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/password_policy#min_unique_passwords PasswordPolicy#min_unique_passwords}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/password_policy#min_unique_passwords PasswordPolicy#min_unique_passwords}
   */
   readonly minUniquePasswords?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/password_policy#must_contain_digits PasswordPolicy#must_contain_digits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/password_policy#must_contain_digits PasswordPolicy#must_contain_digits}
   */
   readonly mustContainDigits?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/password_policy#must_contain_lowercase PasswordPolicy#must_contain_lowercase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/password_policy#must_contain_lowercase PasswordPolicy#must_contain_lowercase}
   */
   readonly mustContainLowercase?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/password_policy#must_contain_special_chars PasswordPolicy#must_contain_special_chars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/password_policy#must_contain_special_chars PasswordPolicy#must_contain_special_chars}
   */
   readonly mustContainSpecialChars?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/password_policy#must_contain_uppercase PasswordPolicy#must_contain_uppercase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/password_policy#must_contain_uppercase PasswordPolicy#must_contain_uppercase}
   */
   readonly mustContainUppercase?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/password_policy#remember_mfa PasswordPolicy#remember_mfa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/password_policy#remember_mfa PasswordPolicy#remember_mfa}
   */
   readonly rememberMfa?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/password_policy#require_mfa PasswordPolicy#require_mfa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/password_policy#require_mfa PasswordPolicy#require_mfa}
   */
   readonly requireMfa?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/password_policy sumologic_password_policy}
+* Represents a {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/password_policy sumologic_password_policy}
 */
 export class PasswordPolicy extends cdktf.TerraformResource {
 
@@ -85,7 +85,7 @@ export class PasswordPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PasswordPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PasswordPolicy to import
-  * @param importFromId The id of the existing PasswordPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/password_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PasswordPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/password_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PasswordPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -97,7 +97,7 @@ export class PasswordPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/password_policy sumologic_password_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/password_policy sumologic_password_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -108,7 +108,8 @@ export class PasswordPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'sumologic_password_policy',
       terraformGeneratorMetadata: {
         providerName: 'sumologic',
-        providerVersion: '3.1.7'
+        providerVersion: '3.1.8',
+        providerVersionConstraint: '3.1.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

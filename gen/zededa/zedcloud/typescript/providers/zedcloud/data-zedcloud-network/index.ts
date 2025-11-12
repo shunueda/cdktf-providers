@@ -1983,7 +1983,8 @@ export class DataZedcloudNetwork extends cdktf.TerraformDataSource {
       terraformResourceType: 'zedcloud_network',
       terraformGeneratorMetadata: {
         providerName: 'zedcloud',
-        providerVersion: '2.5.0'
+        providerVersion: '2.5.0',
+        providerVersionConstraint: '2.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

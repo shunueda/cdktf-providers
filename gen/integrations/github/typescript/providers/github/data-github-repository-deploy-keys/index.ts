@@ -150,7 +150,8 @@ export class DataGithubRepositoryDeployKeys extends cdktf.TerraformDataSource {
       terraformResourceType: 'github_repository_deploy_keys',
       terraformGeneratorMetadata: {
         providerName: 'github',
-        providerVersion: '6.7.5'
+        providerVersion: '6.7.5',
+        providerVersionConstraint: '6.7.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

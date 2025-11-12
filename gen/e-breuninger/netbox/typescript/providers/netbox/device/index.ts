@@ -162,7 +162,8 @@ export class Device extends cdktf.TerraformResource {
       terraformResourceType: 'netbox_device',
       terraformGeneratorMetadata: {
         providerName: 'netbox',
-        providerVersion: '5.0.0'
+        providerVersion: '5.0.0',
+        providerVersionConstraint: '5.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

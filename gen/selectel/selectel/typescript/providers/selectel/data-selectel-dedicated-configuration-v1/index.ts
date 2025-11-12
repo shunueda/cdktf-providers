@@ -144,7 +144,8 @@ export class DataSelectelDedicatedConfigurationV1 extends cdktf.TerraformDataSou
       terraformResourceType: 'selectel_dedicated_configuration_v1',
       terraformGeneratorMetadata: {
         providerName: 'selectel',
-        providerVersion: '7.1.0'
+        providerVersion: '7.1.0',
+        providerVersionConstraint: '7.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -119,7 +119,8 @@ export class FortimanagerProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'fortimanager',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0'
+        providerVersion: '1.14.0',
+        providerVersionConstraint: '1.14.0'
       },
       terraformProviderSource: 'fortinetdev/fortimanager'
     });

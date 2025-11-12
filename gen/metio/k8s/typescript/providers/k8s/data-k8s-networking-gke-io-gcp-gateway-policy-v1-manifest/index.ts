@@ -703,7 +703,8 @@ export class DataK8SNetworkingGkeIoGcpGatewayPolicyV1Manifest extends cdktf.Terr
       terraformResourceType: 'k8s_networking_gke_io_gcp_gateway_policy_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

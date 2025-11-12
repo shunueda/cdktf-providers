@@ -66,7 +66,8 @@ export class DataK8SEnterprisesearchK8SElasticCoEnterpriseSearchV1Manifest exten
       terraformResourceType: 'k8s_enterprisesearch_k8s_elastic_co_enterprise_search_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

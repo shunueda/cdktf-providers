@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_routing_policy
+// https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_routing_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataApstraDatacenterRoutingPolicyConfig extends cdktf.Terraform
   /**
   * Apstra Blueprint ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_routing_policy#blueprint_id DataApstraDatacenterRoutingPolicy#blueprint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_routing_policy#blueprint_id DataApstraDatacenterRoutingPolicy#blueprint_id}
   */
   readonly blueprintId: string;
   /**
   * Apstra graph node ID. Required when `name` is omitted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_routing_policy#id DataApstraDatacenterRoutingPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_routing_policy#id DataApstraDatacenterRoutingPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,7 +25,7 @@ export interface DataApstraDatacenterRoutingPolicyConfig extends cdktf.Terraform
   /**
   * Web UI `name` field. Required when `id` is omitted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_routing_policy#name DataApstraDatacenterRoutingPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_routing_policy#name DataApstraDatacenterRoutingPolicy#name}
   */
   readonly name?: string;
 }
@@ -290,7 +290,7 @@ export class DataApstraDatacenterRoutingPolicyExtraImportsList extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_routing_policy apstra_datacenter_routing_policy}
+* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_routing_policy apstra_datacenter_routing_policy}
 */
 export class DataApstraDatacenterRoutingPolicy extends cdktf.TerraformDataSource {
 
@@ -306,7 +306,7 @@ export class DataApstraDatacenterRoutingPolicy extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataApstraDatacenterRoutingPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataApstraDatacenterRoutingPolicy to import
-  * @param importFromId The id of the existing DataApstraDatacenterRoutingPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_routing_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataApstraDatacenterRoutingPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_routing_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataApstraDatacenterRoutingPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -318,7 +318,7 @@ export class DataApstraDatacenterRoutingPolicy extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_routing_policy apstra_datacenter_routing_policy} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_routing_policy apstra_datacenter_routing_policy} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -329,7 +329,8 @@ export class DataApstraDatacenterRoutingPolicy extends cdktf.TerraformDataSource
       terraformResourceType: 'apstra_datacenter_routing_policy',
       terraformGeneratorMetadata: {
         providerName: 'apstra',
-        providerVersion: '0.95.0'
+        providerVersion: '0.95.1',
+        providerVersionConstraint: '0.95.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -196,7 +196,8 @@ export class HealthMonitorMethodTcpA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_health_monitor_method_tcp',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

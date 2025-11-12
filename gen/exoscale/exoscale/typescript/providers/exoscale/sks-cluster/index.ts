@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/sks_cluster
+// https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,103 +8,109 @@ import * as cdktf from 'cdktf';
 
 export interface SksClusterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/sks_cluster#addons SksCluster#addons}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_cluster#addons SksCluster#addons}
   */
   readonly addons?: string[];
   /**
   * Enable automatic upgrading of the control plane version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/sks_cluster#auto_upgrade SksCluster#auto_upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_cluster#auto_upgrade SksCluster#auto_upgrade}
   */
   readonly autoUpgrade?: boolean | cdktf.IResolvable;
   /**
   * The CNI plugin that is to be used. Available options are "calico" or "cilium". Defaults to "calico". Setting empty string will result in a cluster with no CNI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/sks_cluster#cni SksCluster#cni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_cluster#cni SksCluster#cni}
   */
   readonly cni?: string;
   /**
   * A free-form text describing the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/sks_cluster#description SksCluster#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_cluster#description SksCluster#description}
   */
   readonly description?: string;
   /**
+  * Indicates whether to deploy Karpenter for cluster autoscaling.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_cluster#enable_karpenter SksCluster#enable_karpenter}
+  */
+  readonly enableKarpenter?: boolean | cdktf.IResolvable;
+  /**
   * ❗ Indicates whether to deploy the Kubernetes network proxy. (may only be set at creation time)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/sks_cluster#enable_kube_proxy SksCluster#enable_kube_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_cluster#enable_kube_proxy SksCluster#enable_kube_proxy}
   */
   readonly enableKubeProxy?: boolean | cdktf.IResolvable;
   /**
   * Deploy the Exoscale [Cloud Controller Manager](https://github.com/exoscale/exoscale-cloud-controller-manager/) in the control plane (boolean; default: `true`; may only be set at creation time).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/sks_cluster#exoscale_ccm SksCluster#exoscale_ccm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_cluster#exoscale_ccm SksCluster#exoscale_ccm}
   */
   readonly exoscaleCcm?: boolean | cdktf.IResolvable;
   /**
   * Deploy the Exoscale [Container Storage Interface](https://github.com/exoscale/exoscale-csi-driver/) on worker nodes (boolean; default: `false`; requires the CCM to be enabled).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/sks_cluster#exoscale_csi SksCluster#exoscale_csi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_cluster#exoscale_csi SksCluster#exoscale_csi}
   */
   readonly exoscaleCsi?: boolean | cdktf.IResolvable;
   /**
   * Feature gates options for the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/sks_cluster#feature_gates SksCluster#feature_gates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_cluster#feature_gates SksCluster#feature_gates}
   */
   readonly featureGates?: string[];
   /**
   * A map of key/value labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/sks_cluster#labels SksCluster#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_cluster#labels SksCluster#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Deploy the [Kubernetes Metrics Server](https://github.com/kubernetes-sigs/metrics-server/) in the control plane (boolean; default: `true`; may only be set at creation time).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/sks_cluster#metrics_server SksCluster#metrics_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_cluster#metrics_server SksCluster#metrics_server}
   */
   readonly metricsServer?: boolean | cdktf.IResolvable;
   /**
   * The SKS cluster name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/sks_cluster#name SksCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_cluster#name SksCluster#name}
   */
   readonly name: string;
   /**
   * The service level of the control plane (`pro` or `starter`; default: `pro`; may only be set at creation time).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/sks_cluster#service_level SksCluster#service_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_cluster#service_level SksCluster#service_level}
   */
   readonly serviceLevel?: string;
   /**
   * The version of the control plane (default: latest version available from the API; see `exo compute sks versions` for reference; may only be set at creation time).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/sks_cluster#version SksCluster#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_cluster#version SksCluster#version}
   */
   readonly version?: string;
   /**
   * ❗ The Exoscale [Zone](https://www.exoscale.com/datacenters/) name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/sks_cluster#zone SksCluster#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_cluster#zone SksCluster#zone}
   */
   readonly zone: string;
   /**
   * audit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/sks_cluster#audit SksCluster#audit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_cluster#audit SksCluster#audit}
   */
   readonly audit?: SksClusterAudit;
   /**
   * oidc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/sks_cluster#oidc SksCluster#oidc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_cluster#oidc SksCluster#oidc}
   */
   readonly oidc?: SksClusterOidc;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/sks_cluster#timeouts SksCluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_cluster#timeouts SksCluster#timeouts}
   */
   readonly timeouts?: SksClusterTimeouts;
 }
@@ -112,25 +118,25 @@ export interface SksClusterAudit {
   /**
   * The optional bearer token to include in the request header
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/sks_cluster#bearer_token SksCluster#bearer_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_cluster#bearer_token SksCluster#bearer_token}
   */
   readonly bearerToken?: string;
   /**
   * Whether to run the APIServer with the configured Kubernetes Audit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/sks_cluster#enabled SksCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_cluster#enabled SksCluster#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The Endpoint URL for the Webserver responsible of processing Audit events
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/sks_cluster#endpoint SksCluster#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_cluster#endpoint SksCluster#endpoint}
   */
   readonly endpoint?: string;
   /**
   * The Initial Backoff to wait before sending data to the remote server (default '10s')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/sks_cluster#initial_backoff SksCluster#initial_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_cluster#initial_backoff SksCluster#initial_backoff}
   */
   readonly initialBackoff?: string;
 }
@@ -303,43 +309,43 @@ export interface SksClusterOidc {
   /**
   * The OpenID client ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/sks_cluster#client_id SksCluster#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_cluster#client_id SksCluster#client_id}
   */
   readonly clientId: string;
   /**
   * An OpenID JWT claim to use as the user's group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/sks_cluster#groups_claim SksCluster#groups_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_cluster#groups_claim SksCluster#groups_claim}
   */
   readonly groupsClaim?: string;
   /**
   * An OpenID prefix prepended to group claims.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/sks_cluster#groups_prefix SksCluster#groups_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_cluster#groups_prefix SksCluster#groups_prefix}
   */
   readonly groupsPrefix?: string;
   /**
   * The OpenID provider URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/sks_cluster#issuer_url SksCluster#issuer_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_cluster#issuer_url SksCluster#issuer_url}
   */
   readonly issuerUrl: string;
   /**
   * A map of key/value pairs that describes a required claim in the OpenID Token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/sks_cluster#required_claim SksCluster#required_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_cluster#required_claim SksCluster#required_claim}
   */
   readonly requiredClaim?: { [key: string]: string };
   /**
   * An OpenID JWT claim to use as the user name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/sks_cluster#username_claim SksCluster#username_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_cluster#username_claim SksCluster#username_claim}
   */
   readonly usernameClaim?: string;
   /**
   * An OpenID prefix prepended to username claims.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/sks_cluster#username_prefix SksCluster#username_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_cluster#username_prefix SksCluster#username_prefix}
   */
   readonly usernamePrefix?: string;
 }
@@ -591,19 +597,19 @@ export class SksClusterOidcOutputReference extends cdktf.ComplexObject {
 }
 export interface SksClusterTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/sks_cluster#create SksCluster#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_cluster#create SksCluster#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/sks_cluster#delete SksCluster#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_cluster#delete SksCluster#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/sks_cluster#read SksCluster#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_cluster#read SksCluster#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/sks_cluster#update SksCluster#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_cluster#update SksCluster#update}
   */
   readonly update?: string;
 }
@@ -784,7 +790,7 @@ export class SksClusterTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/sks_cluster exoscale_sks_cluster}
+* Represents a {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_cluster exoscale_sks_cluster}
 */
 export class SksCluster extends cdktf.TerraformResource {
 
@@ -800,7 +806,7 @@ export class SksCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SksCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SksCluster to import
-  * @param importFromId The id of the existing SksCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/sks_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SksCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SksCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -812,7 +818,7 @@ export class SksCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/sks_cluster exoscale_sks_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/sks_cluster exoscale_sks_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -823,7 +829,8 @@ export class SksCluster extends cdktf.TerraformResource {
       terraformResourceType: 'exoscale_sks_cluster',
       terraformGeneratorMetadata: {
         providerName: 'exoscale',
-        providerVersion: '0.66.0'
+        providerVersion: '0.67.0',
+        providerVersionConstraint: '0.67.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -837,6 +844,7 @@ export class SksCluster extends cdktf.TerraformResource {
     this._autoUpgrade = config.autoUpgrade;
     this._cni = config.cni;
     this._description = config.description;
+    this._enableKarpenter = config.enableKarpenter;
     this._enableKubeProxy = config.enableKubeProxy;
     this._exoscaleCcm = config.exoscaleCcm;
     this._exoscaleCsi = config.exoscaleCsi;
@@ -933,6 +941,22 @@ export class SksCluster extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get descriptionInput() {
     return this._description;
+  }
+
+  // enable_karpenter - computed: true, optional: true, required: false
+  private _enableKarpenter?: boolean | cdktf.IResolvable; 
+  public get enableKarpenter() {
+    return this.getBooleanAttribute('enable_karpenter');
+  }
+  public set enableKarpenter(value: boolean | cdktf.IResolvable) {
+    this._enableKarpenter = value;
+  }
+  public resetEnableKarpenter() {
+    this._enableKarpenter = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableKarpenterInput() {
+    return this._enableKarpenter;
   }
 
   // enable_kube_proxy - computed: true, optional: true, required: false
@@ -1172,6 +1196,7 @@ export class SksCluster extends cdktf.TerraformResource {
       auto_upgrade: cdktf.booleanToTerraform(this._autoUpgrade),
       cni: cdktf.stringToTerraform(this._cni),
       description: cdktf.stringToTerraform(this._description),
+      enable_karpenter: cdktf.booleanToTerraform(this._enableKarpenter),
       enable_kube_proxy: cdktf.booleanToTerraform(this._enableKubeProxy),
       exoscale_ccm: cdktf.booleanToTerraform(this._exoscaleCcm),
       exoscale_csi: cdktf.booleanToTerraform(this._exoscaleCsi),
@@ -1213,6 +1238,12 @@ export class SksCluster extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      enable_karpenter: {
+        value: cdktf.booleanToHclTerraform(this._enableKarpenter),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
       },
       enable_kube_proxy: {
         value: cdktf.booleanToHclTerraform(this._enableKubeProxy),

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_type_file_attributes
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_type_file_attributes
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface ManagementDataTypeFileAttributesConfig extends cdktf.TerraformM
   /**
   * Color of the object. Should be one of existing colors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_type_file_attributes#color ManagementDataTypeFileAttributes#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_type_file_attributes#color ManagementDataTypeFileAttributes#color}
   */
   readonly color?: string;
   /**
   * Comments string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_type_file_attributes#comments ManagementDataTypeFileAttributes#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_type_file_attributes#comments ManagementDataTypeFileAttributes#comments}
   */
   readonly comments?: string;
   /**
   * For built-in data types, the description explains the purpose of this type of data representation. For custom-made data types, you can use this field to provide more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_type_file_attributes#description ManagementDataTypeFileAttributes#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_type_file_attributes#description ManagementDataTypeFileAttributes#description}
   */
   readonly description?: string;
   /**
   * The file must be one of the types specified in the list. Identified by name or UID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_type_file_attributes#file_groups_list ManagementDataTypeFileAttributes#file_groups_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_type_file_attributes#file_groups_list ManagementDataTypeFileAttributes#file_groups_list}
   */
   readonly fileGroupsList?: string[];
   /**
   * File name should contain the expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_type_file_attributes#file_name_contains ManagementDataTypeFileAttributes#file_name_contains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_type_file_attributes#file_name_contains ManagementDataTypeFileAttributes#file_name_contains}
   */
   readonly fileNameContains?: string;
   /**
   * Min File size in KB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_type_file_attributes#file_size ManagementDataTypeFileAttributes#file_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_type_file_attributes#file_size ManagementDataTypeFileAttributes#file_size}
   */
   readonly fileSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_type_file_attributes#id ManagementDataTypeFileAttributes#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_type_file_attributes#id ManagementDataTypeFileAttributes#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,49 +53,49 @@ export interface ManagementDataTypeFileAttributesConfig extends cdktf.TerraformM
   /**
   * Apply changes ignoring errors. You won't be able to publish such a changes. If ignore-warnings flag was omitted - warnings will also be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_type_file_attributes#ignore_errors ManagementDataTypeFileAttributes#ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_type_file_attributes#ignore_errors ManagementDataTypeFileAttributes#ignore_errors}
   */
   readonly ignoreErrors?: boolean | cdktf.IResolvable;
   /**
   * Apply changes ignoring warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_type_file_attributes#ignore_warnings ManagementDataTypeFileAttributes#ignore_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_type_file_attributes#ignore_warnings ManagementDataTypeFileAttributes#ignore_warnings}
   */
   readonly ignoreWarnings?: boolean | cdktf.IResolvable;
   /**
   * Determine whether to consider file name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_type_file_attributes#match_by_file_name ManagementDataTypeFileAttributes#match_by_file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_type_file_attributes#match_by_file_name ManagementDataTypeFileAttributes#match_by_file_name}
   */
   readonly matchByFileName?: boolean | cdktf.IResolvable;
   /**
   * Determine whether to consider file size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_type_file_attributes#match_by_file_size ManagementDataTypeFileAttributes#match_by_file_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_type_file_attributes#match_by_file_size ManagementDataTypeFileAttributes#match_by_file_size}
   */
   readonly matchByFileSize?: boolean | cdktf.IResolvable;
   /**
   * Determine whether to consider file type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_type_file_attributes#match_by_file_type ManagementDataTypeFileAttributes#match_by_file_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_type_file_attributes#match_by_file_type ManagementDataTypeFileAttributes#match_by_file_type}
   */
   readonly matchByFileType?: boolean | cdktf.IResolvable;
   /**
   * Object name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_type_file_attributes#name ManagementDataTypeFileAttributes#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_type_file_attributes#name ManagementDataTypeFileAttributes#name}
   */
   readonly name: string;
   /**
   * Collection of tag identifiers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_type_file_attributes#tags ManagementDataTypeFileAttributes#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_type_file_attributes#tags ManagementDataTypeFileAttributes#tags}
   */
   readonly tags?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_type_file_attributes checkpoint_management_data_type_file_attributes}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_type_file_attributes checkpoint_management_data_type_file_attributes}
 */
 export class ManagementDataTypeFileAttributes extends cdktf.TerraformResource {
 
@@ -111,7 +111,7 @@ export class ManagementDataTypeFileAttributes extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementDataTypeFileAttributes resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementDataTypeFileAttributes to import
-  * @param importFromId The id of the existing ManagementDataTypeFileAttributes that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_type_file_attributes#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementDataTypeFileAttributes that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_type_file_attributes#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementDataTypeFileAttributes to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -123,7 +123,7 @@ export class ManagementDataTypeFileAttributes extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_data_type_file_attributes checkpoint_management_data_type_file_attributes} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_data_type_file_attributes checkpoint_management_data_type_file_attributes} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -134,7 +134,8 @@ export class ManagementDataTypeFileAttributes extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_data_type_file_attributes',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

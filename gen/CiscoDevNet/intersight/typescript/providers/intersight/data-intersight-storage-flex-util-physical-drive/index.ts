@@ -5301,7 +5301,8 @@ export class DataIntersightStorageFlexUtilPhysicalDrive extends cdktf.TerraformD
       terraformResourceType: 'intersight_storage_flex_util_physical_drive',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

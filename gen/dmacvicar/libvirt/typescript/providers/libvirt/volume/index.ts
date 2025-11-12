@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dmacvicar/libvirt/0.8.3/docs/resources/volume
+// https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.0/docs/resources/volume
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,77 +8,95 @@ import * as cdktf from 'cdktf';
 
 export interface VolumeConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.8.3/docs/resources/volume#base_volume_id Volume#base_volume_id}
+  * Backing store configuration for copy-on-write volumes
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.0/docs/resources/volume#backing_store Volume#backing_store}
   */
-  readonly baseVolumeId?: string;
+  readonly backingStore?: VolumeBackingStore;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.8.3/docs/resources/volume#base_volume_name Volume#base_volume_name}
+  * Volume capacity in bytes. Required for empty volumes, computed when using create.content
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.0/docs/resources/volume#capacity Volume#capacity}
   */
-  readonly baseVolumeName?: string;
+  readonly capacity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.8.3/docs/resources/volume#base_volume_pool Volume#base_volume_pool}
+  * Volume creation options for initializing volume content from external sources
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.0/docs/resources/volume#create Volume#create}
   */
-  readonly baseVolumePool?: string;
+  readonly create?: VolumeCreate;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.8.3/docs/resources/volume#format Volume#format}
+  * Volume format (qcow2, raw, etc.)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.0/docs/resources/volume#format Volume#format}
   */
   readonly format?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.8.3/docs/resources/volume#id Volume#id}
+  * Name of the storage volume
   *
-  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
-  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
-  */
-  readonly id?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.8.3/docs/resources/volume#name Volume#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.0/docs/resources/volume#name Volume#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.8.3/docs/resources/volume#pool Volume#pool}
-  */
-  readonly pool?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.8.3/docs/resources/volume#size Volume#size}
-  */
-  readonly size?: number;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.8.3/docs/resources/volume#source Volume#source}
-  */
-  readonly source?: string;
-  /**
-  * xml block
+  * Permissions for the volume file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.8.3/docs/resources/volume#xml Volume#xml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.0/docs/resources/volume#permissions Volume#permissions}
   */
-  readonly xml?: VolumeXml;
-}
-export interface VolumeXml {
+  readonly permissions?: VolumePermissions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.8.3/docs/resources/volume#xslt Volume#xslt}
+  * Name of the storage pool where the volume will be created
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.0/docs/resources/volume#pool Volume#pool}
   */
-  readonly xslt?: string;
+  readonly pool: string;
+  /**
+  * Volume type (file, block, dir, network, netdir)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.0/docs/resources/volume#type Volume#type}
+  */
+  readonly type?: string;
+}
+export interface VolumeBackingStore {
+  /**
+  * Format of the backing volume
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.0/docs/resources/volume#format Volume#format}
+  */
+  readonly format?: string;
+  /**
+  * Path to the backing volume
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.0/docs/resources/volume#path Volume#path}
+  */
+  readonly path: string;
 }
 
-export function volumeXmlToTerraform(struct?: VolumeXmlOutputReference | VolumeXml): any {
+export function volumeBackingStoreToTerraform(struct?: VolumeBackingStore | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    xslt: cdktf.stringToTerraform(struct!.xslt),
+    format: cdktf.stringToTerraform(struct!.format),
+    path: cdktf.stringToTerraform(struct!.path),
   }
 }
 
 
-export function volumeXmlToHclTerraform(struct?: VolumeXmlOutputReference | VolumeXml): any {
+export function volumeBackingStoreToHclTerraform(struct?: VolumeBackingStore | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
-    xslt: {
-      value: cdktf.stringToHclTerraform(struct!.xslt),
+    format: {
+      value: cdktf.stringToHclTerraform(struct!.format),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    path: {
+      value: cdktf.stringToHclTerraform(struct!.path),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -89,57 +107,473 @@ export function volumeXmlToHclTerraform(struct?: VolumeXmlOutputReference | Volu
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class VolumeXmlOutputReference extends cdktf.ComplexObject {
+export class VolumeBackingStoreOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
   public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
+    super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): VolumeXml | undefined {
+  public get internalValue(): VolumeBackingStore | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
-    if (this._xslt !== undefined) {
+    if (this._format !== undefined) {
       hasAnyValues = true;
-      internalValueResult.xslt = this._xslt;
+      internalValueResult.format = this._format;
+    }
+    if (this._path !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.path = this._path;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: VolumeXml | undefined) {
+  public set internalValue(value: VolumeBackingStore | cdktf.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
-      this._xslt = undefined;
+      this.resolvableValue = undefined;
+      this._format = undefined;
+      this._path = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
-      this._xslt = value.xslt;
+      this.resolvableValue = undefined;
+      this._format = value.format;
+      this._path = value.path;
     }
   }
 
-  // xslt - computed: false, optional: true, required: false
-  private _xslt?: string; 
-  public get xslt() {
-    return this.getStringAttribute('xslt');
+  // format - computed: false, optional: true, required: false
+  private _format?: string; 
+  public get format() {
+    return this.getStringAttribute('format');
   }
-  public set xslt(value: string) {
-    this._xslt = value;
+  public set format(value: string) {
+    this._format = value;
   }
-  public resetXslt() {
-    this._xslt = undefined;
+  public resetFormat() {
+    this._format = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get xsltInput() {
-    return this._xslt;
+  public get formatInput() {
+    return this._format;
+  }
+
+  // path - computed: false, optional: false, required: true
+  private _path?: string; 
+  public get path() {
+    return this.getStringAttribute('path');
+  }
+  public set path(value: string) {
+    this._path = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get pathInput() {
+    return this._path;
+  }
+}
+export interface VolumeCreateContent {
+  /**
+  * URL to download content from (supports https://, file://, or absolute paths)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.0/docs/resources/volume#url Volume#url}
+  */
+  readonly url: string;
+}
+
+export function volumeCreateContentToTerraform(struct?: VolumeCreateContent | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    url: cdktf.stringToTerraform(struct!.url),
+  }
+}
+
+
+export function volumeCreateContentToHclTerraform(struct?: VolumeCreateContent | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    url: {
+      value: cdktf.stringToHclTerraform(struct!.url),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VolumeCreateContentOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): VolumeCreateContent | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._url !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.url = this._url;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VolumeCreateContent | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._url = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._url = value.url;
+    }
+  }
+
+  // url - computed: false, optional: false, required: true
+  private _url?: string; 
+  public get url() {
+    return this.getStringAttribute('url');
+  }
+  public set url(value: string) {
+    this._url = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get urlInput() {
+    return this._url;
+  }
+}
+export interface VolumeCreate {
+  /**
+  * Upload content from a URL or local file
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.0/docs/resources/volume#content Volume#content}
+  */
+  readonly content: VolumeCreateContent;
+}
+
+export function volumeCreateToTerraform(struct?: VolumeCreate | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    content: volumeCreateContentToTerraform(struct!.content),
+  }
+}
+
+
+export function volumeCreateToHclTerraform(struct?: VolumeCreate | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    content: {
+      value: volumeCreateContentToHclTerraform(struct!.content),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "VolumeCreateContent",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VolumeCreateOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): VolumeCreate | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._content?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.content = this._content?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VolumeCreate | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._content.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._content.internalValue = value.content;
+    }
+  }
+
+  // content - computed: false, optional: false, required: true
+  private _content = new VolumeCreateContentOutputReference(this, "content");
+  public get content() {
+    return this._content;
+  }
+  public putContent(value: VolumeCreateContent) {
+    this._content.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get contentInput() {
+    return this._content.internalValue;
+  }
+}
+export interface VolumePermissions {
+  /**
+  * Numeric group ID for the volume file group
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.0/docs/resources/volume#group Volume#group}
+  */
+  readonly group?: string;
+  /**
+  * SELinux label for the volume file
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.0/docs/resources/volume#label Volume#label}
+  */
+  readonly label?: string;
+  /**
+  * Octal permission mode for the volume file (e.g., '0644')
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.0/docs/resources/volume#mode Volume#mode}
+  */
+  readonly mode?: string;
+  /**
+  * Numeric user ID for the volume file owner
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.0/docs/resources/volume#owner Volume#owner}
+  */
+  readonly owner?: string;
+}
+
+export function volumePermissionsToTerraform(struct?: VolumePermissions | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    group: cdktf.stringToTerraform(struct!.group),
+    label: cdktf.stringToTerraform(struct!.label),
+    mode: cdktf.stringToTerraform(struct!.mode),
+    owner: cdktf.stringToTerraform(struct!.owner),
+  }
+}
+
+
+export function volumePermissionsToHclTerraform(struct?: VolumePermissions | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    group: {
+      value: cdktf.stringToHclTerraform(struct!.group),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    label: {
+      value: cdktf.stringToHclTerraform(struct!.label),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    mode: {
+      value: cdktf.stringToHclTerraform(struct!.mode),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    owner: {
+      value: cdktf.stringToHclTerraform(struct!.owner),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VolumePermissionsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): VolumePermissions | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._group !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.group = this._group;
+    }
+    if (this._label !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.label = this._label;
+    }
+    if (this._mode !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.mode = this._mode;
+    }
+    if (this._owner !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.owner = this._owner;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VolumePermissions | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._group = undefined;
+      this._label = undefined;
+      this._mode = undefined;
+      this._owner = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._group = value.group;
+      this._label = value.label;
+      this._mode = value.mode;
+      this._owner = value.owner;
+    }
+  }
+
+  // group - computed: false, optional: true, required: false
+  private _group?: string; 
+  public get group() {
+    return this.getStringAttribute('group');
+  }
+  public set group(value: string) {
+    this._group = value;
+  }
+  public resetGroup() {
+    this._group = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get groupInput() {
+    return this._group;
+  }
+
+  // label - computed: false, optional: true, required: false
+  private _label?: string; 
+  public get label() {
+    return this.getStringAttribute('label');
+  }
+  public set label(value: string) {
+    this._label = value;
+  }
+  public resetLabel() {
+    this._label = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get labelInput() {
+    return this._label;
+  }
+
+  // mode - computed: false, optional: true, required: false
+  private _mode?: string; 
+  public get mode() {
+    return this.getStringAttribute('mode');
+  }
+  public set mode(value: string) {
+    this._mode = value;
+  }
+  public resetMode() {
+    this._mode = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get modeInput() {
+    return this._mode;
+  }
+
+  // owner - computed: false, optional: true, required: false
+  private _owner?: string; 
+  public get owner() {
+    return this.getStringAttribute('owner');
+  }
+  public set owner(value: string) {
+    this._owner = value;
+  }
+  public resetOwner() {
+    this._owner = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ownerInput() {
+    return this._owner;
   }
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.8.3/docs/resources/volume libvirt_volume}
+* Represents a {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.0/docs/resources/volume libvirt_volume}
 */
 export class Volume extends cdktf.TerraformResource {
 
@@ -155,7 +589,7 @@ export class Volume extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Volume resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Volume to import
-  * @param importFromId The id of the existing Volume that should be imported. Refer to the {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.8.3/docs/resources/volume#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Volume that should be imported. Refer to the {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.0/docs/resources/volume#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Volume to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -167,7 +601,7 @@ export class Volume extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.8.3/docs/resources/volume libvirt_volume} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.0/docs/resources/volume libvirt_volume} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -178,7 +612,8 @@ export class Volume extends cdktf.TerraformResource {
       terraformResourceType: 'libvirt_volume',
       terraformGeneratorMetadata: {
         providerName: 'libvirt',
-        providerVersion: '0.8.3'
+        providerVersion: '0.9.0',
+        providerVersionConstraint: '0.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -188,68 +623,71 @@ export class Volume extends cdktf.TerraformResource {
       connection: config.connection,
       forEach: config.forEach
     });
-    this._baseVolumeId = config.baseVolumeId;
-    this._baseVolumeName = config.baseVolumeName;
-    this._baseVolumePool = config.baseVolumePool;
+    this._backingStore.internalValue = config.backingStore;
+    this._capacity = config.capacity;
+    this._create.internalValue = config.create;
     this._format = config.format;
-    this._id = config.id;
     this._name = config.name;
+    this._permissions.internalValue = config.permissions;
     this._pool = config.pool;
-    this._size = config.size;
-    this._source = config.source;
-    this._xml.internalValue = config.xml;
+    this._type = config.type;
   }
 
   // ==========
   // ATTRIBUTES
   // ==========
 
-  // base_volume_id - computed: false, optional: true, required: false
-  private _baseVolumeId?: string; 
-  public get baseVolumeId() {
-    return this.getStringAttribute('base_volume_id');
-  }
-  public set baseVolumeId(value: string) {
-    this._baseVolumeId = value;
-  }
-  public resetBaseVolumeId() {
-    this._baseVolumeId = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get baseVolumeIdInput() {
-    return this._baseVolumeId;
+  // allocation - computed: true, optional: false, required: false
+  public get allocation() {
+    return this.getNumberAttribute('allocation');
   }
 
-  // base_volume_name - computed: false, optional: true, required: false
-  private _baseVolumeName?: string; 
-  public get baseVolumeName() {
-    return this.getStringAttribute('base_volume_name');
+  // backing_store - computed: false, optional: true, required: false
+  private _backingStore = new VolumeBackingStoreOutputReference(this, "backing_store");
+  public get backingStore() {
+    return this._backingStore;
   }
-  public set baseVolumeName(value: string) {
-    this._baseVolumeName = value;
+  public putBackingStore(value: VolumeBackingStore) {
+    this._backingStore.internalValue = value;
   }
-  public resetBaseVolumeName() {
-    this._baseVolumeName = undefined;
+  public resetBackingStore() {
+    this._backingStore.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get baseVolumeNameInput() {
-    return this._baseVolumeName;
+  public get backingStoreInput() {
+    return this._backingStore.internalValue;
   }
 
-  // base_volume_pool - computed: false, optional: true, required: false
-  private _baseVolumePool?: string; 
-  public get baseVolumePool() {
-    return this.getStringAttribute('base_volume_pool');
+  // capacity - computed: true, optional: true, required: false
+  private _capacity?: number; 
+  public get capacity() {
+    return this.getNumberAttribute('capacity');
   }
-  public set baseVolumePool(value: string) {
-    this._baseVolumePool = value;
+  public set capacity(value: number) {
+    this._capacity = value;
   }
-  public resetBaseVolumePool() {
-    this._baseVolumePool = undefined;
+  public resetCapacity() {
+    this._capacity = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get baseVolumePoolInput() {
-    return this._baseVolumePool;
+  public get capacityInput() {
+    return this._capacity;
+  }
+
+  // create - computed: false, optional: true, required: false
+  private _create = new VolumeCreateOutputReference(this, "create");
+  public get create() {
+    return this._create;
+  }
+  public putCreate(value: VolumeCreate) {
+    this._create.internalValue = value;
+  }
+  public resetCreate() {
+    this._create.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get createInput() {
+    return this._create.internalValue;
   }
 
   // format - computed: true, optional: true, required: false
@@ -268,20 +706,14 @@ export class Volume extends cdktf.TerraformResource {
     return this._format;
   }
 
-  // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  // id - computed: true, optional: false, required: false
   public get id() {
     return this.getStringAttribute('id');
   }
-  public set id(value: string) {
-    this._id = value;
-  }
-  public resetId() {
-    this._id = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get idInput() {
-    return this._id;
+
+  // key - computed: true, optional: false, required: false
+  public get key() {
+    return this.getStringAttribute('key');
   }
 
   // name - computed: false, optional: false, required: true
@@ -297,7 +729,28 @@ export class Volume extends cdktf.TerraformResource {
     return this._name;
   }
 
-  // pool - computed: false, optional: true, required: false
+  // path - computed: true, optional: false, required: false
+  public get path() {
+    return this.getStringAttribute('path');
+  }
+
+  // permissions - computed: false, optional: true, required: false
+  private _permissions = new VolumePermissionsOutputReference(this, "permissions");
+  public get permissions() {
+    return this._permissions;
+  }
+  public putPermissions(value: VolumePermissions) {
+    this._permissions.internalValue = value;
+  }
+  public resetPermissions() {
+    this._permissions.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get permissionsInput() {
+    return this._permissions.internalValue;
+  }
+
+  // pool - computed: false, optional: false, required: true
   private _pool?: string; 
   public get pool() {
     return this.getStringAttribute('pool');
@@ -305,60 +758,25 @@ export class Volume extends cdktf.TerraformResource {
   public set pool(value: string) {
     this._pool = value;
   }
-  public resetPool() {
-    this._pool = undefined;
-  }
   // Temporarily expose input value. Use with caution.
   public get poolInput() {
     return this._pool;
   }
 
-  // size - computed: true, optional: true, required: false
-  private _size?: number; 
-  public get size() {
-    return this.getNumberAttribute('size');
+  // type - computed: true, optional: true, required: false
+  private _type?: string; 
+  public get type() {
+    return this.getStringAttribute('type');
   }
-  public set size(value: number) {
-    this._size = value;
+  public set type(value: string) {
+    this._type = value;
   }
-  public resetSize() {
-    this._size = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get sizeInput() {
-    return this._size;
-  }
-
-  // source - computed: false, optional: true, required: false
-  private _source?: string; 
-  public get source() {
-    return this.getStringAttribute('source');
-  }
-  public set source(value: string) {
-    this._source = value;
-  }
-  public resetSource() {
-    this._source = undefined;
+  public resetType() {
+    this._type = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get sourceInput() {
-    return this._source;
-  }
-
-  // xml - computed: false, optional: true, required: false
-  private _xml = new VolumeXmlOutputReference(this, "xml");
-  public get xml() {
-    return this._xml;
-  }
-  public putXml(value: VolumeXml) {
-    this._xml.internalValue = value;
-  }
-  public resetXml() {
-    this._xml.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get xmlInput() {
-    return this._xml.internalValue;
+  public get typeInput() {
+    return this._type;
   }
 
   // =========
@@ -367,47 +785,39 @@ export class Volume extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      base_volume_id: cdktf.stringToTerraform(this._baseVolumeId),
-      base_volume_name: cdktf.stringToTerraform(this._baseVolumeName),
-      base_volume_pool: cdktf.stringToTerraform(this._baseVolumePool),
+      backing_store: volumeBackingStoreToTerraform(this._backingStore.internalValue),
+      capacity: cdktf.numberToTerraform(this._capacity),
+      create: volumeCreateToTerraform(this._create.internalValue),
       format: cdktf.stringToTerraform(this._format),
-      id: cdktf.stringToTerraform(this._id),
       name: cdktf.stringToTerraform(this._name),
+      permissions: volumePermissionsToTerraform(this._permissions.internalValue),
       pool: cdktf.stringToTerraform(this._pool),
-      size: cdktf.numberToTerraform(this._size),
-      source: cdktf.stringToTerraform(this._source),
-      xml: volumeXmlToTerraform(this._xml.internalValue),
+      type: cdktf.stringToTerraform(this._type),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
-      base_volume_id: {
-        value: cdktf.stringToHclTerraform(this._baseVolumeId),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
+      backing_store: {
+        value: volumeBackingStoreToHclTerraform(this._backingStore.internalValue),
+        isBlock: true,
+        type: "struct",
+        storageClassType: "VolumeBackingStore",
       },
-      base_volume_name: {
-        value: cdktf.stringToHclTerraform(this._baseVolumeName),
+      capacity: {
+        value: cdktf.numberToHclTerraform(this._capacity),
         isBlock: false,
         type: "simple",
-        storageClassType: "string",
+        storageClassType: "number",
       },
-      base_volume_pool: {
-        value: cdktf.stringToHclTerraform(this._baseVolumePool),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
+      create: {
+        value: volumeCreateToHclTerraform(this._create.internalValue),
+        isBlock: true,
+        type: "struct",
+        storageClassType: "VolumeCreate",
       },
       format: {
         value: cdktf.stringToHclTerraform(this._format),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
-      id: {
-        value: cdktf.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
@@ -418,29 +828,23 @@ export class Volume extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      permissions: {
+        value: volumePermissionsToHclTerraform(this._permissions.internalValue),
+        isBlock: true,
+        type: "struct",
+        storageClassType: "VolumePermissions",
+      },
       pool: {
         value: cdktf.stringToHclTerraform(this._pool),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
-      size: {
-        value: cdktf.numberToHclTerraform(this._size),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "number",
-      },
-      source: {
-        value: cdktf.stringToHclTerraform(this._source),
+      type: {
+        value: cdktf.stringToHclTerraform(this._type),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
-      },
-      xml: {
-        value: volumeXmlToHclTerraform(this._xml.internalValue),
-        isBlock: true,
-        type: "list",
-        storageClassType: "VolumeXmlList",
       },
     };
 

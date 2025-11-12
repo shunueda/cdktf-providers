@@ -79,7 +79,8 @@ export class Automemberadd extends cdktf.TerraformResource {
       terraformResourceType: 'freeipa_automemberadd',
       terraformGeneratorMetadata: {
         providerName: 'freeipa',
-        providerVersion: '5.1.3'
+        providerVersion: '5.1.3',
+        providerVersionConstraint: '5.1.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

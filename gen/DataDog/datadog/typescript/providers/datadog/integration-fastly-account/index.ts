@@ -61,7 +61,8 @@ export class IntegrationFastlyAccount extends cdktf.TerraformResource {
       terraformResourceType: 'datadog_integration_fastly_account',
       terraformGeneratorMetadata: {
         providerName: 'datadog',
-        providerVersion: '3.79.0'
+        providerVersion: '3.79.0',
+        providerVersionConstraint: '3.79.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

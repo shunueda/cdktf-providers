@@ -483,7 +483,8 @@ export class DataOciDbmulticloudOracleDbAzureKeys extends cdktf.TerraformDataSou
       terraformResourceType: 'oci_dbmulticloud_oracle_db_azure_keys',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

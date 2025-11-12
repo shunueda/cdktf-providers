@@ -79,7 +79,8 @@ export class LimelightProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'limelight',
       terraformGeneratorMetadata: {
         providerName: 'limelight',
-        providerVersion: '1.0.3'
+        providerVersion: '1.0.3',
+        providerVersionConstraint: '1.0.3'
       },
       terraformProviderSource: 'llnw/limelight'
     });

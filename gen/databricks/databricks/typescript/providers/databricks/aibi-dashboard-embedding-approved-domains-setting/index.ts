@@ -151,7 +151,8 @@ export class AibiDashboardEmbeddingApprovedDomainsSetting extends cdktf.Terrafor
       terraformResourceType: 'databricks_aibi_dashboard_embedding_approved_domains_setting',
       terraformGeneratorMetadata: {
         providerName: 'databricks',
-        providerVersion: '1.97.0'
+        providerVersion: '1.97.0',
+        providerVersionConstraint: '1.97.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

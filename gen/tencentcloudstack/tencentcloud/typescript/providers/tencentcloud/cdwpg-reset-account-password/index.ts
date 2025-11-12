@@ -74,7 +74,8 @@ export class CdwpgResetAccountPassword extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cdwpg_reset_account_password',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

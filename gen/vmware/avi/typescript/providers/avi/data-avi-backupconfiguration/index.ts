@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/backupconfiguration
+// https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/backupconfiguration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,22 +8,22 @@ import * as cdktf from 'cdktf';
 
 export interface DataAviBackupconfigurationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/backupconfiguration#id DataAviBackupconfiguration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/backupconfiguration#id DataAviBackupconfiguration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/backupconfiguration#name DataAviBackupconfiguration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/backupconfiguration#name DataAviBackupconfiguration#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/backupconfiguration#tenant_ref DataAviBackupconfiguration#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/backupconfiguration#tenant_ref DataAviBackupconfiguration#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/backupconfiguration#uuid DataAviBackupconfiguration#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/backupconfiguration#uuid DataAviBackupconfiguration#uuid}
   */
   readonly uuid?: string;
 }
@@ -104,7 +104,7 @@ export class DataAviBackupconfigurationConfigpbAttributesList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/backupconfiguration avi_backupconfiguration}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/backupconfiguration avi_backupconfiguration}
 */
 export class DataAviBackupconfiguration extends cdktf.TerraformDataSource {
 
@@ -120,7 +120,7 @@ export class DataAviBackupconfiguration extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAviBackupconfiguration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAviBackupconfiguration to import
-  * @param importFromId The id of the existing DataAviBackupconfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/backupconfiguration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAviBackupconfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/backupconfiguration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAviBackupconfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -132,7 +132,7 @@ export class DataAviBackupconfiguration extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/data-sources/backupconfiguration avi_backupconfiguration} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/backupconfiguration avi_backupconfiguration} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -143,7 +143,8 @@ export class DataAviBackupconfiguration extends cdktf.TerraformDataSource {
       terraformResourceType: 'avi_backupconfiguration',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '31.1.1'
+        providerVersion: '30.2.5',
+        providerVersionConstraint: '30.2.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -191,11 +192,6 @@ export class DataAviBackupconfiguration extends cdktf.TerraformDataSource {
   // backup_passphrase - computed: true, optional: false, required: false
   public get backupPassphrase() {
     return this.getStringAttribute('backup_passphrase');
-  }
-
-  // bundle_mode - computed: true, optional: false, required: false
-  public get bundleMode() {
-    return this.getStringAttribute('bundle_mode');
   }
 
   // configpb_attributes - computed: true, optional: false, required: false

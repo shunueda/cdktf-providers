@@ -68,7 +68,8 @@ export class DlcSuspendResumeDataEngine extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_dlc_suspend_resume_data_engine',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

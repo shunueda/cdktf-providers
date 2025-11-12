@@ -4038,7 +4038,8 @@ export class DataIntersightHclHwCatalogInfo extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_hcl_hw_catalog_info',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

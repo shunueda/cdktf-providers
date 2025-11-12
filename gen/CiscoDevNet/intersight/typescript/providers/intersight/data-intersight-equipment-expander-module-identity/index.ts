@@ -5218,7 +5218,8 @@ export class DataIntersightEquipmentExpanderModuleIdentity extends cdktf.Terrafo
       terraformResourceType: 'intersight_equipment_expander_module_identity',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

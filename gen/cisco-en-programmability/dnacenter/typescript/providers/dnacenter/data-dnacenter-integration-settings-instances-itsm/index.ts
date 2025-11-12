@@ -355,7 +355,8 @@ export class DataDnacenterIntegrationSettingsInstancesItsm extends cdktf.Terrafo
       terraformResourceType: 'dnacenter_integration_settings_instances_itsm',
       terraformGeneratorMetadata: {
         providerName: 'dnacenter',
-        providerVersion: '1.1.21'
+        providerVersion: '1.1.21',
+        providerVersionConstraint: '1.1.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

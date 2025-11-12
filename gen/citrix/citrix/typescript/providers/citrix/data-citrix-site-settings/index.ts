@@ -49,7 +49,8 @@ export class DataCitrixSiteSettings extends cdktf.TerraformDataSource {
       terraformResourceType: 'citrix_site_settings',
       terraformGeneratorMetadata: {
         providerName: 'citrix',
-        providerVersion: '1.0.30'
+        providerVersion: '1.0.30',
+        providerVersionConstraint: '1.0.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

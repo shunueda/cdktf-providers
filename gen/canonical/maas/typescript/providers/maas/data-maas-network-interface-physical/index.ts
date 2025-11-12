@@ -74,7 +74,8 @@ export class DataMaasNetworkInterfacePhysical extends cdktf.TerraformDataSource 
       terraformResourceType: 'maas_network_interface_physical',
       terraformGeneratorMetadata: {
         providerName: 'maas',
-        providerVersion: '2.6.0'
+        providerVersion: '2.6.0',
+        providerVersionConstraint: '2.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

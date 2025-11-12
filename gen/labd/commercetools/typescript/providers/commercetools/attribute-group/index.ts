@@ -188,7 +188,8 @@ export class AttributeGroup extends cdktf.TerraformResource {
       terraformResourceType: 'commercetools_attribute_group',
       terraformGeneratorMetadata: {
         providerName: 'commercetools',
-        providerVersion: '1.21.1'
+        providerVersion: '1.21.1',
+        providerVersionConstraint: '1.21.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

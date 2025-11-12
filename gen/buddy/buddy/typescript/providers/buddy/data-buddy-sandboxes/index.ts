@@ -162,7 +162,8 @@ export class DataBuddySandboxes extends cdktf.TerraformDataSource {
       terraformResourceType: 'buddy_sandboxes',
       terraformGeneratorMetadata: {
         providerName: 'buddy',
-        providerVersion: '1.37.1'
+        providerVersion: '1.37.1',
+        providerVersionConstraint: '1.37.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

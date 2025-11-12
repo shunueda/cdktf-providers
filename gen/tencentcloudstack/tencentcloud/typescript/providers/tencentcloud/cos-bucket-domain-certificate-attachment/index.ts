@@ -448,7 +448,8 @@ export class CosBucketDomainCertificateAttachment extends cdktf.TerraformResourc
       terraformResourceType: 'tencentcloud_cos_bucket_domain_certificate_attachment',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

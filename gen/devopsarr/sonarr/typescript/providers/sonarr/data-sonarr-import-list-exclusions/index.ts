@@ -134,7 +134,8 @@ export class DataSonarrImportListExclusions extends cdktf.TerraformDataSource {
       terraformResourceType: 'sonarr_import_list_exclusions',
       terraformGeneratorMetadata: {
         providerName: 'sonarr',
-        providerVersion: '3.4.0'
+        providerVersion: '3.4.0',
+        providerVersionConstraint: '3.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

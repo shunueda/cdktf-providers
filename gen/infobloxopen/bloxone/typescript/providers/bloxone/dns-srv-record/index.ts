@@ -561,7 +561,8 @@ export class DnsSrvRecord extends cdktf.TerraformResource {
       terraformResourceType: 'bloxone_dns_srv_record',
       terraformGeneratorMetadata: {
         providerName: 'bloxone',
-        providerVersion: '1.5.3'
+        providerVersion: '1.5.3',
+        providerVersionConstraint: '1.5.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1381,7 +1381,8 @@ export class DataOciDatabaseMaintenanceRunHistories extends cdktf.TerraformDataS
       terraformResourceType: 'oci_database_maintenance_run_histories',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

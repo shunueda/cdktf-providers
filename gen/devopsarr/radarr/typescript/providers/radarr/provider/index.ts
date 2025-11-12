@@ -124,7 +124,8 @@ export class RadarrProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'radarr',
       terraformGeneratorMetadata: {
         providerName: 'radarr',
-        providerVersion: '2.3.3'
+        providerVersion: '2.3.3',
+        providerVersionConstraint: '2.3.3'
       },
       terraformProviderSource: 'devopsarr/radarr'
     });

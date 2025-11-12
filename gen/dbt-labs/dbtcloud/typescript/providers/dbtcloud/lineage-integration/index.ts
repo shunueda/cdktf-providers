@@ -79,7 +79,8 @@ export class LineageIntegration extends cdktf.TerraformResource {
       terraformResourceType: 'dbtcloud_lineage_integration',
       terraformGeneratorMetadata: {
         providerName: 'dbtcloud',
-        providerVersion: '1.3.0'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

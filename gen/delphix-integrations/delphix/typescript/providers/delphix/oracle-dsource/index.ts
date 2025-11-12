@@ -2440,7 +2440,8 @@ export class OracleDsource extends cdktf.TerraformResource {
       terraformResourceType: 'delphix_oracle_dsource',
       terraformGeneratorMetadata: {
         providerName: 'delphix',
-        providerVersion: '4.1.0'
+        providerVersion: '4.1.0',
+        providerVersionConstraint: '4.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

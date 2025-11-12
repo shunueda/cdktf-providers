@@ -5956,11 +5956,6 @@ export class DataAviVirtualserviceServicesOutputReference extends cdktf.ComplexO
     return this.getStringAttribute('is_active_ftp_data_port');
   }
 
-  // is_passive_ftp_data_port - computed: true, optional: false, required: false
-  public get isPassiveFtpDataPort() {
-    return this.getStringAttribute('is_passive_ftp_data_port');
-  }
-
   // override_application_profile_ref - computed: true, optional: false, required: false
   public get overrideApplicationProfileRef() {
     return this.getStringAttribute('override_application_profile_ref');

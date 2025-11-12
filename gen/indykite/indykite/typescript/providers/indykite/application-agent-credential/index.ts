@@ -283,7 +283,8 @@ export class ApplicationAgentCredential extends cdktf.TerraformResource {
       terraformResourceType: 'indykite_application_agent_credential',
       terraformGeneratorMetadata: {
         providerName: 'indykite',
-        providerVersion: '0.27.0'
+        providerVersion: '0.27.0',
+        providerVersionConstraint: '0.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

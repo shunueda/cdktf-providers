@@ -87,7 +87,8 @@ export class EnosProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'enos',
       terraformGeneratorMetadata: {
         providerName: 'enos',
-        providerVersion: '0.6.2'
+        providerVersion: '0.6.2',
+        providerVersionConstraint: '0.6.2'
       },
       terraformProviderSource: 'hashicorp-forge/enos'
     });

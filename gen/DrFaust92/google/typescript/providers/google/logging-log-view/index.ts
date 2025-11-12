@@ -258,7 +258,8 @@ export class LoggingLogView extends cdktf.TerraformResource {
       terraformResourceType: 'google_logging_log_view',
       terraformGeneratorMetadata: {
         providerName: 'google',
-        providerVersion: '4.16.4'
+        providerVersion: '4.16.4',
+        providerVersionConstraint: '4.16.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

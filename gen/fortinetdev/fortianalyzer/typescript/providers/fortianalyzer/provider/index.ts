@@ -107,7 +107,8 @@ export class FortianalyzerProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'fortianalyzer',
       terraformGeneratorMetadata: {
         providerName: 'fortianalyzer',
-        providerVersion: '1.5.1'
+        providerVersion: '1.5.1',
+        providerVersionConstraint: '1.5.1'
       },
       terraformProviderSource: 'fortinetdev/fortianalyzer'
     });

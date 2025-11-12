@@ -1231,7 +1231,8 @@ export class R2BucketLifecycle extends cdktf.TerraformResource {
       terraformResourceType: 'cloudflare_r2_bucket_lifecycle',
       terraformGeneratorMetadata: {
         providerName: 'cloudflare',
-        providerVersion: '5.12.0'
+        providerVersion: '5.12.0',
+        providerVersionConstraint: '5.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -550,7 +550,8 @@ export class AppsecSiemSettings extends cdktf.TerraformResource {
       terraformResourceType: 'akamai_appsec_siem_settings',
       terraformGeneratorMetadata: {
         providerName: 'akamai',
-        providerVersion: '9.1.0'
+        providerVersion: '9.1.0',
+        providerVersionConstraint: '9.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

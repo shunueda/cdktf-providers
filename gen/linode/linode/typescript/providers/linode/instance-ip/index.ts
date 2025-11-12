@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance_ip
+// https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance_ip
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface InstanceIpConfig extends cdktf.TerraformMetaArguments {
   /**
   * If true, the instance will be rebooted to update network interfaces. This functionality is not affected by the `skip_implicit_reboots` provider argument.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance_ip#apply_immediately InstanceIp#apply_immediately}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance_ip#apply_immediately InstanceIp#apply_immediately}
   */
   readonly applyImmediately?: boolean | cdktf.IResolvable;
   /**
   * The ID of the Linode to allocate an IPv4 address for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance_ip#linode_id InstanceIp#linode_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance_ip#linode_id InstanceIp#linode_id}
   */
   readonly linodeId: number;
   /**
   * Whether the IPv4 address is public or private.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance_ip#public InstanceIp#public}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance_ip#public InstanceIp#public}
   */
   readonly public?: boolean | cdktf.IResolvable;
   /**
   * The reverse DNS assigned to this address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance_ip#rdns InstanceIp#rdns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance_ip#rdns InstanceIp#rdns}
   */
   readonly rdns?: string;
 }
@@ -119,7 +119,7 @@ export class InstanceIpVpcNat11List extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance_ip linode_instance_ip}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance_ip linode_instance_ip}
 */
 export class InstanceIp extends cdktf.TerraformResource {
 
@@ -135,7 +135,7 @@ export class InstanceIp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InstanceIp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InstanceIp to import
-  * @param importFromId The id of the existing InstanceIp that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance_ip#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InstanceIp that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance_ip#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InstanceIp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -147,7 +147,7 @@ export class InstanceIp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/instance_ip linode_instance_ip} Resource
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/instance_ip linode_instance_ip} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -158,7 +158,8 @@ export class InstanceIp extends cdktf.TerraformResource {
       terraformResourceType: 'linode_instance_ip',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.5.0'
+        providerVersion: '3.5.1',
+        providerVersionConstraint: '3.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -4416,7 +4416,8 @@ export class DataIntersightRecommendationHardwareExpansionRequest extends cdktf.
       terraformResourceType: 'intersight_recommendation_hardware_expansion_request',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

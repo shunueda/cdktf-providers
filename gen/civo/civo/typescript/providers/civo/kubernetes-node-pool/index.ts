@@ -435,7 +435,8 @@ export class KubernetesNodePool extends cdktf.TerraformResource {
       terraformResourceType: 'civo_kubernetes_node_pool',
       terraformGeneratorMetadata: {
         providerName: 'civo',
-        providerVersion: '1.1.7'
+        providerVersion: '1.1.7',
+        providerVersionConstraint: '1.1.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

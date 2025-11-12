@@ -322,7 +322,8 @@ export class Cgnv6MapTranslationDomainHealthCheckGatewayA extends cdktf.Terrafor
       terraformResourceType: 'thunder_cgnv6_map_translation_domain_health_check_gateway',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

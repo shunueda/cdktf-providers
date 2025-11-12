@@ -85,7 +85,8 @@ export class ZillizcloudProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'zillizcloud',
       terraformGeneratorMetadata: {
         providerName: 'zillizcloud',
-        providerVersion: '0.6.23'
+        providerVersion: '0.6.23',
+        providerVersionConstraint: '0.6.23'
       },
       terraformProviderSource: 'zilliztech/zillizcloud'
     });

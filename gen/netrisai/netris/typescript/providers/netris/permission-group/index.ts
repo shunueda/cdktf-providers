@@ -74,7 +74,8 @@ export class PermissionGroup extends cdktf.TerraformResource {
       terraformResourceType: 'netris_permission_group',
       terraformGeneratorMetadata: {
         providerName: 'netris',
-        providerVersion: '3.6.6'
+        providerVersion: '3.6.6',
+        providerVersionConstraint: '3.6.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/azure_metrics_source
+// https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/azure_metrics_source
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,180 +8,180 @@ import * as cdktf from 'cdktf';
 
 export interface AzureMetricsSourceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/azure_metrics_source#automatic_date_parsing AzureMetricsSource#automatic_date_parsing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/azure_metrics_source#automatic_date_parsing AzureMetricsSource#automatic_date_parsing}
   */
   readonly automaticDateParsing?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/azure_metrics_source#category AzureMetricsSource#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/azure_metrics_source#category AzureMetricsSource#category}
   */
   readonly category?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/azure_metrics_source#collector_id AzureMetricsSource#collector_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/azure_metrics_source#collector_id AzureMetricsSource#collector_id}
   */
   readonly collectorId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/azure_metrics_source#content_type AzureMetricsSource#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/azure_metrics_source#content_type AzureMetricsSource#content_type}
   */
   readonly contentType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/azure_metrics_source#cutoff_relative_time AzureMetricsSource#cutoff_relative_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/azure_metrics_source#cutoff_relative_time AzureMetricsSource#cutoff_relative_time}
   */
   readonly cutoffRelativeTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/azure_metrics_source#cutoff_timestamp AzureMetricsSource#cutoff_timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/azure_metrics_source#cutoff_timestamp AzureMetricsSource#cutoff_timestamp}
   */
   readonly cutoffTimestamp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/azure_metrics_source#description AzureMetricsSource#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/azure_metrics_source#description AzureMetricsSource#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/azure_metrics_source#fields AzureMetricsSource#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/azure_metrics_source#fields AzureMetricsSource#fields}
   */
   readonly fields?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/azure_metrics_source#force_timezone AzureMetricsSource#force_timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/azure_metrics_source#force_timezone AzureMetricsSource#force_timezone}
   */
   readonly forceTimezone?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/azure_metrics_source#hash_algorithm AzureMetricsSource#hash_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/azure_metrics_source#hash_algorithm AzureMetricsSource#hash_algorithm}
   */
   readonly hashAlgorithm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/azure_metrics_source#host_name AzureMetricsSource#host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/azure_metrics_source#host_name AzureMetricsSource#host_name}
   */
   readonly hostName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/azure_metrics_source#id AzureMetricsSource#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/azure_metrics_source#id AzureMetricsSource#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/azure_metrics_source#manual_prefix_regexp AzureMetricsSource#manual_prefix_regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/azure_metrics_source#manual_prefix_regexp AzureMetricsSource#manual_prefix_regexp}
   */
   readonly manualPrefixRegexp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/azure_metrics_source#multiline_processing_enabled AzureMetricsSource#multiline_processing_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/azure_metrics_source#multiline_processing_enabled AzureMetricsSource#multiline_processing_enabled}
   */
   readonly multilineProcessingEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/azure_metrics_source#name AzureMetricsSource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/azure_metrics_source#name AzureMetricsSource#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/azure_metrics_source#paused AzureMetricsSource#paused}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/azure_metrics_source#paused AzureMetricsSource#paused}
   */
   readonly paused?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/azure_metrics_source#scan_interval AzureMetricsSource#scan_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/azure_metrics_source#scan_interval AzureMetricsSource#scan_interval}
   */
   readonly scanInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/azure_metrics_source#timezone AzureMetricsSource#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/azure_metrics_source#timezone AzureMetricsSource#timezone}
   */
   readonly timezone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/azure_metrics_source#use_autoline_matching AzureMetricsSource#use_autoline_matching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/azure_metrics_source#use_autoline_matching AzureMetricsSource#use_autoline_matching}
   */
   readonly useAutolineMatching?: boolean | cdktf.IResolvable;
   /**
   * authentication block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/azure_metrics_source#authentication AzureMetricsSource#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/azure_metrics_source#authentication AzureMetricsSource#authentication}
   */
   readonly authentication: AzureMetricsSourceAuthentication;
   /**
   * default_date_formats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/azure_metrics_source#default_date_formats AzureMetricsSource#default_date_formats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/azure_metrics_source#default_date_formats AzureMetricsSource#default_date_formats}
   */
   readonly defaultDateFormats?: AzureMetricsSourceDefaultDateFormats[] | cdktf.IResolvable;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/azure_metrics_source#filters AzureMetricsSource#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/azure_metrics_source#filters AzureMetricsSource#filters}
   */
   readonly filters?: AzureMetricsSourceFilters[] | cdktf.IResolvable;
   /**
   * path block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/azure_metrics_source#path AzureMetricsSource#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/azure_metrics_source#path AzureMetricsSource#path}
   */
   readonly path: AzureMetricsSourcePath;
 }
 export interface AzureMetricsSourceAuthentication {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/azure_metrics_source#access_key AzureMetricsSource#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/azure_metrics_source#access_key AzureMetricsSource#access_key}
   */
   readonly accessKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/azure_metrics_source#auth_provider_x509_cert_url AzureMetricsSource#auth_provider_x509_cert_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/azure_metrics_source#auth_provider_x509_cert_url AzureMetricsSource#auth_provider_x509_cert_url}
   */
   readonly authProviderX509CertUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/azure_metrics_source#auth_uri AzureMetricsSource#auth_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/azure_metrics_source#auth_uri AzureMetricsSource#auth_uri}
   */
   readonly authUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/azure_metrics_source#client_email AzureMetricsSource#client_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/azure_metrics_source#client_email AzureMetricsSource#client_email}
   */
   readonly clientEmail?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/azure_metrics_source#client_id AzureMetricsSource#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/azure_metrics_source#client_id AzureMetricsSource#client_id}
   */
   readonly clientId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/azure_metrics_source#client_secret AzureMetricsSource#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/azure_metrics_source#client_secret AzureMetricsSource#client_secret}
   */
   readonly clientSecret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/azure_metrics_source#client_x509_cert_url AzureMetricsSource#client_x509_cert_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/azure_metrics_source#client_x509_cert_url AzureMetricsSource#client_x509_cert_url}
   */
   readonly clientX509CertUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/azure_metrics_source#private_key AzureMetricsSource#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/azure_metrics_source#private_key AzureMetricsSource#private_key}
   */
   readonly privateKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/azure_metrics_source#private_key_id AzureMetricsSource#private_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/azure_metrics_source#private_key_id AzureMetricsSource#private_key_id}
   */
   readonly privateKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/azure_metrics_source#project_id AzureMetricsSource#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/azure_metrics_source#project_id AzureMetricsSource#project_id}
   */
   readonly projectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/azure_metrics_source#region AzureMetricsSource#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/azure_metrics_source#region AzureMetricsSource#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/azure_metrics_source#role_arn AzureMetricsSource#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/azure_metrics_source#role_arn AzureMetricsSource#role_arn}
   */
   readonly roleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/azure_metrics_source#secret_key AzureMetricsSource#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/azure_metrics_source#secret_key AzureMetricsSource#secret_key}
   */
   readonly secretKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/azure_metrics_source#shared_access_policy_key AzureMetricsSource#shared_access_policy_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/azure_metrics_source#shared_access_policy_key AzureMetricsSource#shared_access_policy_key}
   */
   readonly sharedAccessPolicyKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/azure_metrics_source#shared_access_policy_name AzureMetricsSource#shared_access_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/azure_metrics_source#shared_access_policy_name AzureMetricsSource#shared_access_policy_name}
   */
   readonly sharedAccessPolicyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/azure_metrics_source#tenant_id AzureMetricsSource#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/azure_metrics_source#tenant_id AzureMetricsSource#tenant_id}
   */
   readonly tenantId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/azure_metrics_source#token_uri AzureMetricsSource#token_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/azure_metrics_source#token_uri AzureMetricsSource#token_uri}
   */
   readonly tokenUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/azure_metrics_source#type AzureMetricsSource#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/azure_metrics_source#type AzureMetricsSource#type}
   */
   readonly type: string;
 }
@@ -755,11 +755,11 @@ export class AzureMetricsSourceAuthenticationOutputReference extends cdktf.Compl
 }
 export interface AzureMetricsSourceDefaultDateFormats {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/azure_metrics_source#format AzureMetricsSource#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/azure_metrics_source#format AzureMetricsSource#format}
   */
   readonly format: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/azure_metrics_source#locator AzureMetricsSource#locator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/azure_metrics_source#locator AzureMetricsSource#locator}
   */
   readonly locator?: string;
 }
@@ -901,19 +901,19 @@ export class AzureMetricsSourceDefaultDateFormatsList extends cdktf.ComplexList 
 }
 export interface AzureMetricsSourceFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/azure_metrics_source#filter_type AzureMetricsSource#filter_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/azure_metrics_source#filter_type AzureMetricsSource#filter_type}
   */
   readonly filterType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/azure_metrics_source#mask AzureMetricsSource#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/azure_metrics_source#mask AzureMetricsSource#mask}
   */
   readonly mask?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/azure_metrics_source#name AzureMetricsSource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/azure_metrics_source#name AzureMetricsSource#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/azure_metrics_source#regexp AzureMetricsSource#regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/azure_metrics_source#regexp AzureMetricsSource#regexp}
   */
   readonly regexp: string;
 }
@@ -1187,11 +1187,11 @@ export class AzureMetricsSourcePathSnsTopicOrSubscriptionArnList extends cdktf.C
 }
 export interface AzureMetricsSourcePathAzureTagFiltersTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/azure_metrics_source#name AzureMetricsSource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/azure_metrics_source#name AzureMetricsSource#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/azure_metrics_source#values AzureMetricsSource#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/azure_metrics_source#values AzureMetricsSource#values}
   */
   readonly values?: string[];
 }
@@ -1333,17 +1333,17 @@ export class AzureMetricsSourcePathAzureTagFiltersTagsList extends cdktf.Complex
 }
 export interface AzureMetricsSourcePathAzureTagFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/azure_metrics_source#namespace AzureMetricsSource#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/azure_metrics_source#namespace AzureMetricsSource#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/azure_metrics_source#type AzureMetricsSource#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/azure_metrics_source#type AzureMetricsSource#type}
   */
   readonly type: string;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/azure_metrics_source#tags AzureMetricsSource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/azure_metrics_source#tags AzureMetricsSource#tags}
   */
   readonly tags?: AzureMetricsSourcePathAzureTagFiltersTags[] | cdktf.IResolvable;
 }
@@ -1514,11 +1514,11 @@ export class AzureMetricsSourcePathAzureTagFiltersList extends cdktf.ComplexList
 }
 export interface AzureMetricsSourcePathCustomServices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/azure_metrics_source#prefixes AzureMetricsSource#prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/azure_metrics_source#prefixes AzureMetricsSource#prefixes}
   */
   readonly prefixes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/azure_metrics_source#service_name AzureMetricsSource#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/azure_metrics_source#service_name AzureMetricsSource#service_name}
   */
   readonly serviceName?: string;
 }
@@ -1663,15 +1663,15 @@ export class AzureMetricsSourcePathCustomServicesList extends cdktf.ComplexList 
 }
 export interface AzureMetricsSourcePathTagFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/azure_metrics_source#namespace AzureMetricsSource#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/azure_metrics_source#namespace AzureMetricsSource#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/azure_metrics_source#tags AzureMetricsSource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/azure_metrics_source#tags AzureMetricsSource#tags}
   */
   readonly tags?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/azure_metrics_source#type AzureMetricsSource#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/azure_metrics_source#type AzureMetricsSource#type}
   */
   readonly type?: string;
 }
@@ -1845,69 +1845,69 @@ export class AzureMetricsSourcePathTagFiltersList extends cdktf.ComplexList {
 }
 export interface AzureMetricsSourcePath {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/azure_metrics_source#bucket_name AzureMetricsSource#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/azure_metrics_source#bucket_name AzureMetricsSource#bucket_name}
   */
   readonly bucketName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/azure_metrics_source#consumer_group AzureMetricsSource#consumer_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/azure_metrics_source#consumer_group AzureMetricsSource#consumer_group}
   */
   readonly consumerGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/azure_metrics_source#environment AzureMetricsSource#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/azure_metrics_source#environment AzureMetricsSource#environment}
   */
   readonly environment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/azure_metrics_source#event_hub_name AzureMetricsSource#event_hub_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/azure_metrics_source#event_hub_name AzureMetricsSource#event_hub_name}
   */
   readonly eventHubName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/azure_metrics_source#limit_to_namespaces AzureMetricsSource#limit_to_namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/azure_metrics_source#limit_to_namespaces AzureMetricsSource#limit_to_namespaces}
   */
   readonly limitToNamespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/azure_metrics_source#limit_to_regions AzureMetricsSource#limit_to_regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/azure_metrics_source#limit_to_regions AzureMetricsSource#limit_to_regions}
   */
   readonly limitToRegions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/azure_metrics_source#limit_to_services AzureMetricsSource#limit_to_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/azure_metrics_source#limit_to_services AzureMetricsSource#limit_to_services}
   */
   readonly limitToServices?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/azure_metrics_source#namespace AzureMetricsSource#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/azure_metrics_source#namespace AzureMetricsSource#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/azure_metrics_source#path_expression AzureMetricsSource#path_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/azure_metrics_source#path_expression AzureMetricsSource#path_expression}
   */
   readonly pathExpression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/azure_metrics_source#region AzureMetricsSource#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/azure_metrics_source#region AzureMetricsSource#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/azure_metrics_source#type AzureMetricsSource#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/azure_metrics_source#type AzureMetricsSource#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/azure_metrics_source#use_versioned_api AzureMetricsSource#use_versioned_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/azure_metrics_source#use_versioned_api AzureMetricsSource#use_versioned_api}
   */
   readonly useVersionedApi?: boolean | cdktf.IResolvable;
   /**
   * azure_tag_filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/azure_metrics_source#azure_tag_filters AzureMetricsSource#azure_tag_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/azure_metrics_source#azure_tag_filters AzureMetricsSource#azure_tag_filters}
   */
   readonly azureTagFilters?: AzureMetricsSourcePathAzureTagFilters[] | cdktf.IResolvable;
   /**
   * custom_services block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/azure_metrics_source#custom_services AzureMetricsSource#custom_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/azure_metrics_source#custom_services AzureMetricsSource#custom_services}
   */
   readonly customServices?: AzureMetricsSourcePathCustomServices[] | cdktf.IResolvable;
   /**
   * tag_filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/azure_metrics_source#tag_filters AzureMetricsSource#tag_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/azure_metrics_source#tag_filters AzureMetricsSource#tag_filters}
   */
   readonly tagFilters?: AzureMetricsSourcePathTagFilters[] | cdktf.IResolvable;
 }
@@ -2400,7 +2400,7 @@ export class AzureMetricsSourcePathOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/azure_metrics_source sumologic_azure_metrics_source}
+* Represents a {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/azure_metrics_source sumologic_azure_metrics_source}
 */
 export class AzureMetricsSource extends cdktf.TerraformResource {
 
@@ -2416,7 +2416,7 @@ export class AzureMetricsSource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AzureMetricsSource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AzureMetricsSource to import
-  * @param importFromId The id of the existing AzureMetricsSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/azure_metrics_source#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AzureMetricsSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/azure_metrics_source#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AzureMetricsSource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2428,7 +2428,7 @@ export class AzureMetricsSource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/azure_metrics_source sumologic_azure_metrics_source} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/azure_metrics_source sumologic_azure_metrics_source} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2439,7 +2439,8 @@ export class AzureMetricsSource extends cdktf.TerraformResource {
       terraformResourceType: 'sumologic_azure_metrics_source',
       terraformGeneratorMetadata: {
         providerName: 'sumologic',
-        providerVersion: '3.1.7'
+        providerVersion: '3.1.8',
+        providerVersionConstraint: '3.1.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

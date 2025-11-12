@@ -1097,7 +1097,8 @@ export class Endpoint extends cdktf.TerraformResource {
       terraformResourceType: 'logzio_endpoint',
       terraformGeneratorMetadata: {
         providerName: 'logzio',
-        providerVersion: '1.26.0'
+        providerVersion: '1.26.0',
+        providerVersionConstraint: '1.26.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_template_loopback
+// https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_template_loopback
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface DatacenterConnectivityTemplateLoopbackConfig extends cdktf.Terr
   /**
   * Set of *BGP Peering (IP Endpoint)* Primitives in this Connectivity Template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_template_loopback#bgp_peering_ip_endpoints DatacenterConnectivityTemplateLoopback#bgp_peering_ip_endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_template_loopback#bgp_peering_ip_endpoints DatacenterConnectivityTemplateLoopback#bgp_peering_ip_endpoints}
   */
   readonly bgpPeeringIpEndpoints?: { [key: string]: DatacenterConnectivityTemplateLoopbackBgpPeeringIpEndpoints } | cdktf.IResolvable;
   /**
   * Blueprint ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_template_loopback#blueprint_id DatacenterConnectivityTemplateLoopback#blueprint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_template_loopback#blueprint_id DatacenterConnectivityTemplateLoopback#blueprint_id}
   */
   readonly blueprintId: string;
   /**
   * Connectivity Template Description displayed in the web UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_template_loopback#description DatacenterConnectivityTemplateLoopback#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_template_loopback#description DatacenterConnectivityTemplateLoopback#description}
   */
   readonly description?: string;
   /**
   * Connectivity Template Name displayed in the web UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_template_loopback#name DatacenterConnectivityTemplateLoopback#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_template_loopback#name DatacenterConnectivityTemplateLoopback#name}
   */
   readonly name: string;
   /**
   * Set of Tags associated with this Connectivity Template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_template_loopback#tags DatacenterConnectivityTemplateLoopback#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_template_loopback#tags DatacenterConnectivityTemplateLoopback#tags}
   */
   readonly tags?: string[];
 }
@@ -42,7 +42,7 @@ export interface DatacenterConnectivityTemplateLoopbackBgpPeeringIpEndpointsRout
   /**
   * Routing Policy ID to be applied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_template_loopback#routing_policy_id DatacenterConnectivityTemplateLoopback#routing_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_template_loopback#routing_policy_id DatacenterConnectivityTemplateLoopback#routing_policy_id}
   */
   readonly routingPolicyId: string;
 }
@@ -165,61 +165,61 @@ export interface DatacenterConnectivityTemplateLoopbackBgpPeeringIpEndpoints {
   /**
   * Enable BFD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_template_loopback#bfd_enabled DatacenterConnectivityTemplateLoopback#bfd_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_template_loopback#bfd_enabled DatacenterConnectivityTemplateLoopback#bfd_enabled}
   */
   readonly bfdEnabled: boolean | cdktf.IResolvable;
   /**
   * BGP hold time (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_template_loopback#hold_time DatacenterConnectivityTemplateLoopback#hold_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_template_loopback#hold_time DatacenterConnectivityTemplateLoopback#hold_time}
   */
   readonly holdTime?: number;
   /**
   * IPv4 address of peer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_template_loopback#ipv4_address DatacenterConnectivityTemplateLoopback#ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_template_loopback#ipv4_address DatacenterConnectivityTemplateLoopback#ipv4_address}
   */
   readonly ipv4Address?: string;
   /**
   * IPv6 address of peer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_template_loopback#ipv6_address DatacenterConnectivityTemplateLoopback#ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_template_loopback#ipv6_address DatacenterConnectivityTemplateLoopback#ipv6_address}
   */
   readonly ipv6Address?: string;
   /**
   * BGP keepalive time (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_template_loopback#keepalive_time DatacenterConnectivityTemplateLoopback#keepalive_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_template_loopback#keepalive_time DatacenterConnectivityTemplateLoopback#keepalive_time}
   */
   readonly keepaliveTime?: number;
   /**
   * This feature is configured on a per-peer basis. It allows a router to appear to be a member of a second autonomous system (AS) by prepending a local-as AS number, in addition to its real AS number, announced to its eBGP peer, resulting in an AS path length of two.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_template_loopback#local_asn DatacenterConnectivityTemplateLoopback#local_asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_template_loopback#local_asn DatacenterConnectivityTemplateLoopback#local_asn}
   */
   readonly localAsn?: number;
   /**
   * Neighbor ASN. Omit for *Neighbor ASN Type Dynamic*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_template_loopback#neighbor_asn DatacenterConnectivityTemplateLoopback#neighbor_asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_template_loopback#neighbor_asn DatacenterConnectivityTemplateLoopback#neighbor_asn}
   */
   readonly neighborAsn?: number;
   /**
   * Password used to secure the BGP session.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_template_loopback#password DatacenterConnectivityTemplateLoopback#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_template_loopback#password DatacenterConnectivityTemplateLoopback#password}
   */
   readonly password?: string;
   /**
   * Map of Routing Policy Primitives to be used with this *Protocol Endpoint*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_template_loopback#routing_policies DatacenterConnectivityTemplateLoopback#routing_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_template_loopback#routing_policies DatacenterConnectivityTemplateLoopback#routing_policies}
   */
   readonly routingPolicies?: { [key: string]: DatacenterConnectivityTemplateLoopbackBgpPeeringIpEndpointsRoutingPolicies } | cdktf.IResolvable;
   /**
   * BGP Time To Live. Omit to use device defaults.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_template_loopback#ttl DatacenterConnectivityTemplateLoopback#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_template_loopback#ttl DatacenterConnectivityTemplateLoopback#ttl}
   */
   readonly ttl?: number;
 }
@@ -606,7 +606,7 @@ export class DatacenterConnectivityTemplateLoopbackBgpPeeringIpEndpointsMap exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_template_loopback apstra_datacenter_connectivity_template_loopback}
+* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_template_loopback apstra_datacenter_connectivity_template_loopback}
 */
 export class DatacenterConnectivityTemplateLoopback extends cdktf.TerraformResource {
 
@@ -622,7 +622,7 @@ export class DatacenterConnectivityTemplateLoopback extends cdktf.TerraformResou
   * Generates CDKTF code for importing a DatacenterConnectivityTemplateLoopback resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatacenterConnectivityTemplateLoopback to import
-  * @param importFromId The id of the existing DatacenterConnectivityTemplateLoopback that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_template_loopback#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatacenterConnectivityTemplateLoopback that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_template_loopback#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatacenterConnectivityTemplateLoopback to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -634,7 +634,7 @@ export class DatacenterConnectivityTemplateLoopback extends cdktf.TerraformResou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_connectivity_template_loopback apstra_datacenter_connectivity_template_loopback} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_connectivity_template_loopback apstra_datacenter_connectivity_template_loopback} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -645,7 +645,8 @@ export class DatacenterConnectivityTemplateLoopback extends cdktf.TerraformResou
       terraformResourceType: 'apstra_datacenter_connectivity_template_loopback',
       terraformGeneratorMetadata: {
         providerName: 'apstra',
-        providerVersion: '0.95.0'
+        providerVersion: '0.95.1',
+        providerVersionConstraint: '0.95.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

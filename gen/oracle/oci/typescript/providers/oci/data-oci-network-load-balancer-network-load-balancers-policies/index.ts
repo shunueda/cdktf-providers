@@ -313,7 +313,8 @@ export class DataOciNetworkLoadBalancerNetworkLoadBalancersPolicies extends cdkt
       terraformResourceType: 'oci_network_load_balancer_network_load_balancers_policies',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

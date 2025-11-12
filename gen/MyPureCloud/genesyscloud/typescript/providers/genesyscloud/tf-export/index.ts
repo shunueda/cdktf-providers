@@ -152,7 +152,8 @@ export class TfExport extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_tf_export',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.70.0'
+        providerVersion: '1.70.0',
+        providerVersionConstraint: '1.70.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

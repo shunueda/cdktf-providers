@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/connect_mdm_blob_data_contract
+// https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_blob_data_contract
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,44 +8,44 @@ import * as cdktf from 'cdktf';
 
 export interface ConnectMdmBlobDataContractConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/connect_mdm_blob_data_contract#bucket_id ConnectMdmBlobDataContract#bucket_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_blob_data_contract#bucket_id ConnectMdmBlobDataContract#bucket_id}
   */
   readonly bucketId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/connect_mdm_blob_data_contract#cross_region_replication_enabled ConnectMdmBlobDataContract#cross_region_replication_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_blob_data_contract#cross_region_replication_enabled ConnectMdmBlobDataContract#cross_region_replication_enabled}
   */
   readonly crossRegionReplicationEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/connect_mdm_blob_data_contract#data_type_id ConnectMdmBlobDataContract#data_type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_blob_data_contract#data_type_id ConnectMdmBlobDataContract#data_type_id}
   */
   readonly dataTypeId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/connect_mdm_blob_data_contract#id ConnectMdmBlobDataContract#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_blob_data_contract#id ConnectMdmBlobDataContract#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/connect_mdm_blob_data_contract#logging_enabled ConnectMdmBlobDataContract#logging_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_blob_data_contract#logging_enabled ConnectMdmBlobDataContract#logging_enabled}
   */
   readonly loggingEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/connect_mdm_blob_data_contract#name ConnectMdmBlobDataContract#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_blob_data_contract#name ConnectMdmBlobDataContract#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/connect_mdm_blob_data_contract#root_path_in_bucket ConnectMdmBlobDataContract#root_path_in_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_blob_data_contract#root_path_in_bucket ConnectMdmBlobDataContract#root_path_in_bucket}
   */
   readonly rootPathInBucket: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/connect_mdm_blob_data_contract#storage_class_id ConnectMdmBlobDataContract#storage_class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_blob_data_contract#storage_class_id ConnectMdmBlobDataContract#storage_class_id}
   */
   readonly storageClassId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/connect_mdm_blob_data_contract hsdp_connect_mdm_blob_data_contract}
+* Represents a {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_blob_data_contract hsdp_connect_mdm_blob_data_contract}
 */
 export class ConnectMdmBlobDataContract extends cdktf.TerraformResource {
 
@@ -61,7 +61,7 @@ export class ConnectMdmBlobDataContract extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ConnectMdmBlobDataContract resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConnectMdmBlobDataContract to import
-  * @param importFromId The id of the existing ConnectMdmBlobDataContract that should be imported. Refer to the {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/connect_mdm_blob_data_contract#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConnectMdmBlobDataContract that should be imported. Refer to the {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_blob_data_contract#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConnectMdmBlobDataContract to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -73,7 +73,7 @@ export class ConnectMdmBlobDataContract extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/philips-software/hsdp/0.70.0/docs/resources/connect_mdm_blob_data_contract hsdp_connect_mdm_blob_data_contract} Resource
+  * Create a new {@link https://registry.terraform.io/providers/philips-software/hsdp/0.71.0/docs/resources/connect_mdm_blob_data_contract hsdp_connect_mdm_blob_data_contract} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -84,7 +84,8 @@ export class ConnectMdmBlobDataContract extends cdktf.TerraformResource {
       terraformResourceType: 'hsdp_connect_mdm_blob_data_contract',
       terraformGeneratorMetadata: {
         providerName: 'hsdp',
-        providerVersion: '0.70.0'
+        providerVersion: '0.71.0',
+        providerVersionConstraint: '0.71.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -85,7 +85,8 @@ export class IseProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'ise',
       terraformGeneratorMetadata: {
         providerName: 'ise',
-        providerVersion: '0.2.12'
+        providerVersion: '0.2.12',
+        providerVersionConstraint: '0.2.12'
       },
       terraformProviderSource: 'CiscoDevNet/ise'
     });

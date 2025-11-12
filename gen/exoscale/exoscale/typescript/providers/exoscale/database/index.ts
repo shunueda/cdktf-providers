@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/database
+// https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/database
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,85 +10,85 @@ export interface DatabaseConfig extends cdktf.TerraformMetaArguments {
   /**
   * The day of week to perform the automated database service maintenance (`never`, `monday`, `tuesday`, `wednesday`, `thursday`, `friday`, `saturday`, `sunday`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/database#maintenance_dow Database#maintenance_dow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/database#maintenance_dow Database#maintenance_dow}
   */
   readonly maintenanceDow?: string;
   /**
   * The time of day to perform the automated database service maintenance (`HH:MM:SS`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/database#maintenance_time Database#maintenance_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/database#maintenance_time Database#maintenance_time}
   */
   readonly maintenanceTime?: string;
   /**
   * ❗ The name of the database service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/database#name Database#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/database#name Database#name}
   */
   readonly name: string;
   /**
   * The plan of the database service (use the [Exoscale CLI](https://github.com/exoscale/cli/) - `exo dbaas type show <TYPE> --plans` - for reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/database#plan Database#plan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/database#plan Database#plan}
   */
   readonly plan: string;
   /**
   * The database service protection boolean flag against termination/power-off.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/database#termination_protection Database#termination_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/database#termination_protection Database#termination_protection}
   */
   readonly terminationProtection?: boolean | cdktf.IResolvable;
   /**
   * ❗ The type of the database service (`kafka`, `mysql`, `opensearch`, `pg`, `valkey`, `grafana`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/database#type Database#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/database#type Database#type}
   */
   readonly type: string;
   /**
   * ❗ The Exoscale [Zone](https://www.exoscale.com/datacenters/) name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/database#zone Database#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/database#zone Database#zone}
   */
   readonly zone: string;
   /**
   * grafana block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/database#grafana Database#grafana}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/database#grafana Database#grafana}
   */
   readonly grafana?: DatabaseGrafana;
   /**
   * kafka block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/database#kafka Database#kafka}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/database#kafka Database#kafka}
   */
   readonly kafka?: DatabaseKafka;
   /**
   * mysql block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/database#mysql Database#mysql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/database#mysql Database#mysql}
   */
   readonly mysql?: DatabaseMysql;
   /**
   * opensearch block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/database#opensearch Database#opensearch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/database#opensearch Database#opensearch}
   */
   readonly opensearch?: DatabaseOpensearch;
   /**
   * pg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/database#pg Database#pg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/database#pg Database#pg}
   */
   readonly pg?: DatabasePg;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/database#timeouts Database#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/database#timeouts Database#timeouts}
   */
   readonly timeouts?: DatabaseTimeouts;
   /**
   * valkey block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/database#valkey Database#valkey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/database#valkey Database#valkey}
   */
   readonly valkey?: DatabaseValkey;
 }
@@ -96,13 +96,13 @@ export interface DatabaseGrafana {
   /**
   * Grafana configuration settings in JSON format (`exo dbaas type show grafana --settings=grafana` for reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/database#grafana_settings Database#grafana_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/database#grafana_settings Database#grafana_settings}
   */
   readonly grafanaSettings?: string;
   /**
   * A list of CIDR blocks to allow incoming connections from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/database#ip_filter Database#ip_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/database#ip_filter Database#ip_filter}
   */
   readonly ipFilter?: string[];
 }
@@ -227,67 +227,67 @@ export interface DatabaseKafka {
   /**
   * Enable certificate-based authentication method.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/database#enable_cert_auth Database#enable_cert_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/database#enable_cert_auth Database#enable_cert_auth}
   */
   readonly enableCertAuth?: boolean | cdktf.IResolvable;
   /**
   * Enable Kafka Connect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/database#enable_kafka_connect Database#enable_kafka_connect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/database#enable_kafka_connect Database#enable_kafka_connect}
   */
   readonly enableKafkaConnect?: boolean | cdktf.IResolvable;
   /**
   * Enable Kafka REST.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/database#enable_kafka_rest Database#enable_kafka_rest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/database#enable_kafka_rest Database#enable_kafka_rest}
   */
   readonly enableKafkaRest?: boolean | cdktf.IResolvable;
   /**
   * Enable SASL-based authentication method.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/database#enable_sasl_auth Database#enable_sasl_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/database#enable_sasl_auth Database#enable_sasl_auth}
   */
   readonly enableSaslAuth?: boolean | cdktf.IResolvable;
   /**
   * Enable Schema Registry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/database#enable_schema_registry Database#enable_schema_registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/database#enable_schema_registry Database#enable_schema_registry}
   */
   readonly enableSchemaRegistry?: boolean | cdktf.IResolvable;
   /**
   * A list of CIDR blocks to allow incoming connections from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/database#ip_filter Database#ip_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/database#ip_filter Database#ip_filter}
   */
   readonly ipFilter?: string[];
   /**
   * Kafka Connect configuration settings in JSON format (`exo dbaas type show kafka --settings=kafka-connect` for reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/database#kafka_connect_settings Database#kafka_connect_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/database#kafka_connect_settings Database#kafka_connect_settings}
   */
   readonly kafkaConnectSettings?: string;
   /**
   * Kafka REST configuration settings in JSON format (`exo dbaas type show kafka --settings=kafka-rest` for reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/database#kafka_rest_settings Database#kafka_rest_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/database#kafka_rest_settings Database#kafka_rest_settings}
   */
   readonly kafkaRestSettings?: string;
   /**
   * Kafka configuration settings in JSON format (`exo dbaas type show kafka --settings=kafka` for reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/database#kafka_settings Database#kafka_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/database#kafka_settings Database#kafka_settings}
   */
   readonly kafkaSettings?: string;
   /**
   * Schema Registry configuration settings in JSON format (`exo dbaas type show kafka --settings=schema-registry` for reference)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/database#schema_registry_settings Database#schema_registry_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/database#schema_registry_settings Database#schema_registry_settings}
   */
   readonly schemaRegistrySettings?: string;
   /**
   * Kafka major version (`exo dbaas type show kafka` for reference; may only be set at creation time).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/database#version Database#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/database#version Database#version}
   */
   readonly version?: string;
 }
@@ -673,37 +673,37 @@ export interface DatabaseMysql {
   /**
   * A custom administrator account password (may only be set at creation time).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/database#admin_password Database#admin_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/database#admin_password Database#admin_password}
   */
   readonly adminPassword?: string;
   /**
   * A custom administrator account username (may only be set at creation time).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/database#admin_username Database#admin_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/database#admin_username Database#admin_username}
   */
   readonly adminUsername?: string;
   /**
   * The automated backup schedule (`HH:MM`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/database#backup_schedule Database#backup_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/database#backup_schedule Database#backup_schedule}
   */
   readonly backupSchedule?: string;
   /**
   * A list of CIDR blocks to allow incoming connections from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/database#ip_filter Database#ip_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/database#ip_filter Database#ip_filter}
   */
   readonly ipFilter?: string[];
   /**
   * MySQL configuration settings in JSON format (`exo dbaas type show mysql --settings=mysql` for reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/database#mysql_settings Database#mysql_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/database#mysql_settings Database#mysql_settings}
   */
   readonly mysqlSettings?: string;
   /**
   * MySQL major version (`exo dbaas type show mysql` for reference; may only be set at creation time).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/database#version Database#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/database#version Database#version}
   */
   readonly version?: string;
 }
@@ -944,19 +944,19 @@ export interface DatabaseOpensearchDashboards {
   /**
   * Enable or disable OpenSearch Dashboards (default: true).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/database#enabled Database#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/database#enabled Database#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Limits the maximum amount of memory (in MiB) the OpenSearch Dashboards process can use. This sets the max_old_space_size option of the nodejs running the OpenSearch Dashboards. Note: the memory reserved by OpenSearch Dashboards is not available for OpenSearch. (default: 128).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/database#max_old_space_size Database#max_old_space_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/database#max_old_space_size Database#max_old_space_size}
   */
   readonly maxOldSpaceSize?: number;
   /**
   * Timeout in milliseconds for requests made by OpenSearch Dashboards towards OpenSearch (default: 30000)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/database#request_timeout Database#request_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/database#request_timeout Database#request_timeout}
   */
   readonly requestTimeout?: number;
 }
@@ -1110,19 +1110,19 @@ export interface DatabaseOpensearchIndexPattern {
   /**
   * Maximum number of indexes to keep before deleting the oldest one (Minimum value is `0`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/database#max_index_count Database#max_index_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/database#max_index_count Database#max_index_count}
   */
   readonly maxIndexCount?: number;
   /**
   * fnmatch pattern
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/database#pattern Database#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/database#pattern Database#pattern}
   */
   readonly pattern?: string;
   /**
   * `alphabetical` or `creation_date`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/database#sorting_algorithm Database#sorting_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/database#sorting_algorithm Database#sorting_algorithm}
   */
   readonly sortingAlgorithm?: string;
 }
@@ -1298,19 +1298,19 @@ export interface DatabaseOpensearchIndexTemplate {
   /**
   * The maximum number of nested JSON objects that a single document can contain across all nested types. This limit helps to prevent out of memory errors when a document contains too many nested objects. (Default is 10000. Minimum value is `0`, maximum value is `100000`.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/database#mapping_nested_objects_limit Database#mapping_nested_objects_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/database#mapping_nested_objects_limit Database#mapping_nested_objects_limit}
   */
   readonly mappingNestedObjectsLimit?: number;
   /**
   * The number of replicas each primary shard has. (Minimum value is `0`, maximum value is `29`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/database#number_of_replicas Database#number_of_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/database#number_of_replicas Database#number_of_replicas}
   */
   readonly numberOfReplicas?: number;
   /**
   * The number of primary shards that an index should have. (Minimum value is `1`, maximum value is `1024`.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/database#number_of_shards Database#number_of_shards}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/database#number_of_shards Database#number_of_shards}
   */
   readonly numberOfShards?: number;
 }
@@ -1464,61 +1464,61 @@ export interface DatabaseOpensearch {
   /**
   * ❗ Service name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/database#fork_from_service Database#fork_from_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/database#fork_from_service Database#fork_from_service}
   */
   readonly forkFromService?: string;
   /**
   * Allow incoming connections from this list of CIDR address block, e.g. `["10.20.0.0/16"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/database#ip_filter Database#ip_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/database#ip_filter Database#ip_filter}
   */
   readonly ipFilter?: string[];
   /**
   * Aiven automation resets index.refresh_interval to default value for every index to be sure that indices are always visible to search. If it doesn't fit your case, you can disable this by setting up this flag to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/database#keep_index_refresh_interval Database#keep_index_refresh_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/database#keep_index_refresh_interval Database#keep_index_refresh_interval}
   */
   readonly keepIndexRefreshInterval?: boolean | cdktf.IResolvable;
   /**
   * Maximum number of indexes to keep (Minimum value is `0`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/database#max_index_count Database#max_index_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/database#max_index_count Database#max_index_count}
   */
   readonly maxIndexCount?: number;
   /**
   * ❗ Name of a backup to recover from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/database#recovery_backup_name Database#recovery_backup_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/database#recovery_backup_name Database#recovery_backup_name}
   */
   readonly recoveryBackupName?: string;
   /**
   * OpenSearch-specific settings, in json. e.g.`jsonencode({thread_pool_search_size: 64})`. Use `exo x get-dbaas-settings-opensearch` to get a list of available settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/database#settings Database#settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/database#settings Database#settings}
   */
   readonly settings?: string;
   /**
   * ❗ OpenSearch major version (`exo dbaas type show opensearch` for reference)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/database#version Database#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/database#version Database#version}
   */
   readonly version?: string;
   /**
   * dashboards block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/database#dashboards Database#dashboards}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/database#dashboards Database#dashboards}
   */
   readonly dashboards?: DatabaseOpensearchDashboards;
   /**
   * index_pattern block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/database#index_pattern Database#index_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/database#index_pattern Database#index_pattern}
   */
   readonly indexPattern?: DatabaseOpensearchIndexPattern[] | cdktf.IResolvable;
   /**
   * index_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/database#index_template Database#index_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/database#index_template Database#index_template}
   */
   readonly indexTemplate?: DatabaseOpensearchIndexTemplate;
 }
@@ -1875,49 +1875,49 @@ export interface DatabasePg {
   /**
   * A custom administrator account password (may only be set at creation time).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/database#admin_password Database#admin_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/database#admin_password Database#admin_password}
   */
   readonly adminPassword?: string;
   /**
   * A custom administrator account username (may only be set at creation time).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/database#admin_username Database#admin_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/database#admin_username Database#admin_username}
   */
   readonly adminUsername?: string;
   /**
   * The automated backup schedule (`HH:MM`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/database#backup_schedule Database#backup_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/database#backup_schedule Database#backup_schedule}
   */
   readonly backupSchedule?: string;
   /**
   * A list of CIDR blocks to allow incoming connections from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/database#ip_filter Database#ip_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/database#ip_filter Database#ip_filter}
   */
   readonly ipFilter?: string[];
   /**
   * PostgreSQL configuration settings in JSON format (`exo dbaas type show pg --settings=pg` for reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/database#pg_settings Database#pg_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/database#pg_settings Database#pg_settings}
   */
   readonly pgSettings?: string;
   /**
   * PgBouncer configuration settings in JSON format (`exo dbaas type show pg --settings=pgbouncer` for reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/database#pgbouncer_settings Database#pgbouncer_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/database#pgbouncer_settings Database#pgbouncer_settings}
   */
   readonly pgbouncerSettings?: string;
   /**
   * pglookout configuration settings in JSON format (`exo dbaas type show pg --settings=pglookout` for reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/database#pglookout_settings Database#pglookout_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/database#pglookout_settings Database#pglookout_settings}
   */
   readonly pglookoutSettings?: string;
   /**
   * PostgreSQL major version (`exo dbaas type show pg` for reference; may only be set at creation time).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/database#version Database#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/database#version Database#version}
   */
   readonly version?: string;
 }
@@ -2216,25 +2216,25 @@ export interface DatabaseTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/database#create Database#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/database#create Database#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/database#delete Database#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/database#delete Database#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/database#read Database#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/database#read Database#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/database#update Database#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/database#update Database#update}
   */
   readonly update?: string;
 }
@@ -2417,13 +2417,13 @@ export interface DatabaseValkey {
   /**
   * A list of CIDR blocks to allow incoming connections from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/database#ip_filter Database#ip_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/database#ip_filter Database#ip_filter}
   */
   readonly ipFilter?: string[];
   /**
   * Valkey configuration settings in JSON format (`exo dbaas type show valkey --settings=valkey` for reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/database#valkey_settings Database#valkey_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/database#valkey_settings Database#valkey_settings}
   */
   readonly valkeySettings?: string;
 }
@@ -2546,7 +2546,7 @@ export class DatabaseValkeyOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/database exoscale_database}
+* Represents a {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/database exoscale_database}
 */
 export class Database extends cdktf.TerraformResource {
 
@@ -2562,7 +2562,7 @@ export class Database extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Database resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Database to import
-  * @param importFromId The id of the existing Database that should be imported. Refer to the {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/database#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Database that should be imported. Refer to the {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/database#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Database to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2574,7 +2574,7 @@ export class Database extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/database exoscale_database} Resource
+  * Create a new {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/database exoscale_database} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2585,7 +2585,8 @@ export class Database extends cdktf.TerraformResource {
       terraformResourceType: 'exoscale_database',
       terraformGeneratorMetadata: {
         providerName: 'exoscale',
-        providerVersion: '0.66.0'
+        providerVersion: '0.67.0',
+        providerVersionConstraint: '0.67.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

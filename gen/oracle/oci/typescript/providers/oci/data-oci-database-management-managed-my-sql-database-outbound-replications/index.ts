@@ -413,7 +413,8 @@ export class DataOciDatabaseManagementManagedMySqlDatabaseOutboundReplications e
       terraformResourceType: 'oci_database_management_managed_my_sql_database_outbound_replications',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

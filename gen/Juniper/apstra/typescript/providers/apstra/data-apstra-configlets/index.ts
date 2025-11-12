@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/configlets
+// https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/configlets
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataApstraConfigletsConfig extends cdktf.TerraformMetaArguments
   /**
   * Configlets which do not support each of the specified platforms will be filtered out of the results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/configlets#supported_platforms DataApstraConfiglets#supported_platforms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/configlets#supported_platforms DataApstraConfiglets#supported_platforms}
   */
   readonly supportedPlatforms?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/configlets apstra_configlets}
+* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/configlets apstra_configlets}
 */
 export class DataApstraConfiglets extends cdktf.TerraformDataSource {
 
@@ -32,7 +32,7 @@ export class DataApstraConfiglets extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataApstraConfiglets resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataApstraConfiglets to import
-  * @param importFromId The id of the existing DataApstraConfiglets that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/configlets#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataApstraConfiglets that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/configlets#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataApstraConfiglets to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class DataApstraConfiglets extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/configlets apstra_configlets} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/configlets apstra_configlets} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,7 +55,8 @@ export class DataApstraConfiglets extends cdktf.TerraformDataSource {
       terraformResourceType: 'apstra_configlets',
       terraformGeneratorMetadata: {
         providerName: 'apstra',
-        providerVersion: '0.95.0'
+        providerVersion: '0.95.1',
+        providerVersionConstraint: '0.95.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

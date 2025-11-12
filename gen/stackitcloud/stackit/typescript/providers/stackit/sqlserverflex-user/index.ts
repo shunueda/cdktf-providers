@@ -77,7 +77,8 @@ export class SqlserverflexUser extends cdktf.TerraformResource {
       terraformResourceType: 'stackit_sqlserverflex_user',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.69.0'
+        providerVersion: '0.69.0',
+        providerVersionConstraint: '0.69.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

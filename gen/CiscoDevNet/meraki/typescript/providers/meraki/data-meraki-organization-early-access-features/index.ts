@@ -175,7 +175,8 @@ export class DataMerakiOrganizationEarlyAccessFeatures extends cdktf.TerraformDa
       terraformResourceType: 'meraki_organization_early_access_features',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1'
+        providerVersion: '1.7.1',
+        providerVersionConstraint: '1.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

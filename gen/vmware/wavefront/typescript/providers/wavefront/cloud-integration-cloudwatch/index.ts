@@ -104,7 +104,8 @@ export class CloudIntegrationCloudwatch extends cdktf.TerraformResource {
       terraformResourceType: 'wavefront_cloud_integration_cloudwatch',
       terraformGeneratorMetadata: {
         providerName: 'wavefront',
-        providerVersion: '5.1.0'
+        providerVersion: '5.1.0',
+        providerVersionConstraint: '5.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

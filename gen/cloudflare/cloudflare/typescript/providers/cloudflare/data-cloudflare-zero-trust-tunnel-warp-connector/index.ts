@@ -544,7 +544,8 @@ export class DataCloudflareZeroTrustTunnelWarpConnector extends cdktf.TerraformD
       terraformResourceType: 'cloudflare_zero_trust_tunnel_warp_connector',
       terraformGeneratorMetadata: {
         providerName: 'cloudflare',
-        providerVersion: '5.12.0'
+        providerVersion: '5.12.0',
+        providerVersionConstraint: '5.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

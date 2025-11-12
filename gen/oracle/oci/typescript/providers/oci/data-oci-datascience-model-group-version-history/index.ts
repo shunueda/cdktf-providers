@@ -53,7 +53,8 @@ export class DataOciDatascienceModelGroupVersionHistory extends cdktf.TerraformD
       terraformResourceType: 'oci_datascience_model_group_version_history',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

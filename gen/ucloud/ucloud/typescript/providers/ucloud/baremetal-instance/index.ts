@@ -410,7 +410,8 @@ export class BaremetalInstance extends cdktf.TerraformResource {
       terraformResourceType: 'ucloud_baremetal_instance',
       terraformGeneratorMetadata: {
         providerName: 'ucloud',
-        providerVersion: '1.39.1'
+        providerVersion: '1.39.1',
+        providerVersionConstraint: '1.39.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

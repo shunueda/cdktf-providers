@@ -199,7 +199,8 @@ export class DataMistConstAppCategories extends cdktf.TerraformDataSource {
       terraformResourceType: 'mist_const_app_categories',
       terraformGeneratorMetadata: {
         providerName: 'mist',
-        providerVersion: '0.6.0'
+        providerVersion: '0.6.0',
+        providerVersionConstraint: '0.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

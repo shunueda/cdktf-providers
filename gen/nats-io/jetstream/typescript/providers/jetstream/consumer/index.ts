@@ -248,7 +248,8 @@ export class Consumer extends cdktf.TerraformResource {
       terraformResourceType: 'jetstream_consumer',
       terraformGeneratorMetadata: {
         providerName: 'jetstream',
-        providerVersion: '0.2.1'
+        providerVersion: '0.2.1',
+        providerVersionConstraint: '0.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

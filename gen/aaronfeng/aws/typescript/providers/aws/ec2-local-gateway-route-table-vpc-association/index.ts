@@ -68,7 +68,8 @@ export class Ec2LocalGatewayRouteTableVpcAssociation extends cdktf.TerraformReso
       terraformResourceType: 'aws_ec2_local_gateway_route_table_vpc_association',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '3.29.6'
+        providerVersion: '3.29.6',
+        providerVersionConstraint: '3.29.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

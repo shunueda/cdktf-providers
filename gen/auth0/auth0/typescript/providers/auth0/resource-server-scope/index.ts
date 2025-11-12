@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/resource_server_scope
+// https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/resource_server_scope
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ResourceServerScopeConfig extends cdktf.TerraformMetaArguments 
   /**
   * Description of the scope (permission).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/resource_server_scope#description ResourceServerScope#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/resource_server_scope#description ResourceServerScope#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/resource_server_scope#id ResourceServerScope#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/resource_server_scope#id ResourceServerScope#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface ResourceServerScopeConfig extends cdktf.TerraformMetaArguments 
   /**
   * Identifier of the resource server that the scope (permission) is associated with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/resource_server_scope#resource_server_identifier ResourceServerScope#resource_server_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/resource_server_scope#resource_server_identifier ResourceServerScope#resource_server_identifier}
   */
   readonly resourceServerIdentifier: string;
   /**
   * Name of the scope (permission).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/resource_server_scope#scope ResourceServerScope#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/resource_server_scope#scope ResourceServerScope#scope}
   */
   readonly scope: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/resource_server_scope auth0_resource_server_scope}
+* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/resource_server_scope auth0_resource_server_scope}
 */
 export class ResourceServerScope extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class ResourceServerScope extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ResourceServerScope resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ResourceServerScope to import
-  * @param importFromId The id of the existing ResourceServerScope that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/resource_server_scope#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ResourceServerScope that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/resource_server_scope#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ResourceServerScope to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class ResourceServerScope extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/resource_server_scope auth0_resource_server_scope} Resource
+  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/resource_server_scope auth0_resource_server_scope} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,7 +74,8 @@ export class ResourceServerScope extends cdktf.TerraformResource {
       terraformResourceType: 'auth0_resource_server_scope',
       terraformGeneratorMetadata: {
         providerName: 'auth0',
-        providerVersion: '1.33.0'
+        providerVersion: '1.34.0',
+        providerVersionConstraint: '1.34.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

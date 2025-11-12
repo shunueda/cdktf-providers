@@ -68,7 +68,8 @@ export class DataFortiadcSystemInterfaceChildHaNodeIpList extends cdktf.Terrafor
       terraformResourceType: 'fortiadc_system_interface_child_ha_node_ip_list',
       terraformGeneratorMetadata: {
         providerName: 'fortiadc',
-        providerVersion: '1.3.1'
+        providerVersion: '1.3.1',
+        providerVersionConstraint: '1.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

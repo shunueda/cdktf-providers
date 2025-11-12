@@ -380,7 +380,8 @@ export class DataK8SCrdProjectcalicoOrgIpamConfigV1Manifest extends cdktf.Terraf
       terraformResourceType: 'k8s_crd_projectcalico_org_ipam_config_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

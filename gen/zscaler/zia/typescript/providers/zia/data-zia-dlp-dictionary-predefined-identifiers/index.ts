@@ -60,7 +60,8 @@ export class DataZiaDlpDictionaryPredefinedIdentifiers extends cdktf.TerraformDa
       terraformResourceType: 'zia_dlp_dictionary_predefined_identifiers',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.5.3'
+        providerVersion: '4.5.3',
+        providerVersionConstraint: '4.5.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

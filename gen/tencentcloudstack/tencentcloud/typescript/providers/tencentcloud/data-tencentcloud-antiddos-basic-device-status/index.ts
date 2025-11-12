@@ -240,7 +240,8 @@ export class DataTencentcloudAntiddosBasicDeviceStatus extends cdktf.TerraformDa
       terraformResourceType: 'tencentcloud_antiddos_basic_device_status',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

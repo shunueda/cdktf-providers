@@ -73,7 +73,8 @@ export class Indestructible extends cdktf.TerraformResource {
       terraformResourceType: 'util_indestructible',
       terraformGeneratorMetadata: {
         providerName: 'util',
-        providerVersion: '0.0.4'
+        providerVersion: '0.0.4',
+        providerVersionConstraint: '0.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

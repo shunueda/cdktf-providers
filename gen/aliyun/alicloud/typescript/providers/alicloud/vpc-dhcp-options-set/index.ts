@@ -382,7 +382,8 @@ export class VpcDhcpOptionsSet extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_vpc_dhcp_options_set',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

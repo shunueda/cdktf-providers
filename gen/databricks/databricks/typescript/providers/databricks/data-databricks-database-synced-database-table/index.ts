@@ -1311,7 +1311,8 @@ export class DataDatabricksDatabaseSyncedDatabaseTable extends cdktf.TerraformDa
       terraformResourceType: 'databricks_database_synced_database_table',
       terraformGeneratorMetadata: {
         providerName: 'databricks',
-        providerVersion: '1.97.0'
+        providerVersion: '1.97.0',
+        providerVersionConstraint: '1.97.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

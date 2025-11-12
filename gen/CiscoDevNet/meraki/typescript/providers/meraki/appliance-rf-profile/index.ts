@@ -137,7 +137,8 @@ export class ApplianceRfProfile extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_appliance_rf_profile',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1'
+        providerVersion: '1.7.1',
+        providerVersionConstraint: '1.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

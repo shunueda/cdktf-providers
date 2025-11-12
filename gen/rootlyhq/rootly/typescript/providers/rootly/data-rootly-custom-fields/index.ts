@@ -182,7 +182,8 @@ export class DataRootlyCustomFields extends cdktf.TerraformDataSource {
       terraformResourceType: 'rootly_custom_fields',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.7'
+        providerVersion: '4.3.7',
+        providerVersionConstraint: '4.3.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

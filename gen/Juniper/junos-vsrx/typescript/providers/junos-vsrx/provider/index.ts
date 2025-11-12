@@ -75,7 +75,8 @@ export class JunosVsrxProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'junos-vsrx',
       terraformGeneratorMetadata: {
         providerName: 'junos-vsrx',
-        providerVersion: '20.32.106'
+        providerVersion: '20.32.106',
+        providerVersionConstraint: '20.32.106'
       },
       terraformProviderSource: 'Juniper/junos-vsrx'
     });

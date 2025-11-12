@@ -82,7 +82,8 @@ export class WorkflowCustomFieldSelection extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_workflow_custom_field_selection',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.7'
+        providerVersion: '4.3.7',
+        providerVersionConstraint: '4.3.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

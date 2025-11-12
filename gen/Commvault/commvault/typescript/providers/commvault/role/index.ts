@@ -1022,7 +1022,8 @@ export class Role extends cdktf.TerraformResource {
       terraformResourceType: 'commvault_role',
       terraformGeneratorMetadata: {
         providerName: 'commvault',
-        providerVersion: '1.2.10'
+        providerVersion: '1.2.10',
+        providerVersionConstraint: '1.2.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

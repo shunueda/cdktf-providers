@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/data-sources/role_template
+// https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/data-sources/role_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataPolarisRoleTemplateConfig extends cdktf.TerraformMetaArgume
   /**
   * Role template name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/data-sources/role_template#name DataPolarisRoleTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/data-sources/role_template#name DataPolarisRoleTemplate#name}
   */
   readonly name?: string;
   /**
   * Role template ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/data-sources/role_template#role_template_id DataPolarisRoleTemplate#role_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/data-sources/role_template#role_template_id DataPolarisRoleTemplate#role_template_id}
   */
   readonly roleTemplateId?: string;
 }
@@ -183,7 +183,7 @@ export class DataPolarisRoleTemplatePermissionList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/data-sources/role_template polaris_role_template}
+* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/data-sources/role_template polaris_role_template}
 */
 export class DataPolarisRoleTemplate extends cdktf.TerraformDataSource {
 
@@ -199,7 +199,7 @@ export class DataPolarisRoleTemplate extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataPolarisRoleTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataPolarisRoleTemplate to import
-  * @param importFromId The id of the existing DataPolarisRoleTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/data-sources/role_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataPolarisRoleTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/data-sources/role_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataPolarisRoleTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -211,7 +211,7 @@ export class DataPolarisRoleTemplate extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/data-sources/role_template polaris_role_template} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/data-sources/role_template polaris_role_template} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -222,7 +222,8 @@ export class DataPolarisRoleTemplate extends cdktf.TerraformDataSource {
       terraformResourceType: 'polaris_role_template',
       terraformGeneratorMetadata: {
         providerName: 'polaris',
-        providerVersion: '1.2.1'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

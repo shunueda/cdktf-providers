@@ -166,7 +166,8 @@ export class DataAlicloudResourceManagerPolicyVersions extends cdktf.TerraformDa
       terraformResourceType: 'alicloud_resource_manager_policy_versions',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

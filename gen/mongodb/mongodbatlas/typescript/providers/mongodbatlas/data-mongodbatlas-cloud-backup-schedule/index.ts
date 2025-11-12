@@ -714,7 +714,8 @@ export class DataMongodbatlasCloudBackupSchedule extends cdktf.TerraformDataSour
       terraformResourceType: 'mongodbatlas_cloud_backup_schedule',
       terraformGeneratorMetadata: {
         providerName: 'mongodbatlas',
-        providerVersion: '2.1.0'
+        providerVersion: '2.1.0',
+        providerVersionConstraint: '2.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

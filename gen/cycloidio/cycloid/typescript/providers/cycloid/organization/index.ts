@@ -494,7 +494,8 @@ export class Organization extends cdktf.TerraformResource {
       terraformResourceType: 'cycloid_organization',
       terraformGeneratorMetadata: {
         providerName: 'cycloid',
-        providerVersion: '0.0.23'
+        providerVersion: '0.0.23',
+        providerVersionConstraint: '0.0.23'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

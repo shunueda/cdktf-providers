@@ -540,7 +540,8 @@ export class DataKionAwsIamPolicy extends cdktf.TerraformDataSource {
       terraformResourceType: 'kion_aws_iam_policy',
       terraformGeneratorMetadata: {
         providerName: 'kion',
-        providerVersion: '0.3.29'
+        providerVersion: '0.3.29',
+        providerVersionConstraint: '0.3.29'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

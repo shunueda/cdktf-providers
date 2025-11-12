@@ -358,7 +358,8 @@ export class DataThunderNetworkTwampResponderIpv6Stats extends cdktf.TerraformDa
       terraformResourceType: 'thunder_network_twamp_responder_ipv6_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

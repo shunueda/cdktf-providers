@@ -343,7 +343,8 @@ export class VertexAiDataset extends cdktf.TerraformResource {
       terraformResourceType: 'google_vertex_ai_dataset',
       terraformGeneratorMetadata: {
         providerName: 'google',
-        providerVersion: '4.16.4'
+        providerVersion: '4.16.4',
+        providerVersionConstraint: '4.16.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

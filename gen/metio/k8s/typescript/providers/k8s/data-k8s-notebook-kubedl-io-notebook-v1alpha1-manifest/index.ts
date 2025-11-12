@@ -64,7 +64,8 @@ export class DataK8SNotebookKubedlIoNotebookV1Alpha1Manifest extends cdktf.Terra
       terraformResourceType: 'k8s_notebook_kubedl_io_notebook_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

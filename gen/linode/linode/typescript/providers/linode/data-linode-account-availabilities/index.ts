@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/account_availabilities
+// https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/account_availabilities
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataLinodeAccountAvailabilitiesConfig extends cdktf.TerraformMe
   /**
   * availabilities block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/account_availabilities#availabilities DataLinodeAccountAvailabilities#availabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/account_availabilities#availabilities DataLinodeAccountAvailabilities#availabilities}
   */
   readonly availabilities?: DataLinodeAccountAvailabilitiesAvailabilities[] | cdktf.IResolvable;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/account_availabilities#filter DataLinodeAccountAvailabilities#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/account_availabilities#filter DataLinodeAccountAvailabilities#filter}
   */
   readonly filter?: DataLinodeAccountAvailabilitiesFilter[] | cdktf.IResolvable;
 }
@@ -24,7 +24,7 @@ export interface DataLinodeAccountAvailabilitiesAvailabilities {
   /**
   * The region of this availability entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/account_availabilities#region DataLinodeAccountAvailabilities#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/account_availabilities#region DataLinodeAccountAvailabilities#region}
   */
   readonly region: string;
 }
@@ -149,19 +149,19 @@ export interface DataLinodeAccountAvailabilitiesFilter {
   /**
   * The type of comparison to use for this filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/account_availabilities#match_by DataLinodeAccountAvailabilities#match_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/account_availabilities#match_by DataLinodeAccountAvailabilities#match_by}
   */
   readonly matchBy?: string;
   /**
   * The name of the attribute to filter on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/account_availabilities#name DataLinodeAccountAvailabilities#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/account_availabilities#name DataLinodeAccountAvailabilities#name}
   */
   readonly name: string;
   /**
   * The value(s) to be used in the filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/account_availabilities#values DataLinodeAccountAvailabilities#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/account_availabilities#values DataLinodeAccountAvailabilities#values}
   */
   readonly values: string[];
 }
@@ -329,7 +329,7 @@ export class DataLinodeAccountAvailabilitiesFilterList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/account_availabilities linode_account_availabilities}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/account_availabilities linode_account_availabilities}
 */
 export class DataLinodeAccountAvailabilities extends cdktf.TerraformDataSource {
 
@@ -345,7 +345,7 @@ export class DataLinodeAccountAvailabilities extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataLinodeAccountAvailabilities resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataLinodeAccountAvailabilities to import
-  * @param importFromId The id of the existing DataLinodeAccountAvailabilities that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/account_availabilities#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataLinodeAccountAvailabilities that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/account_availabilities#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataLinodeAccountAvailabilities to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -357,7 +357,7 @@ export class DataLinodeAccountAvailabilities extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/account_availabilities linode_account_availabilities} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/account_availabilities linode_account_availabilities} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -368,7 +368,8 @@ export class DataLinodeAccountAvailabilities extends cdktf.TerraformDataSource {
       terraformResourceType: 'linode_account_availabilities',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.5.0'
+        providerVersion: '3.5.1',
+        providerVersionConstraint: '3.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -2212,7 +2212,8 @@ export class CpsThirdPartyEnrollment extends cdktf.TerraformResource {
       terraformResourceType: 'akamai_cps_third_party_enrollment',
       terraformGeneratorMetadata: {
         providerName: 'akamai',
-        providerVersion: '9.1.0'
+        providerVersion: '9.1.0',
+        providerVersionConstraint: '9.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

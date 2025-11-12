@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,97 +10,97 @@ export interface HipObjectConfig extends cdktf.TerraformMetaArguments {
   /**
   * Anti malware
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#anti_malware HipObject#anti_malware}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#anti_malware HipObject#anti_malware}
   */
   readonly antiMalware?: HipObjectAntiMalware;
   /**
   * Certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#certificate HipObject#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#certificate HipObject#certificate}
   */
   readonly certificate?: HipObjectCertificate;
   /**
   * Custom checks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#custom_checks HipObject#custom_checks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#custom_checks HipObject#custom_checks}
   */
   readonly customChecks?: HipObjectCustomChecks;
   /**
   * Data loss prevention
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#data_loss_prevention HipObject#data_loss_prevention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#data_loss_prevention HipObject#data_loss_prevention}
   */
   readonly dataLossPrevention?: HipObjectDataLossPrevention;
   /**
   * Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#description HipObject#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#description HipObject#description}
   */
   readonly description?: string;
   /**
   * The device in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#device HipObject#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#device HipObject#device}
   */
   readonly device?: string;
   /**
   * Disk backup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#disk_backup HipObject#disk_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#disk_backup HipObject#disk_backup}
   */
   readonly diskBackup?: HipObjectDiskBackup;
   /**
   * Disk encryption
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#disk_encryption HipObject#disk_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#disk_encryption HipObject#disk_encryption}
   */
   readonly diskEncryption?: HipObjectDiskEncryption;
   /**
   * Firewall
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#firewall HipObject#firewall}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#firewall HipObject#firewall}
   */
   readonly firewall?: HipObjectFirewall;
   /**
   * The folder in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#folder HipObject#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#folder HipObject#folder}
   */
   readonly folder?: string;
   /**
   * Host info
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#host_info HipObject#host_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#host_info HipObject#host_info}
   */
   readonly hostInfo?: HipObjectHostInfo;
   /**
   * Mobile device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#mobile_device HipObject#mobile_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#mobile_device HipObject#mobile_device}
   */
   readonly mobileDevice?: HipObjectMobileDevice;
   /**
   * The name of the HIP object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#name HipObject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#name HipObject#name}
   */
   readonly name: string;
   /**
   * Network info
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#network_info HipObject#network_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#network_info HipObject#network_info}
   */
   readonly networkInfo?: HipObjectNetworkInfo;
   /**
   * Patch management
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#patch_management HipObject#patch_management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#patch_management HipObject#patch_management}
   */
   readonly patchManagement?: HipObjectPatchManagement;
   /**
   * The snippet in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#snippet HipObject#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#snippet HipObject#snippet}
   */
   readonly snippet?: string;
 }
@@ -167,13 +167,13 @@ export interface HipObjectAntiMalwareCriteriaLastScanTimeNotWithin {
   /**
   * specify time in days
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#days HipObject#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#days HipObject#days}
   */
   readonly days?: number;
   /**
   * specify time in hours
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#hours HipObject#hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#hours HipObject#hours}
   */
   readonly hours?: number;
 }
@@ -298,13 +298,13 @@ export interface HipObjectAntiMalwareCriteriaLastScanTimeWithin {
   /**
   * specify time in days
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#days HipObject#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#days HipObject#days}
   */
   readonly days?: number;
   /**
   * specify time in hours
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#hours HipObject#hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#hours HipObject#hours}
   */
   readonly hours?: number;
 }
@@ -429,19 +429,19 @@ export interface HipObjectAntiMalwareCriteriaLastScanTime {
   /**
   * Not available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#not_available HipObject#not_available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#not_available HipObject#not_available}
   */
   readonly notAvailable?: HipObjectAntiMalwareCriteriaLastScanTimeNotAvailable;
   /**
   * Not within
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#not_within HipObject#not_within}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#not_within HipObject#not_within}
   */
   readonly notWithin?: HipObjectAntiMalwareCriteriaLastScanTimeNotWithin;
   /**
   * Within
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#within HipObject#within}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#within HipObject#within}
   */
   readonly within?: HipObjectAntiMalwareCriteriaLastScanTimeWithin;
 }
@@ -595,7 +595,7 @@ export interface HipObjectAntiMalwareCriteriaProductVersionNotWithin {
   /**
   * versions range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#versions HipObject#versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#versions HipObject#versions}
   */
   readonly versions: number;
 }
@@ -688,7 +688,7 @@ export interface HipObjectAntiMalwareCriteriaProductVersionWithin {
   /**
   * versions range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#versions HipObject#versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#versions HipObject#versions}
   */
   readonly versions: number;
 }
@@ -781,55 +781,55 @@ export interface HipObjectAntiMalwareCriteriaProductVersion {
   /**
   * Contains
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#contains HipObject#contains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#contains HipObject#contains}
   */
   readonly contains?: string;
   /**
   * Greater equal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#greater_equal HipObject#greater_equal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#greater_equal HipObject#greater_equal}
   */
   readonly greaterEqual?: string;
   /**
   * Greater than
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#greater_than HipObject#greater_than}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#greater_than HipObject#greater_than}
   */
   readonly greaterThan?: string;
   /**
   * Is
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#is HipObject#is}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#is HipObject#is}
   */
   readonly is?: string;
   /**
   * Is not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#is_not HipObject#is_not}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#is_not HipObject#is_not}
   */
   readonly isNot?: string;
   /**
   * Less equal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#less_equal HipObject#less_equal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#less_equal HipObject#less_equal}
   */
   readonly lessEqual?: string;
   /**
   * Less than
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#less_than HipObject#less_than}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#less_than HipObject#less_than}
   */
   readonly lessThan?: string;
   /**
   * Not within
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#not_within HipObject#not_within}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#not_within HipObject#not_within}
   */
   readonly notWithin?: HipObjectAntiMalwareCriteriaProductVersionNotWithin;
   /**
   * Within
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#within HipObject#within}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#within HipObject#within}
   */
   readonly within?: HipObjectAntiMalwareCriteriaProductVersionWithin;
 }
@@ -1157,13 +1157,13 @@ export interface HipObjectAntiMalwareCriteriaVirdefVersionNotWithin {
   /**
   * specify time in days
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#days HipObject#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#days HipObject#days}
   */
   readonly days?: number;
   /**
   * specify versions range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#versions HipObject#versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#versions HipObject#versions}
   */
   readonly versions?: number;
 }
@@ -1288,13 +1288,13 @@ export interface HipObjectAntiMalwareCriteriaVirdefVersionWithin {
   /**
   * specify time in days
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#days HipObject#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#days HipObject#days}
   */
   readonly days?: number;
   /**
   * specify versions range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#versions HipObject#versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#versions HipObject#versions}
   */
   readonly versions?: number;
 }
@@ -1419,13 +1419,13 @@ export interface HipObjectAntiMalwareCriteriaVirdefVersion {
   /**
   * Not within
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#not_within HipObject#not_within}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#not_within HipObject#not_within}
   */
   readonly notWithin?: HipObjectAntiMalwareCriteriaVirdefVersionNotWithin;
   /**
   * Within
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#within HipObject#within}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#within HipObject#within}
   */
   readonly within?: HipObjectAntiMalwareCriteriaVirdefVersionWithin;
 }
@@ -1550,31 +1550,31 @@ export interface HipObjectAntiMalwareCriteria {
   /**
   * Is Installed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#is_installed HipObject#is_installed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#is_installed HipObject#is_installed}
   */
   readonly isInstalled?: boolean | cdktf.IResolvable;
   /**
   * Last scan time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#last_scan_time HipObject#last_scan_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#last_scan_time HipObject#last_scan_time}
   */
   readonly lastScanTime?: HipObjectAntiMalwareCriteriaLastScanTime;
   /**
   * Product version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#product_version HipObject#product_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#product_version HipObject#product_version}
   */
   readonly productVersion?: HipObjectAntiMalwareCriteriaProductVersion;
   /**
   * real time protection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#real_time_protection HipObject#real_time_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#real_time_protection HipObject#real_time_protection}
   */
   readonly realTimeProtection?: string;
   /**
   * Virdef version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#virdef_version HipObject#virdef_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#virdef_version HipObject#virdef_version}
   */
   readonly virdefVersion?: HipObjectAntiMalwareCriteriaVirdefVersion;
 }
@@ -1786,13 +1786,13 @@ export interface HipObjectAntiMalwareVendor {
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#name HipObject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#name HipObject#name}
   */
   readonly name: string;
   /**
   * Product
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#product HipObject#product}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#product HipObject#product}
   */
   readonly product?: string[];
 }
@@ -1936,19 +1936,19 @@ export interface HipObjectAntiMalware {
   /**
   * Criteria
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#criteria HipObject#criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#criteria HipObject#criteria}
   */
   readonly criteria?: HipObjectAntiMalwareCriteria;
   /**
   * Exclude vendor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#exclude_vendor HipObject#exclude_vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#exclude_vendor HipObject#exclude_vendor}
   */
   readonly excludeVendor?: boolean | cdktf.IResolvable;
   /**
   * Vendor name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#vendor HipObject#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#vendor HipObject#vendor}
   */
   readonly vendor?: HipObjectAntiMalwareVendor[] | cdktf.IResolvable;
 }
@@ -2102,13 +2102,13 @@ export interface HipObjectCertificateCriteriaCertificateAttributes {
   /**
   * Attribute Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#name HipObject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#name HipObject#name}
   */
   readonly name: string;
   /**
   * Key value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#value HipObject#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#value HipObject#value}
   */
   readonly value?: string;
 }
@@ -2252,13 +2252,13 @@ export interface HipObjectCertificateCriteria {
   /**
   * Certificate attributes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#certificate_attributes HipObject#certificate_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#certificate_attributes HipObject#certificate_attributes}
   */
   readonly certificateAttributes?: HipObjectCertificateCriteriaCertificateAttributes[] | cdktf.IResolvable;
   /**
   * Profile for authenticating client certificates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#certificate_profile HipObject#certificate_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#certificate_profile HipObject#certificate_profile}
   */
   readonly certificateProfile?: string;
 }
@@ -2383,7 +2383,7 @@ export interface HipObjectCertificate {
   /**
   * Criteria
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#criteria HipObject#criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#criteria HipObject#criteria}
   */
   readonly criteria?: HipObjectCertificateCriteria;
 }
@@ -2479,19 +2479,19 @@ export interface HipObjectCustomChecksCriteriaPlistKey {
   /**
   * Key name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#name HipObject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#name HipObject#name}
   */
   readonly name: string;
   /**
   * Value does not exist or match specified value data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#negate HipObject#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#negate HipObject#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Key value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#value HipObject#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#value HipObject#value}
   */
   readonly value?: string;
 }
@@ -2664,19 +2664,19 @@ export interface HipObjectCustomChecksCriteriaPlistStruct {
   /**
   * Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#key HipObject#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#key HipObject#key}
   */
   readonly key?: HipObjectCustomChecksCriteriaPlistKey[] | cdktf.IResolvable;
   /**
   * Preference list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#name HipObject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#name HipObject#name}
   */
   readonly name: string;
   /**
   * Plist does not exist
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#negate HipObject#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#negate HipObject#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
 }
@@ -2849,13 +2849,13 @@ export interface HipObjectCustomChecksCriteriaProcessListStruct {
   /**
   * Process Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#name HipObject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#name HipObject#name}
   */
   readonly name: string;
   /**
   * Running
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#running HipObject#running}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#running HipObject#running}
   */
   readonly running?: boolean | cdktf.IResolvable;
 }
@@ -2999,19 +2999,19 @@ export interface HipObjectCustomChecksCriteriaRegistryKeyRegistryValue {
   /**
   * Registry value name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#name HipObject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#name HipObject#name}
   */
   readonly name: string;
   /**
   * Value does not exist or match specified value data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#negate HipObject#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#negate HipObject#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Registry value data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#value_data HipObject#value_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#value_data HipObject#value_data}
   */
   readonly valueData?: string;
 }
@@ -3184,25 +3184,25 @@ export interface HipObjectCustomChecksCriteriaRegistryKey {
   /**
   * Registry key default value data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#default_value_data HipObject#default_value_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#default_value_data HipObject#default_value_data}
   */
   readonly defaultValueData?: string;
   /**
   * Registry key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#name HipObject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#name HipObject#name}
   */
   readonly name: string;
   /**
   * Key does not exist or match specified value data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#negate HipObject#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#negate HipObject#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Registry value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#registry_value HipObject#registry_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#registry_value HipObject#registry_value}
   */
   readonly registryValue?: HipObjectCustomChecksCriteriaRegistryKeyRegistryValue[] | cdktf.IResolvable;
 }
@@ -3404,19 +3404,19 @@ export interface HipObjectCustomChecksCriteria {
   /**
   * Plist
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#plist HipObject#plist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#plist HipObject#plist}
   */
   readonly plist?: HipObjectCustomChecksCriteriaPlistStruct[] | cdktf.IResolvable;
   /**
   * Process list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#process_list HipObject#process_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#process_list HipObject#process_list}
   */
   readonly processList?: HipObjectCustomChecksCriteriaProcessListStruct[] | cdktf.IResolvable;
   /**
   * Registry key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#registry_key HipObject#registry_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#registry_key HipObject#registry_key}
   */
   readonly registryKey?: HipObjectCustomChecksCriteriaRegistryKey[] | cdktf.IResolvable;
 }
@@ -3570,7 +3570,7 @@ export interface HipObjectCustomChecks {
   /**
   * Criteria
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#criteria HipObject#criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#criteria HipObject#criteria}
   */
   readonly criteria: HipObjectCustomChecksCriteria;
 }
@@ -3663,13 +3663,13 @@ export interface HipObjectDataLossPreventionCriteria {
   /**
   * is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#is_enabled HipObject#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#is_enabled HipObject#is_enabled}
   */
   readonly isEnabled?: string;
   /**
   * Is Installed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#is_installed HipObject#is_installed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#is_installed HipObject#is_installed}
   */
   readonly isInstalled?: boolean | cdktf.IResolvable;
 }
@@ -3794,13 +3794,13 @@ export interface HipObjectDataLossPreventionVendor {
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#name HipObject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#name HipObject#name}
   */
   readonly name: string;
   /**
   * Product name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#product HipObject#product}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#product HipObject#product}
   */
   readonly product?: string[];
 }
@@ -3944,19 +3944,19 @@ export interface HipObjectDataLossPrevention {
   /**
   * Criteria
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#criteria HipObject#criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#criteria HipObject#criteria}
   */
   readonly criteria?: HipObjectDataLossPreventionCriteria;
   /**
   * Exclude vendor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#exclude_vendor HipObject#exclude_vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#exclude_vendor HipObject#exclude_vendor}
   */
   readonly excludeVendor?: boolean | cdktf.IResolvable;
   /**
   * Vendor name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#vendor HipObject#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#vendor HipObject#vendor}
   */
   readonly vendor?: HipObjectDataLossPreventionVendor[] | cdktf.IResolvable;
 }
@@ -4169,13 +4169,13 @@ export interface HipObjectDiskBackupCriteriaLastBackupTimeNotWithin {
   /**
   * specify time in days
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#days HipObject#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#days HipObject#days}
   */
   readonly days?: number;
   /**
   * specify time in hours
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#hours HipObject#hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#hours HipObject#hours}
   */
   readonly hours?: number;
 }
@@ -4300,13 +4300,13 @@ export interface HipObjectDiskBackupCriteriaLastBackupTimeWithin {
   /**
   * specify time in days
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#days HipObject#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#days HipObject#days}
   */
   readonly days?: number;
   /**
   * specify time in hours
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#hours HipObject#hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#hours HipObject#hours}
   */
   readonly hours?: number;
 }
@@ -4431,19 +4431,19 @@ export interface HipObjectDiskBackupCriteriaLastBackupTime {
   /**
   * Not available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#not_available HipObject#not_available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#not_available HipObject#not_available}
   */
   readonly notAvailable?: HipObjectDiskBackupCriteriaLastBackupTimeNotAvailable;
   /**
   * Not within
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#not_within HipObject#not_within}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#not_within HipObject#not_within}
   */
   readonly notWithin?: HipObjectDiskBackupCriteriaLastBackupTimeNotWithin;
   /**
   * Within
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#within HipObject#within}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#within HipObject#within}
   */
   readonly within?: HipObjectDiskBackupCriteriaLastBackupTimeWithin;
 }
@@ -4597,13 +4597,13 @@ export interface HipObjectDiskBackupCriteria {
   /**
   * Is Installed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#is_installed HipObject#is_installed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#is_installed HipObject#is_installed}
   */
   readonly isInstalled?: boolean | cdktf.IResolvable;
   /**
   * Last backup time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#last_backup_time HipObject#last_backup_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#last_backup_time HipObject#last_backup_time}
   */
   readonly lastBackupTime?: HipObjectDiskBackupCriteriaLastBackupTime;
 }
@@ -4728,13 +4728,13 @@ export interface HipObjectDiskBackupVendor {
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#name HipObject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#name HipObject#name}
   */
   readonly name: string;
   /**
   * Product
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#product HipObject#product}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#product HipObject#product}
   */
   readonly product?: string[];
 }
@@ -4878,19 +4878,19 @@ export interface HipObjectDiskBackup {
   /**
   * Criteria
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#criteria HipObject#criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#criteria HipObject#criteria}
   */
   readonly criteria?: HipObjectDiskBackupCriteria;
   /**
   * Exclude vendor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#exclude_vendor HipObject#exclude_vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#exclude_vendor HipObject#exclude_vendor}
   */
   readonly excludeVendor?: boolean | cdktf.IResolvable;
   /**
   * Vendor name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#vendor HipObject#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#vendor HipObject#vendor}
   */
   readonly vendor?: HipObjectDiskBackupVendor[] | cdktf.IResolvable;
 }
@@ -5044,13 +5044,13 @@ export interface HipObjectDiskEncryptionCriteriaEncryptedLocationsEncryptionStat
   /**
   * Is
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#is HipObject#is}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#is HipObject#is}
   */
   readonly is?: string;
   /**
   * Is not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#is_not HipObject#is_not}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#is_not HipObject#is_not}
   */
   readonly isNot?: string;
 }
@@ -5175,13 +5175,13 @@ export interface HipObjectDiskEncryptionCriteriaEncryptedLocations {
   /**
   * Encryption state
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#encryption_state HipObject#encryption_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#encryption_state HipObject#encryption_state}
   */
   readonly encryptionState?: HipObjectDiskEncryptionCriteriaEncryptedLocationsEncryptionState;
   /**
   * Encryption location
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#name HipObject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#name HipObject#name}
   */
   readonly name: string;
 }
@@ -5325,13 +5325,13 @@ export interface HipObjectDiskEncryptionCriteria {
   /**
   * Encrypted locations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#encrypted_locations HipObject#encrypted_locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#encrypted_locations HipObject#encrypted_locations}
   */
   readonly encryptedLocations?: HipObjectDiskEncryptionCriteriaEncryptedLocations[] | cdktf.IResolvable;
   /**
   * Is Installed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#is_installed HipObject#is_installed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#is_installed HipObject#is_installed}
   */
   readonly isInstalled?: boolean | cdktf.IResolvable;
 }
@@ -5456,13 +5456,13 @@ export interface HipObjectDiskEncryptionVendor {
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#name HipObject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#name HipObject#name}
   */
   readonly name: string;
   /**
   * Product
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#product HipObject#product}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#product HipObject#product}
   */
   readonly product?: string[];
 }
@@ -5606,19 +5606,19 @@ export interface HipObjectDiskEncryption {
   /**
   * Encryption locations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#criteria HipObject#criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#criteria HipObject#criteria}
   */
   readonly criteria?: HipObjectDiskEncryptionCriteria;
   /**
   * Exclude vendor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#exclude_vendor HipObject#exclude_vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#exclude_vendor HipObject#exclude_vendor}
   */
   readonly excludeVendor?: boolean | cdktf.IResolvable;
   /**
   * Vendor name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#vendor HipObject#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#vendor HipObject#vendor}
   */
   readonly vendor?: HipObjectDiskEncryptionVendor[] | cdktf.IResolvable;
 }
@@ -5772,13 +5772,13 @@ export interface HipObjectFirewallCriteria {
   /**
   * is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#is_enabled HipObject#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#is_enabled HipObject#is_enabled}
   */
   readonly isEnabled?: string;
   /**
   * Is Installed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#is_installed HipObject#is_installed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#is_installed HipObject#is_installed}
   */
   readonly isInstalled?: boolean | cdktf.IResolvable;
 }
@@ -5903,13 +5903,13 @@ export interface HipObjectFirewallVendor {
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#name HipObject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#name HipObject#name}
   */
   readonly name: string;
   /**
   * Product
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#product HipObject#product}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#product HipObject#product}
   */
   readonly product?: string[];
 }
@@ -6053,19 +6053,19 @@ export interface HipObjectFirewall {
   /**
   * Criteria
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#criteria HipObject#criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#criteria HipObject#criteria}
   */
   readonly criteria?: HipObjectFirewallCriteria;
   /**
   * Exclude vendor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#exclude_vendor HipObject#exclude_vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#exclude_vendor HipObject#exclude_vendor}
   */
   readonly excludeVendor?: boolean | cdktf.IResolvable;
   /**
   * Vendor name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#vendor HipObject#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#vendor HipObject#vendor}
   */
   readonly vendor?: HipObjectFirewallVendor[] | cdktf.IResolvable;
 }
@@ -6219,19 +6219,19 @@ export interface HipObjectHostInfoCriteriaClientVersion {
   /**
   * Contains
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#contains HipObject#contains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#contains HipObject#contains}
   */
   readonly contains?: string;
   /**
   * Is
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#is HipObject#is}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#is HipObject#is}
   */
   readonly is?: string;
   /**
   * Is not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#is_not HipObject#is_not}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#is_not HipObject#is_not}
   */
   readonly isNot?: string;
 }
@@ -6385,19 +6385,19 @@ export interface HipObjectHostInfoCriteriaDomain {
   /**
   * Contains
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#contains HipObject#contains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#contains HipObject#contains}
   */
   readonly contains?: string;
   /**
   * Is
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#is HipObject#is}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#is HipObject#is}
   */
   readonly is?: string;
   /**
   * Is not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#is_not HipObject#is_not}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#is_not HipObject#is_not}
   */
   readonly isNot?: string;
 }
@@ -6551,19 +6551,19 @@ export interface HipObjectHostInfoCriteriaHostId {
   /**
   * Contains
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#contains HipObject#contains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#contains HipObject#contains}
   */
   readonly contains?: string;
   /**
   * Is
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#is HipObject#is}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#is HipObject#is}
   */
   readonly is?: string;
   /**
   * Is not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#is_not HipObject#is_not}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#is_not HipObject#is_not}
   */
   readonly isNot?: string;
 }
@@ -6717,19 +6717,19 @@ export interface HipObjectHostInfoCriteriaHostName {
   /**
   * Contains
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#contains HipObject#contains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#contains HipObject#contains}
   */
   readonly contains?: string;
   /**
   * Is
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#is HipObject#is}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#is HipObject#is}
   */
   readonly is?: string;
   /**
   * Is not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#is_not HipObject#is_not}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#is_not HipObject#is_not}
   */
   readonly isNot?: string;
 }
@@ -6883,31 +6883,31 @@ export interface HipObjectHostInfoCriteriaOsContains {
   /**
   * Apple
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#apple HipObject#apple}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#apple HipObject#apple}
   */
   readonly apple?: string;
   /**
   * Google
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#google HipObject#google}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#google HipObject#google}
   */
   readonly google?: string;
   /**
   * Linux
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#linux HipObject#linux}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#linux HipObject#linux}
   */
   readonly linux?: string;
   /**
   * Microsoft
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#microsoft HipObject#microsoft}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#microsoft HipObject#microsoft}
   */
   readonly microsoft?: string;
   /**
   * Other
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#other HipObject#other}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#other HipObject#other}
   */
   readonly other?: string;
 }
@@ -7119,7 +7119,7 @@ export interface HipObjectHostInfoCriteriaOs {
   /**
   * Contains
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#contains HipObject#contains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#contains HipObject#contains}
   */
   readonly contains?: HipObjectHostInfoCriteriaOsContains;
 }
@@ -7215,19 +7215,19 @@ export interface HipObjectHostInfoCriteriaSerialNumber {
   /**
   * Contains
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#contains HipObject#contains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#contains HipObject#contains}
   */
   readonly contains?: string;
   /**
   * Is
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#is HipObject#is}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#is HipObject#is}
   */
   readonly is?: string;
   /**
   * Is not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#is_not HipObject#is_not}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#is_not HipObject#is_not}
   */
   readonly isNot?: string;
 }
@@ -7381,43 +7381,43 @@ export interface HipObjectHostInfoCriteria {
   /**
   * Client version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#client_version HipObject#client_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#client_version HipObject#client_version}
   */
   readonly clientVersion?: HipObjectHostInfoCriteriaClientVersion;
   /**
   * Domain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#domain HipObject#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#domain HipObject#domain}
   */
   readonly domain?: HipObjectHostInfoCriteriaDomain;
   /**
   * Host id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#host_id HipObject#host_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#host_id HipObject#host_id}
   */
   readonly hostId?: HipObjectHostInfoCriteriaHostId;
   /**
   * Host name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#host_name HipObject#host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#host_name HipObject#host_name}
   */
   readonly hostName?: HipObjectHostInfoCriteriaHostName;
   /**
   * If device is managed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#managed HipObject#managed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#managed HipObject#managed}
   */
   readonly managed?: boolean | cdktf.IResolvable;
   /**
   * Os
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#os HipObject#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#os HipObject#os}
   */
   readonly os?: HipObjectHostInfoCriteriaOs;
   /**
   * Serial number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#serial_number HipObject#serial_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#serial_number HipObject#serial_number}
   */
   readonly serialNumber?: HipObjectHostInfoCriteriaSerialNumber;
 }
@@ -7687,7 +7687,7 @@ export interface HipObjectHostInfo {
   /**
   * Criteria
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#criteria HipObject#criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#criteria HipObject#criteria}
   */
   readonly criteria: HipObjectHostInfoCriteria;
 }
@@ -7839,19 +7839,19 @@ export interface HipObjectMobileDeviceCriteriaApplicationsHasMalwareYesExcludes 
   /**
   * application hash
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#hash HipObject#hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#hash HipObject#hash}
   */
   readonly hash?: string;
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#name HipObject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#name HipObject#name}
   */
   readonly name: string;
   /**
   * application package name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#package HipObject#package}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#package HipObject#package}
   */
   readonly package?: string;
 }
@@ -8024,7 +8024,7 @@ export interface HipObjectMobileDeviceCriteriaApplicationsHasMalwareYes {
   /**
   * Excludes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#excludes HipObject#excludes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#excludes HipObject#excludes}
   */
   readonly excludes?: HipObjectMobileDeviceCriteriaApplicationsHasMalwareYesExcludes[] | cdktf.IResolvable;
 }
@@ -8120,13 +8120,13 @@ export interface HipObjectMobileDeviceCriteriaApplicationsHasMalware {
   /**
   * No
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#no HipObject#no}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#no HipObject#no}
   */
   readonly no?: HipObjectMobileDeviceCriteriaApplicationsHasMalwareNo;
   /**
   * Yes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#yes HipObject#yes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#yes HipObject#yes}
   */
   readonly yes?: HipObjectMobileDeviceCriteriaApplicationsHasMalwareYes;
 }
@@ -8251,19 +8251,19 @@ export interface HipObjectMobileDeviceCriteriaApplicationsIncludes {
   /**
   * application hash
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#hash HipObject#hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#hash HipObject#hash}
   */
   readonly hash?: string;
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#name HipObject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#name HipObject#name}
   */
   readonly name: string;
   /**
   * application package name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#package HipObject#package}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#package HipObject#package}
   */
   readonly package?: string;
 }
@@ -8436,19 +8436,19 @@ export interface HipObjectMobileDeviceCriteriaApplications {
   /**
   * Has malware
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#has_malware HipObject#has_malware}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#has_malware HipObject#has_malware}
   */
   readonly hasMalware?: HipObjectMobileDeviceCriteriaApplicationsHasMalware;
   /**
   * Has apps that are not managed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#has_unmanaged_app HipObject#has_unmanaged_app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#has_unmanaged_app HipObject#has_unmanaged_app}
   */
   readonly hasUnmanagedApp?: boolean | cdktf.IResolvable;
   /**
   * Includes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#includes HipObject#includes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#includes HipObject#includes}
   */
   readonly includes?: HipObjectMobileDeviceCriteriaApplicationsIncludes[] | cdktf.IResolvable;
 }
@@ -8602,19 +8602,19 @@ export interface HipObjectMobileDeviceCriteriaImei {
   /**
   * Contains
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#contains HipObject#contains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#contains HipObject#contains}
   */
   readonly contains?: string;
   /**
   * Is
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#is HipObject#is}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#is HipObject#is}
   */
   readonly is?: string;
   /**
   * Is not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#is_not HipObject#is_not}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#is_not HipObject#is_not}
   */
   readonly isNot?: string;
 }
@@ -8768,7 +8768,7 @@ export interface HipObjectMobileDeviceCriteriaLastCheckinTimeNotWithin {
   /**
   * specify time in days
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#days HipObject#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#days HipObject#days}
   */
   readonly days: number;
 }
@@ -8861,7 +8861,7 @@ export interface HipObjectMobileDeviceCriteriaLastCheckinTimeWithin {
   /**
   * specify time in days
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#days HipObject#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#days HipObject#days}
   */
   readonly days: number;
 }
@@ -8954,13 +8954,13 @@ export interface HipObjectMobileDeviceCriteriaLastCheckinTime {
   /**
   * Not within
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#not_within HipObject#not_within}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#not_within HipObject#not_within}
   */
   readonly notWithin?: HipObjectMobileDeviceCriteriaLastCheckinTimeNotWithin;
   /**
   * Within
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#within HipObject#within}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#within HipObject#within}
   */
   readonly within?: HipObjectMobileDeviceCriteriaLastCheckinTimeWithin;
 }
@@ -9085,19 +9085,19 @@ export interface HipObjectMobileDeviceCriteriaModel {
   /**
   * Contains
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#contains HipObject#contains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#contains HipObject#contains}
   */
   readonly contains?: string;
   /**
   * Is
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#is HipObject#is}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#is HipObject#is}
   */
   readonly is?: string;
   /**
   * Is not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#is_not HipObject#is_not}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#is_not HipObject#is_not}
   */
   readonly isNot?: string;
 }
@@ -9251,19 +9251,19 @@ export interface HipObjectMobileDeviceCriteriaPhoneNumber {
   /**
   * Contains
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#contains HipObject#contains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#contains HipObject#contains}
   */
   readonly contains?: string;
   /**
   * Is
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#is HipObject#is}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#is HipObject#is}
   */
   readonly is?: string;
   /**
   * Is not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#is_not HipObject#is_not}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#is_not HipObject#is_not}
   */
   readonly isNot?: string;
 }
@@ -9417,19 +9417,19 @@ export interface HipObjectMobileDeviceCriteriaTag {
   /**
   * Contains
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#contains HipObject#contains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#contains HipObject#contains}
   */
   readonly contains?: string;
   /**
   * Is
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#is HipObject#is}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#is HipObject#is}
   */
   readonly is?: string;
   /**
   * Is not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#is_not HipObject#is_not}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#is_not HipObject#is_not}
   */
   readonly isNot?: string;
 }
@@ -9583,55 +9583,55 @@ export interface HipObjectMobileDeviceCriteria {
   /**
   * Applications
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#applications HipObject#applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#applications HipObject#applications}
   */
   readonly applications?: HipObjectMobileDeviceCriteriaApplications;
   /**
   * If device's disk is encrypted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#disk_encrypted HipObject#disk_encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#disk_encrypted HipObject#disk_encrypted}
   */
   readonly diskEncrypted?: boolean | cdktf.IResolvable;
   /**
   * Imei
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#imei HipObject#imei}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#imei HipObject#imei}
   */
   readonly imei?: HipObjectMobileDeviceCriteriaImei;
   /**
   * If device is by rooted/jailbroken
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#jailbroken HipObject#jailbroken}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#jailbroken HipObject#jailbroken}
   */
   readonly jailbroken?: boolean | cdktf.IResolvable;
   /**
   * Last checkin time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#last_checkin_time HipObject#last_checkin_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#last_checkin_time HipObject#last_checkin_time}
   */
   readonly lastCheckinTime?: HipObjectMobileDeviceCriteriaLastCheckinTime;
   /**
   * Model
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#model HipObject#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#model HipObject#model}
   */
   readonly model?: HipObjectMobileDeviceCriteriaModel;
   /**
   * If device's passcode is present
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#passcode_set HipObject#passcode_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#passcode_set HipObject#passcode_set}
   */
   readonly passcodeSet?: boolean | cdktf.IResolvable;
   /**
   * Phone number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#phone_number HipObject#phone_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#phone_number HipObject#phone_number}
   */
   readonly phoneNumber?: HipObjectMobileDeviceCriteriaPhoneNumber;
   /**
   * Tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#tag HipObject#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#tag HipObject#tag}
   */
   readonly tag?: HipObjectMobileDeviceCriteriaTag;
 }
@@ -9959,7 +9959,7 @@ export interface HipObjectMobileDevice {
   /**
   * Criteria
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#criteria HipObject#criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#criteria HipObject#criteria}
   */
   readonly criteria?: HipObjectMobileDeviceCriteria;
 }
@@ -10055,7 +10055,7 @@ export interface HipObjectNetworkInfoCriteriaNetworkIsMobile {
   /**
   * Carrier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#carrier HipObject#carrier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#carrier HipObject#carrier}
   */
   readonly carrier?: string;
 }
@@ -10210,7 +10210,7 @@ export interface HipObjectNetworkInfoCriteriaNetworkIsWifi {
   /**
   * SSID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#ssid HipObject#ssid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#ssid HipObject#ssid}
   */
   readonly ssid?: string;
 }
@@ -10306,19 +10306,19 @@ export interface HipObjectNetworkInfoCriteriaNetworkIs {
   /**
   * Mobile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#mobile HipObject#mobile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#mobile HipObject#mobile}
   */
   readonly mobile?: HipObjectNetworkInfoCriteriaNetworkIsMobile;
   /**
   * Unknown
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#unknown HipObject#unknown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#unknown HipObject#unknown}
   */
   readonly unknown?: HipObjectNetworkInfoCriteriaNetworkIsUnknown;
   /**
   * Wifi
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#wifi HipObject#wifi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#wifi HipObject#wifi}
   */
   readonly wifi?: HipObjectNetworkInfoCriteriaNetworkIsWifi;
 }
@@ -10531,7 +10531,7 @@ export interface HipObjectNetworkInfoCriteriaNetworkIsNotMobile {
   /**
   * Carrier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#carrier HipObject#carrier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#carrier HipObject#carrier}
   */
   readonly carrier?: string;
 }
@@ -10686,7 +10686,7 @@ export interface HipObjectNetworkInfoCriteriaNetworkIsNotWifi {
   /**
   * SSID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#ssid HipObject#ssid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#ssid HipObject#ssid}
   */
   readonly ssid?: string;
 }
@@ -10782,25 +10782,25 @@ export interface HipObjectNetworkInfoCriteriaNetworkIsNot {
   /**
   * Ethernet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#ethernet HipObject#ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#ethernet HipObject#ethernet}
   */
   readonly ethernet?: HipObjectNetworkInfoCriteriaNetworkIsNotEthernet;
   /**
   * Mobile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#mobile HipObject#mobile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#mobile HipObject#mobile}
   */
   readonly mobile?: HipObjectNetworkInfoCriteriaNetworkIsNotMobile;
   /**
   * Unknown
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#unknown HipObject#unknown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#unknown HipObject#unknown}
   */
   readonly unknown?: HipObjectNetworkInfoCriteriaNetworkIsNotUnknown;
   /**
   * Wifi
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#wifi HipObject#wifi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#wifi HipObject#wifi}
   */
   readonly wifi?: HipObjectNetworkInfoCriteriaNetworkIsNotWifi;
 }
@@ -10983,13 +10983,13 @@ export interface HipObjectNetworkInfoCriteriaNetwork {
   /**
   * Is
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#is HipObject#is}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#is HipObject#is}
   */
   readonly is?: HipObjectNetworkInfoCriteriaNetworkIs;
   /**
   * Is not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#is_not HipObject#is_not}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#is_not HipObject#is_not}
   */
   readonly isNot?: HipObjectNetworkInfoCriteriaNetworkIsNot;
 }
@@ -11114,7 +11114,7 @@ export interface HipObjectNetworkInfoCriteria {
   /**
   * Network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#network HipObject#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#network HipObject#network}
   */
   readonly network?: HipObjectNetworkInfoCriteriaNetwork;
 }
@@ -11210,7 +11210,7 @@ export interface HipObjectNetworkInfo {
   /**
   * Criteria
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#criteria HipObject#criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#criteria HipObject#criteria}
   */
   readonly criteria?: HipObjectNetworkInfoCriteria;
 }
@@ -11306,37 +11306,37 @@ export interface HipObjectPatchManagementCriteriaMissingPatchesSeverity {
   /**
   * Greater equal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#greater_equal HipObject#greater_equal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#greater_equal HipObject#greater_equal}
   */
   readonly greaterEqual?: number;
   /**
   * Greater than
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#greater_than HipObject#greater_than}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#greater_than HipObject#greater_than}
   */
   readonly greaterThan?: number;
   /**
   * Is
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#is HipObject#is}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#is HipObject#is}
   */
   readonly is?: number;
   /**
   * Is not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#is_not HipObject#is_not}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#is_not HipObject#is_not}
   */
   readonly isNot?: number;
   /**
   * Less equal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#less_equal HipObject#less_equal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#less_equal HipObject#less_equal}
   */
   readonly lessEqual?: number;
   /**
   * Less than
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#less_than HipObject#less_than}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#less_than HipObject#less_than}
   */
   readonly lessThan?: number;
 }
@@ -11577,19 +11577,19 @@ export interface HipObjectPatchManagementCriteriaMissingPatches {
   /**
   * Check
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#check HipObject#check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#check HipObject#check}
   */
   readonly check: string;
   /**
   * Patches
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#patches HipObject#patches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#patches HipObject#patches}
   */
   readonly patches?: string[];
   /**
   * Severity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#severity HipObject#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#severity HipObject#severity}
   */
   readonly severity?: HipObjectPatchManagementCriteriaMissingPatchesSeverity;
 }
@@ -11740,19 +11740,19 @@ export interface HipObjectPatchManagementCriteria {
   /**
   * is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#is_enabled HipObject#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#is_enabled HipObject#is_enabled}
   */
   readonly isEnabled?: string;
   /**
   * Is Installed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#is_installed HipObject#is_installed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#is_installed HipObject#is_installed}
   */
   readonly isInstalled?: boolean | cdktf.IResolvable;
   /**
   * Missing patches
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#missing_patches HipObject#missing_patches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#missing_patches HipObject#missing_patches}
   */
   readonly missingPatches?: HipObjectPatchManagementCriteriaMissingPatches;
 }
@@ -11906,13 +11906,13 @@ export interface HipObjectPatchManagementVendor {
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#name HipObject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#name HipObject#name}
   */
   readonly name: string;
   /**
   * Product name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#product HipObject#product}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#product HipObject#product}
   */
   readonly product?: string[];
 }
@@ -12056,19 +12056,19 @@ export interface HipObjectPatchManagement {
   /**
   * Criteria
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#criteria HipObject#criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#criteria HipObject#criteria}
   */
   readonly criteria?: HipObjectPatchManagementCriteria;
   /**
   * Exclude vendor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#exclude_vendor HipObject#exclude_vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#exclude_vendor HipObject#exclude_vendor}
   */
   readonly excludeVendor?: boolean | cdktf.IResolvable;
   /**
   * Vendor name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#vendor HipObject#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#vendor HipObject#vendor}
   */
   readonly vendor?: HipObjectPatchManagementVendor[] | cdktf.IResolvable;
 }
@@ -12220,7 +12220,7 @@ export class HipObjectPatchManagementOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object scm_hip_object}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object scm_hip_object}
 */
 export class HipObject extends cdktf.TerraformResource {
 
@@ -12236,7 +12236,7 @@ export class HipObject extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HipObject resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HipObject to import
-  * @param importFromId The id of the existing HipObject that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HipObject that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HipObject to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -12248,7 +12248,7 @@ export class HipObject extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/hip_object scm_hip_object} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/hip_object scm_hip_object} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -12259,7 +12259,8 @@ export class HipObject extends cdktf.TerraformResource {
       terraformResourceType: 'scm_hip_object',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.3'
+        providerVersion: '1.0.4',
+        providerVersionConstraint: '1.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

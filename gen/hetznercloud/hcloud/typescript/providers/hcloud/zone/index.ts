@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/resources/zone
+// https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/zone
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface ZoneConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether delete protection is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/resources/zone#delete_protection Zone#delete_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/zone#delete_protection Zone#delete_protection}
   */
   readonly deleteProtection?: boolean | cdktf.IResolvable;
   /**
   * User-defined [labels](https://docs.hetzner.cloud/reference/cloud#labels) (key-value pairs) for the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/resources/zone#labels Zone#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/zone#labels Zone#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Mode of the Zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/resources/zone#mode Zone#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/zone#mode Zone#mode}
   */
   readonly mode: string;
   /**
   * Name of the Zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/resources/zone#name Zone#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/zone#name Zone#name}
   */
   readonly name: string;
   /**
   * Primary nameservers of the Zone. Forbidden when mode is primary and required when mode is secondary.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/resources/zone#primary_nameservers Zone#primary_nameservers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/zone#primary_nameservers Zone#primary_nameservers}
   */
   readonly primaryNameservers?: ZonePrimaryNameservers[] | cdktf.IResolvable;
   /**
   * Default Time To Live (TTL) of the Zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/resources/zone#ttl Zone#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/zone#ttl Zone#ttl}
   */
   readonly ttl?: number;
 }
@@ -102,25 +102,25 @@ export interface ZonePrimaryNameservers {
   /**
   * Public IPv4 or IPv6 address of the primary nameserver.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/resources/zone#address Zone#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/zone#address Zone#address}
   */
   readonly address: string;
   /**
   * Port of the primary nameserver.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/resources/zone#port Zone#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/zone#port Zone#port}
   */
   readonly port?: number;
   /**
   * Transaction signature (TSIG) algorithm used to generate the TSIG key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/resources/zone#tsig_algorithm Zone#tsig_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/zone#tsig_algorithm Zone#tsig_algorithm}
   */
   readonly tsigAlgorithm?: string;
   /**
   * Transaction signature (TSIG) key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/resources/zone#tsig_key Zone#tsig_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/zone#tsig_key Zone#tsig_key}
   */
   readonly tsigKey?: string;
 }
@@ -320,7 +320,7 @@ export class ZonePrimaryNameserversList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/resources/zone hcloud_zone}
+* Represents a {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/zone hcloud_zone}
 */
 export class Zone extends cdktf.TerraformResource {
 
@@ -336,7 +336,7 @@ export class Zone extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Zone resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Zone to import
-  * @param importFromId The id of the existing Zone that should be imported. Refer to the {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/resources/zone#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Zone that should be imported. Refer to the {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/zone#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Zone to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -348,7 +348,7 @@ export class Zone extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.55.0/docs/resources/zone hcloud_zone} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.56.0/docs/resources/zone hcloud_zone} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -359,7 +359,8 @@ export class Zone extends cdktf.TerraformResource {
       terraformResourceType: 'hcloud_zone',
       terraformGeneratorMetadata: {
         providerName: 'hcloud',
-        providerVersion: '1.55.0'
+        providerVersion: '1.56.0',
+        providerVersionConstraint: '1.56.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

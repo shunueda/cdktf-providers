@@ -53,7 +53,8 @@ export class DataOciOcvpDatastoreCluster extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_ocvp_datastore_cluster',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

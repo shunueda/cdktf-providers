@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/alertsyslogconfig
+// https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/alertsyslogconfig
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,48 +8,48 @@ import * as cdktf from 'cdktf';
 
 export interface AlertsyslogconfigConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/alertsyslogconfig#description Alertsyslogconfig#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/alertsyslogconfig#description Alertsyslogconfig#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/alertsyslogconfig#id Alertsyslogconfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/alertsyslogconfig#id Alertsyslogconfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/alertsyslogconfig#name Alertsyslogconfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/alertsyslogconfig#name Alertsyslogconfig#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/alertsyslogconfig#sender_hostname Alertsyslogconfig#sender_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/alertsyslogconfig#sender_hostname Alertsyslogconfig#sender_hostname}
   */
   readonly senderHostname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/alertsyslogconfig#tenant_ref Alertsyslogconfig#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/alertsyslogconfig#tenant_ref Alertsyslogconfig#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/alertsyslogconfig#uuid Alertsyslogconfig#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/alertsyslogconfig#uuid Alertsyslogconfig#uuid}
   */
   readonly uuid?: string;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/alertsyslogconfig#configpb_attributes Alertsyslogconfig#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/alertsyslogconfig#configpb_attributes Alertsyslogconfig#configpb_attributes}
   */
   readonly configpbAttributes?: AlertsyslogconfigConfigpbAttributes[] | cdktf.IResolvable;
   /**
   * syslog_servers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/alertsyslogconfig#syslog_servers Alertsyslogconfig#syslog_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/alertsyslogconfig#syslog_servers Alertsyslogconfig#syslog_servers}
   */
   readonly syslogServers?: AlertsyslogconfigSyslogServers[] | cdktf.IResolvable;
 }
 export interface AlertsyslogconfigConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/alertsyslogconfig#version Alertsyslogconfig#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/alertsyslogconfig#version Alertsyslogconfig#version}
   */
   readonly version?: string;
 }
@@ -165,39 +165,39 @@ export class AlertsyslogconfigConfigpbAttributesList extends cdktf.ComplexList {
 }
 export interface AlertsyslogconfigSyslogServers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/alertsyslogconfig#anon_auth Alertsyslogconfig#anon_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/alertsyslogconfig#anon_auth Alertsyslogconfig#anon_auth}
   */
   readonly anonAuth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/alertsyslogconfig#format Alertsyslogconfig#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/alertsyslogconfig#format Alertsyslogconfig#format}
   */
   readonly format?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/alertsyslogconfig#pkiprofile_ref Alertsyslogconfig#pkiprofile_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/alertsyslogconfig#pkiprofile_ref Alertsyslogconfig#pkiprofile_ref}
   */
   readonly pkiprofileRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/alertsyslogconfig#ssl_key_and_certificate_ref Alertsyslogconfig#ssl_key_and_certificate_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/alertsyslogconfig#ssl_key_and_certificate_ref Alertsyslogconfig#ssl_key_and_certificate_ref}
   */
   readonly sslKeyAndCertificateRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/alertsyslogconfig#strict_cert_verify Alertsyslogconfig#strict_cert_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/alertsyslogconfig#strict_cert_verify Alertsyslogconfig#strict_cert_verify}
   */
   readonly strictCertVerify?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/alertsyslogconfig#syslog_server Alertsyslogconfig#syslog_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/alertsyslogconfig#syslog_server Alertsyslogconfig#syslog_server}
   */
   readonly syslogServer: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/alertsyslogconfig#syslog_server_port Alertsyslogconfig#syslog_server_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/alertsyslogconfig#syslog_server_port Alertsyslogconfig#syslog_server_port}
   */
   readonly syslogServerPort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/alertsyslogconfig#tls_enable Alertsyslogconfig#tls_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/alertsyslogconfig#tls_enable Alertsyslogconfig#tls_enable}
   */
   readonly tlsEnable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/alertsyslogconfig#udp Alertsyslogconfig#udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/alertsyslogconfig#udp Alertsyslogconfig#udp}
   */
   readonly udp: string;
 }
@@ -539,7 +539,7 @@ export class AlertsyslogconfigSyslogServersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/alertsyslogconfig avi_alertsyslogconfig}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/alertsyslogconfig avi_alertsyslogconfig}
 */
 export class Alertsyslogconfig extends cdktf.TerraformResource {
 
@@ -555,7 +555,7 @@ export class Alertsyslogconfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Alertsyslogconfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Alertsyslogconfig to import
-  * @param importFromId The id of the existing Alertsyslogconfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/alertsyslogconfig#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Alertsyslogconfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/alertsyslogconfig#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Alertsyslogconfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -567,7 +567,7 @@ export class Alertsyslogconfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/alertsyslogconfig avi_alertsyslogconfig} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/alertsyslogconfig avi_alertsyslogconfig} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -578,7 +578,8 @@ export class Alertsyslogconfig extends cdktf.TerraformResource {
       terraformResourceType: 'avi_alertsyslogconfig',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '31.1.1'
+        providerVersion: '30.2.5',
+        providerVersionConstraint: '30.2.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

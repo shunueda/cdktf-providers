@@ -66,7 +66,8 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1Manifest extends cdktf.Ter
       terraformResourceType: 'k8s_registry_apicur_io_apicurio_registry_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -288,7 +288,8 @@ export class IpBlacklist extends cdktf.TerraformResource {
       terraformResourceType: 'ubika_ip_blacklist',
       terraformGeneratorMetadata: {
         providerName: 'ubika',
-        providerVersion: '0.0.1'
+        providerVersion: '0.0.1',
+        providerVersionConstraint: '0.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

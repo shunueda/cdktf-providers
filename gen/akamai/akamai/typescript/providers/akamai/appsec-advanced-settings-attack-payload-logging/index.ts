@@ -74,7 +74,8 @@ export class AppsecAdvancedSettingsAttackPayloadLogging extends cdktf.TerraformR
       terraformResourceType: 'akamai_appsec_advanced_settings_attack_payload_logging',
       terraformGeneratorMetadata: {
         providerName: 'akamai',
-        providerVersion: '9.1.0'
+        providerVersion: '9.1.0',
+        providerVersionConstraint: '9.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -74,7 +74,8 @@ export class Cgnv6MapTranslationFragmentationInbound extends cdktf.TerraformReso
       terraformResourceType: 'thunder_cgnv6_map_translation_fragmentation_inbound',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

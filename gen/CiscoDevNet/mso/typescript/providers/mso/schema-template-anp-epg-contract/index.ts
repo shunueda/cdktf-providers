@@ -88,7 +88,8 @@ export class SchemaTemplateAnpEpgContract extends cdktf.TerraformResource {
       terraformResourceType: 'mso_schema_template_anp_epg_contract',
       terraformGeneratorMetadata: {
         providerName: 'mso',
-        providerVersion: '1.6.0'
+        providerVersion: '1.6.0',
+        providerVersionConstraint: '1.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

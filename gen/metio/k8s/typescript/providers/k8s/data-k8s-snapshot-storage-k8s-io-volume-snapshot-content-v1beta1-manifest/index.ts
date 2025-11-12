@@ -885,7 +885,8 @@ export class DataK8SSnapshotStorageK8SIoVolumeSnapshotContentV1Beta1Manifest ext
       terraformResourceType: 'k8s_snapshot_storage_k8s_io_volume_snapshot_content_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -55,7 +55,8 @@ export class DataCyralSidecarBoundPorts extends cdktf.TerraformDataSource {
       terraformResourceType: 'cyral_sidecar_bound_ports',
       terraformGeneratorMetadata: {
         providerName: 'cyral',
-        providerVersion: '4.16.3'
+        providerVersion: '4.16.3',
+        providerVersionConstraint: '4.16.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -247,7 +247,8 @@ export class ObjectFirewallVipgrpDynamicMappingA extends cdktf.TerraformResource
       terraformResourceType: 'fortimanager_object_firewall_vipgrp_dynamic_mapping',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0'
+        providerVersion: '1.14.0',
+        providerVersionConstraint: '1.14.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -62,7 +62,8 @@ export class DistributedFirewallingOriginCertEnforcementConfig extends cdktf.Ter
       terraformResourceType: 'aviatrix_distributed_firewalling_origin_cert_enforcement_config',
       terraformGeneratorMetadata: {
         providerName: 'aviatrix',
-        providerVersion: '8.1.10'
+        providerVersion: '8.1.10',
+        providerVersionConstraint: '8.1.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

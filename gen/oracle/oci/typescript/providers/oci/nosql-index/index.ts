@@ -423,7 +423,8 @@ export class NosqlIndex extends cdktf.TerraformResource {
       terraformResourceType: 'oci_nosql_index',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

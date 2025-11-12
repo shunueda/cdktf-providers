@@ -240,7 +240,8 @@ export class DataInfracostAwsSnsTopicSubscription extends cdktf.TerraformDataSou
       terraformResourceType: 'infracost_aws_sns_topic_subscription',
       terraformGeneratorMetadata: {
         providerName: 'infracost',
-        providerVersion: '0.0.9'
+        providerVersion: '0.0.9',
+        providerVersionConstraint: '0.0.9'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -114,7 +114,8 @@ export class DataCurl2AzureadToken extends cdktf.TerraformDataSource {
       terraformResourceType: 'curl2_azuread_token',
       terraformGeneratorMetadata: {
         providerName: 'curl2',
-        providerVersion: '1.6.1'
+        providerVersion: '1.6.1',
+        providerVersionConstraint: '1.6.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

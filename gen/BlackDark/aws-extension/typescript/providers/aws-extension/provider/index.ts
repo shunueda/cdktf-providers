@@ -73,7 +73,8 @@ export class AwsExtensionProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'aws-extension',
       terraformGeneratorMetadata: {
         providerName: 'aws-extension',
-        providerVersion: '0.6.0'
+        providerVersion: '0.6.0',
+        providerVersionConstraint: '0.6.0'
       },
       terraformProviderSource: 'BlackDark/aws-extension'
     });

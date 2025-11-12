@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/connection_scim_configuration
+// https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/connection_scim_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ConnectionScimConfigurationConfig extends cdktf.TerraformMetaAr
   /**
   * ID of the connection for this SCIM configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/connection_scim_configuration#connection_id ConnectionScimConfiguration#connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/connection_scim_configuration#connection_id ConnectionScimConfiguration#connection_id}
   */
   readonly connectionId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/connection_scim_configuration#id ConnectionScimConfiguration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/connection_scim_configuration#id ConnectionScimConfiguration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface ConnectionScimConfigurationConfig extends cdktf.TerraformMetaAr
   /**
   * User ID attribute for generation unique of user ids. If `user_id_attribute` is set, `mapping` must be set as well. Defaults to `userName` for SAML connections and `externalId` for OIDC connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/connection_scim_configuration#user_id_attribute ConnectionScimConfiguration#user_id_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/connection_scim_configuration#user_id_attribute ConnectionScimConfiguration#user_id_attribute}
   */
   readonly userIdAttribute?: string;
   /**
   * mapping block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/connection_scim_configuration#mapping ConnectionScimConfiguration#mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/connection_scim_configuration#mapping ConnectionScimConfiguration#mapping}
   */
   readonly mapping?: ConnectionScimConfigurationMapping[] | cdktf.IResolvable;
 }
@@ -37,13 +37,13 @@ export interface ConnectionScimConfigurationMapping {
   /**
   * The field location in the Auth0 schema.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/connection_scim_configuration#auth0 ConnectionScimConfiguration#auth0}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/connection_scim_configuration#auth0 ConnectionScimConfiguration#auth0}
   */
   readonly auth0: string;
   /**
   * The field location in the SCIM schema.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/connection_scim_configuration#scim ConnectionScimConfiguration#scim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/connection_scim_configuration#scim ConnectionScimConfiguration#scim}
   */
   readonly scim: string;
 }
@@ -182,7 +182,7 @@ export class ConnectionScimConfigurationMappingList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/connection_scim_configuration auth0_connection_scim_configuration}
+* Represents a {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/connection_scim_configuration auth0_connection_scim_configuration}
 */
 export class ConnectionScimConfiguration extends cdktf.TerraformResource {
 
@@ -198,7 +198,7 @@ export class ConnectionScimConfiguration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ConnectionScimConfiguration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConnectionScimConfiguration to import
-  * @param importFromId The id of the existing ConnectionScimConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/connection_scim_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConnectionScimConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/connection_scim_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConnectionScimConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -210,7 +210,7 @@ export class ConnectionScimConfiguration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.33.0/docs/resources/connection_scim_configuration auth0_connection_scim_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/auth0/auth0/1.34.0/docs/resources/connection_scim_configuration auth0_connection_scim_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -221,7 +221,8 @@ export class ConnectionScimConfiguration extends cdktf.TerraformResource {
       terraformResourceType: 'auth0_connection_scim_configuration',
       terraformGeneratorMetadata: {
         providerName: 'auth0',
-        providerVersion: '1.33.0'
+        providerVersion: '1.34.0',
+        providerVersionConstraint: '1.34.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

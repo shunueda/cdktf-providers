@@ -91,7 +91,8 @@ export class Group extends cdktf.TerraformResource {
       terraformResourceType: 'ldap_group',
       terraformGeneratorMetadata: {
         providerName: 'ldap',
-        providerVersion: '0.8.12'
+        providerVersion: '0.8.12',
+        providerVersionConstraint: '0.8.12'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

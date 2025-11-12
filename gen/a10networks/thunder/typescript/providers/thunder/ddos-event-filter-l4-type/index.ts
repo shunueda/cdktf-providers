@@ -508,7 +508,8 @@ export class DdosEventFilterL4Type extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_ddos_event_filter_l4_type',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -366,7 +366,8 @@ export class SystempSystemCentralmanagement extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_systemp_system_centralmanagement',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0'
+        providerVersion: '1.14.0',
+        providerVersionConstraint: '1.14.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

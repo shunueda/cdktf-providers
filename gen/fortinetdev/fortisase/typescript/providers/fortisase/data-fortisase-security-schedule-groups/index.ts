@@ -206,7 +206,8 @@ export class DataFortisaseSecurityScheduleGroups extends cdktf.TerraformDataSour
       terraformResourceType: 'fortisase_security_schedule_groups',
       terraformGeneratorMetadata: {
         providerName: 'fortisase',
-        providerVersion: '1.0.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -64,7 +64,8 @@ export class DataFortiadcSystemService extends cdktf.TerraformDataSource {
       terraformResourceType: 'fortiadc_system_service',
       terraformGeneratorMetadata: {
         providerName: 'fortiadc',
-        providerVersion: '1.3.1'
+        providerVersion: '1.3.1',
+        providerVersionConstraint: '1.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

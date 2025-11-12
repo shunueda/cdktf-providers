@@ -75,7 +75,8 @@ export class InfinityNextProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'infinity-next',
       terraformGeneratorMetadata: {
         providerName: 'infinity-next',
-        providerVersion: '1.2.0'
+        providerVersion: '1.2.0',
+        providerVersionConstraint: '1.2.0'
       },
       terraformProviderSource: 'CheckPointSW/infinity-next'
     });

@@ -169,7 +169,8 @@ export class DataGcoreLoadbalancerv2 extends cdktf.TerraformDataSource {
       terraformResourceType: 'gcore_loadbalancerv2',
       terraformGeneratorMetadata: {
         providerName: 'gcorelabs',
-        providerVersion: '0.3.63'
+        providerVersion: '0.3.63',
+        providerVersionConstraint: '0.3.63'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

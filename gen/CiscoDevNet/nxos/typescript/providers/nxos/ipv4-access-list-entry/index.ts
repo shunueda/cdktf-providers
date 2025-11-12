@@ -369,7 +369,8 @@ export class Ipv4AccessListEntry extends cdktf.TerraformResource {
       terraformResourceType: 'nxos_ipv4_access_list_entry',
       terraformGeneratorMetadata: {
         providerName: 'nxos',
-        providerVersion: '0.5.10'
+        providerVersion: '0.5.10',
+        providerVersionConstraint: '0.5.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

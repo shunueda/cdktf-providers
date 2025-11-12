@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/swr_image_trigger
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/swr_image_trigger
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface SwrImageTriggerConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specifies the ID of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/swr_image_trigger#cluster_id SwrImageTrigger#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/swr_image_trigger#cluster_id SwrImageTrigger#cluster_id}
   */
   readonly clusterId?: string;
   /**
   * Specifies the name of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/swr_image_trigger#cluster_name SwrImageTrigger#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/swr_image_trigger#cluster_name SwrImageTrigger#cluster_name}
   */
   readonly clusterName?: string;
   /**
   * Specifies the trigger condition type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/swr_image_trigger#condition_type SwrImageTrigger#condition_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/swr_image_trigger#condition_type SwrImageTrigger#condition_type}
   */
   readonly conditionType: string;
   /**
   * Specifies the trigger condition value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/swr_image_trigger#condition_value SwrImageTrigger#condition_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/swr_image_trigger#condition_value SwrImageTrigger#condition_value}
   */
   readonly conditionValue: string;
   /**
   * Specifies the name of the container to be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/swr_image_trigger#container SwrImageTrigger#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/swr_image_trigger#container SwrImageTrigger#container}
   */
   readonly container?: string;
   /**
   * Specifies whether to enable the trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/swr_image_trigger#enabled SwrImageTrigger#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/swr_image_trigger#enabled SwrImageTrigger#enabled}
   */
   readonly enabled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/swr_image_trigger#id SwrImageTrigger#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/swr_image_trigger#id SwrImageTrigger#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,53 +53,53 @@ export interface SwrImageTriggerConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specifies the trigger name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/swr_image_trigger#name SwrImageTrigger#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/swr_image_trigger#name SwrImageTrigger#name}
   */
   readonly name: string;
   /**
   * Specifies the namespace where the application is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/swr_image_trigger#namespace SwrImageTrigger#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/swr_image_trigger#namespace SwrImageTrigger#namespace}
   */
   readonly namespace: string;
   /**
   * Specifies the name of the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/swr_image_trigger#organization SwrImageTrigger#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/swr_image_trigger#organization SwrImageTrigger#organization}
   */
   readonly organization: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/swr_image_trigger#region SwrImageTrigger#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/swr_image_trigger#region SwrImageTrigger#region}
   */
   readonly region?: string;
   /**
   * Specifies the name of the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/swr_image_trigger#repository SwrImageTrigger#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/swr_image_trigger#repository SwrImageTrigger#repository}
   */
   readonly repository: string;
   /**
   * Specifies the trigger type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/swr_image_trigger#type SwrImageTrigger#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/swr_image_trigger#type SwrImageTrigger#type}
   */
   readonly type?: string;
   /**
   * Specifies the name of the application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/swr_image_trigger#workload_name SwrImageTrigger#workload_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/swr_image_trigger#workload_name SwrImageTrigger#workload_name}
   */
   readonly workloadName: string;
   /**
   * Specifies the type of the application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/swr_image_trigger#workload_type SwrImageTrigger#workload_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/swr_image_trigger#workload_type SwrImageTrigger#workload_type}
   */
   readonly workloadType: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/swr_image_trigger hcs_swr_image_trigger}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/swr_image_trigger hcs_swr_image_trigger}
 */
 export class SwrImageTrigger extends cdktf.TerraformResource {
 
@@ -115,7 +115,7 @@ export class SwrImageTrigger extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SwrImageTrigger resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SwrImageTrigger to import
-  * @param importFromId The id of the existing SwrImageTrigger that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/swr_image_trigger#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SwrImageTrigger that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/swr_image_trigger#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SwrImageTrigger to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -127,7 +127,7 @@ export class SwrImageTrigger extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/swr_image_trigger hcs_swr_image_trigger} Resource
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/swr_image_trigger hcs_swr_image_trigger} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -138,7 +138,8 @@ export class SwrImageTrigger extends cdktf.TerraformResource {
       terraformResourceType: 'hcs_swr_image_trigger',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.19'
+        providerVersion: '2.4.20',
+        providerVersionConstraint: '2.4.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

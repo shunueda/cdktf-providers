@@ -171,7 +171,8 @@ export class DataBridgecrewRepositories extends cdktf.TerraformDataSource {
       terraformResourceType: 'bridgecrew_repositories',
       terraformGeneratorMetadata: {
         providerName: 'bridgecrew',
-        providerVersion: '0.3.7'
+        providerVersion: '0.3.7',
+        providerVersionConstraint: '0.3.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

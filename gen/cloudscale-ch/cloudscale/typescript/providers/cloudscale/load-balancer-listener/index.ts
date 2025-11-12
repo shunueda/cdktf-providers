@@ -92,7 +92,8 @@ export class LoadBalancerListener extends cdktf.TerraformResource {
       terraformResourceType: 'cloudscale_load_balancer_listener',
       terraformGeneratorMetadata: {
         providerName: 'cloudscale',
-        providerVersion: '5.0.0'
+        providerVersion: '5.0.0',
+        providerVersionConstraint: '5.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

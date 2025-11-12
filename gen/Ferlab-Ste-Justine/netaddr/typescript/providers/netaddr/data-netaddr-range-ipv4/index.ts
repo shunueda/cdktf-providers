@@ -62,7 +62,8 @@ export class DataNetaddrRangeIpv4 extends cdktf.TerraformDataSource {
       terraformResourceType: 'netaddr_range_ipv4',
       terraformGeneratorMetadata: {
         providerName: 'netaddr',
-        providerVersion: '0.5.1'
+        providerVersion: '0.5.1',
+        providerVersionConstraint: '0.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

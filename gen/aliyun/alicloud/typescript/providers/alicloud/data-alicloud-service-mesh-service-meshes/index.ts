@@ -1515,7 +1515,8 @@ export class DataAlicloudServiceMeshServiceMeshes extends cdktf.TerraformDataSou
       terraformResourceType: 'alicloud_service_mesh_service_meshes',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -266,7 +266,8 @@ export class ConfigAggregateDelivery extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_config_aggregate_delivery',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

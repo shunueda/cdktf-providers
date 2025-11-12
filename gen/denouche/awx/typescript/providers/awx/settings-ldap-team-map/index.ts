@@ -246,7 +246,8 @@ export class SettingsLdapTeamMap extends cdktf.TerraformResource {
       terraformResourceType: 'awx_settings_ldap_team_map',
       terraformGeneratorMetadata: {
         providerName: 'awx',
-        providerVersion: '0.29.1'
+        providerVersion: '0.29.1',
+        providerVersionConstraint: '0.29.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

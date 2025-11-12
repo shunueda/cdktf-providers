@@ -58,7 +58,8 @@ export class DataNginxproxymanagerDeadHost extends cdktf.TerraformDataSource {
       terraformResourceType: 'nginxproxymanager_dead_host',
       terraformGeneratorMetadata: {
         providerName: 'nginxproxymanager',
-        providerVersion: '1.2.2'
+        providerVersion: '1.2.2',
+        providerVersionConstraint: '1.2.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

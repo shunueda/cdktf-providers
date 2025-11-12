@@ -88,7 +88,8 @@ export class Demo extends cdktf.TerraformResource {
       terraformResourceType: 'abbey_demo',
       terraformGeneratorMetadata: {
         providerName: 'abbey',
-        providerVersion: '0.2.9'
+        providerVersion: '0.2.9',
+        providerVersionConstraint: '0.2.9'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

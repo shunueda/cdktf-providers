@@ -2221,7 +2221,8 @@ export class VrrpAVridBladeParametersTrackingOptionsA extends cdktf.TerraformRes
       terraformResourceType: 'thunder_vrrp_a_vrid_blade_parameters_tracking_options',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

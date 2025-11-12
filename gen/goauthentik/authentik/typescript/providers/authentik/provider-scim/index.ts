@@ -122,7 +122,8 @@ export class ProviderScim extends cdktf.TerraformResource {
       terraformResourceType: 'authentik_provider_scim',
       terraformGeneratorMetadata: {
         providerName: 'authentik',
-        providerVersion: '2025.10.0'
+        providerVersion: '2025.10.0',
+        providerVersionConstraint: '2025.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

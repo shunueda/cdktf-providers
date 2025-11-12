@@ -218,7 +218,8 @@ export class Httpsource extends cdktf.TerraformResource {
       terraformResourceType: 'panther_httpsource',
       terraformGeneratorMetadata: {
         providerName: 'panther',
-        providerVersion: '0.2.7'
+        providerVersion: '0.2.7',
+        providerVersionConstraint: '0.2.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

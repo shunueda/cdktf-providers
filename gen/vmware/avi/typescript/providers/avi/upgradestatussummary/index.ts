@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatussummary
+// https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatussummary
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,86 +8,86 @@ import * as cdktf from 'cdktf';
 
 export interface UpgradestatussummaryConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatussummary#enable_patch_rollback Upgradestatussummary#enable_patch_rollback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatussummary#enable_patch_rollback Upgradestatussummary#enable_patch_rollback}
   */
   readonly enablePatchRollback?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatussummary#enable_rollback Upgradestatussummary#enable_rollback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatussummary#enable_rollback Upgradestatussummary#enable_rollback}
   */
   readonly enableRollback?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatussummary#end_time Upgradestatussummary#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatussummary#end_time Upgradestatussummary#end_time}
   */
   readonly endTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatussummary#id Upgradestatussummary#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatussummary#id Upgradestatussummary#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatussummary#image_ref Upgradestatussummary#image_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatussummary#image_ref Upgradestatussummary#image_ref}
   */
   readonly imageRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatussummary#name Upgradestatussummary#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatussummary#name Upgradestatussummary#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatussummary#node_type Upgradestatussummary#node_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatussummary#node_type Upgradestatussummary#node_type}
   */
   readonly nodeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatussummary#obj_cloud_ref Upgradestatussummary#obj_cloud_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatussummary#obj_cloud_ref Upgradestatussummary#obj_cloud_ref}
   */
   readonly objCloudRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatussummary#patch_image_ref Upgradestatussummary#patch_image_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatussummary#patch_image_ref Upgradestatussummary#patch_image_ref}
   */
   readonly patchImageRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatussummary#start_time Upgradestatussummary#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatussummary#start_time Upgradestatussummary#start_time}
   */
   readonly startTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatussummary#tasks_completed Upgradestatussummary#tasks_completed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatussummary#tasks_completed Upgradestatussummary#tasks_completed}
   */
   readonly tasksCompleted?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatussummary#tenant_ref Upgradestatussummary#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatussummary#tenant_ref Upgradestatussummary#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatussummary#total_tasks Upgradestatussummary#total_tasks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatussummary#total_tasks Upgradestatussummary#total_tasks}
   */
   readonly totalTasks?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatussummary#upgrade_ops Upgradestatussummary#upgrade_ops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatussummary#upgrade_ops Upgradestatussummary#upgrade_ops}
   */
   readonly upgradeOps?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatussummary#uuid Upgradestatussummary#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatussummary#uuid Upgradestatussummary#uuid}
   */
   readonly uuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatussummary#version Upgradestatussummary#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatussummary#version Upgradestatussummary#version}
   */
   readonly version?: string;
   /**
   * state block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatussummary#state Upgradestatussummary#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatussummary#state Upgradestatussummary#state}
   */
   readonly state?: UpgradestatussummaryState[] | cdktf.IResolvable;
 }
 export interface UpgradestatussummaryStateLastChangedTime {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatussummary#secs Upgradestatussummary#secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatussummary#secs Upgradestatussummary#secs}
   */
   readonly secs: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatussummary#usecs Upgradestatussummary#usecs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatussummary#usecs Upgradestatussummary#usecs}
   */
   readonly usecs: string;
 }
@@ -226,21 +226,21 @@ export class UpgradestatussummaryStateLastChangedTimeList extends cdktf.ComplexL
 }
 export interface UpgradestatussummaryState {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatussummary#reason Upgradestatussummary#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatussummary#reason Upgradestatussummary#reason}
   */
   readonly reason?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatussummary#rebooted Upgradestatussummary#rebooted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatussummary#rebooted Upgradestatussummary#rebooted}
   */
   readonly rebooted?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatussummary#state Upgradestatussummary#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatussummary#state Upgradestatussummary#state}
   */
   readonly state?: string;
   /**
   * last_changed_time block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatussummary#last_changed_time Upgradestatussummary#last_changed_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatussummary#last_changed_time Upgradestatussummary#last_changed_time}
   */
   readonly lastChangedTime?: UpgradestatussummaryStateLastChangedTime[] | cdktf.IResolvable;
 }
@@ -443,7 +443,7 @@ export class UpgradestatussummaryStateList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatussummary avi_upgradestatussummary}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatussummary avi_upgradestatussummary}
 */
 export class Upgradestatussummary extends cdktf.TerraformResource {
 
@@ -459,7 +459,7 @@ export class Upgradestatussummary extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Upgradestatussummary resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Upgradestatussummary to import
-  * @param importFromId The id of the existing Upgradestatussummary that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatussummary#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Upgradestatussummary that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatussummary#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Upgradestatussummary to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -471,7 +471,7 @@ export class Upgradestatussummary extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/upgradestatussummary avi_upgradestatussummary} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatussummary avi_upgradestatussummary} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -482,7 +482,8 @@ export class Upgradestatussummary extends cdktf.TerraformResource {
       terraformResourceType: 'avi_upgradestatussummary',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '31.1.1'
+        providerVersion: '30.2.5',
+        providerVersionConstraint: '30.2.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

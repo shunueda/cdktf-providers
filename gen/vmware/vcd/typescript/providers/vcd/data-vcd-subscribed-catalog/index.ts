@@ -550,7 +550,8 @@ export class DataVcdSubscribedCatalog extends cdktf.TerraformDataSource {
       terraformResourceType: 'vcd_subscribed_catalog',
       terraformGeneratorMetadata: {
         providerName: 'vcd',
-        providerVersion: '3.14.1'
+        providerVersion: '3.14.1',
+        providerVersionConstraint: '3.14.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

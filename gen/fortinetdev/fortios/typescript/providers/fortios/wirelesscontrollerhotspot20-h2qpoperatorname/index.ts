@@ -260,7 +260,8 @@ export class Wirelesscontrollerhotspot20H2Qpoperatorname extends cdktf.Terraform
       terraformResourceType: 'fortios_wirelesscontrollerhotspot20_h2qpoperatorname',
       terraformGeneratorMetadata: {
         providerName: 'fortios',
-        providerVersion: '1.23.0'
+        providerVersion: '1.23.0',
+        providerVersionConstraint: '1.23.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

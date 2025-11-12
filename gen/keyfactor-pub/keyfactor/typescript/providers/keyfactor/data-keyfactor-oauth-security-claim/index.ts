@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/data-sources/oauth_security_claim
+// https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/data-sources/oauth_security_claim
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataKeyfactorOauthSecurityClaimConfig extends cdktf.TerraformMe
   /**
   * A string containing the claim type of the OAuth security claim in Keyfactor. For allowed possible values, please refer to the `Claim Type String` values in ClaimType table in the [Command REST API documentation](https://software.keyfactor.com/Core-OnPrem/Current/Content/WebAPI/KeyfactorAPI/SecurityClaimsPOST.htm).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/data-sources/oauth_security_claim#claim_type DataKeyfactorOauthSecurityClaim#claim_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/data-sources/oauth_security_claim#claim_type DataKeyfactorOauthSecurityClaim#claim_type}
   */
   readonly claimType: string;
   /**
   * A string containing the claim value of the OAuth security claim in Keyfactor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/data-sources/oauth_security_claim#claim_value DataKeyfactorOauthSecurityClaim#claim_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/data-sources/oauth_security_claim#claim_value DataKeyfactorOauthSecurityClaim#claim_value}
   */
   readonly claimValue: string;
   /**
   * The identity provider associated with the OAuth security claim. Used only for resource creation. Not returned by the API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/data-sources/oauth_security_claim#provider_authentication_scheme DataKeyfactorOauthSecurityClaim#provider_authentication_scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/data-sources/oauth_security_claim#provider_authentication_scheme DataKeyfactorOauthSecurityClaim#provider_authentication_scheme}
   */
   readonly providerAuthenticationScheme: string;
 }
@@ -92,7 +92,7 @@ export class DataKeyfactorOauthSecurityClaimProviderOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/data-sources/oauth_security_claim keyfactor_oauth_security_claim}
+* Represents a {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/data-sources/oauth_security_claim keyfactor_oauth_security_claim}
 */
 export class DataKeyfactorOauthSecurityClaim extends cdktf.TerraformDataSource {
 
@@ -108,7 +108,7 @@ export class DataKeyfactorOauthSecurityClaim extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataKeyfactorOauthSecurityClaim resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataKeyfactorOauthSecurityClaim to import
-  * @param importFromId The id of the existing DataKeyfactorOauthSecurityClaim that should be imported. Refer to the {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/data-sources/oauth_security_claim#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataKeyfactorOauthSecurityClaim that should be imported. Refer to the {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/data-sources/oauth_security_claim#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataKeyfactorOauthSecurityClaim to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -120,7 +120,7 @@ export class DataKeyfactorOauthSecurityClaim extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/data-sources/oauth_security_claim keyfactor_oauth_security_claim} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/data-sources/oauth_security_claim keyfactor_oauth_security_claim} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -131,7 +131,8 @@ export class DataKeyfactorOauthSecurityClaim extends cdktf.TerraformDataSource {
       terraformResourceType: 'keyfactor_oauth_security_claim',
       terraformGeneratorMetadata: {
         providerName: 'keyfactor',
-        providerVersion: '2.6.0'
+        providerVersion: '2.7.0',
+        providerVersionConstraint: '2.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -661,7 +661,8 @@ export class Guest extends cdktf.TerraformResource {
       terraformResourceType: 'esxi_guest',
       terraformGeneratorMetadata: {
         providerName: 'esxi',
-        providerVersion: '1.10.3'
+        providerVersion: '1.10.3',
+        providerVersionConstraint: '1.10.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

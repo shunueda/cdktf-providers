@@ -68,7 +68,8 @@ export class ElasticsearchStopLogstashPipelineOperation extends cdktf.TerraformR
       terraformResourceType: 'tencentcloud_elasticsearch_stop_logstash_pipeline_operation',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

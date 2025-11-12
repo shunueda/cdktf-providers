@@ -68,7 +68,8 @@ export class DomainV1ServiceLink extends cdktf.TerraformResource {
       terraformResourceType: 'fastly_domain_v1_service_link',
       terraformGeneratorMetadata: {
         providerName: 'fastly',
-        providerVersion: '8.4.0'
+        providerVersion: '8.4.0',
+        providerVersionConstraint: '8.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

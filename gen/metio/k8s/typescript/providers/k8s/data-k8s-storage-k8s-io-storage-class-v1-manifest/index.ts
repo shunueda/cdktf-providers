@@ -525,7 +525,8 @@ export class DataK8SStorageK8SIoStorageClassV1Manifest extends cdktf.TerraformDa
       terraformResourceType: 'k8s_storage_k8s_io_storage_class_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

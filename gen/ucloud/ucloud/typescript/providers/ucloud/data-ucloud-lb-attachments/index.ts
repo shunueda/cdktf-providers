@@ -167,7 +167,8 @@ export class DataUcloudLbAttachments extends cdktf.TerraformDataSource {
       terraformResourceType: 'ucloud_lb_attachments',
       terraformGeneratorMetadata: {
         providerName: 'ucloud',
-        providerVersion: '1.39.1'
+        providerVersion: '1.39.1',
+        providerVersionConstraint: '1.39.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

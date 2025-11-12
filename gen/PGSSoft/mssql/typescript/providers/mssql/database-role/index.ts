@@ -67,7 +67,8 @@ export class DatabaseRole extends cdktf.TerraformResource {
       terraformResourceType: 'mssql_database_role',
       terraformGeneratorMetadata: {
         providerName: 'mssql',
-        providerVersion: '0.6.0'
+        providerVersion: '0.6.0',
+        providerVersionConstraint: '0.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

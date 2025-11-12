@@ -88,7 +88,8 @@ export class ObjectSwitchcontrollerQosIpdscpmapMapA extends cdktf.TerraformResou
       terraformResourceType: 'fortimanager_object_switchcontroller_qos_ipdscpmap_map',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0'
+        providerVersion: '1.14.0',
+        providerVersionConstraint: '1.14.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

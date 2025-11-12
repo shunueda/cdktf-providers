@@ -161,7 +161,8 @@ export class DataFastlyNgwafAccountLists extends cdktf.TerraformDataSource {
       terraformResourceType: 'fastly_ngwaf_account_lists',
       terraformGeneratorMetadata: {
         providerName: 'fastly',
-        providerVersion: '8.4.0'
+        providerVersion: '8.4.0',
+        providerVersionConstraint: '8.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

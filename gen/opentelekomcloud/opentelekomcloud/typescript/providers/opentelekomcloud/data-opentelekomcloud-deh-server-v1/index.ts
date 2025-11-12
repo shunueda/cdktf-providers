@@ -223,7 +223,8 @@ export class DataOpentelekomcloudDehServerV1 extends cdktf.TerraformDataSource {
       terraformResourceType: 'opentelekomcloud_deh_server_v1',
       terraformGeneratorMetadata: {
         providerName: 'opentelekomcloud',
-        providerVersion: '1.36.52'
+        providerVersion: '1.36.52',
+        providerVersionConstraint: '1.36.52'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

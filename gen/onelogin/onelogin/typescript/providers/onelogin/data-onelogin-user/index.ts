@@ -68,7 +68,8 @@ export class DataOneloginUser extends cdktf.TerraformDataSource {
       terraformResourceType: 'onelogin_user',
       terraformGeneratorMetadata: {
         providerName: 'onelogin',
-        providerVersion: '0.11.2'
+        providerVersion: '0.11.2',
+        providerVersionConstraint: '0.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -127,7 +127,8 @@ export class SysdigProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'sysdig',
       terraformGeneratorMetadata: {
         providerName: 'sysdig',
-        providerVersion: '3.1.0'
+        providerVersion: '3.1.0',
+        providerVersionConstraint: '3.1.0'
       },
       terraformProviderSource: 'sysdiglabs/sysdig'
     });

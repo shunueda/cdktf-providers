@@ -79,7 +79,8 @@ export class TenantCommonVariable extends cdktf.TerraformResource {
       terraformResourceType: 'octopusdeploy_tenant_common_variable',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.4.0'
+        providerVersion: '1.4.0',
+        providerVersionConstraint: '1.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

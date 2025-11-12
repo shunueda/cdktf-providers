@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_global_assignment
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_global_assignment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface ManagementGlobalAssignmentConfig extends cdktf.TerraformMetaArg
   /**
   * N/A
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_global_assignment#dependent_domain ManagementGlobalAssignment#dependent_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_global_assignment#dependent_domain ManagementGlobalAssignment#dependent_domain}
   */
   readonly dependentDomain?: string;
   /**
   * Global domain access policy that is assigned to a dependent domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_global_assignment#global_access_policy ManagementGlobalAssignment#global_access_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_global_assignment#global_access_policy ManagementGlobalAssignment#global_access_policy}
   */
   readonly globalAccessPolicy?: string;
   /**
   * N/A
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_global_assignment#global_domain ManagementGlobalAssignment#global_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_global_assignment#global_domain ManagementGlobalAssignment#global_domain}
   */
   readonly globalDomain?: string;
   /**
   * Global domain threat prevention policy that is assigned to a dependent domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_global_assignment#global_threat_prevention_policy ManagementGlobalAssignment#global_threat_prevention_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_global_assignment#global_threat_prevention_policy ManagementGlobalAssignment#global_threat_prevention_policy}
   */
   readonly globalThreatPreventionPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_global_assignment#id ManagementGlobalAssignment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_global_assignment#id ManagementGlobalAssignment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,25 +41,25 @@ export interface ManagementGlobalAssignmentConfig extends cdktf.TerraformMetaArg
   /**
   * Apply changes ignoring errors. You won't be able to publish such a changes. If ignore-warnings flag was omitted - warnings will also be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_global_assignment#ignore_errors ManagementGlobalAssignment#ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_global_assignment#ignore_errors ManagementGlobalAssignment#ignore_errors}
   */
   readonly ignoreErrors?: boolean | cdktf.IResolvable;
   /**
   * Apply changes ignoring warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_global_assignment#ignore_warnings ManagementGlobalAssignment#ignore_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_global_assignment#ignore_warnings ManagementGlobalAssignment#ignore_warnings}
   */
   readonly ignoreWarnings?: boolean | cdktf.IResolvable;
   /**
   * N/A
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_global_assignment#manage_protection_actions ManagementGlobalAssignment#manage_protection_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_global_assignment#manage_protection_actions ManagementGlobalAssignment#manage_protection_actions}
   */
   readonly manageProtectionActions?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_global_assignment checkpoint_management_global_assignment}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_global_assignment checkpoint_management_global_assignment}
 */
 export class ManagementGlobalAssignment extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class ManagementGlobalAssignment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementGlobalAssignment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementGlobalAssignment to import
-  * @param importFromId The id of the existing ManagementGlobalAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_global_assignment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementGlobalAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_global_assignment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementGlobalAssignment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class ManagementGlobalAssignment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_global_assignment checkpoint_management_global_assignment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_global_assignment checkpoint_management_global_assignment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,7 +98,8 @@ export class ManagementGlobalAssignment extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_global_assignment',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

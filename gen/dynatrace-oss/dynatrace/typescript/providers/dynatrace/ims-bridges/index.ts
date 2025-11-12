@@ -336,7 +336,8 @@ export class ImsBridges extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_ims_bridges',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1'
+        providerVersion: '1.87.1',
+        providerVersionConstraint: '1.87.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

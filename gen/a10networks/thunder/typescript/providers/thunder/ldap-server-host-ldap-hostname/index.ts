@@ -584,7 +584,8 @@ export class LdapServerHostLdapHostname extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_ldap_server_host_ldap_hostname',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

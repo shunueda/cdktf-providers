@@ -103,7 +103,7 @@ export interface LldHttpConfig extends cdktf.TerraformMetaArguments {
   */
   readonly proxy?: string;
   /**
-  * HTTP request method, one of: get, post, put, head
+  * HTTP request method, one of: put, head, get, post
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tpretz/zabbix/0.17.0/docs/resources/lld_http#request_method LldHttp#request_method}
   */
@@ -765,7 +765,8 @@ export class LldHttp extends cdktf.TerraformResource {
       terraformResourceType: 'zabbix_lld_http',
       terraformGeneratorMetadata: {
         providerName: 'zabbix',
-        providerVersion: '0.17.0'
+        providerVersion: '0.17.0',
+        providerVersionConstraint: '0.17.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

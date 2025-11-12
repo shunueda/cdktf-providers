@@ -212,7 +212,8 @@ export class DataOpslevelComponentType extends cdktf.TerraformDataSource {
       terraformResourceType: 'opslevel_component_type',
       terraformGeneratorMetadata: {
         providerName: 'opslevel',
-        providerVersion: '1.6.3'
+        providerVersion: '1.6.3',
+        providerVersionConstraint: '1.6.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

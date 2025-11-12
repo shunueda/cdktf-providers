@@ -2074,7 +2074,8 @@ export class DataK8SAdmissionregistrationK8SIoValidatingWebhookConfigurationV1Ma
       terraformResourceType: 'k8s_admissionregistration_k8s_io_validating_webhook_configuration_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

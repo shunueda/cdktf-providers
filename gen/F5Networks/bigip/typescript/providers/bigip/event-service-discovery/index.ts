@@ -259,7 +259,8 @@ export class EventServiceDiscovery extends cdktf.TerraformResource {
       terraformResourceType: 'bigip_event_service_discovery',
       terraformGeneratorMetadata: {
         providerName: 'bigip',
-        providerVersion: '1.24.1'
+        providerVersion: '1.24.1',
+        providerVersionConstraint: '1.24.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

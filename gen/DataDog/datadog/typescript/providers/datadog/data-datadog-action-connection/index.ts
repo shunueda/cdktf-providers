@@ -828,7 +828,8 @@ export class DataDatadogActionConnection extends cdktf.TerraformDataSource {
       terraformResourceType: 'datadog_action_connection',
       terraformGeneratorMetadata: {
         providerName: 'datadog',
-        providerVersion: '3.79.0'
+        providerVersion: '3.79.0',
+        providerVersionConstraint: '3.79.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

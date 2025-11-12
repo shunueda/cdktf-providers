@@ -417,7 +417,8 @@ export class DataSamsungcloudplatformIamMembers extends cdktf.TerraformDataSourc
       terraformResourceType: 'samsungcloudplatform_iam_members',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0'
+        providerVersion: '3.15.0',
+        providerVersionConstraint: '3.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

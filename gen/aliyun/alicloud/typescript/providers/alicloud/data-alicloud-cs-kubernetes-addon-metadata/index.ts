@@ -68,7 +68,8 @@ export class DataAlicloudCsKubernetesAddonMetadata extends cdktf.TerraformDataSo
       terraformResourceType: 'alicloud_cs_kubernetes_addon_metadata',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

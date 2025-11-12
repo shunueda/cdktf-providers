@@ -80,7 +80,8 @@ export class ProvisionRoleConfigurationOperation extends cdktf.TerraformResource
       terraformResourceType: 'tencentcloud_provision_role_configuration_operation',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

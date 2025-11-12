@@ -1603,7 +1603,8 @@ export class Cluster extends cdktf.TerraformResource {
       terraformResourceType: 'kind_cluster',
       terraformGeneratorMetadata: {
         providerName: 'kind',
-        providerVersion: '0.9.0'
+        providerVersion: '0.9.0',
+        providerVersionConstraint: '0.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

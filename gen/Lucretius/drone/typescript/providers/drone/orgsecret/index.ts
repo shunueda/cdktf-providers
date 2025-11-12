@@ -76,7 +76,8 @@ export class Orgsecret extends cdktf.TerraformResource {
       terraformResourceType: 'drone_orgsecret',
       terraformGeneratorMetadata: {
         providerName: 'drone',
-        providerVersion: '0.2.5'
+        providerVersion: '0.2.5',
+        providerVersionConstraint: '0.2.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -76,7 +76,8 @@ export class LoadBalanceProfileChildMysqlUserPassword extends cdktf.TerraformRes
       terraformResourceType: 'fortiadc_load_balance_profile_child_mysql_user_password',
       terraformGeneratorMetadata: {
         providerName: 'fortiadc',
-        providerVersion: '1.3.1'
+        providerVersion: '1.3.1',
+        providerVersionConstraint: '1.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

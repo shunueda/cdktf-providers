@@ -84,7 +84,8 @@ export class Watcher extends cdktf.TerraformResource {
       terraformResourceType: 'elasticsearch_watcher',
       terraformGeneratorMetadata: {
         providerName: 'elasticsearch',
-        providerVersion: '8.4.0'
+        providerVersion: '8.4.0',
+        providerVersionConstraint: '8.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

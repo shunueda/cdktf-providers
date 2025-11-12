@@ -76,7 +76,8 @@ export class LoadBalanceCompressionChildContentTypes extends cdktf.TerraformReso
       terraformResourceType: 'fortiadc_load_balance_compression_child_content_types',
       terraformGeneratorMetadata: {
         providerName: 'fortiadc',
-        providerVersion: '1.3.1'
+        providerVersion: '1.3.1',
+        providerVersionConstraint: '1.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -60,7 +60,8 @@ export class DataValtixAddressObject extends cdktf.TerraformDataSource {
       terraformResourceType: 'valtix_address_object',
       terraformGeneratorMetadata: {
         providerName: 'valtix',
-        providerVersion: '25.9.2'
+        providerVersion: '25.9.2',
+        providerVersionConstraint: '25.9.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

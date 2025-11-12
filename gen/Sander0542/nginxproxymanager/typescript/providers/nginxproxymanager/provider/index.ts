@@ -73,7 +73,8 @@ export class NginxproxymanagerProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'nginxproxymanager',
       terraformGeneratorMetadata: {
         providerName: 'nginxproxymanager',
-        providerVersion: '1.2.2'
+        providerVersion: '1.2.2',
+        providerVersionConstraint: '1.2.2'
       },
       terraformProviderSource: 'Sander0542/nginxproxymanager'
     });

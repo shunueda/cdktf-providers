@@ -148,7 +148,8 @@ export class ConnectorGcp extends cdktf.TerraformResource {
       terraformResourceType: 'netapp-cloudmanager_connector_gcp',
       terraformGeneratorMetadata: {
         providerName: 'netapp-cloudmanager',
-        providerVersion: '26.0.0'
+        providerVersion: '26.0.0',
+        providerVersionConstraint: '26.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -55,7 +55,8 @@ export class DataTidbcloudDedicatedCloudProviders extends cdktf.TerraformDataSou
       terraformResourceType: 'tidbcloud_dedicated_cloud_providers',
       terraformGeneratorMetadata: {
         providerName: 'tidbcloud',
-        providerVersion: '0.4.5'
+        providerVersion: '0.4.5',
+        providerVersionConstraint: '0.4.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

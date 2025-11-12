@@ -839,7 +839,8 @@ export class DataNetskopeNpaRulesList extends cdktf.TerraformDataSource {
       terraformResourceType: 'netskope_npa_rules_list',
       terraformGeneratorMetadata: {
         providerName: 'netskope',
-        providerVersion: '0.3.2'
+        providerVersion: '0.3.2',
+        providerVersionConstraint: '0.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

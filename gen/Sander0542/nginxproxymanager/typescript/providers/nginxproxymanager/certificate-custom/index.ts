@@ -67,7 +67,8 @@ export class CertificateCustom extends cdktf.TerraformResource {
       terraformResourceType: 'nginxproxymanager_certificate_custom',
       terraformGeneratorMetadata: {
         providerName: 'nginxproxymanager',
-        providerVersion: '1.2.2'
+        providerVersion: '1.2.2',
+        providerVersionConstraint: '1.2.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

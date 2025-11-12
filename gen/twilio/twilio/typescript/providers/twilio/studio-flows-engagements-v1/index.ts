@@ -72,7 +72,8 @@ export class StudioFlowsEngagementsV1 extends cdktf.TerraformResource {
       terraformResourceType: 'twilio_studio_flows_engagements_v1',
       terraformGeneratorMetadata: {
         providerName: 'twilio',
-        providerVersion: '0.18.46'
+        providerVersion: '0.18.46',
+        providerVersionConstraint: '0.18.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

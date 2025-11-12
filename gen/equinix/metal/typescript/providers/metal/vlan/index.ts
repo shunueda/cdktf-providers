@@ -84,7 +84,8 @@ export class Vlan extends cdktf.TerraformResource {
       terraformResourceType: 'metal_vlan',
       terraformGeneratorMetadata: {
         providerName: 'metal',
-        providerVersion: '3.3.0'
+        providerVersion: '3.3.0',
+        providerVersionConstraint: '3.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

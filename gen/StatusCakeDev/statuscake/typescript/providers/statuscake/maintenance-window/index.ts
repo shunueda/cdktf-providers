@@ -98,7 +98,8 @@ export class MaintenanceWindow extends cdktf.TerraformResource {
       terraformResourceType: 'statuscake_maintenance_window',
       terraformGeneratorMetadata: {
         providerName: 'statuscake',
-        providerVersion: '2.2.2'
+        providerVersion: '2.2.2',
+        providerVersionConstraint: '2.2.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

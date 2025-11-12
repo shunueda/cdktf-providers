@@ -62,7 +62,8 @@ export class Region extends cdktf.TerraformResource {
       terraformResourceType: 'materialize_region',
       terraformGeneratorMetadata: {
         providerName: 'materialize',
-        providerVersion: '0.9.2'
+        providerVersion: '0.9.2',
+        providerVersionConstraint: '0.9.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

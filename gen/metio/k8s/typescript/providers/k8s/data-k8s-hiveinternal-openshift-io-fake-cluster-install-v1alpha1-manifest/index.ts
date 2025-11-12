@@ -1475,7 +1475,8 @@ export class DataK8SHiveinternalOpenshiftIoFakeClusterInstallV1Alpha1Manifest ex
       terraformResourceType: 'k8s_hiveinternal_openshift_io_fake_cluster_install_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

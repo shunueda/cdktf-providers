@@ -462,7 +462,8 @@ export class DataThunderDdosPatternRecognitionCpuOper extends cdktf.TerraformDat
       terraformResourceType: 'thunder_ddos_pattern_recognition_cpu_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

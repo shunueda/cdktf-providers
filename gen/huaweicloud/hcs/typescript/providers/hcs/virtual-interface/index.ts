@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/virtual_interface
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/virtual_interface
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,78 +8,78 @@ import * as cdktf from 'cdktf';
 
 export interface VirtualInterfaceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/virtual_interface#description VirtualInterface#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/virtual_interface#description VirtualInterface#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/virtual_interface#direct_connect_id VirtualInterface#direct_connect_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/virtual_interface#direct_connect_id VirtualInterface#direct_connect_id}
   */
   readonly directConnectId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/virtual_interface#id VirtualInterface#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/virtual_interface#id VirtualInterface#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/virtual_interface#name VirtualInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/virtual_interface#name VirtualInterface#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/virtual_interface#region VirtualInterface#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/virtual_interface#region VirtualInterface#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/virtual_interface#remote_ep_group VirtualInterface#remote_ep_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/virtual_interface#remote_ep_group VirtualInterface#remote_ep_group}
   */
   readonly remoteEpGroup: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/virtual_interface#vgw_id VirtualInterface#vgw_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/virtual_interface#vgw_id VirtualInterface#vgw_id}
   */
   readonly vgwId: string;
   /**
   * link_infos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/virtual_interface#link_infos VirtualInterface#link_infos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/virtual_interface#link_infos VirtualInterface#link_infos}
   */
   readonly linkInfos?: VirtualInterfaceLinkInfos[] | cdktf.IResolvable;
 }
 export interface VirtualInterfaceLinkInfos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/virtual_interface#bgp_asn VirtualInterface#bgp_asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/virtual_interface#bgp_asn VirtualInterface#bgp_asn}
   */
   readonly bgpAsn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/virtual_interface#bgp_asn_dot VirtualInterface#bgp_asn_dot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/virtual_interface#bgp_asn_dot VirtualInterface#bgp_asn_dot}
   */
   readonly bgpAsnDot?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/virtual_interface#hosting_id VirtualInterface#hosting_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/virtual_interface#hosting_id VirtualInterface#hosting_id}
   */
   readonly hostingId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/virtual_interface#interface_group_id VirtualInterface#interface_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/virtual_interface#interface_group_id VirtualInterface#interface_group_id}
   */
   readonly interfaceGroupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/virtual_interface#local_gateway_v4_ip VirtualInterface#local_gateway_v4_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/virtual_interface#local_gateway_v4_ip VirtualInterface#local_gateway_v4_ip}
   */
   readonly localGatewayV4Ip: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/virtual_interface#local_gateway_v6_ip VirtualInterface#local_gateway_v6_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/virtual_interface#local_gateway_v6_ip VirtualInterface#local_gateway_v6_ip}
   */
   readonly localGatewayV6Ip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/virtual_interface#remote_gateway_v4_ip VirtualInterface#remote_gateway_v4_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/virtual_interface#remote_gateway_v4_ip VirtualInterface#remote_gateway_v4_ip}
   */
   readonly remoteGatewayV4Ip: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/virtual_interface#remote_gateway_v6_ip VirtualInterface#remote_gateway_v6_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/virtual_interface#remote_gateway_v6_ip VirtualInterface#remote_gateway_v6_ip}
   */
   readonly remoteGatewayV6Ip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/virtual_interface#vlan VirtualInterface#vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/virtual_interface#vlan VirtualInterface#vlan}
   */
   readonly vlan: number;
 }
@@ -412,7 +412,7 @@ export class VirtualInterfaceLinkInfosList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/virtual_interface hcs_virtual_interface}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/virtual_interface hcs_virtual_interface}
 */
 export class VirtualInterface extends cdktf.TerraformResource {
 
@@ -428,7 +428,7 @@ export class VirtualInterface extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VirtualInterface resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VirtualInterface to import
-  * @param importFromId The id of the existing VirtualInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/virtual_interface#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VirtualInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/virtual_interface#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VirtualInterface to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -440,7 +440,7 @@ export class VirtualInterface extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/virtual_interface hcs_virtual_interface} Resource
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/virtual_interface hcs_virtual_interface} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -451,7 +451,8 @@ export class VirtualInterface extends cdktf.TerraformResource {
       terraformResourceType: 'hcs_virtual_interface',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.19'
+        providerVersion: '2.4.20',
+        providerVersionConstraint: '2.4.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

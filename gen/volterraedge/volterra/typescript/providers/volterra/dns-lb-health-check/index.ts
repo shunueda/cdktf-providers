@@ -843,7 +843,8 @@ export class DnsLbHealthCheck extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_dns_lb_health_check',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.44'
+        providerVersion: '0.11.44',
+        providerVersionConstraint: '0.11.44'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

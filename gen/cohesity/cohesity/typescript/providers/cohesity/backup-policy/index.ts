@@ -7231,7 +7231,8 @@ export class BackupPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'cohesity_backup_policy',
       terraformGeneratorMetadata: {
         providerName: 'cohesity',
-        providerVersion: '2.1.3'
+        providerVersion: '2.1.3',
+        providerVersionConstraint: '2.1.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

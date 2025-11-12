@@ -143,7 +143,8 @@ export class S3OutpostsEndpoint extends cdktf.TerraformResource {
       terraformResourceType: 'aws_s3outposts_endpoint',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '3.29.6'
+        providerVersion: '3.29.6',
+        providerVersionConstraint: '3.29.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

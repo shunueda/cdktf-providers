@@ -210,7 +210,8 @@ export class DataCloudflareEmailRoutingCatchAll extends cdktf.TerraformDataSourc
       terraformResourceType: 'cloudflare_email_routing_catch_all',
       terraformGeneratorMetadata: {
         providerName: 'cloudflare',
-        providerVersion: '5.12.0'
+        providerVersion: '5.12.0',
+        providerVersionConstraint: '5.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

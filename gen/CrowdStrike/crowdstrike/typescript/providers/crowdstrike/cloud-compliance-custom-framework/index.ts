@@ -397,7 +397,8 @@ export class CloudComplianceCustomFramework extends cdktf.TerraformResource {
       terraformResourceType: 'crowdstrike_cloud_compliance_custom_framework',
       terraformGeneratorMetadata: {
         providerName: 'crowdstrike',
-        providerVersion: '0.0.43'
+        providerVersion: '0.0.43',
+        providerVersionConstraint: '0.0.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

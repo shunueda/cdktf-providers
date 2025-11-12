@@ -60,7 +60,8 @@ export class DataLookerUser extends cdktf.TerraformDataSource {
       terraformResourceType: 'looker_user',
       terraformGeneratorMetadata: {
         providerName: 'looker',
-        providerVersion: '0.4.0'
+        providerVersion: '0.4.0',
+        providerVersionConstraint: '0.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

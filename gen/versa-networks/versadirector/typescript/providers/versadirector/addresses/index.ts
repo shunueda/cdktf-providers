@@ -217,7 +217,8 @@ export class Addresses extends cdktf.TerraformResource {
       terraformResourceType: 'versadirector_addresses',
       terraformGeneratorMetadata: {
         providerName: 'versadirector',
-        providerVersion: '0.0.1'
+        providerVersion: '0.0.1',
+        providerVersionConstraint: '0.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

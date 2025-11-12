@@ -72,7 +72,8 @@ export class CustomEventSource extends cdktf.TerraformResource {
       terraformResourceType: 'firehydrant_custom_event_source',
       terraformGeneratorMetadata: {
         providerName: 'firehydrant',
-        providerVersion: '0.14.9'
+        providerVersion: '0.14.9',
+        providerVersionConstraint: '0.14.9'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -197,7 +197,8 @@ export class DataTencentcloudDbbrainRedisTopBigKeys extends cdktf.TerraformDataS
       terraformResourceType: 'tencentcloud_dbbrain_redis_top_big_keys',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

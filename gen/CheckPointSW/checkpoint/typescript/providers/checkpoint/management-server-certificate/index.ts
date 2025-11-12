@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_server_certificate
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_server_certificate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface ManagementServerCertificateConfig extends cdktf.TerraformMetaAr
   /**
   * Certificate file encoded in base64.<br/>Valid file formats: p12.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_server_certificate#base64_certificate ManagementServerCertificate#base64_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_server_certificate#base64_certificate ManagementServerCertificate#base64_certificate}
   */
   readonly base64Certificate?: string;
   /**
   * Base64 encoded password of the certificate file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_server_certificate#base64_password ManagementServerCertificate#base64_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_server_certificate#base64_password ManagementServerCertificate#base64_password}
   */
   readonly base64Password?: string;
   /**
   * Server certificate comments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_server_certificate#comments ManagementServerCertificate#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_server_certificate#comments ManagementServerCertificate#comments}
   */
   readonly comments?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_server_certificate#id ManagementServerCertificate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_server_certificate#id ManagementServerCertificate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,13 +35,13 @@ export interface ManagementServerCertificateConfig extends cdktf.TerraformMetaAr
   /**
   * Object name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_server_certificate#name ManagementServerCertificate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_server_certificate#name ManagementServerCertificate#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_server_certificate checkpoint_management_server_certificate}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_server_certificate checkpoint_management_server_certificate}
 */
 export class ManagementServerCertificate extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class ManagementServerCertificate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementServerCertificate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementServerCertificate to import
-  * @param importFromId The id of the existing ManagementServerCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_server_certificate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementServerCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_server_certificate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementServerCertificate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class ManagementServerCertificate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_server_certificate checkpoint_management_server_certificate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_server_certificate checkpoint_management_server_certificate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,7 +80,8 @@ export class ManagementServerCertificate extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_server_certificate',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

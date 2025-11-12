@@ -92,7 +92,8 @@ export class FqdnList extends cdktf.TerraformResource {
       terraformResourceType: 'cloudngfwaws_fqdn_list',
       terraformGeneratorMetadata: {
         providerName: 'cloudngfwaws',
-        providerVersion: '3.0.4'
+        providerVersion: '3.0.4',
+        providerVersionConstraint: '3.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

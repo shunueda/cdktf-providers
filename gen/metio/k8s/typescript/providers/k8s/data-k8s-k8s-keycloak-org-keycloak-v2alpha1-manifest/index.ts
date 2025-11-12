@@ -64,7 +64,8 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest extends cdktf.Terrafo
       terraformResourceType: 'k8s_k8s_keycloak_org_keycloak_v2alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

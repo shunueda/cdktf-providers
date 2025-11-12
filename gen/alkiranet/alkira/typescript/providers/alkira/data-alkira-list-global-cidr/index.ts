@@ -68,7 +68,8 @@ export class DataAlkiraListGlobalCidr extends cdktf.TerraformDataSource {
       terraformResourceType: 'alkira_list_global_cidr',
       terraformGeneratorMetadata: {
         providerName: 'alkira',
-        providerVersion: '1.3.2'
+        providerVersion: '1.3.2',
+        providerVersionConstraint: '1.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

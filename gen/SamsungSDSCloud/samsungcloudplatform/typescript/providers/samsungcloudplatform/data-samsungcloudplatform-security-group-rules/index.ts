@@ -427,7 +427,8 @@ export class DataSamsungcloudplatformSecurityGroupRules extends cdktf.TerraformD
       terraformResourceType: 'samsungcloudplatform_security_group_rules',
       terraformGeneratorMetadata: {
         providerName: 'samsungcloudplatform',
-        providerVersion: '3.15.0'
+        providerVersion: '3.15.0',
+        providerVersionConstraint: '3.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

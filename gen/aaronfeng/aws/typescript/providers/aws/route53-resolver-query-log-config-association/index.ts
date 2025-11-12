@@ -64,7 +64,8 @@ export class Route53ResolverQueryLogConfigAssociation extends cdktf.TerraformRes
       terraformResourceType: 'aws_route53_resolver_query_log_config_association',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '3.29.6'
+        providerVersion: '3.29.6',
+        providerVersionConstraint: '3.29.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

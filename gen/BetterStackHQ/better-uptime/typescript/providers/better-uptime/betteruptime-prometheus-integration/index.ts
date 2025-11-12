@@ -115,7 +115,8 @@ export class BetteruptimePrometheusIntegration extends cdktf.TerraformResource {
       terraformResourceType: 'betteruptime_prometheus_integration',
       terraformGeneratorMetadata: {
         providerName: 'better-uptime',
-        providerVersion: '0.20.4'
+        providerVersion: '0.20.4',
+        providerVersionConstraint: '0.20.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

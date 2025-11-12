@@ -80,7 +80,8 @@ export class MpsSslCertkey extends cdktf.TerraformResource {
       terraformResourceType: 'netscalersdx_mps_ssl_certkey',
       terraformGeneratorMetadata: {
         providerName: 'netscalersdx',
-        providerVersion: '0.7.2'
+        providerVersion: '0.7.2',
+        providerVersionConstraint: '0.7.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

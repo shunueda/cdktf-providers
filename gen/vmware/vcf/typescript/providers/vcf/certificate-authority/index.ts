@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/certificate_authority
+// https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/certificate_authority
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface CertificateAuthorityConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/certificate_authority#id CertificateAuthority#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/certificate_authority#id CertificateAuthority#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface CertificateAuthorityConfig extends cdktf.TerraformMetaArguments
   /**
   * microsoft block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/certificate_authority#microsoft CertificateAuthority#microsoft}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/certificate_authority#microsoft CertificateAuthority#microsoft}
   */
   readonly microsoft?: CertificateAuthorityMicrosoft;
   /**
   * open_ssl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/certificate_authority#open_ssl CertificateAuthority#open_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/certificate_authority#open_ssl CertificateAuthority#open_ssl}
   */
   readonly openSsl?: CertificateAuthorityOpenSsl;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/certificate_authority#timeouts CertificateAuthority#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/certificate_authority#timeouts CertificateAuthority#timeouts}
   */
   readonly timeouts?: CertificateAuthorityTimeouts;
 }
@@ -37,25 +37,25 @@ export interface CertificateAuthorityMicrosoft {
   /**
   * Microsoft CA server password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/certificate_authority#secret CertificateAuthority#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/certificate_authority#secret CertificateAuthority#secret}
   */
   readonly secret: string;
   /**
   * Microsoft CA server URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/certificate_authority#server_url CertificateAuthority#server_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/certificate_authority#server_url CertificateAuthority#server_url}
   */
   readonly serverUrl: string;
   /**
   * Microsoft CA server template name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/certificate_authority#template_name CertificateAuthority#template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/certificate_authority#template_name CertificateAuthority#template_name}
   */
   readonly templateName: string;
   /**
   * Microsoft CA server username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/certificate_authority#username CertificateAuthority#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/certificate_authority#username CertificateAuthority#username}
   */
   readonly username: string;
 }
@@ -216,37 +216,37 @@ export interface CertificateAuthorityOpenSsl {
   /**
   * OpenSSL CA domain name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/certificate_authority#common_name CertificateAuthority#common_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/certificate_authority#common_name CertificateAuthority#common_name}
   */
   readonly commonName: string;
   /**
   * ISO 3166 country code where company is legally registered
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/certificate_authority#country CertificateAuthority#country}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/certificate_authority#country CertificateAuthority#country}
   */
   readonly country: string;
   /**
   * The city or locality where company is legally registered
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/certificate_authority#locality CertificateAuthority#locality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/certificate_authority#locality CertificateAuthority#locality}
   */
   readonly locality: string;
   /**
   * The name under which your company is known. The listed organization must be the legal registrant of the domain name in the certificate request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/certificate_authority#organization CertificateAuthority#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/certificate_authority#organization CertificateAuthority#organization}
   */
   readonly organization: string;
   /**
   * Organization with which the certificate is associated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/certificate_authority#organization_unit CertificateAuthority#organization_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/certificate_authority#organization_unit CertificateAuthority#organization_unit}
   */
   readonly organizationUnit: string;
   /**
   * Full name (do not abbreviate) of the state, province, region, or territory where your company is legally registered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/certificate_authority#state CertificateAuthority#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/certificate_authority#state CertificateAuthority#state}
   */
   readonly state: string;
 }
@@ -457,19 +457,19 @@ export class CertificateAuthorityOpenSslOutputReference extends cdktf.ComplexObj
 }
 export interface CertificateAuthorityTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/certificate_authority#create CertificateAuthority#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/certificate_authority#create CertificateAuthority#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/certificate_authority#delete CertificateAuthority#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/certificate_authority#delete CertificateAuthority#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/certificate_authority#read CertificateAuthority#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/certificate_authority#read CertificateAuthority#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/certificate_authority#update CertificateAuthority#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/certificate_authority#update CertificateAuthority#update}
   */
   readonly update?: string;
 }
@@ -650,7 +650,7 @@ export class CertificateAuthorityTimeoutsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/certificate_authority vcf_certificate_authority}
+* Represents a {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/certificate_authority vcf_certificate_authority}
 */
 export class CertificateAuthority extends cdktf.TerraformResource {
 
@@ -666,7 +666,7 @@ export class CertificateAuthority extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CertificateAuthority resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CertificateAuthority to import
-  * @param importFromId The id of the existing CertificateAuthority that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/certificate_authority#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CertificateAuthority that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/certificate_authority#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CertificateAuthority to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -678,7 +678,7 @@ export class CertificateAuthority extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/vcf/0.17.1/docs/resources/certificate_authority vcf_certificate_authority} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/vcf/0.16.2/docs/resources/certificate_authority vcf_certificate_authority} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -689,7 +689,8 @@ export class CertificateAuthority extends cdktf.TerraformResource {
       terraformResourceType: 'vcf_certificate_authority',
       terraformGeneratorMetadata: {
         providerName: 'vcf',
-        providerVersion: '0.17.1'
+        providerVersion: '0.16.2',
+        providerVersionConstraint: '0.16.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

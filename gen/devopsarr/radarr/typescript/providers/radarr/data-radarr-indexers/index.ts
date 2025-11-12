@@ -284,7 +284,8 @@ export class DataRadarrIndexers extends cdktf.TerraformDataSource {
       terraformResourceType: 'radarr_indexers',
       terraformGeneratorMetadata: {
         providerName: 'radarr',
-        providerVersion: '2.3.3'
+        providerVersion: '2.3.3',
+        providerVersionConstraint: '2.3.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -49,7 +49,8 @@ export class DataRadarrImportListConfigA extends cdktf.TerraformDataSource {
       terraformResourceType: 'radarr_import_list_config',
       terraformGeneratorMetadata: {
         providerName: 'radarr',
-        providerVersion: '2.3.3'
+        providerVersion: '2.3.3',
+        providerVersionConstraint: '2.3.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

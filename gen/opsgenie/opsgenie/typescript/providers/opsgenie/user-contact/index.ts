@@ -72,7 +72,8 @@ export class UserContact extends cdktf.TerraformResource {
       terraformResourceType: 'opsgenie_user_contact',
       terraformGeneratorMetadata: {
         providerName: 'opsgenie',
-        providerVersion: '0.6.40'
+        providerVersion: '0.6.40',
+        providerVersionConstraint: '0.6.40'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

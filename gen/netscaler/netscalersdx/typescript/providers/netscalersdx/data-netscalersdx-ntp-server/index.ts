@@ -64,7 +64,8 @@ export class DataNetscalersdxNtpServer extends cdktf.TerraformDataSource {
       terraformResourceType: 'netscalersdx_ntp_server',
       terraformGeneratorMetadata: {
         providerName: 'netscalersdx',
-        providerVersion: '0.7.2'
+        providerVersion: '0.7.2',
+        providerVersionConstraint: '0.7.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

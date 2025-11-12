@@ -147,7 +147,8 @@ export class DataLumenBareMetalOsImages extends cdktf.TerraformDataSource {
       terraformResourceType: 'lumen_bare_metal_os_images',
       terraformGeneratorMetadata: {
         providerName: 'lumen',
-        providerVersion: '3.0.0'
+        providerVersion: '3.0.0',
+        providerVersionConstraint: '3.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

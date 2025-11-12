@@ -95,7 +95,8 @@ export class ClumioProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'clumio',
       terraformGeneratorMetadata: {
         providerName: 'clumio',
-        providerVersion: '0.16.1'
+        providerVersion: '0.16.1',
+        providerVersionConstraint: '0.16.1'
       },
       terraformProviderSource: 'clumio-code/clumio'
     });

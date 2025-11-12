@@ -1308,7 +1308,8 @@ export class SlbTemplateDnsLogging extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_slb_template_dns_logging',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

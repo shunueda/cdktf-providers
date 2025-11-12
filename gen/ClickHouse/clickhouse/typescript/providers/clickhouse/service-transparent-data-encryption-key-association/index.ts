@@ -61,7 +61,8 @@ export class ServiceTransparentDataEncryptionKeyAssociation extends cdktf.Terraf
       terraformResourceType: 'clickhouse_service_transparent_data_encryption_key_association',
       terraformGeneratorMetadata: {
         providerName: 'clickhouse',
-        providerVersion: '3.5.4'
+        providerVersion: '3.5.4',
+        providerVersionConstraint: '3.5.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

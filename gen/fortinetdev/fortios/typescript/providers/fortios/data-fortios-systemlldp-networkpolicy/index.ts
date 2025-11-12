@@ -824,7 +824,8 @@ export class DataFortiosSystemlldpNetworkpolicy extends cdktf.TerraformDataSourc
       terraformResourceType: 'fortios_systemlldp_networkpolicy',
       terraformGeneratorMetadata: {
         providerName: 'fortios',
-        providerVersion: '1.23.0'
+        providerVersion: '1.23.0',
+        providerVersionConstraint: '1.23.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

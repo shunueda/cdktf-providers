@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.1/docs/resources/settings_profile_association
+// https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.2/docs/resources/settings_profile_association
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,31 +13,31 @@ export interface SettingsProfileAssociationConfig extends cdktf.TerraformMetaArg
   * When using a self hosted ClickHouse instance, this field should only be set when there is more than one replica and you are not using 'replicated' storage for user_directory.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.1/docs/resources/settings_profile_association#cluster_name SettingsProfileAssociation#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.2/docs/resources/settings_profile_association#cluster_name SettingsProfileAssociation#cluster_name}
   */
   readonly clusterName?: string;
   /**
   * ID of the SettingsProfileAssociation to associate the Settings profile to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.1/docs/resources/settings_profile_association#role_id SettingsProfileAssociation#role_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.2/docs/resources/settings_profile_association#role_id SettingsProfileAssociation#role_id}
   */
   readonly roleId?: string;
   /**
   * ID of the settings profile to associate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.1/docs/resources/settings_profile_association#settings_profile_id SettingsProfileAssociation#settings_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.2/docs/resources/settings_profile_association#settings_profile_id SettingsProfileAssociation#settings_profile_id}
   */
   readonly settingsProfileId: string;
   /**
   * ID of the User to associate the Settings profile to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.1/docs/resources/settings_profile_association#user_id SettingsProfileAssociation#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.2/docs/resources/settings_profile_association#user_id SettingsProfileAssociation#user_id}
   */
   readonly userId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.1/docs/resources/settings_profile_association clickhousedbops_settings_profile_association}
+* Represents a {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.2/docs/resources/settings_profile_association clickhousedbops_settings_profile_association}
 */
 export class SettingsProfileAssociation extends cdktf.TerraformResource {
 
@@ -53,7 +53,7 @@ export class SettingsProfileAssociation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SettingsProfileAssociation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SettingsProfileAssociation to import
-  * @param importFromId The id of the existing SettingsProfileAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.1/docs/resources/settings_profile_association#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SettingsProfileAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.2/docs/resources/settings_profile_association#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SettingsProfileAssociation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -65,7 +65,7 @@ export class SettingsProfileAssociation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.1/docs/resources/settings_profile_association clickhousedbops_settings_profile_association} Resource
+  * Create a new {@link https://registry.terraform.io/providers/clickhouse/clickhousedbops/1.3.2/docs/resources/settings_profile_association clickhousedbops_settings_profile_association} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -76,7 +76,8 @@ export class SettingsProfileAssociation extends cdktf.TerraformResource {
       terraformResourceType: 'clickhousedbops_settings_profile_association',
       terraformGeneratorMetadata: {
         providerName: 'clickhousedbops',
-        providerVersion: '1.3.1'
+        providerVersion: '1.3.2',
+        providerVersionConstraint: '1.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

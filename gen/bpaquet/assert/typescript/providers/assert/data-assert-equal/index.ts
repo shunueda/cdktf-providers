@@ -74,7 +74,8 @@ export class DataAssertEqual extends cdktf.TerraformDataSource {
       terraformResourceType: 'assert_equal',
       terraformGeneratorMetadata: {
         providerName: 'assert',
-        providerVersion: '0.9.2'
+        providerVersion: '0.9.2',
+        providerVersionConstraint: '0.9.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_set_global_properties
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_set_global_properties
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,59 +10,59 @@ export interface ManagementCommandSetGlobalPropertiesConfig extends cdktf.Terraf
   /**
   * Configure advanced global attributes. It's highly recommended to consult with Check Point's Technical Support before modifying these values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_set_global_properties#advanced_conf ManagementCommandSetGlobalProperties#advanced_conf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_set_global_properties#advanced_conf ManagementCommandSetGlobalProperties#advanced_conf}
   */
   readonly advancedConf?: { [key: string]: string };
   /**
   * After installing an OPSEC application, the remote administration (RA) utility enables an OPSEC product to finish registering itself without having to access the SmartConsole. If set to true, any host including the application host can run the utility. Otherwise,  the RA utility can only be run from the Security Management host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_set_global_properties#allow_remote_registration_of_opsec_products ManagementCommandSetGlobalProperties#allow_remote_registration_of_opsec_products}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_set_global_properties#allow_remote_registration_of_opsec_products ManagementCommandSetGlobalProperties#allow_remote_registration_of_opsec_products}
   */
   readonly allowRemoteRegistrationOfOpsecProducts?: boolean | cdktf.IResolvable;
   /**
   * Define Authentication properties that are common to all users and to the various ways that the Check Point Security Gateway asks for passwords (User, Client and Session Authentication).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_set_global_properties#authentication ManagementCommandSetGlobalProperties#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_set_global_properties#authentication ManagementCommandSetGlobalProperties#authentication}
   */
   readonly authentication?: { [key: string]: string };
   /**
   * Specify system-wide properties. Select GTP intra tunnel inspection options, including anti-spoofing; tracking and logging options, and integrity tests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_set_global_properties#carrier_security ManagementCommandSetGlobalProperties#carrier_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_set_global_properties#carrier_security ManagementCommandSetGlobalProperties#carrier_security}
   */
   readonly carrierSecurity?: { [key: string]: string };
   /**
   * Configure settings that relate to ConnectControl server load balancing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_set_global_properties#connect_control ManagementCommandSetGlobalProperties#connect_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_set_global_properties#connect_control ManagementCommandSetGlobalProperties#connect_control}
   */
   readonly connectControl?: { [key: string]: string };
   /**
   * Configure automatic downloads from Check Point and anonymously share product data. Options selected here apply to all Security Gateways, Clusters and VSX devices managed by this management server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_set_global_properties#data_access_control ManagementCommandSetGlobalProperties#data_access_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_set_global_properties#data_access_control ManagementCommandSetGlobalProperties#data_access_control}
   */
   readonly dataAccessControl?: { [key: string]: string };
   /**
   * Indicates which domains to process the commands on. It cannot be used with the details-level full, must be run from the System Domain only and with ignore-warnings true. Valid values are: CURRENT_DOMAIN, ALL_DOMAINS_ON_THIS_SERVER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_set_global_properties#domains_to_process ManagementCommandSetGlobalProperties#domains_to_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_set_global_properties#domains_to_process ManagementCommandSetGlobalProperties#domains_to_process}
   */
   readonly domainsToProcess?: string[];
   /**
   * Add implied rules to or remove them from the Firewall Rule Base. Determine the position of the implied rules in the Rule Base, and whether or not to log them.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_set_global_properties#firewall ManagementCommandSetGlobalProperties#firewall}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_set_global_properties#firewall ManagementCommandSetGlobalProperties#firewall}
   */
   readonly firewall?: { [key: string]: string };
   /**
   * Enable the Hit Count feature that tracks the number of connections that each rule matches.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_set_global_properties#hit_count ManagementCommandSetGlobalProperties#hit_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_set_global_properties#hit_count ManagementCommandSetGlobalProperties#hit_count}
   */
   readonly hitCount?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_set_global_properties#id ManagementCommandSetGlobalProperties#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_set_global_properties#id ManagementCommandSetGlobalProperties#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,91 +71,91 @@ export interface ManagementCommandSetGlobalPropertiesConfig extends cdktf.Terraf
   /**
   * Apply changes ignoring errors. You won't be able to publish such a changes. If ignore-warnings flag was omitted - warnings will also be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_set_global_properties#ignore_errors ManagementCommandSetGlobalProperties#ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_set_global_properties#ignore_errors ManagementCommandSetGlobalProperties#ignore_errors}
   */
   readonly ignoreErrors?: boolean | cdktf.IResolvable;
   /**
   * Apply changes ignoring warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_set_global_properties#ignore_warnings ManagementCommandSetGlobalProperties#ignore_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_set_global_properties#ignore_warnings ManagementCommandSetGlobalProperties#ignore_warnings}
   */
   readonly ignoreWarnings?: boolean | cdktf.IResolvable;
   /**
   * Define system-wide logging and alerting parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_set_global_properties#log_and_alert ManagementCommandSetGlobalProperties#log_and_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_set_global_properties#log_and_alert ManagementCommandSetGlobalProperties#log_and_alert}
   */
   readonly logAndAlert?: { [key: string]: string };
   /**
   * Configure settings that apply to all NAT connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_set_global_properties#nat ManagementCommandSetGlobalProperties#nat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_set_global_properties#nat ManagementCommandSetGlobalProperties#nat}
   */
   readonly nat?: { [key: string]: string };
   /**
   * Indicates how many incorrectly signed packets will be tolerated before assuming that there is an attack on the packet tagging and revoking the client's key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_set_global_properties#num_spoofing_errs_that_trigger_brute_force ManagementCommandSetGlobalProperties#num_spoofing_errs_that_trigger_brute_force}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_set_global_properties#num_spoofing_errs_that_trigger_brute_force ManagementCommandSetGlobalProperties#num_spoofing_errs_that_trigger_brute_force}
   */
   readonly numSpoofingErrsThatTriggerBruteForce?: number;
   /**
   * Select whether a proxy server is used when servers, gateways, or clients need to access the internet for certain Check Point features and set the default proxy server that will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_set_global_properties#proxy ManagementCommandSetGlobalProperties#proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_set_global_properties#proxy ManagementCommandSetGlobalProperties#proxy}
   */
   readonly proxy?: { [key: string]: string };
   /**
   * Define the general parameters of Quality of Service (QoS) and apply them to QoS rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_set_global_properties#qos ManagementCommandSetGlobalProperties#qos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_set_global_properties#qos ManagementCommandSetGlobalProperties#qos}
   */
   readonly qos?: { [key: string]: string };
   /**
   * Configure Remote Access properties.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_set_global_properties#remote_access ManagementCommandSetGlobalProperties#remote_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_set_global_properties#remote_access ManagementCommandSetGlobalProperties#remote_access}
   */
   readonly remoteAccess?: { [key: string]: string };
   /**
   * Adjust Stateful Inspection parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_set_global_properties#stateful_inspection ManagementCommandSetGlobalProperties#stateful_inspection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_set_global_properties#stateful_inspection ManagementCommandSetGlobalProperties#stateful_inspection}
   */
   readonly statefulInspection?: { [key: string]: string };
   /**
   * Set the expiration for a user account and configure "about to expire" warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_set_global_properties#user_accounts ManagementCommandSetGlobalProperties#user_accounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_set_global_properties#user_accounts ManagementCommandSetGlobalProperties#user_accounts}
   */
   readonly userAccounts?: { [key: string]: string };
   /**
   * Decide whether to display and access the WebAccess rule base. This policy defines which users (that is, which Windows Domains) have access to the internal sites of the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_set_global_properties#user_authority ManagementCommandSetGlobalProperties#user_authority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_set_global_properties#user_authority ManagementCommandSetGlobalProperties#user_authority}
   */
   readonly userAuthority?: { [key: string]: string };
   /**
   * Set a language for the UserCheck message if the language setting in the user's browser cannot be determined.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_set_global_properties#user_check ManagementCommandSetGlobalProperties#user_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_set_global_properties#user_check ManagementCommandSetGlobalProperties#user_check}
   */
   readonly userCheck?: { [key: string]: string };
   /**
   * User can enable LDAP User Directory as well as specify global parameters for LDAP. If LDAP User Directory is enabled, this means that users are managed on an external LDAP server and not on the internal Check Point Security Gateway users databases.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_set_global_properties#user_directory ManagementCommandSetGlobalProperties#user_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_set_global_properties#user_directory ManagementCommandSetGlobalProperties#user_directory}
   */
   readonly userDirectory?: { [key: string]: string };
   /**
   * Configure settings relevant to VPN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_set_global_properties#vpn ManagementCommandSetGlobalProperties#vpn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_set_global_properties#vpn ManagementCommandSetGlobalProperties#vpn}
   */
   readonly vpn?: { [key: string]: string };
   /**
   * non_unique_ip_address_ranges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_set_global_properties#non_unique_ip_address_ranges ManagementCommandSetGlobalProperties#non_unique_ip_address_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_set_global_properties#non_unique_ip_address_ranges ManagementCommandSetGlobalProperties#non_unique_ip_address_ranges}
   */
   readonly nonUniqueIpAddressRanges?: ManagementCommandSetGlobalPropertiesNonUniqueIpAddressRanges[] | cdktf.IResolvable;
 }
@@ -163,31 +163,31 @@ export interface ManagementCommandSetGlobalPropertiesNonUniqueIpAddressRanges {
   /**
   * The type of the IP Address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_set_global_properties#address_type ManagementCommandSetGlobalProperties#address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_set_global_properties#address_type ManagementCommandSetGlobalProperties#address_type}
   */
   readonly addressType?: string;
   /**
   * The first IPV4 Address in the range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_set_global_properties#first_ipv4_address ManagementCommandSetGlobalProperties#first_ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_set_global_properties#first_ipv4_address ManagementCommandSetGlobalProperties#first_ipv4_address}
   */
   readonly firstIpv4Address?: string;
   /**
   * The first IPV6 Address in the range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_set_global_properties#first_ipv6_address ManagementCommandSetGlobalProperties#first_ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_set_global_properties#first_ipv6_address ManagementCommandSetGlobalProperties#first_ipv6_address}
   */
   readonly firstIpv6Address?: string;
   /**
   * The last IPV4 Address in the range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_set_global_properties#last_ipv4_address ManagementCommandSetGlobalProperties#last_ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_set_global_properties#last_ipv4_address ManagementCommandSetGlobalProperties#last_ipv4_address}
   */
   readonly lastIpv4Address?: string;
   /**
   * The last IPV6 Address in the range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_set_global_properties#last_ipv6_address ManagementCommandSetGlobalProperties#last_ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_set_global_properties#last_ipv6_address ManagementCommandSetGlobalProperties#last_ipv6_address}
   */
   readonly lastIpv6Address?: string;
 }
@@ -419,7 +419,7 @@ export class ManagementCommandSetGlobalPropertiesNonUniqueIpAddressRangesList ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_set_global_properties checkpoint_management_command_set_global_properties}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_set_global_properties checkpoint_management_command_set_global_properties}
 */
 export class ManagementCommandSetGlobalProperties extends cdktf.TerraformResource {
 
@@ -435,7 +435,7 @@ export class ManagementCommandSetGlobalProperties extends cdktf.TerraformResourc
   * Generates CDKTF code for importing a ManagementCommandSetGlobalProperties resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementCommandSetGlobalProperties to import
-  * @param importFromId The id of the existing ManagementCommandSetGlobalProperties that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_set_global_properties#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementCommandSetGlobalProperties that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_set_global_properties#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementCommandSetGlobalProperties to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -447,7 +447,7 @@ export class ManagementCommandSetGlobalProperties extends cdktf.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_command_set_global_properties checkpoint_management_command_set_global_properties} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_command_set_global_properties checkpoint_management_command_set_global_properties} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -458,7 +458,8 @@ export class ManagementCommandSetGlobalProperties extends cdktf.TerraformResourc
       terraformResourceType: 'checkpoint_management_command_set_global_properties',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

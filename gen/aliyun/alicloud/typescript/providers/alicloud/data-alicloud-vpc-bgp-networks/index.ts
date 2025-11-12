@@ -162,7 +162,8 @@ export class DataAlicloudVpcBgpNetworks extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_vpc_bgp_networks',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

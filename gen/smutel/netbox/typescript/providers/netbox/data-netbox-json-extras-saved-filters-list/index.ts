@@ -215,7 +215,8 @@ export class DataNetboxJsonExtrasSavedFiltersList extends cdktf.TerraformDataSou
       terraformResourceType: 'netbox_json_extras_saved_filters_list',
       terraformGeneratorMetadata: {
         providerName: 'netbox',
-        providerVersion: '8.0.2'
+        providerVersion: '8.0.2',
+        providerVersionConstraint: '8.0.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

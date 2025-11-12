@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs/resources/s3_bucket_server_side_encryption
+// https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/s3_bucket_server_side_encryption
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface S3BucketServerSideEncryptionConfig extends cdktf.TerraformMetaA
   /**
   * Name of the bucket on which to setup server side encryption
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs/resources/s3_bucket_server_side_encryption#bucket S3BucketServerSideEncryption#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/s3_bucket_server_side_encryption#bucket S3BucketServerSideEncryption#bucket}
   */
   readonly bucket: string;
   /**
   * Server side encryption type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs/resources/s3_bucket_server_side_encryption#encryption_type S3BucketServerSideEncryption#encryption_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/s3_bucket_server_side_encryption#encryption_type S3BucketServerSideEncryption#encryption_type}
   */
   readonly encryptionType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs/resources/s3_bucket_server_side_encryption#id S3BucketServerSideEncryption#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/s3_bucket_server_side_encryption#id S3BucketServerSideEncryption#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,13 +29,13 @@ export interface S3BucketServerSideEncryptionConfig extends cdktf.TerraformMetaA
   /**
   * KMS key id to use for server side encryption
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs/resources/s3_bucket_server_side_encryption#kms_key_id S3BucketServerSideEncryption#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/s3_bucket_server_side_encryption#kms_key_id S3BucketServerSideEncryption#kms_key_id}
   */
   readonly kmsKeyId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs/resources/s3_bucket_server_side_encryption minio_s3_bucket_server_side_encryption}
+* Represents a {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/s3_bucket_server_side_encryption minio_s3_bucket_server_side_encryption}
 */
 export class S3BucketServerSideEncryption extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class S3BucketServerSideEncryption extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a S3BucketServerSideEncryption resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the S3BucketServerSideEncryption to import
-  * @param importFromId The id of the existing S3BucketServerSideEncryption that should be imported. Refer to the {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs/resources/s3_bucket_server_side_encryption#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing S3BucketServerSideEncryption that should be imported. Refer to the {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/s3_bucket_server_side_encryption#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the S3BucketServerSideEncryption to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class S3BucketServerSideEncryption extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs/resources/s3_bucket_server_side_encryption minio_s3_bucket_server_side_encryption} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/s3_bucket_server_side_encryption minio_s3_bucket_server_side_encryption} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,7 +74,8 @@ export class S3BucketServerSideEncryption extends cdktf.TerraformResource {
       terraformResourceType: 'minio_s3_bucket_server_side_encryption',
       terraformGeneratorMetadata: {
         providerName: 'minio',
-        providerVersion: '3.11.3'
+        providerVersion: '3.11.4',
+        providerVersionConstraint: '3.11.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

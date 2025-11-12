@@ -208,7 +208,8 @@ export class ApplianceVpnSiteToSiteIpsecPeersSlas extends cdktf.TerraformResourc
       terraformResourceType: 'meraki_appliance_vpn_site_to_site_ipsec_peers_slas',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1'
+        providerVersion: '1.7.1',
+        providerVersionConstraint: '1.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

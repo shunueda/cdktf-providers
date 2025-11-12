@@ -62,7 +62,8 @@ export class DataOvhMeIdentityUser extends cdktf.TerraformDataSource {
       terraformResourceType: 'ovh_me_identity_user',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0'
+        providerVersion: '2.9.0',
+        providerVersionConstraint: '2.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

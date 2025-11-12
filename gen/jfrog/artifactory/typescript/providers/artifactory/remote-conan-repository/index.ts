@@ -541,7 +541,8 @@ export class RemoteConanRepository extends cdktf.TerraformResource {
       terraformResourceType: 'artifactory_remote_conan_repository',
       terraformGeneratorMetadata: {
         providerName: 'artifactory',
-        providerVersion: '12.10.1'
+        providerVersion: '12.10.1',
+        providerVersionConstraint: '12.10.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/keymanager_order_v1
+// https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/keymanager_order_v1
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,56 +8,56 @@ import * as cdktf from 'cdktf';
 
 export interface KeymanagerOrderV1Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/keymanager_order_v1#id KeymanagerOrderV1#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/keymanager_order_v1#id KeymanagerOrderV1#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/keymanager_order_v1#region KeymanagerOrderV1#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/keymanager_order_v1#region KeymanagerOrderV1#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/keymanager_order_v1#type KeymanagerOrderV1#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/keymanager_order_v1#type KeymanagerOrderV1#type}
   */
   readonly type: string;
   /**
   * meta block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/keymanager_order_v1#meta KeymanagerOrderV1#meta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/keymanager_order_v1#meta KeymanagerOrderV1#meta}
   */
   readonly meta: KeymanagerOrderV1Meta;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/keymanager_order_v1#timeouts KeymanagerOrderV1#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/keymanager_order_v1#timeouts KeymanagerOrderV1#timeouts}
   */
   readonly timeouts?: KeymanagerOrderV1Timeouts;
 }
 export interface KeymanagerOrderV1Meta {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/keymanager_order_v1#algorithm KeymanagerOrderV1#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/keymanager_order_v1#algorithm KeymanagerOrderV1#algorithm}
   */
   readonly algorithm: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/keymanager_order_v1#bit_length KeymanagerOrderV1#bit_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/keymanager_order_v1#bit_length KeymanagerOrderV1#bit_length}
   */
   readonly bitLength: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/keymanager_order_v1#expiration KeymanagerOrderV1#expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/keymanager_order_v1#expiration KeymanagerOrderV1#expiration}
   */
   readonly expiration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/keymanager_order_v1#mode KeymanagerOrderV1#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/keymanager_order_v1#mode KeymanagerOrderV1#mode}
   */
   readonly mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/keymanager_order_v1#name KeymanagerOrderV1#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/keymanager_order_v1#name KeymanagerOrderV1#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/keymanager_order_v1#payload_content_type KeymanagerOrderV1#payload_content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/keymanager_order_v1#payload_content_type KeymanagerOrderV1#payload_content_type}
   */
   readonly payloadContentType?: string;
 }
@@ -280,11 +280,11 @@ export class KeymanagerOrderV1MetaOutputReference extends cdktf.ComplexObject {
 }
 export interface KeymanagerOrderV1Timeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/keymanager_order_v1#create KeymanagerOrderV1#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/keymanager_order_v1#create KeymanagerOrderV1#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/keymanager_order_v1#delete KeymanagerOrderV1#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/keymanager_order_v1#delete KeymanagerOrderV1#delete}
   */
   readonly delete?: string;
 }
@@ -407,7 +407,7 @@ export class KeymanagerOrderV1TimeoutsOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/keymanager_order_v1 openstack_keymanager_order_v1}
+* Represents a {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/keymanager_order_v1 openstack_keymanager_order_v1}
 */
 export class KeymanagerOrderV1 extends cdktf.TerraformResource {
 
@@ -423,7 +423,7 @@ export class KeymanagerOrderV1 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KeymanagerOrderV1 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KeymanagerOrderV1 to import
-  * @param importFromId The id of the existing KeymanagerOrderV1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/keymanager_order_v1#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KeymanagerOrderV1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/keymanager_order_v1#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KeymanagerOrderV1 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -435,7 +435,7 @@ export class KeymanagerOrderV1 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/resources/keymanager_order_v1 openstack_keymanager_order_v1} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/resources/keymanager_order_v1 openstack_keymanager_order_v1} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -446,7 +446,8 @@ export class KeymanagerOrderV1 extends cdktf.TerraformResource {
       terraformResourceType: 'openstack_keymanager_order_v1',
       terraformGeneratorMetadata: {
         providerName: 'openstack',
-        providerVersion: '3.3.2'
+        providerVersion: '3.4.0',
+        providerVersionConstraint: '3.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

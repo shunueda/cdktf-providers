@@ -80,7 +80,8 @@ export class DataFlexibleengineVpcPeeringConnectionV2 extends cdktf.TerraformDat
       terraformResourceType: 'flexibleengine_vpc_peering_connection_v2',
       terraformGeneratorMetadata: {
         providerName: 'flexibleengine',
-        providerVersion: '1.46.0'
+        providerVersion: '1.46.0',
+        providerVersionConstraint: '1.46.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

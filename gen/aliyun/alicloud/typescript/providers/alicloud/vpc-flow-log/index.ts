@@ -274,7 +274,8 @@ export class VpcFlowLog extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_vpc_flow_log',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -284,7 +284,8 @@ export class DataTencentcloudOceanusJobSubmissionLog extends cdktf.TerraformData
       terraformResourceType: 'tencentcloud_oceanus_job_submission_log',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

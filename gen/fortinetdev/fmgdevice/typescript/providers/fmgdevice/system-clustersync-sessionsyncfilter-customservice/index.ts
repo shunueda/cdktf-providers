@@ -76,7 +76,8 @@ export class SystemClustersyncSessionsyncfilterCustomservice extends cdktf.Terra
       terraformResourceType: 'fmgdevice_system_clustersync_sessionsyncfilter_customservice',
       terraformGeneratorMetadata: {
         providerName: 'fmgdevice',
-        providerVersion: '1.2.1'
+        providerVersion: '1.2.1',
+        providerVersionConstraint: '1.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

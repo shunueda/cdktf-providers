@@ -92,7 +92,8 @@ export class L3OutOspfExternalPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'aci_l3out_ospf_external_policy',
       terraformGeneratorMetadata: {
         providerName: 'aci',
-        providerVersion: '2.18.0'
+        providerVersion: '2.18.0',
+        providerVersionConstraint: '2.18.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

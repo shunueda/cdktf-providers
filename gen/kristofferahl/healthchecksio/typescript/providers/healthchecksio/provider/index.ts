@@ -67,7 +67,8 @@ export class HealthchecksioProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'healthchecksio',
       terraformGeneratorMetadata: {
         providerName: 'healthchecksio',
-        providerVersion: '2.3.0'
+        providerVersion: '2.3.0',
+        providerVersionConstraint: '2.3.0'
       },
       terraformProviderSource: 'kristofferahl/healthchecksio'
     });

@@ -1123,7 +1123,8 @@ export class DbInstance extends cdktf.TerraformResource {
       terraformResourceType: 'mcs_db_instance',
       terraformGeneratorMetadata: {
         providerName: 'mcs',
-        providerVersion: '0.6.14'
+        providerVersion: '0.6.14',
+        providerVersionConstraint: '0.6.14'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

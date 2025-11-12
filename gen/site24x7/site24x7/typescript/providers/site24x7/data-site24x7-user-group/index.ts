@@ -62,7 +62,8 @@ export class DataSite24X7UserGroup extends cdktf.TerraformDataSource {
       terraformResourceType: 'site24x7_user_group',
       terraformGeneratorMetadata: {
         providerName: 'site24x7',
-        providerVersion: '2.0.3'
+        providerVersion: '2.0.3',
+        providerVersionConstraint: '2.0.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

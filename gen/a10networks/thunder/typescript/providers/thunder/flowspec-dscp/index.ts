@@ -86,7 +86,8 @@ export class FlowspecDscp extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_flowspec_dscp',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

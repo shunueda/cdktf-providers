@@ -1138,7 +1138,8 @@ export class DataK8SCiliumIoCiliumClusterwideEnvoyConfigV2Manifest extends cdktf
       terraformResourceType: 'k8s_cilium_io_cilium_clusterwide_envoy_config_v2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

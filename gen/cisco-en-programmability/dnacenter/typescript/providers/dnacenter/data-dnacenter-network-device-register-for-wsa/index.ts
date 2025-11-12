@@ -165,7 +165,8 @@ export class DataDnacenterNetworkDeviceRegisterForWsa extends cdktf.TerraformDat
       terraformResourceType: 'dnacenter_network_device_register_for_wsa',
       terraformGeneratorMetadata: {
         providerName: 'dnacenter',
-        providerVersion: '1.1.21'
+        providerVersion: '1.1.21',
+        providerVersionConstraint: '1.1.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

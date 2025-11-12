@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard
+// https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,84 +8,84 @@ import * as cdktf from 'cdktf';
 
 export interface DashboardConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#description Dashboard#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#description Dashboard#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#domain Dashboard#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#domain Dashboard#domain}
   */
   readonly domain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#folder_id Dashboard#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#folder_id Dashboard#folder_id}
   */
   readonly folderId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#id Dashboard#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#id Dashboard#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#refresh_interval Dashboard#refresh_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#refresh_interval Dashboard#refresh_interval}
   */
   readonly refreshInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#theme Dashboard#theme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#theme Dashboard#theme}
   */
   readonly theme?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#title Dashboard#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#title Dashboard#title}
   */
   readonly title: string;
   /**
   * coloring_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#coloring_rule Dashboard#coloring_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#coloring_rule Dashboard#coloring_rule}
   */
   readonly coloringRule?: DashboardColoringRule[] | cdktf.IResolvable;
   /**
   * layout block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#layout Dashboard#layout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#layout Dashboard#layout}
   */
   readonly layout?: DashboardLayout;
   /**
   * panel block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#panel Dashboard#panel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#panel Dashboard#panel}
   */
   readonly panel?: DashboardPanel[] | cdktf.IResolvable;
   /**
   * time_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#time_range Dashboard#time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#time_range Dashboard#time_range}
   */
   readonly timeRange: DashboardTimeRange;
   /**
   * topology_label_map block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#topology_label_map Dashboard#topology_label_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#topology_label_map Dashboard#topology_label_map}
   */
   readonly topologyLabelMap?: DashboardTopologyLabelMap;
   /**
   * variable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#variable Dashboard#variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#variable Dashboard#variable}
   */
   readonly variable?: DashboardVariable[] | cdktf.IResolvable;
 }
 export interface DashboardColoringRuleColorThreshold {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#color Dashboard#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#color Dashboard#color}
   */
   readonly color: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#max Dashboard#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#max Dashboard#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#min Dashboard#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#min Dashboard#min}
   */
   readonly min?: number;
 }
@@ -256,21 +256,21 @@ export class DashboardColoringRuleColorThresholdList extends cdktf.ComplexList {
 }
 export interface DashboardColoringRule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#multiple_series_aggregate_function Dashboard#multiple_series_aggregate_function}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#multiple_series_aggregate_function Dashboard#multiple_series_aggregate_function}
   */
   readonly multipleSeriesAggregateFunction: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#scope Dashboard#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#scope Dashboard#scope}
   */
   readonly scope: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#single_series_aggregate_function Dashboard#single_series_aggregate_function}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#single_series_aggregate_function Dashboard#single_series_aggregate_function}
   */
   readonly singleSeriesAggregateFunction: string;
   /**
   * color_threshold block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#color_threshold Dashboard#color_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#color_threshold Dashboard#color_threshold}
   */
   readonly colorThreshold?: DashboardColoringRuleColorThreshold[] | cdktf.IResolvable;
 }
@@ -464,11 +464,11 @@ export class DashboardColoringRuleList extends cdktf.ComplexList {
 }
 export interface DashboardLayoutGridLayoutStructure {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#key Dashboard#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#key Dashboard#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#structure Dashboard#structure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#structure Dashboard#structure}
   */
   readonly structure: string;
 }
@@ -609,7 +609,7 @@ export interface DashboardLayoutGrid {
   /**
   * layout_structure block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#layout_structure Dashboard#layout_structure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#layout_structure Dashboard#layout_structure}
   */
   readonly layoutStructure: DashboardLayoutGridLayoutStructure[] | cdktf.IResolvable;
 }
@@ -692,7 +692,7 @@ export interface DashboardLayout {
   /**
   * grid block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#grid Dashboard#grid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#grid Dashboard#grid}
   */
   readonly grid?: DashboardLayoutGrid;
 }
@@ -776,35 +776,35 @@ export class DashboardLayoutOutputReference extends cdktf.ComplexObject {
 }
 export interface DashboardPanelServiceMapPanel {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#application Dashboard#application}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#application Dashboard#application}
   */
   readonly application?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#environment Dashboard#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#environment Dashboard#environment}
   */
   readonly environment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#keep_visual_settings_consistent_with_parent Dashboard#keep_visual_settings_consistent_with_parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#keep_visual_settings_consistent_with_parent Dashboard#keep_visual_settings_consistent_with_parent}
   */
   readonly keepVisualSettingsConsistentWithParent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#key Dashboard#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#key Dashboard#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#service Dashboard#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#service Dashboard#service}
   */
   readonly service?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#show_remote_services Dashboard#show_remote_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#show_remote_services Dashboard#show_remote_services}
   */
   readonly showRemoteServices?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#title Dashboard#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#title Dashboard#title}
   */
   readonly title?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#visual_settings Dashboard#visual_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#visual_settings Dashboard#visual_settings}
   */
   readonly visualSettings?: string;
 }
@@ -1093,15 +1093,15 @@ export class DashboardPanelServiceMapPanelOutputReference extends cdktf.ComplexO
 }
 export interface DashboardPanelSumoSearchPanelColoringRuleColorThreshold {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#color Dashboard#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#color Dashboard#color}
   */
   readonly color: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#max Dashboard#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#max Dashboard#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#min Dashboard#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#min Dashboard#min}
   */
   readonly min?: number;
 }
@@ -1272,21 +1272,21 @@ export class DashboardPanelSumoSearchPanelColoringRuleColorThresholdList extends
 }
 export interface DashboardPanelSumoSearchPanelColoringRule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#multiple_series_aggregate_function Dashboard#multiple_series_aggregate_function}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#multiple_series_aggregate_function Dashboard#multiple_series_aggregate_function}
   */
   readonly multipleSeriesAggregateFunction: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#scope Dashboard#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#scope Dashboard#scope}
   */
   readonly scope: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#single_series_aggregate_function Dashboard#single_series_aggregate_function}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#single_series_aggregate_function Dashboard#single_series_aggregate_function}
   */
   readonly singleSeriesAggregateFunction: string;
   /**
   * color_threshold block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#color_threshold Dashboard#color_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#color_threshold Dashboard#color_threshold}
   */
   readonly colorThreshold?: DashboardPanelSumoSearchPanelColoringRuleColorThreshold[] | cdktf.IResolvable;
 }
@@ -1448,22 +1448,22 @@ export class DashboardPanelSumoSearchPanelColoringRuleOutputReference extends cd
 }
 export interface DashboardPanelSumoSearchPanelLinkedDashboard {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#id Dashboard#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#id Dashboard#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#include_time_range Dashboard#include_time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#include_time_range Dashboard#include_time_range}
   */
   readonly includeTimeRange?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#include_variables Dashboard#include_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#include_variables Dashboard#include_variables}
   */
   readonly includeVariables?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#relative_path Dashboard#relative_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#relative_path Dashboard#relative_path}
   */
   readonly relativePath?: string;
 }
@@ -1631,15 +1631,15 @@ export class DashboardPanelSumoSearchPanelLinkedDashboardOutputReference extends
 }
 export interface DashboardPanelSumoSearchPanelQueryMetricsQueryDataFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#key Dashboard#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#key Dashboard#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#negation Dashboard#negation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#negation Dashboard#negation}
   */
   readonly negation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#value Dashboard#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#value Dashboard#value}
   */
   readonly value: string;
 }
@@ -1807,11 +1807,11 @@ export class DashboardPanelSumoSearchPanelQueryMetricsQueryDataFilterList extend
 }
 export interface DashboardPanelSumoSearchPanelQueryMetricsQueryDataOperatorParameter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#key Dashboard#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#key Dashboard#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#value Dashboard#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#value Dashboard#value}
   */
   readonly value: string;
 }
@@ -1950,13 +1950,13 @@ export class DashboardPanelSumoSearchPanelQueryMetricsQueryDataOperatorParameter
 }
 export interface DashboardPanelSumoSearchPanelQueryMetricsQueryDataOperator {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#operator_name Dashboard#operator_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#operator_name Dashboard#operator_name}
   */
   readonly operatorName: string;
   /**
   * parameter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#parameter Dashboard#parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#parameter Dashboard#parameter}
   */
   readonly parameter: DashboardPanelSumoSearchPanelQueryMetricsQueryDataOperatorParameter[] | cdktf.IResolvable;
 }
@@ -2095,27 +2095,27 @@ export class DashboardPanelSumoSearchPanelQueryMetricsQueryDataOperatorList exte
 }
 export interface DashboardPanelSumoSearchPanelQueryMetricsQueryData {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#aggregation_type Dashboard#aggregation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#aggregation_type Dashboard#aggregation_type}
   */
   readonly aggregationType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#group_by Dashboard#group_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#group_by Dashboard#group_by}
   */
   readonly groupBy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#metric Dashboard#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#metric Dashboard#metric}
   */
   readonly metric: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#filter Dashboard#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#filter Dashboard#filter}
   */
   readonly filter: DashboardPanelSumoSearchPanelQueryMetricsQueryDataFilter[] | cdktf.IResolvable;
   /**
   * operator block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#operator Dashboard#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#operator Dashboard#operator}
   */
   readonly operator?: DashboardPanelSumoSearchPanelQueryMetricsQueryDataOperator[] | cdktf.IResolvable;
 }
@@ -2309,41 +2309,41 @@ export class DashboardPanelSumoSearchPanelQueryMetricsQueryDataOutputReference e
 }
 export interface DashboardPanelSumoSearchPanelQuery {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#metrics_query_mode Dashboard#metrics_query_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#metrics_query_mode Dashboard#metrics_query_mode}
   */
   readonly metricsQueryMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#output_cardinality_limit Dashboard#output_cardinality_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#output_cardinality_limit Dashboard#output_cardinality_limit}
   */
   readonly outputCardinalityLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#parse_mode Dashboard#parse_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#parse_mode Dashboard#parse_mode}
   */
   readonly parseMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#query_key Dashboard#query_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#query_key Dashboard#query_key}
   */
   readonly queryKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#query_string Dashboard#query_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#query_string Dashboard#query_string}
   */
   readonly queryString: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#query_type Dashboard#query_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#query_type Dashboard#query_type}
   */
   readonly queryType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#time_source Dashboard#time_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#time_source Dashboard#time_source}
   */
   readonly timeSource?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#transient Dashboard#transient}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#transient Dashboard#transient}
   */
   readonly transient?: boolean | cdktf.IResolvable;
   /**
   * metrics_query_data block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#metrics_query_data Dashboard#metrics_query_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#metrics_query_data Dashboard#metrics_query_data}
   */
   readonly metricsQueryData?: DashboardPanelSumoSearchPanelQueryMetricsQueryData;
 }
@@ -2682,7 +2682,7 @@ export class DashboardPanelSumoSearchPanelQueryList extends cdktf.ComplexList {
 }
 export interface DashboardPanelSumoSearchPanelTimeRangeBeginBoundedTimeRangeFromEpochTimeRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#epoch_millis Dashboard#epoch_millis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#epoch_millis Dashboard#epoch_millis}
   */
   readonly epochMillis: number;
 }
@@ -2763,7 +2763,7 @@ export class DashboardPanelSumoSearchPanelTimeRangeBeginBoundedTimeRangeFromEpoc
 }
 export interface DashboardPanelSumoSearchPanelTimeRangeBeginBoundedTimeRangeFromIso8601TimeRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#iso8601_time Dashboard#iso8601_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#iso8601_time Dashboard#iso8601_time}
   */
   readonly iso8601Time: string;
 }
@@ -2844,7 +2844,7 @@ export class DashboardPanelSumoSearchPanelTimeRangeBeginBoundedTimeRangeFromIso8
 }
 export interface DashboardPanelSumoSearchPanelTimeRangeBeginBoundedTimeRangeFromLiteralTimeRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#range_name Dashboard#range_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#range_name Dashboard#range_name}
   */
   readonly rangeName: string;
 }
@@ -2925,7 +2925,7 @@ export class DashboardPanelSumoSearchPanelTimeRangeBeginBoundedTimeRangeFromLite
 }
 export interface DashboardPanelSumoSearchPanelTimeRangeBeginBoundedTimeRangeFromRelativeTimeRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#relative_time Dashboard#relative_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#relative_time Dashboard#relative_time}
   */
   readonly relativeTime: string;
 }
@@ -3008,25 +3008,25 @@ export interface DashboardPanelSumoSearchPanelTimeRangeBeginBoundedTimeRangeFrom
   /**
   * epoch_time_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#epoch_time_range Dashboard#epoch_time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#epoch_time_range Dashboard#epoch_time_range}
   */
   readonly epochTimeRange?: DashboardPanelSumoSearchPanelTimeRangeBeginBoundedTimeRangeFromEpochTimeRange;
   /**
   * iso8601_time_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#iso8601_time_range Dashboard#iso8601_time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#iso8601_time_range Dashboard#iso8601_time_range}
   */
   readonly iso8601TimeRange?: DashboardPanelSumoSearchPanelTimeRangeBeginBoundedTimeRangeFromIso8601TimeRange;
   /**
   * literal_time_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#literal_time_range Dashboard#literal_time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#literal_time_range Dashboard#literal_time_range}
   */
   readonly literalTimeRange?: DashboardPanelSumoSearchPanelTimeRangeBeginBoundedTimeRangeFromLiteralTimeRange;
   /**
   * relative_time_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#relative_time_range Dashboard#relative_time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#relative_time_range Dashboard#relative_time_range}
   */
   readonly relativeTimeRange?: DashboardPanelSumoSearchPanelTimeRangeBeginBoundedTimeRangeFromRelativeTimeRange;
 }
@@ -3197,7 +3197,7 @@ export class DashboardPanelSumoSearchPanelTimeRangeBeginBoundedTimeRangeFromOutp
 }
 export interface DashboardPanelSumoSearchPanelTimeRangeBeginBoundedTimeRangeToEpochTimeRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#epoch_millis Dashboard#epoch_millis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#epoch_millis Dashboard#epoch_millis}
   */
   readonly epochMillis: number;
 }
@@ -3278,7 +3278,7 @@ export class DashboardPanelSumoSearchPanelTimeRangeBeginBoundedTimeRangeToEpochT
 }
 export interface DashboardPanelSumoSearchPanelTimeRangeBeginBoundedTimeRangeToIso8601TimeRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#iso8601_time Dashboard#iso8601_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#iso8601_time Dashboard#iso8601_time}
   */
   readonly iso8601Time: string;
 }
@@ -3359,7 +3359,7 @@ export class DashboardPanelSumoSearchPanelTimeRangeBeginBoundedTimeRangeToIso860
 }
 export interface DashboardPanelSumoSearchPanelTimeRangeBeginBoundedTimeRangeToLiteralTimeRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#range_name Dashboard#range_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#range_name Dashboard#range_name}
   */
   readonly rangeName: string;
 }
@@ -3440,7 +3440,7 @@ export class DashboardPanelSumoSearchPanelTimeRangeBeginBoundedTimeRangeToLitera
 }
 export interface DashboardPanelSumoSearchPanelTimeRangeBeginBoundedTimeRangeToRelativeTimeRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#relative_time Dashboard#relative_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#relative_time Dashboard#relative_time}
   */
   readonly relativeTime: string;
 }
@@ -3523,25 +3523,25 @@ export interface DashboardPanelSumoSearchPanelTimeRangeBeginBoundedTimeRangeTo {
   /**
   * epoch_time_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#epoch_time_range Dashboard#epoch_time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#epoch_time_range Dashboard#epoch_time_range}
   */
   readonly epochTimeRange?: DashboardPanelSumoSearchPanelTimeRangeBeginBoundedTimeRangeToEpochTimeRange;
   /**
   * iso8601_time_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#iso8601_time_range Dashboard#iso8601_time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#iso8601_time_range Dashboard#iso8601_time_range}
   */
   readonly iso8601TimeRange?: DashboardPanelSumoSearchPanelTimeRangeBeginBoundedTimeRangeToIso8601TimeRange;
   /**
   * literal_time_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#literal_time_range Dashboard#literal_time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#literal_time_range Dashboard#literal_time_range}
   */
   readonly literalTimeRange?: DashboardPanelSumoSearchPanelTimeRangeBeginBoundedTimeRangeToLiteralTimeRange;
   /**
   * relative_time_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#relative_time_range Dashboard#relative_time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#relative_time_range Dashboard#relative_time_range}
   */
   readonly relativeTimeRange?: DashboardPanelSumoSearchPanelTimeRangeBeginBoundedTimeRangeToRelativeTimeRange;
 }
@@ -3714,13 +3714,13 @@ export interface DashboardPanelSumoSearchPanelTimeRangeBeginBoundedTimeRange {
   /**
   * from block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#from Dashboard#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#from Dashboard#from}
   */
   readonly from: DashboardPanelSumoSearchPanelTimeRangeBeginBoundedTimeRangeFrom;
   /**
   * to block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#to Dashboard#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#to Dashboard#to}
   */
   readonly to?: DashboardPanelSumoSearchPanelTimeRangeBeginBoundedTimeRangeTo;
 }
@@ -3830,7 +3830,7 @@ export class DashboardPanelSumoSearchPanelTimeRangeBeginBoundedTimeRangeOutputRe
 }
 export interface DashboardPanelSumoSearchPanelTimeRangeCompleteLiteralTimeRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#range_name Dashboard#range_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#range_name Dashboard#range_name}
   */
   readonly rangeName: string;
 }
@@ -3913,13 +3913,13 @@ export interface DashboardPanelSumoSearchPanelTimeRange {
   /**
   * begin_bounded_time_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#begin_bounded_time_range Dashboard#begin_bounded_time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#begin_bounded_time_range Dashboard#begin_bounded_time_range}
   */
   readonly beginBoundedTimeRange?: DashboardPanelSumoSearchPanelTimeRangeBeginBoundedTimeRange;
   /**
   * complete_literal_time_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#complete_literal_time_range Dashboard#complete_literal_time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#complete_literal_time_range Dashboard#complete_literal_time_range}
   */
   readonly completeLiteralTimeRange?: DashboardPanelSumoSearchPanelTimeRangeCompleteLiteralTimeRange;
 }
@@ -4032,47 +4032,47 @@ export class DashboardPanelSumoSearchPanelTimeRangeOutputReference extends cdktf
 }
 export interface DashboardPanelSumoSearchPanel {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#description Dashboard#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#description Dashboard#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#keep_visual_settings_consistent_with_parent Dashboard#keep_visual_settings_consistent_with_parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#keep_visual_settings_consistent_with_parent Dashboard#keep_visual_settings_consistent_with_parent}
   */
   readonly keepVisualSettingsConsistentWithParent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#key Dashboard#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#key Dashboard#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#title Dashboard#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#title Dashboard#title}
   */
   readonly title?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#visual_settings Dashboard#visual_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#visual_settings Dashboard#visual_settings}
   */
   readonly visualSettings?: string;
   /**
   * coloring_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#coloring_rule Dashboard#coloring_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#coloring_rule Dashboard#coloring_rule}
   */
   readonly coloringRule?: DashboardPanelSumoSearchPanelColoringRule;
   /**
   * linked_dashboard block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#linked_dashboard Dashboard#linked_dashboard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#linked_dashboard Dashboard#linked_dashboard}
   */
   readonly linkedDashboard?: DashboardPanelSumoSearchPanelLinkedDashboard;
   /**
   * query block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#query Dashboard#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#query Dashboard#query}
   */
   readonly query?: DashboardPanelSumoSearchPanelQuery[] | cdktf.IResolvable;
   /**
   * time_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#time_range Dashboard#time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#time_range Dashboard#time_range}
   */
   readonly timeRange?: DashboardPanelSumoSearchPanelTimeRange;
 }
@@ -4390,23 +4390,23 @@ export class DashboardPanelSumoSearchPanelOutputReference extends cdktf.ComplexO
 }
 export interface DashboardPanelTextPanel {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#keep_visual_settings_consistent_with_parent Dashboard#keep_visual_settings_consistent_with_parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#keep_visual_settings_consistent_with_parent Dashboard#keep_visual_settings_consistent_with_parent}
   */
   readonly keepVisualSettingsConsistentWithParent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#key Dashboard#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#key Dashboard#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#text Dashboard#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#text Dashboard#text}
   */
   readonly text?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#title Dashboard#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#title Dashboard#title}
   */
   readonly title?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#visual_settings Dashboard#visual_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#visual_settings Dashboard#visual_settings}
   */
   readonly visualSettings?: string;
 }
@@ -4608,15 +4608,15 @@ export class DashboardPanelTextPanelOutputReference extends cdktf.ComplexObject 
 }
 export interface DashboardPanelTracesListPanelQueriesMetricsQueryDataFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#key Dashboard#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#key Dashboard#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#negation Dashboard#negation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#negation Dashboard#negation}
   */
   readonly negation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#value Dashboard#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#value Dashboard#value}
   */
   readonly value: string;
 }
@@ -4784,11 +4784,11 @@ export class DashboardPanelTracesListPanelQueriesMetricsQueryDataFilterList exte
 }
 export interface DashboardPanelTracesListPanelQueriesMetricsQueryDataOperatorParameter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#key Dashboard#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#key Dashboard#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#value Dashboard#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#value Dashboard#value}
   */
   readonly value: string;
 }
@@ -4927,13 +4927,13 @@ export class DashboardPanelTracesListPanelQueriesMetricsQueryDataOperatorParamet
 }
 export interface DashboardPanelTracesListPanelQueriesMetricsQueryDataOperator {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#operator_name Dashboard#operator_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#operator_name Dashboard#operator_name}
   */
   readonly operatorName: string;
   /**
   * parameter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#parameter Dashboard#parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#parameter Dashboard#parameter}
   */
   readonly parameter: DashboardPanelTracesListPanelQueriesMetricsQueryDataOperatorParameter[] | cdktf.IResolvable;
 }
@@ -5072,27 +5072,27 @@ export class DashboardPanelTracesListPanelQueriesMetricsQueryDataOperatorList ex
 }
 export interface DashboardPanelTracesListPanelQueriesMetricsQueryData {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#aggregation_type Dashboard#aggregation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#aggregation_type Dashboard#aggregation_type}
   */
   readonly aggregationType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#group_by Dashboard#group_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#group_by Dashboard#group_by}
   */
   readonly groupBy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#metric Dashboard#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#metric Dashboard#metric}
   */
   readonly metric: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#filter Dashboard#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#filter Dashboard#filter}
   */
   readonly filter: DashboardPanelTracesListPanelQueriesMetricsQueryDataFilter[] | cdktf.IResolvable;
   /**
   * operator block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#operator Dashboard#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#operator Dashboard#operator}
   */
   readonly operator?: DashboardPanelTracesListPanelQueriesMetricsQueryDataOperator[] | cdktf.IResolvable;
 }
@@ -5286,41 +5286,41 @@ export class DashboardPanelTracesListPanelQueriesMetricsQueryDataOutputReference
 }
 export interface DashboardPanelTracesListPanelQueries {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#metrics_query_mode Dashboard#metrics_query_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#metrics_query_mode Dashboard#metrics_query_mode}
   */
   readonly metricsQueryMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#output_cardinality_limit Dashboard#output_cardinality_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#output_cardinality_limit Dashboard#output_cardinality_limit}
   */
   readonly outputCardinalityLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#parse_mode Dashboard#parse_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#parse_mode Dashboard#parse_mode}
   */
   readonly parseMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#query_key Dashboard#query_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#query_key Dashboard#query_key}
   */
   readonly queryKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#query_string Dashboard#query_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#query_string Dashboard#query_string}
   */
   readonly queryString: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#query_type Dashboard#query_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#query_type Dashboard#query_type}
   */
   readonly queryType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#time_source Dashboard#time_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#time_source Dashboard#time_source}
   */
   readonly timeSource?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#transient Dashboard#transient}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#transient Dashboard#transient}
   */
   readonly transient?: boolean | cdktf.IResolvable;
   /**
   * metrics_query_data block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#metrics_query_data Dashboard#metrics_query_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#metrics_query_data Dashboard#metrics_query_data}
   */
   readonly metricsQueryData?: DashboardPanelTracesListPanelQueriesMetricsQueryData;
 }
@@ -5659,7 +5659,7 @@ export class DashboardPanelTracesListPanelQueriesList extends cdktf.ComplexList 
 }
 export interface DashboardPanelTracesListPanelTimeRangeBeginBoundedTimeRangeFromEpochTimeRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#epoch_millis Dashboard#epoch_millis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#epoch_millis Dashboard#epoch_millis}
   */
   readonly epochMillis: number;
 }
@@ -5740,7 +5740,7 @@ export class DashboardPanelTracesListPanelTimeRangeBeginBoundedTimeRangeFromEpoc
 }
 export interface DashboardPanelTracesListPanelTimeRangeBeginBoundedTimeRangeFromIso8601TimeRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#iso8601_time Dashboard#iso8601_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#iso8601_time Dashboard#iso8601_time}
   */
   readonly iso8601Time: string;
 }
@@ -5821,7 +5821,7 @@ export class DashboardPanelTracesListPanelTimeRangeBeginBoundedTimeRangeFromIso8
 }
 export interface DashboardPanelTracesListPanelTimeRangeBeginBoundedTimeRangeFromLiteralTimeRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#range_name Dashboard#range_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#range_name Dashboard#range_name}
   */
   readonly rangeName: string;
 }
@@ -5902,7 +5902,7 @@ export class DashboardPanelTracesListPanelTimeRangeBeginBoundedTimeRangeFromLite
 }
 export interface DashboardPanelTracesListPanelTimeRangeBeginBoundedTimeRangeFromRelativeTimeRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#relative_time Dashboard#relative_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#relative_time Dashboard#relative_time}
   */
   readonly relativeTime: string;
 }
@@ -5985,25 +5985,25 @@ export interface DashboardPanelTracesListPanelTimeRangeBeginBoundedTimeRangeFrom
   /**
   * epoch_time_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#epoch_time_range Dashboard#epoch_time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#epoch_time_range Dashboard#epoch_time_range}
   */
   readonly epochTimeRange?: DashboardPanelTracesListPanelTimeRangeBeginBoundedTimeRangeFromEpochTimeRange;
   /**
   * iso8601_time_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#iso8601_time_range Dashboard#iso8601_time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#iso8601_time_range Dashboard#iso8601_time_range}
   */
   readonly iso8601TimeRange?: DashboardPanelTracesListPanelTimeRangeBeginBoundedTimeRangeFromIso8601TimeRange;
   /**
   * literal_time_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#literal_time_range Dashboard#literal_time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#literal_time_range Dashboard#literal_time_range}
   */
   readonly literalTimeRange?: DashboardPanelTracesListPanelTimeRangeBeginBoundedTimeRangeFromLiteralTimeRange;
   /**
   * relative_time_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#relative_time_range Dashboard#relative_time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#relative_time_range Dashboard#relative_time_range}
   */
   readonly relativeTimeRange?: DashboardPanelTracesListPanelTimeRangeBeginBoundedTimeRangeFromRelativeTimeRange;
 }
@@ -6174,7 +6174,7 @@ export class DashboardPanelTracesListPanelTimeRangeBeginBoundedTimeRangeFromOutp
 }
 export interface DashboardPanelTracesListPanelTimeRangeBeginBoundedTimeRangeToEpochTimeRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#epoch_millis Dashboard#epoch_millis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#epoch_millis Dashboard#epoch_millis}
   */
   readonly epochMillis: number;
 }
@@ -6255,7 +6255,7 @@ export class DashboardPanelTracesListPanelTimeRangeBeginBoundedTimeRangeToEpochT
 }
 export interface DashboardPanelTracesListPanelTimeRangeBeginBoundedTimeRangeToIso8601TimeRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#iso8601_time Dashboard#iso8601_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#iso8601_time Dashboard#iso8601_time}
   */
   readonly iso8601Time: string;
 }
@@ -6336,7 +6336,7 @@ export class DashboardPanelTracesListPanelTimeRangeBeginBoundedTimeRangeToIso860
 }
 export interface DashboardPanelTracesListPanelTimeRangeBeginBoundedTimeRangeToLiteralTimeRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#range_name Dashboard#range_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#range_name Dashboard#range_name}
   */
   readonly rangeName: string;
 }
@@ -6417,7 +6417,7 @@ export class DashboardPanelTracesListPanelTimeRangeBeginBoundedTimeRangeToLitera
 }
 export interface DashboardPanelTracesListPanelTimeRangeBeginBoundedTimeRangeToRelativeTimeRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#relative_time Dashboard#relative_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#relative_time Dashboard#relative_time}
   */
   readonly relativeTime: string;
 }
@@ -6500,25 +6500,25 @@ export interface DashboardPanelTracesListPanelTimeRangeBeginBoundedTimeRangeTo {
   /**
   * epoch_time_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#epoch_time_range Dashboard#epoch_time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#epoch_time_range Dashboard#epoch_time_range}
   */
   readonly epochTimeRange?: DashboardPanelTracesListPanelTimeRangeBeginBoundedTimeRangeToEpochTimeRange;
   /**
   * iso8601_time_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#iso8601_time_range Dashboard#iso8601_time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#iso8601_time_range Dashboard#iso8601_time_range}
   */
   readonly iso8601TimeRange?: DashboardPanelTracesListPanelTimeRangeBeginBoundedTimeRangeToIso8601TimeRange;
   /**
   * literal_time_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#literal_time_range Dashboard#literal_time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#literal_time_range Dashboard#literal_time_range}
   */
   readonly literalTimeRange?: DashboardPanelTracesListPanelTimeRangeBeginBoundedTimeRangeToLiteralTimeRange;
   /**
   * relative_time_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#relative_time_range Dashboard#relative_time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#relative_time_range Dashboard#relative_time_range}
   */
   readonly relativeTimeRange?: DashboardPanelTracesListPanelTimeRangeBeginBoundedTimeRangeToRelativeTimeRange;
 }
@@ -6691,13 +6691,13 @@ export interface DashboardPanelTracesListPanelTimeRangeBeginBoundedTimeRange {
   /**
   * from block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#from Dashboard#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#from Dashboard#from}
   */
   readonly from: DashboardPanelTracesListPanelTimeRangeBeginBoundedTimeRangeFrom;
   /**
   * to block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#to Dashboard#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#to Dashboard#to}
   */
   readonly to?: DashboardPanelTracesListPanelTimeRangeBeginBoundedTimeRangeTo;
 }
@@ -6807,7 +6807,7 @@ export class DashboardPanelTracesListPanelTimeRangeBeginBoundedTimeRangeOutputRe
 }
 export interface DashboardPanelTracesListPanelTimeRangeCompleteLiteralTimeRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#range_name Dashboard#range_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#range_name Dashboard#range_name}
   */
   readonly rangeName: string;
 }
@@ -6890,13 +6890,13 @@ export interface DashboardPanelTracesListPanelTimeRange {
   /**
   * begin_bounded_time_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#begin_bounded_time_range Dashboard#begin_bounded_time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#begin_bounded_time_range Dashboard#begin_bounded_time_range}
   */
   readonly beginBoundedTimeRange?: DashboardPanelTracesListPanelTimeRangeBeginBoundedTimeRange;
   /**
   * complete_literal_time_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#complete_literal_time_range Dashboard#complete_literal_time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#complete_literal_time_range Dashboard#complete_literal_time_range}
   */
   readonly completeLiteralTimeRange?: DashboardPanelTracesListPanelTimeRangeCompleteLiteralTimeRange;
 }
@@ -7009,31 +7009,31 @@ export class DashboardPanelTracesListPanelTimeRangeOutputReference extends cdktf
 }
 export interface DashboardPanelTracesListPanel {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#keep_visual_settings_consistent_with_parent Dashboard#keep_visual_settings_consistent_with_parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#keep_visual_settings_consistent_with_parent Dashboard#keep_visual_settings_consistent_with_parent}
   */
   readonly keepVisualSettingsConsistentWithParent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#key Dashboard#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#key Dashboard#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#title Dashboard#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#title Dashboard#title}
   */
   readonly title?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#visual_settings Dashboard#visual_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#visual_settings Dashboard#visual_settings}
   */
   readonly visualSettings?: string;
   /**
   * queries block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#queries Dashboard#queries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#queries Dashboard#queries}
   */
   readonly queries?: DashboardPanelTracesListPanelQueries[] | cdktf.IResolvable;
   /**
   * time_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#time_range Dashboard#time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#time_range Dashboard#time_range}
   */
   readonly timeRange?: DashboardPanelTracesListPanelTimeRange;
 }
@@ -7266,25 +7266,25 @@ export interface DashboardPanel {
   /**
   * service_map_panel block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#service_map_panel Dashboard#service_map_panel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#service_map_panel Dashboard#service_map_panel}
   */
   readonly serviceMapPanel?: DashboardPanelServiceMapPanel;
   /**
   * sumo_search_panel block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#sumo_search_panel Dashboard#sumo_search_panel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#sumo_search_panel Dashboard#sumo_search_panel}
   */
   readonly sumoSearchPanel?: DashboardPanelSumoSearchPanel;
   /**
   * text_panel block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#text_panel Dashboard#text_panel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#text_panel Dashboard#text_panel}
   */
   readonly textPanel?: DashboardPanelTextPanel;
   /**
   * traces_list_panel block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#traces_list_panel Dashboard#traces_list_panel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#traces_list_panel Dashboard#traces_list_panel}
   */
   readonly tracesListPanel?: DashboardPanelTracesListPanel;
 }
@@ -7487,7 +7487,7 @@ export class DashboardPanelList extends cdktf.ComplexList {
 }
 export interface DashboardTimeRangeBeginBoundedTimeRangeFromEpochTimeRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#epoch_millis Dashboard#epoch_millis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#epoch_millis Dashboard#epoch_millis}
   */
   readonly epochMillis: number;
 }
@@ -7568,7 +7568,7 @@ export class DashboardTimeRangeBeginBoundedTimeRangeFromEpochTimeRangeOutputRefe
 }
 export interface DashboardTimeRangeBeginBoundedTimeRangeFromIso8601TimeRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#iso8601_time Dashboard#iso8601_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#iso8601_time Dashboard#iso8601_time}
   */
   readonly iso8601Time: string;
 }
@@ -7649,7 +7649,7 @@ export class DashboardTimeRangeBeginBoundedTimeRangeFromIso8601TimeRangeOutputRe
 }
 export interface DashboardTimeRangeBeginBoundedTimeRangeFromLiteralTimeRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#range_name Dashboard#range_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#range_name Dashboard#range_name}
   */
   readonly rangeName: string;
 }
@@ -7730,7 +7730,7 @@ export class DashboardTimeRangeBeginBoundedTimeRangeFromLiteralTimeRangeOutputRe
 }
 export interface DashboardTimeRangeBeginBoundedTimeRangeFromRelativeTimeRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#relative_time Dashboard#relative_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#relative_time Dashboard#relative_time}
   */
   readonly relativeTime: string;
 }
@@ -7813,25 +7813,25 @@ export interface DashboardTimeRangeBeginBoundedTimeRangeFrom {
   /**
   * epoch_time_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#epoch_time_range Dashboard#epoch_time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#epoch_time_range Dashboard#epoch_time_range}
   */
   readonly epochTimeRange?: DashboardTimeRangeBeginBoundedTimeRangeFromEpochTimeRange;
   /**
   * iso8601_time_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#iso8601_time_range Dashboard#iso8601_time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#iso8601_time_range Dashboard#iso8601_time_range}
   */
   readonly iso8601TimeRange?: DashboardTimeRangeBeginBoundedTimeRangeFromIso8601TimeRange;
   /**
   * literal_time_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#literal_time_range Dashboard#literal_time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#literal_time_range Dashboard#literal_time_range}
   */
   readonly literalTimeRange?: DashboardTimeRangeBeginBoundedTimeRangeFromLiteralTimeRange;
   /**
   * relative_time_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#relative_time_range Dashboard#relative_time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#relative_time_range Dashboard#relative_time_range}
   */
   readonly relativeTimeRange?: DashboardTimeRangeBeginBoundedTimeRangeFromRelativeTimeRange;
 }
@@ -8002,7 +8002,7 @@ export class DashboardTimeRangeBeginBoundedTimeRangeFromOutputReference extends 
 }
 export interface DashboardTimeRangeBeginBoundedTimeRangeToEpochTimeRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#epoch_millis Dashboard#epoch_millis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#epoch_millis Dashboard#epoch_millis}
   */
   readonly epochMillis: number;
 }
@@ -8083,7 +8083,7 @@ export class DashboardTimeRangeBeginBoundedTimeRangeToEpochTimeRangeOutputRefere
 }
 export interface DashboardTimeRangeBeginBoundedTimeRangeToIso8601TimeRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#iso8601_time Dashboard#iso8601_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#iso8601_time Dashboard#iso8601_time}
   */
   readonly iso8601Time: string;
 }
@@ -8164,7 +8164,7 @@ export class DashboardTimeRangeBeginBoundedTimeRangeToIso8601TimeRangeOutputRefe
 }
 export interface DashboardTimeRangeBeginBoundedTimeRangeToLiteralTimeRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#range_name Dashboard#range_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#range_name Dashboard#range_name}
   */
   readonly rangeName: string;
 }
@@ -8245,7 +8245,7 @@ export class DashboardTimeRangeBeginBoundedTimeRangeToLiteralTimeRangeOutputRefe
 }
 export interface DashboardTimeRangeBeginBoundedTimeRangeToRelativeTimeRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#relative_time Dashboard#relative_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#relative_time Dashboard#relative_time}
   */
   readonly relativeTime: string;
 }
@@ -8328,25 +8328,25 @@ export interface DashboardTimeRangeBeginBoundedTimeRangeTo {
   /**
   * epoch_time_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#epoch_time_range Dashboard#epoch_time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#epoch_time_range Dashboard#epoch_time_range}
   */
   readonly epochTimeRange?: DashboardTimeRangeBeginBoundedTimeRangeToEpochTimeRange;
   /**
   * iso8601_time_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#iso8601_time_range Dashboard#iso8601_time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#iso8601_time_range Dashboard#iso8601_time_range}
   */
   readonly iso8601TimeRange?: DashboardTimeRangeBeginBoundedTimeRangeToIso8601TimeRange;
   /**
   * literal_time_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#literal_time_range Dashboard#literal_time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#literal_time_range Dashboard#literal_time_range}
   */
   readonly literalTimeRange?: DashboardTimeRangeBeginBoundedTimeRangeToLiteralTimeRange;
   /**
   * relative_time_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#relative_time_range Dashboard#relative_time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#relative_time_range Dashboard#relative_time_range}
   */
   readonly relativeTimeRange?: DashboardTimeRangeBeginBoundedTimeRangeToRelativeTimeRange;
 }
@@ -8519,13 +8519,13 @@ export interface DashboardTimeRangeBeginBoundedTimeRange {
   /**
   * from block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#from Dashboard#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#from Dashboard#from}
   */
   readonly from: DashboardTimeRangeBeginBoundedTimeRangeFrom;
   /**
   * to block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#to Dashboard#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#to Dashboard#to}
   */
   readonly to?: DashboardTimeRangeBeginBoundedTimeRangeTo;
 }
@@ -8635,7 +8635,7 @@ export class DashboardTimeRangeBeginBoundedTimeRangeOutputReference extends cdkt
 }
 export interface DashboardTimeRangeCompleteLiteralTimeRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#range_name Dashboard#range_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#range_name Dashboard#range_name}
   */
   readonly rangeName: string;
 }
@@ -8718,13 +8718,13 @@ export interface DashboardTimeRange {
   /**
   * begin_bounded_time_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#begin_bounded_time_range Dashboard#begin_bounded_time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#begin_bounded_time_range Dashboard#begin_bounded_time_range}
   */
   readonly beginBoundedTimeRange?: DashboardTimeRangeBeginBoundedTimeRange;
   /**
   * complete_literal_time_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#complete_literal_time_range Dashboard#complete_literal_time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#complete_literal_time_range Dashboard#complete_literal_time_range}
   */
   readonly completeLiteralTimeRange?: DashboardTimeRangeCompleteLiteralTimeRange;
 }
@@ -8837,11 +8837,11 @@ export class DashboardTimeRangeOutputReference extends cdktf.ComplexObject {
 }
 export interface DashboardTopologyLabelMapData {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#label Dashboard#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#label Dashboard#label}
   */
   readonly label: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#values Dashboard#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#values Dashboard#values}
   */
   readonly values: string[];
 }
@@ -8982,7 +8982,7 @@ export interface DashboardTopologyLabelMap {
   /**
   * data block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#data Dashboard#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#data Dashboard#data}
   */
   readonly data: DashboardTopologyLabelMapData[] | cdktf.IResolvable;
 }
@@ -9063,7 +9063,7 @@ export class DashboardTopologyLabelMapOutputReference extends cdktf.ComplexObjec
 }
 export interface DashboardVariableSourceDefinitionCsvVariableSourceDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#values Dashboard#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#values Dashboard#values}
   */
   readonly values: string;
 }
@@ -9144,11 +9144,11 @@ export class DashboardVariableSourceDefinitionCsvVariableSourceDefinitionOutputR
 }
 export interface DashboardVariableSourceDefinitionLogQueryVariableSourceDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#field Dashboard#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#field Dashboard#field}
   */
   readonly field: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#query Dashboard#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#query Dashboard#query}
   */
   readonly query: string;
 }
@@ -9255,11 +9255,11 @@ export class DashboardVariableSourceDefinitionLogQueryVariableSourceDefinitionOu
 }
 export interface DashboardVariableSourceDefinitionMetadataVariableSourceDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#filter Dashboard#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#filter Dashboard#filter}
   */
   readonly filter: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#key Dashboard#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#key Dashboard#key}
   */
   readonly key: string;
 }
@@ -9368,19 +9368,19 @@ export interface DashboardVariableSourceDefinition {
   /**
   * csv_variable_source_definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#csv_variable_source_definition Dashboard#csv_variable_source_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#csv_variable_source_definition Dashboard#csv_variable_source_definition}
   */
   readonly csvVariableSourceDefinition?: DashboardVariableSourceDefinitionCsvVariableSourceDefinition;
   /**
   * log_query_variable_source_definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#log_query_variable_source_definition Dashboard#log_query_variable_source_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#log_query_variable_source_definition Dashboard#log_query_variable_source_definition}
   */
   readonly logQueryVariableSourceDefinition?: DashboardVariableSourceDefinitionLogQueryVariableSourceDefinition;
   /**
   * metadata_variable_source_definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#metadata_variable_source_definition Dashboard#metadata_variable_source_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#metadata_variable_source_definition Dashboard#metadata_variable_source_definition}
   */
   readonly metadataVariableSourceDefinition?: DashboardVariableSourceDefinitionMetadataVariableSourceDefinition;
 }
@@ -9522,33 +9522,33 @@ export class DashboardVariableSourceDefinitionOutputReference extends cdktf.Comp
 }
 export interface DashboardVariable {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#allow_multi_select Dashboard#allow_multi_select}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#allow_multi_select Dashboard#allow_multi_select}
   */
   readonly allowMultiSelect?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#default_value Dashboard#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#default_value Dashboard#default_value}
   */
   readonly defaultValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#display_name Dashboard#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#display_name Dashboard#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#hide_from_ui Dashboard#hide_from_ui}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#hide_from_ui Dashboard#hide_from_ui}
   */
   readonly hideFromUi?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#include_all_option Dashboard#include_all_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#include_all_option Dashboard#include_all_option}
   */
   readonly includeAllOption?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#name Dashboard#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#name Dashboard#name}
   */
   readonly name: string;
   /**
   * source_definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#source_definition Dashboard#source_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#source_definition Dashboard#source_definition}
   */
   readonly sourceDefinition: DashboardVariableSourceDefinition;
 }
@@ -9837,7 +9837,7 @@ export class DashboardVariableList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard sumologic_dashboard}
+* Represents a {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard sumologic_dashboard}
 */
 export class Dashboard extends cdktf.TerraformResource {
 
@@ -9853,7 +9853,7 @@ export class Dashboard extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Dashboard resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Dashboard to import
-  * @param importFromId The id of the existing Dashboard that should be imported. Refer to the {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Dashboard that should be imported. Refer to the {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Dashboard to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -9865,7 +9865,7 @@ export class Dashboard extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.7/docs/resources/dashboard sumologic_dashboard} Resource
+  * Create a new {@link https://registry.terraform.io/providers/sumologic/sumologic/3.1.8/docs/resources/dashboard sumologic_dashboard} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -9876,7 +9876,8 @@ export class Dashboard extends cdktf.TerraformResource {
       terraformResourceType: 'sumologic_dashboard',
       terraformGeneratorMetadata: {
         providerName: 'sumologic',
-        providerVersion: '3.1.7'
+        providerVersion: '3.1.8',
+        providerVersionConstraint: '3.1.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

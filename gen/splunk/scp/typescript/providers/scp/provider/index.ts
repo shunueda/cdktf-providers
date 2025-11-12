@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/splunk/scp/1.2.6/docs
+// https://registry.terraform.io/providers/splunk/scp/1.2.7/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface ScpProviderConfig {
   /**
   * Authentication tokens, also known as JSON Web Tokens (JWT), are a method for authenticating Splunk platform users into the Splunk platform. May also be provided via STACK_TOKEN environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.2.6/docs#auth_token ScpProvider#auth_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.2.7/docs#auth_token ScpProvider#auth_token}
   */
   readonly authToken?: string;
   /**
   * Splunk Cloud Platform deployment password. May also be provided via STACK_PASSWORD environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.2.6/docs#password ScpProvider#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.2.7/docs#password ScpProvider#password}
   */
   readonly password?: string;
   /**
   * ACS API base URL. May also be provided via ACS_SERVER environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.2.6/docs#server ScpProvider#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.2.7/docs#server ScpProvider#server}
   */
   readonly server?: string;
   /**
   * Stack to perform ACS operations. May also be provided via SPLUNK_STACK environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.2.6/docs#stack ScpProvider#stack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.2.7/docs#stack ScpProvider#stack}
   */
   readonly stack?: string;
   /**
   * Splunk Cloud Platform deployment username. May also be provided via STACK_USERNAME environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.2.6/docs#username ScpProvider#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.2.7/docs#username ScpProvider#username}
   */
   readonly username?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.2.6/docs#alias ScpProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk/scp/1.2.7/docs#alias ScpProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/splunk/scp/1.2.6/docs scp}
+* Represents a {@link https://registry.terraform.io/providers/splunk/scp/1.2.7/docs scp}
 */
 export class ScpProvider extends cdktf.TerraformProvider {
 
@@ -62,7 +62,7 @@ export class ScpProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a ScpProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ScpProvider to import
-  * @param importFromId The id of the existing ScpProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk/scp/1.2.6/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ScpProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk/scp/1.2.7/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ScpProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class ScpProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/splunk/scp/1.2.6/docs scp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/splunk/scp/1.2.7/docs scp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,7 +85,8 @@ export class ScpProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'scp',
       terraformGeneratorMetadata: {
         providerName: 'scp',
-        providerVersion: '1.2.6'
+        providerVersion: '1.2.7',
+        providerVersionConstraint: '1.2.7'
       },
       terraformProviderSource: 'splunk/scp'
     });

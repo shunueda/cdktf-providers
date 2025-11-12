@@ -1718,7 +1718,8 @@ export class Fcv2Function extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_fcv2_function',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

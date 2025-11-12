@@ -89,7 +89,8 @@ export class ArtifactoryGenericFeed extends cdktf.TerraformResource {
       terraformResourceType: 'octopusdeploy_artifactory_generic_feed',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '0.43.2'
+        providerVersion: '0.43.2',
+        providerVersionConstraint: '0.43.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

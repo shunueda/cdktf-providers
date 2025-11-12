@@ -68,7 +68,8 @@ export class DataHoneycombioColumn extends cdktf.TerraformDataSource {
       terraformResourceType: 'honeycombio_column',
       terraformGeneratorMetadata: {
         providerName: 'honeycombio',
-        providerVersion: '0.42.0'
+        providerVersion: '0.42.0',
+        providerVersionConstraint: '0.42.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

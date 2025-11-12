@@ -79,7 +79,8 @@ export class GroundcoverProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'groundcover',
       terraformGeneratorMetadata: {
         providerName: 'groundcover',
-        providerVersion: '1.3.0'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       terraformProviderSource: 'groundcover-com/groundcover'
     });

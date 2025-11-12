@@ -3555,7 +3555,8 @@ export class TokenProcessorToTokenGeneratorMapping extends cdktf.TerraformResour
       terraformResourceType: 'pingfederate_token_processor_to_token_generator_mapping',
       terraformGeneratorMetadata: {
         providerName: 'pingfederate',
-        providerVersion: '1.6.2'
+        providerVersion: '1.6.2',
+        providerVersionConstraint: '1.6.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

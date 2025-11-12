@@ -68,7 +68,8 @@ export class DataAwsStoragegatewayLocalDisk extends cdktf.TerraformDataSource {
       terraformResourceType: 'aws_storagegateway_local_disk',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '3.29.6'
+        providerVersion: '3.29.6',
+        providerVersionConstraint: '3.29.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

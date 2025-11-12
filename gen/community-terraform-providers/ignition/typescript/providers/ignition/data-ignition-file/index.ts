@@ -858,7 +858,8 @@ export class DataIgnitionFile extends cdktf.TerraformDataSource {
       terraformResourceType: 'ignition_file',
       terraformGeneratorMetadata: {
         providerName: 'ignition',
-        providerVersion: '2.5.1'
+        providerVersion: '2.5.1',
+        providerVersionConstraint: '2.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

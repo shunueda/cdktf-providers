@@ -161,7 +161,8 @@ export class NsxtVirtualPrivateCloudProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'nsxt-virtual-private-cloud',
       terraformGeneratorMetadata: {
         providerName: 'nsxt-virtual-private-cloud',
-        providerVersion: '1.0.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       terraformProviderSource: 'vmware/nsxt-virtual-private-cloud'
     });

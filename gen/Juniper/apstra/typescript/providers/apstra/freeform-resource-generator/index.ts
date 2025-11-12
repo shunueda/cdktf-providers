@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_resource_generator
+// https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_resource_generator
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface FreeformResourceGeneratorConfig extends cdktf.TerraformMetaArgu
   /**
   * Selects the Allocation Group, parent Resource, or Local Resource Pool from which to source generated Resources. In the case of a Local Resource Pool, this value must be the name (label) of the pool. Allocation Groups and parent Resources are specified by ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_resource_generator#allocated_from FreeformResourceGenerator#allocated_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_resource_generator#allocated_from FreeformResourceGenerator#allocated_from}
   */
   readonly allocatedFrom: string;
   /**
   * Apstra Blueprint ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_resource_generator#blueprint_id FreeformResourceGenerator#blueprint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_resource_generator#blueprint_id FreeformResourceGenerator#blueprint_id}
   */
   readonly blueprintId: string;
   /**
   * ID of the group where Resources are generated. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_resource_generator#container_id FreeformResourceGenerator#container_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_resource_generator#container_id FreeformResourceGenerator#container_id}
   */
   readonly containerId: string;
   /**
   * Freeform Resource Generator name as shown in the Web UI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_resource_generator#name FreeformResourceGenerator#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_resource_generator#name FreeformResourceGenerator#name}
   */
   readonly name: string;
   /**
@@ -36,13 +36,13 @@ export interface FreeformResourceGeneratorConfig extends cdktf.TerraformMetaArgu
   * Example: `node('system', name='target', label=aeq('*prod*'))`
   * Required when `container_id` references a `apstra_freeform_resource_group` object. Must be `null` when `container_id` references a `apstra_freeform_resource_group` object. `scope` will be inherited in that case.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_resource_generator#scope FreeformResourceGenerator#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_resource_generator#scope FreeformResourceGenerator#scope}
   */
   readonly scope?: string;
   /**
   * Length of the subnet for the generated Resources. Only applicable when `type` is `ipv4` or `ipv6`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_resource_generator#subnet_prefix_len FreeformResourceGenerator#subnet_prefix_len}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_resource_generator#subnet_prefix_len FreeformResourceGenerator#subnet_prefix_len}
   */
   readonly subnetPrefixLen?: number;
   /**
@@ -57,13 +57,13 @@ export interface FreeformResourceGeneratorConfig extends cdktf.TerraformMetaArgu
   *   - `vni`
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_resource_generator#type FreeformResourceGenerator#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_resource_generator#type FreeformResourceGenerator#type}
   */
   readonly type: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_resource_generator apstra_freeform_resource_generator}
+* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_resource_generator apstra_freeform_resource_generator}
 */
 export class FreeformResourceGenerator extends cdktf.TerraformResource {
 
@@ -79,7 +79,7 @@ export class FreeformResourceGenerator extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FreeformResourceGenerator resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FreeformResourceGenerator to import
-  * @param importFromId The id of the existing FreeformResourceGenerator that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_resource_generator#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FreeformResourceGenerator that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_resource_generator#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FreeformResourceGenerator to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -91,7 +91,7 @@ export class FreeformResourceGenerator extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/freeform_resource_generator apstra_freeform_resource_generator} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/freeform_resource_generator apstra_freeform_resource_generator} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -102,7 +102,8 @@ export class FreeformResourceGenerator extends cdktf.TerraformResource {
       terraformResourceType: 'apstra_freeform_resource_generator',
       terraformGeneratorMetadata: {
         providerName: 'apstra',
-        providerVersion: '0.95.0'
+        providerVersion: '0.95.1',
+        providerVersionConstraint: '0.95.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

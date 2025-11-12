@@ -419,7 +419,8 @@ export class Organization extends cdktf.TerraformResource {
       terraformResourceType: 'coderd_organization',
       terraformGeneratorMetadata: {
         providerName: 'coderd',
-        providerVersion: '0.0.12'
+        providerVersion: '0.0.12',
+        providerVersionConstraint: '0.0.12'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/aaaparameter
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaparameter
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,116 +8,116 @@ import * as cdktf from 'cdktf';
 
 export interface AaaparameterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/aaaparameter#aaadloglevel Aaaparameter#aaadloglevel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaparameter#aaadloglevel Aaaparameter#aaadloglevel}
   */
   readonly aaadloglevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/aaaparameter#aaadnatip Aaaparameter#aaadnatip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaparameter#aaadnatip Aaaparameter#aaadnatip}
   */
   readonly aaadnatip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/aaaparameter#aaasessionloglevel Aaaparameter#aaasessionloglevel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaparameter#aaasessionloglevel Aaaparameter#aaasessionloglevel}
   */
   readonly aaasessionloglevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/aaaparameter#apitokencache Aaaparameter#apitokencache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaparameter#apitokencache Aaaparameter#apitokencache}
   */
   readonly apitokencache?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/aaaparameter#defaultauthtype Aaaparameter#defaultauthtype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaparameter#defaultauthtype Aaaparameter#defaultauthtype}
   */
   readonly defaultauthtype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/aaaparameter#defaultcspheader Aaaparameter#defaultcspheader}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaparameter#defaultcspheader Aaaparameter#defaultcspheader}
   */
   readonly defaultcspheader?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/aaaparameter#dynaddr Aaaparameter#dynaddr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaparameter#dynaddr Aaaparameter#dynaddr}
   */
   readonly dynaddr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/aaaparameter#enableenhancedauthfeedback Aaaparameter#enableenhancedauthfeedback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaparameter#enableenhancedauthfeedback Aaaparameter#enableenhancedauthfeedback}
   */
   readonly enableenhancedauthfeedback?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/aaaparameter#enablesessionstickiness Aaaparameter#enablesessionstickiness}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaparameter#enablesessionstickiness Aaaparameter#enablesessionstickiness}
   */
   readonly enablesessionstickiness?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/aaaparameter#enablestaticpagecaching Aaaparameter#enablestaticpagecaching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaparameter#enablestaticpagecaching Aaaparameter#enablestaticpagecaching}
   */
   readonly enablestaticpagecaching?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/aaaparameter#enhancedepa Aaaparameter#enhancedepa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaparameter#enhancedepa Aaaparameter#enhancedepa}
   */
   readonly enhancedepa?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/aaaparameter#failedlogintimeout Aaaparameter#failedlogintimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaparameter#failedlogintimeout Aaaparameter#failedlogintimeout}
   */
   readonly failedlogintimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/aaaparameter#ftmode Aaaparameter#ftmode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaparameter#ftmode Aaaparameter#ftmode}
   */
   readonly ftmode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/aaaparameter#httponlycookie Aaaparameter#httponlycookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaparameter#httponlycookie Aaaparameter#httponlycookie}
   */
   readonly httponlycookie?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/aaaparameter#id Aaaparameter#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaparameter#id Aaaparameter#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/aaaparameter#loginencryption Aaaparameter#loginencryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaparameter#loginencryption Aaaparameter#loginencryption}
   */
   readonly loginencryption?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/aaaparameter#maxaaausers Aaaparameter#maxaaausers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaparameter#maxaaausers Aaaparameter#maxaaausers}
   */
   readonly maxaaausers?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/aaaparameter#maxkbquestions Aaaparameter#maxkbquestions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaparameter#maxkbquestions Aaaparameter#maxkbquestions}
   */
   readonly maxkbquestions?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/aaaparameter#maxloginattempts Aaaparameter#maxloginattempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaparameter#maxloginattempts Aaaparameter#maxloginattempts}
   */
   readonly maxloginattempts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/aaaparameter#maxsamldeflatesize Aaaparameter#maxsamldeflatesize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaparameter#maxsamldeflatesize Aaaparameter#maxsamldeflatesize}
   */
   readonly maxsamldeflatesize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/aaaparameter#persistentloginattempts Aaaparameter#persistentloginattempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaparameter#persistentloginattempts Aaaparameter#persistentloginattempts}
   */
   readonly persistentloginattempts?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/aaaparameter#pwdexpirynotificationdays Aaaparameter#pwdexpirynotificationdays}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaparameter#pwdexpirynotificationdays Aaaparameter#pwdexpirynotificationdays}
   */
   readonly pwdexpirynotificationdays?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/aaaparameter#samesite Aaaparameter#samesite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaparameter#samesite Aaaparameter#samesite}
   */
   readonly samesite?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/aaaparameter#securityinsights Aaaparameter#securityinsights}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaparameter#securityinsights Aaaparameter#securityinsights}
   */
   readonly securityinsights?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/aaaparameter#tokenintrospectioninterval Aaaparameter#tokenintrospectioninterval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaparameter#tokenintrospectioninterval Aaaparameter#tokenintrospectioninterval}
   */
   readonly tokenintrospectioninterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/aaaparameter#wafprotection Aaaparameter#wafprotection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaparameter#wafprotection Aaaparameter#wafprotection}
   */
   readonly wafprotection?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/aaaparameter citrixadc_aaaparameter}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaparameter citrixadc_aaaparameter}
 */
 export class Aaaparameter extends cdktf.TerraformResource {
 
@@ -133,7 +133,7 @@ export class Aaaparameter extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Aaaparameter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Aaaparameter to import
-  * @param importFromId The id of the existing Aaaparameter that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/aaaparameter#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Aaaparameter that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaparameter#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Aaaparameter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -145,7 +145,7 @@ export class Aaaparameter extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/aaaparameter citrixadc_aaaparameter} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaparameter citrixadc_aaaparameter} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -156,7 +156,8 @@ export class Aaaparameter extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_aaaparameter',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

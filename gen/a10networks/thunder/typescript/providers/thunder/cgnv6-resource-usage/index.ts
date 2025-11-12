@@ -213,7 +213,8 @@ export class Cgnv6ResourceUsage extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_cgnv6_resource_usage',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

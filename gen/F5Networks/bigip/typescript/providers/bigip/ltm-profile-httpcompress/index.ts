@@ -134,7 +134,8 @@ export class LtmProfileHttpcompress extends cdktf.TerraformResource {
       terraformResourceType: 'bigip_ltm_profile_httpcompress',
       terraformGeneratorMetadata: {
         providerName: 'bigip',
-        providerVersion: '1.24.1'
+        providerVersion: '1.24.1',
+        providerVersionConstraint: '1.24.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

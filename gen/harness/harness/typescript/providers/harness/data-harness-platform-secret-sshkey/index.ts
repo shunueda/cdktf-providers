@@ -670,7 +670,8 @@ export class DataHarnessPlatformSecretSshkey extends cdktf.TerraformDataSource {
       terraformResourceType: 'harness_platform_secret_sshkey',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.0'
+        providerVersion: '0.39.0',
+        providerVersionConstraint: '0.39.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

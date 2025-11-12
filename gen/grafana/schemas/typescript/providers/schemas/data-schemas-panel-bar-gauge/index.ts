@@ -6323,7 +6323,8 @@ export class DataSchemasPanelBarGauge extends cdktf.TerraformDataSource {
       terraformResourceType: 'schemas_panel_bar_gauge',
       terraformGeneratorMetadata: {
         providerName: 'schemas',
-        providerVersion: '0.2.0'
+        providerVersion: '0.2.0',
+        providerVersionConstraint: '0.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

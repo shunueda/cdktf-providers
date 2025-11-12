@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_simple_gateway
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_simple_gateway
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataCheckpointManagementSimpleGatewayConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_simple_gateway#id DataCheckpointManagementSimpleGateway#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_simple_gateway#id DataCheckpointManagementSimpleGateway#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,15 +17,21 @@ export interface DataCheckpointManagementSimpleGatewayConfig extends cdktf.Terra
   /**
   * Object name. Should be unique in the domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_simple_gateway#name DataCheckpointManagementSimpleGateway#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_simple_gateway#name DataCheckpointManagementSimpleGateway#name}
   */
   readonly name?: string;
   /**
   * Object unique identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_simple_gateway#uid DataCheckpointManagementSimpleGateway#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_simple_gateway#uid DataCheckpointManagementSimpleGateway#uid}
   */
   readonly uid?: string;
+  /**
+  * ips_settings block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_simple_gateway#ips_settings DataCheckpointManagementSimpleGateway#ips_settings}
+  */
+  readonly ipsSettings?: DataCheckpointManagementSimpleGatewayIpsSettings;
 }
 export interface DataCheckpointManagementSimpleGatewayAdvancedSettingsSamPurgeSamFile {
 }
@@ -3965,9 +3971,496 @@ export class DataCheckpointManagementSimpleGatewayUsercheckPortalSettingsList ex
     return new DataCheckpointManagementSimpleGatewayUsercheckPortalSettingsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface DataCheckpointManagementSimpleGatewayIpsSettingsTopCpuConsumingProtections {
+  /**
+  * Duration (in hours) for disabling the protections.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_simple_gateway#disable_period DataCheckpointManagementSimpleGateway#disable_period}
+  */
+  readonly disablePeriod?: number;
+  /**
+  * Temporarily disable/enable top CPU consuming IPS protections.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_simple_gateway#disable_under_load DataCheckpointManagementSimpleGateway#disable_under_load}
+  */
+  readonly disableUnderLoad?: boolean | cdktf.IResolvable;
+}
+
+export function dataCheckpointManagementSimpleGatewayIpsSettingsTopCpuConsumingProtectionsToTerraform(struct?: DataCheckpointManagementSimpleGatewayIpsSettingsTopCpuConsumingProtectionsOutputReference | DataCheckpointManagementSimpleGatewayIpsSettingsTopCpuConsumingProtections): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    disable_period: cdktf.numberToTerraform(struct!.disablePeriod),
+    disable_under_load: cdktf.booleanToTerraform(struct!.disableUnderLoad),
+  }
+}
+
+
+export function dataCheckpointManagementSimpleGatewayIpsSettingsTopCpuConsumingProtectionsToHclTerraform(struct?: DataCheckpointManagementSimpleGatewayIpsSettingsTopCpuConsumingProtectionsOutputReference | DataCheckpointManagementSimpleGatewayIpsSettingsTopCpuConsumingProtections): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    disable_period: {
+      value: cdktf.numberToHclTerraform(struct!.disablePeriod),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    disable_under_load: {
+      value: cdktf.booleanToHclTerraform(struct!.disableUnderLoad),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataCheckpointManagementSimpleGatewayIpsSettingsTopCpuConsumingProtectionsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataCheckpointManagementSimpleGatewayIpsSettingsTopCpuConsumingProtections | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._disablePeriod !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.disablePeriod = this._disablePeriod;
+    }
+    if (this._disableUnderLoad !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.disableUnderLoad = this._disableUnderLoad;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataCheckpointManagementSimpleGatewayIpsSettingsTopCpuConsumingProtections | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._disablePeriod = undefined;
+      this._disableUnderLoad = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._disablePeriod = value.disablePeriod;
+      this._disableUnderLoad = value.disableUnderLoad;
+    }
+  }
+
+  // disable_period - computed: false, optional: true, required: false
+  private _disablePeriod?: number; 
+  public get disablePeriod() {
+    return this.getNumberAttribute('disable_period');
+  }
+  public set disablePeriod(value: number) {
+    this._disablePeriod = value;
+  }
+  public resetDisablePeriod() {
+    this._disablePeriod = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get disablePeriodInput() {
+    return this._disablePeriod;
+  }
+
+  // disable_under_load - computed: false, optional: true, required: false
+  private _disableUnderLoad?: boolean | cdktf.IResolvable; 
+  public get disableUnderLoad() {
+    return this.getBooleanAttribute('disable_under_load');
+  }
+  public set disableUnderLoad(value: boolean | cdktf.IResolvable) {
+    this._disableUnderLoad = value;
+  }
+  public resetDisableUnderLoad() {
+    this._disableUnderLoad = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get disableUnderLoadInput() {
+    return this._disableUnderLoad;
+  }
+}
+export interface DataCheckpointManagementSimpleGatewayIpsSettings {
+  /**
+  * Defines whether the IPS blade operates in Detect Only mode or enforces the configured IPS Policy.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_simple_gateway#activation_mode DataCheckpointManagementSimpleGateway#activation_mode}
+  */
+  readonly activationMode?: string;
+  /**
+  * Disable/enable all IPS protections until CPU and memory levels are back to normal.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_simple_gateway#bypass_all_under_load DataCheckpointManagementSimpleGateway#bypass_all_under_load}
+  */
+  readonly bypassAllUnderLoad?: boolean | cdktf.IResolvable;
+  /**
+  * Track options when all IPS protections are disabled until CPU/memory levels are back to normal.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_simple_gateway#bypass_track_method DataCheckpointManagementSimpleGateway#bypass_track_method}
+  */
+  readonly bypassTrackMethod?: string;
+  /**
+  * CPU usage high threshold percentage (1-99).
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_simple_gateway#cpu_usage_high_threshold DataCheckpointManagementSimpleGateway#cpu_usage_high_threshold}
+  */
+  readonly cpuUsageHighThreshold?: number;
+  /**
+  * CPU usage low threshold percentage (1-99).
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_simple_gateway#cpu_usage_low_threshold DataCheckpointManagementSimpleGateway#cpu_usage_low_threshold}
+  */
+  readonly cpuUsageLowThreshold?: number;
+  /**
+  * Memory usage high threshold percentage (1-99).
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_simple_gateway#memory_usage_high_threshold DataCheckpointManagementSimpleGateway#memory_usage_high_threshold}
+  */
+  readonly memoryUsageHighThreshold?: number;
+  /**
+  * Memory usage low threshold percentage (1-99).
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_simple_gateway#memory_usage_low_threshold DataCheckpointManagementSimpleGateway#memory_usage_low_threshold}
+  */
+  readonly memoryUsageLowThreshold?: number;
+  /**
+  * Help improve Check Point Threat Prevention product by sending anonymous information.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_simple_gateway#send_threat_cloud_info DataCheckpointManagementSimpleGateway#send_threat_cloud_info}
+  */
+  readonly sendThreatCloudInfo?: boolean | cdktf.IResolvable;
+  /**
+  * top_cpu_consuming_protections block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_simple_gateway#top_cpu_consuming_protections DataCheckpointManagementSimpleGateway#top_cpu_consuming_protections}
+  */
+  readonly topCpuConsumingProtections?: DataCheckpointManagementSimpleGatewayIpsSettingsTopCpuConsumingProtections;
+}
+
+export function dataCheckpointManagementSimpleGatewayIpsSettingsToTerraform(struct?: DataCheckpointManagementSimpleGatewayIpsSettingsOutputReference | DataCheckpointManagementSimpleGatewayIpsSettings): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    activation_mode: cdktf.stringToTerraform(struct!.activationMode),
+    bypass_all_under_load: cdktf.booleanToTerraform(struct!.bypassAllUnderLoad),
+    bypass_track_method: cdktf.stringToTerraform(struct!.bypassTrackMethod),
+    cpu_usage_high_threshold: cdktf.numberToTerraform(struct!.cpuUsageHighThreshold),
+    cpu_usage_low_threshold: cdktf.numberToTerraform(struct!.cpuUsageLowThreshold),
+    memory_usage_high_threshold: cdktf.numberToTerraform(struct!.memoryUsageHighThreshold),
+    memory_usage_low_threshold: cdktf.numberToTerraform(struct!.memoryUsageLowThreshold),
+    send_threat_cloud_info: cdktf.booleanToTerraform(struct!.sendThreatCloudInfo),
+    top_cpu_consuming_protections: dataCheckpointManagementSimpleGatewayIpsSettingsTopCpuConsumingProtectionsToTerraform(struct!.topCpuConsumingProtections),
+  }
+}
+
+
+export function dataCheckpointManagementSimpleGatewayIpsSettingsToHclTerraform(struct?: DataCheckpointManagementSimpleGatewayIpsSettingsOutputReference | DataCheckpointManagementSimpleGatewayIpsSettings): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    activation_mode: {
+      value: cdktf.stringToHclTerraform(struct!.activationMode),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    bypass_all_under_load: {
+      value: cdktf.booleanToHclTerraform(struct!.bypassAllUnderLoad),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    bypass_track_method: {
+      value: cdktf.stringToHclTerraform(struct!.bypassTrackMethod),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    cpu_usage_high_threshold: {
+      value: cdktf.numberToHclTerraform(struct!.cpuUsageHighThreshold),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    cpu_usage_low_threshold: {
+      value: cdktf.numberToHclTerraform(struct!.cpuUsageLowThreshold),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    memory_usage_high_threshold: {
+      value: cdktf.numberToHclTerraform(struct!.memoryUsageHighThreshold),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    memory_usage_low_threshold: {
+      value: cdktf.numberToHclTerraform(struct!.memoryUsageLowThreshold),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    send_threat_cloud_info: {
+      value: cdktf.booleanToHclTerraform(struct!.sendThreatCloudInfo),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    top_cpu_consuming_protections: {
+      value: dataCheckpointManagementSimpleGatewayIpsSettingsTopCpuConsumingProtectionsToHclTerraform(struct!.topCpuConsumingProtections),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataCheckpointManagementSimpleGatewayIpsSettingsTopCpuConsumingProtectionsList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataCheckpointManagementSimpleGatewayIpsSettingsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataCheckpointManagementSimpleGatewayIpsSettings | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._activationMode !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.activationMode = this._activationMode;
+    }
+    if (this._bypassAllUnderLoad !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.bypassAllUnderLoad = this._bypassAllUnderLoad;
+    }
+    if (this._bypassTrackMethod !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.bypassTrackMethod = this._bypassTrackMethod;
+    }
+    if (this._cpuUsageHighThreshold !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.cpuUsageHighThreshold = this._cpuUsageHighThreshold;
+    }
+    if (this._cpuUsageLowThreshold !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.cpuUsageLowThreshold = this._cpuUsageLowThreshold;
+    }
+    if (this._memoryUsageHighThreshold !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.memoryUsageHighThreshold = this._memoryUsageHighThreshold;
+    }
+    if (this._memoryUsageLowThreshold !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.memoryUsageLowThreshold = this._memoryUsageLowThreshold;
+    }
+    if (this._sendThreatCloudInfo !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sendThreatCloudInfo = this._sendThreatCloudInfo;
+    }
+    if (this._topCpuConsumingProtections?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.topCpuConsumingProtections = this._topCpuConsumingProtections?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataCheckpointManagementSimpleGatewayIpsSettings | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._activationMode = undefined;
+      this._bypassAllUnderLoad = undefined;
+      this._bypassTrackMethod = undefined;
+      this._cpuUsageHighThreshold = undefined;
+      this._cpuUsageLowThreshold = undefined;
+      this._memoryUsageHighThreshold = undefined;
+      this._memoryUsageLowThreshold = undefined;
+      this._sendThreatCloudInfo = undefined;
+      this._topCpuConsumingProtections.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._activationMode = value.activationMode;
+      this._bypassAllUnderLoad = value.bypassAllUnderLoad;
+      this._bypassTrackMethod = value.bypassTrackMethod;
+      this._cpuUsageHighThreshold = value.cpuUsageHighThreshold;
+      this._cpuUsageLowThreshold = value.cpuUsageLowThreshold;
+      this._memoryUsageHighThreshold = value.memoryUsageHighThreshold;
+      this._memoryUsageLowThreshold = value.memoryUsageLowThreshold;
+      this._sendThreatCloudInfo = value.sendThreatCloudInfo;
+      this._topCpuConsumingProtections.internalValue = value.topCpuConsumingProtections;
+    }
+  }
+
+  // activation_mode - computed: false, optional: true, required: false
+  private _activationMode?: string; 
+  public get activationMode() {
+    return this.getStringAttribute('activation_mode');
+  }
+  public set activationMode(value: string) {
+    this._activationMode = value;
+  }
+  public resetActivationMode() {
+    this._activationMode = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get activationModeInput() {
+    return this._activationMode;
+  }
+
+  // bypass_all_under_load - computed: false, optional: true, required: false
+  private _bypassAllUnderLoad?: boolean | cdktf.IResolvable; 
+  public get bypassAllUnderLoad() {
+    return this.getBooleanAttribute('bypass_all_under_load');
+  }
+  public set bypassAllUnderLoad(value: boolean | cdktf.IResolvable) {
+    this._bypassAllUnderLoad = value;
+  }
+  public resetBypassAllUnderLoad() {
+    this._bypassAllUnderLoad = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bypassAllUnderLoadInput() {
+    return this._bypassAllUnderLoad;
+  }
+
+  // bypass_track_method - computed: false, optional: true, required: false
+  private _bypassTrackMethod?: string; 
+  public get bypassTrackMethod() {
+    return this.getStringAttribute('bypass_track_method');
+  }
+  public set bypassTrackMethod(value: string) {
+    this._bypassTrackMethod = value;
+  }
+  public resetBypassTrackMethod() {
+    this._bypassTrackMethod = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bypassTrackMethodInput() {
+    return this._bypassTrackMethod;
+  }
+
+  // cpu_usage_high_threshold - computed: false, optional: true, required: false
+  private _cpuUsageHighThreshold?: number; 
+  public get cpuUsageHighThreshold() {
+    return this.getNumberAttribute('cpu_usage_high_threshold');
+  }
+  public set cpuUsageHighThreshold(value: number) {
+    this._cpuUsageHighThreshold = value;
+  }
+  public resetCpuUsageHighThreshold() {
+    this._cpuUsageHighThreshold = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cpuUsageHighThresholdInput() {
+    return this._cpuUsageHighThreshold;
+  }
+
+  // cpu_usage_low_threshold - computed: false, optional: true, required: false
+  private _cpuUsageLowThreshold?: number; 
+  public get cpuUsageLowThreshold() {
+    return this.getNumberAttribute('cpu_usage_low_threshold');
+  }
+  public set cpuUsageLowThreshold(value: number) {
+    this._cpuUsageLowThreshold = value;
+  }
+  public resetCpuUsageLowThreshold() {
+    this._cpuUsageLowThreshold = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cpuUsageLowThresholdInput() {
+    return this._cpuUsageLowThreshold;
+  }
+
+  // memory_usage_high_threshold - computed: false, optional: true, required: false
+  private _memoryUsageHighThreshold?: number; 
+  public get memoryUsageHighThreshold() {
+    return this.getNumberAttribute('memory_usage_high_threshold');
+  }
+  public set memoryUsageHighThreshold(value: number) {
+    this._memoryUsageHighThreshold = value;
+  }
+  public resetMemoryUsageHighThreshold() {
+    this._memoryUsageHighThreshold = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get memoryUsageHighThresholdInput() {
+    return this._memoryUsageHighThreshold;
+  }
+
+  // memory_usage_low_threshold - computed: false, optional: true, required: false
+  private _memoryUsageLowThreshold?: number; 
+  public get memoryUsageLowThreshold() {
+    return this.getNumberAttribute('memory_usage_low_threshold');
+  }
+  public set memoryUsageLowThreshold(value: number) {
+    this._memoryUsageLowThreshold = value;
+  }
+  public resetMemoryUsageLowThreshold() {
+    this._memoryUsageLowThreshold = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get memoryUsageLowThresholdInput() {
+    return this._memoryUsageLowThreshold;
+  }
+
+  // send_threat_cloud_info - computed: false, optional: true, required: false
+  private _sendThreatCloudInfo?: boolean | cdktf.IResolvable; 
+  public get sendThreatCloudInfo() {
+    return this.getBooleanAttribute('send_threat_cloud_info');
+  }
+  public set sendThreatCloudInfo(value: boolean | cdktf.IResolvable) {
+    this._sendThreatCloudInfo = value;
+  }
+  public resetSendThreatCloudInfo() {
+    this._sendThreatCloudInfo = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sendThreatCloudInfoInput() {
+    return this._sendThreatCloudInfo;
+  }
+
+  // top_cpu_consuming_protections - computed: false, optional: true, required: false
+  private _topCpuConsumingProtections = new DataCheckpointManagementSimpleGatewayIpsSettingsTopCpuConsumingProtectionsOutputReference(this, "top_cpu_consuming_protections");
+  public get topCpuConsumingProtections() {
+    return this._topCpuConsumingProtections;
+  }
+  public putTopCpuConsumingProtections(value: DataCheckpointManagementSimpleGatewayIpsSettingsTopCpuConsumingProtections) {
+    this._topCpuConsumingProtections.internalValue = value;
+  }
+  public resetTopCpuConsumingProtections() {
+    this._topCpuConsumingProtections.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get topCpuConsumingProtectionsInput() {
+    return this._topCpuConsumingProtections.internalValue;
+  }
+}
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_simple_gateway checkpoint_management_simple_gateway}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_simple_gateway checkpoint_management_simple_gateway}
 */
 export class DataCheckpointManagementSimpleGateway extends cdktf.TerraformDataSource {
 
@@ -3983,7 +4476,7 @@ export class DataCheckpointManagementSimpleGateway extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataCheckpointManagementSimpleGateway resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCheckpointManagementSimpleGateway to import
-  * @param importFromId The id of the existing DataCheckpointManagementSimpleGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_simple_gateway#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCheckpointManagementSimpleGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_simple_gateway#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCheckpointManagementSimpleGateway to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3995,7 +4488,7 @@ export class DataCheckpointManagementSimpleGateway extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_simple_gateway checkpoint_management_simple_gateway} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_simple_gateway checkpoint_management_simple_gateway} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4006,7 +4499,8 @@ export class DataCheckpointManagementSimpleGateway extends cdktf.TerraformDataSo
       terraformResourceType: 'checkpoint_management_simple_gateway',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -4019,6 +4513,7 @@ export class DataCheckpointManagementSimpleGateway extends cdktf.TerraformDataSo
     this._id = config.id;
     this._name = config.name;
     this._uid = config.uid;
+    this._ipsSettings.internalValue = config.ipsSettings;
   }
 
   // ==========
@@ -4325,6 +4820,22 @@ export class DataCheckpointManagementSimpleGateway extends cdktf.TerraformDataSo
     return this.getStringAttribute('zero_phishing_fqdn');
   }
 
+  // ips_settings - computed: false, optional: true, required: false
+  private _ipsSettings = new DataCheckpointManagementSimpleGatewayIpsSettingsOutputReference(this, "ips_settings");
+  public get ipsSettings() {
+    return this._ipsSettings;
+  }
+  public putIpsSettings(value: DataCheckpointManagementSimpleGatewayIpsSettings) {
+    this._ipsSettings.internalValue = value;
+  }
+  public resetIpsSettings() {
+    this._ipsSettings.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipsSettingsInput() {
+    return this._ipsSettings.internalValue;
+  }
+
   // =========
   // SYNTHESIS
   // =========
@@ -4334,6 +4845,7 @@ export class DataCheckpointManagementSimpleGateway extends cdktf.TerraformDataSo
       id: cdktf.stringToTerraform(this._id),
       name: cdktf.stringToTerraform(this._name),
       uid: cdktf.stringToTerraform(this._uid),
+      ips_settings: dataCheckpointManagementSimpleGatewayIpsSettingsToTerraform(this._ipsSettings.internalValue),
     };
   }
 
@@ -4356,6 +4868,12 @@ export class DataCheckpointManagementSimpleGateway extends cdktf.TerraformDataSo
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      ips_settings: {
+        value: dataCheckpointManagementSimpleGatewayIpsSettingsToHclTerraform(this._ipsSettings.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "DataCheckpointManagementSimpleGatewayIpsSettingsList",
       },
     };
 

@@ -500,7 +500,8 @@ export class DataPacketfabricMarketplaceServicePortRequests extends cdktf.Terraf
       terraformResourceType: 'packetfabric_marketplace_service_port_requests',
       terraformGeneratorMetadata: {
         providerName: 'packetfabric',
-        providerVersion: '1.9.3'
+        providerVersion: '1.9.3',
+        providerVersionConstraint: '1.9.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

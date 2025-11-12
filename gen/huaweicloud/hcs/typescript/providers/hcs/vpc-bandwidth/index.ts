@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/vpc_bandwidth
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vpc_bandwidth
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,28 @@ import * as cdktf from 'cdktf';
 
 export interface VpcBandwidthConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/vpc_bandwidth#id VpcBandwidth#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vpc_bandwidth#id VpcBandwidth#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/vpc_bandwidth#name VpcBandwidth#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vpc_bandwidth#name VpcBandwidth#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/vpc_bandwidth#region VpcBandwidth#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vpc_bandwidth#region VpcBandwidth#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/vpc_bandwidth#size VpcBandwidth#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vpc_bandwidth#size VpcBandwidth#size}
   */
   readonly size: number;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/vpc_bandwidth#timeouts VpcBandwidth#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vpc_bandwidth#timeouts VpcBandwidth#timeouts}
   */
   readonly timeouts?: VpcBandwidthTimeouts;
 }
@@ -125,15 +125,15 @@ export class VpcBandwidthPublicipsList extends cdktf.ComplexList {
 }
 export interface VpcBandwidthTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/vpc_bandwidth#create VpcBandwidth#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vpc_bandwidth#create VpcBandwidth#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/vpc_bandwidth#delete VpcBandwidth#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vpc_bandwidth#delete VpcBandwidth#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/vpc_bandwidth#update VpcBandwidth#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vpc_bandwidth#update VpcBandwidth#update}
   */
   readonly update?: string;
 }
@@ -285,7 +285,7 @@ export class VpcBandwidthTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/vpc_bandwidth hcs_vpc_bandwidth}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vpc_bandwidth hcs_vpc_bandwidth}
 */
 export class VpcBandwidth extends cdktf.TerraformResource {
 
@@ -301,7 +301,7 @@ export class VpcBandwidth extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VpcBandwidth resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpcBandwidth to import
-  * @param importFromId The id of the existing VpcBandwidth that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/vpc_bandwidth#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpcBandwidth that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vpc_bandwidth#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpcBandwidth to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -313,7 +313,7 @@ export class VpcBandwidth extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/vpc_bandwidth hcs_vpc_bandwidth} Resource
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/vpc_bandwidth hcs_vpc_bandwidth} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -324,7 +324,8 @@ export class VpcBandwidth extends cdktf.TerraformResource {
       terraformResourceType: 'hcs_vpc_bandwidth',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.19'
+        providerVersion: '2.4.20',
+        providerVersionConstraint: '2.4.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

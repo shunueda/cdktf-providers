@@ -252,7 +252,8 @@ export class TxtRecord extends cdktf.TerraformResource {
       terraformResourceType: 'constellix_txt_record',
       terraformGeneratorMetadata: {
         providerName: 'constellix',
-        providerVersion: '0.4.6'
+        providerVersion: '0.4.6',
+        providerVersionConstraint: '0.4.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

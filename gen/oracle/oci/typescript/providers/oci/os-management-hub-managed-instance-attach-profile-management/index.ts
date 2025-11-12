@@ -230,7 +230,8 @@ export class OsManagementHubManagedInstanceAttachProfileManagement extends cdktf
       terraformResourceType: 'oci_os_management_hub_managed_instance_attach_profile_management',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

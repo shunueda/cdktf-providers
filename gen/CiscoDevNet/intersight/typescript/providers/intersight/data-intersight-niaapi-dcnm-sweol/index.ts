@@ -3844,7 +3844,8 @@ export class DataIntersightNiaapiDcnmSweol extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_niaapi_dcnm_sweol',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

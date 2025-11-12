@@ -67,7 +67,8 @@ export class IncidentProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'incident',
       terraformGeneratorMetadata: {
         providerName: 'incident',
-        providerVersion: '5.18.0'
+        providerVersion: '5.18.0',
+        providerVersionConstraint: '5.18.0'
       },
       terraformProviderSource: 'incident-io/incident'
     });

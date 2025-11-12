@@ -300,7 +300,8 @@ export class SecurityFirewall extends cdktf.TerraformResource {
       terraformResourceType: 'cloudamqp_security_firewall',
       terraformGeneratorMetadata: {
         providerName: 'cloudamqp',
-        providerVersion: '1.38.1'
+        providerVersion: '1.38.1',
+        providerVersionConstraint: '1.38.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

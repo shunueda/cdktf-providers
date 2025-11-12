@@ -60,7 +60,8 @@ export class DataOctopusdeployMachine extends cdktf.TerraformDataSource {
       terraformResourceType: 'octopusdeploy_machine',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '0.43.2'
+        providerVersion: '0.43.2',
+        providerVersionConstraint: '0.43.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

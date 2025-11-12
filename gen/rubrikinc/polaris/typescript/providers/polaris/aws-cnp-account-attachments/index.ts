@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/resources/aws_cnp_account_attachments
+// https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_cnp_account_attachments
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface AwsCnpAccountAttachmentsConfig extends cdktf.TerraformMetaArgum
   /**
   * RSC cloud account ID (UUID). Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/resources/aws_cnp_account_attachments#account_id AwsCnpAccountAttachments#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_cnp_account_attachments#account_id AwsCnpAccountAttachments#account_id}
   */
   readonly accountId: string;
   /**
   * RSC features. Possible values are `CLOUD_NATIVE_ARCHIVAL`, `CLOUD_NATIVE_DYNAMODB_PROTECTION`, `CLOUD_NATIVE_PROTECTION`, `CLOUD_NATIVE_S3_PROTECTION`, `SERVERS_AND_APPS`, `EXOCOMPUTE` and `RDS_PROTECTION`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/resources/aws_cnp_account_attachments#features AwsCnpAccountAttachments#features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_cnp_account_attachments#features AwsCnpAccountAttachments#features}
   */
   readonly features: string[];
   /**
   * instance_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/resources/aws_cnp_account_attachments#instance_profile AwsCnpAccountAttachments#instance_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_cnp_account_attachments#instance_profile AwsCnpAccountAttachments#instance_profile}
   */
   readonly instanceProfile?: AwsCnpAccountAttachmentsInstanceProfile[] | cdktf.IResolvable;
   /**
   * role block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/resources/aws_cnp_account_attachments#role AwsCnpAccountAttachments#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_cnp_account_attachments#role AwsCnpAccountAttachments#role}
   */
   readonly role: AwsCnpAccountAttachmentsRole[] | cdktf.IResolvable;
 }
@@ -36,13 +36,13 @@ export interface AwsCnpAccountAttachmentsInstanceProfile {
   /**
   * RSC artifact key for the AWS instance profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/resources/aws_cnp_account_attachments#key AwsCnpAccountAttachments#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_cnp_account_attachments#key AwsCnpAccountAttachments#key}
   */
   readonly key: string;
   /**
   * AWS instance profile name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/resources/aws_cnp_account_attachments#name AwsCnpAccountAttachments#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_cnp_account_attachments#name AwsCnpAccountAttachments#name}
   */
   readonly name: string;
 }
@@ -183,19 +183,19 @@ export interface AwsCnpAccountAttachmentsRole {
   /**
   * AWS role ARN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/resources/aws_cnp_account_attachments#arn AwsCnpAccountAttachments#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_cnp_account_attachments#arn AwsCnpAccountAttachments#arn}
   */
   readonly arn: string;
   /**
   * RSC artifact key for the AWS role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/resources/aws_cnp_account_attachments#key AwsCnpAccountAttachments#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_cnp_account_attachments#key AwsCnpAccountAttachments#key}
   */
   readonly key: string;
   /**
   * Permissions updated signal. When this field changes, the provider will notify RSC that the permissions for the feature has been updated. Use this field with the `id` field of the `polaris_aws_cnp_permissions` data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/resources/aws_cnp_account_attachments#permissions AwsCnpAccountAttachments#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_cnp_account_attachments#permissions AwsCnpAccountAttachments#permissions}
   */
   readonly permissions?: string;
 }
@@ -363,7 +363,7 @@ export class AwsCnpAccountAttachmentsRoleList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/resources/aws_cnp_account_attachments polaris_aws_cnp_account_attachments}
+* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_cnp_account_attachments polaris_aws_cnp_account_attachments}
 */
 export class AwsCnpAccountAttachments extends cdktf.TerraformResource {
 
@@ -379,7 +379,7 @@ export class AwsCnpAccountAttachments extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AwsCnpAccountAttachments resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AwsCnpAccountAttachments to import
-  * @param importFromId The id of the existing AwsCnpAccountAttachments that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/resources/aws_cnp_account_attachments#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AwsCnpAccountAttachments that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_cnp_account_attachments#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AwsCnpAccountAttachments to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -391,7 +391,7 @@ export class AwsCnpAccountAttachments extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.2.1/docs/resources/aws_cnp_account_attachments polaris_aws_cnp_account_attachments} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_cnp_account_attachments polaris_aws_cnp_account_attachments} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -402,7 +402,8 @@ export class AwsCnpAccountAttachments extends cdktf.TerraformResource {
       terraformResourceType: 'polaris_aws_cnp_account_attachments',
       terraformGeneratorMetadata: {
         providerName: 'polaris',
-        providerVersion: '1.2.1'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/elasticsearch_instance
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/elasticsearch_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,164 +8,114 @@ import * as cdktf from 'cdktf';
 
 export interface ElasticsearchInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/elasticsearch_instance#action_auto_create_index ElasticsearchInstance#action_auto_create_index}
-  */
-  readonly actionAutoCreateIndex?: boolean | cdktf.IResolvable;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/elasticsearch_instance#action_destructive_requires_name ElasticsearchInstance#action_destructive_requires_name}
-  */
-  readonly actionDestructiveRequiresName?: boolean | cdktf.IResolvable;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/elasticsearch_instance#apack_accesslog_enabled ElasticsearchInstance#apack_accesslog_enabled}
-  */
-  readonly apackAccesslogEnabled?: boolean | cdktf.IResolvable;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/elasticsearch_instance#apack_accesslog_search_enabled ElasticsearchInstance#apack_accesslog_search_enabled}
-  */
-  readonly apackAccesslogSearchEnabled?: boolean | cdktf.IResolvable;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/elasticsearch_instance#client_node_amount ElasticsearchInstance#client_node_amount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/elasticsearch_instance#client_node_amount ElasticsearchInstance#client_node_amount}
   */
   readonly clientNodeAmount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/elasticsearch_instance#client_node_spec ElasticsearchInstance#client_node_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/elasticsearch_instance#client_node_spec ElasticsearchInstance#client_node_spec}
   */
   readonly clientNodeSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/elasticsearch_instance#cluster_routing_allocation_disk_watermark_flood_stage ElasticsearchInstance#cluster_routing_allocation_disk_watermark_flood_stage}
-  */
-  readonly clusterRoutingAllocationDiskWatermarkFloodStage?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/elasticsearch_instance#cluster_routing_allocation_disk_watermark_high ElasticsearchInstance#cluster_routing_allocation_disk_watermark_high}
-  */
-  readonly clusterRoutingAllocationDiskWatermarkHigh?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/elasticsearch_instance#cluster_routing_allocation_disk_watermark_low ElasticsearchInstance#cluster_routing_allocation_disk_watermark_low}
-  */
-  readonly clusterRoutingAllocationDiskWatermarkLow?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/elasticsearch_instance#cpu_type ElasticsearchInstance#cpu_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/elasticsearch_instance#cpu_type ElasticsearchInstance#cpu_type}
   */
   readonly cpuType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/elasticsearch_instance#data_node_affinity ElasticsearchInstance#data_node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/elasticsearch_instance#data_node_affinity ElasticsearchInstance#data_node_affinity}
   */
   readonly dataNodeAffinity?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/elasticsearch_instance#data_node_amount ElasticsearchInstance#data_node_amount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/elasticsearch_instance#data_node_amount ElasticsearchInstance#data_node_amount}
   */
   readonly dataNodeAmount: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/elasticsearch_instance#data_node_disk_size ElasticsearchInstance#data_node_disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/elasticsearch_instance#data_node_disk_size ElasticsearchInstance#data_node_disk_size}
   */
   readonly dataNodeDiskSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/elasticsearch_instance#data_node_disk_type ElasticsearchInstance#data_node_disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/elasticsearch_instance#data_node_disk_type ElasticsearchInstance#data_node_disk_type}
   */
   readonly dataNodeDiskType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/elasticsearch_instance#data_node_spec ElasticsearchInstance#data_node_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/elasticsearch_instance#data_node_spec ElasticsearchInstance#data_node_spec}
   */
   readonly dataNodeSpec: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/elasticsearch_instance#description ElasticsearchInstance#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/elasticsearch_instance#description ElasticsearchInstance#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/elasticsearch_instance#id ElasticsearchInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/elasticsearch_instance#id ElasticsearchInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/elasticsearch_instance#kibana_node_spec ElasticsearchInstance#kibana_node_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/elasticsearch_instance#kibana_node_spec ElasticsearchInstance#kibana_node_spec}
   */
   readonly kibanaNodeSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/elasticsearch_instance#kibana_password ElasticsearchInstance#kibana_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/elasticsearch_instance#kibana_password ElasticsearchInstance#kibana_password}
   */
   readonly kibanaPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/elasticsearch_instance#master_node_amount ElasticsearchInstance#master_node_amount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/elasticsearch_instance#master_node_amount ElasticsearchInstance#master_node_amount}
   */
   readonly masterNodeAmount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/elasticsearch_instance#master_node_disk_size ElasticsearchInstance#master_node_disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/elasticsearch_instance#master_node_disk_size ElasticsearchInstance#master_node_disk_size}
   */
   readonly masterNodeDiskSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/elasticsearch_instance#master_node_disk_type ElasticsearchInstance#master_node_disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/elasticsearch_instance#master_node_disk_type ElasticsearchInstance#master_node_disk_type}
   */
   readonly masterNodeDiskType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/elasticsearch_instance#master_node_spec ElasticsearchInstance#master_node_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/elasticsearch_instance#master_node_spec ElasticsearchInstance#master_node_spec}
   */
   readonly masterNodeSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/elasticsearch_instance#monitor_password ElasticsearchInstance#monitor_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/elasticsearch_instance#monitor_password ElasticsearchInstance#monitor_password}
   */
   readonly monitorPassword: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/elasticsearch_instance#password ElasticsearchInstance#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/elasticsearch_instance#password ElasticsearchInstance#password}
   */
   readonly password: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/elasticsearch_instance#protocol ElasticsearchInstance#protocol}
-  */
-  readonly protocol?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/elasticsearch_instance#scene ElasticsearchInstance#scene}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/elasticsearch_instance#scene ElasticsearchInstance#scene}
   */
   readonly scene: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/elasticsearch_instance#setting_config ElasticsearchInstance#setting_config}
-  */
-  readonly settingConfig?: { [key: string]: string };
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/elasticsearch_instance#thread_pool_search_queue_size ElasticsearchInstance#thread_pool_search_queue_size}
-  */
-  readonly threadPoolSearchQueueSize?: number;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/elasticsearch_instance#thread_pool_write_queue_size ElasticsearchInstance#thread_pool_write_queue_size}
-  */
-  readonly threadPoolWriteQueueSize?: number;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/elasticsearch_instance#version ElasticsearchInstance#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/elasticsearch_instance#version ElasticsearchInstance#version}
   */
   readonly version: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/elasticsearch_instance#vswitch_id ElasticsearchInstance#vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/elasticsearch_instance#vswitch_id ElasticsearchInstance#vswitch_id}
   */
   readonly vswitchId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/elasticsearch_instance#zone_id ElasticsearchInstance#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/elasticsearch_instance#zone_id ElasticsearchInstance#zone_id}
   */
   readonly zoneId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/elasticsearch_instance#timeouts ElasticsearchInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/elasticsearch_instance#timeouts ElasticsearchInstance#timeouts}
   */
   readonly timeouts?: ElasticsearchInstanceTimeouts;
-  /**
-  * vpc_whitelist block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/elasticsearch_instance#vpc_whitelist ElasticsearchInstance#vpc_whitelist}
-  */
-  readonly vpcWhitelist?: ElasticsearchInstanceVpcWhitelistStruct[] | cdktf.IResolvable;
 }
 export interface ElasticsearchInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/elasticsearch_instance#create ElasticsearchInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/elasticsearch_instance#create ElasticsearchInstance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/elasticsearch_instance#delete ElasticsearchInstance#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/elasticsearch_instance#delete ElasticsearchInstance#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/elasticsearch_instance#update ElasticsearchInstance#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/elasticsearch_instance#update ElasticsearchInstance#update}
   */
   readonly update?: string;
 }
@@ -315,155 +265,9 @@ export class ElasticsearchInstanceTimeoutsOutputReference extends cdktf.ComplexO
     return this._update;
   }
 }
-export interface ElasticsearchInstanceVpcWhitelistStruct {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/elasticsearch_instance#ips ElasticsearchInstance#ips}
-  */
-  readonly ips?: string[];
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/elasticsearch_instance#vpc_id ElasticsearchInstance#vpc_id}
-  */
-  readonly vpcId: string;
-}
-
-export function elasticsearchInstanceVpcWhitelistStructToTerraform(struct?: ElasticsearchInstanceVpcWhitelistStruct | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    ips: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.ips),
-    vpc_id: cdktf.stringToTerraform(struct!.vpcId),
-  }
-}
-
-
-export function elasticsearchInstanceVpcWhitelistStructToHclTerraform(struct?: ElasticsearchInstanceVpcWhitelistStruct | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    ips: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.ips),
-      isBlock: false,
-      type: "list",
-      storageClassType: "stringList",
-    },
-    vpc_id: {
-      value: cdktf.stringToHclTerraform(struct!.vpcId),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class ElasticsearchInstanceVpcWhitelistStructOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): ElasticsearchInstanceVpcWhitelistStruct | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._ips !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ips = this._ips;
-    }
-    if (this._vpcId !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.vpcId = this._vpcId;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: ElasticsearchInstanceVpcWhitelistStruct | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._ips = undefined;
-      this._vpcId = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._ips = value.ips;
-      this._vpcId = value.vpcId;
-    }
-  }
-
-  // ips - computed: false, optional: true, required: false
-  private _ips?: string[]; 
-  public get ips() {
-    return this.getListAttribute('ips');
-  }
-  public set ips(value: string[]) {
-    this._ips = value;
-  }
-  public resetIps() {
-    this._ips = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ipsInput() {
-    return this._ips;
-  }
-
-  // vpc_id - computed: false, optional: false, required: true
-  private _vpcId?: string; 
-  public get vpcId() {
-    return this.getStringAttribute('vpc_id');
-  }
-  public set vpcId(value: string) {
-    this._vpcId = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get vpcIdInput() {
-    return this._vpcId;
-  }
-}
-
-export class ElasticsearchInstanceVpcWhitelistStructList extends cdktf.ComplexList {
-  public internalValue? : ElasticsearchInstanceVpcWhitelistStruct[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): ElasticsearchInstanceVpcWhitelistStructOutputReference {
-    return new ElasticsearchInstanceVpcWhitelistStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/elasticsearch_instance alibabacloudstack_elasticsearch_instance}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/elasticsearch_instance alibabacloudstack_elasticsearch_instance}
 */
 export class ElasticsearchInstance extends cdktf.TerraformResource {
 
@@ -479,7 +283,7 @@ export class ElasticsearchInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ElasticsearchInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ElasticsearchInstance to import
-  * @param importFromId The id of the existing ElasticsearchInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/elasticsearch_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ElasticsearchInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/elasticsearch_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ElasticsearchInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -491,7 +295,7 @@ export class ElasticsearchInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/elasticsearch_instance alibabacloudstack_elasticsearch_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/elasticsearch_instance alibabacloudstack_elasticsearch_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -502,7 +306,8 @@ export class ElasticsearchInstance extends cdktf.TerraformResource {
       terraformResourceType: 'alibabacloudstack_elasticsearch_instance',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.19'
+        providerVersion: '3.16.21',
+        providerVersionConstraint: '3.16.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -512,15 +317,8 @@ export class ElasticsearchInstance extends cdktf.TerraformResource {
       connection: config.connection,
       forEach: config.forEach
     });
-    this._actionAutoCreateIndex = config.actionAutoCreateIndex;
-    this._actionDestructiveRequiresName = config.actionDestructiveRequiresName;
-    this._apackAccesslogEnabled = config.apackAccesslogEnabled;
-    this._apackAccesslogSearchEnabled = config.apackAccesslogSearchEnabled;
     this._clientNodeAmount = config.clientNodeAmount;
     this._clientNodeSpec = config.clientNodeSpec;
-    this._clusterRoutingAllocationDiskWatermarkFloodStage = config.clusterRoutingAllocationDiskWatermarkFloodStage;
-    this._clusterRoutingAllocationDiskWatermarkHigh = config.clusterRoutingAllocationDiskWatermarkHigh;
-    this._clusterRoutingAllocationDiskWatermarkLow = config.clusterRoutingAllocationDiskWatermarkLow;
     this._cpuType = config.cpuType;
     this._dataNodeAffinity = config.dataNodeAffinity;
     this._dataNodeAmount = config.dataNodeAmount;
@@ -537,85 +335,16 @@ export class ElasticsearchInstance extends cdktf.TerraformResource {
     this._masterNodeSpec = config.masterNodeSpec;
     this._monitorPassword = config.monitorPassword;
     this._password = config.password;
-    this._protocol = config.protocol;
     this._scene = config.scene;
-    this._settingConfig = config.settingConfig;
-    this._threadPoolSearchQueueSize = config.threadPoolSearchQueueSize;
-    this._threadPoolWriteQueueSize = config.threadPoolWriteQueueSize;
     this._version = config.version;
     this._vswitchId = config.vswitchId;
     this._zoneId = config.zoneId;
     this._timeouts.internalValue = config.timeouts;
-    this._vpcWhitelist.internalValue = config.vpcWhitelist;
   }
 
   // ==========
   // ATTRIBUTES
   // ==========
-
-  // action_auto_create_index - computed: true, optional: true, required: false
-  private _actionAutoCreateIndex?: boolean | cdktf.IResolvable; 
-  public get actionAutoCreateIndex() {
-    return this.getBooleanAttribute('action_auto_create_index');
-  }
-  public set actionAutoCreateIndex(value: boolean | cdktf.IResolvable) {
-    this._actionAutoCreateIndex = value;
-  }
-  public resetActionAutoCreateIndex() {
-    this._actionAutoCreateIndex = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get actionAutoCreateIndexInput() {
-    return this._actionAutoCreateIndex;
-  }
-
-  // action_destructive_requires_name - computed: true, optional: true, required: false
-  private _actionDestructiveRequiresName?: boolean | cdktf.IResolvable; 
-  public get actionDestructiveRequiresName() {
-    return this.getBooleanAttribute('action_destructive_requires_name');
-  }
-  public set actionDestructiveRequiresName(value: boolean | cdktf.IResolvable) {
-    this._actionDestructiveRequiresName = value;
-  }
-  public resetActionDestructiveRequiresName() {
-    this._actionDestructiveRequiresName = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get actionDestructiveRequiresNameInput() {
-    return this._actionDestructiveRequiresName;
-  }
-
-  // apack_accesslog_enabled - computed: true, optional: true, required: false
-  private _apackAccesslogEnabled?: boolean | cdktf.IResolvable; 
-  public get apackAccesslogEnabled() {
-    return this.getBooleanAttribute('apack_accesslog_enabled');
-  }
-  public set apackAccesslogEnabled(value: boolean | cdktf.IResolvable) {
-    this._apackAccesslogEnabled = value;
-  }
-  public resetApackAccesslogEnabled() {
-    this._apackAccesslogEnabled = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get apackAccesslogEnabledInput() {
-    return this._apackAccesslogEnabled;
-  }
-
-  // apack_accesslog_search_enabled - computed: true, optional: true, required: false
-  private _apackAccesslogSearchEnabled?: boolean | cdktf.IResolvable; 
-  public get apackAccesslogSearchEnabled() {
-    return this.getBooleanAttribute('apack_accesslog_search_enabled');
-  }
-  public set apackAccesslogSearchEnabled(value: boolean | cdktf.IResolvable) {
-    this._apackAccesslogSearchEnabled = value;
-  }
-  public resetApackAccesslogSearchEnabled() {
-    this._apackAccesslogSearchEnabled = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get apackAccesslogSearchEnabledInput() {
-    return this._apackAccesslogSearchEnabled;
-  }
 
   // client_node_amount - computed: false, optional: true, required: false
   private _clientNodeAmount?: number; 
@@ -647,54 +376,6 @@ export class ElasticsearchInstance extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get clientNodeSpecInput() {
     return this._clientNodeSpec;
-  }
-
-  // cluster_routing_allocation_disk_watermark_flood_stage - computed: true, optional: true, required: false
-  private _clusterRoutingAllocationDiskWatermarkFloodStage?: string; 
-  public get clusterRoutingAllocationDiskWatermarkFloodStage() {
-    return this.getStringAttribute('cluster_routing_allocation_disk_watermark_flood_stage');
-  }
-  public set clusterRoutingAllocationDiskWatermarkFloodStage(value: string) {
-    this._clusterRoutingAllocationDiskWatermarkFloodStage = value;
-  }
-  public resetClusterRoutingAllocationDiskWatermarkFloodStage() {
-    this._clusterRoutingAllocationDiskWatermarkFloodStage = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get clusterRoutingAllocationDiskWatermarkFloodStageInput() {
-    return this._clusterRoutingAllocationDiskWatermarkFloodStage;
-  }
-
-  // cluster_routing_allocation_disk_watermark_high - computed: true, optional: true, required: false
-  private _clusterRoutingAllocationDiskWatermarkHigh?: string; 
-  public get clusterRoutingAllocationDiskWatermarkHigh() {
-    return this.getStringAttribute('cluster_routing_allocation_disk_watermark_high');
-  }
-  public set clusterRoutingAllocationDiskWatermarkHigh(value: string) {
-    this._clusterRoutingAllocationDiskWatermarkHigh = value;
-  }
-  public resetClusterRoutingAllocationDiskWatermarkHigh() {
-    this._clusterRoutingAllocationDiskWatermarkHigh = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get clusterRoutingAllocationDiskWatermarkHighInput() {
-    return this._clusterRoutingAllocationDiskWatermarkHigh;
-  }
-
-  // cluster_routing_allocation_disk_watermark_low - computed: true, optional: true, required: false
-  private _clusterRoutingAllocationDiskWatermarkLow?: string; 
-  public get clusterRoutingAllocationDiskWatermarkLow() {
-    return this.getStringAttribute('cluster_routing_allocation_disk_watermark_low');
-  }
-  public set clusterRoutingAllocationDiskWatermarkLow(value: string) {
-    this._clusterRoutingAllocationDiskWatermarkLow = value;
-  }
-  public resetClusterRoutingAllocationDiskWatermarkLow() {
-    this._clusterRoutingAllocationDiskWatermarkLow = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get clusterRoutingAllocationDiskWatermarkLowInput() {
-    return this._clusterRoutingAllocationDiskWatermarkLow;
   }
 
   // cpu_type - computed: false, optional: false, required: true
@@ -985,20 +666,9 @@ export class ElasticsearchInstance extends cdktf.TerraformResource {
     return cdktf.Fn.tolist(this.getListAttribute('private_whitelist'));
   }
 
-  // protocol - computed: false, optional: true, required: false
-  private _protocol?: string; 
+  // protocol - computed: true, optional: false, required: false
   public get protocol() {
     return this.getStringAttribute('protocol');
-  }
-  public set protocol(value: string) {
-    this._protocol = value;
-  }
-  public resetProtocol() {
-    this._protocol = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get protocolInput() {
-    return this._protocol;
   }
 
   // public_whitelist - computed: true, optional: false, required: false
@@ -1019,19 +689,9 @@ export class ElasticsearchInstance extends cdktf.TerraformResource {
     return this._scene;
   }
 
-  // setting_config - computed: true, optional: true, required: false
-  private _settingConfig?: { [key: string]: string }; 
+  // setting_config - computed: true, optional: false, required: false
+  private _settingConfig = new cdktf.StringMap(this, "setting_config");
   public get settingConfig() {
-    return this.getStringMapAttribute('setting_config');
-  }
-  public set settingConfig(value: { [key: string]: string }) {
-    this._settingConfig = value;
-  }
-  public resetSettingConfig() {
-    this._settingConfig = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get settingConfigInput() {
     return this._settingConfig;
   }
 
@@ -1043,38 +703,6 @@ export class ElasticsearchInstance extends cdktf.TerraformResource {
   // status - computed: true, optional: false, required: false
   public get status() {
     return this.getStringAttribute('status');
-  }
-
-  // thread_pool_search_queue_size - computed: true, optional: true, required: false
-  private _threadPoolSearchQueueSize?: number; 
-  public get threadPoolSearchQueueSize() {
-    return this.getNumberAttribute('thread_pool_search_queue_size');
-  }
-  public set threadPoolSearchQueueSize(value: number) {
-    this._threadPoolSearchQueueSize = value;
-  }
-  public resetThreadPoolSearchQueueSize() {
-    this._threadPoolSearchQueueSize = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get threadPoolSearchQueueSizeInput() {
-    return this._threadPoolSearchQueueSize;
-  }
-
-  // thread_pool_write_queue_size - computed: true, optional: true, required: false
-  private _threadPoolWriteQueueSize?: number; 
-  public get threadPoolWriteQueueSize() {
-    return this.getNumberAttribute('thread_pool_write_queue_size');
-  }
-  public set threadPoolWriteQueueSize(value: number) {
-    this._threadPoolWriteQueueSize = value;
-  }
-  public resetThreadPoolWriteQueueSize() {
-    this._threadPoolWriteQueueSize = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get threadPoolWriteQueueSizeInput() {
-    return this._threadPoolWriteQueueSize;
   }
 
   // version - computed: false, optional: false, required: true
@@ -1135,37 +763,14 @@ export class ElasticsearchInstance extends cdktf.TerraformResource {
     return this._timeouts.internalValue;
   }
 
-  // vpc_whitelist - computed: false, optional: true, required: false
-  private _vpcWhitelist = new ElasticsearchInstanceVpcWhitelistStructList(this, "vpc_whitelist", true);
-  public get vpcWhitelist() {
-    return this._vpcWhitelist;
-  }
-  public putVpcWhitelist(value: ElasticsearchInstanceVpcWhitelistStruct[] | cdktf.IResolvable) {
-    this._vpcWhitelist.internalValue = value;
-  }
-  public resetVpcWhitelist() {
-    this._vpcWhitelist.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get vpcWhitelistInput() {
-    return this._vpcWhitelist.internalValue;
-  }
-
   // =========
   // SYNTHESIS
   // =========
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      action_auto_create_index: cdktf.booleanToTerraform(this._actionAutoCreateIndex),
-      action_destructive_requires_name: cdktf.booleanToTerraform(this._actionDestructiveRequiresName),
-      apack_accesslog_enabled: cdktf.booleanToTerraform(this._apackAccesslogEnabled),
-      apack_accesslog_search_enabled: cdktf.booleanToTerraform(this._apackAccesslogSearchEnabled),
       client_node_amount: cdktf.numberToTerraform(this._clientNodeAmount),
       client_node_spec: cdktf.stringToTerraform(this._clientNodeSpec),
-      cluster_routing_allocation_disk_watermark_flood_stage: cdktf.stringToTerraform(this._clusterRoutingAllocationDiskWatermarkFloodStage),
-      cluster_routing_allocation_disk_watermark_high: cdktf.stringToTerraform(this._clusterRoutingAllocationDiskWatermarkHigh),
-      cluster_routing_allocation_disk_watermark_low: cdktf.stringToTerraform(this._clusterRoutingAllocationDiskWatermarkLow),
       cpu_type: cdktf.stringToTerraform(this._cpuType),
       data_node_affinity: cdktf.booleanToTerraform(this._dataNodeAffinity),
       data_node_amount: cdktf.numberToTerraform(this._dataNodeAmount),
@@ -1182,45 +787,16 @@ export class ElasticsearchInstance extends cdktf.TerraformResource {
       master_node_spec: cdktf.stringToTerraform(this._masterNodeSpec),
       monitor_password: cdktf.stringToTerraform(this._monitorPassword),
       password: cdktf.stringToTerraform(this._password),
-      protocol: cdktf.stringToTerraform(this._protocol),
       scene: cdktf.stringToTerraform(this._scene),
-      setting_config: cdktf.hashMapper(cdktf.stringToTerraform)(this._settingConfig),
-      thread_pool_search_queue_size: cdktf.numberToTerraform(this._threadPoolSearchQueueSize),
-      thread_pool_write_queue_size: cdktf.numberToTerraform(this._threadPoolWriteQueueSize),
       version: cdktf.stringToTerraform(this._version),
       vswitch_id: cdktf.stringToTerraform(this._vswitchId),
       zone_id: cdktf.stringToTerraform(this._zoneId),
       timeouts: elasticsearchInstanceTimeoutsToTerraform(this._timeouts.internalValue),
-      vpc_whitelist: cdktf.listMapper(elasticsearchInstanceVpcWhitelistStructToTerraform, true)(this._vpcWhitelist.internalValue),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
-      action_auto_create_index: {
-        value: cdktf.booleanToHclTerraform(this._actionAutoCreateIndex),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "boolean",
-      },
-      action_destructive_requires_name: {
-        value: cdktf.booleanToHclTerraform(this._actionDestructiveRequiresName),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "boolean",
-      },
-      apack_accesslog_enabled: {
-        value: cdktf.booleanToHclTerraform(this._apackAccesslogEnabled),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "boolean",
-      },
-      apack_accesslog_search_enabled: {
-        value: cdktf.booleanToHclTerraform(this._apackAccesslogSearchEnabled),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "boolean",
-      },
       client_node_amount: {
         value: cdktf.numberToHclTerraform(this._clientNodeAmount),
         isBlock: false,
@@ -1229,24 +805,6 @@ export class ElasticsearchInstance extends cdktf.TerraformResource {
       },
       client_node_spec: {
         value: cdktf.stringToHclTerraform(this._clientNodeSpec),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
-      cluster_routing_allocation_disk_watermark_flood_stage: {
-        value: cdktf.stringToHclTerraform(this._clusterRoutingAllocationDiskWatermarkFloodStage),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
-      cluster_routing_allocation_disk_watermark_high: {
-        value: cdktf.stringToHclTerraform(this._clusterRoutingAllocationDiskWatermarkHigh),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
-      cluster_routing_allocation_disk_watermark_low: {
-        value: cdktf.stringToHclTerraform(this._clusterRoutingAllocationDiskWatermarkLow),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
@@ -1347,35 +905,11 @@ export class ElasticsearchInstance extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
-      protocol: {
-        value: cdktf.stringToHclTerraform(this._protocol),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
       scene: {
         value: cdktf.stringToHclTerraform(this._scene),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
-      },
-      setting_config: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._settingConfig),
-        isBlock: false,
-        type: "map",
-        storageClassType: "stringMap",
-      },
-      thread_pool_search_queue_size: {
-        value: cdktf.numberToHclTerraform(this._threadPoolSearchQueueSize),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "number",
-      },
-      thread_pool_write_queue_size: {
-        value: cdktf.numberToHclTerraform(this._threadPoolWriteQueueSize),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "number",
       },
       version: {
         value: cdktf.stringToHclTerraform(this._version),
@@ -1400,12 +934,6 @@ export class ElasticsearchInstance extends cdktf.TerraformResource {
         isBlock: true,
         type: "struct",
         storageClassType: "ElasticsearchInstanceTimeouts",
-      },
-      vpc_whitelist: {
-        value: cdktf.listMapperHcl(elasticsearchInstanceVpcWhitelistStructToHclTerraform, true)(this._vpcWhitelist.internalValue),
-        isBlock: true,
-        type: "set",
-        storageClassType: "ElasticsearchInstanceVpcWhitelistStructList",
       },
     };
 

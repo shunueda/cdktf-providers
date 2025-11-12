@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botsettings
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botsettings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,68 +8,76 @@ import * as cdktf from 'cdktf';
 
 export interface BotsettingsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botsettings#defaultnonintrusiveprofile Botsettings#defaultnonintrusiveprofile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botsettings#defaultnonintrusiveprofile Botsettings#defaultnonintrusiveprofile}
   */
   readonly defaultnonintrusiveprofile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botsettings#defaultprofile Botsettings#defaultprofile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botsettings#defaultprofile Botsettings#defaultprofile}
   */
   readonly defaultprofile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botsettings#dfprequestlimit Botsettings#dfprequestlimit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botsettings#dfprequestlimit Botsettings#dfprequestlimit}
   */
   readonly dfprequestlimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botsettings#id Botsettings#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botsettings#id Botsettings#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botsettings#javascriptname Botsettings#javascriptname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botsettings#javascriptname Botsettings#javascriptname}
   */
   readonly javascriptname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botsettings#proxyport Botsettings#proxyport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botsettings#proxypassword Botsettings#proxypassword}
+  */
+  readonly proxypassword?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botsettings#proxyport Botsettings#proxyport}
   */
   readonly proxyport?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botsettings#proxyserver Botsettings#proxyserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botsettings#proxyserver Botsettings#proxyserver}
   */
   readonly proxyserver?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botsettings#sessioncookiename Botsettings#sessioncookiename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botsettings#proxyusername Botsettings#proxyusername}
+  */
+  readonly proxyusername?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botsettings#sessioncookiename Botsettings#sessioncookiename}
   */
   readonly sessioncookiename?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botsettings#sessiontimeout Botsettings#sessiontimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botsettings#sessiontimeout Botsettings#sessiontimeout}
   */
   readonly sessiontimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botsettings#signatureautoupdate Botsettings#signatureautoupdate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botsettings#signatureautoupdate Botsettings#signatureautoupdate}
   */
   readonly signatureautoupdate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botsettings#signatureurl Botsettings#signatureurl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botsettings#signatureurl Botsettings#signatureurl}
   */
   readonly signatureurl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botsettings#trapurlautogenerate Botsettings#trapurlautogenerate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botsettings#trapurlautogenerate Botsettings#trapurlautogenerate}
   */
   readonly trapurlautogenerate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botsettings#trapurlinterval Botsettings#trapurlinterval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botsettings#trapurlinterval Botsettings#trapurlinterval}
   */
   readonly trapurlinterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botsettings#trapurllength Botsettings#trapurllength}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botsettings#trapurllength Botsettings#trapurllength}
   */
   readonly trapurllength?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botsettings citrixadc_botsettings}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botsettings citrixadc_botsettings}
 */
 export class Botsettings extends cdktf.TerraformResource {
 
@@ -85,7 +93,7 @@ export class Botsettings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Botsettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Botsettings to import
-  * @param importFromId The id of the existing Botsettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botsettings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Botsettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botsettings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Botsettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -97,7 +105,7 @@ export class Botsettings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/botsettings citrixadc_botsettings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botsettings citrixadc_botsettings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -108,7 +116,8 @@ export class Botsettings extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_botsettings',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -123,8 +132,10 @@ export class Botsettings extends cdktf.TerraformResource {
     this._dfprequestlimit = config.dfprequestlimit;
     this._id = config.id;
     this._javascriptname = config.javascriptname;
+    this._proxypassword = config.proxypassword;
     this._proxyport = config.proxyport;
     this._proxyserver = config.proxyserver;
+    this._proxyusername = config.proxyusername;
     this._sessioncookiename = config.sessioncookiename;
     this._sessiontimeout = config.sessiontimeout;
     this._signatureautoupdate = config.signatureautoupdate;
@@ -218,6 +229,22 @@ export class Botsettings extends cdktf.TerraformResource {
     return this._javascriptname;
   }
 
+  // proxypassword - computed: true, optional: true, required: false
+  private _proxypassword?: string; 
+  public get proxypassword() {
+    return this.getStringAttribute('proxypassword');
+  }
+  public set proxypassword(value: string) {
+    this._proxypassword = value;
+  }
+  public resetProxypassword() {
+    this._proxypassword = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get proxypasswordInput() {
+    return this._proxypassword;
+  }
+
   // proxyport - computed: true, optional: true, required: false
   private _proxyport?: number; 
   public get proxyport() {
@@ -248,6 +275,22 @@ export class Botsettings extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get proxyserverInput() {
     return this._proxyserver;
+  }
+
+  // proxyusername - computed: true, optional: true, required: false
+  private _proxyusername?: string; 
+  public get proxyusername() {
+    return this.getStringAttribute('proxyusername');
+  }
+  public set proxyusername(value: string) {
+    this._proxyusername = value;
+  }
+  public resetProxyusername() {
+    this._proxyusername = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get proxyusernameInput() {
+    return this._proxyusername;
   }
 
   // sessioncookiename - computed: true, optional: true, required: false
@@ -373,8 +416,10 @@ export class Botsettings extends cdktf.TerraformResource {
       dfprequestlimit: cdktf.numberToTerraform(this._dfprequestlimit),
       id: cdktf.stringToTerraform(this._id),
       javascriptname: cdktf.stringToTerraform(this._javascriptname),
+      proxypassword: cdktf.stringToTerraform(this._proxypassword),
       proxyport: cdktf.numberToTerraform(this._proxyport),
       proxyserver: cdktf.stringToTerraform(this._proxyserver),
+      proxyusername: cdktf.stringToTerraform(this._proxyusername),
       sessioncookiename: cdktf.stringToTerraform(this._sessioncookiename),
       sessiontimeout: cdktf.numberToTerraform(this._sessiontimeout),
       signatureautoupdate: cdktf.stringToTerraform(this._signatureautoupdate),
@@ -417,6 +462,12 @@ export class Botsettings extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      proxypassword: {
+        value: cdktf.stringToHclTerraform(this._proxypassword),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       proxyport: {
         value: cdktf.numberToHclTerraform(this._proxyport),
         isBlock: false,
@@ -425,6 +476,12 @@ export class Botsettings extends cdktf.TerraformResource {
       },
       proxyserver: {
         value: cdktf.stringToHclTerraform(this._proxyserver),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      proxyusername: {
+        value: cdktf.stringToHclTerraform(this._proxyusername),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

@@ -57,7 +57,8 @@ export class DataSplitpolicies extends cdktf.TerraformDataSource {
       terraformResourceType: 'splitpolicies',
       terraformGeneratorMetadata: {
         providerName: 'splitpolicies',
-        providerVersion: '0.1.5'
+        providerVersion: '0.1.5',
+        providerVersionConstraint: '0.1.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

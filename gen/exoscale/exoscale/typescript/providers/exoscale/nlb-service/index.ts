@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/nlb_service
+// https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/nlb_service
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface NlbServiceConfig extends cdktf.TerraformMetaArguments {
   /**
   * A free-form text describing the NLB service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/nlb_service#description NlbService#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/nlb_service#description NlbService#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/nlb_service#id NlbService#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/nlb_service#id NlbService#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,61 +23,61 @@ export interface NlbServiceConfig extends cdktf.TerraformMetaArguments {
   /**
   * ❗ The [exoscale_instance_pool](./instance_pool.md) (ID) to forward traffic to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/nlb_service#instance_pool_id NlbService#instance_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/nlb_service#instance_pool_id NlbService#instance_pool_id}
   */
   readonly instancePoolId: string;
   /**
   * The NLB service name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/nlb_service#name NlbService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/nlb_service#name NlbService#name}
   */
   readonly name: string;
   /**
   * ❗ The parent [exoscale_nlb](./nlb.md) ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/nlb_service#nlb_id NlbService#nlb_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/nlb_service#nlb_id NlbService#nlb_id}
   */
   readonly nlbId: string;
   /**
   * The healthcheck port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/nlb_service#port NlbService#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/nlb_service#port NlbService#port}
   */
   readonly port: number;
   /**
   * The protocol (`tcp`|`udp`; default: `tcp`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/nlb_service#protocol NlbService#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/nlb_service#protocol NlbService#protocol}
   */
   readonly protocol?: string;
   /**
   * The strategy (`round-robin`|`source-hash`; default: `round-robin`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/nlb_service#strategy NlbService#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/nlb_service#strategy NlbService#strategy}
   */
   readonly strategy?: string;
   /**
   * The (TCP/UDP) port to forward traffic to (on target instance pool members).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/nlb_service#target_port NlbService#target_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/nlb_service#target_port NlbService#target_port}
   */
   readonly targetPort: number;
   /**
   * ❗ The Exoscale [Zone](https://www.exoscale.com/datacenters/) name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/nlb_service#zone NlbService#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/nlb_service#zone NlbService#zone}
   */
   readonly zone: string;
   /**
   * healthcheck block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/nlb_service#healthcheck NlbService#healthcheck}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/nlb_service#healthcheck NlbService#healthcheck}
   */
   readonly healthcheck: NlbServiceHealthcheck[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/nlb_service#timeouts NlbService#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/nlb_service#timeouts NlbService#timeouts}
   */
   readonly timeouts?: NlbServiceTimeouts;
 }
@@ -85,43 +85,43 @@ export interface NlbServiceHealthcheck {
   /**
   * The healthcheck interval in seconds (default: `10`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/nlb_service#interval NlbService#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/nlb_service#interval NlbService#interval}
   */
   readonly interval?: number;
   /**
   * The healthcheck mode (`tcp`|`http`|`https`; default: `tcp`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/nlb_service#mode NlbService#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/nlb_service#mode NlbService#mode}
   */
   readonly mode?: string;
   /**
   * The NLB service (TCP/UDP) port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/nlb_service#port NlbService#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/nlb_service#port NlbService#port}
   */
   readonly port: number;
   /**
   * The healthcheck retries (default: `1`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/nlb_service#retries NlbService#retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/nlb_service#retries NlbService#retries}
   */
   readonly retries?: number;
   /**
   * The healthcheck timeout (seconds; default: `5`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/nlb_service#timeout NlbService#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/nlb_service#timeout NlbService#timeout}
   */
   readonly timeout?: number;
   /**
   * The healthcheck TLS SNI server name (only if `mode` is `https`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/nlb_service#tls_sni NlbService#tls_sni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/nlb_service#tls_sni NlbService#tls_sni}
   */
   readonly tlsSni?: string;
   /**
   * The healthcheck URI (must be set only if `mode` is `http(s)`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/nlb_service#uri NlbService#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/nlb_service#uri NlbService#uri}
   */
   readonly uri?: string;
 }
@@ -408,19 +408,19 @@ export class NlbServiceHealthcheckList extends cdktf.ComplexList {
 }
 export interface NlbServiceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/nlb_service#create NlbService#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/nlb_service#create NlbService#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/nlb_service#delete NlbService#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/nlb_service#delete NlbService#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/nlb_service#read NlbService#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/nlb_service#read NlbService#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/nlb_service#update NlbService#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/nlb_service#update NlbService#update}
   */
   readonly update?: string;
 }
@@ -601,7 +601,7 @@ export class NlbServiceTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/nlb_service exoscale_nlb_service}
+* Represents a {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/nlb_service exoscale_nlb_service}
 */
 export class NlbService extends cdktf.TerraformResource {
 
@@ -617,7 +617,7 @@ export class NlbService extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NlbService resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NlbService to import
-  * @param importFromId The id of the existing NlbService that should be imported. Refer to the {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/nlb_service#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NlbService that should be imported. Refer to the {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/nlb_service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NlbService to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -629,7 +629,7 @@ export class NlbService extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/resources/nlb_service exoscale_nlb_service} Resource
+  * Create a new {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/resources/nlb_service exoscale_nlb_service} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -640,7 +640,8 @@ export class NlbService extends cdktf.TerraformResource {
       terraformResourceType: 'exoscale_nlb_service',
       terraformGeneratorMetadata: {
         providerName: 'exoscale',
-        providerVersion: '0.66.0'
+        providerVersion: '0.67.0',
+        providerVersionConstraint: '0.67.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

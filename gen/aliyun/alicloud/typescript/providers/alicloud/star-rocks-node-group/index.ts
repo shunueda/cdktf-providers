@@ -286,7 +286,8 @@ export class StarRocksNodeGroup extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_star_rocks_node_group',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

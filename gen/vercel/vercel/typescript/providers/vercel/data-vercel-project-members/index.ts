@@ -151,7 +151,8 @@ export class DataVercelProjectMembers extends cdktf.TerraformDataSource {
       terraformResourceType: 'vercel_project_members',
       terraformGeneratorMetadata: {
         providerName: 'vercel',
-        providerVersion: '4.0.0'
+        providerVersion: '4.0.0',
+        providerVersionConstraint: '4.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

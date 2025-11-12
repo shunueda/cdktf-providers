@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_services_tcp
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_services_tcp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataCheckpointManagementServicesTcpConfig extends cdktf.Terrafo
   /**
   * If true, fetches all results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_services_tcp#fetch_all DataCheckpointManagementServicesTcp#fetch_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_services_tcp#fetch_all DataCheckpointManagementServicesTcp#fetch_all}
   */
   readonly fetchAll?: boolean | cdktf.IResolvable;
   /**
   * Search expression to filter objects by.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_services_tcp#filter DataCheckpointManagementServicesTcp#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_services_tcp#filter DataCheckpointManagementServicesTcp#filter}
   */
   readonly filter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_services_tcp#id DataCheckpointManagementServicesTcp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_services_tcp#id DataCheckpointManagementServicesTcp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface DataCheckpointManagementServicesTcpConfig extends cdktf.Terrafo
   /**
   * The maximal number of returned results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_services_tcp#limit DataCheckpointManagementServicesTcp#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_services_tcp#limit DataCheckpointManagementServicesTcp#limit}
   */
   readonly limit?: number;
   /**
   * Number of the results to initially skip.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_services_tcp#offset DataCheckpointManagementServicesTcp#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_services_tcp#offset DataCheckpointManagementServicesTcp#offset}
   */
   readonly offset?: number;
   /**
   * order block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_services_tcp#order DataCheckpointManagementServicesTcp#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_services_tcp#order DataCheckpointManagementServicesTcp#order}
   */
   readonly order?: DataCheckpointManagementServicesTcpOrder[] | cdktf.IResolvable;
 }
@@ -316,13 +316,13 @@ export interface DataCheckpointManagementServicesTcpOrder {
   /**
   * Sorts results by the given field in ascending order.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_services_tcp#asc DataCheckpointManagementServicesTcp#asc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_services_tcp#asc DataCheckpointManagementServicesTcp#asc}
   */
   readonly asc?: string;
   /**
   * Sorts results by the given field in descending order.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_services_tcp#desc DataCheckpointManagementServicesTcp#desc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_services_tcp#desc DataCheckpointManagementServicesTcp#desc}
   */
   readonly desc?: string;
 }
@@ -467,7 +467,7 @@ export class DataCheckpointManagementServicesTcpOrderList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_services_tcp checkpoint_management_services_tcp}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_services_tcp checkpoint_management_services_tcp}
 */
 export class DataCheckpointManagementServicesTcp extends cdktf.TerraformDataSource {
 
@@ -483,7 +483,7 @@ export class DataCheckpointManagementServicesTcp extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataCheckpointManagementServicesTcp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCheckpointManagementServicesTcp to import
-  * @param importFromId The id of the existing DataCheckpointManagementServicesTcp that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_services_tcp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCheckpointManagementServicesTcp that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_services_tcp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCheckpointManagementServicesTcp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -495,7 +495,7 @@ export class DataCheckpointManagementServicesTcp extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_services_tcp checkpoint_management_services_tcp} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_services_tcp checkpoint_management_services_tcp} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -506,7 +506,8 @@ export class DataCheckpointManagementServicesTcp extends cdktf.TerraformDataSour
       terraformResourceType: 'checkpoint_management_services_tcp',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

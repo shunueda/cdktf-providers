@@ -1783,7 +1783,8 @@ export class DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest extends cdktf.T
       terraformResourceType: 'k8s_sloth_slok_dev_prometheus_service_level_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

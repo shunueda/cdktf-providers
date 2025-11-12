@@ -64,7 +64,8 @@ export class VolumeAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'ah_volume_attachment',
       terraformGeneratorMetadata: {
         providerName: 'ah',
-        providerVersion: '0.3.6'
+        providerVersion: '0.3.6',
+        providerVersionConstraint: '0.3.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

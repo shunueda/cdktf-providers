@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/secmaster_playbook_version
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_playbook_version
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface SecmasterPlaybookVersionConfig extends cdktf.TerraformMetaArgum
   /**
   * Specifies the action strategy of the playbook version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/secmaster_playbook_version#action_strategy SecmasterPlaybookVersion#action_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_playbook_version#action_strategy SecmasterPlaybookVersion#action_strategy}
   */
   readonly actionStrategy?: string;
   /**
   * Specifies the data class ID of the playbook version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/secmaster_playbook_version#dataclass_id SecmasterPlaybookVersion#dataclass_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_playbook_version#dataclass_id SecmasterPlaybookVersion#dataclass_id}
   */
   readonly dataclassId: string;
   /**
   * Specifies whether to trigger the playbook when data object is created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/secmaster_playbook_version#dataobject_create SecmasterPlaybookVersion#dataobject_create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_playbook_version#dataobject_create SecmasterPlaybookVersion#dataobject_create}
   */
   readonly dataobjectCreate?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether to trigger the playbook when data object is deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/secmaster_playbook_version#dataobject_delete SecmasterPlaybookVersion#dataobject_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_playbook_version#dataobject_delete SecmasterPlaybookVersion#dataobject_delete}
   */
   readonly dataobjectDelete?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether to trigger the playbook when data object is updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/secmaster_playbook_version#dataobject_update SecmasterPlaybookVersion#dataobject_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_playbook_version#dataobject_update SecmasterPlaybookVersion#dataobject_update}
   */
   readonly dataobjectUpdate?: boolean | cdktf.IResolvable;
   /**
   * Specifies the description of the playbook version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/secmaster_playbook_version#description SecmasterPlaybookVersion#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_playbook_version#description SecmasterPlaybookVersion#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/secmaster_playbook_version#id SecmasterPlaybookVersion#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_playbook_version#id SecmasterPlaybookVersion#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,41 +53,41 @@ export interface SecmasterPlaybookVersionConfig extends cdktf.TerraformMetaArgum
   /**
   * Specifies playbook ID of the playbook version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/secmaster_playbook_version#playbook_id SecmasterPlaybookVersion#playbook_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_playbook_version#playbook_id SecmasterPlaybookVersion#playbook_id}
   */
   readonly playbookId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/secmaster_playbook_version#region SecmasterPlaybookVersion#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_playbook_version#region SecmasterPlaybookVersion#region}
   */
   readonly region?: string;
   /**
   * Specifies whether to enable playbook rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/secmaster_playbook_version#rule_enable SecmasterPlaybookVersion#rule_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_playbook_version#rule_enable SecmasterPlaybookVersion#rule_enable}
   */
   readonly ruleEnable?: boolean | cdktf.IResolvable;
   /**
   * Specifies the playbook rule ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/secmaster_playbook_version#rule_id SecmasterPlaybookVersion#rule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_playbook_version#rule_id SecmasterPlaybookVersion#rule_id}
   */
   readonly ruleId?: string;
   /**
   * Specifies the trigger type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/secmaster_playbook_version#trigger_type SecmasterPlaybookVersion#trigger_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_playbook_version#trigger_type SecmasterPlaybookVersion#trigger_type}
   */
   readonly triggerType?: string;
   /**
   * Specifies the ID of the workspace to which the playbook version belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/secmaster_playbook_version#workspace_id SecmasterPlaybookVersion#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_playbook_version#workspace_id SecmasterPlaybookVersion#workspace_id}
   */
   readonly workspaceId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/secmaster_playbook_version hcs_secmaster_playbook_version}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_playbook_version hcs_secmaster_playbook_version}
 */
 export class SecmasterPlaybookVersion extends cdktf.TerraformResource {
 
@@ -103,7 +103,7 @@ export class SecmasterPlaybookVersion extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecmasterPlaybookVersion resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecmasterPlaybookVersion to import
-  * @param importFromId The id of the existing SecmasterPlaybookVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/secmaster_playbook_version#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecmasterPlaybookVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_playbook_version#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecmasterPlaybookVersion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -115,7 +115,7 @@ export class SecmasterPlaybookVersion extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/secmaster_playbook_version hcs_secmaster_playbook_version} Resource
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/secmaster_playbook_version hcs_secmaster_playbook_version} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -126,7 +126,8 @@ export class SecmasterPlaybookVersion extends cdktf.TerraformResource {
       terraformResourceType: 'hcs_secmaster_playbook_version',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.19'
+        providerVersion: '2.4.20',
+        providerVersionConstraint: '2.4.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

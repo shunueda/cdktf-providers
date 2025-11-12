@@ -255,7 +255,8 @@ export class DataSdmAccountAttachment extends cdktf.TerraformDataSource {
       terraformResourceType: 'sdm_account_attachment',
       terraformGeneratorMetadata: {
         providerName: 'sdm',
-        providerVersion: '15.27.0'
+        providerVersion: '15.27.0',
+        providerVersionConstraint: '15.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

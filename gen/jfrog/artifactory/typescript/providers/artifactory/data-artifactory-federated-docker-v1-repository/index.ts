@@ -361,7 +361,8 @@ export class DataArtifactoryFederatedDockerV1Repository extends cdktf.TerraformD
       terraformResourceType: 'artifactory_federated_docker_v1_repository',
       terraformGeneratorMetadata: {
         providerName: 'artifactory',
-        providerVersion: '12.10.1'
+        providerVersion: '12.10.1',
+        providerVersionConstraint: '12.10.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

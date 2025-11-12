@@ -63,7 +63,7 @@ export interface TriggerConfig extends cdktf.TerraformMetaArguments {
   */
   readonly name: string;
   /**
-  * Trigger Priority level, one of: average, high, disaster, not_classified, info, warn
+  * Trigger Priority level, one of: info, warn, average, high, disaster, not_classified
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tpretz/zabbix/0.17.0/docs/resources/trigger#priority Trigger#priority}
   */
@@ -284,7 +284,8 @@ export class Trigger extends cdktf.TerraformResource {
       terraformResourceType: 'zabbix_trigger',
       terraformGeneratorMetadata: {
         providerName: 'zabbix',
-        providerVersion: '0.17.0'
+        providerVersion: '0.17.0',
+        providerVersionConstraint: '0.17.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

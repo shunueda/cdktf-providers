@@ -56,7 +56,8 @@ export class DataOvhDedicatedServers extends cdktf.TerraformDataSource {
       terraformResourceType: 'ovh_dedicated_servers',
       terraformGeneratorMetadata: {
         providerName: 'ovh',
-        providerVersion: '2.9.0'
+        providerVersion: '2.9.0',
+        providerVersionConstraint: '2.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

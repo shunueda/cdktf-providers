@@ -103,7 +103,8 @@ export class SshUserCertificate extends cdktf.TerraformResource {
       terraformResourceType: 'ngrok_ssh_user_certificate',
       terraformGeneratorMetadata: {
         providerName: 'ngrok',
-        providerVersion: '0.5.0'
+        providerVersion: '0.5.0',
+        providerVersionConstraint: '0.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

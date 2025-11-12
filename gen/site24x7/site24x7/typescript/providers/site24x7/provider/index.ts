@@ -115,7 +115,8 @@ export class Site24X7Provider extends cdktf.TerraformProvider {
       terraformResourceType: 'site24x7',
       terraformGeneratorMetadata: {
         providerName: 'site24x7',
-        providerVersion: '2.0.3'
+        providerVersion: '2.0.3',
+        providerVersionConstraint: '2.0.3'
       },
       terraformProviderSource: 'site24x7/site24x7'
     });

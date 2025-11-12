@@ -138,7 +138,8 @@ export class DataSdwanApplicationListPolicyObject extends cdktf.TerraformDataSou
       terraformResourceType: 'sdwan_application_list_policy_object',
       terraformGeneratorMetadata: {
         providerName: 'sdwan',
-        providerVersion: '0.8.1'
+        providerVersion: '0.8.1',
+        providerVersionConstraint: '0.8.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

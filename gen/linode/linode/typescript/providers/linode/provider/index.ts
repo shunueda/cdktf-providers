@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.5.0/docs
+// https://registry.terraform.io/providers/linode/linode/3.5.1/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,133 +10,133 @@ export interface LinodeProviderConfig {
   /**
   * The path to a Linode API CA file to trust.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs#api_ca_path LinodeProvider#api_ca_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs#api_ca_path LinodeProvider#api_ca_path}
   */
   readonly apiCaPath?: string;
   /**
   * The version of Linode API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs#api_version LinodeProvider#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs#api_version LinodeProvider#api_version}
   */
   readonly apiVersion?: string;
   /**
   * The path to the Linode config file to use. (default `~/.config/linode`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs#config_path LinodeProvider#config_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs#config_path LinodeProvider#config_path}
   */
   readonly configPath?: string;
   /**
   * The Linode config profile to use. (default `default`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs#config_profile LinodeProvider#config_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs#config_profile LinodeProvider#config_profile}
   */
   readonly configProfile?: string;
   /**
   * Disable the internal caching system that backs certain Linode API requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs#disable_internal_cache LinodeProvider#disable_internal_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs#disable_internal_cache LinodeProvider#disable_internal_cache}
   */
   readonly disableInternalCache?: boolean | cdktf.IResolvable;
   /**
   * The rate in milliseconds to poll for events.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs#event_poll_ms LinodeProvider#event_poll_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs#event_poll_ms LinodeProvider#event_poll_ms}
   */
   readonly eventPollMs?: number;
   /**
   * The rate in milliseconds to poll for LKE events.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs#lke_event_poll_ms LinodeProvider#lke_event_poll_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs#lke_event_poll_ms LinodeProvider#lke_event_poll_ms}
   */
   readonly lkeEventPollMs?: number;
   /**
   * The rate in milliseconds to poll for an LKE node to be ready.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs#lke_node_ready_poll_ms LinodeProvider#lke_node_ready_poll_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs#lke_node_ready_poll_ms LinodeProvider#lke_node_ready_poll_ms}
   */
   readonly lkeNodeReadyPollMs?: number;
   /**
   * Maximum delay in milliseconds before retrying a request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs#max_retry_delay_ms LinodeProvider#max_retry_delay_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs#max_retry_delay_ms LinodeProvider#max_retry_delay_ms}
   */
   readonly maxRetryDelayMs?: number;
   /**
   * Minimum delay in milliseconds before retrying a request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs#min_retry_delay_ms LinodeProvider#min_retry_delay_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs#min_retry_delay_ms LinodeProvider#min_retry_delay_ms}
   */
   readonly minRetryDelayMs?: number;
   /**
   * The access key to be used in linode_object_storage_bucket and linode_object_storage_object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs#obj_access_key LinodeProvider#obj_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs#obj_access_key LinodeProvider#obj_access_key}
   */
   readonly objAccessKey?: string;
   /**
   * If true, when deleting a linode_object_storage_bucket any objects and versions will be force deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs#obj_bucket_force_delete LinodeProvider#obj_bucket_force_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs#obj_bucket_force_delete LinodeProvider#obj_bucket_force_delete}
   */
   readonly objBucketForceDelete?: boolean | cdktf.IResolvable;
   /**
   * The secret key to be used in linode_object_storage_bucket and linode_object_storage_object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs#obj_secret_key LinodeProvider#obj_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs#obj_secret_key LinodeProvider#obj_secret_key}
   */
   readonly objSecretKey?: string;
   /**
   * If true, temporary object keys will be created implicitly at apply-time for the linode_object_storage_object and linode_object_sorage_bucket resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs#obj_use_temp_keys LinodeProvider#obj_use_temp_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs#obj_use_temp_keys LinodeProvider#obj_use_temp_keys}
   */
   readonly objUseTempKeys?: boolean | cdktf.IResolvable;
   /**
   * If true, Linode Instances will not be rebooted on config and interface changes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs#skip_implicit_reboots LinodeProvider#skip_implicit_reboots}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs#skip_implicit_reboots LinodeProvider#skip_implicit_reboots}
   */
   readonly skipImplicitReboots?: boolean | cdktf.IResolvable;
   /**
   * Skip waiting for a linode_instance resource to finish deleting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs#skip_instance_delete_poll LinodeProvider#skip_instance_delete_poll}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs#skip_instance_delete_poll LinodeProvider#skip_instance_delete_poll}
   */
   readonly skipInstanceDeletePoll?: boolean | cdktf.IResolvable;
   /**
   * Skip waiting for a linode_instance resource to be running.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs#skip_instance_ready_poll LinodeProvider#skip_instance_ready_poll}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs#skip_instance_ready_poll LinodeProvider#skip_instance_ready_poll}
   */
   readonly skipInstanceReadyPoll?: boolean | cdktf.IResolvable;
   /**
   * The token that allows you access to your Linode account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs#token LinodeProvider#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs#token LinodeProvider#token}
   */
   readonly token?: string;
   /**
   * An HTTP User-Agent Prefix to prepend in API requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs#ua_prefix LinodeProvider#ua_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs#ua_prefix LinodeProvider#ua_prefix}
   */
   readonly uaPrefix?: string;
   /**
   * The HTTP(S) API address of the Linode API to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs#url LinodeProvider#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs#url LinodeProvider#url}
   */
   readonly url?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs#alias LinodeProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs#alias LinodeProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs linode}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs linode}
 */
 export class LinodeProvider extends cdktf.TerraformProvider {
 
@@ -152,7 +152,7 @@ export class LinodeProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a LinodeProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LinodeProvider to import
-  * @param importFromId The id of the existing LinodeProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LinodeProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LinodeProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -164,7 +164,7 @@ export class LinodeProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs linode} Resource
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs linode} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -175,7 +175,8 @@ export class LinodeProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'linode',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.5.0'
+        providerVersion: '3.5.1',
+        providerVersionConstraint: '3.5.1'
       },
       terraformProviderSource: 'linode/linode'
     });

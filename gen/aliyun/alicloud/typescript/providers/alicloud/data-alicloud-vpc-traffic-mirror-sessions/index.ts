@@ -236,7 +236,8 @@ export class DataAlicloudVpcTrafficMirrorSessions extends cdktf.TerraformDataSou
       terraformResourceType: 'alicloud_vpc_traffic_mirror_sessions',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -56,7 +56,8 @@ export class DataSnowflakeSystemGetSnowflakePlatformInfo extends cdktf.Terraform
       terraformResourceType: 'snowflake_system_get_snowflake_platform_info',
       terraformGeneratorMetadata: {
         providerName: 'snowflake',
-        providerVersion: '2.10.1'
+        providerVersion: '2.10.1',
+        providerVersionConstraint: '2.10.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

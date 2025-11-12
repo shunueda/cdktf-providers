@@ -73,7 +73,8 @@ export class FirewallGroup extends cdktf.TerraformResource {
       terraformResourceType: 'unifi_firewall_group',
       terraformGeneratorMetadata: {
         providerName: 'unifi',
-        providerVersion: '0.41.0'
+        providerVersion: '0.41.0',
+        providerVersionConstraint: '0.41.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

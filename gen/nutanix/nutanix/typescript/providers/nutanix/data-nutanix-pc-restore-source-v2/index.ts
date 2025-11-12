@@ -696,7 +696,8 @@ export class DataNutanixPcRestoreSourceV2 extends cdktf.TerraformDataSource {
       terraformResourceType: 'nutanix_pc_restore_source_v2',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3'
+        providerVersion: '2.3.3',
+        providerVersionConstraint: '2.3.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

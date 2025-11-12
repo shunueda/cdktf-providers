@@ -248,7 +248,8 @@ export class HwStartOrder extends cdktf.TerraformResource {
       terraformResourceType: 'dcloud_hw_start_order',
       terraformGeneratorMetadata: {
         providerName: 'dcloud',
-        providerVersion: '0.1.29'
+        providerVersion: '0.1.29',
+        providerVersionConstraint: '0.1.29'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

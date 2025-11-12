@@ -5420,7 +5420,8 @@ export class DataIntersightInventoryGenericInventoryHolder extends cdktf.Terrafo
       terraformResourceType: 'intersight_inventory_generic_inventory_holder',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

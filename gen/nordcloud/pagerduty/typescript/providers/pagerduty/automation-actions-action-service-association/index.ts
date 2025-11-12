@@ -64,7 +64,8 @@ export class AutomationActionsActionServiceAssociation extends cdktf.TerraformRe
       terraformResourceType: 'pagerduty_automation_actions_action_service_association',
       terraformGeneratorMetadata: {
         providerName: 'pagerduty',
-        providerVersion: '4.1.2'
+        providerVersion: '4.1.2',
+        providerVersionConstraint: '4.1.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

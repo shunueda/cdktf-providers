@@ -540,7 +540,8 @@ export class DlcStandardEngineResourceGroupConfigInfo extends cdktf.TerraformRes
       terraformResourceType: 'tencentcloud_dlc_standard_engine_resource_group_config_info',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

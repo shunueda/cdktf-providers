@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/ssldtlsprofile
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/ssldtlsprofile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,52 +8,56 @@ import * as cdktf from 'cdktf';
 
 export interface SsldtlsprofileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/ssldtlsprofile#helloverifyrequest Ssldtlsprofile#helloverifyrequest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/ssldtlsprofile#helloverifyrequest Ssldtlsprofile#helloverifyrequest}
   */
   readonly helloverifyrequest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/ssldtlsprofile#id Ssldtlsprofile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/ssldtlsprofile#id Ssldtlsprofile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/ssldtlsprofile#maxbadmacignorecount Ssldtlsprofile#maxbadmacignorecount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/ssldtlsprofile#initialretrytimeout Ssldtlsprofile#initialretrytimeout}
+  */
+  readonly initialretrytimeout?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/ssldtlsprofile#maxbadmacignorecount Ssldtlsprofile#maxbadmacignorecount}
   */
   readonly maxbadmacignorecount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/ssldtlsprofile#maxholdqlen Ssldtlsprofile#maxholdqlen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/ssldtlsprofile#maxholdqlen Ssldtlsprofile#maxholdqlen}
   */
   readonly maxholdqlen?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/ssldtlsprofile#maxpacketsize Ssldtlsprofile#maxpacketsize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/ssldtlsprofile#maxpacketsize Ssldtlsprofile#maxpacketsize}
   */
   readonly maxpacketsize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/ssldtlsprofile#maxrecordsize Ssldtlsprofile#maxrecordsize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/ssldtlsprofile#maxrecordsize Ssldtlsprofile#maxrecordsize}
   */
   readonly maxrecordsize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/ssldtlsprofile#maxretrytime Ssldtlsprofile#maxretrytime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/ssldtlsprofile#maxretrytime Ssldtlsprofile#maxretrytime}
   */
   readonly maxretrytime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/ssldtlsprofile#name Ssldtlsprofile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/ssldtlsprofile#name Ssldtlsprofile#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/ssldtlsprofile#pmtudiscovery Ssldtlsprofile#pmtudiscovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/ssldtlsprofile#pmtudiscovery Ssldtlsprofile#pmtudiscovery}
   */
   readonly pmtudiscovery?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/ssldtlsprofile#terminatesession Ssldtlsprofile#terminatesession}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/ssldtlsprofile#terminatesession Ssldtlsprofile#terminatesession}
   */
   readonly terminatesession?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/ssldtlsprofile citrixadc_ssldtlsprofile}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/ssldtlsprofile citrixadc_ssldtlsprofile}
 */
 export class Ssldtlsprofile extends cdktf.TerraformResource {
 
@@ -69,7 +73,7 @@ export class Ssldtlsprofile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Ssldtlsprofile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ssldtlsprofile to import
-  * @param importFromId The id of the existing Ssldtlsprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/ssldtlsprofile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ssldtlsprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/ssldtlsprofile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ssldtlsprofile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +85,7 @@ export class Ssldtlsprofile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/ssldtlsprofile citrixadc_ssldtlsprofile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/ssldtlsprofile citrixadc_ssldtlsprofile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,7 +96,8 @@ export class Ssldtlsprofile extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_ssldtlsprofile',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -104,6 +109,7 @@ export class Ssldtlsprofile extends cdktf.TerraformResource {
     });
     this._helloverifyrequest = config.helloverifyrequest;
     this._id = config.id;
+    this._initialretrytimeout = config.initialretrytimeout;
     this._maxbadmacignorecount = config.maxbadmacignorecount;
     this._maxholdqlen = config.maxholdqlen;
     this._maxpacketsize = config.maxpacketsize;
@@ -148,6 +154,22 @@ export class Ssldtlsprofile extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get idInput() {
     return this._id;
+  }
+
+  // initialretrytimeout - computed: true, optional: true, required: false
+  private _initialretrytimeout?: number; 
+  public get initialretrytimeout() {
+    return this.getNumberAttribute('initialretrytimeout');
+  }
+  public set initialretrytimeout(value: number) {
+    this._initialretrytimeout = value;
+  }
+  public resetInitialretrytimeout() {
+    this._initialretrytimeout = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get initialretrytimeoutInput() {
+    return this._initialretrytimeout;
   }
 
   // maxbadmacignorecount - computed: true, optional: true, required: false
@@ -283,6 +305,7 @@ export class Ssldtlsprofile extends cdktf.TerraformResource {
     return {
       helloverifyrequest: cdktf.stringToTerraform(this._helloverifyrequest),
       id: cdktf.stringToTerraform(this._id),
+      initialretrytimeout: cdktf.numberToTerraform(this._initialretrytimeout),
       maxbadmacignorecount: cdktf.numberToTerraform(this._maxbadmacignorecount),
       maxholdqlen: cdktf.numberToTerraform(this._maxholdqlen),
       maxpacketsize: cdktf.numberToTerraform(this._maxpacketsize),
@@ -307,6 +330,12 @@ export class Ssldtlsprofile extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      initialretrytimeout: {
+        value: cdktf.numberToHclTerraform(this._initialretrytimeout),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
       },
       maxbadmacignorecount: {
         value: cdktf.numberToHclTerraform(this._maxbadmacignorecount),

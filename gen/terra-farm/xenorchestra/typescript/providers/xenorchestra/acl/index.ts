@@ -74,7 +74,8 @@ export class Acl extends cdktf.TerraformResource {
       terraformResourceType: 'xenorchestra_acl',
       terraformGeneratorMetadata: {
         providerName: 'xenorchestra',
-        providerVersion: '0.26.1'
+        providerVersion: '0.26.1',
+        providerVersionConstraint: '0.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

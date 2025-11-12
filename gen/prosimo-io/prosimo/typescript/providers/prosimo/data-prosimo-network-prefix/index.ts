@@ -359,7 +359,8 @@ export class DataProsimoNetworkPrefix extends cdktf.TerraformDataSource {
       terraformResourceType: 'prosimo_network_prefix',
       terraformGeneratorMetadata: {
         providerName: 'prosimo',
-        providerVersion: '4.5.3'
+        providerVersion: '4.5.3',
+        providerVersionConstraint: '4.5.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

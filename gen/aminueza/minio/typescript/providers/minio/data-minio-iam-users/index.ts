@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs/data-sources/iam_users
+// https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/data-sources/iam_users
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,18 +8,18 @@ import * as cdktf from 'cdktf';
 
 export interface DataMinioIamUsersConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs/data-sources/iam_users#id DataMinioIamUsers#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/data-sources/iam_users#id DataMinioIamUsers#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs/data-sources/iam_users#name_prefix DataMinioIamUsers#name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/data-sources/iam_users#name_prefix DataMinioIamUsers#name_prefix}
   */
   readonly namePrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs/data-sources/iam_users#status DataMinioIamUsers#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/data-sources/iam_users#status DataMinioIamUsers#status}
   */
   readonly status?: string;
 }
@@ -115,7 +115,7 @@ export class DataMinioIamUsersUsersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs/data-sources/iam_users minio_iam_users}
+* Represents a {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/data-sources/iam_users minio_iam_users}
 */
 export class DataMinioIamUsers extends cdktf.TerraformDataSource {
 
@@ -131,7 +131,7 @@ export class DataMinioIamUsers extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataMinioIamUsers resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMinioIamUsers to import
-  * @param importFromId The id of the existing DataMinioIamUsers that should be imported. Refer to the {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs/data-sources/iam_users#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMinioIamUsers that should be imported. Refer to the {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/data-sources/iam_users#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMinioIamUsers to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -143,7 +143,7 @@ export class DataMinioIamUsers extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs/data-sources/iam_users minio_iam_users} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/data-sources/iam_users minio_iam_users} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -154,7 +154,8 @@ export class DataMinioIamUsers extends cdktf.TerraformDataSource {
       terraformResourceType: 'minio_iam_users',
       terraformGeneratorMetadata: {
         providerName: 'minio',
-        providerVersion: '3.11.3'
+        providerVersion: '3.11.4',
+        providerVersionConstraint: '3.11.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1136,7 +1136,8 @@ export class DataAlgoliaIndex extends cdktf.TerraformDataSource {
       terraformResourceType: 'algolia_index',
       terraformGeneratorMetadata: {
         providerName: 'algolia',
-        providerVersion: '0.6.2'
+        providerVersion: '0.6.2',
+        providerVersionConstraint: '0.6.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

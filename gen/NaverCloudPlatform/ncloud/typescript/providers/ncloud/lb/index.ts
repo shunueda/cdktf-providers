@@ -249,7 +249,8 @@ export class Lb extends cdktf.TerraformResource {
       terraformResourceType: 'ncloud_lb',
       terraformGeneratorMetadata: {
         providerName: 'ncloud',
-        providerVersion: '4.0.4'
+        providerVersion: '4.0.4',
+        providerVersionConstraint: '4.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -267,7 +267,8 @@ export class PeeringGroupNode extends cdktf.TerraformResource {
       terraformResourceType: 'sdm_peering_group_node',
       terraformGeneratorMetadata: {
         providerName: 'sdm',
-        providerVersion: '15.27.0'
+        providerVersion: '15.27.0',
+        providerVersionConstraint: '15.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -291,7 +291,8 @@ export class DataOmeApplicationCertificate extends cdktf.TerraformDataSource {
       terraformResourceType: 'ome_application_certificate',
       terraformGeneratorMetadata: {
         providerName: 'ome',
-        providerVersion: '1.2.3'
+        providerVersion: '1.2.3',
+        providerVersionConstraint: '1.2.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

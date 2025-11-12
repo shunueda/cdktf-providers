@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_show_objects
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_show_objects
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataCheckpointManagementShowObjectsConfig extends cdktf.Terrafo
   /**
   * Indicates whether to dereference "members" field by details level for every object in reply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_show_objects#dereference_group_members DataCheckpointManagementShowObjects#dereference_group_members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_show_objects#dereference_group_members DataCheckpointManagementShowObjects#dereference_group_members}
   */
   readonly dereferenceGroupMembers?: boolean | cdktf.IResolvable;
   /**
   * Indicates which domains to process the commands on. It cannot be used with the details-level full, must be run from the System Domain only and with ignore-warnings true. Valid values are: CURRENT_DOMAIN, ALL_DOMAINS_ON_THIS_SERVER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_show_objects#domains_to_process DataCheckpointManagementShowObjects#domains_to_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_show_objects#domains_to_process DataCheckpointManagementShowObjects#domains_to_process}
   */
   readonly domainsToProcess?: string[];
   /**
   * Search expression to filter objects by. The provided text should be exactly the same as it would be given in Smart Console. The logical operators in the expression ('AND', 'OR') should be provided in capital letters. By default, the search involves both a textual search and a IP search. To use IP search only, set the "ip-only" parameter to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_show_objects#filter DataCheckpointManagementShowObjects#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_show_objects#filter DataCheckpointManagementShowObjects#filter}
   */
   readonly filter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_show_objects#id DataCheckpointManagementShowObjects#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_show_objects#id DataCheckpointManagementShowObjects#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,43 +35,43 @@ export interface DataCheckpointManagementShowObjectsConfig extends cdktf.Terrafo
   /**
   * If using "filter", use this field to search objects by their IP address only, without involving the textual search.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_show_objects#ip_only DataCheckpointManagementShowObjects#ip_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_show_objects#ip_only DataCheckpointManagementShowObjects#ip_only}
   */
   readonly ipOnly?: boolean | cdktf.IResolvable;
   /**
   * The maximal number of returned results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_show_objects#limit DataCheckpointManagementShowObjects#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_show_objects#limit DataCheckpointManagementShowObjects#limit}
   */
   readonly limit?: number;
   /**
   * Number of the results to initially skip.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_show_objects#offset DataCheckpointManagementShowObjects#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_show_objects#offset DataCheckpointManagementShowObjects#offset}
   */
   readonly offset?: number;
   /**
   * Indicates whether to calculate and show "groups" field for every object in reply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_show_objects#show_membership DataCheckpointManagementShowObjects#show_membership}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_show_objects#show_membership DataCheckpointManagementShowObjects#show_membership}
   */
   readonly showMembership?: boolean | cdktf.IResolvable;
   /**
   * The objects' type, e.g.: host, service-tcp, network, address-range...
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_show_objects#type DataCheckpointManagementShowObjects#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_show_objects#type DataCheckpointManagementShowObjects#type}
   */
   readonly type?: string;
   /**
   * List of UIDs of the objects to retrieve.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_show_objects#uids DataCheckpointManagementShowObjects#uids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_show_objects#uids DataCheckpointManagementShowObjects#uids}
   */
   readonly uids?: string[];
   /**
   * order block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_show_objects#order DataCheckpointManagementShowObjects#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_show_objects#order DataCheckpointManagementShowObjects#order}
   */
   readonly order?: DataCheckpointManagementShowObjectsOrder[] | cdktf.IResolvable;
 }
@@ -170,13 +170,13 @@ export interface DataCheckpointManagementShowObjectsOrder {
   /**
   * Sorts results by the given field in ascending order.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_show_objects#asc DataCheckpointManagementShowObjects#asc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_show_objects#asc DataCheckpointManagementShowObjects#asc}
   */
   readonly asc?: string;
   /**
   * Sorts results by the given field in descending order.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_show_objects#desc DataCheckpointManagementShowObjects#desc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_show_objects#desc DataCheckpointManagementShowObjects#desc}
   */
   readonly desc?: string;
 }
@@ -321,7 +321,7 @@ export class DataCheckpointManagementShowObjectsOrderList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_show_objects checkpoint_management_show_objects}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_show_objects checkpoint_management_show_objects}
 */
 export class DataCheckpointManagementShowObjects extends cdktf.TerraformDataSource {
 
@@ -337,7 +337,7 @@ export class DataCheckpointManagementShowObjects extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataCheckpointManagementShowObjects resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCheckpointManagementShowObjects to import
-  * @param importFromId The id of the existing DataCheckpointManagementShowObjects that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_show_objects#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCheckpointManagementShowObjects that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_show_objects#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCheckpointManagementShowObjects to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -349,7 +349,7 @@ export class DataCheckpointManagementShowObjects extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/data-sources/management_show_objects checkpoint_management_show_objects} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/data-sources/management_show_objects checkpoint_management_show_objects} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -360,7 +360,8 @@ export class DataCheckpointManagementShowObjects extends cdktf.TerraformDataSour
       terraformResourceType: 'checkpoint_management_show_objects',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

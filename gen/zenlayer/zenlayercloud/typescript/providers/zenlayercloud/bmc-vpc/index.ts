@@ -80,7 +80,8 @@ export class BmcVpc extends cdktf.TerraformResource {
       terraformResourceType: 'zenlayercloud_bmc_vpc',
       terraformGeneratorMetadata: {
         providerName: 'zenlayercloud',
-        providerVersion: '0.2.8'
+        providerVersion: '0.2.8',
+        providerVersionConstraint: '0.2.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

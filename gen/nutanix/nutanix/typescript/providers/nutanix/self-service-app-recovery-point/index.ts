@@ -72,7 +72,8 @@ export class SelfServiceAppRecoveryPoint extends cdktf.TerraformResource {
       terraformResourceType: 'nutanix_self_service_app_recovery_point',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3'
+        providerVersion: '2.3.3',
+        providerVersionConstraint: '2.3.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

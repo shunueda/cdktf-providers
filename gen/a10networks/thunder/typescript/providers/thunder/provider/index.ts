@@ -79,7 +79,8 @@ export class ThunderProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'thunder',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       terraformProviderSource: 'a10networks/thunder'
     });

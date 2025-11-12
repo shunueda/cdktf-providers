@@ -86,7 +86,8 @@ export class ServiceAccountApiToken extends cdktf.TerraformResource {
       terraformResourceType: 'kestra_service_account_api_token',
       terraformGeneratorMetadata: {
         providerName: 'kestra',
-        providerVersion: '1.0.2'
+        providerVersion: '1.0.2',
+        providerVersionConstraint: '1.0.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

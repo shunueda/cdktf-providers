@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_dot1x_server
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_dot1x_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface InterfaceDot1XServerConfig extends cdktf.TerraformMetaArguments
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_dot1x_server#___path___ InterfaceDot1XServer#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_dot1x_server#___path___ InterfaceDot1XServer#___path___}
   */
   readonly path?: string;
   /**
   * Whether to send RADIUS accounting requests to the authentication server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_dot1x_server#accounting InterfaceDot1XServer#accounting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_dot1x_server#accounting InterfaceDot1XServer#accounting}
   */
   readonly accounting?: boolean | cdktf.IResolvable;
   /**
   * Total time available for EAP authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_dot1x_server#auth_timeout InterfaceDot1XServer#auth_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_dot1x_server#auth_timeout InterfaceDot1XServer#auth_timeout}
   */
   readonly authTimeout?: string;
   /**
   * Used authentication type on a server interface. Comma-separated list of `dot1x` and `mac-auth`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_dot1x_server#auth_types InterfaceDot1XServer#auth_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_dot1x_server#auth_types InterfaceDot1XServer#auth_types}
   */
   readonly authTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_dot1x_server#comment InterfaceDot1XServer#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_dot1x_server#comment InterfaceDot1XServer#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_dot1x_server#disabled InterfaceDot1XServer#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_dot1x_server#disabled InterfaceDot1XServer#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Assigned VLAN when end devices do not support dot1x authentication and no mac-auth fallback is configured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_dot1x_server#guest_vlan_id InterfaceDot1XServer#guest_vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_dot1x_server#guest_vlan_id InterfaceDot1XServer#guest_vlan_id}
   */
   readonly guestVlanId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_dot1x_server#id InterfaceDot1XServer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_dot1x_server#id InterfaceDot1XServer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -55,55 +55,55 @@ export interface InterfaceDot1XServerConfig extends cdktf.TerraformMetaArguments
   /**
   * Name of the interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_dot1x_server#interface InterfaceDot1XServer#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_dot1x_server#interface InterfaceDot1XServer#interface}
   */
   readonly interface: string;
   /**
   * Interval between scheduled RADIUS Interim-Update messages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_dot1x_server#interim_update InterfaceDot1XServer#interim_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_dot1x_server#interim_update InterfaceDot1XServer#interim_update}
   */
   readonly interimUpdate?: string;
   /**
   * An option that allows to control User-Name and User-Password RADIUS attributes when using MAC authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_dot1x_server#mac_auth_mode InterfaceDot1XServer#mac_auth_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_dot1x_server#mac_auth_mode InterfaceDot1XServer#mac_auth_mode}
   */
   readonly macAuthMode?: string;
   /**
   * An option that controls how the MAC address of the client is encoded in the User-Name and User-Password attributes when using MAC authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_dot1x_server#radius_mac_format InterfaceDot1XServer#radius_mac_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_dot1x_server#radius_mac_format InterfaceDot1XServer#radius_mac_format}
   */
   readonly radiusMacFormat?: string;
   /**
   * An option that enables server port re-authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_dot1x_server#reauth_timeout InterfaceDot1XServer#reauth_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_dot1x_server#reauth_timeout InterfaceDot1XServer#reauth_timeout}
   */
   readonly reauthTimeout?: string;
   /**
   * Assigned VLAN when authentication failed, and a RADIUS server responded with an Access-Reject message. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_dot1x_server#reject_vlan_id InterfaceDot1XServer#reject_vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_dot1x_server#reject_vlan_id InterfaceDot1XServer#reject_vlan_id}
   */
   readonly rejectVlanId?: number;
   /**
   * The time interval between message re-transmissions if no response is received from the supplicant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_dot1x_server#retrans_timeout InterfaceDot1XServer#retrans_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_dot1x_server#retrans_timeout InterfaceDot1XServer#retrans_timeout}
   */
   readonly retransTimeout?: string;
   /**
   * Assigned VLAN when RADIUS server is not responding and request timed out.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_dot1x_server#server_fail_vlan_id InterfaceDot1XServer#server_fail_vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_dot1x_server#server_fail_vlan_id InterfaceDot1XServer#server_fail_vlan_id}
   */
   readonly serverFailVlanId?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_dot1x_server routeros_interface_dot1x_server}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_dot1x_server routeros_interface_dot1x_server}
 */
 export class InterfaceDot1XServer extends cdktf.TerraformResource {
 
@@ -119,7 +119,7 @@ export class InterfaceDot1XServer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InterfaceDot1XServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InterfaceDot1XServer to import
-  * @param importFromId The id of the existing InterfaceDot1XServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_dot1x_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InterfaceDot1XServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_dot1x_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InterfaceDot1XServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -131,7 +131,7 @@ export class InterfaceDot1XServer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/interface_dot1x_server routeros_interface_dot1x_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/interface_dot1x_server routeros_interface_dot1x_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -142,7 +142,8 @@ export class InterfaceDot1XServer extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_interface_dot1x_server',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.90.0'
+        providerVersion: '1.91.0',
+        providerVersionConstraint: '1.91.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

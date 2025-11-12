@@ -168,7 +168,8 @@ export class DataSkysqlVersions extends cdktf.TerraformDataSource {
       terraformResourceType: 'skysql_versions',
       terraformGeneratorMetadata: {
         providerName: 'skysql',
-        providerVersion: '3.2.0'
+        providerVersion: '3.2.0',
+        providerVersionConstraint: '3.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

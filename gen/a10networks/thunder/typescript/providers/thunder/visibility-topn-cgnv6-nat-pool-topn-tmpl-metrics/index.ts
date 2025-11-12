@@ -80,7 +80,8 @@ export class VisibilityTopnCgnv6NatPoolTopnTmplMetricsA extends cdktf.TerraformR
       terraformResourceType: 'thunder_visibility_topn_cgnv6_nat_pool_topn_tmpl_metrics',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

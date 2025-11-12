@@ -68,7 +68,8 @@ export class Template extends cdktf.TerraformResource {
       terraformResourceType: 'sendgrid_template',
       terraformGeneratorMetadata: {
         providerName: 'sendgrid',
-        providerVersion: '1.1.2'
+        providerVersion: '1.1.2',
+        providerVersionConstraint: '1.1.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

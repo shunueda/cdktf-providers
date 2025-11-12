@@ -68,7 +68,8 @@ export class Directory extends cdktf.TerraformResource {
       terraformResourceType: 'databricks_directory',
       terraformGeneratorMetadata: {
         providerName: 'databricks',
-        providerVersion: '1.97.0'
+        providerVersion: '1.97.0',
+        providerVersionConstraint: '1.97.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

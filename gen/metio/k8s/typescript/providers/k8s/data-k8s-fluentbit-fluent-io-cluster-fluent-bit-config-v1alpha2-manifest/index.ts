@@ -3158,7 +3158,8 @@ export class DataK8SFluentbitFluentIoClusterFluentBitConfigV1Alpha2Manifest exte
       terraformResourceType: 'k8s_fluentbit_fluent_io_cluster_fluent_bit_config_v1alpha2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

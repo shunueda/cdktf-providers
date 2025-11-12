@@ -805,7 +805,8 @@ export class DataAlicloudCloudControlResourceTypes extends cdktf.TerraformDataSo
       terraformResourceType: 'alicloud_cloud_control_resource_types',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -270,7 +270,8 @@ export class CustomUserToken extends cdktf.TerraformResource {
       terraformResourceType: 'rancher2_custom_user_token',
       terraformGeneratorMetadata: {
         providerName: 'rancher2',
-        providerVersion: '8.3.1'
+        providerVersion: '8.3.1',
+        providerVersionConstraint: '8.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

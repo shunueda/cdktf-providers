@@ -233,7 +233,8 @@ export class MysqlBackupDownloadRestriction extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_mysql_backup_download_restriction',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

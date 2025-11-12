@@ -72,7 +72,8 @@ export class DataMsoSchemaTemplateBdSubnet extends cdktf.TerraformDataSource {
       terraformResourceType: 'mso_schema_template_bd_subnet',
       terraformGeneratorMetadata: {
         providerName: 'mso',
-        providerVersion: '1.6.0'
+        providerVersion: '1.6.0',
+        providerVersionConstraint: '1.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

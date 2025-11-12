@@ -84,7 +84,8 @@ export class DataMsoSchemaSiteBdL3Out extends cdktf.TerraformDataSource {
       terraformResourceType: 'mso_schema_site_bd_l3out',
       terraformGeneratorMetadata: {
         providerName: 'mso',
-        providerVersion: '1.6.0'
+        providerVersion: '1.6.0',
+        providerVersionConstraint: '1.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

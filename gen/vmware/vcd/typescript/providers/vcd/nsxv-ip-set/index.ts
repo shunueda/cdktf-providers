@@ -92,7 +92,8 @@ export class NsxvIpSet extends cdktf.TerraformResource {
       terraformResourceType: 'vcd_nsxv_ip_set',
       terraformGeneratorMetadata: {
         providerName: 'vcd',
-        providerVersion: '3.14.1'
+        providerVersion: '3.14.1',
+        providerVersionConstraint: '3.14.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

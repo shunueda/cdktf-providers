@@ -89,7 +89,8 @@ export class SplunkItsiProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'splunk-itsi',
       terraformGeneratorMetadata: {
         providerName: 'splunk-itsi',
-        providerVersion: '2.2.4'
+        providerVersion: '2.2.4',
+        providerVersionConstraint: '2.2.4'
       },
       terraformProviderSource: 'TiVo/splunk-itsi'
     });

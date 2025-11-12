@@ -1224,7 +1224,8 @@ export class DataVcdNsxtAlbVirtualServiceHttpSecRules extends cdktf.TerraformDat
       terraformResourceType: 'vcd_nsxt_alb_virtual_service_http_sec_rules',
       terraformGeneratorMetadata: {
         providerName: 'vcd',
-        providerVersion: '3.14.1'
+        providerVersion: '3.14.1',
+        providerVersionConstraint: '3.14.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

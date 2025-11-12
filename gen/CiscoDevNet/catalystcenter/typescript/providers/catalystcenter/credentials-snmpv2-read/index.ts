@@ -61,7 +61,8 @@ export class CredentialsSnmpv2Read extends cdktf.TerraformResource {
       terraformResourceType: 'catalystcenter_credentials_snmpv2_read',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.2'
+        providerVersion: '0.4.2',
+        providerVersionConstraint: '0.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -76,7 +76,8 @@ export class DataSatoriDataAccessController extends cdktf.TerraformDataSource {
       terraformResourceType: 'satori_data_access_controller',
       terraformGeneratorMetadata: {
         providerName: 'satori',
-        providerVersion: '0.2.8'
+        providerVersion: '0.2.8',
+        providerVersionConstraint: '0.2.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

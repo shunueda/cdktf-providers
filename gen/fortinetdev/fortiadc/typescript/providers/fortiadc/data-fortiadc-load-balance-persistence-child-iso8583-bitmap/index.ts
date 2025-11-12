@@ -68,7 +68,8 @@ export class DataFortiadcLoadBalancePersistenceChildIso8583Bitmap extends cdktf.
       terraformResourceType: 'fortiadc_load_balance_persistence_child_iso8583_bitmap',
       terraformGeneratorMetadata: {
         providerName: 'fortiadc',
-        providerVersion: '1.3.1'
+        providerVersion: '1.3.1',
+        providerVersionConstraint: '1.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

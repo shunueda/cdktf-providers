@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnvserver_aaapreauthenticationpolicy_binding
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver_aaapreauthenticationpolicy_binding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,44 +8,44 @@ import * as cdktf from 'cdktf';
 
 export interface VpnvserverAaapreauthenticationpolicyBindingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnvserver_aaapreauthenticationpolicy_binding#bindpoint VpnvserverAaapreauthenticationpolicyBinding#bindpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver_aaapreauthenticationpolicy_binding#bindpoint VpnvserverAaapreauthenticationpolicyBinding#bindpoint}
   */
   readonly bindpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnvserver_aaapreauthenticationpolicy_binding#gotopriorityexpression VpnvserverAaapreauthenticationpolicyBinding#gotopriorityexpression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver_aaapreauthenticationpolicy_binding#gotopriorityexpression VpnvserverAaapreauthenticationpolicyBinding#gotopriorityexpression}
   */
   readonly gotopriorityexpression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnvserver_aaapreauthenticationpolicy_binding#groupextraction VpnvserverAaapreauthenticationpolicyBinding#groupextraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver_aaapreauthenticationpolicy_binding#groupextraction VpnvserverAaapreauthenticationpolicyBinding#groupextraction}
   */
   readonly groupextraction?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnvserver_aaapreauthenticationpolicy_binding#id VpnvserverAaapreauthenticationpolicyBinding#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver_aaapreauthenticationpolicy_binding#id VpnvserverAaapreauthenticationpolicyBinding#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnvserver_aaapreauthenticationpolicy_binding#name VpnvserverAaapreauthenticationpolicyBinding#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver_aaapreauthenticationpolicy_binding#name VpnvserverAaapreauthenticationpolicyBinding#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnvserver_aaapreauthenticationpolicy_binding#policy VpnvserverAaapreauthenticationpolicyBinding#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver_aaapreauthenticationpolicy_binding#policy VpnvserverAaapreauthenticationpolicyBinding#policy}
   */
   readonly policy: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnvserver_aaapreauthenticationpolicy_binding#priority VpnvserverAaapreauthenticationpolicyBinding#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver_aaapreauthenticationpolicy_binding#priority VpnvserverAaapreauthenticationpolicyBinding#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnvserver_aaapreauthenticationpolicy_binding#secondary VpnvserverAaapreauthenticationpolicyBinding#secondary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver_aaapreauthenticationpolicy_binding#secondary VpnvserverAaapreauthenticationpolicyBinding#secondary}
   */
   readonly secondary?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnvserver_aaapreauthenticationpolicy_binding citrixadc_vpnvserver_aaapreauthenticationpolicy_binding}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver_aaapreauthenticationpolicy_binding citrixadc_vpnvserver_aaapreauthenticationpolicy_binding}
 */
 export class VpnvserverAaapreauthenticationpolicyBinding extends cdktf.TerraformResource {
 
@@ -61,7 +61,7 @@ export class VpnvserverAaapreauthenticationpolicyBinding extends cdktf.Terraform
   * Generates CDKTF code for importing a VpnvserverAaapreauthenticationpolicyBinding resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpnvserverAaapreauthenticationpolicyBinding to import
-  * @param importFromId The id of the existing VpnvserverAaapreauthenticationpolicyBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnvserver_aaapreauthenticationpolicy_binding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpnvserverAaapreauthenticationpolicyBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver_aaapreauthenticationpolicy_binding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpnvserverAaapreauthenticationpolicyBinding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -73,7 +73,7 @@ export class VpnvserverAaapreauthenticationpolicyBinding extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/vpnvserver_aaapreauthenticationpolicy_binding citrixadc_vpnvserver_aaapreauthenticationpolicy_binding} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver_aaapreauthenticationpolicy_binding citrixadc_vpnvserver_aaapreauthenticationpolicy_binding} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -84,7 +84,8 @@ export class VpnvserverAaapreauthenticationpolicyBinding extends cdktf.Terraform
       terraformResourceType: 'citrixadc_vpnvserver_aaapreauthenticationpolicy_binding',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

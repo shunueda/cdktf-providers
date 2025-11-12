@@ -73,7 +73,8 @@ export class ListFilter extends cdktf.TerraformResource {
       terraformResourceType: 'adguard_list_filter',
       terraformGeneratorMetadata: {
         providerName: 'adguard',
-        providerVersion: '1.6.2'
+        providerVersion: '1.6.2',
+        providerVersionConstraint: '1.6.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

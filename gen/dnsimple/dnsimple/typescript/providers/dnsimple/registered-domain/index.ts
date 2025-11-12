@@ -469,7 +469,8 @@ export class RegisteredDomain extends cdktf.TerraformResource {
       terraformResourceType: 'dnsimple_registered_domain',
       terraformGeneratorMetadata: {
         providerName: 'dnsimple',
-        providerVersion: '1.10.0'
+        providerVersion: '1.10.0',
+        providerVersionConstraint: '1.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

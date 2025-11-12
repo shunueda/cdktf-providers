@@ -696,7 +696,8 @@ export class NetworkAclRule extends cdktf.TerraformResource {
       terraformResourceType: 'ncloud_network_acl_rule',
       terraformGeneratorMetadata: {
         providerName: 'ncloud',
-        providerVersion: '4.0.4'
+        providerVersion: '4.0.4',
+        providerVersionConstraint: '4.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

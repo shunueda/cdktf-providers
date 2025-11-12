@@ -94,7 +94,8 @@ export class Buildpack extends cdktf.TerraformResource {
       terraformResourceType: 'cloudfoundry_buildpack',
       terraformGeneratorMetadata: {
         providerName: 'cloudfoundry',
-        providerVersion: '0.53.1'
+        providerVersion: '0.53.1',
+        providerVersionConstraint: '0.53.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

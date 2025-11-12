@@ -73,7 +73,8 @@ export class DataLdapSearch extends cdktf.TerraformDataSource {
       terraformResourceType: 'ldap_search',
       terraformGeneratorMetadata: {
         providerName: 'ldap',
-        providerVersion: '0.4.0'
+        providerVersion: '0.4.0',
+        providerVersionConstraint: '0.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

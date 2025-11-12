@@ -371,7 +371,8 @@ export class DataNcloudNetworkInterfaces extends cdktf.TerraformDataSource {
       terraformResourceType: 'ncloud_network_interfaces',
       terraformGeneratorMetadata: {
         providerName: 'ncloud',
-        providerVersion: '4.0.4'
+        providerVersion: '4.0.4',
+        providerVersionConstraint: '4.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

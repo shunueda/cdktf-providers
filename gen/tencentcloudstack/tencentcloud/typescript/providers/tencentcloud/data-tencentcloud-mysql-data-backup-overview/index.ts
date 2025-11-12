@@ -68,7 +68,8 @@ export class DataTencentcloudMysqlDataBackupOverview extends cdktf.TerraformData
       terraformResourceType: 'tencentcloud_mysql_data_backup_overview',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

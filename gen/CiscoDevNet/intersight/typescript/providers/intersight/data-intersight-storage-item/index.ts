@@ -5464,7 +5464,8 @@ export class DataIntersightStorageItem extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_storage_item',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

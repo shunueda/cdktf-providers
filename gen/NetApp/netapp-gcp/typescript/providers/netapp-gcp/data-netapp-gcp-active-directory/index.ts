@@ -124,7 +124,8 @@ export class DataNetappGcpActiveDirectory extends cdktf.TerraformDataSource {
       terraformResourceType: 'netapp-gcp_active_directory',
       terraformGeneratorMetadata: {
         providerName: 'netapp-gcp',
-        providerVersion: '24.6.0'
+        providerVersion: '24.6.0',
+        providerVersionConstraint: '24.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

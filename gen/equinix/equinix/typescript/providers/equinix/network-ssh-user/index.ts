@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/network_ssh_user
+// https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/network_ssh_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface NetworkSshUserConfig extends cdktf.TerraformMetaArguments {
   /**
   * list of device identifiers to which user will have access
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/network_ssh_user#device_ids NetworkSshUser#device_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/network_ssh_user#device_ids NetworkSshUser#device_ids}
   */
   readonly deviceIds: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/network_ssh_user#id NetworkSshUser#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/network_ssh_user#id NetworkSshUser#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface NetworkSshUserConfig extends cdktf.TerraformMetaArguments {
   /**
   * SSH user password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/network_ssh_user#password NetworkSshUser#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/network_ssh_user#password NetworkSshUser#password}
   */
   readonly password: string;
   /**
   * SSH user login name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/network_ssh_user#username NetworkSshUser#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/network_ssh_user#username NetworkSshUser#username}
   */
   readonly username: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/network_ssh_user equinix_network_ssh_user}
+* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/network_ssh_user equinix_network_ssh_user}
 */
 export class NetworkSshUser extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class NetworkSshUser extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkSshUser resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkSshUser to import
-  * @param importFromId The id of the existing NetworkSshUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/network_ssh_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkSshUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/network_ssh_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkSshUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class NetworkSshUser extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/network_ssh_user equinix_network_ssh_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/network_ssh_user equinix_network_ssh_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,7 +74,8 @@ export class NetworkSshUser extends cdktf.TerraformResource {
       terraformResourceType: 'equinix_network_ssh_user',
       terraformGeneratorMetadata: {
         providerName: 'equinix',
-        providerVersion: '4.8.0'
+        providerVersion: '4.10.0',
+        providerVersionConstraint: '4.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

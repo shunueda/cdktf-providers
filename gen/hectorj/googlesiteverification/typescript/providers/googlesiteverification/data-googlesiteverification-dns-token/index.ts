@@ -62,7 +62,8 @@ export class DataGooglesiteverificationDnsToken extends cdktf.TerraformDataSourc
       terraformResourceType: 'googlesiteverification_dns_token',
       terraformGeneratorMetadata: {
         providerName: 'googlesiteverification',
-        providerVersion: '0.4.5'
+        providerVersion: '0.4.5',
+        providerVersionConstraint: '0.4.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

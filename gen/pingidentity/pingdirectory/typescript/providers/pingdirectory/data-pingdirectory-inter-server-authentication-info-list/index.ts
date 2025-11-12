@@ -147,7 +147,8 @@ export class DataPingdirectoryInterServerAuthenticationInfoList extends cdktf.Te
       terraformResourceType: 'pingdirectory_inter_server_authentication_info_list',
       terraformGeneratorMetadata: {
         providerName: 'pingdirectory',
-        providerVersion: '1.5.0'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -5162,7 +5162,8 @@ export class DataIntersightBiosSystemBootOrder extends cdktf.TerraformDataSource
       terraformResourceType: 'intersight_bios_system_boot_order',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -3625,7 +3625,8 @@ export class InfrastructureDefinition extends cdktf.TerraformResource {
       terraformResourceType: 'harness_infrastructure_definition',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.0'
+        providerVersion: '0.39.0',
+        providerVersionConstraint: '0.39.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

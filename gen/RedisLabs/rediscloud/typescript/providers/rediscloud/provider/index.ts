@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs
+// https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface RediscloudProviderConfig {
   /**
   * This is the Redis Cloud API key. It must be provided but can also be set by the `REDISCLOUD_ACCESS_KEY` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs#api_key RediscloudProvider#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs#api_key RediscloudProvider#api_key}
   */
   readonly apiKey?: string;
   /**
   * This is the Redis Cloud API secret key. It must be provided but can also be set by the `REDISCLOUD_SECRET_KEY` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs#secret_key RediscloudProvider#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs#secret_key RediscloudProvider#secret_key}
   */
   readonly secretKey?: string;
   /**
   * This is the URL of Redis Cloud and will default to `https://api.redislabs.com/v1`. This can also be set by the `REDISCLOUD_URL` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs#url RediscloudProvider#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs#url RediscloudProvider#url}
   */
   readonly url?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs#alias RediscloudProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs#alias RediscloudProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs rediscloud}
+* Represents a {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs rediscloud}
 */
 export class RediscloudProvider extends cdktf.TerraformProvider {
 
@@ -50,7 +50,7 @@ export class RediscloudProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a RediscloudProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RediscloudProvider to import
-  * @param importFromId The id of the existing RediscloudProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RediscloudProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RediscloudProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class RediscloudProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs rediscloud} Resource
+  * Create a new {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs rediscloud} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,7 +73,8 @@ export class RediscloudProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'rediscloud',
       terraformGeneratorMetadata: {
         providerName: 'rediscloud',
-        providerVersion: '2.7.3'
+        providerVersion: '2.8.0',
+        providerVersionConstraint: '2.8.0'
       },
       terraformProviderSource: 'RedisLabs/rediscloud'
     });

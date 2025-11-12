@@ -7338,7 +7338,8 @@ export class DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Manifest exten
       terraformResourceType: 'k8s_apiextensions_crossplane_io_composition_revision_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

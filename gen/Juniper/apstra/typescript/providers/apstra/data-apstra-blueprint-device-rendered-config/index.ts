@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/blueprint_device_rendered_config
+// https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/blueprint_device_rendered_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataApstraBlueprintDeviceRenderedConfigConfig extends cdktf.Ter
   /**
   * Apstra Blueprint ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/blueprint_device_rendered_config#blueprint_id DataApstraBlueprintDeviceRenderedConfig#blueprint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/blueprint_device_rendered_config#blueprint_id DataApstraBlueprintDeviceRenderedConfig#blueprint_id}
   */
   readonly blueprintId: string;
   /**
   * Apstra ID of the System (spine, leaf, etc...) node. Required when `system_id` is omitted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/blueprint_device_rendered_config#node_id DataApstraBlueprintDeviceRenderedConfig#node_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/blueprint_device_rendered_config#node_id DataApstraBlueprintDeviceRenderedConfig#node_id}
   */
   readonly nodeId?: string;
   /**
   * Apstra ID (serial number) for the System (Managed Device), as found in Devices -> Managed Devices in the GUI. Required when `node_id` is omitted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/blueprint_device_rendered_config#system_id DataApstraBlueprintDeviceRenderedConfig#system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/blueprint_device_rendered_config#system_id DataApstraBlueprintDeviceRenderedConfig#system_id}
   */
   readonly systemId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/blueprint_device_rendered_config apstra_blueprint_device_rendered_config}
+* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/blueprint_device_rendered_config apstra_blueprint_device_rendered_config}
 */
 export class DataApstraBlueprintDeviceRenderedConfig extends cdktf.TerraformDataSource {
 
@@ -44,7 +44,7 @@ export class DataApstraBlueprintDeviceRenderedConfig extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataApstraBlueprintDeviceRenderedConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataApstraBlueprintDeviceRenderedConfig to import
-  * @param importFromId The id of the existing DataApstraBlueprintDeviceRenderedConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/blueprint_device_rendered_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataApstraBlueprintDeviceRenderedConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/blueprint_device_rendered_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataApstraBlueprintDeviceRenderedConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class DataApstraBlueprintDeviceRenderedConfig extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/blueprint_device_rendered_config apstra_blueprint_device_rendered_config} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/blueprint_device_rendered_config apstra_blueprint_device_rendered_config} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,7 +67,8 @@ export class DataApstraBlueprintDeviceRenderedConfig extends cdktf.TerraformData
       terraformResourceType: 'apstra_blueprint_device_rendered_config',
       terraformGeneratorMetadata: {
         providerName: 'apstra',
-        providerVersion: '0.95.0'
+        providerVersion: '0.95.1',
+        providerVersionConstraint: '0.95.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

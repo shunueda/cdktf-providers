@@ -64,7 +64,8 @@ export class DataLightstepStream extends cdktf.TerraformDataSource {
       terraformResourceType: 'lightstep_stream',
       terraformGeneratorMetadata: {
         providerName: 'lightstep',
-        providerVersion: '1.98.2'
+        providerVersion: '1.98.2',
+        providerVersionConstraint: '1.98.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

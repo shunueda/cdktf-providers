@@ -79,7 +79,8 @@ export class Datasource extends cdktf.TerraformResource {
       terraformResourceType: 'squaredup_datasource',
       terraformGeneratorMetadata: {
         providerName: 'squaredup',
-        providerVersion: '1.5.0'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

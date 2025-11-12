@@ -63,7 +63,8 @@ export class FirehydrantProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'firehydrant',
       terraformGeneratorMetadata: {
         providerName: 'firehydrant',
-        providerVersion: '0.14.9'
+        providerVersion: '0.14.9',
+        providerVersionConstraint: '0.14.9'
       },
       terraformProviderSource: 'firehydrant/firehydrant'
     });

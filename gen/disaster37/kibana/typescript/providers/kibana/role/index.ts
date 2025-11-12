@@ -761,7 +761,8 @@ export class Role extends cdktf.TerraformResource {
       terraformResourceType: 'kibana_role',
       terraformGeneratorMetadata: {
         providerName: 'kibana',
-        providerVersion: '8.5.3'
+        providerVersion: '8.5.3',
+        providerVersionConstraint: '8.5.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

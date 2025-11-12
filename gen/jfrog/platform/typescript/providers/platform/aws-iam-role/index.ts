@@ -61,7 +61,8 @@ export class AwsIamRole extends cdktf.TerraformResource {
       terraformResourceType: 'platform_aws_iam_role',
       terraformGeneratorMetadata: {
         providerName: 'platform',
-        providerVersion: '2.2.6'
+        providerVersion: '2.2.6',
+        providerVersionConstraint: '2.2.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

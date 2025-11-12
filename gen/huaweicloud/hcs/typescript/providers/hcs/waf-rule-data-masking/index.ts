@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/waf_rule_data_masking
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_data_masking
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,48 +8,48 @@ import * as cdktf from 'cdktf';
 
 export interface WafRuleDataMaskingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/waf_rule_data_masking#description WafRuleDataMasking#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_data_masking#description WafRuleDataMasking#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/waf_rule_data_masking#enterprise_project_id WafRuleDataMasking#enterprise_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_data_masking#enterprise_project_id WafRuleDataMasking#enterprise_project_id}
   */
   readonly enterpriseProjectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/waf_rule_data_masking#field WafRuleDataMasking#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_data_masking#field WafRuleDataMasking#field}
   */
   readonly field: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/waf_rule_data_masking#id WafRuleDataMasking#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_data_masking#id WafRuleDataMasking#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/waf_rule_data_masking#path WafRuleDataMasking#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_data_masking#path WafRuleDataMasking#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/waf_rule_data_masking#policy_id WafRuleDataMasking#policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_data_masking#policy_id WafRuleDataMasking#policy_id}
   */
   readonly policyId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/waf_rule_data_masking#region WafRuleDataMasking#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_data_masking#region WafRuleDataMasking#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/waf_rule_data_masking#status WafRuleDataMasking#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_data_masking#status WafRuleDataMasking#status}
   */
   readonly status?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/waf_rule_data_masking#subfield WafRuleDataMasking#subfield}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_data_masking#subfield WafRuleDataMasking#subfield}
   */
   readonly subfield: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/waf_rule_data_masking hcs_waf_rule_data_masking}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_data_masking hcs_waf_rule_data_masking}
 */
 export class WafRuleDataMasking extends cdktf.TerraformResource {
 
@@ -65,7 +65,7 @@ export class WafRuleDataMasking extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WafRuleDataMasking resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WafRuleDataMasking to import
-  * @param importFromId The id of the existing WafRuleDataMasking that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/waf_rule_data_masking#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WafRuleDataMasking that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_data_masking#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WafRuleDataMasking to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -77,7 +77,7 @@ export class WafRuleDataMasking extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/resources/waf_rule_data_masking hcs_waf_rule_data_masking} Resource
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/resources/waf_rule_data_masking hcs_waf_rule_data_masking} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -88,7 +88,8 @@ export class WafRuleDataMasking extends cdktf.TerraformResource {
       terraformResourceType: 'hcs_waf_rule_data_masking',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.19'
+        providerVersion: '2.4.20',
+        providerVersionConstraint: '2.4.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

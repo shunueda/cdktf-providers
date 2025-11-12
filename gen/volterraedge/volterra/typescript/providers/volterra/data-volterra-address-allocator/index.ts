@@ -64,7 +64,8 @@ export class DataVolterraAddressAllocator extends cdktf.TerraformDataSource {
       terraformResourceType: 'volterra_address_allocator',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.44'
+        providerVersion: '0.11.44',
+        providerVersionConstraint: '0.11.44'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

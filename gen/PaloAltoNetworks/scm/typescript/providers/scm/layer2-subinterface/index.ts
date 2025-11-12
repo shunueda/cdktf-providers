@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/layer2_subinterface
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/layer2_subinterface
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface Layer2SubinterfaceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/layer2_subinterface#comment Layer2Subinterface#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/layer2_subinterface#comment Layer2Subinterface#comment}
   */
   readonly comment?: string;
   /**
   * The device in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/layer2_subinterface#device Layer2Subinterface#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/layer2_subinterface#device Layer2Subinterface#device}
   */
   readonly device?: string;
   /**
   * The folder in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/layer2_subinterface#folder Layer2Subinterface#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/layer2_subinterface#folder Layer2Subinterface#folder}
   */
   readonly folder?: string;
   /**
   * L2 sub-interface name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/layer2_subinterface#name Layer2Subinterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/layer2_subinterface#name Layer2Subinterface#name}
   */
   readonly name: string;
   /**
   * Parent interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/layer2_subinterface#parent_interface Layer2Subinterface#parent_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/layer2_subinterface#parent_interface Layer2Subinterface#parent_interface}
   */
   readonly parentInterface?: string;
   /**
   * The snippet in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/layer2_subinterface#snippet Layer2Subinterface#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/layer2_subinterface#snippet Layer2Subinterface#snippet}
   */
   readonly snippet?: string;
   /**
   * VLAN tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/layer2_subinterface#vlan_tag Layer2Subinterface#vlan_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/layer2_subinterface#vlan_tag Layer2Subinterface#vlan_tag}
   */
   readonly vlanTag: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/layer2_subinterface scm_layer2_subinterface}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/layer2_subinterface scm_layer2_subinterface}
 */
 export class Layer2Subinterface extends cdktf.TerraformResource {
 
@@ -68,7 +68,7 @@ export class Layer2Subinterface extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Layer2Subinterface resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Layer2Subinterface to import
-  * @param importFromId The id of the existing Layer2Subinterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/layer2_subinterface#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Layer2Subinterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/layer2_subinterface#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Layer2Subinterface to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +80,7 @@ export class Layer2Subinterface extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/layer2_subinterface scm_layer2_subinterface} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/layer2_subinterface scm_layer2_subinterface} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,7 +91,8 @@ export class Layer2Subinterface extends cdktf.TerraformResource {
       terraformResourceType: 'scm_layer2_subinterface',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.3'
+        providerVersion: '1.0.4',
+        providerVersionConstraint: '1.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

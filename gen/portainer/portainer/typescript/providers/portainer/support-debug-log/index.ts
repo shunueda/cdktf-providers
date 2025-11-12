@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/portainer/portainer/1.16.0/docs/resources/support_debug_log
+// https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/support_debug_log
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface SupportDebugLogConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enable or disable the global debug log
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.0/docs/resources/support_debug_log#enabled SupportDebugLog#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/support_debug_log#enabled SupportDebugLog#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.0/docs/resources/support_debug_log#id SupportDebugLog#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/support_debug_log#id SupportDebugLog#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,7 +23,7 @@ export interface SupportDebugLogConfig extends cdktf.TerraformMetaArguments {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/portainer/portainer/1.16.0/docs/resources/support_debug_log portainer_support_debug_log}
+* Represents a {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/support_debug_log portainer_support_debug_log}
 */
 export class SupportDebugLog extends cdktf.TerraformResource {
 
@@ -39,7 +39,7 @@ export class SupportDebugLog extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SupportDebugLog resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SupportDebugLog to import
-  * @param importFromId The id of the existing SupportDebugLog that should be imported. Refer to the {@link https://registry.terraform.io/providers/portainer/portainer/1.16.0/docs/resources/support_debug_log#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SupportDebugLog that should be imported. Refer to the {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/support_debug_log#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SupportDebugLog to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -51,7 +51,7 @@ export class SupportDebugLog extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/portainer/portainer/1.16.0/docs/resources/support_debug_log portainer_support_debug_log} Resource
+  * Create a new {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/support_debug_log portainer_support_debug_log} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -62,7 +62,8 @@ export class SupportDebugLog extends cdktf.TerraformResource {
       terraformResourceType: 'portainer_support_debug_log',
       terraformGeneratorMetadata: {
         providerName: 'portainer',
-        providerVersion: '1.16.0'
+        providerVersion: '1.16.1',
+        providerVersionConstraint: '1.16.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

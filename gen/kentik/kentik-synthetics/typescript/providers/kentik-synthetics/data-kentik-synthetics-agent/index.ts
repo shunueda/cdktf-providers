@@ -56,7 +56,8 @@ export class DataKentikSyntheticsAgent extends cdktf.TerraformDataSource {
       terraformResourceType: 'kentik-synthetics_agent',
       terraformGeneratorMetadata: {
         providerName: 'kentik-synthetics',
-        providerVersion: '0.2.1'
+        providerVersion: '0.2.1',
+        providerVersionConstraint: '0.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

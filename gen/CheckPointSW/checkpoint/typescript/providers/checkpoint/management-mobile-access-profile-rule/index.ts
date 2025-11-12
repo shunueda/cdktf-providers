@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_access_profile_rule
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_access_profile_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ManagementMobileAccessProfileRuleConfig extends cdktf.Terraform
   /**
   * Comments string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_access_profile_rule#comments ManagementMobileAccessProfileRule#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_access_profile_rule#comments ManagementMobileAccessProfileRule#comments}
   */
   readonly comments?: string;
   /**
   * Enable/Disable the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_access_profile_rule#enabled ManagementMobileAccessProfileRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_access_profile_rule#enabled ManagementMobileAccessProfileRule#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_access_profile_rule#id ManagementMobileAccessProfileRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_access_profile_rule#id ManagementMobileAccessProfileRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,49 +29,49 @@ export interface ManagementMobileAccessProfileRuleConfig extends cdktf.Terraform
   /**
   * Apply changes ignoring errors. You won't be able to publish such a changes. If ignore-warnings flag was omitted - warnings will also be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_access_profile_rule#ignore_errors ManagementMobileAccessProfileRule#ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_access_profile_rule#ignore_errors ManagementMobileAccessProfileRule#ignore_errors}
   */
   readonly ignoreErrors?: boolean | cdktf.IResolvable;
   /**
   * Apply changes ignoring warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_access_profile_rule#ignore_warnings ManagementMobileAccessProfileRule#ignore_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_access_profile_rule#ignore_warnings ManagementMobileAccessProfileRule#ignore_warnings}
   */
   readonly ignoreWarnings?: boolean | cdktf.IResolvable;
   /**
   * Profile configuration for User groups - identified by the name or UID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_access_profile_rule#mobile_profile ManagementMobileAccessProfileRule#mobile_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_access_profile_rule#mobile_profile ManagementMobileAccessProfileRule#mobile_profile}
   */
   readonly mobileProfile?: string;
   /**
   * Object name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_access_profile_rule#name ManagementMobileAccessProfileRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_access_profile_rule#name ManagementMobileAccessProfileRule#name}
   */
   readonly name: string;
   /**
   * Position in the rulebase.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_access_profile_rule#position ManagementMobileAccessProfileRule#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_access_profile_rule#position ManagementMobileAccessProfileRule#position}
   */
   readonly position: { [key: string]: string };
   /**
   * Collection of tag identifiers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_access_profile_rule#tags ManagementMobileAccessProfileRule#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_access_profile_rule#tags ManagementMobileAccessProfileRule#tags}
   */
   readonly tags?: string[];
   /**
   * User groups that will be configured with the profile object - identified by the name or UID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_access_profile_rule#user_groups ManagementMobileAccessProfileRule#user_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_access_profile_rule#user_groups ManagementMobileAccessProfileRule#user_groups}
   */
   readonly userGroups?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_access_profile_rule checkpoint_management_mobile_access_profile_rule}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_access_profile_rule checkpoint_management_mobile_access_profile_rule}
 */
 export class ManagementMobileAccessProfileRule extends cdktf.TerraformResource {
 
@@ -87,7 +87,7 @@ export class ManagementMobileAccessProfileRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementMobileAccessProfileRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementMobileAccessProfileRule to import
-  * @param importFromId The id of the existing ManagementMobileAccessProfileRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_access_profile_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementMobileAccessProfileRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_access_profile_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementMobileAccessProfileRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -99,7 +99,7 @@ export class ManagementMobileAccessProfileRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_mobile_access_profile_rule checkpoint_management_mobile_access_profile_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_mobile_access_profile_rule checkpoint_management_mobile_access_profile_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -110,7 +110,8 @@ export class ManagementMobileAccessProfileRule extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_mobile_access_profile_rule',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

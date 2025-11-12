@@ -14026,7 +14026,8 @@ export class DataIntersightVnicEthIf extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_vnic_eth_if',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

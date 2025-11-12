@@ -376,7 +376,8 @@ export class ComplianceCustomFramework extends cdktf.TerraformResource {
       terraformResourceType: 'datadog_compliance_custom_framework',
       terraformGeneratorMetadata: {
         providerName: 'datadog',
-        providerVersion: '3.79.0'
+        providerVersion: '3.79.0',
+        providerVersionConstraint: '3.79.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -60,7 +60,8 @@ export class DataKionProjectNote extends cdktf.TerraformDataSource {
       terraformResourceType: 'kion_project_note',
       terraformGeneratorMetadata: {
         providerName: 'kion',
-        providerVersion: '0.3.29'
+        providerVersion: '0.3.29',
+        providerVersionConstraint: '0.3.29'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

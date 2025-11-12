@@ -73,7 +73,8 @@ export class VerifyVoicePhraseContent extends cdktf.TerraformResource {
       terraformResourceType: 'pingone_verify_voice_phrase_content',
       terraformGeneratorMetadata: {
         providerName: 'pingone',
-        providerVersion: '1.14.0'
+        providerVersion: '1.14.0',
+        providerVersionConstraint: '1.14.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

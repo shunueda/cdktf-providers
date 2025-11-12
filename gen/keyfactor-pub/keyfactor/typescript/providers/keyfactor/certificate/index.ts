@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/resources/certificate
+// https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/resources/certificate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface CertificateConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of certificate authority to deploy certificate with Ex: Example Company CA 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/resources/certificate#certificate_authority Certificate#certificate_authority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/resources/certificate#certificate_authority Certificate#certificate_authority}
   */
   readonly certificateAuthority: string;
   /**
@@ -18,13 +18,13 @@ export interface CertificateConfig extends cdktf.TerraformMetaArguments {
   * 
   * One of either the Template or the EnrollmentPatternId is required unless the enrollment is being done against a standalone CA. If both the Template and EnrollmentPatternId are provided, the settings from the enrollment pattern take precedence. If both are specified, the enrollment will fail if the Template does not match the one defined by the specified enrollment pattern. IMPORTANT: Requires Keyfactor Command v25.1.0+
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/resources/certificate#certificate_enrollment_pattern Certificate#certificate_enrollment_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/resources/certificate#certificate_enrollment_pattern Certificate#certificate_enrollment_pattern}
   */
   readonly certificateEnrollmentPattern?: string;
   /**
-  * Optional: The output format to return the enrolled certificate in. Valid options are: `PEM, PFX, JKS,Zip` Defaults to: `PEM`
+  * Optional: The output format to return the enrolled certificate in. Valid PFX enrollment options are: `PEM, PFX, JKS, Zip`. Valid CSR enrollment options are `PEM, DER`. Defaults to: `PEM`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/resources/certificate#certificate_format Certificate#certificate_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/resources/certificate#certificate_format Certificate#certificate_format}
   */
   readonly certificateFormat?: string;
   /**
@@ -35,85 +35,85 @@ export interface CertificateConfig extends cdktf.TerraformMetaArguments {
   * Important:  The template must be configured with at least one enrollment pattern in order to be used for enrollment (see POST Enrollment Patterns).
   * Note:  This parameter is considered deprecated as for Keyfactor Command v25.1.0 and may be removed in a future release.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/resources/certificate#certificate_template Certificate#certificate_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/resources/certificate#certificate_template Certificate#certificate_template}
   */
   readonly certificateTemplate?: string;
   /**
   * Optional certificate collection ID. This is required if enrollment permissions have been granted at the collection level. NOTE: This will *not* assign the cert to the specified collection ID; assignment is based the collection's associated query. For more information on collection permissions see the Keyfactor Command docs: https://software.keyfactor.com/Core-OnPrem/Current/Content/ReferenceGuide/CertificatePermissions.htm?Highlight=collection%20permissions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/resources/certificate#collection_id Certificate#collection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/resources/certificate#collection_id Certificate#collection_id}
   */
   readonly collectionId?: number;
   /**
   * Subject common name (CN) of the certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/resources/certificate#common_name Certificate#common_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/resources/certificate#common_name Certificate#common_name}
   */
   readonly commonName?: string;
   /**
   * Subject country of the certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/resources/certificate#country Certificate#country}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/resources/certificate#country Certificate#country}
   */
   readonly country?: string;
   /**
   * Base-64 encoded certificate signing request (CSR)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/resources/certificate#csr Certificate#csr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/resources/certificate#csr Certificate#csr}
   */
   readonly csr?: string;
   /**
   * List of DNS names to use as subjects of the certificate. NOTE: This field **does not work with CSR enrollments**, all SANs should be included in the CSR. Additional SANs added by the CA during enrollment **will not** be reflected in this field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/resources/certificate#dns_sans Certificate#dns_sans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/resources/certificate#dns_sans Certificate#dns_sans}
   */
   readonly dnsSans?: string[];
   /**
   * Number of days before expiry to warn about the certificate. Defaults to 30 days.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/resources/certificate#expiry_warn_days Certificate#expiry_warn_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/resources/certificate#expiry_warn_days Certificate#expiry_warn_days}
   */
   readonly expiryWarnDays?: number;
   /**
   * Only applicable for PFX enrollments. A friendly name for the certificate. If not provided, the common name will be used unless `use_cn_as_friendly_name` is set to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/resources/certificate#friendly_name Certificate#friendly_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/resources/certificate#friendly_name Certificate#friendly_name}
   */
   readonly friendlyName?: string;
   /**
   * List of DNS names to use as subjects of the certificate. NOTE: This field **does not work with CSR enrollments**, all SANs should be included in the CSR. Additional SANs added by the CA during enrollment **will not** be reflected in this field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/resources/certificate#ip_sans Certificate#ip_sans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/resources/certificate#ip_sans Certificate#ip_sans}
   */
   readonly ipSans?: string[];
   /**
   * Password used to recover the private key from Keyfactor Command. NOTE: If no value is provided a random password will be generated for key recovery. This value is not stored and does not encrypt the private key in Terraform state. Also note that if a password is provided it must meet any password complexity requirements enforced by the CA template or creation will fail. Auto-generated passwords will be of length 32 and contain a minimum of 4 of the following: uppercase, lowercase, numeric, and special characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/resources/certificate#key_password Certificate#key_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/resources/certificate#key_password Certificate#key_password}
   */
   readonly keyPassword?: string;
   /**
   * Subject locality (L) of the certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/resources/certificate#locality Certificate#locality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/resources/certificate#locality Certificate#locality}
   */
   readonly locality?: string;
   /**
   * Metadata key-value pairs to be attached to certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/resources/certificate#metadata Certificate#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/resources/certificate#metadata Certificate#metadata}
   */
   readonly metadata?: { [key: string]: string };
   /**
   * Subject organization (O) of the certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/resources/certificate#organization Certificate#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/resources/certificate#organization Certificate#organization}
   */
   readonly organization?: string;
   /**
   * Subject organizational unit (OU) of the certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/resources/certificate#organizational_unit Certificate#organizational_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/resources/certificate#organizational_unit Certificate#organizational_unit}
   */
   readonly organizationalUnit?: string;
   /**
@@ -132,7 +132,7 @@ export interface CertificateConfig extends cdktf.TerraformMetaArguments {
   * > Only compatible with Keyfactor Command versions v12.3.0 and later.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/resources/certificate#owner_role_name Certificate#owner_role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/resources/certificate#owner_role_name Certificate#owner_role_name}
   */
   readonly ownerRoleName?: string;
   /**
@@ -143,25 +143,31 @@ export interface CertificateConfig extends cdktf.TerraformMetaArguments {
   * > certificate or deploy via the Command UI.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/resources/certificate#renewal_config Certificate#renewal_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/resources/certificate#renewal_config Certificate#renewal_config}
   */
   readonly renewalConfig?: CertificateRenewalConfig;
   /**
+  * Whether to revoke the certificate on resource `destroy`. IMPORTANT: If set to `false` the certificate will not be revoked on `destroy`ing operations. This means the certificate will need to be revoked outside of Terraform. Defaults to `true`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/resources/certificate#revoke_on_destroy Certificate#revoke_on_destroy}
+  */
+  readonly revokeOnDestroy?: boolean | cdktf.IResolvable;
+  /**
   * Subject state (ST) of the certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/resources/certificate#state Certificate#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/resources/certificate#state Certificate#state}
   */
   readonly state?: string;
   /**
   * List of URIs to use as subjects of the certificate. NOTE: This field **does not work with CSR enrollments**, all SANs should be included in the CSR. Additional SANs added by the CA during enrollment **will not** be reflected in this field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/resources/certificate#uri_sans Certificate#uri_sans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/resources/certificate#uri_sans Certificate#uri_sans}
   */
   readonly uriSans?: string[];
   /**
   * Only applicable for PFX enrollments. Use the common name as the friendly name for the certificate. Defaults to `true`. NOTE: Keyfactor Command must be configured to `allow custom friendly name` for this to work under `Application Settings > Enrollment > PFX`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/resources/certificate#use_cn_as_friendly_name Certificate#use_cn_as_friendly_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/resources/certificate#use_cn_as_friendly_name Certificate#use_cn_as_friendly_name}
   */
   readonly useCnAsFriendlyName?: boolean | cdktf.IResolvable;
 }
@@ -169,19 +175,19 @@ export interface CertificateRenewalConfig {
   /**
   * Will force certificate to be renewed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/resources/certificate#force_renewal Certificate#force_renewal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/resources/certificate#force_renewal Certificate#force_renewal}
   */
   readonly forceRenewal?: boolean | cdktf.IResolvable;
   /**
   * The number of days before the certificate expires to trigger renewal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/resources/certificate#renew_days Certificate#renew_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/resources/certificate#renew_days Certificate#renew_days}
   */
   readonly renewDays: number;
   /**
   * Whether the existing certificate should be revoked on renewal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/resources/certificate#revoke_on_renew Certificate#revoke_on_renew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/resources/certificate#revoke_on_renew Certificate#revoke_on_renew}
   */
   readonly revokeOnRenew?: boolean | cdktf.IResolvable;
 }
@@ -335,7 +341,7 @@ export class CertificateRenewalConfigOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/resources/certificate keyfactor_certificate}
+* Represents a {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/resources/certificate keyfactor_certificate}
 */
 export class Certificate extends cdktf.TerraformResource {
 
@@ -351,7 +357,7 @@ export class Certificate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Certificate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Certificate to import
-  * @param importFromId The id of the existing Certificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/resources/certificate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Certificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/resources/certificate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Certificate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -363,7 +369,7 @@ export class Certificate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/resources/certificate keyfactor_certificate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/resources/certificate keyfactor_certificate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -374,7 +380,8 @@ export class Certificate extends cdktf.TerraformResource {
       terraformResourceType: 'keyfactor_certificate',
       terraformGeneratorMetadata: {
         providerName: 'keyfactor',
-        providerVersion: '2.6.0'
+        providerVersion: '2.7.0',
+        providerVersionConstraint: '2.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -403,6 +410,7 @@ export class Certificate extends cdktf.TerraformResource {
     this._organizationalUnit = config.organizationalUnit;
     this._ownerRoleName = config.ownerRoleName;
     this._renewalConfig.internalValue = config.renewalConfig;
+    this._revokeOnDestroy = config.revokeOnDestroy;
     this._state = config.state;
     this._uriSans = config.uriSans;
     this._useCnAsFriendlyName = config.useCnAsFriendlyName;
@@ -709,6 +717,16 @@ export class Certificate extends cdktf.TerraformResource {
     return this._metadata;
   }
 
+  // not_after - computed: true, optional: false, required: false
+  public get notAfter() {
+    return this.getStringAttribute('not_after');
+  }
+
+  // not_before - computed: true, optional: false, required: false
+  public get notBefore() {
+    return this.getStringAttribute('not_before');
+  }
+
   // organization - computed: false, optional: true, required: false
   private _organization?: string; 
   public get organization() {
@@ -781,6 +799,27 @@ export class Certificate extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get renewalConfigInput() {
     return this._renewalConfig.internalValue;
+  }
+
+  // revocation_effective_date - computed: true, optional: false, required: false
+  public get revocationEffectiveDate() {
+    return this.getStringAttribute('revocation_effective_date');
+  }
+
+  // revoke_on_destroy - computed: false, optional: true, required: false
+  private _revokeOnDestroy?: boolean | cdktf.IResolvable; 
+  public get revokeOnDestroy() {
+    return this.getBooleanAttribute('revoke_on_destroy');
+  }
+  public set revokeOnDestroy(value: boolean | cdktf.IResolvable) {
+    this._revokeOnDestroy = value;
+  }
+  public resetRevokeOnDestroy() {
+    this._revokeOnDestroy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get revokeOnDestroyInput() {
+    return this._revokeOnDestroy;
   }
 
   // serial_number - computed: true, optional: false, required: false
@@ -871,6 +910,7 @@ export class Certificate extends cdktf.TerraformResource {
       organizational_unit: cdktf.stringToTerraform(this._organizationalUnit),
       owner_role_name: cdktf.stringToTerraform(this._ownerRoleName),
       renewal_config: certificateRenewalConfigToTerraform(this._renewalConfig.internalValue),
+      revoke_on_destroy: cdktf.booleanToTerraform(this._revokeOnDestroy),
       state: cdktf.stringToTerraform(this._state),
       uri_sans: cdktf.listMapper(cdktf.stringToTerraform, false)(this._uriSans),
       use_cn_as_friendly_name: cdktf.booleanToTerraform(this._useCnAsFriendlyName),
@@ -992,6 +1032,12 @@ export class Certificate extends cdktf.TerraformResource {
         isBlock: true,
         type: "struct",
         storageClassType: "CertificateRenewalConfig",
+      },
+      revoke_on_destroy: {
+        value: cdktf.booleanToHclTerraform(this._revokeOnDestroy),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
       },
       state: {
         value: cdktf.stringToHclTerraform(this._state),

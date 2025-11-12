@@ -349,7 +349,8 @@ export class DataSelectelDbaasConfigurationParameterV1 extends cdktf.TerraformDa
       terraformResourceType: 'selectel_dbaas_configuration_parameter_v1',
       terraformGeneratorMetadata: {
         providerName: 'selectel',
-        providerVersion: '7.1.0'
+        providerVersion: '7.1.0',
+        providerVersionConstraint: '7.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

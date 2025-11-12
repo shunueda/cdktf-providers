@@ -2927,7 +2927,8 @@ export class SourcedeployProjectStageScenario extends cdktf.TerraformResource {
       terraformResourceType: 'ncloud_sourcedeploy_project_stage_scenario',
       terraformGeneratorMetadata: {
         providerName: 'ncloud',
-        providerVersion: '4.0.4'
+        providerVersion: '4.0.4',
+        providerVersionConstraint: '4.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

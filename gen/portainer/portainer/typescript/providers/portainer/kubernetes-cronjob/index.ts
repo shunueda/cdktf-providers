@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/portainer/portainer/1.16.0/docs/resources/kubernetes_cronjob
+// https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/kubernetes_cronjob
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,28 @@ import * as cdktf from 'cdktf';
 
 export interface KubernetesCronjobConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.0/docs/resources/kubernetes_cronjob#endpoint_id KubernetesCronjob#endpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/kubernetes_cronjob#endpoint_id KubernetesCronjob#endpoint_id}
   */
   readonly endpointId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.0/docs/resources/kubernetes_cronjob#id KubernetesCronjob#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/kubernetes_cronjob#id KubernetesCronjob#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.0/docs/resources/kubernetes_cronjob#manifest KubernetesCronjob#manifest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/kubernetes_cronjob#manifest KubernetesCronjob#manifest}
   */
   readonly manifest: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.0/docs/resources/kubernetes_cronjob#namespace KubernetesCronjob#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/kubernetes_cronjob#namespace KubernetesCronjob#namespace}
   */
   readonly namespace: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/portainer/portainer/1.16.0/docs/resources/kubernetes_cronjob portainer_kubernetes_cronjob}
+* Represents a {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/kubernetes_cronjob portainer_kubernetes_cronjob}
 */
 export class KubernetesCronjob extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class KubernetesCronjob extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KubernetesCronjob resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KubernetesCronjob to import
-  * @param importFromId The id of the existing KubernetesCronjob that should be imported. Refer to the {@link https://registry.terraform.io/providers/portainer/portainer/1.16.0/docs/resources/kubernetes_cronjob#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KubernetesCronjob that should be imported. Refer to the {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/kubernetes_cronjob#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KubernetesCronjob to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class KubernetesCronjob extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/portainer/portainer/1.16.0/docs/resources/kubernetes_cronjob portainer_kubernetes_cronjob} Resource
+  * Create a new {@link https://registry.terraform.io/providers/portainer/portainer/1.16.1/docs/resources/kubernetes_cronjob portainer_kubernetes_cronjob} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,7 +68,8 @@ export class KubernetesCronjob extends cdktf.TerraformResource {
       terraformResourceType: 'portainer_kubernetes_cronjob',
       terraformGeneratorMetadata: {
         providerName: 'portainer',
-        providerVersion: '1.16.0'
+        providerVersion: '1.16.1',
+        providerVersionConstraint: '1.16.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

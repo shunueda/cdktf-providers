@@ -271,7 +271,8 @@ export class DataHarnessPlatformServiceOverridesV2 extends cdktf.TerraformDataSo
       terraformResourceType: 'harness_platform_service_overrides_v2',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.0'
+        providerVersion: '0.39.0',
+        providerVersionConstraint: '0.39.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

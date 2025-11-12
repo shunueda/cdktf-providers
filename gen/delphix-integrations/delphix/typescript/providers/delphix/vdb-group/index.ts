@@ -210,7 +210,8 @@ export class VdbGroup extends cdktf.TerraformResource {
       terraformResourceType: 'delphix_vdb_group',
       terraformGeneratorMetadata: {
         providerName: 'delphix',
-        providerVersion: '4.1.0'
+        providerVersion: '4.1.0',
+        providerVersionConstraint: '4.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

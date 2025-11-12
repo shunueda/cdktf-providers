@@ -662,7 +662,8 @@ export class TwcK8SNodeGroup extends cdktf.TerraformResource {
       terraformResourceType: 'twc_k8s_node_group',
       terraformGeneratorMetadata: {
         providerName: 'timeweb-cloud',
-        providerVersion: '1.6.6'
+        providerVersion: '1.6.6',
+        providerVersionConstraint: '1.6.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

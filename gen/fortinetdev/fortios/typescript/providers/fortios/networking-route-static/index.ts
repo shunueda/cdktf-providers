@@ -96,7 +96,8 @@ export class NetworkingRouteStatic extends cdktf.TerraformResource {
       terraformResourceType: 'fortios_networking_route_static',
       terraformGeneratorMetadata: {
         providerName: 'fortios',
-        providerVersion: '1.23.0'
+        providerVersion: '1.23.0',
+        providerVersionConstraint: '1.23.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

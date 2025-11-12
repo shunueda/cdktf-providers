@@ -498,7 +498,8 @@ export class DataK8SLerentisUploadfilter24EuRegistryCredentialV1Beta4Manifest ex
       terraformResourceType: 'k8s_lerentis_uploadfilter24_eu_registry_credential_v1beta4_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -151,7 +151,8 @@ export class DataPrismacloudTrustedLoginIps extends cdktf.TerraformDataSource {
       terraformResourceType: 'prismacloud_trusted_login_ips',
       terraformGeneratorMetadata: {
         providerName: 'prismacloud',
-        providerVersion: '1.7.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

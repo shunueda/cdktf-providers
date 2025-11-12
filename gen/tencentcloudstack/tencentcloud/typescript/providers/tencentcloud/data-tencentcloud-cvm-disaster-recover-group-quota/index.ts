@@ -62,7 +62,8 @@ export class DataTencentcloudCvmDisasterRecoverGroupQuota extends cdktf.Terrafor
       terraformResourceType: 'tencentcloud_cvm_disaster_recover_group_quota',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

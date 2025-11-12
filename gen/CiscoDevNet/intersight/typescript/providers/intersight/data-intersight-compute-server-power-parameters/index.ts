@@ -4767,7 +4767,8 @@ export class DataIntersightComputeServerPowerParameters extends cdktf.TerraformD
       terraformResourceType: 'intersight_compute_server_power_parameters',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

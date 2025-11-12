@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwlearningsettings
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwlearningsettings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,140 +8,140 @@ import * as cdktf from 'cdktf';
 
 export interface AppfwlearningsettingsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwlearningsettings#contenttypeautodeploygraceperiod Appfwlearningsettings#contenttypeautodeploygraceperiod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwlearningsettings#contenttypeautodeploygraceperiod Appfwlearningsettings#contenttypeautodeploygraceperiod}
   */
   readonly contenttypeautodeploygraceperiod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwlearningsettings#contenttypeminthreshold Appfwlearningsettings#contenttypeminthreshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwlearningsettings#contenttypeminthreshold Appfwlearningsettings#contenttypeminthreshold}
   */
   readonly contenttypeminthreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwlearningsettings#contenttypepercentthreshold Appfwlearningsettings#contenttypepercentthreshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwlearningsettings#contenttypepercentthreshold Appfwlearningsettings#contenttypepercentthreshold}
   */
   readonly contenttypepercentthreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwlearningsettings#cookieconsistencyautodeploygraceperiod Appfwlearningsettings#cookieconsistencyautodeploygraceperiod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwlearningsettings#cookieconsistencyautodeploygraceperiod Appfwlearningsettings#cookieconsistencyautodeploygraceperiod}
   */
   readonly cookieconsistencyautodeploygraceperiod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwlearningsettings#cookieconsistencyminthreshold Appfwlearningsettings#cookieconsistencyminthreshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwlearningsettings#cookieconsistencyminthreshold Appfwlearningsettings#cookieconsistencyminthreshold}
   */
   readonly cookieconsistencyminthreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwlearningsettings#cookieconsistencypercentthreshold Appfwlearningsettings#cookieconsistencypercentthreshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwlearningsettings#cookieconsistencypercentthreshold Appfwlearningsettings#cookieconsistencypercentthreshold}
   */
   readonly cookieconsistencypercentthreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwlearningsettings#creditcardnumberminthreshold Appfwlearningsettings#creditcardnumberminthreshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwlearningsettings#creditcardnumberminthreshold Appfwlearningsettings#creditcardnumberminthreshold}
   */
   readonly creditcardnumberminthreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwlearningsettings#creditcardnumberpercentthreshold Appfwlearningsettings#creditcardnumberpercentthreshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwlearningsettings#creditcardnumberpercentthreshold Appfwlearningsettings#creditcardnumberpercentthreshold}
   */
   readonly creditcardnumberpercentthreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwlearningsettings#crosssitescriptingautodeploygraceperiod Appfwlearningsettings#crosssitescriptingautodeploygraceperiod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwlearningsettings#crosssitescriptingautodeploygraceperiod Appfwlearningsettings#crosssitescriptingautodeploygraceperiod}
   */
   readonly crosssitescriptingautodeploygraceperiod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwlearningsettings#crosssitescriptingminthreshold Appfwlearningsettings#crosssitescriptingminthreshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwlearningsettings#crosssitescriptingminthreshold Appfwlearningsettings#crosssitescriptingminthreshold}
   */
   readonly crosssitescriptingminthreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwlearningsettings#crosssitescriptingpercentthreshold Appfwlearningsettings#crosssitescriptingpercentthreshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwlearningsettings#crosssitescriptingpercentthreshold Appfwlearningsettings#crosssitescriptingpercentthreshold}
   */
   readonly crosssitescriptingpercentthreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwlearningsettings#csrftagautodeploygraceperiod Appfwlearningsettings#csrftagautodeploygraceperiod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwlearningsettings#csrftagautodeploygraceperiod Appfwlearningsettings#csrftagautodeploygraceperiod}
   */
   readonly csrftagautodeploygraceperiod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwlearningsettings#csrftagminthreshold Appfwlearningsettings#csrftagminthreshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwlearningsettings#csrftagminthreshold Appfwlearningsettings#csrftagminthreshold}
   */
   readonly csrftagminthreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwlearningsettings#csrftagpercentthreshold Appfwlearningsettings#csrftagpercentthreshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwlearningsettings#csrftagpercentthreshold Appfwlearningsettings#csrftagpercentthreshold}
   */
   readonly csrftagpercentthreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwlearningsettings#fieldconsistencyautodeploygraceperiod Appfwlearningsettings#fieldconsistencyautodeploygraceperiod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwlearningsettings#fieldconsistencyautodeploygraceperiod Appfwlearningsettings#fieldconsistencyautodeploygraceperiod}
   */
   readonly fieldconsistencyautodeploygraceperiod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwlearningsettings#fieldconsistencyminthreshold Appfwlearningsettings#fieldconsistencyminthreshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwlearningsettings#fieldconsistencyminthreshold Appfwlearningsettings#fieldconsistencyminthreshold}
   */
   readonly fieldconsistencyminthreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwlearningsettings#fieldconsistencypercentthreshold Appfwlearningsettings#fieldconsistencypercentthreshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwlearningsettings#fieldconsistencypercentthreshold Appfwlearningsettings#fieldconsistencypercentthreshold}
   */
   readonly fieldconsistencypercentthreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwlearningsettings#fieldformatautodeploygraceperiod Appfwlearningsettings#fieldformatautodeploygraceperiod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwlearningsettings#fieldformatautodeploygraceperiod Appfwlearningsettings#fieldformatautodeploygraceperiod}
   */
   readonly fieldformatautodeploygraceperiod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwlearningsettings#fieldformatminthreshold Appfwlearningsettings#fieldformatminthreshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwlearningsettings#fieldformatminthreshold Appfwlearningsettings#fieldformatminthreshold}
   */
   readonly fieldformatminthreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwlearningsettings#fieldformatpercentthreshold Appfwlearningsettings#fieldformatpercentthreshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwlearningsettings#fieldformatpercentthreshold Appfwlearningsettings#fieldformatpercentthreshold}
   */
   readonly fieldformatpercentthreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwlearningsettings#id Appfwlearningsettings#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwlearningsettings#id Appfwlearningsettings#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwlearningsettings#profilename Appfwlearningsettings#profilename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwlearningsettings#profilename Appfwlearningsettings#profilename}
   */
   readonly profilename: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwlearningsettings#sqlinjectionautodeploygraceperiod Appfwlearningsettings#sqlinjectionautodeploygraceperiod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwlearningsettings#sqlinjectionautodeploygraceperiod Appfwlearningsettings#sqlinjectionautodeploygraceperiod}
   */
   readonly sqlinjectionautodeploygraceperiod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwlearningsettings#sqlinjectionminthreshold Appfwlearningsettings#sqlinjectionminthreshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwlearningsettings#sqlinjectionminthreshold Appfwlearningsettings#sqlinjectionminthreshold}
   */
   readonly sqlinjectionminthreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwlearningsettings#sqlinjectionpercentthreshold Appfwlearningsettings#sqlinjectionpercentthreshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwlearningsettings#sqlinjectionpercentthreshold Appfwlearningsettings#sqlinjectionpercentthreshold}
   */
   readonly sqlinjectionpercentthreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwlearningsettings#starturlautodeploygraceperiod Appfwlearningsettings#starturlautodeploygraceperiod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwlearningsettings#starturlautodeploygraceperiod Appfwlearningsettings#starturlautodeploygraceperiod}
   */
   readonly starturlautodeploygraceperiod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwlearningsettings#starturlminthreshold Appfwlearningsettings#starturlminthreshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwlearningsettings#starturlminthreshold Appfwlearningsettings#starturlminthreshold}
   */
   readonly starturlminthreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwlearningsettings#starturlpercentthreshold Appfwlearningsettings#starturlpercentthreshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwlearningsettings#starturlpercentthreshold Appfwlearningsettings#starturlpercentthreshold}
   */
   readonly starturlpercentthreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwlearningsettings#xmlattachmentminthreshold Appfwlearningsettings#xmlattachmentminthreshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwlearningsettings#xmlattachmentminthreshold Appfwlearningsettings#xmlattachmentminthreshold}
   */
   readonly xmlattachmentminthreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwlearningsettings#xmlattachmentpercentthreshold Appfwlearningsettings#xmlattachmentpercentthreshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwlearningsettings#xmlattachmentpercentthreshold Appfwlearningsettings#xmlattachmentpercentthreshold}
   */
   readonly xmlattachmentpercentthreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwlearningsettings#xmlwsiminthreshold Appfwlearningsettings#xmlwsiminthreshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwlearningsettings#xmlwsiminthreshold Appfwlearningsettings#xmlwsiminthreshold}
   */
   readonly xmlwsiminthreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwlearningsettings#xmlwsipercentthreshold Appfwlearningsettings#xmlwsipercentthreshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwlearningsettings#xmlwsipercentthreshold Appfwlearningsettings#xmlwsipercentthreshold}
   */
   readonly xmlwsipercentthreshold?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwlearningsettings citrixadc_appfwlearningsettings}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwlearningsettings citrixadc_appfwlearningsettings}
 */
 export class Appfwlearningsettings extends cdktf.TerraformResource {
 
@@ -157,7 +157,7 @@ export class Appfwlearningsettings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Appfwlearningsettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Appfwlearningsettings to import
-  * @param importFromId The id of the existing Appfwlearningsettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwlearningsettings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Appfwlearningsettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwlearningsettings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Appfwlearningsettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -169,7 +169,7 @@ export class Appfwlearningsettings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/appfwlearningsettings citrixadc_appfwlearningsettings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwlearningsettings citrixadc_appfwlearningsettings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -180,7 +180,8 @@ export class Appfwlearningsettings extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_appfwlearningsettings',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

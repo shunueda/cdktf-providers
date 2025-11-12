@@ -683,7 +683,8 @@ export class CvmModifyInstanceDiskType extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cvm_modify_instance_disk_type',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

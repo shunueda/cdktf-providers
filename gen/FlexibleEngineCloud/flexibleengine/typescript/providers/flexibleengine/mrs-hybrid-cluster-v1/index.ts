@@ -1412,7 +1412,8 @@ export class MrsHybridClusterV1 extends cdktf.TerraformResource {
       terraformResourceType: 'flexibleengine_mrs_hybrid_cluster_v1',
       terraformGeneratorMetadata: {
         providerName: 'flexibleengine',
-        providerVersion: '1.46.0'
+        providerVersion: '1.46.0',
+        providerVersionConstraint: '1.46.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

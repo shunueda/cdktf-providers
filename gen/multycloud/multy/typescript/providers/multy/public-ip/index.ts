@@ -331,7 +331,8 @@ export class PublicIp extends cdktf.TerraformResource {
       terraformResourceType: 'multy_public_ip',
       terraformGeneratorMetadata: {
         providerName: 'multy',
-        providerVersion: '0.0.16'
+        providerVersion: '0.0.16',
+        providerVersionConstraint: '0.0.16'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

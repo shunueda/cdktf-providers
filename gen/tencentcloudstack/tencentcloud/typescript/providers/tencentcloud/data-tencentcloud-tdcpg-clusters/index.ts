@@ -388,7 +388,8 @@ export class DataTencentcloudTdcpgClusters extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_tdcpg_clusters',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

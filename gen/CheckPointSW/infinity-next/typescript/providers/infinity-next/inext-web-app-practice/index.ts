@@ -1542,7 +1542,8 @@ export class InextWebAppPractice extends cdktf.TerraformResource {
       terraformResourceType: 'inext_web_app_practice',
       terraformGeneratorMetadata: {
         providerName: 'infinity-next',
-        providerVersion: '1.2.0'
+        providerVersion: '1.2.0',
+        providerVersionConstraint: '1.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -55,7 +55,8 @@ export class DataModtmModuleSource extends cdktf.TerraformDataSource {
       terraformResourceType: 'modtm_module_source',
       terraformGeneratorMetadata: {
         providerName: 'modtm',
-        providerVersion: '0.3.5'
+        providerVersion: '0.3.5',
+        providerVersionConstraint: '0.3.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

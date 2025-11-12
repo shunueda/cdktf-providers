@@ -73,7 +73,8 @@ export class TagPolicyFilter extends cdktf.TerraformResource {
       terraformResourceType: 'citrix_tag_policy_filter',
       terraformGeneratorMetadata: {
         providerName: 'citrix',
-        providerVersion: '1.0.30'
+        providerVersion: '1.0.30',
+        providerVersionConstraint: '1.0.30'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

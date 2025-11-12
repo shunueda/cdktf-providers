@@ -149,7 +149,8 @@ export class DataFortiosRouterMulticastflow extends cdktf.TerraformDataSource {
       terraformResourceType: 'fortios_router_multicastflow',
       terraformGeneratorMetadata: {
         providerName: 'fortios',
-        providerVersion: '1.23.0'
+        providerVersion: '1.23.0',
+        providerVersionConstraint: '1.23.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

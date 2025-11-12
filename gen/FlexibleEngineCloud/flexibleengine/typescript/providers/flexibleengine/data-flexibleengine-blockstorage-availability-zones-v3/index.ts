@@ -64,7 +64,8 @@ export class DataFlexibleengineBlockstorageAvailabilityZonesV3 extends cdktf.Ter
       terraformResourceType: 'flexibleengine_blockstorage_availability_zones_v3',
       terraformGeneratorMetadata: {
         providerName: 'flexibleengine',
-        providerVersion: '1.46.0'
+        providerVersion: '1.46.0',
+        providerVersionConstraint: '1.46.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

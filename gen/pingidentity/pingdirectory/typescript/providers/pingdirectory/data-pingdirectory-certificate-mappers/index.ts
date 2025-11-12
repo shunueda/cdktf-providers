@@ -135,7 +135,8 @@ export class DataPingdirectoryCertificateMappers extends cdktf.TerraformDataSour
       terraformResourceType: 'pingdirectory_certificate_mappers',
       terraformGeneratorMetadata: {
         providerName: 'pingdirectory',
-        providerVersion: '1.5.0'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

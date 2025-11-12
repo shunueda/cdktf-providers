@@ -206,7 +206,8 @@ export class BlxDeviceProfile extends cdktf.TerraformResource {
       terraformResourceType: 'netscalersdx_blx_device_profile',
       terraformGeneratorMetadata: {
         providerName: 'netscalersdx',
-        providerVersion: '0.7.2'
+        providerVersion: '0.7.2',
+        providerVersionConstraint: '0.7.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

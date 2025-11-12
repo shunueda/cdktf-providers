@@ -360,7 +360,8 @@ export class DataAlicloudFcCustomDomains extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_fc_custom_domains',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

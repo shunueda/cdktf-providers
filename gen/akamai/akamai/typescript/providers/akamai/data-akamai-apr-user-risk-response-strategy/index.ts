@@ -62,7 +62,8 @@ export class DataAkamaiAprUserRiskResponseStrategy extends cdktf.TerraformDataSo
       terraformResourceType: 'akamai_apr_user_risk_response_strategy',
       terraformGeneratorMetadata: {
         providerName: 'akamai',
-        providerVersion: '9.1.0'
+        providerVersion: '9.1.0',
+        providerVersionConstraint: '9.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

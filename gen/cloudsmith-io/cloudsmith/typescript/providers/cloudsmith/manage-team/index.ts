@@ -213,7 +213,8 @@ export class ManageTeam extends cdktf.TerraformResource {
       terraformResourceType: 'cloudsmith_manage_team',
       terraformGeneratorMetadata: {
         providerName: 'cloudsmith',
-        providerVersion: '0.0.66'
+        providerVersion: '0.0.66',
+        providerVersionConstraint: '0.0.66'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

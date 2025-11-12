@@ -2477,7 +2477,8 @@ export class ImagePolicy extends cdktf.TerraformResource {
       terraformResourceType: 'tanzu-mission-control_image_policy',
       terraformGeneratorMetadata: {
         providerName: 'tanzu-mission-control',
-        providerVersion: '1.4.9'
+        providerVersion: '1.4.9',
+        providerVersionConstraint: '1.4.9'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

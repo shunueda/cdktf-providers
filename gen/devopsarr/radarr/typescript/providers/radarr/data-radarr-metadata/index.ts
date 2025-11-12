@@ -55,7 +55,8 @@ export class DataRadarrMetadata extends cdktf.TerraformDataSource {
       terraformResourceType: 'radarr_metadata',
       terraformGeneratorMetadata: {
         providerName: 'radarr',
-        providerVersion: '2.3.3'
+        providerVersion: '2.3.3',
+        providerVersionConstraint: '2.3.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

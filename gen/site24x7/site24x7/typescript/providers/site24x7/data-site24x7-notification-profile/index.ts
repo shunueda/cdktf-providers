@@ -92,7 +92,8 @@ export class DataSite24X7NotificationProfile extends cdktf.TerraformDataSource {
       terraformResourceType: 'site24x7_notification_profile',
       terraformGeneratorMetadata: {
         providerName: 'site24x7',
-        providerVersion: '2.0.3'
+        providerVersion: '2.0.3',
+        providerVersionConstraint: '2.0.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

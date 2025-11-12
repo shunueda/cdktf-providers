@@ -3121,7 +3121,8 @@ export class StorageNetAppVolumeSnapshot extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_storage_net_app_volume_snapshot',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

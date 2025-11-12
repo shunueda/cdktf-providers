@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/bgp_address_family_l2vpn
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bgp_address_family_l2vpn
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,30 +11,43 @@ export interface BgpAddressFamilyL2VpnConfig extends cdktf.TerraformMetaArgument
   * 
   *   - Choices: `evpn`, `vpls`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/bgp_address_family_l2vpn#af_name BgpAddressFamilyL2Vpn#af_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bgp_address_family_l2vpn#af_name BgpAddressFamilyL2Vpn#af_name}
   */
   readonly afName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/bgp_address_family_l2vpn#asn BgpAddressFamilyL2Vpn#asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bgp_address_family_l2vpn#asn BgpAddressFamilyL2Vpn#asn}
   */
   readonly asn: string;
+  /**
+  * Set the delay to trigger nexthop tracking
+  *   - Range: `0`-`100`
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bgp_address_family_l2vpn#bgp_nexthop_trigger_delay BgpAddressFamilyL2Vpn#bgp_nexthop_trigger_delay}
+  */
+  readonly bgpNexthopTriggerDelay?: number;
   /**
   * Configure behavior when deleting/destroying the resource. Either delete the entire object (YANG container) being managed, or only delete the individual resource attributes configured explicitly and leave everything else as-is. Default value is `all`.
   *   - Choices: `all`, `attributes`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/bgp_address_family_l2vpn#delete_mode BgpAddressFamilyL2Vpn#delete_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bgp_address_family_l2vpn#delete_mode BgpAddressFamilyL2Vpn#delete_mode}
   */
   readonly deleteMode?: string;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/bgp_address_family_l2vpn#device BgpAddressFamilyL2Vpn#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bgp_address_family_l2vpn#device BgpAddressFamilyL2Vpn#device}
   */
   readonly device?: string;
+  /**
+  * Enable rewrite RT in the BGP EVPN address-family
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bgp_address_family_l2vpn#rewrite_evpn_rt_asn BgpAddressFamilyL2Vpn#rewrite_evpn_rt_asn}
+  */
+  readonly rewriteEvpnRtAsn?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/bgp_address_family_l2vpn iosxe_bgp_address_family_l2vpn}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bgp_address_family_l2vpn iosxe_bgp_address_family_l2vpn}
 */
 export class BgpAddressFamilyL2Vpn extends cdktf.TerraformResource {
 
@@ -50,7 +63,7 @@ export class BgpAddressFamilyL2Vpn extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BgpAddressFamilyL2Vpn resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BgpAddressFamilyL2Vpn to import
-  * @param importFromId The id of the existing BgpAddressFamilyL2Vpn that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/bgp_address_family_l2vpn#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BgpAddressFamilyL2Vpn that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bgp_address_family_l2vpn#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BgpAddressFamilyL2Vpn to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +75,7 @@ export class BgpAddressFamilyL2Vpn extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/bgp_address_family_l2vpn iosxe_bgp_address_family_l2vpn} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bgp_address_family_l2vpn iosxe_bgp_address_family_l2vpn} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,7 +86,8 @@ export class BgpAddressFamilyL2Vpn extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_bgp_address_family_l2vpn',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.9.3'
+        providerVersion: '0.10.0',
+        providerVersionConstraint: '0.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -85,8 +99,10 @@ export class BgpAddressFamilyL2Vpn extends cdktf.TerraformResource {
     });
     this._afName = config.afName;
     this._asn = config.asn;
+    this._bgpNexthopTriggerDelay = config.bgpNexthopTriggerDelay;
     this._deleteMode = config.deleteMode;
     this._device = config.device;
+    this._rewriteEvpnRtAsn = config.rewriteEvpnRtAsn;
   }
 
   // ==========
@@ -117,6 +133,22 @@ export class BgpAddressFamilyL2Vpn extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get asnInput() {
     return this._asn;
+  }
+
+  // bgp_nexthop_trigger_delay - computed: false, optional: true, required: false
+  private _bgpNexthopTriggerDelay?: number; 
+  public get bgpNexthopTriggerDelay() {
+    return this.getNumberAttribute('bgp_nexthop_trigger_delay');
+  }
+  public set bgpNexthopTriggerDelay(value: number) {
+    this._bgpNexthopTriggerDelay = value;
+  }
+  public resetBgpNexthopTriggerDelay() {
+    this._bgpNexthopTriggerDelay = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bgpNexthopTriggerDelayInput() {
+    return this._bgpNexthopTriggerDelay;
   }
 
   // delete_mode - computed: false, optional: true, required: false
@@ -156,6 +188,22 @@ export class BgpAddressFamilyL2Vpn extends cdktf.TerraformResource {
     return this.getStringAttribute('id');
   }
 
+  // rewrite_evpn_rt_asn - computed: false, optional: true, required: false
+  private _rewriteEvpnRtAsn?: boolean | cdktf.IResolvable; 
+  public get rewriteEvpnRtAsn() {
+    return this.getBooleanAttribute('rewrite_evpn_rt_asn');
+  }
+  public set rewriteEvpnRtAsn(value: boolean | cdktf.IResolvable) {
+    this._rewriteEvpnRtAsn = value;
+  }
+  public resetRewriteEvpnRtAsn() {
+    this._rewriteEvpnRtAsn = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get rewriteEvpnRtAsnInput() {
+    return this._rewriteEvpnRtAsn;
+  }
+
   // =========
   // SYNTHESIS
   // =========
@@ -164,8 +212,10 @@ export class BgpAddressFamilyL2Vpn extends cdktf.TerraformResource {
     return {
       af_name: cdktf.stringToTerraform(this._afName),
       asn: cdktf.stringToTerraform(this._asn),
+      bgp_nexthop_trigger_delay: cdktf.numberToTerraform(this._bgpNexthopTriggerDelay),
       delete_mode: cdktf.stringToTerraform(this._deleteMode),
       device: cdktf.stringToTerraform(this._device),
+      rewrite_evpn_rt_asn: cdktf.booleanToTerraform(this._rewriteEvpnRtAsn),
     };
   }
 
@@ -183,6 +233,12 @@ export class BgpAddressFamilyL2Vpn extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      bgp_nexthop_trigger_delay: {
+        value: cdktf.numberToHclTerraform(this._bgpNexthopTriggerDelay),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
       delete_mode: {
         value: cdktf.stringToHclTerraform(this._deleteMode),
         isBlock: false,
@@ -194,6 +250,12 @@ export class BgpAddressFamilyL2Vpn extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      rewrite_evpn_rt_asn: {
+        value: cdktf.booleanToHclTerraform(this._rewriteEvpnRtAsn),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
       },
     };
 

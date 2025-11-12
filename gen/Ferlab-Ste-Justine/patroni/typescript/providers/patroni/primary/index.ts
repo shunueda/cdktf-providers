@@ -61,7 +61,8 @@ export class Primary extends cdktf.TerraformResource {
       terraformResourceType: 'patroni_primary',
       terraformGeneratorMetadata: {
         providerName: 'patroni',
-        providerVersion: '0.1.1'
+        providerVersion: '0.1.1',
+        providerVersionConstraint: '0.1.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

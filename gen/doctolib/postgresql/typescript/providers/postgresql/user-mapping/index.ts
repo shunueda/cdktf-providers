@@ -74,7 +74,8 @@ export class UserMapping extends cdktf.TerraformResource {
       terraformResourceType: 'postgresql_user_mapping',
       terraformGeneratorMetadata: {
         providerName: 'postgresql',
-        providerVersion: '2.26.2'
+        providerVersion: '2.26.2',
+        providerVersionConstraint: '2.26.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

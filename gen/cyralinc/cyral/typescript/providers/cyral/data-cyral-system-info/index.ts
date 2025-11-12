@@ -49,7 +49,8 @@ export class DataCyralSystemInfo extends cdktf.TerraformDataSource {
       terraformResourceType: 'cyral_system_info',
       terraformGeneratorMetadata: {
         providerName: 'cyral',
-        providerVersion: '4.16.3'
+        providerVersion: '4.16.3',
+        providerVersionConstraint: '4.16.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

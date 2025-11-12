@@ -70,7 +70,8 @@ export class DataGraphqlQuery extends cdktf.TerraformDataSource {
       terraformResourceType: 'graphql_query',
       terraformGeneratorMetadata: {
         providerName: 'graphql',
-        providerVersion: '2.6.1'
+        providerVersion: '2.6.1',
+        providerVersionConstraint: '2.6.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

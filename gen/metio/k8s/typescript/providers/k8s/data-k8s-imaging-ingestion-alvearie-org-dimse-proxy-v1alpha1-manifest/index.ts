@@ -916,7 +916,8 @@ export class DataK8SImagingIngestionAlvearieOrgDimseProxyV1Alpha1Manifest extend
       terraformResourceType: 'k8s_imaging_ingestion_alvearie_org_dimse_proxy_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

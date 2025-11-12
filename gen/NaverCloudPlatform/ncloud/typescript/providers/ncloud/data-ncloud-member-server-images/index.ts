@@ -274,7 +274,8 @@ export class DataNcloudMemberServerImages extends cdktf.TerraformDataSource {
       terraformResourceType: 'ncloud_member_server_images',
       terraformGeneratorMetadata: {
         providerName: 'ncloud',
-        providerVersion: '4.0.4'
+        providerVersion: '4.0.4',
+        providerVersionConstraint: '4.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

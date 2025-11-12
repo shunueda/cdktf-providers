@@ -60,7 +60,8 @@ export class DataCodefreshRegistry extends cdktf.TerraformDataSource {
       terraformResourceType: 'codefresh_registry',
       terraformGeneratorMetadata: {
         providerName: 'codefresh',
-        providerVersion: '1.1.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

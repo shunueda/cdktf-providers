@@ -67,7 +67,8 @@ export class BlackoutWindow extends cdktf.TerraformResource {
       terraformResourceType: 'cockroach_blackout_window',
       terraformGeneratorMetadata: {
         providerName: 'cockroach',
-        providerVersion: '1.16.0'
+        providerVersion: '1.16.0',
+        providerVersionConstraint: '1.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

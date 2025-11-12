@@ -1202,7 +1202,8 @@ export class DataK8SEventsK8SIoEventV1Manifest extends cdktf.TerraformDataSource
       terraformResourceType: 'k8s_events_k8s_io_event_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

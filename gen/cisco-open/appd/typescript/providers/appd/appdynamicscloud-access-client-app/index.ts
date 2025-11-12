@@ -92,7 +92,8 @@ export class AppdynamicscloudAccessClientApp extends cdktf.TerraformResource {
       terraformResourceType: 'appdynamicscloud_access_client_app',
       terraformGeneratorMetadata: {
         providerName: 'appd',
-        providerVersion: '0.0.1'
+        providerVersion: '0.0.1',
+        providerVersionConstraint: '0.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

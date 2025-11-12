@@ -104,7 +104,8 @@ export class MobileUserLoadBalancer extends cdktf.TerraformResource {
       terraformResourceType: 'prismasase-vmware_mobile_user_load_balancer',
       terraformGeneratorMetadata: {
         providerName: 'prismasase-vmware',
-        providerVersion: '1.0.7'
+        providerVersion: '1.0.7',
+        providerVersionConstraint: '1.0.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

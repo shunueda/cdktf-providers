@@ -80,7 +80,8 @@ export class TrustsecIpToSgtMappingGroup extends cdktf.TerraformResource {
       terraformResourceType: 'ise_trustsec_ip_to_sgt_mapping_group',
       terraformGeneratorMetadata: {
         providerName: 'ise',
-        providerVersion: '0.2.12'
+        providerVersion: '0.2.12',
+        providerVersionConstraint: '0.2.12'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor
+// https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,216 +8,204 @@ import * as cdktf from 'cdktf';
 
 export interface HealthmonitorConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#allow_duplicate_monitors Healthmonitor#allow_duplicate_monitors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#allow_duplicate_monitors Healthmonitor#allow_duplicate_monitors}
   */
   readonly allowDuplicateMonitors?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#description Healthmonitor#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#description Healthmonitor#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#disable_quickstart Healthmonitor#disable_quickstart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#disable_quickstart Healthmonitor#disable_quickstart}
   */
   readonly disableQuickstart?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#failed_checks Healthmonitor#failed_checks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#failed_checks Healthmonitor#failed_checks}
   */
   readonly failedChecks?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#id Healthmonitor#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#id Healthmonitor#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#is_federated Healthmonitor#is_federated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#is_federated Healthmonitor#is_federated}
   */
   readonly isFederated?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#monitor_port Healthmonitor#monitor_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#monitor_port Healthmonitor#monitor_port}
   */
   readonly monitorPort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#name Healthmonitor#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#name Healthmonitor#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#receive_timeout Healthmonitor#receive_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#receive_timeout Healthmonitor#receive_timeout}
   */
   readonly receiveTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#send_interval Healthmonitor#send_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#send_interval Healthmonitor#send_interval}
   */
   readonly sendInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#successful_checks Healthmonitor#successful_checks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#successful_checks Healthmonitor#successful_checks}
   */
   readonly successfulChecks?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#tenant_ref Healthmonitor#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#tenant_ref Healthmonitor#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#type Healthmonitor#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#type Healthmonitor#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#uuid Healthmonitor#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#uuid Healthmonitor#uuid}
   */
   readonly uuid?: string;
   /**
   * authentication block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#authentication Healthmonitor#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#authentication Healthmonitor#authentication}
   */
   readonly authentication?: HealthmonitorAuthentication[] | cdktf.IResolvable;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#configpb_attributes Healthmonitor#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#configpb_attributes Healthmonitor#configpb_attributes}
   */
   readonly configpbAttributes?: HealthmonitorConfigpbAttributes[] | cdktf.IResolvable;
   /**
   * dns_monitor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#dns_monitor Healthmonitor#dns_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#dns_monitor Healthmonitor#dns_monitor}
   */
   readonly dnsMonitor?: HealthmonitorDnsMonitor[] | cdktf.IResolvable;
   /**
   * external_monitor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#external_monitor Healthmonitor#external_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#external_monitor Healthmonitor#external_monitor}
   */
   readonly externalMonitor?: HealthmonitorExternalMonitor[] | cdktf.IResolvable;
   /**
   * ftp_monitor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#ftp_monitor Healthmonitor#ftp_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ftp_monitor Healthmonitor#ftp_monitor}
   */
   readonly ftpMonitor?: HealthmonitorFtpMonitor[] | cdktf.IResolvable;
   /**
   * ftps_monitor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#ftps_monitor Healthmonitor#ftps_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ftps_monitor Healthmonitor#ftps_monitor}
   */
   readonly ftpsMonitor?: HealthmonitorFtpsMonitor[] | cdktf.IResolvable;
   /**
-  * http2_monitor block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#http2_monitor Healthmonitor#http2_monitor}
-  */
-  readonly http2Monitor?: HealthmonitorHttp2Monitor[] | cdktf.IResolvable;
-  /**
-  * http2s_monitor block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#http2s_monitor Healthmonitor#http2s_monitor}
-  */
-  readonly http2SMonitor?: HealthmonitorHttp2SMonitor[] | cdktf.IResolvable;
-  /**
   * http_monitor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#http_monitor Healthmonitor#http_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#http_monitor Healthmonitor#http_monitor}
   */
   readonly httpMonitor?: HealthmonitorHttpMonitor[] | cdktf.IResolvable;
   /**
   * https_monitor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#https_monitor Healthmonitor#https_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#https_monitor Healthmonitor#https_monitor}
   */
   readonly httpsMonitor?: HealthmonitorHttpsMonitor[] | cdktf.IResolvable;
   /**
   * imap_monitor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#imap_monitor Healthmonitor#imap_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#imap_monitor Healthmonitor#imap_monitor}
   */
   readonly imapMonitor?: HealthmonitorImapMonitor[] | cdktf.IResolvable;
   /**
   * imaps_monitor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#imaps_monitor Healthmonitor#imaps_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#imaps_monitor Healthmonitor#imaps_monitor}
   */
   readonly imapsMonitor?: HealthmonitorImapsMonitor[] | cdktf.IResolvable;
   /**
   * ldap_monitor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#ldap_monitor Healthmonitor#ldap_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ldap_monitor Healthmonitor#ldap_monitor}
   */
   readonly ldapMonitor?: HealthmonitorLdapMonitor[] | cdktf.IResolvable;
   /**
   * ldaps_monitor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#ldaps_monitor Healthmonitor#ldaps_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ldaps_monitor Healthmonitor#ldaps_monitor}
   */
   readonly ldapsMonitor?: HealthmonitorLdapsMonitor[] | cdktf.IResolvable;
   /**
   * markers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#markers Healthmonitor#markers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#markers Healthmonitor#markers}
   */
   readonly markers?: HealthmonitorMarkers[] | cdktf.IResolvable;
   /**
   * pop3_monitor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#pop3_monitor Healthmonitor#pop3_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#pop3_monitor Healthmonitor#pop3_monitor}
   */
   readonly pop3Monitor?: HealthmonitorPop3Monitor[] | cdktf.IResolvable;
   /**
   * pop3s_monitor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#pop3s_monitor Healthmonitor#pop3s_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#pop3s_monitor Healthmonitor#pop3s_monitor}
   */
   readonly pop3SMonitor?: HealthmonitorPop3SMonitor[] | cdktf.IResolvable;
   /**
   * radius_monitor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#radius_monitor Healthmonitor#radius_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#radius_monitor Healthmonitor#radius_monitor}
   */
   readonly radiusMonitor?: HealthmonitorRadiusMonitor[] | cdktf.IResolvable;
   /**
   * sctp_monitor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#sctp_monitor Healthmonitor#sctp_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#sctp_monitor Healthmonitor#sctp_monitor}
   */
   readonly sctpMonitor?: HealthmonitorSctpMonitor[] | cdktf.IResolvable;
   /**
   * sip_monitor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#sip_monitor Healthmonitor#sip_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#sip_monitor Healthmonitor#sip_monitor}
   */
   readonly sipMonitor?: HealthmonitorSipMonitor[] | cdktf.IResolvable;
   /**
   * smtp_monitor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#smtp_monitor Healthmonitor#smtp_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#smtp_monitor Healthmonitor#smtp_monitor}
   */
   readonly smtpMonitor?: HealthmonitorSmtpMonitor[] | cdktf.IResolvable;
   /**
   * smtps_monitor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#smtps_monitor Healthmonitor#smtps_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#smtps_monitor Healthmonitor#smtps_monitor}
   */
   readonly smtpsMonitor?: HealthmonitorSmtpsMonitor[] | cdktf.IResolvable;
   /**
   * tcp_monitor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#tcp_monitor Healthmonitor#tcp_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#tcp_monitor Healthmonitor#tcp_monitor}
   */
   readonly tcpMonitor?: HealthmonitorTcpMonitor[] | cdktf.IResolvable;
   /**
   * udp_monitor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#udp_monitor Healthmonitor#udp_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#udp_monitor Healthmonitor#udp_monitor}
   */
   readonly udpMonitor?: HealthmonitorUdpMonitor[] | cdktf.IResolvable;
 }
 export interface HealthmonitorAuthentication {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#password Healthmonitor#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#password Healthmonitor#password}
   */
   readonly password: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#username Healthmonitor#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#username Healthmonitor#username}
   */
   readonly username: string;
 }
@@ -356,7 +344,7 @@ export class HealthmonitorAuthenticationList extends cdktf.ComplexList {
 }
 export interface HealthmonitorConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#version Healthmonitor#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#version Healthmonitor#version}
   */
   readonly version?: string;
 }
@@ -472,23 +460,23 @@ export class HealthmonitorConfigpbAttributesList extends cdktf.ComplexList {
 }
 export interface HealthmonitorDnsMonitor {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#qtype Healthmonitor#qtype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#qtype Healthmonitor#qtype}
   */
   readonly qtype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#query_name Healthmonitor#query_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#query_name Healthmonitor#query_name}
   */
   readonly queryName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#rcode Healthmonitor#rcode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#rcode Healthmonitor#rcode}
   */
   readonly rcode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#record_type Healthmonitor#record_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#record_type Healthmonitor#record_type}
   */
   readonly recordType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#response_string Healthmonitor#response_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#response_string Healthmonitor#response_string}
   */
   readonly responseString?: string;
 }
@@ -717,19 +705,19 @@ export class HealthmonitorDnsMonitorList extends cdktf.ComplexList {
 }
 export interface HealthmonitorExternalMonitor {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#command_code Healthmonitor#command_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#command_code Healthmonitor#command_code}
   */
   readonly commandCode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#command_parameters Healthmonitor#command_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#command_parameters Healthmonitor#command_parameters}
   */
   readonly commandParameters?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#command_path Healthmonitor#command_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#command_path Healthmonitor#command_path}
   */
   readonly commandPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#command_variables Healthmonitor#command_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#command_variables Healthmonitor#command_variables}
   */
   readonly commandVariables?: string;
 }
@@ -929,25 +917,21 @@ export class HealthmonitorExternalMonitorList extends cdktf.ComplexList {
 }
 export interface HealthmonitorFtpMonitorSslAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#pki_profile_ref Healthmonitor#pki_profile_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#pki_profile_ref Healthmonitor#pki_profile_ref}
   */
   readonly pkiProfileRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#server_name Healthmonitor#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#server_name Healthmonitor#server_name}
   */
   readonly serverName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#ssl_key_and_certificate_ref Healthmonitor#ssl_key_and_certificate_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ssl_key_and_certificate_ref Healthmonitor#ssl_key_and_certificate_ref}
   */
   readonly sslKeyAndCertificateRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#ssl_profile_ref Healthmonitor#ssl_profile_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ssl_profile_ref Healthmonitor#ssl_profile_ref}
   */
   readonly sslProfileRef: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#use_pool_sni_server_name Healthmonitor#use_pool_sni_server_name}
-  */
-  readonly usePoolSniServerName?: string;
 }
 
 export function healthmonitorFtpMonitorSslAttributesToTerraform(struct?: HealthmonitorFtpMonitorSslAttributes | cdktf.IResolvable): any {
@@ -960,7 +944,6 @@ export function healthmonitorFtpMonitorSslAttributesToTerraform(struct?: Healthm
     server_name: cdktf.stringToTerraform(struct!.serverName),
     ssl_key_and_certificate_ref: cdktf.stringToTerraform(struct!.sslKeyAndCertificateRef),
     ssl_profile_ref: cdktf.stringToTerraform(struct!.sslProfileRef),
-    use_pool_sni_server_name: cdktf.stringToTerraform(struct!.usePoolSniServerName),
   }
 }
 
@@ -991,12 +974,6 @@ export function healthmonitorFtpMonitorSslAttributesToHclTerraform(struct?: Heal
     },
     ssl_profile_ref: {
       value: cdktf.stringToHclTerraform(struct!.sslProfileRef),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    use_pool_sni_server_name: {
-      value: cdktf.stringToHclTerraform(struct!.usePoolSniServerName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1043,10 +1020,6 @@ export class HealthmonitorFtpMonitorSslAttributesOutputReference extends cdktf.C
       hasAnyValues = true;
       internalValueResult.sslProfileRef = this._sslProfileRef;
     }
-    if (this._usePoolSniServerName !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.usePoolSniServerName = this._usePoolSniServerName;
-    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -1058,7 +1031,6 @@ export class HealthmonitorFtpMonitorSslAttributesOutputReference extends cdktf.C
       this._serverName = undefined;
       this._sslKeyAndCertificateRef = undefined;
       this._sslProfileRef = undefined;
-      this._usePoolSniServerName = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -1071,7 +1043,6 @@ export class HealthmonitorFtpMonitorSslAttributesOutputReference extends cdktf.C
       this._serverName = value.serverName;
       this._sslKeyAndCertificateRef = value.sslKeyAndCertificateRef;
       this._sslProfileRef = value.sslProfileRef;
-      this._usePoolSniServerName = value.usePoolSniServerName;
     }
   }
 
@@ -1135,22 +1106,6 @@ export class HealthmonitorFtpMonitorSslAttributesOutputReference extends cdktf.C
   public get sslProfileRefInput() {
     return this._sslProfileRef;
   }
-
-  // use_pool_sni_server_name - computed: true, optional: true, required: false
-  private _usePoolSniServerName?: string; 
-  public get usePoolSniServerName() {
-    return this.getStringAttribute('use_pool_sni_server_name');
-  }
-  public set usePoolSniServerName(value: string) {
-    this._usePoolSniServerName = value;
-  }
-  public resetUsePoolSniServerName() {
-    this._usePoolSniServerName = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get usePoolSniServerNameInput() {
-    return this._usePoolSniServerName;
-  }
 }
 
 export class HealthmonitorFtpMonitorSslAttributesList extends cdktf.ComplexList {
@@ -1174,17 +1129,17 @@ export class HealthmonitorFtpMonitorSslAttributesList extends cdktf.ComplexList 
 }
 export interface HealthmonitorFtpMonitor {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#filename Healthmonitor#filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#filename Healthmonitor#filename}
   */
   readonly filename: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#mode Healthmonitor#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#mode Healthmonitor#mode}
   */
   readonly mode?: string;
   /**
   * ssl_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#ssl_attributes Healthmonitor#ssl_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ssl_attributes Healthmonitor#ssl_attributes}
   */
   readonly sslAttributes?: HealthmonitorFtpMonitorSslAttributes[] | cdktf.IResolvable;
 }
@@ -1355,25 +1310,21 @@ export class HealthmonitorFtpMonitorList extends cdktf.ComplexList {
 }
 export interface HealthmonitorFtpsMonitorSslAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#pki_profile_ref Healthmonitor#pki_profile_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#pki_profile_ref Healthmonitor#pki_profile_ref}
   */
   readonly pkiProfileRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#server_name Healthmonitor#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#server_name Healthmonitor#server_name}
   */
   readonly serverName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#ssl_key_and_certificate_ref Healthmonitor#ssl_key_and_certificate_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ssl_key_and_certificate_ref Healthmonitor#ssl_key_and_certificate_ref}
   */
   readonly sslKeyAndCertificateRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#ssl_profile_ref Healthmonitor#ssl_profile_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ssl_profile_ref Healthmonitor#ssl_profile_ref}
   */
   readonly sslProfileRef: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#use_pool_sni_server_name Healthmonitor#use_pool_sni_server_name}
-  */
-  readonly usePoolSniServerName?: string;
 }
 
 export function healthmonitorFtpsMonitorSslAttributesToTerraform(struct?: HealthmonitorFtpsMonitorSslAttributes | cdktf.IResolvable): any {
@@ -1386,7 +1337,6 @@ export function healthmonitorFtpsMonitorSslAttributesToTerraform(struct?: Health
     server_name: cdktf.stringToTerraform(struct!.serverName),
     ssl_key_and_certificate_ref: cdktf.stringToTerraform(struct!.sslKeyAndCertificateRef),
     ssl_profile_ref: cdktf.stringToTerraform(struct!.sslProfileRef),
-    use_pool_sni_server_name: cdktf.stringToTerraform(struct!.usePoolSniServerName),
   }
 }
 
@@ -1417,12 +1367,6 @@ export function healthmonitorFtpsMonitorSslAttributesToHclTerraform(struct?: Hea
     },
     ssl_profile_ref: {
       value: cdktf.stringToHclTerraform(struct!.sslProfileRef),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    use_pool_sni_server_name: {
-      value: cdktf.stringToHclTerraform(struct!.usePoolSniServerName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1469,10 +1413,6 @@ export class HealthmonitorFtpsMonitorSslAttributesOutputReference extends cdktf.
       hasAnyValues = true;
       internalValueResult.sslProfileRef = this._sslProfileRef;
     }
-    if (this._usePoolSniServerName !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.usePoolSniServerName = this._usePoolSniServerName;
-    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -1484,7 +1424,6 @@ export class HealthmonitorFtpsMonitorSslAttributesOutputReference extends cdktf.
       this._serverName = undefined;
       this._sslKeyAndCertificateRef = undefined;
       this._sslProfileRef = undefined;
-      this._usePoolSniServerName = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -1497,7 +1436,6 @@ export class HealthmonitorFtpsMonitorSslAttributesOutputReference extends cdktf.
       this._serverName = value.serverName;
       this._sslKeyAndCertificateRef = value.sslKeyAndCertificateRef;
       this._sslProfileRef = value.sslProfileRef;
-      this._usePoolSniServerName = value.usePoolSniServerName;
     }
   }
 
@@ -1561,22 +1499,6 @@ export class HealthmonitorFtpsMonitorSslAttributesOutputReference extends cdktf.
   public get sslProfileRefInput() {
     return this._sslProfileRef;
   }
-
-  // use_pool_sni_server_name - computed: true, optional: true, required: false
-  private _usePoolSniServerName?: string; 
-  public get usePoolSniServerName() {
-    return this.getStringAttribute('use_pool_sni_server_name');
-  }
-  public set usePoolSniServerName(value: string) {
-    this._usePoolSniServerName = value;
-  }
-  public resetUsePoolSniServerName() {
-    this._usePoolSniServerName = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get usePoolSniServerNameInput() {
-    return this._usePoolSniServerName;
-  }
 }
 
 export class HealthmonitorFtpsMonitorSslAttributesList extends cdktf.ComplexList {
@@ -1600,17 +1522,17 @@ export class HealthmonitorFtpsMonitorSslAttributesList extends cdktf.ComplexList
 }
 export interface HealthmonitorFtpsMonitor {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#filename Healthmonitor#filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#filename Healthmonitor#filename}
   */
   readonly filename: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#mode Healthmonitor#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#mode Healthmonitor#mode}
   */
   readonly mode?: string;
   /**
   * ssl_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#ssl_attributes Healthmonitor#ssl_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ssl_attributes Healthmonitor#ssl_attributes}
   */
   readonly sslAttributes?: HealthmonitorFtpsMonitorSslAttributes[] | cdktf.IResolvable;
 }
@@ -1779,1539 +1701,23 @@ export class HealthmonitorFtpsMonitorList extends cdktf.ComplexList {
     return new HealthmonitorFtpsMonitorOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
-export interface HealthmonitorHttp2MonitorSslAttributes {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#pki_profile_ref Healthmonitor#pki_profile_ref}
-  */
-  readonly pkiProfileRef?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#server_name Healthmonitor#server_name}
-  */
-  readonly serverName?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#ssl_key_and_certificate_ref Healthmonitor#ssl_key_and_certificate_ref}
-  */
-  readonly sslKeyAndCertificateRef?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#ssl_profile_ref Healthmonitor#ssl_profile_ref}
-  */
-  readonly sslProfileRef: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#use_pool_sni_server_name Healthmonitor#use_pool_sni_server_name}
-  */
-  readonly usePoolSniServerName?: string;
-}
-
-export function healthmonitorHttp2MonitorSslAttributesToTerraform(struct?: HealthmonitorHttp2MonitorSslAttributes | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    pki_profile_ref: cdktf.stringToTerraform(struct!.pkiProfileRef),
-    server_name: cdktf.stringToTerraform(struct!.serverName),
-    ssl_key_and_certificate_ref: cdktf.stringToTerraform(struct!.sslKeyAndCertificateRef),
-    ssl_profile_ref: cdktf.stringToTerraform(struct!.sslProfileRef),
-    use_pool_sni_server_name: cdktf.stringToTerraform(struct!.usePoolSniServerName),
-  }
-}
-
-
-export function healthmonitorHttp2MonitorSslAttributesToHclTerraform(struct?: HealthmonitorHttp2MonitorSslAttributes | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    pki_profile_ref: {
-      value: cdktf.stringToHclTerraform(struct!.pkiProfileRef),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    server_name: {
-      value: cdktf.stringToHclTerraform(struct!.serverName),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    ssl_key_and_certificate_ref: {
-      value: cdktf.stringToHclTerraform(struct!.sslKeyAndCertificateRef),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    ssl_profile_ref: {
-      value: cdktf.stringToHclTerraform(struct!.sslProfileRef),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    use_pool_sni_server_name: {
-      value: cdktf.stringToHclTerraform(struct!.usePoolSniServerName),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class HealthmonitorHttp2MonitorSslAttributesOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): HealthmonitorHttp2MonitorSslAttributes | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._pkiProfileRef !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.pkiProfileRef = this._pkiProfileRef;
-    }
-    if (this._serverName !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.serverName = this._serverName;
-    }
-    if (this._sslKeyAndCertificateRef !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.sslKeyAndCertificateRef = this._sslKeyAndCertificateRef;
-    }
-    if (this._sslProfileRef !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.sslProfileRef = this._sslProfileRef;
-    }
-    if (this._usePoolSniServerName !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.usePoolSniServerName = this._usePoolSniServerName;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: HealthmonitorHttp2MonitorSslAttributes | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._pkiProfileRef = undefined;
-      this._serverName = undefined;
-      this._sslKeyAndCertificateRef = undefined;
-      this._sslProfileRef = undefined;
-      this._usePoolSniServerName = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._pkiProfileRef = value.pkiProfileRef;
-      this._serverName = value.serverName;
-      this._sslKeyAndCertificateRef = value.sslKeyAndCertificateRef;
-      this._sslProfileRef = value.sslProfileRef;
-      this._usePoolSniServerName = value.usePoolSniServerName;
-    }
-  }
-
-  // pki_profile_ref - computed: true, optional: true, required: false
-  private _pkiProfileRef?: string; 
-  public get pkiProfileRef() {
-    return this.getStringAttribute('pki_profile_ref');
-  }
-  public set pkiProfileRef(value: string) {
-    this._pkiProfileRef = value;
-  }
-  public resetPkiProfileRef() {
-    this._pkiProfileRef = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get pkiProfileRefInput() {
-    return this._pkiProfileRef;
-  }
-
-  // server_name - computed: true, optional: true, required: false
-  private _serverName?: string; 
-  public get serverName() {
-    return this.getStringAttribute('server_name');
-  }
-  public set serverName(value: string) {
-    this._serverName = value;
-  }
-  public resetServerName() {
-    this._serverName = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get serverNameInput() {
-    return this._serverName;
-  }
-
-  // ssl_key_and_certificate_ref - computed: true, optional: true, required: false
-  private _sslKeyAndCertificateRef?: string; 
-  public get sslKeyAndCertificateRef() {
-    return this.getStringAttribute('ssl_key_and_certificate_ref');
-  }
-  public set sslKeyAndCertificateRef(value: string) {
-    this._sslKeyAndCertificateRef = value;
-  }
-  public resetSslKeyAndCertificateRef() {
-    this._sslKeyAndCertificateRef = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get sslKeyAndCertificateRefInput() {
-    return this._sslKeyAndCertificateRef;
-  }
-
-  // ssl_profile_ref - computed: false, optional: false, required: true
-  private _sslProfileRef?: string; 
-  public get sslProfileRef() {
-    return this.getStringAttribute('ssl_profile_ref');
-  }
-  public set sslProfileRef(value: string) {
-    this._sslProfileRef = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get sslProfileRefInput() {
-    return this._sslProfileRef;
-  }
-
-  // use_pool_sni_server_name - computed: true, optional: true, required: false
-  private _usePoolSniServerName?: string; 
-  public get usePoolSniServerName() {
-    return this.getStringAttribute('use_pool_sni_server_name');
-  }
-  public set usePoolSniServerName(value: string) {
-    this._usePoolSniServerName = value;
-  }
-  public resetUsePoolSniServerName() {
-    this._usePoolSniServerName = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get usePoolSniServerNameInput() {
-    return this._usePoolSniServerName;
-  }
-}
-
-export class HealthmonitorHttp2MonitorSslAttributesList extends cdktf.ComplexList {
-  public internalValue? : HealthmonitorHttp2MonitorSslAttributes[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): HealthmonitorHttp2MonitorSslAttributesOutputReference {
-    return new HealthmonitorHttp2MonitorSslAttributesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface HealthmonitorHttp2Monitor {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#auth_type Healthmonitor#auth_type}
-  */
-  readonly authType?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#exact_http_request Healthmonitor#exact_http_request}
-  */
-  readonly exactHttpRequest?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#http_headers Healthmonitor#http_headers}
-  */
-  readonly httpHeaders?: string[];
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#http_method Healthmonitor#http_method}
-  */
-  readonly httpMethod?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#http_request Healthmonitor#http_request}
-  */
-  readonly httpRequest?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#http_request_body Healthmonitor#http_request_body}
-  */
-  readonly httpRequestBody?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#http_request_header_path Healthmonitor#http_request_header_path}
-  */
-  readonly httpRequestHeaderPath?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#http_response Healthmonitor#http_response}
-  */
-  readonly httpResponse?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#http_response_code Healthmonitor#http_response_code}
-  */
-  readonly httpResponseCode: string[];
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#maintenance_code Healthmonitor#maintenance_code}
-  */
-  readonly maintenanceCode?: number[];
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#maintenance_response Healthmonitor#maintenance_response}
-  */
-  readonly maintenanceResponse?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#response_size Healthmonitor#response_size}
-  */
-  readonly responseSize?: string;
-  /**
-  * ssl_attributes block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#ssl_attributes Healthmonitor#ssl_attributes}
-  */
-  readonly sslAttributes?: HealthmonitorHttp2MonitorSslAttributes[] | cdktf.IResolvable;
-}
-
-export function healthmonitorHttp2MonitorToTerraform(struct?: HealthmonitorHttp2Monitor | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    auth_type: cdktf.stringToTerraform(struct!.authType),
-    exact_http_request: cdktf.stringToTerraform(struct!.exactHttpRequest),
-    http_headers: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.httpHeaders),
-    http_method: cdktf.stringToTerraform(struct!.httpMethod),
-    http_request: cdktf.stringToTerraform(struct!.httpRequest),
-    http_request_body: cdktf.stringToTerraform(struct!.httpRequestBody),
-    http_request_header_path: cdktf.stringToTerraform(struct!.httpRequestHeaderPath),
-    http_response: cdktf.stringToTerraform(struct!.httpResponse),
-    http_response_code: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.httpResponseCode),
-    maintenance_code: cdktf.listMapper(cdktf.numberToTerraform, false)(struct!.maintenanceCode),
-    maintenance_response: cdktf.stringToTerraform(struct!.maintenanceResponse),
-    response_size: cdktf.stringToTerraform(struct!.responseSize),
-    ssl_attributes: cdktf.listMapper(healthmonitorHttp2MonitorSslAttributesToTerraform, true)(struct!.sslAttributes),
-  }
-}
-
-
-export function healthmonitorHttp2MonitorToHclTerraform(struct?: HealthmonitorHttp2Monitor | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    auth_type: {
-      value: cdktf.stringToHclTerraform(struct!.authType),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    exact_http_request: {
-      value: cdktf.stringToHclTerraform(struct!.exactHttpRequest),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    http_headers: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.httpHeaders),
-      isBlock: false,
-      type: "list",
-      storageClassType: "stringList",
-    },
-    http_method: {
-      value: cdktf.stringToHclTerraform(struct!.httpMethod),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    http_request: {
-      value: cdktf.stringToHclTerraform(struct!.httpRequest),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    http_request_body: {
-      value: cdktf.stringToHclTerraform(struct!.httpRequestBody),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    http_request_header_path: {
-      value: cdktf.stringToHclTerraform(struct!.httpRequestHeaderPath),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    http_response: {
-      value: cdktf.stringToHclTerraform(struct!.httpResponse),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    http_response_code: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.httpResponseCode),
-      isBlock: false,
-      type: "list",
-      storageClassType: "stringList",
-    },
-    maintenance_code: {
-      value: cdktf.listMapperHcl(cdktf.numberToHclTerraform, false)(struct!.maintenanceCode),
-      isBlock: false,
-      type: "list",
-      storageClassType: "numberList",
-    },
-    maintenance_response: {
-      value: cdktf.stringToHclTerraform(struct!.maintenanceResponse),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    response_size: {
-      value: cdktf.stringToHclTerraform(struct!.responseSize),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    ssl_attributes: {
-      value: cdktf.listMapperHcl(healthmonitorHttp2MonitorSslAttributesToHclTerraform, true)(struct!.sslAttributes),
-      isBlock: true,
-      type: "set",
-      storageClassType: "HealthmonitorHttp2MonitorSslAttributesList",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class HealthmonitorHttp2MonitorOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): HealthmonitorHttp2Monitor | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._authType !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.authType = this._authType;
-    }
-    if (this._exactHttpRequest !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exactHttpRequest = this._exactHttpRequest;
-    }
-    if (this._httpHeaders !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.httpHeaders = this._httpHeaders;
-    }
-    if (this._httpMethod !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.httpMethod = this._httpMethod;
-    }
-    if (this._httpRequest !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.httpRequest = this._httpRequest;
-    }
-    if (this._httpRequestBody !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.httpRequestBody = this._httpRequestBody;
-    }
-    if (this._httpRequestHeaderPath !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.httpRequestHeaderPath = this._httpRequestHeaderPath;
-    }
-    if (this._httpResponse !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.httpResponse = this._httpResponse;
-    }
-    if (this._httpResponseCode !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.httpResponseCode = this._httpResponseCode;
-    }
-    if (this._maintenanceCode !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.maintenanceCode = this._maintenanceCode;
-    }
-    if (this._maintenanceResponse !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.maintenanceResponse = this._maintenanceResponse;
-    }
-    if (this._responseSize !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.responseSize = this._responseSize;
-    }
-    if (this._sslAttributes?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.sslAttributes = this._sslAttributes?.internalValue;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: HealthmonitorHttp2Monitor | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._authType = undefined;
-      this._exactHttpRequest = undefined;
-      this._httpHeaders = undefined;
-      this._httpMethod = undefined;
-      this._httpRequest = undefined;
-      this._httpRequestBody = undefined;
-      this._httpRequestHeaderPath = undefined;
-      this._httpResponse = undefined;
-      this._httpResponseCode = undefined;
-      this._maintenanceCode = undefined;
-      this._maintenanceResponse = undefined;
-      this._responseSize = undefined;
-      this._sslAttributes.internalValue = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._authType = value.authType;
-      this._exactHttpRequest = value.exactHttpRequest;
-      this._httpHeaders = value.httpHeaders;
-      this._httpMethod = value.httpMethod;
-      this._httpRequest = value.httpRequest;
-      this._httpRequestBody = value.httpRequestBody;
-      this._httpRequestHeaderPath = value.httpRequestHeaderPath;
-      this._httpResponse = value.httpResponse;
-      this._httpResponseCode = value.httpResponseCode;
-      this._maintenanceCode = value.maintenanceCode;
-      this._maintenanceResponse = value.maintenanceResponse;
-      this._responseSize = value.responseSize;
-      this._sslAttributes.internalValue = value.sslAttributes;
-    }
-  }
-
-  // auth_type - computed: true, optional: true, required: false
-  private _authType?: string; 
-  public get authType() {
-    return this.getStringAttribute('auth_type');
-  }
-  public set authType(value: string) {
-    this._authType = value;
-  }
-  public resetAuthType() {
-    this._authType = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get authTypeInput() {
-    return this._authType;
-  }
-
-  // exact_http_request - computed: false, optional: true, required: false
-  private _exactHttpRequest?: string; 
-  public get exactHttpRequest() {
-    return this.getStringAttribute('exact_http_request');
-  }
-  public set exactHttpRequest(value: string) {
-    this._exactHttpRequest = value;
-  }
-  public resetExactHttpRequest() {
-    this._exactHttpRequest = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exactHttpRequestInput() {
-    return this._exactHttpRequest;
-  }
-
-  // http_headers - computed: false, optional: true, required: false
-  private _httpHeaders?: string[]; 
-  public get httpHeaders() {
-    return this.getListAttribute('http_headers');
-  }
-  public set httpHeaders(value: string[]) {
-    this._httpHeaders = value;
-  }
-  public resetHttpHeaders() {
-    this._httpHeaders = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get httpHeadersInput() {
-    return this._httpHeaders;
-  }
-
-  // http_method - computed: true, optional: true, required: false
-  private _httpMethod?: string; 
-  public get httpMethod() {
-    return this.getStringAttribute('http_method');
-  }
-  public set httpMethod(value: string) {
-    this._httpMethod = value;
-  }
-  public resetHttpMethod() {
-    this._httpMethod = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get httpMethodInput() {
-    return this._httpMethod;
-  }
-
-  // http_request - computed: false, optional: true, required: false
-  private _httpRequest?: string; 
-  public get httpRequest() {
-    return this.getStringAttribute('http_request');
-  }
-  public set httpRequest(value: string) {
-    this._httpRequest = value;
-  }
-  public resetHttpRequest() {
-    this._httpRequest = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get httpRequestInput() {
-    return this._httpRequest;
-  }
-
-  // http_request_body - computed: true, optional: true, required: false
-  private _httpRequestBody?: string; 
-  public get httpRequestBody() {
-    return this.getStringAttribute('http_request_body');
-  }
-  public set httpRequestBody(value: string) {
-    this._httpRequestBody = value;
-  }
-  public resetHttpRequestBody() {
-    this._httpRequestBody = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get httpRequestBodyInput() {
-    return this._httpRequestBody;
-  }
-
-  // http_request_header_path - computed: true, optional: true, required: false
-  private _httpRequestHeaderPath?: string; 
-  public get httpRequestHeaderPath() {
-    return this.getStringAttribute('http_request_header_path');
-  }
-  public set httpRequestHeaderPath(value: string) {
-    this._httpRequestHeaderPath = value;
-  }
-  public resetHttpRequestHeaderPath() {
-    this._httpRequestHeaderPath = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get httpRequestHeaderPathInput() {
-    return this._httpRequestHeaderPath;
-  }
-
-  // http_response - computed: true, optional: true, required: false
-  private _httpResponse?: string; 
-  public get httpResponse() {
-    return this.getStringAttribute('http_response');
-  }
-  public set httpResponse(value: string) {
-    this._httpResponse = value;
-  }
-  public resetHttpResponse() {
-    this._httpResponse = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get httpResponseInput() {
-    return this._httpResponse;
-  }
-
-  // http_response_code - computed: false, optional: false, required: true
-  private _httpResponseCode?: string[]; 
-  public get httpResponseCode() {
-    return this.getListAttribute('http_response_code');
-  }
-  public set httpResponseCode(value: string[]) {
-    this._httpResponseCode = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get httpResponseCodeInput() {
-    return this._httpResponseCode;
-  }
-
-  // maintenance_code - computed: false, optional: true, required: false
-  private _maintenanceCode?: number[]; 
-  public get maintenanceCode() {
-    return this.getNumberListAttribute('maintenance_code');
-  }
-  public set maintenanceCode(value: number[]) {
-    this._maintenanceCode = value;
-  }
-  public resetMaintenanceCode() {
-    this._maintenanceCode = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get maintenanceCodeInput() {
-    return this._maintenanceCode;
-  }
-
-  // maintenance_response - computed: true, optional: true, required: false
-  private _maintenanceResponse?: string; 
-  public get maintenanceResponse() {
-    return this.getStringAttribute('maintenance_response');
-  }
-  public set maintenanceResponse(value: string) {
-    this._maintenanceResponse = value;
-  }
-  public resetMaintenanceResponse() {
-    this._maintenanceResponse = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get maintenanceResponseInput() {
-    return this._maintenanceResponse;
-  }
-
-  // response_size - computed: true, optional: true, required: false
-  private _responseSize?: string; 
-  public get responseSize() {
-    return this.getStringAttribute('response_size');
-  }
-  public set responseSize(value: string) {
-    this._responseSize = value;
-  }
-  public resetResponseSize() {
-    this._responseSize = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get responseSizeInput() {
-    return this._responseSize;
-  }
-
-  // ssl_attributes - computed: false, optional: true, required: false
-  private _sslAttributes = new HealthmonitorHttp2MonitorSslAttributesList(this, "ssl_attributes", true);
-  public get sslAttributes() {
-    return this._sslAttributes;
-  }
-  public putSslAttributes(value: HealthmonitorHttp2MonitorSslAttributes[] | cdktf.IResolvable) {
-    this._sslAttributes.internalValue = value;
-  }
-  public resetSslAttributes() {
-    this._sslAttributes.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get sslAttributesInput() {
-    return this._sslAttributes.internalValue;
-  }
-}
-
-export class HealthmonitorHttp2MonitorList extends cdktf.ComplexList {
-  public internalValue? : HealthmonitorHttp2Monitor[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): HealthmonitorHttp2MonitorOutputReference {
-    return new HealthmonitorHttp2MonitorOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface HealthmonitorHttp2SMonitorSslAttributes {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#pki_profile_ref Healthmonitor#pki_profile_ref}
-  */
-  readonly pkiProfileRef?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#server_name Healthmonitor#server_name}
-  */
-  readonly serverName?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#ssl_key_and_certificate_ref Healthmonitor#ssl_key_and_certificate_ref}
-  */
-  readonly sslKeyAndCertificateRef?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#ssl_profile_ref Healthmonitor#ssl_profile_ref}
-  */
-  readonly sslProfileRef: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#use_pool_sni_server_name Healthmonitor#use_pool_sni_server_name}
-  */
-  readonly usePoolSniServerName?: string;
-}
-
-export function healthmonitorHttp2SMonitorSslAttributesToTerraform(struct?: HealthmonitorHttp2SMonitorSslAttributes | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    pki_profile_ref: cdktf.stringToTerraform(struct!.pkiProfileRef),
-    server_name: cdktf.stringToTerraform(struct!.serverName),
-    ssl_key_and_certificate_ref: cdktf.stringToTerraform(struct!.sslKeyAndCertificateRef),
-    ssl_profile_ref: cdktf.stringToTerraform(struct!.sslProfileRef),
-    use_pool_sni_server_name: cdktf.stringToTerraform(struct!.usePoolSniServerName),
-  }
-}
-
-
-export function healthmonitorHttp2SMonitorSslAttributesToHclTerraform(struct?: HealthmonitorHttp2SMonitorSslAttributes | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    pki_profile_ref: {
-      value: cdktf.stringToHclTerraform(struct!.pkiProfileRef),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    server_name: {
-      value: cdktf.stringToHclTerraform(struct!.serverName),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    ssl_key_and_certificate_ref: {
-      value: cdktf.stringToHclTerraform(struct!.sslKeyAndCertificateRef),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    ssl_profile_ref: {
-      value: cdktf.stringToHclTerraform(struct!.sslProfileRef),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    use_pool_sni_server_name: {
-      value: cdktf.stringToHclTerraform(struct!.usePoolSniServerName),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class HealthmonitorHttp2SMonitorSslAttributesOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): HealthmonitorHttp2SMonitorSslAttributes | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._pkiProfileRef !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.pkiProfileRef = this._pkiProfileRef;
-    }
-    if (this._serverName !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.serverName = this._serverName;
-    }
-    if (this._sslKeyAndCertificateRef !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.sslKeyAndCertificateRef = this._sslKeyAndCertificateRef;
-    }
-    if (this._sslProfileRef !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.sslProfileRef = this._sslProfileRef;
-    }
-    if (this._usePoolSniServerName !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.usePoolSniServerName = this._usePoolSniServerName;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: HealthmonitorHttp2SMonitorSslAttributes | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._pkiProfileRef = undefined;
-      this._serverName = undefined;
-      this._sslKeyAndCertificateRef = undefined;
-      this._sslProfileRef = undefined;
-      this._usePoolSniServerName = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._pkiProfileRef = value.pkiProfileRef;
-      this._serverName = value.serverName;
-      this._sslKeyAndCertificateRef = value.sslKeyAndCertificateRef;
-      this._sslProfileRef = value.sslProfileRef;
-      this._usePoolSniServerName = value.usePoolSniServerName;
-    }
-  }
-
-  // pki_profile_ref - computed: true, optional: true, required: false
-  private _pkiProfileRef?: string; 
-  public get pkiProfileRef() {
-    return this.getStringAttribute('pki_profile_ref');
-  }
-  public set pkiProfileRef(value: string) {
-    this._pkiProfileRef = value;
-  }
-  public resetPkiProfileRef() {
-    this._pkiProfileRef = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get pkiProfileRefInput() {
-    return this._pkiProfileRef;
-  }
-
-  // server_name - computed: true, optional: true, required: false
-  private _serverName?: string; 
-  public get serverName() {
-    return this.getStringAttribute('server_name');
-  }
-  public set serverName(value: string) {
-    this._serverName = value;
-  }
-  public resetServerName() {
-    this._serverName = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get serverNameInput() {
-    return this._serverName;
-  }
-
-  // ssl_key_and_certificate_ref - computed: true, optional: true, required: false
-  private _sslKeyAndCertificateRef?: string; 
-  public get sslKeyAndCertificateRef() {
-    return this.getStringAttribute('ssl_key_and_certificate_ref');
-  }
-  public set sslKeyAndCertificateRef(value: string) {
-    this._sslKeyAndCertificateRef = value;
-  }
-  public resetSslKeyAndCertificateRef() {
-    this._sslKeyAndCertificateRef = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get sslKeyAndCertificateRefInput() {
-    return this._sslKeyAndCertificateRef;
-  }
-
-  // ssl_profile_ref - computed: false, optional: false, required: true
-  private _sslProfileRef?: string; 
-  public get sslProfileRef() {
-    return this.getStringAttribute('ssl_profile_ref');
-  }
-  public set sslProfileRef(value: string) {
-    this._sslProfileRef = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get sslProfileRefInput() {
-    return this._sslProfileRef;
-  }
-
-  // use_pool_sni_server_name - computed: true, optional: true, required: false
-  private _usePoolSniServerName?: string; 
-  public get usePoolSniServerName() {
-    return this.getStringAttribute('use_pool_sni_server_name');
-  }
-  public set usePoolSniServerName(value: string) {
-    this._usePoolSniServerName = value;
-  }
-  public resetUsePoolSniServerName() {
-    this._usePoolSniServerName = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get usePoolSniServerNameInput() {
-    return this._usePoolSniServerName;
-  }
-}
-
-export class HealthmonitorHttp2SMonitorSslAttributesList extends cdktf.ComplexList {
-  public internalValue? : HealthmonitorHttp2SMonitorSslAttributes[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): HealthmonitorHttp2SMonitorSslAttributesOutputReference {
-    return new HealthmonitorHttp2SMonitorSslAttributesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface HealthmonitorHttp2SMonitor {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#auth_type Healthmonitor#auth_type}
-  */
-  readonly authType?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#exact_http_request Healthmonitor#exact_http_request}
-  */
-  readonly exactHttpRequest?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#http_headers Healthmonitor#http_headers}
-  */
-  readonly httpHeaders?: string[];
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#http_method Healthmonitor#http_method}
-  */
-  readonly httpMethod?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#http_request Healthmonitor#http_request}
-  */
-  readonly httpRequest?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#http_request_body Healthmonitor#http_request_body}
-  */
-  readonly httpRequestBody?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#http_request_header_path Healthmonitor#http_request_header_path}
-  */
-  readonly httpRequestHeaderPath?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#http_response Healthmonitor#http_response}
-  */
-  readonly httpResponse?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#http_response_code Healthmonitor#http_response_code}
-  */
-  readonly httpResponseCode: string[];
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#maintenance_code Healthmonitor#maintenance_code}
-  */
-  readonly maintenanceCode?: number[];
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#maintenance_response Healthmonitor#maintenance_response}
-  */
-  readonly maintenanceResponse?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#response_size Healthmonitor#response_size}
-  */
-  readonly responseSize?: string;
-  /**
-  * ssl_attributes block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#ssl_attributes Healthmonitor#ssl_attributes}
-  */
-  readonly sslAttributes?: HealthmonitorHttp2SMonitorSslAttributes[] | cdktf.IResolvable;
-}
-
-export function healthmonitorHttp2SMonitorToTerraform(struct?: HealthmonitorHttp2SMonitor | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    auth_type: cdktf.stringToTerraform(struct!.authType),
-    exact_http_request: cdktf.stringToTerraform(struct!.exactHttpRequest),
-    http_headers: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.httpHeaders),
-    http_method: cdktf.stringToTerraform(struct!.httpMethod),
-    http_request: cdktf.stringToTerraform(struct!.httpRequest),
-    http_request_body: cdktf.stringToTerraform(struct!.httpRequestBody),
-    http_request_header_path: cdktf.stringToTerraform(struct!.httpRequestHeaderPath),
-    http_response: cdktf.stringToTerraform(struct!.httpResponse),
-    http_response_code: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.httpResponseCode),
-    maintenance_code: cdktf.listMapper(cdktf.numberToTerraform, false)(struct!.maintenanceCode),
-    maintenance_response: cdktf.stringToTerraform(struct!.maintenanceResponse),
-    response_size: cdktf.stringToTerraform(struct!.responseSize),
-    ssl_attributes: cdktf.listMapper(healthmonitorHttp2SMonitorSslAttributesToTerraform, true)(struct!.sslAttributes),
-  }
-}
-
-
-export function healthmonitorHttp2SMonitorToHclTerraform(struct?: HealthmonitorHttp2SMonitor | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    auth_type: {
-      value: cdktf.stringToHclTerraform(struct!.authType),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    exact_http_request: {
-      value: cdktf.stringToHclTerraform(struct!.exactHttpRequest),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    http_headers: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.httpHeaders),
-      isBlock: false,
-      type: "list",
-      storageClassType: "stringList",
-    },
-    http_method: {
-      value: cdktf.stringToHclTerraform(struct!.httpMethod),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    http_request: {
-      value: cdktf.stringToHclTerraform(struct!.httpRequest),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    http_request_body: {
-      value: cdktf.stringToHclTerraform(struct!.httpRequestBody),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    http_request_header_path: {
-      value: cdktf.stringToHclTerraform(struct!.httpRequestHeaderPath),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    http_response: {
-      value: cdktf.stringToHclTerraform(struct!.httpResponse),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    http_response_code: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.httpResponseCode),
-      isBlock: false,
-      type: "list",
-      storageClassType: "stringList",
-    },
-    maintenance_code: {
-      value: cdktf.listMapperHcl(cdktf.numberToHclTerraform, false)(struct!.maintenanceCode),
-      isBlock: false,
-      type: "list",
-      storageClassType: "numberList",
-    },
-    maintenance_response: {
-      value: cdktf.stringToHclTerraform(struct!.maintenanceResponse),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    response_size: {
-      value: cdktf.stringToHclTerraform(struct!.responseSize),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    ssl_attributes: {
-      value: cdktf.listMapperHcl(healthmonitorHttp2SMonitorSslAttributesToHclTerraform, true)(struct!.sslAttributes),
-      isBlock: true,
-      type: "set",
-      storageClassType: "HealthmonitorHttp2SMonitorSslAttributesList",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class HealthmonitorHttp2SMonitorOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): HealthmonitorHttp2SMonitor | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._authType !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.authType = this._authType;
-    }
-    if (this._exactHttpRequest !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exactHttpRequest = this._exactHttpRequest;
-    }
-    if (this._httpHeaders !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.httpHeaders = this._httpHeaders;
-    }
-    if (this._httpMethod !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.httpMethod = this._httpMethod;
-    }
-    if (this._httpRequest !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.httpRequest = this._httpRequest;
-    }
-    if (this._httpRequestBody !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.httpRequestBody = this._httpRequestBody;
-    }
-    if (this._httpRequestHeaderPath !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.httpRequestHeaderPath = this._httpRequestHeaderPath;
-    }
-    if (this._httpResponse !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.httpResponse = this._httpResponse;
-    }
-    if (this._httpResponseCode !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.httpResponseCode = this._httpResponseCode;
-    }
-    if (this._maintenanceCode !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.maintenanceCode = this._maintenanceCode;
-    }
-    if (this._maintenanceResponse !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.maintenanceResponse = this._maintenanceResponse;
-    }
-    if (this._responseSize !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.responseSize = this._responseSize;
-    }
-    if (this._sslAttributes?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.sslAttributes = this._sslAttributes?.internalValue;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: HealthmonitorHttp2SMonitor | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._authType = undefined;
-      this._exactHttpRequest = undefined;
-      this._httpHeaders = undefined;
-      this._httpMethod = undefined;
-      this._httpRequest = undefined;
-      this._httpRequestBody = undefined;
-      this._httpRequestHeaderPath = undefined;
-      this._httpResponse = undefined;
-      this._httpResponseCode = undefined;
-      this._maintenanceCode = undefined;
-      this._maintenanceResponse = undefined;
-      this._responseSize = undefined;
-      this._sslAttributes.internalValue = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._authType = value.authType;
-      this._exactHttpRequest = value.exactHttpRequest;
-      this._httpHeaders = value.httpHeaders;
-      this._httpMethod = value.httpMethod;
-      this._httpRequest = value.httpRequest;
-      this._httpRequestBody = value.httpRequestBody;
-      this._httpRequestHeaderPath = value.httpRequestHeaderPath;
-      this._httpResponse = value.httpResponse;
-      this._httpResponseCode = value.httpResponseCode;
-      this._maintenanceCode = value.maintenanceCode;
-      this._maintenanceResponse = value.maintenanceResponse;
-      this._responseSize = value.responseSize;
-      this._sslAttributes.internalValue = value.sslAttributes;
-    }
-  }
-
-  // auth_type - computed: true, optional: true, required: false
-  private _authType?: string; 
-  public get authType() {
-    return this.getStringAttribute('auth_type');
-  }
-  public set authType(value: string) {
-    this._authType = value;
-  }
-  public resetAuthType() {
-    this._authType = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get authTypeInput() {
-    return this._authType;
-  }
-
-  // exact_http_request - computed: false, optional: true, required: false
-  private _exactHttpRequest?: string; 
-  public get exactHttpRequest() {
-    return this.getStringAttribute('exact_http_request');
-  }
-  public set exactHttpRequest(value: string) {
-    this._exactHttpRequest = value;
-  }
-  public resetExactHttpRequest() {
-    this._exactHttpRequest = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exactHttpRequestInput() {
-    return this._exactHttpRequest;
-  }
-
-  // http_headers - computed: false, optional: true, required: false
-  private _httpHeaders?: string[]; 
-  public get httpHeaders() {
-    return this.getListAttribute('http_headers');
-  }
-  public set httpHeaders(value: string[]) {
-    this._httpHeaders = value;
-  }
-  public resetHttpHeaders() {
-    this._httpHeaders = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get httpHeadersInput() {
-    return this._httpHeaders;
-  }
-
-  // http_method - computed: true, optional: true, required: false
-  private _httpMethod?: string; 
-  public get httpMethod() {
-    return this.getStringAttribute('http_method');
-  }
-  public set httpMethod(value: string) {
-    this._httpMethod = value;
-  }
-  public resetHttpMethod() {
-    this._httpMethod = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get httpMethodInput() {
-    return this._httpMethod;
-  }
-
-  // http_request - computed: false, optional: true, required: false
-  private _httpRequest?: string; 
-  public get httpRequest() {
-    return this.getStringAttribute('http_request');
-  }
-  public set httpRequest(value: string) {
-    this._httpRequest = value;
-  }
-  public resetHttpRequest() {
-    this._httpRequest = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get httpRequestInput() {
-    return this._httpRequest;
-  }
-
-  // http_request_body - computed: true, optional: true, required: false
-  private _httpRequestBody?: string; 
-  public get httpRequestBody() {
-    return this.getStringAttribute('http_request_body');
-  }
-  public set httpRequestBody(value: string) {
-    this._httpRequestBody = value;
-  }
-  public resetHttpRequestBody() {
-    this._httpRequestBody = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get httpRequestBodyInput() {
-    return this._httpRequestBody;
-  }
-
-  // http_request_header_path - computed: true, optional: true, required: false
-  private _httpRequestHeaderPath?: string; 
-  public get httpRequestHeaderPath() {
-    return this.getStringAttribute('http_request_header_path');
-  }
-  public set httpRequestHeaderPath(value: string) {
-    this._httpRequestHeaderPath = value;
-  }
-  public resetHttpRequestHeaderPath() {
-    this._httpRequestHeaderPath = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get httpRequestHeaderPathInput() {
-    return this._httpRequestHeaderPath;
-  }
-
-  // http_response - computed: true, optional: true, required: false
-  private _httpResponse?: string; 
-  public get httpResponse() {
-    return this.getStringAttribute('http_response');
-  }
-  public set httpResponse(value: string) {
-    this._httpResponse = value;
-  }
-  public resetHttpResponse() {
-    this._httpResponse = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get httpResponseInput() {
-    return this._httpResponse;
-  }
-
-  // http_response_code - computed: false, optional: false, required: true
-  private _httpResponseCode?: string[]; 
-  public get httpResponseCode() {
-    return this.getListAttribute('http_response_code');
-  }
-  public set httpResponseCode(value: string[]) {
-    this._httpResponseCode = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get httpResponseCodeInput() {
-    return this._httpResponseCode;
-  }
-
-  // maintenance_code - computed: false, optional: true, required: false
-  private _maintenanceCode?: number[]; 
-  public get maintenanceCode() {
-    return this.getNumberListAttribute('maintenance_code');
-  }
-  public set maintenanceCode(value: number[]) {
-    this._maintenanceCode = value;
-  }
-  public resetMaintenanceCode() {
-    this._maintenanceCode = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get maintenanceCodeInput() {
-    return this._maintenanceCode;
-  }
-
-  // maintenance_response - computed: true, optional: true, required: false
-  private _maintenanceResponse?: string; 
-  public get maintenanceResponse() {
-    return this.getStringAttribute('maintenance_response');
-  }
-  public set maintenanceResponse(value: string) {
-    this._maintenanceResponse = value;
-  }
-  public resetMaintenanceResponse() {
-    this._maintenanceResponse = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get maintenanceResponseInput() {
-    return this._maintenanceResponse;
-  }
-
-  // response_size - computed: true, optional: true, required: false
-  private _responseSize?: string; 
-  public get responseSize() {
-    return this.getStringAttribute('response_size');
-  }
-  public set responseSize(value: string) {
-    this._responseSize = value;
-  }
-  public resetResponseSize() {
-    this._responseSize = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get responseSizeInput() {
-    return this._responseSize;
-  }
-
-  // ssl_attributes - computed: false, optional: true, required: false
-  private _sslAttributes = new HealthmonitorHttp2SMonitorSslAttributesList(this, "ssl_attributes", true);
-  public get sslAttributes() {
-    return this._sslAttributes;
-  }
-  public putSslAttributes(value: HealthmonitorHttp2SMonitorSslAttributes[] | cdktf.IResolvable) {
-    this._sslAttributes.internalValue = value;
-  }
-  public resetSslAttributes() {
-    this._sslAttributes.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get sslAttributesInput() {
-    return this._sslAttributes.internalValue;
-  }
-}
-
-export class HealthmonitorHttp2SMonitorList extends cdktf.ComplexList {
-  public internalValue? : HealthmonitorHttp2SMonitor[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): HealthmonitorHttp2SMonitorOutputReference {
-    return new HealthmonitorHttp2SMonitorOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
 export interface HealthmonitorHttpMonitorSslAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#pki_profile_ref Healthmonitor#pki_profile_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#pki_profile_ref Healthmonitor#pki_profile_ref}
   */
   readonly pkiProfileRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#server_name Healthmonitor#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#server_name Healthmonitor#server_name}
   */
   readonly serverName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#ssl_key_and_certificate_ref Healthmonitor#ssl_key_and_certificate_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ssl_key_and_certificate_ref Healthmonitor#ssl_key_and_certificate_ref}
   */
   readonly sslKeyAndCertificateRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#ssl_profile_ref Healthmonitor#ssl_profile_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ssl_profile_ref Healthmonitor#ssl_profile_ref}
   */
   readonly sslProfileRef: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#use_pool_sni_server_name Healthmonitor#use_pool_sni_server_name}
-  */
-  readonly usePoolSniServerName?: string;
 }
 
 export function healthmonitorHttpMonitorSslAttributesToTerraform(struct?: HealthmonitorHttpMonitorSslAttributes | cdktf.IResolvable): any {
@@ -3324,7 +1730,6 @@ export function healthmonitorHttpMonitorSslAttributesToTerraform(struct?: Health
     server_name: cdktf.stringToTerraform(struct!.serverName),
     ssl_key_and_certificate_ref: cdktf.stringToTerraform(struct!.sslKeyAndCertificateRef),
     ssl_profile_ref: cdktf.stringToTerraform(struct!.sslProfileRef),
-    use_pool_sni_server_name: cdktf.stringToTerraform(struct!.usePoolSniServerName),
   }
 }
 
@@ -3355,12 +1760,6 @@ export function healthmonitorHttpMonitorSslAttributesToHclTerraform(struct?: Hea
     },
     ssl_profile_ref: {
       value: cdktf.stringToHclTerraform(struct!.sslProfileRef),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    use_pool_sni_server_name: {
-      value: cdktf.stringToHclTerraform(struct!.usePoolSniServerName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -3407,10 +1806,6 @@ export class HealthmonitorHttpMonitorSslAttributesOutputReference extends cdktf.
       hasAnyValues = true;
       internalValueResult.sslProfileRef = this._sslProfileRef;
     }
-    if (this._usePoolSniServerName !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.usePoolSniServerName = this._usePoolSniServerName;
-    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -3422,7 +1817,6 @@ export class HealthmonitorHttpMonitorSslAttributesOutputReference extends cdktf.
       this._serverName = undefined;
       this._sslKeyAndCertificateRef = undefined;
       this._sslProfileRef = undefined;
-      this._usePoolSniServerName = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -3435,7 +1829,6 @@ export class HealthmonitorHttpMonitorSslAttributesOutputReference extends cdktf.
       this._serverName = value.serverName;
       this._sslKeyAndCertificateRef = value.sslKeyAndCertificateRef;
       this._sslProfileRef = value.sslProfileRef;
-      this._usePoolSniServerName = value.usePoolSniServerName;
     }
   }
 
@@ -3499,22 +1892,6 @@ export class HealthmonitorHttpMonitorSslAttributesOutputReference extends cdktf.
   public get sslProfileRefInput() {
     return this._sslProfileRef;
   }
-
-  // use_pool_sni_server_name - computed: true, optional: true, required: false
-  private _usePoolSniServerName?: string; 
-  public get usePoolSniServerName() {
-    return this.getStringAttribute('use_pool_sni_server_name');
-  }
-  public set usePoolSniServerName(value: string) {
-    this._usePoolSniServerName = value;
-  }
-  public resetUsePoolSniServerName() {
-    this._usePoolSniServerName = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get usePoolSniServerNameInput() {
-    return this._usePoolSniServerName;
-  }
 }
 
 export class HealthmonitorHttpMonitorSslAttributesList extends cdktf.ComplexList {
@@ -3538,57 +1915,45 @@ export class HealthmonitorHttpMonitorSslAttributesList extends cdktf.ComplexList
 }
 export interface HealthmonitorHttpMonitor {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#auth_type Healthmonitor#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#auth_type Healthmonitor#auth_type}
   */
   readonly authType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#exact_http_request Healthmonitor#exact_http_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#exact_http_request Healthmonitor#exact_http_request}
   */
   readonly exactHttpRequest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#http_headers Healthmonitor#http_headers}
-  */
-  readonly httpHeaders?: string[];
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#http_method Healthmonitor#http_method}
-  */
-  readonly httpMethod?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#http_request Healthmonitor#http_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#http_request Healthmonitor#http_request}
   */
   readonly httpRequest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#http_request_body Healthmonitor#http_request_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#http_request_body Healthmonitor#http_request_body}
   */
   readonly httpRequestBody?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#http_request_header_path Healthmonitor#http_request_header_path}
-  */
-  readonly httpRequestHeaderPath?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#http_response Healthmonitor#http_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#http_response Healthmonitor#http_response}
   */
   readonly httpResponse?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#http_response_code Healthmonitor#http_response_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#http_response_code Healthmonitor#http_response_code}
   */
   readonly httpResponseCode: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#maintenance_code Healthmonitor#maintenance_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#maintenance_code Healthmonitor#maintenance_code}
   */
   readonly maintenanceCode?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#maintenance_response Healthmonitor#maintenance_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#maintenance_response Healthmonitor#maintenance_response}
   */
   readonly maintenanceResponse?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#response_size Healthmonitor#response_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#response_size Healthmonitor#response_size}
   */
   readonly responseSize?: string;
   /**
   * ssl_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#ssl_attributes Healthmonitor#ssl_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ssl_attributes Healthmonitor#ssl_attributes}
   */
   readonly sslAttributes?: HealthmonitorHttpMonitorSslAttributes[] | cdktf.IResolvable;
 }
@@ -3601,11 +1966,8 @@ export function healthmonitorHttpMonitorToTerraform(struct?: HealthmonitorHttpMo
   return {
     auth_type: cdktf.stringToTerraform(struct!.authType),
     exact_http_request: cdktf.stringToTerraform(struct!.exactHttpRequest),
-    http_headers: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.httpHeaders),
-    http_method: cdktf.stringToTerraform(struct!.httpMethod),
     http_request: cdktf.stringToTerraform(struct!.httpRequest),
     http_request_body: cdktf.stringToTerraform(struct!.httpRequestBody),
-    http_request_header_path: cdktf.stringToTerraform(struct!.httpRequestHeaderPath),
     http_response: cdktf.stringToTerraform(struct!.httpResponse),
     http_response_code: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.httpResponseCode),
     maintenance_code: cdktf.listMapper(cdktf.numberToTerraform, false)(struct!.maintenanceCode),
@@ -3634,18 +1996,6 @@ export function healthmonitorHttpMonitorToHclTerraform(struct?: HealthmonitorHtt
       type: "simple",
       storageClassType: "string",
     },
-    http_headers: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.httpHeaders),
-      isBlock: false,
-      type: "list",
-      storageClassType: "stringList",
-    },
-    http_method: {
-      value: cdktf.stringToHclTerraform(struct!.httpMethod),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
     http_request: {
       value: cdktf.stringToHclTerraform(struct!.httpRequest),
       isBlock: false,
@@ -3654,12 +2004,6 @@ export function healthmonitorHttpMonitorToHclTerraform(struct?: HealthmonitorHtt
     },
     http_request_body: {
       value: cdktf.stringToHclTerraform(struct!.httpRequestBody),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    http_request_header_path: {
-      value: cdktf.stringToHclTerraform(struct!.httpRequestHeaderPath),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -3734,14 +2078,6 @@ export class HealthmonitorHttpMonitorOutputReference extends cdktf.ComplexObject
       hasAnyValues = true;
       internalValueResult.exactHttpRequest = this._exactHttpRequest;
     }
-    if (this._httpHeaders !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.httpHeaders = this._httpHeaders;
-    }
-    if (this._httpMethod !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.httpMethod = this._httpMethod;
-    }
     if (this._httpRequest !== undefined) {
       hasAnyValues = true;
       internalValueResult.httpRequest = this._httpRequest;
@@ -3749,10 +2085,6 @@ export class HealthmonitorHttpMonitorOutputReference extends cdktf.ComplexObject
     if (this._httpRequestBody !== undefined) {
       hasAnyValues = true;
       internalValueResult.httpRequestBody = this._httpRequestBody;
-    }
-    if (this._httpRequestHeaderPath !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.httpRequestHeaderPath = this._httpRequestHeaderPath;
     }
     if (this._httpResponse !== undefined) {
       hasAnyValues = true;
@@ -3787,11 +2119,8 @@ export class HealthmonitorHttpMonitorOutputReference extends cdktf.ComplexObject
       this.resolvableValue = undefined;
       this._authType = undefined;
       this._exactHttpRequest = undefined;
-      this._httpHeaders = undefined;
-      this._httpMethod = undefined;
       this._httpRequest = undefined;
       this._httpRequestBody = undefined;
-      this._httpRequestHeaderPath = undefined;
       this._httpResponse = undefined;
       this._httpResponseCode = undefined;
       this._maintenanceCode = undefined;
@@ -3808,11 +2137,8 @@ export class HealthmonitorHttpMonitorOutputReference extends cdktf.ComplexObject
       this.resolvableValue = undefined;
       this._authType = value.authType;
       this._exactHttpRequest = value.exactHttpRequest;
-      this._httpHeaders = value.httpHeaders;
-      this._httpMethod = value.httpMethod;
       this._httpRequest = value.httpRequest;
       this._httpRequestBody = value.httpRequestBody;
-      this._httpRequestHeaderPath = value.httpRequestHeaderPath;
       this._httpResponse = value.httpResponse;
       this._httpResponseCode = value.httpResponseCode;
       this._maintenanceCode = value.maintenanceCode;
@@ -3854,38 +2180,6 @@ export class HealthmonitorHttpMonitorOutputReference extends cdktf.ComplexObject
     return this._exactHttpRequest;
   }
 
-  // http_headers - computed: false, optional: true, required: false
-  private _httpHeaders?: string[]; 
-  public get httpHeaders() {
-    return this.getListAttribute('http_headers');
-  }
-  public set httpHeaders(value: string[]) {
-    this._httpHeaders = value;
-  }
-  public resetHttpHeaders() {
-    this._httpHeaders = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get httpHeadersInput() {
-    return this._httpHeaders;
-  }
-
-  // http_method - computed: true, optional: true, required: false
-  private _httpMethod?: string; 
-  public get httpMethod() {
-    return this.getStringAttribute('http_method');
-  }
-  public set httpMethod(value: string) {
-    this._httpMethod = value;
-  }
-  public resetHttpMethod() {
-    this._httpMethod = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get httpMethodInput() {
-    return this._httpMethod;
-  }
-
   // http_request - computed: false, optional: true, required: false
   private _httpRequest?: string; 
   public get httpRequest() {
@@ -3916,22 +2210,6 @@ export class HealthmonitorHttpMonitorOutputReference extends cdktf.ComplexObject
   // Temporarily expose input value. Use with caution.
   public get httpRequestBodyInput() {
     return this._httpRequestBody;
-  }
-
-  // http_request_header_path - computed: true, optional: true, required: false
-  private _httpRequestHeaderPath?: string; 
-  public get httpRequestHeaderPath() {
-    return this.getStringAttribute('http_request_header_path');
-  }
-  public set httpRequestHeaderPath(value: string) {
-    this._httpRequestHeaderPath = value;
-  }
-  public resetHttpRequestHeaderPath() {
-    this._httpRequestHeaderPath = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get httpRequestHeaderPathInput() {
-    return this._httpRequestHeaderPath;
   }
 
   // http_response - computed: true, optional: true, required: false
@@ -4049,25 +2327,21 @@ export class HealthmonitorHttpMonitorList extends cdktf.ComplexList {
 }
 export interface HealthmonitorHttpsMonitorSslAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#pki_profile_ref Healthmonitor#pki_profile_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#pki_profile_ref Healthmonitor#pki_profile_ref}
   */
   readonly pkiProfileRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#server_name Healthmonitor#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#server_name Healthmonitor#server_name}
   */
   readonly serverName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#ssl_key_and_certificate_ref Healthmonitor#ssl_key_and_certificate_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ssl_key_and_certificate_ref Healthmonitor#ssl_key_and_certificate_ref}
   */
   readonly sslKeyAndCertificateRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#ssl_profile_ref Healthmonitor#ssl_profile_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ssl_profile_ref Healthmonitor#ssl_profile_ref}
   */
   readonly sslProfileRef: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#use_pool_sni_server_name Healthmonitor#use_pool_sni_server_name}
-  */
-  readonly usePoolSniServerName?: string;
 }
 
 export function healthmonitorHttpsMonitorSslAttributesToTerraform(struct?: HealthmonitorHttpsMonitorSslAttributes | cdktf.IResolvable): any {
@@ -4080,7 +2354,6 @@ export function healthmonitorHttpsMonitorSslAttributesToTerraform(struct?: Healt
     server_name: cdktf.stringToTerraform(struct!.serverName),
     ssl_key_and_certificate_ref: cdktf.stringToTerraform(struct!.sslKeyAndCertificateRef),
     ssl_profile_ref: cdktf.stringToTerraform(struct!.sslProfileRef),
-    use_pool_sni_server_name: cdktf.stringToTerraform(struct!.usePoolSniServerName),
   }
 }
 
@@ -4111,12 +2384,6 @@ export function healthmonitorHttpsMonitorSslAttributesToHclTerraform(struct?: He
     },
     ssl_profile_ref: {
       value: cdktf.stringToHclTerraform(struct!.sslProfileRef),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    use_pool_sni_server_name: {
-      value: cdktf.stringToHclTerraform(struct!.usePoolSniServerName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -4163,10 +2430,6 @@ export class HealthmonitorHttpsMonitorSslAttributesOutputReference extends cdktf
       hasAnyValues = true;
       internalValueResult.sslProfileRef = this._sslProfileRef;
     }
-    if (this._usePoolSniServerName !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.usePoolSniServerName = this._usePoolSniServerName;
-    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -4178,7 +2441,6 @@ export class HealthmonitorHttpsMonitorSslAttributesOutputReference extends cdktf
       this._serverName = undefined;
       this._sslKeyAndCertificateRef = undefined;
       this._sslProfileRef = undefined;
-      this._usePoolSniServerName = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -4191,7 +2453,6 @@ export class HealthmonitorHttpsMonitorSslAttributesOutputReference extends cdktf
       this._serverName = value.serverName;
       this._sslKeyAndCertificateRef = value.sslKeyAndCertificateRef;
       this._sslProfileRef = value.sslProfileRef;
-      this._usePoolSniServerName = value.usePoolSniServerName;
     }
   }
 
@@ -4255,22 +2516,6 @@ export class HealthmonitorHttpsMonitorSslAttributesOutputReference extends cdktf
   public get sslProfileRefInput() {
     return this._sslProfileRef;
   }
-
-  // use_pool_sni_server_name - computed: true, optional: true, required: false
-  private _usePoolSniServerName?: string; 
-  public get usePoolSniServerName() {
-    return this.getStringAttribute('use_pool_sni_server_name');
-  }
-  public set usePoolSniServerName(value: string) {
-    this._usePoolSniServerName = value;
-  }
-  public resetUsePoolSniServerName() {
-    this._usePoolSniServerName = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get usePoolSniServerNameInput() {
-    return this._usePoolSniServerName;
-  }
 }
 
 export class HealthmonitorHttpsMonitorSslAttributesList extends cdktf.ComplexList {
@@ -4294,57 +2539,45 @@ export class HealthmonitorHttpsMonitorSslAttributesList extends cdktf.ComplexLis
 }
 export interface HealthmonitorHttpsMonitor {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#auth_type Healthmonitor#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#auth_type Healthmonitor#auth_type}
   */
   readonly authType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#exact_http_request Healthmonitor#exact_http_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#exact_http_request Healthmonitor#exact_http_request}
   */
   readonly exactHttpRequest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#http_headers Healthmonitor#http_headers}
-  */
-  readonly httpHeaders?: string[];
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#http_method Healthmonitor#http_method}
-  */
-  readonly httpMethod?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#http_request Healthmonitor#http_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#http_request Healthmonitor#http_request}
   */
   readonly httpRequest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#http_request_body Healthmonitor#http_request_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#http_request_body Healthmonitor#http_request_body}
   */
   readonly httpRequestBody?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#http_request_header_path Healthmonitor#http_request_header_path}
-  */
-  readonly httpRequestHeaderPath?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#http_response Healthmonitor#http_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#http_response Healthmonitor#http_response}
   */
   readonly httpResponse?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#http_response_code Healthmonitor#http_response_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#http_response_code Healthmonitor#http_response_code}
   */
   readonly httpResponseCode: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#maintenance_code Healthmonitor#maintenance_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#maintenance_code Healthmonitor#maintenance_code}
   */
   readonly maintenanceCode?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#maintenance_response Healthmonitor#maintenance_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#maintenance_response Healthmonitor#maintenance_response}
   */
   readonly maintenanceResponse?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#response_size Healthmonitor#response_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#response_size Healthmonitor#response_size}
   */
   readonly responseSize?: string;
   /**
   * ssl_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#ssl_attributes Healthmonitor#ssl_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ssl_attributes Healthmonitor#ssl_attributes}
   */
   readonly sslAttributes?: HealthmonitorHttpsMonitorSslAttributes[] | cdktf.IResolvable;
 }
@@ -4357,11 +2590,8 @@ export function healthmonitorHttpsMonitorToTerraform(struct?: HealthmonitorHttps
   return {
     auth_type: cdktf.stringToTerraform(struct!.authType),
     exact_http_request: cdktf.stringToTerraform(struct!.exactHttpRequest),
-    http_headers: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.httpHeaders),
-    http_method: cdktf.stringToTerraform(struct!.httpMethod),
     http_request: cdktf.stringToTerraform(struct!.httpRequest),
     http_request_body: cdktf.stringToTerraform(struct!.httpRequestBody),
-    http_request_header_path: cdktf.stringToTerraform(struct!.httpRequestHeaderPath),
     http_response: cdktf.stringToTerraform(struct!.httpResponse),
     http_response_code: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.httpResponseCode),
     maintenance_code: cdktf.listMapper(cdktf.numberToTerraform, false)(struct!.maintenanceCode),
@@ -4390,18 +2620,6 @@ export function healthmonitorHttpsMonitorToHclTerraform(struct?: HealthmonitorHt
       type: "simple",
       storageClassType: "string",
     },
-    http_headers: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.httpHeaders),
-      isBlock: false,
-      type: "list",
-      storageClassType: "stringList",
-    },
-    http_method: {
-      value: cdktf.stringToHclTerraform(struct!.httpMethod),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
     http_request: {
       value: cdktf.stringToHclTerraform(struct!.httpRequest),
       isBlock: false,
@@ -4410,12 +2628,6 @@ export function healthmonitorHttpsMonitorToHclTerraform(struct?: HealthmonitorHt
     },
     http_request_body: {
       value: cdktf.stringToHclTerraform(struct!.httpRequestBody),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    http_request_header_path: {
-      value: cdktf.stringToHclTerraform(struct!.httpRequestHeaderPath),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -4490,14 +2702,6 @@ export class HealthmonitorHttpsMonitorOutputReference extends cdktf.ComplexObjec
       hasAnyValues = true;
       internalValueResult.exactHttpRequest = this._exactHttpRequest;
     }
-    if (this._httpHeaders !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.httpHeaders = this._httpHeaders;
-    }
-    if (this._httpMethod !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.httpMethod = this._httpMethod;
-    }
     if (this._httpRequest !== undefined) {
       hasAnyValues = true;
       internalValueResult.httpRequest = this._httpRequest;
@@ -4505,10 +2709,6 @@ export class HealthmonitorHttpsMonitorOutputReference extends cdktf.ComplexObjec
     if (this._httpRequestBody !== undefined) {
       hasAnyValues = true;
       internalValueResult.httpRequestBody = this._httpRequestBody;
-    }
-    if (this._httpRequestHeaderPath !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.httpRequestHeaderPath = this._httpRequestHeaderPath;
     }
     if (this._httpResponse !== undefined) {
       hasAnyValues = true;
@@ -4543,11 +2743,8 @@ export class HealthmonitorHttpsMonitorOutputReference extends cdktf.ComplexObjec
       this.resolvableValue = undefined;
       this._authType = undefined;
       this._exactHttpRequest = undefined;
-      this._httpHeaders = undefined;
-      this._httpMethod = undefined;
       this._httpRequest = undefined;
       this._httpRequestBody = undefined;
-      this._httpRequestHeaderPath = undefined;
       this._httpResponse = undefined;
       this._httpResponseCode = undefined;
       this._maintenanceCode = undefined;
@@ -4564,11 +2761,8 @@ export class HealthmonitorHttpsMonitorOutputReference extends cdktf.ComplexObjec
       this.resolvableValue = undefined;
       this._authType = value.authType;
       this._exactHttpRequest = value.exactHttpRequest;
-      this._httpHeaders = value.httpHeaders;
-      this._httpMethod = value.httpMethod;
       this._httpRequest = value.httpRequest;
       this._httpRequestBody = value.httpRequestBody;
-      this._httpRequestHeaderPath = value.httpRequestHeaderPath;
       this._httpResponse = value.httpResponse;
       this._httpResponseCode = value.httpResponseCode;
       this._maintenanceCode = value.maintenanceCode;
@@ -4610,38 +2804,6 @@ export class HealthmonitorHttpsMonitorOutputReference extends cdktf.ComplexObjec
     return this._exactHttpRequest;
   }
 
-  // http_headers - computed: false, optional: true, required: false
-  private _httpHeaders?: string[]; 
-  public get httpHeaders() {
-    return this.getListAttribute('http_headers');
-  }
-  public set httpHeaders(value: string[]) {
-    this._httpHeaders = value;
-  }
-  public resetHttpHeaders() {
-    this._httpHeaders = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get httpHeadersInput() {
-    return this._httpHeaders;
-  }
-
-  // http_method - computed: true, optional: true, required: false
-  private _httpMethod?: string; 
-  public get httpMethod() {
-    return this.getStringAttribute('http_method');
-  }
-  public set httpMethod(value: string) {
-    this._httpMethod = value;
-  }
-  public resetHttpMethod() {
-    this._httpMethod = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get httpMethodInput() {
-    return this._httpMethod;
-  }
-
   // http_request - computed: false, optional: true, required: false
   private _httpRequest?: string; 
   public get httpRequest() {
@@ -4672,22 +2834,6 @@ export class HealthmonitorHttpsMonitorOutputReference extends cdktf.ComplexObjec
   // Temporarily expose input value. Use with caution.
   public get httpRequestBodyInput() {
     return this._httpRequestBody;
-  }
-
-  // http_request_header_path - computed: true, optional: true, required: false
-  private _httpRequestHeaderPath?: string; 
-  public get httpRequestHeaderPath() {
-    return this.getStringAttribute('http_request_header_path');
-  }
-  public set httpRequestHeaderPath(value: string) {
-    this._httpRequestHeaderPath = value;
-  }
-  public resetHttpRequestHeaderPath() {
-    this._httpRequestHeaderPath = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get httpRequestHeaderPathInput() {
-    return this._httpRequestHeaderPath;
   }
 
   // http_response - computed: true, optional: true, required: false
@@ -4805,25 +2951,21 @@ export class HealthmonitorHttpsMonitorList extends cdktf.ComplexList {
 }
 export interface HealthmonitorImapMonitorSslAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#pki_profile_ref Healthmonitor#pki_profile_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#pki_profile_ref Healthmonitor#pki_profile_ref}
   */
   readonly pkiProfileRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#server_name Healthmonitor#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#server_name Healthmonitor#server_name}
   */
   readonly serverName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#ssl_key_and_certificate_ref Healthmonitor#ssl_key_and_certificate_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ssl_key_and_certificate_ref Healthmonitor#ssl_key_and_certificate_ref}
   */
   readonly sslKeyAndCertificateRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#ssl_profile_ref Healthmonitor#ssl_profile_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ssl_profile_ref Healthmonitor#ssl_profile_ref}
   */
   readonly sslProfileRef: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#use_pool_sni_server_name Healthmonitor#use_pool_sni_server_name}
-  */
-  readonly usePoolSniServerName?: string;
 }
 
 export function healthmonitorImapMonitorSslAttributesToTerraform(struct?: HealthmonitorImapMonitorSslAttributes | cdktf.IResolvable): any {
@@ -4836,7 +2978,6 @@ export function healthmonitorImapMonitorSslAttributesToTerraform(struct?: Health
     server_name: cdktf.stringToTerraform(struct!.serverName),
     ssl_key_and_certificate_ref: cdktf.stringToTerraform(struct!.sslKeyAndCertificateRef),
     ssl_profile_ref: cdktf.stringToTerraform(struct!.sslProfileRef),
-    use_pool_sni_server_name: cdktf.stringToTerraform(struct!.usePoolSniServerName),
   }
 }
 
@@ -4867,12 +3008,6 @@ export function healthmonitorImapMonitorSslAttributesToHclTerraform(struct?: Hea
     },
     ssl_profile_ref: {
       value: cdktf.stringToHclTerraform(struct!.sslProfileRef),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    use_pool_sni_server_name: {
-      value: cdktf.stringToHclTerraform(struct!.usePoolSniServerName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -4919,10 +3054,6 @@ export class HealthmonitorImapMonitorSslAttributesOutputReference extends cdktf.
       hasAnyValues = true;
       internalValueResult.sslProfileRef = this._sslProfileRef;
     }
-    if (this._usePoolSniServerName !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.usePoolSniServerName = this._usePoolSniServerName;
-    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -4934,7 +3065,6 @@ export class HealthmonitorImapMonitorSslAttributesOutputReference extends cdktf.
       this._serverName = undefined;
       this._sslKeyAndCertificateRef = undefined;
       this._sslProfileRef = undefined;
-      this._usePoolSniServerName = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -4947,7 +3077,6 @@ export class HealthmonitorImapMonitorSslAttributesOutputReference extends cdktf.
       this._serverName = value.serverName;
       this._sslKeyAndCertificateRef = value.sslKeyAndCertificateRef;
       this._sslProfileRef = value.sslProfileRef;
-      this._usePoolSniServerName = value.usePoolSniServerName;
     }
   }
 
@@ -5011,22 +3140,6 @@ export class HealthmonitorImapMonitorSslAttributesOutputReference extends cdktf.
   public get sslProfileRefInput() {
     return this._sslProfileRef;
   }
-
-  // use_pool_sni_server_name - computed: true, optional: true, required: false
-  private _usePoolSniServerName?: string; 
-  public get usePoolSniServerName() {
-    return this.getStringAttribute('use_pool_sni_server_name');
-  }
-  public set usePoolSniServerName(value: string) {
-    this._usePoolSniServerName = value;
-  }
-  public resetUsePoolSniServerName() {
-    this._usePoolSniServerName = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get usePoolSniServerNameInput() {
-    return this._usePoolSniServerName;
-  }
 }
 
 export class HealthmonitorImapMonitorSslAttributesList extends cdktf.ComplexList {
@@ -5050,13 +3163,13 @@ export class HealthmonitorImapMonitorSslAttributesList extends cdktf.ComplexList
 }
 export interface HealthmonitorImapMonitor {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#folder Healthmonitor#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#folder Healthmonitor#folder}
   */
   readonly folder?: string;
   /**
   * ssl_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#ssl_attributes Healthmonitor#ssl_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ssl_attributes Healthmonitor#ssl_attributes}
   */
   readonly sslAttributes?: HealthmonitorImapMonitorSslAttributes[] | cdktf.IResolvable;
 }
@@ -5201,25 +3314,21 @@ export class HealthmonitorImapMonitorList extends cdktf.ComplexList {
 }
 export interface HealthmonitorImapsMonitorSslAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#pki_profile_ref Healthmonitor#pki_profile_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#pki_profile_ref Healthmonitor#pki_profile_ref}
   */
   readonly pkiProfileRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#server_name Healthmonitor#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#server_name Healthmonitor#server_name}
   */
   readonly serverName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#ssl_key_and_certificate_ref Healthmonitor#ssl_key_and_certificate_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ssl_key_and_certificate_ref Healthmonitor#ssl_key_and_certificate_ref}
   */
   readonly sslKeyAndCertificateRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#ssl_profile_ref Healthmonitor#ssl_profile_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ssl_profile_ref Healthmonitor#ssl_profile_ref}
   */
   readonly sslProfileRef: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#use_pool_sni_server_name Healthmonitor#use_pool_sni_server_name}
-  */
-  readonly usePoolSniServerName?: string;
 }
 
 export function healthmonitorImapsMonitorSslAttributesToTerraform(struct?: HealthmonitorImapsMonitorSslAttributes | cdktf.IResolvable): any {
@@ -5232,7 +3341,6 @@ export function healthmonitorImapsMonitorSslAttributesToTerraform(struct?: Healt
     server_name: cdktf.stringToTerraform(struct!.serverName),
     ssl_key_and_certificate_ref: cdktf.stringToTerraform(struct!.sslKeyAndCertificateRef),
     ssl_profile_ref: cdktf.stringToTerraform(struct!.sslProfileRef),
-    use_pool_sni_server_name: cdktf.stringToTerraform(struct!.usePoolSniServerName),
   }
 }
 
@@ -5263,12 +3371,6 @@ export function healthmonitorImapsMonitorSslAttributesToHclTerraform(struct?: He
     },
     ssl_profile_ref: {
       value: cdktf.stringToHclTerraform(struct!.sslProfileRef),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    use_pool_sni_server_name: {
-      value: cdktf.stringToHclTerraform(struct!.usePoolSniServerName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -5315,10 +3417,6 @@ export class HealthmonitorImapsMonitorSslAttributesOutputReference extends cdktf
       hasAnyValues = true;
       internalValueResult.sslProfileRef = this._sslProfileRef;
     }
-    if (this._usePoolSniServerName !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.usePoolSniServerName = this._usePoolSniServerName;
-    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -5330,7 +3428,6 @@ export class HealthmonitorImapsMonitorSslAttributesOutputReference extends cdktf
       this._serverName = undefined;
       this._sslKeyAndCertificateRef = undefined;
       this._sslProfileRef = undefined;
-      this._usePoolSniServerName = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -5343,7 +3440,6 @@ export class HealthmonitorImapsMonitorSslAttributesOutputReference extends cdktf
       this._serverName = value.serverName;
       this._sslKeyAndCertificateRef = value.sslKeyAndCertificateRef;
       this._sslProfileRef = value.sslProfileRef;
-      this._usePoolSniServerName = value.usePoolSniServerName;
     }
   }
 
@@ -5407,22 +3503,6 @@ export class HealthmonitorImapsMonitorSslAttributesOutputReference extends cdktf
   public get sslProfileRefInput() {
     return this._sslProfileRef;
   }
-
-  // use_pool_sni_server_name - computed: true, optional: true, required: false
-  private _usePoolSniServerName?: string; 
-  public get usePoolSniServerName() {
-    return this.getStringAttribute('use_pool_sni_server_name');
-  }
-  public set usePoolSniServerName(value: string) {
-    this._usePoolSniServerName = value;
-  }
-  public resetUsePoolSniServerName() {
-    this._usePoolSniServerName = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get usePoolSniServerNameInput() {
-    return this._usePoolSniServerName;
-  }
 }
 
 export class HealthmonitorImapsMonitorSslAttributesList extends cdktf.ComplexList {
@@ -5446,13 +3526,13 @@ export class HealthmonitorImapsMonitorSslAttributesList extends cdktf.ComplexLis
 }
 export interface HealthmonitorImapsMonitor {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#folder Healthmonitor#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#folder Healthmonitor#folder}
   */
   readonly folder?: string;
   /**
   * ssl_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#ssl_attributes Healthmonitor#ssl_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ssl_attributes Healthmonitor#ssl_attributes}
   */
   readonly sslAttributes?: HealthmonitorImapsMonitorSslAttributes[] | cdktf.IResolvable;
 }
@@ -5597,25 +3677,21 @@ export class HealthmonitorImapsMonitorList extends cdktf.ComplexList {
 }
 export interface HealthmonitorLdapMonitorSslAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#pki_profile_ref Healthmonitor#pki_profile_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#pki_profile_ref Healthmonitor#pki_profile_ref}
   */
   readonly pkiProfileRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#server_name Healthmonitor#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#server_name Healthmonitor#server_name}
   */
   readonly serverName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#ssl_key_and_certificate_ref Healthmonitor#ssl_key_and_certificate_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ssl_key_and_certificate_ref Healthmonitor#ssl_key_and_certificate_ref}
   */
   readonly sslKeyAndCertificateRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#ssl_profile_ref Healthmonitor#ssl_profile_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ssl_profile_ref Healthmonitor#ssl_profile_ref}
   */
   readonly sslProfileRef: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#use_pool_sni_server_name Healthmonitor#use_pool_sni_server_name}
-  */
-  readonly usePoolSniServerName?: string;
 }
 
 export function healthmonitorLdapMonitorSslAttributesToTerraform(struct?: HealthmonitorLdapMonitorSslAttributes | cdktf.IResolvable): any {
@@ -5628,7 +3704,6 @@ export function healthmonitorLdapMonitorSslAttributesToTerraform(struct?: Health
     server_name: cdktf.stringToTerraform(struct!.serverName),
     ssl_key_and_certificate_ref: cdktf.stringToTerraform(struct!.sslKeyAndCertificateRef),
     ssl_profile_ref: cdktf.stringToTerraform(struct!.sslProfileRef),
-    use_pool_sni_server_name: cdktf.stringToTerraform(struct!.usePoolSniServerName),
   }
 }
 
@@ -5659,12 +3734,6 @@ export function healthmonitorLdapMonitorSslAttributesToHclTerraform(struct?: Hea
     },
     ssl_profile_ref: {
       value: cdktf.stringToHclTerraform(struct!.sslProfileRef),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    use_pool_sni_server_name: {
-      value: cdktf.stringToHclTerraform(struct!.usePoolSniServerName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -5711,10 +3780,6 @@ export class HealthmonitorLdapMonitorSslAttributesOutputReference extends cdktf.
       hasAnyValues = true;
       internalValueResult.sslProfileRef = this._sslProfileRef;
     }
-    if (this._usePoolSniServerName !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.usePoolSniServerName = this._usePoolSniServerName;
-    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -5726,7 +3791,6 @@ export class HealthmonitorLdapMonitorSslAttributesOutputReference extends cdktf.
       this._serverName = undefined;
       this._sslKeyAndCertificateRef = undefined;
       this._sslProfileRef = undefined;
-      this._usePoolSniServerName = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -5739,7 +3803,6 @@ export class HealthmonitorLdapMonitorSslAttributesOutputReference extends cdktf.
       this._serverName = value.serverName;
       this._sslKeyAndCertificateRef = value.sslKeyAndCertificateRef;
       this._sslProfileRef = value.sslProfileRef;
-      this._usePoolSniServerName = value.usePoolSniServerName;
     }
   }
 
@@ -5803,22 +3866,6 @@ export class HealthmonitorLdapMonitorSslAttributesOutputReference extends cdktf.
   public get sslProfileRefInput() {
     return this._sslProfileRef;
   }
-
-  // use_pool_sni_server_name - computed: true, optional: true, required: false
-  private _usePoolSniServerName?: string; 
-  public get usePoolSniServerName() {
-    return this.getStringAttribute('use_pool_sni_server_name');
-  }
-  public set usePoolSniServerName(value: string) {
-    this._usePoolSniServerName = value;
-  }
-  public resetUsePoolSniServerName() {
-    this._usePoolSniServerName = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get usePoolSniServerNameInput() {
-    return this._usePoolSniServerName;
-  }
 }
 
 export class HealthmonitorLdapMonitorSslAttributesList extends cdktf.ComplexList {
@@ -5842,25 +3889,25 @@ export class HealthmonitorLdapMonitorSslAttributesList extends cdktf.ComplexList
 }
 export interface HealthmonitorLdapMonitor {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#attributes Healthmonitor#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#attributes Healthmonitor#attributes}
   */
   readonly attributes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#base_dn Healthmonitor#base_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#base_dn Healthmonitor#base_dn}
   */
   readonly baseDn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#filter Healthmonitor#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#filter Healthmonitor#filter}
   */
   readonly filter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#scope Healthmonitor#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#scope Healthmonitor#scope}
   */
   readonly scope?: string;
   /**
   * ssl_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#ssl_attributes Healthmonitor#ssl_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ssl_attributes Healthmonitor#ssl_attributes}
   */
   readonly sslAttributes?: HealthmonitorLdapMonitorSslAttributes[] | cdktf.IResolvable;
 }
@@ -6089,25 +4136,21 @@ export class HealthmonitorLdapMonitorList extends cdktf.ComplexList {
 }
 export interface HealthmonitorLdapsMonitorSslAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#pki_profile_ref Healthmonitor#pki_profile_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#pki_profile_ref Healthmonitor#pki_profile_ref}
   */
   readonly pkiProfileRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#server_name Healthmonitor#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#server_name Healthmonitor#server_name}
   */
   readonly serverName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#ssl_key_and_certificate_ref Healthmonitor#ssl_key_and_certificate_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ssl_key_and_certificate_ref Healthmonitor#ssl_key_and_certificate_ref}
   */
   readonly sslKeyAndCertificateRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#ssl_profile_ref Healthmonitor#ssl_profile_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ssl_profile_ref Healthmonitor#ssl_profile_ref}
   */
   readonly sslProfileRef: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#use_pool_sni_server_name Healthmonitor#use_pool_sni_server_name}
-  */
-  readonly usePoolSniServerName?: string;
 }
 
 export function healthmonitorLdapsMonitorSslAttributesToTerraform(struct?: HealthmonitorLdapsMonitorSslAttributes | cdktf.IResolvable): any {
@@ -6120,7 +4163,6 @@ export function healthmonitorLdapsMonitorSslAttributesToTerraform(struct?: Healt
     server_name: cdktf.stringToTerraform(struct!.serverName),
     ssl_key_and_certificate_ref: cdktf.stringToTerraform(struct!.sslKeyAndCertificateRef),
     ssl_profile_ref: cdktf.stringToTerraform(struct!.sslProfileRef),
-    use_pool_sni_server_name: cdktf.stringToTerraform(struct!.usePoolSniServerName),
   }
 }
 
@@ -6151,12 +4193,6 @@ export function healthmonitorLdapsMonitorSslAttributesToHclTerraform(struct?: He
     },
     ssl_profile_ref: {
       value: cdktf.stringToHclTerraform(struct!.sslProfileRef),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    use_pool_sni_server_name: {
-      value: cdktf.stringToHclTerraform(struct!.usePoolSniServerName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -6203,10 +4239,6 @@ export class HealthmonitorLdapsMonitorSslAttributesOutputReference extends cdktf
       hasAnyValues = true;
       internalValueResult.sslProfileRef = this._sslProfileRef;
     }
-    if (this._usePoolSniServerName !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.usePoolSniServerName = this._usePoolSniServerName;
-    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -6218,7 +4250,6 @@ export class HealthmonitorLdapsMonitorSslAttributesOutputReference extends cdktf
       this._serverName = undefined;
       this._sslKeyAndCertificateRef = undefined;
       this._sslProfileRef = undefined;
-      this._usePoolSniServerName = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -6231,7 +4262,6 @@ export class HealthmonitorLdapsMonitorSslAttributesOutputReference extends cdktf
       this._serverName = value.serverName;
       this._sslKeyAndCertificateRef = value.sslKeyAndCertificateRef;
       this._sslProfileRef = value.sslProfileRef;
-      this._usePoolSniServerName = value.usePoolSniServerName;
     }
   }
 
@@ -6295,22 +4325,6 @@ export class HealthmonitorLdapsMonitorSslAttributesOutputReference extends cdktf
   public get sslProfileRefInput() {
     return this._sslProfileRef;
   }
-
-  // use_pool_sni_server_name - computed: true, optional: true, required: false
-  private _usePoolSniServerName?: string; 
-  public get usePoolSniServerName() {
-    return this.getStringAttribute('use_pool_sni_server_name');
-  }
-  public set usePoolSniServerName(value: string) {
-    this._usePoolSniServerName = value;
-  }
-  public resetUsePoolSniServerName() {
-    this._usePoolSniServerName = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get usePoolSniServerNameInput() {
-    return this._usePoolSniServerName;
-  }
 }
 
 export class HealthmonitorLdapsMonitorSslAttributesList extends cdktf.ComplexList {
@@ -6334,25 +4348,25 @@ export class HealthmonitorLdapsMonitorSslAttributesList extends cdktf.ComplexLis
 }
 export interface HealthmonitorLdapsMonitor {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#attributes Healthmonitor#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#attributes Healthmonitor#attributes}
   */
   readonly attributes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#base_dn Healthmonitor#base_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#base_dn Healthmonitor#base_dn}
   */
   readonly baseDn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#filter Healthmonitor#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#filter Healthmonitor#filter}
   */
   readonly filter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#scope Healthmonitor#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#scope Healthmonitor#scope}
   */
   readonly scope?: string;
   /**
   * ssl_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#ssl_attributes Healthmonitor#ssl_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ssl_attributes Healthmonitor#ssl_attributes}
   */
   readonly sslAttributes?: HealthmonitorLdapsMonitorSslAttributes[] | cdktf.IResolvable;
 }
@@ -6581,11 +4595,11 @@ export class HealthmonitorLdapsMonitorList extends cdktf.ComplexList {
 }
 export interface HealthmonitorMarkers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#key Healthmonitor#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#key Healthmonitor#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#values Healthmonitor#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#values Healthmonitor#values}
   */
   readonly values?: string[];
 }
@@ -6727,25 +4741,21 @@ export class HealthmonitorMarkersList extends cdktf.ComplexList {
 }
 export interface HealthmonitorPop3MonitorSslAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#pki_profile_ref Healthmonitor#pki_profile_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#pki_profile_ref Healthmonitor#pki_profile_ref}
   */
   readonly pkiProfileRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#server_name Healthmonitor#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#server_name Healthmonitor#server_name}
   */
   readonly serverName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#ssl_key_and_certificate_ref Healthmonitor#ssl_key_and_certificate_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ssl_key_and_certificate_ref Healthmonitor#ssl_key_and_certificate_ref}
   */
   readonly sslKeyAndCertificateRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#ssl_profile_ref Healthmonitor#ssl_profile_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ssl_profile_ref Healthmonitor#ssl_profile_ref}
   */
   readonly sslProfileRef: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#use_pool_sni_server_name Healthmonitor#use_pool_sni_server_name}
-  */
-  readonly usePoolSniServerName?: string;
 }
 
 export function healthmonitorPop3MonitorSslAttributesToTerraform(struct?: HealthmonitorPop3MonitorSslAttributes | cdktf.IResolvable): any {
@@ -6758,7 +4768,6 @@ export function healthmonitorPop3MonitorSslAttributesToTerraform(struct?: Health
     server_name: cdktf.stringToTerraform(struct!.serverName),
     ssl_key_and_certificate_ref: cdktf.stringToTerraform(struct!.sslKeyAndCertificateRef),
     ssl_profile_ref: cdktf.stringToTerraform(struct!.sslProfileRef),
-    use_pool_sni_server_name: cdktf.stringToTerraform(struct!.usePoolSniServerName),
   }
 }
 
@@ -6789,12 +4798,6 @@ export function healthmonitorPop3MonitorSslAttributesToHclTerraform(struct?: Hea
     },
     ssl_profile_ref: {
       value: cdktf.stringToHclTerraform(struct!.sslProfileRef),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    use_pool_sni_server_name: {
-      value: cdktf.stringToHclTerraform(struct!.usePoolSniServerName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -6841,10 +4844,6 @@ export class HealthmonitorPop3MonitorSslAttributesOutputReference extends cdktf.
       hasAnyValues = true;
       internalValueResult.sslProfileRef = this._sslProfileRef;
     }
-    if (this._usePoolSniServerName !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.usePoolSniServerName = this._usePoolSniServerName;
-    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -6856,7 +4855,6 @@ export class HealthmonitorPop3MonitorSslAttributesOutputReference extends cdktf.
       this._serverName = undefined;
       this._sslKeyAndCertificateRef = undefined;
       this._sslProfileRef = undefined;
-      this._usePoolSniServerName = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -6869,7 +4867,6 @@ export class HealthmonitorPop3MonitorSslAttributesOutputReference extends cdktf.
       this._serverName = value.serverName;
       this._sslKeyAndCertificateRef = value.sslKeyAndCertificateRef;
       this._sslProfileRef = value.sslProfileRef;
-      this._usePoolSniServerName = value.usePoolSniServerName;
     }
   }
 
@@ -6933,22 +4930,6 @@ export class HealthmonitorPop3MonitorSslAttributesOutputReference extends cdktf.
   public get sslProfileRefInput() {
     return this._sslProfileRef;
   }
-
-  // use_pool_sni_server_name - computed: true, optional: true, required: false
-  private _usePoolSniServerName?: string; 
-  public get usePoolSniServerName() {
-    return this.getStringAttribute('use_pool_sni_server_name');
-  }
-  public set usePoolSniServerName(value: string) {
-    this._usePoolSniServerName = value;
-  }
-  public resetUsePoolSniServerName() {
-    this._usePoolSniServerName = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get usePoolSniServerNameInput() {
-    return this._usePoolSniServerName;
-  }
 }
 
 export class HealthmonitorPop3MonitorSslAttributesList extends cdktf.ComplexList {
@@ -6974,7 +4955,7 @@ export interface HealthmonitorPop3Monitor {
   /**
   * ssl_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#ssl_attributes Healthmonitor#ssl_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ssl_attributes Healthmonitor#ssl_attributes}
   */
   readonly sslAttributes?: HealthmonitorPop3MonitorSslAttributes[] | cdktf.IResolvable;
 }
@@ -7090,25 +5071,21 @@ export class HealthmonitorPop3MonitorList extends cdktf.ComplexList {
 }
 export interface HealthmonitorPop3SMonitorSslAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#pki_profile_ref Healthmonitor#pki_profile_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#pki_profile_ref Healthmonitor#pki_profile_ref}
   */
   readonly pkiProfileRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#server_name Healthmonitor#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#server_name Healthmonitor#server_name}
   */
   readonly serverName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#ssl_key_and_certificate_ref Healthmonitor#ssl_key_and_certificate_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ssl_key_and_certificate_ref Healthmonitor#ssl_key_and_certificate_ref}
   */
   readonly sslKeyAndCertificateRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#ssl_profile_ref Healthmonitor#ssl_profile_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ssl_profile_ref Healthmonitor#ssl_profile_ref}
   */
   readonly sslProfileRef: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#use_pool_sni_server_name Healthmonitor#use_pool_sni_server_name}
-  */
-  readonly usePoolSniServerName?: string;
 }
 
 export function healthmonitorPop3SMonitorSslAttributesToTerraform(struct?: HealthmonitorPop3SMonitorSslAttributes | cdktf.IResolvable): any {
@@ -7121,7 +5098,6 @@ export function healthmonitorPop3SMonitorSslAttributesToTerraform(struct?: Healt
     server_name: cdktf.stringToTerraform(struct!.serverName),
     ssl_key_and_certificate_ref: cdktf.stringToTerraform(struct!.sslKeyAndCertificateRef),
     ssl_profile_ref: cdktf.stringToTerraform(struct!.sslProfileRef),
-    use_pool_sni_server_name: cdktf.stringToTerraform(struct!.usePoolSniServerName),
   }
 }
 
@@ -7152,12 +5128,6 @@ export function healthmonitorPop3SMonitorSslAttributesToHclTerraform(struct?: He
     },
     ssl_profile_ref: {
       value: cdktf.stringToHclTerraform(struct!.sslProfileRef),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    use_pool_sni_server_name: {
-      value: cdktf.stringToHclTerraform(struct!.usePoolSniServerName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -7204,10 +5174,6 @@ export class HealthmonitorPop3SMonitorSslAttributesOutputReference extends cdktf
       hasAnyValues = true;
       internalValueResult.sslProfileRef = this._sslProfileRef;
     }
-    if (this._usePoolSniServerName !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.usePoolSniServerName = this._usePoolSniServerName;
-    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -7219,7 +5185,6 @@ export class HealthmonitorPop3SMonitorSslAttributesOutputReference extends cdktf
       this._serverName = undefined;
       this._sslKeyAndCertificateRef = undefined;
       this._sslProfileRef = undefined;
-      this._usePoolSniServerName = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -7232,7 +5197,6 @@ export class HealthmonitorPop3SMonitorSslAttributesOutputReference extends cdktf
       this._serverName = value.serverName;
       this._sslKeyAndCertificateRef = value.sslKeyAndCertificateRef;
       this._sslProfileRef = value.sslProfileRef;
-      this._usePoolSniServerName = value.usePoolSniServerName;
     }
   }
 
@@ -7296,22 +5260,6 @@ export class HealthmonitorPop3SMonitorSslAttributesOutputReference extends cdktf
   public get sslProfileRefInput() {
     return this._sslProfileRef;
   }
-
-  // use_pool_sni_server_name - computed: true, optional: true, required: false
-  private _usePoolSniServerName?: string; 
-  public get usePoolSniServerName() {
-    return this.getStringAttribute('use_pool_sni_server_name');
-  }
-  public set usePoolSniServerName(value: string) {
-    this._usePoolSniServerName = value;
-  }
-  public resetUsePoolSniServerName() {
-    this._usePoolSniServerName = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get usePoolSniServerNameInput() {
-    return this._usePoolSniServerName;
-  }
 }
 
 export class HealthmonitorPop3SMonitorSslAttributesList extends cdktf.ComplexList {
@@ -7337,7 +5285,7 @@ export interface HealthmonitorPop3SMonitor {
   /**
   * ssl_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#ssl_attributes Healthmonitor#ssl_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ssl_attributes Healthmonitor#ssl_attributes}
   */
   readonly sslAttributes?: HealthmonitorPop3SMonitorSslAttributes[] | cdktf.IResolvable;
 }
@@ -7453,15 +5401,15 @@ export class HealthmonitorPop3SMonitorList extends cdktf.ComplexList {
 }
 export interface HealthmonitorRadiusMonitor {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#password Healthmonitor#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#password Healthmonitor#password}
   */
   readonly password: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#shared_secret Healthmonitor#shared_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#shared_secret Healthmonitor#shared_secret}
   */
   readonly sharedSecret: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#username Healthmonitor#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#username Healthmonitor#username}
   */
   readonly username: string;
 }
@@ -7626,11 +5574,11 @@ export class HealthmonitorRadiusMonitorList extends cdktf.ComplexList {
 }
 export interface HealthmonitorSctpMonitor {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#sctp_request Healthmonitor#sctp_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#sctp_request Healthmonitor#sctp_request}
   */
   readonly sctpRequest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#sctp_response Healthmonitor#sctp_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#sctp_response Healthmonitor#sctp_response}
   */
   readonly sctpResponse?: string;
 }
@@ -7775,15 +5723,15 @@ export class HealthmonitorSctpMonitorList extends cdktf.ComplexList {
 }
 export interface HealthmonitorSipMonitor {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#sip_monitor_transport Healthmonitor#sip_monitor_transport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#sip_monitor_transport Healthmonitor#sip_monitor_transport}
   */
   readonly sipMonitorTransport?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#sip_request_code Healthmonitor#sip_request_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#sip_request_code Healthmonitor#sip_request_code}
   */
   readonly sipRequestCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#sip_response Healthmonitor#sip_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#sip_response Healthmonitor#sip_response}
   */
   readonly sipResponse?: string;
 }
@@ -7957,25 +5905,21 @@ export class HealthmonitorSipMonitorList extends cdktf.ComplexList {
 }
 export interface HealthmonitorSmtpMonitorSslAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#pki_profile_ref Healthmonitor#pki_profile_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#pki_profile_ref Healthmonitor#pki_profile_ref}
   */
   readonly pkiProfileRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#server_name Healthmonitor#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#server_name Healthmonitor#server_name}
   */
   readonly serverName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#ssl_key_and_certificate_ref Healthmonitor#ssl_key_and_certificate_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ssl_key_and_certificate_ref Healthmonitor#ssl_key_and_certificate_ref}
   */
   readonly sslKeyAndCertificateRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#ssl_profile_ref Healthmonitor#ssl_profile_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ssl_profile_ref Healthmonitor#ssl_profile_ref}
   */
   readonly sslProfileRef: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#use_pool_sni_server_name Healthmonitor#use_pool_sni_server_name}
-  */
-  readonly usePoolSniServerName?: string;
 }
 
 export function healthmonitorSmtpMonitorSslAttributesToTerraform(struct?: HealthmonitorSmtpMonitorSslAttributes | cdktf.IResolvable): any {
@@ -7988,7 +5932,6 @@ export function healthmonitorSmtpMonitorSslAttributesToTerraform(struct?: Health
     server_name: cdktf.stringToTerraform(struct!.serverName),
     ssl_key_and_certificate_ref: cdktf.stringToTerraform(struct!.sslKeyAndCertificateRef),
     ssl_profile_ref: cdktf.stringToTerraform(struct!.sslProfileRef),
-    use_pool_sni_server_name: cdktf.stringToTerraform(struct!.usePoolSniServerName),
   }
 }
 
@@ -8019,12 +5962,6 @@ export function healthmonitorSmtpMonitorSslAttributesToHclTerraform(struct?: Hea
     },
     ssl_profile_ref: {
       value: cdktf.stringToHclTerraform(struct!.sslProfileRef),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    use_pool_sni_server_name: {
-      value: cdktf.stringToHclTerraform(struct!.usePoolSniServerName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -8071,10 +6008,6 @@ export class HealthmonitorSmtpMonitorSslAttributesOutputReference extends cdktf.
       hasAnyValues = true;
       internalValueResult.sslProfileRef = this._sslProfileRef;
     }
-    if (this._usePoolSniServerName !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.usePoolSniServerName = this._usePoolSniServerName;
-    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -8086,7 +6019,6 @@ export class HealthmonitorSmtpMonitorSslAttributesOutputReference extends cdktf.
       this._serverName = undefined;
       this._sslKeyAndCertificateRef = undefined;
       this._sslProfileRef = undefined;
-      this._usePoolSniServerName = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -8099,7 +6031,6 @@ export class HealthmonitorSmtpMonitorSslAttributesOutputReference extends cdktf.
       this._serverName = value.serverName;
       this._sslKeyAndCertificateRef = value.sslKeyAndCertificateRef;
       this._sslProfileRef = value.sslProfileRef;
-      this._usePoolSniServerName = value.usePoolSniServerName;
     }
   }
 
@@ -8163,22 +6094,6 @@ export class HealthmonitorSmtpMonitorSslAttributesOutputReference extends cdktf.
   public get sslProfileRefInput() {
     return this._sslProfileRef;
   }
-
-  // use_pool_sni_server_name - computed: true, optional: true, required: false
-  private _usePoolSniServerName?: string; 
-  public get usePoolSniServerName() {
-    return this.getStringAttribute('use_pool_sni_server_name');
-  }
-  public set usePoolSniServerName(value: string) {
-    this._usePoolSniServerName = value;
-  }
-  public resetUsePoolSniServerName() {
-    this._usePoolSniServerName = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get usePoolSniServerNameInput() {
-    return this._usePoolSniServerName;
-  }
 }
 
 export class HealthmonitorSmtpMonitorSslAttributesList extends cdktf.ComplexList {
@@ -8202,25 +6117,25 @@ export class HealthmonitorSmtpMonitorSslAttributesList extends cdktf.ComplexList
 }
 export interface HealthmonitorSmtpMonitor {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#domainname Healthmonitor#domainname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#domainname Healthmonitor#domainname}
   */
   readonly domainname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#mail_data Healthmonitor#mail_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#mail_data Healthmonitor#mail_data}
   */
   readonly mailData?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#recipients_ids Healthmonitor#recipients_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#recipients_ids Healthmonitor#recipients_ids}
   */
   readonly recipientsIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#sender_id Healthmonitor#sender_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#sender_id Healthmonitor#sender_id}
   */
   readonly senderId?: string;
   /**
   * ssl_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#ssl_attributes Healthmonitor#ssl_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ssl_attributes Healthmonitor#ssl_attributes}
   */
   readonly sslAttributes?: HealthmonitorSmtpMonitorSslAttributes[] | cdktf.IResolvable;
 }
@@ -8452,25 +6367,21 @@ export class HealthmonitorSmtpMonitorList extends cdktf.ComplexList {
 }
 export interface HealthmonitorSmtpsMonitorSslAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#pki_profile_ref Healthmonitor#pki_profile_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#pki_profile_ref Healthmonitor#pki_profile_ref}
   */
   readonly pkiProfileRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#server_name Healthmonitor#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#server_name Healthmonitor#server_name}
   */
   readonly serverName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#ssl_key_and_certificate_ref Healthmonitor#ssl_key_and_certificate_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ssl_key_and_certificate_ref Healthmonitor#ssl_key_and_certificate_ref}
   */
   readonly sslKeyAndCertificateRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#ssl_profile_ref Healthmonitor#ssl_profile_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ssl_profile_ref Healthmonitor#ssl_profile_ref}
   */
   readonly sslProfileRef: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#use_pool_sni_server_name Healthmonitor#use_pool_sni_server_name}
-  */
-  readonly usePoolSniServerName?: string;
 }
 
 export function healthmonitorSmtpsMonitorSslAttributesToTerraform(struct?: HealthmonitorSmtpsMonitorSslAttributes | cdktf.IResolvable): any {
@@ -8483,7 +6394,6 @@ export function healthmonitorSmtpsMonitorSslAttributesToTerraform(struct?: Healt
     server_name: cdktf.stringToTerraform(struct!.serverName),
     ssl_key_and_certificate_ref: cdktf.stringToTerraform(struct!.sslKeyAndCertificateRef),
     ssl_profile_ref: cdktf.stringToTerraform(struct!.sslProfileRef),
-    use_pool_sni_server_name: cdktf.stringToTerraform(struct!.usePoolSniServerName),
   }
 }
 
@@ -8514,12 +6424,6 @@ export function healthmonitorSmtpsMonitorSslAttributesToHclTerraform(struct?: He
     },
     ssl_profile_ref: {
       value: cdktf.stringToHclTerraform(struct!.sslProfileRef),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    use_pool_sni_server_name: {
-      value: cdktf.stringToHclTerraform(struct!.usePoolSniServerName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -8566,10 +6470,6 @@ export class HealthmonitorSmtpsMonitorSslAttributesOutputReference extends cdktf
       hasAnyValues = true;
       internalValueResult.sslProfileRef = this._sslProfileRef;
     }
-    if (this._usePoolSniServerName !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.usePoolSniServerName = this._usePoolSniServerName;
-    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -8581,7 +6481,6 @@ export class HealthmonitorSmtpsMonitorSslAttributesOutputReference extends cdktf
       this._serverName = undefined;
       this._sslKeyAndCertificateRef = undefined;
       this._sslProfileRef = undefined;
-      this._usePoolSniServerName = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -8594,7 +6493,6 @@ export class HealthmonitorSmtpsMonitorSslAttributesOutputReference extends cdktf
       this._serverName = value.serverName;
       this._sslKeyAndCertificateRef = value.sslKeyAndCertificateRef;
       this._sslProfileRef = value.sslProfileRef;
-      this._usePoolSniServerName = value.usePoolSniServerName;
     }
   }
 
@@ -8658,22 +6556,6 @@ export class HealthmonitorSmtpsMonitorSslAttributesOutputReference extends cdktf
   public get sslProfileRefInput() {
     return this._sslProfileRef;
   }
-
-  // use_pool_sni_server_name - computed: true, optional: true, required: false
-  private _usePoolSniServerName?: string; 
-  public get usePoolSniServerName() {
-    return this.getStringAttribute('use_pool_sni_server_name');
-  }
-  public set usePoolSniServerName(value: string) {
-    this._usePoolSniServerName = value;
-  }
-  public resetUsePoolSniServerName() {
-    this._usePoolSniServerName = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get usePoolSniServerNameInput() {
-    return this._usePoolSniServerName;
-  }
 }
 
 export class HealthmonitorSmtpsMonitorSslAttributesList extends cdktf.ComplexList {
@@ -8697,25 +6579,25 @@ export class HealthmonitorSmtpsMonitorSslAttributesList extends cdktf.ComplexLis
 }
 export interface HealthmonitorSmtpsMonitor {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#domainname Healthmonitor#domainname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#domainname Healthmonitor#domainname}
   */
   readonly domainname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#mail_data Healthmonitor#mail_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#mail_data Healthmonitor#mail_data}
   */
   readonly mailData?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#recipients_ids Healthmonitor#recipients_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#recipients_ids Healthmonitor#recipients_ids}
   */
   readonly recipientsIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#sender_id Healthmonitor#sender_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#sender_id Healthmonitor#sender_id}
   */
   readonly senderId?: string;
   /**
   * ssl_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#ssl_attributes Healthmonitor#ssl_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ssl_attributes Healthmonitor#ssl_attributes}
   */
   readonly sslAttributes?: HealthmonitorSmtpsMonitorSslAttributes[] | cdktf.IResolvable;
 }
@@ -8947,19 +6829,19 @@ export class HealthmonitorSmtpsMonitorList extends cdktf.ComplexList {
 }
 export interface HealthmonitorTcpMonitor {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#maintenance_response Healthmonitor#maintenance_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#maintenance_response Healthmonitor#maintenance_response}
   */
   readonly maintenanceResponse?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#tcp_half_open Healthmonitor#tcp_half_open}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#tcp_half_open Healthmonitor#tcp_half_open}
   */
   readonly tcpHalfOpen?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#tcp_request Healthmonitor#tcp_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#tcp_request Healthmonitor#tcp_request}
   */
   readonly tcpRequest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#tcp_response Healthmonitor#tcp_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#tcp_response Healthmonitor#tcp_response}
   */
   readonly tcpResponse?: string;
 }
@@ -9162,15 +7044,15 @@ export class HealthmonitorTcpMonitorList extends cdktf.ComplexList {
 }
 export interface HealthmonitorUdpMonitor {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#maintenance_response Healthmonitor#maintenance_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#maintenance_response Healthmonitor#maintenance_response}
   */
   readonly maintenanceResponse?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#udp_request Healthmonitor#udp_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#udp_request Healthmonitor#udp_request}
   */
   readonly udpRequest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#udp_response Healthmonitor#udp_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#udp_response Healthmonitor#udp_response}
   */
   readonly udpResponse?: string;
 }
@@ -9344,7 +7226,7 @@ export class HealthmonitorUdpMonitorList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor avi_healthmonitor}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor avi_healthmonitor}
 */
 export class Healthmonitor extends cdktf.TerraformResource {
 
@@ -9360,7 +7242,7 @@ export class Healthmonitor extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Healthmonitor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Healthmonitor to import
-  * @param importFromId The id of the existing Healthmonitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Healthmonitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Healthmonitor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -9372,7 +7254,7 @@ export class Healthmonitor extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/healthmonitor avi_healthmonitor} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor avi_healthmonitor} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -9383,7 +7265,8 @@ export class Healthmonitor extends cdktf.TerraformResource {
       terraformResourceType: 'avi_healthmonitor',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '31.1.1'
+        providerVersion: '30.2.5',
+        providerVersionConstraint: '30.2.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -9413,8 +7296,6 @@ export class Healthmonitor extends cdktf.TerraformResource {
     this._externalMonitor.internalValue = config.externalMonitor;
     this._ftpMonitor.internalValue = config.ftpMonitor;
     this._ftpsMonitor.internalValue = config.ftpsMonitor;
-    this._http2Monitor.internalValue = config.http2Monitor;
-    this._http2SMonitor.internalValue = config.http2SMonitor;
     this._httpMonitor.internalValue = config.httpMonitor;
     this._httpsMonitor.internalValue = config.httpsMonitor;
     this._imapMonitor.internalValue = config.imapMonitor;
@@ -9751,38 +7632,6 @@ export class Healthmonitor extends cdktf.TerraformResource {
     return this._ftpsMonitor.internalValue;
   }
 
-  // http2_monitor - computed: false, optional: true, required: false
-  private _http2Monitor = new HealthmonitorHttp2MonitorList(this, "http2_monitor", true);
-  public get http2Monitor() {
-    return this._http2Monitor;
-  }
-  public putHttp2Monitor(value: HealthmonitorHttp2Monitor[] | cdktf.IResolvable) {
-    this._http2Monitor.internalValue = value;
-  }
-  public resetHttp2Monitor() {
-    this._http2Monitor.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get http2MonitorInput() {
-    return this._http2Monitor.internalValue;
-  }
-
-  // http2s_monitor - computed: false, optional: true, required: false
-  private _http2SMonitor = new HealthmonitorHttp2SMonitorList(this, "http2s_monitor", true);
-  public get http2SMonitor() {
-    return this._http2SMonitor;
-  }
-  public putHttp2SMonitor(value: HealthmonitorHttp2SMonitor[] | cdktf.IResolvable) {
-    this._http2SMonitor.internalValue = value;
-  }
-  public resetHttp2SMonitor() {
-    this._http2SMonitor.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get http2SMonitorInput() {
-    return this._http2SMonitor.internalValue;
-  }
-
   // http_monitor - computed: false, optional: true, required: false
   private _httpMonitor = new HealthmonitorHttpMonitorList(this, "http_monitor", true);
   public get httpMonitor() {
@@ -10065,8 +7914,6 @@ export class Healthmonitor extends cdktf.TerraformResource {
       external_monitor: cdktf.listMapper(healthmonitorExternalMonitorToTerraform, true)(this._externalMonitor.internalValue),
       ftp_monitor: cdktf.listMapper(healthmonitorFtpMonitorToTerraform, true)(this._ftpMonitor.internalValue),
       ftps_monitor: cdktf.listMapper(healthmonitorFtpsMonitorToTerraform, true)(this._ftpsMonitor.internalValue),
-      http2_monitor: cdktf.listMapper(healthmonitorHttp2MonitorToTerraform, true)(this._http2Monitor.internalValue),
-      http2s_monitor: cdktf.listMapper(healthmonitorHttp2SMonitorToTerraform, true)(this._http2SMonitor.internalValue),
       http_monitor: cdktf.listMapper(healthmonitorHttpMonitorToTerraform, true)(this._httpMonitor.internalValue),
       https_monitor: cdktf.listMapper(healthmonitorHttpsMonitorToTerraform, true)(this._httpsMonitor.internalValue),
       imap_monitor: cdktf.listMapper(healthmonitorImapMonitorToTerraform, true)(this._imapMonitor.internalValue),
@@ -10207,18 +8054,6 @@ export class Healthmonitor extends cdktf.TerraformResource {
         isBlock: true,
         type: "set",
         storageClassType: "HealthmonitorFtpsMonitorList",
-      },
-      http2_monitor: {
-        value: cdktf.listMapperHcl(healthmonitorHttp2MonitorToHclTerraform, true)(this._http2Monitor.internalValue),
-        isBlock: true,
-        type: "set",
-        storageClassType: "HealthmonitorHttp2MonitorList",
-      },
-      http2s_monitor: {
-        value: cdktf.listMapperHcl(healthmonitorHttp2SMonitorToHclTerraform, true)(this._http2SMonitor.internalValue),
-        isBlock: true,
-        type: "set",
-        storageClassType: "HealthmonitorHttp2SMonitorList",
       },
       http_monitor: {
         value: cdktf.listMapperHcl(healthmonitorHttpMonitorToHclTerraform, true)(this._httpMonitor.internalValue),

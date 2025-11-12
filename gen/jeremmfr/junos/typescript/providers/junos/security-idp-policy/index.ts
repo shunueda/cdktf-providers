@@ -2087,7 +2087,8 @@ export class SecurityIdpPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'junos_security_idp_policy',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0'
+        providerVersion: '2.15.0',
+        providerVersionConstraint: '2.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

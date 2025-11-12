@@ -256,7 +256,8 @@ export class SecurityWafSigProfileSubCategoryIdListGroup extends cdktf.Terraform
       terraformResourceType: 'fortiadc_security_waf_sig_profile_sub_category_id_list_group',
       terraformGeneratorMetadata: {
         providerName: 'fortiadc',
-        providerVersion: '1.3.1'
+        providerVersion: '1.3.1',
+        providerVersionConstraint: '1.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

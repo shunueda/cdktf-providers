@@ -412,7 +412,8 @@ export class DataOciFileStorageReplicationTargets extends cdktf.TerraformDataSou
       terraformResourceType: 'oci_file_storage_replication_targets',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

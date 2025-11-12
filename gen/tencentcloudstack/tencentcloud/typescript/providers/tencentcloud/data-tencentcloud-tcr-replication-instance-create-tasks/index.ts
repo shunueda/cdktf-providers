@@ -174,7 +174,8 @@ export class DataTencentcloudTcrReplicationInstanceCreateTasks extends cdktf.Ter
       terraformResourceType: 'tencentcloud_tcr_replication_instance_create_tasks',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -55,7 +55,8 @@ export class MixtoolProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'mixtool',
       terraformGeneratorMetadata: {
         providerName: 'mixtool',
-        providerVersion: '0.2.2'
+        providerVersion: '0.2.2',
+        providerVersionConstraint: '0.2.2'
       },
       terraformProviderSource: 'ovh/mixtool'
     });

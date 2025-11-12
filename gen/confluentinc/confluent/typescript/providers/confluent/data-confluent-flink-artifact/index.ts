@@ -247,7 +247,8 @@ export class DataConfluentFlinkArtifact extends cdktf.TerraformDataSource {
       terraformResourceType: 'confluent_flink_artifact',
       terraformGeneratorMetadata: {
         providerName: 'confluent',
-        providerVersion: '2.51.0'
+        providerVersion: '2.51.0',
+        providerVersionConstraint: '2.51.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

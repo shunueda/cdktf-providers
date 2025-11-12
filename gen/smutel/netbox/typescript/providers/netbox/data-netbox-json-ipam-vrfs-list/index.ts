@@ -215,7 +215,8 @@ export class DataNetboxJsonIpamVrfsList extends cdktf.TerraformDataSource {
       terraformResourceType: 'netbox_json_ipam_vrfs_list',
       terraformGeneratorMetadata: {
         providerName: 'netbox',
-        providerVersion: '8.0.2'
+        providerVersion: '8.0.2',
+        providerVersionConstraint: '8.0.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

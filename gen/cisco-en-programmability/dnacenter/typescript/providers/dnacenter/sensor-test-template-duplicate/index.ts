@@ -1423,7 +1423,8 @@ export class SensorTestTemplateDuplicate extends cdktf.TerraformResource {
       terraformResourceType: 'dnacenter_sensor_test_template_duplicate',
       terraformGeneratorMetadata: {
         providerName: 'dnacenter',
-        providerVersion: '1.1.21'
+        providerVersion: '1.1.21',
+        providerVersionConstraint: '1.1.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -98,7 +98,8 @@ export class GlobalHttpEventCollector extends cdktf.TerraformResource {
       terraformResourceType: 'splunk_global_http_event_collector',
       terraformGeneratorMetadata: {
         providerName: 'splunk',
-        providerVersion: '1.4.32'
+        providerVersion: '1.4.32',
+        providerVersionConstraint: '1.4.32'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

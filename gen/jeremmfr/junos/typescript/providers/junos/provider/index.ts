@@ -187,7 +187,8 @@ export class JunosProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'junos',
       terraformGeneratorMetadata: {
         providerName: 'junos',
-        providerVersion: '2.15.0'
+        providerVersion: '2.15.0',
+        providerVersionConstraint: '2.15.0'
       },
       terraformProviderSource: 'jeremmfr/junos'
     });

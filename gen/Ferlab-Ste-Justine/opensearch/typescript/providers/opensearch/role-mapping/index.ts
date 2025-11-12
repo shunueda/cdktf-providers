@@ -80,7 +80,8 @@ export class RoleMapping extends cdktf.TerraformResource {
       terraformResourceType: 'opensearch_role_mapping',
       terraformGeneratorMetadata: {
         providerName: 'opensearch',
-        providerVersion: '0.1.0'
+        providerVersion: '0.1.0',
+        providerVersionConstraint: '0.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

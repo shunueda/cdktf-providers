@@ -495,7 +495,8 @@ export class SnapshotRepository extends cdktf.TerraformResource {
       terraformResourceType: 'ec_snapshot_repository',
       terraformGeneratorMetadata: {
         providerName: 'ec',
-        providerVersion: '0.12.2'
+        providerVersion: '0.12.2',
+        providerVersionConstraint: '0.12.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/data-sources/fabric_stream_alert_rule
+// https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/fabric_stream_alert_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataEquinixFabricStreamAlertRuleConfig extends cdktf.TerraformM
   /**
   * The uuid of the stream alert rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/data-sources/fabric_stream_alert_rule#alert_rule_id DataEquinixFabricStreamAlertRule#alert_rule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/fabric_stream_alert_rule#alert_rule_id DataEquinixFabricStreamAlertRule#alert_rule_id}
   */
   readonly alertRuleId: string;
   /**
   * Detection method for stream alert rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/data-sources/fabric_stream_alert_rule#detection_method DataEquinixFabricStreamAlertRule#detection_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/fabric_stream_alert_rule#detection_method DataEquinixFabricStreamAlertRule#detection_method}
   */
   readonly detectionMethod?: DataEquinixFabricStreamAlertRuleDetectionMethod;
   /**
   * Metric selector for the stream alert rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/data-sources/fabric_stream_alert_rule#metric_selector DataEquinixFabricStreamAlertRule#metric_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/fabric_stream_alert_rule#metric_selector DataEquinixFabricStreamAlertRule#metric_selector}
   */
   readonly metricSelector?: DataEquinixFabricStreamAlertRuleMetricSelector;
   /**
   * The uuid of the stream that is the target of the stream alert rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/data-sources/fabric_stream_alert_rule#stream_id DataEquinixFabricStreamAlertRule#stream_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/fabric_stream_alert_rule#stream_id DataEquinixFabricStreamAlertRule#stream_id}
   */
   readonly streamId: string;
 }
@@ -145,31 +145,31 @@ export interface DataEquinixFabricStreamAlertRuleDetectionMethod {
   /**
   * Stream alert rule metric critical threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/data-sources/fabric_stream_alert_rule#critical_threshold DataEquinixFabricStreamAlertRule#critical_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/fabric_stream_alert_rule#critical_threshold DataEquinixFabricStreamAlertRule#critical_threshold}
   */
   readonly criticalThreshold?: string;
   /**
   * Stream alert rule metric operand
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/data-sources/fabric_stream_alert_rule#operand DataEquinixFabricStreamAlertRule#operand}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/fabric_stream_alert_rule#operand DataEquinixFabricStreamAlertRule#operand}
   */
   readonly operand?: string;
   /**
   * Stream Alert Rule detection method type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/data-sources/fabric_stream_alert_rule#type DataEquinixFabricStreamAlertRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/fabric_stream_alert_rule#type DataEquinixFabricStreamAlertRule#type}
   */
   readonly type: string;
   /**
   * Stream alert rule metric warning threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/data-sources/fabric_stream_alert_rule#warning_threshold DataEquinixFabricStreamAlertRule#warning_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/fabric_stream_alert_rule#warning_threshold DataEquinixFabricStreamAlertRule#warning_threshold}
   */
   readonly warningThreshold?: string;
   /**
   * Stream alert rule metric window size
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/data-sources/fabric_stream_alert_rule#window_size DataEquinixFabricStreamAlertRule#window_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/fabric_stream_alert_rule#window_size DataEquinixFabricStreamAlertRule#window_size}
   */
   readonly windowSize?: string;
 }
@@ -378,7 +378,7 @@ export interface DataEquinixFabricStreamAlertRuleMetricSelector {
   /**
   * List of metrics to include
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/data-sources/fabric_stream_alert_rule#include DataEquinixFabricStreamAlertRule#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/fabric_stream_alert_rule#include DataEquinixFabricStreamAlertRule#include}
   */
   readonly include: string[];
 }
@@ -523,7 +523,7 @@ export class DataEquinixFabricStreamAlertRuleResourceSelectorOutputReference ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/data-sources/fabric_stream_alert_rule equinix_fabric_stream_alert_rule}
+* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/fabric_stream_alert_rule equinix_fabric_stream_alert_rule}
 */
 export class DataEquinixFabricStreamAlertRule extends cdktf.TerraformDataSource {
 
@@ -539,7 +539,7 @@ export class DataEquinixFabricStreamAlertRule extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataEquinixFabricStreamAlertRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataEquinixFabricStreamAlertRule to import
-  * @param importFromId The id of the existing DataEquinixFabricStreamAlertRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/data-sources/fabric_stream_alert_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataEquinixFabricStreamAlertRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/fabric_stream_alert_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataEquinixFabricStreamAlertRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -551,7 +551,7 @@ export class DataEquinixFabricStreamAlertRule extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/data-sources/fabric_stream_alert_rule equinix_fabric_stream_alert_rule} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/data-sources/fabric_stream_alert_rule equinix_fabric_stream_alert_rule} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -562,7 +562,8 @@ export class DataEquinixFabricStreamAlertRule extends cdktf.TerraformDataSource 
       terraformResourceType: 'equinix_fabric_stream_alert_rule',
       terraformGeneratorMetadata: {
         providerName: 'equinix',
-        providerVersion: '4.8.0'
+        providerVersion: '4.10.0',
+        providerVersionConstraint: '4.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

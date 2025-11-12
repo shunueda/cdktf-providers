@@ -73,7 +73,8 @@ export class DataKaleidoPrivatestackBridge extends cdktf.TerraformDataSource {
       terraformResourceType: 'kaleido_privatestack_bridge',
       terraformGeneratorMetadata: {
         providerName: 'kaleido',
-        providerVersion: '1.1.2'
+        providerVersion: '1.1.2',
+        providerVersionConstraint: '1.1.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

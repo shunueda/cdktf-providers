@@ -92,7 +92,8 @@ export class Grant extends cdktf.TerraformResource {
       terraformResourceType: 'mysql_grant',
       terraformGeneratorMetadata: {
         providerName: 'mysql',
-        providerVersion: '1.2.1'
+        providerVersion: '1.2.1',
+        providerVersionConstraint: '1.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

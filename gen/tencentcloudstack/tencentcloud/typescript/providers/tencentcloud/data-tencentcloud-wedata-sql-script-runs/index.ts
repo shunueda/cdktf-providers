@@ -410,7 +410,8 @@ export class DataTencentcloudWedataSqlScriptRuns extends cdktf.TerraformDataSour
       terraformResourceType: 'tencentcloud_wedata_sql_script_runs',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

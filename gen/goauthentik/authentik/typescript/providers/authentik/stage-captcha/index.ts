@@ -104,7 +104,8 @@ export class StageCaptcha extends cdktf.TerraformResource {
       terraformResourceType: 'authentik_stage_captcha',
       terraformGeneratorMetadata: {
         providerName: 'authentik',
-        providerVersion: '2025.10.0'
+        providerVersion: '2025.10.0',
+        providerVersionConstraint: '2025.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

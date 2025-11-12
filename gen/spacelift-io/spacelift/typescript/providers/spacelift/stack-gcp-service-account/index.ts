@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/stack_gcp_service_account
+// https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/stack_gcp_service_account
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface StackGcpServiceAccountConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/stack_gcp_service_account#id StackGcpServiceAccount#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/stack_gcp_service_account#id StackGcpServiceAccount#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface StackGcpServiceAccountConfig extends cdktf.TerraformMetaArgumen
   /**
   * ID of the module which uses GCP service account credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/stack_gcp_service_account#module_id StackGcpServiceAccount#module_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/stack_gcp_service_account#module_id StackGcpServiceAccount#module_id}
   */
   readonly moduleId?: string;
   /**
   * ID of the stack which uses GCP service account credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/stack_gcp_service_account#stack_id StackGcpServiceAccount#stack_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/stack_gcp_service_account#stack_id StackGcpServiceAccount#stack_id}
   */
   readonly stackId?: string;
   /**
   * List of scopes that will be requested when generating temporary GCP service account credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/stack_gcp_service_account#token_scopes StackGcpServiceAccount#token_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/stack_gcp_service_account#token_scopes StackGcpServiceAccount#token_scopes}
   */
   readonly tokenScopes: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/stack_gcp_service_account spacelift_stack_gcp_service_account}
+* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/stack_gcp_service_account spacelift_stack_gcp_service_account}
 */
 export class StackGcpServiceAccount extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class StackGcpServiceAccount extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a StackGcpServiceAccount resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the StackGcpServiceAccount to import
-  * @param importFromId The id of the existing StackGcpServiceAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/stack_gcp_service_account#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing StackGcpServiceAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/stack_gcp_service_account#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the StackGcpServiceAccount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class StackGcpServiceAccount extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.36.0/docs/resources/stack_gcp_service_account spacelift_stack_gcp_service_account} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.37.0/docs/resources/stack_gcp_service_account spacelift_stack_gcp_service_account} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,7 +74,8 @@ export class StackGcpServiceAccount extends cdktf.TerraformResource {
       terraformResourceType: 'spacelift_stack_gcp_service_account',
       terraformGeneratorMetadata: {
         providerName: 'spacelift',
-        providerVersion: '1.36.0'
+        providerVersion: '1.37.0',
+        providerVersionConstraint: '1.37.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -73,7 +73,8 @@ export class ProdvanaProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'prodvana',
       terraformGeneratorMetadata: {
         providerName: 'prodvana',
-        providerVersion: '0.1.25'
+        providerVersion: '0.1.25',
+        providerVersionConstraint: '0.1.25'
       },
       terraformProviderSource: 'prodvana/prodvana'
     });

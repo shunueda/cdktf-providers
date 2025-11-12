@@ -277,7 +277,8 @@ export class S3Source extends cdktf.TerraformResource {
       terraformResourceType: 'panther_s3_source',
       terraformGeneratorMetadata: {
         providerName: 'panther',
-        providerVersion: '0.2.7'
+        providerVersion: '0.2.7',
+        providerVersionConstraint: '0.2.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

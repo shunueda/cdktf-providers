@@ -225,7 +225,8 @@ export class DataAwsVpnGateway extends cdktf.TerraformDataSource {
       terraformResourceType: 'aws_vpn_gateway',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '3.29.6'
+        providerVersion: '3.29.6',
+        providerVersionConstraint: '3.29.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

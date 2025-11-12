@@ -72,7 +72,8 @@ export class ProjectUserPermission extends cdktf.TerraformResource {
       terraformResourceType: 'bitbucket_project_user_permission',
       terraformGeneratorMetadata: {
         providerName: 'bitbucket',
-        providerVersion: '2.50.0'
+        providerVersion: '2.50.0',
+        providerVersionConstraint: '2.50.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -70,7 +70,8 @@ export class DataSpectrocloudCloudaccountOpenstack extends cdktf.TerraformDataSo
       terraformResourceType: 'spectrocloud_cloudaccount_openstack',
       terraformGeneratorMetadata: {
         providerName: 'spectrocloud',
-        providerVersion: '0.25.2'
+        providerVersion: '0.25.2',
+        providerVersionConstraint: '0.25.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -258,7 +258,8 @@ export class GpdbRemoteAdbDataSource extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_gpdb_remote_adb_data_source',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

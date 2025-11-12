@@ -7420,7 +7420,8 @@ export class DataK8SBeegfsCsiNetappComBeegfsDriverV1Manifest extends cdktf.Terra
       terraformResourceType: 'k8s_beegfs_csi_netapp_com_beegfs_driver_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

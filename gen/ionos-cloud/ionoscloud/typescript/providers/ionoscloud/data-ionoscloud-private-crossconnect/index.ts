@@ -443,7 +443,8 @@ export class DataIonoscloudPrivateCrossconnect extends cdktf.TerraformDataSource
       terraformResourceType: 'ionoscloud_private_crossconnect',
       terraformGeneratorMetadata: {
         providerName: 'ionoscloud',
-        providerVersion: '6.7.20'
+        providerVersion: '6.7.20',
+        providerVersionConstraint: '6.7.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

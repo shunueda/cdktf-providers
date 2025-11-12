@@ -68,7 +68,8 @@ export class ServiceAccount extends cdktf.TerraformResource {
       terraformResourceType: 'confluentcloud_service_account',
       terraformGeneratorMetadata: {
         providerName: 'confluentcloud',
-        providerVersion: '0.0.15'
+        providerVersion: '0.0.15',
+        providerVersionConstraint: '0.0.15'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

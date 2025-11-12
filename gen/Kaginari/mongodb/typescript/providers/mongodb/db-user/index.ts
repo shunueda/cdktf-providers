@@ -220,7 +220,8 @@ export class DbUser extends cdktf.TerraformResource {
       terraformResourceType: 'mongodb_db_user',
       terraformGeneratorMetadata: {
         providerName: 'mongodb',
-        providerVersion: '0.1.7'
+        providerVersion: '0.1.7',
+        providerVersionConstraint: '0.1.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

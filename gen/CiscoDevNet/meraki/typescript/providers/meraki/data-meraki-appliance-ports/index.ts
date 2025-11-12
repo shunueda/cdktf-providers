@@ -165,7 +165,8 @@ export class DataMerakiAppliancePorts extends cdktf.TerraformDataSource {
       terraformResourceType: 'meraki_appliance_ports',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1'
+        providerVersion: '1.7.1',
+        providerVersionConstraint: '1.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

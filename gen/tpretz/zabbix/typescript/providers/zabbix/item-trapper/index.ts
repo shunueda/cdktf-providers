@@ -481,7 +481,8 @@ export class ItemTrapper extends cdktf.TerraformResource {
       terraformResourceType: 'zabbix_item_trapper',
       terraformGeneratorMetadata: {
         providerName: 'zabbix',
-        providerVersion: '0.17.0'
+        providerVersion: '0.17.0',
+        providerVersionConstraint: '0.17.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

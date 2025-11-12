@@ -76,7 +76,8 @@ export class AssignGroup extends cdktf.TerraformResource {
       terraformResourceType: 'oktaasa_assign_group',
       terraformGeneratorMetadata: {
         providerName: 'oktaasa',
-        providerVersion: '1.0.1'
+        providerVersion: '1.0.1',
+        providerVersionConstraint: '1.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

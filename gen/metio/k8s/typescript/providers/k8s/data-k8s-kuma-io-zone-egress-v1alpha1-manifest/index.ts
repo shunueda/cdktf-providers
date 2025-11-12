@@ -262,7 +262,8 @@ export class DataK8SKumaIoZoneEgressV1Alpha1Manifest extends cdktf.TerraformData
       terraformResourceType: 'k8s_kuma_io_zone_egress_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

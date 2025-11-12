@@ -68,7 +68,8 @@ export class Ipv6UnnumberedUseSourceIpv6A extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_ipv6_unnumbered_use_source_ipv6',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

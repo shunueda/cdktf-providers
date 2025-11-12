@@ -151,7 +151,8 @@ export class VcfaProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'vcfa',
       terraformGeneratorMetadata: {
         providerName: 'vcfa',
-        providerVersion: '1.0.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       terraformProviderSource: 'vmware/vcfa'
     });

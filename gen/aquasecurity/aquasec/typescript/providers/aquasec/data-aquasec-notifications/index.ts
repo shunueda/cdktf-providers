@@ -805,7 +805,8 @@ export class DataAquasecNotifications extends cdktf.TerraformDataSource {
       terraformResourceType: 'aquasec_notifications',
       terraformGeneratorMetadata: {
         providerName: 'aquasec',
-        providerVersion: '0.11.0'
+        providerVersion: '0.11.0',
+        providerVersionConstraint: '0.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

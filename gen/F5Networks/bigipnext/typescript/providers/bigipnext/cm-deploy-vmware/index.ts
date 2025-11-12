@@ -1184,7 +1184,8 @@ export class CmDeployVmware extends cdktf.TerraformResource {
       terraformResourceType: 'bigipnext_cm_deploy_vmware',
       terraformGeneratorMetadata: {
         providerName: 'bigipnext',
-        providerVersion: '1.4.0'
+        providerVersion: '1.4.0',
+        providerVersionConstraint: '1.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

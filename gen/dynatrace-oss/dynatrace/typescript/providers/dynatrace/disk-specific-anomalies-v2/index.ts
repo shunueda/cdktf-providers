@@ -806,7 +806,8 @@ export class DiskSpecificAnomaliesV2 extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_disk_specific_anomalies_v2',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1'
+        providerVersion: '1.87.1',
+        providerVersionConstraint: '1.87.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

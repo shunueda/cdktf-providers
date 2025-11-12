@@ -62,7 +62,8 @@ export class OneagentDefaultMode extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_oneagent_default_mode',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.87.1'
+        providerVersion: '1.87.1',
+        providerVersionConstraint: '1.87.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

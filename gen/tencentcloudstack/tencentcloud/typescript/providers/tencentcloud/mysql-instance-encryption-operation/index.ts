@@ -74,7 +74,8 @@ export class MysqlInstanceEncryptionOperation extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_mysql_instance_encryption_operation',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

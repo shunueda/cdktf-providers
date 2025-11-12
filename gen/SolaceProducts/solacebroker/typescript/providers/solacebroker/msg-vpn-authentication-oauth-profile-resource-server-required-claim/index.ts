@@ -81,7 +81,8 @@ export class MsgVpnAuthenticationOauthProfileResourceServerRequiredClaim extends
       terraformResourceType: 'solacebroker_msg_vpn_authentication_oauth_profile_resource_server_required_claim',
       terraformGeneratorMetadata: {
         providerName: 'solacebroker',
-        providerVersion: '1.2.0'
+        providerVersion: '1.2.0',
+        providerVersionConstraint: '1.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

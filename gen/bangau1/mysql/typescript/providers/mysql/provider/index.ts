@@ -91,7 +91,8 @@ export class MysqlProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'mysql',
       terraformGeneratorMetadata: {
         providerName: 'mysql',
-        providerVersion: '1.10.4'
+        providerVersion: '1.10.4',
+        providerVersionConstraint: '1.10.4'
       },
       terraformProviderSource: 'bangau1/mysql'
     });

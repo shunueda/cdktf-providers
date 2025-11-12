@@ -208,7 +208,8 @@ export class LyvecloudProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'lyvecloud',
       terraformGeneratorMetadata: {
         providerName: 'lyvecloud',
-        providerVersion: '0.2.2'
+        providerVersion: '0.2.2',
+        providerVersionConstraint: '0.2.2'
       },
       terraformProviderSource: 'Seagate/lyvecloud'
     });

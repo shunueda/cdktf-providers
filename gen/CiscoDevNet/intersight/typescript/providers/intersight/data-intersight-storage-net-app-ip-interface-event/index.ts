@@ -4173,7 +4173,8 @@ export class DataIntersightStorageNetAppIpInterfaceEvent extends cdktf.Terraform
       terraformResourceType: 'intersight_storage_net_app_ip_interface_event',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

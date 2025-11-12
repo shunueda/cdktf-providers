@@ -2051,7 +2051,8 @@ export class DataBackstageApi extends cdktf.TerraformDataSource {
       terraformResourceType: 'backstage_api',
       terraformGeneratorMetadata: {
         providerName: 'backstage',
-        providerVersion: '3.3.0'
+        providerVersion: '3.3.0',
+        providerVersionConstraint: '3.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

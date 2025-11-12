@@ -138,7 +138,8 @@ export class DataIseLicenseTierState extends cdktf.TerraformDataSource {
       terraformResourceType: 'ise_license_tier_state',
       terraformGeneratorMetadata: {
         providerName: 'ise',
-        providerVersion: '0.2.12'
+        providerVersion: '0.2.12',
+        providerVersionConstraint: '0.2.12'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -106,7 +106,8 @@ export class DevicePowerOutlet extends cdktf.TerraformResource {
       terraformResourceType: 'netbox_device_power_outlet',
       terraformGeneratorMetadata: {
         providerName: 'netbox',
-        providerVersion: '5.0.0'
+        providerVersion: '5.0.0',
+        providerVersionConstraint: '5.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

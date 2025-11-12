@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/cts
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/cts
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,105 +10,105 @@ export interface CtsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Local authorization list to use for CTS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/cts#authorization_list Cts#authorization_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/cts#authorization_list Cts#authorization_list}
   */
   readonly authorizationList?: string;
   /**
   * Configure behavior when deleting/destroying the resource. Either delete the entire object (YANG container) being managed, or only delete the individual resource attributes configured explicitly and leave everything else as-is. Default value is `all`.
   *   - Choices: `all`, `attributes`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/cts#delete_mode Cts#delete_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/cts#delete_mode Cts#delete_mode}
   */
   readonly deleteMode?: string;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/cts#device Cts#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/cts#device Cts#device}
   */
   readonly device?: string;
   /**
   * Enable Role-based Access Control enforcement
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/cts#role_based_enforcement Cts#role_based_enforcement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/cts#role_based_enforcement Cts#role_based_enforcement}
   */
   readonly roleBasedEnforcement?: boolean | cdktf.IResolvable;
   /**
   * Configure sgacl logging interval
   *   - Range: `5`-`86400`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/cts#role_based_enforcement_logging_interval Cts#role_based_enforcement_logging_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/cts#role_based_enforcement_logging_interval Cts#role_based_enforcement_logging_interval}
   */
   readonly roleBasedEnforcementLoggingInterval?: number;
   /**
   * VLANs on which Role-based ACLs are enforced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/cts#role_based_enforcement_vlan_lists Cts#role_based_enforcement_vlan_lists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/cts#role_based_enforcement_vlan_lists Cts#role_based_enforcement_vlan_lists}
   */
   readonly roleBasedEnforcementVlanLists?: number[];
   /**
   * Role-based Access-list name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/cts#role_based_permissions_default_acl_name Cts#role_based_permissions_default_acl_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/cts#role_based_permissions_default_acl_name Cts#role_based_permissions_default_acl_name}
   */
   readonly roleBasedPermissionsDefaultAclName?: string[];
   /**
   * Local device security group
   *   - Range: `2`-`65519`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/cts#sgt Cts#sgt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/cts#sgt Cts#sgt}
   */
   readonly sgt?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/cts#sxp_connection_peers_ipv4 Cts#sxp_connection_peers_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/cts#sxp_connection_peers_ipv4 Cts#sxp_connection_peers_ipv4}
   */
   readonly sxpConnectionPeersIpv4?: CtsSxpConnectionPeersIpv4[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/cts#sxp_connection_peers_ipv4_vrf Cts#sxp_connection_peers_ipv4_vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/cts#sxp_connection_peers_ipv4_vrf Cts#sxp_connection_peers_ipv4_vrf}
   */
   readonly sxpConnectionPeersIpv4Vrf?: CtsSxpConnectionPeersIpv4Vrf[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/cts#sxp_default_password Cts#sxp_default_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/cts#sxp_default_password Cts#sxp_default_password}
   */
   readonly sxpDefaultPassword?: string;
   /**
   * 
   *   - Choices: `0`, `6`, `7`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/cts#sxp_default_password_type Cts#sxp_default_password_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/cts#sxp_default_password_type Cts#sxp_default_password_type}
   */
   readonly sxpDefaultPasswordType?: string;
   /**
   * Enable CTS SXP support
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/cts#sxp_enable Cts#sxp_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/cts#sxp_enable Cts#sxp_enable}
   */
   readonly sxpEnable?: boolean | cdktf.IResolvable;
   /**
   * Enter maximum allowed Hold Time in seconds
   *   - Range: `1`-`65534`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/cts#sxp_listener_hold_max_time Cts#sxp_listener_hold_max_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/cts#sxp_listener_hold_max_time Cts#sxp_listener_hold_max_time}
   */
   readonly sxpListenerHoldMaxTime?: number;
   /**
   * Enter minimum allowed Hold Time in seconds
   *   - Range: `1`-`65534`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/cts#sxp_listener_hold_min_time Cts#sxp_listener_hold_min_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/cts#sxp_listener_hold_min_time Cts#sxp_listener_hold_min_time}
   */
   readonly sxpListenerHoldMinTime?: number;
   /**
   * Enter retry period value for sxp connection in seconds
   *   - Range: `0`-`64000`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/cts#sxp_retry_period Cts#sxp_retry_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/cts#sxp_retry_period Cts#sxp_retry_period}
   */
   readonly sxpRetryPeriod?: number;
   /**
   * Enter speaker hold-time value in seconds
   *   - Range: `1`-`65534`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/cts#sxp_speaker_hold_time Cts#sxp_speaker_hold_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/cts#sxp_speaker_hold_time Cts#sxp_speaker_hold_time}
   */
   readonly sxpSpeakerHoldTime?: number;
 }
@@ -117,47 +117,47 @@ export interface CtsSxpConnectionPeersIpv4 {
   * Mode of connection
   *   - Choices: `local`, `peer`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/cts#connection_mode Cts#connection_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/cts#connection_mode Cts#connection_mode}
   */
   readonly connectionMode?: string;
   /**
   * Minimum hold time period
   *   - Range: `0`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/cts#hold_time Cts#hold_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/cts#hold_time Cts#hold_time}
   */
   readonly holdTime?: number;
   /**
   * Enter SXP Peer IP address (IPv4)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/cts#ip Cts#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/cts#ip Cts#ip}
   */
   readonly ip: string;
   /**
   * Maximum hold time period
   *   - Range: `0`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/cts#max_time Cts#max_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/cts#max_time Cts#max_time}
   */
   readonly maxTime?: number;
   /**
   * Role of a device speaker/listener/both
   *   - Choices: `both`, `listener`, `speaker`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/cts#option Cts#option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/cts#option Cts#option}
   */
   readonly option?: string;
   /**
   * Password type
   *   - Choices: `default`, `key-chain`, `none`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/cts#password Cts#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/cts#password Cts#password}
   */
   readonly password?: string;
   /**
   * Enter SXP Source IP address (IPv4)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/cts#source_ip Cts#source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/cts#source_ip Cts#source_ip}
   */
   readonly sourceIp?: string;
 }
@@ -447,53 +447,53 @@ export interface CtsSxpConnectionPeersIpv4Vrf {
   * Mode of connection
   *   - Choices: `local`, `peer`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/cts#connection_mode Cts#connection_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/cts#connection_mode Cts#connection_mode}
   */
   readonly connectionMode?: string;
   /**
   * Minimum hold time period
   *   - Range: `0`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/cts#hold_time Cts#hold_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/cts#hold_time Cts#hold_time}
   */
   readonly holdTime?: number;
   /**
   * Enter SXP Peer IP address (IPv4)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/cts#ip Cts#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/cts#ip Cts#ip}
   */
   readonly ip: string;
   /**
   * Maximum hold time period
   *   - Range: `0`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/cts#max_time Cts#max_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/cts#max_time Cts#max_time}
   */
   readonly maxTime?: number;
   /**
   * Role of a device speaker/listener/both
   *   - Choices: `both`, `listener`, `speaker`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/cts#option Cts#option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/cts#option Cts#option}
   */
   readonly option?: string;
   /**
   * Password type
   *   - Choices: `default`, `key-chain`, `none`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/cts#password Cts#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/cts#password Cts#password}
   */
   readonly password?: string;
   /**
   * Enter SXP Source IP address (IPv4)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/cts#source_ip Cts#source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/cts#source_ip Cts#source_ip}
   */
   readonly sourceIp?: string;
   /**
   * VRF details
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/cts#vrf Cts#vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/cts#vrf Cts#vrf}
   */
   readonly vrf: string;
 }
@@ -806,7 +806,7 @@ export class CtsSxpConnectionPeersIpv4VrfList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/cts iosxe_cts}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/cts iosxe_cts}
 */
 export class Cts extends cdktf.TerraformResource {
 
@@ -822,7 +822,7 @@ export class Cts extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Cts resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cts to import
-  * @param importFromId The id of the existing Cts that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/cts#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cts that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/cts#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cts to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -834,7 +834,7 @@ export class Cts extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/cts iosxe_cts} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/cts iosxe_cts} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -845,7 +845,8 @@ export class Cts extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_cts',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.9.3'
+        providerVersion: '0.10.0',
+        providerVersionConstraint: '0.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

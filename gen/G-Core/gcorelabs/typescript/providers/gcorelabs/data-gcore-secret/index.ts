@@ -76,7 +76,8 @@ export class DataGcoreSecret extends cdktf.TerraformDataSource {
       terraformResourceType: 'gcore_secret',
       terraformGeneratorMetadata: {
         providerName: 'gcorelabs',
-        providerVersion: '0.3.63'
+        providerVersion: '0.3.63',
+        providerVersionConstraint: '0.3.63'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -878,7 +878,8 @@ export class DataK8SDocumentdbServicesK8SAwsDbSubnetGroupV1Alpha1Manifest extend
       terraformResourceType: 'k8s_documentdb_services_k8s_aws_db_subnet_group_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

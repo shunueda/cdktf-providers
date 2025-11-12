@@ -5097,7 +5097,8 @@ export class DataIntersightConvergedinfraStorageComplianceDetails extends cdktf.
       terraformResourceType: 'intersight_convergedinfra_storage_compliance_details',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/data-sources/logging
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/data-sources/logging
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataIosxeLoggingConfig extends cdktf.TerraformMetaArguments {
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/data-sources/logging#device DataIosxeLogging#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/data-sources/logging#device DataIosxeLogging#device}
   */
   readonly device?: string;
 }
@@ -1708,7 +1708,7 @@ export class DataIosxeLoggingSourceInterfacesVrfList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/data-sources/logging iosxe_logging}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/data-sources/logging iosxe_logging}
 */
 export class DataIosxeLogging extends cdktf.TerraformDataSource {
 
@@ -1724,7 +1724,7 @@ export class DataIosxeLogging extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIosxeLogging resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIosxeLogging to import
-  * @param importFromId The id of the existing DataIosxeLogging that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/data-sources/logging#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIosxeLogging that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/data-sources/logging#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIosxeLogging to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1736,7 +1736,7 @@ export class DataIosxeLogging extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/data-sources/logging iosxe_logging} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/data-sources/logging iosxe_logging} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1747,7 +1747,8 @@ export class DataIosxeLogging extends cdktf.TerraformDataSource {
       terraformResourceType: 'iosxe_logging',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.9.3'
+        providerVersion: '0.10.0',
+        providerVersionConstraint: '0.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1888,6 +1889,11 @@ export class DataIosxeLogging extends cdktf.TerraformDataSource {
     return this._ipv6VrfHostsTransport;
   }
 
+  // logging_count - computed: true, optional: false, required: false
+  public get loggingCount() {
+    return this.getBooleanAttribute('logging_count');
+  }
+
   // monitor_severity - computed: true, optional: false, required: false
   public get monitorSeverity() {
     return this.getStringAttribute('monitor_severity');
@@ -1901,6 +1907,76 @@ export class DataIosxeLogging extends cdktf.TerraformDataSource {
   // origin_id_type - computed: true, optional: false, required: false
   public get originIdType() {
     return this.getStringAttribute('origin_id_type');
+  }
+
+  // persistent_batch - computed: true, optional: false, required: false
+  public get persistentBatch() {
+    return this.getNumberAttribute('persistent_batch');
+  }
+
+  // persistent_filesize - computed: true, optional: false, required: false
+  public get persistentFilesize() {
+    return this.getNumberAttribute('persistent_filesize');
+  }
+
+  // persistent_immediate - computed: true, optional: false, required: false
+  public get persistentImmediate() {
+    return this.getBooleanAttribute('persistent_immediate');
+  }
+
+  // persistent_notify - computed: true, optional: false, required: false
+  public get persistentNotify() {
+    return this.getBooleanAttribute('persistent_notify');
+  }
+
+  // persistent_protected - computed: true, optional: false, required: false
+  public get persistentProtected() {
+    return this.getBooleanAttribute('persistent_protected');
+  }
+
+  // persistent_size - computed: true, optional: false, required: false
+  public get persistentSize() {
+    return this.getNumberAttribute('persistent_size');
+  }
+
+  // persistent_threshold - computed: true, optional: false, required: false
+  public get persistentThreshold() {
+    return this.getNumberAttribute('persistent_threshold');
+  }
+
+  // persistent_url - computed: true, optional: false, required: false
+  public get persistentUrl() {
+    return this.getStringAttribute('persistent_url');
+  }
+
+  // rate_limit_all - computed: true, optional: false, required: false
+  public get rateLimitAll() {
+    return this.getNumberAttribute('rate_limit_all');
+  }
+
+  // rate_limit_all_except_severity - computed: true, optional: false, required: false
+  public get rateLimitAllExceptSeverity() {
+    return this.getStringAttribute('rate_limit_all_except_severity');
+  }
+
+  // rate_limit_console - computed: true, optional: false, required: false
+  public get rateLimitConsole() {
+    return this.getNumberAttribute('rate_limit_console');
+  }
+
+  // rate_limit_console_all - computed: true, optional: false, required: false
+  public get rateLimitConsoleAll() {
+    return this.getNumberAttribute('rate_limit_console_all');
+  }
+
+  // rate_limit_console_all_except_severity - computed: true, optional: false, required: false
+  public get rateLimitConsoleAllExceptSeverity() {
+    return this.getStringAttribute('rate_limit_console_all_except_severity');
+  }
+
+  // rate_limit_console_except_severity - computed: true, optional: false, required: false
+  public get rateLimitConsoleExceptSeverity() {
+    return this.getStringAttribute('rate_limit_console_except_severity');
   }
 
   // source_interface - computed: true, optional: false, required: false

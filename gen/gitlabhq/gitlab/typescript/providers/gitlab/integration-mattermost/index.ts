@@ -194,7 +194,8 @@ export class IntegrationMattermost extends cdktf.TerraformResource {
       terraformResourceType: 'gitlab_integration_mattermost',
       terraformGeneratorMetadata: {
         providerName: 'gitlab',
-        providerVersion: '18.5.0'
+        providerVersion: '18.5.0',
+        providerVersionConstraint: '18.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -67,7 +67,8 @@ export class PantherProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'panther',
       terraformGeneratorMetadata: {
         providerName: 'panther',
-        providerVersion: '0.2.7'
+        providerVersion: '0.2.7',
+        providerVersionConstraint: '0.2.7'
       },
       terraformProviderSource: 'panther-labs/panther'
     });

@@ -538,7 +538,8 @@ export class DataAhPrivateNetworks extends cdktf.TerraformDataSource {
       terraformResourceType: 'ah_private_networks',
       terraformGeneratorMetadata: {
         providerName: 'ah',
-        providerVersion: '0.3.6'
+        providerVersion: '0.3.6',
+        providerVersionConstraint: '0.3.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

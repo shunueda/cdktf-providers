@@ -73,7 +73,8 @@ export class OpslevelProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'opslevel',
       terraformGeneratorMetadata: {
         providerName: 'opslevel',
-        providerVersion: '1.6.3'
+        providerVersion: '1.6.3',
+        providerVersionConstraint: '1.6.3'
       },
       terraformProviderSource: 'OpsLevel/opslevel'
     });

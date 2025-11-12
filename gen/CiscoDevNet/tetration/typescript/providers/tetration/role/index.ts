@@ -93,7 +93,8 @@ export class Role extends cdktf.TerraformResource {
       terraformResourceType: 'tetration_role',
       terraformGeneratorMetadata: {
         providerName: 'tetration',
-        providerVersion: '0.1.1'
+        providerVersion: '0.1.1',
+        providerVersionConstraint: '0.1.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -55,7 +55,8 @@ export class DataRadarrImportListExclusion extends cdktf.TerraformDataSource {
       terraformResourceType: 'radarr_import_list_exclusion',
       terraformGeneratorMetadata: {
         providerName: 'radarr',
-        providerVersion: '2.3.3'
+        providerVersion: '2.3.3',
+        providerVersionConstraint: '2.3.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

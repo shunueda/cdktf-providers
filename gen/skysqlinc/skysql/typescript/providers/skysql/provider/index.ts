@@ -65,7 +65,8 @@ export class SkysqlProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'skysql',
       terraformGeneratorMetadata: {
         providerName: 'skysql',
-        providerVersion: '3.2.0'
+        providerVersion: '3.2.0',
+        providerVersionConstraint: '3.2.0'
       },
       terraformProviderSource: 'skysqlinc/skysql'
     });

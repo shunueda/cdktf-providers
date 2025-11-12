@@ -80,7 +80,8 @@ export class LogDiskFilterFreestyle extends cdktf.TerraformResource {
       terraformResourceType: 'fmgdevice_log_disk_filter_freestyle',
       terraformGeneratorMetadata: {
         providerName: 'fmgdevice',
-        providerVersion: '1.2.1'
+        providerVersion: '1.2.1',
+        providerVersionConstraint: '1.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

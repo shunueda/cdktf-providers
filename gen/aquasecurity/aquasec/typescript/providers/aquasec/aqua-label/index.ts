@@ -68,7 +68,8 @@ export class AquaLabel extends cdktf.TerraformResource {
       terraformResourceType: 'aquasec_aqua_label',
       terraformGeneratorMetadata: {
         providerName: 'aquasec',
-        providerVersion: '0.11.0'
+        providerVersion: '0.11.0',
+        providerVersionConstraint: '0.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

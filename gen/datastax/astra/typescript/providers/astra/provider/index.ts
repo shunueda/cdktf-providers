@@ -79,7 +79,8 @@ export class AstraProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'astra',
       terraformGeneratorMetadata: {
         providerName: 'astra',
-        providerVersion: '2.3.18'
+        providerVersion: '2.3.18',
+        providerVersionConstraint: '2.3.18'
       },
       terraformProviderSource: 'datastax/astra'
     });

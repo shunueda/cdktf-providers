@@ -104,7 +104,8 @@ export class AcosEventsLogParameterizationMessageSelectorRule extends cdktf.Terr
       terraformResourceType: 'thunder_acos_events_log_parameterization_message_selector_rule',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

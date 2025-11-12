@@ -252,7 +252,8 @@ export class Workbook extends cdktf.TerraformResource {
       terraformResourceType: 'doublecloud_workbook',
       terraformGeneratorMetadata: {
         providerName: 'doublecloud',
-        providerVersion: '0.1.26'
+        providerVersion: '0.1.26',
+        providerVersionConstraint: '0.1.26'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs/resources/ilm_tier
+// https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/ilm_tier
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,76 +8,76 @@ import * as cdktf from 'cdktf';
 
 export interface IlmTierConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs/resources/ilm_tier#bucket IlmTier#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/ilm_tier#bucket IlmTier#bucket}
   */
   readonly bucket: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs/resources/ilm_tier#endpoint IlmTier#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/ilm_tier#endpoint IlmTier#endpoint}
   */
   readonly endpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs/resources/ilm_tier#force_new_credentials IlmTier#force_new_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/ilm_tier#force_new_credentials IlmTier#force_new_credentials}
   */
   readonly forceNewCredentials?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs/resources/ilm_tier#id IlmTier#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/ilm_tier#id IlmTier#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs/resources/ilm_tier#name IlmTier#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/ilm_tier#name IlmTier#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs/resources/ilm_tier#prefix IlmTier#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/ilm_tier#prefix IlmTier#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs/resources/ilm_tier#region IlmTier#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/ilm_tier#region IlmTier#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs/resources/ilm_tier#type IlmTier#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/ilm_tier#type IlmTier#type}
   */
   readonly type: string;
   /**
   * azure_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs/resources/ilm_tier#azure_config IlmTier#azure_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/ilm_tier#azure_config IlmTier#azure_config}
   */
   readonly azureConfig?: IlmTierAzureConfig;
   /**
   * gcs_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs/resources/ilm_tier#gcs_config IlmTier#gcs_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/ilm_tier#gcs_config IlmTier#gcs_config}
   */
   readonly gcsConfig?: IlmTierGcsConfig;
   /**
   * minio_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs/resources/ilm_tier#minio_config IlmTier#minio_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/ilm_tier#minio_config IlmTier#minio_config}
   */
   readonly minioConfig?: IlmTierMinioConfig;
   /**
   * s3_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs/resources/ilm_tier#s3_config IlmTier#s3_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/ilm_tier#s3_config IlmTier#s3_config}
   */
   readonly s3Config?: IlmTierS3Config;
 }
 export interface IlmTierAzureConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs/resources/ilm_tier#account_key IlmTier#account_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/ilm_tier#account_key IlmTier#account_key}
   */
   readonly accountKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs/resources/ilm_tier#account_name IlmTier#account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/ilm_tier#account_name IlmTier#account_name}
   */
   readonly accountName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs/resources/ilm_tier#storage_class IlmTier#storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/ilm_tier#storage_class IlmTier#storage_class}
   */
   readonly storageClass?: string;
 }
@@ -219,11 +219,11 @@ export class IlmTierAzureConfigOutputReference extends cdktf.ComplexObject {
 }
 export interface IlmTierGcsConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs/resources/ilm_tier#credentials IlmTier#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/ilm_tier#credentials IlmTier#credentials}
   */
   readonly credentials?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs/resources/ilm_tier#storage_class IlmTier#storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/ilm_tier#storage_class IlmTier#storage_class}
   */
   readonly storageClass?: string;
 }
@@ -336,11 +336,11 @@ export class IlmTierGcsConfigOutputReference extends cdktf.ComplexObject {
 }
 export interface IlmTierMinioConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs/resources/ilm_tier#access_key IlmTier#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/ilm_tier#access_key IlmTier#access_key}
   */
   readonly accessKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs/resources/ilm_tier#secret_key IlmTier#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/ilm_tier#secret_key IlmTier#secret_key}
   */
   readonly secretKey?: string;
 }
@@ -453,15 +453,15 @@ export class IlmTierMinioConfigOutputReference extends cdktf.ComplexObject {
 }
 export interface IlmTierS3Config {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs/resources/ilm_tier#access_key IlmTier#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/ilm_tier#access_key IlmTier#access_key}
   */
   readonly accessKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs/resources/ilm_tier#secret_key IlmTier#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/ilm_tier#secret_key IlmTier#secret_key}
   */
   readonly secretKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs/resources/ilm_tier#storage_class IlmTier#storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/ilm_tier#storage_class IlmTier#storage_class}
   */
   readonly storageClass?: string;
 }
@@ -603,7 +603,7 @@ export class IlmTierS3ConfigOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs/resources/ilm_tier minio_ilm_tier}
+* Represents a {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/ilm_tier minio_ilm_tier}
 */
 export class IlmTier extends cdktf.TerraformResource {
 
@@ -619,7 +619,7 @@ export class IlmTier extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IlmTier resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IlmTier to import
-  * @param importFromId The id of the existing IlmTier that should be imported. Refer to the {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs/resources/ilm_tier#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IlmTier that should be imported. Refer to the {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/ilm_tier#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IlmTier to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -631,7 +631,7 @@ export class IlmTier extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aminueza/minio/3.11.3/docs/resources/ilm_tier minio_ilm_tier} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/ilm_tier minio_ilm_tier} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -642,7 +642,8 @@ export class IlmTier extends cdktf.TerraformResource {
       terraformResourceType: 'minio_ilm_tier',
       terraformGeneratorMetadata: {
         providerName: 'minio',
-        providerVersion: '3.11.3'
+        providerVersion: '3.11.4',
+        providerVersionConstraint: '3.11.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1945,7 +1945,8 @@ export class DataAivenGrafana extends cdktf.TerraformDataSource {
       terraformResourceType: 'aiven_grafana',
       terraformGeneratorMetadata: {
         providerName: 'aiven',
-        providerVersion: '4.46.1'
+        providerVersion: '4.46.1',
+        providerVersionConstraint: '4.46.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

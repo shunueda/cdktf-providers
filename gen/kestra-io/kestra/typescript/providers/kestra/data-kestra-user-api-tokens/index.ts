@@ -177,7 +177,8 @@ export class DataKestraUserApiTokens extends cdktf.TerraformDataSource {
       terraformResourceType: 'kestra_user_api_tokens',
       terraformGeneratorMetadata: {
         providerName: 'kestra',
-        providerVersion: '1.0.2'
+        providerVersion: '1.0.2',
+        providerVersionConstraint: '1.0.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

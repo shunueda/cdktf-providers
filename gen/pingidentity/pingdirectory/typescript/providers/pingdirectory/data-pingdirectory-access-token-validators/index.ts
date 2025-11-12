@@ -135,7 +135,8 @@ export class DataPingdirectoryAccessTokenValidators extends cdktf.TerraformDataS
       terraformResourceType: 'pingdirectory_access_token_validators',
       terraformGeneratorMetadata: {
         providerName: 'pingdirectory',
-        providerVersion: '1.5.0'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

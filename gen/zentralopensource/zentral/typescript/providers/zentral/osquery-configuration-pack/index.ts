@@ -73,7 +73,8 @@ export class OsqueryConfigurationPack extends cdktf.TerraformResource {
       terraformResourceType: 'zentral_osquery_configuration_pack',
       terraformGeneratorMetadata: {
         providerName: 'zentral',
-        providerVersion: '0.1.64'
+        providerVersion: '0.1.64',
+        providerVersionConstraint: '0.1.64'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

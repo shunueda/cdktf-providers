@@ -68,7 +68,8 @@ export class AppdynamicscloudConnectionAwsRoleAttachment extends cdktf.Terraform
       terraformResourceType: 'appdynamicscloud_connection_aws_role_attachment',
       terraformGeneratorMetadata: {
         providerName: 'appd',
-        providerVersion: '0.0.1'
+        providerVersion: '0.0.1',
+        providerVersionConstraint: '0.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

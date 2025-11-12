@@ -408,7 +408,8 @@ export class DataK8SEnsembleossIoResourceV1Manifest extends cdktf.TerraformDataS
       terraformResourceType: 'k8s_ensembleoss_io_resource_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1932,7 +1932,8 @@ export class DataK8SAppsGitlabComRunnerV1Beta2Manifest extends cdktf.TerraformDa
       terraformResourceType: 'k8s_apps_gitlab_com_runner_v1beta2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

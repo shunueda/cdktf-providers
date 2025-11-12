@@ -64,7 +64,8 @@ export class DataCouchbaseCapellaEvent extends cdktf.TerraformDataSource {
       terraformResourceType: 'couchbase-capella_event',
       terraformGeneratorMetadata: {
         providerName: 'couchbase-capella',
-        providerVersion: '1.5.3'
+        providerVersion: '1.5.3',
+        providerVersionConstraint: '1.5.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_idp_default_assignment
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_idp_default_assignment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ManagementSetIdpDefaultAssignmentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_idp_default_assignment#id ManagementSetIdpDefaultAssignment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_idp_default_assignment#id ManagementSetIdpDefaultAssignment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface ManagementSetIdpDefaultAssignmentConfig extends cdktf.Terraform
   /**
   * Represents the Identity Provider to be used for Login by this assignment identified by the name or UID, to cancel existing assignment should set to 'none'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_idp_default_assignment#identity_provider ManagementSetIdpDefaultAssignment#identity_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_idp_default_assignment#identity_provider ManagementSetIdpDefaultAssignment#identity_provider}
   */
   readonly identityProvider: string;
   /**
   * Apply changes ignoring errors. You won't be able to publish such a changes. If ignore-warnings flag was omitted - warnings will also be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_idp_default_assignment#ignore_errors ManagementSetIdpDefaultAssignment#ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_idp_default_assignment#ignore_errors ManagementSetIdpDefaultAssignment#ignore_errors}
   */
   readonly ignoreErrors?: boolean | cdktf.IResolvable;
   /**
   * Apply changes ignoring warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_idp_default_assignment#ignore_warnings ManagementSetIdpDefaultAssignment#ignore_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_idp_default_assignment#ignore_warnings ManagementSetIdpDefaultAssignment#ignore_warnings}
   */
   readonly ignoreWarnings?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_idp_default_assignment checkpoint_management_set_idp_default_assignment}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_idp_default_assignment checkpoint_management_set_idp_default_assignment}
 */
 export class ManagementSetIdpDefaultAssignment extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class ManagementSetIdpDefaultAssignment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementSetIdpDefaultAssignment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementSetIdpDefaultAssignment to import
-  * @param importFromId The id of the existing ManagementSetIdpDefaultAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_idp_default_assignment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementSetIdpDefaultAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_idp_default_assignment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementSetIdpDefaultAssignment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class ManagementSetIdpDefaultAssignment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_set_idp_default_assignment checkpoint_management_set_idp_default_assignment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_set_idp_default_assignment checkpoint_management_set_idp_default_assignment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,7 +74,8 @@ export class ManagementSetIdpDefaultAssignment extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_set_idp_default_assignment',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

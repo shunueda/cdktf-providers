@@ -86,7 +86,8 @@ export class RoutingSkillGroup extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_routing_skill_group',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.70.0'
+        providerVersion: '1.70.0',
+        providerVersionConstraint: '1.70.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

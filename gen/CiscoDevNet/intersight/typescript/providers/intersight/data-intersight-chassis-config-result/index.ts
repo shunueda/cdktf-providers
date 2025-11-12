@@ -5620,7 +5620,8 @@ export class DataIntersightChassisConfigResult extends cdktf.TerraformDataSource
       terraformResourceType: 'intersight_chassis_config_result',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

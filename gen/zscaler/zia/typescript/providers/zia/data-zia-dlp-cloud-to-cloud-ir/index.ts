@@ -946,7 +946,8 @@ export class DataZiaDlpCloudToCloudIr extends cdktf.TerraformDataSource {
       terraformResourceType: 'zia_dlp_cloud_to_cloud_ir',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.5.3'
+        providerVersion: '4.5.3',
+        providerVersionConstraint: '4.5.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

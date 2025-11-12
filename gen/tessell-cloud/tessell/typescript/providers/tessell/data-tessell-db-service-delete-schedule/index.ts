@@ -131,7 +131,8 @@ export class DataTessellDbServiceDeleteSchedule extends cdktf.TerraformDataSourc
       terraformResourceType: 'tessell_db_service_delete_schedule',
       terraformGeneratorMetadata: {
         providerName: 'tessell',
-        providerVersion: '0.0.27'
+        providerVersion: '0.0.27',
+        providerVersionConstraint: '0.0.27'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

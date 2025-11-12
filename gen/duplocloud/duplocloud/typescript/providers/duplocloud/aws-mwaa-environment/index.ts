@@ -1298,7 +1298,8 @@ export class AwsMwaaEnvironment extends cdktf.TerraformResource {
       terraformResourceType: 'duplocloud_aws_mwaa_environment',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.28'
+        providerVersion: '0.11.28',
+        providerVersionConstraint: '0.11.28'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

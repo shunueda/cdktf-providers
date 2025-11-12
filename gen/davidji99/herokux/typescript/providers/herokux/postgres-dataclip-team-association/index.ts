@@ -300,7 +300,8 @@ export class PostgresDataclipTeamAssociation extends cdktf.TerraformResource {
       terraformResourceType: 'herokux_postgres_dataclip_team_association',
       terraformGeneratorMetadata: {
         providerName: 'herokux',
-        providerVersion: '1.4.7'
+        providerVersion: '1.4.7',
+        providerVersionConstraint: '1.4.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -170,7 +170,8 @@ export class RadiusServer extends cdktf.TerraformResource {
       terraformResourceType: 'netscalersdx_radius_server',
       terraformGeneratorMetadata: {
         providerName: 'netscalersdx',
-        providerVersion: '0.7.2'
+        providerVersion: '0.7.2',
+        providerVersionConstraint: '0.7.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

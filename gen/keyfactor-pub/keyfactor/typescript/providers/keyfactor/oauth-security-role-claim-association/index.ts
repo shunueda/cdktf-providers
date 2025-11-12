@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/resources/oauth_security_role_claim_association
+// https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/resources/oauth_security_role_claim_association
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface OauthSecurityRoleClaimAssociationConfig extends cdktf.Terraform
   /**
   * Internal ID of the OAuth security claim. Changing this value forces a new resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/resources/oauth_security_role_claim_association#claim_id OauthSecurityRoleClaimAssociation#claim_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/resources/oauth_security_role_claim_association#claim_id OauthSecurityRoleClaimAssociation#claim_id}
   */
   readonly claimId: number;
   /**
   * Internal ID of the OAuth security role. Changing this value forces a new resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/resources/oauth_security_role_claim_association#role_id OauthSecurityRoleClaimAssociation#role_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/resources/oauth_security_role_claim_association#role_id OauthSecurityRoleClaimAssociation#role_id}
   */
   readonly roleId: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/resources/oauth_security_role_claim_association keyfactor_oauth_security_role_claim_association}
+* Represents a {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/resources/oauth_security_role_claim_association keyfactor_oauth_security_role_claim_association}
 */
 export class OauthSecurityRoleClaimAssociation extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class OauthSecurityRoleClaimAssociation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OauthSecurityRoleClaimAssociation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OauthSecurityRoleClaimAssociation to import
-  * @param importFromId The id of the existing OauthSecurityRoleClaimAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/resources/oauth_security_role_claim_association#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OauthSecurityRoleClaimAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/resources/oauth_security_role_claim_association#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OauthSecurityRoleClaimAssociation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class OauthSecurityRoleClaimAssociation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.6.0/docs/resources/oauth_security_role_claim_association keyfactor_oauth_security_role_claim_association} Resource
+  * Create a new {@link https://registry.terraform.io/providers/keyfactor-pub/keyfactor/2.7.0/docs/resources/oauth_security_role_claim_association keyfactor_oauth_security_role_claim_association} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,7 +61,8 @@ export class OauthSecurityRoleClaimAssociation extends cdktf.TerraformResource {
       terraformResourceType: 'keyfactor_oauth_security_role_claim_association',
       terraformGeneratorMetadata: {
         providerName: 'keyfactor',
-        providerVersion: '2.6.0'
+        providerVersion: '2.7.0',
+        providerVersionConstraint: '2.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

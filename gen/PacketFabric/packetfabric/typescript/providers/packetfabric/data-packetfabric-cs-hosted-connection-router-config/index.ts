@@ -71,7 +71,8 @@ export class DataPacketfabricCsHostedConnectionRouterConfig extends cdktf.Terraf
       terraformResourceType: 'packetfabric_cs_hosted_connection_router_config',
       terraformGeneratorMetadata: {
         providerName: 'packetfabric',
-        providerVersion: '1.9.3'
+        providerVersion: '1.9.3',
+        providerVersionConstraint: '1.9.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

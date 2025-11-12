@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/cdp
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/cdp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,39 +10,39 @@ export interface CdpConfig extends cdktf.TerraformMetaArguments {
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/cdp#device Cdp#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/cdp#device Cdp#device}
   */
   readonly device?: string;
   /**
   * Apply tlv-list globally
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/cdp#filter_tlv_list Cdp#filter_tlv_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/cdp#filter_tlv_list Cdp#filter_tlv_list}
   */
   readonly filterTlvList?: string;
   /**
   * Specify the holdtime (in sec) to be sent in packets
   *   - Range: `10`-`255`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/cdp#holdtime Cdp#holdtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/cdp#holdtime Cdp#holdtime}
   */
   readonly holdtime?: number;
   /**
   * Enable CDP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/cdp#run Cdp#run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/cdp#run Cdp#run}
   */
   readonly run?: boolean | cdktf.IResolvable;
   /**
   * Specify the rate at which CDP packets are sent (in sec)
   *   - Range: `5`-`254`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/cdp#timer Cdp#timer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/cdp#timer Cdp#timer}
   */
   readonly timer?: number;
   /**
   * Configure tlv-list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/cdp#tlv_lists Cdp#tlv_lists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/cdp#tlv_lists Cdp#tlv_lists}
   */
   readonly tlvLists?: CdpTlvLists[] | cdktf.IResolvable;
 }
@@ -50,37 +50,37 @@ export interface CdpTlvLists {
   /**
   * Select cos TLV
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/cdp#cos Cdp#cos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/cdp#cos Cdp#cos}
   */
   readonly cos?: boolean | cdktf.IResolvable;
   /**
   * Select duplex TLV
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/cdp#duplex Cdp#duplex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/cdp#duplex Cdp#duplex}
   */
   readonly duplex?: boolean | cdktf.IResolvable;
   /**
   * Tlv-list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/cdp#name Cdp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/cdp#name Cdp#name}
   */
   readonly name: string;
   /**
   * Select trust TLV
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/cdp#trust Cdp#trust}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/cdp#trust Cdp#trust}
   */
   readonly trust?: boolean | cdktf.IResolvable;
   /**
   * Select version TLV
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/cdp#version Cdp#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/cdp#version Cdp#version}
   */
   readonly version?: boolean | cdktf.IResolvable;
   /**
   * Select vtp mgmt domain TLV
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/cdp#vtp_mgmt_domain Cdp#vtp_mgmt_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/cdp#vtp_mgmt_domain Cdp#vtp_mgmt_domain}
   */
   readonly vtpMgmtDomain?: boolean | cdktf.IResolvable;
 }
@@ -338,7 +338,7 @@ export class CdpTlvListsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/cdp iosxe_cdp}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/cdp iosxe_cdp}
 */
 export class Cdp extends cdktf.TerraformResource {
 
@@ -354,7 +354,7 @@ export class Cdp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Cdp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cdp to import
-  * @param importFromId The id of the existing Cdp that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/cdp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cdp that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/cdp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cdp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -366,7 +366,7 @@ export class Cdp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/cdp iosxe_cdp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/cdp iosxe_cdp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -377,7 +377,8 @@ export class Cdp extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_cdp',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.9.3'
+        providerVersion: '0.10.0',
+        providerVersionConstraint: '0.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

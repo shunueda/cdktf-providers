@@ -61,7 +61,8 @@ export class DataFirehydrantRunbookAction extends cdktf.TerraformDataSource {
       terraformResourceType: 'firehydrant_runbook_action',
       terraformGeneratorMetadata: {
         providerName: 'firehydrant',
-        providerVersion: '0.14.9'
+        providerVersion: '0.14.9',
+        providerVersionConstraint: '0.14.9'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

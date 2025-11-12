@@ -227,7 +227,8 @@ export class VpnCustomerGatewayConfigurationDownload extends cdktf.TerraformReso
       terraformResourceType: 'tencentcloud_vpn_customer_gateway_configuration_download',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

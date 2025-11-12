@@ -98,7 +98,8 @@ export class LicensePolicy extends cdktf.TerraformResource {
       terraformResourceType: 'cloudsmith_license_policy',
       terraformGeneratorMetadata: {
         providerName: 'cloudsmith',
-        providerVersion: '0.0.66'
+        providerVersion: '0.0.66',
+        providerVersionConstraint: '0.0.66'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

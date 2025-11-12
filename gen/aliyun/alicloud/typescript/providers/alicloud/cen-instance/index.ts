@@ -246,7 +246,8 @@ export class CenInstance extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_cen_instance',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

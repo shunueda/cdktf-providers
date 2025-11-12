@@ -1182,7 +1182,8 @@ export class DataWavefrontDashboards extends cdktf.TerraformDataSource {
       terraformResourceType: 'wavefront_dashboards',
       terraformGeneratorMetadata: {
         providerName: 'wavefront',
-        providerVersion: '5.1.0'
+        providerVersion: '5.1.0',
+        providerVersionConstraint: '5.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

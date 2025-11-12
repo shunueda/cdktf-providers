@@ -492,7 +492,8 @@ export class DataDatabricksFeatureEngineeringMaterializedFeatures extends cdktf.
       terraformResourceType: 'databricks_feature_engineering_materialized_features',
       terraformGeneratorMetadata: {
         providerName: 'databricks',
-        providerVersion: '1.97.0'
+        providerVersion: '1.97.0',
+        providerVersionConstraint: '1.97.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

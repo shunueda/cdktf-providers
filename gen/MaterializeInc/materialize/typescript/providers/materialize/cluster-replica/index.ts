@@ -110,7 +110,8 @@ export class ClusterReplica extends cdktf.TerraformResource {
       terraformResourceType: 'materialize_cluster_replica',
       terraformGeneratorMetadata: {
         providerName: 'materialize',
-        providerVersion: '0.9.2'
+        providerVersion: '0.9.2',
+        providerVersionConstraint: '0.9.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

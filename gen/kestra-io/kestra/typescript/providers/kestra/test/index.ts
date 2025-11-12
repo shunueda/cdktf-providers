@@ -67,7 +67,8 @@ export class Test extends cdktf.TerraformResource {
       terraformResourceType: 'kestra_test',
       terraformGeneratorMetadata: {
         providerName: 'kestra',
-        providerVersion: '1.0.2'
+        providerVersion: '1.0.2',
+        providerVersionConstraint: '1.0.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

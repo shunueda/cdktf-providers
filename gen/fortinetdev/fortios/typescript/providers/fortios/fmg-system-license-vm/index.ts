@@ -68,7 +68,8 @@ export class FmgSystemLicenseVm extends cdktf.TerraformResource {
       terraformResourceType: 'fortios_fmg_system_license_vm',
       terraformGeneratorMetadata: {
         providerName: 'fortios',
-        providerVersion: '1.23.0'
+        providerVersion: '1.23.0',
+        providerVersionConstraint: '1.23.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -467,7 +467,8 @@ export class OuCloudAccessRole extends cdktf.TerraformResource {
       terraformResourceType: 'cloudtamerio_ou_cloud_access_role',
       terraformGeneratorMetadata: {
         providerName: 'cloudtamerio',
-        providerVersion: '0.2.0'
+        providerVersion: '0.2.0',
+        providerVersionConstraint: '0.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

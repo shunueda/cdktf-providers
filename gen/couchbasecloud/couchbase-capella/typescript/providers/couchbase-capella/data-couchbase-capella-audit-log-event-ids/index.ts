@@ -157,7 +157,8 @@ export class DataCouchbaseCapellaAuditLogEventIds extends cdktf.TerraformDataSou
       terraformResourceType: 'couchbase-capella_audit_log_event_ids',
       terraformGeneratorMetadata: {
         providerName: 'couchbase-capella',
-        providerVersion: '1.5.3'
+        providerVersion: '1.5.3',
+        providerVersionConstraint: '1.5.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

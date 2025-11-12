@@ -243,7 +243,8 @@ export class ObjectFirewallAddress6TemplateSubnetsegment extends cdktf.Terraform
       terraformResourceType: 'fortimanager_object_firewall_address6template_subnetsegment',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0'
+        providerVersion: '1.14.0',
+        providerVersionConstraint: '1.14.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -74,7 +74,8 @@ export class DataInstanaSyntheticLocation extends cdktf.TerraformDataSource {
       terraformResourceType: 'instana_synthetic_location',
       terraformGeneratorMetadata: {
         providerName: 'instana',
-        providerVersion: '3.0.0'
+        providerVersion: '3.0.0',
+        providerVersionConstraint: '3.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

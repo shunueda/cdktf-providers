@@ -312,7 +312,8 @@ export class OpensearchUser extends cdktf.TerraformResource {
       terraformResourceType: 'aiven_opensearch_user',
       terraformGeneratorMetadata: {
         providerName: 'aiven',
-        providerVersion: '4.46.1'
+        providerVersion: '4.46.1',
+        providerVersionConstraint: '4.46.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

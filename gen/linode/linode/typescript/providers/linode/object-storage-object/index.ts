@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/object_storage_object
+// https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/object_storage_object
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,127 +10,127 @@ export interface ObjectStorageObjectConfig extends cdktf.TerraformMetaArguments 
   /**
   * The REQUIRED S3 access key with access to the target bucket. If not specified with the resource, you must provide its value by configuring the obj_access_key, or, opting-in generating it implicitly at apply-time using obj_use_temp_keys at provider-level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/object_storage_object#access_key ObjectStorageObject#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/object_storage_object#access_key ObjectStorageObject#access_key}
   */
   readonly accessKey?: string;
   /**
   * The ACL config given to this object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/object_storage_object#acl ObjectStorageObject#acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/object_storage_object#acl ObjectStorageObject#acl}
   */
   readonly acl?: string;
   /**
   * The target bucket to put this object in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/object_storage_object#bucket ObjectStorageObject#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/object_storage_object#bucket ObjectStorageObject#bucket}
   */
   readonly bucket: string;
   /**
   * This cache_control configuration of this object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/object_storage_object#cache_control ObjectStorageObject#cache_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/object_storage_object#cache_control ObjectStorageObject#cache_control}
   */
   readonly cacheControl?: string;
   /**
   * The target cluster that the bucket is in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/object_storage_object#cluster ObjectStorageObject#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/object_storage_object#cluster ObjectStorageObject#cluster}
   */
   readonly cluster?: string;
   /**
   * The contents of the Object to upload.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/object_storage_object#content ObjectStorageObject#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/object_storage_object#content ObjectStorageObject#content}
   */
   readonly content?: string;
   /**
   * The base64 contents of the Object to upload.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/object_storage_object#content_base64 ObjectStorageObject#content_base64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/object_storage_object#content_base64 ObjectStorageObject#content_base64}
   */
   readonly contentBase64?: string;
   /**
   * The content disposition configuration of this object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/object_storage_object#content_disposition ObjectStorageObject#content_disposition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/object_storage_object#content_disposition ObjectStorageObject#content_disposition}
   */
   readonly contentDisposition?: string;
   /**
   * The encoding of the content of this object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/object_storage_object#content_encoding ObjectStorageObject#content_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/object_storage_object#content_encoding ObjectStorageObject#content_encoding}
   */
   readonly contentEncoding?: string;
   /**
   * The language metadata of this object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/object_storage_object#content_language ObjectStorageObject#content_language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/object_storage_object#content_language ObjectStorageObject#content_language}
   */
   readonly contentLanguage?: string;
   /**
   * The MIME type of the content.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/object_storage_object#content_type ObjectStorageObject#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/object_storage_object#content_type ObjectStorageObject#content_type}
   */
   readonly contentType?: string;
   /**
   * The endpoint for the bucket used for s3 connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/object_storage_object#endpoint ObjectStorageObject#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/object_storage_object#endpoint ObjectStorageObject#endpoint}
   */
   readonly endpoint?: string;
   /**
   * The specific version of this object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/object_storage_object#etag ObjectStorageObject#etag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/object_storage_object#etag ObjectStorageObject#etag}
   */
   readonly etag?: string;
   /**
   * Whether the object should bypass deletion restrictions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/object_storage_object#force_destroy ObjectStorageObject#force_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/object_storage_object#force_destroy ObjectStorageObject#force_destroy}
   */
   readonly forceDestroy?: boolean | cdktf.IResolvable;
   /**
   * The name of the uploaded object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/object_storage_object#key ObjectStorageObject#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/object_storage_object#key ObjectStorageObject#key}
   */
   readonly key: string;
   /**
   * The metadata of this object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/object_storage_object#metadata ObjectStorageObject#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/object_storage_object#metadata ObjectStorageObject#metadata}
   */
   readonly metadata?: { [key: string]: string };
   /**
   * The target region that the bucket is in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/object_storage_object#region ObjectStorageObject#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/object_storage_object#region ObjectStorageObject#region}
   */
   readonly region?: string;
   /**
   * The REQUIRED S3 secret key with access to the target bucket. If not specified with the resource, you must provide its value by configuring the obj_secret_key, or, opting-in generating it implicitly at apply-time using obj_use_temp_keys at provider-level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/object_storage_object#secret_key ObjectStorageObject#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/object_storage_object#secret_key ObjectStorageObject#secret_key}
   */
   readonly secretKey?: string;
   /**
   * The source file to upload.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/object_storage_object#source ObjectStorageObject#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/object_storage_object#source ObjectStorageObject#source}
   */
   readonly source?: string;
   /**
   * The website redirect location of this object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/object_storage_object#website_redirect ObjectStorageObject#website_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/object_storage_object#website_redirect ObjectStorageObject#website_redirect}
   */
   readonly websiteRedirect?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/object_storage_object linode_object_storage_object}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/object_storage_object linode_object_storage_object}
 */
 export class ObjectStorageObject extends cdktf.TerraformResource {
 
@@ -146,7 +146,7 @@ export class ObjectStorageObject extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectStorageObject resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectStorageObject to import
-  * @param importFromId The id of the existing ObjectStorageObject that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/object_storage_object#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectStorageObject that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/object_storage_object#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectStorageObject to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -158,7 +158,7 @@ export class ObjectStorageObject extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/resources/object_storage_object linode_object_storage_object} Resource
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/resources/object_storage_object linode_object_storage_object} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -169,7 +169,8 @@ export class ObjectStorageObject extends cdktf.TerraformResource {
       terraformResourceType: 'linode_object_storage_object',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.5.0'
+        providerVersion: '3.5.1',
+        providerVersionConstraint: '3.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

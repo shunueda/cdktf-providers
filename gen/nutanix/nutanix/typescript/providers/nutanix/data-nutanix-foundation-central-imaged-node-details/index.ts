@@ -68,7 +68,8 @@ export class DataNutanixFoundationCentralImagedNodeDetails extends cdktf.Terrafo
       terraformResourceType: 'nutanix_foundation_central_imaged_node_details',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3'
+        providerVersion: '2.3.3',
+        providerVersionConstraint: '2.3.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

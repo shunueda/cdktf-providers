@@ -772,7 +772,8 @@ export class Firewall extends cdktf.TerraformResource {
       terraformResourceType: 'civo_firewall',
       terraformGeneratorMetadata: {
         providerName: 'civo',
-        providerVersion: '1.1.7'
+        providerVersion: '1.1.7',
+        providerVersionConstraint: '1.1.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

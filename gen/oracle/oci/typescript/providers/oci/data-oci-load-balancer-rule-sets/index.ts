@@ -746,7 +746,8 @@ export class DataOciLoadBalancerRuleSets extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_load_balancer_rule_sets',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/nat_gateway
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/nat_gateway
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,60 +10,60 @@ export interface DataHcsNatGatewayConfig extends cdktf.TerraformMetaArguments {
   /**
   * The description of the public NAT gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/nat_gateway#description DataHcsNatGateway#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/nat_gateway#description DataHcsNatGateway#description}
   */
   readonly description?: string;
   /**
   * The public NAT gateway ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/nat_gateway#id DataHcsNatGateway#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/nat_gateway#id DataHcsNatGateway#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/nat_gateway#internal_network_id DataHcsNatGateway#internal_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/nat_gateway#internal_network_id DataHcsNatGateway#internal_network_id}
   */
   readonly internalNetworkId?: string;
   /**
   * The public NAT gateway name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/nat_gateway#name DataHcsNatGateway#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/nat_gateway#name DataHcsNatGateway#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/nat_gateway#router_id DataHcsNatGateway#router_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/nat_gateway#router_id DataHcsNatGateway#router_id}
   */
   readonly routerId?: string;
   /**
   * The specification of the public NAT gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/nat_gateway#spec DataHcsNatGateway#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/nat_gateway#spec DataHcsNatGateway#spec}
   */
   readonly spec?: string;
   /**
   * The current status of the public NAT gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/nat_gateway#status DataHcsNatGateway#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/nat_gateway#status DataHcsNatGateway#status}
   */
   readonly status?: string;
   /**
   * The network ID of the downstream interface (the next hop of the DVR) of the public NAT gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/nat_gateway#subnet_id DataHcsNatGateway#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/nat_gateway#subnet_id DataHcsNatGateway#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * The ID of the VPC to which the public NAT gateway belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/nat_gateway#vpc_id DataHcsNatGateway#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/nat_gateway#vpc_id DataHcsNatGateway#vpc_id}
   */
   readonly vpcId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/nat_gateway hcs_nat_gateway}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/nat_gateway hcs_nat_gateway}
 */
 export class DataHcsNatGateway extends cdktf.TerraformDataSource {
 
@@ -79,7 +79,7 @@ export class DataHcsNatGateway extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataHcsNatGateway resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHcsNatGateway to import
-  * @param importFromId The id of the existing DataHcsNatGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/nat_gateway#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHcsNatGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/nat_gateway#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHcsNatGateway to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -91,7 +91,7 @@ export class DataHcsNatGateway extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/nat_gateway hcs_nat_gateway} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/nat_gateway hcs_nat_gateway} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -102,7 +102,8 @@ export class DataHcsNatGateway extends cdktf.TerraformDataSource {
       terraformResourceType: 'hcs_nat_gateway',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.19'
+        providerVersion: '2.4.20',
+        providerVersionConstraint: '2.4.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

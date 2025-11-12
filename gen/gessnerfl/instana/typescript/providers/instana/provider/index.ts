@@ -73,7 +73,8 @@ export class InstanaProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'instana',
       terraformGeneratorMetadata: {
         providerName: 'instana',
-        providerVersion: '3.0.0'
+        providerVersion: '3.0.0',
+        providerVersionConstraint: '3.0.0'
       },
       terraformProviderSource: 'gessnerfl/instana'
     });

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_trusted_client
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_trusted_client
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface ManagementTrustedClientConfig extends cdktf.TerraformMetaArgume
   /**
   * Color of the object. Should be one of existing colors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_trusted_client#color ManagementTrustedClient#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_trusted_client#color ManagementTrustedClient#color}
   */
   readonly color?: string;
   /**
   * Comments string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_trusted_client#comments ManagementTrustedClient#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_trusted_client#comments ManagementTrustedClient#comments}
   */
   readonly comments?: string;
   /**
   * Domains to be added to this profile. Use domain name only. See example below: "add-trusted-client (with domain)".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_trusted_client#domains_assignment ManagementTrustedClient#domains_assignment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_trusted_client#domains_assignment ManagementTrustedClient#domains_assignment}
   */
   readonly domainsAssignment?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_trusted_client#id ManagementTrustedClient#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_trusted_client#id ManagementTrustedClient#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,97 +35,97 @@ export interface ManagementTrustedClientConfig extends cdktf.TerraformMetaArgume
   /**
   * Apply changes ignoring errors. You won't be able to publish such a changes. If ignore-warnings flag was omitted - warnings will also be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_trusted_client#ignore_errors ManagementTrustedClient#ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_trusted_client#ignore_errors ManagementTrustedClient#ignore_errors}
   */
   readonly ignoreErrors?: boolean | cdktf.IResolvable;
   /**
   * Apply changes ignoring warnings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_trusted_client#ignore_warnings ManagementTrustedClient#ignore_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_trusted_client#ignore_warnings ManagementTrustedClient#ignore_warnings}
   */
   readonly ignoreWarnings?: boolean | cdktf.IResolvable;
   /**
   * IPv4 address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_trusted_client#ipv4_address ManagementTrustedClient#ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_trusted_client#ipv4_address ManagementTrustedClient#ipv4_address}
   */
   readonly ipv4Address?: string;
   /**
   * First IPv4 address in the range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_trusted_client#ipv4_address_first ManagementTrustedClient#ipv4_address_first}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_trusted_client#ipv4_address_first ManagementTrustedClient#ipv4_address_first}
   */
   readonly ipv4AddressFirst?: string;
   /**
   * Last IPv4 address in the range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_trusted_client#ipv4_address_last ManagementTrustedClient#ipv4_address_last}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_trusted_client#ipv4_address_last ManagementTrustedClient#ipv4_address_last}
   */
   readonly ipv4AddressLast?: string;
   /**
   * IPv6 address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_trusted_client#ipv6_address ManagementTrustedClient#ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_trusted_client#ipv6_address ManagementTrustedClient#ipv6_address}
   */
   readonly ipv6Address?: string;
   /**
   * First IPv6 address in the range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_trusted_client#ipv6_address_first ManagementTrustedClient#ipv6_address_first}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_trusted_client#ipv6_address_first ManagementTrustedClient#ipv6_address_first}
   */
   readonly ipv6AddressFirst?: string;
   /**
   * Last IPv6 address in the range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_trusted_client#ipv6_address_last ManagementTrustedClient#ipv6_address_last}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_trusted_client#ipv6_address_last ManagementTrustedClient#ipv6_address_last}
   */
   readonly ipv6AddressLast?: string;
   /**
   * IPv4 mask length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_trusted_client#mask_length4 ManagementTrustedClient#mask_length4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_trusted_client#mask_length4 ManagementTrustedClient#mask_length4}
   */
   readonly maskLength4?: number;
   /**
   * IPv6 mask length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_trusted_client#mask_length6 ManagementTrustedClient#mask_length6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_trusted_client#mask_length6 ManagementTrustedClient#mask_length6}
   */
   readonly maskLength6?: number;
   /**
   * Let this trusted client connect to all Multi-Domain Servers in the deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_trusted_client#multi_domain_server_trusted_client ManagementTrustedClient#multi_domain_server_trusted_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_trusted_client#multi_domain_server_trusted_client ManagementTrustedClient#multi_domain_server_trusted_client}
   */
   readonly multiDomainServerTrustedClient?: boolean | cdktf.IResolvable;
   /**
   * Object name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_trusted_client#name ManagementTrustedClient#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_trusted_client#name ManagementTrustedClient#name}
   */
   readonly name: string;
   /**
   * Collection of tag identifiers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_trusted_client#tags ManagementTrustedClient#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_trusted_client#tags ManagementTrustedClient#tags}
   */
   readonly tags?: string[];
   /**
   * Trusted client type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_trusted_client#type ManagementTrustedClient#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_trusted_client#type ManagementTrustedClient#type}
   */
   readonly type?: string;
   /**
   * IP wild card (e.g. 192.0.2.*).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_trusted_client#wild_card ManagementTrustedClient#wild_card}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_trusted_client#wild_card ManagementTrustedClient#wild_card}
   */
   readonly wildCard?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_trusted_client checkpoint_management_trusted_client}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_trusted_client checkpoint_management_trusted_client}
 */
 export class ManagementTrustedClient extends cdktf.TerraformResource {
 
@@ -141,7 +141,7 @@ export class ManagementTrustedClient extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementTrustedClient resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementTrustedClient to import
-  * @param importFromId The id of the existing ManagementTrustedClient that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_trusted_client#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementTrustedClient that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_trusted_client#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementTrustedClient to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -153,7 +153,7 @@ export class ManagementTrustedClient extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_trusted_client checkpoint_management_trusted_client} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_trusted_client checkpoint_management_trusted_client} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -164,7 +164,8 @@ export class ManagementTrustedClient extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_trusted_client',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -55,7 +55,8 @@ export class TogglesProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'toggles',
       terraformGeneratorMetadata: {
         providerName: 'toggles',
-        providerVersion: '0.3.0'
+        providerVersion: '0.3.0',
+        providerVersionConstraint: '0.3.0'
       },
       terraformProviderSource: 'reinoudk/toggles'
     });

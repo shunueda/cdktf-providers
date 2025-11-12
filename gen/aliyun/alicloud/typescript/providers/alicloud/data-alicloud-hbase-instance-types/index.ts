@@ -373,7 +373,8 @@ export class DataAlicloudHbaseInstanceTypes extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_hbase_instance_types',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

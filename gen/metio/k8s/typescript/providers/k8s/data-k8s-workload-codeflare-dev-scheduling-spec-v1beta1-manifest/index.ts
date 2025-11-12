@@ -884,7 +884,8 @@ export class DataK8SWorkloadCodeflareDevSchedulingSpecV1Beta1Manifest extends cd
       terraformResourceType: 'k8s_workload_codeflare_dev_scheduling_spec_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

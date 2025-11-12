@@ -61,7 +61,8 @@ export class DeploymentTrafficFilterAssociation extends cdktf.TerraformResource 
       terraformResourceType: 'ec_deployment_traffic_filter_association',
       terraformGeneratorMetadata: {
         providerName: 'ec',
-        providerVersion: '0.12.2'
+        providerVersion: '0.12.2',
+        providerVersionConstraint: '0.12.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

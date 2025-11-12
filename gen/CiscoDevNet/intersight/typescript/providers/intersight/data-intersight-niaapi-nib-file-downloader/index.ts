@@ -3666,7 +3666,8 @@ export class DataIntersightNiaapiNibFileDownloader extends cdktf.TerraformDataSo
       terraformResourceType: 'intersight_niaapi_nib_file_downloader',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

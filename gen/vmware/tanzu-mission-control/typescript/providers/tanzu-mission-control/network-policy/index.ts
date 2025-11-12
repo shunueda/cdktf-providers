@@ -3980,7 +3980,8 @@ export class NetworkPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'tanzu-mission-control_network_policy',
       terraformGeneratorMetadata: {
         providerName: 'tanzu-mission-control',
-        providerVersion: '1.4.9'
+        providerVersion: '1.4.9',
+        providerVersionConstraint: '1.4.9'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

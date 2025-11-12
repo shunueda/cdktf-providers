@@ -64,7 +64,8 @@ export class SmartFolderAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'turbot_smart_folder_attachment',
       terraformGeneratorMetadata: {
         providerName: 'turbot',
-        providerVersion: '1.13.0'
+        providerVersion: '1.13.0',
+        providerVersionConstraint: '1.13.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

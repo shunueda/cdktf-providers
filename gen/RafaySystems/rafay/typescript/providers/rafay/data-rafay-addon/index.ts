@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon
+// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataRafayAddonConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#id DataRafayAddon#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#id DataRafayAddon#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface DataRafayAddonConfig extends cdktf.TerraformMetaArguments {
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#metadata DataRafayAddon#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#metadata DataRafayAddon#metadata}
   */
   readonly metadata?: DataRafayAddonMetadata;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#spec DataRafayAddon#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#spec DataRafayAddon#spec}
   */
   readonly spec?: DataRafayAddonSpec;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#timeouts DataRafayAddon#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#timeouts DataRafayAddon#timeouts}
   */
   readonly timeouts?: DataRafayAddonTimeouts;
 }
@@ -37,7 +37,7 @@ export interface DataRafayAddonMetadataCreatedBy {
   /**
   * Id of the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#id DataRafayAddon#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#id DataRafayAddon#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -46,13 +46,13 @@ export interface DataRafayAddonMetadataCreatedBy {
   /**
   * Whether person is logged in using sso
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#is_sso_user DataRafayAddon#is_sso_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#is_sso_user DataRafayAddon#is_sso_user}
   */
   readonly isSsoUser?: boolean | cdktf.IResolvable;
   /**
   * Username fo the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#username DataRafayAddon#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#username DataRafayAddon#username}
   */
   readonly username?: string;
 }
@@ -196,7 +196,7 @@ export interface DataRafayAddonMetadataModifiedBy {
   /**
   * Id of the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#id DataRafayAddon#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#id DataRafayAddon#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -205,13 +205,13 @@ export interface DataRafayAddonMetadataModifiedBy {
   /**
   * Whether person is logged in using sso
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#is_sso_user DataRafayAddon#is_sso_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#is_sso_user DataRafayAddon#is_sso_user}
   */
   readonly isSsoUser?: boolean | cdktf.IResolvable;
   /**
   * Username fo the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#username DataRafayAddon#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#username DataRafayAddon#username}
   */
   readonly username?: string;
 }
@@ -355,49 +355,49 @@ export interface DataRafayAddonMetadata {
   /**
   * annotations of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#annotations DataRafayAddon#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#annotations DataRafayAddon#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * description of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#description DataRafayAddon#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#description DataRafayAddon#description}
   */
   readonly description?: string;
   /**
   * Display Name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#display_name DataRafayAddon#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#display_name DataRafayAddon#display_name}
   */
   readonly displayName?: string;
   /**
   * labels of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#labels DataRafayAddon#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#labels DataRafayAddon#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#name DataRafayAddon#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#name DataRafayAddon#name}
   */
   readonly name?: string;
   /**
   * Project of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#project DataRafayAddon#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#project DataRafayAddon#project}
   */
   readonly project?: string;
   /**
   * created_by block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#created_by DataRafayAddon#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#created_by DataRafayAddon#created_by}
   */
   readonly createdBy?: DataRafayAddonMetadataCreatedBy;
   /**
   * modified_by block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#modified_by DataRafayAddon#modified_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#modified_by DataRafayAddon#modified_by}
   */
   readonly modifiedBy?: DataRafayAddonMetadataModifiedBy;
 }
@@ -686,7 +686,7 @@ export interface DataRafayAddonSpecArtifactArtifactChartPathOptionsOverride {
   /**
   * Specify the type of override this file supports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#type DataRafayAddon#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#type DataRafayAddon#type}
   */
   readonly type?: string;
 }
@@ -772,13 +772,13 @@ export interface DataRafayAddonSpecArtifactArtifactChartPathOptionsSchema {
   /**
   * JSONSchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#jsonschema DataRafayAddon#jsonschema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#jsonschema DataRafayAddon#jsonschema}
   */
   readonly jsonschema?: string;
   /**
   * UISchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#uischema DataRafayAddon#uischema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#uischema DataRafayAddon#uischema}
   */
   readonly uischema?: string;
 }
@@ -893,37 +893,37 @@ export interface DataRafayAddonSpecArtifactArtifactChartPathOptions {
   /**
   * Description of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#description DataRafayAddon#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#description DataRafayAddon#description}
   */
   readonly description?: string;
   /**
   * Display metadata to render file on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#display_metadata DataRafayAddon#display_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#display_metadata DataRafayAddon#display_metadata}
   */
   readonly displayMetadata?: string;
   /**
   * Determines whether the file is required / mandatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#required DataRafayAddon#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#required DataRafayAddon#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#sensitive DataRafayAddon#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#sensitive DataRafayAddon#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#override DataRafayAddon#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#override DataRafayAddon#override}
   */
   readonly override?: DataRafayAddonSpecArtifactArtifactChartPathOptionsOverride;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#schema DataRafayAddon#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#schema DataRafayAddon#schema}
   */
   readonly schema?: DataRafayAddonSpecArtifactArtifactChartPathOptionsSchema;
 }
@@ -1154,31 +1154,31 @@ export interface DataRafayAddonSpecArtifactArtifactChartPath {
   /**
   * data is the base64 encoded contents of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#data DataRafayAddon#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#data DataRafayAddon#data}
   */
   readonly data?: string;
   /**
   * specify mount path of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#mount_path DataRafayAddon#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#mount_path DataRafayAddon#mount_path}
   */
   readonly mountPath?: string;
   /**
   * Name or relative path of a artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#name DataRafayAddon#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#name DataRafayAddon#name}
   */
   readonly name?: string;
   /**
   * Deprected: use options.sensitive. data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#sensitive DataRafayAddon#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#sensitive DataRafayAddon#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#options DataRafayAddon#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#options DataRafayAddon#options}
   */
   readonly options?: DataRafayAddonSpecArtifactArtifactChartPathOptions;
 }
@@ -1380,7 +1380,7 @@ export interface DataRafayAddonSpecArtifactArtifactConfigmapOptionsOverride {
   /**
   * Specify the type of override this file supports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#type DataRafayAddon#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#type DataRafayAddon#type}
   */
   readonly type?: string;
 }
@@ -1466,13 +1466,13 @@ export interface DataRafayAddonSpecArtifactArtifactConfigmapOptionsSchema {
   /**
   * JSONSchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#jsonschema DataRafayAddon#jsonschema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#jsonschema DataRafayAddon#jsonschema}
   */
   readonly jsonschema?: string;
   /**
   * UISchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#uischema DataRafayAddon#uischema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#uischema DataRafayAddon#uischema}
   */
   readonly uischema?: string;
 }
@@ -1587,37 +1587,37 @@ export interface DataRafayAddonSpecArtifactArtifactConfigmapOptions {
   /**
   * Description of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#description DataRafayAddon#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#description DataRafayAddon#description}
   */
   readonly description?: string;
   /**
   * Display metadata to render file on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#display_metadata DataRafayAddon#display_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#display_metadata DataRafayAddon#display_metadata}
   */
   readonly displayMetadata?: string;
   /**
   * Determines whether the file is required / mandatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#required DataRafayAddon#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#required DataRafayAddon#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#sensitive DataRafayAddon#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#sensitive DataRafayAddon#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#override DataRafayAddon#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#override DataRafayAddon#override}
   */
   readonly override?: DataRafayAddonSpecArtifactArtifactConfigmapOptionsOverride;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#schema DataRafayAddon#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#schema DataRafayAddon#schema}
   */
   readonly schema?: DataRafayAddonSpecArtifactArtifactConfigmapOptionsSchema;
 }
@@ -1848,31 +1848,31 @@ export interface DataRafayAddonSpecArtifactArtifactConfigmap {
   /**
   * data is the base64 encoded contents of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#data DataRafayAddon#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#data DataRafayAddon#data}
   */
   readonly data?: string;
   /**
   * specify mount path of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#mount_path DataRafayAddon#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#mount_path DataRafayAddon#mount_path}
   */
   readonly mountPath?: string;
   /**
   * Name or relative path of a artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#name DataRafayAddon#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#name DataRafayAddon#name}
   */
   readonly name?: string;
   /**
   * Deprected: use options.sensitive. data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#sensitive DataRafayAddon#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#sensitive DataRafayAddon#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#options DataRafayAddon#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#options DataRafayAddon#options}
   */
   readonly options?: DataRafayAddonSpecArtifactArtifactConfigmapOptions;
 }
@@ -2074,7 +2074,7 @@ export interface DataRafayAddonSpecArtifactArtifactConfigurationOptionsOverride 
   /**
   * Specify the type of override this file supports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#type DataRafayAddon#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#type DataRafayAddon#type}
   */
   readonly type?: string;
 }
@@ -2160,13 +2160,13 @@ export interface DataRafayAddonSpecArtifactArtifactConfigurationOptionsSchema {
   /**
   * JSONSchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#jsonschema DataRafayAddon#jsonschema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#jsonschema DataRafayAddon#jsonschema}
   */
   readonly jsonschema?: string;
   /**
   * UISchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#uischema DataRafayAddon#uischema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#uischema DataRafayAddon#uischema}
   */
   readonly uischema?: string;
 }
@@ -2281,37 +2281,37 @@ export interface DataRafayAddonSpecArtifactArtifactConfigurationOptions {
   /**
   * Description of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#description DataRafayAddon#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#description DataRafayAddon#description}
   */
   readonly description?: string;
   /**
   * Display metadata to render file on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#display_metadata DataRafayAddon#display_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#display_metadata DataRafayAddon#display_metadata}
   */
   readonly displayMetadata?: string;
   /**
   * Determines whether the file is required / mandatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#required DataRafayAddon#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#required DataRafayAddon#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#sensitive DataRafayAddon#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#sensitive DataRafayAddon#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#override DataRafayAddon#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#override DataRafayAddon#override}
   */
   readonly override?: DataRafayAddonSpecArtifactArtifactConfigurationOptionsOverride;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#schema DataRafayAddon#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#schema DataRafayAddon#schema}
   */
   readonly schema?: DataRafayAddonSpecArtifactArtifactConfigurationOptionsSchema;
 }
@@ -2542,31 +2542,31 @@ export interface DataRafayAddonSpecArtifactArtifactConfiguration {
   /**
   * data is the base64 encoded contents of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#data DataRafayAddon#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#data DataRafayAddon#data}
   */
   readonly data?: string;
   /**
   * specify mount path of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#mount_path DataRafayAddon#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#mount_path DataRafayAddon#mount_path}
   */
   readonly mountPath?: string;
   /**
   * Name or relative path of a artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#name DataRafayAddon#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#name DataRafayAddon#name}
   */
   readonly name?: string;
   /**
   * Deprected: use options.sensitive. data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#sensitive DataRafayAddon#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#sensitive DataRafayAddon#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#options DataRafayAddon#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#options DataRafayAddon#options}
   */
   readonly options?: DataRafayAddonSpecArtifactArtifactConfigurationOptions;
 }
@@ -2764,11 +2764,705 @@ export class DataRafayAddonSpecArtifactArtifactConfigurationOutputReference exte
     return this._options.internalValue;
   }
 }
+export interface DataRafayAddonSpecArtifactArtifactFileOptionsOverride {
+  /**
+  * Specify the type of override this file supports
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#type DataRafayAddon#type}
+  */
+  readonly type?: string;
+}
+
+export function dataRafayAddonSpecArtifactArtifactFileOptionsOverrideToTerraform(struct?: DataRafayAddonSpecArtifactArtifactFileOptionsOverrideOutputReference | DataRafayAddonSpecArtifactArtifactFileOptionsOverride): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    type: cdktf.stringToTerraform(struct!.type),
+  }
+}
+
+
+export function dataRafayAddonSpecArtifactArtifactFileOptionsOverrideToHclTerraform(struct?: DataRafayAddonSpecArtifactArtifactFileOptionsOverrideOutputReference | DataRafayAddonSpecArtifactArtifactFileOptionsOverride): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    type: {
+      value: cdktf.stringToHclTerraform(struct!.type),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAddonSpecArtifactArtifactFileOptionsOverrideOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAddonSpecArtifactArtifactFileOptionsOverride | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._type !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.type = this._type;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAddonSpecArtifactArtifactFileOptionsOverride | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._type = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._type = value.type;
+    }
+  }
+
+  // type - computed: false, optional: true, required: false
+  private _type?: string; 
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+  public set type(value: string) {
+    this._type = value;
+  }
+  public resetType() {
+    this._type = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeInput() {
+    return this._type;
+  }
+}
+export interface DataRafayAddonSpecArtifactArtifactFileOptionsSchema {
+  /**
+  * JSONSchema definition of given variable that conforms to react-jsonschema-form library norms
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#jsonschema DataRafayAddon#jsonschema}
+  */
+  readonly jsonschema?: string;
+  /**
+  * UISchema definition of given variable that conforms to react-jsonschema-form library norms
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#uischema DataRafayAddon#uischema}
+  */
+  readonly uischema?: string;
+}
+
+export function dataRafayAddonSpecArtifactArtifactFileOptionsSchemaToTerraform(struct?: DataRafayAddonSpecArtifactArtifactFileOptionsSchemaOutputReference | DataRafayAddonSpecArtifactArtifactFileOptionsSchema): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    jsonschema: cdktf.stringToTerraform(struct!.jsonschema),
+    uischema: cdktf.stringToTerraform(struct!.uischema),
+  }
+}
+
+
+export function dataRafayAddonSpecArtifactArtifactFileOptionsSchemaToHclTerraform(struct?: DataRafayAddonSpecArtifactArtifactFileOptionsSchemaOutputReference | DataRafayAddonSpecArtifactArtifactFileOptionsSchema): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    jsonschema: {
+      value: cdktf.stringToHclTerraform(struct!.jsonschema),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    uischema: {
+      value: cdktf.stringToHclTerraform(struct!.uischema),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAddonSpecArtifactArtifactFileOptionsSchemaOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAddonSpecArtifactArtifactFileOptionsSchema | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._jsonschema !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.jsonschema = this._jsonschema;
+    }
+    if (this._uischema !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uischema = this._uischema;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAddonSpecArtifactArtifactFileOptionsSchema | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._jsonschema = undefined;
+      this._uischema = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._jsonschema = value.jsonschema;
+      this._uischema = value.uischema;
+    }
+  }
+
+  // jsonschema - computed: false, optional: true, required: false
+  private _jsonschema?: string; 
+  public get jsonschema() {
+    return this.getStringAttribute('jsonschema');
+  }
+  public set jsonschema(value: string) {
+    this._jsonschema = value;
+  }
+  public resetJsonschema() {
+    this._jsonschema = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get jsonschemaInput() {
+    return this._jsonschema;
+  }
+
+  // uischema - computed: false, optional: true, required: false
+  private _uischema?: string; 
+  public get uischema() {
+    return this.getStringAttribute('uischema');
+  }
+  public set uischema(value: string) {
+    this._uischema = value;
+  }
+  public resetUischema() {
+    this._uischema = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uischemaInput() {
+    return this._uischema;
+  }
+}
+export interface DataRafayAddonSpecArtifactArtifactFileOptions {
+  /**
+  * Description of the file
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#description DataRafayAddon#description}
+  */
+  readonly description?: string;
+  /**
+  * Display metadata to render file on UI
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#display_metadata DataRafayAddon#display_metadata}
+  */
+  readonly displayMetadata?: string;
+  /**
+  * Determines whether the file is required / mandatory
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#required DataRafayAddon#required}
+  */
+  readonly required?: boolean | cdktf.IResolvable;
+  /**
+  * data is encrypted  if sensitive is set to true
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#sensitive DataRafayAddon#sensitive}
+  */
+  readonly sensitive?: boolean | cdktf.IResolvable;
+  /**
+  * override block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#override DataRafayAddon#override}
+  */
+  readonly override?: DataRafayAddonSpecArtifactArtifactFileOptionsOverride;
+  /**
+  * schema block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#schema DataRafayAddon#schema}
+  */
+  readonly schema?: DataRafayAddonSpecArtifactArtifactFileOptionsSchema;
+}
+
+export function dataRafayAddonSpecArtifactArtifactFileOptionsToTerraform(struct?: DataRafayAddonSpecArtifactArtifactFileOptionsOutputReference | DataRafayAddonSpecArtifactArtifactFileOptions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    description: cdktf.stringToTerraform(struct!.description),
+    display_metadata: cdktf.stringToTerraform(struct!.displayMetadata),
+    required: cdktf.booleanToTerraform(struct!.required),
+    sensitive: cdktf.booleanToTerraform(struct!.sensitive),
+    override: dataRafayAddonSpecArtifactArtifactFileOptionsOverrideToTerraform(struct!.override),
+    schema: dataRafayAddonSpecArtifactArtifactFileOptionsSchemaToTerraform(struct!.schema),
+  }
+}
+
+
+export function dataRafayAddonSpecArtifactArtifactFileOptionsToHclTerraform(struct?: DataRafayAddonSpecArtifactArtifactFileOptionsOutputReference | DataRafayAddonSpecArtifactArtifactFileOptions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    description: {
+      value: cdktf.stringToHclTerraform(struct!.description),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    display_metadata: {
+      value: cdktf.stringToHclTerraform(struct!.displayMetadata),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    required: {
+      value: cdktf.booleanToHclTerraform(struct!.required),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sensitive: {
+      value: cdktf.booleanToHclTerraform(struct!.sensitive),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    override: {
+      value: dataRafayAddonSpecArtifactArtifactFileOptionsOverrideToHclTerraform(struct!.override),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAddonSpecArtifactArtifactFileOptionsOverrideList",
+    },
+    schema: {
+      value: dataRafayAddonSpecArtifactArtifactFileOptionsSchemaToHclTerraform(struct!.schema),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAddonSpecArtifactArtifactFileOptionsSchemaList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAddonSpecArtifactArtifactFileOptionsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAddonSpecArtifactArtifactFileOptions | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._description !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.description = this._description;
+    }
+    if (this._displayMetadata !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.displayMetadata = this._displayMetadata;
+    }
+    if (this._required !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.required = this._required;
+    }
+    if (this._sensitive !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sensitive = this._sensitive;
+    }
+    if (this._override?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.override = this._override?.internalValue;
+    }
+    if (this._schema?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.schema = this._schema?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAddonSpecArtifactArtifactFileOptions | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._description = undefined;
+      this._displayMetadata = undefined;
+      this._required = undefined;
+      this._sensitive = undefined;
+      this._override.internalValue = undefined;
+      this._schema.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._description = value.description;
+      this._displayMetadata = value.displayMetadata;
+      this._required = value.required;
+      this._sensitive = value.sensitive;
+      this._override.internalValue = value.override;
+      this._schema.internalValue = value.schema;
+    }
+  }
+
+  // description - computed: false, optional: true, required: false
+  private _description?: string; 
+  public get description() {
+    return this.getStringAttribute('description');
+  }
+  public set description(value: string) {
+    this._description = value;
+  }
+  public resetDescription() {
+    this._description = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get descriptionInput() {
+    return this._description;
+  }
+
+  // display_metadata - computed: true, optional: true, required: false
+  private _displayMetadata?: string; 
+  public get displayMetadata() {
+    return this.getStringAttribute('display_metadata');
+  }
+  public set displayMetadata(value: string) {
+    this._displayMetadata = value;
+  }
+  public resetDisplayMetadata() {
+    this._displayMetadata = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get displayMetadataInput() {
+    return this._displayMetadata;
+  }
+
+  // required - computed: false, optional: true, required: false
+  private _required?: boolean | cdktf.IResolvable; 
+  public get required() {
+    return this.getBooleanAttribute('required');
+  }
+  public set required(value: boolean | cdktf.IResolvable) {
+    this._required = value;
+  }
+  public resetRequired() {
+    this._required = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get requiredInput() {
+    return this._required;
+  }
+
+  // sensitive - computed: false, optional: true, required: false
+  private _sensitive?: boolean | cdktf.IResolvable; 
+  public get sensitive() {
+    return this.getBooleanAttribute('sensitive');
+  }
+  public set sensitive(value: boolean | cdktf.IResolvable) {
+    this._sensitive = value;
+  }
+  public resetSensitive() {
+    this._sensitive = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sensitiveInput() {
+    return this._sensitive;
+  }
+
+  // override - computed: false, optional: true, required: false
+  private _override = new DataRafayAddonSpecArtifactArtifactFileOptionsOverrideOutputReference(this, "override");
+  public get override() {
+    return this._override;
+  }
+  public putOverride(value: DataRafayAddonSpecArtifactArtifactFileOptionsOverride) {
+    this._override.internalValue = value;
+  }
+  public resetOverride() {
+    this._override.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get overrideInput() {
+    return this._override.internalValue;
+  }
+
+  // schema - computed: false, optional: true, required: false
+  private _schema = new DataRafayAddonSpecArtifactArtifactFileOptionsSchemaOutputReference(this, "schema");
+  public get schema() {
+    return this._schema;
+  }
+  public putSchema(value: DataRafayAddonSpecArtifactArtifactFileOptionsSchema) {
+    this._schema.internalValue = value;
+  }
+  public resetSchema() {
+    this._schema.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get schemaInput() {
+    return this._schema.internalValue;
+  }
+}
+export interface DataRafayAddonSpecArtifactArtifactFile {
+  /**
+  * data is the base64 encoded contents of the file
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#data DataRafayAddon#data}
+  */
+  readonly data?: string;
+  /**
+  * specify mount path of the file
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#mount_path DataRafayAddon#mount_path}
+  */
+  readonly mountPath?: string;
+  /**
+  * Name or relative path of a artifact
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#name DataRafayAddon#name}
+  */
+  readonly name?: string;
+  /**
+  * Deprected: use options.sensitive. data is encrypted  if sensitive is set to true
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#sensitive DataRafayAddon#sensitive}
+  */
+  readonly sensitive?: boolean | cdktf.IResolvable;
+  /**
+  * options block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#options DataRafayAddon#options}
+  */
+  readonly options?: DataRafayAddonSpecArtifactArtifactFileOptions;
+}
+
+export function dataRafayAddonSpecArtifactArtifactFileToTerraform(struct?: DataRafayAddonSpecArtifactArtifactFileOutputReference | DataRafayAddonSpecArtifactArtifactFile): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    data: cdktf.stringToTerraform(struct!.data),
+    mount_path: cdktf.stringToTerraform(struct!.mountPath),
+    name: cdktf.stringToTerraform(struct!.name),
+    sensitive: cdktf.booleanToTerraform(struct!.sensitive),
+    options: dataRafayAddonSpecArtifactArtifactFileOptionsToTerraform(struct!.options),
+  }
+}
+
+
+export function dataRafayAddonSpecArtifactArtifactFileToHclTerraform(struct?: DataRafayAddonSpecArtifactArtifactFileOutputReference | DataRafayAddonSpecArtifactArtifactFile): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    data: {
+      value: cdktf.stringToHclTerraform(struct!.data),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    mount_path: {
+      value: cdktf.stringToHclTerraform(struct!.mountPath),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    sensitive: {
+      value: cdktf.booleanToHclTerraform(struct!.sensitive),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    options: {
+      value: dataRafayAddonSpecArtifactArtifactFileOptionsToHclTerraform(struct!.options),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAddonSpecArtifactArtifactFileOptionsList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataRafayAddonSpecArtifactArtifactFileOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataRafayAddonSpecArtifactArtifactFile | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._data !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.data = this._data;
+    }
+    if (this._mountPath !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.mountPath = this._mountPath;
+    }
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._sensitive !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sensitive = this._sensitive;
+    }
+    if (this._options?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.options = this._options?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataRafayAddonSpecArtifactArtifactFile | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._data = undefined;
+      this._mountPath = undefined;
+      this._name = undefined;
+      this._sensitive = undefined;
+      this._options.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._data = value.data;
+      this._mountPath = value.mountPath;
+      this._name = value.name;
+      this._sensitive = value.sensitive;
+      this._options.internalValue = value.options;
+    }
+  }
+
+  // data - computed: false, optional: true, required: false
+  private _data?: string; 
+  public get data() {
+    return this.getStringAttribute('data');
+  }
+  public set data(value: string) {
+    this._data = value;
+  }
+  public resetData() {
+    this._data = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dataInput() {
+    return this._data;
+  }
+
+  // mount_path - computed: false, optional: true, required: false
+  private _mountPath?: string; 
+  public get mountPath() {
+    return this.getStringAttribute('mount_path');
+  }
+  public set mountPath(value: string) {
+    this._mountPath = value;
+  }
+  public resetMountPath() {
+    this._mountPath = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get mountPathInput() {
+    return this._mountPath;
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // sensitive - computed: false, optional: true, required: false
+  private _sensitive?: boolean | cdktf.IResolvable; 
+  public get sensitive() {
+    return this.getBooleanAttribute('sensitive');
+  }
+  public set sensitive(value: boolean | cdktf.IResolvable) {
+    this._sensitive = value;
+  }
+  public resetSensitive() {
+    this._sensitive = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sensitiveInput() {
+    return this._sensitive;
+  }
+
+  // options - computed: false, optional: true, required: false
+  private _options = new DataRafayAddonSpecArtifactArtifactFileOptionsOutputReference(this, "options");
+  public get options() {
+    return this._options;
+  }
+  public putOptions(value: DataRafayAddonSpecArtifactArtifactFileOptions) {
+    this._options.internalValue = value;
+  }
+  public resetOptions() {
+    this._options.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get optionsInput() {
+    return this._options.internalValue;
+  }
+}
 export interface DataRafayAddonSpecArtifactArtifactPathsOptionsOverride {
   /**
   * Specify the type of override this file supports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#type DataRafayAddon#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#type DataRafayAddon#type}
   */
   readonly type?: string;
 }
@@ -2854,13 +3548,13 @@ export interface DataRafayAddonSpecArtifactArtifactPathsOptionsSchema {
   /**
   * JSONSchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#jsonschema DataRafayAddon#jsonschema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#jsonschema DataRafayAddon#jsonschema}
   */
   readonly jsonschema?: string;
   /**
   * UISchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#uischema DataRafayAddon#uischema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#uischema DataRafayAddon#uischema}
   */
   readonly uischema?: string;
 }
@@ -2975,37 +3669,37 @@ export interface DataRafayAddonSpecArtifactArtifactPathsOptions {
   /**
   * Description of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#description DataRafayAddon#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#description DataRafayAddon#description}
   */
   readonly description?: string;
   /**
   * Display metadata to render file on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#display_metadata DataRafayAddon#display_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#display_metadata DataRafayAddon#display_metadata}
   */
   readonly displayMetadata?: string;
   /**
   * Determines whether the file is required / mandatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#required DataRafayAddon#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#required DataRafayAddon#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#sensitive DataRafayAddon#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#sensitive DataRafayAddon#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#override DataRafayAddon#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#override DataRafayAddon#override}
   */
   readonly override?: DataRafayAddonSpecArtifactArtifactPathsOptionsOverride;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#schema DataRafayAddon#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#schema DataRafayAddon#schema}
   */
   readonly schema?: DataRafayAddonSpecArtifactArtifactPathsOptionsSchema;
 }
@@ -3236,31 +3930,31 @@ export interface DataRafayAddonSpecArtifactArtifactPaths {
   /**
   * data is the base64 encoded contents of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#data DataRafayAddon#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#data DataRafayAddon#data}
   */
   readonly data?: string;
   /**
   * specify mount path of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#mount_path DataRafayAddon#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#mount_path DataRafayAddon#mount_path}
   */
   readonly mountPath?: string;
   /**
   * Name or relative path of a artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#name DataRafayAddon#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#name DataRafayAddon#name}
   */
   readonly name?: string;
   /**
   * Deprected: use options.sensitive. data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#sensitive DataRafayAddon#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#sensitive DataRafayAddon#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#options DataRafayAddon#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#options DataRafayAddon#options}
   */
   readonly options?: DataRafayAddonSpecArtifactArtifactPathsOptions;
 }
@@ -3494,7 +4188,7 @@ export interface DataRafayAddonSpecArtifactArtifactSecretOptionsOverride {
   /**
   * Specify the type of override this file supports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#type DataRafayAddon#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#type DataRafayAddon#type}
   */
   readonly type?: string;
 }
@@ -3580,13 +4274,13 @@ export interface DataRafayAddonSpecArtifactArtifactSecretOptionsSchema {
   /**
   * JSONSchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#jsonschema DataRafayAddon#jsonschema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#jsonschema DataRafayAddon#jsonschema}
   */
   readonly jsonschema?: string;
   /**
   * UISchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#uischema DataRafayAddon#uischema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#uischema DataRafayAddon#uischema}
   */
   readonly uischema?: string;
 }
@@ -3701,37 +4395,37 @@ export interface DataRafayAddonSpecArtifactArtifactSecretOptions {
   /**
   * Description of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#description DataRafayAddon#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#description DataRafayAddon#description}
   */
   readonly description?: string;
   /**
   * Display metadata to render file on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#display_metadata DataRafayAddon#display_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#display_metadata DataRafayAddon#display_metadata}
   */
   readonly displayMetadata?: string;
   /**
   * Determines whether the file is required / mandatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#required DataRafayAddon#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#required DataRafayAddon#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#sensitive DataRafayAddon#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#sensitive DataRafayAddon#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#override DataRafayAddon#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#override DataRafayAddon#override}
   */
   readonly override?: DataRafayAddonSpecArtifactArtifactSecretOptionsOverride;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#schema DataRafayAddon#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#schema DataRafayAddon#schema}
   */
   readonly schema?: DataRafayAddonSpecArtifactArtifactSecretOptionsSchema;
 }
@@ -3962,31 +4656,31 @@ export interface DataRafayAddonSpecArtifactArtifactSecret {
   /**
   * data is the base64 encoded contents of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#data DataRafayAddon#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#data DataRafayAddon#data}
   */
   readonly data?: string;
   /**
   * specify mount path of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#mount_path DataRafayAddon#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#mount_path DataRafayAddon#mount_path}
   */
   readonly mountPath?: string;
   /**
   * Name or relative path of a artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#name DataRafayAddon#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#name DataRafayAddon#name}
   */
   readonly name?: string;
   /**
   * Deprected: use options.sensitive. data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#sensitive DataRafayAddon#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#sensitive DataRafayAddon#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#options DataRafayAddon#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#options DataRafayAddon#options}
   */
   readonly options?: DataRafayAddonSpecArtifactArtifactSecretOptions;
 }
@@ -4188,7 +4882,7 @@ export interface DataRafayAddonSpecArtifactArtifactStatefulsetOptionsOverride {
   /**
   * Specify the type of override this file supports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#type DataRafayAddon#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#type DataRafayAddon#type}
   */
   readonly type?: string;
 }
@@ -4274,13 +4968,13 @@ export interface DataRafayAddonSpecArtifactArtifactStatefulsetOptionsSchema {
   /**
   * JSONSchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#jsonschema DataRafayAddon#jsonschema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#jsonschema DataRafayAddon#jsonschema}
   */
   readonly jsonschema?: string;
   /**
   * UISchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#uischema DataRafayAddon#uischema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#uischema DataRafayAddon#uischema}
   */
   readonly uischema?: string;
 }
@@ -4395,37 +5089,37 @@ export interface DataRafayAddonSpecArtifactArtifactStatefulsetOptions {
   /**
   * Description of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#description DataRafayAddon#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#description DataRafayAddon#description}
   */
   readonly description?: string;
   /**
   * Display metadata to render file on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#display_metadata DataRafayAddon#display_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#display_metadata DataRafayAddon#display_metadata}
   */
   readonly displayMetadata?: string;
   /**
   * Determines whether the file is required / mandatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#required DataRafayAddon#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#required DataRafayAddon#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#sensitive DataRafayAddon#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#sensitive DataRafayAddon#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#override DataRafayAddon#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#override DataRafayAddon#override}
   */
   readonly override?: DataRafayAddonSpecArtifactArtifactStatefulsetOptionsOverride;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#schema DataRafayAddon#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#schema DataRafayAddon#schema}
   */
   readonly schema?: DataRafayAddonSpecArtifactArtifactStatefulsetOptionsSchema;
 }
@@ -4656,31 +5350,31 @@ export interface DataRafayAddonSpecArtifactArtifactStatefulset {
   /**
   * data is the base64 encoded contents of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#data DataRafayAddon#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#data DataRafayAddon#data}
   */
   readonly data?: string;
   /**
   * specify mount path of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#mount_path DataRafayAddon#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#mount_path DataRafayAddon#mount_path}
   */
   readonly mountPath?: string;
   /**
   * Name or relative path of a artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#name DataRafayAddon#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#name DataRafayAddon#name}
   */
   readonly name?: string;
   /**
   * Deprected: use options.sensitive. data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#sensitive DataRafayAddon#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#sensitive DataRafayAddon#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#options DataRafayAddon#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#options DataRafayAddon#options}
   */
   readonly options?: DataRafayAddonSpecArtifactArtifactStatefulsetOptions;
 }
@@ -4882,7 +5576,7 @@ export interface DataRafayAddonSpecArtifactArtifactValuesPathsOptionsOverride {
   /**
   * Specify the type of override this file supports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#type DataRafayAddon#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#type DataRafayAddon#type}
   */
   readonly type?: string;
 }
@@ -4968,13 +5662,13 @@ export interface DataRafayAddonSpecArtifactArtifactValuesPathsOptionsSchema {
   /**
   * JSONSchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#jsonschema DataRafayAddon#jsonschema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#jsonschema DataRafayAddon#jsonschema}
   */
   readonly jsonschema?: string;
   /**
   * UISchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#uischema DataRafayAddon#uischema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#uischema DataRafayAddon#uischema}
   */
   readonly uischema?: string;
 }
@@ -5089,37 +5783,37 @@ export interface DataRafayAddonSpecArtifactArtifactValuesPathsOptions {
   /**
   * Description of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#description DataRafayAddon#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#description DataRafayAddon#description}
   */
   readonly description?: string;
   /**
   * Display metadata to render file on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#display_metadata DataRafayAddon#display_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#display_metadata DataRafayAddon#display_metadata}
   */
   readonly displayMetadata?: string;
   /**
   * Determines whether the file is required / mandatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#required DataRafayAddon#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#required DataRafayAddon#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#sensitive DataRafayAddon#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#sensitive DataRafayAddon#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#override DataRafayAddon#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#override DataRafayAddon#override}
   */
   readonly override?: DataRafayAddonSpecArtifactArtifactValuesPathsOptionsOverride;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#schema DataRafayAddon#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#schema DataRafayAddon#schema}
   */
   readonly schema?: DataRafayAddonSpecArtifactArtifactValuesPathsOptionsSchema;
 }
@@ -5350,31 +6044,31 @@ export interface DataRafayAddonSpecArtifactArtifactValuesPaths {
   /**
   * data is the base64 encoded contents of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#data DataRafayAddon#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#data DataRafayAddon#data}
   */
   readonly data?: string;
   /**
   * specify mount path of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#mount_path DataRafayAddon#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#mount_path DataRafayAddon#mount_path}
   */
   readonly mountPath?: string;
   /**
   * Name or relative path of a artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#name DataRafayAddon#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#name DataRafayAddon#name}
   */
   readonly name?: string;
   /**
   * Deprected: use options.sensitive. data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#sensitive DataRafayAddon#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#sensitive DataRafayAddon#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#options DataRafayAddon#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#options DataRafayAddon#options}
   */
   readonly options?: DataRafayAddonSpecArtifactArtifactValuesPathsOptions;
 }
@@ -5608,7 +6302,7 @@ export interface DataRafayAddonSpecArtifactArtifactValuesRefValuesPathsOptionsOv
   /**
   * Specify the type of override this file supports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#type DataRafayAddon#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#type DataRafayAddon#type}
   */
   readonly type?: string;
 }
@@ -5694,13 +6388,13 @@ export interface DataRafayAddonSpecArtifactArtifactValuesRefValuesPathsOptionsSc
   /**
   * JSONSchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#jsonschema DataRafayAddon#jsonschema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#jsonschema DataRafayAddon#jsonschema}
   */
   readonly jsonschema?: string;
   /**
   * UISchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#uischema DataRafayAddon#uischema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#uischema DataRafayAddon#uischema}
   */
   readonly uischema?: string;
 }
@@ -5815,37 +6509,37 @@ export interface DataRafayAddonSpecArtifactArtifactValuesRefValuesPathsOptions {
   /**
   * Description of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#description DataRafayAddon#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#description DataRafayAddon#description}
   */
   readonly description?: string;
   /**
   * Display metadata to render file on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#display_metadata DataRafayAddon#display_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#display_metadata DataRafayAddon#display_metadata}
   */
   readonly displayMetadata?: string;
   /**
   * Determines whether the file is required / mandatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#required DataRafayAddon#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#required DataRafayAddon#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#sensitive DataRafayAddon#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#sensitive DataRafayAddon#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#override DataRafayAddon#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#override DataRafayAddon#override}
   */
   readonly override?: DataRafayAddonSpecArtifactArtifactValuesRefValuesPathsOptionsOverride;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#schema DataRafayAddon#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#schema DataRafayAddon#schema}
   */
   readonly schema?: DataRafayAddonSpecArtifactArtifactValuesRefValuesPathsOptionsSchema;
 }
@@ -6076,31 +6770,31 @@ export interface DataRafayAddonSpecArtifactArtifactValuesRefValuesPaths {
   /**
   * data is the base64 encoded contents of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#data DataRafayAddon#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#data DataRafayAddon#data}
   */
   readonly data?: string;
   /**
   * specify mount path of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#mount_path DataRafayAddon#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#mount_path DataRafayAddon#mount_path}
   */
   readonly mountPath?: string;
   /**
   * Name or relative path of a artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#name DataRafayAddon#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#name DataRafayAddon#name}
   */
   readonly name?: string;
   /**
   * Deprected: use options.sensitive. data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#sensitive DataRafayAddon#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#sensitive DataRafayAddon#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#options DataRafayAddon#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#options DataRafayAddon#options}
   */
   readonly options?: DataRafayAddonSpecArtifactArtifactValuesRefValuesPathsOptions;
 }
@@ -6334,19 +7028,19 @@ export interface DataRafayAddonSpecArtifactArtifactValuesRef {
   /**
   * name of the git repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#repository DataRafayAddon#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#repository DataRafayAddon#repository}
   */
   readonly repository?: string;
   /**
   * branch or tag in the git repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#revision DataRafayAddon#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#revision DataRafayAddon#revision}
   */
   readonly revision?: string;
   /**
   * values_paths block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#values_paths DataRafayAddon#values_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#values_paths DataRafayAddon#values_paths}
   */
   readonly valuesPaths?: DataRafayAddonSpecArtifactArtifactValuesRefValuesPaths[] | cdktf.IResolvable;
 }
@@ -6490,85 +7184,109 @@ export interface DataRafayAddonSpecArtifactArtifact {
   /**
   * name of the helm catalog
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#catalog DataRafayAddon#catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#catalog DataRafayAddon#catalog}
   */
   readonly catalog?: string;
   /**
   * name of the chart
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#chart_name DataRafayAddon#chart_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#chart_name DataRafayAddon#chart_name}
   */
   readonly chartName?: string;
   /**
   * version of the chart
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#chart_version DataRafayAddon#chart_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#chart_version DataRafayAddon#chart_version}
   */
   readonly chartVersion?: string;
   /**
+  * relative path from the root to kustomization directory in the git repository
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#directory DataRafayAddon#directory}
+  */
+  readonly directory?: string;
+  /**
+  * relative path to kustomization directory from the root directory
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#path DataRafayAddon#path}
+  */
+  readonly path?: string;
+  /**
   * project name of the repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#project DataRafayAddon#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#project DataRafayAddon#project}
   */
   readonly project?: string;
   /**
-  * name of the helm repository
+  * name of the git repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#repository DataRafayAddon#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#repository DataRafayAddon#repository}
   */
   readonly repository?: string;
   /**
   * branch or tag in the git repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#revision DataRafayAddon#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#revision DataRafayAddon#revision}
   */
   readonly revision?: string;
   /**
+  * url of the manifest YAML
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#url DataRafayAddon#url}
+  */
+  readonly url?: string[];
+  /**
   * chart_path block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#chart_path DataRafayAddon#chart_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#chart_path DataRafayAddon#chart_path}
   */
   readonly chartPath?: DataRafayAddonSpecArtifactArtifactChartPath;
   /**
   * configmap block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#configmap DataRafayAddon#configmap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#configmap DataRafayAddon#configmap}
   */
   readonly configmap?: DataRafayAddonSpecArtifactArtifactConfigmap;
   /**
   * configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#configuration DataRafayAddon#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#configuration DataRafayAddon#configuration}
   */
   readonly configuration?: DataRafayAddonSpecArtifactArtifactConfiguration;
   /**
+  * file block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#file DataRafayAddon#file}
+  */
+  readonly file?: DataRafayAddonSpecArtifactArtifactFile;
+  /**
   * paths block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#paths DataRafayAddon#paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#paths DataRafayAddon#paths}
   */
   readonly paths?: DataRafayAddonSpecArtifactArtifactPaths[] | cdktf.IResolvable;
   /**
   * secret block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#secret DataRafayAddon#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#secret DataRafayAddon#secret}
   */
   readonly secret?: DataRafayAddonSpecArtifactArtifactSecret;
   /**
   * statefulset block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#statefulset DataRafayAddon#statefulset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#statefulset DataRafayAddon#statefulset}
   */
   readonly statefulset?: DataRafayAddonSpecArtifactArtifactStatefulset;
   /**
   * values_paths block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#values_paths DataRafayAddon#values_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#values_paths DataRafayAddon#values_paths}
   */
   readonly valuesPaths?: DataRafayAddonSpecArtifactArtifactValuesPaths[] | cdktf.IResolvable;
   /**
   * values_ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#values_ref DataRafayAddon#values_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#values_ref DataRafayAddon#values_ref}
   */
   readonly valuesRef?: DataRafayAddonSpecArtifactArtifactValuesRef;
 }
@@ -6582,12 +7300,16 @@ export function dataRafayAddonSpecArtifactArtifactToTerraform(struct?: DataRafay
     catalog: cdktf.stringToTerraform(struct!.catalog),
     chart_name: cdktf.stringToTerraform(struct!.chartName),
     chart_version: cdktf.stringToTerraform(struct!.chartVersion),
+    directory: cdktf.stringToTerraform(struct!.directory),
+    path: cdktf.stringToTerraform(struct!.path),
     project: cdktf.stringToTerraform(struct!.project),
     repository: cdktf.stringToTerraform(struct!.repository),
     revision: cdktf.stringToTerraform(struct!.revision),
+    url: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.url),
     chart_path: dataRafayAddonSpecArtifactArtifactChartPathToTerraform(struct!.chartPath),
     configmap: dataRafayAddonSpecArtifactArtifactConfigmapToTerraform(struct!.configmap),
     configuration: dataRafayAddonSpecArtifactArtifactConfigurationToTerraform(struct!.configuration),
+    file: dataRafayAddonSpecArtifactArtifactFileToTerraform(struct!.file),
     paths: cdktf.listMapper(dataRafayAddonSpecArtifactArtifactPathsToTerraform, true)(struct!.paths),
     secret: dataRafayAddonSpecArtifactArtifactSecretToTerraform(struct!.secret),
     statefulset: dataRafayAddonSpecArtifactArtifactStatefulsetToTerraform(struct!.statefulset),
@@ -6621,6 +7343,18 @@ export function dataRafayAddonSpecArtifactArtifactToHclTerraform(struct?: DataRa
       type: "simple",
       storageClassType: "string",
     },
+    directory: {
+      value: cdktf.stringToHclTerraform(struct!.directory),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    path: {
+      value: cdktf.stringToHclTerraform(struct!.path),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     project: {
       value: cdktf.stringToHclTerraform(struct!.project),
       isBlock: false,
@@ -6639,6 +7373,12 @@ export function dataRafayAddonSpecArtifactArtifactToHclTerraform(struct?: DataRa
       type: "simple",
       storageClassType: "string",
     },
+    url: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.url),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
     chart_path: {
       value: dataRafayAddonSpecArtifactArtifactChartPathToHclTerraform(struct!.chartPath),
       isBlock: true,
@@ -6656,6 +7396,12 @@ export function dataRafayAddonSpecArtifactArtifactToHclTerraform(struct?: DataRa
       isBlock: true,
       type: "list",
       storageClassType: "DataRafayAddonSpecArtifactArtifactConfigurationList",
+    },
+    file: {
+      value: dataRafayAddonSpecArtifactArtifactFileToHclTerraform(struct!.file),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataRafayAddonSpecArtifactArtifactFileList",
     },
     paths: {
       value: cdktf.listMapperHcl(dataRafayAddonSpecArtifactArtifactPathsToHclTerraform, true)(struct!.paths),
@@ -6719,6 +7465,14 @@ export class DataRafayAddonSpecArtifactArtifactOutputReference extends cdktf.Com
       hasAnyValues = true;
       internalValueResult.chartVersion = this._chartVersion;
     }
+    if (this._directory !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.directory = this._directory;
+    }
+    if (this._path !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.path = this._path;
+    }
     if (this._project !== undefined) {
       hasAnyValues = true;
       internalValueResult.project = this._project;
@@ -6731,6 +7485,10 @@ export class DataRafayAddonSpecArtifactArtifactOutputReference extends cdktf.Com
       hasAnyValues = true;
       internalValueResult.revision = this._revision;
     }
+    if (this._url !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.url = this._url;
+    }
     if (this._chartPath?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.chartPath = this._chartPath?.internalValue;
@@ -6742,6 +7500,10 @@ export class DataRafayAddonSpecArtifactArtifactOutputReference extends cdktf.Com
     if (this._configuration?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.configuration = this._configuration?.internalValue;
+    }
+    if (this._file?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.file = this._file?.internalValue;
     }
     if (this._paths?.internalValue !== undefined) {
       hasAnyValues = true;
@@ -6772,12 +7534,16 @@ export class DataRafayAddonSpecArtifactArtifactOutputReference extends cdktf.Com
       this._catalog = undefined;
       this._chartName = undefined;
       this._chartVersion = undefined;
+      this._directory = undefined;
+      this._path = undefined;
       this._project = undefined;
       this._repository = undefined;
       this._revision = undefined;
+      this._url = undefined;
       this._chartPath.internalValue = undefined;
       this._configmap.internalValue = undefined;
       this._configuration.internalValue = undefined;
+      this._file.internalValue = undefined;
       this._paths.internalValue = undefined;
       this._secret.internalValue = undefined;
       this._statefulset.internalValue = undefined;
@@ -6789,12 +7555,16 @@ export class DataRafayAddonSpecArtifactArtifactOutputReference extends cdktf.Com
       this._catalog = value.catalog;
       this._chartName = value.chartName;
       this._chartVersion = value.chartVersion;
+      this._directory = value.directory;
+      this._path = value.path;
       this._project = value.project;
       this._repository = value.repository;
       this._revision = value.revision;
+      this._url = value.url;
       this._chartPath.internalValue = value.chartPath;
       this._configmap.internalValue = value.configmap;
       this._configuration.internalValue = value.configuration;
+      this._file.internalValue = value.file;
       this._paths.internalValue = value.paths;
       this._secret.internalValue = value.secret;
       this._statefulset.internalValue = value.statefulset;
@@ -6851,6 +7621,38 @@ export class DataRafayAddonSpecArtifactArtifactOutputReference extends cdktf.Com
     return this._chartVersion;
   }
 
+  // directory - computed: false, optional: true, required: false
+  private _directory?: string; 
+  public get directory() {
+    return this.getStringAttribute('directory');
+  }
+  public set directory(value: string) {
+    this._directory = value;
+  }
+  public resetDirectory() {
+    this._directory = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get directoryInput() {
+    return this._directory;
+  }
+
+  // path - computed: false, optional: true, required: false
+  private _path?: string; 
+  public get path() {
+    return this.getStringAttribute('path');
+  }
+  public set path(value: string) {
+    this._path = value;
+  }
+  public resetPath() {
+    this._path = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get pathInput() {
+    return this._path;
+  }
+
   // project - computed: false, optional: true, required: false
   private _project?: string; 
   public get project() {
@@ -6899,6 +7701,22 @@ export class DataRafayAddonSpecArtifactArtifactOutputReference extends cdktf.Com
     return this._revision;
   }
 
+  // url - computed: false, optional: true, required: false
+  private _url?: string[]; 
+  public get url() {
+    return this.getListAttribute('url');
+  }
+  public set url(value: string[]) {
+    this._url = value;
+  }
+  public resetUrl() {
+    this._url = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get urlInput() {
+    return this._url;
+  }
+
   // chart_path - computed: false, optional: true, required: false
   private _chartPath = new DataRafayAddonSpecArtifactArtifactChartPathOutputReference(this, "chart_path");
   public get chartPath() {
@@ -6945,6 +7763,22 @@ export class DataRafayAddonSpecArtifactArtifactOutputReference extends cdktf.Com
   // Temporarily expose input value. Use with caution.
   public get configurationInput() {
     return this._configuration.internalValue;
+  }
+
+  // file - computed: false, optional: true, required: false
+  private _file = new DataRafayAddonSpecArtifactArtifactFileOutputReference(this, "file");
+  public get file() {
+    return this._file;
+  }
+  public putFile(value: DataRafayAddonSpecArtifactArtifactFile) {
+    this._file.internalValue = value;
+  }
+  public resetFile() {
+    this._file.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fileInput() {
+    return this._file.internalValue;
   }
 
   // paths - computed: false, optional: true, required: false
@@ -7031,103 +7865,103 @@ export interface DataRafayAddonSpecArtifactOptions {
   /**
   * deploy Helm artifact with atomic flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#atomic DataRafayAddon#atomic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#atomic DataRafayAddon#atomic}
   */
   readonly atomic?: boolean | cdktf.IResolvable;
   /**
   * cleanup deployed resources when chart fails to deploy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#clean_up_on_fail DataRafayAddon#clean_up_on_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#clean_up_on_fail DataRafayAddon#clean_up_on_fail}
   */
   readonly cleanUpOnFail?: boolean | cdktf.IResolvable;
   /**
   * custom description for the release
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#description DataRafayAddon#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#description DataRafayAddon#description}
   */
   readonly description?: string;
   /**
   * disable OpenAPI validation while deploying the YAML
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#disable_open_api_validation DataRafayAddon#disable_open_api_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#disable_open_api_validation DataRafayAddon#disable_open_api_validation}
   */
   readonly disableOpenApiValidation?: boolean | cdktf.IResolvable;
   /**
   * deploy YAML artifact with force flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#force DataRafayAddon#force}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#force DataRafayAddon#force}
   */
   readonly force?: boolean | cdktf.IResolvable;
   /**
   * keep release history after uninstalling
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#keep_history DataRafayAddon#keep_history}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#keep_history DataRafayAddon#keep_history}
   */
   readonly keepHistory?: boolean | cdktf.IResolvable;
   /**
   * limit Helm artifact history
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#max_history DataRafayAddon#max_history}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#max_history DataRafayAddon#max_history}
   */
   readonly maxHistory?: number;
   /**
   * deploy Helm artifact without hooks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#no_hooks DataRafayAddon#no_hooks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#no_hooks DataRafayAddon#no_hooks}
   */
   readonly noHooks?: boolean | cdktf.IResolvable;
   /**
   * render sub chart notes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#render_sub_chart_notes DataRafayAddon#render_sub_chart_notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#render_sub_chart_notes DataRafayAddon#render_sub_chart_notes}
   */
   readonly renderSubChartNotes?: boolean | cdktf.IResolvable;
   /**
   * reset existing helm values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#reset_values DataRafayAddon#reset_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#reset_values DataRafayAddon#reset_values}
   */
   readonly resetValues?: boolean | cdktf.IResolvable;
   /**
   * reuse existing values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#reuse_values DataRafayAddon#reuse_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#reuse_values DataRafayAddon#reuse_values}
   */
   readonly reuseValues?: boolean | cdktf.IResolvable;
   /**
   * pass custom helm values as key=value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#set_string DataRafayAddon#set_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#set_string DataRafayAddon#set_string}
   */
   readonly setString?: string[];
   /**
   * skip deploying crds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#skip_crd DataRafayAddon#skip_crd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#skip_crd DataRafayAddon#skip_crd}
   */
   readonly skipCrd?: boolean | cdktf.IResolvable;
   /**
   * timeout for waiting for the resources to become ready
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#timeout DataRafayAddon#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#timeout DataRafayAddon#timeout}
   */
   readonly timeout?: string;
   /**
   * deploy Helm artifact with wait flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#wait DataRafayAddon#wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#wait DataRafayAddon#wait}
   */
   readonly wait?: boolean | cdktf.IResolvable;
   /**
   * deploy Helm artifact with --wait-for-jobs flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#wait_for_jobs DataRafayAddon#wait_for_jobs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#wait_for_jobs DataRafayAddon#wait_for_jobs}
   */
   readonly waitForJobs?: boolean | cdktf.IResolvable;
   /**
   * uninstall Helm artifact with --wait flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#wait_for_uninstall DataRafayAddon#wait_for_uninstall}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#wait_for_uninstall DataRafayAddon#wait_for_uninstall}
   */
   readonly waitForUninstall?: boolean | cdktf.IResolvable;
 }
@@ -7677,19 +8511,19 @@ export interface DataRafayAddonSpecArtifact {
   /**
   * type of the artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#type DataRafayAddon#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#type DataRafayAddon#type}
   */
   readonly type?: string;
   /**
   * artifact block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#artifact DataRafayAddon#artifact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#artifact DataRafayAddon#artifact}
   */
   readonly artifact?: DataRafayAddonSpecArtifactArtifact;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#options DataRafayAddon#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#options DataRafayAddon#options}
   */
   readonly options?: DataRafayAddonSpecArtifactOptions;
 }
@@ -7833,7 +8667,7 @@ export interface DataRafayAddonSpecSharingProjects {
   /**
   * name of the project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#name DataRafayAddon#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#name DataRafayAddon#name}
   */
   readonly name?: string;
 }
@@ -7951,13 +8785,13 @@ export interface DataRafayAddonSpecSharing {
   /**
   * flag to specify if sharing is enabled for resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#enabled DataRafayAddon#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#enabled DataRafayAddon#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * projects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#projects DataRafayAddon#projects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#projects DataRafayAddon#projects}
   */
   readonly projects?: DataRafayAddonSpecSharingProjects[] | cdktf.IResolvable;
 }
@@ -8072,31 +8906,31 @@ export interface DataRafayAddonSpec {
   /**
   * namespace of the addon
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#namespace DataRafayAddon#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#namespace DataRafayAddon#namespace}
   */
   readonly namespace?: string;
   /**
   * version of the addon
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#version DataRafayAddon#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#version DataRafayAddon#version}
   */
   readonly version?: string;
   /**
   * version state of the addon
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#version_state DataRafayAddon#version_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#version_state DataRafayAddon#version_state}
   */
   readonly versionState?: string;
   /**
   * artifact block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#artifact DataRafayAddon#artifact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#artifact DataRafayAddon#artifact}
   */
   readonly artifact?: DataRafayAddonSpecArtifact;
   /**
   * sharing block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#sharing DataRafayAddon#sharing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#sharing DataRafayAddon#sharing}
   */
   readonly sharing?: DataRafayAddonSpecSharing;
 }
@@ -8296,7 +9130,7 @@ export class DataRafayAddonSpecOutputReference extends cdktf.ComplexObject {
 }
 export interface DataRafayAddonTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#read DataRafayAddon#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#read DataRafayAddon#read}
   */
   readonly read?: string;
 }
@@ -8390,7 +9224,7 @@ export class DataRafayAddonTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon rafay_addon}
+* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon rafay_addon}
 */
 export class DataRafayAddon extends cdktf.TerraformDataSource {
 
@@ -8406,7 +9240,7 @@ export class DataRafayAddon extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataRafayAddon resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataRafayAddon to import
-  * @param importFromId The id of the existing DataRafayAddon that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataRafayAddon that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataRafayAddon to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -8418,7 +9252,7 @@ export class DataRafayAddon extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.52/docs/data-sources/addon rafay_addon} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.53/docs/data-sources/addon rafay_addon} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -8429,7 +9263,8 @@ export class DataRafayAddon extends cdktf.TerraformDataSource {
       terraformResourceType: 'rafay_addon',
       terraformGeneratorMetadata: {
         providerName: 'rafay',
-        providerVersion: '1.1.52'
+        providerVersion: '1.1.53',
+        providerVersionConstraint: '1.1.53'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

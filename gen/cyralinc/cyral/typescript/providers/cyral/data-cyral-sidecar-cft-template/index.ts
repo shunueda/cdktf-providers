@@ -229,7 +229,8 @@ export class DataCyralSidecarCftTemplate extends cdktf.TerraformDataSource {
       terraformResourceType: 'cyral_sidecar_cft_template',
       terraformGeneratorMetadata: {
         providerName: 'cyral',
-        providerVersion: '4.16.3'
+        providerVersion: '4.16.3',
+        providerVersionConstraint: '4.16.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

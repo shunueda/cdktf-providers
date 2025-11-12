@@ -4438,7 +4438,8 @@ export class DataIntersightCrdCustomResource extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_crd_custom_resource',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -58,7 +58,8 @@ export class DataAwsutilsEc2ClientVpnExportClientConfig extends cdktf.TerraformD
       terraformResourceType: 'awsutils_ec2_client_vpn_export_client_config',
       terraformGeneratorMetadata: {
         providerName: 'awsutils',
-        providerVersion: '0.20.1'
+        providerVersion: '0.20.1',
+        providerVersionConstraint: '0.20.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

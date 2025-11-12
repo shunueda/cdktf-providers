@@ -67,7 +67,8 @@ export class HivelocityProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'hivelocity',
       terraformGeneratorMetadata: {
         providerName: 'hivelocity',
-        providerVersion: '0.7.9'
+        providerVersion: '0.7.9',
+        providerVersionConstraint: '0.7.9'
       },
       terraformProviderSource: 'hivelocity/hivelocity'
     });

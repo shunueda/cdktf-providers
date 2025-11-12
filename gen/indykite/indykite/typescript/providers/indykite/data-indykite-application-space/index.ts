@@ -309,7 +309,8 @@ export class DataIndykiteApplicationSpace extends cdktf.TerraformDataSource {
       terraformResourceType: 'indykite_application_space',
       terraformGeneratorMetadata: {
         providerName: 'indykite',
-        providerVersion: '0.27.0'
+        providerVersion: '0.27.0',
+        providerVersionConstraint: '0.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

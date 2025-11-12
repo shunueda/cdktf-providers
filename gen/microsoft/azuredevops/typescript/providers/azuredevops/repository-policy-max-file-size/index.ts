@@ -275,7 +275,8 @@ export class RepositoryPolicyMaxFileSize extends cdktf.TerraformResource {
       terraformResourceType: 'azuredevops_repository_policy_max_file_size',
       terraformGeneratorMetadata: {
         providerName: 'azuredevops',
-        providerVersion: '1.11.2'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

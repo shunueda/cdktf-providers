@@ -500,7 +500,8 @@ export class DataVsphereGuestOsCustomization extends cdktf.TerraformDataSource {
       terraformResourceType: 'vsphere_guest_os_customization',
       terraformGeneratorMetadata: {
         providerName: 'vsphere',
-        providerVersion: '2.15.0'
+        providerVersion: '2.15.0',
+        providerVersionConstraint: '2.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

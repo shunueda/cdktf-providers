@@ -2907,7 +2907,8 @@ export class DataK8SSagemakerServicesK8SAwsModelBiasJobDefinitionV1Alpha1Manifes
       terraformResourceType: 'k8s_sagemaker_services_k8s_aws_model_bias_job_definition_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

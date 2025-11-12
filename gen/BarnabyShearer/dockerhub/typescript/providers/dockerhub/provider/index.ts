@@ -67,7 +67,8 @@ export class DockerhubProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'dockerhub',
       terraformGeneratorMetadata: {
         providerName: 'dockerhub',
-        providerVersion: '0.0.15'
+        providerVersion: '0.0.15',
+        providerVersionConstraint: '0.0.15'
       },
       terraformProviderSource: 'BarnabyShearer/dockerhub'
     });

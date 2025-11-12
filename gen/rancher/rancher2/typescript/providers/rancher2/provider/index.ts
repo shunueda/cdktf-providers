@@ -109,7 +109,8 @@ export class Rancher2Provider extends cdktf.TerraformProvider {
       terraformResourceType: 'rancher2',
       terraformGeneratorMetadata: {
         providerName: 'rancher2',
-        providerVersion: '8.3.1'
+        providerVersion: '8.3.1',
+        providerVersionConstraint: '8.3.1'
       },
       terraformProviderSource: 'rancher/rancher2'
     });

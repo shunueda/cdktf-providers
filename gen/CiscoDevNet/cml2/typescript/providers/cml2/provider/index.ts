@@ -109,7 +109,8 @@ export class Cml2Provider extends cdktf.TerraformProvider {
       terraformResourceType: 'cml2',
       terraformGeneratorMetadata: {
         providerName: 'cml2',
-        providerVersion: '0.8.5'
+        providerVersion: '0.8.5',
+        providerVersionConstraint: '0.8.5'
       },
       terraformProviderSource: 'CiscoDevNet/cml2'
     });

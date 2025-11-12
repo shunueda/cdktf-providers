@@ -74,7 +74,8 @@ export class ScaleoutClusterClusterDevicesMinimumNodesA extends cdktf.TerraformR
       terraformResourceType: 'thunder_scaleout_cluster_cluster_devices_minimum_nodes',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

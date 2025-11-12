@@ -158,7 +158,8 @@ export class ObscuredValue extends cdktf.TerraformResource {
       terraformResourceType: 'pingdirectory_obscured_value',
       terraformGeneratorMetadata: {
         providerName: 'pingdirectory',
-        providerVersion: '1.5.0'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

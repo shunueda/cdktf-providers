@@ -298,7 +298,8 @@ export class KubernetesCluster extends cdktf.TerraformResource {
       terraformResourceType: 'mcs_kubernetes_cluster',
       terraformGeneratorMetadata: {
         providerName: 'mcs',
-        providerVersion: '0.6.14'
+        providerVersion: '0.6.14',
+        providerVersionConstraint: '0.6.14'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

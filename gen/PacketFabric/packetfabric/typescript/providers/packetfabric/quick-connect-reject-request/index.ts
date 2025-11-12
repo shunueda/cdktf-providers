@@ -227,7 +227,8 @@ export class QuickConnectRejectRequest extends cdktf.TerraformResource {
       terraformResourceType: 'packetfabric_quick_connect_reject_request',
       terraformGeneratorMetadata: {
         providerName: 'packetfabric',
-        providerVersion: '1.9.3'
+        providerVersion: '1.9.3',
+        providerVersionConstraint: '1.9.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

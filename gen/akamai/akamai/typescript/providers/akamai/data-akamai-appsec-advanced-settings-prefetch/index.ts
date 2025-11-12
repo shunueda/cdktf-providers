@@ -62,7 +62,8 @@ export class DataAkamaiAppsecAdvancedSettingsPrefetch extends cdktf.TerraformDat
       terraformResourceType: 'akamai_appsec_advanced_settings_prefetch',
       terraformGeneratorMetadata: {
         providerName: 'akamai',
-        providerVersion: '9.1.0'
+        providerVersion: '9.1.0',
+        providerVersionConstraint: '9.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

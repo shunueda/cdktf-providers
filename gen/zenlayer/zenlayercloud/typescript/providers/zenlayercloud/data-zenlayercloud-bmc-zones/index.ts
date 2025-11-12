@@ -148,7 +148,8 @@ export class DataZenlayercloudBmcZones extends cdktf.TerraformDataSource {
       terraformResourceType: 'zenlayercloud_bmc_zones',
       terraformGeneratorMetadata: {
         providerName: 'zenlayercloud',
-        providerVersion: '0.2.8'
+        providerVersion: '0.2.8',
+        providerVersionConstraint: '0.2.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

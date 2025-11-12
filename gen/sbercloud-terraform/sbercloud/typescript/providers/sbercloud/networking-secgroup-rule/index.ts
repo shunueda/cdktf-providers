@@ -212,7 +212,8 @@ export class NetworkingSecgroupRule extends cdktf.TerraformResource {
       terraformResourceType: 'sbercloud_networking_secgroup_rule',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14'
+        providerVersion: '1.12.14',
+        providerVersionConstraint: '1.12.14'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

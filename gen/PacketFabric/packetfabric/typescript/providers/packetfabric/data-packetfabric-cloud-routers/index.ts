@@ -242,7 +242,8 @@ export class DataPacketfabricCloudRouters extends cdktf.TerraformDataSource {
       terraformResourceType: 'packetfabric_cloud_routers',
       terraformGeneratorMetadata: {
         providerName: 'packetfabric',
-        providerVersion: '1.9.3'
+        providerVersion: '1.9.3',
+        providerVersionConstraint: '1.9.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

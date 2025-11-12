@@ -303,7 +303,8 @@ export class FastedgeTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'gcore_fastedge_template',
       terraformGeneratorMetadata: {
         providerName: 'gcore',
-        providerVersion: '0.31.3'
+        providerVersion: '0.31.3',
+        providerVersionConstraint: '0.31.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

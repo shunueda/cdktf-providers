@@ -104,7 +104,8 @@ export class SmtpConfig extends cdktf.TerraformResource {
       terraformResourceType: 'zitadel_smtp_config',
       terraformGeneratorMetadata: {
         providerName: 'zitadel',
-        providerVersion: '2.3.0'
+        providerVersion: '2.3.0',
+        providerVersionConstraint: '2.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

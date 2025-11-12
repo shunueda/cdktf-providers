@@ -55,7 +55,8 @@ export class DataEjbcaEndEntityProfile extends cdktf.TerraformDataSource {
       terraformResourceType: 'ejbca_end_entity_profile',
       terraformGeneratorMetadata: {
         providerName: 'ejbca',
-        providerVersion: '1.1.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

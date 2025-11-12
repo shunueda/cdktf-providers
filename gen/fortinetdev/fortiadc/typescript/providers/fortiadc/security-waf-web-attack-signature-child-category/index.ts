@@ -285,7 +285,8 @@ export class SecurityWafWebAttackSignatureChildCategory extends cdktf.TerraformR
       terraformResourceType: 'fortiadc_security_waf_web_attack_signature_child_category',
       terraformGeneratorMetadata: {
         providerName: 'fortiadc',
-        providerVersion: '1.3.1'
+        providerVersion: '1.3.1',
+        providerVersionConstraint: '1.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

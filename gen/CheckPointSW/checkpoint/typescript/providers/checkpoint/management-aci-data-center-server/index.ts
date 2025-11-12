@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_aci_data_center_server
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_aci_data_center_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface ManagementAciDataCenterServerConfig extends cdktf.TerraformMeta
   /**
   * Specify the SHA-1 or SHA-256 fingerprint of the Data Center Server's certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_aci_data_center_server#certificate_fingerprint ManagementAciDataCenterServer#certificate_fingerprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_aci_data_center_server#certificate_fingerprint ManagementAciDataCenterServer#certificate_fingerprint}
   */
   readonly certificateFingerprint?: string;
   /**
   * Color of the object. Should be one of existing colors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_aci_data_center_server#color ManagementAciDataCenterServer#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_aci_data_center_server#color ManagementAciDataCenterServer#color}
   */
   readonly color?: string;
   /**
   * Comments string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_aci_data_center_server#comments ManagementAciDataCenterServer#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_aci_data_center_server#comments ManagementAciDataCenterServer#comments}
   */
   readonly comments?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_aci_data_center_server#id ManagementAciDataCenterServer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_aci_data_center_server#id ManagementAciDataCenterServer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,37 +35,37 @@ export interface ManagementAciDataCenterServerConfig extends cdktf.TerraformMeta
   /**
   * Apply changes ignoring errors. You won't be able to publish such a changes. If ignore-warnings flag was omitted - warnings will also be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_aci_data_center_server#ignore_errors ManagementAciDataCenterServer#ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_aci_data_center_server#ignore_errors ManagementAciDataCenterServer#ignore_errors}
   */
   readonly ignoreErrors?: boolean | cdktf.IResolvable;
   /**
   * Apply changes ignoring warnings. By Setting this parameter to 'true' test connection failure will be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_aci_data_center_server#ignore_warnings ManagementAciDataCenterServer#ignore_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_aci_data_center_server#ignore_warnings ManagementAciDataCenterServer#ignore_warnings}
   */
   readonly ignoreWarnings?: boolean | cdktf.IResolvable;
   /**
   * Object name. Must be unique in the domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_aci_data_center_server#name ManagementAciDataCenterServer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_aci_data_center_server#name ManagementAciDataCenterServer#name}
   */
   readonly name: string;
   /**
   * Password of the Cisco APIC server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_aci_data_center_server#password ManagementAciDataCenterServer#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_aci_data_center_server#password ManagementAciDataCenterServer#password}
   */
   readonly password?: string;
   /**
   * Password of the Cisco APIC server encoded in Base64.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_aci_data_center_server#password_base64 ManagementAciDataCenterServer#password_base64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_aci_data_center_server#password_base64 ManagementAciDataCenterServer#password_base64}
   */
   readonly passwordBase64?: string;
   /**
   * Collection of tag identifiers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_aci_data_center_server#tags ManagementAciDataCenterServer#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_aci_data_center_server#tags ManagementAciDataCenterServer#tags}
   */
   readonly tags?: string[];
   /**
@@ -73,14 +73,14 @@ export interface ManagementAciDataCenterServerConfig extends cdktf.TerraformMeta
   * 
   * When set to true, trust the current Data Center Server's certificate as-is.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_aci_data_center_server#unsafe_auto_accept ManagementAciDataCenterServer#unsafe_auto_accept}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_aci_data_center_server#unsafe_auto_accept ManagementAciDataCenterServer#unsafe_auto_accept}
   */
   readonly unsafeAutoAccept?: boolean | cdktf.IResolvable;
   /**
   * Address of APIC cluster members.
   * Example: http(s)://<host1 ip/url>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_aci_data_center_server#urls ManagementAciDataCenterServer#urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_aci_data_center_server#urls ManagementAciDataCenterServer#urls}
   */
   readonly urls: string[];
   /**
@@ -88,13 +88,13 @@ export interface ManagementAciDataCenterServerConfig extends cdktf.TerraformMeta
   * When using commonLoginLogic Domains use the following syntax:
   * apic:<domain>\<username>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_aci_data_center_server#username ManagementAciDataCenterServer#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_aci_data_center_server#username ManagementAciDataCenterServer#username}
   */
   readonly username: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_aci_data_center_server checkpoint_management_aci_data_center_server}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_aci_data_center_server checkpoint_management_aci_data_center_server}
 */
 export class ManagementAciDataCenterServer extends cdktf.TerraformResource {
 
@@ -110,7 +110,7 @@ export class ManagementAciDataCenterServer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementAciDataCenterServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementAciDataCenterServer to import
-  * @param importFromId The id of the existing ManagementAciDataCenterServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_aci_data_center_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementAciDataCenterServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_aci_data_center_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementAciDataCenterServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -122,7 +122,7 @@ export class ManagementAciDataCenterServer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_aci_data_center_server checkpoint_management_aci_data_center_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_aci_data_center_server checkpoint_management_aci_data_center_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -133,7 +133,8 @@ export class ManagementAciDataCenterServer extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_aci_data_center_server',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

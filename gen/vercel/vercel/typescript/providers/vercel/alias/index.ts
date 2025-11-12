@@ -67,7 +67,8 @@ export class Alias extends cdktf.TerraformResource {
       terraformResourceType: 'vercel_alias',
       terraformGeneratorMetadata: {
         providerName: 'vercel',
-        providerVersion: '4.0.0'
+        providerVersion: '4.0.0',
+        providerVersionConstraint: '4.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

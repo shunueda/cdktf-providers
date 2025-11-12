@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/networking_ips
+// https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/networking_ips
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataLinodeNetworkingIpsConfig extends cdktf.TerraformMetaArgume
   /**
   * The order in which results should be returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/networking_ips#order DataLinodeNetworkingIps#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/networking_ips#order DataLinodeNetworkingIps#order}
   */
   readonly order?: string;
   /**
   * The attribute to order the results by.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/networking_ips#order_by DataLinodeNetworkingIps#order_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/networking_ips#order_by DataLinodeNetworkingIps#order_by}
   */
   readonly orderBy?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/networking_ips#filter DataLinodeNetworkingIps#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/networking_ips#filter DataLinodeNetworkingIps#filter}
   */
   readonly filter?: DataLinodeNetworkingIpsFilter[] | cdktf.IResolvable;
   /**
   * ip_addresses block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/networking_ips#ip_addresses DataLinodeNetworkingIps#ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/networking_ips#ip_addresses DataLinodeNetworkingIps#ip_addresses}
   */
   readonly ipAddresses?: DataLinodeNetworkingIpsIpAddresses[] | cdktf.IResolvable;
 }
@@ -36,19 +36,19 @@ export interface DataLinodeNetworkingIpsFilter {
   /**
   * The type of comparison to use for this filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/networking_ips#match_by DataLinodeNetworkingIps#match_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/networking_ips#match_by DataLinodeNetworkingIps#match_by}
   */
   readonly matchBy?: string;
   /**
   * The name of the attribute to filter on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/networking_ips#name DataLinodeNetworkingIps#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/networking_ips#name DataLinodeNetworkingIps#name}
   */
   readonly name: string;
   /**
   * The value(s) to be used in the filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/networking_ips#values DataLinodeNetworkingIps#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/networking_ips#values DataLinodeNetworkingIps#values}
   */
   readonly values: string[];
 }
@@ -422,7 +422,7 @@ export class DataLinodeNetworkingIpsIpAddressesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/networking_ips linode_networking_ips}
+* Represents a {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/networking_ips linode_networking_ips}
 */
 export class DataLinodeNetworkingIps extends cdktf.TerraformDataSource {
 
@@ -438,7 +438,7 @@ export class DataLinodeNetworkingIps extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataLinodeNetworkingIps resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataLinodeNetworkingIps to import
-  * @param importFromId The id of the existing DataLinodeNetworkingIps that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/networking_ips#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataLinodeNetworkingIps that should be imported. Refer to the {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/networking_ips#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataLinodeNetworkingIps to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -450,7 +450,7 @@ export class DataLinodeNetworkingIps extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.0/docs/data-sources/networking_ips linode_networking_ips} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/linode/linode/3.5.1/docs/data-sources/networking_ips linode_networking_ips} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -461,7 +461,8 @@ export class DataLinodeNetworkingIps extends cdktf.TerraformDataSource {
       terraformResourceType: 'linode_networking_ips',
       terraformGeneratorMetadata: {
         providerName: 'linode',
-        providerVersion: '3.5.0'
+        providerVersion: '3.5.1',
+        providerVersionConstraint: '3.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

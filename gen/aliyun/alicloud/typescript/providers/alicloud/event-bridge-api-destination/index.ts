@@ -351,7 +351,8 @@ export class EventBridgeApiDestination extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_event_bridge_api_destination',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

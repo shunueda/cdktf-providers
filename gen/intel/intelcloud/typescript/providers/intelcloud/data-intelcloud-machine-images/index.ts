@@ -359,7 +359,8 @@ export class DataIntelcloudMachineImages extends cdktf.TerraformDataSource {
       terraformResourceType: 'intelcloud_machine_images',
       terraformGeneratorMetadata: {
         providerName: 'intelcloud',
-        providerVersion: '0.0.20'
+        providerVersion: '0.0.20',
+        providerVersionConstraint: '0.0.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

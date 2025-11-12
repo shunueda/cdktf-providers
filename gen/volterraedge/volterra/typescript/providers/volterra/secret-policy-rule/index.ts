@@ -298,7 +298,8 @@ export class SecretPolicyRule extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_secret_policy_rule',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.44'
+        providerVersion: '0.11.44',
+        providerVersionConstraint: '0.11.44'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

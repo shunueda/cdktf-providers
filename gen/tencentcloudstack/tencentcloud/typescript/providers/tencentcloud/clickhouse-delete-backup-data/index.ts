@@ -68,7 +68,8 @@ export class ClickhouseDeleteBackupData extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_clickhouse_delete_backup_data',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

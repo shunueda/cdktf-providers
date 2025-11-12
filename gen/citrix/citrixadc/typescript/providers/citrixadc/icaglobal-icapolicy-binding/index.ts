@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/icaglobal_icapolicy_binding
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/icaglobal_icapolicy_binding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,36 +8,36 @@ import * as cdktf from 'cdktf';
 
 export interface IcaglobalIcapolicyBindingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/icaglobal_icapolicy_binding#globalbindtype IcaglobalIcapolicyBinding#globalbindtype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/icaglobal_icapolicy_binding#globalbindtype IcaglobalIcapolicyBinding#globalbindtype}
   */
   readonly globalbindtype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/icaglobal_icapolicy_binding#gotopriorityexpression IcaglobalIcapolicyBinding#gotopriorityexpression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/icaglobal_icapolicy_binding#gotopriorityexpression IcaglobalIcapolicyBinding#gotopriorityexpression}
   */
   readonly gotopriorityexpression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/icaglobal_icapolicy_binding#id IcaglobalIcapolicyBinding#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/icaglobal_icapolicy_binding#id IcaglobalIcapolicyBinding#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/icaglobal_icapolicy_binding#policyname IcaglobalIcapolicyBinding#policyname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/icaglobal_icapolicy_binding#policyname IcaglobalIcapolicyBinding#policyname}
   */
   readonly policyname: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/icaglobal_icapolicy_binding#priority IcaglobalIcapolicyBinding#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/icaglobal_icapolicy_binding#priority IcaglobalIcapolicyBinding#priority}
   */
   readonly priority: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/icaglobal_icapolicy_binding#type IcaglobalIcapolicyBinding#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/icaglobal_icapolicy_binding#type IcaglobalIcapolicyBinding#type}
   */
   readonly type: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/icaglobal_icapolicy_binding citrixadc_icaglobal_icapolicy_binding}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/icaglobal_icapolicy_binding citrixadc_icaglobal_icapolicy_binding}
 */
 export class IcaglobalIcapolicyBinding extends cdktf.TerraformResource {
 
@@ -53,7 +53,7 @@ export class IcaglobalIcapolicyBinding extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IcaglobalIcapolicyBinding resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IcaglobalIcapolicyBinding to import
-  * @param importFromId The id of the existing IcaglobalIcapolicyBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/icaglobal_icapolicy_binding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IcaglobalIcapolicyBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/icaglobal_icapolicy_binding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IcaglobalIcapolicyBinding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -65,7 +65,7 @@ export class IcaglobalIcapolicyBinding extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/icaglobal_icapolicy_binding citrixadc_icaglobal_icapolicy_binding} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/icaglobal_icapolicy_binding citrixadc_icaglobal_icapolicy_binding} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -76,7 +76,8 @@ export class IcaglobalIcapolicyBinding extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_icaglobal_icapolicy_binding',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -49,7 +49,8 @@ export class DefaultVpcDeletion extends cdktf.TerraformResource {
       terraformResourceType: 'awsutils_default_vpc_deletion',
       terraformGeneratorMetadata: {
         providerName: 'awsutils',
-        providerVersion: '0.20.1'
+        providerVersion: '0.20.1',
+        providerVersionConstraint: '0.20.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

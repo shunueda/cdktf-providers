@@ -267,7 +267,8 @@ export class S3Key extends cdktf.TerraformResource {
       terraformResourceType: 'profitbricks_s3_key',
       terraformGeneratorMetadata: {
         providerName: 'profitbricks',
-        providerVersion: '1.6.5'
+        providerVersion: '1.6.5',
+        providerVersionConstraint: '1.6.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

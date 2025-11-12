@@ -230,7 +230,8 @@ export class DataSafeGenerateOnPremConnectorConfiguration extends cdktf.Terrafor
       terraformResourceType: 'oci_data_safe_generate_on_prem_connector_configuration',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -979,7 +979,8 @@ export class AuditConfig extends cdktf.TerraformResource {
       terraformResourceType: 'opensearch_audit_config',
       terraformGeneratorMetadata: {
         providerName: 'opensearch',
-        providerVersion: '2.3.2'
+        providerVersion: '2.3.2',
+        providerVersionConstraint: '2.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

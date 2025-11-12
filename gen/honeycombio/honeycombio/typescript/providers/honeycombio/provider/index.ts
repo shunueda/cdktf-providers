@@ -218,7 +218,8 @@ export class HoneycombioProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'honeycombio',
       terraformGeneratorMetadata: {
         providerName: 'honeycombio',
-        providerVersion: '0.42.0'
+        providerVersion: '0.42.0',
+        providerVersionConstraint: '0.42.0'
       },
       terraformProviderSource: 'honeycombio/honeycombio'
     });

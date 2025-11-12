@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_oracle_cloud_data_center_server
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_oracle_cloud_data_center_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface ManagementOracleCloudDataCenterServerConfig extends cdktf.Terra
   /**
   * key-authentication Uses the Service Account private key file to authenticate. vm-instance-authentication Uses VM Instance to authenticate. This option requires the Security Management Server deployed in Oracle Cloud, and running in a dynamic group with the required permissions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_oracle_cloud_data_center_server#authentication_method ManagementOracleCloudDataCenterServer#authentication_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_oracle_cloud_data_center_server#authentication_method ManagementOracleCloudDataCenterServer#authentication_method}
   */
   readonly authenticationMethod: string;
   /**
   * Color of the object. Should be one of existing colors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_oracle_cloud_data_center_server#color ManagementOracleCloudDataCenterServer#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_oracle_cloud_data_center_server#color ManagementOracleCloudDataCenterServer#color}
   */
   readonly color?: string;
   /**
   * Comments string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_oracle_cloud_data_center_server#comments ManagementOracleCloudDataCenterServer#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_oracle_cloud_data_center_server#comments ManagementOracleCloudDataCenterServer#comments}
   */
   readonly comments?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_oracle_cloud_data_center_server#id ManagementOracleCloudDataCenterServer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_oracle_cloud_data_center_server#id ManagementOracleCloudDataCenterServer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,55 +35,55 @@ export interface ManagementOracleCloudDataCenterServerConfig extends cdktf.Terra
   /**
   * Apply changes ignoring errors. You won't be able to publish such a changes. If ignore-warnings flag was omitted - warnings will also be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_oracle_cloud_data_center_server#ignore_errors ManagementOracleCloudDataCenterServer#ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_oracle_cloud_data_center_server#ignore_errors ManagementOracleCloudDataCenterServer#ignore_errors}
   */
   readonly ignoreErrors?: boolean | cdktf.IResolvable;
   /**
   * Apply changes ignoring warnings. By Setting this parameter to 'true' test connection failure will be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_oracle_cloud_data_center_server#ignore_warnings ManagementOracleCloudDataCenterServer#ignore_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_oracle_cloud_data_center_server#ignore_warnings ManagementOracleCloudDataCenterServer#ignore_warnings}
   */
   readonly ignoreWarnings?: boolean | cdktf.IResolvable;
   /**
   * An Oracle Cloud region for where to create scanner. Required for authentication-method: key-authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_oracle_cloud_data_center_server#key_region ManagementOracleCloudDataCenterServer#key_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_oracle_cloud_data_center_server#key_region ManagementOracleCloudDataCenterServer#key_region}
   */
   readonly keyRegion: string;
   /**
   * An Oracle Cloud tenancy id where the key was created. Required for authentication-method: key-authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_oracle_cloud_data_center_server#key_tenant ManagementOracleCloudDataCenterServer#key_tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_oracle_cloud_data_center_server#key_tenant ManagementOracleCloudDataCenterServer#key_tenant}
   */
   readonly keyTenant: string;
   /**
   * An Oracle Cloud user id associated with key. Required for authentication-method: key-authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_oracle_cloud_data_center_server#key_user ManagementOracleCloudDataCenterServer#key_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_oracle_cloud_data_center_server#key_user ManagementOracleCloudDataCenterServer#key_user}
   */
   readonly keyUser: string;
   /**
   * Object name. Must be unique in the domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_oracle_cloud_data_center_server#name ManagementOracleCloudDataCenterServer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_oracle_cloud_data_center_server#name ManagementOracleCloudDataCenterServer#name}
   */
   readonly name: string;
   /**
   *  An Oracle Cloud API key PEM file, encoded in base64. Required for authentication-method: key-authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_oracle_cloud_data_center_server#private_key ManagementOracleCloudDataCenterServer#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_oracle_cloud_data_center_server#private_key ManagementOracleCloudDataCenterServer#private_key}
   */
   readonly privateKey: string;
   /**
   * Collection of tag identifiers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_oracle_cloud_data_center_server#tags ManagementOracleCloudDataCenterServer#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_oracle_cloud_data_center_server#tags ManagementOracleCloudDataCenterServer#tags}
   */
   readonly tags?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_oracle_cloud_data_center_server checkpoint_management_oracle_cloud_data_center_server}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_oracle_cloud_data_center_server checkpoint_management_oracle_cloud_data_center_server}
 */
 export class ManagementOracleCloudDataCenterServer extends cdktf.TerraformResource {
 
@@ -99,7 +99,7 @@ export class ManagementOracleCloudDataCenterServer extends cdktf.TerraformResour
   * Generates CDKTF code for importing a ManagementOracleCloudDataCenterServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementOracleCloudDataCenterServer to import
-  * @param importFromId The id of the existing ManagementOracleCloudDataCenterServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_oracle_cloud_data_center_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementOracleCloudDataCenterServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_oracle_cloud_data_center_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementOracleCloudDataCenterServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -111,7 +111,7 @@ export class ManagementOracleCloudDataCenterServer extends cdktf.TerraformResour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_oracle_cloud_data_center_server checkpoint_management_oracle_cloud_data_center_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_oracle_cloud_data_center_server checkpoint_management_oracle_cloud_data_center_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -122,7 +122,8 @@ export class ManagementOracleCloudDataCenterServer extends cdktf.TerraformResour
       terraformResourceType: 'checkpoint_management_oracle_cloud_data_center_server',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

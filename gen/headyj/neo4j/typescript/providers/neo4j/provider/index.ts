@@ -67,7 +67,8 @@ export class Neo4JProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'neo4j',
       terraformGeneratorMetadata: {
         providerName: 'neo4j',
-        providerVersion: '0.3.2'
+        providerVersion: '0.3.2',
+        providerVersionConstraint: '0.3.2'
       },
       terraformProviderSource: 'headyj/neo4j'
     });

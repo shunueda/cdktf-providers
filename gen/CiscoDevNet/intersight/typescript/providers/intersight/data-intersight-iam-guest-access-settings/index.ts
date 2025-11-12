@@ -4015,7 +4015,8 @@ export class DataIntersightIamGuestAccessSettings extends cdktf.TerraformDataSou
       terraformResourceType: 'intersight_iam_guest_access_settings',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

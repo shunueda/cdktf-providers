@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/nas_accessrules
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/nas_accessrules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,34 +8,34 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlibabacloudstackNasAccessrulesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/nas_accessrules#access_group_name DataAlibabacloudstackNasAccessrules#access_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/nas_accessrules#access_group_name DataAlibabacloudstackNasAccessrules#access_group_name}
   */
   readonly accessGroupName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/nas_accessrules#id DataAlibabacloudstackNasAccessrules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/nas_accessrules#id DataAlibabacloudstackNasAccessrules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/nas_accessrules#ids DataAlibabacloudstackNasAccessrules#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/nas_accessrules#ids DataAlibabacloudstackNasAccessrules#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/nas_accessrules#output_file DataAlibabacloudstackNasAccessrules#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/nas_accessrules#output_file DataAlibabacloudstackNasAccessrules#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/nas_accessrules#rw_access DataAlibabacloudstackNasAccessrules#rw_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/nas_accessrules#rw_access DataAlibabacloudstackNasAccessrules#rw_access}
   */
   readonly rwAccess?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/nas_accessrules#source_cidr_ip DataAlibabacloudstackNasAccessrules#source_cidr_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/nas_accessrules#source_cidr_ip DataAlibabacloudstackNasAccessrules#source_cidr_ip}
   */
   readonly sourceCidrIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/nas_accessrules#user_access DataAlibabacloudstackNasAccessrules#user_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/nas_accessrules#user_access DataAlibabacloudstackNasAccessrules#user_access}
   */
   readonly userAccess?: string;
 }
@@ -136,7 +136,7 @@ export class DataAlibabacloudstackNasAccessrulesRulesList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/nas_accessrules alibabacloudstack_nas_accessrules}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/nas_accessrules alibabacloudstack_nas_accessrules}
 */
 export class DataAlibabacloudstackNasAccessrules extends cdktf.TerraformDataSource {
 
@@ -152,7 +152,7 @@ export class DataAlibabacloudstackNasAccessrules extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataAlibabacloudstackNasAccessrules resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlibabacloudstackNasAccessrules to import
-  * @param importFromId The id of the existing DataAlibabacloudstackNasAccessrules that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/nas_accessrules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlibabacloudstackNasAccessrules that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/nas_accessrules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlibabacloudstackNasAccessrules to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -164,7 +164,7 @@ export class DataAlibabacloudstackNasAccessrules extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/nas_accessrules alibabacloudstack_nas_accessrules} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/nas_accessrules alibabacloudstack_nas_accessrules} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -175,7 +175,8 @@ export class DataAlibabacloudstackNasAccessrules extends cdktf.TerraformDataSour
       terraformResourceType: 'alibabacloudstack_nas_accessrules',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.19'
+        providerVersion: '3.16.21',
+        providerVersionConstraint: '3.16.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

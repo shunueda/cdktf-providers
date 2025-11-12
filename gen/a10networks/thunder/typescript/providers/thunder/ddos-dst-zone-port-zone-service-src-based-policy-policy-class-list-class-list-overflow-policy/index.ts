@@ -500,7 +500,8 @@ export class DdosDstZonePortZoneServiceSrcBasedPolicyPolicyClassListClassListOve
       terraformResourceType: 'thunder_ddos_dst_zone_port_zone_service_src_based_policy_policy_class_list_class_list_overflow_policy',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

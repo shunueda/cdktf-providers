@@ -161,7 +161,8 @@ export class VaultStarterProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'vault-starter',
       terraformGeneratorMetadata: {
         providerName: 'vault-starter',
-        providerVersion: '0.2.4'
+        providerVersion: '0.2.4',
+        providerVersionConstraint: '0.2.4'
       },
       terraformProviderSource: 'andrei-funaru/vault-starter'
     });

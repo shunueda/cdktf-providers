@@ -74,7 +74,8 @@ export class ProjectApiKey extends cdktf.TerraformResource {
       terraformResourceType: 'metal_project_api_key',
       terraformGeneratorMetadata: {
         providerName: 'metal',
-        providerVersion: '3.3.0'
+        providerVersion: '3.3.0',
+        providerVersionConstraint: '3.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

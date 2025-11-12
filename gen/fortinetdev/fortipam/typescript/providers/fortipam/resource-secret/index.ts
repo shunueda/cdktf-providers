@@ -223,7 +223,8 @@ export class ResourceSecret extends cdktf.TerraformResource {
       terraformResourceType: 'fortipam_resource_secret',
       terraformGeneratorMetadata: {
         providerName: 'fortipam',
-        providerVersion: '1.0.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

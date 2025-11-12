@@ -104,7 +104,8 @@ export class DataVraRegionEnumerationVmc extends cdktf.TerraformDataSource {
       terraformResourceType: 'vra_region_enumeration_vmc',
       terraformGeneratorMetadata: {
         providerName: 'vra',
-        providerVersion: '0.15.0'
+        providerVersion: '0.15.0',
+        providerVersionConstraint: '0.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

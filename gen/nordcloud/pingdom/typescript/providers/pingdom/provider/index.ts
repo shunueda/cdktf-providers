@@ -59,7 +59,8 @@ export class PingdomProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'pingdom',
       terraformGeneratorMetadata: {
         providerName: 'pingdom',
-        providerVersion: '1.1.4'
+        providerVersion: '1.1.4',
+        providerVersionConstraint: '1.1.4'
       },
       terraformProviderSource: 'nordcloud/pingdom'
     });

@@ -305,7 +305,8 @@ export class DataOutscaleUsers extends cdktf.TerraformDataSource {
       terraformResourceType: 'outscale_users',
       terraformGeneratorMetadata: {
         providerName: 'outscale',
-        providerVersion: '1.2.1'
+        providerVersion: '1.2.1',
+        providerVersionConstraint: '1.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

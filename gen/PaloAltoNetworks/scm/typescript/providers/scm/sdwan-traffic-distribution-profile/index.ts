@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/sdwan_traffic_distribution_profile
+// https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/sdwan_traffic_distribution_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface SdwanTrafficDistributionProfileConfig extends cdktf.TerraformMe
   /**
   * The device in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/sdwan_traffic_distribution_profile#device SdwanTrafficDistributionProfile#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/sdwan_traffic_distribution_profile#device SdwanTrafficDistributionProfile#device}
   */
   readonly device?: string;
   /**
   * The folder in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/sdwan_traffic_distribution_profile#folder SdwanTrafficDistributionProfile#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/sdwan_traffic_distribution_profile#folder SdwanTrafficDistributionProfile#folder}
   */
   readonly folder?: string;
   /**
   * Link-Tags for interfaces identified by defined tags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/sdwan_traffic_distribution_profile#link_tags SdwanTrafficDistributionProfile#link_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/sdwan_traffic_distribution_profile#link_tags SdwanTrafficDistributionProfile#link_tags}
   */
   readonly linkTags?: SdwanTrafficDistributionProfileLinkTags[] | cdktf.IResolvable;
   /**
   * Profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/sdwan_traffic_distribution_profile#name SdwanTrafficDistributionProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/sdwan_traffic_distribution_profile#name SdwanTrafficDistributionProfile#name}
   */
   readonly name: string;
   /**
   * The snippet in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/sdwan_traffic_distribution_profile#snippet SdwanTrafficDistributionProfile#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/sdwan_traffic_distribution_profile#snippet SdwanTrafficDistributionProfile#snippet}
   */
   readonly snippet?: string;
   /**
   * Traffic distribution
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/sdwan_traffic_distribution_profile#traffic_distribution SdwanTrafficDistributionProfile#traffic_distribution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/sdwan_traffic_distribution_profile#traffic_distribution SdwanTrafficDistributionProfile#traffic_distribution}
   */
   readonly trafficDistribution?: string;
 }
@@ -48,13 +48,13 @@ export interface SdwanTrafficDistributionProfileLinkTags {
   /**
   * Link-Tag used for identifying a set of interfaces
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/sdwan_traffic_distribution_profile#name SdwanTrafficDistributionProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/sdwan_traffic_distribution_profile#name SdwanTrafficDistributionProfile#name}
   */
   readonly name: string;
   /**
   * Weight (percentage) (only used when `traffic-distribution` is `Weighted Session Distribution`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/sdwan_traffic_distribution_profile#weight SdwanTrafficDistributionProfile#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/sdwan_traffic_distribution_profile#weight SdwanTrafficDistributionProfile#weight}
   */
   readonly weight?: number;
 }
@@ -196,7 +196,7 @@ export class SdwanTrafficDistributionProfileLinkTagsList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/sdwan_traffic_distribution_profile scm_sdwan_traffic_distribution_profile}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/sdwan_traffic_distribution_profile scm_sdwan_traffic_distribution_profile}
 */
 export class SdwanTrafficDistributionProfile extends cdktf.TerraformResource {
 
@@ -212,7 +212,7 @@ export class SdwanTrafficDistributionProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SdwanTrafficDistributionProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SdwanTrafficDistributionProfile to import
-  * @param importFromId The id of the existing SdwanTrafficDistributionProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/sdwan_traffic_distribution_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SdwanTrafficDistributionProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/sdwan_traffic_distribution_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SdwanTrafficDistributionProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -224,7 +224,7 @@ export class SdwanTrafficDistributionProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/sdwan_traffic_distribution_profile scm_sdwan_traffic_distribution_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/sdwan_traffic_distribution_profile scm_sdwan_traffic_distribution_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -235,7 +235,8 @@ export class SdwanTrafficDistributionProfile extends cdktf.TerraformResource {
       terraformResourceType: 'scm_sdwan_traffic_distribution_profile',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.3'
+        providerVersion: '1.0.4',
+        providerVersionConstraint: '1.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

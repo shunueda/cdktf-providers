@@ -61,7 +61,8 @@ export class GroupAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'coralogix_group_attachment',
       terraformGeneratorMetadata: {
         providerName: 'coralogix',
-        providerVersion: '2.2.3'
+        providerVersion: '2.2.3',
+        providerVersionConstraint: '2.2.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

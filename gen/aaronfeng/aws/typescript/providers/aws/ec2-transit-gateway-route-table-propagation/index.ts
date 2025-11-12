@@ -64,7 +64,8 @@ export class Ec2TransitGatewayRouteTablePropagation extends cdktf.TerraformResou
       terraformResourceType: 'aws_ec2_transit_gateway_route_table_propagation',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '3.29.6'
+        providerVersion: '3.29.6',
+        providerVersionConstraint: '3.29.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -80,7 +80,8 @@ export class TlsActivation extends cdktf.TerraformResource {
       terraformResourceType: 'fastly_tls_activation',
       terraformGeneratorMetadata: {
         providerName: 'fastly',
-        providerVersion: '8.4.0'
+        providerVersion: '8.4.0',
+        providerVersionConstraint: '8.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

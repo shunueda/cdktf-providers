@@ -185,7 +185,8 @@ export class DataPowerstoreRemoteSystem extends cdktf.TerraformDataSource {
       terraformResourceType: 'powerstore_remote_system',
       terraformGeneratorMetadata: {
         providerName: 'powerstore',
-        providerVersion: '1.2.1'
+        providerVersion: '1.2.1',
+        providerVersionConstraint: '1.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

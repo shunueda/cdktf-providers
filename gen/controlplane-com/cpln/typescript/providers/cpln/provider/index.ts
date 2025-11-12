@@ -85,7 +85,8 @@ export class CplnProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'cpln',
       terraformGeneratorMetadata: {
         providerName: 'cpln',
-        providerVersion: '1.2.14'
+        providerVersion: '1.2.14',
+        providerVersionConstraint: '1.2.14'
       },
       terraformProviderSource: 'controlplane-com/cpln'
     });

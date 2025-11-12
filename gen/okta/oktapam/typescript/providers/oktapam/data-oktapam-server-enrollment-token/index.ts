@@ -62,7 +62,8 @@ export class DataOktapamServerEnrollmentToken extends cdktf.TerraformDataSource 
       terraformResourceType: 'oktapam_server_enrollment_token',
       terraformGeneratorMetadata: {
         providerName: 'oktapam',
-        providerVersion: '0.6.2'
+        providerVersion: '0.6.2',
+        providerVersionConstraint: '0.6.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

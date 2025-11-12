@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/dcs_templates
+// https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/dcs_templates
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataHcsDcsTemplatesConfig extends cdktf.TerraformMetaArguments 
   /**
   * Specifies the DCS instance type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/dcs_templates#cache_mode DataHcsDcsTemplates#cache_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/dcs_templates#cache_mode DataHcsDcsTemplates#cache_mode}
   */
   readonly cacheMode?: string;
   /**
   * Specifies the cache engine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/dcs_templates#engine DataHcsDcsTemplates#engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/dcs_templates#engine DataHcsDcsTemplates#engine}
   */
   readonly engine?: string;
   /**
   * Specifies the cache engine version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/dcs_templates#engine_version DataHcsDcsTemplates#engine_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/dcs_templates#engine_version DataHcsDcsTemplates#engine_version}
   */
   readonly engineVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/dcs_templates#id DataHcsDcsTemplates#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/dcs_templates#id DataHcsDcsTemplates#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,35 +35,35 @@ export interface DataHcsDcsTemplatesConfig extends cdktf.TerraformMetaArguments 
   /**
   * Specifies the name of the template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/dcs_templates#name DataHcsDcsTemplates#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/dcs_templates#name DataHcsDcsTemplates#name}
   */
   readonly name?: string;
   /**
   * Specifies the product edition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/dcs_templates#product_type DataHcsDcsTemplates#product_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/dcs_templates#product_type DataHcsDcsTemplates#product_type}
   */
   readonly productType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/dcs_templates#region DataHcsDcsTemplates#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/dcs_templates#region DataHcsDcsTemplates#region}
   */
   readonly region?: string;
   /**
   * Specifies the storage type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/dcs_templates#storage_type DataHcsDcsTemplates#storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/dcs_templates#storage_type DataHcsDcsTemplates#storage_type}
   */
   readonly storageType?: string;
   /**
   * Specifies the ID of the template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/dcs_templates#template_id DataHcsDcsTemplates#template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/dcs_templates#template_id DataHcsDcsTemplates#template_id}
   */
   readonly templateId?: string;
   /**
   * Specifies the type of the template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/dcs_templates#type DataHcsDcsTemplates#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/dcs_templates#type DataHcsDcsTemplates#type}
   */
   readonly type: string;
 }
@@ -184,7 +184,7 @@ export class DataHcsDcsTemplatesTemplatesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/dcs_templates hcs_dcs_templates}
+* Represents a {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/dcs_templates hcs_dcs_templates}
 */
 export class DataHcsDcsTemplates extends cdktf.TerraformDataSource {
 
@@ -200,7 +200,7 @@ export class DataHcsDcsTemplates extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataHcsDcsTemplates resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHcsDcsTemplates to import
-  * @param importFromId The id of the existing DataHcsDcsTemplates that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/dcs_templates#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHcsDcsTemplates that should be imported. Refer to the {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/dcs_templates#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHcsDcsTemplates to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -212,7 +212,7 @@ export class DataHcsDcsTemplates extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.19/docs/data-sources/dcs_templates hcs_dcs_templates} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/huaweicloud/hcs/2.4.20/docs/data-sources/dcs_templates hcs_dcs_templates} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -223,7 +223,8 @@ export class DataHcsDcsTemplates extends cdktf.TerraformDataSource {
       terraformResourceType: 'hcs_dcs_templates',
       terraformGeneratorMetadata: {
         providerName: 'hcs',
-        providerVersion: '2.4.19'
+        providerVersion: '2.4.20',
+        providerVersionConstraint: '2.4.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

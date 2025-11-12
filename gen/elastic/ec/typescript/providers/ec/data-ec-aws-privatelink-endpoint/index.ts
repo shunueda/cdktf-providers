@@ -55,7 +55,8 @@ export class DataEcAwsPrivatelinkEndpoint extends cdktf.TerraformDataSource {
       terraformResourceType: 'ec_aws_privatelink_endpoint',
       terraformGeneratorMetadata: {
         providerName: 'ec',
-        providerVersion: '0.12.2'
+        providerVersion: '0.12.2',
+        providerVersionConstraint: '0.12.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

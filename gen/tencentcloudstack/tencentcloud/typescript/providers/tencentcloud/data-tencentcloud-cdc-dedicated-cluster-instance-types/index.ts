@@ -213,7 +213,8 @@ export class DataTencentcloudCdcDedicatedClusterInstanceTypes extends cdktf.Terr
       terraformResourceType: 'tencentcloud_cdc_dedicated_cluster_instance_types',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

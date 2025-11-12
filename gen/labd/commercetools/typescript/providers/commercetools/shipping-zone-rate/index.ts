@@ -820,7 +820,8 @@ export class ShippingZoneRate extends cdktf.TerraformResource {
       terraformResourceType: 'commercetools_shipping_zone_rate',
       terraformGeneratorMetadata: {
         providerName: 'commercetools',
-        providerVersion: '1.21.1'
+        providerVersion: '1.21.1',
+        providerVersionConstraint: '1.21.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

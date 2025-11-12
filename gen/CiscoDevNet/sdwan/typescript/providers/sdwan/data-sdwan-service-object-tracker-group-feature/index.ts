@@ -139,7 +139,8 @@ export class DataSdwanServiceObjectTrackerGroupFeature extends cdktf.TerraformDa
       terraformResourceType: 'sdwan_service_object_tracker_group_feature',
       terraformGeneratorMetadata: {
         providerName: 'sdwan',
-        providerVersion: '0.8.1'
+        providerVersion: '0.8.1',
+        providerVersionConstraint: '0.8.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

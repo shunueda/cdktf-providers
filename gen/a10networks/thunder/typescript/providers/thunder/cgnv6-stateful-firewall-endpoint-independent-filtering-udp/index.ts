@@ -221,7 +221,8 @@ export class Cgnv6StatefulFirewallEndpointIndependentFilteringUdp extends cdktf.
       terraformResourceType: 'thunder_cgnv6_stateful_firewall_endpoint_independent_filtering_udp',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

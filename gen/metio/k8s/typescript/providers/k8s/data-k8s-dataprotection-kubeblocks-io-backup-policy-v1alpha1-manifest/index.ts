@@ -10324,7 +10324,8 @@ export class DataK8SDataprotectionKubeblocksIoBackupPolicyV1Alpha1Manifest exten
       terraformResourceType: 'k8s_dataprotection_kubeblocks_io_backup_policy_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

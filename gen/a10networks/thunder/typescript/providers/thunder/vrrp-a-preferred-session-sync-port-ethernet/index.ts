@@ -74,7 +74,8 @@ export class VrrpAPreferredSessionSyncPortEthernet extends cdktf.TerraformResour
       terraformResourceType: 'thunder_vrrp_a_preferred_session_sync_port_ethernet',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

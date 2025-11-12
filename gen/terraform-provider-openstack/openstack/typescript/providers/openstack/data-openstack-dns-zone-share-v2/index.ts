@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/dns_zone_share_v2
+// https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/dns_zone_share_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface DataOpenstackDnsZoneShareV2Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/dns_zone_share_v2#all_projects DataOpenstackDnsZoneShareV2#all_projects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/dns_zone_share_v2#all_projects DataOpenstackDnsZoneShareV2#all_projects}
   */
   readonly allProjects?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/dns_zone_share_v2#id DataOpenstackDnsZoneShareV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/dns_zone_share_v2#id DataOpenstackDnsZoneShareV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -21,33 +21,33 @@ export interface DataOpenstackDnsZoneShareV2Config extends cdktf.TerraformMetaAr
   /**
   * Optional: The owner project ID. If omitted, it is derived from the zone details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/dns_zone_share_v2#project_id DataOpenstackDnsZoneShareV2#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/dns_zone_share_v2#project_id DataOpenstackDnsZoneShareV2#project_id}
   */
   readonly projectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/dns_zone_share_v2#region DataOpenstackDnsZoneShareV2#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/dns_zone_share_v2#region DataOpenstackDnsZoneShareV2#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/dns_zone_share_v2#share_id DataOpenstackDnsZoneShareV2#share_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/dns_zone_share_v2#share_id DataOpenstackDnsZoneShareV2#share_id}
   */
   readonly shareId?: string;
   /**
   * Optional: If provided, filter shares by target_project_id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/dns_zone_share_v2#target_project_id DataOpenstackDnsZoneShareV2#target_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/dns_zone_share_v2#target_project_id DataOpenstackDnsZoneShareV2#target_project_id}
   */
   readonly targetProjectId?: string;
   /**
   * The ID of the DNS zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/dns_zone_share_v2#zone_id DataOpenstackDnsZoneShareV2#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/dns_zone_share_v2#zone_id DataOpenstackDnsZoneShareV2#zone_id}
   */
   readonly zoneId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/dns_zone_share_v2 openstack_dns_zone_share_v2}
+* Represents a {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/dns_zone_share_v2 openstack_dns_zone_share_v2}
 */
 export class DataOpenstackDnsZoneShareV2 extends cdktf.TerraformDataSource {
 
@@ -63,7 +63,7 @@ export class DataOpenstackDnsZoneShareV2 extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOpenstackDnsZoneShareV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOpenstackDnsZoneShareV2 to import
-  * @param importFromId The id of the existing DataOpenstackDnsZoneShareV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/dns_zone_share_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOpenstackDnsZoneShareV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/dns_zone_share_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOpenstackDnsZoneShareV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class DataOpenstackDnsZoneShareV2 extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.3.2/docs/data-sources/dns_zone_share_v2 openstack_dns_zone_share_v2} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/terraform-provider-openstack/openstack/3.4.0/docs/data-sources/dns_zone_share_v2 openstack_dns_zone_share_v2} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,7 +86,8 @@ export class DataOpenstackDnsZoneShareV2 extends cdktf.TerraformDataSource {
       terraformResourceType: 'openstack_dns_zone_share_v2',
       terraformGeneratorMetadata: {
         providerName: 'openstack',
-        providerVersion: '3.3.2'
+        providerVersion: '3.4.0',
+        providerVersionConstraint: '3.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -379,7 +379,8 @@ export class ImportList extends cdktf.TerraformResource {
       terraformResourceType: 'radarr_import_list',
       terraformGeneratorMetadata: {
         providerName: 'radarr',
-        providerVersion: '2.3.3'
+        providerVersion: '2.3.3',
+        providerVersionConstraint: '2.3.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

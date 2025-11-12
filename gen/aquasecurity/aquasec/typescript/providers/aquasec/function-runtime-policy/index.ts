@@ -2310,7 +2310,8 @@ export class FunctionRuntimePolicy extends cdktf.TerraformResource {
       terraformResourceType: 'aquasec_function_runtime_policy',
       terraformGeneratorMetadata: {
         providerName: 'aquasec',
-        providerVersion: '0.11.0'
+        providerVersion: '0.11.0',
+        providerVersionConstraint: '0.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

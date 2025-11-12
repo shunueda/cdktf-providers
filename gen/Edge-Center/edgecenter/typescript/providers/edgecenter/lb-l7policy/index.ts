@@ -301,7 +301,8 @@ export class LbL7Policy extends cdktf.TerraformResource {
       terraformResourceType: 'edgecenter_lb_l7policy',
       terraformGeneratorMetadata: {
         providerName: 'edgecenter',
-        providerVersion: '0.10.4'
+        providerVersion: '0.10.4',
+        providerVersionConstraint: '0.10.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

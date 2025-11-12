@@ -55,7 +55,8 @@ export class RateLimitWarningThresholdPercentage extends cdktf.TerraformResource
       terraformResourceType: 'okta_rate_limit_warning_threshold_percentage',
       terraformGeneratorMetadata: {
         providerName: 'okta',
-        providerVersion: '6.4.0'
+        providerVersion: '6.4.0',
+        providerVersionConstraint: '6.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

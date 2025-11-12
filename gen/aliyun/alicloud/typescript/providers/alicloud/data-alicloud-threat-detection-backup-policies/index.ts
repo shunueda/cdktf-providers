@@ -198,7 +198,8 @@ export class DataAlicloudThreatDetectionBackupPolicies extends cdktf.TerraformDa
       terraformResourceType: 'alicloud_threat_detection_backup_policies',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

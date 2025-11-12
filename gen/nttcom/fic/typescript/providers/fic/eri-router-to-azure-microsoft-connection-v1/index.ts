@@ -229,7 +229,8 @@ export class EriRouterToAzureMicrosoftConnectionV1 extends cdktf.TerraformResour
       terraformResourceType: 'fic_eri_router_to_azure_microsoft_connection_v1',
       terraformGeneratorMetadata: {
         providerName: 'fic',
-        providerVersion: '0.5.6'
+        providerVersion: '0.5.6',
+        providerVersionConstraint: '0.5.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

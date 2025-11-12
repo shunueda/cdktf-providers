@@ -86,7 +86,8 @@ export class AppliancePassword extends cdktf.TerraformResource {
       terraformResourceType: 'vcda_appliance_password',
       terraformGeneratorMetadata: {
         providerName: 'vcda',
-        providerVersion: '2.1.0'
+        providerVersion: '2.1.0',
+        providerVersionConstraint: '2.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

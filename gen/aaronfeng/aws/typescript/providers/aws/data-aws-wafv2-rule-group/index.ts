@@ -64,7 +64,8 @@ export class DataAwsWafv2RuleGroup extends cdktf.TerraformDataSource {
       terraformResourceType: 'aws_wafv2_rule_group',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '3.29.6'
+        providerVersion: '3.29.6',
+        providerVersionConstraint: '3.29.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

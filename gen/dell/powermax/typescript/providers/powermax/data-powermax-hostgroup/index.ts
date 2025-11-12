@@ -555,7 +555,8 @@ export class DataPowermaxHostgroup extends cdktf.TerraformDataSource {
       terraformResourceType: 'powermax_hostgroup',
       terraformGeneratorMetadata: {
         providerName: 'powermax',
-        providerVersion: '1.0.3'
+        providerVersion: '1.0.3',
+        providerVersionConstraint: '1.0.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

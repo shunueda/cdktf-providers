@@ -67,7 +67,8 @@ export class Folder extends cdktf.TerraformResource {
       terraformResourceType: 'vantage_folder',
       terraformGeneratorMetadata: {
         providerName: 'vantage',
-        providerVersion: '0.1.68'
+        providerVersion: '0.1.68',
+        providerVersionConstraint: '0.1.68'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

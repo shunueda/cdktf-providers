@@ -49,7 +49,8 @@ export class DataRadarrSystemStatus extends cdktf.TerraformDataSource {
       terraformResourceType: 'radarr_system_status',
       terraformGeneratorMetadata: {
         providerName: 'radarr',
-        providerVersion: '2.3.3'
+        providerVersion: '2.3.3',
+        providerVersionConstraint: '2.3.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

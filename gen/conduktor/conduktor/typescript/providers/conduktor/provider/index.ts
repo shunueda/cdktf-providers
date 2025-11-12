@@ -110,7 +110,8 @@ export class ConduktorProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'conduktor',
       terraformGeneratorMetadata: {
         providerName: 'conduktor',
-        providerVersion: '1.0.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       terraformProviderSource: 'conduktor/conduktor'
     });

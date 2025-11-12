@@ -153,7 +153,8 @@ export class DataUcloudLbSsls extends cdktf.TerraformDataSource {
       terraformResourceType: 'ucloud_lb_ssls',
       terraformGeneratorMetadata: {
         providerName: 'ucloud',
-        providerVersion: '1.39.1'
+        providerVersion: '1.39.1',
+        providerVersionConstraint: '1.39.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -241,7 +241,8 @@ export class DataDuplocloudTenantSecrets extends cdktf.TerraformDataSource {
       terraformResourceType: 'duplocloud_tenant_secrets',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.28'
+        providerVersion: '0.11.28',
+        providerVersionConstraint: '0.11.28'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

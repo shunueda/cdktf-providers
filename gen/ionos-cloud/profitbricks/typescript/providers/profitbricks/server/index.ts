@@ -1360,7 +1360,8 @@ export class Server extends cdktf.TerraformResource {
       terraformResourceType: 'profitbricks_server',
       terraformGeneratorMetadata: {
         providerName: 'profitbricks',
-        providerVersion: '1.6.5'
+        providerVersion: '1.6.5',
+        providerVersionConstraint: '1.6.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

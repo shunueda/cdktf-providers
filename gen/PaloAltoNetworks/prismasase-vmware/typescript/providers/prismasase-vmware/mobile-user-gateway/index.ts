@@ -108,7 +108,8 @@ export class MobileUserGateway extends cdktf.TerraformResource {
       terraformResourceType: 'prismasase-vmware_mobile_user_gateway',
       terraformGeneratorMetadata: {
         providerName: 'prismasase-vmware',
-        providerVersion: '1.0.7'
+        providerVersion: '1.0.7',
+        providerVersionConstraint: '1.0.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

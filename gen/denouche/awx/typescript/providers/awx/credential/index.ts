@@ -78,7 +78,8 @@ export class Credential extends cdktf.TerraformResource {
       terraformResourceType: 'awx_credential',
       terraformGeneratorMetadata: {
         providerName: 'awx',
-        providerVersion: '0.29.1'
+        providerVersion: '0.29.1',
+        providerVersionConstraint: '0.29.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

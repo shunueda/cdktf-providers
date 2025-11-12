@@ -9369,7 +9369,8 @@ export class ApplicationSpec extends cdktf.TerraformResource {
       terraformResourceType: 'prismacloud-waas_application_spec',
       terraformGeneratorMetadata: {
         providerName: 'prismacloud-waas',
-        providerVersion: '1.0.4'
+        providerVersion: '1.0.4',
+        providerVersionConstraint: '1.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

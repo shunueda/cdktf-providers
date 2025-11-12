@@ -809,7 +809,8 @@ export class Lbpool extends cdktf.TerraformResource {
       terraformResourceType: 'edgecenter_lbpool',
       terraformGeneratorMetadata: {
         providerName: 'edgecenter',
-        providerVersion: '0.10.4'
+        providerVersion: '0.10.4',
+        providerVersionConstraint: '0.10.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

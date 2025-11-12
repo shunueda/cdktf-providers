@@ -658,7 +658,8 @@ export class DataOciLogAnalyticsLogAnalyticsObjectCollectionRules extends cdktf.
       terraformResourceType: 'oci_log_analytics_log_analytics_object_collection_rules',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

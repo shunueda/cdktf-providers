@@ -422,7 +422,8 @@ export class OdaOdaPrivateEndpointScanProxy extends cdktf.TerraformResource {
       terraformResourceType: 'oci_oda_oda_private_endpoint_scan_proxy',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

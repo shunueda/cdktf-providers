@@ -350,7 +350,8 @@ export class Schema extends cdktf.TerraformResource {
       terraformResourceType: 'postgresql_schema',
       terraformGeneratorMetadata: {
         providerName: 'postgresql',
-        providerVersion: '1.26.0'
+        providerVersion: '1.26.0',
+        providerVersionConstraint: '1.26.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

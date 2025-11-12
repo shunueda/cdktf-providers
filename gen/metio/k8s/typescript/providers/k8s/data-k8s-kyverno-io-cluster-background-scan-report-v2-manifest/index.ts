@@ -1855,7 +1855,8 @@ export class DataK8SKyvernoIoClusterBackgroundScanReportV2Manifest extends cdktf
       terraformResourceType: 'k8s_kyverno_io_cluster_background_scan_report_v2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

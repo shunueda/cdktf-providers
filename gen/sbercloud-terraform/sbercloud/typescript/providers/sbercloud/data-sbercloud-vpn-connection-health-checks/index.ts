@@ -181,7 +181,8 @@ export class DataSbercloudVpnConnectionHealthChecks extends cdktf.TerraformDataS
       terraformResourceType: 'sbercloud_vpn_connection_health_checks',
       terraformGeneratorMetadata: {
         providerName: 'sbercloud',
-        providerVersion: '1.12.14'
+        providerVersion: '1.12.14',
+        providerVersionConstraint: '1.12.14'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

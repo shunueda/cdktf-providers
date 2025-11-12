@@ -1655,7 +1655,8 @@ export class DataK8STopolvmCybozuComTopolvmClusterV2Manifest extends cdktf.Terra
       terraformResourceType: 'k8s_topolvm_cybozu_com_topolvm_cluster_v2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

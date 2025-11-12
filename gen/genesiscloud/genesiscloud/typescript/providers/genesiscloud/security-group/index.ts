@@ -500,7 +500,8 @@ export class SecurityGroup extends cdktf.TerraformResource {
       terraformResourceType: 'genesiscloud_security_group',
       terraformGeneratorMetadata: {
         providerName: 'genesiscloud',
-        providerVersion: '1.1.14'
+        providerVersion: '1.1.14',
+        providerVersionConstraint: '1.1.14'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

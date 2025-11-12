@@ -11,43 +11,43 @@ export interface LogicalRouterConfig extends cdktf.TerraformMetaArguments {
   /**
   * The device in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/logical_router#device LogicalRouter#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/logical_router#device LogicalRouter#device}
   */
   readonly device?: string;
   /**
   * The folder in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/logical_router#folder LogicalRouter#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/logical_router#folder LogicalRouter#folder}
   */
   readonly folder?: string;
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/logical_router#name LogicalRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/logical_router#name LogicalRouter#name}
   */
   readonly name: string;
   /**
   * Routing stack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/logical_router#routing_stack LogicalRouter#routing_stack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/logical_router#routing_stack LogicalRouter#routing_stack}
   */
   readonly routingStack?: string;
   /**
   * The snippet in which the resource is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/logical_router#snippet LogicalRouter#snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/logical_router#snippet LogicalRouter#snippet}
   */
   readonly snippet?: string;
   /**
   * Vrf
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/logical_router#vrf LogicalRouter#vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/logical_router#vrf LogicalRouter#vrf}
   */
   readonly vrf?: LogicalRouterVrf[] | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/logical_router scm_logical_router}
+* Represents a {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/logical_router scm_logical_router}
 */
 export class LogicalRouter extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class LogicalRouter extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LogicalRouter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LogicalRouter to import
-  * @param importFromId The id of the existing LogicalRouter that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/logical_router#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LogicalRouter that should be imported. Refer to the {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/logical_router#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LogicalRouter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class LogicalRouter extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.3/docs/resources/logical_router scm_logical_router} Resource
+  * Create a new {@link https://registry.terraform.io/providers/paloaltonetworks/scm/1.0.4/docs/resources/logical_router scm_logical_router} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,7 +86,8 @@ export class LogicalRouter extends cdktf.TerraformResource {
       terraformResourceType: 'scm_logical_router',
       terraformGeneratorMetadata: {
         providerName: 'scm',
-        providerVersion: '1.0.3'
+        providerVersion: '1.0.4',
+        providerVersionConstraint: '1.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

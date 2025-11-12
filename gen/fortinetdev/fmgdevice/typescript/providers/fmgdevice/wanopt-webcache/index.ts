@@ -132,7 +132,8 @@ export class WanoptWebcache extends cdktf.TerraformResource {
       terraformResourceType: 'fmgdevice_wanopt_webcache',
       terraformGeneratorMetadata: {
         providerName: 'fmgdevice',
-        providerVersion: '1.2.1'
+        providerVersion: '1.2.1',
+        providerVersionConstraint: '1.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

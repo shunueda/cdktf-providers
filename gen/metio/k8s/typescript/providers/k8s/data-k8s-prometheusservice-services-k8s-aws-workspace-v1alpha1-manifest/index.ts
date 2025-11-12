@@ -387,7 +387,8 @@ export class DataK8SPrometheusserviceServicesK8SAwsWorkspaceV1Alpha1Manifest ext
       terraformResourceType: 'k8s_prometheusservice_services_k8s_aws_workspace_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

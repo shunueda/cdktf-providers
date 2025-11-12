@@ -3362,7 +3362,8 @@ export class ChassisConfigImport extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_chassis_config_import',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

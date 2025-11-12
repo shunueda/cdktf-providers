@@ -61,7 +61,8 @@ export class DataClickhousePrivateEndpointConfig extends cdktf.TerraformDataSour
       terraformResourceType: 'clickhouse_private_endpoint_config',
       terraformGeneratorMetadata: {
         providerName: 'clickhouse',
-        providerVersion: '3.5.4'
+        providerVersion: '3.5.4',
+        providerVersionConstraint: '3.5.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

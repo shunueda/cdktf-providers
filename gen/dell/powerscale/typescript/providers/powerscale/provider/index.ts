@@ -91,7 +91,8 @@ export class PowerscaleProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'powerscale',
       terraformGeneratorMetadata: {
         providerName: 'powerscale',
-        providerVersion: '1.8.0'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       terraformProviderSource: 'dell/powerscale'
     });

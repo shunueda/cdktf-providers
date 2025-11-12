@@ -79,7 +79,8 @@ export class CivoProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'civo',
       terraformGeneratorMetadata: {
         providerName: 'civo',
-        providerVersion: '1.1.7'
+        providerVersion: '1.1.7',
+        providerVersionConstraint: '1.1.7'
       },
       terraformProviderSource: 'civo/civo'
     });

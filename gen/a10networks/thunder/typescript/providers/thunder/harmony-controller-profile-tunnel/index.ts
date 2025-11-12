@@ -68,7 +68,8 @@ export class HarmonyControllerProfileTunnelA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_harmony_controller_profile_tunnel',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

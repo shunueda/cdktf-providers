@@ -150,7 +150,8 @@ export class DataFileLocalDirectory extends cdktf.TerraformDataSource {
       terraformResourceType: 'file_local_directory',
       terraformGeneratorMetadata: {
         providerName: 'file',
-        providerVersion: '2.2.2'
+        providerVersion: '2.2.2',
+        providerVersionConstraint: '2.2.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

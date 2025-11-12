@@ -79,7 +79,8 @@ export class PacketfabricProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'packetfabric',
       terraformGeneratorMetadata: {
         providerName: 'packetfabric',
-        providerVersion: '1.9.3'
+        providerVersion: '1.9.3',
+        providerVersionConstraint: '1.9.3'
       },
       terraformProviderSource: 'PacketFabric/packetfabric'
     });

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_security_policies
+// https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_security_policies
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataApstraDatacenterSecurityPoliciesConfig extends cdktf.Terraf
   /**
   * Apstra Blueprint ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_security_policies#blueprint_id DataApstraDatacenterSecurityPolicies#blueprint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_security_policies#blueprint_id DataApstraDatacenterSecurityPolicies#blueprint_id}
   */
   readonly blueprintId: string;
   /**
   * List of filters used to select only desired node IDs. For a node to match a filter, all specified attributes must match (each attribute within a filter is AND-ed together). The returned node IDs represent the nodes matched by all of the filters together (filters are OR-ed together).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_security_policies#filters DataApstraDatacenterSecurityPolicies#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_security_policies#filters DataApstraDatacenterSecurityPolicies#filters}
   */
   readonly filters?: DataApstraDatacenterSecurityPoliciesFilters[] | cdktf.IResolvable;
 }
@@ -296,37 +296,37 @@ export interface DataApstraDatacenterSecurityPoliciesFilters {
   /**
   * Security Policy description, as seen in the Web UI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_security_policies#description DataApstraDatacenterSecurityPolicies#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_security_policies#description DataApstraDatacenterSecurityPolicies#description}
   */
   readonly description?: string;
   /**
   * Graph node ID of the destination Application Point (Virtual Network ID, Routing Zone ID, etc...)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_security_policies#destination_application_point_id DataApstraDatacenterSecurityPolicies#destination_application_point_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_security_policies#destination_application_point_id DataApstraDatacenterSecurityPolicies#destination_application_point_id}
   */
   readonly destinationApplicationPointId?: string;
   /**
   * Indicates whether the Security Policy is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_security_policies#enabled DataApstraDatacenterSecurityPolicies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_security_policies#enabled DataApstraDatacenterSecurityPolicies#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Security Policy name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_security_policies#name DataApstraDatacenterSecurityPolicies#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_security_policies#name DataApstraDatacenterSecurityPolicies#name}
   */
   readonly name?: string;
   /**
   * Graph node ID of the source Application Point (Virtual Network ID, Routing Zone ID, etc...)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_security_policies#source_application_point_id DataApstraDatacenterSecurityPolicies#source_application_point_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_security_policies#source_application_point_id DataApstraDatacenterSecurityPolicies#source_application_point_id}
   */
   readonly sourceApplicationPointId?: string;
   /**
   * Set of Tags. All tags supplied here are used to match the Security Policy, but a matching Security Policy may have additional tags not enumerated in this set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_security_policies#tags DataApstraDatacenterSecurityPolicies#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_security_policies#tags DataApstraDatacenterSecurityPolicies#tags}
   */
   readonly tags?: string[];
 }
@@ -603,7 +603,7 @@ export class DataApstraDatacenterSecurityPoliciesFiltersList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_security_policies apstra_datacenter_security_policies}
+* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_security_policies apstra_datacenter_security_policies}
 */
 export class DataApstraDatacenterSecurityPolicies extends cdktf.TerraformDataSource {
 
@@ -619,7 +619,7 @@ export class DataApstraDatacenterSecurityPolicies extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataApstraDatacenterSecurityPolicies resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataApstraDatacenterSecurityPolicies to import
-  * @param importFromId The id of the existing DataApstraDatacenterSecurityPolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_security_policies#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataApstraDatacenterSecurityPolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_security_policies#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataApstraDatacenterSecurityPolicies to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -631,7 +631,7 @@ export class DataApstraDatacenterSecurityPolicies extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/datacenter_security_policies apstra_datacenter_security_policies} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/datacenter_security_policies apstra_datacenter_security_policies} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -642,7 +642,8 @@ export class DataApstraDatacenterSecurityPolicies extends cdktf.TerraformDataSou
       terraformResourceType: 'apstra_datacenter_security_policies',
       terraformGeneratorMetadata: {
         providerName: 'apstra',
-        providerVersion: '0.95.0'
+        providerVersion: '0.95.1',
+        providerVersionConstraint: '0.95.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

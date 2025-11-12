@@ -62,7 +62,8 @@ export class DataAkeylessResetAccessKey extends cdktf.TerraformDataSource {
       terraformResourceType: 'akeyless_reset_access_key',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1'
+        providerVersion: '1.11.1',
+        providerVersionConstraint: '1.11.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -64,7 +64,8 @@ export class DataOciDataSafeSecurityPolicyReportDatabaseViewAccessEntry extends 
       terraformResourceType: 'oci_data_safe_security_policy_report_database_view_access_entry',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

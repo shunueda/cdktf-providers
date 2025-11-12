@@ -252,7 +252,8 @@ export class DataCenter extends cdktf.TerraformResource {
       terraformResourceType: 'incapsula_data_center',
       terraformGeneratorMetadata: {
         providerName: 'incapsula',
-        providerVersion: '3.35.1'
+        providerVersion: '3.35.1',
+        providerVersionConstraint: '3.35.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

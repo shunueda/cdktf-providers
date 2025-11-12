@@ -64,7 +64,8 @@ export class DataServerscomUplinkModelOrderOption extends cdktf.TerraformDataSou
       terraformResourceType: 'serverscom_uplink_model_order_option',
       terraformGeneratorMetadata: {
         providerName: 'serverscom',
-        providerVersion: '0.5.2'
+        providerVersion: '0.5.2',
+        providerVersionConstraint: '0.5.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

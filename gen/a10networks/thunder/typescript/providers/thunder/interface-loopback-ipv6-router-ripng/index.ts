@@ -74,7 +74,8 @@ export class InterfaceLoopbackIpv6RouterRipngA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_interface_loopback_ipv6_router_ripng',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

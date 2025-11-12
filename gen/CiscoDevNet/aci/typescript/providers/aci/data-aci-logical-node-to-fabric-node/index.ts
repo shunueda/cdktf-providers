@@ -84,7 +84,8 @@ export class DataAciLogicalNodeToFabricNode extends cdktf.TerraformDataSource {
       terraformResourceType: 'aci_logical_node_to_fabric_node',
       terraformGeneratorMetadata: {
         providerName: 'aci',
-        providerVersion: '2.18.0'
+        providerVersion: '2.18.0',
+        providerVersionConstraint: '2.18.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

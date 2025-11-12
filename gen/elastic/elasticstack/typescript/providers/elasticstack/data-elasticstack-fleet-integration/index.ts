@@ -61,7 +61,8 @@ export class DataElasticstackFleetIntegration extends cdktf.TerraformDataSource 
       terraformResourceType: 'elasticstack_fleet_integration',
       terraformGeneratorMetadata: {
         providerName: 'elasticstack',
-        providerVersion: '0.12.1'
+        providerVersion: '0.12.1',
+        providerVersionConstraint: '0.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

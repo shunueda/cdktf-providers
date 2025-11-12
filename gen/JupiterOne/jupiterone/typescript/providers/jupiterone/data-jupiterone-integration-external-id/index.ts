@@ -49,7 +49,8 @@ export class DataJupiteroneIntegrationExternalId extends cdktf.TerraformDataSour
       terraformResourceType: 'jupiterone_integration_external_id',
       terraformGeneratorMetadata: {
         providerName: 'jupiterone',
-        providerVersion: '1.16.3'
+        providerVersion: '1.16.3',
+        providerVersionConstraint: '1.16.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

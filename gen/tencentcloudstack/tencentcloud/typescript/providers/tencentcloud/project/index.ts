@@ -74,7 +74,8 @@ export class Project extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_project',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

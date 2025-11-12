@@ -68,7 +68,8 @@ export class ServiceDependency extends cdktf.TerraformResource {
       terraformResourceType: 'firehydrant_service_dependency',
       terraformGeneratorMetadata: {
         providerName: 'firehydrant',
-        providerVersion: '0.14.9'
+        providerVersion: '0.14.9',
+        providerVersionConstraint: '0.14.9'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

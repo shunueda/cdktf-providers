@@ -193,7 +193,8 @@ export class OssBucketDataRedundancyTransition extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_oss_bucket_data_redundancy_transition',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -385,7 +385,8 @@ export class AssignDeviceToSite extends cdktf.TerraformResource {
       terraformResourceType: 'dnacenter_assign_device_to_site',
       terraformGeneratorMetadata: {
         providerName: 'dnacenter',
-        providerVersion: '1.1.21'
+        providerVersion: '1.1.21',
+        providerVersionConstraint: '1.1.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

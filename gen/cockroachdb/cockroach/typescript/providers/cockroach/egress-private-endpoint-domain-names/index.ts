@@ -67,7 +67,8 @@ export class EgressPrivateEndpointDomainNames extends cdktf.TerraformResource {
       terraformResourceType: 'cockroach_egress_private_endpoint_domain_names',
       terraformGeneratorMetadata: {
         providerName: 'cockroach',
-        providerVersion: '1.16.0'
+        providerVersion: '1.16.0',
+        providerVersionConstraint: '1.16.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

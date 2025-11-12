@@ -408,7 +408,8 @@ export class ProjectAccessApprovalSettings extends cdktf.TerraformResource {
       terraformResourceType: 'google_project_access_approval_settings',
       terraformGeneratorMetadata: {
         providerName: 'google',
-        providerVersion: '4.16.4'
+        providerVersion: '4.16.4',
+        providerVersionConstraint: '4.16.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

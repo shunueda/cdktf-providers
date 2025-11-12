@@ -67,7 +67,8 @@ export class OrcasecurityProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'orcasecurity',
       terraformGeneratorMetadata: {
         providerName: 'orcasecurity',
-        providerVersion: '0.0.23'
+        providerVersion: '0.0.23',
+        providerVersionConstraint: '0.0.23'
       },
       terraformProviderSource: 'orcasecurity/orcasecurity'
     });

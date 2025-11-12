@@ -1088,7 +1088,8 @@ export class Enterprise extends cdktf.TerraformResource {
       terraformResourceType: 'zedcloud_enterprise',
       terraformGeneratorMetadata: {
         providerName: 'zedcloud',
-        providerVersion: '2.5.0'
+        providerVersion: '2.5.0',
+        providerVersionConstraint: '2.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

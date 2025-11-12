@@ -76,7 +76,8 @@ export class TrustsecEgressMatrixCellDefault extends cdktf.TerraformResource {
       terraformResourceType: 'ise_trustsec_egress_matrix_cell_default',
       terraformGeneratorMetadata: {
         providerName: 'ise',
-        providerVersion: '0.2.12'
+        providerVersion: '0.2.12',
+        providerVersionConstraint: '0.2.12'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

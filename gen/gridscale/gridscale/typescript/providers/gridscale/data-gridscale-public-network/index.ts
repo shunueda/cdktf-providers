@@ -56,7 +56,8 @@ export class DataGridscalePublicNetwork extends cdktf.TerraformDataSource {
       terraformResourceType: 'gridscale_public_network',
       terraformGeneratorMetadata: {
         providerName: 'gridscale',
-        providerVersion: '2.2.3'
+        providerVersion: '2.2.3',
+        providerVersionConstraint: '2.2.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

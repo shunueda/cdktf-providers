@@ -64,7 +64,8 @@ export class DataFortiadcRouterAccessList6 extends cdktf.TerraformDataSource {
       terraformResourceType: 'fortiadc_router_access_list6',
       terraformGeneratorMetadata: {
         providerName: 'fortiadc',
-        providerVersion: '1.3.1'
+        providerVersion: '1.3.1',
+        providerVersionConstraint: '1.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -92,7 +92,8 @@ export class StoragegatewayStoredIscsiVolume extends cdktf.TerraformResource {
       terraformResourceType: 'aws_storagegateway_stored_iscsi_volume',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '3.29.6'
+        providerVersion: '3.29.6',
+        providerVersionConstraint: '3.29.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

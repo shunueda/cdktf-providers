@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/kafka_user_v2_instance
+// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/kafka_user_v2_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataInstaclustrKafkaUserV2InstanceConfig extends cdktf.Terrafor
   /**
   * Authentication mechanisms supported for KafkaClusters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/kafka_user_v2_instance#auth_mechanism DataInstaclustrKafkaUserV2Instance#auth_mechanism}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/kafka_user_v2_instance#auth_mechanism DataInstaclustrKafkaUserV2Instance#auth_mechanism}
   */
   readonly authMechanism?: string;
   /**
   * ID of the Kafka cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/kafka_user_v2_instance#cluster_id DataInstaclustrKafkaUserV2Instance#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/kafka_user_v2_instance#cluster_id DataInstaclustrKafkaUserV2Instance#cluster_id}
   */
   readonly clusterId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/kafka_user_v2_instance#id DataInstaclustrKafkaUserV2Instance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/kafka_user_v2_instance#id DataInstaclustrKafkaUserV2Instance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface DataInstaclustrKafkaUserV2InstanceConfig extends cdktf.Terrafor
   /**
   * Permissions initially granted to Kafka user upon creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/kafka_user_v2_instance#initial_permissions DataInstaclustrKafkaUserV2Instance#initial_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/kafka_user_v2_instance#initial_permissions DataInstaclustrKafkaUserV2Instance#initial_permissions}
   */
   readonly initialPermissions?: string;
   /**
   * Password for the Kafka user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/kafka_user_v2_instance#password DataInstaclustrKafkaUserV2Instance#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/kafka_user_v2_instance#password DataInstaclustrKafkaUserV2Instance#password}
   */
   readonly password?: string;
   /**
   * Username of the Kafka user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/kafka_user_v2_instance#username DataInstaclustrKafkaUserV2Instance#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/kafka_user_v2_instance#username DataInstaclustrKafkaUserV2Instance#username}
   */
   readonly username?: string;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/kafka_user_v2_instance#options DataInstaclustrKafkaUserV2Instance#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/kafka_user_v2_instance#options DataInstaclustrKafkaUserV2Instance#options}
   */
   readonly options?: DataInstaclustrKafkaUserV2InstanceOptions;
 }
@@ -55,13 +55,13 @@ export interface DataInstaclustrKafkaUserV2InstanceOptions {
   /**
   * Overwrite user if already exists.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/kafka_user_v2_instance#override_existing_user DataInstaclustrKafkaUserV2Instance#override_existing_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/kafka_user_v2_instance#override_existing_user DataInstaclustrKafkaUserV2Instance#override_existing_user}
   */
   readonly overrideExistingUser?: boolean | cdktf.IResolvable;
   /**
   * Scram Mechanism for SASL authentication. Valid values: SCRAM-SHA-256, SCRAM-SHA-512
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/kafka_user_v2_instance#sasl_scram_mechanism DataInstaclustrKafkaUserV2Instance#sasl_scram_mechanism}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/kafka_user_v2_instance#sasl_scram_mechanism DataInstaclustrKafkaUserV2Instance#sasl_scram_mechanism}
   */
   readonly saslScramMechanism?: string;
 }
@@ -174,7 +174,7 @@ export class DataInstaclustrKafkaUserV2InstanceOptionsOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/kafka_user_v2_instance instaclustr_kafka_user_v2_instance}
+* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/kafka_user_v2_instance instaclustr_kafka_user_v2_instance}
 */
 export class DataInstaclustrKafkaUserV2Instance extends cdktf.TerraformDataSource {
 
@@ -190,7 +190,7 @@ export class DataInstaclustrKafkaUserV2Instance extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataInstaclustrKafkaUserV2Instance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataInstaclustrKafkaUserV2Instance to import
-  * @param importFromId The id of the existing DataInstaclustrKafkaUserV2Instance that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/kafka_user_v2_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataInstaclustrKafkaUserV2Instance that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/kafka_user_v2_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataInstaclustrKafkaUserV2Instance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -202,7 +202,7 @@ export class DataInstaclustrKafkaUserV2Instance extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.25/docs/data-sources/kafka_user_v2_instance instaclustr_kafka_user_v2_instance} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/kafka_user_v2_instance instaclustr_kafka_user_v2_instance} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -213,7 +213,8 @@ export class DataInstaclustrKafkaUserV2Instance extends cdktf.TerraformDataSourc
       terraformResourceType: 'instaclustr_kafka_user_v2_instance',
       terraformGeneratorMetadata: {
         providerName: 'instaclustr',
-        providerVersion: '2.1.25'
+        providerVersion: '2.1.26',
+        providerVersionConstraint: '2.1.26'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

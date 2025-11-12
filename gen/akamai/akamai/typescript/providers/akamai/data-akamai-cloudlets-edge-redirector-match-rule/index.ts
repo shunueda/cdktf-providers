@@ -1338,7 +1338,8 @@ export class DataAkamaiCloudletsEdgeRedirectorMatchRule extends cdktf.TerraformD
       terraformResourceType: 'akamai_cloudlets_edge_redirector_match_rule',
       terraformGeneratorMetadata: {
         providerName: 'akamai',
-        providerVersion: '9.1.0'
+        providerVersion: '9.1.0',
+        providerVersionConstraint: '9.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

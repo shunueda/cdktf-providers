@@ -73,7 +73,8 @@ export class PasswordExpirationPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'artifactory_password_expiration_policy',
       terraformGeneratorMetadata: {
         providerName: 'artifactory',
-        providerVersion: '12.10.1'
+        providerVersion: '12.10.1',
+        providerVersionConstraint: '12.10.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,6 @@
 {
   "cdktf": "0.21.0",
-  "providers": {}
+  "providers": {
+    "nginxproxymanager": "1.2.2"
+  }
 }

@@ -64,7 +64,8 @@ export class SensorUpdatePolicyHostGroupAttachment extends cdktf.TerraformResour
       terraformResourceType: 'crowdstrike_sensor_update_policy_host_group_attachment',
       terraformGeneratorMetadata: {
         providerName: 'crowdstrike',
-        providerVersion: '0.0.43'
+        providerVersion: '0.0.43',
+        providerVersionConstraint: '0.0.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

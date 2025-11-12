@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/useraccountprofile
+// https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/useraccountprofile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,54 +8,54 @@ import * as cdktf from 'cdktf';
 
 export interface UseraccountprofileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/useraccountprofile#account_lock_timeout Useraccountprofile#account_lock_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/useraccountprofile#account_lock_timeout Useraccountprofile#account_lock_timeout}
   */
   readonly accountLockTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/useraccountprofile#credentials_timeout_threshold Useraccountprofile#credentials_timeout_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/useraccountprofile#credentials_timeout_threshold Useraccountprofile#credentials_timeout_threshold}
   */
   readonly credentialsTimeoutThreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/useraccountprofile#id Useraccountprofile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/useraccountprofile#id Useraccountprofile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/useraccountprofile#login_failure_count_expiry_window Useraccountprofile#login_failure_count_expiry_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/useraccountprofile#login_failure_count_expiry_window Useraccountprofile#login_failure_count_expiry_window}
   */
   readonly loginFailureCountExpiryWindow?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/useraccountprofile#max_concurrent_sessions Useraccountprofile#max_concurrent_sessions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/useraccountprofile#max_concurrent_sessions Useraccountprofile#max_concurrent_sessions}
   */
   readonly maxConcurrentSessions?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/useraccountprofile#max_login_failure_count Useraccountprofile#max_login_failure_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/useraccountprofile#max_login_failure_count Useraccountprofile#max_login_failure_count}
   */
   readonly maxLoginFailureCount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/useraccountprofile#max_password_history_count Useraccountprofile#max_password_history_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/useraccountprofile#max_password_history_count Useraccountprofile#max_password_history_count}
   */
   readonly maxPasswordHistoryCount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/useraccountprofile#name Useraccountprofile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/useraccountprofile#name Useraccountprofile#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/useraccountprofile#uuid Useraccountprofile#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/useraccountprofile#uuid Useraccountprofile#uuid}
   */
   readonly uuid?: string;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/useraccountprofile#configpb_attributes Useraccountprofile#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/useraccountprofile#configpb_attributes Useraccountprofile#configpb_attributes}
   */
   readonly configpbAttributes?: UseraccountprofileConfigpbAttributes[] | cdktf.IResolvable;
 }
 export interface UseraccountprofileConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/useraccountprofile#version Useraccountprofile#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/useraccountprofile#version Useraccountprofile#version}
   */
   readonly version?: string;
 }
@@ -171,7 +171,7 @@ export class UseraccountprofileConfigpbAttributesList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/useraccountprofile avi_useraccountprofile}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/useraccountprofile avi_useraccountprofile}
 */
 export class Useraccountprofile extends cdktf.TerraformResource {
 
@@ -187,7 +187,7 @@ export class Useraccountprofile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Useraccountprofile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Useraccountprofile to import
-  * @param importFromId The id of the existing Useraccountprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/useraccountprofile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Useraccountprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/useraccountprofile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Useraccountprofile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -199,7 +199,7 @@ export class Useraccountprofile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/31.1.1/docs/resources/useraccountprofile avi_useraccountprofile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/useraccountprofile avi_useraccountprofile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -210,7 +210,8 @@ export class Useraccountprofile extends cdktf.TerraformResource {
       terraformResourceType: 'avi_useraccountprofile',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '31.1.1'
+        providerVersion: '30.2.5',
+        providerVersionConstraint: '30.2.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -84,7 +84,8 @@ export class User extends cdktf.TerraformResource {
       terraformResourceType: 'victorops_user',
       terraformGeneratorMetadata: {
         providerName: 'victorops',
-        providerVersion: '0.1.4'
+        providerVersion: '0.1.4',
+        providerVersionConstraint: '0.1.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

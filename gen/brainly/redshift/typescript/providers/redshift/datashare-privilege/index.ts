@@ -74,7 +74,8 @@ export class DatasharePrivilege extends cdktf.TerraformResource {
       terraformResourceType: 'redshift_datashare_privilege',
       terraformGeneratorMetadata: {
         providerName: 'redshift',
-        providerVersion: '1.1.0'
+        providerVersion: '1.1.0',
+        providerVersionConstraint: '1.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

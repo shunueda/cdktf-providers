@@ -49,7 +49,8 @@ export class DataCrowdstrikeContentCategoryVersions extends cdktf.TerraformDataS
       terraformResourceType: 'crowdstrike_content_category_versions',
       terraformGeneratorMetadata: {
         providerName: 'crowdstrike',
-        providerVersion: '0.0.43'
+        providerVersion: '0.0.43',
+        providerVersionConstraint: '0.0.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

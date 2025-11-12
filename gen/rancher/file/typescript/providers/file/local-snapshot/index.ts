@@ -73,7 +73,8 @@ export class LocalSnapshot extends cdktf.TerraformResource {
       terraformResourceType: 'file_local_snapshot',
       terraformGeneratorMetadata: {
         providerName: 'file',
-        providerVersion: '2.2.2'
+        providerVersion: '2.2.2',
+        providerVersionConstraint: '2.2.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

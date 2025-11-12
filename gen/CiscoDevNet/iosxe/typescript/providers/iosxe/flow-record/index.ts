@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/flow_record
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/flow_record
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,222 +10,259 @@ export interface FlowRecordConfig extends cdktf.TerraformMetaArguments {
   /**
   * The direction of the flow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/flow_record#collect_connection_initiator FlowRecord#collect_connection_initiator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/flow_record#collect_connection_initiator FlowRecord#collect_connection_initiator}
   */
   readonly collectConnectionInitiator?: boolean | cdktf.IResolvable;
   /**
   * The number of connection initiations observed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/flow_record#collect_connection_new_connections FlowRecord#collect_connection_new_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/flow_record#collect_connection_new_connections FlowRecord#collect_connection_new_connections}
   */
   readonly collectConnectionNewConnections?: boolean | cdktf.IResolvable;
   /**
   * Total number of bytes transmitted by the server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/flow_record#collect_connection_server_counter_bytes_network_long FlowRecord#collect_connection_server_counter_bytes_network_long}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/flow_record#collect_connection_server_counter_bytes_network_long FlowRecord#collect_connection_server_counter_bytes_network_long}
   */
   readonly collectConnectionServerCounterBytesNetworkLong?: boolean | cdktf.IResolvable;
   /**
   * 64 bits counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/flow_record#collect_connection_server_counter_packets_long FlowRecord#collect_connection_server_counter_packets_long}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/flow_record#collect_connection_server_counter_packets_long FlowRecord#collect_connection_server_counter_packets_long}
   */
   readonly collectConnectionServerCounterPacketsLong?: boolean | cdktf.IResolvable;
   /**
   * Total number of bytes (64 bit counter)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/flow_record#collect_counter_bytes_long FlowRecord#collect_counter_bytes_long}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/flow_record#collect_counter_bytes_long FlowRecord#collect_counter_bytes_long}
   */
   readonly collectCounterBytesLong?: boolean | cdktf.IResolvable;
   /**
   * Total number of packets (64 bit counter)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/flow_record#collect_counter_packets_long FlowRecord#collect_counter_packets_long}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/flow_record#collect_counter_packets_long FlowRecord#collect_counter_packets_long}
   */
   readonly collectCounterPacketsLong?: boolean | cdktf.IResolvable;
   /**
   * Source MAC address from packet at input
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/flow_record#collect_datalink_mac_source_address_input FlowRecord#collect_datalink_mac_source_address_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/flow_record#collect_datalink_mac_source_address_input FlowRecord#collect_datalink_mac_source_address_input}
   */
   readonly collectDatalinkMacSourceAddressInput?: boolean | cdktf.IResolvable;
   /**
   * Direction the flow was monitored in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/flow_record#collect_flow_direction FlowRecord#collect_flow_direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/flow_record#collect_flow_direction FlowRecord#collect_flow_direction}
   */
   readonly collectFlowDirection?: boolean | cdktf.IResolvable;
   /**
   * The output interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/flow_record#collect_interface_output FlowRecord#collect_interface_output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/flow_record#collect_interface_output FlowRecord#collect_interface_output}
   */
   readonly collectInterfaceOutput?: boolean | cdktf.IResolvable;
   /**
   * Absolute time the first packet was seen (milliseconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/flow_record#collect_timestamp_absolute_first FlowRecord#collect_timestamp_absolute_first}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/flow_record#collect_timestamp_absolute_first FlowRecord#collect_timestamp_absolute_first}
   */
   readonly collectTimestampAbsoluteFirst?: boolean | cdktf.IResolvable;
   /**
   * Absolute time the most recent packet was seen (milliseconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/flow_record#collect_timestamp_absolute_last FlowRecord#collect_timestamp_absolute_last}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/flow_record#collect_timestamp_absolute_last FlowRecord#collect_timestamp_absolute_last}
   */
   readonly collectTimestampAbsoluteLast?: boolean | cdktf.IResolvable;
   /**
   * TCP flags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/flow_record#collect_transport_tcp_flags FlowRecord#collect_transport_tcp_flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/flow_record#collect_transport_tcp_flags FlowRecord#collect_transport_tcp_flags}
   */
   readonly collectTransportTcpFlags?: boolean | cdktf.IResolvable;
   /**
   * Configure behavior when deleting/destroying the resource. Either delete the entire object (YANG container) being managed, or only delete the individual resource attributes configured explicitly and leave everything else as-is. Default value is `all`.
   *   - Choices: `all`, `attributes`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/flow_record#delete_mode FlowRecord#delete_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/flow_record#delete_mode FlowRecord#delete_mode}
   */
   readonly deleteMode?: string;
   /**
   * Provide a description for this Flow Record
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/flow_record#description FlowRecord#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/flow_record#description FlowRecord#description}
   */
   readonly description?: string;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/flow_record#device FlowRecord#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/flow_record#device FlowRecord#device}
   */
   readonly device?: string;
   /**
   * Application name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/flow_record#match_application_name FlowRecord#match_application_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/flow_record#match_application_name FlowRecord#match_application_name}
   */
   readonly matchApplicationName?: boolean | cdktf.IResolvable;
   /**
   * IPv4 address of the flow initiator
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/flow_record#match_connection_client_ipv4_address FlowRecord#match_connection_client_ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/flow_record#match_connection_client_ipv4_address FlowRecord#match_connection_client_ipv4_address}
   */
   readonly matchConnectionClientIpv4Address?: boolean | cdktf.IResolvable;
   /**
   * IPv6 address of the flow initiator
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/flow_record#match_connection_client_ipv6_address FlowRecord#match_connection_client_ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/flow_record#match_connection_client_ipv6_address FlowRecord#match_connection_client_ipv6_address}
   */
   readonly matchConnectionClientIpv6Address?: boolean | cdktf.IResolvable;
   /**
   * IPv4 address of the flow responder
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/flow_record#match_connection_server_ipv4_address FlowRecord#match_connection_server_ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/flow_record#match_connection_server_ipv4_address FlowRecord#match_connection_server_ipv4_address}
   */
   readonly matchConnectionServerIpv4Address?: boolean | cdktf.IResolvable;
   /**
   * IPv6 address of the flow responder
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/flow_record#match_connection_server_ipv6_address FlowRecord#match_connection_server_ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/flow_record#match_connection_server_ipv6_address FlowRecord#match_connection_server_ipv6_address}
   */
   readonly matchConnectionServerIpv6Address?: boolean | cdktf.IResolvable;
   /**
   * Transport port of the flow responder
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/flow_record#match_connection_server_transport_port FlowRecord#match_connection_server_transport_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/flow_record#match_connection_server_transport_port FlowRecord#match_connection_server_transport_port}
   */
   readonly matchConnectionServerTransportPort?: boolean | cdktf.IResolvable;
   /**
+  * Match destination VLAN ID, available on router platforms (C8K, CSR1K)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/flow_record#match_datalink_destination_vlan_id FlowRecord#match_datalink_destination_vlan_id}
+  */
+  readonly matchDatalinkDestinationVlanId?: boolean | cdktf.IResolvable;
+  /**
+  * Destination MAC address from packet at input
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/flow_record#match_datalink_mac_destination_address_input FlowRecord#match_datalink_mac_destination_address_input}
+  */
+  readonly matchDatalinkMacDestinationAddressInput?: boolean | cdktf.IResolvable;
+  /**
+  * Source MAC address from packet at input
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/flow_record#match_datalink_mac_source_address_input FlowRecord#match_datalink_mac_source_address_input}
+  */
+  readonly matchDatalinkMacSourceAddressInput?: boolean | cdktf.IResolvable;
+  /**
+  * Match source VLAN ID, available on router platforms (C8K, CSR1K)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/flow_record#match_datalink_source_vlan_id FlowRecord#match_datalink_source_vlan_id}
+  */
+  readonly matchDatalinkSourceVlanId?: boolean | cdktf.IResolvable;
+  /**
+  * Match VLAN input/output, available on switch platforms (C9K)
+  *   - Choices: `input`, `output`
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/flow_record#match_datalink_vlan FlowRecord#match_datalink_vlan}
+  */
+  readonly matchDatalinkVlan?: string;
+  /**
   * Direction the flow was monitored in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/flow_record#match_flow_direction FlowRecord#match_flow_direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/flow_record#match_flow_direction FlowRecord#match_flow_direction}
   */
   readonly matchFlowDirection?: boolean | cdktf.IResolvable;
   /**
   * Observation point ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/flow_record#match_flow_observation_point FlowRecord#match_flow_observation_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/flow_record#match_flow_observation_point FlowRecord#match_flow_observation_point}
   */
   readonly matchFlowObservationPoint?: boolean | cdktf.IResolvable;
   /**
   * The input interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/flow_record#match_interface_input FlowRecord#match_interface_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/flow_record#match_interface_input FlowRecord#match_interface_input}
   */
   readonly matchInterfaceInput?: boolean | cdktf.IResolvable;
   /**
   * IPv4 destination address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/flow_record#match_ipv4_destination_address FlowRecord#match_ipv4_destination_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/flow_record#match_ipv4_destination_address FlowRecord#match_ipv4_destination_address}
   */
   readonly matchIpv4DestinationAddress?: boolean | cdktf.IResolvable;
   /**
   * IPv4 protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/flow_record#match_ipv4_protocol FlowRecord#match_ipv4_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/flow_record#match_ipv4_protocol FlowRecord#match_ipv4_protocol}
   */
   readonly matchIpv4Protocol?: boolean | cdktf.IResolvable;
   /**
   * IPv4 source address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/flow_record#match_ipv4_source_address FlowRecord#match_ipv4_source_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/flow_record#match_ipv4_source_address FlowRecord#match_ipv4_source_address}
   */
   readonly matchIpv4SourceAddress?: boolean | cdktf.IResolvable;
   /**
   * IPv4 type of service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/flow_record#match_ipv4_tos FlowRecord#match_ipv4_tos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/flow_record#match_ipv4_tos FlowRecord#match_ipv4_tos}
   */
   readonly matchIpv4Tos?: boolean | cdktf.IResolvable;
   /**
+  * IPv4 TTL
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/flow_record#match_ipv4_ttl FlowRecord#match_ipv4_ttl}
+  */
+  readonly matchIpv4Ttl?: boolean | cdktf.IResolvable;
+  /**
   * IP version from IPv4 header
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/flow_record#match_ipv4_version FlowRecord#match_ipv4_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/flow_record#match_ipv4_version FlowRecord#match_ipv4_version}
   */
   readonly matchIpv4Version?: boolean | cdktf.IResolvable;
   /**
   * IPv6 destination address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/flow_record#match_ipv6_destination_address FlowRecord#match_ipv6_destination_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/flow_record#match_ipv6_destination_address FlowRecord#match_ipv6_destination_address}
   */
   readonly matchIpv6DestinationAddress?: boolean | cdktf.IResolvable;
   /**
   * IPv6 payload protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/flow_record#match_ipv6_protocol FlowRecord#match_ipv6_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/flow_record#match_ipv6_protocol FlowRecord#match_ipv6_protocol}
   */
   readonly matchIpv6Protocol?: boolean | cdktf.IResolvable;
   /**
   * IPv6 source address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/flow_record#match_ipv6_source_address FlowRecord#match_ipv6_source_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/flow_record#match_ipv6_source_address FlowRecord#match_ipv6_source_address}
   */
   readonly matchIpv6SourceAddress?: boolean | cdktf.IResolvable;
   /**
   * IP version from IPv6 header
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/flow_record#match_ipv6_version FlowRecord#match_ipv6_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/flow_record#match_ipv6_version FlowRecord#match_ipv6_version}
   */
   readonly matchIpv6Version?: boolean | cdktf.IResolvable;
   /**
   * Transport destination port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/flow_record#match_transport_destination_port FlowRecord#match_transport_destination_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/flow_record#match_transport_destination_port FlowRecord#match_transport_destination_port}
   */
   readonly matchTransportDestinationPort?: boolean | cdktf.IResolvable;
   /**
   * Transport source port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/flow_record#match_transport_source_port FlowRecord#match_transport_source_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/flow_record#match_transport_source_port FlowRecord#match_transport_source_port}
   */
   readonly matchTransportSourcePort?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/flow_record#name FlowRecord#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/flow_record#name FlowRecord#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/flow_record iosxe_flow_record}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/flow_record iosxe_flow_record}
 */
 export class FlowRecord extends cdktf.TerraformResource {
 
@@ -241,7 +278,7 @@ export class FlowRecord extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FlowRecord resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FlowRecord to import
-  * @param importFromId The id of the existing FlowRecord that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/flow_record#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FlowRecord that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/flow_record#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FlowRecord to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -253,7 +290,7 @@ export class FlowRecord extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.9.3/docs/resources/flow_record iosxe_flow_record} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/flow_record iosxe_flow_record} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -264,7 +301,8 @@ export class FlowRecord extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_flow_record',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.9.3'
+        providerVersion: '0.10.0',
+        providerVersionConstraint: '0.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -295,6 +333,11 @@ export class FlowRecord extends cdktf.TerraformResource {
     this._matchConnectionServerIpv4Address = config.matchConnectionServerIpv4Address;
     this._matchConnectionServerIpv6Address = config.matchConnectionServerIpv6Address;
     this._matchConnectionServerTransportPort = config.matchConnectionServerTransportPort;
+    this._matchDatalinkDestinationVlanId = config.matchDatalinkDestinationVlanId;
+    this._matchDatalinkMacDestinationAddressInput = config.matchDatalinkMacDestinationAddressInput;
+    this._matchDatalinkMacSourceAddressInput = config.matchDatalinkMacSourceAddressInput;
+    this._matchDatalinkSourceVlanId = config.matchDatalinkSourceVlanId;
+    this._matchDatalinkVlan = config.matchDatalinkVlan;
     this._matchFlowDirection = config.matchFlowDirection;
     this._matchFlowObservationPoint = config.matchFlowObservationPoint;
     this._matchInterfaceInput = config.matchInterfaceInput;
@@ -302,6 +345,7 @@ export class FlowRecord extends cdktf.TerraformResource {
     this._matchIpv4Protocol = config.matchIpv4Protocol;
     this._matchIpv4SourceAddress = config.matchIpv4SourceAddress;
     this._matchIpv4Tos = config.matchIpv4Tos;
+    this._matchIpv4Ttl = config.matchIpv4Ttl;
     this._matchIpv4Version = config.matchIpv4Version;
     this._matchIpv6DestinationAddress = config.matchIpv6DestinationAddress;
     this._matchIpv6Protocol = config.matchIpv6Protocol;
@@ -657,6 +701,86 @@ export class FlowRecord extends cdktf.TerraformResource {
     return this._matchConnectionServerTransportPort;
   }
 
+  // match_datalink_destination_vlan_id - computed: false, optional: true, required: false
+  private _matchDatalinkDestinationVlanId?: boolean | cdktf.IResolvable; 
+  public get matchDatalinkDestinationVlanId() {
+    return this.getBooleanAttribute('match_datalink_destination_vlan_id');
+  }
+  public set matchDatalinkDestinationVlanId(value: boolean | cdktf.IResolvable) {
+    this._matchDatalinkDestinationVlanId = value;
+  }
+  public resetMatchDatalinkDestinationVlanId() {
+    this._matchDatalinkDestinationVlanId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get matchDatalinkDestinationVlanIdInput() {
+    return this._matchDatalinkDestinationVlanId;
+  }
+
+  // match_datalink_mac_destination_address_input - computed: false, optional: true, required: false
+  private _matchDatalinkMacDestinationAddressInput?: boolean | cdktf.IResolvable; 
+  public get matchDatalinkMacDestinationAddressInput() {
+    return this.getBooleanAttribute('match_datalink_mac_destination_address_input');
+  }
+  public set matchDatalinkMacDestinationAddressInput(value: boolean | cdktf.IResolvable) {
+    this._matchDatalinkMacDestinationAddressInput = value;
+  }
+  public resetMatchDatalinkMacDestinationAddressInput() {
+    this._matchDatalinkMacDestinationAddressInput = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get matchDatalinkMacDestinationAddressInputInput() {
+    return this._matchDatalinkMacDestinationAddressInput;
+  }
+
+  // match_datalink_mac_source_address_input - computed: false, optional: true, required: false
+  private _matchDatalinkMacSourceAddressInput?: boolean | cdktf.IResolvable; 
+  public get matchDatalinkMacSourceAddressInput() {
+    return this.getBooleanAttribute('match_datalink_mac_source_address_input');
+  }
+  public set matchDatalinkMacSourceAddressInput(value: boolean | cdktf.IResolvable) {
+    this._matchDatalinkMacSourceAddressInput = value;
+  }
+  public resetMatchDatalinkMacSourceAddressInput() {
+    this._matchDatalinkMacSourceAddressInput = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get matchDatalinkMacSourceAddressInputInput() {
+    return this._matchDatalinkMacSourceAddressInput;
+  }
+
+  // match_datalink_source_vlan_id - computed: false, optional: true, required: false
+  private _matchDatalinkSourceVlanId?: boolean | cdktf.IResolvable; 
+  public get matchDatalinkSourceVlanId() {
+    return this.getBooleanAttribute('match_datalink_source_vlan_id');
+  }
+  public set matchDatalinkSourceVlanId(value: boolean | cdktf.IResolvable) {
+    this._matchDatalinkSourceVlanId = value;
+  }
+  public resetMatchDatalinkSourceVlanId() {
+    this._matchDatalinkSourceVlanId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get matchDatalinkSourceVlanIdInput() {
+    return this._matchDatalinkSourceVlanId;
+  }
+
+  // match_datalink_vlan - computed: false, optional: true, required: false
+  private _matchDatalinkVlan?: string; 
+  public get matchDatalinkVlan() {
+    return this.getStringAttribute('match_datalink_vlan');
+  }
+  public set matchDatalinkVlan(value: string) {
+    this._matchDatalinkVlan = value;
+  }
+  public resetMatchDatalinkVlan() {
+    this._matchDatalinkVlan = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get matchDatalinkVlanInput() {
+    return this._matchDatalinkVlan;
+  }
+
   // match_flow_direction - computed: false, optional: true, required: false
   private _matchFlowDirection?: boolean | cdktf.IResolvable; 
   public get matchFlowDirection() {
@@ -767,6 +891,22 @@ export class FlowRecord extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get matchIpv4TosInput() {
     return this._matchIpv4Tos;
+  }
+
+  // match_ipv4_ttl - computed: false, optional: true, required: false
+  private _matchIpv4Ttl?: boolean | cdktf.IResolvable; 
+  public get matchIpv4Ttl() {
+    return this.getBooleanAttribute('match_ipv4_ttl');
+  }
+  public set matchIpv4Ttl(value: boolean | cdktf.IResolvable) {
+    this._matchIpv4Ttl = value;
+  }
+  public resetMatchIpv4Ttl() {
+    this._matchIpv4Ttl = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get matchIpv4TtlInput() {
+    return this._matchIpv4Ttl;
   }
 
   // match_ipv4_version - computed: false, optional: true, required: false
@@ -921,6 +1061,11 @@ export class FlowRecord extends cdktf.TerraformResource {
       match_connection_server_ipv4_address: cdktf.booleanToTerraform(this._matchConnectionServerIpv4Address),
       match_connection_server_ipv6_address: cdktf.booleanToTerraform(this._matchConnectionServerIpv6Address),
       match_connection_server_transport_port: cdktf.booleanToTerraform(this._matchConnectionServerTransportPort),
+      match_datalink_destination_vlan_id: cdktf.booleanToTerraform(this._matchDatalinkDestinationVlanId),
+      match_datalink_mac_destination_address_input: cdktf.booleanToTerraform(this._matchDatalinkMacDestinationAddressInput),
+      match_datalink_mac_source_address_input: cdktf.booleanToTerraform(this._matchDatalinkMacSourceAddressInput),
+      match_datalink_source_vlan_id: cdktf.booleanToTerraform(this._matchDatalinkSourceVlanId),
+      match_datalink_vlan: cdktf.stringToTerraform(this._matchDatalinkVlan),
       match_flow_direction: cdktf.booleanToTerraform(this._matchFlowDirection),
       match_flow_observation_point: cdktf.booleanToTerraform(this._matchFlowObservationPoint),
       match_interface_input: cdktf.booleanToTerraform(this._matchInterfaceInput),
@@ -928,6 +1073,7 @@ export class FlowRecord extends cdktf.TerraformResource {
       match_ipv4_protocol: cdktf.booleanToTerraform(this._matchIpv4Protocol),
       match_ipv4_source_address: cdktf.booleanToTerraform(this._matchIpv4SourceAddress),
       match_ipv4_tos: cdktf.booleanToTerraform(this._matchIpv4Tos),
+      match_ipv4_ttl: cdktf.booleanToTerraform(this._matchIpv4Ttl),
       match_ipv4_version: cdktf.booleanToTerraform(this._matchIpv4Version),
       match_ipv6_destination_address: cdktf.booleanToTerraform(this._matchIpv6DestinationAddress),
       match_ipv6_protocol: cdktf.booleanToTerraform(this._matchIpv6Protocol),
@@ -1067,6 +1213,36 @@ export class FlowRecord extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "boolean",
       },
+      match_datalink_destination_vlan_id: {
+        value: cdktf.booleanToHclTerraform(this._matchDatalinkDestinationVlanId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      match_datalink_mac_destination_address_input: {
+        value: cdktf.booleanToHclTerraform(this._matchDatalinkMacDestinationAddressInput),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      match_datalink_mac_source_address_input: {
+        value: cdktf.booleanToHclTerraform(this._matchDatalinkMacSourceAddressInput),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      match_datalink_source_vlan_id: {
+        value: cdktf.booleanToHclTerraform(this._matchDatalinkSourceVlanId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      match_datalink_vlan: {
+        value: cdktf.stringToHclTerraform(this._matchDatalinkVlan),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       match_flow_direction: {
         value: cdktf.booleanToHclTerraform(this._matchFlowDirection),
         isBlock: false,
@@ -1105,6 +1281,12 @@ export class FlowRecord extends cdktf.TerraformResource {
       },
       match_ipv4_tos: {
         value: cdktf.booleanToHclTerraform(this._matchIpv4Tos),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      match_ipv4_ttl: {
+        value: cdktf.booleanToHclTerraform(this._matchIpv4Ttl),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",

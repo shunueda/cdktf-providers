@@ -156,7 +156,8 @@ export class DataConfigcatEnvironments extends cdktf.TerraformDataSource {
       terraformResourceType: 'configcat_environments',
       terraformGeneratorMetadata: {
         providerName: 'configcat',
-        providerVersion: '5.6.0'
+        providerVersion: '5.6.0',
+        providerVersionConstraint: '5.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

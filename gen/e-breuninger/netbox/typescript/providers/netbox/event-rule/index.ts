@@ -98,7 +98,8 @@ export class EventRule extends cdktf.TerraformResource {
       terraformResourceType: 'netbox_event_rule',
       terraformGeneratorMetadata: {
         providerName: 'netbox',
-        providerVersion: '5.0.0'
+        providerVersion: '5.0.0',
+        providerVersionConstraint: '5.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ip_upnp_interfaces
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_upnp_interfaces
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,27 +10,27 @@ export interface IpUpnpInterfacesConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ip_upnp_interfaces#___path___ IpUpnpInterfaces#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_upnp_interfaces#___path___ IpUpnpInterfaces#___path___}
   */
   readonly path?: string;
   /**
   * <em>A set of fields that require setting/unsetting. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ip_upnp_interfaces#___unset___ IpUpnpInterfaces#___unset___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_upnp_interfaces#___unset___ IpUpnpInterfaces#___unset___}
   */
   readonly unset?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ip_upnp_interfaces#disabled IpUpnpInterfaces#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_upnp_interfaces#disabled IpUpnpInterfaces#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Allow specifying what public IP to use if the external interface has more than one IP available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ip_upnp_interfaces#forced_ip IpUpnpInterfaces#forced_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_upnp_interfaces#forced_ip IpUpnpInterfaces#forced_ip}
   */
   readonly forcedIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ip_upnp_interfaces#id IpUpnpInterfaces#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_upnp_interfaces#id IpUpnpInterfaces#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -39,7 +39,7 @@ export interface IpUpnpInterfacesConfig extends cdktf.TerraformMetaArguments {
   /**
   * Interface name on which UPnP will be running.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ip_upnp_interfaces#interface IpUpnpInterfaces#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_upnp_interfaces#interface IpUpnpInterfaces#interface}
   */
   readonly interface: string;
   /**
@@ -47,13 +47,13 @@ export interface IpUpnpInterfacesConfig extends cdktf.TerraformMetaArguments {
   *   * external - the interface a global IP address is assigned to
   *   * internal - router's local interface the clients are connected to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ip_upnp_interfaces#type IpUpnpInterfaces#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_upnp_interfaces#type IpUpnpInterfaces#type}
   */
   readonly type?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ip_upnp_interfaces routeros_ip_upnp_interfaces}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_upnp_interfaces routeros_ip_upnp_interfaces}
 */
 export class IpUpnpInterfaces extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class IpUpnpInterfaces extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IpUpnpInterfaces resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IpUpnpInterfaces to import
-  * @param importFromId The id of the existing IpUpnpInterfaces that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ip_upnp_interfaces#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IpUpnpInterfaces that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_upnp_interfaces#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IpUpnpInterfaces to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class IpUpnpInterfaces extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.90.0/docs/resources/ip_upnp_interfaces routeros_ip_upnp_interfaces} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.91.0/docs/resources/ip_upnp_interfaces routeros_ip_upnp_interfaces} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,7 +92,8 @@ export class IpUpnpInterfaces extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_ip_upnp_interfaces',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.90.0'
+        providerVersion: '1.91.0',
+        providerVersionConstraint: '1.91.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -60,7 +60,8 @@ export class DataHetznerdnsZone extends cdktf.TerraformDataSource {
       terraformResourceType: 'hetznerdns_zone',
       terraformGeneratorMetadata: {
         providerName: 'hetznerdns',
-        providerVersion: '2.2.0'
+        providerVersion: '2.2.0',
+        providerVersionConstraint: '2.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

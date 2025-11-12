@@ -2887,7 +2887,8 @@ export class ClustersUnconfiguredNodeNetworksV2 extends cdktf.TerraformResource 
       terraformResourceType: 'nutanix_clusters_unconfigured_node_networks_v2',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3'
+        providerVersion: '2.3.3',
+        providerVersionConstraint: '2.3.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

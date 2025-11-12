@@ -79,7 +79,8 @@ export class PreAuthKey extends cdktf.TerraformResource {
       terraformResourceType: 'headscale_pre_auth_key',
       terraformGeneratorMetadata: {
         providerName: 'headscale',
-        providerVersion: '0.4.2'
+        providerVersion: '0.4.2',
+        providerVersionConstraint: '0.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -168,7 +168,8 @@ export class Dns extends cdktf.TerraformResource {
       terraformResourceType: 'googlesiteverification_dns',
       terraformGeneratorMetadata: {
         providerName: 'googlesiteverification',
-        providerVersion: '0.4.5'
+        providerVersion: '0.4.5',
+        providerVersionConstraint: '0.4.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

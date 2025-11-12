@@ -67,7 +67,8 @@ export class SshKey extends cdktf.TerraformResource {
       terraformResourceType: 'cloudsigma_ssh_key',
       terraformGeneratorMetadata: {
         providerName: 'cloudsigma',
-        providerVersion: '2.9.0'
+        providerVersion: '2.9.0',
+        providerVersionConstraint: '2.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

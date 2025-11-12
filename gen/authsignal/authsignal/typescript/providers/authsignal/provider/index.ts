@@ -73,7 +73,8 @@ export class AuthsignalProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'authsignal',
       terraformGeneratorMetadata: {
         providerName: 'authsignal',
-        providerVersion: '1.6.0'
+        providerVersion: '1.6.0',
+        providerVersionConstraint: '1.6.0'
       },
       terraformProviderSource: 'authsignal/authsignal'
     });

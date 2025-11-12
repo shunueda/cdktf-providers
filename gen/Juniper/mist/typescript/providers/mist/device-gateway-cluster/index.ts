@@ -174,7 +174,8 @@ export class DeviceGatewayCluster extends cdktf.TerraformResource {
       terraformResourceType: 'mist_device_gateway_cluster',
       terraformGeneratorMetadata: {
         providerName: 'mist',
-        providerVersion: '0.6.0'
+        providerVersion: '0.6.0',
+        providerVersionConstraint: '0.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

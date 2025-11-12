@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/resources/pullzone_waf_rule
+// https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/pullzone_waf_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface PullzoneWafRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * The WAF rule description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/resources/pullzone_waf_rule#description PullzoneWafRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/pullzone_waf_rule#description PullzoneWafRule#description}
   */
   readonly description?: string;
   /**
   * The WAF rule name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/resources/pullzone_waf_rule#name PullzoneWafRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/pullzone_waf_rule#name PullzoneWafRule#name}
   */
   readonly name: string;
   /**
   * The ID of the linked pullzone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/resources/pullzone_waf_rule#pullzone PullzoneWafRule#pullzone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/pullzone_waf_rule#pullzone PullzoneWafRule#pullzone}
   */
   readonly pullzone: number;
   /**
   * condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/resources/pullzone_waf_rule#condition PullzoneWafRule#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/pullzone_waf_rule#condition PullzoneWafRule#condition}
   */
   readonly condition?: PullzoneWafRuleCondition;
   /**
   * response block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/resources/pullzone_waf_rule#response PullzoneWafRule#response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/pullzone_waf_rule#response PullzoneWafRule#response}
   */
   readonly response: PullzoneWafRuleResponse;
 }
@@ -42,27 +42,27 @@ export interface PullzoneWafRuleCondition {
   /**
   * Options: `BEGINSWITH`, `CONTAINS`, `CONTAINSWORD`, `DETECTSQLI`, `DETECTXSS`, `ENDSWITH`, `EQ`, `GE`, `GT`, `LE`, `LT`, `RX`, `STREQ`, `STRMATCH`, `WITHIN`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/resources/pullzone_waf_rule#operator PullzoneWafRule#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/pullzone_waf_rule#operator PullzoneWafRule#operator}
   */
   readonly operator: string;
   /**
   * Options: `CMDLINE`, `COMPRESSWHITESPACE`, `CSSDECODE`, `HEXENCODE`, `HTMLENTITYDECODE`, `JSDECODE`, `LENGTH`, `LOWERCASE`, `MD5`, `NORMALISEPATH`, `NORMALISEPATHWIN`, `NORMALIZEPATH`, `NORMALIZEPATHWIN`, `REMOVECOMMENTS`, `REMOVENULLS`, `REMOVEWHITESPACE`, `REPLACECOMMENTS`, `SHA1`, `URLDECODE`, `URLDECODEUNI`, `UTF8TOUNICODE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/resources/pullzone_waf_rule#transformations PullzoneWafRule#transformations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/pullzone_waf_rule#transformations PullzoneWafRule#transformations}
   */
   readonly transformations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/resources/pullzone_waf_rule#value PullzoneWafRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/pullzone_waf_rule#value PullzoneWafRule#value}
   */
   readonly value: string;
   /**
   * Options: `ARGS`, `ARGS_COMBINED_SIZE`, `ARGS_GET`, `ARGS_GET_NAMES`, `ARGS_POST`, `ARGS_POST_NAMES`, `FILES_NAMES`, `QUERY_STRING`, `REMOTE_ADDR`, `REQUEST_BASENAME`, `REQUEST_BODY`, `REQUEST_COOKIES`, `REQUEST_COOKIES_NAMES`, `REQUEST_FILENAME`, `REQUEST_HEADERS`, `REQUEST_HEADERS_NAMES`, `REQUEST_LINE`, `REQUEST_METHOD`, `REQUEST_PROTOCOL`, `REQUEST_URI`, `REQUEST_URI_RAW`, `RESPONSE_BODY`, `RESPONSE_HEADERS`, `RESPONSE_STATUS`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/resources/pullzone_waf_rule#variable PullzoneWafRule#variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/pullzone_waf_rule#variable PullzoneWafRule#variable}
   */
   readonly variable: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/resources/pullzone_waf_rule#variable_value PullzoneWafRule#variable_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/pullzone_waf_rule#variable_value PullzoneWafRule#variable_value}
   */
   readonly variableValue?: string;
 }
@@ -265,7 +265,7 @@ export interface PullzoneWafRuleResponse {
   /**
   * The action to take if the WAF rule is triggered. Options: `Block`, `Challenge`, `Log`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/resources/pullzone_waf_rule#action PullzoneWafRule#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/pullzone_waf_rule#action PullzoneWafRule#action}
   */
   readonly action: string;
 }
@@ -356,7 +356,7 @@ export class PullzoneWafRuleResponseOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/resources/pullzone_waf_rule bunnynet_pullzone_waf_rule}
+* Represents a {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/pullzone_waf_rule bunnynet_pullzone_waf_rule}
 */
 export class PullzoneWafRule extends cdktf.TerraformResource {
 
@@ -372,7 +372,7 @@ export class PullzoneWafRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PullzoneWafRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PullzoneWafRule to import
-  * @param importFromId The id of the existing PullzoneWafRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/resources/pullzone_waf_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PullzoneWafRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/pullzone_waf_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PullzoneWafRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -384,7 +384,7 @@ export class PullzoneWafRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.0/docs/resources/pullzone_waf_rule bunnynet_pullzone_waf_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.1/docs/resources/pullzone_waf_rule bunnynet_pullzone_waf_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -395,7 +395,8 @@ export class PullzoneWafRule extends cdktf.TerraformResource {
       terraformResourceType: 'bunnynet_pullzone_waf_rule',
       terraformGeneratorMetadata: {
         providerName: 'bunnynet',
-        providerVersion: '0.11.0'
+        providerVersion: '0.11.1',
+        providerVersionConstraint: '0.11.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

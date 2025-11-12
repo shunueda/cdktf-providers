@@ -344,7 +344,8 @@ export class AdvancedThreatSettings extends cdktf.TerraformResource {
       terraformResourceType: 'zia_advanced_threat_settings',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.5.3'
+        providerVersion: '4.5.3',
+        providerVersionConstraint: '4.5.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

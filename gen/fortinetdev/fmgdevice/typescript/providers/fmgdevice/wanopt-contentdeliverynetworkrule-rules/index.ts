@@ -783,7 +783,8 @@ export class WanoptContentdeliverynetworkruleRulesA extends cdktf.TerraformResou
       terraformResourceType: 'fmgdevice_wanopt_contentdeliverynetworkrule_rules',
       terraformGeneratorMetadata: {
         providerName: 'fmgdevice',
-        providerVersion: '1.2.1'
+        providerVersion: '1.2.1',
+        providerVersionConstraint: '1.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

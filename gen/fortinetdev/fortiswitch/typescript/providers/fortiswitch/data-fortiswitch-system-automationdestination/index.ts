@@ -135,7 +135,8 @@ export class DataFortiswitchSystemAutomationdestination extends cdktf.TerraformD
       terraformResourceType: 'fortiswitch_system_automationdestination',
       terraformGeneratorMetadata: {
         providerName: 'fortiswitch',
-        providerVersion: '1.1.6'
+        providerVersion: '1.1.6',
+        providerVersionConstraint: '1.1.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -53,7 +53,8 @@ export class DataRootlyRetrospectiveProcessGroupStep extends cdktf.TerraformData
       terraformResourceType: 'rootly_retrospective_process_group_step',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.7'
+        providerVersion: '4.3.7',
+        providerVersionConstraint: '4.3.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

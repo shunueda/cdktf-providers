@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_port
+// https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_port
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,119 +10,119 @@ export interface FabricPortConfig extends cdktf.TerraformMetaArguments {
   /**
   * Port order account details
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_port#account FabricPort#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_port#account FabricPort#account}
   */
   readonly account: FabricPortAccount;
   /**
   * List of key/value objects to provide additional context to the Port order
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_port#additional_info FabricPort#additional_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_port#additional_info FabricPort#additional_info}
   */
   readonly additionalInfo?: FabricPortAdditionalInfo[] | cdktf.IResolvable;
   /**
   * Connection type that is used from the port after creation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_port#connectivity_source_type FabricPort#connectivity_source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_port#connectivity_source_type FabricPort#connectivity_source_type}
   */
   readonly connectivitySourceType: string;
   /**
   * IBX code where the port will be located
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_port#demarcation_point_ibx FabricPort#demarcation_point_ibx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_port#demarcation_point_ibx FabricPort#demarcation_point_ibx}
   */
   readonly demarcationPointIbx: string;
   /**
   * Port device configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_port#device FabricPort#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_port#device FabricPort#device}
   */
   readonly device?: FabricPortDevice;
   /**
   * Port encapsulation settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_port#encapsulation FabricPort#encapsulation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_port#encapsulation FabricPort#encapsulation}
   */
   readonly encapsulation: FabricPortEncapsulation;
   /**
   * Boolean value to enable the created port with Link Aggregation Groups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_port#lag_enabled FabricPort#lag_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_port#lag_enabled FabricPort#lag_enabled}
   */
   readonly lagEnabled: boolean | cdktf.IResolvable;
   /**
   * Location details for the port order
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_port#location FabricPort#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_port#location FabricPort#location}
   */
   readonly location: FabricPortLocation;
   /**
   * Designated name of the port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_port#name FabricPort#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_port#name FabricPort#name}
   */
   readonly name?: string;
   /**
   * List of notification types and the registered users to receive those notification types
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_port#notifications FabricPort#notifications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_port#notifications FabricPort#notifications}
   */
   readonly notifications: FabricPortNotifications[] | cdktf.IResolvable;
   /**
   * Details of the Port Order such as purchaseOrder details and signature
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_port#order FabricPort#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_port#order FabricPort#order}
   */
   readonly order?: FabricPortOrder;
   /**
   * Physical ports that will implement this port order
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_port#physical_ports FabricPort#physical_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_port#physical_ports FabricPort#physical_ports}
   */
   readonly physicalPorts: FabricPortPhysicalPorts[] | cdktf.IResolvable;
   /**
   * Number of physical ports in the Port Order
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_port#physical_ports_count FabricPort#physical_ports_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_port#physical_ports_count FabricPort#physical_ports_count}
   */
   readonly physicalPortsCount: number;
   /**
   * Physical Ports Speed in Mbps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_port#physical_ports_speed FabricPort#physical_ports_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_port#physical_ports_speed FabricPort#physical_ports_speed}
   */
   readonly physicalPortsSpeed: number;
   /**
   * Physical Ports Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_port#physical_ports_type FabricPort#physical_ports_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_port#physical_ports_type FabricPort#physical_ports_type}
   */
   readonly physicalPortsType: string;
   /**
   * Port order project details
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_port#project FabricPort#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_port#project FabricPort#project}
   */
   readonly project: FabricPortProject;
   /**
   * Port redundancy settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_port#redundancy FabricPort#redundancy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_port#redundancy FabricPort#redundancy}
   */
   readonly redundancy: FabricPortRedundancy;
   /**
   * Port order configuration settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_port#settings FabricPort#settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_port#settings FabricPort#settings}
   */
   readonly settings: FabricPortSettings;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_port#timeouts FabricPort#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_port#timeouts FabricPort#timeouts}
   */
   readonly timeouts?: FabricPortTimeouts;
   /**
   * Type of the port order request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_port#type FabricPort#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_port#type FabricPort#type}
   */
   readonly type: string;
 }
@@ -130,7 +130,7 @@ export interface FabricPortAccount {
   /**
   * Account number the port will be created for
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_port#account_number FabricPort#account_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_port#account_number FabricPort#account_number}
   */
   readonly accountNumber: number;
 }
@@ -233,13 +233,13 @@ export interface FabricPortAdditionalInfo {
   /**
   * The key name of the key/value pair
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_port#key FabricPort#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_port#key FabricPort#key}
   */
   readonly key: string;
   /**
   * The value of the key/value pair
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_port#value FabricPort#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_port#value FabricPort#value}
   */
   readonly value: string;
 }
@@ -489,13 +489,13 @@ export interface FabricPortDeviceRedundancy {
   /**
   * Redundancy group identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_port#group FabricPort#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_port#group FabricPort#group}
   */
   readonly group?: string;
   /**
   * Redundancy priority (PRIMARY or SECONDARY)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_port#priority FabricPort#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_port#priority FabricPort#priority}
   */
   readonly priority?: string;
 }
@@ -620,13 +620,13 @@ export interface FabricPortDevice {
   /**
   * Device name for the port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_port#name FabricPort#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_port#name FabricPort#name}
   */
   readonly name?: string;
   /**
   * Device redundancy configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_port#redundancy FabricPort#redundancy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_port#redundancy FabricPort#redundancy}
   */
   readonly redundancy?: FabricPortDeviceRedundancy;
 }
@@ -751,13 +751,13 @@ export interface FabricPortEncapsulation {
   /**
   * Port encapsulation tag protocol identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_port#tag_protocol_id FabricPort#tag_protocol_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_port#tag_protocol_id FabricPort#tag_protocol_id}
   */
   readonly tagProtocolId: string;
   /**
   * Port encapsulation protocol type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_port#type FabricPort#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_port#type FabricPort#type}
   */
   readonly type: string;
 }
@@ -876,7 +876,7 @@ export interface FabricPortLocation {
   /**
   * Metro code the port will be created in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_port#metro_code FabricPort#metro_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_port#metro_code FabricPort#metro_code}
   */
   readonly metroCode: string;
 }
@@ -969,13 +969,13 @@ export interface FabricPortNotifications {
   /**
   * Array of registered users that will receive this notification type on the port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_port#registered_users FabricPort#registered_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_port#registered_users FabricPort#registered_users}
   */
   readonly registeredUsers: string[];
   /**
   * Notification Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_port#type FabricPort#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_port#type FabricPort#type}
   */
   readonly type: string;
 }
@@ -1205,19 +1205,19 @@ export interface FabricPortOrderSignatureDelegate {
   /**
   * Email of the signatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_port#email FabricPort#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_port#email FabricPort#email}
   */
   readonly email: string;
   /**
   * First name of the signatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_port#first_name FabricPort#first_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_port#first_name FabricPort#first_name}
   */
   readonly firstName?: string;
   /**
   * Last name of the signatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_port#last_name FabricPort#last_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_port#last_name FabricPort#last_name}
   */
   readonly lastName?: string;
 }
@@ -1358,13 +1358,13 @@ export interface FabricPortOrderSignature {
   /**
   * delegate order details
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_port#delegate FabricPort#delegate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_port#delegate FabricPort#delegate}
   */
   readonly delegate: FabricPortOrderSignatureDelegate;
   /**
   * Port signature Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_port#signatory FabricPort#signatory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_port#signatory FabricPort#signatory}
   */
   readonly signatory: string;
 }
@@ -1483,19 +1483,19 @@ export interface FabricPortOrder {
   /**
   * Customer order reference Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_port#customer_reference_id FabricPort#customer_reference_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_port#customer_reference_id FabricPort#customer_reference_id}
   */
   readonly customerReferenceId?: string;
   /**
   * Purchase order details
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_port#purchase_order FabricPort#purchase_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_port#purchase_order FabricPort#purchase_order}
   */
   readonly purchaseOrder?: FabricPortOrderPurchaseOrder;
   /**
   * Port order confirmation signature details
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_port#signature FabricPort#signature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_port#signature FabricPort#signature}
   */
   readonly signature?: FabricPortOrderSignature;
 }
@@ -1664,31 +1664,31 @@ export interface FabricPortPhysicalPortsDemarcationPoint {
   /**
   * Port cabinet unique space id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_port#cabinet_unique_space_id FabricPort#cabinet_unique_space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_port#cabinet_unique_space_id FabricPort#cabinet_unique_space_id}
   */
   readonly cabinetUniqueSpaceId: string;
   /**
   * Port cage unique space id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_port#cage_unique_space_id FabricPort#cage_unique_space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_port#cage_unique_space_id FabricPort#cage_unique_space_id}
   */
   readonly cageUniqueSpaceId: string;
   /**
   * Port connector type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_port#connector_type FabricPort#connector_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_port#connector_type FabricPort#connector_type}
   */
   readonly connectorType: string;
   /**
   * IBX Metro code for the physical port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_port#ibx FabricPort#ibx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_port#ibx FabricPort#ibx}
   */
   readonly ibx: string;
   /**
   * Port patch panel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_port#patch_panel FabricPort#patch_panel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_port#patch_panel FabricPort#patch_panel}
   */
   readonly patchPanel: string;
 }
@@ -1885,7 +1885,7 @@ export interface FabricPortPhysicalPortsInterface {
   /**
   * Interface type for the physical port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_port#type FabricPort#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_port#type FabricPort#type}
   */
   readonly type?: string;
 }
@@ -1981,19 +1981,19 @@ export interface FabricPortPhysicalPorts {
   /**
   * Customer physical port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_port#demarcation_point FabricPort#demarcation_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_port#demarcation_point FabricPort#demarcation_point}
   */
   readonly demarcationPoint: FabricPortPhysicalPortsDemarcationPoint;
   /**
   * Physical port interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_port#interface FabricPort#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_port#interface FabricPort#interface}
   */
   readonly interface?: FabricPortPhysicalPortsInterface;
   /**
   * Physical Port type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_port#type FabricPort#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_port#type FabricPort#type}
   */
   readonly type: string;
 }
@@ -2163,7 +2163,7 @@ export interface FabricPortProject {
   /**
   * Project id the port will be created in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_port#project_id FabricPort#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_port#project_id FabricPort#project_id}
   */
   readonly projectId: string;
 }
@@ -2256,7 +2256,7 @@ export interface FabricPortRedundancy {
   /**
   * Port redundancy priority value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_port#priority FabricPort#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_port#priority FabricPort#priority}
   */
   readonly priority: string;
 }
@@ -2349,13 +2349,13 @@ export interface FabricPortSettings {
   /**
   * Billing package for the port being ordered
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_port#package_type FabricPort#package_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_port#package_type FabricPort#package_type}
   */
   readonly packageType: string;
   /**
   * Indicates whether this is a dedicated customer cage or a shared neutral cage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_port#shared_port_type FabricPort#shared_port_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_port#shared_port_type FabricPort#shared_port_type}
   */
   readonly sharedPortType: boolean | cdktf.IResolvable;
 }
@@ -2474,25 +2474,25 @@ export interface FabricPortTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_port#create FabricPort#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_port#create FabricPort#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_port#delete FabricPort#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_port#delete FabricPort#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_port#read FabricPort#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_port#read FabricPort#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_port#update FabricPort#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_port#update FabricPort#update}
   */
   readonly update?: string;
 }
@@ -2673,7 +2673,7 @@ export class FabricPortTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_port equinix_fabric_port}
+* Represents a {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_port equinix_fabric_port}
 */
 export class FabricPort extends cdktf.TerraformResource {
 
@@ -2689,7 +2689,7 @@ export class FabricPort extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FabricPort resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FabricPort to import
-  * @param importFromId The id of the existing FabricPort that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_port#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FabricPort that should be imported. Refer to the {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_port#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FabricPort to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2701,7 +2701,7 @@ export class FabricPort extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.8.0/docs/resources/fabric_port equinix_fabric_port} Resource
+  * Create a new {@link https://registry.terraform.io/providers/equinix/equinix/4.10.0/docs/resources/fabric_port equinix_fabric_port} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2712,7 +2712,8 @@ export class FabricPort extends cdktf.TerraformResource {
       terraformResourceType: 'equinix_fabric_port',
       terraformGeneratorMetadata: {
         providerName: 'equinix',
-        providerVersion: '4.8.0'
+        providerVersion: '4.10.0',
+        providerVersionConstraint: '4.10.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

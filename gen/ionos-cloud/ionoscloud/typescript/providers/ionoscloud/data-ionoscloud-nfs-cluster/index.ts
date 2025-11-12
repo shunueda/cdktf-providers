@@ -236,7 +236,8 @@ export class DataIonoscloudNfsCluster extends cdktf.TerraformDataSource {
       terraformResourceType: 'ionoscloud_nfs_cluster',
       terraformGeneratorMetadata: {
         providerName: 'ionoscloud',
-        providerVersion: '6.7.20'
+        providerVersion: '6.7.20',
+        providerVersionConstraint: '6.7.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

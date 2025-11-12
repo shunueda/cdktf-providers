@@ -4752,7 +4752,8 @@ export class DataIntersightStoragePureProtectionGroupSnapshot extends cdktf.Terr
       terraformResourceType: 'intersight_storage_pure_protection_group_snapshot',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72'
+        providerVersion: '1.0.72',
+        providerVersionConstraint: '1.0.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -80,7 +80,8 @@ export class GitlabBinding extends cdktf.TerraformResource {
       terraformResourceType: 'sonarqube_gitlab_binding',
       terraformGeneratorMetadata: {
         providerName: 'sonarqube',
-        providerVersion: '0.16.17'
+        providerVersion: '0.16.17',
+        providerVersionConstraint: '0.16.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

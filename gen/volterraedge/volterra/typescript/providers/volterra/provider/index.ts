@@ -109,7 +109,8 @@ export class VolterraProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'volterra',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.44'
+        providerVersion: '0.11.44',
+        providerVersionConstraint: '0.11.44'
       },
       terraformProviderSource: 'volterraedge/volterra'
     });

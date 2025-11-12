@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/data-sources/cloud_account
+// https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/data-sources/cloud_account
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataRediscloudCloudAccountConfig extends cdktf.TerraformMetaArg
   /**
   * Whether to exclude the Redis Labs internal cloud account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/data-sources/cloud_account#exclude_internal_account DataRediscloudCloudAccount#exclude_internal_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/data-sources/cloud_account#exclude_internal_account DataRediscloudCloudAccount#exclude_internal_account}
   */
   readonly excludeInternalAccount?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/data-sources/cloud_account#id DataRediscloudCloudAccount#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/data-sources/cloud_account#id DataRediscloudCloudAccount#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface DataRediscloudCloudAccountConfig extends cdktf.TerraformMetaArg
   /**
   * A meaningful name to identify the cloud account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/data-sources/cloud_account#name DataRediscloudCloudAccount#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/data-sources/cloud_account#name DataRediscloudCloudAccount#name}
   */
   readonly name?: string;
   /**
   * The cloud provider of the cloud account, (either `AWS` or `GCP`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/data-sources/cloud_account#provider_type DataRediscloudCloudAccount#provider_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/data-sources/cloud_account#provider_type DataRediscloudCloudAccount#provider_type}
   */
   readonly providerType?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/data-sources/cloud_account rediscloud_cloud_account}
+* Represents a {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/data-sources/cloud_account rediscloud_cloud_account}
 */
 export class DataRediscloudCloudAccount extends cdktf.TerraformDataSource {
 
@@ -51,7 +51,7 @@ export class DataRediscloudCloudAccount extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataRediscloudCloudAccount resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataRediscloudCloudAccount to import
-  * @param importFromId The id of the existing DataRediscloudCloudAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/data-sources/cloud_account#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataRediscloudCloudAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/data-sources/cloud_account#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataRediscloudCloudAccount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class DataRediscloudCloudAccount extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.7.3/docs/data-sources/cloud_account rediscloud_cloud_account} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/redislabs/rediscloud/2.8.0/docs/data-sources/cloud_account rediscloud_cloud_account} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,7 +74,8 @@ export class DataRediscloudCloudAccount extends cdktf.TerraformDataSource {
       terraformResourceType: 'rediscloud_cloud_account',
       terraformGeneratorMetadata: {
         providerName: 'rediscloud',
-        providerVersion: '2.7.3'
+        providerVersion: '2.8.0',
+        providerVersionConstraint: '2.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -760,7 +760,8 @@ export class DataK8SServicebindingIoClusterWorkloadResourceMappingV1Alpha3Manife
       terraformResourceType: 'k8s_servicebinding_io_cluster_workload_resource_mapping_v1alpha3_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -88,7 +88,8 @@ export class CloudwatchCompositeAlarm extends cdktf.TerraformResource {
       terraformResourceType: 'aws_cloudwatch_composite_alarm',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '3.29.6'
+        providerVersion: '3.29.6',
+        providerVersionConstraint: '3.29.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

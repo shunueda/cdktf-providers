@@ -64,7 +64,8 @@ export class DataNhncloudBlockstorageAvailabilityZonesV3 extends cdktf.Terraform
       terraformResourceType: 'nhncloud_blockstorage_availability_zones_v3',
       terraformGeneratorMetadata: {
         providerName: 'nhncloud',
-        providerVersion: '1.0.6'
+        providerVersion: '1.0.6',
+        providerVersionConstraint: '1.0.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

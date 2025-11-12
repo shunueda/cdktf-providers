@@ -1074,7 +1074,8 @@ export class DataIonoscloudK8SClusters extends cdktf.TerraformDataSource {
       terraformResourceType: 'ionoscloud_k8s_clusters',
       terraformGeneratorMetadata: {
         providerName: 'ionoscloud',
-        providerVersion: '6.7.20'
+        providerVersion: '6.7.20',
+        providerVersionConstraint: '6.7.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

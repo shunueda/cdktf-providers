@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/freeform_system
+// https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/freeform_system
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataApstraFreeformSystemConfig extends cdktf.TerraformMetaArgum
   /**
   * Apstra Blueprint ID. Used to identify the Blueprint where the System lives.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/freeform_system#blueprint_id DataApstraFreeformSystem#blueprint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/freeform_system#blueprint_id DataApstraFreeformSystem#blueprint_id}
   */
   readonly blueprintId: string;
   /**
   * Populate this field to look up the Freeform System by ID. Required when `name` is omitted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/freeform_system#id DataApstraFreeformSystem#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/freeform_system#id DataApstraFreeformSystem#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,13 +25,13 @@ export interface DataApstraFreeformSystemConfig extends cdktf.TerraformMetaArgum
   /**
   * Populate this field to look up System by Name. Required when `id` is omitted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/freeform_system#name DataApstraFreeformSystem#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/freeform_system#name DataApstraFreeformSystem#name}
   */
   readonly name?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/freeform_system apstra_freeform_system}
+* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/freeform_system apstra_freeform_system}
 */
 export class DataApstraFreeformSystem extends cdktf.TerraformDataSource {
 
@@ -47,7 +47,7 @@ export class DataApstraFreeformSystem extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataApstraFreeformSystem resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataApstraFreeformSystem to import
-  * @param importFromId The id of the existing DataApstraFreeformSystem that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/freeform_system#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataApstraFreeformSystem that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/freeform_system#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataApstraFreeformSystem to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -59,7 +59,7 @@ export class DataApstraFreeformSystem extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/data-sources/freeform_system apstra_freeform_system} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/data-sources/freeform_system apstra_freeform_system} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -70,7 +70,8 @@ export class DataApstraFreeformSystem extends cdktf.TerraformDataSource {
       terraformResourceType: 'apstra_freeform_system',
       terraformGeneratorMetadata: {
         providerName: 'apstra',
-        providerVersion: '0.95.0'
+        providerVersion: '0.95.1',
+        providerVersionConstraint: '0.95.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -97,7 +97,8 @@ export class BluecatProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'bluecat',
       terraformGeneratorMetadata: {
         providerName: 'bluecat',
-        providerVersion: '2.2.0'
+        providerVersion: '2.2.0',
+        providerVersionConstraint: '2.2.0'
       },
       terraformProviderSource: 'bluecatlabs/bluecat'
     });

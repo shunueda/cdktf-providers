@@ -272,7 +272,8 @@ export class MlExperiment extends cdktf.TerraformResource {
       terraformResourceType: 'fabric_ml_experiment',
       terraformGeneratorMetadata: {
         providerName: 'fabric',
-        providerVersion: '1.6.0'
+        providerVersion: '1.6.0',
+        providerVersionConstraint: '1.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

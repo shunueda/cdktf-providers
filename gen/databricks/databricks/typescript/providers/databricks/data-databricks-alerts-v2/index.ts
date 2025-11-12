@@ -1746,7 +1746,8 @@ export class DataDatabricksAlertsV2 extends cdktf.TerraformDataSource {
       terraformResourceType: 'databricks_alerts_v2',
       terraformGeneratorMetadata: {
         providerName: 'databricks',
-        providerVersion: '1.97.0'
+        providerVersion: '1.97.0',
+        providerVersionConstraint: '1.97.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

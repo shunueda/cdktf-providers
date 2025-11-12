@@ -116,7 +116,8 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthRelayNtlmTmplTriggerSt
       terraformResourceType: 'thunder_visibility_packet_capture_object_templates_aam_auth_relay_ntlm_tmpl_trigger_stats_rate',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

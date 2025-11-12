@@ -776,7 +776,8 @@ export class ConfigureSnmp extends cdktf.TerraformResource {
       terraformResourceType: 'cohesity_configure_snmp',
       terraformGeneratorMetadata: {
         providerName: 'cohesity',
-        providerVersion: '2.1.3'
+        providerVersion: '2.1.3',
+        providerVersionConstraint: '2.1.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

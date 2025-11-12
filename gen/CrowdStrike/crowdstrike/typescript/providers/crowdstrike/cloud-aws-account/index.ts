@@ -718,7 +718,8 @@ export class CloudAwsAccount extends cdktf.TerraformResource {
       terraformResourceType: 'crowdstrike_cloud_aws_account',
       terraformGeneratorMetadata: {
         providerName: 'crowdstrike',
-        providerVersion: '0.0.43'
+        providerVersion: '0.0.43',
+        providerVersionConstraint: '0.0.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

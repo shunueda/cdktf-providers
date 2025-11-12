@@ -252,7 +252,8 @@ export class Attribution extends cdktf.TerraformResource {
       terraformResourceType: 'doit_attribution',
       terraformGeneratorMetadata: {
         providerName: 'doit',
-        providerVersion: '0.25.0'
+        providerVersion: '0.25.0',
+        providerVersionConstraint: '0.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

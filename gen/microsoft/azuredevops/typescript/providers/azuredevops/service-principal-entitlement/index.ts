@@ -271,7 +271,8 @@ export class ServicePrincipalEntitlement extends cdktf.TerraformResource {
       terraformResourceType: 'azuredevops_service_principal_entitlement',
       terraformGeneratorMetadata: {
         providerName: 'azuredevops',
-        providerVersion: '1.11.2'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

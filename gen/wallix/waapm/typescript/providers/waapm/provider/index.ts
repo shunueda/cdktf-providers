@@ -61,7 +61,8 @@ export class WaapmProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'waapm',
       terraformGeneratorMetadata: {
         providerName: 'waapm',
-        providerVersion: '2.0.4'
+        providerVersion: '2.0.4',
+        providerVersionConstraint: '2.0.4'
       },
       terraformProviderSource: 'wallix/waapm'
     });

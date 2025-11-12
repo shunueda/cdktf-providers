@@ -64,7 +64,8 @@ export class DataZentralMetaBusinessUnit extends cdktf.TerraformDataSource {
       terraformResourceType: 'zentral_meta_business_unit',
       terraformGeneratorMetadata: {
         providerName: 'zentral',
-        providerVersion: '0.1.64'
+        providerVersion: '0.1.64',
+        providerVersionConstraint: '0.1.64'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

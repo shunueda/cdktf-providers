@@ -80,7 +80,8 @@ export class Snitch extends cdktf.TerraformResource {
       terraformResourceType: 'dmsnitch_snitch',
       terraformGeneratorMetadata: {
         providerName: 'dmsnitch',
-        providerVersion: '0.1.5'
+        providerVersion: '0.1.5',
+        providerVersionConstraint: '0.1.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1742,7 +1742,8 @@ export class UztnaApplication extends cdktf.TerraformResource {
       terraformResourceType: 'volterra_uztna_application',
       terraformGeneratorMetadata: {
         providerName: 'volterra',
-        providerVersion: '0.11.44'
+        providerVersion: '0.11.44',
+        providerVersionConstraint: '0.11.44'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

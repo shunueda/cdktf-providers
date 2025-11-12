@@ -80,7 +80,8 @@ export class DataTencentcloudDbbrainSecurityAuditLogDownloadUrls extends cdktf.T
       terraformResourceType: 'tencentcloud_dbbrain_security_audit_log_download_urls',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

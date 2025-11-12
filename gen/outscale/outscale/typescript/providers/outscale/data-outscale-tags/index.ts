@@ -295,7 +295,8 @@ export class DataOutscaleTags extends cdktf.TerraformDataSource {
       terraformResourceType: 'outscale_tags',
       terraformGeneratorMetadata: {
         providerName: 'outscale',
-        providerVersion: '1.2.1'
+        providerVersion: '1.2.1',
+        providerVersionConstraint: '1.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

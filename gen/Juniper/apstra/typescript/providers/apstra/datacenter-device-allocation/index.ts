@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_device_allocation
+// https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_device_allocation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface DatacenterDeviceAllocationConfig extends cdktf.TerraformMetaArg
   /**
   * Apstra Blueprint ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_device_allocation#blueprint_id DatacenterDeviceAllocation#blueprint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_device_allocation#blueprint_id DatacenterDeviceAllocation#blueprint_id}
   */
   readonly blueprintId: string;
   /**
   * Set the [deploy mode](https://www.juniper.net/documentation/us/en/software/apstra4.1/apstra-user-guide/topics/topic-map/datacenter-deploy-mode-set.html) of the associated fabric node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_device_allocation#deploy_mode DatacenterDeviceAllocation#deploy_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_device_allocation#deploy_mode DatacenterDeviceAllocation#deploy_mode}
   */
   readonly deployMode?: string;
   /**
   * Unique ID for a Managed Device, generally the serial number, used to assign a Managed Device to a fabric role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_device_allocation#device_key DatacenterDeviceAllocation#device_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_device_allocation#device_key DatacenterDeviceAllocation#device_key}
   */
   readonly deviceKey?: string;
   /**
   * Interface Maps link a Logical Device (fabric design element) to a Device Profile (description of a specific hardware model). The value of this field must be the graph node ID (bootstrapped from Global Catalog ID) of an Interface Map. A value is required when `device_key` is omitted, or when `device_key` is supplied, but does not provide enough information to automatically select an Interface Map. The ID is used only at resource creation (in the initial `apply` operation) and for replacement when the configuration is modified. Apstra flexible fabric expansion operations should not trigger state churn due to the current Interface Map ID being inconsistent with the configured value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_device_allocation#initial_interface_map_id DatacenterDeviceAllocation#initial_interface_map_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_device_allocation#initial_interface_map_id DatacenterDeviceAllocation#initial_interface_map_id}
   */
   readonly initialInterfaceMapId?: string;
   /**
   * Graph node label which identifies the system at the time this resource is initially created. Strings like 'spine1' and 'rack_002_leaf_1' are appropriate here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_device_allocation#node_name DatacenterDeviceAllocation#node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_device_allocation#node_name DatacenterDeviceAllocation#node_name}
   */
   readonly nodeName: string;
   /**
@@ -42,7 +42,7 @@ export interface DatacenterDeviceAllocationConfig extends cdktf.TerraformMetaArg
   *   
   *   Note that omitting a previously configured value (e.g. setting and then subsequently clearing `asn` from the configuration) will not cause the system to revert to an Apstra-assigned value. Omitting a configuration element says "I have no opinion about this value" to Terraform. There is no mechanism to revert to Apstra-assigned values for the attributes in this block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_device_allocation#system_attributes DatacenterDeviceAllocation#system_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_device_allocation#system_attributes DatacenterDeviceAllocation#system_attributes}
   */
   readonly systemAttributes?: DatacenterDeviceAllocationSystemAttributes;
 }
@@ -50,43 +50,43 @@ export interface DatacenterDeviceAllocationSystemAttributes {
   /**
   * ASN of the system node. Setting ASN is supported only for Spine and Leaf switches.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_device_allocation#asn DatacenterDeviceAllocation#asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_device_allocation#asn DatacenterDeviceAllocation#asn}
   */
   readonly asn?: number;
   /**
   * Set the [deploy mode](https://www.juniper.net/documentation/us/en/software/apstra4.1/apstra-user-guide/topics/topic-map/datacenter-deploy-mode-set.html) of the associated fabric node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_device_allocation#deploy_mode DatacenterDeviceAllocation#deploy_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_device_allocation#deploy_mode DatacenterDeviceAllocation#deploy_mode}
   */
   readonly deployMode?: string;
   /**
   * Hostname of the System node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_device_allocation#hostname DatacenterDeviceAllocation#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_device_allocation#hostname DatacenterDeviceAllocation#hostname}
   */
   readonly hostname?: string;
   /**
   * IPv4 address of loopback interface in CIDR notation, must use 32-bit mask. Setting loopback addresses is supported only for Spine and Leaf switches.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_device_allocation#loopback_ipv4 DatacenterDeviceAllocation#loopback_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_device_allocation#loopback_ipv4 DatacenterDeviceAllocation#loopback_ipv4}
   */
   readonly loopbackIpv4?: string;
   /**
   * IPv6 address of loopback interface in CIDR notation, must use 128-bit mask. Setting loopback addresses is supported only for Spine and Leaf switches. IPv6 must be enabled in the Blueprint to use this attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_device_allocation#loopback_ipv6 DatacenterDeviceAllocation#loopback_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_device_allocation#loopback_ipv6 DatacenterDeviceAllocation#loopback_ipv6}
   */
   readonly loopbackIpv6?: string;
   /**
   * Web UI label for the system node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_device_allocation#name DatacenterDeviceAllocation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_device_allocation#name DatacenterDeviceAllocation#name}
   */
   readonly name?: string;
   /**
   * Tag labels to be applied to the System node. If a Tag doesn't exist in the Blueprint it will be created automatically.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_device_allocation#tags DatacenterDeviceAllocation#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_device_allocation#tags DatacenterDeviceAllocation#tags}
   */
   readonly tags?: string[];
 }
@@ -354,7 +354,7 @@ export class DatacenterDeviceAllocationSystemAttributesOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_device_allocation apstra_datacenter_device_allocation}
+* Represents a {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_device_allocation apstra_datacenter_device_allocation}
 */
 export class DatacenterDeviceAllocation extends cdktf.TerraformResource {
 
@@ -370,7 +370,7 @@ export class DatacenterDeviceAllocation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DatacenterDeviceAllocation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatacenterDeviceAllocation to import
-  * @param importFromId The id of the existing DatacenterDeviceAllocation that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_device_allocation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatacenterDeviceAllocation that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_device_allocation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatacenterDeviceAllocation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -382,7 +382,7 @@ export class DatacenterDeviceAllocation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.0/docs/resources/datacenter_device_allocation apstra_datacenter_device_allocation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juniper/apstra/0.95.1/docs/resources/datacenter_device_allocation apstra_datacenter_device_allocation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -393,7 +393,8 @@ export class DatacenterDeviceAllocation extends cdktf.TerraformResource {
       terraformResourceType: 'apstra_datacenter_device_allocation',
       terraformGeneratorMetadata: {
         providerName: 'apstra',
-        providerVersion: '0.95.0'
+        providerVersion: '0.95.1',
+        providerVersionConstraint: '0.95.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

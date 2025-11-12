@@ -519,7 +519,8 @@ export class DataOciFusionAppsFusionEnvironmentAdminUsers extends cdktf.Terrafor
       terraformResourceType: 'oci_fusion_apps_fusion_environment_admin_users',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

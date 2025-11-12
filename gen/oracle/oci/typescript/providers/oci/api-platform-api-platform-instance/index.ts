@@ -364,7 +364,8 @@ export class ApiPlatformApiPlatformInstance extends cdktf.TerraformResource {
       terraformResourceType: 'oci_api_platform_api_platform_instance',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

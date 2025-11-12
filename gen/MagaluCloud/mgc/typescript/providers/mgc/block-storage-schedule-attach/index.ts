@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/magalucloud/mgc/0.39.0/docs/resources/block_storage_schedule_attach
+// https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/resources/block_storage_schedule_attach
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface BlockStorageScheduleAttachConfig extends cdktf.TerraformMetaArg
   /**
   * The ID of the snapshot schedule to attach the volume to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.39.0/docs/resources/block_storage_schedule_attach#schedule_id BlockStorageScheduleAttach#schedule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/resources/block_storage_schedule_attach#schedule_id BlockStorageScheduleAttach#schedule_id}
   */
   readonly scheduleId: string;
   /**
   * The ID of the block storage volume to attach to the schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.39.0/docs/resources/block_storage_schedule_attach#volume_id BlockStorageScheduleAttach#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/resources/block_storage_schedule_attach#volume_id BlockStorageScheduleAttach#volume_id}
   */
   readonly volumeId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.39.0/docs/resources/block_storage_schedule_attach mgc_block_storage_schedule_attach}
+* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/resources/block_storage_schedule_attach mgc_block_storage_schedule_attach}
 */
 export class BlockStorageScheduleAttach extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class BlockStorageScheduleAttach extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BlockStorageScheduleAttach resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BlockStorageScheduleAttach to import
-  * @param importFromId The id of the existing BlockStorageScheduleAttach that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.39.0/docs/resources/block_storage_schedule_attach#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BlockStorageScheduleAttach that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/resources/block_storage_schedule_attach#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BlockStorageScheduleAttach to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class BlockStorageScheduleAttach extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.39.0/docs/resources/block_storage_schedule_attach mgc_block_storage_schedule_attach} Resource
+  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/resources/block_storage_schedule_attach mgc_block_storage_schedule_attach} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,7 +61,8 @@ export class BlockStorageScheduleAttach extends cdktf.TerraformResource {
       terraformResourceType: 'mgc_block_storage_schedule_attach',
       terraformGeneratorMetadata: {
         providerName: 'mgc',
-        providerVersion: '0.39.0'
+        providerVersion: '0.40.0',
+        providerVersionConstraint: '0.40.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

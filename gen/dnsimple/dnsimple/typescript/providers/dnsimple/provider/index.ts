@@ -85,7 +85,8 @@ export class DnsimpleProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'dnsimple',
       terraformGeneratorMetadata: {
         providerName: 'dnsimple',
-        providerVersion: '1.10.0'
+        providerVersion: '1.10.0',
+        providerVersionConstraint: '1.10.0'
       },
       terraformProviderSource: 'dnsimple/dnsimple'
     });

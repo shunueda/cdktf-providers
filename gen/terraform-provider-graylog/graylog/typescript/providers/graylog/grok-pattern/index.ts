@@ -64,7 +64,8 @@ export class GrokPattern extends cdktf.TerraformResource {
       terraformResourceType: 'graylog_grok_pattern',
       terraformGeneratorMetadata: {
         providerName: 'graylog',
-        providerVersion: '1.0.4'
+        providerVersion: '1.0.4',
+        providerVersionConstraint: '1.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

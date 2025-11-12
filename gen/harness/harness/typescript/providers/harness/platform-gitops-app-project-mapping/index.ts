@@ -86,7 +86,8 @@ export class PlatformGitopsAppProjectMapping extends cdktf.TerraformResource {
       terraformResourceType: 'harness_platform_gitops_app_project_mapping',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.0'
+        providerVersion: '0.39.0',
+        providerVersionConstraint: '0.39.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

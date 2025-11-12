@@ -79,7 +79,8 @@ export class CurlProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'curl',
       terraformGeneratorMetadata: {
         providerName: 'curl',
-        providerVersion: '1.0.2'
+        providerVersion: '1.0.2',
+        providerVersionConstraint: '1.0.2'
       },
       terraformProviderSource: 'anschoewe/curl'
     });

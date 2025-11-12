@@ -1089,7 +1089,8 @@ export class ProjectSettings extends cdktf.TerraformResource {
       terraformResourceType: 'commercetools_project_settings',
       terraformGeneratorMetadata: {
         providerName: 'commercetools',
-        providerVersion: '1.21.1'
+        providerVersion: '1.21.1',
+        providerVersionConstraint: '1.21.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/data-sources/instance_pool_list
+// https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/instance_pool_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataExoscaleInstancePoolListConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/data-sources/instance_pool_list#id DataExoscaleInstancePoolList#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/instance_pool_list#id DataExoscaleInstancePoolList#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataExoscaleInstancePoolListConfig extends cdktf.TerraformMetaA
   /**
   * The Exoscale [Zone](https://www.exoscale.com/datacenters/) name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/data-sources/instance_pool_list#zone DataExoscaleInstancePoolList#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/instance_pool_list#zone DataExoscaleInstancePoolList#zone}
   */
   readonly zone: string;
 }
@@ -295,7 +295,7 @@ export class DataExoscaleInstancePoolListPoolsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/data-sources/instance_pool_list exoscale_instance_pool_list}
+* Represents a {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/instance_pool_list exoscale_instance_pool_list}
 */
 export class DataExoscaleInstancePoolList extends cdktf.TerraformDataSource {
 
@@ -311,7 +311,7 @@ export class DataExoscaleInstancePoolList extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataExoscaleInstancePoolList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataExoscaleInstancePoolList to import
-  * @param importFromId The id of the existing DataExoscaleInstancePoolList that should be imported. Refer to the {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/data-sources/instance_pool_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataExoscaleInstancePoolList that should be imported. Refer to the {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/instance_pool_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataExoscaleInstancePoolList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -323,7 +323,7 @@ export class DataExoscaleInstancePoolList extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/exoscale/exoscale/0.66.0/docs/data-sources/instance_pool_list exoscale_instance_pool_list} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/exoscale/exoscale/0.67.0/docs/data-sources/instance_pool_list exoscale_instance_pool_list} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -334,7 +334,8 @@ export class DataExoscaleInstancePoolList extends cdktf.TerraformDataSource {
       terraformResourceType: 'exoscale_instance_pool_list',
       terraformGeneratorMetadata: {
         providerName: 'exoscale',
-        providerVersion: '0.66.0'
+        providerVersion: '0.67.0',
+        providerVersionConstraint: '0.67.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

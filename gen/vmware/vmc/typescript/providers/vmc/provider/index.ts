@@ -79,7 +79,8 @@ export class VmcProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'vmc',
       terraformGeneratorMetadata: {
         providerName: 'vmc',
-        providerVersion: '1.15.5'
+        providerVersion: '1.15.5',
+        providerVersionConstraint: '1.15.5'
       },
       terraformProviderSource: 'vmware/vmc'
     });

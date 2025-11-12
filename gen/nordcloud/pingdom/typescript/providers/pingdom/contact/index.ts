@@ -428,7 +428,8 @@ export class Contact extends cdktf.TerraformResource {
       terraformResourceType: 'pingdom_contact',
       terraformGeneratorMetadata: {
         providerName: 'pingdom',
-        providerVersion: '1.1.4'
+        providerVersion: '1.1.4',
+        providerVersionConstraint: '1.1.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

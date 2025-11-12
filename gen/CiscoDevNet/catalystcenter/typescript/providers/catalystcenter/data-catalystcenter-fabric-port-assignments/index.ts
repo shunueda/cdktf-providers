@@ -190,7 +190,8 @@ export class DataCatalystcenterFabricPortAssignments extends cdktf.TerraformData
       terraformResourceType: 'catalystcenter_fabric_port_assignments',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.2'
+        providerVersion: '0.4.2',
+        providerVersionConstraint: '0.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

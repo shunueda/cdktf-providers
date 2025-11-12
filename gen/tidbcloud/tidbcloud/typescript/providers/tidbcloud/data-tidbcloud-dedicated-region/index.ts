@@ -55,7 +55,8 @@ export class DataTidbcloudDedicatedRegion extends cdktf.TerraformDataSource {
       terraformResourceType: 'tidbcloud_dedicated_region',
       terraformGeneratorMetadata: {
         providerName: 'tidbcloud',
-        providerVersion: '0.4.5'
+        providerVersion: '0.4.5',
+        providerVersionConstraint: '0.4.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -62,7 +62,8 @@ export class DataSonarqubeGroup extends cdktf.TerraformDataSource {
       terraformResourceType: 'sonarqube_group',
       terraformGeneratorMetadata: {
         providerName: 'sonarqube',
-        providerVersion: '0.16.17'
+        providerVersion: '0.16.17',
+        providerVersionConstraint: '0.16.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

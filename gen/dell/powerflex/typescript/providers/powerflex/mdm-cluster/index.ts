@@ -958,7 +958,8 @@ export class MdmCluster extends cdktf.TerraformResource {
       terraformResourceType: 'powerflex_mdm_cluster',
       terraformGeneratorMetadata: {
         providerName: 'powerflex',
-        providerVersion: '1.8.0'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

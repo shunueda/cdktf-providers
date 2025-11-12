@@ -90,7 +90,8 @@ export class ConcreteInterface extends cdktf.TerraformResource {
       terraformResourceType: 'aci_concrete_interface',
       terraformGeneratorMetadata: {
         providerName: 'aci',
-        providerVersion: '2.18.0'
+        providerVersion: '2.18.0',
+        providerVersionConstraint: '2.18.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

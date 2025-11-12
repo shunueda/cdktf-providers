@@ -448,7 +448,8 @@ export class DataThunderVisibilityMonTopkSourcesOper extends cdktf.TerraformData
       terraformResourceType: 'thunder_visibility_mon_topk_sources_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2'
+        providerVersion: '1.4.2',
+        providerVersionConstraint: '1.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_verify_revert
+// https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_verify_revert
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ManagementVerifyRevertConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_verify_revert#id ManagementVerifyRevert#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_verify_revert#id ManagementVerifyRevert#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface ManagementVerifyRevertConfig extends cdktf.TerraformMetaArgumen
   /**
   * Session unique identifier. Specify the session you would like to verify a revert operation to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_verify_revert#to_session ManagementVerifyRevert#to_session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_verify_revert#to_session ManagementVerifyRevert#to_session}
   */
   readonly toSession: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_verify_revert checkpoint_management_verify_revert}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_verify_revert checkpoint_management_verify_revert}
 */
 export class ManagementVerifyRevert extends cdktf.TerraformResource {
 
@@ -39,7 +39,7 @@ export class ManagementVerifyRevert extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementVerifyRevert resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementVerifyRevert to import
-  * @param importFromId The id of the existing ManagementVerifyRevert that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_verify_revert#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementVerifyRevert that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_verify_revert#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementVerifyRevert to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -51,7 +51,7 @@ export class ManagementVerifyRevert extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.11.0/docs/resources/management_verify_revert checkpoint_management_verify_revert} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/checkpoint/2.12.0/docs/resources/management_verify_revert checkpoint_management_verify_revert} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -62,7 +62,8 @@ export class ManagementVerifyRevert extends cdktf.TerraformResource {
       terraformResourceType: 'checkpoint_management_verify_revert',
       terraformGeneratorMetadata: {
         providerName: 'checkpoint',
-        providerVersion: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

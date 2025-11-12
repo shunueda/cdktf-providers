@@ -180,7 +180,8 @@ export class DataAlicloudCenTransitRouterMulticastDomains extends cdktf.Terrafor
       terraformResourceType: 'alicloud_cen_transit_router_multicast_domains',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -55,7 +55,8 @@ export class DataMerakiOrganizationBrandingPoliciesPriorities extends cdktf.Terr
       terraformResourceType: 'meraki_organization_branding_policies_priorities',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1'
+        providerVersion: '1.7.1',
+        providerVersionConstraint: '1.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

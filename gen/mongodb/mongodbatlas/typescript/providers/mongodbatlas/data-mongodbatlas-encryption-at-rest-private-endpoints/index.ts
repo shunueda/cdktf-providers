@@ -166,7 +166,8 @@ export class DataMongodbatlasEncryptionAtRestPrivateEndpoints extends cdktf.Terr
       terraformResourceType: 'mongodbatlas_encryption_at_rest_private_endpoints',
       terraformGeneratorMetadata: {
         providerName: 'mongodbatlas',
-        providerVersion: '2.1.0'
+        providerVersion: '2.1.0',
+        providerVersionConstraint: '2.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

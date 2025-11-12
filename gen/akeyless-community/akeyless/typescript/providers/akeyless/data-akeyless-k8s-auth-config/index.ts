@@ -55,7 +55,8 @@ export class DataAkeylessK8SAuthConfig extends cdktf.TerraformDataSource {
       terraformResourceType: 'akeyless_k8s_auth_config',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1'
+        providerVersion: '1.11.1',
+        providerVersionConstraint: '1.11.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

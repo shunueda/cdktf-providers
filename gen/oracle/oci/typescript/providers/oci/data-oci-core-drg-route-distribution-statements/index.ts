@@ -418,7 +418,8 @@ export class DataOciCoreDrgRouteDistributionStatements extends cdktf.TerraformDa
       terraformResourceType: 'oci_core_drg_route_distribution_statements',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0'
+        providerVersion: '7.25.0',
+        providerVersionConstraint: '7.25.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

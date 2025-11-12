@@ -61,7 +61,8 @@ export class GpgKey extends cdktf.TerraformResource {
       terraformResourceType: 'tharsis_gpg_key',
       terraformGeneratorMetadata: {
         providerName: 'tharsis',
-        providerVersion: '0.14.1'
+        providerVersion: '0.14.1',
+        providerVersionConstraint: '0.14.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

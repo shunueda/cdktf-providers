@@ -526,7 +526,8 @@ export class DataSdwanApplicationAwareRoutingPolicyDefinition extends cdktf.Terr
       terraformResourceType: 'sdwan_application_aware_routing_policy_definition',
       terraformGeneratorMetadata: {
         providerName: 'sdwan',
-        providerVersion: '0.8.1'
+        providerVersion: '0.8.1',
+        providerVersionConstraint: '0.8.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

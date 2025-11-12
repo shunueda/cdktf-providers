@@ -169,7 +169,8 @@ export class ZpaProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'zpa',
       terraformGeneratorMetadata: {
         providerName: 'zpa',
-        providerVersion: '4.3.2'
+        providerVersion: '4.3.2',
+        providerVersionConstraint: '4.3.2'
       },
       terraformProviderSource: 'zscaler/zpa'
     });

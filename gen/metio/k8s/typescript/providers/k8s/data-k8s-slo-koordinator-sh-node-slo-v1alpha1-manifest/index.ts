@@ -13170,7 +13170,8 @@ export class DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest extends cdktf.Terraf
       terraformResourceType: 'k8s_slo_koordinator_sh_node_slo_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

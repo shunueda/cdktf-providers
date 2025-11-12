@@ -80,7 +80,8 @@ export class Environment extends cdktf.TerraformResource {
       terraformResourceType: 'doppler_environment',
       terraformGeneratorMetadata: {
         providerName: 'doppler',
-        providerVersion: '1.21.0'
+        providerVersion: '1.21.0',
+        providerVersionConstraint: '1.21.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

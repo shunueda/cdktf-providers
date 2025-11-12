@@ -197,7 +197,8 @@ export class VpcGatewayEndpointRouteTableAttachment extends cdktf.TerraformResou
       terraformResourceType: 'alicloud_vpc_gateway_endpoint_route_table_attachment',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

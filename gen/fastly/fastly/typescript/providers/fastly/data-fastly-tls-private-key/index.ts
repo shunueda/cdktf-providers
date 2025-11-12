@@ -88,7 +88,8 @@ export class DataFastlyTlsPrivateKey extends cdktf.TerraformDataSource {
       terraformResourceType: 'fastly_tls_private_key',
       terraformGeneratorMetadata: {
         providerName: 'fastly',
-        providerVersion: '8.4.0'
+        providerVersion: '8.4.0',
+        providerVersionConstraint: '8.4.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

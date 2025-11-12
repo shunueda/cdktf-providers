@@ -290,7 +290,8 @@ export class McrPrefixFilterList extends cdktf.TerraformResource {
       terraformResourceType: 'megaport_mcr_prefix_filter_list',
       terraformGeneratorMetadata: {
         providerName: 'megaport',
-        providerVersion: '1.4.6'
+        providerVersion: '1.4.6',
+        providerVersionConstraint: '1.4.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

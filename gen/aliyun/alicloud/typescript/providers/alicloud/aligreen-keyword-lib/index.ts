@@ -258,7 +258,8 @@ export class AligreenKeywordLib extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_aligreen_keyword_lib',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -63,7 +63,8 @@ export class DataFortisaseUsageSecurityRecurringSchedules extends cdktf.Terrafor
       terraformResourceType: 'fortisase_usage_security_recurring_schedules',
       terraformGeneratorMetadata: {
         providerName: 'fortisase',
-        providerVersion: '1.0.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

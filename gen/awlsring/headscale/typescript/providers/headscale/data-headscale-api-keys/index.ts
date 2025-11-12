@@ -150,7 +150,8 @@ export class DataHeadscaleApiKeys extends cdktf.TerraformDataSource {
       terraformResourceType: 'headscale_api_keys',
       terraformGeneratorMetadata: {
         providerName: 'headscale',
-        providerVersion: '0.4.2'
+        providerVersion: '0.4.2',
+        providerVersionConstraint: '0.4.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

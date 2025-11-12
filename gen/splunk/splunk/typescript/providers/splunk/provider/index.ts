@@ -91,7 +91,8 @@ export class SplunkProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'splunk',
       terraformGeneratorMetadata: {
         providerName: 'splunk',
-        providerVersion: '1.4.32'
+        providerVersion: '1.4.32',
+        providerVersionConstraint: '1.4.32'
       },
       terraformProviderSource: 'splunk/splunk'
     });

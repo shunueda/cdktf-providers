@@ -1411,7 +1411,8 @@ export class ClusterTypeEks extends cdktf.TerraformResource {
       terraformResourceType: 'nirmata_cluster_type_eks',
       terraformGeneratorMetadata: {
         providerName: 'nirmata',
-        providerVersion: '1.1.13'
+        providerVersion: '1.1.13',
+        providerVersionConstraint: '1.1.13'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

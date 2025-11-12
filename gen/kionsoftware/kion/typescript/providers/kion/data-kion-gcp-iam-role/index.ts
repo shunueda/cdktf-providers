@@ -516,7 +516,8 @@ export class DataKionGcpIamRole extends cdktf.TerraformDataSource {
       terraformResourceType: 'kion_gcp_iam_role',
       terraformGeneratorMetadata: {
         providerName: 'kion',
-        providerVersion: '0.3.29'
+        providerVersion: '0.3.29',
+        providerVersionConstraint: '0.3.29'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -67,7 +67,8 @@ export class DataNsSubdomain extends cdktf.TerraformDataSource {
       terraformResourceType: 'ns_subdomain',
       terraformGeneratorMetadata: {
         providerName: 'ns',
-        providerVersion: '0.8.0'
+        providerVersion: '0.8.0',
+        providerVersionConstraint: '0.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

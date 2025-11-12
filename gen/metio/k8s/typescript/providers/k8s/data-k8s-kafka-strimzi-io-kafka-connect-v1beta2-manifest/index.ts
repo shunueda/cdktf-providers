@@ -66,7 +66,8 @@ export class DataK8SKafkaStrimziIoKafkaConnectV1Beta2Manifest extends cdktf.Terr
       terraformResourceType: 'k8s_kafka_strimzi_io_kafka_connect_v1beta2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

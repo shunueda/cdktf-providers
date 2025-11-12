@@ -372,7 +372,8 @@ export class DataDuplocloudAwsLbTargetGroups extends cdktf.TerraformDataSource {
       terraformResourceType: 'duplocloud_aws_lb_target_groups',
       terraformGeneratorMetadata: {
         providerName: 'duplocloud',
-        providerVersion: '0.11.28'
+        providerVersion: '0.11.28',
+        providerVersionConstraint: '0.11.28'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

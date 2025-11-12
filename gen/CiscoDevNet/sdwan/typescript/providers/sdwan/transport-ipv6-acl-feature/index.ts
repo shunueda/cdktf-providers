@@ -1406,7 +1406,8 @@ export class TransportIpv6AclFeature extends cdktf.TerraformResource {
       terraformResourceType: 'sdwan_transport_ipv6_acl_feature',
       terraformGeneratorMetadata: {
         providerName: 'sdwan',
-        providerVersion: '0.8.1'
+        providerVersion: '0.8.1',
+        providerVersionConstraint: '0.8.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

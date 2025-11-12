@@ -12947,7 +12947,8 @@ export class DataK8STempoGrafanaComTempoMonolithicV1Alpha1Manifest extends cdktf
       terraformResourceType: 'k8s_tempo_grafana_com_tempo_monolithic_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3'
+        providerVersion: '2025.11.3',
+        providerVersionConstraint: '2025.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

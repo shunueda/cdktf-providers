@@ -61,7 +61,8 @@ export class DataNxosDefaultQosPolicyInterfaceInPolicyMap extends cdktf.Terrafor
       terraformResourceType: 'nxos_default_qos_policy_interface_in_policy_map',
       terraformGeneratorMetadata: {
         providerName: 'nxos',
-        providerVersion: '0.5.10'
+        providerVersion: '0.5.10',
+        providerVersionConstraint: '0.5.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

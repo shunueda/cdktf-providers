@@ -96,7 +96,8 @@ export class DataAciL4L7DeployedGraphConnectorVlan extends cdktf.TerraformDataSo
       terraformResourceType: 'aci_l4_l7_deployed_graph_connector_vlan',
       terraformGeneratorMetadata: {
         providerName: 'aci',
-        providerVersion: '2.18.0'
+        providerVersion: '2.18.0',
+        providerVersionConstraint: '2.18.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

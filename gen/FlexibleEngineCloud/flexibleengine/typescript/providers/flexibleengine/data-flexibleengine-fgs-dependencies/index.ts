@@ -182,7 +182,8 @@ export class DataFlexibleengineFgsDependencies extends cdktf.TerraformDataSource
       terraformResourceType: 'flexibleengine_fgs_dependencies',
       terraformGeneratorMetadata: {
         providerName: 'flexibleengine',
-        providerVersion: '1.46.0'
+        providerVersion: '1.46.0',
+        providerVersionConstraint: '1.46.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

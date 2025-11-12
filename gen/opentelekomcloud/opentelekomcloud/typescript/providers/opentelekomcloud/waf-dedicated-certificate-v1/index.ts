@@ -205,7 +205,8 @@ export class WafDedicatedCertificateV1 extends cdktf.TerraformResource {
       terraformResourceType: 'opentelekomcloud_waf_dedicated_certificate_v1',
       terraformGeneratorMetadata: {
         providerName: 'opentelekomcloud',
-        providerVersion: '1.36.52'
+        providerVersion: '1.36.52',
+        providerVersionConstraint: '1.36.52'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -59,7 +59,8 @@ export class AmixrProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'amixr',
       terraformGeneratorMetadata: {
         providerName: 'amixr',
-        providerVersion: '0.2.3'
+        providerVersion: '0.2.3',
+        providerVersionConstraint: '0.2.3'
       },
       terraformProviderSource: 'alertmixer/amixr'
     });

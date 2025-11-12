@@ -207,7 +207,8 @@ export class BlockStorageSnapshot extends cdktf.TerraformResource {
       terraformResourceType: 'ncloud_block_storage_snapshot',
       terraformGeneratorMetadata: {
         providerName: 'ncloud',
-        providerVersion: '4.0.4'
+        providerVersion: '4.0.4',
+        providerVersionConstraint: '4.0.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

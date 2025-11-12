@@ -103,7 +103,8 @@ export class KongProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'kong',
       terraformGeneratorMetadata: {
         providerName: 'kong',
-        providerVersion: '6.5.1'
+        providerVersion: '6.5.1',
+        providerVersionConstraint: '6.5.1'
       },
       terraformProviderSource: 'kevholditch/kong'
     });

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/gcp_gke_credentials
+// https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/gcp_gke_credentials
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface GcpGkeCredentialsConfig extends cdktf.TerraformMetaArguments {
   /**
   * gke cluster name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/gcp_gke_credentials#cluster_name GcpGkeCredentials#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/gcp_gke_credentials#cluster_name GcpGkeCredentials#cluster_name}
   */
   readonly clusterName: string;
   /**
   * the GCP gke compute region
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/gcp_gke_credentials#compute_region GcpGkeCredentials#compute_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/gcp_gke_credentials#compute_region GcpGkeCredentials#compute_region}
   */
   readonly computeRegion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/gcp_gke_credentials#id GcpGkeCredentials#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/gcp_gke_credentials#id GcpGkeCredentials#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,13 +29,13 @@ export interface GcpGkeCredentialsConfig extends cdktf.TerraformMetaArguments {
   /**
   * name for the credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/gcp_gke_credentials#name GcpGkeCredentials#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/gcp_gke_credentials#name GcpGkeCredentials#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/gcp_gke_credentials env0_gcp_gke_credentials}
+* Represents a {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/gcp_gke_credentials env0_gcp_gke_credentials}
 */
 export class GcpGkeCredentials extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class GcpGkeCredentials extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GcpGkeCredentials resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GcpGkeCredentials to import
-  * @param importFromId The id of the existing GcpGkeCredentials that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/gcp_gke_credentials#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GcpGkeCredentials that should be imported. Refer to the {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/gcp_gke_credentials#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GcpGkeCredentials to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class GcpGkeCredentials extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.4/docs/resources/gcp_gke_credentials env0_gcp_gke_credentials} Resource
+  * Create a new {@link https://registry.terraform.io/providers/env0/env0/1.29.6/docs/resources/gcp_gke_credentials env0_gcp_gke_credentials} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,7 +74,8 @@ export class GcpGkeCredentials extends cdktf.TerraformResource {
       terraformResourceType: 'env0_gcp_gke_credentials',
       terraformGeneratorMetadata: {
         providerName: 'env0',
-        providerVersion: '1.29.4'
+        providerVersion: '1.29.6',
+        providerVersionConstraint: '1.29.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

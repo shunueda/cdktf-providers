@@ -73,7 +73,8 @@ export class BetteruptimeHeartbeatGroup extends cdktf.TerraformResource {
       terraformResourceType: 'betteruptime_heartbeat_group',
       terraformGeneratorMetadata: {
         providerName: 'better-uptime',
-        providerVersion: '0.20.4'
+        providerVersion: '0.20.4',
+        providerVersionConstraint: '0.20.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

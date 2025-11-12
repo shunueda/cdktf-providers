@@ -200,7 +200,8 @@ export class DataTencentcloudRumSetUrlStatistics extends cdktf.TerraformDataSour
       terraformResourceType: 'tencentcloud_rum_set_url_statistics',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.35'
+        providerVersion: '1.82.35',
+        providerVersionConstraint: '1.82.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

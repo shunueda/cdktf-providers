@@ -244,7 +244,8 @@ export class DataSdmProxyClusterKey extends cdktf.TerraformDataSource {
       terraformResourceType: 'sdm_proxy_cluster_key',
       terraformGeneratorMetadata: {
         providerName: 'sdm',
-        providerVersion: '15.27.0'
+        providerVersion: '15.27.0',
+        providerVersionConstraint: '15.27.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -272,7 +272,8 @@ export class DataAlicloudConfigAggregators extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_config_aggregators',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/subscribergxinterface
+// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/subscribergxinterface
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,84 +8,84 @@ import * as cdktf from 'cdktf';
 
 export interface SubscribergxinterfaceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/subscribergxinterface#cerrequesttimeout Subscribergxinterface#cerrequesttimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/subscribergxinterface#cerrequesttimeout Subscribergxinterface#cerrequesttimeout}
   */
   readonly cerrequesttimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/subscribergxinterface#healthcheck Subscribergxinterface#healthcheck}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/subscribergxinterface#healthcheck Subscribergxinterface#healthcheck}
   */
   readonly healthcheck?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/subscribergxinterface#healthcheckttl Subscribergxinterface#healthcheckttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/subscribergxinterface#healthcheckttl Subscribergxinterface#healthcheckttl}
   */
   readonly healthcheckttl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/subscribergxinterface#holdonsubscriberabsence Subscribergxinterface#holdonsubscriberabsence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/subscribergxinterface#holdonsubscriberabsence Subscribergxinterface#holdonsubscriberabsence}
   */
   readonly holdonsubscriberabsence?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/subscribergxinterface#id Subscribergxinterface#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/subscribergxinterface#id Subscribergxinterface#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/subscribergxinterface#idlettl Subscribergxinterface#idlettl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/subscribergxinterface#idlettl Subscribergxinterface#idlettl}
   */
   readonly idlettl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/subscribergxinterface#negativettl Subscribergxinterface#negativettl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/subscribergxinterface#negativettl Subscribergxinterface#negativettl}
   */
   readonly negativettl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/subscribergxinterface#negativettllimitedsuccess Subscribergxinterface#negativettllimitedsuccess}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/subscribergxinterface#negativettllimitedsuccess Subscribergxinterface#negativettllimitedsuccess}
   */
   readonly negativettllimitedsuccess?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/subscribergxinterface#nodeid Subscribergxinterface#nodeid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/subscribergxinterface#nodeid Subscribergxinterface#nodeid}
   */
   readonly nodeid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/subscribergxinterface#pcrfrealm Subscribergxinterface#pcrfrealm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/subscribergxinterface#pcrfrealm Subscribergxinterface#pcrfrealm}
   */
   readonly pcrfrealm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/subscribergxinterface#purgesdbongxfailure Subscribergxinterface#purgesdbongxfailure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/subscribergxinterface#purgesdbongxfailure Subscribergxinterface#purgesdbongxfailure}
   */
   readonly purgesdbongxfailure?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/subscribergxinterface#requestretryattempts Subscribergxinterface#requestretryattempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/subscribergxinterface#requestretryattempts Subscribergxinterface#requestretryattempts}
   */
   readonly requestretryattempts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/subscribergxinterface#requesttimeout Subscribergxinterface#requesttimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/subscribergxinterface#requesttimeout Subscribergxinterface#requesttimeout}
   */
   readonly requesttimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/subscribergxinterface#revalidationtimeout Subscribergxinterface#revalidationtimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/subscribergxinterface#revalidationtimeout Subscribergxinterface#revalidationtimeout}
   */
   readonly revalidationtimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/subscribergxinterface#service Subscribergxinterface#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/subscribergxinterface#service Subscribergxinterface#service}
   */
   readonly service?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/subscribergxinterface#servicepathavp Subscribergxinterface#servicepathavp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/subscribergxinterface#servicepathavp Subscribergxinterface#servicepathavp}
   */
   readonly servicepathavp?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/subscribergxinterface#servicepathvendorid Subscribergxinterface#servicepathvendorid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/subscribergxinterface#servicepathvendorid Subscribergxinterface#servicepathvendorid}
   */
   readonly servicepathvendorid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/subscribergxinterface#vserver Subscribergxinterface#vserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/subscribergxinterface#vserver Subscribergxinterface#vserver}
   */
   readonly vserver?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/subscribergxinterface citrixadc_subscribergxinterface}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/subscribergxinterface citrixadc_subscribergxinterface}
 */
 export class Subscribergxinterface extends cdktf.TerraformResource {
 
@@ -101,7 +101,7 @@ export class Subscribergxinterface extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Subscribergxinterface resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Subscribergxinterface to import
-  * @param importFromId The id of the existing Subscribergxinterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/subscribergxinterface#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Subscribergxinterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/subscribergxinterface#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Subscribergxinterface to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -113,7 +113,7 @@ export class Subscribergxinterface extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/1.45.0/docs/resources/subscribergxinterface citrixadc_subscribergxinterface} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/subscribergxinterface citrixadc_subscribergxinterface} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -124,7 +124,8 @@ export class Subscribergxinterface extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_subscribergxinterface',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '1.45.0'
+        providerVersion: '2.0.0',
+        providerVersionConstraint: '2.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

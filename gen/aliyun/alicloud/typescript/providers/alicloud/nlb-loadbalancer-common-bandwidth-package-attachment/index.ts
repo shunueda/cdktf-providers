@@ -197,7 +197,8 @@ export class NlbLoadbalancerCommonBandwidthPackageAttachment extends cdktf.Terra
       terraformResourceType: 'alicloud_nlb_loadbalancer_common_bandwidth_package_attachment',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.262.1'
+        providerVersion: '1.262.1',
+        providerVersionConstraint: '1.262.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

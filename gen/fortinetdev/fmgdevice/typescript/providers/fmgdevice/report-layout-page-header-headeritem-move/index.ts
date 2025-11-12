@@ -84,7 +84,8 @@ export class ReportLayoutPageHeaderHeaderitemMove extends cdktf.TerraformResourc
       terraformResourceType: 'fmgdevice_report_layout_page_header_headeritem_move',
       terraformGeneratorMetadata: {
         providerName: 'fmgdevice',
-        providerVersion: '1.2.1'
+        providerVersion: '1.2.1',
+        providerVersionConstraint: '1.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

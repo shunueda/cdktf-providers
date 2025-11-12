@@ -98,7 +98,8 @@ export class DataSendgridTeammate extends cdktf.TerraformDataSource {
       terraformResourceType: 'sendgrid_teammate',
       terraformGeneratorMetadata: {
         providerName: 'sendgrid',
-        providerVersion: '1.1.2'
+        providerVersion: '1.1.2',
+        providerVersionConstraint: '1.1.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -84,7 +84,8 @@ export class SpanSourceGroup extends cdktf.TerraformResource {
       terraformResourceType: 'aci_span_source_group',
       terraformGeneratorMetadata: {
         providerName: 'aci',
-        providerVersion: '2.18.0'
+        providerVersion: '2.18.0',
+        providerVersionConstraint: '2.18.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

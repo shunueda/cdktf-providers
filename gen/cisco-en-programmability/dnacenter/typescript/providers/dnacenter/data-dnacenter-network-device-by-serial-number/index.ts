@@ -328,7 +328,8 @@ export class DataDnacenterNetworkDeviceBySerialNumber extends cdktf.TerraformDat
       terraformResourceType: 'dnacenter_network_device_by_serial_number',
       terraformGeneratorMetadata: {
         providerName: 'dnacenter',
-        providerVersion: '1.1.21'
+        providerVersion: '1.1.21',
+        providerVersionConstraint: '1.1.21'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
